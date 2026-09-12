@@ -22,6 +22,12 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { hashPage } from "./normalize-hash.mjs";
 
+/** violations print as "  - msg"; notices print as "  note: msg". A test that
+ *  merely greps the output cannot tell them apart, and one that did let a
+ *  fail()->note() mutation pass unnoticed. */
+const violations = (out) => out.split("\n").filter((l) => /^ {2}- /.test(l));
+const hasViolation = (out, re) => violations(out).some((l) => re.test(l));
+
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO = join(HERE, "..", "..");
 const CHECKER = join("translation", "check-invariants.mjs");
@@ -544,7 +550,7 @@ test("a translation must be an ordinary file, not a symlink", () => {
 
 test("DIRECTION 1: a tool-only provenance change is a valid reason", () => {
   // `tool` alone is exactly what the refusal message tells people to write, and
-  // it is the shape commit 9dcac0e4 used on 36 entries. Nothing tested it, so
+  // it is the shape commit 9dcac0e4 used on 72 entries. Nothing tested it, so
   // dropping `tool` from the provenance comparison passed the whole suite.
   const r = makeRepo();
   try {
@@ -657,5 +663,66 @@ test("a dirty working tree is called out, because CI asks about the commit", () 
     const { out } = r.runOut();
     assert.match(out, /uncommitted change\(s\) under site\/, translations\/ or translation\//);
     assert.match(out, /describes your WORKING TREE/);
+  } finally { r.cleanup(); }
+});
+
+test("a symlink that was ALREADY there is refused, not just a new one", () => {
+  // The change detector only sees shapes that appear in a diff, so a link that
+  // predates the base never reached it. Direction 2 happened to refuse such a
+  // page anyway, but for the wrong reason — "nothing changed" rather than "this
+  // is not a page". The rule is now stated over the whole tree.
+  const r = makeRepo();
+  try {
+    r.write("attic/copy.md", TR_BODY);
+    rmSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`));
+    symlinkSync("../../../../attic/copy.md", join(r.dir, `translations/${LOC}/site/${EN_PAGE}`));
+    r.commit("a translation that is a link, from the start");
+    // Compare against THIS commit, so the link appears in no diff record at all.
+    // Otherwise the changed-record check fires with the same wording and the
+    // tree-wide rule is never the thing under test.
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /is not a regular file \(mode 120000\)/),
+      `expected a VIOLATION about the symlink, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("DIRECTION 1: an engine-only provenance change is a valid reason", () => {
+  // Switching engine for a locale (NLLB -> Google, say) is a recorded pass. It
+  // was missing from the comparison, so such a change was refused with advice to
+  // record the thing that had just been recorded.
+  const r = makeRepo();
+  try {
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda"));
+    const m = r.manifest();
+    m[LOC][EN_PAGE].engine = "nllb";             // ONLY engine moves
+    r.setManifest(m);
+    r.commit("retranslate this locale with a different engine");
+    assert.equal(r.run(), 0, "recording the pass in `engine` must be accepted");
+  } finally { r.cleanup(); }
+});
+
+test("the refusal does not offer a line that cannot work", () => {
+  // A line pins the manifest's src to the English on disk. If the manifest
+  // records some other hash, no line satisfies that — and printing one sends the
+  // operator round a loop: they add exactly what was asked and get the same
+  // refusal back.
+  const r = makeRepo();
+  try {
+    const base = r.base;
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write(`site/${EN_PAGE}`, EN2);
+    const m = r.manifest();
+    m[LOC][EN_PAGE].src = "sha256:" + "7".repeat(64);   // neither base nor disk
+    r.setManifest(m);
+    r.commit("bump src to something that is not the English on disk");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /no exception can bridge that/),
+      `expected the refusal to explain the src mismatch, got:\n${out}`);
+    assert.ok(!hasViolation(out, /a human can record that in/),
+      "it must not offer a line that cannot satisfy the check");
   } finally { r.cleanup(); }
 });

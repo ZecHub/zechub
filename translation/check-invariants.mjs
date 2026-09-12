@@ -158,6 +158,33 @@ function localeDirs() {
   for (const l of manifestLocales) if (!dirs.has(l)) fail(`manifest declares locale "${l}" with no translations/${l}/site/ directory`);
 }
 
+// ---- every tracked translation is an ordinary file -----------------------
+// A symlink's blob holds its TARGET PATH, so the object id and the text a reader
+// actually sees can move independently: the diff says "changed" when the page did
+// not, or says nothing when the target was rewritten underneath it. The change
+// detector refuses that shape when it appears in a diff, but a link that was
+// already there never appears in one — so state the rule over the whole tree,
+// where it is a rule rather than a special case.
+{
+  let listing;
+  try {
+    listing = execFileSync("git", ["ls-files", "-s", "-z", "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+  } catch (e) {
+    fail(`could not list translations/ with modes (${e.code || e.message}) — refusing to treat that as "nothing is there".`);
+    listing = "";
+  }
+  for (const rec of listing.split("\0")) {
+    if (!rec) continue;
+    const m = rec.match(/^(\d{6}) [0-9a-f]+ \d+\t([\s\S]+)$/);
+    if (!m) { fail(`could not parse git ls-files record "${rec.slice(0, 80)}".`); continue; }
+    const [, mode, path] = m;
+    if (!path.endsWith(".md")) continue;
+    if (mode !== "100644" && mode !== "100755") {
+      fail(`${path} is not a regular file (mode ${mode}) — translations must be ordinary files, not symlinks or submodules.`);
+    }
+  }
+}
+
 // ---- bijection: curated ⊆ site -------------------------------------------
 //
 // Still blocking, but the message now distinguishes two very different causes.
@@ -548,7 +575,14 @@ if (baseArgInvalid) {
       // promise about what they are pushing.
       try {
         const dirty = execFileSync("git", ["status", "--porcelain", "-z", "--", "site/", "translations/", "translation/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
-        const n = dirty.split("\0").filter((x) => x.trim() !== "").length;
+        // Each entry is "XY path"; a rename or copy adds a SECOND field for the
+        // old path, so counting fields reports one change as two.
+        const fields = dirty.split("\0").filter((x) => x !== "");
+        let n = 0;
+        for (let i = 0; i < fields.length; i++) {
+          n++;
+          if (/^[RC]/.test(fields[i]) || /^.[RC]/.test(fields[i])) i++;   // skip the old-path field
+        }
         if (n > 0) {
           note(`${n} uncommitted change(s) under site/, translations/ or translation/ — this run describes your WORKING TREE, not the commit CI will check. Commit before trusting a green result.`);
         }
@@ -625,7 +659,7 @@ if (baseArgInvalid) {
         // PR (false/absent → true). `edited:true` already at base is not a
         // standing licence to mutate the file forever with no manifest trace.
         const editFlipped = now.edited === true && was?.edited !== true;
-        const provenanceChanged = !was || now.src !== was.src || now.mode !== was.mode || now.tool !== was.tool;
+        const provenanceChanged = !was || now.src !== was.src || now.mode !== was.mode || now.tool !== was.tool || now.engine !== was.engine;
         if (!provenanceChanged && !editFlipped) {
           fail(`${loc}/${page}: translation changed but manifest provenance did not — record the pass in \`tool\` (free-form, e.g. "${now.tool || "gpt-5.4"}+linkrepair"). Only flip edited:true for a human-authored fix you want protected from machine re-translation: it removes the page from automated sync permanently.`);
         }
@@ -663,7 +697,14 @@ if (baseArgInvalid) {
             // printing a line that cannot parse would send someone to a build
             // that is permanently red for a reason the message does not mention.
             const inexpressible = /[\s#]/.test(`${loc}/${page}`);
-            const suggestion = inexpressible
+            // An exception pins the manifest's src to the English ON DISK. If the
+            // manifest records some other hash, no line can satisfy that, and
+            // printing one anyway sends the operator round a loop: they add
+            // exactly what was asked for and the same refusal comes back.
+            const srcMatchesDisk = now.src === currentHash(page);
+            const suggestion = !srcMatchesDisk
+              ? `but note the manifest records src ${String(now.src).slice(0, 20)}… while site/${page} hashes to ${String(currentHash(page)).slice(0, 20)}… — no exception can bridge that, because a line pins the manifest to the English actually on disk. Fix the recorded src first`
+              : inexpressible
               ? `this page cannot be authorised: its path contains whitespace or "#", which ${VERIFIED_NOOPS_PATH} has no way to express — rename the page, or settle it with a real translation change`
               : th === null
               ? `there is no translation file at translations/${loc}/site/${page} to name, so the exception cannot apply — the missing file is the thing to fix`

@@ -36,22 +36,28 @@
 # HOW TO ADD A LINE
 #   <locale>/<page>  sha256:<the English>  sha256:<the translation you checked>
 # Two hashes, and both of them matter. The first says which English version you
-# read. The second pins the translated file you looked at. The check prints the
-# whole line for you when it refuses a page, so you can copy it verbatim. Add one
-# only when you have read the committed translation and are satisfied it really
-# is correct for that English.
+# read. The second pins the translated file you looked at. Add one only when you
+# have read the committed translation and are satisfied it really is correct for
+# that English.
+#
+# Where an exception is the right answer, the refusal prints the exact line to
+# add and you can copy it. Where it is NOT the right answer the refusal says so
+# instead, and offers no line — because the page has no translation file to name,
+# because its path contains whitespace or "#" and cannot be written here at all,
+# or because the manifest records a src that is not the English on disk, which no
+# line can bridge. A printed line is therefore a signal in itself: getting one
+# means an exception can actually settle this page.
 #
 # "Pins" means the same thing here as everywhere else in this pipeline: both
 # hashes are taken after stripping a leading byte-order mark and normalising line
 # endings, trailing blank lines, stray end-of-line spaces and tabs, volatile
-# front matter, and Unicode to NFC. (A
-# Markdown hard break — two or more trailing spaces — is deliberately NOT
-# normalised away, because losing one changes how the page renders.) So two
-# canonically-equivalent spellings of the same text are one file as far as this
-# gate is concerned. That is deliberate and
-# it should stay that way — hashing raw bytes here while the rest of the pipeline
-# hashes normalised text would let a page count as "changed" for the exception
-# and "unchanged" for the translator at the same moment, which is precisely the
+# front matter, and Unicode to NFC. (A Markdown hard break — two or more trailing
+# spaces — is deliberately NOT normalised away, because losing one changes how
+# the page renders.) So two canonically-equivalent spellings of the same text are
+# one file as far as this gate is concerned. That is deliberate and it should
+# stay that way: hashing raw bytes here while the rest of the pipeline hashes
+# normalised text would let a page count as "changed" for the exception and
+# "unchanged" for the translator at the same moment, which is precisely the
 # unsettleable state this file exists to get out of.
 #
 # A LINE GRANTS NOTHING ON ITS OWN
