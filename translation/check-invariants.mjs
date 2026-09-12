@@ -664,7 +664,7 @@ if (baseArgInvalid) {
           // paths stand still, nothing comes free, and asking git for each of
           // them is one invocation per pair. That run has already failed on the
           // diff; it does not also need to take 27 seconds about it.
-          if (touched === null && manifest[loc]?.[page]) continue;
+          if (touched === null) continue;
           if (!isBlock(baseManifest[loc][page])) continue;   // malformed: not a record
           const h = baseHash(loc, page);
           if (h === null) continue;

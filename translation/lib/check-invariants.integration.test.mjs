@@ -1084,6 +1084,32 @@ test("KNOWN LIMIT: a rename that also edits escapes rule 1", () => {
   } finally { r.cleanup(); }
 });
 
+test("KNOWN LIMIT: and that escape carries a stale `src` with it", () => {
+  // The wider half of the same boundary, and the reason the limit is NOT merely a
+  // traceability one. A new key has no record to check its `src` against, so the
+  // page can move, be edited invisibly, AND claim currency it never had. An HTML
+  // comment is enough: it renders as nothing and it is a real change to hashPage,
+  // which is what stops the copy being recognised as a move.
+  const r = makeRepo();
+  try {
+    const NEW = "guides/Demo_v2.md";
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write("translation/curated-pages.txt", `${NEW}\n`);
+    git(r.dir, "mv", `site/${EN_PAGE}`, `site/${NEW}`);
+    r.write(`site/${NEW}`, EN2);                                   // English moves on
+    git(r.dir, "mv", `translations/${LOC}/site/${EN_PAGE}`, `translations/${LOC}/site/${NEW}`);
+    r.write(`translations/${LOC}/site/${NEW}`, TR_BODY + "<!-- -->\n");  // invisible edit
+    const m = r.manifest();
+    m[LOC][NEW] = { ...m[LOC][EN_PAGE], src: hashPage(EN2) };      // claims currency
+    delete m[LOC][EN_PAGE];
+    r.setManifest(m);
+    r.commit("move, edit invisibly, and claim the new English");
+
+    assert.equal(r.run(), 0,
+      "documented limit: a new key's src has no record to be checked against");
+  } finally { r.cleanup(); }
+});
+
 test("...but the same edit WITHOUT a rename is refused", () => {
   // The control that gives the limit above its exact shape.
   const r = makeRepo();
