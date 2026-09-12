@@ -76,8 +76,12 @@
 # HOW A LINE GOES AWAY
 # Nothing deletes lines automatically, and nothing needs to: an entry that no
 # longer matches the files grants nothing. The check prints a `note:` for lines
-# that have stopped matching, so you can tidy at your convenience. Those notes
-# never fail the check — housekeeping should not turn a build red.
+# that have stopped matching, and those notes never fail the check — housekeeping
+# should not turn a build red.
+#
+# One case is not optional, though. If a page needs an exception AGAIN and a dead
+# line for it is still here, REPLACE that line: two lines for the same key is a
+# duplicate and fails the check. The refusal says so when it applies.
 #
 # ---------------------------------------------------------------------------
 # The entries below, and how they got stuck — worth reading, because the same

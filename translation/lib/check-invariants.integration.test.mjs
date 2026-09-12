@@ -312,9 +312,9 @@ test("a renamed-and-edited translation is still seen as changed", () => {
     r.setManifest(m);
     r.commit("move the page and edit the translation in the same commit");
 
-    // The destination is a NEW manifest key, so neither direction can fire on
-    // it — but the run must stay parseable and green rather than erroring on a
-    // record shape it did not expect.
+    // A moved page keeps the record it always had, so this still passes — but it
+    // passes because the src did not advance, NOT because a new key is exempt.
+    // That exemption was a way to settle a stale page and is gone.
     assert.equal(r.run(), 0);
   } finally { r.cleanup(); }
 });
@@ -725,4 +725,159 @@ test("the refusal does not offer a line that cannot work", () => {
     assert.ok(!hasViolation(out, /a human can record that in/),
       "it must not offer a line that cannot satisfy the check");
   } finally { r.cleanup(); }
+});
+
+test("a RENAME cannot settle a stale translation", () => {
+  // The fifth laundering route, and the most plausible: move the English, move
+  // its stale translation verbatim, move the manifest key, set src to the new
+  // English. The key is new, so Direction 2 used to skip it entirely — and the
+  // gate's own advice about a moved page tells contributors to do exactly this.
+  const r = makeRepo();
+  try {
+    const NEW = "guides/Demo_v2.md";
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write("translation/curated-pages.txt", `${NEW}\n`);
+    git(r.dir, "mv", `site/${EN_PAGE}`, `site/${NEW}`);
+    r.write(`site/${NEW}`, EN2);                                   // English moves on
+    git(r.dir, "mv", `translations/${LOC}/site/${EN_PAGE}`, `translations/${LOC}/site/${NEW}`);
+    const m = r.manifest();                                        // translation moves VERBATIM — still stale
+    m[LOC][NEW] = { ...m[LOC][EN_PAGE], src: hashPage(EN2) };
+    delete m[LOC][EN_PAGE];
+    r.setManifest(m);
+    r.commit("move the page to a new route and bump its source");
+
+    assert.equal(r.run(), 1, "a rename must not launder a stale translation fresh");
+  } finally { r.cleanup(); }
+});
+
+test("a PURE rename with no source bump still passes", () => {
+  // The control that keeps the fix honest: moving a page is ordinary
+  // housekeeping and must not start failing.
+  const r = makeRepo();
+  try {
+    const NEW = "guides/Demo_v2.md";
+    r.write("translation/curated-pages.txt", `${NEW}\n`);
+    git(r.dir, "mv", `site/${EN_PAGE}`, `site/${NEW}`);
+    git(r.dir, "mv", `translations/${LOC}/site/${EN_PAGE}`, `translations/${LOC}/site/${NEW}`);
+    const m = r.manifest();
+    m[LOC][NEW] = m[LOC][EN_PAGE];
+    delete m[LOC][EN_PAGE];
+    r.setManifest(m);
+    r.commit("move the page, changing nothing about it");
+    assert.equal(r.run(), 0, "an honest move must stay green");
+  } finally { r.cleanup(); }
+});
+
+test("a genuinely new page with a new translation still passes", () => {
+  // The other control: a page that really is new has no ancestor to inherit
+  // from, and must not be caught by the rename rule.
+  const r = makeRepo();
+  try {
+    const NEW = "guides/Brand_New.md";
+    const EN_NEW = "# Brand New\n\nSomething else entirely.\n";
+    r.write(`site/${NEW}`, EN_NEW);
+    r.write(`translations/${LOC}/site/${NEW}`, "# Brand New\n\nQualcosa di completamente diverso.\n");
+    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${NEW}\n`);
+    const m = r.manifest();
+    m[LOC][NEW] = { src: hashPage(EN_NEW), src_commit: "0".repeat(40), engine: "llm", mode: "seed", tool: "t", edited: false };
+    r.setManifest(m);
+    r.commit("curate and translate a brand new page");
+    assert.equal(r.run(), 0, "a genuinely new page must still be accepted");
+  } finally { r.cleanup(); }
+});
+
+test("an UNCOMMITTED translation edit is seen, and must record why", () => {
+  // The working-tree switch exists so the check reads what is on disk. Nothing
+  // asserted that: substituting the base text for the disk text passed the whole
+  // suite, which means the mechanism could be removed without a test noticing.
+  // Direction 1 must fire on an edit that exists only on disk.
+  const r = makeRepo();
+  try {
+    writeFileSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`),
+      TR_BODY.replace("Vedi", "Guarda bene"));      // edited, NOT committed
+    const { code, out } = r.runOut();
+    assert.equal(code, 1, "an unrecorded edit on disk must be refused");
+    assert.ok(hasViolation(out, /translation changed but manifest provenance did not/),
+      `expected Direction 1 to fire on the disk edit, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("an edited:true page is not offered an exception it cannot use", () => {
+  // noopAllowed refuses on `edited` before it ever looks at a line, so printing
+  // one sends the operator round the same loop: add exactly what was printed,
+  // get the identical refusal back.
+  const r = makeRepo();
+  try {
+    const m0 = r.manifest();
+    m0[LOC][EN_PAGE].edited = true;
+    r.setManifest(m0);
+    r.commit("hold this page as hand-edited");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write(`site/${EN_PAGE}`, EN2);
+    const m = r.manifest();
+    m[LOC][EN_PAGE].src = hashPage(EN2);
+    r.setManifest(m);
+    r.commit("advance the English and the record");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /held as hand-edited/), `expected the edited explanation, got:\n${out}`);
+    assert.ok(!hasViolation(out, /a human can record that in/),
+      "it must not offer a line that `edited` will refuse anyway");
+  } finally { r.cleanup(); }
+});
+
+// root can read a 0o000 file, so this cannot be expressed as a test there.
+const ROOT = typeof process.getuid === "function" && process.getuid() === 0;
+
+test("an unreadable page is a finding, not a crash", { skip: ROOT && "running as root" }, () => {
+  // currentHash/translationHash guarded existence but not readability, so an I/O
+  // error threw out of module evaluation and every violation already collected
+  // was discarded — a stack trace instead of the report.
+  const r = makeRepo();
+  try {
+    chmodSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`), 0o000);
+    const { code, out } = r.runOut();
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /cannot be read|could not read/),
+      `expected a read finding, got:\n${out}`);
+    assert.doesNotMatch(out, /at ModuleJob\.run/, "must not surface a stack trace");
+  } finally {
+    try { chmodSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`), 0o644); } catch {}
+    r.cleanup();
+  }
+});
+
+test("a directory where a translation should be is not a translation", () => {
+  // A directory at a page's path reads to git as a deletion, and a deletion counts
+  // as "changed" — the classification that satisfies Direction 2.
+  const r = staleRepo();
+  try {
+    r.advance(() => {});
+    rmSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`), { force: true });
+    mkdirSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`), { recursive: true });
+    const { code, out } = r.runOut(r.base);
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /no translated file there|manifest entry for missing file/),
+      `expected the directory to be refused, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("an unreadable ENGLISH page is a finding, not a crash", { skip: ROOT && "running as root" }, () => {
+  // The change-tracking reader has its own guard, so an unreadable TRANSLATION is
+  // caught there. The English side is only ever read by currentHash, which is the
+  // path that used to throw out of module evaluation and discard the report.
+  const r = makeRepo();
+  try {
+    chmodSync(join(r.dir, `site/${EN_PAGE}`), 0o000);
+    const { code, out } = r.runOut();
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /cannot be read/), `expected a read finding, got:\n${out}`);
+    assert.doesNotMatch(out, /at ModuleJob\.run/, "must not surface a stack trace");
+  } finally {
+    try { chmodSync(join(r.dir, `site/${EN_PAGE}`), 0o644); } catch {}
+    r.cleanup();
+  }
 });

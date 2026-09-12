@@ -8,7 +8,7 @@
 //
 // Invariants enforced:
 //
-//   Bijection (always, no git needed)
+//   Bijection (always; needs git to list the tree, but no base ref)
 //     - Every listed curated page exists in site/  (no phantom curated entries).
 //     - Per locale: the set of manifest entries == the set of translated files
 //       present under translations/<locale>/site/  (no orphan translations
@@ -355,11 +355,24 @@ for (const loc of locales) {
 
 // ---- freshness declaration ------------------------------------------------
 
+// Hash a page from disk, or null when there is no page there. An unreadable file
+// is neither: it is a finding. Letting the read throw would abandon every
+// violation already collected and print a stack trace instead of the report.
+function hashFileOrNull(abs, label) {
+  if (!existsSync(abs) || !statSync(abs).isFile()) return null;
+  try {
+    return hashPage(readFileSync(abs, "utf8"));
+  } catch (e) {
+    fail(`${label}: cannot be read (${e.code || e.message})`);
+    return null;
+  }
+}
+
 const srcHashCache = new Map();
 function currentHash(page) {
   if (!srcHashCache.has(page)) {
     const abs = join(root, "site", page);
-    srcHashCache.set(page, (existsSync(abs) && statSync(abs).isFile()) ? hashPage(readFileSync(abs, "utf8")) : null);
+    srcHashCache.set(page, hashFileOrNull(abs, `site/${page}`));
   }
   return srcHashCache.get(page);
 }
@@ -367,7 +380,11 @@ for (const loc of locales) {
   for (const [page, e] of Object.entries(manifest[loc])) {
     if (currentHash(page) === e.src) {
       const abs = join(root, "translations", loc, "site", page);
-      if (!existsSync(abs)) fail(`${loc}/${page}: claims freshness but translated file is absent`);
+      // isFile, not merely exists: a DIRECTORY at a page's path reads as a
+      // deletion to git, and a deletion counts as "changed" — which is the
+      // classification that satisfies Direction 2. Without this, replacing a
+      // translation with a directory of the same name settled a stale page.
+      if (!existsSync(abs) || !statSync(abs).isFile()) fail(`${loc}/${page}: claims freshness but there is no translated file there`);
     }
   }
 }
@@ -383,7 +400,7 @@ function translationHash(loc, page) {
   const k = `${loc}/${page}`;
   if (!transHashCache.has(k)) {
     const abs = join(root, "translations", loc, "site", page);
-    transHashCache.set(k, (existsSync(abs) && statSync(abs).isFile()) ? hashPage(readFileSync(abs, "utf8")) : null);
+    transHashCache.set(k, hashFileOrNull(abs, `translations/${loc}/site/${page}`));
   }
   return transHashCache.get(k);
 }
@@ -588,6 +605,34 @@ if (baseArgInvalid) {
         }
       } catch { /* status is advisory; never let it end the run */ }
 
+      // A manifest key that did not exist at base has no `src` to compare against,
+      // so it used to be skipped outright. That made a RENAME a way to settle a
+      // stale page: move the English, move its stale translation verbatim, move
+      // the manifest key, set `src` to the new English, and the entry is new so
+      // nothing looks at it. Not a corner case — the gate's own advice about a
+      // moved page says to put the new path in curated-pages.txt, and 9dcac0e4,
+      // the commit this whole exception exists for, was itself a route change.
+      //
+      // A moved page is not a new page: the translation came from somewhere, and
+      // that somewhere is a base entry whose key has since disappeared. Follow the
+      // CONTENT to find it, and the moved page keeps the record it always had.
+      const inheritedBase = (loc, page) => {
+        const th = translationHash(loc, page);
+        if (th === null) return undefined;
+        const baseBlock = baseManifest[loc];
+        if (!baseBlock) return undefined;
+        for (const [oldPage, oldEntry] of Object.entries(baseBlock)) {
+          if (manifest[loc][oldPage]) continue;     // that key still exists; not a move
+          const rel = `translations/${loc}/site/${oldPage}`;
+          let text;
+          try {
+            text = execFileSync("git", ["show", `${mergeBase}:${rel}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+          } catch { continue; }                     // no such file at base
+          if (hashPage(text) === th) return oldEntry;
+        }
+        return undefined;
+      };
+
       const worktreeText = (rel) => {
         try {
           return readFileSync(join(root, rel), "utf8");
@@ -621,8 +666,18 @@ if (baseArgInvalid) {
             fail(`${path} ${side} not a regular file (mode ${mode}) — translations must be ordinary files, not symlinks or submodules.`);
           }
         }
-        // A mode of 000000 is a real addition or deletion; that is a change.
-        if (srcMode === "000000" || dstMode === "000000") { changedPaths.push(path); continue; }
+        // A deletion is a change. An ADDITION usually is too — but with
+        // --no-renames a moved file arrives as one, and a page that merely moved
+        // is not a page that was retranslated. Calling it "changed" is what let a
+        // route rename settle a stale translation, so follow the content: if this
+        // file is the one that used to live under a manifest key that has since
+        // disappeared, it moved, and nothing about it changed.
+        if (dstMode === "000000") { changedPaths.push(path); continue; }
+        if (srcMode === "000000") {
+          const mm = path.match(/^translations\/([^/]+)\/site\/(.+)$/);
+          if (!(mm && inheritedBase(mm[1], mm[2]))) changedPaths.push(path);
+          continue;
+        }
         const before = blobText(srcOid);
         // Diffing a commit against the working tree, git reports a null oid for
         // anything not staged — it has no object to name yet. The content still
@@ -670,8 +725,8 @@ if (baseArgInvalid) {
       // "fresh" forever — the exact lie this gate exists to prevent.
       for (const loc of locales) {
         for (const [page, now] of Object.entries(manifest[loc])) {
-          const was = baseManifest[loc]?.[page];
-          if (!was) continue; // new entry — bijection ensures a matching file
+          const was = baseManifest[loc]?.[page] ?? inheritedBase(loc, page);
+          if (!was) continue; // genuinely new — bijection ensures a matching file
           if (now.src !== was.src && !changedSet.has(`${loc}/${page}`)) {
             // Unless a human has listed this exact page against this exact
             // source in translation/verified-noops.txt, confirming the committed
@@ -702,13 +757,21 @@ if (baseArgInvalid) {
             // printing one anyway sends the operator round a loop: they add
             // exactly what was asked for and the same refusal comes back.
             const srcMatchesDisk = now.src === currentHash(page);
-            const suggestion = !srcMatchesDisk
+            // A page held as hand-edited is out of automated sync, and an
+            // exception cannot settle it — noopAllowed refuses on `edited` before
+            // it ever looks at a line. Offering one anyway is the same loop as
+            // above: the operator adds exactly what was printed and the identical
+            // refusal comes back.
+            const heldByHand = now.edited !== false || (was && was.edited !== false);
+            const suggestion = heldByHand
+              ? `but this page is held as hand-edited (edited:true), which takes it out of automated sync — no exception applies while that is set, so either clear the flag or retranslate the page`
+              : !srcMatchesDisk
               ? `but note the manifest records src ${String(now.src).slice(0, 20)}… while site/${page} hashes to ${String(currentHash(page)).slice(0, 20)}… — no exception can bridge that, because a line pins the manifest to the English actually on disk. Fix the recorded src first`
               : inexpressible
               ? `this page cannot be authorised: its path contains whitespace or "#", which ${VERIFIED_NOOPS_PATH} has no way to express — rename the page, or settle it with a real translation change`
               : th === null
               ? `there is no translation file at translations/${loc}/site/${page} to name, so the exception cannot apply — the missing file is the thing to fix`
-              : `a human can record that in ${VERIFIED_NOOPS_PATH} as "${loc}/${page} ${now.src} ${th}" — naming both the English checked and the translation found already correct for it`;
+              : `a human can record that in ${VERIFIED_NOOPS_PATH} as "${loc}/${page} ${now.src} ${th}" — naming both the English checked and the translation found already correct for it${verifiedNoops.has(key) ? `. REPLACE the existing line for this page: a second line for the same key is a duplicate and fails the check` : ""}`;
             fail(`${loc}/${page}: manifest src changed but the translation file did not — a hash bump alone would mark a stale translation "fresh". If the committed translation is genuinely already correct for this source, ${suggestion}.`);
           }
         }
