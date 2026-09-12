@@ -1281,3 +1281,20 @@ test("a malformed base entry cannot be a predecessor", () => {
     assert.equal(typeof code, "number");
   } finally { r.cleanup(); }
 });
+
+test("a non-ASCII translation filename is still seen by the bijection", () => {
+  // `git ls-files` without -z C-quotes any path that is not plain ASCII:
+  //   "translations/it/site/guides/Caf\\303\\251.md"
+  // The quoted form ends in a quote, not ".md", so every test the parser applies
+  // misses it and the file leaves the corpus unnoticed — an orphan translation
+  // that no bijection check can see.
+  const r = makeRepo();
+  try {
+    r.write(`translations/${LOC}/site/guides/Café.md`, TR_BODY);   // no manifest entry
+    r.commit("add a translation with a non-ASCII name and no entry");
+    const { code, out } = r.runOut();
+    assert.equal(code, 1, "an orphan translation must be caught whatever its name");
+    assert.ok(hasViolation(out, /Café|orphan|no manifest entry/i),
+      `expected the orphan to be named, got:\n${out}`);
+  } finally { r.cleanup(); }
+});

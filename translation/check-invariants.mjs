@@ -164,7 +164,9 @@ const verifiedNoops = (() => {
 function localeDirs() {
   let out;
   try {
-    out = execFileSync("git", ["ls-files", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+    // -z: without it git C-quotes any non-ASCII path, and a quoted path matches
+    // none of the tests below — the file would leave the corpus unnoticed.
+    out = execFileSync("git", ["ls-files", "-z", "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
   } catch (e) {
     // An empty set here means "no locale directories exist", which would hide
     // the entire translated corpus and pass every bijection check vacuously.
@@ -173,7 +175,7 @@ function localeDirs() {
     return new Set();
   }
   const dirs = new Set();
-  for (const p of out.split("\n")) {
+  for (const p of out.split("\0")) {
     const m = p.match(/^translations\/([^/]+)\/site\//);
     if (m) dirs.add(m[1]);
   }
@@ -331,7 +333,7 @@ function pathAtBase(relPath) {
 function localeFiles(loc) {
   let out;
   try {
-    out = execFileSync("git", ["ls-files", `translations/${loc}/site/`], {
+    out = execFileSync("git", ["ls-files", "-z", "--", `translations/${loc}/site/`], {
       cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT,
     });
   } catch (e) {
@@ -342,7 +344,7 @@ function localeFiles(loc) {
     return new Set();
   }
   return new Set(
-    out.split("\n")
+    out.split("\0")
       .filter((p) => p.endsWith(".md"))
       .map((p) => p.replace(`translations/${loc}/site/`, "")),
   );
