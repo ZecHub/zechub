@@ -94,6 +94,8 @@ The second argument is the rescan policy: `"whenkeyisnew"` (the default), `"yes"
 
 **Zallet imports Sapling extended full viewing keys only.** It will not import a `uview…` unified full viewing key, even though it can export one. To hand over read access to a whole unified account, export the UFVK from Zallet and import it into a wallet that accepts unified keys, such as Zkool.
 
+To turn an imported key into a full transaction history file, with txids, fees and memos, see [Exporting Transaction History from a Viewing Key](/guides/viewing-key-transaction-export).
+
 ## What changed, and what to stop looking for
 
 If you followed an older version of this page, or a translation of it, three routes no longer work.
