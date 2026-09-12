@@ -439,11 +439,11 @@ for (const loc of locales) {
 }
 
 // The translation ON DISK, hashed the same way as the English so a line can pin
-// both sides of what a person actually looked at. Note "on disk": this reads the
-// working tree, while the change-tracking below reads the two commits. In CI they
-// are the same thing — the checkout is clean — but a local run against a dirty
-// tree is answering a slightly different question, and a `src` bump you have not
-// committed yet will read as unchanged here.
+// both sides of what a person actually looked at. "On disk" is not a caveat here,
+// it is what the whole check reads: the manifest, both page hashes, and the diff
+// that narrows the work all describe the working tree. An uncommitted change is
+// therefore seen and judged — which is why a dirty tree gets a notice saying the
+// answer describes your disk rather than the commit CI will look at.
 const transHashCache = new Map();
 function translationHash(loc, page) {
   const k = `${loc}/${page}`;
