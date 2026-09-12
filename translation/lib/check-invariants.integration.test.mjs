@@ -1140,13 +1140,18 @@ test("a LOCALE rename cannot settle stale translations", () => {
   } finally { r.cleanup(); }
 });
 
-test("a .gitattributes filter cannot make every page look changed", () => {
-  // The base side was read with `git show`, which hands back the RAW BLOB, while
-  // the other side reads the working tree. Declaring an encoding makes those two
-  // different representations of the same page: the blob is re-canonicalised, the
-  // working tree is not. Every listed path then compares unequal forever — and
-  // "changed" is the answer that skips Direction 2, so a stale page settles with
-  // no authorisation. Both sides must be read in the form a reader sees.
+test("the base blob is read in the same representation as the working tree", () => {
+  // What this pins: `git show` hands back the RAW BLOB while the other side reads
+  // the working tree, so under any .gitattributes filter the two are different
+  // representations of one page and every listed path compares unequal forever —
+  // "changed", the answer that skips Direction 2. Reading the base through
+  // `--filters` puts both sides in the same form.
+  //
+  // What it does NOT pin, despite an earlier name that implied it: this fixture's
+  // working tree is still UTF-8. `git add --renormalize` on a UTF-8 tree writes a
+  // garbage blob that smudges straight back to UTF-8, so the declared encoding
+  // never reaches the disk. The head side reads bytes with readFileSync and
+  // applies no attributes at all — see limit C in the requirements.
   const r = makeRepo();
   try {
     // UTF-16LE needs an even byte count, and a single trailing space is stripped

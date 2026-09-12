@@ -200,10 +200,12 @@ function localeDirs() {
 // ---- every tracked translation is an ordinary file -----------------------
 // A symlink's blob holds its TARGET PATH, so the object id and the text a reader
 // actually sees can move independently: the diff says "changed" when the page did
-// not, or says nothing when the target was rewritten underneath it. The change
-// detector refuses that shape when it appears in a diff, but a link that was
-// already there never appears in one — so state the rule over the whole tree,
-// where it is a rule rather than a special case.
+// not, or says nothing when the target was rewritten underneath it. Stated over
+// the whole tree rather than per change, because a link that was already there
+// appears in no diff, and the rule is a property of the corpus rather than of one
+// pull request. (An earlier note credited a per-diff-record check for this; that
+// check was deleted once this one existed.) The base side is covered separately,
+// where its hash is read.
 {
   let listing;
   try {
@@ -254,10 +256,10 @@ function localeDirs() {
 // a branch cut before an authorised no-op landed on main is refused when compared
 // against the tip and passes against the merge base.
 //
-// (An earlier note here credited this to the deletion diagnostic instead. That was
-// checked and does not reproduce — the two resolutions give the same answer there,
-// because the base path is only consulted when the page is absent from the working
-// tree, and then the tip answers as well as the merge base.)
+// The deletion diagnostic is affected too, and in the same direction: where main
+// has since deleted the page, or added it after the branch was cut, the tip and
+// the merge base disagree and the merge base gives the truer message. An earlier
+// note here claimed they were indifferent there; they are not.
 let _baseCmpSha;
 function baseCompareSha() {
   if (_baseCmpSha !== undefined) return _baseCmpSha;
@@ -695,11 +697,16 @@ if (baseArgInvalid) {
           // which is the answer that skips Direction 2. Both sides must be read in
           // the form a reader sees.
           //
-          // GIT_ATTR_SOURCE pins WHOSE attributes: without it `--filters` reads the
-          // base blob through the attributes in the tree being checked, so adding a
-          // .gitattributes line changes what the BASE is taken to have said. The
-          // base must be read as the base, or a change to the rules is mistaken for
-          // a change to the page.
+          // GIT_ATTR_SOURCE pins WHOSE attributes convert it: without it the base
+          // blob is read through the attributes of the tree being checked. Pinning
+          // to the base is correct by construction — read the base as the base —
+          // but be accurate about its worth: a sweep of the attribute transitions
+          // this comment used to cite found no case where it changes a verdict, and
+          // no test pins it. It is kept as a correctness statement, not as a guard
+          // that is known to catch something.
+          //
+          // And it buys nothing on the head side, which applies no attributes at
+          // all: readFileSync reads the bytes on disk. See limit C.
           return hashPage(execFileSync("git", ["cat-file", "--filters", `${mergeBase}:${rel}`], {
             cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT,
             env: { ...process.env, GIT_ATTR_SOURCE: mergeBase },
@@ -738,7 +745,6 @@ if (baseArgInvalid) {
           // them is one invocation per pair. That run has already failed on the
           // diff; it does not also need to take 27 seconds about it.
           if (touched === null) continue;
-          if (!isBlock(baseManifest[loc][page])) continue;   // malformed: not a record
           const h = baseHash(loc, page);
           if (h === null) continue;
           predecessors.set(h, [...(predecessors.get(h) || []), { loc, page, entry: baseManifest[loc][page] }]);

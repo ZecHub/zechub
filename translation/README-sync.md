@@ -28,7 +28,9 @@ detects that staleness deterministically.
     "guides/Zgo_Payment_Processor.md": {
       "src": "sha256:…",         // normalized hash of the English source this
                                  // translation was made from — the staleness key
-      "src_commit": "…",         // commit the source was read at (audit only)
+      "src_commit": "…",         // commit the source was read at; the staleness
+                                 //   detector compares against it to decide whether
+                                 //   a stale page is high-severity
       "engine": "llm",           // llm | nllb | gt
       "mode": "seed",            // seed | diff | full
       "tool": "gpt-5.4",         // generator tag, for reproducibility
