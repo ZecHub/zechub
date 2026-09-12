@@ -235,11 +235,17 @@ function localeDirs() {
 //   never existed — a phantom entry (typo, wrong case, wrong directory). A real
 //                   defect in the curated list, not a consequence of this PR.
 
-// Resolve the comparison point ONCE. The MERGE-BASE, not the base tip: probing
-// the tip answers "is it on main right now", which is a different question and
-// gives the wrong answer on every PR after a deletion has landed. (Confirmed by
-// simulation: an unrelated PR branched after such a deletion was told the page
-// "never did" exist — for a page that had been there for years.)
+// Resolve the comparison point ONCE, and as the MERGE-BASE rather than the base
+// tip. The reason is change-tracking, not the deletion message: comparing against
+// a tip that has moved ahead of the branch reads main's own later commits as
+// reversals, which shows up as a refusal for work the branch never did. Measured:
+// a branch cut before an authorised no-op landed on main is refused when compared
+// against the tip and passes against the merge base.
+//
+// (An earlier note here credited this to the deletion diagnostic instead. That was
+// checked and does not reproduce — the two resolutions give the same answer there,
+// because the base path is only consulted when the page is absent from the working
+// tree, and then the tip answers as well as the merge base.)
 let _baseCmpSha;
 function baseCompareSha() {
   if (_baseCmpSha !== undefined) return _baseCmpSha;
@@ -568,6 +574,18 @@ if (baseArgInvalid) {
           if (!isBlock(baseManifest[loc])) {
             baseUnreadable = true;
             fail(`locale "${loc}" in the manifest at base ${mergeBase.slice(0, 12)} is not an object — cannot change-track against it.`);
+            continue;
+          }
+          // And the records inside. This level was left unchecked while the two
+          // around it were checked, and it is the one where a miss costs a verdict
+          // rather than a crash: a FALSY record reads exactly like "no record at
+          // this key", so the page is taken for a new one and both rules step
+          // over it — the record advances with nothing to check it against.
+          for (const page of Object.keys(baseManifest[loc])) {
+            if (!isBlock(baseManifest[loc][page])) {
+              baseUnreadable = true;
+              fail(`${loc}/${page} in the manifest at base ${mergeBase.slice(0, 12)} is not a record — cannot change-track against it.`);
+            }
           }
         }
       }
@@ -579,11 +597,22 @@ if (baseArgInvalid) {
       // ONE comparison per manifest entry, shared by both rules: did this
       // translation change, and what record did this page have before?
       //
-      // "Changed" means what it means everywhere else in this pipeline — the
-      // normalised text differs (hashPage: line endings, trailing blank lines,
-      // BOM, volatile front matter, Unicode form). Asking git a different
-      // question and treating its answer as this one is what produced the worst
-      // defect this check has had.
+      // "Changed" means the normalised text differs (hashPage: line endings,
+      // trailing blank lines, BOM, volatile front matter, Unicode form). Asking
+      // git a different question and treating its answer as this one is what
+      // produced the worst defect this check has had.
+      //
+      // Be careful with the next step of that thought, because it does not hold.
+      // hashPage is deliberately generous about what counts as a change: on the
+      // ENGLISH side, over-reporting costs a little retranslation and
+      // under-reporting serves a stale page forever, so it errs towards flipping.
+      // Here that asymmetry is INVERTED — a translation counted as changed is what
+      // lets `src` advance, so over-reporting a change under-reports staleness.
+      // The five things above are what hashPage normalises, NOT the set of edits a
+      // reader cannot see: an HTML comment, a zero-width character, an interior
+      // blank line all count as changes and will settle a stale page. That is a
+      // known limit with a test on it, not an oversight; narrowing it would take a
+      // markdown AST, which this pipeline deliberately does not have.
       //
       // git's byte-level diff is used only to NARROW the work. A difference in
       // normalised text implies a difference in bytes, so a path git calls

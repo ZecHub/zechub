@@ -1285,29 +1285,6 @@ test("predecessors whose `edited` differs only by TYPE are ambiguous", () => {
   } finally { r.cleanup(); }
 });
 
-test("a malformed base entry cannot be a predecessor", () => {
-  // Reading .src off a null entry is a TypeError, and a throw here discards the
-  // report along with every finding in it.
-  const r = makeRepo();
-  try {
-    const m0 = r.manifest();
-    m0[LOC]["guides/Ghost.md"] = null;
-    r.setManifest(m0);
-    r.commit("a base entry that is not a record");
-    const base = git(r.dir, "rev-parse", "HEAD").trim();
-
-    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda"));
-    const m = r.manifest();
-    m[LOC][EN_PAGE].tool = "t+pass2";
-    r.setManifest(m);
-    r.commit("edit a translation and record it");
-
-    const { code, out } = r.runOut(base);
-    assert.doesNotMatch(out, /at ModuleJob\.run/, "must not surface a stack trace");
-    assert.equal(typeof code, "number");
-  } finally { r.cleanup(); }
-});
-
 test("a non-ASCII translation filename is still seen by the bijection", () => {
   // `git ls-files` without -z C-quotes any path that is not plain ASCII:
   //   "translations/it/site/guides/Caf\\303\\251.md"
@@ -1352,4 +1329,80 @@ test("the deletion remedy, followed exactly, produces a green run", () => {
 
     assert.equal(r.run(), 0, "the prescribed remedy must actually go green");
   } finally { r.cleanup(); }
+});
+
+test("a malformed record AT BASE is refused, not read as 'no record'", () => {
+  // The base's root and locale levels were shape-checked and the record level was
+  // not — the one level where a miss loses a verdict instead of crashing. A falsy
+  // record reads exactly like "no record at this key", so the page is taken for a
+  // new one and both rules step over it while its `src` advances.
+  //
+  // The earlier version of this test put the malformed record in HEAD as well, so
+  // the HEAD check reported and exited before change-tracking ran: it asserted
+  // only that the exit code was a number, which admits 0 and 1 equally.
+  for (const bad of [null, 0, "", false]) {
+    const r = makeRepo();
+    try {
+      const m0 = r.manifest();
+      m0[LOC][EN_PAGE] = bad;                     // BASE is malformed
+      r.setManifest(m0);
+      r.commit(`base record ${JSON.stringify(bad)}`);
+      const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+      const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+      r.write(`site/${EN_PAGE}`, EN2);
+      const m = r.manifest();                      // HEAD is well-formed
+      m[LOC][EN_PAGE] = { src: hashPage(EN2), src_commit: "0".repeat(40), engine: "llm", mode: "diff", tool: "t", edited: false };
+      r.setManifest(m);
+      r.commit("advance src, leave the translation alone");
+
+      assert.equal(r.run(base), 1, `base record ${JSON.stringify(bad)} must not read as absent`);
+    } finally { r.cleanup(); }
+  }
+});
+
+test("a malformed locale block AT BASE is a finding, not a stack trace", () => {
+  // Load-bearing and previously unpinned: without this the base read crashes and
+  // the report is discarded.
+  const r = makeRepo();
+  try {
+    const m0 = r.manifest();
+    m0.fr = null;                                  // present at base only
+    r.setManifest(m0);
+    r.commit("a base locale block that is not an object");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    const m = r.manifest();
+    delete m.fr;
+    r.setManifest(m);
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda"));
+    m[LOC][EN_PAGE].tool = "t+pass2";
+    r.setManifest(m);
+    r.commit("drop it at head and edit a translation");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1);
+    assert.doesNotMatch(out, /at ModuleJob\.run/, "must not surface a stack trace");
+    assert.ok(hasViolation(out, /at base .* is not an object/), `got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("KNOWN LIMIT: 'changed' means the normalised text differs, not 'a real edit'", () => {
+  // hashPage normalises four things — line endings, trailing blank lines, Unicode
+  // form, volatile front matter. That is NOT the set of reader-invisible edits.
+  // Anything invisible OUTSIDE that set counts as a change and therefore satisfies
+  // rule 2, so a stale translation can be settled by touching it in a way no
+  // reader can see. Pinned here because the requirements used to claim otherwise.
+  const invisible = {
+    "an HTML comment": (t) => t + "<!-- -->\n",
+    "a zero-width space": (t) => t.replace("Vedi", "Ve\u200Bdi"),
+    "an interior blank line": (t) => t.replace("# Demo\n\n", "# Demo\n\n\n"),
+  };
+  for (const [name, touch] of Object.entries(invisible)) {
+    const r = staleRepo();
+    try {
+      r.advance((write) => write(`translations/${LOC}/site/${EN_PAGE}`, touch(TR_BODY)));
+      assert.equal(r.run(), 0, `documented limit: ${name} counts as a change`);
+    } finally { r.cleanup(); }
+  }
 });
