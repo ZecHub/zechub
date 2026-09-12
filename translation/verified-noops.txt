@@ -1,0 +1,133 @@
+# Verified no-ops — the one exception to "a record may not move on its own"
+#
+# WHAT THIS FILE IS
+# Every translated page carries a record of which English text it was made from.
+# When that English changes, the page is out of date and gets re-translated, and
+# the record moves with it. The invariant check refuses to let a record move
+# while the translation file itself stands still, because that is exactly how an
+# out-of-date translation would get marked current without anyone noticing.
+#
+# WHY AN EXCEPTION IS NEEDED AT ALL
+# Sometimes a translation is ALREADY correct for the new English — usually
+# because an earlier maintenance pass fixed the same thing in the translation
+# but did not update its record. The engine then re-translates, returns a file
+# identical to the last byte, and the record can never be settled. The page is
+# offered again in every run, forever, producing nothing each time.
+#
+# WHY THE EXCEPTION LIVES HERE, AND NOT IN THE MANIFEST
+# The automation writes the manifest. If it could also write "I checked, this one
+# is fine", it would be marking its own homework: a single fault writes the claim
+# and the thing it claims about, and the check waves both through. Nothing in the
+# pipeline writes this file — it is edited by hand, so the claim and the thing it
+# claims about come from different places.
+#
+# Be precise about how far that goes, because the file used to overstate it.
+# Nothing PREVENTS the automation's credential from editing this file; there is
+# no CODEOWNERS rule on it yet, and adding one is the thing that would turn this
+# from a convention into a control. Nor does the check compare the list against
+# its previous version, so a single commit can add a line and take the exception
+# it grants in the same breath — the integration suite asserts exactly that,
+# because it is what makes an authorisation usable before the run it authorises.
+# What the file buys today is that the exception is a deliberate, reviewable,
+# hand-written statement that a person can be asked about, sitting somewhere no
+# automated pass has any reason to touch. That is worth having and it is not the
+# same thing as enforcement.
+#
+# HOW TO ADD A LINE
+#   <locale>/<page>  sha256:<the English>  sha256:<the translation you checked>
+# Two hashes, and both of them matter. The first says which English version you
+# read. The second pins the translated file you looked at. Add one only when you
+# have read the committed translation and are satisfied it really is correct for
+# that English.
+#
+# Where an exception is the right answer, the refusal prints the exact line to
+# add and you can copy it. Where it is NOT the right answer the refusal says so
+# instead, and offers no line — because the page has no translation file to name,
+# because its path contains whitespace or "#" and cannot be written here at all,
+# or because the manifest records a src that is not the English on disk, which no
+# line can bridge. A printed line is therefore a signal in itself: getting one
+# means an exception can actually settle this page.
+#
+# "Pins" means the same thing here as everywhere else in this pipeline: both
+# hashes are taken after stripping a leading byte-order mark and normalising line
+# endings, trailing blank lines, stray end-of-line spaces and tabs, volatile
+# front matter, and Unicode to NFC. (A Markdown hard break — two or more trailing
+# spaces — is deliberately NOT normalised away, because losing one changes how
+# the page renders.) So two canonically-equivalent spellings of the same text are
+# one file as far as this gate is concerned. That is deliberate and it should
+# stay that way: hashing raw bytes here while the rest of the pipeline hashes
+# normalised text would let a page count as "changed" for the exception and
+# "unchanged" for the translator at the same moment, which is precisely the
+# unsettleable state this file exists to get out of.
+#
+# A LINE GRANTS NOTHING ON ITS OWN
+# Because a line names both sides, it stops granting the moment either side
+# moves. Change the English and the first hash no longer matches; change the
+# translation and the second no longer does. A line left behind after the page
+# has moved on is inert — it cannot mature into "ignore this page forever", which
+# is the failure this file exists to avoid.
+#
+# That is also why the check never asks WHEN the line was written. The approval
+# may land before the bump or arrive alongside it; what is checked is the state
+# of the tree under review. Note what that does not say: a bump submitted on its
+# own, without the approval present, is still refused. "Either order" is about
+# authoring, not about landing a bump unapproved and legitimising it later.
+#
+# HOW A LINE GOES AWAY
+# Nothing deletes lines automatically, and nothing needs to: an entry that no
+# longer matches the files grants nothing. The check prints a `note:` for lines
+# that have stopped matching, and those notes never fail the check — housekeeping
+# should not turn a build red.
+#
+# One case is not optional, though. If a page needs an exception AGAIN and a dead
+# line for it is still here, REPLACE that line: two lines for the same key is a
+# duplicate and fails the check. The refusal says so when it applies.
+#
+# ---------------------------------------------------------------------------
+# The entries below, and how they got stuck — worth reading, because the same
+# shape will recur:
+#
+# Commit 9dcac0e4 (2026-09-01) deduplicated two pages that existed under two
+# routes each, deleting Using_Zcash/Blockchain_Explorers.md and
+# guides/frostdemo/Ywallet_FROST_Demo.md. The stuck pages are NOT those two.
+# They are guides/Akash_Network_Zcashd.md and guides/Akash_Network_Zebra.md,
+# which that same commit merely repointed at the surviving routes — one line
+# changed in each English page, and the matching line changed in all 36 of their
+# translations.
+#
+# It recorded that pass by changing `tool` on every entry, which satisfies the
+# "a changed translation must record why" rule, but it never advanced `src`.
+#
+# Note the size of that, because the shape is the point and it is easy to
+# understate. The commit did this to 72 entries across FOUR pages — 18 locales
+# each of Akash_Network_Zcashd, Akash_Network_Zebra, FROST_Threshold_Custody and
+# multisigdemo/MultiSigDemo — all of which became out of date against an English
+# change their own translations already contained. Two of those pages drifted
+# into a later sync run that produced some other difference, which settled them.
+# Of the 36 on the two Akash pages, 16 settled the same way; these 20 had nothing
+# left to differ, so they could never be settled and were re-offered in every
+# run.
+#
+# The cheap prevention is upstream: a change that edits translations to match an
+# English edit should advance `src` in the same commit, not only `tool`.
+
+ar/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:793454a46bbc939c86f24065776ec4f4b0f61bf23ecbdac9ceb49f848e57c383
+de/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:333b5c475189088b067e66c9eb559e8689f8b2d38cbe60e20769fb912386f33e
+es/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:b1007b1186b68de4e5f893687fa3ba077e58d02045816139e3ff2a2815fc5185
+fr/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:2c763c2a6c46239e5d32224bb03575966e7f0861f394691c75070bfbdac1d6e6
+it/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:3f6cb43847a2a2179d0d2821f234eaba43752e2f0e56d516c6fdbd7bd32205b6
+ko/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:7b21589be81f8487a8376d954394aa5a38e7fb1e86106c265f40a4d2664b48a2
+pt/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:bcdcea4497fdb7d95d00155d7e9c468be08545de16e7bf666b1d2e6daaf8f603
+ru/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:f7708cc437f48499f00c2adf7ed849903ab045ceed7a86737a1854d31bd046ef
+tr/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:6de2d5e7fae72094411eb7a2c14fe0b4917045b878a8d74b1e176a0ebc89133a
+uk/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:7d5748dafb7b949ed681c1e9e81b2c952df3a18d64ac8329a4d00bb1a6c42a01
+ar/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:9da0b24e88665c9772865c95cedf5fea09adce46e2662037e4835fbaca6f08b5
+de/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:ea2e08453200b213fdda895e4c97a526b4af3a6bbe685e3590c1b8359a5b724f
+es/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:5f29bf5f56a692e0bf4def64ac4fc4b7ecac44a6e81897073ce17cb7bb316288
+it/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:c9ca8937aa9a6e1d41bf22d6c82c70e6b2ab19f168ada3aef06121af9682fa34
+ja/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:5c41f89f51a4b884c27d1c4cb7231f986d1a30ebe2cde7b22f511c196f77d88a
+ko/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:a404d7cfb7f6acffe22c73f8133c54153fe6250f2d4516c65a4f5e5df3ab9652
+pt/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:4755c792c1fe7f79dd14df2a49582e1a444109e18b04329e195cf9a79375cb3c
+ru/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:a6581f70f472ffd9762523ada250c0b551f1f771f6817a3ab80558c7b52bbe75
+tr/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:ef91971ac3ef3b9469aa7a4623cf6fd32a386f8c848e45c5e98e87283caa0632
+zh/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:0a3f50d5a902f52cef782599b093dd97d2186387f3c252e8524cf57a9f785cc8
