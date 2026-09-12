@@ -70,3 +70,26 @@ node --test translation/lib/normalize-hash.test.mjs
 
 The seeder stamps the present (every locale fresh at the current source hash);
 it never reconstructs history. Real staleness accrues only as `site/` changes.
+
+## Known gate limit: copy, then retire (Q5)
+
+The gate identifies a moved translation by matching its normalized text to a
+manifest key removed in the same comparison. Copying a page or locale to a new
+key while retaining the old key gives it no predecessor. The new record can
+therefore claim a newer `src` without a changed translation or a human exception.
+Retiring the old key in a later PR does not recover that relationship. This can
+leave stale text marked current indefinitely; it is a freshness gap.
+
+Round 9 accepts this limit under the constraints of one content matcher and no
+new false refusals. Searching all base entries would also match legitimate new
+translations: English passthrough pages already share text across locales.
+Even a unique matching hash does not establish that a new translation was copied
+rather than independently produced. Allowing ambiguous additions leaves the
+copy route open; refusing them blocks honest seeding. A manifest field declaring
+an addition to be a seed cannot independently establish its provenance either.
+
+For a move, retain the old record's `src` unless the translation actually changes
+or a human verifies it. Prefer moving the key and file in one PR so the existing
+predecessor check can apply. This is an operating convention, not enforcement of
+the split-PR case. Closing that case requires revisiting the evidence or the
+acceptance policy; the gate does not certify the provenance of new keys.

@@ -105,6 +105,13 @@ try {
   report();
 }
 const isBlock = (v) => typeof v === "object" && v !== null && !Array.isArray(v);
+// The file parsed as JSON, which does not make it a manifest: `null`, a list or a
+// string all parse. Object.keys(null) is a TypeError, and a TypeError here throws
+// away the report along with every finding in it.
+if (!isBlock(manifest)) {
+  fail("sync-state.json is not a JSON object — cannot read any locale from it.");
+  report();
+}
 const locales = Object.keys(manifest);
 // Every level of the manifest gets its shape checked before anything reads it.
 // The top level was checked and the entries were checked; the locale blocks in

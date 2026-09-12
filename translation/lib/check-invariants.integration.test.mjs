@@ -1043,3 +1043,18 @@ test("a page held at BASE is not offered an exception either", () => {
       `and must say which side holds it:\n${out}`);
   } finally { r.cleanup(); }
 });
+
+test("a manifest that is not an object is reported, not a stack trace", () => {
+  // Parsing as JSON does not make it a manifest: null, a list and a string all
+  // parse. Object.keys(null) throws, and a throw here discards the report.
+  for (const bad of ["null", "[]", '"x"']) {
+    const r = makeRepo();
+    try {
+      writeFileSync(join(r.dir, "translation/sync-state.json"), `${bad}\n`);
+      const { code, out } = r.runOut();
+      assert.equal(code, 1, `${bad} must be refused`);
+      assert.ok(hasViolation(out, /is not a JSON object/), `${bad} got:\n${out}`);
+      assert.doesNotMatch(out, /at ModuleJob\.run/, `${bad} must not surface a stack trace`);
+    } finally { r.cleanup(); }
+  }
+});
