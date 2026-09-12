@@ -1406,3 +1406,44 @@ test("KNOWN LIMIT: 'changed' means the normalised text differs, not 'a real edit
     } finally { r.cleanup(); }
   }
 });
+
+test("a translation that was a SYMLINK at base cannot license a source bump", () => {
+  // The rule that a translation is an ordinary file covers the tree being checked.
+  // The base's hash is evidence in the same comparison, and a symlink there reads
+  // back as its target PATH — which can never equal the page text, so the pair
+  // compares unequal forever and the bump is settled by a shape, not a change.
+  // Needs a base written before that rule existed, which is why it survived it.
+  const r = makeRepo();
+  try {
+    r.write("attic/copy.md", TR_BODY);
+    rmSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`));
+    symlinkSync("../../../../attic/copy.md", join(r.dir, `translations/${LOC}/site/${EN_PAGE}`));
+    r.commit("a base whose translation is a link");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    rmSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`));
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY);   // same text, real file
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write(`site/${EN_PAGE}`, EN2);
+    const m = r.manifest();
+    m[LOC][EN_PAGE].src = hashPage(EN2);
+    m[LOC][EN_PAGE].tool = "t+pass2";
+    r.setManifest(m);
+    r.commit("replace the link with a file of the same text and advance src");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1, "a shape change at base must not read as a text change");
+    assert.ok(hasViolation(out, /was not a regular file at base/), `got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("an unreadable exception list is a finding, not a crash", () => {
+  const r = makeRepo();
+  try {
+    mkdirSync(join(r.dir, "translation/verified-noops.txt"), { recursive: true });
+    const { code, out } = r.runOut();
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /verified-noops\.txt: cannot be read/), `got:\n${out}`);
+    assert.doesNotMatch(out, /at ModuleJob\.run/, "must not surface a stack trace");
+  } finally { r.cleanup(); }
+});

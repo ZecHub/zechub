@@ -140,7 +140,16 @@ const VERIFIED_NOOPS_PATH = "translation/verified-noops.txt";
 const verifiedNoops = (() => {
   const abs = join(root, VERIFIED_NOOPS_PATH);
   if (!existsSync(abs)) return new Map();
-  const { entries, errors } = parseVerifiedNoops(readFileSync(abs, "utf8"));
+  let text;
+  try {
+    text = readFileSync(abs, "utf8");
+  } catch (e) {
+    // Unreadable is not empty. Returning no exceptions would quietly refuse every
+    // page the list authorises; throwing would discard the report entirely.
+    fail(`${VERIFIED_NOOPS_PATH}: cannot be read (${e.code || e.message})`);
+    return new Map();
+  }
+  const { entries, errors } = parseVerifiedNoops(text);
   for (const e of errors) fail(`${VERIFIED_NOOPS_PATH}: ${e}`);
   for (const key of entries.keys()) {
     const [loc, ...rest] = key.split("/");
@@ -230,8 +239,11 @@ function localeDirs() {
 // than softening it to a warning. The deletion PR is the cheap moment to catch it.
 //
 //   deleted here  — the source existed at the base ref and is gone now. A
-//                   legitimate editorial act; drop the curated line in the same
-//                   PR and the next sync removes the orphaned translations.
+//                   legitimate editorial act; retire it in the same PR, which
+//                   means the curated line AND the manifest entries AND the
+//                   translated files. Leaving the files for a later sync does not
+//                   work: an entry without a curated line and a file without an
+//                   entry are each refused in their own right.
 //   never existed — a phantom entry (typo, wrong case, wrong directory). A real
 //                   defect in the curated list, not a consequence of this PR.
 
@@ -634,12 +646,34 @@ if (baseArgInvalid) {
       // twice for one fault. Third instance of the cache already used for the
       // English and the translated side.
       const baseHashCache = new Map();
+      // The head-side rule that a translation must be an ordinary file says nothing
+      // about the base, and the base's hash is evidence in the same comparison. A
+      // symlink there reads back as its TARGET PATH, which cannot equal the page
+      // text, so the pair compares unequal forever — "changed", the answer that
+      // settles a source bump. Listed once; the modes come from the same tree read
+      // the head-side rule uses.
+      const baseNonRegular = new Set();
+      try {
+        const listing = execFileSync("git", ["ls-tree", "-r", "-z", mergeBase, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        for (const rec of listing.split("\0")) {
+          if (!rec) continue;
+          const m = rec.match(/^(\d{6}) \w+ [0-9a-f]+\t([\s\S]+)$/);
+          if (m && m[1] !== "100644" && m[1] !== "100755") baseNonRegular.add(m[2]);
+        }
+      } catch (e) {
+        fail(`could not list translations/ at base ${mergeBase.slice(0, 12)}: ${e.message}`);
+      }
+
       const baseHash = (loc, page) => {
         const k = `${loc}/${page}`;
         if (!baseHashCache.has(k)) baseHashCache.set(k, readBaseHash(loc, page));
         return baseHashCache.get(k);
       };
       function readBaseHash(loc, page) {
+        if (baseNonRegular.has(`translations/${loc}/site/${page}`)) {
+          fail(`translations/${loc}/site/${page} was not a regular file at base ${mergeBase.slice(0, 12)} — what it recorded cannot be read back, so nothing can be compared against it.`);
+          return null;
+        }
         const rel = `translations/${loc}/site/${page}`;
         // A path git did not list has identical bytes at both ends, so the hash
         // already read from the working tree IS the hash at the base. That is the
