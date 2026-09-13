@@ -22,6 +22,8 @@ This creates a practical problem. A customer may need to resolve a merchant disp
 
 [ZIP 311: Zcash Payment Disclosures](https://zips.z.cash/zip-0311) proposes a narrower answer: disclose and authenticate selected information from one transaction.
 
+![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-proof-flow.png)
+
 ## How a payment disclosure works
 
 The basic flow is:
@@ -50,6 +52,22 @@ A Sapling payment disclosure does not have to reveal a sender address. Spend aut
 Use the smallest disclosure that answers the question. A merchant dispute about one payment does not normally justify access to every payment in an account. An accountant who must review a full reporting period may need a viewing key instead.
 
 Neither method grants permission to spend. Never share a seed phrase, spending key, private key, or wallet backup as proof of payment.
+
+![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-scope.png)
+
+## What can I use today?
+
+No current wallet is identified here as implementing ZIP 311 payment-disclosure creation or verification. The ZIP remains a draft and lists its reference implementation as "TBD." The following maintained tools can still help the sender, recipient, or an authorized auditor inspect the records that are available today:
+
+| App | Useful today for | Important limit |
+| --- | --- | --- |
+| [Zkool](https://github.com/hhanh00/zkool2) | Viewing detailed transaction metadata, amounts, pool inputs and outputs, and memos; importing Unified or Sapling viewing keys into view-only accounts | Does not advertise ZIP 311 disclosure creation or verification |
+| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Reviewing shielded transaction history and memos; importing a Unified Full Viewing Key in read-only mode | A wallet record or read-only account is not a selectively scoped payment disclosure |
+| [Zallet](https://zcash.github.io/zallet/) | Operator workflows using `z_viewtransaction`, `z_exportviewingkey`, and `z_importviewingkey` | Beta software; its viewing-key and transaction RPCs are broader or local records, not ZIP 311 proofs |
+
+Use the wallet that sent or received the payment first. Check its transaction details, memo, transaction ID, and confirmations, then ask the other party to compare those details with its own records. Do not install a new wallet and enter a seed phrase merely to produce evidence. If an auditor needs continuing visibility, consider a compatible view-only account and understand the scope of the viewing key before sharing it.
+
+These apps are practical alternatives for checking records, not proof that a standardized payment disclosure is available. A screenshot can help people compare records, but it is editable and is not cryptographic proof.
 
 ## Where payment disclosures apply
 
