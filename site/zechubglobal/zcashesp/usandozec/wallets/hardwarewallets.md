@@ -13,7 +13,7 @@ Conoce más sobre los distintos _pools_ de Zcash
 ### Características ###
 |Sincronizador | Multi Monedas |
 
-# [Trezor](https://wiki.trezor.io/Zcash_(ZEC)) #
+# [Trezor](https://wiki.trezor.io/Zcash_%28ZEC%29)) #
 | Hardware |
 
 ### Pools ###

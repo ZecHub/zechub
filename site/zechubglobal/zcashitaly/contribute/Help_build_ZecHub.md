@@ -8,6 +8,6 @@ Se sei un membro della comunità Zcash e vuoi contribuire allo sviluppo di ZecHu
 
 *Per i dettagli sugli importi della ricompense, ti preghiamo di leggere la nostra [pagina di contribuzione](https://github.com/ZecHub/zechub/blob/main/CONTRIBUTING.md)*.
 
-Pubblichiamo problemi per le attività per le quali attualmente abbiamo delle ricompense. Principalmente li trovi in [Github Issues](https://github.com/ZecHub/zechub/issues). Puoi trovarli anche su [Dework](https://crew3.xyz/c/zechub/questboard). Le missioni di ZecHub sono pubblicate su [Crew3](https://app.dework.xyz/zechub-2424).
+Pubblichiamo problemi per le attività per le quali attualmente abbiamo delle ricompense. Principalmente li trovi in [Github Issues](https://github.com/ZecHub/zechub/issues). Puoi trovarli anche su [Dework](https://zealy.io/c/zechub). Le missioni di ZecHub sono pubblicate su [Crew3](https://app.dework.xyz/zechub-2424).
 
 Se ci sono altri modi in cui vuoi contribuire, per favore contatta Ian Sagstetter ([@iansagstette]).(https://twitter.com/iansagstette)) on Twitter.

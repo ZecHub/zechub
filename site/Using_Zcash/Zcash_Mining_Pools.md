@@ -62,26 +62,26 @@ Zcash mining pools are services that allow individual miners to combine their co
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://web.archive.org/web/20260826180832/https://zec.nanopool.org/login)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://web.archive.org/web/20260826180832/https://zec.nanopool.org/login">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Website: [Nanopool](https://zec.nanopool.org/login)
+- Website: [Nanopool](https://web.archive.org/web/20260826180832/https://zec.nanopool.org/login)
 - Private Payouts: No
 - Pool Type: Pay Per Last N 
 - Pool fee: 1%
 
 ---
 
-### [Poolin](https://www.poolin.com/)
+### [Poolin](https://web.archive.org/web/20240622034527/https://www.poolin.com/)
 
-<a href="https://www.poolin.com/">
+<a href="https://web.archive.org/web/20240622034527/https://www.poolin.com/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Poolin.jpg?raw=true" alt="Poolin Logo" width="200" height="100"/>
 </a>
 
-- Website: [Poolin](https://www.poolin.com/)
+- Website: [Poolin](https://web.archive.org/web/20240622034527/https://www.poolin.com/)
 - Private Payouts: No
 - Pool Type: Pay Per Share
 - Pool fee: 3%
