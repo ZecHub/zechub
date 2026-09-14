@@ -37,8 +37,8 @@ Setup your non-custodial RAILGUN Wallet, Shield any ERC-20 token into a 0zk addr
 
 
 
-**[Light Shield](https://shield.lightprotocol.com/)**: Light is an open-source layer 2 zkLayer enabling private program execution, purpose-built for Solana. Light Protocol allows the on-chain state to be encrypted. Only the user can decrypt their private state; hence they essentially "own" it. The private state can be owned by a single user or a set of users sharing a decryption key.
-For example, consider an NFT listing on Solana; its public state (e.g., price) is visible to all, including the fact that it's up for sale. But offers and trades should remain private - **Asset Swap**: Yes - [Whitepaper](https://shield.lightprotocol.com/) - ![Light Shield Logo](/content-images/1-C4Pe23afCwS05seCeZWBLA-d85910d03f.webp)
+**[Light Shield](https://web.archive.org/web/20250823165939/https://shield.lightprotocol.com/)**: Light is an open-source layer 2 zkLayer enabling private program execution, purpose-built for Solana. Light Protocol allows the on-chain state to be encrypted. Only the user can decrypt their private state; hence they essentially "own" it. The private state can be owned by a single user or a set of users sharing a decryption key.
+For example, consider an NFT listing on Solana; its public state (e.g., price) is visible to all, including the fact that it's up for sale. But offers and trades should remain private - **Asset Swap**: Yes - [Whitepaper](https://web.archive.org/web/20250823165939/https://shield.lightprotocol.com/) - ![Light Shield Logo](/content-images/1-C4Pe23afCwS05seCeZWBLA-d85910d03f.webp)
 ***
 
 **[Conceal Network](https://conceal.network/wiki/doku.php)**: The Conceal Network was built to provide the ability for individuals to communicate and financially interact with each other in an anonymous and decentralized manner. With Conceal, transactions can't be linked between the sender and the recipient. Additionally, Conceal uses ring signatures and one-time addresses for truly anonymous payments - **Asset Swap**: Yes - [Whitepaper](https://conceal.network/wiki/doku.php) - ![Conceal.png](/content-images/media_articles_01-ecae30ec1a.webp)

@@ -24,7 +24,7 @@ Também postamos regularmente tarefas para as quais temos recompensas disponíve
 
 - [Problemas do Github](https://github.com/ZecHub/zechub/issues)
 - [Dework](https://app.dework.xyz/zechub-2424)
-- [CREW3](https://crew3.xyz/c/zechub)
+- [CREW3](https://zealy.io/c/zechub)
 
 Se houver maneiras alternativas pelas quais você gostaria de contribuir, envie uma mensagem para [@ZecHub](https://twitter.com/zechub) no Twitter ou junte-se ao nosso [Discord](https://discord.gg/zcash).
 

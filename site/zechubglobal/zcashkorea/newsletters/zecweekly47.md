@@ -22,7 +22,7 @@ Zcash 재단, Zebra 1.0.0 출시, ECC 출시, Zcashd 5.6.0 & ZCG 커뮤니티 �
 
 Zcash에서 노드를 실행하는 것에 익숙하지 않은 사용자는 이 튜토리얼에서 알아야 하는 거의 모든 중요한 사항을 다루므로 걱정할 필요가 없습니다. 시작하려면 아래 링크를 방문하십시오 
 
-[Zcashd Raspberry Pi 4 가이드](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md)
+[Zcashd Raspberry Pi 4 가이드](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md)
 
 
 ## Zcash 업데이트

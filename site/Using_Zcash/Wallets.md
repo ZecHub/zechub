@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://web.archive.org/web/20260421104219/https://blog.nerdbank.net/ezcash-app/)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows
@@ -239,7 +239,7 @@
 
 ---
 
-## [Trezor](https://trezor.io/learn/a/zcash-zec)
+## [Trezor](https://web.archive.org/web/20250420191858/https://trezor.io/learn/a/zcash-zec)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Devices:
 - Operating System:
