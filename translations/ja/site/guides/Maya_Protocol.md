@@ -73,7 +73,7 @@ Liquidity Auction（流動性オークション）は21日間行われるイベ�
 
 [Asgardex](https://www.asgardex.com/)：Keystore, Ledger
 
-[DefiSpot](https://www.defispot.com/t)：XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet, and Rabby.
+DefiSpot：現在はオンラインではなく、ドメインも解決されません。
 
 [XDEFI](https://www.xdefi.io/)：30以上のネイティブブロックチェーン、すべてのEVMおよびCosmosチェーン（ビットコイン、イーサリアム、ソラナ、THORChain、マヤプロトコル、TRONなど）をサポートするマルチエコシステムのセルフカスタディウォレット。
 

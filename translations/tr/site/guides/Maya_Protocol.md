@@ -73,7 +73,7 @@ Bir *backend* olarak çalışan Maya'nın kullanılabilmesi için farklı kullan
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-[DefiSpot](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet ve Rabby.
+DefiSpot: artık çevrimiçi değil, alan adı çözümlenmiyor.
 
 [XDEFI](https://www.xdefi.io/): Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON ve daha fazlası dahil olmak üzere 30’dan fazla yerel blokzinciri ile tüm EVM ve Cosmos zincirlerini destekleyen, çok ekosistemli bir self-custody cüzdan.
 

@@ -3,7 +3,7 @@
 Zcash hakkında en yaygın soruların bir listesi. Zcash istemcisinde sorun giderme için lütfen [resmî sorun giderme kılavuzuna](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html) bakın.
 
 ### Hızlı Gezinme
-[Zcash nedir?](#what-is-zcash) | [Zcash nasıl edinilir?](#acquire) | [Diğer kripto paralarla farkı nedir?](#difference) | [Protokol yönetişimi?](#governance) | [İşlemim nerede?](#transaction) | [Zcash gerçekten özel mi?](#privacy) | [Yaygın Yanılgılar](#misconceptions)
+[Zcash nedir?](#what-is-zcash) | [Zcash nasıl edinilir?](#how-can-i-acquire-zcash) | [Diğer kripto paralarla farkı nedir?](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [Protokol yönetişimi?](#how-is-the-zcash-protocol-governed) | [İşlemim nerede?](#where-is-my-transaction) | [Zcash gerçekten özel mi?](#is-zcash-really-private) | [Yaygın Yanılgılar](#a-few-common-misconceptions)
 
 ---
 

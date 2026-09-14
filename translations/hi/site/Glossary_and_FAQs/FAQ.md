@@ -3,7 +3,7 @@
 Zcash के बारे में सबसे आम प्रश्नों की एक सूची। Zcash client की troubleshooting के लिए, कृपया [आधिकारिक troubleshooting guide](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html) देखें।
 
 ### त्वरित नेविगेशन
-[Zcash क्या है?](#what-is-zcash) | [Zcash कैसे प्राप्त करें?](#acquire) | [अन्य cryptocurrencies से अंतर?](#difference) | [Protocol governance?](#governance) | [मेरा transaction कहाँ है?](#transaction) | [क्या Zcash सचमुच private है?](#privacy) | [आम गलतफहमियाँ](#misconceptions)
+[Zcash क्या है?](#what-is-zcash) | [Zcash कैसे प्राप्त करें?](#how-can-i-acquire-zcash) | [अन्य cryptocurrencies से अंतर?](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [प्रोटोकॉल का शासन?](#how-is-the-zcash-protocol-governed) | [मेरा transaction कहाँ है?](#where-is-my-transaction) | [क्या Zcash सचमुच private है?](#is-zcash-really-private) | [कुछ आम गलतफहमियाँ](#a-few-common-misconceptions)
 
 ---
 

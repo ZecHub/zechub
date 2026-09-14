@@ -3,7 +3,7 @@
 قائمة بأكثر الأسئلة شيوعًا حول Zcash. لاستكشاف مشكلات عميل Zcash وإصلاحها، يُرجى الاطلاع على [دليل استكشاف الأخطاء الرسمي](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
 ### تنقّل سريع
-[ما هو Zcash؟](#what-is-zcash) | [كيفية الحصول على Zcash؟](#acquire) | [ما الفرق بينه وبين العملات المشفرة الأخرى؟](#difference) | [كيف تُدار حوكمة البروتوكول؟](#governance) | [أين معاملتي؟](#transaction) | [هل Zcash خاص فعلًا؟](#privacy) | [مفاهيم خاطئة شائعة](#misconceptions)
+[ما هو Zcash؟](#what-is-zcash) | [كيفية الحصول على Zcash؟](#how-can-i-acquire-zcash) | [ما الفرق بينه وبين العملات المشفرة الأخرى؟](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [كيف تُدار حوكمة بروتوكول Zcash؟](#how-is-the-zcash-protocol-governed) | [أين معاملتي؟](#where-is-my-transaction) | [هل Zcash خاص فعلًا؟](#is-zcash-really-private) | [بعض المفاهيم الخاطئة الشائعة](#a-few-common-misconceptions)
 
 ---
 

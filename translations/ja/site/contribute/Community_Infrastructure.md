@@ -1,50 +1,29 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/contribute/Build_on_Zcash.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+<a href="https://github.com/zechub/zechub/edit/main/site/contribute/Community_Infrastructure.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub コミュニティインフラフレームワーク
+# ZecHub コミュニティインフラストラクチャ・フレームワーク
 
 
-### コミュニティインフラ
+### コミュニティインフラストラクチャ 
 
-すべてのノード、lightwalletd インスタンス、その他のインフラは無料でアクセス可能であり、開発者が Zcash ネットワークにアクセスしやすくなるように存在しています。これにより、ZecHub のバウンティプログラムは、[Dework](https://dework.zechub.org) 上の個々のタスクよりも自由でスムーズな代替手段として、開発者向けにサービスを提供できます。
-
-
-## 申請方法
-
-- Zcash Global Discord の #zechub チャンネルで @ZecHubDAOMember をタグ付けしてアクセスを依頼してください。
-
-- あなたをサポートと更新の共有ができるチャンネルに追加します。
-
-- https://discord.gg/zcash 
+ZecHubのバウンティプログラムは、個別のタスクよりも自由で効率的な代替手段として、開発者向けに提供されています：[ZEC Bounties](https://bounties.zechub.wiki/)。 
 
 
+## 役立つガイド 
 
-## 関連ガイド
+- [ZecHub 開発者ガイド](https://zechub.wiki/developers)
 
 - [Zcash Readthedocs](https://zcash.readthedocs.io/en/latest/)
 
-- [The Zebra Book](https://zebra.zfnd.org)
+- [Zebra ブック](https://zebra.zfnd.org)
 
-- [Akash Network Docs](https://akash.network/docs/)
+- [Akash Network ドキュメント](https://akash.network/docs/)
 
-- [Akash ネットワーク上での zcashd の設定方法](https://zechub.wiki/guides/how-to-run-zcashd-on-akash-network)
+- [Akash NetworkでのZebradのセットアップ](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Zcash 支払いリクエストの説明（動画）](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Zcash Payment Requestsの解説（動画）](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [ZIP-321 指定書](https://zips.z.cash/zip-0321)
+- [ZIP-321 仕様](https://zips.z.cash/zip-0321)
 
-Zcash 開発者から詳しいアドバイスが必要な場合は、[コミュニティフォーラム](https://forum.zcashcommunity.com) に投稿してください。
-
-
-## プロジェクト
-
-- あなたが作ったものに関心を持っています！ZecHub は、あなたの新しいアプリのドキュメント作成に対して 5〜15 ZEC のバウンティを発行します。
-
-- いくつかのアイデア：
-
-URL 入力が必要で、ZEC 支払いを要求する共有動画プレイヤーのウェブサイト。
-
-Zcashd ノードと Farcaster アカウント間で暗号化されたメモを中継するサービス。
-
-資産に応じた返信アドレス、イーサリアム L2 上での他の資産のヘッジ付き購入を記録するシールド済み交換サービス。
+Zcash開発者から詳しい助言が必要な場合は、[Community Forum](https://forum.zcashcommunity.com)に投稿できます。
