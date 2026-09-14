@@ -38,6 +38,6 @@ Transações transparentes causaram confusão em torno da privacidade da ZEC no 
 
 #### Observação
 
-Observe que a maneira mais segura de usar o ZEC é usar apenas transações blindadas. Algumas carteiras estão em processo de implementação de [endereços unificados](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20é,dentrode%20o%20maisamplo%20Zcash%20ecossistema.) que permite que usuários e exchanges combinem endereços transparentes e blindados juntos.
+Observe que a maneira mais segura de usar o ZEC é usar apenas transações blindadas. Algumas carteiras estão em processo de implementação de [endereços unificados](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20é,dentrode%20o%20maisamplo%20Zcash%20ecossistema.) que permite que usuários e exchanges combinem endereços transparentes e blindados juntos.
 
 

@@ -71,7 +71,7 @@ Zcash does **not**:
 - Protect against correlations with transparent transactions
 - Hide IP addresses
 
-Further reading: [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem)
+Further reading: [A Shielded Ecosystem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 </div>
 
 ## A few common misconceptions

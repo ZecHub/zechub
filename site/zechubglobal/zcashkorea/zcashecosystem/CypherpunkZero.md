@@ -19,7 +19,7 @@ NFT 보유자를 위한 독점적인 혜택이 있다는 것을 믿으시고 NFT
 
 ## 거버넌스
 
-  * [Snapshot](https://vote.cypherpunkzero.com/)
+  * [Snapshot](https://web.archive.org/web/20260116122729/https://vote.cypherpunkzero.com/)
 
   * [Guild](https://guild.xyz/cypherpunkzerodao)
 

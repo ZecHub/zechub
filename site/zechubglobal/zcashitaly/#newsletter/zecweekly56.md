@@ -46,7 +46,7 @@ Questa settimana le risorse consigliate sono le Zcon Sessions! Alla Zcon4 Ian Sa
 
 [ZFAV e ZcashBrazil collaborano al #dWebCamp per tecnologia e connessioni!](https://twitter.com/ZFAVClub/status/1692289261263868271)
 
-[Primo incontro del Club del Libro Zcash](https://zcashambassadors.com/event/zcash-book-club-first-meeting/)
+[Primo incontro del Club del Libro Zcash](https://web.archive.org/web/20231210230022/https://zcashambassadors.com/event/zcash-book-club-first-meeting/)
 
 
  #### Notizie e media
@@ -104,4 +104,4 @@ Questa settimana le risorse consigliate sono le Zcon Sessions! Alla Zcon4 Ian Sa
 
 #### Social Italiani
 
-[Blog](https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |
+[Blog](https://web.archive.org/web/20240419175552/https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |

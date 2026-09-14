@@ -12,7 +12,7 @@ ZEC offre alle persone l'opportunità di trasferire dati senza richiedere autori
 
 [The Case of Zcash and Privacy](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem/)
+[A Shielded Ecosystem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcash Privacy Recommendations](https://z.cash/support/security/privacy-security-recommendations/)
 

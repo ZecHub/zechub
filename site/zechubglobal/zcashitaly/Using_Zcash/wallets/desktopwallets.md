@@ -4,7 +4,7 @@ I portafogli desktop sono applicazioni scaricabili per accedere a Zcash da Windo
 
 ---
 
-Per saperne di più sui diversi tipi di pool Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://wiki.zechub.xyz/global/italiano/zcash-pool-di-valori)
+Per saperne di più sui diversi tipi di pool Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://zechub.wiki/global/italiano/zcash-pool-di-valori)
 
 ---
 

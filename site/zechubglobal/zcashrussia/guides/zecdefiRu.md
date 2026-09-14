@@ -68,7 +68,7 @@ ZeroBridge — это децентрализованный клиент прот
 
 ### Шаг 1: Конвертируйте защищенный ZEC в ETH
 
-Посетите [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH)
+Посетите [ZeroDAO](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)
 
 Подключитесь к выбранному вами кошельку
 

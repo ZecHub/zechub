@@ -19,7 +19,7 @@ Cypherpunk Zero — это сериал, рассказывающий истор
 
 ## Управление
 
-  * [Снимок](https://vote.cypherpunkzero.com/)
+  * [Снимок](https://web.archive.org/web/20260116122729/https://vote.cypherpunkzero.com/)
 
   * [Гильдия](https://guild.xyz/cypherpunkzerodao)
 

@@ -42,7 +42,7 @@ ZECpages is een censuurbestendige, door Zcash blockchain aangedreven sociale med
 
 Een volledig uitgeruste portemonnee voor Zcash.
 
-[Zeme-team](https://zeme.team/)
+[Zeme-team](https://web.archive.org/web/20250611203406/https://zeme.team/)
 
 Met Zeme Team kunnen videomakers eenvoudig tips ontvangen van iedereen in de community. Ze hebben directe links naar hun werk die ze kunnen delen op sociale media om meer fooien te genereren.
 
@@ -87,7 +87,7 @@ RenBridge (dienst gesloten)
 Ren Protocol is stopgezet en RenBridge is niet meer beschikbaar.
 
 
-[ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
+[ZeroBridge](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)
 
 ZeroBridge is een gedecentraliseerde client van het Zero DAO-protocol, waardoor cross-chain asset scripting in een browser met uw bestaande portemonnee mogelijk is. @zerodaoHQ maakt het mogelijk om een ​​nieuw ETH-adres te financieren met Shielded ZEC.
 

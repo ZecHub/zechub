@@ -66,7 +66,7 @@ Ja, Zcash maakt volledige privacy mogelijk voor gebruikers door gegevens over de
 
 Zcash versleutelt geen gegevens voor transacties met meerdere handtekeningen (in afwachting van integratie van FROST) of beschermt tegen correlaties die zijn gemaakt met openbare *transparante* transacties (bijvoorbeeld wanneer Zcash wordt verhandeld naar/van een andere cryptocurrency) en het verdoezelt ook geen IP-adressen.
 
-Verder lezen hier: [Een afgeschermd ecosysteem](https://electriccoin.co/blog/shielded-ecosystem)
+Verder lezen hier: [Een afgeschermd ecosysteem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 ___
 
