@@ -94,6 +94,8 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 
 **Zallet がインポートできるのは Sapling extended full viewing keys のみです。** `uview…` の unified full viewing key は、エクスポートはできてもインポートはできません。Unified アカウント全体への読み取りアクセスを渡したい場合は、Zallet から UFVK をエクスポートし、Zkool のように unified keys を受け付けるウォレットへインポートしてください。
 
+インポートしたキーから、txid・手数料・メモを含む完全な取引履歴ファイルを作成するには、[Viewing Key から取引履歴をエクスポートする](/guides/viewing-key-transaction-export)を参照してください。
+
 ## 何が変わったのか、そしてもう探すのをやめるべきもの
 
 このページの古い版や、その翻訳を参考にしていた場合、3 つの方法はもはや使えません。
