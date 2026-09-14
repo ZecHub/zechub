@@ -2,7 +2,7 @@
 # Zcash-adressen visualiseren
 
 Als je voor het eerst over Zcash leert, zul je je meteen realiseren dat er twee soorten [transacties](https://zechub.notion.site/Transactions-2862a2c98a104c3fa08402fb9d5b71b8) zijn die kunnen voorkomen: *transparant* en *afgeschermd*.
-Bovendien, als je de laatste ontwikkelingen in het Zcash-ecosysteem hebt bijgehouden, heb je misschien iets gehoord over [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), of UA's.
+Bovendien, als je de laatste ontwikkelingen in het Zcash-ecosysteem hebt bijgehouden, heb je misschien iets gehoord over [Unified Addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), of UA's.
 Wanneer mensen in de Zcash-industrie praten over *afgeschermde* transacties, bedoelen ze transacties met adressen die zijn gecodeerd voor de boomgaard- of boomgaardprotocollen.
 UA's zijn ontworpen om *elk* type afgeschermde of transparante transactie te verenigen in één enkel adres. Deze generalisatie is de sleutel tot het vereenvoudigen van de UX in de toekomst. Het doel van deze gids is om het begrip van UA's aan te vullen met concrete visuele voorbeelden.
 

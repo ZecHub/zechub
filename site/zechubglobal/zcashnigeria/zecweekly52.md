@@ -31,7 +31,7 @@ A yoo kọ ẹkọ diẹ sii nipa Ilana ikọkọ kan eyiti o nlo Imudaniloju-ti
 
 [Josh Swihart Fe Kuro ni ECC](https://twitter.com/jswihart/status/1681663020852736000) 
 
-[Kalẹnda Ologba ZFAV 📆 fun Zcon4!](https://wiki.zechub.xyz/zfav/calendar) 
+[Kalẹnda Ologba ZFAV 📆 fun Zcon4!](https://zechub.wiki/zfav/calendar) 
 
 [ZF- Ojo iwaju ti igbeowosile Zcash ati Decentralization](https://twitter.com/ZcashFoundation/status/1682479746007826432?t=UiLUIKecGAq65xOj1VCLNg&s=19) 
 

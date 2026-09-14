@@ -2,7 +2,7 @@
 
 Pochi ya vifaa ni aina maalum ya pochi ambayo huhifadhi funguo binafsi za mtumiaji kwenye kifaa salama cha vifaa. Funguo binafsi hazitoki kamwe kwenye kifaa hicho, hivyo kuhakikisha kuwa hakuna hatari ya kupoteza fedha hata ikiwa kifaa kitakuwa kimeambukizwa na virusi kupitia kompyuta inayoweza kuwa na virusi. Pochi za vifaa hutoa usalama wa pochi baridi au pochi ya karatasi lakini kwa faida ya kupatikana kama pochi za moto.
 
-Jifunze zaidi kuhusu mabwawa za aina tofauti ya Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://wiki.zechub.xyz/zcash-value-pools)
+Jifunze zaidi kuhusu mabwawa za aina tofauti ya Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://zechub.wiki/zcash-value-pools)
 
 ---
 

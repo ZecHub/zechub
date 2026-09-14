@@ -47,7 +47,7 @@ ___
 |--------------|-----------|
 | **Canopy**: | A 5ª Grande Atualização de Rede para Zcash. [Mais informações](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | **Commitment Scheme**: | Permite que um committer se comprometa com um polinômio com uma string curta que pode ser usada por um verificador para confirmar as avaliações reivindicadas do polinômio confirmado. Útil para reduzir custos de comunicação no protocolo Zcash.|
-| **Comunidade**: | [Fórum oficial da comunidade Zcash](https://forum.zcashcommunity.com) / [Discord da comunidade Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord Zcash R&D](https:// discord.com/invite/6AK7keWFaK) / [Reddit](https://old.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |
+| **Comunidade**: | [Fórum oficial da comunidade Zcash](https://forum.zcashcommunity.com) / [Discord da comunidade Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord Zcash R&D](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://old.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |
 | **Cypherpunk Zero**: | Um universo criativo e esforço colaborativo entre ECC, ilustrador Stranger Wolf, Mighty Jaxx e parceiros selecionados do ecossistema. Consistindo em uma futura série de webcomics, NFTs e colecionáveis ​​físicos, o projeto explora a relação entre privacidade, auto-soberania e liberdade criativa. [Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |
 
 
@@ -61,7 +61,7 @@ ___
 
 | | |
 |--------------|-----------|
-| **DeFi**: | Projetos integrando ZEC com DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH) |
+| **DeFi**: | Projetos integrando ZEC com DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZeroDAO](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH) |
 | **Desblindagem**: | Refere-se a uma transação sendo enviada de um zaddr (endereço blindado) para um taddr (endereço transparente). A origem da transação não é visível, no entanto, os fundos entram em um pool de valor visível publicamente. [Anatomia da transação](https://electriccoin.co/blog/anatomy-of-zcash/) |
 | **Developer Resources**: | [Recursos do desenvolvedor](https://www.zcashcommunity.com/developers/) |
 | **Documentação**: | [Documentos oficiais](https://zcash.readthedocs.io/en/latest/)|
@@ -224,7 +224,7 @@ ___
 |--------------|-----------|
 | **Pagamentos**: | É possível usar o Zcash para compras diárias por meio de vários provedores de pagamento diferentes; [Aplicativos de pagamento](https://z.cash/pay-with-zcash/) |
 | **Peer-to-Peer Network**: | As redes P2P são baseadas no conceito de descentralização. A arquitetura fundamental da tecnologia blockchain. Permitir que os usuários transfiram criptomoedas em todo o mundo sem a necessidade de um intermediário ou permitir que um usuário ingresse na rede como um nó/verificador.|
-| **Podcast**: | [Radiolab](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube. com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [ZEC Daily](https://www.youtube.com/playlist?list=PL6_epn0lASLGVQjz7Xt08sQsPCsmHoe0q ) |
+| **Podcast**: | [Radiolab](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [ZEC Daily](https://www.youtube.com/playlist?list=PL6_epn0lASLGVQjz7Xt08sQsPCsmHoe0q) |
 | **Proof-of-Stake (PoS)**: | Mecanismo de consenso pelo qual os participantes apostam criptomoedas para validar transações. O PoS é a principal alternativa à mineração de prova de trabalho com uso intensivo de energia. Zcash está formulando abordagens para uma futura transição para PoS. [Visão geral do ECC PoS](https://electriccoin.co/blog/proof-of-stake-research-overview-1/) |
 
 
@@ -293,7 +293,7 @@ ___
 | | |
 |--------------|-----------|
 | **Upgrade Activation/Ativação de atualização**: | Uma ativação de atualização é uma altura de bloco específica que aciona uma atualização de rede. |
-| **Unified Addresses/Endereços Unificados**: | Formato de endereço padronizado gerado a partir de um conjunto de vários tipos de endereço Zcash (ou seja, transparente, Sapling e Orchard). [UA Explainer](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) |
+| **Unified Addresses/Endereços Unificados**: | Formato de endereço padronizado gerado a partir de um conjunto de vários tipos de endereço Zcash (ou seja, transparente, Sapling e Orchard). [UA Explainer](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) |
 | **Unidades**: | A unidade de conta para moedas Zcash é 'ZEC'. A menor unidade é 0,00000001 ou Zatoshi / Zat. |
 | **User Defined Assets/Ativos definidos pelo usuário**: | Extensão do Orchard Protocol para ativar Native Shielded Assets ou (ZSA's). [Vídeo Explicativo](https://www.youtube.com/watch?v=hJMWE3zLIcs)|
 | **UTXO**: | Uma saída de transação não gasta é o resultado de uma transação que um usuário recebe e pode gastar no futuro. Observe que cada UTXO só pode ser gasto uma vez. Isso difere dos sistemas baseados em contas. |
@@ -332,7 +332,7 @@ ___
 
 | | |
 |--------------|-----------|
-| **Youtube**: | [Canal da Fundação Zcash](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ) / [Canal ECC](https://www.youtube.com/c/ZcashCo) / [ZECHub](https://www .youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) / [ZF A/V Club](https://www.youtube.com/@zfavclub) / [Zcash Media](https://www.youtube.com/@ ZcashMedia) |
+| **Youtube**: | [Canal da Fundação Zcash](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ) / [Canal ECC](https://www.youtube.com/c/ZcashCo) / [ZECHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) / [ZF A/V Club](https://www.youtube.com/@zfavclub) / [Zcash Media](https://www.youtube.com/@ZcashMedia) |
 | **Ywallet**: | Uma carteira móvel compatível com Ycash e Zcash - [website](https://ywallet.app) |
 
 

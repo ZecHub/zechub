@@ -42,7 +42,7 @@ ZECpages est un réseau social alimenté par la blockchain Zcash et résistant �
 
 Un portefeuille complet pour Zcash.
 
-[Team Zeme](https://zeme.team/)
+[Team Zeme](https://web.archive.org/web/20250611203406/https://zeme.team/)
 
 Zeme Team permet aux créateurs de recevoir facilement des conseils de n'importe qui dans la communauté. Ils auront des liens directs vers leur travail qu'ils pourront partager sur les réseaux sociaux pour obtenir plus de conseils.
 
@@ -87,7 +87,7 @@ RenBridge (service fermé)
 Ren Protocol a été arrêté et RenBridge n'est plus disponible.
 
 
-[ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
+[ZeroBridge](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)
 
 ZeroBridge est un client décentralisé du protocole Zero DAO, permettant des scripts d'actifs inter-chaînes dans un navigateur avec votre portefeuille existant, @zerodaoHQ permet de financer une nouvelle adresse ETH avec Shielded ZEC.
 

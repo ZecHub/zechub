@@ -34,4 +34,4 @@ Le transazioni trasparenti hanno causato confusione sulla privacy di ZEC in pass
 
 #### Nota
 
-Si prega di notare che il modo più sicuro per utilizzare ZEC è utilizzando solo transazioni schermate. Alcuni portafogli stanno implementando [indirizzi unificati](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) che consentono agli utenti e agli exchange di combinare indirizzi trasparenti e schermati. 
+Si prega di notare che il modo più sicuro per utilizzare ZEC è utilizzando solo transazioni schermate. Alcuni portafogli stanno implementando [indirizzi unificati](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) che consentono agli utenti e agli exchange di combinare indirizzi trasparenti e schermati. 
