@@ -1,39 +1,40 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Financial Privacy Foundation.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Financial_Privacy_Foundation.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# 재정 프라이버시 펀데이션 (FPF)
+# Financial Privacy Foundation (FPF)
 ![FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
-## FPF에 대해
-재정 프라이버시 펀데이션(FPF)은 케이맨 제도에서 설립된 비영리 단체입니다. FPF의 주요 목표는 개인과 공동체가 재정적 프라이버시와 보안을 스스로 관리하고 강화할 수 있도록 교육하고 지원하는 것입니다. 또한, FPF는 개인의 프라이버시를 존중하면서 공평하고 정의로운 금융 시스템을 촉진하는 데에도 헌신하고 있습니다. 재정적 프라이버시와 관련된 FPF의 주요 활동은 개인과 공동체가 자신의 재정적 프라이버시를 보호하고 최적화할 수 있도록 정보, 자원 및 지원을 제공하는 것입니다. 현재 Financial Privacy Fund (FPF)는 "FPF X FPF"라는 제목의 장학금 프로그램을 창설 중입니다.
+## FPF 소개
+Financial Privacy Foundation (FPF)은 케이맨 제도에 설립된 비영리 단체입니다. FPF의 주요 목표는 개인과 커뮤니티가 자신의 금융 프라이버시와 보안을 직접 통제할 수 있도록 교육하고 역량을 키우는 것입니다. FPF는 또한 개인의 프라이버시를 존중하는 공정하고 형평성 있는 금융 시스템을 만드는 데 전념하고 있습니다. 금융 프라이버시와 관련된 FPF의 핵심 활동은 개인과 커뮤니티가 자신의 금융 프라이버시를 지키고 최적화할 수 있도록 정보, 자료, 지원을 제공하는 것입니다. Financial Privacy Foundation (FPF)은 현재 FPF X FPF라는 이름의 그랜트 프로그램을 준비하고 있습니다.
 
-## FPF X FPF에 대한 정보
+##  FPF X FPF 안내
 
-FPF X FPF는 FPF의 첫 번째 실험적인 장학금 프로그램인 Financial Privacy Fund (FPF x FPF)에 관한 것입니다. 이 프로그램은 Zcash 생태계 내에서 거의 완료된 공학 프로젝트 또는 즉시 생태계에 기여할 수 있고 지정된 시간과 자금 한도 내에서 완료 가능한 프로젝트를 지원합니다. FPF X FPF는 장학금 제공 과정을 정비하기 위해 매우 제한적인 자금으로 출발하며, 향후 라운드의 시작을 기대하고 있습니다.
+ FPF X FPF는 FPF의 첫 실험적 그랜트 프로그램인 Financial Privacy Fund (FPF x FPF)에 관한 것입니다. 이 프로그램은 완성 단계에 가까워진 Zcash 생태계 내 엔지니어링 프로젝트, 또는 정해진 기간과 자금 한도 안에서 완료 가능하며 생태계에 즉시 기여할 수 있는 프로젝트에 자금을 지원합니다. FPF X FPF는 그랜트 지급 절차를 다듬기 위해 매우 제한된 자금으로 시작하며, 이후 라운드도 열기를 희망하고 있습니다.
 
-## [FPF x ZecHub 보상 프로그램 - 블로그 게시물](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
+
+## [FPF x ZecHub 바운티 프로그램 - 블로그 포스트](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
 
 ## FPF X FPF 프로그램 세부 사항
 
 FPF X FPF 프로그램의 세부 사항은 다음과 같습니다:
 
-- 지원 금액: 최대 50,000 달러
-- 최대 신청 금액: 25,000 달러
-- KYC 요구사항: 없음
-- 프로젝트 유형: Zcash 생태계에 직접적으로 이익을 주고 완료 가능한 공학 프로젝트만 고려됩니다.
-- 지급: 프로젝트의 성공적인 완료 후
+- 지원 규모: 최대 $50,000 USD
+- 최대 신청 가능액: $25,000 USD
+- KYC 요건: 없음
+- 프로젝트 유형: Zcash 생태계에 직접적인 도움이 되고 완전히 완료될 수 있는 엔지니어링 프로젝트만 심사 대상입니다.
+- 지급 시점: 프로젝트의 성공적인 완료 시
 - 시작일: 2024년 3월 18일
 
-## 장학금 신청 절차 
+## 그랜트 신청 절차
 
-FPF X FPF 장학금 신청 절차는 여러 단계를 포함합니다. 먼저, 지원자는 제공된 보안 양식을 통해 장학금 신청을 해야 합니다. 그 다음, FPF는 자격 요건에 따라 신청서를 검토하고, 신청 마감일 후 5일 이내에 지원자의 상태를 통보할 것입니다. 다음으로, 임시 심사 위원회가 제출 마감일 이후 20일 이내에 장학금 수여 여부를 검토 및 결정합니다. 수여된 장학금의 세부 사항은 FPF 웹사이트에 게시되어 투명성과 책임성을 보장합니다.
+FPF X FPF 그랜트 신청 절차는 여러 단계로 이루어집니다. 먼저 신청자는 제공된 보안 양식을 통해 그랜트를 신청합니다. 이후 FPF가 신청 자격을 검토하며, 신청자는 신청 마감일로부터 5일(역일 기준) 이내에 결과를 안내받습니다. 다음으로 임시 심사 위원회가 신청 마감일로부터 20일(역일 기준) 이내에 그랜트 지급 여부를 심사하고 결정합니다. 지급이 결정된 그랜트의 세부 내역은 투명성과 책임성을 위해 FPF 웹사이트에 공개됩니다.
 
-## FPF X FPF에 대한 더 많은 정보
+## FPF X FPF 추가 정보
 
-FPF X FPF에 대한 추가 정보는 재정 프라이버시 펀데이션(FPF) 웹사이트 [여기](https://www.financialprivacyfoundation.org/grants)에서 볼 수 있습니다. 또한, FPF X FPF 프로그램에 대해 여전히 궁금하다면 FAQ 문서를 여기서 확인할 수 있습니다: [FAQs](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf).
+FPF X FPF에 대한 자세한 정보는 Financial Privacy Foundation (FPF) 웹사이트의 [이 페이지](https://www.financialprivacyfoundation.org/grants)에서 확인할 수 있으며, 프로그램이 더 궁금하다면 FAQ 문서를 참고하세요: [FAQs](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf).
 
-이번 FPF X FPF 프로그램의 자원 봉사 심사자로 참여하고 싶다면, 이 [링크](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)를 방문해 주세요. FPF X FPF 장학금 프로그램에 대한 추가 질문이 있다면, 이메일로 직접 문의할 수 있습니다: [FPF](info@financialprivacyfoundation.org).
+이번 FPF X FPF 라운드의 자원 심사자(Volunteer Reviewer)로 참여하고 싶다면 이 [링크](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)를 방문하세요. FPF X FPF 그랜트 프로그램에 대한 추가 문의는 [FPF](info@financialprivacyfoundation.org)에 이메일로 직접 문의할 수 있습니다.
 
 ## 자료
-[재정 프라이버시 펀데이션](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
+[Financial Privacy Fund](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
