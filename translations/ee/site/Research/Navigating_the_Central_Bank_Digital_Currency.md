@@ -102,7 +102,7 @@ Ganyawo ƒe gomekpɔkpɔ le eme, si nye mɔkpɔkpɔ ƒe akaɖi tsã la, dze ŋg�
 Le amesiwo le afɔ tsɔm yi CBDC-wo ƒe anyigbamama si womekpɔ kpɔ o gome la, nunɔamesiwo va zua wò kɔmpasi.
 1. Dukɔwo Dome Nyawo Gbɔkpɔkpɔ ƒe Gadzraɖoƒe ([BIS](https://www.bis.org/search?keywords=cbdc))
 2. Dukɔwo Dome Ganyawo Gbɔkpɔha ([IMF ƒe nyawo](https://www.imf.org/en/About))
-3. Numekuku gbalẽwo ([pɛpa](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
+3. Numekuku gbalẽwo ([pɛpa](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Sukudede Ŋuti Nyadzɔdzɔgbalẽwo ([magazine](https://www.bis.org/publ/work976.pdf))
 5. C.E.I Nyati ([Nu](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
 

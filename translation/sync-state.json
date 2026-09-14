@@ -149,7 +149,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -1823,7 +1823,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -3497,7 +3497,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -5171,7 +5171,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -6845,7 +6845,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -8519,7 +8519,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -10193,7 +10193,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -11867,7 +11867,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -13541,7 +13541,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -15215,7 +15215,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -16889,7 +16889,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -18563,7 +18563,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -20237,7 +20237,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -21911,7 +21911,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -23585,7 +23585,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -25259,7 +25259,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -26933,7 +26933,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -28607,7 +28607,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {

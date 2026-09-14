@@ -100,7 +100,7 @@ __유럽 연합: 유럽 통화구역 CBDC__
 CBDC라는 미지의 영역에 뛰어드는 이들에게, 자료는 나침반이 됩니다.
 1. 국제결제은행 ([BIS](https://www.bis.org/search?keywords=cbdc))
 2. 국제통화기금 ([IMF](https://www.imf.org/en/About))
-3. 연구 논문 ([논문](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
+3. 연구 논문 ([논문](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. 학술 저널 ([저널](https://www.bis.org/publ/work976.pdf))
 5. C.E.I 기사  ([기사](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
 
