@@ -15,7 +15,6 @@
 | Thumbs' Update            | Регулярные обновления экосистемы и аналитические заметки   | [Перейти ->](https://thumbsup.substack.com) |
 | roomatemusing             | Размышления и контент сообщества                           | [Перейти ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog             | Технический блог, посвящённый разработке и инструментам Zcash | [Перейти ->](https://blog.nerdbank.net/) |
-| Thor Likes                | Новости, мнения и комментарии о Zcash                      | [Перейти ->](https://www.thorlikes.com/) |
 | ZecMec                    | Статьи о Zcash на Medium                                   | [Перейти ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter            | Подробные статьи и рассылка                                | [Перейти ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)    | Известные интервью и материалы о конфиденциальности        | [Перейти ->](https://naomibrockwell.com/highprofileinterviews) |
