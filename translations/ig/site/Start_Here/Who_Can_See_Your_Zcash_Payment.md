@@ -64,7 +64,7 @@ Ihe dị mkpa bụ otú e si hazie ya. Nye mkpịsị ugodi nke kasị dịrị 
 
 ## Mee ihe ị mụtara eme .
 
-- Jiri obere akpa ego nke na-echebe site na ndabara, dị ka [Zodl .](https://zodl.com) or [Akpa ego Ywallet](https://ywallet.app/).
+- Jiri obere akpa ego nke na-echebe site na ndabara, dị ka [Zodl .](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Chekwa ego ozugbo ha si n'ụlọ ahịa ahụ rute, tupu a na-emefu ya.
 - Na-akwụ ụgwọ na adreesị echedoro mgbe ọ bụla onye natara ya kwadoro otu.
 - Tupu i nye onye ọzọ igodo e ji ele ihe anya, jụọ ya nke kacha obere ma zaa ajụjụ ahụ a jụrụ.

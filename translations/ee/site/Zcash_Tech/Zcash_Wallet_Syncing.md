@@ -92,4 +92,4 @@ Azɔ hã, Zcash Foundation nɔ ŋku lém ɖe mɔnu bubuwo ŋu be woatsɔ ana gak
 - [Lightwallet ƒe Nutowo](/zcash-tech/lightwallet-nodes) — lightwalletd infrastructure si dzi kekeli gakotokuwo ɖoa ŋu ɖo.
 - [Safuiwo Kpɔkpɔ](/zcash-tech/viewing-keys) — safui siwo gakotokuwo zãna tsɔ dea dzesi woawo ŋutɔ ƒe nuŋlɔɖiwo heɖea wo gɔme.
 - [Atadi ƒe Sync](/zcash-tech/pepper-sync) — mɔnu bubu si dzi woato awɔ Zcash gakotoku ƒe wɔwɔ ɖekae.
-- [FROST ƑE NUÐEÐEŊUTI](/zcash-tech/frost) — woma asidede agbalẽ te ƒe ŋusẽ na ZEC si wokpɔ ta na.
+- [FROST](/zcash-tech/frost) — woma asidede agbalẽ te ƒe ŋusẽ na ZEC si wokpɔ ta na.

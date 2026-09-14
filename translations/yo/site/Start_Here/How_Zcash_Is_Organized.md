@@ -58,7 +58,7 @@ Lóde òní, àwọn àjọ tó wà ní òmìnira ló ń ṣe iṣẹ́ náà. �
 
 ### Àwọn àjọ méjì láti ọdún 2026 pín ara wọn sí:
 
-1. ZODL, awọn Zcash Open Development Lab , ti a da nipa tele Electric Coin Company egbe ati ki o dari nipasẹ Josh Swihart. O si gbe diẹ ẹ sii ju marun-mẹdogun milionu dọla lati ita oludokoowo ati iṣẹ lori mojuto ilana idagbasoke, pẹlu Halo 2 fi idi rẹ han eto ti agbara Zcash ká titun ni aabo owo sisanwo, ati lori awọn ZOLD apamọwọ, kan paapa mobile apamọwọ tẹlẹ pe Zashi Wo . [ZODL (ì í ì ë ¤)](https://zechub.wiki/zcash-organizations/zodl).
+1. ZODL, awọn Zcash Open Development Lab , ti a da nipa tele Electric Coin Company egbe ati ki o dari nipasẹ Josh Swihart. O si gbe diẹ ẹ sii ju marun-mẹdogun milionu dọla lati ita oludokoowo ati iṣẹ lori mojuto ilana idagbasoke, pẹlu Halo 2 fi idi rẹ han eto ti agbara Zcash ká titun ni aabo owo sisanwo, ati lori awọn ZOLD apamọwọ, kan paapa mobile apamọwọ tẹlẹ pe Zashi Wo . [ZODL](https://zechub.wiki/zcash-organizations/zodl).
 2. Sovright jẹ ajọ ti ko ni èrè tí a dá sílẹ̀ láti ọwọ́ àwọn mẹ́ta tó wà nínú ìgbìmọ Bootstrap tẹ́lẹ̀. Ó ń darí sí ọ̀nà àti ìtìlẹ́yìn fún ètò àyíká, ó sì kọ Argos, ohun-èlò kan lati ran awọn olùlowó tete lọ́wọ́ kí wọ́n lè rí owó wọn padà ní inú apoti ìṣúra atijọ tí kò tọjú dáadáa. Wo [Sovright](https://zechub.wiki/zcash-organizations/sovright).
 
 ### Ìtọ́jú Àlàkalẹ̀, ìwádìí àti ẹ̀rọ-ìmọ̀ ọ̀nà (node software)
@@ -128,7 +128,7 @@ Ojú ewé kọ̀ọ̀kan ní àwọn ìjápọ tó ń lọ sí i, nítorí náà o
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [ZODL (ì í ì ë ¤)](https://zechub.wiki/zcash-organizations/zodl) - ibi iṣẹ́ ìdàgbàsókè tí ẹgbẹ́ ti Electric Coin Company tẹ̀lẹ̀ dá sílẹ̀.
+- [ZODL](https://zechub.wiki/zcash-organizations/zodl) - ibi iṣẹ́ ìdàgbàsókè tí ẹgbẹ́ ti Electric Coin Company tẹ̀lẹ̀ dá sílẹ̀.
 - [Sovright](https://zechub.wiki/zcash-organizations/sovright) - àjọ tí kò ní èrè tó jẹ́ ti àwọn ọmọ ìgbìmọ̀ Bootstrap tẹ́lẹ̀ rí.
 - [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation) - olùṣakoso ìlànà àti Zebra node
 - [Àwọn Ilé Iṣẹ́ Ààbò](https://zechub.wiki/zcash-organizations/shielded-labs) - ìwádìí àti ìlànà tí kò lè yí padà

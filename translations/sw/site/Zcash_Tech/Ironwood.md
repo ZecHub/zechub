@@ -18,7 +18,7 @@ Mpya kwa Zcash? Kuanza na [ZEC na Zcash ni nini?](../start-here/what-is-zec-and-
 
 ## Kwa nini mti wa Ironwood ulihitajika?
 
-Mwishoni mwa Mei 2026, mtafiti wa usalama huru Taylor Hornby, wakati wa ukaguzi wa itifaki kwa ajili ya [Maabara ya Kuhifadhiwa](../zcash-organizations/shielded-labs), kwa uwajibikaji wazi soundness bug katika Orchard kulindwa pool. orchard ilikuwa Zcash ya karibuni ulinzi bwawa wakati huo, na kosa alikaa katika sehemu elliptic-curve wa wake zero maarifa mzunguko, ambayo inatumia [Halo (Habari Njema)](../zcash-tech/halo) 2 mfumo wa kuthibitisha.
+Mwishoni mwa Mei 2026, mtafiti wa usalama huru Taylor Hornby, wakati wa ukaguzi wa itifaki kwa ajili ya [Maabara ya Kuhifadhiwa](../zcash-organizations/shielded-labs), kwa uwajibikaji wazi soundness bug katika Orchard kulindwa pool. orchard ilikuwa Zcash ya karibuni ulinzi bwawa wakati huo, na kosa alikaa katika sehemu elliptic-curve wa wake zero maarifa mzunguko, ambayo inatumia [Halo](../zcash-tech/halo) 2 mfumo wa kuthibitisha.
 
 1. mdudu soundness ina maana ya hisabati kwamba inathibitisha shughuli ni halali haina kikamilifu kuhakikisha yake.
 2. Kwa nadharia, mshambuliaji angeweza kutumia kasoro hiyo kuunda thamani isiyo halali ndani ya bwawa la Orchard na kutumia pesa ambazo hazikuwa zao kweli, bila kuacha alama ambayo node kawaida ingeambukizwa.
@@ -119,7 +119,7 @@ Kila sarafu kuondoka zamani Orchard pool ni kuhesabiwa katika checkpoint umma ka
 
 [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
 
-[Halo (Habari Njema)](../zcash-tech/halo)
+[Halo](../zcash-tech/halo)
 
 [zk-SNARKS](../zcash-tech/zk-snarks)
 

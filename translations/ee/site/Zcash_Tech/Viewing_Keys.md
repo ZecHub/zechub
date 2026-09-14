@@ -48,9 +48,9 @@ Emetsonu etɔ̃ siwo ado tso eme na amesiame si lé safui ɖe asi alo le eɖem �
 
 ## Nukpɔkpɔ ƒe safui aɖe ɖoɖo ɖe duta
 
-### Zallet ƒe ŋkɔ
+### Zallet
 
-[Zallet ƒe ŋkɔ](https://github.com/zcash/zallet) nye gakotoku si me node blibo le si xɔ ɖe gakotoku si le zcashd me teƒe. Viewing-key export and import va ɖo **v0.1.0-beta.2 (28 July 2026)**, eyata lé ŋku ɖe wò tɔtrɔa ŋu gbã; mɔnu siawo mele xɔ siwo wotu do ŋgɔ la si o. Ele be nyaʋiʋli ɖesiaɖe si le mɔnu ƒe ŋkɔ megbe nanye JSON si sɔ, si fia be ka ƒe asixɔxɔwo nalé woawo ŋutɔ ƒe nyayɔyɔ eve ɖe te. The [Zallet ƒe Mɔfiame Kabakaba](/using-zcash/zallet-quick-reference-guide) ƒo nu tso sedede ƒe atsyã si wozãna le mɔ gbadza nu ŋu.
+[Zallet](https://github.com/zcash/zallet) nye gakotoku si me node blibo le si xɔ ɖe gakotoku si le zcashd me teƒe. Viewing-key export and import va ɖo **v0.1.0-beta.2 (28 July 2026)**, eyata lé ŋku ɖe wò tɔtrɔa ŋu gbã; mɔnu siawo mele xɔ siwo wotu do ŋgɔ la si o. Ele be nyaʋiʋli ɖesiaɖe si le mɔnu ƒe ŋkɔ megbe nanye JSON si sɔ, si fia be ka ƒe asixɔxɔwo nalé woawo ŋutɔ ƒe nyayɔyɔ eve ɖe te. The [Zallet ƒe Mɔfiame Kabakaba](/using-zcash/zallet-quick-reference-guide) ƒo nu tso sedede ƒe atsyã si wozãna le mɔ gbadza nu ŋu.
 
 Ŋlɔ nusiwo le gakotokua me:
 
@@ -78,13 +78,13 @@ The [Gakotokuwo](/using-zcash/wallets) axaa léa ŋku ɖe viewing-key support kp
 
 ## Nukpɔkpɔ ƒe safui tsɔtsɔ va eme abe ŋkuléleɖenuŋu ƒe akɔnta ene
 
-### Zkool ƒe ŋkɔ
+### Zkool
 
-[Zkool ƒe ŋkɔ](https://github.com/hhanh00/zkool2) nye tiatia si te ŋu trɔna bɔbɔe wu le afisia, elabena exɔa safui siwo wɔ ɖeka kpakple esiwo nye domenyinu. Eƒe README ŋlɔa nukpɔkpɔ-ko akɔnta siwo wowɔ tso **nukpɔkpɔ ƒe safui ɖeka** alo **Sapling kekeɖenukpɔkpɔ safui** me, kpe ɖe domenyinu shielded kekeɖenu safui siwo woɖo ɖa tso zcashd gbɔ. Tsɔ akɔnta yeye kpee, tia mɔ si dzi woato akpɔe ko, eye nàtsɔ... `uview…` or `zxviews…` asafui; emegbe gakɔnta la wɔa ɖeka hegblɔa ga si susɔ kple ŋutinya si ŋu gazazã ƒe ŋusẽ aɖeke mele o.
+[Zkool](https://github.com/hhanh00/zkool2) nye tiatia si te ŋu trɔna bɔbɔe wu le afisia, elabena exɔa safui siwo wɔ ɖeka kpakple esiwo nye domenyinu. Eƒe README ŋlɔa nukpɔkpɔ-ko akɔnta siwo wowɔ tso **nukpɔkpɔ ƒe safui ɖeka** alo **Sapling kekeɖenukpɔkpɔ safui** me, kpe ɖe domenyinu shielded kekeɖenu safui siwo woɖo ɖa tso zcashd gbɔ. Tsɔ akɔnta yeye kpee, tia mɔ si dzi woato akpɔe ko, eye nàtsɔ... `uview…` or `zxviews…` asafui; emegbe gakɔnta la wɔa ɖeka hegblɔa ga si susɔ kple ŋutinya si ŋu gazazã ƒe ŋusẽ aɖeke mele o.
 
 Ironwood ƒe ɖoɖowɔɖi ƒe kpekpeɖeŋu kple Orchard-to-Ironwood ʋuʋu yi anyi ɖe Zkool 6.24.0 (20 July 2026), eye 6.26.1 (20 August 2026) ɖɔ Ironwood ƒe asitsatsa ƒe dzedze le mempool me ɖo. Du 6.26.1 alo esiwo do ŋgɔ nɛ.
 
-### Zallet ƒe ŋkɔ
+### Zallet
 
 ```bash
 zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0

@@ -20,7 +20,7 @@ Private keys ne ahintasɛm a ɛma wo dijitaal agyapade ahobammɔ. Wɔn a wɔbɛk
 
 ## Sika a Wɔsan Yɛ ne Zkool
 
-[Zkool na ɔkyerɛwee](https://github.com/hhanh00/zkool2/releases) yɛ Ywallet adedifoɔ, a ɛfiri developer korɔ no ara mu, na ɛboa transparent ne shielded recovery nyinaa.
+[Zkool](https://github.com/hhanh00/zkool2/releases) yɛ Ywallet adedifoɔ, a ɛfiri developer korɔ no ara mu, na ɛboa transparent ne shielded recovery nyinaa.
 
 Wɔaka tebea abien ho asɛm wɔ ha:
 

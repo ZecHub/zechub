@@ -62,4 +62,4 @@ Zcash siesie Bitcoin sintɔ kɛse no; ankorankoro wurayɛ ne data a wɔde ma afo
 - [Wɔde sika kotoku](/using-zcash/wallets) — Paw sika kotoku a wɔabɔ ho ban a wode bɛkura wo ZEC
 - [Wɔretɔ ZEC](/using-zcash/buying-zec) — Baabi ne ɔkwan a wɔbɛfa so anya ZEC
 - [Atare a Wɔabɔ Ho Ban](/using-zcash/shielded-pools) — Sɛnea Zcash pools ma nnwuma yɛ kokoam
-- [ZK-SNARKs na wɔkyerɛwee](/zcash-tech/zk-snarks) — Ccryptography a ɛwɔ Zcash kokoam nsɛm akyi
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — Ccryptography a ɛwɔ Zcash kokoam nsɛm akyi

@@ -124,7 +124,7 @@ Sika nyinaa kɔ **tẽẽ** aguadifo no sika kotoku mu. Wɔnam **viewing key-bas
 ### Sɛnea Ɛyɛ Adwuma
 
 - **Wɔadi kan ayɛ sika kotoku no.** 
-  Oguadifoɔ no de Zcash sika kotokuo a ɛboa hwɛ safoa - te sɛ [Zkool na ɔkyerɛwee](https://github.com/hhanh00/zkool2/) or [Zingo! Sikabɔtɔ](https://zingolabs.org/).  
+  Oguadifoɔ no de Zcash sika kotokuo a ɛboa hwɛ safoa - te sɛ [Zkool](https://github.com/hhanh00/zkool2/) or [Zingo! Sikabɔtɔ](https://zingolabs.org/).  
   Wobetumi anya nea wɔahyehyɛ no nyinaa wɔ [ZecHub.wiki na ɛwɔ hɔ](https://zechub.wiki/wallets).
 
 - **BTCPay Server nam hwɛbea safoa so na ɛka bom.** 

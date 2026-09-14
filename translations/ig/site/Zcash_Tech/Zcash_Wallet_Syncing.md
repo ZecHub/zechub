@@ -92,4 +92,4 @@ N'ụzọ na-akpali mmasị, usoro ndị a niile bu n'obi ịza ajụjụ nke Zc
 - [Lightwallet Nodes (Nọmba nke obere akpa ego)](/zcash-tech/lightwallet-nodes) — the lightwalletd infrastructure that light wallets rely on.
 - [Igodo Nlele](/zcash-tech/viewing-keys)  igodo wallets na-eji achọpụta ma mebie akwụkwọ ego ha.
 - [Pepper Sync (Nkeji nke abụọ)](/zcash-tech/pepper-sync)  ụzọ ọzọ maka mmekọrịta obere akpa Zcash.
-- [FROST (nke a na-akpọ)](/zcash-tech/frost)  ikike ikesa akara maka ZEC echekwara.
+- [FROST](/zcash-tech/frost)  ikike ikesa akara maka ZEC echekwara.

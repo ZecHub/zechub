@@ -184,5 +184,5 @@ Kpɔ [Ironwood ƒe ati](/zcash-tech/ironwood) na ŋgɔyiyia ŋutɔ, eye [Turnsti
 - [Gakotokuwo](/using-zcash/wallets) — Gakotoku kawoe wodzrana ɖo eye Ironwood le klalo
 - [Adzɔnuwo ƒe asitsatsa](/using-zcash/transactions) — Alesi woaɖo asitsatsa siwo ŋu wokpɔ akpoxɔnu le ɖa
 - [ZEC ƒeƒle](/using-zcash/buying-zec) — ZEC xɔxɔ hafi azãe le tadeaguƒewo
-- [ZK-SNARKs ƒe nyawo](/zcash-tech/zk-snarks) — Ta siwo ŋu wokpɔ akpoxɔnu le ƒe gɔmeɖoanyi si wotsɔa nya ɣaɣlawo ŋlɔnae
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — Ta siwo ŋu wokpɔ akpoxɔnu le ƒe gɔmeɖoanyi si wotsɔa nya ɣaɣlawo ŋlɔnae
 - [Nukae nye ZEC kple Zcash](/start-here/what-is-zec-and-zcash) — Zcash ƒe ameŋunyatakakawo ŋuti nyatakakawo

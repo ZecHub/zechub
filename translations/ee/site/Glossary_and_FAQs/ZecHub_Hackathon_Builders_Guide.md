@@ -77,7 +77,7 @@ Dziɖuɖu menye mɔa ƒe nuwuwu o. Dziɖuɖu tua wò gaxɔmenu kple ŋkɔ nyui �
 
 - [Dɔwɔlawo ƒe Dɔwɔnuwo](https://zechub.wiki/developers) - ʋutɔɖoƒe gbãtɔ na Zcash xɔtulawo
 - [Zebra ƒe Node Bliboe](https://zechub.wiki/zcash-tech/zebra-full-node) - node si le stack la ƒe gɔme
-- [FROST ƑE NUÐEÐEŊUTI](https://zechub.wiki/zcash-tech/frost) - dzidzenu ƒe asidede agbalẽ te na dɔ deŋgɔwo
+- [FROST](https://zechub.wiki/zcash-tech/frost) - dzidzenu ƒe asidede agbalẽ te na dɔ deŋgɔwo
 
 <br/>
 

@@ -4,7 +4,7 @@
 
 Mkusanyiko wa Zcash Engineering Ofisi masaa ya kurekodi.
 
-# Zcash Engineering Ofisi ya Saa
+# Zcash Engineering Office Hours
 
 Regular technical sessions covering the Zcash protocol, zero-knowledge proofs, application development, ZIPs, and ecosystem engineering topics. Hosted primarily by Mark Henderson [](https://x.com/shieldedmark) na ushiriki kutoka Shielded Labs, ZcashMe, Edge, na wachangiaji wengine. vikao vya kuishi kawaida hufanyika kwenye hatua za Zcash Discord (mara nyingi kupitia Luma); rekodi zinachapishwa na [Zcash Brazil](https://www.youtube.com/@zcashbrasil).
 

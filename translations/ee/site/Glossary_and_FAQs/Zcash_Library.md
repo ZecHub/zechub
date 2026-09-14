@@ -41,7 +41,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| DeFi | Dɔ siwo woawɔ atsɔ awɔ ɖeka kple ZEC kple DeFi: [Mayawo ƒe Ðoɖowɔɖi](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Tameɖoɖo Siwo Te Ðe Eŋu](https://near-intents.org/) / [ZenRock ƒe agbalẽ](https://app.zenrocklabs.io/) / [Nɔnɔme ƒe Tɔtrɔ](https://app.shapeshift.com/) / [LeoDex ƒe agbalẽ](https://leodex.io/) / [ThorSwap ƒe ŋkɔ](https://app.thorswap.finance/) |
+| DeFi | Dɔ siwo woawɔ atsɔ awɔ ɖeka kple ZEC kple DeFi: [Mayawo ƒe Ðoɖowɔɖi](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Tameɖoɖo Siwo Te Ðe Eŋu](https://near-intents.org/) / [ZenRock ƒe agbalẽ](https://app.zenrocklabs.io/) / [Nɔnɔme ƒe Tɔtrɔ](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap ƒe ŋkɔ](https://app.thorswap.finance/) |
 | Deshielding | Fia asitsatsa si wole ɖoɖom tso zaddr (adrɛs si wokpɔ ta na) yi taddr (adrɛs si me kɔ). Afisi asitsatsa la dzɔ tso la medzena o ke hã gaawo gena ɖe asixɔxɔ ƒe ƒuƒoƒo si woate ŋu akpɔ le dutoƒo me. |
 | Dɔwɔlawo ƒe Dɔwɔnuwo | [Dɔwɔlawo ƒe Dɔwɔnuwo](https://www.zcashcommunity.com/developers/) |
 | Nuŋlɔɖiwo | [Dziɖuɖua ƒe Nuŋlɔɖiwo](https://zcash.readthedocs.io/en/latest/) |
@@ -102,7 +102,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| Keystone Gakotoku | Gakotoku si me ya mele o si me Zcash (Orchard shielded) ƒe kpekpeɖeŋu le, si sɔ kple ZODL hena asidede agbalẽ te le vuvɔ me. [Keystone ƒe kpe](https://keyst.one) |
+| Keystone Gakotoku | Gakotoku si me ya mele o si me Zcash (Orchard shielded) ƒe kpekpeɖeŋu le, si sɔ kple ZODL hena asidede agbalẽ te le vuvɔ me. [Keystone](https://keyst.one) |
 
 ## L
 

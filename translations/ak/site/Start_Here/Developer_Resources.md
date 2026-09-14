@@ -15,8 +15,8 @@ The stack changed a great deal in 2026. zcashd, a ɛhwɛɛ network no so wɔ n�
 |:--|:--|:--|
 | Full node | Zebra or Zakura | [The Zebra Book](https://zebra.zfnd.org/), [zakura.com na ɛwɔ hɔ](https://zakura.com/) |
 | Full node sika kotoku | Zallet, wɔ beta mu | [Zallet Nhoma no](https://zcash.github.io/zallet/) |
-| Hann sika kotoku server | Zaino anaasɛ lightwalletd | [Zaino na ɔkyerɛwee](https://github.com/zingolabs/zaino), [lightwalletd a wɔde ahyɛ mu](https://github.com/zcash/lightwalletd) |
-| Wallet nhomakorabea ahorow | Na librustzcash nnaka no | [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash) |
+| Hann sika kotoku server | Zaino anaasɛ lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Wallet nhomakorabea ahorow | Na librustzcash nnaka no | [librustzcash](https://github.com/zcash/librustzcash) |
 | Mobile so | Android ne iOS SDK ahorow | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
 | Nsɛm a Wɔakyerɛkyerɛ mu | Protocol spec ne ZIP ahorow | [zips.z.sika a wɔde yɛ adwuma](https://zips.z.cash) |
 
@@ -26,13 +26,13 @@ Node bi di adwene a ɛwɔ hɔ no ho adanse na ɛkura nkɔnsɔnkɔnsɔn no. Nneɛ
 
 [Zebra](/zcash-tech/zebra-full-node) yɛ Zcash Foundation node, a wɔakyerɛw wɔ Rust mu, na ɛyɛ nea akwankyerɛfo dodow no ara susuw mprempren. [The Zebra Book](https://zebra.zfnd.org/) kata sɛnea wɔde besisi hɔ na wɔde ayɛ adwuma, ne [adekorabea](https://github.com/ZcashFoundation/zebra) ne baabi a nkɔso kɔ so.
 
-[Zakura na ɔkyerɛwee](/zcash-tech/zakura-node) yɛ node foforo, a n'akyerɛwfo kaa ho asɛm sɛ "consensus-compatible Zcash full node, built for scale", a ɛwɔ sync ntɛmntɛm, block pruning ne zcashd compatibility mode. Sean Bowe, a ɔne no hyehyɛɛ Zcash, ne Dev Ojha na wodi anim. Ɛyɛ open source wɔ Apache 2.0 ase wɔ [zakura-core/zakura a ɛwɔ hɔ](https://github.com/zakura-core/zakura).
+[Zakura](/zcash-tech/zakura-node) yɛ node foforo, a n'akyerɛwfo kaa ho asɛm sɛ "consensus-compatible Zcash full node, built for scale", a ɛwɔ sync ntɛmntɛm, block pruning ne zcashd compatibility mode. Sean Bowe, a ɔne no hyehyɛɛ Zcash, ne Dev Ojha na wodi anim. Ɛyɛ open source wɔ Apache 2.0 ase wɔ [zakura-core/zakura a ɛwɔ hɔ](https://github.com/zakura-core/zakura).
 
 ZecHub wɔ a [Nodes a Ɛyɛ Pɛ](/zcash-tech/full-nodes) kratafa a ɛka aguadi a ɛda wɔn ntam no ho asɛm.
 
 ## Node sika kotoku a ɛyɛ ma no
 
-zcashd boaboaa sika kotoku bi ano ne node no. Saa sika kotoku no nni hɔ bio, na [Zallet na ɔkyerɛwee](https://github.com/zcash/zallet) ne nea wɔde besi ananmu. Zallet Nhoma no ka ho asɛm sɛ "Zcash sika kotoku a ɛwɔ node mũ a wɔakyerɛw wɔ Rust mu" a "wɔasi sɛ nea wɔde besi zcashd sika kotoku ananmu".
+zcashd boaboaa sika kotoku bi ano ne node no. Saa sika kotoku no nni hɔ bio, na [Zallet](https://github.com/zcash/zallet) ne nea wɔde besi ananmu. Zallet Nhoma no ka ho asɛm sɛ "Zcash sika kotoku a ɛwɔ node mũ a wɔakyerɛw wɔ Rust mu" a "wɔasi sɛ nea wɔde besi zcashd sika kotoku ananmu".
 
 Kenkan ahobammɔ ho kɔkɔbɔ no ansa na wode wo ho ato so. Zallet wɔ beta mu, "wɔnhwɛɛ mu koraa", nsakraeɛ a ɛbubu "betumi aba bere biara, a ɛhia sɛ wopopa na wosan yɛ wo Zallet sika kotokuo", na ɛnyɛ zcashd RPC kwan biara na wɔde akɔfa baabiara.
 
@@ -42,13 +42,13 @@ Sɛ woretu nhyehyɛe bi a ɛwɔ hɔ dedaw no akɔ a, ZecHub wɔ a [atutra ho akw
 
 Wallet dodow no ara ntumi nkɔ node biara so. Wɔne server bi a ɛkora nkɔnsɔnkɔnsɔn no so kasa na ɛsan de ne nsa kɔ akyi sɛnea ɛbɛyɛ a obehu no ketewaa bi.
 
-[lightwalletd a wɔde ahyɛ mu](https://github.com/zcash/lightwalletd) yɛ mfitiaseɛ dwumadie, a wɔkyerɛwee wɔ Go mu, a wɔaka ho asɛm sɛ "akyi dwumadie a ɛma bandwidth-efficient interface ma Zcash blockchain". [Zaino na ɔkyerɛwee](/zcash-tech/zaino) yɛ indexer foforo, a wɔde Rust akyerɛw, na ɛkenkan fi validator a edi mũ mu sen sɛ ɛbɛsoa n’ankasa nkɔnsɔnkɔnsɔn no bi.
+[lightwalletd](https://github.com/zcash/lightwalletd) yɛ mfitiaseɛ dwumadie, a wɔkyerɛwee wɔ Go mu, a wɔaka ho asɛm sɛ "akyi dwumadie a ɛma bandwidth-efficient interface ma Zcash blockchain". [Zaino](/zcash-tech/zaino) yɛ indexer foforo, a wɔde Rust akyerɛw, na ɛkenkan fi validator a edi mũ mu sen sɛ ɛbɛsoa n’ankasa nkɔnsɔnkɔnsɔn no bi.
 
 No [Hann Adetɔfoɔ Protocol](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) nkrataa a wɔde kyerɛw nsɛm no kata protocol no ankasa so. No [Lightwallet Nodes a Wɔde Di Dwuma](/zcash-tech/lightwallet-nodes) krataafa no ka nea saa server ahorow yi betumi ahu ne nea wontumi nhu wɔ obi a ɔde di dwuma ho, a ɛfata sɛ wote ase ansa na woapaw biako.
 
 ## Sika kotoku a wɔreyɛ
 
-Wallet adwuma dodow no ara kɔ so wɔ Rust crates ase [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash), a mobile SDK ahorow ne desktop sika kotoku pii si so. Wɔakyerɛw adaka biara ho nsɛm wɔ so [docs.rs](https://docs.rs).
+Wallet adwuma dodow no ara kɔ so wɔ Rust crates ase [librustzcash](https://github.com/zcash/librustzcash), a mobile SDK ahorow ne desktop sika kotoku pii si so. Wɔakyerɛw adaka biara ho nsɛm wɔ so [docs.rs](https://docs.rs).
 
 | Crate | Nea ɛyɛ ma |
 |:--|:--|

@@ -4,7 +4,7 @@
 
 Àkójọ àwọn àkọsílẹ̀ Ìṣẹ́jú Ilé Iṣẹ́ Ẹrọ Zcash.
 
-# Awọn wakati Ọfiisi Imọ-ẹrọ Zcash
+# Zcash Engineering Office Hours
 
 Awọn akoko imọ-ẹrọ deede ti o bo ilana Zcash, awọn ẹri ìmọ odo, idagbasoke ohun elo, ZIPs, ati awọn akọle ẹrọ ilolupo eda abemi. Gbalejo ni akọkọ nipasẹ Mark Henderson [](https://x.com/shieldedmark) pẹlu ikopa lati Shielded Labs, ZcashMe, Edge ati awọn alabapin miiran. Awọn akoko laaye ni a maa n waye lori awọn ipele ti Zcash Discord (nigbagbogbo nipasẹ Luma); igbasilẹ jẹ atẹjade nipasẹ [Zcash Brasil (ì í ì ë ¤)](https://www.youtube.com/@zcashbrasil).
 

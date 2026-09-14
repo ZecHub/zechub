@@ -12,9 +12,9 @@ Atilẹyin fun awọn ohun-ini aṣiri yipada nigbagbogbo, nitorina ila kọọk
 
 | Processor | Custody | Shielded ZEC | Self-host | Merchant fee | Regions / KYC | Verified |
 |:--|:--|:--|:--|:--|:--|:--|
-| [CipherPay (ìdásílẹ̀)](https://www.cipherpay.app)  Kò sí ìpamọ́. Bẹẹni, Orchard nipasẹ Adirẹsi Aṣọpọ̀ Bẹẹ ni, orisun ṣiṣi 1% fun owo sisan kan, ọfẹ ti o ba jẹ pe ara ẹni gbalejo rẹ Ko si KYC, awọn agbegbe ko sọ 2026-07-29
+| [CipherPay](https://www.cipherpay.app)  Kò sí ìpamọ́. Bẹẹni, Orchard nipasẹ Adirẹsi Aṣọpọ̀ Bẹẹ ni, orisun ṣiṣi 1% fun owo sisan kan, ọfẹ ti o ba jẹ pe ara ẹni gbalejo rẹ Ko si KYC, awọn agbegbe ko sọ 2026-07-29
 | [BTCPay Olùpèsè](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  Kò sí ìpamọ́, wíwo kókó nìkan. Bẹẹni, ààbò nikan (Sapling, Orchard, UA) Bẹ̀ ni, orísun ìmọ̀-ìmọ̀. Rárá o, ẹ san owó nẹtiwọki nìkan. Àgbáyé, kò ní KYC 2026-07-29
-| [ZGo (ì í ì)](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
+| [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
 | [Flexa](https://flexa.co/) ☐ Owó tí àwọn oníbàárà fi sí àkáǹtì, owó ti òwò náà sì ń san ní ẹ̀rọ fiat. Àwọn oníbààrọ́ máa ń ná nǹkan láìsí ìdìbò kankan lórí rẹ̀, ẹni tó bá gbà á kò rí ìwé-ìwé kan nínú rẹ̀. Kò sí 1% fún gbogbo iye tí wọ́n bá ta. Orílẹ̀ èdè Amẹrika àti 37 lára àwọn orílẹ̀-èdè SEPA, ZEC ni EU a kò fìdí múlẹ̀ 2026-07-29
 | [Àwọn ìsanwó NOW Payments](https://nowpayments.io/supported-coins/zcash-payments)  Kò sí ìpamọ́ ní àṣeparí. Rárá, àdírẹ́sì tí ó ṣe kedere nìkan ni o wà. Ko si 0.5%, tabi 1% pẹ̀lú iyipada. Gbogbogbo ayafi ibi ti a fi òfin dè é, kò sí KYC láti bẹ̀rẹ̀ 2026-07-29
 | [Plisio (ìlú)](https://plisio.net/accept-zcash) | Custodial, despite marketing | Not documented | No | 0.5% API, 1.5% white label | No KYC to receive | 2026-07-29 |
@@ -55,7 +55,7 @@ Fun ẹnu-ọna ti o gbalejo nibiti awọn sisanwo ṣiṣanwọle ṣe itẹl�
 ## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
 - **Irú ìtìlẹyìn**: Aṣọ́ (Orchard, nípasẹ̀ Adirẹsi Àjọṣe)
 - Àpèjúwe: Gbígba Zcash ní ìṣẹ́jú, Kò sí ààbò, kò si oníbàárà kankan tí ó mọ̀ nípa rẹ̀, kò sì sí alákọ̀wé.
-- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [CipherPay (ìdásílẹ̀)](https://www.cipherpay.app)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [CipherPay](https://www.cipherpay.app)
 <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
 
 O fún CipherPay ní kókó tí o lè rí nìkan, kí owó náà sì lọ sí àpamọ́ rẹ kò fi gba àwọn ìnáwó kankan. Ó máa ń lo àdírésì tuntun fún gbogbo ìwé-ìwé ọ̀fẹ́.
@@ -95,7 +95,7 @@ Kò sí owó fún ẹ̀rọ náà fúnra rẹ. O sanwó ìsopọ́ Zcash àti oh
 ## [ZGo](https://zgo.cash/) <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" class="processor-logo" />
 - **Support Type**: Shielded (Sapling and Orchard)
 - **Àpèjúwe**: ZGo jẹ́ ètò ìsanwó orí ẹ̀rọ tí ó ń lọ tààrà láti ọ̀dọ̀ oníbàárà rẹ sí ìwọ, láìsí ẹnikẹta tó wà nídìí.
-- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [ZGo (ì í ì)](https://zgo.cash/)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [ZGo](https://zgo.cash/)
 <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" width="200" hidden />
 
 A till o ṣiṣe ni a aṣàwákiri, ki kan laptop, tabulẹti tabi foonu di awọn owo. nibẹ jẹ tun ohun WooCommerce afikun ati REST API. ti wa ni itumọ nipasẹ Vergara Technologies ati fifun nipa Zcash Community Grants, pẹlu awọn gbigbe lati zcashd to Zebra .

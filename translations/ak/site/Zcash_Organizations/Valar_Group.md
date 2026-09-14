@@ -106,7 +106,7 @@ Default-chain coordination uses a 2-of-5 multisig among Project Tachyon, Valar G
 - [PIR server nhyehyɛe](https://setup-pir.valargroup.org)
 - [Shielded Vote ho nkrataa](https://valargroup.gitbook.io/shielded-vote-docs)
 
-### Zakura na ɔkyerɛwee
+### Zakura
 
 Zakura yɛ Zcash full node a wɔayɛ sɛ Valar Kuo ne Project Tachyon ntam adwumayɛ. Wɔnya fi Zebra mu na ɛde sync ntɛmntɛm, native pruning, snapshot bootstrapping, . `zcashd` akwan a ɛne ne ho hyia, ne sɔhwɛ a ɛyɛ adwuma yiye P2P adwuma.
 
@@ -183,7 +183,7 @@ Team koro no ara node ne sync adwuma no atirimpɔw ne sɛ ɛbɛboa saa mfonini n
 - [Abatow nkɔnsɔnkɔnsɔn nhyehyɛe](https://setup.valargroup.org)
 - [Tally akontaabufo](https://tally.valargroup.org)
 - [Ntamgyinafo UI](https://svote.valargroup.org/)
-- [Zakura na ɔkyerɛwee](https://zakura.com/)
+- [Zakura](https://zakura.com/)
 - [Zakura fa / kuw ho](https://zakura.com/about/)
 - [NU7 coinholder abatow forum asaawa](https://forum.zcashcommunity.com/t/nu7-token-holder-vote/56912)
 - [Coinholder Abatoɔ Nkɔnsɔnkɔnsɔn forum thread](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925)

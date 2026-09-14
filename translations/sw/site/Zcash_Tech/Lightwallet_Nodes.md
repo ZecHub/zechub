@@ -117,13 +117,13 @@ Njia ya menyu chini walikuwa sahihi wakati ukurasa huu updated, lakini mkoba int
 
 ZODL pia inatoa kubadili server njia ya mkato wakati ushirikiano kushindwa ni unasababishwa na seva kuwa nje ya tarehe. Tor inaendelea kuendesha mfumo wa uhamisho kwa ajili ya watumiaji wote, lakini si katika hali yoyote kama ilivyo sasa.
 
-#### Kipaji cha Ywallet
+#### Ywallet
 
 cog katika kona ya juu kulia, kisha tab Zcash.
 
 ![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
-#### Zingo (mnyama)
+#### Zingo
 
 Burger orodha katika kona ya juu kushoto, kisha Mipangilio, basi scroll chini.
 

@@ -124,7 +124,7 @@ Gaawo katã yia **tẽe** ɖe asitsala la ƒe gakotoku me. Wokpɔa dedienɔnɔ t
 ### Ale Si Wòwɔa Dɔe
 
 - **Wowɔa gakotokua do ŋgɔ.** 
-  Asitsala zãa Zcash gakotoku si doa alɔ safuiwo kpɔkpɔ - abe [Zkool ƒe ŋkɔ](https://github.com/hhanh00/zkool2/) or [Zingo! Gakotoku](https://zingolabs.org/).  
+  Asitsala zãa Zcash gakotoku si doa alɔ safuiwo kpɔkpɔ - abe [Zkool](https://github.com/hhanh00/zkool2/) or [Zingo! Gakotoku](https://zingolabs.org/).  
   Woate ŋu akpɔ xexlẽdzesi bliboa le [ZecHub.wiki dzi](https://zechub.wiki/wallets).
 
 - **BTCPay Server doa ka to nukpɔkpɔ ƒe safui dzi.** 

@@ -52,7 +52,7 @@ Nke a na-enye gị ohere ịnata ego **na-enweghị ikpughe eserese akụnụba 
 
 - Akpa ego Zcash nke na-akwado adreesị echedoro:
   - Zodl .
-  - Zingo! - Ewoo, ọ bụ ya.
+  - Zingo!
   - Akpa ego ndị ọzọ a kwadoro
 
 <br/>

@@ -26,13 +26,13 @@ Node validates makubaliano na anaendelea mlolongo. Kuna mbili uanzishaji kikamil
 
 [Zebra](/zcash-tech/zebra-full-node) ni node Zcash Foundation ya, imeandikwa katika kutu, na moja viongozi wengi sasa kudhani. [Kitabu cha Zebra](https://zebra.zfnd.org/) inashughulikia kufunga na kuendesha yake, na [kumbukumbu ya habari](https://github.com/ZcashFoundation/zebra) ni mahali ambapo maendeleo hutokea.
 
-[Zakura (mnyama)](/zcash-tech/zakura-node) is a newer node, described by its authors as a "consensus-compatible Zcash full node, built for scale", with faster sync, block pruning and a zcashd compatibility mode. It is led by Sean Bowe, a Zcash cofounder, and Dev Ojha. It is open source under Apache 2.0 at [zakura-msingi/zakura](https://github.com/zakura-core/zakura).
+[Zakura](/zcash-tech/zakura-node) is a newer node, described by its authors as a "consensus-compatible Zcash full node, built for scale", with faster sync, block pruning and a zcashd compatibility mode. It is led by Sean Bowe, a Zcash cofounder, and Dev Ojha. It is open source under Apache 2.0 at [zakura-msingi/zakura](https://github.com/zakura-core/zakura).
 
 ZecHub ina a [Nodes kamili](/zcash-tech/full-nodes) ukurasa kufunika biashara kati yao.
 
 ## Nakala kamili ya mkoba
 
-zcashd bundled mkoba na node. mfuko huo ni gone, na [Zallet (Kifungu cha kulia)](https://github.com/zcash/zallet) ni badala. Kitabu Zallet inaelezea kama "full-node Zcash mkoba imeandikwa katika kutu" kuwa "kujengwa kama mbadala kwa ajili ya mfuko wa zcashd".
+zcashd bundled mkoba na node. mfuko huo ni gone, na [Zallet](https://github.com/zcash/zallet) ni badala. Kitabu Zallet inaelezea kama "full-node Zcash mkoba imeandikwa katika kutu" kuwa "kujengwa kama mbadala kwa ajili ya mfuko wa zcashd".
 
 Soma onyo la usalama kabla ya kutegemea. Zallet ni katika beta, "haikuwa kikamilifu upya", kuvunja mabadiliko "inaweza kutokea wakati wowote, zinahitaji wewe ili kufutilia mbali na recreate mkoba wako Zallet", na si kila njia zcashd RPC imekuwa ported bado.
 

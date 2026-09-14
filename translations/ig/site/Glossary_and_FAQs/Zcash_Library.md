@@ -41,7 +41,7 @@ Cypherpunk Zero bụ Creative Universe na mgbalị imekọ ihe ọnụ n'etiti E
 
 Okwu. Nkọwa okwu.
 |------|-----------|
-◯ DeFi ❑ Ihe oru ngo nke na-ejikọta ZEC na DeFi: [Nkwekọrịta Maya](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Ihe Ndị Dị Nso n'Ebe E Si Nweta Ya](https://near-intents.org/) / [ZenRock (Ụlọ akụ)](https://app.zenrocklabs.io/) / [ShapeShift (Nkeji nke abụọ)](https://app.shapeshift.com/) / [LeoDex (Ụmụ nwoke)](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+◯ DeFi ❑ Ihe oru ngo nke na-ejikọta ZEC na DeFi: [Nkwekọrịta Maya](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Ihe Ndị Dị Nso n'Ebe E Si Nweta Ya](https://near-intents.org/) / [ZenRock (Ụlọ akụ)](https://app.zenrocklabs.io/) / [ShapeShift (Nkeji nke abụọ)](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
 | Deshielding | Refers to a transaction being sent from a zaddr (shielded address) to a taddr (transparent address). The origin of the transaction is not visible however the funds enter a publicly visible value pool. |
 ◯ Ndị na-emepụta ihe ❑ Onye ọrụ ibe gị ❖ Ụlọ Ọrụ Na-ahụ Maka Ihe Ọmụma [Akụrụngwa Onye Mmepụta](https://www.zcashcommunity.com/developers/) |
 Ihe ndekọ. [Akwụkwọ Ndị Ọrụ Ọchịchị na-edepụta](https://zcash.readthedocs.io/en/latest/) |
@@ -55,7 +55,7 @@ ECDSA Elliptic Curve Digital Signature Algorithm bụ atụmatụ ntinye aka dij
 ◯ Agụmakwụkwọ ❖ Ịmụta vidio ndị na-akọwa Zcash [ebe a .](https://www.zcashcommunity.com/zcash-education/) |
 ◯ Encrypted Memos. Ihe ọzọ maka azụmahịa ndị e zigara na adreesị echekwara nke onye natara ego ga-ahụ ya. Naanị onye zitere ozi ahụ nakwa onye ọ zụtara ka a ga-enwe ike ịhụ ihe nzuzo ezoro ezo dị n'ime akwụkwọ akụkọ ahụ. ❑ Ịnweta ụgwọ site n'aka ụlọ ọrụ gọọmenti, ma ọ bụrụhaala na ị bụ ezigbo mmadụ, nwere ike ịnata gị ngwa ahịa iji nweta ha. ▪ Ọ bụghị naanị mgbe i nwetara otu ụdị kaadị akwụmụgwọ ka ị ga-enweta ọtụtụ ndebanye aha.
  Equihash: Ihe ncheta-na-elekwasị anya na ihe akaebe nke ọrụ Ngwuputa algọridim a na-eji Zcash.
-Ihe omume. Kalenda nke ihe ndị metụtara Zcash nwere ike ile anya na [Luma (nwa anụmanụ)](https://luma.com/zcash) na nke a: [Ụlọ ọrụ Zcash Foundation](https://zfnd.org/zf-events/) |
+Ihe omume. Kalenda nke ihe ndị metụtara Zcash nwere ike ile anya na [Luma (nwa anụmanụ)](https://luma.com/zcash) na nke a: [Zcash Foundation](https://zfnd.org/zf-events/) |
 Ịgbanwe ihe. [Ndepụta nke mgbanwe na-akwado Zcash.](https://z.cash/exchanges/) |
 
 ## F

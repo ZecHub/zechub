@@ -37,7 +37,7 @@ Wɔ afe 2021 mu no, ShapeShift nyaa nsakraeɛ kɛseɛ. Adwumakuw no guu n’adwu
 
 ## Sɛnea Zcash Yɛ Adwuma
 
-[Zcash na ɛyɛ](https://z.cash/) (ZEC) yɛ cryptocurrency a wɔasi wɔ cryptographic fapem a ɛyɛ den a ɛma wɔn a wɔde di dwuma no tumi di nkitaho wɔ kokoam. Wɔde sii hɔ wɔ afe 2016 mu, Zcash yɛ Bitcoin fork a ɛde kokoamsɛm mfiridwuma a ɛkɔ anim ka ho bere a ɛkora Bitcoin’s fixed supply a ɛyɛ sika ɔpepem 21 ne adanse a ɛkyerɛ sɛ ɛyɛ adwuma no so.
+[Zcash](https://z.cash/) (ZEC) yɛ cryptocurrency a wɔasi wɔ cryptographic fapem a ɛyɛ den a ɛma wɔn a wɔde di dwuma no tumi di nkitaho wɔ kokoam. Wɔde sii hɔ wɔ afe 2016 mu, Zcash yɛ Bitcoin fork a ɛde kokoamsɛm mfiridwuma a ɛkɔ anim ka ho bere a ɛkora Bitcoin’s fixed supply a ɛyɛ sika ɔpepem 21 ne adanse a ɛkyerɛ sɛ ɛyɛ adwuma no so.
 
 ### Nkitahodi a Wɔabɔ ho Ban ne Adanse a Nimdeɛ a Ɛnyɛ Den
 

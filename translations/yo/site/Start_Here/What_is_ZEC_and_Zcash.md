@@ -62,4 +62,4 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In 
 - [Àwọn pọ́ọ̀sì](/using-zcash/wallets)  Yan apamọwọ ti o ni aabo lati tọju ZEC rẹ
 - [Ríra ZEC](/using-zcash/buying-zec)  Ibo àti bí a ṣe lè rí ZEC gbà
 - [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Ṣe](/using-zcash/shielded-pools)  Bí àwọn ìsọ̀rí Zcash ṣe ń pa àwọn ìsọfúnni tó jẹ mọ́ ìdánwò mọ́
-- [Àwọn ZK-SNARKs](/zcash-tech/zk-snarks)  Àkọsílẹ̀ tó wà lẹ́yìn ìpamọ́ Zcash
+- [ZK-SNARKs](/zcash-tech/zk-snarks)  Àkọsílẹ̀ tó wà lẹ́yìn ìpamọ́ Zcash

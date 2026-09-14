@@ -79,7 +79,7 @@ Awọn ifitonileti meji. Tor fi IP rẹ pamọ lati ọdọ olupin, ṣugbọn k
 
 ### Zaino, olùṣàmúlò Ìdàrọ́jẹ̀
 
-[Zaino (ìyẹn)](/zcash-tech/zaino) jẹ́ àtòjọ tí a kọ ní Rust láti ọwọ̀ ẹgbẹ Zingo, ti a ṣe lati rọpo lightwalletd gẹ́gẹ́ bí apá kan iṣẹ́ ìmúdi zcashd. Ó ń ṣiṣẹ́ fún àwọn oníṣe-òwò kékeré, àti olùwádìí àwárí ìdínà (block explorer), kíkà data ẹ̀ka tó wà lábẹ́ "yálà Zebra tàbí aláyẹsẹ Zcashd".
+[Zaino](/zcash-tech/zaino) jẹ́ àtòjọ tí a kọ ní Rust láti ọwọ̀ ẹgbẹ Zingo, ti a ṣe lati rọpo lightwalletd gẹ́gẹ́ bí apá kan iṣẹ́ ìmúdi zcashd. Ó ń ṣiṣẹ́ fún àwọn oníṣe-òwò kékeré, àti olùwádìí àwárí ìdínà (block explorer), kíkà data ẹ̀ka tó wà lábẹ́ "yálà Zebra tàbí aláyẹsẹ Zcashd".
 
 O ti wa ni labẹ idagbasoke lọwọlọwọ, pẹlu ẹya 0.8.0 tu silẹ ni Oṣu Kẹjọ ọdun 2026. o n ṣe ifọkansi lati duro pada ibaramu pẹlu lightwalletd nibiti o ba ṣeeṣe, nitorinaa awọn apamọwọ le tọka si rẹ laisi kikọ lẹẹkansii.
 
@@ -87,7 +87,7 @@ Zaino ní ojúewé tirẹ̀ pẹlú àwọn àwòrán ìṣẹ́ ọnà, nítor�
 
 ### Wàá máa dá bójú tó ara rẹ.
 
-Aṣayan ti o lagbara julọ ni lati jẹ oniṣẹ tirẹ, eyiti o yọ ibeere igbẹkẹle kuro patapata. Awọn olupin mejeeji wa orisun ṣiṣi: [lightwalletd ì í ë ¤ì 'ë¦¬í ¬](https://github.com/zcash/lightwalletd) ní Go àti [Zaino (ìyẹn)](https://github.com/zingolabs/zaino) Ni Rust. Mejeeji ka lati kan ni kikun validator, ki o yoo tun fẹ [Zebra](/zcash-tech/zebra-full-node).
+Aṣayan ti o lagbara julọ ni lati jẹ oniṣẹ tirẹ, eyiti o yọ ibeere igbẹkẹle kuro patapata. Awọn olupin mejeeji wa orisun ṣiṣi: [lightwalletd](https://github.com/zcash/lightwalletd) ní Go àti [Zaino](https://github.com/zingolabs/zaino) Ni Rust. Mejeeji ka lati kan ni kikun validator, ki o yoo tun fẹ [Zebra](/zcash-tech/zebra-full-node).
 
 ## Àwọn Ohun Tó Lè Yọrí sí Lóòótọ́
 
@@ -113,7 +113,7 @@ Worth doing if you want to pick an operator you trust, spread activity across op
 
 Àwọn ojúewé ìtòlẹ́sẹẹsẹ nísàlè yìí tọ̀nà nígbà tí a ṣe àtúnṣe sí ojúewè, ṣùgbọ́n àwọn agbójútó apamọwọ ń ṣí lọ. Nítorí náà wo wọn gẹ́gẹ́ bí ìmọ̀ràn dípò ọ̀nà tó tòótọ́. Wá fún Àyípadà Ìpèsè tàbí yíyàn aṣàmúlò-ìránisẹ́ kan.
 
-#### ZODL (ì í ì ë ¤)
+#### ZODL
 
 ZODL tun nfunni ni ọna asopọ olupin Switch nigbati ikuna isọdọkan ba ṣẹlẹ nitori pe olupin ti kọja ọjọ.
 
@@ -129,7 +129,7 @@ ZODL tun nfunni ni ọna asopọ olupin Switch nigbati ikuna isọdọkan ba ṣ
 
 ![Zingo server settings](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
-#### Èdè ìbílẹ̀: eZcash
+#### eZcash
 
 Àtòjọ hamburger ní igun òsì òkè, lẹ́yìn náà Ìṣètò, lẹ́yìn náà Gíga.
 
@@ -155,7 +155,7 @@ Light wallets give you the shielded pool without the disk space, which is a good
 
 - [Àwọn wo ló lè rí owó tí o bá san lórí Zcash?](/start-here/who-can-see-your-zcash-payment)  ojú ìwòye tí àwọn tó ṣẹ̀ṣẹ̀ ń kópa nínú ìdánwò náà fi wo ìbéèrè kan náà.
 - [Ohun Tí Ẹni Tó Ń Ṣàyẹ̀wò Àlàfo Lè Rí](/zcash-tech/what-a-block-explorer-can-see)  ohun ti o han lori-agbelebu, bi idakeji si ni olupin.
-- [Zaino (ìyẹn)](/zcash-tech/zaino)  awọn aworan apẹrẹ ati ipa ti o gbooro sii ti olutọpa Rust.
+- [Zaino](/zcash-tech/zaino)  awọn aworan apẹrẹ ati ipa ti o gbooro sii ti olutọpa Rust.
 - [Zebra Ìkànnì Pípéye](/zcash-tech/zebra-full-node)  Olùmúṣẹ tí àwọn àkáǹtì owó-ìpamọ́ ń kà láti inú rẹ̀.
 - [Ìṣètò Ọ̀rọ̀-ìpamọ́ Zcash Wallet](/zcash-tech/zcash-wallet-syncing)  bí àwọn ìdìpọ̀ tí a ṣe ní àpapọ̀ ti séréfò ránṣẹ́ ni wó n gbà láti inú pópó rẹ.
 

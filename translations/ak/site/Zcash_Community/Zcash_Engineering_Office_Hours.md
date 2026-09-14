@@ -4,7 +4,7 @@
 
 Zcash Engineering Office Hours nsɛm a wɔakyere agu hama so a wɔaboaboa ano.
 
-# Zcash Engineering Dwumadibea Nnɔnhwerew
+# Zcash Engineering Office Hours
 
 Mfiridwuma ho nhyiamu a wɔyɛ no daa a ɛfa Zcash protocol, zero-knowledge proofs, application nkɔsoɔ, ZIPs, ne ecosystem engineering nsɛmti ho. Mark Henderson na ɔyɛɛ ahɔhoyɛfo titiriw [](https://x.com/shieldedmark) a Shielded Labs, ZcashMe, Edge, ne afoforo a wɔboaa no de wɔn ho hyɛɛ mu. Wɔtaa yɛ live sessions wɔ Zcash Discord stages (mpɛn pii no ɛnam Luma so); nea wɔakyere agu hama so no na wotintim denam [Zcash Brasil na ɔkyerɛwee](https://www.youtube.com/@zcashbrasil).
 

@@ -98,5 +98,5 @@ ZODL nyansapɛ a ɛkyerɛ kwan no gyina adwene a ɛne "Ɔhene no Awɛmfo" so -- 
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)
-- [Zingo Labs, na ɛwɔ hɔ](Zingo_Labs.md)
+- [Zingo Labs](Zingo_Labs.md)
 - [Shielded Labs a wɔde wɔn ho ahyɛ mu](Shielded_Labs.md)

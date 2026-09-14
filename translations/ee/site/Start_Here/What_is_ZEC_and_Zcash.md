@@ -62,4 +62,4 @@ Zcash kpɔa Bitcoin ƒe vodada gãtɔ gbɔ; ame ŋutɔ ƒe nutɔnyenye kple nyat
 - [Gakotokuwo](/using-zcash/wallets) — Tia gakotoku si ŋu akpoxɔnu le be nàlé wò ZEC ɖe te
 - [ZEC ƒeƒle](/using-zcash/buying-zec) — Afisi kple alesi woawɔ axɔ ZEC
 - [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — Alesi Zcash pools naa asitsatsa nɔa ɣaɣla
-- [ZK-SNARKs ƒe nyawo](/zcash-tech/zk-snarks) — Nya ɣaɣla siwo le megbe na Zcash ƒe ameŋunyatakakawo
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — Nya ɣaɣla siwo le megbe na Zcash ƒe ameŋunyatakakawo

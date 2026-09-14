@@ -59,7 +59,7 @@ Adwuma a wɔyɛ no nnɛ no atrɛw wɔ ahyehyɛde ahorow a wɔde wɔn ho mu, na e
 ### Ahyehyɛde abien a efi afe 2026 mu no mu paapaee
 
 1. ZODL, Zcash Open Development Lab, no, kan Electric Coin Company kuw no na wɔhyehyɛɛ no ​​na Josh Swihart na odii anim. Ɛboaboaa bɛboro dɔla ɔpepem aduonu nnum ano fii abɔnten sikakorafoɔ hɔ na ɛyɛ adwuma wɔ core protocol nkɔsoɔ ho, a Halo 2 proving system a ɛma Zcash shielded transactions foforɔ koraa no tumi ka ho, ne ZODL wallet so, shielded by default mobile wallet a kan no na wɔfrɛ no Zashi. Hwɛ [ZODL](https://zechub.wiki/zcash-organizations/zodl).
-2. Sovright yɛ adwumakuw a ɛnyɛ nea wɔhwehwɛ mfaso a kan Bootstrap board mufo baasa na wɔhyehyɛe. Ɛtwe adwene si nnwinnade ne mmoa a wɔde ma abɔde a nkwa wom so, na ɛkyekyee Argos, adwinnade a ɛbɛboa wɔn a wodi kan de di dwuma no ma wɔasan anya sika a akɔda sika kotoku dedaw bi a wɔanhwɛ so yiye mu. Hwɛ [Sovright na ɔkyerɛwee](https://zechub.wiki/zcash-organizations/sovright).
+2. Sovright yɛ adwumakuw a ɛnyɛ nea wɔhwehwɛ mfaso a kan Bootstrap board mufo baasa na wɔhyehyɛe. Ɛtwe adwene si nnwinnade ne mmoa a wɔde ma abɔde a nkwa wom so, na ɛkyekyee Argos, adwinnade a ɛbɛboa wɔn a wodi kan de di dwuma no ma wɔasan anya sika a akɔda sika kotoku dedaw bi a wɔanhwɛ so yiye mu. Hwɛ [Sovright](https://zechub.wiki/zcash-organizations/sovright).
 
 ### Protocol sohwɛ, nhwehwɛmu, ne node software
 
@@ -74,7 +74,7 @@ Adwuma a wɔyɛ no nnɛ no atrɛw wɔ ahyehyɛde ahorow a wɔde wɔn ho mu, na e
 
 ### Ɔmantam ne mpɔtam hɔ ahyehyɛde ahorow
 
-8. Obscura Labs yɛ ahyehyɛdeɛ a ɛde ne ho a wɔakyerɛw ne din wɔ Nigeria, a ɛde n’adwene si Afrika ne gua a ɛrenya nkɔsoɔ so, ɛkyekyere nnwuma ne akwan a wɔfa so gye wɔn tom. Hwɛ [Obscura Labs a ɛwɔ hɔ](https://zechub.wiki/zcash-organizations/obscura-labs).
+8. Obscura Labs yɛ ahyehyɛdeɛ a ɛde ne ho a wɔakyerɛw ne din wɔ Nigeria, a ɛde n’adwene si Afrika ne gua a ɛrenya nkɔsoɔ so, ɛkyekyere nnwuma ne akwan a wɔfa so gye wɔn tom. Hwɛ [Obscura Labs](https://zechub.wiki/zcash-organizations/obscura-labs).
 
 ### Nwomasua
 
@@ -129,9 +129,9 @@ Kratafa biara link kɔ pii so, enti wubetumi adi thread no akyi sɛnea wopɛ.
 ## Nkratafa a ɛfa ho
 
 - [ZODL](https://zechub.wiki/zcash-organizations/zodl) - nkɔsoɔ lab a kan Electric Coin Company kuo no hyehyɛeɛ
-- [Sovright na ɔkyerɛwee](https://zechub.wiki/zcash-organizations/sovright) - a ennye mfaso a kan Bootstrap board mufo hyehyee
+- [Sovright](https://zechub.wiki/zcash-organizations/sovright) - a ennye mfaso a kan Bootstrap board mufo hyehyee
 - [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation) - sohwɛfoɔ a ɔhwɛ protocol ne Zebra node no so
 - [Labs a Wɔabɔ ho Ban](https://zechub.wiki/zcash-organizations/shielded-labs) - nhwehwɛmu ne protocol a ɛbɛkɔ so atra hɔ daa
 - [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company) - adwumakuo a efii Zcash ase wo afe 2016 mu
-- [Obscura Labs a ɛwɔ hɔ](https://zechub.wiki/zcash-organizations/obscura-labs) - infrastructure ne adoption wo Afrika ne gua a erenya nkɔsoɔ nyinaa
+- [Obscura Labs](https://zechub.wiki/zcash-organizations/obscura-labs) - infrastructure ne adoption wo Afrika ne gua a erenya nkɔsoɔ nyinaa
 - [Zcash Mpɔtam Hɔ Mmoa a Wɔde Ma](https://zechub.wiki/zcash-organizations/zcash-community-grants) - sika a wode ma ntoboa a wode won ho

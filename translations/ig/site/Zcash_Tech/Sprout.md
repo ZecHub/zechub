@@ -8,7 +8,7 @@
 
 Ihe ị ga-ewepụ: Sprout bụ ebe Zcash bidoro, oge mbụ ego nkeonwe na -enyocha ya gbara ọsọ n'elu ndụ blockchain.
 
-Sprout bụ mmalite nke netwọk Zcash, ọ bụghị mgbe e mesịrị. [nkwalite netwọkụ.](../start-here/network-upgrades)Ọ malitere ndụ na genesis block on October 28, 2016. Enweghị nọmba ZIP akọwapụtara Sprout: usoro ZIP bidoro mgbe e mesịrị site n'oge oyi, yabụ a kọwara Sprout site na nkọwapụta mbụ nke Protocol Zcash yana owuwu Zerocash ọ wuru. The [Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company) (then the Zerocoin Electric Coin Company), led by Zooko Wilcox, built and shipped it. Sprout introduced the first practical zk-SNARK shielded transactions and the original shielded pool, so people could send ZEC with the sender, receiver, and amount hidden while the network still checked that the balances added up. The name signaled a young, budding chain that the team expected to grow.
+Sprout bụ mmalite nke netwọk Zcash, ọ bụghị mgbe e mesịrị. [nkwalite netwọkụ.](../start-here/network-upgrades)Ọ malitere ndụ na genesis block on October 28, 2016. Enweghị nọmba ZIP akọwapụtara Sprout: usoro ZIP bidoro mgbe e mesịrị site n'oge oyi, yabụ a kọwara Sprout site na nkọwapụta mbụ nke Protocol Zcash yana owuwu Zerocash ọ wuru. The [Electric Coin Company](../zcash-organizations/electric-coin-company) (then the Zerocoin Electric Coin Company), led by Zooko Wilcox, built and shipped it. Sprout introduced the first practical zk-SNARK shielded transactions and the original shielded pool, so people could send ZEC with the sender, receiver, and amount hidden while the network still checked that the balances added up. The name signaled a young, budding chain that the team expected to grow.
 
 Why this matters. Every public blockchain before Sprout put your payments on display: anyone could see who paid whom and how much. Sprout was the first live, permissionless network to hide those details and still prove no one was cheating. That matters for ordinary financial privacy, the kind you expect from cash or a bank statement no one else can read. It also proved that strong on-chain privacy could work in practice, beyond a paper design. The trusted-setup Ceremony that made it possible became a reference point for later cryptography work, and the slow, memory-heavy proving system Sprout shipped with is exactly what pushed the team to build Sapling two years later.
 
@@ -83,7 +83,7 @@ Sprout bụ mmalite nke Zcash, ọ bụghị nkwalite n'oge na-adịghị anya. 
 
 [Gịnị bụ ZEC na Zcash?](../start-here/what-is-zec-and-zcash)
 
-[Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company)
+[Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 

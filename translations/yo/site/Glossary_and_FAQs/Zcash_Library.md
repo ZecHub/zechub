@@ -41,7 +41,7 @@ Cypherpunk Zero. A Creative Universe ati ki o ifowosowopo akitiyan laarin ECC, a
 
 Àkòrí. Ìtumọ̀.
 |------|-----------|
- DeFi. Àwọn iṣẹ́ tí ó ń so ZEC pọ̀ mọ́ DeFi: [Àgbékalẹ̀ Maya](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Àwọn Ìpinnu Tó Kù Síwájú](https://near-intents.org/) / [ZenRock (ì í ì)](https://app.zenrocklabs.io/) / [ShapeShift (ì í ì)](https://app.shapeshift.com/) / [LeoDex (ì í ì ë°)](https://leodex.io/) / [ThorSwap (ì í ì ë ¤)](https://app.thorswap.finance/) |
+ DeFi. Àwọn iṣẹ́ tí ó ń so ZEC pọ̀ mọ́ DeFi: [Àgbékalẹ̀ Maya](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Àwọn Ìpinnu Tó Kù Síwájú](https://near-intents.org/) / [ZenRock (ì í ì)](https://app.zenrocklabs.io/) / [ShapeShift (ì í ì)](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap (ì í ì ë ¤)](https://app.thorswap.finance/) |
 ☐ ìpamọ́. Ìtumò sí ìdánwò tí a rán láti zaddr (ìpín-àdírẹ̀sì) lọ si taddr (Ìpínlẹ̀ àlàfo). Oríṣun idánwò náà kò hàn ṣùgbọ́n owó wọ inú ìṣùpòpọ̀ iye tó wà ní gbangba.
 Àwọn Àgbàjáde Ìpèsè. [Àwọn Ìpèsè fún Oníṣètò](https://www.zcashcommunity.com/developers/) |
 Àkọsílẹ̀. [Àwọn Àkọsílẹ̀ Ìjọba](https://zcash.readthedocs.io/en/latest/) |

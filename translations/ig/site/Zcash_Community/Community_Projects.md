@@ -89,7 +89,7 @@ Orchard-focused Zcash wallet built for Zebrad, supporting fully shielded transac
 Open-source nzuzo wallet maka Zcash na Penumbra. Mgbatị ihe nchọgharị nwere nkwenye ndị ahịa, nyochaa ngwa ọrụ ọkụ nke onye ahịa, ntinye aka oyi, FROST multisig, yana igodo nlele anaghị ahapụ ngwaọrụ ahụ. 
 [Ịga leta ya .](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
-### ZGo (nke a na-akpọ)
+### ZGo
 Ndebanye aha Zcash nke na-enyere ndị ahịa aka ịnabata ịkwụ ụgwọ Zcash. 
 [Ịga leta ya .](https://zgo.cash)
 
@@ -101,7 +101,7 @@ Usoro nkwụnye ego nke igwe (MPP) maka Zcash. Ezubere ya maka ndị ọrụ AI 
 Discord bot na-enye ohere enweghị nsogbu ma nwee nchekwa maka azụmahịa Zcash. 
 [Ịga leta ya .](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
-### ZODL (n'asụsụ Bekee)
+### ZODL
 Flagship Zcash wallet from ZODL (formerly Zashi). Available on iOS and Android. Supports shielded ZEC and NU7 coinholder voting.  
 [Ịga leta ya .](https://zodl.app/)
 
@@ -113,7 +113,7 @@ Privacy-focused Zcash wallet designed for simple and private ZEC transactions.
 Ihe mgbaru ọsọ-dabeere ego wallet wuru na Zcash shielded azụmahịa. 
 [Ụlọ Nzukọ ahụ](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
-### Zkool (ụlọ akwụkwọ)
+### Zkool
 Onye nọchiri Ywallet na-akwado atụmatụ Zcash protocol kachasị ọhụrụ gụnyere Orchard. 
 [Ụlọ Nzukọ ahụ](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
@@ -163,7 +163,7 @@ Onye nyocha Zcash zuru oke site na Nighthawk Apps.
 Nchọgharị dabeere na Zcash Unified Address parser maka inyocha adreesị dị n'otu. 
 [Ịga leta ya .](https://zcash.space/)
 
-### ZecMap (n'asụsụ Bekee)
+### ZecMap
 Map ụwa nke ụlọ ọrụ na ebe ndị nabatara Zcash. 
 [Ịga leta ya .](https://zecmap.com/)
 
@@ -171,7 +171,7 @@ Map ụwa nke ụlọ ọrụ na ebe ndị nabatara Zcash.
 Ngwá ọrụ iji lelee oge nzaghachi gRPC nke Zcash Lightwalletd nodes. 
 [Ịga leta ya .](https://github.com/emersonian/zecping)
 
-### ZecStats (n'asụsụ Bekee)
+### ZecStats
 Dashboard maka oge-ezigbo usoro nchịkọta netwọk Zcash na metrics nchebe. 
 [Ịga leta ya .](https://zecstats.com)
 

@@ -166,7 +166,7 @@ I nwere ike:
 - [Osisi ígwè](/zcash-tech/ironwood) - ihe mere na ọdọ mmiri gị ego nọdụ ke gbanwere
 - [Ihe A Na-akpọ Turnstile](/zcash-tech/the-turnstile) - ihe na-aghọ ọha mgbe uru agafe ọdọ mmiri
 - [Akpa ego](/using-zcash/wallets) - nke wallets na-echekwa.
-- [ZODL (n'asụsụ Bekee)](/zcash-organizations/zodl) - obere akpa dị n'azụ CrossPay.
+- [ZODL](/zcash-organizations/zodl) - obere akpa dị n'azụ CrossPay.
 
 <br/>
 

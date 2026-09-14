@@ -6,14 +6,14 @@
 
 ## Àkópọ̀ Àwọn Ohun Tó Wà Nínú Ìwé Yìí
 
-1. [Zcash.me] ì í ë ¤ì 'ë¦¬í ¬ê ̧°](#zcashme)
+1. [Zcash.me](#zcashme)
 2. [Ìmọ̀ràn](#tipz)
 3. [Ìdí Tí Ìpamọ́ Fi Ṣe Pàtàkì fún Àwọn Oníṣègùn](#why-privacy-matters-for-creators)
 4. [Àwọn Owó Àfikún](#additional-resources)
 
 ---
 
-## Zcash.me (ì ì í ë ¤)
+## Zcash.me
 
 ![Zcash.me Logo](/content-images/_unavailable.svg)
 

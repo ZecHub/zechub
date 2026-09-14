@@ -113,7 +113,7 @@ Zcash sika kotoku a wɔde wɔn adwene si kokoamsɛm so a wɔayɛ ama ZEC nnwuma 
 Botae a egyina sikakorabea sika kotoku a wɔasi wɔ Zcash kyɛm nkitahodi so. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
-### Zkool na ɔkyerɛwee
+### Zkool
 Ywallet akyidifoɔ a ɔboa Zcash protocol nneɛma a ɛtwa toɔ a Orchard ka ho. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
@@ -163,7 +163,7 @@ Zcash block explorer a ɛyɛ pɛpɛɛpɛ fi Nighthawk Apps.
 Zcash Unified Address parser a egyina Browser so a wɔde hwehwɛ Unified Address ahorow mu. 
 [Sra](https://zcash.space/)
 
-### ZecMap na ɛwɔ hɔ
+### ZecMap
 Wiase nyinaa map a ɛkyerɛ nnwuma ne mmeae a wogye Zcash. 
 [Sra](https://zecmap.com/)
 
@@ -171,7 +171,7 @@ Wiase nyinaa map a ɛkyerɛ nnwuma ne mmeae a wogye Zcash.
 Adwinnade a wɔde hwɛ gRPC mmuae bere a Zcash Lightwalletd nodes. 
 [Sra](https://github.com/emersonian/zecping)
 
-### ZecStats na ɛwɔ hɔ
+### ZecStats
 Dashboard ma bere ankasa Zcash ntwamutam akontaabu ne shielding metrics. 
 [Sra](https://zecstats.com)
 

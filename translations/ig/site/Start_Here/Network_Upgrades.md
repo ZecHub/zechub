@@ -8,7 +8,7 @@ Maka akụkọ ihe nkiri nke otú nzuzo Zcash si mepụta site na nkwalite ndị
 |---|---|---|---|---|
 | [Mkpụrụ osisi na-eto eto](../zcash-tech/sprout)  Ọktoba 28, 2016  Jenesis  00000000 Mwepụta: mbụ echekwara ọdọ mmiri na zk-SNARK onwe azụmahịa.
 | [Oge oyi na-agafe.](../zcash-tech/overwinter)  June 26, 2018 347,500 5ba81b19 Replay nchedo, azụmahịa versioning na-agwụ agwụ, otú mma upgrades ghọrọ omume.
-| [Osisi osisi Sapling](../zcash-tech/sapling) Ọktoba 29, 2018 419,200 76b809bb Nrụpụta azụmahịa echekwara nke ọma, ngwa ngwa maka ekwentị na obere akpa akụrụngwa.
+| [Sapling](../zcash-tech/sapling) Ọktoba 29, 2018 419,200 76b809bb Nrụpụta azụmahịa echekwara nke ọma, ngwa ngwa maka ekwentị na obere akpa akụrụngwa.
 | [Osisi okooko osisi Blossom](../zcash-tech/blossom) ❑ December 11, 2019 ● 653,600 ▪ 2bb40e60 □ Ngwongwo ndị dị ọsọ, ihe dịka sekọnd 75, na ikike ịba ụba.
 | [Osisi nkwụ](../zcash-tech/heartwood) July 16, 2020 903,000 f5b9230b Akwụghachi ụgwọ ọrụ na-echekwa ma ọ bụ ndị ahịa dị mfe (FlyClient)
 | [Ugboro abụọ](../zcash-tech/canopy) November 18, 2020 1,046,400 e9ff75a6 Development Fund, nke mbụ halving na winding ala Sprout ọdọ mmiri.

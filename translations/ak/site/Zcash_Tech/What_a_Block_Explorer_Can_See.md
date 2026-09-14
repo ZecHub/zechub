@@ -72,7 +72,7 @@ Bisa raw data no na shielded sender ne receiver fields no san ba kwa. Ɛnyɛ nea
 - [Zcash mfitiaseɛ nsɛm](/start-here/what-is-zec-and-zcash)
 - [Sika kotoku](/using-zcash/wallets)
 - [Atare a wɔabɔ ho ban](/using-zcash/shielded-pools)
-- [ZK-SNARKs na wɔkyerɛwee](/zcash-tech/zk-snarks)
+- [ZK-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

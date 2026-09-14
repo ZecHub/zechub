@@ -50,7 +50,7 @@ ZIP 1016 (ti a dabaa ni Kínní 2025, ipo: Ti a dabaru) ṣafihan awoṣe inawo 
 - O ti gba owo to ju miliọnu 25 dọla lọ lati ọdọ awọn oludokoowo pataki pẹlu a16z Crypto ati Coinbase Ventures. 
 - Ẹgbẹ́ náà, tí ó ní àwọn olùṣèwádìí àti onímọ̀-ìjìnlẹ̀ ti àkọsílè Zcash nínú, tẹsiwaju ìdàgbàsókè ìlànà àkànṣe, ọrẹ ZIP, ati awọn irinṣẹ tó dá lórí àṣírí ara ẹni títí kan apamọwọ alágbèéká Zodl (tí a tún ń pè ni láti inú orúkọ Zashi). 
 - Ko si owo-owo taara lori ilana oniruru; n ṣiṣẹ bi ile-iṣẹ ominira ti VC ṣe atilẹyin ni idojukọ ilọsiwaju awọn amayederun aṣiri Zcash. 
--> Wo àwòkọ́ṣe rẹ̀ ní kíkún: [ZODL (ì í ì ë ¤)](https://zechub.wiki/zcash-organizations/ZODL)  
+-> Wo àwòkọ́ṣe rẹ̀ ní kíkún: [ZODL](https://zechub.wiki/zcash-organizations/ZODL)  
 -> Àwòrán ojúlé: [zodl.com (ìkànnì)](https://zodl.com/)
   
 **Zcash Foundation (ZF)**  

@@ -38,7 +38,7 @@
 
 `sudo apt install screen`
 
-### ɔsebɔ a wɔfrɛ no zebrad
+### zebrad
 
 ```
 git clone https://github.com/ZcashFoundation/zebra.git

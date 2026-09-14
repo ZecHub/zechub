@@ -41,7 +41,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| DeFi | Nnwuma a ɛde ZEC ne DeFi bɛka abom: [Mayafo Mmarahyɛ Bagua](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Nea Ɛbɛn Intents](https://near-intents.org/) / [ZenRock na ɔkyerɛwee](https://app.zenrocklabs.io/) / [ShapeShift a Wɔde Yɛ Nneɛma](https://app.shapeshift.com/) / [LeoDex na ɔkyerɛwee](https://leodex.io/) / [ThorSwap na ɔkyerɛwee](https://app.thorswap.finance/) |
+| DeFi | Nnwuma a ɛde ZEC ne DeFi bɛka abom: [Mayafo Mmarahyɛ Bagua](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Nea Ɛbɛn Intents](https://near-intents.org/) / [ZenRock na ɔkyerɛwee](https://app.zenrocklabs.io/) / [ShapeShift a Wɔde Yɛ Nneɛma](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap na ɔkyerɛwee](https://app.thorswap.finance/) |
 | Deshielding a wɔde hyɛ | Ɛkyerɛ asɛm bi a wɔde fi zaddr (address a wɔabɔ ho ban) so kɔ taddr (address a ɛda adi pefee) so. Mfiase a asɛm no fi ase no ntumi nhu nanso sika no hyɛn bo a ɛsom a ɔmanfo hu mu. |
 | Developer Nneɛma a Wɔde Yɛ Adwuma | [Nneɛma a Wɔde Yɛ Nneɛma](https://www.zcashcommunity.com/developers/) |
 | Nwoma a Wɔakyerɛw | [Ɔmanfoɔ Nwoma](https://zcash.readthedocs.io/en/latest/) |
@@ -102,7 +102,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Keystone Sikakorabea | Hardware sika kotoku a mframa wom a ɛwɔ native Zcash (Orchard shielded) mmoa, a ɛne ZODL hyia ma awɔw mu nsaano nkyerɛwee. [Keystone a wɔde yɛ nneɛma](https://keyst.one) |
+| Keystone Sikakorabea | Hardware sika kotoku a mframa wom a ɛwɔ native Zcash (Orchard shielded) mmoa, a ɛne ZODL hyia ma awɔw mu nsaano nkyerɛwee. [Keystone](https://keyst.one) |
 
 ## L
 

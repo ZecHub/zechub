@@ -15,7 +15,7 @@ The stack changed a great deal in 2026. zcashd, which ran the network for most o
 |:--|:--|:--|
 nódù tó kún. Zebra tàbí Zakura. [Ìwé Zebra náà](https://zebra.zfnd.org/), [zakura.com (ìkànnì)](https://zakura.com/) |
 ípò owó gbogbo-nódì. Zallet, ní ìmúṣẹ ìdánwò (beta) [Ìwé Zallet](https://zcash.github.io/zallet/) |
-| Light wallet server | Zaino or lightwalletd | [Zaino (ìyẹn)](https://github.com/zingolabs/zaino), [lightwalletd ì í ë ¤ì 'ë¦¬í ¬](https://github.com/zcash/lightwalletd) |
+| Light wallet server | Zaino or lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
 | Wallet libraries | The librustzcash crates | [librustzcash](https://github.com/zcash/librustzcash) |
 Mobile: Android àti iOS SDKs. [Androidì í ì ë ¤ë¥1⁄4](https://github.com/zcash/zcash-android-wallet-sdk), [iOS (ìkànnì)](https://github.com/zcash/zcash-swift-wallet-sdk) |
 Àkọsílẹ̀ Ìlànà àti àwọn ìdìpọ̀-ìpamọ́. [ìdìpọ̀ owó. z. cash](https://zips.z.cash) |
@@ -42,7 +42,7 @@ Ti o ba ti wa ni gbigbe ohun tẹlẹ iṣeto kọja, ZecHub ní a [itọsọna 
 
 Ọpọlọpọ awọn apamọwọ ko ṣiṣe kan node. Wọn sọrọ si a olupin ti o tọju ni pq ati ọwọ pada kan iwapọ wiwo ti o.
 
-[lightwalletd ì í ë ¤ì 'ë¦¬í ¬](https://github.com/zcash/lightwalletd) jẹ iṣẹ atilẹba, ti a kọ ni Go, apejuwe bi "iṣẹ afẹyinti kan ti o pese wiwo bandwidth-doko si blockchain Zcash". [Zaino (ìyẹn)](/zcash-tech/zaino) jẹ́ àtòjọ tuntun, tí a kọ ní Rust, ó sì ń ka láti inú olùṣe ìdánilójú tó kún dípò kí o máa gbé ẹ̀dà tirẹ̀ ti ìsín.
+[lightwalletd](https://github.com/zcash/lightwalletd) jẹ iṣẹ atilẹba, ti a kọ ni Go, apejuwe bi "iṣẹ afẹyinti kan ti o pese wiwo bandwidth-doko si blockchain Zcash". [Zaino](/zcash-tech/zaino) jẹ́ àtòjọ tuntun, tí a kọ ní Rust, ó sì ń ka láti inú olùṣe ìdánilójú tó kún dípò kí o máa gbé ẹ̀dà tirẹ̀ ti ìsín.
 
 Àwọn ohun tó ń ṣẹlẹ̀: [Ìlànà Òǹdó-ìmọ̀lẹ́rọ̀ Rerun](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) ìwé náà ni àkọsílẹ̀ àbájáde. [Àwọn Ìkànnì Lightwallet Nodes](/zcash-tech/lightwallet-nodes) ojúewé yìí ń bo ohun tí àwọn séràfítò lè rí àti èyí tí kò le rí nípa oníṣe, tó yẹ kí o lóye kóo to yan ọ̀kan.
 

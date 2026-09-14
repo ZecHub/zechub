@@ -12,7 +12,7 @@ Mmoa a wɔde ma wɔ kokoam agyapade ho no taa sesa, enti row biara kura n’anka
 
 | Processor a wɔde yɛ adwuma | Nhwɛsode | Wɔabɔ ho ban ZEC | Ɔno ankasa a ɔyɛ ahɔhoyɛfo | Aguadifo ho ka | Mpɔtam / KYC | Wɔagye atom |
 |:--|:--|:--|:--|:--|:--|:--|
-| [CipherPay a wɔde tua ho ka](https://www.cipherpay.app) | Nea ɛnyɛ afiase | Yiw, Orchard via Unified Addresses | Yiw, open source | 1% wɔ sikatua biara mu, sɛ obi ankasa gye ho a, wontua hwee | No KYC, mpɔtam a wɔankyerɛ | 2026-07-29 |
+| [CipherPay](https://www.cipherpay.app) | Nea ɛnyɛ afiase | Yiw, Orchard via Unified Addresses | Yiw, open source | 1% wɔ sikatua biara mu, sɛ obi ankasa gye ho a, wontua hwee | No KYC, mpɔtam a wɔankyerɛ | 2026-07-29 |
 | [BTCPay Server a ɛwɔ hɔ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Ɛnyɛ custodial, hwɛ safoa nkutoo | Yiw, wɔabɔ ho ban nkutoo (Sapling, Orchard, UA) | Yiw, open source | Obiara nni hɔ, wotua network fees nkutoo | Wiase nyinaa, KYC biara nni hɔ | 2026-07-29 |
 | [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Adetɔfo ankasa hwɛ, aguadifo si fiat | Customer sɛe sika shielded, gye afã a wɔankyerɛw | Dabi | 1% wɔ sikatua biara mu | US ne SEPA aman 37, ZEC a ɛwɔ EU no nsii so dua | 2026-07-29 |
@@ -55,7 +55,7 @@ Kɔkɔbɔ biako a ɛfata sɛ yɛsan yɛ bio: processor a ɛyɛ mmerɛw nkutoo ti
 ## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
 - **Mmoa Type**: Wɔabɔ ho ban (Orchard, denam Address ahorow a Wɔaka abom so)
 - **Nkyerɛkyerɛmu**: Gye Zcash tom wɔ simma mu, Ɛnyɛ custodial, Zero adetɔfo data, Mfinimfini biara nni hɔ.
-- **URL**: 1. [CipherPay a wɔde tua ho ka](https://www.cipherpay.app)
+- **URL**: 1. [CipherPay](https://www.cipherpay.app)
 <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
 
 Woma CipherPay safoa a wotumi hwɛ nkutoo, enti sikatua kɔ w’ankasa sika kotoku mu tẽẽ na enkura sika da. Ɛde address foforo di dwuma ma invoice biara.

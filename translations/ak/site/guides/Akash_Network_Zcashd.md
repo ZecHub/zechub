@@ -44,7 +44,7 @@ zcashd node a edi mũ a ɛbɛma:
 
 -> Zebra nko ara na odi mprempren nkɔnsɔnkɔnsɔn no akyi; zcashd node bi ntumi nkɔ ano
 
--> zcashd sika kotokuo no na wɔasesa [Zallet na ɔkyerɛwee](/using-zcash/zallet-quick-reference-guide)
+-> zcashd sika kotokuo no na wɔasesa [Zallet](/using-zcash/zallet-quick-reference-guide)
 
 -> Fa zcashd di dwuma sɛ wo hia sika kotoku dwumadie anaa RPC API pɔtee bi a
 

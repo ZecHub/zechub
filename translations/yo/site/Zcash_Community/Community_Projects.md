@@ -89,7 +89,7 @@ Orchard-focused Zcash wallet built for Zebrad, supporting fully shielded transac
 Open-source ìpamọ wallet fun Zcash ati Penumbra. Browser itẹsiwaju pẹlu onibara-ipin ti o nfihan, ṣayẹwo imọlẹ-onibara ayaworan, tutu ami, FROST multisig, ko si wiwo bọtini fi ẹrọ silẹ. 
 [Ìbẹ̀wò](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
-### ZGo (ì í ì)
+### ZGo
 Àkọsílẹ̀ Zcash tó ń jẹ́ kí àwọn oníṣòwò àti òǹtajà lè gba owó tí wọ́n bá san ní Zcash. 
 [Ìbẹ̀wò](https://zgo.cash)
 
@@ -101,7 +101,7 @@ Machine Payment Protocol (MPP) fún Zcash. A ṣe àdàkọ rẹ̀ fun àwọn a
 Discord bot tí ó ń pèsè ààyè àti ìwífún tó dáàbò bo sí àwọn ìṣòwò Zcash. 
 [Ìbẹ̀wò](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
-### ZODL (ì í ì ë ¤)
+### ZODL
 Flagship Zcash wallet lati ọdọ ZODL (tẹlẹ Zashi). O wa lori iOS ati Android. Ṣe atilẹyin ibojuwo ti o ni aabo ZEC ati NU7. 
 [Ìbẹ̀wò](https://zodl.app/)
 
@@ -163,7 +163,7 @@ Olùwádìí ìdìpò Zcash tó kún fún àlàyé láti Nighthawk Apps.
 Browser-based Zcash Unified Address parser for inspecting Unified Addresses.  
 [Ìbẹ̀wò](https://zcash.space/)
 
-### Àmì ojúewé ZecMap
+### ZecMap
 Àwòrán ayé ti àwọn ilé-iṣẹ́ àti ibi tí ó gba Zcash. 
 [Ìbẹ̀wò](https://zecmap.com/)
 
@@ -171,7 +171,7 @@ Browser-based Zcash Unified Address parser for inspecting Unified Addresses.
 Ọpa lati ṣayẹwo awọn akoko idahun gRPC ti Zcash Lightwalletd nodes. 
 [Ìbẹ̀wò](https://github.com/emersonian/zecping)
 
-### Àwọn Àkọsílẹ̀ Ìsọfúnni ZecStats
+### ZecStats
 Dashboard for real-time Zcash network statistics and shielding metrics.  
 [Ìbẹ̀wò](https://zecstats.com)
 

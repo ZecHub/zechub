@@ -141,7 +141,7 @@ Zingo 2.0 pẹlu Pepper Sync kì í ṣe àtúnṣe lásán; ó jẹ ìyípadà 
 
 - [Ìṣètò Ìpínwó Zcash](/zcash-tech/zcash-wallet-syncing)  bí ìfiwéra àpò ṣe ń ṣiṣẹ́ ní gbogbo ètò ìṣẹ̀dá Zcash.
 - [Àwọn Ìpín Lightwallet](/zcash-tech/lightwallet-nodes)  ìlé-iṣẹ́ tí àpò owó tó rọrùn bíi Zingo ń bá lò.
-- [Zaino] Èmi náà sì ni.](/zcash-tech/zaino)  àtòjọ ìsọfúnni tí ẹgbẹ́ Zingo ṣe.
+- [Zaino](/zcash-tech/zaino)  àtòjọ ìsọfúnni tí ẹgbẹ́ Zingo ṣe.
 - [Àwọn àpamọ́wọ́n](/wallets)  gbogbo ìwé ìsọfúnni nípa àwọn àpò Zcash àti ohun tí wọ́n ní.
 
 ## Mímọ Sí I

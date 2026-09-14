@@ -38,7 +38,7 @@ O yoo nilo lati intall 3 ohun fun yi lati ṣiṣẹ daradara. Mo tun so iboju t
 
 `sudo apt install screen`
 
-### ẹyẹ zebrad
+### zebrad
 
 ```
 git clone https://github.com/ZcashFoundation/zebra.git

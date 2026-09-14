@@ -6,7 +6,7 @@
 
 > 🇧🇷 [Versão em Portugalfo na wɔwom](/zechubglobal/zcashbrasil/zcashtech/zecd)
 
-ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash) na wɔdaa no adi denam Bitcoin Core JSON-RPC kasa no so. Ɛma developers ne payment integrators API a wonim, a ɛne Bitcoin hyia a wɔde bɛdi nkitaho ne Zcash — bere a ɛma Orchard (private pool a ɛsen biara) yɛ default. Wɔyɛɛ no ​​denam [zec.rocks](https://zec.rocks), wɔayɛ ZECD sɛ wɔmfa nsi ananmu `zcashd`’s wallet dwumadie wɔ nnɛyi, cloud-native deployments mu.
+ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash](https://github.com/zcash/librustzcash) na wɔdaa no adi denam Bitcoin Core JSON-RPC kasa no so. Ɛma developers ne payment integrators API a wonim, a ɛne Bitcoin hyia a wɔde bɛdi nkitaho ne Zcash — bere a ɛma Orchard (private pool a ɛsen biara) yɛ default. Wɔyɛɛ no ​​denam [zec.rocks](https://zec.rocks), wɔayɛ ZECD sɛ wɔmfa nsi ananmu `zcashd`’s wallet dwumadie wɔ nnɛyi, cloud-native deployments mu.
 
 **Mprempren nkyerɛaseɛ:** 0.5.0-rc3 (July 13, 2026) — a Ironwood (NU6.3) mmoa ka ho. Install via `cargo install zecd` anaasɛ fa Docker mfonini a ɛyɛ aban de no di dwuma.
 

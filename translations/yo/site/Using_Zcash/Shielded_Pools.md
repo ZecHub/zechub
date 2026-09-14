@@ -184,5 +184,5 @@ Wo àwọn ojúewé yìí: [Igi irin-igi](/zcash-tech/ironwood) fún ìmúbọ̀s
 - [Àwọn àpamọ́ owó](/using-zcash/wallets)  Àwọn àpamọ́ owó wo ni a tọjú tí Ironwood sì ṣetán?
 - [Àwọn Àdéhùn Ìṣirò](/using-zcash/transactions)  Bí a ṣe ń fi àwọn ìnáwó tí ó ní ààbò ránṣẹ́
 - [Rírà ZEC](/using-zcash/buying-zec)  Gbígba ZEC kí o tó lò ó nínú àwọn àgbájọ.
-- [ZK-SNARKs (ì í ì ë°©í °)](/zcash-tech/zk-snarks)  Ìpilẹ̀kọ́ ìdìbò àwọn àgbá tí a fi ọṣọ bojú
+- [ZK-SNARKs](/zcash-tech/zk-snarks)  Ìpilẹ̀kọ́ ìdìbò àwọn àgbá tí a fi ọṣọ bojú
 - [Kí ni ZEC àti Zcash?](/start-here/what-is-zec-and-zcash)  Ìtàn nípa ìpamọ́ Zcash

@@ -58,14 +58,14 @@ Nkwupụta ndị a kọwara ebe a bụ nke Josh Swihart (@jswihart) na Zooko Wil
 
 ### Òtù abụọ ahụ sitere na 2026 kewara.
 
-1. ZODL, the Zcash Open Development Lab, was formed by the former Electric Coin Company team and led by Josh Swihart. It raised more than twenty five million dollars from outside investors and works on core protocol development, including the Halo 2 proving system that powers Zcash's newest shielded transactions, and on the ZODL wallet, a shielded by default mobile wallet formerly called Zashi. See [ZODL (n'asụsụ Bekee)](https://zechub.wiki/zcash-organizations/zodl).
+1. ZODL, the Zcash Open Development Lab, was formed by the former Electric Coin Company team and led by Josh Swihart. It raised more than twenty five million dollars from outside investors and works on core protocol development, including the Halo 2 proving system that powers Zcash's newest shielded transactions, and on the ZODL wallet, a shielded by default mobile wallet formerly called Zashi. See [ZODL](https://zechub.wiki/zcash-organizations/zodl).
 2. Sovright bụ otu na-enweghị uru nke ndị atọ gara aga Bootstrap board members. Ọ lekwasịrị anya na ngwaọrụ na nkwado maka usoro okike, ma wuo Argos, ngwá ọrụ iji nyere ndị mbụ aka weghachite ego a tọrọ n'ime obere akpa ochie, enweghị nlekọta. Lee [Sovright](https://zechub.wiki/zcash-organizations/sovright).
 
 ### Nlekọta usoro, nyocha na sọftụwia node.
 
-3. Zcash Foundation na-ejide Zebra, Rust node nke ghọrọ netwọkụ isi mgbe onye ahịa zcashd ochie lara ezumike nká. Ọ na - elekọtakwa nzukọ Zcash GitHub, ebe nrụọrụ weebụ z.cash, yana akaụntụ Zcash bụ isi na X, ma soro ndị mmekọ ZecHub nyere aka jikwaa ụfọdụ akụ ahụ Lee . [Ụlọ ọrụ Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation).
+3. Zcash Foundation na-ejide Zebra, Rust node nke ghọrọ netwọkụ isi mgbe onye ahịa zcashd ochie lara ezumike nká. Ọ na - elekọtakwa nzukọ Zcash GitHub, ebe nrụọrụ weebụ z.cash, yana akaụntụ Zcash bụ isi na X, ma soro ndị mmekọ ZecHub nyere aka jikwaa ụfọdụ akụ ahụ Lee . [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation).
 4. Shielded Labs is an independent, donation-funded nonprofit based in Switzerland. It focuses on research and long term sustainability, including the network sustainability mechanism that funds future development and the Crosslink work on adding proof of stake finality to Zcash, and it funded the security audit that discovered the Orchard pool vulnerability in 2026. See [Ụlọ nyocha echekwara](https://zechub.wiki/zcash-organizations/shielded-labs).
-5. Ụlọ ọrụ Electric Coin Company na-anọgide bụrụ akụkụ nke akụkọ ihe mere eme dịka nzukọ kere ma malite Zcash n'afọ 2016. Lee. [Ụlọ ọrụ Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company).
+5. Ụlọ ọrụ Electric Coin Company na-anọgide bụrụ akụkụ nke akụkọ ihe mere eme dịka nzukọ kere ma malite Zcash n'afọ 2016. Lee. [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company).
 
 ### Ịdị elu na cryptography
 
@@ -128,10 +128,10 @@ Peeji nke ọ bụla nwere njikọ gaa n'ebe ndị ọzọ, ya mere i nwere ike 
 
 ## Peeji ndị metụtara ya
 
-- [ZODL (n'asụsụ Bekee)](https://zechub.wiki/zcash-organizations/zodl) - ụlọ ọrụ mmepe nke ndị otu Electric Coin Company guzobere.
+- [ZODL](https://zechub.wiki/zcash-organizations/zodl) - ụlọ ọrụ mmepe nke ndị otu Electric Coin Company guzobere.
 - [Sovright](https://zechub.wiki/zcash-organizations/sovright) - ndị na-abụghị uru nke ndi otu Bootstrap Board guzobere.
-- [Ụlọ ọrụ Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation) - onye nlekọta nke usoro na Zebra node.
+- [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation) - onye nlekọta nke usoro na Zebra node.
 - [Ụlọ nyocha echekwara](https://zechub.wiki/zcash-organizations/shielded-labs) - nyocha na usoro nkwado protocols.
-- [Ụlọ ọrụ Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company) - ụlọ ọrụ nke malitere Zcash na 2016
+- [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company) - ụlọ ọrụ nke malitere Zcash na 2016
 - [Obscura Labs](https://zechub.wiki/zcash-organizations/obscura-labs) - akụrụngwa na nnabata n'Africa niile nakwa ahịa ndị ka na-apụta apụta.
 - [Onyinye Community Zcash](https://zechub.wiki/zcash-organizations/zcash-community-grants) - ego maka ndị na-enye onyinye n'adabereghị.

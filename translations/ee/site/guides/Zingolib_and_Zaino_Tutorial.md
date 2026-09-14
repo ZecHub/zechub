@@ -38,7 +38,7 @@ Ahiã be nàƒo nu 3 ɖe eme hafi esia nawɔ dɔ nyuie. Mekafu screen alo nane s
 
 `sudo apt install screen`
 
-### zebrad (dzogbenyi) si woyɔna be zebrad
+### zebrad
 
 ```
 git clone https://github.com/ZcashFoundation/zebra.git

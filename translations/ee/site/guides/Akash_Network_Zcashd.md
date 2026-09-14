@@ -44,7 +44,7 @@ zcashd node blibo si awɔe be:
 
 -> Zebra koe kplɔa kɔsɔkɔsɔ si li fifia ɖo; zcashd node mateŋu aɖo nugbɔ o
 
--> zcashd ƒe gakotokua ɖɔ li [Zallet ƒe ŋkɔ](/using-zcash/zallet-quick-reference-guide)
+-> zcashd ƒe gakotokua ɖɔ li [Zallet](/using-zcash/zallet-quick-reference-guide)
 
 -> Zã zcashd ne èhiã gakotoku ƒe dɔwɔwɔ alo RPC API tɔxɛwo
 

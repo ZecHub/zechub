@@ -37,7 +37,7 @@ In 2021, ShapeShift underwent a radical transformation. The company dissolved it
 
 ## Bí Zcash Ṣe Ń Ṣiṣẹ́
 
-[Zcash (ì í ì)](https://z.cash/) (ZEC) is a cryptocurrency built on strong cryptographic foundations that give users the ability to transact privately. Launched in 2016, Zcash is a fork of Bitcoin that adds advanced privacy technology while retaining Bitcoin's fixed supply of 21 million coins and proof-of-work consensus.
+[Zcash](https://z.cash/) (ZEC) is a cryptocurrency built on strong cryptographic foundations that give users the ability to transact privately. Launched in 2016, Zcash is a fork of Bitcoin that adds advanced privacy technology while retaining Bitcoin's fixed supply of 21 million coins and proof-of-work consensus.
 
 ### Awọn Iṣowo ti a bo ati Ẹri-Imọye Zero
 
