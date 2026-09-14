@@ -12,7 +12,7 @@ Educational workbook created by the Zcash global community.
 
 ### ZECPublish
 Censorship-resistant, Zcash blockchain-powered social media. Includes a directory of Zcash users and an anonymous message board.  
-[Visit](https://www.zecpublish.com)
+[Visit](https://web.archive.org/web/20260611225712/https://zecpublish.com/)
 
 ### ZK Radio
 Online radio station to inform, educate, and entertain the Zcash community. Developed by Zcash en Español and the ZKAV Club.  
