@@ -77,7 +77,7 @@ Elle fournit ensuite d'excellents détails sur comment rejoindre un DAO, les ava
 
 [656 millions de dollars perdus suite à des arnaques, vols et escroqueries dans le crypto au premier semestre 2023](https://cointelegraph.com/news/656m-lost-from-crypto-hacks-scams-and-rug-pulls-in-h12023-report) 
 
-[Le prix du Bitcoin n'a jamais chuté de plus de 10% en juillet](https://cointelegraph.com/news/bitcoin-price-never-lost-july-2023-different) 
+[Le prix du Bitcoin n'a jamais chuté de plus de 10% en juillet](https://web.archive.org/web/20250827165749/https://cointelegraph.com/news/bitcoin-price-never-lost-july-2023-different) 
 
 [Nouvelle loi britannique reconnaissant la crypto-monnaie comme activité financière régulée](https://decrypt.co/146857/new-uk-law-recognizes-crypto-trading-as-regulated-financial-activity)
 
