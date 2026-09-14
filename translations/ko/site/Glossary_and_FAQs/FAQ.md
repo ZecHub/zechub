@@ -3,7 +3,7 @@
 Zcash에 대한 가장 흔한 질문 목록입니다. Zcash 클라이언트 문제 해결은 [공식 문제 해결 가이드](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html)를 참조하십시오.
 
 ### 빠른 이동
-[Zcash란 무엇인가요?](#what-is-zcash) | [Zcash를 어떻게 구입할 수 있나요?](#acquire) | [다른 암호화폐와의 차이점은 무엇인가요?](#difference) | [프로토콜 거버넌스는 어떻게 이루어지나요?](#governance) | [내 트랜잭션은 어디에 있나요?](#transaction) | [Zcash는 정말 프라이버시를 보장하나요?](#privacy) | [일반적인 오해](#misconceptions)
+[Zcash란 무엇인가요?](#what-is-zcash) | [Zcash를 어떻게 구입할 수 있나요?](#how-can-i-acquire-zcash) | [다른 암호화폐와의 차이점은 무엇인가요?](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [프로토콜 거버넌스는 어떻게 이루어지나요?](#how-is-the-zcash-protocol-governed) | [내 트랜잭션은 어디에 있나요?](#where-is-my-transaction) | [Zcash는 정말 프라이버시를 보장하나요?](#is-zcash-really-private) | [일반적인 오해](#a-few-common-misconceptions)
 
 ---
 

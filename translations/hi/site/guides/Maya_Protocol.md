@@ -73,7 +73,7 @@ Maya Protocol की genesis के समय, उपलब्ध CACAO reserves
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-[DefiSpot](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet, और Rabby.
+DefiSpot: अब ऑनलाइन नहीं है, इसका डोमेन रेज़ॉल्व नहीं होता।
 
 [XDEFI](https://www.xdefi.io/): 30+ native blockchains, और सभी EVM तथा Cosmos chains के support वाला एक multi-ecosystem self-custody wallet, जिसमें Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, और अन्य शामिल हैं।
 

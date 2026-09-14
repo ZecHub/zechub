@@ -3,7 +3,7 @@
 Список найпоширеніших запитань про Zcash. Для усунення несправностей клієнта Zcash, будь ласка, перегляньте [офіційний посібник з усунення несправностей](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
 ### Швидка навігація
-[Що таке Zcash?](#what-is-zcash) | [Як отримати Zcash?](#acquire) | [Відмінність від інших криптовалют?](#difference) | [Керування протоколом?](#governance) | [Де моя транзакція?](#transaction) | [Чи справді Zcash приватний?](#privacy) | [Поширені хибні уявлення](#misconceptions)
+[Що таке Zcash?](#what-is-zcash) | [Як отримати Zcash?](#how-can-i-acquire-zcash) | [Відмінність від інших криптовалют?](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [Керування протоколом?](#how-is-the-zcash-protocol-governed) | [Де моя транзакція?](#where-is-my-transaction) | [Чи справді Zcash приватний?](#is-zcash-really-private) | [Поширені хибні уявлення](#a-few-common-misconceptions)
 
 ---
 

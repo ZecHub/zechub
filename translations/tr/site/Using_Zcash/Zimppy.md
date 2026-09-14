@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/zimppy.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zimppy.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
@@ -6,35 +6,35 @@
 
 ## Kısaca
 
-- **Zimppy**, Zcash'nin Makine Ödeme Protokolü'nü (MPP) kullanan, yapay zekâ ajanları için gizlilik öncelikli bir ödeme altyapısıdır
-- Zincir üzerinde bir kez **depozito yatırın** (~75 saniye), ardından istek başına blokzincir etkileşimi olmadan **sınırsız anlık istek** yapın
-- **Tamamen shielded Zcash (Orchard)** ödemelerini destekler — gönderici, alıcı, tutar ve notun tamamı şifrelenir
-- Yapay zekâ iş akışlarına ve API sunucularına kolay entegrasyon için **TypeScript ve Rust SDK'larıyla** çalışır
-- **LLM API'leri, veri pazarları, MCP araç sunucuları** ve her türlü M2M ödeme kullanım senaryosu için mükemmeldir
+- **Zimppy**, Zcash'ın Machine Payment Protocol (MPP) kullanan AI agent'ları için gizlilik öncelikli bir ödeme altyapısıdır
+- Zincir üzerinde **bir kez para yatırın** (~75 saniye), ardından istek başına blockchain etkileşimi olmadan **sınırsız anlık istek** yapın
+- **Tamamen korumalı Zcash (Orchard)** ödemelerini destekler — gönderen, alıcı, tutar ve memo tamamen şifrelenir
+- AI işlem hatlarına ve API sunucularına kolay entegrasyon için **TypeScript ve Rust SDK'leriyle** çalışır
+- **LLM API'leri, veri pazar yerleri, MCP araç sunucuları** ve tüm M2M ödeme kullanım durumları için mükemmeldir
 
-Çevrilecek Markdown parçası mesajda yer almıyor. Lütfen fragmenti gönderin; yalnızca Türkçe çeviriyi döndüreceğim.
+---
 
-> **Zimppy**, Zcash için hem shielded hem de transparent ödemeleri destekleyen Machine Payment Protocol (MPP) ödeme yöntemidir. Zincir üzerinde bir kez para yatırın, ardından istek başına zincir etkileşimi olmadan sınırsız sayıda anlık bearer isteği yapın.
+> **Zimppy**, hem korumalı hem de şeffaf ödemeleri destekleyen, Zcash için Machine Payment Protocol (MPP) ödeme yöntemidir. Zincir üzerinde bir kez para yatırın, ardından istek başına zincir etkileşimi olmadan sınırsız anlık bearer istekleri yapın.
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
 ## İçindekiler
 
 1. [Zimppy.xyz nedir?](#what-is-zimppyxyz)
-2. [YZ Aracıları için Neden Shielded Ödemeler?](#why-shielded-payments-for-ai-agents)
-3. [Makine Ödeme Protokolü (MPP)](#machine-payment-protocol-mpp)
-4. [Zimppy Nasıl Çalışır](#how-zimppy-works)
+2. [AI Agent'ları için Neden Korumalı Ödemeler?](#why-shielded-payments-for-ai-agents)
+3. [Machine Payment Protocol (MPP)](#machine-payment-protocol-mpp)
+4. [Zimppy Nasıl Çalışır?](#how-zimppy-works)
    - [Oturumlar (Önerilen)](#sessions-recommended)
    - [Akış](#streaming)
    - [Ücretlendirme](#charge)
-5. [Kullanım Alanları ve Örnekler](#use-cases--examples)
+5. [Kullanım Durumları ve Örnekler](#use-cases--examples)
 6. [Kurulum](#installation)
-7. [Zimppy Cüzdanını Kurma](#setting-up-the-zimppy-wallet)
+7. [Zimppy Cüzdanını Ayarlama](#setting-up-the-zimppy-wallet)
 8. [Zimppy Entegrasyonu](#integrating-zimppy--typescript-sdk)
-   - [Sunucu (Shielded)](#typescript-server--shielded)
+   - [Sunucu (Korumalı)](#typescript-server--shielded)
    - [Sunucu (Şeffaf)](#typescript-server--transparent)
    - [İstemci](#typescript-client)
-9. [Zimppy Entegrasyonu - Rust SDK](#integrating-zimppy--rust-sdk)
+9. [Zimppy - Rust SDK Entegrasyonu](#integrating-zimppy--rust-sdk)
    - [Sunucu (Axum)](#rust-server-axum)
    - [İstemci](#rust-client)
 10. [CLI Referansı](#cli-reference)
@@ -42,164 +42,164 @@ Lütfen çevrilecek Markdown parçasını gönderin.
 12. [Mimari](#architecture)
 13. [Örnekler ve Demolar](#examples--demos)
 
-Kaynak Markdown parçası eksik. Lütfen çevirmemi istediğiniz İngilizce metni gönderin.
+---
 
 ## Zimppy.xyz nedir?
 
-**Zimppy.xyz**, özellikle yapay zekâ ajanları ve otomatik makineden makineye (M2M) iş akışları için tasarlanmış, gizlilik öncelikli bir ödeme altyapısıdır. Temel para birimi olarak **Zcash** kullanarak **Makine Ödeme Protokolü’nü (MPP)** uygular ve hem korumalı (tamamen özel) hem de şeffaf ödeme modlarını mümkün kılar.
+**Zimppy.xyz**, özellikle AI agent'ları ve otomatik makineden makineye (M2M) iş akışları için tasarlanmış, gizlilik öncelikli bir ödeme altyapısıdır. Temel para birimi olarak **Zcash** kullanan **Machine Payment Protocol (MPP)** uygular ve hem korumalı (tamamen özel) hem de şeffaf ödeme modlarını mümkün kılar.
 
-Geleneksel blokzincir ödeme sistemlerinin aksine, her işlemin zincir üzerinde herkese açık şekilde görülebildiği yapılarda, Zimppy; istek başına gecikmeyi ortadan kaldıran ve kriptografik gizliliği koruyan oturum tabanlı bir mimari etrafında tasarlanmıştır. Bu da onu, davranışsal meta verilerini sızdırmadan API'ler, veri, işlem gücü veya yapay zekâ araçları için programatik olarak ödeme yapması gereken yapay zekâ ajanları için benzersiz derecede uygun hâle getirir.
+Her işlemin zincir üzerinde herkese açık olduğu geleneksel blockchain ödeme sistemlerinin aksine Zimppy, kriptografik gizliliği korurken istek başına gecikmeyi ortadan kaldıran oturum tabanlı bir mimari etrafında tasarlanmıştır. Bu, onu davranışsal meta veri sızıntısı olmadan API'ler, veri, işlem gücü veya AI araçları için programatik olarak ödeme yapması gereken AI agent'ları için benzersiz biçimde uygun kılar.
 
 ### Temel Özellikler
 
-- **Bir kez yatırma** işlemi zincir üzerinde yapılır (Zcash onayı için ~75 saniye)
-- Oturum açıldıktan sonra **sınırsız anlık istek**, istek başına zincirle sıfır etkileşim
-- **Shielded ödemeler**, Zcash'nin Orchard protokolünü kullanarak göndereni, alıcıyı, tutarı ve notu şifreler
-- **Transparent ödemeler**, tam gizlilik olmadan yeniden oynatma saldırılarını önlemek için zorluk başına T-adresleri kullanır
-- **Spesifikasyona uyumlu**, HMAC-SHA256 zorlukları, RFC 9457 hataları, `/.well-known/payment` keşfi
+- Zincir üzerinde **bir kez para yatırma** (Zcash onayı için ~75 saniye)
+- Oturum açıldıktan sonra **sınırsız anlık istek**, istek başına sıfır zincir etkileşimi
+- **Korumalı ödemeler**, göndereni, alıcıyı, tutarı ve memo'yu Zcash'ın Orchard protokolünü kullanarak şifreler
+- **Şeffaf ödemeler**, tam gizlilik olmadan yeniden oynatma önleme için challenge başına T-adresleri kullanır
+- **Spesifikasyona uyumlu**, HMAC-SHA256 challenge'ları, RFC 9457 hataları, `/.well-known/payment` keşfi
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
-## Yapay Zekâ Ajanları için Neden Korumalı Ödemeler?
+## AI Agent'ları için Neden Korumalı Ödemeler?
 
-Yapay zekâ ajanlarının hassas iş akışlarını, hukuki araştırmaları, tıbbi sorguları, finansal analizleri, rekabet istihbaratını yürüttüğü durumlarda, **herkese açık her ödeme bir metadata sızıntısıdır**. Zimppy, varsayılan olarak **özel** olan tek MPP ödeme yöntemidir.
+Hassas iş akışları, hukuki araştırmalar, tıbbi sorgular, finansal analizler ve rekabet istihbaratı yürüten AI agent'ları için **herkese açık her ödeme bir meta veri sızıntısıdır**. Zimppy, varsayılan olarak **özel** olan tek MPP ödeme yöntemidir.
 
 ### Gizlilik Karşılaştırma Tablosu
 
-| Özellik | Herkese Açık Zincirler (USDC, ETH) | Zimppy Shielded | Zimppy Transparent |
+| Özellik | Açık Zincirler (USDC, ETH) | Zimppy Korumalı | Zimppy Şeffaf |
 |---|---|---|---|
-| **Gönderen** | Görünür | Şifrelenmiş | Görünür |
-| **Alıcı** | Görünür | Şifrelenmiş | Meydan okuma başına (ilişkilendirilemez) |
-| **Miktar** | Görünür | Şifrelenmiş | Görünür |
-| **Not** | Görünür | Şifrelenmiş | Yok |
-| **Yeniden Oynatma Koruması** | Yok | Memo bağlama | Meydan okuma başına T-adresi |
-| **Hizmet Kullanım Deseni** | İlişkilendirilebilir | Özel | İlişkilendirilemez (yeni adres) |
+| **Gönderen** | Görünür | Şifreli | Görünür |
+| **Alıcı** | Görünür | Şifreli | Challenge başına (bağlantılandırılamaz) |
+| **Tutar** | Görünür | Şifreli | Görünür |
+| **Memo** | Görünür | Şifreli | Yok |
+| **Yeniden Oynatma Koruması** | Yok | Memo bağlama | Challenge başına T-adresi |
+| **Hizmet Kullanım Deseni** | Bağlantılandırılabilir | Özel | Bağlantılandırılamaz (yeni adres) |
 
-### Gecikme Sorunu, Oturumlarla Çözüldü
+### Oturumlarla Çözülen Gecikme Sorunu
 
-> *"Ama Zcash'in blok süreleri 75 saniyedir."*
+> *"Ama Zcash'ın blok süreleri 75 saniye."*
 
-**Oturumlar bunu çözer.** Zincir üstü bekleme, para yatırma sırasında tam olarak **bir kez** gerçekleşir. Sonraki her talep anında yapılır.
+**Oturumlar bunu çözer.** Zincir üzerindeki bekleme, para yatırma sırasında tam olarak **bir kez** gerçekleşir. Sonraki her istek anlıktır.
 
 ```
-Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
-Agent  ->  open session                  (bearer token issued)
-Agent  ->  request -> response           (0ms - no chain interaction)
-Agent  ->  request -> response           (0ms - no chain interaction)
-Agent  ->  request -> response           (0ms - no chain interaction)
-           ... hundreds of requests ...
-Agent  ->  close session                 (refund unused balance)
+Agent  ->  100,000 zat yatır              (tek zincir üzeri tx, ~75 sn)
+Agent  ->  oturum aç                      (bearer token verilir)
+Agent  ->  istek -> yanıt                 (0 ms - zincir etkileşimi yok)
+Agent  ->  istek -> yanıt                 (0 ms - zincir etkileşimi yok)
+Agent  ->  istek -> yanıt                 (0 ms - zincir etkileşimi yok)
+           ... yüzlerce istek ...
+Agent  ->  oturumu kapat                  (kullanılmayan bakiyeyi iade et)
 ```
 
-**Bir kez ödeyin, anında çağırın, para üstünüzü geri alın.** İstek başına gecikme sıfırdır.
+**Bir kez ödeyin, anında çağırın, para üstünü geri alın.** İstek başına gecikme sıfırdır.
 
-Lütfen çevirmemi istediğiniz Markdown parçasını gönderin.
+---
 
-## Makine Ödeme Protokolü (MPP)
+## Machine Payment Protocol (MPP)
 
-**Makine Ödeme Protokolü (MPP)**, otonom yazılım ajanlarının (AI ajanları, botlar, script’ler) insan müdahalesi olmadan API erişimi için ödeme gereksinimlerini keşfetmesini, müzakere etmesini ve yerine getirmesini sağlayan standartlaştırılmış bir protokoldür.
+**Machine Payment Protocol (MPP)**, otonom yazılım agent'larının (AI agent'ları, botlar, script'ler) insan müdahalesi olmadan API erişimi için ödeme gereksinimlerini keşfetmesini, müzakere etmesini ve yerine getirmesini sağlayan standartlaştırılmış bir protokoldür.
 
-### MPP API'lerle Nasıl Entegre Olur
+### MPP API'lerle Nasıl Entegre Olur?
 
-MPP, HTTP **402 Payment Required** akışını takip eder:
+MPP, HTTP **402 Payment Required** akışını izler:
 
-1. **Ajan**, ücretli bir API uç noktasından bir kaynak **talep eder**.
-2. **Sunucu**, `402 Payment Required` + imzalı bir doğrulama isteğiyle (tutar, alıcı, not) **yanıt verir**.
-3. **Ajan**, uyumlu bir ödeme yöntemi kullanarak **ödeme yapar** (ör. Zimppy shielded Zcash).
-4. **Ajan**, isteği `Authorization: Payment {txid}` ile **yeniden dener**.
-5. **Sunucu**, ödemeyi kriptografik olarak **doğrular** (Orchard IVK şifre çözme, tutar + not kontrolü).
-6. **Sunucu**, `200 OK` + bir `Payment-Receipt` başlığı ile **yanıt verir**.
+1. **Agent**, ücretli bir API endpoint'inden kaynak ister.
+2. **Sunucu**, `402 Payment Required` + imzalı bir challenge (tutar, alıcı, memo) ile yanıt verir.
+3. **Agent**, uyumlu bir ödeme yöntemi kullanarak ödeme yapar (örneğin, Zimppy korumalı Zcash).
+4. **Agent**, `Authorization: Payment {txid}` ile isteği yeniden dener.
+5. **Sunucu**, ödemeyi kriptografik olarak doğrular (Orchard IVK şifre çözme, tutar + memo kontrolü).
+6. **Sunucu**, `200 OK` + bir `Payment-Receipt` header'ı ile yanıt verir.
 
 ### Spesifikasyon Uyumluluğu
 
 - **HMAC-SHA256** challenge imzalama
 - **RFC 9457** yapılandırılmış hata yanıtları
-- Ödeme yöntemi otomatik keşfi için **`/.well-known/payment`** endpoint'i
-- Harcama anahtarlarını açığa çıkarmadan sunucu taraflı ödeme doğrulaması için **Orchard IVK** (Gelen **Viewing Key**)
+- Otomatik ödeme yöntemi keşfi için **`/.well-known/payment`** endpoint'i
+- Harcama anahtarlarını açığa çıkarmadan sunucu tarafında ödeme doğrulaması için **Orchard IVK** (Incoming Viewing Key)
 
-Çevrilecek Markdown parçası mesajda yer almıyor. Lütfen `---` sonrasına fragmenti yapıştırın.
+---
 
-## Zimppy Nasıl Çalışır
+## Zimppy Nasıl Çalışır?
 
 ### Oturumlar (Önerilen)
 
-Oturumlar birincil etkileşim modelidir. Aracı, zincir üzerinde bir kez bakiye yatırır, bir bearer token alır ve bunu sonraki tüm istekler için sıfır gecikmeyle kullanır.
+Oturumlar ana etkileşim modelidir. Agent, zincir üzerinde bir kez bakiye yatırır, bir bearer token alır ve bunu sonraki tüm istekler için sıfır gecikmeyle kullanır.
 
 ```
-Agent  ->  deposit 100,000 zat           (on-chain, ~75s one-time)
-Agent  ->  open session                  (bearer token issued)
-Agent  ->  GET /api/query + bearer       (instant, balance deducted)
-Agent  ->  GET /api/query + bearer       (instant, balance deducted)
-Agent  ->  close session                 (refund unused balance on-chain)
+Agent  ->  100,000 zat yatır              (zincir üzerinde, tek seferlik ~75 sn)
+Agent  ->  oturum aç                      (bearer token verilir)
+Agent  ->  GET /api/query + bearer        (anlık, bakiye düşülür)
+Agent  ->  GET /api/query + bearer        (anlık, bakiye düşülür)
+Agent  ->  oturumu kapat                  (kullanılmayan bakiyeyi zincir üzerinde iade et)
 ```
 
-**En uygun kullanım alanları:** Yüksek frekanslı API çağrıları, LLM çıkarımı, tekrarlanan veri sorguları.
+**En uygun olduğu durumlar:** Yüksek frekanslı API çağrıları, LLM çıkarımı, tekrarlanan veri sorguları.
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
 ### Akış
 
-**Server-Sent Events (SSE)** üzerinden iletilen token başına ücretlendirilen içerik. Sunucu, akış halinde iletilen her kelime veya token için oturum bakiyesinden düşer.
+**Server-Sent Events (SSE)** üzerinden sunulan, token başına ücretlendirilen içerik. Sunucu, yayınlanan her kelime veya token için oturum bakiyesinden düşer.
 
 ```
-Agent  ->  open session with deposit
+Agent  ->  para yatırarak oturum aç
 Agent  ->  GET /api/stream (SSE)
-Server ->  stream word by word, deducting per token
-Agent  ->  close session, refund remaining
+Server ->  token başına düşerek kelime kelime akış yap
+Agent  ->  oturumu kapat, kalanı iade et
 ```
 
-**Şunun için en uygunu:** LLM akış yanıtları, gerçek zamanlı veri akışları, token başına ödeme yapılan yapay zekâ araçları.
+**En uygun olduğu durumlar:** LLM akış yanıtları, gerçek zamanlı veri akışları, token başına ücretli AI araçları.
 
-Lütfen çevirmemi istediğiniz Markdown parçasını gönderin.
+---
 
-### Ücret
+### Ücretlendirme
 
-İstek başına tek bir shielded ödeme. Tam HTTP 402 akışı her çağrı için yürütülür. İsteklerin seyrek olduğu veya yüksek değer taşıdığı durumlar için uygundur.
+İstek başına tek bir korumalı ödeme. Tam HTTP 402 akışı her çağrıda yürütülür. İstekler seyrek veya yüksek değerliyse uygundur.
 
 ```
 Agent  ->  GET /api/resource
-Server ->  402 + challenge (amount, recipient, memo)
-Agent  ->  shielded ZEC with memo "zimppy:{challenge_id}"
+Server ->  402 + challenge (tutar, alıcı, memo)
+Agent  ->  memo "zimppy:{challenge_id}" ile korumalı ZEC
 Agent  ->  GET /api/resource + Authorization: Payment {txid}
-Server ->  decrypt with Orchard IVK, verify amount + memo
+Server ->  Orchard IVK ile şifreyi çöz, tutarı + memo'yu doğrula
 Server ->  200 OK + Payment-Receipt
 ```
 
-**En iyi kullanım alanı:** Yüksek değerli tek seferlik istekler, seyrek API çağrıları, premium veri uç noktaları.
+**En uygun olduğu durumlar:** Yüksek değerli tek seferlik istekler, seyrek API çağrıları, premium veri endpoint'leri.
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
-## Kullanım Alanları ve Örnekler
+## Kullanım Durumları ve Örnekler
 
-### 1. AI Ajanı
+### 1. AI Agent
 
-Hukuki bir yapay zeka ajanı, ücretli bir içtihat veritabanını sorgular. Zimppy korumalı oturumları kullanıldığında ne hukuk bürosunun kimliği ne de belirli sorgular zincir üzerinde görünür — böylece avukat-müvekkil gizliliği altyapı düzeyinde korunur.
+Bir hukuki AI agent'ı ücretli bir içtihat veri tabanında sorgu yapar. Zimppy korumalı oturumlarını kullanarak ne hukuk bürosunun kimliği ne de belirli sorgular zincir üzerinde görünür; bu da avukat-müvekkil gizliliğini altyapı düzeyinde korur.
 
 ```
-Agent opens session (100,000 zat deposit)
--> GET /api/cases?q=patent+infringement+2024     (instant)
--> GET /api/cases?q=prior+art+semiconductor      (instant)
--> GET /api/document/US11234567B2                (instant)
-Session closed, unused balance refunded
+Agent oturum açar (100,000 zat para yatırma)
+-> GET /api/cases?q=patent+infringement+2024     (anlık)
+-> GET /api/cases?q=prior+art+semiconductor      (anlık)
+-> GET /api/document/US11234567B2                (anlık)
+Oturum kapatılır, kullanılmayan bakiye iade edilir
 ```
 
-### 2. Tıbbi Sorgu İşlem Hattı için Yapay Zeka Aracısı
+### 2. Tıbbi Sorgu İşlem Hattı için AI Agent
 
-Bir tıbbi tanı ajanı birden fazla klinik veritabanını sorgular. Shielded ödemeler, hasta sorgu örüntülerinin sağlayıcılar arasında birbirine bağlanamamasını sağlar.
+Bir tıbbi teşhis agent'ı birden fazla klinik veri tabanında sorgu yapar. Korumalı ödemeler, hasta sorgu örüntülerinin sağlayıcılar arasında bağlantılandırılmamasını sağlar.
 
-### 3. Finansal Analiz Ajanı
+### 3. Finansal Analiz Agent'ı
 
-Algoritmik bir alım satım ajanı, gerçek zamanlı piyasa verisi API’leri için ödeme yapar. Şeffaf ödemeler, her görev için yeni T-adresleri kullanır ve böylece farklı veri sağlayıcıları arasında kullanım örüntülerinin ilişkilendirilmesini önler.
+Algoritmik bir alım satım agent'ı gerçek zamanlı piyasa verisi API'leri için ödeme yapar. Şeffaf ödemeler, her challenge için yeni T-adresleri kullanarak veri sağlayıcıları arasındaki kullanım örüntüsü korelasyonunu önler.
 
-### 4. MCP Araç Sunucusu, Ücretli Yapay Zeka Araçları
+### 4. MCP Araç Sunucusu, Ücretli AI Araçları
 
-Bir MCP (Model Context Protocol) sunucusu, ücretli yapay zeka araçlarını kullanıma sunar. Her araç çağrısı bir Zimppy ücretini tetikler ve böylece paraya dönüştürülebilen yapay zeka yeteneklerinden oluşan bir pazar yeri mümkün olur.
+Bir MCP (Model Context Protocol) sunucusu ücretli AI araçlarını sunar. Her araç çağrısı bir Zimppy ücretlendirmesini tetikler ve paraya çevrilmiş AI yeteneklerinden oluşan bir pazar yeri sağlar.
 
 ### 5. LLM Özetleyici, Token Başına Ödeme
 
-Bir LLM özetleme hizmeti, ajanlardan çıktı tokeni başına SSE akışı üzerinden ücret alır; kullanılmayan ön ödemeli bakiyenin otomatik olarak düşülmesi ve iade edilmesi sağlanır.
+Bir LLM özetleme hizmeti, SSE akışı aracılığıyla agent'lardan çıktı token'ı başına ücret alır; otomatik bakiye düşümü ve kullanılmayan ön ödemeli bakiyenin iadesini sağlar.
 
-Çevrilecek Markdown parçası sağlanmadı.
+---
 
 ## Kurulum
 
@@ -218,69 +218,67 @@ zimppy-core = "0.5"         # Rust verification engine
 zimppy-rs = "0.5"           # Rust SDK (charge, session, axum)
 ```
 
-I can’t translate yet because the source Markdown fragment was not included after the `---` separator.
+---
 
-Please paste the English Markdown fragment, and I’ll return only the Turkish translation in the exact same Markdown structure.
+## Zimppy Cüzdanını Ayarlama
 
-## Zimppy Cüzdanını Kurma
+Zimppy CLI, tam kapsamlı bir cüzdan arayüzü sağlar. Tüm komutlara `npx zimppy` aracılığıyla erişilebilir.
 
-Zimppy CLI, tam kapsamlı bir cüzdan arayüzü sunar. Tüm komutlara `npx zimppy` üzerinden erişilebilir.
-
-### Adım 1 : Bir Cüzdan Oluşturun
+### Adım 1 : Cüzdan Oluşturma
 
 ```bash
 npx zimppy wallet create
 ```
 
-Kriptografik anahtarlar oluşturur ve **seed phrase**'inizi görüntüler. Bunu güvenli bir şekilde saklayın - kaybolursa geri getirilemez.
+Kriptografik anahtarlar üretir ve **seed phrase**'inizi gösterir. Bunu güvenli bir yerde saklayın; kaybedilirse kurtarılamaz.
 
-### Adım 2 : Adresinizi ve Bakiyenizi Kontrol Edin
+### Adım 2 : Adresinizi ve Bakiyenizi Kontrol Etme
 
 ```bash
 npx zimppy wallet whoami
 ```
 
-**Unified Address (UA)**, **T-adresi**, mevcut bakiyesi ve etkin ağı görüntüler.
+**Unified Address (UA)**, **T-address**, mevcut bakiyeniz ve etkin ağınızı gösterir.
 
 ```bash
 npx zimppy wallet balance --all
 ```
 
-Tüm ZIP-32 hesapları genelinde hesap başına bakiye dökümünü gösterir.
+Tüm ZIP-32 hesaplarındaki hesap başına bakiye dökümünü gösterir.
 
-### Adım 3 : Cüzdanınıza Fon Yatırın
+### Adım 3 : Cüzdanınıza Fon Sağlama
 
-Herhangi bir Zcash uyumlu cüzdandan veya borsadan Unified Address adresinize ZEC gönderin. Korumalı yatırımlar doğrudan Orchard hesabınıza gider.
+ZEC'i, Zcash uyumlu herhangi bir cüzdandan veya borsadan Unified Address'inize gönderin. Korumalı yatırımlar doğrudan Orchard hesabınıza gider.
 
-### Adım 4 : Fon Gönderin ve Korumaya Alın
+### Adım 4 : Fon Gönderme ve Koruma
 
 ```bash
-# Send ZEC to any address (shielded or transparent)
+# Herhangi bir adrese ZEC gönderin (korumalı veya şeffaf)
 npx zimppy wallet send <addr> 42000
 
-# Move transparent funds into Orchard (shielded)
+# Şeffaf fonları Orchard'a taşıyın (korumalı)
 npx zimppy wallet shield
 
-# Transfer between your own accounts
+# Kendi hesaplarınız arasında transfer yapın
 npx zimppy wallet transfer 0 1 50000
 
-# Switch active wallet identity
+# Etkin cüzdan kimliğini değiştirin
 npx zimppy wallet use work
 ```
 
-### Adım 5 : Bir Otomatik Ödeme Talebi Oluşturun
+### Adım 5 : Otomatik Ödeme İsteği Yapma
 
 ```bash
 npx zimppy request <url>
 ```
 
-402 -> ödeme -> yeniden dene akışının tamamını otomatik olarak yönetir. Oturumlar şeffaf bir şekilde açılır ve yönetilir.
+Tam 402 -> ödeme -> yeniden deneme akışını otomatik olarak yönetir. Oturumlar şeffaf biçimde açılır ve yönetilir.
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
-## Zimppy'yi Entegre Etme - TypeScript SDK
+## Zimppy - TypeScript SDK Entegrasyonu
 
-### TypeScript Sunucusu - Shielded
+### TypeScript Sunucusu - Korumalı
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -302,12 +300,12 @@ if (result.status === 402) return result.challenge
 return result.withReceipt(Response.json({ data }))
 ```
 
-**Temel noktalar:**
-- `zcash({ wallet: 'server' })` sunucunun shielded cüzdanını yükler
-- `mppx.charge()` tam 402 challenge/verify yaşam döngüsünü yönetir
-- `result.withReceipt()` yanıtın içine kriptografik ödeme makbuzunu ekler
+**Önemli noktalar:**
+- `zcash({ wallet: 'server' })`, sunucunun korumalı cüzdanını yükler
+- `mppx.charge()`, tam 402 challenge/doğrulama yaşam döngüsünü yönetir
+- `result.withReceipt()`, yanıta kriptografik ödeme makbuzunu ekler
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
 ### TypeScript Sunucusu - Şeffaf
 
@@ -321,9 +319,9 @@ const mppx = Mppx.create({
 })
 ```
 
-Her meydan okuma, ödeme taleplerini oturumlar arasında ilişkilendirilemez hale getiren **yeni bir T-adresi** oluşturur.
+Her challenge, **yeni bir T-adresi** üretir ve ödeme isteklerini oturumlar arasında bağlantılandırılamaz hâle getirir.
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
 ### TypeScript İstemcisi
 
@@ -337,11 +335,11 @@ const mppx = Mppx.create({ methods: [zcash({ wallet: 'default' })] })
 const res = await mppx.fetch('https://api.example.com/resource')
 ```
 
-İstemci, `402` yanıtlarını yakalar, otomatik olarak bir oturum açar ve isteği yeniden dener - çağıran kod herhangi bir ödemeye özgü mantık gerektirmez.
+İstemci `402` yanıtlarını yakalar, otomatik olarak oturum açar ve isteği yeniden dener; çağıran kod ödeme odaklı bir mantık gerektirmez.
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
-## Zimppy Entegrasyonu - Rust SDK
+## Zimppy - Rust SDK Entegrasyonu
 
 ### Rust Sunucusu (Axum)
 
@@ -363,12 +361,12 @@ async fn handler(charge: MppCharge<Price>) -> WithReceipt<Json<Value>> {
 }
 ```
 
-**Ana noktalar:**
-- `MppCharge<Price>`, handler çalışmadan önce ödemeyi doğrulayan bir Axum extractor’ıdır
-- `WithReceipt`, yanıtı kriptografik bir ödeme makbuzuyla sarar
-- `ChargeConfig`, fiyatlandırma mantığını tanımlar - istek parametrelerine göre dinamik olabilir
+**Önemli noktalar:**
+- `MppCharge<Price>`, handler çalışmadan önce ödemeyi doğrulayan bir Axum extractor'ıdır
+- `WithReceipt`, yanıtı kriptografik bir ödeme makbuzuyla sarmalar
+- `ChargeConfig`, fiyatlandırma mantığını tanımlar; istek parametrelerine göre dinamik olabilir
 
-Markdown fragment missing.
+---
 
 ### Rust İstemcisi
 
@@ -384,54 +382,54 @@ let resp = client
     .await?;
 ```
 
-`send_with_payment` herhangi bir HTTP istemcisini otomatik 402 işleme, oturum yönetimi ve Zcash ödeme gerçekleştirme ile genişletir.
+`send_with_payment`, herhangi bir HTTP istemcisini otomatik 402 yönetimi, oturum yönetimi ve Zcash ödeme gerçekleştirmesiyle genişletir.
 
-Çevrilecek Markdown parçası eksik. Lütfen fragment’i gönderin.
+---
 
 ## CLI Referansı
 
 | Komut | Açıklama |
 |---|---|
-| `npx zimppy wallet create` | Anahtarları oluştur ve seed ifadesini göster |
-| `npx zimppy wallet whoami` | Adresi göster (UA + T-addr), bakiye, ağ |
-| `npx zimppy wallet balance --all` | Hesap bazında bakiye dökümü |
-| `npx zimppy wallet send <addr> <zat>` | Shielded veya transparent ZEC gönder |
+| `npx zimppy wallet create` | Anahtarları üretir ve seed phrase'i gösterir |
+| `npx zimppy wallet whoami` | Adresi (UA + T-addr), bakiyeyi ve ağı gösterir |
+| `npx zimppy wallet balance --all` | Hesap başına bakiye dökümü |
+| `npx zimppy wallet send <addr> <zat>` | Korumalı veya şeffaf ZEC gönderir |
 | `npx zimppy wallet transfer <from> <to> <zat>` | Hesaplar arası dahili transfer |
-| `npx zimppy wallet shield` | Transparent fonları Orchard'e taşı (shielded) |
-| `npx zimppy wallet use <name>` | Etkin cüzdan kimliğini değiştir |
-| `npx zimppy request <url>` | Otomatik 402 -> öde -> isteği yeniden dene |
+| `npx zimppy wallet shield` | Şeffaf fonları Orchard'a taşır (korumalı) |
+| `npx zimppy wallet use <name>` | Etkin cüzdan kimliğini değiştirir |
+| `npx zimppy request <url>` | Otomatik 402 -> ödeme -> yeniden deneme isteği |
 
-Lütfen çevirmemi istediğiniz Markdown parçasını `---` satırının altına yapıştırın.
+---
 
 ## Temel Özellikler
 
-### Yerel-Ajan Cüzdanları
+### Agent-Doğal Cüzdanlar
 
-Zimppy cüzdanları, insanlar tarafından yönetilen tarayıcı eklentileri için değil, yapay zekâ ajanları tarafından programatik kullanım için tasarlanmıştır. Anahtarlar CLI veya SDK'lar üzerinden yönetilir, hesaplar **ZIP-32 hesap türetimi** ile döndürülebilir ve cüzdan, işlem başına insan onayı gerektirmeden tamamen otomatik ödeme akışlarını destekler.
+Zimppy cüzdanları, insan tarafından yönetilen tarayıcı eklentileri için değil, AI agent'ları tarafından programatik kullanım için tasarlanmıştır. Anahtarlar CLI veya SDK'ler aracılığıyla yönetilir, hesaplar **ZIP-32 hesap türetimi** yoluyla döndürülebilir ve cüzdan, işlem başına insan onayı olmadan tamamen otomatik ödeme akışlarını destekler.
 
-### Çoklu Ajan Desteği
+### Çoklu Agent Desteği
 
-Birden fazla ajan, **ZIP-32 hesap rotasyonu** kullanarak aynı cüzdandan çalışabilir - her ajan, izole bakiye takibi, hesaplar arası transfer yeteneği ve hesap bazında bakiye raporlaması ile kendi hesabına sahip olur. Bu, tek bir cüzdan altyapısından birçok ajanın filo yönetimini mümkün kılar.
+Birden fazla agent, **ZIP-32 hesap rotasyonu** kullanarak aynı cüzdandan çalışabilir; her agent, izole bakiye takibi, hesaplar arası transfer yeteneği ve hesap başına bakiye raporlamasıyla kendi hesabını alır. Bu, tek bir cüzdan altyapısından çok sayıda agent'ın filo yönetimini sağlar.
 
-### Tamamen Shielded Zcash İşlemler (Orchard)
+### Tamamen Korumalı Zcash İşlemleri (Orchard)
 
-Shielded ödemeler, Zcash'nin **Orchard protokolünü** kullanır - en güncel ve en güvenli shielded havuzu. Sunucu, harcama anahtarını açığa çıkarmadan alınan notları çözebilen bir **Incoming Viewing Key (IVK)** kullanarak ödemeleri doğrular. Replay saldırıları, **memo binding** sayesinde önlenir - her challenge, kriptografik olarak doğrulanan benzersiz bir `zimppy:{challenge_id}` memo içerir.
+Korumalı ödemeler, en yeni ve en güvenli korumalı havuz olan Zcash'ın **Orchard protokolünü** kullanır. Sunucu, harcama anahtarını açığa çıkarmadan alınan notların şifresini çözebilen bir **Incoming Viewing Key (IVK)** kullanarak ödemeleri doğrular. Yeniden oynatma saldırıları **memo bağlama** ile önlenir; her challenge, kriptografik olarak doğrulanan benzersiz bir `zimppy:{challenge_id}` memo'su içerir.
 
-### Oturumlar, İstek Başına Sıfır Gecikme
+### Oturumlar , İstek Başına Sıfır Gecikme
 
-Oturum mimarisi, zincir üstü onay beklemesini istek başına gecikmeden ayırır. Tek bir yatırma işleminden sonra (~75 saniye), oturum kapanana kadar sonraki tüm bearer-token istekleri herhangi bir blokzincir etkileşimi olmadan anında karşılanır.
+Oturum mimarisi, zincir üzerindeki onay beklemesini istek başına gecikmeden ayırır. Tek bir para yatırma işleminden (~75 saniye) sonra, oturum kapanana kadar tüm sonraki bearer-token istekleri blockchain etkileşimi olmadan anında sunulur.
 
-### Akış, Token Başına Ödeme
+### Akış , Token Başına Ödeme
 
-Yerel **SSE (Server-Sent Events)** desteği, token başına ücretlendirilen ölçümlü içeriği mümkün kılar. Çıktı uzunluğunun değişken olduğu ve faturalandırmanın gerçek tüketime göre yapılması gereken LLM çıkarım API'leri için idealdir.
+Doğal **SSE (Server-Sent Events)** desteği, token başına ücretlendirilen içeriği mümkün kılar. Çıktı uzunluğunun değişken olduğu ve faturalandırmanın gerçek tüketimi yansıtması gereken LLM çıkarım API'leri için idealdir.
 
-### Spesifikasyona Uygunluk
+### Spesifikasyon Uyumluluğu
 
-- Sahteciliği önlemek için **HMAC-SHA256** ile imzalanmış sorgulamalar
-- Birlikte çalışabilir hata işleme için **RFC 9457** yapılandırılmış hata biçimi
-- Herhangi bir MPP uyumlu aracı tarafından otomatik ödeme yöntemi keşfi için **`/.well-known/payment`**
+- **HMAC-SHA256** imzalı challenge'lar sahteciliği önler
+- Birlikte çalışabilir hata yönetimi için **RFC 9457** yapılandırılmış hata biçimi
+- MPP uyumlu herhangi bir agent tarafından otomatik ödeme yöntemi keşfi için **`/.well-known/payment`**
 
-Çevrilecek Markdown parçası sağlanmadı.
+---
 
 ## Mimari
 
@@ -449,54 +447,54 @@ packages/
 
 ### Bileşen Sorumlulukları
 
-**`zimppy-core`** - Kriptografik çekirdek. Sunucunun IVK'sini kullanarak Orchard notlarının şifresinin çözülmesini, memo ayrıştırmayı, yeniden oynatma koruması mantığını ve challenge doğrulamasını yönetir. Performans ve doğruluk için Rust ile yazılmıştır.
+**`zimppy-core`** - Kriptografik çekirdek. Sunucunun IVK'sini kullanarak Orchard notlarının şifresini çözmeyi, memo ayrıştırmayı, yeniden oynatma koruma mantığını ve challenge doğrulamasını yönetir. Performans ve doğruluk için Rust ile yazılmıştır.
 
-**`zimppy-wallet`** - `zingolib` tarafından desteklenen yerel bir Zcash cüzdanıdır. Anahtarları, hesapları, shielded/transparent bakiyeleri ve işlem gönderimini yönetir.
+**`zimppy-wallet`** - `zingolib` destekli yerel bir Zcash cüzdanı. Anahtarları, hesapları, korumalı/şeffaf bakiyeleri ve işlem gönderimini yönetir.
 
-**`zimppy-rs`** - Rust SDK'sı. `ChargeMethod`, `SessionMethod` ve `PaymentProvider` trait'lerini sağlar; ayrıca ergonomik sunucu entegrasyonu için Axum extractor'larını (`MppCharge`, `WithReceipt`) içerir.
+**`zimppy-rs`** - Rust SDK. Ergonomik sunucu entegrasyonu için `ChargeMethod`, `SessionMethod` ve `PaymentProvider` trait'lerinin yanı sıra Axum extractor'ları (`MppCharge`, `WithReceipt`) sağlar.
 
-**`zimppy-napi`** - Rust çekirdeğini Node.js'e açığa çıkaran NAPI-RS bağlayıcıları; böylece TypeScript SDK, Zcash primitiflerini JavaScript'te yeniden uygulamak zorunda kalmadan aynı kriptografik motoru kullanabilir.
+**`zimppy-napi`** - Rust çekirdeğini Node.js'e açan NAPI-RS bağlamalarıdır; TypeScript SDK'sinin Zcash ilkel yapılarını JavaScript'te yeniden uygulamadan aynı kriptografik motoru kullanmasını sağlar.
 
-**`zimppy-ts`** - TypeScript SDK'si. Ücretlendirme, oturum ve SSE akış süreçleri için NAPI bağlamalarını deyimsel `async/await` API'leriyle sarmalar.
+**`zimppy-ts`** - TypeScript SDK. Ücretlendirme, oturum ve SSE akış akışları için NAPI bağlamalarını yerleşik async/await API'leriyle sarmalar.
 
-**`zimppy-cli`** - Komut satırı cüzdanı ve istek aracı. Otomatik ödemeyi (402 -> pay -> retry), oturum yönetimini ve tüm cüzdan işlemlerini destekler.
+**`zimppy-cli`** - Komut satırı cüzdanı ve istek aracı. Otomatik ödemeyi (402 -> ödeme -> yeniden deneme), oturum yönetimini ve tüm cüzdan işlemlerini destekler.
 
-Çevrilecek Markdown parçası sağlanmadı.
+---
 
 ## Örnekler ve Demolar
 
 | Örnek | Açıklama |
 |---|---|
-| `examples/fortune-teller/` | Ücretlendirme, oturum ve akış demoları - Rust sunucu + istemci |
-| `examples/llm-summarizer/` | Token başına ödeme yapılan LLM akış demosu |
-| `examples/mcp-server/` | Ücretli yapay zeka araçlarıyla MCP araç sunucusu |
+| `examples/fortune-teller/` | Ücretlendirme, oturum ve akış demoları - Rust sunucusu + istemci |
+| `examples/llm-summarizer/` | Token başına ödeme yapan LLM akış demosu |
+| `examples/mcp-server/` | Ücretli AI araçlarına sahip MCP araç sunucusu |
 | `examples/ts-server/` | TypeScript MPP sunucusu referans uygulaması |
 
-Çevrilecek Markdown parçası sağlanmadı.
+---
 
-## Neler Dahil - Özellik Özeti
+## Dahil Olanlar - Özellik Özeti
 
 | Özellik | Açıklama |
 |---|---|
-| **Oturumlar** | Bir kez para yatırma, anında bearer istekleri, kapanışta iade |
+| **Oturumlar** | Bir kez para yatırma, anlık bearer istekleri, kapanışta iade |
 | **Akış** | SSE üzerinden token başına ücretlendirilen içerik |
-| **Ücretlendirme** | HTTP isteği başına shielded veya transparent ödeme (`402` akışı) |
+| **Ücretlendirme** | HTTP isteği başına korumalı veya şeffaf ödeme (402 akışı) |
 | **Şeffaf Ödemeler** | Challenge başına yeniden oynatma önleme + shield komutuyla T-adresleri |
 | **Çoklu Hesap** | ZIP-32 hesap rotasyonu, hesaplar arası transferler, hesap başına bakiyeler |
-| **CLI Cüzdanı** | Gönder, shield, transfer, `balance --all`, `whoami`, otomatik ödeme |
+| **CLI Cüzdanı** | Gönderme, shield, transfer, balance --all, whoami, otomatik ödeme |
 | **Çift SDK** | TypeScript ve Rust |
 | **Spesifikasyona Uyumlu** | HMAC-SHA256 challenge'ları, RFC 9457 hataları, `/.well-known/payment` keşfi |
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
-*Daha fazla bilgi için ziyaret edin [zimppy.xyz](https://zimppy.xyz)*
+*Daha fazla bilgi için [zimppy.xyz](https://zimppy.xyz) adresini ziyaret edin*
 
-Lütfen çevrilecek Markdown parçasını gönderin.
+---
 
 ## İlgili Sayfalar
 
-- [Cüzdanlar](/using-zcash/wallets) — Korumalı işlemleri destekleyen Zcash cüzdanlar
-- [Korumalı Havuzlar](/using-zcash/shielded-pools) — Orchard korumalı işlemler ödeme verilerini nasıl korur
+- [Cüzdanlar](/using-zcash/wallets) — Korumalı işlemleri destekleyen Zcash cüzdanları
+- [Korumalı Havuzlar](/using-zcash/shielded-pools) — Orchard korumalı işlemlerinin ödeme verilerini nasıl koruduğu
 - [Ödeme İşlemcileri](/using-zcash/payment-processors) — Zcash ödemelerini kabul etmenin diğer yolları
-- [Zcash Korumalı Varlıklar](/zcash-tech/zcash-shielded-assets) — ZSA'lar ve Zcash programlanabilirliğinin geleceği
-- [Topluluk Projeleri](/zcash-community/community-projects) — Daha fazla Zcash ekosistem projesi
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSA'lar ve Zcash programlanabilirliğinin geleceği
+- [Topluluk Projeleri](/zcash-community/community-projects) — Daha fazla Zcash ekosistemi projesi

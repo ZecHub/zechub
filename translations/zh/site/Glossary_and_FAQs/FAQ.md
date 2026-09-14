@@ -3,7 +3,7 @@
 关于 Zcash 的最常见问题列表。有关 Zcash 客户端的故障排除，请参阅[官方故障排除指南](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html)。
 
 ### 快速导航
-[什么是 Zcash？](#what-is-zcash) | [如何获取 Zcash？](#acquire) | [与其他加密货币有何不同？](#difference) | [协议如何治理？](#governance) | [我的交易在哪里？](#transaction) | [Zcash 真的私密吗？](#privacy) | [常见误解](#misconceptions)
+[什么是 Zcash？](#what-is-zcash) | [如何获取 Zcash？](#how-can-i-acquire-zcash) | [与其他加密货币有何不同？](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [协议如何治理？](#how-is-the-zcash-protocol-governed) | [我的交易在哪里？](#where-is-my-transaction) | [Zcash 真的私密吗？](#is-zcash-really-private) | [常见误解](#a-few-common-misconceptions)
 
 ---
 
