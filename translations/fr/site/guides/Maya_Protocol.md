@@ -73,7 +73,7 @@ Voici une liste de certains services qui prennent déjà en charge Maya :
 
 [Asgardex](https://www.asgardex.com/) : Keystore, Ledger
 
-[DefiSpot](https://www.defispot.com/t) : XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet et Rabby.
+DefiSpot : n'est plus en ligne, son domaine ne résout plus.
 
 [XDEFI](https://www.xdefi.io/) : un wallet en auto-garde multi-écosystème prenant en charge plus de 30 blockchains natives, ainsi que toutes les chaînes EVM et Cosmos, y compris Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, et bien d'autres.
 
