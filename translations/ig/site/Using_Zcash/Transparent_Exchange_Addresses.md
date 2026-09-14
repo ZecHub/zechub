@@ -16,7 +16,7 @@ A na-akọwapụta atụmatụ teknụzụ maka adreesị TEX na Zcash [ZIP 320]
 ## Olee Mgbe M Kwesịrị Inweta Adreesị TEX
 
 ### You **Need** a TEX address when sending funds to a Transparent address using a wallet that does not support sending directly to a Transparent address. 
-Certain wallets simply don't allow for sending directly to a Transparent address and **the recipient may not provide a TEX equivalent**. So, **Converting** from a Transparent to a TEX address may be required at times. This can be achieved manually by running the reference implementation outlined in zip-320. A hosted instance of a **Transparent-to-TEX-Converter** can be found [HERE](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/).
+Certain wallets simply don't allow for sending directly to a Transparent address and **the recipient may not provide a TEX equivalent**. So, **Converting** from a Transparent to a TEX address may be required at times. This can be achieved manually by running the reference implementation outlined in [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
 
 ### You Need a TEX address when sending funds to a centralized exchange that **REQUIRES those funds come from a Transparent source**. 
 Ugbu a, [Binance](https://www.binance.com/) bụ naanị Central Exchange na-eji adreesị TEX (na ha bụ isi ihe kpatara okike TEX). 

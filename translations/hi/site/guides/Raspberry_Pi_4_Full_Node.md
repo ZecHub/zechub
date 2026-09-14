@@ -150,7 +150,7 @@ Zebra और Zallet setup के दौरान CPU पर आम तौर प
 
 ## अतिरिक्त संसाधन
 - [Zebra Book](https://zebra.zfnd.org) — official Zebra documentation
-- [Zallet Book](https://zcash.github.io/wallet) — official Zallet documentation
+- [Zallet Book](https://zcash.github.io/zallet/) — official Zallet documentation
 - [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
 
 ---

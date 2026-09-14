@@ -75,7 +75,7 @@ Ame ŋutɔ ƒe fexexe ɖe internet dzi. Menye vidzikpɔkpɔ o, KYC aɖeke meli o
 
 ### Ezcash ƒe nya
 Zcash gakotoku si zazã le bɔbɔe, si ƒe nɔnɔmewo katã le multiplatform kple autoshielding ƒe kpekpeɖeŋu. 
-[Sasrã](https://blog.nerdbank.net/ezcash-app)
+[Sasrã](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Gakotoku
 Orchard-focused Zcash wallet built for Zebrad, supporting fully shielded transactions and secure key management.  

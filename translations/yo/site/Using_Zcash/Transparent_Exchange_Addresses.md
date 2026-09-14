@@ -16,7 +16,7 @@ Biotilejepe awọn adirẹsi TEX ko gba wọpọ, awọn olumulo Zcash le nilo l
 ## Ìgbà Wo Ni Mo Nílò Àdírẹ́sì TEX
 
 ### O **Nipá** adirẹsi TEX nígbà tí o bá ń fi owó ránṣẹ́ sí adiréṣítì Transparent nípa lílo àpamọ́ tí kò ní ìtìlẹ́yìn fún fífi owó ránṣẹ́ ní tààràtà sí adíréṣí Transparent. 
-Certain wallets simply don't allow for sending directly to a Transparent address and **the recipient may not provide a TEX equivalent**. So, **Converting** from a Transparent to a TEX address may be required at times. This can be achieved manually by running the reference implementation outlined in zip-320. A hosted instance of a **Transparent-to-TEX-Converter** can be found [HERE](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/).
+Certain wallets simply don't allow for sending directly to a Transparent address and **the recipient may not provide a TEX equivalent**. So, **Converting** from a Transparent to a TEX address may be required at times. This can be achieved manually by running the reference implementation outlined in [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
 
 ### O Nílò adirẹsi TEX nígbà tí o bá ń fi owó ránṣẹ́ sí ilé ìfowópamọ́ kan tí ó **NÍPÀYÁ kí owó wọ̀nyìí wá láti orísun tí ó ṣe kedere**. 
 Lọwọlọwọ, [Binance](https://www.binance.com/) is the only Centralized Exchange using TEX addresses (and they are the primary reason for TEX creation). 

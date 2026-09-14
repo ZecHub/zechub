@@ -150,7 +150,7 @@ Zebra et Zallet sont généralement moins exigeants en CPU pendant l'installatio
 
 ## Ressources supplémentaires
 - [Livre de Zebra](https://zebra.zfnd.org) — documentation officielle de Zebra
-- [Livre de Zallet](https://zcash.github.io/wallet) — documentation officielle de Zallet
+- [Livre de Zallet](https://zcash.github.io/zallet/) — documentation officielle de Zallet
 - [Avis de fin de support de zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---

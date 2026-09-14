@@ -75,7 +75,7 @@ Private Zahlungen für das Internet. Non-custodial, ohne KYC. Händler erhalten 
 
 ### Ezcash
 Einfach zu nutzende, funktionsreiche Multiplattform-Zcash-Wallet mit Unterstützung für Autoshielding.  
-[Besuchen](https://blog.nerdbank.net/ezcash-app)
+[Besuchen](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Orchard-fokussierte Zcash-Wallet, entwickelt für Zebrad, mit Unterstützung für vollständig abgeschirmte Transaktionen und sicheres Schlüsselmanagement.  

@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo
@@ -78,7 +78,7 @@
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Features: Adrɛs ƒe Tɔtrɔ | Broad Key Kpekpeɖeŋunana | Nusiwo Woɖo Ðe Duta Siwo Wotsɔ Nya Ɣla Ðo | FROST Multisig | Akɔntabubu Geɖewo ƒe Ðekawɔwɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Testnet Kpekpeɖeŋunana
+- Features: Adrɛs ƒe Tɔtrɔ | Broad Key Kpekpeɖeŋu | Nusiwo Woɖo Ðe Duta Siwo Wotsɔ Nya Ɣla Ðo | FROST Multisig | Akɔntabubu Geɖewo ƒe Ðekawɔwɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Testnet Kpekpeɖeŋunana
 - Ironwood: Dzra ɖo
 
 ---
@@ -225,7 +225,7 @@
 - Gakotoku ƒe Kpekpeɖeŋu: Hardware
 - Tawo: Woate ŋu akpɔe le gaglãgbe
 - Nusiwo le eme: Multi Coin
-- Ironwood: Ele Edzim
+- Ironwood: Ele Ŋgɔyiyi Me
 
 ---
 
@@ -239,7 +239,7 @@
 
 ---
 
-## [Trezor ƒe nya](https://trezor.io/learn/a/zcash-zec)
+## [Trezor ƒe nya](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Mɔ̃wo:
 - Dɔwɔɖoɖo:
@@ -283,7 +283,7 @@
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Desktop dzi
 - Dɔwɔɖoɖo: Browser | Fesrewo | macOS ƒe nyawo
-- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gakotoku si le egodo | Xɔ Adrɛs | QR-dzesi | Hardware ƒe dɔwɔnuwo
+- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gakotoku si le egodo | Xɔ Adrɛs | QR-Kɔdasi | Hardware ƒe dɔwɔnuwo
 - Pools: Sapling | Transparent
 - Nusiwo le eme: Multi Coin | Near Intents | Maya ƒe DEX | KYC aɖeke meli o | Nusiwo Menye Vidzikpɔkpɔ o | Nyatakakadzraɖoƒe ƒe Dɔwɔɖoɖo | Desktop Dɔwɔɖoɖo | Akpoxɔnu ZEC | AnyPay ƒe fetu
 - Ironwood: Dzra ɖo
@@ -318,7 +318,7 @@
 - Dɔwɔɖoɖo: iOS | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
 - Pools: Transparent | Sapling | Ironwood
-- Features: Ðokuisidzikpɔkpɔ | Private Key si Wodzra Ðo Ðe Nutoa Me | KYC aɖeke Mehiã o | Zend Server ƒe Dzidzedzekpɔkpɔ aɖeke meli na Gakotoku ƒe Dɔwɔna o | Encrypted Shielded Asitsatsa | Nukuwo Gbugbɔgaxɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Passkey ƒe Dzesidede
+- Features: Ðokuisidzikpɔkpɔ | Private Key si Wodzra Ðo Ðe Nutoa Me | KYC aɖeke Mehiã o | Zend Server ƒe Ŋuɖoɖo ɖe Gakotoku ƒe Dɔwɔwɔ ŋu aɖeke meli o | Encrypted Shielded Asitsatsa | Nukuwo Gbugbɔgaxɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Passkey ƒe Dzesidede
 
 ---
 
@@ -340,7 +340,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
 - Pools: Transparent | Sapling | Ironwood
 - Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
-- Ironwood: Ele Edzim
+- Ironwood: Ele Ŋgɔyiyi Me
 
 ---
 
@@ -348,7 +348,7 @@
 ![logo](/content-images/argos.webp "Argos")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
-- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gazazã ƒe Safui | Ame ŋutɔ ƒe Safui | Gakotoku ƒe Kpekpeɖeŋu / Safuiwo ƒe Ðoɖowɔwɔ Ðe Duta
+- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gazazã ƒe Safui | Ame ŋutɔ ƒe Safui | Gakotoku ƒe Kpekpeɖeŋu / Safuiwo ƒe Dɔdɔ
 - Pools: Transparent | Sapling | Ironwood | Sprout
 - Features: Gakotoku Gbugbɔgaxɔ | Sedede ƒe Fli ƒe Dɔwɔƒe | Memo si Wotsɔ Akpoxɔnu Wɔe | Testnet Kpekpeɖeŋunana
 - Ironwood: Dzra ɖo

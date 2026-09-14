@@ -16,7 +16,7 @@ Wɔakyerɛ mfiridwuma ho nyansahyɛ a ɛfa TEX address ho wɔ Zcash [ZIP 320](ht
 ## Bere Bɛn na Mehia TEX Address
 
 ### Wo **hia** TEX address bere a wode sika rekɔ Transparent address so denam sika kotoku a ɛnboa sɛ wode bɛkɔ Transparent address so tẽẽ no so. 
-Wallet binom mma kwan kɛkɛ sɛ wɔde bɛkɔ Transparent address so tẽẽ na **ebia nea ogye no remfa TEX a ɛne no sɛ** mma. Enti, ebia ɛho behia sɛ wɔdane** fi Transparent so kɔ TEX address so wɔ mmere bi mu. Wobetumi de nsa ayɛ eyi denam reference implementation a wɔakyerɛ wɔ zip-320 no a wobɛtu mmirika no so. Wobetumi ahunu **Transparent-to-TEX-Converter** a wɔagye ho nhwɛsoɔ [HA](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/).
+Wallet binom mma kwan kɛkɛ sɛ wɔde bɛkɔ Transparent address so tẽẽ na **ebia nea ogye no remfa TEX a ɛne no sɛ** mma. Enti, ebia ɛho behia sɛ wɔdane** fi Transparent so kɔ TEX address so wɔ mmere bi mu. Wobetumi de nsa ayɛ eyi denam reference implementation a wɔakyerɛ wɔ [zip-320](https://zips.z.cash/zip-0320#reference-implementation) no a wobɛtu mmirika no so.
 
 ### Wohia TEX address bere a wode sika rekɔ centralized exchange a **ƐHWƐ sɛ saa sika no fi Transparent fibea**. 
 Mprempren, [Binance](https://www.binance.com/) yɛ Centralized Exchange nko ara a ɛde TEX address di dwuma (na ɛno ne ade titiriw nti a wɔbɔ TEX). 

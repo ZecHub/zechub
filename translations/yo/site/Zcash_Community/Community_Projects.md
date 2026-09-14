@@ -75,7 +75,7 @@ Awọn sisanwo ti ara ẹni fun intanẹẹti. Ko si ẹri, ko si KYC. Awọn on
 
 ### Èdè Àsìá ilẹ̀:
 O rọrun lati lo, apamọwọ Zcash ti o ni ọpọlọpọ awọn ẹya pẹlu atilẹyin autoshielding. 
-[Ìbẹ̀wò](https://blog.nerdbank.net/ezcash-app)
+[Ìbẹ̀wò](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Owó àpò Nozy
 Orchard-focused Zcash wallet built for Zebrad, supporting fully shielded transactions and secure key management.  

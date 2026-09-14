@@ -75,7 +75,7 @@
 
 ### Ezcash
 Простий у використанні, багатофункціональний мультиплатформний гаманець Zcash із підтримкою autoshielding.  
-[Відвідати](https://blog.nerdbank.net/ezcash-app)
+[Відвідати](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Орієнтований на Orchard гаманець Zcash, створений для Zebrad, із підтримкою повністю shielded транзакцій і безпечного керування ключами.  

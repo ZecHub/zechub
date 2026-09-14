@@ -45,4 +45,4 @@ Cada operador executa sua própria instância ZAP1 com suas próprias chaves, á
 - Especificação do protocolo: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
 - Rascunho de ZIP: [PR #1243](https://github.com/zcash/zips/pull/1243)
 - API ao vivo: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
-- Guia do operador: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+- Guia do operador: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

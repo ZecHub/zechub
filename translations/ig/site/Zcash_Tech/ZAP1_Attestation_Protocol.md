@@ -45,4 +45,4 @@ Each operator runs their own ZAP1 instance with their own keys, Merkle tree, and
 - Nkọwapụta Protocol: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
 - ZIP draft: [PR #1243](https://github.com/zcash/zips/pull/1243)
 - API dị ndụ: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
-- Ntuziaka onye ọrụ: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+- Ntuziaka onye ọrụ: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

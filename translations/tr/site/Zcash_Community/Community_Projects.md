@@ -75,7 +75,7 @@ Zcash hibelerinin keşfedilmesini, takip edilmesini ve incelenmesini basitleşti
 
 ### Ezcash
 Kullanımı kolay, tam özellikli, çok platformlu ve autoshielding destekli Zcash cüzdanı.  
-[Ziyaret et](https://blog.nerdbank.net/ezcash-app)
+[Ziyaret et](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Tamamen shielded işlemleri ve güvenli anahtar yönetimini destekleyen, Zebrad için geliştirilmiş Orchard odaklı Zcash cüzdanı.  

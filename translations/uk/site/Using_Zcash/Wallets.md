@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![логотип](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows
@@ -239,7 +239,7 @@
 
 ---
 
-## [Trezor](https://trezor.io/learn/a/zcash-zec)
+## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![логотип](/content-images/trezor1-5004075d27.webp "Trezor")
 - Пристрої:
 - Операційна система:

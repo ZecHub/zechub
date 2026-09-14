@@ -150,7 +150,7 @@ Zebra и Zallet в целом менее требовательны к CPU на 
 
 ## Дополнительные ресурсы
 - [Книга Zebra](https://zebra.zfnd.org) — официальная документация Zebra
-- [Книга Zallet](https://zcash.github.io/wallet) — официальная документация Zallet
+- [Книга Zallet](https://zcash.github.io/zallet/) — официальная документация Zallet
 - [Уведомление о завершении поддержки zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---

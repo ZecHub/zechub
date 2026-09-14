@@ -150,7 +150,7 @@ Zebra і Zallet зазвичай легші для CPU на етапі нала�
 
 ## Додаткові ресурси
 - [Книга Zebra](https://zebra.zfnd.org) — офіційна документація Zebra
-- [Книга Zallet](https://zcash.github.io/wallet) — офіційна документація Zallet
+- [Книга Zallet](https://zcash.github.io/zallet/) — офіційна документація Zallet
 - [Повідомлення про End-of-Support для zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---

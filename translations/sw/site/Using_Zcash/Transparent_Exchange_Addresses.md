@@ -16,7 +16,7 @@ Ingawa TEX anwani si sana kupitishwa, Zcash watumiaji inaweza kuwa zinahitajika 
 ## Ni Wakati Gani Ninapohitaji Anwani ya TEX
 
 ### You **Need** a TEX address when sending funds to a Transparent address using a wallet that does not support sending directly to a Transparent address. 
-Certain wallets simply don't allow for sending directly to a Transparent address and **the recipient may not provide a TEX equivalent**. So, **Converting** from a Transparent to a TEX address may be required at times. This can be achieved manually by running the reference implementation outlined in zip-320. A hosted instance of a **Transparent-to-TEX-Converter** can be found [HERE](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/).
+Certain wallets simply don't allow for sending directly to a Transparent address and **the recipient may not provide a TEX equivalent**. So, **Converting** from a Transparent to a TEX address may be required at times. This can be achieved manually by running the reference implementation outlined in [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
 
 ### Unahitaji anwani ya TEX wakati kutuma fedha kwa kubadilishana centralized kwamba **INATAKA fedha hizo kuja kutoka chanzo Transparent **. 
 Hivi sasa, [Binance](https://www.binance.com/) ni tu Centralized Exchange kutumia anwani TEX (na wao ni sababu ya msingi kwa ajili ya uumbaji TEX). 

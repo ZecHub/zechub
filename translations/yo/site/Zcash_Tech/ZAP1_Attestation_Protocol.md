@@ -45,4 +45,4 @@ Olùṣiṣẹ́ kọ̀ọ̀kan n ṣiṣẹ́ ìṣẹ̀lẹ̀ ZAP1 tirẹ̀ p�
 - Àkọsílẹ̀ ìlànà: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
 - Àkọlé ZIP: [PR #1243](https://github.com/zcash/zips/pull/1243)
 - Àkọsílẹ̀ API: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
-- Itọsọna Awọn oniṣẹ: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+- Itọsọna Awọn oniṣẹ: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

@@ -150,7 +150,7 @@ Zebra와 Zallet은 일반적으로 설정 중 CPU 부담이 zcashd를 컴파일�
 
 ## 추가 리소스
 - [Zebra Book](https://zebra.zfnd.org) — 공식 Zebra 문서
-- [Zallet Book](https://zcash.github.io/wallet) — 공식 Zallet 문서
+- [Zallet Book](https://zcash.github.io/zallet/) — 공식 Zallet 문서
 - [zcashd End-of-Support 공지](https://z.cash/support/zcashd-deprecation)
 
 ---
