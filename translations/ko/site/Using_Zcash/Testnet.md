@@ -40,7 +40,7 @@ Zcash는 주기적으로 핵심 프로토콜을 업데이트(예: NU5, NU6). 테
 
 #### 3. 노드 구현 테스트
 
-Zcash는 여러 노드 소프트웨어 구현을 지원합니다 - `zcashd` 및 **Zebra**(Zcash Foundation이 유지하는 Rust 기반 노드). 테스트넷은 실제 조건에서 노드를 테스트할 수 있도록 하여 재정적 위험 없이 가능하게 합니다.
+Zcash에서 유지 관리되는 노드는 **Zebra**(Zcash Foundation이 유지 관리하는 Rust 기반 노드)이며 유지 관리되는 지갑은 [Zallet](https://github.com/zcash/zallet)입니다. 최초의 노드 구현인 `zcashd`는 2026년 7월 18일 자동 지원 종료 정지에 도달하여 더 이상 유지 관리되지 않습니다 - [zcashd에서 Zebra 및 Zallet으로의 마이그레이션 가이드](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)를 참조하세요. 테스트넷을 사용하면 재정적 위험 없이 실제 조건에서 노드를 테스트할 수 있습니다.
 
 노드 개발자는 다음과 같은 작업을 수행할 수 있습니다:
 

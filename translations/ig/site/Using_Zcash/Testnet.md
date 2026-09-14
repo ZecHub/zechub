@@ -33,14 +33,14 @@ A wallet developer can connect software to a Testnet RPC endpoint and simulate t
 
 #### 2. Ịnwale nkwalite netwọk
 
-Zcash upgrades its core protocol periodically (e.g., Nu5, Nu6). Testnet activates new upgrades **before Mainnet**, allowing developers and the community to identify and fix bugs.
+Zcash upgrades its core protocol periodically (e.g., NU6.1, NU6.2 and Ironwood). Testnet activates new upgrades **before Mainnet**, allowing developers and the community to identify and fix bugs.
 
 **Ihe atụ:** 
 A new consensus rule or transaction type is first pushed to Testnet. After successful testing, it activates on Mainnet at a predetermined block height.
 
 #### 3. Ule Node Mmejuputa
 
-Zcash na-akwado ọtụtụ mmejuputa ngwanrọ nke node - `zcashd` and **Zebra** (Rust-based node maintained by the Zcash Foundation). Testnet enables testing of nodes in real conditions without financial risk.  
+Nódù Zcash a na-elekọta bụ **Zebra** (nódù dabere na Rust nke Zcash Foundation na-elekọta) ma obere akpa ego a na-elekọta bụ [Zallet](https://github.com/zcash/zallet). `zcashd`, nke bụ nódù mbụ, ruru nkwụsị nkwado akpaaka na 18 Julaị 2026, a naghị elekọta ya ọzọ - lee [ntuziaka ịkwaga site na zcashd gaa Zebra na Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet na-enye ohere ịnwale nódù n'ọnọdụ n'ezie na-enweghị ihe egwu ego.
 
 Ndị na-emepe emepe nwere ike:
 
