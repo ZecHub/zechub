@@ -94,6 +94,8 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 
 **Zallet 仅导入 Sapling extended full viewing keys。** 它不会导入 `uview…` unified full viewing key，尽管它可以导出这种密钥。若要交出对整个 unified 账户的读取权限，请从 Zallet 导出 UFVK，并将其导入一个接受 unified keys 的 wallet，例如 Zkool。
 
+若要将导入的密钥转换为包含交易 ID（txid）、手续费和备注的完整交易历史文件，请参阅[从 Viewing Key 导出交易历史](/guides/viewing-key-transaction-export)。
+
 ## 有哪些变化，以及不必再寻找什么
 
 如果你遵循的是这个页面的旧版本，或者它的某个译本，那么有三种方式现在已经不可用了。

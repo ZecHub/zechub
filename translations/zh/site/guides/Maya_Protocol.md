@@ -73,7 +73,7 @@ ILP 的保障期限取决于 ASSET 和 $CACAO 的表现。如果 ASSET 表现更
 
 [Asgardex](https://www.asgardex.com/)：Keystore、Ledger
 
-[DefiSpot](https://www.defispot.com/t)：XDEFI、Metamask、Keplr、Phantom、Walletconnect、Leap Wallet、Argeentx、Braavos、Trustwallet 和 Rabby。
+DefiSpot：已下线，其域名无法解析。
 
 [XDEFI](https://www.xdefi.io/)：一款多生态自托管钱包，支持 30+ 原生区块链，以及所有 EVM 和 Cosmos 链，包括 Bitcoin、Ethereum、Solana、THORChain、Maya Protocol、TRON 等。
 
