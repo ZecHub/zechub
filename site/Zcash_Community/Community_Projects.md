@@ -103,7 +103,7 @@ Discord bot providing seamless and secure access to Zcash transactions.
 
 ### ZODL
 Flagship Zcash wallet from ZODL (formerly Zashi). Available on iOS and Android. Supports shielded ZEC and NU7 coinholder voting.  
-[Visit](https://zodl.app/)
+[Visit](https://zodl.com/)
 
 ### Noir Wallet
 Privacy-focused Zcash wallet designed for simple and private ZEC transactions.  
@@ -149,7 +149,7 @@ Privacy-first Zcash blockchain explorer. Built with Next.js 15, TypeScript, and 
 
 ### Exblo
 Block explorer designed for testing transactions on the Zcash Testnet.  
-[Visit](https://testnet.exblo.app/)
+[Visit](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Public transparency dashboard for the Zcash Dev Fund, including ZCG and FPF grant accounting, the Lockbox, governance, and disbursements.  
@@ -218,7 +218,7 @@ Browser extension that converts fiat currency prices to ZEC in real time as you 
 
 ### Shielded Wall
 Anonymous confession platform powered by Zcash privacy.  
-[Visit](https://shieldedwall.org/)
+[Visit](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Disposable email inbox paid for with shielded ZEC.  
