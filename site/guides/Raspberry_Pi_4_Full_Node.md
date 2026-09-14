@@ -150,7 +150,7 @@ Zebra and Zallet are generally lighter on CPU during setup than compiling zcashd
 
 ## Additional resources
 - [Zebra Book](https://zebra.zfnd.org) — official Zebra documentation
-- [Zallet Book](https://zcash.github.io/wallet) — official Zallet documentation
+- [Zallet Book](https://zcash.github.io/zallet/) — official Zallet documentation
 - [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
 
 ---
