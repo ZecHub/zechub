@@ -15,7 +15,6 @@ Hier sind einige der aktiven Blogs:
 | Thumbs' Update            | Regelmäßige Ökosystem-Updates und Einblicke                      | [Besuchen ->](https://thumbsup.substack.com) |
 | roomatemusing             | Gedanken und Community-Inhalte                                   | [Besuchen ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog             | Technischer Blog mit Fokus auf Zcash-Entwicklung und Tools       | [Besuchen ->](https://blog.nerdbank.net/) |
-| Thor Likes                | Nachrichten, Meinungen und Kommentare zu Zcash                   | [Besuchen ->](https://www.thorlikes.com/) |
 | ZecMec                    | Auf Zcash fokussierte Artikel auf Medium                         | [Besuchen ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter            | Ausführliche Artikel und Newsletter                              | [Besuchen ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)    | Hochkarätige Interviews und Inhalte zum Thema Privatsphäre       | [Besuchen ->](https://naomibrockwell.com/highprofileinterviews) |
