@@ -73,7 +73,7 @@ Aquí tienes una lista de algunos de los servicios que ya son compatibles con Ma
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-[DefiSpot](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet y Rabby.
+DefiSpot: ya no está en línea, su dominio no resuelve.
 
 [XDEFI](https://www.xdefi.io/): una billetera de autocustodia multiecosistema con soporte para más de 30 blockchains nativas, y todas las cadenas EVM y Cosmos, incluyendo Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON y más.
 
