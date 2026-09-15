@@ -15,10 +15,9 @@
 | Thumbs' Update             | 정기적인 생태계 업데이트와 인사이트                   | [방문 ->](https://thumbsup.substack.com) |
 | roomatemusing              | 단상과 커뮤니티 콘텐츠                            | [방문 ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | Zcash 개발 및 도구에 초점을 맞춘 기술 블로그    | [방문 ->](https://blog.nerdbank.net/) |
-| Thor Likes                 | Zcash 관련 뉴스, 의견 및 해설                  | [방문 ->](https://www.thorlikes.com/) |
 | ZecMec                     | Medium에 게시된 Zcash 중심 기사         | [방문 ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter             | 심층 기사와 뉴스레터                         | [방문 ->](https://iansagstetter.substack.com/) |
-| Naomi Brockwell (NBTV)     | 프라이버시에 관한 High-profile 인터뷰와 콘텐츠           | [방문 ->](https://naomibrockwell.com/highprofileinterviews) |
+| Naomi Brockwell (NBTV)     | 프라이버시에 관한 저명 인사 인터뷰와 콘텐츠           | [방문 ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | 창의적이고 커뮤니티 주도의 Zcash 콘텐츠              | [방문 ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Zcash 핵심 개발자의 기술 관련 글             | [방문 ->](https://words.str4d.xyz/) |
 | CipherScan Weekly          | Zcash 블록체인 분석을 다루는 주간 블로그 게시물    | [방문 ->](https://cipherscan.app/) |

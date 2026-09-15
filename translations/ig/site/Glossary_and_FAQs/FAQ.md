@@ -1,80 +1,80 @@
-# Ajụjụ Ndị A Na-ajụkarị
+# Ajụjụ Ndị A Na-ajụkarị Banyere Ya
 
-Ndepụta nke ajụjụ ndị a na-ajụkarị banyere Zcash. Maka nchọpụta nsogbu nke onye ahịa Zcash, biko lee akwụkwọ ntuziaka nchọpụta ọhụhụ](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+Ndepụta nke ajụjụ ndị kachasị banyere Zcash. Maka nchọpụta nsogbu onye ahịa Zcash, biko lee akwụkwọ akụkọ ahụ na-ekwu maka ya . [akwụkwọ ntuziaka nchọpụta nsogbu gọọmentị.](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
-### Nchọgharị ngwa ngwa
-[Gịnị bụ Zcash?](#what-is-zcash) [Olee otu esi enweta Zcash?](#acquire) [Ihe dị iche na cryptocurrencies ndị ọzọ?](#difference) [Nchịkwa usoro iwu?](#governance) [Ebee ka azụmahịa m dị?](#transaction) [Zcash ọ bụ n'ezie nkeonwe?](#privacy) [Echiche Ụgha Ndị A Na-enwekarị](#misconceptions)
+### Nchọgharị Ngwa ngwa
+[Gịnị bụ Zcash?](#what-is-zcash) | [Etu esi enweta Zcash?](#how-can-i-acquire-zcash) | [Ọdịiche dị na cryptocurrencies ndị ọzọ?](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [Usoro iwu na-achịkwa?](#how-is-the-zcash-protocol-governed) | [Ebee ka azụmahịa m dị?](#where-is-my-transaction) | [Zcash ọ bụ ihe nzuzo n'ezie?](#is-zcash-really-private) | [Ihe Ndị Mmadụ Na-aghọtahie Banyere Bible](#a-few-common-misconceptions)
 
 ---
 
 ## Gịnị bụ Zcash?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash bụ ego dijitalụ nwere ngwa ngwa, azụmahịa nzuzo na obere ụgwọ. Nzuzo bụ isi ihe dị na Zcash. Ọ bụ onye ọsụ ụzọ iji ihe akaebe nke ihe ọmụma efu iji zoo azụmahịa niile. 
+Zcash bụ ego dijitalụ nwere ngwa, azụmahịa nzuzo na ụgwọ dị ala. Nzuzo bu isi ihe nke Zcash. Ọ malitere iji nyocha ọhụụ-ihe ọmụma maka izo ya ezo niile azụmahịa. 
 
-Ọtụtụ obere akpa ego dị maka ịkwụ ụgwọ ngwa ngwa, mkpanaka, nchekwa na nkeonwe: [Mobile Wallets](https://z.cash/wallets/)
+Ọtụtụ obere akpa ego dị maka ịkwụ ụgwọ ngwa-ngwa, mkpanaka, nchekwa na nkeonwe: [Wallets ndị a na-ebugharị ebugharị](https://z.cash/wallets/)
 </div>
 
 ## Kedụ ka m ga-esi nweta Zcash?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Ị nwere ike ịzụta ZEC na cryptocurrency [exchanges](https://z.cash/exchanges).  
+Ị nwere ike iji cryptocurrency zụta ZEC. [mgbanwe ego](https://z.cash/exchanges).  
 I nwekwara ike ịzụta Zcash peer-to-peer ma ọ bụ nweta ya site na igwu ala.
 </div>
 
 ## Kedu ihe dị iche n'etiti Zcash na cryptocurrencies ndị ọzọ?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash bụ ihe nzuzo karịa Bitcoin ma ọ bụ Ethereum. Ọ na-enye oge ngọngọ ngwa ngwa (75 sekọnd), ụgwọ dị ala, na nkwalite oge niile. 
+Zcash bụ ihe nzuzo karịa Bitcoin ma ọ bụ Ethereum. Ọ na-enye oge ngọngọ ngwa ngwa (75 sekọnd), ụgwọ dị ala, yana nkwalite mgbe niile. 
 
-Ndị ọrụ nwere ike ịhọrọ n'etiti ** Transparent ** ma ọ bụ ** Shielded ** azụmahịa.](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html).
+Ndị ọrụ nwere ike ịhọrọ n'etiti ** Transparent** ma ọ bụ ** Shielded** azụmahịa. Maka ozi ndị ọzọ lee [Ebe E Chebere Ihe Ndị Dị n'Eluigwe na Ala](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html).
 </div>
 
-## Kedụ ka esi achịkwa usoro Zcash?
+## Kedụ ka a ga-esi chịkwaa usoro Zcash?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-A na-achịkwa usoro ahụ site na usoro ** Zcash Improvement Proposal (ZIP) ** Onye ọ bụla nwere ike itinye akwụkwọ ZIP.
+Usoro a na-achịkwa usoro **Zcash Improvement Proposal (ZIP) process. Onye ọ bụla nwere ike itinye akwụkwọ ZIP nke ọma. Ndị obodo ahụ kwurịtara ihe ndị e dere ede ma nabata ha maọbụ jụ ya site n'aka ndị editọ ZIP:
 
-- [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company) 
-- [Deirdre Connolly](https://twitter.com/durumcrustulum) (Zcash Foundation)
+- [Daira Hopwood .](https://twitter.com/feministPLT) (Electric Coin Company)  
+- [Deirdre Connolly - Onye na-eme ihe nkiri a.](https://twitter.com/durumcrustulum) (Zcash Foundation)
 
-A na-ede mkpebi n'ime nkọwapụta ma kwado ya na ntanetị mgbe netwọk ahụ nakweere ha.
+A na-ede mkpebi n'ime nkọwapụta ma kwado ya mgbe netwọk ahụ nabatara ha.
 </div>
 
 ## Ebee ka azụmahịa m dị?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Mbụ gụọ [ntuziaka anyị iji gbochie ndị na-eme nchọpụta](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629)Mgbe ahụ lelee [Zcash Block Explorer](https://zcashblockexplorer.com).  
+Ịgụ nke mbụ . [akwụkwọ anyị na-eduzi ndị nchọpụta mgbochi.](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629)Ya mere , lelee ya . [Zcash Block Explorer (Nchịkọta nke ihe nchọgharị)](https://zcashblockexplorer.com).  
 
-Transactions expire after approximately 25 minutes (20 blocks) and funds are returned automatically.  
+Azụmahịa na-agwụ mgbe ihe dị ka nkeji 25 (20 blocks) ma a ga-eweghachi ego ahụ n'onwe ya. 
 
 ** Ihe kpatara azụmahịa nwere ike ọ gaghị apụta:**
-- Mfu nke njikọ
-- Ụgwọ azụmahịa dị oke ala
-- Ntinye aka na netwọk
-- Ọtụtụ ihe ntinye na-ekpuchi (nha buru oke ibu)
+- Ịkwụsị njikọ.
+- Ụgwọ azụmahịa dị oke ala.
+- Ntinye aka na netwọkụ
+- Ọtụtụ ntinye uzo (nha buru oke ibu)
 
-**Ndụmọdụ iji nwee ihe ịga nke ọma:**
+**Atụmatụ iji nwee ihe ịga nke ọma:**
 - Jiri njikọ kwụsiri ike
-- Kwụọ ụgwọ ọkọlọtọ (ma ọ bụ nke ka elu ma ọ bụrụ na ị ga-ebute ụzọ)
-- Chere ma gbalịa ọzọ mgbe e mesịrị
-- Jiri obere ntinye iji mee ka azụmahịa ahụ dị obere
+- Kwụọ ụgwọ a na-akwụkarị (ma ọ bụ nke ka elu ma e nwee ihe ndị ọzọ ị ga-ebu ụzọ mee)
+- Chere ma nwaa ọzọ mgbe e mesịrị .
+- Jiri obere ntinye iji mee ka azụmahịa ahụ dị ntakịrị.
 </div>
 
 ## Zcash ọ bụ n'ezie nkeonwe?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-**Ee.** Zcash na-ezochi onye zitere, ego, na data nnata maka azụmahịa echekwara. 
+**Ee.** Zcash na-ezochi onye zitere, ego, yana data nnata maka azụmahịa echekwara. 
 
 Zcash anaghị eme **not**:
-- Encrypt multisignature azụmahịa (FROST mwekota na-echere)
-- Chebe megide correlations na uzo azụmahịa
+- Zoro azụmahịa ọtụtụ mbinye aka (njikọ FROST na-echere)
+- Chebe megide mmekọrịta na azụmahịa ndị doro anya.
 - Zoro adreesị IP
 
-[Ihe Ndị Dị n'Ebe E Chebere Ihe Ndị Dị Ndụ](https://electriccoin.co/blog/shielded-ecosystem)
+Ihe ndị ọzọ ị ga-agụ: [Ebe E Chebere Ihe Ndị Dị n'Eluigwe na Ala](https://electriccoin.co/blog/shielded-ecosystem)
 </div>
 
-## Echiche ụfọdụ na-ezighị ezi ndị a na-enwekarị
+## Ihe ndị na-abụghị eziokwu ụfọdụ a na-ekwukarị banyere ya
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
   <table className="w-full border-collapse rounded-2xl overflow-hidden">
@@ -108,4 +108,4 @@ Zcash anaghị eme **not**:
 ---
 
 **Emelitere ikpeazụ:** Machị 2026 
-**Chọrọ inye aka?** [Dezie ibe a na GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)
+**Ị chọrọ inye aka?** [Dezie ibe a na GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

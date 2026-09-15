@@ -99,12 +99,12 @@ L'inclusione finanziaria, un tempo faro di speranza, affronta le ombre di una po
 
 ## Risorse: una mappa per l'esploratore digitale
 
-Per chi si avventura nel territorio inesplorato delle CBDC, le risorse diventano la tua bussola.
+Per chi si avventura nel territorio inesplorato delle CBDC, le risorse diventano la propria bussola.
 1. La Banca dei Regolamenti Internazionali ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. il Fondo Monetario Internazionale ([IMF](https://www.imf.org/en/About))
-3. Paper di ricerca ([paper](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
-4. Riviste accademiche ([journal](https://www.bis.org/publ/work976.pdf))
-5. Articolo del C.E.I  ([Article](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
+2. il Fondo Monetario Internazionale ([FMI](https://www.imf.org/en/About))
+3. Documenti di ricerca ([documento](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
+4. Riviste accademiche ([rivista](https://www.bis.org/publ/work976.pdf))
+5. Articolo del C.E.I  ([Articolo](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
 
 Queste risorse offrono uno sguardo sul panorama in evoluzione, fornendo approfondimenti, ricerche e aggiornamenti sull'odissea digitale.
 

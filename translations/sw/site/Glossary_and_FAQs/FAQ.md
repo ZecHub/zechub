@@ -1,39 +1,39 @@
 # Maswali Yanayoulizwa Mara Nyingi
 
-Orodha ya maswali ya kawaida kuhusu Zcash. Kwa utatuzi wa tatizo la mteja Zcash, tafadhali angalia [rasmi utatuzaji mwongozo](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+Orodha ya maswali ya kawaida kuhusu Zcash. Kwa utatuzi wa matatizo mteja Zcash, tafadhali angalia makala juu yake katika ukurasa huu: "Zcash". [rasmi troubleshooting mwongozo](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
-### Navigation ya Haraka
-[Zcash ni nini?](#what-is-zcash) [Jinsi ya kupata Zcash?](#acquire) [Tofauti kutoka cryptocurrencies nyingine?](#difference) [Utawala wa itifaki?](#governance) [Uwekezaji wangu uko wapi?](#transaction) [Je, Zcash ni ya kibinafsi kweli?](#privacy) [Dhana potofu za kawaida](#misconceptions)
+### Navigation ya haraka
+[Zcash ni nini?](#what-is-zcash) | [Jinsi ya kupata Zcash?](#how-can-i-acquire-zcash) | [Tofauti kutoka cryptocurrencies nyingine?](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [Utawala wa itifaki?](#how-is-the-zcash-protocol-governed) | [Mkataba wangu uko wapi?](#where-is-my-transaction) | [Je, Zcash ni ya kibinafsi?](#is-zcash-really-private) | [Maoni yasiyo sahihi kuhusu ndoa](#a-few-common-misconceptions)
 
 ---
 
 ## Zcash ni nini?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash ni sarafu ya dijiti na shughuli za haraka, za siri na ada ya chini. Faragha ni sifa kuu ya Zcash. Ilianzisha utumiaji wa uthibitisho wa ujuzi wa sifuri ili kufuta shughuli zote. 
+Zcash ni sarafu ya dijiti na shughuli za haraka, siri na ada ndogo. Faragha ndio sifa kuu ya Zcash. Ilianzisha matumizi ya uthibitisho wa maarifa-sifa ili kupachika manunuzi yote. 
 
-Pochi kadhaa zinapatikana kwa malipo ya papo hapo, ya rununu, salama na ya kibinafsi: [Pochi za rununu](https://z.cash/wallets/)
+Pochi kadhaa zinapatikana kwa malipo ya papo hapo, simu za rununu, salama na binafsi: [Wallets za Mkono](https://z.cash/wallets/)
 </div>
 
-## Ninawezaje kupata Zcash?
+## Ninaweza kupataje Zcash?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Unaweza kununua ZEC juu ya cryptocurrency [mabadiliko](https://z.cash/exchanges).  
+Unaweza kununua ZEC kwa cryptocurrency [kubadilishana](https://z.cash/exchanges).  
 Unaweza pia kununua Zcash peer-to-peer au kupata kwa madini.
 </div>
 
 ## Ni tofauti gani kati ya Zcash na sarafu nyingine za siri?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash ni kimsingi zaidi binafsi kuliko Bitcoin au Ethereum. Inatoa muda wa haraka wa kuzuia (sekunde 75), ada ya chini, na upgrades mara kwa mara. 
+Zcash kimsingi ni zaidi binafsi kuliko Bitcoin au Ethereum. Inatoa muda wa haraka (sekunde 75), ada ya chini, na upgrades mara kwa mara. 
 
-Watumiaji wanaweza kuchagua kati ya **Transparent** au **Shielded** shughuli. Kwa habari zaidi tazama [A Shielded Ecosystem](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html).
+Watumiaji wanaweza kuchagua kati ya **Transparent** au **Shielded** shughuli. Kwa habari zaidi tazama [Mazingira Yenye Kuhifadhiwa Vizuri](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html).
 </div>
 
 ## Je, ni jinsi gani Zcash itifaki inaongozwa?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-The protocol is governed by the **Zcash Improvement Proposal (ZIP)** process. Anyone can submit a draft ZIP. Drafts are debated by the community and accepted or rejected by the ZIP editors:
+Itifaki inaongozwa na mchakato wa ** Zcash Uboreshaji Pendekezo (ZIP) **. Mtu yeyote anaweza kuwasilisha rasimu ya ZIP. Rasimu ni kujadiliwa kwa jamii na kukubalika au kukataliwa na mhariri ZIP:
 
 - [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)  
 - [Deirdre Connolly](https://twitter.com/durumcrustulum) (Zcash Foundation)
@@ -44,37 +44,37 @@ Maamuzi ni yaliyoandikwa katika vipimo na kuthibitishwa juu ya mnyororo wakati m
 ## Mkataba wangu uko wapi?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Kwanza kusoma [mwongozo wetu kuzuia wavumbuzi](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629)Kisha kuangalia [Zcash Block Explorer](https://zcashblockexplorer.com).  
+Kusoma kwanza [mwongozo wetu kuzuia wavumbuzi](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629)Kisha angalia . [Zcash Block Explorer (Mtafutaji wa Hifadhi)](https://zcashblockexplorer.com).  
 
-Shughuli expire baada ya takriban dakika 25 (20 vitalu) na fedha ni kurudi moja kwa moja. 
+Shughuli expire baada ya takriban dakika 25 (block 20) na fedha ni kurudi moja kwa moja. 
 
-** Sababu za kawaida shughuli inaweza kuonekana: **
-- Kupoteza muunganisho
-- Ada ya shughuli ya chini sana
-- Network overload
-- Mengi ya pembejeo uwazi (ukubwa kubwa mno)
+** Sababu za kawaida shughuli inaweza kuonekana:**
+- Kupoteza uhusiano wa mawasiliano
+- Ada ya shughuli ni chini sana.
+- Network overload (mzigo wa juu)
+- Wengi mno pembejeo uwazi (ukubwa kubwa sana)
 
 ** Vidokezo vya kufanikiwa:**
-- Tumia uhusiano thabiti
+- Tumia uhusiano imara
 - Lipa ada ya kawaida (au zaidi kwa kipaumbele)
-- Subiri na ujaribu baadaye
-- Kutumia pembejeo chache kuweka shughuli ndogo
+- Subiri na ujaribu baadaye.
+- Matumizi pembejeo chache kuweka shughuli ndogo
 </div>
 
-## Je, kweli Zcash ni ya Kibinafsi?
+## Je, Zcash ni ya Kibinafsi?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-**Ndiyo.** Zcash encrypts mtumaji, kiasi, na data mpokeaji kwa ajili ya shughuli za ulinzi. 
+**Ndiyo.** Zcash encrypts mtumaji, kiasi cha fedha na data ya mpokeaji kwa ajili ya shughuli za ulinzi. 
 
 Zcash haina **not**:
 - Encrypt multisignature shughuli (FROST ushirikiano inasubiri)
 - Kulinda dhidi ya uhusiano na shughuli uwazi
 - Ficha anwani za IP
 
-Maelezo ya Ziada: [Ecosystem Inayolindwa](https://electriccoin.co/blog/shielded-ecosystem)
+Kusoma zaidi: [Mazingira Yenye Kuhifadhiwa Vizuri](https://electriccoin.co/blog/shielded-ecosystem)
 </div>
 
-## Mawazo fulani yasiyo ya kweli
+## Maoni yasiyo sahihi kuhusu jambo hilo
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
   <table className="w-full border-collapse rounded-2xl overflow-hidden">
@@ -108,4 +108,4 @@ Maelezo ya Ziada: [Ecosystem Inayolindwa](https://electriccoin.co/blog/shielded-
 ---
 
 ** Mwisho updated:** Machi 2026 
-**Unataka kuchangia?** [Edit ukurasa huu kwenye GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)
+**Want kuchangia?** [Hariri ukurasa huu kwenye GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

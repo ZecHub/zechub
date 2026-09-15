@@ -149,9 +149,9 @@ zallet -d /mnt/zcash-data/zallet help
 Zebra और Zallet setup के दौरान CPU पर आम तौर पर zcashd compile करने की तुलना में हल्के हैं, क्योंकि आप pre-built binaries/containers चला रहे हैं। 4 GB RAM एक उचित शुरुआती बिंदु है; `htop` से monitor करें और यदि भारी swapping दिखे तो 8 GB Pi 4 variant पर विचार करें।
 
 ## अतिरिक्त संसाधन
-- [Zebra Book](https://zebra.zfnd.org) — official Zebra documentation
-- [Zallet Book](https://zcash.github.io/zallet/) — official Zallet documentation
-- [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
+- [Zebra पुस्तक](https://zebra.zfnd.org) — आधिकारिक Zebra दस्तावेज़ीकरण
+- [Zallet पुस्तक](https://zcash.github.io/zallet/) — आधिकारिक Zallet दस्तावेज़ीकरण
+- [zcashd समर्थन-समाप्ति सूचना](https://z.cash/support/zcashd-deprecation)
 
 ---
 

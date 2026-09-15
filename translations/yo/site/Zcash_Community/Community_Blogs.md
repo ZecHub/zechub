@@ -15,7 +15,6 @@ James Katz: Àwọn ìwé àti èrò ti ara ẹni lórí Zcash àti ìpamọ́. 
 | Thumbs' Update             | Regular ecosystem updates and insights                   | [Ìbẹ̀wò ->](https://thumbsup.substack.com) |
 | roomatemusing              | Musings and community content                            | [Ìbẹ̀wò ->](https://free2z.cash/roommatemusing) |
  NerdBank Blog. Ìwé-ìmọ̀ ẹ̀rọ tí ó dá lórí ìdàgbàsókè àti àwọn irinṣẹ́ Zcash [Ìbẹ̀wò ->](https://blog.nerdbank.net/) |
-Thor fẹ́ràn Ìròyìn, èrò àti àlàyé lórí Zcash. [Ìbẹ̀wò ->](https://www.thorlikes.com/) |
 ZecMec Àwọn àpilẹ̀kọ tó dá lórí Zcash ní Medium. [Ìbẹ̀wò ->](https://zecmec21.medium.com/) |
 Ian Sagstetter: Àwọn àpilẹ̀kọ tó jinlẹ̀ àti ìwé ìròyìn. [Ìbẹ̀wò ->](https://iansagstetter.substack.com/) |
 Naomi Brockwell (NBTV) Àwọn ìfòhùnwánilẹ́nuwò tó gbajúmọ̀ àti àwọn ohun tí ó wà nínú rẹ̀ nípa àṣírí ara ẹni. [Ìbẹ̀wò ->](https://naomibrockwell.com/highprofileinterviews) |

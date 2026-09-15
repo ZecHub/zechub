@@ -94,6 +94,8 @@ Arụmụka nke abụọ bụ iwu nyocha ọzọ: `"whenkeyisnew"` (n'ịghara i
 
 **Zallet na-ebubata Sapling gbasaa igodo nlele zuru oke naanị.** Ọ gaghị ebubata a. `uview…` iji nyefee ohere ịgụ na akaụntụ niile, wepụ UFVK site na Zallet ma bubata ya n'ime obere akpa nke nabatara igodo dị iche iche, dịka Zkool.
 
+Iji gbanwee igodo ebubata n'ime faịlụ akụkọ azụmahịa zuru ezu, na txids, ụgwọ na memos, lee [Exporting Transaction History from a Viewing Key](/guides/viewing-key-transaction-export).
+
 ## Ihe gbanwere, na ihe ị ga-akwụsị ịchọ.
 
 Ọ bụrụ na i sorola nsụgharị ochie nke ibe a, maọbụ ntụgharị ya, ụzọ atọ anaghịzi arụ ọrụ.

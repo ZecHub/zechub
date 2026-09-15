@@ -106,7 +106,7 @@
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
-- Àwọn Ẹrọ: Àpótí Ìránṣẹ́
+- Àwọn Ẹrọ: Àpótí Ìsọfúnni
 - Àwọn Ẹ̀rọ: Windows Linux macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Ironwood
@@ -128,7 +128,7 @@
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
-- Àwọn Ẹrọ: Àpótí Ìsọfúnni
+- Àwọn Ẹrọ: Àpótí Ìránṣẹ́
 - Àwọn Ẹ̀rọ: Windows Linux macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Ironwood
@@ -283,7 +283,7 @@
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Àwọn ohun èlò: Wẹ́busaiti  Dísíkòpópù
 - Ẹrọ isẹ: Àwòrán Windows  MacOS
-- Ìrànlọ́wọ́ fún àpamọ̀ owó: Àkọlé ìkókó. Ètò àpamọ̀ owó tí ó wà níta. Adirẹsi gbígba. QR Code. Ẹrọ-ìpèsè
+- Ìrànlọ́wọ́ fún àpamọ̀ owó: Àkọlé ìkókó. Ètò àpamọ̀ owó tí ó wà níta. Adirẹsi gbígba. QR Code. Ẹrọ-ìmọ̀lára
 - Pools: Sapling | Transparent
 - Àwọn Ànímọ̀: Ọpọ owó ẹyọ  Near Intents Maya DEX No KYC Non-Custodial Web App Desktop App Shielded ZEC AnyPay
 - Igi irin: Ó ti wà ní sẹpẹ́.
@@ -346,7 +346,7 @@
 
 ## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
-- Àwọn Ẹrọ: Àpótí Ìránṣẹ́
+- Àwọn Ẹrọ: Àpótí Ìsọfúnni
 - Àwọn Ẹ̀rọ: Windows Linux macOS
 - Ìrànlọ́wọ́ àpamọ̀: Àkọlé-ìmọ̀  Òkó ìnáwó  Ọrọ ìdánilójú  Èsì afẹyinti / Ṣíṣànàpòsí Aṣọ àpamọ̀
 - Pools: Transparent | Sapling | Ironwood | Sprout

@@ -131,3 +131,9 @@ pt/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f33
 ru/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:a6581f70f472ffd9762523ada250c0b551f1f771f6817a3ab80558c7b52bbe75
 tr/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:ef91971ac3ef3b9469aa7a4623cf6fd32a386f8c848e45c5e98e87283caa0632
 zh/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:0a3f50d5a902f52cef782599b093dd97d2186387f3c252e8524cf57a9f785cc8
+
+# Verified 2026-09-15. The English edit dropped a dead Netlify converter link and
+# linked zip-320 to its reference implementation. The Italian page already carried
+# both changes — no netlify.app link, and the zips.z.cash/zip-0320 link present —
+# matching de/fr/es, so it is current for this English and only its record lagged.
+it/Using_Zcash/Transparent_Exchange_Addresses.md  sha256:fe0254bf6be14512e4f15a5ab37a27e05d247b10e8cddfd3cecaeafc2bc2685a  sha256:65f9ae56b8cb2272733e0291337c8d9a8266ddaa01b54ab33ed79f54c944706f

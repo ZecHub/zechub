@@ -15,7 +15,6 @@
 | Thumbs' Update             | 定期发布生态更新与见解                   | [访问 ->](https://thumbsup.substack.com) |
 | roomatemusing              | 随想与社区内容                            | [访问 ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | 聚焦 Zcash 开发与工具的技术博客    | [访问 ->](https://blog.nerdbank.net/) |
-| Thor Likes                 | 关于 Zcash 的新闻、观点与评论                  | [访问 ->](https://www.thorlikes.com/) |
 | ZecMec                     | 发布在 Medium 上、聚焦 Zcash 的文章                         | [访问 ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter             | 深度文章与新闻通讯                         | [访问 ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)     | 聚焦隐私的高规格访谈与内容           | [访问 ->](https://naomibrockwell.com/highprofileinterviews) |

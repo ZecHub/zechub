@@ -1,85 +1,85 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/zimppy.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zimppy.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zimppy.xyz - Àwọn ojúewé wọ̀nyí jápọ̀ mọ́
+# Zimppy.xyz (ì í ì ë ¤)
 
 ## TL;DR
 
-- **Zimppy** jẹ́ ìlé-iṣẹ́ ìsanwó tí ó ní ìpamọ́ lákọ̀ọ́kọ́ fún àwọn aṣojú AI tí ó ń lo Àlàkalẹ̀ Ìsanwó Ẹ̀rọ (MPP) ti Zcash
-- ** Fi idogo kan silẹ** on-chain (~ 75 aaya), lẹhinna ṣe ** awọn ibeere lẹsẹkẹsẹ ti ko ni opin ** pẹlu ko si ibaraenisepo blockchain fun ibeere
-- Atilẹyin awọn sisanwo Zcash (Orchard) ** ti o ni aabo ni kikun  Oluranlowo, olugba, iye, ati memo gbogbo wọn ti paroko
-- Ṣiṣẹ pẹlu **TypeScript ati Rust SDKs** fun iṣọpọ ti o rọrun sinu awọn paipu AI ati awọn olupin API
-- O tayọ fun awọn API LLM, awọn ọja data, awọn olupin irinṣẹ MCP, ati eyikeyi ọran lilo isanwo M2M
+- **Zimppy** jẹ́ ìlé-iṣẹ́ tí ó ń sanwó fún àwọn aṣojú AI nípa lílo Àlàkalẹ̀ Ìsanwó Ẹrọ (MPP) ti Zcash.
+- ** Fi ẹyọ kan silẹ** lori-ṣini (~75 aaya), lẹhinna ṣe awọn ibeere lẹsẹkẹsẹ ti ko ni opin pẹlu laisi ibaraenisepo blockchain fun ibere kọọkan.
+- Atilẹyin ** ni kikun idaabobo Zcash (Orchard)** awọn sisanwo  Oluranlowo, olugba, iye ati memo gbogbo wọn ti wa ni encrypted
+- Ṣiṣẹ pẹlu ** TypeScript ati Rust SDKs** fun iṣọpọ ti o rọrun sinu awọn paipu AI ati awọn olupin API
+- Ó dára fún àwọn API LLM, ọjà ìsọfúnni, àwọn ààrò ohun èlò MCP** àti gbogbo òwò lílo owó-sí-ọ̀fẹ́ (m2m)
 
 ---
 
-> **Zimppy** jẹ ọna isanwo Machine Payment Protocol (MPP) fun Zcash ti o ṣe atilẹyin fun awọn sisanwo ti o ni aabo ati ṣiṣan. Idogo lẹẹkan lori pq, lẹhinna ṣe awọn ibeere oluranlowo lẹsẹkẹsẹ ti ko ni opin pẹlu ko si ibaraenisepo pq fun ibeere.
+> **Zimppy** jẹ́ ìlànà ìsanwó Machine Payment Protocol (MPP) fún Zcash tí ó ń ṣe àtìlẹyìn àwọn owó ìdánwò àti ti ìmọ̀lára. Fi ẹyọ kan sílẹ̀ lórí-ìpín, lẹ́yìn náà kó o wá fi àìmọye ìbéèrè sí ẹni tó ni wọn láìṣe ìpèsè kankan nípasẹ̀ ọ̀nà ìbálòpọ̀ orí-ìbéèrè.
 
 ---
 
 ## Àkópọ̀ Àwọn Ohun Tó Wà Nínú Ìwé Yìí
 
 1. [Kí ni Zimppy.xyz?](#what-is-zimppyxyz)
-2. [Kí ló dé tí wọ́n fi ń sanwó fún àwọn aṣojú AI?](#why-shielded-payments-for-ai-agents)
-3. [Àdéhùn Ìsanwó Ẹ̀rọ (MPP) ](#machine-payment-protocol-mpp)
-4. [Bí Zimppy ṣe ń ṣiṣẹ́](#how-zimppy-works)
-   - [Àwọn Ìpàdé (A Rọ̀nà fún)](#sessions-recommended)
-   - [Ìṣàn](#streaming)
-   - [Ìdájọ́](#charge)
-5. [Láti lo Àpẹẹrẹ & Àpẹẹrẹ](#use-cases--examples)
-6. [Ìmúgbòòrò](#installation)
-7. [Bí wọ́n ṣe ń gbé àpò Zimppy kalẹ̀](#setting-up-the-zimppy-wallet)
-8. [Ìkójọpọ Zimppy](#integrating-zimppy--typescript-sdk)
-   - [Oríṣiṣẹ́ (Aṣọ́) ](#typescript-server--shielded)
-   - [Ojú-ìránṣẹ́ (Ọ̀nà tí ó ṣe kedere) ](#typescript-server--transparent)
-   - [Alejò](#typescript-client)
-9. [Ìkójọpọ Zimppy - Rust SDK](#integrating-zimppy--rust-sdk)
-   - [Ojú-iṣẹ (Axum)](#rust-server-axum)
-   - [Alejò](#rust-client)
-10. [Ìsọfúnni tó wà nínú CLI](#cli-reference)
-11. [Àwọn Ànímọ́ Pàtàkì](#key-features)
-12. [Àwòrán ilé](#architecture)
-13. [Àwọn Àpẹẹrẹ & Àfihàn](#examples--demos)
+2. [Kí nìdí tí a fi ń ṣe ìsanwó ààbò fún àwọn aṣojú AI?](#why-shielded-payments-for-ai-agents)
+3. [Àkọsílẹ̀ Ìsanwó Ẹrọ (MPP)](#machine-payment-protocol-mpp)
+4. [Bí Zimppy Ṣe Ń Ṣiṣẹ́](#how-zimppy-works)
+   - [Àwọn Ìpàdé (A Gbà Á Láyè)](#sessions-recommended)
+   - [Ìṣàn-ánáàrin](#streaming)
+   - [Owó ìtanràn](#charge)
+5. [Lo Awọn Ọran & Àpẹẹrẹ](#use-cases--examples)
+6. [Ìmúṣẹ ìtòlẹ́sẹẹsẹ náà](#installation)
+7. [Ṣiṣeto Iwe-owo Zimppy naa](#setting-up-the-zimppy-wallet)
+8. [Ṣíṣàtúnṣe Zimppy](#integrating-zimppy--typescript-sdk)
+   - [Olùpèsè (Aṣọ́)](#typescript-server--shielded)
+   - [Olùpèsè (Oríṣàn)](#typescript-server--transparent)
+   - [Olùgbéejáde](#typescript-client)
+9. [Ṣíṣàtúnṣe Zimppy - Rust SDK](#integrating-zimppy--rust-sdk)
+   - [Olùpèsè (Axum)](#rust-server-axum)
+   - [Olùgbéejáde](#rust-client)
+10. [Àkọlé CLI](#cli-reference)
+11. [Àwọn Ànímọ́ Pàtàkì Rẹ̀](#key-features)
+12. [Ìṣẹ̀dá ilé-ìkọ́lé](#architecture)
+13. [Àpẹẹrẹ & Awọn Demo](#examples--demos)
 
 ---
 
 ## Kí ni Zimppy.xyz?
 
-**Zimppy.xyz** is a privacy-first payment infrastructure designed specifically for AI agents and automated machine-to-machine (M2M) workflows. It implements the **Machine Payment Protocol (MPP)** using **Zcash** as its underlying currency, enabling both shielded (fully private) and transparent payment modes.
+Zimppy.xyz jẹ́ ìlé-iṣẹ̀ tí a ṣe fún ààbò àti owó ìdánwò, èyí ti a dá sílẹ̀ ní pàtó fun àwọn aṣojú AI ati iṣẹ́ ìṣiṣẹ́ alágbèéká (M2M). Ó ń lo ìlànà Ìsanwó Ẹrọ (MPP) ** nípa lílo Zcash** gẹ́gẹ́ bí owó rẹ̀ tó wà lábẹ́lẹ̀, ó sì gba kí wọ́n máa sanwó lọ́nà dídákẹ́tọ̀ọ́ (títìmọ́ pátápátá), àti ọ̀nà ìdájọ́ òkùnrùn.
 
-Unlike traditional blockchain payment systems, where every transaction is publicly visible on-chain, Zimppy is engineered around a session-based architecture that eliminates per-request latency while preserving cryptographic privacy. This makes it uniquely suited for AI agents that need to pay for APIs, data, compute, or AI tools programmatically, without leaking behavioral metadata.
+Ko dabi awọn ọna isanwo blockchain ibile, nibiti gbogbo iṣowo ti han gbangba lori pqp, Zimppy jẹ onimọ-ẹrọ ni ayika faaji orisun akoko kan eyiti o yọkuro idaduro fun ibeere lakoko mimu aṣiri crypto. Eyi ṣe pataki julọ fun awọn oluranlowo AI ti o nilo lati sanwo fun API, data, iṣiro tabi awọn irinṣẹ AI programmatically, laisi didasilẹ metadata ihuwasi .
 
 ### Àwọn Ànímọ́ Pàtàkì
 
-- ** Fi idogo kan silẹ** lori ẹwọn (~75 aaya fun ijẹrisi Zcash)
-- **Awọn ibeere lẹsẹkẹsẹ ti ko ni opin** lẹhin ṣiṣi akoko, ifọwọsowọpọ pq-awọn ibeere pq
-- ** Awọn sisanwo ti o ni aabo ** ṣe aṣiri oluranlowo, olugba, iye, ati akọsilẹ nipa lilo ilana Orchard ti Zcash
-- **Ìsanwó tí ó ṣe kedere** máa ń lo àdírẹ́sì T fún ìpèníjà kan láti dènà àtúnyẹ̀wò láì ní ìpamọ́ pátápátá
-- **Specification-Compliant**, HMAC-SHA256 challenges, RFC 9457 errors, `/.well-known/payment` ìwárí
+- ** Fi idogo kan** sori-agbegbe (~75 aaya fun idaniloju Zcash)
+- **Awọn ibeere lẹsẹkẹsẹ ti ko ni opin** lẹhin ṣiṣi akoko, ifọwọsowọpọ pq-awọn ibeere asopọ odo kan
+- **Isanwo ti a fi pamọ** ṣe àdàkọ oluranlowo, olugba, iye owo ati akọsilẹ nipa lilo ilana Orchard Zcash's
+- **Isanwo ti o ni imọlẹ** lo awọn adirẹsi T-ni idahun fun idena atunṣe laisi asiri kikun
+- **Spec-compliant**,  HMAC-SHA256 challenges, RFC 9457 errors, `/.well-known/payment` ìwárí
 
 ---
 
-## Èé Ṣe Tí Wọ́n Fi Ń Dáàbò Bo Ìsanwó fún Àwọn Aṣojú AI?
+## Kí nìdí tí a fi ń ṣe ìsanwó ààbò fún àwọn aṣojú AI?
 
-Fun awọn aṣoju AI ti n ṣakoso awọn ṣiṣan iṣẹ ti o nira, iwadii ofin, awọn ibeere iṣoogun, itupalẹ owo, oye ifigagbaga fun ** gbogbo isanwo ilu jẹ itankale metadata **. Zimppy ni ọna isanwo MPP nikan ti o jẹ ** ikọkọ nipasẹ aiyipada **.
+Fun awọn aṣoju AI ti n ṣakoso ṣiṣan iṣẹ ifura, iwadii ofin, ibeere iṣoogun, itupalẹ owo, oye ifigagbaga fun ** gbogbo isanwo ilu jẹ itankale metadata**. Zimppy nikan ni ọna sisan MPP eyiti o jẹ ** ikọkọ nipasẹ aiyipada **.
 
-### Àkọsílẹ̀ Ìfiwéra Ìpamọ́
+### Àkọsílẹ̀ Ìfiwéra Ìpamọ́-ẹni
 
-Àwọn ohun ìní. Àwọn ẹ̀rọ-ìpínlẹ̀ (USDC, ETH) Zimppy Shielded Zimppy Transparent
+ Ìní  Àlàfo Ọ̀fẹ́ (USDC, ETH)  Zimppy Shielded  Zimppy Transparent 
 |---|---|---|---|
-** Olùfúnni ní ìsọfúnni **: Ó hàn gbangba. Ó ti jẹ́ àdàkọ. Ó hàn kedere.
+** Olùfúnni ní ìsọfúnni**. Ó hàn gbangba. A ṣe àdàkọ rẹ̀. Ó farahàn kedere.
 | **Receiver** | Visible | Encrypted | Per-challenge (unlinkable) |
-** Amount** Wọ́n rí i. A ṣe àdàkọ rẹ̀.
-**Memo**. visible. encrypted. N/A. ì ì ì í ë ¤.
-** Ààbò Àtúnṣe ** Kò sí. Ìdìmú Memo. Adirẹsi T-ìpèníjà-kọ̀ọ̀kan
-** Àpẹẹrẹ Ìlò Iṣẹ́**. A lè so ó pọ̀ mọ́ra. Àdáni. A kò lè so (fresh addr)
+** Amount** Wọ́n rí i. Ó ti jẹ̀rọ̀ ní ìkọsílẹ̀. Wọ̣n ń wò ó.
+| **Memo** | Visible | Encrypted | N/A |
+** Ààbò Ìdánilẹ́kọ̀ọ́ Lẹsẹkẹsẹ** Kò sí. Memo binding Per-ìpèníjà T-address
+** Àpẹẹrẹ Ìlò Iṣẹ́**. A lè so ó pọ̀ mọ́ra. Ètò àdáni (private) Kò ṣeé fi sípò kan mọ́ra (fresh addr).
 
-### Ìṣòro Àkókò Tí Wọ́n Fi Ń Ṣiṣẹ́ Lọ́wọ́, Àwọn Ìjíròrò Ló Yanjú Rẹ̀
+### Ìṣòro Àìlèfòye-wí, Tí Àwọn Iṣẹ́ Tó Ń Ṣẹ̀ Láàárín Èèyàn Máa Ń Yanjú
 
-> *"Ṣùgbọ́n Zcash ní ìgbà ìdìpọ̀ 75-ìṣẹ́jú".*
+> "Ṣùgbọ́n Zcash ní ìgbà ìdìpọ̀ 75-ìkejì".*
 
-** Awọn akoko yanju eyi.** Idaduro on-chain ṣẹlẹ gangan ** lẹẹkan ** ni idogo. Gbogbo ibeere ti o tẹle jẹ lẹsẹkẹsẹ.
+** Awọn akoko yanju eyi.** Idaduro on-chain ṣẹlẹ gangan ni ẹẹkan** lori idogo. Gbogbo ibeere ti o tẹle jẹ lẹsẹkẹsẹ.
 
 ```
 Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
@@ -91,39 +91,39 @@ Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  close session                 (refund unused balance)
 ```
 
-** Sanwo lẹẹkan, pe lẹsẹkẹsẹ, gba iyipada pada.** Iwọn akoko fun ibeere jẹ odo.
+** Sanwo lẹẹkan, pe lẹsẹkẹsẹ, gba pada iyipada.** Iwọn akoko fun ibeere jẹ odo.
 
 ---
 
-## Àkọsílẹ̀ Ìsanwó Ẹ̀rọ (MPP)
+## Àkọsílẹ̀ Ìsanwó Ẹrọ (MPP)
 
-The **Machine Payment Protocol (MPP)** is a standardized protocol that enables autonomous software agents (AI agents, bots, scripts) to discover, negotiate, and fulfill payment requirements for API access all without human intervention.
+Àdéhùn Ìsanwó Ẹ̀rọ (MPP) jẹ́ ìlànà tí ó wà nípò-ìṣedégbé èyí tó ń fún àwọn aṣojú sọfitiwia aládàáṣe láyè láti ṣàwárí, jíròrò àti mú ìnájà sí pàṣípààrọ̀ owó fún ààyè API láìní ìrànlọ́wọ́ ènìyàn.
 
-### Bawo ni MPP ṣe darapọ mọ awọn API
+### Bawo ni MPP ṣe ṣajọpọ pẹlu awọn API
 
-MPP tẹ̀lé ìtòlẹ́sẹẹsẹ HTTP **402 Payment Required**:
+MPP tẹlé ìtòlẹ́sẹẹsẹ HTTP **402 Payment Required**:
 
 1. **Aṣoju beere** ohun elo kan lati opin API ti o sanwo.
-2. ** Olùpèsè dáhùn** pẹ̀lú `402 Payment Required` + ìwé ìdánwò tí wọ́n fọwọ́ sí (iye owó, ẹni tó máa gbà á, àlàyé).
-3. **Aṣoju n sanwo** nipa lilo ọna isanwo ti o ni ibamu (fun apẹẹrẹ, Zimppy ti a bo Zcash).
-4. **Aṣoju tún ìbèèrè náà ṣe** pẹ̀lú `Authorization: Payment {txid}`.
-5. ** Olùbánisọ̀rọ̀ ṣàyẹ̀wò** ìsanwó náà nípa lílo ẹ̀rọ-ìkọ̀ǹpútà (Orchard IVK decryption, amount + memo check).
-6. ** Olùpèsè dáhùn** pẹ̀lú `200 OK` + a `Payment-Receipt` orí ìwé.
+2. ** Olùpèsè dáhùn** pẹ̀lú: `402 Payment Required` + ìwé ìdánwò tí wọ́n fọwọ́ sí (iye owó, ẹni tó máa gbà á àti àkọsílẹ̀).
+3. **Aṣoju sanwo** nipa lilo ọna isanwo ti o ni ibamu (fun apẹẹrẹ, Zimppy shielded Zcash).
+4. **Aṣoju tún ìbèèrè náà ṣe** pẹ̀lú: `Authorization: Payment {txid}`.
+5. ** Olùgbàṣe ṣayẹwo** ìsanwó náà nípasẹ̀ ẹ́rọ-ìfiwéra (àtúnkọ Orchard IVK, iye + àyẹwò àkọsílẹ).
+6. ** Olùpèsè dáhùn** pẹ̀lú: `200 OK` + a `Payment-Receipt` orí.
 
-### Ìmúṣẹ Àkọsílẹ̀
+### Ìmúṣẹ Àkọsílẹ̀-Àkànṣe
 
 - **HMAC-SHA256** ìforúkọsílẹ̀ ìpèníjà
-- **RFC 9457** àwọn ìdáhùn àṣìṣe tí ó wà lákọsílẹ̀
-- **`/.well-known/payment`** ìparí fún àwárí ọ̀nà ìsanwó tí a ṣe lóòtọ́
-- **Orchard IVK** (Incoming Viewing Key) fún ìdánimọ ìsanwó lápá-ìpèsè láìfi àwọn kókó ìnáwó hàn
+- **RFC 9457** àwọn ìdáhùn àṣìṣe tí ó wà ní ìsopọ̀
+- **`/.well-known/payment`** ìparí fún àwárí ọ̀nà ìṣúná owó tí ó ṣe àfọwọ́kọ.
+- **Orchard IVK** (Incoming Viewing Key) fún ìmúdájú owó-ìsanwó lápá ààrò láìfi àwọn kókó ọ̀nà ìṣúnná owó hàn.
 
 ---
 
 ## Bí Zimppy Ṣe Ń Ṣiṣẹ́
 
-### Àwọn Ìpàdé (Wọ́n gbà á níyànjú)
+### Àwọn Ìpàdé (A Gbà Á Láyè)
 
-Awọn akoko jẹ awoṣe ibaraenisepo akọkọ. Aṣoju naa fi idogba kan silẹ lori pq lẹẹkan, gba aami ti o ni ẹri, ati lo o fun gbogbo awọn ibeere atẹle ni idaduro si odo.
+Awọn akoko jẹ awoṣe ibaraenisepo akọkọ. Aṣoju naa fi idogo kan silẹ lori-agbegbe lẹẹkan, gba ami ti o ni ẹri, ati lo fun gbogbo awọn ibeere atẹle pẹlu alafowo zero .
 
 ```
 Agent  ->  deposit 100,000 zat           (on-chain, ~75s one-time)
@@ -133,13 +133,13 @@ Agent  ->  GET /api/query + bearer       (instant, balance deducted)
 Agent  ->  close session                 (refund unused balance on-chain)
 ```
 
-** Ti o dara julọ fun:** Awọn ipe API igbohunsafẹfẹ giga, inference LLM, awọn ibeere data lemọlemọfún.
+** Ti o dara julọ fun:** Awọn ipe API igbohunsafẹfẹ giga, inference LLM, awọn ibeere data ti a tunṣe.
 
 ---
 
-### Ìsọfúnni tó ń jáde
+### Ìṣàn-ánáàrin
 
-Owo-fun-tokeni akoonu ti a fi pamọ ti a firanṣẹ lori ** Awọn iṣẹlẹ ti a ránṣẹ-Server (SSE) **. Olupese naa yọkuro lati inu iwontunwonsi akoko fun ọrọ tabi ami ṣiṣan.
+Àkójọ ìsọfúnni tí a fi owó san fún ọ̀kọ̀ọ̀kan ti wọ́n ń gbé jáde lórí àwọn Ìṣẹ̀lẹ̀ Tí Olùránṣẹ́ Fi ránṣẹ́ (SSE) **. Ẹrọ-ìpèsè náà máa n yọ iye tó wà nínú ìpàdé kúrò ní òṣùwọ̀n ọrọ tàbí àmì kan tí ó gba ààyè láti tẹ ẹ lọ́rùn.
 
 ```
 Agent  ->  open session with deposit
@@ -148,13 +148,13 @@ Server ->  stream word by word, deducting per token
 Agent  ->  close session, refund remaining
 ```
 
-**Ti o dara julọ fun:** LLM awọn idahun ṣiṣan, awọn ifunni data akoko gidi, awọn irinṣẹ AI sanwo-fun-tokeni.
+** Ti o dara julọ fun:** LLM awọn idahun ṣiṣan, awọn ifunni data akoko gidi, sanwo-per-token AI irinṣẹ.
 
 ---
 
 ### Owó ìtanràn
 
-Owo ti o ni idaabobo kan fun ibeere kan. Gbogbo HTTP 402 ṣiṣan ni a ṣe fun ipe kan. O dara nigbati awọn ibeere ba jẹ igbagbogbo tabi iye giga.
+Owo ti o ni aabo kan fun ibeere. Gbogbo HTTP 402 ṣiṣan jẹ ṣiṣe nipasẹ ipe kọọkan. Dara nigbati awọn ibeere ba wa diẹ tabi iye giga.
 
 ```
 Agent  ->  GET /api/resource
@@ -165,15 +165,15 @@ Server ->  decrypt with Orchard IVK, verify amount + memo
 Server ->  200 OK + Payment-Receipt
 ```
 
-**Ti o dara julọ fun:** Awọn ibeere ọkan-ni-ọkan ti o ga, awọn ipe API ti ko ṣe deede, awọn opin data data.
+** Ti o dara julọ fun:** Awọn ibeere ọkan-ni iye giga, awọn ipe API ti ko ṣe deedee, opin data ipari.
 
 ---
 
-## Lo Awọn Ọran & Awọn apẹẹrẹ
+## Lo Awọn Ọran & Àpẹẹrẹ
 
-### 1. Àjọ tó ń rí sí ìsọfúnni
+### 1. Ẹ̀dá oníṣe AI
 
-Aṣoju AI ti ofin beere ibi ipamọ data ofin ti o sanwo. Lilo awọn akoko aabo Zimppy, boya idanimọ ile-iṣẹ ofin tabi awọn ibeere pato ko han lori pq - idaabobo ẹtọ agbẹjọro-onibara ni ipele amayederun.
+Aṣoju AI ti ofin beere ibi ipamọ data idajọ kan. Lilo awọn akoko aabo Zimppy, boya idanimọ ile-iṣẹ aṣofin tabi awọn ibeere pato ko han lori pq - daabobo ẹtọ agbẹjọro-onibara ni ipele amayederun.
 
 ```
 Agent opens session (100,000 zat deposit)
@@ -187,30 +187,30 @@ Session closed, unused balance refunded
 
 A medical diagnostic agent queries multiple clinical databases. Shielded payments ensure patient query patterns are not linkable across providers.
 
-### 3. Ẹnìkan Tó Ń Ṣèwádìí Nípa Ìnáwó
+### 3. Olùṣirò Ìwádìí Nípa Owó-Ilé
 
-An algorithmic trading agent pays for real-time market data APIs. Transparent payments use fresh T-addresses per challenge, preventing usage pattern correlation across data vendors.
+Aṣoju iṣowo algorithmic sanwo fun awọn API data ọja akoko gidi. Awọn sisanwo ṣiṣi lo T-adiresi tuntun fun ipenija, idilọwọ ibajọpọ awoṣe lilo kọja awọn olupese data.
 
 ### 4. MCP Tool Server, Paid AI Awọn irinṣẹ
 
-An MCP (Model Context Protocol) server exposes paid AI tools. Each tool invocation triggers a Zimppy charge, enabling a marketplace of monetized AI capabilities.
+Olùgbéejáde MCP (Model Context Protocol) máa ń fi àwọn irinṣẹ́ AI tí wọ́n sanwó síta. Gbogbo ohun èlò tó bá lo óo mú kí owó Zimppy gba, èyí á sì jẹ ki ọjà kan ti agbára AI ṣe àtúnṣe rẹ̀ láti lè rí owó gbà.
 
-### 5. LLM Summarizer, Pay-Per-Token (Ìdánwò owó-ní-àkọsílẹ̀)
+### 5. LLM Summarizer, Pay-Per-Token (ìdánwò owó fún ẹyọ kan)
 
-Iṣẹ-iṣẹ akopọ LLM n gba awọn aṣoju fun ami iṣelọpọ nipasẹ ṣiṣan SSE, pẹlu iyokuro iwontunwonsi laifọwọyi ati agbapada ti iwontuna ti a ko lo tẹlẹ.
+Iṣẹ-iṣẹ akopọ LLM gba awọn aṣoju fun ami iṣelọpọ nipasẹ ṣiṣan SSE, pẹlu iyokuro iwontunwonsi laifọwọyi ati agbapada ti o ko lo iye to san tẹlẹ.
 
 ---
 
-## Iṣẹ́-ṣiṣe
+## Ìmúṣẹ ìtòlẹ́sẹẹsẹ náà
 
-### Node.js / TypeScript
+### Node.js / TypeScript (ì í ì ë ¤)
 
 ```bash
 npm install zimppy          # CLI + wallet
 npm install zimppy-ts       # TypeScript SDK
 ```
 
-### Ìdàró
+### Ìdàrọ́
 
 ```toml
 [dependencies]
@@ -220,19 +220,19 @@ zimppy-rs = "0.5"           # Rust SDK (charge, session, axum)
 
 ---
 
-## Ṣiṣeto apamọwọ Zimppy
+## Ṣiṣeto Iwe-owo Zimppy naa
 
-Awọn Zimppy CLI pese kan ni kikun apamọwọ ni wiwo. `npx zimppy`.
+Zimppy CLI n pese wiwo apamọwọ kikun. Gbogbo awọn aṣẹ wa nipasẹ: `npx zimppy`.
 
-### Igbesẹ 1: Ṣẹda apamọwọ kan
+### Ìgbésẹ̀ 1: Ṣídá Àpamọ́ kan
 
 ```bash
 npx zimppy wallet create
 ```
 
-Generates cryptographic keys and displays your **seed phrase**. Store this securely - it cannot be recovered if lost.
+Ó ń mú kókó ìdìkọ̀sílẹ̀ jáde, ó sì fi àlàfo rẹ hàn. Fi èyí pamọ́ ní ibi tí kò léwu - a ò lè rí i padà bí o bá sọnù.
 
-### Ìgbésẹ̀ Kejì: Wá àdírẹ́sì àti owó tó ṣẹ́ kù
+### Ìgbésẹ̀ 2: Ṣayẹwo Adirẹsi Rẹ àti Owó Tó Wà Nílẹ̀ Ẹ
 
 ```bash
 npx zimppy wallet whoami
@@ -244,13 +244,13 @@ Displays your **Unified Address (UA)**, **T-address**, current balance, and acti
 npx zimppy wallet balance --all
 ```
 
-Ó ńfi àlàfo tó wà lórí ìkànnì kọ̀ọ̀kan hàn ní gbogbo ìkànì ZIP-32.
+Ó fi àlàfo ìsókè-sílẹ̀ fún gbogbo àkọọ́ ZIP-32 hàn.
 
-### Ìgbésẹ̀ Kẹta: Kọ́wọ́ Rẹ Tún Wọléètì Rẹ
+### Ìgbésè 3: Fi Owó Sínú Àpò Ẹ̀rọ Rẹ sílò
 
 Send ZEC to your Unified Address from any Zcash-compatible wallet or exchange. Shielded deposits go directly to your Orchard account.
 
-### Ìgbésẹ̀ kẹrin: Fi owó ránṣẹ́ àti dídáàbò bò
+### Ìgbésẹ̀ 4: Fi owó ránṣẹ́ àti dídáàbò bò ó .
 
 ```bash
 # Send ZEC to any address (shielded or transparent)
@@ -266,19 +266,19 @@ npx zimppy wallet transfer 0 1 50000
 npx zimppy wallet use work
 ```
 
-### Ìgbésẹ̀ 5: Ṣẹ̀bẹ̀ fún Ìsanwó Àkọsílẹ̀
+### Igbesẹ 5: Ṣiṣe Ohun elo Owo-Ohun-iṣẹ Kankan
 
 ```bash
 npx zimppy request <url>
 ```
 
-Ó máa ń ṣe àtúnṣe 402 -> sanwó -> tún gbìyànjú.
+Yíṣe àdáṣiṣẹ́ 402 -> sanwó -> tún gbìyànjú ìtòlẹ̀sẹẹsẹ náà. Àwọn ìgbòkègbodò ni a ṣí tí wọn sì ń ṣakoso ní ọ̀nà àìríranjú-ọkàn.
 
 ---
 
-## Ṣíṣepọ Zimppy - TypeScript SDK
+## Ṣíṣàtúnṣe Zimppy - Ẹ̀rọ-ìmọ́ ìsọfúnni (SDK) TypeScript
 
-### TypeScript Server - Ààbò
+### Olùránisẹ̀rọ TypeScript - Aṣọ́ra
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -300,14 +300,14 @@ if (result.status === 402) return result.challenge
 return result.withReceipt(Response.json({ data }))
 ```
 
-Àwọn kókó pàtàkì:
-- `zcash({ wallet: 'server' })` ó máa ń fi àpò-ìpamọ́ tí ó wà ní ìhámọ́ náà sínú
-- `mppx.charge()` ṣe àbójútó gbogbo 402 ìpèníjà/àyẹ̀wò ìgbésí ayé
-- `result.withReceipt()` ó so ìwé ìdánilójú owó tí a fi kọ̀ǹpútà ṣe pẹ̀lú ìdáhùn náà
+** Àwọn kókó pàtàkì:**
+- `zcash({ wallet: 'server' })` ó ń fi àpò-ìpamọ́ tí a ṣe fún àwọn olùgbàlà kún un.
+- `mppx.charge()` ṣe àbójútó gbogbo 402 ìpèníjà/ìwádìí ìgbé ayé.
+- `result.withReceipt()` ó so ìwé ìdánimọ̀ owó ìdìbò sí ìdáhùn náà.
 
 ---
 
-### Olùránṣẹ TypeScript - Òrìsà
+### Olùránṣẹ TypeScript - Òrìsàjúwòrán-ìmọ̀lẹ́yẹ
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -319,11 +319,11 @@ const mppx = Mppx.create({
 })
 ```
 
-Ìdánwò kọ̀ọ̀kan máa ń dá adirẹsi T tuntun sílẹ̀, èyí tí kò ní jẹ́ kó ṣeé ṣe láti so àwọn ìbéèrè ìsanwó pọ̀ mọ́ àwọn ìjíròrò mìíràn.
+Ìdánwò kọ̀ọ̀kan máa ń mú àdírésì T tuntun jáde, èyí tí yóò jẹ́ kí àwọn ìbéèrè fún ìsanwó kò lè so pọ̀ mọ́ gbogbo ìgbà tó bá wà.
 
 ---
 
-### Olùgbéejáde TypeScript
+### Àgbàlá TypeScript
 
 ```typescript
 import { Mppx } from 'mppx/client'
@@ -335,11 +335,11 @@ const mppx = Mppx.create({ methods: [zcash({ wallet: 'default' })] })
 const res = await mppx.fetch('https://api.example.com/resource')
 ```
 
-Àwọn oníbàárà ń gbóhùn-ún `402` àwọn ìdáhùn, á ṣí ìtòlẹ́sẹẹsẹ kan nídìí ara rẹ̀, yóò sì tún gbìyànjú ìbéèrè náà wò - kòkódì tí ó ń pe kò nílò àlàyé pàtó fún ìsanwó.
+Àwọn oníbàárà ń gba ìsọfúnni lọ́wọ́ àwọn èèyàn. `402` àwọn ìdáhùn, ṣí ìtòlẹ́sẹẹsẹ kan nídìí ara rẹ̀, kí ó sì tún gbìyànjú ìbéèrè náà - kòkódì tí ń pè ò nílò àlàyé pàtó fún owó-sanwó.
 
 ---
 
-## Ṣiṣẹpọ Zimppy - Rust SDK
+## Ṣíṣàtúnṣe Zimppy - Rust SDK
 
 ### Olùpèsè Rust (Axum)
 
@@ -361,14 +361,14 @@ async fn handler(charge: MppCharge<Price>) -> WithReceipt<Json<Value>> {
 }
 ```
 
-Àwọn kókó pàtàkì:
-- `MppCharge<Price>` jẹ ẹya Axum extractor ti o ṣayẹwo owo ṣaaju ki o to awọn oniṣẹ ṣiṣe
-- `WithReceipt` ó fi ìwé ìdánilójú ìsanwó tí a fi kọ̀ǹpútà kọ sínú ìdáhùn náà
-- `ChargeConfig` defines the pricing logic - can be dynamic based on request parameters
+** Àwọn kókó pàtàkì:**
+- `MppCharge<Price>` jẹ ohun ti Axum extractor eyi ti o ṣayẹwo owo ṣaaju ki awọn oniṣowo ṣiṣe
+- `WithReceipt` ó fi àkájọ owó ìdánimọ̀ dídáhùn náà sínú èsì ìsanwó tí a kọ ní èdè kíríkítọ́òfín.
+- `ChargeConfig` ṣe àlàyé àwọn ìlànà tí ó wà fún ìsúnniṣe owó - le jẹ́ ti ìṣesí-agbára tó dá lórí àwọn paramítà ìbéèrè.
 
 ---
 
-### Olùṣàmúlò Rust
+### Olùgbéejáde Rust
 
 ```rust
 use mpp::client::Fetch;
@@ -382,56 +382,56 @@ let resp = client
     .await?;
 ```
 
-`send_with_payment` ó máa ń mú kí ààrò HTTP kan ní ìtọ́jú 402 tí ó wà níkọ̀ọ̀kan, ìṣàkóso ìtòlẹ́sẹẹsẹ, àti ìmúṣẹ ìsanwó Zcash.
+`send_with_payment` ó ń mú kí ààrò HTTP èyíkéyìí ní ìtọ́jú 402 tí a ṣe lóòtọ, ìṣàkóso ìgbésẹ̀ àti ìmúṣẹ owó Zcash.
 
 ---
 
-## Àkọsílẹ̀ CLI
+## Àkọlé CLI
 
-Àṣẹ Àpèjúwe
+Àṣẹ. Ìpèjúwe.
 |---|---|
-| `npx zimppy wallet create` Ṣẹda awọn bọtini ati ṣafihan gbolohun ọrọ irugbin.
-| `npx zimppy wallet whoami` ☐ Àdírẹ́ẹ̀sì (UA + T-addr), àròpọ̀ owó, ẹ̀rọ
-| `npx zimppy wallet balance --all` ìpín ìsókè owó tó wà nínú àkáǹtì kọ̀ọ̀kan
-| `npx zimppy wallet send <addr> <zat>`  rán ZEC tí ó ní ààbò tàbí tí ó ṣe kedere
-| `npx zimppy wallet transfer <from> <to> <zat>` Ètò ìyípadà ààtò ìsọfúnni ti inú ilé.
-| `npx zimppy wallet shield`  Gbigbe awọn owo ti o ni imọlẹ si Orchard (ti a ṣe aabo).
-| `npx zimppy wallet use <name>` Ṣíṣàtúnṣe ìdánimọ àpamọ́ alágbára.
-| `npx zimppy request <url>`  Auto 402 -> sanwó -> ìbéèrè àtúnṣe.
+| `npx zimppy wallet create` Ṣẹda àwọn kókó àti ṣafihan gbólóhùn ìkókó.
+| `npx zimppy wallet whoami`  Fi adirẹsi hàn (UA + T-addr), ìsúná, nẹtiwọọki.
+| `npx zimppy wallet balance --all` ìpín ìsòfò-sí-àkáǹtì.
+| `npx zimppy wallet send <addr> <zat>`  Fi ààbò tàbí ìwòràn ZEC ránṣẹ́.
+| `npx zimppy wallet transfer <from> <to> <zat>` Ètò ìyípadà ààlà-ìpamọ́ inú ilé.
+| `npx zimppy wallet shield`  Gbigbe owó tí ó wà ní ìhòòhò sí Orchard (ìpamọ́)
+| `npx zimppy wallet use <name>` Ṣíṣe àtúntò àwọn ẹ̀rí-ìmọ́ apamọwọ tó wà nídìí.
+| `npx zimppy request <url>`  Auto 402 -> sanwó-ìṣírò - Àtúnṣe ìforúkọsílẹ̀.
 
 ---
 
-## Àwọn Ànímọ́ Pàtàkì
+## Àwọn Ànímọ́ Pàtàkì Rẹ̀
 
 ### Àwọn Wàléètì Àṣojú-Ìbílẹ̀
 
 Zimppy wallets are designed for programmatic use by AI agents - not human-managed browser extensions. Keys are managed via the CLI or SDKs, accounts can be rotated via **ZIP-32 account derivation**, and the wallet supports fully automated payment flows without human approval per transaction.
 
-### Ìtìlẹyìn Ọ̀pọ̀lọpọ̀ Àṣojú
+### Atilẹyin Awọn aṣoju pupọ-Awọn Ẹrọ
 
-Awọn aṣoju pupọ le ṣiṣẹ lati inu apamọwọ kanna nipa lilo **ZIP-32 iyipo iroyin ** - olúkúlùkù aṣoju gba akọọlẹ tirẹ pẹlu titele iwontunwonsi ti o ya sọtọ, agbara gbigbe agbelebu-akọọlẹ, ati ijabọ iwontuna-akọkọ. Eyi jẹ ki iṣakoso ọkọ oju-omi ti ọpọlọpọ awọn aṣoju lati inu amayederun apamọwọ kan.
+Awọn aṣoju pupọ le ṣiṣẹ lati inu apamọwọ kanna nipa lilo **ZIP-32 iyipada iroyin** - olúkúlùkù alaṣẹ gba akọọlẹ tirẹ pẹlu titele iwontunwonsi ti o ya sọtọ, agbara gbigbe-iṣowo agbelebu ati ijabọ iwontuna fun gbogbo iwe. Eyi n jẹ ki iṣakoso ọkọ oju omi ọpọlọpọ awọn onisegun lati ipilẹ apo kan ṣoṣo .
 
-### Awọn Iṣowo Zcash ti o ni aabo ni kikun (Orchard)
+### Awọn Iṣowo Zcash ti o ni aabo Patapata (Orchard)
 
-Shielded payments use Zcash's **Orchard protocol** - the latest and most secure shielded pool. The server verifies payments using an **Incoming Viewing Key (IVK)**, which can decrypt received notes without exposing the spending key. Replay attacks are prevented via **memo binding** - each challenge embeds a unique `zimppy:{challenge_id}` Àkọsílẹ̀ tí wọ́n fi ẹ̀rọ ìpamọ́ ṣètẹ́wọ́gbà.
+Shielded payments use Zcash's **Orchard protocol** - the latest and most secure shielded pool. The server verifies payments using an **Incoming Viewing Key (IVK)**, which can decrypt received notes without exposing the spending key. Replay attacks are prevented via **memo binding** - each challenge embeds a unique `zimppy:{challenge_id}` Àkọsílẹ̀ tí a fi ìtumọ̀ àdììtú ṣètẹ́wọ̀n.
 
 ### Awọn akoko , Zero-Per-Request latency
 
-Awọn akoko faaji decouples awọn on-chain ìmúdájú duro lati fun-beere idaduro. lẹhin kan nikan idogo (~ 75 aaya), gbogbo nigbamii ti o ni oluwa-token ibeere ti wa ni sin lẹsẹkẹsẹ pẹlu ko si blockchain ibaraenisepo titi akoko pa.
+Awọn akoko faaji decouples awọn lori-ori ijẹrisi duro lati fun ibeere idaduro. lẹhin kan nikan ohun (~ 75 aaya), gbogbo nigbamii ti o ni oluwa-token ìbéèrè wa ni sin lẹsẹkẹsẹ pẹlu ko si blockchain ibaraenisọrọ titi igba pipade.
 
-### Ìṣàn , Owó-Láti-Àkọsílẹ̀
+### Ìṣàn , Owó-Láti-Àmì Àpamọ́
 
-Atilẹyin abinibi ** SSE (Awọn iṣẹlẹ ti a firanṣẹ olupin) ** jẹ ki o sanwo-nipasẹ-tokeni akoonu ti a ṣe iṣiro. O dara julọ fun LLM inference APIs nibiti gigun abajade jẹ iyipada ati isanwo yẹ ki o ṣe afihan agbara gangan.
+Atilẹyin abinibi ** SSE (Awọn iṣẹlẹ ti a firanṣẹ olupin)** jẹ ki o sanwo-fun akoonu to ṣe iwọn. O dara julọ fun awọn API inference LLM nibiti ipari abajade wa ni iyipada ati isanwo yẹ ki o ṣafihan agbara gangan.
 
-### Ìmúṣẹ Àkọsílẹ̀
+### Ìmúṣẹ Àkọsílẹ̀-Àkànṣe
 
-- **HMAC-SHA256** tí wọ́n fọwọ́ sí àwọn ìpèníjà láti dènà àdàkọ
-- **RFC 9457** ìtòlẹ́sẹẹsẹ àṣìṣe tí ó wà fún ìmúṣiṣẹ́pọ̀ àṣìṣẹ́
-- **`/.well-known/payment`** fun awari ọna isanwo laifọwọyi nipasẹ eyikeyi aṣoju ti o ni ibamu pẹlu MPP
+- **HMAC-SHA256** ìforúkọsílẹ̀ àwọn ìpèníjà dídènà èké ṣíṣe
+- **RFC 9457** ìmúdàgba àṣìṣe tí a ṣe fún lílo àwọn àṣìṣẹ́ tó ṣeé bá lò pọ̀.
+- **`/.well-known/payment`** fun awari ọna isanwo laifọwọyi nipasẹ eyikeyi aṣoju ti o ni ibamu pẹlu MPP.
 
 ---
 
-## Àwòrán ilé
+## Ìṣẹ̀dá ilé-ìkọ́lé
 
 ```
 crates/
@@ -445,56 +445,56 @@ packages/
   zimppy-cli/        CLI with auto-pay and session management
 ```
 
-### Àwọn Ojúṣe Ẹ̀ka
+### Àwọn Ìkáwọ́ṣe Ẹ̀ka-ìpínlẹ̀
 
-**`zimppy-core`** - Awon ohun ti o wa ni cryptographic. O nlo idaabobo akọsilẹ Orchard nipa lilo IVK ti olupin, parsing memo, lojiji idaabọ atunwi, ati idanwo idanwo. Ti a kọ ni Rust fun iṣẹ ati deede.
+**`zimppy-core`** - Awon ohun ti o wa ni cryptographic. O nlo awọn apoti Orchard decryption nipa lilo IVK olupin, parsing memo, atunṣe idaabobo loji ati idanwo ipenija. Ti a kọ sinu Rust fun iṣẹ ṣiṣe ati deedee.
 
-**`zimppy-wallet`** - A abinibi Zcash apamọwọ agbara nipasẹ `zingolib`. Ṣakoso awọn bọtini, awọn iroyin, iboju-boju / awọn iwontunwonsi ṣiṣan, ati ifisilẹ iṣowo.
+**`zimppy-wallet`** - A abinibi Zcash apamọwọ agbara nipasẹ `zingolib`. Ń ṣakoso àwọn kókó, àkọọ́lẹ̀, àlàfo tí a fi ojú pa/tí ó ṣe kedere àti ìmúṣẹ ìṣòwò.
 
-**`zimppy-rs`** - Awọn Rust SDK. pese `ChargeMethod`, `SessionMethod`, àti `PaymentProvider` àwọn ohun èlò tí wọ́n fi ń yọ àbùdá jáde (`MppCharge`, `WithReceipt`) fún ìkópọ̀ àwọn ohun èlò tí ó jẹ́ ergonomic.
+**`zimppy-rs`** - The Rust SDK. Provides `ChargeMethod`, `SessionMethod`, àti `PaymentProvider` àwọn ohun èlò tó ń mú èròjà jáde láti ara ẹran, àti àwọn ohun ìmúra tí Axum fi ṣe é (`MppCharge`, `WithReceipt`) fún ìkórajọ àwọn ohun èlò tí ó jẹ́ ti erogónómì.
 
-**`zimppy-napi`** - Awọn asopọ NAPI-RS ti o ṣafihan ipilẹ Rust si Node.js, gbigba TypeScript SDK laaye lati lo ẹrọ itẹwe kanna laisi atunṣe awọn ipilẹṣẹ Zcash ni JavaScript.
+**`zimppy-napi`** - NAPI-RS ìlépa tí ó fi Rust kókó hàn fún Node.js, tó jẹ́ kí TypeScript SDK lo ẹ̀rọ ìgbàkòwé kan náà láìlo àwọn àlàfo Zcash nínú JavaScript.
 
-**`zimppy-ts`** - The TypeScript SDK. Wraps NAPI bindings with idiomatic async/await APIs for charge, session, and SSE streaming flows.
+**`zimppy-ts`** - The TypeScript SDK. Wraps NAPI ìsopọ pẹlu idiomatic async/await APIs fun idiyele, akoko, ati SSE ṣiṣan sisanwọle.
 
-**`zimppy-cli`** - Ọpa apamọwọ ati ohun elo ibeere laini aṣẹ. O ṣe atilẹyin isanwo-ara-ẹni (402 -> sanwo -> tun gbiyanju), iṣakoso akoko, ati gbogbo awọn iṣẹ apamọwọ.
+**`zimppy-cli`** - Ẹrọ àpò-ìpèsè àti ọ̀nà ìbèèrè. Ó ń ṣe atilẹyin fún owó sanwó (402 -> sanwó -> tún gbìyànjú), ìṣàkóso ìgbà, ati gbogbo iṣẹ́ àpò náà.
 
 ---
 
-## Àwọn Àpẹẹrẹ & Àfihàn
+## Àpẹẹrẹ & Awọn Demo
 
-Àpẹẹrẹ Àpèjúwe
+Àpẹẹrẹ. Ìpèjúwe:
 |---|---|
-| `examples/fortune-teller/` ígba owó, ìtòlẹ́sẹẹsẹ, àti àwọn àfihàn tí ó ń jáde - Rust server + client
-| `examples/llm-summarizer/` Àwòṣe ìgbóhùnsáfẹ́fẹ́ LLM tí wọ́n ń sanwó fún.
+| `examples/fortune-teller/` ígba owó, ìtòlẹ́sẹẹsẹ àti àwọn àfihàn tí ó ń jáde - Rust server + client.
+| `examples/llm-summarizer/` Àwòṣe ìgbóhùnsáfẹ́rọ̀ LLM tí wọ́n ń sanwó fún ní orí ẹyọ kòkòrò kan.
 | `examples/mcp-server/` MCP tool server pẹlu awọn irinṣẹ AI ti o sanwo.
-| `examples/ts-server/` íṣe ìtumọ̀ aṣàmúlò TypeScript MPP server
+| `examples/ts-server/` ì í ì ëa ̈ë¥1⁄4 MPP Server êμ¬í ¬ê ̧°.
 
 ---
 
-## Àwọn Ohun Tó Wà Nínú Ẹ̀
+## Ohun Tó Wà Nínú Ìwé Náà - Àkópọ̀ Àwọn Apá Rẹ̀
 
-Àmì. Àpèjúwe.
+Àmì. Ìpèjúwe.
 |---|---|
-**Sessions** Deposit once, instant bearer requests, refund on close. [Ìdánilójú ìsọ̀rí] Àkọsílẹ̀ nípa àwọn ìṣẹ̀lẹ̀ tó wáyé ní ilé-ìwòsàn náà
+**Sessions**. ìsọ̀ǹpèsè ẹ̀ẹ́kan, àwọn ìbéèrè oníṣe lẹsẹkẹsẹ, àtúnsan lórí dídínà rẹ̀
 | **Streaming** | Pay-per-token metered content over SSE |
-** Charge**. Owó tí a fi ààbò ṣe tàbí tí ó ṣe kedere lórí ìbéèrè HTTP (402 flow)
-Àwọn adirẹsi-T pẹ̀lú ìdènà àtúnṣe-ní-ìdánwò + àṣẹ ààbò.
-**Multi-Account**. ZIP-32 ìyípadà àkọọ́lẹ̀, ìyípòsòpò orí àkáǹtì, àlàfo fún àkáńtì.
-| **CLI Wallet** | Send, shield, transfer, balance --all, whoami, auto-pay |
-** Dual SDK ** TypeScript àti Rust
-Ìṣòro HMAC-SHA256, àṣìṣe RFC 9457, `/.well-known/payment` ìwárí.
+ ** Charge**. Ìsanwó tí a fi ààbò tàbí ìsàsílẹ̀ ṣe fún ìbéèrè HTTP (402 flow) kan ṣoṣo
+Àwọn adirẹsi T pẹ̀lú ìdènà àtúnṣe-ìjàǹbá + àṣẹ ìbòjú.
+**Multi-Account** ZIP-32 ìyípadà àkọọ́lẹ̀, àtúntò àkọọ̣lá, owó tó wà nínú kọǹpútà kòríkòsùn.
+Ẹ fi ránṣẹ́, ẹ ṣe ààbò fún un, ẹ gbé e lọ síbi tó yẹ kó wà -- gbogbo rẹ̀ ni mo máa ń san.
+** SDK méjì** TypeScript àti Rust.
+**Spec-Compliant** HMAC-SHA256 àwọn ìpèníjà, RFC 9457 àṣìṣe, `/.well-known/payment` ìwárí.
 
 ---
 
-*Fún àlàyé síwájú sí i, ẹ lọ sí [zimppy.xyz](https://zimppy.xyz)*
+*Fún àlàyé síwájú sí i, lọ wo: [ì í 'ì ¤í ¬ë¥1⁄4 ë§¤ê° .](https://zimppy.xyz)*
 
 ---
 
-## Àwọn ojúewé tó tan mọ́ ọn
+## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Àwọn pọ́ọ̀sì](/using-zcash/wallets)  Awọn apamọwọ Zcash ti o ṣe atilẹyin awọn iṣowo ti o ni aabo
-- [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Ṣe](/using-zcash/shielded-pools)  Bawo ni Orchard shielded awọn iṣowo ṣe daabobo data isanwo
-- [Àwọn Ẹ̀rọ Ìsanwó](/using-zcash/payment-processors)  Àwọn ọ̀nà míràn láti gba owó Zcash
-- [Awọn ohun-ini ti o ni aabo Zcash](/zcash-tech/zcash-shielded-assets)  ZSAs ati ọjọ iwaju ti iṣeto eto Zcash
-- [Àwọn Iṣẹ́ Àjọṣe](/zcash-community/community-projects)  Awọn iṣẹ eto ilolupo Zcash diẹ sii
+- [Àwọn àpamọ́ owó](/using-zcash/wallets)  Awọn apamọwọ Zcash ti o ṣe atilẹyin awọn iṣowo aabo
+- [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](/using-zcash/shielded-pools)  Bí àwọn ìnáwó tí Orchard fi ààbò bo ṣe ń dáàbò bò àwọn data owó-ìsanwọlé.
+- [Àwọn Ẹ̀rọ Ìsanwó](/using-zcash/payment-processors)  Àwọn ọ̀nà míràn láti gbà owó Zcash
+- [Awọn ohun-ini ti a fi aabo Zcash pamọ](/zcash-tech/zcash-shielded-assets)  ZSAs ati ọjọ iwaju ti eto iṣeto Zcash
+- [Àwọn Ìpèsè Àjọṣe](/zcash-community/community-projects)  Àwọn iṣẹ́ àdáni Zcash púpọ̀ sí i

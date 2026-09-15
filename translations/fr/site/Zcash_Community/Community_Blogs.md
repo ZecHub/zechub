@@ -15,7 +15,6 @@ Voici quelques-uns de ceux qui sont actifs :
 | Thumbs' Update             | Mises à jour régulières de l’écosystème et analyses      | [Visiter ->](https://thumbsup.substack.com) |
 | roomatemusing              | Réflexions et contenu communautaire                      | [Visiter ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | Blog technique axé sur le développement et les outils de Zcash | [Visiter ->](https://blog.nerdbank.net/) |
-| Thor Likes                 | Actualités, opinions et commentaires sur Zcash           | [Visiter ->](https://www.thorlikes.com/) |
 | ZecMec                     | Articles axés sur Zcash sur Medium                       | [Visiter ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter             | Articles approfondis et newsletter                       | [Visiter ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)     | Interviews de premier plan et contenu sur la confidentialité | [Visiter ->](https://naomibrockwell.com/highprofileinterviews) |

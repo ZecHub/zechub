@@ -100,9 +100,9 @@ EU加盟国の多様な規制風景は、スムーズな統合に課題をもた
 CBDCという未開拓の領域に足を踏み入れる旅に出る人々にとって、資源はあなたのコンパスになります。
 1. 国際決済銀行（[BIS](https://www.bis.org/search?keywords=cbdc))
 2. 国際通貨基金（[IMF](https://www.imf.org/en/About))
-3. 研究論文 ([paper](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
-4. 学術雑誌 ([journal](https://www.bis.org/publ/work976.pdf))
-5. C.E.I 記事 ([Article](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
+3. 研究論文 ([論文](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
+4. 学術雑誌 ([ジャーナル](https://www.bis.org/publ/work976.pdf))
+5. C.E.I 記事 ([記事](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
 
 これらの資源は、進化する風景に一瞥を送り、洞察、研究、およびデジタルオディッセイに関するアップデートを提供します。
 
