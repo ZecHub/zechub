@@ -4,7 +4,22 @@
 
 # <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   कस्टोडियल एक्सचेंज
 
+Ironwood वह शील्डेड पूल है जो जुलाई 2026 के नेटवर्क अपग्रेड के साथ आया। जो एक्सचेंज केवल पारदर्शी t-addresses संभालते हैं, वे इसे कभी नहीं छूते, इसलिए उन्हें लागू नहीं के रूप में चिह्नित किया गया है। जहाँ कोई एक्सचेंज शील्डेड पते संभालता है लेकिन यह नहीं बताता कि वह किस पूल का उपयोग करता है, वहाँ अनुमान लगाने के बजाय ऐसा ही लिखा गया है।
+
 ---
+
+### [Backpack](https://backpack.exchange)
+
+<a href="https://backpack.exchange">
+    <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
+</a>
+
+- वेबसाइट: [Backpack](https://backpack.exchange)
+- जोड़े: ZEC/USDC | ZEC-PERP
+- समर्थित: जमा और निकासी सक्षम हैं। पते के प्रकार बताए नहीं गए हैं
+- जमा समय: बताया नहीं गया
+- Ironwood: बताया नहीं गया
+___
 
 ### [Binance](https://binance.com)
 
@@ -14,8 +29,9 @@
 
 - वेबसाइट: [Binance](https://binance.com)
 - जोड़े: ALL/ZEC
-- समर्थन: Transparent (TEX Address Deposit)
+- समर्थित: पारदर्शी (TEX Address Deposit)
 - जमा समय: 20 मिनट
+- Ironwood: लागू नहीं, केवल पारदर्शी पते
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -26,8 +42,9 @@ ___
 
 - वेबसाइट: [BitcoinVN](https://bitcoinvn.io)
 - जोड़े: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- समर्थन: Transparent | Shielded (z-address जमा और निकासी)
-- जमा समय: तुरंत (non-custodial swap)
+- समर्थित: पारदर्शी | शील्डेड (z-address जमा और निकासी)
+- जमा समय: तत्काल (नॉन-कस्टोडियल स्वैप)
+- Ironwood: बताया नहीं गया
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -38,8 +55,9 @@ ___
 
 - वेबसाइट: [Bitfinex](https://bitfinex.com)
 - जोड़े: ALL/ZEC
-- समर्थन: Transparent
+- समर्थित: पारदर्शी
 - जमा समय: 25 मिनट 
+- Ironwood: लागू नहीं, केवल पारदर्शी पते
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -50,8 +68,9 @@ ___
 
 - वेबसाइट: [Coinbase](https://coinbase.com)
 - जोड़े: ALL/ZEC
-- समर्थन: Transparent
+- समर्थित: पारदर्शी
 - जमा समय: 150 मिनट
+- Ironwood: लागू नहीं, केवल पारदर्शी पते
 ___
 
  ### [Gemini](https://gemini.com)
@@ -62,8 +81,9 @@ ___
 
 - वेबसाइट: [Gemini](https://gemini.com)
 - जोड़े: ALL/ZEC
-- समर्थन: Transparent | Shielded निकासी
+- समर्थित: पारदर्शी | शील्डेड और एकीकृत निकासी, Orchard नवंबर 2025 से
 - जमा समय: 50 मिनट 
+- Ironwood: शील्डेड निकासी समर्थित, पूल बताया नहीं गया
 ___
 
 ### [Huobi](https://huobi.com)
@@ -74,8 +94,9 @@ ___
 
 - वेबसाइट: [Huobi](https://huobi.com)
 - जोड़े: ALL/ZEC
-- समर्थन: Transparent
+- समर्थित: पारदर्शी
 - जमा समय: 35 मिनट 
+- Ironwood: लागू नहीं, केवल पारदर्शी पते
 ___
 
 ### [Kraken](https://kraken.com)
@@ -86,8 +107,9 @@ ___
 
 - वेबसाइट: [Kraken](https://kraken.com)
 - जोड़े: ALL/ZEC
-- समर्थन: Transparent
+- समर्थित: पारदर्शी
 - जमा समय: 60 मिनट
+- Ironwood: लागू नहीं, केवल पारदर्शी पते
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -98,8 +120,9 @@ ___
 
 - वेबसाइट: [KuCoin](https://kucoin.com)
 - जोड़े: ALL/ZEC
-- समर्थन: Transparent
+- समर्थित: पारदर्शी
 - जमा समय: 20 मिनट 
+- Ironwood: लागू नहीं, केवल पारदर्शी पते
 ___
 
 ## [OKEx](https://okex.com)
@@ -110,6 +133,20 @@ ___
 
 - वेबसाइट: [OKEx](https://okex.com)
 - जोड़े: ALL/ZEC
-- समर्थन: Transparent
+- समर्थित: पारदर्शी
 - जमा समय: 25 मिनट 
+- Ironwood: लागू नहीं, केवल पारदर्शी पते
+___
+
+### [Robinhood](https://robinhood.com)
+
+<a href="https://robinhood.com">
+    <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
+</a>
+
+- वेबसाइट: [Robinhood](https://robinhood.com)
+- जोड़े: USD/ZEC | EUR/ZEC
+- समर्थित: केवल पारदर्शी t-addresses पर निकासी। ZEC जमा समर्थित नहीं हैं
+- जमा समय: जमा समर्थित नहीं हैं
+- Ironwood: लागू नहीं, केवल पारदर्शी पते
 ___

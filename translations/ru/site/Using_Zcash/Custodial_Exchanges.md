@@ -4,7 +4,22 @@
 
 # <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Кастодиальные биржи
 
+Ironwood — это экранированный пул, появившийся с обновлением сети в июле 2026 года. Биржи, работающие только с прозрачными t-адресами, никогда с ним не взаимодействуют, поэтому для них указано «неприменимо». Если биржа поддерживает экранированные адреса, но не сообщает, какой пул использует, это указано в строке без предположений.
+
 ---
+
+### [Backpack](https://backpack.exchange)
+
+<a href="https://backpack.exchange">
+    <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
+</a>
+
+- Веб-сайт: [Backpack](https://backpack.exchange)
+- Пары: ZEC/USDC | ZEC-PERP
+- Поддержка: Ввод и вывод включены. Типы адресов не указаны
+- Время зачисления: Не указано
+- Ironwood: Не указано
+___
 
 ### [Binance](https://binance.com)
 
@@ -12,10 +27,11 @@
     <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Сайт: [Binance](https://binance.com)
-- Торговые пары: ALL/ZEC
-- Поддерживает: Прозрачные (депозит на TEX-адрес)
-- Время депозита: 20 минут
+- Веб-сайт: [Binance](https://binance.com)
+- Пары: ALL/ZEC
+- Поддержка: Прозрачные (ввод на TEX Address)
+- Время зачисления: 20 минут
+- Ironwood: Неприменимо, только прозрачные адреса
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -24,10 +40,11 @@ ___
     <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
 </a>
 
-- Сайт: [BitcoinVN](https://bitcoinvn.io)
-- Торговые пары: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- Поддерживает: Прозрачные | Shielded (депозит и вывод на z-address)
-- Время депозита: Мгновенно (некастодиальный обмен)
+- Веб-сайт: [BitcoinVN](https://bitcoinvn.io)
+- Пары: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- Поддержка: Прозрачные | Экранированные (ввод и вывод на z-адреса)
+- Время зачисления: Мгновенно (некостодиальный обмен)
+- Ironwood: Не указано
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -36,10 +53,11 @@ ___
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Сайт: [Bitfinex](https://bitfinex.com)
-- Торговые пары: ALL/ZEC
-- Поддерживает: Прозрачные
-- Время депозита: 25 минут 
+- Веб-сайт: [Bitfinex](https://bitfinex.com)
+- Пары: ALL/ZEC
+- Поддержка: Прозрачные
+- Время зачисления: 25 минут 
+- Ironwood: Неприменимо, только прозрачные адреса
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -48,10 +66,11 @@ ___
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Сайт: [Coinbase](https://coinbase.com)
-- Торговые пары: ALL/ZEC
-- Поддерживает: Прозрачные
-- Время депозита: 150 минут
+- Веб-сайт: [Coinbase](https://coinbase.com)
+- Пары: ALL/ZEC
+- Поддержка: Прозрачные
+- Время зачисления: 150 минут
+- Ironwood: Неприменимо, только прозрачные адреса
 ___
 
  ### [Gemini](https://gemini.com)
@@ -60,10 +79,11 @@ ___
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Сайт: [Gemini](https://gemini.com)
-- Торговые пары: ALL/ZEC
-- Поддерживает: Прозрачные | Shielded вывод
-- Время депозита: 50 минут 
+- Веб-сайт: [Gemini](https://gemini.com)
+- Пары: ALL/ZEC
+- Поддержка: Прозрачные | Экранированные и унифицированные выводы, Orchard с ноября 2025 года
+- Время зачисления: 50 минут 
+- Ironwood: Поддерживается вывод на экранированные адреса, пул не указан
 ___
 
 ### [Huobi](https://huobi.com)
@@ -72,10 +92,11 @@ ___
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Сайт: [Huobi](https://huobi.com)
-- Торговые пары: ALL/ZEC
-- Поддерживает: Прозрачные
-- Время депозита: 35 минут 
+- Веб-сайт: [Huobi](https://huobi.com)
+- Пары: ALL/ZEC
+- Поддержка: Прозрачные
+- Время зачисления: 35 минут 
+- Ironwood: Неприменимо, только прозрачные адреса
 ___
 
 ### [Kraken](https://kraken.com)
@@ -84,10 +105,11 @@ ___
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Сайт: [Kraken](https://kraken.com)
-- Торговые пары: ALL/ZEC
-- Поддерживает: Прозрачные
-- Время депозита: 60 минут
+- Веб-сайт: [Kraken](https://kraken.com)
+- Пары: ALL/ZEC
+- Поддержка: Прозрачные
+- Время зачисления: 60 минут
+- Ironwood: Неприменимо, только прозрачные адреса
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -96,10 +118,11 @@ ___
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Сайт: [KuCoin](https://kucoin.com)
-- Торговые пары: ALL/ZEC
-- Поддерживает: Прозрачные
-- Время депозита: 20 минут 
+- Веб-сайт: [KuCoin](https://kucoin.com)
+- Пары: ALL/ZEC
+- Поддержка: Прозрачные
+- Время зачисления: 20 минут 
+- Ironwood: Неприменимо, только прозрачные адреса
 ___
 
 ## [OKEx](https://okex.com)
@@ -108,8 +131,22 @@ ___
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
 </a>
 
-- Сайт: [OKEx](https://okex.com)
-- Торговые пары: ALL/ZEC
-- Поддерживает: Прозрачные
-- Время депозита: 25 минут 
+- Веб-сайт: [OKEx](https://okex.com)
+- Пары: ALL/ZEC
+- Поддержка: Прозрачные
+- Время зачисления: 25 минут 
+- Ironwood: Неприменимо, только прозрачные адреса
+___
+
+### [Robinhood](https://robinhood.com)
+
+<a href="https://robinhood.com">
+    <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
+</a>
+
+- Веб-сайт: [Robinhood](https://robinhood.com)
+- Пары: USD/ZEC | EUR/ZEC
+- Поддержка: Вывод только на прозрачные t-адреса. Ввод ZEC не поддерживается
+- Время зачисления: Ввод не поддерживается
+- Ironwood: Неприменимо, только прозрачные адреса
 ___
