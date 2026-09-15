@@ -1,29 +1,29 @@
 # Kí Ni Àwọn Adirẹsi Zcash TEX?
 
-Awọn adirẹsi Zcash TEX ṣe aṣoju iru alailẹgbẹ ti adiresi gbigba. Akọkọ fun "Awọn adirẹẹsi paṣipaarọ Transparent", o jẹ ** Alailẹgbẹ **, irufẹ iṣọkan (bech32m) ifaminsi ti adirọwọ p2pkh Transparent kan. 
+Adirẹsi Zcash TEX jẹ́ oríṣi adiresi tí ó ṣàrà ọ̀tọ̀. Àkọsílẹ̀ fún "Transparent Exchange" address, o jẹ **Unique**, Unified-type (bech32m) encoding ti p2pkh Transparent address kan ṣoṣo. 
 
-Idi rẹ nikan ni lati sọ fun apamọwọ ibaramu lati ṣe iṣowo Transparent-Only (T -> T). 
+Idi rẹ nikan ni lati sọ fun apamọwọ ti o baamu kan lati ṣe iṣowo Transparent-Only (T -> T). 
 
-Àlàyé rẹ̀ nìyí: Lẹ́yìn tí wọ́n bá rí àdírẹ́sì TEX, àpò-ìpamọ́ tí ó bára mu máa ń ṣe àdàkọ rẹ̀ láti gba olùgbàlejò tí ó wà nínú rẹ̀. 
+The logic is as follows: Upon detecting a TEX Address, a compatible wallet decodes it to obtain the Transparent receiver it contains. The wallet then sends the required funds for the tx from the Shielded pool to a seperate, user-controlled, ephemeral Transparent address (Z -> T). It then sends those funds to the decoded Transparent receiver of the TEX address (T -> T).  
 
-Awọn imọran imọ fun awọn adirẹsi TEX ti wa ni apejuwe ni Zcash [ZIP 320](https://zips.z.cash/zip-0320), tí ó ṣalaye oríṣi adirẹsi kan fún gbígba owó láti inú àwọn Adirẹsì Àìláàrí.
+A ṣe apejuwe imọran imọ-ẹrọ fun awọn adirẹsi TEX ni Zcash . [ZIP 320 Àwọn ojúewé wọ̀nyí:](https://zips.z.cash/zip-0320), tí ó ṣalaye irú adirẹsi kan fún gbígba owó láti àwọn Adiresi Tí Ó Ṣeé Ṣíṣe Àlàyé.
 
-[Àdàkọ:](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
 
-Biotilejepe awọn adirẹsi TEX ko gba wọpọ, awọn olumulo Zcash le nilo lati lo wọn nigbamii.
+Bó tilẹ̀ jẹ́ pé àwọn adirẹsi TEX kò gbajúmọ, ó lè di dandan fún àwọn oníṣe Zcash láti lò wọ́n ní àsìkò kan.
 
-## Ìgbà Wo Ni Mo Nílò Àdírẹ́sì TEX
+## Ìgbà Wo Ni Mo Nílò Àdírẹ́sì TEX?
 
-### O **Nipá** adirẹsi TEX nígbà tí o bá ń fi owó ránṣẹ́ sí adiréṣítì Transparent nípa lílo àpamọ́ tí kò ní ìtìlẹ́yìn fún fífi owó ránṣẹ́ ní tààràtà sí adíréṣí Transparent. 
-Certain wallets simply don't allow for sending directly to a Transparent address and **the recipient may not provide a TEX equivalent**. So, **Converting** from a Transparent to a TEX address may be required at times. This can be achieved manually by running the reference implementation outlined in [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
+### O **Nìkan** adirẹsi TEX nígbà tí o bá ń fi owó ránṣẹ́ sí àdírésì Transparent nípa lílo àpò-owo kan tó kò ṣe atilẹyin fún fífi tààràtà ranṣẹ si àdírẹsíti Transparent. 
+Diẹ ninu awọn apamọwọ nìkan ko gba laaye fun fifiranṣẹ taara si adirẹsi Transparent ati ** olugba le ma pese deede TEX**. Nitorina, iyipada lati inu Adirẹsin Alaye kan si adiresi TEX le jẹ dandan ni igba diẹ. Eyi le ṣee ṣe pẹlu ọwọ nipa ṣiṣe imuse itọkasi ti a ṣalaye ninu [ì 'í í ê3μê°](https://zips.z.cash/zip-0320#reference-implementation).
 
-### O Nílò adirẹsi TEX nígbà tí o bá ń fi owó ránṣẹ́ sí ilé ìfowópamọ́ kan tí ó **NÍPÀYÁ kí owó wọ̀nyìí wá láti orísun tí ó ṣe kedere**. 
-Lọwọlọwọ, [Binance](https://www.binance.com/) is the only Centralized Exchange using TEX addresses (and they are the primary reason for TEX creation). 
-TEX addresses inform a compatible wallet that all the funds sent to that address must be transparent and exclude every shielded value from being sent to said address.
+### O Nilo adirẹsi TEX nigba ti o ba n fi owo ranṣẹ si paṣipaarọ aarin kan ** TI NI awọn owo wọnyẹn lati orisun Transparent**. 
+Ní báyìí, [Binance (ìyẹn Bitcoin)](https://www.binance.com/) jẹ ọkan nikan ti a ṣepọ Exchange lilo awọn adirẹsi TEX (ati pe wọn ni idi akọkọ fun ẹda TEX). 
+Adirẹsi TEX sọ fun apamọwọ ti o baamu pe gbogbo awọn owo ti a firanṣẹ si adirẹisi yẹn gbọdọ jẹ ṣiṣafihan ati yago fun eyikeyi iye aabo lati fifiranṣẹ si orukọ naa.
 If an exchange like Binance rejects the sent value, it has the necessary means to return that value back to the address it came from. It also helps entities like Binance to comply with the laws and regulations imposed by governments or other authorities.
 
 
-## Èwo nínú àwọn pọ́ọ̀sì ló ń ṣe àtìlẹyìn fún TEX Addresses?
+## Àwọn pọntà wo ló ń ṣe àtìlẹ́yìn fún TEX Addresses?
 
-O le wo akojọ to ṣẹṣẹ julọ lori wa [awọn apamọwọ](https://zechub.wiki/wallets) lo àlẹmọ ìsọfúnni tí ó wà nínú ojúewé.
+O le wo akojọ ti o wa titi lori oju-iwe ayelujara wa. [àwọn àpò owó](https://zechub.wiki/wallets) lo ìtòlẹ́sẹẹsẹ àtúnṣe ojúewé. Lo **Àdàkọ Àdírẹ̀sì TEX.**

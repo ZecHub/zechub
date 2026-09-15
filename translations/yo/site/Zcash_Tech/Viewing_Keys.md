@@ -90,9 +90,11 @@ Gbigba adirẹsi Sapling pada si akọọlẹ yẹn'Sapling ti o gbooro kikun wi
 zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 ```
 
-Àríyànjiyàn kejì ni ìlànà àtúnṣe: `"whenkeyisnew"` (ìwà àìdáa), `"yes"` or `"no"`. Ẹkẹta ni giga bulọọki lati ṣawari lẹẹkansi. Zallet gbe bọtini wọle bi akọọlẹ wiwo nikan ati tọpinpin awọn iṣowo ti n bọ ati jade fun awọn adirẹsi rẹ laisi aṣẹ inawo.
+Àríyànjiyàn kejì ni ìlànà àtúnṣe: `"whenkeyisnew"` (ìwà àìgbọràn), `"yes"` or `"no"`. Ẹkẹta ni giga bulọọki lati ṣawari lẹẹkansi. Zallet gbe bọtini wọle bi akọọlẹ wiwo nikan ati tọpinpin awọn iṣowo ti n bọ ati jade fun awọn adirẹsi rẹ laisi aṣẹ inawo.
 
 **Zallet n gbe awọn Sapling ti o gbooro sii ni kikun wiwo bọtini nikan.** Ko yoo ṣe agbewọle a `uview…` láti fi ààyè ìkàwé sí àkọọ́lẹ̀ tí a ṣepọ, kó o gbé UFVK náà jáde kúrò nínú Zallet kí o sì mú un wọlé sínú apamọwọ tó gba àwọn kọǹpútà aláwọ̀tọ́jú bíi Zkool.
+
+Lati tan a ti gbe wọle bọtini sinu kan ni kikun idunadura itan faili, pẹlu txids, owo ati memos, wo [Exporting Transaction History from a Viewing Key](/guides/viewing-key-transaction-export).
 
 ## Ohun tó yí padà, àti ohun tí kò yẹ ká máa wá mọ́
 
@@ -100,7 +102,7 @@ Bí o bá tẹ̀lé àdàkọ àtijọ́ ojúewé yìí, tàbí ìtumọ̀ rẹ�
 
 - **`zcash-cli z_exportviewingkey` àti pé, `z_importviewingkey`.** zcashd dé opin atilẹyin rẹ ni 18 July 2026 ati pe ko ṣiṣẹ mọ. Awọn ọna Zallet ti o jẹ orukọ kanna ni iyipada; wo awọn alaye fun Zcashd, eyiti a ṣe nipasẹ oludari kan lati ṣalaye bi wọn ṣe nlo owo-ori naa: [ìwé tó ń darí ìrìn àjò-àjò.](/guides/migration-guide-zcashd-to-zebrad-zallet).
 - **The Ywallet walkthrough.** The Wallets page marks Ywaller **Ironwood: Not Ready**, so it is not the wallet to point people at for Ironwood-era viewing keys. Zkool, from the same developer, accepts the same range of keys and is marked Ready. Ìtòsí ìkóhunsòpòwò tí ó wà ní ojúewé yìí ni "Ìtójúwón" àti "ìrówó". Àkọlé àwòrán Àwọn àkájọ ìwé tó ń gbé àwọn àkọọ́lẹ̀ káàkiri ayé ló fi hàn pé wọ́n ti ṣe é láti rí bí wọ́n á ṣe máa wo kókó òpópẹrẹ náà (àdàkejì) nígbà tí kò bá sí ohun kan pàtó nínú wọn.
-- **zcashblockexplorer.com/vk.** Iṣẹ́ náà dá HTTP 503 padà pẹ̀lú ìwé ẹrí tí kò léwu, ó sì ti di èyí tí a pa tì dípò kí á rọ́pò rẹ̀. Fífi kókó ìwòye sínú ojúlé ayélujára kan fi gbogbo ìtàn ìṣiṣẹ́ rẹ fún ẹnikẹ́ni tó bá ń ṣiṣẹ́ orí ilé ayélujá yẹn, ìyẹn ni ìgbàgbogbo jẹ́ ọ̀kan lára àwọn àyè mẹ́ta ní ojú-iwe àtijọ́. Gbé kókó wọle sí inú apamọwọ tí o nṣiṣẹ́ dípòi.
+- **zcashblockexplorer.com/vk.** Iṣẹ́ náà dá HTTP 503 padà pẹ̀lú ìwé ẹrí tí kò léwu, ó sì ti di èyí tí a pa tì dípò kí á rọ́pò rẹ̀. Fífi kókó ìwòye sínú ojúlé ayélujára kan fi gbogbo ìtàn ìṣàdálẹ̀ rẹ fún ẹnikẹni tó bá ń ṣiṣẹ́ orí ilé-ayélujáa yẹn, ìyẹn ni ìgbàgbogbo jẹ́ ọ̀kan lára àwọn àyè mẹ́ta ní ojúlówó ojúlé yìí. Gbé kókó wọlé sí inú apamọwọ́ tí o nṣiṣẹ́ dípò rẹ.
 
 ## Àwọn Owó-ìṣúnná owó
 

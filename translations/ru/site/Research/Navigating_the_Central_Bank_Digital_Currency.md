@@ -100,7 +100,7 @@ __Европейский союз: CBDC еврозоны__
 ## Ресурсы: карта для цифрового исследователя
 
 Для тех, кто отправляется на неизведанную территорию CBDC, ресурсы становятся вашим компасом.
-1. Банк международных расчётов ([BIS](https://www.bis.org/search/index.htm?globalset_q=cbdc))
+1. Банк международных расчётов ([BIS](https://www.bis.org/search?keywords=cbdc))
 2. Международный валютный фонд ([IMF](https://www.imf.org/en/About))
 3. Научные статьи ([paper](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Академические журналы ([journal](https://www.bis.org/publ/work976.pdf))

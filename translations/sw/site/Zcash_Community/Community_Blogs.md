@@ -15,7 +15,6 @@ James Katz: Maandishi binafsi na mawazo juu ya Zcash na faragha. [Ziara ->](http
  Upatikanaji wa Thumbs. Updates za kawaida na ufahamu kuhusu mazingira ya mfumo. [Ziara ->](https://thumbsup.substack.com) |
 ◯ kutumia chumba, kutafakari na maudhui ya jamii. [Ziara ->](https://free2z.cash/roommatemusing) |
  NerdBank Blog  Blogu ya kiufundi ililenga maendeleo na zana za Zcash. [Ziara ->](https://blog.nerdbank.net/) |
-Thor anapenda habari, maoni na maelezo juu ya Zcash. [Ziara ->](https://www.thorlikes.com/) |
  ZecMec Zcash-ililenga makala juu ya Medium. [Ziara ->](https://zecmec21.medium.com/) |
 Ian Sagstetter: Makala ya kina na jarida. [Ziara ->](https://iansagstetter.substack.com/) |
 Naomi Brockwell (NBTV) Mahojiano ya hali ya juu na maudhui kuhusu faragha. [Ziara ->](https://naomibrockwell.com/highprofileinterviews) |

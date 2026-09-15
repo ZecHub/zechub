@@ -74,7 +74,7 @@
 [Відвідати](https://www.cipherpay.app/en)
 
 ### Ezcash
-Простий у використанні, багатофункціональний мультиплатформний гаманець Zcash із підтримкою autoshielding.  
+Простий у використанні, багатофункціональний мультиплатформний гаманець Zcash із підтримкою автоматичного екранування.  
 [Відвідати](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet

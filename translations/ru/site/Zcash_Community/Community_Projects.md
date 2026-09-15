@@ -74,7 +74,7 @@
 [Посетить](https://www.cipherpay.app/en)
 
 ### Ezcash
-Простой в использовании, полнофункциональный мультиплатформенный кошелек Zcash с поддержкой autoshielding.  
+Простой в использовании, полнофункциональный мультиплатформенный кошелёк Zcash с поддержкой автоэкранирования.  
 [Посетить](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet

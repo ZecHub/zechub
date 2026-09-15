@@ -90,9 +90,11 @@ Ironwood itifaki msaada na Orchard-kwa-Ironwood uhamiaji alitua katika Zkool 6.2
 zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 ```
 
-Hoja ya pili ni sera rescan: `"whenkeyisnew"` (kupotea), `"yes"` or `"no"`. Tatu ni block urefu rescan kutoka. Zallet inaingiza muhimu kama view-tu akaunti na kufuatilia shughuli zinazoingia na zinazotoka kwa anwani zake bila matumizi ya mamlaka.
+Hoja ya pili ni sera rescan: `"whenkeyisnew"` (kupotea), `"yes"` or `"no"`. Tatu ni block urefu rescan kutoka. Zallet inaagiza muhimu kama view-tu akaunti na kufuatilia shughuli zinazoingia na zinazotoka kwa anwani zake bila matumizi ya mamlaka.
 
 ** Zallet inaagiza Sapling kupanuliwa full viewing funguo tu.** Itakuwa si kuleta a `uview…` kuunganishwa full kuangalia muhimu, hata kama inaweza kusafirisha moja. Kupeleka kusoma upatikanaji wa akaunti nzima umoja, usafirishaji UFVK kutoka Zallet na kuleta ndani ya mkoba kwamba anapokea funguo umoja , kama vile Zkool .
+
+Ili kugeuka muhimu nje katika faili kamili ya shughuli historia, pamoja na txids, ada na memos, angalia [Exporting Transaction History kutoka Viewing Key](/guides/viewing-key-transaction-export).
 
 ## Nini iliyopita, na nini kuacha kuangalia kwa ajili ya
 

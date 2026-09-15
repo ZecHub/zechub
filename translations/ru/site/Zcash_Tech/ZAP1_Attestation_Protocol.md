@@ -42,6 +42,6 @@ ZAP1 — это открытый протокол подтверждения д�
 - SDK для проверки: [crates.io/crates/zap1-verify](https://crates.io/crates/zap1-verify)
 - Декодер сообщений: [crates.io/crates/zcash-memo-decode](https://crates.io/crates/zcash-memo-decode)
 - Спецификация протокола: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
-- Чертеж ZIP: [PR #1243](https://github.com/zcash/zips/pull/1243)
-- Живой API: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
+- Черновик ZIP: [PR #1243](https://github.com/zcash/zips/pull/1243)
+- Рабочий API: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
 - Руководство для оператора: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

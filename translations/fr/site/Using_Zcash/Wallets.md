@@ -64,7 +64,7 @@
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
-- Appareils : Mobile | Bureau
+- Appareils : Mobile | Ordinateur de bureau
 - Système d’exploitation : Android | iOS | Windows
 - Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address
 - Pools : Transparent | Sapling | Ironwood

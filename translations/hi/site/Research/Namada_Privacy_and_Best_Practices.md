@@ -2,8 +2,8 @@
 published: 2025-08-02
 ---
 
-<a href="https://github.com/Zechub/zechub/edit/main/site/Research/Namada_Best_Practices.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
+<a href="https://github.com/Zechub/zechub/edit/main/site/Research/Namada_Privacy_and_Best_Practices.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 ![Namada Logo](/content-images/nam-078c7b6883.webp)

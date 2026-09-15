@@ -15,7 +15,7 @@ Sebbene gli indirizzi TEX non siano ancora ampiamente adottati, gli utenti di Zc
 
 ## Quando Ho Bisogno di un Indirizzo TEX
 
-### Hai **bisogno** di un indirizzo TEX quando invii fondi a un indirizzo Transparent utilizzando un portafoglio che non supporta l'invio diretto a un indirizzo Transparent.
+### Hai **bisogno** di un indirizzo TEX quando invii fondi a un indirizzo Transparent utilizzando un portafoglio che non supporta l'invio diretto a un indirizzo Transparent. 
 Alcuni portafogli semplicemente non consentono di inviare direttamente a un indirizzo Transparent e **il destinatario potrebbe non fornire un equivalente TEX**. Quindi, a volte potrebbe essere necessario **convertire** un indirizzo Transparent in uno TEX. Ciò può essere fatto manualmente eseguendo l'implementazione di riferimento descritta in [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
 
 ### Hai bisogno di un indirizzo TEX quando invii fondi a un exchange centralizzato che **RICHIEDE che quei fondi provengano da una fonte Transparent**.

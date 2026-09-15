@@ -15,7 +15,6 @@ James Katz: Ihe odide onwe onye na echiche banyere Zcash na nzuzo. [Gaa leta ->]
 ◯ Nwelite mkpịsị aka. ❑ Mmelite na nghọta nke usoro okike mgbe nile. [Gaa leta ->](https://thumbsup.substack.com) |
 ◯ ime ụlọ na-eji echiche ndị mmadụ eme ihe nakwa ọdịnaya obodo. [Gaa leta ->](https://free2z.cash/roommatemusing) |
  NerdBank Blog  Technical blog lekwasịrị anya na mmepe Zcash na ngwaọrụ. [Gaa leta ->](https://blog.nerdbank.net/) |
- Thor Likes News, echiche na nkọwa banyere Zcash. [Gaa leta ->](https://www.thorlikes.com/) |
  ZecMec Zcash-lekwasịrị anya isiokwu na Ọkara. [Gaa leta ->](https://zecmec21.medium.com/) |
  Ian Sagstetter  Isiokwu na akwụkwọ akụkọ miri emi. [Gaa leta ->](https://iansagstetter.substack.com/) |
  Naomi Brockwell (NBTV)  Ajụjụ ọnụ ndị dị elu na ọdịnaya gbasara nzuzo. [Gaa leta ->](https://naomibrockwell.com/highprofileinterviews) |
