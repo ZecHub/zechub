@@ -4,7 +4,22 @@
 
 # <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Custodial Exchanges
 
+Ironwood ni hifadhi ya ulinzi ambayo ilifika na upgrades wa mtandao Julai 2026. kubadilishana kwamba tu kushughulikia uwazi t-anwani kamwe kugusa, hivyo wale alama si husika. ambapo kubadilisha hufanya usimamizi anwani kulindwa lakini haijawahi alisema ambayo pool anatumia, mstari anasema badala ya nadhani.
+
 ---
+
+### [Mkoba wa mgongo](https://backpack.exchange)
+
+<a href="https://backpack.exchange">
+    <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
+</a>
+
+- Tovuti: [Mkoba wa mgongo](https://backpack.exchange)
+- jozi: ZEC/USDC. ZEC-PERP
+- Inasaidia: Amana na uondoaji kuwezeshwa. Aina ya anwani haijaonyeshwa
+- Muda wa Amana: Haijaonyeshwa.
+- Mti wa chuma: Haujatajwa.
+___
 
 ### [Binance](https://binance.com)
 
@@ -16,6 +31,7 @@
 - jozi: ALL/ZEC
 - Inasaidia: Uwazi (Tex Anwani Amana)
 - Muda wa kuweka: dakika 20
+- Ironwood: Haihitajiki, anwani za uwazi tu.
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -28,6 +44,7 @@ ___
 - jozi: BTC/ZEC, ETH/ZCE, USDT/ZC, XMR/ZAC, LTC/ZCA, DASH/ZCC.
 - Inasaidia: Uwazi. Imehifadhiwa (z-anwani ya kuweka na kutoa)
 - Muda wa amana: Instant (non-custodial swap)
+- Mti wa chuma: Haujatajwa.
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -40,6 +57,7 @@ ___
 - jozi: ALL/ZEC
 - Inategemea: Uwazi
 - Muda wa Amana: Dakika 25 
+- Ironwood: Haihitajiki, anwani za uwazi tu.
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -52,18 +70,20 @@ ___
 - jozi: ALL/ZEC
 - Inategemea: Uwazi
 - Muda wa amana: dakika 150
+- Ironwood: Haihitajiki, anwani za uwazi tu.
 ___
 
- ### [Jamani ya Kijima](https://gemini.com)
+ ### [Kipepeo wa Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Tovuti: [Gemini](https://gemini.com)
+- Tovuti: [Kipepeo wa Gemini](https://gemini.com)
 - jozi: ALL/ZEC
-- Inasaidia: Uwazi. Kuondoa ulinzi
+- Inasaidia: Uwazi. Kuondoa kwa ulinzi na umoja, Orchard tangu Novemba 2025
 - Muda wa Amana: Dakika 50 
+- Ironwood: Shielded uondoaji mkono, pool si alisema
 ___
 
 ### [Huobi](https://huobi.com)
@@ -76,18 +96,20 @@ ___
 - jozi: ALL/ZEC
 - Inategemea: Uwazi
 - Muda wa Amana: Dakika 35 
+- Ironwood: Haihitajiki, anwani za uwazi tu.
 ___
 
-### [Kraken](https://kraken.com)
+### [Kraken ya Kijapani](https://kraken.com)
 
 <a href="https://kraken.com">
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Tovuti: [Kraken](https://kraken.com)
+- Tovuti: [Kraken ya Kijapani](https://kraken.com)
 - jozi: ALL/ZEC
 - Inategemea: Uwazi
 - Muda wa amana: dakika 60
+- Ironwood: Haihitajiki, anwani za uwazi tu.
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -100,6 +122,7 @@ ___
 - jozi: ALL/ZEC
 - Inategemea: Uwazi
 - Muda wa Amana: Dakika 20 
+- Ironwood: Haihitajiki, anwani za uwazi tu.
 ___
 
 ## [OKEx](https://okex.com)
@@ -112,4 +135,18 @@ ___
 - jozi: ALL/ZEC
 - Inategemea: Uwazi
 - Muda wa Amana: Dakika 25 
+- Ironwood: Haihitajiki, anwani za uwazi tu.
+___
+
+### [Urafiki wa Robinhood](https://robinhood.com)
+
+<a href="https://robinhood.com">
+    <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
+</a>
+
+- Tovuti: [Urafiki wa Robinhood](https://robinhood.com)
+- jozi: USD/ZEC. EUR/ZCE
+- Inasaidia: Kuondoa kwa uwazi tu anwani za t. Amana ya ZEC haitumiki
+- Muda wa Amana: amana si mkono
+- Ironwood: Haihitajiki, anwani za uwazi tu.
 ___

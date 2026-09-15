@@ -1,10 +1,25 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Custodial_Exchanges.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   カストディアル取引所
 
+Ironwoodは、2026年7月のネットワークアップグレードで導入されたシールドプールです。透明なtアドレスのみを扱う取引所はこれに関与しないため、該当なしと記載されています。取引所がシールドアドレスを扱う一方で、使用するプールを明らかにしていない場合は、推測せずその旨を記載しています。
+
 ---
+
+### [Backpack](https://backpack.exchange)
+
+<a href="https://backpack.exchange">
+    <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
+</a>
+
+- ウェブサイト: [Backpack](https://backpack.exchange)
+- 取引ペア: ZEC/USDC | ZEC-PERP
+- 対応: 入金および出金が有効。アドレスの種類は明記されていません
+- 入金時間: 明記されていません
+- Ironwood: 明記されていません
+___
 
 ### [Binance](https://binance.com)
 
@@ -13,9 +28,10 @@
 </a>
 
 - ウェブサイト: [Binance](https://binance.com)
-- 通貨ペア: ALL/ZEC
-- 対応: 透明 (TEX アドレス入金)
-- 入金時間: 20 分
+- 取引ペア: ALL/ZEC
+- 対応: 透明（TEXアドレス入金）
+- 入金時間: 20分
+- Ironwood: 透明アドレスのみのため該当なし
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -25,9 +41,10 @@ ___
 </a>
 
 - ウェブサイト: [BitcoinVN](https://bitcoinvn.io)
-- 通貨ペア: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- 対応: 透明 | 隠蔽 (z-address 入金 & 出金)
-- 入金時間: 即時 (非所有者付きスワップ)
+- 取引ペア: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- 対応: 透明 | シールド（zアドレスへの入金・出金）
+- 入金時間: 即時（ノンカストディアルスワップ）
+- Ironwood: 明記されていません
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -37,9 +54,10 @@ ___
 </a>
 
 - ウェブサイト: [Bitfinex](https://bitfinex.com)
-- 通貨ペア: ALL/ZEC
+- 取引ペア: ALL/ZEC
 - 対応: 透明
-- 入金時間: 25 分 
+- 入金時間: 25分 
+- Ironwood: 透明アドレスのみのため該当なし
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -49,9 +67,10 @@ ___
 </a>
 
 - ウェブサイト: [Coinbase](https://coinbase.com)
-- 通貨ペア: ALL/ZEC
+- 取引ペア: ALL/ZEC
 - 対応: 透明
-- 入金時間: 150 分
+- 入金時間: 150分
+- Ironwood: 透明アドレスのみのため該当なし
 ___
 
  ### [Gemini](https://gemini.com)
@@ -61,9 +80,10 @@ ___
 </a>
 
 - ウェブサイト: [Gemini](https://gemini.com)
-- 通貨ペア: ALL/ZEC
-- 対応: 透明 | 隠蔽出金
-- 入金時間: 50 分 
+- 取引ペア: ALL/ZEC
+- 対応: 透明 | シールドおよび統合型出金、2025年11月以降はOrchard
+- 入金時間: 50分 
+- Ironwood: シールド出金に対応、プールは明記されていません
 ___
 
 ### [Huobi](https://huobi.com)
@@ -73,9 +93,10 @@ ___
 </a>
 
 - ウェブサイト: [Huobi](https://huobi.com)
-- 通貨ペア: ALL/ZEC
+- 取引ペア: ALL/ZEC
 - 対応: 透明
-- 入金時間: 35 分 
+- 入金時間: 35分 
+- Ironwood: 透明アドレスのみのため該当なし
 ___
 
 ### [Kraken](https://kraken.com)
@@ -85,9 +106,10 @@ ___
 </a>
 
 - ウェブサイト: [Kraken](https://kraken.com)
-- 通貨ペア: ALL/ZEC
+- 取引ペア: ALL/ZEC
 - 対応: 透明
-- 入金時間: 60 分
+- 入金時間: 60分
+- Ironwood: 透明アドレスのみのため該当なし
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -97,9 +119,10 @@ ___
 </a>
 
 - ウェブサイト: [KuCoin](https://kucoin.com)
-- 通貨ペア: ALL/ZEC
+- 取引ペア: ALL/ZEC
 - 対応: 透明
-- 入金時間: 20 分 
+- 入金時間: 20分 
+- Ironwood: 透明アドレスのみのため該当なし
 ___
 
 ## [OKEx](https://okex.com)
@@ -109,7 +132,21 @@ ___
 </a>
 
 - ウェブサイト: [OKEx](https://okex.com)
-- 通貨ペア: ALL/ZEC
+- 取引ペア: ALL/ZEC
 - 対応: 透明
-- 入金時間: 25 分 
+- 入金時間: 25分 
+- Ironwood: 透明アドレスのみのため該当なし
+___
+
+### [Robinhood](https://robinhood.com)
+
+<a href="https://robinhood.com">
+    <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
+</a>
+
+- ウェブサイト: [Robinhood](https://robinhood.com)
+- 取引ペア: USD/ZEC | EUR/ZEC
+- 対応: 透明なtアドレスへの出金のみ。ZECの入金には対応していません
+- 入金時間: 入金には対応していません
+- Ironwood: 透明アドレスのみのため該当なし
 ___
