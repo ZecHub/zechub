@@ -137,3 +137,16 @@ zh/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f33
 # both changes — no netlify.app link, and the zips.z.cash/zip-0320 link present —
 # matching de/fr/es, so it is current for this English and only its record lagged.
 it/Using_Zcash/Transparent_Exchange_Addresses.md  sha256:fe0254bf6be14512e4f15a5ab37a27e05d247b10e8cddfd3cecaeafc2bc2685a  sha256:65f9ae56b8cb2272733e0291337c8d9a8266ddaa01b54ab33ed79f54c944706f
+
+# Verified 2026-09-15. Two English edits to the CBDC page repointed dead links —
+# the BIS search URL (680979c5) and the SSRN paper URL (d94e3c16) — and #2077
+# propagated both into all 18 locales without advancing their records. Each of
+# these six carries the new BIS link and the new SSRN link and neither dead one,
+# and both English commits changed exactly one link line and no prose, so there
+# is nothing else the translations could be behind on.
+zh/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:5fecc868e99c99c33aad06c0c9e026ec9d21ced0badab864056592f2c0a72108
+fr/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:71351414cc22d44b76353acf942f0ac57f13435a9981ceec2f299ba513d702d7
+de/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:5895c5f115ea3391473d97f91cac4d10c406149cac5e484e4aab1c7fe7562590
+es/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:025d31fc6cadb4c28009903d1ca3baeeb1cf8f9539ca1124904a995cf2383a0c
+pt/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:99049642eb0f1159c38e760ca8611bc1f4ee7d8fa2e20d6127b742c95b919d04
+ko/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:071844ee301a78d0ed6d9eaa2cb9abcf692f452cdaa39a5855553dec60a3d5c6
