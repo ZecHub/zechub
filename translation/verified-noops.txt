@@ -137,3 +137,29 @@ zh/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f33
 # both changes — no netlify.app link, and the zips.z.cash/zip-0320 link present —
 # matching de/fr/es, so it is current for this English and only its record lagged.
 it/Using_Zcash/Transparent_Exchange_Addresses.md  sha256:fe0254bf6be14512e4f15a5ab37a27e05d247b10e8cddfd3cecaeafc2bc2685a  sha256:65f9ae56b8cb2272733e0291337c8d9a8266ddaa01b54ab33ed79f54c944706f
+
+# Verified 2026-09-15. Two English edits to the CBDC page repointed dead links —
+# the BIS search URL (680979c5) and the SSRN paper URL (d94e3c16) — and #2077
+# propagated both into all 18 locales without advancing their records. Each of
+# these six carries the new BIS link and the new SSRN link and neither dead one,
+# and both English commits changed exactly one link line and no prose, so there
+# is nothing else the translations could be behind on.
+zh/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:5fecc868e99c99c33aad06c0c9e026ec9d21ced0badab864056592f2c0a72108
+fr/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:71351414cc22d44b76353acf942f0ac57f13435a9981ceec2f299ba513d702d7
+de/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:5895c5f115ea3391473d97f91cac4d10c406149cac5e484e4aab1c7fe7562590
+es/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:025d31fc6cadb4c28009903d1ca3baeeb1cf8f9539ca1124904a995cf2383a0c
+pt/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:99049642eb0f1159c38e760ca8611bc1f4ee7d8fa2e20d6127b742c95b919d04
+ko/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:071844ee301a78d0ed6d9eaa2cb9abcf692f452cdaa39a5855553dec60a3d5c6
+
+# Verified 2026-09-15, same page and same two English edits as the six above —
+# this list was originally cut to the locales stale at the time and the other
+# twelve were simply missed. Each of these eight carries the new BIS link, the
+# new SSRN link and neither dead one.
+ak/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:39d6935915c0f353dc36c4a5128d10fd904265a867ba12438eed0b7a3b6cf275
+ee/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:8acda7b4fdf46e605558d20056b1d621fa1bb5ab350d756498bb9086a8e84abc
+hi/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:4f4f9f74e39cad40678a149341eb4db97051828e135cc4e69852aa648fd28edb
+ig/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:1b435ee568a97be0bfbd729fa0069333c06845061bf5bde35cc5f188f18d2364
+sw/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:377379ec67f46aeb6f38e86bf0296cf2e03cb3e2cb722dc1fecf24a20dbacb18
+tr/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:981e9b6b23eac0e9be8d29c24f8251862405ef784c6484c51a3f79015dec9172
+uk/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:f6c61b77673b1d3e3a26950f9d9cb42d47ea6f3eb9eaa80c4806cb6653b70fd4
+yo/Research/Navigating_the_Central_Bank_Digital_Currency.md  sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350  sha256:68fc497012551250af5a9621cda1ec47c6c8d7b8d9c90f022d3450fddf05730d
