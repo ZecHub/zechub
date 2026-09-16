@@ -102,6 +102,6 @@ Zcash may not boast of a community as large as Monero or an extensive merchant b
 - Shawn; Lead moderator Zcash Community Forum. (2025). 
 - X Platform Sentiment Analysis. (2025, July). Internal dataset. 
 - Zcash Community Hub. (2025). Community updates and engagement statistics. https://z.cash
-- Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zcashfoundation.org/blog/
+- Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zfnd.org/blog/
 - Zechub. (2025).  Zechub dashboard chart.
 
