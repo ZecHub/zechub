@@ -1,85 +1,85 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/zimppy.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zimppy.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zimppy.xyz ƒe agbalẽ
+# Zimppy.xyz (Adzesiwo ƒe ŋkɔwo)
 
 ## TL;DR
 
-- **Zimppy** nye adzamenyawo gbã ƒe fexexe ƒe ɖoɖo na AI dɔwɔlawo zãa Zcash ƒe Mɔ̃ Fexexe ƒe Ðoɖo (MPP) .
-- **De ga zi ɖeka** le kɔsɔkɔsɔ dzi (~ sɛkɛnd 75), emegbe nàwɔ **seɖoƒemanɔsitɔ enumake biabia** kple biabia ɖesiaɖe blockchain kadodo aɖeke o
-- Doa alɔ **Zcash (Orchard)** fexexe siwo wokpɔ ta na bliboe — ame si ɖoe ɖa, amesi xɔe, ga home, kple nuŋlɔɖiwo katã nye nya ɣaɣlawo
-- Ewɔa dɔ kple **TypeScript kple Rust SDKs** hena ɖekawɔwɔ bɔbɔe ɖe AI pɔmpiwo kple API dɔdzikpɔlawo me
-- De blibo na **LLM APIwo, nyatakakawo ƒe asiwo, MCP dɔwɔnu dɔwɔƒewo**, kple M2M fexexe zazã ƒe nɔnɔme ɖesiaɖe
+- Zimppy nye nuxexlẽ ƒe mɔnu si le agbe me koŋ na AI dɔwɔlawo to Zcash's Machine Payment Protocol (MPP) dzi.
+- ** Deposit once** on-chain (~75 seconds), then make ** unlimited instant requests** with no per-request blockchain interaction * Ðe ga zi ɖeka le kɔsiɖa dzi, eye nàna ame sia ame nabia nu enumake*
+- Xexea me katã ƒe nufialawo kple ame siwo le wo dome la lɔ̃na be yewoazã Zcash (Orchard) tsɔ axe fewo. Woɖea dzesi na amewo to nyatakaka si woŋlɔ ɖi dzi, eye wokpɔa ga home si woaxe ɖe dɔwɔla aɖe ŋu hã dzea sii bɔbɔe.
+- Ewɔa dɔ kple TypeScript kpakple Rust SDKs hena ɖekawɔwɔ bɔbɔe le AI pipelines kple API serverwo me.
+- Edea blibo na LLM APIwo, Data Marketplaces kple MCP dɔwɔnu ƒe servers** kpakple m2m fexexenu ɖesiaɖe zazã.
 
 ---
 
-> **Zimppy** nye Machine Payment Protocol (MPP) fexexe mɔnu na Zcash si doa alɔ fexexe si wokpɔ ta na kple esi le gaglãgbe siaa. De ga zi ɖeka le kɔsɔkɔsɔ me, emegbe nàwɔ seɖoƒemanɔsitɔ enumake bearer biabiawo kple biabia ɖesiaɖe ƒe kɔsɔkɔsɔ ƒe kadodo aɖeke o.
+> **Zimppy** nye Machine Payment Protocol (MPP) fexeɖoɖo si le Zcash me, eye wòkpena ɖe ga siwo woxea mɔ na kple esiwo dzi wokpɔna la siaa ŋu. Deposit once on-chain, then make unlimited instant bearer requests with no per-request chain interaction.
 
 ---
 
-## Emenyawo ƒe Tabla
+## Eƒe Akpawo
 
 1. [Nukae nye Zimppy.xyz?](#what-is-zimppyxyz)
-2. [Nukatae Woxea Fe Siwo Wokpɔna Na AI Dɔwɔlawo?](#why-shielded-payments-for-ai-agents)
-3. [Mɔ̃wo ƒe Fexexe Ŋuti Ðoɖo (MPP) .](#machine-payment-protocol-mpp)
+2. [Nukatae Woɣla Ame Siwo Wɔa Amegbetɔmenunya Ƒe Dɔwɔƒewo ƒe Fetu?](#why-shielded-payments-for-ai-agents)
+3. [Machine Payment Protocol (MPP) Dzadzraɖowɔƒe ƒe Fewo Gbɔkpɔdɔdzikpɔƒea](#machine-payment-protocol-mpp)
 4. [Alesi Zimppy Wɔa Dɔe](#how-zimppy-works)
-   - [Kpekpewo (Wokafui) .](#sessions-recommended)
-   - [Ele ʋuʋum](#streaming)
-   - [Febubu](#charge)
-5. [Zã Nyawo & Kpɔɖeŋuwo](#use-cases--examples)
-6. [Eɖoɖo ɖe dɔa me](#installation)
-7. [Zimppy Gakotokua Ðoɖo Ðe Ðoɖo Nu](#setting-up-the-zimppy-wallet)
-8. [Zimppy ƒe ɖekawɔwɔ](#integrating-zimppy--typescript-sdk)
-   - [Server (Wokpɔ ta na) .](#typescript-server--shielded)
-   - [Server (Nu si me kɔ) .](#typescript-server--transparent)
-   - [Asisi](#typescript-client)
-9. [Zimppy - Rust SDK ƒe ƒoƒo ɖekae](#integrating-zimppy--rust-sdk)
-   - [Dɔwɔƒe (Axum) .](#rust-server-axum)
-   - [Asisi](#rust-client)
-10. [CLI ƒe Nyatakaka](#cli-reference)
-11. [Nɔnɔme Veviwo](#key-features)
-12. [Xɔtata](#architecture)
-13. [Kpɔɖeŋuwo & Demos](#examples--demos)
+   - [Kpekpewo (Aɖaŋuɖoɖo)](#sessions-recommended)
+   - [Gbeɖoɖoɖi](#streaming)
+   - [Fetu si woxɔna ɖe eta](#charge)
+5. [Zã Nuteƒekpɔkpɔwo Kple Kpɔɖeŋuwo](#use-cases--examples)
+6. [Ðoɖowɔƒewo](#installation)
+7. [Zimppy Akpataa Ðoɖo](#setting-up-the-zimppy-wallet)
+8. [Zimppy ƒe Ŋutilãdɔwɔwɔ](#integrating-zimppy--typescript-sdk)
+   - [Subɔvi (Kpɔm)](#typescript-server--shielded)
+   - [Server (Kpɔɖonu)](#typescript-server--transparent)
+   - [Ame si le xɔme](#typescript-client)
+9. [Zimppy - Rust SDK ƒe ƒokpliwɔwɔ](#integrating-zimppy--rust-sdk)
+   - [Subɔvi (Axum)](#rust-server-axum)
+   - [Ame si le xɔme](#rust-client)
+10. [CLI Ŋkɔwo](#cli-reference)
+11. [Eƒe Nɔnɔme Veviwo](#key-features)
+12. [Xɔtutuwo](#architecture)
+13. [Kpɔɖeŋuwo Kple Numedzodzrowo](#examples--demos)
 
 ---
 
 ## Nukae nye Zimppy.xyz?
 
-**Zimppy.xyz** nye adzamenyawo gbã fexexe ƒe ɖoɖo si wowɔ koŋ na AI dɔwɔlawo kple automated machine-to-machine (M2M) dɔwɔwɔ ƒe ɖoɖowo. Ewɔa **Mɔ̃ ƒe Fexexe ƒe Ðoɖo (MPP)** ŋudɔ tsɔ zãa **Zcash** abe eƒe ga si le ete ene, si wɔnɛ be woate ŋu awɔ fexexe ƒe mɔnu siwo wokpɔ ta na (siwo nye ame ŋutɔ tɔ bliboe) kple esiwo le gaglãgbe siaa.
+Zimppy.xyz nye nuxexlẽ ƒe ɖoɖo si le agbe me koŋ eye wowɔe ɖe AI dɔlawo kple mɔ̃-to-mɔ̃ (M2M) dɔwɔwɔ ŋu tẽe la dzi. Ewɔa Mɔ̃wo Ƒe Fetuɖoɖo Ŋuti Ðoɖoɖi (MPP) ŋudɔ tsɔna zãa Zcash abe ga si wotsɔ wɔa eƒe dɔwɔŋutɔe ene, esia wɔnɛ be wote ŋu kpɔa teƒe na wo ɖokui nyuie hewɔa mɔnu siwo nana wokpɔa nuwo gbɔ bɔbɔe hã.
 
-To vovo na blockchain fexexe ƒe ɖoɖo xoxowo, afisi asitsatsa ɖesiaɖe dzena le dutoƒo le kɔsɔkɔsɔ me la, wowɔ Zimppy wòƒo xlã xɔtuɖoɖo si wotu ɖe ɣeyiɣi dzi si ɖea biabia ɖesiaɖe ƒe ɣeyiɣi didi ɖa esime wòléa nya ɣaɣlawo ƒe adzamenyawo ta. Esia na wòsɔ etɔxɛ na AI dɔwɔla siwo hiã be woaxe fe ɖe APIwo, nyatakakawo, akɔntabubu, alo AI dɔwɔnuwo ta le ɖoɖowɔɖi nu, evɔ womaɖe nuwɔna ŋuti nyatakaka siwo do go o.
+To vovo na blockchain ƒe fexeɖoɖo si me wokpɔa nu sia nu le ame dome la, Zimppy ya to ɖoɖowɔɖi aɖe dzi eye wòɖea didi ɖewoɖewoe ɖa. Esia wɔe be ele etɔxɛ ŋutɔ hena AI dɔwɔlawo siwo hiã APIwo, nyatakakawo, kɔmpiuta alo AI dɔwɔnu aɖewo zazã atsɔ axe fea wo ɖokui ŋu dɔe evɔ womana amewo nanya woƒe nuwɔna ŋuti metadata o.
 
-### Nɔnɔme Veviwo
+### Eƒe Nɔnɔme Veviwo
 
-- **De ga zi ɖeka** le kɔsɔkɔsɔ dzi (~ sɛkɛnd 75 na Zcash ƒe kpeɖodzi)
-- **Seɖoƒemanɔsitɔ enumake biabia** le ɣeyiɣia ƒe ʋuʋu megbe, zero ɖesiaɖe-biabia kɔsɔkɔsɔ ƒe kadodo
-- **Fexexe siwo wokpɔ ta na** tsɔ nya ɣaɣlawo ɣla ame si ɖoe ɖa, amesi xɔe, ga home, kple nuŋlɔɖi to Zcash ƒe Orchard ɖoɖowɔɖi zazã me
-- **Fexexe si me kɔ** zã T-adrɛs siwo le kuxi ɖesiaɖe me hena mɔxexe ɖe enu gbugbɔgaƒoƒo nu adzamenyawo blibo manɔmee
-- **Spec-wɔ ɖeka**, HMAC-SHA256 ƒe kuxiwo, RFC 9457 ƒe vodadawo, `/.well-known/payment` nusi ŋu woke ɖo
+- ** Deposit once** on-chain (~75 seconds for Zcash confirmation) {Ðe ga ɖe nu zi ɖeka le kɔsiɖa me}
+- **Aƒeme didi siwo me seɖoƒe meli na o** le kpekpea ƒe gɔmedzedze megbe, nuwɔwɔ aduadu aɖeke mele biabia ɖesiaɖe ŋu o.
+- **Gbagbadzedzewo** tsɔa Zcash ƒe Orchard ɖoɖowɔɖi ɖea ame si ɖo ga ɖe wo me, amesi xɔe kple eƒe homea dzi kpɔtɔna le adzame.
+- **Tagbanɔamedziwo ƒe fexexlẽ** zãa T-adrɛs siwo le te ɖe kuxi ɖesiaɖe dzi tsɔ xea mɔ na wo me toto ake evɔ womena ame aɖeke ŋuti nyatakaka o.
+- **Spec-me nuwɔwɔ**, HMAC SHA256 ƒe kuxiwo, RFC 9457 vodadawo, `/.well-known/payment` nu yeyewo kpɔkpɔ gɔme
 
 ---
 
-## Nukatae Woxea Fe Siwo Wokpɔna Na AI Dɔwɔlawo?
+## Nukatae Woɣla Ame Siwo Wɔa Amegbetɔmenunya Ƒe Dɔwɔƒewo ƒe Fetu?
 
-Le AI dɔwɔla siwo kpɔa dɔwɔwɔ ƒe ɖoɖo veviwo gbɔ, senyawo ŋuti numekuku, atikewɔwɔ ŋuti nyabiasewo, ganyawo me dzodzro, hoʋiʋli ƒe nunya na **dukɔa ƒe fexexe ɖesiaɖe nye metadata leak**. Zimppy nye MPP fexexemɔnu ɖeka kolia si nye **ame ŋutɔ tɔ le gɔmedzedzea me**.
+Le AI dɔwɔla siwo wɔa nu le dɔwɔɖoɖowo, senyawo me numekukuwo, atikewɔwɔ ŋuti nyawo biabia, gaŋutidɔdrɔ̃ kple hoʋiʋli ƒe nyagbɔgblɔ ŋu la, "xexea me nudzɔdzɔ ɖe sia ɖe nyea metadata si woɖea ɖa". Zimppy koe nye MPP-fetu ɖoɖo ɖeka kolia si dzi wotona ƒoa asi ɖo be enye ameɖokui tɔ.
 
-### Ameŋunyatakakawo Tsɔtsɔ Sɔ Kple Wo Nɔewo ƒe Tabla
+### Ame Ŋuti Nyawo Gbɔ Kpɔkpɔ Ƒe Afɔɖeɖe ƒe Kpɔdzesi
 
-| Nuwo ƒe nunɔamesiwo | Dutoƒo Kɔsɔkɔsɔwo (USDC, ETH) | Zimppy ƒe Akpoxɔnu | Zimppy Transparent |
+▪ Nunɔamesi ● Dukɔwo ƒe Kɔntabubu (USDC, ETH) • Zimppy Akpɔkplɔ̃e * Zimppy Dzadzɛ.
 |---|---|---|---|
-| **Dɔdɔla** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | Nukpɔkpɔ |
-| **Amexɔla** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | Kuxi ɖesiaɖe (si womate ŋu aƒo ka na o) |
-| **Agbɔsɔsɔme** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | Nukpɔkpɔ |
-| **Ŋkuɖodzinya** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | N/A |
-| **Gbugbɔgaƒoƒo Takpɔkpɔ** | Ðeke meli o | Memo ƒe babla | Per-kuxi T-adrɛs |
-| **Subɔsubɔdɔ Zazã ƒe Kpɔɖeŋu** | Kadodo kple kadodo | Ame ŋutɔ tɔ | Womate ŋu aƒo ka na o (adr yeye) |
+** Amesi ɖo wo ɖa**. Edzena le gota me. Woŋlɔe ɖe agbalẽa me. Edze ƒãa be ame sia amee kpɔ nu si woŋlɔ la dze sii.
+** Amesi xɔe** Edzena. Wode dzesi eŋu. Ne wohe nya ɖe ame ŋu la, womate ŋu ada ka kplii o.
+** Amount** Dzena. Encrypted. dzena.
+** Memo**. Edzena le gota. Wodee ɖe nugbugbɔ me N/A.
+**Gbugbɔƒle Kpɔkpɔ** Naneke meli o. Memo dzi wɔwɔe. T-adrɛs ɖe gbetɔame nu
+**Subɔsubɔdɔ Zazã ƒe Mɔnu** Lɔ̃na be woado ka kplii. Ameŋkumemakpɔmakpɔe. Womate ŋu ado ka kpli o (fresh addr)
 
-### Latency Kuxia, si Wokpɔ To Sessions dzi
+### Woɖe Nuwo Gbɔ Kpɔkpɔ ƒe Kuxia Ða To Ŋkuléle Ðe Eŋu Me
 
-> *"Gake Zcash ƒe sɛkɛnd 75 ƒe block ɣeyiɣiwo le esi."*
+> Gake Zcash ƒe ɣeyiɣi didi nyea sekɛnd 75". *
 
-**Sessions solve this.** Lala le kɔsɔkɔsɔ dzi dzɔna **zi ɖeka** pɛpɛpɛ le gadede asi me. Nubiabia ɖesiaɖe si kplɔe ɖo la nyea enumake.
+** Sessionwo kpɔa nya sia gbɔ.** Ne ame aɖe ɖo ga ɖe gadzraɖoƒe la, ɖeko wòalala ɣeawokatãɣi. Biabia siwo va le emegbe katã nyea nu si wowɔna enumake.
 
 ```
 Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
@@ -91,39 +91,39 @@ Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  close session                 (refund unused balance)
 ```
 
-**Xe zi ɖeka, yɔ enumake, gbugbɔ tɔtrɔa.** Per-request latency is zero.
+**Xe ga zi ɖeka, yɔ enumake eye nàxɔ gaku la.** Ga ƒe didime le dɔbiagbalẽa dzi nye 0.
 
 ---
 
-## Mɔ̃ ƒe Fexexe ƒe Ðoɖowɔɖi (MPP) .
+## Machine Payment Protocol (MPP) Dzadzraɖowɔƒe ƒe Fewo Gbɔkpɔdɔdzikpɔƒea
 
-**Mɔ̃ ƒe Fexexe ƒe Ðoɖo (MPP)** nye ɖoɖo si wowɔ ɖe ɖoɖo nu si na be kɔmpiutadziɖoɖowo ƒe dɔwɔla siwo le wo ɖokui si (AI dɔwɔlawo, bots, scripts) te ŋu kea ɖe fexexe ƒe nudidiwo ŋu, wɔa ɖoɖo ɖe wo ŋu, eye wowɔa wo dzi na API ƒe gege ɖe eme katã amegbetɔ ƒe nudede eme manɔmee.
+Machine Payment Protocol (MPP) nye ɖoɖo si dzi wotrɔ asi le be wòana mɔ̃ɖaŋunu siwo wɔa dɔ tso wo ɖokui ŋu la (AI dɔwɔlawo, bɔtwo kple nuŋlɔtiwo) nate ŋu akpɔ nu adze sii ahawɔ ɖeka kpli ame bubuwo eye woaxe fe ɖe API ƒe mɔnu sia zazã ta. Ame aɖeke menɔa eme o.
 
-### Alesi MPP Wɔ Ðeka Kple APIwoe
+### Alesi MPP wɔa dɔ le APIwo me
 
-MPP zɔna ɖe HTTP **402 Fexexe si Hiã** ƒe sisi dzi:
+MPP zɔna le HTTP **402 Payment Required** ƒe ɖoɖo nu:
 
-1. **Agent bia** dɔwɔnu aɖe tso API ƒe nuwuƒe si woxe fe na.
-2. **Server ɖoa eŋu** kple `402 Payment Required` + gbetɔame si wode asi ete (ga home, amesi xɔe, nuŋlɔɖi).
-3. **Agent xea fe** to fexexemɔnu si sɔ zazã me (e.g., Zimppy shielded Zcash).
-4. **Agent gadze agbagba** biabia la kple `Authorization: Payment {txid}`.
-5. **Server ɖoa kpe** fexexea dzi to nya ɣaɣlawo me (Orchard IVK decryption, ga home + memo check).
-6. **Server ɖoa eŋu** kple `200 OK` + a `Payment-Receipt` tanya ƒe tanya.
+1. **Agent biaa** nu tso API ƒe nuwuwu si woxe fe na la gbɔ.
+2. **Subɔla ɖo eŋu** kple: `402 Payment Required` + agbalẽ si dzi woŋlɔ nu ɖo (xexea, amesi woxɔe na, nyatakaka).
+3. **Agent la xea fe** to mɔnu si sɔ dzi (le kpɔɖeŋu me, Zimppy ƒe Zcash si ŋu wotrɔ asi le).
+4. **Agent la gbugbɔ biaa nya sia le ame si gbɔ wòbiae be wòaɖo ye ŋu. `Authorization: Payment {txid}`.
+5. **Subɔla la léa ga si woxe ɖe asi me to asitelefon dzi (Orchard IVK ƒe nya ɣaɣlawo, agbɔsɔsɔ kple nyatakakawo).
+6. **Subɔla ɖo eŋu** kple: `200 OK` + a `Payment-Receipt` ta. - Kpɔ etenuŋɔŋlɔa ɖa.
 
-### Spec ƒe Sedziwɔwɔ
+### Numeɖeɖewo Dzi Wɔwɔ
 
-- **HMAC-SHA256** gbetɔame ƒe asidede agbalẽ te
-- **RFC 9457** ɖoɖowɔɖi ƒe vodada ƒe ŋuɖoɖowo
-- **`/.well-known/payment`** nuwuƒe na fexexemɔnu si ŋu woke ɖo le eɖokui si
-- **Orchard IVK** (Incoming Viewing Key) na server-side fexexe ƒe kpeɖodzi evɔ womaɖe gazazã ƒe safuiwo ɖe go o
+- **HMAC-SHA256** nyaŋuɖoɖo ƒe asiɖeɖe ɖe ame ŋu
+- **RFC 9457** vodada ƒe ŋuɖoɖowo le ɖoɖo nu.
+- **`/.well-known/payment`** nuƒleƒe si wotsɔna kpɔa mɔ̃ siwo dzi woato awɔ fewo la le eɖokui si.
+- **Orchard IVK** (Incoming Viewing Key) na server-side payment verification si me woana gaƒlelawo ƒe safuiwo nado o.
 
 ---
 
 ## Alesi Zimppy Wɔa Dɔe
 
-### Kpekpewo (Wokafui) .
+### Kpekpewo (Aɖaŋuɖoɖo)
 
-Sessions ye nye nuwɔwɔ aduadu ƒe ɖoɖo vevitɔ. Dɔwɔla la tsɔa ga si susɔ la dea kɔsɔkɔsɔ me zi ɖeka, xɔa bearer token, eye wòzãnɛ na biabia siwo katã kplɔe ɖo le zero latency me.
+Session nye nuwɔwɔ kple ame ƒe ɖoɖo gbãtɔ. Ame si wɔa dɔ sia dea ga home aɖe asi na wo zi ɖeka, eye ne exɔ eƒe akpa dzi la, edoae ɖe esi me wòna nyatakakawo le ɣeyiɣi kpui aɖe megbe ko hafi va zãnɛ tsɔ ɖoa nyawo ɖa.
 
 ```
 Agent  ->  deposit 100,000 zat           (on-chain, ~75s one-time)
@@ -133,13 +133,13 @@ Agent  ->  GET /api/query + bearer       (instant, balance deducted)
 Agent  ->  close session                 (refund unused balance on-chain)
 ```
 
-**Enyo wu na:** API yɔyɔ siwo ƒe ɣeyiɣi deŋgɔ, LLM nutsotso, nyatakakawo biabia enuenu.
+**Eyo na:** High-frequency API calls, LLM inference, repeated data queries.
 
 ---
 
-### Streaming ƒe ʋuʋu
+### Gbeɖoɖoɖi
 
-Fexexe ɖe dzesi ɖesiaɖe ƒe mita me nyawo tsɔtsɔ yi to **Server-Sent Events (SSE)** dzi. Server la ɖea ga si susɔ tso session balance me le nya alo token ɖesiaɖe si woɖe ɖe go me.
+Pay-per-token metered content delivered over **Server-Sent Events (SSE)**. Server la ɖea nu le session balance dzi ɖe nya alo tokens si woɖona ta.
 
 ```
 Agent  ->  open session with deposit
@@ -148,13 +148,13 @@ Server ->  stream word by word, deducting per token
 Agent  ->  close session, refund remaining
 ```
 
-**Enyo wu na:** LLM ƒe sisi ƒe ŋuɖoɖowo, ɣeyiɣi ŋutɔŋutɔ me nyatakakawo ƒe nuɖuɖu, fexexe ɖe dzesi ɖesiaɖe ƒe AI dɔwɔnuwo.
+**Nɔnɔme nyui na:** LLM ƒe nyaŋuɖoɖowo, ɣeyiɣi ŋutɔŋutɔ me nyatakaka siwo woɖena ɖe ame dzi, kple nuwɔwɔ si de blibo ŋuti dɔwɔnu siwo wotsɔna xea fe le ga ta.
 
 ---
 
-### Febubu
+### Fetu si woxɔna ɖe eta
 
-Fexexe ɖeka si wokpɔ ta na le biabia ɖesiaɖe me. Wowɔa HTTP 402 ƒe sisi bliboa le yɔyɔ ɖesiaɖe me. Esɔ ne nubiabiawo mebɔ o alo ne asixɔxɔ gã aɖe le wo ŋu.
+Axe ɖeka si dzi woxɔna ɖo le biabia ɖesiaɖe ta. HTTP 402 ƒe ɖoɖo blibo la katã yia edzi ɖe yɔyɔ sia ŋu zi ɖeka. Edea ame ne ebiabiawo mebɔ o alo woƒe asixɔxɔ sɔ gbɔ ŋutɔ.
 
 ```
 Agent  ->  GET /api/resource
@@ -165,15 +165,15 @@ Server ->  decrypt with Orchard IVK, verify amount + memo
 Server ->  200 OK + Payment-Receipt
 ```
 
-**Enyo wu na:** Asixɔxɔ gã zi ɖeka ƒe biabiawo, API yɔyɔ siwo mebɔ o, premium data ƒe nuwuƒewo.
+**Eyo na:** Nu siwo hiã vevie, nu ɖekaɖekawo wɔwɔ, API ƒe yɔyɔ si mebɔ o, kple nyatakaka vevi bubuwo.
 
 ---
 
-## Zã Nyawo & Kpɔɖeŋuwo
+## Zã Nuteƒekpɔkpɔwo Kple Kpɔɖeŋuwo
 
-### 1. AI ƒe Dɔwɔla
+### 1. Ŋutete si Le Ame Si
 
-AI dɔwɔla aɖe si le se nu biaa nya tso nyadɔdrɔ̃ ŋuti nyatakakadzraɖoƒe si woxea fe na. Zimppy shielded sessions zazã me la, senyawo gbɔ kpɔƒea ƒe amenyenye alo nyabiase tɔxɛawo medzena le kɔsɔkɔsɔ me o - si kpɔa senyala-asisi ƒe mɔnukpɔkpɔ ta le xɔtuɖaŋu ƒe ɖoɖo nu.
+Aɖaŋuwɔla si zãa numekugbalẽwo la bia nya tso ʋɔnudrɔ̃nya siwo ŋu wowɔ ɖoɖo ɖo le se nu me. Ne Zimppy ƒe dɔwɔƒe na wo ŋuti nyatakakawo va dze go ko la, womate ŋu akpɔ ame alo dɔdzikpɔlawo o - esia kpɔa senyawo kple nyawo dzi nyuie le mɔɖaŋunuwo dome.
 
 ```
 Agent opens session (100,000 zat deposit)
@@ -183,34 +183,34 @@ Agent opens session (100,000 zat deposit)
 Session closed, unused balance refunded
 ```
 
-### 2. AI Dɔwɔla na Atikewɔwɔ Nyabiase Tɔdzisasrã
+### 2. Dɔwɔƒe si kpɔa atikewo ƒe nyawo gbɔ le Internet dzi.
 
-Atikewɔlawo ƒe dɔlélenutsiŋutete biaa nya tso atikewɔƒewo ƒe nyatakakadzraɖoƒe geɖe ŋu. Fexexe si wokpɔ ta na kpɔa egbɔ be dɔnɔwo ƒe biabia ƒe ɖoɖowo mewɔ ɖeka kple dɔwɔƒe siwo naa kpekpeɖeŋu o.
+Atikeŋutinunyala siwo kpɔa dɔlélewo gbɔ la wɔa numekuku le atikewɔƒe geɖewo. Fetu si woxe ɖe dɔdala ŋu nana be womate ŋu atsɔ dɔnɔ ƒe biabia ade asi na dɔwɔha bubu aɖeke o.
 
-### 3. Ganyawo Ŋuti Numekuku Dɔwɔƒe
+### 3. Ganyawo Ŋuti Numekulawo ƒe Dɔwɔƒe
 
-Algorithm asitsadɔdzikpɔla xea fe ɖe ɣeyiɣi ŋutɔŋutɔ me asitsanyatakaka APIwo ta. Fexexe si me kɔ zãa T-adrɛs yeyewo le kuxi ɖesiaɖe me, si xea mɔ na zazã ƒe ɖoɖo ƒe kadodo le nyatakakadzralawo dome.
+Eʋevi si wɔa dɔ le mɔ̃ dzi la xea fe ɖe asitsatsa ŋuti nyatakakawo ƒe API siwo li ɣeyiɣi ŋutɔŋutɔ me. Fetu yeyewoe wozãna tsɔ kpɔa ga, eye esia wɔnɛ be ame aɖeke megatea ŋu zãa eƒe ŋkɔawo abe ale si woazãe ene o.
 
-### 4. MCP Dɔwɔnu Dɔwɔƒe, Fetu AI Dɔwɔnuwo
+### 4. MCP Tool Server, Woxe fe ɖe AI dɔwɔnuwo ŋu.
 
-MCP (Model Context Protocol) dɔdzikpɔla ɖea AI dɔwɔnu siwo woxea fe na la ɖe go. Dɔwɔnu ɖesiaɖe yɔyɔ ʋãa Zimppy ƒe fexexe, si wɔnɛ be asitsaƒe si me AI ŋutete siwo wowɔ ga le la te ŋu dzɔna.
+MCP (Model Context Protocol) server aɖe ɖea AI dɔwɔnu siwo woxe fe na la fiana. Wo dometɔ ɖesiaɖe ƒe ŋkɔyɔna naa Zimppy xɔa ga, si wɔnɛ be wote ŋu kpɔa dɔwɔƒe aɖewo le afisi wokpɔa woƒe ŋutetewo dzi wɔa dɔe.
 
-### 5. LLM Kpuie, Fexexe Ðe Dzesi Ðeka Me
+### 5. LLM Summarizer, Pay-Per-Token (Fetu Ðe Dzesi Ta)
 
-LLM ƒe nuƒoƒoƒu ƒe dɔwɔƒe aɖe xɔa fe na dɔwɔlawo le nusi wowɔ ƒe dzesi ɖesiaɖe ta to SSE ƒe ʋuʋu dzi, eye woɖea ga si susɔ le wo ɖokui si eye wogbugbɔa ga si susɔ si womexe do ŋgɔ o la ana.
+LLM ƒe nuƒo kpuiwo ɖoɖo dɔwɔlawo xɔa fe ɖe woƒe dɔwɔna me nudzɔdzɔwo dzi to SSE-dɔwɔƒe si le mɔ zɔm la dzi, eye woɖea ga siwo susɔ na dɔa wɔwɔ ɖa kple esiwo womezã o.
 
 ---
 
-## Eɖoɖo ɖe dɔa me
+## Ðoɖowɔƒewo
 
-### Node.js / Ŋɔŋlɔdzesi
+### Node.js / TypeScript (Nɔvi . js kple Aƒegbalẽ)
 
 ```bash
 npm install zimppy          # CLI + wallet
 npm install zimppy-ts       # TypeScript SDK
 ```
 
-### Gbeɖuɖɔ
+### Dzatawo ƒe dzoxɔxɔ
 
 ```toml
 [dependencies]
@@ -220,37 +220,37 @@ zimppy-rs = "0.5"           # Rust SDK (charge, session, axum)
 
 ---
 
-## Zimppy Gakotokua Ðoɖo Ðe Ðoɖo Nu
+## Zimppy Akpataa Ðoɖo
 
-Zimppy CLI naa gakotoku ƒe ŋgɔdonya blibo. Sededewo katã li to... `npx zimppy`.
+Zimppy CLI naa gaɖabawo ƒe nuƒomɔ blibo. Woate ŋu awɔ ɖoɖo ɖe wo katã ŋu to: `npx zimppy`.
 
-### Afɔɖeɖe 1 : Wɔ Gakotoku
+### Afɔɖeɖe 1lia: Wɔ Gaƒoɖonu (Wallet) aɖe
 
 ```bash
 npx zimppy wallet create
 ```
 
-Ewɔa cryptographic keys eye wòɖea wò **seed phrase** fiana. Dzra esia ɖo nyuie - womate ŋu axɔe ne ebu o.
+Enaa nya ɣaɣla siwo dzi nàŋlɔ nu ɖo eye wòɖea ame si nèdi be yeaɖe la fia. Dzra esia ɖo nyuie - ne ebu ko la, womagate ŋu agaxɔe o.
 
-### Afɔɖeɖe 2 : Kpɔ Wò Adrɛs Kple Wò Dadaɖeanyi ɖa
+### Afɔɖeɖe 2: Dzro wò adrɛs kple ga si susɔ la me.
 
 ```bash
 npx zimppy wallet whoami
 ```
 
-Displays your **Unified Address (UA)**, **T-address**, current balance, and active network.
+Eɖea wò **Unified Address (UA)**, **T-address**, fifia ƒe ga si susɔ kple kadodo nyui me.
 
 ```bash
 npx zimppy wallet balance --all
 ```
 
-Fia ga si susɔ ɖe gakɔnta ɖesiaɖe me ƒe mama le ZIP-32 gakɔntawo katã me.
+Efia ga si le ame sia ame ƒe asitsatsa me ɖe eƒe ZIP-32 ŋuti.
 
-### Afɔɖeɖe 3 : Gadzɔdzɔ na Wò Gakotoku
+### Afɔɖeɖe 3: Na Ga Wò Gaku la Me .
 
 Send ZEC to your Unified Address from any Zcash-compatible wallet or exchange. Shielded deposits go directly to your Orchard account.
 
-### Afɔɖeɖe 4 : Ðo Gawo ɖa eye Woakpɔ Wo Ta
+### Afɔɖeɖe 4: Ðoɖo Gadzraɖoƒewo Kple Wobe Woazu Ame Siwo Dzi Wòato
 
 ```bash
 # Send ZEC to any address (shielded or transparent)
@@ -266,19 +266,19 @@ npx zimppy wallet transfer 0 1 50000
 npx zimppy wallet use work
 ```
 
-### Afɔɖeɖe 5 : Wɔ Auto-Pay Biabia
+### Afɔɖeɖe 5: Bia Be Woana Fetu Wò Ðokuiwòe
 
 ```bash
 npx zimppy request <url>
 ```
 
-Ekpɔa 402 -> fetu -> gbugbɔgadze agbagba ƒe sisi bliboa gbɔ le eɖokui si. Woʋua kpekpeawo eye wokpɔa wo dzi le gaglãgbe.
+Ewɔa 402 -> fewo -> gbugbɔdidi ƒe ɖoɖo blibo la dzi le eɖokui si. Woʋua kpekpeawo eye wowɔa wo ŋu dɔ nyuie.
 
 ---
 
-## Zimppy ƒe ƒoƒo ɖekae - TypeScript SDK
+## Zimppy - TypeScript SDK ƒe ƒokpliwɔwɔ
 
-### TypeScript Server - Wokpɔ ame ta
+### TypeScript Server - Eʋeviwo
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -300,14 +300,14 @@ if (result.status === 402) return result.challenge
 return result.withReceipt(Response.json({ data }))
 ```
 
-**Nya veviwo:**
-- `zcash({ wallet: 'server' })` tsɔa server la ƒe gakotoku si ŋu wokpɔa akpoxɔnu le la dea eme
-- `mppx.charge()` kpɔa 402 challenge/verify lifecycle bliboa gbɔ
-- `result.withReceipt()` tsɔa nya ɣaɣlawo ƒe fexexe ƒe agbalẽvi la kpena ɖe ŋuɖoɖoa ŋu
+** Nya Vevi Siwo Le Eme:**
+- `zcash({ wallet: 'server' })` la, ekɔa nu ɖe server ƒe gaɖivɔ si dzi woxɔa asi le ŋu.
+- `mppx.charge()` Ewɔa 402 ƒe gbetɔame/dzidede agbe me katã dzi.
+- `result.withReceipt()` tsɔa ga si wotsɔ nya ɣaɣla ŋlɔ la kpea ŋuɖoɖoa.
 
 ---
 
-### TypeScript Server - Nusi me kɔ
+### TypeScript Server - Eʋegbewo
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -319,11 +319,11 @@ const mppx = Mppx.create({
 })
 ```
 
-Kuxi ɖesiaɖe wɔa **T-adrɛs yeye**, si wɔnɛ be fexexe ƒe biabiawo mete ŋu doa ka kple wo nɔewo le ɣeyiɣiawo katã me o.
+Kuxi ɖesiaɖe naa "T-adres yeye" aɖe nɔa anyi, si wɔnɛ be womate ŋu atsɔ gabiawo ade kadodo me kple dɔwɔna bubuwo o.
 
 ---
 
-### TypeScript ƒe Asitsaha
+### TypeScript Client (Akpavi)
 
 ```typescript
 import { Mppx } from 'mppx/client'
@@ -335,13 +335,13 @@ const mppx = Mppx.create({ methods: [zcash({ wallet: 'default' })] })
 const res = await mppx.fetch('https://api.example.com/resource')
 ```
 
-Asisi la xea mɔ na wo `402` ŋuɖoɖowo, ʋua ɣeyiɣi aɖe le eɖokui si, eye wògatea biabia la kpɔ ake - yɔyɔ ƒe kɔpi la mehiã susu aɖeke si ku ɖe fexexe ŋu o.
+Ame si le nyaa sem la xlẽa nu siwo wòase. `402` Eʋua nyatakakawo, ʋuna nu le eɖokui si eye wògadzea agbagba ake - mehiã be ame aɖe naxe fe ɖe dɔdzikpɔƒea ƒe ŋkɔ ta hafi wòaxɔ eƒe numegbe o.
 
 ---
 
-## Zimppy - Rust SDK ƒe ƒoƒo ɖekae
+## Zimppy - Rust SDK ƒe ƒokpliwɔwɔ
 
-### Rust Server (Axum) ƒe Dɔwɔƒe .
+### Rust Server (Axum)
 
 ```rust
 use mpp::server::axum::*;
@@ -361,14 +361,14 @@ async fn handler(charge: MppCharge<Price>) -> WithReceipt<Json<Value>> {
 }
 ```
 
-**Nya veviwo:**
-- `MppCharge<Price>` nye Axum extractor si ɖoa kpe fexexe dzi hafi handler la ƒua du
-- `WithReceipt` tsɔa fexexe ƒe agbalẽvi si woŋlɔ ɖe nya ɣaɣlawo me xatsa ŋuɖoɖoa
-- `ChargeConfig` ɖe asixɔxɔ ƒe susu gɔme - ateŋu anye nusi trɔna le biabia ƒe nɔnɔmewo nu
+** Nya Vevi Siwo Le Eme:**
+- `MppCharge<Price>` enye Axum ƒe nugbugbɔŋlɔla si léa gaxe ɖe asi hafi xea mɔ na ame la be wòate ŋu awɔ dɔ sia.
+- `WithReceipt` tsɔ nyaŋuɖoɖo la bla kple ga si woxe ɖe mɔ̃ dzi ƒe kpeɖodzinu.
+- `ChargeConfig` eɖe asi le nuxexlẽ ƒe mɔ̃ ŋu - ateŋu anɔ te ɖe didiwo dzi.
 
 ---
 
-### Rust ƒe Asitsaha
+### Rust Client la ƒe akpa si le eme:
 
 ```rust
 use mpp::client::Fetch;
@@ -382,56 +382,56 @@ let resp = client
     .await?;
 ```
 
-`send_with_payment` keke HTTP asitsaha ɖesiaɖe ɖe enu kple 402 ƒe dɔwɔwɔ le eɖokui si, ɣeyiɣi dzikpɔkpɔ, kple Zcash fexexe ƒe emevava.
+`send_with_payment` enana HTTP client ɖesiaɖe wɔa 402 ƒe dɔwɔwɔ, ɖoɖowo dzi kpɔkpɔ kple Zcash-xefewɔ.
 
 ---
 
-## CLI ƒe Nufiame
+## CLI Ŋkɔwo
 
-| Sedede | Numeɖeɖe |
+Ŋkɔwo: Aƒenɔ. Kplɔ̃ɖonya: Nuŋlɔɖi.
 |---|---|
-| `npx zimppy wallet create` | Wɔ safuiwo eye nàɖe nuku ƒe nyagbe |
-| `npx zimppy wallet whoami` | Fia adrɛs (UA + T-addr), dadasɔ, network |
-| `npx zimppy wallet balance --all` | Akɔnta ɖesiaɖe ƒe ga si susɔ ƒe mama |
-| `npx zimppy wallet send <addr> <zat>` | Ðo akpoxɔnu alo esi me kɔ ZEC |
-| `npx zimppy wallet transfer <from> <to> <zat>` | Cross-account ememe ƒe asitɔtrɔ |
-| `npx zimppy wallet shield` | Tsɔ ga siwo me kɔ la yi Orchard (shielded) |
-| `npx zimppy wallet use <name>` | Trɔ gakotoku ƒe dzesidenu si le dɔ wɔm |
-| `npx zimppy request <url>` | Auto 402 -> fe -> gbugbɔ te biabia |
+| `npx zimppy wallet create` ◯ Nya veviwo dodo kple nyagbe gbãtɔ ɖeɖe fia.
+| `npx zimppy wallet whoami` Ɖo adrɛs (UA + T-addr), ga home, network.
+| `npx zimppy wallet balance --all` Ŋutete le ga si woɖena ɖe ame ƒe gadzraɖoƒe dzi.
+| `npx zimppy wallet send <addr> <zat>` Ɖo ZEC si ŋu wotrɔ asi le alo esiwo me woɖea nu gɔme na ame ɖo ɖa.
+| `npx zimppy wallet transfer <from> <to> <zat>` Le gadzraɖoƒe vovovowo me la, woɖoa ga ɖe ame bubuwo dzi.
+| `npx zimppy wallet shield` Ʋu ga siwo me kɔ la yi Orchard (si ŋu wotrɔ asi le) dzi.
+| `npx zimppy wallet use <name>` Trɔ ga si le asiwò la ƒe ŋkɔ.
+| `npx zimppy request <url>` ◯ Auto 402 -> pay -> retry request (Gbɔ dzi nàdze agbagba ake)
 
 ---
 
-## Nu Vevi Siwo Le Eme
+## Eƒe Nɔnɔme Veviwo
 
-### Agent-Native Gakotokuwo
+### Agent-Native Wallets (Gadzraɖoƒe si Wozãna)
 
-Wotrɔ asi le Zimppy gakotokuwo ŋu na ɖoɖowɔɖi ƒe zazã na AI dɔwɔlawo - menye web-kpɔkplɔ ƒe kekeɖenudɔwɔwɔ siwo amegbetɔ kpɔna o. Wokpɔa safuiwo dzi to CLI alo SDKwo dzi, woateŋu atrɔ akɔntabubuwo to **ZIP-32 akɔnta ƒe dzɔtsoƒe** dzi, eye gakotokua doa alɔ fexexe ƒe sisi siwo wowɔna le wo ɖokui si bliboe amegbetɔ ƒe mɔɖeɖe manɔmee le asitsatsa ɖesiaɖe me.
+Zimppy wallets are designed for programmatic use by AI agents - not human-managed browser extensions. Keys are managed via the CLI or SDKs, accounts can be rotated via **ZIP-32 account derivation**, and the wallet supports fully automated payment flows without human approval per transaction.
 
-### Dɔwɔla Geɖewo ƒe Kpekpeɖeŋu
+### Kpekpeɖeŋu si Tso Ame Vovovowo Gbɔ
 
-Dɔwɔla geɖewo ateŋu awɔ dɔ tso gakotoku ɖeka me to **ZIP-32 akɔnta ƒe tɔtrɔ** zazã me - dɔwɔla ɖesiaɖe xɔa eya ŋutɔ ƒe akɔnta kple ga si susɔ ɖe vovo, ga si susɔ ɖe gaxɔgbalẽviwo dome ƒe ŋutete, kple akɔntabubu ɖesiaɖe ƒe ga si susɔ ŋuti nyatakaka. Esia wɔnɛ be woate ŋu akpɔ dɔwɔla geɖe ƒe ʋuwo dzi tso gakotoku ƒe xɔtuɖoɖo ɖeka me.
+Ame geɖe ate ŋu awɔ dɔ tso gaɖaka ɖeka dzi to ZIP-32 ƒe asitelefonwo zazã me - ame sia ame kpɔ eƒe ŋutɔ tɔ kple akɔnta siwo le wo nɔewo gbɔ, nuxexlẽme si nyea akɔntabubu ɖe akpa ɖesiaɖe ta. Esia naa be woate ŋu akpɔ dɔwɔƒe geɖewo dzi tsoa gakpɔkpo ɖeka aɖe ko me.
 
-### Fully Shielded Zcash Transactions (Orchard)
+### Zcash Dɔwɔɖui Siwo Woɣla Blibo (Orchard)
 
-Fexexe siwo wokpɔ ta na zãa Zcash ƒe **Orchard protocol** - si nye ta si wokpɔ ta na yeyetɔ eye wòle dedie wu. Server la zãa **Incoming Viewing Key (IVK)** tsɔ ɖoa ​​kpe fexexe dzi, si ate ŋu aɖe nuŋlɔɖi siwo woxɔ la gɔme evɔ maɖe gazazã ƒe safuia ɖe go o. Woxea mɔ na gbugbɔgaƒoƒo ƒe amedzidzedzewo to **memo binding** dzi - kuxi ɖesiaɖe tsɔa etɔxɛ aɖe dea eme `zimppy:{challenge_id}` memo si ŋu wotsɔ nya ɣaɣlawo ɖo kpee.
+Wozãa Zcash ƒe Orchard protocol tsɔ kpɔa ga siwo woxe la ta. Eʋevi sia zãna Incoming Viewing Key (IVK) si ate ŋu aɖe agbalẽawo me eye womagblẽ nu le esiwo wotsɔ xe fewo o, be wòana ame nakpɔ woƒe numegbe kple nyatakakawo dzi ase ɖo. Wodzudzɔa nya ɖe amewo to mememabla alo mɔnu bubu aɖewo zazã dzi - wobua akɔntabubu ɖekaɖeka na agba ɖesiaɖe `zimppy:{challenge_id}` Edzena le nyatakaka si me nya ɣaɣlawo dze le.
 
-### Sessions , Zero Le Biabia Ðeka Me ƒe Ɣeyiɣi Ðeka
+### Session , Zero Per-Request Latency (Nuŋɔŋlɔwo ƒe Kpomevi Aɖeke Mele Wo Ŋu O)
 
-Session ƒe xɔtuɖaŋu ɖea kɔsɔkɔsɔ dzi kpeɖodzi lala tso biabia ɖesiaɖe ƒe ɣeyiɣi didi gbɔ. Le ga ɖeka dede (~ sɛkɛnd 75) megbe la, wowɔa bearer-token biabia siwo katã kplɔe ɖo enumake kple blockchain ƒe kadodo aɖeke o vaseɖe esime ɣeyiɣia nawu enu.
+Session architecture la ɖea on-chain confirmation wait (dzesi si le adzame) ɖa tso per-request latency gbɔ. Ne ame aɖe da ga ɖe edzi zi ɖeka ko vɔ (sekɛnd 75), woɖoa eƒe nu siwo katã wòbia be woaɖo eŋu na ye enumake eye womegadea asi blockchain me o va se ɖe esime sesia wu enu.
 
-### Streaming , Fexexe Ðe Dzesi Ðeka Me
+### Streaming , Pay-Per-Token (Fia Ðe Token Ðeka Dzi)
 
-Native **SSE (Server-Sent Events)** ƒe kpekpeɖeŋu na be woate ŋu axe fe ɖe dzesi ɖesiaɖe ƒe mita me nyawo. Enyo ŋutɔ na LLM nutsotso API siwo me emetsonu ƒe didime trɔna eye ele be fexexe naɖe nuzazã ŋutɔŋutɔ afia.
+Native **SSE (Server-Sent Events)** support enables pay-per-token metered content. Ideal for LLM inference APIs where output length is variable and billing should reflect actual consumption. Edzena nyuie na LLM dedukɔ API siwo ƒe didime le tɔtrɔm eye fexexlẽa wòle be wòade nu eme ŋutɔŋutɔ la ŋu.
 
-### Spec ƒe Sedziwɔwɔ
+### Numeɖeɖewo Dzi Wɔwɔ
 
-- **HMAC-SHA256** ƒe gbetɔame siwo wode asi ete xea mɔ na aʋatsokaka
-- **RFC 9457** vodada ƒe ɖoɖo si woɖo na vodadawo gbɔ kpɔkpɔ si woate ŋu awɔ dɔ aduadu
-- **`/.well-known/payment`** na fexexemɔnu si ŋu woke ɖo le eɖokui si to dɔwɔla ɖesiaɖe si wɔ ɖeka kple MPP dzi
+- **HMAC-SHA256** kpeɖeŋutɔ siwo dzi woŋlɔ ɖo be woatsri aʋatsoɖeɖe
+- **RFC 9457** vodada ƒe ɖoɖowɔɖi si me woazã nuŋɔŋlɔwo le atsɔ awɔ dɔ kple ame bubuwo.
+- **`/.well-known/payment`** na mɔ si dzi wotona xea fe le ame sia ame ƒe asitelefon me to MPP-nuwɔwɔ ɖe ɖoɖo nu la ŋu.
 
 ---
 
-## Xɔtata
+## Xɔtutuwo
 
 ```
 crates/
@@ -445,56 +445,56 @@ packages/
   zimppy-cli/        CLI with auto-pay and session management
 ```
 
-### Akpawo ƒe Agbanɔamedziwo
+### Dɔwɔƒe ƒe Agbanɔamedziwo
 
-**`zimppy-core`** - Nya ɣaɣlawo ƒe nu vevitɔ. Ekpɔa Orchard note decryption gbɔ to server ƒe IVK, memo parsing, replay protection logic, kple challenge verification zazã me. Woŋlɔe ɖe Rust me hena dɔwɔwɔ kple dzɔdzɔenyenye.
+**`zimppy-core`** - Numeɖeɖe ƒe nu me. Ewɔa Orchard note decryption to server's IVK, memo parsing, replay protection logic kple challenge verification dzii. Woŋlɔe ɖe Rust be wòadze dɔwɔwɔ nyuie eye eƒe nyawo nanye nyateƒe.
 
-**`zimppy-wallet`** - Zcash gakotoku si nye dukɔa me tɔ si ŋu ŋusẽ le `zingolib`. Ekpɔa safuiwo, gakɔntawo, ga si susɔ siwo wokpɔ ta na/siwo me kɔ, kple asitsatsa ƒe ɖoɖo ɖe amewo dzi.
+**`zimppy-wallet`** - Zcash gaɖaba si dzi wotu eƒe dɔwɔɖoɖowo ɖo la le dɔ wɔm kple: `zingolib`Edzraa safuiwo, ga siwo le asitelefon dzi kple esiwo me woazã kɔmpiuta ɖo la ƒe dɔwɔna.
 
-**`zimppy-rs`** - Rust SDK la ƒe ƒuƒoƒo. Enaa ame `ChargeMethod`, `SessionMethod`, kple `PaymentProvider` nɔnɔmewo, tsɔ kpe ɖe Axum extractors (`MppCharge`, `WithReceipt`) na ergonomic server ƒe ɖekawɔwɔ.
+**`zimppy-rs`** - Rust SDK la. Enaa nu siwo hiã le asitelefon dzi kple esiwo me woazã kɔmpiutawo ɖo `ChargeMethod`, `SessionMethod`, kple `PaymentProvider` (Xum) ƒe nu siwo woɖea tso eme la me.`MppCharge`, `WithReceipt`) be woawɔ dɔ le asitelefon dzi.
 
-**`zimppy-napi`** - NAPI-RS ƒe kadodo siwo ɖea Rust ƒe nu vevi ɖe Node.js, si naa TypeScript SDK te ŋu zãa nya ɣaɣlawo ƒe mɔ̃ ma ke evɔ megawɔa Zcash gbãtɔwo ŋudɔ le JavaScript me o.
+**`zimppy-napi`** - NAPI-RS ƒe nubabla siwo na Rust me nyawo va le Node.js, si wɔe be TypeScript SDK la zãa cryptographic engine ma ke evɔ womagatsɔ Zcash primitives ake o.
 
-**`zimppy-ts`** - Nuŋɔŋlɔ ƒe SDK la. Xatsa NAPI bindings kple idiomatic async/await APIs na charge, session, kple SSE streaming flows.
+**`zimppy-ts`** - TypeScript SDK. Etsɔ NAPI ƒe nubablawo kple async/await API siwo me nyawo to le agba, session, kple SSE streaming flows ŋu la ƒo xlãe.
 
-**`zimppy-cli`** - Sedede-fli ƒe gakotoku kple biabia dɔwɔnu. Doa alɔ auto-pay (402 -> fe -> gbugbɔ dze agbagba), ɣeyiɣi dzikpɔkpɔ, kple gakotoku ƒe dɔwɔwɔwo katã.
+**`zimppy-cli`** - Kɔmand-line wallet kple request tool. Ekpena ɖe auto-pay (402 -> pay -> retry), session management, kple wallet operations katã ŋu.
 
 ---
 
-## Kpɔɖeŋuwo & Demos
+## Kpɔɖeŋuwo Kple Numedzodzrowo
 
-| Kpɔɖeŋu | Numeɖeɖe |
+Kpɔɖeŋu. Ŋutinya:
 |---|---|
-| `examples/fortune-teller/` | Fexexe, ɣeyiɣi, kple sisi ƒe wɔwɔfiawo - Rust server + client |
-| `examples/llm-summarizer/` | Fetu-ɖe-dzesi LLM streaming demo |
-| `examples/mcp-server/` | MCP dɔwɔnu ƒe dɔdzikpɔla kple AI dɔwɔnu siwo woxea fe na |
-| `examples/ts-server/` | TypeScript MPP dɔdzikpɔla ƒe nufiame ƒe dɔwɔwɔ |
+| `examples/fortune-teller/` ◯ Charge, session, and streaming demos - Rust server + client. (Tsɔa ga ɖe nuƒolanɔƒe dzi)
+| `examples/llm-summarizer/` Ðee ɖe tokenyati ɖeka dzi ƒe LLM-videowo ŋu.
+| `examples/mcp-server/` MCP dɔwɔnu siwo wotsɔna xea fe na AI-dɔwɔƒewo.
+| `examples/ts-server/` TypeScript MPP server reference implementation. Mɔ̃ si dzi woato awɔ numekɔkɔ le Server ŋu
 
 ---
 
-## Nusiwo Le Eme - Feature Summary
+## Nu Siwo Le Eme - Eƒe Akpa Veviwo Ƒe Ŋutinya Kpuie
 
-| Feature | Numeɖeɖe |
+Ŋutinyawo. Nuŋɔŋlɔ:
 |---|---|
-| **Kpekpewo** | Deposit zi ɖeka, enumake bearer biabia, refund le close |
-| **Streaming** | Fexexe ɖe dzesi ɖesiaɖe ƒe mita me nyawo dzi to SSE |
-| **Fɔxexe** | Fexexe si wokpɔ ta na alo si me kɔ le HTTP biabia ɖesiaɖe me (402 ƒe sisi) |
-| **Fexexe si Woxena le Gaglãgbe** | T-adrɛswo kple kuxi ɖesiaɖe gbugbɔgaƒoƒo mɔxexe + akpoxɔnu sedede |
-| **Akɔntabubu Geɖe** | ZIP-32 akɔnta ƒe tɔtrɔ, gakɔnta ƒe asitɔtrɔ le gakɔnta dome, gakɔnta ɖesiaɖe ƒe ga si susɔ |
-| **CLI Gakotoku** | Ðo ɖa, akpoxɔnu, tsɔtsɔ yi teƒe bubu, dadasɔ --wo katã, whoami, auto-pay |
-| **SDK eve ** | TypeScript kple Rust |
-| **Spec-Sedziwɔwɔ** | HMAC-SHA256 ƒe kuxiwo, RFC 9457 ƒe vodadawo, . `/.well-known/payment` nusi ŋu woke ɖo |
+** Session** Deposit once, instant bearer requests, refund on close. Ðɔ ga zi ɖeka ko le nuƒlela ƒe asime eye nàxɔ gaa ne ètu ʋɔa vɔ megbe.
+** Streaming** Pay-per-token metered content over SSE (Ðeɖola ɖe sia ɖe ƒe fexexlẽ ŋuti nyatakakawo to internet dzi)
+eƒleƒe: Xexlẽdzesi si dzi wotona xea fe na ame alo woxlɔnɛ ɖe HTTP biabia (402 flow) ɖesiaɖe me.
+** Transparent Payments** T-adrɛs kple replay prevention + shield command ɖe kuxi ɖesiaɖe nu.
+** Akaɖui Geɖe le Asiwò. ZIP-32 ƒe akaɖiwo tɔtrɔ, ga siwo woxɔna tso asitsatsa vovovowo me kple esiwo susɔ ɖe akɔnta ɖekaɖeka dzi.
+CLI Wallet: Ɖoɖo, nuxexlẽ, ga tsɔtsɔ yi na ame bubuwo kple wo ŋuti kɔnta - katã le ɖoɖowɔɖi me.
+** SDK evee** TypeScript kple Rust.
+HMAC-SHA256 ƒe kuxiwo, RFC 9457 vodadawo, kple nya siwo le gbea me la dometɔ aɖewo. `/.well-known/payment` kpukpui sia.
 
 ---
 
-*Ne èdi nyatakaka bubuwo la, yi [zimppy.xyz](https://zimppy.xyz)*
+*Ne èdi nyatakaka bubuwo la, yi afii: [zimppy.xyz (dzidzimevi)](https://zimppy.xyz)*
 
 ---
 
-## Axa Siwo Do Ƒome Kplii
+## Axawo Siwo Do Ka Kple Wo Nɔewo
 
-- [Gakotokuwo](/using-zcash/wallets) — Zcash gakotoku siwo doa alɔ asitsatsa siwo wokpɔ ta na
-- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — Alesi Orchard ƒe asitsatsa siwo wokpɔ ta na kpɔa fexexe ŋuti nyatakakawo tae
-- [Fexexe Ŋuti Dɔwɔlawo](/using-zcash/payment-processors) — Mɔ bubu siwo dzi woato axɔ Zcash ƒe fexexe
-- [Zcash ƒe Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) — ZSAwo kple Zcash ƒe ɖoɖowɔɖi ƒe etsɔme
-- [Nutoa me Dɔwɔnawo](/zcash-community/community-projects) — Zcash ƒe lãwo ƒe agbenɔnɔ ŋuti dɔ geɖe wu
+- [Gaɖakawo](/using-zcash/wallets)  Zcash ga si le asitelefon dzi siwo doa asi ɖe nuxexlẽ ŋu.
+- [Ta Siwo Woɣla Ðe Aʋawɔnu Nu](/using-zcash/shielded-pools)  Alesi Orchard ƒe dɔwɔɖoɖowo kpɔa ga ŋuti nyatakaka ta
+- [Fetuwo Wɔlawo](/using-zcash/payment-processors)  Mɔ bubu siwo dzi nàto axɔ Zcash-xexlẽfewo
+- [Zcash-Dɔ Siwo Woɣla Ðe Ame Ŋu](/zcash-tech/zcash-shielded-assets)  ZSA kple etsɔme si me woazã Zcash le ɖoɖowɔɖi nu
+- [Dukɔ Ƒoƒuawo ƒe Dɔwɔnawo](/zcash-community/community-projects)  Zcash ecosystem ƒe dɔ bubuwo wɔwɔ

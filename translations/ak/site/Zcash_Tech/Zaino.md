@@ -1,30 +1,93 @@
-# Zaino Indexer a ɔkyerɛwee
+# Zaino Nhyehyɛmu no
 
-Zaino yɛ Indexer, a Zingo kuw no na ɛyɛe wɔ Rust, a ne botae ne sɛ ɛbɛsesa lightwalletd na ɛbɛpia zcashd deprecation adwuma no akɔ anim.
+Zaino yɛ Rust indexer ma Zcash blockchain. Ɛkenkan chain data firi Zebra full node mu na ɛsom de di dwuma sɛ wallets, explorers, faucets ne nnwuma afoforo hia a ɛnhyɛ da mma Zebra ankasa nni asɛyɛde wɔ ɔkyɛnfoɔ-facing index biara ho.
 
-Zaino de nneɛma a ɛho hia ma akraman a wɔn ho yɛ hare nyinaa, te sɛ sika kotoku ne aplikeshɔn a enhia blockchain abakɔsɛm a edi mũ, ne akraman anaa sika kotoku a edi mũ. Ɛsan nso boa block explorers, ma kwan ma wɔkɔ blockchain a wɔawie ne nkɔnsɔnkɔnsɔn ne mempool a eye sen biara a wɔanwie a Zebra anaa Zcashd full validator di so no nyinaa so.
+## TL;DR
 
-## Dɛn nti na Indexer foforo?
+* **Zebra** di Zcash nkɔnsɔnkɔnsɔn no ho dwuma.
+* **Zaino** kyerɛ Zebra chain data mu na ɛda client-facing API adi.
+* **Zallet** yɛ wallet no fa wɔ Z3 stack mu. Wɔ default Z3 setup, Zallet ne Zebra di nkitaho tẽẽ na ɛnhia Zaino service a ɛgyina hɔ ma wɔn ankasa.
+* The standalone Zaino service is useful when operators need a lightwalletd-compatible gRPC endpoint, a JSON-RPC proxy, or infrastructure for light wallets, explorers, faucets, and similar services.
+* Zaino yɛ adwuma, nanso ɛsɛ sɛ wɔn a wɔyɛ dwumadie no hwehwɛ mu wɔ Zaino ne Z3 nkrataa ho ansa na wɔde ayɛ dwuma.
 
-Ade titiriw nti a ɛte saa ne sɛ yebesiesie yɛn ho ama daakye. Wɔkyekyeree Zcashd ne lightwalletd wɔ afe 2016 mu forked fi bitcoind code, de C plus dii dwuma. Platform ne code a wɔde kyekye nnwuma abien no nyinaa afi ase reyɛ dedaw, ɛyɛ den sɛ wɔbɛtrɛw mu, ahwɛ so na wɔakyekye nnɛyi nneɛma wɔ so.
+## Nea Zaino Yɛ no
 
-Rust yɛ nnɛyi kasa a ɛyɛ den na ahobanbɔ wom a ɛma Zcash tumi siesie ne ho ma daakye nkɔsoɔ, to nsa frɛ adwumayɛfoɔ foforɔ sɛ wɔnkyekyere dwumadie foforɔ pii wɔ Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no so ne ne ho.
+Zaino tena Zebra ne client software ntam. zebra yɛ consensus node: ɛyɛ download, verifies na ɛdi Zcash blockchain akyi. zaino de zebra di dwuma sɛ chain data source no, afei ɔsiesie indexed views a clients application bɛtumi abisa efiri mu.
 
-Nanso, Zaino de asi n’ani so sɛ ɛbɛyɛ nea ɛne akyi hyia wɔ baabi a ɛbɛyɛ yiye, Ɛde API ne nkitahodi ahorow a ɛboa ma wɔatew akasakasa so wɔ gye a wogye tom no so na ɛhwɛ hu sɛ Zcash abɔde a nkwa wom nhyehyɛe a ɛtrɛw no betumi anya mfaso afi Zainos nkɔso mu a wɔrenkyerɛw bio kɛse anaasɛ wonsua ade.
+Saa ntetewee yi ma dwumadi ahorow no da hɔ:
 
-Afei nso, Zaino bɛma kwan ma wɔatetew hann akraman dwumadie mu afiri node a ɛdi mũ no mu, denam RPC kwan ne akraman nwomakorabea a ɛdi mũ so, ama developers atumi de Zaino abom na wɔanya nkɔnsɔnkɔnsɔn data tẽẽ afiri wɔn hann akraman dwumadie no mu, ama data a ɛyɛ mmerɛw a ɛfiri Zebra node no mu no akɔ so ayɛ nea wɔabɔ ho ban na ayɛ ahobanbɔ.
+Ɔfã no. Dwumadie no.
+|:--|:--|
+: Zebra. N'ade nyinaa ne no-node na ɛhwɛ so ma ɛyɛ yie.
+Zaino: Index na ɔhwεfoɔ-anim API dwumadie.
+| Zallet | Wallet service |
+lightwalletd. Light wallet server dada a Zaino ayɛ sɛ ɔde besi ananmu anaa ɔboa no so, na yɛ de di dwuma wɔ baabiara a yɛwɔ biara.
 
-## Mfonini ahorow bi a ɛkyerɛ sɛnea Zaino yɛ adwuma
+Zaino ma dwumadie a ɛfa light clients, full clients anaa wallets ne block explorers ho. Ɛma kwan kɔ finalized chain no mu, best chain a ɛnni awieɛ na ɛyɛ papa paa wɔ hɔ, ɛne mempool data a ɛwɔ Zebra nsam.
 
-### Zaino Mfinimfini Nneɛma a Wɔde Yɛ Adwuma
-![Zaino Mfinimfini Nneɛma a Wɔde Yɛ Adwuma](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+## Sεnea Ɔfa Yεn Nsa Wɔ Zcash Dwumadibea a Ɛwɔ Hɔ no Mu
 
-### Zaino Live Service Nneɛma a Wɔde Yɛ Adwuma
-![Zebra Live Service Nneɛma a Wɔde Yɛ Adwuma](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+Seesei Z3 stack no gyina Zebra, Zallet ne Zaino a w'atumi ayi bi adi so.
 
-### Zaino Nhyehyɛeɛ a Wɔde Yɛ Nneɛma
-![Zaino Nhyehyɛeɛ a Wɔde Yɛ Nneɛma](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+Wɔ Z3 de no, Zebra ne Zallet di dwuma wɔ bere koro mu. Zallet kɔdi Zebra anim tẽẽ ma enti obi a ɔrekɔyɛ adwuma bi na ɛhwɛ sɛ wallet nko ara bɛtumi adi dwuma no nhia sɛ ɔbɛhyɛ Zaino dwumadie ase.
 
+Zaino de ka ho sε operator no pεsε ɔbεsom amansanfo a w'ani nhyia. Wͻ Z3 mu, na odi akyi ma nnwumakuo kכnkoaa (external clients). `indexer` Kyerɛw ne ho mfonini na fa ka:
 
-## Ɛhe na Metumi asua pii?
-Wubetumi akenkan pii afa Zaino Indexer ho wɔ aban [Zcash Community Forum thread](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation/48545/38) anaasɛ wɔ ne aban [Github kratafa](https://github.com/zingolabs/zaino)
+* lightwalletd-compatible gRPC endpoint ma light wallet clients, a yɛ de di dwuma wɔ abɛɛfo mfiri so.
+* JSON-RPC proxy ma explorers, faucets ne service backends
+* indexers database a ɔtew ne ho firi Zebra chain state no so.
+
+Eyi ma Zaino ho hia paa wɔ sika nkotoku akyi, aban asisifo nnwuma mu adwumayɛfo, nhwehwɛmufoɔ, faucets ne wɔn a wɔyɛ dwumadie ahodoɔ no de hwehwɛ Zcash chain data.
+
+## Zaino ne lightwalletd a wɔagye din no
+
+lightwalletd is the original light wallet server. Zaino is the Rust-based successor path for this role. Its goal is to provide compatible APIs where possible so wallets and services can migrate without being fully rewritten at once.
+
+Ɛno nkyerɛ sɛ lightwalletd dwumadie biara akɔ Zaino. Ɛsɛsɛ adwumafoɔ bu Zaino sε emu bi a εwɔ Zebra-based stack mu na wɔhwɛ nhyehyɛeɛ nkrataa, nsunsuansoɔ ne service dashboards ansa na w'ayi nea wobɛyɛ no asi hɔ.
+
+## Ɔhwɛfoɔ no nkaeɛ
+
+Ɔkwan a ɛyɛ den paa wɔ tumi mu ne sɛ wobɛfa Z3 akoraeɛ no. Z3 de Zaino ka ho te sɛ dwumadie bi:
+
+```bash
+docker compose --env-file .env.<network> --profile indexer up -d
+```
+
+Di kan yɛ Z3 setup no na twɛn ma Zebra ne wo di nkitaho ansa na wode adi dwuma wɔ mainnet anaa testnet so.
+
+Zaino de network service ahodoɔ mmienu na ɛgu hɔ. gRPC yε lightwallet-facing API no. JSON-RPC dwumadie no yɛ ma loopback anaa trusted private networks gye sɛ external layer bi bɔ ban a. Mma kwan mma w'amumfoɔ internet so mfa ne ho nhyem wɔ JSON RPC endpoint biara a wonnya nkyerɛɛ mu nsɛm nkyerɛ obi bio, anaasɛ wɔnkyerɛw wo din wom.
+
+## Nsekyerɛmu bi a ɛkyerɛ sɛnea Zaino yɛ adwuma no.
+
+### Zaino Abɔde mu Adwumadeyɛ
+
+![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+
+### Zaino Live Service Architecture (Ɔsom a wɔdi no anikan)
+
+![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+
+### Zaino Nhyehyɛeɛ Nkyerɛmu
+
+![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+
+## Mfomso a Wɔtaa Di
+
+**Wode Zaino yɛ node a ɛwie pɛ.** Zaino nyɛ validator. Zebra na ɛyɛ chain no; Zaino kyerɛ data firi Zebra hɔ ase.
+
+**Wode gye sɛ Z3 biara hia Zaino a ɛgyina hɔ ankasa.** Zallet betumi adu Zebra ho tẽẽ wɔ default Z3 stack no mu. Fa zaino di dwuma bere a wuhia dwumadifoɔ adwuma a ɛwɔ baabiara ma apomudenfo foforo.
+
+** Ayɛ nhyehyeɛ a wɔabɔ ho pɔw sɛ wɔde adi dwuma dada.** Zaino yɛ adwuma paa, enti hwɛ nsɛm ne nkrataa ahodoɔ ansa na woakyerɛkyerɛ dwumadie bi mu.
+
+**Fa JSON-RPC adi dwuma a aniwa nnim.** Zaino's JSON RPC interface no yɛ ma loopback anaa trusted private networks gye sɛ wɔde layer foforo abɔ ho ban.
+
+## Ɛhe na metumi asua nneɛma pii?
+
+* [Zaino GitHub akoraeɛ no](https://github.com/zingolabs/zaino)
+* [Zaino nsɛm a wɔayi no adi](https://github.com/zingolabs/zaino/releases)
+* [Nhoma a Zaino ayɛ no ho kyerɛwtohɔ](https://zingolabs.github.io/zaino/)
+* [Z3 deployment repository (Ɔkwan a wɔfa so de di dwuma)](https://github.com/ZcashFoundation/z3)
+* [Zebra nkrataa a w'atwerɛ no](https://zebra.zfnd.org/)
+* [Zaino ntoboa ne dwumadie ho nsusuyԑ](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+
+**Nneɛma a etwa toɔ:** Ɔpɛnimaa 2026

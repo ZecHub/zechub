@@ -1,85 +1,85 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/zimppy.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zimppy.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zimppy.xyz na ɔkyerɛwee
+# Zimppy.xyz: Ɔyɛ a, yɛ ma wo bi!
 
 ## TL;DR
 
-- **Zimppy** yɛ kokoamsɛm-di kan tua nhyehyɛe ma AI adwumayɛfo a wɔde Zcash Machine Payment Protocol (MPP) di dwuma .
-- **Deposit pɛnkoro** on-chain (~75 seconds), afei yɛ **a anohyeto nni mu ntɛm ara abisade** a adesrɛ biara blockchain nkitahodi biara nni mu
-- Ɛboa **Zcash (Orchard)** sikatua a wɔabɔ ho ban koraa — nea ɔde kɔmaa, nea ogye, sika, ne memo nyinaa yɛ encrypted
-- Ɛne **TypeScript ne Rust SDKs** yɛ adwuma ma ɛyɛ mmerɛw sɛ wɔde bɛka AI pipelines ne API servers ho
-- Ɛyɛ pɛpɛɛpɛ ma **LLM APIs, data gua so, MCP adwinnade servers**, ne M2M sikatua dwumadie asɛm biara
+- Zimppy yɛ sika a wɔde di dwuma wɔ amanne ho kwan so ma AI adwumayɛfo de Zcash's Machine Payment Protocol (MPP) di dwuma.
+- ** Deposit once** on-chain (~75 seconds), then make ** unlimited instant requests** with no per-request blockchain interaction
+- Ɔboa ma wɔde Zcash (Orchard) a wɔabɔ ho ban no nyinaa tua ka.  Nea ɔsomaa, nea ɔgye, ne sika dodow, ɛne nkae krataa no nyinaa yɛ ntasodeɛ
+- YƐdi dwuma ne TypeScript na Rust SDKs ma yεn nhyehyεε a εmu da hɔ wɔ AI pipelines ne API servers mu no.
+- Perfect for **LLM APIs, data marketplaces, MCP tool servers**, and any M2M payment use case.
 
 ---
 
-> **Zimppy** yɛ Machine Payment Protocol (MPP) sikatua kwan ma Zcash a ɛboa sikatua a wɔabɔ ho ban ne nea ɛda adi pefee nyinaa. Fa sika to hɔ pɛnkoro wɔ nkɔnsɔnkɔnsɔn so, afei yɛ adesrɛ a anohyeto nni mu ntɛm ara bearer a enni adesrɛ biara nkɔnsɔnkɔnsɔn nkitahodi.
+> **Zimppy** is the Machine Payment Protocol (MPP) payment method for Zcash supporting both shielded and transparent payments. Deposit once on-chain, then make unlimited instant bearer requests with no per-request chain interaction.
 
 ---
 
-## Nsɛm a Wɔahyehyɛ
+## Nsɛm a Ɛwɔ Mu
 
 1. [Dɛn ne Zimppy.xyz?](#what-is-zimppyxyz)
-2. [Dɛn nti na Sikatua a Wɔabɔ ho Ban Ma AI Agents?](#why-shielded-payments-for-ai-agents)
-3. [Mfiri a Wɔde Tua Ka Ho Nhyehyɛe (MPP) .](#machine-payment-protocol-mpp)
-4. [Sɛnea Zimppy Yɛ Adwuma](#how-zimppy-works)
-   - [Nhyiam ahorow (Wɔkamfo kyerɛ) .](#sessions-recommended)
-   - [Streaming a ɛrekɔ so](#streaming)
-   - [Kwaadu](#charge)
-5. [Fa Nsɛm & Nhwɛsode Di Dwuma](#use-cases--examples)
-6. [Nsɛm a wɔde hyɛ mu](#installation)
-7. [Wɔresiesie Zimppy Sikakorabea no](#setting-up-the-zimppy-wallet)
-8. [Wɔreka Zimppy abom](#integrating-zimppy--typescript-sdk)
-   - [Server (Wɔabɔ ho ban) .](#typescript-server--shielded)
-   - [Server (Ɛyɛ nea ɛda adi pefee) .](#typescript-server--transparent)
-   - [Dwumadiwura](#typescript-client)
-9. [Wɔreka Zimppy - Rust SDK abom](#integrating-zimppy--rust-sdk)
-   - [Server (Axum) .](#rust-server-axum)
-   - [Dwumadiwura](#rust-client)
-10. [CLI Nhwehwɛmu](#cli-reference)
-11. [Nneɛma Titiriw](#key-features)
-12. [Dan nhyehyɛeɛ](#architecture)
-13. [Nhwɛso & Demos](#examples--demos)
+2. [Dɛn nti na wɔde AI adwumayɛfo tua sika a wɔabɔ ho ban?](#why-shielded-payments-for-ai-agents)
+3. [Machine Payment Protocol (MPP) dwumadie a wɔfa so yɛ sika ho adwuma.](#machine-payment-protocol-mpp)
+4. [Sɛnea Zimppy Yɛ Adwuma No](#how-zimppy-works)
+   - [Adesua (Ahyɛ ho nkuran)](#sessions-recommended)
+   - [Nkrataa a wɔde redi dwuma](#streaming)
+   - [Kabea a wɔtwe no](#charge)
+5. [Fa Nsɛm a Ɛfa Nkɔsoɔ ne Nhwɛsodeɛ di dwuma](#use-cases--examples)
+6. [Nhyehyɛeɛ a wɔde sii hɔ](#installation)
+7. [Zimppy Akwanhosan no Siesiee](#setting-up-the-zimppy-wallet)
+8. [Zimppy a wɔde di dwuma no bi ne sɛ:](#integrating-zimppy--typescript-sdk)
+   - [Servers (Ɛwɔ banbɔ)](#typescript-server--shielded)
+   - [Ɔsomfoɔ (Transparent)](#typescript-server--transparent)
+   - [Ɔsomfoɔ no](#typescript-client)
+9. [Zimppy - Rust SDK a wɔhyehyɛ no mu di dwuma](#integrating-zimppy--rust-sdk)
+   - [Ɔsomfoɔ (Axum)](#rust-server-axum)
+   - [Ɔsomfoɔ no](#rust-client)
+10. [CLI Nkyerԑkyerԑmu](#cli-reference)
+11. [Nneɛma Titiriw a Ɛwɔ Mu](#key-features)
+12. [Abɔdeyɛ mu adansiɛ](#architecture)
+13. [Nhwɛsoɔ & Demos](#examples--demos)
 
 ---
 
 ## Dɛn ne Zimppy.xyz?
 
-**Zimppy.xyz** yɛ kokoamsɛm-di kan tua nhyehyɛe a wɔayɛ ama AI adwumayɛfo ne mfiri-kɔ-mfiri (M2M) adwumayɛ nhyehyɛe titiriw. Ɛde **Machine Payment Protocol (MPP)** no di dwuma de **Zcash** di dwuma sɛ ne sika a ɛhyɛ ase, na ɛma sikatua akwan a wɔabɔ ho ban (kokoam koraa) ne nea ɛda adi pefee nyinaa tumi tua.
+Zimppy.xyz yɛ nhyehyeɛ a wɔde di dwuma ma ankorankoro na wɔasiesie no sɛ AI agyinatufoɔ ne mfiri-kɔ-mfidie (M2M) adwuma akwan mu, ɔde Machine Payment Protocol (MPP) to dwa de Zcash reyɛ n'ahanhosan sika, ɛma kwan ma wotua ka wɔ ɔkwan pa so.
 
-Nea ɛnte sɛ atetesɛm blockchain sikatua nhyehyɛe ahorow, baabi a wotumi hu asɛm biara wɔ baguam wɔ nkɔnsɔnkɔnsɔn so no, wɔayɛ Zimppy atwa nhyehyɛe a egyina nhyiam so a eyi abisade biara a ɛkyɛ fi hɔ bere a ɛkora cryptographic kokoamsɛm so. Wei ma ɛfata soronko ma AI adwumayɛfoɔ a ɛhia sɛ wɔtua API, data, kɔmputa, anaa AI nnwinnadeɛ ho ka wɔ nhyehyɛeɛ kwan so, a wɔmfa suban ho metadata nkɔ.
+Sɛ wonte sɛ traditional blockchain payment systems a, transaction biara wɔ hɔ ma obiara na ɔhwɛ so no, Zimppy yɛ adwuma fa session-based architecture a ɛyi per request latency firi mu bere a ɛma cryptographic privacy. Eyi nti ɛyɛ soronko koraa maa AI agents a ehia wɔn sɛ wotua API, data, compute anaa AI tools programmatically, without leaking behavioral metadata ho ka.
 
-### Agyapade Titiriw
+### Nkyerεkyerεmu atitiriw no
 
-- **Deposit pɛnkoro** on-chain (~75 sikani ma Zcash si so dua)
-- **Asrɛde a anohyeto nni mu ntɛm ara** bere a wɔabue nhyiam no akyi no, zero per-abisade nkɔnsɔnkɔnsɔn nkitahodi
-- **Shielded payments** encrypt nea ɔde kɔma, nea ogye, sika, ne memo denam Zcash Orchard protocol so
-- **Transparent payments** de per-challenge T-addresses di dwuma ma replay prevention a enni kokoamsɛm a edi mũ
-- **Spec-compliant**, HMAC-SHA256 nsɛnnennen, RFC 9457 mfomso, . `/.well-known/payment` ade a wɔahu
+- ** Deposit once** on-chain (~75 seconds for Zcash confirmation) - Wode wo sika hyɛ mu pɛnkoro wɔ chain no so.
+- **Asrɛde a ɛnni ano biara** wɔ bere a wobue session no akyi, nnipakan-srɛde baako ho nsɛdi
+- **Shielded payments** de Zcash Orchard protocol di dwuma ma obi a ɔde ne sika, nea ɔgye no, ne memo nyinaa yɛ kodenmodeɛ
+- **Transparent payments** fa per-challenge T address di dwuma de siw replay kwan a enni ahobanbɔ mu koraa.
+- **Spec-compliant**, HMAC-SHA256 challenges, RFC 9457 errors, `/.well-known/payment` nhwehwɛyɛ
 
 ---
 
-## Dɛn Nti na Sikatua a Wɔabɔ ho Ban Ma AI Agents?
+## Dɛn nti na wɔde AI adwumayɛfo tua sika a wɔabɔ ho ban?
 
-Wɔ AI adwumayɛfoɔ a wɔdi adwumayɛ nhyehyɛeɛ a ɛyɛ nkateɛ ho dwuma, mmara mu nhwehwɛmu, aduruyɛ mu nsɛmmisa, sikasɛm mu nhwehwɛmu, akansiɛ ho nyansa ma **ɔmanfoɔ akatua biara yɛ metadata leak**. Zimppy ne MPP sikatua kwan nko ara a ɛyɛ **private by default**.
+Wͻ AI agyinatufoɔ a wͻyɛ adwuma wɔ dwumadie ahodoɔ mu no, mmara ho nhwehwɛmu, ayaresa nsusuyε, sikasɛm mu nhwehwԑmu ne akansi nyansahu biara yɛ metadata ahobanbɔ. Zimppy nkutoo ne MPP akatua kwan a εwɔ hɔ ma kokoamfo bere nyinaa.
 
-### Kokoam Nsɛm a Wɔde Toto Ho Table
+### Ahintasɛm a wɔsesa no ho mpapahwekwa
 
-| Agyapadeɛ | Ɔmanfoɔ Nkɔnsɔnkɔnsɔn (USDC, ETH) | Zimppy a Wɔabɔ no Kwan | Zimppy Transparent a Ɛyɛ Fɛ |
+ Property. Public Chains (USDC, ETH) Zimppy Shielded. Zimppy Transparent.
 |---|---|---|---|
-| **Ɔsomafoɔ** | Wotumi hu | Encrypted a wɔde ahyɛ mu | Wotumi hu |
-| **Ogyefo** | Wotumi hu | Encrypted a wɔde ahyɛ mu | Per-challenge (wɔntumi nka ho) |
-| **Nneɛma dodow** | Wotumi hu | Encrypted a wɔde ahyɛ mu | Wotumi hu |
-| **Nsɛm a wɔka kyerɛ** | Wotumi hu | Encrypted a wɔde ahyɛ mu | N/A |
-| **Replay Ahobanbɔ** | Obiara nni hɔ | Memo a wɔde kyekyere | Per-asɛnnennen T-address |
-| **Ɔsom a Wɔde Di Dwuma Nhwɛso** | Linkable | Ankorankoro | Ɛntumi nkɔ nkitahodi (addr foforo) |
+**Sender**: W'ahunu. Wɔakyekyere no mu. W'ahu.
+**Receiver** Visible. Encrypted. Per-challenge (unlinkable) *receive* Receiver: W'atumi ahu saa?
+** Amount** W'ahunu. Encrypted. w'ahu.
+**Memo**: W'ani tua. Wɔakyekyere no so N/A
+**Replay Protection** None. Memo binding. Per-challenge T-address. *Memorandum bindery: no copy, no copy*
+**Service Usage Pattern**: Wobetumi de aka ho. Private: Wontumi mfa nka (fresh addr)
 
-### Latency Ɔhaw no, a Wɔde Nhyiam Ahorow Asiesie
+### Ɔhaw a Ɛwɔ Akokoɔduro Ho, Agyinapɛn Ahorow Siesiee No
 
-> *"Nanso Zcash wɔ 75-second block mmere."*
+> Nanso Zcash wɔ mprɛ 75-second block times. "
 
-**Sessions solve this.** On-chain wait no si pɛpɛɛpɛ **pɛnkoro** wɔ deposit mu. Adesrɛ biara a edi hɔ no yɛ ntɛm ara.
+Sessions siesie eyi. On-chain twɛn no ba pɛpɛɛpɛ bere a wɔde sika hyɛ ase, na adesrɛ biara a edi hɔ yɛ mprempren ara pɛ.
 
 ```
 Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
@@ -91,39 +91,39 @@ Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  close session                 (refund unused balance)
 ```
 
-**Tua pɛnkoro, frɛ ntɛm ara, san nya nsakrae no.** Per-request latency yɛ zero.
+**tua ka prɛko, frɛ ntɛm ara, gye sika a aka no.** Ɛho hia sɛ wohwehwɛ mu bere biara.
 
 ---
 
-## Mfiri a Wɔde Tua Ka Ho Nhyehyɛe (MPP) .
+## Machine Payment Protocol (MPP) dwumadie a wɔfa so yɛ sika ho adwuma.
 
-**Machine Payment Protocol (MPP)** yɛ nhyehyeɛ a wɔahyɛ da ayɛ a ɛma software agents a wɔdi wɔn ho (AI agents, bots, scripts) tumi hunu, di nkitaho, na wɔdi sikatua ahwehwɛdeɛ a ɛfa API kwan so nyinaa ho dwuma a nnipa mfa wɔn ho nnye mu.
+Machine Payment Protocol (MPP) yɛ nhyehyɛɛ a ɛma tumi ma software agencies sɛ wɔn ara wɔhunu, di nkɔmmɔ na wodi ka ho dwuma. Ɛba API so aa obiara ntumi mfa ne nsa nka mu no nyinaa akyi.
 
-### Sɛnea MPP ne API ahorow no Bom
+### Sεnea MPP di dwuma ne API ahorow no
 
-MPP di HTTP **402 Katua a Wɔhwehwɛ** nsuo no akyi:
+MPP di HTTP **402 Akatua a Wɔhwehwɛ** no so:
 
-1. **Agent bisa** ade bi a efi API awiei a wotua ho ka.
-2. **Server bua** ne `402 Payment Required` + asɛnnennen a wɔde wɔn nsa ahyɛ ase (sika dodow, nea ogye, memo).
-3. **Agent tua** denam ɔkwan a ɛfata a wɔfa so tua ka (e.g., Zimppy shielded Zcash) so.
-4. **Agent san sɔ** abisade no ne `Authorization: Payment {txid}`.
-5. **Server di** sikatua no ho adanse wɔ cryptographic kwan so (Orchard IVK decryption, sika + memo check).
-6. **Server bua** ne `200 OK` + a `Payment-Receipt` atiri.
+1. "Agent" srɛ kwan fi API awieɛ bea a wɔtua ka.
+2. ** Sewa no de mmuaeɛ a ɛne** `402 Payment Required` + a signed challenge (amount, recipient, memo).
+3. Agyefo no tua sika a ɔde di dwuma wɔ akwan foforo so (te sɛ, Zcash a wɔde Zimppy ayɛ ho ban).
+4. *Agya no san di* asԑmmisa yi ho dwuma bio. `Authorization: Payment {txid}`.
+5. Server no di nhyehyeɛ a wɔde yɛ adwuma so (Orchard IVK decryption, sika + memo check).
+6. ** Sewa no de mmuaeɛ a ɛne** `200 OK` + a `Payment-Receipt` ti a ɛwɔ hɔ.
 
-### Spec Mmara a Wɔde Di Dwuma
+### Nkyerεkyerεmu a w'adi so.
 
-- **HMAC-SHA256** asɛnnennen a wɔde wɔn nsa hyɛ ase
-- **RFC 9457** nhyehyɛe mfomso mmuae
-- **`/.well-known/payment`** endpoint ma automatic sikatua kwan a wobehu
-- **Orchard IVK** (Incoming Viewing Key) ma server-side akatua ho adansedi a enni sika a wɔsɛe no safoa adi
+- **HMAC-SHA256** anobaabae a wɔde hyɛ ase
+- **RFC 9457** structured error responses (Ɔkwan a wɔfa so di mfomso ho nsunsuansoɔ)
+- **`/.well-known/payment`** awieɛ bea a wɔ di dwuma ma wɔn ankasa nya ɔkwan a wɔde tua ka no ho nimdeɛ
+- **Orchard IVK** (Incoming Viewing Key) ma servers-side payment verification a ɛnkyerɛ sika no ano nsesaeԑ ntwerԑtohɔ.
 
 ---
 
-## Sɛnea Zimppy Yɛ Adwuma
+## Sɛnea Zimppy Yɛ Adwuma No
 
-### Nhyiam ahorow (Wɔkamfo kyerɛ) .
+### Adesua (Ahyɛ ho nkuran)
 
-Nhyiam ahorow ne nkitahodi nhyehyɛe titiriw. Ɔnanmusifo no de sika a aka no to nkɔnsɔnkɔnsɔn so pɛnkoro, onya bearer token, na ɔde di dwuma ma abisade ahorow a edi hɔ nyinaa wɔ zero latency mu.
+Sɛ obi yɛ adwuma a, ɔtumi de ne sika no to gua wɔ chain mu ma ɔde kɔma nea ɔwɔ so na afei wɔde di dwuma bere biara.
 
 ```
 Agent  ->  deposit 100,000 zat           (on-chain, ~75s one-time)
@@ -133,13 +133,13 @@ Agent  ->  GET /api/query + bearer       (instant, balance deducted)
 Agent  ->  close session                 (refund unused balance on-chain)
 ```
 
-**Nea eye sen biara ma:** API frɛ a ɛkɔ soro, LLM nsusuwii, data a wɔbisa no mpɛn pii.
+**Eye ma:** API nsrataa a emu yɛ den, LLM inference, data mu nsɛmmisa ahorow.
 
 ---
 
-### Streaming a wɔde di dwuma
+### Nkrataa a wɔde redi dwuma
 
-Tua-per-token mita nsɛm a wɔde fa **Server-Sent Events (SSE)** so. Server no twe fi session balance no mu wɔ asɛmfua anaa token biara a wɔde akɔ no mu.
+Pay-per-token metered content a wɔde ma wɔ **Server-Sent Events (SSE)** so. Server no twe fi session balance ho asɛm biara anaa tokens bi a w'atwe agu mu.
 
 ```
 Agent  ->  open session with deposit
@@ -148,13 +148,13 @@ Server ->  stream word by word, deducting per token
 Agent  ->  close session, refund remaining
 ```
 
-**Nea eye sen biara ma:** LLM streaming mmuae, bere ankasa mu data feeds, pay-per-token AI nnwinnade.
+**Eye ma:** LLM asesa mmuae, bere-mu data feeds, AI nnwinnade a wɔtua ka biara.
 
 ---
 
-### Kwaadu
+### Kabea a wɔtwe no
 
-Katua biako a wɔabɔ ho ban wɔ adesrɛ biara mu. HTTP 402 flow no nyinaa yɛ adwuma wɔ frɛ biara mu. Ɛfata bere a abisade ntaa mma anaasɛ ne bo yɛ den no.
+Agyede baako a wɔayi no ho ban biara. HTTP 402 mu adwuma nyinaa yɛ pɛ sɛ obi frɛ bi, na saa bere yi so ɛyɛ papa ma wɔn a wɔyɛ nsrɛsrɛ akɛseɛ anaa nketenkete.
 
 ```
 Agent  ->  GET /api/resource
@@ -165,15 +165,15 @@ Server ->  decrypt with Orchard IVK, verify amount + memo
 Server ->  200 OK + Payment-Receipt
 ```
 
-**Nea eye sen biara ma:** Abisade a ɛsom bo pɛnkoro, API frɛ a ɛntaa nsi, premium data awiei.
+**Eye ma:** Abɔde a ɛkorɔn, adesrɛde baako pɛ, API nsrahwɛ kakraa bi, premium data awiei nkontaabu.
 
 ---
 
-## Fa Nsɛm & Nhwɛsode Di Dwuma
+## Fa Nsɛm a Ɛfa Nkɔsoɔ ne Nhwɛsodeɛ di dwuma
 
-### 1. AI Agent
+### 1. AI Agents:
 
-Mmara kwan so AI dwumayɛni bi bisa asɛm ho mmara ho database a wotua ho ka. Sɛ yɛde Zimppy shielded sessions di dwuma a, mmara adwumayɛbea no nipasu anaa nsɛmmisa pɔtee no nni hɔ a wohu wɔ nkɔnsɔnkɔnsɔn mu - ɛbɔ mmaranimfo-afɛfo hokwan ho ban wɔ infrastructure level.
+Legal AI agent hwehwɛ a tua no case-law database. Zimppy shielded sessions, neɛ mmara adwumakuo no din anaa nsɛm pɔtee bi ntumi nhunu wɔ chain - bɔ attorney-client ahofadi ho ban wɔ mfitiase level so.
 
 ```
 Agent opens session (100,000 zat deposit)
@@ -183,34 +183,34 @@ Agent opens session (100,000 zat deposit)
 Session closed, unused balance refunded
 ```
 
-### 2. AI Agent ma Aduruyɛ Ho Nsɛmmisa Pipeline
+### 2. AI Agent ma Aduruyɛ mu Nsɛm a Wobisa ho Nkɔmmɔ.
 
-Aduruyɛ mu ɔyaresafo bi bisabisa ayaresabea ahorow pii ho nsɛm. Sikatua a wɔabɔ ho ban hwɛ hu sɛ ayarefo abisade nhyehyɛe no ntumi nkɔ so wɔ wɔn a wɔde ma no nyinaa mu.
+Ayaresa mu nhwehwɛmufoɔ hwehwɛ ayaresabea nkrataa a ɛwɔ hɔ no pii. Akatua a wɔagye ato so ma ayarefo nsɛmmisa ho kwan ntumi nhyia mma ɔhwɛfoɔ biara nni hɔ.
 
-### 3. Sikasɛm mu Nhwehwɛmu Ho Ɔnanmusifo
+### 3. Dwumadibea a Ɛhwɛ Sika Ho Nsɛm So
 
-Algorithm aguadi agent tua bere ankasa mu gua so data API ahorow ho ka. Katua a ɛda adi pefee de T-address foforo di dwuma wɔ asɛnnennen biara mu, na esiw dwumadie nhyehyɛeɛ abusuabɔ a ɛwɔ data adetɔnfoɔ nyinaa mu ano.
+Algorithmic trading agent tua real-time market data API. Transparent payments fa T address foforɔ di dwuma wɔ ɔhaw biara mu, na ɛmma kwan mma sɛ wɔde saa ade no bɛtoto nneɛma a wɔn de ma ho.
 
-### 4. MCP Nnwinnade Server, AI Nnwinnade a wotua ho ka
+### 4. MCP Tool Server, Paid AI Tools (Animal Intelligence) - Abɔde a wɔde di dwuma.
 
-MCP (Model Context Protocol) server bi da AI nnwinnade a wotua ho ka adi. Adwinnade biara a wɔde frɛ no kanyan Zimppy ka, na ɛma gua a wɔde sika ayɛ AI tumi ahorow tumi yɛ adwuma.
+MCP (Model Context Protocol) server no de AI dwumadie a wɔtua ho ka kyerɛ. Akode biara bɔ Zimppy bo, na ɛma obi nya sika fi mu ma ne nsa aka nneɛma bi a wɔde yɛ adwuma wɔ hɔ.
 
-### 5. LLM Nsɛm a Wɔaboaboa Ano, Akatua-Bara-Token
+### 5. LLM Summarizer, Pay-Per-Token
 
-LLM summarization service bi gye agents ka wɔ output token biara ho denam SSE streaming so, a wɔtew sika a aka no ara kwa na wɔsan de sika a wɔatua dedaw a wɔmfa nni dwuma no ba.
+LLM summarization service no tua agencies ka biara a wɔde ba ho sika wɔ SSE streaming so, na wonya ɛka a woetwa ne nea wontua ansa.
 
 ---
 
-## Installation a wɔde hyɛ mu
+## Nhyehyɛeɛ a wɔde sii hɔ
 
-### Node.js / Nsɛm a Wɔakyerɛw
+### Node.js / TypeScript: Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa no mu
 
 ```bash
 npm install zimppy          # CLI + wallet
 npm install zimppy-ts       # TypeScript SDK
 ```
 
-### Rust
+### Ɔhaw a efi nnompe mu
 
 ```toml
 [dependencies]
@@ -220,37 +220,37 @@ zimppy-rs = "0.5"           # Rust SDK (charge, session, axum)
 
 ---
 
-## Zimppy Wallet no a Wobɛhyehyɛ
+## Zimppy Akwanhosan no Siesiee
 
-Zimppy CLI no ma sika kotokuo ntam nkitahodi a edi mũ. Ahyɛdeɛ nyinaa wɔ hɔ denam `npx zimppy`.
+Zimppy CLI no de krataafa a ɛwowɔ sika nkotoku nyinaa ma. Akwankyerɛ biara wɔ hɔ denam: `npx zimppy`.
 
-### Anamɔn 1 : Yɛ Sikakorabea
+### Anammɔn 1: Bɔ kahyire bi a wo bɛtumi de adi dwuma wɔ ayoba so:
 
 ```bash
 npx zimppy wallet create
 ```
 
-Yɛ cryptographic keys na ɛkyerɛ wo **aba kasasin**. Fa yei sie yie - se ayera a, wontumi nnye bio.
+Wode ahwehwɛde a wode bɛkyerɛ sɛ wo nsa aka biribi no adi dwuma. Fa sie yiye - wontumi nnya bio bere a ayera.
 
-### Anamɔn 2 : Hwɛ Wo Address ne Wo Kari pɛ
+### Anammɔn 2: Hwɛ wo address ne sika a aka no
 
 ```bash
 npx zimppy wallet whoami
 ```
 
-Kyerɛ wo **Unified Address (UA)**, **T-address**, mprempren kari pɛ, ne ntwamutam a ɛyɛ adwuma.
+W'akyerɛ wo Unified Address (UA) **, T-address** no ne nea aka wͻ so nyinaa.
 
 ```bash
 npx zimppy wallet balance --all
 ```
 
-Kyerɛ akontaabu biara mu sika a wɔkyekyɛ wɔ ZIP-32 akontaabu nyinaa mu.
+Shows a per-account balance breakdown across all ZIP-32 accounts.
 
-### Anamɔn 3 : Fa sika ma Wo Sikakorabea
+### Adesuade 3: Fa sika no to wo boapem so
 
-Fa ZEC kɔ wo Unified Address no so fi sika kotoku anaa nsakrae biara a ɛne Zcash hyia mu. Sika a wɔde asie a wɔabɔ ho ban no kɔ wo Orchard akontaabu mu tẽẽ.
+Fa ZEC to wo Unified Address firi wallet anaa exchange biara a ɛne Zcash di nsɛ mu. Deposit aa w'ayi no kɔ tẽẽ wɔ wo Orchard account hɔ.
 
-### Anamɔn 4 : Send na Shield Sika
+### Adesuade 4: Fa sika kɔ na fa sie wo ho .
 
 ```bash
 # Send ZEC to any address (shielded or transparent)
@@ -266,19 +266,19 @@ npx zimppy wallet transfer 0 1 50000
 npx zimppy wallet use work
 ```
 
-### Anamɔn 5 : Yɛ Auto-Pay Request
+### Akwantu 5: Yɛ Auto-Pay ho Abisaeɛ
 
 ```bash
 npx zimppy request <url>
 ```
 
-Ɔno ara di 402 -> tua -> san bɔ mmɔden sɛ ɛbɛsen no nyinaa ho dwuma. Wobue nhyiam ahorow no na wɔhwɛ so wɔ ɔkwan a ɛda adi pefee so.
+Otumi di 402 -> pay -> retry flow nyinaa so. Wobue session na w'adi no dwuma wɔ ɔkwan a aniwa nhu mu.
 
 ---
 
-## Zimppy a wɔde bɛka abom - TypeScript SDK
+## Zimppy - TypeScript SDK a wɔhyehyɛ mu no di dwuma
 
-### TypeScript Server - Wɔabɔ ho ban
+### TypeScript Server - Wɔbɔ ho ban
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -300,14 +300,14 @@ if (result.status === 402) return result.challenge
 return result.withReceipt(Response.json({ data }))
 ```
 
-**Nsɛntitiriw:**
-- `zcash({ wallet: 'server' })` de server no sika kotoku a wɔabɔ ho ban no gu mu
-- `mppx.charge()` di 402 challenge/verify asetena mu nyinaa ho dwuma
-- `result.withReceipt()` de cryptographic sikatua krataa no bata mmuae no ho
+**Nsɛm titiriw:**
+- `zcash({ wallet: 'server' })` hyɛ server no abɔ wɔn ho ban wallet mu
+- `mppx.charge()` Ɔgye 402 nsoroma/sɔhwɛ no nyinaa so wɔ asetena mu.
+- `result.withReceipt()` de adansedie nkrataa a w'atwe ato mu no ka ho bi ma mmuae no.
 
 ---
 
-### TypeScript Server - Ɛyɛ nea ɛda adi pefee
+### TypeScript Server - Nkyerεmu-mfasoɔ
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -319,11 +319,11 @@ const mppx = Mppx.create({
 })
 ```
 
-Asɛnnennen biara ma wonya **T-address foforo**, na ɛma sikatua abisade ahorow no ntumi nkɔ nkitahodi wɔ nhyiam ahorow no nyinaa mu.
+Ɔhaw biara ma wonya T-address foforo, na ɛma wɔtumi di nkontabuo ho dwuma.
 
 ---
 
-### TypeScript Adetɔfoɔ
+### TypeScript Odwumfoɔ
 
 ```typescript
 import { Mppx } from 'mppx/client'
@@ -335,13 +335,13 @@ const mppx = Mppx.create({ methods: [zcash({ wallet: 'default' })] })
 const res = await mppx.fetch('https://api.example.com/resource')
 ```
 
-Client no twa ne ho hyia `402` mmuae, bue nhyiamu bi ankasa, na ɔsan sɔ abisadeɛ no hwɛ - frɛ koodu no nhia nteaseɛ pɔtee biara a ɛfa sikatua ho.
+Ɔpanyin no refa nsɛm a ɔretie no mu. `402` mmuae, buee nhyiamu no mu ntra so na sane bɔ nsrɛ - frɛ code no enhia payment-specific logic.
 
 ---
 
-## Zimppy - Rust SDK a wɔde bɛka abom
+## Zimppy - Rust SDK a wɔhyehyɛ no mu di dwuma
 
-### Rust Server (Axum) a ɛwɔ hɔ no.
+### Rust Server (Axum)
 
 ```rust
 use mpp::server::axum::*;
@@ -361,14 +361,14 @@ async fn handler(charge: MppCharge<Price>) -> WithReceipt<Json<Value>> {
 }
 ```
 
-**Nsɛntitiriw:**
-- `MppCharge<Price>` yɛ Axum extractor a ɛhwɛ sɛ wɔatua ansa na handler no atu mmirika
-- `WithReceipt` de cryptographic sikatua krataa kyekyere mmuae no ho
-- `ChargeConfig` kyerɛkyerɛ boɔ nteaseɛ mu - betumi ayɛ nnam a egyina abisadeɛ parameters so
+**Nsɛm titiriw:**
+- `MppCharge<Price>` yε Axum extractor a εbͻ nsusudeԑ ansa na nea ɔhwε so no atu kwan
+- `WithReceipt` de nkrataa a wɔde di dwuma wɔ kɔmputa so no to mmuae ho krataa mu.
+- `ChargeConfig` Deɛ ɛma ne sɛ, ɔtumi yɛ nsakrae wɔ n'ahwehwɛ mu.
 
 ---
 
-### Rust Adetɔfoɔ
+### Rust Odwumfoɔ
 
 ```rust
 use mpp::client::Fetch;
@@ -382,56 +382,56 @@ let resp = client
     .await?;
 ```
 
-`send_with_payment` trɛw HTTP afɛfo biara mu denam 402 a wɔde di dwuma ɔtopae, nhyiam sohwɛ, ne Zcash sikatua mmamu so.
+`send_with_payment` de HTTP client biara a' ɔfa 402 ne session management, na Zcash payment fulfillment.
 
 ---
 
-## CLI Nhwehwɛmu
+## CLI Nkyerԑkyerԑmu
 
-| Ahyɛdeɛ | Nkyerɛkyerɛmu |
+Ahyɛdeɛ. Nkyerɛkyerɛmu.
 |---|---|
-| `npx zimppy wallet create` | Generate keys na kyerɛ aba kasasin |
-| `npx zimppy wallet whoami` | Kyerɛ address (UA + T-addr), kari pɛ, ntam |
-| `npx zimppy wallet balance --all` | Akontaabu biara mu sika a wɔde asie no mu mpaapaemu |
-| `npx zimppy wallet send <addr> <zat>` | Send shielded anaa transparent ZEC |
-| `npx zimppy wallet transfer <from> <to> <zat>` | Cross-account mu a wɔde kɔ baabi foforo |
-| `npx zimppy wallet shield` | Fa sika a ɛda adi pefee kɔ Orchard (shielded) |
-| `npx zimppy wallet use <name>` | Sesa active sika kotokuo identity |
-| `npx zimppy request <url>` | Auto 402 -> tua -> san sɔ mmɔden sɛ wobɛbisa |
+| `npx zimppy wallet create` Ԑde nkyerԑkyerԑ ne nsesaeԑ a' ԑwɔ hɔ ma wo no na yԑayi anim.
+| `npx zimppy wallet whoami`  Show address (UA + T-addr), balance, network.
+| `npx zimppy wallet balance --all` Dwumadi-nkontɔn mu nkontaabu a wɔhyehyɛ no.
+| `npx zimppy wallet send <addr> <zat>` Fa nneɛma a wɔde bɔ ho ban anaa nea ani tua to ZEC so.
+| `npx zimppy wallet transfer <from> <to> <zat>` Ntotoho a wɔfa so de ba fie.
+| `npx zimppy wallet shield` Fa sika a w'atumi de adi dwuma kɔ Orchard (a wɔabɔ ho ban) mu.
+| `npx zimppy wallet use <name>` Fa wo sika nkotoku no ho nimdeε sesa.
+| `npx zimppy request <url>`  Auto 402 -> pay -> retry request.
 
 ---
 
-## Nneɛma Titiriw a Ɛwɔ Hɔ
+## Nneɛma Titiriw a Ɛwɔ Mu
 
-### Agent-Native Sikakorabea
+### Agent-Native Wallets (Ɔwɛmfoɔ a Ɔfiri Asaase no so Akorabea)
 
-Wɔayɛ Zimppy sika kotokuo sɛ AI adwumayɛfoɔ de di dwuma wɔ nhyehyɛeɛ mu - ɛnyɛ browser ntrɛmu a nnipa hwɛ so. Wɔnam CLI anaa SDKs so na ɛhwɛ safoa so, wobetumi de **ZIP-32 akonta a wonya fi mu** so dannan akontaabu, na sika kotoku no boa sikatua a ɛyɛ adwuma koraa a nnipa nnye ho kwan wɔ asɛm biara mu.
+Zimppy wallets no yɛ programmatic de ma AI agents - ɛnyɛ browsers a nipa di so. Key no wɔ CLI anaa SDKs, account ahorow betumi asesa denam **ZIP-32 account derivation** so na wallet no boa pɛsɛmenkomenya akwan mu ka ho a nnipa nhyehyeɛ biara nni hɔ mma wɔn kwan sɛ wɔde bɛyɛ adwuma.
 
-### Multi-Agent Mmoa a Wɔde Ma
+### Nnipa bebree mmoa a w'ɔwɔ hɔ no
 
-Agentfoɔ dodoɔ betumi ayɛ adwuma afiri sika kotokuo korɔ no ara mu denam **ZIP-32 akonta rotation** so - agent biara nya n’ankasa akonta a ɛwɔ balance tracking a atew ne ho, cross-account transfer tumi, ne account biara mu balance reporting. Eyi ma wotumi di ananmusifo pii po so ahyɛn so fi sika kotoku nhyehyɛe biako mu.
+Multiple agents can operate from the same wallet using **ZIP-32 account rotation** - each agent gets its own account with isolated balance tracking, cross-account transfer capability, and per-account balance reporting. This enables fleet management of many agents from a single wallet infrastructure.
 
-### Zcash Nkitahodi a Wɔabɔ ho Ban koraa (Orchard) .
+### Zcash dwumadie a wɔabɔ ho ban koraa (Orchard)
 
-Shielded payments de Zcash **Orchard protocol** - a ɛyɛ foforo na ahobammɔ wom sen biara shielded pool di dwuma. Server no de **Incoming Viewing Key (IVK)** a ɛtumi decrypt nsɛm a wɔagye no mu a ɛmma sika a wɔsɛe no safoa no nkyerɛ sɛ sikatua no yɛ nokware. Wɔnam **memo binding** so siw replay ntua ano - asɛnnennen biara de soronko bi hyɛ mu `zimppy:{challenge_id}` memo a wɔde cryptographic ayɛ nokware.
+Shielded payments use Zcash's **Orchard protocol** - the latest and most secure shielded pool. The server verifies payments using an **Incoming Viewing Key (IVK)**, which can decrypt received notes without exposing the spending key. Replay attacks are prevented via **memo binding** - each challenge embeds a unique `zimppy:{challenge_id}` no memo that's cryptographically verified.
 
-### Nhyiam , Zero Per-Abisade Latency
+### Adesua , Nsa-kekae a wɔhwehwɛ no biara ho nkyɛm bere zero
 
-Session architecture no decouples on-chain confirmation wait no fi per-request latency no mu. Afei deposit biako (~75 seconds), wɔde bearer-token abisade a edi hɔ nyinaa som ntɛm ara a blockchain nkitahodi biara nni hɔ kosi sɛ nhyiam no bɛba awiei.
+Sɛ obi di dwuma a, ɔremmɔ so ntwɛn ansa na ne nsa aka biribi. Ɛba saa no, wɔdi dwuma ntɛmntɛm bere biara a wɔde to gua (bɛgye sɛ bɛyɛ anibu 75), nanso wɔnnwenee blockchain ho kɔsi sɛ wɔbɛwie adwuma no awie koraa.
 
-### Streaming , Akatua a Wɔde Tua Token Biara
+### Streaming , Pay-Per-Token
 
-Native **SSE (Server-Sent Events)** mmoa ma wotumi tua token biara metered content. Ɛyɛ papa ma LLM inference APIs a output tenten yɛ nsakraeɛ na ɛsɛ sɛ billing kyerɛ ankasa consumption.
+Native **SSE (Server-Sent Events)** boa ma pay-per-token metered content. Ɛfata sɛ LLM inference API a output tenten yɛ nsesaeɛ na ne ka no ɛsɛ sɛ ɛda dwuma ankasa adi so.
 
-### Spec Mmara a Wɔde Di Dwuma
+### Nkyerεkyerεmu a w'adi so.
 
-- **HMAC-SHA256** nsɛnnennen a wɔde wɔn nsa ahyɛ ase no siw atoro kwan
-- **RFC 9457** mfomsoɔ nhyehyeɛ a wɔahyehyɛ ama mfomsoɔ ho dwumadie a ɛyɛ adwuma bom
-- **`/.well-known/payment`** ama ɔkwan a wɔfa so tua sika a ɛyɛ adwuma ankasa a ɔnanmusifo biara a ɔne MPP hyia no behu
+- **HMAC-SHA256** nsa a wɔhyɛe no bɔ mmɔden sɛ wɔbɛsi nkontompo ano kwan.
+- **RFC 9457** structured error format ma interoperable mfomso di dwuma
+- **`/.well-known/payment`** ma akwan a wɔfa so tua sika no na obi di dwuma sɛ ɔhwɛfoɔ a odi MPP mmara so.
 
 ---
 
-## Dan nhyehyɛeɛ
+## Abɔdeyɛ mu adansiɛ
 
 ```
 crates/
@@ -445,56 +445,56 @@ packages/
   zimppy-cli/        CLI with auto-pay and session management
 ```
 
-### Component Asɛyɛde ahorow
+### Ɔfese a wɔhyehyɛ no ho asɛyɛde ahorow
 
-**`zimppy-core`** - a ɛyɛ cryptographic core no. Di Orchard note decryption ho dwuma denam server no IVK, memo parsing, replay ahobammɔ ntease, ne asɛnnennen ho adansedi so. Wɔakyerɛw no Rust mu ama adwumayɛ ne nea ɛteɛ.
+**`zimppy-core`** - The cryptographic core. Handles Orchard note decryption using the server's IVK, memo parsing, replay protection logic, and challenge verification. Written in Rust for performance and correctness. Emu biara wɔ ne nkyerɛwee mu a ɛyɛ den na ɛtumi yɛ adwuma yie paa.
 
-**`zimppy-wallet`** - A native Zcash sika kotoku a ahoɔden ne `zingolib`. Ɔhwɛ safe, akontaabu, sika a wɔabɔ ho ban/a ɛda adi pefee, ne asɛm a wɔde kɔma so.
+**`zimppy-wallet`- A Zcash sika nkotoku a wɔde di dwuma ma no. `zingolib`. Di nkwan, asuo, akontae a wɔayi no asi hɔ/a emu da hɔ ne nsesaeɛ ho dwuma.
 
-**`zimppy-rs`** - Na ɛyɛ Rust SDK no. Ɔde ma `ChargeMethod`, `SessionMethod`, ne `PaymentProvider` su ahorow, ne nnuru a wɔde yi Axum (`MppCharge`, `WithReceipt`) ma ergonomic server nkabom.
+**`zimppy-rs`- Rust SDK no de ma. `ChargeMethod`, `SessionMethod`, ne ho adi no ni. `PaymentProvider` traits, plus Axum extractors (`MppCharge`, `WithReceipt`) for ergonomic server integration. (Email: info@gmail.com) *o no
 
-**`zimppy-napi`** - NAPI-RS bindings a ɛda Rust core no adi kɔ Node.js so, ɛma TypeScript SDK tumi de cryptographic engine koro no ara di dwuma a ɛnsan mfa Zcash primitives nni dwuma wɔ JavaScript mu.
+**`zimppy-napi`NAPI-RS bindings a ɛma Rust core no nya Node.js, na ɛboa TypeScript SDK ma wɔde same cryptographic engine di dwuma bere a wɔnsan mfa Zcash primitives nyɛ adwuma wɔ JavaScript mu bio.
 
-**`zimppy-ts`** - Ɔkwan a wɔfa so yɛ TypeScript SDK. Ɔde idiomatic async/await APIs kyekyere NAPI bindings ma charge, session, ne SSE streaming flows.
+**`zimppy-ts`TypeScript SDK. Ɛfa NAPI bindings ne idiomatic async/await APIs ma charge, session, ɛne SSE streaming flow no.
 
-**`zimppy-cli`** - Ahyɛdeɛ-kwan sika kotokuo ne abisadeɛ adwinnadeɛ. Ɛboa auto-pay (402 -> tua -> san bɔ mmɔden), nhyiamu sohwɛ, ne sika kotoku dwumadie nyinaa.
+**`zimppy-cli`** - Akwankyerɛ-nkrataafa krataa ne ade a wobisa. Ɛboa ototoɔ (402 -> tua --> bɔ mmɔden), dwumadi no, ɛne akwan nyinaa so akatua nkrataafa dwumadie.
 
 ---
 
-## Nhwɛsode & Demos
+## Nhwɛsoɔ & Demos
 
-| Nhwɛso | Nkyerɛkyerɛmu |
+Ԑho nhwɛso. Nkyerԑaseɛ
 |---|---|
-| `examples/fortune-teller/` | Charge, session, ne streaming demos - Rust server + client |
-| `examples/llm-summarizer/` | Tua-biara-token LLM streaming demo |
-| `examples/mcp-server/` | MCP adwinnade server a AI nnwinnade a wotua ho ka |
-| `examples/ts-server/` | TypeScript MPP server nkyerɛkyerɛmu dwumadie |
+| `examples/fortune-teller/`  charge, session, and streaming demos - Rust server + client. (Ɛwɔ sɛ wode wo ho hyɛ mu na w'atumi adi dwuma a ɛnnyɛ den)
+| `examples/llm-summarizer/` -per-token LLM streaming demo no ho akatua.
+| `examples/mcp-server/` MCP afidie a wɔde di dwuma wɔ dwumadie mu, ɛne AI afidie ahorow a wotua ho ka.
+| `examples/ts-server/` TypeScript MPP server reference implementation. W'atumi de kasa ahodoɔ a ɛwɔ wo din mu no adi dwuma wɔ afidie yi so?
 
 ---
 
-## Nea Ɛka Ho - Feature Summary
+## Nea Ɛka Ho - Nsɛm a Wɔahyehyɛ no Ntɛm
 
-| Feature a ɛwɔ | Nkyerɛkyerɛmu |
+Ԑho nhwɛso. Nkyerԑaseɛ:
 |---|---|
-| **Nhyiamu ahorow** | Deposit pɛnkoro, instant bearer abisade, refund wɔ close |
-| **Nsuo a wɔde fa nsuo mu** | Pay-per-token metered nsɛm a ɛwɔ SSE so |
-| **Ka a wɔbɔ** | Sikatua a wɔabɔ ho ban anaasɛ ɛda adi pefee wɔ HTTP abisade biara mu (402 flow) |
-| **Atua a Wɔde Tua Ka a Ɛda Hɔ** | T-addresses a ɛwɔ per-challenge replay prevention + kyɛm ahyɛde |
-| **Akontaabuo pii** | ZIP-32 akontaabu mu nsakrae, akontaabu a wɔde kɔ amannɔne, akontaabu biara mu sika a aka |
-| **CLI Sikakorabea** | Send, kyɛm, transfer, balance --ne nyinaa, whoami, auto-pay |
-| **SDK abien** | TypeScript ne Rust |
-| **Spec-A ɛne ne ho hyia** | HMAC-SHA256 nsɛnnennen, RFC 9457 mfomso, . `/.well-known/payment` nea wɔahu |
+**Sessions**. Deposit once, instant bearer requests, refund on close.
+**Streaming** Pay-per-token metered content wɔ SSE so.
+duro a w'atumi de adi dwuma anaa ne ho ada hɔ wɔ HTTP asrɛde biara mu (402 flow)
+**Transparent Payments** T-addresses with per-challenge replay prevention + shield command. (Nneɛma a wobɛyɛ de asiesie wo ho)
+**Multi-Account**. ZIP-32 kaade a wɔsakra, sika a wɔde kɔ akae ahorow mu, ɛka biara ho nsesaw no so.
+CLI Wallet. Sende, bɔ ho ban, fa wo sika ma obi a ne nsa aka no nyinaa - nea obiara pɛ biara, otomatiki tua ka.
+** Dual SDK** TypeScript ne Rust.
+**Spec-Compliant** HMAC-SHA256 nsɛnnennen, RFC 9457 mfomso ahorow no, `/.well-known/payment` nhwehwɛ mu.
 
 ---
 
-*Sɛ wopɛ nsɛm pii a, kɔ [zimppy.xyz](https://zimppy.xyz)*
+*Sɛ wopɛ nsɛm pii a, kɔ: [zimppy.xyz](https://zimppy.xyz)*
 
 ---
 
-## Nkratafa a Ɛfa Ho
+## Nkrataafa a Ɛwɔ Ho Nsɛm
 
-- [Wɔde sika kotoku](/using-zcash/wallets) — Zcash sika kotoku a ɛboa nnwuma a wɔabɔ ho ban
-- [Atare a Wɔabɔ Ho Ban](/using-zcash/shielded-pools) — Sɛnea Orchard shielded transactions bɔ sikatua data ho ban
-- [Nnwuma a Wɔde Tua Ka](/using-zcash/payment-processors) — Akwan foforo a wobɛfa so agye Zcash sikatua
-- [Zcash Shielded Agyapadeɛ](/zcash-tech/zcash-shielded-assets) — ZSAs ne daakye a ɛbɛba wɔ Zcash nhyehyɛe mu
-- [Mpɔtam hɔ Nnwuma](/zcash-community/community-projects) — Zcash abɔde a nkwa wom ho nnwuma pii
+- [Adaka no mu nkotoku](/using-zcash/wallets)  Zcash wallets a ɛboa ma wotwa nneɛma so wɔ ɔkwan bi mu no.
+- [Nsuo a Ɛwɔ Ahintaw So](/using-zcash/shielded-pools)  Sεnea Orchard nntua a w'ayi no ano bɔ wo ho ban firi kaade mu data ho
+- [Akatua ho adwumayɛfoɔ](/using-zcash/payment-processors)  Akwan foforɔ a wobɛtumi afa so agye Zcash ka no atom.
+- [Zcash Akorafoɔ a wɔhwɛ wɔn so no](/zcash-tech/zcash-shielded-assets) — ZSAs and the future of Zcash programmability
+- [Amanamanmufoɔ Nhyehyɛeɛ](/zcash-community/community-projects)  Zcash ne ewiemu dwumadie ahodoɔ bebree a wobɛtumi ayɛ wɔ hɔ.

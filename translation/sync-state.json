@@ -521,11 +521,11 @@
       "edited": false
     },
     "Using_Zcash/Zimppy.md": {
-      "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:71d97a4b5c9f226188fd58ecf90bcc4c0ab4a595b27b9145c08fa112d79331be",
+      "src_commit": "47d89c3674c1a084a65b77b6fb0cc90d1a882a55",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -1153,11 +1153,11 @@
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
-      "src": "sha256:bb090f66f4ec8c6689f8cdf7a887dc9d9b1f7b4fa68b1c110f13d73beaf03bd3",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:24f85ec0a016405cbff5e5029e0e28686289b86effec657b2f9889e807eed498",
+      "src_commit": "47d89c3674c1a084a65b77b6fb0cc90d1a882a55",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -5543,11 +5543,11 @@
       "edited": false
     },
     "Using_Zcash/Zimppy.md": {
-      "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:71d97a4b5c9f226188fd58ecf90bcc4c0ab4a595b27b9145c08fa112d79331be",
+      "src_commit": "47d89c3674c1a084a65b77b6fb0cc90d1a882a55",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -6175,11 +6175,11 @@
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
-      "src": "sha256:bb090f66f4ec8c6689f8cdf7a887dc9d9b1f7b4fa68b1c110f13d73beaf03bd3",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:24f85ec0a016405cbff5e5029e0e28686289b86effec657b2f9889e807eed498",
+      "src_commit": "47d89c3674c1a084a65b77b6fb0cc90d1a882a55",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
