@@ -27,6 +27,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Run regression tests
+        run: node link-health/test-missing-root.mjs
+
       - name: Scan links
         env:
           # Lets the asset check read the wiki app repo's public/ tree.

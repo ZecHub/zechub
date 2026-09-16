@@ -75,8 +75,8 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 - [ZIP 205: Deployment of the Sapling Network Upgrade](https://zips.z.cash/zip-0205)
 - [ZIP 243: Transaction Signature Validation for Sapling](https://zips.z.cash/zip-0243)
 - [Zcash Sapling upgrade page](https://z.cash/upgrade/sapling/)
-- [Electric Coin Company: Sapling announcement](https://electriccoin.co/blog/sapling/)
-- [Electric Coin Company: Announcing the Sapling MPC](https://electriccoin.co/blog/sapling-mpc/)
+- [Electric Coin Company: Sapling announcement](https://web.archive.org/web/20260825/https://zodl.com//blog/sapling/)
+- [Electric Coin Company: Announcing the Sapling MPC](https://web.archive.org/web/20260825/https://zodl.com//blog/sapling-mpc/)
 
 ### See also
 

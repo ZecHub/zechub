@@ -35,7 +35,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Community | [The Official Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | A proposed hybrid consensus design that keeps proof-of-work block production and adds a proof-of-stake finality layer on top, so blocks gain stronger finality without abandoning mining. It grew out of Trailing Finality Layer research and is being built by Shielded Labs, still in testnet development as of 2026. |
 | CrossPay | A feature in the Zodl wallet that lets you spend shielded ZEC while the recipient is paid in the asset and chain they prefer, routed through NEAR Intents rather than a centralized exchange. |
-| Cypherpunk Zero | A Creative Universe and collaborative effort between ECC, illustrator Stranger Wolf, Mighty Jaxx and select ecosystem partners. [Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | A Creative Universe and collaborative effort between ECC, illustrator Stranger Wolf, Mighty Jaxx and select ecosystem partners. [Cypherpunk Zero Site](https://web.archive.org/web/20260825/https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -138,7 +138,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Term | Definition |
 |------|-----------|
 | Oblivious Synchronization | A method under development in Project Tachyon that lets a wallet request the data it needs from an untrusted server without revealing which notes it is asking about. The server never learns your nullifiers, because the protocol makes them evolve in an unlinkable way. [Write-up](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | The third shielded pool for Zcash and represents the continued evolution of our zk-SNARK technology stack. [Full details](https://electriccoin.co/blog/explaining-halo-2/) |
+| Orchard Shielded Pool | The third shielded pool for Zcash and represents the continued evolution of our zk-SNARK technology stack. [Full details](https://web.archive.org/web/20260825/https://zodl.com//blog/explaining-halo-2/) |
 | Overwinter | The 1st Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P

@@ -102,7 +102,7 @@ For PoS validators:
 
 Zcash is actively researching a migration to Proof-of-Stake.
 
-- Read the research: https://electriccoin.co/blog/zcash-proof-of-stake-research/  
+- Read the research: https://web.archive.org/web/20260825/https://zodl.com//blog/zcash-proof-of-stake-research/  
 - Watch this segment from a Zcash Foundation Community Call explaining different PoS designs and their privacy implications:
   
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

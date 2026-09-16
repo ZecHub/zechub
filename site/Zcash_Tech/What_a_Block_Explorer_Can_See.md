@@ -63,7 +63,7 @@ Query the raw data and the shielded sender and receiver fields come back empty. 
 ## Resources
 
 - [Zcash: privacy and security recommendations](https://z.cash/support/security/privacy-security-recommendations/)
-- [A shielded ecosystem (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [A shielded ecosystem (Electric Coin Company)](https://web.archive.org/web/20260825/https://zodl.com//blog/shielded-ecosystem/)
 - [How Zcash technology works](https://z.cash/technology/)
 - [Blockchair Zcash explorer](https://blockchair.com/zcash)
 

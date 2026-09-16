@@ -104,7 +104,7 @@ Sprout was the first ever open permissionless Zero Knowledge privacy protocol ev
 
 Sprout addresses are identified by their first two letters which is always "zc". It was named "Sprout" for the major purpose of emphasising that the software was young, budding blockchain with great potential to grow and  opened for development. 
 
-Sprout was used as an early tool for [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) which brought about the distribution of ZEC and Block rewards for Miners. 
+Sprout was used as an early tool for [Zcash slow start Mining](https://web.archive.org/web/20260825/https://zodl.com//blog/slow-start-and-mining-ecosystem/) which brought about the distribution of ZEC and Block rewards for Miners. 
 
 As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
 

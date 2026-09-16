@@ -97,7 +97,7 @@ Zcash may not boast of a community as large as Monero or an extensive merchant b
 - Blockchair. (2025). Zcash shielded transactions data. https://blockchair.com/zcash/charts/shielded-supply
 - CoinMetrics. (2025). Zcash network data metrics. https://coinmetrics.io/
 - CoinTelegraph. (2024). Dash is no longer a privacy coin under evolving regulations. https://cointelegraph.com/news/dash-no-longer-privacy-coin
-- Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
+- Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://web.archive.org/web/20260825/https://zodl.com//blog/
 - Messari. (2025). Messari ZEC dashboard. https://messari.io/asset/zcash
 - Shawn; Lead moderator Zcash Community Forum. (2025). 
 - X Platform Sentiment Analysis. (2025, July). Internal dataset. 

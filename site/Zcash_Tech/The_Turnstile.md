@@ -111,7 +111,7 @@ This is the deeper reason the turnstile matters beyond simple accounting. It is 
 1. [ZIP 209: Prohibit Out-of-Range Chain Value Pool Balances](https://zips.z.cash/zip-0209) - the consensus rule behind the turnstile
 2. [ZIP 211: Disabling Addition of New Value to the Sprout Chain Value Pool](https://zips.z.cash/zip-0211) - how the Sprout pool was closed to new deposits
 3. [ZIP 258: NU6.3](https://zips.z.cash/zip-0258) - the upgrade that introduces the Ironwood pool and directs value across the turnstile
-4. [Turnstile Enforcement Against Counterfeiting](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - the original explanation from Electric Coin Company
+4. [Turnstile Enforcement Against Counterfeiting](https://web.archive.org/web/20260825/https://zodl.com//blog/turnstile-enforcement-against-counterfeiting/) - the original explanation from Electric Coin Company
 5. [Zcash Protocol Specification](https://zips.z.cash/protocol/protocol.pdf) - see the sections on balance and binding signature for the full detail
 6. [Value Pools, the Zebra Book](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - how a node tracks each pool's value balance
 
