@@ -64,7 +64,7 @@ Ahora puedes estar pensando: "Gracias por la comparación de dinero, pero todav�
 
 1. Si aún no lo has hecho, [crea una cuenta de intercambio](https://support.gemini.com/hc/en-us/articles/204732795-How-do-I-sign-up-for-Gemini-). Recomiendo el uso de Gemini si te encuentras en los Estados Unidos. Coinbase es otra gran opción.
 
-2. Descarga un monedero. Para ello, ve a la tienda de aplicaciones y busca la aplicación de monedero móvil que deseas descargar. Aquí hay una lista de [monederos](https://z.cash/wallets/) para elegir. 
+2. Descarga un monedero. Para ello, ve a la tienda de aplicaciones y busca la aplicación de monedero móvil que deseas descargar. Aquí hay una lista de [monederos](https://z.cash/ecosystem/?wallets=#tag-wallets) para elegir. 
 
 Después de descargar el monedero, haz clic en la aplicación donde se te pedirá que hagas una copia de seguridad del monedero o que crees uno nuevo. Selecciona crear uno nuevo y luego escribe la contraseña de tu monedero en una hoja de papel y ponla en un lugar seguro.
 

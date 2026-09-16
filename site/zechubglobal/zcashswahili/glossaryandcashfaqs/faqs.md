@@ -7,12 +7,12 @@ Orodha ya mada zenye maswali yanayoulizwa mara kwa mara kuhusu Zcash. Kwa ufumbu
 
 Zcash ni sarafu ya kidijitali yenye haraka na isiyo na uchunguzi wa kina na gharama ndogo. Faragha ni sifa kuu ya Zcash. Imeongoza katika matumizi ya uthibitisho wa kutokuwepo kwa kulinda taarifa za watumiaji kwa kuficha shughuli zote. Kuna pochi kadhaa unazoweza kuidownload kwa ajili ya malipo ya haraka, salama, na ya faragha kwa kutumia simu yako ya mkononi. 
 
-[Pochi Za Simu](https://z.cash/wallets/)
+[Pochi Za Simu](https://z.cash/ecosystem/?wallets=#tag-wallets)
 
 
 ## Nina Weza Kununua Zcash Wapi?
 
-Unaweza kununua Zcash kwenye [ubadilishiaji wa sarafu ya kidijitali](https://z.cash/exchanges). Unaweza pia kununua Zcash moja kwa moja kutoka mtu mwingine kwa njia ya mtu kwa mtu. Tumia tahadhari wakati unabadilishana na huduma na watu ambao hauwajuwi. Unwaweza pia kupata Zcash kwa kuchimba.
+Unaweza kununua Zcash kwenye [ubadilishiaji wa sarafu ya kidijitali](https://z.cash/ecosystem/?exchanges=#tag-exchanges). Unaweza pia kununua Zcash moja kwa moja kutoka mtu mwingine kwa njia ya mtu kwa mtu. Tumia tahadhari wakati unabadilishana na huduma na watu ambao hauwajuwi. Unwaweza pia kupata Zcash kwa kuchimba.
 
 ## Kuna Tofauti Gani Kati ya Zcash Na Sarafu Za Krypto Nyingine
 

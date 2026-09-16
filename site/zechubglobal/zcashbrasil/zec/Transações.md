@@ -12,7 +12,7 @@ As transações blindadas ocorrem quando você move o ZEC para sua carteira blin
 
 Enviar uma transação blindada é muito fácil, você só precisa se certificar de duas coisas:
 
-- A primeira é que você está usando o tipo de carteira certa. A maneira mais fácil de garantir que você está usando o tipo certo de carteira é baixando no  site oficial: [z.cash/wallets](https://z.cash/wallets.)
+- A primeira é que você está usando o tipo de carteira certa. A maneira mais fácil de garantir que você está usando o tipo certo de carteira é baixando no  site oficial: [z.cash/wallets](https://z.cash/ecosystem/?wallets=#tag-wallets)
   
 - A segunda coisa importante é mover o ZEC para uma carteira blindada.
 

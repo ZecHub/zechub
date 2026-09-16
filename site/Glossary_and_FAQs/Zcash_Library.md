@@ -56,7 +56,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Encrypted Memos | An additional field for transactions sent to shielded addresses that is visible to the recipient of a payment. The encrypted memo is visible only to the sender and recipient. |
 | Equihash | The memory-oriented proof-of-work mining algorithm that is used on Zcash. |
 | Events | The calendar of Zcash-related events can be viewed on [Luma](https://luma.com/zcash) and [Zcash Foundation](https://zfnd.org/zf-events/) |
-| Exchanges | [List of Exchanges supporting Zcash](https://z.cash/exchanges/) |
+| Exchanges | [List of Exchanges supporting Zcash](https://z.cash/ecosystem/?exchanges=#tag-exchanges) |
 
 ## F
 

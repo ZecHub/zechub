@@ -6,7 +6,7 @@ ZEC viene utilizzato principalmente per i pagamenti. Pensate a restituire un deb
 
 Le transazioni schermate avvengono quando si sposta ZEC nel proprio portafoglio schermato. L'indirizzo del vostro portafoglio schermato inizia con una "U" o una "Z". Quando si inviano transazioni schermate, si garantisce un livello di privacy per sé e per le persone con cui si sta effettuando la transazione, non possibile su altre reti di pagamento P2P.
 
-Inviare una transazione protetta è molto facile, basta assicurarsi di due cose. La prima è che si sta utilizzando il tipo di portafoglio giusto. Il modo più semplice per assicurarsi di utilizzare il tipo di portafoglio giusto è scaricare un portafoglio evidenziato sul sito ufficiale: https://z.cash/wallets. La seconda cosa importante è spostare ZEC in un portafoglio schermato.
+Inviare una transazione protetta è molto facile, basta assicurarsi di due cose. La prima è che si sta utilizzando il tipo di portafoglio giusto. Il modo più semplice per assicurarsi di utilizzare il tipo di portafoglio giusto è scaricare un portafoglio evidenziato sul sito ufficiale: https://z.cash/ecosystem/?wallets=#tag-wallets. La seconda cosa importante è spostare ZEC in un portafoglio schermato.
 
 Quando si preleva ZEC da un exchange, è necessario sapere se l'exchange supporta prelievi schermati o trasparenti. Se supporta i prelievi schermati, è sufficiente prelevare ZEC nel proprio indirizzo schermato. Se l'exchange supporta solo prelievi trasparenti, allora è necessario utilizzare **[YWallet](https://ywallet.app)** ed auto-schermare il tuo ZEC una volta arrivato. 
 
