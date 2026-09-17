@@ -10,7 +10,7 @@ Nevertheless, regarding to new ways of finances, there are people -like Zcash- w
 
 Zcash  with ZEC offers both enhanced privacy and security features. But, as a a very first step for adoption and use starts with the fact that more (real) businesses, stores and people offering services are accepting **ZEC** as a payment option., 
 
-# Why does a company / service may wish to accept $ZEC?
+## Why accept ZEC?
 
 If you have a company or sell any product or service, you may wish to receive Zcash. Why? Herein, some of those multiple reasons and benefits you can considered it as your payment method. 
 
@@ -22,16 +22,13 @@ If you have a company or sell any product or service, you may wish to receive Zc
 
 Considering all the items above, there are many places where you can spend ZEC. Let’s explore what we’ve called: 
 
-# #Top10 Places accepting ZEC (and you do want to spend)
+## Top places accepting ZEC
 
  ****
 
 Particularly, in Venezuela, there are a bunch of places (physical places and online spots) where you can get products or services and pay with Zcash… Let’s begin!
 
-<aside>
-📌 This is listed at random, just to let people know where they can go and pay with comfort having just a portable device (phone, laptop or ledger), a Zcash wallet and good internet or data connection
-
-</aside>
+> Listed in no particular order. You need a Zcash wallet and a network connection.
 
 [**Gastronomy - Bakery & Chocolaterie**] 
 
@@ -41,15 +38,9 @@ Particularly, in Venezuela, there are a bunch of places (physical places and onl
 
 Besides her cookies, she offers other services and the best of all is this: you can pay with ZEC!
 
-![1_20230829_214024_0000.png](/content-images/_unavailable.svg)
-
  Crackle chocolate cookies | Credit: Sheila Vargas Rojas
 
-![2_20230829_214024_0001.png](/content-images/_unavailable.svg)
-
 Oat flakes & raisin cookies | Credit: Sheila Vargas Rojas
-
-![Untitled design_20230829_215327_0000.png](/content-images/_unavailable.svg)
 
 Doughnuts with candied fruits | Credit: Sheila Vargas Rojas | 
 
@@ -75,15 +66,9 @@ u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9er
 
 Rosa Ma. Rangel, an Computer engineer  by profession but *chocolatière* by conviction, self-confessed chocolate lover and passionate for bakery and  pastry, offers a wide range of artisanal products from chocolate, traditional venezuelan sweet treats and bakery. 
 
-![Untitled](/content-images/_unavailable.svg)
-
 Dried fruit & strawberry chocolate 
 
-![20230829_232246.jpg](/content-images/_unavailable.svg)
-
 Rosa smiles proudly showing that she accepts **Zcash.**
-
-![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
 **Website**: somosdulceros.com has been retired and no longer resolves. Use the social links below.
 
@@ -103,21 +88,13 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 Elizabeth is a passionate young mom who loves crafting and designing. She has the most important motivation for being devoted in every thing she does: her family*.💙*
 
-![BackgroundEraser_20230830_134315142.png](/content-images/_unavailable.svg)
-
 **Blog:** 
 
 [https://papelesacolor.blogspot.com/](https://papelesacolor.blogspot.com/) 
 
-![2_20230830_152443_0001~2.png](/content-images/_unavailable.svg)
-
 Are your kids being promoted? **Papeles a color** can help you to celebrate their achievements.
 
-![3_20230830_152443_0002~2.png](/content-images/_unavailable.svg)
-
 Something different and unique? A **Zcash** mobile phone charger base!
-
-![1_20230830_152443_0000.png](/content-images/_unavailable.svg)
 
 Some of other beautiful things Papeles a Color handcrafts.
 
@@ -167,8 +144,6 @@ u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw
 
 1. **GorBrit Social Media**
 
-![Untitled](/content-images/_unavailable.svg)
-
 This place ruled by **Roosevelt Gordones and Aura Brito** offers services related to:
 
 - Web pages / Web design
@@ -200,8 +175,6 @@ Besides being a digital designer, Robmar is a photographer who also takes someti
 
 His work is well-known in Zcash ecosystem thanks to his contribution to the ZFAV club.
 
-![Screenshot_20230830-163829-271~2.png](/content-images/_unavailable.svg)
-
 • Video making / edition
 
 • Logo creation & Animation
@@ -217,8 +190,6 @@ His work is well-known in Zcash ecosystem thanks to his contribution to the ZFAV
 **[Beauty | Manicure | Hand & Nails care | Accesories]** 
 
 1. **Karin Beauty Studio | By Karin Gordones**
-
-![Screenshot_20230830-131043-768~2.png](/content-images/_unavailable.svg)
 
 Beautiful nails, beautiful hands thanks to Karin Beauty Studio.
 
@@ -238,13 +209,9 @@ Schedule appointment
 
 ---
 
-![BackgroundEraser_20230901_110901449.png](/content-images/_unavailable.svg)
-
 1. **Corona de Brillitos.** | By **Gissell** **B**. 
 
 Do you know what’s amazing about Zcash? Having people like Gissell, a 16-yr old girl who loves crafting, making girly beautiful accesories and know that at her age, she uses Zcash in her flourishing business
-
-![20230830_235143_0000.png](/content-images/_unavailable.svg)
 
 Nice elegant presentation for scrunchies | Corona de brillitos 
 
@@ -274,8 +241,6 @@ Tecnopapapi is the right person to get in touch with!
 
 • Android Operating System (phones)
 
-![IMG_20230901_093618_042.jpg](/content-images/_unavailable.svg)
-
 **Website** 
 
 [https://tecnopapapi.com](https://tecnopapapi.com/)
@@ -299,8 +264,6 @@ u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmd
 Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Simón Bolívar International Airport.
 
 He accepts cryptocurrecies, included **Zcash**
-
-![IMG_20230831_172209_058.jpg](/content-images/_unavailable.svg)
 
  Mr. Mendoza showing his zingo wallet. | Credit image: Edickson Gonzalez 
 
@@ -364,8 +327,6 @@ Bonus : **Allegrini Ristorante** 🇪🇸 | Pizza Place | Italian food | **Accep
 
 Delivery service | Take away | Reservations
 
-![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
-
 **Website**: none. The announced site at alleginiristorante.com was never completed and the domain no longer resolves. Use the social links below.
 
 **Social media** 
@@ -373,8 +334,6 @@ Delivery service | Take away | Reservations
 [Instagram](https://instagram.com/allegriniristorante) | [X Platform](https://twitter.com/AllegriniRisto) | [Telegram](https://t.me/AllegriniRistorante) | [Pinterest](https://pin.it/6z8hq6F)
 
 (Soon at [free2z.cash](http://free2z.cash). )
-
-![20230901_121633_0000.png](/content-images/_unavailable.svg)
 
 **Zcash Unified Address** 
 
