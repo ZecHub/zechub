@@ -50,22 +50,29 @@ Building Zebra requires Rust, libclang, and a C++ compiler.
 
 ### Install and Start
 
-After ensuring the dependencies are met, proceed with building and installing Zebra using the following command:
+On x86_64 or aarch64 Linux with glibc 2.34 or newer (Ubuntu 22.04+, Debian 12+, RHEL 9+, Amazon Linux 2023), you can skip the build dependencies and install a signed pre-built binary:
 
 ```
-
-cargo install --locked zebrad
-
+cargo binstall zebrad
 ```
 
-Initiate Zebra by executing:
+The same binaries are attached to every GitHub release as `zebrad-<version>-<target>.tar.gz`, each with a SHA-256 checksum, a Sigstore build-provenance attestation and a Cosign signature. On older platforms, use the Docker image or build from source.
+
+To build from source, get the code and build the release binary:
 
 ```
-zebrad start
-
+git clone https://github.com/ZcashFoundation/zebra.git
+cd zebra
+cargo build --release --bin zebrad
 ```
 
-Installation guide: [zebra.zfnd.org/user/install.html](https://zebra.zfnd.org/user/install.html?highlight=zebra%20launcher#installing-zebra)
+Start the node with:
+
+```
+target/release/zebrad start
+```
+
+Installation guide: [zebra.zfnd.org/user/install.html](https://zebra.zfnd.org/user/install.html)
 
 ## Optional Configurations & Features
 
