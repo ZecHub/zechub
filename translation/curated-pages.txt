@@ -41,8 +41,10 @@ Start_Here/ZEC_Use_Cases.md
 Start_Here/Zcash_Monetary_Policy.md
 Start_Here/Zcash_Resources.md
 Using_Zcash/Buying_ZEC.md
+Using_Zcash/Centralized_Swaps.md
 Using_Zcash/Creators_and_Tips.md
 Using_Zcash/Custodial_Exchanges.md
+Using_Zcash/DEX.md
 Using_Zcash/Encifher_Swaps.md
 Using_Zcash/Faucets.md
 Using_Zcash/Memos.md
@@ -101,6 +103,7 @@ Zcash_Organizations/ZKAV.md
 Zcash_Organizations/ZODL.md
 Zcash_Organizations/Zcash_Community_Grants.md
 Zcash_Organizations/Zcash_Foundation.md
+Zcash_Organizations/Zcash_Labs.md
 Zcash_Organizations/Zingo_Labs.md
 Zcash_Social_Media/Cryptonote.md
 Zcash_Social_Media/Hash_Functions.md
@@ -140,10 +143,12 @@ Zcash_Tech/Sprout.md
 Zcash_Tech/The_Turnstile.md
 Zcash_Tech/Viewing_Keys.md
 Zcash_Tech/What_a_Block_Explorer_Can_See.md
+Zcash_Tech/Z3_Stack.md
 Zcash_Tech/ZAP1_Attestation_Protocol.md
 Zcash_Tech/ZECD.md
 Zcash_Tech/Zaino.md
 Zcash_Tech/Zakura_Node.md
+Zcash_Tech/Zallet.md
 Zcash_Tech/Zcash_Shielded_Assets.md
 Zcash_Tech/Zcash_Wallet_Syncing.md
 Zcash_Tech/Zebra_Full_Node.md
@@ -186,6 +191,7 @@ guides/ShapeShift_Zcash.md
 guides/Using_ZEC_Privately.md
 guides/Using_ZEC_in_DeFi.md
 guides/Verifying_Zcash_Releases.md
+guides/Viewing_Key_Transaction_Export.md
 guides/Visualizing_Zcash_Addresses.md
 guides/Visualizing_the_Zcash_Network.md
 guides/Ywallet_FROST_Demo.md
