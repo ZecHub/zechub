@@ -2023,7 +2023,7 @@
       "src_commit": "099671de82d131c7fcfae650d8807dc19d1665eb",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -3079,7 +3079,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
@@ -3135,7 +3135,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -3697,7 +3697,7 @@
       "src_commit": "bb4cc6d069d572001fd9004f53fd76629b7777cf",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -4753,7 +4753,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
@@ -4809,7 +4809,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -7045,7 +7045,7 @@
       "src_commit": "bb4cc6d069d572001fd9004f53fd76629b7777cf",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -8101,7 +8101,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
@@ -8157,7 +8157,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -8719,7 +8719,7 @@
       "src_commit": "bb4cc6d069d572001fd9004f53fd76629b7777cf",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -9775,7 +9775,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
@@ -9831,7 +9831,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -15263,7 +15263,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "Research/zcash-foundations-series/article-2/article-2-elliptic-curves.md": {
@@ -15271,7 +15271,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -15295,7 +15295,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "Research/zcash-foundations-series/article-6/article-6-shielded-protocol.md": {
@@ -18763,7 +18763,7 @@
       "src_commit": "bb4cc6d069d572001fd9004f53fd76629b7777cf",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -19819,7 +19819,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
@@ -19875,7 +19875,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -23649,7 +23649,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Research/zcash-foundations-series/article-4/article-4-merkle-trees.md": {
@@ -23657,7 +23657,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Research/zcash-foundations-series/article-5/article-5-zero-knowledge-proofs.md": {
@@ -23665,7 +23665,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Research/zcash-foundations-series/article-6/article-6-shielded-protocol.md": {
@@ -28807,7 +28807,7 @@
       "src_commit": "099671de82d131c7fcfae650d8807dc19d1665eb",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -29863,7 +29863,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
@@ -29919,7 +29919,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+fencerepair",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {

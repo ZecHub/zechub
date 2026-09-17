@@ -226,4 +226,4 @@ Commitment  =  v.G  +  r.H
 
 **記事3 . ハッシュとコミットメント：**「魔法の封筒」を正しく開きます。今では曲線上の点からコミットメントを構築する方法を見ました；次に、隠蔽性と束縛性が本当に何を意味するのか、ハッシュ関数に出会って、すべてのZcash支払いに根ざすノートコミットメントと結びつけます。
 
-*ZecHub（https://zechub.org）向けの* Zcash from First Principles *シリーズの一部。CC BY-SA 4.0ライセンス。*
+*[ZecHub](https://zechub.org)向けの* Zcash from First Principles *シリーズの一部。CC BY-SA 4.0ライセンス。*
