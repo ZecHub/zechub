@@ -227,4 +227,4 @@ a^(-1) = a^(p-2)   (mod p)
 
 **記事2 . 楕円曲線:** 我々が構築した有限体を使って、点を「加える」ことができる奇妙な種類の曲線を描きます。それらの点はZcashの鍵やコミットメントになり、プライバシー系全体を可能にする片道トラップドアを隠します。いつものように、直感から始めます。
 
-*ZecHub（https://zechub.org）向けの* Zcash from First Principles *シリーズの一部。CC BY-SA 4.0ライセンス。*
+*[ZecHub](https://zechub.org)向けの* Zcash from First Principles *シリーズの一部。CC BY-SA 4.0ライセンス。*
