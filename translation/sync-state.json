@@ -1,11 +1,11 @@
 {
   "ak": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:05f6d3a006ca7a8162f414d6001df4cb502af6ad6197cd361035b26148b36ec9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
@@ -137,19 +137,19 @@
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
-      "src": "sha256:7a880f8313c2bfc3fd77e1538cf4e5745b88d4615e40d35f87dafc1ed3290d3a",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+restore-frontmatter-key",
+      "src": "sha256:3c4aaec08ea34f21c58c47a75e2cc4027b7ee6ae02bbff0fde027d351a581a58",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
-      "src": "sha256:385e47505dc99687363367ac3a7c5a9de06efc16e35dd711daea23284d62c9e1",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
-      "engine": "gt",
+      "src": "sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -353,11 +353,11 @@
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
-      "src": "sha256:e0e567d9aa30ae876bc405d8e546be4abf8e12a23e24a3320cc28dbffcb34947",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
-      "engine": "gt",
+      "src": "sha256:93f96245985f8e1b407998eb6cb7d617bd7a664e4f38cff3689202d8f8bc00e0",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -449,11 +449,11 @@
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
-      "src": "sha256:f792d22247b18f4cd8bc14b3da1ce7a3b7d6cd320c3381cf7edf50fdebb99304",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
+      "src": "sha256:47ae89b30449fe6bffc0d092e60b042f230c2f7c14837b29e85772bffedd78d9",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
@@ -473,19 +473,19 @@
       "edited": false
     },
     "Using_Zcash/Transparent_Exchange_Addresses.md": {
-      "src": "sha256:1c6fe528a374cbb705e3473b3eaf469c6012f4a049fd3cce7979b6a3e10f1d26",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+deadlink-5pages",
+      "src": "sha256:fe0254bf6be14512e4f15a5ab37a27e05d247b10e8cddfd3cecaeafc2bc2685a",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Using_Zcash/Wallets.md": {
-      "src": "sha256:09228c1e73ad79f8472cc5b626dd37377eb0d803698b5a71896749747b9c6939",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
+      "src": "sha256:d894a94b92d2b226b20e678f7dd60c83d0676b17338081934e9f8851121c8121",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+brand-restore+deadlink-5pages",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -617,11 +617,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
-      "src": "sha256:2b52df76be902e3d300e25db93908f570b6395e06f1e81498b1577b686ca496e",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
+      "src": "sha256:07606c36a90f3a99dea109cefa7d0a266c48cd35292d8af95a01d3d6c33c7782",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Community/Community_Links.md": {
@@ -633,11 +633,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:3d1da5b94c41ffcd4735b4b378994703296ef357bc9a7afa0fdf7c458fdc8201",
-      "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
-      "engine": "gt",
+      "src": "sha256:3bb4112f143be423303b38d36dcbd1d358ec8a6f3dca88dce392de68c6931cdf",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+brand-restore+deadlink-5pages",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -753,11 +753,11 @@
       "edited": false
     },
     "Zcash_Organizations/Financial_Privacy_Foundation.md": {
-      "src": "sha256:97a0755e87213bfaf007e95eb094ba9e8aa4e69f54da8364e5e955a4436cc85b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:3c92ddf7c6e1fec1853334de56896f4791bcd02edd72faa3fca0d60d55ddf54d",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -785,11 +785,11 @@
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
-      "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
-      "engine": "gt",
+      "src": "sha256:09c26333b1cf4afeec4fdcca7021105c2d2e3d08e205b4b9cc015bd4e1c3153e",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Organizations/ZKAV.md": {
@@ -1121,11 +1121,11 @@
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
-      "src": "sha256:dd82e00e92fc6a696af1e9dcbd1a1f574e2431da9d0aaa3f7b16643f28ffd23a",
-      "src_commit": "89726296ed07ac0ff07ba6bfac0763bea5845c3d",
-      "engine": "gt",
+      "src": "sha256:58c77a90b93127ebc6cfd9d73f8fdb1c7e2a29f2ce7da0433f34330b2d155480",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -1137,11 +1137,11 @@
       "edited": false
     },
     "Zcash_Tech/ZAP1_Attestation_Protocol.md": {
-      "src": "sha256:4f11be940802eaac7e6798ed68d8c2922f51c6cdf0bba255c4fcfd3d0c4b7519",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+deadlink-5pages",
+      "src": "sha256:4ef55bc111c672b2c8ea7b537787d7f51aad3199bdaf1b1067ff3ee9d613fad9",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
@@ -1161,19 +1161,19 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:0719da9f4fe92c362f54ea1d7db763934006ee275dfbfdf6b3ea324a7b3a358c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
-      "engine": "gt",
+      "src": "sha256:931e36949c8b85669c4a61621d4d7e36d97440d64e6aee65667dc320630a812f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
-      "src": "sha256:45aa083e08ad0fdb51f5905ff667dbc880512354dd6027b6d73134ff9f1a0639",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
-      "engine": "gt",
+      "src": "sha256:7404220344a24b809050133bf7a35eb29f1dcc2c0e2d631ae7293fff6442bb1f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -1281,11 +1281,11 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2e87ef0d2c88d13b4e076b7025d5cef94d687997c2e79907f15d2da257772a6d",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
@@ -1417,11 +1417,11 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:49d553e688b9f435bd44cdcd8274fd634543307dcab8f60504ca5686fb111fda",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:41226a19b456601de6e29ce6748123d1210dea75fb4ce1dde063e1342c62689a",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -1449,11 +1449,11 @@
       "edited": false
     },
     "guides/Raspberry_Pi_4_Full_Node.md": {
-      "src": "sha256:68f29e24ecf9c897df3df73febf43d0e9b556a4181e7eb7a64fb6c13db29f04e",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
-      "engine": "gt",
+      "src": "sha256:a5eff241cac5cd3cb7e4bebb4123c8fd0e27bc2178241875dfeb3131a7ca213c",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+deadlink-5pages",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
@@ -1497,11 +1497,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
-      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
-      "engine": "gt",
+      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -1671,14 +1671,94 @@
       "mode": "seed",
       "tool": "gt-static",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/Centralized_Swaps.md": {
+      "src": "sha256:5841a4a85fc6bb980d77b61026f3b0e3045754f89a996cc02240e18055af78f5",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/DEX.md": {
+      "src": "sha256:a0b3ff9cc30473b06aa220effafe3a9939187af1b3b5930a9afe21ccf2194ffc",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Organizations/Zcash_Labs.md": {
+      "src": "sha256:630449bc18e4d0bb0fa1af0d65793f39eb290f6858ade5e63c915ada69046bb7",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Z3_Stack.md": {
+      "src": "sha256:97203c28b839f286721749d6ecb546f78eba88a8ff3b5f0238ee835191021de8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Zallet.md": {
+      "src": "sha256:93d8c29a7e888664bf997b014cebe778944b7ce5fea2e27486c9d8aeb69234c1",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
     }
   },
   "ar": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -3345,14 +3425,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "de": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -4797,11 +4917,11 @@
       "edited": false
     },
     "guides/Raspberry_Pi_4_Full_Node.md": {
-      "src": "sha256:68f29e24ecf9c897df3df73febf43d0e9b556a4181e7eb7a64fb6c13db29f04e",
-      "src_commit": "7a2bd73fd47df7de2c47ccd6d105c3da6a9762b7",
+      "src": "sha256:a5eff241cac5cd3cb7e4bebb4123c8fd0e27bc2178241875dfeb3131a7ca213c",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip+deadlink-5pages",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
@@ -5019,15 +5139,55 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ee": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:05f6d3a006ca7a8162f414d6001df4cb502af6ad6197cd361035b26148b36ec9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
@@ -5159,19 +5319,19 @@
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
-      "src": "sha256:7a880f8313c2bfc3fd77e1538cf4e5745b88d4615e40d35f87dafc1ed3290d3a",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+restore-frontmatter-key",
+      "src": "sha256:3c4aaec08ea34f21c58c47a75e2cc4027b7ee6ae02bbff0fde027d351a581a58",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
-      "src": "sha256:385e47505dc99687363367ac3a7c5a9de06efc16e35dd711daea23284d62c9e1",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
-      "engine": "gt",
+      "src": "sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -5375,11 +5535,11 @@
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
-      "src": "sha256:e0e567d9aa30ae876bc405d8e546be4abf8e12a23e24a3320cc28dbffcb34947",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
-      "engine": "gt",
+      "src": "sha256:93f96245985f8e1b407998eb6cb7d617bd7a664e4f38cff3689202d8f8bc00e0",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -5471,11 +5631,11 @@
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
-      "src": "sha256:f792d22247b18f4cd8bc14b3da1ce7a3b7d6cd320c3381cf7edf50fdebb99304",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
+      "src": "sha256:47ae89b30449fe6bffc0d092e60b042f230c2f7c14837b29e85772bffedd78d9",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
@@ -5495,19 +5655,19 @@
       "edited": false
     },
     "Using_Zcash/Transparent_Exchange_Addresses.md": {
-      "src": "sha256:1c6fe528a374cbb705e3473b3eaf469c6012f4a049fd3cce7979b6a3e10f1d26",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+deadlink-5pages",
+      "src": "sha256:fe0254bf6be14512e4f15a5ab37a27e05d247b10e8cddfd3cecaeafc2bc2685a",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Using_Zcash/Wallets.md": {
-      "src": "sha256:09228c1e73ad79f8472cc5b626dd37377eb0d803698b5a71896749747b9c6939",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
+      "src": "sha256:d894a94b92d2b226b20e678f7dd60c83d0676b17338081934e9f8851121c8121",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+segmenter-fix+brand-restore+deadlink-5pages",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -5639,11 +5799,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
-      "src": "sha256:2b52df76be902e3d300e25db93908f570b6395e06f1e81498b1577b686ca496e",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
+      "src": "sha256:07606c36a90f3a99dea109cefa7d0a266c48cd35292d8af95a01d3d6c33c7782",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Community/Community_Links.md": {
@@ -5655,11 +5815,11 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:3d1da5b94c41ffcd4735b4b378994703296ef357bc9a7afa0fdf7c458fdc8201",
-      "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
-      "engine": "gt",
+      "src": "sha256:3bb4112f143be423303b38d36dcbd1d358ec8a6f3dca88dce392de68c6931cdf",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+brand-restore+deadlink-5pages",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -5775,11 +5935,11 @@
       "edited": false
     },
     "Zcash_Organizations/Financial_Privacy_Foundation.md": {
-      "src": "sha256:97a0755e87213bfaf007e95eb094ba9e8aa4e69f54da8364e5e955a4436cc85b",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:3c92ddf7c6e1fec1853334de56896f4791bcd02edd72faa3fca0d60d55ddf54d",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -5807,11 +5967,11 @@
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
-      "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
-      "engine": "gt",
+      "src": "sha256:09c26333b1cf4afeec4fdcca7021105c2d2e3d08e205b4b9cc015bd4e1c3153e",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Organizations/ZKAV.md": {
@@ -6143,11 +6303,11 @@
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
-      "src": "sha256:dd82e00e92fc6a696af1e9dcbd1a1f574e2431da9d0aaa3f7b16643f28ffd23a",
-      "src_commit": "89726296ed07ac0ff07ba6bfac0763bea5845c3d",
-      "engine": "gt",
+      "src": "sha256:58c77a90b93127ebc6cfd9d73f8fdb1c7e2a29f2ce7da0433f34330b2d155480",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -6159,11 +6319,11 @@
       "edited": false
     },
     "Zcash_Tech/ZAP1_Attestation_Protocol.md": {
-      "src": "sha256:4f11be940802eaac7e6798ed68d8c2922f51c6cdf0bba255c4fcfd3d0c4b7519",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+deadlink-5pages",
+      "src": "sha256:4ef55bc111c672b2c8ea7b537787d7f51aad3199bdaf1b1067ff3ee9d613fad9",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/ZECD.md": {
@@ -6183,19 +6343,19 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:0719da9f4fe92c362f54ea1d7db763934006ee275dfbfdf6b3ea324a7b3a358c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
-      "engine": "gt",
+      "src": "sha256:931e36949c8b85669c4a61621d4d7e36d97440d64e6aee65667dc320630a812f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
-      "src": "sha256:45aa083e08ad0fdb51f5905ff667dbc880512354dd6027b6d73134ff9f1a0639",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
-      "engine": "gt",
+      "src": "sha256:7404220344a24b809050133bf7a35eb29f1dcc2c0e2d631ae7293fff6442bb1f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -6303,11 +6463,11 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2e87ef0d2c88d13b4e076b7025d5cef94d687997c2e79907f15d2da257772a6d",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
@@ -6439,11 +6599,11 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:49d553e688b9f435bd44cdcd8274fd634543307dcab8f60504ca5686fb111fda",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:41226a19b456601de6e29ce6748123d1210dea75fb4ce1dde063e1342c62689a",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -6471,11 +6631,11 @@
       "edited": false
     },
     "guides/Raspberry_Pi_4_Full_Node.md": {
-      "src": "sha256:68f29e24ecf9c897df3df73febf43d0e9b556a4181e7eb7a64fb6c13db29f04e",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
-      "engine": "gt",
+      "src": "sha256:a5eff241cac5cd3cb7e4bebb4123c8fd0e27bc2178241875dfeb3131a7ca213c",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+deadlink-5pages",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
@@ -6519,11 +6679,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
-      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
-      "engine": "gt",
+      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -6693,14 +6853,94 @@
       "mode": "seed",
       "tool": "gt-static",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/Centralized_Swaps.md": {
+      "src": "sha256:5841a4a85fc6bb980d77b61026f3b0e3045754f89a996cc02240e18055af78f5",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/DEX.md": {
+      "src": "sha256:a0b3ff9cc30473b06aa220effafe3a9939187af1b3b5930a9afe21ccf2194ffc",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Organizations/Zcash_Labs.md": {
+      "src": "sha256:630449bc18e4d0bb0fa1af0d65793f39eb290f6858ade5e63c915ada69046bb7",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Z3_Stack.md": {
+      "src": "sha256:97203c28b839f286721749d6ecb546f78eba88a8ff3b5f0238ee835191021de8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Zallet.md": {
+      "src": "sha256:93d8c29a7e888664bf997b014cebe778944b7ce5fea2e27486c9d8aeb69234c1",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
     }
   },
   "es": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -8367,14 +8607,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "fr": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -10041,14 +10321,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "hi": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -11715,12 +12035,52 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ig": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -12167,8 +12527,8 @@
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
-      "src": "sha256:f792d22247b18f4cd8bc14b3da1ce7a3b7d6cd320c3381cf7edf50fdebb99304",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:47ae89b30449fe6bffc0d092e60b042f230c2f7c14837b29e85772bffedd78d9",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -12503,11 +12863,11 @@
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
-      "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:09c26333b1cf4afeec4fdcca7021105c2d2e3d08e205b4b9cc015bd4e1c3153e",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Organizations/ZKAV.md": {
@@ -12879,19 +13239,19 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:0719da9f4fe92c362f54ea1d7db763934006ee275dfbfdf6b3ea324a7b3a358c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:931e36949c8b85669c4a61621d4d7e36d97440d64e6aee65667dc320630a812f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
-      "src": "sha256:45aa083e08ad0fdb51f5905ff667dbc880512354dd6027b6d73134ff9f1a0639",
-      "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
+      "src": "sha256:7404220344a24b809050133bf7a35eb29f1dcc2c0e2d631ae7293fff6442bb1f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -13389,15 +13749,95 @@
       "mode": "seed",
       "tool": "nllb-200-3.3B",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/Centralized_Swaps.md": {
+      "src": "sha256:5841a4a85fc6bb980d77b61026f3b0e3045754f89a996cc02240e18055af78f5",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/DEX.md": {
+      "src": "sha256:a0b3ff9cc30473b06aa220effafe3a9939187af1b3b5930a9afe21ccf2194ffc",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Organizations/Zcash_Labs.md": {
+      "src": "sha256:630449bc18e4d0bb0fa1af0d65793f39eb290f6858ade5e63c915ada69046bb7",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Z3_Stack.md": {
+      "src": "sha256:97203c28b839f286721749d6ecb546f78eba88a8ff3b5f0238ee835191021de8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Zallet.md": {
+      "src": "sha256:93d8c29a7e888664bf997b014cebe778944b7ce5fea2e27486c9d8aeb69234c1",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
     }
   },
   "it": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:05f6d3a006ca7a8162f414d6001df4cb502af6ad6197cd361035b26148b36ec9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
@@ -15063,12 +15503,52 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ja": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -16737,14 +17217,54 @@
       "mode": "seed",
       "tool": "qwen3-14b",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ko": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -18411,14 +18931,54 @@
       "mode": "seed",
       "tool": "qwen3-14b",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "pt": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -20085,14 +20645,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ru": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -21537,11 +22137,11 @@
       "edited": false
     },
     "guides/Raspberry_Pi_4_Full_Node.md": {
-      "src": "sha256:68f29e24ecf9c897df3df73febf43d0e9b556a4181e7eb7a64fb6c13db29f04e",
-      "src_commit": "7a2bd73fd47df7de2c47ccd6d105c3da6a9762b7",
+      "src": "sha256:a5eff241cac5cd3cb7e4bebb4123c8fd0e27bc2178241875dfeb3131a7ca213c",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip+deadlink-5pages",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
@@ -21759,12 +22359,52 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "sw": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -21907,11 +22547,11 @@
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
-      "src": "sha256:385e47505dc99687363367ac3a7c5a9de06efc16e35dd711daea23284d62c9e1",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -22211,8 +22851,8 @@
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
-      "src": "sha256:f792d22247b18f4cd8bc14b3da1ce7a3b7d6cd320c3381cf7edf50fdebb99304",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:47ae89b30449fe6bffc0d092e60b042f230c2f7c14837b29e85772bffedd78d9",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -22547,11 +23187,11 @@
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
-      "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:09c26333b1cf4afeec4fdcca7021105c2d2e3d08e205b4b9cc015bd4e1c3153e",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Organizations/ZKAV.md": {
@@ -22923,19 +23563,19 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:0719da9f4fe92c362f54ea1d7db763934006ee275dfbfdf6b3ea324a7b3a358c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:931e36949c8b85669c4a61621d4d7e36d97440d64e6aee65667dc320630a812f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
-      "src": "sha256:45aa083e08ad0fdb51f5905ff667dbc880512354dd6027b6d73134ff9f1a0639",
-      "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
+      "src": "sha256:7404220344a24b809050133bf7a35eb29f1dcc2c0e2d631ae7293fff6442bb1f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -23433,14 +24073,94 @@
       "mode": "seed",
       "tool": "nllb-200-3.3B",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/Centralized_Swaps.md": {
+      "src": "sha256:5841a4a85fc6bb980d77b61026f3b0e3045754f89a996cc02240e18055af78f5",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/DEX.md": {
+      "src": "sha256:a0b3ff9cc30473b06aa220effafe3a9939187af1b3b5930a9afe21ccf2194ffc",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Organizations/Zcash_Labs.md": {
+      "src": "sha256:630449bc18e4d0bb0fa1af0d65793f39eb290f6858ade5e63c915ada69046bb7",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Z3_Stack.md": {
+      "src": "sha256:97203c28b839f286721749d6ecb546f78eba88a8ff3b5f0238ee835191021de8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Zallet.md": {
+      "src": "sha256:93d8c29a7e888664bf997b014cebe778944b7ce5fea2e27486c9d8aeb69234c1",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
     }
   },
   "tr": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -25107,14 +25827,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "uk": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -26781,12 +27541,44 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "yo": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -26929,11 +27721,11 @@
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
-      "src": "sha256:385e47505dc99687363367ac3a7c5a9de06efc16e35dd711daea23284d62c9e1",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -27233,8 +28025,8 @@
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
-      "src": "sha256:f792d22247b18f4cd8bc14b3da1ce7a3b7d6cd320c3381cf7edf50fdebb99304",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:47ae89b30449fe6bffc0d092e60b042f230c2f7c14837b29e85772bffedd78d9",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -27569,8 +28361,8 @@
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
-      "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:09c26333b1cf4afeec4fdcca7021105c2d2e3d08e205b4b9cc015bd4e1c3153e",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -27945,19 +28737,19 @@
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
-      "src": "sha256:0719da9f4fe92c362f54ea1d7db763934006ee275dfbfdf6b3ea324a7b3a358c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:931e36949c8b85669c4a61621d4d7e36d97440d64e6aee65667dc320630a812f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
-      "src": "sha256:45aa083e08ad0fdb51f5905ff667dbc880512354dd6027b6d73134ff9f1a0639",
-      "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
+      "src": "sha256:7404220344a24b809050133bf7a35eb29f1dcc2c0e2d631ae7293fff6442bb1f",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -28455,14 +29247,94 @@
       "mode": "seed",
       "tool": "nllb-200-3.3B",
       "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
+      "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/Centralized_Swaps.md": {
+      "src": "sha256:5841a4a85fc6bb980d77b61026f3b0e3045754f89a996cc02240e18055af78f5",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Using_Zcash/DEX.md": {
+      "src": "sha256:a0b3ff9cc30473b06aa220effafe3a9939187af1b3b5930a9afe21ccf2194ffc",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Organizations/Zcash_Labs.md": {
+      "src": "sha256:630449bc18e4d0bb0fa1af0d65793f39eb290f6858ade5e63c915ada69046bb7",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Z3_Stack.md": {
+      "src": "sha256:97203c28b839f286721749d6ecb546f78eba88a8ff3b5f0238ee835191021de8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Zallet.md": {
+      "src": "sha256:93d8c29a7e888664bf997b014cebe778944b7ce5fea2e27486c9d8aeb69234c1",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
     }
   },
   "zh": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:2fd651468c6dbe443a2807dc616fd47059c959abb69c4ac1ea2cd552000fbad3",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -30128,6 +31000,38 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Viewing_Key_Transaction_Export.md": {
+      "src": "sha256:51893f3eaaa90223af9f4f268cc19da398efe320a8a26800722369626b0a7c44",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
+      "src": "sha256:177569144bd17edcc567db62b7a9880e350fdae986c937ff025f7734dd1180c8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
+      "src": "sha256:97fb8d9bab07584f79fa06022874f8c369c4cd273858ea3e788ac59470701632",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   }

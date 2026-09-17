@@ -1,354 +1,354 @@
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
-- Mfiri a Wɔde Yɛ: Mobile
-- Dwumadie Nhyehyɛeɛ: Android | iOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Afidie: Mfonini a wɔde di dwuma
+- Adwumakuo a ɛhwɛ dwumadie so: Android  iOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Hardware (Ɛwɔ sɛ wode wo ho hyɛ agyinatufoɔ no mu)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Address Book | CrossPay | Nea Ɛbɛn Intents | Flexa Katua a Wɔde Tua Ka | MultiSignature a Wɔde Nsaano Nkyerɛwee | Katua a Wɔsrɛ | Memo a Wɔabɔ ho ban | Fa sika di dwuma ansa na Sync | TEX Address a Wɔde Di Dwuma | Tor Mmoa | F-droid a ɛwɔ hɔ
-- Ironwood: Wɔasiesie ne ho
+- Features: Address Book CrossPay Near Intents Flexa Payments MultiSignature Payment Request Shielded Memo Spend before Sync TEX Address Tor Support F-droid Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa ahodoɔ mu - Akan (ɛwɔhɔ) _BAR_
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
+- Adwumadie nhyehyɛe: Android  iOS Windows Linux macOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Hardware (Ɛwɔ sɛ wode wo ho hyɛ agyinatufoɔ no mu)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Address Book | Nneɛma a Wɔde Sie Nwininwini | Address a Wɔayɛ no Ahorow | Katua a Wɔsrɛ | Pool Transfer | Memo a Wɔabɔ ho ban | TEX Address a Wɔde Di Dwuma | Abatow a Wɔtow | WarpSync na ɛyɛ adwuma
-- Ironwood: Wonsiesiee ne ho
+- Features: Address Book  Cold Storage  Diversified Address  Payment Request  Pool Transfer  Shielded Memo TEX Address Voting WarpSync
+- Ironwood: Ɛnyɛɛ Siesiee no Mfiase
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
+- Adwumadie nhyehyɛe: Android  iOS Windows Linux macOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address (Nneɛma a wohia wɔ abɛɛfo fon so)
 - Pools: Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Discord Bot
+- Nsεso: Discord Bot
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
+- Adwumadie nhyehyɛe: Android  iOS Windows Linux
+- Wallet Support: Seed Phrase  Viewing Key Unified Address (Nneɛma a wohia wɔ abɛɛfo fon so)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Address Book | Sikasɛm mu Nhumu | Katua a Wɔsrɛ | PepperSync a Wɔde Yɛ Nneɛma | Memo a Wɔabɔ ho ban | Testnet Mmoa a Wɔde Ma
-- Ironwood: Wɔasiesie ne ho
+- Nsεm: Address Book  Financial Insights  Payment Request PepperSync Shielded Memo Testnet Nkyerεmu a εbͻ ho ban
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
-## [Ntweaso](https://edge.app)
+## [N'afasuo](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
-- Mfiri a Wɔde Yɛ: Mobile
-- Dwumadie Nhyehyɛeɛ: Android | iOS
+- Afidie: Mfonini a wɔde di dwuma
+- Adwumakuo a ɛhwɛ dwumadie so: Android  iOS
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling
-- Nneɛma a ɛwɔ mu: Automatic Shielding | DEX Nsakraeɛ | Multi Sikakorabea | Memo a Wɔabɔ ho ban | Fa sika di dwuma ansa na Sync
+- Features: Automatic Shielding  DEX Swaps  Multi Coin  Protected Memo  Spend before Sync  W'atumi de wo ho ahyɛ w'adwumam mu na wode saa sika yi adi dwuma bere a wonnya nkyerɛɛ no sɛ wobɛyɛ adwuma wɔ aberɛ biara.
 
 ---
 
-## [Nea wontumi nsiw ano](https://unstoppable.money)
+## [Wɔn a wontumi nsiw wɔn kwan](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
-- Mfiri a Wɔde Yɛ: Mobile
-- Dwumadie Nhyehyɛeɛ: Android | iOS
+- Afidie: Mfonini a wɔde di dwuma
+- Adwumakuo a ɛhwɛ dwumadie so: Android  iOS
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: DEX Swaps | Multi Sikakorabea | Fa sika di dwuma ansa na Sync
-- Ironwood: Wɔasiesie ne ho
+- Features: DEX Swaps  Multi Coin  Ɔbra ansa na Sync
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Windows
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
+- Adwumadie nhyehyɛe: Android  iOS Windows
+- Wallet Support: Seed Phrase  Viewing Key Unified Address (Nneɛma a wohia wɔ abɛɛfo fon so)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Address Book | Address Check | Automatic Shielding | Address a Wɔayɛ no Ahorow | Katua a Wɔsrɛ | Memo a Wɔabɔ ho ban | TEX Address a Wɔde Di Dwuma | Testnet Mmoa a Wɔde Ma
+- Features: Address Book  Address Check  Automatic Shielding  Diversified Address  Payment Request  Protected Memo  TEX Address Testnet Support  W'atumi de wo ho ato w'adwumam so anaa wode wo nsa bɛto krataa a ɛkyerɛ sɛ wopɛ sɛ wotɔ ade wɔ obi hɔ no so?
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
+- Adwumadie nhyehyɛe: Android  iOS Windows Linux
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Hardware (Ɛwɔ sɛ wode wo ho hyɛ agyinatufoɔ no mu)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Address a Wɔkyinkyini | Broad Key Mmoa | Encrypted Nneɛma a Wɔde Kɔ Amannɔne | FROST Multisig a ɛwɔ hɔ no | Akontaabu pii Sync | Memo a Wɔabɔ ho ban | Testnet Mmoa a Wɔde Ma
-- Ironwood: Wɔasiesie ne ho
+- Nsεm: Address Rotation  Broad Key Support  Encrypted Exports  FROST Multisig  Multi-Account Sync  Shielded Memo Testnet Nkyerεmu a εbͻ ho ban
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
-## [Keeki](https://cakewallet.com/install/)
+## [Keki a wɔde ayɛ](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
+- Adwumadie nhyehyɛe: Android  iOS Windows Linux macOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address (Nneɛma a wohia wɔ abɛɛfo fon so)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Address Book | Address a Wɔkyinkyini | Automatic Shielding | DEX Nsakraeɛ | Multi Sikakorabea | Memo a Wɔabɔ ho ban | Tor Mmoa
-- Ironwood: Wɔasiesie ne ho
+- Nsεm: Address Book  Address Rotation Automatic Shielding DEX Swaps Multi Coin Protected Memo Tor Support Kyerԑkyerԑmu a' ԑfa akwantufoɔ ho.
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
-- Mfiri a Wɔde Yɛ: Desktop
-- Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Afidie: Dwumadiebea
+- Adwumadie Nhyehyɛeɛ: Windows  Linux  macOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Full Node (Nneɛma a wohia wɔ abɛɛfo fonti so)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Address Book | Mfonini Nkitahodi | Memo a Wɔabɔ ho ban | Testnet Mmoa a Wɔde Ma
+- Nsεm: Address Book  Graphical Interface  Shielded Memo Testnet Nkyerεmu Dwumadibea
 
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
-- Mfiri a Wɔde Yɛ: Desktop
-- Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Afidie: Dwumadiebea
+- Adwumadie Nhyehyɛeɛ: Windows  Linux  macOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Full Node (Nneɛma a wohia wɔ abɛɛfo fonti so)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Ahyɛdeɛ Ntrɛwmu | PepperSync a Wɔde Yɛ Nneɛma | Memo a Wɔabɔ ho ban | Testnet Mmoa a Wɔde Ma
-- Ironwood: Ɛrekɔ so
+- Nsεm: Command Line Interface  PepperSync  Shielded Memo Testnet Nkyerεmu-Nsɛm a Wͻde BƐto so no
+- Ironwood: Ɛrenya Nkɔso
 
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
-- Mfiri a Wɔde Yɛ: Desktop
-- Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Afidie: Dwumadiebea
+- Adwumadie Nhyehyɛeɛ: Windows  Linux  macOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Full Node (Nneɛma a wohia wɔ abɛɛfo fonti so)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Alpha Release | JSON-RPC Nkitahodi | Memo a Wɔabɔ ho ban | Testnet Mmoa a Wɔde Ma
-- Ironwood: Wɔasiesie ne ho
+- Nsεm: Alpha Release JSON-RPC Interface Shielded Memo Testnet Nkyerεmu a εbͻ ho ban
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
-- Mfiri a Wɔde Yɛ: Desktop
-- Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Afidie: Dwumadiebea
+- Adwumadie Nhyehyɛeɛ: Windows  Linux  macOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Full Node (Nneɛma a wohia wɔ abɛɛfo fonti so)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Ahyɛdeɛ Ntrɛwmu | Address a Wɔayɛ no Ahorow | Memo a Wɔabɔ ho ban | Testnet Mmoa a Wɔde Ma
-- Ironwood: Wonsiesiee ne ho
+- Nsεm: Command Line Interface  Diversified Address  Shielded Memo Testnet Nkyerεmu-Nsɛm a εwͻ ho ban
+- Ironwood: Ɛnyɛɛ Siesiee no Mfiase
 
 ---
 
-## [Akokoɔduro](https://brave.com/web3-privacy/)
+## [Akokoduru mu a wofi no](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
-- Mfiri a Wɔde Yɛ: Wɛbsaet
-- Dwumadi Nhyehyɛe: Browser
+- Afidie: Intanɛt so
+- Adwumakuo no: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Ɛyɛ nea ɛda adi pefee | Dade dua
-- Nneɛma a ɛwɔ mu: Shielded Memo | Fa sika di dwuma ansa na Sync | Testnet Mmoa a Wɔde Ma
+- Nsu: Ahuade. Dwumadibo nnua
+- Nsεso: Akwankyerεmu a εbͻ ho ban Ԑma ansa na w'asɔ no ano Testnet mmoa
 
 ---
 
-## [Metamask Snap a Wɔde Di Dwuma](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+## [Metamask Snap (Ɔkwan a wɔfa so yɛ nkataho)](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](/content-images/metamask-25048569f6.webp "Metamask")
-- Mfiri a Wɔde Yɛ: Wɛbsaet
-- Dwumadi Nhyehyɛe: Browser
+- Afidie: Intanɛt so
+- Adwumakuo no: Browser
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Multi Coin
+- Nsεso: Dwetɛ bebree a w'atumi de adi dwuma.
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Mfiri a Wɔde Yɛ: Wɛbsaet
-- Dwumadi Nhyehyɛe: Browser
+- Afidie: Intanɛt so
+- Adwumakuo no: Browser
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: DEX Swaps
+- Features: DEX Swaps
 
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Wɛbsaet so
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Browser a wɔde di dwuma
-- Wallet Mmoa: Aba Kasasin
-- Atare: Ɛyɛ nea ɛda adi pefee
-- Nneɛma a ɛwɔ mu: Multi Coin
+- Afidie: Mfonini  Web
+- Adwumakuo: Android  iOS Browser
+- Kɔmfidie Nkɔsoɔ: Seed Phrase
+- Nsuo mu: Ɛho da hɔ.
+- Nsεso: Dwetɛ bebree a w'atumi de adi dwuma.
 
 ---
 
-## [Trust Sikakorabea](https://trustwallet.com/download)
+## [Trust Wallet (Ɔsomfo Agyapadeɛ)](https://trustwallet.com/download)
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Wɛbsaet so
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Browser a wɔde di dwuma
-- Wallet Mmoa: Aba Kasasin
-- Atare: Ɛyɛ nea ɛda adi pefee
-- Nneɛma a ɛwɔ mu: Multi Coin
+- Afidie: Mfonini  Web
+- Adwumakuo: Android  iOS Browser
+- Kɔmfidie Nkɔsoɔ: Seed Phrase
+- Nsuo mu: Ɛho da hɔ.
+- Nsεso: Dwetɛ bebree a w'atumi de adi dwuma.
 
 ---
 
-## [Exodus](https://www.exodus.com/zcash-wallet-zec)
+## [Exodus no mu a wɔfiri bae](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop a wɔde yɛ adwuma | Wɛbsaet so
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS | Browser a wɔde di dwuma
-- Wallet Mmoa: Aba Kasasin
-- Atare: Ɛyɛ nea ɛda adi pefee
-- Nneɛma a ɛwɔ mu: Multi Coin
+- Akwan: Mfonini  Dwumadibea  Intanɛt so dwumadie
+- Operating System: Android  iOS Windows Linux macOS Browser Mfonini a wode di dwuma wɔ abɛɛfo fonin so ne wo kɔmputa no.
+- Kɔmfidie Nkɔsoɔ: Seed Phrase
+- Nsuo mu: Ɛho da hɔ.
+- Nsεso: Dwetɛ bebree a w'atumi de adi dwuma.
 
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Windows
-- Wallet Mmoa: Aba Kasasin
-- Atare: Ɛyɛ nea ɛda adi pefee
-- Nneɛma a ɛwɔ mu: Multi Coin
+- Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
+- Adwumadie nhyehyɛe: Android  iOS Windows
+- Kɔmfidie Nkɔsoɔ: Seed Phrase
+- Nsuo mu: Ɛho da hɔ.
+- Nsεso: Dwetɛ bebree a w'atumi de adi dwuma.
 
 ---
 
 ## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
-- Mfiri a Wɔde Yɛ:
-- Dwumadi Nhyehyɛe:
-- Wallet Support: Hardware | Unified Address
+- Nhyehyɛeɛ:
+- Adwumakuo a wɔdi dwuma no:
+- Kɔmfidie Nsahyɛ: Dwumadie no. Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Multi Coin
-- Ironwood: Wɔasiesie ne ho
+- Nsεso: Dwetɛ bebree a w'atumi de adi dwuma.
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Mfiri a Wɔde Yɛ:
-- Dwumadi Nhyehyɛe:
-- Sikakorabea Mmoa: Hardware
-- Atare: Ɛyɛ nea ɛda adi pefee
-- Nneɛma a ɛwɔ mu: Multi Coin
-- Ironwood: Ɛrekɔ so
+- Nhyehyɛeɛ:
+- Adwumakuo a wɔdi dwuma no:
+- Kɔmfidie Nsawɔma: Dwumadie no mu nsɛm
+- Nsuo mu: Ɛho da hɔ.
+- Nsεso: Dwetɛ bebree a w'atumi de adi dwuma.
+- Ironwood: Ɛrenya Nkɔso
 
 ---
 
 ## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Wɛbsaet so
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Browser a wɔde di dwuma
-- Wallet Mmoa: Aba Kasasin | Hardware a wɔde yɛ nneɛma
-- Atare: Ɛyɛ nea ɛda adi pefee
-- Nneɛma a ɛwɔ mu: Multi Coin
+- Afidie: Mfonini  Web
+- Adwumakuo: Android  iOS Browser
+- Kɔmfidie a ɛboa: Nkɔmmɔ no mu nsɛmfua. Dwumadie ahwehwɛde
+- Nsuo mu: Ɛho da hɔ.
+- Nsεso: Dwetɛ bebree a w'atumi de adi dwuma.
 
 ---
 
-## [Trezor na ɔkyerɛwee](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
+## [Trezor (Asomdwoe)](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
-- Mfiri a Wɔde Yɛ:
-- Dwumadi Nhyehyɛe:
-- Sikakorabea Mmoa: Hardware
-- Atare: Ɛyɛ nea ɛda adi pefee
-- Nneɛma a ɛwɔ mu: Multi Coin
+- Nhyehyɛeɛ:
+- Adwumakuo a wɔdi dwuma no:
+- Kɔmfidie Nsawɔma: Dwumadie no mu nsɛm
+- Nsuo mu: Ɛho da hɔ.
+- Nsεso: Dwetɛ bebree a w'atumi de adi dwuma.
 
 ---
 
 ## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
-- Mfiri: Wɛbsaet | Mobile so | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS | Browser a wɔde di dwuma
-- Atare: Ɛyɛ nea ɛda adi pefee
-- Nneɛma a ɛwɔ mu: Multi Coin | Wɛbsaet App
+- Akwan: Intanɛt  Mfonini  Dwumadibea
+- Operating System: Android  iOS Windows Linux macOS Browser Mfonini a wode di dwuma wɔ abɛɛfo fonin so ne wo kɔmputa no.
+- Nsuo mu: Ɛho da hɔ.
+- Nsεso: Multi Coin  Web App
 
 ---
 
-## [Vizor na ɔkyerɛwee](https://vizor.cash/)
+## [Ɔfasuo no](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
-- Mfiri a Wɔde Yɛ Adwuma: Desktop | Moobaa
-- Dwumadi Nhyehyɛe: macOS
-- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Akwan: Dwumadie hɔ  Mfonini so dwumadie
+- Adwumade nhyehyɛe: macOS
+- Wallet Support: Seed Phrase  Unified Address  Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Automatic Shielding | Memo a Wɔabɔ ho ban | Testnet Mmoa | FROST Multisig a ɛwɔ hɔ
-- Ironwood: Wɔasiesie ne ho
+- Nsεm: Automatic Shielding bɔ Memo ho ban Testnet Support FROST Multisig
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
-## [Noir sika kotoku](https://www.zknoir.com/)
+## [Krataafa a emu yɛ tuntum](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
-- Mfiri: Wɛbsaet | Desktop so na ɛyɛ adwuma
-- Dwumadi Nhyehyɛe: Browser
-- Atare: Wɔabɔ ho ban | Fann
-- Nneɛma a ɛwɔ mu: Browser Ntrɛwmu | Nkitahodi a Wɔabɔ ho ban | Mmeamudua-nkɔnsɔnkɔnsɔn Swaps | Boa a Wɔde Ma & Boa a Wɔbɔ | DApp Nkitahodi | Rhea na ɔkyerɛwee
-- Ironwood: Wɔasiesie ne ho
+- Akwan: Intanɛt  Desktop
+- Adwumakuo no: Browser
+- Nsuo: Ɛbɔ ho ban. Mframa mu tew
+- Features: Browser Extension  Shielded Transactions Cross-chain Swaps Lending & Borrowing DApp Connections Rhea
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
 ## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
-- Mfiri: Wɛbsaet | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛe: Browser | Mfɛnsere | macOS
-- Wallet Mmoa: Aba Kasasin | Abɔnten So Sikakorabea | Gye Address | QR Kood | Hardware a wɔde yɛ nneɛma
+- Akwan: Intanɛt  Desktop
+- Adwumadie nhyehyɛe: Browser Windows  MacOS
+- Wallet Support: Seed Phrase  External Wallet  Receive Address QR Code Hardware
 - Pools: Sapling | Transparent
-- Nneɛma a ɛwɔ mu: Multi Coin | Nea Ɛbɛn Intents | Maya DEX | KYC biara nni hɔ | Nea Ɛnyɛ Ahwɛfo | Wɛbsaet App | Desktop App a Wɔde Di Dwuma | Wɔabɔ ho ban ZEC | AnyPay biara
-- Ironwood: Wɔasiesie ne ho
+- Features: Multi Coin  Near Intents Maya DEX No KYC Non-Custodial Web App Desktop App Shielded ZEC AnyPay
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Mfiri a Wɔde Yɛ: Mobile
-- Dwumadi Nhyehyɛe: Android
-- Wallet Support: Unified Address
+- Afidie: Mfonini a wɔde di dwuma
+- Adwumaden Nhyehyɛeɛ: Android
+- Adaka no Nkyerεmu: Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp a ɛwɔ hɔ no | Beta
-- Ironwood: Wɔasiesie ne ho
+- Nsεm: Messenger a wͻasεε ne ho adi afebɔɔ  NEAR Intents P2P.me Offramp Beta
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
-## [Zecd](https://zecd.org/quickstart.html)
+## [Zecd (mfasoɔ)](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Mfiri a Wɔde Yɛ: Desktop
-- Dwumadi Nhyehyɛe: Linux
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
-- Pools: Transparent | Sapling | Ironwood | Sprout
-- Nneɛma a ɛwɔ mu: Encrypted Memo | Wallet Backup (sika kotoku mu data) | RPC Nkitahodi | Memo a Wɔabɔ ho ban | Ankorankoro Safoa Ho Dwumadi
-- Ironwood: Wɔasiesie ne ho
+- Afidie: Dwumadiebea
+- Adwumadie nhyehyɛe: Linux
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Private Key Spending Key Wallet Backup / Key Export Full Node Wallet (Ɛwɔ sɛ wo de to hɔ na wode di dwuma)
+- Nsu: Transparent. Sapling. Ironwood. Sprout
+- Nsεm: Encrypted Memo  Wallet Backup (wallet data) RPC Interface Shielded Meme Private Key Management Nkyerεmu a wͻasesa no, fa di dwuma bere biara.
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
-## [Zend:Zcash Sikakorabea](https://justzend.com/)
+## [Zend:Zcash Kuro no](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
-- Dwumadi Nhyehyɛe: iOS | macOS
-- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
+- Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
+- Adwumadie Nhyehyɛeɛ: iOS  MacOS
+- Wallet Support: Seed Phrase  Passkey Unified Address Private Key Self-Custody Wallet (Nneɛma a wobɛtumi de ayɛ adwuma wɔ wo fon so)
 - Pools: Transparent | Sapling | Ironwood
-- Features: Wɔn Ho a Wɔhwɛ | Private Key a Wɔde Sie Wɔ Mpɔtam Hɔ | KYC biara nni hɔ a ɛho hia | Zend Server Dependency biara nni hɔ ma Wallet Dwumadi | Encrypted Shielded Nkitahodi | Aba a Wɔsan Nya | Memo a Wɔabɔ ho ban | Passkey a Wɔde Di Dwuma
+- Features: Self-Custody  Private Key Stored Locally  No KYC Required  No Zend Server Dependency for Wallet Activity  Encrypted Shielded Transaction  Seed Recovery  Shielded Memo  Passkey Authentication defa ho no, wobɛtumi de wo nkrataa nyinaa adi dwuma wɔ aberɛ a wonnyae sɛ wode di dwuma ma obi biara.
 
 ---
 
-## [Nozy Sikakorabea](https://github.com/LEONINE-DAO/Nozy-wallet)
+## [Nozy Wallet (Ɔkraman a Ɔbɔ Twi)](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
-- Mfiri a Wɔde Yɛ Adwuma: Desktop | Browser a wɔde di dwuma
-- Dwumadie Nhyehyɛeɛ: Linux | iOS | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
+- Akwan: Dwumadie no. Browser
+- Adwumadie Nhyehyɛeɛ: Linux  iOS macOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Spending Key HD Wallet Private Key Management (Ɔkwan a wobɛtumi afa so de sika no adi dwuma wɔ wo fon mu)
 - Pools: Transparent | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Address Book | Tor Mmoa | I2P Mmoa | Zebra/Zebrad Nkabom | Nkitahodi Abakɔsɛm | Nkitahodi a Wɔde Kɔ Amannɔne | Mpɔtam Hɔ Adansefo Fibea | Nneɛma a Wɔde Tua Nneɛma a Ɛyɛ Nnam (ZIP-317) | NU6.2 Nkitahodi | NU6.3 Atutena Mmoa | Memo a Wɔabɔ ho ban
-- Ironwood: Wɔasiesie ne ho
+- Features: Address Book  Tor Support  I2P support  Zebra/Zebrad Integration  Transaction History  Tranzaction Export  Local Witness Derivation  Dynamic Fee (ZIP-317) NU6.2 Compatibility  NU6.3 Migration support  Shielded Memo
+- Dade a wɔde yɛ dade: Wɔasiesie no
 
 ---
 
-## [Zipher a wɔde yɛ adwuma](https://github.com/atmospherelabs-dev/zipher-app)
+## [Sifiram a wɔde yɛ adwuma](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
-- Dwumadie Nhyehyɛeɛ: Android | Mfɛnsere | Linux (CLI ne MCP Server) | iOS | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
+- Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
+- Operating System: Android  Windows Linux (CLI ne MCP Server) iOS macOS
+- Wallet Support: Seed Phrase  Viewing Key Unified Address Multi Account Wallet Self-Custody Wallet Private Key Management Agent Wallet support (Ɛho hia sɛ wo de saa afidie yi di dwuma bere biara a wopɛ)
 - Pools: Transparent | Sapling | Ironwood
 - Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
-- Ironwood: Ɛrekɔ so
+- Ironwood: Ɛrenya Nkɔso
 
 ---
 
 ## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
-- Mfiri a Wɔde Yɛ: Desktop
-- Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
-- Wallet Mmoa: Aba Kasasin | Sika a Wɔsɛe no Safoa | Kokoam Safoa | Wallet Backup / Safoa a Wɔde Kɔ Amannɔne
-- Pools: Transparent | Sapling | Ironwood | Sprout
-- Nneɛma a ɛwɔ mu: Wallet Recovery | Ahyɛdeɛ Ntrɛwmu Nkitahodi | Memo a Wɔabɔ ho ban | Testnet Mmoa a Wɔde Ma
-- Ironwood: Wɔasiesie ne ho
+- Afidie: Dwumadiebea
+- Adwumadie Nhyehyɛeɛ: Windows  Linux  macOS
+- Wallet Support: Seed Phrase  Giving Key  Private Key  Wallet Backup / Key Export (Ɛma no sɛ wo bɛ twe bi a, fa di dwuma)
+- Nsu: Transparent. Sapling. Ironwood. Sprout
+- Nsεm: Akataho a wͻtwe firi Ԑwↄ sԑnea wo bƐfa so adi dwuma no. Shielded Memo Testnet mmoa
+- Dade a wɔde yɛ dade: Wɔasiesie no

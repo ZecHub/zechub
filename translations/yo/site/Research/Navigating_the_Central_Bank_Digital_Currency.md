@@ -20,7 +20,7 @@ Bi a ṣe n rin irin-ajo lori ilẹ oni nọmba yii, diẹ ninu awọn CBDCs kii
 
 ## Àwọn Ìṣòro: Bí Wọ́n Ṣe Lè Borí Àìlera Tó Wà Nínú Ọ̀ràn Owó Náà
 
-bó tilẹ̀ jẹ́ pé, bíi ti ìrìn àjò ńlá èyíkéyìí, àwọn ìpèníjà pọ̀ rẹpẹtẹ, àti òjìji tí CBDCs ń gbé jáde túbọ̀ wá hàn gbangba. ìfòyemọ̀ nínú ìṣòwò máa ń halẹ̀ mọ ohun tó ṣe pàtàkì jù lọ nípa àṣírí ẹni. bí owó ìdánrawó bá sì di èyí téèyàn lè tọpinpin rẹ̀, ìgbà tuntun kan yóò dé fún ètò ṣíṣọ́ra-ààbò lórí ọrọ̀ ajé, kí ó mú káwọn èèyàn wà ní ipò pàtó láti fara da àìdáa ṣíṣe yẹyẹwo nǹkan wò.
+bó tilẹ̀ jẹ́ pé, bíi ti ìrìn àjò ńlá èyíkéyìí, àwọn ìpèníjà pọ̀ rẹpẹtẹ, àti òjìji tí CBDCs ń gbé jáde túbọ̀ wá hàn gbangba. ìfòyemọ̀ nínú ìṣòwò máa ń halẹ̀ mọ ohun tó ṣe pàtàkì jù lọ nípa àṣírí ẹni. bí owó ìdánrawó bá sì di èyí téèyàn lè tọpinpin rẹ̀, ìgbà tuntun kan yóò dé fún ètò ṣíṣọ́ra-ẹni lórí ọ̀ràn ìṣúnná owó, kí ó mú káwọn èèyàn wà ní ipò pàtó láti fara da ṣíṣe àyèkojú láìṣeé yẹni wò.
 
 nínú ayé ààbò orí ẹ̀rọ, akọni tí a kò fi bẹ́ẹ̀ mọ ní ń di òṣèré tó jẹ́ pé ó máa ń kọjú ìjà sí i. àìlera àwọn CBDCs fún ìpalára lórí ọ̀nà ìgbàlódé ti wá di ohun kan lára ìtàn wa. bí a ṣe n wọ inú ìrìnàjò dígítáìlì yìí ni ìpèníjà náà pọ̀ gan-an, àti wípé ìṣọ́ra data ara ẹni sì gba ipò àkọ́kọ́.
 
@@ -30,7 +30,7 @@ And what of traditional banking structures? The stability we've known for decade
 
 Awọn CBDC jẹ ipalara si awọn idaduro ina ati asopọ intanẹẹti ti ko to 
 
-Ṣiṣẹda CBDCs di wiwa akọni wa, irin-ajo ti o kun fun awọn imọ ẹrọ, ilana ati awọn italaya. ipe lati ṣẹda owo oni nọmba kii ṣe imotuntun nikan ṣugbọn ifilọlẹ agbara kan fun ilowosi ijọba ati ṣiṣakoso laarin eto inawo naa.
+Ṣiṣẹda CBDCs di wiwa akọni wa, irin-ajo ti o kun fun awọn imọ ẹrọ, ilana ati awọn italaya. ipe lati ṣẹda owo oni nọmba kii ṣe imotuntun nikan ṣugbọn ifilọlẹ agbara kan fun idamu ijọba ati ṣiṣakoso laarin eto inawo naa.
 
 ## Rírìnrìn-àjò Láti Orílẹ̀-èdè Kan Sí Òmíì: Ìtàn CBDC Tí A Fi Hàn
 
@@ -70,7 +70,7 @@ bí a ṣe ń rìnrìn àjò gba inú àwọn ibi tí kò sí nǹkan kan ní swe
 E-Krona's focus is on accessibility, aspiring to be a resilient alternative to physical cash in a world where anonymity is scarce. Àmọ́ àwọn ìpèníjà ń yọjú, pàápàá ní ìgbèríko, àti ìbẹ̀rù ààbò òdìkàn tí ó wà títí di òní olónìí, èyí tó fi hàn pé kò sí ìdásẹ̀lé fún òmìnira ẹni láwùjọ.
 
 **Ìtàn Àtẹ̀yìnwá:**
-Àkọsílẹ̀ tí Sweden ti ṣe nípa ètò ìṣúná owó ni ó ń di ìbòjú nítorí àwọn ìpèníjà tó ṣeéṣe láti dáwọ́ lílo ẹyọ owó díjítalọ́ǹtì wọlé sí inú ilé-iṣẹ́. Ìṣirò àárín ìtẹ̀síwájú àti ààbò yóò máa le koko nínú ìtàn kan tí kò ní òye kankan lórí rẹ̀.
+Àkọsílẹ̀ tí Sweden ti ṣe nípa ètò ìṣúná owó ni ó ń di ìbòjú nítorí àwọn ìpèníjà tó ṣeéṣe láti dáwọ́ lílo owó orí sínú ẹ̀ka-ìpèsè. Ìṣirò àárín ìtẹ̀síwájú àti ààbò yóò máa le sí i nínú ìtàn kan tí kò ní òye kankan lórí rẹ̀.
 
 __European Union: Eurozone CBDC__ Àwọn àkànṣe owó ìdókòwò tí ó wà ní ìsọ̀rí-ìsàlẹ̀.
 
@@ -89,7 +89,7 @@ Aabo ti Eurozone CBDC wa ni aṣeyọri lilọ kiri awọn ipenija ilana. Ti o b
 
 ## Ẹ̀ka Ènìyàn nínú Àkọsílẹ̀ Oníṣèlú: Àwọn Ewu àti Ìdájọ́ ní Òjìji
 
-Bi a ṣe n ṣawari awọn ohun elo ti o ni imọran nipa oni-nọmba, itan kan wa - ẹgbẹ eniyan ti saga oni. Asiri, lẹẹkan ẹtọ mimọ, di oniruuru ninu itan wa, dojuko iparun ni oju iṣowo iṣakoso ati iberu ti ibojuwo alailẹgbẹ.
+Bi a ṣe n ṣawari awọn ohun elo ti o ni imọran nipa oni-nọmba, itan kan wa - ẹgbẹ eniyan ti saga oni. Asiri, lẹẹkan ẹtọ mimọ, di ara ẹni ninu itan wa, dojuko iparun ni oju iṣowo iṣakoso ati iberu ti ibojuwo alailẹgbẹ.
 
 Ìwojú ìjọba, tí ó jẹ́ èrò tó jìnnà nígbà kan rí di ọ̀tá. Lílò èlò CBDC lọ́nà àìtọ́ lè fúnni ní ààyè ìwífún láìrí irú rẹ̀ sí àwọn ètò ìṣúnná owó aráàlú, ìtàn yìí ń rán wa létí bí Orwellian ṣe máa ń fi ẹ̀mí òkùnkùn bo ẹni nípa ti ìdákọkọ lórí ọrọ-aje.
 

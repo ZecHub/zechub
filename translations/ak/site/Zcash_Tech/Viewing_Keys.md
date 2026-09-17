@@ -2,87 +2,87 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nneɛma a Wɔde Hwɛ
+# Ɔhwɛfoɔ Nsaano Hwehwɛbea
 
-Address a wɔabɔ ho ban ma wo di gua bere a ɛda kakraa bi adi sɛnea wubetumi wɔ Zcash blockchain no so. Enti dɛn na ɛba bere a *yɛ* hia sɛ wokyerɛ apontow pɔtee bi nea wokura, anaa nea wode kɔe no? Address biara a wɔabɔ ho ban no wɔ safoa a wɔde hwɛ a ɛma wotumi kenkan a ɛmma wotumi sɛe sika. Wɔde safe a wɔde hwɛ nneɛma bae wɔ [ZIP 310 na ɛwɔ hɔ](https://zips.z.cash/zip-0310) na wɔde kaa protocol no ho wɔ Sapling network upgrade no mu.
+Address a w'akyekyere no ma wo tumi yɛ adwuma bere a wonyi nsɛm kakra adi wɔ Zcash blockchain so. Enti, sɛ ehia sε wokyerε obi pɔtee nea wowɔ anaa de asoma no nso ɛ? address biara a wͻagye ho ban nya kכhwεεfo bi a εma kwan akenkan na ɛmmaa hokwan mma wotumi ntɔn. Kכhwεfo yi baa mu afe 2000 akyi. [ZIP 310](https://zips.z.cash/zip-0310) na wɔde kaa ho wɔ nhyehyɛe no mu wɔ Sapling dwumadibea foforo a wɔayɛ.
 
-Safoa a wɔde hwɛ ade ne adwinnade a wɔde paw nneɛma a wɔda no adi: wopaw nea ohu nea, na womfa tumi a wɔsɛe no nhyɛ da sɛ ɔnyɛ.
+Hwehwɛbea nsaano ne ade a w'ayi no adi: wo na wobɛpaw nea ɔbɛhwɛ, na worentumi mfa sika ho tumi mma obi sɛ ɔnyɛ saa.
 
-## Dɛn nti na wode safe a wɔde hwɛ nneɛma di dwuma?
+## Dɛn nti na wɔde ade a ɛma wohu nneɛma di dwuma?
 
-Electric Coin Company nkyerɛwee a ɛfa asɛm no ho no kyerɛ tebea horow a ɛtaa ba, na ɛda so ara yɛ nea abu so nnɛ:
+Electric Coin Company kyerɛwtohɔ a ɛfa asɛm no ho kyerɛ tebea horow a ɛtaa ba, na ɛda so ara yɛ nea abu so nnɛ:
 
-- **An exchange watching for deposits.** Exchange no de viewing key a ɛba no gu internet-facing detection node so sɛnea ɛbɛyɛ a ebetumi ahyɛ adetɔfo sika a wɔde asie no nsow wɔ shielded address so, bere a spending key no tra hardware a ɛnka network no da so.
-- **Ɔhwɛfoɔ a ɔrekyerɛ sɛ ɔwɔ nneɛma.** Ɔhwɛfoɔ no de address biara a wɔabɔ ho ban no safe a ɛwie pɛyɛ ma akontabufoɔ bi. Akontaabufoɔ no bɛtumi ahwɛ saa sika a aka no na wahwɛ dwumadie a atwam a ɛkɔ saa address ahodoɔ no so na ɔsan ba, na ɔrentumi nyɛ biribi foforɔ biara.
-- **Due diligence on a counterparty.** Baabi a ɛhia sɛ exchange bi hwɛ adetɔfoɔ bi abakɔsɛm a wɔabɔ ho ban sɛ nhwehwɛmu a ɛfata a wɔama anya nkɔsoɔ no fã no, ɛbɛtumi abisa safe a wɔde hwɛ no mmom sen sɛ ɛbɛbisa sika no.
+- **Nneɛma a wɔde di dwuma wɔ intanɛt so no, sɛ obi de ne nsa hyɛ mu na ɔde to baabi foforo ma ɛkɔtɔ biribi a, ɔhwɛ kwan sɛ ɛbɛba abɛɛfo fon so. Saa ara nso na nneɛma a yɛde yɛ adwuma no nyinaa bɛtena kɔmputa dwumadibea bi a ɛnkɔ Intanɛt hɔ da.
+- A custodian proving its holdings.** The custodians hands an auditor a full viewing key for each shielded address. Ɔdwumfoɔ no betumi asesa saa balances yi na wasua activity dedaw kɔ ne firi saa adresses, na ontumi nyɛ biribi foforo biara.
+- **Due diligence on a counterparty.** Sɛ exchange hia sɛ ɔhwɛ ne customer no shielded history so sεdeɛ ɔde due diligence bɛyɛ adwuma, obetumi abisa viewing key mmom sen sika.
 
-## Nea safe a wɔde hwɛ ade yɛ ne nea ɛnda no adi
+## Nea ɔhwɛ no yɛ na ɔnkyerɛ
 
-Safe bɛboro biako, na nsonsonoe no na ɛkyerɛ dodow a wode bɛma.
+Nsaano nkyerɛwee ahorow pii wɔ hɔ, na nsonsonoe no ara na ɛkyerɛ dodow a wode ma.
 
-| Safoa | Nsɛmfua a wɔde di kan | Ntoboa a wɔde ma |
+Ԑhyԑn: Nkyerεma. Mfitiaseɛ. Mmoa.
 |---|---|---|
-| Unified full viewing key (UFVK) | `uview…` | Hwɛ nnwuma a ɛba **ne** a ɛkɔ ma pool biara a ɛwɔ akontaabu |
-| Safoa a wɔde hwɛ nneɛma a ɛba a wɔaka abom (UIVK) | `uivk…` | Hwɛ nnwuma a ɛba nkutoo, ma pool biara a ɛwɔ akontaabu |
-| Sapling trɛw mu nyinaa hwɛ safoa | `zxviews…` | Hwɛ Sapling dwumadi a ɛba ne nea ɛrekɔ ma safoa no address ahorow |
+ Unified Full Viewing Key (UFVK) dwumadie no mu. `uview…` hu akwantu a ɛrekɔ ne nea ɛkɔ so wɔ asesae biara mu.
+ Unified incoming viewing key (UIVK)  Ɛho hia sɛ wo bɛhunu w'afidie no mu nsɛm nyinaa wɔ kasa biara a wobɛte. `uivk…` Ɔhwɛ nnwumakuo a ɛreba no nko ara, wɔ account biara mu.
+Sapling atrɛw ɔhwɛfoɔ a ɔde ne nsa ahyɛ no ma. `zxviews…` hu nea ɛreyɛ ma ne deɛ ɛrekɔ so wɔ Sapling mu a ɛfa adansedie no ho.
 
-Eyinom mu biara ntumi nsɛe sika. Wɔn nyinaa yɛ nea ɛtra hɔ daa wɔ ɔkwan a ɛho hia so: wontumi nkae safe bi a wode ama no, nea ɛtra hɔ kyɛ nkutoo, denam sika a wode bɛkɔ akontaabu bi a ɔfã foforo no nkura ne safe mu no so.
+Emu biara ntumi ntra. Ne nyinaa yɛ nea enni awiei wɔ ɔkwan a ɛho hia so: wontumi mfa ɔfã bi a wode ama no nkae, na mmom sɛ wofa sika kɔto sikasɛm ho krataa a obi foforo nni ne de mu nkutoo a, ɛtra hɔ daa.
 
-Ɛfata sɛ wuhu afiri abien a wɔde da nneɛma adi ansa na woakyɛ biribiara.
+Nneɛma abien a ɛsɛ sɛ wuhu ansa na woaka biribi akyerɛ afoforo no, ɛno ne nea ɛma nkurɔfo hu nsɛm bi.
 
-**Incoming nkyerɛ sɛ ɛyɛ teateaa.** Wɔde unified incoming viewing key scoped to account no nyinaa so, ɛnyɛ address baako a wobisaa wo ho asɛm no. UIVK a wode bɛkɔ amannɔne ama Sapling address biako no da so ara ma wotumi hu nea ɛba wɔ pool biara a ɛwɔ saa akontaabu no mu, enti ɛda pii adi sen address a ɛbɔ din no. No [Zallet Nhoma no](https://zcash.github.io/zallet/zcashd/json_rpc.html) ka eyi pefee.
+**Incoming nkyerɛ sɛ w'aka no bi.** Unified incoming viewing key na wɔde di dwuma wɔ account nyinaa mu, ɛnyɛ address baako a wobisaa wo ho asɛm. UIVK de kɔma saa Sapling address koro pɛ da so ma ɛrehu nea ɛkɔba biara wɔ saa account no mu, enti ɛma wubehu pii sen address a ɛde din kyerɛ no. The [Zallet Nhoma no](https://zcash.github.io/zallet/zcashd/json_rpc.html) ka eyi pefee.
 
-**Address a wɔatintim da ne hwɛbea safoa a ɛba no adi dedaw ma daakye ɔtamfo bi.** [ZIP 326 na ɛwɔ hɔ](https://zips.z.cash/zip-0326) hyɛ no nsow sɛ ɔtamfo a ɔwɔ quantum kɔmputa betumi asan anya safoa a ɔde hwɛ ade a ɛba no afi address a wɔatintim a ɛyɛ ahorow ahorow so, na ɛno yɛ nea wobetumi ayɛ wɔ ɔkwan bi so a sɛ wɔbɛsan anya nullifier safoa no. Address a wotintim no ne safe a wɔde hwɛ nneɛma a wotintim no nyɛ ade koro, nanso abien no te bɛn wɔn ho wɔn ho wɔ bere tenten a ɛfata mu.
+** Adesamma a wɔbɛba daakye no betumi ahu wɔn address dedaw.** [ZIP 326](https://zips.z.cash/zip-0326) Ɔkyerɛ sɛ obi a ɔwɔ quantum kɔmputa betumi anya viewing key no afiri address bi mu, nanso nullifier key no deɛ ɔntumi. Address yi yɛ soronko koraa wɔ Viewing Key ho nnɛ deɛ ɛyɛ ne kyɛfa kɛse paa ara na ɛwɔ hɔ ma wɔn mmienu nyinaa.
 
-## Safe a wɔhwɛ wɔ Ironwood akyi
+## Ironwood akyi no, yɛrehwɛ nkyeresoɔ a ɛwɔ hɔ.
 
-NU6.3 de Ironwood shielded pool no bae na ɛmaa Orchard pool no yɛɛ nea wɔsɛe no nkutoo, enti sika tu fi biako so kɔ foforo so bere kɔ so. Hwɛ [Dade dua](/zcash-tech/ironwood) ne [Nneɛma a wɔde dannan nneɛma](/zcash-tech/the-turnstile) ma upgrade no ankasa.
+NU6.3 de Ironwood banbɔ a wɔabɔ no na ɛmaa Orchard banbɔ no yɛ nea wɔde sika nkutoo to mu, enti bere rekɔ so no, sikasɛm tu fi biako kɔ foforo. Hwɛ [Ironwood nnua a wɔde yɛ adwuma](/zcash-tech/ironwood) ne sɛ, [Nsrahwɛbea no.](/zcash-tech/the-turnstile) ne nea ɛbɛma ayɛ yiye.
 
-**Hwɛ safoa a wɔde ama ansa na Ironwood akɔ so ayɛ adwuma wɔ atutra no akyi.** ZIP 326 kyerɛ sɛ wɔde agyefo, ne ne hwɛ safoa a ɛba no a ɛne no hyia no, scoped kɔ Orchard *protocol* sen sɛ wɔde bɛkɔ pool: hwɛ safoa koro no ara a ɛba no sɔhwɛ-decrypt Orchard-pool ne Ironwood-pool note ciphertexts nyinaa. Zallet de di dwuma saa, na ɔka Ironwood nkyerɛwde ho asɛm sɛ ɛyɛ Orchard-shaped na wɔde akontaabu no Orchard hwɛ safe a ɛwɔ Ironwood nkyerɛwde-encryption domain no ase no asɔ ahwɛ.
+**A viewing key issued before Ironwood keeps working after the migration.** ZIP 326 kyerɛ sɛ nea ɔgye ne kɔ mu a ɔde rehwɛ no, wɔ de n'ani asi Orchard *protocol* so sen pool: saa same incoming viewing keys trial-decrypts both Orchard-pool and Ironwood-pool note ciphertexts. Zallet di dwuma saa kwan yi so, na ɔkyerɛkyerɛ Ironwood notes ase sε Orchard -shaped ɛne trial-decrypted with account's Orchard viewing Keys wͻn ho asie Ironwood note encryption domain.
 
-Nneɛma abiɛsa a efi mu ba ma obiara a okura safe anaa ɔde ma:
+Nsuasua abiɛsa wɔ obiara a ɔwɔ anaa ɔhyɛ da de safoa bi ma no ho:
 
-1. **Kari pɛ kɔ atare ntam, na nea ɔhwɛ no hu sɛ ɛba saa.** [ZIP 318 na ɛwɔ hɔ](https://zips.z.cash/zip-0318) kyerɛ atutra sɛ Orchard-to-Ironwood nkitahodi nketewa a wɔahyɛ da ayɛ a ɛtoatoa so a wɔbɔ ho dawuru wɔ nhyehyɛe a wɔanhyɛ da ayɛ so, a emu biara sɛe Orchard krataa biako na ɛyɛ Ironwood ade biako a efi asɔre a wɔahyɛ da ayɛ mu. Ɔkontaabufo a ɔde safe a wɔde hwɛ nneɛma rehwɛ no hu sɛ nneɛma a wɔde kura mu no sesa fi ɔtare biako mu kɔ foforo mu wɔ anammɔn anammɔn mu wɔ adapɛn pii mu, na ɛnyɛ ade biako pɛ mu. Wallet betumi asan ayɛ n’ankasa migration nkɔso afi chain data mu denam ne viewing keys so.
-2. **Atubra anammɔn biara da boɔ a ɛtu adi.** Ɛno yɛ awosuo a ɛwɔ sɛ wobɛtwa turnstile, na ɛno na ɛma wotumi yɛ atutena no ho akontaabuo. Sɛ wɔkyekyɛ sika a aka no mu yɛ no asɔre a ɛwɔ mmara mu a, ɛkyerɛ sɛ asɛm biako biara nni hɔ a ɛbɛda Orchard-pool sika a aka no nyinaa adi.
-3. **Akontaabuo a wɔayɛ wɔ Ironwood akyi no betumi anya wɔn safe no wɔ ɔkwan soronko so.** [ZIP 2005 na ɔkyerɛwee](https://zips.z.cash/zip-2005) de ka ho a `use_qsk` frankaa ma quantum-recoverable keys, na ɛsesa sɛnea wonya incoming, outgoing ne diversifier keys no, enti `use_qsk = true` nsafe yɛ safe ahorow a ɛsono emu biara ankasa. ZIP 326 hwehwɛ sɛ frankaa no yɛ pɛ wɔ akontaabu bi so na ɛbara sɛ wɔbɛbɔ `use_qsk = true` safoa ansa na NU6.3 ayɛ adwuma wɔ Mainnet so. Enti safoa bi a wɔde fi akontaabu bi a na ɛwɔ hɔ ansa na Ironwood reba no mu kɔ amannɔne ne a `use_qsk = false` key, na ɛkɔ so teɛ ma saa akontaabu no. Mfa no sɛ safoa bi a wɔde fi akontaabu biako mu kɔ no kyerɛkyerɛ foforo mu.
+1. ** Nkɔso no tu fi nsu a ɛwɔ ɔtare mu kɔ foforo mu, na nea ohu ade yi hu sɛ ɛrekɔ so. * [ZIP 318](https://zips.z.cash/zip-0318) Ɔkyerɛ sɛ ɔbra a wɔyɛ no yɛ nketenkete, pɛyɛ mu wɔ Orchard-to-Ironwood dwumadie bi ho na wɔde to gua bere pɔtee so. Odieter de adehwɛ kwan hwε sε ahwεεde ahorow firi po baako kɔ foforo mu nnawɔtwe pii akyi, ɛnyɛ akwantu biako mu. Akwanhodeɛ betumi asesa ne ankasa faako a ɔkɔe afi chain data hɔ denam n'ahwehwԑden ano nsaano krataa biara so.
+2. **Each migration step reveals the value it moves.** That is inherent to crossing a turnstile, and it is what makes the migration auditable. Splitting the balance into canonical denominations means no single transaction reveals the whole Orchard-pool balance.
+3. **Nka ho a w'abɔ wɔ Ironwood akyi no betumi anya wɔn nsa ano adwuma akwan horow so.** [ZIP 2005 no yɛ ɔfã bi a wɔn ho nni asɛm.](https://zips.z.cash/zip-2005) de a bi ka ho. `use_qsk` Ɔdaadaa kwan a wɔfa so nya, de di dwuma na ɛsan nso yɛ akwan foforo fa so ma wɔn ho da hɔ. `use_qsk = true` keys are genuinely different keys. ZIP 326 requires the flag to be uniform across an account and forbids generating `use_qsk = true` keys before NU6.3 activated on Mainnet. A key exported from an account that existed before Ironwood is therefore a `use_qsk = false` Mmafa ɛkwan a woayi afiri account baako so akyerɛkyerɛ foforo mu.
 
-## Safoa a wɔde hwɛ nneɛma a wɔde kɔ amannɔne
+## Akenkan afidie a wo bɛhwɛ so no kɔ abɔnten
 
 ### Zallet
 
-[Zallet](https://github.com/zcash/zallet) yɛ full-node sika kotoku a ɛde sika kotoku a ɛwɔ zcashd mu no sii ananmu. Viewing-key export ne import duu **v0.1.0-beta.2 (28 July 2026)**, enti di kan hwɛ wo version no; adan a wɔadi kan asi no nni akwan yi. Ɛsɛ sɛ akyinnyegye biara a ɛwɔ ɔkwan din no akyi no yɛ JSON a ɛfata, a ɛkyerɛ sɛ ahama botae ahorow no sie wɔn ankasa nsɛm a wɔafa aka abien. No [Zallet Ntɛmntɛm Nhwehwɛmu Akwankyerɛ](/using-zcash/zallet-quick-reference-guide) kata ahyɛde a wɔde di dwuma wɔ ɔkwan a ɛkɔ akyiri so no so.
+[Zallet](https://github.com/zcash/zallet) is the full-node wallet that replaced the wallet inside zcashd. Viewing-key export and import arrived in **v0.1.0-beta.2 (28 July 2026)**, so check your version first; earlier builds don't have these methods. Every argument after the method name must be valid JSON, which means string values keep their own double quotes. The [Zallet Nkyerεtohɔ a Ɛwɔ Hwԑn So Ntɛm](/using-zcash/zallet-quick-reference-guide) no fa ɔfã biara a' wɔn kyerɛ kwan.
 
-Kyerɛw nea sika kotoku no kura:
+Kyerɛ nea ɛwɔ sika no mu:
 
 ```bash
 zallet rpc listaddresses
 ```
 
-Fa akontaabu no safoa a wɔde hwɛ ade nyinaa a wɔaka abom no kɔ amannɔne denam address a wɔaka abom a wode bɛfa so:
+Fa adansedie a w'aka ho asɛm nyinaa kɔ abɔnten denam adiɛde baako so:
 
 ```bash
 zallet rpc z_exportviewingkey '"<unified address>"'
 ```
 
-Fa akontaabu no mu biakoyɛ a ɛba hwɛ safoa no kɔ amannɔne mmom, fa nea wopɛ no di dwuma `ivk` akyinnyeɛ:
+Fa account no unified incoming viewing key di dwuma, fa optional no yɛ adwuma na w'atumi ayi bi adi wɔ wo din mu. `ivk` nsԑm no:
 
 ```bash
 zallet rpc z_exportviewingkey '"<unified address>"' true
 ```
 
-Sɛ wode Sapling address bi fa a, ɛma saa akontaabu no Sapling a wɔatrɛw mu no nyinaa hwɛ safoa no ba (`zxviews…`), a ɛne zcashd suban dedaw no hyia. Anohyeto abien a wɔakyerɛw: Wɔpow Sprout address ahorow, na wontumi mfa Sapling extended full viewing key nkɔ amannɔne mfi akontaabu a na ɛno ankasa de bae sɛ view-only, efisɛ sika kotoku no ntumi nsan nsiesie. No `ivk` fom no yɛ adwuma ma akontaabu a wɔde hwɛ nkutoo a wɔde aba.
+Sɛ wode address a ɛwɔ Sapling mu ma no, ɛma saa account no nya ne sapling extended full viewing key (`zxviews…`), a ɛne zcashd abrabɔ di nsɛ. Nkrataafa nnum: Wɔpo Sprout addresses, na wontumi mfa Sapling extended full viewing key mfi account bi a wɔayi no afiri hɔ sɛ nea wotumi hwɛ nkutoo mu kɔ abɔnten esiane sԑ wallet ntumi nsiesie saa akwankyerε yi bio nti. `ivk` form no yɛ adwuma ma akwantuo a wɔfa so di dwuma.
 
-### Walets a ɛde viewing keys fi wɔn ankasa interface so kɔ amannɔne
+### Nkrataafa a wɔde kɔma hwεfo mfoni firi wɔn ankasa interface mu
 
-No [Sika kotoku](/using-zcash/wallets) krataafa no di viewing-key mmoa ne Ironwood ahoboa ma sika kotoku biara akyi. Bere a yɛrekyerɛw eyi no, sika kotoku a wɔakyerɛw viewing-key support ne **Ironwood: Ready** nyinaa bi ne ZODL, Zingo!, Zkool, Cake, Zallet, Zecd ne Nozy. Hwɛ saa kratafa no mmom sen eyi ansa na wode wo ho ato sika kotoku biako biara so, efisɛ ahoboa sesa.
+no mu a, na [Adaka no mu nkotoku](/using-zcash/wallets) Saa bere yi, wallets a wɔkyerεw viewing-key support ne **Ironwood: Ready** no bi ne ZODL, Zingo!, Zkool, Cake, Zallet, Zecd and Nozy. Sͻ w'ani hwɛ saa kratafa wei ansa na wo de wo ho bɛto wallet biara so, efisԑ εwɔ sὲn ara mu nsakrae ba.
 
-## Hwɛ safoa a wode bɛba sɛ akontaabu a wɔhwɛ nkutoo
+## Ɔhwɛfoɔ nkyerεkyerεmu a εwͻ watch-only account mu no refa adi dwuma
 
 ### Zkool
 
-[Zkool](https://github.com/hhanh00/zkool2) yɛ ɔkwan a ɛyɛ mmerɛw sen biara wɔ ha, efisɛ egye safe a wɔaka abom ne nea ɛyɛ agyapade nso. Ne README kyerɛw akontaabu a wɔhwɛ nkutoo a wɔayɛ afi **hwɛ safoa a wɔaka abom** anaa **Sapling hwɛ safoa a wɔatrɛw mu**, a ɛka safoa a wɔatrɛw mu a wɔabɔ ho ban a ɛyɛ agyapade a wɔde fi zcashd kɔ amannɔne no ho. Fa akontaabu foforo ka ho, paw ɔkwan a wobɛfa so ahwɛ nkutoo, na fa... `uview…` or `zxviews…` safoa; afei akontaabu no yɛ sync na ɛbɔ sika a aka ne abakɔsɛm ho amanneɛ a enni tumi a wɔde di dwuma wɔ sika a wɔsɛe no mu.
+[Zkool](https://github.com/hhanh00/zkool2) ne kwan a ɛkyɛn so wɔ ha, efiri sɛ wogye unified keys ɛne nea ɛwɔ hɔ dedaw tom. Ne README documents view-only accounts a wɔde **unified viewing key** anaa **Sapling extended viewing Key** na ayɛ no, ka agyinatufo bi ho kɔma wɔn ma w'atumi ahwɛ nsɛm mu yiye afi zcashd nkyɛn. Fa account foforo to obi nsa, yi ɔkwan a wobɛtumi afa so ahu nneɛma kɛkɛ, na fa krataafa no hyɛ n'afedie akyi bere biara ansa wo de emu baako akɔto obi foforɔ nsam. `uview…` or `zxviews…` key; afei account no syncs na ɛbɔ balance ne abakɔsɛm ho dawuru a sika biara nni mu.
 
-Ironwood protocol mmoa ne Orchard-to-Ironwood atutena no sii fam wɔ Zkool 6.24.0 (20 Ɔpɛpɔn 2026), na 6.26.1 (2 Ɔpɛpɔn 2026) siesiee Ironwood ayɔnkofa a wɔhunu wɔ mempool no mu. Tu mmirika 6.26.1 anaa nea ɛba akyiri yi.
+Ironwood protocol support ne Orchard-to-Ironwood migration no sii wɔ Zkool 6.24.0 (20 July 2026), na 6.26.1 (2 August 2026) de ironwood transaction detection asiesiee mempool mu. Run 6.26,1 anaa nea edi akyiri.
 
 ### Zallet
 
@@ -90,26 +90,28 @@ Ironwood protocol mmoa ne Orchard-to-Ironwood atutena no sii fam wɔ Zkool 6.24.
 zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 ```
 
-Akyinnyegye a ɛto so abien ne rescan nhyehyɛe no: `"whenkeyisnew"` (default no), . `"yes"` or `"no"`. Nea ɛto so abiɛsa ne block no sorokɔ a ɛsɛ sɛ wosan scan fi so. Zallet de safoa no ba sɛ akontaabu a wɔhwɛ nkutoo na ɛhwɛ nnwuma a ɛba ne nea efi mu ba no akyi ma ne address ahorow a enni sika a wɔsɛe no ho tumi.
+Nkɔmmɔ a ɛto so abien no yɛ rescan nhyehyɛe: `"whenkeyisnew"` (default no), `"yes"` or `"no"`. Nea ɛtɔ so miensa ne block height a wobɛtumi asane ahwɛ no. Zallet twe key no sɛ view-only account na ɛhwɛ entrant and outgoing transactions wɔ addresses ho bere a wɔnnya tumi mfa ntotɔ nneɛma.
 
-**Zallet de Sapling extended full viewing keys nkutoo ba.** Ɛremfa a `uview…` unified full viewing key, ɛwom mpo sɛ ebetumi de biako akɔ amannɔne de. Sɛ wopɛ sɛ wode akenkan kwan kɔ akonta a wɔaka abom nyinaa mu a, fa UFVK no fi Zallet na fa kɔ sika kotoku a egye safe a wɔaka abom, te sɛ Zkool mu.
+*Zallet fa Sapling Expanded Full Viewing Keys nkutoo ba.** Ɔremfa ne nyinaa mma. `uview…` Sɛ wode kwan a wobɛtumi akenkan akyerɛ Unified Account no nyinaa, yi UFVK firi Zallet hɔ na fa kɔto wo wallet mu sɛ ɛgye unified keys te sε Zkool.
 
-## Nea ɛsakrae, ne nea ɛsɛ sɛ wogyae hwehwɛ
+Sɛ worebɛdan afidie a wɔde aba no akɔ transaction abakɔsɛm fael mu, ne txids, akatua ne memo ahorow ho nsɛm pii a, hwɛ: [Exporting Transaction History from a Viewing Key](/guides/viewing-key-transaction-export).
 
-Sɛ wudii kratafa yi dedaw bi akyi, anaasɛ ne nkyerɛase bi akyi a, akwan abiɛsa ntumi nyɛ adwuma bio.
+## Deɛn na asesa, ne deɛn ho asɛm a ɛsɛ sɛ yegyae hwehwɛ?
 
-- **`zcash-cli z_exportviewingkey` ne `z_importviewingkey`.** zcashd duu ne mmoa awiei wɔ 18 July 2026 na ɛnkɔ so bio. Zallet akwan a wɔato din saa ara ne nea wɔde besi ananmu; hwɛ [atutra ho akwankyerɛ](/guides/migration-guide-zcashd-to-zebrad-zallet).
-- **Ywallet nantew no.** Walets krataafa no hyɛ Ywallet agyirae **Ironwood: Not Ready**, enti ɛnyɛ sika kotoku a wobɛtwe adwene asi so ama nkurɔfo ma Ironwood bere so hwɛ safe. Zkool, a efi developer koro no ara mu, gye keys ahorow koro no ara na wɔahyɛ no agyirae sɛ Ready.
-- **zcashblockexplorer.com/vk.** Ɔsom no san de HTTP 503 a ɛwɔ abodin krataa a enni mu ba, na wɔatow agu sen sɛ wɔde besi ananmu. Sɛ wode hwɛ safoa bi hyɛ wɛbsaet bi mu a, ɛde w’adwuma ho abakɔsɛm nyinaa ma obiara a ɔhwɛ saa wɛbsaet no so, a na ɛyɛ mmerɛw sen biara wɔ akwan abiɛsa a ɛwɔ kratafa dedaw no so bere nyinaa. Fa safoa no kɔ sika kotoku a wode di dwuma mmom mu.
+Sɛ w'adi kan adi saa kratafa yi so, anaa woasua bi afi mu a, akwan mmiɛnsa no nyɛ adwuma bio.
 
-## Akadeɛ
+- **`zcash-cli z_exportviewingkey` ne sɛ, `z_importviewingkey`.** zcashd duu ne end-of-support stop wɔ 18 July 2026 na ɛnkɔ so nyɛ adwuma. Zallet's identically named methods are the replacement; hwɛ ɔfã a yɛfrɛ no "Zallet" (wɔn din korɔ) mu: [akwantu akwankyerɛfoɔ](/guides/migration-guide-zcashd-to-zebrad-zallet).
+- Ywallet akwankyerԑ no. Wallets kratafa yi yεn so ma wohu sɛ "Ywallet" yɛ Ironwood: Not Ready, enti ɛnyɛ sika kotoku a nnipa de wɔn ani bεε mu sε wɔrekɔhwehwɛ ironwood mmere ano nsaano ahoma. Zkool nso gye saa nsesaeɛ koro no ara na εwɔ ready din.
+- **zcashblockexplorer.com/vk.** The service returns HTTP 503 with an invalid certificate, and it has been dropped rather than replaced. Pasting a viewing key into a website hands your whole transaction history to whoever runs that website, which was always the weakest of the three options on the old page. Import the key into a wallet you run instead.
 
-Fa safe a wɔde hwɛ nneɛma di dwuma sɛnea ɛho hia, na pɛ safe a ɛyɛ teateaa sen biara a ebua asɛmmisa a wɔrebisa no.
+## Nneɛma a wɔde bɔ afɔre
 
-- [ZIP 326: NU6.3 Nea efi mu ba ma Sikakorabea](https://zips.z.cash/zip-0326) — sɛnea safe a wɔde hwɛ ade yɛ wɔn ade wɔ Orchard ne Ironwood atare no atifi
-- [ZIP 229: Nkyerɛase 6 Nkitahodi Nhyehyɛe](https://zips.z.cash/zip-0229) — kyerɛkyerɛ Orchard ne Ironwood atare no mu
-- [Zallet nsakraeɛ ho kyerɛwtohɔ](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — a release de kaa ho sɛ RPC kwan bɛn na
-- [Zkool KENKAN NKYERƐKYERƐMU](https://github.com/hhanh00/zkool2/blob/main/README.md) — akontaabu a wɔboa ne key types
-- [ECC, Nkyerɛkyerɛmu a Wɔde Hwɛ Nneɛma a Wɔde Hwɛ Nneɛma Mu](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, Nneɛma a Wɔda no Adi ne Nsafo a Wɔpaw](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, Zcash Viewing Key Video Nkyerɛkyerɛmu](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+Fa hwεn ano ahwehwɛde ahorow no di dwuma wɔ nea ehia mu, na fa ɔfã a ɛyɛ ketewa paa ma asɛmmisa a wobisa ho mmuae.
+
+- [ZIP 326: NU6.3 N'afata a ɛfa sika nkotoku ho](https://zips.z.cash/zip-0326)  sɛnea hwεsofo nsaano di dwuma wɔ Orchard ne Ironwood abura no mu.
+- [ZIP 229: Nkyerεmu 6 a εfa dwumadie ho no.](https://zips.z.cash/zip-0229)  kyerɛ Orchard ne Ironwood abura no ase.
+- [Zallet nsesaeɛ daadaa no](https://github.com/zcash/zallet/blob/main/CHANGELOG.md)  deεn na w'ayi no adi, nea RPC kwan a εfa ho
+- [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md)  nhyehyεe ne kͻmputa no dwumadie a w'atumi de adi dwuma
+- [ECC, a ɛkyerɛkyerɛ anibuei nkyerɛɛmu no mu](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC, Selective Disclosure and Viewing Keys (Ɔkwan a wɔfa so de nsɛm ma no)](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
