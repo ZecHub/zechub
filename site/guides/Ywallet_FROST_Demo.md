@@ -18,8 +18,6 @@
 
 [frost-tools on GitHub](https://github.com/ZcashFoundation/frost-tools/tree/a22235fb8d5b2cde8146953ecdfc875922730139)
 
-> This demo was written against the `update-zcash-sign` branch of `frost-zcash-demo`. That repository is now `ZcashFoundation/frost-tools`, the branch was merged in PR #441, and the four binaries below were later reorganised into `frost-client`, `frostd` and `zcash-sign`. The link is pinned to the last commit that still builds them as written.
-
 Use the above repo and follow directions on compiling: 
 
 ```bash
