@@ -63,7 +63,7 @@ Kọ ẹkọ diẹ sii nipa IPFS [nibi](https://wiki.zechub.xyz/zfav/guides/publ
 
 
 #### Iroyin ati Media 
-[A16z ṣe idasilẹ eto idibo ailorukọ fun Ethereum](https://cointelegraph.com/news/A16z-releases-anonymous-voting-system-for-Ethereum)
+[A16z ṣe idasilẹ eto idibo ailorukọ fun Ethereum](https://web.archive.org/web/20260412223048/https://cointelegraph.com/news/a16z-releases-anonymous-voting-system-for-ethereum)
 
 [Crypto Exchange Coinone's Exec iṣaaju jẹwọ awọn idiyele abẹtẹlẹ ni ilu South Korea](https://www.google.com/amp/s/www.coindesk.com/policy/2023/05/26/crypto-exchange-coinones-former-exec-acknowledges-bribery-charges-in-south-korea-report/%3foutputType=amp) 
 
