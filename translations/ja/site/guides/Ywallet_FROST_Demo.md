@@ -16,7 +16,7 @@
 
 ## FROST バイナリをコンパイルする
 
-[Github リンク](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Github リンク](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 上記リポジトリを使用し、コンパイル手順に従ってください。 
 

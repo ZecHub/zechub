@@ -48,7 +48,7 @@ Vesayetsiz RAILGUN Wallet'ınızı kurun, istediğiniz bir 0zk adresine herhangi
 ***
 
 
- **[FairySwap](https://fairyswap.finance/swap)**: Fairyswap, izinsiz ve merkeziyetsiz olmaya kendini adamış, topluluk odaklı yeni nesil bir gizlilik DEX’i olan Katman 1 çözümüdür. Findora’ya yerleşik sıfır bilgi kanıtı teknolojisinden yararlanarak FairySwap gibi gizlilik DEX’leri ve Dapp’ler, kullanıcılara kamuya açık bir blokzincirde hangi bilgilerin görünür olmasını istediklerini ve hangilerini Shield etmeyi tercih ettiklerini seçme imkânı verir. Görünmez olmasını istedikleri bilgiler, hiçbir ayrıntı ifşa edilmeden sıfır bilgi kanıtlarıyla yine de herkese açık biçimde doğrulanabilir - **Varlık Takası**: Evet - [Beyaz Kitap](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logosu](/content-images/_unavailable.svg)
+**[FairySwap](https://fairyswap.finance/)**: Fairyswap, izinsiz ve merkeziyetsiz olmaya kendini adamış, topluluk odaklı yeni nesil bir gizlilik DEX’i olan Katman 1 çözümüdür. Findora’ya yerleşik sıfır bilgi kanıtı teknolojisinden yararlanarak FairySwap gibi gizlilik DEX’leri ve Dapp’ler, kullanıcılara kamuya açık bir blokzincirde hangi bilgilerin görünür olmasını istediklerini ve hangilerini korumayı tercih ettiklerini seçme imkânı verir. Görünmez olmasını istedikleri bilgiler, hiçbir ayrıntı ifşa edilmeden sıfır bilgi kanıtlarıyla yine de herkese açık biçimde doğrulanabilir - **Varlık Takası**: Evet - [Beyaz Kitap](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKSync](https://zksync.io/)**: zkSync, Ethereum üzerinde düşük gas ücreti ve hızlı işlemler sunan, güvenlikten ödün vermeyen bir Katman 2 ölçeklendirme çözümüdür. İnsanlar varlıklarını istedikleri zaman Katman 1’e çekebilir. Tüm zkSync ekosistemine erişmek ve ucuz, anlık işlemlerden faydalanmak için önce [Argent gibi bir cüzdana](https://argent.link/zksync) ihtiyacınız vardır. Cüzdan olmadan ağa katılamazsınız; çünkü Coinbase veya Binance gibi bir borsa üzerinden zkSync’e erişmek mümkün değildir. Cüzdanlar, kripto satın almak, satmak ve saklamak için kolay bir yol sunar ve DeFi, NFT’ler ve daha fazlasının heyecan verici dünyasını deneyimlemenizi sağlar - **Varlık Takası**: Evet - [Beyaz Kitap](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
@@ -85,7 +85,7 @@ Vesayetsiz RAILGUN Wallet'ınızı kurun, istediğiniz bir 0zk adresine herhangi
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi, sıfır bilgi, çok taraflı hesaplama ve homomorfik şifrelemeye dayalı anonim bir L1’dir. Anonim proof-of-stake, doğrulayıcıların gizli kalmasını sağlar. DarkFi, anonim uygulamalar oluşturmak ve çalıştırmak için anti-fragile bir ortam sunar - **Varlık Takası**: Evet - [Beyaz Kitap](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi, sıfır bilgi, çok taraflı hesaplama ve homomorfik şifrelemeye dayalı anonim bir L1’dir. Anonim proof-of-stake, doğrulayıcıların gizli kalmasını sağlar. DarkFi, anonim uygulamalar oluşturmak ve çalıştırmak için anti-fragile bir ortam sunar - **Varlık Takası**: Evet - [Beyaz Kitap](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 
