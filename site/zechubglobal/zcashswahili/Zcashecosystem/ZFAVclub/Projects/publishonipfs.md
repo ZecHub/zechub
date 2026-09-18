@@ -14,7 +14,7 @@ Wakati mtumiaji anapoongeza faili kwenye IPFS, faili hiyo hugawanywa katika sehe
 
 Hii inahakikisha redundansi na uimara wa hitilafu huku ikifanya iwe vigumu kwa nodi moja kuwa kitovu kimoja cha kushindwa au kudhibiti.
 
-Soma [Utangulizi wa IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)
+Soma [Utangulizi wa IPFS](https://medium.com/@Consensys/an-introduction-to-ipfs-9bba4860abd0)
 
 ## Kuunda Tovuti Yako
 
