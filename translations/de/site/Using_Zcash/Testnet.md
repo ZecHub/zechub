@@ -33,7 +33,7 @@ Ein Wallet-Entwickler kann Software mit einem Testnet-RPC-Endpunkt verbinden und
 
 #### 2. Testen von Netzwerk-Upgrades
 
-Zcash aktualisiert sein Kernprotokoll regelmäßig (z. B. NU6.1, NU6.2 and Ironwood). Im Testnet werden neue Upgrades **vor dem Mainnet** aktiviert, sodass Entwickler und die Community Fehler erkennen und beheben können.
+Zcash aktualisiert sein Kernprotokoll regelmäßig (z. B. NU6.1, NU6.2 und Ironwood). Im Testnet werden neue Upgrades **vor dem Mainnet** aktiviert, sodass Entwickler und die Community Fehler erkennen und beheben können.
 
 **Beispiel:**  
 Eine neue Konsensregel oder ein neuer Transaktionstyp wird zuerst ins Testnet eingespielt. Nach erfolgreichen Tests wird sie bzw. er im Mainnet auf einer vorab festgelegten Blockhöhe aktiviert.

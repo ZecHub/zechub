@@ -33,7 +33,7 @@ Testnet 对区块链开发至关重要，因为**像 Zcash 这样的真实区块
 
 #### 2. 测试网络升级
 
-Zcash 会定期升级其核心协议（例如 NU6.1, NU6.2 and Ironwood）。新升级会在 Mainnet 之前先在 Testnet 激活，以便开发者和社区发现并修复漏洞。
+Zcash 会定期升级其核心协议（例如 NU6.1、NU6.2 和 Ironwood）。新升级会在 Mainnet 之前先在 Testnet 激活，以便开发者和社区发现并修复漏洞。
 
 **示例：**  
 新的共识规则或交易类型会先推送到 Testnet。测试成功后，它会在预定的区块高度于 Mainnet 激活。

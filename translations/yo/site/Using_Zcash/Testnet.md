@@ -33,14 +33,14 @@ Olùgbéejáde àpò-ìpamọ́ lè so sọfitiwia pọ̀ pẹ̀lú ìparí RPC 
 
 #### 2. Ìdánwò Àwọn Àtúnṣe Orí-Èdè
 
-Zcash n ṣe igbesoke ilana ipilẹ rẹ ni igbagbogbo (fun apẹẹrẹ, NU6.1, NU6.2 and Ironwood). Testnet n mu awọn igbegasoke tuntun ṣiṣẹ ** ṣaaju Mainnet **, gbigba awọn olupilẹṣẹ ati agbegbe laaye lati ṣe idanimọ ati ṣatunṣe awọn aṣiṣe.
+Zcash n ṣe igbesoke ilana ipilẹ rẹ ni igbagbogbo (fun apẹẹrẹ, NU6.1, NU6.2 àti Ironwood). Testnet n mu awọn igbegasoke tuntun ṣiṣẹ ** ṣaaju Mainnet **, gbigba awọn olupilẹṣẹ ati agbegbe laaye lati ṣe idanimọ ati ṣatunṣe awọn aṣiṣe.
 
 Àpẹẹrẹ: 
 Awon ofin ti o ni oye tuntun tabi iru idunadura ni a kọkọ gbe lọ si Testnet. Lẹhin idanwo aṣeyọri, o ṣiṣẹ lori Mainnet ni giga bulọọki ti a ti pinnu tẹlẹ.
 
 #### 3. Àdánwò Ìmúṣẹ Ìkànnì
 
-Nóòdù Zcash tí wọ́n ń ṣàkíyèsí jẹ́ **Zebra** (nóòdù tó dá lórí Rust tí Zcash Foundation ń ṣàkíyèsí) àti apamówó tí wọ́n ń ṣàkíyèsí ni [Zallet](https://github.com/zcash/zallet). `zcashd`, ìmúṣe nóòdù àkọ́kọ́, dé ìdáwọ́duro àtìlẹ́yìn láifọwọ́yì ní ọjọ́ kẹtàdínlọ́gún oṣù Keje ọdún 2026, kò sì í ṣàkíyèsí mọ́ - wo [ítọ́nisọ́nà ìyípadà láti zcashd sí Zebra àti Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet jẹ́ kí a ṣe ìdánwò àwọn nóòdù láìsí ewu owó.
+Nóòdù Zcash tí wọ́n ń ṣàkíyèsí jẹ́ **Zebra** (nóòdù tó dá lórí Rust tí Zcash Foundation ń ṣàkíyèsí) àti apamówó tí wọ́n ń ṣàkíyèsí ni [Zallet](https://github.com/zcash/zallet). `zcashd`, ìmúṣe nóòdù àkọ́kọ́, dé ìdáwọ́duro àtìlẹ́yìn láifọwọ́yì ní ọjọ́ kejìdínlógún oṣù Keje ọdún 2026, kò sì í ṣàkíyèsí mọ́ - wo [ítọ́nisọ́nà ìyípadà láti zcashd sí Zebra àti Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet jẹ́ kí a ṣe ìdánwò àwọn nóòdù láìsí ewu owó.
 
 Awọn oludasile Node le:
 

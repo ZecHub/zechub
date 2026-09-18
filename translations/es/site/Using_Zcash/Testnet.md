@@ -33,7 +33,7 @@ Un desarrollador de billeteras puede conectar el software a un endpoint RPC de T
 
 #### 2. Pruebas de actualizaciones de red
 
-Zcash actualiza su protocolo central periódicamente (por ejemplo, NU6.1, NU6.2 and Ironwood). Testnet activa las nuevas actualizaciones **antes que Mainnet**, lo que permite a los desarrolladores y a la comunidad identificar y corregir errores.
+Zcash actualiza su protocolo central periódicamente (por ejemplo, NU6.1, NU6.2 y Ironwood). Testnet activa las nuevas actualizaciones **antes que Mainnet**, lo que permite a los desarrolladores y a la comunidad identificar y corregir errores.
 
 **Ejemplo:**  
 Una nueva regla de consenso o un nuevo tipo de transacción se implementa primero en Testnet. Tras una prueba exitosa, se activa en Mainnet a una altura de bloque predeterminada.

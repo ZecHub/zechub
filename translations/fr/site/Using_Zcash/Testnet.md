@@ -33,7 +33,7 @@ Un développeur de wallet peut connecter son logiciel à un endpoint RPC Testnet
 
 #### 2. Test des mises à niveau du réseau
 
-Zcash met à niveau son protocole principal périodiquement (par ex. NU6.1, NU6.2 and Ironwood). Le Testnet active les nouvelles mises à niveau **avant Mainnet**, ce qui permet aux développeurs et à la communauté d'identifier et de corriger les bugs.
+Zcash met à niveau son protocole principal périodiquement (par ex. NU6.1, NU6.2 et Ironwood). Le Testnet active les nouvelles mises à niveau **avant Mainnet**, ce qui permet aux développeurs et à la communauté d'identifier et de corriger les bugs.
 
 **Exemple :**  
 Une nouvelle règle de consensus ou un nouveau type de transaction est d'abord déployé sur le Testnet. Après des tests réussis, il est activé sur Mainnet à une hauteur de bloc prédéfinie.

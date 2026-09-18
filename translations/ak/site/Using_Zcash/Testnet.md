@@ -33,7 +33,7 @@ Wallet developer betumi de software abɔ Testnet RPC endpoint na wayɛ asetena n
 
 #### 2. Wɔsɔ Network Upgrades hwɛ
 
-Zcash yɛ ne core protocol no foforo bere ne bere mu (e.g., NU6.1, NU6.2 and Ironwood). Testnet ma nkɔsoɔ foforɔ yɛ adwuma **ansa na Mainnet** aba, ɛma developers ne mpɔtam hɔfoɔ tumi hunu na wɔsiesie mfomsoɔ.
+Zcash yɛ ne core protocol no foforo bere ne bere mu (e.g., NU6.1, NU6.2 na Ironwood). Testnet ma nkɔsoɔ foforɔ yɛ adwuma **ansa na Mainnet** aba, ɛma developers ne mpɔtam hɔfoɔ tumi hunu na wɔsiesie mfomsoɔ.
 
 **Nhwɛsoɔ:** 
 Wɔdi kan pia adwene foforɔ mmara anaa ayɔnkofa su kɔ Testnet. Sɛ wɔsɔ hwɛ yiye wie a, ɛyɛ adwuma wɔ Mainnet so wɔ block sorokɔ a wɔahyɛ ato hɔ.

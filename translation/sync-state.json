@@ -461,7 +461,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static+brand-restore+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -2215,7 +2215,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -3969,7 +3969,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -5723,7 +5723,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static+brand-restore+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -7477,7 +7477,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -9231,7 +9231,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -10985,7 +10985,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -12739,7 +12739,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+brand-restore",
+      "tool": "nllb-200-3.3B+linkrepair+brand-restore+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -14493,7 +14493,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -16247,7 +16247,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -19289,7 +19289,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "seed",
-      "tool": "instinct-agent+independent-qa",
+      "tool": "instinct-agent+independent-qa+linkrepair",
       "edited": false
     }
   },
@@ -19755,7 +19755,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -21509,7 +21509,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -23263,7 +23263,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -25017,7 +25017,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -26305,7 +26305,7 @@
       "src_commit": "c232ec2789ae30b98a3623d571bac26b2137612e",
       "engine": "llm",
       "mode": "seed",
-      "tool": "instinct-agent+independent-qa",
+      "tool": "instinct-agent+independent-qa+linkrepair",
       "edited": false
     }
   },
@@ -26771,7 +26771,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -28525,7 +28525,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+brand-restore",
+      "tool": "nllb-200-3.3B+linkrepair+brand-restore+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -30279,7 +30279,7 @@
       "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+conjunction-fix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {

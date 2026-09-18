@@ -6,7 +6,7 @@
 
 ZecHub belirli bir merkeziyetsiz borsa hizmetini desteklemez; lütfen kendi araştırmanızı yapın.
 
-Aşağıdaki her `###` başlığı, https://zechub.wiki/dex. üzerinde bir karttır.
+Aşağıdaki her `###` başlığı, https://zechub.wiki/dex üzerinde bir karttır.
 Buradan bir blok ekleyin, düzenleyin veya kaldırın; wiki bunu bu dosyadan alır.
 
 ### Near-intents

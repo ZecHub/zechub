@@ -33,7 +33,7 @@ Gakotoku wɔla ateŋu atsɔ kɔmpiuta dɔwɔɖoɖowo aƒo ƒu ɖe Testnet RPC ƒ
 
 #### 2. Dodokpɔ le Network ƒe Ŋgɔyiyiwo Ŋu
 
-Zcash doa eƒe ɖoɖowɔɖi vevitɔ ɖe ŋgɔ ɣeaɖewoɣi (e.g., NU6.1, NU6.2 and Ironwood). Testnet wɔa tɔtrɔ yeyewo **do ŋgɔ na Mainnet**, si na be dɔwɔlawo kple nutoa me tɔwo te ŋu dea dzesi vodadawo eye woɖɔa wo ɖo.
+Zcash doa eƒe ɖoɖowɔɖi vevitɔ ɖe ŋgɔ ɣeaɖewoɣi (e.g., NU6.1, NU6.2 kple Ironwood). Testnet wɔa tɔtrɔ yeyewo **do ŋgɔ na Mainnet**, si na be dɔwɔlawo kple nutoa me tɔwo te ŋu dea dzesi vodadawo eye woɖɔa wo ɖo.
 
 **Kpɔɖeŋu:** 
 Wotutua se yeye si dzi woda asi ɖo alo asitsatsa ƒomevi aɖe ɖe Testnet dzi gbã. Ne wodoe kpɔ dzidzedze vɔ la, ewɔa dɔ le Mainnet dzi le block ƒe kɔkɔme si woɖo ɖi do ŋgɔ.
