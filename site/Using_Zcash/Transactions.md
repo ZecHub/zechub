@@ -178,6 +178,7 @@ Please note that the safest way to use ZEC is using shielded transactions whenev
 ## Related Pages
 
 - [Wallets](/using-zcash/wallets) - which wallets support shielded sending, and which are transparent only
+- [Payment disclosures](/zcash-tech/payment-disclosures) - how a sender can prove selected details of one shielded payment
 - [Shielded Pools](/using-zcash/shielded-pools) - Sapling and Orchard, the pools your shielded funds live in
 - [Memos](/using-zcash/memos) - encrypted messages that can travel with a shielded transaction
 - [Transparent Exchange Addresses](/using-zcash/transparent-exchange-addresses) - TEX addresses and why exchanges use them
