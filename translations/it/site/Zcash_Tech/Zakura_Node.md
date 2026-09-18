@@ -81,7 +81,7 @@ Zakura è pienamente compatibile con l'aggiornamento di rete Ironwood (NU6.3), a
 | Velocità di sincronizzazione | Riferimento base | ~1× | ~5× più veloce |
 | Pruning dei blocchi | No | No | Sì |
 | Compatibilità RPC zcashd | Nativa | Parziale | Sì (modalità compatibilità) |
-| Bootstrap tramite snapshot | No | No | Sì (<2 min) |
+| Bootstrap tramite snapshot | No | No | Sì (meno di 2 min) |
 | P2P sperimentale | No | No | Sì (opt-in) |
 
 ---
