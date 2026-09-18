@@ -69,7 +69,7 @@ Ka oju-iwe [yii](https://zechub.wiki/privacy-tools/tor-and-i2p)
 
 [SEC shey Imoriya owo $4B Ofurufu Idogo 📉 Lati Binance, Coinbase ati Binance.US](https://www.coindesk.com/markets/2023/06/09/sec-clampdown-spurs-4b-deposit-flight-from-binance-coinbase-and-binanceus) 
 
-[Egbe World Mobile Eyes African shey lẹhin ayeye Ti ko ni ipin alailowaya aaye igbeyewo](https://cointelegraph.com/news/World-Mobile-eyes-African-rollout-after-decentralized-wireless-field-tests) 
+[Egbe World Mobile Eyes African shey lẹhin ayeye Ti ko ni ipin alailowaya aaye igbeyewo](https://web.archive.org/web/20251210054550/https://cointelegraph.com/news/world-mobile-eyes-african-rollout-after-decentralized-wireless-field-tests) 
 
 [Ilu Kenya shey afara mowo-ori lori crypto, awọn gbigbe NFT ati awọn oludasiṣẹ ori ayelujara](https://cointelegraph.com/news/kenya-considers-tax-on-crypto-nft-transfers-and-online-influencers) 
 

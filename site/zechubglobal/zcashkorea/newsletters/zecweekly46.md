@@ -84,9 +84,9 @@ Tor & I2P 기술 - 개인 정보 보호가 중요한 이유
 
 [아프리카, 블록체인으로 거버넌스 구조를 강화](https://guardian.ng/technology/africa-can-enhance-governance-structures-with-blockchain-says-jassy-kabanihiza-ebwanyu/)
 
-[금페깅 소셜파이 플랫폼](https://cointelegraph.com/news/a-missing-link-in-social-giving-a-socialfi-platform-based-on-the-gold-standard)
+[금페깅 소셜파이 플랫폼](https://web.archive.org/web/20250723210931/https://cointelegraph.com/news/a-missing-link-in-social-giving-a-socialfi-platform-based-on-the-gold-standard)
 
-[World Mobile, 분산형 무선 현장 테스트 후 아프리카 출시](https://cointelegraph.com/news/world-mobile-eyes-african-rollout-after-decentralized-wireless-field-tests)
+[World Mobile, 분산형 무선 현장 테스트 후 아프리카 출시](https://web.archive.org/web/20251210054550/https://cointelegraph.com/news/world-mobile-eyes-african-rollout-after-decentralized-wireless-field-tests)
 
 [당신이 알고 싶지 않은 새로운 암호화폐 세금법](https://www.coindesk.com/consensus-magazine/2023/06/09/the-new-crypto-bill-gary-gensler-doesnt-want-you-to-know-about/)
 

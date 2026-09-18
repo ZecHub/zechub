@@ -68,7 +68,7 @@ Nous en apprendrons plus sur un protocole de confidentialité interchaîne qui u
 
 #### Actualités & Médias
 
-[La cour du Royaume-Uni accorde un appel à Craig Wright dans le procès sur les droits du Bitcoin - Cointelegraph](https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit)
+[La cour du Royaume-Uni accorde un appel à Craig Wright dans le procès sur les droits du Bitcoin - Cointelegraph](https://web.archive.org/web/20250827103632/https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit)
 
 [Le DOJ cherche à augmenter les enquêtes sur les cryptomonnaies avec le projet de fusionner les équipes - The Block](https://www.theblock.co/post/240967/doj-looks-to-increase-crypto-investigations-with-move-to-merge-teams)
 
