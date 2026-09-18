@@ -33,7 +33,7 @@ Bir cüzdan geliştiricisi, yazılımını bir Testnet RPC uç noktasına bağla
 
 #### 2. Ağ Yükseltmelerini Test Etme
 
-Zcash, temel protokolünü periyodik olarak yükseltir (ör. NU6.1, NU6.2 and Ironwood). Testnet, yeni yükseltmeleri **Mainnet'ten önce** etkinleştirir; böylece geliştiriciler ve topluluk hataları tespit edip düzeltebilir.
+Zcash, temel protokolünü periyodik olarak yükseltir (ör. NU6.1, NU6.2 ve Ironwood). Testnet, yeni yükseltmeleri **Mainnet'ten önce** etkinleştirir; böylece geliştiriciler ve topluluk hataları tespit edip düzeltebilir.
 
 **Örnek:**  
 Yeni bir konsensüs kuralı veya işlem türü önce Testnet'e uygulanır. Başarılı testlerden sonra, önceden belirlenmiş bir blok yüksekliğinde Mainnet'te etkinleşir.

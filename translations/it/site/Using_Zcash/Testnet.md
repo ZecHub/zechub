@@ -33,7 +33,7 @@ Lo sviluppatore di un portafoglio può collegare il software a un endpoint RPC d
 
 #### 2. Testare gli aggiornamenti della rete
 
-Zcash aggiorna periodicamente il suo protocollo principale (ad esempio NU6.1, NU6.2 and Ironwood). La Testnet attiva i nuovi aggiornamenti **prima della Mainnet**, permettendo agli sviluppatori e alla comunità di identificare e risolvere i bug.
+Zcash aggiorna periodicamente il suo protocollo principale (ad esempio NU6.1, NU6.2 e Ironwood). La Testnet attiva i nuovi aggiornamenti **prima della Mainnet**, permettendo agli sviluppatori e alla comunità di identificare e risolvere i bug.
 
 **Esempio
 Una nuova regola di consenso o un nuovo tipo di transazione vengono prima inviati a Testnet. Dopo aver superato i test, viene attivata su Mainnet a un'altezza di blocco predeterminata.

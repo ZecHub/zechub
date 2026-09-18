@@ -33,7 +33,7 @@ msanidi programu mkoba unaweza kuunganisha programu kwa Testnet RPC mwisho na ku
 
 #### 2. Upimaji wa Upgrades Network
 
-Zcash upgrades yake ya msingi itifaki mara kwa mara (kwa mfano, NU6.1, NU6.2 and Ironwood). Testnet activates updates mpya ** kabla ya Mainnet **, kuruhusu watengenezaji na jamii ya kutambua na kurekebisha mende.
+Zcash upgrades yake ya msingi itifaki mara kwa mara (kwa mfano, NU6.1, NU6.2 na Ironwood). Testnet activates updates mpya ** kabla ya Mainnet **, kuruhusu watengenezaji na jamii ya kutambua na kurekebisha mende.
 
 **Mfano:** 
 Sheria mpya makubaliano au aina ya shughuli ni kwanza kusukumwa kwa Testnet. Baada ya mtihani mafanikio, ni kuamsha juu ya Mainnet katika block predetermined urefu.

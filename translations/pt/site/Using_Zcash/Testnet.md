@@ -33,7 +33,7 @@ Um desenvolvedor de carteira pode conectar o software a um endpoint RPC da Testn
 
 #### 2. Teste de atualizações de rede
 
-A Zcash atualiza periodicamente seu protocolo principal (por exemplo, NU6.1, NU6.2 and Ironwood). A Testnet ativa novas atualizações **antes da Mainnet**, permitindo que os desenvolvedores e a comunidade identifiquem e corrijam bugs.
+A Zcash atualiza periodicamente seu protocolo principal (por exemplo, NU6.1, NU6.2 e Ironwood). A Testnet ativa novas atualizações **antes da Mainnet**, permitindo que os desenvolvedores e a comunidade identifiquem e corrijam bugs.
 
 **Exemplo:**  
 Uma nova regra de consenso ou tipo de transação é primeiro enviada para a Testnet. Após testes bem-sucedidos, ela é ativada na Mainnet em uma altura de bloco predeterminada.

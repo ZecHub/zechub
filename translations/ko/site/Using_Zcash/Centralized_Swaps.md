@@ -6,7 +6,7 @@
 
 ZecHub는 특정 거래소 서비스를 보증하지 않습니다. 직접 조사한 뒤 이용하세요.
 
-아래의 각 `###` 제목은 https://zechub.wiki/using-zcash/centralizedswaps. 페이지의 카드 하나에 해당합니다.
+아래의 각 `###` 제목은 https://zechub.wiki/using-zcash/centralizedswaps 페이지의 카드 하나에 해당합니다.
 여기에서 블록을 추가, 편집 또는 삭제하면 위키가 이 파일에서 내용을 가져옵니다.
 
 ### LetsExchange

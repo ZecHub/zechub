@@ -33,7 +33,7 @@ Testnet blockchain development के लिए अत्यंत महत्�
 
 #### 2. Network Upgrades की Testing
 
-Zcash समय-समय पर अपने core protocol को upgrade करता है (जैसे NU6.1, NU6.2 and Ironwood)। Testnet पर नए upgrades **Mainnet से पहले** activate किए जाते हैं, जिससे developers और community bugs की पहचान कर उन्हें ठीक कर सकें।
+Zcash समय-समय पर अपने core protocol को upgrade करता है (जैसे NU6.1, NU6.2 और Ironwood)। Testnet पर नए upgrades **Mainnet से पहले** activate किए जाते हैं, जिससे developers और community bugs की पहचान कर उन्हें ठीक कर सकें।
 
 **उदाहरण:**  
 किसी नए consensus rule या transaction type को पहले Testnet पर भेजा जाता है। सफल testing के बाद, यह Mainnet पर पूर्वनिर्धारित block height पर activate होता है।
