@@ -139,6 +139,18 @@ A watch-only desktop wallet designed for individuals and organizations that need
 
 [Visit](https://github.com/auzum197/pendrake-watch)
 
+### Zakura
+A consensus-compatible Zcash full node built for scale, with faster synchronization, pruning, zcashd compatibility, and high-performance networking.  
+[Visit](https://zakura.com)
+
+### Zipher
+A privacy-first Zcash wallet for humans and AI agents, with mobile and headless interfaces powered by a shared Rust engine.  
+[Visit](https://zipher.to)
+
+### Vizor
+A beautiful, open-source self-custody Zcash wallet built by the Keplr team featuring multi-account support, Keystone hardware compatibility, and default privacy.  
+[Visit](https://vizor.cash)
+
 ---
 
 ## Explorers, Data, and Network Dashboards
@@ -263,6 +275,13 @@ Threshold signature scheme (FROST) work being advanced for broader adoption in t
 Open-source performance-testing project that evaluates different methods of synchronizing Zcash blockchain data.  
 [Visit](https://github.com/openkoder/benchmarks_zcash/)
 
+### Zaino Indexer
+A high-performance indexing service for the Zcash blockchain, enabling fast and reliable data access for wallets and applications.  
+[Visit](https://zingolabs.github.io/zaino/)
+
+### Zecd
+An open-source, shielded-first Zcash wallet server alternative to zcashd that speaks Bitcoin Core's JSON-RPC dialect, designed for easy enterprise integration.  
+[Visit](https://zecd.org)
 ---
 
 ## Wider Applications Utilizing Zcash
@@ -305,6 +324,9 @@ A peer-to-peer poker platform that combines end-to-end encryption, mental poker,
 
 [Visit](https://zkbtc.org/)
 
+### ZcashToCash
+A service that makes it easier to convert Zcash to fiat through peer-to-peer payment rails.  
+[Visit](https://zcashto.cash)
 
 ---
 
@@ -317,3 +339,19 @@ Independent, donation-funded Zcash support organization based in Switzerland. Th
 ### Cypherpunk
 Company dedicated to privacy, self-sovereignty, and cypherpunk values. Builds tools for individuals who need to protect their digital lives.  
 [Visit](https://cypherpunk.com/)
+
+### ZecBuy
+A platform for buying and spending Zcash, making ZEC accessible for everyday purchases and real-world use.  
+[Visit](https://zecbuy.com)
+
+### 0xRamp Labs
+Infrastructure and tooling lab building on-ramp and off-ramp solutions for the Zcash ecosystem.  
+[Visit](https://0xramp.app)
+
+### Zcash Labs
+Research and development organization contributing to Zcash protocol advancement and ecosystem growth.  
+[Visit](https://zcashlabs.org)
+
+### Zero Indexer
+A privacy-preserving light-client indexer framework by Shielded Labs that routes shielded transactions through attested enclaves to obscure user IP metadata.  
+[Visit](https://shieldedlabs.net/zero/)
