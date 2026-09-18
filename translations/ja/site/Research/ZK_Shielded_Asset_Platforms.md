@@ -48,7 +48,7 @@ Firn を利用するには、プロトコルに ETH を入金します。Firn �
 ***
 
 
- **[FairySwap](https://fairyswap.finance/swap)**: Fairyswap は、パーミッションレスかつ分散型であることに取り組む、次世代のコミュニティ主導型プライバシー DEX のレイヤー1です。Findora に組み込まれたゼロ知識証明技術を活用することで、FairySwap のようなプライバシー DEX や Dapps は、公開ブロックチェーン上でどの情報を可視化し、どの情報をシールドしたいかをユーザー自身が選べるようにします。見えないようにしたい情報も、詳細を明かすことなくゼロ知識証明で公開検証できます - **資産スワップ**: はい - [ホワイトペーパー](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap ロゴ](/content-images/_unavailable.svg)
+**[FairySwap](https://fairyswap.finance/)**: Fairyswap は、パーミッションレスかつ分散型であることに取り組む、次世代のコミュニティ主導型プライバシー DEX のレイヤー1です。Findora に組み込まれたゼロ知識証明技術を活用することで、FairySwap のようなプライバシー DEX や Dapps は、公開ブロックチェーン上でどの情報を可視化し、どの情報をシールドしたいかをユーザー自身が選べるようにします。見えないようにしたい情報も、詳細を明かすことなくゼロ知識証明で公開検証できます - **資産スワップ**: はい - [ホワイトペーパー](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKSync](https://zksync.io/)**: zkSync は Ethereum 上のレイヤー2スケーリングソリューションであり、安全性を損なうことなく低ガス代と高速トランザクションを提供します。ユーザーはいつでも資産をレイヤー1へ引き出すことができます。zkSync エコシステム全体にアクセスし、安価で即時のトランザクションの恩恵を受けるには、まず [Argent のようなウォレット](https://argent.link/zksync) が必要です。ウォレットがなければ、Coinbase や Binance のような取引所経由では zkSync にアクセスできないため、ネットワークに参加することはできません。ウォレットは、暗号資産の購入、売却、保管を簡単にし、DeFi、NFT などの刺激的な世界を体験するための手軽な手段を提供します - **資産スワップ**: はい - [ホワイトペーパー](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
@@ -85,7 +85,7 @@ Firn を利用するには、プロトコルに ETH を入金します。Firn �
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi は、ゼロ知識、マルチパーティ計算、準同型暗号に基づく匿名 L1 です。匿名 Proof-of-Stake により、バリデーターは隠されます。DarkFi は匿名アプリを作成・実行するための反脆弱な環境を提供します - **資産スワップ**: はい - [ホワイトペーパー](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi は、ゼロ知識、マルチパーティ計算、準同型暗号に基づく匿名 L1 です。匿名 Proof-of-Stake により、バリデーターは隠されます。DarkFi は匿名アプリを作成・実行するための反脆弱な環境を提供します - **資産スワップ**: はい - [ホワイトペーパー](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

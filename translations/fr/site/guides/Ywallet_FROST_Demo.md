@@ -16,7 +16,7 @@
 
 ## Compiler les binaires FROST
 
-[Lien Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Lien Github](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Utilisez le dépôt ci-dessus et suivez les instructions de compilation : 
 

@@ -16,7 +16,7 @@
 
 ## FROST-Bins kompilieren
 
-[Github-Link](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Github-Link](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Verwende das obige Repository und folge den Anweisungen zum Kompilieren: 
 

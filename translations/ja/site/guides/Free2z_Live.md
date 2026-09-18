@@ -185,9 +185,9 @@ Free2z Liveは多機能で強力です。次のセクションでは、その機
 
 [Free2z](https://free2z.cash/)  
 [Free2zドキュメント](https://free2z.cash/docs/)  
-[2Z概要](https://free2z.cash/docs/2Zs/)  
-[プロフィールの作成](https://free2z.cash/docs/creators/creating-a-profile)  
-[Free2z Liveとは？](https://free2z.cash/docs/creators/free2z-live)  
+[2Z概要](https://free2z.cash/docs/getting-started/tuzis)  
+[プロフィールの作成](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[Free2z Liveとは？](https://free2z.cash/docs/for-creators/free2z-live)  
 [サポーター向けFree2z](https://free2z.cash/docs/category/for-supporters)
 
 ---

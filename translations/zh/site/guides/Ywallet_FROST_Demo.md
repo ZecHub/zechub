@@ -16,7 +16,7 @@
 
 ## 编译 FROST 二进制文件
 
-[Github 链接](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Github 链接](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 使用上述仓库并按照编译说明操作： 
 

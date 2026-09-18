@@ -16,7 +16,7 @@
 
 ## FROST 바이너리 컴파일
 
-[Github 링크](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Github 링크](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 위 저장소를 사용하고 컴파일 안내를 따르세요: 
 

@@ -16,7 +16,7 @@
 
 ## Compilar os executáveis FROST
 
-[Link do Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Link do GitHub](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Use o repositório acima e siga as instruções de compilação: 
 
