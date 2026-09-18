@@ -19259,6 +19259,14 @@
       "mode": "seed",
       "tool": "instinct-agent+independent-qa",
       "edited": false
+    },
+    "Zcash_Tech/Z3_Stack.md": {
+      "src": "sha256:97203c28b839f286721749d6ecb546f78eba88a8ff3b5f0238ee835191021de8",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "llm",
+      "mode": "seed",
+      "tool": "instinct-agent+independent-qa",
+      "edited": false
     }
   },
   "pt": {
