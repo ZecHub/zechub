@@ -245,7 +245,7 @@
 - Sistema Operativo:
 - Suporte de carteira: Hardware
 - Pools: Transparente
-- Funcionalidades: Multi Moeda
+- Funcionalidades: Várias Moedas
 
 ---
 

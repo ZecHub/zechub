@@ -81,7 +81,7 @@ Zakura, 2026 ortasında Zcash ana ağında etkinleştirilen Ironwood ağ yüksel
 | Senkronizasyon hızı | Temel seviye | ~1× | ~5× daha hızlı |
 | Blok budama | Hayır | Hayır | Evet |
 | zcashd RPC uyumluluğu | Yerel | Kısmi | Evet (uyumluluk modu) |
-| Snapshot ile önyükleme | Hayır | Hayır | Evet (<2 dk) |
+| Snapshot ile önyükleme | Hayır | Hayır | Evet (2 dakikadan az) |
 | Deneysel P2P | Hayır | Hayır | Evet (isteğe bağlı) |
 
 ---
