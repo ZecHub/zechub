@@ -1,111 +1,138 @@
 # Questions fréquemment posées
 
-Une liste des questions les plus courantes sur Zcash. Pour le dépannage du client Zcash, veuillez consulter le [guide officiel de dépannage](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+Une liste des questions les plus courantes sur Zcash. Pour résoudre les problèmes avec le client Zcash, veuillez consulter le [guide officiel de dépannage](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
 ### Navigation rapide
-[Qu’est-ce que Zcash ?](#what-is-zcash) | [Comment acquérir Zcash ?](#how-can-i-acquire-zcash) | [Différence avec les autres cryptomonnaies ?](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [Gouvernance du protocole ?](#how-is-the-zcash-protocol-governed) | [Où est ma transaction ?](#where-is-my-transaction) | [Zcash est-il vraiment privé ?](#is-zcash-really-private) | [Idées reçues courantes](#a-few-common-misconceptions)
+
+<div className="flex flex-wrap gap-2 my-4">
+  <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Qu'est-ce que Zcash ?</a>
+  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Comment puis-je acquérir Zcash ?</a>
+  <a href="#what-is-the-difference-between-zcash-and-other-cryptocurrencies" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Différence avec les autres cryptomonnaies ?</a>
+  <a href="#how-is-the-zcash-protocol-governed" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Gouvernance du protocole ?</a>
+  <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Où est ma transaction ?</a>
+  <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Zcash est-il vraiment privé ?</a>
+  <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Idées reçues courantes</a>
+</div>
 
 ---
 
-## Qu’est-ce que Zcash ?
+## Qu'est-ce que Zcash ?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash est une monnaie numérique avec des transactions rapides, confidentielles et peu coûteuses. La confidentialité est la caractéristique centrale de Zcash. Il a été pionnier dans l’utilisation des preuves à divulgation nulle de connaissance pour chiffrer toutes les transactions.  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Plusieurs portefeuilles sont disponibles pour des paiements instantanés, mobiles, sécurisés et privés : [Portefeuilles mobiles](https://z.cash/wallets/)
+Zcash est une monnaie numérique offrant des transactions rapides, confidentielles et peu coûteuses. La confidentialité est la fonctionnalité centrale de Zcash. Il a été le pionnier de l'utilisation des preuves à divulgation nulle de connaissance pour chiffrer toutes les transactions.
+
+Plusieurs wallets sont disponibles pour des paiements instantanés, mobiles, sûrs et privés : [Wallets](/using-zcash/wallets)
+
 </div>
 
 ## Comment puis-je acquérir Zcash ?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Vous pouvez acheter des ZEC sur des [plateformes d’échange](https://z.cash/exchanges) de cryptomonnaies.  
-Vous pouvez également acheter Zcash de pair à pair ou en acquérir par le minage.
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+Vous pouvez acheter ZEC sur des [plateformes d'échange custodiales](/using-zcash/custodial-exchanges), des [DEX](/dex) ou des [plateformes de swap centralisées](/using-zcash/centralizedswaps).
+
+Vous pouvez également acheter Zcash de pair à pair ou l'acquérir par le minage.
+
 </div>
 
 ## Quelle est la différence entre Zcash et les autres cryptomonnaies ?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash est fondamentalement plus privé que Bitcoin ou Ethereum. Il offre des temps de bloc rapides (75 secondes), des frais bas et des mises à niveau régulières.  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Les utilisateurs peuvent choisir entre des transactions **transparentes** ou **protégées**. Pour plus d’informations, voir [Un écosystème protégé](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html).
+Zcash est fondamentalement plus privé que Bitcoin ou Ethereum. Il offre des temps de bloc rapides (75 secondes), des frais faibles et des mises à niveau régulières.
+
+Les utilisateurs peuvent choisir entre des transactions **Transparentes** ou **Shielded**. Pour plus d'informations, consultez [Un écosystème Shielded](https://electriccoin.co/blog/shielded-ecosystem).
+
 </div>
 
 ## Comment le protocole Zcash est-il gouverné ?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Le protocole est gouverné par le processus **Zcash Improvement Proposal (ZIP)**. N’importe qui peut soumettre un brouillon de ZIP. Les brouillons sont débattus par la communauté et acceptés ou rejetés par les éditeurs ZIP :
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-- [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)  
+Le protocole est gouverné par le processus de **proposition d'amélioration de Zcash (ZIP)**. Toute personne peut soumettre un projet de ZIP. Les projets sont débattus par la communauté, puis acceptés ou rejetés par les éditeurs de ZIP :
+
+- [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)
 - [Deirdre Connolly](https://twitter.com/durumcrustulum) (Zcash Foundation)
 
-Les décisions sont inscrites dans la spécification et ratifiées on-chain lorsque le réseau les adopte.
+Les décisions sont intégrées à la spécification et ratifiées on-chain lorsque le réseau les adopte.
+
 </div>
 
 ## Où est ma transaction ?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Lisez d’abord [notre guide des explorateurs de blocs](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629). Ensuite, consultez [Zcash Block Explorer](https://zcashblockexplorer.com).  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Les transactions expirent après environ 25 minutes (20 blocs) et les fonds sont automatiquement renvoyés.  
+Lisez d'abord [notre guide des explorateurs de blocs](/guides/blockchain-explorers). Consultez ensuite l'explorateur de blocs [Zcash](https://zcashblockexplorer.com).
 
-**Raisons fréquentes pour lesquelles une transaction peut ne pas apparaître :**
-- Perte de connectivité
-- Frais de transaction trop bas
+Les transactions expirent après environ 25 minutes (20 blocs) et les fonds sont automatiquement retournés.
+
+**Raisons courantes pour lesquelles une transaction peut ne pas apparaître :**
+
+- Perte de connexion
+- Frais de transaction trop faibles
 - Surcharge du réseau
-- Trop d’entrées transparentes (taille trop importante)
+- Trop d'entrées transparentes (taille trop importante)
 
 **Conseils pour réussir :**
+
 - Utilisez une connexion stable
-- Payez les frais standard (ou plus élevés pour la priorité)
+- Payez les frais standard (ou davantage pour la priorité)
 - Attendez et réessayez plus tard
-- Utilisez moins d’entrées pour garder la transaction petite
+- Utilisez moins d'entrées afin de conserver une transaction de petite taille
+
 </div>
 
 ## Zcash est-il vraiment privé ?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-**Oui.** Zcash chiffre les données de l’expéditeur, du montant et du destinataire pour les transactions protégées.  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash ne **fait pas** :
-- Chiffrer les transactions multisignatures (intégration FROST en attente)
-- Protéger contre les corrélations avec les transactions transparentes
-- Masquer les adresses IP
+**Oui.** Zcash chiffre les données de l'expéditeur, du montant et du destinataire pour les transactions shielded.
 
-Pour aller plus loin : [Un écosystème protégé](https://electriccoin.co/blog/shielded-ecosystem)
+Zcash ne :
+
+- Chiffre **pas** les transactions multisignatures (intégration de FROST en attente)
+- Protège pas contre les corrélations avec les transactions transparentes
+- Masque pas les adresses IP
+
+Pour aller plus loin : [Un écosystème Shielded](https://electriccoin.co/blog/shielded-ecosystem)
+
 </div>
 
 ## Quelques idées reçues courantes
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Idée reçue</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Bonne réponse</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash est-il une monnaie centralisée ?</td>
-        <td className="py-5 px-6 text-foreground">Non. Un accord de marque empêche la Zcash Foundation ou ECC d’agir contre le consensus de la communauté. Il est prouvé que la gouvernance est décentralisée (voir le [rapport Messari](https://messari.io/report/decentralizing-zcash)). Les sondages communautaires, ZecHub et le club A/V de la Zcash Foundation permettent tous une large participation.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash a-t-il une porte dérobée ?</td>
-        <td className="py-5 px-6 text-foreground">Non. Ni Zcash ni aucun logiciel cryptographique que nous avons développé ne contient de porte dérobée, et n’en contiendra jamais.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash est-il contrôlé par une entreprise ?</td>
-        <td className="py-5 px-6 text-foreground">Incorrect. Bien que nous collaborions avec des entreprises pour la recherche, Zcash reste engagé en faveur de la décentralisation. Plusieurs organisations autonomes travaillent ensemble pour l’auto-garde et le droit à la vie privée.</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash offre une confidentialité limitée par rapport aux autres privacy coins</td>
-        <td className="py-5 px-6 text-foreground">Non. La confidentialité de type Monero/Grin repose sur des leurres (qui peuvent être déjoués). Zcash chiffre toutes les données des transactions protégées afin que chaque transaction du pool soit indiscernable. Voir [Pas assez privé ?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
-      </tr>
-    </tbody>
-  </table>
+<div className="rounded-2xl border border-border bg-card p-5 my-4 overflow-x-auto">
+
+<table className="w-full border-collapse">
+  <thead>
+    <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Idée reçue</th>
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Réponse correcte</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcash est-il une monnaie centralisée ?</td>
+      <td className="py-4 px-5 text-foreground">Non. Un accord de marque empêche la Zcash Foundation ou ECC d'agir contre le consensus de la communauté. La gouvernance est décentralisée de manière avérée (voir le [rapport Messari](https://messari.io/report/decentralizing-zcash)). Les sondages communautaires, ZecHub et le A/V Club de Zcash Foundation permettent tous une large participation.</td>
+    </tr>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcash possède-t-il une porte dérobée ?</td>
+      <td className="py-4 px-5 text-foreground">Non. Ni Zcash ni aucun logiciel cryptographique que nous avons développé ne contient de porte dérobée, et n'en contiendra jamais.</td>
+    </tr>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcash est-il contrôlé par une entreprise ?</td>
+      <td className="py-4 px-5 text-foreground">Incorrect. Bien que nous collaborions avec des entreprises pour la recherche, Zcash reste engagé en faveur de la décentralisation. Plusieurs organisations autonomes travaillent ensemble en faveur de l'autodétention et du droit à la confidentialité.</td>
+    </tr>
+    <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcash dispose d'une confidentialité limitée par rapport à d'autres monnaies axées sur la confidentialité</td>
+      <td className="py-4 px-5 text-foreground">Non. La confidentialité de type Monero/Grin repose sur des leurres (qui peuvent être déjoués). Zcash chiffre toutes les données des transactions shielded afin que chaque transaction du pool soit indiscernable. Voir [Pas assez privé ?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 
 ---
 
-**Dernière mise à jour :** mars 2026  
+**Dernière mise à jour :** mars 2026
 **Vous souhaitez contribuer ?** [Modifier cette page sur GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

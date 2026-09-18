@@ -81,7 +81,7 @@ Hali. Imefutwa Active. Active (v1.0.0, Julai 2026)
 Kasi ya usawazishaji. Kiwango cha msingi ni ~1x~5x haraka zaidi.
 Kuondoa vipande vya miti. Hapana, hapana. Ndiyo.
 zcashd RPC compat. Native. Sehemu ya. Ndiyo (mode compact).
- Kuanza kwa picha ya papo hapo No.No.Yes (<2 min)
+ Kuanza kwa picha ya papo hapo. No.No. Yes (chini ya dakika 2)
 Majaribio ya P2P. Hapana. Hapana, ndiyo (kuchagua).
 
 ---

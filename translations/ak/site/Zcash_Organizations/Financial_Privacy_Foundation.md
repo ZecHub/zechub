@@ -1,42 +1,42 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Financial Privacy Foundation.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Financial_Privacy_Foundation.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Sikasɛm mu Nsɛm a Wɔde Siesie Nsɛm Ho Fapem (FPF) .
+# Sika ho ahobammɔ fapem (FPF)
 ![FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
-## Ɛfa FPF ho
-Sikasɛm mu Kokoamsɛm Fapem (FPF) yɛ ahyehyɛde a ɛnyɛ nea wɔhwehwɛ mfaso a wɔde ahyɛ Cayman Nsupɔw so. FPFs botaeɛ titire ne sɛ wɔbɛkyerɛkyerɛ na wɔama ankorankoro ne mpɔtam hɔfoɔ tumi ma wɔadi wɔn sikasɛm mu kokoamsɛm ne ahobanbɔ so. FPF nso asi ne bo sɛ ɛbɛhyɛ sikasɛm nhyehyɛe a ɛfata na ɛyɛ pɛ a ɛkyerɛ obu ma ankorankoro kokoam nsɛm ho nkuran. FPFs dwumadie titire a ɛfa sikasɛm mu kokoamsɛm ho ne sɛ ɛbɛma ankorankoro ne mpɔtam hɔfoɔ nsɛm, nneɛma ne mmoa a wɔde bɛbɔ wɔn sikasɛm mu kokoamsɛm ho ban na wɔayɛ no yie. Mprempren Sikasɛm mu Nsɛm a Wɔde Sie (FPF) reyɛ mmoa nhyehyɛe bi a wɔato din FPF X FPF.
+## FPF ho nsɛm
+Financial Privacy Foundation (FPF) yɛ ahyehyɛde a wɔnni mfasoɔ, na ɛwɔ Cayman Islands. N'abɔdeɛ titiriw ne sɛ ɛbɛkyerɛkyerɛ nnipa no ma wɔadi sika ho nsɛm so yie. FPF nso hyɛ bɔ sɛ wɔbɛma sikasɛm mu nhyehyɛe ayɛ papa ama obiara anya bi de abɔ ɔno ankasa din. Nea edi kan koraa a ɔde n'ani si honam fam nneɛma so ara ne sɛ ɔbɛboa nkurɔfoɔ nyinaa sɛnea ɛbɛyɛ a wobenya nimdeɛ pii afa wɔn kokoam asetena ho.
 
-##  Nsɛm a ɛfa FPF X FPF ho
+##  FPF ho nkyerԑkyerԑmu X FPF
 
- FPF X FPF fa FPFs mmoa nhyehyeɛ a ɛdi kan a wɔde sɔ hwɛ, Sikasɛm mu Kokoamsɛm Fotoɔ (FPF x FPF) ho. Dwumadie no bɛma sika de ayɛ mfiridwuma ho adwuma wɔ Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no mu a ɛreyɛ awie, anaa nnwuma a ɛbɛboa ama abɔdeɛ a nkwa wom no ntɛm ara na wɔbɛtumi awie wɔ berɛ ne sikasɛm anohyetoɔ a wɔakyerɛ no mu. FPF X FPF de sika kakraa bi na ɛrefi ase de asiesie mmoa a wɔde ma ho nhyehyɛe no na wɔwɔ anidaso sɛ wobefi ase daakye rounds. 
+ FPF X FPF yɛ sika a wɔde ma no ho nhwehwɛmu, Financial Privacy Fund (FPF x FPF). Saa nhyehyɛe yi bɛboa mfiriyɛ nnwuma wɔ Zcash mu na ɛrebɛwie anaa dwumadie bi a ɛbɛ boa ama ecosystem ntɛm ara. Wɔhyɛ da de ntoboase ne bere ano hyeɛ ato hɔ sɛ wɔbɛtumi awie saa adwuma yi nyinaa. 
 
 
-## [FPF x ZecHub Bounty Dwumadie - Blog Nsɛm a Wɔakyerɛw](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
+## [FPF x ZecHub Bounty Program - Nkrataa a wɔtwerɛe wɔ wɔn wɛbsaet no mu.](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
 
-## FPF X FPF Dwumadie no ho nsɛm 
+## FPF X FPF Program ho nsɛm nyinaa. 
 
-FPF X FPF Dwumadie no ho nsɛm FPF wɔ nsɛm pii wɔ ne dwumadie no mu a ɛne:
+FPF X FPF Program Details: FPF wɔ nneɛma pii a ɛwɔ ne program mu, ɛne sɛ:
 
-- Sikakorabea Sika: Ɛkɔsi $50,000 USD
-- Adesrɛ a ɛsen biara: $25,000 USD
-- KYC Ahwehwɛde: Biara nni hɔ
-- Dwumadie no su: Mfiridwuma dwumadie a ɛbɛtumi aboa Zcash abɔdeɛ a nkwa wom tẽẽ na wɔbɛtumi awie koraa nko ara na wɔbɛsusu ho.
-- Katua: Bere a wɔawie adwuma no yiye no
-- Da a Wɔde Befi Ase: March 18, 2024
+- Sika a wɔtɔ no: Ɛde kɔ dɔla 50,000 USD so.
+- Ɔpԑnso Ahwehwɛde: $25,000 USD.
+- KYC ahwehwɛde: Nnye.
+- Adwuma no: Nhomanim nnwuma a ebetumi aboa Zcash mu tẽẽ na wobetumi awie nyinaa nkutoo na wɔbɛfa ho.
+- Akatua: Sɛ wowie adwuma no yie a, wobɛtumi atua ka no.
+- Ɔpɛnimaa 18, 2024 no na wɔfii ase.
 
-## Grant Akwammisa Nhyehyɛe 
+## Nkrataa a wɔde to gua de hwehwɛ mmoa 
 
-FPF X FPF mmoa akwammisa nhyehyɛe no ka akwan horow pii ho. Nea edi kan no, ɛsɛ sɛ wɔn a wɔrehwehwɛ mmoa no nam kratasin a ahobammɔ wom a wɔde ama no so bisa mmoa no. Afei, FPF bɛhwɛ akwammisa krataa no mu ahwɛ sɛ ɛfata, na wɔbɛbɔ akwammisafoɔ no amanneɛ wɔ wɔn tebea ho wɔ kalenda nnafua 5 akyi wɔ akwammisa no da a ɛtwa toɔ no akyi. Afei, adhoc nhwehwɛmu boayikuo bi bɛhwɛ na wɔasi gyinaeɛ wɔ mmoa a wɔde bɛma no ho wɔ kalenda nnafua aduonu akyi wɔ da a ɛtwa toɔ a wɔde bɛma no akyi. Wɔbɛtintim mmoa a wɔde ama no ho nsɛm wɔ FPF wɛbsaet no so ama ayɛ nea ɛda adi pefee na wɔabu akontaa.
+The FPF X FPF grant application process includes several processes. First, applicants must apply for the grant through the secure form provided. Then, FPF will review the application for eligibility, and applicants will be notified of their status within 5 calendar days after the application deadline. Next, an adhoc review committee will review and decide on the grant award within 20 calendar days after the submission deadline. Details of the grants awarded will be published on the FPF website for transparency and accountability.
 
-## Nsɛm pii fa FPF X FPF ho 
+## Nkrataa pii a ɛfa FPF X FPF ho. 
 
-Wobetumi ahunu FPF X FPF ho nsɛm pii wɔ Sikasɛm mu Kokoamsɛm Anigyeɛ (FPF) wɛbsaet [ha](https://www.financialprivacyfoundation.org/grants) na sɛ woda so ara pɛ sɛ wuhu FPF X FPF nhyehyɛe no a, wubetumi akɔ FAQs krataa no so wɔ ha: [FAQs](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
+Wubetumi ahu nsɛm pii afa FPF X FPF ho wɔ Financial Privacy Fun (FPF) wɛbsaet hɔ. [ha yi ara](https://www.financialprivacyfoundation.org/grants) Sɛ w'ani da so ara gye ho sɛ wobɛte FPF X FPF program no ase a, wobɛtumi akɔhwɛ FAQs document wɔ ha: [Ntaaho nsɛm a wɔbisa no pii](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Sɛ w’ani gye ho sɛ wobɛyɛ Volunteer Reviewer ama FPF X FPF nhyehyɛe no fã yi a, yɛsrɛ wo kɔ eyi [link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Sɛ wopɛ nsɛmmisa foforɔ a ɛfa FPF X FPF Grant Program ho a, wobɛtumi abisa tẽẽ denam email [FPF](info@financialprivacyfoundation.org).
+If you are interested in becoming a Volunteer Reviewer for this round of the FPF X FPF program, please visit this [nkitahodi](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Sɛ wopɛ nsɛmmisa foforɔ a ɛfa FPF X FPF Grant Program ho a, wobɛtumi abisa tẽẽ denam e-mail so. [FPF (Federal) nkyeresoɔ](info@financialprivacyfoundation.org).
 
-## Akadeɛ 
-[Sikasɛm Ho Nsɛm a Wɔde Siesie Nsɛm Ho Foto](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
+## Nneɛma a wɔde bɔ afɔre 
+[Sika ho ahofadi boayikuw no](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
 
 

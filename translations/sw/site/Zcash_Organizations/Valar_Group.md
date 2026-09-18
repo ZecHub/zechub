@@ -6,7 +6,7 @@
 
 [Tembelea tovuti ya mtandao wa EU](https://valargroup.dev/)
 
-<<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
+<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
 
 
 ## Taarifa ya Ujumbe
@@ -61,7 +61,7 @@ Lengo ni kuchukua nafasi ya awali ishara-mmiliki mchakato wa kupiga kura na reus
 
 Valar Group collaborates with Project Tachyon on Zakura, a Zcash full node built from the Zebra codebase. Zakura is positioned as a high-performance node for operators who need faster initial sync, pruning, snapshot bootstrapping, and a compatibility path for former `zcashd` watumiaji.
 
-Kazi ya kupanua kuhusiana ni pamoja na:
+Kazi ya kuongeza ukubwa kuhusiana ni pamoja na:
 
 - Haraka zaidi lengo block nyakati, ikiwa ni pamoja na 25-sekunde block majaribio juu ya NU7 testnets.
 - Kuboreshwa peer-to-peer kuzuia kuenea.
@@ -94,7 +94,7 @@ Mali muhimu ni pamoja na:
 - Kura kugawanywa na kuchelewa kuwasilisha relay kupunguza uwiano wa muda.
 - Taarifa za umma auditable.
 
-Mnamo Agosti 2026, Valar Group na Mradi Tachyon walitumia stack hii kwa kura ya mmiliki wa sarafu NU7. Haki inahitajika ZEC iliyohifadhiwa katika Ironwood kwenye urefu kuu 3,459,350. Kura iliendelea kutoka 25 August hadi 14 Septemba, 2026, na kizingiti cha ushiriki 1,000,000 ZEC kwa matokeo kutibiwa kama mwakilishi. Maswali yalifunika NSM kutolewa laini, wakati wa kutoa tena, Sprout / v4 kupunguzwa thamani, nyakati za kuzuia sekunde 25, na upeo/utayari wa NU7 .
+Mnamo Agosti 2026, Valar Group na Mradi Tachyon walitumia stack hii kwa kura ya mmiliki wa sarafu NU7. Uhitimu unahitajika ZEC iliyohifadhiwa katika Ironwood kwenye urefu kuu 3,459,350. Kura iliendelea kutoka 25 August hadi 14 Septemba, 2026, na kizingiti cha ushiriki 1,000,000 ZEC kwa matokeo kutibiwa kama mwakilishi. Maswali yalifunika NSM kutolewa laini, wakati wa kutoa tena, Sprout / v4 kupunguzwa thamani, nyakati za kuzuia sekunde 25, na upeo/utayari wa NU7 .
 
 Default-chain coordination uses a 2-of-5 multisig among Project Tachyon, Valar Group, the Zcash Foundation, ZODL, and Shielded Labs. A separate validator set holds per-round decryption-key shares. No single validator can recover individual votes; a threshold of validators is required to produce the final tally.
 
@@ -140,7 +140,7 @@ Makala ya kwanza. `valargroup` Shirika la GitHub linachapisha kura na node stack
 
 Valar Group inaongozwa na ** Dev Ojha** (ValarDragon). Kurasa za timu ya umma zinazohusiana na Zakura zinaorodhesha wahandisi wafuatayo waliounganishwa na Valar:
 
-- ** Dev Ojha**  Mdhibiti; anaongoza Valar Group. Sehemu za kuzingatia ni pamoja na kupiga kura kwa wamiliki wa ishara, kazi ya baada ya quantum, Zakura, na PIR.
+- ** Dev Ojha**  Mdhibiti; anaongoza Valar Group. Sehemu za kuzingatia ni pamoja na kura ya wamiliki wa ishara, kazi baada ya quantum, Zakura, na PIR.
 - ** Roman Akhtariev**  Mhandisi mkuu. Kabla ya mhandisi kuu katika Osmosis; kazi ni pamoja na PIR mfuko wa fedha kulandanisha, ishara-mmiliki kupiga kura, na Zakura utendaji sync.
 - **Evan Forbes**  Mhandisi Mkuu. zamani Celestia makubaliano kuongoza na mwanzilishi mhandisi; kazi ni pamoja na haraka zaidi ya muda tayari block-na QUIC P2P stack.
 - ** Adam Tucker**  Mhandisi Mkuu. zamani Osmosis mhandisi; kazi ni pamoja na ishara-mmiliki kupiga kura kwa Roman Akhtariev, amana ya mfuko wa fedha, na ushirikiano Ironwood katika stack.

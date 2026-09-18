@@ -1,51 +1,30 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/contribute/Build_on_Zcash.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/contribute/Community_Infrastructure.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub Nutome Dɔwɔƒewo ƒe Dɔwɔɖoɖo
+# ZecHub Community Infrastructure Framework (Azɔdzikpɔkpɔ ƒe dɔwɔƒe si le nutoa me)
 
 
-### Nutoa me Dɔwɔƒewo ƒe Dɔwɔɖoɖowo 
+### Dukɔ Ƒoƒuawo ƒe Mɔ̃ɖaŋunuwo 
 
-Nodewo katã, lightwalletd instances kple infrastructure bubuwo le ablɔɖe me eye woli be woadzi developer ƒe mɔɖeɖe ɖe Zcash network ŋu ɖe edzi. Esia ɖe mɔ na ZecHub bounty ɖoɖoa be wòakpɔ nu na dɔwɔlawo le mɔnu bubu si le bɔbɔe wu & si le bɔbɔe wu ɖe dɔ ɖekaɖekawo teƒe le [Dework](https://dework.zechub.org). 
-
-
-## Mᴐbibia 
-
-- Tag @ZecHubDAOMember le #zechub mɔnu le Zcash Xexeame Katã ƒe Masɔmasɔ me be nàbia mɔɖeɖe. 
-
-- Míatsɔ wò akpe ɖe mɔnu aɖe si dzi nàte ŋu axɔ kpekpeɖeŋu le eye nàma nyatakaka yeyewo ŋu. 
-
-- https://discord.gg/zcash 
+ZecHub bounty program la le nu wɔm na dɔwɔlawo be woana ablɔɖe geɖe wu eye wòade ŋgɔ ɖoɖowo wɔwɔ ɖe dɔ siwo ame ɖekaɖekawo wɔna ŋu: [ZEC ƒe Nunanawo](https://bounties.zechub.wiki/). 
 
 
+## Mɔfiagbalẽ Siwo Ŋu Viɖe Le 
 
-## Mɔfiame Siwo Ŋu Viɖe Le 
+- [ZecHub Ŋgɔdonyala ƒe Mɔfiagbalẽvi](https://zechub.wiki/developers)
 
-- [Zcash Xlẽ agbalẽwo ƒe agbalẽwo](https://zcash.readthedocs.io/en/latest/)
+- [Zcash Xlẽ agbalẽawo xlx.](https://zcash.readthedocs.io/en/latest/)
 
-- [Zebra ƒe Agbalẽa](https://zebra.zfnd.org)
+- [Zebra-gbalẽa](https://zebra.zfnd.org)
 
-- [Akash Network ƒe Nuŋlɔɖiwo](https://akash.network/docs/)
+- [Akash Network Docs (Akasha Ƒoƒonu Ƒe Agbalẽwo)](https://akash.network/docs/)
 
-- [Zcashd ɖoɖo ɖe Akash Network dzi](https://zechub.wiki/guides/how-to-run-zcashd-on-akash-network)
+- [Zebrad ɖoɖo ɖe Akash Network dzi](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Woɖe Zcash Fexexe ƒe Biabiawo Me (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Woɖe Zcash Fetu Biabiawo me (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [ZIP-321 ƒe Nyatakakawo](https://zips.z.cash/zip-0321)
+- [ZIP-321 Ŋutetewo](https://zips.z.cash/zip-0321)
 
-Ne èhiã aɖaŋuɖoɖo deto tso Zcash dɔwɔlawo gbɔ la àteŋu awɔ nya aɖe le [Nutoa me Nyamedzroƒe](https://forum.zcashcommunity.com).
+Ne èdi aɖaŋuɖoɖo tso Zcash-dɔwɔlawo gbɔ la, àte ŋu aŋlɔe ɖe internet dzi. [Ƒuƒoƒowo ƒe Takpewɔƒe](https://forum.zcashcommunity.com).
 
-
-
-## Dɔwɔnawo 
-
-- Míetsɔ ɖe le nusiwo nèwɔna me! ZecHub ana bounties le 5-15 ZEC dome hena wò app yeyea ŋuti nuŋlɔɖiwo wɔwɔ. 
-
-- Susu aɖewo: 
-
-Video Player ƒe nyatakakadzraɖoƒe si woama kple URL ƒe nuŋɔŋlɔ si hiã ZEC ƒe fexexe.
-
-Relay Encrypted Memos le Zcashd Node kple Farcaster akɔnta dome.
-
-Shielded Exchange Service si ŋlɔa ZEC si woda ɖe nunɔamesiwo ta kple ŋuɖoɖo ƒe adrɛs, Hedged ƒeƒle le nunɔamesi bubu siwo wowɔ le Ethereum L2 dzi. 

@@ -81,7 +81,7 @@ Zakura ni ibamu patapata pẹlu igbesoke nẹtiwọọki Ironwood (NU6.3), ti a 
 Ìsọ̀rọ̀-ìṣàmúlò ìsopọ́. Àpilẹ̀kọ: ~1x~5x kíákíá jùlọ.
  Ìkórè ìdìpọ̀ No.No.Yes.
 | zcashd RPC compat | Native | Partial | Yes (compat mode) |
-ì ì í ê° ë§¤í ̧ë¡ No.No.Yes (<2min)
+ì í ì ¬í ë ¤. No.No.Yes (kìí ju 2ë¶)
 ìwòye P2P. Rárá o. Kò sí rárá (Opt-in) Bẹẹni, ó wà nínú ìtòlẹ́sẹẹsẹ náà.
 
 ---
@@ -99,7 +99,7 @@ Zakura ni ibamu patapata pẹlu igbesoke nẹtiwọọki Ironwood (NU6.3), ti a 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
 - [Zebra Ìkànnì Pípéye](Zebra_Full_Node.md)  ìsòkè Zcash full node Zakura ni a pín lati inu
-- [Àkọsílẹ̀ Zaino Indexer](Zaino.md)  ohun elo ti o ni itọka Rust-based to baamu pẹlu Zebra ati Zakura
+- [Àkọsílẹ̀ Zaino Indexer](Zaino.md)  ohun elo atójútó ti o da lori Rust to ni ibamu pẹlu Zebra ati Zakura
 - [Àwọn Ìkànnì Pípéye](Full_Nodes.md)  àtúnyẹ̀wò àwọn yíyàn ojú-ìpín Zcash
 - [Àwọn Ìkànnì Lightwallet Nodes](Lightwallet_Nodes.md)  àwọn àyípadà tí kò ní láárí fún oníbàárà rẹ̀
 
