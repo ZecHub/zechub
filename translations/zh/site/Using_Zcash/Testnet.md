@@ -40,7 +40,7 @@ Zcash 会定期升级其核心协议（例如 NU6.1, NU6.2 and Ironwood）。新
 
 #### 3. 测试节点实现
 
-Zcash 目前维护的节点是 **Zebra**(由 Zcash 基金会维护的基于 Rust 的节点),维护的钱包是 [Zallet](https://github.com/zcash/zallet)。最初的节点实现 `zcashd` 已于 2026 年 7 月 18 日到达自动停止支持期限,不再维护 - 请参阅 [zcashd 到 Zebra 和 Zallet 的迁移指南](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)。测试网可在无财务风险的真实条件下测试节点。
+Zcash 目前维护的节点是 **Zebra**(由 Zcash Foundation维护的基于 Rust 的节点),维护的钱包是 [Zallet](https://github.com/zcash/zallet)。最初的节点实现 `zcashd` 已于 2026 年 7 月 18 日到达自动停止支持期限,不再维护 - 请参阅 [zcashd 到 Zebra 和 Zallet 的迁移指南](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)。测试网可在无财务风险的真实条件下测试节点。
 
 节点开发者可以：
 

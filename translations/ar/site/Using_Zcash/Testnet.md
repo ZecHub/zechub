@@ -40,7 +40,7 @@
 
 #### 3. اختبار تطبيقات العقد
 
-العقدة المُصانة من Zcash هي **Zebra** (العقدة المبنية على Rust والتي تشرف عليها مؤسسة Zcash) والمحفظة المُصانة هي [Zallet](https://github.com/zcash/zallet). توقّفت `zcashd`، التطبيق الأصلي للعقدة، عن الدعم تلقائيًا في 18 يوليو 2026 ولم تعد تُصان - راجع [دليل الترحيل من zcashd إلى Zebra وZallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). تتيح شبكة الاختبار اختبار العُقد في ظروف حقيقية دون مخاطر مالية.
+العقدة المُصانة من Zcash هي **Zebra** (العقدة المبنية على Rust والتي تشرف عليها Zcash Foundation) والمحفظة المُصانة هي [Zallet](https://github.com/zcash/zallet). توقّفت `zcashd`، التطبيق الأصلي للعقدة، عن الدعم تلقائيًا في 18 يوليو 2026 ولم تعد تُصان - راجع [دليل الترحيل من zcashd إلى Zebra وZallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). تتيح شبكة الاختبار اختبار العُقد في ظروف حقيقية دون مخاطر مالية.
 
 يمكن لمطوري العقد القيام بما يلي:
 
