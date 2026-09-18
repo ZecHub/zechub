@@ -457,8 +457,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "gt",
       "mode": "seed",
       "tool": "gt-static+brand-restore",
@@ -2211,8 +2211,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -3965,8 +3965,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -5719,8 +5719,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "gt",
       "mode": "seed",
       "tool": "gt-static+brand-restore",
@@ -7473,8 +7473,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -9227,8 +9227,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -10981,8 +10981,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -12735,8 +12735,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "nllb",
       "mode": "seed",
       "tool": "nllb-200-3.3B+linkrepair+brand-restore",
@@ -14489,8 +14489,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -16243,8 +16243,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "qwen3-14b",
@@ -17997,8 +17997,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "qwen3-14b",
@@ -19751,8 +19751,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -21505,8 +21505,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -23259,8 +23259,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "nllb",
       "mode": "seed",
       "tool": "nllb-200-3.3B",
@@ -25013,8 +25013,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -26767,8 +26767,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
@@ -28521,8 +28521,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "nllb",
       "mode": "seed",
       "tool": "nllb-200-3.3B+linkrepair+brand-restore",
@@ -30275,8 +30275,8 @@
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
-      "src": "sha256:9bd0f16362b0233dc0ca68004b76eed508b675c559dc5180338227c4efa4600c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:97d800ea114fb931cf80b5513b17853bd62f1479f3b42d24f298a821034c18c7",
+      "src_commit": "84200e7667153e929b7ba8d87f087dedd3e6cd39",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",

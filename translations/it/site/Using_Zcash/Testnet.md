@@ -33,14 +33,14 @@ Lo sviluppatore di un portafoglio può collegare il software a un endpoint RPC d
 
 #### 2. Testare gli aggiornamenti della rete
 
-Zcash aggiorna periodicamente il suo protocollo principale (ad esempio Nu5, Nu6). La Testnet attiva i nuovi aggiornamenti **prima della Mainnet**, permettendo agli sviluppatori e alla comunità di identificare e risolvere i bug.
+Zcash aggiorna periodicamente il suo protocollo principale (ad esempio NU6.1, NU6.2 and Ironwood). La Testnet attiva i nuovi aggiornamenti **prima della Mainnet**, permettendo agli sviluppatori e alla comunità di identificare e risolvere i bug.
 
 **Esempio
 Una nuova regola di consenso o un nuovo tipo di transazione vengono prima inviati a Testnet. Dopo aver superato i test, viene attivata su Mainnet a un'altezza di blocco predeterminata.
 
 #### 3. Test delle implementazioni dei nodi
 
-Zcash supporta diverse implementazioni software dei nodi: `zcashd` e **Zebra** (nodo basato su Rust e gestito dalla Zcash Foundation). Testnet consente di testare i nodi in condizioni reali senza rischi finanziari.  
+Il nodo Zcash mantenuto è **Zebra** (il nodo basato su Rust mantenuto dalla Zcash Foundation) e il wallet mantenuto è [Zallet](https://github.com/zcash/zallet). `zcashd`, l'implementazione del nodo originale, ha raggiunto il suo arresto automatico di fine supporto il 18 luglio 2026 e non è più mantenuto - vedi la [guida alla migrazione da zcashd a Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Il testnet consente di testare i nodi in condizioni reali senza rischi finanziari.
 
 Gli sviluppatori di nodi possono:
 
