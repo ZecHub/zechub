@@ -1,6 +1,6 @@
 # Ywallet FROST ƒe wɔwɔfia
 
-> **Womegale Ywallet dzi kpɔm o.** Eƒe dɔwɔƒe ɖo kpe edzi be womawɔ yeyee na Ironwood (NU6.3), eyata megate ŋu zɔna ɖe kɔsɔkɔsɔa dzi o eye afɔɖeɖe siwo le ete la mateŋu awu enu le mainnet dzi o. Wodzra axa sia ɖo be woate ŋu akpɔe. Zkool, tso developer ma ke gbɔ, nye beléle na eteƒe eye wòdoa alɔ FROST multisig.
+> **Ywallet megale dzi kpɔm o.** Eƒe nufialaa ɖo kpe edzi be womagaɖɔe ɖe enu na Ironwood (NU6.3), eyata mate ŋu anɔ kɔsɔkɔsɔa yome azɔ, eye womate ŋu awɔ afɔɖeɖe siwo le ete la ade mainnet dzi o. Axa sia nye nyatakakawo ƒe akpa aɖe ko. Zkool si tso nuwo wɔla ɖeka gbɔ lae va xɔ nɔƒe gbãtɔ hexɔ FROST multisig-awo ta se.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -8,17 +8,17 @@
     src="https://www.youtube.com/embed/3IZgxDqQNbw"
     title="FROST + Ywallet Transaction Demo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen (Kpɔ̃ Kɔkɔ)
     loading="lazy"
   />
 </div>
 
 
-## Ƒo FROST bins nu ƒu
+## Wɔ FROST nudzraɖoƒewo ƒe kɔpi.
 
-[Github ƒe kadodo](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Github ƒe kadodoa](https://github.com/ZcashFoundation/frost-zcash-demo)
 
-Zã repo si le etame eye nàwɔ ɖe mɔfiame siwo ku ɖe nuƒoƒoƒu ŋu dzi: 
+Zã nuƒleƒe si le etame eye nàzɔ ɖe mɔfiame siwo ku ɖe wo me toto ŋu dzi: 
 
 ```bash
 cargo build --bin trusted-dealer
@@ -27,51 +27,51 @@ cargo build --bin coordinator
 cargo build --bin participants
 ```
 
-Bins anye the taɖodzinu ƒe agbalẽdzraɖoƒe.
+Bins anye nusi woadi be yewoada ɖe eme.
 
-## Wɔ FROST UA
+## Wɔ FROST UA la ɖo
 
 `./generateFROST_UA.sh`
 
 
 
-## Tsɔ UFVK va Ywallet me
+## Ɖo UFVK ɖe Ywallet me.
 
-Accounts -> Zi + dzi eye nàde ufvk tso afɔɖeɖe si le etame
+Accounts -> Click + and paste ufvk from step above (Kpɔtɔ nàzi afisia)
 
-## Wɔ asitsatsa kple Ywallet
+## Wɔ dɔdada kple Ywallet
 
-Kpe ɖe UA ɖesiaɖe me eye nàɖo tx ɖa. Dzra faɛl la ɖo.
+Tsɔ UA ɖe sia ɖe de eme eye nàɖo tx ɖa. Dzra nyatakaka la ɖo.
 
-## Dze FROST ƒe asidede agbalẽ te ƒe ɖoɖoa gɔme 
+## Dze FROST ƒe asiɖeɖe ɖe agbalẽ dzi gɔme. 
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-gbãtɔ si wotsɔ de emee nye afisi tx xoxoa le tso afɔɖeɖe si le etame
-evelia ƒe nyawo tsɔtsɔ de eme nye teƒe kple ŋkɔ na tx si wode asi si nèdi be yeaɖe gbeƒãe
-Esia nye akpa aɖe si nègblɔa asitsatsa si nèdi be amesiame nade asi na FROST
+gbãtɔ enye afisi tx si womekpɔ o la le tso afɔɖeɖe siwo dze ŋgɔ me.
+evelia nye afisi kple ŋkɔ si le tx siwo dzi nède asii la ƒe teƒe eye wòdi be yeaɖe wo ɖe go
+Esiae nye afisi nàgblɔ na FROST be ele be amesiame nawɔ nu ɖeka le nusianu me la ŋuti ɖoɖowo ŋu.
 
-## Dze egɔme ƒe Ðoɖowɔla
+## Dzɔdzɔmeŋusẽ Ŋuti Ðoɖowɔlaa
 
 `./runCoordinator.sh`
 
-Esia wɔa ɖoɖo ɖe gomekpɔla ɖesiaɖe ƒe asidede agbalẽ te ŋu eye wòwɔa ƒuƒoƒo ƒe asidede agbalẽ te
+Esia naa ame ɖesiaɖe ƒe asiɖeɖe ɖe nane ŋu wɔa ɖeka eye wònana wowɔa ƒuƒoƒo aɖe si me tɔwo katã le la.
 
-## Na Gomenɔla ɖesiaɖe nade asi asitsatsa sia te
+## Na Ŋutsu Ðe Sia Ðe Nade Asixɔxɔ Adzɔnuwɔna sia ŋu
 
 ```bash
 ./participantSign.sh key-package-1.json
 ./participantSign.sh key-package-2.json
 ```
 
-## Wu Asitsatsa si wode asi ete la nu
+## Wɔwɔ si dzi woda asi ɖo la nu wuwu
 
-Le ɖoɖowɔla ƒe fesre me la, kɔpi ƒuƒoƒo ƒe asidede agbalẽ te si woɖe ɖe go eye nàtsɔe ade FROST asidede fesrea me.
-Esia awu FROST ƒe asidede nu eye wòaɖe 'mysingedtx' ɖa.
+Le ɖoɖowɔɖaka me la, gbugbɔ axa ƒuƒoƒo ƒe asiɖeɖe si woɖe ɖa eye nàtsɔe ade FROST asitelefon dzi.
+Esia awɔe be FROST ƒe asiɖeɖe ɖe agbalẽ dzi kple eƒe dodo ayi "mysingedtx" me awu enu.
 
 
-## Gbe wò Asitsatsa kple Ywallet
+## Ɖo wò Nuƒle le Ywallet dzi la ɖe go
 
-Zi 'More' dzi le Ywallet ƒe ɖusime le ete eye nàdi 'Broadcast'. Di 'mysignedtx' eye nàzi ok dzi.
+Zi 'More' dzi le Ywallet ƒe anyiehe ɖusime eye nàdi 'Broadcast.' Di 'mysignedtx' ne àzi OK.
 
-Ne nusianu wɔ dɔ la, àxɔ asitsatsa ƒe ID :)
+Ne nuwo katã le edzi yim la, àkpɔ nuƒlegbalẽvi :)

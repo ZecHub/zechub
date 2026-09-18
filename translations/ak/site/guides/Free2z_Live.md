@@ -1,195 +1,195 @@
-[![Sesa Kratafa no](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Akontaabu nhyehyɛe + Livestream nkyerɛkyerɛ
+# Free2z: Account setup + Livestream tutorial - Abɔdin a wo de di dwuma wɔ abɛɛfo mfiri so no ho akwankyerɛ.
 
-## Nnianimu
+## Nkɔanim nsɛm
 
-Free2Z yɛ atenaeɛ a adebɔfoɔ ne wɔn a wɔboa no bɛtumi abɔ na wɔadu wɔn botaeɛ ho. Free2Z de nnwinnadeɛ ma adebɔfoɔ a wɔde bɛda wɔn talente adi na wɔaboaboa sika ano ama wɔn nnwuma a wɔrensɛe kokoamsɛm. Wɔn a wɔtaa akyi no betumi ahu nneɛma a wogye di na wɔaboa.
+Free2Z is a platform for creators and supporters to connect and achieve their goals. Free2Z provides tools for creators to showcase their talents and raise funds for their projects without compromising privacy. Supporters can find and support causes they believe in.
 
-## Yɛ wo akontaabu no
+## Yɛ wo account no bi
 
-Mprempren, akwan abien na ɛwɔ hɔ a wobɛfa so ayɛ wo akontaabu wɔ Free2Z so: 
-1. Paw edin a wode bedi dwuma ne wo password. 
-2. Fa wo Twitter akontaabu no bata ho. 
+Seesei, akwan mmienu na ɛwɔ hɔ a wobɛfa so abɔ wo account wɔ Free2Z: 
+1. Paw din a wode di dwuma ne wo password. 
+2. Fa wo Twitter account no bɔ ho nkɔmmɔ. 
 
-Sɛ wopɛ sɛ wobɔ akonta anaa wokɔ mu a, kɔ https://free2z.cash/ na klik ‘CREATE’ bɔtn no so.
+Sɛ wopɛ account anaa log in a, kɔ hɔ https://free2z.cash/ na mia 'CREATE' button no so.
 
-![Login/signup kratasin](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+![Login/signup form](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
-Login/signup form no bɛda adi wɔ wo browser no mu. Paw wo din a wode di dwuma ne wo asɛmfua a ɛyɛ den - eyi bɛyɛ wo login ho nsɛm. Siesie captcha no na klik 'Enter' button no so na yɛ wo akonta.
+The login/signup form will appear in your browser. Choose your username and a strong password - this will be your login information. Solve the captcha and click the 'Enter' button to create your account.
 
-![Username ne password a wɔde kyerɛw kratasin](/content-images/image-2023-11-19-133141052-0387984be1.webp)
+![Username and password entry form](/content-images/image-2023-11-19-133141052-0387984be1.webp)
 
-Sɛnea ɛbɛyɛ a, wubetumi ayɛ Free2Z akontaabu denam wo Twitter akontaabu a wode bɛka ho no so. Sɛ wobɛyɛ eyi a, klik Twitter ahyɛnsode a ɛwɔ ‘Login With’ nkyɛn no so, na wɔbɛka akyerɛ wo sɛ fa wo Twitter akontaabu no bata ho.
+Alternatively, you can create a Free2Z account by connecting your Twitter account. To do this, click on the Twitter logo next to 'Login With', and you will be asked to connect your Twitter account.
 
-![Twitter so a wobɛkɔ mu](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
+![Twitter login option](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
 
-Klik **Authorize app** na fa wo Twitter akontaabu no bata Free2Z ho.
+Klik **Authorize app** na fa wo Twitter account no kɔ Free2Z so.
 
-## Yɛ wo profile no sɛnea wopɛ
+## Yɛ wo profile no bi ma obiara ahu w'ankasa ho nsɛm a ɛfa wo ho.
 
-Sɛ wɔyɛ wo akonta wie a, wɔbɛdan wo akɔ wo Free2Z profile krataafa no so. Sɛ wo nam wo Twitter a wode bɛka ho so na ɛyɛɛ wo akonta a, ɛbɛhyɛ mfuw no mu dodow no ara ma ara kwa. Sɛ wode edin a wode di dwuma ne wo password a wode bɛhyɛ mu so na ɛyɛɛ akontaabu a, ɛsɛ sɛ wode wo ho nsɛm hyɛ ha. Wubetumi de edin hunu adi dwuma sen sɛ wode wo din ankasa bedi dwuma.
+After your account is created, you will be redirected to your Free2Z profile page. If you created your account by connecting your Twitter, most of the fields will be automatically filled. If you created an account by entering a username and password, you should input your information here. You can use a pseudonym instead of your real name.
 
-![Default profile ti a ɛda mpan](/content-images/default-header-a11eb8328f.webp)
+![Default empty profile header](/content-images/default-header-a11eb8328f.webp)
 
-Ɛyɛ mfonoe koraa mprempren, enti momma yɛmma ɛnyɛ anigye kɛse denam avatar ne banner a yɛde besi hɔ no so. Free2Z interface no ma saa anammɔn yi yɛ mmerɛw yiye denam upload button (upload a ɛwɔ nifa so) a wode bedi dwuma no so.
+Seesei de, ɛyɛ a na ɛreyɛ ayɛ sɛ deɛ yɛtwetwe adwene kɔ so no. Free2Z interface ma saa akwantuo yi mu da hɔ ntɛmntɛm denam upload button (ɛtoasoɔ wɔ nifa) no so.
 
-![Avatar ne banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
+![Avatar and banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
 
-Wubetumi ahu nea afi mu aba no wɔ kratafa no atifi.
+Wubetumi ahu nea efi mu bae no wɔ kratafa no atifi.
 
-![Profile krataafa no akyi a wɔayɛ no sɛnea wopɛ](/content-images/resultatpage-f4ddacb8b8.webp)
+![Profile page after customization](/content-images/resultatpage-f4ddacb8b8.webp)
 
-Ah, eye sen saa koraa! Sɛ wowɔ adwinni ho nimdeɛ bi a, wubetumi ama wo Free2Z profile krataafa no ayɛ nwonwa! Kyerɛw nkyerɛkyerɛmu fɛfɛ ma wo krataafa no. Wubetumi aka wo ho asɛm anaa woakyerɛkyerɛ nsɛm ko a afoforo betumi ahwɛ kwan afi wo hɔ no mu. (Afotu: Fa markdown syntax di dwuma na ama wo nkyerɛkyerɛmu no ayɛ nea wopɛ!)
+Ah, yie paa! Sɛ wowɔ mfoni ho nimdeɛ kakra a wobɛtumi ama wo Free2Z profile page no ayɛ fɛfɛɛfɛ. Twerɛ description pa ma w'afedie no. Wobɛtumi aka fa wo ho anaa wobɛkyerɛ nsɛm bi a afoforo bɛtumi ahwɛ kwan afi wo hɔ (nsuo: Fa markdown syntax yɛ nea wopɛ!)
 
-![Wɔresiesie nkyerɛkyerɛmu afuw no](/content-images/edit-description-b52afabec1.webp)
+![Editing the description field](/content-images/edit-description-b52afabec1.webp)
 
-Mma wo werɛ mmfi sɛ wode wo Zcash shielded address bɛma, sɛnea ɛbɛyɛ a akyigyinafo betumi de ntoboa ama wo tẽẽ!
+Mma wo werɛ mmfi sɛ wode w'ahɔdzen a wɔabɔ ho ban Zcash no bɛma, na ama akyitaafo atumi ayi ntoboa akyerɛ wo tẽẽ!
 
-![Zcash a wɔabɔ ho ban address field](/content-images/p2p-address-b89f035bd9.webp)
+![Zcash shielded address field](/content-images/p2p-address-b89f035bd9.webp)
 
-Anamɔn a etwa to a wobɛfa so awie wo krataafa nhyehyɛe no ne sɛ wobɛhyehyɛ 'Member Price'. Eyi ne bo a ɛwɔ 2Zs (Tuzies) mu a afoforo a wɔde di dwuma no betua de akyerɛw wɔn din wɔ wo krataafa no so! (Nsɛm pii fa 2Zs ho akyiri yi).
+Nea etwa to a wobɛyɛ de asiesie w'afedie no ne sɛ wobɛhyehyɛ 'Member Price'. Eyi yɛ sika 2Zs (Tuzies) a, wɔn aa wɔde di dwuma bɛtua wo afidie yi ho ka! (2Zs akyi).
 
-![Asɔremma bo a wɔahyehyɛ](/content-images/member-price-2dafd7e399.webp)
+![Member price setting](/content-images/member-price-2dafd7e399.webp)
 
-Awiei koraa no, klik ‘Update Profile’ button no so na wie wo profile nhyehyɛe no!
+Deɛ ɛdi akyire no, mia 'Update Profile' button na wie wo profile setup!
 
-## Nkrataa ne 2Zs
+## Subscriptions ne 2Zs no a wɔtɔ so mmienu
 
-Free2Z ma wɔn a wɔde di dwuma no kwan ma wɔkyerɛw wɔn din wɔ wɔn adebɔfo a wɔpɛ no so na wonya kwan kɔ nneɛma a ɛyɛ soronko ne nneɛma a asɔremma nkutoo na ɛwɔ mu. Ɛsɛ sɛ ɔbɔadeɛ no hyehyɛ 2Z dodow a ɛba fam koraa ma nkrataahyɛ. 
+Free2Z ma wɔn a wɔdi dwuma no kwan sɛ wɔbɛtwerɛ wɔn ho ama wɔn adwinnifoɔ na wɔanya hokwan akɔ dwumadie soronko bi mu. Ɔdehyeɛ no bɛtumi ayɛ 2Zs kakra de adi saa afahyɛ yi so. 
 
-2Zs anaa Tuzies yɛ in-app digital credits a wɔde di dwuma wɔ Free2Z mu ma atirimpɔw pii, a nea ɛka ho ne: 
-1. Sɛ́ wobɛkyerɛw wo din ama adebɔfo 
-2. Free2Z krataafa bi a wotumi hu no yiye 
-3. Ntoboa a wɔde ma adebɔfo 
+2Zs anaa Tuzies yɛ digital credits a wͻde di dwuma wɔ Free2Z mu ma atirimpͻ pii, ebi ne: 
+1. Ɔyɛ a yɛ bɛ ma wɔn abɔfoɔ no 
+2. Free2Z kratafa a w'atwe no adi yiye 
+3. Yɛde ntoboa ma wɔn a wɔyɛ sini no 
 
-Wubetumi ahu wo 2Zs credits wɔ wo profile page no ti so.
+Wubetumi ahu wo 2Zs nkrataa wɔ w'afedie kratafa no atifi.
 
-![2Zs / Tuzies kari pɛ wɔ ti](/content-images/tuzis-balance-9d6a9eff7f.webp)
+![2Zs / Tuzies balance in header](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
-Wubetumi de Zcash atɔ 2Z pii denam wo 2Zs balance a wobɛbɔ so. Sika a ɛba fam koraa a wɔde tɔ ne 0.05 ZEC, na mprempren nsakrae dodow yɛ 0.05 ZEC = 10 2Zs.
+Wobɛtumi atɔ 2Zs bebree wɔ Zcash so denam wo 2ZS no a wode bɛtɔso. Sika kakra a wobɛnya de tɔ adeɛ yɛ 0.05 ZEC, na ɛnnɛ yi deɛ ɛde sɛe sika bɛyɛ 0.05 zEC = 10 2Z.
 
-![Wɔretɔ 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
+![Buying 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
 
-## Ntoboa a wɔde ma ne wɔn a wɔbɛkyerɛw wɔn din
+## Adɔdeɛ ne nhyehyeɛ a wɔde yɛ adwuma wɔ hɔ no
 
-Sɛ wunya ɔbɔadeɛ bi a w’ani gye ne ho wie a, wubetumi akyerɛ w’anisɔ denam ntoboa a wode bɛma na woakyerɛw wo din wɔ wɔn mu no so. Ntoboa nyinaa kɔ ɔbɔadeɛ no sika kotoku mu tẽẽ. Sɛ nhwɛsoɔ no, momma yɛnkyerɛw yɛn din wɔ [Free2Z ankasa krataafa](https://free2z.cash/free2z).
+Sɛ wohunu obi a w'ani gye ne ho, wobɛtumi akyerɛ no anisɔ denam ntoboa na wode ato n'anim. Ntoboa nyinaa kɔ tẽẽ akɔ ɔbɔadeɛ no sika kotoku mu. SƐ nhwɛsoɔ bi nti ma yԑnhyehyɛ krataafa wɔ "Media for the World" so anaa sɛ yɛbɛma wɔn nsa aka nsɛmfua pii afa yɛn dwumadie yi akyi a yɛmfa nka kasa ahodoɔ biara a ɛwɔ saa ɔfã hɔ nkyerɛ asee: [Free2Z ankasa kratafa](https://free2z.cash/free2z).
 
-![Free2Z aban krataafa](/content-images/free2z-page-94c5fd5f4f.webp)
+![Free2Z official page](/content-images/free2z-page-94c5fd5f4f.webp)
 
-Sɛ wopɛ sɛ wokyerɛw wo din wɔ kratafa bi so a, nea ɛsɛ sɛ woyɛ ara ne sɛ wobɛbɔ ahyɛnsode a ɛkyerɛ sɛ woakyerɛw wo din wɔ kratafa no ti no so.
+Sɛ wopɛ sɛ w'atwe wo ho ma krataafa bi a, nea ehia ara ne sƐ wobɛtumi afa subscribe icon no wɔ kratafa ti hɔ.
 
-![Subscribe button wɔ ɔbɔadeɛ krataafa so](/content-images/subscribe-to-creator-76c306d924.webp)
+![Subscribe button on creator page](/content-images/subscribe-to-creator-76c306d924.webp)
 
-Wubehu sika a ɛba fam koraa a wode bɛkra. Hwɛ sɛ wowɔ tuzis a ɛdɔɔso na klik subscribe.
+Wobɛhu subscription no bo a ɛnnyɛ den. Hwɛ sɛ wowɔ tuzis pii na mia subscribe so.
 
-![Si so dua sɛ wobɛkyerɛw wo din](/content-images/confirm-subscribe-7381923e36.webp)
+![Confirm subscription popup](/content-images/confirm-subscribe-7381923e36.webp)
 
-### Fa 2Zs anaa Zcash na fa ntoboa
+### Fa 2Zs anaa Zcash na yi ntoboa no ma
 
-Wubetumi de ntoboa ama tẽẽ wɔ wɔn krataafa no so, denam Fund creator icon a wobɛkyere so.
+Wobɛtumi de sika a wo wɔ no ayɛ adwuma tẽẽ, denam ntoboafoɔ icon so.
 
-![Fund ɔbɔadeɛ button](/content-images/fund-creator-ac59aee7bf.webp)
+![Fund creator button](/content-images/fund-creator-ac59aee7bf.webp)
 
-Anaasɛ, fi post bi mu hwehwɛ floating plus button no. Efi ha no, wubetumi de ntoboa ama ɔbɔadeɛ no anaasɛ wobɛhyɛ post no ho nkuran wɔ Free2Z.
+Anaa, wɔ krataa bi mu no, hwehwɛ "plus" button a ɛretene. Ɛfiri ha rekɔ no, wobɛtumi ayɛ ɔmmoa ama deɛ ɔyɛɛ saa nwoma yi anaa woatwe adwene asi so sɛ ɛyɛ adwuma pa ara wɔ Free2Z hɔ.
 
-![Floating action buttons wɔ post bi mu](/content-images/post-floating-buttons-a1e2ef1102.webp)
+![Floating action buttons inside a post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
-## Live Streaming a Wɔde Di Dwuma
+## Teaseɛnam a ɛretwam
 
-Free2z platform no de ade a ɛyɛ hu a wɔfrɛ no Free2z Live ma. Wɔnam saa adwinnade yi so no, adebɔfo betumi afi ase ayɛ live streams ama asɔremma a wɔakyerɛw wɔn din. Free2z Live no mu nneɛma atitiriw bi ne: 
-- Ɔdio ne video 
-- Screen kyɛfa a wɔde kyɛ 
-- Mmara a wɔbom yɛ a wɔde sesa 
-- Di nkɔmmɔ 
-- Whiteboarding a wɔde kyerɛw nsɛm 
-- Na pii nso!
+The Free2z platform offers an awesome feature called Free2z Live. With this tool, creators can start live streams for subscribed members. Some key features of Free2z Live include:  
+- Ɔdio ne video a wɔhwɛ no 
+- Sɛntwerɛfoɔ a ɔboa wɔ screen sharing mu 
+- Kode a wɔbom yɛ no ho adwuma 
+- Nkasa mu nkɔmmɔ 
+- Krataa a wɔtwerɛ agu krataa so 
+- Ne nea ɛsen saa koraa!
 
-### Dɛn na wubetumi de Free2z Live ayɛ
+### Deɛn na wobɛtumi ayɛ wɔ Free2z Live so?
 
-Free2z Live yɛ adwinnadeɛ a tumi wom, ɛma adebɔfoɔ tumi de nneɛma biara a ɛwɔ mu no kɔ. Nhwɛsoɔ kakraa bi a ɛfa nneɛma ko a wobɛtumi de Free2z Live abɔ ho nie: 
-- Nkyerɛkyerɛ ne ɔyɛkyerɛ ahorow 
-- Dwumadi ahorow ne nsɛm a esisi 
-- Nnwuma a wɔbom yɛ 
-- Amanneɛbɔ a wɔbɔ no tee ne nsɛm ho amanneɛbɔ 
-- W’adebɔ ne anohyeto no!
+Free2z Live yɛ dwumadie a tumi wɔ mu, na ɛma wɔn a wɔyɛ video biara kwan ma wɔde nsɛm bi di dwuma. W'atumi de w'ani ahwɛ nneɛma no pii: 
+- Adesuade ne nkyeresoɔ 
+- Adwuma ne dwumadie ahodoɔ 
+- Nhyehyɛeɛ a ɛfa nnipa ho 
+- Asɛnka a wɔde bɔ bra ne nsɛm ho amanneɛbɔ 
+- Wo adebɔ tumi nkutoo ne ano!
 
-### Sɛnea wobɛkɔ live
+### Sεnea yεde bεkɔ live so no
 
-Ɛnyɛ den yiye sɛ wode Free2z Live befi ase ayɛ live stream. Nanso ahwehwɛde kakraa bi wɔ hɔ ansa na woatumi afi wo asuten no ase. 
-1. Ɔbɔadeɛ no **ɛsɛ sɛ** nya **asɔremma boɔ** a ɛsua koraa a ɛyɛ 2Zs 10. 
-2. Ɔbɔadeɛ no **ɛsɛ** sɛ anyɛ yie koraa no, 2Zs 150 a aka wɔ wɔn akontaabuo mu. 
+Ɛyɛ mmerɛ sɛ wobɛfi aseɛ de Free2z Live adi dwuma. Nanso ɛhia kakra ansa na woatumi afi ase ayɛ w'adwuma no bi. 
+1. Ɔbɔadeɛ no wɔ ka a, ɛsɛ sɛ ne sika yɛ 2Zs 10. 
+2. Ɔbɔadeɛ no **sɛ** nya 2Zs 150 kabea wɔ wɔn account mu. 
 
-Sɛ ɔbɔadeɛ no du **abien no nyinaa** a ɛwɔ atifi hɔ no so a, ahyɛnsodeɛ bi a wɔato din **Go Live** bɛba ama wɔn wɔ wɔn profile krataafa so.
+Sɛ creator no di afotusɛm a ɛwɔ atifi hɔ nyinaa so, wɔbɛma wɔn mfoni bi wɔ ne profile page mu.
 
-![Kɔ Live button no so](/content-images/go-live-4c8ac67505.webp)
+![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-Sɛ wopɛ sɛ wohyɛ live stream ase a, klik **Go Live** button no so kɛkɛ, na Free2z app no ​​bɛsrɛ kwan sɛ wode wo microphone ne wɛbcam bedi dwuma (sɛ wowɔ bi a). Sɛ woma kwan a ɛho hia wie a, Free2z bɛka akyerɛ wo sɛ kyerɛw abodin bi a wopɛ sɛ wode di dwuma wɔ live stream no mu. Sɛ wopaw nickname wie a, klik **Join** na hyɛ wo live stream no ase.
+To start a live stream, just click the **Go Live** button, and the Free2z app will ask for permission to use your microphone and webcam (if you have one). After you grant the necessary permissions, Free2z will ask you to enter a nickname that you want to use during the live stream. Once you have selected a nickname, click **Join** to start your live stream.
 
-![Paw abodin ma live stream](/content-images/select-nickname-414444b992.webp)
+![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
-Na wɔayɛ! Sɛ wohyɛ aseɛ yɛ live stream a, wo profile bɛkyerɛ icon bi a ɛkyerɛ sɛ wowɔ live, sɛdeɛ ɛbɛyɛ a wo subscribers bɛtumi akɔka live stream no ho.
+Sɛ wohyɛ aseɛ bɔ video wɔ w'ankasa profile so a, ɛbɛkyerɛ sɛ wowɔ hɔ na ama wɔn a wɔde subscribe akɔbɔ bi no.
 
-![Ɔde ne ho ahyɛ livestream bi mu](/content-images/join-livestream-679334ba53.webp)
+![Joining a livestream](/content-images/join-livestream-679334ba53.webp)
 
-Sɛ nkurɔfo kɔka live stream no ho a, wobetumi abɔ nkɔmmɔ, abisa sɛ wɔmmɛka asɛnka agua no ho, adi nkitaho denam abatow a wɔbɛtow wɔ abatow mu so, ne nea ɛkeka ho.
+Sɛ nnipa de wɔn ho hyɛ nkitahodie no mu a, wobetumi abɔ nkɔmmɔ, abisa sɛ wɔbɛka agyinatufo no ho, ne afoforo adi nkitaho denam abatoɔ wɔ nsɛmmisa ahorow mu so.
 
-![Nhwɛsoɔ a ɛfa Free2z Live nhyiamu ho](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Nhwɛsoɔ a ɛfa Free2z Live nhyiamu ho)_
+_(Free2z Live session ho nhwɛso)_
 
-Free2z Live yɛ adwuma pii na ɛwɔ tumi. Wɔ ɔfa a edi hɔ no mu no, m’ayɛ ne dwumadie ne ne nnwinnadeɛ ho nsusuiɛ.
+Free2z Live yɛ ade a wͻtumi de di dwuma na εwↄ tumi. Wᴐ ɔfã a edi yεn anim no, me bɛma wo n'adwumade ne nnwinnade ho nsusuyԑ mu nkyerԑkyerԑmu bi.
 
-### Yɛrehwehwɛ Free2z Live mu
+### Free2z Live ho nhwehwɛmu
 
-Saa wiki-doc yi nnyɛ nea wɔayɛ sɛ ɛbɛyɛ akwankyerɛ a emu dɔ a ɛfa Free2z anaa Free2z Live ho. Nanso ne nnwinnade ho nsɛm a wɔaka abom wɔ ɔkwan a ɛkɔ akyiri so ni.
+Saa wiki-doc yi nyɛ akwankyerɛ a ɛkɔ akyiri ma Free2z anaa Free2Z Live. Nanso, ne mfidie no ho nsunsuansoɔ bi wɔ ha.
 
-Wɔ screen no ase benkum so no, yehu buttons kakraa bi.
+Yɛhu nkontaabu kakra wɔ anim benkum fam.
 
-![Ase benkum so controls](/content-images/free2z-live-left-60b450b01c.webp)
+![Bottom left controls](/content-images/free2z-live-left-60b450b01c.webp)
 
-Dwumadie fɛfɛ bi a ɛwɔ ha ne sɛ wobɛtumi akyɛ wo screen no sɛdeɛ ɛbɛyɛ a wɔn a wɔde di dwuma foforɔ bɛtumi ahunu deɛ woreyɛ.
+Ade pa bi wɔ ha a ɛne sɛ wubetumi de wo screen no adi dwuma ama afoforo ahu nea woreyɛ.
 
-Wɔ ase hɔ no yebetumi ahu live stream options no.
+Wɔ ase hɔ no, yebetumi ahu akwan a wɔfa so bɔ nkɔmmɔ tẽẽ.
 
-![Ase hɔ adwinnade](/content-images/free2z-live-bottom-ae64a6960c.webp)
+![Bottom toolbar](/content-images/free2z-live-bottom-ae64a6960c.webp)
 
-Nneɛma atitiriw a wubetumi apaw wɔ ha no bi ne: 
-- Mute / unmute afiri a wɔde kasa 
-- Ma wɛbcam nyɛ adwuma / nyɛ adwuma 
-- Fi asɛnka agua no so 
-- Fa akasafo nyinaa yɛ mum 
-- Ahomegyeɛ 
+Nneɛma atitiriw a wobɛtumi ayɛ wɔ ha no bi ne: 
+- Microphone a w'ayi no adi/asesa no 
+- Ma webcam no mmɔ kwan / nsi so 
+- Fi asa no so kɔ! 
+- Dum kasahorow nyinaa 
+- Fi hɔ kɔ. 
 
-Sɛ wopɛ sɛ wowie live stream a, ɛsɛ sɛ wo klik ‘Leave’ button no so, na afei klik ‘End meeting for all’ na gyae nhyiamu no ma wɔn a wɔbɛkɔ no nyinaa.
+Sɛ worebewie live stream no a, ɛsɛ sɛ wo mia 'Leave' button no so na afei klik 'End meeting for all' de gyae nhyiam ma wɔn nyinaa.
 
-![Ase nifa so nkitahodi panel](/content-images/free2z-live-right-c83cb6d209.webp)
+![Bottom right interaction panel](/content-images/free2z-live-right-c83cb6d209.webp)
 
-Ase nifa so bɔtn ahorow no kura dwumadi ahorow a ɛfa live stream nkitahodi no ho, te sɛ: 
-- **Chat**: Wei ma wɔn a wɔde wɔn ho hyɛ mu no tumi ne wɔn ho wɔn ho ne ahɔhoyɛfo no bɔ nkɔmmɔ wɔ live stream no mu. 
-- **Polls**: Wei ma host no tumi yɛ polls na ɔboaboa nsɛm a efi wɔn a wɔde wɔn ho hyɛɛ mu no hɔ ano. 
-- **Wɔn a wɔde wɔn ho hyɛɛ mu no din**: Eyi kyerɛ wɔn a wɔde wɔn ho hyɛɛ mu no din wɔ live stream no mu. 
-- **Plugins**: Wei ma host no tumi de plugins ne extensions ka ho de ma live stream osuahu no yɛ yie.
+Nsεm a wͻde di dwuma wɔ nkataho no mu kכne so, te sεε: 
+- **Chat**: Eyi ma kwan sɛ wɔn a wɔdi so no ne wɔn ho, ɛne nea ɔhwɛ dwumadi no so kasa bere a wɔreyɛ asesaw. 
+- **Nsɛmmisa**: Eyi ma ɔhwɛfoɔ no kwan sɛ ɔde nsɛmmisa bɛhyɛ ne tirim na w'anya nea ɛwɔ wɔn a wɔdwene ho mu. 
+- **Nkrataa a ɛfa wɔn ho**: Eyi kyerɛ nkrataa a wɔde ama wɔ aberɛ biara mu no. 
+- Plugins: Eyi ma ɔhwɛfoɔ no kwan sɛ ɔde plugins ne extensions bɛhyɛ live stream mu.
 
-![Plugins panel no](/content-images/free2z-live-plugins-e9a30ee355.webp)
+![Plugins panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
 
-Ɛnyɛ wiki-doc yi botaeɛ sɛ ɛbɛkyerɛkyerɛ plugins no nyinaa mu, nanso mehyɛ wo nkuran ankasa sɛ sɔ biara hwɛ, ɛfiri sɛ ne nyinaa de nkitahodiɛ boɔ kɛseɛ ma wɔ adebɔfoɔ ne wɔn a wɔhwɛ ntam. Sɛ wopɛ sɛ wofi plugin bi ase a, klik ‘rocket’ button a ɛwɔ nifa so no so kɛkɛ.
+It's not the purpose of this wiki-doc to explain all the plugins, but I really encourage you to try every one, as they all offer great interaction value between creators and viewers. To launch a plugin, simply click the 'rocket' button on the right.
 
-## Awie
+## Nkɔsoɔ a ɛbae:
 
-Sɛ yɛde rewie a, Free2z yɛ beaeɛ a ɛyɛ adwuma pii a adebɔfoɔ bɛda wɔn tumi adi, akyɛ nimdeɛ na wɔaboaboa sika ano ama wɔn nnwuma, na wɔne wɔn akyigyinafoɔ adi nkitaho denam Free2z Live adwinnadeɛ a tumi wom no so.
+Sɛ yɛtwa toɔ a, Free2z yε nhyehyεεbea soronko ma nneemafoɔ sε w'akyerɛ wɔn tumi adi mu, de nimdeɛ ne sika bͻ fekuw ama wɔn dwumadie no na wɔne wɔn akyitaafo di nkitaho denam adwinnade tumm bi so. Ɛno ne Free2Z Live .
 
 ----
 
-### Akadeɛ
+### Nneɛma a wɔde bɔ afɔre
 
-[Free2z](https://free2z.cash/)  
-[Free2z nkrataa a wɔde kyerɛw](https://free2z.cash/docs/)  
-[2Z Nsɛm a Wɔaka abom](https://free2z.cash/docs/2Zs/)  
-[Wɔreyɛ profile bi](https://free2z.cash/docs/creators/creating-a-profile)  
-[Dɛn ne Free2z Live?](https://free2z.cash/docs/creators/free2z-live)  
-[Free2z ma Wɔn a Wɔboa](https://free2z.cash/docs/category/for-supporters)
+[Free2z (free)](https://free2z.cash/)  
+[Free2z nkrataa a w'atwe no so](https://free2z.cash/docs/)  
+[2Z Nhwɛsoɔ a ɛfa nneɛma ho](https://free2z.cash/docs/getting-started/tuzis)  
+[Profile bɔ ho ban](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[Dɛn ne Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2z ma wɔn a wɔboa no](https://free2z.cash/docs/category/for-supporters)
 
 ---
 
-_James Katz na ɔkyerɛwee maa Zechub._
+James Katz na ɔkyerɛwee maa Zechub.

@@ -16,7 +16,7 @@
 
 ## Na-achịkọta igbe FROST .
 
-[Njikọ Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Njikọ Github](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Jiri ụlọ nkwakọba ihe dị n'elu ma soro ntuziaka na nchịkọta: 
 

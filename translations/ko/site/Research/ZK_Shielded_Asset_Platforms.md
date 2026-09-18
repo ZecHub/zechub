@@ -46,7 +46,7 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 ***
 
 
- **[FairySwap](https://fairyswap.finance/swap)**: Fairyswap은 무허가성과 탈중앙화를 지향하는 차세대 커뮤니티 주도형 프라이버시 DEX인 레이어 1입니다. Findora에 내장된 영지식 증명 기술을 활용함으로써, FairySwap 같은 프라이버시 DEX와 Dapp은 사용자가 공개 블록체인에서 어떤 정보를 보이게 할지, 어떤 정보는 Shield하고 싶은지를 선택할 수 있게 해줍니다. 보이지 않게 하려는 정보도 세부 사항을 드러내지 않고 영지식 증명으로 공개 검증될 수 있습니다 - **자산 스왑**: 예 - [백서](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+**[FairySwap](https://fairyswap.finance/)**: Fairyswap은 무허가성과 탈중앙화를 지향하는 차세대 커뮤니티 주도형 프라이버시 DEX인 레이어 1입니다. Findora에 내장된 영지식 증명 기술을 활용하여, FairySwap과 같은 프라이버시 DEX 및 Dapp은 사용자가 공개 블록체인에서 어떤 정보를 보이게 할지, 어떤 정보를 차폐할지를 선택할 수 있게 합니다. 보이지 않게 하려는 정보도 세부 사항을 드러내지 않고 영지식 증명을 통해 공개적으로 검증될 수 있습니다 - **자산 스왑**: 예 - [백서](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKSync](https://zksync.io/)**: zkSync는 Ethereum 위의 레이어 2 확장 솔루션으로, 보안을 훼손하지 않으면서 낮은 가스 비용과 빠른 거래를 제공합니다. 사용자는 언제든지 자산을 레이어 1로 출금할 수 있습니다. 전체 zkSync 생태계에 접근하고 저렴하고 즉시 처리되는 거래의 이점을 누리려면 먼저 [Argent 같은 지갑](https://argent.link/zksync)이 필요합니다. 지갑이 없으면 Coinbase나 Binance 같은 거래소를 통해 zkSync에 접근할 수 없기 때문에 네트워크에 온보딩할 수 없습니다. 지갑은 암호화폐를 구매, 판매, 보관하고 DeFi, NFT 등 흥미로운 세계를 쉽게 경험할 수 있게 해줍니다 - **자산 스왑**: 예 - [백서](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
@@ -83,7 +83,7 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi는 영지식, 다자간 계산, 동형 암호화를 기반으로 하는 익명 L1입니다. 익명 지분증명은 검증자를 숨겨줍니다. DarkFi는 익명 앱을 만들고 실행할 수 있는 반취약성 환경을 제공합니다 - **자산 스왑**: 예 - [백서](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi는 영지식, 다자간 계산, 동형 암호화를 기반으로 하는 익명 L1입니다. 익명 지분증명은 검증자를 숨겨줍니다. DarkFi는 익명 앱을 만들고 실행할 수 있는 반취약성 환경을 제공합니다 - **자산 스왑**: 예 - [백서](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

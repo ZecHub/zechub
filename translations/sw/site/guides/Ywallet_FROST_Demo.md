@@ -16,7 +16,7 @@
 
 ## Kuweka pamoja FROST mitungi
 
-[Kiungo Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Kiungo Github](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Tumia repo juu na kufuata maelekezo ya kuandaa: 
 

@@ -16,7 +16,7 @@
 
 ## Ṣàkójọ àwọn àpò FROST
 
-[Àkọlé ìjápọ̀ Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Àkọlé ìjápọ̀ Github](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Lo repo ti o wa loke ki o tẹle awọn itọnisọna lori ikojọpọ: 
 

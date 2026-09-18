@@ -185,9 +185,9 @@ Live stream समाप्त करने के लिए, आपको 'Leav
 
 [Free2z](https://free2z.cash/)  
 [Free2z दस्तावेज़ीकरण](https://free2z.cash/docs/)  
-[2Z अवलोकन](https://free2z.cash/docs/2Zs/)  
-[प्रोफ़ाइल बनाना](https://free2z.cash/docs/creators/creating-a-profile)  
-[Free2z Live क्या है?](https://free2z.cash/docs/creators/free2z-live)  
+[2Z अवलोकन](https://free2z.cash/docs/getting-started/tuzis)  
+[प्रोफ़ाइल बनाना](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[Free2z Live क्या है?](https://free2z.cash/docs/for-creators/free2z-live)  
 [Supporters के लिए Free2z](https://free2z.cash/docs/category/for-supporters)
 
 ---

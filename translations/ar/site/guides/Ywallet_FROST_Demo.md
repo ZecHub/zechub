@@ -16,7 +16,7 @@
 
 ## تجميع ملفات FROST الثنائية
 
-[رابط Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[رابط GitHub](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 استخدم المستودع أعلاه واتبع تعليمات التجميع: 
 
