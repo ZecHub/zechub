@@ -139,6 +139,14 @@ A watch-only desktop wallet designed for individuals and organizations that need
 
 [Visit](https://github.com/auzum197/pendrake-watch)
 
+### ZecGuard
+
+![ZecGuard Logo](https://github.com/gorgagian123/zechub-wiki/pull/5)
+
+A private Telegram paywall service that allows users to create private communities with paid access using shielded ZEC (Zcash).
+
+[Visit](https://zecpay.rocks/zecguard/)
+
 ---
 
 ## Explorers, Data, and Network Dashboards
@@ -304,6 +312,14 @@ AI platform that provides access to multiple leading AI models while supporting 
 A peer-to-peer poker platform that combines end-to-end encryption, mental poker, and Zcash privacy technology. It is designed so that the operator does not need to know players' cards or directly hold the betting funds.
 
 [Visit](https://zkbtc.org/)
+
+### Zecpad
+
+![Zecpad Logo](https://zecpad.com/zecpad-coin.png)
+
+A Zcash-based, privacy-first token launchpad platform that uses a bonding curve mechanism to instantly create, launch, and trade tokens without requiring an initial liquidity provider or an order book.
+
+[Visit](https://zecpad.com)
 
 
 ---
