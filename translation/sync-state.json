@@ -10669,11 +10669,11 @@
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
-      "src": "sha256:385e47505dc99687363367ac3a7c5a9de06efc16e35dd711daea23284d62c9e1",
-      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
+      "src": "sha256:ffd71c6a725be2d38a413179e5f9615df6b9f40d49ee36775fc2d31a89486350",
+      "src_commit": "9d6aedc77cf7f8f63cec98d418db357691adda90",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
