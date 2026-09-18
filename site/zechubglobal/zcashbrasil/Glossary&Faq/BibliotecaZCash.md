@@ -332,7 +332,7 @@ ___
 
 | | |
 |--------------|-----------|
-| **Youtube**: | [Canal da Fundação Zcash](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ) / [Canal ECC](https://www.youtube.com/c/ZcashCo) / [ZECHub](https://www .youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) / [ZF A/V Club](https://www.youtube.com/@zfavclub) / [Zcash Media](https://www.youtube.com/@ ZcashMedia) |
+| **Youtube**: | [Canal da Fundação Zcash](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ) / [Canal ECC](https://www.youtube.com/c/ZcashCo) / [ZECHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) / [ZF A/V Club](https://www.youtube.com/@zfavclub) / [Zcash Media](https://www.youtube.com/@ZcashMedia) |
 | **Ywallet**: | Uma carteira móvel compatível com Ycash e Zcash - [website](https://ywallet.app) |
 
 

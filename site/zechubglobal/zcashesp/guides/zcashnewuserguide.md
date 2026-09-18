@@ -16,7 +16,7 @@ Es importante destacar que no necesitas comprar 1 ZEC completo. ZEC es divisible
 
 Después de comprar ZEC, es posible que desees transferirlo a una billetera de Zcash. [Este artículo](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) explica por qué es importante tener ZEC en una billetera.
 
-Recomendamos usar una [billetera protegida](https://github.com/ZecHub/zechub/blob/main/usingzec/wallets/mobileshieldedwallets.md) porque estas billeteras proporcionan las [funciones de privacidad](https://www.gemini.com/prices/zcash) que hacen que ZEC sea único. Aquí hay un [video](https://www.youtube.com/watch?v=AefftLsENaU) sobre cómo descargar una billetera protegida. Aquí hay un [blog](https://zechub.substack.com/p/private-vs-transparent) que explica las diferencias entre los diferentes tipos de billeteras de Zcash.
+Recomendamos usar una [billetera protegida](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashesp/usandozec/wallets.md#billeteras-m%C3%B3viles-blindadas) porque estas billeteras proporcionan las [funciones de privacidad](https://www.gemini.com/prices/zcash) que hacen que ZEC sea único. Aquí hay un [video](https://www.youtube.com/watch?v=AefftLsENaU) sobre cómo descargar una billetera protegida. Aquí hay un [blog](https://zechub.substack.com/p/private-vs-transparent) que explica las diferencias entre los diferentes tipos de billeteras de Zcash.
 
 ---
 

@@ -40,11 +40,11 @@ Ao fazer isso, recomendamos o uso de uma carteira [blindada](https://electriccoi
 
 Você também pode minerar ZEC, mas isso geralmente não é possível para consumidores comuns. Mais informações [aqui](https://www.genesis-mining.com/zcash-mining-guide).
 
-- Se você gostaria de adicionar ou sugerir edições a esta página wiki, vá para o [ZecHub](https://github.com/ZecHub/zechub/blob/main/site/usingzec/buyingzec.md) 
+- Se você gostaria de adicionar ou sugerir edições a esta página wiki, vá para o [ZecHub](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/zec/ComprandoZec.md)
 
 
 https://youtu.be/W2msuzrxr3s
 
 
-- [Repositório GitHub](https://github.com/ZecHub/zechub/blob/main/site/usingzec/buyingzec.md) e enviar um Pull Request.
+- [Repositório GitHub](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/zec/ComprandoZec.md) e enviar um Pull Request.
 

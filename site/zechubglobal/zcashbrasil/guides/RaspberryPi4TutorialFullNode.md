@@ -53,13 +53,13 @@ Se você achar este guia útil, considere doar ZEC para apoiar a ZecHub:
 
 ## Conteúdo:
 
-* [Prepare the SD Card](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#prepare-the-sd-card)
-* [Servidor Boot Ubuntu](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#boot-ubuntu-server)
-* [Conecte-se remotamente ao seu Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#connect-remotely-to-your-raspberry-pi-4)
-* [Instale *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#installing-zcashd)
-* [Configuração * zcashd *](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#setup-zcashd)
-* [Usando * zcashd * ](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#using-zcashd)
-* [Fontes](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#sources)
+* [Prepare the SD Card](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/guides/RaspberryPi4TutorialFullNode.md#prepare-o-cartão-sd)
+* [Servidor Boot Ubuntu](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/guides/RaspberryPi4TutorialFullNode.md#boot-ubuntu-server)
+* [Conecte-se remotamente ao seu Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/guides/RaspberryPi4TutorialFullNode.md#conecte-se-remotamente-ao-seu-raspberry-pi-4)
+* [Instale *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/guides/RaspberryPi4TutorialFullNode.md#instalando-o-zcashd)
+* [Configuração * zcashd *](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/guides/RaspberryPi4TutorialFullNode.md#configuração--zcashd)
+* [Usando * zcashd * ](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/guides/RaspberryPi4TutorialFullNode.md#usando--zcashd)
+* [Fontes](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/guides/RaspberryPi4TutorialFullNode.md#fontes)
 
 ### Prepare o cartão SD
 
