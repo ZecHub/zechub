@@ -6,7 +6,7 @@ Zcash가 처음인가요? 이 가이드는 Zcash 사용자 및 ZEC hodler로 등
 
 **ZEC 구매**
 
-Zcash 네트워크를 사용하려면 해당 통화인 ZEC를 구매해야 합니다. ZEC를 구입하기 가장 쉬운 방법은 [Gemini에서 구입](https://www.gemini.com/prices/zcash) 또는 [Zcash 거래소](https://z.cash/exchanges/)입니다.
+Zcash 네트워크를 사용하려면 해당 통화인 ZEC를 구매해야 합니다. ZEC를 구입하기 가장 쉬운 방법은 [Gemini에서 구입](https://www.gemini.com/prices/zcash) 또는 [Zcash 거래소](https://z.cash/ecosystem/?exchanges=#tag-exchanges)입니다.
 
 한 가지 중요한 점은 1개의 ZEC를 전부 구매할 필요가 없다는 것입니다. ZEC는 분할 가능하며, 동전의 일부만 구매하는 것으로 시작할 수 있습니다.
 

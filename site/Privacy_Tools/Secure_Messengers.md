@@ -23,7 +23,7 @@ As data travels over servers or the internet, they are exposed to many factors t
 
 Zcash Desktop & Mobile wallets have an in-built feature that allows users to send encrypted messages with private shielded transactions. The memo/message size can be up to 512 bytes long per transactions with transaction fees being less than 1 US cent. Due to the privacy preserving way transactions are detected and the block time of the network, messages may take up to 1 minute or more to be received. 
 
-Try it: https://z.cash/wallets 
+Try it: https://z.cash/ecosystem/?wallets=#tag-wallets 
 
 ![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 

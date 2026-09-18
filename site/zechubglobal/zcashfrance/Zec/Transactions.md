@@ -5,7 +5,7 @@ La ZEC est principalement utilisée pour les paiements. Pensez à rembourser un 
 ## Transactions protégées
 
 Les transactions protégées se produisent lorsque vous déplacez ZEC dans votre portefeuille protégé. L'adresse de votre portefeuille protégé commence par un "U" ou un "Z". Lorsque vous envoyez des transactions protégées, vous vous assurez que vous et les personnes avec lesquelles vous effectuez des transactions, conservez un niveau de confidentialité impossible sur d'autres réseaux de paiement P2P.
-L'envoi d'une transaction sécurisée est très simple, il vous suffit de vous assurer de deux choses. La première est que vous utilisez le bon type de portefeuille. Le moyen le plus simple de vous assurer que vous utilisez le bon type de portefeuille est de télécharger un portefeuille mis en évidence sur le site officiel : https://z.cash/wallets. La deuxième chose importante est de déplacer ZEC vers un portefeuille blindé.
+L'envoi d'une transaction sécurisée est très simple, il vous suffit de vous assurer de deux choses. La première est que vous utilisez le bon type de portefeuille. Le moyen le plus simple de vous assurer que vous utilisez le bon type de portefeuille est de télécharger un portefeuille mis en évidence sur le site officiel : https://z.cash/ecosystem/?wallets=#tag-wallets. La deuxième chose importante est de déplacer ZEC vers un portefeuille blindé.
 Lorsque vous retirez ZEC d'un échange, vous devez savoir si l'échange prend en charge les retraits protégés ou transparents. S'ils prennent en charge les retraits protégés, vous pouvez simplement retirer ZEC à votre adresse protégée. Si l'échange ne prend en charge que les retraits transparents, vous devez utiliser [Ywallet](https://ywallet.app/) et autoblindez votre ZEC une fois reçue.
 
 

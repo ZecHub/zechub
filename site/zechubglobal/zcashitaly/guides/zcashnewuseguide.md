@@ -6,7 +6,7 @@ Nuovo in Zcash? Questa guida ti accompagnerà attraverso il processo di adesione
 
 **Compra ZEC**
 
-Per utilizzare la rete Zcash, dovrai acquistare la sua valuta, ZEC. Il modo più facile per acquistare ZEC è [acquistarlo su Gemini](https://www.gemini.com/prices/zcash) o [qualsiasi di questi exchanges](https://z.cash/exchanges/).
+Per utilizzare la rete Zcash, dovrai acquistare la sua valuta, ZEC. Il modo più facile per acquistare ZEC è [acquistarlo su Gemini](https://www.gemini.com/prices/zcash) o [qualsiasi di questi exchanges](https://z.cash/ecosystem/?exchanges=#tag-exchanges).
 
 Una nota importante è che non è necessario acquistare 1 intero ZEC. ZEC è divisibile e puoi iniziare acquistando solo una frazione della moneta.
 

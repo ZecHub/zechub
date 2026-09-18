@@ -6,7 +6,7 @@ ZEC wordt voornamelijk gebruikt voor betalingen. Denk aan het terugbetalen van e
 
 Afgeschermde transacties vinden plaats wanneer u ZEC naar uw afgeschermde portemonnee verplaatst. Het adres van je afgeschermde portemonnee begint met een "U" of "Z". Wanneer u afgeschermde transacties verzendt, zorgt u ervoor dat u en de mensen met wie u transacties uitvoert, een niveau van privacy behouden dat niet mogelijk is op andere P2P-betalingsnetwerken.
 
-Het versturen van een afgeschermde transactie is heel eenvoudig, je moet alleen op twee dingen letten. De eerste is dat u het juiste type portemonnee gebruikt. De eenvoudigste manier om ervoor te zorgen dat u het juiste type portemonnee gebruikt, is door een portemonnee te downloaden die is gemarkeerd op de officiële site: https://z.cash/wallets. Het tweede belangrijke is het verplaatsen van ZEC naar een afgeschermde portemonnee.
+Het versturen van een afgeschermde transactie is heel eenvoudig, je moet alleen op twee dingen letten. De eerste is dat u het juiste type portemonnee gebruikt. De eenvoudigste manier om ervoor te zorgen dat u het juiste type portemonnee gebruikt, is door een portemonnee te downloaden die is gemarkeerd op de officiële site: https://z.cash/ecosystem/?wallets=#tag-wallets. Het tweede belangrijke is het verplaatsen van ZEC naar een afgeschermde portemonnee.
 
 Wanneer u ZEC van een beurs opneemt, moet u weten of de beurs afgeschermde of transparante opnames ondersteunt. Als ze afgeschermde opnames ondersteunen, kunt u ZEC eenvoudig opnemen op uw afgeschermde adres. Als de beurs alleen transparante opnames ondersteunt, moet u **[YWallet](https://ywallet.app)** gebruiken en uw ZEC automatisch afschermen zodra u deze heeft ontvangen.
 

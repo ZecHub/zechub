@@ -7,12 +7,12 @@ Una lista di argomenti con le domande più frequenti su Zcash. Per risolvere i p
 
 Zcash è una valuta digitale veloce e confidenziale, con commissioni basse. La privacy è la caratteristica centrale di Zcash. Ha introdotto l'uso di proof a conoscenza zero per proteggere le informazioni degli utenti mediante la crittografia di tutte le transazioni. Ci sono diversi portafogli che puoi scaricare per fare pagamenti istantanei, sicuri mobili, e privati.
 
-[Portafogli](https://z.cash/wallets/)
+[Portafogli](https://z.cash/ecosystem/?wallets=#tag-wallets)
 
 
 ## Come posso ottenere Zcash?
 
-Puoi comprare ZEC sugli [exchange](https://z.cash/exchanges). Puoi anche acquistare Zcash direttamente da un'altra persona in modo peer-to-peer. Usa cautela quando fai scambi con servizi e individui con cui non sei familiare. Puoi anche acquisire Zcash tramite il mining di Zcash.
+Puoi comprare ZEC sugli [exchange](https://z.cash/ecosystem/?exchanges=#tag-exchanges). Puoi anche acquistare Zcash direttamente da un'altra persona in modo peer-to-peer. Usa cautela quando fai scambi con servizi e individui con cui non sei familiare. Puoi anche acquisire Zcash tramite il mining di Zcash.
 
 
 ## Qual'è la differenza tra Zcash ed altre cryptovalute?

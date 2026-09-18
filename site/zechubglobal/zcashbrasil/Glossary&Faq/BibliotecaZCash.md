@@ -82,7 +82,7 @@ ___
 | **Encrypted Memos**: | Um campo adicional para transações enviadas para endereços blindados que fica visível para o destinatário de um pagamento. O memorando criptografado é visível apenas para o remetente e o destinatário, a menos que a chave de visualização ou a divulgação do pagamento sejam compartilhadas com terceiros. |
 | **Equihash**: | O algoritmo de mineração de prova de trabalho orientado à memória que é usado no Zcash. |
 | **Eventos**: | O calendário de eventos relacionados ao Zcash [aqui](https://electriccoin.co/events/) |
-| **Exchanges**:| [Lista de trocas que suportam Zcash](https://z.cash/exchanges/) |
+| **Exchanges**:| [Lista de trocas que suportam Zcash](https://z.cash/ecosystem/?exchanges=#tag-exchanges) |
 
 
 
@@ -319,7 +319,7 @@ ___
 
 | | |
 |--------------|-----------|
-| **Wallets/Carteiras**: | [Consulte a lista completa de carteiras](https://z.cash/wallets/)|
+| **Wallets/Carteiras**: | [Consulte a lista completa de carteiras](https://z.cash/ecosystem/?wallets=#tag-wallets)|
 
  
 

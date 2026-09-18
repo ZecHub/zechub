@@ -6,7 +6,7 @@ ZEC kwa kiasi kikubwa hutumiwa kwa ajili ya malipo. Fikiria kulipa rafiki, kunun
 
 Miamala yaliyofichwa hufanyika unapohamisha ZEC kwenye mkoba wako uliofichwa. Anwani yako ya mkoba iliyofichwa huanza na "U" au "Z". Unapotuma miamala iliyofichwa, unahakikisha kuwa wewe na watu unaoendesha miamala nao mnahifadhi kiwango cha faragha ambacho si rahisi kwa mitandao mingine ya malipo ya P2P.
 
-Kutuma muamala wa kusitiri ni rahisi sana, unahitaji kuhakikisha mambo mawili. Kwanza, unatumia aina sahihi ya mkoba. Njia rahisi ya kuhakikisha unatumia aina sahihi ya mkoba ni kwa kupakua mkoba uliopendekezwa kwenye tovuti rasmi: https://z.cash/wallets. Jambo la pili muhimu ni kuhama ZEC kwenye mkoba wa kusitiri.
+Kutuma muamala wa kusitiri ni rahisi sana, unahitaji kuhakikisha mambo mawili. Kwanza, unatumia aina sahihi ya mkoba. Njia rahisi ya kuhakikisha unatumia aina sahihi ya mkoba ni kwa kupakua mkoba uliopendekezwa kwenye tovuti rasmi: https://z.cash/ecosystem/?wallets=#tag-wallets. Jambo la pili muhimu ni kuhama ZEC kwenye mkoba wa kusitiri.
 
 Unapotoa ZEC kutoka soko la kubadilishana, ni muhimu kujua kuwa soko la kubadilishana ina saidia uondoaji wa malipo kwa kutumia anuani zilizo suluhishwa au wazi. Ikiwa wanatoa uondoaji wa malipo kwa kutumia anuani zilizosuluhishwa, unaweza kwa urahisi kutoa ZEC kwa anuani yako iliyosuluhishwa. Ikiwa soko la kubadilishana ina tumia  uondoaji wa malipo wa anuani wazi peke yake, basi unahitaji kutumia **[YWallet](https://ywallet.app)** na k suluhisha ZEC yako baada ya kupokea.
 
