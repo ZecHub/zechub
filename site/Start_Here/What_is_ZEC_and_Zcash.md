@@ -52,7 +52,7 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In 
 
 [How It Works](https://z.cash/technology/)
 
-[The HTTPS of Blockchains](https://nakamoto.com/zcash-the-https-of-blockchains/)
+[The HTTPS of Blockchains](https://web.archive.org/web/20230325022830/https://nakamoto.com/zcash-the-https-of-blockchains/)
 
 ---
 
