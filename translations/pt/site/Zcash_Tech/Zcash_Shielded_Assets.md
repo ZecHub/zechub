@@ -80,7 +80,7 @@ Cada ativo recebe um **Identificador de Ativo** único, derivado da chave de emi
 
 **Experimente a demonstração por si mesmo!**
 
-Clone o repositório zcash-tx-tool: <https://github.com/QED-it/zcash_tx_tool>
+Clone o repositório zcash-tx-tool: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash Improvement Proposals (ZIPs)
 

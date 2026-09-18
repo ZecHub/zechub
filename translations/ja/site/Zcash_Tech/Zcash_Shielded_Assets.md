@@ -80,7 +80,7 @@ ZIP 227 は **発行を透明に保つ**よう意図的に設計されており�
 
 **ぜひ自分でデモを動かしてみてください！**
 
-zcash-tx-tool リポジトリをクローンします: <https://github.com/QED-it/zcash_tx_tool>
+zcash-tx-tool リポジトリをクローンします: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash Improvement Proposals (ZIPs)
 
