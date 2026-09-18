@@ -476,12 +476,22 @@ It also helps you **avoid the cost of renting a VPS**, which is ideal if cryptoc
 ### Step 1: Install Cloudflare Tunnel
 
 1. Create an account at [cloudflare.com](https://www.cloudflare.com) and add your domain.
-2. On your **home server**, install Cloudflare Tunnel:
+2. On your **home server**, install Cloudflare Tunnel using Cloudflare's official package repository:
 
-```
+```bash
+# Add Cloudflare's GPG key
+sudo mkdir -p --mode=0755 /etc/apt/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /etc/apt/keyrings/cloudflare-main.gpg >/dev/null
+
+# Add Cloudflare repository to APT sources
+echo "deb [signed-by=/etc/apt/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
+
+# Update package cache and install cloudflared
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
 ```
+
+*(Alternatively, install the release package directly with `curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb && sudo dpkg -i cloudflared.deb` on Raspberry Pi/ARM64, or `cloudflared-linux-amd64.deb` on x86_64).*
 
 3. Authenticate with Cloudflare:
 
