@@ -16,7 +16,7 @@
 
 ## Compile FROST bins
 
-[Github link](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[frost-tools on GitHub](https://github.com/ZcashFoundation/frost-tools/tree/a22235fb8d5b2cde8146953ecdfc875922730139)
 
 Use the above repo and follow directions on compiling: 
 
@@ -24,7 +24,7 @@ Use the above repo and follow directions on compiling:
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 Bins will be the the target folder.

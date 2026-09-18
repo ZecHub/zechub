@@ -36,7 +36,7 @@ The hybrid Proof-of-Stake (PoS) approach combines traditional Proof-of-Work (PoW
 
 The Crosslink protocol is a proposed design for Zcash's hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. It integrates PoW with a Byzantine Fault Tolerance (BFT) protocol, enabling assured finality as long as either PoW or PoS remains secure. The design aims to strengthen network security and decentralization by incorporating staked validation while maintaining miner participation. A key feature of the proposal, called Crosslink 2, simplifies the architecture by unifying BFT proposers and miners. This streamlined approach minimizes structural changes and allows the use of a "dummy" BFT layer, making it easier to prototype and deploy while maintaining high-security standards.
 
-The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward-looking solution to evolving blockchain challenges. For more details, refer to the [GitHub repository](https://github.com/ShieldedLabs/crosslink-deployment) and the [Zcash Community Forum](https://forum.zcashcommunity.com).
+The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward-looking solution to evolving blockchain challenges. For more details, refer to the [GitHub repository](https://github.com/ShieldedLabs/zebra-crosslink) and the [Zcash Community Forum](https://forum.zcashcommunity.com).
 
 ### Aims and Objectives of Crosslink
 
@@ -90,7 +90,7 @@ The Crosslink Protocol is being actively developed and deployed by Shielded Labs
 * Activation Logic: The introduction of Crosslink requires changes to the Zcash consensus rules, including defining the stake distribution process and updating network protocol rules to support hybrid consensus.
 * Phased Deployment: The protocol will roll out in stages to ensure network stability and community adaptation. Initial phases focus on technical implementation, followed by governance integration for selecting notaries.
 
-You can explore the technical details and track its progress via the [Crosslink Deployment Repository on GitHub](https://github.com/ShieldedLabs/crosslink-deployment).
+You can explore the technical details and track its progress via the [zebra-crosslink repository on GitHub](https://github.com/ShieldedLabs/zebra-crosslink) and [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/).
 
 ## Practical Implications
 
