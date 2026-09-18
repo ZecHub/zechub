@@ -80,7 +80,7 @@ ZIP 227은 의도적으로 **발행을 투명하게** 유지하여, 모든 자�
 
 **직접 데모를 실행해 보세요!**
 
-zcash-tx-tool 저장소를 클론하세요: <https://github.com/QED-it/zcash_tx_tool>
+zcash-tx-tool 저장소를 클론하세요: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash Improvement Proposals (ZIPs)
 
