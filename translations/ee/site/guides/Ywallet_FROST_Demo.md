@@ -1,6 +1,6 @@
 # Ywallet FROST ƒe wɔwɔfia
 
-> **Womegale Ywallet dzi kpɔm o.** Eƒe dɔwɔƒe ɖo kpe edzi be womawɔ yeyee na Ironwood (NU6.3), eyata megate ŋu zɔna ɖe kɔsɔkɔsɔa dzi o eye afɔɖeɖe siwo le ete la mateŋu awu enu le mainnet dzi o. Wodzra axa sia ɖo be woate ŋu akpɔe. Zkool, tso developer ma ke gbɔ, nye beléle na eteƒe eye wòdoa alɔ FROST multisig.
+> **Womegale Ywallet dzi kpɔm o.** Eƒe dɔwɔƒe ɖo kpe edzi be womawɔ yeye na Ironwood (NU6.3), eyata megate ŋu zɔna ɖe kɔsɔkɔsɔa dzi o eye afɔɖeɖe siwo le ete la mateŋu awu enu le mainnet dzi o. Wodzra axa sia ɖo be woate ŋu akpɔe. Zkool, tso developer ma ke gbɔ, nye beléle na eteƒe eye wòdoa alɔ FROST multisig.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -16,7 +16,7 @@
 
 ## Ƒo FROST bins nu ƒu
 
-[Github ƒe kadodo](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Github ƒe kadodo](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Zã repo si le etame eye nàwɔ ɖe mɔfiame siwo ku ɖe nuƒoƒoƒu ŋu dzi: 
 

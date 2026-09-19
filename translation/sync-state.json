@@ -169,11 +169,11 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:139afecde6ae9032cef1958500ae31a8a4bfb195aa773cd9999ecfe45d18cf8c",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
+      "src": "sha256:4f60041cf40f15fcb8ec21f095d1ec3b52a009ecac861e5400c2eb6b176b6aaa",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+restore-frontmatter-key+brand-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -1393,10 +1393,10 @@
       "edited": false
     },
     "guides/Free2z_Live.md": {
-      "src": "sha256:9f9991be50a26a62b2989410ea9cc7cf477f7f91e6beece5aa008c11a99d22b0",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     },
@@ -1521,11 +1521,11 @@
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:e2584b5d036a11f7c5dec5c467ad8f151d29aa25684a97d5b3fe5fd43092d460",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+jsx-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Zcash_Devtool.md": {
@@ -5431,11 +5431,11 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:139afecde6ae9032cef1958500ae31a8a4bfb195aa773cd9999ecfe45d18cf8c",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
+      "src": "sha256:4f60041cf40f15fcb8ec21f095d1ec3b52a009ecac861e5400c2eb6b176b6aaa",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+restore-frontmatter-key+brand-restore",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -6655,10 +6655,10 @@
       "edited": false
     },
     "guides/Free2z_Live.md": {
-      "src": "sha256:9f9991be50a26a62b2989410ea9cc7cf477f7f91e6beece5aa008c11a99d22b0",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     },
@@ -6783,11 +6783,11 @@
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:e2584b5d036a11f7c5dec5c467ad8f151d29aa25684a97d5b3fe5fd43092d460",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+jsx-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Zcash_Devtool.md": {
@@ -12447,11 +12447,11 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:139afecde6ae9032cef1958500ae31a8a4bfb195aa773cd9999ecfe45d18cf8c",
-      "src_commit": "86d3ecc894bdfa65c01a25387c7ffc18e04b5819",
-      "engine": "nllb",
+      "src": "sha256:4f60041cf40f15fcb8ec21f095d1ec3b52a009ecac861e5400c2eb6b176b6aaa",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+frontmatter-strip+restore-frontmatter",
+      "tool": "gt-static",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -13671,11 +13671,11 @@
       "edited": false
     },
     "guides/Free2z_Live.md": {
-      "src": "sha256:9f9991be50a26a62b2989410ea9cc7cf477f7f91e6beece5aa008c11a99d22b0",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -13799,11 +13799,11 @@
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:e2584b5d036a11f7c5dec5c467ad8f151d29aa25684a97d5b3fe5fd43092d460",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Zcash_Devtool.md": {
@@ -22971,11 +22971,11 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:139afecde6ae9032cef1958500ae31a8a4bfb195aa773cd9999ecfe45d18cf8c",
-      "src_commit": "86d3ecc894bdfa65c01a25387c7ffc18e04b5819",
-      "engine": "nllb",
+      "src": "sha256:4f60041cf40f15fcb8ec21f095d1ec3b52a009ecac861e5400c2eb6b176b6aaa",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+restore-frontmatter-key",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -24195,11 +24195,11 @@
       "edited": false
     },
     "guides/Free2z_Live.md": {
-      "src": "sha256:9f9991be50a26a62b2989410ea9cc7cf477f7f91e6beece5aa008c11a99d22b0",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -24323,11 +24323,11 @@
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:e2584b5d036a11f7c5dec5c467ad8f151d29aa25684a97d5b3fe5fd43092d460",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Zcash_Devtool.md": {
@@ -28233,11 +28233,11 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:139afecde6ae9032cef1958500ae31a8a4bfb195aa773cd9999ecfe45d18cf8c",
-      "src_commit": "86d3ecc894bdfa65c01a25387c7ffc18e04b5819",
-      "engine": "nllb",
+      "src": "sha256:4f60041cf40f15fcb8ec21f095d1ec3b52a009ecac861e5400c2eb6b176b6aaa",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+frontmatter-strip+restore-frontmatter+brand-restore",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -29457,11 +29457,11 @@
       "edited": false
     },
     "guides/Free2z_Live.md": {
-      "src": "sha256:9f9991be50a26a62b2989410ea9cc7cf477f7f91e6beece5aa008c11a99d22b0",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -29585,11 +29585,11 @@
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:e2584b5d036a11f7c5dec5c467ad8f151d29aa25684a97d5b3fe5fd43092d460",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Zcash_Devtool.md": {

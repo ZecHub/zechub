@@ -1,6 +1,6 @@
-# Ywallet FROST demo
+# Onyesho la Ywallet FROST
 
-> **Ywallet ni tena iimarishwe.** developer wake imethibitisha itakuwa si updated kwa Ironwood (NU6.3), hivyo inaweza tena kufuata mlolongo na hatua chini haiwezi kukamilika juu ya mainnet. ukurasa huu imehifadhiwa kwa ajili ya kumbukumbu. Zkool, kutoka developer huo, ni kudumishwa mrithi na inasaidia FROST multisig.
+> **Ywallet haitumiki tena.** Msanidi programu wake amethibitisha kuwa haitasasishwa kwa Ironwood (NU6.3), kwa hivyo haiwezi tena kufuata mnyororo na hatua zilizo hapa chini haziwezi kukamilishwa kwenye mainnet. Ukurasa huu umehifadhiwa kwa marejeleo. Zkool, kutoka kwa msanidi programu huyo huyo, ndiye mrithi anayedumishwa na anaunga mkono FROST multisig.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -14,11 +14,11 @@
 </div>
 
 
-## Kuweka pamoja FROST mitungi
+## Kusanya mapipa ya FROST
 
-[Kiungo Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Kiungo cha Github](https://github.com/ZcashFoundation/frost-zcash-demo)
 
-Tumia repo juu na kufuata maelekezo ya kuandaa: 
+Tumia repo hapo juu na ufuate maelekezo ya kukusanya: 
 
 ```bash
 cargo build --bin trusted-dealer
@@ -27,51 +27,51 @@ cargo build --bin coordinator
 cargo build --bin participants
 ```
 
-Bins itakuwa folda lengo.
+Mapipa yatakuwa folda lengwa.
 
-## Kuunda FROST UA
+## Unda FROST UA
 
 `./generateFROST_UA.sh`
 
 
 
-## Kuingiza UFVK katika Ywallet
+## Ingiza UFVK kwenye Ywallet
 
-Akaunti -> Bonyeza + na kuweka ufvk kutoka hatua juu
+Akaunti -> Bonyeza + na ubandike ufvk kutoka hatua iliyo hapo juu
 
-## Kuunda shughuli na Ywallet
+## Unda muamala na Ywallet
 
-Kuweka katika UA yoyote na kutuma tx. Hifadhi faili.
+Bandika kwenye UA yoyote na utume tx. Hifadhi faili.
 
-## Kuanza FROST kusaini utaratibu 
+## Anza mchakato wa kusaini FROST 
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-kwanza pembejeo ni eneo la tx ghafi kutoka hatua ya juu
-pili ya kuingia ni eneo na jina la saini tx unataka matangazo
-This is part where you tell FROST which transction you want everyone to sign
+Ingizo la kwanza ni eneo la tx mbichi kutoka hatua iliyo hapo juu
+Ingizo la pili ni eneo na jina la tx iliyosainiwa unayotaka kutangaza
+Hii ni sehemu ambapo unamwambia FROST ni muamala gani unataka kila mtu asaini
 
-## Kuanza Coordinator
+## Mratibu wa Anza
 
 `./runCoordinator.sh`
 
-Hii kuratibu kila mshiriki saini na inajenga kundi la sahihi
+Hii inaratibu saini ya kila mshiriki na kuunda saini ya kikundi
 
-## Kuwa kila mshiriki saini kwa ajili ya shughuli hii
+## Kila Mshiriki asaini kwa ajili ya muamala huu
 
 ```bash
 ./participantSign.sh key-package-1.json
 ./participantSign.sh key-package-2.json
 ```
 
-## Kukamilisha Imesainiwa Transaction
+## Kamilisha Muamala uliosainiwa
 
-Katika dirisha la uratibu, nakala saini ya kikundi ambayo ni pato na kuweka ndani ya FROST kusainiwa dirisha.
-Hii kukamilisha FROST kusaini na pato 'mysingedtx'
+Katika dirisha la mratibu, nakili sahihi ya kikundi inayotolewa na uibandike kwenye dirisha la kusaini la FROST.
+Hii itakamilisha utiaji saini wa FROST na kutoa 'mysingedtx'
 
 
-## Kutangaza shughuli yako na Ywallet
+## Tangaza Muamala wako na Ywallet
 
-Bonyeza 'Zaidi' chini kulia upande wa Ywallet na kupata 'Broadcast'. Kupata 'mysignedtx' na bonyeza ok.
+Bonyeza 'Zaidi' upande wa chini kulia wa Ywallet na utafute 'Broadcast'. Tafuta 'mysignedtx' na ubofye sawa.
 
-Kama kila kitu kazi utapata shughuli ID :)
+Ikiwa kila kitu kitafanya kazi utapata kitambulisho cha muamala :)

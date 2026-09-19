@@ -1,195 +1,195 @@
-[!Edit Ukurasa](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Usanidi wa Akaunti + Mafunzo ya Kuishi
+# Free2z: Usanidi wa akaunti + Mafunzo ya utiririshaji wa moja kwa moja
 
 ## Utangulizi
 
-Free2Z is a platform for creators and supporters to connect and achieve their goals. Free2Z provides tools for creators to showcase their talents and raise funds for their projects without compromising privacy. Supporters can find and support causes they believe in.
+Free2Z ni jukwaa la waumbaji na wafuasi kuungana na kufikia malengo yao. Free2Z hutoa zana kwa waumbaji kuonyesha vipaji vyao na kuchangisha fedha kwa ajili ya miradi yao bila kuathiri faragha. Wafuasi wanaweza kupata na kuunga mkono sababu wanazoamini.
 
-## Unda akaunti yako
+## Fungua akaunti yako
 
-Hivi sasa, kuna njia mbili za kuunda akaunti yako kwenye Free2Z: 
-1. Chagua jina la mtumiaji na password. 
+Kwa sasa, kuna njia mbili za kufungua akaunti yako kwenye Free2Z: 
+1. Chagua jina la mtumiaji na nenosiri. 
 2. Unganisha akaunti yako ya Twitter. 
 
-Kuunda akaunti au kuingia, tembelea https://free2z.cash/ na bonyeza kitufe cha 'CREATE'.
+Ili kufungua akaunti au kuingia, tembelea https://free2z.cash/ na ubofye kitufe cha 'UNDA'.
 
-[Fomu ya kuingia/kujiandikisha](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+![Login/signup form](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
-fomu ya kuingia / kujisajili itaonekana kwenye kivinjari chako. Chagua jina lako la mtumiaji na nywila kali - hii itakuwa habari yako ya kuingia. Suluhisha captcha na bonyeza kitufe cha 'Ingiza' ili kuunda akaunti yako.
+Fomu ya kuingia/kujisajili itaonekana kwenye kivinjari chako. Chagua jina lako la mtumiaji na nenosiri thabiti - hii itakuwa taarifa yako ya kuingia. Tatua captcha na ubofye kitufe cha 'Ingiza' ili kuunda akaunti yako.
 
-[Username na password kuingia fomu](/content-images/image-2023-11-19-133141052-0387984be1.webp)
+![Username and password entry form](/content-images/image-2023-11-19-133141052-0387984be1.webp)
 
-Vinginevyo, unaweza kuunda akaunti ya Free2Z kwa kuunganisha akaunti yako ya Twitter. Kwa kufanya hivyo, bonyeza kwenye nembo ya Twitter karibu na 'Ingia na', na utaulizwa uunganishe akaunti yako za Twitter.
+Vinginevyo, unaweza kuunda akaunti ya Free2Z kwa kuunganisha akaunti yako ya Twitter. Ili kufanya hivyo, bofya nembo ya Twitter iliyo karibu na 'Ingia na', na utaombwa kuunganisha akaunti yako ya Twitter.
 
-[Chaguo la kuingia kwenye Twitter](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
+![Twitter login option](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
 
-Bofya **Authorize app** ili kuunganisha akaunti yako ya Twitter na Free2Z.
+Bonyeza **Idhinisha programu** ili kuunganisha akaunti yako ya Twitter kwenye Free2Z.
 
-## Kubinafsisha profile yako
+## Binafsisha wasifu wako
 
-After your account is created, you will be redirected to your Free2Z profile page. If you created your account by connecting your Twitter, most of the fields will be automatically filled. If you created an account by entering a username and password, you should input your information here. You can use a pseudonym instead of your real name.
+Baada ya akaunti yako kufunguliwa, utaelekezwa kwenye ukurasa wako wa wasifu wa Free2Z. Ukifungua akaunti yako kwa kuunganisha Twitter yako, sehemu nyingi zitajazwa kiotomatiki. Ukifungua akaunti kwa kuingiza jina la mtumiaji na nenosiri, unapaswa kuingiza taarifa zako hapa. Unaweza kutumia jina bandia badala ya jina lako halisi.
 
-[Default tupu kichwa cha profile](/content-images/default-header-a11eb8328f.webp)
+![Default empty profile header](/content-images/default-header-a11eb8328f.webp)
 
-Ni kabisa boring sasa hivi, hivyo hebu kufanya hivyo zaidi ya kuvutia kwa kuanzisha avatar na bendera. interface Free2Z hufanya hatua hii rahisi sana kwa kutumia kifungo upload (mkia juu kulia).
+Inachosha sana hivi sasa, kwa hivyo hebu tuifanye iwe ya kuvutia zaidi kwa kuweka avatar na bango. Kiolesura cha Free2Z hurahisisha hatua hii kwa kutumia kitufe cha kupakia (mshale wa juu kulia).
 
-[Avatar na bendera kupakia vifungo](/content-images/avatar-and-banner-bd20d0bbfb.webp)
+![Avatar and banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
 
 Unaweza kuona matokeo juu ya ukurasa.
 
-[Profile ukurasa baada ya customization](/content-images/resultatpage-f4ddacb8b8.webp)
+![Profile page after customization](/content-images/resultatpage-f4ddacb8b8.webp)
 
-Ah, bora zaidi! Kama una baadhi ya ujuzi wa kisanii, unaweza kufanya yako Free2Z profile ukurasa kuangalia ajabu! Andika maelezo mazuri kwa ajili ya ukurasa wako. Unaweza kuzungumza kuhusu wewe mwenyewe au kuelezea aina ya maudhui kwamba wengine wanaweza kutarajia kutoka kwenu. (Hatua: Tumia Markdown syntax kubinafsisha maelezo yako!)
+Ah, bora zaidi! Ukiwa na ujuzi fulani wa kisanii, unaweza kufanya ukurasa wako wa wasifu wa Free2Z uonekane wa kushangaza! Andika maelezo mazuri kwa ukurasa wako. Unaweza kuzungumza kukuhusu au kuelezea aina ya maudhui ambayo wengine wanaweza kutarajia kutoka kwako. (Ushauri: Tumia sintaksia ya alama ili kubinafsisha maelezo yako!)
 
-[Editing uwanja wa maelezo](/content-images/edit-description-b52afabec1.webp)
+![Editing the description field](/content-images/edit-description-b52afabec1.webp)
 
-Usisahau kutoa anwani yako ya Zcash iliyohifadhiwa, ili wafuasi waweze kuchangia moja kwa moja kwako!
+Usisahau kutoa anwani yako iliyolindwa ya Zcash, ili wafuasi waweze kukuchangia moja kwa moja!
 
-[Zcash ulinzi anwani uwanja](/content-images/p2p-address-b89f035bd9.webp)
+![Zcash shielded address field](/content-images/p2p-address-b89f035bd9.webp)
 
-Hatua ya mwisho ya kukamilisha ukurasa wako kuanzisha ni kuweka 'Member Bei'. Hii ni bei katika 2Zs (Tuzies) kwamba watumiaji wengine kulipa kujiunga na ukurasa wako! (Zaidi juu ya 2ZS baadaye).
+Hatua ya mwisho ya kukamilisha usanidi wa ukurasa wako ni kuweka 'Bei ya Mwanachama'. Hii ni bei katika 2Z (Tuzies) ambayo watumiaji wengine watalipa ili kujisajili kwenye ukurasa wako! (Zaidi kuhusu 2Z baadaye).
 
-[Mjumbe kuweka bei](/content-images/member-price-2dafd7e399.webp)
+![Member price setting](/content-images/member-price-2dafd7e399.webp)
 
-Hatimaye, bonyeza kitufe cha 'Update Profile' kukamilisha profile yako ya kuanzisha!
+Hatimaye, bofya kitufe cha 'Sasisha Wasifu' ili kukamilisha usanidi wa wasifu wako!
 
-## Ushirikiano na 2Zs
+## Usajili na 2Z
 
-Free2Z inaruhusu watumiaji kujiandikisha kwa wabunifu wao favorite na kupata huduma ya kipekee na wanachama tu maudhui. Muumba lazima kusanidi kiwango cha chini cha 2Zs kwa usajili. 
+Free2Z inaruhusu watumiaji kujisajili kwa waundaji wao wanaowapenda na kupata ufikiaji wa vipengele vya kipekee na maudhui ya wanachama pekee. Muundaji anapaswa kusanidi kiwango cha chini cha 2Z kwa usajili. 
 
-2Zs au Tuzies ni mikopo ya ndani ya programu inayotumiwa katika Free2Z kwa madhumuni mengi, pamoja na: 
-1. Kujiunga na wabunifu 
-2. Kuongeza mwonekano wa ukurasa Free2Z 
-3. Kufanya michango kwa waumbaji 
+2Z au Tuzies ni salio za kidijitali za ndani ya programu zinazotumika katika Free2Z kwa madhumuni mengi, ikiwa ni pamoja na: 
+1. Kujisajili kwa waundaji 
+2. Kuongeza mwonekano wa ukurasa wa Free2Z 
+3. Kutoa michango kwa waumbaji 
 
-Unaweza kuona mikopo yako 2Zs katika kichwa cha ukurasa wako profile.
+Unaweza kuona salio lako la 2Z kwenye kichwa cha ukurasa wako wa wasifu.
 
-! [2Zs / Tuzies usawa katika kichwa](/content-images/tuzis-balance-9d6a9eff7f.webp)
+![2Zs / Tuzies balance in header](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
-Unaweza kununua 2Zs zaidi na Zcash kwa kubonyeza juu ya 2ZS yako salio. Kiasi cha chini kwa ajili ya kununua ni 0.05 ZEC, na kiwango cha ubadilishaji wa sasa ni 0. 05 ZEC = 10 2Z.
+Unaweza kununua 2Z zaidi ukitumia Zcash kwa kubofya salio lako la 2Z. Kiasi cha chini cha kununua ni 0.05 ZEC, na kiwango cha sasa cha ubadilishaji ni 0.05 ZEC = 10 2Zs.
 
-[Kununua 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
+![Buying 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
 
-## Kutoa Michango na Kujiandikisha
+## Kuchangia na kujisajili
 
-Mara baada ya kupata muumbaji wewe kama, unaweza kuonyesha shukrani yako kwa kuchangia na kujiunga nao. michango yote kwenda moja kwa moja kwa mfuko wa muumbaji. Kama mfano, hebu kujiunga na [Free2Z mwenyewe ukurasa](https://free2z.cash/free2z).
+Ukishapata muundaji unayempenda, unaweza kuonyesha shukrani yako kwa kumchangia na kumsajili. Michango yote huenda moja kwa moja kwenye pochi ya muundaji. Kwa mfano, hebu tujiandikishe [Ukurasa wa Free2Z mwenyewe](https://free2z.cash/free2z).
 
-[Free2Z ukurasa rasmi](/content-images/free2z-page-94c5fd5f4f.webp)
+![Free2Z official page](/content-images/free2z-page-94c5fd5f4f.webp)
 
-Ili kujiunga na ukurasa, wote unahitaji kufanya ni bonyeza icon kujiunga kwenye kichwa cha ukurasa.
+Ili kujisajili kwenye ukurasa, unachohitaji kufanya ni kubofya aikoni ya kujisajili kwenye kichwa cha ukurasa.
 
-[Subscribe kifungo juu ya muumba ukurasa](/content-images/subscribe-to-creator-76c306d924.webp)
+![Subscribe button on creator page](/content-images/subscribe-to-creator-76c306d924.webp)
 
-Utaona kiwango cha chini cha kujiandikisha. Angalia kama una tuzis kutosha na bonyeza kujiandikisha .
+Utaona kiwango cha chini cha usajili. Thibitisha kama una watuzi wa kutosha na ubofye subscribe.
 
-[Kuthibitisha usajili popup](/content-images/confirm-subscribe-7381923e36.webp)
+![Confirm subscription popup](/content-images/confirm-subscribe-7381923e36.webp)
 
-### Toa kwa kutumia 2Zs au Zcash
+### Toa mchango kwa kutumia 2Z au Zcash
 
-Unaweza kuchangia moja kwa moja kwenye ukurasa wao, kwa kubonyeza ikoni ya muundaji wa Mfuko.
+Unaweza kuchangia moja kwa moja kwenye ukurasa wao, kwa kubofya aikoni ya Muundaji wa Mfuko.
 
-[Fund Muumba kifungo](/content-images/fund-creator-ac59aee7bf.webp)
+![Fund creator button](/content-images/fund-creator-ac59aee7bf.webp)
 
-Au, kutoka ndani ya chapisho, tafuta kitufe cha kuongezea kinachoelea. Kutoka hapa, unaweza kuchangia kwa muundaji au kukuza post kwenye Free2Z.
+Au, kutoka ndani ya chapisho, tafuta kitufe cha kuongeza kinachoelea. Kuanzia hapa, unaweza kuchangia kwa muundaji au kutangaza chapisho hilo kwenye Free2Z.
 
-! [Kitufe action vifungo ndani ya post](/content-images/post-floating-buttons-a1e2ef1102.webp)
+![Floating action buttons inside a post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
-## Kuishi Streaming
+## Utiririshaji wa Moja kwa Moja
 
-Jukwaa la Free2z linatoa huduma ya kushangaza inayoitwa Free2Z Live. Kwa zana hii, waundaji wanaweza kuanza mito ya moja kwa moja kwa wanachama waliosajiliwa. Baadhi ya huduma muhimu za Free 2z Live ni pamoja na: 
+Jukwaa la Free2z linatoa kipengele kizuri kinachoitwa Free2z Live. Kwa zana hii, waundaji wanaweza kuanzisha mitiririko ya moja kwa moja kwa wanachama waliojisajili. Baadhi ya vipengele muhimu vya Free2z Live ni pamoja na: 
 - Sauti na video 
 - Kushiriki skrini 
-- Uhariri wa ushirikiano wa kificho 
-- Ongea 
-- Whiteboarding 
+- Uhariri wa msimbo wa ushirikiano 
+- Gumzo 
+- Ubao Mweupe 
 - Na mengi zaidi!
 
-### Nini unaweza kufanya na Free2z Live
+### Unaweza kufanya nini na Free2z Live
 
-Free2z Live ni zana yenye nguvu, kuruhusu wabunifu kutiririsha aina yoyote ya maudhui. Hapa ni mifano michache ya aina ya yaliyomo unaweza mkondo na Free2Z Live: 
+Free2z Live ni zana yenye nguvu, inayowaruhusu waundaji kutiririsha aina yoyote ya maudhui. Hapa kuna mifano michache ya aina ya maudhui unayoweza kutiririsha ukitumia Free2z Live: 
 - Mafunzo na maonyesho 
 - Maonyesho na matukio 
 - Miradi ya ushirikiano 
-- Utoaji wa habari moja kwa moja na uandishi wa habari 
-- Uwezo wako wa kubuni ni mdogo sana!
+- Kuripoti moja kwa moja na uandishi wa habari 
+- Ubunifu wako ndio kikomo!
 
-### Jinsi ya kwenda kuishi
+### Jinsi ya kuanza moja kwa moja
 
-Ni rahisi sana kuanza mkondo wa moja kwa moja na Free2z Live. Lakini kuna mahitaji machache kabla ya kuanza mkondoni wako. 
-1. Muumba ** lazima ** kuwa na kiwango cha chini cha ** mshiriki bei ** ya 10 2Zs. 
-2. Muumba ** lazima ** kuwa na salio la angalau 150 2Zs katika akaunti yao. 
+Ni rahisi sana kuanzisha mtiririko wa moja kwa moja ukitumia Free2z Live. Lakini kuna mahitaji machache kabla ya kuanza mtiririko wako. 
+1. Muundaji **lazima** awe na **bei ya chini kabisa ya uanachama** ya 10 2Zs. 
+2. Muundaji **lazima** awe na salio la angalau 150 2Zs katika akaunti yake. 
 
-Kama muumbaji hukutana **wote** ya masharti ya juu, icon aitwaye **Go Live** itakuwa inapatikana kwao katika ukurasa wao profile.
+Ikiwa muundaji atatimiza masharti yote mawili yaliyo hapo juu, aikoni inayoitwa **Nenda Moja kwa Moja** itapatikana kwake kwenye ukurasa wa wasifu wake.
 
-[Go Live kifungo](/content-images/go-live-4c8ac67505.webp)
+![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-To start a live stream, just click the **Go Live** button, and the Free2z app will ask for permission to use your microphone and webcam (if you have one). After you grant the necessary permissions, Free2z will ask you to enter a nickname that you want to use during the live stream. Once you have selected a nickname, click **Join** to start your live stream.
+Ili kuanzisha mtiririko wa moja kwa moja, bofya tu kitufe cha **Nenda Moja kwa Moja**, na programu ya Free2z itaomba ruhusa ya kutumia maikrofoni na kamera yako ya wavuti (ikiwa unayo). Baada ya kutoa ruhusa zinazohitajika, Free2z itakuomba uweke jina la utani unalotaka kutumia wakati wa mtiririko wa moja kwa moja. Ukishachagua jina la utani, bofya **Jiunge** ili kuanza mtiririko wako wa moja kwa moja.
 
-[Chagua jina la utani kwa ajili ya mkondo wa kuishi](/content-images/select-nickname-414444b992.webp)
+![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
-Na kufanyika! Wakati kuanza mkondo wa kuishi, profile yako itaonyesha icon kuonyesha kwamba wewe ni kuishi, hivyo wanachama wako wanaweza kujiunga na mkondo kuishi.
+Na imekamilika! Unapoanzisha mtiririko wa moja kwa moja, wasifu wako utaonyesha aikoni inayoonyesha kuwa uko moja kwa moja, ili waliojisajili wako waweze kujiunga na mtiririko wa moja kwa moja.
 
-[Kujiunga na livestream](/content-images/join-livestream-679334ba53.webp)
+![Joining a livestream](/content-images/join-livestream-679334ba53.webp)
 
-Watu wanapojiunga na mkondo wa moja kwa moja, wanaweza kuzungumza, kuomba kujiunga na jukwaa, kuingiliana kwa kupiga kura katika uchaguzi, na zaidi.
+Watu wanapojiunga na mtiririko wa moja kwa moja, wanaweza kupiga gumzo, kuomba kujiunga na jukwaa, kuingiliana kwa kupiga kura katika kura za maoni, na zaidi.
 
-![Mfano wa Free2z Live kikao](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Mfano wa Free2z Live kikao)_
+_(Mfano wa kipindi cha Free2z Live)_
 
-Free2z Live ni hodari na nguvu. Katika sehemu ya pili, I'll kutoa maelezo ya jumla ya utendaji wake na zana.
+Free2z Live ina matumizi mengi na yenye nguvu. Katika sehemu inayofuata, nitatoa muhtasari wa utendaji na zana zake.
 
-### Kuchunguza Free2z Live
+### Kuchunguza Free2z Moja kwa Moja
 
-This wiki-doc is not intended to be an in-depth guide to Free2z or Free2z Live. But here is a general overview of its tools.
+Hati hii ya wiki haikusudiwi kuwa mwongozo wa kina wa Free2z au Free2z Live. Lakini hapa kuna muhtasari wa jumla wa zana zake.
 
-Chini kushoto kwenye skrini, tunaona vifungo vichache.
+Chini kushoto mwa skrini, tunaona vitufe vichache.
 
-[Chini ya kushoto udhibiti](/content-images/free2z-live-left-60b450b01c.webp)
+![Bottom left controls](/content-images/free2z-live-left-60b450b01c.webp)
 
-Kazi nzuri hapa ni uwezo wa kushiriki screen yako hivyo watumiaji wengine wanaweza kuona nini unafanya.
+Kipengele kizuri hapa ni uwezo wa kushiriki skrini yako ili watumiaji wengine waweze kuona unachofanya.
 
-Chini tunaweza kupata chaguzi kuishi mkondo.
+Chini tunaweza kupata chaguo za utiririshaji wa moja kwa moja.
 
-[Chini chombo bar](/content-images/free2z-live-bottom-ae64a6960c.webp)
+![Bottom toolbar](/content-images/free2z-live-bottom-ae64a6960c.webp)
 
 Baadhi ya chaguzi muhimu hapa ni: 
-- Mute / unmute kipaza sauti 
-- Kuwezesha / kulemaza webcam 
+- Zima sauti / fungua maikrofoni 
+- Washa / zima kamera ya wavuti 
 - Ondoka jukwaani 
-- Zima spika zote 
+- Zima sauti za spika zote 
 - Ondoka 
 
-Ili kumaliza mkondo wa moja kwa moja, unapaswa kubofya kitufe cha 'Ondoka', na kisha bofya 'Kimaliza mkutano kwa wote' kumaliza mkutano wa washiriki wote.
+Ili kukomesha mtiririko wa moja kwa moja, unapaswa kubofya kitufe cha 'Ondoka', kisha ubofye 'Komesha mkutano kwa wote' ili kusimamisha mkutano kwa washiriki wote.
 
-[Kushoto kulia mwingiliano jopo](/content-images/free2z-live-right-c83cb6d209.webp)
+![Bottom right interaction panel](/content-images/free2z-live-right-c83cb6d209.webp)
 
-Vifungo chini kulia vyenye kazi zinazohusiana na mwingiliano wa mkondo wa kuishi, kama vile: 
-- **Chat**: Hii inaruhusu washiriki kuzungumza na kila mmoja na mwenyeji wakati wa mkondo wa moja kwa moja. 
-- Uchunguzi: Hii inaruhusu mwenyeji kuunda uchunguzi na kukusanya maoni kutoka kwa washiriki. 
-- **Orodha ya washiriki**: Hii inaonyesha orodha ya washiriki katika mkondo wa kuishi. 
-- ** Plugins **: Hii inaruhusu mwenyeji kuongeza Plug-ins na upanuzi ili kuboresha uzoefu wa mkondo wa moja kwa moja.
+Vitufe vya chini kulia vina vitendaji vinavyohusiana na mwingiliano wa mtiririko wa moja kwa moja, kama vile: 
+- **Gumzo**: Hii inaruhusu washiriki kupiga gumzo wao kwa wao na mwenyeji wakati wa utiririshaji wa moja kwa moja. 
+- **Kura**: Hii inaruhusu mwenyeji kuunda kura za maoni na kukusanya maoni kutoka kwa washiriki. 
+- **Orodha ya washiriki**: Hii inaonyesha orodha ya washiriki katika mtiririko wa moja kwa moja. 
+- **Programu-jalizi**: Hii inaruhusu mwenyeji kuongeza programu-jalizi na viendelezi ili kuboresha hali ya utiririshaji wa moja kwa moja.
 
-[Plugins jopo](/content-images/free2z-live-plugins-e9a30ee355.webp)
+![Plugins panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
 
-Siyo kusudi la wiki-doc hii kuelezea Plugins zote, lakini mimi kweli moyo kujaribu kila mmoja, kama wote kutoa thamani kubwa mwingiliano kati ya waumbaji na watazamaji. Kuanzisha Plugin, bonyeza tu 'roketi' kifungo upande wa kulia.
+Sio kusudi la wiki-doc hii kuelezea programu-jalizi zote, lakini ninakuhimiza sana ujaribu kila moja, kwani zote zinatoa thamani kubwa ya mwingiliano kati ya waundaji na watazamaji. Ili kuzindua programu-jalizi, bofya tu kitufe cha 'roketi' upande wa kulia.
 
-## Matokeo
+## Hitimisho
 
-Kwa kumalizia, Free2z ni jukwaa la anuwai kwa waundaji kuonyesha uwezo wao, kushiriki maarifa na kukusanya fedha kwa miradi yao, na kushirikiana na wafuasi wao kupitia zana yenye nguvu ya Free2Z Live.
+Kwa kumalizia, Free2z ni jukwaa linaloweza kutumika kwa waumbaji kuonyesha uwezo wao, kushiriki maarifa na kuchangisha fedha kwa ajili ya miradi yao, na kushirikiana na wafuasi wao kupitia zana yenye nguvu ya Free2z Live.
 
 ----
 
 ### Rasilimali
 
 [Free2z](https://free2z.cash/)  
-[Free2z nyaraka](https://free2z.cash/docs/)  
-[2Z Maelezo ya jumla](https://free2z.cash/docs/2Zs/)  
-[Kujenga profile](https://free2z.cash/docs/creators/creating-a-profile)  
-[Ni nini Free2z Live?](https://free2z.cash/docs/creators/free2z-live)  
+[Nyaraka za Free2z](https://free2z.cash/docs/)  
+[Muhtasari wa 2Z](https://free2z.cash/docs/getting-started/tuzis)  
+[Kuunda wasifu](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[Free2z Live ni nini?](https://free2z.cash/docs/for-creators/free2z-live)  
 [Free2z kwa Wafuasi](https://free2z.cash/docs/category/for-supporters)
 
 ---
 
-Imeandikwa na James Katz kwa Zechub.
+_Imeandikwa na James Katz kwa ajili ya Zechub._
