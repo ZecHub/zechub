@@ -52,7 +52,7 @@ To vovo na blockchain ƒe fexeɖoɖo si me wokpɔa nu sia nu le ame dome la, Zim
 
 ### Eƒe Nɔnɔme Veviwo
 
-- ** Deposit once** on-chain (~75 seconds for Zcash confirmation) {Ðe ga ɖe nu zi ɖeka le kɔsiɖa me}
+- **Deposit once** on-chain (~75 seconds for Zcash confirmation) (Ðe ga ɖe nu zi ɖeka le kɔsiɖa me)
 - **Aƒeme didi siwo me seɖoƒe meli na o** le kpekpea ƒe gɔmedzedze megbe, nuwɔwɔ aduadu aɖeke mele biabia ɖesiaɖe ŋu o.
 - **Gbagbadzedzewo** tsɔa Zcash ƒe Orchard ɖoɖowɔɖi ɖea ame si ɖo ga ɖe wo me, amesi xɔe kple eƒe homea dzi kpɔtɔna le adzame.
 - **Tagbanɔamedziwo ƒe fexexlẽ** zãa T-adrɛs siwo le te ɖe kuxi ɖesiaɖe dzi tsɔ xea mɔ na wo me toto ake evɔ womena ame aɖeke ŋuti nyatakaka o.

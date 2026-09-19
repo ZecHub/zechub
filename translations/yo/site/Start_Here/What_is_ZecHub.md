@@ -33,7 +33,7 @@ Ti o ba ti wa ni titun si Zcash, lo [yi guide](/start-here/new-user-guide).****
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>

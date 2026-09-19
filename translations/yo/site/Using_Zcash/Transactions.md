@@ -24,7 +24,7 @@ ZEC is a widely-used digital asset for payments, offering strong privacy feature
     src="https://www.youtube.com/embed/bZM3o_eIovU"
     title="Zcash Explained: Zcash Shielded Transactions"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -49,7 +49,7 @@ Transparent addresses are still useful in some situations, especially when an ex
     src="https://www.youtube.com/embed/R-krX1UpsIg"
     title="Learn Zcash shielded wallets!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>

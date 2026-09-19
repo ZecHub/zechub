@@ -5787,7 +5787,7 @@
       "src_commit": "47d89c3674c1a084a65b77b6fb0cc90d1a882a55",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -6683,7 +6683,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -6787,7 +6787,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+jsx-restore",
       "edited": false
     },
     "guides/Zcash_Devtool.md": {
@@ -28341,7 +28341,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "Start_Here/Using_This_Wiki.md": {
@@ -28365,7 +28365,7 @@
       "src_commit": "d7a1e6c69d92b9953cb92fd433faac01fe0204d1",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+jsx-restore",
       "edited": false
     },
     "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
@@ -28533,7 +28533,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "Using_Zcash/Transparent_Exchange_Addresses.md": {
@@ -28709,7 +28709,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "Zcash_Community/ZCAP.md": {
@@ -28749,7 +28749,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+jsx-restore",
       "edited": false
     },
     "Zcash_Community/Zcash_Global_Ambassadors.md": {
@@ -28997,7 +28997,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "Zcash_Social_Media/Zero_to_Zero-knowledge.md": {
@@ -29029,7 +29029,7 @@
       "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "Zcash_Tech/FROST.md": {
@@ -29357,7 +29357,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -29405,7 +29405,7 @@
       "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -29485,7 +29485,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -29549,7 +29549,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "guides/Using_ZEC_in_DeFi.md": {
@@ -29589,7 +29589,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+jsx-restore",
       "edited": false
     },
     "guides/Zcash_Devtool.md": {

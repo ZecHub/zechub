@@ -11,7 +11,7 @@
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
     title="How to Swap Ethereum to Zcash on LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>

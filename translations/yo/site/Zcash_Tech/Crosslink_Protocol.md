@@ -140,7 +140,7 @@ Crosslink mọ ipa ipilẹ ti awọn oniwakiri PoW ni idagbasoke Zcash lakoko ig
        src="https://www.youtube.com/embed/O4wQi_i7k0I"
        title="Crosslink"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+       allowFullScreen
        loading="lazy"
      />
 </div>

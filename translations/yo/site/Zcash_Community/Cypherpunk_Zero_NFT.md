@@ -29,7 +29,7 @@ We have seen too many projects over-promise and under deliver on their NFT roadm
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
     title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
