@@ -50,10 +50,25 @@ const NOT_A_MISSPELLING = new Set(["Seth"]);
 // github.com/zechub/zechub is correctly lowercase and must never be rewritten.
 function proseMask(md) {
   const lines = md.split("\n");
-  let fenced = false;
+  let fence = null, html = false;        // fence = the opening run, e.g. "````"
   return lines.map((l) => {
-    if (/^\s*(```|~~~)/.test(l)) { fenced = !fenced; return ""; }
-    if (fenced) return "";
+    const m = l.match(/^\s*(`{3,}|~{3,})/);
+    if (m) {
+      // CommonMark: a fence closes only on the SAME character and at least as
+      // many of them. Toggling on any fence let an inner ``` close an outer
+      // ````, so the rest of the block was scanned as prose.
+      if (fence === null) { fence = m[1]; return ""; }
+      if (m[1][0] === fence[0] && m[1].length >= fence.length) { fence = null; return ""; }
+      return "";
+    }
+    if (fence !== null) return "";
+    // A 4-space indented block is code too. Without this the gate told a
+    // contributor to change the brand inside their shell example.
+    if (/^(\t| {4})/.test(l)) return "";
+    // Raw HTML blocks — <pre>, <code>, <script>, <style> — are not prose
+    // either, and this corpus embeds them for video and code samples.
+    if (/^\s*<\s*(pre|code|script|style)\b/i.test(l)) { html = true; return ""; }
+    if (html) { if (/<\s*\/\s*(pre|code|script|style)\s*>/i.test(l)) html = false; return ""; }
     return l
       .replace(/(`{1,4})[^\n]*?\1/g, (m) => " ".repeat(m.length))
       .replace(/\]\([^)\s]*\)/g, (m) => " ".repeat(m.length))
