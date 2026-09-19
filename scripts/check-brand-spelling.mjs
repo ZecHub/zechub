@@ -48,6 +48,11 @@ const NOT_A_MISSPELLING = new Set(["Seth"]);
 
 // Prose only. A URL, a code span and a fenced block are not prose: the path
 // github.com/zechub/zechub is correctly lowercase and must never be rewritten.
+//
+// YAML front matter IS scanned, deliberately. A title is read by people and by
+// the menu generator, so a brand misspelt there is as wrong as one in the body —
+// and a rule that holds everywhere is easier to trust than one with a carve-out.
+// Six pages carry front matter and one of them carries a wrong spelling.
 function proseMask(md) {
   const lines = md.split("\n");
   let fence = null, html = false;        // fence = the opening run, e.g. "````"
