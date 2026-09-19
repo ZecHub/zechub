@@ -15871,7 +15871,7 @@
       "src_commit": "099671de82d131c7fcfae650d8807dc19d1665eb",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+brand-restore",
+      "tool": "gpt-5.4+brand-restore+heading-separator",
       "edited": false
     },
     "Privacy_Tools/Secure_Messengers.md": {
