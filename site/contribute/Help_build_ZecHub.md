@@ -37,8 +37,6 @@ We post issues for tasks that we currently have bounties open every Monday. You 
 
 [ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
-[ZecHub-Namada Github Issues](https://app.dework.xyz/zechub-2424)
-
 
 
 If there are other ways you'd like to contribute, please message ZecHub ([@ZecHub](https://twitter.com/zechub)) on Twitter or Join our [Discord](https://discord.gg/zcash).
