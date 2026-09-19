@@ -86,7 +86,7 @@ O trabalho relacionado já é visível. [Zakura](https://zechub.wiki/zcash-tech/
 - **Tachyon não está ativo.** Nenhuma wallet o utiliza hoje, e nenhuma atualização o ativou.
 - **Tachyon não é o mesmo que Ironwood.** Ironwood foi ativado em julho de 2026 e tratou do conjunto Orchard e da catraca. Tachyon é uma proposta distinta e posterior sobre escalabilidade.
 - **Tachyon não reduz a privacidade.** O objetivo é manter a indistinguibilidade do livro-razão enquanto elimina o custo de escalabilidade, não trocar privacidade por velocidade.
-- **A verificação de ZK-SNARK nunca foi o estrangulamento.** A proposta deixa claro que a parte lenta é a forma como as wallets descobrem e coordenam o estado, e não o custo de verificar provas.
+- **A verificação de zk-SNARK nunca foi o estrangulamento.** A proposta deixa claro que a parte lenta é a forma como as wallets descobrem e coordenam o estado, e não o custo de verificar provas.
 - **"Destinado a NU7" não é um compromisso.** O que entra em NU7 é decidido por votação.
 
 <br/>

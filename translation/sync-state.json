@@ -2847,7 +2847,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brand-case",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -7285,7 +7285,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brand-case",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
@@ -8101,7 +8101,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+brand-case",
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
@@ -9863,7 +9863,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brand-case",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -13371,7 +13371,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+brand-case",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -15109,7 +15109,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+brand-case",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -16287,7 +16287,7 @@
       "src_commit": "a7088bd66279fea1abde028ad0771c7f833074e7",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brand-case",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
@@ -18633,7 +18633,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brand-case",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -20387,7 +20387,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brand-case",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -22525,7 +22525,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+brand-case",
       "edited": false
     },
     "guides/Using_ZEC_Privately.md": {
@@ -27403,7 +27403,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brand-case",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {

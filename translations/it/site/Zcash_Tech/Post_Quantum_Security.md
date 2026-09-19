@@ -93,7 +93,7 @@ In breve:
 | Indirizzi Transparent | Indirizzi pubblici e grafo pubblico delle transazioni | Rischi simili ad altre blockchain Transparent |
 | Autorizzazione alla spesa | La prova che un utente è autorizzato a spendere | Gli schemi di firma potrebbero necessitare sostituzione o migrazione |
 | Note Shielded | Registrazioni private di valore nei pool Shielded | Alcuni componenti potrebbero necessitare nuove assunzioni o strumenti di recupero |
-| ZK-SNARKs | Prove che le transazioni Shielded sono valide | Le assunzioni del sistema di prove necessitano revisione |
+| zk-SNARKs | Prove che le transazioni Shielded sono valide | Le assunzioni del sistema di prove necessitano revisione |
 | Scansione del wallet | Come i wallet trovano e decifrano le note ricevute | L'accordo di chiave e la cifratura delle note necessitano revisione |
 | Migrazione | Spostamento dei fondi verso una crittografia più sicura | Deve evitare sia la perdita di fondi sia le fughe di privacy |
 
@@ -171,7 +171,7 @@ Sostituire le firme non è sufficiente. Il design Shielded di Zcash dipende anch
 
 Il lavoro futuro potrebbe richiedere la revisione o la sostituzione di:
 
-- Assunzioni degli ZK-SNARKs
+- Assunzioni degli zk-SNARKs
 - Impegni polinomiali
 - Hash di sfida Fiat-Shamir
 - Impegni sulle note
@@ -248,7 +248,7 @@ Per i principianti, l'idea principale è semplice: la privacy oggi riduce l'espo
 
 - [Pool Shielded](/using-zcash/shielded-pools) - Come le transazioni Shielded di Zcash proteggono i dettagli delle transazioni
 - [Halo](/zcash-tech/halo) - Il sistema di prove di Zcash senza trusted setup
-- [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Come funzionano le prove a conoscenza zero in Zcash
+- [ZKP & zk-SNARKS](/zcash-tech/zk-snarks) - Come funzionano le prove a conoscenza zero in Zcash
 - [Viewing Keys](/zcash-tech/viewing-keys) - Come funziona la divulgazione selettiva per Zcash Shielded
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - Futuri asset Shielded e supporto agli asset privati
 - [La Privacy come Principio Fondamentale](/privacy/privacy-as-a-core-principle) - Perché la privacy finanziaria è importante
