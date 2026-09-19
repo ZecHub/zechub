@@ -16079,7 +16079,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "Start_Here/What_is_ZecHub.md": {
@@ -21789,7 +21789,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Electric_Coin_Company.md": {
@@ -21869,7 +21869,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Zingo_Labs.md": {
