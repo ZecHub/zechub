@@ -29,7 +29,11 @@ const { preserveVerbatim = [], equivalentForms = [] } = JSON.parse(readFileSync(
 // A term whose only difference from another is case cannot be judged by case.
 // Equivalent forms are declared same-term, so any of them is correct here too.
 const okForms = new Map();
-for (const t of preserveVerbatim) okForms.set(t.toLowerCase(), new Set([t]));
+for (const t of preserveVerbatim) {
+  const k = t.toLowerCase();
+  if (!okForms.has(k)) okForms.set(k, new Set());
+  okForms.get(k).add(t);          // merge: a plain set() would drop one silently
+}
 for (const group of equivalentForms)
   for (const t of group) {
     const k = t.toLowerCase();
@@ -57,33 +61,29 @@ function proseMask(md) {
   const lines = md.split("\n");
   let fence = null, html = false;        // fence = the opening run, e.g. "````"
   return lines.map((l) => {
+    // Raw HTML first. Inside <pre>/<code> a ``` is literal text, not a fence:
+    // letting the fence branch see it opened a phantom fence that then
+    // swallowed the closing </pre>, and the gate silently skipped the rest of
+    // the file — the same failure as the one-line element, by another route.
+    if (html) { if (/<\s*\/\s*(pre|code|script|style)\s*>/i.test(l)) html = false; return ""; }
+    if (/^\s*<\s*(pre|code|script|style)\b/i.test(l)) {
+      if (!/<\s*\/\s*(pre|code|script|style)\s*>/i.test(l)) html = true;
+      return "";
+    }
     const m = l.match(/^\s*(`{3,}|~{3,})/);
     if (m) {
-      // CommonMark: a fence closes only on the SAME character and at least as
-      // many of them. Toggling on any fence let an inner ``` close an outer
-      // ````, so the rest of the block was scanned as prose.
       if (fence === null) { fence = m[1]; return ""; }
       if (m[1][0] === fence[0] && m[1].length >= fence.length) { fence = null; return ""; }
       return "";
     }
     if (fence !== null) return "";
-    // A 4-space indented block is code too. Without this the gate told a
-    // contributor to change the brand inside their shell example.
     if (/^(\t| {4})/.test(l)) return "";
-    // Raw HTML blocks — <pre>, <code>, <script>, <style> — are not prose
-    // either, and this corpus embeds them for video and code samples.
-    if (/^\s*<\s*(pre|code|script|style)\b/i.test(l)) { html = true; return ""; }
-    if (html) { if (/<\s*\/\s*(pre|code|script|style)\s*>/i.test(l)) html = false; return ""; }
     return l
-      .replace(/(`{1,4})[^\n]*?\1/g, (m) => " ".repeat(m.length))
-      .replace(/\]\([^)\s]*\)/g, (m) => " ".repeat(m.length))
-      // An HTML attribute value is a path or a URL, not prose. The markdown
-      // form ![x](/content-images/Free2z.png) was already masked; the HTML
-      // form was not, so the gate asked a contributor to rename a file and
-      // break the image.
-      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*"[^"]*"/gi, (m) => " ".repeat(m.length))
-      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*'[^']*'/gi, (m) => " ".repeat(m.length))
-      .replace(/https?:\/\/[^\s)\]]+/g, (m) => " ".repeat(m.length));
+      .replace(/(`{1,4})[^\n]*?\1/g, (x) => " ".repeat(x.length))
+      .replace(/\]\([^)\s]*\)/g, (x) => " ".repeat(x.length))
+      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*"[^"]*"/gi, (x) => " ".repeat(x.length))
+      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*'[^']*'/gi, (x) => " ".repeat(x.length))
+      .replace(/https?:\/\/[^\s)\]]+/g, (x) => " ".repeat(x.length));
   });
 }
 
@@ -116,13 +116,13 @@ for (const f of files) {
         // appears in paths and handles. Only a form that is already capitalised
         // somewhere — Free2z, ZCash, Zechub, Ywallet — is unambiguously a
         // misspelt brand.
-        if (m[1] === m[1].toLowerCase() && m[1] !== [...forms][0]) continue;
+        if (m[1] === m[1].toLowerCase()) continue;
         if (NOT_A_MISSPELLING.has(m[1])) continue;
         // A line written entirely in capitals is a styled heading — "ZCASH
         // ECOSYSTEM DIGEST | JULY 6" — and telling its author to write "Zcash"
         // is a style opinion, not a spelling correction. Only whole-line caps
         // qualify: a lone ZCASH inside ordinary prose is still flagged.
-        if (m[1] === m[1].toUpperCase() && !/[a-z]/.test(line.replace(/[^A-Za-z]/g, "")) ) continue;
+        if (m[1] === m[1].toUpperCase() && !/[a-z]/.test(line.replace(/[^A-Za-z]/g, ""))) continue;
         findings.push({ file: f, line: i + 1, col: m.index + 1, found: m[1], want: [...forms].join(" or ") });
       }
     }
