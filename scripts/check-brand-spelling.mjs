@@ -65,9 +65,20 @@ function proseMask(md) {
     // letting the fence branch see it opened a phantom fence that then
     // swallowed the closing </pre>, and the gate silently skipped the rest of
     // the file — the same failure as the one-line element, by another route.
-    if (html) { if (/<\s*\/\s*(pre|code|script|style)\s*>/i.test(l)) html = false; return ""; }
+    if (html) { if (/<\s*\/\s*(pre|code|script|style)\s*>/i.test(l) || /-->/.test(l)) html = false; return ""; }
+    if (/^\s*<!--/.test(l)) {
+      // An HTML comment is markup, not prose. Acting on an annotation inside
+      // one changes text no reader ever sees.
+      if (!/-->/.test(l)) html = true;
+      return "";
+    }
     if (/^\s*<\s*(pre|code|script|style)\b/i.test(l)) {
-      if (!/<\s*\/\s*(pre|code|script|style)\s*>/i.test(l)) html = true;
+      // Latch only when the element neither closes nor self-closes on this
+      // line. `<code/>` opened a block that no `</code>` ever closed, so the
+      // rest of the file was masked and the gate reported success on a page it
+      // had stopped reading — the fourth variant of that failure.
+      const closes = /<\s*\/\s*(pre|code|script|style)\s*>/i.test(l) || /\/\s*>/.test(l);
+      if (!closes) html = true;
       return "";
     }
     const m = l.match(/^\s*(`{3,}|~{3,})/);
