@@ -46,7 +46,7 @@ Video bi a ɛhwɛ nnɛyi sika kotoku a wɔabɔ ho ban mu ni:
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Zcash Shielded Wallets Explained"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -67,7 +67,7 @@ Nkyerɛkyerɛ a ɛfa sɛnea wobɛyɛ saa ho ni.
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -85,7 +85,7 @@ Sɛ wode ZEC bi hyɛ wo sika kotoku mu wie a, woasiesie wo ho sɛ wode kokoam as
     src="https://www.youtube.com/embed/tEfQaYPV0UE"
     title="Useful Tips when using Zcash 🔒"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

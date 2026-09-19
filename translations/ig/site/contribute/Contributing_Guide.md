@@ -22,7 +22,7 @@ ZecHub uses GitHub to manage community contribution. If you are new to GitHub, n
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -57,7 +57,7 @@ Nke a bụ ihe atụ nkuzi n'okpuru:
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
     title="WSL Install + Zcashd Compile/Transaction Tutorial"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -111,7 +111,7 @@ Zcash reyɛ nhwehwɛmu denneennen wɔ tu a wɔbɛtu akɔ Proof-of-Stake ho.
     src="https://www.youtube.com/embed/22a-ROcb3AQ"
     title="PoS designs"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

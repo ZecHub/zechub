@@ -166,7 +166,7 @@ A **faucet** jẹ iṣẹ ti o funni ni awọn owó TAZ ọfẹ fun idanwo:
     src="https://www.youtube.com/embed/XCGwwqLZILg"
     title="Zkool Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -184,7 +184,7 @@ A **faucet** jẹ iṣẹ ti o funni ni awọn owó TAZ ọfẹ fun idanwo:
     src="https://www.youtube.com/embed/To7WAkiBldA"
     title="Zingo Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

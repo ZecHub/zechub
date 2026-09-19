@@ -10,7 +10,7 @@ Mɔfiame sia na afɔɖeɖe ɖesiaɖe ƒe azɔlizɔzɔ le alesi woawɔ multisig a
     src="https://www.youtube.com/embed/eagkCIv3BlQ"
     title="Zkool Demo | The Successor to Ywallet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

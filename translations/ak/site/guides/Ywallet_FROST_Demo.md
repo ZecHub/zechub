@@ -8,7 +8,7 @@
     src="https://www.youtube.com/embed/3IZgxDqQNbw"
     title="FROST + Ywallet Transaction Demo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

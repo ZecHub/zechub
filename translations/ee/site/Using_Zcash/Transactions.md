@@ -24,7 +24,7 @@ ZEC nye dijitaal nunɔamesi si wozãna le afisiafi hena fexexe, si naa ameŋunya
     src="https://www.youtube.com/embed/bZM3o_eIovU"
     title="Zcash Explained: Zcash Shielded Transactions"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -49,7 +49,7 @@ Adrɛs siwo me kɔ la gakpɔtɔ ɖea vi le nɔnɔme aɖewo me, vevietɔ ne asit�
     src="https://www.youtube.com/embed/R-krX1UpsIg"
     title="Learn Zcash shielded wallets!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

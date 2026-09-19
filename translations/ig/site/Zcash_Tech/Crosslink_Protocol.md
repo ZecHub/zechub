@@ -140,7 +140,7 @@ Usoro nkwekọrịta abụọ a na-eme ka nkwa Zcash dịkwuo ike maka nzuzo, nk
        src="https://www.youtube.com/embed/O4wQi_i7k0I"
        title="Crosslink"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       kweeFullScreen
+       allowFullScreen
        loading="lazy"
      />
 </div>

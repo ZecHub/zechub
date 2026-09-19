@@ -82,7 +82,7 @@ Daira anaelezea Anchor nafasi (zcon3):
     src="https://www.youtube.com/embed/f6UToqiIdeY"
     title="Zcon3"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -140,7 +140,7 @@ Saa kwan a ɛwɔ adwene mmienu yi hyɛ Zcash botaeɛ a ɛfa kokoamsɛm, nkɔsoɔ
        src="https://www.youtube.com/embed/O4wQi_i7k0I"
        title="Crosslink"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       ma kwan maFullScreen no
+       allowFullScreen
        loading="lazy"
      />
 </div>

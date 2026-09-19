@@ -14,7 +14,7 @@ Video si wotsɔ ka ɖe eŋu le ete la hã zɔna ɖe ɖoɖo ma ke dzi.
     src="https://www.youtube.com/embed/Nq5cLiAHxPI"
     title="ziggurat 3.0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

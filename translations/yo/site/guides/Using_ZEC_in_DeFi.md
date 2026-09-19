@@ -15,7 +15,7 @@ Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) 
     src="https://www.youtube.com/embed/mKVvXY4yjjA"
     title="Crosschain Swaps with Zcash x NEAR Intents"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -33,7 +33,7 @@ Maya Protocol ti ṣepọ Zcash lati mu ilọsiwaju rẹ pọ si, iṣuna, ati a
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
     title="How to Swap Ethereum to Zcash on LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

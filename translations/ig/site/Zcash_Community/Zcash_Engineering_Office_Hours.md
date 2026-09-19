@@ -18,7 +18,7 @@ Usoro a gụnyere ma ndị na-eme ihe omimi dị omimi nakwa usoro ** Protocol S
     src="https://www.youtube.com/embed/videoseries?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY"
     title="Zcash Engineering Office Hours"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

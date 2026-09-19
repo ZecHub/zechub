@@ -22,7 +22,7 @@ ZecHub de GitHub di dwuma de hwɛ mpɔtam hɔfo ntoboa so. Sɛ woyɛ foforo wɔ 
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -57,7 +57,7 @@ Nhwɛsoɔ nkyerɛkyerɛ bi a ɛwɔ aseɛ ha ni:
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
     title="WSL Install + Zcashd Compile/Transaction Tutorial"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -166,7 +166,7 @@ Fikiria TAZ kama ** "kucheza fedha" kwa ajili ya Zcash Testnet **.
     src="https://www.youtube.com/embed/XCGwwqLZILg"
     title="Zkool Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -184,7 +184,7 @@ Mashauri:
     src="https://www.youtube.com/embed/To7WAkiBldA"
     title="Zingo Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

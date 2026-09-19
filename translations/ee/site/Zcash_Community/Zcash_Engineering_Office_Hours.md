@@ -18,7 +18,7 @@ Nusiwo kplɔ wo nɔewo ɖo la lɔ deep-dives siwo le wo ɖokui si kple **Protoco
     src="https://www.youtube.com/embed/videoseries?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY"
     title="Zcash Engineering Office Hours"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

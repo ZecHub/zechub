@@ -44,7 +44,7 @@ Arborist Calls ɖea vi na:
     src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G"
     title="Zcash Arborist Call Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

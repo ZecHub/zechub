@@ -111,7 +111,7 @@ Zcash n ṣe iwadii lọwọlọwọ fun gbigbe lọ si Ẹri-ti-Ipa.
     src="https://www.youtube.com/embed/22a-ROcb3AQ"
     title="PoS designs"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
