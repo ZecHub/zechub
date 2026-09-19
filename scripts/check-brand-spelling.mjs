@@ -59,42 +59,55 @@ const NOT_A_MISSPELLING = new Set(["Seth"]);
 // Six pages carry front matter and one of them carries a wrong spelling.
 function proseMask(md) {
   const lines = md.split("\n");
-  let fence = null, html = false;        // fence = the opening run, e.g. "````"
+  const blank = (l) => " ".repeat(l.length);
+  let fence = null, html = false;
   return lines.map((l) => {
-    // Raw HTML first. Inside <pre>/<code> a ``` is literal text, not a fence:
-    // letting the fence branch see it opened a phantom fence that then
-    // swallowed the closing </pre>, and the gate silently skipped the rest of
-    // the file — the same failure as the one-line element, by another route.
-    if (html) { if (/<\s*\/\s*(pre|code|script|style)\s*>/i.test(l) || /-->/.test(l)) html = false; return ""; }
-    if (/^\s*<!--/.test(l)) {
-      // An HTML comment is markup, not prose. Acting on an annotation inside
-      // one changes text no reader ever sees.
-      if (!/-->/.test(l)) html = true;
-      return "";
+    // Fence state first, and the raw-HTML rules are gated on it: inside a
+    // fenced block a <pre> is literal text, and treating it as an opener
+    // latched the mask to end of file. The reverse — a ``` inside <pre> — is
+    // handled by testing `html` before opening a fence.
+    const f = l.match(/^\s*(`{3,}|~{3,})/);
+    if (f && !html) {
+      if (fence === null) fence = f[1];
+      else if (f[1][0] === fence[0] && f[1].length >= fence.length) fence = null;
+      return blank(l);
     }
-    if (/^\s*<\s*(pre|code|script|style)\b/i.test(l)) {
-      // Latch only when the element neither closes nor self-closes on this
-      // line. `<code/>` opened a block that no `</code>` ever closed, so the
-      // rest of the file was masked and the gate reported success on a page it
-      // had stopped reading — the fourth variant of that failure.
-      const closes = /<\s*\/\s*(pre|code|script|style)\s*>/i.test(l) || /\/\s*>/.test(l);
-      if (!closes) html = true;
-      return "";
+    if (fence !== null) return blank(l);
+
+    // Raw HTML and comments mask only the SPAN they occupy. Blanking the whole
+    // line discarded prose sitting beside a closing tag or a one-line element,
+    // which is a fail-open: the finding disappears and the gate still exits 0.
+    let out = l;
+    if (html) {
+      const close = out.match(/<\s*\/\s*(pre|code|script|style)\s*>|-->/i);
+      if (!close) return blank(out);
+      html = false;
+      out = blank(out.slice(0, close.index + close[0].length)) + out.slice(close.index + close[0].length);
     }
-    const m = l.match(/^\s*(`{3,}|~{3,})/);
-    if (m) {
-      if (fence === null) { fence = m[1]; return ""; }
-      if (m[1][0] === fence[0] && m[1].length >= fence.length) { fence = null; return ""; }
-      return "";
+    // one-line elements and comments, repeatedly, so several may share a line
+    out = out.replace(/<\s*(pre|code|script|style)\b[^>]*>[\s\S]*?<\s*\/\s*\1\s*>/gi, blank)
+             .replace(/<!--[\s\S]*?-->/g, blank)
+             .replace(/<\s*(pre|code|script|style)\b[^>]*\/\s*>/gi, blank);
+    // an opener with no closer on this line latches until its closing tag
+    const open = out.match(/<\s*(pre|code|script|style)\b[^>]*>/i) || out.match(/<!--/);
+    if (open) {
+      html = true;
+      out = out.slice(0, open.index) + blank(out.slice(open.index));
     }
-    if (fence !== null) return "";
-    if (/^(\t| {4})/.test(l)) return "";
-    return l
-      .replace(/(`{1,4})[^\n]*?\1/g, (x) => " ".repeat(x.length))
-      .replace(/\]\([^)\s]*\)/g, (x) => " ".repeat(x.length))
-      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*"[^"]*"/gi, (x) => " ".repeat(x.length))
-      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*'[^']*'/gi, (x) => " ".repeat(x.length))
-      .replace(/https?:\/\/[^\s)\]]+/g, (x) => " ".repeat(x.length));
+
+    // A 4-space indent is a code block ONLY outside a list. After a list
+    // marker it is a nested item or a continuation paragraph — 435 such lines
+    // in this corpus were being masked as code.
+    // Tested on the ORIGINAL line: masking an inline element leaves spaces
+    // where it was, and judging indentation on that blanked its own prose.
+    if (/^(\t| {4})/.test(l) && !/^\s*([-*+]|\d+[.)])\s/.test(l)) return blank(out);
+
+    return out
+      .replace(/(`{1,4})[^\n]*?\1/g, blank)
+      .replace(/\]\([^)\s]*\)/g, blank)
+      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*"[^"]*"/gi, blank)
+      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*'[^']*'/gi, blank)
+      .replace(/https?:\/\/[^\s)\]]+/g, blank);
   });
 }
 
@@ -115,6 +128,7 @@ catch (e) { console.error(`cannot list changed files against ${base}: ${e.messag
 const findings = [];
 for (const f of files) {
   if (!existsSync(f)) continue;
+  const rawLines = readFileSync(f, "utf8").split("\n");
   proseMask(readFileSync(f, "utf8")).forEach((line, i) => {
     if (!line.trim()) return;
     for (const [lower, forms] of okForms) {
@@ -133,7 +147,7 @@ for (const f of files) {
         // ECOSYSTEM DIGEST | JULY 6" — and telling its author to write "Zcash"
         // is a style opinion, not a spelling correction. Only whole-line caps
         // qualify: a lone ZCASH inside ordinary prose is still flagged.
-        if (m[1] === m[1].toUpperCase() && !/[a-z]/.test(line.replace(/[^A-Za-z]/g, ""))) continue;
+        if (m[1] === m[1].toUpperCase() && !/[a-z]/.test(rawLines[i].replace(/[^A-Za-z]/g, ""))) continue;
         findings.push({ file: f, line: i + 1, col: m.index + 1, found: m[1], want: [...forms].join(" or ") });
       }
     }

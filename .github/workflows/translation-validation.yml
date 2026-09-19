@@ -68,6 +68,12 @@ jobs:
           BASE_REF_OUT: ${{ steps.base.outputs.ref }}
         run: node scripts/check-brand-spelling.mjs --base "$BASE_REF_OUT"
 
+      # The gate's own regression suite. Its failure mode is silent — the mask
+      # latches and findings vanish while the run still exits 0 — so it needs a
+      # test that fails loudly when that happens again.
+      - name: Brand spelling gate self-test
+        run: node scripts/check-brand-spelling.test.mjs
+
   hash-lib-tests:
     runs-on: ubuntu-latest
     steps:
