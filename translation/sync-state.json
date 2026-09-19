@@ -173,7 +173,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+restore-frontmatter-key",
+      "tool": "gt-static+restore-frontmatter-key+brand-restore",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -5435,7 +5435,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+restore-frontmatter-key",
+      "tool": "gt-static+restore-frontmatter-key+brand-restore",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -15871,7 +15871,7 @@
       "src_commit": "099671de82d131c7fcfae650d8807dc19d1665eb",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+brand-restore",
       "edited": false
     },
     "Privacy_Tools/Secure_Messengers.md": {
@@ -28237,7 +28237,7 @@
       "src_commit": "86d3ecc894bdfa65c01a25387c7ffc18e04b5819",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+frontmatter-strip+restore-frontmatter",
+      "tool": "nllb-200-3.3B+frontmatter-strip+restore-frontmatter+brand-restore",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
