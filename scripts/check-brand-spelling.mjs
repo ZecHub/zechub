@@ -72,6 +72,12 @@ function proseMask(md) {
     return l
       .replace(/(`{1,4})[^\n]*?\1/g, (m) => " ".repeat(m.length))
       .replace(/\]\([^)\s]*\)/g, (m) => " ".repeat(m.length))
+      // An HTML attribute value is a path or a URL, not prose. The markdown
+      // form ![x](/content-images/Free2z.png) was already masked; the HTML
+      // form was not, so the gate asked a contributor to rename a file and
+      // break the image.
+      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*"[^"]*"/gi, (m) => " ".repeat(m.length))
+      .replace(/\b(?:src|href|poster|data-[\w-]+)\s*=\s*'[^']*'/gi, (m) => " ".repeat(m.length))
       .replace(/https?:\/\/[^\s)\]]+/g, (m) => " ".repeat(m.length));
   });
 }
@@ -107,6 +113,11 @@ for (const f of files) {
         // misspelt brand.
         if (m[1] === m[1].toLowerCase() && m[1] !== [...forms][0]) continue;
         if (NOT_A_MISSPELLING.has(m[1])) continue;
+        // A line written entirely in capitals is a styled heading — "ZCASH
+        // ECOSYSTEM DIGEST | JULY 6" — and telling its author to write "Zcash"
+        // is a style opinion, not a spelling correction. Only whole-line caps
+        // qualify: a lone ZCASH inside ordinary prose is still flagged.
+        if (m[1] === m[1].toUpperCase() && !/[a-z]/.test(line.replace(/[^A-Za-z]/g, "")) ) continue;
         findings.push({ file: f, line: i + 1, col: m.index + 1, found: m[1], want: [...forms].join(" or ") });
       }
     }
