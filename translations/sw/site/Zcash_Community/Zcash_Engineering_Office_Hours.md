@@ -18,7 +18,7 @@ Mfululizo huu unajumuisha maombi ya kujitegemea na ** Uchunguzi wa Itifaki** ina
     src="https://www.youtube.com/embed/videoseries?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY"
     title="Zcash Engineering Office Hours"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

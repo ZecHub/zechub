@@ -33,7 +33,7 @@ Kama wewe ni mpya kwa Zcash, kutumia [mwongozo huu](/start-here/new-user-guide).
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

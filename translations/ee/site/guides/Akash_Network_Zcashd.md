@@ -16,7 +16,7 @@ Mɔfiame na zcashd Zcash blibo node (Electric Coin Co dɔwɔwɔ) zazã [Akash ƒ
     src="https://www.youtube.com/embed/SVekeNU6_-g"
     title="Zcash Full Node setup on Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

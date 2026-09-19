@@ -45,7 +45,7 @@ Exchange gã akpa gãtɔ doa alɔ Zcash. Kpɔ afisia hena xexlẽdzesi tsitotsit
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zodl: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -69,7 +69,7 @@ Ne èle esia wɔm la, míeɖo aɖaŋu be nàzã [gakotoku] siwo gbɔna la domet�
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Reviewing all Zcash Shielded Wallets"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

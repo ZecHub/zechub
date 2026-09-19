@@ -8,7 +8,7 @@ Fún àlàyé kíkún àti ìfihàn, ẹ wo [** YouTube guide**](https://www.you
     src="https://www.youtube.com/embed/UJh9Ilkohdw"
     title="How to use ZEC on Metamask"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

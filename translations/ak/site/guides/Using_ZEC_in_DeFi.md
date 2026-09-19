@@ -15,7 +15,7 @@ Wɔaka Zcash ne NEAR Intents abom, na ɛma wɔn a wɔde di dwuma no tumi sesa Zc
     src="https://www.youtube.com/embed/mKVvXY4yjjA"
     title="Crosschain Swaps with Zcash x NEAR Intents"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -33,7 +33,7 @@ Maya Protocol aka Zcash abom de ama ne decentralization, liquidity, ne transacti
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
     title="How to Swap Ethereum to Zcash on LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

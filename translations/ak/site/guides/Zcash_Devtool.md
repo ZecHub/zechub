@@ -13,7 +13,7 @@ Kris Nuttycombe (@nuttycom) de saa adwinnade yi mae wɔ ZconVI bere mu.
     src="https://www.youtube.com/embed/5gvQF5oFT8E"
     title="zcash-devtool: the Zcash development multitool with Kris Nuttycombe - ZconVI"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

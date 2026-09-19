@@ -18,7 +18,7 @@ Ntoatoaso no ka standalone deep-dives ne **Protocol Study** sub-series a ɛkɔ s
     src="https://www.youtube.com/embed/videoseries?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY"
     title="Zcash Engineering Office Hours"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

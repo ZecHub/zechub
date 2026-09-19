@@ -21,7 +21,7 @@ Watumiaji wanaweza sasa kutuma / kupokea ZEC bila kufunua mizani au metadata - y
     src="https://www.youtube.com/embed/TNcHY-GXFVo"
     title="How to use ZEC on Brave"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -117,7 +117,7 @@ Hapa ni maelezo kwa kila aina ya anwani Zcash:
     src="https://www.youtube.com/embed/AmTMa5HXa2w"
     title="Brave Wallet Tutorial : Defi with Near Intents and Shielded Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

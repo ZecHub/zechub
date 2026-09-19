@@ -111,7 +111,7 @@ Zcash ni kikamilifu kutafiti uhamiaji kwa uthibitisho wa Stake.
     src="https://www.youtube.com/embed/22a-ROcb3AQ"
     title="PoS designs"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -45,7 +45,7 @@ Imirikiti mgbanwe ndị isi na-akwado Zcash. Lee ebe a maka ndepụta zuru ezu: 
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zodl: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -69,7 +69,7 @@ Mgbe ị na-eme nke a, anyị na-atụ aro iji otu n'ime ndị na-esonụ [walle
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Reviewing all Zcash Shielded Wallets"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

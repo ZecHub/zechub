@@ -82,7 +82,7 @@ Daira ɖe Anchor ƒe nɔƒewo me (zcon3):
     src="https://www.youtube.com/embed/f6UToqiIdeY"
     title="Zcon3"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

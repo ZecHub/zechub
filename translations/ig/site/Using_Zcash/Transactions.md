@@ -24,7 +24,7 @@ ZEC bụ akụ dijitalụ eji eme ihe maka ịkwụ ụgwọ, na-enye atụmat�
     src="https://www.youtube.com/embed/bZM3o_eIovU"
     title="Zcash Explained: Zcash Shielded Transactions"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -49,7 +49,7 @@ Adreesị ndị na-enweghị ihe ọ bụla ka bara uru n'ọnọdụ ụfọd�
     src="https://www.youtube.com/embed/R-krX1UpsIg"
     title="Learn Zcash shielded wallets!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

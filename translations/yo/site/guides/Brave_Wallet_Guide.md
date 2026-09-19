@@ -21,7 +21,7 @@ Awọn olumulo le bayi firanṣẹ / gba ZEC laisi fifihan awọn iwontunwonsi t
     src="https://www.youtube.com/embed/TNcHY-GXFVo"
     title="How to use ZEC on Brave"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -117,7 +117,7 @@ Eyi ni alaye fun iru adirẹsi Zcash kọọkan:
     src="https://www.youtube.com/embed/AmTMa5HXa2w"
     title="Brave Wallet Tutorial : Defi with Near Intents and Shielded Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

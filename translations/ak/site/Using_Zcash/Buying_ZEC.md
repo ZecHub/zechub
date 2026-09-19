@@ -45,7 +45,7 @@ Nsesa akɛse dodow no ara boa Zcash. Hwɛ ha ma nsɛm a wɔahyehyɛ a ɛkɔ akyi
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zodl: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -69,7 +69,7 @@ Sɛ woreyɛ eyi a, yɛhyɛ nyansa sɛ fa [sika kotoku] a edidi so yi mu biako di
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Reviewing all Zcash Shielded Wallets"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -30,7 +30,7 @@ Sɛnea wode Zcash Shielded Memos ne Magic-Wormhole CLI ne zcashd bedi dwuma de f
     src="https://www.youtube.com/embed/8iqPCza9o6A"
     title="DEMO: Encrypted File Transfer with Zcash 📁"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

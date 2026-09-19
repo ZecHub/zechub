@@ -21,7 +21,7 @@ Ndị ọrụ nwere ike izipu / nata ZEC na-enweghị igosipụta nguzozi ma ọ
     src="https://www.youtube.com/embed/TNcHY-GXFVo"
     title="How to use ZEC on Brave"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -117,7 +117,7 @@ Nke a bụ nkọwa maka ụdị adreesị Zcash ọ bụla:
     src="https://www.youtube.com/embed/AmTMa5HXa2w"
     title="Brave Wallet Tutorial : Defi with Near Intents and Shielded Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
