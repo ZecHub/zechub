@@ -133,7 +133,14 @@ if (flag("--json")) { console.log(JSON.stringify({ findings, files: files.length
 else {
   for (const v of findings) {
     // GitHub renders this on the changed line in the PR diff.
-    console.log(`::error file=${v.file},line=${v.line},col=${v.col}::Brand spelling: write "${v.want}", not "${v.found}"`);
+    // GitHub workflow commands are comma-separated, so a path containing a
+    // comma or colon truncates the annotation and it silently lands on the
+    // wrong file or nowhere. Three pages in this corpus already have such
+    // names, e.g. "Zcash Ecosystem Digest - July 6th, 2025".
+    // Data:  % -> %25, CR -> %0D, LF -> %0A.  Properties also: , -> %2C, : -> %3A
+    const escData = (x) => String(x).replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A");
+    const escProp = (x) => escData(x).replace(/,/g, "%2C").replace(/:/g, "%3A");
+    console.log(`::error file=${escProp(v.file)},line=${v.line},col=${v.col}::${escData(`Brand spelling: write "${v.want}", not "${v.found}"`)}`);
   }
 }
 
