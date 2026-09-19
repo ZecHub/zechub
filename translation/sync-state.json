@@ -15229,7 +15229,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair+deadlink-repair",
+      "tool": "gpt-5.4+linkrepair+deadlink-repair+jsx-restore",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
