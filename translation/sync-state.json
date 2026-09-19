@@ -11598,10 +11598,10 @@
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
       "src": "sha256:15a0d244f7c43c90329accb93a9ee9a4ecdb12b76e2f9c509fc79ca566a3e855",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "4e92b2b4d01ce102b798cb9c5785b62f4609a899",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
