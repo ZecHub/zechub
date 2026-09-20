@@ -158,7 +158,7 @@ const e2e = [
   ["exits 0 when the page is clean",() => clean.status === 0],
   ["clean run emits no annotations",() => !clean.out.includes("::error")],
 ];
-for (const [n, f] of e2e) { let ok = false; try { ok = f(); } catch (e) { ok = false; }
+for (const [n, f] of e2e) { let ok = false; try { ok = f(); } catch { ok = false; }
   if (!ok) fail(`gate: ${n}`, "true", "false"); }
 
 rmSync(repo, { recursive: true, force: true });
