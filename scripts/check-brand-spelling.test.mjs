@@ -63,6 +63,7 @@ rmSync(repo, { recursive: true, force: true });
 mkdirSync(join(repo, "site"), { recursive: true });
 mkdirSync(join(repo, "scripts"), { recursive: true });
 mkdirSync(join(repo, "translation"), { recursive: true });
+mkdirSync(join(repo, "site/zechubglobal/zcashitaly/guides"), { recursive: true });
 const git = (...a) => execFileSync("git", ["-C", repo, ...a], { encoding: "utf8" });
 
 writeFileSync(join(repo, "translation/protected-terms.json"), JSON.stringify({
@@ -86,6 +87,8 @@ const probes = {
   "site/attrs.md":        "# I\n\n<img src=\"/content-images/Free2z-banner.webp\" alt=\"b\"/>\n",
   "site/equiv.md":        "# E\n\nA ZK-SNARKs proof and a ZK-SNARK proof.\n",
   "site/odd, name.md":    "# N\n\nProse with Zechub in a comma path.\n",
+  // the unrouted archive: same defect, must never be reported
+  "site/zechubglobal/zcashitaly/guides/g.md": "# G\n\nProse with Zechub and Free2z here.\n",
 };
 for (const [p, body] of Object.entries(probes)) writeFileSync(join(repo, p), body);
 git("add", "-A"); git("commit", "-qm", "pr", "--no-verify");
@@ -113,6 +116,9 @@ const e2e = [
   ["ignores Seth the person",       () => !has('not "Seth"')],
   ["ignores a brand in src=",       () => !has("file=site/attrs.md")],
   ["equivalentForms satisfy",       () => !has("file=site/equiv.md")],
+  // site/zechubglobal/ ships nowhere and holds 73% of the backlog
+  ["skips the unrouted archive",    () => !has("file=site/zechubglobal/")],
+  ["…but still flags a live page",  () => has("file=site/a.md")],
   // annotation plumbing
   ["escapes a comma in the path",   () => has("site/odd%2C name.md")],
   ["reports line and col",          () => ann.every((l) => /line=\d+,col=\d+/.test(l))],

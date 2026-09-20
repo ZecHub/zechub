@@ -60,9 +60,10 @@ jobs:
       # how "Free2z" became "Bure2z" in Swahili. Findings are annotations, so
       # they land on the changed line in the diff rather than in a job log.
       #
-      # Scoped to changed files on purpose: the corpus carries ~1,089
-      # pre-existing wrong spellings, and failing a contributor for those would
-      # make the check something to route around rather than fix.
+      # Scoped to changed files, but each changed file is checked in FULL, so
+      # touching a page means bringing that page to canon. That is deliberate:
+      # it is what drains the backlog, one page at a time. site/zechubglobal/
+      # is excluded — 511 pages nothing routes, holding 73% of the backlog.
       - name: Validate brand spelling on changed English pages
         env:
           BASE_REF_OUT: ${{ steps.base.outputs.ref }}
