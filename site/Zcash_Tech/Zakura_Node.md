@@ -77,7 +77,7 @@ Zakura is fully compatible with the Ironwood network upgrade (NU6.3), activated 
 
 In August 2026 the Zakura team released Zakura Common, a set of accelerated forks of the cryptography libraries that Zcash wallets and nodes rely on. Zakura switched to the new stack in version 1.3.0, and Vizor Wallet is among the first wallets to integrate it.
 
-![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](<img src="/zakuracommonspeedups.webp" alt="zakura common explained">)
+![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](/content-images/zakuracommonspeedups.webp)
 
 According to Zakura's own benchmarks:
 
