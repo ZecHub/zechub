@@ -98,15 +98,40 @@ const probes = {
 for (const [p, body] of Object.entries(probes)) writeFileSync(join(repo, p), body);
 git("add", "-A"); git("commit", "-qm", "pr", "--no-verify");
 
-let out = "";
-try {
-  out = execFileSync("node", [join(repo, "scripts/check-brand-spelling.mjs"), "--base", "main"],
-                     { cwd: repo, encoding: "utf8" });
-} catch (e) { out = (e.stdout || "") + (e.stderr || ""); }
+// The exit STATUS is the only thing CI acts on, so capture it. Asserting only
+// on annotations let the gate be reduced to a no-op that still prints findings
+// and exits 0 — every case green, CI silently never failing again.
+function runGate(cwd) {
+  try {
+    return { status: 0, out: execFileSync("node", [join(repo, "scripts/check-brand-spelling.mjs"), "--base", "main"],
+                                          { cwd, encoding: "utf8" }) };
+  } catch (e) { return { status: e.status ?? 1, out: (e.stdout || "") + (e.stderr || "") }; }
+}
+const dirty = runGate(repo);
+const out = dirty.out;
 
 const ann = out.split("\n").filter((l) => l.startsWith("::error"));
 const has = (frag) => ann.some((l) => l.includes(frag));
 const count = (frag) => ann.filter((l) => l.includes(frag)).length;
+
+// A second repo whose changed page is clean: proves the gate exits 0 when it
+// should, so "always fails" is not how the status assertions get satisfied.
+const cleanRepo = join(tmpdir(), `brandgate-clean-${process.pid}`);
+rmSync(cleanRepo, { recursive: true, force: true });
+mkdirSync(join(cleanRepo, "site"), { recursive: true });
+mkdirSync(join(cleanRepo, "scripts"), { recursive: true });
+mkdirSync(join(cleanRepo, "translation"), { recursive: true });
+const cgit = (...a) => execFileSync("git", ["-C", cleanRepo, ...a], { encoding: "utf8" });
+writeFileSync(join(cleanRepo, "translation/protected-terms.json"),
+              readFileSync(join(repo, "translation/protected-terms.json"), "utf8"));
+writeFileSync(join(cleanRepo, "scripts/check-brand-spelling.mjs"), src);
+cgit("init", "-q");
+cgit("config", "user.email", "t@t"); cgit("config", "user.name", "t");
+cgit("add", "-A"); cgit("commit", "-qm", "base", "--no-verify");
+cgit("branch", "-M", "main"); cgit("checkout", "-qb", "pr");
+writeFileSync(join(cleanRepo, "site/clean.md"), "# C\n\nProse with ZecHub and Free2Z here.\n");
+cgit("add", "-A"); cgit("commit", "-qm", "pr", "--no-verify");
+const clean = runGate(cleanRepo);
 
 const e2e = [
   // the gate must fire
@@ -128,11 +153,16 @@ const e2e = [
   ["escapes a comma in the path",   () => has("site/odd%2C name.md")],
   ["reports line and col",          () => ann.every((l) => /line=\d+,col=\d+/.test(l))],
   ["column points at the term",     () => has("line=3,col=12")],   // "Prose with Zechub"
+  // exit status — the only thing CI reads
+  ["exits 1 when findings exist",   () => dirty.status === 1],
+  ["exits 0 when the page is clean",() => clean.status === 0],
+  ["clean run emits no annotations",() => !clean.out.includes("::error")],
 ];
 for (const [n, f] of e2e) { let ok = false; try { ok = f(); } catch (e) { ok = false; }
   if (!ok) fail(`gate: ${n}`, "true", "false"); }
 
 rmSync(repo, { recursive: true, force: true });
+rmSync(cleanRepo, { recursive: true, force: true });
 const total = maskCases.length + e2e.length;
 console.log(failed ? `${failed}/${total} failing` : `all ${total} cases correct`);
 process.exit(failed ? 1 : 0);
