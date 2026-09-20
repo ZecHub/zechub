@@ -47,6 +47,11 @@ const maskCases = [
   ["fence line inside a <pre>",    "<pre>\n```\n</pre>\nFree2z here\n", 4, "visible"],
   ["<pre> literal in a comment",   "<!--\n<pre>\n-->\nFree2z\n", 4, "visible"],
   ["list continuation, not code",  "# T\n\n- a\n    - Zechub\n", 4, "visible"],
+  // a continuation paragraph carries no marker of its own — it was masked,
+  // so a misspelling in it was silently missed
+  ["list continuation PARAGRAPH",  "- a\n\n    Zechub continues the item\n", 3, "visible"],
+  ["numbered list continuation",   "1. a\n\n    Zechub continues\n", 3, "visible"],
+  ["indented code after the list", "- a\n\nplain para\n\n    Zechub code\n", 5, "masked"],
   ["prose beside a closing tag",   "# T\n\n<pre>\nx\n</pre> Zechub\n", 5, "visible"],
   ["prose beside a one-liner",     "# T\n\n<code>x</code> Zechub\n", 3, "visible"],
   ["prose after <code/>",          "# T\n\n<code/>\n\nZechub\n", 5, "visible"],
@@ -63,6 +68,7 @@ rmSync(repo, { recursive: true, force: true });
 mkdirSync(join(repo, "site"), { recursive: true });
 mkdirSync(join(repo, "scripts"), { recursive: true });
 mkdirSync(join(repo, "translation"), { recursive: true });
+mkdirSync(join(repo, "site/zechubglobal/zcashitaly/guides"), { recursive: true });
 const git = (...a) => execFileSync("git", ["-C", repo, ...a], { encoding: "utf8" });
 
 writeFileSync(join(repo, "translation/protected-terms.json"), JSON.stringify({
@@ -86,19 +92,46 @@ const probes = {
   "site/attrs.md":        "# I\n\n<img src=\"/content-images/Free2z-banner.webp\" alt=\"b\"/>\n",
   "site/equiv.md":        "# E\n\nA ZK-SNARKs proof and a ZK-SNARK proof.\n",
   "site/odd, name.md":    "# N\n\nProse with Zechub in a comma path.\n",
+  // the unrouted archive: same defect, must never be reported
+  "site/zechubglobal/zcashitaly/guides/g.md": "# G\n\nProse with Zechub and Free2z here.\n",
 };
 for (const [p, body] of Object.entries(probes)) writeFileSync(join(repo, p), body);
 git("add", "-A"); git("commit", "-qm", "pr", "--no-verify");
 
-let out = "";
-try {
-  out = execFileSync("node", [join(repo, "scripts/check-brand-spelling.mjs"), "--base", "main"],
-                     { cwd: repo, encoding: "utf8" });
-} catch (e) { out = (e.stdout || "") + (e.stderr || ""); }
+// The exit STATUS is the only thing CI acts on, so capture it. Asserting only
+// on annotations let the gate be reduced to a no-op that still prints findings
+// and exits 0 — every case green, CI silently never failing again.
+function runGate(cwd) {
+  try {
+    return { status: 0, out: execFileSync("node", [join(repo, "scripts/check-brand-spelling.mjs"), "--base", "main"],
+                                          { cwd, encoding: "utf8" }) };
+  } catch (e) { return { status: e.status ?? 1, out: (e.stdout || "") + (e.stderr || "") }; }
+}
+const dirty = runGate(repo);
+const out = dirty.out;
 
 const ann = out.split("\n").filter((l) => l.startsWith("::error"));
 const has = (frag) => ann.some((l) => l.includes(frag));
 const count = (frag) => ann.filter((l) => l.includes(frag)).length;
+
+// A second repo whose changed page is clean: proves the gate exits 0 when it
+// should, so "always fails" is not how the status assertions get satisfied.
+const cleanRepo = join(tmpdir(), `brandgate-clean-${process.pid}`);
+rmSync(cleanRepo, { recursive: true, force: true });
+mkdirSync(join(cleanRepo, "site"), { recursive: true });
+mkdirSync(join(cleanRepo, "scripts"), { recursive: true });
+mkdirSync(join(cleanRepo, "translation"), { recursive: true });
+const cgit = (...a) => execFileSync("git", ["-C", cleanRepo, ...a], { encoding: "utf8" });
+writeFileSync(join(cleanRepo, "translation/protected-terms.json"),
+              readFileSync(join(repo, "translation/protected-terms.json"), "utf8"));
+writeFileSync(join(cleanRepo, "scripts/check-brand-spelling.mjs"), src);
+cgit("init", "-q");
+cgit("config", "user.email", "t@t"); cgit("config", "user.name", "t");
+cgit("add", "-A"); cgit("commit", "-qm", "base", "--no-verify");
+cgit("branch", "-M", "main"); cgit("checkout", "-qb", "pr");
+writeFileSync(join(cleanRepo, "site/clean.md"), "# C\n\nProse with ZecHub and Free2Z here.\n");
+cgit("add", "-A"); cgit("commit", "-qm", "pr", "--no-verify");
+const clean = runGate(cleanRepo);
 
 const e2e = [
   // the gate must fire
@@ -113,15 +146,23 @@ const e2e = [
   ["ignores Seth the person",       () => !has('not "Seth"')],
   ["ignores a brand in src=",       () => !has("file=site/attrs.md")],
   ["equivalentForms satisfy",       () => !has("file=site/equiv.md")],
+  // site/zechubglobal/ ships nowhere and holds 73% of the backlog
+  ["skips the unrouted archive",    () => !has("file=site/zechubglobal/")],
+  ["…but still flags a live page",  () => has("file=site/a.md")],
   // annotation plumbing
   ["escapes a comma in the path",   () => has("site/odd%2C name.md")],
   ["reports line and col",          () => ann.every((l) => /line=\d+,col=\d+/.test(l))],
   ["column points at the term",     () => has("line=3,col=12")],   // "Prose with Zechub"
+  // exit status — the only thing CI reads
+  ["exits 1 when findings exist",   () => dirty.status === 1],
+  ["exits 0 when the page is clean",() => clean.status === 0],
+  ["clean run emits no annotations",() => !clean.out.includes("::error")],
 ];
-for (const [n, f] of e2e) { let ok = false; try { ok = f(); } catch (e) { ok = false; }
+for (const [n, f] of e2e) { let ok = false; try { ok = f(); } catch { ok = false; }
   if (!ok) fail(`gate: ${n}`, "true", "false"); }
 
 rmSync(repo, { recursive: true, force: true });
+rmSync(cleanRepo, { recursive: true, force: true });
 const total = maskCases.length + e2e.length;
 console.log(failed ? `${failed}/${total} failing` : `all ${total} cases correct`);
 process.exit(failed ? 1 : 0);
