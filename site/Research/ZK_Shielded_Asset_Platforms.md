@@ -11,8 +11,8 @@ published: 2024-01-12
 
 
 
-**[Firn Protocol](https://app.firn.cash/)**: Firn is the first-ever zero-knowledge privacy platform in the account-based model, and introduces pluggable, flexible privacy to Ethereum-based chains.Using zero-knowledge proofs, Firn delivers secure, efficient funds privacy for users of Ethereum and Ethereum-based L2s. **HOW IT WORKS?**
-To use Firn, deposit ETH into the protocol. Once you have a Firn balance, you can privately transfer funds to other Firn users, or engage with other protocols, like Uniswap. You can also privately withdraw funds back to the network. Firn charges a small fee, of 0.79%, on all ETH with drawals. These fees are disbursed proportionally to holders of FIRN Token - [Whitepaper](https://firn.cash/whitepaper.pdf) 
+**[Firn Protocol](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn is the first-ever zero-knowledge privacy platform in the account-based model, and introduces pluggable, flexible privacy to Ethereum-based chains.Using zero-knowledge proofs, Firn delivers secure, efficient funds privacy for users of Ethereum and Ethereum-based L2s. **HOW IT WORKS?**
+To use Firn, deposit ETH into the protocol. Once you have a Firn balance, you can privately transfer funds to other Firn users, or engage with other protocols, like Uniswap. You can also privately withdraw funds back to the network. Firn charges a small fee, of 0.79%, on all ETH with drawals. These fees are disbursed proportionally to holders of FIRN Token - [Whitepaper](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
 **[RAILGUN](https://railgun.org/):** As a layer-1 smart contract,Railgun exists to be a Private transfers and DeFi infrastructure owing its existence to Ethereum, Polygon, Binance Smart Chain, and Arbitrum.
@@ -37,8 +37,8 @@ Setup your non-custodial RAILGUN Wallet, Shield any ERC-20 token into a 0zk addr
 
 
 
-**[Light Shield](https://shield.lightprotocol.com/)**: Light is an open-source layer 2 zkLayer enabling private program execution, purpose-built for Solana. Light Protocol allows the on-chain state to be encrypted. Only the user can decrypt their private state; hence they essentially "own" it. The private state can be owned by a single user or a set of users sharing a decryption key.
-For example, consider an NFT listing on Solana; its public state (e.g., price) is visible to all, including the fact that it's up for sale. But offers and trades should remain private - **Asset Swap**: Yes - [Whitepaper](https://shield.lightprotocol.com/) - ![Light Shield Logo](/content-images/1-C4Pe23afCwS05seCeZWBLA-d85910d03f.webp)
+**[Light Shield](https://web.archive.org/web/20250823165939/https://shield.lightprotocol.com/)**: Light is an open-source layer 2 zkLayer enabling private program execution, purpose-built for Solana. Light Protocol allows the on-chain state to be encrypted. Only the user can decrypt their private state; hence they essentially "own" it. The private state can be owned by a single user or a set of users sharing a decryption key.
+For example, consider an NFT listing on Solana; its public state (e.g., price) is visible to all, including the fact that it's up for sale. But offers and trades should remain private - **Asset Swap**: Yes - [Whitepaper](https://web.archive.org/web/20250823165939/https://shield.lightprotocol.com/) - ![Light Shield Logo](/content-images/1-C4Pe23afCwS05seCeZWBLA-d85910d03f.webp)
 ***
 
 **[Conceal Network](https://conceal.network/wiki/doku.php)**: The Conceal Network was built to provide the ability for individuals to communicate and financially interact with each other in an anonymous and decentralized manner. With Conceal, transactions can't be linked between the sender and the recipient. Additionally, Conceal uses ring signatures and one-time addresses for truly anonymous payments - **Asset Swap**: Yes - [Whitepaper](https://conceal.network/wiki/doku.php) - ![Conceal.png](/content-images/media_articles_01-ecae30ec1a.webp)
