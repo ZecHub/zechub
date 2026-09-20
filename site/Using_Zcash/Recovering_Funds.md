@@ -48,8 +48,6 @@ For the complete migration reference, including detailed recovery routes, comman
 
 [Read the full ZEC Pool Migration Field Guide in ZecHub](/research/zec-pool-migration/view)
 
-[Download the ZEC Pool Migration Field Guide (PDF)](/api/research/zec-pool-migration/pdf)
-
 > **Before you start:** first establish **what you are recovering and what recovery material you still have**. A current wallet seed or supported non-Sprout spending key may only need a normal restore. Older material — such as a ZecWallet Lite seed, a legacy `wallet.dat`, or a standalone Sapling or Sprout spending key — may need a dedicated recovery path.
 >
 > If you think the funds are in **Sprout**, confirm that you still have spending authority before committing time to recovery. A `zc...` address or viewing material alone is not enough to move the funds.
