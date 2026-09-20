@@ -55,6 +55,25 @@ jobs:
           BASE_REF_OUT: ${{ steps.base.outputs.ref }}
         run: node scripts/check-protected-terms.mjs --base "$BASE_REF_OUT"
 
+      # Brand spelling on the ENGLISH pages a PR changes. A spelling absent from
+      # preserveVerbatim is not protected, so the engines translate it — this is
+      # how "Free2z" became "Bure2z" in Swahili. Findings are annotations, so
+      # they land on the changed line in the diff rather than in a job log.
+      #
+      # Scoped to changed files on purpose: the corpus carries ~1,089
+      # pre-existing wrong spellings, and failing a contributor for those would
+      # make the check something to route around rather than fix.
+      - name: Validate brand spelling on changed English pages
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node scripts/check-brand-spelling.mjs --base "$BASE_REF_OUT"
+
+      # The gate's own regression suite. Its failure mode is silent — the mask
+      # latches and findings vanish while the run still exits 0 — so it needs a
+      # test that fails loudly when that happens again.
+      - name: Brand spelling gate self-test
+        run: node scripts/check-brand-spelling.test.mjs
+
   hash-lib-tests:
     runs-on: ubuntu-latest
     steps:
