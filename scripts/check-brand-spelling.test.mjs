@@ -23,6 +23,9 @@ const cases = [
   ["plain prose visible",            "# T\n\nZechub here\n", 3, "visible"],
   ["unclosed fence masks to EOF",    "# T\n\n```\nZechub\n", 4, "masked"],
   ["unclosed <pre> masks to EOF",    "# T\n\n<pre>\nZechub\n", 4, "masked"],
+  // a tag that is literal text inside a fence or a comment must not latch
+  ["<pre> literal in a fence",       "```\n<pre>\n```\nFree2z\n", 4, "visible"],
+  ["<pre> literal in a comment",     "<!--\n<pre>\n-->\nFree2z\n", 4, "visible"],
 ];
 let bad=0;
 for (const [n,md,line,want] of cases){
