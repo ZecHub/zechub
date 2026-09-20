@@ -4,7 +4,7 @@ Chegou agora na Zcash? Este guia irá ajudá-lo(a) a começar a usar a Zcash com
 
 **Compre seu ZEC**
 
-Para usar a rede Zcash, você precisará comprar sua moeda, ZEC. A maneira mais fácil de adquirir ZEC é [comprá-lo na Gemini](https://www.gemini.com/prices/zcash) ou [em qualquer uma dessas exchanges](https://z.cash/exchanges/).
+Para usar a rede Zcash, você precisará comprar sua moeda, ZEC. A maneira mais fácil de adquirir ZEC é [comprá-lo na Gemini](https://www.gemini.com/prices/zcash) ou [em qualquer uma dessas exchanges](https://z.cash/ecosystem/?exchanges=#tag-exchanges).
 
 Uma observação importante é que você não precisa comprar 1 ZEC completo. O ZEC é divisível e você pode começar comprando apenas uma fração da moeda.
 

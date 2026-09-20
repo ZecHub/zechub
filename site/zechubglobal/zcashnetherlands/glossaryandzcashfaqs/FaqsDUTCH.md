@@ -7,12 +7,12 @@ Een lijst met onderwerpen met de meest gestelde vragen over Zcash. Raadpleeg [do
 
 Zcash is een digitale valuta met snel en vertrouwelijk met lage kosten. Privacy is het centrale kenmerk van Zcash. Het is een pionier in het gebruik van zero-knowledge proofs om gebruikersinformatie te beschermen door alle transacties te coderen. Er zijn verschillende portefeuilles die u kunt downloaden voor directe, mobiele, veilige en privébetalingen.
 
-[Mobiele portefeuilles](https://z.cash/wallets/)
+[Mobiele portefeuilles](https://z.cash/ecosystem/?wallets=#tag-wallets)
 
 
 ## Hoe kan ik Zcash verkrijgen?
 
-U kunt ZEC kopen van cryptocurrency [exchanges](https://z.cash/exchanges). U kunt Zcash ook rechtstreeks van een andere persoon kopen op een peer-to-peer-manier. Wees voorzichtig bij het uitwisselen met diensten en personen die u niet kent. Je kunt Zcash ook verwerven door Zcash te minen.
+U kunt ZEC kopen van cryptocurrency [exchanges](https://z.cash/ecosystem/?exchanges=#tag-exchanges). U kunt Zcash ook rechtstreeks van een andere persoon kopen op een peer-to-peer-manier. Wees voorzichtig bij het uitwisselen met diensten en personen die u niet kent. Je kunt Zcash ook verwerven door Zcash te minen.
 
 
 ## Wat is het verschil tussen Zcash en andere cryptocurrencies?

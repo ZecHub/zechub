@@ -25,7 +25,7 @@ Quando i dati viaggiano sui server o su Internet, sono esposti a molti fattori c
 
 I portafogli Zcash Desktop e Mobile hanno una funzione integrata che consente agli utenti di inviare messaggi crittografati con transazioni private schermate. Le dimensioni del memo/messaggio possono essere fino a 512 byte per transazione, con commissioni di transazione inferiori a 1 centesimo di dollaro USA. A causa del modo in cui le transazioni vengono rilevate e del tempo di blocco della rete, i messaggi possono richiedere fino a un minuto o più per essere ricevuti. 
 
-Prova Zcash: https://z.cash/wallets 
+Prova Zcash: https://z.cash/ecosystem/?wallets=#tag-wallets 
 
 ![](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 

@@ -6,7 +6,7 @@ Nieuw bij Zcash? Deze gids helpt u bij het instappen als Zcash-gebruiker en ZEC-
 
 **Koop ZEC**
 
-Om het Zcash-netwerk te gebruiken, moet u de valuta ZEC kopen. De gemakkelijkste manier om ZEC te verwerven is door [het op Gemini te kopen](https://www.gemini.com/prices/zcash) of [een van deze beurzen](https://z.cash/exchanges/).
+Om het Zcash-netwerk te gebruiken, moet u de valuta ZEC kopen. De gemakkelijkste manier om ZEC te verwerven is door [het op Gemini te kopen](https://www.gemini.com/prices/zcash) of [een van deze beurzen](https://z.cash/ecosystem/?exchanges=#tag-exchanges).
 
 Een belangrijke opmerking is dat u niet 1 volledige ZEC hoeft te kopen. ZEC is deelbaar en u kunt beginnen met slechts een fractie van de munt te kopen.
 
