@@ -1,6 +1,6 @@
 # Ywallet FROST ho ɔyɛkyerɛ
 
-> **Wɔhwɛ Ywallet so bio.** Nea ɔyɛɛ no ​​no asi so dua sɛ wɔrennyɛ no foforo mma Ironwood (NU6.3), enti entumi nni nkɔnsɔnkɔnsɔn no akyi bio na anammɔn a ɛwɔ ase ha no ntumi nwie wɔ mainnet so. Wɔde kratafa yi asie sɛnea ɛbɛyɛ a wobetumi ahwɛ mu. Zkool, a efi developer koro no ara mu, ne nea wɔhwɛ so no na ɛboa FROST multisig.
+> **Wɔhwɛ Ywallet so bio.** Nea ɔyɛɛ no no asi so dua sɛ wɔrennyɛ no foforo mma Ironwood (NU6.3), enti entumi nni nkɔnsɔnkɔnsɔn no akyi bio na anammɔn a ɛwɔ ase ha no ntumi nwie wɔ mainnet so. Wɔde kratafa yi asie sɛnea ɛbɛyɛ a wobetumi ahwɛ mu. Zkool, a efi developer koro no ara mu, ne nea wɔhwɛ so no na ɛboa FROST multisig.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -8,7 +8,7 @@
     src="https://www.youtube.com/embed/3IZgxDqQNbw"
     title="FROST + Ywallet Transaction Demo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -16,7 +16,7 @@
 
 ## Boaboa FROST bin ahorow ano
 
-[Github link no](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Github link no](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Fa atifi hɔ repo no di dwuma na di akwankyerɛ a ɛfa compiling ho akyi: 
 

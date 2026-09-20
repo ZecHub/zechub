@@ -24,7 +24,7 @@ ZEC ni mali ya dijiti inayotumiwa sana kwa malipo, ikitoa huduma kali za faragha
     src="https://www.youtube.com/embed/bZM3o_eIovU"
     title="Zcash Explained: Zcash Shielded Transactions"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -49,7 +49,7 @@ Anwani za uwazi bado ni muhimu katika hali fulani, hasa wakati kubadilishana au 
     src="https://www.youtube.com/embed/R-krX1UpsIg"
     title="Learn Zcash shielded wallets!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

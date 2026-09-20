@@ -22,7 +22,7 @@ ZecHub inatumia GitHub kusimamia mchango wa jamii. Kama wewe ni mpya kwa GitHub,
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -57,7 +57,7 @@ Hapa ni mfano wa mafunzo chini:
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
     title="WSL Install + Zcashd Compile/Transaction Tutorial"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -8,7 +8,7 @@ Maka njem zuru ezu na nkọwapụta anya, lelee nke a [** nduzi YouTube **](http
     src="https://www.youtube.com/embed/UJh9Ilkohdw"
     title="How to use ZEC on Metamask"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

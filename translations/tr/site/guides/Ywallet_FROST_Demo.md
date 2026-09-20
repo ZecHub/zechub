@@ -16,7 +16,7 @@
 
 ## FROST ikililerini derleyin
 
-[Github bağlantısı](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[GitHub bağlantısı](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Yukarıdaki depoyu kullanın ve derleme talimatlarını izleyin: 
 

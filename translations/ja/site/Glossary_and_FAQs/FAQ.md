@@ -1,111 +1,138 @@
 # よくある質問
 
-Zcash に関して最もよく寄せられる質問の一覧です。Zcash クライアントのトラブルシューティングについては、[公式トラブルシューティングガイド](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html)をご覧ください。
+Zcashに関する最もよくある質問の一覧です。Zcashクライアントのトラブルシューティングについては、[公式トラブルシューティングガイド](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html)をご覧ください。
 
 ### クイックナビゲーション
-[Zcash とは？](#what-is-zcash) | [Zcash を入手するには？](#how-can-i-acquire-zcash) | [他の暗号資産との違いは？](#what-is-the-difference-between-zcash-and-other-cryptocurrencies) | [プロトコルのガバナンスは？](#how-is-the-zcash-protocol-governed) | [自分のトランザクションはどこ？](#where-is-my-transaction) | [Zcash は本当にプライベート？](#is-zcash-really-private) | [よくある誤解](#a-few-common-misconceptions)
+
+<div className="flex flex-wrap gap-2 my-4">
+  <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Zcashとは？</a>
+  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Zcashを入手するには？</a>
+  <a href="#what-is-the-difference-between-zcash-and-other-cryptocurrencies" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">他の暗号資産との違いは？</a>
+  <a href="#how-is-the-zcash-protocol-governed" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">プロトコルのガバナンスは？</a>
+  <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">取引はどこにある？</a>
+  <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Zcashは本当にプライベート？</a>
+  <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">よくある誤解</a>
+</div>
 
 ---
 
-## Zcash とは？
+## Zcashとは？
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash は、高速で機密性の高いトランザクションと低い手数料を備えたデジタル通貨です。プライバシーは Zcash の中核機能です。すべてのトランザクションを暗号化するためのゼロ知識証明の利用を先駆けて実現しました。  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-即時・モバイル・安全・プライベートな決済のために、複数のウォレットが利用できます：[モバイルウォレット](https://z.cash/wallets/)
+Zcashは、高速で機密性の高い取引と低手数料を特徴とするデジタル通貨です。プライバシーはZcashの中核的な機能です。すべての取引を暗号化するためにゼロ知識証明を先駆けて採用しました。
+
+即時利用でき、モバイル対応で安全かつプライベートな支払いのために、複数のウォレットが利用できます：[ウォレット](/using-zcash/wallets)
+
 </div>
 
-## Zcash を入手するには？
+## Zcashを入手するには？
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-暗号資産[取引所](https://z.cash/exchanges)で ZEC を購入できます。  
-また、ピアツーピアで Zcash を購入したり、マイニングで取得したりすることもできます。
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+ZECは、[カストディ型取引所](/using-zcash/custodial-exchanges)、[DEX](/dex)、または[中央集権型スワッププラットフォーム](/using-zcash/centralizedswaps)で購入できます。
+
+また、Zcashをピアツーピアで購入したり、マイニングによって入手したりすることもできます。
+
 </div>
 
-## Zcash と他の暗号資産の違いは？
+## Zcashと他の暗号資産の違いは何ですか？
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash は Bitcoin や Ethereum と比べて、本質的により高いプライバシーを備えています。高速なブロック時間（75秒）、低い手数料、定期的なアップグレードを提供します。  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-ユーザーは**透明**トランザクションと**シールド**トランザクションのどちらかを選択できます。詳細は[シールドされたエコシステム](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html)をご覧ください。
+Zcashは、BitcoinやEthereumと比べて根本的にプライバシー性が高い通貨です。高速なブロック時間（75秒）、低い手数料、定期的なアップグレードを提供します。
+
+ユーザーは**Transparent**取引または**Shielded**取引を選択できます。詳細は[Shieldedエコシステム](https://electriccoin.co/blog/shielded-ecosystem)をご覧ください。
+
 </div>
 
-## Zcash プロトコルはどのようにガバナンスされていますか？
+## Zcashプロトコルはどのように統治されていますか？
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-プロトコルは、**Zcash Improvement Proposal (ZIP)** プロセスによってガバナンスされています。誰でも ZIP の草案を提出できます。草案はコミュニティで議論され、ZIP エディターによって承認または却下されます。
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-- [Daira Hopwood](https://twitter.com/feministPLT)（Electric Coin Company）  
+このプロトコルは、**Zcash改善提案（ZIP）**プロセスによって統治されています。誰でもZIPの草案を提出できます。草案はコミュニティで議論され、ZIP編集者によって承認または却下されます：
+
+- [Daira Hopwood](https://twitter.com/feministPLT)（Electric Coin Company）
 - [Deirdre Connolly](https://twitter.com/durumcrustulum)（Zcash Foundation）
 
-決定は仕様書に記載され、ネットワークが採用した際にオンチェーンで承認されます。
+決定は仕様に記載され、ネットワークが採用した時点でオンチェーンで承認されます。
+
 </div>
 
-## 自分のトランザクションはどこ？
+## 私の取引はどこにありますか？
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-まず、[ブロックエクスプローラーのガイド](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629)をお読みください。次に、[Zcash Block Explorer](https://zcashblockexplorer.com)を確認してください。  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-トランザクションは約25分（20ブロック）後に失効し、資金は自動的に返却されます。  
+まず、[ブロックエクスプローラーのガイド](/guides/blockchain-explorers)をお読みください。次に、[Zcash Block Explorer](https://zcashblockexplorer.com)を確認してください。
 
-**トランザクションが表示されない一般的な理由：**
+取引は約25分（20ブロック）後に期限切れとなり、資金は自動的に返還されます。
+
+**取引が表示されない一般的な理由：**
+
 - 接続の喪失
-- トランザクション手数料が低すぎる
+- 取引手数料が低すぎる
 - ネットワークの過負荷
-- 透明な入力が多すぎる（サイズが大きすぎる）
+- Transparent入力が多すぎる（サイズが大きすぎる）
 
 **成功のためのヒント：**
+
 - 安定した接続を使用する
 - 標準手数料を支払う（優先処理にはより高い手数料）
-- 時間を置いてから再試行する
-- トランザクションを小さく保つため、入力を減らす
+- 待ってから後で再試行する
+- 取引を小さく保つため、入力数を減らす
+
 </div>
 
-## Zcash は本当にプライベート？
+## Zcashは本当にプライベートですか？
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-**はい。** Zcash は、シールドトランザクションにおける送信者、金額、受取人のデータを暗号化します。  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash は次のことを**行いません**：
-- マルチシグネチャトランザクションを暗号化する（FROST 統合は保留中）
-- 透明なトランザクションとの相関関係から保護する
-- IP アドレスを隠す
+**はい。** Zcashは、Shielded取引における送信者、金額、受取人のデータを暗号化します。
 
-詳細情報：[シールドされたエコシステム](https://electriccoin.co/blog/shielded-ecosystem)
+Zcashは**次のことを行いません**：
+
+- マルチシグ取引を暗号化する（FROST統合は保留中）
+- Transparent取引との相関から保護する
+- IPアドレスを隠す
+
+さらに読む：[Shieldedエコシステム](https://electriccoin.co/blog/shielded-ecosystem)
+
 </div>
 
 ## よくある誤解
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">誤解</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">正しい回答</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash は中央集権的なコインですか？</td>
-        <td className="py-5 px-6 text-foreground">いいえ。商標契約により、Zcash Foundation または ECC がコミュニティの合意に反して行動することは防止されています。ガバナンスの分散性は実証されています（[Messari レポート](https://messari.io/report/decentralizing-zcash)を参照）。コミュニティ投票、ZecHub、Zcash Foundation A/V Club はいずれも幅広い参加を可能にしています。</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash にはバックドアがありますか？</td>
-        <td className="py-5 px-6 text-foreground">いいえ。Zcash も、私たちが開発したいかなる暗号ソフトウェアも、バックドアを含んでおらず、今後も含むことはありません。</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash は企業によって管理されていますか？</td>
-        <td className="py-5 px-6 text-foreground">誤りです。私たちは研究のために企業と提携していますが、Zcash は分散化への取り組みを維持しています。複数の自律組織が、自己管理とプライバシーの権利に向けて協力しています。</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash のプライバシーは他のプライバシーコインと比べて限定的である</td>
-        <td className="py-5 px-6 text-foreground">いいえ。Monero/Grin 形式のプライバシーはデコイに依存しています（これは突破される可能性があります）。Zcash はすべてのシールドトランザクションデータを暗号化するため、プール内のすべてのトランザクションを区別できません。[プライベート性が不十分？](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/)をご覧ください。</td>
-      </tr>
-    </tbody>
-  </table>
+<div className="rounded-2xl border border-border bg-card p-5 my-4 overflow-x-auto">
+
+<table className="w-full border-collapse">
+  <thead>
+    <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">誤解</th>
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">正しい回答</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcashは中央集権型のコインですか？</td>
+      <td className="py-4 px-5 text-foreground">いいえ。商標契約により、Zcash FoundationまたはECCがコミュニティの合意に反して行動することは防止されています。ガバナンスが分散化されていることは証明されています（[Messariレポート](https://messari.io/report/decentralizing-zcash)を参照）。コミュニティ投票、ZecHub、およびZcash Foundation A/V Clubはいずれも幅広い参加を可能にします。</td>
+    </tr>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcashにはバックドアがありますか？</td>
+      <td className="py-4 px-5 text-foreground">いいえ。Zcashにも、私たちが構築したいかなる暗号ソフトウェアにもバックドアは含まれておらず、今後も決して含まれることはありません。</td>
+    </tr>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcashは企業によって管理されていますか？</td>
+      <td className="py-4 px-5 text-foreground">誤りです。私たちは研究のために企業と提携していますが、Zcashは分散化への取り組みを維持しています。複数の自律組織が、セルフカストディとプライバシーの権利という目標に向けて協力しています。</td>
+    </tr>
+    <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcashは他のプライバシーコインと比べてプライバシーが限定的です</td>
+      <td className="py-4 px-5 text-foreground">いいえ。Monero/Grin形式のプライバシーはデコイに依存しています（これは破られる可能性があります）。ZcashはすべてのShielded取引データを暗号化するため、プール内のすべての取引は区別できません。[プライバシーは十分ではない？](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/)をご覧ください。</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 
 ---
 
-**最終更新：** 2026年3月  
-**貢献したいですか？** [GitHub でこのページを編集](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)
+**最終更新：** 2026年3月
+**貢献したいですか？** [GitHubでこのページを編集](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

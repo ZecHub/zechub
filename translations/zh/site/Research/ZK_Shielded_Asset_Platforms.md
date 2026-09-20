@@ -48,7 +48,7 @@ published: 2024-01-12
 ***
 
 
- **[FairySwap](https://fairyswap.finance/swap)**：Fairyswap 是一个 Layer 1 新一代、社区驱动的隐私 DEX，致力于实现无需许可和去中心化。通过利用内置于 Findora 中的零知识证明技术，像 FairySwap 这样的隐私 DEX 和 Dapps 让用户能够选择哪些信息希望在公共区块链上可见，哪些信息更希望被屏蔽。那些他们希望不可见的信息仍然可以通过零知识证明进行公开验证，而无需披露任何细节 - **资产交换**：是 - [白皮书](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+**[FairySwap](https://fairyswap.finance/)**：Fairyswap 是一个 Layer 1 新一代、社区驱动的隐私 DEX，致力于实现无需许可和去中心化。通过利用内置于 Findora 中的零知识证明技术，像 FairySwap 这样的隐私 DEX 和 Dapps 让用户能够选择哪些信息希望在公共区块链上可见，哪些信息更希望被屏蔽。那些他们希望不可见的信息仍然可以通过零知识证明进行公开验证，而无需披露任何细节 - **资产交换**：是 - [白皮书](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKSync](https://zksync.io/)**：zkSync 是 Ethereum 上的 Layer 2 扩容解决方案，提供低 gas 费和快速交易，同时不牺牲安全性。用户可以随时将资产提取回 Layer 1。要访问整个 zkSync 生态系统并受益于低廉且即时的交易，你首先需要一个[像 Argent 这样的 wallet](https://argent.link/zksync)。如果没有 wallet，你将无法加入该网络，因为无法通过 Coinbase 或 Binance 这样的交易所访问 zkSync。Wallet 为你提供了一种简单方式来购买、出售和存储 crypto，并体验令人兴奋的 DeFi、NFT 以及更多内容 - **资产交换**：是 - [白皮书](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
@@ -85,7 +85,7 @@ published: 2024-01-12
 
 
 
-**[Dark.fi](https://dark.fi/)**：DarkFi 是一个基于零知识、多方计算和同态加密的匿名 L1。匿名权益证明确保验证者被隐藏。DarkFi 提供了一个反脆弱环境，用于创建和运行匿名应用 - **资产交换**：是 - [白皮书](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**：DarkFi 是一个基于零知识、多方计算和同态加密的匿名 L1。匿名权益证明确保验证者被隐藏。DarkFi 提供了一个反脆弱环境，用于创建和运行匿名应用 - **资产交换**：是 - [白皮书](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

@@ -48,7 +48,7 @@ Firn का उपयोग करने के लिए, protocol में ET
 ***
 
 
- **[FairySwap](https://fairyswap.finance/swap)**: Fairyswap एक Layer 1 अगली पीढ़ी का, community-driven privacy DEX है जो permissionless और decentralized बने रहने के लिए प्रतिबद्ध है। Findora में निर्मित zero-knowledge proof technology का लाभ उठाकर, privacy DEXs और FairySwap जैसे Dapps उपयोगकर्ताओं को यह चुनने की क्षमता देते हैं कि वे सार्वजनिक blockchain पर कौन-सी जानकारी दिखाई देना चाहते हैं, और किसे shield करना पसंद करेंगे। जिस जानकारी को वे अदृश्य रखना चाहते हैं, उसे बिना कोई विवरण प्रकट किए zero-knowledge proofs के साथ सार्वजनिक रूप से सत्यापित किया जा सकता है - **Asset Swap**: Yes - [Whitepaper](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+**[FairySwap](https://fairyswap.finance/)**: Fairyswap एक Layer 1 अगली पीढ़ी का, community-driven privacy DEX है जो permissionless और decentralized बने रहने के लिए प्रतिबद्ध है। Findora में निर्मित zero-knowledge proof technology का लाभ उठाकर, privacy DEXs और FairySwap जैसे Dapps उपयोगकर्ताओं को यह चुनने की क्षमता देते हैं कि वे सार्वजनिक blockchain पर कौन-सी जानकारी दिखाई देना चाहते हैं, और किसे shield करना पसंद करेंगे। जिस जानकारी को वे अदृश्य रखना चाहते हैं, उसे बिना कोई विवरण प्रकट किए zero-knowledge proofs के साथ सार्वजनिक रूप से सत्यापित किया जा सकता है - **Asset Swap**: Yes - [Whitepaper](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKSync](https://zksync.io/)**: zkSync, Ethereum पर एक Layer 2 scaling solution है जो security से समझौता किए बिना कम gas और तेज़ transactions प्रदान करता है। लोग किसी भी समय Layer 1 में assets withdraw कर सकते हैं। पूरे zkSync ecosystem तक पहुँचने और सस्ते व instant transactions का लाभ उठाने के लिए, आपको पहले [Argent जैसे wallet](https://argent.link/zksync) की आवश्यकता होती है। wallet के बिना, आप network में onboard नहीं हो सकते क्योंकि Coinbase या Binance जैसे exchange के माध्यम से zkSync तक पहुँचना संभव नहीं है। wallets आपको crypto खरीदने, बेचने, और store करने का आसान तरीका देते हैं और DeFi, NFTs, तथा बहुत कुछ की रोमांचक दुनिया का अनुभव कराते हैं - **Asset Swap**: Yes - [Whitepaper](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
@@ -85,7 +85,7 @@ Firn का उपयोग करने के लिए, protocol में ET
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi zero-knowledge, multi-party computation, और homomorphic encryption पर आधारित एक anonymous L1 है। anonymous proof-of-stake यह सुनिश्चित करता है कि validators छिपे रहें। DarkFi anonymous apps बनाने और चलाने के लिए एक anti-fragile environment प्रदान करता है - **Asset Swap**: Yes - [Whitepaper](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi zero-knowledge, multi-party computation और homomorphic encryption पर आधारित एक गुमनाम L1 है। गुमनाम proof-of-stake सुनिश्चित करता है कि सत्यापनकर्ता छिपे रहें। DarkFi गुमनाम apps बनाने और चलाने के लिए एक anti-fragile environment प्रदान करता है - **एसेट स्वैप**: हाँ - [श्वेतपत्र](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

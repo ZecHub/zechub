@@ -1,8 +1,8 @@
-# Mayafo Nsesaeɛ a Wɔde Di Dwuma
+# Maya Decentralized Exchange (Maya Asekyerɛbea a ɛnni tumi)
 
 ---
 
-## Nkyerɛkyerɛmu
+## Adesuabea a wɔhwɛ so
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -11,70 +11,70 @@
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
     title="How to Swap Ethereum to Zcash on LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
 
-## Dɛn ne Maya Protocol?
+## Dɛn ne Maya Nhyehyɛe no?
 
-Maya yɛ [decentralized exchange](https://nym.com/blog/what-is-dex) (DEX) nhyehyɛe a ɛma wotumi di gua wɔ cryptocurrencies so wɔ blockchains ahorow so. Sɛ nhwɛsoɔ no, wobɛtumi asesa Bitcoin (BTC) wɔ Bitcoin blockchain no so ne Ethereum (ETH) a ɛwɔ Ethereum blockchain no so wɔ ɔkwan a ɛyɛ mmerɛ so, a worenkura agyapadeɛ no anaasɛ womfa atumfoɔ biara a ɛwɔ mfimfini anaa Hu Wo Adetɔfoɔ (KYC) akwan ho.
+Maya yɛ obi a ne ho nni asɛm. [nkitahodie a enni nnyinasoɔ](https://nym.com/blog/what-is-dex) (DEX) nhyehyɛeɛ a ɛma kwan ma wɔde cryptocurrency di dwa wɔ blockchain ahodoɔ so. Wobɛtumi, sɛ nhwɛsoɔ de Bitcoin (BTC) asesa Ethereum (ETH) wɔ Blockchain no mu ɔkwan tiawa bi so, bere a wonni sika anaa wɔnni tumi biara na afei nso wonnim wo kwampaefo akwan (KYC).
 
-Wɔde Cosmos Software Development Kit (Cosmos SDK) na ɛyɛɛ Maya Protocol na ɛyɛ adwuma wɔ Proof of Bond (PoB) adwene a wɔpene so nhyehyɛe so. "Node Operators" na wodi protocol no akyi, a wɔde sika kɛse gu nhyehyɛe no mu na wonya mfaso sɛ akatua wɔ wɔn ntoboa ne mmɔdenbɔ ho. Ne titiriw no, nodes yɛ kɔmputa ahorow a ɛde software a ɛma user swaps yɛ nokware na ɛhwɛ agyapade so wɔ address ahorow a wɔakyerɛ mu wɔ blockchains ahorow so.
+Maya Protocol na wɔde Cosmos Software Development Kit (Cosmos SDK) no yɛɛ adwuma, a ɛyɛ proof of bond (PoB) consensus mechanism. "Node Operators" na ɛhwɛ so ma wɔnya sika wɔ system mu de tua wɔn ka ne mmɔdenbɔ ho akatua. Ne titiriw no, nodes yɛ kɔmputa ahorow a wɔyɛ software a ɛma user swaps di dwuma na hwɛ nneɛma so wɔ address ahorow a wɔahyehyɛ ama blockchains ahodoɔ nyinaa.
 
-Sɛ wobɛwie swap a, ɛsɛ sɛ wogye cryptocurrency a wɔboa no wɔ Maya address no mu baako mu, na obi a ɔde di dwuma de mena, na afei wɔde sika a ɛne no sɛ fi Maya address foforo so mena wɔ blockchain soronko so. Anyɛ yiye koraa no, node ahorow no nkyem abiɛsa mu abien na wɔhwɛ saa nhyehyɛe yi so na wɔpene so, titiriw no hwɛ hu sɛ wobenya sika no yiye.
+Sɛ wobɛtumi ayɛ swap no awie a, ɛsɛ sɛ wonya cryptocurrency a wɔboa ma ɛtumi yɛ adwuma yi bi firi Maya address baako so na afei wɔde sika korɔ kɔma obi foforo. Saa akwantuo yi bɛyɛ yie paa araa ne sε nkwammoaa mmienu-mu mmiɛnsa bɛhwɛ kwan ama wɔn agye atoom de ahwɛ sɛ wɔanya sika no pɛpɛɛpɛ anaa.
 
-Saa kwan yi so no, wɔn a wɔde di dwuma no betumi de token bi amena wɔ blockchain biako so na wɔanya ɔkwan foforo wɔ blockchain foforo so, ne nyinaa wɔ natively na wɔmfa token a wɔabɔ no nni dwuma.
+Saa kwan yi so no, wɔn a wɔde di dwuma betumi asende tokens baako wɔ blockchain biako mu na wɔanya foforo bi nso wɔ ɔfã foforɔ. Ne nyinaa yɛ native ne sɛ wonfa wrapped tokens nni dwuma.
 
-## Dɛn ne Adanse a Ɛkyerɛ sɛ Bond?
+## Dɛn ne Ɔsom Boayikuw ho Adanse?
 
-Proof of Bond (PoB) yɛ adwene a ɛwɔ mu a ɛsɛ sɛ node adwumayɛfoɔ de bond (mpɛn pii no ɛyɛ network no native token) hyɛ mu na wɔde wɔn ho ahyɛ network no mu. Saa bond yi yɛ adwuma sɛ sikasɛm mu ahobanbɔ kwan bi, ɛhwɛ sɛ nodes yɛ adwuma wɔ nokwaredi mu na ɛkura network no mudi mu kura mu2. Sɛ node bi bɔ mmɔden sɛ ɛbɛyɛ ade wɔ adwemmɔne so anaasɛ entumi nyɛ n’adwuma a, wobetumi atwitwa ne bond no mu, a ɛkyerɛ sɛ wogye ne fã bi sɛ asotwe.
+Proof of Bond (PoB) is a consensus mechanism where node operators must commit a bond (usually in the form of the network's native token) to participate in the network. This bond acts as a form of economic security, ensuring that nodes act honestly and maintain the network's integrity2. If a node tries to act maliciously or fails to perform its duties, its bond can be slashed, meaning a portion of it is taken away as a penalty.
 
-Wɔ Maya Protocol mu no, saa adwinnade yi boa ma wonya sikasɛm mu mfaso fi node adwumayɛfo ahonyade a wɔde wɔn ho ahyɛ mu no mu, na ɛma sika kɛse a wɔde di dwuma yiye no kɔ soro. Saa ara nso na wɔ Thorchain mu no, node adwumayɛfo bond RUNE (native token) de bɔ network no ho ban na wɔhwɛ ma wɔn a wɔde wɔn ho hyɛ mu no yɛ biako.
+Wɔ Maya Protocol mu no, saa kwan yi boa ma wonya sika a ɛsom bo fi node operators ho de hyɛ wɔn akodeɛ so. Saa ara nso na wɔ Thorchain mu no , node operator bɔ RUNE (native token) to hɔ sɛ ɛbɛbɔ network no ho ban na ama adwumayɛfo anya adwuma ayɛ yie.
 
-## Nsonsonoe a ɛda Maya ne TORChain ntam
+## Nsonsonoe a ɛda Maya ne THORChain ntam no
 
-Maya yɛ fork a THORChain nanso loaded ne kakraa bi foforo features ne dwumadie a ɛsom sɛ kɛseɛ alternative. Wɔn a ɛho hia paa ne
+Maya yɛ THORChain mu kyɛfa nanso wɔde nneɛma foforo kakra ne dwuma a edi no sɛ ade foforɔ. Nea ɛho hia paa ne:
 
-### Liquidity Nodes a Wɔde Di Dwuma
+### Liquidity Nodes (Node nketenkete)
 
-Sɛ anka Maya bedi Pure Bond Model no akyi no, ɔresusuw ho sɛ ɔbɛdan akɔ Liquidity Nodes model so. Wɔ saa nhyehyɛe yi mu no, wɔma nodes tumi de sika boa tẽẽ, na ɛkyekyere no kɔ ntam. Saa kwan yi kyerɛ sɛ node adwumayɛfo hyia asiane kɛse: sɛ wɔde sika di dwuma ɔkwammɔne so a, wɔhwere ade, na ɛyɛ adwuma sɛ ade a tumi siw ano. Nea ɛde ba ne sɛ, node adwumayɛfoɔ de Liquidity Units a ɛfiri Liquidity Pools mu di dwuma, a berɛ korɔ no ara ma liquidity na ɛhyɛ network ahobanbɔ mu den.
+Sɛ́ anka wɔbɛdi Pure Bond Model akyi no, Maya rehwɛ kwan sɛ ɔbɛkɔ Liquidity Nodes model so. Wɔ saa system yi mu no, wɔ ma nodes tumi de liquidity boa tẽẽ, na wɔde kɔ network hɔ. Saa akwan a wɔnfa so yɛ adwuma yi kyerɛ sɛ node operators hyia asiane kɛse bi: sε wͻde sika di dwuma amapa a, wonya asotwe, na ɛno nso yεε ade titiriw a εkyi nkogu. Enti, node operator fa Liquidation Units firi Liquidité Pools ho, a bere koro no ara de liquidite ba ne ᴐwↄbἐnban nsuro pa.
 
-### Ahobammɔ a Ɛma Wɔhwere Nneɛma a Ɛntra Daa
+### Ɔhaw a ɛntena hɔ daa ho banbɔ
 
-Nhyehyɛe a ɛbɔ wɔn a wɔde sika ma no ho ban fi bere tiaa mu adehwere (LP) a wobetumi anya bere a wɔde sika ma no ho, esiane nsakrae a ɛkɔ so bere nyinaa wɔ crypto agyapade bo mu nti.
-ILP kura $CACAO a wɔde ma no mu 10% ($CACAO ɔpepem 10) na wɔkɔ so de protocol ho ka 10% hyɛ mu ma. ILP bɛyɛ adwuma nnafua 50 wɔ sika a wɔde asie akyi, a wɔde sika a wɔde tua ho ka no to 100%.
+A system that protects liquidity providers from the temporary loss (LPs) they may experience when providing liquidity, due to the constant fluctuations in the prices of crypto assets.
+ILP kura $CACAO no mu 10% (10 million $CCAO) na wɔsan de fa protocol fees no ho. ILP bɛyɛ adwuma nna aduonum akyi a wɔde sika bɛhyɛ ase, na wɔn nkorabea so yɛ 100%.
 
-Bere tenten a ILP bɛbɔ ho ban no gyina ASSET ne $CACAO adwumayɛ so. Wɔnya sika a wɔde tua ho ka nyinaa wɔ nnafua 150 akyi sɛ ASSET yɛ adwuma yie a, ne nnafua 450 akyi sɛ $CACAO yɛ adwuma yie a. Wɔtua ILP na wɔsan de si hɔ bere a wɔayi afi mu koraa nanso sika a wɔayi no fã bi no nnya so nkɛntɛnso. Wɔ top-ups ho no, wɔsan hyehyɛ ILP nanso wontua.
+ILP no kyɛfa yɛ adwuma wɔ ASSET ne $CACAO dwumadie ho. Akwantuo a edi mu biara kɔ so ma nnipa 150 nya akatua pa, na sɛ CACA O nso tɔ yiye a wɔnya akatua papa bi. Wɔtua ILP ka bere nyinaa nanso obi tu hyɛ da gye sika kakra pɛ. Sɛ ɔtɔre aka foforo de to hɔ a, wɔde ILP bɛsan asi ananmu ama obiara anya akatua no bio.
 
-### Nkyekyɛmu nhwɛso soronko
+### Ɔfã fofor bi a' yԑde ato gua
 
-Na Liquidity Auction no yɛ nnafua 21 adeyɛ a wɔayɛ sɛ wɔde bɛkyekyɛ $CACAO tokens ama wɔn a wɔde wɔn ho hyɛɛ mu no. Wɔ dwumadi no mu no, wɔn a wɔde di dwuma no de agyapade a wɔaboa no kɔtoo address pɔtee bi so. Wɔ atɔn no awieeɛ no, wɔde $CACAO token no 90% maa wɔn a wɔde wɔn ho hyɛɛ mu no sɛdeɛ wɔn sika a wɔde maeɛ no teɛ, berɛ a wɔde 10% a aka no maa ILP reserve. Wɔn a wɔde wɔn ho hyɛɛ mu no bɛyɛɛ wɔn a wɔde sika ma, na wɔde wɔn agyapade a wɔde asie ne $CACAO token ahorow guu Maya atare mu, na ɛmaa wotumi nyaa sika a wonyae no mu kyɛfa.
+The Liquidity Auction was a 21-day event designed to distribute $CACAO tokens among participants. During the event, users deposited supported assets to a specific address. At the conclusion of the auction, 90% of the $CACAO tokens were allocated to participants in proportion to their liquidity contributions, while the remaining 10% was allocated to the ILP reserve. The participants became liquidity providers, with their deposited assets and $CACAO tokens placed into Maya's pools, enabling them to earn a share of the generated fees.
 
-### Ɔkwan foforo a wɔfa so di nneɛma a wɔde asie ho dwuma
+### Akwan foforɔ a wɔfa so di nkontaa no ho dwuma.
 
-Wɔ Maya Protocol mfitiaseɛ no, na CACAO akoraeɛ a ɛwɔ hɔ no yɛ 10% pɛ wɔ nneɛma a wɔde ma nyinaa mu, sɛ wɔde toto 44% ho a, na ɛyɛ 44% ma THORChain, na na wɔayɛ no titire ama Impermanent Loss Protection (ILP). Maya nni block emissions; na sɛ wɔde Protocol Owned Liquidity ne Lending di dwuma a, wɔbɛda nhyehyeɛ soronko adi, sɛdeɛ ɛteɛ wɔ THORChain mu no, saa afã yi ne Reserves no abɔ mu yie.
+Wɔ Maya Protocol mfiase no, na CACAO reserves a ɛwɔ hɔ yɛ 10% pɛ wɔ nkuro nyinaa mu, sɛ wɔde toto 44% a ɛwɔ THORChain ho, na wɔn botae titiriw ne Impermanent Loss Protection (ILP).
 
-Nanso, ɛmfa ho sɛ nsonsonoe wɔ mu no, Maya nso yɛ ano aduru a ɛboa THORChain, de redundancy, ntrɛwmu ne validation ma, na ɛka ntam nkitahodi foforo a enni hɔ wɔ mprempren THORChain dwumadie no mu bom.
+Nanso, ɛmfa ho nsonsonoe a ɛwɔ mu no, Maya nso yɛ ɔfã bi ma THORChain sɛ ano aduru de kyerɛ redundancy ne extension na validation ase. Afei so wɔ fa foforo a enni hɔ saa bere yi wɔ Thorchain dwumadi mu.
 
-Afei nso, Maya botaeɛ ne sɛ ɔbɛyɛ *akyi* ama nnwuma foforɔ a ɛbɛsi so, wɔ anidasoɔ mu sɛ ɔbɛhunu *anim* foforɔ pii, anaa DEX dwumadie a wɔasi wɔ Maya nnwuma so.
+Afei nso, Maya botae ne sɛ ɔbɛyɛ *backend* ama dwumadie afoforo a wɔbɛtumi agyina so anya anidasoɔ sε wobehu nsesaeԑ foforo pii anaa DEX dwumadi ahodoɔ a wɔasi no kwan mu.
 
-## Maya protocol sika kotoku a wɔde bom
+## Maya protocol akwantuo mu nkotoku a wɔfa so di dwuma
 
-Ɛyɛ adwuma sɛ *backend*, Maya hia sɛ UI ahorow ne sika kotoku ahorow a wɔde bedi dwuma boa. 
-Nneɛma a wɔahyehyɛ a ɛwɔ nnwuma a ɛboa Maya dedaw no bi ni:
+Sɛ wɔde Maya bɛyɛ *backend* a, ehia sɛ wɔboa no ma ne mfidie ahodoɔ na ɛtumi di dwuma. 
+Sεnea y'atwe nsem a wͻwᴐ no adi kan na woahyehyɛ nsesaeԑ ahodoɔ yi:
 
-[Thorwallet DEX, na ɔde ne nsa kyerɛɛ ne so](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX no ho nsɛm pii wɔ hɔ.](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
 
-[El Dorado na ɔkyerɛwee](https://www.eldorado.market/): XDEFI, Safoakorabea
+[El Dorado mu no, na wɔhwɛ wɔn so.](https://www.eldorado.market/): XDEFI, Keystore
 
-[KakaoSwap](https://cacaoswap.app/): Safoakorabea, MetaMask, XDEFI, Keplr, Ahuruw
+[CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 
-[Asgardex na ɔkyerɛwee](https://www.asgardex.com/): Keystore, Ledger
+[Asgardex](https://www.asgardex.com/): Keystore, Ledger ne nea edi kan a wɔhyehyɛ no.
 
-[DefiSpot a ɛwɔ hɔ](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Sikakorabea Nkitahodi, Leap Sikakorabea, Argeentx, Braavos, Trustwallet, ne Rabby.
+DefiSpot: ɛnni intanɛt so bio, ne domen no ntumi nsiesie.
 
-[XDEFI) a ɛwɔ hɔ](https://www.xdefi.io/): a multi-ecosystem ankasa hwɛ sika kotoku a mmoa ma 30 + kurom blockchains, ne EVM ne Cosmos nkɔnsɔnkɔnsɔn nyinaa, a Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, ne nea ɛkeka ho ka ho.
+[XDEFI](https://www.xdefi.io/): sika kotoku a w'ankasa hwɛ so wɔ mu, na ɛboa ma wɔde blockchain ahorow bɛboro 30 ne EVM nyinaa di dwuma. Saa nkɔnsɔnkɔnsɔn no bi nso yɛ Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, ɛne afoforo pii.
 
-[KeepKey no sie ](https://keepkey.com/): Hardware sika kotoku a wɔde sie dijitaal agyapade yiye.
+[Fa Kyerԑnkyerԑmu to hɔ ](https://keepkey.com/): Dwumadie a wɔde sie sika wɔ abɛɛfo mfiri so.

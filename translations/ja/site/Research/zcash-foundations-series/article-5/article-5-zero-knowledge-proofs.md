@@ -175,4 +175,4 @@ SproutからSaplingへ、そしてOrchardへの進化は主に証明が小さく
 
 **第6回記事 . シールドされたプロトコル、端から端まで:** 終章。すべてのピース、ノート、コミットメント、ノートコミットメントツリー、nullifier、価値バランス、そして零知識証明を取り出し、完全なZcashシールド取引を構築し、第0回記事で開いたすべてのループを閉じます。
 
-*ZecHub（https://zechub.org）向けの* Zcash from First Principles *シリーズの一部。CC BY-SA 4.0ライセンス。*
+*[ZecHub](https://zechub.org)向けの* Zcash from First Principles *シリーズの一部。CC BY-SA 4.0ライセンス。*

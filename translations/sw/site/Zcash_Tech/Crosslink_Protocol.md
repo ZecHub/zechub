@@ -140,7 +140,7 @@ Utaratibu huu wa makubaliano mawili unaimarisha ahadi ya Zcash kwa faragha, uend
        src="https://www.youtube.com/embed/O4wQi_i7k0I"
        title="Crosslink"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       ruhusuFullScreen
+       allowFullScreen
        loading="lazy"
      />
 </div>

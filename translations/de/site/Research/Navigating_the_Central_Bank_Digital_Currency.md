@@ -99,7 +99,7 @@ Finanzielle Inklusion, einst ein Leuchtfeuer der Hoffnung, steht nun im Schatten
 
 ## Ressourcen: Eine Karte für den digitalen Entdecker
 
-Für diejenigen, die sich in das unerforschte Gebiet der CBDCs wagen, werden Ressourcen zu Ihrem Kompass.
+Für diejenigen, die sich in das unerforschte Gebiet der CBDCs wagen, werden Ressourcen zu ihrem Kompass.
 1. Die Bank für Internationalen Zahlungsausgleich ([BIS](https://www.bis.org/search?keywords=cbdc))
 2. der Internationale Währungsfonds ([IMF](https://www.imf.org/en/About))
 3. Forschungsarbeiten ([paper](https://papers.ssrn.com/searchresults.cfm?term=CBDC))

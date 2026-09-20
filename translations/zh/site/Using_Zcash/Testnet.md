@@ -33,14 +33,14 @@ Testnet 对区块链开发至关重要，因为**像 Zcash 这样的真实区块
 
 #### 2. 测试网络升级
 
-Zcash 会定期升级其核心协议（例如 Nu5、Nu6）。新升级会在 Mainnet 之前先在 Testnet 激活，以便开发者和社区发现并修复漏洞。
+Zcash 会定期升级其核心协议（例如 NU6.1、NU6.2 和 Ironwood）。新升级会在 Mainnet 之前先在 Testnet 激活，以便开发者和社区发现并修复漏洞。
 
 **示例：**  
 新的共识规则或交易类型会先推送到 Testnet。测试成功后，它会在预定的区块高度于 Mainnet 激活。
 
 #### 3. 测试节点实现
 
-Zcash 支持多个节点软件实现——`zcashd` 和 **Zebra**（由 Zcash Foundation 维护的 Rust 节点）。Testnet 使得在没有资金风险的真实条件下测试节点成为可能。  
+Zcash 目前维护的节点是 **Zebra**(由 Zcash Foundation维护的基于 Rust 的节点),维护的钱包是 [Zallet](https://github.com/zcash/zallet)。最初的节点实现 `zcashd` 已于 2026 年 7 月 18 日到达自动停止支持期限,不再维护 - 请参阅 [zcashd 到 Zebra 和 Zallet 的迁移指南](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)。测试网可在无财务风险的真实条件下测试节点。
 
 节点开发者可以：
 

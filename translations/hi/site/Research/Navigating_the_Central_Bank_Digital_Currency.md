@@ -99,9 +99,9 @@ Eurozone CBDC की सुरक्षा नियामकीय चुनौ
 
 ## संसाधन: डिजिटल अन्वेषक के लिए एक मानचित्र
 
-जो लोग CBDCs के अनजाने क्षेत्र में कदम रख रहे हैं, उनके लिए संसाधन आपका दिशासूचक बन जाते हैं।
-1. Bank for International Settlements ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. International Monetary Fund ([IMF](https://www.imf.org/en/About))
+जो लोग CBDCs के अनजाने क्षेत्र में कदम रख रहे हैं, उनके लिए संसाधन दिशासूचक बन जाते हैं।
+1. अंतरराष्ट्रीय निपटान बैंक ([BIS](https://www.bis.org/search?keywords=cbdc))
+2. अंतरराष्ट्रीय मुद्रा कोष ([IMF](https://www.imf.org/en/About))
 3. शोध पत्र ([paper](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. शैक्षणिक जर्नल ([journal](https://www.bis.org/publ/work976.pdf))
 5. C.E.I लेख  ([Article](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

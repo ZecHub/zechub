@@ -24,7 +24,7 @@ ZEC yɛ dijitaal agyapadeɛ a wɔde di dwuma kɛseɛ ma sikatua, ɛde kokoam ns�
     src="https://www.youtube.com/embed/bZM3o_eIovU"
     title="Zcash Explained: Zcash Shielded Transactions"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -49,7 +49,7 @@ Address a ɛda adi pefee da so ara ho wɔ mfaso wɔ tebea horow bi mu, titiriw b
     src="https://www.youtube.com/embed/R-krX1UpsIg"
     title="Learn Zcash shielded wallets!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

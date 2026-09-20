@@ -19,7 +19,7 @@ Zcon0 yɛ yɛn afe afe nhyiamu a ɛdi kan, na ɛkɔɔ yie a ɛyɛ nwonwa. Yɛdii
     src="https://www.youtube.com/embed/videoseries?si=LSWQXFdGUkKVg4EQ&amp;list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS"
     title="Zcon0 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -37,7 +37,7 @@ afe afe kokoamsɛm ne mfiridwuma ho nhyiamu a ɛtɔ so mmienu a Zcash Foundation
     src="https://www.youtube.com/embed/videoseries?si=9OVMGx-9GW_0ADw6&amp;list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj"
     title="Zcon1 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -55,7 +55,7 @@ Zcon2 kɔɔ so wɔ Yawda, June 8th ne Dwoda, June 9th 2021. Na Zcon2 yɛ virtual
     src="https://www.youtube.com/embed/videoseries?si=f5dbKWQYi8uUwyp1&amp;list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4"
     title="Zcon2 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -73,7 +73,7 @@ Zcon3 kɔɔ so wɔ Las Vegas fi August 7-9th 2022.
     src="https://www.youtube.com/embed/videoseries?si=Th6bxLipUFXM0EGj&amp;list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb"
     title="Zcon3 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -92,7 +92,7 @@ Nhyiamu a wɔbɛyɛ no ankasa no wɔ Barcelona, ​​Spain July 30-31, 2023 na 
     src="https://www.youtube.com/embed/videoseries?si=M8RwBEgu3hSRrR_C&amp;list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL"
     title="Zcon4 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -109,7 +109,7 @@ ZconV sii wɔ May 6th-10th, 2024. Na ZconV yɛ virtual nhyiamu
     src="https://www.youtube.com/embed/videoseries?si=1M-vTsYjCEtq7_jo&amp;list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR"
     title="ZconV Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -127,7 +127,7 @@ ZconVI sii wɔ March 4th-7th, 2025. ZconVI yɛ nhyiamu a ɛyɛ hu
     src="https://www.youtube.com/embed/videoseries?si=YTXE18wOOqQY44lA&amp;list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk"
     title="ZconVI Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

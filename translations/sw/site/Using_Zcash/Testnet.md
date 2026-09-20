@@ -33,14 +33,14 @@ msanidi programu mkoba unaweza kuunganisha programu kwa Testnet RPC mwisho na ku
 
 #### 2. Upimaji wa Upgrades Network
 
-Zcash upgrades yake ya msingi itifaki mara kwa mara (kwa mfano, Nu5, Nu6). Testnet activates updates mpya ** kabla ya Mainnet **, kuruhusu watengenezaji na jamii ya kutambua na kurekebisha mende.
+Zcash upgrades yake ya msingi itifaki mara kwa mara (kwa mfano, NU6.1, NU6.2 na Ironwood). Testnet activates updates mpya ** kabla ya Mainnet **, kuruhusu watengenezaji na jamii ya kutambua na kurekebisha mende.
 
 **Mfano:** 
 Sheria mpya makubaliano au aina ya shughuli ni kwanza kusukumwa kwa Testnet. Baada ya mtihani mafanikio, ni kuamsha juu ya Mainnet katika block predetermined urefu.
 
 #### 3. Kupima Node Utekelezaji
 
-Zcash inasaidia utekelezaji mbalimbali node programu - `zcashd` na ** Zebra ** (Rust-msingi node kudumishwa na Zcash Foundation). Testnet itawezesha kupima nodes katika hali halisi bila hatari ya kifedha. 
+Nodi ya Zcash inayodumishwa ni **Zebra** (nodi ya msingi wa Rust inayodumishwa na Zcash Foundation) na pochi inayodumishwa ni [Zallet](https://github.com/zcash/zallet). `zcashd`, utekelezaji wa nodi wa awali, ilifika kusitishwa kiotomatiki kwa mwisho wa usaidizi tarehe 18 Julai 2026 na haidumishwi tena - ona [mwongozo wa uhamiaji kutoka zcashd hadi Zebra na Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet huwezesha kupima nodi katika hali halisi bila hatari ya kifedha.
 
 Node watengenezaji wanaweza:
 
@@ -166,7 +166,7 @@ Fikiria TAZ kama ** "kucheza fedha" kwa ajili ya Zcash Testnet **.
     src="https://www.youtube.com/embed/XCGwwqLZILg"
     title="Zkool Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -184,7 +184,7 @@ Mashauri:
     src="https://www.youtube.com/embed/To7WAkiBldA"
     title="Zingo Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

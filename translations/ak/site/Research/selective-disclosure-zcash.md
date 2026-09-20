@@ -1,0 +1,81 @@
+# Sɛ yɛhwɛ sɛnea Zcash anya nkɔanim wɔ ahwehwɛ mu a, na dɛn na aka?
+
+*Saa asɛm yi firi nea yɛadi kan aka no mu. [Adanse Kwan no so](https://www.proofstreet.xyz/), nwoma a w'atumi de adi dwuma ma wo ho so, na ɛfa kɔmputa ne ahobanbɔ: ZK, FHE, MPC, TEEs, ɛne nnipa biara. ["Dɛn na Zcash anya wɔ ahwehwɛde a wɔde di dwuma ho, ne nea aka"](https://www.proofstreet.xyz/how-far-zcash-has-come-on-selective-disclosure-and-whats-left/) September 7, 2026. Wɔayi no adi wɔ ne kyerɛwfo kwan so sɛ ɛka nsɛm a ɛwɔ mu ho. [Zcash Community Grant #339 (Nneɛma a wɔde ma wɔ aman ahodoɔ so)](https://forum.zcashcommunity.com/t/grant-application-zcash-in-the-privacy-stack-339/56456)Stephen Webber na ɔkyerɛwee.*
+
+---
+
+*In Zcash, a viewing key lets an account holder reveal shielded transaction history to a party of their choosing. The keys are live and user-controlled. Builders ne policy advocates da so ara reyɛ adwuma wɔ wɔn ho sɛ wɔbɛsom compliance workflows no na wobetumi de adi dwuma.*
+
+---
+
+Wɔ August 17 no, Zcash Community Grants boayikuw hyiae sɛ wɔbɛhwɛ kwan a wɔfrɛ no Shielded Compliance Bridge. Deborah Olaboye yɛ obi a ɔde ne ho hyɛ open-source adwuma mu na n'adwuma ka Ethereum execution-specs akoraeɛ hɔ, ɔhyehyɛɛ proof of concept bi a wɔde di dwuma ma wɔfa unified full viewing key (nkyerεmu) so hwɛ mpuntuo nketenkete nyinaa fa testnet indexer ho, na ɛfa "compliance reference" wɔ Zcash memo mfinimfini de kyekyere nsesaɛ a ɛbɔ ban kɔ Travel Rule record a ɛnni chain biara mu. Ɔbisaa sika maa wɔn sɛnea ɛbɛyɛ a ɔbɛwie nanso boayekuo no ampene.
+
+no mu a, na [nsusuwa a wɔgyina so](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-8-17-2026/57119) Na saa nhyiamu no ara nso ansow nsusuo afofor a ne nnyinaso yɛ "programmable selective disclosure" virtual machine, ɛne ahobanbɔ na ahotoso mu adansi ho nhyehyɛɛ bi a ɛfa U.S mmara nsɛmmisa so.
+
+Of course, these decisions are not a sign that nobody wants this. Considered alongside the rest of the year, it is the opposite. Binance made a protocol-level ask in 2024 and had a ZIP within the year. Gemini has run shielded withdrawals under regulatory supervision since 2020. The ecosystem stood up a Washington policy organization in June and an institutional-integration shop in August. What the committee said, in effect, is that the need has not yet been written down as a requirement anyone can build to.
+
+## Sεnea y'adi dwuma no
+
+Zcash address a w'ayi no asi hɔ na wode spending key di dwuma. Ɛfiri saa ɔdan yi mu, wobehu transaction data nanso wonnya kwan mfa sika nkɔ so wɔ baabiara. View Key nyinaa bɛhunu transactions biara a ɛreba ne nea ɛkɔ firi account no ho; incoming viewing key hunu funds aa agye agu nko ara, ɛnna outgoing viewed key ma obi tumi yɛ deɛ ɔde asendeeɛ no bio. [ZIP 316](https://zips.z.cash/zip-0316), wɔhyehyɛ no faako sɛ unified viewing keys, baako yɛ ma na biako nso ba a ɛtwe kɔ mu, wɔde to account so. Saa nti account ne position bi wɔ wallet key tree ase wɔ "window" ho. [ZIP 32](https://zips.z.cash/zip-0032)Unified full viewing key fa nneɛma a ɛwɔ pool biara mu ma no, na ɛsan nso wɔ account no transparent extended public key. Enti sɛ wode baako kyɛ a ɛma ahwehwɛde no da adi ne bere nyinaa ho abakɔsɛm.
+
+A viewing key is in this sense retroactive. It decrypts the account's entire history from the moment the account was created, and it cannot be withdrawn once shared, short of moving funds to a new account. There is no per-transaction viewing key and no time-bounded one. Josh Swihart, chief executive of ZODL, the company formed this year by the protocol's former ECC engineering team, confirmed this, also mentioning that per-transaction payment disclosure is "not implemented anywhere."
+
+zcashd, mfitiaseɛ reference node no de RPC akwan mmienu na ɛkɔɔ so; `z_getpaymentdisclosure` ne sɛ, `z_validatepaymentdisclosure`, a ma obi kwan sɛ ɔkyerε sε watua sika no prכto mu ama nipa foforo bi. [RPC nkrataa a w'akyerɛ mu no](https://zcash.github.io/rpc/z_getpaymentdisclosure.html) Ɔyɛ wɔn a wɔsɔ ahwɛ, na wɔyɛ no basaa gye sɛ nea ɔyɛ adwuma no de nsɔhwɛ-nkyerɛwee hyɛ agyiraehyɛde bi ase. Na ɔde "work in progress Payment Disclosure ZIP" di dwuma. Saa ZIP no, [303](https://zips.z.cash/zip-0303), na afei wɔadi ne ho adanse sɛ wagyae, na n'adefo no a ɔde too hɔ, [ZIP 311](https://zips.z.cash/zip-0311), remains a draft with no implementation attached. The methods covered only the Sprout pool, the original 2016 shielded pool, and were never extended to Sapling or Orchard, which is to say to the pools that carry every modern shielded transaction. zcashd itself [abedu nkwa awiei.](https://zcash.github.io/zcash/user/end-of-life.html) on July 18, 2026, a planned halt ahead of the Ironwood upgrade. Neither Zebra, the Zcash Foundation's consensus node, nor Zallet, the successor wallet, [nkrataa a ɛwɔ hɔ no](https://github.com/zcash/zallet/releases) Wɔ nnwumakuo a ɛho hia no mu, dwumadie biara ho dawuro da so yɛ adwene.
+
+Adwene no da so ara wɔ hɔ, nanso ɛkyɛn nea na ɛte July mu. [ZIP 231](https://zips.z.cash/zip-0231)Swihart kaa memo bundles ho asɛm sɛ ɛno na ɛbɛtumi ama wɔadi nkrataa a wɔde bɛkyerɛ wɔn nokorɛ no so, ɛne nea ɛbɛma wɔatumi ayɛ biribi de akyerɛ sɛ wɔahyɛ sika bi. [mmuaeɛ a wɔagye ato mu addresses](https://zips.z.cash/draft-ecc-authenticated-reply-addrs)Memo bundles yɛ tranzaction format nsesae, na nnwumakuo anum a wɔhwɛ ma wɔde di dwuma no nso de wɔn ho hyɛ mu. [NU7 sika a wɔtɔ no so abatoɔ](https://forum.zcashcommunity.com/t/nu7-coinholder-vote/56912) Wɔ August mu no, wɔn adwene hyiae sɛ format nsesaeɛ a ɛwɔ NU7 ho nni mfasoɔ na mmom wɔboa ma ne nkakrankakra ayɛ yie. Ntɔmpɔn ankasa a ɛkɔɔ so firi Ɔpɛnimma 25 kɔsi Ɛbɔ da 14, de sika a wɔde bɛtua to gua, akatua nhyehyɛe, nnidisoɔ ntam kwan ne Sprout asehwe maa nnipa; ɛnkaa nsɛm biara wɔ abatoɔ krataa no so. Ɔkwan dadaa ZIP 311 no nhia nkabom nsakrae nanso ɛda so yɛ ɔfã bi a enni mmamu anaa Orchard dwadie.
+
+So what ships today is account-scoped viewing keys, full or incoming-only, retroactive, irrevocable and shared at the account holder's initiative, with transaction-level disclosure on the roadmap.
+
+## Nimdeɛ a wɔde di dwuma ho dawuru
+
+Disclosure mechanisms, in Zcash or anywhere else, can be located on the following: What is revealed (scope). To whom (grantee). When the grant takes effect and how far back it reaches (timing). Whether it can be withdrawn (revocability). And who initiates it, the data subject or an authority (initiation).
+
+Nkrataa a wɔde di dwuma wɔ Zcash mu no yɛ nea wɔn nsa ka, na sɛ obi pɛ sɛ ɔhwɛ so ma ne sika kɔ soro anaa ɔde n'ani to fam nso a, obetumi de adi dwuma. Ɛwɔ saa kwan yi so: "Zcash" kyerɛsɛm (requirements) - ɛmu nsɛm bi te sɛ nsesaeɛ nkontabuo ho nhyehyɛɛ, ahwehwɛde ahorow, ɛne adebɔ biara a ɛfa adwuma ase nhyehyɛe ho.
+
+Saa nneɛma yi nyinaa yɛ nea wɔfrɛ no selective disclosure. wɔ tumi krataa wiase mu, sɛ obi kyerɛ ne din a ɛwɔ nkrataa bi so na ɔnkyerɛ nkaeɛ biara ase a ɛno ara ne adeyɛdeɛ ho nimdeɛ a ɛhia ma wɔn a wɔde nsa hyɛ adwuma mmara nsɛm mu no. [SD-JWT (Ɔwɔ sε wɔsan bɔ no)](https://datatracker.ietf.org/doc/rfc9901/), ISO mdoc and BBS+ signatures are built to do. The unit of disclosure is an attribute, the moment is presentation time, and the holder decides per interaction.
+
+In the shielded-payments world the phrase means revealing transaction data to a chosen party, where the unit is an account's history and the moment is whenever the key is handed over.
+
+## Deɛ ɛhia sɛ ɛyɛ ma obi no, ɛne deɛ ɔhwehwɛ.
+
+Swihart kae sɛ ade a edi kan a wɔabisae no ne sԑ wobedi mmara so na wɔn nsa aka fii Binance hɔ, nea ɔhwehwɛ de adi dwuma pefee ma obi nya sika. [ZIP 320](https://zips.z.cash/zip-0320), transparent-source-only addresses, and the ZIP text indeed records the origin "as required by Binance." A TEX address is an ephemeral transparent pass-through that guarantees the exchange receives funds from a transparent source. It gives the exchange a return path without giving it the sender's history. The one accommodation the protocol made to an exchange discloses exactly what the exchange asked for and nothing more.
+
+Swihart kyerɛ sɛ, efi bere a wɔmaa Sapling so no, abɛɛfo mfiri biara nni hɔ a ɛboa ma asesafoɔ bi ntumi mmoa dwumadie pa mu esiane sɛ wɔn ho yɛ hu ntɛmntɛm nti. Asekyerɛ ne sε wɔde ɔhwεsoɔ kabea di dwuma de hwɛ nsɛm a ɛho hia yiye. Saa kwan yi so no nsonsonoe a ɛda afiri ahorow ne mmaransem adwuma ntam nyɛ biribi titiriw na ɛmma obi nnya adwene daadaa kasa a enni hɔ ankasa.
+
+Divij Pandya is working the other end of that conversation. He is executive director of Pretty Good Policy for Zcash, the Washington policy organization stood up in June as a continuation of an earlier ECC-led initiative, and his organization's project is to get viewing-key disclosure recognized as an acceptable compliance mechanism in a document a compliance officer can cite. To his knowledge, he said, no regulator has yet engaged with viewing keys as an instrument. PGPZ's scope, naturally, is recognition rather than builder guidance. A tool cannot be specified against a requirement until someone with authority has ruled on the instrument, so recognition is the upstream step. The organization's filings are signed by Paul Brigner as PGPZ's founder and as ZODL's chief policy and regulatory officer, so the policy and engineering efforts share an officer as well as a thesis.
+
+July 21 asɛm a wɔde maa House subcommittee wɔ FinCEN hwɛ so no ka sɛ Zcash yɛ "n'adwuma ho nimdeɛ, ma wɔn kwan de anigye kyɛ transaction details denam anigyie ahwehwɛde ahorow a wɔne auditors di dwuma mu", na ɛtwe adwene si zero-knowledge proofs so "ne selective viewing keys" fa kyerɛ nokwasɛm bi. Nkrataa bi a ɛfa FinCEN docket ho, [FINCEN-2026-0101-0050 Ɔman biara wɔ ɔhwɛfoɔ a ɔwɔ ɔman no mu.](https://www.regulations.gov/comment/FINCEN-2026-0101-0050)Asԑmmisa a ԑda adi no yԑ nea ᴐwↄ sԑ wo bεfa asesae nyinaa ho nkyerԑkyerԑmu, anaa "ahwehwԑde ahorow bi" na w'anya ne mmuaeɛ wɔ ZIP 231 so.
+
+Ɛde besi sɛ wobesiesie no, mmara a wodi so akuw hyia nsɛnnennen bi. Ɛyɛ nsɛmma nhoma mu mfonini bi a wɔde din ayɛ ho kyerɛwtohɔ, strahncryptography, [a wɔaka ho asɛm no](https://forum.zcashcommunity.com/t/grant-application-shielded-compliance-bridge/56862) in the discussion of Olaboye's proposal: they follow the rule to the letter, and will not adopt an unrecognized path without a regulator's or a law firm's attestation, however sound the cryptography. Any disclosure design that attaches a reference to a transaction proves only the last hop, and the last hop could be the depositor themselves. A viewing key has the same limit. It reveals the account holder's transactions, not where the counterparties' funds came from, which is the question a sanctions screen asks.
+
+Sɛ obi a ɔde ne data hyɛ banbɔ no mu kyerɛ sɛ biribi asi, anaa ɔhwɛ so ma wɔtua sika bi ho ka anaasɛ ɔyɛ nhyehyɛe de di dwuma na afei nso wɔde to gua bere biara a ɛho hia. Saa nsɛm yi yɛ nea wɔn ankasa bɔe; ɛwɔ hɔ firi berɛ a w'abɔ wo din ato baabiara, ɛne deɛ ɛbɛba daakye nyinaa. Ɛho nhia sɛ wode saa nneɛma yi bɛhyɛ da ansa na woanya akatua bio. Wɔmfa nhyɛsoɔ mma obiara ɛsi kwan foforɔ biara a ɛbɛma wɔatumi adi nkontabuo ho dawuro ahorow a ɛfa nnipa kuo ahodoɔ a wonni kyɛfa wɔ sikasɛm mu ho, anaa ɛde ba nna pɔtee bi mu, anaa ɛka a wɔbɛsan agye wɔ mmere foforo akyi.
+
+Gemini agye ntotosoɔ a wɔayi akɔ adansedi ahorow a wɔde asie mu afi afe 2000 kosi 2006 no atom. [Ɔpɛnimaa 2020](https://www.gemini.com/blog/gemini-adds-support-for-shielded-zcash-transactions), when a spokesperson credited ongoing conversations with regulators, extended that to the Orchard pool in November 2025, and to the post-Ironwood pool two days after activation in July 2026. It accepts deposits sent from shielded addresses into transparent custody. Kraken's [kɔ a wɔtwe no ho address list](https://support.kraken.com/articles/360001474826-supported-address-formats-for-cryptocurrency-withdrawal) supports transparent ZEC addresses only, Coinbase is likewise transparent-only, and Binance requires TEX. What no major regulated exchange yet offers is shielded custody, a shielded deposit address, or a workflow into which a customer's viewing key would go.
+
+Wɔreyɛ saa no, wɔama wɔn a wɔwɔ sika nkontaabu so kwan sɛ wɔmfa ntoboa mma. [a wɔ resua no September yi mu.](https://forum.zcashcommunity.com/t/call-for-proposals-coinholder-directed-retroactive-grants-program-q3/56885) are ZecBooks, a Mac bookkeeping tool that imports a view-only key, classifies notes, and exports a scoped package of rows for an accountant without granting lasting access to the wallet; ZecLedger, a read-only cost-basis and reconciliation tool built around a unified full viewing key, tested against a mainnet wallet; and seer-sync, a chain-sync engine that takes a viewing key so a payment processor or accounting system can observe shielded activity without holding spending keys. None is an exchange workflow, and none has a regulator's attention. Each is the accountant-facing half of the same problem, built by one or two people without a partner asking, and ZecBooks' scoped export is selective disclosure operating at the interface where it is most often needed first: between a shielded user and the person keeping their books.
+
+## Ɔbra pa, ɛnyɛ sika no.
+
+Zcash adansifo no reyɛ adwuma wɔ ɔhaw bi a ankorankoro biara ahintasɛm mu nhyehyɛe nyinaa hyia ho.
+
+Zama ne confidential-EVM no, access control list na ɛkyerɛ address a wobetumi asrɛ sɛ wɔ bɛ twe ciphertext bi mu nsɛm agu so. key management operators network de yɛ decryption bere biara a obi rebisa ho kwan. Wei ma granttee axis tu firi ɔfese a user hyɛ nsa ka kɔ permission contract records hɔ, na ɛma initiation tumi di programming dwuma, ɛfiri sɛ contract betumi ama auditor dekyription rights te sε condition of use. Ɛmfa disclose nna adi akyere wͻ sensem a compliance officer kyerɛ no, efiri se Ciphertext a watwe dada no da so ara yεε decrypted, na εde user's key custody fa operator nokwaredi trɛw dwumadie ase tesɛ trust base. Asset level auditors keys, the kind in Solana's confidentially transfer extension and Avalanche's encryptED ERC design, a grantee at the level that issuer or an audited transfers can read balances and fix tokens for that asset.
+
+Inco atintim a wɔabobɔ din sɛ "Inc. [nhyehyeɛ](https://www.inco.org/blog/programmable-view-access) Wɔ nhyehyeɛ a wɔayi no adi dada mu, sɛ wonya kwan de di dwuma wɔ nneɛma titiriw bi so bere a wɔde yɛ adwuma ho nhyehyɛe, ɛne programmatic view access bɔ abira, na saa ahwehwɛde yi fa contract state ho a wobetumi ama wɔn nsa aka, ahyɛ ne nsunsuanso ase na wɔatwe ato hɔ.
+
+## Dɛn nti na ɛyɛ den saa?
+
+Dԑn na ԑkyerԑ sԑ ɔhwԑfo kͻkᴐbea no ne mmaransɛm a' edidisoɔ yԑ adwuma?
+
+Sɛ obi pɛ sɛ ɔhu ne ho nsɛm a, ɔde ahwehwɛde no di dwuma ma ohu nea n'ankasa wɔ mu. Sanctions screening na daa ahwɛ bisa fa wɔn a wɔne wɔn yɛ adwuma no ho, baabi a sika a ɛwɔ dwumadie biara akyi fi bae, ɛne saa nkitahodie yi ara bi a ɛbɔ ban de sie. Obiara nnya nyii mfoni da adi a ebua counterparty asɛmmisa bere a wonni nwoma anaa nnipa foforo a wogye wɔn di so.
+
+If memo bundles land in the upgrade after NU7 and the reply-address draft follows, "targeted transaction information" in PGPZ's filings becomes literal. That is at least two upgrades away, and the regulatory answer arrives on a regulator's timeline.
+
+Sɛ yɛhwɛ nnipa dodow a wɔresisi no so a, ɛnyɛ den sɛ yɛbɛhu. Nea ɛhia ne ahwehwɛde pɔtee bi ma wɔn ho ahofadi-abue mu. Zcash yɛ abɔde nhyehyɛe a emu na wɔyɛ saa gyinaesi yi ho nkɔmmɔ pefee, denam engineers, asɔremma, adansifo, sikakorabea ne mmoa boayikuo a ɛte sɛ nea wɔne baabi a wɔde bɛkɔ bɛpene so ɛne sɛnea nneɛma bɛyɛ pɛpɛɛpɛ no. Afei nso ɛyɛ adwuma fa ankorankoro defoɔ a wofii ase wɔ nnwumakuo nkontabuo afã hɔ bere a wonnya twɛnee ansa na wɔatwerɛ ahiade no ato hɔ.
+
+---
+
+*Nsɛm a ɛsɛsɛ wo hunu: saa krataa yi na w'atwe ato mu wɔ Abibifahodie Adesuabea hɔ. [Zcash Community Grant (Ɔmanfo Ntam Nkrataa)](https://forum.zcashcommunity.com/t/grant-application-zcash-in-the-privacy-stack-339/56456)ZCG anhwɛ anaa annye saa krataa yi antom ansa na wɔretwerɛ no.*
+
+---
+
+**Nkrataafa a ɛfa ho:** [Ɔhwɛfoɔ Nsaano Hwehwɛbea](https://zechub.wiki/zcash-tech/viewing-keys) · [Ahintasɛm a wɔsesaa no](https://zechub.wiki/research/confidentiality-compared)

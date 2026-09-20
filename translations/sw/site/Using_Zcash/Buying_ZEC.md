@@ -45,7 +45,7 @@ Wengi wa kubadilishana kubwa msaada Zcash. Angalia hapa kwa orodha ya kina: [hap
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zodl: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -69,7 +69,7 @@ Wakati wa kufanya hivyo, tunapendekeza kutumia moja ya yafuatayo [pochi](https:/
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Reviewing all Zcash Shielded Wallets"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

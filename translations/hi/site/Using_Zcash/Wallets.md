@@ -63,7 +63,7 @@
 ---
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
-![लोगो](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
+![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - डिवाइस: मोबाइल | डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Android | iOS | Windows
 - वॉलेट समर्थन: सीड फ़्रेज़ | Viewing Key | Unified Address
@@ -240,7 +240,7 @@
 ---
 
 ## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
-![लोगो](/content-images/trezor1-5004075d27.webp "Trezor")
+![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - डिवाइस:
 - ऑपरेटिंग सिस्टम:
 - वॉलेट समर्थन: हार्डवेयर

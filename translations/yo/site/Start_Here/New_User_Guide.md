@@ -46,7 +46,7 @@ Fidio kan tó ń ṣe àgbéyẹ̀wò àwọn pọ́ọ̀sì tí ó ní ọjà òd
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Zcash Shielded Wallets Explained"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -67,7 +67,7 @@ Lẹ́yìn tí ẹ bá ti dá àpò yín, ẹ ó fẹ́ láti yọ ZEC yín sín
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -85,7 +85,7 @@ lẹ́yìn tí o bá ti fi ZEC díẹ̀ sínú àpò rẹ,o lè ránṣẹ́ ìn
     src="https://www.youtube.com/embed/tEfQaYPV0UE"
     title="Useful Tips when using Zcash 🔒"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>

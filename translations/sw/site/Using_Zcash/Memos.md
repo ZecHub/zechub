@@ -30,7 +30,7 @@ Hapa ni jinsi ya kutumia Zcash Shielded Memos na Magic-Wormhole CLI na zcashd sa
     src="https://www.youtube.com/embed/8iqPCza9o6A"
     title="DEMO: Encrypted File Transfer with Zcash 📁"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

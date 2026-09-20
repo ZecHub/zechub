@@ -13,7 +13,7 @@
     src="https://www.youtube.com/embed/Wg_WtPdBig0"
     title="Zcash Explained: Namada-Zcash Strategic Alliance"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -29,7 +29,7 @@ Yɛahu sɛ nnwuma pii ahyɛ bɔ dodo na wɔmfa wɔn NFT akwan ho nhyehyɛe no mm
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
     title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

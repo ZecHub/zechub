@@ -33,14 +33,14 @@ Wallet developer betumi de software abɔ Testnet RPC endpoint na wayɛ asetena n
 
 #### 2. Wɔsɔ Network Upgrades hwɛ
 
-Zcash yɛ ne core protocol no foforo bere ne bere mu (e.g., Nu5, Nu6). Testnet ma nkɔsoɔ foforɔ yɛ adwuma **ansa na Mainnet** aba, ɛma developers ne mpɔtam hɔfoɔ tumi hunu na wɔsiesie mfomsoɔ.
+Zcash yɛ ne core protocol no foforo bere ne bere mu (e.g., NU6.1, NU6.2 na Ironwood). Testnet ma nkɔsoɔ foforɔ yɛ adwuma **ansa na Mainnet** aba, ɛma developers ne mpɔtam hɔfoɔ tumi hunu na wɔsiesie mfomsoɔ.
 
 **Nhwɛsoɔ:** 
 Wɔdi kan pia adwene foforɔ mmara anaa ayɔnkofa su kɔ Testnet. Sɛ wɔsɔ hwɛ yiye wie a, ɛyɛ adwuma wɔ Mainnet so wɔ block sorokɔ a wɔahyɛ ato hɔ.
 
 #### 3. Sɔhwɛ Node Nnwuma a Wɔde Di Dwuma
 
-Zcash boa node software dwumadie ahodoɔ pii - . `zcashd` ne **Zebra** (Rust-based node a Zcash Foundation na ɛhwɛ so). Testnet ma wotumi sɔ nodes hwɛ wɔ tebea ankasa mu a sikasɛm mu asiane biara nni mu. 
+Zcash node a wɔhwɛ so no yɛ **Zebra** (Rust-based node a Zcash Foundation hwɛ so) na wallet a wɔhwɛ so no yɛ [Zallet](https://github.com/zcash/zallet). `zcashd`, node a ɛfiri mfiase no, duruu awotwee end-of-support nkwagyeamu wɔ 18 July 2026 na wɔnhwɛ so bio - hwɛ [zcashd kɔ Zebra ne Zallet migration guide](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet ma yɛtumi sɔ nodes hwɛ wɔ nokware tebea mu a sika haw nni mu.
 
 Node developers betumi:
 
@@ -166,7 +166,7 @@ Susuw TAZ ho sɛ **"agoru sika" ma Zcash Testnet**.
     src="https://www.youtube.com/embed/XCGwwqLZILg"
     title="Zkool Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -184,7 +184,7 @@ Susuw TAZ ho sɛ **"agoru sika" ma Zcash Testnet**.
     src="https://www.youtube.com/embed/To7WAkiBldA"
     title="Zingo Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

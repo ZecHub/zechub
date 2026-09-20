@@ -86,7 +86,7 @@ A na-ahụ ọrụ ndị metụtara ya. [Zakura](https://zechub.wiki/zcash-tech/
 - **Tachyon adịghị arụ ọrụ.** Ọ dịghị obere akpa ji ya taa, ọ nweghịkwa nkwalite emegharịrị.
 - **Tachyon abụghị otu ihe ahụ dị ka Ironwood.** A na-arụ ọrụ nke ígwè n'ọnwa Julaị 2026 ma jiri ọdọ mmiri Orchard na turnstile. Tachyon bụ atụmatụ ọzọ, mgbe e mesịrị banyere ịba ụba.
 - **Tachyon abụghị ihe nzuzo.** Ebumnuche bụ idobe akwụkwọ ndekọ ahụ na-enweghị ike ịkọwapụta ma wepụ ụgwọ ọnụ ọgụgụ, ọ bụghị ịzụ ahịa maka ọsọ.
-- ** nkwenye nke zK-SNARK abụghị ihe mgbochi.** Nkwupụta ahụ doro anya na akụkụ dị nwayọ bụ etu obere akpa si achọpụta ma hazie steeti, ọ bụghị ụgwọ ịlele akwụkwọ.
+- ** nkwenye nke zk-SNARK abụghị ihe mgbochi.** Nkwupụta ahụ doro anya na akụkụ dị nwayọ bụ etu obere akpa si achọpụta ma hazie steeti, ọ bụghị ụgwọ ịlele akwụkwọ.
 - **"A na-elekwasị anya na NU7" abụghị nkwa.** Ihe a ga-etinye n'ime NU7 bụ mkpebi site na ịtụ vootu.
 
 <br/>

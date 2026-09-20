@@ -10,7 +10,7 @@ This guide provides a step by step walkthrough on how to perform multisig transa
     src="https://www.youtube.com/embed/eagkCIv3BlQ"
     title="Zkool Demo | The Successor to Ywallet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

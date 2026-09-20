@@ -48,7 +48,7 @@ Por ejemplo, considera la publicación de un NFT en Solana; su estado público (
 ***
 
 
- **[FairySwap](https://fairyswap.finance/swap)**: Fairyswap es un DEX de privacidad de nueva generación, impulsado por la comunidad, de capa 1, comprometido con no requerir permisos y con la descentralización. Al aprovechar la tecnología de pruebas de conocimiento cero integrada en Findora, los DEX de privacidad y dApps como FairySwap dan a los usuarios la capacidad de elegir qué información quieren que sea visible en una blockchain pública y cuál prefieren proteger. La información que quieren mantener invisible aún puede verificarse públicamente con pruebas de conocimiento cero sin revelar ningún detalle - **Intercambio de Activos**: Sí - [Whitepaper](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+**[FairySwap](https://fairyswap.finance/)**: Fairyswap es un DEX de privacidad de nueva generación, impulsado por la comunidad, de capa 1, comprometido con no requerir permisos y con la descentralización. Al aprovechar la tecnología de pruebas de conocimiento cero integrada en Findora, los DEX de privacidad y dApps como FairySwap dan a los usuarios la capacidad de elegir qué información quieren que sea visible en una blockchain pública y cuál prefieren proteger. La información que quieren mantener invisible aún puede verificarse públicamente con pruebas de conocimiento cero sin revelar ningún detalle - **Intercambio de Activos**: Sí - [Whitepaper](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKSync](https://zksync.io/)**: zkSync es una solución de escalado de capa 2 en Ethereum que ofrece bajo gas y transacciones rápidas, sin comprometer la seguridad. Las personas pueden retirar activos a capa 1 en cualquier momento. Para acceder a todo el ecosistema de zkSync y beneficiarte de transacciones baratas e instantáneas, primero necesitas una [wallet como Argent](https://argent.link/zksync). Sin una wallet, no puedes incorporarte a la red, ya que no es posible acceder a zkSync a través de un exchange como Coinbase o Binance. Las wallets te ofrecen una forma sencilla de comprar, vender y almacenar cripto, y de experimentar el emocionante mundo de DeFi, los NFTs y mucho más - **Intercambio de Activos**: Sí - [Whitepaper](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
@@ -85,7 +85,7 @@ Por ejemplo, considera la publicación de un NFT en Solana; su estado público (
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi es una L1 anónima basada en conocimiento cero, computación multipartita y cifrado homomórfico. El anonymous proof-of-stake garantiza que los validadores permanezcan ocultos. DarkFi ofrece un entorno antifrágil para crear y ejecutar aplicaciones anónimas - **Intercambio de Activos**: Sí - [Whitepaper](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi es una L1 anónima basada en conocimiento cero, computación multipartita y cifrado homomórfico. La prueba de participación anónima garantiza que los validadores permanezcan ocultos. DarkFi ofrece un entorno antifrágil para crear y ejecutar aplicaciones anónimas - **Intercambio de activos**: Sí - [Informe técnico](https://darkfi.org/whitepaper) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

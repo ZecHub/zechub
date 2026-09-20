@@ -16,7 +16,7 @@
 
 ## Compile FROST bins
 
-[frost-tools on GitHub](https://github.com/ZcashFoundation/frost-tools/tree/a22235fb8d5b2cde8146953ecdfc875922730139)
+[Github link](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Use the above repo and follow directions on compiling: 
 

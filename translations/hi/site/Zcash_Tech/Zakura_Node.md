@@ -81,7 +81,7 @@ Zakura, Ironwood network upgrade (NU6.3) के साथ पूरी तरह
 | Sync speed | आधाररेखा | ~1× | ~5× तेज़ |
 | Block pruning | नहीं | नहीं | हाँ |
 | zcashd RPC compat | नेटिव | आंशिक | हाँ (compat mode) |
-| Snapshot bootstrap | नहीं | नहीं | हाँ (<2 min) |
+| Snapshot bootstrap | नहीं | नहीं | हाँ (2 मिनट से कम) |
 | Experimental P2P | नहीं | नहीं | हाँ (opt-in) |
 
 ---

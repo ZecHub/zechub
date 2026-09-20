@@ -43,7 +43,7 @@ Hapa ni mafunzo ya jinsi ya kuondoa ZEC kutoka kubadilishana. Kumbuka kwamba hii
     src="https://www.youtube.com/embed/REUbkLzK7J4"
     title="Buy and withdraw ZEC to a shielded wallet from Gemini"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -58,7 +58,7 @@ Hapa ni mafunzo ya jinsi ya kulinda ZEC yako kutoka anwani uwazi kwa anwani ulin
     src="https://www.youtube.com/embed/W2msuzrxr3s"
     title="Shield your ZEC from a transparent to shielded address"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -73,7 +73,7 @@ Hapa ni mafunzo ya jinsi ya kununua ZEC juu Coinbase na kutuma kwa Zodl.
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -14,7 +14,7 @@ Video iliyounganishwa hapa chini inafuata mchakato huo.
     src="https://www.youtube.com/embed/Nq5cLiAHxPI"
     title="ziggurat 3.0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

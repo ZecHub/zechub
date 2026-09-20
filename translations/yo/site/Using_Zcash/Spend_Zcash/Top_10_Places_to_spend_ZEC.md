@@ -10,7 +10,7 @@ Sibẹsibẹ, ní ti ọ̀nà tuntun tí owó gbà ń wọlé sí ayé yìí, à
 
 Zcash pẹlu ZEC nfunni ni awọn ẹya ara ẹrọ aṣiri ati aabo ti o pọ si. Ṣugbọn, bi igbesẹ akọkọ fun gbigba ati lilo bẹrẹ pẹlu otitọ pe diẹ sii (awọn gidi) iṣowo, awọn ile itaja ati eniyan ti n pese iṣẹ n gba **ZEC** gẹgẹbi aṣayan isanwo., 
 
-# Kí ló dé tí iléeṣẹ́/iṣẹ́ kan fi fẹ́ gba $ZEC?
+## Kí nìdí tó fi gba ZEC?
 
 If you have a company or sell any product or service, you may wish to receive Zcash. Why? Herein, some of those multiple reasons and benefits you can considered it as your payment method. 
 
@@ -22,16 +22,13 @@ If you have a company or sell any product or service, you may wish to receive Zc
 
 Bi o se n wo gbogbo nkan ti a so loke, awon ibi to le lo ZEC wa. A yoo fi ohun ti awa pe ni: 
 
-# #Àwọn ibi mẹ́wàá tó gba ZEC (tí o sì fẹ́ náwó)
+## Àwọn ibi tó ga jùlọ tí wọ́n ń gba ZEC
 
  ****
 
 Ní pàtàkì, ní Venezuela, àwọn ibi kan wà (àwọn ibìkan tí ó ṣeé rí àti orí ayélujára) níbi ti o le ra ọjà tàbí iṣẹ́ kí o sì sanwó pẹ̀lú Zcash... Ẹ jẹ́ ká bẹ̀rẹ̀!
 
-<aside>
-📌 A ṣe àkójọ àwọn nǹkan yìí láìṣe àbáyọ, láti jẹ́ kí ènìyàn mọ ibi tí wọ́n ti lè lọ sanwó láìsí ìdààmú pẹ̀lú ẹ̀rọ tó ṣeé gbé (tẹlifóònù alágbèéká tàbí ìwé àkọọ́lẹ̀), owó Zcash àti íńtánéètì rere tabi asopọ data.
-
-</aside>
+> O nílò àpò Zcash àti ìsopọ̀ sí ẹ̀rọ.
 
 [**Oúnjẹ - Ìpèsè àti Ṣókólá**] 
 
@@ -41,15 +38,9 @@ Ní pàtàkì, ní Venezuela, àwọn ibi kan wà (àwọn ibìkan tí ó ṣeé
 
 Yàtọ̀ sí àwọn búrẹ́dì rẹ, ó tún ní àwọn iṣẹ́ mìíràn tó ń ṣe àti èyí tí o dára jùlọ nínú gbogbo wọn ni: O lè fi ZEC sanwó!
 
-![1_20230829_214024_0000.png](/content-images/_unavailable.svg)
-
  Àwọn kuki ṣókólá tí ó ń bú gbàù. Àkọlé àwòrán: Sheila Vargas Rojas
 
-![2_20230829_214024_0001.png](/content-images/_unavailable.svg)
-
 Oat flakes & raisin cookies. Àkọlé àwòrán: Sheila Vargas Rojas
-
-![Untitled design_20230829_215327_0000.png](/content-images/_unavailable.svg)
 
 Àwọn donut pẹ̀lú èso díndín. Àkọlé àwòrán: Sheila Vargas Rojas 
 
@@ -65,7 +56,9 @@ Ojú-ìkànnì sheemprende.com ti di èyí tí kò lè ṣe àtúnṣe sí, ẹ 
 
 **Zcash Unified Address:** 
 
+```
 u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9erv3udraj435hl7r6pz3q5ehdjnha2ve9c4ley9l0wh8um9s0zlvqungxexjerfkp8gjvemgtp6pgm694txw5p0mw4at49jzwcxygy7c72gceph340zscg7kscqhqw2yzg3alkh
+```
 
  Caracas - Venezuela Ìlú yìí ni wọ́n ti ń ṣe àtìpó. 
 
@@ -75,15 +68,9 @@ u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9er
 
 Rosa Ma. Rangel, onimọ-ẹrọ Kọmputa nipa iṣẹ ṣugbọn * chocolatière * nipasẹ idaniloju, ololufẹ chocolate ti o jẹwọ ara rẹ ati ifẹkufẹ fun akara oyinbo ati pastry, nfunni ni ọpọlọpọ awọn ọja ọwọ lati inu chocolate, ipanu Venezuelan aṣa ati bekieri . 
 
-![Untitled](/content-images/_unavailable.svg)
-
 Èso gbígbẹ àti súkálì ìrèké 
 
-![20230829_232246.jpg](/content-images/_unavailable.svg)
-
 Rosa rẹ́rìn-ín músẹ́, ó sì fi hàn pé òun gbà láti gba owó Zcash. **
-
-![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
 **Ojú-ìkànnì**: somosdulceros.com ti fẹ̀yìn tì, kò sì tún ní ìtumọ̀ mọ́. Lo àwọn ìjápọ̀ àjọlò tó wà lókè yìí.
 
@@ -91,7 +78,9 @@ Rosa rẹ́rìn-ín músẹ́, ó sì fi hàn pé òun gbà láti gba owó Zcash. 
 
 **Zcash Unified Address:** 
 
+```
 u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83rv8vpy98k7ztghur22z6fdrjpvjscjxtdwfj5w0dfj6jv6pw3ns5lx257lsndfe0ul2mer22kzanphyjvaxgxydfkwm9rvww78gd2n9xadfdyxr50430d3hwz59c4hhjaq5qyh
+```
 
  Caracas - Venezuela Ìlú yìí ni wọ́n ti ń ṣe àtìpó. 
 
@@ -103,21 +92,13 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 Elizabeth jẹ́ ìyá tó ní ìfẹ̀ sí iṣẹ́ ọwọ́ àti ìṣẹ̀dá. Ó ni ìdí pàtàkì jùlọ fún fífi ara rẹ̀ fún gbogbo ohun tí ó ṣe: ìdílé rèé*.💙*
 
-![BackgroundEraser_20230830_134315142.png](/content-images/_unavailable.svg)
-
 Ìkànnì:** 
 
 [https://papelesacolor.blogspot.com/](https://papelesacolor.blogspot.com/) 
 
-![2_20230830_152443_0001~2.png](/content-images/_unavailable.svg)
-
 Ṣé àwọn ọmọ rẹ ń gba ìgbéga? **Papeles a color** lè ràn ọ́ lọ́wọ́ láti ṣe ayẹyẹ àṣeyọrí wọn.
 
-![3_20230830_152443_0002~2.png](/content-images/_unavailable.svg)
-
 Ohun kan tó yàtọ̀, tí kò sì láfiwé? Àpótí ìléwọ́ tẹlifóònù alágbèéká Zcash!
-
-![1_20230830_152443_0000.png](/content-images/_unavailable.svg)
 
 Àwọn nǹkan mèremère mìíràn tí Papeles a Color ṣe lọ́nà àfọwọ́fà.
 
@@ -131,7 +112,9 @@ Ohun kan tó yàtọ̀, tí kò sì láfiwé? Àpótí ìléwọ́ tẹlifóònù
 
 **Zcash Unified Address** 
 
+```
 u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykaxrsdraepu08qhu5f6e3udmpl72a8vtsclwwvx9ux2mmk5jyy83asu5957pwac07jhmpgn7unz96dljetqylp34l5mvj3grjwqm7wmdxgcyehhnntafrl5r727klaklt29lykvg
+```
 
  San Juan de los Morros - Venezuela. Àwọn ojúewé wọ̀nyí jápọ̀ mọ́ "San Juan" àti "Sán". 
 
@@ -159,15 +142,15 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 **Unified Address:** 
 
+```
 u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw7def5anezwzgyp857uw2gjjk7zwxdz9p6m8uxg05mhsgwxnxndn42k4mxmxftuqpmvet4vl7uf8a0m5q2e65lwyl8fq0425ys6ny8un6g5j07t0vxlwauhps605zypydl9h44
+```
 
  San Antonio de los Altos - Venezuela (ìlú tó wà ní ìlà oòrùn orílẹ̀-èdè náà) 
 
 ---
 
 1. Ìkànnì Orí-Èdè GorBrit
-
-![Untitled](/content-images/_unavailable.svg)
 
 Ibi tí Roosevelt Gordones àti Aura Brito ń darí yìí, ó ní àwọn iṣẹ́ tó jẹ mọ́:
 
@@ -186,7 +169,9 @@ GorBrit gba awọn ọna isanwo oriṣiriṣi, pẹlu Awọn Cryptocurrencies, l
 
 **Orílé-iṣẹ́ kan ṣoṣo** 
 
+```
 u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
+```
 
  Caracas - Venezuela. Ìlú yìí ni wọ́n ti ń ṣe àpéjọ náà. 
 
@@ -199,8 +184,6 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 Yatọ si pe o jẹ onise-ọṣọ oni, Robmar tun ni oluyaworan ti o ma n gba akoko lati kọ ẹkọ nipa fọtoyiya ati awọn irinṣẹ to jọmọ rẹ. Ni asiko yii o maa n tan ọrọ naa kaakiri lori zcash. 
 
 Iṣẹ rẹ jẹ olokiki ni agbegbe Zcash ọpẹ si ilowosi rẹ fun ẹgbẹ-ẹgbẹ ZFAV.
-
-![Screenshot_20230830-163829-271~2.png](/content-images/_unavailable.svg)
 
 • Ṣíṣe fídíò / yíyàwòrán rẹ̀.
 
@@ -218,8 +201,6 @@ Barquisimeto - Venezuela (ìlú yìí wà ní ìlà oòrùn)
 
 1. **Karin Beauty Studio. By Karin Gordones** Àwọn ojúewé wọ̀nyí jápọ̀ mọ́ "Bíbélì" nínú ìkànnì wa:
 
-![Screenshot_20230830-131043-768~2.png](/content-images/_unavailable.svg)
-
 Àwọn ìṣó tó lẹ́wà, àwọn ọwọ́ tí ó lẹwa ọpẹ́lọpẹ́ Karin Beauty Studio.
 
 Àwọn ìkànnì àjọlò orí ayélujára:** 
@@ -228,7 +209,9 @@ Barquisimeto - Venezuela (ìlú yìí wà ní ìlà oòrùn)
 
 **Unified Address:** 
 
+```
 u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g9hqqk07m9eff222ljyg9ge2d7upx9ycr9lqzmwmww05npwypmw5t2cvt32tnuylnud4qts3hq2af5w50t3czatklrv5f7spwpfasjdr3rm7qpklpmvv5fc5vpl2spyysvvwra
+```
 
  El Valle - Caracas - Venezuela (ìlú tó wà ní ìlà oòrùn) 
 
@@ -238,13 +221,9 @@ Iṣẹ́ ilé (Caracas; San Antonio de los Altos)
 
 ---
 
-![BackgroundEraser_20230901_110901449.png](/content-images/_unavailable.svg)
-
 1. **Corona de Brillitos.** Òǹkọ̀wé Gissell B**. 
 
 Do you know what’s amazing about Zcash? Having people like Gissell, a 16-yr old girl who loves crafting, making girly beautiful accesories and know that at her age, she uses Zcash in her flourishing business
-
-![20230830_235143_0000.png](/content-images/_unavailable.svg)
 
 Àwòrán tó fani mọ́ra tí wọ́n fi ń ṣe àwọn àwo scrunchies. Corona de brilllitos 
 
@@ -254,7 +233,9 @@ Do you know what’s amazing about Zcash? Having people like Gissell, a 16-yr ol
 
 **Zcash Unified Address** 
 
+```
 u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl886s3kayxzfy4lhhdegr2a9ahghtuv9gwgc74wc6xf7p48gktq065nxzgvyvt7ka3jm0nzm8skydyjp8n2s47wu769j87f9vk84gz6mxzvrfjzm09m2zew80msv7efueeltfx
+```
 
  San Juan de los Morros - Venezuela (ìlú yìí wà ní ìlà oòrùn) 
 
@@ -274,8 +255,6 @@ Tecnopapapi ni ẹni tó yẹ kó o kàn sí!
 
 • Ètò Ìṣiṣẹ́ Android (fóònù)
 
-![IMG_20230901_093618_042.jpg](/content-images/_unavailable.svg)
-
 Ìkànnì orí Íńtánẹ́è̀tì ** 
 
 [https://tecnopapapi.com](https://tecnopapapi.com/)
@@ -288,7 +267,9 @@ Tecnopapapi gba awọn owo-iworo (pẹlu 3ZEC) ati awọn ọna isanwo miiran.
 
 **Unified Address**
 
+```
 u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmdpv6zghw560qgzgughejre4ekmqvzf6agtu82a8qx2s3nj3gu50ye6r06rce595rvp0k4t28ecn5kzqu53q99guuzmrej94hr4u6l34rctvwsyzdhtq2ap070qrnvcwg4tgj66
+```
 
  San Juan de los Morros - Venezuela (ìlú yìí wà ní ìlà oòrùn) 
 
@@ -300,13 +281,13 @@ Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Pápákọ̀ ò
 
 Ó gba àwọn owó-ìpamọ́, títí kan Zcash.
 
-![IMG_20230831_172209_058.jpg](/content-images/_unavailable.svg)
-
  Ọ̀gbẹ́ni Mendoza ń fi àpò owó Zango rẹ̀ hàn. Àwòrán láti ọ̀dọ̀ Edickson Gonzalez 
 
 **Zcash Unified Address:**
 
+```
 u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kstdfjnwz2d34w5ahjeae7hvag73mf3t3ect7qcuxd6yycgzwu8pchhqu23m4cmkezrxtcvzdxc7a7n4xkcqqkzwrtudzsmd947dgg0am974me4cwedn0pp7xchpqwr0n6y9uc32
+```
 
 ---
 
@@ -364,8 +345,6 @@ Meile is a dVPN client from the MathNodes team that runs on the Sentinel network
 
 Iṣẹ́ ìkórè. Gbé àwọn ìwé náà lọ. Àkọsílẹ̀ àtìléyìn
 
-![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
-
 **Ojú-ìkànnì**: kò sí. Oju ìkànnì tí a kéde ní alleginiristorante.com ni wọn ò parí àti pé àdúgbò náà kì í yanjú mọ́. Lo àwọn ìjápọ̀ àjọlò tó wà lókè yìí.
 
 Àwọn ìkànnì àjọlò orí ayélujára (Social media) 
@@ -374,12 +353,12 @@ Iṣẹ́ ìkórè. Gbé àwọn ìwé náà lọ. Àkọsílẹ̀ àtìléyìn
 
 (Ní kété ní [free2z.cash (ì í ì ë°©)](http://free2z.cash). )
 
-![20230901_121633_0000.png](/content-images/_unavailable.svg)
-
 **Zcash Unified Address** 
 
+```
 u10wuf4pauet00u3n4sp7l0jjer28stp5l8q3peq4ffrpvhfm0zn8up3xwewy64fyeps6r6ctv3yfmwvrrnrsseet3ety9aj48kqk52el0m0xee87t87fu86wtxq357gxz2j978rgyy799pex3amwhtc3mt2yz544tn6dcqcq48sy2lvsfp2vqjhe9skchgpgsqzjnhcnflhe2w2l465s
+```
 
-Iṣẹ́ ìkórè. Gbé àwọn nǹkan lọ. Àkọsílẹ̀.
+Iṣẹ́ ìkórè. Gbé àwọn nǹkan lọ. Àkọsílẹ̀ ibùdó.
 
 Madrid - Spain Àwọn Àlàyé ìsàlẹ̀ ìwé

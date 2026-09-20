@@ -21,7 +21,7 @@ Fifia zãlawo ateŋu aɖo/xɔ ZEC evɔ womaɖe balance alo metadata afia o - wo 
     src="https://www.youtube.com/embed/TNcHY-GXFVo"
     title="How to use ZEC on Brave"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -117,7 +117,7 @@ Zcash adrɛs ƒomevi ɖesiaɖe ŋuti numeɖeɖee nye esi:
     src="https://www.youtube.com/embed/AmTMa5HXa2w"
     title="Brave Wallet Tutorial : Defi with Near Intents and Shielded Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

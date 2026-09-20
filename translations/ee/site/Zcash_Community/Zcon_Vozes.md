@@ -20,7 +20,7 @@ Wowɔe le Etsɔ ƒe Blemanudzraɖoƒe si nye dzesi, si de dzesi anyigbagã la be
     src="https://www.youtube.com/embed/videoseries?si=9FVjor70RRnNKOSs&amp;list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf"
     title="Zcon  Vozes Brasil"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -40,7 +40,7 @@ Zcon Vozes ƒe taɖodzinue nye be yeatsɔ mɔ̃ɖaŋununya ŋuti sidzedze, asits
     src="https://www.youtube.com/embed/videoseries?si=PYJQbHyhQCgHncp7&amp;list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz"
     title="Zcon2 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

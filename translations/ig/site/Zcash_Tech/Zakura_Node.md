@@ -81,7 +81,7 @@ Zakura dakọtara nke ọma na nkwalite netwọk Ironwood (NU6.3), arụ ọrụ
  Nhazi ọsọ. Baseline: 1x 5x ngwa ngwa karị.
 ◯ Ịkụcha osisi ❑ Mba ▸ Ee ❖ Ọ bụrụ na ị chọrọ ka a kpọọ gị aha, biko gwa m.
 zcashd RPC Compat. Native. Partial. Ee (mode kọmpụta)
- Nchịkọta mmalite nke Snapshot No.  Ee (<2 min)
+❑ Ntinye aka na-akpaghị aka. □ Mba ▪ Ee (ihe dị ka minit abụọ) ● Ọ bụrụ na ị chọrọ ime ihe, biko kpọtụrụ m n'ekwentị gị ma gwa m otú i si eme ya.
  P2P nnwale. Mba  Ee (ịbanye)  Ọ dịghị, ọ bụghị ya na-eme ka ndị mmadụ nwee ike ịnakwere ozi gị ma ha chọọ.
 
 ---

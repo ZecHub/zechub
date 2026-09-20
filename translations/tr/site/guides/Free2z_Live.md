@@ -185,9 +185,9 @@ Sonuç olarak Free2z, içerik üreticilerinin yeteneklerini sergileyebileceği, 
 
 [Free2z](https://free2z.cash/)  
 [Free2z belgeleri](https://free2z.cash/docs/)  
-[2Z Genel Bakış](https://free2z.cash/docs/2Zs/)  
-[Profil oluşturma](https://free2z.cash/docs/creators/creating-a-profile)  
-[Free2z Live nedir?](https://free2z.cash/docs/creators/free2z-live)  
+[2Z Genel Bakış](https://free2z.cash/docs/getting-started/tuzis)  
+[Profil oluşturma](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[Free2z Live nedir?](https://free2z.cash/docs/for-creators/free2z-live)  
 [Destekçiler için Free2z](https://free2z.cash/docs/category/for-supporters)
 
 ---

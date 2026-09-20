@@ -29,7 +29,7 @@ Míekpɔ dɔ geɖe akpa siwo do ŋugbe wògbɔ eme eye womewɔa woƒe NFT mɔfia
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
     title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -29,7 +29,7 @@ Anyị ahụla ọtụtụ ọrụ na-ekwe nkwa karịa ma ọ bụ n'okpuru iny
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
     title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -33,14 +33,14 @@ Gakotoku wɔla ateŋu atsɔ kɔmpiuta dɔwɔɖoɖowo aƒo ƒu ɖe Testnet RPC ƒ
 
 #### 2. Dodokpɔ le Network ƒe Ŋgɔyiyiwo Ŋu
 
-Zcash doa eƒe ɖoɖowɔɖi vevitɔ ɖe ŋgɔ ɣeaɖewoɣi (e.g., Nu5, Nu6). Testnet wɔa tɔtrɔ yeyewo **do ŋgɔ na Mainnet**, si na be dɔwɔlawo kple nutoa me tɔwo te ŋu dea dzesi vodadawo eye woɖɔa wo ɖo.
+Zcash doa eƒe ɖoɖowɔɖi vevitɔ ɖe ŋgɔ ɣeaɖewoɣi (e.g., NU6.1, NU6.2 kple Ironwood). Testnet wɔa tɔtrɔ yeyewo **do ŋgɔ na Mainnet**, si na be dɔwɔlawo kple nutoa me tɔwo te ŋu dea dzesi vodadawo eye woɖɔa wo ɖo.
 
 **Kpɔɖeŋu:** 
 Wotutua se yeye si dzi woda asi ɖo alo asitsatsa ƒomevi aɖe ɖe Testnet dzi gbã. Ne wodoe kpɔ dzidzedze vɔ la, ewɔa dɔ le Mainnet dzi le block ƒe kɔkɔme si woɖo ɖi do ŋgɔ.
 
 #### 3. Node ƒe Dɔwɔwɔwo Dodokpɔ
 
-Zcash doa alɔ node kɔmpiuta dɔwɔɖoɖo geɖewo ƒe dɔwɔwɔ - . `zcashd` kple **Zebra** (Rust-based node si Zcash Foundation léa be na). Testnet na be woate ŋu ado nodes kpɔ le nɔnɔme ŋutɔŋutɔwo me ganyawo ƒe afɔku manɔmee. 
+Zcash node si wokpɔ ɖe edzi no nye **Zebra** (Rust-based node si Zcash Foundation kpɔ ɖe edzi) eye wallet si wokpɔ ɖe edzi nye [Zallet](https://github.com/zcash/zallet). `zcashd`, node gbãtō no, de eƒe automatic end-of-support ƒe ɖoɖo ɖe nu le 18 July 2026 eye wògakpɔ ɖe edzi o - kpɔ [zcashd yi Zebra kple Zallet migration guide](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet mɔ̃ na nodes ƒe dodokpɔ le nye me teɖe me gake ga haw melii o.
 
 Node wɔlawo ate ŋu:
 
@@ -166,7 +166,7 @@ Bu TAZ be enye **"fefe ga" na Zcash Testnet**.
     src="https://www.youtube.com/embed/XCGwwqLZILg"
     title="Zkool Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -184,7 +184,7 @@ Bu TAZ be enye **"fefe ga" na Zcash Testnet**.
     src="https://www.youtube.com/embed/To7WAkiBldA"
     title="Zingo Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

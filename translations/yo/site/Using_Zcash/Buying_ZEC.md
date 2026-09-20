@@ -45,7 +45,7 @@ Pupọ awọn paṣipaarọ pataki ṣe atilẹyin Zcash. Wo nibi fun atokọ al
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zodl: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -69,7 +69,7 @@ Nigbati o ba n ṣe eyi, a ṣeduro lilo ọkan ninu awọn apamọwọ wọnyi 
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Reviewing all Zcash Shielded Wallets"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

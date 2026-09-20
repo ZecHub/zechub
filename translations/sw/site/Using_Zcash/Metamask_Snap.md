@@ -8,7 +8,7 @@ Kwa kutembea kamili na maelezo ya kuona, kuangalia hii [** YouTube mwongozo**](h
     src="https://www.youtube.com/embed/UJh9Ilkohdw"
     title="How to use ZEC on Metamask"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

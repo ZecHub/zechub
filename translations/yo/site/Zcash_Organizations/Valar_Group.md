@@ -6,7 +6,7 @@
 
 [Lọ sí ojú-ìwé rẹ̀.](https://valargroup.dev/)
 
-<<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
+<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
 
 
 ## Àlàyé Ìpolongo Iṣẹ́-Ìyanu
@@ -96,7 +96,7 @@ Shielded Vote jẹ Valar Group's private governance protocol for Zcash. Awọn o
 
 Ni August 2026, Valar Group ati Project Tachyon lo stack yii fun ibo ti oniwun owo NU7. Iboju-aṣẹ nilo awọn ohun elo ZEC ni Ironwood ni giga 3,459,350. Odi ran lati Oṣu Kẹjọ Ọjọ 25 si Oṣu Kẹsan ọjọ 14, ọdun 2026, pẹlu opin ikopa 1,000,000 ZEC fun abajade lati ṣe itọju bi aṣoju. Awọn ibeere bo NSM iṣedede idasilẹ, akoko atunṣe, Sprout / v4 deprecation, igba pipin 25-keji, ati agbegbe NU7 / igbaradi.
 
-Àjọṣepọ̀ àlàfo-ìpínlẹ̀ ńlo ìdìbò méjì nínú márùn ún láàárín Project Tachyon, Valar Group, Zcash Foundation, ZODL àti Shielded Labs. Ẹgbẹ́ àwọn olùdásítọ̀ọ́ yàtọ̀ ní ìpín kókó ìdánilẹkọ̀rọ fún gbogbo ìgbésẹ̀ dídíje. Kò sí ẹnìkan tó lè gba ẹyọ ọ̀dọ̀ ẹni; a nílò iye kan láti ṣe àkópòsí tí ó bá yẹ kí wọ́n fi dá ìdáhùn náà sílẹ̀.
+Àjọṣepọ̀ àlàfo-ìpínlẹ̀ ńlo ìdìbò méjì nínú márùn ún láàárín Project Tachyon, Valar Group, Zcash Foundation, ZODL àti Shielded Labs. Ẹgbẹ́ àwọn olùdásítọ̀ọ́ yàtọ̀ ní ìpín kókó ìdánilẹkọ̀rọ fún gbogbo ìgbésẹ̀ dídíje. Kò sí ẹnìkan tó lè gba ẹyọ oyè kan ṣoṣo padà; a nílò iye ènìyàn tí ó yẹ láti ṣe ìdáhùn kí wọ́n sì mú àkọsílẹ̀ ìkẹyìn jáde.
 
 Awọn oniṣẹ ati awọn olutọju ti gbogbo eniyan pẹlu:
 
@@ -151,7 +151,7 @@ Zakura ara rẹ ni a tọju papọ pẹlu Ise agbese Tachyon, ti Sean Bowe ṣe 
 
 Ẹgbẹ Valar n ṣiṣẹ bi agbari imọ-ẹrọ ominira. Ko jẹ apakan ti Zcash Foundation, ZODL, Shielded Labs, tabi Awọn ẹbun Agbegbe Zcash .
 
-Ni awọn idibo-pínlẹ ààlà oniru, Valar Group jẹ ọkan ninu marun alabojuto ajo. ti ipa ni a paramita ti awọn ibo eto, ko kan ẹtọ ti iyasoto Iṣakoso lori Zcash isakoso. miiran egbe le ṣiṣe validators, duro soke yiyan ojuse pq, tabi ayẹwo atejade tallies lati gbangba tooling.
+Ni awọn dìbò-chain oniru, Valar Group jẹ ọkan ninu marun alabojuto ajo. ti ipa ni a paramita ti awọn dípò eto, ko kan ẹtọ ti iyasoto Iṣakoso lori Zcash governance. miiran egbe le ṣiṣe validators, duro soke yiyan ìdìbo pq, tabi ayẹwo atejade tallies lati gbangba tooling.
 
 Alaye afikun nipa iru ile-iṣẹ ofin, akopọ igbimọ ati iṣakoso inu ko ti tẹjade ni alaye kanna bi awọn ajo Zcash agbalagba.
 

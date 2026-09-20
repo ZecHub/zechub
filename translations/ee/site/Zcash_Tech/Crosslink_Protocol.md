@@ -140,7 +140,7 @@ Mɔnu sia si dzi woda asi ɖo zi eve la doa ŋusẽ Zcash ƒe ɖokuitsɔtsɔna �
        src="https://www.youtube.com/embed/O4wQi_i7k0I"
        title="Crosslink"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       ɖe mɔ ɖeFullScreen ŋu
+       allowFullScreen
        loading="lazy"
      />
 </div>

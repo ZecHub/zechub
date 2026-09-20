@@ -30,7 +30,7 @@ Alesi woazã Zcash Shielded Memos kple Magic-Wormhole CLI kple zcashd atsɔ aɖo
     src="https://www.youtube.com/embed/8iqPCza9o6A"
     title="DEMO: Encrypted File Transfer with Zcash 📁"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

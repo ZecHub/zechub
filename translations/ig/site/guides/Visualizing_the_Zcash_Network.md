@@ -14,7 +14,7 @@ Vidio a jikọtara n'okpuru na-agbaso otu usoro ahụ.
     src="https://www.youtube.com/embed/Nq5cLiAHxPI"
     title="ziggurat 3.0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

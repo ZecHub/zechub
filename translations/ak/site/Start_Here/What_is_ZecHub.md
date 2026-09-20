@@ -33,7 +33,7 @@ Sɛ woyɛ foforo wɔ Zcash mu a, fa di dwuma [akwankyerɛ yi](/start-here/new-us
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

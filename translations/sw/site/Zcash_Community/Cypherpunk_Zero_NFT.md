@@ -29,7 +29,7 @@ Tumeona miradi mingi sana ya ahadi nyingi na chini ya kutoa ramani zao za baraba
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
     title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
