@@ -47,6 +47,11 @@ const maskCases = [
   ["fence line inside a <pre>",    "<pre>\n```\n</pre>\nFree2z here\n", 4, "visible"],
   ["<pre> literal in a comment",   "<!--\n<pre>\n-->\nFree2z\n", 4, "visible"],
   ["list continuation, not code",  "# T\n\n- a\n    - Zechub\n", 4, "visible"],
+  // a continuation paragraph carries no marker of its own — it was masked,
+  // so a misspelling in it was silently missed
+  ["list continuation PARAGRAPH",  "- a\n\n    Zechub continues the item\n", 3, "visible"],
+  ["numbered list continuation",   "1. a\n\n    Zechub continues\n", 3, "visible"],
+  ["indented code after the list", "- a\n\nplain para\n\n    Zechub code\n", 5, "masked"],
   ["prose beside a closing tag",   "# T\n\n<pre>\nx\n</pre> Zechub\n", 5, "visible"],
   ["prose beside a one-liner",     "# T\n\n<code>x</code> Zechub\n", 3, "visible"],
   ["prose after <code/>",          "# T\n\n<code/>\n\nZechub\n", 5, "visible"],

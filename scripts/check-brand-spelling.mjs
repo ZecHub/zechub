@@ -63,7 +63,7 @@ const NOT_A_MISSPELLING = new Set(["Seth"]);
 function proseMask(md) {
   const lines = md.split("\n");
   const blank = (l) => " ".repeat(l.length);
-  let fence = null, html = false;
+  let fence = null, html = false, inList = false;
   return lines.map((l) => {
     // Fence state first, and the raw-HTML rules are gated on it: inside a
     // fenced block a <pre> is literal text, and treating it as an opener
@@ -80,6 +80,13 @@ function proseMask(md) {
     // Raw HTML and comments mask only the SPAN they occupy. Blanking the whole
     // line discarded prose sitting beside a closing tag or a one-line element,
     // which is a fail-open: the finding disappears and the gate still exits 0.
+    const marker = /^\s*([-*+]|\d+[.)])\s/.test(l);
+    // A list block runs from its first marker until a line that is neither
+    // blank, indented, nor another marker — that is what ends it in
+    // CommonMark, and blank lines inside it do not.
+    if (marker) inList = true;
+    else if (l.trim() && !/^[ \t]/.test(l)) inList = false;
+
     let out = l;
     if (html) {
       const close = out.match(/<\s*\/\s*(pre|code|script|style)\s*>|-->/i);
@@ -98,12 +105,21 @@ function proseMask(md) {
       out = out.slice(0, open.index) + blank(out.slice(open.index));
     }
 
-    // A 4-space indent is a code block ONLY outside a list. After a list
-    // marker it is a nested item or a continuation paragraph — 435 such lines
-    // in this corpus were being masked as code.
+    // A 4-space indent is a code block ONLY outside a list. Inside one it is a
+    // nested item or a CONTINUATION paragraph — 435 such lines in this corpus
+    // were being masked as code.
+    //
+    // Testing only whether THIS line starts with a marker was not enough: a
+    // continuation paragraph carries no marker of its own, so it stayed masked
+    // and any misspelling in it was silently missed. The list-block state above
+    // subsumes the marker test — a marker sets inList itself — so only inList
+    // is checked here. The trade is deliberate: genuinely indented code inside
+    // a list is now scanned, which can only produce a VISIBLE false positive,
+    // where the old behaviour produced a silent miss.
+    //
     // Tested on the ORIGINAL line: masking an inline element leaves spaces
     // where it was, and judging indentation on that blanked its own prose.
-    if (/^(\t| {4})/.test(l) && !/^\s*([-*+]|\d+[.)])\s/.test(l)) return blank(out);
+    if (/^(\t| {4})/.test(l) && !inList) return blank(out);
 
     return out
       .replace(/(`{1,4})[^\n]*?\1/g, blank)
