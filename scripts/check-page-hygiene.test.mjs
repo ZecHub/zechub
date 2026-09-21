@@ -33,6 +33,10 @@ w("site/target.md", "# Target\n\n## Installing zcashd\n\ntext\n\n## Sources\n\nt
 w("site/toc.md", "# T\n\n- [Installing](/site/target.md#installing-zcashd)\n- [Sources](/site/target.md#sources)\n");
 w("site/gone.md", "# G\n\n- [Old section](/site/target.md#removed-heading)\n");
 w("site/crlf.md", "# C\r\n\r\nA line.\r\n");
+w("site/mixed.md", "# M\r\none\n");                       // CRLF + LF from the start
+w("site/samepage.md", "# S\n\n- [Setup](#setup)\n- [Usage](#usage)\n\n## Setup\n\n## Usage\n");
+w("site/kept.md", "# K\n\n- [Setup](#setup)\n\n## Setup\n\ntext\n");
+w("site/moved.md", "# V\n\n- [Old](#setup)\n\n## Setup\n\n## Usage\n");
 w("site/clean.md", "# Clean\n\nSee [docs](https://example.org/a) here.\n");
 git("init", "-q");
 git("config", "user.email", "t@t"); git("config", "user.name", "t");
@@ -58,12 +62,32 @@ const probes = {
   "site/crlf.md": "# C\n\nA line.\n",
   // a page with a comma in its name, for annotation escaping
   "site/odd, name.md": "# N\n\n# [T](https://x.test/a%29)) #\n",
+  // the shape the corpus actually has: a same-page table of contents whose
+  // anchors are dropped. The first version of rule 3 could not see these at
+  // all — 90 of the 90 anchored internal links in the wiki are this shape.
+  "site/samepage.md": "# S\n\n- Setup\n- Usage\n\n## Setup\n\n## Usage\n",
+  // an anchor CHANGED, not lost: both headings live. Repointing is an edit,
+  // and the old rule flagged it while telling the author to do what they did.
+  "site/moved.md": "# V\n\n- [Old](#usage)\n\n## Setup\n\n## Usage\n",
+  // an anchored link kept as-is, on a page this PR edits: without the
+  // "still linked" test a rule that fires on every anchor passes the suite
+  "site/kept.md": "# K\n\n- [Setup](#setup)\n\n## Setup\n\nmore text\n",
+  // prose whose parens open on one line and close on the next, and prose with
+  // an emoticon: both were reported as stray-close-paren
+  "site/wrap.md": "# W\n\nZcash is fine (as described in the\n[report](https://messari.io/report/x)).\n\nIt means :) (see [x](https://example.test/a)).\n",
+  // markdown ABOUT markdown: a code span and a fence must not be scanned
+  "site/code.md": "# C\n\n`[x](https://example.test/a))` in a span.\n\n```\n[z](https://example.test/c))\n```\n",
+  // adjacent text that happens to repeat part of the URL is legal markdown
+  "site/adjacent.md": "# A\n\n[repo](https://github.com/tailscale/tailscale)tailscale is nice.\n",
+  // a file that was already mixed and gets rewritten to one style
+  "site/mixed.md": "# M\none\n",
 };
 for (const [p, body] of Object.entries(probes)) w(p, body);
 git("add", "-A"); git("commit", "-qm", "pr", "--no-verify");
 
 function run(extra = []) {
-  try { return { status: 0, out: execFileSync("node", [GATE, "--base", "main", ...extra], { cwd: repo, encoding: "utf8" }) }; }
+  const args = extra.includes("--base") ? [GATE, ...extra] : [GATE, "--base", "main", ...extra];
+  try { return { status: 0, out: execFileSync("node", args, { cwd: repo, encoding: "utf8" }) }; }
   catch (e) { return { status: e.status ?? 1, out: (e.stdout || "") + (e.stderr || "") }; }
 }
 const dirty = run();
@@ -105,6 +129,18 @@ const cases = [
   // rule 4
   ["flags CRLF rewritten as LF",      () => kindsFor("site/crlf.md").includes("line-endings-changed")],
   ["names both styles",               () => has("CRLF -> LF")],
+  // rule 3, the shapes that actually occur
+  ["flags dropped same-page anchors", () => kindsFor("site/samepage.md").filter((k) => k === "anchor-dropped").length === 2],
+  ["silent when an anchor MOVED",     () => kindsFor("site/moved.md").length === 0],
+  ["silent when the anchor is kept",  () => kindsFor("site/kept.md").length === 0],
+  // rules 1 and 2, the false positives that blocked legitimate prose
+  ["parens may span two lines",       () => kindsFor("site/wrap.md").length === 0],
+  ["ignores a code span and a fence", () => kindsFor("site/code.md").length === 0],
+  ["allows adjacent repeated text",   () => kindsFor("site/adjacent.md").length === 0],
+  // rule 4
+  ["flags a mixed file being fixed",  () => kindsFor("site/mixed.md").includes("line-endings-changed")],
+  // a bad base must report, not stack-trace
+  ["bad --base exits 2 with a line",  () => { const r = run(["--base", "nosuchref"]); return r.status === 2 && /cannot list changed files/.test(r.out); }],
   // plumbing
   ["escapes a comma in the path",     () => has("site/odd%2C name.md")],
   ["every annotation has line,col",   () => ann.every((l) => /line=\d+,col=\d+/.test(l))],

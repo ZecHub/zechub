@@ -23,8 +23,9 @@
 // link-health's job, weekly.
 //
 // Usage: node scripts/check-page-hygiene.mjs [--base <ref>] [--all] [--json]
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, statSync } from "node:fs";
 import { execFileSync } from "node:child_process";
+import { dirname, join } from "node:path";
 
 const arg = (n, d = "") => { const i = process.argv.indexOf(n); return i > -1 ? (process.argv[i + 1] ?? d) : d; };
 const flag = (n) => process.argv.includes(n);
@@ -61,43 +62,78 @@ function* links(line) {
   }
 }
 
+// A fenced block and an inline code span are SHOWN, not rendered: a page that
+// documents markdown syntax is full of deliberately broken links. Scanning
+// them reported three false positives on one probe page. Blanking keeps column
+// numbers honest, so an annotation still lands on the right character.
+function maskCode(lines) {
+  const blank = (l) => " ".repeat(l.length);
+  let fence = null;
+  return lines.map((l) => {
+    const f = l.match(/^\s*(`{3,}|~{3,})/);
+    if (f) {
+      if (fence === null) fence = f[1];
+      else if (f[1][0] === fence[0] && f[1].length >= fence.length) fence = null;
+      return blank(l);
+    }
+    if (fence !== null) return blank(l);
+    return l.replace(/(`{1,4})[^\n]*?\1/g, blank);
+  });
+}
+
 // GitHub's heading slugs: lowercase, punctuation dropped, spaces to hyphens.
+// GitHub keeps unicode letters and digits, drops other punctuation, maps
+// spaces to hyphens, and disambiguates a repeated heading with -1, -2, ...
 const slug = (h) => h.toLowerCase().trim()
-  .replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
+  .replace(/[^\p{L}\p{N}\s-]/gu, "").replace(/\s+/g, "-");
 
 const headingCache = new Map();
 function anchorsOf(file) {
   if (headingCache.has(file)) return headingCache.get(file);
   let set = new Set();
   if (existsSync(file)) {
+    const seen = new Map();
     for (const l of readFileSync(file, "utf8").split("\n")) {
       const m = l.match(/^#{1,6}\s+(.+?)\s*#*\s*$/);
-      if (m) set.add(slug(m[1]));
+      if (!m) continue;
+      const base = slug(m[1]);
+      const n = seen.get(base) ?? 0;
+      seen.set(base, n + 1);
+      set.add(n ? `${base}-${n}` : base);      // the 2nd "Overview" is #overview-1
     }
   }
   headingCache.set(file, set);
   return set;
 }
 
-// An internal link may be a repo path (site/... or a relative .md) or a route
-// (/zcash-tech/zk-snarks). Only a repo path can be resolved to a file here; a
-// route is checked against the page that would serve it when one exists.
-function resolveInternal(target) {
-  const path = target.split("#")[0];
+// What an anchored link can point at, in this corpus: 90 same-page anchors
+// (a table of contents inside one page) and 161 external URLs. ZERO repo paths
+// and zero app routes — which is why the first version of this rule, written
+// for the repo-path shape, could not fire on a single link in the wiki.
+//
+// So: same-page anchors resolve against the page's own headings, a relative or
+// repo-relative .md path resolves as a file, and a github .../blob/... link is
+// unwrapped to its path. App routes (/zcash-tech/x#y) are OUT of scope: mapping
+// a route to a file needs the frontend's own URI transform, which link-health
+// owns and keeps in step with the app. A route link is skipped, never guessed.
+function resolveInternal(path, fromFile) {
+  if (path === "") return fromFile;                        // same-page anchor
   if (/^https?:/i.test(path)) {
     const m = path.match(/github\.com\/[^/]+\/[^/]+\/blob\/[^/]+\/(.+)$/);
     return m ? m[1] : null;
   }
-  if (!path || path.startsWith("mailto:")) return null;
-  return path.replace(/^\//, "");
+  if (path.startsWith("mailto:")) return null;
+  if (!/\.md$/i.test(path)) return null;                   // app route: not ours to resolve
+  return path.startsWith("/") ? path.replace(/^\//, "") : join(dirname(fromFile), path);
 }
 
-function anchorsInLinks(text) {
+function anchorsInLinks(text, file) {
   const out = [];
-  for (const line of text.split("\n"))
+  for (const line of maskCode(text.split("\n")))
     for (const { target } of links(line)) {
       const h = target.indexOf("#");
-      if (h > 0) out.push({ target, path: target.slice(0, h), anchor: target.slice(h + 1) });
+      if (h < 0) continue;                                 // no anchor
+      out.push({ target, path: target.slice(0, h), anchor: target.slice(h + 1), file });
     }
   return out;
 }
@@ -105,15 +141,34 @@ function anchorsInLinks(text) {
 const findings = [];
 const push = (file, line, col, kind, message) => findings.push({ file, line, col, kind, message });
 
-const files = changedFiles();
+let files;
+try { files = changedFiles(); }
+catch (e) { console.error(`cannot list changed files against ${base}: ${e.message.split("\n")[0]}`); process.exit(2); }
+
+// `${base}...HEAD` diffs against the MERGE BASE; reading the old text from the
+// tip of main instead blames this PR for whatever main changed meanwhile —
+// a line-ending normalisation on main made an untouched file look rewritten.
+let mergeBase = base;
+try { mergeBase = execFileSync("git", ["merge-base", base, "HEAD"], { encoding: "utf8" }).trim() || base; } catch { /* keep base */ }
 for (const f of files) {
   if (!existsSync(f)) continue;
-  const raw = readFileSync(f, "latin1");           // byte-faithful: CR must survive
-  const text = readFileSync(f, "utf8");
-  const lines = text.split("\n");
+  // A submodule is a gitlink: the path exists, ends in .md, and reading it
+  // throws EISDIR, which would fail the whole gate for an unrelated reason.
+  let raw, text;
+  try {
+    if (!statSync(f).isFile()) continue;
+    raw = readFileSync(f, "latin1");               // byte-faithful: CR must survive
+    text = readFileSync(f, "utf8");
+  } catch { continue; }
+  const lines = maskCode(text.split("\n"));
 
   // ---- rules 1 and 2: what the reader actually sees ------------------------
+  // Paren balance carries across a paragraph: "(as described in the\n[report](url))."
+  // opens on one line and closes on the next, and a line-local count called
+  // that legitimate prose a defect. A blank line ends the paragraph.
+  let carried = 0;
   lines.forEach((line, i) => {
+    if (!line.trim()) { carried = 0; return; }
     for (const { open, close, target } of links(line)) {
       const after = line.slice(close + 1);
       // Text before the link ITSELF: slicing to `close` would include the
@@ -123,7 +178,11 @@ for (const f of files) {
       // A ')' immediately after a link is legitimate when the link sits inside
       // parentheses — "(see [docs](url))" — so the opener has to be missing
       // before it counts. Without that test this rule is 90% false positives.
-      const unmatched = (before.match(/\(/g) || []).length - (before.match(/\)/g) || []).length;
+      // ":)" and ";-)" carry a ")" that is not closing anything. Counting them
+      // cancelled the real "(" in "It means :) (see [x](url))." and the gate
+      // reported that legitimate prose.
+      const prose = before.replace(/[:;=8]-?[)(]/g, "");
+      const unmatched = carried + (prose.match(/\(/g) || []).length - (prose.match(/\)/g) || []).length;
       if (after.startsWith(")") && unmatched <= 0)
         push(f, i + 1, close + 2, "stray-close-paren",
              `A ")" follows this link and renders as a literal paren. The link target already ends at "${target.slice(-24)}" — delete the extra ")".`);
@@ -134,12 +193,21 @@ for (const f of files) {
       // counts as debris only when the target already contains it, which is
       // what makes "github.com/tailscale/tailscale for this" (a space, then
       // prose) and ordinary trailing punctuation silent.
+      // The defect shape is a parenthesised fragment of the URL left outside
+      // the link: "...organization)" followed by "(3)_organization)". Requiring
+      // the leading "(" is what separates it from ordinary adjacent text —
+      // "[repo](https://github.com/tailscale/tailscale)tailscale" is legal
+      // markdown and was being flagged.
       const token = after.split(/\s/)[0] || "";
-      const debris = token.replace(/^[([]+/, "").replace(/[)\].,;:]+$/, "");
+      const debris = token.startsWith("(") ? token.replace(/^\(+/, "").replace(/[)\].,;:]+$/, "") : "";
       if (debris.length >= 5 && target.includes(debris))
         push(f, i + 1, close + 2, "url-debris",
              `"${token}" repeats part of the link target and renders as visible text. The link closes at the balanced paren — delete the repeat.`);
     }
+    // Carry the line's own balance, with link targets removed so a URL's
+    // parens never leak into the paragraph count.
+    const outsideLinks = line.replace(/\]\([^\n]*?\)/g, "").replace(/[:;=8]-?[)(]/g, "");
+    carried = Math.max(0, carried + (outsideLinks.match(/\(/g) || []).length - (outsideLinks.match(/\)/g) || []).length);
   });
 
   if (flag("--all")) continue;                     // rules 3 and 4 need a base
@@ -147,7 +215,7 @@ for (const f of files) {
   let baseText = null;
   // stdio: a file added by this PR makes `git show base:f` fail loudly; that is
   // an expected outcome here, not something to print.
-  try { baseText = execFileSync("git", ["show", `${base}:${f}`], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }); }
+  try { baseText = execFileSync("git", ["show", `${mergeBase}:${f}`], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }); }
   catch { baseText = null; }                       // new file: nothing to compare
   if (baseText === null) continue;
 
@@ -156,19 +224,36 @@ for (const f of files) {
   // rewritten for Zebra and Zallet, so #installing-zcashd does not exist any
   // more and dropping it is the RIGHT edit. This only fires where the anchor is
   // still live, which makes it a rule an author can always satisfy.
-  const head = anchorsInLinks(text);
-  const stillLinked = new Set(head.map((l) => l.target));
-  for (const { target, path, anchor } of anchorsInLinks(baseText)) {
-    if (stillLinked.has(target)) continue;
-    const file = resolveInternal(path);
+  //
+  // Compared per TARGET PATH, not per full target: repointing #installing-zcashd
+  // to #installing-zebrad is an edit, not a loss, and the earlier version
+  // flagged it with a message telling the author to do what they had just done.
+  const headByPath = new Map();
+  for (const l of anchorsInLinks(text, f)) {
+    if (!headByPath.has(l.path)) headByPath.set(l.path, new Set());
+    headByPath.get(l.path).add(l.anchor);
+  }
+  const reported = new Set();
+  for (const { path, anchor } of anchorsInLinks(baseText, f)) {
+    if (headByPath.get(path)?.size) continue;              // still anchored: an edit, not a loss
+    const file = resolveInternal(path, f);
     if (!file || !existsSync(file)) continue;
     if (!anchorsOf(file).has(anchor.toLowerCase())) continue;   // heading gone: correct to drop
+    const key = `${path}#${anchor}`;
+    if (reported.has(key)) continue;
+    reported.add(key);
     push(f, 1, 1, "anchor-dropped",
-         `This change drops the link to "${path}#${anchor}", and that heading still exists in ${file}. Keep the anchor, or link the section that replaced it.`);
+         `This change drops the link to "${key}", and that heading still exists in ${file}. Keep the anchor, or point the link at the section that replaced it.`);
   }
 
   // ---- rule 4: line endings flipped ---------------------------------------
-  const style = (s) => (s.includes("\r\n") ? "CRLF" : "LF");
+  // Three states, not two: "contains a CRLF" called a mixed file CRLF, so a
+  // rewrite that moved the CRLFs around compared equal and passed.
+  const style = (t) => {
+    const crlf = (t.match(/\r\n/g) || []).length;
+    const lf = (t.match(/(?<!\r)\n/g) || []).length;
+    return crlf && lf ? "mixed" : crlf ? "CRLF" : "LF";
+  };
   if (style(baseText) !== style(raw))
     push(f, 1, 1, "line-endings-changed",
          `Line endings changed ${style(baseText)} -> ${style(raw)}. Every line shows as modified, which hides the real edit — write the file back in its original style.`);
