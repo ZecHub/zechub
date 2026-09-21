@@ -13,7 +13,7 @@
 
 *Для получения подробной информации о суммах вознаграждения, пожалуйста, прочитайте нашу [страницу про участие](https://github.com/ZecHub/zechub/blob/main/CONTRIBUTING.md)*.
 
-Мы публикуем задания, которые у нас в настоящее время открыты. В первую очередь их можно найти страницы [Задачи Issues Github](https://github.com/ZecHub/zechub/issues). Вы также можете найти их на сайте [Dework](https://app.dework.xyz/zechub-2424). Квесты ZecHub размещены на [Crew3](https://crew3.xyz/c/zechub/)
+Мы публикуем задания, которые у нас в настоящее время открыты. В первую очередь их можно найти страницы [Задачи Issues Github](https://github.com/ZecHub/zechub/issues). Вы также можете найти их на сайте [Dework](https://app.dework.xyz/zechub-2424). Квесты ZecHub размещены на [Zealy](https://zealy.io/cw/zechub)
 
 Если вы хотите внести свой вклад другими способами, отправьте сообщение ZecHub ([@ZecHub](https://twitter.com/zechub)) в Twitter или присоединяйтесь к нашему [Discord](https://discord.gg/zcash ).
 

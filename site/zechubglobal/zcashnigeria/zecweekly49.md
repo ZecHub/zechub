@@ -66,7 +66,7 @@ Ni pato tọ kika ☞[DAO's, isọdọtun ni iṣe?](https://zcashesp.com/daos-d
 
 [Ofin tuntun 🇬🇧  UK ṣe idanimọ crypto bi iṣẹ ṣiṣe inawo ti iṣakoso](https://decrypt.co/146857/new-uk-law-recognizes-crypto-trading-as-regulated-financial-activity) 
 
-[Lori Brink Osẹ Akojọpọ](https://onthebrink-podcast.com/roundup-06-30-23/) 
+[Lori Brink Osẹ Akojọpọ](https://web.archive.org/web/20240612182035/https://onthebrink-podcast.com/roundup-06-30-23/) 
 
 
 ## Awon oro die Nipa ZCash Lori Twitter

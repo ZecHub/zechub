@@ -10,7 +10,7 @@ Als je lid bent van de Zcash-gemeenschap en wilt bijdragen aan het bouwen van Ze
 
 *Lees onze [bijdragepagina](https://github.com/ZecHub/zechub/blob/main/CONTRIBUTING.md) voor meer informatie over premiebedragen.
 
-We posten problemen voor taken waarvoor we momenteel premies open hebben staan. Deze zijn voornamelijk te vinden als [Github Issues](https://github.com/ZecHub/zechub/issues). Je vindt ze ook op [Dework](https://app.dework.xyz/zechub-2424). ZecHub-missies worden gepost op [Crew3](https://crew3.xyz/c/zechub/)
+We posten problemen voor taken waarvoor we momenteel premies open hebben staan. Deze zijn voornamelijk te vinden als [Github Issues](https://github.com/ZecHub/zechub/issues). Je vindt ze ook op [Dework](https://app.dework.xyz/zechub-2424). ZecHub-missies worden gepost op [Zealy](https://zealy.io/cw/zechub)
 
 Als er andere manieren zijn waarop je wilt bijdragen, stuur dan een bericht naar ZecHub ([@ZecHub](https://twitter.com/zechub)) op Twitter of word lid van onze [Discord](https://discord.gg/zcash ).
 

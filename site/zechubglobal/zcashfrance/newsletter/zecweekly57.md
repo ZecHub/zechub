@@ -61,7 +61,7 @@ Décortiquez les différences entre les pools protégés à connaissance zéro e
 
 [Visions d'un avenir décentralisé - Cypherpunk Times](https://www.cypherpunktimes.com/visions-of-a-decentralised-future/)
 
-[Le point de la semaine - On the Brink](https://onthebrink-podcast.com/roundup-08-25-23/)
+[Le point de la semaine - On the Brink](https://web.archive.org/web/20240424024941/https://onthebrink-podcast.com/roundup-08-25-23/)
 
 ## Quelques tweets sur Zcash
 
