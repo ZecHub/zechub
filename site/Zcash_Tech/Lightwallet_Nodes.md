@@ -8,17 +8,17 @@
 ## TL;DR
 
 * Most people use Zcash through a light wallet, which does not download the whole blockchain. Instead, it talks to a server that has already done that work.
-* Three pieces of software serve light wallets today: **lightwalletd**, the original service written in Go, **Zaino**, a newer indexer written in Rust, and **Ztreamer**, a Rust indexer with its node embedded in-process (see [Ztreamer](/zcash-tech/ztreamer)).
+* Three pieces of software serve light wallets today: **lightwalletd**, the original service written in Go, **Zaino**, a newer indexer written in Rust, and **Ztreamer**, a Rust indexer with its node embedded in-process (see [Ztreamer](/zcash-tech/ztreamer)). Ztreamer is the newest of the three (v0.1.0, September 2026) and the least battle-tested.
 * Your keys never leave your device, and the server cannot spend your funds or read the amounts and memos inside fully shielded transactions.
 * What the server is well placed to learn is your IP address and the timing of your activity — shielded transactions protect what goes on the blockchain, not your connection to the server.
 * Tor removes the IP identifier; it is available in wallets built on `zcash_client_backend`, and in ZODL it is a setting in Advanced Settings.
-* You can change which server your wallet uses, or run your own — both lightwalletd and Zaino are open source.
+* You can change which server your wallet uses, or run your own — lightwalletd and Zaino are open source.
 
 ## Core Explanation
 
 Most people use Zcash through a light wallet, which does not download the whole blockchain. Instead, it talks to a server that has already done that work. This page explains what those servers are, what they can and cannot see about you, how to route your connection over Tor, and how to change the server your wallet uses.
 
-Three pieces of software serve light wallets today. **lightwalletd** is the original service, written in Go. **Zaino** is a newer indexer written in Rust, built as part of the zcashd deprecation work. **Ztreamer** is the newest: a Rust indexer that embeds a Zakura full node in-process instead of talking to a separate node, and also serves light wallets peer-to-peer — it has [its own page](/zcash-tech/ztreamer).
+Three pieces of software serve light wallets today. **lightwalletd** is the original service, written in Go. **Zaino** is a newer indexer written in Rust, built as part of the zcashd deprecation work. **Ztreamer** is the newest (v0.1.0, September 2026): a Rust indexer that embeds a Zakura full node in-process instead of talking to a separate node, and also serves light wallets peer-to-peer — it has [its own page](/zcash-tech/ztreamer).
 
 ### What a light wallet server does
 
@@ -87,7 +87,7 @@ Zaino has its own page with architecture diagrams, so this page only covers its 
 
 ### Running your own
 
-The strongest option is to be your own operator, which removes the trust question entirely. The servers are open source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go, [Zaino](https://github.com/zingolabs/zaino) in Rust, and [Ztreamer](https://github.com/distractedm1nd/ztreamer) in Rust. lightwalletd and Zaino read from a full validator, so you will also want [Zebra](/zcash-tech/zebra-full-node); Ztreamer embeds a Zakura node in-process, so there is no separate validator to run.
+The strongest option is to be your own operator, which removes the trust question entirely. lightwalletd and Zaino are open source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go and [Zaino](https://github.com/zingolabs/zaino) in Rust. [Ztreamer](https://github.com/distractedm1nd/ztreamer) publishes its source on GitHub but ships no license file. lightwalletd and Zaino read from a full validator, so you will also want [Zebra](/zcash-tech/zebra-full-node); Ztreamer embeds a Zakura node in-process, so there is no separate validator to run.
 
 ## Practical Implications
 
