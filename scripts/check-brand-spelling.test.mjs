@@ -72,9 +72,15 @@ mkdirSync(join(repo, "site/zechubglobal/zcashitaly/guides"), { recursive: true }
 const git = (...a) => execFileSync("git", ["-C", repo, ...a], { encoding: "utf8" });
 
 writeFileSync(join(repo, "translation/protected-terms.json"), JSON.stringify({
+  // "ZK-SNARKs" is declared ONLY as an equivalent form, so under the key
+  // "zk-snarks" the set is built as {ZK-SNARK, ZK-SNARKs} — the plural arrives
+  // SECOND. Any "just take the first form" shortcut then answers "ZK-SNARK"
+  // for a plural misspelling, which is what the plural case below catches.
   preserveVerbatim: ["Free2Z", "ZecHub", "Zcash", "zcashd", "Ledger", "sETH", "LeoDex",
-                     "Viewing Key", "ZK-SNARK", "ZK-SNARKs"],
-  equivalentForms: [["ZK-SNARK", "ZK-SNARKs"]],
+                     "Viewing Key", "ZK-SNARK", "Now or Never", "Now or Nevers"],
+  // A product whose own name contains "or": without the guard, the pair rule
+  // reads "Now or Never" + " or " + "Now or Nevers" out of ordinary prose.
+  equivalentForms: [["ZK-SNARK", "ZK-SNARKs"], ["Now or Never", "Now or Nevers"]],
 }, null, 2) + "\n");
 writeFileSync(join(repo, "scripts/check-brand-spelling.mjs"), src);
 git("init", "-q");
@@ -96,9 +102,19 @@ const probes = {
   "site/suggestion.md":   "# S\n\nSee [ZK-SNARKs or ZK-SNARK](/zcash-tech/zk-snarks) for proofs.\n",
   // two DIFFERENT terms joined by "or" is ordinary prose, not a suggestion
   "site/orprose.md":      "# O\n\nUse a Ledger or LeoDex to hold it.\n",
+  "site/orterm.md":       "# T\n\nThe Ledger or LeoDex pairing is fine here.\n",
   // wrong case on a multi-form term: the finding must name ONE form
   "site/pluralcase.md":   "# P\n\nA Zk-Snarks proof verifies it.\n",
+  // the singular, wrong case: the answer must be the singular form even though
+  // the plural is declared first
+  "site/singularcase.md": "# G\n\nOne Zk-Snark proof verifies it.\n",
   "site/odd, name.md":    "# N\n\nProse with Zechub in a comma path.\n",
+  // git quotes a non-ASCII path unless -z is used, and the quoted form fails
+  // startsWith("site/") — the page was skipped in silence
+  "site/café.md":         "# C\n\nProse with Zechub in an accented path.\n",
+  // the SAME form twice is not the gate's suggestion text, just odd prose
+  "site/samepair.md":     "# S\n\nA ZK-SNARKs or ZK-SNARKs proof.\n",
+  "site/orname.md":       "# O\n\nThe Now or Never or Now or Nevers release.\n",
   // the unrouted archive: same defect, must never be reported
   "site/zechubglobal/zcashitaly/guides/g.md": "# G\n\nProse with Zechub and Free2z here.\n",
 };
@@ -129,6 +145,15 @@ try {
 } catch (e) { jsonFindings = JSON.parse(((e.stdout || "").match(/\{[\s\S]*\}/) || ["{\"findings\":[]}"])[0]).findings; }
 const has = (frag) => ann.some((l) => l.includes(frag));
 const count = (frag) => ann.filter((l) => l.includes(frag)).length;
+
+// The corpus sweep is a separate code path with its own file listing, and it
+// is the one an operator runs to size the backlog.
+let allFindings = [];
+try {
+  allFindings = JSON.parse(execFileSync("node",
+    [join(repo, "scripts/check-brand-spelling.mjs"), "--all", "--json"],
+    { cwd: repo, encoding: "utf8" })).findings;
+} catch (e) { allFindings = JSON.parse(((e.stdout || "").match(/\{[\s\S]*\}/) || ['{"findings":[]}'])[0]).findings; }
 
 // A second repo whose changed page is clean: proves the gate exits 0 when it
 // should, so "always fails" is not how the status assertions get satisfied.
@@ -179,11 +204,26 @@ const e2e = [
   ["want names one form",           () => jsonFindings.every((v) => !/ or /.test(v.want))],
   ["alternatives carry the rest",   () => jsonFindings.some((v) => v.alternatives?.length)],
   ["want keeps the plural",         () => jsonFindings.some((v) => v.found === "Zk-Snarks" && v.want === "ZK-SNARKs")],
+  ["want keeps the singular",       () => jsonFindings.some((v) => v.found === "Zk-Snark" && v.want === "ZK-SNARK")],
+  ["alternatives exclude want",     () => jsonFindings.every((v) => !(v.alternatives || []).includes(v.want))],
+  // a term that legitimately contains "or" must not be read as a form pair
+  ["no pair rule for an 'or' term", () => !has("file=site/orterm.md")],
+  ["scans a non-ASCII filename",    () => jsonFindings.some((v) => v.file.includes("caf") && v.found === "Zechub")],
+  ["--all scans it too",            () => allFindings.some((v) => v.file.includes("caf"))],
+  ["a term containing 'or'",        () => !jsonFindings.some((v) => v.file === "site/orname.md" && v.kind === "suggestion-text")],
+  ["one form twice is not a pair",  () => !jsonFindings.some((v) => v.file === "site/samepair.md" && v.kind === "suggestion-text")],
   ["findings carry a kind",         () => jsonFindings.every((v) => v.kind === "spelling" || v.kind === "suggestion-text")],
   // exit status — the only thing CI reads
   ["exits 1 when findings exist",   () => dirty.status === 1],
   ["exits 0 when the page is clean",() => clean.status === 0],
   ["clean run emits no annotations",() => !clean.out.includes("::error")],
+  // --json is consumed by scripts: a clean run must still parse as JSON, and
+  // it did not — the human summary was appended to stdout after the object
+  ["clean --json parses",           () => { try {
+      const o = execFileSync("node", [join(cleanRepo, "scripts/check-brand-spelling.mjs"), "--base", "main", "--json"],
+                             { cwd: cleanRepo, encoding: "utf8" });
+      return JSON.parse(o).findings.length === 0;
+    } catch { return false; } }],
 ];
 for (const [n, f] of e2e) { let ok = false; try { ok = f(); } catch { ok = false; }
   if (!ok) fail(`gate: ${n}`, "true", "false"); }

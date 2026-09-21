@@ -50,20 +50,18 @@ const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 // zk-SNARKs). A finding still has to name ONE of them, because `want` is read
 // by scripts as well as people: emitting "zk-SNARKs or zk-SNARK" invited an
 // autofix to write that phrase into the page, and the gate then passed it,
-// since the canonical form is a substring of it. Pick the form the author most
-// likely meant — same token ignoring case first, then number agreement, then
-// nearest length — and report the rest as alternatives.
+// since the canonical form is a substring of it.
+//
+// The choice is a lookup, not a heuristic: the misspelling matched a declared
+// form case-insensitively, so the form differing from it only in case is the
+// one the author meant — "ZK-SNARKs" is corrected to "zk-SNARKs", never to the
+// singular. It is not always first in the set: a form declared only in
+// equivalentForms is added after the preserveVerbatim one. The rest go to
+// `alternatives`, which tells a human the other legal spellings.
 function pickForm(found, forms) {
   const list = [...forms];
-  if (list.length === 1) return { want: list[0], alternatives: [] };
-  const plural = (x) => /s$/i.test(x);
-  const score = (f) => (f.toLowerCase() === found.toLowerCase() ? -100 : 0)
-                     + (plural(f) === plural(found) ? -10 : 0)
-                     + Math.abs(f.length - found.length);
-  const ranked = list.map((f, i) => [f, score(f), i])
-                     .sort((a, b) => a[1] - b[1] || a[2] - b[2])
-                     .map(([f]) => f);
-  return { want: ranked[0], alternatives: ranked.slice(1) };
+  const want = list.find((f) => f.toLowerCase() === found.toLowerCase()) ?? list[0];
+  return { want, alternatives: list.filter((f) => f !== want) };
 }
 
 // Spellings that are a DIFFERENT word, not a misspelt brand. "Seth For Privacy"
@@ -161,11 +159,15 @@ const isScannable = (f) => f.startsWith("site/") && f.endsWith(".md") && !f.star
 
 function changedEnglishFiles(base) {
   if (flag("--all")) {
-    return execFileSync("git", ["ls-files", "site/**/*.md", "site/*.md"], { encoding: "utf8" })
-      .split("\n").filter(isScannable);
+    // -z, always: with core.quotePath on (the default) git prints
+    // site/café.md as "site/caf\303\251.md" — the leading quote fails
+    // startsWith("site/") and the page is skipped in silence, which is the one
+    // failure mode this gate must never have.
+    return execFileSync("git", ["ls-files", "-z", "site/"], { encoding: "utf8" })
+      .split("\0").filter(isScannable);
   }
-  const out = execFileSync("git", ["diff", "--name-only", "--diff-filter=ACMR", `${base}...HEAD`], { encoding: "utf8" });
-  return out.split("\n").filter(isScannable);
+  const out = execFileSync("git", ["diff", "--name-only", "-z", "--diff-filter=ACMR", `${base}...HEAD`], { encoding: "utf8" });
+  return out.split("\0").filter(isScannable);
 }
 
 const base = arg("--base", "origin/main");
@@ -177,7 +179,7 @@ catch (e) { console.error(`cannot list changed files against ${base}: ${e.messag
 // two keys with two equal-but-distinct Sets. Deduplicate by content, or the
 // pair rule below reports each hit once per member.
 const suggestionRes = [...new Map(
-  [...okForms.values()].filter((f) => f.size > 1)
+  [...okForms.values()].filter((f) => f.size > 1 && ![...f].some((t) => /\bor\b/i.test(t)))
                        .map((f) => [[...f].sort().join("\u0000"), [...f]]),
 ).values()].map((forms) => {
   const alt = forms.map(esc).join("|");
@@ -246,9 +248,12 @@ else {
   }
 }
 
+// --json is a machine interface: the human summary below goes to stderr on a
+// clean run too, so `JSON.parse(stdout)` always works. It used to be appended
+// to stdout, which made a clean run unparseable.
 if (findings.length) {
   console.error(`\nbrand spelling FAILED — ${findings.length} wrong spelling(s) in ${new Set(findings.map((f) => f.file)).size} changed English page(s).`);
   console.error(`Canonical spellings come from translation/protected-terms.json. A spelling not on that list is not protected, so the translation engines translate it.`);
   process.exit(1);
 }
-console.log(`brand spelling OK — ${files.length} changed English page(s).`);
+(flag("--json") ? console.error : console.log)(`brand spelling OK — ${files.length} changed English page(s).`);
