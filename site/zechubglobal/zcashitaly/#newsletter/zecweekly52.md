@@ -38,7 +38,7 @@ Impareremo qualcosa di più su un protocollo di privacy intercatena che utilizza
 
 [Josh Swihart lascia l'ECC](https://twitter.com/jswihart/status/1681663020852736000)
 
-[Calendario del club per Zcon4 di ZFAV](https://wiki.zechub.xyz/zfav/calendar)
+[Calendario del club per Zcon4 di ZFAV](https://zechub.wiki/zfav/calendar)
 
 
 
@@ -88,7 +88,7 @@ Impareremo qualcosa di più su un protocollo di privacy intercatena che utilizza
 
 [Celsius Network raggiunge un accordo che potrebbe aprire la strada alla restituzione dei fondi dei clienti: WSJ - The Block](https://www.theblock.co/post/241028/celsius-network-reaches-settlements-wsj) 
 
-[Calendario del club ZFAV per Zcon4](https://wiki.zechub.xyz/zfav/calendar)
+[Calendario del club ZFAV per Zcon4](https://zechub.wiki/zfav/calendar)
 
 
 

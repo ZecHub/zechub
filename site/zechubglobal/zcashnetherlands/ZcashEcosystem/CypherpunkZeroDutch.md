@@ -19,7 +19,7 @@ Vertrouw erop dat we een aantal geweldige, exclusieve voordelen in de pijplijn h
 
 ## Bestuur
 
-  * [Momentopname](https://vote.cypherpunkzero.com/)
+  * [Momentopname](https://web.archive.org/web/20260116122729/https://vote.cypherpunkzero.com/)
 
   * [gilde](https://guild.xyz/cypherpunkzerodao)
 

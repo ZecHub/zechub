@@ -12,7 +12,7 @@ ati Itumọ si ede Yoruba nipasẹ "Hardaeborla" ([Hardaeborla](https://twitter.
 
 ## Nkan Ẹkọ ti Ọsẹ yii
 Pipinpin awọn iyatọ laarin awọn adagun-omi Idabobo Imọ Zero ati ailorukọ-orisun ti o da lori ni afikun aipẹ si wiki ZecHub. Iṣafihan si Awọn adagun-omi Dabobo, Awọn ẹri Imọye Zero, Awọn Ibuwọlu Iwọn & Awọn iṣowo Asiri. Awọn afiwera lẹhinna fa ni fifun ni ero ti o daju lẹhin idi ti Zcash n pese awọn iṣeduro aṣiri lori-pq aifẹ.
-[Ka ni ibi yìí](https://wiki.zechub.xyz/zk-shielded-pools-vs-decoy-based-privacy) 
+[Ka ni ibi yìí](https://zechub.wiki/zk-shielded-pools-vs-decoy-based-privacy) 
 
 
 
@@ -24,7 +24,7 @@ Pipinpin awọn iyatọ laarin awọn adagun-omi Idabobo Imọ Zero ati ailoruk�
 
 [Awọn ẹgbẹ ECC dojukọ iṣẹ ṣiṣe apamọwọ](https://forum.zcashcommunity.com/t/opening-applications-for-the-second-round-of-zf-minor-grants/45463) 
 
-[Ẹgbẹ ZFAV ṣe atẹjade awọn itọsọna 📚 fun awọn olupilẹṣẹ àkóónú](https://wiki.zechub.xyz/zfav/guides) 
+[Ẹgbẹ ZFAV ṣe atẹjade awọn itọsọna 📚 fun awọn olupilẹṣẹ àkóónú](https://zechub.wiki/zfav/guides) 
 
 ####  Awọn imudojuiwọn Awọn ifunni Agbegbe Zcash
 

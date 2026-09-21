@@ -12,7 +12,7 @@ Abaixo está uma lista de opções disponíveis e uma visão geral de alto níve
 
 Carteiras móveis blindadas são carteiras mobiles que suportam endereços Zcash blindados (z-addrs) e memorandos criptografados.
 
-🛡️ [Carteiras Móveis Blindadas](https://wiki.zechub.xyz/using-zec/intro-to-zcash-wallets/mobile-shielded-wallets)
+🛡️ [Carteiras Móveis Blindadas](https://zechub.wiki/using-zec/intro-to-zcash-wallets/mobile-shielded-wallets)
 
 ---
 
@@ -20,7 +20,7 @@ Carteiras móveis blindadas são carteiras mobiles que suportam endereços Zcash
 
 As carteiras móveis blindadas com blindagem automática são as mesmas listadas acima, exceto quando fundos transparentes são recebidos, a carteira move automaticamente os fundos para um endereço blindado.
 
-🔃 [Carteiras Móveis Blindadas com Autoblindagem](https://wiki.zechub.xyz/using-zec/intro-to-zcash-wallets/mobile-shielded-wallets-w-autoshielding)
+🔃 [Carteiras Móveis Blindadas com Autoblindagem](https://zechub.wiki/using-zec/intro-to-zcash-wallets/mobile-shielded-wallets-w-autoshielding)
 
 ---
 
@@ -28,7 +28,7 @@ As carteiras móveis blindadas com blindagem automática são as mesmas listadas
 
 Carteiras transparentes são carteiras que suportam apenas endereços transparentes. Essas carteiras são semelhantes às carteiras bitcoin e, portanto, oferecem a menor quantidade de proteção de privacidade.
 
-👐 [Carteiras Transparentes](https://wiki.zechub.xyz/using-zec/intro-to-zcash-wallets/transparent-wallets)
+👐 [Carteiras Transparentes](https://zechub.wiki/using-zec/intro-to-zcash-wallets/transparent-wallets)
 
 ---
 
@@ -36,7 +36,7 @@ Carteiras transparentes são carteiras que suportam apenas endereços transparen
 
 As carteiras de hardware são conhecidas por sua segurança. Essas carteiras armazenam fundos offline. Atualmente, as carteiras de hardware suportam apenas endereços transparentes. Os usuários devem reforçar sua segurança e privacidade ao usar carteiras de hardware.
 
-🔒 [Carteiras de Hardware](https://wiki.zechub.xyz/using-zec/intro-to-zcash-wallets/hardware-wallets)
+🔒 [Carteiras de Hardware](https://zechub.wiki/using-zec/intro-to-zcash-wallets/hardware-wallets)
 
 ---
 
@@ -44,7 +44,7 @@ As carteiras de hardware são conhecidas por sua segurança. Essas carteiras arm
 
 As carteiras desktokp são aplicativos para download que podem operar no Windows, MacOS, Linux, etc. Esses aplicativos permitem que os usuários interajam com o ZEC em seus dispositivos de desktop.
 
-🖥️ [Carteiras desktop](https://wiki.zechub.xyz/using-zec/intro-to-zcash-wallets/desktop-wallets)
+🖥️ [Carteiras desktop](https://zechub.wiki/using-zec/intro-to-zcash-wallets/desktop-wallets)
 
 ---
 
@@ -52,7 +52,7 @@ As carteiras desktokp são aplicativos para download que podem operar no Windows
 
 As carteiras da web são carteiras que você pode acessar a partir de um navegador. Eles fornecem aos usuários uma interface da web para interagir com seus fundos.
 
-💭 [Carteiras da web](https://wiki.zechub.xyz/using-zec/intro-to-zcash-wallets/web-wallets)
+💭 [Carteiras da web](https://zechub.wiki/using-zec/intro-to-zcash-wallets/web-wallets)
 
 ---
 
@@ -62,6 +62,6 @@ Uma carteira full node (ou nó completo) é um caso especial de carteira de desk
 
 Ele baixa uma cópia da blockchain Zcash, impõe regras da rede e pode executar todas as funcionalidades.
 
-🔗 [Carteiras de nós completos](https://wiki.zechub.xyz/using-zec/intro-to-zcash-wallets/full-node-wallets)
+🔗 [Carteiras de nós completos](https://zechub.wiki/using-zec/intro-to-zcash-wallets/full-node-wallets)
 
 ---

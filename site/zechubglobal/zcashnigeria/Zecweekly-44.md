@@ -16,7 +16,7 @@ Iwe iroyin ti ọsẹ yii yoo ṣawari sinu awọn iṣẹlẹ tuntun laarin ilo
 ## Nkan Ẹkọ ti Ọsẹ yii
 Ni ọsẹ yii nkan ẹkọ, a yoo kọ ẹkọ nipa eto isọdọtun eyiti o le ṣee lo lati fipamọ ati pinpin awọn faili lori Intanẹẹti nipasẹ ohun elo ti a mọ si InterPlanetary File System (IPFS). Ninu ikẹkọ yii, iwọ yoo tun kọ ẹkọ bii o ṣe le ṣe atẹjade oju opo wẹẹbu rẹ lori IPFS lati jẹ ki ilana isọdọtun pipe lori oju opo wẹẹbu rẹ.
 
-Kọ ẹkọ diẹ sii nipa IPFS [nibi](https://wiki.zechub.xyz/zfav/guides/publish-a-site-on-ipfs) 
+Kọ ẹkọ diẹ sii nipa IPFS [nibi](https://zechub.wiki/zfav/guides/publish-a-site-on-ipfs) 
 
 ## Awọn imudojuiwọn Zcash
 

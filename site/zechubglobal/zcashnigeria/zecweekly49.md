@@ -29,7 +29,7 @@ Ni pato tọ kika ☞[DAO's, isọdọtun ni iṣe?](https://zcashesp.com/daos-d
 
 [Imudojuiwọn Node si ẹya Zcasd 5.6.1](https://twitter.com/Zcash_community/status/1674569168690065410?t=nqPzbqAzoMEf1HFfx6JY3Q&s=19) 
 
-[📅Kalẹnda Egbe ZF A/V  ti Jade!](https://wiki.zechub.xyz/zfav/calendar) 
+[📅Kalẹnda Egbe ZF A/V  ti Jade!](https://zechub.wiki/zfav/calendar) 
 
 
 ####  Awọn imudojuiwọn Awọn ifunni Agbegbe Zcash

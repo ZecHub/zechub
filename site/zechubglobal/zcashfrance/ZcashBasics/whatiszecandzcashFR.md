@@ -12,7 +12,7 @@ ZEC donne aux gens la possibilité de transférer des données sans autorisation
 
 [Le cas de Zcash et la confidentialité](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Un écosystème protégé](https://electriccoin.co/blog/shielded-ecosystem/)
+[Un écosystème protégé](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Recommandations de confidentialité de Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
