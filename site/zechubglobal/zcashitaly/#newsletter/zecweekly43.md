@@ -24,7 +24,7 @@ Se volete partecipare alla creazione di future newsletter, visitate il nostro [s
 
 Il pezzo di questa settimana è un articolo spiega brevemente cos'è Zcash, riassume gli ultimi anni di sviluppo ed il possibile futuro di Zcash.
 
-[Leggi l'articolo](https://www.ilbitcoin.news/cose-e-come-funziona-zcash/).
+[Leggi l'articolo](https://web.archive.org/web/20241206211743/https://www.ilbitcoin.news/cose-e-come-funziona-zcash/).
 
 
 ## Aggiornamenti su Zcash

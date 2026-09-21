@@ -22,7 +22,7 @@ Dans le volet éducatif de cette semaine, vous apprendrez comment vous pouvez ex
 
 Si vous êtes nouveau dans l'exécution de nœuds sur Zcash, alors vous n'avez rien à craindre car ce tutoriel couvre presque toutes les choses importantes que vous devez savoir lorsqu'il s'agit d'exécuter votre propre nœud sur zcashd. Visitez le lien ci-dessous pour commencer 
 
-[Guide Zcashd Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md) 
+[Guide Zcashd Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md) 
 
 
 ## Mises à jour de Zcash

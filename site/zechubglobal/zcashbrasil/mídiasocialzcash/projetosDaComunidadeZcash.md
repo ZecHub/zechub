@@ -58,7 +58,7 @@ Zlink é a maneira mais simples de encontrar qualquer link, ferramenta, informa�
 
 O aftok é um novo tipo radical de cooperação, uma organização empresarial bottom-up. É uma maneira para você e alguns amigos confiáveis ​​construírem coisas juntos e serem pagos por seus esforços, sem a hierarquia ou os custos administrativos de uma empresa tradicional.
 
-[Atomic DEX](https://atomicdex.io/en/)
+[Atomic DEX](https://web.archive.org/web/20250116100519/https://atomicdex.io/en/)
 
 AtomicDEX é uma carteira, ponte e DEX multi-coin combinados em um único aplicativo. Versões móveis/desktop disponíveis.
 

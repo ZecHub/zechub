@@ -25,13 +25,13 @@ Ikiwa unapata mwongozo huu kuwa na manufaa, fikiria kuchangia ZEC kusaidia ZecHu
 ##### Taarifa: Kuweka server yako salama sio rahisi kwa njia yoyote. Ikiwa una vidokezo/ushauri/mazoea bora zaidi ambayo hayajazungumziwa katika mwongozo huu, tafadhali chukua hatua na saidia kuweka mwongozo huu kuwa wa kisasa iwezekanavyo kwa kufungua Ombi la Ushirikiano (PR).
 
 ## Yaliyomo:
-* [Tayarisha Kadi ya SD](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#prepare-the-sd-card)
-* [Zindua Ubuntu Server](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#boot-ubuntu-server)
-* [Unganisha Kijijini kwenye Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#connect-remotely-to-your-raspberry-pi-4)
-* [Sakinisha *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#installing-zcashd)
-* [Sanidi *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#setup-zcashd)
-* [Matumizi ya *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#using-zcashd)
-* [Vyanzo](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#sources)
+* [Tayarisha Kadi ya SD](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md)
+* [Zindua Ubuntu Server](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md)
+* [Unganisha Kijijini kwenye Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md)
+* [Sakinisha *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md)
+* [Sanidi *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md)
+* [Matumizi ya *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md)
+* [Vyanzo](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md)
 
 ### Tayarisha Kadi ya SD
 
