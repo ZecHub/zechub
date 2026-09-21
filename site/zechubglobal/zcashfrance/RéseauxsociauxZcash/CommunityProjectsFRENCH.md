@@ -87,7 +87,7 @@ RenBridge (service fermé)
 Ren Protocol a été arrêté et RenBridge n'est plus disponible.
 
 
-[ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
+[ZeroBridge](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)
 
 ZeroBridge est un client décentralisé du protocole Zero DAO, permettant des scripts d'actifs inter-chaînes dans un navigateur avec votre portefeuille existant, @zerodaoHQ permet de financer une nouvelle adresse ETH avec Shielded ZEC.
 

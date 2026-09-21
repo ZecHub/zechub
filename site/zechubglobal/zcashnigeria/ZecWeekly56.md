@@ -44,7 +44,7 @@ Awọn orisun ti a ṣe iṣeduro ni ọsẹ yii ni Awọn akoko Zcon! Ni Zcon4 
 
 [ZFAV ati ZcashBrazil lati Ṣe ifowosowopo ni #dWebCamp fun Tekinoloji ati Awọn isopọ!](https://twitter.com/ZFAVClub/status/1692289261263868271) 
 
-[Zcash Book Club📚 Ipade akọkọ](https://zcashambassadors.com/event/zcash-book-club-first-meeting/) 
+[Zcash Book Club📚 Ipade akọkọ](https://web.archive.org/web/20231210230022/https://zcashambassadors.com/event/zcash-book-club-first-meeting/) 
 
 [Zingo! Iṣẹlẹ apamọwọ ni Discord 22/08!](https://twitter.com/ZingoLabs/status/1692579184822960298) 
 

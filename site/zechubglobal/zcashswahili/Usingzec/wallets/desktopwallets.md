@@ -1,7 +1,7 @@
 # Pochi Za Kompyuta
 Pochi za kompyuta ni programu zinazoweza kupakuliwa iwapo unataka kupata huduma yako ya Zcash kwenye kompyuta yenye mfumo wa uendeshaji wa windows,MacOS,au Linux.
 
-Jifunze zaidi kuhusu aina tofauti za mabwawa ya Zcash.[<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://wiki.zechub.xyz/zcash-value-pools)
+Jifunze zaidi kuhusu aina tofauti za mabwawa ya Zcash.[<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://zechub.wiki/zcash-value-pools)
 
 ---
 

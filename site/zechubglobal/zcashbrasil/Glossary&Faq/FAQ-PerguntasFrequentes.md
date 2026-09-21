@@ -60,7 +60,7 @@ Sim, a Zcash permite privacidade completa para os usuários, criptografando dado
 
 A Zcash não criptografa dados para transações de múltiplas assinaturas (aguardando a integração do FROST) ou protege contra correlações feitas com transações públicas transparentes (por exemplo, quando a Zcash é negociada para/de outra criptomoeda), nem obscurece endereços IP.
 
-Leia mais aqui: [Ecossistema Blindado](https://electriccoin.co/blog/shielded-ecosystem)
+Leia mais aqui: [Ecossistema Blindado](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 ## Alguns equívocos comuns
 
