@@ -352,3 +352,22 @@
 - Pools: Transparent | Sapling | Ironwood | Sprout
 - Features: Wallet Recovery | Command Line Interface | Shielded Memo | Testnet Support
 - Ironwood: Ready
+
+## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
+![logo](/content-images/gem_wallet_logo.png "Gem Wallet")
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
+
+--- 
+
+## [Freedom Wallet](https://www.freedomwallet.com/)
+![logo](/content-images/freedom_wallet_logo.webp‎ "Freedom Wallet")
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Linux | Windows
+- Wallet Support: Seed Phrase | Private Key | Self-Custody Wallet | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi-Chain Privacy Support | Encrypted Shielded Transaction | Seed Recovery | In-App Swaps | Light Wallet Sync
+- Ironwood: In Progress
