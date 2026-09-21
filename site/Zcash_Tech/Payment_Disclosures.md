@@ -46,8 +46,8 @@ A Sapling payment disclosure does not have to reveal a sender address. Spend aut
 | Transaction ID | Checking that a transaction was mined | Public transaction data and confirmations | No | Yes, but shielded payment details remain hidden |
 | Screenshot or receipt | Informal record keeping | Whatever the sender chooses to display | No | No; the image can be edited |
 | Payment disclosure | Proving selected details of one payment | Selected transaction outputs and any included sender or challenge proof | No, but the shared proof can be copied | Yes |
-| Incoming viewing key | Monitoring payments received by an account | Incoming activity covered by the key | Yes | It decrypts matching incoming payments |
-| Full viewing key | Accounting or auditing an account | Incoming and outgoing activity, amounts, memos, and balances covered by the key | Yes | It decrypts matching account activity |
+| Incoming Viewing Key | Monitoring payments received by an account | Incoming activity covered by the key | Yes | It decrypts matching incoming payments |
+| Full Viewing Key | Accounting or auditing an account | Incoming and outgoing activity, amounts, memos, and balances covered by the key | Yes | It decrypts matching account activity |
 
 Use the smallest disclosure that answers the question. A merchant dispute about one payment does not normally justify access to every payment in an account. An accountant who must review a full reporting period may need a viewing key instead.
 
