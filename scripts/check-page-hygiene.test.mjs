@@ -12,7 +12,7 @@
 // clean corpus. Status is asserted on every case for that reason.
 //
 // Run: node scripts/check-page-hygiene.test.mjs
-import { writeFileSync, mkdirSync, rmSync } from "node:fs";
+import { writeFileSync, mkdirSync, rmSync, symlinkSync, unlinkSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -39,6 +39,11 @@ w("site/kept.md", "# K\n\n- [Setup](#setup)\n\n## Setup\n\ntext\n");
 w("site/moved.md", "# V\n\n- [Old](#setup)\n\n## Setup\n\n## Usage\n");
 w("site/clean.md", "# Clean\n\nSee [docs](https://example.org/a) here.\n");
 w("site/emptied.md", "# E\r\n\r\nsomething\r\n");        // CRLF, about to be emptied
+w("site/snake.md", "# S\n\n- [S](#snake_case-heading)\n\n## Snake_case heading\n");
+w("site/partial.md", "# P\n\n- [A](#alpha)\n- [B](#beta)\n\n## Alpha\n\n## Beta\n");
+w("site/renamed-old.md", "# R\r\n\r\ntext\r\n");
+w("site/target.txt", "plain\n");
+symlinkSync("target.txt", join(repo, "site/typechange.md"));   // mode 120000
 git("init", "-q");
 git("config", "user.email", "t@t"); git("config", "user.name", "t");
 git("add", "-A"); git("commit", "-qm", "base", "--no-verify");
@@ -80,12 +85,52 @@ const probes = {
   "site/code.md": "# C\n\n`[x](https://example.test/a))` in a span.\n\n```\n[z](https://example.test/c))\n```\n",
   // adjacent text that happens to repeat part of the URL is legal markdown
   "site/adjacent.md": "# A\n\n[repo](https://github.com/tailscale/tailscale)tailscale is nice.\n",
-  // a file that was already mixed and gets rewritten to one style
-  "site/mixed.md": "# M\none\n",
+  // a file that was already mixed, rewritten to pure CRLF. "Contains a CRLF"
+  // calls both sides CRLF and sees no change — only three states catch it.
+  "site/mixed.md": "# M\r\none\r\n",
   // emptied: no line endings left to compare, so the rule must stay silent
   "site/emptied.md": "",
+  // a URL with balanced parens of its own, then prose whose paren opens on one
+  // line and closes on the next: stripping links with a non-greedy regex leaked
+  // the URL's ")" into the paragraph count and flagged line 4
+  "site/urlparens.md": "# U\n\nSee [wiki](https://en.wikipedia.org/wiki/Zcash_(cryptocurrency)) and (a note\nabout [x](https://example.test/a)).\n",
+  // GitHub keeps "_" in an anchor; a slug that drops it silently stops
+  // matching every underscore heading
+  "site/snake.md": "# S\n\n- Setup\n\n## Snake_case heading\n",
+  // ONE of two anchors to the same page dropped: comparing presence alone
+  // let this through because the other anchor still existed
+  "site/partial.md": "# P\n\n- [A](#alpha)\n- B\n\n## Alpha\n\n## Beta\n",
+  // a symlink replaced by a real page: git calls that a type change (T), and
+  // a filter of ACMR silently never scans it
+  "site/typechange.md": "# T\n\n# [T](https://x.test/c)) #\n",
+  // a fence opened on a list-item line: its body must not be scanned, and it
+  // must not latch and hide the defect after it
+  "site/listfence.md": "# L\n\n- ~~~\n  [x](https://x.test/a))\n  ~~~\n\n# [T](https://x.test/b)) #\n",
 };
+try { unlinkSync(join(repo, "site/typechange.md")); } catch { /* not a symlink here */ }
 for (const [p, body] of Object.entries(probes)) w(p, body);
+
+// A rename in the same PR: without resolving the old path, every comparison
+// rule goes quiet for the file most likely to have been rewritten.
+git("mv", "site/renamed-old.md", "site/renamed-new.md");
+writeFileSync(join(repo, "site/renamed-new.md"), "# R\n\ntext\n");   // CRLF -> LF
+
+// A submodule whose path ends in .md: it passes the name filter, exists on
+// disk as a directory, and reading it throws EISDIR — which failed the whole
+// gate for a reason that has nothing to do with the PR.
+const sub = join(tmpdir(), `hygiene-sub-${process.pid}`);
+rmSync(sub, { recursive: true, force: true });
+mkdirSync(sub, { recursive: true });
+const sgit = (...a) => execFileSync("git", ["-C", sub, ...a], { encoding: "utf8" });
+sgit("init", "-q");
+sgit("config", "user.email", "t@t"); sgit("config", "user.name", "t");
+writeFileSync(join(sub, "f.txt"), "x\n");
+sgit("add", "-A"); sgit("commit", "-qm", "sub", "--no-verify");
+let hasSubmodule = true;
+try {
+  git("-c", "protocol.file.allow=always", "submodule", "add", "-q", sub, "site/vendor.md");
+} catch { hasSubmodule = false; }               // git too old or file protocol blocked
+
 git("add", "-A"); git("commit", "-qm", "pr", "--no-verify");
 
 function run(extra = []) {
@@ -145,6 +190,16 @@ const cases = [
   ["emptying a CRLF page is allowed",  () => kindsFor("site/emptied.md").length === 0],
   // --json is consumed by scripts, so a CLEAN run's stdout must parse: the
   // summary used to be appended to it after the object
+  ["URL parens do not leak",           () => kindsFor("site/urlparens.md").length === 0],
+  ["slug keeps an underscore",         () => kindsFor("site/snake.md").includes("anchor-dropped")],
+  // the gate must report the OTHER pages, not die on the gitlink
+  ["a submodule does not crash it",    () => !hasSubmodule || (dirty.status === 1 && kindsFor("site/stray.md").length > 0)],
+  ["scans a type change",             () => kindsFor("site/typechange.md").includes("stray-close-paren")],
+  ["flags a PARTIAL anchor loss",      () => kindsFor("site/partial.md").includes("anchor-dropped")],
+  ["a list fence neither leaks nor latches",
+                                       () => { const f = json.filter((v) => v.file === "site/listfence.md");
+                                               return f.length === 1 && f[0].line === 7; }],
+  ["a renamed file keeps its baseline", () => kindsFor("site/renamed-new.md").includes("line-endings-changed")],
   ["clean --json parses",              () => { try {
       return JSON.parse(execFileSync("node", [GATE, "--base", "main", "--json"],
                                      { cwd: cleanRepo, encoding: "utf8" })).findings.length === 0;
@@ -167,5 +222,6 @@ for (const [n, f] of cases) { let ok = false; try { ok = f(); } catch (e) { ok =
 
 rmSync(repo, { recursive: true, force: true });
 rmSync(cleanRepo, { recursive: true, force: true });
+rmSync(sub, { recursive: true, force: true });
 console.log(failed ? `${failed}/${cases.length} failing` : `all ${cases.length} cases correct`);
 process.exit(failed ? 1 : 0);

@@ -38,7 +38,7 @@ function changedFiles() {
     return execFileSync("git", ["ls-files", "-z", "site/"], { encoding: "utf8" })
       .split("\0").filter(isScannable);
   }
-  return execFileSync("git", ["diff", "--name-only", "-z", "--diff-filter=ACMR", `${base}...HEAD`], { encoding: "utf8" })
+  return execFileSync("git", ["diff", "--name-only", "-z", "--diff-filter=ACMRT", `${base}...HEAD`], { encoding: "utf8" })
     .split("\0").filter(isScannable);
 }
 
@@ -70,7 +70,7 @@ function maskCode(lines) {
   const blank = (l) => " ".repeat(l.length);
   let fence = null;
   return lines.map((l) => {
-    const f = l.match(/^\s*(`{3,}|~{3,})/);
+    const f = l.match(/^\s*(?:[-*+]\s+|\d+[.)]\s+)?(`{3,}|~{3,})/);
     if (f) {
       if (fence === null) fence = f[1];
       else if (f[1][0] === fence[0] && f[1].length >= fence.length) fence = null;
@@ -85,7 +85,7 @@ function maskCode(lines) {
 // GitHub keeps unicode letters and digits, drops other punctuation, maps
 // spaces to hyphens, and disambiguates a repeated heading with -1, -2, ...
 const slug = (h) => h.toLowerCase().trim()
-  .replace(/[^\p{L}\p{N}\s-]/gu, "").replace(/\s+/g, "-");
+  .replace(/[^\p{L}\p{N}_\s-]/gu, "").replace(/\s+/g, "-");   // "_" survives: #snake_case
 
 const headingCache = new Map();
 function anchorsOf(file) {
@@ -127,13 +127,13 @@ function resolveInternal(path, fromFile) {
   return path.startsWith("/") ? path.replace(/^\//, "") : join(dirname(fromFile), path);
 }
 
-function anchorsInLinks(text, file) {
+function anchorsInLinks(text) {
   const out = [];
   for (const line of maskCode(text.split("\n")))
     for (const { target } of links(line)) {
       const h = target.indexOf("#");
       if (h < 0) continue;                                 // no anchor
-      out.push({ target, path: target.slice(0, h), anchor: target.slice(h + 1), file });
+      out.push({ path: target.slice(0, h), anchor: target.slice(h + 1) });
     }
   return out;
 }
@@ -148,6 +148,16 @@ catch (e) { console.error(`cannot list changed files against ${base}: ${e.messag
 // `${base}...HEAD` diffs against the MERGE BASE; reading the old text from the
 // tip of main instead blames this PR for whatever main changed meanwhile —
 // a line-ending normalisation on main made an untouched file look rewritten.
+// A rename makes `git show <base>:<new path>` fail, which silently disabled
+// every comparison rule for exactly the change most likely to rewrite a file.
+// --name-status gives the old path; -z makes each field its own record.
+const renamedFrom = new Map();
+try {
+  const rec = execFileSync("git", ["diff", "--name-status", "-z", "-M", `${base}...HEAD`], { encoding: "utf8" }).split("\0");
+  for (let i = 0; i < rec.length; i++)
+    if (/^R\d*$/.test(rec[i])) { renamedFrom.set(rec[i + 2], rec[i + 1]); i += 2; }
+} catch { /* no renames, or an unreadable base: the rules just fall back */ }
+
 let mergeBase = base;
 try { mergeBase = execFileSync("git", ["merge-base", base, "HEAD"], { encoding: "utf8" }).trim() || base; } catch { /* keep base */ }
 for (const f of files) {
@@ -206,7 +216,16 @@ for (const f of files) {
     }
     // Carry the line's own balance, with link targets removed so a URL's
     // parens never leak into the paragraph count.
-    const outsideLinks = line.replace(/\]\([^\n]*?\)/g, "").replace(/[:;=8]-?[)(]/g, "");
+    // Remove each link's "](target)" span using the SAME balanced scan the
+    // rules use. A non-greedy regex stopped at the first ")", so
+    // ".../Zcash_(cryptocurrency)" leaked a ")" into the paragraph count and
+    // cancelled a genuinely open paren on the next line.
+    let outsideLinks = "", cut = 0;
+    for (const { open, close } of links(line)) {
+      outsideLinks += line.slice(cut, open - 2);
+      cut = close + 1;
+    }
+    outsideLinks = (outsideLinks + line.slice(cut)).replace(/[:;=8]-?[)(]/g, "");
     carried = Math.max(0, carried + (outsideLinks.match(/\(/g) || []).length - (outsideLinks.match(/\)/g) || []).length);
   });
 
@@ -215,7 +234,8 @@ for (const f of files) {
   let baseText = null;
   // stdio: a file added by this PR makes `git show base:f` fail loudly; that is
   // an expected outcome here, not something to print.
-  try { baseText = execFileSync("git", ["show", `${mergeBase}:${f}`], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }); }
+  const basePath = renamedFrom.get(f) ?? f;
+  try { baseText = execFileSync("git", ["show", `${mergeBase}:${basePath}`], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }); }
   catch { baseText = null; }                       // new file: nothing to compare
   if (baseText === null) continue;
 
@@ -229,13 +249,22 @@ for (const f of files) {
   // to #installing-zebrad is an edit, not a loss, and the earlier version
   // flagged it with a message telling the author to do what they had just done.
   const headByPath = new Map();
-  for (const l of anchorsInLinks(text, f)) {
+  for (const l of anchorsInLinks(text)) {
     if (!headByPath.has(l.path)) headByPath.set(l.path, new Set());
     headByPath.get(l.path).add(l.anchor);
   }
+  const baseByPath = new Map();
+  for (const l of anchorsInLinks(baseText)) {
+    if (!baseByPath.has(l.path)) baseByPath.set(l.path, new Set());
+    baseByPath.get(l.path).add(l.anchor);
+  }
   const reported = new Set();
-  for (const { path, anchor } of anchorsInLinks(baseText, f)) {
-    if (headByPath.get(path)?.size) continue;              // still anchored: an edit, not a loss
+  for (const { path, anchor } of anchorsInLinks(baseText)) {
+    // Net loss per path: repointing #a to #b keeps the count, so it is an
+    // edit; dropping one of two anchors lowers it, so it is a loss. Comparing
+    // presence alone let a partial loss through whenever any anchor survived.
+    if ((headByPath.get(path)?.size ?? 0) >= (baseByPath.get(path)?.size ?? 0)) continue;
+    if (headByPath.get(path)?.has(anchor)) continue;       // this one is still there
     const file = resolveInternal(path, f);
     if (!file || !existsSync(file)) continue;
     if (!anchorsOf(file).has(anchor.toLowerCase())) continue;   // heading gone: correct to drop
