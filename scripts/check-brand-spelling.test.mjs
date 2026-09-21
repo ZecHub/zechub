@@ -91,6 +91,13 @@ const probes = {
   "site/seth.md":         "# S\n\nSeth Hertlein joined the podcast.\n",
   "site/attrs.md":        "# I\n\n<img src=\"/content-images/Free2z-banner.webp\" alt=\"b\"/>\n",
   "site/equiv.md":        "# E\n\nA ZK-SNARKs proof and a ZK-SNARK proof.\n",
+  // the gate's own `want` text, pasted into the page: both halves are correct
+  // spellings, so the spelling rule is blind to it
+  "site/suggestion.md":   "# S\n\nSee [ZK-SNARKs or ZK-SNARK](/zcash-tech/zk-snarks) for proofs.\n",
+  // two DIFFERENT terms joined by "or" is ordinary prose, not a suggestion
+  "site/orprose.md":      "# O\n\nUse a Ledger or LeoDex to hold it.\n",
+  // wrong case on a multi-form term: the finding must name ONE form
+  "site/pluralcase.md":   "# P\n\nA Zk-Snarks proof verifies it.\n",
   "site/odd, name.md":    "# N\n\nProse with Zechub in a comma path.\n",
   // the unrouted archive: same defect, must never be reported
   "site/zechubglobal/zcashitaly/guides/g.md": "# G\n\nProse with Zechub and Free2z here.\n",
@@ -111,6 +118,15 @@ const dirty = runGate(repo);
 const out = dirty.out;
 
 const ann = out.split("\n").filter((l) => l.startsWith("::error"));
+
+// The JSON shape is a consumed interface — scripts apply `want` — so assert on
+// it directly rather than parsing it back out of the annotations.
+let jsonFindings = [];
+try {
+  jsonFindings = JSON.parse(execFileSync("node",
+    [join(repo, "scripts/check-brand-spelling.mjs"), "--base", "main", "--json"],
+    { cwd: repo, encoding: "utf8" })).findings;
+} catch (e) { jsonFindings = JSON.parse(((e.stdout || "").match(/\{[\s\S]*\}/) || ["{\"findings\":[]}"])[0]).findings; }
 const has = (frag) => ann.some((l) => l.includes(frag));
 const count = (frag) => ann.filter((l) => l.includes(frag)).length;
 
@@ -153,6 +169,17 @@ const e2e = [
   ["escapes a comma in the path",   () => has("site/odd%2C name.md")],
   ["reports line and col",          () => ann.every((l) => /line=\d+,col=\d+/.test(l))],
   ["column points at the term",     () => has("line=3,col=12")],   // "Prose with Zechub"
+  // the gate must not bless its own suggestion text (this shipped: an autofix
+  // wrote `want` verbatim and the gate passed the page)
+  ["flags pasted suggestion text",  () => has("file=site/suggestion.md")],
+  ["says it is a suggestion",       () => has("is a suggestion, not a spelling")],
+  ["reports the pair once",         () => count("file=site/suggestion.md") === 1],
+  ["leaves \"Ledger or LeoDex\"",    () => !has("file=site/orprose.md")],
+  // `want` is read by scripts, so it must name exactly one form
+  ["want names one form",           () => jsonFindings.every((v) => !/ or /.test(v.want))],
+  ["alternatives carry the rest",   () => jsonFindings.some((v) => v.alternatives?.length)],
+  ["want keeps the plural",         () => jsonFindings.some((v) => v.found === "Zk-Snarks" && v.want === "ZK-SNARKs")],
+  ["findings carry a kind",         () => jsonFindings.every((v) => v.kind === "spelling" || v.kind === "suggestion-text")],
   // exit status — the only thing CI reads
   ["exits 1 when findings exist",   () => dirty.status === 1],
   ["exits 0 when the page is clean",() => clean.status === 0],

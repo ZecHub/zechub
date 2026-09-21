@@ -46,6 +46,26 @@ for (const group of equivalentForms)
 
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+// One term can have several correct forms (equivalentForms: zk-SNARK /
+// zk-SNARKs). A finding still has to name ONE of them, because `want` is read
+// by scripts as well as people: emitting "zk-SNARKs or zk-SNARK" invited an
+// autofix to write that phrase into the page, and the gate then passed it,
+// since the canonical form is a substring of it. Pick the form the author most
+// likely meant — same token ignoring case first, then number agreement, then
+// nearest length — and report the rest as alternatives.
+function pickForm(found, forms) {
+  const list = [...forms];
+  if (list.length === 1) return { want: list[0], alternatives: [] };
+  const plural = (x) => /s$/i.test(x);
+  const score = (f) => (f.toLowerCase() === found.toLowerCase() ? -100 : 0)
+                     + (plural(f) === plural(found) ? -10 : 0)
+                     + Math.abs(f.length - found.length);
+  const ranked = list.map((f, i) => [f, score(f), i])
+                     .sort((a, b) => a[1] - b[1] || a[2] - b[2])
+                     .map(([f]) => f);
+  return { want: ranked[0], alternatives: ranked.slice(1) };
+}
+
 // Spellings that are a DIFFERENT word, not a misspelt brand. "Seth For Privacy"
 // and "Seth Hertlein" are people who appear in podcast listings; the ticker sETH
 // occurs once, in a markets list. Capitalisation alone cannot separate them, so
@@ -153,6 +173,17 @@ let files;
 try { files = changedEnglishFiles(base); }
 catch (e) { console.error(`cannot list changed files against ${base}: ${e.message}`); process.exit(2); }
 
+// okForms is keyed by every lowercase form, so a two-form term appears under
+// two keys with two equal-but-distinct Sets. Deduplicate by content, or the
+// pair rule below reports each hit once per member.
+const suggestionRes = [...new Map(
+  [...okForms.values()].filter((f) => f.size > 1)
+                       .map((f) => [[...f].sort().join("\u0000"), [...f]]),
+).values()].map((forms) => {
+  const alt = forms.map(esc).join("|");
+  return new RegExp(`(?<![A-Za-z0-9])(${alt})\\s+or\\s+(${alt})(?![A-Za-z0-9])`, "g");
+});
+
 const findings = [];
 for (const f of files) {
   if (!existsSync(f)) continue;
@@ -176,7 +207,21 @@ for (const f of files) {
         // is a style opinion, not a spelling correction. Only whole-line caps
         // qualify: a lone ZCASH inside ordinary prose is still flagged.
         if (m[1] === m[1].toUpperCase() && !/[a-z]/.test(rawLines[i].replace(/[^A-Za-z]/g, ""))) continue;
-        findings.push({ file: f, line: i + 1, col: m.index + 1, found: m[1], want: [...forms].join(" or ") });
+        const { want, alternatives } = pickForm(m[1], forms);
+        findings.push({ file: f, line: i + 1, col: m.index + 1, kind: "spelling", found: m[1], want, alternatives });
+      }
+    }
+    // A form pair joined by " or " is this gate's own suggestion text pasted
+    // into the page — "[zk-SNARKs or zk-SNARK](/zcash-tech/zk-snarks)" shipped
+    // exactly that way. The spelling rule above cannot see it: both halves are
+    // correct spellings, so the line passes while the prose is wrong. Only
+    // forms of the SAME term count, so "Sapling or Orchard" stays prose.
+    for (const re of suggestionRes) {
+      re.lastIndex = 0;
+      for (const m of line.matchAll(re)) {
+        if (m[1] === m[2]) continue;
+        findings.push({ file: f, line: i + 1, col: m.index + 1, kind: "suggestion-text",
+                        found: m[0], want: m[1], alternatives: [m[2]] });
       }
     }
   });
@@ -193,7 +238,11 @@ else {
     // Data:  % -> %25, CR -> %0D, LF -> %0A.  Properties also: , -> %2C, : -> %3A
     const escData = (x) => String(x).replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A");
     const escProp = (x) => escData(x).replace(/,/g, "%2C").replace(/:/g, "%3A");
-    console.log(`::error file=${escProp(v.file)},line=${v.line},col=${v.col}::${escData(`Brand spelling: write "${v.want}", not "${v.found}"`)}`);
+    const also = v.alternatives?.length ? ` (also correct: ${v.alternatives.join(", ")} — write one of them, never both)` : "";
+    const msg = v.kind === "suggestion-text"
+      ? `Brand spelling: "${v.found}" is a suggestion, not a spelling — write "${v.want}"${also}`
+      : `Brand spelling: write "${v.want}", not "${v.found}"${also}`;
+    console.log(`::error file=${escProp(v.file)},line=${v.line},col=${v.col}::${escData(msg)}`);
   }
 }
 
