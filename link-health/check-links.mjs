@@ -280,7 +280,11 @@ async function pool(items, limit, worker) {
 //
 // Timestamps carry an optional flag suffix (20240419175552if_ / im_ / id_).
 function originalOf(url) {
-  const m = /^https?:\/\/web\.archive\.org\/web\/(\d{4,14})(?:[a-z_]{2,3})?\/(https?:\/\/.+)$/i.exec(url);
+  if (typeof url !== "string") return null;
+  // The original must have a HOST: ".../web/2022/https://?" parsed as a URL to
+  // re-probe, which is not one. Wayback also serves "/web/2/" and "/web/*/"
+  // for "latest", so the timestamp is digits OR a star.
+  const m = /^https?:\/\/web\.archive\.org\/web\/(\d{1,14}|\*)(?:[a-z_]{2,3})?\/(https?:\/\/[^\s/?#]+[^\s]*)$/i.exec(url);
   return m ? { when: m[1], original: m[2] } : null;
 }
 

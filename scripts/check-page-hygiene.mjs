@@ -254,7 +254,11 @@ for (const f of files) {
     const lf = (t.match(/(?<!\r)\n/g) || []).length;
     return crlf && lf ? "mixed" : crlf ? "CRLF" : "LF";
   };
-  if (style(baseText) !== style(raw))
+  // A file with no line ending at all — empty, or one line with no newline —
+  // has no style. Calling that LF made "delete every line" an unfixable
+  // finding on a CRLF page.
+  const hasEndings = (t) => /\r?\n/.test(t);
+  if (hasEndings(baseText) && hasEndings(raw) && style(baseText) !== style(raw))
     push(f, 1, 1, "line-endings-changed",
          `Line endings changed ${style(baseText)} -> ${style(raw)}. Every line shows as modified, which hides the real edit — write the file back in its original style.`);
 }
@@ -276,4 +280,6 @@ if (findings.length) {
   console.error(`A page a PR touches is checked in full, so touching a page means bringing its links to a working state. Every rule here is about what the reader sees on the rendered page.`);
   process.exit(1);
 }
-console.log(`page hygiene OK — ${files.length} changed page(s).`);
+// --json is a machine interface: the summary goes to stderr on a clean run
+// too, so JSON.parse(stdout) always works.
+(flag("--json") ? console.error : console.log)(`page hygiene OK — ${files.length} changed page(s).`);

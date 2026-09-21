@@ -43,11 +43,17 @@ eq("short timestamp",
    originalOf(`${A}/2022/https://example.org/`),
    { when: "2022", original: "https://example.org/" });
 
+eq("star timestamp (latest)",
+   originalOf(`${A}/*/https://example.org/x`),
+   { when: "*", original: "https://example.org/x" });
+
 // must NOT match: these are ordinary links and re-probing them is meaningless
 eq("not an archive host", originalOf("https://example.org/web/20250611203406/https://x.test/"), null);
 eq("archive without a target", originalOf(`${A}/20250611203406/`), null);
 eq("non-http target", originalOf(`${A}/20250611203406/ftp://x.test/f`), null);
 eq("the archive home page", originalOf("https://web.archive.org/"), null);
+eq("target without a host", originalOf(`${A}/2022/https://?`), null);
+eq("non-string input", originalOf(Symbol("x")), null);
 
-console.log(failed ? `${failed} failing` : "all 9 cases correct");
+console.log(failed ? `${failed} failing` : "all 12 cases correct");
 process.exit(failed ? 1 : 0);

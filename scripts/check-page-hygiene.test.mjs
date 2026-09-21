@@ -38,6 +38,7 @@ w("site/samepage.md", "# S\n\n- [Setup](#setup)\n- [Usage](#usage)\n\n## Setup\n
 w("site/kept.md", "# K\n\n- [Setup](#setup)\n\n## Setup\n\ntext\n");
 w("site/moved.md", "# V\n\n- [Old](#setup)\n\n## Setup\n\n## Usage\n");
 w("site/clean.md", "# Clean\n\nSee [docs](https://example.org/a) here.\n");
+w("site/emptied.md", "# E\r\n\r\nsomething\r\n");        // CRLF, about to be emptied
 git("init", "-q");
 git("config", "user.email", "t@t"); git("config", "user.name", "t");
 git("add", "-A"); git("commit", "-qm", "base", "--no-verify");
@@ -81,6 +82,8 @@ const probes = {
   "site/adjacent.md": "# A\n\n[repo](https://github.com/tailscale/tailscale)tailscale is nice.\n",
   // a file that was already mixed and gets rewritten to one style
   "site/mixed.md": "# M\none\n",
+  // emptied: no line endings left to compare, so the rule must stay silent
+  "site/emptied.md": "",
 };
 for (const [p, body] of Object.entries(probes)) w(p, body);
 git("add", "-A"); git("commit", "-qm", "pr", "--no-verify");
@@ -139,6 +142,13 @@ const cases = [
   ["allows adjacent repeated text",   () => kindsFor("site/adjacent.md").length === 0],
   // rule 4
   ["flags a mixed file being fixed",  () => kindsFor("site/mixed.md").includes("line-endings-changed")],
+  ["emptying a CRLF page is allowed",  () => kindsFor("site/emptied.md").length === 0],
+  // --json is consumed by scripts, so a CLEAN run's stdout must parse: the
+  // summary used to be appended to it after the object
+  ["clean --json parses",              () => { try {
+      return JSON.parse(execFileSync("node", [GATE, "--base", "main", "--json"],
+                                     { cwd: cleanRepo, encoding: "utf8" })).findings.length === 0;
+    } catch { return false; } }],
   // a bad base must report, not stack-trace
   ["bad --base exits 2 with a line",  () => { const r = run(["--base", "nosuchref"]); return r.status === 2 && /cannot list changed files/.test(r.out); }],
   // plumbing
