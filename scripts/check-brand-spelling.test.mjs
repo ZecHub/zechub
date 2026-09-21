@@ -13,7 +13,7 @@
 //                       deciding WHAT counts as a misspelling, plus escaping)
 //
 // Run: node scripts/check-brand-spelling.test.mjs
-import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, symlinkSync, unlinkSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -72,11 +72,19 @@ mkdirSync(join(repo, "site/zechubglobal/zcashitaly/guides"), { recursive: true }
 const git = (...a) => execFileSync("git", ["-C", repo, ...a], { encoding: "utf8" });
 
 writeFileSync(join(repo, "translation/protected-terms.json"), JSON.stringify({
+  // "ZK-SNARKs" is declared ONLY as an equivalent form, so under the key
+  // "zk-snarks" the set is built as {ZK-SNARK, ZK-SNARKs} — the plural arrives
+  // SECOND. Any "just take the first form" shortcut then answers "ZK-SNARK"
+  // for a plural misspelling, which is what the plural case below catches.
   preserveVerbatim: ["Free2Z", "ZecHub", "Zcash", "zcashd", "Ledger", "sETH", "LeoDex",
-                     "Viewing Key", "ZK-SNARK", "ZK-SNARKs"],
-  equivalentForms: [["ZK-SNARK", "ZK-SNARKs"]],
+                     "Viewing Key", "ZK-SNARK", "Now or Never", "Now or Nevers"],
+  // A product whose own name contains "or": without the guard, the pair rule
+  // reads "Now or Never" + " or " + "Now or Nevers" out of ordinary prose.
+  equivalentForms: [["ZK-SNARK", "ZK-SNARKs"], ["Now or Never", "Now or Nevers"]],
 }, null, 2) + "\n");
 writeFileSync(join(repo, "scripts/check-brand-spelling.mjs"), src);
+writeFileSync(join(repo, "site/target.txt"), "plain\n");
+symlinkSync("target.txt", join(repo, "site/typechange.md"));     // mode 120000
 git("init", "-q");
 git("config", "user.email", "t@t"); git("config", "user.name", "t");
 git("add", "-A"); git("commit", "-qm", "base", "--no-verify");
@@ -91,11 +99,58 @@ const probes = {
   "site/seth.md":         "# S\n\nSeth Hertlein joined the podcast.\n",
   "site/attrs.md":        "# I\n\n<img src=\"/content-images/Free2z-banner.webp\" alt=\"b\"/>\n",
   "site/equiv.md":        "# E\n\nA ZK-SNARKs proof and a ZK-SNARK proof.\n",
+  "site/codespan.md":     "# C\n\nRun `Zechub` in the shell.\n",
+  "site/comment.md":      "# M\n\n<!--\nZechub in a comment\n-->\nZechub in prose\n",
+  "site/bareurl.md":      "# B\n\nSee https://free2z.com/Zechub for more.\n",
+  "site/linktarget.md":   "# L\n\nSee [the guide](/guides/Zechub-intro) here.\n",
+  "site/compound.md":     "# W\n\nZecwallet Lite and ZecHubDAO are separate.\n",
+  // the gate's own `want` text, pasted into the page: both halves are correct
+  // spellings, so the spelling rule is blind to it
+  "site/suggestion.md":   "# S\n\nSee [ZK-SNARKs or ZK-SNARK](/zcash-tech/zk-snarks) for proofs.\n",
+  // two DIFFERENT terms joined by "or" is ordinary prose, not a suggestion
+  "site/orprose.md":      "# O\n\nUse a Ledger or LeoDex to hold it.\n",
+  "site/orterm.md":       "# T\n\nThe Ledger or LeoDex pairing is fine here.\n",
+  // a glossary explaining both forms is prose, not a pasted suggestion
+  "site/explains.md":     "# E\n\nUse ZK-SNARK or ZK-SNARKs depending on whether you mean one proof or several.\n",
+  // the same paste inside a code span stays ignored
+  "site/insidecode.md":   "# I\n\n`[ZK-SNARKs or ZK-SNARK](/x)` shows the bad form.\n",
+  // uppercase extension, which endsWith(".md") missed
+  "site/UPPER.MD":        "# U\n\nProse with Zechub here.\n",
+  // a symlink replaced by a real page: git reports a type change (T), which
+  // --diff-filter=ACMR silently excluded
+  "site/typechange.md":   "# T\n\nProse with Zechub after a type change.\n",
+  // wrong case on a multi-form term: the finding must name ONE form
+  "site/pluralcase.md":   "# P\n\nA Zk-Snarks proof verifies it.\n",
+  // the singular, wrong case: the answer must be the singular form even though
+  // the plural is declared first
+  "site/singularcase.md": "# G\n\nOne Zk-Snark proof verifies it.\n",
   "site/odd, name.md":    "# N\n\nProse with Zechub in a comma path.\n",
+  // git quotes a non-ASCII path unless -z is used, and the quoted form fails
+  // startsWith("site/") — the page was skipped in silence
+  "site/café.md":         "# C\n\nProse with Zechub in an accented path.\n",
+  // the SAME form twice is not the gate's suggestion text, just odd prose
+  "site/samepair.md":     "# S\n\nA ZK-SNARKs or ZK-SNARKs proof.\n",
+  "site/orname.md":       "# O\n\nThe Now or Never or Now or Nevers release.\n",
   // the unrouted archive: same defect, must never be reported
   "site/zechubglobal/zcashitaly/guides/g.md": "# G\n\nProse with Zechub and Free2z here.\n",
 };
+try { unlinkSync(join(repo, "site/typechange.md")); } catch { /* not a symlink here */ }
 for (const [p, body] of Object.entries(probes)) writeFileSync(join(repo, p), body);
+
+// A submodule at a path ending in .md: readFileSync throws EISDIR on a
+// directory, which failed the whole gate and lost every other finding.
+const sub = join(tmpdir(), `brandgate-sub-${process.pid}`);
+rmSync(sub, { recursive: true, force: true });
+mkdirSync(sub, { recursive: true });
+const sgit = (...a) => execFileSync("git", ["-C", sub, ...a], { encoding: "utf8" });
+sgit("init", "-q");
+sgit("config", "user.email", "t@t"); sgit("config", "user.name", "t");
+writeFileSync(join(sub, "f.txt"), "x\n");
+sgit("add", "-A"); sgit("commit", "-qm", "sub", "--no-verify");
+let hasSubmodule = true;
+try { git("-c", "protocol.file.allow=always", "submodule", "add", "-q", sub, "site/vendor.md"); }
+catch { hasSubmodule = false; }
+
 git("add", "-A"); git("commit", "-qm", "pr", "--no-verify");
 
 // The exit STATUS is the only thing CI acts on, so capture it. Asserting only
@@ -111,13 +166,32 @@ const dirty = runGate(repo);
 const out = dirty.out;
 
 const ann = out.split("\n").filter((l) => l.startsWith("::error"));
+
+// The JSON shape is a consumed interface — scripts apply `want` — so assert on
+// it directly rather than parsing it back out of the annotations.
+let jsonFindings = [];
+try {
+  jsonFindings = JSON.parse(execFileSync("node",
+    [join(repo, "scripts/check-brand-spelling.mjs"), "--base", "main", "--json"],
+    { cwd: repo, encoding: "utf8" })).findings;
+} catch (e) { jsonFindings = JSON.parse(((e.stdout || "").match(/\{[\s\S]*\}/) || ["{\"findings\":[]}"])[0]).findings; }
 const has = (frag) => ann.some((l) => l.includes(frag));
 const count = (frag) => ann.filter((l) => l.includes(frag)).length;
+
+// The corpus sweep is a separate code path with its own file listing, and it
+// is the one an operator runs to size the backlog.
+let allFindings = [];
+try {
+  allFindings = JSON.parse(execFileSync("node",
+    [join(repo, "scripts/check-brand-spelling.mjs"), "--all", "--json"],
+    { cwd: repo, encoding: "utf8" })).findings;
+} catch (e) { allFindings = JSON.parse(((e.stdout || "").match(/\{[\s\S]*\}/) || ['{"findings":[]}'])[0]).findings; }
 
 // A second repo whose changed page is clean: proves the gate exits 0 when it
 // should, so "always fails" is not how the status assertions get satisfied.
 const cleanRepo = join(tmpdir(), `brandgate-clean-${process.pid}`);
 rmSync(cleanRepo, { recursive: true, force: true });
+rmSync(sub, { recursive: true, force: true });
 mkdirSync(join(cleanRepo, "site"), { recursive: true });
 mkdirSync(join(cleanRepo, "scripts"), { recursive: true });
 mkdirSync(join(cleanRepo, "translation"), { recursive: true });
@@ -153,10 +227,49 @@ const e2e = [
   ["escapes a comma in the path",   () => has("site/odd%2C name.md")],
   ["reports line and col",          () => ann.every((l) => /line=\d+,col=\d+/.test(l))],
   ["column points at the term",     () => has("line=3,col=12")],   // "Prose with Zechub"
+  // the gate must not bless its own suggestion text (this shipped: an autofix
+  // wrote `want` verbatim and the gate passed the page)
+  ["flags pasted suggestion text",  () => has("file=site/suggestion.md")],
+  ["says it is a suggestion",       () => has("is a suggestion, not a spelling")],
+  ["reports the pair once",         () => count("file=site/suggestion.md") === 1],
+  ["leaves \"Ledger or LeoDex\"",    () => !has("file=site/orprose.md")],
+  // `want` is read by scripts, so it must name exactly one form
+  ["want names one form",           () => jsonFindings.every((v) => !/ or /.test(v.want))],
+  ["alternatives carry the rest",   () => jsonFindings.some((v) => v.alternatives?.length)],
+  ["want keeps the plural",         () => jsonFindings.some((v) => v.found === "Zk-Snarks" && v.want === "ZK-SNARKs")],
+  ["want keeps the singular",       () => jsonFindings.some((v) => v.found === "Zk-Snark" && v.want === "ZK-SNARK")],
+  ["alternatives exclude want",     () => jsonFindings.every((v) => !(v.alternatives || []).includes(v.want))],
+  // a term that legitimately contains "or" must not be read as a form pair
+  ["no pair rule for an 'or' term", () => !has("file=site/orterm.md")],
+  ["scans a non-ASCII filename",    () => jsonFindings.some((v) => v.file.includes("caf") && v.found === "Zechub")],
+  ["--all scans it too",            () => allFindings.some((v) => v.file.includes("caf"))],
+  ["a term containing 'or'",        () => !jsonFindings.some((v) => v.file === "site/orname.md" && v.kind === "suggestion-text")],
+  ["prose explaining both forms",   () => !has("file=site/explains.md")],
+  ["a paste inside a code span",    () => !has("file=site/insidecode.md")],
+  ["scans an .MD extension",        () => has("file=site/UPPER.MD")],
+  ["scans a type change",           () => has("file=site/typechange.md")],
+  ["a submodule does not crash it", () => !hasSubmodule || (dirty.status === 1 && has("file=site/a.md"))],
+  // masks that had no case at all: deleting any of them left the suite green
+  ["masks an inline code span",     () => !has("file=site/codespan.md")],
+  ["masks a multi-line comment",    () => !jsonFindings.some((v) => v.file === "site/comment.md" && v.line === 4)],
+  ["…but not prose after it",       () => jsonFindings.some((v) => v.file === "site/comment.md" && v.line === 6)],
+  ["masks a bare URL",              () => !has("file=site/bareurl.md")],
+  ["masks a link target",           () => !has("file=site/linktarget.md")],
+  ["word boundaries hold",          () => !has("file=site/compound.md")],
+  ["--all skips the archive",       () => !allFindings.some((v) => v.file.startsWith("site/zechubglobal/"))],
+  ["one form twice is not a pair",  () => !jsonFindings.some((v) => v.file === "site/samepair.md" && v.kind === "suggestion-text")],
+  ["findings carry a kind",         () => jsonFindings.every((v) => v.kind === "spelling" || v.kind === "suggestion-text")],
   // exit status — the only thing CI reads
   ["exits 1 when findings exist",   () => dirty.status === 1],
   ["exits 0 when the page is clean",() => clean.status === 0],
   ["clean run emits no annotations",() => !clean.out.includes("::error")],
+  // --json is consumed by scripts: a clean run must still parse as JSON, and
+  // it did not — the human summary was appended to stdout after the object
+  ["clean --json parses",           () => { try {
+      const o = execFileSync("node", [join(cleanRepo, "scripts/check-brand-spelling.mjs"), "--base", "main", "--json"],
+                             { cwd: cleanRepo, encoding: "utf8" });
+      return JSON.parse(o).findings.length === 0;
+    } catch { return false; } }],
 ];
 for (const [n, f] of e2e) { let ok = false; try { ok = f(); } catch { ok = false; }
   if (!ok) fail(`gate: ${n}`, "true", "false"); }

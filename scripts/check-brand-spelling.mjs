@@ -19,7 +19,7 @@
 // in the diff, not only in a job log nobody opens.
 //
 // Usage: node scripts/check-brand-spelling.mjs [--base <ref>] [--all] [--json]
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, statSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 
 const arg = (n, d = "") => { const i = process.argv.indexOf(n); return i > -1 ? (process.argv[i + 1] ?? d) : d; };
@@ -45,6 +45,24 @@ for (const group of equivalentForms)
   }
 
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+// One term can have several correct forms (equivalentForms: zk-SNARK /
+// zk-SNARKs). A finding still has to name ONE of them, because `want` is read
+// by scripts as well as people: emitting "zk-SNARKs or zk-SNARK" invited an
+// autofix to write that phrase into the page, and the gate then passed it,
+// since the canonical form is a substring of it.
+//
+// The choice is a lookup, not a heuristic: the misspelling matched a declared
+// form case-insensitively, so the form differing from it only in case is the
+// one the author meant — "ZK-SNARKs" is corrected to "zk-SNARKs", never to the
+// singular. It is not always first in the set: a form declared only in
+// equivalentForms is added after the preserveVerbatim one. The rest go to
+// `alternatives`, which tells a human the other legal spellings.
+function pickForm(found, forms) {
+  const list = [...forms];
+  const want = list.find((f) => f.toLowerCase() === found.toLowerCase()) ?? list[0];
+  return { want, alternatives: list.filter((f) => f !== want) };
+}
 
 // Spellings that are a DIFFERENT word, not a misspelt brand. "Seth For Privacy"
 // and "Seth Hertlein" are people who appear in podcast listings; the ticker sETH
@@ -137,15 +155,19 @@ function proseMask(md) {
 // those pages a wall of failures about text that ships nowhere. Excluded until
 // the archive is either routed or retired.
 const UNROUTED = "site/zechubglobal/";
-const isScannable = (f) => f.startsWith("site/") && f.endsWith(".md") && !f.startsWith(UNROUTED);
+const isScannable = (f) => f.startsWith("site/") && /\.md$/i.test(f) && !f.startsWith(UNROUTED);
 
 function changedEnglishFiles(base) {
   if (flag("--all")) {
-    return execFileSync("git", ["ls-files", "site/**/*.md", "site/*.md"], { encoding: "utf8" })
-      .split("\n").filter(isScannable);
+    // -z, always: with core.quotePath on (the default) git prints
+    // site/café.md as "site/caf\303\251.md" — the leading quote fails
+    // startsWith("site/") and the page is skipped in silence, which is the one
+    // failure mode this gate must never have.
+    return execFileSync("git", ["ls-files", "-z", "site/"], { encoding: "utf8" })
+      .split("\0").filter(isScannable);
   }
-  const out = execFileSync("git", ["diff", "--name-only", "--diff-filter=ACMR", `${base}...HEAD`], { encoding: "utf8" });
-  return out.split("\n").filter(isScannable);
+  const out = execFileSync("git", ["diff", "--name-only", "-z", "--diff-filter=ACMRT", `${base}...HEAD`], { encoding: "utf8" });
+  return out.split("\0").filter(isScannable);
 }
 
 const base = arg("--base", "origin/main");
@@ -153,11 +175,29 @@ let files;
 try { files = changedEnglishFiles(base); }
 catch (e) { console.error(`cannot list changed files against ${base}: ${e.message}`); process.exit(2); }
 
+// okForms is keyed by every lowercase form, so a two-form term appears under
+// two keys with two equal-but-distinct Sets. Deduplicate by content, or the
+// pair rule below reports each hit once per member.
+const suggestionRes = [...new Map(
+  [...okForms.values()].filter((f) => f.size > 1 && ![...f].some((t) => /\bor\b/i.test(t)))
+                       .map((f) => [[...f].sort().join("\u0000"), [...f]]),
+).values()].map((forms) => {
+  const alt = forms.map(esc).join("|");
+  return new RegExp(`(?<![A-Za-z0-9])(${alt})\\s+or\\s+(${alt})(?![A-Za-z0-9])`, "g");
+});
+
 const findings = [];
 for (const f of files) {
   if (!existsSync(f)) continue;
-  const rawLines = readFileSync(f, "utf8").split("\n");
-  proseMask(readFileSync(f, "utf8")).forEach((line, i) => {
+  // A submodule is a gitlink: the path exists, ends in .md, and reading it
+  // throws EISDIR, failing the gate for a reason unrelated to the PR.
+  let content;
+  try {
+    if (!statSync(f).isFile()) continue;
+    content = readFileSync(f, "utf8");
+  } catch { continue; }
+  const rawLines = content.split("\n");
+  proseMask(content).forEach((line, i) => {
     if (!line.trim()) return;
     for (const [lower, forms] of okForms) {
       const re = new RegExp(`(?<![A-Za-z0-9])(${esc(lower)})(?![A-Za-z0-9])`, "gi");
@@ -176,7 +216,32 @@ for (const f of files) {
         // is a style opinion, not a spelling correction. Only whole-line caps
         // qualify: a lone ZCASH inside ordinary prose is still flagged.
         if (m[1] === m[1].toUpperCase() && !/[a-z]/.test(rawLines[i].replace(/[^A-Za-z]/g, ""))) continue;
-        findings.push({ file: f, line: i + 1, col: m.index + 1, found: m[1], want: [...forms].join(" or ") });
+        const { want, alternatives } = pickForm(m[1], forms);
+        findings.push({ file: f, line: i + 1, col: m.index + 1, kind: "spelling", found: m[1], want, alternatives });
+      }
+    }
+    // A form pair joined by " or " is this gate's own suggestion text pasted
+    // into the page — "[zk-SNARKs or zk-SNARK](/zcash-tech/zk-snarks)" shipped
+    // exactly that way. The spelling rule above cannot see it: both halves are
+    // correct spellings, so the line passes while the prose is wrong. Only
+    // forms of the SAME term count, so "Sapling or Orchard" stays prose.
+    //
+    // LINK TEXT only, deliberately. In running prose "Use ZK-SNARK or
+    // ZK-SNARKs depending on whether you mean one proof or several" is a
+    // legitimate explanation, and blocking a glossary that teaches both forms
+    // would cost more than missing a paste nobody has made outside a link.
+    for (const re of suggestionRes) {
+      // proseMask blanks "](target)", so link text has to be found on the RAW
+      // line — and then checked against the mask, so a link inside a code span
+      // or a fence is still ignored.
+      for (const link of rawLines[i].matchAll(/\[([^\]]*)\]\(/g)) {
+        if (line[link.index] === " " || line[link.index] === undefined) continue;
+        re.lastIndex = 0;
+        for (const m of link[1].matchAll(re)) {
+          if (m[1] === m[2]) continue;
+          findings.push({ file: f, line: i + 1, col: link.index + 2 + m.index, kind: "suggestion-text",
+                          found: m[0], want: m[1], alternatives: [m[2]] });
+        }
       }
     }
   });
@@ -193,13 +258,20 @@ else {
     // Data:  % -> %25, CR -> %0D, LF -> %0A.  Properties also: , -> %2C, : -> %3A
     const escData = (x) => String(x).replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A");
     const escProp = (x) => escData(x).replace(/,/g, "%2C").replace(/:/g, "%3A");
-    console.log(`::error file=${escProp(v.file)},line=${v.line},col=${v.col}::${escData(`Brand spelling: write "${v.want}", not "${v.found}"`)}`);
+    const also = v.alternatives?.length ? ` (also correct: ${v.alternatives.join(", ")} — write one of them, never both)` : "";
+    const msg = v.kind === "suggestion-text"
+      ? `Brand spelling: "${v.found}" is a suggestion, not a spelling — write "${v.want}"${also}`
+      : `Brand spelling: write "${v.want}", not "${v.found}"${also}`;
+    console.log(`::error file=${escProp(v.file)},line=${v.line},col=${v.col}::${escData(msg)}`);
   }
 }
 
+// --json is a machine interface: the human summary below goes to stderr on a
+// clean run too, so `JSON.parse(stdout)` always works. It used to be appended
+// to stdout, which made a clean run unparseable.
 if (findings.length) {
   console.error(`\nbrand spelling FAILED — ${findings.length} wrong spelling(s) in ${new Set(findings.map((f) => f.file)).size} changed English page(s).`);
   console.error(`Canonical spellings come from translation/protected-terms.json. A spelling not on that list is not protected, so the translation engines translate it.`);
   process.exit(1);
 }
-console.log(`brand spelling OK — ${files.length} changed English page(s).`);
+(flag("--json") ? console.error : console.log)(`brand spelling OK — ${files.length} changed English page(s).`);
