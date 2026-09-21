@@ -138,6 +138,7 @@ Zcash_Tech/NU6.md
 Zcash_Tech/NU6_1.md
 Zcash_Tech/NU6_2.md
 Zcash_Tech/Overwinter.md
+Zcash_Tech/Payment_Disclosures.md
 Zcash_Tech/Pepper_Sync.md
 Zcash_Tech/Post_Quantum_Security.md
 Zcash_Tech/Private_Information_Retrieval.md
