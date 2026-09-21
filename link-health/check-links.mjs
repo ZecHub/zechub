@@ -271,6 +271,19 @@ async function pool(items, limit, worker) {
   return out;
 }
 
+// ── archived links ───────────────────────────────────────────────────────────
+// A Wayback link records a judgement made on one day: the original was dead
+// then. Sites come back — zeme.team returned three weeks after a correct fix
+// pointed past it, and nothing re-examined the decision, so the wiki kept
+// sending readers to a 2025 snapshot of a live site. Extracting the original
+// is the whole trick; the probe is the same one every other link gets.
+//
+// Timestamps carry an optional flag suffix (20240419175552if_ / im_ / id_).
+function originalOf(url) {
+  const m = /^https?:\/\/web\.archive\.org\/web\/(\d{4,14})(?:[a-z_]{2,3})?\/(https?:\/\/.+)$/i.exec(url);
+  return m ? { when: m[1], original: m[2] } : null;
+}
+
 // ── suggested actions ────────────────────────────────────────────────────────
 
 const ACTIONS = {
@@ -284,6 +297,7 @@ const ACTIONS = {
   asset: "Asset is not in the wiki repo. Upload it or correct the path.",
   invalid: "Malformed URL. Fix the link syntax.",
   duplicate: "Same URL repeated in one file. Usually harmless, sometimes a copy-paste slip.",
+  revived: "The original answers again. Point the link back at it, or keep the snapshot deliberately if the live page has changed beyond use.",
 };
 
 // ── main ─────────────────────────────────────────────────────────────────────
@@ -425,7 +439,32 @@ async function main() {
     });
   }
 
-  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "error", "invalid", "redirect", "duplicate"];
+  // Re-examine every Wayback repoint: probe the ORIGINAL, not the snapshot.
+  // Advisory, never counted as serious — a snapshot is a working link, just
+  // possibly an unnecessary one.
+  if (!OFFLINE) {
+    const archived = new Map();
+    for (const [url, where] of externalTargets) {
+      const o = originalOf(url);
+      if (!o) continue;
+      if (!archived.has(o.original)) archived.set(o.original, { where, archive: url, when: o.when });
+    }
+    const originals = [...archived.keys()];
+    if (originals.length) {
+      const back = await pool(originals, CONCURRENCY, (u) => checkExternal(u));
+      back.forEach((r, i) => {
+        if (r.state !== "ok") return;                 // still dead: the snapshot earns its place
+        const { where, archive, when } = archived.get(originals[i]);
+        findings.push({
+          kind: "revived", url: archive, file: where[0].file, line: where[0].line,
+          alsoIn: where.length > 1 ? where.length - 1 : 0, status: r.status,
+          detail: `${originals[i]} answers ${r.status} again (snapshot taken ${when.slice(0, 4)}-${when.slice(4, 6)}-${when.slice(6, 8)})`,
+        });
+      });
+    }
+  }
+
+  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "error", "invalid", "redirect", "duplicate", "revived"];
   findings.sort((a, b) => order.indexOf(a.kind) - order.indexOf(b.kind) || a.file.localeCompare(b.file));
 
   const totals = Object.fromEntries(order.map((k) => [k, findings.filter((f) => f.kind === k).length]));
@@ -465,6 +504,7 @@ const LABELS = {
   invalid: "Invalid URLs",
   redirect: "Redirects",
   duplicate: "Duplicate URLs",
+  revived: "Archived links whose original is live again",
 };
 
 // GitHub issue bodies cap at 65536 characters, so rows are capped per section and

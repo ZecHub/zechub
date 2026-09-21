@@ -94,6 +94,13 @@ jobs:
       - name: Page hygiene gate self-test
         run: node scripts/check-page-hygiene.test.mjs
 
+      # link-health itself is a weekly network sweep and cannot run here, but
+      # the part that decides which links get re-probed is pure string work and
+      # fails silently when wrong — a regex that matches nothing reports a
+      # clean corpus. Cheap to assert, so it is asserted on every PR.
+      - name: Link-health parser self-test
+        run: node link-health/check-links.test.mjs
+
   hash-lib-tests:
     runs-on: ubuntu-latest
     steps:
