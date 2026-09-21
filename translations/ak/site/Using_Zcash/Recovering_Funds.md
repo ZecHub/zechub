@@ -2,109 +2,213 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Wallet Sikakorabea a Wɔsan Yɛ
+# Zcash Wallet Fund Recovery (Ɔkwampa a wobɛtumi de agye sika)
 
-**Dɛn nti na wode wo private key sie?**
+** Dɛn nti na ɛsɛ sɛ w'ani gye nneɛma a woasan anya no ho?**
 
-Private keys ne ahintasɛm a ɛma wo dijitaal agyapade ahobammɔ. Wɔn a wɔbɛkora wɔn so na woremfa wɔn nkyerɛ nnipa foforo da no ho hia.
+Seeds, spending keys, viewing keys ne wallet files no ntumi nsesa. A seed phrase betumi ama wͻn anya wallet keys ma wallets bebree, nanso ɛntumi nsiesie ͻha biara anaa wallet file a εwᴐ mu dada nyinaa. Wͻbεyεε hwεfo kyinie bε tumi da adwuma bi adi na mmom wontumi mma kwan mmfa sika nni dwuma.
 
-> Wɔ saa tebea yi mu no wobetumi ahu **Aba Kasasin** sɛ ɛne kokoam safoa yɛ pɛ.
+Agyede no gyina sika a woagye ne kwan pa a wode kɔma wɔn na ama wɔanya sika no. Ma nneɛma a w'atwe no ho adane kokoam, mfa nkwammoaa anaa wallet faesɛ obi biara a wunni mu ahotosoɔ nka bi da.
 
-Ɛdenam wo kokoam safe no so tumi a wobɛkɔ so akura mu so no, ɔkwan a wobɛfa so asan anya no betumi ayɛ yiye bere nyinaa. Zcash private keys ahodoɔ 2 na ɛwɔ hɔ (transparent na shielded), ɛnyɛ den sɛ wobɛtumi de akɔ wo wallet mu, sɛ ɛyɛ Sweep Funds dwumadie no a wode bedi dwuma anaasɛ wode bɛba sɛ account foforɔ. Ɛdenam wo kokoam safe a wobɛkɔ so adi so no so no, wokura w’agyapade so tumi koraa, na wohwɛ hu sɛ wowɔ wo dea, ahobammɔ ne asomdwoe wɔ w’adwene mu.
+# Ahotɔ ne Asɛyɛde
 
-# Ahobammɔ ne Asɛyɛde
+It is crucial for users to understand the risks involved in dealing with private keys and to keep these keys protected from unauthorized access. The security of funds depends on the user's responsibility to safeguard their private keys.
 
-Ɛho hia sɛ wɔn a wɔde di dwuma no te asiane ahorow a ɛwɔ kokoam safe ho dwuma a wodi mu no ase na wɔbɔ saa nsafe yi ho ban na obiara amma ho kwan. Sika a ahobammɔ wom no gyina asɛyɛde a nea ɔde di dwuma no wɔ sɛ ɔbɔ wɔn kokoam safe ho ban so.
+## Legacy shielded funds: Sprout, Sapling and Orchard
 
-> **Ansa na wobɛhyɛ aseɛ:** recovery guides a wɔde kyerɛ Ywallet. Nea ɔyɛɛ no ​​no asi so dua sɛ wɔrennyɛ no foforo mma Ironwood (NU6.3) network upgrade no, enti entumi nni nkɔnsɔnkɔnsɔn no akyi bio. Fa **Zkool** di dwuma, a ɛyɛ developer koro no ara na ɛyɛ adedifo a wɔhwɛ so. Hwɛ [Wɔnhwɛ Ywallet so bio](#ywallet-is-no-longer-maintained) wɔ kratafa yi ase.
+Ɛho hia sɛ wɔde ZEC a wɔabɔ ho ban dada no sesa mu ma ɛyɛ ɔsan fa.Ɛnam kwan so na ɛbɛgyina baabi a wɔn akorae bi hyɛ ne nsa seesei de sika no sie hɔ.
 
-## Sika a Wɔsan Yɛ ne Zkool
+> ** NU7 yɛ nhyehyɛe ma November 5, 2026.** Sɛ ɛyɛ adwuma a, mprenpren akwantuo no fi Sprout pool dedaw mu bɛ gyae adwumayɛ.
+>
+> Sɛ w'anya ZEC wɔ Sprout no mu a, fa di dwuma ansa na woayi no. Woyɛ saa wie a, nnwinnade bi ntumi mfa sika nkɔ Sapling so bio, anaa baabi foforo biara.
+>
+> Sɛ worehwɛ saa kratafa yi akyi a NU7 ayɛ adwuma no, *Sprout yɛ nea wɔayi asi hɔ ama ne ho so de kosi sɛ daakye ɔkwan bi bɛsɔ mu bio. Ɛnnso wɔnhwɛ kwan seesei.
 
-[Zkool](https://github.com/hhanh00/zkool2/releases) yɛ Ywallet adedifoɔ, a ɛfiri developer korɔ no ara mu, na ɛboa transparent ne shielded recovery nyinaa.
+## Mmuae no wɔ kratafa biako mu.
 
-Wɔaka tebea abien ho asɛm wɔ ha:
+Wo sika no wɔ akwantuo kwan so. Deɛ ɛsɛsɛ woyɛ: Wode wo ho hyɛ agyapadeɛ a w'atumi de adi dwuma mu, na wode to hɔ ma wɔn sɛ wɔmfa nyɛ adwuma bio.
+| --- | --- | --- |
+**Sprout**. **Spout → Sapling → Ironwood** Sɛ wowɔ bi a, fa wo ho ma no na yɛ saa wɔ ha: `wallet.dat` Sɛ Argos nyɛ papa a, fa sidecar akwantuo no di dwuma wɔ nsase so akwankyerɛ mu. Sprout bɛhia sɛ ɔsi fam kan wɔ Sapling ansa na watumi akɔ Ironwood. Saa kwan yi yɛ bere-a ɛhwehwɛ nti esiane NU7 nti".
+**Sapling**. **Sappling → Ironwood**: Enni Sprout recovery environment ho hia. Fa wallet a ɛwɔ hɔ seesei no di dwuma na etumi nya wo Sapling account pɔtee bi anaa ɛtumi tu kɔ ne so ma ɛyɛ adwuma wɔ Ironwood mu. Ironwood mmoa nko ara nkyerɛ sɛ ɔwɔ tete-Saplin recovery support.
+**Orchard**. **Orc → Ironwood** Orchard yɛ exit-only. Fa mfoni a ɛne no di nsɛ wɔ abɛɛfo akwantuo mu fa so kɔ "Occ" hɔ kɔ "Ironwood". Hwɛ: [Sika a wɔgye fii wɔn nsam ne Ironwood pool no](#recovered-funds-and-the-ironwood-pool). |
 
-1. **Akontaabuo a wobɛsan de aba** afiri aba kasasin, kokoam safoa, anaa hwɛ safoa mu
-2. **Sweeping funds** fi sika kotoku a na ɛboa address ahorow a ɛda adi nkutoo da biara
+### Nsԑmmisa anum ho gyinaesi mu a ԑkyerԑ sԑ w'adi kan asesa.
 
-### 1) Akontaabu bi a wɔbɛsan de aba
+1. **Is it Sprout?** A seed phrase alone points to a later Sapling/Orchard-era recovery path, not Sprout. A `zc...` address, anaa wallet a wɔasan de asi hɔ na ɛkyerɛ sɛ Sprout sika no da so ara hyɛ ne nsa.
+2. *Deɛ ɛwɔ wo ho a wobɛtumi de ayɛ no, hwɛ sɛ ɛmmoro so anaa.* `wallet.dat`, a old computer or datadir, an' no ne ho so. `z_exportwallet` backup, anaa exported Sprout spending key. A `zc...` address nko ara nnɔɔso.
+3. ** Argos anaa agyapade no akyi kar?** Sɛ wowɔ bi a, ma me nkyerɛ wo. `wallet.dat` anaa kwan a wofa so de sika di dwuma ma no, na wopɛ sɛ w'ayi ntoboa adi kɛkɛ. Bɔ mmɔden hwɛ: [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) Nea edi kan: Fa ɔkwan a wɔfa so de fa mmirika no kɔ akyiri na ɛyɛ akwankyerԑ ma adwuma, sε Argos ntumi nni dwuma anaa w'apɛsɛ sɛ wo ankasa di nneɛma nyinaa ho dwuma.
+4. ** Wo wɔ zcashd datadir a w'ayi no asi hɔ dedaw?** Eyi ho hia ma sidecar akwantuo. Twerɛ node data bi kɛkɛ ansa na woatumi atu afiri mu; anyɛ saa de, field guide no ka snapshot/from-scratch options no ho asɛm.
+5. Faako na sika no kɔ? * Ironwood* Sprout di kan fa Sapling ho efisɛ ɛnni nhyehyɛe baako a efi Sprout de ba Ironwood. Nnyae wo ho wɔ Sapling hɔ.
 
-1. Fa Zkool hyɛ mu fi [yi kratafa no adi](https://github.com/hhanh00/zkool2/releases) na bue mu
-2. Wɔ **Akontaabu sohwɛfo** (kratafa titiriw no) so no, pia **+** bɔtn no na du **Akontaabu Foforo** screen no so
-3. Hyehyɛ **Akontaabu Din** na kyerɛ akonta yi
-4. Dane **San Fa Akontaabu no Ba?**. Eyi da safe ne awo tenten mfuw adi
-5. Fa wo safoa no hyɛ **Key (Seed Phrase, Private Key, anaa Viewing Key)** mu. Zkool gye aba kasasin, Sapling kokoam safoa, safoa a wɔatrɛw mu a ɛda adi pefee, anaa safe a wɔde hwɛ nneɛma tom
-6. Hyehyɛ **Birth Height** sɛ wunim bɛyɛ bere a wodii kan de sika kotoku no dii dwuma a. Eyi kyerɛ Zkool baabi a ɛsɛ sɛ ofi ase scan, na ɛma ɛkora bere pii so
+### ZEC Pool Nkrataa a Ɛkyerɛ Nsesaeɛ Afa Ɔman no Ho
+
+Sɛ wopɛ sɛ wuhu akwan a wɔfa so nya ahobanbɔ no nyinaa, ɛne kwan pɔtee a wɔde kɔ ayaresa mu, akwankyerɛ ahorow, akatua, hardware ahiadeɛ, ahonim ho nsɛm, ɔhaw ano aduru ne baabi a wofi ba no, kenkan ɔfã biara.
+
+**Nsɛm a wɔato din 1.1 · Wɔasan de no aba so September 18, 2026**
+
+[Kenkan ZEC Pool Migration Field Guide no nyinaa wɔ ZecHub mu.](/research/zec-pool-migration/view)
+
+> Ansa na wo bɛfiri ase: di kan hu nea wore san agye ne nneɛma a wode asesa no. W'ahwɛ so seesei sɛ woboa anaa wontua sika wɔ ɔkwan foforo biara so, ebia wobɛhia biribi foforɔ kɛkɛ de asan akyekyere mu. Nneɛma bi te sɛ ZecWallet Lite seed, deɛ wɔde awoɔ akyɛmu ayɛ ama obi a ɔretua ka pii ho aka nsɛm bebree akyerɛ wɔn a wɔwɔ hɔ nnɛ no. `wallet.dat`, anaa nea ne ho yɛ den a ɔtumi de sika di dwuma wɔ Sapling anaasɛ Sprout  mu no betumi ahwehwɛ ɔkwan soronko bi.
+>
+> Sԑ wosusuw sԑ sika no te ase a, ma y'ahunu sɛ wo da so ara wɔ tumi de tua ka ansa na wode bere asiesie. `zc...` address anaa nneɛma a wohwɛ no nkutoo nnɔɔso sɛ wode sika bɛtwe.
+>
+> **YWallet no longer supports Zcash after Ironwood.** Use **Zkool** for ordinary non-Sprout restores from supported seeds and keys. Use **Argos** for ZecWallet Lite recovery, legacy wallet files, and standalone Sapling/Sprout spending keys. For Sprout, Argos is the first route to try; the full field guide covers the legacy sidecar fallback.
+>
+> Fa nea w'anya ankasa no di dwuma wɔ ɔfã a edi so yi mu, na ɛnyɛ adeyɛ de ayiyi bi a wokae sɛ wode dii dwuma.
+
+Wowɔ... Fi ase wɔ ha.
+| --- | --- |
+ Nkyerεmu a εfa nsusude ho anaa yεε no so **non-Sprout spending key** firi sika nkataho bi a w'ayi adi dada, ne nea YWallet Zcash dwumadie dedaw mu. [Zkool](#fund-recovery-with-zkool) |
+A **view key only**. Zkool betumi de view keys a wɔtaa so ama akenkan nko ara, nanso w'entumi mma kwan sɛ wobɛgye sika no adi. Hwehwɛ abere anaa kabea kͻkͻm bi.
+Nsɛmfua 24 a wɔde yɛ **ZecWallet Lite** aba no. [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+A ZecWallet Lite anaa zcashd `wallet.dat`, anaa ɔkwampa a wo de bɛtua Sapling/Sprout ka no. [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Fi September 18, 2026, v1.3.0 na yԑde bεto dwa; fa v1.2.0 anaa nea ԑkyir so ma no. `wallet.dat` ne Sprout recovery. Nneɛma a ɛboa ma wonya nkɔso
+ Wopɛ sɛ wo ara wode w'ani to fam na wote nka sԑ ԑyԑ nea wobɛtumi de adi dwuma, anaa wobɛsan asiesie no a anka ɛsɛsɛ wototo nneɛma dedaw ho. fa ɔkwan foforo so wɔ "Argos" mu ma yƐn ankasa tumi di kan hu ne nyinaa. [afuw mu akwankyerε nyinaa](/research/zec-pool-migration/view). |
+Ԑnyɛ adwuma aba anaa ɛbɔ a wɔde bɔ ka, nanso afiri bi wɔ hɔ a wahintaw no, wo werɛ afi password no, anaasɛ diski no ayɛ basaa. [Adwumakuo a wɔgye wɔn ho fi adwuma mu](#professional-recovery-when-you-do-not-have-the-seed). Mma obi a ɔnnhwehwɛ wo nsa mfa adwuma aba anaa kabea nkrataa nkɔma no da.
+
+## Sika a wo nsa bɛka wɔ Zkool ho no
+
+[Zkool](https://github.com/hhanh00/zkool2/releases) Zcash yɛ nea ɔdi YWallet akyi a ne developer no ara na ɔyɛ. Ɔboa ma wɔtumi nya nneɛma bi, ebi nso ne Sapling keys nanso ɛnyɛ Sprout.
+
+Nsɛm mmienu na yɛreka ho asɛm wɔ ha:
+
+1. **Sane account** firi seed phrase, private key anaa viewing key so
+2. **Sweeping funds** afi sika kotoku a daa na ɛboa address ahorow a emu da hɔ nkutoo so
+
+### 1) Dwumadi no a wobɛma so aba foforo
+
+1. Fa Zkool firi afidie no so si hɔ. [nkrataa a wɔtintim no kratafa](https://github.com/hhanh00/zkool2/releases) na bue no
+2. Wɔ **Account Manager** (ɔmanfofidie) so no, mia button a ɛkyerɛ sɛ woahyehyɛ akaw foforo bi.
+3. Fa **Account Name** hyɛ aseɛ na hu saa account yi.
+4. SƐ W'ayi wͻn adi no, na wo de wei ato dwa a, wobɛtumi ahu ne abodin ɛne n'awoɔ tenten.
+5. Fa wo key no to **Key (Seed Phrase, Private Key, or Viewing Key) mu. Zkool gye seed phrases, Sapling secret keys, transparent extended keys ne viewing keys a wɔboa ma wɔde yɛ adwuma. A view key yɛ nea wotumi kenkan nko ara na wontumi mma kwan sɛ wode bɛsɛe sika bi.
+6. Fa **Birth Height** ma account dada no. Zkool nsane blocks ansa na saa height yi aba, enti fa ho a ɛnni kan wɔ wo wallet dwumadie mu sε wonhu nea εyε ntia. Wo de ne tenten asi hɔ akyiri dodo betumi ama asesae ankasa ayera.
 
 ![Zkool New Account screen with Restore Account and Advanced Options both turned on](/content-images/zkool-restore-account-60b1d2777e.webp)
 
-> **No birth height?** Gyae no kwa na si kɔkɔbɔ no so dua. Zkool bɛ scan fi nkɔnsɔnkɔnsɔn no mfiase, a ɛyɛ brɛoo nanso ɛrempa biribiara. Sɛ wo sika no di Sapling upgrade a ɛbaa October 2018 anim a, gyaw no kwa sen sɛ wobɛsusu sɛ ɛbɛkɔ akyiri akyiri yi, anyɛ saa a scan no betumi ahuru wo nnwuma no koraa.
+7. Kyekyɛ account no, na afei sync no
 
-7. Fa akontaabu no sie, afei fa yɛ sync
+### Ɔbaako firi sika kotoku foforo mu resane de aba no asi hɔ bio
 
-### Aba bi a wɔsan de fi sika kotoku foforo mu ba
+Sɛ nkura no fi sika kotoku a edi ZIP 316 akyi  ka ho ne ZODL (a kan no na wɔfrɛ no Zashi), Zingo, anaa zcashd  ma **Advanced Options** so na fa kwan ma **Use Internal Change** ansa na woagye.
 
-Sɛ aba no fi sika kotoku foforo mu na nea aka no hwɛ sɛ ɛnteɛ wɔ syncing akyi a, nsakrae address derivation no taa yɛ nea enti a ɛte saa.
+ZIP 316 de adansedie a ɛwɔ mu/asesa no yɛ adwuma. Sɛ wode saa nkonta yi baako si hɔ na woannya **Use Internal Change** aa, ebetumi ama ayɛ te sɛ nea sika biara nni ho mpo nanso wɔda so ara kura ne fa bi.
 
-Dane **Advanced Options** switch no, kɔ akyiri kɔ New Account screen koro no ara so, na dane **Use Internal Change** ansa na wode asie.
+Nsase foforo mmienu na ɛwɔ **Advanced Options**:
 
-Ɛnyɛ sika kotoku nyinaa nnya nsakrae address wɔ ɔkwan koro so. ZODL aba bi a wobɛsan de aba Zkool mu a nhyehyeɛ yi nka ho no bɛtumi akyerɛ sɛ ɛkari pɛ a ɛyera wo nsakraeɛ nkrataa, a ɛte sɛ sika a ayera nanso ɛnte saa. Zkool adwinnade a ɔde ma switch no da so ara kyerɛ Zashi, a ɛno ne nea na wɔfrɛ ZODL kan no.
+- ** Extra Passphrase (ntumi nsiw)**, sɛ mfoni kotoku a edi kan no de baako na ɛfaa so aa.
+- **Account Index**, sε mfidie a w'ayi no adi kan de aka nkonta pii wɔ aba koro so. Sika betumi abͻ index soronko bi ase
 
-Mfuw abien foforo te **Advanced Options** ase:
+> **Saa mmienu yi da adi bere a aba bi wɔ Key afedie no mu.** Sɛ mfidie no nni hwee, anaa wo kura private key anaasɛ wokura viewing key a, Zkool kyerɛ sɛ fa Internal Change na H/W Ledger di dwuma. Fa aba no to hɔ kan ansa na woabue Advanced Options.
 
-- **Extra Passphrase (optional)**, sɛ mfitiase sika kotoku no de bi dii dwuma nkutoo a
-- **Account Index**, sɛ mfitiase sika kotoku no kura akontaabu pii wɔ aba biako so a. Ebia sika no wɔ index soronko bi ase
+### 2) Sika a woayi afi sika kotoku bi mu no, w'atumi ahu ne nyinaa wɔ hɔ.
 
-> **Saa mmienu yi pue pɛnkoro pɛ bere a aba kasasin a ɛfata wɔ Key field no mu.** Sɛ afuw no da mpan, anaasɛ wokura kokoam anaa hwɛ safoa a, Zkool kyerɛ **Fa Internal Change** ne **H/W Ledger** kɛkɛ. Di kan fa aba no hyɛ mu, afei bue Advanced Options.
+Sɛ na sika krataa anaa account a atwam no yɛ ZEC nko ara, san fa saa ka no bio di dwuma ma obiara hu address biara a wode adi dwuma wɔ ɔkwan so a ɛnnyɛ den, afei twe wo sika kɔ baabi foforo. Mma w'adwene nsi sɛ akyɛm nkrataa mpɛtee bi da hɔ daa; nneɛma binom de mmoa a ɛyɛ nnam kaa ho wɔ akyiri yi nkyerɛase mu.
 
-### 2) Sika a Wɔpopa Fi Sikakorabea a Ɛda Nneɛma Mu Nkutoo Mu
+1. Fa akwan a ɛwɔ soro no so san fa account no si hɔ
+2. bue account no na kɔ **Receive Funds** kratafa so.
+3. Wɔmfa adansedie a ɛsakra, te sɛ Ledger ne Exodus no yɛ akwantuo pii wɔ abodin baako mu na eyi ma wɔn nsa ka sika ahorow.
+4. **Sete na sync account no akyiri yi.** Adesamma a wohuu wɔn foforo no bɛgye wɔn sika wɔ scan foforɔ mu, enti sɛ wompɛ wei aa ɛbɛte sε nea wonhu hwee.
+5. Kɔ w'abodin no so na fa ahyɛnsode mmiɛnsa yi to hɔ. Wonni text label, enti hover anaa long press hwɛ wɔn din:
+   - **Shield One** (ɛkyerɛ ɔfasuo) twe address baako a ani tua bere biara mu
+   - **Shield All** (ɔfasuo a ɛyɛ den) twe biribiara fi baabiara wɔ bere koro mu
+   - **Wɔn a wɔantoto wɔn ho ban no nyinaa** (n'abankɛseɛ a abue) kɔ ɔkwan foforo so, akɔ baabi a emu da hɔ ma obiara hu.
 
-Sɛ wo sika wɔ sika kotoku a ɛnboaa address ahorow a wɔabɔ ho ban da (Trust, Coinomi, Guarda ne nea ɛtete saa) mu a, di kan san fa akontaabu no ba, afei fa sika no kɔ ɔtare a wɔabɔ ho ban no mu.
+> *Shield One yɛ ade a ɛtaa fa nnipa ho.** Sɛ wode address bebree sie wɔ dwumadie baako mu a, ɛma obiara hu sɛ ɛyɛ obi koro dea. Zkool ankasa bɔ kɔkɔ ansa na ɔde Shield All adi dwuma no.
 
-1. Fa anammɔn a ɛwɔ atifi hɔ no san fa akontaabu no ba
-2. Bue akontaabu no na kɔ **Gye Sika** krataafa no so
-3. Klik magnifying glass a ɛwɔ soro bar no so (**Hwehwɛ address afoforo a ɛda adi**). Sika kotoku a ɛkyinkyin address ahorow te sɛ Ledger ne Exodus no ma wonya address ahorow pii a ɛda adi pefee fi aba biako mu, na eyi hu wɔn a wokura sika
-4. **Reset na sync account no akyi.** Address foforo a wɔahu no gye wɔn balances nkutoo wɔ scan a edi hɔ no mu, enti sɛ wohuw eyi a, ɛma ɛyɛ te sɛ nea sweep no anhu hwee
-5. Kɔ **Send** krataafa no so. Bɛn balance no wubehu icon buttons abiɛsa. Wɔn nni nkyerɛwee nkyerɛwde biara, enti fa wo nsa hyɛ wo nsa anaa mia so tenten na wubehu wɔn din:
-   - **Shield One** (kyɛm a wɔakyerɛkyerɛ mu) tu address biako a ɛda adi pefee bere koro mu
-   - **Shield All** (solid shield) de biribiara fi address biara a ɛda adi pefee so prɛko pɛ
-   - **Unshield All** (bue padlock) kɔ ɔkwan foforo so, kɔ address a ɛda adi mu
+6. Hwɛ adwuma no na fa to hɔ.
 
-> **Shield One yɛ kokoam paw.** Address pii a wobɛbɔ ho ban wɔ asɛm biako mu no de bata ho wɔ baguam sɛ ɛyɛ onipa koro dea. Zkool bɔ kɔkɔ wɔ eyi ankasa ho ansa na watu mmirika Shield All.
+Unshield All yɛ adepa bere a woreyi wo sika wɔ sikakorabea bi so na wogye adrɛs ahodoɔ nko ara. Adwumayɛfoɔ no bɔ wɔn ho ban, nanso sɛ account no kura address a ɛbɔ ne ho ban nkutoo a, ɛnna unshield all nso ba saa aberɛ yi mu.
 
-6. Hwɛ asɛm no mu na fa mena
+## ZecWallet Lite ne agyapadeɛ a wɔde yɛ sika nkotoku ho adwuma wɔ Argos so no
 
-Unshield All ho wɔ mfaso bere a woretwe wo ho akɔ exchange a egye address a ɛda adi nkutoo nkutoo no. Sɛ akontaabu no wɔ address a wɔabɔ ho ban nkutoo a, shielding buttons no bɛda adi, na Unshield All no pue sɛ ɛwɔ nea ɛda adi nkutoo a.
+[ZecWallet Lite - Ɔfese a wɔhwɛ so ma kasa no mu nsɛm pii.](https://github.com/adityapk00/zecwallet-lite) Ne nsesaeԑ a' yεde firi ase no nte sε nea wɔde di dwuma seesei, enti sɛ wode saa asɛmfua koro yi ara kɔ abɛɛfo afidie mu a wobɛtumi ayera sika bi wɔ ZecWallet Lite nkrataafa foforo so. [Argos](https://argos.sovright.com), firi Sovright, yɛ ɔfese a wɔ siesie no ma saa dwumadie yi ne afoforo.
 
-## Sika a wɔsan nyae ne Ironwood ɔtare no
+Argos kenkan ZecWallet Lite nkura ne sika kotoku mu nsɛm, zcashd `wallet.dat`, standalone Sapling extended spending keys, and Sprout spending material. For Sprout, a ZecWallet Lite seed alone is not enough because those keys were generated separately. Argos is a recovery tool, not a day-to-day wallet: inspect the source material locally, scan, then sweep into a maintained wallet you control.
 
-Efi bere a Ironwood (NU6.3) upgrade no yɛɛ adwuma wɔ 28 July 2026 no, Orchard pool no yɛ nea wɔsɛe no nkutoo. Botae foforo biara ntumi nkɔ mu, na bo a ɛwɔ hɔ dedaw no fa turnstile no mu kɔ Ironwood.
+Ɔman a wɔtɔ so mmienu tumi gyina hɔ ma: [wɔhwɛ wɔn so](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) Agyede a wontua no kwa, na wobetumi de ato Sovright so wɔ bere a wɔreyɛ nhwehwɛmu.
 
-Sɛ wo sika a woasan anya no wɔ Orchard a, ɛho behia sɛ wotu kɔtra mmeae foforo ansa na wɔayɛ wɔn ade sɛnea ɛsɛ. Bue akontaabu menu no na paw **Hyɛ no nsow sɛ wotu kɔ baabi foforo**. Option no da adi bere a biribi wɔ hɔ ankasa a ɛsɛ sɛ wotu kɔ baabi foforo nkutoo.
+> **Mfa aba nni wɛbsaet bi mu da.** Argos wɛbsait no yɛ download ne the web site. [ɔhwɛfoɔ akwankyerεmu](https://argos.sovright.com/guide.html). Nsa no gyina ɔfese a woagye ato mu wɔ kɔmputa so. Yԑn ankasa ne BIP-39 checksum yε nhyehyεεfoͻ. Wᴐde nkransem bƆto dwa bere a scan fii ase. Obiara a bƐsrɛ saa nkrasɛm yi "boa ma w'atumi ayera sika" ԑne wo adi nkutahoɔ.
 
-Wɔato screen no din **Orchard to Ironwood Migration** na ɛkɔ so wɔ akwan abien so. Nea edi kan no ɛkyekyɛ nkyerɛwde a ɛnyɛ nea wɔahyɛ da ayɛ mu ma ɛyɛ asɔre ahorow a wɔahyɛ da ayɛ, afei ɛde saa nkyerɛwde no tu mmiako mmiako. **Migration Speed** yɛ slider a ɛfiri Ultra Fast kɔ Slow a ɛde random delay a ɛda anammɔn ntam no si hɔ. **Start Migration** yɛ staged process no wɔ akyi, na wobɛtumi ato krataafa no mu na woasan ahyɛ aseɛ akyiri yi. **One Shot** yɛ no wɔ pass biako mu.
+### Ansa na wobɛbue Argos no,
 
-Anamɔn biara yɛ n’ankasa asɛm, enti emu biara tua ka.
+1. Twe desktop app no firi " [Argos beae a wɔagye din no](https://argos.sovright.com) anaa wɔ [GitHub de krataa a ɛretwe kɔma wɔn no adi dwuma.](https://github.com/sovright/argos/releases).Sɔ hwɛ sɛ wɔadi nkrataa no nyinaa anaa wɔn nsa ano nkyerɛwee so bere a wɔreyi adi.
+2. Fa Argos a w'adi no seesei. Efi Ɔpɛnimma 18, 2026, **v1.3.0** na ɛwɔ hɔ, ne nea ɛyɛ papa sen biara. Fa **v2.0 anaa deɛ ɛboro saa di dwuma ma `wallet.dat` ne Sprout recovery**. Nkorabata a w'adi kan sen 1.1.0 no betumi ayɛ scan nanso asiesie Ironwood ho nsesae bi a network no po; update na bɔ mmɔden bio.
+3. Yɛ adwuma wɔ afidie a w'agye no adi so. Fa disk nyinaa encryption di dwuma. Nkyekyɛ screen bere a aba, passwordphrase anaa sika ano nsaano mfoni da hɔ yi.
+4. Ma baabi a wo bɛ kɔ Unified Address no nsiesiee afiri wallet bi a w'ɔhwɛ so, te sɛ: [ZODL](https://zodl.app/)Hyɛ adrɛs a ɛwɔ sika kotoku no mu ansa na woahyehyɛ wɔ Argos.
 
-> **Migration amounts are public.** Sɛ botae no twa turnstile no a, dodow no ne block no sorokɔ da adi wɔ nkɔnsɔnkɔnsɔn so, ɛwom mpo sɛ nea ɔde kɔma ne nea ogye no tra hɔ a wɔabɔ wɔn ho ban de. Dodow soronko betumi akyerɛ wo, enti pɛ staged migration wɔ ahoɔhare a ɛyɛ brɛoo sen shot biako, na susuw ho sɛ wobɛfa Tor anaa VPN so kan na wo IP address no ne dodow a woatu no nni abusuabɔ.
+### Aba a wɔsan fa so ma bio no
 
-## Deep Recovery ne ZExCavator
+1. bue Argos na yi **Mewɔ nsɛmfua 24 a metumi de adi dwuma**. Nkrataafa krataa ho nhia ma ntetee mu nsakrae biara.
+2. Fa asɛm no to hɔ na mia **Validate seed**. Sɛ ɛka sɛ aba no yɛ papa a, kɔ so.
+3. Fa bere a wɔwoo no to hɔ, anaa sɛ wohwɛ mu yiye na wode ato baabi. Ɛho yɛ mmerɛ nanso ɛyɛ hu sen sɛ wobɛka akyire dodo.
+4. Wͻ server controls no ase, fa current-server preset no di dwuma anaa hyehyɛ lightwalletd URL. Wɔde ntwehwe mu atetew URL ahorow a w'asɔ ahwɛ wɔ ne nhyehyɛeɛ ho. Nhwɛso ahodoɔ:
 
-[ZExCavator na ɛyɛ adwuma](https://github.com/zingolabs/zexcavator) yɛ adwinnade a wɔde san nya fi Zingo Labs ma nsɛm a sanba a ɛyɛ daa no ntumi nyɛ adwuma, te sɛ sika kotoku fael a asɛe anaa ne fã bi.
+   `https://zec.rocks:443,https://zec-node.cakewallet.com:443,https://na.zec.rocks:443`
 
-> Ne update a etwa to no di nnansa yi network upgrades no anim, enti fa no sɛ ɔkwan a etwa to na hwɛ sɛ safe biara a wɔasan anya wɔ wallet a wɔahwɛ so no mu ansa na wode wo ho ato nea ebefi mu aba no so.
+5. Fa baabi a wɔde wɔn bɛkɔ no Unified Address.
+6. Klik **start scan**. Eyi betumi agye simma anaa nna kakra, a egyina awoda tenten so. Wubetumi agyae na woasan abue adwuma no mu bio; wɔsan yɛ nhwehwɛmu no bio.
+7. Sɛ wɔwie hwehwɛ no wie a, hwɛ nkaeemu ahorow no, kabea ho ntotoho ne baabi a woakɔ, na afei mia **sweep**.
 
-## Wɔnhwɛ Ywallet so bio
+Sɛ wo twe obi a, w'antumi annya no bio. Fa mfoni kotoku kan de sie kosi sɛ wobɛtwe nea ehia biara na sika a wɔhwɛ kwan aba ɔfese foforo so. Bere a woanya awieɛ wie pɛ, yi ahintasɛm dedaw fi hɔ sen sɛ wobɛkɔ so adi dwuma ama adwuma foforɔ bi.
 
-Na Ywallet yɛ adwinnade a wɔkamfo kyerɛe sɛ wɔmfa nnya ahoɔden bio wɔ kratafa yi so bere tenten, na akwankyerɛfo dedaw pii da so ara twe adwene si so.
+### Adaka mu nkrataa ne abodin a ɛda hɔ ma no
 
-Nea ɔyɛɛ no ​​no asi so dua sɛ wɔrennyɛ no foforo mma Ironwood. Sika kotoku a ɛnfoa mprempren mmara a wɔpene so no ntumi nsi nnwuma a ɛfata, enti wontumi mfa nni dwuma bio mfa nkɔfa sika a wɔasan anya no nkɔ baabi foforo. **Zkool**, a ɔdebɔfoɔ korɔ no ara na ɔyɛeɛ, ne nea wɔahwɛ so a ɛdi akyire na ɛyɛ deɛ krataafa yi de di dwuma seesei.
+Wɔ welcome screen no so, **Mewɔ wallet file** kata ZecWallet Lite file bi so, a zcashd `wallet.dat`, or standalone Sapling extended spending keys. Standalone Sprout spending-key recovery is handled by Argos's Sprout recovery path/CLI.
 
-Sɛ wowɔ sika a ɛte Ywallet dedaw a, san fa aba kasasin koro no ara kɔ Zkool mu denam anammɔn a ɛwɔ atifi hɔ no so.
+Argos kenkan nkrataa a ɛwɔ wo korabea mu no, na w'ansesa. Sɛ wokorɔkorɔ korakora wɔ sika krataa so a, fa password phrase no to hɔ bere a wobisa; wɔde di dwuma wɔ nkae mu na wɔnkyerɛw mfa nkɔ disk so. Hwɛ transparent, Sapling ne Sprout key counts ansa na woafi scan ase.
 
-## Nkratafa a ɛfa ho
+Wontumi nnye ɔhwεfo nkyerԑwde mma nhwehwԑmu mu, efisԑ wontumi mfa ho nto gua.
 
-- [Sika kotoku](/using-zcash/wallets) - a wode sika kotokuo a wodi so ne won Ironwood ahoboa
-- [Dade dua](/zcash-tech/ironwood) - dee upgrade no sesae ne nea enti a sika tu tu
-- [Memos a wɔde kyerɛw nsɛm](/using-zcash/memos) - sedee encrypted memos y adwuma
-- [Nneɛma a Wɔde Hwɛ](/zcash-tech/viewing-keys) - akenkan nkoaa kwan a wonnye tumi
+### Nsuo a ɛwo no ho nsensanee
+
+ZecWallet Lite aba no ntumi mma wɔnnya Sprout nsafoa. Saa nsafoaa yi wɔ hɔ ma obiara a ɔfa ho. Nya sprout fi zcashd mu `wallet.dat`, anaa efi ɔfã biara a' wɔn ntwerɔ no wɔ CLI mu.
+
+If the file already has spendable note data and a cached witness, Argos can offer **Sweep Sprout funds** without a chain scan. Otherwise it can run a resumable full-block scan over the P2P network. That scan is large and slow. The checkpoint it writes is spend-capable, so protect it like the original wallet.
+
+Sɛ wo nsa ka sika a, fa kɔ Ironwood so na ma w'ahwɛ sɛ ne nyinaa wɔ hɔ. Nnyae Sapling mu da!
+
+## Sika a wɔgye fii wɔn nsam ne Ironwood pool no
+
+Efi Ironwood (NU6.3) upgrade a wɔde dii dwuma wɔ July 28, 2026 no, Orchard pool yɛ nea wotumi de sika to mu nkutoo. Ɛnsɛ sɛ wode biribi foforo kɔ hɔ na mmom wofa nneɛma bi a ɛwɔ hɔ ma ɛkɔ Ironwood so.
+
+If your recovered funds are in Orchard, move them to Ironwood using a **current wallet's built-in migration flow**. Orchard is exit-only after NU6.3.
+
+Zkool 6.30.0 yɛ nea ɛwɔ hɔ fi September 18, 2026 na ɛboa Ironwood. N'abrabɔ ho nhyehyɛeɛ no fa ahobammɔ ho nanso ɛnyɛ ade koro a ɛne sɛ ɔreka sɛ ne nyinaa di dwuma wɔ ZIP 318 mu. Sika nkotoku afoforo betumi de sika kɔkɔɔ akɔhyɛ adwuma ase wɔ akwan horow so, sɛnea wɔde kasa firi aseɛ kyerɛ no. Di wo korabea sikakorabea foforo bi sesaa akyi hwɛ ma ɛnsiane anaa nhyehyɛe biara nni hɔ. Wode w'ahyehyɛde yi adi kan bɔ ka biribi pɔtee ansa na wode to gua.
+
+Ahyεase a wɔto so nkakrankakra betumi de nnwumakuo bebree adi dwuma, enti akatua no nyinaa tumi boro nea wɔde di dwuma prɛko.
+
+> **Nneɛma a w'atwe no ho yɛ baguam.** Sɛ ɛmu bi kɔ ɔdan mu, ne dodoɔ ne ntramu tenten wɔ chain so mpo sɛ nea ɔde asendefoɔ na ogyefo hyɛ ban. Fa wallet no built-in private/staged migration policy di dwuma bere a ahobammɔ hia wo, na fa network level ahosuo te sε Tor anaa obi foforɔ de gye tom privacy layer baabi a ɛfata. Network ahosɔ betumi akata wo IP link; ɛnkata badwam akwantuo bo no.
+
+## Deep Recovery a ZExCavator yɛ no so
+
+[ZExCavator (Ɔkwan a wɔfa so yi)](https://github.com/zingolabs/zexcavator) Zingo Labs recovery project a yɛreyɛ adwuma wɔ mu no, seesei de n'ani da so ara si ZecWallet Lite wallet files ne wallet-format migration. N'adansedie ma wɔn a wɔde sika gye nkwa kɔ **Zingolib** export option hɔ bere a wɔreyi ntoboa pa ama ZeWIF nyinaa.
+
+Susuw ho sɛ abɛɛfo/abɛbuo-afidie sen sε w'adi kan asesa kwan no. Sɛ ZecWallet Lite nkura, sika krataa a wo de di dwuma wɔ akontaahyɛde so, zcashd `wallet.dat`Sԑ wofa akwankyerε a' yεde di dwuma, na wͻtaa de ahoma kכn so no ho asεm kyerε mu sεε Argos kan. Hwɛ biribiara a ZExCavator agye atoom wɔ ne wallet a εwᴐ hͻ ansa na wode w'ani bεto so.
+
+## Sɛ w'anya aba a, di ho dwuma yiye bere a wunni bi no.
+
+Sɛ nkura anaa nsafoa no yera a, wɔn ankasa ntumi nsiesie. Nnipa bi wɔ saa gyinabea yi mu de adwumakuo a wɔyɛ adwuma ma wɔde gye nsɛmfua firi kɔmputa so ne nea ɛyerae nyinaa to hɔ na ama wɔatumi ayɛ ho biribi.
+
+Saa kwan no nte sɛ nea wode bɛsan aba a wowɔ so. Mma obi mmfa aba bi a ɛyɛ adwuma mma obiara a ɔde "bɛba" ama wo. Adwumaden yi mu nnaadaa yɛ ade a ɛtaa ba.
+
+[Nkyekyere mu nsɛm a enni ano](https://unciphered.com) yɛ adwumakuo a wɔyɛ adwuma yi wɔ fie na wɔnyaa ho nsɛm pii te sɛ: [Ɔfese a wɔde ntayaa ayɛ no](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). They are a general crypto recovery service, not a Zcash-specific tool, and they charge for the work. ZecHub does not endorse any recovery firm. If you go this route, confirm the official domain yourself and assume anyone who DMs you first is a scammer.
+
+Sɛ wowɔ adwuma a, fa wo ankasa akwantuo so di kan te sɛ Zkool anaa Argos wɔ w'ankasa afidie no so.
+
+## YWallet no nni hɔ bio.
+
+YWallet yɛ mfidie a wɔtaa hyɛ ho nkuran ma wɔnya sika bio, na akwankyerεfoɔ dada no pii da so ara kyerɛ kwan.
+
+Ne developer se YWallet no nnyε Zcash boafo bio efiri Ironwood update na ɔkyerԑ kwan ma Zcash ntaafoɔ kɔ **Zkool**, ne nkyidifo a wɔhwɛ so. Ma y'atumi akura tete YWallat seed/key material nanso mma wontum mfa nsesa foforo mmfi zcash mu nkɔ YWallit hɔ.
+
+Sɛ wowɔ Zcash a w'atumi de agye afiri YWallet mu dedaw a, fa saa nneɛma yi san wɔ Zkool so denam kwan/nsaano akwan a ɛwɔ atifi hɔ no so.
+
+## Nkrataafa a ɛfa ho
+
+- [Adaka no mu nkotoku](/using-zcash/wallets) - nkotoku a w'ɔhwɛ so ne Ironwood ahobanbɔ, ɛne Argos no nso ka ho.
+- [Ironwood nnua a wɔde yɛ adwuma](/zcash-tech/ironwood) - nea upgrade no sesae ne deɛn nti na sika kɔ baabi foforɔ a, ɛnneɛ ɛhe na ɛde nkuro ba?
+- [Nsɛm a wɔka no bi](/using-zcash/memos) - sɛnea nkrataa a wɔde ahyɛnsode ayɛ yɛ adwuma no.
+- [Ɔhwɛfoɔ Nsaano Hwehwɛbea](/zcash-tech/viewing-keys) - nea wotumi kenkan nkutoo a wontua tumi so ka biara nni hɔ
+- [Lightwallet Nodes (Ɔkwan a wɔfa so de sika fa nneɛma mu)](/zcash-tech/lightwallet-nodes) - public lightwalletd endpoints Argos can use
+- [Argos user guide (Argos) dwumadie no mu nkyeresoɔ](https://argos.sovright.com/guide.html) - Official akwantu ho nsɛm fi Sovright hɔ.
+- [Naomi Brockwell wɔ nneɛma a wɔde siesie no ho.](https://x.com/naomibrockwell/status/2079146521405333526) - Argos akwankyerԑ ne krataafa a ɛfa adwuma mu ahobanbɔ ho.
