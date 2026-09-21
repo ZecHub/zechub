@@ -84,8 +84,12 @@ function maskCode(lines) {
 // GitHub's heading slugs: lowercase, punctuation dropped, spaces to hyphens.
 // GitHub keeps unicode letters and digits, drops other punctuation, maps
 // spaces to hyphens, and disambiguates a repeated heading with -1, -2, ...
-const slug = (h) => h.toLowerCase().trim()
-  .replace(/[^\p{L}\p{N}_\s-]/gu, "").replace(/\s+/g, "-");   // "_" survives: #snake_case
+const slug = (h) => h
+  .replace(/`([^`]*)`/g, "$1")                       // code span: the text counts
+  .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")          // link: the text counts
+  .toLowerCase().trim()
+  .replace(/[^\p{L}\p{N}_\s-]/gu, "")                // "_" survives: #snake_case
+  .replace(/ /g, "-");                               // EACH space: "A & B" -> "a--b"
 
 const headingCache = new Map();
 function anchorsOf(file) {
@@ -93,10 +97,15 @@ function anchorsOf(file) {
   let set = new Set();
   if (existsSync(file)) {
     const seen = new Map();
-    for (const l of readFileSync(file, "utf8").split("\n")) {
-      const m = l.match(/^#{1,6}\s+(.+?)\s*#*\s*$/);
+    const src = maskCode(readFileSync(file, "utf8").split("\n"));
+    for (let i = 0; i < src.length; i++) {
+      const l = src[i];
+      // ATX, or setext: a line of = or - underlining the previous one
+      const atx = l.match(/^#{1,6}\s+(.+?)\s*#*\s*$/);
+      const setext = /^(=+|-+)\s*$/.test(l) && src[i - 1]?.trim() && !/^#{1,6}\s/.test(src[i - 1]);
+      const m = atx ? atx[1] : setext ? src[i - 1].trim() : null;
       if (!m) continue;
-      const base = slug(m[1]);
+      const base = slug(m);
       const n = seen.get(base) ?? 0;
       seen.set(base, n + 1);
       set.add(n ? `${base}-${n}` : base);      // the 2nd "Overview" is #overview-1
@@ -191,7 +200,7 @@ for (const f of files) {
       // ":)" and ";-)" carry a ")" that is not closing anything. Counting them
       // cancelled the real "(" in "It means :) (see [x](url))." and the gate
       // reported that legitimate prose.
-      const prose = before.replace(/[:;=8]-?[)(]/g, "");
+      const prose = before.replace(/(^|\s)[:;=]-?[)(]/g, "$1");
       const unmatched = carried + (prose.match(/\(/g) || []).length - (prose.match(/\)/g) || []).length;
       if (after.startsWith(")") && unmatched <= 0)
         push(f, i + 1, close + 2, "stray-close-paren",
@@ -209,7 +218,7 @@ for (const f of files) {
       // "[repo](https://github.com/tailscale/tailscale)tailscale" is legal
       // markdown and was being flagged.
       const token = after.split(/\s/)[0] || "";
-      const debris = token.startsWith("(") ? token.replace(/^\(+/, "").replace(/[)\].,;:]+$/, "") : "";
+      const debris = /\)[.,;:]*$/.test(token) ? token.replace(/^[([]+/, "").replace(/[)\].,;:]+$/, "") : "";
       if (debris.length >= 5 && target.includes(debris))
         push(f, i + 1, close + 2, "url-debris",
              `"${token}" repeats part of the link target and renders as visible text. The link closes at the balanced paren — delete the repeat.`);
@@ -225,7 +234,7 @@ for (const f of files) {
       outsideLinks += line.slice(cut, open - 2);
       cut = close + 1;
     }
-    outsideLinks = (outsideLinks + line.slice(cut)).replace(/[:;=8]-?[)(]/g, "");
+    outsideLinks = (outsideLinks + line.slice(cut)).replace(/(^|\s)[:;=]-?[)(]/g, "$1");
     carried = Math.max(0, carried + (outsideLinks.match(/\(/g) || []).length - (outsideLinks.match(/\)/g) || []).length);
   });
 
@@ -281,7 +290,10 @@ for (const f of files) {
   const style = (t) => {
     const crlf = (t.match(/\r\n/g) || []).length;
     const lf = (t.match(/(?<!\r)\n/g) || []).length;
-    return crlf && lf ? "mixed" : crlf ? "CRLF" : "LF";
+    const pure = !crlf || !lf;
+    // Dominance as well as purity: a rewrite that normalises every line but
+    // one stays "mixed" on both sides and compared equal.
+    return `${crlf > lf ? "CRLF" : "LF"}${pure ? "" : "-mixed"}`;
   };
   // A file with no line ending at all — empty, or one line with no newline —
   // has no style. Calling that LF made "delete every line" an unfixable

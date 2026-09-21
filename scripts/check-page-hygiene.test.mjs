@@ -34,6 +34,10 @@ w("site/toc.md", "# T\n\n- [Installing](/site/target.md#installing-zcashd)\n- [S
 w("site/gone.md", "# G\n\n- [Old section](/site/target.md#removed-heading)\n");
 w("site/crlf.md", "# C\r\n\r\nA line.\r\n");
 w("site/mixed.md", "# M\r\none\n");                       // CRLF + LF from the start
+// 5 CRLF + 1 LF -> 5 LF + 1 CRLF: still "mixed" on both sides, but rewritten
+w("site/flip.md", "# P\r\n\r\nline\r\nline\r\nline\r\nlast\n");
+// a heading whose text is a link: GitHub slugs the TEXT
+w("site/linkhead.md", "# H\n\n- [O](#original-research-from-ann)\n\n## Original Research from [Ann](https://x.test/a)\n");
 w("site/samepage.md", "# S\n\n- [Setup](#setup)\n- [Usage](#usage)\n\n## Setup\n\n## Usage\n");
 w("site/kept.md", "# K\n\n- [Setup](#setup)\n\n## Setup\n\ntext\n");
 w("site/moved.md", "# V\n\n- [Old](#setup)\n\n## Setup\n\n## Usage\n");
@@ -41,6 +45,16 @@ w("site/clean.md", "# Clean\n\nSee [docs](https://example.org/a) here.\n");
 w("site/emptied.md", "# E\r\n\r\nsomething\r\n");        // CRLF, about to be emptied
 w("site/snake.md", "# S\n\n- [S](#snake_case-heading)\n\n## Snake_case heading\n");
 w("site/partial.md", "# P\n\n- [A](#alpha)\n- [B](#beta)\n\n## Alpha\n\n## Beta\n");
+// GitHub's slugger: each space becomes a hyphen, so "Tor & I2P" is #tor--i2p
+w("site/amp.md", "# A\n\n- [T](#tor--i2p-technologies)\n\n## Tor & I2P Technologies\n");
+// a "#" comment inside a fence is not a heading
+w("site/fencehead.md", "# F\n\n- [I](#install)\n\n```bash\n# install\nmake\n```\n");
+// setext underline
+w("site/setext.md", "# S\n\n- [U](#usage)\n\nUsage\n-----\n\ntext\n");
+// a real stray after a year ending in 8, which the emoticon strip ate
+w("site/year.md", "# Y\n\ntext\n");
+// a duplicated tail with no parens at all
+w("site/tail.md", "# T\n\ntext\n");
 w("site/renamed-old.md", "# R\r\n\r\ntext\r\n");
 w("site/target.txt", "plain\n");
 symlinkSync("target.txt", join(repo, "site/typechange.md"));   // mode 120000
@@ -106,6 +120,20 @@ const probes = {
   // a fence opened on a list-item line: its body must not be scanned, and it
   // must not latch and hide the defect after it
   "site/listfence.md": "# L\n\n- ~~~\n  [x](https://x.test/a))\n  ~~~\n\n# [T](https://x.test/b)) #\n",
+  // the anchor is dropped and the heading still exists — but only a slugger
+  // that keeps BOTH hyphens of "Tor & I2P" can see it
+  "site/amp.md": "# A\n\n- Tor and I2P\n\n## Tor & I2P Technologies\n",
+  // the anchor is dropped and "# install" lives only inside a shell block,
+  // so there is no heading and the drop is correct
+  "site/fencehead.md": "# F\n\n- Install\n\n```bash\n# install\nmake\n```\n",
+  // the anchor is dropped and the setext heading still exists
+  "site/setext.md": "# S\n\n- Usage\n\nUsage\n-----\n\ntext\n",
+  // "2018)" is not an emoticon: the stray after it is real
+  "site/year.md": "# Y\n\nZcash (founded in 2018) see [x](https://x.test/a%29)).\n",
+  "site/flip.md": "# P\n\nline\nline\nline\nlast\r\n",
+  "site/linkhead.md": "# H\n\n- Original research\n\n## Original Research from [Ann](https://x.test/a)\n",
+  // a duplicated URL tail with no leading paren still renders as junk
+  "site/tail.md": "# T\n\nSee [NU5](https://z.cash/upgrade/nu5/)upgrade/nu5/) today.\n",
 };
 try { unlinkSync(join(repo, "site/typechange.md")); } catch { /* not a symlink here */ }
 for (const [p, body] of Object.entries(probes)) w(p, body);
@@ -195,6 +223,13 @@ const cases = [
   // the gate must report the OTHER pages, not die on the gitlink
   ["a submodule does not crash it",    () => !hasSubmodule || (dirty.status === 1 && kindsFor("site/stray.md").length > 0)],
   ["scans a type change",             () => kindsFor("site/typechange.md").includes("stray-close-paren")],
+  ["flags a mixed->mixed rewrite",    () => kindsFor("site/flip.md").includes("line-endings-changed")],
+  ["slugs a heading's link text",     () => kindsFor("site/linkhead.md").includes("anchor-dropped")],
+  ["slug keeps both hyphens",         () => kindsFor("site/amp.md").includes("anchor-dropped")],
+  ["a # inside a fence is no heading", () => kindsFor("site/fencehead.md").length === 0],
+  ["finds a setext heading",          () => kindsFor("site/setext.md").includes("anchor-dropped")],
+  ["a year ending in 8 is not a face", () => kindsFor("site/year.md").includes("stray-close-paren")],
+  ["debris without a leading paren",  () => kindsFor("site/tail.md").includes("url-debris")],
   ["flags a PARTIAL anchor loss",      () => kindsFor("site/partial.md").includes("anchor-dropped")],
   ["a list fence neither leaks nor latches",
                                        () => { const f = json.filter((v) => v.file === "site/listfence.md");
