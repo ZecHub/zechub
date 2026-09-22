@@ -62,13 +62,13 @@ Zcash mining pools are services that allow individual miners to combine their co
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Nanopool](https://zec.nanopool.org/login)
+- Ebe nrụọrụ weebụ: [Nanopool](https://zec.nanopool.org/)
 - Nkwụnye ego nke onwe: Mba
 - Ụdị Ngwakọta: Ịkwụ Ụgwọ Kwa N ikpeazụ 
 - Ego nchịkọta: 1%

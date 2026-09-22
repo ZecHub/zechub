@@ -95,7 +95,7 @@ Zcash anaghị eme **not**:
 - Chebe megide mmekọrịta na azụmahịa ndị doro anya.
 - Zoro adreesị IP
 
-Ihe ndị ọzọ ị ga-agụ: [Ebe E Chebere Ihe Ndị Dị n'Eluigwe na Ala](https://electriccoin.co/blog/shielded-ecosystem)
+Ihe ndị ọzọ ị ga-agụ: [Ebe E Chebere Ihe Ndị Dị n'Eluigwe na Ala](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 
