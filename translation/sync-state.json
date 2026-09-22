@@ -3063,7 +3063,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -4817,7 +4817,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -8341,7 +8341,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -10103,7 +10103,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -11865,7 +11865,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -15389,7 +15389,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -17151,7 +17151,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -18905,7 +18905,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -20667,7 +20667,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -22429,7 +22429,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -25953,7 +25953,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -27715,7 +27715,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -31239,7 +31239,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "gpt-5.4+blockdrop",
       "edited": false
     },
     "contribute/Style_Guide.md": {
