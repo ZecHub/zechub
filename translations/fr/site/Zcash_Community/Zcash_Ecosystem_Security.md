@@ -31,7 +31,7 @@ Electric Coin Company et Zcash Foundation se conforment toutes deux à cette [no
 
 ## Ressources de sécurité
 
-- [Avis de sécurité Zcash](https://github.com/zcash/zcash/security/advisories)
-- [Avis de sécurité Zebra](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Signaler une vulnérabilité dans zcash/zcash](https://github.com/zcash/zcash/security/policy) — remplace l’adresse Electric Coin Company vers laquelle cette entrée pointait, qui n’est plus accessible.
-- [Signaler une vulnérabilité à ZF](https://zfnd.org/contact/)
+- [Zcash Avis de sécurité](https://github.com/zcash/zcash/security/advisories)
+- [Zebra Avis de sécurité](https://github.com/ZcashFoundation/zebra/security/advisories)
+- [Signaler une vulnérabilité dans zcash/zcash](https://github.com/zcash/zcash/security/policy)
+- [Signaler une vulnérabilité à ZF](https://github.com/ZcashFoundation/zebra/security/policy)

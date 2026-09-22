@@ -4,11 +4,11 @@
 
 # Hilf beim Aufbau von ZecHub 
 
-Wenn du Mitglied der Zcash-Community bist und zum Aufbau von ZecHub beitragen möchtest, gibt es einige Dinge, die besonders hilfreich sind.
+Wenn du Mitglied der Zcash-Community bist und zum Aufbau von ZecHub beitragen möchtest, gibt es einige besonders hilfreiche Möglichkeiten.
 
-Kuratiere Links für den Newsletter und füge sie auf der GitHub-Seite des Newsletters hinzu: -> [Klicke hier für Anweisungen](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+Stelle Links für den Newsletter zusammen und füge sie auf der GitHub-Seite des Newsletters hinzu: -> [Klicke hier für Anweisungen](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Überprüfe die Wiki-Dokumente auf sachliche Richtigkeit, schlage Änderungen vor und reiche neue Seiten auf Github ein
+Überprüfe die Wiki-Dokumente auf Fakten, schlage Änderungen vor und schlage neue Seiten auf Github vor
 
 Erstelle Videoinhalte in den folgenden Kategorien:
 ```
@@ -19,13 +19,13 @@ Erstelle Videoinhalte in den folgenden Kategorien:
 
 Erstelle Designs wie Poster/Grafiken/Animationen für das Zcash- & Privacy-Ökosystem 
 
-Übersetze beliebige der bestehenden Wiki-Seiten.
+Übersetze eine der bestehenden Wiki-Seiten.
 
-Bugs melden
+Melde Fehler
 
-#### Für Details zu den Höhe der Bounties lies bitte unsere Beitragsseite -> [hier](https://zechub.wiki/contribute/contributing-guide#content).
+#### Einzelheiten zu den Prämienbeträgen findest du auf unserer Beitragsseite -> [hier](https://zechub.wiki/contribute/contributing-guide#content).
 
-Jeden Montag veröffentlichen wir Issues für Aufgaben, für die derzeit Bounties offen sind. Du kannst auch selbst Bounties vorschlagen! In erster Linie findest du diese bei ZEC Bounties.
+Jeden Montag veröffentlichen wir Issues für Aufgaben, für die wir derzeit Prämien ausgeschrieben haben. Du kannst auch Prämien vorschlagen! Diese findest du hauptsächlich bei ZEC Bounties.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
@@ -35,19 +35,17 @@ Jeden Montag veröffentlichen wir Issues für Aufgaben, für die derzeit Bountie
 
 [ZecHub Github-Issues](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github-Issues](https://github.com/ZecHub/zechub-wiki/issues)
-
-[ZecHub-Namada Github-Issues](https://app.dework.xyz/zechub-2424)
+[ZecHub-Wiki-Github-Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 
-Falls es andere Möglichkeiten gibt, wie du beitragen möchtest, sende bitte ZecHub ([@ZecHub](https://twitter.com/zechub)) eine Nachricht auf Twitter oder tritt unserem [Discord](https://discord.gg/zcash) bei.
+Wenn du auf andere Weise beitragen möchtest, schreib bitte ZecHub ([@ZecHub](https://twitter.com/zechub)) auf Twitter oder tritt unserem [Discord](https://discord.gg/zcash) bei.
 
 ____
 
-**Um Auszahlungen vornehmen zu können, verlangt ZecHub von allen Mitwirkenden, ein Erklärungsformular mit ihrem Namen & einer Shielded-Adresse auszufüllen:**
+**Um Auszahlungen vorzunehmen, verlangt ZecHub von allen Mitwirkenden das Ausfüllen eines Erklärungsformulars mit ihrem Namen & Shielded:**
 
-**( Zcash | Namada | Penumbra | Ycash ) address**
+**( Zcash | Namada | Penumbra | Ycash ) Adresse**
 
 ____
 

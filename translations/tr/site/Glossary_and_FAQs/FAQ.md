@@ -95,7 +95,7 @@ Zcash şunları **yapmaz**:
 - Şeffaf işlemlerle olan korelasyonlara karşı koruma sağlamaz
 - IP adreslerini gizlemez
 
-Ek okuma: [Korumalı Bir Ekosistem](https://electriccoin.co/blog/shielded-ecosystem)
+Ek okuma: [Korumalı Bir Ekosistem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

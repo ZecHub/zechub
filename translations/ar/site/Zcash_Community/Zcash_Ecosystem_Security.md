@@ -31,7 +31,7 @@
 
 ## موارد الأمان
 
-- [تنبيهات Zcash الأمنية](https://github.com/zcash/zcash/security/advisories)
-- [تنبيهات Zebra الأمنية](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [الإبلاغ عن ثغرة في zcash/zcash](https://github.com/zcash/zcash/security/policy) — يحل محل عنوان Electric Coin Company الذي كانت تشير إليه هذه الخانة، والذي لم يعد متاحًا.
-- [الإبلاغ عن ثغرة إلى ZF](https://zfnd.org/contact/)
+- [Zcashتنبيهات أمنية](https://github.com/zcash/zcash/security/advisories)
+- [Zebraتنبيهات أمنية](https://github.com/ZcashFoundation/zebra/security/advisories)
+- [الإبلاغ عن ثغرة في zcash/zcash](https://github.com/zcash/zcash/security/policy)
+- [الإبلاغ عن ثغرة إلى ZF](https://github.com/ZcashFoundation/zebra/security/policy)
