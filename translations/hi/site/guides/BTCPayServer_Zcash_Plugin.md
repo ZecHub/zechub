@@ -442,8 +442,8 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 आप उपयोग कर सकते हैं:
 
-* कोई **public node**, जैसे `https://lightwalletd.zcash-infra.com`
-* आपका अपना self-hosted node, जो BTCPay Server से अलग deploy किया गया हो
+* एक **सार्वजनिक नोड**, जैसे `https://zec.rocks:443`
+* आपका अपना self-hosted नोड, जो BTCPay Server से अलग deploy किया गया हो
 
 > यदि external `lightwalletd` अनुपलब्ध हो जाए या overloaded हो जाए, तो shielded payments विफल हो जाएँगी।
 > महत्वपूर्ण services के लिए **स्थिर और भरोसेमंद endpoint** चुनें (जैसे default `zec.rocks`)।

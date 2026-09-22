@@ -6,7 +6,7 @@
 # Visualisierung von Zcash-Adressen
 
 Wenn du dich zum ersten Mal mit Zcash beschäftigst, wirst du sofort feststellen, dass es zwei Arten von [Transaktionen](https://zechub.wiki/using-zcash/transactions) gibt, die stattfinden können: *transparent* und *shielded*.
-Außerdem hast du, wenn du die neuesten Entwicklungen im Zcash-Ökosystem verfolgt hast, vielleicht schon von [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) oder UA's gehört.
+Außerdem hast du, wenn du die neuesten Entwicklungen im Zcash-Ökosystem verfolgt hast, vielleicht schon von [Unified Addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) oder UA's gehört.
 Wenn Menschen in der Zcash-Branche von *shielded* Transaktionen sprechen, meinen sie Transaktionen, an denen Adressen beteiligt sind, die entweder für die sapling- oder orchard-Protokolle codiert sind. 
 UA's wurden entwickelt, um *jede* Art von shielded oder transparenten Transaktionen in einer einzigen Adresse zu vereinen. Diese Verallgemeinerung ist der Schlüssel dazu, die UX in Zukunft zu vereinfachen. Der Zweck dieses Leitfadens ist es, das Verständnis von UA's mit konkreten visuellen Beispielen zu ergänzen.
 
