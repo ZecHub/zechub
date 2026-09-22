@@ -36,7 +36,7 @@ Hibrit Proof-of-Stake (PoS) yaklaşımı, geleneksel Proof-of-Work (PoW) ile PoS
 
 Crosslink protokolü, Zcash'in hibrit Proof-of-Work/Proof-of-Stake (PoW/PoS) aşaması için önerilen bir tasarımdır. PoW'u Bizans Hata Toleransı (BFT) protokolüyle entegre eder ve PoW veya PoS'tan biri güvenli kaldığı sürece garantili kesinlik sağlar. Tasarım, madenci katılımını sürdürürken stake tabanlı doğrulamayı dahil ederek ağ güvenliğini ve merkeziyetsizliği güçlendirmeyi amaçlar. Crosslink 2 adı verilen teklifin temel bir özelliği, BFT önericileri ile madencileri birleştirerek mimariyi basitleştirmesidir. Bu sadeleştirilmiş yaklaşım, yapısal değişiklikleri en aza indirir ve "dummy" bir BFT katmanının kullanılmasına olanak tanır; böylece yüksek güvenlik standartları korunurken prototipleme ve dağıtım daha kolay hale gelir.
 
-Uygulama planı, Crosslink 2*'yi Zcash'in Zebra istemcisine entegre etmeye yönelik tahmini mühendislik maliyetlerini içeren bir yol haritası içerir. Bu aşamalı dağıtım, paydaş teşviklerini dengelemeye, kesintiyi azaltmaya ve Zcash'in ölçeklenebilirlik, kullanılabilirlik ve merkeziyetsizlik hedefleriyle uyum sağlamaya odaklanır. Protokolün güçlü güvenlik özelliklerine duyulan artan güven, onun Zcash'in evriminde önemli bir adım olma potansiyelini daha da pekiştirir. Crosslink, enerji verimliliğini ele alıp uzlaşı mekanizmalarını geliştirerek gelişen blokzincir zorluklarına ileriye dönük bir çözüm sunar. Daha fazla ayrıntı için [GitHub deposuna](https://github.com/ShieldedLabs/crosslink-deployment) ve [Zcash Community Forum](https://forum.zcashcommunity.com)'a bakın.
+Uygulama planı, Crosslink 2*'yi Zcash'in Zebra istemcisine entegre etmeye yönelik tahmini mühendislik maliyetlerini içeren bir yol haritası içerir. Bu aşamalı dağıtım, paydaş teşviklerini dengelemeye, kesintiyi azaltmaya ve Zcash'in ölçeklenebilirlik, kullanılabilirlik ve merkeziyetsizlik hedefleriyle uyum sağlamaya odaklanır. Protokolün güçlü güvenlik özelliklerine duyulan artan güven, onun Zcash'in evriminde önemli bir adım olma potansiyelini daha da pekiştirir. Crosslink, enerji verimliliğini ele alıp uzlaşı mekanizmalarını geliştirerek gelişen blokzincir zorluklarına ileriye dönük bir çözüm sunar. Daha fazla ayrıntı için [GitHub deposuna](https://github.com/ShieldedLabs/zebra-crosslink) ve [Zcash Community Forum](https://forum.zcashcommunity.com)'a bakın.
 
 ### Crosslink'in Amaçları ve Hedefleri
 
@@ -90,7 +90,7 @@ Crosslink Protocol, Zodl gibi önemli ekosistem ortaklarıyla iş birliği için
 * Etkinleştirme Mantığı: Crosslink'in devreye girmesi, stake dağıtım sürecinin tanımlanması ve hibrit uzlaşıyı desteklemek için ağ protokol kurallarının güncellenmesi dahil olmak üzere Zcash uzlaşı kurallarında değişiklikler gerektirir.
 * Aşamalı Dağıtım: Ağ istikrarını ve topluluğun uyumunu sağlamak için protokol aşamalar halinde devreye alınacaktır. İlk aşamalar teknik uygulamaya odaklanır; bunu noterlerin seçimi için yönetişim entegrasyonu izler.
 
-Teknik ayrıntıları inceleyebilir ve ilerlemeyi [GitHub'daki Crosslink Deployment Repository](https://github.com/ShieldedLabs/crosslink-deployment) üzerinden takip edebilirsiniz.
+Teknik ayrıntıları inceleyebilir ve ilerlemesini [GitHub'daki zebra-crosslink deposu](https://github.com/ShieldedLabs/zebra-crosslink) ve [zebra-crosslink Kitabı](https://shieldedlabs.github.io/zebra-crosslink/) aracılığıyla takip edebilirsiniz.
 
 ## Pratik Sonuçlar
 

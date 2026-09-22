@@ -95,7 +95,7 @@ Zcash ne :
 - Protège pas contre les corrélations avec les transactions transparentes
 - Masque pas les adresses IP
 
-Pour aller plus loin : [Un écosystème Shielded](https://electriccoin.co/blog/shielded-ecosystem)
+Pour aller plus loin : [Un écosystème protégé](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

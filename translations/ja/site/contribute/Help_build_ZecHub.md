@@ -2,30 +2,30 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub の構築を手伝う
+# ZecHubの構築にご協力ください
 
-あなたが Zcash コミュニティのメンバーで、ZecHub の構築に貢献したいと考えているなら、とても役立つことがいくつかあります。
+Zcashコミュニティのメンバーで、ZecHubの構築に貢献したい方には、非常に役立つことがいくつかあります。
 
-ニュースレター向けのリンクをキュレーションし、ニュースレターの GitHub ページに追加する: -> [手順はこちらをクリック](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+ニュースレター向けのリンクをキュレーションし、ニュースレターのGitHubページに追加してください: -> [手順はこちら](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Wiki ドキュメントの事実確認を行い、編集を提案し、Github で新しいページを提案する
+Wikiドキュメントのファクトチェックを行い、編集を提案し、GitHubで新しいページを提案してください
 
-以下のカテゴリの動画コンテンツを作成する:
+以下のカテゴリーで動画コンテンツを作成してください:
 ```
 * Zcash explainer videos
 * Zcash wallet guide/tutorials
 * Third-party application demos
 ```
 
-Zcash とプライバシーのエコシステム向けに、ポスター／グラフィック／アニメーションなどのデザインを制作する
+Zcashおよびプライバシーエコシステム向けに、ポスター、グラフィック、アニメーションなどのデザインを制作してください
 
-既存の wiki ページを翻訳する。
+既存のWikiページを翻訳してください。
 
-バグを報告する
+バグを報告してください
 
-#### 報奨金額の詳細については、コントリビューションページをお読みください -> [こちら](https://zechub.wiki/contribute/contributing-guide#content)。
+#### 報奨金額の詳細については、貢献ページをお読みください -> [こちら](https://zechub.wiki/contribute/contributing-guide#content)。
 
-現在報奨金が公開されているタスクの issue は、毎週月曜日に投稿しています。報奨金の提案も歓迎です！ 主に ZEC Bounties で見つけることができます。
+現在報奨金を募集中のタスクに関するIssueは、毎週月曜日に投稿しています。報奨金を提案することもできます！主にZEC Bountiesで確認できます。
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
@@ -33,19 +33,17 @@ Zcash とプライバシーのエコシステム向けに、ポスター／グ�
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Github Issues](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub Issues](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues)
-
-[ZecHub-Namada Github Issues](https://app.dework.xyz/zechub-2424)
+[ZecHub-Wiki GitHub Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 
-ほかにも貢献したい方法があれば、Twitter で ZecHub ([@ZecHub](https://twitter.com/zechub)) にメッセージを送るか、[Discord](https://discord.gg/zcash) に参加してください。
+ほかにも貢献したい方法があれば、TwitterでZecHub（[@ZecHub](https://twitter.com/zechub)）にメッセージを送るか、[Discord](https://discord.gg/zcash)に参加してください。
 
 ____
 
-**支払いを行うために、ZecHub はすべてのコントリビューターに対し、氏名と Shielded を記載した申告フォームの記入を求めています:**
+**支払いを行うため、ZecHubではすべての貢献者に氏名とShieldedを記載した申告フォームの記入をお願いしています：**
 
 **( Zcash | Namada | Penumbra | Ycash ) アドレス**
 

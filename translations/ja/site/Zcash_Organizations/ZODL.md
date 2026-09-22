@@ -1,90 +1,100 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/ZODL.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL ロゴ" width="50"/> ZODL (Zcash Open Development Lab)
+# <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL（Zcash Open Development Lab）
 
 [ウェブサイト](https://zodl.com/) - [GitHub](https://github.com/AgoraCyber) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
 ## ミッションステートメント
 
-ZODL は、大規模な金融監視のない世界を想像しています。法規制に従う人々が自由かつプライバシーを保ったまま取引できるようにすることを目指しています。この組織は、プライバシーがないと主権もないという信念を持ち、金融プライバシーがデフォルトで、市場へのアクセスが人間の権利であると考えています。
+ZODLは、大規模な金融監視のない世界を構想しており、法を守る人々が自由かつ私的に取引できることを目指しています。同組織は、プライバシーなくして主権はなく、金融プライバシーは標準であるべきであり、市場へのアクセスは人権であると信じています。
 
-## 背景と歴史
+## 背景と沿革
 
-ZODL (Zcash Open Development Lab) は、2026年初頭に Electric Coin Company (ECC) の元CEOである Josh Swihart によって設立されました。2026年1月、ECCのエンジニアリングおよび製品チーム全体が、Bootstrapという501(c)(3)非営利団体の理事会とガバナンスに関する紛争の後、辞任しました。Zcash の最も重要なシステムを設計・実装・保守したコアチームは、ZODL に移動し、独立して作業を続けることになりました。
+ZODL（Zcash Open Development Lab）は、Electric Coin Company（ECC）の元CEOであるJosh Swihartによって2026年初頭に設立されました。2026年1月、ECCを監督する501(c)(3)非営利団体の理事会であるBootstrapとのガバナンス上の対立を受け、ECCのエンジニアリングおよびプロダクトチーム全員が辞任しました。もともとZcashの最重要システムを設計、実装、保守していた中核チームは、独立して業務を継続するためZODLへ移行しました。
 
-以前 ECC 下で開発およびメンテナンスされていた Zashi ウォレットは、新しい組織の下で Zodl とリブランドされました。ユーザーはアクションを取る必要がなく、次のアップデートでアプリが自動的にリブランドされます。
+以前ECCのもとで開発・保守されていたZashiウォレットは、新組織のもとでZODLへとリブランドされました。次回のアップデートでアプリが自動的にリブランドされたため、ユーザーによる操作は不要でした。
 
 ## 資金調達
 
-2026年3月に ZODL は、Paradigm や a16z crypto、Winklevoss Capital、Coinbase Ventures、Cypherpunk Technologies（500万ドル投資）、Chapter One、David Friedberg、Balaji Srinivasan など、著名な投資家グループから2,500万ドル以上のシード資金を調達しました。
+2026年3月、ZODLは以下を含む著名な投資家グループから、2,500万ドル超のシード資金を調達しました。
 
-この資金は、Zcash プロトコルと Zodl ウォレットの両方の開発拡張に使われています。
+- **Paradigm**
+- **a16z crypto**
+- **Winklevoss Capital**
+- **Coinbase Ventures**
+- **Cypherpunk Technologies**（500万ドルの投資）
+- **Chapter One**
+- **David Friedberg**
+- **Balaji Srinivasan**
+- 暗号資産およびテクノロジー分野の追加エンジェル投資家
 
-## 領導
+この資金は、ZcashプロトコルとZODLウォレットの両方の開発拡大に活用されています。
 
-- **Josh Swihart** - CEO & Founder (Electric Coin Company の元CEO)
+## リーダーシップ
 
-より広範なチームは、以前 ECC で Zcash を構築・保守していた Zcash プロトコルの創設者および開発者から成り立っています。これは、暗号学、ゼロ知識証明、プロトコルエンジニアリングにおける深い専門知識を含みます。
+- **Josh Swihart** - CEO兼創設者（Electric Coin Companyの元CEO）
+
+より広範なチームは、以前ECCでZcashを構築・保守していた、Zcashプロトコルの当初の作成者および開発者で構成されています。これには、暗号技術、ゼロ知識証明、プロトコルエンジニアリングに関する深い専門知識が含まれます。
 
 ## 製品
 
-### Zodl ウォレット（以前は Zashi）
+### ZODLウォレット（旧Zashi）
 
-Zodl は、プライバシー保護された Zcash 取引のために設計されたセルフカスタodialなモバイルウォレットです。プロトコルレベルの深い知識とユーザー向けのデザインを組み合わせ、複雑さを隠しつつもセキュリティを保証しています。
+ZODLは、プライベートなZcash取引向けに設計されたセルフカストディ型モバイルウォレットです。プロトコルレベルの深い知識と使いやすいデザインを組み合わせ、セキュリティを維持しながら複雑さを隠します。
 
-**プラットフォーム:**
-- [iOS (App Store)](https://apps.apple.com/app/zodl/id6444974742)
-- [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
+**対応プラットフォーム:**
+- [iOS（App Store）](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
+- [Android（Play Store）](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)
 
 **主な機能:**
 
-- **デフォルトで保護:** すべての取引は Zcash のシールドプールを使用し、ゼロ知識暗号技術によって送信者、受信者、取引金額を隠します
-- **ワンタップでの保護:** 透明なZECをプライベート資金に変換するには単一のタップで完了
-- **CrossPay:** シールドされた ZEC を送信しつつ、受信者は希望する資産（BTC、ステーブルコインなど）を受け取れます
-- **プライバシー保護付きスワップ:** 中央集権的な交換を避け、NEAR Intents によって構築された内蔵のスワップ機能
-- **Keystone インテグレーション:** 空気隔離されたトランザクション署名を通じてシールドされた ZEC の冷凍保管をサポートするハードウェアウォレットとの連携
-- **Flexa ペイメント:** GameStop、Chipotle、Sheetz、Barnes & Noble などの主要小売店でZECを使用可能
-- **Coinbase インテグレーション:** 財布内での直接購入が可能で、別途の交換登録は不要
-- **暗号化メッセージ:** 取引と併せてまたは独立して Zcash 級のプライバシーを提供するシールドされたメモ機能
-- **統合アドレス:** Transparent、Sapling、Orchard プールにわたる簡易なアドレス管理
-- **Tor サポート:** トランザクションのブロードキャストにおけるネットワークレベルのプライバシーを強化
+- **デフォルトでシールド:** すべての取引でZcashのシールドプールを使用し、ゼロ知識暗号技術によって送信者、受信者、取引額を隠します
+- **ワンタップ・シールディング:** 透明なZECを、1回のタップでプライベートな資金に変換
+- **CrossPay:** 受取人が希望する資産（BTC、ステーブルコインなど）を受け取りながら、シールドされたZECを送信
+- **プライベート・スワップ:** NEAR Intentsを活用した組み込みスワップにより、中央集権型取引所を回避
+- **Keystone統合:** エアギャップ環境での取引署名を通じ、シールドされたZECをコールドストレージに保管するためのハードウェアウォレット対応
+- **Flexa決済:** GameStop、Chipotle、Sheetz、Barnes & Nobleなどの主要小売店でZECを利用
+- **Coinbase統合:** 別途取引所に登録することなく、ウォレット内で直接ZECを購入
+- **暗号化メッセージング:** 取引に付随して、または取引とは独立して、シールドされたメモにZcashレベルのプライバシーを提供
+- **統合アドレス:** Transparent、Sapling、Orchardプールにまたがるアドレス管理を簡素化
+- **Tor対応:** 取引ブロードキャスト時のネットワークレベルのプライバシーを強化
 
-**プライバシーコミットメント:**
-- ウォレット活動、取引履歴、ユーザー行動のトラッキングは行われません
-- 唯一収集されるのは匿名化されたクラッシュレポートであり、データを特定のユーザーに結びつけることはできません
+**プライバシーに関する取り組み:**
+- ウォレット活動、取引履歴、ユーザー行動を追跡しない
+- 匿名化されたクラッシュレポートのみを収集し、データを特定のユーザーに紐付けることはできない
 
 ### パフォーマンスと影響
 
-2024年に Zashi として最初にリリースされて以来、ウォレットは Zcash エコシステムの大きな成長をもたらしました:
+2024年にZashiとして初めてリリースされて以降、このウォレットはZcashエコシステムの大きな成長を牽引してきました。
 
-- 2025年中に Orchard シールドプールを約1M ZECから4M ZECへと拡大（400%以上の増加）
-- 2025年10月以降、ZEC スワップで6億ドル以上を処理
+- 2025年中にOrchardシールドプールを約100万ZECから400万ZECへ拡大（400%以上の増加）
+- 2025年10月以降、ZECスワップを6億ドル超処理
 
 ## Zcashエコシステムにおける役割
 
-ZODLはZcashエコシステムにおいて二つの重要な役割を果たしています:
+ZODLは、Zcashエコシステムにおいて二重の役割を担っています。
 
-1. **プロトコル開発:** チームはZcashのコアプロトコルソフトウェアとツールの進展を続け、Zcash FoundationやZingo Labsなどの他のエコシステムチームと協力して作業を行います。
-2. **ユーザー向け製品:** Zcashの主要な消費者ウォレットを開発・保守し、主流ユーザーにプライバシー保護されたデジタル決済をアクセス可能にするようにしています。
-3. **シールドプールの拡大:** ZODLのウォレットイノベーションは、「Zcashを再び注目されるようになった最大の要因」と評価されています。
-4. **オープンソース:** すべての作業がオープンソースであり、誰もがプロトコルコードを確認し、ウォレットを監査し、実装を検証できるようにしています。
+1. **プロトコル開発:** チームは、Zcash FoundationやZingo Labsなどの他のエコシステムチームと協働し、コアZcashプロトコルソフトウェアおよびツールの進化を継続しています
+2. **ユーザー向け製品:** 主流ユーザーがプライベートなデジタル決済を利用できるようにすることに焦点を当て、Zcash向けの主要コンシューマーウォレットを構築・保守
+3. **シールドプールの成長:** ZODLのウォレットにおける革新は、「Zcashを再び注目の的にした最大の要因」と評されています
+4. **オープンソース:** すべての成果物はオープンソースであり、誰でもプロトコルコードの検査、ウォレットの監査、実装の検証を行えます
 
-## 哲学: 主権の守護者
+## 哲学: 主権者の守護者
 
-ZODL の指導的な哲学は、「主権の守護者」という概念を中心に構成されています。これは、個人が自身の金融プライバシーと主権を完全に維持すべきであるという信念に基づいています。この組織は、プラットフォームの制御よりもユーザーの主権を優先し、中間業者ではなく個人を強化するツールを構築することを意図しています。
+ZODLの指針となる哲学は、「主権者の守護者」という概念を中心に据えています。これは、個人が自身の金融プライバシーと主権を完全に管理すべきだという信念です。同組織は意図的にプラットフォームによる管理よりもユーザー主権を優先し、仲介者ではなく個人に力を与えるツールを構築しています。
 
 ## リソース
 
-- [ZODL ウェブサイト](https://zodl.com/)
-- [ZODL についてのページ](https://zodl.com/about/)
+- [ZODLウェブサイト](https://zodl.com/)
+- [ZODL概要ページ](https://zodl.com/about/)
 - [X/Twitter](https://x.com/zodl_app)
-- [Josh Swihart on X](https://x.com/jswihart)
+- [X上のJosh Swihart](https://x.com/jswihart)
 
-## 関連情報
+## 関連項目
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)

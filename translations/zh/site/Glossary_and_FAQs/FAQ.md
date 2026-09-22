@@ -95,7 +95,7 @@ Zcash **不会**：
 - 防止与透明交易产生关联
 - 隐藏 IP 地址
 
-延伸阅读：[屏蔽生态系统](https://electriccoin.co/blog/shielded-ecosystem)
+延伸阅读：[屏蔽生态系统](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

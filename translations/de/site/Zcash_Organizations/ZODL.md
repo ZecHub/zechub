@@ -14,7 +14,7 @@ ZODL stellt sich eine Welt ohne massenhafte finanzielle Überwachung vor, in der
 
 ZODL (Zcash Open Development Lab) wurde Anfang 2026 von Josh Swihart gegründet, dem ehemaligen CEO der Electric Coin Company (ECC). Im Januar 2026 trat das gesamte Engineering- und Produktteam von ECC nach einem Governance-Streit mit Bootstrap zurück, dem 501(c)(3)-Non-Profit-Vorstand, der die ECC beaufsichtigt. Das Kernteam, das ursprünglich die kritischsten Systeme von Zcash entworfen, implementiert und gewartet hatte, wechselte zu ZODL, um seine Arbeit unabhängig fortzusetzen.
 
-Die Zashi-Wallet, die zuvor unter ECC entwickelt und gewartet wurde, wurde unter der neuen Organisation in Zodl umbenannt. Nutzer mussten nichts unternehmen, da die App sich mit dem nächsten Update automatisch umbenannte.
+Die Zashi-Wallet, die zuvor unter ECC entwickelt und gewartet wurde, wurde unter der neuen Organisation in ZODL umbenannt. Nutzer mussten nichts unternehmen, da die App sich mit dem nächsten Update automatisch umbenannte.
 
 ## Finanzierung
 
@@ -30,7 +30,7 @@ Im März 2026 sammelte ZODL über 25 Millionen US-Dollar an Seed-Finanzierung vo
 - **Balaji Srinivasan**
 - Weitere Angel-Investoren aus dem Krypto- und Technologiesektor
 
-Das Kapital wird verwendet, um die Entwicklung sowohl des Zcash-Protokolls als auch der Zodl-Wallet auszubauen.
+Das Kapital wird verwendet, um die Entwicklung sowohl des Zcash-Protokolls als auch der ZODL-Wallet auszubauen.
 
 ## Führung
 
@@ -40,12 +40,12 @@ Das breitere Team besteht aus den ursprünglichen Schöpfern und Entwicklern des
 
 ## Produkte
 
-### Zodl Wallet (ehemals Zashi)
+### ZODL Wallet (ehemals Zashi)
 
-Zodl ist eine selbstverwahrte mobile Wallet, die für private Zcash-Transaktionen entwickelt wurde. Sie verbindet tiefgehendes Wissen auf Protokollebene mit benutzerfreundlichem Design und verbirgt Komplexität, während die Sicherheit erhalten bleibt.
+ZODL ist eine selbstverwahrte mobile Wallet, die für private Zcash-Transaktionen entwickelt wurde. Sie verbindet tiefgehendes Wissen auf Protokollebene mit benutzerfreundlichem Design und verbirgt Komplexität, während die Sicherheit erhalten bleibt.
 
 **Plattformen:**
-- [iOS (App Store)](https://apps.apple.com/app/zodl/id6444974742)
+- [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)

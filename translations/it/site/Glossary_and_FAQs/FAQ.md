@@ -95,7 +95,7 @@ Zcash **non**:
 - Protegge dalle correlazioni con le transazioni trasparenti
 - Nasconde gli indirizzi IP
 
-Per approfondire: [Un ecosistema schermato](https://electriccoin.co/blog/shielded-ecosystem)
+Per approfondire: [Un ecosistema schermato](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

@@ -95,7 +95,7 @@ Zcash는 다음을 **하지 않습니다**:
 - 투명 거래와의 상관관계로부터 보호
 - IP 주소 숨기기
 
-추가 읽을거리: [차폐형 생태계](https://electriccoin.co/blog/shielded-ecosystem)
+추가 읽을거리: [차폐형 생태계](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 
