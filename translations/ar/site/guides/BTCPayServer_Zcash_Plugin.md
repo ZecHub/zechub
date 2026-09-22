@@ -441,7 +441,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 يمكنك استخدام:
 
-* **عقدة عامة**، مثل `https://lightwalletd.zcash-infra.com`
+* **عقدة عامة**، مثل `https://zec.rocks:443`
 * عقدتك المستضافة ذاتياً، المنشورة بشكل منفصل عن BTCPay Server
 
 > إذا أصبحت `lightwalletd` الخارجية غير متاحة أو مثقلة بالتحميل، فستفشل المدفوعات المحمية.

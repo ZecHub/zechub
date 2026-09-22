@@ -441,7 +441,7 @@ Adicione a seguinte linha, substituindo a URL pelo endpoint escolhido:
 
 Você pode usar:
 
-* Um **nó público**, como `https://lightwalletd.zcash-infra.com`
+* Um **nó público**, como `https://zec.rocks:443`
 * Seu próprio nó auto-hospedado, implantado separadamente do BTCPay Server
 
 > Se o `lightwalletd` externo ficar indisponível ou sobrecarregado, os pagamentos blindados falharão.

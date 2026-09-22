@@ -441,7 +441,7 @@ Seçtiğiniz uç noktayla URL’yi değiştirerek aşağıdaki satırı ekleyin:
 
 Şunlardan birini kullanabilirsiniz:
 
-* `https://lightwalletd.zcash-infra.com` gibi **herkese açık bir düğüm**
+* `https://zec.rocks:443` gibi **herkese açık bir düğüm**
 * BTCPay Server’dan ayrı olarak dağıtılmış, kendi barındırdığınız düğümünüz
 
 > Harici `lightwalletd` kullanılamaz hale gelir veya aşırı yüklenirse, shielded ödemeler başarısız olur.

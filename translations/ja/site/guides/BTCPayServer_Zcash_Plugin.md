@@ -441,7 +441,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 使用できるもの:
 
-* `https://lightwalletd.zcash-infra.com` のような**公開ノード**
+* `https://zec.rocks:443` のような**公開ノード**
 * BTCPay Server とは別にデプロイした、自分自身のセルフホストノード
 
 > 外部 `lightwalletd` が停止したり過負荷になったりすると、シールド決済は失敗します。

@@ -442,8 +442,8 @@ Füge die folgende Zeile hinzu und ersetze dabei die URL durch deinen gewünscht
 
 Du kannst verwenden:
 
-* Einen **öffentlichen Node**, wie `https://lightwalletd.zcash-infra.com`
-* Deinen eigenen selbst gehosteten Node, separat von BTCPay Server bereitgestellt
+* Einen **öffentlichen Knoten**, wie `https://zec.rocks:443`
+* Deinen eigenen selbst gehosteten Knoten, separat von BTCPay Server bereitgestellt
 
 > Wenn das externe `lightwalletd` nicht verfügbar oder überlastet ist, schlagen abgeschirmte Zahlungen fehl.
 > Für kritische Dienste solltest du einen **stabilen und bewährten Endpunkt** wählen (wie den Standard `zec.rocks`).
