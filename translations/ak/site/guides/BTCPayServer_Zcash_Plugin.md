@@ -40,7 +40,7 @@ Sɛ adetɔfo no reyɛ ade bi a, mpɛn pii no ɔde n’ankasa ho nsɛm ma: ne din
 Obiara, mpo a onnim nea wɔhyɛɛ no, betumi:
 
 - hwɛ bere a wotuae ne sika dodow a wotuae 
-- hwehwɛ baabi a sika no fi bae ne baabi a ɛkɔe 
+- hwehwɛ baabi a sika no fi ne baabi a ɛkɔe 
 - fa cryptocurrency address bi bata onipa ankasa ho sɛ biribi wɔ abusuabɔ a (sɛ nhwɛso no, email anaa din a wɔde mena a ɛdaa adi) .
 
 Eyi kyerɛ sɛ ebia adetɔ biako pɛ bɛma wɔahu adetɔfo bi sikasɛm ho abakɔsɛm nyinaa.
@@ -50,7 +50,7 @@ Na ɛyɛ adwuma wɔ ɔkwan foforo so nso. Sɛ aguadifo bi address apue wɔ nkɔn
 ### BTCPay Server ne Zcash a wɔaka abom no betumi adi eyi ho dwuma.
 
 
-BTCPay Server yɛ nhyehyɛe a wontua hwee na wɔde ma wɔ mmeae ahorow a wɔde gye cryptocurrency sikatua. 
+BTCPay Server yɛ nhyehyɛe a wontua hwee na wɔde ma a wɔde gye cryptocurrency sikatua. 
 Ɛnyɛ ntamgyinafo a ɔde tua sika na enkura sika biara. Sika a wotua nyinaa kɔ aguadifo no sika kotoku mu tẽẽ. 
 Eyi betumi ayɛ ankorankoro sika kotoku anaasɛ multisig nhyehyɛe wɔ ahyehyɛde bi mu.
 
@@ -70,7 +70,7 @@ Wɔ intanɛt so sotɔɔ ahorow fam no, eyi kyerɛ sɛ:
 
 - Adetɔfo no betumi awie sika no a ɔrenka wɔn sikasɛm ho abakɔsɛm adi 
 - Ɔdetɔnfo no nsa ka sika a ɔnka wɔn address, adetɔn dodow, anaa wɔn aguadi nhyehyɛe ho asɛm 
-- Abɔnten so ɔhwɛfo biara nni hɔ a obetumi de sikatua no abata ade a wɔkrae no ho anaasɛ adetɔfo data ho
+- Obiara nni hɔ a ɔhwɛ abɔnten so a obetumi de sikatua no abata ade a wɔkrae no ho anaasɛ adetɔfo ho nsɛm ho
 
 ### Nhwɛso a mfaso wɔ so
 
@@ -94,7 +94,7 @@ Biribiara yɛ adwuma sɛnea ɛte wɔ cryptocurrencies afoforo ho no, asiane biar
 
 ## Sɛnea BTCPay Server Yɛ Adwuma
 
-BTCPay Server yɛ adwuma sɛ sikatua ho dwumadie bridge a ɛda wo e-commerce platform ne blockchain ntam. Sɛnea nsu a ɛsen no yɛ adwuma ni:
+BTCPay Server yɛ adwuma sɛ sikatua ho dwumadie bridge a ɛda wo e-commerce platform ne blockchain no ntam. Sɛnea nsu a ɛsen no yɛ adwuma ni:
 
 1. **Adetɔfoɔ no de ahyɛdeɛ** to wo wɛbsaet so (e.g. WooCommerce, Magento, anaa platform biara a ɛwɔ BTCPay nkabom).
 
@@ -110,7 +110,7 @@ BTCPay Server yɛ adwuma sɛ sikatua ho dwumadie bridge a ɛda wo e-commerce pla
    - Address a wɔde gye nsɛm no
    - Invoice bere nsɔano no
 
-5. **Sɛ wɔhunu asɛm no na wɔasi so dua wie a**, BTCPay bɔ sotɔɔ no amanneɛ.
+5. **Sɛ wɔhunu asɛm no na wɔasi so dua wie** a, BTCPay bɔ sotɔɔ no amanneɛ.
 
 6. **Adetɔfoɔ no nsa ka sikatua ho adansedie.** Sɛ wopɛ a, server no bɛtumi afa email so de krataa a ɛkyerɛ sɛ woagye no amena.
 
@@ -139,7 +139,7 @@ Sika nyinaa kɔ **tẽẽ** aguadifo no sika kotoku mu. Wɔnam **viewing key-bas
   a ɛbɛma wɔatumi adi sikatua akyi a ahobammɔ wom na wɔasiw address a wɔde bedi dwuma bio no ano.
 
 - **Wokura sika no so tumi nyinaa.** 
-  Sɛ mpo server no ayɛ basaa a, obiara ntumi nwia wo sika - payment metadata nko ara na wobetumi ada no adi.
+  Sɛ mpo server no ayɛ basaa a, obiara ntumi awia wo sika - payment metadata nko ara na wobetumi ada no adi.
 
 Saa nhyehyeɛ yi tetew **infrastructure** ne **agyapadeɛ sohwɛ** ho. 
 Wubetumi ayɛ BTCPay Server no foforo, akɔ baabi foforo, anaa woasan ahyɛ mu a woremfa sika biara nto asiane mu.
@@ -160,7 +160,7 @@ Yɛbɛfa nea edidi so yi mu:
 
 - Sɛnea wɔde biribiara bedi dwuma fi mfiase wɔ VPS so, a node a edi mũ (Zebra) ka ho .
 - Sɛnea wobɛma BTCPay Server ayɛ adwuma wɔ fie bere a wode wo IP asie denam **Cloudflare Tunnel** so.
-- Sɛnea wobɛma Zcash mmoa ayɛ adwuma na woasiesie wɔ BTCPay Server wɛb nkitahodi no mu
+- Sɛnea wobɛma Zcash mmoa ayɛ adwuma na woasiesie wɔ BTCPay Server wɛb ntamgyinafo no mu
 - Sɛnea wode BTCPay bɛka wo wɛbsaet anaa intanɛt so sotɔɔ ho
 
 
@@ -183,7 +183,7 @@ Yɛbɛfa nhyehyeɛ ahodoɔ mu, afiri nhyehyɛeɛ a ɛsua koraa a yɛde ɔmanfoɔ
 
 ---
 
-### VPS Nsiesiei a Wɔkamfo kyerɛ
+### VPS Nsiesiei a wɔkamfo kyerɛ
 
 Ansa na wobɛhyehyɛ no, hwɛ hu sɛ wowɔ:
 
@@ -249,7 +249,7 @@ sudo systemctl enable docker
 ```
 
 > Wɔ Ubuntu 22.04 ne nea ɛboro saa so no, . `docker-compose` fi APT no yɛ nea wɔagyae.
-> Nneɛma a wɔkamfo kyerɛ ne sɛ `docker-compose-plugin`, a ɛma `docker compose` ahyɛde (hyɛ ahunmu no nsow sen sɛ wode dash bɛhyɛ mu).
+> Nneɛma a wɔkamfo kyerɛ sɛ wɔmfa nhyɛ mu ne `docker-compose-plugin`, a ɛma `docker compose` ahyɛde (hyɛ ahunmu no nsow sen sɛ wode dash bɛhyɛ mu).
 
 Seesei wo server mpɔtam hɔ ayɛ krado sɛ wobɛhyehyɛ BTCPay Server.
 
@@ -304,7 +304,7 @@ Run setup script no na fa si na fi ase server no:
 
 `. ./btcpay-setup.sh -i`
 
-Script no bɛ instɔl dependencies, ayɛ nea `docker-compose.yml`, fi ase nnwuma, na hyehyɛ `systemd`.
+Script no bɛ instɔl dependencies, ayɛ no `docker-compose.yml`, fi ase nnwuma, na hyehyɛ `systemd`.
 Eyi gye bɛyɛ simma 5.
 
 Sɛ wowie a, wo BTCPay Server nhwɛsoɔ no bɛba wɔ:
@@ -323,7 +323,7 @@ Afei kɔ ɔfa a edi hɔ no so na hyehyɛ Zcash wɔ BTCPay Server wɛb interface 
 
 
 
-## Wo Ankasa Zcash Full Node a Woretu mmirika
+## Wo Wo Ankasa Zcash Full Node a Woretu mmirika
 
 Sɛ wopɛ sɛ **ɛnyɛ** sɛ wode wo ho to ɔmanfo so a `lightwalletd` nodes, wobɛtumi de w’ankasa Zcash node a edi mũ aka Lightwalletd ho wɔ server koro no ara so. 
 Wei ma wo **full autonomy** - abɔnten so dependencies biara nni hɔ, ahotosoɔ biara nni hɔ a ɛho nhia.
@@ -441,10 +441,10 @@ Fa nkyerɛwde a edidi so yi ka ho, fa awiei a woapaw no si URL no ananmu:
 
 Wubetumi de:
 
-* **ɔmanfoɔ node**, te sɛ `https://lightwalletd.zcash-infra.com`
+* **ɔmanfoɔ node**, te sɛ `https://zec.rocks:443`
 * W’ankasa wo hosted node, deployed soronko fi BTCPay Server
 
-> Sɛ abɔnten so `lightwalletd` sɛ ɛbɛyɛ nea entumi nyɛ adwuma anaasɛ ɛyɛ adesoa dodo a, sikatua a wɔabɔ ho ban no bedi nkogu.
+> Sɛ abɔnten so `lightwalletd` bɛyɛ nea entumi nyɛ adwuma anaasɛ ɛyɛ nea ɛboro so a, sikatua a wɔabɔ ho ban no bedi nkogu.
 > Wɔ nnwuma a ɛho hia ho no, paw **awiei a ɛyɛ den na wɔada no adi** (te sɛ nea wɔahyɛ da ayɛ no `zec.rocks`).
 
 > Pɛ sɛ wo ho yɛ wo ho ahɔho `lightwalletd`?
@@ -571,7 +571,7 @@ Hwɛ sɛnea tebea no te:
 
 Ɛsɛ sɛ wuhu nkrasɛm bi te sɛ `Active: active (running)` ne si so dua sɛ `btcpay.example.com` no wɔ Intanɛt so.
 
-> Efi saa bere yi rekɔ no, tunnel no befi ase ankasa wɔ reboot biara so, na wo BTCPay Server no bɛyɛ nea ɔmanfo betumi akɔ so - a port forwarding nni mu na ɛrenkyerɛ wo IP ankasa.
+> Efi saa bere yi rekɔ no, tunnel no befi ase ankasa wɔ reboot biara so, na wo BTCPay Server no bɛyɛ nea ɔmanfo betumi akɔ so - a port forwarding nni mu na ɛrenda wo IP ankasa adi.
 
 ---
 
@@ -630,7 +630,7 @@ Kɔ wo instance no so wɔ:
 2. Hwehwɛ **Zcash (ZEC)** plugin no. Sɛ ɛho hia a, fa search bar no di dwuma.
 3. Klik **Install** na si so dua.
 
-> Tia saa adeyɛ yi mu ma altcoins foforo biara a woama ayɛ adwuma wɔ server nhyehyɛe mu.
+> Tia saa adeyɛ yi mu ma altcoins foforo biara a woahyɛ no den bere a woreyɛ server nhyehyɛe no.
 
 Sɛ instɔlehyɛn wie a, klik **Restart Server** na san fa interface no ne plugins a ɛyɛ adwuma no hyɛ mu.
 
@@ -670,7 +670,7 @@ Saa nsafe yi boa **automatic address rotation**, a ɛkyerɛ sɛ:
 
 Wubetumi ahu compatibility list a ɛtrɛw wɔ [ZecHub -> Sikakorabea ahorow](https://zechub.wiki/wallets).
 
-Sɛ wɔhyehyɛ fields no nyinaa wie a, klik **Save**.
+Sɛ wohyehyɛ fields no nyinaa wie a, klik **Save**.
 
 ---
 
@@ -729,7 +729,7 @@ Anamɔn a edi hɔ: yɛ API safoa ma wo sotɔɔ no na fi ase de di dwuma [Greenfi
 
 ### API Safoa a Wɔreyɛ
 
-Sɛ wobɛka BTCPay Server ne wo wɛbsaet anaa app no ​​abom a, ɛho behia sɛ woyɛ API safoa.
+Sɛ wobɛka BTCPay Server ne wo wɛbsaet anaa app no abom a, ɛho behia sɛ woyɛ API safoa.
 
 1. Kɔ BTCPay Server mu na bue **user menu** (atifi nifa so) .
 2. Kɔ **API Safoa** so.
@@ -867,15 +867,15 @@ Sɛ wopɛ sɛ woda invoice no adi tẽẽ wɔ wo site no so a, fa iframe di dwum
 
 Saa akwankyerɛ yi ware - nanso ɛka fapem afã horow a ɛfa Zcash sikatua a wɔde bɛka BTCPay Server ho nkutoo ho.
 
-BTCPay Server interface no ma dwumadie pii sene deɛ yɛakyerɛ wɔ ha. Nea eye ne sɛ, UI no wɔ kasa ahorow pii mu (Russia kasa ka ho), na ɛma ɛyɛ mmerɛw sɛ wobɛhwehwɛ mu na woasɔ ahwɛ akɔ akyiri.
+BTCPay Server interface no ma dwumadie pii koraa sene deɛ yɛakyerɛ wɔ ha. Nea eye ne sɛ, UI no wɔ kasa ahorow pii mu (Russia kasa ka ho), na ɛma ɛyɛ mmerɛw sɛ wobɛhwehwɛ mu na woasɔ ahwɛ akɔ akyiri.
 
 BTCPay yɛ adwinnade a ɛyɛ mmerɛw kɛse. Wobɛtumi:
 
 * Fa sotɔɔ ahorow pii a wɔde wɔn ho hyɛ mu wɔ nhwɛso biako so
 * Kyerɛkyerɛ amanne dwumadie ne tumi krataa ma ekuo mufoɔ - ɛfiri order view-only kɔsi full admin
-* Fa w’ankasa domain ne branding di dwuma
+* Fa w’ankasa domains ne branding di dwuma
 * Fa webhooks, fallback wallets, ne Tor kwan mpo si hɔ
-* Hyehyɛ nhyehyɛe a ɛkɔ akyiri te sɛ towtua ho mmara, sika a wɔatew so ho mmara, krataafa a wɔde totɔ nneɛma a wɔayɛ no sɛnea wɔpɛ, ɔkwan a wɔfa so tua ho anohyeto, ne nea ɛkeka ho
+* Hyehyɛ nhyehyɛe a ɛkɔ akyiri te sɛ towtua ho mmara, sika a wɔatew so ho mmara, krataafa a wɔde gye sika, akwan a wɔfa so tua ho anohyeto, ne nea ɛkeka ho
 
 Wɔkyekyeree BTCPay sɛ ɔkwan foforo a wɔfa so bue ano sen wɔn a wɔde sikatua a ɛwɔ mfinimfini no. Sɛ worehwehwɛ sɛ wobɛgye kokoam ZEC sikatua a ntamgyinafoɔ biara nni mu a, saa platform yi fata koraa sɛ wode w’adwene si so.
 
@@ -891,7 +891,7 @@ Yɛpɛ sɛ wodi nkonim wɔ BTCPay abɔdeɛ a nkwa wom nhyehyɛeɛ no mu nhwehwɛ
 * [Zcash Plugin Installation Akwankyerɛ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Amanneɛbɔ zcash-lightwalletd.custom.yml Nhwɛso](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
 * [Lightwalletd Docker Hyehyɛ Fael (Zebra) .](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
-* [BTCPay API Nsɛmfua Titiriw (Greenfield API) .](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
+* [BTCPay API Nkyerɛwde Titiriw (Greenfield API) .](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Yɛ Cloudflare Tunnel a wɔde yɛ adwuma](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
 * [Zcash Wallet Nkitahodi Nkyerɛwde (ZecHub) .](https://zechub.wiki/wallets)
 * [Zebra + Lightwalletd wɔ Raspberry Pi 5 (ZecHub) so .](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

@@ -24,7 +24,7 @@ Lo ibi ipamọ ti o wa loke ki o tẹle awọn itọnisọna lori kikọ:
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 Àwọn àpótí ni yóò jẹ́ àkójọpọ̀ ibi tí a fẹ́ kó o dé.

@@ -3,10 +3,10 @@
 </a>
 
 
-#  Ṣíṣe àwòrán Ìpínlẹ̀ Zcash
+#  Wiwo Nẹtiwọọki Zcash
 
-Àwọn ojúewé wọ̀nyí jápọ̀ mọ́ Ziggurat 3.0 Crawler for Zcash àti àwọn ètò Crunchy àti P2P-Viz lórí Ubuntu 22.04 fún kíkójọ àti fífi àwòrán wo ìsọfúnni nípa ẹ̀rọ Zcash: 
-Àwọn fídíò tí ó wà nísàlẹ̀ yìí ń tẹ̀lé ìlànà kan náà.
+Èyí ni ìtọ́sọ́nà lórí bí a ṣe lè lo Ziggurat 3.0 Crawler fún Zcash àti àwọn ètò tí ó so mọ́ ọn Crunchy àti P2P-Viz lórí Ubuntu 22.04 fún kíkó àti fífojúrí ìwífún nípa nẹ́tíwọ́ọ̀kì Zcash. 
+Fídíò tí a so mọ́ ìsàlẹ̀ yìí tẹ̀lé ìlànà kan náà.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -20,35 +20,35 @@
 </div>
     
 ----------------
-## Awọn ibeere fifi sori ẹrọ: 
+## Awọn ibeere Fifi sori ẹrọ: 
 
-Ìdàró -> [https://rustup.rs/](https://rustup.rs/)
+Ipata -> [https://rustup.rs/](https://rustup.rs/)
 
-## Aṣayan:
+## Àṣàyàn:
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
-(fún fífi ìwífún json hàn nínú òpópónà)
+(fun fifi alaye json han ninu ebute naa)
 
-curl -> [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
-(fún wíwá ìsọfúnni láti inú RPC alágbèéká)
+ìfàgùn -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
+(fún ìbéèrè nípa RPC crawler)
 
-npm (pẹlu nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
-(fún fífi P2P-Viz hàn nínú aṣàwákiri)
-
-----------------
-
+npm (pẹ̀lú nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
+(fún fífi P2P-Viz hàn nínú ẹ̀rọ aṣàwárí)
 
 ----------------
-Ìpamọ́ Ziggurat 3.0 [https://github.com/runziggurat](https://github.com/runziggurat)
 
-Àtòjọ ìsọfúnni nípa ohun tó ń lọ lágbàáyé [https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
 
-Àdàkọ:Crunchy Repohttps://github.com/runziggurat/crunchy.git](https://github.com/runziggurat/crunchy.git)
+----------------
+Ibi ìpamọ́ Ziggurat 3.0 | [https://github.com/runziggurat](https://github.com/runziggurat)
+
+Ibi ipamọ Crawler | [https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
+
+Ibi ipamọ ti o nipọn | [https://github.com/runziggurat/crunchy.git](https://github.com/runziggurat/crunchy.git)
 
 P2P-Viz Repo | [https://github.com/runziggurat/p2p-viz.git](https://github.com/runziggurat/p2p-viz.git)
 
 ----------------
 
-Bẹrẹ nípa lílo àwọn àtúnṣe tó bágbà mu.
+Bẹ̀rẹ̀ nípa lílo àwọn àtúnṣe déédéé.
 
 >  Ṣiṣe awọn aṣẹ wọnyi:
 ```bash
@@ -58,12 +58,12 @@ sudo apt upgrade
 
 ----------------
 
-## Zcash Network Crawler (Ohun tí ó ń ṣe àdàkọ)
+## Olùṣàwárí Nẹ́tíwọ́ọ̀kì Zcash
 
-Zcash Crawler n gbe inu folda kan ti a npe ni 'zcash' nitorina o le jẹ imọran lati ṣẹda itọsọna tuntun ṣaaju ki o to ṣe ẹda crawler (runziggurat / zcash repo).
+Zcash Crawler ń gbé inú fódà kan tí orúkọ rẹ̀ ń jẹ́ 'zcash' nítorí náà ó lè dára láti ṣẹ̀dá àkójọ ìwé tuntun kí o tó ṣe ìṣẹ̀dá ìṣẹ̀dá ìwé ...
 
 
->  Láti inú àkọọ́lẹ̀ /Ilé, Ṣiṣẹ àwọn àṣẹ yìí:
+>  Láti inú ìwé àkójọ/Ilé, Ṣíṣe àwọn àṣẹ wọ̀nyí:
 ```bash
 mkdir runziggurat
 cd runziggurat
@@ -71,13 +71,13 @@ git clone https://github.com/runziggurat/zcash.git
 cd zcash
 ```
 
-Yọ kiri ninu aṣàwákiri lọ sí 
+Lọ kiri ninu ẹrọ aṣawakiri si 
 [https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md](https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md)
 
-Àbí ṣí ìwé kíkà ní 
-"/runziggurat/zcash/src/tools/crawler/README.md" Àtúnṣe ojúewé
+Tabi ṣii readme ni 
+'/runziggurat/zcash/src/tools/crawler/README.md'
 
-Ojú-ewé yìí ní ìsọfúnni nípa lílò pàtó. 
+Ojú ìwé yìí ní ìwífún nípa lílo pàtó kan. 
 
 ----------------
 
@@ -105,13 +105,13 @@ OPTIONS:
             Print version information
 ```
 
-`--seed-addrs` \ `--dns-seed` is the only required argument and needs at least one specified address for it to run.
+`--seed-addrs` \ `--dns-seed` ni ariyanjiyan kan ṣoṣo ti a nilo ati pe o nilo o kere ju adirẹsi kan pato fun u lati ṣiṣẹ.
 
 
 
 ----------------
 
-Àṣẹ 'cargo run --release --features crawler --bin crawlar -- --help' ni àṣẹ tí ó jẹ́ òótọ́ àti yóò tẹ àtòjọ ìrànlọ́wọ́ tí a fi hàn jáde.
+Àṣẹ ‘cargo run --release --features crawler --bin crawler ---help’ ni àṣẹ run gangan, yóò sì tẹ àkójọ ìrànlọ́wọ́ tí a fihàn jáde.
 
 
 >  Ṣiṣẹ àṣẹ náà
@@ -120,11 +120,11 @@ cargo run --release --features crawler --bin crawler -- --help
 ```
 
 
-Èyí ni yóò ṣe àkójọ ètò náà, tí yóò sì rí i dájú pé ohun gbogbo ń ṣiṣẹ́ bó ṣe yẹ.
+Èyí yóò kó gbogbo ètò náà jọ, yóò sì rí i dájú pé ohun gbogbo ń ṣiṣẹ́ dáadáa.
 
-To run the Crawler, it is required to add a '--seed-addrs' flag to the start command, containing at least one, valid, Zcash node IP address. The crawler should be allowed to run for a reasonable amount of time to get an accurate result. Some sample node IP addresses can be found on  [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Láti ṣiṣẹ́ Crawler, ó pọndandan láti fi àsíá '--seed-adds' kún àṣẹ ìbẹ̀rẹ̀, tí ó ní ó kéré tán àdírẹ́sì IP Zcash node kan tí ó wúlò. Ó yẹ kí a jẹ́ kí crawler náà ṣiṣẹ́ fún àkókò tí ó yẹ kí ó tó lè rí àbájáde pípéye. A lè rí àwọn àdírẹ́sì IP node kan lórí àpẹẹrẹ [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
 
-To get information from the Crawler while its running, it is required to add the '--rpc-addr' flag to the start command. This isn't required to only run the crawler itself but will otherwise require stopping the crawler (ctrl+c or SIGKILL) to display any information at all.
+Láti gba ìwífún láti ọ̀dọ̀ Crawler nígbà tí ó bá ń ṣiṣẹ́, ó pọndandan láti fi àsíá '--rpc-addr' kún àṣẹ ìbẹ̀rẹ̀. Èyí kò pọndandan láti ṣiṣẹ́ crawler fúnra rẹ̀ nìkan ṣùgbọ́n bí bẹ́ẹ̀ kọ́ yóò nílò dídá crawler (ctrl+c tàbí SIGKILL) dúró láti fi ìwífún èyíkéyìí hàn rárá.
 
 
 >  Ṣiṣẹ àṣẹ náà
@@ -132,23 +132,23 @@ To get information from the Crawler while its running, it is required to add the
 cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
-Ẹrọ ayárabíàṣá náà yóò bẹ̀rẹ̀ sí bá nẹ́ẹ̀kì sọ̀rọ̀ (níṣe pàtó ní gbogbo ìṣẹ́jú 20) àti kíkó àwọn ìsọfúnni nẹ̀ẹ̀kà jọ. 
-Alaye lati inu Crawler ni a le ṣe afihan nipa lilo curl lati beere fun node (eyi nilo jq fun fifihan alaye naa). 
-Adirẹsi RPC Crawler ninu apẹẹrẹ yii ni a ṣeto si '127.0.0.1:54321'
+Olùṣàwárí náà yóò bẹ̀rẹ̀ sí í bá nẹ́tíwọ́ọ̀kì sọ̀rọ̀ (àìyípadà ní gbogbo ìṣẹ́jú-àáyá 20) ó sì ń kó àwọn dátà nẹ́tíwọ́ọ̀kì jọ. 
+A le fi alaye lati Crawler han nipa lilo curl lati beere ibeere lori node naa (eyi nilo jq fun fifi alaye naa han). 
+A ti ṣètò àdírẹ́sì Crawler RPC nínú àpẹẹrẹ yìí sí '127.0.0.1:54321'
 
 
->  Ninu Terminal miiran, Ṣiṣẹ aṣẹ naa
+>  Ni ebute miiran, Ṣiṣe aṣẹ naa
 ```bash
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ | jq .result.protocol_versions
 ```
 
-This will display the current collected '.protocol_version' data contained within the '.result' field. The '.result' field is very large so it is useful to call specific portions of it instead. Other useful data types are '.num_known_nodes', '.num_good_nodes', '.user_agents' etc. See the metrics section [Here](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
+Èyí yóò fi àwọn dátà '.protocol_version' tí a kó jọ lọ́wọ́lọ́wọ́ tí ó wà nínú pápá '.result' hàn. Ààyè '.result' tóbi púpọ̀ nítorí náà ó wúlò láti pe àwọn apá pàtó kan nínú rẹ̀ dípò. Àwọn irú dátà míràn tí ó wúlò ni '.num_known_nodes', '.num_good_nodes', '.user_agents' àti bẹ́ẹ̀ bẹ́ẹ̀ lọ. Wo apá àwọn ìwọ̀n [Nibi](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
 
 ----------------
 
 
 ----------------
-Láti ṣe Crunchy àti P2P-Viz, ó pọn dandan láti fi àbájáde sínú fáìlì .json. 
+Láti ṣiṣẹ́ Crunchy àti P2P-Viz, ó ṣe pàtàkì láti fi '.result' náà sínú fáìlì .json kan. 
 
 
 >  Ṣiṣẹ àṣẹ náà
@@ -156,58 +156,58 @@ Láti ṣe Crunchy àti P2P-Viz, ó pọn dandan láti fi àbájáde sínú fá�
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ > latest.json
 ```
 
-Eleyi yoo ṣẹda a 'latest.json' faili ninu awọn ti isiyi directory.This 'last.jsion' faili yoo wa ni lo pẹlu Crunchy. 
+Èyí yóò ṣẹ̀dá fáìlì 'latest.json' kan nínú àkójọ ìwé tó wà lọ́wọ́lọ́wọ́.Fáìlì 'latest.json' yìí ni a ó lò pẹ̀lú Crunchy. 
 
-Ni aaye yii, a le da Crawler duro pẹlu 'ctrl + c' ti ko ba nilo data diẹ sii. Crawler yoo ṣe agbejade ijabọ si ebute ti alaye ti o wulo.
+Ní àkókò yìí, a lè dá Crawler dúró pẹ̀lú 'ctrl+c' tí a kò bá nílò dátà mọ́. Crawler yóò fi ìròyìn kan ránṣẹ́ sí ibi tí a ti lè rí àwọn ìsọfúnni tó wúlò.
 
 
 ----------------
 
-## Ó máa ń kán
+## Prunchy
 
-Crunchy nilo lati ṣajọpọ faili json ti o jade fun lilo pẹlu P2P-Viz.
+Ó ṣe pàtàkì láti kó gbogbo fáìlì json tó jáde jọ fún lílo pẹ̀lú P2P-Viz.
 
 
-Lati kọ Crunchy, lọ si folda rẹ '/runziggurat' 
+Láti kọ́ Crunchy, lọ sí folda '/runziggurat' rẹ 
 
->  Lati ṣe ẹda sinu ibi ipamọ Crunchy, Ṣiṣẹ awọn aṣẹ wọnyi
+>  Láti ṣe ìfọwọ́sowọ́pọ̀ sínú ibi ìpamọ́ Crunchy, Ṣíṣe àwọn àṣẹ wọ̀nyí
 ```bash
 git clone https://github.com/runziggurat/crunchy.git
 cd crunchy
 ```
-Ṣe àdàkọ àti lẹẹmọ fáìlì 'latest.json' sínú àpamọ́ 'crunchy/testdata/'.
+Daakọ faili 'latest.json' ki o si lẹẹmọ sinu folda 'crunchy/testdata/'.
 
 >  Ṣiṣe awọn aṣẹ wọnyi 
 ```bash
 cargo run --release -- -i testdata/latest.json -o testdata/state.json -g testdata/geoip-cache.json -f Zcash
 ```
 
-Eyi yoo ṣẹda faili 'state.json' ti a fi silẹ Zcash node ninu folda 'crunchy/testdata/' lati lo pẹlu P2P-Viz.
+Èyí yóò ṣẹ̀dá fáìlì 'state.json' tí a fi sẹ́ẹ̀lì Zcash nínú fódà 'crunchy/testdata/' tí a ó lò pẹ̀lú P2P-Viz.
 
 ----------------
 
 ## P2P-Viz
 
-Lati kọ P2P-Viz, o nilo lati ni npm. 
+Láti kọ́ P2P-Viz, ó ṣe pàtàkì láti ní npm. 
 
 
->  Lati fi npm sori ẹrọ pẹlu nvm, ṣe awọn aṣẹ wọnyi:
+>  Lati fi npm sori ẹrọ pẹlu nvm, ṣiṣe awọn aṣẹ wọnyi:
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 
-Pa ati tun bẹrẹ ebute naa.
+Tii ki o tun bẹrẹ ebute naa.
 
 
->  Ṣiṣẹ aṣẹ:
+>  Ṣiṣe aṣẹ naa:
 ```bash
 nvm install --lts
 ```
 
-lọ sí àpamọ́ '/runziggurat' rẹ
+lọ sí folda '/runziggurat' rẹ
 
 
->  Lati ṣe àdàkọ sinu P2P-Viz repo ki o si bẹrẹ, Ṣiṣẹ awọn atẹle awọn aṣẹ
+>  Láti ṣe àwòkọ sínú ibi ìpamọ́ P2P-Viz kí o sì bẹ̀rẹ̀, Ṣíṣe àwọn àṣẹ wọ̀nyí
 ```bash
 git clone https://github.com/runziggurat/p2p-viz.git
 cd p2p-viz
@@ -218,20 +218,20 @@ npm run start http
 
 ----------------
 
-Ṣii aṣàwákiri kan ní [http://localhost:3000](http://localhost:3000). 
+Ṣí ẹ̀rọ aṣàwákiri kan ní [http://localhost:3000](http://localhost:3000). 
 
-Yan 'Geolocation' ki o si yan 'Yan ipinle faili'.
+Yan 'Geolocation' lẹ́yìn náà yan 'Yan fáìlì ìpínlẹ̀'.
 
-Lati inu faili explorer pop-up, yan faili 'state.json'. 
+Láti inú ìfọ́wọ́sí olùṣàwárí fáìlì, yan fáìlì 'state.json'. 
 
-Awọn node explorer World Map yoo kún pẹlu awọn faili data. Wo awọn readme [Nibi](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) fún ìsọfúnni síwájú sí i lórí àwọn àyè àti ìtòlẹ́sẹẹsẹ lílò.
+Àkójọpọ̀ ìwádìí nódù World Map yóò kún fún àwọn ìwífún fáìlì náà. Wo ìwé-ẹ̀rí náà [Nibi](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) fun alaye siwaju sii lori awọn aṣayan lilo ati awọn eto.
 
 
 ----------------
-ÀWỌN ÌDÍLÉ! 
+ÀWỌN ÌMỌ̀RÀN! 
 
-You can set the Crawler on a timed crawl simply with the 'timeout' command which will issue a specific kill command after a set amount of time. Run 'timeout --help' for more info.
-Àṣẹ tí ó wà nísàlẹ̀ yìí yóò bẹ̀rẹ̀, yóò sì tún dá ẹ̀rọ náà dúró lẹ́yìn àádọ́ta ìṣẹ́jú
+O le ṣeto Crawler lori crawl ti a ti ṣe akoko pẹlu aṣẹ 'timeout' eyiti yoo funni ni aṣẹ pipa kan pato lẹhin akoko ti a ṣeto. Ṣiṣẹ 'timeout --help' fun alaye diẹ sii.
+Àṣẹ tó tẹ̀lé yìí yóò bẹ̀rẹ̀, yóò sì tún dá crawler náà dúró láìfọwọ́kan lẹ́yìn ìṣẹ́jú 50.
 
 >  Ṣiṣẹ àṣẹ náà
 ```bash
@@ -239,11 +239,11 @@ timeout --signal=2 50m cargo run --release --features crawler --bin crawler -- -
 ```
 
 ----------------
-ÀWỌN ÌDÍLÉ! 
+ÀWỌN ÌMỌ̀RÀN! 
 
-A le pe 'latest.json' ki a si kọ ọ sinu '/testdata' ki o maṣe ni lati daakọ ati lẹẹ mọ pẹlu ọwọ.
+A le pe 'latest.json' naa ki a si kọ sinu '/testdata' ki o ma ba ni lati daakọ rẹ ki o si lẹẹ mọ ọ pẹlu ọwọ.
 
 ----------------
-ÀWỌN ÌDÍLÉ! 
+ÀWỌN ÌMỌ̀RÀN! 
 
-IP Adirẹsi alaye le ti wa ni gba lati awọn jade ati ki o si lo lati reseed awọn Crawler ni ibẹrẹ (--seed-addrs). Eleyi yoo din awọn akoko ti a beere lati se agbekale kan ni kikun crawl! 
+A le kó ìwífún nípa àdírẹ́sì IP jọ láti inú ìjáde náà, lẹ́yìn náà a lè lò ó láti tún un gbìn Crawler ní ìbẹ̀rẹ̀ (--seed-adds). Èyí yóò dín àkókò tí a nílò láti ṣe ìwádìí kíkún kù! 
