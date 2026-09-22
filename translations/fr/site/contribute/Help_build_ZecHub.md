@@ -4,11 +4,11 @@
 
 # Aidez à construire ZecHub 
 
-Si vous êtes membre de la communauté Zcash et souhaitez contribuer à la construction de ZecHub, certaines choses sont très utiles.
+Si vous êtes membre de la communauté Zcash et que vous souhaitez contribuer à la construction de ZecHub, il y a quelques choses qui sont très utiles.
 
-Sélectionnez des liens pour la newsletter et ajoutez-les à la page GitHub de la newsletter : -> [Cliquez ici pour consulter les instructions](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+Sélectionnez des liens pour la newsletter et ajoutez-les à la page GitHub de la newsletter : -> [Cliquez ici pour les instructions](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Vérifiez les faits dans les documents du wiki, suggérez des modifications et proposez de nouvelles pages sur GitHub
+Vérifiez les faits dans la documentation du wiki, suggérez des modifications et proposez de nouvelles pages sur Github
 
 Créez du contenu vidéo dans les catégories suivantes :
 ```
@@ -17,15 +17,15 @@ Créez du contenu vidéo dans les catégories suivantes :
 * Third-party application demos
 ```
 
-Produisez des designs tels que des affiches/illustrations/animations pour l'écosystème Zcash et de la confidentialité 
+Réalisez des designs tels que des affiches/visuels/animations pour l'écosystème Zcash et Privacy 
 
-Traduisez l'une des pages existantes du wiki.
+Traduisez n'importe laquelle des pages existantes du wiki.
 
-Signalez des bugs
+Signaler des bugs
 
-#### Pour connaître les montants des récompenses, veuillez lire notre page de contribution -> [ici](https://zechub.wiki/contribute/contributing-guide#content).
+#### Pour plus de détails sur les montants des primes, veuillez consulter notre page de contribution -> [ici](https://zechub.wiki/contribute/contributing-guide#content).
 
-Nous publions chaque lundi les issues des tâches pour lesquelles des récompenses sont actuellement ouvertes. Vous pouvez également suggérer des récompenses ! Elles se trouvent principalement dans ZEC Bounties.
+Nous publions chaque lundi des issues pour les tâches pour lesquelles nous avons actuellement des primes ouvertes. Vous pouvez aussi suggérer des primes ! Elles se trouvent principalement sur ZEC Bounties.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
@@ -33,19 +33,17 @@ Nous publions chaque lundi les issues des tâches pour lesquelles des récompens
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub Issues GitHub](https://github.com/ZecHub/zechub/issues)
+[Issues Github de ZecHub](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Issues GitHub du wiki](https://github.com/ZecHub/zechub-wiki/issues)
+[Issues Github du wiki ZecHub](https://github.com/ZecHub/zechub-wiki/issues)
 
-
-
-S'il existe d'autres façons dont vous souhaiteriez contribuer, veuillez envoyer un message à ZecHub ([@ZecHub](https://twitter.com/zechub)) sur Twitter ou rejoignez notre [Discord](https://discord.gg/zcash).
+S'il existe d'autres façons dont vous aimeriez contribuer, veuillez envoyer un message à ZecHub ([@ZecHub](https://twitter.com/zechub)) sur Twitter ou rejoignez notre [Discord](https://discord.gg/zcash).
 
 ____
 
-**Afin d'effectuer les paiements, ZecHub exige que tous les contributeurs remplissent un formulaire de déclaration avec leur nom et leur adresse protégée :**
+**Afin d'effectuer les paiements, ZecHub demande à tous les contributeurs de remplir un formulaire de déclaration avec leur nom et leur adresse shielded :**
 
-**( Zcash | Namada | Penumbra | Ycash ) adresse**
+**( Zcash | Namada | Penumbra | Ycash )**
 
 ____
 
