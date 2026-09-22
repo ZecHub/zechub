@@ -129,10 +129,10 @@ Un **faucet** (in italiano rubinetto) è un servizio che offre monete TAZ gratui
 - Gli utenti forniscono un indirizzo Testnet; il faucet invia una piccola quantità di TAZ
 - Evita la necessità di mining manuale di TAZ
 
-**Esempio:**
-1. Visita un faucet di Testnet (ad esempio, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/)])
-2. Inserisci il tuo indirizzo Testnet
-3. Richiedi TAZ
+**Esempio:**  
+1. Visita un faucet di Testnet (ad esempio, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
+2. Inserisci il tuo indirizzo Testnet  
+3. Richiedi TAZ  
 4. Ricevi immediatamente le TAZ per iniziare i test
 
 **Perché è importante

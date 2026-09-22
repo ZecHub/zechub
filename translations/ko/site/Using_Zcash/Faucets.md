@@ -11,8 +11,6 @@
 
 메인넷: <a href="https://zecfaucet.com">zecfaucet</a>
 
-테스트넷: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
-
 테스트넷: <a href="https://fauzec.com/">fauzec.com</a>
 
 테스트넷: <a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>

@@ -30,7 +30,7 @@ ZEC هي عملة رقمية تعتمد على بلوكتشين Zcash. وهي أ
 
 [حجّة Zcash والخصوصية](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[نظام بيئي محمي](https://electriccoin.co/blog/shielded-ecosystem/)
+[نظام بيئي محمي](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [توصيات خصوصية Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash هو تطبيق لبروتوكول "Zerocash". وهو دفتر أستاذ 
 
 [كيف يعمل](https://z.cash/technology/)
 
-[بروتوكول HTTPS الخاص بالبلوكتشين](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## صفحات ذات صلة
 
-- [دليل المستخدم الجديد](/start-here/new-user-guide) — إرشادات خطوة بخطوة للمستخدمين الجدد من حاملي ZEC
-- [المحافظ](/using-zcash/wallets) — اختر محفظة محمية للاحتفاظ بـ ZEC الخاصة بك
-- [شراء ZEC](/using-zcash/buying-zec) — أين وكيف يمكنك الحصول على ZEC
-- [المجمعات المحمية](/using-zcash/shielded-pools) — كيف تحافظ مجمعات Zcash على خصوصية المعاملات
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — التشفير الكامن وراء خصوصية Zcash
+- [دليل المستخدم الجديد](/start-here/new-user-guide) — إرشاد خطوة بخطوة لحاملي ZEC الجدد
+- [المحافظ](/using-zcash/wallets) — اختر محفظة محمية للاحتفاظ بـ ZEC
+- [شراء ZEC](/using-zcash/buying-zec) — أين وكيف تحصل على ZEC
+- [المجمّعات المحمية](/using-zcash/shielded-pools) — كيف تحافظ مجمّعات Zcash على خصوصية المعاملات
+- [zk-SNARKs](/zcash-tech/zk-snarks) — التشفير الكامن وراء خصوصية Zcash

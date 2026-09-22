@@ -125,13 +125,13 @@ ___
 - Ironwood: غير منطبق، عناوين شفافة فقط
 ___
 
-## [OKEx](https://okex.com)
+## [OKX (سابقًا OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- الموقع الإلكتروني: [OKEx](https://okex.com)
+- الموقع الإلكتروني: [OKX](https://www.okx.com)
 - الأزواج: ALL/ZEC
 - يدعم: شفاف
 - وقت الإيداع: 25 دقيقة 

@@ -11,8 +11,6 @@
 
 Основная сеть: <a href="https://zecfaucet.com">zecfaucet</a>
 
-Тестовая сеть: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
-
 Тестовая сеть: <a href="https://fauzec.com/">fauzec.com</a>
 
 Тестовая сеть: <a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>

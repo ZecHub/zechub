@@ -4,149 +4,149 @@
 
 # <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Custodial Exchanges
 
-Ironwood nye asitelefon si dzi woxɔa asi le, eye wòna be amewo ƒe susu trɔ ɖe eŋu. Asitelefon siwo zãa adrɛswo ko la meƒoa nu tso eƒe nyawo ŋu o; eya ta woŋlɔe ɖi abe "madzemadze" ene. Ne asitelefo aɖe wɔa dɔ kple adrɛsi siwo dzi woda asi ɖo gake megblɔ esi wozã na ye o la, ke ɖeko wòle dzedzem nyuie wu ale si woaƒo nya tae.
+Ironwood nye ta si wotsɔ akpoxɔnu wɔe si va ɖo kple July 2026 ƒe network ƒe tɔtrɔ. Exchange siwo kpɔa t-adrɛs siwo me kɔ ko gbɔ la meka asi eŋu gbeɖe o, eyata wode dzesi esiawo be womewɔa dɔ o. Le afisiwo asitɔtrɔ aɖe kpɔa adrɛs siwo wokpɔ ta na gake megblɔ ta si wòzãna o la, fli la gblɔnɛ tsɔ wu be wòasusui.
 
 ---
 
-### [Aɖakawo](https://backpack.exchange)
+### [Akɔtagbalẽvi](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Aɖakawo](https://backpack.exchange)
-- Eʋeawo: ZEC/USDC. ZEC-PERP
-- Kpekpeɖeŋu: Woate ŋu awɔ ga kple gae. Womeyɔ adrɛs ƒomevi aɖeke o
-- Gaɖoɖemeɣi: Womegblɔe o.
-- Ironwood: Womegblɔe o.
+- Nyatakakadzraɖoƒe: [Akɔtagbalẽvi](https://backpack.exchange)
+- Atsu kple asi: ZEC/USDC | ZEC-PERP ƒe agbalẽ
+- Kpekpeɖeŋunana: Wona gadede kple ga si woɖena le eme la wɔ dɔ. Womegblɔ adrɛs ƒomeviwo o
+- Ɣeyiɣi si Woatsɔ Ga De Asi: Womegblɔe o
+- Ironwood: Womegblɔe o
 ___
 
-### [Binance ƒe dɔlawo](https://binance.com)
+### [Binance ƒe nuwɔna](https://binance.com)
 
 <a href="https://binance.com">
     <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Binance ƒe dɔlawo](https://binance.com)
-- Eʋeawo: ALL/ZEC
-- Akɔfafa: Kpeɖodzia (TEX Address Deposit)
-- Gaɖoɖomɔ̃: Miniti 20
-- Ironwood: Womate ŋu awɔ esia o, adrɛs siwo me kɔ koe woate ŋu azã.
+- Nyatakakadzraɖoƒe: [Binance ƒe nuwɔna](https://binance.com)
+- Atsu kple asi: ALL/ZEC
+- Kpekpeɖeŋunana: Edzena le gaglãgbe (TEX Adrɛs Deposit) .
+- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 20
+- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
 ___
 
-### [BitcoinVN (BTC)](https://bitcoinvn.io)
+### [BitcoinVN](https://bitcoinvn.io)
 
 <a href="https://bitcoinvn.io">
     <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [BitcoinVN (BTC)](https://bitcoinvn.io)
-- Eʋeawo: BTC/ZEC, ETH/ZCE, USDT/ZC, XMR/ZCC, LTC/ZAC, DASH/ZCA.
-- Kpekpeɖeŋu: Transparent eŋena (z-address Deposit & Withdrawal)
-- Gaɖoɖomɔ̃: Ɣeyiɣi kpui aɖe (nu si wometsɔ le ame gbɔ o)
-- Ironwood: Womegblɔe o.
+- Nyatakakadzraɖoƒe: [BitcoinVN](https://bitcoinvn.io)
+- Atsu kple asi: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- Kpekpeɖeŋunana: Transparent | Shielded (z-adrɛs Deposit & Gaɖeɖe) .
+- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Enumake (si menye gaxɔmenɔnɔ ƒe asitɔtrɔ o) .
+- Ironwood: Womegblɔe o
 ___
 
-### [Bitfinex ƒe dɔdzikpɔlawo](https://bitfinex.com)
+### [Bitfinex ƒe nyawo](https://bitfinex.com)
 
 <a href="https://bitfinex.com">
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Bitfinex ƒe dɔdzikpɔlawo](https://bitfinex.com)
-- Eʋeawo: ALL/ZEC
-- Akɔɖeme: Keklẽ le eŋu.
-- Gaɖoɖomɔ̃: Miniti 25 
-- Ironwood: Womate ŋu awɔ esia o, adrɛs siwo me kɔ koe woate ŋu azã.
+- Nyatakakadzraɖoƒe: [Bitfinex ƒe nyawo](https://bitfinex.com)
+- Atsu kple asi: ALL/ZEC
+- Kpekpeɖeŋunana: Edzena le gaglãgbe
+- Ɣeyiɣi si Woatsɔ Ade Gadzraɖoƒe: Aɖabaƒoƒo 25 
+- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
 ___
 
-### [Coinbase ƒe ŋkɔwo:](https://coinbase.com)
+### [Coinbase ƒe ƒuƒoƒo](https://coinbase.com)
 
 <a href="https://coinbase.com">
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Coinbase ƒe ŋkɔwo:](https://coinbase.com)
-- Eʋeawo: ALL/ZEC
-- Akɔɖeme: Keklẽ le eŋu.
-- Gadzraɖoɣi: miniti 150
-- Ironwood: Womate ŋu awɔ esia o, adrɛs siwo me kɔ koe woate ŋu azã.
+- Nyatakakadzraɖoƒe: [Coinbase ƒe ƒuƒoƒo](https://coinbase.com)
+- Atsu kple asi: ALL/ZEC
+- Kpekpeɖeŋunana: Edzena le gaglãgbe
+- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 150
+- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
 ___
 
- ### [Ŋutsuvi eveawo:](https://gemini.com)
+ ### [Gemini ƒe ɣletivimefakaka](https://gemini.com)
 
 <a href="https://gemini.com">
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Ŋutsuvi eveawo:](https://gemini.com)
-- Eʋeawo: ALL/ZEC
-- Kpekpeɖeŋu: Transparent  Akɔdada siwo ŋu wotrɔ asi le kple ɖekawɔwɔ, Orchard tso November 2025 dzi
-- Gaɖoɖomɔ̃: Miniti 50 
-- Ironwood: Wode asi ɖe ga siwo woxɔna le adzame ŋu, womegblɔe be wole akpa si me o.
+- Nyatakakadzraɖoƒe: [Gemini ƒe ɣletivimefakaka](https://gemini.com)
+- Atsu kple asi: ALL/ZEC
+- Kpekpeɖeŋunana: Transparent | Shielded kple ɖekawɔwɔ ƒe gaɖeɖe, Orchard tso November 2025
+- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 50 
+- Ironwood: Wodo alɔ gaɖeɖe le ga si wotsɔ akpoxɔnu wɔe, womegblɔ pool o
 ___
 
-### [Huobi-gbe me nyawo](https://huobi.com)
+### [Huobi ƒe ŋkɔ](https://huobi.com)
 
 <a href="https://huobi.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Huobi-gbe me nyawo](https://huobi.com)
-- Eʋeawo: ALL/ZEC
-- Akɔɖeme: Keklẽ le eŋu.
-- Gaɖoɖomɔ̃: Miniti 35 
-- Ironwood: Womate ŋu awɔ esia o, adrɛs siwo me kɔ koe woate ŋu azã.
+- Nyatakakadzraɖoƒe: [Huobi ƒe ŋkɔ](https://huobi.com)
+- Atsu kple asi: ALL/ZEC
+- Kpekpeɖeŋunana: Edzena le gaglãgbe
+- Ɣeyiɣi si Woatsɔ Gade Asi: Aɖabaƒoƒo 35 
+- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
 ___
 
-### [Kraken-ƒukpowo](https://kraken.com)
+### [Kraken ƒe ŋkɔ](https://kraken.com)
 
 <a href="https://kraken.com">
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Kraken-ƒukpowo](https://kraken.com)
-- Eʋeawo: ALL/ZEC
-- Akɔɖeme: Keklẽ le eŋu.
-- Gaɖoɖeme Ɣeyiɣi: Miniti 60
-- Ironwood: Womate ŋu awɔ esia o, adrɛs siwo me kɔ koe woate ŋu azã.
+- Nyatakakadzraɖoƒe: [Kraken ƒe ŋkɔ](https://kraken.com)
+- Atsu kple asi: ALL/ZEC
+- Kpekpeɖeŋunana: Edzena le gaglãgbe
+- Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 60
+- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
 ___
 
-### [KuCoin ƒe akpa aɖe](https://kucoin.com)
+### [KuCoin ƒe ŋkɔ](https://kucoin.com)
 
 <a href="https://kucoin.com">
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [KuCoin ƒe akpa aɖe](https://kucoin.com)
-- Eʋeawo: ALL/ZEC
-- Akɔɖeme: Keklẽ le eŋu.
-- Gaɖoɖomɔ̃: Miniti 20 
-- Ironwood: Womate ŋu awɔ esia o, adrɛs siwo me kɔ koe woate ŋu azã.
+- Nyatakakadzraɖoƒe: [KuCoin ƒe ŋkɔ](https://kucoin.com)
+- Atsu kple asi: ALL/ZEC
+- Kpekpeɖeŋunana: Edzena le gaglãgbe
+- Ɣeyiɣi si Woatsɔ Ade Asie: Aɖabaƒoƒo 20 
+- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
 ___
 
-## [OKEx mewo](https://okex.com)
+## [OKX (si woyɔna tsã be OKEx) .](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [OKEx mewo](https://okex.com)
-- Eʋeawo: ALL/ZEC
-- Akɔɖeme: Keklẽ le eŋu.
-- Gaɖoɖomɔ̃: Miniti 25 
-- Ironwood: Womate ŋu awɔ esia o, adrɛs siwo me kɔ koe woate ŋu azã.
+- Nyatakakadzraɖoƒe: [OKX](https://www.okx.com)
+- Atsu kple asi: ALL/ZEC
+- Kpekpeɖeŋunana: Edzena le gaglãgbe
+- Ɣeyiɣi si Woatsɔ Ade Gadzraɖoƒe: Aɖabaƒoƒo 25 
+- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
 ___
 
-### [Robinhood (Adzagbɔ)](https://robinhood.com)
+### [Robinhood ƒe nɔnɔme](https://robinhood.com)
 
 <a href="https://robinhood.com">
     <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Robinhood (Adzagbɔ)](https://robinhood.com)
-- Ðeka: USD/ZEC. EUR/ZCE
-- Akɔfafa: Woate ŋu aɖe ga le ame si ƒe adrɛs nye t-dɔdzesi ko. Womexɔa ZEC nudzraɖoƒewo dzi o
-- Gaɖoɖomɔɣi: Womexɔa ga ɖo ɖe ame o.
-- Ironwood: Womate ŋu awɔ esia o, adrɛs siwo me kɔ koe woate ŋu azã.
+- Nyatakakadzraɖoƒe: [Robinhood ƒe nɔnɔme](https://robinhood.com)
+- Atsu kple asi: USD/ZEC | EUR/ZEC ƒe xexlẽme
+- Kpekpeɖeŋunana: Woɖea ga le t-adrɛs siwo me kɔ ɖeɖeko dzi. Womedoa alɔ ZEC ƒe gadede asi o
+- Ɣeyiɣi si Woade Gadzraɖoƒe: Womedoa alɔ gadede asi o
+- Ironwood: Meku ɖe eŋu o, adrɛs siwo me kɔ ko
 ___

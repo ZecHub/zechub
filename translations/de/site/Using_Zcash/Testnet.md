@@ -130,10 +130,10 @@ Ein **Faucet** ist ein Dienst, der kostenlose TAZ-Coins zum Testen bereitstellt:
 - Dadurch entfällt die Notwendigkeit, TAZ manuell zu minen  
 
 **Beispiel:**  
-1. Besuche ein Testnet-Faucet (z. B. [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. Besuche ein Testnet-Faucet (z. B. [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. Gib deine Testnet-Adresse ein  
 3. Fordere TAZ an  
-4. Erhalte TAZ sofort, um mit dem Testen zu beginnen  
+4. Erhalte TAZ sofort, um mit dem Testen zu beginnen
 
 **Warum das wichtig ist:**  
 - Sicheres Testen ohne ZEC zu riskieren  
