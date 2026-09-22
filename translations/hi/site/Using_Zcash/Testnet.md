@@ -130,10 +130,10 @@ TAZ को **Zcash Testnet के लिए "play money"** की तरह स�
 - TAZ को manually mine करने की आवश्यकता से बचाता है  
 
 **उदाहरण:**  
-1. किसी Testnet faucet पर जाएँ (जैसे, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. किसी Testnet faucet पर जाएँ (जैसे, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. अपना Testnet address दर्ज करें  
 3. TAZ का अनुरोध करें  
-4. Testing शुरू करने के लिए तुरंत TAZ प्राप्त करें  
+4. Testing शुरू करने के लिए तुरंत TAZ प्राप्त करें
 
 **यह क्यों महत्वपूर्ण है:**  
 - ZEC को जोखिम में डाले बिना सुरक्षित testing  

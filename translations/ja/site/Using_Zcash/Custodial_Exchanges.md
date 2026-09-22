@@ -125,13 +125,13 @@ ___
 - Ironwood: 透明アドレスのみのため該当なし
 ___
 
-## [OKEx](https://okex.com)
+## [OKX（旧称OKEx）](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- ウェブサイト: [OKEx](https://okex.com)
+- ウェブサイト: [OKX](https://www.okx.com)
 - 取引ペア: ALL/ZEC
 - 対応: 透明
 - 入金時間: 25分 

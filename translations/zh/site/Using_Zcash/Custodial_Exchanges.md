@@ -125,13 +125,13 @@ ___
 - Ironwood：不适用，仅支持透明地址
 ___
 
-## [OKEx](https://okex.com)
+## [OKX（原 OKEx）](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- 网站：[OKEx](https://okex.com)
+- 网站：[OKX](https://www.okx.com)
 - 交易对：ALL/ZEC
 - 支持：透明
 - 充值时间：25 分钟 

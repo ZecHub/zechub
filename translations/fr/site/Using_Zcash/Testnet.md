@@ -130,10 +130,10 @@ Un **faucet** est un service qui distribue gratuitement des coins TAZ pour les t
 - Évite d'avoir à miner des TAZ manuellement  
 
 **Exemple :**  
-1. Visitez un faucet Testnet (par ex., [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. Visitez un faucet Testnet (par ex., [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. Saisissez votre adresse Testnet  
 3. Demandez des TAZ  
-4. Recevez instantanément des TAZ pour commencer les tests  
+4. Recevez instantanément des TAZ pour commencer les tests
 
 **Pourquoi c'est important :**  
 - Tests sûrs sans risquer de ZEC  

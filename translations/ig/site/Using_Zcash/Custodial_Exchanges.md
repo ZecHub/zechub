@@ -4,21 +4,21 @@
 
 # <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Custodial Exchanges
 
-Ironwood bụ ọdọ mmiri echedoro nke rutere na nkwalite netwọkụ Julaị 2026. Mgbanwe ndị naanị na-ejikwa adreesị t doro anya anaghị emetụ ya aka, n'ihi ya a na-akara ha akara adịghị emetụta. Ebe mgbanwe gbanwere adresị e chebere ma ekwughị ebe ọ ga - eji mee ihe, ahịrị ahụ kwuru kama ịkọ nkọ.
+Ironwood bụ ọdọ mmiri e ji ihe nchebe kpuchie nke rutere na mmelite netwọk nke ọnwa Julaị afọ 2026. Mgbanwe ndị na-ejikwa naanị adreesị T doro anya anaghị emetụ ya aka, yabụ a na-akara ha akara na ha adịghị mkpa. Ebe mgbanwe na-ejikwa adreesị echekwara mana ekwughị ọdọ mmiri ọ na-eji, ahịrị ahụ na-ekwu ya kama ịkọ nkọ.
 
 ---
 
-### [Akpa azụ](https://backpack.exchange)
+### [Akpa Akpa](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Akpa azụ](https://backpack.exchange)
-- Di na nwunye: ZEC/USDC. ZEC-PERP
-- Nkwado: Ịkwụnye ego na ịdọrọ ihe enyela ohere. Adreesị ụdị egosighi
-- Oge nkwụnye ego: ekwughị ya.
-- Ironwood: E kwughị ya.
+- Weebụsaịtị: [Akpa Akpa](https://backpack.exchange)
+- Abụọ abụọ: ZEC/USDC | ZEC-PERP
+- Nkwado: Enyere ego na mwepụ ego. Ekwughị ụdị adreesị
+- Oge nkwụnye ego: Ekwughị ya
+- Ironwood: Ekwughị ya
 ___
 
 ### [Binance](https://binance.com)
@@ -27,24 +27,24 @@ ___
     <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Binance](https://binance.com)
-- N'ụzọ abụọ: ALL/ZEC
+- Weebụsaịtị: [Binance](https://binance.com)
+- Abụọ abụọ: ALL/ZEC
 - Nkwado: Transparent (Nkwụnye ego adreesị TEX)
-- Oge nkwụnye ego: 20 nkeji.
-- Ironwood: Ọ bụghị, naanị adreesị doro anya.
+- Oge nkwụnye ego: nkeji iri abụọ
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
-### [BitcoinVN (BTC)](https://bitcoinvn.io)
+### [BitcoinVN](https://bitcoinvn.io)
 
 <a href="https://bitcoinvn.io">
     <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [BitcoinVN (BTC)](https://bitcoinvn.io)
-- Pairs: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- Nkwado: Ihe na-enweghị ihe ọ bụla. Echebe (z-address Deposit & Withdrawal)
-- Oge nkwụnye ego: Ozugbo (ntụgharị na-abụghị njide)
-- Ironwood: E kwughị ya.
+- Weebụsaịtị: [BitcoinVN](https://bitcoinvn.io)
+- Abụọ abụọ: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- Nkwado: Transparent | Echekwara (ntinye ego na mwepụ adreesị z)
+- Oge Mgbazinye Ego: Ozugbo (mgbanwe na-abụghị nke nchekwa)
+- Ironwood: Ekwughị ya
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -53,11 +53,11 @@ ___
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Bitfinex](https://bitfinex.com)
-- N'ụzọ abụọ: ALL/ZEC
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 25 nkeji. 
-- Ironwood: Ọ bụghị, naanị adreesị doro anya.
+- Weebụsaịtị: [Bitfinex](https://bitfinex.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge Nkwụnye Ego: Nkeji iri abụọ na ise 
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -66,50 +66,50 @@ ___
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Coinbase](https://coinbase.com)
-- N'ụzọ abụọ: ALL/ZEC
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 150 nkeji.
-- Ironwood: Ọ bụghị, naanị adreesị doro anya.
+- Weebụsaịtị: [Coinbase](https://coinbase.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge nkwụnye ego: nkeji 150
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
- ### [Gemini (Ụmụ ejima)](https://gemini.com)
+ ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Gemini (Ụmụ ejima)](https://gemini.com)
-- N'ụzọ abụọ: ALL/ZEC
-- Nkwado: Transparent  Ọpụpụ echekwara na nke a haziri ahazi, Orchard kemgbe November 2025
-- Oge nkwụnye ego: 50 nkeji. 
-- Ironwood: Shielded withdrawals supported, pool not stated Igwe osisi ígwè a na-akwado ịwepụ ego n'ụzọ echekwaara ya
+- Weebụsaịtị: [Gemini](https://gemini.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent | Mwepụ nchekwa na nke ejikọtara ọnụ, Orchard kemgbe Nọvemba 2025
+- Oge nkwụnye ego: Nkeji iri ise 
+- Ironwood: A na-akwado mwepụ nchekwa, a naghị akọwapụta ọdọ mmiri
 ___
 
-### [Huobi (n'asụsụ Bekee)](https://huobi.com)
+### [Huobi](https://huobi.com)
 
 <a href="https://huobi.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Huobi (n'asụsụ Bekee)](https://huobi.com)
-- N'ụzọ abụọ: ALL/ZEC
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 35 nkeji. 
-- Ironwood: Ọ bụghị, naanị adreesị doro anya.
+- Weebụsaịtị: [Huobi](https://huobi.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge Nkwụnye Ego: Nkeji 35 
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
-### [Kraken nke dị na Japan](https://kraken.com)
+### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Kraken nke dị na Japan](https://kraken.com)
-- N'ụzọ abụọ: ALL/ZEC.
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 60 nkeji.
-- Ironwood: Ọ bụghị, naanị adreesị doro anya.
+- Weebụsaịtị: [Kraken](https://kraken.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge nkwụnye ego: nkeji iri isii
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -118,35 +118,35 @@ ___
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [KuCoin](https://kucoin.com)
-- N'ụzọ abụọ: ALL/ZEC.
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 20 nkeji. 
-- Ironwood: Ọ bụghị, naanị adreesị doro anya.
+- Weebụsaịtị: [KuCoin](https://kucoin.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge nkwụnye ego: Nkeji iri abụọ 
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
-## [OKEx (Ọ bụrụ na ọ bụghị)](https://okex.com)
+## [OKX (nke bụbu OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [OKEx (Ọ bụrụ na ọ bụghị)](https://okex.com)
-- N'ụzọ abụọ: ALL/ZEC
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 25 nkeji. 
-- Ironwood: Ọ bụghị, naanị adreesị doro anya.
+- Weebụsaịtị: [OKX](https://www.okx.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge Nkwụnye Ego: Nkeji iri abụọ na ise 
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
-### [Robinhood (Ụmụ nwoke)](https://robinhood.com)
+### [Robinhood](https://robinhood.com)
 
 <a href="https://robinhood.com">
     <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Robinhood (Ụmụ nwoke)](https://robinhood.com)
-- N'otu ụzọ abụọ: USD/ZEC. EUR/ZCE
-- Akwadoro: Mwepụ na adreesị t-transparent naanị. A naghị akwado nkwụnye ego ZEC
-- Oge nkwụnye ego: Akwadoghị itinye ego na ya .
-- Ironwood: Ọ bụghị, naanị adreesị doro anya.
+- Weebụsaịtị: [Robinhood](https://robinhood.com)
+- Abụọ abụọ: USD/ZEC | EUR/ZEC
+- Nkwado: Mwepụ ego na adreesị t doro anya naanị. Anaghị akwado nkwụnye ego ZEC
+- Oge nkwụnye ego: Anaghị akwado nkwụnye ego
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___

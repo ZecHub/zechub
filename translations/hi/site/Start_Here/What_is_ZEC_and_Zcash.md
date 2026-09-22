@@ -30,7 +30,7 @@ ZEC लोगों को permissionlessly data transfer करने का �
 
 [Zcash और privacy का पक्ष](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[एक Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem/)
+[एक संरक्षित पारिस्थितिकी तंत्र](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcash privacy सिफारिशें](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash Bitcoin की सबसे बड़ी कमी को हल करत
 
 [यह कैसे काम करता है](https://z.cash/technology/)
 
-[blockchains का HTTPS](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## संबंधित पृष्ठ
 
-- [नए उपयोगकर्ता मार्गदर्शिका](/start-here/new-user-guide) — नए ZEC धारकों के लिए चरण-दर-चरण onboarding
-- [Wallets](/using-zcash/wallets) — अपने ZEC रखने के लिए एक shielded wallet चुनें
+- [नया उपयोगकर्ता मार्गदर्शक](/start-here/new-user-guide) — नए ZEC धारकों के लिए चरण-दर-चरण परिचय
+- [वॉलेट](/using-zcash/wallets) — अपने ZEC को रखने के लिए एक shielded वॉलेट चुनें
 - [ZEC खरीदना](/using-zcash/buying-zec) — ZEC कहाँ और कैसे प्राप्त करें
-- [Shielded Pools](/using-zcash/shielded-pools) — Zcash pools transactions को private कैसे रखते हैं
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Zcash privacy के पीछे की cryptography
+- [शील्डेड पूल](/using-zcash/shielded-pools) — Zcash पूल लेनदेन को निजी कैसे रखते हैं
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Zcash गोपनीयता के पीछे की क्रिप्टोग्राफी
