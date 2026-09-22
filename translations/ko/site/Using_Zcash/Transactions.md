@@ -167,7 +167,7 @@ Zcash 거래는 지갑에 표시된다고 해서 최종 확정되는 것은 아�
 
 ## 참고
 
-발신자, 수신자, 지갑 및 서비스가 모두 지원할 때 shielded 거래를 사용하는 것이 ZEC를 가장 안전하게 사용하는 방법입니다. 일부 지갑과 거래소는 [통합 주소](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.)를 지원하며, 이는 여러 Zcash 수신자 유형을 하나의 주소로 결합할 수 있습니다.
+발신자, 수신자, 지갑 및 서비스가 모두 지원할 때 shielded 거래를 사용하는 것이 ZEC를 가장 안전하게 사용하는 방법입니다. 일부 지갑과 거래소는 [통합 주소](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)를 지원하며, 이는 여러 Zcash 수신자 유형을 하나의 주소로 결합할 수 있습니다.
 
 ## 자료
 
@@ -178,6 +178,7 @@ Zcash 거래는 지갑에 표시된다고 해서 최종 확정되는 것은 아�
 ## 관련 페이지
 
 - [지갑](/using-zcash/wallets) - shielded 전송을 지원하는 지갑과 transparent 전용 지갑
+- [결제 공개](/zcash-tech/payment-disclosures) - 발신자가 하나의 shielded 결제에 관한 선택된 세부 정보를 증명하는 방법
 - [Shielded 풀](/using-zcash/shielded-pools) - shielded 자금이 보관되는 Sapling 및 Orchard 풀
 - [메모](/using-zcash/memos) - shielded 거래와 함께 전송할 수 있는 암호화된 메시지
 - [Transparent 거래소 주소](/using-zcash/transparent-exchange-addresses) - TEX 주소와 거래소가 이를 사용하는 이유
