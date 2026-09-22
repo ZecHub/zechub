@@ -9,7 +9,7 @@ ZecHub meda asi ɖe Decentralized Exchange ƒe dɔwɔna aɖeke dzi o, taflatse w
 Wo dometɔ ɖesiaɖe: `###` agbalẽvi ɖeka le ete. https://zechub.wiki/dex.
 De dzesi, trɔ asi le eŋu alo ɖe mɔxenu aɖe ɖa; wiki la xɔae tso axa sia.
 
-### Etsɔme ƒe tameɖoɖowo
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -18,7 +18,7 @@ De dzesi, trɔ asi le eŋu alo ɖe mɔxenu aɖe ɖa; wiki la xɔae tso axa sia.
 
 ___
 
-### Nativeswap (Ðeviwo ƒe asitɔtrɔ)
+### Nativeswap
 
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
@@ -45,7 +45,7 @@ ___
 
 ___
 
-### Bison Akpaɖakavi
+### Bison Wallet
 
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
@@ -54,7 +54,7 @@ ___
 
 ___
 
-### THORSwap ƒe akpa aɖe
+### THORSwap
 
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Mɔzɔla ƒe Mɔnuɖoɖowo
+### Router Protocol
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Ðekawɔwɔ kple ame bubuwo
+### Peer
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### RocketX ƒe ŋkɔwo
+### RocketX
 
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
@@ -90,7 +90,7 @@ ___
 
 ___
 
-### THORChain (Adzraɖoƒekpo)
+### THORChain
 
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 

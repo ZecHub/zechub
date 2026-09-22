@@ -8,7 +8,7 @@ Ironwood ni adágún ààbò tó dé pẹ̀lú àtúnṣe nẹ́tíwọ́ọ̀k�
 
 ---
 
-### [Àpò ẹ̀yìn](https://backpack.exchange)
+### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
@@ -73,7 +73,7 @@ ___
 - Ironwood: Ko wulo, awọn adirẹsi ti o han gbangba nikan
 ___
 
- ### [Àwọn ọmọ-aládé](https://gemini.com)
+ ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
