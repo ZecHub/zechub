@@ -357,7 +357,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -1717,7 +1717,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -1725,7 +1725,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {
@@ -5643,7 +5643,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -7003,7 +7003,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -7011,7 +7011,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {
@@ -12691,7 +12691,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -14051,7 +14051,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -14059,7 +14059,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {
@@ -23263,7 +23263,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -24623,7 +24623,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -24631,7 +24631,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {
@@ -28549,7 +28549,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -29909,7 +29909,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -29917,7 +29917,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+brand-restore",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {

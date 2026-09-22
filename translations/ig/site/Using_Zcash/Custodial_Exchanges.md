@@ -8,7 +8,7 @@ Ironwood bụ ọdọ mmiri e ji ihe nchebe kpuchie nke rutere na mmelite netw�
 
 ---
 
-### [Akpa Akpa](https://backpack.exchange)
+### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>

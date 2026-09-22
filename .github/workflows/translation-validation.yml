@@ -94,6 +94,20 @@ jobs:
       - name: Page hygiene gate self-test
         run: node scripts/check-page-hygiene.test.mjs
 
+      # Every venue named on the exchange pages must be a protected term, or
+      # a machine engine will translate the BRAND. It did: LetsExchange became
+      # "Ẹ jẹ́ kí a pààrọ̀" ("let us exchange") in Yoruba, across 109 headings
+      # in five locales, and no gate saw it — a translated brand makes a page
+      # less English, not more, and these headings carry no links for the
+      # structure gate to miss. The only symptom was the wiki's exchange pages
+      # silently falling back to a hardcoded English list, because they build
+      # cards by matching `###` headings.
+      #
+      # Checks the DATA, not a diff, so it costs nothing and holds for pages no
+      # PR touched.
+      - name: Venue brands are protected
+        run: node scripts/check-venue-brands.test.mjs
+
       # link-health itself is a weekly network sweep and cannot run here, but
       # the part that decides which links get re-probed is pure string work and
       # fails silently when wrong — a regex that matches nothing reports a

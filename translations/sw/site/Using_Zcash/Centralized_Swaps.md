@@ -9,7 +9,7 @@ ZecHub haina kuidhinisha huduma yoyote ya kubadilishana, tafadhali fanya utafiti
 Kila mmoja wao `###` kichwa chini ni kadi moja juu ya https://zechub.wiki/using-zcash/centralizedswaps.
 Ongeza, hariri au kuondoa kizuizi hapa; wiki huchukua kutoka faili hii.
 
-### LetsExchange (Tafadhali badilishana)
+### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
@@ -18,7 +18,7 @@ Ongeza, hariri au kuondoa kizuizi hapa; wiki huchukua kutoka faili hii.
 
 ___
 
-### Makusudi ya karibu-karibu
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### Kipaji cha Bison Wallet
+### Bison Wallet
 
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
@@ -108,7 +108,7 @@ ___
 
 ___
 
-### Kuweka Float
+### Fixed Float
 
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
@@ -117,7 +117,7 @@ ___
 
 ___
 
-### Xbadilisha
+### Xchange
 
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 

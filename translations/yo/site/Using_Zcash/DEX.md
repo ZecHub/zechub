@@ -9,7 +9,7 @@ ZecHub kò fọwọ́ sí iṣẹ́ Àjọpín-ìṣàmúlò tí a pín fúnni, 
 Kálukú wọn. `###` orí kan wà nísàlẹ̀ yìí tó ń sọ nípa àwọn ohun tí a lè ṣe. https://zechub.wiki/dex.
 Fi àfikún, ṣàtúnyẹ̀wò tàbí yọ ìdì kan sílẹ̀ níbí; wiki yóò mú un láti inú fáìlì yìí.
 
-### Àwọn ohun tó fẹ́rẹ̀ẹ́ jẹ́ àfojúsùn wọn
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -18,7 +18,7 @@ Fi àfikún, ṣàtúnyẹ̀wò tàbí yọ ìdì kan sílẹ̀ níbí; wiki yó
 
 ___
 
-### Àwọn ọmọ ìbílẹ̀-ìdílé
+### Nativeswap
 
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
@@ -27,7 +27,7 @@ ___
 
 ___
 
-### Firo DEX (ìyẹn àwọn ohun èlò tó ń mú kí iná jó)
+### Firo DEX
 
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
@@ -45,7 +45,7 @@ ___
 
 ___
 
-### Owó-ìpamọ́ Bison Wallet
+### Bison Wallet
 
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
@@ -54,7 +54,7 @@ ___
 
 ___
 
-### THORSwap (ì í ì ë ¤)
+### THORSwap
 
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Àlàkalẹ̀ Onílọ́nà
+### Router Protocol
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Ẹgbẹ́ ẹlẹgbẹ́ rẹ̀
+### Peer
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### Àgbá X
+### RocketX
 
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
@@ -90,7 +90,7 @@ ___
 
 ___
 
-### THORChain (ìpínlẹ̀)
+### THORChain
 
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
@@ -99,7 +99,7 @@ ___
 
 ___
 
-### Loofta (ìyẹn ni "Ilé")
+### Loofta
 
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 

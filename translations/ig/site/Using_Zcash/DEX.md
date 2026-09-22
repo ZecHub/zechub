@@ -9,7 +9,7 @@ ZecHub anaghị akwado ọrụ Decentralized Exchange ọ bụla, biko mee nyoch
 Onye ọ bụla . `###` Isiokwu dị n'okpuru bụ otu kaadị na-egosi: https://zechub.wiki/dex.
 Tinye, dezie ma ọ bụ wepu ihe mgbochi ebe a; wiki na-eburu ya site na faịlụ a.
 
-### Ihe fọrọ nke nta ka ọ bụrụ ebumnuche
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -18,7 +18,7 @@ Tinye, dezie ma ọ bụ wepu ihe mgbochi ebe a; wiki na-eburu ya site na faịl
 
 ___
 
-### Ndị obodo Nativeswap
+### Nativeswap
 
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
@@ -45,7 +45,7 @@ ___
 
 ___
 
-### Bison Wallet (akpa ego nke bison)
+### Bison Wallet
 
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Usoro Nhazi Router
+### Router Protocol
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Onye ibe ya.
+### Peer
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### RocketX (ụgbọelu)
+### RocketX
 
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
@@ -99,7 +99,7 @@ ___
 
 ___
 
-### Loofta (ụgbọelu)
+### Loofta
 
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 

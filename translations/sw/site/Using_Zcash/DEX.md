@@ -9,7 +9,7 @@ ZecHub haina endorse yoyote maalum Decentralized Exchange huduma, tafadhali kufa
 Kila mmoja wao `###` kichwa chini ni kadi moja juu ya https://zechub.wiki/dex.
 Ongeza, hariri au kuondoa kizuizi hapa; wiki huchukua kutoka faili hii.
 
-### Makusudi ya karibu-karibu
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -45,7 +45,7 @@ ___
 
 ___
 
-### Kipaji cha Bison Wallet
+### Bison Wallet
 
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Itifaki ya Router
+### Router Protocol
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Mshirika wa rika moja
+### Peer
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### RoketiX
+### RocketX
 
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 

@@ -9,7 +9,7 @@ ZecHub meda asi ɖe asitsatsa ƒe dɔwɔna aɖeke dzi o, taflatse wɔ wò ŋutɔ
 Wo dometɔ ɖesiaɖe: `###` agbalẽvi ɖeka le ete. https://zechub.wiki/using-zcash/centralizedswaps.
 De dzesi, trɔ asi le eŋu alo ɖe mɔxenu aɖe ɖa; wiki la xɔae tso axa sia.
 
-### Let'sExchange (Míatrɔ asi)
+### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
@@ -18,7 +18,7 @@ De dzesi, trɔ asi le eŋu alo ɖe mɔxenu aɖe ɖa; wiki la xɔae tso axa sia.
 
 ___
 
-### Etsɔme ƒe tameɖoɖowo
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -27,7 +27,7 @@ ___
 
 ___
 
-### ShapeShift-ŋɔŋlɔdzesiwo
+### ShapeShift
 
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
@@ -36,7 +36,7 @@ ___
 
 ___
 
-### Stealth EX (Ðeɖiɖeme)
+### Stealth EX
 
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Exolix ƒe akpa aɖe
+### Exolix
 
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Trokodor ƒe atiwo
+### Trocodor
 
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### Bison Akpaɖakavi
+### Bison Wallet
 
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
@@ -117,7 +117,7 @@ ___
 
 ___
 
-### Xtrɔ asi le eŋu
+### Xchange
 
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
@@ -126,7 +126,7 @@ ___
 
 ___
 
-### Bitcoin VN ƒe ŋkɔwo
+### Bitcoin VN
 
 <img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
 

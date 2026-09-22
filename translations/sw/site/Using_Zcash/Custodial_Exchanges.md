@@ -8,7 +8,7 @@ Ironwood ni bwawa lililolindwa lililofika na uboreshaji wa mtandao wa Julai 2026
 
 ---
 
-### [Mkoba](https://backpack.exchange)
+### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
