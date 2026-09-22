@@ -167,7 +167,7 @@ I team di assistenza non hanno bisogno della tua frase seed, chiave di spesa, ch
 
 ## Nota
 
-Tieni presente che il modo più sicuro per utilizzare ZEC è usare transazioni schermate ogniqualvolta mittente, destinatario, wallet e servizio le supportino tutti. Alcuni wallet ed exchange supportano gli [indirizzi unificati](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), che possono combinare più tipi di destinatario Zcash in un unico indirizzo.
+Tieni presente che il modo più sicuro per utilizzare ZEC è usare transazioni schermate ogniqualvolta mittente, destinatario, wallet e servizio le supportino tutti. Alcuni wallet ed exchange supportano gli [indirizzi unificati](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA), che possono combinare più tipi di destinatario Zcash in un unico indirizzo.
 
 ## Risorse
 
@@ -178,6 +178,7 @@ Tieni presente che il modo più sicuro per utilizzare ZEC è usare transazioni s
 ## Pagine correlate
 
 - [Wallet](/using-zcash/wallets) - quali wallet supportano l'invio schermato e quali sono solo trasparenti
+- [Dichiarazioni di pagamento](/zcash-tech/payment-disclosures) - come un mittente può dimostrare dettagli selezionati di un pagamento schermato
 - [Pool schermati](/using-zcash/shielded-pools) - Sapling e Orchard, i pool in cui risiedono i tuoi fondi schermati
 - [Memo](/using-zcash/memos) - messaggi cifrati che possono accompagnare una transazione schermata
 - [Indirizzi trasparenti degli exchange](/using-zcash/transparent-exchange-addresses) - indirizzi TEX e perché gli exchange li utilizzano
