@@ -24,7 +24,7 @@ Zã repo si le etame eye nàwɔ ɖe mɔfiame siwo ku ɖe nuƒoƒoƒu ŋu dzi:
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 Bins anye the taɖodzinu ƒe agbalẽdzraɖoƒe.

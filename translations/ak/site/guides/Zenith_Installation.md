@@ -70,7 +70,7 @@ enable_cookie_auth = atoro
 
 > rmdir zcash-haskell na ɛyɛ adwuma
 
-> git clone a wɔde yɛ nneɛma https://git.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git clone a wɔde yɛ nneɛma https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
 ### Fa Depedencies no hyɛ mu
@@ -134,7 +134,7 @@ dbFaelEdin = zenith.db
 
 > cd ~/Zenith na ɔkyerɛwee
 
-## Raspi-nhyehyɛeɛ
+## Raspi-nhyehyɛe
 
 > [twe gldriver-test a aba foforo](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
@@ -142,7 +142,7 @@ dbFaelEdin = zenith.db
   
 > sudo raspi-nhyehyɛeɛ
 
-  **kɔ kɔ w'anim na paw opengl => GL (Full KMS)**
+  **kɔ kɔ anim na paw opengl => GL (Full KMS)**
 
   **san hyɛ aseɛ bio**
 
@@ -158,6 +158,6 @@ dbFaelEdin = zenith.db
 
 ## RPC deɛ no
 
-[sɛnea wɔyɛ](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
+[sɛnea wɔyɛ no](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
 
 

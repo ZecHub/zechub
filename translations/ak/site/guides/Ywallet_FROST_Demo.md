@@ -24,7 +24,7 @@ Fa atifi hɔ repo no di dwuma na di akwankyerɛ a ɛfa compiling ho akyi:
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 Bins bɛyɛ nea wɔde asi wɔn ani so folda no.

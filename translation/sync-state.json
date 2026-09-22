@@ -1353,19 +1353,19 @@
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
-      "src": "sha256:33ed1b1ffa9b1ff6190d5e5b09ebe1b32faec30fecaff9ded77d43374c9670ef",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:c3aed7392255e01845425d68202240d3987147940c6419c68ef6871061a0acdf",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:b3f85330c70cb4115879d0f1738697904b3a0e93f0acdc3bd12bc077dec7dc66",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -1505,24 +1505,24 @@
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
-      "src": "sha256:53914f8cb911fd7f4dd2c783def09f0d1ca009b74188652c9431fbe680ca3981",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:c8f08a26b7e3f2ee82e5b4dac5c186a42eabb7855098391d7f80ec2a377d026f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     },
     "guides/Visualizing_the_Zcash_Network.md": {
-      "src": "sha256:f5d8e089d52e2e3a148b7d260f8974f38fbbbe09573bcf7647e6d5007b35b414",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:e8e552593e32b1a0f0f518f20b76f62d22009b3dd043bf7a71a2ad03418f4b6f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
-      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "src": "sha256:65f17887eb2fc9f3623c4866bd043f146239144b4e67760b9859c3fe211d8afb",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -1545,11 +1545,11 @@
       "edited": false
     },
     "guides/Zenith_Installation.md": {
-      "src": "sha256:5816889d472190b7b2f33bd2b2448bbb5c8dd46e857fee76f3d57a63da0b2539",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:b8ce5a333e1bbeb218af13f80941b366a0bee4172f8be2235d4591d7257586c0",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
@@ -6631,19 +6631,19 @@
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
-      "src": "sha256:33ed1b1ffa9b1ff6190d5e5b09ebe1b32faec30fecaff9ded77d43374c9670ef",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:c3aed7392255e01845425d68202240d3987147940c6419c68ef6871061a0acdf",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:b3f85330c70cb4115879d0f1738697904b3a0e93f0acdc3bd12bc077dec7dc66",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -6783,24 +6783,24 @@
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
-      "src": "sha256:53914f8cb911fd7f4dd2c783def09f0d1ca009b74188652c9431fbe680ca3981",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:c8f08a26b7e3f2ee82e5b4dac5c186a42eabb7855098391d7f80ec2a377d026f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     },
     "guides/Visualizing_the_Zcash_Network.md": {
-      "src": "sha256:f5d8e089d52e2e3a148b7d260f8974f38fbbbe09573bcf7647e6d5007b35b414",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:e8e552593e32b1a0f0f518f20b76f62d22009b3dd043bf7a71a2ad03418f4b6f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
-      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "src": "sha256:65f17887eb2fc9f3623c4866bd043f146239144b4e67760b9859c3fe211d8afb",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -6823,11 +6823,11 @@
       "edited": false
     },
     "guides/Zenith_Installation.md": {
-      "src": "sha256:5816889d472190b7b2f33bd2b2448bbb5c8dd46e857fee76f3d57a63da0b2539",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:b8ce5a333e1bbeb218af13f80941b366a0bee4172f8be2235d4591d7257586c0",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
@@ -13679,19 +13679,19 @@
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
-      "src": "sha256:33ed1b1ffa9b1ff6190d5e5b09ebe1b32faec30fecaff9ded77d43374c9670ef",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "src": "sha256:c3aed7392255e01845425d68202240d3987147940c6419c68ef6871061a0acdf",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:b3f85330c70cb4115879d0f1738697904b3a0e93f0acdc3bd12bc077dec7dc66",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -13831,24 +13831,24 @@
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
-      "src": "sha256:53914f8cb911fd7f4dd2c783def09f0d1ca009b74188652c9431fbe680ca3981",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:c8f08a26b7e3f2ee82e5b4dac5c186a42eabb7855098391d7f80ec2a377d026f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Visualizing_the_Zcash_Network.md": {
-      "src": "sha256:f5d8e089d52e2e3a148b7d260f8974f38fbbbe09573bcf7647e6d5007b35b414",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "src": "sha256:e8e552593e32b1a0f0f518f20b76f62d22009b3dd043bf7a71a2ad03418f4b6f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
-      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "src": "sha256:65f17887eb2fc9f3623c4866bd043f146239144b4e67760b9859c3fe211d8afb",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -24243,19 +24243,19 @@
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
-      "src": "sha256:33ed1b1ffa9b1ff6190d5e5b09ebe1b32faec30fecaff9ded77d43374c9670ef",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:c3aed7392255e01845425d68202240d3987147940c6419c68ef6871061a0acdf",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:b3f85330c70cb4115879d0f1738697904b3a0e93f0acdc3bd12bc077dec7dc66",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -24395,24 +24395,24 @@
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
-      "src": "sha256:53914f8cb911fd7f4dd2c783def09f0d1ca009b74188652c9431fbe680ca3981",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:c8f08a26b7e3f2ee82e5b4dac5c186a42eabb7855098391d7f80ec2a377d026f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Visualizing_the_Zcash_Network.md": {
-      "src": "sha256:f5d8e089d52e2e3a148b7d260f8974f38fbbbe09573bcf7647e6d5007b35b414",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "src": "sha256:e8e552593e32b1a0f0f518f20b76f62d22009b3dd043bf7a71a2ad03418f4b6f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
-      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "src": "sha256:65f17887eb2fc9f3623c4866bd043f146239144b4e67760b9859c3fe211d8afb",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -29529,19 +29529,19 @@
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
-      "src": "sha256:33ed1b1ffa9b1ff6190d5e5b09ebe1b32faec30fecaff9ded77d43374c9670ef",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "src": "sha256:c3aed7392255e01845425d68202240d3987147940c6419c68ef6871061a0acdf",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:b3f85330c70cb4115879d0f1738697904b3a0e93f0acdc3bd12bc077dec7dc66",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -29681,24 +29681,24 @@
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
-      "src": "sha256:53914f8cb911fd7f4dd2c783def09f0d1ca009b74188652c9431fbe680ca3981",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "src": "sha256:c8f08a26b7e3f2ee82e5b4dac5c186a42eabb7855098391d7f80ec2a377d026f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Visualizing_the_Zcash_Network.md": {
-      "src": "sha256:f5d8e089d52e2e3a148b7d260f8974f38fbbbe09573bcf7647e6d5007b35b414",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "src": "sha256:e8e552593e32b1a0f0f518f20b76f62d22009b3dd043bf7a71a2ad03418f4b6f",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
-      "src": "sha256:b5f0f1cb72da06410e367f7d7e8d748ed75bea57865c28a574237e2d9471bf0e",
-      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "src": "sha256:65f17887eb2fc9f3623c4866bd043f146239144b4e67760b9859c3fe211d8afb",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -29721,11 +29721,11 @@
       "edited": false
     },
     "guides/Zenith_Installation.md": {
-      "src": "sha256:5816889d472190b7b2f33bd2b2448bbb5c8dd46e857fee76f3d57a63da0b2539",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "src": "sha256:b8ce5a333e1bbeb218af13f80941b366a0bee4172f8be2235d4591d7257586c0",
+      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
