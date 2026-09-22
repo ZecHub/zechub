@@ -2,52 +2,50 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Kusaidia Kujenga ZecHub 
+# Saidia Kujenga ZecHub 
 
-Kama wewe ni mwanachama wa jamii Zcash, na unataka kuchangia kujenga ZecHub, kuna mambo machache ambayo ni super kusaidia.
+Kama wewe ni mwanachama wa jumuiya ya Zcash, na unataka kuchangia katika kujenga ZecHub, kuna mambo machache ambayo yana manufaa sana.
 
-Kuratibu viungo kwa ajili ya jarida na kuongeza yao kwa jarida la GitHub ukurasa: -> [Bonyeza hapa kwa maelekezo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+Tengeneza viungo vya jarida na uviongeze kwenye ukurasa wa GitHub wa jarida: -> [Bonyeza hapa kwa maelekezo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Ukweli kuangalia wiki docs, kupendekeza hariri, na kupendekezwa kurasa mpya katika Github
+Angalia hati za wiki, pendekeza marekebisho, na upendekeze kurasa mpya katika Github
 
-Unda maudhui ya video katika makundi yafuatayo:
+Unda maudhui ya video katika kategoria zifuatazo:
 ```
 * Zcash explainer videos
 * Zcash wallet guide/tutorials
 * Third-party application demos
 ```
 
-Kuzalisha miundo kama vile mabango / graphics / uhuishaji kwa Zcash & faragha mazingira 
+Tengeneza miundo kama vile mabango/michoro/uhuishaji kwa ajili ya mfumo ikolojia wa Zcash na Faragha 
 
-Tafsiri yoyote ya kurasa zilizopo wiki.
+Tafsiri yoyote kati ya kurasa zilizopo za wiki.
 
-Ripoti ya mende
+Kuripoti hitilafu
 
-#### Kwa maelezo juu ya kiasi cha zawadi, tafadhali soma ukurasa wetu wa kuchangia -> [hapa](https://zechub.wiki/contribute/contributing-guide#content).
+#### Kwa maelezo zaidi kuhusu kiasi cha fadhila, tafadhali soma ukurasa wetu wa kuchangia -> [hapa](https://zechub.wiki/contribute/contributing-guide#content).
 
-Sisi kuchapisha masuala kwa ajili ya kazi ambayo sisi sasa kuwa na zawadi wazi kila Jumatatu. Unaweza kupendekeza zawadi pia! Hasa hizi zinapatikana katika ZEC Bounties.
+Tunachapisha matoleo ya kazi ambazo kwa sasa tuna zawadi zinazofunguliwa kila Jumatatu. Unaweza kupendekeza zawadi pia! Kimsingi hizi zinapatikana katika ZEC Bounties.
 
-[Zekbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
-
-
-
-[ZEC Bounties](https://bounties.zechub.wiki/)
-
-[ZecHub Github Masuala](https://github.com/ZecHub/zechub/issues)
-
-[ZecHub-Wiki Github Masuala](https://github.com/ZecHub/zechub-wiki/issues)
-
-[ZecHub-Namada Github Masuala](https://app.dework.xyz/zechub-2424)
+![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 
-Kama kuna njia nyingine ungependa kuchangia, tafadhali ujumbe ZecHub ([@ZecHub](https://twitter.com/zechub)) kwenye Twitter au Jiunge na [Discord](https://discord.gg/zcash).
+[Zawadi za ZEC](https://bounties.zechub.wiki/)
+
+[Masuala ya Github ya ZecHub](https://github.com/ZecHub/zechub/issues)
+
+[Masuala ya Github ya ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
+
+
+
+Ikiwa kuna njia zingine ambazo ungependa kuchangia, tafadhali tuma ujumbe kwa ZecHub ([@ZecHub](https://twitter.com/zechub)) kwenye Twitter au Jiunge nasi [Ugomvi](https://discord.gg/zcash).
 
 ____
 
-**Ili kufanya malipo ZecHub inahitaji wachangiaji wote kujaza fomu ya tamko na Jina lao & Shielded:**
+**Ili kufanya malipo, ZecHub inawataka wachangiaji wote kujaza fomu ya tamko yenye Jina lao na Lindwa:**
 
-** ((Zcash  Namada  Penumbra  Ycash) anwani**
+**( Zcash | Namada | Penumbra | Ycash ) anwani**
 
 ____
 

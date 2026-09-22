@@ -14,7 +14,7 @@ Woɖo Zcash Ecosystem Security Lead ƒe dɔa to ZCG ƒe kpekpeɖeŋunana me be w
 
 ## ZCG Dedienɔnɔ & Afɔkuwo Ŋuti Nyatakakawo Gbɔgblɔ ƒe Dɔwɔna
 
-The [ZCG Dedienɔnɔ & Afɔkuwo Ŋuti Nyatakakawo Gbɔgblɔ ƒe Dɔwɔna](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) na ɖoɖo aɖe si dzi woato aɖe dedienɔnɔ ƒe afɔkuwo afia le ɖoɖo nu le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa katã me.
+The [ZCG Dedienɔnɔ & Afɔkuwo Ŋuti Nyatakakawo Gbɔgblɔ ƒe Dɔwɔna](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) na ɖoɖo si dzi woato aɖe dedienɔnɔ ƒe afɔkuwo afia le ɖoɖo nu le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa katã me.
 
 ## Dedienɔnɔ Ŋuti Nyatakaka Siwo Wowɔ Nyitsɔ Laa (ƒe 2026)
 
@@ -33,5 +33,5 @@ Electric Coin Company kple Zcash Foundation siaa wɔ ɖeka kple Agbanɔamedzi ƒ
 
 - [Zcash Dedienɔnɔ Ŋuti Aɖaŋuɖolawo](https://github.com/zcash/zcash/security/advisories)
 - [Zebra Dedienɔnɔ Ŋuti Aɖaŋuɖolawo](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Ka nya ta tso Afɔku aɖe ŋu le zcash/zcash me](https://github.com/zcash/zcash/security/policy) — tsɔ ɖe Electric Coin Company ƒe adrɛs si dzi woŋlɔ nya sia ɖo, si gbɔ womate ŋu aɖo o la teƒe.
-- [Ka nya ta tso Afɔku aɖe ŋu na ZF](https://zfnd.org/contact/)
+- [Ka nya ta tso Afɔku aɖe ŋu le zcash/zcash me](https://github.com/zcash/zcash/security/policy)
+- [Ka nya ta tso Afɔku aɖe ŋu na ZF](https://github.com/ZcashFoundation/zebra/security/policy)

@@ -6,7 +6,7 @@
 
 Ne ènye Zcash habɔbɔa me tɔ, eye nèdi be yeawɔ akpa aɖe le ZecHub tutu me la, nu ʋee aɖewo li siwo kpena ɖe ame ŋu ŋutɔ.
 
-Dzra kadodowo ɖo na nyadzɔdzɔgbalẽa eye nàtsɔ wo akpe ɖe nyadzɔdzɔgbalẽa ƒe GitHub axa ŋu: -> [Zi afisia dzi hena mɔfiamewo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+Dzra kadodowo ɖo na nyadzɔdzɔgbalẽa eye nàtsɔ wo akpe ɖe nyadzɔdzɔgbalẽa ƒe GitHub axa ŋu: -> [Zi afisia dzi be nàkpɔ mɔfiamewo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
 Nyateƒenyawo lé ŋku ɖe wiki docs ŋu, do susu ɖa be woatrɔ asi le wo ŋu, eye nàdo axa yeyewo ɖe ŋgɔ le Github me
 
@@ -23,11 +23,11 @@ Gblɔ wiki ƒe axa siwo li la dometɔ ɖesiaɖe.
 
 Nyatakaka tso vodadawo ŋu
 
-#### Ne èdi nyatakaka bubuwo tso nunana ƒe ga homewo ŋu la, taflatse xlẽ míaƒe nudzɔdzɔ ƒe axa -> [le afisia](https://zechub.wiki/contribute/contributing-guide#content).
+#### Ne èdi nyatakaka tsitotsito tso bounty ga homewo ŋu la, taflatse xlẽ míaƒe nudzɔdzɔ ƒe axa -> [afi sia](https://zechub.wiki/contribute/contributing-guide#content).
 
 Míeɖoa tatawo ɖe dɔ siwo míewɔna fifia be bounties ʋuna Memleɖa ɖesiaɖe. Àte ŋu aɖo aɖaŋu le nunanawo hã ŋu! Esiawo koŋue wokpɔna le ZEC Bounties.
 
-![zecbounties ƒe agbalẽwo](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
+![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 
@@ -37,15 +37,13 @@ Míeɖoa tatawo ɖe dɔ siwo míewɔna fifia be bounties ʋuna Memleɖa ɖesiaɖ
 
 [ZecHub-Wiki Github Nyawo](https://github.com/ZecHub/zechub-wiki/issues)
 
-[ZecHub-Namada Github Nyawo](https://app.dework.xyz/zechub-2424)
 
 
-
-Ne mɔ bubuwo li siwo dzi nàdi be yeadzɔ nu le la, taflatse ŋlɔ gbedasi ɖe ZecHub ([@ZecHub](https://twitter.com/zechub)) le Twitter dzi alo Wɔ ɖeka kple míaƒe [Masɔmasɔ](https://discord.gg/zcash).
+Ne mɔ bubu aɖewo li siwo dzi nàto akpe asi ɖe eŋu la, taflatse ŋlɔ gbedasi ɖe ZecHub ([@ZecHub ƒe nyawo](https://twitter.com/zechub)) le Twitter alo Wɔ ɖeka kple míaƒe [Masɔmasɔ](https://discord.gg/zcash).
 
 ____
 
-**Be woateŋu awɔ fexexe la, ZecHub bia tso nudzɔlawo katã si be woakpe gbeƒãɖeɖe ƒe agbalẽvi ɖo kple woƒe Name & Shielded:**
+**Be woateŋu axe fewo la, ZecHub bia tso nudzɔlawo katã si be woakpe gbeƒãɖeɖe ƒe agbalẽvi ɖo kple woƒe Name & Shielded:**
 
 **( Zcash | Namada | Penumbra | Ycash ) ƒe adrɛs**
 
