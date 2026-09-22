@@ -39,5 +39,5 @@ Botschafter haben kreative Freiheit bei den Aktivitäten, die sie planen, sodass
 ## Bewerbung als Botschafter
 
 Du kannst dich auch beteiligen durch:
-- Beiträge zu Bounties von [ZecHub DAO](https://app.dework.xyz/zechub-2424)
+- Beiträge zu [ZEC Bounties](https://bounties.zechub.wiki/)
 - Beitritt zum [Zcash Global Discord](https://discord.gg/zcash)

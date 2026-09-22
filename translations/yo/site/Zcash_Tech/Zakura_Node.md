@@ -2,111 +2,133 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ìkànnì Zakura
+# Zakura Node
 
-> 🇧🇷 [Ìtumọ̀ èdè Potogí](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [Versão em Portuguese](/zechubglobal/zcashbrasil/zcashtech/zakura)
 
-Zakura jẹ́ òmìnira, ìmọ̀-ìmọ̀ ìmúṣẹ gbogbo nóòdu fún Zcash. [Zebra](Zebra_Full_Node.md) ati ki o ni idagbasoke nipasẹ kan ifowosowopo laarin ** Valar Group** ati ** Project Tachyon, Zakura nfun dramatically yiyara isopọmọ, abinibi block pruning, ati a ibaramu Layer fun ogún `zcashd` ìtumọ̀ 1.0.0 ni a tú sílẹ̀ ní July 15, 2026.
+Zakura jẹ́ ìṣiṣẹ́ nódù ọ̀fẹ́, orísun gbogbo nódù tí ó ṣí sílẹ̀ fún Zcash, tí a ṣe fún ìwọ̀n. [Zebra](Zebra_Full_Node.md) àti nípasẹ̀ ìfọwọ́sowọ́pọ̀ láàrín **Valar Group** àti **Project Tachyon**, Zakura ń ṣe ìmúṣẹpọ̀ kíákíá, ìgé igi ìbílẹ̀, àti ipele ìbáramu fún ohun ìní. `zcashd` irinṣẹ́. Ẹ̀yà 1.0.0 ni a tú síta ní ọjọ́ kẹẹ̀ẹ́dógún oṣù Keje, ọdún 2026.
 
 ---
 
 ## TL;DR
 
-- Zakura jẹ **ìfohùnwọ̀n ìjùmọ́pọ̀ Zcash tó kún fún gbogbo èròjà**  àfikún sí Zebra àti zcashd, tí a pín láti inú Zebra.
-- Àjọsopọ̀ Blockchain jẹ́ nǹkan bíi *5x yiyara ju Zebra lọ; ìmúṣẹ bootstrapping snapshot parí ní **ìsàlẹ̀ ìṣẹ́jú méjì**.
-- **Ipamole bulọọki abinibi** jẹ ki awọn oniṣẹ lati ṣiṣẹ gbogbo akopọ pẹlu aaye disiki ti o kere ju (~ 11 GB ṣajọ snapshot vs. 300 GB fun kikun Zebra node).
-- A **zcashd RPC compatibility mode** jẹ ki awọn apamọwọ ati isopọpọ ti o wa tẹlẹ ṣiṣẹ laisi atunṣe.
-- **Awọn igbeyewo P2P gbigbe Layer** (ti o ni idiwọ nipasẹ aiyipada) fojusi sub-500ms bulọọki itankale pẹlu DoS-duro gossip.
-- O ni ibamu pẹlu **Ironwood (NU6.3)**, igbesoke nẹtiwọọki Zcash ti muu ṣiṣẹ larin 2026.
-- Ti o jẹ oludari nipasẹ Sean Bowe (oludasile Zcash, Project Tachyon) ati Dev Ojha (Awọn ẹgbẹ Valar).
+- Zakura is a **consensus-compatible Zcash full node** — an alternative to Zebra and zcashd, forked from Zebra.
+- Ìṣọ̀kan Blockchain yára ju Zebra lọ ní nǹkan bí **5×; ìfàsẹ́yìn ìfàsẹ́yìn fọ́tò ìgbàlódé parí láàárín **lábẹ́ ìṣẹ́jú 2**.
+- **Pípa bulọọki abinibi** ngbanilaaye awọn oniṣẹ lati ṣiṣẹ node kikun pẹlu aaye disiki ti o dinku pupọ (~11 GB aworan ti a ge ni afiwe si 300 GB fun node Zebra kikun).
+- Ipo ibamu **zcashd RPC** jẹ ki awọn apamọwọ ati awọn iṣọpọ ti o wa tẹlẹ ṣiṣẹ laisi iyipada.
+- Fíìmù ìrìnnà P2P tí a ń ṣe àyẹ̀wò** (tí a ti parẹ́ nípasẹ̀ àìṣeédá) ń fojú sí ìdàgbàsókè àwọn bulọ́ọ̀kì tí ó wà ní ìsàlẹ̀-500ms pẹ̀lú ọ̀rọ̀ àsọtẹ́lẹ̀ tí ó lè dènà DoS.
+- Ní ìbámu pẹ̀lú **Ironwood (NU6.3)**, ìgbéga nẹ́tíwọ́ọ̀kì Zcash ṣiṣẹ́ ní àárín ọdún 2026.
+- **Zakura Common** (v1.3.0, August 2026) mú kí àwọn àpò ìkọ̀kọ̀ tí a lò láti kọ́ àwọn ìṣòwò àdáni yára: láti ju ìṣẹ́jú-àáyá mẹ́ta lọ sí ìsàlẹ̀ 200 ms ní ọ̀pọ̀lọpọ̀ ìgbà, gẹ́gẹ́ bí ìlànà Zakura ṣe sọ.
+- Láti ọwọ́ **Sean Bowe** (olùdásílẹ̀ Zcash, Project Tachyon) àti **Dev Ojha** (Ẹgbẹ́ Valar) ni wọ́n ṣe olórí rẹ̀.
 
 ---
 
 ## Kí ni Zakura?
 
-Zakura is a Zcash full node designed from the ground up to be production-ready at scale. While it shares consensus compatibility with Zebra — meaning it validates and follows the same Zcash protocol rules — Zakura introduces significant engineering improvements aimed at lowering the barrier to running a Zcash full node.
+Zakura jẹ́ nódù Zcash tí a ṣe láti ìpìlẹ̀ láti múra sílẹ̀ fún iṣẹ́-ṣíṣe ní ìwọ̀n. Bó tilẹ̀ jẹ́ pé ó ní ìbáramu pẹ̀lú Zebra — èyí tí ó túmọ̀ sí wípé ó fìdí múlẹ̀ àti pé ó ń tẹ̀lé àwọn òfin ìlànà Zcash kan náà — Zakura ṣe àgbékalẹ̀ àwọn àtúnṣe ìmọ̀-ẹ̀rọ pàtàkì tí a gbé kalẹ̀ láti dín ìdènà sí ṣíṣiṣẹ́ nódù Zcash full.
 
-Àjọṣepọ̀ àárín àwọn ẹgbẹ́ yìí ni iṣẹ́ tí wọ́n ń pè ní Project Tachyon (tí Sean Bowe, ọ̀kan lára àwọn onímọ̀ nípa ìkọsílẹ̀ ti Zcash ṣe olórí rẹ) àti Valar Group (ti Dev Ojha jẹ olórí wọn). Àwọn méjèèjì jọ máa n ṣiṣẹ́ lórí bí a ó ṣe mú kí ìlànà Zcash dára sí i. Zakura sì wà gẹ́gẹ́ bíi òpó ìpèsè fún ìgbòkègbodò náà.
+Iṣẹ́ àgbékalẹ̀ náà jẹ́ iṣẹ́ àpapọ̀ láàárín **Iṣẹ́ àgbékalẹ̀ Tachyon** (tí Sean Bowe, ọ̀kan lára àwọn onímọ̀ ẹ̀rọ ìkọ̀wé Zcash àtilẹ̀wá ṣe olórí) àti **Valar Group** (tí Dev Ojha ṣe olórí). Wọ́n jọ dojúkọ àwọn àtúnṣe ìlànà Zcash ìran tó ń bọ̀, Zakura sì ń ṣiṣẹ́ gẹ́gẹ́ bí ibi ìtọ́kasí fún iṣẹ́ náà.
 
 ---
 
-## Àwọn Ànímọ́ Pàtàkì Rẹ̀
+## Àwọn Ohun Pàtàkì
 
-### 5x Iyara Ṣiṣẹpọ Ẹsẹ-ẹlẹgbẹ
+### Ìmúṣiṣẹ́pọ̀ Ẹ̀wọ̀n Tó Yára Jù 5×
 
-Zakura ṣe aṣeyọri ni iwọn 5x yiyara iṣọkan blockchain ti a fiwe si Zebra. Eyi jẹ ki o wulo pupọ fun awọn oniṣẹ ti o nilo lati yika akopọ kan yarayara tabi imularada lati akoko idaduro .
+Zakura ṣe àṣeyọrí ìṣiṣẹ́pọ̀ blockchain tó tó nǹkan bí 5× ní ìfiwéra pẹ̀lú Zebra. Èyí mú kí ó wúlò fún àwọn olùṣiṣẹ́ tí wọ́n nílò láti yí nódù kan padà kíákíá tàbí kí wọ́n padà bọ̀ sípò lẹ́yìn àkókò ìdádúró.
 
-### Ìwòrán ìjápọ̀ Bootstrapping
+### Àkójọpọ̀ Ìṣíṣẹ́ Àkọ́kọ́
 
-Zakura tẹ̀síwájú àwọn àwòrán ìsínkálẹ́ńbà tí a ti ṣe kókó, èyí tó dín àkókò ìṣàmúlò àkọkọ kù:
+Zakura ṣe atẹjade awọn aworan pq ti a ti kọ tẹlẹ ti o dinku akoko amuṣiṣẹpọ akọkọ ni pataki:
 
-ì í ì ¬ë¦¬í ̧ ë ¤. Bootstrap Method: Time:
+| Ọ̀nà Bootstrap | Àkókò |
 |-----------------|------|
-Àwòrán inú àpamọ́. ~ Ìṣẹ̀jú 37.
-Àwòrán tí a gé ní ìsàlẹ̀. **Léyìí tó dín kù sí ìṣẹ́jú méjì**
-Zebra (ìṣètò ìsọ̀kan) ~20 wákàtí.
+| Àwòrán ìpamọ́ | ~37 ìṣẹ́jú |
+| Fọ́tò tí a gé kúrò | **Lábẹ́ ìṣẹ́jú 2** |
+| Zebra (full sync) | ~20 hours |
 
-Awọn aworan ti a fi ge ni o to ** 11 GB, gbigba agbara kan ** 680 × yiyara ** bootstrap node akawe si isọdọkan lati ipilẹṣẹ.
+Àwọn àwòrán tí a gé ní ìpele **11 GB**, èyí tí ó mú kí ìdènà ìsopọ̀ **680× yára** ṣeé lò ní ìfiwéra pẹ̀lú ìsopọ̀mọ́ra láti inú ìṣẹ̀dá.
 
-### Ìkórè Àpáàdì Tí Wọ́n Fi Ń Ṣẹ̀dá Ilé
+### Ìgé Bọ́ọ̀lù Àbínibí
 
-Zakura supports configurable block pruning, allowing node operators to define how much chain history to retain. This makes it practical to run a full node on hardware with limited storage — useful for validators, developers, and infrastructure providers who do not need the full historical chain.
+Zakura ṣe atilẹyin fun gige bulọọki ti a le ṣeto, ti o fun awọn oniṣẹ node laaye lati ṣalaye iye itan pq ti o yẹ ki o tọju. Eyi jẹ ki o wulo lati ṣiṣẹ node kikun lori ohun elo pẹlu ibi ipamọ to lopin - wulo fun awọn oludasilẹ, awọn olupilẹṣẹ, ati awọn olupese amayederun ti ko nilo pq itan kikun.
 
-### zcashd RPC Compatibility Mode
+### Ipò ìbáramu zcashd RPC
 
-Zakura ní nínú ìtòlẹ́sẹẹsẹ tí ó ṣe àtúnṣe sí àwọn ohun èlò ìgbàlódé. `zcashd` JSON-RPC interface. Awọn apamọwọ ti o wa tẹlẹ, awọn paṣipaarọ ati awọn iṣọpọ ti o gbẹkẹle lori `zcashd` Àwọn RPC lè yí padà sí Zakura láìṣe ìyípadà kóòdì.
+Zakura pẹlu ipo ibamu kan ti o tun ṣe ẹda ti o jẹ tirẹ `zcashd` Ìbáṣepọ̀ JSON-RPC. Àwọn àpò ìpamọ́, pàṣípààrọ̀, àti àwọn ìṣọ̀kan tó wà tẹ́lẹ̀ tí ó gbẹ́kẹ̀lé `zcashd` Àwọn RPC lè yípadà sí Zakura láìsí pé wọ́n nílò àyípadà kódì.
 
-### Àdánwò P2P Transport Layer
+### Fẹ́ẹ̀lì Ìrìnnà P2P ìdánwò
 
-Zakura n gbe ọkọ pẹlu iran-ọmọ ti o tẹle ni ipele gbigbe ẹlẹgbẹ, lọwọlọwọ ** a ṣe idiwọ nipasẹ aiyipada**. Nigbati o ba jẹ ki o ṣiṣẹ, awọn ibi -afẹde rẹ:
+Zakura n gbe pẹlu ipele gbigbe ẹgbẹ-si-ẹgbẹ iran tuntun, ti a ti mu ṣiṣẹ ni bayi **ailewu nipasẹ aiyipada**. Nigbati a ba mu ṣiṣẹ, o fojusi:
 
-- Sub-500ms ti o buru julọ-iṣipopada pipin kọja nẹtiwọọki naa.
-- Àkójọpọ Mempool fún àtúnṣe ìsòwò tó gbéṣẹ́ jùlọ
-- Àkọsílẹ̀ ìsọkúsọ tí ó ní ààbò DoS láti mú kí nẹ́tàkì le sí i.
+- Ìtankalẹ̀ àwọn ìdènà tó burú jùlọ ní ìsàlẹ̀ 500ms káàkiri nẹ́tíwọ́ọ̀kì náà
+- Ijọpọ Mempool fun iṣipopada iṣowo to munadoko diẹ sii
+- Ilana agbasọ ọrọ ti o ni idiwọ DoS lati mu agbara aabo nẹtiwọọki pọ si
 
-Layer yii ṣe afihan iṣaju ti awọn ilọsiwaju eto-ọna Zcash iwaju ni idagbasoke labẹ Project Tachyon.
+Fẹlẹfẹlẹ yii duro fun awotẹlẹ ti awọn ilọsiwaju ipele nẹtiwọọki Zcash ti n ṣe agbekalẹ labẹ Iṣẹ akanṣe Tachyon.
 
-### Igi irin (NU6.3) Ti o baamu
+### Igi Ironwood (NU6.3) Ibamu
 
-Zakura ni ibamu patapata pẹlu igbesoke nẹtiwọọki Ironwood (NU6.3), ti a mu ṣiṣẹ lori Zcash mainnet ni arin 2026.
+Zakura ni ibamu patapata pẹlu igbesoke nẹtiwọọki Ironwood (NU6.3), ti a mu ṣiṣẹ lori mainnet Zcash ni aarin ọdun 2026.
 
 ---
 
-## Bí Zakura ṣe ní ìbáṣepọ̀ pẹ̀lú àwọn Nọ́òdì Zcash Mìíràn
+## Zakura Wọpọ: Ṣíṣe ìkọ̀kọ̀ àpò ìpamọ́ tó yára
+
+Ní oṣù kẹjọ ọdún 2026, ẹgbẹ́ Zakura ṣe àgbékalẹ̀ Zakura Common, àpapọ̀ àwọn ìkàwé ìkọ̀kọ̀ tí àwọn àpò àti nódù Zcash gbára lé. Zakura yípadà sí àpò tuntun ní ẹ̀yà 1.3.0, Vizor Wallet sì wà lára àwọn àpò àkọ́kọ́ tí ó so pọ̀ mọ́ ọn.
+
+![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](/content-images/zakuracommonspeedups.webp)
+
+Gẹ́gẹ́ bí àwọn ìlànà Zakura fúnra rẹ̀:
+
+| Iṣẹ́ | Ìyárasípayá |
+|--|--|
+| Ìṣẹ̀dá ìdánilójú lórí fóònù alágbéka | ju 14× lọ (kọ̀ǹpútà alágbèéká: ju 5× lọ) |
+| Ṣíṣe ìdènà Sinsemilla | ju 21× lọ |
+| ìfìdíkalẹ̀ zk-SNARK | 4–8× |
+| Ìṣàyẹ̀wò ìṣàyẹ̀wò | ju 1.5× lọ |
+
+Fún àwọn olùlò, àyípadà tó hàn gbangba jùlọ ni àkókò ìdúró. Kíkọ́ ìṣòwò àdáni kan máa ń gba àpò owó ju ìṣẹ́jú mẹ́ta lọ. Pẹ̀lú Zakura Common, ó lè gba tó 200 ms ní ọ̀pọ̀lọpọ̀ ìgbà. Àkókò yìí ni ẹ̀rọ rẹ fi ń múra ìṣòwò náà sílẹ̀, kì í ṣe àkókò tí nẹ́tíwọ́ọ̀kì nílò láti fìdí rẹ̀ múlẹ̀.
+
+
+---
+
+## Báwo ni Zakura ṣe ní ìbáṣepọ̀ pẹ̀lú àwọn Zcash Nodes mìíràn
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
-Èdè: C++ (tí a pín láti Bitcoin) Rust.Rust (ti a pín kúrò nínú Zebra).
-Ìyí. Àìnígbàgbé Active. Active (v1.0.0, July 2026)
-Ìsọ̀rọ̀-ìṣàmúlò ìsopọ́. Àpilẹ̀kọ: ~1x~5x kíákíá jùlọ.
- Ìkórè ìdìpọ̀ No.No.Yes.
-| zcashd RPC compat | Native | Partial | Yes (compat mode) |
-ì í ì ¬í ë ¤. No.No.Yes (kìí ju 2ë¶)
-ìwòye P2P. Rárá o. Kò sí rárá (Opt-in) Bẹẹni, ó wà nínú ìtòlẹ́sẹẹsẹ náà.
+| Èdè | C++ (a fi fork lati Bitcoin) | Ipata | Ipata (a fi fork lati Zebra) |
+| Ipo | Ti kuna | Ti nṣiṣe lọwọ | Ti nṣiṣe lọwọ (v1.0.0, Oṣu Keje 2026) |
+| Iyara ìṣiṣẹ́pọ̀ | Ìpìlẹ̀ | ~1× | ~5× yára |
+| Gígé ìdènà | Rárá | Rárá | Bẹ́ẹ̀ni |
+| zcashd RPC compat | Ìbílẹ̀ | Apá kan | Bẹ́ẹ̀ni (ipò compat) |
+| Àkójọpọ̀ ìfàsẹ́yìn | Rárá | Rárá | Bẹ́ẹ̀ni (ó kéré sí ìṣẹ́jú 2) |
+| P2P ìdánwò | Rárá | Rárá | Bẹ́ẹ̀ni (ìbáṣepọ̀) |
 
 ---
 
-## Bí Mo Ṣe Bẹ̀rẹ̀ Sí Í Kọ Ọ́
+## Bibẹrẹ
 
-Àwọn àyè ìkórè, àwọn àwòrán ojú-ìwòye àti ìwé ìṣètò wà ní:
+Àwọn àṣàyàn ìgbàsókè, àwòrán ìṣàfihàn, àti àwọn ìwé ìṣètò wà ní:
 
-- **Ìsọfúnni nípa ìkórè àti ètò:** [zakura.com/ìkórè ìsọfúnni](https://zakura.com/download/)
-- ** Àwọn àwòrán ẹ̀rọ-ìpèsè:** [zakura.com/snapshots (ìdánwòrán ojú-ọjọ́)](https://zakura.com/snapshots/)
-- **Àkọlé orísun:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **Gbigbasilẹ ati itọsọna eto:** [zakura.com/download](https://zakura.com/download/)
+- **Àwọn àwòrán ẹ̀wọ̀n:** [zakura.com/snapshots](https://zakura.com/snapshots/)
+- **Kóòdù orísun:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
 
 ---
 
-## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
+## Àwọn ojú ìwé tó jọra
 
-- [Zebra Ìkànnì Pípéye](Zebra_Full_Node.md)  ìsòkè Zcash full node Zakura ni a pín lati inu
-- [Àkọsílẹ̀ Zaino Indexer](Zaino.md)  ohun elo atójútó ti o da lori Rust to ni ibamu pẹlu Zebra ati Zakura
-- [Àwọn Ìkànnì Pípéye](Full_Nodes.md)  àtúnyẹ̀wò àwọn yíyàn ojú-ìpín Zcash
-- [Àwọn Ìkànnì Lightwallet Nodes](Lightwallet_Nodes.md)  àwọn àyípadà tí kò ní láárí fún oníbàárà rẹ̀
+- [Zebra Full Node](Zebra_Full_Node.md) — a ti yọ Zakura kúrò ní òkè Zcash full node láti
+- [Atọ́ka Zaino](Zaino.md) — atọka ti o da lori Rust ti o ni ibamu pẹlu Zebra ati Zakura
+- [Àwọn Nódù Kíkún](Full_Nodes.md) — Àkótán àwọn àṣàyàn nódù kíkún Zcash
+- [Àwọn Nódù Àpò Ìmọ́lẹ̀](Lightwallet_Nodes.md) - Awọn aṣayan alabara fẹẹrẹ fẹẹrẹ
 
-## Àwọn Owó-ìṣúnná owó
+## Àwọn ohun àlùmọ́nì
 
-- [A ṣafihan Zakura  ìfilọlẹ](https://zakura.com/announcements/introducing-zakura/)
-- [Zakura GitHub Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:](https://github.com/zakura-core/zakura)
-- [Ìkànnì Zakura](https://zakura.com/)
+- [Ni lenu Zakura - fii](https://zakura.com/announcements/introducing-zakura/)
+- [Zakura GitHub](https://github.com/zakura-core/zakura)
+- [Oju opo wẹẹbu Zakura](https://zakura.com/)
 - [Zakura lórí X/Twitter](https://x.com/ZakuraZcash)
-- [Iṣẹ́ Àkànṣe Tachyon](https://electriccoin.co/blog/)
+- [Iṣẹ́ Tachyon](https://electriccoin.co/blog/)
+- [Ìkéde tí a wọ́pọ̀ sí Zakura](https://zakura.com/announcements/zakura-common/)

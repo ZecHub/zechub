@@ -75,4 +75,4 @@ Zcash має активну глобальну присутність у X. Ос
 - [Вікі ZecHub](https://zechub.wiki)
 - [Хаб грантів Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Глобальні амбасадори Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - огляд програми в цій вікі (zcashambassadors.com не працює)
-- [ZecHub DAO на Dework](https://app.dework.xyz/zechub-2424)
+- [ZEC Винагороди](https://bounties.zechub.wiki/)

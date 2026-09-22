@@ -63,7 +63,7 @@
 ## الموارد
 
 - [Zcash: توصيات الخصوصية والأمان](https://z.cash/support/security/privacy-security-recommendations/)
-- [نظام بيئي محمي (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [نظام بيئي محمي (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [كيف تعمل تقنية Zcash](https://z.cash/technology/)
 - [مستكشف Zcash من Blockchair](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@
 - [أساسيات Zcash](/start-here/what-is-zec-and-zcash)
 - [المحافظ](/using-zcash/wallets)
 - [المجمّعات المحمية](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

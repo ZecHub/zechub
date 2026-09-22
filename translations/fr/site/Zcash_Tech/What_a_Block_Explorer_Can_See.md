@@ -63,7 +63,7 @@ Si vous interrogez les données brutes, les champs de l’expéditeur et du dest
 ## Ressources
 
 - [Zcash : recommandations de confidentialité et de sécurité](https://z.cash/support/security/privacy-security-recommendations/)
-- [Un écosystème protégé (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Un écosystème protégé (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Comment fonctionne la technologie Zcash](https://z.cash/technology/)
 - [Explorateur Zcash de Blockchair](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@ Si vous interrogez les données brutes, les champs de l’expéditeur et du dest
 - [Les bases de Zcash](/start-here/what-is-zec-and-zcash)
 - [Wallets](/using-zcash/wallets)
 - [Pools protégés](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

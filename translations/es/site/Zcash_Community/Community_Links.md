@@ -71,8 +71,8 @@ Zcash tiene una presencia global activa en X. Cuentas clave para seguir:
 
 ## Recursos
 
-- [Sitio web de la comunidad de Zcash](https://www.zcashcommunity.com/)
-- [Wiki de ZecHub](https://zechub.wiki)
-- [Centro de subvenciones de Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Embajadores globales de Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - resumen del programa en esta wiki (zcashambassadors.com está fuera de línea)
-- [ZecHub DAO en Dework](https://app.dework.xyz/zechub-2424)
+- [Zcash Sitio web de la comunidad](https://www.zcashcommunity.com/)
+- [ZecHub Wiki](https://zechub.wiki)
+- [Zcash Centro de subvenciones](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Zcash Embajadores globales](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - resumen del programa en esta wiki (zcashambassadors.com está fuera de línea)
+- [ZEC Recompensas](https://bounties.zechub.wiki/)

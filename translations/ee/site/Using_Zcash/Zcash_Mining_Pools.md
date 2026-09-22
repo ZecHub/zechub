@@ -2,7 +2,7 @@
 
 ## Nukae nye Zcash Mining Pools?
 
-Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo ɖekaɖekawo te ŋu ƒoa woƒe kɔmpiutaŋusẽ (hashrate) nu ƒu. To nunɔamesiwo ƒoƒo ƒu me la, gomekpɔlawo dzia woƒe mɔnukpɔkpɔ si li be woakpɔ network blocks gbɔ ɖe edzi eye wokpɔa ga si woxena ɣesiaɣi, si le sue wu tsɔ wu be woaɖo ŋu ɖe solo mining ƒe lotodada ƒe ɖoɖo si womate ŋu agblɔ ɖi o ŋu.
+Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo dometɔ ɖesiaɖe te ŋu ƒoa woƒe kɔmpiutaŋusẽ (hashrate) nu ƒu. To nunɔamesiwo ƒoƒo ƒu me la, gomekpɔlawo dzia woƒe mɔnukpɔkpɔ si li be woakpɔ network blocks gbɔ ɖe edzi eye wokpɔa ga si woxena ɣesiaɣi, si le sue wu tsɔ wu be woaɖo ŋu ɖe solo mining ƒe lotodada ƒe ɖoɖo si womate ŋu agblɔ ɖi o ŋu.
 
 ---
 
@@ -23,13 +23,13 @@ Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo ɖekaɖekawo te ŋu ƒoa 
 
 ---
 
-### [Luxor ƒe nya](https://luxor.tech/)
+### [Luxor ƒe ŋkɔ](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Luxor%20Pool.png?raw=true" alt="Luxor Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Luxor ƒe nya](https://luxor.tech/)
+- Nyatakakadzraɖoƒe: [Luxor ƒe ŋkɔ](https://luxor.tech/)
 - Ame ŋutɔ ƒe Fexexe: Ẽ
 - Ta Ƒomevi: Fetu Ðe Go Ðe Ame Ŋu
 - Tadeaguƒe ƒe fetu: 3%
@@ -62,13 +62,13 @@ Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo ɖekaɖekawo te ŋu ƒoa 
 
 ---
 
-### [Nanopool ƒe ƒuƒoƒo](https://zec.nanopool.org/login)
+### [Nanopool ƒe ƒuƒoƒo](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Nanopool ƒe ƒuƒoƒo](https://zec.nanopool.org/login)
+- Nyatakakadzraɖoƒe: [Nanopool ƒe ƒuƒoƒo](https://zec.nanopool.org/)
 - Ame ŋutɔ ƒe Fexexe: Ao
 - Ta Ƒomevi: Fetu Ðeka Mamlɛtɔ N 
 - Tadeaguƒe ƒe fetu: 1%
@@ -122,7 +122,7 @@ Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo ɖekaɖekawo te ŋu ƒoa 
 
 - Nyatakakadzraɖoƒe: [Zhash ƒe nya](https://zcash.zhash.pro/stats)
 - Ame ŋutɔ ƒe Fexexe: Ao
-- Pool Ƒomevi: Fe Ðe Mamlɛtɔ N Shares
+- Pool Ƒomevi: Fetu Ðe Mamlɛtɔ N Gakpɔkpɔwo Me
 - Tadeaguƒe ƒe fetu: 0%
 
 ---
@@ -135,8 +135,8 @@ Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo ɖekaɖekawo te ŋu ƒoa 
 
 - Nyatakakadzraɖoƒe: [Foundry Zcash Tomenukuƒe ƒe Ta](https://foundrydigital.com/foundry-zcash-pool/)
 - Ame ŋutɔ ƒe Fexexe: Ao
-- Pool Ƒomevi: Fe Ðe Mamlɛtɔ N Shares
-- Poolfe: Menye Le Dutoƒo o
+- Pool Ƒomevi: Fetu Ðe Mamlɛtɔ N Gakpɔkpɔwo Me
+- Tadeaguƒefe: Menye Le Dutoƒo o
 
 ---
 
@@ -148,7 +148,7 @@ Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo ɖekaɖekawo te ŋu ƒoa 
 
 - Nyatakakadzraɖoƒe: [suprnova ƒe ŋkɔ](https://zec.suprnova.cc/)
 - Ame ŋutɔ ƒe Fexexe: Ao
-- Pool Ƒomevi: Fe Ðe Mamlɛtɔ N Shares
+- Pool Ƒomevi: Fetu Ðe Mamlɛtɔ N Gakpɔkpɔwo Me
 - Tadeaguƒe ƒe fetu: 0,5% - 1%
 
 ---

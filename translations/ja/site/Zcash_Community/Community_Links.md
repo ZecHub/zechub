@@ -75,4 +75,4 @@ Zcashは、X上でも活発なグローバル存在を持っています。フ�
 - [ZecHub Wiki](https://zechub.wiki)
 - [Zcash助成金ハブ](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcashグローバルアンバサダー](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - このWiki上のプログラム概要（zcashambassadors.com はオフラインです）
-- [Dework上のZecHub DAO](https://app.dework.xyz/zechub-2424)
+- [ZEC バウンティ](https://bounties.zechub.wiki/)

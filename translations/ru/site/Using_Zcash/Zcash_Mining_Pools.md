@@ -62,13 +62,13 @@
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Сайт: [Nanopool](https://zec.nanopool.org/login)
+- Сайт: [Nanopool](https://zec.nanopool.org/)
 - Приватные выплаты: Нет
 - Тип пула: Оплата за последние N долей 
 - Комиссия пула: 1%

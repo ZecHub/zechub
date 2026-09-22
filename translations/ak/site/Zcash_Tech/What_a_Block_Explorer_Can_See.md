@@ -8,7 +8,7 @@
 
 - Wɔ Bitcoin so no, block explorer kyerɛ biribiara: nea ɔde kɔmaa, nea ogye, ne sika dodow.
 - Wɔ Zcash so no, ɛno yɛ nokware ma dwumadi a ɛda adi (t-address) nkutoo.
-- Obi a ɔhwehwɛ nneɛma mu betumi ahu sɛ sika rehyɛn ɔtare a wɔabɔ ho ban no mu na afi mu, nanso ɛnyɛ nea ɛkɔ so wɔ mu no.
+- Ɔhwehwɛfo betumi ahu sika sɛ ɛrehyɛn ɔtare a wɔabɔ ho ban no mu na efi mu, nanso ɛnyɛ nea ɛkɔ so wɔ mu no.
 - Nkitahodi a wɔabɔ ho ban koraa (z kosi z) da no adi sɛ obiara nni hɔ a ɔde kɔma, obiara nni hɔ a ogye, ne sika biara.
 - Ɔmanfo "kyɛm rate" akontaabu biara yɛ fam, efisɛ kokoam dwumadi a edi mũ no yɛ nea wontumi nhu fi abɔnten.
 
@@ -28,19 +28,19 @@ Esiane sɛ ɛsom bo abien nti, bo betumi akɔ akwan anan so: nea ɛda adi kɔ ne
 
 Ɔmanfo nhwehwɛmufo te sɛ [Blockchair a wɔde si dan mu](https://blockchair.com/zcash) betumi akenkan pefee sɛ:
 
-- Ka biara a ɛda adi koraa (t kosi t) a wotua, awiei kosi awiei.
+- Tutua biara a ɛda adi koraa (t kosi t), awiei kosi awiei.
 - Sika a ɛhyɛn ɔtare a wɔabɔ ho ban no mu (ɔfã a ɛda adi pefee ne sika dodow no).
 - Sika a efi ɔtare a wɔabɔ ho ban no mu (ɔfã a ɛda adi pefee ne sika dodow no).
-- ZEC nyinaa a wɔkura wɔ shielded pool biara mu, a ɛyɛ ɔmanfoɔ sɛdeɛ ɛbɛyɛ a network no bɛtumi akyerɛ sɛ wɔammɔ sika biara amfiri hwee mu.
+- ZEC nyinaa a wɔkura wɔ shielded pool biara mu, a ɛyɛ ɔmanfoɔ enti network no bɛtumi akyerɛ sɛ wɔammɔ sika biara amfiri hwee mu.
 
 Ne tiaatwa mu no, wotumi hu ɔtare a wɔabɔ ho ban no anoano. Wubetumi ahwɛ sɛnea bo a ɛsom no trɛw kɔ mu na efi mu ba.
 
-## Nea ɔkwantufo ntumi nhu
+## Nea obi a ɔhwehwɛ nneɛma mu ntumi nhu
 
-Ɔmanfo nhwehwɛmufo ntumi nkenkan sɛ:
+Baguam nhwehwɛmufo ntumi nkenkan sɛ:
 
 - Nkitahodi a wɔabɔ ho ban koraa (z kosi z). Nea ɔde kɔmaa, nea ogye, ne sika dodow no tra hɔ ahintaw.
-- Nea ɔde kɔmaa anaa nea ogye no wɔ sika biara a wɔabɔ ho ban akyi.
+- Nea ɔde kɔmaa anaa nea ogye no wɔ sikatua biara a wɔabɔ ho ban akyi.
 - Address a wɔabɔ ho ban ankorankoro bi a ɛkari pɛ.
 - Nea ɛba sika so bere a wɔakɔ ɔtare no mu pɛn no.
 
@@ -56,14 +56,14 @@ Bisa raw data no na shielded sender ne receiver fields no san ba kwa. Ɛnyɛ nea
 
 ## Fa di dwuma
 
-- Fa sika kotoku a ɛyɛ default to address ahorow a wɔabɔ ho ban, te sɛ [Zodl](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
+- Fa sika kotoku a ɛyɛ default to address ahorow a wɔabɔ ho ban, te sɛ [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Sɛ wo nsa ka ZEC wɔ address a ɛda adi pefee so a, fa kɔ address a wɔabɔ ho ban mu ansa na wode adi dwuma.
 - Tua ka kɔ address ahorow a wɔabɔ ho ban so wɔ baabi a wubetumi. Tua biara a ɛda adi pefee no yɛ ɔmanfo de koraa; nea wɔabɔ no kyɛm no nyɛ saa.
 
 ## Akadeɛ
 
 - [Zcash: kokoamsɛm ne ahobammɔ ho nyansahyɛ ahorow](https://z.cash/support/security/privacy-security-recommendations/)
-- [Abɔde a nkwa wom a wɔabɔ ho ban (Electric Coin Company) .](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Abɔde a nkwa wom a wɔabɔ ho ban (Electric Coin Company) .](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Sɛnea Zcash mfiridwuma yɛ adwuma](https://z.cash/technology/)
 - [Blockchair Zcash nhwehwɛmufo](https://blockchair.com/zcash)
 
@@ -72,8 +72,8 @@ Bisa raw data no na shielded sender ne receiver fields no san ba kwa. Ɛnyɛ nea
 - [Zcash mfitiaseɛ nsɛm](/start-here/what-is-zec-and-zcash)
 - [Sika kotoku](/using-zcash/wallets)
 - [Atare a wɔabɔ ho ban](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 
-*Sɛ wopɛ sɛ wode ka ho anaa wohyɛ nyansa sɛ wɔnyɛ nsakrae wɔ wiki krataafa yi mu a, yɛsrɛ wo fa w'ani kyerɛ... [ZecHub GitHub ho nsɛm a wɔakyerɛw](https://github.com/ZecHub/zechub) na fa twetwe adesrɛ bɛmena.*
+*Sɛ wopɛ sɛ wode ka ho anaasɛ wohyɛ nyansa sɛ wɔnyɛ nsakrae wɔ wiki krataafa yi mu a, yɛsrɛ wo fa w'ani kyerɛ... [ZecHub GitHub ho nsɛm a wɔakyerɛw](https://github.com/ZecHub/zechub) na fa twetwe adesrɛ bɛmena.*

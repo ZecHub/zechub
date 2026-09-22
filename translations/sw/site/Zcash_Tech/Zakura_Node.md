@@ -2,111 +2,133 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zakura Node (Kituo cha Zakura)
+# Njia ya Zakura
 
-> 🇧🇷 [Versión en Português Tafsiri ya Kihispania](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [Versão em Kireno](/zechubglobal/zcashbrasil/zcashtech/zakura)
 
-Zakura ni bure, wazi chanzo kamili node utekelezaji kwa Zcash, kujengwa kwa ajili ya kiwango. Forked kutoka [Zebra](Zebra_Full_Node.md) na maendeleo kupitia ushirikiano kati ya ** Valar Group** na ** Mradi Tachyon, Zakura hutoa kasi sana synchronization, asili block kupogoa, na safu utangamano kwa urithi wa `zcashd` Toleo 1.0.0 lilitoka Julai 15, 2026.
+Zakura ni utekelezaji wa nodi kamili bila malipo, chanzo huria kwa Zcash, uliojengwa kwa kiwango kikubwa. Imegawanywa kutoka [Zebra](Zebra_Full_Node.md) na kuendelezwa kupitia ushirikiano kati ya **Valar Group** na **Project Tachyon**, Zakura hutoa usawazishaji wa haraka sana, kupogoa vitalu asilia, na safu ya utangamano kwa ajili ya urithi. `zcashd` uundaji wa zana. Toleo la 1.0.0 lilitolewa mnamo Julai 15, 2026.
 
 ---
 
 ## TL;DR
 
-- Zakura ni ** makubaliano-ambayo yanaendana Zcash full node**  mbadala ya Zebra na zcashd, forked kutoka kwa Zebra.
-- blockchain usawazishaji ni takriban ** 5x kasi zaidi kuliko Zebra**; snapshot bootstrapping kukamilika katika ** chini ya dakika 2 **.
-- ** Native block kupogoa** inaruhusu waendeshaji kuendesha node kamili na nafasi ya chini sana disk (~ 11 GB pruned snapshot dhidi 300 GB kwa full Zebra Node).
-- A ** zcashd RPC utangamano mode** inaruhusu mifuko ya fedha zilizopo na ushirikiano kazi bila marekebisho.
-- ** majaribio P2P usafiri safu** (kuzimwa kwa default) malengo chini ya 500ms kuzuia kuenea na DoS- sugu uvumi.
-- Inapatana na ** Ironwood (NU6.3)**, uboreshaji wa mtandao wa Zcash ulioamilishwa katikati ya 2026.
-- Kuongozwa na Sean Bowe (Zcash mwanzilishi, Mradi Tachyon) na Dev Ojha (Valar Group).
+- Zakura ni nodi kamili ya Zcash inayoendana na makubaliano** — mbadala wa Zebra na zcashd, iliyotenganishwa na Zebra.
+- Usawazishaji wa Blockchain ni takriban **5× haraka kuliko Zebra**; usanidi wa snapshot bootstrapping hukamilika ndani ya **chini ya dakika 2**.
+- **Kupogoa kwa vitalu asilia** huruhusu waendeshaji kuendesha nodi kamili yenye nafasi ndogo sana ya diski (picha iliyokatwa ya ~ GB 11 dhidi ya GB 300 kwa nodi kamili ya Zebra).
+- Hali ya utangamano wa **zcashd RPC** huruhusu pochi na miunganisho iliyopo kufanya kazi bila marekebisho.
+- **Safu ya usafirishaji ya majaribio ya P2P** (imezimwa kwa chaguo-msingi) hulenga uenezaji wa vizuizi vya chini ya 500ms kwa kutumia uvumi unaostahimili DoS.
+- Sambamba na **Ironwood (NU6.3)**, uboreshaji wa mtandao wa Zcash uliamilishwa katikati ya mwaka wa 2026.
+- **Zakura Common** (v1.3.0, Agosti 2026) huharakisha matumizi ya pochi za usimbaji wa siri kujenga miamala ya kibinafsi: kutoka zaidi ya sekunde 3 hadi chini ya milisekunde 200 katika visa vingi, kulingana na vipimo vya Zakura.
+- Ikiongozwa na **Sean Bowe** (mwanzilishi mwenza wa Zcash, Project Tachyon) na **Dev Ojha** (Valar Group).
 
 ---
 
 ## Zakura ni nini?
 
-Zakura is a Zcash full node designed from the ground up to be production-ready at scale. While it shares consensus compatibility with Zebra — meaning it validates and follows the same Zcash protocol rules — Zakura introduces significant engineering improvements aimed at lowering the barrier to running a Zcash full node.
+Zakura ni nodi kamili ya Zcash iliyoundwa kutoka chini hadi kuwa tayari kwa uzalishaji kwa kiwango kikubwa. Ingawa inashiriki utangamano wa makubaliano na Zebra - ikimaanisha kuwa inathibitisha na kufuata sheria zile zile za itifaki ya Zcash - Zakura inaleta maboresho makubwa ya uhandisi yanayolenga kupunguza kizuizi cha kuendesha nodi kamili ya Zcash.
 
-The project is a joint effort between **Project Tachyon** (led by Sean Bowe, one of Zcash's original cryptographic engineers) and **Valar Group** (led by Dev Ojha). Together they focus on next-generation Zcash protocol improvements, and Zakura serves as the reference node for that work.
+Mradi huu ni juhudi za pamoja kati ya **Project Tachyon** (inayoongozwa na Sean Bowe, mmoja wa wahandisi wa awali wa kriptografia wa Zcash) na **Valar Group** (inayoongozwa na Dev Ojha). Kwa pamoja wanazingatia maboresho ya itifaki ya Zcash ya kizazi kijacho, na Zakura hutumika kama nodi ya marejeleo ya kazi hiyo.
 
 ---
 
-## Sifa Muhimu za Mfano wa Yesu
+## Vipengele Muhimu
 
-### 5 × kasi mlolongo wa usawazishaji
+### Usawazishaji wa Mnyororo wa Haraka wa 5×
 
-Zakura hufikia karibu 5x kasi blockchain synchronization ikilinganishwa na Zebra. Hii inafanya kwa kiasi kikubwa zaidi ya vitendo kwa waendeshaji ambao wanahitaji spin up node haraka au kupona kutoka downtime.
+Zakura inafikia ulandanishi wa blockchain wa takriban mara 5 kwa kasi zaidi ikilinganishwa na Zebra. Hii inafanya iwe rahisi zaidi kwa waendeshaji wanaohitaji kuzungusha nodi haraka au kupona kutokana na muda wa kutofanya kazi.
 
-### Snapshot Bootstrapping
+### Uundaji wa Bootstrap wa Picha Muhtasari
 
-Zakura inachapisha picha za awali zilizojengwa ambazo hupunguza sana wakati wa kwanza wa usawazishaji:
+Zakura huchapisha picha za mnyororo zilizotengenezwa tayari ambazo hupunguza sana muda wa awali wa kusawazisha:
 
-Njia ya Bootstrap Muda.
+| Mbinu ya Kuweka Mkanda | Muda |
 |-----------------|------|
-Picha ya kumbukumbu. ~ Dakika 37.
-Picha ya muda mfupi. ** Chini ya dakika 2**
- Zebra (sauti kamili) ~20 hours.
+| Picha ya kumbukumbu | ~dakika 37 |
+| Picha iliyokatwa | **Chini ya dakika 2** |
+| Zebra (usawazishaji kamili) | ~saa 20 |
 
-Pruned snapshots ni takriban ** 11 GB, kuwezesha a ** 680 × kasi** node bootstrap ikilinganishwa na kusawazisha kutoka genesis.
+Picha zilizokatwa ni takriban GB 11**, kuwezesha uanzishaji wa nodi ya **680× yenye kasi zaidi** ikilinganishwa na ulandanishaji kutoka kwa genesis.
 
-### Kukata Majani kwa Asili
+### Kupogoa kwa Vitalu vya Asili
 
-Zakura inasaidia block configurable kupogoa, kuruhusu node waendeshaji kufafanua jinsi mlolongo historia kuhifadhi. Hii inafanya kuwa vitendo kuendesha full Node juu ya vifaa na uhifadhi mdogo  muhimu kwa validators, watengenezaji, na watoa miundombinu ambao hawana haja kamili mlolingo kihistoria.
+Zakura inasaidia kupogoa vitalu vinavyoweza kusanidiwa, hivyo kuruhusu waendeshaji wa nodi kufafanua ni historia ngapi ya mnyororo ihifadhiwe. Hii inafanya iwe rahisi kuendesha nodi kamili kwenye vifaa vyenye hifadhi ndogo — muhimu kwa wathibitishaji, watengenezaji, na watoa huduma za miundombinu ambao hawahitaji mnyororo kamili wa kihistoria.
 
-### zcashd RPC Upatano Mode
+### Hali ya Utangamano wa RPC ya zcashd
 
-Zakura ni pamoja na hali ya utangamano kwamba huzaa urithi wa `zcashd` JSON-RPC interface.po wallets, kubadilishana na ushirikiano kwamba kutegemea juu ya `zcashd` RPCs unaweza kubadili kwa Zakura bila kuhitaji mabadiliko code.
+Zakura inajumuisha hali ya utangamano ambayo huzaa tena urithi `zcashd` Kiolesura cha JSON-RPC. Pochi, kubadilishana, na miunganisho iliyopo ambayo inategemea `zcashd` RPC zinaweza kubadili hadi Zakura bila kuhitaji mabadiliko ya msimbo.
 
-### Jaribio P2P Usafirishaji safu
+### Safu ya Usafiri ya Majaribio ya P2P
 
-Zakura meli na kizazi cha pili peer-to-peer usafiri safu, sasa **lemaza kwa default**. Wakati kuwezeshwa, ni malengo:
+Zakura husafirishwa ikiwa na safu ya usafirishaji wa kizazi kijacho wa rika-kwa-rika, ambayo kwa sasa **imezimwa kwa chaguo-msingi**. Inapowashwa, inalenga:
 
-- Chini ya 500ms mbaya kesi block kuenea katika mtandao
-- Mempool mkusanyiko kwa ajili ya relay shughuli ufanisi zaidi
-- DoS-kuvumilia uvumi itifaki ya kuboresha mzunguko wa mtandao ujasiri
+- Uenezaji wa vizuizi vya hali mbaya zaidi vya Sub-500ms kote kwenye mtandao
+- Mkusanyiko wa Mempool kwa ajili ya uwasilishaji wa miamala wenye ufanisi zaidi
+- Itifaki ya uvumi inayostahimili DoS ili kuboresha ustahimilivu wa mtandao
 
-Safu hii inawakilisha hakikisho la maboresho ya kiwango cha mtandao wa Zcash yanayotengenezwa chini ya Mradi Tachyon.
+Safu hii inawakilisha hakikisho la maboresho ya baadaye ya kiwango cha mtandao wa Zcash yanayotengenezwa chini ya Project Tachyon.
 
-### Ironwood (NU6.3) Inapatana na Msaada wa Mfumo
+### Ironwood (NU6.3) Inaoana
 
-Zakura inaambatana kikamilifu na uboreshaji wa mtandao wa Ironwood (NU6.3), ulioamilishwa kwenye Zcash mainnet katikati ya 2026.
+Zakura inaendana kikamilifu na uboreshaji wa mtandao wa Ironwood (NU6.3), ulioamilishwa kwenye mtandao mkuu wa Zcash katikati ya mwaka wa 2026.
 
 ---
 
-## Jinsi Zakura inahusiana na Nodes nyingine za Zcash
+## Zakura Common: Uandishi wa Fasihi wa Pochi ya Haraka
+
+Mnamo Agosti 2026 timu ya Zakura ilitoa Zakura Common, seti ya uma zilizoharakishwa za maktaba za usimbaji fiche ambazo pochi na nodi za Zcash hutegemea. Zakura ilibadilisha hadi kwenye mrundiko mpya katika toleo la 1.3.0, na Vizor Pochi ni miongoni mwa pochi za kwanza kuiunganisha.
+
+![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](/content-images/zakuracommonspeedups.webp)
+
+Kulingana na vipimo vya Zakura mwenyewe:
+
+| Operesheni | Kuongeza kasi |
+|--|--|
+| Uundaji wa uthibitisho kwenye simu | zaidi ya 14× (kompyuta ya mezani: zaidi ya 5×) |
+| Sinsemilla hashing | zaidi ya 21× |
+| uthibitisho wa zk-SNARK | 4–8× |
+| Uondoaji wa usimbaji fiche wa majaribio | zaidi ya 1.5× |
+
+Kwa watumiaji, mabadiliko yanayoonekana zaidi ni muda wa kusubiri. Kujenga muamala wa kibinafsi unaotumika kuchukua pochi kwa zaidi ya sekunde tatu. Kwa Zakura Common inaweza kuchukua chini ya milisekunde 200 katika visa vingi. Huu ni muda ambao kifaa chako hutumia kuandaa muamala, si muda ambao mtandao unahitaji kuuthibitisha.
+
+
+---
+
+## Jinsi Zakura Inavyohusiana na Nodi Nyingine za Zcash
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
-Lugha: C++ (iliyotokana na Bitcoin) Rust.Rust (iliyoundwa kutoka Zebra).
-Hali. Imefutwa Active. Active (v1.0.0, Julai 2026)
-Kasi ya usawazishaji. Kiwango cha msingi ni ~1x~5x haraka zaidi.
-Kuondoa vipande vya miti. Hapana, hapana. Ndiyo.
-zcashd RPC compat. Native. Sehemu ya. Ndiyo (mode compact).
- Kuanza kwa picha ya papo hapo. No.No. Yes (chini ya dakika 2)
-Majaribio ya P2P. Hapana. Hapana, ndiyo (kuchagua).
+| Lugha | C++ (iliyogawanywa kutoka Bitcoin) | Kutu | Kutu (iliyogawanywa kutoka Zebra) |
+| Hali | Imeacha Kutumika | Inayotumika | Inayotumika (v1.0.0, Julai 2026) |
+| Kasi ya kusawazisha | Msingi | ~1× | ~5× haraka zaidi |
+| Kupogoa vitalu | Hapana | Hapana | Ndiyo |
+| zcashd RPC compat | Asili | Sehemu | Ndiyo (hali ya compat) |
+| Kiambatisho cha picha ya haraka | Hapana | Hapana | Ndiyo (chini ya dakika 2) |
+| P2P ya Majaribio | Hapana | Hapana | Ndiyo (kujiandikisha) |
 
 ---
 
-## Kuanza Kazi
+## Kuanza
 
-Download chaguzi, snapshots na nyaraka Configuration zinapatikana katika:
+Chaguo za kupakua, picha za haraka, na nyaraka za usanidi zinapatikana katika:
 
-- ** Download & kuanzisha mwongozo:** [zakura.com/download](https://zakura.com/download/)
-- ** Chain snapshots:** [zakura.com/snapshots](https://zakura.com/snapshots/)
-- ** Nambari ya chanzo:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **Mwongozo wa kupakua na kuanzisha:** [zakura.com/download](https://zakura.com/download/)
+- **Picha za mnyororo:** [zakura.com/snapshots](https://zakura.com/snapshots/)
+- **Msimbo chanzo:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
 
 ---
 
 ## Kurasa Zinazohusiana
 
-- [Zebra Full Node (Njia ya Kuunganisha)](Zebra_Full_Node.md)  upstream Zcash full node Zakura ilikuwa forked kutoka
-- [Zaino Indexing Kifaa cha Kuonyesha Maonyesho ya Picha](Zaino.md)  indexer Rust-msingi sambamba na Zebra na Zakura
-- [Nodes kamili](Full_Nodes.md)  maelezo ya jumla ya Zcash full node options
-- [Nodes Lightwallet](Lightwallet_Nodes.md)  rahisi mteja mbadala
+- [Kifundo Kamili cha Zebra](Zebra_Full_Node.md) — sehemu kamili ya Zcash ya juu ya mto Zakura ilikatwa kutoka
+- [Kiashiria cha Zaino](Zaino.md) — kiashiria kinachotegemea kutu kinachoendana na Zebra na Zakura
+- [Nodi Kamili](Full_Nodes.md) — muhtasari wa chaguo kamili za nodi za Zcash
+- [Nodi za Lightwallet](Lightwallet_Nodes.md) — njia mbadala za mteja mwepesi
 
 ## Rasilimali
 
-- [Kuanzisha Zakura  tangazo](https://zakura.com/announcements/introducing-zakura/)
+- [Tunakuletea Zakura - tangazo](https://zakura.com/announcements/introducing-zakura/)
 - [Zakura GitHub](https://github.com/zakura-core/zakura)
 - [Tovuti ya Zakura](https://zakura.com/)
 - [Zakura kwenye X/Twitter](https://x.com/ZakuraZcash)
 - [Mradi wa Tachyon](https://electriccoin.co/blog/)
+- [Tangazo la Zakura Common](https://zakura.com/announcements/zakura-common/)

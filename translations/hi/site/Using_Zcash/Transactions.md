@@ -134,7 +134,7 @@ Zcash Ethereum-शैली की gas इकाइयों का उपयो
 
 - Seed phrase या recovery phrase
 - Spending key, private key या wallet backup
-- पूर्ण viewing key
+- Full Viewing Key
 - ऐसे screenshots जिनमें balances, पूरे पते, memos, QR codes या एक्सचेंज खाते के विवरण दिखाई देते हों
 - व्यक्तिगत पहचान दस्तावेज़ या खाता पुनर्प्राप्ति रिकॉर्ड
 
@@ -167,7 +167,7 @@ wallet, एक्सचेंज या सेवा सहायता से �
 
 ## नोट
 
-कृपया ध्यान दें कि ZEC का उपयोग करने का सबसे सुरक्षित तरीका shielded लेन-देन का उपयोग करना है, जब प्रेषक, प्राप्तकर्ता, wallet और सेवा सभी उसका समर्थन करते हों। कुछ wallet और एक्सचेंज [unified addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) का समर्थन करते हैं, जो कई Zcash receiver प्रकारों को एक पते में संयोजित कर सकते हैं।
+कृपया ध्यान दें कि ZEC का उपयोग करने का सबसे सुरक्षित तरीका shielded लेन-देन का उपयोग करना है, जब प्रेषक, प्राप्तकर्ता, wallet और सेवा सभी उनका समर्थन करते हों। कुछ wallet और एक्सचेंज [unified addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) का समर्थन करते हैं, जो कई Zcash receiver प्रकारों को एक पते में संयोजित कर सकते हैं।
 
 ## संसाधन
 
@@ -178,6 +178,7 @@ wallet, एक्सचेंज या सेवा सहायता से �
 ## संबंधित पृष्ठ
 
 - [Wallets](/using-zcash/wallets) - कौन-से wallet shielded भेजने का समर्थन करते हैं, और कौन-से केवल transparent हैं
+- [Payment disclosures](/zcash-tech/payment-disclosures) - प्रेषक किसी shielded भुगतान के चुने हुए विवरणों को कैसे प्रमाणित कर सकता है
 - [Shielded Pools](/using-zcash/shielded-pools) - Sapling और Orchard, वे pool जिनमें आपका shielded धन रहता है
 - [Memos](/using-zcash/memos) - एन्क्रिप्टेड संदेश जो shielded लेन-देन के साथ जा सकते हैं
 - [Transparent Exchange Addresses](/using-zcash/transparent-exchange-addresses) - TEX पते और एक्सचेंज उनका उपयोग क्यों करते हैं

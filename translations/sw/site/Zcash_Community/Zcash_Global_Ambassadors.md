@@ -2,43 +2,43 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Global Ambassadors (Wanahabari wa Kimataifa)
+# Mabalozi wa Zcash Global
 
-The Global Ambassador Program identifies community members who make high-quality contributions to the Zcash ecosystem and empowers them to become leaders. Ambassadors grow the Zcash community, drive user adoption, and advance awareness of Zcash's privacy-preserving technology.
+Programu ya Mabalozi Duniani hutambua wanajamii wanaotoa michango ya hali ya juu katika mfumo ikolojia wa Zcash na kuwawezesha kuwa viongozi. Mabalozi hukuza jumuiya ya Zcash, huchochea utumiaji wa watumiaji, na huendeleza uelewa wa teknolojia ya kuhifadhi faragha ya Zcash.
 
 ## Balozi hufanya nini?
 
-- Msimamizi wa matukio ya kukutana kimwili au virtual
-- Kudumisha uwepo wa kazi kwenye mitandao ya kijamii na kuunda maudhui ya awali kuhusu Zcash.
-- Tafsiri vifaa vya elimu Zcash katika lugha za mitaa
-- Onboard watumiaji wapya na waendelezaji kwa mazingira Zcash
-- Kuwakilisha Zcash katika mikutano ya crypto na matukio ya jamii.
+- Andaa matukio ya mkutano wa kimwili au mtandaoni
+- Dumisha uwepo hai kwenye mitandao ya kijamii na uunda maudhui asilia kuhusu Zcash
+- Tafsiri vifaa vya elimu vya Zcash katika lugha za wenyeji
+- Washa watumiaji na watengenezaji wapya kwenye mfumo ikolojia wa Zcash
+- Wakilisha Zcash katika mikutano ya crypto na matukio ya jamii
 
-Mabalozi wana uhuru wa ubunifu juu ya shughuli wanayoipanga, na kuwawezesha kuunda ufikiaji kwa muktadha wao wa ndani.
+Mabalozi wana uhuru wa ubunifu katika shughuli wanazopanga, na hivyo kuwawezesha kurekebisha uhamasishaji kulingana na mazingira yao ya ndani.
 
-## [Global Ambassador Website (Tovuti ya Balozi wa Ulimwenguni)](https://zcashambassadors.com)
+## [Tovuti ya Balozi wa Kimataifa](https://zcashambassadors.com)
 
-## Jumuiya za Balozi wa Ushirikiano (2026)
+## Jumuiya za Mabalozi Wanaofanya Kazi (2026)
 
-Eneo Jumuiya Shughuli Muhimu.
+| Mkoa | Jumuiya | Shughuli Muhimu |
 |--------|-----------|-------------|
-Amerika ya Kusini. [Zcash en Español (Kiingereza)](https://x.com/zcashesp1)  Kihispania maudhui, ZK AV Club, podcast ya Zcast.
-Brazili. [Zcash Brazil](https://x.com/zcashbrazil) Warsha, mikutano, Jarida la Shielded.
-Uturuki. [Zcash Uturuki](https://x.com/ZcashTR)  Maudhui ya elimu, Istanbul blockchain wiki ushiriki.
-Arabia. Ulimwengu wa Kiarabu. [Zcash Arabia](https://x.com/ZcashArabia) Yaliyomo ya elimu katika Kiarabu, AMAs.
-☐ Ukraine haki ya [Zcask Ukraine Kiingereza](https://x.com/Zcash_ua) Ukrainia.
-Nigeria. [Zcash Nigeria](https://x.com/ZcashNigeria) Mafunzo ya watengenezaji, kuingizwa kwa jamii.
-Afrika Mashariki. [Zcash Afrika Mashariki](https://x.com/ZcashEastAfrica) Afrika Mashariki, Uganda ukuaji wa jamii.
-Afrika Kusini. [Zcash Afrika Kusini](https://twitter.com/Zcash_SA) Afrika Kusini.
-Ghana. [Zcash Ghana](https://x.com/ZcashGH) Ghana.
-Mexico. [zcashqro](https://x.com/zcashqro) Kampuni ya kuajiri waendelezaji na wanafunzi.
-Urusi. [ruZcash](https://x.com/ruZCASH) │ Maudhui ya lugha ya Kirusi na jamii.‬
-India. [Zcash India](https://x.com/ZcashIND) Mafunzo ya watengenezaji na ukuaji wa jamii.
-Korea. [Zcash Korea](https://x.com/zcashkorea)  Maudhui ya elimu kutoka Korea.
+Amerika Kusini | [Zcash katika Kihispania](https://x.com/zcashesp1) | Maudhui ya Kihispania, Klabu ya ZK AV, podikasti ya Zcast |
+Brazili | [Zcash Brazil](https://x.com/zcashbrazil) | Warsha, mikutano, Jarida la Shielded |
+Uturuki | [Uturuki wa Zcash](https://x.com/ZcashTR) | Maudhui ya kielimu, Ushiriki wa Wiki ya Blockchain ya Istanbul |
+Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Maudhui ya kielimu ya Kiarabu, AMA |
+Ukraini [Zcask Ukraine](https://x.com/Zcash_ua) Ukraini
+Nigeria | [Zcash Nigeria](https://x.com/ZcashNigeria) | Elimu kwa wasanidi programu, ujumuishaji wa jamii |
+Afrika Mashariki | [Zcash Afrika Mashariki](https://x.com/ZcashEastAfrica) Ukuaji wa jamii ya Afrika Mashariki na Uganda |
+Afrika Kusini | [Zcash Afrika Kusini](https://twitter.com/Zcash_SA) Afrika Kusini |
+Ghana | [Zcash Ghana](https://x.com/ZcashGH) Ghana |
+Meksiko | [zcashqro](https://x.com/zcashqro) | Ufikiaji wa vyuo vikuu na uanzishaji wa wasanidi programu |
+Urusi | [ruZcash](https://x.com/ruZCASH) | Maudhui na jamii ya lugha ya Kirusi |
+India | [Zcash India](https://x.com/ZcashIND) | Elimu ya msanidi programu na ukuaji wa jamii |
+Korea [Zcash Korea](https://x.com/zcashkorea) | Maudhui ya kielimu ya Kikorea |
 
 ## Omba Kuwa Balozi
 
 Unaweza pia kushiriki kwa:
-- Kuchangia kwa [ZecHub DAO](https://app.dework.xyz/zechub-2424) zawadi za malipo
-- Kujiunga na [Zcash Global Discord - Uvunjaji wa Kimataifa](https://discord.gg/zcash)
+- Kuchangia [Zawadi za ZEC](https://bounties.zechub.wiki/)
+- Kujiunga na [Ugomvi wa Zcash Global](https://discord.gg/zcash)
 

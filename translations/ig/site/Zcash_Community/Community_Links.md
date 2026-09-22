@@ -4,11 +4,11 @@
 
 # <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash Community Links
 
-The Zcash community is a vibrant group of people working towards making ZEC one of the most widely used privacy-preserving cryptocurrencies in the world. The community is made up of diverse individuals from all over the globe - developers, educators, advocates, and builders - united by a shared belief in financial privacy.
+Ndị obodo Zcash bụ otu ndị mmadụ na-arụsi ọrụ ike iji mee ka ZEC bụrụ otu n'ime ego dijitalụ kacha eji echekwa nzuzo n'ụwa. Obodo a nwere ọtụtụ mmadụ dị iche iche sitere n'akụkụ ụwa niile - ndị mmepe, ndị nkuzi, ndị na-akwado ya, na ndị na-ewu ụlọ - nke ha na-ejikọta ọnụ site na nkwenye ha nwere na nzuzo ego.
 
 ----
 
-## Ebe ị ga-ahụ ndị òtù obodo ahụ
+## Ebe ị nwere ike ịchọta ndị otu obodo
 
 ### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
@@ -16,63 +16,63 @@ The Zcash community is very active in its community <span translate="no" class="
 
 ### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
-- [Zcash Global](https://discord.gg/zcash) - Isi ihe nkesa obodo
-- [Zcash R&D](https://discord.gg/xpzPR53xtU) - Protocol na ndị mmepe mkparịta ụka
-- [Zcash Foundation](https://discord.gg/na6QZNd) - Mmelite ntọala na ọchịchị ya.
-- [ZecHub DAO](https://discord.gg/zcash) - Ndị na-enye onyinye DAO Community
+- [Zcash zuru ụwa ọnụ](https://discord.gg/zcash) - Isi sava obodo
+- [Nyocha na D nke Zcash](https://discord.gg/xpzPR53xtU) - Mkparịta ụka na protocol na onye nrụpụta
+- [Zcash Foundation](https://discord.gg/na6QZNd) - Mmelite na ọchịchị ntọala
+- [ZecHub DAO](https://discord.gg/zcash) - Ndị na-enye aka na DAO nke obodo
 
 ### <span translate="no" class="notranslate">Mastodon / Decentralized Social</span>
 
-- [ZecHub.Social (Nke a bụ ihe gbasara mmekọrịta mmadụ na ibe ya)](https://zechub.social/public/local) - Ihe atụ Mastodon maka obodo Zcash
-- [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Zcash en Espanol na Bluesky (ebugharị site X mgbe nkwụsịtụ akaụntụ)
+- [ZecHub.Njikọ Mmadụ](https://zechub.social/public/local) - Ihe atụ Mastodon maka obodo Zcash
+- [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Zcash en Spanish na Bluesky (esi na X kwaga mgbe kwụsịtụ akaụntụ)
 
 ### <span translate="no" class="notranslate">Matrix</span>
 
-- [ZecHub Matrix (Nke a bụ ihe atụ)](https://matrix.to/#/#zechub:matrix.org)
+- [Matriks ZecHub](https://matrix.to/#/#zechub:matrix.org)
 
-### Nzukọ Obodo Zcash Forum
+### Ọgbakọ Obodo Zcash
 
-Ihe ahụ bụ: [Nzukọ Obodo Zcash Forum](https://forum.zcashcommunity.com/) is the hub for long-form discussions on Zcash - governance, grant proposals, technical debate, and ecosystem announcements. Now stewardship has transferred to the Zcash Foundation following ECC's transition to ZODL.
+Ihe [Ọgbakọ Obodo Zcash](https://forum.zcashcommunity.com/) bụ isi ebe a na-enwe mkparịta ụka ogologo oge gbasara ọchịchị Zcash - ọchịchị, atụmatụ onyinye, arụmụka teknụzụ, na ọkwa gburugburu ebe obibi. Ugbu a, nlekọta enyefela Zcash Foundation mgbe mgbanwe ECC na ZODL gasịrị.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
-Zcash nwere ọnụnọ zuru ụwa ọnụ na X. Ihe ndekọ isi iji soro:
+Zcash nwere ọnụnọ zuru ụwa ọnụ na X. Isi ihe dị mkpa ị ga-eso:
 
-Akaụntụ. Nkọwapụta.
+| Akaụntụ | Nkọwa |
 |---------|-------------|
-| [@Zcash](https://x.com/zcash) Akaụntụ Zcash nke gọọmentị.
-| [@ZecHub](https://x.com/zechub) ◯ ZecHub DAO - agụmakwụkwọ obodo na ụgwọ ọrụ.
-| [@zodl_app](https://x.com/zodl_app) ZODL obere akpa (nke a na-akpọbu Zashi)
-| [@ZcashFoundation (Nkwado ego)](https://x.com/zcashfoundation) ◯ Nchịkọta nke Zcash Foundation.
-| [@zcashbrazil (onye na-akwụ ụgwọ ego)](https://x.com/zcashbrazil) Zcash Brazil obodo.
-| [@ZcashTR](https://x.com/ZcashTR) Zcash Turkey. Ụlọ akụ
-| [@ZcashArabia (Nke a bụ ihe e dere n'asụsụ Arabik)](https://x.com/ZcashArabia) Zcash Arabia. Ụlọ akụ
-| [@ZcashNigeria](https://x.com/ZcashNigeria) Zcash Naịjirịa.
-| [@ZcastEsp](https://x.com/ZcastEsp) Zcast - Spanish asụsụ Zcash Podcast.
-| [@ZkAv_Club](https://x.com/ZkAv_Club) ZK Audiovisual Club. Ụlọ ọrụ ndị na-ege ntị
-| [@cipherscan_app (ihe nchọgharị)](https://x.com/cipherscan_app)  CipherScan blockchain onye nchọpụta.
-| [@zerodartz (onye na-ede akụkọ)](https://x.com/Zerodartz) ◯ Ihe ndị obodo na-ekwu ma ọ bụ ihe ha kwuru.
+| [@Zcash](https://x.com/zcash) | Akaụntụ Zcash gọọmentị |
+| [@ZecHub](https://x.com/zechub) | ZecHub DAO - agụmakwụkwọ obodo na ihe nrite |
+| [@zodl_app](https://x.com/zodl_app) | Akpa ZODL (nke bụbu Zashi) |
+| [@ZcashFoundation](https://x.com/zcashfoundation) | Mmelite Zcash Foundation |
+| [@zcashbrazil](https://x.com/zcashbrazil) | Obodo Zcash Brazil |
+| [@ZcashTR](https://x.com/ZcashTR) | Zcash Tọki |
+| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
+| [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Naịjirịa |
+| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - Asụsụ Spanish Podcast Zcash |
+| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
+| [@cipherscan_app](https://x.com/cipherscan_app) | Onye na-eme nchọpụta blockchain CipherScan |
+| [@zerodartz](https://x.com/Zerodartz) | Ihe nkiri obodo na nkọwa |
 
 ----
 
-## Ụlọ Ọrụ Mpaghara Ndị Dị n'Ógbè
+## Ebe Ndị Obodo Mpaghara
 
-- [Zcash en Espanol (Zụ ego n'asụsụ Spanish)](https://zcashesp.com) - Ndị na-asụ Spanish (ọzọkwa n'elu Bluesky mgbe X kwụsịtụrụ)
-- [Zcash Brazil - Ọ bụ eziokwu.](https://x.com/zcashbrazil) - Ndị Brazil bi n'obodo ahụ .
-- [Zcash Turkey - N'ihi na ihe.](https://x.com/ZcashTR) - Ndị obodo Turkey .
-- [Zcash Arabia - Ọ bụ eziokwu.](https://x.com/ZcashArabia) - Ndị na-asụ asụsụ Arabik.
-- [Zcash Naijiria](https://x.com/ZcashNigeria) - Ndị Naijiria .
-- [ruZcash](https://x.com/ruZCASH) - Ndị na-asụ asụsụ Russian Zcash obodo.
-- [Zcash Korea - N'ihi na ihe.](https://x.com/zcash_korea) - Ndị Korea .
-- [Zcash East Africa (ZCash)](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - South Africa na East Africa
-- [mkpụrụ ego Genzcash](https://x.com/genzcash) - Obodo Zcash nke ndị ntorobịa lekwasịrị anya na ya.
+- [Zcash na Spanish](https://zcashesp.com) - Obodo na-asụ Spanish (nakwa na Bluesky mgbe a kwụsịtụrụ X)
+- [Zcash Brazil](https://x.com/zcashbrazil) - Obodo Brazil
+- [Zcash Toki](https://x.com/ZcashTR) - Obodo Turkey
+- [Zcash Arabia](https://x.com/ZcashArabia) - Obodo ndị na-asụ Arabic
+- [Zcash Naịjirịa](https://x.com/ZcashNigeria) - Obodo Naịjirịa
+- [ruZcash](https://x.com/ruZCASH) - Obodo Zcash nke na-asụ asụsụ Rọshịa
+- [Zcash Korea](https://x.com/zcash_korea) - Obodo Korea
+- [Zcash Ọwụwa Anyanwụ Afrịka](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - South Africa na East Africa
+- [genzcash](https://x.com/genzcash) - Obodo Zcash lekwasịrị anya na ndị ntorobịa
 
 ----
 
-## Akụnụba
+## akụrụngwa
 
-- [Ebe nrụọrụ weebụ Zcash Community](https://www.zcashcommunity.com/)
+- [Weebụsaịtị Obodo Zcash](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
-- [Zcash Grants Hub (Njikọ Enyemaka)](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Ndị nnọchi anya Zcash Global](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - ihe ngosi nke mmemme na wiki a (zcashambassadors.com adịghị n'ịntanetị)
-- [ZecHub DAO na Dework](https://app.dework.xyz/zechub-2424)
+- [Ebe Enyemaka Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Ndị nnọchi anya Zcash zuru ụwa ọnụ](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - nchịkọta mmemme na wiki a (zcashambassadors.com adịghị na ntanetị)
+- [ZEC Bounties](https://bounties.zechub.wiki/)

@@ -39,5 +39,5 @@
 ## राजदूत बनने के लिए आवेदन करें
 
 आप इसमें भी शामिल हो सकते हैं:
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424) बाउंटियों में योगदान देकर
+- [ZEC बाउंटियों](https://bounties.zechub.wiki/) में योगदान देकर
 - [Zcash Global Discord](https://discord.gg/zcash) से जुड़कर

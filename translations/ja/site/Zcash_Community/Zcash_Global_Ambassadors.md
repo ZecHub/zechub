@@ -39,5 +39,5 @@
 ## アンバサダーへの応募
 
 以下の方法でも参加できます：
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424)の報奨金に貢献する
+- [ZEC バウンティ](https://bounties.zechub.wiki/)に貢献する
 - [Zcash Global Discord](https://discord.gg/zcash)に参加する

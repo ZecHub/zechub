@@ -108,10 +108,11 @@ Se hai seguito una versione precedente di questa pagina, o una sua traduzione, t
 
 Usa le viewing key quando necessario e preferisci la chiave più limitata che risponda alla domanda posta.
 
+- [Divulgazioni relative ai pagamenti](/zcash-tech/payment-disclosures) - dimostrare dettagli selezionati di un pagamento senza concedere accesso continuativo a un account
 - [ZIP 326: conseguenze di NU6.3 per i wallet](https://zips.z.cash/zip-0326) — come si comportano le viewing key tra i pool Orchard e Ironwood
 - [ZIP 229: formato delle transazioni versione 6](https://zips.z.cash/zip-0229) — definisce i pool Orchard e Ironwood
 - [Registro delle modifiche di Zallet](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — quale release ha aggiunto quale metodo RPC
 - [README di Zkool](https://github.com/hhanh00/zkool2/blob/main/README.md) — tipi di account e chiavi supportati
 - [ECC, spiegazione delle Viewing Key](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, divulgazione selettiva e Viewing Key](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, presentazione video sulle Viewing Key di Zcash](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+- [ECC, presentazione video sulle Viewing Key di ZcashViewing Key](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

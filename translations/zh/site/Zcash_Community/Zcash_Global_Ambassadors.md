@@ -39,5 +39,5 @@
 ## 申请成为大使
 
 您也可以通过以下方式参与：
-- 为 [ZecHub DAO](https://app.dework.xyz/zechub-2424) 悬赏任务作出贡献
+- 为 [ZEC 悬赏任务](https://bounties.zechub.wiki/)作出贡献
 - 加入 [Zcash 全球 Discord](https://discord.gg/zcash)

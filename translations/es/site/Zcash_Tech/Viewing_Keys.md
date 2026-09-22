@@ -108,10 +108,11 @@ Si seguiste una versión anterior de esta página, o una traducción de ella, tr
 
 Usa viewing keys según sea necesario y prefiere la clave más limitada que responda a la pregunta planteada.
 
-- [ZIP 326: Consecuencias de NU6.3 para las Wallets](https://zips.z.cash/zip-0326) — cómo se comportan las viewing keys entre los pools Orchard e Ironwood
+- [Divulgaciones de pagos](/zcash-tech/payment-disclosures) - demostrar detalles seleccionados de un pago sin otorgar acceso continuo a una cuenta
+- [ZIP 326: Consecuencias de NU6.3 para las Wallets](https://zips.z.cash/zip-0326) — cómo se comportan las claves de visualización entre los pools Orchard e Ironwood
 - [ZIP 229: Formato de transacción versión 6](https://zips.z.cash/zip-0229) — define los pools Orchard e Ironwood
 - [Registro de cambios de Zallet](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — qué versión añadió cada método RPC
 - [README de Zkool](https://github.com/hhanh00/zkool2/blob/main/README.md) — tipos de cuentas y claves compatibles
 - [ECC, Explicación de las Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Divulgación selectiva y Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, Presentación de video sobre Zcash Viewing Key](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+- [ECC, Zcash Viewing Key Presentación de video](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

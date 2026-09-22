@@ -62,13 +62,13 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Sitio web: [Nanopool](https://zec.nanopool.org/login)
+- Sitio web: [Nanopool](https://zec.nanopool.org/)
 - Pagos privados: No
 - Tipo de pool: Pago por las últimas N 
 - Comisión del pool: 1%

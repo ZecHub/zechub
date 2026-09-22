@@ -16,7 +16,7 @@ ZEC yɛ dijitaal agyapadeɛ a wɔde di dwuma kɛseɛ ma sikatua, ɛde kokoam ns�
 - Fees di akyi [ZIP 317 na ɛwɔ hɔ](https://zips.z.cash/zip-0317) na enyin bere a asɛm no kɛse te. Sika kotoku a ɛda so ara de flat fee dedaw no mena no betumi ahu sɛ wɔn nnwuma akyɛ.
 - Zcash nkitahodi dodow no ara wɔ expiry height ase [ZIP 203 na ɛwɔ hɔ](https://zips.z.cash/zip-0203). Sɛ asɛm bi twam ansa na wɔatu a, entumi nsi so dua wɔ saa bere tenten no akyi na ebia ebehia sɛ wɔsan de mena bio.
 
-## Nkitahodi a Wɔabɔ Ho Ban
+## Nkitahodi a Wɔabɔ ho Ban
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -33,7 +33,7 @@ ZEC yɛ dijitaal agyapadeɛ a wɔde di dwuma kɛseɛ ma sikatua, ɛde kokoam ns�
 
 Nkitahodi a wɔabɔ ho ban no ba bere a wode ZEC kɔ wo sika kotoku a wɔabɔ ho ban no mu. Wo sika kotoku address a wɔabɔ ho ban no fi ase wɔ a `u` or `z`. Sɛ wode nsɛm a wɔabɔ ho ban remena a, wo ne nnipa a wo ne wɔn di nkitaho no betumi akora kokoam nsɛm bi a ɛrentumi nyɛ yiye wɔ ɔmanfo sikatua nkitahodi nhyehyɛe ahorow a wɔde di dwuma daa so.
 
-Sɛ wode asɛm a wɔabɔ ho ban bɛmena a, ɛyɛ mmerɛw bere a wode sika kotoku a ɛboa mprempren Zcash ntwamutam ne mprempren shielded pools redi dwuma no. Ansa na wode wo ho bɛto sika kotoku so ama kokoam nsɛm no, hwɛ sɛ ɛboa shielded sending, shielded receiving, ne pool a woayɛ w’adwene sɛ wode bedi dwuma no anaa. Sɛ woreyi ZEC afiri exchange bi mu a, hwɛ sɛ exchange no boa shielded anaa transparent withdrawals anaa. Sɛ ɛboa sika a woyi fi mu a ɛda adi pefee nkutoo a, fa sika no kɔ sika kotoku a wɔabɔ ho ban mu bere a aba akyi.
+Sɛ wode asɛm a wɔabɔ ho ban bɛmena a, ɛyɛ mmerɛw bere a wode sika kotoku a ɛboa mprempren Zcash ntwamutam ne mprempren shielded pools redi dwuma no. Ansa na wode wo ho bɛto sika kotoku so ama kokoam nsɛm no, hwɛ sɛ ɛboa shielded sending, shielded receiving, ne pool a woayɛ nhyehyɛe sɛ wode bedi dwuma no anaa. Sɛ woreyi ZEC afi exchange bi mu a, hwɛ sɛ exchange no boa shielded anaa transparent withdrawals anaa. Sɛ ɛboa sika a woyi fi mu a ɛda adi pefee nkutoo a, fa sika no kɔ sika kotoku a wɔabɔ ho ban mu bere a aba akyi.
 
 Nkitahodi a wɔabɔ ho ban a wɔde bedi dwuma de akɔma na wɔagye sika no ne ɔkwan a eye sen biara a wobɛfa so akora kokoam nsɛm so na wɔatew asiane a ɛwɔ hɔ sɛ sikatua ho nsɛm bɛpue no so.
 
@@ -56,9 +56,9 @@ Address a ɛda adi pefee da so ara ho wɔ mfaso wɔ tebea horow bi mu, titiriw b
 
 ## Ɔkwan a Ɛyɛ Mmerewa a Wobɛfa so ayɛ Ho Mfonini
 
-Aguadi a ɛda adi pefee yɛ postcard. Postman no de kɔma, nanso obiara a odi ho dwuma wɔ kwan so no betumi akenkan nkrasɛm no, ahu onii a ɔde kɔmaa no na wahwɛ onii a ogye.
+Aguadi a ɛda adi pefee yɛ postcard. Postman no de kɔma, nanso obiara a odi ho dwuma wɔ kwan so no betumi akenkan nkrasɛm no, ahwɛ onii a ɔde kɔmaa no na wahu onii a ogye.
 
-Aguadi a wɔabɔ ho ban yɛ envelope a wɔatoto mu. Posɔfese adwuma no da so ara si so dua sɛ krataa ankasa a wɔde posɔfese ho ka ankasa nam nhyehyɛe no mu, na obiara ntumi nnyɛ biako anaasɛ ɔde krataa koro no ara mprenu. Nea ɛwɔ envelope no mu no tra nea ɔde kɔma ne nea ogye no ntam.
+Aguadi a wɔabɔ ho ban yɛ envelope a wɔatoto mu. Posɔfese adwuma no da so ara si so dua sɛ krataa ankasa a wɔde posɔfese ho ka ankasa nam nhyehyɛe no mu, na obiara ntumi nnyɛ biako anaasɛ ɔde krataa koro no ara mena mprenu. Nea ɛwɔ envelope no mu no tra nea ɔde kɔma ne nea ogye no ntam.
 
 Ɔfã a ɛho hia ne sɛ Zcash ma wusi nea wode bɛmena, tua denam sika a wotua so.
 
@@ -66,9 +66,9 @@ Aguadi a wɔabɔ ho ban yɛ envelope a wɔatoto mu. Posɔfese adwuma no da so ar
 
 Zcash mfa Ethereum-style gas units nni dwuma. Wɔtua Zcash ayɔnkofa ho ka wɔ ZEC mu, wɔtaa susuw wɔ **zatoshis** mu. ZEC biako ne zatoshi 100,000,000 yɛ pɛ.
 
-[ZIP 317 na ɛwɔ hɔ](https://zips.z.cash/zip-0317) kyerɛkyerɛ sikatua ho nhyehyɛe a wɔtaa de di dwuma a ɛne nkitahodi a ɛyɛ den no yɛ kɛse. Sɛ́ anka wɔde asɛm biara bedi dwuma de dedaw 1,000-zatoshi flat fee bedi dwuma no, sika a wɔtaa tua no gyina "nneyɛe a ntease wom" te sɛ nneɛma a wɔde ba, nea wɔde fi mu, ne nneyɛe a wɔabɔ ho ban so. Nkitahodi a ɛnyɛ den taa fi ase bɛyɛ zatoshis 10,000, anaa ZEC 0.0001, na nnwuma a ɛyɛ den kɛse betumi ahwehwɛ pii.
+[ZIP 317 na ɛwɔ hɔ](https://zips.z.cash/zip-0317) kyerɛkyerɛ sikatua ho nhyehyɛe a wɔtaa de di dwuma a ɛne nkitahodi a ɛyɛ den no yɛ kɛse. Sɛ́ anka wɔde asɛm biara bedi dwuma de dedaw 1,000-zatoshi flat fee no bedi dwuma no, sika a wɔtaa tua no gyina "nneyɛe a ntease wom" te sɛ nneɛma a wɔde ba, nea wɔde fi mu, ne nneyɛe a wɔabɔ ho ban so. Nkitahodi a ɛnyɛ den taa fi ase bɛyɛ zatoshis 10,000, anaa ZEC 0.0001, na nnwuma a ɛyɛ den kɛse betumi ahwehwɛ pii.
 
-Wɔ mprempren sika kotoku dodow no ara mu no, ɛnsɛ sɛ ɛho hia sɛ wɔn a wɔde di dwuma no de wɔn nsa bu ZIP 317 ho ka. Ɛsɛ sɛ sika kotoku no paw sika a ɛfata ankasa. Sɛ sika kotoku bi da so ara de flat fee dedaw no di dwuma anaasɛ ɛma wutumi de sika a ɛba fam koraa sen ZIP 317 amanne kwan so fee no si hɔ a, ebia wɔbɛkyɛ asɛm no, wɔbɛma ayɛ nea ɛho hia, node binom bɛtow agu, anaasɛ entumi mfa relay a wotumi de ho to so.
+Wɔ mprempren sika kotoku dodow no ara mu no, ɛnsɛ sɛ ɛho hia sɛ wɔn a wɔde di dwuma no de wɔn nsa bu ZIP 317 ho ka. Ɛsɛ sɛ sika kotoku no paw sika a ɛfata ankasa. Sɛ sika kotoku bi da so ara de flat fee dedaw no di dwuma anaasɛ ɛma wutumi de sika a ɛba fam koraa sen ZIP 317 amanne kwan so fee no si hɔ a, ebia wɔbɛkyɛ asɛm no, wɔbɛma ayɛ nea ɛho hia, node binom agyae, anaasɛ entumi mfa relay a wotumi de ho to so.
 
 ## Ɔhaw a Wɔde Di Dwuma Wɔ Nkitahodi a Ɛkyere So
 
@@ -87,7 +87,7 @@ Fa saa gyinaesi dua yi di dwuma ansa na woasan de amena:
    - Sɛ yiw a, wontumi ntu asɛm no wɔ saa bere tenten a ne bere atwam no akyi. Ebia wo sika kotoku no ahyɛ no agyirae sɛ ne bere atwam anaasɛ adi nkogu, na ebia ebehia sɛ woyɛ asɛm foforo.
 4. **So asɛm no pue wɔ server anaa explorer biako so nanso ɛnyɛ foforo so?**
    - Fa eyi sɛ network visibility asɛm, ɛnyɛ adanse a ɛkyerɛ sɛ asɛm no dii nkogu. Nodes ahorow betumi anya mempool views ahorow.
-   - Twɛn, san yɛ wo sika kotoku no, anaa dan kɔ server foforo a wogye di so sɛ wo sika kotoku no boa saa a.
+   - Twɛn, san fa wo sika kotoku no hyɛ mu, anaa dan kɔ server foforo a wogye di so sɛ wo sika kotoku no boa saa a.
 5. **So asɛm no yerae bere a ɛdaa adi sɛ wɔasi so dua akyi?**
    - Nkɔnsɔnkɔnsɔn tiawa a wɔsan hyehyɛ no betumi ayi asɛm bi afi nkɔnsɔnkɔnsɔn a eye sen biara no mu bere tiaa bi.
    - Twɛn ma woanya blocks pii. Sɛ asɛm no san ba a, kɔ so twɛn ma wosi so dua. Sɛ ɛnsan mma na akyiri yi ɛtwam a, yɛ asɛm foforo.
@@ -110,18 +110,18 @@ Twɛn anaa di kan nya mmoa bere a:
 
 - Aguadi no wɔ asɛm no ID na ennya ntwaa mu.
 - Server biako kyerɛ bere a foforo nso nkyerɛ.
-- Nnansa yi ara na wotutuu no nanso ɛyerae si so dua wɔ reorg a ebetumi aba akyi.
+- Nnansa yi ara na wotutuu no nanso ɛhweree nsɛm a esi so dua wɔ bere a ebetumi aba sɛ wɔyɛɛ reorg akyi.
 - Ɔsom a egye no nwiee nsɛm a wɔde si so dua no kan.
 - Wo sika kotoku no da so ara reyɛ sync.
 
-Mpɛn pii no ɛyɛ ahobammɔ sɛ wobɛsan de amena bere a sika kotoku no ahyɛ asɛm no agyirae pefee sɛ ne bere atwam anaasɛ adi nkogu akyi nkutoo, anaasɛ bere a mmoa no asi so dua sɛ mfitiase asɛm no ntumi nsi so dua akyi nkutoo.
+Mpɛn pii no, ɛyɛ ahobammɔ sɛ wobɛsan de amena bere a sika kotoku no ahyɛ asɛm no agyirae pefee sɛ ne bere atwam anaasɛ adi nkogu akyi nkutoo, anaasɛ bere a mmoa asi so dua sɛ mfitiase asɛm no ntumi nsi so dua akyi.
 
 ## Nhwehwɛmu a Ɛyɛ Kokoam Nsɛm
 
 Wubetumi ahwɛ mfitiase asɛm no tebea a worenda nsɛm pii adi nsen nea ɛho hia:
 
 - Hwɛ sɛ wo sika kotoku no ayɛ sync koraa anaa.
-- Hwɛ sɛ wallet app no ​​yɛ foforo anaa.
+- Hwɛ sɛ wallet app no yɛ foforo anaa.
 - Hwɛ sɛ asɛm no wɔ asɛm no ID anaa.
 - Hwɛ sɛ wɔagye asɛm no atom, ɛda so ara wɔ hɔ, ne bere atwam, anaasɛ entumi nyɛ yiye anaa.
 - Hwɛ mprempren block sorokɔ na fa toto transaction expiry height ho sɛ wo sika kotoku no kyerɛ a.
@@ -134,7 +134,7 @@ Mfa eyinom nhyɛ baguam nkɔmmɔbɔ, sohyial media, anaa nsɛm a wɔde di akyi m
 
 - Aba kasasin anaa kasasin a wɔde san nya ahoɔden
 - Spending key, private key, anaa sika kotoku a wɔde sie
-- Full viewing key
+- Full Viewing Key
 - Screenshots a ɛkyerɛ sika a aka, address a edi mũ, memos, QR code, anaa exchange account ho nsɛm
 - Ankorankoro ho nkrataa anaa akontaabu a wɔde gyee sika ho kyerɛwtohɔ
 
@@ -158,16 +158,16 @@ Mmoa akuo nhia wo aba kasasin, sika a wode di dwuma safoa, kokoam safoa, anaa sa
 
 ## Mfomso a Ɛtaa Tu
 
-- **Sɛ yɛfa no sɛ sika kotoku biara a wɔakyerɛw ZEC no betumi de amena wɔ kokoam.** Sika kotoku dodow bi a ɛwɔ sika pii boa Zcash fã a ɛda adi nkutoo. Hwɛ sika kotoku no pools a wɔboa no ansa na wode wo ho ato so ama kokoamsɛm. No [Sika kotoku](https://zechub.wiki/using-zcash/wallets) kratafa no kyerɛw eyi ma ɔkwan biara a wobɛfa so.
-- **Wɔtwe wo ho kɔ address a ɛda adi pefee so na wogyaw sika no wɔ hɔ.** Sika a woyi no ankasa yɛ baguam, na akyiri yi biribiara a wobɛtu afi saa address no so no nso tra baguam. Bɔ sika no ho ban bere a wɔadu hɔ no.
+- **Sɛ yɛfa no sɛ sika kotoku biara a wɔakyerɛw ZEC no betumi de amena kokoam.** Sika kotoku dodow bi a ɛwɔ sika pii boa Zcash fã a ɛda adi nkutoo. Hwɛ sika kotoku no pools a wɔboa no ansa na wode wo ho ato so ama kokoamsɛm. No [Sika kotoku](https://zechub.wiki/using-zcash/wallets) kratafa no kyerɛw eyi ma ɔkwan biara a wobɛfa so.
+- **Wɔtwe kɔ address a ɛda adi pefee so na wogyaw sika no wɔ hɔ.** Sika a wɔtwe no ankasa yɛ baguam, na akyiri yi biribiara a wobɛtu afi saa address no so no nso tra baguam. Bɔ sika no ho ban bere a wɔadu hɔ no.
 - **Kokoamsɛm a wobɛfa no sɛ biribi a wobɛdan pɛnkoro.** Adwuma biara yɛ nea wobɛpaw a ɛyɛ soronko. Shielded a wode bɛmena nnɛ no ntumi nsan sika a wotuae a ɛda adi pefee a wotuae dapɛn a etwaam no.
-- **Address a ɛda adi a wɔbɛsan de adi dwuma ama biribiara.** Esiane sɛ wotumi hu dwumadi a ɛda adi daa nti, address biako a wɔasan de adi dwuma no de nkakrankakra de sikatua a na enni ntease biara a enti ɛsɛ sɛ wɔde bata ho no bata ho.
+- **Address a ɛda adi a wɔbɛsan de adi dwuma ama biribiara.** Esiane sɛ wotumi hu dwumadi a ɛda adi daa nti, address biako a wɔasan de adi dwuma no de nkakrankakra de sikatua a na enni ntease biara a enti ɛsɛ sɛ wɔde bata ho no bom.
 - **Sending with an outdated default fee.** Walets a ennye ZIP 317 no da so ara betumi de flat fee dedaw no amena, a ebetumi ama asɛm bi atra ase a wontumi nsi so dua.
 - **Resending before expiry.** Aguadiɛ a ɛda so ara tumi si so dua kɔsi sɛ ɛbɛtwa mu. Hwɛ expiry status ansa na woayɛ payment foforo.
 
 ## Hyɛ nso
 
-Yɛsrɛ sɛ hyɛ no nsow sɛ ɔkwan a ahobammɔ wom sen biara a wobɛfa so de ZEC adi dwuma ne sɛ wode nnwuma a wɔabɔ ho ban bedi dwuma bere biara a nea ɔde kɔma, nea ogye, sika kotoku, ne ɔsom adwuma no nyinaa boa. Sika kotoku ne exchanges binom boa [address ahorow a wɔaka abom](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), a ebetumi aka Zcash agyefo ahorow pii abom ayɛ no address biako.
+Yɛsrɛ sɛ hyɛ no nsow sɛ ɔkwan a ahobammɔ wom sen biara a wobɛfa so de ZEC adi dwuma ne sɛ wode nnwuma a wɔabɔ ho ban bedi dwuma bere biara a nea ɔde kɔma, nea ogye, sika kotoku, ne ɔsom adwuma no nyinaa boa. Sika kotoku ne exchanges binom boa [address ahorow a wɔaka abom](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), a ebetumi aka Zcash agyefo ahorow pii abom ayɛ no address biako.
 
 ## Akadeɛ
 
@@ -178,7 +178,8 @@ Yɛsrɛ sɛ hyɛ no nsow sɛ ɔkwan a ahobammɔ wom sen biara a wobɛfa so de ZE
 ## Nkratafa a Ɛfa Ho
 
 - [Sika kotoku](/using-zcash/wallets) - a wode sika kotokuo boa shielded sending, ne nea eye transparent nkoaa
-- [Atare a Wɔabɔ ho Ban](/using-zcash/shielded-pools) - Sapling ne Orchard, atare a wo sika a woabɔ ho ban no te mu
+- [Katua ho nsɛm a wɔda no adi](/zcash-tech/payment-disclosures) - sedee obi a osoma no betumi ada nsem a woapaw a efa akatua baako a woabo ho ban ho adi
+- [Atare a Wɔabɔ Ho Ban](/using-zcash/shielded-pools) - Sapling ne Orchard, atare a wo sika a woabɔ ho ban no te mu
 - [Memos a wɔde kyerɛw nsɛm](/using-zcash/memos) - encrypted messages a ebetumi de shielded transaction atu kwan
 - [Address ahorow a wɔde sesa nneɛma a ɛda adi pefee](/using-zcash/transparent-exchange-addresses) - TEX address ne nea enti a exchanges de di dwuma
 - [Nneɛma a Wɔde Sesa Wɔn a Wɔhwɛ Nnipa So](/using-zcash/custodial-exchanges) - a esesa boa shielded withdrawals

@@ -75,4 +75,4 @@ Zcash는 X에서 활발한 글로벌 존재를 가지고 있습니다. 주요로
 - [ZecHub 위키](https://zechub.wiki)
 - [Zcash 보조금 허브](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcash 글로벌 대사](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - 이 위키의 프로그램 개요 (zcashambassadors.com은 오프라인)
-- [ZecHub DAO on Dework](https://app.dework.xyz/zechub-2424)
+- [ZEC 바운티](https://bounties.zechub.wiki/)

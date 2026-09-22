@@ -4,12 +4,12 @@
 
 # Zcash Wiase Nyinaa Aban Nnanmusini
 
-Wiase Nyinaa Ɔnanmusifo Dwumadie no kyerɛ mpɔtam hɔfoɔ a wɔde mmoa a ɛkorɔn ma Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no na ɛma wɔn tumi ma wɔbɛyɛ akannifoɔ. Aban ananmusifoɔ ma Zcash mpɔtam hɔ nyin, ɛma wɔn a wɔde di dwuma no gye tom, na wɔma Zcash mfiridwuma a ɛkora kokoam nsɛm so no ho nimdeɛ kɔ anim.
+Wiase Nyinaa Ɔnanmusifo Dwumadie no kyerɛ mpɔtam hɔfoɔ a wɔde mmoa a ɛkorɔn ma Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no na ɛma wɔn tumi ma wɔbɛyɛ akannifoɔ. Abannanmusifoɔ ma Zcash mpɔtam hɔ nyin, ɛma wɔn a wɔde di dwuma no gye tom, na wɔma Zcash mfiridwuma a ɛkora kokoam nsɛm so no ho nimdeɛ kɔ anim.
 
 ## Dɛn na Ɔnanmusifo yɛ?
 
 - Host honam fam anaa virtual meetup nhyiam ahorow
-- Kɔ so tra hɔ a ɛyɛ nnam wɔ social media so na yɛ mfitiase nsɛm a ɛfa Zcash ho
+- Kɔ so yɛ nnam wɔ social media so na yɛ mfitiaseɛ nsɛm fa Zcash ho
 - Kyerɛ Zcash nkyerɛkyerɛ nneɛma ase kɔ mpɔtam hɔ kasa mu
 - Onboard foforo a wɔde di dwuma ne developers kɔ Zcash ecosystem
 - Gyina Zcash ananmu wɔ crypto nhyiamu ne mpɔtam hɔ nhyiamu ase
@@ -39,6 +39,6 @@ Aban ananmusifo wɔ adebɔ mu ahofadi wɔ dwumadi ahorow a wɔayɛ ho nhyehyɛe 
 ## Fa Akwammisa krataa kɔma sɛ Wobɛyɛ Ɔman Ba
 
 Wubetumi nso de wo ho ahyɛ mu denam:
-- Ntoboa a wɔde ma [ZecHub DAO na ɔkyerɛwee](https://app.dework.xyz/zechub-2424) bounties a wɔde ma
+- Ntoboa a wɔde ma [ZEC Bounties na ɛyɛ adwuma](https://bounties.zechub.wiki/)
 - Ɔde ne ho hyɛ mu [Zcash Wiase Nyinaa Ntam Nkitahodi](https://discord.gg/zcash)
 
