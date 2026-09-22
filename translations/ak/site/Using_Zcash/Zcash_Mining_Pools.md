@@ -2,7 +2,7 @@
 
 ## Dɛn ne Zcash Mining Pools?
 
-Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka wɔn kɔmputa tumi (hashrate) bom. Ɛdenam nneɛma a wɔboaboa ano so no, wɔn a wɔde wɔn ho hyɛ mu no ma wɔn hokwan a ɛwɔ hɔ sɛ wobedi nkitahodi nhyehyɛe ahorow ho dwuma no yɛ kɛse na wonya sika a wotua a ɛkɔ so daa, nketenkete sen sɛ wɔde wɔn ho bɛto loto nhyehyɛe a wontumi nhu sɛ wotua wɔn nkutoo so.
+Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka wɔn kɔmputa tumi (hashrate) bom. Ɛdenam nneɛma a wɔboaboa ano so no, wɔn a wɔde wɔn ho hyɛ mu no ma wɔn hokwan a wɔwɔ sɛ wobedi nkitahodi nhyehyɛe ahorow ho dwuma no yɛ kɛse na wonya sika a wotua daa, nketewa sen sɛ wɔde wɔn ho bɛto solo mining’s loto nhyehyɛe a wontumi nhu so.
 
 ---
 
@@ -62,13 +62,13 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
 
 ---
 
-### [Nanopool na ɛwɔ hɔ](https://zec.nanopool.org/login)
+### [Nanopool na ɛwɔ hɔ](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Nanopool na ɛwɔ hɔ](https://zec.nanopool.org/login)
+- Wɛbsaet: [Nanopool na ɛwɔ hɔ](https://zec.nanopool.org/)
 - Ankorankoro Katua: Dabi
 - Pool Type: Tua Ka Wɔ Nea Etwa To N 
 - Pool ho ka: 1% .

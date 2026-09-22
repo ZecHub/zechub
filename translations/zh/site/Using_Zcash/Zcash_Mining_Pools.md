@@ -62,13 +62,13 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- 网站：[Nanopool](https://zec.nanopool.org/login)
+- 网站：[Nanopool](https://zec.nanopool.org/)
 - 隐私支付：否
 - 矿池类型：按最近 N 份额支付 
 - 矿池手续费：1%

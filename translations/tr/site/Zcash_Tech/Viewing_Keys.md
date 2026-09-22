@@ -108,10 +108,11 @@ Bu sayfanın eski bir sürümünü veya çevirisini takip ettiyseniz, üç yol a
 
 Viewing key'leri gerektiği kadar kullanın ve sorulan soruyu yanıtlayan en dar kapsamlı anahtarı tercih edin.
 
-- [ZIP 326: Cüzdanlar için NU6.3 Sonuçları](https://zips.z.cash/zip-0326) — viewing key'lerin Orchard ve Ironwood havuzları arasında nasıl davrandığı
+- [Ödeme açıklamaları](/zcash-tech/payment-disclosures) - bir hesaba sürekli erişim izni vermeden tek bir ödemenin seçilen ayrıntılarını kanıtlama
+- [ZIP 326: NU6.3 Cüzdanlar için Sonuçlar](https://zips.z.cash/zip-0326) — görüntüleme anahtarlarının Orchard ve Ironwood havuzları arasında nasıl davrandığı
 - [ZIP 229: Sürüm 6 İşlem Biçimi](https://zips.z.cash/zip-0229) — Orchard ve Ironwood havuzlarını tanımlar
 - [Zallet değişiklik günlüğü](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — hangi sürümün hangi RPC yöntemini eklediği
 - [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — desteklenen hesap ve anahtar türleri
-- [ECC, Viewing Key'leri Açıklamak](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, Seçici Açıklama ve Viewing Key'ler](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ECC, Viewing Keys'i Açıklamak](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC, Seçici Açıklama ve Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Sunumu](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

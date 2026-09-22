@@ -39,5 +39,5 @@
 ## Подайте заявку, чтобы стать амбассадором
 
 Вы также можете принять участие:
-- Выполняя задания [ZecHub DAO](https://app.dework.xyz/zechub-2424)
-- Присоединившись к [глобальному Discord Zcash](https://discord.gg/zcash)
+- Внося вклад в [ZEC задания](https://bounties.zechub.wiki/)
+- Присоединившись к [Zcashглобальному Discord](https://discord.gg/zcash)

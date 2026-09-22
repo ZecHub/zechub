@@ -108,6 +108,7 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 
 Використовуйте ключі перегляду лише за потреби та надавайте перевагу найвужчому ключу, який відповідає на поставлене запитання.
 
+- [Розкриття даних про платежі](/zcash-tech/payment-disclosures) - підтвердження вибраних деталей одного платежу без надання постійного доступу до облікового запису
 - [ZIP 326: NU6.3 Наслідки для гаманців](https://zips.z.cash/zip-0326) — як ключі перегляду працюють у пулах Orchard та Ironwood
 - [ZIP 229: Формат транзакцій версії 6](https://zips.z.cash/zip-0229) — визначає пули Orchard та Ironwood
 - [Zallet журнал змін](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — у якому випуску додано кожен метод RPC

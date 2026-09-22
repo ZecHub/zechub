@@ -39,5 +39,5 @@ Los embajadores tienen libertad creativa sobre las actividades que planifican, l
 ## Solicita convertirte en embajador
 
 También puedes participar de las siguientes maneras:
-- Contribuyendo a las recompensas de [ZecHub DAO](https://app.dework.xyz/zechub-2424)
-- Uniéndote al [Discord Global de Zcash](https://discord.gg/zcash)
+- Contribuyendo a las recompensas de [ZEC](https://bounties.zechub.wiki/)
+- Uniéndote al [Zcash Discord Global](https://discord.gg/zcash)

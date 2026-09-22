@@ -2,43 +2,43 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ndị nnọchi anya Zcash Global
+# Ndị nnọchi anya Zcash zuru ụwa ọnụ
 
-Mmemme Global Ambassador na-achọpụta ndị otu obodo nke nyere onyinye dị elu maka usoro okike Zcash ma nye ha ike ịghọ ndị isi. Ndị nnọchi anya ahụ na -etolite obodo Zcash, na -eme ka onye ọrụ were ya, wee mee ka mmata banyere teknụzụ nchekwa nzuzo Zcash gaa n'ihu.
+Mmemme Ndị Nnọchiteanya Ụwa na-achọpụta ndị otu obodo ndị na-enye onyinye dị elu na gburugburu ebe obibi Zcash ma na-enye ha ike ịghọ ndị ndu. Ndị nnọchi anya na-eme ka obodo Zcash too, na-akwalite nnabata ndị ọrụ, ma na-eme ka a mara teknụzụ nchekwa nzuzo nke Zcash.
 
-## Gịnị ka onye bụ́ Onyeisi Ndị Ozi na-eme?
+## Gịnị ka onye nnọchiteanya na-eme?
 
-- Na-eme ihe omume ndị a na-ahụ anya ma ọ bụ nke mebere emepe.
-- Nọgide na-enwe ọnụnọ n'ọrụ na mgbasa ozi mmekọrịta ma mepụta ọdịnaya mbụ gbasara Zcash.
-- Tụgharịa ihe mmụta Zcash n'asụsụ obodo.
-- Ndị ọrụ ọhụrụ na ndị mmepe n'ụgbọ mmiri maka usoro okike Zcash.
-- Na-anọchite anya Zcash na nzukọ crypto na ihe omume obodo.
+- Ndị na-akwado mmemme nzukọ anụ ahụ ma ọ bụ nke mebere emebe
+- Nọgide na-enwe ọnụnọ na mgbasa ozi ọha na eze ma mepụta ọdịnaya mbụ gbasara Zcash
+- Tụgharịa ihe mmụta Zcash ka ọ bụrụ asụsụ obodo
+- Tinye ndị ọrụ ọhụrụ na ndị mmepe na usoro Zcash
+- Na-anọchite anya Zcash na ogbako crypto na mmemme obodo
 
-Ndị nnọchi anya nwere nnwere onwe imepụta ihe n'ihe omume ha na-eme atụmatụ, nke na-enyere ha aka ịhazi mgbasa ozi maka ọnọdụ obodo ha.
+Ndị nnọchi anya nwere nnwere onwe imepụta ihe n'ihe gbasara ihe omume ha na-eme atụmatụ, nke na-eme ka ha nwee ike ịhazi ozi ha ka ọ dabara na ọnọdụ obodo ha.
 
-## [Ebe nrụọrụ weebụ Global Ambassador](https://zcashambassadors.com)
+## [Weebụsaịtị Onye Nnọchiteanya Ụwa](https://zcashambassadors.com)
 
-## Ndị ọrụ na-arụsi ọrụ ike (2026)
+## Obodo Ndị Nnọchiteanya Na-arụsi Ọrụ Ike (2026)
 
- Obodo  Ọha mmadụ  Ọrụ dị mkpa.
+| Mpaghara | Obodo | Ihe omume dị mkpa |
 |--------|-----------|-------------|
-Latin America. (Ụlọ akwụkwọ dị na United States) [Zcash na Spanish](https://x.com/zcashesp1) ◯ Ihe ndị dị na Spanish, ZK AV Club, Podcast nke ZCast.
-Brazil. Foto dị na peeji nke 3 [Zcash Brazil - Ọ bụ eziokwu.](https://x.com/zcashbrazil) ◯ Nzukọ ọmụmụ ihe, nzukọ ndị ọzọ, magazin a na-akpọ Shielded Magazine.
-Turkey. Ihe ndị dị na peeji nke 2 [Zcash Turkey - N'ihi na ihe.](https://x.com/ZcashTR) ◯ Ihe mmụta, Istanbul Blockchain Week nsonye.
-Ọ bụ Arebia. [Zcash Arabia - Ọ bụ eziokwu.](https://x.com/ZcashArabia) ❑ Ihe ndị dị n'asụsụ Arabik, akwụkwọ AMA.
-◯ Ukraine Nkeji nke abụọ [Zcask Ukraine Ebe a na-edebe ihe ochie](https://x.com/Zcash_ua) Ukraine. Ihe ndị dị na peeji nke 2
-Naịjirịa. [Zcash Naijiria](https://x.com/ZcashNigeria) Mmụta maka ndị mmepe, ntinye obodo.
-Ọwụwa Anyanwụ Afrịka. [Zcash East Africa (ZCash)](https://x.com/ZcashEastAfrica) Ọwụwa Anyanwụ Afrịka, uto obodo Uganda.
-South Africa. (Ụda Afrịka) [Zcash South Africa](https://twitter.com/Zcash_SA) South Africa. (Ụda Afrịka)
-Gana  Ka Ọ Dị Taa [Zcash Ghana](https://x.com/ZcashGH) Gana  Ka Ọ Dị Taa
-Mexico. Foto dị na peeji nke 3 [zcashqro (ihe ndị a na-eme n'oge)](https://x.com/zcashqro) ◯ Mgbasa ozi mahadum na ndị mmepe n'ọrụ.
-Rọshịa. [ruZcash](https://x.com/ruZCASH) ❑ Ọdịnaya na obodo asụsụ Russian.
-India. Ihe ndị dị na peeji nke 2 [Zcash India](https://x.com/ZcashIND) Ọzụzụ ndị mmepe na uto obodo.
-Korea. Foto dị na peeji nke 3 [Zcash Korea - N'ihi na ihe.](https://x.com/zcashkorea) ◯ Ihe ndị Korea na-akụzi.
+| Latin America | [Zcash na Spanish](https://x.com/zcashesp1) | Ọdịnaya Spanish, ZK AV Club, Zcast podcast |
+| Brazil | [Zcash Brazil](https://x.com/zcashbrazil) | Ọmụmụ ihe, nzukọ, Magazin Nchedo |
+| Tọki | [Zcash Toki](https://x.com/ZcashTR) | Ọdịnaya agụmakwụkwọ, isonye na Izu ụka Blockchain nke Istanbul |
+| Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Ọdịnaya agụmakwụkwọ Arabic, AMAs |
+| Yukren| [Zcask Ukraine](https://x.com/Zcash_ua) | Yukren |
+| Naịjirịa | [Zcash Naịjirịa](https://x.com/ZcashNigeria) | Mmụta ndị mmepe, ntinye obodo |
+| Ọwụwa Anyanwụ Afrịka | [Zcash Ọwụwa Anyanwụ Afrịka](https://x.com/ZcashEastAfrica) | Mmụba obodo dị n'Ọwụwa Anyanwụ Afrịka na Uganda |
+| Saụt Afrịka [Zcash Saụt Afrịka](https://twitter.com/Zcash_SA) | Saụt Afrịka
+| Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
+| Meksiko | [zcashqro](https://x.com/zcashqro) | Ntinye aka na mmepe mahadum |
+| Rọshịa | [ruZcash](https://x.com/ruZCASH) | Ọdịnaya na obodo asụsụ Rọshịa |
+| India | [Zcash India](https://x.com/ZcashIND) | Agụmakwụkwọ ndị mmepe na uto obodo |
+| Korea | [Zcash Korea](https://x.com/zcashkorea) | Ọdịnaya agụmakwụkwọ Korea |
 
-## Tinye akwụkwọ ka ị bụrụ onye nnọchianya mba ọzọ nke Ndịàmà Jehova .
+## Tinye akwụkwọ ka ị bụrụ onye nnọchi anya
 
 I nwekwara ike itinye aka site na:
-- Inye Aka n'Ime Ka E Nwee Ọganihu [ZecHub DAO](https://app.dework.xyz/zechub-2424) onyinye ego
-- Ịbanye na nke a. [Zcash Global Discord (Ụdị ego)](https://discord.gg/zcash)
+- Inye aka na [ZEC Bounties](https://bounties.zechub.wiki/)
+- Isonyere [Zcash Global Discord](https://discord.gg/zcash)
 

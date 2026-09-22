@@ -56,14 +56,14 @@ Zcash 有两种地址。
 
 ## 付诸实践
 
-- 使用默认采用屏蔽地址的钱包，例如 [Zodl](https://zodl.com) 或 [Zingo!](https://www.zingolabs.org/)。
+- 使用默认采用屏蔽地址的钱包，例如 [ZODL](https://zodl.com) 或 [Zingo!](https://www.zingolabs.org/)。
 - 当你在透明地址收到 ZEC 时，在花费之前先将其转入屏蔽地址。
 - 在可能的情况下，向屏蔽地址付款。每一笔透明支付都是完全公开的；而屏蔽支付则不是。
 
 ## 资源
 
 - [Zcash：隐私与安全建议](https://z.cash/support/security/privacy-security-recommendations/)
-- [屏蔽生态系统（Electric Coin Company）](https://electriccoin.co/blog/shielded-ecosystem/)
+- [屏蔽生态系统（Electric Coin Company）](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Zcash 技术如何运作](https://z.cash/technology/)
 - [Blockchair Zcash 浏览器](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@ Zcash 有两种地址。
 - [Zcash 基础知识](/start-here/what-is-zec-and-zcash)
 - [钱包](/using-zcash/wallets)
 - [Shielded pools](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

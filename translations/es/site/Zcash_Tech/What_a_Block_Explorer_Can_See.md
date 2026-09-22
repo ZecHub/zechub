@@ -63,7 +63,7 @@ Si consultas los datos sin procesar, los campos de remitente y receptor blindado
 ## Recursos
 
 - [Zcash: recomendaciones de privacidad y seguridad](https://z.cash/support/security/privacy-security-recommendations/)
-- [Un ecosistema blindado (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Un ecosistema blindado (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Cómo funciona la tecnología de Zcash](https://z.cash/technology/)
 - [Explorador de Zcash de Blockchair](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@ Si consultas los datos sin procesar, los campos de remitente y receptor blindado
 - [Conceptos básicos de Zcash](/start-here/what-is-zec-and-zcash)
 - [Wallets](/using-zcash/wallets)
 - [Pools blindados](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

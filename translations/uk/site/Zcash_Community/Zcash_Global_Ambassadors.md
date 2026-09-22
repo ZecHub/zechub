@@ -39,5 +39,5 @@
 ## Подайте заявку, щоб стати амбасадором
 
 Ви також можете долучитися, виконавши такі дії:
-- Робити внесок у винагороди [ZecHub DAO](https://app.dework.xyz/zechub-2424)
-- Приєднатися до [глобального Discord Zcash](https://discord.gg/zcash)
+- Робити внесок у [ZEC винагороди](https://bounties.zechub.wiki/)
+- Приєднатися до [Zcash глобального Discord](https://discord.gg/zcash)

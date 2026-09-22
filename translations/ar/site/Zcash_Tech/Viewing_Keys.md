@@ -108,6 +108,7 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 
 استخدم مفاتيح العرض عند الحاجة فقط، وفضّل أضيق مفتاح يجيب عن السؤال المطروح.
 
+- [إفصاحات الدفع](/zcash-tech/payment-disclosures) - إثبات تفاصيل مختارة لدفعة واحدة دون منح وصول مستمر إلى حساب
 - [ZIP 326: NU6.3 عواقب على المحافظ](https://zips.z.cash/zip-0326) — كيفية عمل مفاتيح العرض عبر مجموعتي Orchard وIronwood
 - [ZIP 229: تنسيق المعاملات للإصدار 6](https://zips.z.cash/zip-0229) — يعرّف مجموعتي Orchard وIronwood
 - [Zallet سجل التغييرات](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — أي إصدار أضاف أي أسلوب RPC

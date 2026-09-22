@@ -39,5 +39,5 @@ Elçiler, planladıkları faaliyetler üzerinde yaratıcı özgürlüğe sahipti
 ## Elçi Olmak İçin Başvurun
 
 Şunları yaparak da katkıda bulunabilirsiniz:
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424) ödüllerine katkıda bulunmak
+- [ZEC Ödüller](https://bounties.zechub.wiki/)e katkıda bulunmak
 - [Zcash Global Discord](https://discord.gg/zcash)'a katılmak

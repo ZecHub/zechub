@@ -108,10 +108,11 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 
 Используйте viewing key по мере необходимости и выбирайте наиболее узкий ключ, отвечающий на поставленный вопрос.
 
-- [ZIP 326: Последствия NU6.3 для кошельков](https://zips.z.cash/zip-0326) — как viewing key работают в пулах Orchard и Ironwood
+- [Раскрытие сведений о платежах](/zcash-tech/payment-disclosures) — подтверждение выбранных деталей одного платежа без предоставления постоянного доступа к учётной записи
+- [ZIP 326: NU6.3 Последствия для кошельков](https://zips.z.cash/zip-0326) — как ключи просмотра работают в пулах Orchard и Ironwood
 - [ZIP 229: Формат транзакций версии 6](https://zips.z.cash/zip-0229) — определяет пулы Orchard и Ironwood
-- [Журнал изменений Zallet](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — в каком выпуске был добавлен каждый метод RPC
-- [README Zkool](https://github.com/hhanh00/zkool2/blob/main/README.md) — поддерживаемые типы учётных записей и ключей
+- [Zallet журнал изменений](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — в каком выпуске был добавлен каждый метод RPC
+- [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — поддерживаемые типы учётных записей и ключей
 - [ECC, объяснение Viewing Key](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, выборочное раскрытие и Viewing Key](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, видеопрезентация Viewing Key Zcash](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+- [ECC, Zcash видеопрезентация Viewing KeyViewing Key](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
