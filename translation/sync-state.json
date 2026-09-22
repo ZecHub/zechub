@@ -12335,11 +12335,11 @@
   },
   "ig": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
-      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "src": "sha256:76aa4b6b1094af7223ed5f292712ff57f1e430cbd5f1ef6897b70373e09b88ca",
+      "src_commit": "2781262b8b0821e6e353cc4657c308945762a358",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepoint",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
@@ -12839,11 +12839,11 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
-      "src": "sha256:ec6af57641268f02be0e3c7657e8da3d0b231faf4371a41ebb06922c015ebd05",
-      "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
+      "src": "sha256:e571dce998e1c740ceebf50379dc448b7335cefec0b0d38b38d30e248d8d9f06",
+      "src_commit": "2781262b8b0821e6e353cc4657c308945762a358",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepoint",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -13879,11 +13879,11 @@
       "edited": false
     },
     "guides/Zenith_Installation.md": {
-      "src": "sha256:5816889d472190b7b2f33bd2b2448bbb5c8dd46e857fee76f3d57a63da0b2539",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:b8ce5a333e1bbeb218af13f80941b366a0bee4172f8be2235d4591d7257586c0",
+      "src_commit": "2781262b8b0821e6e353cc4657c308945762a358",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepoint",
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
@@ -19133,11 +19133,11 @@
       "edited": false
     },
     "guides/Visualizing_the_Zcash_Network.md": {
-      "src": "sha256:f5d8e089d52e2e3a148b7d260f8974f38fbbbe09573bcf7647e6d5007b35b414",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:e8e552593e32b1a0f0f518f20b76f62d22009b3dd043bf7a71a2ad03418f4b6f",
+      "src_commit": "2781262b8b0821e6e353cc4657c308945762a358",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepoint",
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
@@ -24451,11 +24451,11 @@
       "edited": false
     },
     "guides/Zenith_Installation.md": {
-      "src": "sha256:5816889d472190b7b2f33bd2b2448bbb5c8dd46e857fee76f3d57a63da0b2539",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:b8ce5a333e1bbeb218af13f80941b366a0bee4172f8be2235d4591d7257586c0",
+      "src_commit": "2781262b8b0821e6e353cc4657c308945762a358",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepoint",
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
@@ -28193,11 +28193,11 @@
   },
   "yo": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:0a6bcd22f943fd3fcd385493db333f21d88c99fcc90b968db52d7a19c8947405",
-      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "src": "sha256:76aa4b6b1094af7223ed5f292712ff57f1e430cbd5f1ef6897b70373e09b88ca",
+      "src_commit": "2781262b8b0821e6e353cc4657c308945762a358",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepoint",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
@@ -28697,11 +28697,11 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
-      "src": "sha256:ec6af57641268f02be0e3c7657e8da3d0b231faf4371a41ebb06922c015ebd05",
-      "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
+      "src": "sha256:e571dce998e1c740ceebf50379dc448b7335cefec0b0d38b38d30e248d8d9f06",
+      "src_commit": "2781262b8b0821e6e353cc4657c308945762a358",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepoint",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
