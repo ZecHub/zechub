@@ -6,15 +6,15 @@
 
 ## Abɔde a Nkwa Wom Ahobammɔ Ho Kan
 
-Wɔnam ZCG mmoa so na ɛde Zcash Ecosystem Security Lead dwumadie no sii hɔ sɛ ɛbɛma ahobanbɔ mfiridwuma a wɔatu ho ama ama Zcash ecosystem a ɛtrɛ — titire no ZCG mmoa — a ɛwɔ ECC ne ZF akyi.
+Wɔnam ZCG mmoa so na ɛde Zcash Ecosystem Security Lead dwumadie no sii hɔ sɛ ɛbɛma ahobanbɔ mfiridwuma a wɔatu wɔn ho ama ama Zcash ecosystem a ɛtrɛ — titire no ZCG mmoa — a ɛwɔ ECC ne ZF akyi.
 
 - **2022–2023:** [asase a wɔde hyɛ asase so](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) ɔsom sɛ Ecosystem Security Lead a odi kan. Sua pii wɔ [zecsec.com so na ɛwɔ hɔ](https://zecsec.com).
 - **2024–2025:** Wɔapaw ZCG [Tumi a Ɛsua koraa](https://leastauthority.com) sɛ wɔbɛtoa dwumadi no so denam foforo so [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723). Wobetumi ahu nsɛm foforo a wɔayɛ [ha](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
 - **2026:** Labs a wɔabɔ ho ban [ɔhyɛɛ Taylor Hornby aware nhyehyɛe](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) sɛ ahobammɔ ho ɔfotufo a ɔbɛhyɛ Zcash ahobammɔ tumi mu den.
 
-## ZCG Ahobanbɔ & Nneɛma a Ɛyɛ Fɛ a Wɔda no Adi Ho Nhyehyɛe
+## ZCG Ahobanbɔ & Nneɛma a Ɛyɛ Fɛ a Wɔda no Adi Ho Dwumadi
 
-No [ZCG Ahobanbɔ & Nneɛma a Ɛyɛ Fɛ a Wɔda no Adi Ho Nhyehyɛe](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) de nhyehyeɛ a wɔde bɛda ahobanbɔ mu mmerɛwyɛ ahorow adi wɔ Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no nyinaa mu a wɔayɛ no pɛpɛɛpɛ ma.
+No [ZCG Ahobanbɔ & Nneɛma a Ɛyɛ Fɛ a Wɔda no Adi Ho Dwumadi](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) de nhyehyeɛ a wɔde bɛda ahobanbɔ mu mmerɛwyɛ ahorow adi wɔ Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no nyinaa mu a wɔayɛ no pɛpɛɛpɛ ma.
 
 ## Nnansa yi Ahobammɔ Ho Nsɛm (2026) .
 
@@ -33,5 +33,5 @@ Electric Coin Company ne Zcash Foundation nyinaa ne saa Asɛdeɛ a Wɔda no Adi 
 
 - [Zcash Ahobammɔ Ho Afotu](https://github.com/zcash/zcash/security/advisories)
 - [Zebra Ahobammɔ Ho Afotu](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Bɔ Vulnerability bi ho amanneɛ wɔ zcash/zcash mu](https://github.com/zcash/zcash/security/policy) — si Electric Coin Company address a saa nsɛm yi atwe adwene asi so no ananmu, a wontumi nkɔ hɔ bio.
-- [Bɔ Vulnerability bi ho amanneɛ kyerɛ ZF](https://zfnd.org/contact/)
+- [Bɔ Vulnerability bi ho amanneɛ wɔ zcash/zcash mu](https://github.com/zcash/zcash/security/policy)
+- [Bɔ Vulnerability bi ho amanneɛ kyerɛ ZF](https://github.com/ZcashFoundation/zebra/security/policy)
