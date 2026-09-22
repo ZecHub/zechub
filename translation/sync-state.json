@@ -425,11 +425,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:778c230232c263cc118e20d065c0ee3d4be804c7607f6bda55fc8c7401e38f2a",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
+      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -5711,11 +5711,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:778c230232c263cc118e20d065c0ee3d4be804c7607f6bda55fc8c7401e38f2a",
-      "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
+      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -23331,11 +23331,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:778c230232c263cc118e20d065c0ee3d4be804c7607f6bda55fc8c7401e38f2a",
-      "src_commit": "86d3ecc894bdfa65c01a25387c7ffc18e04b5819",
+      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -29313,11 +29313,11 @@
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
-      "src": "sha256:58c77a90b93127ebc6cfd9d73f8fdb1c7e2a29f2ce7da0433f34330b2d155480",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:7203acc364633441465bf880c4ab707880adcdd1edba1182b21a4ec7c0125182",
+      "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
