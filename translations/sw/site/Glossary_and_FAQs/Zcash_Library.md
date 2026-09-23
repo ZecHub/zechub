@@ -41,7 +41,7 @@ Crosslink. A mapendekezo ya mseto makubaliano kubuni kwamba anaendelea uthibitis
 
 Neno. Ufafanuzi.
 |------|-----------|
-◯ DeFi. Miradi inayounganisha ZEC na DeFi: [Itifaki ya Maya](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Makusudi ya Karibu](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+◯ DeFi. Miradi inayounganisha ZEC na DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
 DATA DESHIELDING inahusu shughuli kutumwa kutoka zaddr (anwani ya ulinzi) kwa taddr (Anwani uwazi). asili ya manunuzi si inayoonekana hata hivyo fedha kuingia umma kujulikana thamani pool.
 Rasilimali za Watengenezaji. [Vifaa vya Watengenezaji wa Programu](https://www.zcashcommunity.com/developers/) |
 Hati-hati. [Hati rasmi za Serikali](https://zcash.readthedocs.io/en/latest/) |
