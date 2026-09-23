@@ -108,7 +108,7 @@ Wiki hii ipo ili kukusaidia kwenda zaidi, hivyo hatua bora ya pili ni kuendelea 
 - [Mwongozo Mpya wa Mtumiaji](https://zechub.wiki/start-here/new-user-guide) kwa ajili ya kutembea kwanza kupitia kutumia Zcash
 - [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](https://zechub.wiki/using-zcash/shielded-pools) kwa jinsi Zcash inavyoweka shughuli za siri.
 - [Mzunguko wa mviringo](https://zechub.wiki/zcash-tech/the-turnstile) kwa jinsi ya kutoa sarafu kubaki verifiable
-- [Mti wa chuma](https://zechub.wiki/zcash-tech/ironwood) kwa ajili ya bwawa shielded mtandao ni kuhamia na
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) kwa ajili ya bwawa shielded mtandao ni kuhamia na
 - [Kuboresha Mtandao](https://zechub.wiki/start-here/network-upgrades) kwa jinsi Zcash mabadiliko katika muda.
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) kwa ajili ya cryptography nyuma faragha
 
