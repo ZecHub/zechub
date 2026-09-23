@@ -41,7 +41,7 @@ Cypherpunk Zero bụ Creative Universe na mgbalị imekọ ihe ọnụ n'etiti E
 
 Okwu. Nkọwa okwu.
 |------|-----------|
-◯ DeFi ❑ Ihe oru ngo nke na-ejikọta ZEC na DeFi: [Nkwekọrịta Maya](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Ihe Ndị Dị Nso n'Ebe E Si Nweta Ya](https://near-intents.org/) / [ZenRock (Ụlọ akụ)](https://app.zenrocklabs.io/) / [ShapeShift (Nkeji nke abụọ)](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+◯ DeFi ❑ Ihe oru ngo nke na-ejikọta ZEC na DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock (Ụlọ akụ)](https://app.zenrocklabs.io/) / [ShapeShift (Nkeji nke abụọ)](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
 | Deshielding | Refers to a transaction being sent from a zaddr (shielded address) to a taddr (transparent address). The origin of the transaction is not visible however the funds enter a publicly visible value pool. |
 ◯ Ndị na-emepụta ihe ❑ Onye ọrụ ibe gị ❖ Ụlọ Ọrụ Na-ahụ Maka Ihe Ọmụma [Akụrụngwa Onye Mmepụta](https://www.zcashcommunity.com/developers/) |
 Ihe ndekọ. [Akwụkwọ Ndị Ọrụ Ọchịchị na-edepụta](https://zcash.readthedocs.io/en/latest/) |
