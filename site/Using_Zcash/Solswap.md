@@ -11,7 +11,7 @@
 "ZEC" in Phantom can mean two different assets, so know which one you're paying for.
 
 - **Phantom's built-in Swap button** gives you a token representation of ZEC on Solana (or another network Phantom supports). It is not native ZEC. It sits at your Phantom address, it has no Zcash shielded functionality, and a Zcash wallet can't see it or shield it.
-- **Native ZEC** only exists on the Zcash blockchain and is sent to a Zcash address. To get it you need a service that asks for your Zcash address, like a swap inside [Zodl](https://zodl.com), one of the options on the [DEX page](/dex), or solswap.org followed by a withdrawal to your Zcash wallet (Step 8).
+- **Native ZEC** only exists on the Zcash blockchain and is sent to a Zcash address. To get it you need a service that asks for your Zcash address, like a swap inside [ZODL](https://zodl.com), one of the options on the [DEX page](/dex), or solswap.org followed by a withdrawal to your Zcash wallet (Step 8).
 
 ### Check before you pay
 
@@ -22,7 +22,7 @@
 ---
 
 ##  **Step 1: Open the Swap Interface**  
-Launch the **Phantom app** and visit **[solswap.org](https://solswap.org/)** from the Phantom browser. Solswap runs on NEAR Intents and can send ZEC out to a Zcash address.  
+Launch the **Phantom app** and visit **[solswap.org](https://solswap.org/)** from the Phantom browser. The site runs on Near Intents and can send ZEC out to a Zcash address.  
 
 Phantom's own **Swap** button also lists ZEC, but that gets you the token described above, not native ZEC.  
 
@@ -93,9 +93,9 @@ Tap **Swap Settings** to:
 ---
 
 ## **Step 8: Withdraw Native ZEC to Your Zcash Wallet**  
-After the swap, your ZEC shows up in your Solswap **Account** balance. It isn't on the Zcash network yet, and it isn't in Phantom either. To move it:  
-- Open a Zcash wallet such as [Zodl](https://zodl.com) and copy your receiving address. Solswap accepts a transparent (`t1`) or unified (`u1`) address.  
-- In Solswap, go to **Account** and tap **Withdraw**.  
+After the swap, your ZEC shows up in your solswap.org **Account** balance. It isn't on the Zcash network yet, and it isn't in Phantom either. To move it:  
+- Open a Zcash wallet such as [ZODL](https://zodl.com) and copy your receiving address. The withdraw form accepts a transparent (`t1`) or unified (`u1`) address.  
+- On solswap.org, go to **Account** and tap **Withdraw**.  
 - Pick **ZEC**, set the network to **Zcash**, paste your address and double check it before you confirm.  
 
 ---
