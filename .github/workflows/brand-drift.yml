@@ -1,0 +1,51 @@
+name: Brand drift
+
+# Finds brand names the engines translated that are NOT yet protected.
+#
+# Every other terminology gate reads FROM translation/protected-terms.json:
+# check-protected-terms enforces it, check-brand-spelling checks the casing of
+# terms already on it. Neither can propose a new entry, so the list only grew
+# when a human noticed damage by eye. This job works from evidence instead —
+# a brand-shaped name present in an English page and absent from its
+# translation — and fails when a name appears that the baseline does not know.
+#
+# Deliberately UNSCOPED. The per-PR gates in translation-validation.yml check
+# only a PR's changed files so unrelated PRs don't go red, and that scoping is
+# exactly why sixty unprotected brands accumulated unseen. This one reads the
+# whole corpus: 216 English pages × 18 locales in about 40 seconds.
+
+on:
+  pull_request:
+    paths:
+      - "site/**/*.md" # a new page can introduce a new brand
+      - "translation/protected-terms.json"
+      - "translation/menu-titles/en.json"
+      - "scripts/check-brand-drift.mjs"
+      - "translation/brand-drift-baseline.txt"
+      - ".github/workflows/brand-drift.yml"
+  schedule:
+    - cron: "41 6 * * 1" # Monday sweep: catches drift arriving via translations
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: brand-drift-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      # No install step: the checker is dependency-free Node, reading the repo
+      # off disk. Keeping it that way is what lets it run on a schedule without
+      # a lockfile or a token.
+      - name: Check for unprotected brand names
+        run: node scripts/check-brand-drift.mjs
