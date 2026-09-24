@@ -364,7 +364,7 @@
 --- 
 
 ## [Freedom Wallet](https://www.freedomwallet.com/)
-![logo](/content-images/freedom_wallet_logo.webp‎ "Freedom Wallet")
+![logo](/content-images/freedomwalletlogo.jpg "Freedom Wallet")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Linux | Windows
 - Wallet Support: Seed Phrase | Private Key | Self-Custody Wallet | Unified Address
