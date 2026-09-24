@@ -353,6 +353,8 @@
 - Features: Wallet Recovery | Command Line Interface | Shielded Memo | Testnet Support
 - Ironwood: Ready
 
+---
+
 ## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
 ![logo](/content-images/gem_wallet_logo.png "Gem Wallet")
 - Devices: Mobile
