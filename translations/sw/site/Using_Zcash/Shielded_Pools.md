@@ -37,7 +37,7 @@ Kama Zcash inavyoendelea, mifuko mpya ya ulinzi inaweza kuletwa ili kuboresha us
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Mchoro 1: Chati inayoonyesha hifadhi 4 za sasa kutoka Oktoba, 2025
+Mchoro 1: Chati inayoonyesha mabwawa matatu yaliyolindwa (Sprout, Sapling na Orchard) hadi tarehe 29 Oktoba 2025, kabla ya Ironwood kuanza kutumika
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Mchoro 2: Chati inayoonyesha bwawa la Orchard mnamo Oktoba, 2025
+Mchoro 2: Chati inayoonyesha bwawa la Orchard hadi tarehe 29 Oktoba 2025, kabla ya Ironwood kuanza kutumika
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Mchoro 3: Chati inayoonyesha bwawa la Sapling mnamo Oktoba, 2025
+Mchoro 3: Chati inayoonyesha bwawa la Sapling hadi tarehe 29 Oktoba 2025, kabla ya Ironwood kuanza kutumika
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Mchoro 4: Chati inayoonyesha bwawa la Sprout mnamo Oktoba, 2025
+Mchoro 4: Chati inayoonyesha bwawa la Sprout hadi tarehe 29 Oktoba 2025, kabla ya Ironwood kuanza kutumika
 
 Sprout ilikuwa ya kwanza kabisa wazi ruhusa Zero maarifa faragha itifaki milele ilizinduliwa. Ilizinduliwa tarehe 28 Oktoba, 2016.
 
@@ -113,7 +113,7 @@ As the Zcash ecosystem continued  to expand with increasing number of shielded t
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Mchoro 5: Chati inayoonyesha kundi la Uwazi kama ya Oktoba, 2025
+Mchoro 5: Chati inayoonyesha bwawa la Transparent hadi tarehe 29 Oktoba 2025, kabla ya Ironwood kuanza kutumika
 
 <br/>
 
@@ -184,5 +184,5 @@ Ona habari hii. [Mti wa chuma](/zcash-tech/ironwood) kwa ajili ya kuboresha yeny
 - [Mkoba](/using-zcash/wallets)  Ni pochi ni iimarishwe na Ironwood tayari
 - [Shughuli za biashara](/using-zcash/transactions)  Jinsi ya kutuma shughuli shielded
 - [Kununua ZEC](/using-zcash/buying-zec)  Kupata ZEC kabla ya kuitumia katika makundi
-- [ZK-SNARKs](/zcash-tech/zk-snarks)  msingi cryptographic ya mabwawa shielded
+- [zk-SNARKs](/zcash-tech/zk-snarks)  msingi cryptographic ya mabwawa shielded
 - [ZEC na Zcash ni nini?](/start-here/what-is-zec-and-zcash)  Background juu ya faragha Zcash

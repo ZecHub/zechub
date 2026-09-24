@@ -37,7 +37,7 @@ As Zcash evolves, new shielded pools may be introduced to improve security, priv
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Fig 1: A chart showing the current 4 pools as of October, 2025
+Fig 1: A chart showing the three shielded pools (Sprout, Sapling and Orchard) up to 29 October 2025, before Ironwood activated
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Fig 2: A chart showing the Orchard pool as of October, 2025
+Fig 2: A chart showing the Orchard pool up to 29 October 2025, before Ironwood activated
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Fig 3: A chart showing the Sapling pool as of October, 2025
+Fig 3: A chart showing the Sapling pool up to 29 October 2025, before Ironwood activated
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Fig 4: A chart showing the Sprout pool as of October, 2025
+Fig 4: A chart showing the Sprout pool up to 29 October 2025, before Ironwood activated
 
 Sprout was the first ever open permissionless Zero Knowledge privacy protocol ever launched. It was launched on the 28th of October, 2016.
 
@@ -113,7 +113,7 @@ As the Zcash ecosystem continued  to expand with increasing number of shielded t
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Fig 5: A chart showing the Transparent pool as of October, 2025
+Fig 5: A chart showing the Transparent pool up to 29 October 2025, before Ironwood activated
 
 <br/>
 
@@ -184,5 +184,5 @@ See [Ironwood](/zcash-tech/ironwood) for the upgrade itself, and [The Turnstile]
 - [Wallets](/using-zcash/wallets) — Which wallets are maintained and Ironwood ready
 - [Transactions](/using-zcash/transactions) — How to send shielded transactions
 - [Buying ZEC](/using-zcash/buying-zec) — Acquiring ZEC before using it in pools
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — The cryptographic foundation of shielded pools
+- [zk-SNARKs](/zcash-tech/zk-snarks) — The cryptographic foundation of shielded pools
 - [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Background on Zcash privacy
