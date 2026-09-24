@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# HISTORICAL -- this script does not run.
+#
+# It drives zcashd through zcash-cli. zcashd reached its automatic
+# End-of-Support halt on 18 July 2026, so the calls below cannot reach a
+# running node. The script has not been ported.
+#
+# The memo-reading step has a Zallet equivalent: `zallet rpc z_listunspent`
+# returns each received shielded note with the same memoStr field read below.
+#
+# Kept as a record of the Magic-Wormhole memo demo. For the Zallet command see:
+#   https://zechub.wiki/using-zcash/zallet-quick-reference-guide
 
 current_block=$(zcash-cli getbestblockhash | xargs zcash-cli getblock | jq .height)
 

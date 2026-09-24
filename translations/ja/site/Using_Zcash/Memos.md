@@ -22,6 +22,14 @@ Zcashブロックチェーンの最初のブロックの一つに、ある人が
 
 #### 高度な機能
 
+> **歴史的資料。このデモは記載どおりには動作しません。**
+>
+> 以下のデモは zcashd を使用しており、付属の[受信スクリプト](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh)は `zcash-cli` を通じてメモを読み取ります。zcashd は2026年7月18日に自動的なサポート終了停止に達したため、このスクリプトは稼働中のノードに到達できず、移植もされていません。
+>
+> コマンドラインからのシールド済みメモの読み取りは Zallet で引き続き可能です。`zallet rpc z_listunspent` は、受信した各シールド済みノートを、スクリプトが読み取るのと同じ `memoStr` フィールド付きで返します。コマンドについては [Zallet クイックリファレンスガイド](/using-zcash/zallet-quick-reference-guide)を、ノードを zcashd から移行する方法については [Zebra と Zallet への移行ガイド](/guides/migration-guide-zcashd-to-zebrad-zallet)を参照してください。Zallet はまだベータ版です。
+>
+> このセクションは Magic-Wormhole デモの歴史的記録として残されています。
+
 Magic-Wormhole CLIとzcashdを使ってZcashシールド済みメモを使用して、1台のコンピュータから別のコンピュータにファイルを安全に送信する方法です：
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

@@ -22,6 +22,14 @@
 
 #### उन्नत
 
+> **ऐतिहासिक। यह डेमो अब लिखे अनुसार नहीं चलता।**
+>
+> नीचे दिया गया डेमो zcashd का उपयोग करता है, और इसकी [प्राप्ति स्क्रिप्ट](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) `zcash-cli` के माध्यम से मेमो पढ़ती है। zcashd 18 जुलाई 2026 को अपने स्वचालित End-of-Support रुकाव पर पहुँच गया था, इसलिए यह स्क्रिप्ट किसी चालू नोड तक नहीं पहुँच सकती, और इसे पोर्ट नहीं किया गया है।
+>
+> कमांड लाइन से शील्डेड मेमो पढ़ना Zallet पर अब भी काम करता है: `zallet rpc z_listunspent` हर प्राप्त शील्डेड नोट को उसी `memoStr` फ़ील्ड के साथ लौटाता है जिसे स्क्रिप्ट पढ़ती है। कमांड के लिए [Zallet क्विक रेफ़रेंस गाइड](/using-zcash/zallet-quick-reference-guide) देखें, और किसी नोड को zcashd से हटाने के लिए [Zebra और Zallet पर माइग्रेशन गाइड](/guides/migration-guide-zcashd-to-zebrad-zallet) देखें। Zallet अभी बीटा में है।
+>
+> यह अनुभाग Magic-Wormhole डेमो के ऐतिहासिक रिकॉर्ड के रूप में रखा गया है।
+
 यहाँ बताया गया है कि Magic-Wormhole CLI और zcashd के साथ Zcash Shielded Memos का उपयोग करके एक कंप्यूटर से दूसरे कंप्यूटर तक फ़ाइलों को सुरक्षित रूप से कैसे भेजें!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
