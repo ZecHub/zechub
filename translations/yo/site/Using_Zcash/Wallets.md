@@ -1,354 +1,375 @@
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
-- Àwọn Ẹrọ: Ètò alágbèéká
-- Àwọn ètò ìṣiṣẹ: Android; iOS
+- Àwọn ẹ̀rọ: Foonu alagbeka
+- Ètò Ìṣiṣẹ́: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Ìwé Adirẹsi. CrossPay. Near Intents. Flexa Payments. MultiSignature. Ìbéèrè fún Owó-ìṣúnáwọ̀n. Shielded Memo. Spend before Sync. TEX. Address Tor Support. F-droid
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Ironwood: Ready
 
 ---
 
-## [Ywallet](https://ywallet.app/installation/)
+## [Àpò owó Yàrá](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
-- Àwọn ohun èlò: Mobile  Desktop
-- Àwọn ètò ìṣiṣẹ́: Android  iOS Windows Linux macOS
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Ìwé Adirẹsi  Ibi ìpamọ́ ní Ojúoòrùn  Aṣayan adirẹsí oríṣi-ìṣe  Ètò Ìsanwó Ẹbẹ  Igbekalẹ àpòolùpèsè  Memo tí a fi ọṣọ pa mọ́ TEX Adirẹẹsi  Dibo WarpSync
-- Igi Irin: Kò Ti Ṣetan fún Iṣẹ́ Náà
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìwé Àdírẹ́sì | Ìpamọ́ Òtútù | Àdírẹ́sì Onírúurú | Ìbéèrè Ìsanwó | Gbígbé Adágún | Àkọsílẹ̀ Ààbò | Àdírẹ́sì TEX | Ìdìbò | WarpSync
+- Ironwood: Not Ready
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
-- Àwọn ohun èlò: Mobile  Desktop
-- Àwọn ètò ìṣiṣẹ́: Android  iOS Windows Linux macOS
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Sapling | Ironwood
-- Àwọn Ànímọ̀: Discord Bot
+- Àwọn Adágún: Sapling | Ironwood
+- Àwọn Ẹ̀yà Ara Rẹ̀: Discord Bot
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
-- Àwọn ohun èlò: Mobile  Desktop
-- Àwọn ètò ìṣiṣẹ: Android  iOS Windows Linux
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | iOS | Windows | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn àkànṣe: Àkájọ Adirẹsi  Ìmòye Iṣuna-owo  Ètò Owó Tí ó Wá sí Ẹ̀rọ PepperSync Memo tí a fi Ọṣọ pamọ́  Atilẹyin Testnet
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìwé Àdírẹ́sì | Ìmọ̀ Ìnáwó | Ìbéèrè Ìsanwó | PepperSync | Àkọsílẹ̀ Ààbò | Àtìlẹ́yìn Testnet
+- Ironwood: Ready
 
 ---
 
-## [Ìlà](https://edge.app)
+## [Igun eti](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
-- Àwọn Ẹrọ: Ètò alágbèéká
-- Àwọn ètò ìṣiṣẹ: Android; iOS
+- Àwọn ẹ̀rọ: Foonu alagbeka
+- Ètò Ìṣiṣẹ́: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling
-- Awọn ẹya ara ẹrọ: Aifọwọyi Shielding  DEX Swaps  Multi Coin  Afọmọ Memo  Lo ṣaaju ki o to Sync
+- Àwọn Adágún: Àwòrán | Sapling
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ààbò Àìfọwọ́sowọ́pọ̀ | Àwọn Ìyípadà DEX | Owó Púpọ̀ | Àkọsílẹ̀ Ààbò | Nawó kí ó tó di pé a ṣe Ìṣiṣẹ́pọ̀
 
 ---
 
-## [Kò Sẹ́ni Tó Lè Dènà Rẹ̀](https://unstoppable.money)
+## [A kò lè dá dúró](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
-- Àwọn Ẹrọ: Ètò alágbèéká
-- Àwọn ètò ìṣiṣẹ: Android; iOS
+- Àwọn ẹ̀rọ: Foonu alagbeka
+- Ètò Ìṣiṣẹ́: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn àkànṣe: DEX Swaps  Ọ̀pọ̀ owó-ìṣírò  Lo kí o tó Sync
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Àwọn Ìyípadà DEX | Owó Púpọ̀ | Nawó kí ó tó di pé a ṣe Ìmúṣiṣẹ́pọ̀
+- Ironwood: Ready
 
 ---
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
-- Àwọn ohun èlò: Mobile  Desktop
-- Àwọn ètò ìṣiṣẹ: Android  iOS Windows
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | iOS | Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Ìwé Adirẹsi  Ìwádìí Adirẹẹsi  Ètò ìdènà-ìkọlù Lọwọlọwọ  Aṣayan ìdìbò adirẹsin  Ohun tí a béèrè fún owó sisan  Memo tó ní ààbò TEX AdirẸsi Testnet Support
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìwé Àdírẹ́sì | Ṣíṣàyẹ̀wò Àdírẹ́sì | Ààbò Àìfọwọ́sowọ́pọ̀ | Àdírẹ́sì Onírúurú | Ìbéèrè Ìsanwó | Àkọsílẹ̀ Ààbò | Àdírẹ́sì TEX | Àtìlẹ́yìn Testnet
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
-- Àwọn ohun èlò: Mobile  Desktop
-- Àwọn ètò ìṣiṣẹ: Android  iOS Windows Linux
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | iOS | Windows | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Adirẹsi yípadà  Ìtìlẹ́yìn kókó tí ó gbòòrò  Ètò ìfiránṣẹ́ tó ní àdàkọ ti a fi kọǹpútà pamọ́ síta FROST Multisig Multi-Account Sync Shielded Memo Testnet Support
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìyípo Àdírẹ́sì | Àtìlẹ́yìn Kíkọ́ Búdú | Àwọn Ìjáde Tí A Fi Kóòdù Sí | FROST Multisig | Ìṣiṣẹ́pọ̀ Àkọọ́lẹ̀ Ọ̀pọ̀lọpọ̀ | Àkọsílẹ̀ Ààbò | Àtìlẹ́yìn Testnet
+- Ironwood: Ready
 
 ---
 
-## [Ìjẹ̀bú](https://cakewallet.com/install/)
+## [Kéèkì](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Àwọn ohun èlò: Mobile  Desktop
-- Àwọn ètò ìṣiṣẹ́: Android  iOS Windows Linux macOS
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn àkànṣe: Àkájọ Adirẹsi  Ìyípadà adirẹsin  Aṣọ̀nà laifọwọyi DEX Swaps Multi Coin Shielded Memo Tor Support
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìwé Àdírẹ́sì | Yíyí Àdírẹ́sì | Ààbò Àìfọwọ́sowọ́pọ̀ | Àwọn Pípà DEX | Owó Púpọ̀ | Àkọsílẹ̀ Ààbò | Àtìlẹ́yìn Tor
+- Ironwood: Ready
 
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
-- Àwọn Ẹrọ: Àpótí Ìsọfúnni
-- Àwọn Ẹ̀rọ: Windows Linux macOS
+- Àwọn ẹ̀rọ: kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Ìwé Adirẹsi Interface Graphical Shielded Memo Ìtìlẹyìn Testnet
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìwé Àdírẹ́sì | Ìbáṣepọ̀ Àwòrán | Àkọsílẹ̀ Ààbò | Àtìlẹ́yìn Testnet
 
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
-- Àwọn Ẹrọ: Àpótí Ìsọfúnni
-- Àwọn Ẹ̀rọ: Windows Linux macOS
+- Àwọn ẹ̀rọ: kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Ìkáwọ́-ìlà àṣẹ PepperSync Memo tí a fi ààbò pa mọ́ Atilẹyin Testnet
-- Igi Irin: Ó Ń Ṣàṣeyọrí Sí I
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìbáṣepọ̀ Ìlà Àṣẹ | PepperSync | Àkọsílẹ̀ Ààbò | Àtìlẹ́yìn Testnet
+- Ironwood: In Progress
 
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
-- Àwọn Ẹrọ: Àpótí Ìránṣẹ́
-- Àwọn Ẹ̀rọ: Windows Linux macOS
+- Àwọn ẹ̀rọ: kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Ìmújáde Alpha JSON-RPC Interface Shielded Memo Atilẹyin Testnet
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Àtúnse Alpha | Ìbánisọ̀rọ̀ JSON-RPC | Àkọsílẹ̀ Ààbò | Àtìlẹ́yìn Testnet
+- Ironwood: Ready
 
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
-- Àwọn Ẹrọ: Àpótí Ìránṣẹ́
-- Àwọn Ẹ̀rọ: Windows Linux macOS
+- Àwọn ẹ̀rọ: kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Ìlà àṣẹ ìfọwọ́sọdárayá  Òtítọ́ oríṣiríṣi  Ohun tí a fi ààbò ṣe Memo  Atilẹyin Testnet
-- Igi Irin: Kò Ti Ṣetan fún Iṣẹ́ Náà
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìbáṣepọ̀ Ìlà Àṣẹ | Àdírẹ́sì Onírúurú | Àkọsílẹ̀ Ààbò | Àtìlẹ́yìn Testnet
+- Ironwood: Not Ready
 
 ---
 
-## [Ó nígboyà.](https://brave.com/web3-privacy/)
+## [Brave](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
-- Àwọn ohun èlò: Ayelujara
-- Ètò ìṣiṣẹ́: Àwòrán-ìwòye (Browser)
+- Àwọn ẹ̀rọ: Wẹ́ẹ̀bù
+- Ètò Ìṣiṣẹ́: Ẹ̀rọ Aṣàwárí
 - Wallet Support: Seed Phrase | Unified Address
-- Àwọn adágún: Òófò. Igi irin
-- Àwọn àkànṣe: Àkọsílẹ̀ tí a fi dì _ Ṣẹ́yìn kí o tó ṣe ìfiwéra  Ìtìlẹ́yìn Testnet
+- Àwọn Adágún: Àwòrán | Igi Ironwood
+- Àwọn Ẹ̀yà Ara Rẹ̀: Àkọsílẹ̀ Ààbò | Nawó kí ó tó di pé a ṣe ìṣiṣẹ́pọ̀ | Àtìlẹ́yìn Testnet
 
 ---
 
-## [Ìmúdàgba Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](/content-images/metamask-25048569f6.webp "Metamask")
-- Àwọn ohun èlò: Ayelujara
-- Ètò ìṣiṣẹ́: Àwòrán-ìwòye (Browser)
+- Àwọn ẹ̀rọ: Wẹ́ẹ̀bù
+- Ètò Ìṣiṣẹ́: Ẹ̀rọ Aṣàwárí
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ́: Ọ̀pọ̀ owó ẹyọ
+- Awọn ẹya ara ẹrọ: Owó pupọ
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Àwọn ohun èlò: Ayelujara
-- Ètò ìṣiṣẹ́: Àwòrán-ìwòye (Browser)
+- Àwọn ẹ̀rọ: Wẹ́ẹ̀bù
+- Ètò Ìṣiṣẹ́: Ẹ̀rọ Aṣàwárí
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn ohun tó ń ṣe: DEX Swaps
+- Awọn ẹya ara ẹrọ: Awọn iyipada DEX
 
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
-- Àwọn ohun èlò: Ẹrọ alágbèéká  Web
-- Ẹrọ isẹ: Android  iOS  Àwòrán-ìwòye
-- Atilẹyin apamọwọ: Ọrọ-ọrọ irugbin
-- Àwọn ìsọ̀rí: Òróró-ìmójútó.
-- Àwọn Ànímọ́: Ọ̀pọ̀ owó ẹyọ
+- Àwọn ẹ̀rọ: Fóònù alágbéka | Wẹ́ẹ̀bù
+- Ètò Ìṣiṣẹ́: Android | iOS | Ẹ̀rọ lilọ kiri ayelujara
+- Atilẹyin Apamọwọ: Gbolohun Irugbin
+- Àwọn Adágún: Aláìlábòsí
+- Awọn ẹya ara ẹrọ: Owó pupọ
 
 ---
 
-## [Ìkáwọ́ Àdéhùn](https://trustwallet.com/download)
+## [Trust Wallet](https://trustwallet.com/download)
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
-- Àwọn ohun èlò: Ẹrọ alágbèéká  Web
-- Ẹrọ isẹ: Android  iOS  Àwòrán-ìwòye
-- Atilẹyin apamọwọ: Ọrọ-ọrọ irugbin
-- Àwọn ìsọ̀rí: Òróró-ìmójútó.
-- Àwọn Ànímọ́: Ọ̀pọ̀ owó ẹyọ
+- Àwọn ẹ̀rọ: Fóònù alágbéka | Wẹ́ẹ̀bù
+- Ètò Ìṣiṣẹ́: Android | iOS | Ẹ̀rọ lilọ kiri ayelujara
+- Atilẹyin Apamọwọ: Gbolohun Irugbin
+- Àwọn Adágún: Aláìlábòsí
+- Awọn ẹya ara ẹrọ: Owó pupọ
 
 ---
 
-## [Ìyọrísí rẹ̀ ni pé:](https://www.exodus.com/zcash-wallet-zec)
+## [Exodus](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
-- Àwọn ohun èlò: Ẹrọ alágbèéká  Dísíkòpò̩  Ìkànnì orí Íńtánẹ́ẹ̀tì
-- Ẹrọ isẹ: Android  iOS Windows Linux macOS Àwòrán aṣàwákiri
-- Atilẹyin apamọwọ: Ọrọ-ọrọ irugbin
-- Àwọn ìsọ̀rí: Òróró-ìmójútó.
-- Àwọn Ànímọ́: Ọ̀pọ̀ owó ẹyọ
+- Àwọn ẹ̀rọ: Fóònù alágbéka | Kọ́ńpútà alágbèéká | Wẹ́ẹ̀bù
+- Ètò Ìṣiṣẹ́: Android | iOS | Windows | Linux | macOS | Ẹ̀rọ lilọ kiri ayelujara
+- Atilẹyin Apamọwọ: Gbolohun Irugbin
+- Àwọn Adágún: Aláìlábòsí
+- Awọn ẹya ara ẹrọ: Owó pupọ
 
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
-- Àwọn ohun èlò: Mobile  Desktop
-- Àwọn ètò ìṣiṣẹ: Android  iOS Windows
-- Atilẹyin apamọwọ: Ọrọ-ọrọ irugbin
-- Àwọn ìsọ̀rí: Òróró-ìmójútó.
-- Àwọn Ànímọ́: Ọ̀pọ̀ owó ẹyọ
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | iOS | Windows
+- Atilẹyin Apamọwọ: Gbolohun Irugbin
+- Àwọn Adágún: Aláìlábòsí
+- Awọn ẹya ara ẹrọ: Owó pupọ
 
 ---
 
 ## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
-- Àwọn ohun èlò:
-- Ètò Ṣiṣẹ́:
+- Àwọn ẹ̀rọ:
+- Eto isesise:
 - Wallet Support: Hardware | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ́: Ọ̀pọ̀ owó ẹyọ
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Awọn ẹya ara ẹrọ: Owó pupọ
+- Ironwood: Ready
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Àwọn ohun èlò:
-- Ètò Ṣiṣẹ́:
-- Ìtìlẹyìn Wọ́léètì: Ẹrọ-iṣẹ̀ (Hardware)
-- Àwọn ìsọ̀rí: Òróró-ìmójútó.
-- Àwọn Ànímọ́: Ọ̀pọ̀ owó ẹyọ
-- Igi Irin: Ó Ń Ṣàṣeyọrí Sí I
+- Àwọn ẹ̀rọ:
+- Eto isesise:
+- Àtìlẹ́yìn Àpò Ìpamọ́: Ohun èlò
+- Àwọn Adágún: Aláìlábòsí
+- Awọn ẹya ara ẹrọ: Owó pupọ
+- Ironwood: In Progress
 
 ---
 
 ## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
-- Àwọn ohun èlò: Ẹrọ alágbèéká  Web
-- Ẹrọ isẹ: Android  iOS  Àwòrán-ìwòye
-- Ìtìlẹyìn Wọ́léètì: Àkọ̀rọ̀-Àgbékalẹ̀. Ẹrọ ìnáwó
-- Àwọn ìsọ̀rí: Òróró-ìmójútó.
-- Àwọn Ànímọ́: Ọ̀pọ̀ owó ẹyọ
+- Àwọn ẹ̀rọ: Fóònù alágbéka | Wẹ́ẹ̀bù
+- Ètò Ìṣiṣẹ́: Android | iOS | Ẹ̀rọ lilọ kiri ayelujara
+- Àtìlẹ́yìn Àpò Ìpamọ́: Gbólóhùn Irúgbìn | Ohun èlò
+- Àwọn Adágún: Aláìlábòsí
+- Awọn ẹya ara ẹrọ: Owó pupọ
 
 ---
 
-## [Ìkóhun-ìní](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
+## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
-- Àwọn ohun èlò:
-- Ètò Ṣiṣẹ́:
-- Ìtìlẹyìn Wọ́léètì: Ẹrọ-iṣẹ̀ (Hardware)
-- Àwọn ìsọ̀rí: Òróró-ìmójútó.
-- Àwọn Ànímọ́: Ọ̀pọ̀ owó ẹyọ
+- Àwọn ẹ̀rọ:
+- Eto isesise:
+- Àtìlẹ́yìn Àpò Ìpamọ́: Ohun èlò
+- Àwọn Adágún: Aláìlábòsí
+- Awọn ẹya ara ẹrọ: Owó pupọ
 
 ---
 
 ## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
-- Àwọn ohun èlò: Wẹ́bútà  Òpó alágbèéká  Àkọlé orí kọ̀ǹpútà
-- Ẹrọ isẹ: Android  iOS Windows Linux macOS Àwòrán aṣàwákiri
-- Àwọn ìsọ̀rí: Òróró-ìmójútó.
-- Àwọn Ànímọ̀: Multi Coin  Web App
+- Àwọn ẹ̀rọ: Wẹ́ẹ̀bù | Fóònù alágbéka | Kọ́ńpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | iOS | Windows | Linux | macOS | Ẹ̀rọ lilọ kiri ayelujara
+- Àwọn Adágún: Aláìlábòsí
+- Àwọn Àǹfààní: Owó Púpọ̀ | Ohun èlò wẹ́ẹ̀bù
 
 ---
 
-## [Àwòdì ìríjú](https://vizor.cash/)
+## [Vizor](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
-- Àwọn ohun èlò: Àpótí  Òǹkàran alágbèéká
-- Ètò ìṣiṣẹ́: macOS
+- Àwọn ẹ̀rọ: Desktop | Foonu alagbeka
+- Ètò Ìṣiṣẹ́: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn àkànṣe: Àkọsílẹ̀ tí a fi ara ẹni pamọ́  Ìpíntí ti a fi ojú pa mọ́  Atilẹyin Testnet FROST Multisig
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ààbò Àìfọwọ́sowọ́pọ̀ | Àkọsílẹ̀ Ààbò | Àtìlẹ́yìn Testnet | FROST Multisig
+- Ironwood: Ready
 
 ---
 
-## [Àpò owó dúdú](https://www.zknoir.com/)
+## [Àpò Noir](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
-- Àwọn ohun èlò: Wẹ́busaiti  Dísíkòpópù
-- Ètò ìṣiṣẹ́: Àwòrán-ìwòye (Browser)
-- Àwọn ìsàlẹ̀: Aṣọ́. Òróró-ọmọlẹ́yìn
-- Àwọn àkànṣe: Àfikún aṣàwákiri  Ìṣirò tí a fi dìlà  Ètò ìyípadà orí-ọ̀nà (Cross-chain Swaps) Lending & Borrowing DApp Connections Rhea
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn ẹ̀rọ: Wẹ́ẹ̀bù | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Ẹ̀rọ Aṣàwárí
+- Àwọn adágún omi: A dáàbò bò | Aláìlábòsí
+- Àwọn Ẹ̀yà Ara Rẹ̀: Àfikún Ẹ̀rọ Aṣàwárí | Àwọn Ìṣòwò Tí A Dáàbòbò | Àwọn Ìyípadà Ẹ̀rọ Alágbèéká | Yíyán & Yíyán | Àwọn Ìsopọ̀ DApp | Rhea
+- Ironwood: Ready
 
 ---
 
 ## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
-- Àwọn ohun èlò: Wẹ́busaiti  Dísíkòpópù
-- Ẹrọ isẹ: Àwòrán Windows  MacOS
-- Ìrànlọ́wọ́ fún àpamọ̀ owó: Àkọlé ìkókó. Ètò àpamọ̀ owó tí ó wà níta. Adirẹsi gbígba. QR Code. Ẹrọ-ìmọ̀lára
-- Pools: Sapling | Transparent
-- Àwọn Ànímọ̀: Ọpọ owó ẹyọ  Near Intents Maya DEX No KYC Non-Custodial Web App Desktop App Shielded ZEC AnyPay
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn ẹ̀rọ: Wẹ́ẹ̀bù | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Ẹ̀rọ Aṣàwárí | Windows | macOS
+- Àtìlẹ́yìn Àpò Ìpamọ́: Gbólóhùn Irúgbìn | Àpò Ìta | Àdírẹ́sì Gbà | Kóòdù QR | Ohun èlò
+- Àwọn Adágún: Sapling | Àwòrán
+- Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Ironwood: Ready
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Àwọn Ẹrọ: Ètò alágbèéká
-- Ètò Ṣiṣẹ́: Android
+- Àwọn ẹ̀rọ: Foonu alagbeka
+- Ètò Ìṣiṣẹ́: Android
 - Wallet Support: Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ́: Ìparí-dé-ìparí tí ó ti ṣe àdàkọ Messenger  NEAR Intents P2P.me Offramp Beta
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Messenger tí a fi ìkọ̀kọ̀ sí láti òpin dé òpin | NEAR Intents | P2P.me Offramp | Beta
+- Ironwood: Ready
 
 ---
 
-## [Zecd (ì ì í ë ¤)](https://zecd.org/quickstart.html)
+## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Àwọn Ẹrọ: Àpótí Ìsọfúnni
-- Ètò ìṣiṣẹ́: Linux
+- Àwọn ẹ̀rọ: kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
 - Pools: Transparent | Sapling | Ironwood | Sprout
-- Àwọn Ànímọ̀: Ìpín-ìpamọ́ tí a fi kọkọó ṣe. Ètò ààbò (àwọn ìwífún owó) ti apamọwọ, Alárinà RPC; Ìpìn-ìdìbò tó ní ìdènà sí i. Ṣiṣakoso Olórí Ikọ̀ni
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Àkọsílẹ̀ Tí A Fi Pamọ́ | Àfikún Àpò Ìpamọ́ (dátà Àpò Ìpamọ́) | Ìbáṣepọ̀ RPC | Àkọsílẹ̀ Tí A Fi Pamọ́ | Ìṣàkóso Kọ́kọ́rọ́ Àdáni
+- Ironwood: Ready
 
 ---
 
-## [Zend:Zcash Wọ́léètì](https://justzend.com/)
+## [Zend:Apamọwọ Zcash](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
-- Àwọn ohun èlò: Mobile  Desktop
-- Àwọn ètò ìṣiṣẹ́: iOS  MacOS
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: iOS | macOS
 - Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Ìdáàbòbò ara ẹni  Olóòtọ́ tí a fi pamọ ní àdúgbò  Kò sí KYC Tí ó pọn dandan  Ko si ìfipamọ Sẹ́fèrì Zend fún Iṣẹ-ṣiṣe Wọọlìti  Ṣíṣàmúlò Aṣọpín ti o ni Ifọwọyi  Irúgbìn Recovery Memo Ti o ni ifamọra  Idanimọ Passkey
+- Àwọn Ẹ̀yà Ara Ẹni: Ìtọ́jú Ara Ẹni | Kọ́kọ́rọ́ Àdáni Tí A Fipamọ́ Ní Àdúgbò | Kò sí KYC Tí A Nílò | Kò sí ìgbẹ́kẹ̀lé Zend Server fún Ìgbòkègbodò Àpò Ìpamọ́ | Ìṣòwò Ààbò Tí A Fi Pamọ́ | Ìgbàpadà Irúgbìn | Àkọsílẹ̀ Ààbò | Ìjẹ́rìísí Àṣírí
 
 ---
 
-## [Owó àpò Nozy](https://github.com/LEONINE-DAO/Nozy-wallet)
+## [Àpò owó Nozy](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
-- Àwọn ohun èlò: Àpótí  aṣàwákiri
-- Àwọn ètò ìṣiṣẹ: Linux  iOS macOS
+- Àwọn ẹ̀rọ: Desktop | Browser
+- Ètò Ìṣiṣẹ́: Linux | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
 - Pools: Transparent | Sapling | Ironwood
-- Àwọn Ànímọ̀: Ìwé Adirẹsi Tor Ìtìlẹ́yìn I2P Zebra/Zebrad Integration Ìtàn ìsòwò Export Ìṣèlú àdúgbò Ẹkọ Oníṣẹ-ìyípadà (ZIP-317) NU6.2 Tí ó bá ara rẹ mu NU6.3 Migration Support Shielded Memo
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìwé Àdírẹ́sì | Àtìlẹ́yìn Tor | Àtìlẹ́yìn I2P | Ìṣọ̀kan Zebra/Zebrad | Ìtàn Ìṣòwò | Ìtajà Ìṣòwò | Ìmújáde Ẹ̀rí Àdúgbò | Owó Ìyípadà (ZIP-317) | Ìbáramu NU6.2 | Àtìlẹ́yìn Ìṣípò NU6.3 | Àkọsílẹ̀ Ààbò
+- Ironwood: Ready
 
 ---
 
-## [Ètò ìdìbò](https://github.com/atmospherelabs-dev/zipher-app)
+## [Zifárì](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Àwọn ohun èlò: Mobile  Desktop
-- Àwọn ètò ìṣiṣẹ́: Android  Windows Linux (CLI àti MCP Server) iOS macOS
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | Windows | Linux (CLI àti MCP Server) | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
 - Pools: Transparent | Sapling | Ironwood
 - Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
-- Igi Irin: Ó Ń Ṣàṣeyọrí Sí I
+- Ironwood: In Progress
 
 ---
 
 ## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
-- Àwọn Ẹrọ: Àpótí Ìsọfúnni
-- Àwọn Ẹ̀rọ: Windows Linux macOS
-- Ìrànlọ́wọ́ àpamọ̀: Àkọlé-ìmọ̀  Òkó ìnáwó  Ọrọ ìdánilójú  Èsì afẹyinti / Ṣíṣànàpòsí Aṣọ àpamọ̀
+- Àwọn ẹ̀rọ: kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Windows | Linux | macOS
+- Àtìlẹ́yìn Àpò Ìpamọ́: Gbólóhùn Irúgbìn | Kọ́kọ́rọ́ Ìnáwó | Kọ́kọ́rọ́ Ìkọ̀kọ̀ | Àfikún Àpò Ìpamọ́ / Ìfiránṣẹ́ Kọ́kọ́rọ́
 - Pools: Transparent | Sapling | Ironwood | Sprout
-- Àwọn Ànímọ̀: Ìmúpadà àpò-ìpamọ́  Òpó ìlà àṣẹ Interface Shielded Memo Testnet Support
-- Igi irin: Ó ti wà ní sẹpẹ́.
+- Àwọn Ẹ̀yà Ara Rẹ̀: Ìgbàpadà Àpò Ìpamọ́ | Ìbáṣepọ̀ Ìlà Àṣẹ | Àkọsílẹ̀ Ààbò | Àtìlẹ́yìn Testnet
+- Ironwood: Ready
+
+---
+
+## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
+![logo](/content-images/gem_wallet_logo.png "Gem Wallet")
+- Àwọn ẹ̀rọ: Foonu alagbeka
+- Ètò Ìṣiṣẹ́: Android | iOS
+- Atilẹyin Apamọwọ: Gbolohun Irugbin
+- Àwọn Adágún: Aláìlábòsí
+- Awọn ẹya ara ẹrọ: Owó pupọ
+
+--- 
+
+## [Freedom Wallet](https://www.freedomwallet.com/)
+![logo](/content-images/freedomwalletlogo.jpg "Freedom Wallet")
+- Àwọn ẹ̀rọ: Fóònù alágbéka | kọ̀ǹpútà alágbèéká
+- Ètò Ìṣiṣẹ́: Android | iOS | Linux | Windows
+- Wallet Support: Seed Phrase | Private Key | Self-Custody Wallet | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Àwọn Ẹ̀yà Ara Rẹ̀: Àtìlẹ́yìn Ìpamọ́ Onírúurú Ẹ̀wọ̀n | Ìṣòwò Ààbò Tí A Fi Pamọ́ | Ìgbàpadà Irúgbìn | Àwọn Ìyípadà Nínú App | Ìṣiṣẹ́pọ̀ Àpò Ìpamọ́ Fọ́ọ́tì
+- Ironwood: In Progress
