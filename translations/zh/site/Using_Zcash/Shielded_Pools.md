@@ -37,7 +37,7 @@ Zcash 将资金划分到不同的记账系统中，这些系统被称为价值�
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-图 1：截至 2025 年 10 月显示当前 4 个池的图表
+图 1：截至 2025 年 10 月 29 日（Ironwood 激活之前）显示三个屏蔽池（Sprout、Sapling 和 Orchard）的图表
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-图 2：截至 2025 年 10 月显示 Orchard 池的图表
+图 2：截至 2025 年 10 月 29 日（Ironwood 激活之前）显示 Orchard 池的图表
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-图 3：截至 2025 年 10 月显示 Sapling 池的图表
+图 3：截至 2025 年 10 月 29 日（Ironwood 激活之前）显示 Sapling 池的图表
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-图 4：截至 2025 年 10 月显示 Sprout 池的图表
+图 4：截至 2025 年 10 月 29 日（Ironwood 激活之前）显示 Sprout 池的图表
 
 Sprout 是首个推出的开放、无需许可的零知识隐私协议。它于 2016 年 10 月 28 日发布。
 
@@ -113,7 +113,7 @@ Sprout 曾被用作 [Zcash 慢启动挖矿](https://electriccoin.co/blog/slow-st
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-图 5：截至 2025 年 10 月显示 Transparent 池的图表
+图 5：截至 2025 年 10 月 29 日（Ironwood 激活之前）显示 Transparent 池的图表
 
 <br/>
 
@@ -184,5 +184,5 @@ Zcash 的 Transparent 地址多被中心化交易所使用，以确保用户之�
 - [钱包](/using-zcash/wallets) — 哪些钱包仍在维护并已支持 Ironwood
 - [交易](/using-zcash/transactions) — 如何发送屏蔽交易
 - [购买 ZEC](/using-zcash/buying-zec) — 在价值池中使用前获取 ZEC
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — 屏蔽池的密码学基础
+- [zk-SNARKs](/zcash-tech/zk-snarks) — 屏蔽池的密码学基础
 - [什么是 ZEC 和 Zcash](/start-here/what-is-zec-and-zcash) — 关于 Zcash 隐私的背景知识

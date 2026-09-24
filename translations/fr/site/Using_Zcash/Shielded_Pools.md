@@ -37,7 +37,7 @@ Aujourd’hui, le réseau contient cinq principaux pools de valeur :
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Fig 1: Un graphique montrant les 4 pools actuels en octobre 2025
+Fig 1: Un graphique montrant les trois pools shielded (Sprout, Sapling et Orchard) jusqu’au 29 octobre 2025, avant l’activation d’Ironwood
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Fig 2: Un graphique montrant le pool Orchard en octobre 2025
+Fig 2: Un graphique montrant le pool Orchard jusqu’au 29 octobre 2025, avant l’activation d’Ironwood
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Fig 3: Un graphique montrant le pool Sapling en octobre 2025
+Fig 3: Un graphique montrant le pool Sapling jusqu’au 29 octobre 2025, avant l’activation d’Ironwood
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Fig 4: Un graphique montrant le pool Sprout en octobre 2025
+Fig 4: Un graphique montrant le pool Sprout jusqu’au 29 octobre 2025, avant l’activation d’Ironwood
 
 Sprout a été le tout premier protocole de confidentialité Zero Knowledge ouvert et sans permission jamais lancé. Il a été lancé le 28 octobre 2016.
 
@@ -113,7 +113,7 @@ Sprout a été utilisé comme un premier outil pour le [slow start Mining de Zca
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Fig 5: Un graphique montrant le pool Transparent en octobre 2025
+Fig 5: Un graphique montrant le pool Transparent jusqu’au 29 octobre 2025, avant l’activation d’Ironwood
 
 <br/>
 
@@ -184,5 +184,5 @@ Consultez [Ironwood](/zcash-tech/ironwood) pour la mise à niveau elle-même, et
 - [Wallets](/using-zcash/wallets) — Quels wallets sont maintenus et prêts pour Ironwood
 - [Transactions](/using-zcash/transactions) — Comment envoyer des transactions shielded
 - [Acheter du ZEC](/using-zcash/buying-zec) — Acquérir du ZEC avant de l’utiliser dans les pools
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Le fondement cryptographique des pools shielded
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Le fondement cryptographique des pools shielded
 - [Qu’est-ce que ZEC et Zcash](/start-here/what-is-zec-and-zcash) — Contexte sur la confidentialité de Zcash

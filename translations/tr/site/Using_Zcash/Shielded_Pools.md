@@ -37,7 +37,7 @@ Zcash geliştikçe, mevcut fonlarla uyumluluğu korurken güvenlik, gizlilik, ku
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Şekil 1: Ekim 2025 itibarıyla mevcut 4 havuzu gösteren bir grafik
+Şekil 1: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki üç shielded havuzu (Sprout, Sapling ve Orchard) gösteren bir grafik
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Şekil 2: Ekim 2025 itibarıyla Orchard havuzunu gösteren bir grafik
+Şekil 2: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki Orchard havuzunu gösteren bir grafik
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Şekil 3: Ekim 2025 itibarıyla Sapling havuzunu gösteren bir grafik
+Şekil 3: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki Sapling havuzunu gösteren bir grafik
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Şekil 4: Ekim 2025 itibarıyla Sprout havuzunu gösteren bir grafik
+Şekil 4: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki Sprout havuzunu gösteren bir grafik
 
 Sprout, şimdiye kadar başlatılan ilk açık ve izinsiz Zero Knowledge gizlilik protokolüydü. 28 Ekim 2016’da başlatıldı.
 
@@ -113,7 +113,7 @@ Daha fazla sayıda shielded işlemin gerçekleşmesiyle Zcash ekosistemi genişl
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Şekil 5: Ekim 2025 itibarıyla Transparent havuzunu gösteren bir grafik
+Şekil 5: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki Transparent havuzunu gösteren bir grafik
 
 <br/>
 
@@ -184,5 +184,5 @@ Yükseltmenin kendisi için [Ironwood](/zcash-tech/ironwood), muhasebenin nasıl
 - [Cüzdanlar](/using-zcash/wallets) — Hangi cüzdanların bakımının yapıldığı ve Ironwood için hazır olduğu
 - [İşlemler](/using-zcash/transactions) — Shielded işlemler nasıl gönderilir
 - [ZEC Satın Alma](/using-zcash/buying-zec) — Havuzlarda kullanmadan önce ZEC edinme
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Shielded havuzların kriptografik temeli
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Shielded havuzların kriptografik temeli
 - [ZEC ve Zcash Nedir](/start-here/what-is-zec-and-zcash) — Zcash gizliliği hakkında arka plan

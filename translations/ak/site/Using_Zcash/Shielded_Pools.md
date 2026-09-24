@@ -37,7 +37,7 @@ Bere a Zcash renya nkɔso no, wobetumi de atare foforo a wɔabɔ ho ban aba de a
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Mfonini 1: Nhyehyɛeɛ a ɛkyerɛ mprempren atare 4 a ɛwɔ October, 2025
+Mfonini 1: Nhyehyɛeɛ a ɛkyerɛ atare mmiɛnsa a wɔabɔ ho ban (Sprout, Sapling ne Orchard) kosi 29 October, 2025, ansa na Ironwood bɛfi ase
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Mfonini 2: Nhyehyɛeɛ a ɛkyerɛ Orchard pool no firi October, 2025
+Mfonini 2: Nhyehyɛeɛ a ɛkyerɛ Orchard pool no kosi 29 October, 2025, ansa na Ironwood bɛfi ase
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Mfonini 3: Nhyehyɛeɛ a ɛkyerɛ Sapling pool no firi October, 2025
+Mfonini 3: Nhyehyɛeɛ a ɛkyerɛ Sapling pool no kosi 29 October, 2025, ansa na Ironwood bɛfi ase
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Mfonini 4: Nhyehyɛeɛ a ɛkyerɛ Sprout pool no firi October, 2025
+Mfonini 4: Nhyehyɛeɛ a ɛkyerɛ Sprout pool no kosi 29 October, 2025, ansa na Ironwood bɛfi ase
 
 Sprout ne Zero Knowledge kokoam nsɛm ho nhyehyɛe a edi kan a wɔabue ano a wɔmma ho kwan a wɔde sii hɔ pɛn. Wɔde sii hɔ wɔ Ɔkɔtɔberɛ da a ɛtɔ so aduonu nwɔtwe, afe 2016.
 
@@ -113,7 +113,7 @@ Berɛ a Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no kɔɔ so trɛwee wɔ nkitahodi�
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Mfonini 5: Nhyehyɛeɛ a ɛkyerɛ Transparent pool no firi October, 2025
+Mfonini 5: Nhyehyɛeɛ a ɛkyerɛ Transparent pool no kosi 29 October, 2025, ansa na Ironwood bɛfi ase
 
 <br/>
 
@@ -184,5 +184,5 @@ Hwɛ [Dade dua](/zcash-tech/ironwood) ma upgrade no ankasa, na [Turnstile a ɛw�
 - [Sika kotoku](/using-zcash/wallets) — Nea sika kotoku a wɔhwɛ so na Ironwood ayɛ krado
 - [Nkitahodi ahorow](/using-zcash/transactions) — Sɛnea wɔde shielded transactions mena
 - [ZEC a wobɛtɔ](/using-zcash/buying-zec) — ZEC a wobenya ansa na wode adi dwuma wɔ atare mu
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Cryptographic fapem a ɛwɔ atare a wɔabɔ ho ban so
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Cryptographic fapem a ɛwɔ atare a wɔabɔ ho ban so
 - [Dɛn ne ZEC ne Zcash](/start-here/what-is-zec-and-zcash) — Akyisɛm a ɛfa Zcash kokoam nsɛm ho
