@@ -121,7 +121,7 @@ Ywallet ƒe dzidzimevi si le Zcash protocol features siwo nye Orchard la dzi.
 Experimental lightweight desktop wallet for Zcash written in Rust.  
 [Kpekpewɔƒe](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
-### Gem Akpaɖakavi
+### Gem Wallet
 Eʋevi si me wotea ŋu tsɔa ga siwo le ame ŋutɔ ƒe asime ɖo, eye wòkpena ɖe ZEC ɖoɖo ɖa kple exɔxɔ kpakple eƒe tɔtrɔ la ŋuti. 
 [Tsaɖiɖi](https://gemwallet.com/)
 
