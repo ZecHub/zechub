@@ -121,7 +121,7 @@ Onye nọchiri Ywallet na-akwado atụmatụ Zcash protocol kachasị ọhụr�
 Akpa ego desktọọpụ dị mfe maka Zcash nke edere na Rust. 
 [Ụlọ Nzukọ ahụ](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
-### Akpa ego Gem
+### Gem Wallet
 Multi-chain, open source, ego nchekwa onwe onye nke na akwado izipu, ịnata, na ịgbanwere ZEC. 
 [Ịga leta ya .](https://gemwallet.com/)
 

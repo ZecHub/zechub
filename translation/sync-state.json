@@ -5923,7 +5923,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+gem-brand-restore",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -12971,7 +12971,7 @@
       "src_commit": "b2e32d37200ec07f1cb7e9e843d045b0f76d67cf",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+deadlink-5pages",
+      "tool": "nllb-200-3.3B+brand-restore+deadlink-5pages+gem-brand-restore",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -28829,7 +28829,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+gem-brand-restore",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {

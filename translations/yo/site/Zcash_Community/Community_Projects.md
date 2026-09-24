@@ -121,7 +121,7 @@ Oludasile si Ywallet ti o ṣe atilẹyin awọn ẹya Zcash protocol tuntun p�
 Àdánwò àpò owó orí kọ̀ǹpútà tí ó rọrùn fún Zcash, èyí ti a kọ̀wé sí Rust. 
 [Àjọ Ìjùmọ̀sọ́nà](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
-### Àpò-ìpamọ́ Gem
+### Gem Wallet
 Àpò-ìpamọ́ alágbàtà, àtòjọ ìsọfúnni tí ó ṣí sílẹ̀ tó sì ń ṣe ìdánwò ara ẹni ti o nṣe atilẹyin fun fifiranṣẹ, gbigba àti pàṣípààrọ̀ ZEC. 
 [Ìbẹ̀wò](https://gemwallet.com/)
 
