@@ -85,9 +85,9 @@ In conclusione, a seconda dello scenario d'uso specifico, sia le tecnologie Tor 
 
 [L'Africa può migliorare le strutture di governance con la blockchain](https://guardian.ng/technology/africa-can-enhance-governance-structures-with-blockchain-says-jassy-kabanihiza-ebwanyu/)
 
-[Un anello mancante nel social giving: Una piattaforma di SocialFi basata sul gold standard](https://cointelegraph.com/news/a-missing-link-in-social-giving-a-socialfi-platform-based-on-the-gold-standard)
+[Un anello mancante nel social giving: Una piattaforma di SocialFi basata sul gold standard](https://web.archive.org/web/20250723210931/https://cointelegraph.com/news/a-missing-link-in-social-giving-a-socialfi-platform-based-on-the-gold-standard)
 
-[World Mobile punta al lancio in Africa dopo i test sul campo del wireless decentralizzato](https://cointelegraph.com/news/world-mobile-eyes-african-rollout-after-decentralized-wireless-field-tests)
+[World Mobile punta al lancio in Africa dopo i test sul campo del wireless decentralizzato](https://web.archive.org/web/20251210054550/https://cointelegraph.com/news/world-mobile-eyes-african-rollout-after-decentralized-wireless-field-tests)
 
 [La nuova legge sulle criptovalute che Gary Gensler non vuole farvi conoscere](https://www.coindesk.com/consensus-magazine/2023/06/09/the-new-crypto-bill-gary-gensler-doesnt-want-you-to-know-about/)
 

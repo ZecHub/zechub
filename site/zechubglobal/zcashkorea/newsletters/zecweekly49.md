@@ -77,7 +77,7 @@ Zcash스페인 블로그 Post Zula는 DAO가 무엇이고 어떻게 작동하는
 
 [2023년 상반기에 암호화폐 해킹, 사기, 러그 풀로 인한 $6억 5,600만 손실](https://cointelegraph.com/news/656m-lost-from-crypto-hacks-scams-and-rug-pulls-in-h12023-report) 
 
-[비트코인 가격 7월에는 한 번도 10% 이상 하락한 적 없음](https://cointelegraph.com/news/bitcoin-price-never-lost-july-2023-different)
+[비트코인 가격 7월에는 한 번도 10% 이상 하락한 적 없음](https://web.archive.org/web/20250827165749/https://cointelegraph.com/news/bitcoin-price-never-lost-july-2023-different)
 
 [새로운 영국 법은 암호화폐를 규제된 금융 활동으로 인정](https://decrypt.co/146857/new-uk-law-recognizes-crypto-trading-as-regulated-financial-activity)
 
