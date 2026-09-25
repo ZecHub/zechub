@@ -285,7 +285,7 @@
 - Dɔwɔɖoɖo: Browser | Fesrewo | macOS ƒe nyawo
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ | Gakotoku si le egodo | Xɔ Adrɛs | QR-dzesi | Hardware ƒe dɔwɔnuwo
 - Tawo: Sapling | Si me kɔ
-- Nusiwo le eme: Multi Coin | Near Intents | Maya ƒe DEX | KYC aɖeke meli o | Menye Vidzikpɔkpɔ ƒe Nya O | Nyatakakadzraɖoƒe ƒe Dɔwɔɖoɖo | Dɔwɔnu si Wozãna le Dɔwɔnu Dzi | ZEC si wotsɔ akpoxɔnu wɔe | AnyPay ƒe fetu
+- Nusiwo le eme: Multi Coin | Near Intents | Maya ƒe DEX | KYC aɖeke meli o | Menye Vidzikpɔkpɔ ƒe Nya O | Nyatakakadzraɖoƒe ƒe Dɔwɔɖoɖo | Desktop Dɔwɔnu si Wozãna | ZEC si wotsɔ akpoxɔnu wɔe | AnyPay ƒe fetu
 - Ironwood: Dzra ɖo
 
 ---
@@ -296,7 +296,7 @@
 - Dɔwɔɖoɖo: Android
 - Gakotoku ƒe Kpekpeɖeŋu: Unified Address
 - Tawo: Wowɔa nu le gaglãgbe | Sapling | Ironwood
-- Features: Messenger si wotsɔ nya ɣaɣlawo ŋlɔ tso nuwuwu vaseɖe nuwuwu | NEAR Tameɖoɖowo | P2P.me Offramp ƒe nyawo | Beta
+- Features: Messenger si wotsɔ nya ɣaɣlawo ŋlɔ tso nuwuwu vaseɖe nuwuwu | NEAR Intents | P2P.me Offramp ƒe nyawo | Beta
 - Ironwood: Dzra ɖo
 
 ---
@@ -305,9 +305,9 @@
 ![logo](/content-images/zecd.webp "Zecd")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Linux
-- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ | Viewing Key | Unified Address | Ame ŋutɔ ƒe Safui | Gazazã ƒe Safui | Gakotoku ƒe Kpekpeɖeŋu / Safuiwo ƒe Ðoɖowɔwɔ Ðe Duta | Node ƒe Gakotoku Blibo
+- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ | Viewing Key | Unified Address | Ame ŋutɔ ƒe Safui | Gazazã ƒe Safui | Gakotoku ƒe Kpekpeɖeŋu / Safuiwo ƒe Dɔdɔ | Node ƒe Gakotoku Blibo
 - Tawo: Wowɔa nu le gaglãgbe | Sapling | Ironwood | Sprout
-- Nusiwo le eme: Memo si wotsɔ nya ɣaɣlawo ŋlɔ | Gakotoku ƒe Kpekpeɖeŋunana (gakotoku ŋuti nyatakakawo) | RPC ƒe Dɔwɔƒe | Memo si Wotsɔ Akpoxɔnu Wɔe | Ame ŋutɔ ƒe Safuiwo Dzikpɔkpɔ
+- Nusiwo le eme: Memo si wotsɔ nya ɣaɣlawo ŋlɔ | Wallet Backup (gakotoku me nyatakakawo) | RPC ƒe Dɔwɔƒe | Memo si Wotsɔ Akpoxɔnu Wɔe | Ame ŋutɔ ƒe Safuiwo Dzikpɔkpɔ
 - Ironwood: Dzra ɖo
 
 ---
@@ -348,7 +348,7 @@
 ![logo](/content-images/argos.webp "Argos")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
-- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ | Gazazã ƒe Safui | Ame ŋutɔ ƒe Safui | Gakotoku ƒe Kpekpeɖeŋu / Safuiwo ƒe Ðoɖowɔwɔ Ðe Duta
+- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ | Gazazã ƒe Safui | Ame ŋutɔ ƒe Safui | Gakotoku ƒe Kpekpeɖeŋu / Safuiwo ƒe Dɔdɔ
 - Tawo: Wowɔa nu le gaglãgbe | Sapling | Ironwood | Sprout
 - Features: Gakotoku Gbugbɔgaxɔ | Sedede ƒe Fli ƒe Dɔwɔƒe | Memo si Wotsɔ Akpoxɔnu Wɔe | Testnet Kpekpeɖeŋunana
 - Ironwood: Dzra ɖo

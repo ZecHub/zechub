@@ -296,7 +296,7 @@
 - Ètò Ìṣiṣẹ́: Android
 - Àtìlẹ́yìn Àpò Ìpamọ́: Unified Address
 - Àwọn Adágún: Aláìlábòsí | Sapling | Ironwood
-- Àwọn Ẹ̀yà Ara Rẹ̀: Messenger tí a fi ìkọ̀kọ̀ sí láti òpin dé òpin | Àwọn Èrò Tó Wà Nítòsí | P2P.me Offramp | Beta
+- Àwọn Ẹ̀yà Ara Rẹ̀: Messenger tí a fi ìkọ̀kọ̀ sí láti òpin dé òpin | NEAR Intents | P2P.me Offramp | Beta
 - Ironwood: Ṣetan
 
 ---

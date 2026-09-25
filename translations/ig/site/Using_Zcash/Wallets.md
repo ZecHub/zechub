@@ -296,7 +296,7 @@
 - Sistemụ arụmọrụ: Android
 - Nkwado Akpa Ego: Unified Address
 - Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Ozi ezoro ezo site na njedebe ruo na njedebe | Ebumnuche Dị Nso | P2P.me Offramp | Beta
+- Atụmatụ: Ozi ezoro ezo site na njedebe ruo na njedebe | NEAR Intents | P2P.me Offramp | Beta
 - Ironwood: Dị njikere
 
 ---
@@ -339,7 +339,7 @@
 - Sistemụ arụmọrụ: Android | Windows | Linux (CLI na MCP Server) | iOS | macOS
 - Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Obere akpa akaụntụ dị iche iche | Akpa Nchekwa Onwe | Njikwa Igodo nkeonwe | Nkwado obere akpa onye nnọchite anya
 - Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Nzube NEAR | Arịrịọ ịkwụ ụgwọ | Ihe Nchedo Ekpuchiri | Ndabara Azụmaahịa Ekpuchiri Echekwa | Netwọk Nnwale | Mgbanwe nke obe | CipherPay | Viewing Key | Onye nnọchite anya AI | Sava MCP | Akpa CLI | FROST | Beta
+- Atụmatụ: NEAR Intents | Arịrịọ ịkwụ ụgwọ | Ihe Nchedo Ekpuchiri | Ndabara Azụmaahịa Ekpuchiri Echekwa | Netwọk Nnwale | Mgbanwe nke obe | CipherPay | Viewing Key | Onye nnọchite anya AI | Sava MCP | Akpa CLI | FROST | Beta
 - Ironwood: Na-aga n'ihu
 
 ---

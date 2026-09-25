@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Tovuti: https://leodex.io
-- Maelezo: Crosschain swaps ndani na nje ya ZEC, routed katika THORChain, Maya Protocol, Chainflip, karibu nia, Relay na Rango. Hakuna akaunti, hakuna KYC, na hakuna uhusiano mkoba required juu ya njia mkono.
+- Maelezo: Crosschain swaps ndani na nje ya ZEC, routed katika THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay na Rango. Hakuna akaunti, hakuna KYC, na hakuna uhusiano mkoba required juu ya njia mkono.
 
 ___
 

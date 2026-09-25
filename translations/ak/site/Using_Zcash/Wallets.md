@@ -15,7 +15,7 @@
 - Dwumadi Nhyehyɛe: Android | iOS | Windows | Linux | macOS
 - Wallet Mmoa: Aba Kasasin | Viewing Key | Unified Address | Hardware a wɔde yɛ nneɛma
 - Atare: Ɛyɛ nea ɛda adi pefee | Sapling | Ironwood
-- Nneɛma a Ɛwɔ Mu: Address Book | Nneɛma a Wɔde Sie Nwininwini | Address a Wɔde Di Dwuma Ahorow Ahorow | Abisade a Wɔde Tua Ka | Pool Transfer a Wɔde Kɔ baabi foforo | Memo a Wɔabɔ ho ban | TEX Address a Wɔde Di Dwuma | Abatow a wɔtow | WarpSync na ɛyɛ adwuma
+- Nneɛma a Ɛwɔ Mu: Address Book | Nneɛma a Wɔde Sie Nwininwini | Address a Wɔayɛ no Ahorow Ahorow | Abisade a Wɔde Tua Ka | Pool Transfer a Wɔde Kɔ baabi foforo | Memo a Wɔabɔ ho ban | TEX Address a Wɔde Di Dwuma | Abatow a wɔtow | WarpSync a wɔde yɛ adwuma
 - Ironwood: Wonsiesiee ne ho
 
 ---
@@ -68,7 +68,7 @@
 - Dwumadi Nhyehyɛe: Android | iOS | Windows
 - Wallet Mmoa: Aba Kasasin | Viewing Key | Unified Address
 - Atare: Ɛyɛ nea ɛda adi pefee | Sapling | Ironwood
-- Nneɛma a Ɛwɔ Mu: Address Book | Address a Wɔde Hwɛ | Automatic Shielding a Wɔde Yɛ Adwuma | Address a Wɔde Di Dwuma Ahorow Ahorow | Abisade a Wɔde Tua Ka | Memo a Wɔabɔ ho ban | TEX Address a Wɔde Di Dwuma | Testnet Mmoa a Wɔde Ma
+- Nneɛma a Ɛwɔ Mu: Address Book | Address a Wɔde Hwɛ | Automatic Shielding a Wɔde Yɛ Adwuma | Address a Wɔayɛ no Ahorow Ahorow | Abisade a Wɔde Tua Ka | Memo a Wɔabɔ ho ban | TEX Address a Wɔde Di Dwuma | Testnet Mmoa a Wɔde Ma
 
 ---
 
@@ -132,7 +132,7 @@
 - Dwumadi Nhyehyɛe: Windows | Linux | macOS
 - Wallet Mmoa: Aba Kasasin | Viewing Key | Unified Address | Node a Ɛyɛ Pɛ
 - Atare: Ɛyɛ nea ɛda adi pefee | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Ahyɛde Ntrɛwmu Nkitahodi | Address a Wɔde Di Dwuma Ahorow Ahorow | Memo a Wɔabɔ ho ban | Testnet Mmoa a Wɔde Ma
+- Nneɛma a ɛwɔ mu: Ahyɛde Ntrɛwmu Nkitahodi | Address a Wɔayɛ no Ahorow Ahorow | Memo a Wɔabɔ ho ban | Testnet Mmoa a Wɔde Ma
 - Ironwood: Wonsiesiee ne ho
 
 ---
@@ -296,7 +296,7 @@
 - Dwumadi Nhyehyɛe: Android
 - Wallet Mmoa: Unified Address
 - Atare: Ɛyɛ nea ɛda adi pefee | Sapling | Ironwood
-- Nneɛma a ɛwɔ mu: Messenger a wɔabɔ no kokoam fi awiei kosi awiei | NEAR Intents a Ɛbɛn | P2P.me Offramp na ɔkyerɛwee | Beta
+- Nneɛma a ɛwɔ mu: Messenger a wɔabɔ no kokoam fi awiei kosi awiei | NEAR Intents | P2P.me Offramp na ɔkyerɛwee | Beta
 - Ironwood: Wɔasiesie ne ho
 
 ---

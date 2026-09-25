@@ -103,7 +103,7 @@ Owó tó ṣẹ́ kù á wá yọjú, wàá sì lè ná an lójú ẹsẹ̀.
 
 Pupọ awọn iṣẹ AI ko gba ZEC. ** Venice.ai** ati ** OpenRouter ** mejeeji mu USDC dipo, ati pe OpenRooter jẹ ki o yan eyiti ẹwọn ti iṣayẹwo naa ba wa lori rẹ.
 
-Fun awọn ti, lo ** CrossPay** ni [Zodl (ì í ì)](/zcash-organizations/zodl)O lo ZEC ti o ni aabo ati pe a san owo fun olugba ninu dukia wọn beere, ṣe nipasẹ Awọn ero NEAR laisi paṣipaarọ aringbungbun ati laisi KYC.
+Fun awọn ti, lo ** CrossPay** ni [Zodl (ì í ì)](/zcash-organizations/zodl)O lo ZEC ti o ni aabo ati pe a san owo fun olugba ninu dukia wọn beere, ṣe nipasẹ NEAR Intents laisi paṣipaarọ aringbungbun ati laisi KYC.
 
 1. Gba adirẹsi isanwo iṣẹ ati dukia ati pq ti o reti, fun apẹẹrẹ USDC lori Base
 2. Ṣii Zodl ki o si yan ** CrossPay**

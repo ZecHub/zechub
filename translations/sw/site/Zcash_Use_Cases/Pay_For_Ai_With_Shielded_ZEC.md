@@ -103,7 +103,7 @@ Pesa zinabaki na unaweza kuzitumia mara moja.
 
 Huduma nyingi za AI hazipokee ZEC. ** Venice.ai** na ** OpenRouter ** wote huchukua USDC badala yake, na OpenRooter hukuruhusu kuchagua mfuatano ambao malipo yanakaa juu.
 
-Kwa wale, kutumia **CrossPay** katika [Zodl](/zcash-organizations/zodl). Wewe kutumia ZEC kulindwa na mpokeaji ni kulipwa katika mali wao aliuliza kwa, routed kupitia makusudi NEAR bila kubadilishana kati na bila KYC.
+Kwa wale, kutumia **CrossPay** katika [Zodl](/zcash-organizations/zodl). Wewe kutumia ZEC kulindwa na mpokeaji ni kulipwa katika mali wao aliuliza kwa, routed kupitia NEAR Intents bila kubadilishana kati na bila KYC.
 
 1. Kupata huduma ya malipo anwani na mali na mnyororo inatarajia, kwa mfano USDC juu Base
 2. Fungua Zodl na kuchagua ** CrossPay**

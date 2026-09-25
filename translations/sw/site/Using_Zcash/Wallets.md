@@ -296,7 +296,7 @@
 - Mfumo wa Uendeshaji: Android
 - Usaidizi wa Pochi: Unified Address
 - Mabwawa ya kuogelea: Uwazi | Sapling | Ironwood
-- Vipengele: Mjumbe aliyesimbwa kwa njia fiche kuanzia mwanzo hadi mwisho | Madhumuni ya Karibu | Ofa ya P2P.me | Beta
+- Vipengele: Mjumbe aliyesimbwa kwa njia fiche kuanzia mwanzo hadi mwisho | NEAR Intents | Ofa ya P2P.me | Beta
 - Ironwood: Tayari
 
 ---
@@ -339,7 +339,7 @@
 - Mfumo wa Uendeshaji: Android | Madirisha | Linux (Seva ya CLI na MCP) | iOS | macOS
 - Usaidizi wa Pochi: Fungu la Mbegu | Viewing Key | Unified Address | Pochi ya Akaunti Nyingi | Pochi ya Kujitunza Mwenyewe | Usimamizi wa Funguo Binafsi | Usaidizi wa Pochi ya Wakala
 - Mabwawa ya kuogelea: Uwazi | Sapling | Ironwood
-- Vipengele: Madhumuni ya Karibu | Maombi ya Malipo | Memo Iliyolindwa | Chaguo-msingi la Muamala Uliolindwa | Mtandao wa Majaribio | Kubadilishana kwa mnyororo mtambuka | CipherPay | Viewing Key | Wakala wa AI | Seva ya MCP | Pochi ya CLI | FROST | Beta
+- Vipengele: NEAR Intents | Maombi ya Malipo | Memo Iliyolindwa | Chaguo-msingi la Muamala Uliolindwa | Mtandao wa Majaribio | Kubadilishana kwa mnyororo mtambuka | CipherPay | Viewing Key | Wakala wa AI | Seva ya MCP | Pochi ya CLI | FROST | Beta
 - Ironwood: Inaendelea
 
 ---
