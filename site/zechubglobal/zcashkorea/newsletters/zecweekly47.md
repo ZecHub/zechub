@@ -10,7 +10,7 @@ Zcash 재단, Zebra 1.0.0 출시, ECC 출시, Zcashd 5.6.0 & ZCG 커뮤니티 �
 
 ### ZecWeekly에 오신 것을 환영합니다
 
-안녕하세요 Zcashers! 크립토 스페이스에서 발생하는 뉴스와 이벤트를 포함하여 Zcash의 흥미로운 뉴스와 업데이트를 공유하는 또 다른 부분입니다. [사이트](http://guff.zechub.xyz/proutate)
+안녕하세요 Zcashers! 크립토 스페이스에서 발생하는 뉴스와 이벤트를 포함하여 Zcash의 흥미로운 뉴스와 업데이트를 공유하는 또 다른 부분입니다. [사이트](https://zechub.wiki/)
 
 우리는 Zcash Foundation(Zebra 1.0.0)의 최신 개발과 Zcashd 5.6.0의 새로운 릴리스에 대한 ECC의 업데이트를 알아볼 것입니다. 또한 Education 섹션을 통해 몇 가지 암호화폐 팁과 튜토리얼을 공유할 예정입니다. 
 

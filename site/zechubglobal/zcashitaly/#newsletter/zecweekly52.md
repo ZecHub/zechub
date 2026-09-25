@@ -78,7 +78,7 @@ Impareremo qualcosa di più su un protocollo di privacy intercatena che utilizza
 
 #### Notizie e media
 
-[Il tribunale britannico accoglie l'appello di Craig Wright nella causa sui diritti dei Bitcoin - Cointelegraph](https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit) 
+[Il tribunale britannico accoglie l'appello di Craig Wright nella causa sui diritti dei Bitcoin - Cointelegraph](https://web.archive.org/web/20250827103632/https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit) 
 
 [Il DOJ cerca di aumentare le indagini sulle criptovalute con una mossa per unire i team - The Block](https://www.theblock.co/post/240967/doj-looks-to-increase-crypto-investigations-with-move-to-merge-teams) 
 

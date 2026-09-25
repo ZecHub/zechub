@@ -46,7 +46,7 @@ La pièce éducative de cette semaine nous guidera à travers le processus d'ins
 
 [Le Venezuela mène les échanges de crypto-monnaies à travers les échanges centralisés en Amérique latine - Criptotendencias](https://www.criptotendencias.com/actualidad/venezuela-lidera-actividad-criptomonedas-intercambios-centralizados-america-latina/)
 
-[Les NFT ne sont pas morts, ils se reposent juste - Cointelegraph](https://cointelegraph.com/news/nfts-arent-dead-just-resting)
+[Les NFT ne sont pas morts, ils se reposent juste - Cointelegraph](https://web.archive.org/web/20250827105413/https://cointelegraph.com/news/nfts-arent-dead-just-resting)
 
 [Les liens de Hamas avec la crypto-monnaie pourraient donner du poids à la proposition de loi anti-crypto de la sénatrice Warren - CryptoNews](https://cryptonews.com/news/hamas-cryptocurrency-ties-may-add-momentum-to-senator-warrens-anti-crypto-bill.htm)
 

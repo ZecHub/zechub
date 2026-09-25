@@ -68,7 +68,7 @@ Nel pezzo didattico di questa settimana ci addentreremo nel mondo di Zcash. Insi
 
 #### Notizie e media
 
-[Gli ATM di Bitcoin registrano un aumento dopo 4 mesi di calo globale](https://cointelegraph.com/news/net-Bitcoin-ATMs-record-an-increase-after-4-months-of-global-downtrend) 
+[Gli ATM di Bitcoin registrano un aumento dopo 4 mesi di calo globale](https://web.archive.org/web/20260418195753/https://cointelegraph.com/news/net-bitcoin-atms-record-an-increase-after-4-months-of-global-downtrend) 
 
 [La privacy della blockchain è a rischio nell'UE](https://www.coindesk.com/consensus-magazine/2023/02/09/blockchain-privacy-is-at-risk-in-the-eu/) 
 

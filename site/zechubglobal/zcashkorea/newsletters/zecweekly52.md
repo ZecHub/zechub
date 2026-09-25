@@ -125,7 +125,7 @@ L1 지분 증명 프로토콜을 활용하여 사용자에게 체인 간 자산�
 
 #### 뉴스 & 미디어
 
-[영국 법원, 비트코인 권리 소송에서 Craig Wright 항소 인정-Cointelegraph](https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit)(☆)
+[영국 법원, 비트코인 권리 소송에서 Craig Wright 항소 인정-Cointelegraph](https://web.archive.org/web/20250827103632/https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit)(☆)
 
 [DOJ(미국 법무부), 암호화폐 전담팀을 컴퓨터 범죄 전담팀으로 편입해 암호화폐 관련 범죄를 추적하기 위한 노력을 확대-The Block](https://www.theblock.co/post/240967/doj-looks-to-increase-crypto-investigations-with-move-to-merge-teams)(★)
 

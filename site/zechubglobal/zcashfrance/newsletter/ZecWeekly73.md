@@ -53,7 +53,7 @@ https://youtu.be/SeWcFUrOiAk?feature=shared
 
 #### Actualités et médias
 
-[Les frais de Bitcoin atteignent un sommet de 20 mois, frais moyen de 40 $ - Cointelegraph](https://cointelegraph.com/news/bitcoin-fees-20-month-high-miner-revenues-match-69k-btc-price)
+[Les frais de Bitcoin atteignent un sommet de 20 mois, frais moyen de 40 $ - Cointelegraph](https://web.archive.org/web/20250725064202/https://cointelegraph.com/news/bitcoin-fees-20-month-high-miner-revenues-match-69k-btc-price)
 
 [Arbirtrum frappé par une panne due à une hausse du trafic - Coindesk](https://www.coindesk.com/tech/2023/12/15/arbitrum-hit-by-partial-outage-due-to-traffic-surge)
 
