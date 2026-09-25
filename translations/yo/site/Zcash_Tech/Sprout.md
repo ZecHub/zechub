@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Èso ẹ̀ka igi
+# Sprout
 
 > Zcash ti ṣe ifilọlẹ ni Oṣu Kẹwa Ọjọ 28, Ọdun 2016, pẹlu adagun-odo Sprout.
 
@@ -87,4 +87,4 @@ Sprout ni ipilẹṣẹ akọkọ ti Zcash, kii ṣe igbesoke nigbamii. O ti n �
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àtúnṣe: [Ìgbà òtútù](../zcash-tech/overwinter)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àtúnṣe: [Overwinter](../zcash-tech/overwinter)

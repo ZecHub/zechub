@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Canopy a wɔde yɛ adwuma
+# Canopy
 
 > Canopy kɔɔ live wɔ Zcash mainnet so wɔ block 1,046,400 (November 18, 2020 UTC).
 
@@ -109,4 +109,4 @@ Ná wɔayɛ nhyehyɛe sɛ mfitiasefo a wɔhyehyɛɛ no ​​akatua no bɛba awi
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Koma Nnua](../zcash-tech/heartwood) · Deɛ ɛdi hɔ: [NU5](../zcash-tech/nu5)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Heartwood](../zcash-tech/heartwood) · Deɛ ɛdi hɔ: [NU5](../zcash-tech/nu5)

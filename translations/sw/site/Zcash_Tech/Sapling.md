@@ -89,4 +89,4 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Kuishi kwa majira ya baridi kali](../zcash-tech/overwinter) · Kisha: [Maua ya maua](../zcash-tech/blossom)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Overwinter](../zcash-tech/overwinter) · Kisha: [Blossom](../zcash-tech/blossom)

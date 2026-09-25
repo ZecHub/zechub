@@ -16,7 +16,7 @@
 
 ## Kí ni Àtúnṣe-àbùdá?
 
-[ShapeShift (ì í ì)](https://shapeshift.com/) jẹ́ àkànṣe, ojúlé-ìmọ cryptocurrency pẹpẹ tí ó ń gba àwọn oníṣẹ̀ láti ṣòwò, tọpinlẹ̀ àti ṣàkóso dúkìá díjítálẹ̀ ní oríṣiríṣi blockchains láì dá àkọọ́sílẹ̀ kan sílẹ̀, fífi ìwé ìdánimọ̀ ránṣẹ́ tàbí gbígbé ìtọjú owó wọn lọ.
+[ShapeShift](https://shapeshift.com/) jẹ́ àkànṣe, ojúlé-ìmọ cryptocurrency pẹpẹ tí ó ń gba àwọn oníṣẹ̀ láti ṣòwò, tọpinlẹ̀ àti ṣàkóso dúkìá díjítálẹ̀ ní oríṣiríṣi blockchains láì dá àkọọ́sílẹ̀ kan sílẹ̀, fífi ìwé ìdánimọ̀ ránṣẹ́ tàbí gbígbé ìtọjú owó wọn lọ.
 
 ### Ìtàn Ní Kókó Rere
 

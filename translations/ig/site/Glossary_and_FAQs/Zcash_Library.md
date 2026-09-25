@@ -32,7 +32,7 @@ Okwu. Nkọwa okwu.
 |------|-----------|
 Canopy. Nnukwu Nwelite Network 5th maka Zcash. [Ihe ndị ọzọ ị ga- amụta:](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Allows a committer to commit to a polynomial with a short string that can be used by a verifier to confirm claimed evaluations of the committed polynomial. Useful for reducing communication costs in the Zcash protocol. |
-Ọgbakọ. [Nzukọ Ọgbakọ Zcash nke Ndị Ọrụ](https://forum.zcashcommunity.com) / [Zcash Community Discord (Nkwekọrịta nke obodo)](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit (asụsụ Igbo)](https://www.reddit.com/r/zec/) / [Telegramm](https://t.me/Zcash_Community) / [Twitter (ụda)](https://x.com/zcash) |
+Ọgbakọ. [Nzukọ Ọgbakọ Zcash nke Ndị Ọrụ](https://forum.zcashcommunity.com) / [Zcash Community Discord (Nkwekọrịta nke obodo)](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit (asụsụ Igbo)](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | A proposed hybrid consensus design that keeps proof-of-work block production and adds a proof-of-stake finality layer on top, so blocks gain stronger finality without abandoning mining. It grew out of Trailing Finality Layer research and is being built by Shielded Labs, still in testnet development as of 2026. |
 | CrossPay | A feature in the Zodl wallet that lets you spend shielded ZEC while the recipient is paid in the asset and chain they prefer, routed through NEAR Intents rather than a centralized exchange. |
 Cypherpunk Zero bụ Creative Universe na mgbalị imekọ ihe ọnụ n'etiti ECC, onye mmepụta eserese Stranger Wolf, Mighty Jaxx na ndị mmekọ ahọrọ nke usoro okike. [Ebe nrụọrụ Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Nchịkọta Opensea](https://opensea.io/collection/cypherpunk-zero) |
@@ -41,7 +41,7 @@ Cypherpunk Zero bụ Creative Universe na mgbalị imekọ ihe ọnụ n'etiti E
 
 Okwu. Nkọwa okwu.
 |------|-----------|
-◯ DeFi ❑ Ihe oru ngo nke na-ejikọta ZEC na DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock (Ụlọ akụ)](https://app.zenrocklabs.io/) / [ShapeShift (Nkeji nke abụọ)](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+◯ DeFi ❑ Ihe oru ngo nke na-ejikọta ZEC na DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
 | Deshielding | Refers to a transaction being sent from a zaddr (shielded address) to a taddr (transparent address). The origin of the transaction is not visible however the funds enter a publicly visible value pool. |
 ◯ Ndị na-emepụta ihe ❑ Onye ọrụ ibe gị ❖ Ụlọ Ọrụ Na-ahụ Maka Ihe Ọmụma [Akụrụngwa Onye Mmepụta](https://www.zcashcommunity.com/developers/) |
 Ihe ndekọ. [Akwụkwọ Ndị Ọrụ Ọchịchị na-edepụta](https://zcash.readthedocs.io/en/latest/) |
@@ -139,7 +139,7 @@ Okwu. Nkọwa okwu.
 |------|-----------|
 | Oblivious Synchronization | A method under development in Project Tachyon that lets a wallet request the data it needs from an untrusted server without revealing which notes it is asking about. The server never learns your nullifiers, because the protocol makes them evolve in an unlinkable way. [Dee ihe ndị ọzọ n'akwụkwọ .](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
  Orchard Shielded Pool. Nke atọ na-echebe ọdọ mmiri maka Zcash ma na-anọchi anya mmepe nke zk-SNARK technology stack anyị. [Nkọwa zuru ezu](https://electriccoin.co/blog/explaining-halo-2/) |
- N'oge oyi. 1st Network Upgrade maka Zcash. [Ihe ndị ọzọ ị ga- amụta:](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+ Overwinter. 1st Network Upgrade maka Zcash. [Ihe ndị ọzọ ị ga- amụta:](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 

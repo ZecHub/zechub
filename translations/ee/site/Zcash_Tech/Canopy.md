@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Canopy ƒe xɔmenuwo
+# Canopy
 
 > Canopy yi agbe le Zcash mainnet dzi le block 1,046,400 (November 18, 2020 UTC).
 
@@ -109,4 +109,4 @@ Woɖoe be gɔmeɖolawo ƒe fetu gbãtɔ nawu enu le afã gbãtɔ me. Canopy man�
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Do ŋgɔ: [Dzimeƒu ƒe ati](../zcash-tech/heartwood) · Esi kplᴐe ɖo: [NU5](../zcash-tech/nu5)
+Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Do ŋgɔ: [Heartwood](../zcash-tech/heartwood) · Esi kplᴐe ɖo: [NU5](../zcash-tech/nu5)

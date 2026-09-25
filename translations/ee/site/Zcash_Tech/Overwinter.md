@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Dzomeŋɔli
+# Overwinter
 
 > Dzomeŋɔli yi agbe le Zcash mainnet dzi le block 347,500 (June 26, 2018 UTC).
 

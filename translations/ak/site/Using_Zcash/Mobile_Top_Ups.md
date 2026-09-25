@@ -42,7 +42,7 @@ Hey... Me line no na wɔde credit ama! Wubetumi nso asi wo email no so dua bere 
 Ɔkwan a ɛwɔ atifi hɔ no hwehwɛ sɛ wobɔ Coinsbee akontaabu. Sɛ wopɛ sɛ wonyɛ a, CardsRelay tɔn mobile top-ups ma ZEC a wonkyerɛw wo din.
 
 ### 1. Paw wo man ne nea ɔyɛ adwuma no
-Sra [Kaad a Wɔde Di Dwuma](https://cardsrelay.com) na bue Mobile Top Ups ɔfã no. Wɔboa adwumayɛfo bɛboro 750 wɔ wiase nyinaa.
+Sra [CardsRelay](https://cardsrelay.com) na bue Mobile Top Ups ɔfã no. Wɔboa adwumayɛfo bɛboro 750 wɔ wiase nyinaa.
 
 ### 2. Kyerɛw nɔma ne sika dodow no
 Hyɛ mobile nɔma a wopɛ sɛ wode credit no hyɛ mu na paw bo a wode bɛka ho. Bo a wɔada no adi no yɛ ne nyinaa biako pɛ, a wɔmfa sika a wɔde sesa nneɛma a ɛsono emu biara nka ho akyiri yi.

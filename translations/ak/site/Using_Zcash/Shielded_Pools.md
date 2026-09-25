@@ -70,7 +70,7 @@ Orchard maa dwumadie, adwumayɛ yie, ne kokoamsɛm nyaa nkɔsoɔ kɛseɛ denam a
 
 Efi bere a Ironwood upgrade no yɛɛ adwuma wɔ 28 July 2026 no, **Orchard yɛ nea wɔsɛe no nkutoo**. Botae foforo biara ntumi nkɔ pool no mu. Sika a wɔde asie dedaw no da so ara tumi sɛe, na wɔretu akɔ Ironwood denam turnstile no so. Sika kotoku di eyi ho dwuma ma wo, ɛwom sɛ dodow no ara ma wunya ahoɔhare no so tumi kakra de.
 
-Sɛ wokura Orchard sika a, hwɛ [Dade dua](/zcash-tech/ironwood) esiane nea atutra no kyerɛ wɔ nneyɛe mu nti.
+Sɛ wokura Orchard sika a, hwɛ [Ironwood](/zcash-tech/ironwood) esiane nea atutra no kyerɛ wɔ nneyɛe mu nti.
 
 ____
 
@@ -162,7 +162,7 @@ Nea eyi kyerɛ no gyina baabi a wo sika wɔ so:
 
 > **Kokoamsɛm ho kɔkɔbɔ biako a ɛfata sɛ wuhu.** Turnstile no tintim *dodow* a ɛtwam wɔ atare ntam, ne block no sorokɔ. Ɔsomafo ne nea ogye no tra hɔ ahintaw sɛnea ɛte daa, nanso wobetumi de sika soronko bi asan abata wo ho. Eyi nti na sika kotoku tu kɔ mmeae foforo wɔ akwan horow so denam gyinapɛn ahorow a wɔde di dwuma so sen sɛ ɛbɛma wo sika a aka no akɔ baabiara wɔ akuwakuw biako a wotumi hu mu no. Ma wo sika kotoku no nkɔ ntɛmntɛm, na susuw ho sɛ wode Tor anaa VPN bedi dwuma sɛnea ɛbɛyɛ a wo IP no renkyekyere sika dodow a wode tu no.
 
-Hwɛ [Dade dua](/zcash-tech/ironwood) ma upgrade no ankasa, na [Turnstile a ɛwɔ hɔ no](/zcash-tech/the-turnstile) sɛnea akontaabu no yɛ adwuma no ho.
+Hwɛ [Ironwood](/zcash-tech/ironwood) ma upgrade no ankasa, na [Turnstile a ɛwɔ hɔ no](/zcash-tech/the-turnstile) sɛnea akontaabu no yɛ adwuma no ho.
 
 <br/>
 
@@ -179,7 +179,7 @@ Hwɛ [Dade dua](/zcash-tech/ironwood) ma upgrade no ankasa, na [Turnstile a ɛw�
 
 ## Nkratafa a Ɛfa Ho
 
-- [Dade dua](/zcash-tech/ironwood) — Upgrade a ɛyɛɛ mprempren pool no
+- [Ironwood](/zcash-tech/ironwood) — Upgrade a ɛyɛɛ mprempren pool no
 - [Turnstile a ɛwɔ hɔ no](/zcash-tech/the-turnstile) — Sɛnea wɔyɛ bo a ɛkɔ soro wɔ pool ahorow ntam no ho akontaabu
 - [Sika kotoku](/using-zcash/wallets) — Nea sika kotoku a wɔhwɛ so na Ironwood ayɛ krado
 - [Nkitahodi ahorow](/using-zcash/transactions) — Sɛnea wɔde shielded transactions mena

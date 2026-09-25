@@ -1,4 +1,4 @@
-# Ụlọ nyocha Zcash
+# Zcash Labs
 
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/313788363?s=200&v=4" alt="Logo Zcash Labs" width="320" />
@@ -226,7 +226,7 @@ Site na usoro a, Zcash Labs chọrọ ịmepụta ụzọ dị mfe site n'ọch�
 
 ## Ihe ndị e dere na ya
 
-[Ụlọ nyocha Zcash](https://zcashlabs.org/)
+[Zcash Labs](https://zcashlabs.org/)
 
 [Na-ekwupụta Zcash Labs: Ụlọ ọrụ na-aga ahịa nke Zcash](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)
 

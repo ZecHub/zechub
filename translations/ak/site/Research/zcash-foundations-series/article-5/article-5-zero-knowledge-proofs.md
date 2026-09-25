@@ -101,7 +101,7 @@ Nhyehyɛe foforo yi saa ahwehwɛde yi fi hɔ koraa, a ɛyɛ ade titiriw biako nt
 | Nsusuwii | Adanse nhyehyɛe | Setup a wogye di? | Wɔasi wɔ |
 |---|---|---|---|
 | **Sprout** (a edi kan koraa) | mfiase zk-SNARK | Yiw | mfitiase guasodeyɛ |
-| **Nnuadewa** | **Nkɔsoɔ16** | Yiw ("Powers of Tau" + Sapling guasodeyɛ a nnipa pii wom) | **BLS12-381** (Ahyɛdeɛ 2) |
+| **Sapling** | **Nkɔsoɔ16** | Yiw ("Powers of Tau" + Sapling guasodeyɛ a nnipa pii wom) | **BLS12-381** (Ahyɛdeɛ 2) |
 | **Orchard** (current) | **Halo 2** | **No trusted setup** | **Pallas / Vesta** (Article 2) |
 
 Nantew a efi Sprout kɔ Sapling kɔ Orchard no yɛ asɛm a ɛfa adanse ahorow a ɛreyɛ nketewa, ɛyɛ ntɛmntɛm, na ɛrehwie nhyehyɛe a wogye di no agu ho kɛse. **Halo 2**, a Orchard de di dwuma no, nhia guasodeyɛ biara koraa na wɔasi sɛ ɛbɛboa *recursion* (adanseɛ a ɛkyerɛ adanseɛ foforɔ), ɛno nti na Orchard de Pallas/Vesta **cycle** a ɛfa curves a ɛfiri Ahyɛdeɛ 2 mu di dwuma: wɔayɛ curve biara tuned de ahwɛ sɛ adanseɛ a wɔakyerɛw wɔ ɔfoforo no so no yɛ nokware.
@@ -139,7 +139,7 @@ Zero-nimdeɛ adanse yɛ afuw a emu dɔ na yɛhyɛɛ da traa intuition level. Yɛ
 | **Akontaabu amansin** | Asɛm a wɔasan akyerɛw sɛ ɛka ho na ɛdɔɔso wɔ afuw a ɛwɔ anohyeto so |
 | **Nea ɛnyɛ nkitahodi (Fiat-Shamir)** | Adanse a wɔde tow tuo biako a enhia sɛ wɔte ase akyi-ne-akyi |
 | **Nsɛm tiawa** | Adanse no sua na ɛyɛ ntɛm sɛ wobɛdi ho adanse ɛmfa ho sɛnea asɛm no kɛse te |
-| **zk-SNARK** na ɛyɛ adwuma | Zero-knowledge Tiawa a Ɛnyɛ nkitahodi ARgument of Knowledge |
+| **zk-SNARK** | Zero-knowledge Tiawa a Ɛnyɛ nkitahodi ARgument of Knowledge |
 | **Nsiesiei a wogye di / awuduru nwura** | One-time parameter generation a ɛsɛ sɛ wɔsɛe n’ahintasɛm a aka |
 
 ---

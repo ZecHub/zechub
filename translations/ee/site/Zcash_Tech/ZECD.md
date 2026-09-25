@@ -283,7 +283,7 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## ZECD kple zcashd kple Zaino dome
 
-| | zcashd ƒe nyawo | Zaino | ZECD |
+| | zcashd | Zaino | ZECD |
 |--|--------|-------|------|
 | Akpa si wòwɔna | Node blibo + gakotoku | Indexer (exɔ ɖe lightwalletd teƒe) | Gakotoku ƒe dɔwɔƒe koe |
 | Gbegbɔgblɔ | C++ | Gbeɖuɖɔ | Gbeɖuɖɔ |

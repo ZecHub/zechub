@@ -15,7 +15,7 @@ Unfortunately, this same convenience has also made us, as users, careless about 
 
 Lẹ́yìn èyí, a ó ṣàpèjúwe àwọn ìsọfúnni tí àwọn kan lára àwọn ẹ̀rọ alágbèéká yìí ń kó jọ nípa wa, ohun tí wọ́n ń ṣe pẹ̀lú rẹ̀, àti ìdí tí èyí fi lè jẹ́ ewu fún àṣírí wa àti, bóyá, ààbò ara ẹni tàbí ti ìdílé wa.
 
-Àìgbọ́ra-ẹni-yé
+Discord
 -------
 
 A ní láti bẹ̀rẹ̀ pẹ̀lú Discord nítorí pé òun ni ohun èlò ìbánisọ̀rọ̀ tí a máa ń lò "nílé".
@@ -38,7 +38,7 @@ Most of the things they do with our data could be considered justifiable, such a
 
 Wọ́n tún sọ pé àwọn lè lo ìsọfúnni náà láti fún àwọn aláṣẹ èyíkéyìí tó bá béèrè fún un nípasẹ̀ àṣẹ ilé ẹjọ́.
 
-Twitter (ìkànnì)
+Twitter
 -------
 
 Like Discord, Twitter stores a good amount of information on its servers. It also saves direct messages, who you follow, and who you interact with (saved posts, favorites), and in fact, their policies are quite similar, including sharing your data with third parties and authorities.

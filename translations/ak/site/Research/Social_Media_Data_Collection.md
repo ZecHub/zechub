@@ -15,7 +15,7 @@ Nea ɛyɛ awerɛhow no, saa ahotɔ koro yi ara nso ama yɛn, sɛ́ wɔn a wɔde 
 
 Afei, yɛbɛkyerɛ data a saa platform ahorow yi bi boaboa ano fa yɛn ho, nea wɔde yɛ, ne nea enti a eyi betumi de asiane aba yɛn kokoam nsɛm ne, ebia, yɛn ankasa anaa abusua ahobammɔ so.
 
-Akasakasa
+Discord
 -------
 
 Ɛsɛ sɛ yɛde Discord na efi ase efisɛ ɛyɛ nkitahodi app a yɛde di dwuma "wɔ fie."
@@ -38,7 +38,7 @@ Wobetumi abu nneɛma dodow no ara a wɔde yɛn data yɛ no sɛ ɛfata, te sɛ os
 
 Wɔsan nso ka sɛ wobetumi de nsɛm no ama aban biara a ebia ɛnam asɛnnibea ahyɛde so bisa.
 
-Twitter so
+Twitter
 -------
 
 Te sɛ Discord no, Twitter de nsɛm pii sie ne server ahorow so. Ɛsan nso sie nkrasɛm a ɛkɔ tẽẽ, wɔn a wudi wɔn akyi, ne wɔn a wo ne wɔn di nkitaho (nneɛma a wɔakora so, nea w’ani gye ho), na nokwarem no, wɔn nhyehyɛe ahorow no di nsɛ koraa, a nea ɛka ho ne sɛ wode wo data bɛma nnipa foforo ne atumfoɔ.

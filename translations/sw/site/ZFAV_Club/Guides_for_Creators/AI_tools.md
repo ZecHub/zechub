@@ -35,7 +35,7 @@ pia sasa [Webapp ImgnAI](https://app.imgnai.com/home) na akaunti tofauti ya kuin
 kuingia na X, Google, Discord, Telegram
 - [Bing Dalle3](https://www.bing.com/create) - toleo bure inaweza kuwa polepole
 - [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - kiasi kidogo kwa ajili ya bure
-- [Picha ya mfano](https://ideogram.ai/login) - nzuri katika kuzalisha maandishi halisi kusoma juu ya picha
+- [Ideogram](https://ideogram.ai/login) - nzuri katika kuzalisha maandishi halisi kusoma juu ya picha
 - [Uwanja wa michezo AI](https://playgroundai.com/) - hali ya bure, usajili kutoka $ 15 / mwezi
 - [Clipdrop na utulivu.ai](https://clipdrop.co/stable-diffusion)
 - [StarryAI](https://www.starryai.com) - 5 kazi za sanaa/siku
@@ -58,7 +58,7 @@ unaweza kupata kuhusu 100 vizazi bure kwa rating wengine wengi [picha katika hap
 
 - [RunwayML GEN-2](https://runwayml.com/) (jaribio la bure, usajili kutoka $ 15 / mwezi)
 - [Pika maabara Discord Bot](https://www.pika.art/) (ATM bure?)
-- [Elai](https://elai.io/) (msajili kutoka $23/mwezi)
+- [elai](https://elai.io/) (msajili kutoka $23/mwezi)
 
 ### Vifaa vya kutafsiri video/sauti:
 
@@ -73,11 +73,11 @@ unaweza kupata kuhusu 100 vizazi bure kwa rating wengine wengi [picha katika hap
 
 ### Kuzalisha muziki
 
-- [Picha ya sauti](https://soundraw.io/) - jaribu kwa bure - (usajili kutoka $ 16.99 / mwezi)
+- [Soundraw](https://soundraw.io/) - jaribu kwa bure - (usajili kutoka $ 16.99 / mwezi)
 - [beatoven.ai](https://www.beatoven.ai/) - kujaribu kwa ajili ya bure - (usajili kutoka $ 3 / mwezi au $ 1 / dakika yanayotokana)
 - [Soundful.com](https://soundful.com/) - jaribu bure - (usajili kutoka $ 59.99 / mwezi au 29.99 / m mwaka)
 - [boomy](https://boomy.com/) - jaribu bure - (usajili kutoka $9.99/mwezi)
-- [Kwa sauti kubwa](https://www.loudly.com/) - jaribu bure - (usajili kutoka $7.99/mwezi)
+- [Loudly](https://www.loudly.com/) - jaribu bure - (usajili kutoka $7.99/mwezi)
 - [Mubert](https://mubert.com/) - jaribu bure - (usajili kutoka $ 14 / mwezi)
 
 ### Sauti kuzalisha
@@ -85,5 +85,5 @@ unaweza kupata kuhusu 100 vizazi bure kwa rating wengine wengi [picha katika hap
 - [play.ht](https://play.ht/) - bure - (usajili kutoka $ 39 / mwezi)
 - [ElevenLabs](https://elevenlabs.io/) - bure - (usajili kutoka $ 5 / mwezi)
 - [Murf](https://murf.ai/) - bure - (usajili kutoka $ 29 / mwezi)
-- [Kufanana](https://www.resemble.ai/) - jaribu bure (baada ya $ 0.006 kwa sekunde)
+- [Resemble](https://www.resemble.ai/) - jaribu bure (baada ya $ 0.006 kwa sekunde)
 - [Synthesia](https://www.synthesia.io/) - (msajili kutoka $22.5/mwezi)

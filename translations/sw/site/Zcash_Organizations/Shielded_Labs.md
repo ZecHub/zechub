@@ -29,7 +29,7 @@ Shielded Labs orodha hadharani maeneo kadhaa ya mradi hai:
 - [Crosslink](https://shieldedlabs.net/crosslink-faq/) - A mapendekezo mseto makubaliano kuboresha ambayo kuchanganya Zcash ya uthibitisho wa kazi block uzalishaji na ushahidi-ya hisa finality, hivyo wamiliki ZEC inaweza kusaidia kupata mtandao wakati wachimbaji kuendelea kuzalisha vitalu.
 - [Ada ya Dynamic](https://shieldedlabs.net/fees/) - Utafiti na zana kwa ajili ya zaidi kutabiriwa, user-kirafiki, na sugu Zcash ada shughuli kama mtandao inaendelea.
 - [Zero](https://shieldedlabs.net/zero/) - A mkono Suite ya wazi chanzo Zcash miundombinu programu kwa kubadilishana, madini mabwawa, watoa mkoba, na mashirika mengine ambayo kutegemea miundomizo Zcash.
-- [Mti wa chuma](https://shieldedlabs.net/ironwood/) - Zcash mtandao kuboresha na kulindwa bwawa kuundwa katika kukabiliana na Orchard bandia udhaifu, iliyoundwa ili kurejesha kujitegemea verifiable soundness ya kusambazwa mzunguko wa Zcash.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Zcash mtandao kuboresha na kulindwa bwawa kuundwa katika kukabiliana na Orchard bandia udhaifu, iliyoundwa ili kurejesha kujitegemea verifiable soundness ya kusambazwa mzunguko wa Zcash.
 
 ## Mchango wa Ironwood
 
@@ -53,6 +53,6 @@ Zcash does not use automatic on-chain governance for protocol changes. Polls and
 - [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
 - [Ada ya Dynamic](https://shieldedlabs.net/fees/)
 - [Zero](https://shieldedlabs.net/zero/)
-- [Mti wa chuma](https://shieldedlabs.net/ironwood/)
+- [Ironwood](https://shieldedlabs.net/ironwood/)
 - [Utawala na uchaguzi](https://shieldedlabs.net/governance/)
 - [Shielded Labs GitHub](https://github.com/ShieldedLabs)

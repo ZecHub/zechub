@@ -93,5 +93,5 @@ Wallet scanning bottleneck a yɛadi kan aka ho asɛm no ne nea wɔde wɔn ani as
 
 - [Zcash Sikakorabea Syncing](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - adee nti na syncing y adwuma sedee eye nnɛ
 - [Lightwallet Nodes a Wɔde Di Dwuma](https://zechub.wiki/zcash-tech/lightwallet-nodes) - a ɛyɛ hann client model PIR no bɛtu mpɔn
-- [zk-SNARKs a wɔde wɔn ho hyɛ mu](https://zechub.wiki/zcash-tech/zk-snarks) - a ɛyɛ cryptographic adwinnade titiriw foforo a ɛwɔ Zcash kokoamsɛm akyi
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - a ɛyɛ cryptographic adwinnade titiriw foforo a ɛwɔ Zcash kokoamsɛm akyi
 - [Quantum Akyi Ahobammɔ](https://zechub.wiki/zcash-tech/post-quantum-security) - a enti a akwan a egyina lattice so ho hia ma daakye

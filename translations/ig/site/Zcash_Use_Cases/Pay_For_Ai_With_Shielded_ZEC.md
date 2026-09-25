@@ -133,7 +133,7 @@ Nke a bụ akụkụ ọtụtụ ndị nduzi na-atụfu.
 
 Adreesị nkwụnye ego nke NanoGPT bụ adreesị dị n'otu. Nkọwapụta otu enyere na August 2026 gosipụtara kpọmkwem ndị nnata abụọ: ** Sapling** na ** Orchard ** .
 
-Kemgbe ahụ, ndị na-eme ihe nkiri. [Osisi ígwè](/zcash-tech/ironwood) nkwalite arụ ọrụ na 28 Julaị 2026, Orchard bụ naanị mmefu ma enweghị uru ọhụụ nwere ike ịbanye ya. Nke ahụ hapụrụ ** Sapling dị ka onye nnata ego ọ bụla nwere ike ịbata**.
+Kemgbe ahụ, ndị na-eme ihe nkiri. [Ironwood](/zcash-tech/ironwood) nkwalite arụ ọrụ na 28 Julaị 2026, Orchard bụ naanị mmefu ma enweghị uru ọhụụ nwere ike ịbanye ya. Nke ahụ hapụrụ ** Sapling dị ka onye nnata ego ọ bụla nwere ike ịbata**.
 
 Ya mere, ọ bụrụ na ZEC gị adịlarị na Sapling, ịkwụ ụgwọ bụ Sapling ka Sapling ma onweghị ihe gbasara ya. Ma ọ bụrụ n'ịkwaga Ironwood, ị kwụọ ụgwọ gafere oke ọdọ mmiri ahụ, yana uru dị mkpa nke ego a chọrọ iji nweta ọrụ site na ụlọ akụ maka ndị ahịa ha. [na turnstile](/zcash-tech/the-turnstile) publishes the amount and the height even though sender and receiver stay hidden.
 
@@ -163,7 +163,7 @@ I nwere ike:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Osisi ígwè](/zcash-tech/ironwood) - ihe mere na ọdọ mmiri gị ego nọdụ ke gbanwere
+- [Ironwood](/zcash-tech/ironwood) - ihe mere na ọdọ mmiri gị ego nọdụ ke gbanwere
 - [Ihe A Na-akpọ Turnstile](/zcash-tech/the-turnstile) - ihe na-aghọ ọha mgbe uru agafe ọdọ mmiri
 - [Akpa ego](/using-zcash/wallets) - nke wallets na-echekwa.
 - [ZODL](/zcash-organizations/zodl) - obere akpa dị n'azụ CrossPay.

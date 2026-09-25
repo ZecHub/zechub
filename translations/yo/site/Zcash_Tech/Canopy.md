@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àgbàlá ilé
+# Canopy
 
 > Canopy lọ si igbesi aye lori Zcash mainnet ni bulọọki 1,046,400 (November 18, 2020 UTC).
 
@@ -109,4 +109,4 @@ Canopy ti ṣiṣẹ ni bulọọki kanna gangan bi idaji akọkọ Zcash. Kí n
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Igi àyà igi](../zcash-tech/heartwood) · Àtúnṣe: [NU5](../zcash-tech/nu5)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Heartwood](../zcash-tech/heartwood) · Àtúnṣe: [NU5](../zcash-tech/nu5)

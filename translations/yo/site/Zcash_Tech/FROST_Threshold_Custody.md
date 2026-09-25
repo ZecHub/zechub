@@ -104,7 +104,7 @@ Ywallet had an early FROST demo integration, walked through in the [Itọsọna 
 - **ZecVault**  2 ninu 3 escrow ti o ni aabo lori mainnet (aaye FROST)
 - **Iṣọ́**  ìpamọ̀ díẹ̀ fún Zcash tí a fi ààbò ṣe pẹlú UX tó dá lórí igbasilẹ-àtúnṣe.
 
-### Coinbase (ìmọ̀ràn)
+### Coinbase
 Coinbase kọ iṣelọpọ FROST fun awọn ọna ṣiṣe ibuwọlu ti o ni opin (fun Bitcoin), pẹlu awọn atunṣe ti o yọ ipele preprocessing ati pin ipa apapọ laarin gbogbo awọn olukopa. Iriri wọn jẹrisi awoṣe aabo FROST lori iwọn iṣelopọ.
 
 ---

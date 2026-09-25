@@ -37,5 +37,5 @@ Wopɛ sɛ wusua pii fa Zcash abɔde a nkwa wom ho? Podcast ahorow a wubetumi adi
 </li>
 </ul>
 
-So yɛreyera podcast pa bi? Di yɛn ho nkɔmmɔ wɔ [Akasakasa](https://discord.gg/zcash) na yɛde bɛka nea wɔahyehyɛ no ho.
+So yɛreyera podcast pa bi? Di yɛn ho nkɔmmɔ wɔ [Discord](https://discord.gg/zcash) na yɛde bɛka nea wɔahyehyɛ no ho.
 
