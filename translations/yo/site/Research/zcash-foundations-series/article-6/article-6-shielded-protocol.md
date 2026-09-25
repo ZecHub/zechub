@@ -82,10 +82,10 @@ Jẹ ki a ṣe apejọ Alice sanwo Bob. A yoo lo Sapling ká kedere "lo ẹgbẹ
 
 **Iṣowo ti o ni aabo kan ni awọn iru awọn apejuwe meji:**
 
-| Àpèjúwe ìnáwó (ó gba àkọsílẹ̀) | Àpèjúwe àbájáde (ó ṣẹ̀dá àkọsílẹ̀) |
+| Àpèjúwe ìnáwó (ó gba àkọsílẹ̀ kan) | Àpèjúwe àbájáde (ó ṣẹ̀dá àkọsílẹ̀) |
 |---|---|
 | ifaramo iye ti titẹ sii | ifaramo iye ti abajade |
-| **ìdákọ̀ró** ó fi hàn lòdì sí (gbòǹgbò igi) | ìdúró tuntun **àkíyèsí** (ìwé tuntun) |
+| **okọ** o fihan lodi si (gbongbo igi kan) | ìdúró tuntun **àkíyèsí** (ìwé tuntun) |
 | **asán** ti àkọsílẹ̀ tí a ti ná | kọ́kọ́rọ́ **aláìpẹ́** fún ìfipamọ́ |
 | kọ́kọ́rọ́ gbogbogbò tí a tún ṣe àtúnṣe + ìfọwọ́sowọ́pọ̀ àṣẹ ìnáwó | àkọsílẹ̀ **tí a fi ìkọ̀kọ̀ sí** (ọ̀rọ̀ ìkọ̀kọ̀ fún ẹni tí a gbà á) |
 | **zk-SNARK** ti o fihan awọn ẹtọ mẹrin naa | a **zk-SNARK** ti o fihan pe abajade naa wa ni apẹrẹ daradara |

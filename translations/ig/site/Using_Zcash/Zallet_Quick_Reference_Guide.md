@@ -175,7 +175,7 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 | Paramita   | Ụdị   | A chọrọ | Nkọwa                          |
 |-------------|--------|----------|--------------------------------------|
 | okwuntughe  | string | ee      | Okwuntughe obere akpa                    |
-| nkeji oge     | number | ee      | Sekọnd iji mee ka obere akpa ahụ mechie  |
+| nkeji oge     | number | ee      | Sekọnd iji mee ka obere akpa ahụ ghara imechi  |
 
 ---
 
@@ -438,7 +438,7 @@ zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":
 | site na adreesị      | string          | ee      |                 | Adreesị ebe ma ọ bụ `"ANY_TADDR"`                  |
 | ego          | usoro ihe | ee      |                 | Ndị nnata (`address`, `amount`, nhọrọ `memo`)|
 | minconf          | number          | no       |                 | Nkwenye kacha nta                            |
-| ụgwọ              | null            | no       |                 | Ga-abụrịrị `null` (ZIP-317)                    |
+| ụgwọ              | null            | no       |                 | Ga-abụrịrị `null` (ZIP-317 only)                    |
 | privacy_policy   | string          | no       | `"FullPrivacy"` | Usoro amụma nzuzo                            |
 
 ---

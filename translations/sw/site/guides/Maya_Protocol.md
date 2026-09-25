@@ -17,7 +17,7 @@
 </div>
 
 
-## Maya Protocol?
+## Maya Protocol ni nini?
 
 Maya ni a [kubadilishana madaraka ya chini](https://nym.com/blog/what-is-dex) (DEX) mfumo ambao unawezesha biashara ya cryptocurrencies katika blockchains tofauti. Unaweza, kwa mfano, kubadilishana Bitcoin (BTC) kwenye blockchain Bitcoin na Ethereum (ETH) juu ya blockchain Ethereum kwa njia rahisi, bila kushikilia mali au kuhusisha mamlaka yoyote kuu au Ujue taratibu za Wateja wako (KYC).
 

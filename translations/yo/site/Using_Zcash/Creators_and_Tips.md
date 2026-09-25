@@ -26,7 +26,7 @@
 | **Ojú òpó wẹ́ẹ̀bù**       | [https://zcash.me/](https://zcash.me/) |
 | **Twitter**       | [@zcashme](https://x.com/zcashme) |
 | **Ìrísí Ìròyìn**| `zcash.me/[username]` |
-| **Ipo**        | Lóògbé (pẹ̀lú àwọn ẹ̀yà ara tí a ń ṣe àgbékalẹ̀) |
+| **Ipo**        | Ń ṣiṣẹ́ (pẹ̀lú àwọn ẹ̀yà ara tí a ń ṣe àgbékalẹ̀) |
 
 ### Àwọn Ànímọ́ Pàtàkì Rẹ̀
 
@@ -44,7 +44,7 @@
 | Máàpù Ipò       | Wa awọn olumulo Zcash nitosi |
 | Àwọn Àlàyé Pẹpẹ| Wo awọn wiwọn idagbasoke |
 | Àwọn ìdìbò agbègbè    | Dibo lori awọn koko-ọrọ eto-ẹkọ ayika |
-| Àwọn Ìròyìn àti Àwọn Ìkéde | Àwọn àtúnṣe tó jẹ́ ti ìjọba |
+| Àwọn Ìròyìn àti Àwọn Ìkéde | Àwọn àtúnṣe tó wà lábẹ́ àṣẹ |
 | Àpérò              | Ìjíròrò àwùjọ |
 | Ohun èlò alágbèéká         | Ìrírí fóònù alágbéka ni kikun |
 

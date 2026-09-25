@@ -53,8 +53,8 @@ Eŋkɔa nye nu gbagbewo ƒe ɖoɖowɔɖi me nya kpui  Zebra, Zaino, Zallet  togb
 
 | Kpeɖeŋutɔ | Akpa si wòwɔna le Z3 | Si hiã? |
 | --- | --- | --- |
-| **Zebra** | Syncs eye wòda asi ɖe kɔsɔkɔsɔ, nyatoƒoetoto, JSON-RPC, lãmesẽ nuwuƒe | Ɛ̃ |
-| **Zallet** | Gakotoku si me node blibo le. Embeds Zaino agbalẽdzraɖoƒewo. Doa ka kple Zebra JSON-RPC tẽ. Me **meyɔa** Zaino nugoe si le eɖokui si o | Ɛ̃ |
+| **Zebra** | Syncs eye wòɖo kpe kɔsɔkɔsɔ, nyatoƒoetoto, JSON-RPC, lãmesẽ nuwuƒe dzi | Yes |
+| **Zallet** | Gakotoku si me node blibo le. Embeds Zaino agbalẽdzraɖoƒewo. Doa ka kple Zebra JSON-RPC tẽ. Me **meyɔa** Zaino nugoe si le eɖokui si o | Yes |
 | **Zaino** | Indexer si le eɖokui si. lightwalletd-compatible gRPC na gota kekeli asisiwo, tsɔ kpe ɖe JSON-RPC teƒenɔla na explorers kple faucets | No — `--profile indexer` |
 
 Z3 pin image versions le me `docker-compose.yml`. Ðɔ ɖe edzi kple `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` ne èhiã ŋkɔ bubu.
@@ -69,7 +69,7 @@ Z3 pin image versions le me `docker-compose.yml`. Ðɔ ɖe edzi kple `Z3_ZEBRA_I
 | Dɔwɔwɔ ƒe kpɔɖeŋu | Binary ɖeka: node + gakotoku | Miɖe node kple gakotoku ƒe nugoewo ɖe vovo |
 | Nusiwo dzi woda asi ɖo | Exɔ dzudzɔ le dɔme (EOS 18 July 2026) | Zebra (alo node bubu si sɔ) |
 | Gakotoku | Wotue ɖe eme `wallet.dat` | Zallet, datadir si wotsɔ nya ɣaɣlawo ŋlɔ tso ƒexɔxɔ nu |
-| Kekeli ƒe asisiwo | Zi geɖe la, lightwalletd si woɖe ɖe vovo | Zaino nɔnɔmetata si woate ŋu atia |
+| Kekeli ƒe asisiwo | Zi geɖe la, lightwalletd si le vovo | Zaino nɔnɔmetata si woate ŋu atia |
 | Config | `zcash.conf` | Per-network faɛlwo le `config/<network>/` kpe ɖe Compose env faɛlwo ŋu |
 | Networks le host ɖeka dzi | Melidzeƒea ƒe dzrewɔwɔ siwo me vevesese le | Klass gbãtɔ: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
@@ -83,7 +83,7 @@ Z3 nye Compose ƒe dɔwɔna etɔ̃ siwo le wo ɖokui si. Womezãa woƒe ʋudzeƒ
 
 | Kadodo | Dɔa ƒe ŋkɔ | Zãe na | Gbãtɔ ƒe sync | Ga ŋutɔŋutɔwo |
 | --- | --- | --- | --- | --- |
-| **mainnet** ƒe | `z3-mainnet` | Nuwɔwɔ | gaƒoƒo 24–72 sɔŋ | Ɛ̃ |
+| **mainnet** ƒe | `z3-mainnet` | Nuwɔwɔ | gaƒoƒo 24–72 sɔŋ | Yes |
 | **dodokpɔ ƒe nyatakakadzraɖoƒe** | `z3-testnet` | Staging le dutoƒo dodokpɔ network dzi | gaƒoƒo 2–12 sɔŋ | Ao (dodokpɔ ZEC) |
 | **regtest** | `z3-regtest` | Nutoa me nuwɔna: mɔxexe enumake, hati aɖeke meli o | Sɛkɛndwo | No |
 

@@ -49,7 +49,7 @@ Zebra ṣe atẹjade awọn ohun-ini wọnyi fun igbasilẹ kọọkan:
 |---|---|
 | `zebrad-<version>-<arch>.tar.gz` | ibi ipamọ alakomeji |
 | `zebrad-<version>-<arch>.tar.gz.sha256` | Ṣíṣàyẹ̀wò fún fáìlì kọ̀ọ̀kan |
-| `SHA256SUMS` | àwọn àkójọ owó fún gbogbo àwọn ilé ìkọ́lé |
+| `SHA256SUMS` | àwọn àkójọ owó fún gbogbo àwọn ilé |
 | `SHA256SUMS.sigstore.json` | Ìfọwọ́sowọ́pọ̀ àpò ìsọ̀rí Sigstore `SHA256SUMS` |
 
 ### Ìgbésè 1  Ṣe àtúnyẹ̀wò
@@ -238,7 +238,7 @@ Zallet ṣe atẹjade awọn ohun-ini oriṣiriṣi:
 | `zallet-<version>-<platform>.tar.gz` | ibi ipamọ alakomeji |
 | `.tar.gz.asc` | Ibuwọlu GPG ti a ya sọtọ |
 | `.tar.gz.intoto.jsonl` | Ẹ̀rí Ìbẹ̀rẹ̀ SLSA |
-| `.tar.gz.provenance.json` | data orisun |
+| `.tar.gz.provenance.json` | metadata orisun |
 | `.tar.gz.sbom.spdx` | ìwé-àkọsílẹ̀ ohun èlò kọ̀mpútà |
 
 ### Ìgbésè 1  Mọ kókó ìforúkọsílẹ̀ náà kí o tó lọ wá a.

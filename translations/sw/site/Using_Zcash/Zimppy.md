@@ -477,7 +477,7 @@ packages/
 | Kipengele | Maelezo |
 |---|---|
 | **Vipindi** | Amana mara moja, maombi ya mtoa huduma papo hapo, marejesho ya pesa yanapofungwa |
-| **Inatiririshwa** | Maudhui yaliyopimwa kwa kila tokeni kupitia SSE |
+| **Inatiririsha** | Maudhui yaliyopimwa kwa kila tokeni kupitia SSE |
 | **Chaji** | Malipo yaliyolindwa au ya uwazi kwa kila ombi la HTTP (mtiririko wa 402) |
 | **Malipo ya Uwazi** | Anwani za T zenye amri ya kuzuia marudio kwa kila changamoto + ngao |
 | **Akaunti Nyingi** | Mzunguko wa akaunti ya ZIP-32, uhamisho wa akaunti mtambuka, salio kwa kila akaunti |

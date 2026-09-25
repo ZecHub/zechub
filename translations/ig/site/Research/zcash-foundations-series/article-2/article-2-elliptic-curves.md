@@ -153,7 +153,7 @@ A bonus onwunwe na-aghọ priceless mgbe e mesịrị: ndị a nkwa **gbakwunye 
 
 Mkpịsị aka ndị ahụ bụ ihe e ji n'aka ma bụrụ ndị a pụrụ inyocha enyocha.
 
-| Zcash | Ihe ndị ọ na-eji | Ọrụ |
+| Zcash design | Ihe ndị ọ na-eji | Ọrụ |
 |---|---|---|
 | **Sapling** (nke ochie) | **BLS12-381** tinyere usoro agbakwunyere nke a na-akpọ **Jubjub** | BLS12-381 nwere sistemụ ihe akaebe; E wuru Jubjub n'elu ubi scalar BLS12-381's ka ọrụ isi na nkwa wee dị ọnụ ala iji *n'ime* ihe akaebe efu |
 | **Orchard** (ugbu a) | **Pallas** na **Vesta** (usoro "Pasta") | Pallas na-ebu igodo na nkwa Orchard's; a haziri njikọ Pallas/Vesta nke ọma iji mee ka ihe akaebe dị elu dị irè |
@@ -185,7 +185,7 @@ Ihe ole na ole e mere iji mee ka ọ dị mfe ọgụgụ.`y^2 = x^3 + ax + b`);
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Eliptik gbagọrọ agbagọ** | Isi ihe na-eju afọ `y^2 = x^3 + ax + b`, yana "mgbakwunye" pụrụ iche nke isi ihe |
+| **Eliptik gbagọrọ agbagọ** | Isi ihe ndị na-eju afọ `y^2 = x^3 + ax + b`, yana "mgbakwunye" pụrụ iche nke isi ihe |
 | **Mgbakwunye isi ihe** | Iwu chord-na-tangent: ahịrị gafere isi ihe abụọ, were nke atọ kụrụ, tụgharịa uche |
 | **Tụọ aka na njedebe (`O`)** | "Efu" nke usoro ahụ; itinye ya agbanweghị ihe ọ bụla |
 | **Jenerato (`G`)** | Isi ihe nke ọnụọgụgụ ya mechara kpuchie otu ahụ dum |

@@ -117,7 +117,7 @@ Historia ya Zcash yenyewe inaonyesha muundo:
 | Kasoro ya uthabiti katika usanidi unaoaminika (2018) | Vipimo (kosa katika karatasi ya zk-SNARK) | Haigunduliki |
 | Mgongano wa hoja ya mfumo wa kuthibitisha (2025) | Vipimo (hundi isiyopatikana katika mfumo wa uthibitisho) | Inaweza kugunduliwa |
 | Hitilafu ya uthibitishaji wa kikundi kidogo cha mkunjo (2016) | Utekelezaji (ukaguzi wa kikundi kidogo unaokosekana) | Inaweza kugunduliwa |
-| **Orchard (2026)** | **Vipimo (mzunguko)** | **Haigunduliki** |
+| **Orchard under-constrained multiplication (2026)** | **Vipimo (mzunguko)** | **Haigunduliki** |
 
 Kupitia-line ni stark: kasoro ambayo inaweza kujificha milele ndio wale katika hisabati. Hiyo ndiyo hasa darasa kuthibitishwa mashine ya vipimo unaweza kuondoa, kesi zote kwa mara moja. kupima na ukaguzi sampuli; tu kuthibitisha hesabu inashughulikia kila pembejeo.
 

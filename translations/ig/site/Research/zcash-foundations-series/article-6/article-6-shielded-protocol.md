@@ -29,7 +29,7 @@ Nke a bụ usoro ahụ dum n'otu peeji, nke e depụtara site n'akụkọ nke Nk
 |---|---|---|
 | Ego dị n'ime envelopu | **Rịba ama** (uru, onye nnata, enweghị usoro) | e tinyere koodu dị ka ihe ubi (Art 1) |
 | Envelopu ahụ a na-anaghị ahụ anya nke e mechiri emechi | **Rịba ama nkwa** | Pedersen / Sinsemilla nkwa (Art 2, 3) |
-| Òtù ọha na eze | **Rịba ama osisi nkwa** (anchor = mgbọrọgwụ ya) | Osisi Merkle nke na-abawanye ụba (Nkeji 4) |
+| Òtù ọha na eze | **Rịba ama osisi nkwa** (anchor = mgbọrọgwụ ya) | Osisi Merkle nke na-abawanye ụba (Nkeji nke 4) |
 | Ihe nrịbama efu | **Ihe na-emebi ihe** | ihe e ji edetu ihe nke ZK + igodo nzuzo (Art 2, 3) |
 | "Ego dị n'ime ya hà nhata ego" | **Nkwa uru + nlele nguzozi** | Nkwa Pedersen nke nwere ụdị onwe ya (Art 2, 3) |
 | Anwansi dị n'azụ ákwà mgbochi | **Ihe akaebe na-enweghị ihe ọmụma** | zk-SNARK n'elu sekit mgbakọ na mwepụ (Art 5) |

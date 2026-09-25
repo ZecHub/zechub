@@ -73,7 +73,7 @@ Wͻ AI agyinatufoɔ a wͻyɛ adwuma wɔ dwumadie ahodoɔ mu no, mmara ho nhwehw�
 | **Sika** | Nea wotumi hu | Wɔayɛ no encrypted | Nea wotumi hu |
 | **Nkaeɛbɔ** | Nea wotumi hu | Wɔayɛ no encrypted | N/A |
 | **Replay Ahobammɔ** | Ɛnyɛ ebiara | Memo a wɔkyekyere | Per-asɛnnennen T-address |
-| **Ɔsom a Wɔde Di Dwuma Nhwɛso** | Nea wotumi de bata ho | Kokoa mu | Ɛntumi nka ho (adr foforo) |
+| **Ɔsom a Wɔde Di Dwuma Nhwɛso** | Nea wotumi de bata ho | Kokoa mu | Ɛntumi nkɔ nkitahodi (addr foforo) |
 
 ### Ɔhaw a Ɛwɔ Akokoɔduro Ho, Agyinapɛn Ahorow Siesiee No
 
@@ -477,7 +477,7 @@ packages/
 | Su | Nkyerɛmu |
 |---|---|
 | **Nhyiam ahorow** | Deposit pɛnkoro, instant bearer adesrɛ, refund wɔ close |
-| **Abɔnten so** | Pay-per-token metered nsɛm a ɛwɔ SSE so |
+| **Nsuo a wɔde fa nsuo mu** | Pay-per-token metered nsɛm a ɛwɔ SSE so |
 | **Kwaadu** | Akatua a wɔabɔ ho ban anaasɛ ɛda adi pefee wɔ HTTP abisade biara mu (402 flow) |
 | **Akatua a ɛda adi pefee** | T-addresses a ɛwɔ per-asɛnnennen replay siw ano + kyɛm ahyɛde |
 | **Akontaabuo pii** | ZIP-32 akontaabu mu nsakrae, akontaabu a wɔde kɔ amannɔne, akontaabu biara mu sika a aka |

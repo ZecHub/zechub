@@ -114,10 +114,10 @@ The Orchard bug belongs to a recurring family, and seeing that family is what ma
 | Kòkòrò (ọdún) | Orísun | Ṣe a le ṣe àwárí rẹ̀? |
 |---|---|---|
 | Àbùkù ìforúkọsílẹ̀ Zerocash (2016, ṣáájú ìfilọ́lẹ̀) | Ìlànà pàtó (haṣi tí a gé kúrú ti fọ́ ohun ìní ìdè kan) | A kò le rí i |
-| Àbùkù ìlera tó ṣeé gbẹ́kẹ̀lé (2018) | Ìlànà pàtó (àṣìṣe nínú ìwé zk-SNARK tó wà lábẹ́ rẹ̀) | A kò le rí i |
+| Àbùkù ìlera tí a gbé kalẹ̀ tí a gbé kalẹ̀ (2018) | Ìlànà pàtó (àṣìṣe nínú ìwé zk-SNARK tó wà lábẹ́ rẹ̀) | A kò le rí i |
 | Ìkọlù ìbéèrè ètò ìṣàfihàn (2025) | Ìlànà ìṣàyẹ̀wò (àyẹ̀wò tí kò sí nínú ètò ìdánilójú) | A le ṣawari |
 | Àṣìṣe ìfọwọ́sowọ́pọ̀ ẹgbẹ́ kékeré (2016) | Ìmúṣe (àyẹ̀wò ẹgbẹ́ kékeré tí ó sọnù) | A le ṣawari |
-| **Orchard (2026)** | **Àlàyé pàtó (ìpínkiri náà)** | **A ko le ri** |
+| **Orchard under-constrained multiplication (2026)** | **Àlàyé pàtó (ìpínkiri náà)** | **A ko le ri** |
 
 Àlàfo tí ó lè fara pamọ títí ayé ni àwọn tó wà nínú ìṣirò. Ìyẹn gan-an ni ẹ̀ka ti ìdánilójú ìsọfúnni tí a ṣayẹwo nípa ẹrọ le yọ, gbogbo ọ̀ràn lẹ́ẹ̀kan náà. Ṣíṣe àyẹwò àti ṣíṣe ayẹwo àpẹẹrẹ; wípé fífi ìdíwárí ṣe àkójọpọ̀ ohun wọ̀nńnì kan ṣoṣo ló kún inú àkọsílẹ̀.
 

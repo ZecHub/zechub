@@ -21,7 +21,7 @@ Lee ụfọdụ n'ime ndị na-arụsi ọrụ ike:
 | Sqribbles                  | Ọdịnaya Zcash nke obodo na-emepụta ihe na nke okike              | [Gaa leta ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Ihe odide teknụzụ sitere n'aka onye mmepe Zcash isi             | [Gaa leta ->](https://words.str4d.xyz/) |
 | CipherScan kwa izu          | Ọkwa blọgụ kwa izu na-ekpuchi nyocha Zcash blockchain    | [Gaa leta ->](https://cipherscan.app/) |
-| Akụkọ Zcash Ekpuchiri        | Akụkọ nzuzo na gburugburu ebe obibi kwa izu                 | [Gaa leta ->](https://zechub.substack.com/) |
+| Akụkọ Zcash Ekpuchiri        | Nchịkọta akụkọ nzuzo na gburugburu ebe obibi kwa izu                 | [Gaa leta ->](https://zechub.substack.com/) |
 | Blọọgụ ZecHub DAO            | Edemede na ihe mmụta sitere na obodo ZecHub DAO | [Gaa leta ->](https://zechub.wiki) |
 
 ---

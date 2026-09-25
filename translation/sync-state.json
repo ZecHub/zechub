@@ -6363,7 +6363,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate+handfix",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {
@@ -24215,7 +24215,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+handfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -28413,7 +28413,7 @@
       "src_commit": "d7a1e6c69d92b9953cb92fd433faac01fe0204d1",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild+handfix",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {

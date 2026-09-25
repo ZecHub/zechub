@@ -135,7 +135,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `spends` | Akontaabu no ankasa hyɛ no nsow sɛ saa asɛm yi awie |
 | `outputs` | Nea asɛm no de kɔmaa: biribiara a ɛda adi pefee, ne sikatua a wɔabɔ ho ban a wɔde kɔ address afoforo a wɔn memos ka ho |
 | `pool` | 0 a ɛda adi, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope` | 0 abɔnten (atua a wotua wɔ), 1 mu (nsesa) |
+| `scope` | 0 abɔnten (a sikatua wɔ), 1 mu (nsesa) |
 
 Zkool app no nso wɔ Export Transactions, Memos ne Notes a ɛwɔ account menu mu, nanso saa nneɛma yi yɛ nkrataa ho ntotosoɔ dudu: sika dodow a w'akyerɛw ato zatoshis so, Unix timestamps, ɛne memo ahorow a ɛda ɔfã foforo bi.
 
