@@ -126,14 +126,14 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ### Nu siwo me woŋlɔ wo ɖo la xexlẽ
 
-| Gbadzaƒe | Gɔmeɖeɖe |
+| Field | Gɔmeɖeɖe |
 |---|---|
 | `value` | Net tɔtrɔ le akɔnta me le ZEC, fe hã le eme. Negative na dɔdɔwo. |
 | `fee` | Fetu le ZEC. Le fe siwo nèxɔ me la, ame si ɖoe ɖa la xee eye mele eme o `value`. |
 | `time` | Xlẽ ɣeyiɣi le UTC me, ɣeyiɣi ƒe didime ƒe dzesi manɔmee |
 | `notes` | Nusi akɔntabubua xɔ le asitsatsa sia me, si me tɔtrɔ hã le. Memo siwo woɖo ɖe wò la le afisia. Adrɛs aɖeke mele nya siwo woŋlɔna le gaglãgbe la ŋu o. |
 | `spends` | Akɔntabubua ŋutɔ de dzesii be asitsatsa sia wu enu |
-| `outputs` | Nusi asitsatsa la ɖo ɖa: nusianu si woɖe ɖe go le gaglãgbe, tsɔ kpe ɖe fexexe si wokpɔ ta na adrɛs bubuwo kple woƒe nuŋlɔɖiwo ŋu |
+| `outputs` | Nusi asitsatsa la ɖo ɖa: nusianu si woɖe ɖe go le gaglãgbe, tsɔ kpe ɖe fexexe siwo wokpɔ ta na adrɛs bubuwo kple woƒe nuŋlɔɖiwo ŋu |
 | `pool` | 0 si me kɔ, 1 Sapling, 2 Orchard, 3 Ironwood |
 | `scope` | 0 gotagome (fexexe aɖe le), 1 ememe (trɔtrɔ) |
 
@@ -205,8 +205,8 @@ dzigbɔɖi ƒe nuwɔnaa me. [nye kpeɖeŋutɔ](https://github.com/dismad/zingoHe
 | ZODL | Adzɔxexe ƒe CSV kple ŋkekewo, ga homewo, fewo kple tag. Ɣletigbalẽ ƒe si va yi ɖeɖeko, skips shielding transactions, txid, memo alo adrɛs aɖeke meli o. |
 | Zkool dɔwɔnu | Raw table exports tso akɔntabubu ƒe nyawo me |
 | [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Imports a UFVK kple `importvk`. `listreceived` over RPC returns xɔ nuŋlɔɖi siwo me txid kple memo le, gake womeɖoe ɖa o eye womexe fe aɖeke o. |
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` nye nyatakaka tsitotsito gake wode dzesii be dodokpɔ, eye Sapling ƒe nukpɔkpɔ safuiwo koe Zallet tsɔna tsoa duta, ke menye UFVKwo o |
-| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Imports a UFVK kple `wallet init-fvk`, ɣe ma ɣi `wallet list-tx`. Eƒe CSV mode la mekpɔ txid alo adrɛs o, eye dɔa gblɔ be yemazãe le ewɔwɔ me o. |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` la tsitotsito gake wode dzesii be enye dodokpɔ, eye Sapling ƒe nukpɔkpɔ safuiwo koe Zallet tsɔna tsoa duta vɛ, ke menye UFVKwo o |
+| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Imports a UFVK kple `wallet init-fvk`, ɣe ma ɣi `wallet list-tx`. Eƒe CSV nɔnɔme me txid alo adrɛs aɖeke mele esi o, eye dɔa gblɔ be yemazãe le ewɔwɔ me o. |
 
 ## Nu Siwo Do Ka Kple Wo Nɔewo
 

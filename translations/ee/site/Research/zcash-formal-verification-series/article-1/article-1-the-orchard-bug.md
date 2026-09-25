@@ -159,7 +159,7 @@ Míeɖe nu me le susu nyui aɖe ta. Nuƒomɔ ŋutɔŋutɔ la lɔ nuto alafa geɖ
 
 | Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
 |---|---|
-| **Ta si ŋu wokpɔ akpoxɔnu le** | Zcash ƒe private mode si me woɣla ga homewo kple akpawo le |
+| **Ta si wotsɔ akpoxɔnu wɔe** | Zcash ƒe private mode si me woɣla ga homewo kple akpawo le |
 | **Sidzedze zero ƒe kpeɖodzi** | Kpeɖodzi si fia be nya ɣaɣla aɖe sɔ, si meɖea nu bubu aɖeke fiana o |
 | **Nutome nutome** | Akɔntabubu ƒe nɔnɔme siwo woɖo ɖi si dzi wòle be asitsatsa si sɔ nawɔ ɖo |
 | **Mɔxexeɖenu** | Nɔnɔme ɖeka (equation) le nutome suea me |

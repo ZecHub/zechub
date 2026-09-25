@@ -109,8 +109,8 @@ Kwa hiyo miundo miwili ya umma ina jukumu la ziada, na kuwaweka kando ni nini ha
 
 | Muundo | Swali linajibu | Ilisasishwa wakati |
 |---|---|---|
-| **Mti wa ahadi ya kumbuka** | "Je, noti hii ipo?" | Dokezo limeundwa **** (ahadi imeambatishwa) |
-| **Seti ya vifutaji** | "Je, noti hii tayari imetumika?" | Ujumbe umetumika **** (kifutaji kimechapishwa) |
+| **Mti wa ahadi ya kumbuka** | "Je, noti hii ipo?" | Dokezo **limeundwa** (ahadi imeambatishwa) |
+| **Seti ya vifutaji** | "Je, noti hii tayari imetumika?" | Ujumbe **umetumika** (kifutaji kimechapishwa) |
 
 ---
 

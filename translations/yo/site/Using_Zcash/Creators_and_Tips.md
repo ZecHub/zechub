@@ -44,7 +44,7 @@
 | Máàpù Ipò       | Wa awọn olumulo Zcash nitosi |
 | Àwọn Àlàyé Pẹpẹ| Wo awọn wiwọn idagbasoke |
 | Àwọn ìdìbò agbègbè    | Dibo lori awọn koko-ọrọ eto-ẹkọ ayika |
-| Àwọn Ìròyìn àti Àwọn Ìkéde | Àwọn àtúnṣe tó wà lábẹ́ àṣẹ |
+| Àwọn Ìròyìn àti Àwọn Ìkéde | Àwọn àtúnṣe tó jẹ́ ti ìjọba |
 | Àpérò              | Ìjíròrò àwùjọ |
 | Ohun èlò alágbèéká         | Ìrírí fóònù alágbéka ni kikun |
 

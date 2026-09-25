@@ -55,14 +55,14 @@ Watumiaji wapya mara nyingi kujifunza jinsi ya kununua na kuhifadhi ZEC kabla wa
 
 Kama biashara inakubali ZEC na bado si juu ya ZecMap, yoyote jamii mwanachama anaweza kuwasilisha. uwasilishaji mzuri ni pamoja:
 
-| Uwanja | Nini cha kutoa |
+| Field | Nini cha kutoa |
 |-------|----------------|
-| Jina la biashara | Jina rasmi kama linavyoonekana hadharani |
-| Tovuti au mawasiliano | URL au wasifu wa kijamii |
-| Mahali | Anwani ya biashara halisi; eneo la mtandaoni |
-| Kategoria | Kafe, mgahawa, duka, huduma, duka la mtandaoni, n.k. |
-| Ushahidi | Ukurasa wa malipo ya umma, tangazo la mfanyabiashara, au uthibitisho wa moja kwa moja |
-| Maelezo ya malipo | Ana kwa ana, mtandaoni, au vyote viwili; ZEC iliyo wazi au iliyolindwa |
+| Business name | Jina rasmi kama linavyoonekana hadharani |
+| Website or contact | URL au wasifu wa kijamii |
+| Location | Anwani ya biashara halisi; eneo la mtandaoni |
+| Category | Kafe, mgahawa, duka, huduma, duka la mtandaoni, n.k. |
+| Evidence | Ukurasa wa malipo ya umma, tangazo la mfanyabiashara, au uthibitisho wa moja kwa moja |
+| Payment notes | Ana kwa ana, mtandaoni, au vyote viwili; ZEC iliyo wazi au iliyolindwa |
 
 Mawasilisho wanapaswa kuepuka data binafsi ya wateja. Kama kutumia uthibitisho wa shughuli, kuondoa maelezo ya kibinafsi, namba ili na anwani za nyumbani kabla ya kushirikiana.
 

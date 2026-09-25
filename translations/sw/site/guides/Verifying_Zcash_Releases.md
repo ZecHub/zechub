@@ -174,15 +174,15 @@ X509v3 Subject Alternative Name: critical
 
 Subject jina mbadala ni utambulisho. Inaita hazina, faili halisi ya mtiririko wa kazi na tag. Sigstore inajumuisha zaidi kujenga metadata katika upanuzi desturi:
 
-| Uwanja | Thamani ya v6.3.0 |
+| Field | Thamani ya v6.3.0 |
 |---|---|
-| mtoaji wa OIDC | `https://token.actions.githubusercontent.com` |
-| Hifadhi chanzo | `https://github.com/ZcashFoundation/zebra` |
-| Jenga ahadi | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
-| Rejea | `refs/tags/v6.3.0` |
-| Mazingira ya mkimbiaji | `github-hosted` |
-| Mtiririko wa kazi | `.../actions/runs/31424510487/attempts/1` |
-| Mwonekano wa hifadhi | `public` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| Ref | `refs/tags/v6.3.0` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Kila moja ya haya ni checkable. commit hash lazima mechi tag katika hazina; kazi mtiririko kukimbia lazima kuwepo na kuwa umma.
 
@@ -217,11 +217,11 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 kifungu hubeba Rekor kuingia kuthibitisha saini ilichapishwa kwa umma, kiambatisho tu logi:
 
-| Uwanja | Thamani |
+| Field | Thamani |
 |---|---|
-| Faharasa ya kumbukumbu ya Rekor | `2412071838` |
-| Aina ya kuingia | `hashedrekord v0.0.1` |
-| Imeunganishwa katika | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 Hii ni nini hufanya kimya muhimu matumizi mabaya detectable. saini kwamba kamwe alionekana katika kumbukumbu, au ilionekana wakati implausible, ni ishara ya thamani kutenda juu ya. kulinganisha muda wa ushirikiano dhidi kutolewa tangazo.
 
@@ -425,12 +425,12 @@ Kushindwa kwa saini ni mbaya zaidi kuliko kushindwa kwa checksum. Ukosefu wa usa
 
 ## Sehemu ya 4  Jedwali la kumbukumbu
 
-| Mradi | Matoleo yaliyochapishwa katika | Mbinu | Ufunguo unatoka wapi |
+| Mradi | Matoleo yaliyochapishwa katika | Method | Ufunguo unatoka wapi |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Kifurushi cha Sigstore | Hakuna ufunguo — utambulisho wa CI kupitia GitHub OIDC |
-| **Zallet** | `github.com/zcash/zallet/releases` | GPG Iliyotengwa `.asc`, Asili ya SLSA, SBOM | `apt.z.cash/zodl.asc` — msingi `0338 34DD…58E2 6AB1`, ufunguo mdogo wa kusaini `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Hakuna ufunguo — utambulisho wa CI kupitia GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — msingi `0338 34DD…58E2 6AB1`, ufunguo mdogo wa kusaini `1FE9 9324…23F0 617F` |
 | **zcashd** | *mstaafu* | — | Imesimamishwa kwenye kitalu namba 3,417,100 mnamo 2026-07-18. Usisakinishe. |
-| **Zodl** (zamani Zashi) | Duka la Programu / Google Play; `zodl-inc` kwenye GitHub | Usajili wa duka; jozi za Android zinazojitegemea zimesainiwa na GPG | Taarifa ya ufunguo wa ZODL kwa kila mpito |
+| **Zodl** (zamani Zashi) | Duka la Programu / Google Play; `zodl-inc` kwenye GitHub | Store signing; standalone Android binaries GPG-signed | Taarifa ya ufunguo wa ZODL kwa kila mpito |
 
 > ** Nukuu ya jina: Zashi ilibadilishwa kuwa *Zodl** mnamo 2026  kwanza kwenye Duka la App, kisha kwenye Google Play. Miongozo ya zamani inayotaja "Zashi" inaelezea nasaba sawa ya mkoba.
 

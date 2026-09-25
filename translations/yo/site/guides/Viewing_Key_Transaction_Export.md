@@ -126,7 +126,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ### Kíkà ìjáde náà
 
-| Pápá | Ìtumọ̀ |
+| Field | Ìtumọ̀ |
 |---|---|
 | `value` | Àyípadà gbogbo sí àkọọ́lẹ̀ náà ní ZEC, owó náà sì wà nínú rẹ̀. Òdì fún ìfiránṣẹ́. |
 | `fee` | Owo ni ZEC. Lori awọn sisanwo ti o gba, olufiranṣẹ naa sanwo rẹ ati pe ko si ninu `value`. |

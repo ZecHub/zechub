@@ -14,7 +14,7 @@
 
 ## Numeɖeɖe Vevitɔ
 
-Zingo 2.0 nye Zingo! gakotoku, gakotoku si le bɔbɔe, si woate ŋu aʋu na Zcash nutoa me tɔwo. Ɣletivi si woɖe ɖe go siae nye Pepper Sync, si nye tɔtrɔ gã aɖe si gbugbɔ bu alesi gakotokuwo do ƒome kple blockchain la ŋu keŋkeŋ.
+Zingo 2.0 nye Zingo! gakotoku, gakotoku si le bɔbɔe, si woate ŋu aʋu na Zcash nutoa me tɔwo. Ɣletivi si woɖe ɖe go siae nye Pepper Sync, si nye tɔtrɔ gã aɖe si gbugbɔ bu alesi gakotokuwo doa ka kple blockchain la ŋu keŋkeŋ.
 
 Tsã la, nuwɔwɔ ɖekae ate ŋu ase le eɖokui me be ele blewu vevesesetɔe, vodadawo ate ŋu adzɔ, eye nunɔamesiwo sɔ gbɔ, eye ɣeaɖewoɣi la, zinɛ ɖe ezãlawo dzi be woagadze egɔme tso gɔmedzedzea me ke. Pepper Sync trɔa nu mawo katã. Enaa nuwɔwɔ ɖekae kabakaba, wònɔa bɔbɔe, kakaɖedzi nɔa eŋu, eye mebiaa nu geɖe tso wò mɔ̃a dzi o, evɔ wòkpɔa asitsatsa siwo ŋu wokpɔ ta na ƒe adzamenyawo ta bliboe.
 

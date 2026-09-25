@@ -24,7 +24,7 @@ Kuna zaidi ya aina moja ya ufunguo, na tofauti huamua ni kiasi gani utatoa.
 |---|---|---|
 | Kitufe cha kutazama kilichounganishwa kikamilifu (UFVK) | `uview…` | Huona miamala inayoingia na inayotoka kwa kila kundi kwenye akaunti |
 | Kitufe cha kutazama kinachoingia kilichounganishwa (UIVK) | `uivk…` | Huona miamala inayoingia pekee, kwa kila kundi kwenye akaunti |
-| full viewing key uliopanuliwa Sapling | `zxviews…` | Huona shughuli za Sapling inayoingia na inayotoka kwa anwani za ufunguo |
+| Sapling extended full viewing key | `zxviews…` | Huona shughuli za Sapling inayoingia na inayotoka kwa anwani za ufunguo |
 
 Hakuna hata moja kati ya hizi linaloweza kutumia. Zote ni za kudumu kwa jinsi ilivyo muhimu: ufunguo uliotoa hauwezi kurejeshwa, bali kuishi muda mrefu zaidi, kwa kuhamisha fedha kwenye akaunti ambayo mhusika mwingine hana funguo zake.
 

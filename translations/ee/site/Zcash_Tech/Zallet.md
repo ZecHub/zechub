@@ -186,7 +186,7 @@ Dɔwɔla ƒe nuŋlɔɖi siwo me nyawo le: [Mɔfiala: zcashd to Zebrad/Zallet](/g
 |--|--------|------|------------------------|----------------|-------|
 | Nusi wònye | RPC gakotoku si me node blibo le | Shielded-gbãtɔ gakotoku ƒe dɔwɔƒe | Gakotoku siwo wozãna mlɔeba | Nusiwo dzi woda asi ɖo ƒe node | Indexer / lightwalletd ƒe tɔtrɔ |
 | Exɔ ɖe eteƒe | `zcashd` gakotoku | Menye drop-in ye o `zcashd` clone ƒe nɔnɔmetata | Asitelefon/kplɔ̃ dzi dɔwɔɖoɖowo | `zcashd` node ƒe ƒuƒoƒo | `lightwalletd` |
-| Hiã na nutoa me node | Yes | Ẽ (Zebra le gɔmedzedzea me) | Ao (kekeli ƒe asisi) | *Enye* node la | Yes |
+| Hiã na nutoa me node | Ɛ̃ | Ẽ (Zebra le gɔmedzedzea me) | Ao (kekeli ƒe asisi) | *Enye* node la | Ɛ̃ |
 | zcashd RPC ƒe kpeɖeŋutɔ | Wotrɔ asi le eŋu abe compat mɔ ene | Subset sue si wotia ɖeɖeko | N/A | Akpa / Zakura compat nɔnɔme | API vovovowo |
 | Vidzikpɔkpɔ ƒe kpɔɖeŋu | Dɔwɔla léa safuiwo ɖe eme `wallet.db` | Seed-recoverable server si woate ŋu axɔ | Zãla ƒe mɔ̃a ƒe safuiwo | Gakotoku aɖeke meli o | Safui aɖeke meli o |
 

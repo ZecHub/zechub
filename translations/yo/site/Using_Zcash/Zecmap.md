@@ -55,14 +55,14 @@ ZecMap ṣe àkójọ àwọn ilé-iṣẹ́ orí ayélujára pẹ̀lú. Ṣàw�
 
 Bí iléeṣẹ́ kan bá gbà láti gba ZEC tí kò sì sí lórí ZecMap, ẹnikẹ́ni nínú àwùjọ lè fi ránṣẹ́. Ìránṣẹ̀ tó dára ní:
 
-| Pápá | Kini lati pese |
+| Field | Kini lati pese |
 |-------|----------------|
-| Orúkọ ilé-iṣẹ́ | Orúkọ ìjọba gẹ́gẹ́ bí ó ṣe hàn gbangba |
-| Oju opo wẹẹbu tabi olubasọrọ | URL tàbí ìwífún àwùjọ |
-| Ibi tí a wà | Àdírẹ́sì fún àwọn iṣẹ́ ti ara; agbègbè fún orí ayélujára |
-| Ẹ̀ka | Kafe, ile ounjẹ, ile itaja, iṣẹ, ile itaja ori ayelujara, ati bẹbẹ lọ. |
-| Ẹ̀rí | Ojú ìwé ìsanwó gbogbogbò, ìkéde oníṣòwò, tàbí ìjẹ́rìí tààrà |
-| Àwọn àkọsílẹ̀ ìsanwó | Lójúkojú, lórí ayélujára, tàbí méjèèjì; ZEC tí ó ṣe kedere tàbí tí a dáàbò bò |
+| Business name | Orúkọ ìjọba gẹ́gẹ́ bí ó ṣe hàn gbangba |
+| Website or contact | URL tàbí ìwífún àwùjọ |
+| Location | Àdírẹ́sì fún àwọn iṣẹ́ ti ara; agbègbè fún orí ayélujára |
+| Category | Kafe, ile ounjẹ, ile itaja, iṣẹ, ile itaja ori ayelujara, ati bẹbẹ lọ. |
+| Evidence | Ojú ìwé ìsanwó gbogbogbò, ìkéde oníṣòwò, tàbí ìjẹ́rìí tààrà |
+| Payment notes | Lójúkojú, lórí ayélujára, tàbí méjèèjì; ZEC tí ó ṣe kedere tàbí tí a dáàbò bò |
 
 Àwọn ìfilọ́lẹ̀ kò gbọdọ ní àwọn àlàyé nípa oníbàárà. Bí o bá lo ẹrí ìṣòwò, yọ gbogbo àlàyé ara ẹni kúrò, nóńbà àṣẹ àti àdírésì ilé kí ó tó pínpín wọn.
 

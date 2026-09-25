@@ -174,15 +174,15 @@ X509v3 Subject Alternative Name: critical
 
 Aha ọzọ nke isiokwu bụ njirimara. Ọ na-akpọ aha nchekwa, faịlụ ọrụ kpọmkwem, yana mkpado ahụ. Sigstore agbakwunye mgbakwunye metadata ndị ọzọ n'ime ndọtị omenala:
 
-| Ubi | Uru maka v6.3.0 |
+| Field | Uru maka v6.3.0 |
 |---|---|
-| Onye na-ewepụta OIDC | `https://token.actions.githubusercontent.com` |
-| Ebe nchekwa isi mmalite | `https://github.com/ZcashFoundation/zebra` |
-| Wulite nkwa | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
-| Ntụaka | `refs/tags/v6.3.0` |
-| Gburugburu ebe ndị na-agba ọsọ | `github-hosted` |
-| Usoro ọrụ na-agba ọsọ | `.../actions/runs/31424510487/attempts/1` |
-| Visibiliti ebe nchekwa ihe | `public` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| Ref | `refs/tags/v6.3.0` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Onye ọ bụla n'ime ndị a nwere ike ịlele. hash ahụ kwesịrị ikwekọ na mkpado dị na ebe nchekwa; usoro ọrụ ga-adị adị ma bụrụ ọha mmadụ.
 
@@ -217,11 +217,11 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 Ngwongwo ahụ nwere ndekọ Rekor na-egosi mbinye aka a bipụtara ya n'akwụkwọ ọha, tinye naanị log:
 
-| Ubi | Uru |
+| Field | Uru |
 |---|---|
-| Ndepụta ndekọ Rekor | `2412071838` |
-| Ụdị ntinye | `hashedrekord v0.0.1` |
-| Ejikọtara na | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 Nke a bụ ihe na-eme ka igodo dị jụụ jiri mee ihe n'ụzọ ziri ezi. Nkwekọrịta nke ahụ apụtaghị na ndekọ, ma ọ bụ pụtara na oge adịghị mma, bụ akara bara uru ime ihe. Tụlee oge mwekota megide ọkwa ntọhapụ.
 
@@ -425,12 +425,12 @@ Otu byte agbakwunyere na faịlụ 66,992,676-byte. Ihe abụọ ahụ enweghị
 
 ## Akụkụ 4  Tebụl ntụaka
 
-| ọrụ | Mbipụta ndị e bipụtara na | Ụzọ | Ebe igodo ahụ si abịa |
+| ọrụ | Mbipụta ndị e bipụtara na | Method | Ebe igodo ahụ si abịa |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Ngwugwu Ụlọ Ahịa Sigstore | Enweghị igodo — njirimara CI site na GitHub OIDC |
-| **Zallet** | `github.com/zcash/zallet/releases` | GPG kewapụrụ iche `.asc`, SLSA sitere na ya, SBOM | `apt.z.cash/zodl.asc` - isi `0338 34DD…58E2 6AB1`, mbinye aka subkey `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Enweghị igodo — njirimara CI site na GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` - isi `0338 34DD…58E2 6AB1`, mbinye aka subkey `1FE9 9324…23F0 617F` |
 | **zcashd** | *ezumike nká* | — | Akwụsịla na blọk 3,417,100 na 2026-07-18. Etinyela ya. |
-| **Zodl** (onye bụbu Zashi) | Ụlọ Ahịa Ngwa / Google Play; `zodl-inc` na GitHub | Mbinye aka n'ụlọ ahịa; ụdị abụọ Android nke GPG bịanyere aka na ya | Igodo ZODL kwa nkwupụta mgbanwe ọ bụla |
+| **Zodl** (onye bụbu Zashi) | Ụlọ Ahịa Ngwa / Google Play; `zodl-inc` na GitHub | Store signing; standalone Android binaries GPG-signed | Igodo ZODL kwa nkwupụta mgbanwe ọ bụla |
 
 > **Naming note:** Zashi was rebranded to **Zodl** in 2026 — first on the App Store, then on Google Play. Older guides referring to "Zashi" describe the same wallet lineage.
 

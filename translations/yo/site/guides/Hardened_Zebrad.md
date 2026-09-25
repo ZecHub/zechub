@@ -116,7 +116,7 @@ sudo systemctl daemon-reload
 |-------------------------|----------------------------------------------|-------|
 | **Bẹ̀rẹ̀**               | `sudo systemctl start zebrad`                | Àṣẹ kan |
 | **Duro**                | `sudo systemctl stop zebrad`                 | Àṣẹ kan |
-| **Ipo**              | `sudo systemctl status zebrad`               | Ó máa ń fi hàn bí ó bá ń ṣiṣẹ́ |
+| **Ipo**              | `sudo systemctl status zebrad`               | Ó ń fi hàn bí ó bá ń ṣiṣẹ́ |
 | **Àwọn àkọsílẹ̀ láàyè**           | `journalctl -u zebrad -f -o short-precise`  | Rọpo `screen -r` |
 | **Gba kúkì RPC**      | `sudo cat /var/lib/zebrad/.cookie`           | Nígbà tí a bá ń ṣiṣẹ́ nìkan |
 

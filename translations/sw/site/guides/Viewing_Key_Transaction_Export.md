@@ -126,7 +126,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ### Kusoma pato
 
-| Uwanja | Maana |
+| Field | Maana |
 |---|---|
 | `value` | Mabadiliko halisi kwenye akaunti katika ZEC, ada imejumuishwa. Hasi kwa utumaji. |
 | `fee` | Ada katika ZEC. Kwa malipo uliyopokea, mtumaji alilipa na hayapo `value`. |

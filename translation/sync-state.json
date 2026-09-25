@@ -23023,7 +23023,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+image-restore+table-rebuild",
+      "tool": "nllb-200-3.3B+image-restore+table-rebuild+handfix",
       "edited": false
     },
     "Research/zcash-foundations-series/article-5/article-5-zero-knowledge-proofs.md": {
@@ -23287,7 +23287,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B+table-rebuild+handfix",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {

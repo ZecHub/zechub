@@ -174,15 +174,15 @@ X509v3 Subject Alternative Name: critical
 
 Subject Alternative Name no yɛ ne din. Ɛkyerɛ bea a wɔde nneɛma sie, adwuma fael pɔtee, ɛne tag no. Sigstore de metadata foforo hyɛ custom extensions mu:
 
-| Prama | Botae a ɛwɔ v6.3.0 |
+| Field | Botae a ɛwɔ v6.3.0 |
 |---|---|
-| OIDC a ɔde mae | `https://token.actions.githubusercontent.com` |
-| Source akoraeɛ | `https://github.com/ZcashFoundation/zebra` |
-| Si commit si hɔ | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| Mmirikatufo tebea | `github-hosted` |
-| Adwumayɛ nhyehyɛe mmirikatu | `.../actions/runs/31424510487/attempts/1` |
-| Nneɛma a wɔkora so a wotumi hu | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Eyinom mu biara betumi asesa. Ɛsɛ sɛ hash a wɔde hyɛ adwuma ase no ne nea ɛwɔ akoraeɛ hɔ hyia; ɛsɛ sɛ dwumadi kwan no wɔ hɔ na ɛyɛ baguam de.
 
@@ -217,11 +217,11 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 Nkrataa a ɛwɔ nkrataa mu no kyerɛ sɛ wɔatintim nsaano nkyerɛwee no adi kan, na wɔde ato hɔ ama ɔmanfo:
 
-| Prama | Boɔ |
+| Field | Boɔ |
 |---|---|
-| Kyerɛw log index no ho kyerɛwtohɔ | `2412071838` |
+| Rekor log index | `2412071838` |
 | Entry type | `hashedrekord v0.0.1` |
-| Wɔaka abom wɔ | 2026-08-10 19:43:09 UTC |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 Eyi na ɛma silent key atwitwa a wɔtumi hu no. Nsaano nkyerɛwee bi a amma da, anaa ɛbaa bere a ɛnyɛ papa mu yɛ nsɛnkyerɛne a ɛsɛ sɛ yɛyɛ ho biribi. Fa faako berɛ ne deɛ wɔde rebɛyi afiri hɔ asɛm toto ho.
 
@@ -425,12 +425,12 @@ Nsaano nkyerɛwee a enni mu yɛ aniberesɛm sen nea ɛwɔ checksum. A-nso-mu no 
 
 ## Ɔfã 4  Twerԑtohɔ krataa
 
-| Dwumadie | Nsɛm a wɔayi no adi a wotintimii wɔ | Ɔkwan | Baabi a safe no fi |
+| Dwumadie | Nsɛm a wɔayi no adi a wotintimii wɔ | Method | Baabi a safe no fi |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore a wɔde ahyɛ mu | Safoa biara nni hɔ — CI nipasu denam GitHub OIDC so |
-| **Zallet** | `github.com/zcash/zallet/releases` | GPG a wɔayi afi mu `.asc`, SLSA a efi mu ba, SBOM | `apt.z.cash/zodl.asc` - mfiaseɛ `0338 34DD…58E2 6AB1`, nsaano nkyerɛwee subkey `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Safoa biara nni hɔ — CI nipasu denam GitHub OIDC so |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` - mfiaseɛ `0338 34DD…58E2 6AB1`, nsaano nkyerɛwee subkey `1FE9 9324…23F0 617F` |
 | **zcashd** | *akɔ ahomegyeɛ mu* | — | Wogyinaa block 3,417,100 wɔ 2026-07-18. Mfa nhyɛ mu. |
-| **Zodl** (kan no na wɔfrɛ no Zashi) | App Store / Google Play a wɔde di dwuma; `zodl-inc` wɔ GitHub | Store a wɔde wɔn nsa hyɛ ase; standalone Android binaries GPG-a wɔde wɔn nsa ahyɛ ase | ZODL safoa biara nsakrae asɛm |
+| **Zodl** (kan no na wɔfrɛ no Zashi) | App Store / Google Play a wɔde di dwuma; `zodl-inc` wɔ GitHub | Store signing; standalone Android binaries GPG-signed | ZODL safoa biara nsakrae asɛm |
 
 > **Nom a wɔde to:** Zashi no san too din foforo maa no sɛ *Zodl* wɔ 2026  kan App Store, afei Google Play. Akwankyerɛfoɔ dada bi a wɔnim "Zashi" kyerɛ sika kotoku koro yi ara ase.
 

@@ -126,7 +126,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ### Akenkan a efi mu ba no
 
-| Prama | Kyerɛ |
+| Field | Kyerɛ |
 |---|---|
 | `value` | Net nsakraeɛ wɔ akontaabuo a ɛwɔ ZEC, fee ka ho. Negative ma wɔde mena. |
 | `fee` | Fee wɔ ZEC. Wɔ payments a wo nsa kaa so no, nea ɔde kɔmaa no no tuaa na ɛnyɛ mu `value`. |
@@ -135,7 +135,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `spends` | Akontaabu no ankasa hyɛ no nsow sɛ saa asɛm yi awie |
 | `outputs` | Nea asɛm no de kɔmaa: biribiara a ɛda adi pefee, ne sikatua a wɔabɔ ho ban a wɔde kɔ address afoforo a wɔn memos ka ho |
 | `pool` | 0 a ɛda adi, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope` | 0 abɔnten (a sikatua wɔ), 1 mu (nsesa) |
+| `scope` | 0 abɔnten (atua a wotua wɔ), 1 mu (nsesa) |
 
 Zkool app no nso wɔ Export Transactions, Memos ne Notes a ɛwɔ account menu mu, nanso saa nneɛma yi yɛ nkrataa ho ntotosoɔ dudu: sika dodow a w'akyerɛw ato zatoshis so, Unix timestamps, ɛne memo ahorow a ɛda ɔfã foforo bi.
 
@@ -204,7 +204,7 @@ Nneɛma kakra bi a ɛsɛ sɛ wuhu fa nea ɛfi mu ba ho:
 |---|---|
 | ZODL | Tow CSV a ɛwɔ nna, sika dodow, sika a wɔbɔ ne tag. Kalenda afe a atwam nkutoo, skips shielding transactions, txid, memo anaa address biara nni hɔ. |
 | Zkool app a wɔde di dwuma | Raw table exports fi akontaabu menu no mu |
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Imports a UFVK ne `importvk`. `listreceived` over RPC sanba no nsa kaa nsɛm a wɔakyerɛw a txid ne memo wom, nanso wɔmfa nkɔma na wontua hwee. |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Imports a UFVK ne `importvk`. `listreceived` wɔ RPC sanba so nsa kaa nsɛm a wɔakyerɛw a txid ne memo wom, nanso wɔmfa nkɔma na wontua hwee. |
 | [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` yɛ nsɛm a ɛkɔ akyiri nanso wɔahyɛ no agyirae sɛ ɛyɛ sɔhwɛ, na Zallet de Sapling viewing keys nkutoo na ɛba, ɛnyɛ UFVKs |
 | [zcash-devtool](https://github.com/zcash/zcash-devtool) | Imports a UFVK ne `wallet init-fvk`, enneɛ `wallet list-tx`. Ne CSV mode no nni txid anaa address biara, na adwuma no ka sɛ ɛnsɛ sɛ wɔde di dwuma wɔ production mu. |
 

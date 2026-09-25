@@ -18,7 +18,7 @@ Emu bi a ɛreyɛ adwuma no ni:
 | ZecMec                     | Nsɛm Zcash-focused wɔ Medium so                         | [Nsrahwɛ ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter na ɔkyerɛwee             | Nsɛm a emu dɔ ne nsɛmma nhoma                         | [Nsrahwɛ ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV) na ɔde ne nsa kyerɛɛ ne so     | Nsɛmbisa a ɛkorɔn ne emu nsɛm a ɛfa kokoam nsɛm ho           | [Nsrahwɛ ->](https://naomibrockwell.com/highprofileinterviews) |
-| Sqribbles a wɔde kyerɛw nsɛm                  | Adebɔ ne mpɔtam hɔfo a wɔyɛ Zcash nsɛm              | [Nsrahwɛ ->](https://free2z.cash/sqribbles) |
+| Sqribbles a wɔde kyerɛw nsɛm                  | Adebɔ ne mpɔtam hɔfo a wɔde Zcash nneɛma di dwuma              | [Nsrahwɛ ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Mfiridwuma ho nkyerɛwee a efi Zcash core developer hɔ             | [Nsrahwɛ ->](https://words.str4d.xyz/) |
 | CipherScan Nnawɔtwe biara          | Nnawɔtwe biara blog nsɛm a ɛfa Zcash blockchain analytics ho    | [Nsrahwɛ ->](https://cipherscan.app/) |
 | Zcash Shielded Nsɛm ho amanneɛbɔ        | Nnawɔtwe biara kokoam nsɛm ne abɔde a nkwa wom ho amanneɛbɔ digest                 | [Nsrahwɛ ->](https://zechub.substack.com/) |

@@ -46,8 +46,8 @@ Mehiã be Sapling ƒe fexexe ŋuti nyatakaka aɖe naɖe amesi ɖoe ɖa ƒe adrɛ
 | Asitsatsa ƒe ID | Kpɔkpɔ be woɖe asi le asitsatsa aɖe ŋu | Dutoƒo asitsatsa ŋuti nyatakakawo kple kpeɖodzinyawo | Ao | Ẽ, gake fexexe ŋuti nyatakaka siwo wokpɔ ta na la gakpɔtɔ le ɣaɣla |
 | Screenshot alo xɔgbalẽvi | Nuŋlɔɖiwo wɔwɔ le vome | Nuka kee amesi ɖoe ɖa tia be yeaɖe afia | Ao | Ao; woate ŋu atrɔ asi le nɔnɔmetata la ŋu |
 | Fexexe ƒe nyatakakawo ɖeɖefia | Fexexe ɖeka ŋuti nyatakaka tiatia aɖewo ƒe kpeɖodzinana | Asitsatsa ƒe emetsonu tiatia kple amedɔdɔ ɖesiaɖe si le eme alo gbetɔame ƒe kpeɖodzi | Ao, gake woate ŋu awɔ kpeɖodzi si woama la ƒe kɔpi | Ẽ |
-| Incoming Viewing Key | Lé ŋku ɖe fe siwo akɔntabubu aɖe xɔ ŋu | Dɔwɔna si gbɔna si ŋu safuia ƒo nu tsoe | Yes | Eɖea ga si woxena ɖe eta siwo sɔ la me |
-| Full Viewing Key | Akɔntabubu alo akɔntabubu aɖe me dzodzro | Dɔwɔna si va kple esi dona, ga homewo, nuŋlɔɖiwo, kple ga si susɔ si safuia xe | Yes | Eɖea akɔntabubu ƒe dɔwɔna siwo sɔ la me |
+| Incoming Viewing Key | Lé ŋku ɖe fe siwo akɔntabubu aɖe xɔ ŋu | Dɔwɔna si gbɔna si ŋu safuia ƒo nu tsoe | Ɛ̃ | Eɖea ga si woxena ɖe eta siwo sɔ la me |
+| Full Viewing Key | Akɔntabubu alo akɔntabubu aɖe me dzodzro | Dɔwɔna si va kple esi dona, ga homewo, nuŋlɔɖiwo, kple ga si susɔ si safuia xe | Ɛ̃ | Eɖea akɔntabubu ƒe dɔwɔna siwo sɔ la me |
 
 Zã nya suetɔ kekeake si woɖe ɖe go si ɖo nyabiasea ŋu. Zi geɖe la, asitsalawo ƒe nyaʋiʋli le fetu ɖeka ŋu mefia be woate ŋu akpɔ ga ɖesiaɖe si woxe le gakɔnta me o. Akɔntanyala si wòle be wòato akɔntabubu ƒe ɣeyiɣi bliboa me ate ŋu ahiã be wòakpɔ safui ɖe eteƒe.
 

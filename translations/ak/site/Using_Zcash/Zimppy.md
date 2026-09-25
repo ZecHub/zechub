@@ -477,7 +477,7 @@ packages/
 | Su | Nkyerɛmu |
 |---|---|
 | **Nhyiam ahorow** | Deposit pɛnkoro, instant bearer adesrɛ, refund wɔ close |
-| **Nsuo a wɔde fa nsuo mu** | Pay-per-token metered nsɛm a ɛwɔ SSE so |
+| **Abɔnten so** | Pay-per-token metered nsɛm a ɛwɔ SSE so |
 | **Kwaadu** | Akatua a wɔabɔ ho ban anaasɛ ɛda adi pefee wɔ HTTP abisade biara mu (402 flow) |
 | **Akatua a ɛda adi pefee** | T-addresses a ɛwɔ per-asɛnnennen replay siw ano + kyɛm ahyɛde |
 | **Akontaabuo pii** | ZIP-32 akontaabu mu nsakrae, akontaabu a wɔde kɔ amannɔne, akontaabu biara mu sika a aka |

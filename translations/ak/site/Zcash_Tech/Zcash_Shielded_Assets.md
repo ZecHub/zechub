@@ -128,7 +128,7 @@ Saa nsusuwa yi di nhyehyeɛ a wɔadi so no akyi. [Zcash Ntɔsoɔ a wɔhyɛ ho b�
 
 ## Mfomso a Wɔtaa Di
 
-| Gyidi a wɔtaa gye di | Nea ɛte ankasa |
+| Gyidi a wɔtaa nya | Nea ɛte ankasa |
 | --- | --- |
 | "ZSAs no wɔ Zcash so nnɛ." | Wɔnnyɛ saa. Wɔayɛ nhyehyɛe sɛ wɔde ZSA bedi dwuma wɔ Network Upgrade 7 (NU7) mu na wɔda so ara wɔ nhwehwɛmu ne sɔhwɛ mu. |
 | "ZSA de smart contracts brɛ Zcash." | ZSA kyerɛ sɛnea wɔde agyapade bɛma, wɔde bɛma ne sɛnea wɔhyew. Ɛnyɛ apam a wɔde yɛ nhyehyɛe a wɔde di dwuma wɔ ɔkwan a ɛkɔ akyiri so. |

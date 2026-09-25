@@ -126,7 +126,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ### Ịgụpụta ihe ọ na-ewepụ.
 
-| Ubi | Ihe ọ pụtara |
+| Field | Ihe ọ pụtara |
 |---|---|
 | `value` | Mgbanwe zuru oke na akaụntụ dị na ZEC, gụnyere ụgwọ. Ọ dịghị mma maka izipu. |
 | `fee` | Ụgwọ na ZEC. Mgbe ị natara ụgwọ, onye zitere ya kwụrụ ya mana ọ nọghị na ya `value`. |

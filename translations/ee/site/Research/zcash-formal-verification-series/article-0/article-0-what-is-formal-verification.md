@@ -88,7 +88,7 @@ Kpeɖodziwɔwɔ le se nu nye ŋusẽdɔ aɖe, elabena enana míekpɔnɛ be *afi 
 | Nudzodzoe aɖe tsoƒe | Nusi wòfia | Ðe míate ŋu aɖo kpe edzi be wòadzoa? |
 |---|---|---|
 | **Ame ƒe nɔnɔme si wogblɔ** | Akɔntabubu alo seawo ŋutɔ mesɔ o (nɔnɔme si bu, gɔmesese gbegblẽ) | **Ẽ**, tẽ, esia nye formal verification ƒe aƒeme turf |
-| **Dɔwɔwɔa** | Sea do kpo nuteƒewɔwɔ ƒe nɔnɔme si sɔ la wɔwɔ nuteƒewɔwɔtɔe | Eƒe akpa aɖe; zi geɖe la, kpododonu mawo gblẽa kpeɖodzi siwo woate ŋu ade dzesii ɖi |
+| **Dɔwɔwɔa** | Sededea do kpo nudidi si sɔ la wɔwɔ nuteƒewɔwɔtɔe | Eƒe akpa aɖe; zi geɖe la, kpododonu mawo gblẽa kpeɖodzi siwo woate ŋu ade dzesii ɖi |
 | **Nukpɔsusu si gblẽ** | Nane si dzi nuɖoanyi bliboa ɖoa ŋu ɖo la va zua alakpa | Ao; susuwoe nye gɔmeɖoanyi si dzi womate ŋu aɖe akpɔtɔ o |
 
 Nuwo ƒe ɖoɖo sia le vevie wu alesi wòdze, eye akpa 2 kple 3 trɔ ɖe eŋu. Gbegblẽ siwo goglo wu si ate ŋu anɔ ɣaɣla ɖaa la nɔa **fefenu** me: nusi wòle be nuɖoɖoa nawɔe ŋuti akɔntabubuŋutise. Eye fefea nye nusiwo tututu mɔ̃ aɖe kpɔna dzea sii tẽa, nudzɔdzɔawo katã zi ɖeka kolia. Esia tae agbagba ɖesiaɖe si wodze tsɔ lé ŋku ɖe wo dzi gbã ɖo.

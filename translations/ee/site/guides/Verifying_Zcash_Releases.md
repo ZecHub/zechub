@@ -174,15 +174,15 @@ X509v3 Subject Alternative Name: critical
 
 Subject Alternative Name nye ŋkɔ. Eyɔa nuɖanuƒe, dɔwɔmɔnu ƒe nuŋlɔɖi kple dzesi la be Sigstore dea asi bubu me meta datawo ŋu le ɖoɖo bubuwo dzi:
 
-| Gbadzaƒe | Asixɔxɔ na v6.3.0 |
+| Field | Asixɔxɔ na v6.3.0 |
 |---|---|
-| OIDC ƒe nudzɔla | `https://token.actions.githubusercontent.com` |
-| Dzɔtsoƒe ƒe nudzraɖoƒe | `https://github.com/ZcashFoundation/zebra` |
-| Tu commit ɖo | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| Duƒula ƒe nɔnɔme | `github-hosted` |
-| Dɔwɔwɔ ƒe ɖoɖo ƒe duƒuƒu | `.../actions/runs/31424510487/attempts/1` |
-| Nudzraɖoƒe ƒe dzedzeme | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Wo dometɔ ɖesiaɖe ate ŋu adzro. Ele be commit hash la nasɔ kple tag si le nudzraɖoƒe; ele be workflow ƒe dɔwɔwɔ nanɔ anyi eye wòanye dutoƒo tɔ.
 
@@ -217,11 +217,11 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 Rekor ƒe nuŋlɔɖi aɖe le nubabla la me si ɖo kpe edzi be woɖe asi le agbalẽa ŋu ɖe dutoƒo, eye eƒe akpa aɖewo koe nye:
 
-| Gbadzaƒe | Asixᴐxᴐ |
+| Field | Asixᴐxᴐ |
 |---|---|
-| Rekor log index ƒe xexlẽdzesi | `2412071838` |
-| Nusiwo woŋlɔ ƒe ƒomevi | `hashedrekord v0.0.1` |
-| Wowɔ ɖeka le | 2026-08-10 19:43:09 UTC ƒe ɣeyiɣia me |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC ƒe ɣeyiɣia me |
 
 Esiae na be woate ŋu akpɔ nusi nye tofloko ƒe ŋudɔwɔwɔ nyuie. Ŋlɔɖesi si medzɔ kpɔ le nuŋlɔɖi me o, alo eɖe eɖokui fia le ɣeyiɣi manyatalenu aɖe dzi la enye dzesi si ta wòle be woawɔ nu ɖo. Tsɔ ɖekawɔwɔa kple ɖeviawo ɖeɖefia sɔ kplii.
 
@@ -425,12 +425,12 @@ A signature failure is more serious than a checksum failure. A checksum mismatch
 
 ## Akpa 4  Numedzodzro ƒe nuŋlɔɖi
 
-| Dɔwɔna | Nusiwo woɖe ɖe go siwo wota le | Nuwɔmɔnu | Afisi safuia tso |
+| Dɔwɔna | Nusiwo woɖe ɖe go siwo wota le | Method | Afisi safuia tso |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore ƒe agbalẽdzraɖoƒe | Safui aɖeke meli o — CI ƒe dzesidenu to GitHub OIDC dzi |
-| **Zallet** | `github.com/zcash/zallet/releases` | GPG si woɖe ɖe vovo `.asc`, SLSA ƒe dzɔtsoƒe, SBOM | `apt.z.cash/zodl.asc` - gɔmedzeƒe `0338 34DD…58E2 6AB1`, asidede subkey dzi `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Safui aɖeke meli o — CI ƒe dzesidenu to GitHub OIDC dzi |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` - gɔmedzeƒe `0338 34DD…58E2 6AB1`, asidede subkey dzi `1FE9 9324…23F0 617F` |
 | **zcashd** | *xɔ dzudzɔ* | — | Wotɔ ɖe block 3,417,100 dzi le 2026-07-18 dzi. Mègaɖoe ɖe wò kɔmpiuta dzi o. |
-| **Zodl** (si woyɔna tsã be Zashi) | Dɔdamɔnudzraƒe / Google Play; `zodl-inc` le GitHub | Fiasewo ƒe asidede agbalẽ te; standalone Android binaries GPG-de asi ete | ZODL safui ɖe tɔtrɔ ƒe nyagbɔgblɔ ɖesiaɖe me |
+| **Zodl** (si woyɔna tsã be Zashi) | Dɔdamɔnudzraƒe / Google Play; `zodl-inc` le GitHub | Store signing; standalone Android binaries GPG-signed | ZODL safui ɖe tɔtrɔ ƒe nyagbɔgblɔ ɖesiaɖe me |
 
 > **Name note:** Zashi was rebranded to **Zodl** in 2026  first on the App Store, then on Google Play. Kpekpeɖeŋu xoxo siwo ku ɖe "Zashi" ŋu la ɖɔ gaɖaka ƒe dzidzime ɖeka ma ke.
 

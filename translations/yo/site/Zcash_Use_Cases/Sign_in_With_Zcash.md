@@ -75,7 +75,7 @@ This works with wallets that already support memos today, which is most of them.
 |---|---|---|
 | Iye owo | Ọfẹ | Iye owo nẹtiwọọki fun iwọle kọọkan |
 | Iyara | Lẹ́sẹ̀kẹsẹ̀ | Nduro fun idaniloju |
-| Àtìlẹ́yìn àpò owó | Àkójọpọ̀ ZIP 304 jẹ́ àkójọpọ̀ ìwé àṣẹ | Gbólóhùn gbígbòòrò, àwọn àkọsílẹ̀ nìkan ló nílò |
+| Àtìlẹ́yìn àpò owó | Àkójọpọ̀ ZIP 304 jẹ́ àkójọpọ̀ ìwé àṣẹ | Gíga, àwọn àkọsílẹ̀ nìkan ló nílò |
 | Ó fi àkọsílẹ̀ ẹ̀wọ̀n sílẹ̀ | No | Bẹ́ẹ̀ni, ìṣòwò kan wà |
 
 Àwọn ààlà tí a pín:
