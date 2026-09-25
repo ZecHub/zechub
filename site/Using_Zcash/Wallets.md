@@ -261,7 +261,7 @@
 ## [Vizor](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Devices: Desktop | Mobile
-- Operating System: macOS
+- Operating System: Windows | macOS | Linux | Android | iOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
