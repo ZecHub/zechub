@@ -1,0 +1,56 @@
+# Image alt-text report
+
+The image alt-text checker scans English Markdown pages under `site/` and
+reports accessibility problems without failing CI.
+
+It recognizes:
+
+- Markdown images such as `![description](image.png)`
+- Markdown reference images such as `![description][image-ref]`
+- Inline HTML `<img>` tags, including multiline tags
+
+It ignores fenced code blocks, inline code, and HTML comments so examples that
+are not rendered as page images do not inflate the report.
+
+## Run locally
+
+From the repository root:
+
+```bash
+node scripts/check-image-alt-text.mjs
+```
+
+To write the machine-readable result as JSON:
+
+```bash
+node scripts/check-image-alt-text.mjs --json image-alt-report.json
+```
+
+To test the parser:
+
+```bash
+node scripts/check-image-alt-text.test.mjs
+```
+
+## Placeholder alt text
+
+The configurable placeholder list is stored in
+`scripts/image-alt-placeholders.json`.
+
+To add another placeholder, append the normalized phrase to that JSON array. The
+comparison is case-insensitive and collapses repeated whitespace. For example,
+adding `"photo"` will flag `alt="PHOTO"` and `alt="  photo  "`.
+
+A descriptive phrase containing a placeholder word is not flagged: for example,
+`"ZecHub logo on a dark background"` does not equal the placeholder `"logo"`.
+
+## CI behavior
+
+`.github/workflows/image-alt-text-report.yml` runs the parser test and then
+scans the complete `site/` corpus on relevant pull requests and on manual
+dispatch.
+
+The scan is intentionally **report-only**. Missing, empty, and placeholder alt
+text appears in the job log but does not make the workflow fail. Operational
+errors such as a malformed placeholder configuration still fail so a broken
+checker cannot silently report success.
