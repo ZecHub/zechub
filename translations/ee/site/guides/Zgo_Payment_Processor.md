@@ -122,7 +122,7 @@ Le ɖoɖowɔwɔ gome la, mɔa le kpuie: xɔ Zcash gakotoku, wɔ akɔnta le [zgo.
 
 - [ZGo ƒe nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo](https://zgo.cash/)
 - [Xero Integration Configuration ƒe azɔlizɔzɔ](https://hedgedoc.vergara.tech/s/4iXC67fmb)
-- [WooCommerce ƒe Dɔwɔƒe](https://woocommerce.com/) kple [WordPress](https://wordpress.org/)
+- [WooCommerce](https://woocommerce.com/) kple [WordPress](https://wordpress.org/)
 - [Xero ƒe ŋkɔ](https://www.xero.com/)
 - [Zcash dɔa ƒe gɔmedzedze](https://z.cash/)
 - [ZecHub ƒe Gakotokuwo](https://zechub.wiki/wallets), Zcash gakotoku siwo sɔ ƒe ŋkɔwo

@@ -28,7 +28,7 @@ Nvida GPU ahorow no yɛ adwuma yiye.
 
 - [Twe Nneɛma: AI Awo Ntoatoaso](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) efi AppStore - a wontua hwee
 (Ebetumi de StableDiffusion mfonini ahorow pii adi dwuma)
-- [NtrɛwmuBee](https://diffusionbee.com/) - de ho
+- [DiffusionBee](https://diffusionbee.com/) - de ho
 (Ebetumi de StableDiffusion mfonini ahorow pii adi dwuma)
 - [Frɛ AI](https://invoke-ai.github.io/InvokeAI/) (ɛhwehwɛ 4GB GPU memory)
 
@@ -40,12 +40,12 @@ Nvida GPU ahorow no yɛ adwuma yiye.
 
 ### Windows - download amanne kwan so mfonini ahorow
 
-- [GPT4Ne nyinaa](https://gpt4all.io/index.html) (mini 8gb RAM na ɛho hia)
+- [GPT4All](https://gpt4all.io/index.html) (mini 8gb RAM na ɛho hia)
 
 ### Mac OS - download amanne kwan so mfonini ahorow
 
-- [GPT4Ne nyinaa](https://gpt4all.io/index.html) - (ɛyɛ adwuma ntɛmntɛm yiye wɔ M1 macs so, egyina GPT model a wɔde di dwuma so)
+- [GPT4All](https://gpt4all.io/index.html) - (ɛyɛ adwuma ntɛmntɛm yiye wɔ M1 macs so, egyina GPT model a wɔde di dwuma so)
 
 ## Linux - download amanne kwan so mfonini ahorow
 
-- [GPT4Ne nyinaa](https://gpt4all.io/index.html) (mini 8gb RAM na ɛho hia)
+- [GPT4All](https://gpt4all.io/index.html) (mini 8gb RAM na ɛho hia)

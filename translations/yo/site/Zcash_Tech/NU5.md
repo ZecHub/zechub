@@ -110,4 +110,4 @@ Orchard ti kọ lori eto idaniloju Halo 2, eyiti ko nilo iṣeto igbẹkẹle at
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Àgbàlá ilé](../zcash-tech/canopy) · Àtúnṣe: [NU6](../zcash-tech/nu6)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Canopy](../zcash-tech/canopy) · Àtúnṣe: [NU6](../zcash-tech/nu6)

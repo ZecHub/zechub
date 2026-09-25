@@ -24,7 +24,7 @@
 Ihe. Nkọwapụta ihe.
 |-------------------|---------|
 ** Ebe nrụọrụ weebụ** [https://zcash.me/](https://zcash.me/) |
- @zcashme  #twitter# [@zcashmE](https://x.com/zcashme) |
+| **Twitter**       | [@zcashme](https://x.com/zcashme) |
  Ọdịdị Profaịlụ  `zcash.me/[username]` |
  **Ọnọdụ** Live (na atụmatụ na mmepe)
 
@@ -68,7 +68,7 @@ Ngwa mkpanaka. Ahụmịhe ekwentị zuru oke.
 Ihe. Nkọwapụta ihe.
 |-------------------|---------|
 ** Ebe nrụọrụ weebụ** [https://tipz.cash/](https://tipz.cash/) |
- @tipz_cash  #twitter# [@tipsz_ cash](https://x.com/tipz_cash) |
+| **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
  Ọdịdị Profaịlụ  `tipz.cash/@[username]` |
 **Ọnọdụ**. Ndụ.
 

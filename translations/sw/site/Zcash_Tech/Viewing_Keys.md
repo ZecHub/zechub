@@ -36,7 +36,7 @@ Mitego miwili ya kufichua habari inafaa kuijua kabla ya kushiriki chochote.
 
 ## Kuangalia funguo baada ya Ironwood
 
-NU6.3 ilianzisha bwawa la kuogelea lenye ulinzi la Ironwood na kufanya bwawa la Orchard litumike pekee, kwa hivyo fedha huhama kutoka moja hadi nyingine baada ya muda. [Mbao ya Ironwood](/zcash-tech/ironwood) na [Kijiti cha kugeuza](/zcash-tech/the-turnstile) kwa ajili ya uboreshaji wenyewe.
+NU6.3 ilianzisha bwawa la kuogelea lenye ulinzi la Ironwood na kufanya bwawa la Orchard litumike pekee, kwa hivyo fedha huhama kutoka moja hadi nyingine baada ya muda. [Ironwood](/zcash-tech/ironwood) na [Kijiti cha kugeuza](/zcash-tech/the-turnstile) kwa ajili ya uboreshaji wenyewe.
 
 **Ufunguo wa kutazama uliotolewa kabla ya Ironwood kuendelea kufanya kazi baada ya uhamishaji.** ZIP 326 hubainisha kuwa kipokezi, na ufunguo wake unaoingia unaolingana, huelekezwa kwenye itifaki ya Orchard *badala ya bwawa: jaribio lile lile la ufunguo wa kutazama linaloingia huondoa usimbaji fiche wa Orchard-pool na noti za Ironwood-pool. Zallet hutekeleza kwa njia hiyo, ikielezea noti za Ironwood kama zenye umbo la Orchard na zilizoondolewa usimbaji fiche kwa kutumia funguo za kutazama za Orchard za akaunti chini ya kikoa cha usimbaji fiche wa noti za Ironwood.
 

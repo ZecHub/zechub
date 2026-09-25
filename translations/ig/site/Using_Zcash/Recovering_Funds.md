@@ -125,7 +125,7 @@ Unshield All bara uru mgbe ị na-apụ na mgbanwe nke na-anabata naanị adrees
 
 Argos na-agụ faịlụ mkpụrụ na obere akpa ZecWallet Lite, zcashd `wallet.dat`, Sapling nke na-anaghị etinye ego n'otu ebe, yana ihe eji emefu Sprout. Maka Sprout, naanị mkpụrụ ZecWallet Lite ezughị ezu n'ihi na e mepụtara igodo ndị ahụ iche iche. Argos bụ ngwaọrụ mgbake, ọ bụghị obere akpa kwa ụbọchị: lelee ihe sitere na ya n'ógbè gị, nyochaa ya, wee jiri obere akpa ị na-achịkwa.
 
-Ike Kachasị Ala [enyochaala](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) ngwaọrụ ahụ. Mgbake n'onwe ya bụ n'efu. Onyinye nhọrọ nye Sovright nwere ike ịpụta n'oge nyocha ahụ.
+Least Authority [enyochaala](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) ngwaọrụ ahụ. Mgbake n'onwe ya bụ n'efu. Onyinye nhọrọ nye Sovright nwere ike ịpụta n'oge nyocha ahụ.
 
 > **Etinyela mkpụrụ n'ime weebụsaịtị.** Ebe nrụọrụ weebụ Argos bụ naanị nbudata na [ntuziaka onye ọrụ](https://argos.sovright.com/guide.html)Igodo na-anọ na ngwa desktọpụ e denyere aha. Nnwale dị n'ógbè ahụ ma e jiri ya tụnyere checksum BIP-39. Ebe mkpụrụ osisi ahụ na-apụ ozugbo nyocha ahụ malitere. Onye ọ bụla zitere gị ozi na-arịọ mkpụrụ ahụ "iji nyere aka nweta ego gị" na-aghọgbu gị.
 
@@ -191,7 +191,7 @@ Were ya dị ka ngwaọrụ dị elu/ihe eji eme ihe kama ụzọ mgbake ndabara
 
 Ụzọ ahụ abụghị otu ihe ahụ dị ka iweghachi mkpụrụ ị ka nwere. Enyela onye ọ bụla kwere nkwa "iweghachite" ya maka gị mkpụrụ na-arụ ọrụ. Ụdị aghụghọ nke ọrụ a bụ ihe a na-ahụkarị.
 
-[Enweghị akara](https://unciphered.com) bụ otu ụlọ ọrụ na-arụ ọrụ a n'ime ụlọ ma ekpuchila ya n'ebe dịka [Waya nwere waya](https://www.wired.com/story/unciphered-crypto-wallet-recovery/)Ha bụ ọrụ mgbake crypto nkịtị, ọ bụghị ngwaọrụ Zcash kpọmkwem, ha na-anakwa ụgwọ maka ọrụ ahụ. ZecHub anaghị akwado ụlọ ọrụ mgbake ọ bụla. Ọ bụrụ na ị gaa n'ụzọ a, kwado ngalaba gọọmentị n'onwe gị ma chee na onye ọ bụla nke na-akpọ gị DM mbụ bụ onye wayo.
+[Unciphered](https://unciphered.com) bụ otu ụlọ ọrụ na-arụ ọrụ a n'ime ụlọ ma ekpuchila ya n'ebe dịka [Waya nwere waya](https://www.wired.com/story/unciphered-crypto-wallet-recovery/)Ha bụ ọrụ mgbake crypto nkịtị, ọ bụghị ngwaọrụ Zcash kpọmkwem, ha na-anakwa ụgwọ maka ọrụ ahụ. ZecHub anaghị akwado ụlọ ọrụ mgbake ọ bụla. Ọ bụrụ na ị gaa n'ụzọ a, kwado ngalaba gọọmentị n'onwe gị ma chee na onye ọ bụla nke na-akpọ gị DM mbụ bụ onye wayo.
 
 Ọ bụrụ na ị ka nwere mkpụrụ ọrụ ma ọ bụ igodo mmefu, malite site na ụzọ mgbake nkeonwe dịka Zkool ma ọ bụ Argos na igwe nke gị kama.
 
@@ -206,7 +206,7 @@ Onye mepụtara ya kwuru ugbu a na YWallet anaghịzi akwado Zcash kemgbe emelit
 ## Ibe ndị metụtara ya
 
 - [Obere akpa](/using-zcash/wallets) - obere akpa ego a na-edobe na njikere ha maka Ironwood, gụnyere Argos
-- [Osisi ígwè](/zcash-tech/ironwood) - ihe mmelite ahụ gbanwere na ihe kpatara ego ji akwaga ebe ọzọ
+- [Ironwood](/zcash-tech/ironwood) - ihe mmelite ahụ gbanwere na ihe kpatara ego ji akwaga ebe ọzọ
 - [Ihe ncheta](/using-zcash/memos) - otu esi arụ ọrụ ndetu ezoro ezo
 - [Igodo Ilele](/zcash-tech/viewing-keys) - ịnweta ịgụ naanị na-enweghị ike imefu ego
 - [Ọnụọgụ obere akpa](/zcash-tech/lightwallet-nodes) - public lightwalletd endpoints Argos can use

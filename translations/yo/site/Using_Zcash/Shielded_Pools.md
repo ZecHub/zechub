@@ -70,7 +70,7 @@ Orchard ṣe ilọsiwaju lilo, ṣiṣe ati asiri ni pataki nipa idinku idasil�
 
 Lati igba ti igbesoke Ironwood ṣiṣẹ ni 28 Keje 2026, ** Orchard jẹ lilo-nikan. Ko si iye tuntun le wọ inu adagun naa. Awọn owo ti o wa tẹlẹ nibẹ tun le lo, ati pe wọn nlọ kiri sinu Ironwood nipasẹ awọn ọna iyipada. Wallets ṣe itọju eyi fun ọ, botilẹjẹpe ọpọlọpọ fi diẹ ninu iṣakoso lori iyara.
 
-Bí o bá ní owó Orchard, wo: [Igi irin-igi](/zcash-tech/ironwood) nítorí ohun tí ṣíṣí lọ síbòmíràn túmọ̀ sí nínú ìwà hù.
+Bí o bá ní owó Orchard, wo: [Ironwood](/zcash-tech/ironwood) nítorí ohun tí ṣíṣí lọ síbòmíràn túmọ̀ sí nínú ìwà hù.
 
 ____
 
@@ -162,7 +162,7 @@ Ohun tí èyí túmọ̀ sí sinmi lórí ibi ti owó rẹ wà:
 
 > **One privacy caveat worth knowing.** The turnstile publishes the *amount* that crosses between pools, along with the block height. Sender and receiver stay hidden as always, but a distinctive amount can be linked back to you. This is why wallets migrate in stages using standard denominations instead of moving your balance in one recognisable lump. Let your wallet pace itself, and consider using Tor or a VPN so your IP is not tied to the amounts you move.
 
-Wo àwọn ojúewé yìí: [Igi irin-igi](/zcash-tech/ironwood) fún ìmúbọ̀sípò náà fúnra rẹ̀, àti [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile) bí ìwé ìwádìí ṣe ń ṣiṣẹ́.
+Wo àwọn ojúewé yìí: [Ironwood](/zcash-tech/ironwood) fún ìmúbọ̀sípò náà fúnra rẹ̀, àti [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile) bí ìwé ìwádìí ṣe ń ṣiṣẹ́.
 
 <br/>
 
@@ -179,7 +179,7 @@ Wo àwọn ojúewé yìí: [Igi irin-igi](/zcash-tech/ironwood) fún ìmúbọ̀s
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Igi irin-igi](/zcash-tech/ironwood)  Àtúnṣe tí ó dá àgbájọ ti òde òní sílẹ̀
+- [Ironwood](/zcash-tech/ironwood)  Àtúnṣe tí ó dá àgbájọ ti òde òní sílẹ̀
 - [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile)  Bí a ṣe ń ṣàyẹ̀wò iye tí ó máa ń ṣí kiri láàárín àwọn àgbájọ owó náà.
 - [Àwọn àpamọ́ owó](/using-zcash/wallets)  Àwọn àpamọ́ owó wo ni a tọjú tí Ironwood sì ṣetán?
 - [Àwọn Àdéhùn Ìṣirò](/using-zcash/transactions)  Bí a ṣe ń fi àwọn ìnáwó tí ó ní ààbò ránṣẹ́

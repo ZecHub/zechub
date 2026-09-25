@@ -121,7 +121,7 @@ DATA tí ó ń gbé ẹ̀rí (PCD) Data tó máa ń rìnrìn àjò pẹlú èsì
 
 - [Gbígba Ìsọfúnni Àdáni Pa Dà](https://zechub.wiki/zcash-tech/private-information-retrieval) - ọ̀nà mìíràn láti yanjú ìṣòro ìwífún-àpò owó kan náà.
 - [Ìkànnì Zakura](https://zechub.wiki/zcash-tech/zakura-node) - ìsọ̀rí kan tí a ṣe lábẹ́ iṣẹ́ ẹ̀rọ Tachyon.
-- [Igi irin-igi](https://zechub.wiki/zcash-tech/ironwood) - ìyípadà tó bẹ̀rẹ̀ ní July 2026, tí àwọn èèyàn sábà máa ń dà á pọ̀ mọ́ Tachyon.
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - ìyípadà tó bẹ̀rẹ̀ ní July 2026, tí àwọn èèyàn sábà máa ń dà á pọ̀ mọ́ Tachyon.
 - [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](https://zechub.wiki/zcash-tech/the-turnstile) - ohun tí Tachyon lè lò bí wọ́n bá fi ṣe àgbájọ rẹ̀.
 - [Ààbò Lẹ́yìn Ìmúninímù-Ìwéko](https://zechub.wiki/zcash-tech/post-quantum-security) - níbi tí Tachyon ti ń jókòó pẹ̀lú iṣẹ́ àbáwọlé tó gùn-ún sí i.
 - [Bí Wọ́n Ṣe Ṣètò Zcash](https://zechub.wiki/start-here/how-zcash-is-organized) - ẹni tó ń ṣe iṣẹ́ yìí àti bí ètò àyíká náà ṣe bára mu

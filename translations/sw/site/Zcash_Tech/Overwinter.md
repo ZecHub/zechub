@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Kuishi kwa majira ya baridi kali
+# Overwinter
 
 > Overwinter alienda kuishi juu ya Zcash mainnet katika block 347,500 (Juni 26, 2018 UTC).
 
@@ -105,4 +105,4 @@ Kwa sababu ilijenga mashine ambayo kila upgrades baadaye inategemea. Overwinter 
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Mchanga](../zcash-tech/sprout) · Kisha: [Sapling](../zcash-tech/sapling)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Sprout](../zcash-tech/sprout) · Kisha: [Sapling](../zcash-tech/sapling)

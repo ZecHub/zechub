@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Miti ya moyo
+# Heartwood
 
 > Heartwood iliingia moja kwa moja kwenye mtandao wa Zcash katika block 903,000 (Julai 16, 2020 UTC).
 
@@ -96,4 +96,4 @@ Coinbase matokeo alikuwa na kuwa uwazi, hivyo mchimbaji wa tuzo mpya minted daim
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Maua ya maua](../zcash-tech/blossom) · Kisha: [Kivuli cha juu](../zcash-tech/canopy)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Blossom](../zcash-tech/blossom) · Kisha: [Canopy](../zcash-tech/canopy)

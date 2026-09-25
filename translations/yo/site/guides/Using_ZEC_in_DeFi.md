@@ -22,7 +22,7 @@ Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) 
 
 ---
 
-## Àgbékalẹ̀ Maya 
+## Maya Protocol 
 
 Maya Protocol ti ṣepọ Zcash lati mu ilọsiwaju rẹ pọ si, iṣuna, ati asiri idunadura. Isopọpọ yii gba awọn olumulo Zcash laaye lati ni anfani lati awọn paṣipaarọ ti a kojọpọ, fifun wọn ni irọrun ati iṣuna diẹ sii lakoko ti o tọju asiri. Mọ siwaju sii: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
 

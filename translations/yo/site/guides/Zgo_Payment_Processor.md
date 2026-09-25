@@ -122,7 +122,7 @@ Fun iṣeto, ọna naa kuru: gba apamọwọ Zcash, ṣẹda akọọlẹ kan ni
 
 - [Ìkànnì àjọ ZGo](https://zgo.cash/)
 - [Xero Integration Configuration walkthrough] Àwọn àlàyé tó ṣe pàtàkì](https://hedgedoc.vergara.tech/s/4iXC67fmb)
-- [WooCommerce] [ì í ì ¤í ë ¤](https://woocommerce.com/) àti [WordPress](https://wordpress.org/)
+- [WooCommerce](https://woocommerce.com/) àti [WordPress](https://wordpress.org/)
 - [Xero](https://www.xero.com/)
 - [Ojúewé ìkànnì iṣẹ́ Zcash](https://z.cash/)
 - [Àwọn Wàléètì ZecHub](https://zechub.wiki/wallets), akojọ awọn apamọwọ Zcash ti o ni ibamu

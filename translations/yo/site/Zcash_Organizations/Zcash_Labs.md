@@ -1,4 +1,4 @@
-# Àwọn ilé-ìwádìí Zcash Labs
+# Zcash Labs
 
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/313788363?s=200&v=4" alt="Logo Zcash Labs" width="320" />
@@ -226,7 +226,7 @@ Nipasẹ ọna yii, Zcash Labs ni ifọkansi lati ṣẹda ipa-ọna taara diẹ
 
 ## Àwọn àlàyé
 
-[Àwọn ilé-ìwádìí Zcash Labs](https://zcashlabs.org/)
+[Zcash Labs](https://zcashlabs.org/)
 
 [A n kede Awọn Ile-iṣẹ Zcash: Iṣowo Ọja ti Owo-ọjà kan](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)
 

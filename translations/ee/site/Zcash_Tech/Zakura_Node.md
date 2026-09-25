@@ -95,7 +95,7 @@ Le ezãlawo gome la, tɔtrɔ si wokpɔna wue nye lalaɣi. Tsã la, ame ŋutɔ ƒ
 
 ## Alesi Zakura Do Ƒome Kple Zcash Node Bubuwo
 
-| | zcashd ƒe nyawo | Zebra | Zakura |
+| | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
 | Gbegbɔgblɔ | C++ (woɖee tso Bitcoin me) | Gbeɖuɖɔ | Rust (forked tso Zebra gbɔ) |
 | Nɔnɔme | Woɖe asi le eŋu | Dɔwɔwɔ | Dɔwɔwɔ (v1.0.0, Jul 2026) |

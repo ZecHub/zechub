@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Osisi okooko osisi Blossom
+# Blossom
 
 > Blossom gara ndụ na Zcash mainnet na ngọngọ 653,600 (December 11, 2019 UTC).
 
@@ -96,4 +96,4 @@ N'ihi na Blossom belatara ụgwọ ọrụ a kwụrụ maka otu ngọngọ ma me
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Sapling](../zcash-tech/sapling) · Nke ọzọ: [Osisi nkwụ](../zcash-tech/heartwood)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Sapling](../zcash-tech/sapling) · Nke ọzọ: [Heartwood](../zcash-tech/heartwood)

@@ -1,0 +1,9 @@
+# Pages served in ENGLISH in every locale, by decision. They are not in
+# curated-pages.txt, have no translations, and the wiki falls back to English
+# for them. detect-staleness.mjs does not report them as uncurated.
+#
+# Using_Zcash/Wallets.md (2026-09-25): every line is a wallet name, a logo, or a
+# data field the wiki parses by its English labels (Devices, Features, the
+# Ironwood status). Translating it only broke the page: empty Features lists and
+# grey Ironwood badges in all 18 locales.
+Using_Zcash/Wallets.md

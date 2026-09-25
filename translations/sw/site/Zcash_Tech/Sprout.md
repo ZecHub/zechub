@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Mchanga
+# Sprout
 
 > Zcash ilizinduliwa mnamo Oktoba 28, 2016, na bwawa la Sprout lililohifadhiwa.
 
@@ -87,4 +87,4 @@ Sprout ni uzinduzi wa awali ya Zcash, si baadaye kuboresha. Imekuwa kazi tangu g
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Kisha: [Kuishi kwa majira ya baridi kali](../zcash-tech/overwinter)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Kisha: [Overwinter](../zcash-tech/overwinter)

@@ -1,4 +1,4 @@
-# Àárín òkùnkùn 
+# Penumbra 
 
 Penumbra wà lati wa ni a gige-eti, kikun shielded Layer-1 nẹtiwọki compete ninu awọn Cosmos ilolupo. O faye gba awọn oniwe-lowo to transact securely, stake ati swap tokens, ki o si oja ṣe lai ifihan wọn metadata on-chain. bi kan patapata pa blockchain, ti o tun pese ipamọ owo lori ayelujara laisi compromising lori asiri tabi decentralization  Penumbras ni privacy nipa aiyipada, pẹlu ko si sanlalu iṣowo tabi han iye pool.
 

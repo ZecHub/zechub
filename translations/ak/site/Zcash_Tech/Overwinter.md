@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Awɔw bere mu
+# Overwinter
 
 > Awɔw bere no kɔɔ so traa ase wɔ Zcash mainnet so wɔ block 347,500 (June 26, 2018 UTC).
 
@@ -105,4 +105,4 @@ Efisɛ ɛno na ɛyɛɛ mfiri a akyiri yi nkɔso biara gyina so no. Overwinter de
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Ffifi](../zcash-tech/sprout) · Deɛ ɛdi hɔ: [Sapling](../zcash-tech/sapling)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Sprout](../zcash-tech/sprout) · Deɛ ɛdi hɔ: [Sapling](../zcash-tech/sapling)

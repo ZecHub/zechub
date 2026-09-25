@@ -70,7 +70,7 @@ Rii daju lati ka iwe Zebra fun awọn itọnisọna iṣeto, ati darapọ mọ o
 
 [Ìwé Zebra](https://zebra.zfnd.org) 
 
-[Àìfohùnṣọ̀kan](https://discord.gg/uvEdHsrb)
+[Discord](https://discord.gg/uvEdHsrb)
 
 
 
@@ -90,7 +90,7 @@ Eyi ni awọn apẹẹrẹ awọn iru ẹrọ ti o fun laaye iraye si data Nẹt
 
 [Àwọn ìlànà ìṣirò owó](https://docs.coinmetrics.io/info/assets/zec)
 
-[Ìjókòó alágbèéká](https://blockchair.com/zcash)
+[Blockchair](https://blockchair.com/zcash)
 
 O tun le ṣe alabapin si idagbasoke nẹtiwọọki nipa ṣiṣe awọn idanwo tabi sisọ awọn ilọsiwaju tuntun & pese awọn iṣiro. 
 

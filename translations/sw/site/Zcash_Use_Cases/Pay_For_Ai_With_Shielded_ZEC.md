@@ -103,7 +103,7 @@ Pesa zinabaki na unaweza kuzitumia mara moja.
 
 Huduma nyingi za AI hazipokee ZEC. ** Venice.ai** na ** OpenRouter ** wote huchukua USDC badala yake, na OpenRooter hukuruhusu kuchagua mfuatano ambao malipo yanakaa juu.
 
-Kwa wale, kutumia **CrossPay** katika [Zodl](/zcash-organizations/zodl). Wewe kutumia ZEC kulindwa na mpokeaji ni kulipwa katika mali wao aliuliza kwa, routed kupitia makusudi NEAR bila kubadilishana kati na bila KYC.
+Kwa wale, kutumia **CrossPay** katika [Zodl](/zcash-organizations/zodl). Wewe kutumia ZEC kulindwa na mpokeaji ni kulipwa katika mali wao aliuliza kwa, routed kupitia NEAR Intents bila kubadilishana kati na bila KYC.
 
 1. Kupata huduma ya malipo anwani na mali na mnyororo inatarajia, kwa mfano USDC juu Base
 2. Fungua Zodl na kuchagua ** CrossPay**
@@ -133,7 +133,7 @@ Yoyote ya hapo juu. IP yako, isipokuwa wewe kutumia Tor au VPN. Haihusiani.
 
 NanoGPT ya amana anwani ni umoja wa anwani. Decoding moja iliyotolewa Agosti 2026 inaonyesha hasa wapokeaji wawili: ** Sapling** na ** Orchard ** .
 
-Tangu mwaka wa [Mti wa chuma](/zcash-tech/ironwood) upgrading activated on 28 Julai 2026, Orchard ni kutumia tu na hakuna thamani mpya inaweza kuingia ndani yake. Hiyo inaacha ** Sapling kama mpokeaji pekee malipo unaweza kweli nchi katika**.
+Tangu mwaka wa [Ironwood](/zcash-tech/ironwood) upgrading activated on 28 Julai 2026, Orchard ni kutumia tu na hakuna thamani mpya inaweza kuingia ndani yake. Hiyo inaacha ** Sapling kama mpokeaji pekee malipo unaweza kweli nchi katika**.
 
 Hivyo kama ZEC yako ni tayari katika Sapling, malipo ya ni Sapling kwa Sapling na hakuna kitu kuhusu hilo ni umma. Lakini kama wewe wamehamia Ironwood, kulipa hatua thamani zaidi ya mipaka pool, na [turntile ya](/zcash-tech/the-turnstile) kuchapisha kiasi na urefu hata kama mtumaji na mpokeaji kubaki siri.
 
@@ -163,7 +163,7 @@ Unaweza:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Mti wa chuma](/zcash-tech/ironwood) - kwa nini pool fedha yako kukaa katika iliyopita
+- [Ironwood](/zcash-tech/ironwood) - kwa nini pool fedha yako kukaa katika iliyopita
 - [Mzunguko wa Kioo cha Gari-Moshi](/zcash-tech/the-turnstile) - nini inakuwa umma wakati thamani msalaba mabwawa
 - [Mkoba](/using-zcash/wallets) - ambayo pochi ni iimarishwe
 - [ZODL](/zcash-organizations/zodl) - mkoba nyuma CrossPay

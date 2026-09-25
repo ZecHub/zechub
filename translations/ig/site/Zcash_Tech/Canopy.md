@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ugboro abụọ
+# Canopy
 
 > Canopy gara ndụ na Zcash mainnet na ngọngọ 1,046,400 (November 18, 2020 UTC).
 
@@ -109,4 +109,4 @@ E mere atụmatụ na ụgwọ ọrụ ndị guzobere mbụ ga-akwụsị n'oge 
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Osisi nkwụ](../zcash-tech/heartwood) · Nke ọzọ: [NU5](../zcash-tech/nu5)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Heartwood](../zcash-tech/heartwood) · Nke ọzọ: [NU5](../zcash-tech/nu5)

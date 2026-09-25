@@ -64,7 +64,6 @@ Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md
 Using_Zcash/Testnet.md
 Using_Zcash/Transactions.md
 Using_Zcash/Transparent_Exchange_Addresses.md
-Using_Zcash/Wallets.md
 Using_Zcash/Zallet_Quick_Reference_Guide.md
 Using_Zcash/Zcash_Mining_Guide.md
 Using_Zcash/Zcash_Mining_Pools.md

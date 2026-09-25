@@ -89,4 +89,4 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Ìgbà òtútù](../zcash-tech/overwinter) · Àtúnṣe: [Òdòdó òyìnbó](../zcash-tech/blossom)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Overwinter](../zcash-tech/overwinter) · Àtúnṣe: [Blossom](../zcash-tech/blossom)

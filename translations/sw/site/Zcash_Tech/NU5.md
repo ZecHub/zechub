@@ -110,4 +110,4 @@ Orchard imejengwa kwenye mfumo wa kuthibitisha Halo 2, ambayo haihitaji usanidi 
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Kivuli cha juu](../zcash-tech/canopy) · Kisha: [NU6](../zcash-tech/nu6)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Canopy](../zcash-tech/canopy) · Kisha: [NU6](../zcash-tech/nu6)

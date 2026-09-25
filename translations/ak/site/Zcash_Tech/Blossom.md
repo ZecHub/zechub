@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nhwiren a ɛyɛ fɛ
+# Blossom
 
 > Blossom kɔɔ so traa ase wɔ Zcash mainnet so wɔ block 653,600 (December 11, 2019 UTC).
 
@@ -96,4 +96,4 @@ Efisɛ Blossom nso tew akatua a wotua wɔ block biara so no so fã na ɔmaa bere
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Sapling](../zcash-tech/sapling) · Deɛ ɛdi hɔ: [Koma Nnua](../zcash-tech/heartwood)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Sapling](../zcash-tech/sapling) · Deɛ ɛdi hɔ: [Heartwood](../zcash-tech/heartwood)

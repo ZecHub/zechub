@@ -660,7 +660,7 @@ Sɛ wo instɔl plugin no wie a, **Zcash** ɔfa foforɔ bɛpue wɔ nhyehyeɛ menu
 
 > Ɛnyɛ sika kotoku nyinaa na ɛboa **Unified Full Viewing Key (UFVK)** export de besi nnɛ. 
 > Nneɛma a wɔkamfo kyerɛ: 
-> – [**Zkool** 10. Ɔde ne nsa kyerɛɛ ne so.](https://github.com/hhanh00/zkool2/)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
 > Wɔ app abien no nyinaa mu no, hwehwɛ UFVK export wɔ backup/export ɔfã no mu.
 

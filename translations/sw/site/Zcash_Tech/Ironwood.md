@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Mti wa chuma
+# Ironwood
 
 > Ironwood ilianzishwa kwenye Zcash mainnet katika block 3,428,143 mnamo Julai 28, 2026 UTC, na imekuwa hai tangu wakati huo.
 

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Dzimeƒu ƒe ati
+# Heartwood
 
 > Heartwood yi agbe le Zcash mainnet dzi le block 903,000 (July 16, 2020 UTC).
 
@@ -96,4 +96,4 @@ Ele be Coinbase ƒe nusiwo dona tso eme nadze le gaglãgbe, eyata tomenukulawo �
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Seƒoƒo ƒe ʋuʋu](../zcash-tech/blossom) · Esi kplᴐe ɖo: [Canopy ƒe xɔmenuwo](../zcash-tech/canopy)
+Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Blossom](../zcash-tech/blossom) · Esi kplᴐe ɖo: [Canopy](../zcash-tech/canopy)

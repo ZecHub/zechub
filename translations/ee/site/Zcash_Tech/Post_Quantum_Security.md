@@ -93,7 +93,7 @@ Kpuie la:
 | Adrɛs siwo me kɔ nyuie | Dutoƒo adrɛswo kple dutoƒo asitsatsa ƒe nɔnɔmetata | Afɔku mawo tɔgbe le blockchain bubu siwo me kɔ ŋu |
 | Gazazã ƒe mɔɖeɖe | Kpeɖodzi si fia be woɖe mɔ na zãla be wòazã | Asidede agbalẽ te ƒe ɖoɖowo ate ŋu ahiã be woaɖɔli wo alo woaʋu ayi teƒe bubu |
 | Nuŋlɔɖi siwo wotsɔ akpoxɔnu wɔe | Ame ŋutɔ ƒe nuŋlɔɖi siwo ku ɖe asixɔxɔ ŋu le tadeaguƒe siwo wotsɔ akpoxɔnu wɔe me | Akpa aɖewo ate ŋu ahiã susu yeyewo alo dɔwɔnu siwo woatsɔ agbugbɔ axɔ |
-| zk-SNARKs ƒe nyawo | Kpeɖodzi siwo ɖee fia be asitsatsa siwo wotsɔ akpoxɔnu wɔe la sɔ | Kpeɖodzi-ɖoɖo ƒe susuwo hiã be woagbugbɔ ŋku alé ɖe wo ŋu |
+| zk-SNARKs | Kpeɖodzi siwo ɖee fia be asitsatsa siwo wotsɔ akpoxɔnu wɔe la sɔ | Kpeɖodzi-ɖoɖo ƒe susuwo hiã be woagbugbɔ ŋku alé ɖe wo ŋu |
 | Gakotoku ƒe scanning | Alesi gakotokuwo dia nuŋlɔɖi siwo woxɔ eye woɖea wo gɔmee | Key agreement kple note encryption hiã be woagbugbɔ ŋku alé ɖe eŋu |
 | Ʋuʋu yi teƒe bubu | Gawo ʋuʋu yi nya ɣaɣlawo ƒe nuŋɔŋlɔ si le dedie wu gbɔ | Ele be woaƒo asa na ga ƒe bu kple ame ŋutɔ ƒe nyatakakawo ƒe dodo siaa |
 

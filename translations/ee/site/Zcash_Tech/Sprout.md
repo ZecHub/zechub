@@ -14,7 +14,7 @@ Nusitae esia le vevie ɖo. Dutoƒo blockchain ɖesiaɖe si do ŋgɔ na Sprout ts
 
 ## Ta gbãtɔ si wokpɔ ta na
 
-Sprout wɔ adrɛs ƒomevi eve. Adrɛs siwo me kɔ (t-adrɛs) wɔa dɔ abe Bitcoin ene, eye nyatakakaawo dzena le dutoƒo agbalẽ gã la dzi. Adrɛs siwo wokpɔ ta na (z-adrɛs) ɖoa ga ɖe Sprout la me [ta si ŋu wokpɔ akpoxɔnu le](../using-zcash/shielded-pools), afisi ame si ɖoe ɖa, amesi xɔe, kple ga homea nɔa ɣaɣla le. Aɖaŋuae nye be [zk-SNARKs ƒe nyawo](../zcash-tech/zk-snarks), sidzedze zero ƒe kpeɖodzi siwo naa asitsatsa aɖe ɖenɛ fiana be esɔ, eye gazazã zi gbɔ zi eve kple ga si susɔ siwo ƒo ƒu, evɔ womeɖea nyatakakaawo dometɔ aɖeke ɖe go o. Sprout nye zi gbãtɔ si esia ƒu du le ewɔwɔ me le cryptocurrency si le agbe dzi.
+Sprout wɔ adrɛs ƒomevi eve. Adrɛs siwo me kɔ (t-adrɛs) wɔa dɔ abe Bitcoin ene, eye nyatakakaawo dzena le dutoƒo agbalẽ gã la dzi. Adrɛs siwo wokpɔ ta na (z-adrɛs) ɖoa ga ɖe Sprout la me [ta si ŋu wokpɔ akpoxɔnu le](../using-zcash/shielded-pools), afisi ame si ɖoe ɖa, amesi xɔe, kple ga homea nɔa ɣaɣla le. Aɖaŋuae nye be [zk-SNARKs](../zcash-tech/zk-snarks), sidzedze zero ƒe kpeɖodzi siwo naa asitsatsa aɖe ɖenɛ fiana be esɔ, eye gazazã zi gbɔ zi eve kple ga si susɔ siwo ƒo ƒu, evɔ womeɖea nyatakakaawo dometɔ aɖeke ɖe go o. Sprout nye zi gbãtɔ si esia ƒu du le ewɔwɔ me le cryptocurrency si le agbe dzi.
 
 ![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
 
@@ -87,4 +87,4 @@ Sprout nye Zcash ƒe dodo gbãtɔ, ke menye emegbe ƒe tɔtrɔ o. Ewɔa dɔ tso 
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Esi kplᴐe ɖo: [Dzomeŋɔli](../zcash-tech/overwinter)
+Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Esi kplᴐe ɖo: [Overwinter](../zcash-tech/overwinter)

@@ -16,7 +16,7 @@ Isiokwu a na-akọwa ihe ShapeShift bụ, otu Zcash si arụ ọrụ, etu ị ga
 
 ## Gịnị bụ ShapeShift?
 
-[ShapeShift (Nkeji nke abụọ)](https://shapeshift.com/) bụ ihe na-enweghị isi, nke mepere emepe cryptocurrency ikpo okwu nke na -enye ndị ọrụ ohere ịzụ ahịa, soro ma jikwaa akụ dijitalụ n'ofe ọtụtụ blockchains na -emeghị akaụntụ, nyefee akwụkwọ njirimara, ma ọ bụ nyefee nlekọta ego ha.
+[ShapeShift](https://shapeshift.com/) bụ ihe na-enweghị isi, nke mepere emepe cryptocurrency ikpo okwu nke na -enye ndị ọrụ ohere ịzụ ahịa, soro ma jikwaa akụ dijitalụ n'ofe ọtụtụ blockchains na -emeghị akaụntụ, nyefee akwụkwọ njirimara, ma ọ bụ nyefee nlekọta ego ha.
 
 ### Akụkọ Dị Mkpirikpi
 

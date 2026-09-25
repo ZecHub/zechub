@@ -14,7 +14,7 @@ Ironwood ni adágún ààbò tó dé pẹ̀lú àtúnṣe nẹ́tíwọ́ọ̀k�
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
 </a>
 
-- Oju opo wẹẹbu: [Àpò ẹ̀yìn](https://backpack.exchange)
+- Oju opo wẹẹbu: [Backpack](https://backpack.exchange)
 - Àwọn méjì: ZEC/USDC | ZEC-PERP
 - Àwọn Àtìlẹ́yìn: A ti fi owó ìdókòwò àti ìyọkúrò sílẹ̀. A kò sọ irú àdírẹ́sì náà
 - Àkókò Ìfipamọ́: Kò sọ
@@ -79,7 +79,7 @@ ___
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Oju opo wẹẹbu: [Àwọn ọmọ-aládé](https://gemini.com)
+- Oju opo wẹẹbu: [Gemini](https://gemini.com)
 - Àwọn méjì-méjì: GBOGBO/ZEC
 - Àwọn Àtìlẹ́yìn: Àfihàn | Àwọn ìyọkúrò tí a dáàbò bò àti tí a ṣọ̀kan, Orchard láti oṣù kọkànlá ọdún 2025
 - Àkókò Ìdókòwò: Ìṣẹ́jú 50 

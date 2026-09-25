@@ -16,7 +16,7 @@ Nkwado maka akụ nzuzo na-agbanwe mgbe niile, yabụ ahịrị ọ bụla nwere
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) ❑ Enweghị njide, igodo nlele naanị. ● Ee, ọta nanị (Sapling, Orchard, UA) ▪ Ee, isi mmalite emeghe □ Mba, ị na-akwụ ụgwọ netwọkụ naanị Global, enweghị KYC 2026-07-29
 | [ZGo](https://zgo.cash/) ❑ N'enweghị onye na-elekọta ya. □ Ee, Sapling and Orchard. ● Mba, ọrụ a kwadoro. ◆ Oge ịkwụ ụgwọ tupu oge eruo, ọnụahịa e bipụtaghị. ▪ Ọ dịghị KYC kwuru, ógbè ndị ahụ ekwughị 2026-07-29
 | [Flexa](https://flexa.co/) ◯ Ndị ahịa na-echekwa onwe ha, ndị ọchụnta ego ji mkpụrụ ego nkịtị akwụ ụgwọ. Onye ahịa na emefu ihe n'ụzọ a ga-eji chebe ya, onye natara onyinye ahụ enweghị akwụkwọ e dere ede. Ọ dịghị otu pasent kwa ịkwụ ụgwọ US na mba 37 nke SEPA, ZEC EU ekwenyebeghị 2026-07-29
-| [Ịkwụ Ụgwọ Ugbu A](https://nowpayments.io/supported-coins/zcash-payments)  Enweghị njide site na ndabara. Mba, naanị adreesị doro anya. Ọ dịghị 0.5%, ma ọ bụ 1% nwere ntụgharị. Global belụsọ ebe amachibidoro ya iwu, enweghị KYC ịmalite 2026-07-29
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)  Enweghị njide site na ndabara. Mba, naanị adreesị doro anya. Ọ dịghị 0.5%, ma ọ bụ 1% nwere ntụgharị. Global belụsọ ebe amachibidoro ya iwu, enweghị KYC ịmalite 2026-07-29
 | [Plisio](https://plisio.net/accept-zcash) ◯ Nchebe, n'agbanyeghị ahịa. A dịghị edeba aha ya na akwụkwọ ọ bụla. Mba 0.5% API, 1.5% akara ọcha. Ọ nweghị KYC ịnata 2026-07-29
 | [Binance Na-akwụ ụgwọ](https://pay.binance.com/en) ◯ Nchebe, n'èzí-mgbasa ozi. ❑ Mba, a jụrụ ego echekwara na nchekwa. ❖ Ee e. ● E nweghị ụgwọ ọ bụla maka obere akpa gị, ịkwụghachi ya bụ 0.8% ▪ Ebe i bi adịghị ekwe ka mmadụ bata ebe ahụ, ZEC ewepụla aha ha ná mba FR, ES, IT, PL 2026-07-29
 
@@ -135,7 +135,7 @@ Nkwupụta nke Flexa n'onwe ya na-akọwa njikọta Zcash dị ka ịkwụ ụgw
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
 - ** Ụdị nkwado**: Naanị ihe na-ekpuchi anya.
 - **Nkọwa**: NOWPayments bụ ọnụ ụzọ ịkwụ ụgwọ crypto nke na-enyere ndị ahịa aka ịnabata Zcash ịkwụ ego na onyinye n'ụzọ dị mfe.
-- ** URL**: [Ịkwụ Ụgwọ Ugbu A](https://nowpayments.io/supported-coins/zcash-payments)
+- ** URL**: [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
 Enweghị nkwado echedoro. akwụkwọ ha na-agwa gị ka ị setịpụ adreesị doro anya maka Zcash, ma ZEC bụ naanị mkpụrụ ego ha wepụtara n'ụzọ ahụ. ugwo ọ bụla i nwetara ga-abụ nke ọha na eze na blockchain.

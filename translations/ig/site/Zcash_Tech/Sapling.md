@@ -89,4 +89,4 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Oge oyi na-agafe.](../zcash-tech/overwinter) · Nke ọzọ: [Osisi okooko osisi Blossom](../zcash-tech/blossom)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Overwinter](../zcash-tech/overwinter) · Nke ọzọ: [Blossom](../zcash-tech/blossom)

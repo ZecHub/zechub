@@ -110,4 +110,4 @@ Wɔasisi Orchard wɔ Halo 2 adansedi nhyehyɛe no so, a enhia nhyehyɛe a wotumi
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Canopy a wɔde yɛ adwuma](../zcash-tech/canopy) · Deɛ ɛdi hɔ: [NU6](../zcash-tech/nu6)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Canopy](../zcash-tech/canopy) · Deɛ ɛdi hɔ: [NU6](../zcash-tech/nu6)

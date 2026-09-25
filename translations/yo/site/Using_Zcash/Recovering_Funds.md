@@ -29,7 +29,7 @@
 | Owó rẹ wà ní | Ipa ọ̀nà ìrìnàjò | Kí ni láti ṣe |
 | --- | --- | --- |
 | **Sprout** | **Sprout → Sapling → Ironwood** | If you have `wallet.dat` tàbí kọ́kọ́rọ́ ìnáwó Sprout kan ṣoṣo, gbìyànjú ọ̀nà ìgbàpadà Argos lọ́wọ́lọ́wọ́ ní àkọ́kọ́. Tí Argos kò bá yẹ, lo ọ̀nà ẹ̀gbẹ́ tí ó ti pẹ́ nínú ìtọ́sọ́nà pápá náà. Sprout gbọ́dọ̀ kọ́kọ́ balẹ̀ sí Sapling, lẹ́yìn náà gbéra lọ sí Ironwood. Ọ̀nà yìí jẹ́ èyí tí ó gba àkókò nítorí NU7. |
-| **Igi Sapling** | **Igi Sapling → Igi Ironwood** | A ko nilo agbegbe imularada Sprout. Lo apamọwọ lọwọlọwọ ti o le gba pada tabi na owo kan pato rẹ ki o si kọ awọn iṣowo Ironwood. Atilẹyin Ironwood nikan ko fihan atilẹyin imularada Sapling atijọ. |
+| **Sapling** | **Sapling → Ironwood** | A ko nilo agbegbe imularada Sprout. Lo apamọwọ lọwọlọwọ ti o le gba pada tabi na owo kan pato rẹ ki o si kọ awọn iṣowo Ironwood. Atilẹyin Ironwood nikan ko fihan atilẹyin imularada Sapling atijọ. |
 | **Orchard** | **Orchard → Ironwood** | Orchard jẹ́ àbájáde nìkan. Lo ìṣàn ìrìn-àjò Orchard-sí-Ironwood tí a ṣe sínú àpò owó tí ó báramu lọ́wọ́lọ́wọ́. Wo [Awọn owo ti a gba pada ati adagun Ironwood](#recovered-funds-and-the-ironwood-pool). |
 
 ### Ìṣàn ìpinnu ìbéèrè márùn-ún
@@ -125,7 +125,7 @@ Unshield All wúlò nígbà tí a bá ń fà sẹ́yìn sí pàṣípààrọ̀ 
 
 Argos ka àwọn fáìlì èso àti àpò owó ZecWallet Lite, zcashd `wallet.dat`, Sapling awọn bọtini inawo ti o gbooro sii, ati awọn ohun elo inawo Sprout. Fun Sprout, irugbin ZecWallet Lite nikan ko to nitori pe awọn bọtini wọnyẹn ni a ṣe lọtọ. Argos jẹ ohun elo imularada, kii ṣe apamọwọ ojoojumọ: ṣayẹwo ohun elo orisun ni agbegbe, ṣe ayẹwo, lẹhinna wọ inu apamọwọ ti o ṣetọju.
 
-Aṣẹ Tó Kéré Jùlọ [ti ṣe àyẹ̀wò](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) irinṣẹ́ náà. Ìgbàpadà fúnra rẹ̀ jẹ́ ọ̀fẹ́. Ìtọrẹ àṣàyàn sí Sovright lè hàn nígbà ìwákiri náà.
+Least Authority [ti ṣe àyẹ̀wò](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) irinṣẹ́ náà. Ìgbàpadà fúnra rẹ̀ jẹ́ ọ̀fẹ́. Ìtọrẹ àṣàyàn sí Sovright lè hàn nígbà ìwákiri náà.
 
 > **Má ṣe tẹ irúgbìn sínú ojú òpó wẹ́ẹ̀bù kan.** Ojú òpó wẹ́ẹ̀bù Argos nìkan ni a gbà láti ìgbàsílẹ̀ àti [itọsọna olumulo](https://argos.sovright.com/guide.html)Àwọn kọ́kọ́rọ́ náà dúró sí inú àpù kọ̀ǹpútà tí a fọwọ́ sí. Ìfìdí múlẹ̀ jẹ́ ti agbègbè pẹ̀lú àyẹ̀wò BIP-39. Ilẹ̀ irúgbìn náà yóò parẹ́ nígbà tí ìṣàyẹ̀wò náà bá bẹ̀rẹ̀. Ẹnikẹ́ni tí ó bá fi ìránṣẹ́ ránṣẹ́ sí ọ pé kí o fún ọ ní irúgbìn náà “láti ran ọ́ lọ́wọ́ láti gba owó rẹ padà” ń tàn ọ́ jẹ.
 
@@ -191,7 +191,7 @@ Tí irúgbìn tàbí kọ́kọ́rọ́ náà bá lọ, àtúnṣe tí a ti gbà
 
 Ọ̀nà yẹn kò jọ ti ìgbà tí a bá tún mú irúgbìn kan tí ó ṣì wà lọ́wọ́ rẹ padà. Má ṣe fi irúgbìn tí ó ń ṣiṣẹ́ fún ẹnikẹ́ni tí ó bá fẹ́ “gbà á padà” fún ọ. Ẹ̀yà jìbìtì ti iṣẹ́ yìí wọ́pọ̀.
 
-[Àìsí ìkọ̀sílẹ̀](https://unciphered.com) jẹ́ ilé-iṣẹ́ kan tí ó ń ṣe iṣẹ́ yìí nílé àti pé a ti bo àwọn ibi bíi [Fóònù onífóònù](https://www.wired.com/story/unciphered-crypto-wallet-recovery/)Wọ́n jẹ́ iṣẹ́ ìtúnṣe owó kirikiri gbogbogbòò, kìí ṣe irinṣẹ́ pàtó fún Zcash, wọ́n sì ń gba owó fún iṣẹ́ náà. ZecHub kò fọwọ́ sí ilé-iṣẹ́ ìtúnṣe èyíkéyìí. Tí o bá lọ sí ọ̀nà yìí, jẹ́rìí sí ìkànnì ìjọba fúnra rẹ kí o sì gbà pé ẹnikẹ́ni tí ó bá kọ́kọ́ fi DM ránṣẹ́ sí ọ jẹ́ ajìjàǹbá.
+[Unciphered](https://unciphered.com) jẹ́ ilé-iṣẹ́ kan tí ó ń ṣe iṣẹ́ yìí nílé àti pé a ti bo àwọn ibi bíi [Fóònù onífóònù](https://www.wired.com/story/unciphered-crypto-wallet-recovery/)Wọ́n jẹ́ iṣẹ́ ìtúnṣe owó kirikiri gbogbogbòò, kìí ṣe irinṣẹ́ pàtó fún Zcash, wọ́n sì ń gba owó fún iṣẹ́ náà. ZecHub kò fọwọ́ sí ilé-iṣẹ́ ìtúnṣe èyíkéyìí. Tí o bá lọ sí ọ̀nà yìí, jẹ́rìí sí ìkànnì ìjọba fúnra rẹ kí o sì gbà pé ẹnikẹ́ni tí ó bá kọ́kọ́ fi DM ránṣẹ́ sí ọ jẹ́ ajìjàǹbá.
 
 Tí o bá ṣì ní irúgbìn iṣẹ́ tàbí owó tí o ń ná, bẹ̀rẹ̀ pẹ̀lú ọ̀nà ìgbàpadà ara-ẹni bíi Zkool tàbí Argos lórí ẹ̀rọ rẹ dípò.
 
@@ -206,7 +206,7 @@ Tí o bá ti ní ohun èlò ìgbàpadà Zcash láti YWallet, dá a padà sí Zko
 ## Àwọn ojú ìwé tó jọra
 
 - [Àwọn Àpò Ìpamọ́](/using-zcash/wallets) - àwọn àpò tí a ń tọ́jú àti ìmúrasílẹ̀ wọn fún Ironwood, pẹ̀lú Argos
-- [Igi irin](/zcash-tech/ironwood) - kini igbesoke naa yipada ati idi ti awọn owo fi n lọ si ilu okeere
+- [Ironwood](/zcash-tech/ironwood) - kini igbesoke naa yipada ati idi ti awọn owo fi n lọ si ilu okeere
 - [Àwọn Àkọsílẹ̀](/using-zcash/memos) - bawo ni awọn akọsilẹ ti paroko ṣe n ṣiṣẹ
 - [Àwọn Kọ́kọ́rọ́ Wíwo](/zcash-tech/viewing-keys) - wiwọle kika nikan laisi agbara inawo
 - [Àwọn Nódù Àpò Ìmọ́lẹ̀](/zcash-tech/lightwallet-nodes) - public lightwalletd endpoints Argos can use
