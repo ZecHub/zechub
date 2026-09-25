@@ -220,12 +220,12 @@
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Devices:
+- Devices: Desktop | Mobile
 - Operating System:
 - Wallet Support: Hardware
-- Pools: Transparent
+- Pools: Transparent | Sapling | Ironwood
 - Features: Multi Coin
-- Ironwood: In Progress
+- Ironwood: Ready
 
 ---
 
