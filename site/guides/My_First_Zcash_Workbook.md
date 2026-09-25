@@ -12,7 +12,7 @@ The workbook is freely available for download as a PDF or as an interactive flip
 
 [Outline](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
 
-[Flipbook](https://midd.me/nbp2)
+[Flipbook](https://web.archive.org/web/20250120143405/https://midd.me/nbp2)
 
 [GitHub Repo](https://github.com/massadoptionorg/My-First-Zcash) 
 
