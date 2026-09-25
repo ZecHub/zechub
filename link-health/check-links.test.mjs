@@ -20,7 +20,7 @@ const routeExists = new Function(
   "basename",
   "dirname",
   "existsSync",
-  src.slice(src.indexOf("function transformUri"), src.indexOf("// ── file walking")) +
+  src.slice(src.indexOf("const LOWERCASE_WORDS"), src.indexOf("// ── file walking")) +
     src.slice(src.indexOf("function routeExists"), src.indexOf("// ── external checking")) +
     "; return routeExists;",
 )(basename, dirname, () => false);
