@@ -191,11 +191,11 @@ This is a **mental model**, not the spec. To keep it newcomer-friendly we've qui
 
 | Nkọwa zuru oke site n'isiokwu a | Ebe a na-edozi ya |
 |---|---|
-| Kedu ka envelopu e mechiri emechi ga-esi bụrụ ma ihe zoro ezo ma ihe a na-apụghị ịgbanwe agbanwe? | Isiokwu nke atọ: nkwa |
+| Kedu ka envelopu e mechiri emechi ga-esi bụrụ ma ihe zoro ezo ma ihe a na-apụghị ịgbanwe agbanwe? | Article 3: commitments |
 | Ebee ka igodo na uzommeputa nzuzo si abịa? | Isiokwu nke 1 na nke 2: ubi na usoro |
 | Gịnị bụ *bọdụ ahụ* kpọmkwem? | Isiokwu nke 4: Osisi Merkle |
-| Kedu ka ị ga-esi gosi ihe n'agbanyeghị na ị naghị ekpughe ihe ọ bụla? | Isiokwu nke ise: ihe akaebe na-egosi na enweghị ihe ọmụma |
-| Kedu ka iberibe ise niile si ejikọta ọnụ na ezigbo Zcash? | Nkeji edemede nke isii: usoro nchekwa |
+| Kedu ka ị ga-esi gosi ihe n'agbanyeghị na ị naghị ekpughe ihe ọ bụla? | Article 5: zero-knowledge proofs |
+| Kedu ka iberibe ise niile si ejikọta ọnụ na ezigbo Zcash? | Article 6: the shielded protocol |
 
 ---
 

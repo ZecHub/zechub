@@ -176,7 +176,7 @@ Fedha zinaweza kupatikana kutoka kwa mnemonic pekee. Kila kitu kingine ni cache.
 | `keys.toml` | `<wallet dir>/keys.toml` | Mbegu iliyosimbwa kwa njia fiche + siku ya kuzaliwa + mtandao | **Ndiyo — kama Siri** |
 | `identity.txt` | `[keys] age_identity` | Huondoa maficho `keys.toml` (tumia mamlaka) | **Ndiyo — tofauti na `keys.toml`** |
 | Urefu wa siku ya kuzaliwa | Ndani `keys.toml` | Hurejesha haraka (urefu wowote kabla ya kipimo cha kwanza) | Rekodi kwa kutumia kumbukumbu |
-| `data.sqlite` | `<wallet dir>/data.sqlite` | Akiba ya pochi — imejengwa upya kutoka kwa mbegu wakati wa kurejesha | Hapana — inayoweza kutupwa |
+| `data.sqlite` | `<wallet dir>/data.sqlite` | Akiba ya pochi — imejengwa upya kutoka kwa mbegu kwenye urejeshaji | Hapana — inayoweza kutupwa |
 | `blocks/` | `<wallet dir>/blocks/` | Akiba ya kizuizi kidogo | Hapana — kamwe usisafirishe; inaweza kukua kubwa |
 | `.cookie` | `<datadir>/.cookie` | Kidakuzi cha RPC cha muda mfupi | Hapana — imetengenezwa upya wakati wa kuanza |
 
@@ -292,7 +292,7 @@ zecd --datadir ./data init --restore --birthday 2500000
 | Lahaja ya RPC | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
 | Inahitaji nodi kamili | Ndiyo (mimi mwenyewe) | Zebra au zcashd | Zebra |
 | Urejeshaji usio na uraia | No | N/A | Ndiyo (ya mbegu pekee) |
-| Memo zilizolindwa | Ndiyo (`z_sendmany`) | N/A | Ndiyo (uso wa RPC ya Bitcoin) |
+| Memo zilizolindwa | Ndiyo (`z_sendmany`) | N/A | Ndiyo (uso wa Bitcoin RPC) |
 | Saa pekee (UFVK) | Ndiyo | Ndiyo | Ndiyo |
 | Asili ya wingu | No | Sehemu | Ndiyo |
 | Sakinisha | Muundo/binary | Jenga | `cargo install zecd` |

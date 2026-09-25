@@ -134,8 +134,8 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `notes` | Ihe akaụntị natara n'azụmahịa a, tinyere mgbanwe. Ihe ndetu ezitere gị dị ebe a. Ihe ntinye doro anya enweghị adreesị. |
 | `spends` | Ihe ndekọ akaụntụ ahụ kwuru na azụmahịa a ejirila mee ihe |
 | `outputs` | Ihe azụmahịa ahụ zigara: mmepụta ọ bụla doro anya, tinyere ịkwụ ụgwọ echekwara na adreesị ndị ọzọ yana ndetu ha |
-| `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope` | 0 external (a payment in), 1 internal (change) |
+| `pool` | 0 doro anya, 1 Sapling, 2 Orchard, 3 Ironwood |
+| `scope` | 0 mpụga (ụgwọ dị na ya), 1 nke ime (mgbanwe) |
 
 Ngwa Zkool nwekwara Export Transactions, Memos and Notes na menu akaụntụ ahụ, mana ndị a bụ ihe mkpofu tebụl: ego dị na zatoshis, akara oge Unix, yana memos n'ime faịlụ ọzọ.
 
@@ -203,7 +203,7 @@ nke dismad's [Onye enyemaka ZongoHelper](https://github.com/dismad/zingoHelper) 
 | Ngwaọrụ | Ihe ị nwetara |
 |---|---|
 | ZODL | CSV ụtụ isi nwere ụbọchị, ego, ụgwọ na akara. Naanị afọ kalenda gara aga, ọ na-ahapụ azụmahịa nchekwa, enweghị txid, memo ma ọ bụ adreesị. |
-| Ngwa Zkool | Mbupụ tebụl ndị a na-anaghị arụpụta site na menu akaụntụ |
+| Ngwa Zkool | Mbupụ tebụl ndị a na-anaghị emepụta site na menu akaụntụ |
 | [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Na-ebubata UFVK na `importvk`. `listreceived` n'elu RPC returns natara ndetu nwere txid na memo, mana enweghị ozi na enweghị ụgwọ. |
 | [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` a kọwara ya nke ọma mana e jiri ya mee nnwale, Zallet na-ebubata naanị igodo nlele Sapling, ọ bụghị UFVKs |
 | [zcash-devtool](https://github.com/zcash/zcash-devtool) | Na-ebubata UFVK na `wallet init-fvk`, mgbe ahụ `wallet list-tx`Ụdị CSV ya enweghị txid ma ọ bụ adreesị, ọrụ ahụ kwukwara na ekwesighi iji ya na mmepụta. |

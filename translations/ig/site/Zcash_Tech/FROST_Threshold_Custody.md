@@ -43,7 +43,7 @@ Nchebe nke oke nwere ezi uche mgbe **ịtụfu otu igodo ma ọ bụ onye ekwes�
 |-----------|----------------------------|
 | **DAO ma ọ bụ akụ otu** | Ọ dịghị onye nchịkwa nwere ike ịpụpụ ego n'otu aka; ọ chọrọ nkwenye |
 | **Onye mgbanwe ma ọ bụ onye nlekọta** | Na-ekesa ihe egwu dị mkpa n'ofe mpaghara nchekwa ma ọ bụ ndị ọrụ |
-| **Ebe nchekwa oyi nkeonwe (ya na ezinụlọ a pụrụ ịtụkwasị obi)** | Mmadụ abụọ n'ime mmadụ atọ n'etiti unu na mmadụ abụọ n'ezinụlọ unu — nwụọ ma ọ bụ tụfuo ohere, ego agaghị efu |
+| **Ebe nchekwa oyi nkeonwe (ya na ezinụlọ a pụrụ ịtụkwasị obi)** | 2-of-3 between you + two family members — die or lose access, funds aren't lost |
 | **Escrow** | Onye zụrụ ihe, onye na-ere ihe, na onye na-ekpe ikpe nwere òkè; ego ewepụtara mgbe mmadụ abụọ kwekọrịtara |
 | **Ntinye ego enyemaka dị oke ọnụ ahịa** | ZCG-style: chọrọ ọtụtụ ndị bịanyere aka n'akwụkwọ nkwado onwe ha tupu ịkwụ ụgwọ |
 | **Njikwa isi ihe onye nrụpụta** | Gbochie ihe iyi egwu dị n'ime ụlọ ọrụ - ọ dịghị otu onye injinia nwere ike iwepụ ego usoro ọrụ |
@@ -64,7 +64,7 @@ FROST na-edozi nke a site n'ịrụ ọrụ n'ime ọdọ mmiri ahụ e chebere:
 | A na-ahụ ihe nrịbama n'usoro | Ee — igodo ọha niile ekpughere | Mba — a naghị amata ihe dị iche na mmefu onye bịanyere aka na ya |
 | Ọnụọgụ ndị a na-ahụ anya | Ee | No |
 | A chọrọ nhazi dị mkpa | Ederede dị n'ime yinye | Usoro nkwukọrịta dị n'èzí |
-| Nzuzo | None | Nzuzo zuru oke nke kpuchiri ekpuchi |
+| Nzuzo | Ọ dịghị | Nzuzo zuru oke nke kpuchiri ekpuchi |
 
 ---
 

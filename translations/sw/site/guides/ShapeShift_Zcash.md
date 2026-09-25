@@ -151,7 +151,7 @@ Kadiri mazingira ya udhibiti yanavyozidi kuwa magumu duniani kote, na maeneo kam
 | **Zcash ** | Biashara kamili ZEC yenye usaidizi wa miamala iliyolindwa |
 | **KYC Inahitajika** | No |
 | **Uangalizi** | Hairuhusiwi (watumiaji huweka funguo zao wenyewe) |
-| **Mabadiliko ya Minyororo Mtambuka** | BTC, ETH, Arbitrum, Cosmos, na zaidi |
+| **Kubadilishana kwa Minyororo Mtambuka** | BTC, ETH, Arbitrum, Cosmos, na zaidi |
 | **Miundombinu** | Inaendeshwa na Liquify (usaidizi wa zaidi ya 90 wa blockchain RPC) |
 | **Zcash ** | $50,000 kwa usaidizi wa kiufundi na uuzaji |
 

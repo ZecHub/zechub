@@ -69,7 +69,7 @@ Z3 pin image versions le me `docker-compose.yml`. Ðɔ ɖe edzi kple `Z3_ZEBRA_I
 | Dɔwɔwɔ ƒe kpɔɖeŋu | Binary ɖeka: node + gakotoku | Miɖe node kple gakotoku ƒe nugoewo ɖe vovo |
 | Nusiwo dzi woda asi ɖo | Exɔ dzudzɔ le dɔme (EOS 18 July 2026) | Zebra (alo node bubu si sɔ) |
 | Gakotoku | Wotue ɖe eme `wallet.dat` | Zallet, datadir si wotsɔ nya ɣaɣlawo ŋlɔ tso ƒexɔxɔ nu |
-| Kekeli ƒe asisiwo | Zi geɖe la, lightwalletd si le vovo | Zaino nɔnɔmetata si woate ŋu atia |
+| Kekeli ƒe asisiwo | Zi geɖe la, lightwalletd si woɖe ɖe vovo | Zaino nɔnɔmetata si woate ŋu atia |
 | Config | `zcash.conf` | Per-network faɛlwo le `config/<network>/` kpe ɖe Compose env faɛlwo ŋu |
 | Networks le host ɖeka dzi | Melidzeƒea ƒe dzrewɔwɔ siwo me vevesese le | Klass gbãtɔ: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 

@@ -172,7 +172,7 @@ Enwere ike iweghachite ego site na naanị ihe ncheta. Ihe ọ bụla ọzọ b�
 
 | Ihe ochie | Ọnọdụ | Ihe ọ na-echebe | Ịkwado azụ? |
 |----------|----------|-----------------|----------|
-| **Mkpọpụta okwu iri abụọ na anọ** | Egosiri otu ugboro na `zecd init` | Ego ahụ — mfu = mfu na-adịgide adịgide | **Ee — n'ịntanetị (akwụkwọ/HSM)** |
+| **24-word mnemonic** | Egosiri otu ugboro na `zecd init` | Ego ahụ — mfu = mfu na-adịgide adịgide | **Ee — n'ịntanetị (akwụkwọ/HSM)** |
 | `keys.toml` | `<wallet dir>/keys.toml` | Mkpụrụ ezoro ezo + ụbọchị ọmụmụ + netwọk | **Ee — dị ka ihe nzuzo** |
 | `identity.txt` | `[keys] age_identity` | Decrypt na-ewepụ njehie `keys.toml` (imefu ikike) | **Ee — iche na `keys.toml`** |
 | Ogologo ụbọchị ọmụmụ | N'ime `keys.toml` | Na-eme ka mgbake dị ngwa ngwa (ogologo ọ bụla tupu tx mbụ) | Dekọọ na ihe ncheta |

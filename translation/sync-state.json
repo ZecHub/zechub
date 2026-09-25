@@ -24471,7 +24471,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B+table-rebuild+handfix",
       "edited": false
     },
     "Research/selective-disclosure-zcash.md": {

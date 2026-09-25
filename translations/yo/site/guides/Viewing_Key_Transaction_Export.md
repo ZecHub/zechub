@@ -135,7 +135,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `spends` | Àkọọ́lẹ̀ náà sọ pé ìṣòwò yìí ti lò tán |
 | `outputs` | Ohun tí ìṣòwò náà fi ránṣẹ́: gbogbo ìjáde tí ó ṣe kedere, pẹ̀lú àwọn ìsanwó tí a dáàbò bo sí àwọn àdírẹ́sì mìíràn pẹ̀lú àwọn àkọsílẹ̀ wọn |
 | `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope` | 0 external (a payment in), 1 internal (change) |
+| `scope` | 0 ita (ìsanwó kan ni), 1 ti inu (àyípadà) |
 
 Ohun elo Zkool tun ni Awọn Iṣowo Ọja, Memos ati awọn akọsilẹ ninu akojọ aṣayan iroyin naa, ṣugbọn wọn jẹ idalẹnu tabili aise: iye owo ti o wa ni zatoshis, timestamps Unix, ati awọn memo ni faili lọtọ.
 

@@ -64,7 +64,7 @@ FROST hutatua hili kwa kufanya kazi ndani ya bwawa la ulinzi:
 | Wasaini wanaonekana kwenye mnyororo | Ndiyo — funguo zote za umma zimefichuliwa | Hapana — haitofautiani na matumizi ya mtu mmoja aliyesaini |
 | Kiasi kinachoonekana | Ndiyo | No |
 | Uratibu unahitajika | Hati ya mnyororo | Duru ya mawasiliano nje ya mnyororo |
-| Faragha | None | Faragha iliyolindwa kikamilifu |
+| Faragha | Hakuna | Faragha iliyolindwa kikamilifu |
 
 ---
 

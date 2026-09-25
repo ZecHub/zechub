@@ -175,7 +175,7 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 | Paramita   | Ụdị   | A chọrọ | Nkọwa                          |
 |-------------|--------|----------|--------------------------------------|
 | okwuntughe  | string | ee      | Okwuntughe obere akpa                    |
-| nkeji oge     | number | ee      | Sekọnd iji mee ka obere akpa ahụ ghara imechi  |
+| nkeji oge     | number | ee      | Sekọnd iji mee ka obere akpa ahụ mechie  |
 
 ---
 

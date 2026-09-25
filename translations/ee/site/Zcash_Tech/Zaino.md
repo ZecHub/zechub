@@ -21,7 +21,7 @@ Woƒe akpa vovovoawo me mama alea nana dɔdeasiwo nɔa bɔbɔe:
 | Zebra | Node blibo kple validator |
 | Zaino | Indexer kple asisiwo-dze ŋgɔ API subɔsubɔdɔ |
 | Zallet | Gakotoku ƒe subɔsubɔdɔ |
-| lightwalletd | Kekeli gakotoku server xoxo si Zaino wowɔ be wòaɖɔli alo akpe ɖe eŋu |
+| lightwalletd | Kekeli gakotoku ƒe dɔwɔƒe xoxo si wowɔ Zaino be wòaɖɔli alo akpe ɖe eŋu |
 
 Zaino naa dɔwɔwɔ na light clients, full clients alo wallets kple block explorers. Ena mɔɖeɖe be woaɖo kpe edzi le kɔsɔkɔsɔ si ŋu wowɔ ɖoɖo ɖo la dzi, kɔsɔkpo nyuitɔ siwo womewɔe haɖe o kpakple mempool data siwo Zebra lé ɖe asi me.
 

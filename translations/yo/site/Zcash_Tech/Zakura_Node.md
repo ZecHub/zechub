@@ -45,7 +45,7 @@ Zakura ṣe atẹjade awọn aworan pq ti a ti kọ tẹlẹ ti o dinku akoko am
 |-----------------|------|
 | Àwòrán ìpamọ́ | ~37 ìṣẹ́jú |
 | Fọ́tò tí a gé kúrò | **Lábẹ́ ìṣẹ́jú 2** |
-| Zebra (ìṣọ̀kan pípé) | ~ Wákàtí ogún |
+| Zebra (ìṣọ̀kan pípé) | ~20 hours |
 
 Àwọn àwòrán tí a gé ní ìpele **11 GB**, èyí tí ó mú kí ìdènà ìsopọ̀ **680× yára** ṣeé lò ní ìfiwéra pẹ̀lú ìsopọ̀mọ́ra láti inú ìṣẹ̀dá.
 

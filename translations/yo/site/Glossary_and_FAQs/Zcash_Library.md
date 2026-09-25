@@ -90,7 +90,7 @@
 | Àwọn ìsopọ̀ | O le gba awọn sisanwo Zcash nipasẹ ọpọlọpọ awọn olupese ẹgbẹ 3rd. [Àwọn Olùṣètò Ìsanwó](https://z.cash/zcash-for-business/) |
 | Ètò Ìdánilójú Ìbáṣepọ̀ | Ẹ̀rọ àkójọpọ̀ kan tí ó ń ṣe àwòkọ́ṣe ìṣirò gẹ́gẹ́ bí ìpàṣípààrọ̀ àwọn ìránṣẹ́ láàrín àwọn ẹgbẹ́ méjì: Prover àti Verifier kan. |
 | Idoko-owo | Ọpọlọpọ awọn aṣayan inawo wa fun awọn oludokoowo ile-iṣẹ tabi awọn ọfiisi idile ti o fẹ lati ni ifihan si Zcash. [Àkójọ ni kikun](https://z.cash/investors/) |
-| Ironwood | Ìmúdàgbàsókè nẹ́tíwọ́ọ̀kì (NU6.3) tí ó ṣiṣẹ́ lórí mainnet ní ọjọ́ kejìdínlọ́gbọ̀n oṣù keje ọdún 2026 ní block 3,428,143. Ó ṣe àgbékalẹ̀ adágún tuntun kan tí a dáàbò bò, tí a tún ń pè ní Ironwood, ó sì mú kí adágún Orchard náwó-níkan kí iye tí ó wà tẹ́lẹ̀ lè yípadà sí àwọn turnstile. [Ìwífún síi](/zcash-tech/ironwood) |
+| Ironwood | The network upgrade (NU6.3) that activated on mainnet on 28 July 2026 at block 3,428,143. It introduced a new shielded pool, also called Ironwood, and made the Orchard pool spend-only so existing value migrates across the turnstile. [Ìwífún síi](/zcash-tech/ironwood) |
 
 ## J
 

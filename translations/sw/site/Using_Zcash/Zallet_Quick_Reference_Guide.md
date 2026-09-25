@@ -174,7 +174,7 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 
 | Kigezo   | Aina   | Inahitajika | Maelezo                          |
 |-------------|--------|----------|--------------------------------------|
-| nenosiri  | string | ndiyo      | Nenosiri la pochi                    |
+| kaulisiri  | string | ndiyo      | Nenosiri la pochi                    |
 | muda wa kuisha     | number | ndiyo      | Sekunde chache za kuweka pochi bila kufunguliwa  |
 
 ---
@@ -225,7 +225,7 @@ zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<
 
 | Kigezo          | Aina            | Inahitajika | Maelezo                              |
 |--------------------|-----------------|----------|------------------------------------------|
-| akaunti            | kamba / nambari | ndiyo      | UUID ya akaunti au faharasa ya akaunti ya ZIP-32     |
+| akaunti            | kamba / nambari | ndiyo      | Akaunti ya UUID au faharasa ya akaunti ZIP-32     |
 | receiver_types     | safu ya kamba | no       | Aina za wapokeaji za kujumuisha                |
 | diversifier_index  | number          | no       | Kielezo maalum cha mseto               |
 

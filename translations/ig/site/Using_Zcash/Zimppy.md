@@ -72,7 +72,7 @@ Maka ndị ọrụ AI na-arụ ọrụ dị nro, nyocha iwu, ajụjụ gbasara a
 | **Onye nnata** | A na-ahụ anya | Ezoro ezo | Kwa ihe ịma aka (enweghị njikọ) |
 | **Ego** | A na-ahụ anya | Ezoro ezo | A na-ahụ anya |
 | **Ndetu** | A na-ahụ anya | Ezoro ezo | N/A |
-| **Nchedo ọzọ** | None | Njikọ Memo | Adreesị T nke onye ọ bụla nwere nsogbu |
+| **Nchedo ọzọ** | Ọ dịghị | Njikọ Memo | Adreesị T nke onye ọ bụla nwere nsogbu |
 | **Ụkpụrụ Ojiji Ọrụ** | Njikọ nwere ike | Nkeonwe | Enweghị ike ijikọ (addr ọhụrụ) |
 
 ### Nsogbu Oge Ọgwụgwọ, nke E Ji Usoro Ịmụ Ihe Dozie

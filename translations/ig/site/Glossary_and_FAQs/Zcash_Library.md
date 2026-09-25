@@ -64,7 +64,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 |------|-----------|
 | Fiat-Shamir | Usoro maka iji ihe akaebe nke ihe ọmụma eme ihe ma mepụta mbinye aka dijitalụ dabere na ya. N'ụzọ dị otu a, enwere ike igosi eziokwu ụfọdụ (dịka ihe ọmụma nke ihe nzuzo) n'ihu ọha na-ekpugheghị ozi dị n'okpuru. |
 | Nkwenye iwu | Na-egosi na sistemụ na-akpa àgwà kpọmkwem dịka akọwapụtara, kama ịdabere na nnwale naanị ya. Ndị nyere aka na zkSecurity na ZODL jiri usoro Lean theorem prover kwadoo sekit Ironwood Action n'ụzọ dị otu a, iji gosi na enweghị nsogbu ahụike. |
-| Ụgwọ Ọrụ Ndị Ntọala | Ụgwọ ọrụ nke onye guzobere na-anọchite anya pasentị iri abụọ nke ụgwọ ọrụ blọk niile, a na-ewepụkwa ya na uru blọk ọ bụla ma kesaa ya nke ọma iji kwalite mmepe na uto usoro. |
+| Ụgwọ Ọrụ Ndị Ntọala | The Founder reward represents 20 percent of the total block reward and it is deducted from every block's value and transparently distributed to drive protocol development and growth. |
 | Free2z | Ngwaọrụ maka ọdịnaya na-amaghị aha na onyinye nkeonwe nke Zcash. [Free2z](https://free2z.com) |
 | FROST | Atụmatụ mbinye aka Schnorr nke a haziri gburugburu nke na-agbanwe agbanwe. [Akwụkwọ Nnyocha](https://eprint.iacr.org/2020/852) |
 
@@ -162,7 +162,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 
 | Oge okwu | Nkọwa |
 |------|-----------|
-| Ahịrịokwu Mgbake | Usoro nke mkpụrụedemede iri na abụọ ma ọ bụ iri abụọ na anọ na ọnụọgụgụ eji akwado ma weghachite obere akpa ego. Na Zcash, okwu a na-emegharị mmefu na igodo nlele, na-eme ka ọ dị oke mkpa maka mgbake ego na nchekwa. |
+| Ahịrịokwu Mgbake | A sequence of 12 or 24 letters and numbers used to back up and restore a wallet. In Zcash, this phrase regenerates spending and viewing keys, making it critical for fund recovery and security. |
 
 ## S
 
@@ -186,7 +186,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Netwọk Nnwale | Blockchain dị iche maka ịnwale mmelite na atụmatụ tupu mainnet. |
 | Ndabere Ikpeazụ nke Na-esote (TFL) | Mee nnyocha iji tinye ihe dị mkpa n'azụ usoro ihe akaebe nke ọrụ Zcash's ka e wee nwee ike imecha blọk ndị ọhụrụ na-enweghị dochie ọrụ igwu ala. Crosslink bụ imewe nke si na ya pụta. |
 | Azụmahịa | Ụgwọ ọrụ n'etiti ndị ọrụ, e zigara na netwọk ahụ ma mechaa kwenye na ngọngọ. |
-| Ngwụcha azụmahịa | Azụmahịa ahụ ga-agwụ mgbe ihe dị ka nkeji iri abụọ na ise (blọk iri abụọ) gasịrị ma ọ bụrụ na ekwenyeghị ya; ego ahụ ga-alaghachi na akpaghị aka. |
+| Ngwụcha azụmahịa | Transactions expire after approximately 25 minutes (20 blocks) if unconfirmed; funds return automatically. |
 | Ụgwọ Azụmahịa | Ụgwọ ndabara bụ 0.0001 ZEC. Ụgwọ dị elu na-ebute ụzọ; ụgwọ dị ala nwere ike ibute igbu oge ma ọ bụ njedebe. |
 | Adreesị doro anya | A na-akpọkwa ya taddr. Ọ na-amalite site na t. Ọha zuru oke (dịka Bitcoin). |
 | Azụmahịa Na-apụta Agbanwe | Azụmahịa naanị n'etiti adreesị doro anya - ihe niile na-apụta ìhè n'ihu ọha. |
@@ -239,7 +239,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Zebra | Mmejuputa n'imezu n'ime Zcash Foundation's Rust (nke a na-akpọ zcashd). Mmepụta dị njikere ma na-arụ ọrụ nke ọma. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Zcash mbụ ahụ, nke e si na Bitcoin Core wepụta. Ọ lara ezumike nka na Julaị 2026 mgbe ọ kwụsịrị ọrụ ya ogologo oge, ebe ọrụ ya kewara n'etiti Zebra maka nkwekọrịta na Zallet maka ọrụ obere akpa. |
 | ZIP | Atụmatụ Mmezi Zcash - usoro ọchịchị obodo eji atụ aro ma kwado mgbanwe usoro. [Ebe Nchekwa ZIP](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab. Ụlọ ọrụ ahụ nọọrọ onwe ya hiwere na mbido afọ 2026 site n'aka Josh Swihart na ndị otu injinia Electric Coin Company mbụ mgbe ha gbara arụkwaghịm n'ihi esemokwu ọchịchị na Bootstrap. Ha nwetara ihe karịrị nde dọla iri abụọ na ise na Machị 2026 ma na-elekọta obere akpa Zodl, nke aha ya bụ Zashi gbanwere na Febụwarị 2026. [zodl.com](https://zodl.com) |
+| ZODL | Zcash Open Development Lab. The independent organization founded in early 2026 by Josh Swihart and the former Electric Coin Company engineering team after they resigned over a governance dispute with Bootstrap. It raised over $25 million in seed funding in March 2026 and maintains the Zodl wallet, which was renamed from Zashi in February 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Ihe Ọmụma Ihe Na-abụghị Mmekọrịta nke Ihe Ọmụma — ihe odide nzuzo nke na-akwado azụmahịa Zcash nke e ji nchekwa kpuchie. Na-enye ohere igosi nkwupụta (dịka ọmụmaatụ, mmefu ego ziri ezi) na-ekpugheghị ozi nzuzo ọ bụla. |
 | ZSA (Zcash) | Ihe nrịbama ndị onye ọrụ nyere nke na-eketa nzuzo Zcash's echekwara, na-ahapụ ihe onwunwe ndị ọzọ na-abụghị ZEC ka ha na-agagharị na netwọk ahụ n'onwe ha. E depụtara na [ZIP 226](https://zips.z.cash/zip-0226) na njirimara onye ga-azọ ọkwa maka NU7. |
 

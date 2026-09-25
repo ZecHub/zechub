@@ -72,8 +72,8 @@ Wͻ AI agyinatufoɔ a wͻyɛ adwuma wɔ dwumadie ahodoɔ mu no, mmara ho nhwehw�
 | **Ogyefo** | Nea wotumi hu | Wɔayɛ no encrypted | Per-challenge (wɔntumi nka ho) |
 | **Sika** | Nea wotumi hu | Wɔayɛ no encrypted | Nea wotumi hu |
 | **Nkaeɛbɔ** | Nea wotumi hu | Wɔayɛ no encrypted | N/A |
-| **Replay Ahobammɔ** | None | Memo a wɔkyekyere | Per-asɛnnennen T-address |
-| **Ɔsom a Wɔde Di Dwuma Nhwɛso** | Nea wotumi de bata ho | Kokoa mu | Ɛntumi nkɔ nkitahodi (addr foforo) |
+| **Replay Ahobammɔ** | Ɛnyɛ ebiara | Memo a wɔkyekyere | Per-asɛnnennen T-address |
+| **Ɔsom a Wɔde Di Dwuma Nhwɛso** | Nea wotumi de bata ho | Kokoa mu | Ɛntumi nka ho (adr foforo) |
 
 ### Ɔhaw a Ɛwɔ Akokoɔduro Ho, Agyinapɛn Ahorow Siesiee No
 

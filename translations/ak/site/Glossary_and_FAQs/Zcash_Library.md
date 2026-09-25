@@ -196,7 +196,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Unified Address | Nnɛyi address nhyehyɛe (a wɔde aba NU5) a ɛyɛ adwuma ma sikatua a ɛda adi ne nea wɔabɔ ho ban nyinaa wɔ ahama biako mu. |
+| Unified Address | Nnɛyi address nhyehyɛe (a wɔde aba NU5) a ɛyɛ adwuma ma sikatua a ɛda adi ne nea wɔabɔ ho ban wɔ ahama biako mu. |
 | Upgrade Activation | Block sorokɔ pɔtee a ɛwɔ baabi a network upgrade (e.g. NU5, NU6) yɛ adwuma ankasa. |
 
 ## V

@@ -59,7 +59,7 @@ NU6 bụ otu isiakwụkwọ n'akụkọ toro ogologo banyere etu Zcash si akwụ
 |---|---|
 | Enyemaka ngọngọ | ZEC ọhụrụ e mepụtara site na ngọngọ ọ bụla e gwupụtara n'ala |
 | Azụmahịa Coinbase | Azụmahịa pụrụ iche nke na-akwụ ụgwọ enyemaka na ụgwọ nke otu ngọngọ |
-| Igbe Mkpọchi Ego Nwepụta Ebugharị | Nchekwa dị n'ime usoro nke nwere òkè nke mwepụta maka ojiji obodo kpebiri n'ọdịnihu |
+| Igbe Mkpọchi Ego Nwepụta Ebufeere | Nchekwa dị n'ime usoro nke nwere òkè nke mwepụta maka ojiji obodo kpebiri n'ọdịnihu |
 | Enyemaka Obodo Zcash (ZCG) | Kọmitii nke na-akwado ọrụ nke obodo Zcash na-arụ na maka obodo Zcash |
 | Njikọ ngalaba nkwekọrịta | Ihe njirimara na-eji akọwa iwu mmelite nke ngọngọ na-eso |
 | Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
