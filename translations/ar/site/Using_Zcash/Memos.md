@@ -22,6 +22,14 @@
 
 #### متقدم
 
+> **تاريخي. لم يعد هذا العرض التوضيحي يعمل كما هو مكتوب.**
+>
+> يستخدم العرض التوضيحي أدناه zcashd، ويقرأ [برنامج الاستقبال النصي](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) الخاص به المذكرات عبر `zcash-cli`. وصل zcashd إلى توقفه التلقائي لنهاية الدعم في 18 يوليو 2026، لذا لا يمكن لذلك البرنامج النصي الوصول إلى عقدة عاملة، ولم يُنقل إلى بديل حديث.
+>
+> لا تزال قراءة المذكرات المحمية من سطر الأوامر ممكنة عبر Zallet: يُعيد `zallet rpc z_listunspent` كل ملاحظة محمية مستلمة مع حقل `memoStr` نفسه الذي يقرؤه البرنامج النصي. راجع [الدليل المرجعي السريع لـ Zallet](/using-zcash/zallet-quick-reference-guide) للاطلاع على الأمر، و[دليل الترحيل إلى Zebra و Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) لنقل عقدة بعيدًا عن zcashd. لا يزال Zallet في مرحلة تجريبية (بيتا).
+>
+> يُحتفظ بهذا القسم كسجل تاريخي لعرض Magic-Wormhole التوضيحي.
+
 إليك كيفية استخدام مذكرات Zcash المحمية مع واجهة Magic-Wormhole CLI و zcashd لإرسال الملفات بأمان من حاسوب إلى آخر!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

@@ -22,6 +22,14 @@ There was a person who sent their partner a love note in one of the first blocks
 
 #### Àgbàṣe
 
+> **Ìtàn. Àfihàn yìí kò ṣiṣẹ́ mọ́ bí a ti kọ ọ́.**
+>
+> Àfihàn tó wà nísàlẹ̀ yìí ń lo zcashd, [ìwé-àfọwọ́kọ gbígbà](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) rẹ̀ sì ń ka àwọn memo nípasẹ̀ `zcash-cli`. zcashd dé ìdádúró aládàáṣe ti Òpin Àtìlẹ́yìn (End-of-Support) ní 18 July 2026, nítorí náà ìwé-àfọwọ́kọ yẹn kò lè dé node tó ń ṣiṣẹ́, a kò sì tíì gbé e lọ sí ètò tuntun.
+>
+> Kíka àwọn memo tí a dáàbò bò láti ìlà àṣẹ ṣì ń ṣiṣẹ́ lórí Zallet: `zallet rpc z_listunspent` ń dá gbogbo note tí a dáàbò bò tí a gbà padà pẹ̀lú pápá `memoStr` kan náà tí ìwé-àfọwọ́kọ náà ń kà. Wo [Ìtọ́sọ́nà Ìtọ́kasí Kíákíá ti Zallet](/using-zcash/zallet-quick-reference-guide) fún àṣẹ náà, àti [ìtọ́sọ́nà ìṣípòpadà sí Zebra àti Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) láti gbé node kúrò lórí zcashd. Zallet ṣì wà ní ìpele beta.
+>
+> A pa abala yìí mọ́ gẹ́gẹ́ bí àkọsílẹ̀ ìtàn ti àfihàn Magic-Wormhole.
+
 Eyi ni bi o ṣe le lo Zcash Shielded Memos pẹlu Magic-Wormhole CLI ati zcashd lati fi awọn faili ranṣẹ lailewu lati kọmputa kan si ekeji!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

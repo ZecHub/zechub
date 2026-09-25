@@ -22,6 +22,14 @@ There was a person who sent their partner a love note in one of the first blocks
 
 #### Ọganihu dị elu
 
+> **Akụkọ ihe mere eme. Ihe ngosi a anaghịzi arụ ọrụ dịka e dere ya.**
+>
+> Ihe ngosi dị n'okpuru na-eji zcashd, [edemede nnata](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) ya na-agụkwa memo site na `zcash-cli`. zcashd ruru nkwụsị akpaaka nke ọgwụgwụ nkwado (End-of-Support) na 18 July 2026, ya mere edemede ahụ enweghị ike iru node na-arụ ọrụ, a bufebeghịkwa ya.
+>
+> Ịgụ memo e chebere site na ahịrị iwu ka na-arụ ọrụ na Zallet: `zallet rpc z_listunspent` na-eweghachi note ọ bụla e chebere a natara ya na otu mpaghara `memoStr` ahụ edemede ahụ na-agụ. Lee [Ntuziaka Ntụaka Ngwa ngwa nke Zallet](/using-zcash/zallet-quick-reference-guide) maka iwu ahụ, na [ntuziaka mbufe gaa na Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) iji wepụ node na zcashd. Zallet ka nọ na beta.
+>
+> Edobere ngalaba a dị ka ndekọ akụkọ ihe mere eme nke ihe ngosi Magic-Wormhole.
+
 Here is how to use Zcash Shielded Memos with the Magic-Wormhole CLI and zcashd to securely send files from one computer to another!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

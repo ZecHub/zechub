@@ -22,6 +22,14 @@ There was a person who sent their partner a love note in one of the first blocks
 
 #### Maendeleo
 
+> **Kihistoria. Onyesho hili halifanyi kazi tena kama lilivyoandikwa.**
+>
+> Onyesho lililo hapa chini linatumia zcashd, na [hati yake ya kupokea](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) husoma memo kupitia `zcash-cli`. zcashd ilifikia kusimamishwa kwake kiotomatiki kwa Mwisho wa Usaidizi (End-of-Support) tarehe 18 Julai 2026, kwa hiyo hati hiyo haiwezi kufikia nodi inayofanya kazi, na haijahamishwa.
+>
+> Kusoma memo zilizolindwa kutoka kwenye mstari wa amri bado kunawezekana kwa Zallet: `zallet rpc z_listunspent` hurudisha kila noti iliyolindwa iliyopokelewa pamoja na sehemu ile ile ya `memoStr` ambayo hati husoma. Tazama [Mwongozo wa Marejeleo ya Haraka wa Zallet](/using-zcash/zallet-quick-reference-guide) kwa amri hiyo, na [mwongozo wa kuhamia Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) ili kuhamisha nodi kutoka zcashd. Zallet bado iko katika toleo la beta.
+>
+> Sehemu hii imehifadhiwa kama kumbukumbu ya kihistoria ya onyesho la Magic-Wormhole.
+
 Hapa ni jinsi ya kutumia Zcash Shielded Memos na Magic-Wormhole CLI na zcashd salama kutuma faili kutoka kompyuta moja hadi nyingine!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
