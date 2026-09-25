@@ -145,18 +145,18 @@ Míeɖe eme be míase egɔme bɔbɔe wu. Lean ƒe ŋgɔyiyi ŋutɔŋutɔ la me n
 
 ## Nyagbewo ƒe hatsotsoa
 
-Nyagbe si gɔme woɖe le Eŋlisigbe me be "nuwɔwɔ".
+| Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
 |---|---|
-**Ironwood** Zcash ƒe tsimɔ yeye si ŋu wotrɔ asi le (2026), si xɔ ɖe Orchard tsiƒuƒe si gblẽ la teƒe.
-**Gbɔdzɔmenuwo ƒe Ðekawɔwɔ** Aƒleƒea maxɔ ga si wu esi amewo tsɔ de eme la gbeɖe o.
-Kpeɖodzi si ŋu kakaɖedzi le bia be amesi tsɔ kpeɖodzia vɛ naxɔ ɖasefo vavã.
-** Extractor**: Enye mɔnu si wotsɔna ɖea ɖasefoa le ame sia ame ƒe nya me.
-**Lean**: Kpeɖeŋutɔ si zãa mɔ̃ tsɔ léa ŋku ɖe kpeɖodzia ŋu.
-**ValidLedger** Aʋatsotso ƒe ɖoɖo si dzi woda asi ɖo la fiaa mɔfiafiawo ŋu.
-** Asitelefon ƒe dzesi**. Xexea me liƒo si le akɔntabubu siwo ŋu kpeɖodziwo nɔ kple Rust kɔmpiuta dzi dɔwɔɖoɖo la dome.
-** Le susu siwo wogblɔ me** Ne kpeɖodzia nye nyateƒe la, ekema nya si woŋlɔ ɖi be ele eme.
-** Gbedoname** Aɖe si le tɔdziʋu aɖe ƒe gowo dzi la nye eƒe teƒe siwo woate ŋu akpɔe ɖa.
-** Numeɖeɖewo ƒe kpeɖodzi kɔkɔ** Aɖaŋuɖoɖo si dzi woato awɔ numekɔkɔ le mɔ nyuitɔ nu.
+| **Ironwood** | Zcash's ta yeye si wotsɔ akpoxɔnu wɔ (ƒe 2026), si xɔ ɖe Orchard ta si me vodada le teƒe |
+| **Dadasɔ ƒe fɔmaɖimaɖi** | Ta la mexea asixɔxɔ si lolo wu esi woge ɖe eme le dutoƒo gbeɖe o |
+| **Sidzedze ƒe nyonyome** | Kpeɖodzi si sɔ bia tso lododowɔla la si be wòaɖi ɖase vavã |
+| **Nuɖemɔ̃** | Dɔwɔwɔ si hea ɖasefoa doa goe le lodododzikpɔla ɖesiaɖe si ŋu kakaɖedzi le me |
+| **Blɔ** | Kpeɖodzi kpeɖeŋutɔ si wozãna tsɔ léa ŋku ɖe kpeɖodzia ŋu to mɔ̃ dzi |
+| **Agbalẽgbalẽ si sɔ** | Nusiwo dzi woda asi ɖo ƒe kpɔɖeŋu si wowɔ le se nu la ɖua dzi le nukpɔsusu siwo ŋu wobua tame le la dzi |
+| **Asibidɛ ƒe dzesi** | Liƒo si le akɔntabubu si ŋu kpeɖodzi le kple Rust kɔmpiuta dɔwɔɖoɖo si le dɔ wɔm dome |
+| **Le susu siwo wogblɔ te** | Kpeɖodzia lé ɖe asi si wona ŋkɔ cryptographic assumptions lé |
+| **Tɔtrɔmɔ̃** | Se si ɖo seɖoƒe na ta aɖe ƒe dodo le eƒe gadzraɖoƒe siwo ŋu woate ŋu aɖo kpee |
+| **Nya ɣaɣlawo ƒe nyatakaka si ŋu kakaɖedzi le ŋutɔ** | Crypto tutu kple kpeɖodzi le se nu abe afɔɖeɖe si wozãna ɖaa ene |
 
 ---
 

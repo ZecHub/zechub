@@ -21,11 +21,11 @@
 
 **Zcash.me** is a profile directory and discovery platform that makes it easy for anyone to find and send ZEC to Zcash users. It serves as the "Linktree for Zcash" - a simple way to share your shielded address and social presence with a single link.
 
-Àwọn ìsọfúnni.
+| Ohun kan              | Àwọn àlàyé |
 |-------------------|---------|
-Ìkànnì ìkápá ayélujára.https://zcash.me/](https://zcash.me/) |
+| **Ojú òpó wẹ́ẹ̀bù**       | [https://zcash.me/](https://zcash.me/) |
 | **Twitter**       | [@zcashme](https://x.com/zcashme) |
-Àdàkọ ìsọfúnni: ** Profile Format** `zcash.me/[username]` |
+| **Ìrísí Ìròyìn**| `zcash.me/[username]` |
 | **Status**        | Live (with features in development) |
 
 ### Àwọn Ànímọ́ Pàtàkì Rẹ̀
@@ -39,14 +39,14 @@
 - **Ìṣirò Ìṣe** - Ó ń fi àkókò tí ó kẹ́yìn hàn.
 
 #### Ó Máa Tó Dé
-Àmì. Ìpèjúwe.
+| Ẹ̀yà ara            | Àpèjúwe |
 |--------------------|-------------|
- Àwòrán-ìpínlẹ̀. Wá àwọn oníṣe Zcash tó wà nítòsí rẹ.
-Àpérò Ìṣirò Wo àwọn ìlànà ìdàgbàsókè.
-Àwọn ìwádìí nípa àwùjọ. Ìbò lórí àwọn ọ̀rọ̀ ètò àyíká-ayé.
-Àwọn Ìròyìn àti Àtẹ̀jáde.Àwọn àtúnṣe osise.
-Àpérò. Ìjíròrò àwùjọ.
-Mobile App. Ìgbésí ayé alágbèéká ní kíkún.
+| Máàpù Ipò       | Wa awọn olumulo Zcash nitosi |
+| Àwọn Àlàyé Pẹpẹ| Wo awọn wiwọn idagbasoke |
+| Àwọn ìdìbò agbègbè    | Dibo lori awọn koko-ọrọ eto-ẹkọ ayika |
+| Àwọn Ìròyìn àti Àwọn Ìkéde | Àwọn àtúnṣe tó jẹ́ ti ìjọba |
+| Àpérò              | Ìjíròrò àwùjọ |
+| Ohun èlò alágbèéká         | Ìrírí fóònù alágbéka ni kikun |
 
 ### Bí Mo Ṣe Bẹ̀rẹ̀ Sí Í Kọ Ọ́
 1. Lọ sí [https://zcash.me/](https://zcash.me/) kí o sì tẹ ** Darapọ̀ mọ́ wa**
@@ -65,12 +65,12 @@ Mobile App. Ìgbésí ayé alágbèéká ní kíkún.
 
 TipZ jẹ́ ìlànà ìfúnnilókun tí a ṣe fún àwọn olùdásílẹ̀ àti cypherpunks. Àwọn onífẹ̀ẹ́ lè fi owó orí èyíkéyìí tó bá ti wà nípamọ́; ó máa ń yí padà fúnra rẹ̀, wọ́n á sì gbé e lọ síbi táá rí bíi ZEC ààbò.
 
-Àwọn ìsọfúnni.
+| Ohun kan              | Àwọn àlàyé |
 |-------------------|---------|
-Ìkànnì ìkápá ayélujára.https://tipz.cash/](https://tipz.cash/) |
+| **Ojú òpó wẹ́ẹ̀bù**       | [https://tipz.cash/](https://tipz.cash/) |
 | **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
-Àdàkọ ìsọfúnni: ** Profile Format** `tipz.cash/@[username]` |
-Ìgbé ayé rẹ. Àwa ń gbé ìgbé ayé wa!
+| **Ìrísí Ìròyìn**| `tipz.cash/@[username]` |
+| **Ipo**        | Lóògbé |
 
 > * "tipz.cash jẹ́ ìlànà ìfún-ọ̀fẹ́ fún àwọn olùdásílẹ̀ àti cypherpunks".*
 
@@ -88,12 +88,12 @@ TipZ jẹ́ ìlànà ìfúnnilókun tí a ṣe fún àwọn olùdásílẹ̀ àt
 - Àṣàyàn àìmọ ẹni tó dá gbogbo rẹ̀ sílẹ̀
 
 #### Àwọn Ìsanwó tí ó Wà ní Àlàfo-Ẹ̀rọ (Cross Chain Payments)
-Owó. Àwòrán ìkànnì kan.
+| Owó kọ̀ǹpútà | Nẹ́ẹ̀tìwọ́ọ̀kì |
 |----------|---------|
-ETH Ethereum Ètò ìsọ̀rí-ìṣèlú.
-USDC. Ọ̀pọ̀lọpọ̀ ẹrù ìnáwó.
-SOLana: Ọ̀kan lára àwọn ọmọ iléèwé wa.
-ZEC. Direct Zcash. Ìtòlẹ́sẹẹsẹ ìdìbò ààrẹ ìpínlẹ̀ Kwara ní Nàìjíríà
+| ETH      | Ethereum |
+| USDC     | Ọpọlọpọ awọn ẹwọn |
+| SOL      | Solana |
+| ZEC      | Zcash tààrà |
 
 #### Ààbò Ẹlẹ́dàá
 - Kò sí ewu ìmújáde kúrò ní pẹpẹ.

@@ -13,8 +13,8 @@ Saa akwankyerɛ yi kyerɛkyerɛ sɛnea sikatua kwan no yɛ adwuma, sɛnea wɔhye
 1. [Dɛn nti na wode ZGo bedi dwuma](#why-use-zgo)
 2. [Sɛnea ZGo yɛ adwuma](#how-zgo-works)
 3. [Wɔrehyehyɛ akontaabu](#setting-up-an-account)
-4. [ZKɔ ne Xero](#zgo-with-xero)
-5. [ZKɔ ne WooCommerce so](#zgo-with-woocommerce)
+4. [ZGo ne Xero](#zgo-with-xero)
+5. [ZGo ne WooCommerce](#zgo-with-woocommerce)
 6. [Su](#features)
 7. [Mfomso ahorow a wɔtaa di](#common-mistakes)
 8. [Awie](#conclusion)
@@ -57,7 +57,7 @@ Nhyehyɛe titiriw no:
 
 Sɛ akontaabu no yɛ adwuma wie a, aguadifo koro no ara betumi de ZGo adi dwuma de atua sika pɛnkoro (QR koodu biako wɔ pop-up adeyɛ bi mu) anaasɛ ɔde wire akɔ nhyehyɛe a ɛtra hɔ daa mu denam Xero anaa WooCommerce so.
 
-## ZKɔ ne Xero
+## ZGo ne Xero
 
 [Xero, na ɔde ne nsa kyerɛɛ ne so](https://www.xero.com/) yɛ cloud accounting platform a nnwuma nketewa ne akɛse pii de di dwuma. ZGo–Xero nkabom no ma aguadifoɔ bi de sika a wɔde tua ho ka ma wɔ Xero mu, ma adetɔfoɔ no tua wɔ ZEC mu, na ɛma Xero hyɛ sika a wɔde tua ho ka no agyiraeɛ berɛ a asɛm no asi so dua pɛn no.
 
@@ -73,7 +73,7 @@ ZEC no si aguadifo no sika kotoku mu, ɛnyɛ akontaabu biara a ZGo di so anaa Xe
 
 Sɛ wopɛ sɛ wohyehyɛ nea edi kan a, di nantew a wɔatu ho ama no akyi: [Xero Integration Configuration](https://hedgedoc.vergara.tech/s/4iXC67fmb).
 
-## ZKɔ ne WooCommerce
+## ZGo ne WooCommerce
 
 Wɔ intanɛt so sotɔɔ ahorow a ɛyɛ adwuma wɔ [WooCommerce](https://woocommerce.com/) ne [WordPress](https://wordpress.org/), ZGo de plugin a wɔatu ho ama ma. Plugin no de Zcash ka ho sɛ ɔkwan a wɔfa so tua ka wɔ checkout mu na ɛdi order tebea no ho dwuma ankasa bere a sikatua no si so dua no.
 

@@ -107,10 +107,10 @@ The tree proves a note **exists**. It does not, by itself, stop you from spendin
 
 Nítorí náà, àwọn ẹ̀ka ìjọba méjèèjì yìí ń ṣe ojúṣe tó jọra wọn, àti pé pípín wọn sọ́tọ̀ ló máa ń gé ìsopọ̀ tó wà láàárín ìgbà tí wọ́n bí ìwé kan àti ìgbà tí wọ́n pa á:
 
-Ọ̀nà tí wọ́n gbà ṣe é. Ìbéèrè tí wọ́n máa ń dáhùn.
+| Ìṣètò | Àwọn ìdáhùn sí ìbéèrè náà | Ìgbà tí a ti ṣe àtúnṣe sí i |
 |---|---|---|
-"Ṣe àlàyé yìí wà?" Àlàyé kan ni a ṣe (àlàyé náà wà)
-"Ṣé a ti ná owó yìí rí?" Àkọsílẹ̀ kan jẹ́ "a ti ná" (a ti tẹ àtúnṣe náà jáde).
+| **Ṣe akiyesi igi ifaramo** | "Ṣé àkọsílẹ̀ yìí wà?" | A ṣe àkọsílẹ̀ **dá** (a fi ìfọwọ́sowọ́pọ̀ kún un) |
+| **Ẹ̀rọ ìparẹ́** | "Ṣé wọ́n ti ná owó yìí tán?" | Àkọsílẹ̀ kan ni a ti lo** (a ti tẹ̀ ẹ́ jáde láìsí ìtúpalẹ̀) |
 
 ---
 
@@ -133,15 +133,15 @@ Simplifications, as usual. Real incremental Merkle trees track "frontier" nodes 
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-**Merkle tree**. Igi ìdìbò; àwọn ewé jẹ́ àmì ìka ìsọfúnni, àwọn òbí ń díbò àwọn ọmọ wọn.
-**Leaf**. A ìsàlẹ node; ni Zcash, ọkan akọsilẹ adehun.
-**Merkle root**: Ẹ̀rí ìka kan ṣoṣo tó wà lókè tó ṣàkópọ̀ gbogbo igi náà.
-**Ojú-ọ̀nà ìdánilójú/Ẹ̀rí Merkle** Àwọn àdàkọ tí a nílò láti fi hàn pé ewé wà nínú igi.
-**Incremental Merkle tree**. Igi Merkle tí ó ní àfikún nìkan (àwọn ewé nìkan ni a máa ń fi kún un)
-**Anchor** A Merkle root tí a spend references as "the tree state I'm proving against" (ìdílé Merkle kan tí a spent tọ́ka sí gẹ́gẹ́ bí "àwùjọ igi tí mò ń fi hàn lòdì sí")
-** Nullifier set** Ìkójọ àkànṣe àwọn àmì tí a lò tí ó ń dí àgbékalẹ̀ ìlọ́po méjì.
+| **Igi Merkle** | Igi hashes; ewé jẹ́ ìka ìka data, àwọn òbí hashes fún àwọn ọmọ wọn |
+| **Ewé** | Ipò ìsàlẹ̀ kan; nínú Zcash, ìfaramọ́ àkọsílẹ̀ kan |
+| **Gbòǹgbò Merkle** | Ìka ìka òkè kan ṣoṣo tó ṣàkópọ̀ gbogbo igi náà |
+| **Ọ̀nà ìjẹ́rìísí / ẹ̀rí Merkle** | Àwọn ìdènà ọmọ ìyá tí a nílò láti fi hàn pé ewé kan wà nínú igi náà |
+| **Igi Merkle ti o pọ si** | Igi Merkle kan ṣoṣo tí a fi kún un (a máa ń fi ewé kún un nígbà gbogbo) |
+| **Ìdákọ̀ró** | Gbòǹgbò Merkle tí a ná ń tọ́ka sí gẹ́gẹ́ bí "ipò igi tí mo ń fi ẹ̀sùn kàn" |
+| **Ẹ̀rọ ìparẹ́** | Àkójọpọ̀ àwọn àmì tí a fi owó pamọ́ sí ọ̀tọ̀ọ̀tọ̀ tí ó ń dí ìnáwó méjì lọ́wọ́ |
 
 ---
 

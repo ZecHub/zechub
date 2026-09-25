@@ -93,15 +93,15 @@ Kazi inayohusiana na hiyo tayari inaonekana. [Zakura](https://zechub.wiki/zcash-
 
 ## Orodha ya maneno
 
-Neno Maana yake.
+| Muhula | Maana |
 |---|---|
-Jaribio la kutatua ujumbe wa siri. Kujaribu kufuta maandishi ya shughuli moja kwa moja ili kupata zile zilizotumwa kwako wewe mwenyewe.
- Usambazaji wa siri ndani ya bendi. Kuweka malipo kwa njia za siri katika shughuli kwenye blockchain, kama Zcash anavyofanya leo.
-❖ Malipo nje ya bendi. Kupitisha maelezo malipo moja kwa moja kati ya mtumaji na mpokeaji badala ya kupitia mlolongo wa fedha.
-◯ Usanifu wa usahau. Kuleta data ya mlolongo ambayo mkoba unahitaji bila kuonyesha ni data gani iliyoombwa.
-DATA-CAREING PROOF (PCD) Data ambayo husafiri na uthibitisho wa usahihi wake, hivyo ushahidi unaweza kuunganishwa na kufungwa.
-❖ Kuhifadhiwa shughuli jumla. njia Tachyon ya bundling hali kulindwa mabadiliko, kubadilisha jinsi wao ni kuwasiliana na saini;
-Uhasibu wa kitabu cha hesabu. mali ambayo ulinzi shughuli haiwezi kuwa alisema mbali kutoka kwa kila mmoja.
+| Uondoaji wa usimbaji fiche wa majaribio | Kujaribu kuficha miamala moja baada ya nyingine ili kupata ile iliyoelekezwa kwako |
+| Usambazaji wa siri ndani ya bendi | Kuweka siri ya malipo ndani ya muamala kwenye blockchain, kama Zcash inavyofanya leo |
+| Malipo ya nje ya bendi | Kupitisha maelezo ya malipo moja kwa moja kati ya mtumaji na mpokeaji badala ya kupitia mnyororo |
+| Usawazishaji usio wazi | Kuchukua data ya mnyororo ambayo pochi inahitaji bila kufichua ni data gani iliyoombwa |
+| Data ya kubeba uthibitisho (PCD) | Data inayosafiri ikiwa na uthibitisho wa usahihi wake, ili uthibitisho uweze kuunganishwa na kubanwa |
+| Jumla ya miamala iliyolindwa | Njia ya Tachyon ya kuunganisha mabadiliko ya hali yaliyolindwa, kubadilisha jinsi yanavyowasilishwa na kusainiwa |
+| kutotofautisha leja | Mali iliyolinda miamala haiwezi kutofautishwa kati ya mali nyingine |
 
 <br/>
 

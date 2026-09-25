@@ -145,18 +145,18 @@ We simplified for clarity. The real Lean development is far more detailed than t
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-** Ironwood** Zcash mpya kulindwa pool (2026), kuchukua nafasi ya Orchard na makosa pool.
-** Usawa wa usawa**. Hifadhi kamwe hulipa thamani zaidi kuliko iliingia kwa umma.
-** Ujuzi soundness** ushahidi halali inahitaji prover kushikilia shahidi halisi.
-** Extractor**. utaratibu kwamba pulls shahidi nje ya yoyote convincing prover.
-Msaidizi wa uthibitisho kutumika kwa mashine-kuangalia uhakiki.
-** ValidLedger** Mfano rasmi wa makubaliano sheria theorems sababu juu ya...
-** alama ya vidole**. mpaka kati ya hisabati kuthibitika na programu mbio Rust.
-** Chini ya madai alisema** The ushahidi anaendelea zinazotolewa jina cryptographic dhana kushikilia.
-** Turntile**. sheria capping exit pool ya katika amana yake verifiable.
-** Ufichaji wa uhakika mkubwa** Kujenga crypto na uthibitisho rasmi kama hatua ya kawaida.
+| **Ironwood** | Bwawa jipya Zcash's lenye ulinzi (2026), likichukua nafasi ya bwawa Orchard lenye dosari |
+| **Uadilifu wa usawa** | Bwawa la kuogelea halilipi thamani zaidi ya kuingia hadharani |
+| **Usawa wa maarifa** | Ushahidi halali unahitaji mthibitishaji kuwa na ushahidi halisi |
+| **Kitoaji** | Utaratibu unaomtoa shahidi kutoka kwenye uthibitisho wowote unaoshawishi |
+| **Konda** | Msaidizi wa uthibitishaji alitumika kukagua uthibitishaji kwa mashine |
+| **Leja Halali** | Mfano rasmi wa makubaliano hutawala nadharia za mantiki |
+| **Alama ya vidole** | Mpaka kati ya hesabu iliyothibitishwa na programu ya Rust inayoendeshwa |
+| **Chini ya dhana zilizotajwa** | Uthibitisho umetoa dhana zilizotajwa za kriptografia |
+| **Turnstile** | Sheria inayoweka mipaka ya njia za kutoka za bwawa la kuogelea kwenye amana zake zinazoweza kuthibitishwa |
+| **Usimbaji fiche wa uhakika wa hali ya juu** | Kujenga crypto kwa uthibitisho rasmi kama hatua ya kawaida |
 
 ---
 

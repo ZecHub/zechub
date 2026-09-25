@@ -16,12 +16,12 @@ Zaino tena Zebra ne client software ntam. zebra yɛ consensus node: ɛyɛ downlo
 
 Saa ntetewee yi ma dwumadi ahorow no da hɔ:
 
-Ɔfã no. Dwumadie no.
+| Component no | Asodie |
 |:--|:--|
-: Zebra. N'ade nyinaa ne no-node na ɛhwɛ so ma ɛyɛ yie.
-Zaino: Index na ɔhwεfoɔ-anim API dwumadie.
+| Zebra | Node a ɛyɛ pɛpɛɛpɛ ne validator |
+| Zaino | Indexer ne API dwumadie a ɛhwɛ akraman |
 | Zallet | Wallet service |
-lightwalletd. Light wallet server dada a Zaino ayɛ sɛ ɔde besi ananmu anaa ɔboa no so, na yɛ de di dwuma wɔ baabiara a yɛwɔ biara.
+| lightwalletd | Older light wallet server a wɔayɛ Zaino sɛ ɛbɛsesa anaasɛ ɛbɛboa |
 
 Zaino ma dwumadie a ɛfa light clients, full clients anaa wallets ne block explorers ho. Ɛma kwan kɔ finalized chain no mu, best chain a ɛnni awieɛ na ɛyɛ papa paa wɔ hɔ, ɛne mempool data a ɛwɔ Zebra nsam.
 

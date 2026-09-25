@@ -73,4 +73,4 @@ Shade Protocol nnyinasosɛm a ɛfa nkabom ne boɔ a wɔkyere ho no ma fapem a ɛ
 
 [Altcoin Buzz.io a ɛwɔ hɔ no](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
-[Nsɛm a wɔka kyerɛ.io](https://messari.io/project/shade/profile)
+[Messari.io](https://messari.io/project/shade/profile)

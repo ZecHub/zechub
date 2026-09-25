@@ -133,7 +133,7 @@ We simplified for clarity. The real Lean development is far more detailed than t
 
 ## 10. Nchịkọta nke Ihe Ndị E Dere na Ya
 
-- Zcash zara ahụhụ Orchard ọ bụghị naanị na nkedo kama site na ** igwe-enyocha ihe akaebe** (karịa ** 2,700 theorems ** na ** Lean, nke ọha nwere) maka ọdọ mmiri ọhụrụ ya.
+- Zcash zara ahụhụ Orchard ọ bụghị naanị site na iji ihe mgbochi kamakwa site na **ihe akaebe nke igwe nyochachara** (ihe karịrị **theorems 2,700** na **Lean**, nke dị n'ihu ọha) maka ọdọ mmiri **Ironwood** ọhụrụ ya.
 - Ihe akaebe ahụ na-egosi ** nguzozi iguzosi ike n'ezi ihe** (olulu mmiri anaghị akwụ ụgwọ karịa ka ọha mmadụ banyere ya), nke e wuru na ** ezi uche nke ọmụma ** (ihe àmà dị mma chọrọ onye nyocha iji jide ezigbo onye akaebe, nyochaa site na extractor). Eziokwu bụ kpọmkwem akụnụba nke oghere Orchard bug.
 - Ọ na-atụle maka **akwụkwọ ndekọ ọ bụla dị mma**, ọ bụghị ikpe ndị a họpụtara ahọpụta, nke bụ ihe mechiri klas nke njehie aghụghọ zoro ezo ule ahụ.
 - A na-ejikwa oghere mgbakọ na mwepụ nke ngwanrọ site n'aka mkpịsị aka: a naghị achọpụta njehie ndị e gosipụtara, ma ọ bụla mmejuputa iwu ga - abụ ** achọpụtara ** na ndekọ ọha.
@@ -145,18 +145,18 @@ We simplified for clarity. The real Lean development is far more detailed than t
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-**Ironwood** Zcash ọhụrụ echekwara ọdọ mmiri (2026), dochie ntụpọ Orchard ọdọ mmiri.
-** Balance integrity** Ọdọ mmiri anaghị akwụ ụgwọ karịa uru ọha na eze tinyere ya.
-** Ihe ọmụma siri ike** A ezi ihe àmà na-achọ onye prover jide a ezigbo akaebe.
-Usoro nke na-ewepụta onye akaebe site n'ihe ọ bụla e ji eme ihe iji kweta.
-**Lean** Onye na-enyere aka nyocha nke eji igwe enyocha nkwenye ahụ.
-** ValidLedger** Ihe omuma nke nkwekorita na-achịkwa ihe kpatara usoro iwu.
-Ihe dị n'agbata mgbakọ na mwepụ a nwapụtarala nke ọma na sọftụwia Rust nọ n"ọrụ.
-** N'okpuru nkwupụta ekwuru** Ihe akaebe ahụ na-akwado ma ọ bụrụhaala aha ya bụ nkwenye cryptographic.
-** Turnstile** A iwu capping a ọdọ mmiri si ụzọ ọpụpụ na ya verifiable ego.
-** Cryptography dị elu** Ịmepụta crypto na nkwenye ziri ezi dịka usoro ọkọlọtọ.
+| **Ironwood** | Ọdọ mmiri ọhụrụ Zcash's nke e ji ihe nchebe kpuchie (2026), nke na-anọchi ọdọ mmiri Orchard nke nwere ntụpọ |
+| **Iguzozi n'etiti ihe dị iche iche** | Ọdọ mmiri ahụ anaghị akwụ ụgwọ karịa ka ọ na-akwụ n'ihu ọha na eze |
+| **Ime ihe ọmụma** | Ihe akaebe dị irè chọrọ ka onye akaebe jide ezigbo onye akaebe |
+| **Ihe na-ewepụta ihe** | Usoro nke na-adọpụ onye akaebe ahụ n'ime onye akaebe ọ bụla na-eme ka mmadụ kwenye |
+| **Lean** | Onye enyemaka akaebe ejiri igwe lelee nkwenye ahụ |
+| **Akwụkwọ ndekọ ego dị irè** | Ụdị nkwekọrịta nkịtị na-achịkwa echiche ndị ahụ |
+| **Mkpisiaka** | Ókè dị n'etiti mgbakọ na mwepụ a nwapụtara na ngwanrọ Rust na-agba ọsọ |
+| **Dịka echiche ndị e kwuru** | Ihe akaebe ahụ na-ejide echiche nzuzo akpọrọ aha ya |
+| **Ụgbọala ntụgharị** | Iwu na-egbochi ụzọ ọpụpụ ọdọ mmiri na ebe a na-edebe ego ya |
+| **Nkọwapụta mkpuchi dị elu** | Iwuli crypto site na nkwenye iwu dịka usoro ọkọlọtọ |
 
 ---
 

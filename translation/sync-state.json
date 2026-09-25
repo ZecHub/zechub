@@ -29,7 +29,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+defi-brand-restore+gloss-restore",
+      "tool": "gt-static+brand-restore+defi-brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -101,7 +101,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "Privacy_Tools/Tor_and_I2P.md": {
@@ -245,7 +245,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static+brand-restore+prose-retranslate",
       "edited": false
     },
     "Start_Here/Development_Fund.md": {
@@ -517,7 +517,7 @@
       "src_commit": "47d89c3674c1a084a65b77b6fb0cc90d1a882a55",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -533,7 +533,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
@@ -549,7 +549,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Creating_Zcon_Highlights.md": {
@@ -565,7 +565,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
@@ -613,7 +613,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Community_Links.md": {
@@ -629,7 +629,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -637,7 +637,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+jsx-restore",
+      "tool": "gt-static+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/ZCAP.md": {
@@ -677,7 +677,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+jsx-restore",
+      "tool": "gt-static+brand-restore+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Zcash_Global_Ambassadors.md": {
@@ -685,7 +685,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -821,7 +821,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Social_Media/Cryptonote.md": {
@@ -989,7 +989,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+deadlink-repair+gloss-restore",
+      "tool": "gt-static+deadlink-repair+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -1005,7 +1005,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
@@ -1013,7 +1013,7 @@
       "src_commit": "a7088bd66279fea1abde028ad0771c7f833074e7",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static+brand-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -1045,7 +1045,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
@@ -1053,7 +1053,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Pepper_Sync.md": {
@@ -1061,7 +1061,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static+brand-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
@@ -1149,7 +1149,7 @@
       "src_commit": "47d89c3674c1a084a65b77b6fb0cc90d1a882a55",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -1165,7 +1165,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -1333,7 +1333,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+jsx-restore",
+      "tool": "gt-static+brand-restore+jsx-restore+prose-retranslate",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -1341,7 +1341,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -1413,7 +1413,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -1421,7 +1421,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/My_First_Zcash_Workbook.md": {
@@ -1429,7 +1429,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/Nym_VPN.md": {
@@ -1469,7 +1469,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+gloss-restore",
+      "tool": "gt-static+brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "guides/Using_ZEC_Privately.md": {
@@ -1493,7 +1493,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate+table-rebuild",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -1533,7 +1533,7 @@
       "src_commit": "89726296ed07ac0ff07ba6bfac0763bea5845c3d",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/Zenith_Installation.md": {
@@ -1557,7 +1557,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
@@ -1669,7 +1669,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/selective-disclosure-zcash.md": {
@@ -1685,7 +1685,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
@@ -1693,7 +1693,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
@@ -1701,7 +1701,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+handfix",
+      "tool": "nllb-200-3.3B+handfix+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Centralized_Swaps.md": {
@@ -1725,7 +1725,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Z3_Stack.md": {
@@ -1733,7 +1733,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -1741,7 +1741,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {
@@ -5291,7 +5291,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+defi-brand-restore+gloss-restore",
+      "tool": "gt-static+brand-restore+defi-brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -5331,7 +5331,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "tool": "gt-static+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Privacy_Tools/PGP_Encryption.md": {
@@ -5363,7 +5363,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "Privacy_Tools/Tor_and_I2P.md": {
@@ -5387,7 +5387,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "Research/Dash_Zcash_Orchard_Integration.md": {
@@ -5419,7 +5419,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+restore-frontmatter-key+gloss-restore",
+      "tool": "gt-static+restore-frontmatter-key+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -5427,7 +5427,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+restore-frontmatter-key",
+      "tool": "gt-static+restore-frontmatter-key+prose-retranslate",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
@@ -5507,7 +5507,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static+brand-restore+prose-retranslate",
       "edited": false
     },
     "Start_Here/Development_Fund.md": {
@@ -5779,7 +5779,7 @@
       "src_commit": "47d89c3674c1a084a65b77b6fb0cc90d1a882a55",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+table-rebuild",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -5795,7 +5795,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
@@ -5811,7 +5811,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Creating_Zcon_Highlights.md": {
@@ -5827,7 +5827,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
@@ -5867,7 +5867,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "tool": "gt-static+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
@@ -5875,7 +5875,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Community_Links.md": {
@@ -5891,7 +5891,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gem-brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+gem-brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -5899,7 +5899,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+jsx-restore",
+      "tool": "gt-static+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/ZCAP.md": {
@@ -5939,7 +5939,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+jsx-restore",
+      "tool": "gt-static+brand-restore+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Zcash_Global_Ambassadors.md": {
@@ -5947,7 +5947,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -6019,7 +6019,7 @@
       "src_commit": "b117773198de9576bf719481de0091455a37c791",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Zcash_Organizations/Shielded_Labs.md": {
@@ -6083,7 +6083,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Social_Media/Cryptonote.md": {
@@ -6243,7 +6243,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+brand-restore+gloss-restore",
+      "tool": "gt-static+brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -6251,7 +6251,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+deadlink-repair+gloss-restore",
+      "tool": "gt-static+deadlink-repair+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -6259,7 +6259,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Ironwood.md": {
@@ -6307,7 +6307,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
@@ -6315,7 +6315,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Pepper_Sync.md": {
@@ -6323,7 +6323,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
@@ -6363,7 +6363,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {
@@ -6411,7 +6411,7 @@
       "src_commit": "47d89c3674c1a084a65b77b6fb0cc90d1a882a55",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -6427,7 +6427,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -6595,7 +6595,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+jsx-restore",
+      "tool": "gt-static+brand-restore+jsx-restore+prose-retranslate",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -6603,7 +6603,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -6635,7 +6635,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "tool": "gt-static+jsx-restore+prose-retranslate",
       "edited": false
     },
     "guides/Free2Z_Livestreaming.md": {
@@ -6675,7 +6675,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -6683,7 +6683,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/My_First_Zcash_Workbook.md": {
@@ -6691,7 +6691,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/Nym_VPN.md": {
@@ -6755,7 +6755,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -6819,7 +6819,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
@@ -6907,7 +6907,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "tutorials/shieldedNewsletter/readme.md": {
@@ -6931,7 +6931,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Research/selective-disclosure-zcash.md": {
@@ -6947,7 +6947,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
@@ -6955,7 +6955,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
@@ -6963,7 +6963,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+handfix",
+      "tool": "nllb-200-3.3B+handfix+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Centralized_Swaps.md": {
@@ -6995,7 +6995,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -7003,7 +7003,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {
@@ -12307,7 +12307,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+defi-brand-restore+gloss-restore+handfix",
+      "tool": "nllb-200-3.3B+brand-restore+defi-brand-restore+gloss-restore+handfix+table-rebuild",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -12323,7 +12323,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Arti_Tor.md": {
@@ -12347,7 +12347,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
       "edited": false
     },
     "Privacy_Tools/PGP_Encryption.md": {
@@ -12355,7 +12355,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Penumbra.md": {
@@ -12371,7 +12371,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Shade_Protocol.md": {
@@ -12379,7 +12379,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Tor_and_I2P.md": {
@@ -12395,7 +12395,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+image-restore",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -12435,7 +12435,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+frontmatter-strip+restore-frontmatter+gloss-restore",
+      "tool": "nllb-200-3.3B+frontmatter-strip+restore-frontmatter+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -12467,7 +12467,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-1/article-1-finite-fields.md": {
@@ -12475,7 +12475,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-2/article-2-elliptic-curves.md": {
@@ -12483,7 +12483,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -12491,7 +12491,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-4/article-4-merkle-trees.md": {
@@ -12499,7 +12499,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-5/article-5-zero-knowledge-proofs.md": {
@@ -12507,7 +12507,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-6/article-6-shielded-protocol.md": {
@@ -12515,7 +12515,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+table-rebuild",
       "edited": false
     },
     "Start_Here/Developer_Resources.md": {
@@ -12523,7 +12523,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Start_Here/Development_Fund.md": {
@@ -12531,7 +12531,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Start_Here/How_Zcash_Is_Organized.md": {
@@ -12547,7 +12547,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
@@ -12619,7 +12619,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+gloss-restore+image-restore",
       "edited": false
     },
     "Using_Zcash/Creators_and_Tips.md": {
@@ -12627,7 +12627,7 @@
       "src_commit": "d7a1e6c69d92b9953cb92fd433faac01fe0204d1",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+handfix",
+      "tool": "nllb-200-3.3B+handfix+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -12643,7 +12643,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Using_Zcash/Faucets.md": {
@@ -12667,7 +12667,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -12691,7 +12691,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -12707,7 +12707,7 @@
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -12723,7 +12723,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -12763,7 +12763,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {
@@ -12787,7 +12787,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Zimppy.md": {
@@ -12795,7 +12795,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -12803,7 +12803,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
@@ -12811,7 +12811,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
@@ -12851,7 +12851,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -12891,7 +12891,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Community_Links.md": {
@@ -12907,7 +12907,7 @@
       "src_commit": "b2e32d37200ec07f1cb7e9e843d045b0f76d67cf",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+deadlink-5pages+gem-brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+deadlink-5pages+gem-brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -12915,7 +12915,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/ZCAP.md": {
@@ -12963,7 +12963,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -12971,7 +12971,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Media.md": {
@@ -13051,7 +13051,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+handfix",
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
@@ -13107,7 +13107,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Hash_Functions.md": {
@@ -13115,7 +13115,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Lelantus.md": {
@@ -13123,7 +13123,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Mnemonic_Seed_Phrases.md": {
@@ -13131,7 +13131,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Podcasts.md": {
@@ -13155,7 +13155,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_Zcash_Podcast.md": {
@@ -13163,7 +13163,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_z2z_Podcast.md": {
@@ -13187,7 +13187,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/TEEs.md": {
@@ -13195,7 +13195,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Zcash_Addresses.md": {
@@ -13203,7 +13203,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Social_Media/Zero_to_Zero-knowledge.md": {
@@ -13219,7 +13219,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Canopy.md": {
@@ -13227,7 +13227,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Crosslink_Protocol.md": {
@@ -13251,7 +13251,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -13275,7 +13275,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Ironwood.md": {
@@ -13283,7 +13283,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
@@ -13291,7 +13291,7 @@
       "src_commit": "a7088bd66279fea1abde028ad0771c7f833074e7",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -13299,7 +13299,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -13307,7 +13307,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6_1.md": {
@@ -13315,7 +13315,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6_2.md": {
@@ -13323,7 +13323,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
@@ -13331,7 +13331,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Pepper_Sync.md": {
@@ -13339,7 +13339,7 @@
       "src_commit": "86d3ecc894bdfa65c01a25387c7ffc18e04b5819",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
@@ -13347,7 +13347,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -13363,7 +13363,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+brand-case+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+brand-case+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -13371,7 +13371,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Sprout.md": {
@@ -13379,7 +13379,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+handfix",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+handfix+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {
@@ -13419,7 +13419,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
@@ -13427,7 +13427,7 @@
       "src_commit": "80d7cc56bef87f1402c37cdc19d06447667cc48c",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -13443,7 +13443,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -13467,7 +13467,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -13515,7 +13515,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
@@ -13547,7 +13547,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
@@ -13579,7 +13579,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "contribute/ZecHub_DAO.md": {
@@ -13587,7 +13587,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
@@ -13651,7 +13651,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate+image-restore",
       "edited": false
     },
     "guides/Free2Z_Livestreaming.md": {
@@ -13675,7 +13675,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
@@ -13747,7 +13747,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "guides/Using_ZEC_Privately.md": {
@@ -13771,7 +13771,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -13851,7 +13851,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+image-restore",
       "edited": false
     },
     "guides/coinholder_log_parser/help.md": {
@@ -13883,7 +13883,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "tutorials/Full_Node_Tutorials.md": {
@@ -13891,7 +13891,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "tutorials/Using_Zcash.md": {
@@ -13899,7 +13899,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "tutorials/Wallet_Tutorials.md": {
@@ -13947,7 +13947,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/selective-disclosure-zcash.md": {
@@ -13963,7 +13963,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
@@ -13971,7 +13971,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
@@ -13979,7 +13979,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Centralized_Swaps.md": {
@@ -14003,7 +14003,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Z3_Stack.md": {
@@ -14011,7 +14011,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -14019,7 +14019,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {
@@ -22831,7 +22831,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+defi-brand-restore+near-brand-restore+gloss-restore+handfix",
+      "tool": "nllb-200-3.3B+defi-brand-restore+near-brand-restore+gloss-restore+handfix+table-rebuild",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -22847,7 +22847,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Arti_Tor.md": {
@@ -22871,7 +22871,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+image-restore",
       "edited": false
     },
     "Privacy_Tools/PGP_Encryption.md": {
@@ -22879,7 +22879,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Penumbra.md": {
@@ -22895,7 +22895,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Shade_Protocol.md": {
@@ -22903,7 +22903,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Privacy_Tools/Tor_and_I2P.md": {
@@ -22919,7 +22919,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+image-restore",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -22959,7 +22959,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+restore-frontmatter-key+gloss-restore",
+      "tool": "nllb-200-3.3B+restore-frontmatter-key+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -22991,7 +22991,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-1/article-1-finite-fields.md": {
@@ -22999,7 +22999,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-2/article-2-elliptic-curves.md": {
@@ -23007,7 +23007,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -23015,7 +23015,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-4/article-4-merkle-trees.md": {
@@ -23023,7 +23023,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-5/article-5-zero-knowledge-proofs.md": {
@@ -23031,7 +23031,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-6/article-6-shielded-protocol.md": {
@@ -23039,7 +23039,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate+image-restore+table-rebuild",
       "edited": false
     },
     "Start_Here/Developer_Resources.md": {
@@ -23047,7 +23047,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Start_Here/Development_Fund.md": {
@@ -23055,7 +23055,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Start_Here/How_Zcash_Is_Organized.md": {
@@ -23071,7 +23071,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
@@ -23143,7 +23143,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+image-restore",
       "edited": false
     },
     "Using_Zcash/Creators_and_Tips.md": {
@@ -23151,7 +23151,7 @@
       "src_commit": "d7a1e6c69d92b9953cb92fd433faac01fe0204d1",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -23167,7 +23167,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Using_Zcash/Faucets.md": {
@@ -23191,7 +23191,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -23215,7 +23215,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -23231,7 +23231,7 @@
       "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+handfix+gloss-restore",
+      "tool": "gt-static+handfix+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -23239,7 +23239,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
@@ -23247,7 +23247,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -23287,7 +23287,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {
@@ -23311,7 +23311,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Zimppy.md": {
@@ -23319,7 +23319,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -23327,7 +23327,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
@@ -23367,7 +23367,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
@@ -23415,7 +23415,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Community_Links.md": {
@@ -23423,7 +23423,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
@@ -23431,7 +23431,7 @@
       "src_commit": "b2e32d37200ec07f1cb7e9e843d045b0f76d67cf",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+deadlink-5pages+near-brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+deadlink-5pages+near-brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -23439,7 +23439,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/ZCAP.md": {
@@ -23479,7 +23479,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+jsx-restore",
+      "tool": "nllb-200-3.3B+brand-restore+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Zcash_Global_Ambassadors.md": {
@@ -23487,7 +23487,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -23495,7 +23495,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Media.md": {
@@ -23559,7 +23559,7 @@
       "src_commit": "b117773198de9576bf719481de0091455a37c791",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Zcash_Organizations/Shielded_Labs.md": {
@@ -23575,7 +23575,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
@@ -23631,7 +23631,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Hash_Functions.md": {
@@ -23639,7 +23639,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Lelantus.md": {
@@ -23647,7 +23647,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Mnemonic_Seed_Phrases.md": {
@@ -23655,7 +23655,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Podcasts.md": {
@@ -23679,7 +23679,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_Zcash_Podcast.md": {
@@ -23687,7 +23687,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+handfix",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+handfix+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_z2z_Podcast.md": {
@@ -23711,7 +23711,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/TEEs.md": {
@@ -23719,7 +23719,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Zcash_Addresses.md": {
@@ -23727,7 +23727,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Social_Media/Zero_to_Zero-knowledge.md": {
@@ -23743,7 +23743,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Canopy.md": {
@@ -23751,7 +23751,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Crosslink_Protocol.md": {
@@ -23775,7 +23775,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -23799,7 +23799,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Ironwood.md": {
@@ -23807,7 +23807,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
@@ -23815,7 +23815,7 @@
       "src_commit": "a7088bd66279fea1abde028ad0771c7f833074e7",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -23823,7 +23823,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -23831,7 +23831,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6_1.md": {
@@ -23839,7 +23839,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6_2.md": {
@@ -23847,7 +23847,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
@@ -23855,7 +23855,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Pepper_Sync.md": {
@@ -23863,7 +23863,7 @@
       "src_commit": "86d3ecc894bdfa65c01a25387c7ffc18e04b5819",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
@@ -23871,7 +23871,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -23887,7 +23887,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -23895,7 +23895,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Sprout.md": {
@@ -23903,7 +23903,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {
@@ -23911,7 +23911,7 @@
       "src_commit": "8babe676b358e0c55dd4acc1bce5ab4e3360d39e",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
@@ -23943,7 +23943,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
@@ -23951,7 +23951,7 @@
       "src_commit": "80d7cc56bef87f1402c37cdc19d06447667cc48c",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -23967,7 +23967,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -23991,7 +23991,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -24039,7 +24039,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+near-brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+near-brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
@@ -24071,7 +24071,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
@@ -24103,7 +24103,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "contribute/ZecHub_DAO.md": {
@@ -24111,7 +24111,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
@@ -24135,7 +24135,7 @@
       "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -24143,7 +24143,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -24159,7 +24159,7 @@
       "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -24175,7 +24175,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate+image-restore",
       "edited": false
     },
     "guides/Free2Z_Livestreaming.md": {
@@ -24199,7 +24199,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
@@ -24215,7 +24215,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -24231,7 +24231,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+prose-retranslate",
       "edited": false
     },
     "guides/Nym_VPN.md": {
@@ -24271,7 +24271,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Using_ZEC_Privately.md": {
@@ -24295,7 +24295,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -24359,7 +24359,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
@@ -24375,7 +24375,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+image-restore",
       "edited": false
     },
     "guides/coinholder_log_parser/help.md": {
@@ -24407,7 +24407,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "tutorials/Full_Node_Tutorials.md": {
@@ -24415,7 +24415,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "tutorials/Using_Zcash.md": {
@@ -24423,7 +24423,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "tutorials/Wallet_Tutorials.md": {
@@ -24447,7 +24447,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "tutorials/shieldedNewsletter/readme.md": {
@@ -24471,7 +24471,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/selective-disclosure-zcash.md": {
@@ -24487,7 +24487,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
@@ -24495,7 +24495,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
@@ -24503,7 +24503,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Centralized_Swaps.md": {
@@ -24519,7 +24519,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+near-brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+near-brand-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {
@@ -24527,7 +24527,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Z3_Stack.md": {
@@ -24535,7 +24535,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -24543,7 +24543,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {
@@ -28093,7 +28093,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+defi-brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+defi-brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -28109,7 +28109,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Arti_Tor.md": {
@@ -28133,7 +28133,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore+handfix",
       "edited": false
     },
     "Privacy_Tools/PGP_Encryption.md": {
@@ -28141,7 +28141,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Penumbra.md": {
@@ -28157,7 +28157,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Shade_Protocol.md": {
@@ -28165,7 +28165,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Privacy_Tools/Tor_and_I2P.md": {
@@ -28181,7 +28181,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+image-restore",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -28205,7 +28205,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -28221,7 +28221,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+restore-frontmatter+gloss-restore",
+      "tool": "nllb-200-3.3B+restore-frontmatter+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -28253,7 +28253,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-1/article-1-finite-fields.md": {
@@ -28261,7 +28261,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-2/article-2-elliptic-curves.md": {
@@ -28269,7 +28269,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -28277,7 +28277,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-4/article-4-merkle-trees.md": {
@@ -28285,7 +28285,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-5/article-5-zero-knowledge-proofs.md": {
@@ -28293,7 +28293,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-6/article-6-shielded-protocol.md": {
@@ -28301,7 +28301,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Start_Here/Developer_Resources.md": {
@@ -28309,7 +28309,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Start_Here/Development_Fund.md": {
@@ -28317,7 +28317,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Start_Here/How_Zcash_Is_Organized.md": {
@@ -28333,7 +28333,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
@@ -28405,7 +28405,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+gloss-restore+image-restore",
       "edited": false
     },
     "Using_Zcash/Creators_and_Tips.md": {
@@ -28413,7 +28413,7 @@
       "src_commit": "d7a1e6c69d92b9953cb92fd433faac01fe0204d1",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -28421,7 +28421,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+gloss-restore",
+      "tool": "gt-static+brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -28453,7 +28453,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -28477,7 +28477,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -28493,7 +28493,7 @@
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -28501,7 +28501,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
@@ -28509,7 +28509,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -28549,7 +28549,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {
@@ -28573,7 +28573,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Zimppy.md": {
@@ -28581,7 +28581,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -28589,7 +28589,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
@@ -28597,7 +28597,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+handfix",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+handfix+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
@@ -28629,7 +28629,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
@@ -28637,7 +28637,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -28669,7 +28669,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
@@ -28677,7 +28677,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Community_Links.md": {
@@ -28693,7 +28693,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gem-brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+gem-brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -28701,7 +28701,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/ZCAP.md": {
@@ -28741,7 +28741,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+jsx-restore",
+      "tool": "nllb-200-3.3B+brand-restore+jsx-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Zcash_Global_Ambassadors.md": {
@@ -28749,7 +28749,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -28757,7 +28757,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Media.md": {
@@ -28821,7 +28821,7 @@
       "src_commit": "b117773198de9576bf719481de0091455a37c791",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Zcash_Organizations/Shielded_Labs.md": {
@@ -28829,7 +28829,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Organizations/Sovright.md": {
@@ -28837,7 +28837,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+brand-restore",
+      "tool": "nllb-200-3.3B+linkrepair+brand-restore+image-restore+handfix",
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
@@ -28845,7 +28845,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Zcash_Organizations/ZKAV.md": {
@@ -28893,7 +28893,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Hash_Functions.md": {
@@ -28901,7 +28901,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Lelantus.md": {
@@ -28909,7 +28909,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Mnemonic_Seed_Phrases.md": {
@@ -28917,7 +28917,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Podcasts.md": {
@@ -28941,7 +28941,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_Zcash_Podcast.md": {
@@ -28949,7 +28949,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+handfix",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+handfix+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_z2z_Podcast.md": {
@@ -28957,7 +28957,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Zcast_Podcast.md": {
@@ -28973,7 +28973,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/TEEs.md": {
@@ -28981,7 +28981,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
       "edited": false
     },
     "Zcash_Social_Media/Zcash_Addresses.md": {
@@ -29005,7 +29005,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Canopy.md": {
@@ -29013,7 +29013,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Crosslink_Protocol.md": {
@@ -29029,7 +29029,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+handfix",
+      "tool": "nllb-200-3.3B+linkrepair+handfix+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/FROST_Threshold_Custody.md": {
@@ -29037,7 +29037,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -29045,7 +29045,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+brand-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -29061,7 +29061,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Ironwood.md": {
@@ -29069,7 +29069,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
@@ -29077,7 +29077,7 @@
       "src_commit": "a7088bd66279fea1abde028ad0771c7f833074e7",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -29085,7 +29085,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -29093,7 +29093,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6_1.md": {
@@ -29101,7 +29101,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6_2.md": {
@@ -29109,7 +29109,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
@@ -29117,7 +29117,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Pepper_Sync.md": {
@@ -29125,7 +29125,7 @@
       "src_commit": "86d3ecc894bdfa65c01a25387c7ffc18e04b5819",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
@@ -29133,7 +29133,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -29149,7 +29149,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -29157,7 +29157,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Sprout.md": {
@@ -29165,7 +29165,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {
@@ -29205,7 +29205,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
@@ -29213,7 +29213,7 @@
       "src_commit": "80d7cc56bef87f1402c37cdc19d06447667cc48c",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -29229,7 +29229,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zcash_Wallet_Syncing.md": {
@@ -29253,7 +29253,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -29301,7 +29301,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+near-brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+near-brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
@@ -29333,7 +29333,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
@@ -29349,7 +29349,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -29365,7 +29365,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "contribute/ZecHub_DAO.md": {
@@ -29373,7 +29373,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
@@ -29437,7 +29437,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
       "edited": false
     },
     "guides/Free2Z_Livestreaming.md": {
@@ -29461,7 +29461,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
@@ -29477,7 +29477,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -29533,7 +29533,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "guides/Using_ZEC_Privately.md": {
@@ -29557,7 +29557,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -29597,7 +29597,7 @@
       "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "guides/Zenith_Installation.md": {
@@ -29621,7 +29621,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+handfix",
+      "tool": "nllb-200-3.3B+linkrepair+handfix+prose-retranslate",
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
@@ -29637,7 +29637,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
       "edited": false
     },
     "guides/coinholder_log_parser/help.md": {
@@ -29669,7 +29669,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "tutorials/Full_Node_Tutorials.md": {
@@ -29677,7 +29677,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "tutorials/Using_Zcash.md": {
@@ -29685,7 +29685,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore",
       "edited": false
     },
     "tutorials/Wallet_Tutorials.md": {
@@ -29709,7 +29709,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+prose-retranslate",
       "edited": false
     },
     "tutorials/shieldedNewsletter/readme.md": {
@@ -29733,7 +29733,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/selective-disclosure-zcash.md": {
@@ -29741,7 +29741,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
@@ -29749,7 +29749,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-1/article-1-the-orchard-bug.md": {
@@ -29757,7 +29757,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
@@ -29765,7 +29765,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Centralized_Swaps.md": {
@@ -29789,7 +29789,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore",
+      "tool": "nllb-200-3.3B+gloss-restore+prose-retranslate",
       "edited": false
     },
     "Zcash_Tech/Z3_Stack.md": {
@@ -29797,7 +29797,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -29805,7 +29805,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {

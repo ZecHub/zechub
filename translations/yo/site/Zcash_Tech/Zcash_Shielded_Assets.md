@@ -50,14 +50,14 @@ Ohun kan tó yẹ ká fi sọ́kàn ni pé: **owó ìfìwéránṣẹ́ máa ń j�
 
 ### Ohun tí ẹni tó ń wo nǹkan láyìíká lè rí
 
-Ẹnìkan tó ń wo nǹkan lè rí... ERC-20 lórí Ethereum, ZSA lórí Zcash.
+| Olùwòran lè rí... | ERC-20 lórí Ethereum | ZSA lórí Zcash |
 | --- | --- | --- |
-Ta ló rán an? Ààbò fún gbogbo ènìyàn.
-Àwọn tó gba ìsọfúnni náà. Ààbò fún gbogbo ènìyàn.
-☐ Owó tó wọlé. ☐ Ètò tí kò ní láárí.
-Àwọn ìdìpọ̀ owó ẹnìkọ̀ọ̀kan. Àwùjọ. Aṣọ́ra.
-☐ Ètò ìkóhun-ìmọ̀ tó wà nínú àwọn ohun àmúṣọrọ̀ náà.
-Owó tí wọ́n fi ń san owó náà ETH ZEC
+| Ta ló rán an | Gbangba | A dáàbò bo |
+| Ẹni tó gbà á | Gbangba | A dáàbò bo |
+| Elo ni a gbe lọ | Gbangba | A dáàbò bo |
+| Ìwọ̀ntúnwọ̀nsí ẹnìkọ̀ọ̀kan | Gbangba | A dáàbò bo |
+| Ipese apapọ ti ohun-ini naa | Gbangba | **Gbogbogbò — mọọmọ** |
+| Owó tí a san ni a san owó náà nínú | ETH | ZEC |
 
 ### Ìdí tí ìlà ìpèsè kò fi jẹ́ àṣìṣe kan
 
@@ -128,13 +128,13 @@ Pẹlu yi ni imọran, awọn egbe ni [QEDIT](https://qed-it.com/) awọn ero la
 
 ## Àwọn Àṣìṣe Tó Máa Ń Ṣẹlẹ̀ Lóde Òní
 
-☐ Èrò tó gbòde kan. Kí ló fà á?
+| Ìgbàgbọ́ gbogbogbò | Kí ni ó jẹ́ gan-an? |
 | --- | --- |
 | "ZSAs are live on Zcash today." | They are not. ZSA is scheduled for deployment in Network Upgrade 7 (NU7) and is still under review and testing. |
-ZSA n mu awọn iwe adehun ọlọgbọn wa si Zcash. "ZSA ṣe alaye ifisilẹ, gbigbe ati sisun ti ohun-ini. Kii ṣe ipele adehun eto gbogboogbo kan".
-"O le san owo ZSA ninu ami-ami ZSA funrararẹ". Owó ni a fi ń ṣe owó ní ZEC.
- "Ti o ba ti wa ni ipamọ, awọn ami ifihan gbọdọ jẹ ikọkọ pẹlu". ZIP 227 ṣe iṣedede ṣiṣafihan lori idiwọ, ki a le tọpinpin ipese ohun-ini kọọkan gbangba. Awọn iwontunwonsi ati gbigbe duro si ara ẹni; ipese ko ṣeeṣe. 
-"ZIP 230 ni àdàkọ ìmúṣiṣẹ́ 6 tí ó wà nísinsìnyí". A ti yọ ZIP 230 kúrò. Àdàkọ 6 jẹ̀ wípé a mọ ọ sí ZIP 229.
+| "ZSA mu awọn adehun ọlọgbọn wa si Zcash." | ZSA sọ nípa ìfúnni, gbigbe àti sísun àwọn dúkìá. Kì í ṣe ìpele àdéhùn tí a lè ṣètò fún gbogbogbòò. |
+| "O le san owo ZSA ninu ami ZSA funrararẹ." | A san owo ni ZEC. |
+| "Tí a bá dáàbò bò ó, ìpèsè àmì náà gbọ́dọ̀ jẹ́ àṣírí pẹ̀lú." | ZIP 227 mú kí ìfiránṣẹ́ náà ṣe kedere nítorí pé a mọ̀ ọ́n ṣe é, nítorí náà a lè tọ́pasẹ̀ ìfiránṣẹ́ dúkìá kọ̀ọ̀kan ní gbangba. Ìwọ̀n àti ìfiránṣẹ́ náà dúró ní ìkọ̀kọ̀; ìfiránṣẹ́ náà kò sí níbẹ̀. |
+| "ZIP 230 ni ọna kika iṣowo ẹya 6 lọwọlọwọ." | A ti yọ ZIP 230 kuro. A ti ṣe àtúnṣe ẹ̀yà 6 nípasẹ̀ ZIP 229 báyìí. |
 
 ---
 

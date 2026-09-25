@@ -109,7 +109,7 @@ Sɛ wɔde ZEC a ɛwɔ atare a wɔabɔ ho ban mu no asie a, ɛbɛyɛ dɛn na obi 
 
 [ZIP 257: Orchard Bere Tiaa mu Nneɛma a Ɛyɛ Den a Wɔbrɛ ase ne NU6.2 Network Upgrade no a wɔde bedi dwuma](https://zips.z.cash/zip-0257)
 
-[ZIP 2005: Dadeɛ Nnua Quantum Recoverability](https://zips.z.cash/zip-2005)
+[ZIP 2005: Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
 
 [Ironwood: Ɔtare Foforo a Wɔabɔ ho ban ma Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 

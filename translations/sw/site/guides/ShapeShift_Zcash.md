@@ -144,16 +144,16 @@ Kadiri mazingira ya udhibiti yanavyozidi kuwa magumu duniani kote, na maeneo kam
 
 ## Muhtasari
 
- Sifa  Maelezo 
+| Kipengele | Maelezo |
 |---|---|
-**Sehemu ya Jukwaa** ShapeShift DAO (decentralized, open-source)
-** Utawala**. Wamiliki wa ishara za FOX.
-**Zcash Support**. Full ZEC biashara na ulinzi shughuli msaada.
-** KYC Inahitajika** Hapana.
-** Utunzaji**. Si-utunzaji (watumiaji kuweka funguo zao wenyewe)
-BTC, ETH, Arbitrum, Cosmos na zaidi.
-** Miundombinu** Powered by Liquify (90+ blockchain RPC msaada)
-**Zcash Community Grants Funding** $50,000 kwa msaada wa kiufundi na masoko.
+| **Jukwaa** | ShapeShift DAO (iliyogatuliwa, chanzo huria) |
+| **Utawala** | Vishikilia tokeni vya FOX |
+| **Zcash ** | Biashara kamili ZEC yenye usaidizi wa miamala iliyolindwa |
+| **KYC Inahitajika** | No |
+| **Uangalizi** | Hairuhusiwi (watumiaji huweka funguo zao wenyewe) |
+| **Mabadiliko ya Minyororo Mtambuka** | BTC, ETH, Arbitrum, Cosmos, na zaidi |
+| **Miundombinu** | Inaendeshwa na Liquify (usaidizi wa zaidi ya 90 wa blockchain RPC) |
+| **Zcash ** | $50,000 kwa usaidizi wa kiufundi na uuzaji |
 
 ShapeShift na Zcash ushirikiano inawakilisha hatua ya maana mbele kwa faragha katika fedha madaraka. Kwa kuchanganya si custodial, multichain biashara miundombinu ya Shapeshift na zero-maarifa ushahidi teknolojia Zcash wa, watumiaji kupata upatikanaji wa kweli binafsi, ruhusa cryptocurrency biashara. Kwa mtu yeyote ambaye thamani siri za kifedha na uhuru kujitegemea, ujumuishaji huu hutoa njia rahisi, kupatikana kutumia ZEC bila maelewano.
 

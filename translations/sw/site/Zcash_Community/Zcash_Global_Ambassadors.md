@@ -22,23 +22,23 @@ Mabalozi wana uhuru wa ubunifu katika shughuli wanazopanga, na hivyo kuwawezesha
 
 | Mkoa | Jumuiya | Shughuli Muhimu |
 |--------|-----------|-------------|
-Amerika Kusini | [Zcash katika Kihispania](https://x.com/zcashesp1) | Maudhui ya Kihispania, Klabu ya ZK AV, podikasti ya Zcast |
-Brazili | [Zcash Brazil](https://x.com/zcashbrazil) | Warsha, mikutano, Jarida la Shielded |
-Uturuki | [Uturuki wa Zcash](https://x.com/ZcashTR) | Maudhui ya kielimu, Ushiriki wa Wiki ya Blockchain ya Istanbul |
-Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Maudhui ya kielimu ya Kiarabu, AMA |
-Ukraini [Zcask Ukraine](https://x.com/Zcash_ua) Ukraini
-Nigeria | [Zcash Nigeria](https://x.com/ZcashNigeria) | Elimu kwa wasanidi programu, ujumuishaji wa jamii |
-Afrika Mashariki | [Zcash Afrika Mashariki](https://x.com/ZcashEastAfrica) Ukuaji wa jamii ya Afrika Mashariki na Uganda |
-Afrika Kusini | [Zcash Afrika Kusini](https://twitter.com/Zcash_SA) Afrika Kusini |
-Ghana | [Zcash Ghana](https://x.com/ZcashGH) Ghana |
-Meksiko | [zcashqro](https://x.com/zcashqro) | Ufikiaji wa vyuo vikuu na uanzishaji wa wasanidi programu |
-Urusi | [ruZcash](https://x.com/ruZCASH) | Maudhui na jamii ya lugha ya Kirusi |
-India | [Zcash India](https://x.com/ZcashIND) | Elimu ya msanidi programu na ukuaji wa jamii |
-Korea [Zcash Korea](https://x.com/zcashkorea) | Maudhui ya kielimu ya Kikorea |
+| Amerika Kusini | [Zcash katika Kihispania](https://x.com/zcashesp1) | Maudhui ya Kihispania, Klabu ya ZK AV, podikasti ya Zcast |
+| Brazili | [Zcash Brazil](https://x.com/zcashbrazil) | Warsha, mikutano, Jarida la Shielded |
+| Uturuki | [Uturuki Zcash](https://x.com/ZcashTR) | Maudhui ya kielimu, Ushiriki wa Wiki ya Blockchain ya Istanbul |
+| Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Maudhui ya kielimu ya Kiarabu, AMA |
+| Ukraine| [Zcask Ukraine](https://x.com/Zcash_ua) | Ukraine |
+| Nigeria | [Zcash Nigeria](https://x.com/ZcashNigeria) | Elimu kwa wasanidi programu, ujumuishaji wa jamii |
+| Afrika Mashariki | [Zcash Afrika Mashariki](https://x.com/ZcashEastAfrica) | Ukuaji wa jumuiya ya Afrika Mashariki na Uganda |
+| Afrika Kusini | [Zcash Afrika Kusini](https://twitter.com/Zcash_SA) | Afrika Kusini |
+| Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
+| Meksiko | [zcashqro](https://x.com/zcashqro) | Ufikiaji wa vyuo vikuu na uanzishaji wa wasanidi programu |
+| Urusi | [ruZcash](https://x.com/ruZCASH) | Maudhui na jamii ya lugha ya Kirusi |
+| India | [Zcash India](https://x.com/ZcashIND) | Elimu ya msanidi programu na ukuaji wa jamii |
+| Korea | [Zcash Korea](https://x.com/zcashkorea) | Maudhui ya kielimu ya Kikorea |
 
 ## Omba Kuwa Balozi
 
 Unaweza pia kushiriki kwa:
 - Kuchangia [Zawadi za ZEC](https://bounties.zechub.wiki/)
-- Kujiunga na [Ugomvi wa Zcash Global](https://discord.gg/zcash)
+- Kujiunga na [Discord Zcash Global](https://discord.gg/zcash)
 

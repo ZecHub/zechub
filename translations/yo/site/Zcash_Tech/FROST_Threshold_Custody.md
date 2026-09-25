@@ -39,14 +39,14 @@ FROST (**Flexible Round-Optimized Schnorr Threshold Signatures **) ni ìlànà �
 
 Ìpamọ́ ìkókó lóhun tó bọ́gbó̀n mu nígbà tí **ìṣubú kókó kan tàbí ẹnìkan kò níí túmọ̀ sí pípàdánù owó náà**.
 
-Ìṣòro: Ìdí tí ìsókè-ìtójú fi ń ṣèrànwọ́.
+| Ipò | Kí nìdí tí ìtọ́jú ààlà ilẹ̀ fi ń ranni lọ́wọ́ |
 |-----------|----------------------------|
-** DAO tabi iṣura ẹgbẹ** Kò sí olùdarí kan ṣoṣo tó lè gba owó lọ́wọ́ ẹni; ó nílò ìfọwọ̀sí.
-** Exchange tabi custodian**. pín ewu pàtàkì káàkiri àwọn àgbègbè ìpamọ́ tàbí òṣìṣẹ́.
-** Ibi ìpamọ́ dídì ti ara ẹni (pẹ̀lú ẹbí tí o fọkàn tán)** 2 nínú 3 láàárín ìwọ + àwọn mẹ́ńbà ìdílé méjì  kú tàbí pàdánù ààyè, owó kò sọnù.
-**Escrow** Olura, olutaja ati oniduro kọọkan ni ipin; owo ti o tu silẹ nigbati awọn meji ba gba.
-** Ìpínwó owó ìrànwọ́ tí ó níye lórí** ZCG-style: ń béèrè fún ọ̀pọ̀ àwọn aláṣẹ aládàáni kí wọ́n tó san án.
- ** Ìtọ́jú kókó olùdásílẹ̀** Dènà ìbèèré inú ilé  Kò sí onímọ-ẹrọ kan ṣoṣo tó lè fi owó àgbékalẹ̀ ṣe é.
+| **DAO tabi iṣura ẹgbẹ** | Kò sí olùdarí kan ṣoṣo tó lè yọ owó kúrò ní ẹyọ kan; ó nílò ìfọwọ́sowọ́pọ̀ |
+| **Paṣipaarọ tabi olutọju** | Pinpin eewu pataki kọja awọn agbegbe aabo tabi awọn oṣiṣẹ |
+| **Ibi ipamọ otutu ti ara ẹni (pẹlu idile ti o gbẹkẹle)** | Méjì nínú mẹ́ta láàárín ìwọ àti àwọn ọmọ ìdílé méjì — ẹ kú tàbí kí ẹ pàdánù àǹfààní, owó kò ní pàdánù |
+| **Ẹ̀kọ́ ìtọ́jú** | Olùrà, olùtajà, àti olùdájọ́ ní ìpín kan; ìtúsílẹ̀ owó nígbà tí àwọn méjì bá gbà láti ṣe bẹ́ẹ̀ |
+| **Ìsanwó owó ìrànlọ́wọ́ tó níye lórí** | ZCG-style: nilo ọpọlọpọ awọn olufowosi ominira ṣaaju ki o to sanwo jade |
+| **Ìṣàkóso kọ́kọ́rọ́ olùgbékalẹ̀** | Dènà ewu inu — kò sí onímọ̀ ẹ̀rọ kan ṣoṣo tó lè da owó ìfowópamọ́ ìṣètò sílẹ̀ |
 
 O lè máà nílò ìpamọ́ tí ó kéré fún àpò-ìwé ti ara ẹni tóo ń darí nìkan, iye owó díẹ̀ tàbí àwọn ipò níbi tí ètò ìṣètò kún sí i ju kí o dín ewu kù.
 
@@ -61,10 +61,10 @@ FROST yanju eyi nipa ṣiṣe ni inu adagun ti a fi oju pa:
 | | Transparent multisig | FROST threshold (shielded) |
 |--|---------------------|--------------------------|
 | Pool | Transparent (public) | Orchard (shielded) |
- Àwọn aláṣẹ tí ó hàn nínú ẹ̀ka. Bẹẹni  gbogbo àwọn kókó gbangba ní àfihàn. Kò sí  kò ṣeé yàtọ̀ láti ìnáwó onílàǹmá kan ṣoṣo
- Ìpín tó hàn síta. Bẹẹni, rárá.
-ìṣètò nílò. On-chain script, ìsọ̀rí àgbáyé tí kò ní ẹ̀rọ ìbánisọ̀rọ̀ nínú ọjà náà.
-Àkọsílẹ̀. Kò sí èyí tó wà nínú rẹ̀. Ìpamọ́ pátápátá ni ààbò rẹ̀.
+| Àwọn àmì tí a lè rí lórí ẹ̀wọ̀n | Bẹ́ẹ̀ni — gbogbo àwọn kọ́kọ́rọ́ gbogbogbò tí a ti tú síta | Rárá — a kò lè yà á sọ́tọ̀ kúrò lára owó tí a fi ọwọ́ kan ṣoṣo ná |
+| Àwọn iye tí a lè rí | Bẹ́ẹ̀ni | No |
+| Ìṣètò tó yẹ | Ìwé àfọwọ́kọ lórí ẹ̀wọ̀n | Ìbánisọ̀rọ̀ tí kò ní ẹ̀wọ̀n |
+| Ìpamọ́ | Kò sí | Ìpamọ́ tí a dáàbò bo ní kíkún |
 
 ---
 
@@ -129,13 +129,13 @@ Ti eyikeyi onisowo ba firanṣẹ ibuwọlu idapọ, ilana naa ṣe idanimọ w�
 
 ## Yíyan àwọn ìlànà ìlà rẹ
 
-Ìdásílẹ̀. Àìlèjàgbara. Ewu.
+| Ṣeto | Ìfaradà | Ewu |
 |-------|-----------|------|
-☐ 1-of-1 ● Kò sí ìmúrasílẹ̀ • Ibi kan ṣoṣo tí àṣìṣe ti wáyé. ▪ Ìṣòro kókó = àìrílò rèé o!
- 2 nínú 2. Ó ní láti jẹ́ pé àwọn méjèèjì ló fọwọ́ sí ìwé náà. Kò gba àṣìṣe kankan láyè. Ẹnìkan kò wà lárọ̀ọ́wọ́tó = owó tí wọ́n ti dá dúró.
-2 nínú 3 ìdìpọ̀ kan lè sọnù tàbí kó máà sí láàyè. Ìdáàbòbò rẹ̀ kéré ju ti àwọn mẹ́ta lọ lára márùn-ún.
- 3 nínú 5  O lè pàdánù ìka méjì; ààbò tó lágbára. Àjọṣepọ̀ púpọ̀ sí i lókè òfuurufú.
-3 nínú 7 - ilé-iṣẹ́; ó lè ṣe àṣìṣe méjì. Iye owó ìfọ̀rọ̀wérọ̀ tó ga.
+| 1-of-1 | Kò sí ìfaradà — ojú kan ṣoṣo ti ìkùnà | Pípàdánù pàtàkì = pípadánù títí láé |
+| 2-of-2 | Àwọn méjèèjì gbọ́dọ̀ ní àwọn olùfọwọ́sowọ́pọ̀ — láìsí ìfaradà àṣìṣe | Ọkan ti ko si = owo ti a ti dina |
+| 2-of-3 | Àkójọpọ̀ kan lè sọnù tàbí kí ó wà láìsí | Ààlà ààbò tó kéré sí i ju 3 nínú 5 lọ |
+| 3-of-5 | A le sọ awọn ege meji nù; aabo to lagbara | Awọn iṣẹ iṣedopọ diẹ sii |
+| 3-of-7 | Ipele ile-iṣẹ; gba awọn ikuna meji | Iye owo iṣiṣẹpọ giga |
 
 Ìbẹ̀rẹ̀ tó wúlò fún ọ̀pọ̀lọpọ̀ àwọn ẹgbẹ́: **2-of-3** (ìmúrasílẹ̀, ìfọwọ́sowọ́pọ̀ tí ó kéré jù) tàbí **3-of-5** (àjọṣe ilé-iṣẹ́, ààbò gíga).
 

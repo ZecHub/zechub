@@ -17,7 +17,7 @@ Block producers (aka miners) are tasked with validating transactions in a networ
 Katika Bitcoin na cryptocurrencies nyingine, tuzo zote za kuzuia kwenda kwa wazalishaji block. Zcash ni ya kipekee katika ukweli kwamba 20% ya malipo ya kuzuia ni kuhamishiwa [Zcash mfuko wa maendeleo](https://zips.z.cash/zip-1014)Mfuko huu fedha timu kazi juu ya itifaki Zcash.
 
 Kwa sasa, [Zcash Community Grants](https://zcashcommunitygrants.org/) anapata 8% ya tuzo block, Electric Coin Co anapata 7%, na Zcash Foundation anapata 5%. Hii kazi nje ya 40%, 35% na 25% ya mfuko wa maendeleo kwa mtiririko huo.
-[Dev Mfuko Wapokeaji ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
+![Dev Mfuko Wapokeaji ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 Mwaka 2020, jamii ya Zcash ilipiga kura juu ya mfuko wa maendeleo na timu zinazoungwa mkono na hiyo. Mnamo 2024, jamii itapiga kura tena kuamua ni nani anayepata ufadhili kutoka kwa mfuko huo wa maendeleo.
 
@@ -34,7 +34,7 @@ The decision to implement the 20% Dev Fund Lockbox was reached through a compreh
 
 Kama dev mfuko lockbox ni kuahirishwa (maana fedha itakuwa wazi kupitia kuboresha mtandao katika tarehe ya baadaye), Zcash Jumuiya hivi karibuni kuamua juu ya utaratibu wa usambazaji wa fedha. 
 
-[Uwezekano wa aina mpya ya utawala madaraka](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Uwezekano wa aina mpya ya utawala madaraka](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
 ## Rasilimali
 

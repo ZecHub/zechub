@@ -45,7 +45,7 @@ ge ɖe eme kple X, Google, Discord, Telegram
 
 ### Dɔwɔnu siwo woxea fe na:
 
-- [Mɔzɔzɔ ƒe titina Bot](https://discord.com/invite/midjourney) le Discord - tso $10/ɣleti - [Dze egɔme Mɔfiame](https://docs.midjourney.com/docs/quick-start)
+- [Midjourney Bot](https://discord.com/invite/midjourney) le Discord - tso $10/ɣleti - [Dze egɔme Mɔfiame](https://docs.midjourney.com/docs/quick-start)
 ate ŋu axɔ dzidzime siwo ade 100 siwo le ablɔɖe me to bubu geɖe ƒe dzeside me [nɔnɔmetatawo le afisia](https://www.midjourney.com/app/rank-pairs/)
 (ele be wòaɖo top2000 raters - abe miniti 15 ƒe rating fotowo)
 - [DALL-E 2. Ƒe 1999 me](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 dzidzimewo - (femaxee dzidzime 15/ɣleti)

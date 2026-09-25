@@ -42,14 +42,14 @@ Malite na ihe echedoro. megide onye ọ bụla mmegide n'ụdị, gụnyere otu 
 
 Mgbe ahụ enwere ihe a na-echedobeghị. Ihe nlereanya iyi egwu depụtara ndị a dị ka adịghị ike mara megide onye iro nke na-eleba anya n'okporo ụzọ:
 
-◯ Adịghị ike ❑ Olee otú m si eme ihe?
+| Adịghị ike | Kedu |
 |:--|:--|
 | Telling who you are | "The adversary knows the user's IP address, which could lead them to the user's real identity" |
-◯ Ịgwa ha ebe ị nọ. ▪ Ilele adreesị IP gị n'ebe a na-edebe ihe ọmụma iji mata kpọmkwem ebe onye ahụ dị.
+| Na-ekwu ebe ị nọ n'ụzọ dị mkpirikpi | Ịchọta IP gị "na nchekwa data geolocation iji mee ka ha mara ebe ha nọ" |
 | Telling that and when you sent or received a shielded transaction | Sending "uses more bandwidth, which is visible even though the connection is encrypted". The model notes that the act of sending and receiving is visible to the server itself |
-◯ Ịgụ ole azụmahịa i merela n'oge. ❑ Otu ihe ahụ na-eme mgbe ị na-azụ ahịa, nke a nọgidere na-ahụ ruo ogologo oge karị.
-◯ Ịchọpụta usoro ịkwụ ụgwọ ndị na-eme ugboro ugboro. ❑ Ileba anya mgbe ihe mere.
-◯ Ịchọpụta ma adreesị ahụ ọ̀ bụ nke gị. Onye iro maarala ebe a na-edebe ego "nwere ike iziga ya n'ebe ahụ, leekwa anya ka o wee hụ ma è nwere ihe ndị ga-emebi bandwit" site n'akpa uwe gị iji nweta ha.
+| Ịgụta ọnụọgụ azụmahịa ị mere ka oge na-aga | Ụdị bandwit ahụ, a hụrụ ya ruo ogologo oge |
+| Ịchọpụta usoro ịkwụ ụgwọ ugboro ugboro | Ịhụ mgbe ihe omume mere |
+| Ịchọpụta ma adreesị ọ bụ nke gị | Onye iro nke maara adreesị "nwere ike izipu ego na adreesị ahụ ma lezie anya iji hụ ma enwere mmụba bandwit" site na obere akpa gị iji nweta ya |
 
 The nlereanya na-egosikwa na nkịtị ikpe assumes "a ntụkwasị obi mmekọrịta n'etiti onye ọrụ na lightwalletd nkesa ọrụ".
 
@@ -97,13 +97,13 @@ Ihe ahụ bụ: [hosh.zec.rocks Ihe ndị dị na peeji nke 2](https://hosh.zec.
 
 Ndị sava edepụtara na dashboard ahụ n'oge edere ederede:
 
-Ihe nkesa. Nkọwapụta.
+| Sava | Ihe ndetu |
 |:--|:--|
- zec.rocks:443  E depụtara njedebe mpaghara n'akụkụ ya na na.zec.rock, eu.zec .rocks, ap.zec rocks and sa.zec Rocks 
- zec-node.cakewallet.com:443 na Cake Wallet ngalaba
- zec.0xrpc.io:443  Na-agba ọsọ site na 0xRPC, nke na-enye free ọha njedebe maka a ọnụ ọgụgụ nke n'agbụ ma rịọ ka onyinye iji kpuchie ikike
- Zaino.unsafe.zec.rocks:443 A Zaino atụ. Rịba ama aha nnabata, na-emeso ya dị ka nnwale.
-☐ testnet.zec.rocks:443 ▸ Testnet, na ihe atụ Zaino testnet edepụtara na zaino.testnet.unsafe.zec .rocks
+| zec.rocks:443 | E depụtara njedebe mpaghara n'akụkụ ya na na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
+| zec-node.cakewallet.com:443 | Na ngalaba Cake Wallet |
+| zec.0xrpc.io:443 | 0xRPC na-arụ ọrụ, nke na-enye njedebe ọha na eze n'efu maka ọtụtụ agbụ ma na-arịọ maka onyinye iji kpuchie ikike |
+| zaino.unsafe.zec.rocks:443 | Ihe atụ Zaino . Rịba ama aha onye nnabata ahụ, were ya dị ka nnwale |
+| testnet.zec.rocks:443 | Testnet, yana ihe atụ Zaino testnet edepụtara na zaino.testnet.unsafe.zec.rocks |
 
 Lelee dashboard kama ịtụkwasị ndepụta a obi. Ndị na-arụ ọrụ na-abịa ma laa, ibe dị ka nke a ga-aka nká.
 

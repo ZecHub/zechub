@@ -42,11 +42,11 @@ A **zero-knowledge proof (ZKP)** is the reconciliation. It lets a **prover** con
 
 ![ì í ì °ë¦¬í ë ¤](/content-images/image-24-b559d31849.webp)
 
-Ìdánilójú. Nínú ìtàn ihò àpáta. Nínú Zcash.
+| Àtìlẹ́yìn | Nínú ìtàn ihò àpáta náà | Nínú Zcash |
 |---|---|---|
-**Completeness** Bí o bá mọ̀ ọ̀rọ̀ náà, o máa ń jáde láti apá ọ̀tún. Ìṣirò tó tọ́ máa ń mú ẹ̀rí tí a gbà jáde.
-**Ìdánilójú** A máa ń mú ẹni tó ń lu jìbìtì pẹ̀lú ìdánilòjú tí ó pọ̀ jùlọ. Àdéhùn ẹ̀tàn (owó èké, ìnáwó méjì) kò lè mú ẹ̀rí tí a gbà.
-** Zero-knowledge**. Olùwádìí kò gbọ́ ọ̀rọ̀ àṣírí náà. Àjọ kò mọ iye owó, àdírẹ́sì, tàbí nóòtó.
+| **Pípé** | Tí o bá mọ ọ̀rọ̀ náà, o máa ń jáde ní apá ọ̀tún nígbà gbogbo | Iṣowo to wulo nigbagbogbo n mu ẹri ti a gba wa nigbagbogbo |
+| **Alaafia** | Ó ṣeé ṣe kí bluffer kan mú un | Ìṣòwò ẹ̀tàn (owó èké, ìnáwó méjì) kò lè mú ẹ̀rí tí a gbà wá |
+| **Onímọ̀ òdo** | Olùdánwò kò gbọ́ ọ̀rọ̀ ìkọ̀kọ̀ náà láéláé | Nẹ́tíwọ́ọ̀kì kò kọ́ iye owó, àdírẹ́sì, tàbí àkọsílẹ̀ wo |
 
 Bí èyíkéyìí nínú àwọn nǹkan wọ̀nyí bá kùnà, ètò náà yóò bàjẹ́: kò sí ìmúṣẹ àti àwọn oníṣe rere tí a óò kọ; kò sí àìlálèébù àti àwọn ayédèrú tí yóò tẹ owó; kò ní sí ìmọ̀-òfo àti ìpamọ́ra tí yóò dàwátì.
 
@@ -98,11 +98,11 @@ Awọn ọna ṣiṣe tuntun yọ ibeere yii kuro patapata, eyiti o jẹ ọkan 
 
 ## 7. Ibi tí èyí ń gbé ní Zcash
 
-Design. Proof system. Trusted setup? Built on. (Ìdánwò ètò.)
+| Apẹrẹ | Ètò ìdánilójú | Eto ti o gbẹkẹle? | A kọ́ ọ lórí |
 |---|---|---|---|
-**Sprout** (èyí tó kọ́kọ́ jáde) zk-SNARK ìpilẹ̀ṣẹ̀. Bẹ́ẹ̀ ni. Àjọṣe ìpilẹ̀ṣẹ̀.
+| **Sprout** (àkọ́kọ́) | tete zk-SNARK | Bẹ́ẹ̀ni | ayẹyẹ àtilẹ̀wá |
 | **Sapling** | **Groth16** | Yes (the multi-party "Powers of Tau" + Sapling ceremony) | **BLS12-381** (Article 2) |
-**Orchard** (current) **Halo 2** **No trusted setup** **Pallas/Vesta** (Article 2) **Awọn ohun elo ti o wa ni ayika rẹ ko ni igbẹkẹle.
+| **Orchard** (lọ́wọ́lọ́wọ́) | **Halo 2** | **Ko si eto ti o gbẹkẹle** | **Pallas / Vesta** (Abala 2) |
 
 The march from Sprout to Sapling to Orchard is largely a story about proofs getting smaller, faster, and shedding the trusted setup. **Halo 2**, used by Orchard, needs no ceremony at all and is built to support *recursion* (proofs that verify other proofs), which is why Orchard uses the Pallas/Vesta **cycle** of curves from Article 2: each curve is tuned to verify proofs written over the other.
 
@@ -129,18 +129,18 @@ Zero-knowledge proofs are a deep field and we stayed at intuition level on purpo
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-** Èrí-ìmọ̀-kèlè-kò** Rọ́ ẹnìkan pé òótọ́ ni àlàyé kan láìfi ohunkóhun mìíràn hàn.
-Ẹnìkan tí ó ṣe ẹ̀rí/ẹni tí ó ṣàyẹ̀wò rẹ̀
-**Completeness** Àwọn àlàyé tó jẹ́ òótọ́ ni wọ́n máa ń gbà (láti ọ̀dọ̀ olóòótọ́)
-Àwọn ìsọfúnni tí kò tọ́ ni wọ́n máa ń kọ sílẹ̀ (àwọn oníjìbìtì kò lè borí àyàfi nípa orire)
-** Ẹrí ** Àwọn ìsọfúnni àṣírí tí ó mú kí àlàyé náà jẹ́ òótọ́.
-** Arithmetic circuit**. Àlàyé tí a tún kọ bí àfikún àti ìlọ́po lórí àyè tí ó ní òpin.
+| **Ẹ̀rí ìmọ̀ òdo** | Jẹ́ kí ẹnìkan gbàgbọ́ pé ọ̀rọ̀ kan jẹ́ òótọ́ láìsí pé ó ń sọ ohunkóhun mìíràn |
+| **Olùdámọ̀ràn / Olùdámọ̀ràn** | Ẹni tí ó ṣe ẹ̀rí / ẹni tí ó ń ṣàyẹ̀wò rẹ̀ |
+| **Pípé** | Àwọn gbólóhùn òtítọ́ ni a máa ń gbà nígbà gbogbo (láti ọ̀dọ̀ olùjẹ́rìí òtítọ́) |
+| **Alaafia** | Àwọn ọ̀rọ̀ èké ni a kọ̀ (àwọn arẹ́nijẹ kò le borí àyàfi nípasẹ̀ oríire) |
+| **Ẹlẹ́rìí** | Àwọn ìkọ̀kọ̀ tí ó sọ gbólóhùn náà di òótọ́ |
+| **Ìṣètò ìṣirò** | Gbólóhùn kan tún kọ gẹ́gẹ́ bí àfikún àti ìsọdipúpọ̀ lórí pápá ààlà kan |
 | **Non-interactive (Fiat-Shamir)** | A one-shot proof needing no live back-and-forth |
-**Succinct** Ẹ̀rí náà kéré gan-an ó sì yára láti ṣètẹ́wọ̀n láìka bí gbólóhùn náà ṣe tóbi tó.
-**zk-SNARK**. Zero-ìmò Succinct Non-ìfọ̀rọ̀wérọ̀ Àríyànjiyàn Ìmòye.
-** ìtòlẹ́sẹẹsẹ tí a gbẹ́kẹ̀lé / àwọn pàǹtírí olóró ** ìṣẹ̀dá àlàfo kan tí àṣírí rẹ̀ tó kù ní láti pa run.
+| **Àkótán** | Ẹ̀rí náà kéré, ó sì yára láti jẹ́rìí láìka ìwọ̀n gbólóhùn náà sí |
+| **zk-SNARK** | Ìjíròrò ìmọ̀ tí kò ní ìbáṣepọ̀ pẹ̀lú ìmọ̀ |
+| **Ètò ìgbẹ́kẹ̀lé / ìdọ̀tí olóró** | Ìṣẹ̀dá paramita ìgbà kan tí àṣírí tó kù gbọ́dọ̀ parẹ́ |
 
 ---
 

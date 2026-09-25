@@ -66,14 +66,14 @@ Maka ndị ọrụ AI na-arụ ọrụ dị nro, nyocha iwu, ajụjụ gbasara a
 
 ### Nkọwapụta Nzuzo nke Onwe Onye
 
-◯ Ihe onwunwe ❑ Mgbasa Ozi Ọha (USDC, ETH) ❖ Zimppy Shielded ✔ Zimppy Transparent
+| Akụ na ụba | Ụlọọrụ Ọha (USDC, ETH) | Zimpy echebere | Zippy Transparent |
 |---|---|---|---|
-Onye na-ezipụ ozi a hụrụ ya. E dere ihe n'ụzọ ezoro ezo, ọ dịghị onye ga-ahụ ya.
-** Onye nata** Anya. Encrypted Per-ihe ịma aka (unlinkable)
-** Amount** Anya. Encrypted. anya.
-** Memo**: A na-ahụ anya. Encrypted N/A
-** Ntughari Nchedo** Ọ dịghị. Memo na-ejikọta ya T-address kwa ihe ịma aka.
-**Usoro ojiji ọrụ**. Ejikọtara ya na ibe ya  Nkeonwe  Unlinked (fresh addr)
+| **Onye zitere** | A na-ahụ anya | Ezoro ezo | A na-ahụ anya |
+| **Onye nnata** | A na-ahụ anya | Ezoro ezo | Kwa ihe ịma aka (enweghị njikọ) |
+| **Ego** | A na-ahụ anya | Ezoro ezo | A na-ahụ anya |
+| **Ndetu** | A na-ahụ anya | Ezoro ezo | N/A |
+| **Nchedo ọzọ** | Ọ dịghị | Njikọ Memo | Adreesị T nke onye ọ bụla nwere nsogbu |
+| **Ụkpụrụ Ojiji Ọrụ** | Njikọ nwere ike | Nkeonwe | Enweghị ike ijikọ (addr ọhụrụ) |
 
 ### Nsogbu Oge Ọgwụgwọ, nke E Ji Usoro Ịmụ Ihe Dozie
 
@@ -388,16 +388,16 @@ let resp = client
 
 ## CLI Reference Ihe na-eme ka a mata ihe bụ́ nsogbu.
 
- Iwu  Nkọwa 
+| Iwu | Nkọwa |
 |---|---|
-| `npx zimppy wallet create` ◯ Mepụta igodo na ngosipụta mkpụrụ okwu.
-| `npx zimppy wallet whoami` ◯ Gosi adreesị (UA + T-addr), nguzozi, netwọkụ.
-| `npx zimppy wallet balance --all` ◯ Nkọwa nke ego ole dị n'otu akaụntụ.
+| `npx zimppy wallet create` | Mepụta igodo ma gosipụta mkpụrụ okwu |
+| `npx zimppy wallet whoami` | Gosi adreesị (UA + T-addr), nguzozi, netwọk |
+| `npx zimppy wallet balance --all` | Nchịkọta nguzozi nke akaụntụ ọ bụla |
 | `npx zimppy wallet send <addr> <zat>` | Send shielded or transparent ZEC |
-| `npx zimppy wallet transfer <from> <to> <zat>` ◯ Nnyefe ego n'ime ụlọ ọrụ.
-| `npx zimppy wallet shield` ◯ Na-ebufe ego ndị a na-ahụ anya n'ebe Orchard (nwere ihe nchebe) nọ.
-| `npx zimppy wallet use <name>` Gbanwee njirimara wallet na-arụ ọrụ.
-| `npx zimppy request <url>` ◯ Auto 402 -> ịkwụ ụgwọ -> rịọ ka a nwaa ọzọ.
+| `npx zimppy wallet transfer <from> <to> <zat>` | Mbufe dị n'ime akaụntụ gafere |
+| `npx zimppy wallet shield` | Bufee ego doro anya na Orchard (echekwara) |
+| `npx zimppy wallet use <name>` | Gbanwee njirimara obere akpa ego na-arụ ọrụ |
+| `npx zimppy request <url>` | Akpaaka 402 -> kwụọ ụgwọ -> arịrịọ ọzọ |
 
 ---
 
@@ -463,27 +463,27 @@ packages/
 
 ## Ihe Nlereanya & Ngosipụta
 
-Ihe Nlereanya. Nkọwapụta:
+| Ihe atụ | Nkọwa |
 |---|---|
-| `examples/fortune-teller/` ◯ Nkwụnye ụgwọ, nnọkọ na nkwanye ngosi - Rust server + client.
-| `examples/llm-summarizer/` ◯ Nlele nke usoro ịkwụ ụgwọ maka ihe ngosi LLM na-aga n'ihu.
-| `examples/mcp-server/` Ihe nkesa ngwaọrụ MCP nwere ngwa ọrụ AI akwụ ụgwọ.
-| `examples/ts-server/` ◯ TypeScript MPP ihe nkesa ntinye aka.
+| `examples/fortune-teller/` | Ngosipụta ụgwọ, nnọkọ, na nkwanye ugwu - Sava Rust + onye ahịa |
+| `examples/llm-summarizer/` | Ngosipụta nkwanye ugwu LLM nke na-akwụ ụgwọ kwa akara ngosi |
+| `examples/mcp-server/` | Ihe nkesa ngwaọrụ MCP nwere ngwaọrụ AI akwụ ụgwọ |
+| `examples/ts-server/` | Mmejuputa ntụaka ihe nkesa TypeScript MPP |
 
 ---
 
 ## Ihe Ndị E Nwere na Ya - Nchịkọta nke Isiokwu Ndị Dị́ na ya
 
- Njirimara: Nkọwapụta.
+| atụmatụ | Nkọwa |
 |---|---|
-** Oge** Deposit otu ugboro, ozugbo bearer arịrịọ, nkwụghachi na nso.
-**Streaming** Pay-per-token metered content over SSE. (Nkwado na nkwalite)
- ** Charge**  Echebe ma ọ bụ na-akwụ ụgwọ n'ụzọ doro anya kwa arịrịọ HTTP (402 flow) 
-♬ ** Nkwụnye ego doro anya. ♫ T-adreesị na mgbochi nkwụghachi ụgwọ kwa ihe ịma aka + iwu ọta.
-**Multi-Account** ZIP-32 akaụntụ mgbanwe, cross-akaụntụ na-enyefe, kwa-akaadị balances.
- CLI Wallet  Ziga, chebe, nyefee, kwụpụta - ihe niile, whoami, akpaaka-akwụ ụgwọ.
-** Dual SDK** TypeScript na Rust.
-**Spec-Compliant** HMAC-SHA256 ihe ịma aka, RFC 9457 njehie, `/.well-known/payment` nchọpụta.
+| **Oge Nzukọ** | Itinye ego otu ugboro, arịrịọ onye na-ebuga ngwa ngwa, nkwụghachi mgbe emechara |
+| **Na-agagharị** | Ọdịnaya a na-akwụ ụgwọ kwa akara n'elu SSE |
+| **Chaji** | Ịkwụ ụgwọ echekwara ma ọ bụ nke doro anya dịka arịrịọ HTTP si dị (usoro 402) |
+| **Ịkwụ Ụgwọ Na-enweghị Ntugharị** | Adreesị T nwere mgbochi replay kwa-ihe ịma aka + iwu nchekwa |
+| **Akaụntụ dị iche iche** | Mgbanwe akaụntụ ZIP-32 , nnyefe akaụntụ n'ofe, nguzozi akaụntụ kwa akaụntụ |
+| **Akpa CLI** | Zipu, chebe, nyefe, nguzozi ---niile, whoami, ịkwụ ụgwọ akpaaka |
+| **SDK abụọ** | Ụdị edemede na nchara |
+| **Dabere na Nkọwapụta** | Ihe ịma aka HMAC-SHA256, njehie RFC 9457, `/.well-known/payment` nchọpụta |
 
 ---
 

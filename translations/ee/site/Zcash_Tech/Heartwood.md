@@ -74,7 +74,7 @@ Ele be Coinbase ƒe nusiwo dona tso eme nadze le gaglãgbe, eyata tomenukulawo �
 
 [ZIP 250: Heartwood Network ƒe Dodoɖeŋgɔ ƒe Dɔwɔwɔ](https://zips.z.cash/zip-0250)
 
-[ZIP 213: Gaku si Wotsɔ Akpoxɔnu Wɔe](https://zips.z.cash/zip-0213)
+[ZIP 213: Coinbase si Wotsɔ Akpoxɔnu Wɔe](https://zips.z.cash/zip-0213)
 
 [ZIP 221: FlyClient - Nubabla-Akpa ƒe Tɔtrɔwo](https://zips.z.cash/zip-0221)
 

@@ -11,14 +11,14 @@ Zcashd, nke na-agba ọsọ netwọkụ maka ọtụtụ akụkọ ihe mere eme 
 
 ## Ihe ndị dị n'elu na-egosi otu ihe.
 
- Layer  Ihe ị ga-eji bido na ya 
+| Akwa oyi akwa | Ihe a ga-eji | Malite na |
 |:--|:--|:--|
- Full node: Zebra ma ọ bụ Zakura. [Akwụkwọ Zebra ahụ](https://zebra.zfnd.org/), [zakura.com (n'asụsụ Igbo)](https://zakura.com/) |
- Full node wallet. Zallet, na beta. [Akwụkwọ Zallet ahụ .](https://zcash.github.io/zallet/) |
-Ihe nkesa obere akpa ọkụ. Zaino ma ọ bụ lightwalletd. [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Ọnụ zuru ezu | Zebra ma ọ bụ Zakura | [Akwụkwọ Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
+| Obere akpa nodu zuru oke | Zallet, na beta | [Akwụkwọ Zallet](https://zcash.github.io/zallet/) |
+| Ihe nkesa obere akpa ego | Zaino ma ọ bụ lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
 | Wallet libraries | The librustzcash crates | [librustzcash](https://github.com/zcash/librustzcash) |
-Ngwaọrụ mkpanaka. Android na iOS SDKs. [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS (n'asụsụ Bekee)](https://github.com/zcash/zcash-swift-wallet-sdk) |
-Nkọwapụta: Usoro nhazi usoro na ZIPs. [zip.z.cash (ego)](https://zips.z.cash) |
+| Mkpanaka | SDKs gam akporo na iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
+| Nkọwapụta | Nkọwapụta usoro na ZIP | [zips.z.cash](https://zips.z.cash) |
 
 ## Nọmba ndị dị na ya
 
@@ -50,17 +50,17 @@ Ihe ahụ bụ: [Usoro Nkwado Ndị Ahịa Dị Mfe](https://zcash.readthedocs.i
 
 Ọtụtụ ọrụ ego na-eme n'ime igbe nchara dị n'okpuru. [librustzcash](https://github.com/zcash/librustzcash), nke SDKs mobile na ọtụtụ desktọọpụ wallets wuru. A na-edepụta igbe ọ bụla n'elu akwụkwọ ozi dị mkpa maka nchekwa data ha, ma nwee ike ịnweta ya site na iji ihe nchọgharị weebụ . [akwụkwọ.rs](https://docs.rs).
 
- Igbe: Ihe ọ bụ maka.
+| Kretị | Ihe ọ bụ maka ya |
 |:--|:--|
- zcash_client_backend "API maka ịmepụta ndị ahịa Zcash na-ekpuchi", gụnyere nhazi oge na azụmahịa.
- zcash_client_sqlite "Onye ahịa Zcash dị mfe nke dabeere na SQLite", nchekwa nchekwa maka n'elu"
- zcash_keys "Zcash igodo na adreesị njikwa"
- zcash_primitives "Rust mmejuputa nke Zcash primitives"
- zcash_protocol "Zcash protocol network constants and value types" (Ụdị na-adịgide adịgide nke netwọkụ Zcash)
- Orchard "Ọnụahịa azụmahịa nke a na-echebe"
- sapling-crypto "Ọbá akwụkwọ Cryptographic maka Zcash Sapling"
- pczt "Ngwaọrụ maka ịrụ ọrụ na azụmahịa Zcash e mepụtara nke ọma", eji ya eme ihe maka ngwaike na ntinye aka ọtụtụ ngwaọrụ.
- zip321  arịrịọ ịkwụ ụgwọ URI, dị ka akọwapụtara na ZIP 321 
+| zcash_client_backend | "APIs maka imepụta ndị ahịa Zcash na-echebe", gụnyere mmekọrịta na owuwu azụmahịa |
+| zcash_client_sqlite | "Onye ahịa ọkụ Zcash nke dabeere na SQLite", oyi akwa nchekwa maka ihe dị n'elu |
+| zcash_keys | "Zcash na njikwa adreesị" |
+| zcash_primitives | "Mmejuputa nchara nke Zcash primitives" |
+| zcash_protocol | "Zcash protocol" |
+| ubi mkpụrụ osisi | "Usoro azụmahịa nke Orchard kpuchiri" |
+| sapling-crypto | "Ọbá akwụkwọ cryptographic maka Zcash Sapling" |
+| pczt | "Ngwaọrụ maka ịrụ ọrụ na azụmahịa Zcash e kere n'ime akụkụ", nke eji maka mbinye aka ngwaike na ngwaọrụ dị iche iche |
+| zip321 | URI arịrịọ ịkwụ ụgwọ, dịka akọwara na ZIP 321 |
 
 Maka mobile, ndị na-ahụ maka ihe nkiri. [Android SDK](https://github.com/zcash/zcash-android-wallet-sdk) na ndị ọzọ. [iOS SDK](https://github.com/zcash/zcash-swift-wallet-sdk) a na-akpọbu ebe nchekwa iOS ZcashLightClientKit, ya mere njikọ ndị okenye na isiokwu jiri aha ahụ.
 

@@ -291,7 +291,7 @@ Zcash-native DEX nke na - eweta ZEC echedoro n'ime Web3 DeFi site na WalletConne
 Decred bụ mgbanwe na-enweghị isi nke na-akwado Zcash. 
 [Ịga leta ya .](https://dex.decred.org)
 
-### Akpa ego obi ike .
+### Obere Brave
 Akpa ego nchọgharị nwere nkwado Zcash. 
 [Ịga leta ya .](https://brave.com/wallet/)
 

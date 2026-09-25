@@ -45,12 +45,12 @@ Nke ikpeazụ ahụ bụ nke ọtụtụ ndị nduzi na-atụfu. ** Ebe ị nwet
 
 Zebra na-ebipụta ihe ndị a maka mbipute ọ bụla:
 
-Akụnụba. Nzube.
+| Akụrụngwa | Ebumnuche |
 |---|---|
-| `zebrad-<version>-<arch>.tar.gz` Ihe nchekwa data nke ọnụọgụ abụọ.
-| `zebrad-<version>-<arch>.tar.gz.sha256` Nchịkọta ego maka faịlụ ọ bụla.
-| `SHA256SUMS`  nchịkọta maka ihe owuwu niile.
-| `SHA256SUMS.sigstore.json` ◯ Sigstore ngwugwu mbinye aka `SHA256SUMS` |
+| `zebrad-<version>-<arch>.tar.gz` | ebe nchekwa abụọ |
+| `zebrad-<version>-<arch>.tar.gz.sha256` | checksum kwa-faịlụ |
+| `SHA256SUMS` | checksums maka ihe owuwu niile |
+| `SHA256SUMS.sigstore.json` | Mbinye aka n'akwụkwọ Sigstore `SHA256SUMS` |
 
 ### Nzọụkwụ 1  Download
 
@@ -174,15 +174,15 @@ X509v3 Subject Alternative Name: critical
 
 Aha ọzọ nke isiokwu bụ njirimara. Ọ na-akpọ aha nchekwa, faịlụ ọrụ kpọmkwem, yana mkpado ahụ. Sigstore agbakwunye mgbakwunye metadata ndị ọzọ n'ime ndọtị omenala:
 
-Ubi. Uru maka v6.3.0
+| Ubi | Uru maka v6.3.0 |
 |---|---|
-Onye na-enye OIDC. `https://token.actions.githubusercontent.com` |
-Ebe nchekwa isi mmalite. `https://github.com/ZcashFoundation/zebra` |
-◯ Mee ka ihe ahụ doo anya. `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
-Onye na-agbachitere: `refs/tags/v6.3.0` |
-Gburugburu ebe a na-agba ọsọ. `github-hosted` |
- Gbaa usoro ọrụ. `.../actions/runs/31424510487/attempts/1` |
-Ihe ngosi nchekwa data. `public` |
+| Onye na-ewepụta OIDC | `https://token.actions.githubusercontent.com` |
+| Ebe nchekwa isi mmalite | `https://github.com/ZcashFoundation/zebra` |
+| Wulite nkwa | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| Ntụaka | `refs/tags/v6.3.0` |
+| Gburugburu ebe ndị na-agba ọsọ | `github-hosted` |
+| Usoro ọrụ na-agba ọsọ | `.../actions/runs/31424510487/attempts/1` |
+| Visibiliti ebe nchekwa ihe | `public` |
 
 Onye ọ bụla n'ime ndị a nwere ike ịlele. hash ahụ kwesịrị ikwekọ na mkpado dị na ebe nchekwa; usoro ọrụ ga-adị adị ma bụrụ ọha mmadụ.
 
@@ -217,11 +217,11 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 Ngwongwo ahụ nwere ndekọ Rekor na-egosi mbinye aka a bipụtara ya n'akwụkwọ ọha, tinye naanị log:
 
-Ubi. Uru.
+| Ubi | Uru |
 |---|---|
-◯ Ihe ndekọ log index. `2412071838` |
-Ụdị ntinye. `hashedrekord v0.0.1` |
- Ejikọtara na 2026-08-10 19:43:09 UTC.
+| Ndepụta ndekọ Rekor | `2412071838` |
+| Ụdị ntinye | `hashedrekord v0.0.1` |
+| Ejikọtara na | 2026-08-10 19:43:09 UTC |
 
 Nke a bụ ihe na-eme ka igodo dị jụụ jiri mee ihe n'ụzọ ziri ezi. Nkwekọrịta nke ahụ apụtaghị na ndekọ, ma ọ bụ pụtara na oge adịghị mma, bụ akara bara uru ime ihe. Tụlee oge mwekota megide ọkwa ntọhapụ.
 
@@ -233,13 +233,13 @@ Nke a bụ ihe na-eme ka igodo dị jụụ jiri mee ihe n'ụzọ ziri ezi. Nkw
 
 Zallet na-ebipụta ihe dị iche:
 
-Akụnụba. Nzube.
+| Akụrụngwa | Ebumnuche |
 |---|---|
-| `zallet-<version>-<platform>.tar.gz` Ihe nchekwa data nke ọnụọgụ abụọ.
-| `.tar.gz.asc` ◯ Ihe e ji amata GPG nke dịpụrụ adịpụ.
-| `.tar.gz.intoto.jsonl` Ihe akaebe nke ebe ihe si bịa.
-| `.tar.gz.provenance.json` Metadata nke ebe o si.
-| `.tar.gz.sbom.spdx` Akwukwo ihe eji emeputa software.
+| `zallet-<version>-<platform>.tar.gz` | ebe nchekwa abụọ |
+| `.tar.gz.asc` | Mbinye aka GPG nkewapụrụ |
+| `.tar.gz.intoto.jsonl` | Ihe akaebe sitere na SLSA |
+| `.tar.gz.provenance.json` | metadata mmalite |
+| `.tar.gz.sbom.spdx` | akwụkwọ ngwanrọ nke ihe |
 
 ### Nzọụkwụ 1  Chọpụta igodo mbinye aka tupu ị gawa ịchọ ya .
 
@@ -330,12 +330,12 @@ GnuPG na-ekewapụ ajụjụ abụọ:
 
 Zcash release signing moved from Electric Coin Company to Zcash Open Development Lab in 2026, after ZODL was formed in January 2026 by the former ECC engineering and product team.
 
-Igodo ochie. Igodo ọhụrụ.
+| | Igodo ochie | Igodo ọhụrụ |
 |---|---|---|
-Ihe mkpịsị aka. `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
-☐ UID ▸ Zcash Master Signing Key (ECC)  Nkwado maka ịkwụ ụgwọ na-akwụghị ụgwọ. `<sysadmin@z.cash>` Zcash Open Development Lab (ZODL) Ihe ndị dị mkpa `<sysadmin@zodl.com>` |
-☐ Ụdị: RSA 3072-bit, kere 2023-06-19 ▸ RSA 4096-bit, eke 2026-03-23, ga-agwụ na 2028-03-22 📅 ya. - N'ihi gịnị? Ọ bụ n'ihi ihe ndị a ka m ji kwuo okwu ahụ.
-E bipụtara na: `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
+| Mkpisiaka | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
+| UID | Igodo Mbinye Aka Zcash Master (ECC) `<sysadmin@z.cash>` | Zcash Open Development Lab (ZODL) `<sysadmin@zodl.com>` |
+| Ụdị | RSA 3072-bit, e kere ya na 2023-06-19 | RSA 4096-bit, e kere ya na 2026-03-23, ọ ga-akwụsị na 2028-03-22 |
+| Ebipụtara na | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
 Oge e bipụtara: igodo ọhụrụ emere 2026-03-23, mara ọkwa na 2026- 03-27, ịbịanye aka naanị site na 20 26-4-23, iweghachi nke isi ECC ochie emebere maka 2026-6-23 .
 
@@ -425,12 +425,12 @@ Otu byte agbakwunyere na faịlụ 66,992,676-byte. Ihe abụọ ahụ enweghị
 
 ## Akụkụ 4  Tebụl ntụaka
 
- Project  Releases bipụtara na  Method  Ebe igodo si abịa 
+| ọrụ | Mbipụta ndị e bipụtara na | Ụzọ | Ebe igodo ahụ si abịa |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle.  Ọ dịghị igodo  CI njirimara site na GitHub OIDC
-**Zallet** Ọ bụ onye na-eme ihe nkiri. `github.com/zcash/zallet/releases` GPG ewepụrụ onwe ya. `.asc`, ebe SLSA si, SBOM. `apt.z.cash/zodl.asc`  nke mbụ `0338 34DD…58E2 6AB1`, na-edebanye aha subkey `1FE9 9324…23F0 617F` |
-**zcashd**  Kwụsị na ngọngọ 3,417,100 on 2026-07-18. Do not install.
-♬ **Zodl** (nke a na-akpọbu Zashi) ♫ App Store / Google Play; `zodl-inc` na GitHub  Nkwekọrịta ụlọ ahịa; ihe abụọ Android kwadoro GPG-kweere aka  ZODL igodo kwa nkwupụta mgbanwe  Ọdịnaya nke ndị ọrụ:
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Ngwugwu Ụlọ Ahịa Sigstore | Enweghị igodo — njirimara CI site na GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | GPG kewapụrụ iche `.asc`, SLSA sitere na ya, SBOM | `apt.z.cash/zodl.asc` - isi `0338 34DD…58E2 6AB1`, mbinye aka subkey `1FE9 9324…23F0 617F` |
+| **zcashd** | *ezumike nká* | — | Akwụsịla na blọk 3,417,100 na 2026-07-18. Etinyela ya. |
+| **Zodl** (onye bụbu Zashi) | Ụlọ Ahịa Ngwa / Google Play; `zodl-inc` na GitHub | Mbinye aka n'ụlọ ahịa; ụdị abụọ Android nke GPG bịanyere aka na ya | Igodo ZODL kwa nkwupụta mgbanwe ọ bụla |
 
 > **Naming note:** Zashi was rebranded to **Zodl** in 2026 — first on the App Store, then on Google Play. Older guides referring to "Zashi" describe the same wallet lineage.
 

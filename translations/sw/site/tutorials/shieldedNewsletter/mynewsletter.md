@@ -24,7 +24,7 @@ Zebra 1.8.0 Latest Release, FROST ni Published, Zooko Starts New Zcash Project &
 
 [Zcash Avalanche Elastic Subnet Bridge Sasisho](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/63)
 
-[Shielded ZEC swaps na Maya Itifaki](https://x.com/GiMa9550/status/1808960168681476288)
+[ZEC Iliyolindwa Yabadilishana na Maya Protocol](https://x.com/GiMa9550/status/1808960168681476288)
 
 [Rasmi ulinzi msaada kwa ajili ya zcash katika kitabu hw-mkoba](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 

@@ -139,13 +139,13 @@ You do not need to memorize this. You need to know that **division in a finite f
 
 Tá a bá wo ohun tó ṣẹlẹ̀, a máa rí i pé gbogbo ẹjọ́ náà ló wà ní ojú ìwé kan.
 
-Ohun ìní `F_p` Ìdí tí ètò ìpamọ́ fi fẹ́ ẹ.
+| Ohun ìní ti `F_p` | Kí ló dé tí ètò ìpamọ́ fi fẹ́ ẹ |
 |---|---|
-** Finite** Kọ̀ǹpútà máa ń tọ́jú gbogbo ohun tó bá fẹ́; kò sí yípo, kò sí àpòpòpò, kò sì sí àlàfo.
-** Wrap-around** Ó máa ń pa "ìwọ̀n" nù, nítorí náà iye kan kò ní sọ ohunkóhun nípa bí wọ́n ṣe mú un jáde.
+| **Ipari** | Kọ̀ǹpútà máa ń kó gbogbo ohun tó wà nínú rẹ̀ pamọ́ ní pàtó; kò ní yípo, kò ní kún, kò ní ní ìfọ́jú omi |
+| **Ìparí-yíká** | Ó pa "iwọn" rẹ́, nítorí náà, ìníyelórí kan kò ní í sọ ohunkóhun nípa bí a ṣe ṣe é |
 | **All four operations work** | Cryptographic recipes (keys, commitments, proofs) need genuine algebra, not just counting |
-**Iwọn ti o le yan**. Yan 255-bit tabi 381-bit akọkọ ati pe aaye naa ni awọn eroja diẹ sii ju awọn atomu lọ ni agbaye ti a le ṣe akiyesi; iṣaro jẹ ireti.
-**Exact and deterministic** Ẹgbẹ́ olóòtítọ́ méjì tí wọ́n ń ṣe ìwádìí ohun kan náà máa ń rí àbájáde kan náà, èyí tí àwọn ẹ̀rí dá lé.
+| **Iwọn ti a le yan** | Yan prime 255-bit tàbí 381-bit kan, pápá náà sì ní àwọn èròjà tó pọ̀ ju àwọn átọ̀mù tó wà nínú àgbáyé tó ṣeé rí lọ; àbámọ̀ kò ní ìrètí rárá |
+| **Gẹ́gẹ́ àti èyí tí a pinnu** | Àwọn ẹgbẹ́ méjì tí wọ́n jẹ́ olóòótọ́ tí wọ́n ń ṣe ìṣirò ohun kan náà máa ń rí àwọn àbájáde kan náà gbà, èyí tí ẹ̀rí fi hàn pé wọ́n ń ṣe é |
 
 Ẹ̀ka tí ó ní òpin ni, ní gbólóhùn kan, ** ibi eré ìdárayá tí ó ti dí pátápátá, tí ó pé pérépéré, tó sì tóbi fún ìṣirò.** Gbogbo ohun mìíràn nínú Zcash ni a kọ nípa gbígbá nínú rẹ̀.
 
@@ -184,15 +184,15 @@ Lati wa ni titunse- ore a simplified kan diẹ ninu awọn otitọ ohun. lopin a
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-**Modular arithmetic** Arithmetics ti o n yi pada lẹhin ti o de iye kan, bi aago.
-"Pá nípasẹ̀ `p` kí o sì fi èyí tó kù pa mọ́ fún ara rẹ".
-**Field**. Ètò ìṣirò tí a fi ń ṣe àfikún, àyọkúrò, ìlọ́po, àti pínpín gbogbo iṣẹ́.
-** Àgbègbè tí ó ní òpin `F_p`Àwọn Nọ́ńbà `0..p-1` pẹ̀lú ìṣirò tí a ṣe mod a prime `p` |
-** Inverse (àdàpọ̀) ** Ẹ̀yà náà `a^(-1)` pẹ̀lú `a x a^(-1) = 1`; "bí a bá pín in sí `a`" túmọ̀ sí pé ká fi iye yẹn kún un.
-** Zero divisor**: Awọn iye meji ti kii ṣe odo ti ọja wọn jẹ odo; ohun ti o bajẹ modulu apapọ.
-**Prime**. Nọmba gbogbo ti o tobi ju 1 lọ pẹlu ko si awọn oludari ayafi 1 ati ara rẹ.
+| **Iṣiro onirọpo** | Ìṣirò tó ń yípo lẹ́yìn tí ó bá dé iye tí a ti sọ tẹ́lẹ̀, bí aago |
+| **mod p** | "Pínpín nípasẹ̀ `p` kí o sì pa èyí tó kù mọ́" |
+| **Pápá** | Ètò nọ́mbà níbi tí a ti ń fi kún, yọ kúrò, sọ di púpọ̀, àti pín gbogbo iṣẹ́ |
+| **Pápá ìparí `F_p`** | Àwọn nọ́mbà náà `0..p-1` pẹlu isiro ti ṣe mod a prime `p` |
+| **Iyipada (pasiparo)** | Ẹ̀yà náà `a^(-1)` pẹlu `a x a^(-1) = 1`"pínpín nípasẹ̀ `a`"tumọ si isodipupo nipasẹ rẹ |
+| **Odo ipinpin** | Àwọn ìníyelórí méjì tí kò ní òdo tí ọjà wọn jẹ́ òdo; ohun tí ó ba àkójọpọ̀ modulu jẹ́ |
+| **Akọrin** | Nọ́mbà odidi tó ju 1 lọ láìsí àwọn ohun tó ní í ṣe pẹ̀lú àyàfi 1 àti ara rẹ̀ |
 
 ---
 

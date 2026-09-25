@@ -75,12 +75,12 @@ In plain terms, the circuit's checklist was missing the boxes that should have p
 
 Nsɛdi a ɛwɔ yɛn asɛm no mu yɛ pɛpɛɛpɛ:
 
-Ԑwͻ sε y'ahwehwԑ nsesaeԑ no ho ashensoɔ. Orchard mmoawa no.
+| Checklist asɛm no | Nnua a wɔfrɛ no Orchard bug no |
 |---|---|
-"Passport not expired" box a ayera. A constraint missing on an elliptic-curve multiplication.
-Ԑwɔsԑ akwantufo a wɔn tumi krataa atwam no di so. Nkyerεmu ahorow bi wɔ hɔ a ԑyԑ atoro na wɔde to nea wobedi kan ho nhwehwɛmu mu.
-Obiara nni hɔ a ne ho aka, enti biribiara nyɛ no sɛ ɛyɛ mfomso. N'adwuma biara yɛ adwuma yiye de siee ɔhaw no.
-Ԑno nti, yԑn a wᴐyԑ nkyerεkyerεfo no nim nsesaeԑ biara wɔ ne ho.
+| "passport not expired" adaka bi a ayera | Anohyeto a ɛyera wɔ elliptic-curve multiplication so |
+| Ɔkwantufo a ne akwantu tumi krataa a ne bere atwam twam ɔkwan biara so | Atoro nsɛm a wɔde hyɛ mu a wɔpɛ no twa dodow nhwehwɛmu no mu |
+| Obiara a aka no nnya so nkɛntɛnso, enti biribiara nni hɔ a ɛte sɛ nea ɛnteɛ | Nkitahodi a wɔtaa yɛ no yɛɛ adwuma pɛpɛɛpɛ, na ɛde sintɔ no siei |
+| Obi a ɔrebɔ abɔmmɔ nkutoo na ohu tokuru no | Egyee onimdefo bi a ɔhyɛɛ da hwehwɛɛ ɔmansin no akontaabu mu |
 
 Sɛ yɛbɛte ase yie sɛ eyi yɛ aniberesɛm: nhwehwɛmufoɔ no, a AI mmoa wɔ mu no kyerɛw * exploit adwuma awieɛ* na ɔdaa adi wɔ amansan nhyehyeԑ so sε ɛde sika atorosom bebree aba. Eyi yεε mfomso ankasa ne nea wobetumi de ayɛ dwuma, ɛnyɛ adwendwene bi ho dadwen.
 
@@ -111,13 +111,13 @@ Orchard nsunsuanso no yɛ abusua a wɔtaa ka ho asɛm, na sɛ wohu saa abusua yi
 
 Zcash ankasa abakɔsɛm kyerɛ saa kwan no:
 
- (year) -N'akyi kwan no. Yԑ hu?
+| Bug (afe) | Farebae | Wotumi hu? |
 |---|---|---|
-Zerocash commitment flaw (2016, pre-launch) Specification (a truncated hash broke a binding property) Undetectable. Nea w'atumi ahu
-Trusted-setup soundness flaw (2018) Specification (ɔsɛeɛ wɔ zk-SNARK krataa a wɔde yɛ adwuma no mu) Undetectable.
- Sԑnea wobedi adanse ԑne afotusem a' yԑde bԑto dwa (2025) Ԑkyerԑ (wɔn ahwehwԑmu wɔ sԑnea wobu nkontaae) Wobetumi ahu.
-Curve-subgroup validation bug (2016) Implementation (a missing subgroup check) Detectable. Nea ɛhia ma nhwehwɛmu
- Orchard ase-a wɔhyɛ no so mmɔ ho (2026)  (mfidie) mu nsɛnkyerɛne a ɛnhu.
+| Zerocash ahofama sintɔ (2016, ansa na wɔrefi ase) | Nkyerɛkyerɛmu (hash a wɔatwa no tiaa bubuu binding property) | Wontumi nhu |
+| Trusted-setup soundness sintɔ (2018) | Nkyerɛkyerɛmu (mfomso a ɛwɔ zk-SNARK krataa a ɛwɔ ase no mu) | Wontumi nhu |
+| Proving-system asɛmmisa nhyiam (2025) | Specification (cheque a ɛyera wɔ adanse nhyehyɛe no mu) | Wotumi hu |
+| Curve-subgroup validation bɔne (2016) | Dwumadi (kuw nketewa nhwehwɛmu a ɛyera) | Wotumi hu |
+| **Orchard under-constrained dodow a wɔdɔɔso (2026)** | **Nkyerɛkyerɛmu (ɔmansin no)** | **Wɔnntumi nhu** |
 
 N'asɛm no mu da hɔ pefee: mfomso a ebetumi ahinta daa ne nea ɛwɔ akontaabu mu. Saa pɛpɛɛpɛ na adesuade bi wɔ kontai ho, sɛ yɛhwɛ emu nsɛm nyinaa so prɛko pɛ a yebetumi ayi afi mu. Nhwehwɛmu ne nhwehwɛmu; nkontabuo nkutoo na ɛboa ma wotumi hu ade biara a wɔde ba.
 
@@ -157,17 +157,17 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 
 ## Nsɛmfua a wɔde di dwuma
 
-Asɛmfua. Nkyerεase a emu da hɔ wɔ Borɔfo mu no kyerɛ sɛ:
+| Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-**Shielded pool** Zcash no fa a w'atumi de sika ne nnipa ahintaw wɔ hɔ.
-** Zero-knowledge proof**. Agyede a ɛkyerɛ sɛ asɛm bi wɔ hɔ na ɛyɛ nokware, nanso ɛnkyerɛ biribi foforo biara.
-** Circuit**. Nkyerεkyerεmu a wɔhwε no so ahwehwεde mu tebea ahorow bi na ɛsɛ sɛ adwuma pa di ho dwuma ma edi mu.
-** Constraint**. Ahyehyԑde biako (sono) a ԑwɔ amansan no mu.
-**Witness**. Akwankyerɛ a w'atumi de adi dwuma wɔ wo nkyereso mu no, ɛne nea ɛwɔ hɔ sɛ wode di dwuma bere biara na ama woanya akwanya ayɛ adwuma yiye.
-**Soundness**: Ahotɔ a ɛne sɛ nsɛm bi a ɛyɛ nokware nkutoo na ebetumi ama adanseɛ ayɛ papa.
-**Soundness gap**: A missing constraint that lets false statements pass. *soundsgap* - a missing restriction that allows false statement to pass - so no, saa na yɛfrɛ no "a soundness gap" (ɛnyɛ nokware)
-**Under-constrained**. N'asɛm a ehia, Orchard nsunsuanso no ntini bi wɔ amansan mu.
-**Wɔn a wɔtumi hu/ wɔnntumi nhu** W'atoto mu no bɛgyaa adanseɛ wɔ ɔmanfoɔ nkrataabu mu anaa?
+| **Ɔtare a wɔabɔ ho ban** | Zcash kokoam mode a wɔde sika ne apontow ahorow asie |
+| **Nimdeɛ a ɛnyɛ hwee ho adanse** | Adanse a ɛkyerɛ sɛ asɛm bi a ahintaw yɛ nokware, a ɛnna biribi foforo biara adi |
+| **Amansin** | Akontaabu tebea horow a wɔahyɛ da ayɛ a ɛsɛ sɛ asɛm a ɛfata di ho dwuma |
+| **Anohyeto** | Tebea biako (equation) a ɛwɔ ɔmansin no mu |
+| **Ɔdanseni** | Kokoam gyinapɛn ahorow a ɛma anohyeto ahorow no di mu |
+| **Nnyigyei** | Awerɛhyem a ɛne sɛ nsɛm a ɛyɛ nokware nkutoo na ebetumi ama wɔanya adanse a ɛfata |
+| **Nnyigyei mu nsonsonoe** | Anohyeto a ɛyera a ɛma atoro nsɛm twam |
+| **Wɔahyɛde ase** | Ɔmansin bi a ɛyera tebea bi a na ehia, Orchard mmoawa no ntini |
+| **Wobetumi ahu / wontumi nhu** | Sɛ́ ebia mfaso a wɔde bedi dwuma no bɛma wɔagyaw adanse wɔ ɔmanfo nhoma kɛse mu anaa |
 
 ---
 

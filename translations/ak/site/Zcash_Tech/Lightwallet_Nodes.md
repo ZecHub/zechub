@@ -100,7 +100,7 @@ Server ahorow a wɔakyerɛw wɔ saa dashboard no so bere a yɛrekyerɛw eyi no:
 | Server | Nsɛm a Wɔahyɛ no Nsow |
 |:--|:--|
 | zec.abotan:443 | Wɔakyerɛw mpɔtam hɔ awiei ahorow wɔ ne nkyɛn wɔ na.zec.rocks, eu.zec.rocks, ap.zec.rocks ne sa.zec.rocks |
-| zec-node.cakewallet.com: 443 na ɛwɔ hɔ a, ɛyɛ nea ɛyɛ nwonwa Wɔ Cake Wallet no domɛn so |
+| zec-node.cakewallet.com: 443 na ɛwɔ hɔ | Wɔ Cake Wallet no domɛn so |
 | zec.0xrpc.io: 443 na ɛwɔ hɔ | 0xRPC na ɛhwɛ so, a ɛma ɔmanfoɔ endpoints a wontua hwee ma nkɔnsɔnkɔnsɔn dodoɔ bi na ɛsrɛ ntoboa mfa ntua tumi |
 | zaino.unsafe.zec.rocks:443 | A Zaino instance. Note the hostname, treat it as experimental |
 | testnet.zec.abotan:443 | Testnet, a Zaino testnet nhwɛsoɔ a wɔakyerɛw wɔ zaino.testnet.unsafe.zec.rocks |

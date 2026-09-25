@@ -55,14 +55,14 @@ NU6 jẹ orí kan nínú ìtàn tó gùn nípa bí Zcash ṣe ń sanwó fún ara
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-ìtìlẹyìn ìdìpọ̀. ZEC tuntun tí a dá pẹ̀lú gbogbo àlàfo ti a bá ṣe ni ó ń jẹ́:
- Coinbase transaction. Ìṣirò àkànṣe tí ó ń san owó ìrànwọ́ àti àwọn ìnáwó fún ẹ̀ka kan.
+| Ìrànlọ́wọ́ Àkọsílẹ̀ | ZEC tuntun tí a ṣẹ̀dá pẹ̀lú gbogbo búlọ́ọ̀kù tí a ń wa jáde |
+| Iṣowo Coinbase | Iṣowo pataki ti o san owo iranlọwọ ati awọn idiyele bulọọki kan |
 | Deferred Dev Fund Lockbox | An in-protocol reserve that holds a share of issuance for future community-decided use |
-Zcash Community Grants (ZCG) Ìgbìmọ̀ tó ń ṣètọrẹ owó fún iṣẹ́ tí àwọn aráàlú Zcash ṣe àti èyí tí wọ́n fi ranṣẹ sí wọn.
-☐ Idì ẹ̀ka ìfọwọ́sowọ́pọ̀ (consensus branch id) Àwọn nóòù ìdánimọ̀ máa ń lo láti sọ àwọn ìlànà àtúnṣe tí agbóǹgbò kan tẹ̀lé.
- Network upgrade (NU)  Aṣayan iyipada ti a ṣepọ si awọn ofin ifọkanbalẹ Zcash, ti o ṣiṣẹ ni giga bulọọki ṣeto.
+| Àwọn Ìrànlọ́wọ́ Àwùjọ Zcash (ZCG) | Ìgbìmọ̀ kan tí ó ń ṣe owó fún iṣẹ́ tí àwùjọ Zcash ń ṣe àti fún wọn |
+| ID ẹka Consensus | Àwọn nódù ìdámọ̀ máa ń lo láti sọ àwọn òfin ìdàgbàsókè tí bulọọki kan tẹ̀lé |
+| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's , tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 

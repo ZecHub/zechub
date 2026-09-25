@@ -25,7 +25,7 @@ Sprout and Sapling both depended on a trusted setup. A group of people ran a cer
 NU5 na-agbakọta ọtụtụ mgbanwe nkwekọrịta, ha niile arụ ọrụ ọnụ na ngọngọ 1,687,104.
 
 1. Ọ gbakwunyere ọdọ mmiri Orchard (ZIP 224), usoro Halo 2 nke akọwapụtara n'elu.
-2. Ọ gbakwunyere usoro azụmahịa nke 5 (ZIP 225), nhazi a na-emegharị ya na mpaghara dị iche maka data doro anya, Sapling, na ọhụrụ Orchard. E wepụrụ ubi ndị nwere ike ịba uru, ma ụdị mbipute 4 ochie ahụ ka dịkwa irè mgbe arụ ọrụ.
+2. O tinyere usoro azụmahịa nke ụdị 5 (ZIP 225), nhazi agbanwere agbanwe nke nwere mpaghara dị iche iche maka data doro anya, Sapling, na data Orchard ọhụrụ. Ewepụrụ ubi Sprout , usoro nke ụdị 4 ochie ahụ ka dịkwa irè mgbe emechara ya.
 3. Ọ webatara adreesị na igodo nlele (ZIP 316), nke a tụlere na ngalaba ọzọ.
 4. Ọ nakweere njirimara azụmahịa na-enweghị ike (ZIP 244), ụzọ ọhụrụ nke ịgbakọ id transaction's nke kewara ihe nkwekọrịta ahụ si n'aka ndị akaebe na mbinye aka nyere ya ikike.
 5. Ọ nakweere koodu Jubjub isi (ZIP 216) iji wepu koodu ndị na-abụghị ọkọlọtọ ma mee ka iwu sie ike banyere ihe a ga - agụ dị ka azụmahịa ziri ezi.
@@ -47,14 +47,14 @@ NU5 followed Zcash's earlier upgrades: Overwinter, Sapling, Blossom, Heartwood, 
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
- Orchard. The echebe ọdọ mmiri NU5 ẹkenam, wuru na Halo 2 egosi usoro.
-Halo 2 Usoro nyocha n'azụ Orchard nke na-achọghị ntọala a tụkwasịrị obi.
-◯ Nhazi a tụkwasịrị obi ▪ Ememe otu oge nke na-emepụta ihe nzuzo dị n'ọdọ mmiri ma bụrụ onye e kwesịrị ịtụkwasị obi iji bibie ha.
-◯ Unified address. Otu adreesị nwere ike ijikọta ndị nnata maka ihe karịrị otu ọdọ mmiri (ZIP 316)
-◯ Consensus branch id. Ihe njirimara na-egosi nke setịpụrụ iwu azụmahịa bụ otu n'ime ya.
+| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's , nke a na-arụ ọrụ na elu blọk edobere |
+| Orchard | E webatara ọdọ mmiri NU5 a na-echebe, nke e wuru na sistemụ nnwale Halo 2 |
+| Halo 2 | Sistemụ na-egosi ihe dị n'azụ Orchard nke na-achọghị ntọala a pụrụ ịtụkwasị obi |
+| Ntọala a tụkwasịrị obi | Ememe otu ugboro nke na-eme paramita nzuzo nke ọdọ mmiri ma a ga-atụkwasị ya obi ibibi ha |
+| Adreesị ejikọtara ọnụ | Otu adreesị nke nwere ike ijikọ ndị nnata maka ihe karịrị otu ọdọ mmiri (ZIP 316) |
+| Njikọ ngalaba nkwekọrịta | Ihe njirimara nke na-egosi usoro iwu azụmahịa bụ |
 
 ## Ajụjụ ndị a na-ajụkarị
 

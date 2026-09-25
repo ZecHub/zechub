@@ -27,12 +27,12 @@ For blockchains, the most important example is public-key cryptography. Public k
 
 Àwọn ẹ̀ka-ìpínlẹ̀ ńlo ẹ̀rọ-ìpamọ́ fún ọ̀pọ̀lọpọ̀ iṣẹ́:
 
- Ohun èlò ìkọ̀ǹkọ̀rọ̀  Kí ni ó ń ṣe  Àkóbá Kúmánìkì 
+| Irinṣẹ́ ìkọ̀wé-kíríǹkì | Ohun tí ó ṣe | Ipa kuatomu |
 | --- | --- | --- |
-☐ Àwọn ìmúṣẹ dígídílì ☐ Ẹ̀rí pé ẹni tó ni ilé náà fúnni láṣẹ láti náwó ☐ Ewu ńlá fún àwọn ètò elliptic-curve tí ó wọ́pọ̀
- Hash functions  Build addresses, commitments, Merkle trees, and challenges  Ewu ti o kere ju, ṣugbọn awọn iyẹwu aabo ṣe pataki
-Àwọn ẹ̀rí tí kò ní ìmọ̀ rárá. Ẹ fi hàn pé àwọn ìnáwó tí wọ́n fi ààbò bo jẹ́ ojúlówó láìfi àlàyé hàn. Ó sinmi lórí ètò ẹ̀jẹ́ àti àwọn àbá.
-Àdéhùn kókó. Ó ń ran àwọn àpò-ìpamọ́ lọ́wọ́ láti ṣe àdàkọ ìsọfúnni fún àwọn olùgba. Ó nílò àyẹ̀wò pẹ̀lẹ́pẹ̀lẹ́ lábẹ́ àwòkọ́ṣe ìparun tó pọ̀.
+| Àwọn ìfọwọ́sowọ́pọ̀ oní-nọ́ńbà | Fi hàn pé ẹni tó ni ilé náà fún ni àṣẹ láti náwó | Ewu giga fun awọn eto elliptic-curve ti o wọpọ |
+| Àwọn iṣẹ́ Hash | Kọ awọn adirẹsi, awọn ileri, awọn igi Merkle, ati awọn italaya | Ewu kekere, ṣugbọn awọn ala aabo ṣe pataki |
+| Àwọn ẹ̀rí àìmọ̀ | Fi hàn pé àwọn ìṣòwò tí a dáàbò bo wúlò láìsí àwọn àlàyé tó wà nínú rẹ̀ | Da lori eto ẹri ati awọn arosinu |
+| Àdéhùn pàtàkì | Ṣe iranlọwọ fun awọn apamọwọ lati fi data akọsilẹ pamọ fun awọn olugba | Ó nílò àtúnyẹ̀wò kíákíá lábẹ́ àpẹẹrẹ ewu kuatomu |
 
 Kọ̀ǹpútà tó lágbára gan-an lè jẹ́ kí ọ̀pọ̀ ètò tí wọ́n ń lò lóde òní láti fi fọwọ́ síwèé, títí kan èyí tó ní àyíká elliptic curve.
 
@@ -88,14 +88,14 @@ But shielded Zcash is not automatically post-quantum. Shielded pools still depen
 
 ## Àwòrán ewu Zcash
 
-Àdúgbò: Àlàyé fún ẹni tó ṣèbẹ̀rẹ̀. Àníyàn nípa ohun tó ń ṣẹlẹ̀ lẹ́yìn ìgbà tí wọ́n bá ti rí i.
+| Agbègbè | Àlàyé olùbẹ̀rẹ̀ | Àníyàn lẹ́yìn-ìwọ̀n-owó |
 | --- | --- | --- |
 | Transparent addresses | Public addresses and public transaction graph | Similar risks to other transparent blockchains |
- ìfọwọ́sí ìnáwó  ẹ̀rí wípé oníṣe kan ní àṣẹ láti náwó àwọn ètò ìforúkọsílẹ̀ lè nílò àtúnṣe tàbí ṣíṣípò
+| Na àṣẹ ìnáwó | Ẹ̀rí pé a gba olùlò láàyè láti náwó | Àwọn ètò ìfọwọ́sowọ́pọ̀ lè nílò ìyípadà tàbí ìṣípòpadà |
 | Shielded notes | Private records of value inside shielded pools | Some components may need new assumptions or recovery tools |
-zk-SNARKs. Èrí pé àwọn ìnáwó tí a fi ààbò bo jẹ́ ojúlówó. Àwọn àbá ètò ẹ̀rí nílò àtúnyẹ̀wò.
-◯ Ṣiṣayẹwo apamọwọ ◯ Bí apamọwọ ṣe ń rí àti bí ó ṣe ń tú àdàkọ àwọn àkọsílẹ̀ tí wọ́n gbà ◯ Àdéhùn ọ̀rọ̀-ìfiwọlé àti ìdìwé àkọsílẹ̀ nílò àtúnyẹwò
-Migration. Moving funds to safer cryptography. Must avoid both fund loss and privacy leaks. Migration. Movement of funds to more secure cryptographic. Migration.: gbigbe owó lọ sí ìlànà ìkọ̀wé tí ó ní ààbò.
+| zk-SNARKs | Àwọn ẹ̀rí tó fi hàn pé àwọn ìṣòwò tó ní ààbò wúlò | Àwọn àbá ètò ẹ̀rí nílò àtúnyẹ̀wò |
+| Ṣíṣàyẹ̀wò Àpò Owó | Báwo ni àwọn àpò owó ṣe ń rí àti ṣe ń yí àwọn àkọsílẹ̀ tí a gbà padà | Àdéhùn pàtàkì àti ìfipamọ́ àkọsílẹ̀ nílò àtúnyẹ̀wò |
+| Ìṣílọ | Gbigbe awọn owo si cryptography ailewu | Ó gbọ́dọ̀ yẹra fún pípadánù owó àti jíjò ìpamọ́ |
 
 ## Bí Zcash ṣe ń múra sílẹ̀
 

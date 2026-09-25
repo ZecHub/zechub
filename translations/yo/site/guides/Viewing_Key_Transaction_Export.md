@@ -126,16 +126,16 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ### Kíkà ìjáde náà
 
-Àgbègbè. Ìtumọ̀.
+| Pápá | Ìtumọ̀ |
 |---|---|
-| `value`  Nítò tí ó wọlé sí àkáǹtì ní ZEC, owó-ìṣúná wà nínú. Àkọsílẹ̀ kò dára fún àwọn ìfiránṣẹ́. 
-| `fee` ▪ Owó tó o gbà nínú ZEC. Nípa owó tí ẹ gba, ẹni ti ó fi ránṣẹ́ san án kò sì sí ní ilé ìfowopamọ náà. `value`. |
-| `time` ì ¤ë¥1⁄4 ì í UTC, láìsí àmì àlàfo àkókò.
-| `notes` ☐ Ohun tí àkáǹtì gbà nínú ìnáwó yìí, títí kan owó. Àwọn ìwé ìránnilétí ti a rán sí ọ wà níbí. Àkọsílẹ̀ tó ṣe kedere kò ní àdírésì kankan.
-| `spends` Àwọn àkọsílẹ̀ ti àkáǹtì náà fúnra rẹ̀ tí ìnáwó yìí lò tán.
-| `outputs`  Ohun tí ìnáwó náà rán jáde: gbogbo ohun tó bá yọjú, àti àwọn owó tá a fi pamọ́ sí àdírésì mìíràn pẹ̀lú ìwé ìránnilétí wọn.
+| `value` | Àyípadà gbogbo sí àkọọ́lẹ̀ náà ní ZEC, owó náà sì wà nínú rẹ̀. Òdì fún ìfiránṣẹ́. |
+| `fee` | Owo ni ZEC. Lori awọn sisanwo ti o gba, olufiranṣẹ naa sanwo rẹ ati pe ko si ninu `value`. |
+| `time` | Àkókò dídínà ní UTC, láìsí àmì agbègbè àkókò |
+| `notes` | Ohun tí a gbà nínú ìṣòwò yìí, títí kan ìyípadà. Àwọn àkọsílẹ̀ tí a fi ránṣẹ́ sí ọ wà níbí. Àwọn ìkọ̀wé tí ó hàn gbangba kò ní àdírẹ́sì. |
+| `spends` | Àkọọ́lẹ̀ náà sọ pé ìṣòwò yìí ti lò tán |
+| `outputs` | Ohun tí ìṣòwò náà fi ránṣẹ́: gbogbo ìjáde tí ó ṣe kedere, pẹ̀lú àwọn ìsanwó tí a dáàbò bo sí àwọn àdírẹ́sì mìíràn pẹ̀lú àwọn àkọsílẹ̀ wọn |
 | `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope`  0 ààtò ìta (ìsanwó), 1 àlàfo (yípadà)
+| `scope` | 0 ita (ìsanwó kan ni), 1 ti inu (àyípadà) |
 
 Ohun elo Zkool tun ni Awọn Iṣowo Ọja, Memos ati awọn akọsilẹ ninu akojọ aṣayan iroyin naa, ṣugbọn wọn jẹ idalẹnu tabili aise: iye owo ti o wa ni zatoshis, timestamps Unix, ati awọn memo ni faili lọtọ.
 
@@ -200,13 +200,13 @@ Awọn nkan diẹ lati mọ nipa iṣelọpọ:
 
 ## Àwọn irinṣẹ́ mìíràn
 
-Ohun èlò. Ẹ̀rọ tí ẹ bá rí gbà ni.
+| Irinṣẹ́ | Ohun tí o gbà |
 |---|---|
-ZODL: Tax CSV pẹlu ọjọ, iye owo, awọn idiyele ati tag kan. Ọdun kalẹnda ti o kọja nikan, foju paṣipaarọ iṣowo, ko si txid, memo tabi adirẹsi.
-Zkool app. Raw tabili awọn ọja okeere lati akojọ aṣayan.
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) A ṣe àtúnṣe sí UFVK pẹlu: `importvk`. `listreceived` lori awọn ipadabọ RPC gba akọsilẹ pẹlu txid ati memo, ṣugbọn ko si firanṣẹ tabi laisi owo. 
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` jẹ alaye ṣugbọn ti a samisi adanwo, ati Zallet nikan awọn okeere Sapling wiwo bọtini, ko UFVKs.
-| [zcash-devtool](https://github.com/zcash/zcash-devtool) A ṣe àtúnṣe sí UFVK pẹlu: `wallet init-fvk`, nígbà náà ni `wallet list-tx`. Ọ̀nà CSV rẹ kò ní txid tàbí àdírẹ́sì, àti iṣẹ́ náà sọ pé kí á má lòó nínú ìṣẹ́.
+| ZODL | CSV owó-orí pẹ̀lú ọjọ́, iye owó, owó àti àmì kan. Ọdún kàlẹ́ńdà tó kọjá nìkan, ó ń fo àwọn ìṣòwò ààbò, kò sí txid, àkọsílẹ̀ tàbí àdírẹ́sì. |
+| Ohun elo Zkool | Àwọn àkójọpọ̀ tábìlì tí a kò rí láti inú àkóónú àkọọ́lẹ̀ |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Gbé UFVK wọlé pẹ̀lú `importvk`. `listreceived` lórí RPC padà gba àwọn àkọsílẹ̀ pẹ̀lú txid àti memo, ṣùgbọ́n kò sí ìfiránṣẹ́ àti kò sí owó. |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` Ó ní àlàyé díẹ̀ ṣùgbọ́n a fi àmì sí i láti ṣe àyẹ̀wò, Zallet sì kó àwọn kọ́kọ́rọ́ ìwòran Sapling wọlé nìkan, kì í ṣe UFVKs |
+| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Gbé UFVK wọlé pẹ̀lú `wallet init-fvk`, lẹ́yìn náà `wallet list-tx`. Ipo CSV rẹ̀ kò ní txid tàbí àdírẹ́sì, iṣẹ́ náà sì sọ pé a kò gbọdọ̀ lò ó nínú iṣẹ́ ṣíṣe. |
 
 ## Àwọn tó ní í ṣe pẹ̀lú rẹ̀
 

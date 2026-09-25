@@ -46,11 +46,11 @@ Fojú inú wò ó pé ilé kan wà tó ní ẹgbẹ̀rún ilẹ̀kùn, iṣẹ́ r�
 
 Gbogbo ìwádìí tí a ṣe, bó ti wù kí ó tóbi tó, ni wọ́n ń kọ láti inú àwọn ohun mẹ́ta kan. Ẹ mú èyí ní kedere àti àfikún sí i jẹ́ kúlẹ̀kúlẹ̀.
 
-Òpó. Ìtumọ̀ tó ṣe kedere. Ṣíṣe àfiwé-ìṣirò.
+| Òpó | Ìtumọ̀ lásán | Àfiwé ilé |
 |---|---|---|
-** Àlàyé àkànṣe** Ìsọfúnni tó ṣe pàtó nípa ohun tí "ìtọ́" túmọ̀ sí. "Gbogbo ilẹ̀kùn gbọ́dọ̀ di títì ní òru".
-Ohun tí a ń ṣàyẹ̀wò (ìtòlẹ́sẹẹsẹ, àyíká kan, ìlànà) Ilé àti ètò ìdákójútó rẹ̀.
-Àrídájú. Èsù tí ó lágbára pé ètò náà máa ń ṣe ohun tó bá pàṣẹ, ẹ̀rí lóòótọ́ wípé títẹ "ìdákọ" yóò dí gbogbo ilẹ̀kùn mọ́lẹ̀.
+| **Àlàyé pàtó** | Àlàyé pàtó nípa ohun tí "tọ́" *túmọ̀* | "Gbogbo ilẹkun gbọdọ wa ni titii ni alẹ" |
+| **Ètò** | Ohun gidi tí a ń ṣàyẹ̀wò (ètò kan, àyíká kan, ìlànà kan) | Ilé náà àti ọ̀nà ìdènà rẹ̀ |
+| **Ẹ̀rí** | Ariyanjiyan to muna pe eto naa nigbagbogbo pade awọn alaye naa | Àfihàn tó bófin mu pé títẹ “tíìpù” ti gbogbo ilẹ̀kùn |
 
 Ohun kẹrin tó sì mú kí gbogbo nǹkan yìí ṣeé gbára lé ni pé:
 
@@ -85,11 +85,11 @@ Níwọ̀n bí ó ti jẹ́ pé ní ìbẹ̀rẹ̀ (0) àti ìgbésẹ̀ kọ̀�
 
 Àyẹ̀wò tí ó ṣe àdàkọ lágbára ní apá kan nítorí wípé a mọ ibi ti àwọn ẹṣẹ́ wá láti. Ẹlẹsẹ èyíkéyìí nínú ètò ìwádìí òfin máa ń tọpin sí ọ̀kan lára ibì mẹ́ta:
 
- Orísun àbùdá. Kí ló túmọ̀ sí? Ṣé a lè fi hàn pé kò rí bẹ́ẹ̀ ni?
+| Orísun àṣìṣe kan | Ohun tí ó túmọ̀ sí | Ṣé a lè fi hàn pé ó ti bàjẹ́? |
 |---|---|---|
-** Awọn alaye ti o wa ni pato**. awọn mathematiki tabi ofin ara wọn jẹ aṣiṣe (a aini ipo, a buburu definition) *** Bẹẹni***, taara, yi ni deede verification ká ile turf.
-**The implementation**. Kòdì náà kùnà láti ṣe àlàyé tí ó tọ́ déédéé. Ní apá kan; irú àwọn ìkùdíẹ̀-káa sábà máa ń fi ẹrí hàn sílẹ̀.
-**ìdánilójú tí kò bára mu**. ohun kan tí gbogbo ètò náà gbé ka, ti wá di àṣìṣe. rárá o; àwọn ìtọ́sọ̀nà ni ìpìlẹ̀ tó ṣe pàtàkì jù lọ.
+| **Àlàyé pàtó** | Ìṣirò tàbí àwọn òfin fúnra wọn kò tọ́ (ipò tí ó sọnù, ìtumọ̀ tí kò dára) | **Bẹ́ẹ̀ ni**, tààrà, èyí ni ilé ìfìdíkalẹ̀ tó péye |
+| **Imuse naa** | Koodu naa kuna lati ṣe awọn alaye ti o tọ ni otitọ | Ní apá kan; nígbà míìrán, irú àwọn ìkùnà bẹ́ẹ̀ máa ń fi ẹ̀rí tí a lè rí sílẹ̀ |
+| **Àbá tí ó bàjẹ́** | Nǹkan tí gbogbo ètò náà gbára lé yípadà sí èké | Rárá; àwọn èrò ni ìpìlẹ̀ tí a kò lè yípadà |
 
 This taxonomy matters more than it looks, and Parts 2 and 3 turn on it. The deepest, most dangerous bugs, the ones that can hide forever, tend to live in the **specification**: the mathematical description of what the system is supposed to do. And the specification is exactly what a machine-checked proof can examine directly, all cases at once. That is why serious formal-verification efforts aim there first.
 
@@ -135,16 +135,16 @@ láti jẹ́ kí èyí ṣeé kà, a ṣe àtúnṣe. àwọn ìlànà gidi ni w
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-** Formal verification** Fífi hàn, nípa ìṣirò, wípé ètò kan bá àlàyé pàtó mu fún gbogbo ọ̀ràn.
-** Àlàyé** Ìsọfúnni tó ṣe pàtó nípa ohun tí "ìwà rere" túmọ̀ sí.
-Àtòjọ àpapọ̀ àwọn ohun tó ń ṣe ìwádìí náà.
-** Proof** A lopin pq ti logical igbesẹ fi idi a beere fun gbogbo igba.
-Ẹ̀rọ-ìmọ́ (Lean, Rocq, Isabelle) tó ń ṣàyẹ̀wò gbogbo ìgbésẹ̀ ẹ̀rí.
-**Machine-checked**. A ti ṣayẹwo igbesẹ nipasẹ kọmputa, kii ṣe nipa kika eniyan nikan.
-**Induction** A proof technique: true at the start, and each step carries it to the next. ìmúnilórí ọ̀nà láti fi hàn pé ó jóòótọ́ ní ìbẹ̀rẹ̀ àti ìgbésẹ̀ kòkòrò àrùn kan sí òmíràn.
-**ìmọ̀lẹ́yìn** A ó fi ìdí ẹrí náà múlè; bí kò bá jẹ́ òótọ́, ìdánilójú lè máà ní ìmúṣẹ.
+| **Ìjẹ́rìísí tó péye** | Ní ti ìṣirò, ó ń fi hàn pé ètò kan bá ìlànà mu fún gbogbo ọ̀ràn |
+| **Àlàyé pàtó** | Gbólóhùn pàtó nípa ohun tí "ìwà tó tọ́" túmọ̀ sí |
+| **Ètò** | Ètò gidi, Circuit, tàbí Protocol tí a ń ṣàyẹ̀wò |
+| **Ẹ̀rí** | Ìwọ̀n tó péye ti àwọn ìgbésẹ̀ tó bófin mu láti fi ẹ̀tọ́ múlẹ̀ fún gbogbo àwọn ọ̀ràn |
+| **Atilẹyin ẹri / ẹri ilana-ẹkọ** | Sọ́fítíwètì (Lean, Rocq, Isabelle) tí ó ń ṣàyẹ̀wò gbogbo ìgbésẹ̀ ẹ̀rí kan |
+| **A ti ṣe ayẹwo ẹrọ** | Kọ̀ǹpútà ti fi ìdí rẹ̀ múlẹ̀ ní ìgbésẹ̀-lẹ́sẹ̀, kìí ṣe nípa kíkà ènìyàn nìkan |
+| **Ìfàsẹ́yìn** | Ọ̀nà ìdánilójú: òótọ́ ní ìbẹ̀rẹ̀, ìgbésẹ̀ kọ̀ọ̀kan sì gbé e lọ sí òmíràn |
+| **Ìgbàgbọ́** | Àdéhùn kan tí ẹ̀rí náà gbẹ́kẹ̀lé; tí ó bá jẹ́ èké, ìdánilójú náà lè má dúró fún |
 
 ---
 

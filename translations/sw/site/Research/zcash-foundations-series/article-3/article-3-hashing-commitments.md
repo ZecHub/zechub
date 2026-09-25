@@ -1,7 +1,7 @@
 # Kushiriki na ahadi: bahasha ya kichawi iliyofungwa
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](/content-images/image-15-0c16784b27.webp)
+! ![ alt maandishi](/content-images/image-15-0c16784b27.webp)
 
 ### Jinsi ya kufunga siri katika umma na kamwe kuwa na uwezo wa uongo kuhusu hilo
 
@@ -30,16 +30,16 @@ Hii "kufunga sasa, kufunua baadaye, hakuna uongo" gadget inaitwa ahadi, na ni ki
 
 kazi ** hash ** inachukua data yoyote wakati wote, herufi moja au maktaba nzima, na crushes chini ya mfululizo mfupi, fasta-saizi aitwaye ** digest ** au ** hash. Fikiria kama alama ya vidole kwa ajili ya data.
 
-! [ alt maandishi](/content-images/image-16-52fdf62c87.webp)
+! ![ alt maandishi](/content-images/image-16-52fdf62c87.webp)
 
 Fingerprint encryptographic nzuri ina mali nne. kushikilia yao kama intuitions, si equations:
 
-Mali. Maana ya kawaida. Kwa nini ni muhimu.
+| Mali | Maana ya kawaida | Kwa nini ni muhimu |
 |---|---|---|
-**Deterministic** Ingizo sawa daima hutoa alama sawa ya kidole. Unaweza kuangalia upya alama ya kidoleshi wakati wowote.
-** Fast mbele **. Kompyuta alama ya vidole ni ya haraka. Vitendo kutumia kila mahali.
-** One-way (preimage resistant) ** kutokana na alama ya vidole, huwezi kupata pembejeo kwamba alifanya hivyo. Anaficha data ya awali.
-Hakuna mtu anayeweza kufananisha alama mbili za vidole.
+| **Ya Kuamua** | Ingizo moja hutoa alama za vidole sawa kila wakati | Unaweza kuangalia tena alama ya kidole wakati wowote |
+| **Washambuliaji wa haraka** | Kuhesabu alama za vidole ni haraka | Inafaa kutumika kila mahali |
+| **Njia moja (haiwezi kuathiriwa na picha ya awali)** | Ukipewa alama ya kidole, huwezi kupata ingizo lililoifanya | Huficha data asili |
+| **Haiwezi kugongana** | Huwezi kupata ingizo mbili tofauti zenye alama za vidole sawa | Hakuna mtu anayeweza kutengeneza mechi |
 
 Na tabia moja zaidi ambayo hufanya alama za vidole kuhisi karibu kichawi:
 
@@ -69,7 +69,7 @@ Suluhisho ni neno moja: ** randomness. **
 
 Sasa sawa `v` inazalisha tofauti-kuangalia ahadi kila wakati, kwa sababu `r` Sifa mbili tulitaka hatimaye wote kushikilia:
 
-! [ alt maandishi](/content-images/image-17-3ec4617665.webp)
+! ![ alt maandishi](/content-images/image-17-3ec4617665.webp)
 
 ** Kufungua ** (kufunua) ahadi baadaye, wewe kuchapisha `v` na `r`; mtu yeyote recalculates `H(v, r)` Hiyo ni bahasha ya kichawi iliyofungwa kutoka kwa Kifungu cha 0, iliyofanywa kuwa halisi.
 
@@ -81,12 +81,12 @@ Sasa sawa `v` inazalisha tofauti-kuangalia ahadi kila wakati, kwa sababu `r` Sif
 
 Kuna mapishi mawili ya kawaida, na Zcash hutumia zote mbili.
 
-∙∙∙Hash-based Commitment ∙Pedersen commitment (kutoka Article 2) ∙
+| | **Ahadi inayotokana na Hash** | **Ahadi ya Pedersen** (kutoka Kifungu cha 2) |
 |---|---|---|
-Kichocheo `H(v, r)` | `v.G + r.H` (Inaashiria kwenye curve)
-Kujificha kutokana na... `r` Kwa bahati mbaya `r` |
-Kuunganisha kutoka kwa upinzani wa mgongano mlango wa mtego wa curve ya elliptic (ECDLP)
-Nguvu maalum. Rahisi na haraka. ahadi ** kuongeza up ** (homomorphic).
+| Kichocheo | `H(v, r)` | `v.G + r.H` (pointi kwenye mkunjo) |
+| Kujificha kutoka | nasibu `r` | nasibu `r` |
+| Kufunga kutoka | upinzani wa mgongano | mlango wa mtego wa mviringo-mkunjo (ECDLP) |
+| Nguvu maalum | rahisi na ya haraka | ahadi **zinaongeza** (homomorphic) |
 
 Hiyo safu ya mwisho ni kwa nini ahadi Pedersen umuhimu sana katika Zcash. Kwa sababu `commit(v_1) + commit(v_2)` ni halali `commit(v_1 + v_2)`, itifaki inaweza baadaye kuthibitisha kwamba ** fedha katika sawa fedha nje ** kwa kuongeza ahadi pamoja, wote bila kufunua kiasi moja. Sisi ni kuhifadhi ukweli kwamba kwa Ibara ya 6.
 
@@ -100,7 +100,7 @@ SHA-256 is a superb fingerprint for everyday computing. But Zcash doesn't just *
 
 Hivyo Zcash cryptographers iliyoundwa kazi hash ambao ndani ni * tayari * uwanja arithmetic, na kuifanya nafuu kuthibitisha:
 
-! [ alt maandishi](/content-images/image-18-89ade807ad.webp)
+! ![ alt maandishi](/content-images/image-18-89ade807ad.webp)
 
 Hii moja ya uhandisi shinikizo, * "ni lazima kuwa na gharama nafuu kuthibitisha",* ni kwa nini Zcash zuliwa na kupitishwa maalum hash kazi badala ya kufikia kwa SHA-256 kila mahali.
 
@@ -110,11 +110,11 @@ Hii moja ya uhandisi shinikizo, * "ni lazima kuwa na gharama nafuu kuthibitisha"
 
 Zcash ametumia hashes tofauti katika miundo yake, kila mmoja alichaguliwa kwa kazi hiyo:
 
-Design. Hashes kutumika ambapo.
+| Ubunifu | Hashi zilizotumika | Wapi |
 |---|---|---|
-**Sprout** (mwanzoni) **SHA-256** **Kumbuka ahadi na mti
-**Sapling** **Pedersen hashes**, pamoja na **BLAKE2**. Pedersen kwa ajili ya mikataba ya maelezo na mti Merkle; BLAKE 2 kwa ajili muhimu derivation na nullifiers.
-**Orchard** (sasa) **Sinsemilla**, pamoja na **Poseidon**. Sinsemila kwa ajili ya mikataba ya maelezo na mti Merkle; Poseidon kwa nullifier, yote iliyoundwa kwa mizunguko arithmetic.
+| **Sprout** (mapema zaidi) | **SHA-256** | Kumbuka ahadi na mti |
+| **Sapling** | **Pedersen heshi**, pamoja na **BLAKE2** | Pedersen kwa ahadi za noti na mti wa Merkle; BLAKE2 kwa ajili ya uondoaji wa funguo na vibatilishi |
+| **Orchard** (ya sasa) | **Sinsemilla**, pamoja na **Poseidon** | Sinsemilla kwa ajili ya ahadi za noti na mti wa Merkle; Poseidon kwa ajili ya kifuta nullifier, vyote vimeundwa kwa ajili ya saketi za hesabu |
 
 Majina ya kutambua ni ** Pedersen ** na ** Sinsemilla ** (kufunga-style hashes kujengwa kutoka pointi curve, hivyo kurithi "anaongeza" superpower na kuthibitisha nafuu) na ** Poseidon ** (shamba-arithmetic hash kusudi-kujengwa kwa ajili ya zero-maarifa circuits). Wakati Ibara 0 alisema maudhui ya kumbuka ni muhuri katika ahadi, * hii * ni mashine kufanya muhuri.
 
@@ -140,16 +140,16 @@ Sisi kurahisisha kuweka mambo wazi. mipango halisi ahadi kufafanua hasa jinsi `v
 
 ## Orodha ya maneno
 
-Neno. Maana ya Kiingereza ya kawaida.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-** kazi ya hash **. crushes data yoyote katika fupi fixed-ukubwa alama ya vidole (digest).
-** Digest **. pato alama ya vidole ya kazi hash.
-** Upinzani wa picha ya awali ** Huwezi kurudisha digest nyuma kwa pembejeo yake (njia moja).
-** Upinzani wa mgongano **. Huwezi kupata pembejeo mbili na digest sawa.
-Mabadiliko madogo ya pembejeo hubadilisha kabisa digest.
-Kufunga thamani sasa, kufunua baadaye, hawezi kusema uongo kuhusu hilo.
-** Kiungo cha upofu (`r`) **. Nambari safi ya nasibu ambayo hufanya ahadi kuficha.
-** ZK-kirafiki hash ** A hash kujengwa kutoka uwanja hesabu hivyo ni nafuu kuthibitisha.
+| **Kitendakazi cha Hash** | Huponda data yoyote kuwa alama fupi ya kidole isiyobadilika (digest) |
+| **Mchanganuzi** | Kidole cha alama cha matokeo cha kitendakazi cha hashi |
+| **Upinzani wa awali** | Haiwezi kurudisha muhtasari kwenye ingizo lake (la upande mmoja) |
+| **Upinzani wa mgongano** | Siwezi kupata ingizo mbili zenye muhtasari sawa |
+| **Athari ya maporomoko ya theluji** | Mabadiliko madogo ya kuingiza hubadilisha kabisa muhtasari |
+| **Kujitolea** | Funga thamani sasa, funua baadaye, huwezi kusema uongo kuihusu |
+| **Kipengele cha upofu (`r`)** | Nambari mpya nasibu inayoficha ahadi |
+| **Hash inayofaa ZK** | Hash iliyojengwa kutoka kwa hesabu ya uwanja kwa hivyo ni rahisi kuthibitisha |
 
 ---
 

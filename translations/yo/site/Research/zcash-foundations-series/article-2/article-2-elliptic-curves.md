@@ -84,7 +84,7 @@ Gba `y^2 = x^3 + 2x + 2` lórí àgbègbè tí ó ní òpin `F_17`. Ṣiṣiro g
 
 Wá ibi tó o máa lọ báyìí `G = (5, 1)` ẹ wo ohun tó ṣẹlẹ̀ (gbogbo ìlà tó wà nísàlẹ̀ yìí ni wọ́n ṣírò, kì í ṣe àbá):
 
-Ìgbésẹ̀. Àkókó.
+| Igbesẹ | Àmì | Igbesẹ | Àmì |
 |---|---|---|---|
 | `1G` | (5, 1) | `11G` | (13, 10) |
 | `2G` | (6, 3) | `12G` | (0, 11) |
@@ -94,7 +94,7 @@ Wá ibi tó o máa lọ báyìí `G = (5, 1)` ẹ wo ohun tó ṣẹlẹ̀ (gbog
 | `6G` | (16, 13) | `16G` | (10, 11) |
 | `7G` | (0, 6) | `17G` | (6, 14) |
 | `8G` | (13, 7) | `18G` | (5, 16) |
-| `9G` | (7, 6) | `19G` O (ìparí)
+| `9G` | (7, 6) | `19G` | **O (ailopin)** |
 | `10G` | (7, 11) | | |
 
 Ohun méjì tó yẹ kó o kíyè sí rèé:
@@ -110,10 +110,10 @@ Ohun méjì tó yẹ kó o kíyè sí rèé:
 
 Ní báyìí, ẹ jẹ́ ká wo ọ̀nà méjì tí wọ́n gbà ṣe é:
 
-Ìtọ́sọ́nà Ìbéèrè Ìṣòro
+| Ìtọ́sọ́nà | Ìbéèrè | Ìṣòro |
 |---|---|---|
-A ti fi * síwájú * * fún `k` àti `G`, ṣírò `kG` **Rọrun.** Kódà fún àwọn tó tóbi lọ́nà ti sánmà `k`, ẹ̀tàn kan tí wọ́n ń pè ní *double-and-add* máa ń dé ibẹ̀ ní ọgọ́rọ̀ọ̀rún ìgbésẹ̀.
-A ti fún wa ní ẹ̀dà tí ó yí padà. `G` àti `kG`, gba ara rẹ padà `k` **Ohun tí kò ṣeé ṣe** lórí àlàfo ìkọ̀wé-ìfiwéra gidi.
+| **Àwọn tó ń lọ síwájú** | Ti a fun ni `k` àti `G`, iṣirò `kG` | **Rọrùn.** Kódà fún àwọn tó tóbi ní astronomiki `k`, ọgbọ́n àrékérekè kan tí a ń pè ní *double-and-add* dé ibẹ̀ ní ọgọ́rùn-ún díẹ̀ ìgbésẹ̀ |
+| **Sẹ́yìn** | Ti a fun ni `G` àti `kG`, gba pada `k` | **Kò ṣeé ṣe dáadáa** lórí ìlà ìkọsílẹ̀ gidi kan |
 
 Ti asymmetry ni awọn ** ọkan-ọna street ** ti a nilo ni Section 1. `k` produced this point?") ni a npe ni **Elliptic Curve Discrete Logarithm Problem (ECDLP) **, ati lori awọn iyipo Zcash lo, ko si ọna ti a mọ ti o yanju rẹ ṣaaju iku ooru ti agbaye.
 
@@ -156,7 +156,7 @@ Ohun-ini ajeseku kan ti di ohun ti ko ni idiyele nigbamii: awọn adehun wọnyi
 | Zcash design | Curves it uses | Role |
 |---|---|---|
 | **Sapling** (older) | **BLS12-381** plus an embedded curve called **Jubjub** | BLS12-381 carries the proof system; Jubjub is built over BLS12-381's scalar field so that key and commitment operations are cheap to perform *inside* a zero-knowledge proof |
-**Orchard** (current) **Pallas** and **Vesta** (the "Pasta" cycle) Pallas ń gbé àwọn kókó àti àdéhùn Orchard; Pallas/Vesta pairing ni a ṣètò ní pàtó láti mú kí àwọn ẹ̀rí tí ó ti gòkè àgbà jẹ́ alágbára.
+| **Orchard** (lọ́wọ́lọ́wọ́) | **Pallas** àti **Vesta** (ìyípo "Pasta") | Pallas ní àwọn kọ́kọ́rọ́ àti ìlérí Orchard's ; a ṣètò ìsopọ̀ Pallas/Vesta ní pàtàkì láti jẹ́ kí àwọn ẹ̀rí tó ti ní ìlọsíwájú ṣiṣẹ́ dáadáa |
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 
@@ -183,15 +183,15 @@ A lo fọọmu Weierstrass ti o kuru (`y^2 = x^3 + ax + b`); Zcash's curves are 
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-Àwọn ibi tí ó tẹ́ni lọ́rùn `y^2 = x^3 + ax + b`, pẹ̀lú àkànṣe "àfikún" àwọn kókó
-Òfin tí a fi ń ṣe àfikún àwọn kókó: tẹ̀lé ìlà tó bá gba ibi méjì kọjá, tẹ̀ lé ìlà kẹta, kí o sì ronú padà.
-**Awọn ojuami ni ailopin (`O`)**. Ìlà náà jẹ́ "zero"; tí a bá fi kún un, kò ní yí padà rárá.
-Àkọlé àwòrán`G`)**. Awon ohun ti o wa ni ipilẹ ti o ni ọpọlọpọ igba ti o bo gbogbo ẹgbẹ.
-** Ìmúpòpòpò ọ̀pá-ìdiwọ̀n (`kG`)**. Àfikún `G` sí ara rẹ̀ `k` àwọn ìgbà; ó rọrùn láti tẹ̀ síwájú, ó ṣòro láti yí padà.
-Ìṣòro líle koko tó jẹ mọ́ àtúnṣe `k` láti `kG`; ìpìlẹ̀ ààbò
-Ìpínra tí a fi fúnni. `v.G + r.H`; àpò ìwé tí wọ́n dì tí ó fi pamọ́, tí ó so pọ̀, tó sì ṣe àpapọ̀;
+| **Ìtẹ̀gùn elliptical** | Àwọn ojú ìwé tó tẹ́ni lọ́rùn `y^2 = x^3 + ax + b`, pẹ̀lú "afikun" pàtàkì ti awọn aaye |
+| **Àfikún àmì** | Òfin chord-and-tangent: ìlà la àwọn ojú ìwé méjì kọjá, mú ìlù kẹta, ṣàfihàn |
+| **Tọ́ka sí àìlópin (`O`)** | “Òdo” ni ìtẹ̀ náà; fífi kún un kò yí ohunkóhun padà |
+| **Ẹ̀rọ ìṣiṣẹ́ (`G`)** | Àkójọ ìpìlẹ̀ tí àwọn iye rẹ̀ tó pọ̀ tó sì bo gbogbo àwùjọ náà nígbẹ̀yìn gbẹ́yín |
+| **Isọdipupo iwọn (`kG`)** | Fifikun `G` fún ara rẹ̀ `k` àkókò; ìrọ̀rùn síwájú, ó ṣòro láti yí padà |
+| **ECDLP** | Iṣoro lile ti imularada `k` láti `kG`ipilẹ aabo; |
+| **Ìfẹ́ Pedersen** | `v.G + r.H`; àpò ìwé tí a fi èdìdì dì tí ó ń fi pamọ́, ó ń di, ó sì ń so pọ̀ mọ́ ara wọn |
 
 ---
 

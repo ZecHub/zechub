@@ -66,14 +66,14 @@ Fun awọn aṣoju AI ti n ṣakoso ṣiṣan iṣẹ ifura, iwadii ofin, ibeere
 
 ### Àkọsílẹ̀ Ìfiwéra Ìpamọ́-ẹni
 
- Ìní  Àlàfo Ọ̀fẹ́ (USDC, ETH)  Zimppy Shielded  Zimppy Transparent 
+| Ohun ìní | Àwọn ẹ̀wọ̀n gbogbogbòò (USDC, ETH) | A fi ààbò bo Zimpy | Zippy Transparent |
 |---|---|---|---|
-** Olùfúnni ní ìsọfúnni**. Ó hàn gbangba. A ṣe àdàkọ rẹ̀. Ó farahàn kedere.
+| **Oluranṣẹ** | A le ri | Ti fi àkọpamọ́ | A le ri |
 | **Receiver** | Visible | Encrypted | Per-challenge (unlinkable) |
-** Amount** Wọ́n rí i. Ó ti jẹ̀rọ̀ ní ìkọsílẹ̀. Wọ̣n ń wò ó.
+| **Iye** | A le ri | Ti fi àkọpamọ́ | A le ri |
 | **Memo** | Visible | Encrypted | N/A |
-** Ààbò Ìdánilẹ́kọ̀ọ́ Lẹsẹkẹsẹ** Kò sí. Memo binding Per-ìpèníjà T-address
-** Àpẹẹrẹ Ìlò Iṣẹ́**. A lè so ó pọ̀ mọ́ra. Ètò àdáni (private) Kò ṣeé fi sípò kan mọ́ra (fresh addr).
+| **Ààbò Àtúnṣe** | Kò sí | Ìsopọ̀ àkọsílẹ̀ | Àdírẹ́sì T fún ìpèníjà kọ̀ọ̀kan |
+| **Àpẹẹrẹ Lilo Iṣẹ** | A le sopọ̀ mọ́ | Ikọkọ | A kò le sopọ̀ mọ́ (àdírẹ́sì tuntun) |
 
 ### Ìṣòro Àìlèfòye-wí, Tí Àwọn Iṣẹ́ Tó Ń Ṣẹ̀ Láàárín Èèyàn Máa Ń Yanjú
 
@@ -388,16 +388,16 @@ let resp = client
 
 ## Àkọlé CLI
 
-Àṣẹ. Ìpèjúwe.
+| Àṣẹ | Àpèjúwe |
 |---|---|
-| `npx zimppy wallet create` Ṣẹda àwọn kókó àti ṣafihan gbólóhùn ìkókó.
-| `npx zimppy wallet whoami`  Fi adirẹsi hàn (UA + T-addr), ìsúná, nẹtiwọọki.
-| `npx zimppy wallet balance --all` ìpín ìsòfò-sí-àkáǹtì.
-| `npx zimppy wallet send <addr> <zat>`  Fi ààbò tàbí ìwòràn ZEC ránṣẹ́.
-| `npx zimppy wallet transfer <from> <to> <zat>` Ètò ìyípadà ààlà-ìpamọ́ inú ilé.
-| `npx zimppy wallet shield`  Gbigbe owó tí ó wà ní ìhòòhò sí Orchard (ìpamọ́)
-| `npx zimppy wallet use <name>` Ṣíṣe àtúntò àwọn ẹ̀rí-ìmọ́ apamọwọ tó wà nídìí.
-| `npx zimppy request <url>`  Auto 402 -> sanwó-ìṣírò - Àtúnṣe ìforúkọsílẹ̀.
+| `npx zimppy wallet create` | Ṣe awọn bọtini ati ṣafihan gbolohun irugbin |
+| `npx zimppy wallet whoami` | Fi àdírẹ́sì (UA + T-addr) hàn, ìwọ̀nba, nẹ́tíwọ́ọ̀kì |
+| `npx zimppy wallet balance --all` | Ìpínyà ìwọ́ntúnwọ̀nsí fún àkọọ́lẹ̀ kọ̀ọ̀kan |
+| `npx zimppy wallet send <addr> <zat>` | Fi ZEC tí a fi ààbò tàbí tí ó hàn gbangba ránṣẹ́ |
+| `npx zimppy wallet transfer <from> <to> <zat>` | Gbigbe ti inu-akọọlu-akọọlu |
+| `npx zimppy wallet shield` | Gbe owo ti o han gbangba lọ si Orchard (ti a fi aabo pamọ) |
+| `npx zimppy wallet use <name>` | Yi idanimọ apamọwọ ti nṣiṣe lọwọ pada |
+| `npx zimppy request <url>` | Aládàáni 402 -> sanwo -> ìbéèrè tún gbìyànjú |
 
 ---
 
@@ -463,27 +463,27 @@ packages/
 
 ## Àpẹẹrẹ & Awọn Demo
 
-Àpẹẹrẹ. Ìpèjúwe:
+| Àpẹẹrẹ | Àpèjúwe |
 |---|---|
-| `examples/fortune-teller/` ígba owó, ìtòlẹ́sẹẹsẹ àti àwọn àfihàn tí ó ń jáde - Rust server + client.
-| `examples/llm-summarizer/` Àwòṣe ìgbóhùnsáfẹ́rọ̀ LLM tí wọ́n ń sanwó fún ní orí ẹyọ kòkòrò kan.
-| `examples/mcp-server/` MCP tool server pẹlu awọn irinṣẹ AI ti o sanwo.
-| `examples/ts-server/` ì í ì ëa ̈ë¥1⁄4 MPP Server êμ¬í ¬ê ̧°.
+| `examples/fortune-teller/` | Àwọn àfihàn gbígbà agbára, ìgbà, àti ìṣàfihàn ìṣàn - Olùpèsè Rust + oníbàárà |
+| `examples/llm-summarizer/` | Àfihàn ìṣàfihàn ìṣàn LLM fún owó-fún-àmì-ìsanwó |
+| `examples/mcp-server/` | Ẹ̀rọ olupin MCP pẹlu awọn irinṣẹ AI ti a sanwo |
+| `examples/ts-server/` | Ìmúṣe ìtọ́kasí olupin TypeScript MPP |
 
 ---
 
 ## Ohun Tó Wà Nínú Ìwé Náà - Àkópọ̀ Àwọn Apá Rẹ̀
 
-Àmì. Ìpèjúwe.
+| Ẹ̀yà ara | Àpèjúwe |
 |---|---|
-**Sessions**. ìsọ̀ǹpèsè ẹ̀ẹ́kan, àwọn ìbéèrè oníṣe lẹsẹkẹsẹ, àtúnsan lórí dídínà rẹ̀
+| **Àwọn Àkókò** | Idogo lẹẹkan, awọn ibeere fun onigbese lẹsẹkẹsẹ, agbapada ni pipade |
 | **Streaming** | Pay-per-token metered content over SSE |
- ** Charge**. Ìsanwó tí a fi ààbò tàbí ìsàsílẹ̀ ṣe fún ìbéèrè HTTP (402 flow) kan ṣoṣo
-Àwọn adirẹsi T pẹ̀lú ìdènà àtúnṣe-ìjàǹbá + àṣẹ ìbòjú.
-**Multi-Account** ZIP-32 ìyípadà àkọọ́lẹ̀, àtúntò àkọọ̣lá, owó tó wà nínú kọǹpútà kòríkòsùn.
-Ẹ fi ránṣẹ́, ẹ ṣe ààbò fún un, ẹ gbé e lọ síbi tó yẹ kó wà -- gbogbo rẹ̀ ni mo máa ń san.
-** SDK méjì** TypeScript àti Rust.
-**Spec-Compliant** HMAC-SHA256 àwọn ìpèníjà, RFC 9457 àṣìṣe, `/.well-known/payment` ìwárí.
+| **Gbigba agbara** | Isanwo ti a daabobo tabi ti o han gbangba fun ibeere HTTP (402 flow) |
+| **Awọn isanwo ti o han gbangba** | Àwọn àdírẹ́sì T pẹ̀lú ìdènà àtúnṣe fún ìpèníjà kọ̀ọ̀kan + àṣẹ ààbò |
+| **Àkọọ́lẹ̀ Onírúurú** | Ìyípo àkọọ́lẹ̀ ZIP-32 , àwọn ìgbesẹ̀ àkọọ́lẹ̀-àgbékalẹ̀, àwọn ìwọ̀n àkọọ́lẹ̀-àgbéka .. |
+| **Àpò CLI** | Firanṣẹ, daabobo, gbe, iwọntunwọnsi --gbogbo, whoami, sanwo laifọwọyi |
+| **SDK Meji** | Iru-kikọ ati ipata |
+| **Ó bá ìlànà pàtó mu** | Àwọn ìpèníjà HMAC-SHA256, àwọn àṣìṣe RFC 9457, `/.well-known/payment` àwárí |
 
 ---
 

@@ -20,7 +20,7 @@ Sprout created two kinds of addresses. Transparent addresses (t-addresses) work 
 
 ## Sherehe ya Kufunga Miti
 
-Zk-SNARKs katika Sprout zinahitaji seti ya vigezo vya umma, na kuzalisha kwa usalama inahitaji usanidi wa wakati mmoja unaoitwa Sherehe. Washiriki sita katika maeneo tofauti, mbali kila moja iliunda kipande cha siri kinachoitwa taka za sumu. Ikiwa mtu yeyote ataunganisha tena vipande vyote, wangeweza kutengeneza ZEC kutoka kitu chochote. Ubunifu uligeuza hatari hiyo kuwa sheria rahisi: maadamu angalau mshiriki mmoja aliharibu kipande chao, siri kamili haiwezi kujengwa upya, hivyo kudanganya hakuwezekani. Washirika ambao wametajwa hadharani ni pamoja na Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, na Derek Hinch wa Kikundi cha NCC. Mshirikishi mmoja alichagua kubaki bila majina.
+zk-SNARKs huko Sprout zilihitaji seti ya vigezo vya umma, na kuzizalisha kwa usalama kulihitaji mpangilio wa mara moja unaoitwa Sherehe. Washiriki sita katika maeneo tofauti, ya mbali kila mmoja alizalisha kipande cha siri, kinachoitwa taka zenye sumu. Ikiwa mtu yeyote angekusanya vipande vyote tena, angeweza kughushi ZEC kutoka kwa kitu chochote. Ubunifu huo uligeuza hatari hiyo kuwa sheria rahisi: mradi tu angalau mshiriki mmoja angeharibu kipande chake, siri kamili haikuweza kujengwa upya, kwa hivyo ughushi ulibaki kuwa hauwezekani. Washiriki ambao wametajwa hadharani ni pamoja na Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, na Derek Hinch wa NCC Group. Mshiriki mmoja alichagua kutokujulikana.
 
 ![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
 
@@ -32,14 +32,14 @@ Sprout ni msingi kwamba kila mabadiliko ya baadaye hujenga juu. Wakati wa mtanda
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-zk-SNARK uthibitisho wa ujuzi sifuri unaoonyesha shughuli ni halali bila kufunua mtumaji, mpokeaji au kiasi.
-Zcash ni sehemu ya faragha ambapo kiasi na vyama zimefichwa. Pool Sprout ilikuwa moja ya kwanza, ambayo ilianza kutumika katika miaka ya 1980 wakati wa kuanzishwa kwa Bitcoin (BTC).
-DATA-ADRESS na T-ADDRESS. A Z-Adress ni kulindwa na anaendelea maelezo binafsi. a t-Anwani ni uwazi na inaonyesha taarifa juu ya kitabu cha umma.
-Sherehe ya 2016 iliyoundwa na vyama vingi ambayo ilizalisha vigezo vya umma vya Sprout kisha ikaondoa taka zenye sumu.
--- taka zenye sumu-- vipande vya siri muhimu kutoka kwa sherehe ambayo ilibidi kuharibiwa hivyo ZEC hakuweza kuwa bandia.
-◯ Idara ya makubaliano 0 ❖ Kiashiria cha sheria za Sprout, maana yake msingi kabla yoyote mtandao kuboresha.
+| zk-SNARK | Uthibitisho usio na ufahamu unaoonyesha kuwa muamala ni halali bila kufichua mtumaji, mpokeaji, au kiasi |
+| Bwawa la kuogelea lililolindwa | Upande wa faragha wa Zcash ambapo kiasi na sherehe zimefichwa. Bwawa la Sprout lilikuwa la kwanza |
+| anwani ya z na anwani ya t | Anwani ya z inalindwa na huweka maelezo kuwa ya faragha. Anwani ya t ni wazi na inaonyesha maelezo kwenye leja ya umma |
+| Sherehe | Muundo wa vyama vingi wa 2016 uliozalisha vigezo vya umma Sprout's na kisha kutupa taka zenye sumu |
+| Taka zenye sumu | Sehemu muhimu za siri kutoka kwa Sherehe ambazo zilibidi ziharibiwe ili ZEC isiweze kughushiwa |
+| Kitambulisho cha tawi la makubaliano 0 | Lebo ya sheria Sprout's , ikimaanisha msingi kabla ya uboreshaji wowote wa mtandao |
 
 ## FAQs
 

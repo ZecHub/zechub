@@ -5,7 +5,7 @@
 
 ## Taarifa ya Ujumbe
 
-Maabara ya Obscura ni shirika huru lililosajiliwa nchini Nigeria lenye lengo la kimkakati kwa Afrika na masoko mengine yanayoibuka.
+Obscura Labs ni shirika huru lililosajiliwa nchini Nigeria lenye mwelekeo wa kimkakati katika Afrika na masoko mengine yanayoibuka.
 
 Its mission is to build infrastructure, tools, and practical adoption pathways that improve the accessibility, utility, decentralization, and long-term resilience of the Zcash ecosystem across Africa.
 
@@ -13,13 +13,13 @@ Shirika hilo linalenga kusaidia matumizi ya faragha kuhifadhi teknolojia ya kife
 
 ## Historia
 
-Maabara ya Obscura ilianzishwa na Chidi Olisa, kiongozi wa Zcash Nigeria.
+Obscura Labs ilianzishwa na Chidi Olisa, kiongozi wa Zcash Nigeria.
 
 Before establishing Obscura Labs, Chidi contributed to the Zcash ecosystem through community building, education, advocacy, localized content creation, user support, and initiatives designed to introduce people in Nigeria and other parts of Africa to financial privacy and Zcash.
 
 Engagement with users, students, developers, businesses, and community members highlighted several barriers to broader Zcash adoption across Africa. These included limited infrastructure, difficulty accessing ZEC through local currencies, insufficient developer support, a shortage of localized educational resources, and limited integration with everyday payment systems.
 
-Maabara ya Obscura iliundwa kwa kukabiliana na changamoto hizi.
+Obscura Labs iliundwa ili kukabiliana na changamoto hizi.
 
 Shirika hilo linategemea maoni kwamba ufahamu peke yake haitoshi kwa ajili ya kupitishwa endelevu. Jamii pia zinahitaji miundombinu ya kuaminika, bidhaa kupatikana, zana developer, upatikanaji wa fedha, elimu, na muda mrefu msaada wa taasisi.
 
@@ -64,7 +64,7 @@ Kwa kufanya miundombinu kupatikana zaidi, Obscura Labs inakusudia kusaidia waten
 
 Kwa Zcash kuwa na manufaa katika hali ya kila siku, watu lazima kuwa na uwezo wa kupata, kuhifadhi, kutumia, na kubadilishana ZEC bila usumbufu usiohitajika.
 
-Maabara ya Obscura inasaidia mipango inayokusudiwa kuboresha:
+Obscura Labs inasaidia mipango inayokusudiwa kuboresha:
 
 * Upatikanaji kati ya ZEC na Afrika sarafu za mitaa.
 * Fiat-on-rampa na off-ramp.
@@ -79,7 +79,7 @@ Particular attention is given to services that address challenges commonly exper
 
 ### Ukuaji wa Jumuiya na Ufahamu
 
-Maabara ya Obscura inasaidia maendeleo ya jamii endelevu za Zcash kote Afrika.
+Obscura Labs inasaidia maendeleo ya jamii endelevu Zcash kote Afrika.
 
 Mipango yake ya jamii inaweza kujumuisha:
 
@@ -98,7 +98,7 @@ Lengo la shirika si tu kuongeza ufahamu wa jumla. Pia inataka kusaidia jamii kue
 
 ### Ushirikiano wa Mazingira
 
-Maabara ya Obscura hufanya kazi na mashirika, watengenezaji, walimu, watafiti, wafanyabiashara, waendeshaji wa miundombinu, na viongozi wa jamii katika mazingira ya Zcash.
+Obscura Labs hufanya kazi na mashirika, watengenezaji, waelimishaji, watafiti, biashara, waendeshaji wa miundombinu, na viongozi wa jamii katika mfumo mzima wa ikolojia Zcash .
 
 Ushirikiano huu ni lengo la kusaidia mipango ambayo:
 
@@ -118,7 +118,7 @@ Ingawa Obscura Labs ni katika hatua ya mwanzo ya maendeleo, mipango kadhaa tayar
 
 ### Afrika DNS Seeder Miundombinu
 
-Maabara ya Obscura huendesha miundombinu ya mbegu za DNS kutoka Afrika.
+Obscura Labs huendesha miundombinu ya DNS kutoka Afrika.
 
 DNS seeders help new Zcash nodes discover peers when connecting to the network. Increasing the geographic distribution of seeders contributes to the decentralization and resilience of the Zcash peer-to-peer network.
 
@@ -130,7 +130,7 @@ Zebra is an independent implementation of the Zcash consensus protocol. Operatin
 
 ### Lightwalletd Huduma
 
-Maabara ya Obscura inafanya kazi miundombinu ya Lightwalletd kusaidia unganisho la mkoba wa Zcash.
+Obscura Labs huendesha miundombinu ya Lightwalletd ili kusaidia muunganisho wa pochi ya Zcash .
 
 Lightwalletd hutoa data blockchain kwa mteja mwanga-pochi bila kuhitaji kila mtumiaji wa mkoba kuendesha node kamili ya Zcash.
 
@@ -142,7 +142,7 @@ Mifumo hii imekusudiwa kuboresha uwazi wa uendeshaji kwa kuruhusu watumiaji na w
 
 ### ZecFiat
 
-ZecFiat ni mpango wa maabara ya Obscura unaozingatia kuboresha ufikiaji kati ya ZEC na sarafu za Kiafrika.
+ZecFiat ni mpango wa Obscura Labs unaolenga kuboresha ufikiaji kati ya ZEC na sarafu za ndani za Afrika.
 
 Mradi huo unakusudiwa kupunguza vizuizi kwa watu binafsi na biashara wanaotaka kupata, kutumia, au kubadilishana ZEC. Lengo lake pana ni kufanya Zcash vitendo zaidi ndani ya masoko ambapo upatikanaji wa huduma cryptocurrency na mifumo ya fedha ya kimataifa inaweza kuwa mdogo.
 
@@ -167,7 +167,7 @@ Obscura Labs is also engaging experienced professionals, industry experts, and Z
 
 ## Muundo wa Shirika
 
-Maabara ya Obscura ni shirika huru lililosajiliwa nchini Nigeria.
+Obscura Labs ni shirika huru lililosajiliwa nchini Nigeria.
 
 Shirika hilo linatengenezwa kwa kuzingatia kuanzisha utawala, utaalam, na uwezo wa uendeshaji unaohitajika kusaidia ukuaji endelevu na michango ya muda mrefu kwa mfumo wa ikolojia wa Zcash.
 
@@ -184,7 +184,7 @@ Habari za ziada kuhusu muundo wake wa utawala, hali ya kisheria, uanachama wa bo
 
 ## Ufadhili
 
-Wakati wa uzinduzi, Maabara ya Obscura inatarajiwa kufadhiliwa kimsingi kupitia:
+Wakati wa uzinduzi, Obscura Labs inatarajiwa kufadhiliwa hasa kupitia:
 
 * Michango.
 * Ushirikiano wa kimkakati.

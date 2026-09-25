@@ -34,10 +34,10 @@
 
 - **Zere okwu ndị na-abụghị Bekee** dịka de facto ma ọ bụ ad hoc. Zere mkpirisi Latin nke ahịrịokwu bekee a maara nke ọma.
 
-    Jiri nke a. Kama iji nkea.
+    | Jiri nke a    | Kama nke a |
     |-------------|-----------------|
-    Dịka ọmụmaatụ. Dị ka ihe atụ:
-    Nke ahụ bụ... i.e..
+    | ọmụmaatụ | e.g.            |
+    | nke ahụ bụ     | i.e.            |
 
 ## Tweets ndị ọzọ
 

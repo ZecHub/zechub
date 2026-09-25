@@ -39,14 +39,14 @@ Ihe ndị bụ isi:
 
 Nchebe nke oke nwere ezi uche mgbe **ịtụfu otu igodo ma ọ bụ onye ekwesịghị ịpụta ịtụfu ego ahụ**.
 
-Ọnọdụ. Ihe mere na ikike ịhapụ nwa ahụ n'enweghị ihe ọ ga-eme ya ji enyere gị aka.
+| Ọnọdụ | Ihe mere njide oke ji enyere aka |
 |-----------|----------------------------|
-** DAO ma ọ bụ akụnụba ìgwè** Ọ dịghị onye nchịkwa nwere ike ịdọrọ ego n'otu akụkụ; chọrọ nkwekọrịta.
-** Exchange ma ọ bụ onye na-elekọta** Na-ekesa isi ihe ize ndụ n'ofe mpaghara nchekwa ma ọ bụkwanụ ndị ọrụ.
-** Ebe nchekwa oyi (na ezinụlọ tụkwasịrị obi) ** 2 n'ime 3 gị + ndị òtù ezinụlọ abụọ  nwụọ ma ọ bụ hapụ ohere, ego anaghị efu.
-** Escrow** Onye na-azụ, onye na ere ahịa, na onye ogbugbo nwere oke; ego a ga-ewepụta mgbe ha abụọ kwekọrịtara.
-** Nkwụnye ego enyemaka dị elu** ZCG-style: chọrọ ọtụtụ ndị na-edebanye aha onwe ha tupu ị kwụọ ụgwọ.
- ** Onye Mmepụta Key Management** Prevent Insider iyi egwu  Ọ dịghị otu engineer nwere ike drain a protocol ego.
+| **DAO ma ọ bụ akụ otu** | Ọ dịghị onye nchịkwa nwere ike ịpụpụ ego n'otu aka; ọ chọrọ nkwenye |
+| **Onye mgbanwe ma ọ bụ onye nlekọta** | Na-ekesa ihe egwu dị mkpa n'ofe mpaghara nchekwa ma ọ bụ ndị ọrụ |
+| **Ebe nchekwa oyi nkeonwe (ya na ezinụlọ a pụrụ ịtụkwasị obi)** | Mmadụ abụọ n'ime mmadụ atọ n'etiti unu na mmadụ abụọ n'ezinụlọ unu — nwụọ ma ọ bụ tụfuo ohere, ego agaghị efu |
+| **Escrow** | Onye zụrụ ihe, onye na-ere ihe, na onye na-ekpe ikpe nwere òkè; ego ewepụtara mgbe mmadụ abụọ kwekọrịtara |
+| **Ntinye ego enyemaka dị oke ọnụ ahịa** | ZCG-style: chọrọ ọtụtụ ndị bịanyere aka n'akwụkwọ nkwado onwe ha tupu ịkwụ ụgwọ |
+| **Njikwa isi ihe onye nrụpụta** | Gbochie ihe iyi egwu dị n'ime ụlọ ọrụ - ọ dịghị otu onye injinia nwere ike iwepụ ego usoro ọrụ |
 
 Ikekwe **ị chọghị** nlekọta oke maka obere akpa ego nke ị na-achịkwa naanị, obere ego ma ọ bụ ọnọdụ ebe mgbakwunye nhazi gbakwunyere karịa mbelata ihe egwu.
 
@@ -61,10 +61,10 @@ FROST na-edozi nke a site n'ịrụ ọrụ n'ime ọdọ mmiri ahụ e chebere:
 | | Transparent multisig | FROST threshold (shielded) |
 |--|---------------------|--------------------------|
 | Pool | Transparent (public) | Orchard (shielded) |
- Ndị na-edebanye aha ha n'akwụkwọ a ga-ahụ anya. Ee  igodo ọha niile egosiri. Mba  enweghị ike ịmata ọdịiche dị na mmefu otu onye debanyere aka na ya.
- Ego a na-ahụ anya Ee Mba
-◯ Nhazi achọrọ ❑ On-chain script ❖ Off-chain round of communication ▸ Ọ bụrụ na ị bụ onye ọrụ nke otu ụlọọrụ, ọ dị mkpa ka i mee ihe ndị a.
-Nzuzo. Enweghị ya. Nchekwa nzuzo zuru oke.
+| A na-ahụ ihe nrịbama n'usoro | Ee — igodo ọha niile ekpughere | Mba — a naghị amata ihe dị iche na mmefu onye bịanyere aka na ya |
+| Ọnụọgụ ndị a na-ahụ anya | Ee | No |
+| A chọrọ nhazi dị mkpa | Ederede dị n'ime yinye | Usoro nkwukọrịta dị n'èzí |
+| Nzuzo | Ọ dịghị | Nzuzo zuru oke nke kpuchiri ekpuchi |
 
 ---
 
@@ -129,13 +129,13 @@ Coinbase wuru mmejuputa FROST maka usoro ntinye aka ha (maka Bitcoin), na mgbanw
 
 ## Ịhọrọ ihe ndị ị chọrọ ime na-aga n'ihu.
 
-Nhazi. Ịnagide ihe. Ihe ize ndụ.
+| Melite | Nkwụsi ike | Ihe egwu |
 |-------|-----------|------|
-◯ 1-of-1 ❑ Enweghị ike ịnagide ihe ❖ otu ebe ọdịda. ● Ịtụfu igodo = ọnwụ na-adịgide adịgide.
- 2 nke 2. Ọ ga-abụrịrị na ndị bịanyere aka n'akwụkwọ abụọ ahụ enweghị ndidi. Otu adịghị = ego a kpọnwụrụ akpọnwụ.
-2 nke 3 Otu shard nwere ike ifu maọbụ ghara ịdị. Mpaghara nchekwa dị ala karịa 3-nke-5.
- 3 nke 5  Shard abụọ nwere ike ịla n'iyi; nchebe siri ike. Nkwado dị elu karịa.
-3 nke 7 - ụlọ ọrụ-ọkwa; na-anabata abụọ ọdịda. High nhazi eri.
+| 1-of-1 | Enweghị ike iguzogide - otu isi ihe na-ada ada | Mfu isi = mfu na-adịgide adịgide |
+| 2-of-2 | Ga-enwerịrị ndị bịanyere aka abụọ ahụ — enweghị ndidi maka mmejọ | Otu adịghị = ego akpọchiri akpọchi |
+| 2-of-3 | Otu iberibe nwere ike ịla n'iyi ma ọ bụ enweghị ya | Oke nchekwa dị ala karịa 3-nke-5 |
+| 3-of-5 | Enwere ike ịlafu ihe abụọ; nchekwa siri ike | Ọnụ ego nhazi ọzọ |
+| 3-of-7 | Ọkwa ụlọ ọrụ; na-anabata ọdịda abụọ | Ọnụ ego nhazi dị elu |
 
 Ebe mmalite dị irè maka ọtụtụ ìgwè: **2-nke-3** (na-eguzogide, nhazi nke nta) ma ọ bụ **3-nke-5** (ụlọ ọrụ, nchebe ka elu).
 

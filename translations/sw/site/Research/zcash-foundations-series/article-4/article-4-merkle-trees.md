@@ -1,7 +1,7 @@
 # Miti ya Merkle: Jinsi blockchain inakumbuka kila noti
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](/content-images/image-19-cfbdcf8f78.webp)
+! ![ alt maandishi](/content-images/image-19-cfbdcf8f78.webp)
 
 ### Kujumlisha mamilioni ya ahadi katika alama moja ndogo ya kidole
 
@@ -34,7 +34,7 @@ Fikiria mzunguko wa mashindano ya knockout, lakini badala ya wachezaji kusonga m
 - Waunganishe wazazi wawili wawili, weka kila jozi pamoja, na kadhalika.
 - Endelea mpaka alama moja ya vidole ikae juu.
 
-! [ alt maandishi](/content-images/image-20-f5d57e425a.webp)
+! ![ alt maandishi](/content-images/image-20-f5d57e425a.webp)
 
 Mali moja muhimu zaidi inafuata moja kwa moja kutoka athari ya mvua ya mawe (Kifungu cha 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Imehesabiwa kwa kweli: hii inazalisha `1b3faa3fcc5e...`, ambayo ** mechi mizizi. * * jani ni kuthibitika kuwa katika mti.
 
-! [ alt maandishi](/content-images/image-21-d9e5d6eaf6.webp)
+! ![ alt maandishi](/content-images/image-21-d9e5d6eaf6.webp)
 
 Vitu viwili vinafanya hii iwe na nguvu:
 
@@ -99,7 +99,7 @@ Maelezo machache halisi:
 - **Fixed kina.** miti Zcash ya ulinzi na kina **32**, maana wao wanaweza kushikilia hadi `2^(32)` (zaidi ya bilioni nne) noti.
 - **ZK-kirafiki hashing.** Mti si kujengwa na SHA-256. Sapling hashes mti na **Pedersen hashes** na Orchard anatumia **Sinsemilla** (wote kutoka Ibara ya 3), hasa hivyo uanachama kupanda ni nafuu kuthibitisha ndani ya mzunguko.
 
-! [ alt maandishi](/content-images/image-22-518354b8d5.webp)
+! ![ alt maandishi](/content-images/image-22-518354b8d5.webp)
 
 ### Jambo moja mti *hatutumii*: hutumia mara mbili
 
@@ -107,10 +107,10 @@ The tree proves a note **exists**. It does not, by itself, stop you from spendin
 
 Kwa hiyo miundo miwili ya umma ina jukumu la ziada, na kuwaweka kando ni nini hasa hukata uhusiano kati ya kuzaliwa kwa noti na kifo chake:
 
-Muundo. Maswali na majibu. Updated wakati.
+| Muundo | Swali linajibu | Ilisasishwa wakati |
 |---|---|---|
-**Note kujitolea mti** "Je, hii kumbuka ipo?" A kumbuka ni ** kuundwa ** (kujitolea imeambatanishwa)
-** Nullifier kuweka ** "Je, noti hii tayari kutumika?" A noti ni ** kutumika ** (nullifier kuchapishwa)
+| **Mti wa ahadi ya kumbuka** | "Je, noti hii ipo?" | Dokezo limeundwa **** (ahadi imeambatishwa) |
+| **Seti ya vifutaji** | "Je, noti hii tayari imetumika?" | Ujumbe umetumika **** (kifutaji kimechapishwa) |
 
 ---
 
@@ -133,15 +133,15 @@ Simplifications, as usual. Real incremental Merkle trees track "frontier" nodes 
 
 ## Orodha ya maneno
 
-Neno. Maana ya Kiingereza ya kawaida.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-Mti wa Merkle. Mti ya hashes; majani ni data alama za vidole, wazazi hash watoto wao.
-** Leaf **. A chini node; katika Zcash, moja kumbuka ahadi.
-** Mzizi wa Merkle ** alama moja ya juu ya kidole inayojumlisha mti mzima.
-** Authentication path / Merkle proof** The sibling hashes needed to prove a leaf is in the tree. ** Njia ya uthibitisho / uthibitishaji wa Merkle**
-** Mti wa Merkle unaoongezeka **. Mti unaongeza tu Merkle (majani huongezwa tu)
-** Anchor **. a Merkle mizizi ambayo matumizi marejeleo kama "mti hali mimi ni kuthibitisha dhidi ya".
-** Nullifier kuweka ** The tofauti mkusanyiko wa alitumia-markers kwamba kuzuia mara mbili-inatumia.
+| **Mti wa Merkle** | Mti wa hashes; majani ni alama za vidole, wazazi hupiga watoto wao hashes |
+| **Jani** | Nodi ya chini; katika Zcash, ahadi ya noti moja |
+| **Mzizi wa Merkle** | Kidole kimoja cha juu kinachofupisha mti mzima |
+| **Njia ya uthibitishaji / Uthibitisho wa Merkle** | Hashes za ndugu zinahitajika kuthibitisha jani liko kwenye mti |
+| **Mti wa Merkle Unaoongezeka** | Mti wa Merkle unaotumika tu (majani huongezwa tu) |
+| **Nanga** | Mzizi wa Merkle ambao spend anautaja kama "hali ya mti ninayoipinga" |
+| **Seti ya vifutaji** | Mkusanyiko tofauti wa alama za matumizi zinazozuia matumizi maradufu |
 
 ---
 

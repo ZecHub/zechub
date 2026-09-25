@@ -75,12 +75,12 @@ Kwa maneno rahisi, orodha ya mzunguko ilikuwa inakosa masanduku ambayo inapaswa 
 
 Ulinganisho wa hadithi yetu ya orodha ni sahihi:
 
-Hadithi ya orodha za kuangalia. Kosa la Orchard (mti wa matunda).
+| Hadithi ya orodha ya ukaguzi | Mdudu wa Orchard |
 |---|---|
-Kutoweka "pasipoti haijatumika" sanduku. kukosa kizuizi juu ya elliptic-curve kuzidisha.
-Msafiri mwenye pasipoti iliyokwisha muda wake anapita anyway. Maingizo ya uongo yanayopitishwa kwa njia za kiholela hupitia jaribio la kuzidisha.
-Kila mtu mwingine ni unaffected, hivyo hakuna kitu inaonekana makosa. shughuli za kawaida kazi kikamilifu, kuficha kasoro.
-Ni mtu anayetafuta tu ndiye anayepata shimo. Ilichukua mtaalam kuchunguza hesabu za nyaya kwa makusudi.
+| Kisanduku cha "pasipoti ambacho hakijaisha muda wake" kinakosekana | Kizuizi kinachokosekana kwenye kuzidisha kwa mkunjo wa duaradufu |
+| Msafiri aliyemaliza muda wake wa kusafiria hupita hata hivyo | Ingizo bandia kiholela hupita ukaguzi wa kuzidisha |
+| Kila mtu mwingine hajaathiriwa, kwa hivyo hakuna kinachoonekana kibaya | Miamala ya kawaida ilifanya kazi vizuri, ikificha dosari |
+| Ni mtu anayeitafuta tu ndiye anayepata shimo | Ilimchukua mtaalamu kuchunguza kwa makusudi hesabu ya mzunguko |
 
 To be clear about how serious this was: the researcher, with AI assistance, wrote a *complete working exploit* and confirmed in a local test network that it produced unlimited, undetectable counterfeit coins. This was a real and exploitable flaw, not a theoretical worry.
 
@@ -111,13 +111,13 @@ Kosa la Orchard linatokana na familia inayorudiwa, na kuona kwamba ni nini hufan
 
 Historia ya Zcash yenyewe inaonyesha muundo:
 
- Bug (mwaka) Chanzo: Inaweza kugunduliwa?
+| Mdudu (mwaka) | Chanzo | Inaweza kugunduliwa? |
 |---|---|---|
- Zerocash ahadi kasoro (2016, kabla ya uzinduzi)  Specifications (a truncated hash broke a binding property) 👉 Undetectable.
-│ Trusted-setup soundness flaw (2018) │ Specifications (kosa katika msingi zk-SNARK karatasi) │ Undetectable.
-☐ Kujaribu-mfumo wa maswali mgongano (2025) ▸ Maelezo (kuangalia kukosa katika mfumo ushahidi) ❖ Inaweza kugunduliwa.
-│ Curve-subgroup validation bug (2016) │ Utekelezaji (kukosa subgroup kuangalia) │ Inaweza kugunduliwa.
-** Orchard chini ya vikwazo kuzidisha (2026) **. * Specifications (mzunguko) **. ** Undetectable**.
+| Dosari ya ahadi ya Zerocash (2016, kabla ya uzinduzi) | Vipimo (hash iliyokatwa ilivunja sifa ya kufunga) | Haigunduliki |
+| Kasoro ya uthabiti katika usanidi unaoaminika (2018) | Vipimo (kosa katika karatasi ya zk-SNARK ) | Haigunduliki |
+| Mgongano wa hoja ya mfumo wa kuthibitisha (2025) | Vipimo (hundi isiyopatikana katika mfumo wa uthibitisho) | Inaweza kugunduliwa |
+| Hitilafu ya uthibitishaji wa kikundi kidogo cha mkunjo (2016) | Utekelezaji (ukaguzi wa kikundi kidogo unaokosekana) | Inaweza kugunduliwa |
+| **Orchard (2026)** | **Vipimo (mzunguko)** | **Haigunduliki** |
 
 Kupitia-line ni stark: kasoro ambayo inaweza kujificha milele ndio wale katika hisabati. Hiyo ndiyo hasa darasa kuthibitishwa mashine ya vipimo unaweza kuondoa, kesi zote kwa mara moja. kupima na ukaguzi sampuli; tu kuthibitisha hesabu inashughulikia kila pembejeo.
 
@@ -157,17 +157,17 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-** Hifadhi ya kulindwa** Njia binafsi za Zcash ambapo kiasi na vyama vimefichwa.
-** Ushahidi wa ujuzi sifuri**. Uthibitisho kwamba taarifa iliyofichwa ni halali, bila kufunua kitu kingine chochote.
-** Mzunguko**. seti ya kudumu ya hali hesabu shughuli halali lazima kukidhi.
-**Constraint**. Hali moja (equation) ndani ya mzunguko wa.
-**Witness**. Vipimo vya siri ambavyo vinatimiza masharti ya sharti la kwanza ni:
-**Usahihi**: dhamana kwamba taarifa za kweli tu zinaweza kutoa ushahidi halali.
-**Soundness gap**. kizuizi kukosa kwamba lets taarifa za uongo kupita.
-** Chini ya kizuizi** Mzunguko kukosa hali inahitajika, mzizi wa Orchard mdudu.
-** Inaweza kugunduliwa / haiwezi kuonekana. ** Je, unyonyaji itaacha ushahidi katika kitabu cha umma?
+| **Bwawa la kuogelea lenye ngao** | Hali ya faragha ya Zcash ambapo kiasi na vyama vimefichwa |
+| **Ushahidi wa kutojua** | Uthibitisho kwamba kauli iliyofichwa ni halali, bila kufichua kitu kingine chochote |
+| **Mzunguko** | Seti isiyobadilika ya masharti ya hesabu ambayo muamala halali lazima utimize |
+| **Kikwazo** | Hali moja (mlinganyo) ndani ya saketi |
+| **Shahidi** | Thamani za siri zinazokidhi vikwazo |
+| **Utulivu** | Dhamana kwamba taarifa za kweli pekee ndizo zinaweza kutoa uthibitisho halali |
+| **Pengo la utimamu** | Kizuizi kinachokosekana kinachoruhusu taarifa za uongo kupita |
+| **Imebanwa kidogo** | Mzunguko usio na hali iliyohitajika, mzizi wa mdudu wa Orchard |
+| **Inaonekana / Haionekani** | Kama unyonyaji ungeacha ushahidi katika daftari la umma |
 
 ---
 

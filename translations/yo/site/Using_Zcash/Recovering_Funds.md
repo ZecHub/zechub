@@ -61,9 +61,9 @@ Fún ìtọ́kasí ìṣíkiri pípé, pẹ̀lú àwọn ipa ọ̀nà ìgbàpad�
 | Gbólóhùn ìrúgbìn tàbí àtìlẹ́yìn **kìkì ìnáwó tí kìí ṣe ti Sprout** láti inú àpò ìpamọ́ lọ́wọ́lọ́wọ́ tàbí tí a ṣẹ̀ṣẹ̀ tọ́jú, títí kan ohun èlò YWallet Zcash àtijọ́ | [Zkool](#fund-recovery-with-zkool) |
 | Kọ́kọ́rọ́ wíwo **nìkan** | Zkool le gbé àwọn kọ́kọ́rọ́ wíwo tí a ti fi ìtìlẹ́yìn fún wọlé fún wíwọlé sí ìwé kíkà nìkan, ṣùgbọ́n kọ́kọ́rọ́ wíwo kò le fún ni àṣẹ láti náwó ìgbàpadà. Wá irúgbìn tàbí kọ́kọ́rọ́ ìnáwó tí ó báramu. |
 | Irúgbìn 24-ọ̀rọ̀ kan **ZecWallet Lite** | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Lite tabi zcashd kan `wallet.dat`, tàbí kọ́kọ́rọ́ ìnáwó Sapling / Sprout tí ó dúró ṣinṣin | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Ní ọjọ́ kejìdínlógún oṣù kẹsàn-án ọdún 2026, v1.3.0 jẹ́ èyí tó wà lọ́wọ́lọ́wọ́, ó sì jẹ́ ohun tó dára jù; lo v1.2.0 tàbí lẹ́yìn náà fún `wallet.dat` àti ìpadàbọ̀sípò Sprout.
-| Ohun èlò ìrúwé tí Argos kò lè lò, tàbí ìgbàpadà níbi tí o bá fẹ́ kí àwọn ohun èlò ìrúwé náà wà lábẹ́ ìṣàkóso tirẹ | Lo ipa ọ̀nà ẹ̀gbẹ́ tí ó ti wà tẹ́lẹ̀ nínú [itọsọna aaye kikun](/research/zec-pool-migration/view). |
-| Kò sí irúgbìn tàbí kọ́kọ́rọ́ ìnáwó, bí kò ṣe ẹ̀rọ tí a ti tì pa, ọ̀rọ̀ìpamọ́ tí a gbàgbé, tàbí díìsìkì tí ó kùnà | [Imularada ọjọgbọn](#professional-recovery-when-you-do-not-have-the-seed)Má ṣe fi èso iṣẹ́ tàbí kọ́kọ́rọ́ ìnáwó ránṣẹ́ sí ẹnìkan tí ó bá kàn sí ọ láìbéèrè.
+| ZecWallet Lite tabi zcashd `wallet.dat`, tàbí kọ́kọ́rọ́ ìnáwó Sapling / Sprout kan ṣoṣo | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Ní ọjọ́ kejìdínlógún oṣù kẹsàn-án ọdún 2026, v1.3.0 jẹ́ èyí tó wà lọ́wọ́lọ́wọ́, ó sì jẹ́ ohun tó dára jù; lo v1.2.0 tàbí lẹ́yìn náà fún `wallet.dat` àti ìpadàbọ̀sípò Sprout . |
+| Ohun èlò Sprout tí Argos kò lè lò, tàbí ìgbàpadà níbi tí o bá fẹ́ kí àwọn ohun èlò ìrúwé náà wà lábẹ́ ìṣàkóso tirẹ | Lo ipa ọ̀nà ẹ̀gbẹ́ tí ó ti wà tẹ́lẹ̀ nínú [itọsọna aaye kikun](/research/zec-pool-migration/view). |
+| Kò sí irugbin iṣẹ́ tàbí kọ́kọ́rọ́ ìnáwó, ṣùgbọ́n ẹ̀rọ tí a ti tì pa, ọ̀rọ̀ ìpamọ́ tí a gbàgbé, tàbí díìsìkì tí ó kùnà | [Imularada ọjọgbọn](#professional-recovery-when-you-do-not-have-the-seed)Má ṣe fi èso iṣẹ́ tàbí kọ́kọ́rọ́ ìnáwó ránṣẹ́ sí ẹnìkan tí ó kàn sí ọ láìbéèrè. |
 
 ## Ìgbàpadà Owó pẹ̀lú Zkool
 
@@ -159,13 +159,13 @@ Argos máa ń ka àwọn fáìlì àpò láìṣe àtúnṣe wọn. Tí àpò n�
 
 A kò gba wíwo awọn bọtini fun gbigba nitori wọn ko le fun ni aṣẹ lati nawo.
 
-### Àwọn àkọsílẹ̀ èso igi
+### Àwọn àkọsílẹ̀ Sprout
 
 Irugbin ZecWallet Lite kii ṣe lati mu awọn bọtini Sprout jade. Awọn bọtini wọnyẹn ni a ṣẹda lọtọ. Gba Sprout pada lati inu zcashd kan `wallet.dat`, tàbí láti inú kọ́kọ́rọ́ ìnáwó kan ṣoṣo nínú CLI.
 
 Tí fáìlì náà bá ti ní àkọsílẹ̀ àkọsílẹ̀ tí a lè náwó àti ẹlẹ́rìí tí a ti fipamọ́, Argos lè fúnni ní owó **Sweep Sprout** láìsí ìwádìí ẹ̀rọ. Bí bẹ́ẹ̀ kọ́, ó lè ṣe ìwádìí ẹ̀rọ tí a lè tún lò lórí nẹ́tíwọ́ọ̀kì P2P. Ìwádìí náà tóbi, ó sì lọ́ra. Iṣẹ́ àyẹ̀wò tí ó ń kọ lè náwó, nítorí náà dáàbò bò ó bí àpò ìpamọ́ àkọ́kọ́.
 
-Iye irugbin naa le de inu Sapling nikan. Lẹhin ti a ba ti jẹrisi owo Sapling ti a si le lo, gbe wọn lọ si **Ironwood** pẹlu apo owo lọwọlọwọ ti o ṣe atilẹyin fun akọọlẹ Sapling ti a gba pada. Maṣe duro ni Sapling.
+Iye Sprout le de inu Sapling. Lẹhin ti a ba ti jẹrisi owo Sapling ti a si le lo, gbe wọn lọ si **Ironwood** pẹlu apo owo lọwọlọwọ ti o ṣe atilẹyin fun akọọlẹ Sapling ti a gba pada. Maṣe duro ni Sapling.
 
 ## Awọn owo ti a gba pada ati adagun Ironwood
 

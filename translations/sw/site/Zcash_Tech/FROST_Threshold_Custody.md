@@ -39,14 +39,14 @@ Mali muhimu:
 
 Kiwango cha kuhifadhi ina maana wakati ** kupoteza ufunguo mmoja au mtu mmoja haipaswi kumaanisha kupoteza fedha**.
 
-Hali. Kwa nini udhibiti wa kizingiti husaidia?
+| Hali | Kwa nini utunzaji wa kizingiti husaidia |
 |-----------|----------------------------|
-** DAO au timu hazina** Hakuna admin moja inaweza drain fedha unilaterally; inahitaji makubaliano.
-** Kubadilishana au custodian**. Inasambaza hatari muhimu katika maeneo ya usalama au wafanyakazi.
-** Kihifadhi cha kibinafsi baridi (na familia ya kuaminika) ** 2-ya-3 kati yenu + wanafamilia wawili  kufa au kupoteza upatikanaji, fedha si waliopotea.
-** Escrow** Mnunuzi, muuzaji na mratibu kila mmoja ana hisa; fedha kutolewa wakati wawili kukubaliana.
-** Kiwango cha juu ya kutoa ruzuku** ZCG-style: inahitaji saini nyingi huru kabla ya kulipa nje.
- ** Developer muhimu usimamizi** kuzuia tishio la ndani hakuna mhandisi mmoja anaweza kuondoa mfuko itifaki.
+| **DAO au hazina ya timu** | Hakuna msimamizi mmoja anayeweza kutoa pesa peke yake; inahitaji makubaliano |
+| **Mbadilishaji au mlinzi** | Husambaza hatari kuu katika maeneo ya usalama au wafanyakazi |
+| **Hifadhi ya kibinafsi ya baridi (pamoja na familia inayoaminika)** | 2 kati ya 3 kati yenu + wanafamilia wawili — kufa au kupoteza ufikiaji, fedha hazipotei |
+| **Escrow** | Mnunuzi, muuzaji, na msuluhishi kila mmoja ana hisa; fedha hutolewa wakati wawili wanapokubaliana |
+| **Utoaji wa ruzuku yenye thamani kubwa** | ZCG-style: unahitaji watia saini wengi huru kabla ya kulipa |
+| **Usimamizi wa ufunguo wa msanidi programu** | Zuia tishio la ndani - hakuna mhandisi hata mmoja anayeweza kuondoa mfuko wa itifaki |
 
 Labda ** hauitaji** uhifadhi wa kizingiti kwa mkoba wa kibinafsi unaodhibiti peke yako, kiasi kidogo, au hali ambapo usimamizi ulioongezwa juu ya gharama huzidi kupunguza hatari.
 
@@ -61,10 +61,10 @@ FROST hutatua hili kwa kufanya kazi ndani ya bwawa la ulinzi:
 | | Transparent multisig | FROST threshold (shielded) |
 |--|---------------------|--------------------------|
 | Pool | Transparent (public) | Orchard (shielded) |
- Signers inayoonekana kwenye mnyororo. Ndiyo  wote funguo za umma wazi. No  indistinguishable kutoka matumizi moja-msaini
-Kiasi kinachoonekana Ndiyo Hapana.
-Ushirikiano unahitajika. On-chain script off-chain round of communication.
-Faragha. Hakuna faragha kamili ya kulindwa.
+| Wasaini wanaonekana kwenye mnyororo | Ndiyo — funguo zote za umma zimefichuliwa | Hapana — haitofautiani na matumizi ya mtu mmoja aliyesaini |
+| Kiasi kinachoonekana | Ndiyo | No |
+| Uratibu unahitajika | Hati ya mnyororo | Duru ya mawasiliano nje ya mnyororo |
+| Faragha | Hakuna | Faragha iliyolindwa kikamilifu |
 
 ---
 
@@ -129,13 +129,13 @@ Kama signature yoyote hutuma sahihi mbaya sehemu, itifaki huwatambua na mimba (w
 
 ## Kuchagua vigezo yako kizingiti
 
-Kuweka. Ujasiri. Hatari.
+| Usanidi | Ustahimilivu | Hatari |
 |-------|-----------|------|
-◯ 1-of-1 Hakuna uwezo wa kukabiliana na hali ya kutofaulu. Kupoteza ufunguo = kupotea kabisa.
- 2-ya-2  Lazima kuwa na saini zote mbili  hakuna kuvumilia makosa. moja haipatikani = fedha waliohifadhiwa.
+| 1-of-1 | Hakuna ustahimilivu — sehemu moja ya kushindwa | Hasara ya ufunguo = hasara ya kudumu |
+| 2-of-2 | Lazima uwe na watia saini wote wawili — hakuna uvumilivu wa makosa | Moja haipatikani = fedha zilizogandishwa |
 | 2-of-3 | One shard can be lost or unavailable | Lower security margin than 3-of-5 |
-Sehemu mbili zinaweza kupotea; usalama mkubwa. Ushirikiano zaidi juu ya kichwa.
-3 ya 7 kiwango cha taasisi; huvumilia kushindwa mara mbili gharama kubwa za uratibu.
+| 3-of-5 | Vipande viwili vinaweza kupotea; usalama imara | Uratibu zaidi wa gharama za uendeshaji |
+| 3-of-7 | Daraja la kitaasisi; huvumilia kushindwa mara mbili | Gharama kubwa ya uratibu |
 
 hatua ya kuanzia vitendo kwa timu zaidi: ** 2-ya-3** (kuweza kukabiliana, ushirikiano mdogo) au ** 3-ya-5** (taasisi, usalama wa juu).
 

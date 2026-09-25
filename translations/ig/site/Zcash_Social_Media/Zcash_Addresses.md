@@ -48,7 +48,7 @@ Ihe ntinye nke Unified Address bụ ngwakọta nke encodings (typecode, ogologo,
 - Sapling: `0x02`  
 - Ihe na-ekpuchi: `0x01`  
 
-**Mkpa**: A ga-enwerịrị ma ọ dịkarịa ala otu adreesị akwụ ụgwọ echekwara na UA niile. (A naghị akwadozi adreesì ndị a kụrụ n'elu mgbe nkwalite Canopy.)
+**Dị Mkpa**: A ga-enwerịrị **opekata mpe otu adreesị ịkwụ ụgwọ echekwara** na UA ọ bụla. (Sprout ọzọ mgbe emelitere Canopy .)
 
 ![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 

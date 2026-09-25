@@ -92,7 +92,7 @@ Ne ènye ame yeye le blockchains me le goawo katã me la, . [Bitcoin ƒe aɖaŋu
 
 ## Nutoa me kple wɔnawo
 
-The [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.gg/6AK7keWFaK) nye afisi woƒo nu tso protocol kple gakotoku ƒe ŋgɔyiyi ŋu le, eye [Zcash Nutome Nyamedzroƒe](https://forum.zcashcommunity.com/) tsɔa aɖaŋuɖoɖo didiwo kple kpekpeɖeŋu kawo.
+The [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.gg/6AK7keWFaK) nye afisi woƒo nu tso protocol kple gakotoku ƒe ŋgɔyiyi ŋu le, eye [Zcash Nutome Nyamedzroƒe](https://forum.zcashcommunity.com/) tsɔa aɖaŋuɖoɖo didiwo kple kpekpeɖeŋu kawo.
 
 Hackathon me tsonu siwo wowɔ nyitsɔ laa nye nusiwo amewo le tutum ƒe nɔnɔmetata nyui aɖe: [ZecHub ƒe 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub ƒe 2025](https://x.com/ZecHub/status/1975565960661635283) kple... [Zypherpunk ƒe Hackathon ƒe 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
 

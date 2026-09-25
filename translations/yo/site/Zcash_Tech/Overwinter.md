@@ -42,18 +42,18 @@ Overwinter was the first Zcash network upgrade after the October 2016 mainnet la
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
- Network upgrade (NU)  Aṣayan iyipada ti a ṣepọ si awọn ofin ifọkanbalẹ Zcash, ti o ṣiṣẹ ni giga bulọọki ṣeto.
-☐ Idì ẹ̀ka ìfohùnṣòwò. Aṣàmúlò ṣókí tí ó ńpè àwọn ìlànà ìfọwọ́sowọpọ tó wà nísinsìnyí ni orúkọ rẹ̀.
-ìgùn ìmúṣẹ. Ìdìpọ̀ tí àwọn ìlànà tuntun ti àtúnṣe nẹ́tàkì fi ń bẹ̀rẹ̀ sí ṣiṣẹ́.
-Ààbò láti tún ṣe. Òfin tí ó dáwó ìsòwò tó bá wúlò lórí ẹ̀ka kan dúró kí a má lòó ní òmíràn.
-Mempool: Àkójọ àwọn ìsòwò tí a ti gbé jáde ṣùgbọ́n kò tíì di ohun èlò ìdánilẹ́kọ̀ọ́.
-íṣe ìsúná. Ìsọ̀rí tí ó péjú, lẹ́yìn èyí ni a máa ń yọ àdàkọ tí kò bá ti ṣe é jáde kúrò nínú rẹ̀.
+| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's , tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| ID ẹka Consensus | Àmì ìdámọ̀ kúkúrú kan tí ó ń sọ orúkọ àwọn òfin ìfohùnṣọ̀kan lọ́wọ́lọ́wọ́ |
+| Gíga ìṣiṣẹ́ | Àkọsílẹ̀ tí àwọn òfin tuntun ti ìgbéga nẹ́tíwọ́ọ̀kì kan gbéṣẹ́ sí |
+| Ààbò àtúnṣe eré | Òfin kan tí ó dá ìṣòwò kan dúró láti má ṣe tún lò lórí ẹ̀wọ̀n kan lórí òmíràn |
+| Ọmọ ẹgbẹ́ | Àkójọ àwọn ìṣòwò tí a ti gbé jáde ṣùgbọ́n tí a kò tí ì wakọ̀ sínú bulọ́ọ̀kì kan |
+| Ipari iṣowo naa | Gíga bulọọki ipari ti a fi silẹ lẹhin ti a ti yọ iṣowo ti a ko tii wa kuro |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 
-ṣé overwinter yí ZEC mi padà tàbí ìpamọ́ra mi? rárá. overwinters kò fi àwọn àfikún tuntun kún un, bẹ́ẹ̀ ni wọn ò fọwọ́ kan ìṣàdálẹ̀ tí a ṣe lábẹ́ ìdènà o. ó ń ṣètò fún gbígbéga ọjọ́ ọ̀la tó nípọn rẹ owó àti àṣírí ara ẹni yín kì í nípa lórí ẹ. nígbà náà, kí ló dé táá mú kó ṣeé ṣe láti máa lo ohun èlò yìí láìfi ohunkóhun pa mọ́ nínú ilé iṣẹ́ wa?
+Ṣé Overwinter yí ZEC mi tàbí ìpamọ́ mi padà? Rárá. Overwinter kò fi àwọn ohun tuntun kún un, kò sì fọwọ́ kan àwọn ìṣòwò tí a dáàbò bò. Ó ń mú kí àwọn àtúnṣe ọjọ́ iwájú dára. Owó àti ìpamọ́ rẹ kò ní ipa kankan lórí.
 
 Did Overwinter add Sapling or shielded addresses? No. Overwinter added no shielded features. It prepared the ground so that Sapling could activate safely later.
 
@@ -87,7 +87,7 @@ Nitoripe o kọ awọn ẹrọ ti gbogbo igbesoke nigbamii da lori. Overwinter �
 
 [ZIP 143: Ìmúṣẹ ìforúkọsílẹ̀ Àdéhùn fún Overwinter](https://zips.z.cash/zip-0143)
 
-[Àtúnṣe sípínlẹ̀-ìmọ́lé fún ìgbà òtútù](https://z.cash/upgrade/overwinter/)
+[Igbesoke Nẹtiwọọki Overwinter](https://z.cash/upgrade/overwinter/)
 
 ### Ẹ tún wo:
 

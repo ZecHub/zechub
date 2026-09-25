@@ -16,12 +16,12 @@ Zaino sits between Zebra and client software. Zebra is the consensus node: it do
 
 Nkewa a na-eme ka ọrụ dị iche iche doo anya:
 
-◯ Ihe ndị mejupụtara ya ❑ Ọrụ ọ na-arụ .
+| Akụkụ | Ọrụ |
 |:--|:--|
- Zebra  Full node na validator 
-Zaino: Index na onye ahịa-eche ihu API ọrụ.
+| Zebra | Ọnụego zuru oke na ihe nkwado |
+| Zaino | Ọrụ API nke na-egosi ndị ahịa na ndị na-egosi indexer na ndị ahịa |
 | Zallet | Wallet service |
- lightwalletd  Ihe nkesa obere akpa ochie nke Zaino haziri iji dochie ma ọ bụ gbakwunye ya.
+| lightwalletd | Ihe nkesa obere akpa ego ochie nke Zaino mere iji dochie ma ọ bụ mejuo ya |
 
 Zaino na-enye ọrụ maka ndị ahịa ọkụ, ndị ahịa zuru oke ma ọ bụ obere akpa ego, yana onye nchọpụta ngọngọ. Ọ na - enye ohere ịnweta agbụ nke emechara, agbụ kachasị mma a rụzuru arụzu, yana data mempool nke Zebra nwere.
 

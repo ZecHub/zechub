@@ -39,14 +39,14 @@ Blossom bụ nke atọ netwọk nkwalite Zcash. Ọ sochiri Overwinter na Saplin
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
- Oge dị n'etiti ihe mgbaru ọsọ nke ngọngọ ahụ. oge netwọk na-achọ maka otu ogige ruo ọzọ.
- Block ụgwọ ọrụ  The ọhụrụ ZEC kere na-akwụ dị ka onye ọ bụla ngọngọ a gwuru.
- Ịgbaji oge ole ka ị ga-agafe n'etiti nke ọ bụla na nkwụghachi ụgwọ.
-◯ Consensus branch id. A mkpado na akara nke set of netwọk iwu a ọnụ ma ọ bụ azụmahịa na-esote.
-◯ Mgbanwe nkwekọrịta abụọ ❖ mgbanwe iwu nke ọ bụla ọnụ ga-agbaso iji nọrọ na netwọkụ ahụ.
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
+| Oghere ebe a na-elekwasị anya na-egbochi | Oge netwọk ahụ na-achọ n'etiti otu ngọngọ na nke ọzọ |
+| Ụgwọ ọrụ ngọngọ | ZEC ọhụrụ ahụ mepụtara ma kwụọ ụgwọ ka a na-egwupụta blọk ọ bụla |
+| Oge ọkara nkewa | Blọk ole gafere n'etiti ọkara nke ụgwọ ọrụ blọk ọ bụla |
+| Njikọ ngalaba nkwekọrịta | Akara nke na-egosi usoro netwọk nke na-achịkwa node ma ọ bụ azụmahịa na-eso |
+| Mgbanwe nkwekọrịta abụọ | Mgbanwe iwu nke nodu ọ bụla ga-agbaso iji nọrọ na netwọk ahụ |
+| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's , nke a na-arụ ọrụ na elu blọk edobere |
 
 ## Ajụjụ ndị a na-ajụkarị
 

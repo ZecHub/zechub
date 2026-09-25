@@ -50,14 +50,14 @@ Nu vevi aɖe li si ŋu wòle be nàlé ŋku ɖo: ** Woxea fe ɖe nu siwo le lɛt
 
 ### Nusi ame si le gota ate ŋu akpɔ la
 
-Amesi le ŋku lém ɖe eŋu ate ŋu akpɔ... ERC-20 si le Ethereum dzi, ZSA si le Zcash.
+| Eteƒekpɔla ate ŋu akpɔ... | ERC-20 le Ethereum dzi | ZSA le Zcash |
 | --- | --- | --- |
-Amesi ɖoe ɖa. Xexlẽme si le amewo dome taʋiʋli me.
-Amesiwo xɔe. Amehabɔbɔwo ƒe Akpoxɔnu.
-▪ Ale si wotrɔa nuwoe. ● Ame sia ame nya nu tso eŋu. □ Wotsɔ wo ɣla ɖe amewo ŋu.
-Ame ɖekaɖekawo ƒe ga home. Dukɔwo tɔe. Woƒe akpa dzi koe wodzrana ɖo.
-▪ Nudzraɖo si wotsɔna naa ame la katã le Dukɔa me. ● Amewo ƒoa wo ɖokui ɖe emee.*
-ETH ZEC Gadzraɖoƒe ƒe ga si woxe ɖe fe la me.
+| Ame si ɖoe ɖa | Amedome | Wotsɔ akpoxɔnu na |
+| Ame si xɔe | Amedome | Wotsɔ akpoxɔnu na |
+| Aleke gbegbee woʋãe nye si | Amedome | Wotsɔ akpoxɔnu na |
+| Ame ɖekaɖekawo ƒe dadasɔ | Amedome | Wotsɔ akpoxɔnu na |
+| Nusiwo woatsɔ ana nunɔamesiawo katã | Amedome | **Dutoƒo — eɖoe koŋ** |
+| Ga si me woxea fetu la le | ETH | ZEC |
 
 ### Nukata nuƒledzedzesi la menye vodada o?
 
@@ -128,13 +128,13 @@ Nya siawo wɔ ɖeka kple Eŋlisigbe me Gbegɔmeɖeɖe Biblia ƒe mɔfiamewo. [Zc
 
 ## Vodada Siwo Dzɔna Zi Geɖe La
 
-▪ Ame geɖe xɔe se be nya sia nye nyateƒe.
+| Dzixɔse si bɔ | Nukae nye nyateƒe |
 | --- | --- |
-"ZSAwo le agbe egbea ɖe Zcash dzi". Womele nenema o. Woɖo ɖoɖo be woadze egɔme kple Network Upgrade 7 (NU7) eye wole eme dzrom hele dodokpɔ wɔm kokoko.
-"ZSA tsɔ smart contracts va Zcash me". ZSA ɖɔa gawo ƒe dodo, wo tsɔtsɔ yi kple wo dzodzo. Menye ɖoɖowɔɖi si ŋu dɔ wowɔna le nu sia nu mee wònye o.
+| "ZSAwo le agbe le Zcash dzi egbea." | Menye nenemae o. Woɖoe be woatsɔ ZSA ade dɔwɔwɔ me le Network Upgrade 7 (NU7) me eye wogale ŋku lém ɖe eŋu hele dodokpɔ wɔm. |
+| "ZSA tsɔa smart contractwo vaa Zcash." | ZSA gblɔa nunɔamesiwo nana, wo tsɔtsɔ yi na ame bubuwo kple wo tsɔtsɔ dzoe. Menye nubabla ƒe ƒuƒoƒo si woate ŋu awɔ ɖoɖo ɖe eŋu na taɖodzinu gbadzaae wònye o. |
 | "You can pay ZSA fees in the ZSA token itself." | Fees are paid in ZEC. |
-"Ne woɣlae la, ele be nu siwo wotsɔna naa tokens hã nanɔ ɣaɣla". ZIP 227 na nuwo ƒe ɖoɖowo le gaglãgbe ale be woate ŋu akpɔ ga si wozãna ɖe nunɔamesi ɖesiaɖe ta. Gadzraɖoƒewo kple nudzɔdzɔwo nɔa ame sia ame gbɔ; gake womekpɔa woƒe numedzodzrowo dzi o.
-"ZIP 230 nye nuwɔwɔ ƒe mɔnu si li fifia le eƒe gɔmeɖeɖe 6 lia me". ZIP 230 la megava nɔ anyi o. Fifia, Mɔnukpɔkpɔa va zu Zip 229 tɔ.
+| "Ne wokpɔ akpoxɔnu ta la, ele be dzesi ƒe nunana hã nanye adzame." | ZIP 227 na woɖoe koŋ ɖe ga si woɖe ɖe go la le gaglãgbe, eyata woate ŋu alé ŋku ɖe nunɔamesi ɖesiaɖe ƒe tsɔtsɔ ŋu le dutoƒo. Ga si susɔ kple ga si wotsɔ dea ame bubu me la nɔa ame ŋutɔ si; nusiwo wotsɔna naa amewo mewɔa esia o. |
+| "ZIP 230 nye tɔtrɔ 6 ƒe asitsatsa ƒe ɖoɖo si li fifia." | Woɖe ZIP 230 ɖa. Fifia woɖe Version 6 gɔme to ZIP 229 dzi. |
 
 ---
 

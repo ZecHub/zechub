@@ -46,14 +46,14 @@ Pamoja na mabadiliko ya fedha, Canopy alikuwa ndogo mbili ZIPs kiufundi. [ZIP 21
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-Waanzishaji malipo. awali ya ufadhili mfano kwamba kulipwa kwa ajili ya maendeleo Zcash mapema, imepangwa mwisho katika halving kwanza.
-Mfuko wa Maendeleo. asilimia 20 ya sehemu ya kila malipo block kwamba Canopy routed kwa maendeleo, mbio na nusu pili.
- Block malipo (rushi) ZEC mpya kuundwa na kulipwa nje kama kila block ni kuchimbwa.
-Halving Tukio lililopangwa ambapo tuzo ya kuzuia hupunguzwa kwa nusu.
- mkondo wa fedha. utaratibu makubaliano (ZIP 207) kwamba inaelekeza sehemu ya misaada kuzuia kwa anwani za kipekee kupokea.
-Sprout pool. Zcash ya awali kulindwa bwawa, ambayo Canopy kusimamishwa kukubali thamani mpya katika...
+| Zawadi ya waanzilishi | Mfumo wa awali wa ufadhili uliolipia maendeleo ya mapema Zcash , uliopangwa kuisha katika nusu ya kwanza ya mwaka |
+| Mfuko wa Maendeleo | Sehemu ya asilimia 20 ya kila zawadi ya block ambayo Canopy iliipeleka kwenye maendeleo, ikiendelea hadi nusu ya pili ya mzunguko |
+| Zawadi ya kuzuia (ruzuku) | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
+| Kupunguza nusu | Tukio lililopangwa ambapo zawadi ya kuzuia hukatwa katikati |
+| Mtiririko wa ufadhili | Utaratibu wa makubaliano (ZIP 207) unaoelekeza sehemu ya ruzuku ya block kwa anwani zilizoainishwa za wapokeaji |
+| Bwawa Sprout la kuchipua | Bwawa la awali Zcash's lililolindwa, ambalo Canopy iliacha kupokea thamani mpya ndani yake |
 
 ## FAQs
 
@@ -63,7 +63,7 @@ Did Canopy cut the block reward? Canopy activated at the same block as Zcash's f
 
 What is the Development Fund for? It funds the people building Zcash. The money goes to the Electric Coin Company (through the Bootstrap Project), the Zcash Foundation, and Major Grants, which supports independent work.
 
-Je, bado unaweza kutumia fedha katika shina pool? Ndiyo. Unaweza bado kuondoa fedha ambazo tayari ni katika Shina. Huwezi tu kuongeza thamani mpya ndani yake baada ya Canopy.
+Je, bado ninaweza kutumia pesa katika bwawa Sprout ? Ndiyo. Bado unaweza kutoa pesa ambazo tayari ziko katika Sprout. Huwezi kuongeza thamani mpya ndani yake baada ya Canopy.
 
 Je, Mfuko wa Maendeleo ni wa kudumu? La. Ulikuwa umepangwa kuendesha kwa miaka minne, kutoka nusu ya kwanza mnamo Novemba 2020 hadi nusu ya pili mnamo 2024, ikitoa wakati wa jamii kuona jinsi inavyofanya kazi kabla ya kuiangalia tena.
 
@@ -89,7 +89,7 @@ Msingi wa mwanzilishi zawadi ilikuwa imepangwa mwisho katika kwanza halving. Bil
 
 [ZIP 214: Kanuni za makubaliano kwa ajili ya Mfuko wa Maendeleo Zcash](https://zips.z.cash/zip-0214)
 
-[ZIP 211: Disabling Kuongeza ya thamani mpya kwa Chipukizi Chain Thamani Pool](https://zips.z.cash/zip-0211)
+[ZIP 211: Kuzima Uongezaji wa Thamani Mpya kwenye Kikosi cha Thamani cha Mnyororo wa Sprout](https://zips.z.cash/zip-0211)
 
 [Canopy Network Upgrade (Upakuaji wa Mtandao)](https://z.cash/upgrade/canopy/)
 

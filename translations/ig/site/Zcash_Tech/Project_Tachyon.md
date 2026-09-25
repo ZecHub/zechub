@@ -93,15 +93,15 @@ A na-ahụ ọrụ ndị metụtara ya. [Zakura](https://zechub.wiki/zcash-tech/
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. Ihe ọ pụtara.
+| Oge okwu | Ihe ọ pụtara |
 |---|---|
-◯ Nnyocha nkewapụta. ▪ Ịgbalị ịwepụ ihe ndị ahụ e dere ede otu n'otu iji chọta ndị a gwara gị okwu ha.
- Nhazi nzuzo nke bandị. Ịdebe ihe omimi ịkwụ ụgwọ n'ime azụmahịa ahụ na blockchain, dịka Zcash si eme taa.
-◯ Nkwụ ụgwọ na-abụghị nke bandị. Ịgafe nkọwa ịkwụ ụgwọ kpọmkwem n'etiti onye zitere ya na onye natara ya kama ịga site na agbụ ígwè ahụ.
-◯ Oblivious synchronization. Ịnweta data nke usoro ihe eji eme ego na-achọ n'ekwughị ozi a rịọrọ ya.
-DATA nke na-ebu ihe akaebe (PCD) Data nke na -agagharị n'ihe akaebe maka izi ezi ya, ka enwere ike ijikọ ma jikọta ihe aka ebe a.
-◯ Nchịkọta azụmahịa echekwara echebe. Ụzọ Tachyon si ejikọta mgbanwe ọnọdụ e chebere, na-agbanwe ụzọ ha si ekwurịta okwu ma bịanye aka n'akwụkwọ.
-◯ akwụkwọ ndekọ enweghị ike ịmata ọdịiche. Ihe onwunwe nke kpuchiri azụmahịa apụghị ịkọwa n'etiti ibe ya.
+| Nkọwapụta nnwale | Ịnwa ịchọpụta azụmahịa otu otu iji chọta ndị e zigara gị |
+| Nkesa nzuzo n'ime otu egwu | Itinye nzuzo ịkwụ ụgwọ n'ime azụmahịa ahụ na blockchain, dịka Zcash si eme taa |
+| Ịkwụ ụgwọ n'èzí | Ịnyefe nkọwa ịkwụ ụgwọ ozugbo n'etiti onye zitere na onye nnata kama site na yinye ahụ |
+| Mmekọrịta amaghị ama | Ịchọta data yinye nke obere akpa chọrọ n'ekpugheghị data achọrọ |
+| Data na-ebu ihe akaebe (PCD) | Data nke na-agagharị na ihe akaebe nke izi ezi nke ya, ka e wee nwee ike ijikọta ma tinye ihe akaebe |
+| Nchịkọta azụmahịa echekwara | Ụzọ Tachyon si ejikọta mgbanwe steeti echekwara, na-agbanwe otu esi ekwurịta okwu ma bịanye aka na ha |
+| enweghị ike ịmata ọdịiche dị n'etiti akwụkwọ ndekọ ego | Enweghị ike ịkọwa ihe onwunwe nke kpuchiri azụmahịa dị iche na ibe ya |
 
 <br/>
 

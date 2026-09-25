@@ -1,7 +1,7 @@
 # Elliptic Curves: Ambapo Zcash ya funguo na ahadi ni kuzaliwa
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](/content-images/image-10-c1097b22d7.webp)
+! ![ alt maandishi](/content-images/image-10-c1097b22d7.webp)
 
 ### Barabara yenye mwendo mmoja iliyojengwa kutoka kwa sehemu zilizo kwenye mviringo
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Juu ya nambari za kawaida inaonekana kama mviringo laini, unaoanguka, mara nyingi na kitanzi kilichokunjwa na mikia miwili:
 
-! [ alt maandishi](/content-images/image-14-1d2e8c25d2.webp)
+! ![ alt maandishi](/content-images/image-14-1d2e8c25d2.webp)
 
 The genuinely surprising part: **you can "add" two points on this curve to get a third point on the same curve.** This isn't ordinary addition of coordinates. It's a geometric rule, and it's easier to *see* than to say.
 
@@ -50,7 +50,7 @@ Kuongeza `P + Q`:
 2. Mstari huo hits curve katika hasa sehemu moja zaidi. `R*`.
 3. **Kutafakari `R*` katika mhimili wa usawa.** kwamba reflection ni jibu, `P + Q`.
 
-! [ alt maandishi](/content-images/image-11-61f3df1989.webp)
+! ![ alt maandishi](/content-images/image-11-61f3df1989.webp)
 
 ### Kanuni ya tangent (kuongeza uhakika kwa yenyewe)
 
@@ -84,7 +84,7 @@ Chukua `y^2 = x^3 + 2x + 2` juu ya uwanja wa mwisho `F_17`. Kuhesabu kila uhakik
 
 Sasa chagua uhakika `G = (5, 1)` Angalia nini kinatokea (kila mstari hapa chini umehesabiwa, haukugunduliwa):
 
-Hatua. Kituo. Hatua-kituo.
+| Hatua | Pointi | Hatua | Pointi |
 |---|---|---|---|
 | `1G` | (5, 1) | `11G` | (13, 10) |
 | `2G` | (6, 3) | `12G` | (0, 11) |
@@ -94,7 +94,7 @@ Hatua. Kituo. Hatua-kituo.
 | `6G` | (16, 13) | `16G` | (10, 11) |
 | `7G` | (0, 6) | `17G` | (6, 14) |
 | `8G` | (13, 7) | `18G` | (5, 16) |
-| `9G` | (7, 6) | `19G` **O (Infinity) **
+| `9G` | (7, 6) | `19G` | **O (isiyo na kikomo)** |
 | `10G` | (7, 11) | | |
 
 Mambo mawili ya kuzingatia:
@@ -110,14 +110,14 @@ Hiyo meza ya `1G, 2G, 3G, ...` ni moyo wa kila kitu. mara kwa mara kuongeza hatu
 
 Sasa uchawi. Fikiria mwelekeo mbili:
 
-Mwongozo Swali Ugumu
+| Mwelekeo | Swali | Ugumu |
 |---|---|---|
-**Kupita mbele**. `k` na `G`, hesabu `kG` Hata kwa astronomically kubwa `k`, mbinu inayoitwa *double-na-kuongeza* anapata huko katika hatua mia chache.
-** Nyuma ** Given `G` na `kG`, kupona `k` ** Kwa kweli haiwezekani ** kwenye curve halisi ya cryptographic.
+| **Washambuliaji** | Imetolewa `k` na `G`hesabu `kG` | **Rahisi.** Hata kwa ukubwa wa anga `k`, hila inayoitwa *double-and-add* inafika hapo kwa hatua mia chache |
+| **Kurudi Nyuma** | Imetolewa `G` na `kG`, kupona `k` | **Haiwezekani** kwenye mkunjo halisi wa kriptografia |
 
 Kwamba asymmetry ni ** moja ya njia ya barabara ** sisi zinahitajika katika Sehemu 1. nyuma tatizo ("ambayo `k` alitengeneza hatua hii?") inaitwa ** Elliptic Curve Discrete Logarithm Problem (ECDLP) **, na kwenye curves Zcash hutumia, hakuna njia inayojulikana inayotatua kabla ya kifo cha joto cha ulimwengu.
 
-! [ alt maandishi](/content-images/image-12-86b9ace6cb.webp)
+! ![ alt maandishi](/content-images/image-12-86b9ace6cb.webp)
 
 > Katika toy yetu `F_17` curve wewe *could* tu kusoma `k` mbali meza, kwa sababu ina pointi 19 tu. curves halisi kuwa karibu `2^(255)` Meza itakuwa na safu zaidi kuliko kuna atomu katika ulimwengu, hivyo "kusoma ni mbali" si chaguo. ndogo ni nini hufanya toy curve kufundishwa na pia kwa nini si salama.
 
@@ -153,14 +153,14 @@ Mali ya ziada inageuka kuwa bila bei baadaye: ahadi hizi ** kuongeza up **. `v_1
 
 Alama za vidole ni thabiti na zinaweza kuchunguzwa.
 
-Zcash design. Curves it uses. Role.
+| Ubunifu wa Zcash | Mikunjo inayotumia | Jukumu |
 |---|---|---|
 | **Sapling** (older) | **BLS12-381** plus an embedded curve called **Jubjub** | BLS12-381 carries the proof system; Jubjub is built over BLS12-381's scalar field so that key and commitment operations are cheap to perform *inside* a zero-knowledge proof |
-**Orchard** (sasa) **Pallas** na **Vesta** (mzunguko wa "Pasta") Pallas hubeba funguo na ahadi za Orchard; Pallas / Vesta jozi imepangwa mahsusi kufanya uthibitisho wa hali ya juu ufanisi.
+| **Orchard** (ya sasa) | **Pallas** na **Vesta** (mzunguko wa "Pasta") | Pallas hubeba funguo na ahadi Orchard's ; uunganishaji wa Pallas/Vesta umepangwa maalum ili kufanya uthibitishaji wa hali ya juu uwe mzuri |
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 
-! [ alt maandishi](/content-images/image-13-ffdd703c60.webp)
+! ![ alt maandishi](/content-images/image-13-ffdd703c60.webp)
 
 ---
 
@@ -183,15 +183,15 @@ Baadhi ya kurahisisha kuweka hii kusoma. Sisi kutumika ** short Weierstrass ** f
 
 ## Orodha ya maneno
 
-Neno. Maana ya Kiingereza ya kawaida.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-Pointi kuridhisha `y^2 = x^3 + ax + b`, na maalum "kuongeza" ya pointi.
-Sheria ya chord-na-tangent: mstari kupitia pointi mbili, kuchukua hit ya tatu, kutafakari.
-** Pointi katika infinity (`O`) **. Curve ni "zero"; kuongeza ni mabadiliko chochote.
-** Jenereta (`G`) **. A msingi uhakika ambao mara nyingi hatimaye kufunika kundi zima.
-** Scalar kuzidisha (`kG`Kuongeza `G` yenyewe `k` nyakati; rahisi mbele, vigumu kurudi nyuma.
-** ECDLP ** tatizo ngumu ya kufufua `k` kutoka `kG`; msingi wa usalama.
-"Ujitoleaji wa kusamehewa" `v.G + r.H`; bahasha iliyofungwa ambayo huficha, hufunga, na kuongeza
+| **Mkunjo wa mviringo** | Pointi zinazoridhisha `y^2 = x^3 + ax + b`, pamoja na "nyongeza" maalum ya pointi |
+| **Ongeza pointi** | Sheria ya gumzo na mchanganyiko: piga mstari kupitia pointi mbili, piga hitilafu ya tatu, tafakari |
+| **Elekeza katika kutokuwa na mwisho (`O`)** | "Sufuri" ya mkunjo; kuiongeza hakubadilishi chochote |
+| **Jenereta (`G`)** | Sehemu ya msingi ambayo vizidisho vyake hatimaye hufunika kundi zima |
+| **Kuzidisha kwa kiwango kikubwa (`kG`)** | Kuongeza `G` yenyewe `k` nyakati; kusonga mbele kwa urahisi, vigumu kurudi nyuma |
+| **ECDLP** | Tatizo gumu la kupona `k` kutoka `kG`; msingi wa usalama |
+| **Kujitolea kwa Pedersen** | `v.G + r.H`bahasha iliyofungwa ambayo huficha, hufunga, na kuongeza ukubwa |
 
 ---
 

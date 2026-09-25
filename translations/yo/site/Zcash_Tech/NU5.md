@@ -47,14 +47,14 @@ NU5 tẹsiwaju awọn igbesoke Zcash ti iṣaaju: Overwinter, Sapling, Blossom, 
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
- Network upgrade (NU)  Aṣayan iyipada ti a ṣepọ si awọn ofin ifọkanbalẹ Zcash, ti o ṣiṣẹ ni giga bulọọki ṣeto.
- Orchard. Ìlé ìwẹ̀ tí a fi ààbò ṣe, èyí ti NU5 gbé kalẹ̀ lórí ètò ìdánwò Halo 2.
-Halo 2 Àmì ètò tí ó wà lẹ́yìn Orchard èyí kò nílò ìmúrasílẹ̀ tó ṣeé gbára lé.
-ìdásílẹ̀ tí a fọkàn tán. Àjọṣe kan ṣoṣo tó ń ṣe àwọn ìlànà ìpamọ́ adágún omi, ó sì gbọ́dọ̀ ṣeé gbára lé láti pa wọ́n run.
- Adirẹsi ti o ṣọkan Aṣayan kan ṣoṣo tí ó le kó àwọn olùgba fún ju ìdìpò̀-ìpín lọ (ZIP 316)
-☐ Idì ẹ̀ka ìfọwọ́sowọ́pọ̀ (consensus branch id) ☐ Àmì ìdánimọ tí ó ń sàmọ̀nà sí ìlànà ti ìṣòwò kan jẹ́ tirẹ̀.
+| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's , tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Orchard | Adágún adágún NU5 tí a fi ààbò ṣe, tí a kọ́ sórí ètò ìṣàfihàn Halo 2 |
+| Halo 2 | Ètò ìṣàfihàn lẹ́yìn Orchard tí kò nílò ètò ìgbẹ́kẹ̀lé |
+| Eto ti a gbẹkẹle | Ayẹyẹ ìgbà kan ṣoṣo tí ó ṣe àwọn àṣírí ìkọ̀kọ̀ adágún kan tí a sì gbọ́dọ̀ gbẹ́kẹ̀lé láti pa wọ́n run |
+| Àdírẹ́sì ìṣọ̀kan | Àdírẹ́sì kan ṣoṣo tó lè kó àwọn olùgbà jọ fún ju adágún kan lọ (ZIP 316) |
+| ID ẹka Consensus | Àmì ìdámọ̀ tí ó ń fi àmì sí àwọn òfin tí ìṣòwò kan jẹ́ ti |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 

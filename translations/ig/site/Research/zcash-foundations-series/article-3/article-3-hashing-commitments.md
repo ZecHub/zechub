@@ -1,7 +1,7 @@
 # Nkọwapụta na Nkwekọrịta: Envelopu E Ji Ime Anwansi Mechie
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-15-0c16784b27.webp)
+! ![Alt ederede](/content-images/image-15-0c16784b27.webp)
 
 ### Otu esi emechi ihe nzuzo n'ihu ọha ma ghara inwe ike ịgha ụgha banyere ya
 
@@ -30,16 +30,16 @@ This "lock now, reveal later, no lying" gadget is called a **commitment**, and i
 
 A **hash function** takes any data at all, a single letter or an entire library, and crushes it down to a short, fixed-size string called a **digest** or **hash**. Think of it as a **fingerprint for data.**
 
-! [Alt ederede](/content-images/image-16-52fdf62c87.webp)
+! ![Alt ederede](/content-images/image-16-52fdf62c87.webp)
 
 Ezigbo mkpisiaka mkpisi aka nwere njirimara anọ. Were ha dịka ihe omimi, ọ bụghị nha anya:
 
-◯ Ihe onwunwe ◯ Nkọwa doro anya ◯ Gịnị mere o ji dị mkpa
+| Akụ na ụba | Nkọwa doro anya | Ihe mere o ji dị mkpa |
 |---|---|---|
-**Deterministic** Otu ntinye na-enye otu akara mkpịsị aka mgbe niile. Ị nwere ike ịlele akara aka n'oge ọ bụla.
-**Fast forward** Mgbakọ mkpịsị aka dị ngwa. Ọ bara uru iji ebe niile.
-** One-way (preimage resistant) ** Given a fingerprint, you can't find the input that made it. Ọ na-ezochi data mbụ.
-Ị pụghị ịchọta ihe ntinye abụọ dị iche iche nwere otu akara mkpịsị aka. Ọ dịghị onye nwere ike ịgha ụgha.
+| **Dịka a kapịrị ọnụ** | Otu ntinye ahụ na-enye otu akara mkpisi aka ahụ mgbe niile | Ị nwere ike ịlele mkpisi aka ọzọ oge ọ bụla |
+| **Ọsọ ọsọ ọsọ** | Ịgbakọ akara mkpisiaka dị ngwa ngwa | A na-eji ya ebe niile |
+| **Otu ụzọ (na-eguzogide onyonyo mbụ)** | Ebe ọ bụ na e nyere gị akara mkpịsị aka, ị gaghị ahụ ihe e tinyere na ya | Na-ezochi data mbụ |
+| **Na-eguzogide nkukọ** | Ị gaghị ahụ ntinye abụọ dị iche iche nwere otu mkpisi aka | Ọ dịghị onye nwere ike inwe mmekọrịta |
 
 Na omume ọzọ na-eme ka mkpịsị aka dị ka anwansi:
 
@@ -69,7 +69,7 @@ Ihe ngwọta ya bụ otu okwu: **randomness.**
 
 Ugbu a otu ihe ahụ `v` na-emepụta a dị iche iche na-achọ nkwa oge ọ bụla, n'ihi na `r` ihe abụọ anyị chọrọ n'ikpeazụ ma jide:
 
-! [Alt ederede](/content-images/image-17-3ec4617665.webp)
+! ![Alt ederede](/content-images/image-17-3ec4617665.webp)
 
 Iji **meghee** (gosi) nkwa ahụ mgbe e mesịrị, ị na-ebipụta `v` na `r`; onye ọ bụla recalculates `H(v, r)` ọ na-enyocha ma ọ dabara. Ị kpọchiri gị. Nke ahụ bụ envelopu ahụ e ji anwansi mechie nke si n'Akwụkwọ 0, nke e mere ka ọ dị adị.
 
@@ -81,12 +81,12 @@ Iji **meghee** (gosi) nkwa ahụ mgbe e mesịrị, ị na-ebipụta `v` na `r`;
 
 E nwere usoro abụọ a na-ahụkarị, Zcash na-ejikwa ha abụọ.
 
-∙∙∙ **Nkwekọrịta dabere na hash** ∙••Pedersen commitment** (site na Nkeji edemede 2)
+| | **Nkwa dabere na hash** | **Nkwa Pedersen** (site na Isiokwu nke 2) |
 |---|---|---|
-Ntụziaka. `H(v, r)` | `v.G + r.H` (na-egosi na a usoro)
-Ịzobe onwe gị pụọ n'ihe ndị na-eme na mberede `r` ◯ ihe ndị na-eme na mberede `r` |
-❖ Ikekọta site na ❖ ihe na-eguzogide mgbagwoju anya ❖ ọnụ ụzọ ọnyà elliptic-curve trapdoor (ECDLP)
-◯ Ike pụrụ iche ◯ Ihe dị mfe na ngwa ngwa ◯ Mgbalị ndị e mere iji gbakọta ọnụ ◯ (homomorphic)
+| Ntụziaka nri | `H(v, r)` | `v.G + r.H` (isi na mgbagọ) |
+| Na-ezo site na | ihe na-enweghị usoro `r` | ihe na-enweghị usoro `r` |
+| Njikọta site na | iguzogide nkukota | Ụzọ ọnyà nke nwere akụkụ elliptic-curve (ECDLP) |
+| Ike pụrụ iche | dị mfe ma dị ngwa | nkwa ndị ahụ **gbakọọ** (homomorphic) |
 
 Ahịrị ikpeazụ ahụ bụ ihe mere Pedersen ji eme ihe dị mkpa na Zcash. `commit(v_1) + commit(v_2)` bụ ezigbo `commit(v_1 + v_2)`, the protocol can later prove that **money in equals money out** by adding commitments together, all without revealing a single amount. We're stockpiling that fact for Article 6.
 
@@ -100,7 +100,7 @@ SHA-256 is a superb fingerprint for everyday computing. But Zcash doesn't just *
 
 Ya mere, ndị na-emepụta Zcash chepụtara ọrụ hash nke dị n'ime ya bụ * ugbua * ubi arithmetic, na-eme ka ha dị ọnụ ala iji gosipụta:
 
-! [Alt ederede](/content-images/image-18-89ade807ad.webp)
+! ![Alt ederede](/content-images/image-18-89ade807ad.webp)
 
 Nrụgide injinịa a, * "ọ ga-abụrịrị ọnụ ala iji gosipụta",* bụ ihe mere Zcash ji mepụta ma nakweere ọrụ hash pụrụ iche kama iru SHA-256 ebe niile.
 
@@ -110,10 +110,10 @@ Nrụgide injinịa a, * "ọ ga-abụrịrị ọnụ ala iji gosipụta",* b�
 
 Zcash ejirila hashes dị iche iche n'ime atụmatụ ya, nke ọ bụla ahọpụtara maka ọrụ ahụ:
 
- Ọdịdị  Hashes eji  Ebe 
+| Nhazi | Ejiri hashes mee ihe | Ebee |
 |---|---|---|
-**Sprout** (nke mbụ) **SHA-256** Nkọwa nkwekọrịta na osisi
-**Sapling** **Pedersen hashes**, gbakwunyere **BLAKE2**. Pedersen maka nkwekọrịta ndetu na osisi Merkle; BLAKE 2 maka isi mmalite na nullifiers
+| **Sprout** (nke mbụ) | **SHA-256** | Rịba ama nkwa na osisi ahụ |
+| **Sapling** | ** Pedersen hashes ***, gbakwunyere ** BLAKE2 *** | Pedersen maka nkwa ndetu na osisi Merkle; BLAKE2 maka ihe ndị dị mkpa na ihe ndị na-emebi ihe |
 | **Orchard** (current) | **Sinsemilla**, plus **Poseidon** | Sinsemilla for note commitments and the Merkle tree; Poseidon for the nullifier, all designed for arithmetic circuits |
 
 The names to recognize are **Pedersen** and **Sinsemilla** (commitment-style hashes built from curve points, so they inherit the "adds up" superpower and prove cheaply) and **Poseidon** (a field-arithmetic hash purpose-built for zero-knowledge circuits). When Article 0 said a note's contents are sealed into a commitment, *this* is the machinery doing the sealing.
@@ -140,16 +140,16 @@ Anyị mere ka ihe dị mfe iji mee ka ihe doo anya. `v` na `r` are encoded and 
 
 ## Okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara.
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-** Ọrụ hash ** na-agbaji data ọ bụla n'ime obere mkpịsị aka (digest)
-**Digest** Ihe mkpịsị aka mmepụta nke ọrụ hash.
-** Preimage resistance ** Enweghi ike ịlaghachi nchịkọta azụ na ntinye ya (otu ụzọ)
-** Mgbagha mgbagha ** Enweghi ike ịchọta ntinye abụọ na otu nchịkọta.
-** Avalanche mmetụta ** Obere mgbanwe ntinye na-agbanwe kpamkpam digest.
-**Nkwekọrịta** Lock a value now, reveal later, cannot lie about it.
-Ihe na-eme ka mmadụ kpuo ìsì`r`) **. Nọmba ọhụrụ na-enweghị usoro nke na-eme ka nkwa ahụ zoo.
-** ZK-enyi na enyi hash ** A hash wuru si ubi mgbakọ na mwepụ n'ihi ya, ọ bụ ọnụ ala na-egosi
+| **Ọrụ Hash** | Na-agweri data ọ bụla ka ọ bụrụ obere mkpịsị aka a kapịrị ọnụ (gbakọọ) |
+| **Nchịkọta** | Mkpisiaka mmepụta nke ọrụ hash |
+| **Nguzogide onyonyo mbụ** | Enweghị ike ịtụgharị nchịkọta azụ na ntinye ya (otu ụzọ) |
+| **Nguzogide nkukota** | Enweghị ike ịchọta ntinye abụọ nwere otu nchịkọta akụkọ |
+| **Mmetụta oké ifufe** | Obere mgbanwe ntinye na-agbanwe mgbanwe ahụ kpamkpam |
+| **Nkwanye ugwu** | Kpọchie uru ugbu a, kpughee ma emechaa, enweghị m ike ịgha ụgha gbasara ya |
+| **Ihe na-akpata ìsì (`r`)** | Nọmba ọhụrụ a na-enweghị usoro nke na-ezochi nkwa |
+| **Hash dị mfe maka ZK** | Hash e ji mgbakọ na mwepụ ubi rụọ, ya mere ọ dị ọnụ ala igosi |
 
 ---
 

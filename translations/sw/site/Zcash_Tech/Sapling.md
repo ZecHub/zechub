@@ -38,14 +38,14 @@ Sapling followed Overwinter, the June 2018 upgrade that prepared the network's u
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-"Shirikisho la kulindwa" ni shughuli ya Zcash binafsi ambayo huficha mtumaji, mpokeaji na kiasi.
-Sprout. awali ulinzi itifaki Zcash ilizinduliwa na, polepole zaidi na nzito kuliko Sapling.
-❖ Matumizi na pato mzunguko. mbili mpya Sapling kuthibitisha mizunguko ambayo kubadilishwa Sprout ya moja JoinSplit circuit.
-Anwani ya Diversified. Moja ya anwani nyingi unlinkable malipo unaweza kupata kutoka ufunguo mmoja.
----- ufunguo wa kuangalia. Ufunguo ambao unamruhusu mtu kuona shughuli za mkoba bila kuwa na uwezo wa kutumia kutoka kwake.
-◯ Id ya tawi la makubaliano. Kifupi cha nambari ambayo inaambia mtandao ambao upgrades sheria shughuli kufuata.
+| Muamala uliolindwa | Muamala wa kibinafsi Zcash unaoficha mtumaji, mpokeaji, na kiasi. |
+| Sprout | Itifaki ya awali iliyolindwa Zcash ilizinduliwa na, polepole na nzito kuliko Sapling. |
+| Saketi za Matumizi na Toa | Saketi mbili mpya zinazothibitisha Sapling zilizochukua nafasi ya saketi moja Sprout's ya JoinSplit. |
+| Anwani iliyochanganywa | Mojawapo ya anwani nyingi za malipo ambazo haziwezi kuunganishwa unazoweza kupata kutoka kwa ufunguo mmoja. |
+| Ufunguo wa kutazama | Ufunguo unaomruhusu mtu kuona miamala ya pochi bila kuweza kutumia pesa kutoka kwayo. |
+| Kitambulisho cha tawi la makubaliano | Nambari fupi inayoelezea mtandao sheria za uboreshaji ambazo muamala unafuata. |
 
 ## FAQs
 

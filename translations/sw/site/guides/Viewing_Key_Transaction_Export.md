@@ -126,16 +126,16 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ### Kusoma pato
 
-Uwanja. Maana yake ni...
+| Uwanja | Maana |
 |---|---|
-| `value` ☐ Malipo ya fedha kwa akaunti katika ZEC, pamoja na ada. Negative for sends.  Si lazima uwekeze pesa zako kwenye benki nyingine yoyote ili kupata mikopo zaidi kutoka Benki hiyo; au
-| `fee` ◯ Malipo katika ZEC. Kwa malipo uliyopokea, mtumaji kulipwa na si ni katika `value`. |
-| `time` ◯ Kuzuia wakati katika UTC, bila alama ya eneo la saa.
-| `notes` ◯ Nini akaunti kupokea katika shughuli hii, ikiwa ni pamoja na mabadiliko. memo alimtuma wewe hapa. viingilio uwazi hawana anwani. ❖️
-| `spends` Akaunti ya maelezo mwenyewe kwamba shughuli hii kutumika up.
-| `outputs` Nini shughuli alimtuma nje: kila pato uwazi, pamoja na malipo shielded kwa anwani nyingine na memos yao.
+| `value` | Mabadiliko halisi kwenye akaunti katika ZEC, ada imejumuishwa. Hasi kwa utumaji. |
+| `fee` | Ada katika ZEC. Kwa malipo uliyopokea, mtumaji alilipa na hayapo `value`. |
+| `time` | Muda wa kuzuia katika UTC, bila alama ya eneo la saa |
+| `notes` | Akaunti ilipokea kiasi gani katika muamala huu, ikijumuisha chenji. Memo zilizotumwa kwako ziko hapa. Maingizo ya uwazi hayana anwani. |
+| `spends` | Akaunti yenyewe inabainisha kuwa muamala huu ulitumia |
+| `outputs` | Muamala ulituma nini: kila matokeo ya uwazi, pamoja na malipo yaliyolindwa kwa anwani zingine zenye memo zao |
 | `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope` ◯ 0 nje (malipo ndani), 1 ndani (mabadiliko) ▸
+| `scope` | 0 ya nje (malipo ya ndani), 1 ya ndani (chenji) |
 
 Zkool programu pia ina Export Transactions, Memos na Notes katika orodha ya akaunti, lakini wale ni mbichi meza Dumps: kiasi katika zatoshis, Unix timestamps, na memos katika faili tofauti.
 
@@ -200,13 +200,13 @@ ya dismad's [msaidizi wa tangazo la habari](https://github.com/dismad/zingoHelpe
 
 ## Vifaa vingine
 
-Vifaa. Unachopata.
+| Zana | Unachopata |
 |---|---|
-ZODL: CSV ya kodi na tarehe, kiasi cha fedha, ada na tag. mwaka uliopita wa kalenda tu, hupita shughuli za ulinzi, hakuna txid, memo au anwani.
-Zkool programu. Raw meza mauzo kutoka orodha ya akaunti.
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) DATA: Inasafirisha UFVK na `importvk`. `listreceived` juu ya kurudi RPC kupokea maelezo na txid na memo, lakini hakuna kutuma na hakuna ada.
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` ni kina lakini alama majaribio, na Zallet tu mauzo Sapling viewing funguo, si UFVKs.
-| [zcash-devtool](https://github.com/zcash/zcash-devtool) DATA: Inasafirisha UFVK na `wallet init-fvk`, basi `wallet list-tx`CSV yake mode hana txid au anwani, na mradi anasema si kuitumia katika uzalishaji. .
+| ZODL | CSV ya Ushuru yenye tarehe, kiasi, ada na lebo. Mwaka uliopita wa kalenda pekee, huacha miamala ya ulinzi, hakuna txid, memo au anwani. |
+| Programu Zkool | Usafirishaji wa jedwali ghafi kutoka kwenye menyu ya akaunti |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Huingiza UFVK na `importvk`. `listreceived` Marejesho ya noti zilizopokelewa zenye txid na memo, lakini hakuna utumaji na ada. |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` imefafanuliwa kwa undani lakini imetiwa alama ya majaribio, na Zallet huingiza funguo za kutazama Sapling pekee, si UFVK |
+| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Huingiza UFVK na `wallet init-fvk`, kisha `wallet list-tx`Hali yake ya CSV haina txid au anwani, na mradi unasema isitumike katika uzalishaji. |
 
 ## Kuhusiana na hilo
 

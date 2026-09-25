@@ -1,7 +1,7 @@
 # Jinsi Usafirishaji wa Zcash Unavyofanya Kazi
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](/content-images/image-fedc371488.webp)
+! ![ alt maandishi](/content-images/image-fedc371488.webp)
 
 ### Intuition kabla ya hesabu: hakuna-formula kutembea kwa njia ya malipo binafsi
 
@@ -35,18 +35,18 @@ Kutatua hiyo paradox ni hadithi nzima ya mfululizo huu. Hebu kuanza.
 
 Kabla ya kitu kingine chochote, eleza dhana potofu ya kawaida: ** Zcash sio "sarafu ya kibinafsi. " Ni sarafu ambayo inatoa faragha kama chaguo.** Kwa kweli ilianza maisha kama uma wa Bitcoin, na inabeba mifumo miwili sambamba kwenye blockchain moja.
 
-♬ Dunia ya uwazi ♬ ♬ Ulimwengu wenye ulinzi ♬
+| | **Ulimwengu wa uwazi** | **Ulimwengu uliolindwa** |
 |---|---|---|
-Faragha. Umma, kama Bitcoin. Kibinafsi.
-Anwani huanza na... `t...` | `z...` or `u...` |
-Mtumaji / mpokeaji / kiasi. ** Inaonekana ** kwa kila mtu. ** Siri ** kutoka kila mtu
-Teknolojia ya msingi, kitabu cha umma cha Bitcoin-style, ahadi za cryptographic + uthibitisho wa ujuzi wa sifuri.
+| Faragha | Umma, kama vile Bitcoin | Privat |
+| Anwani huanza na | `t...` | `z...` or `u...` |
+| Mtumaji/mpokeaji/kiasi | **Inaonekana** kwa kila mtu | **Imefichwa** kutoka kwa kila mtu |
+| Teknolojia ya msingi | Kitabu cha umma cha mtindo wa Bitcoin | Ahadi za kidijitali + uthibitisho wa kutojua chochote |
 
 Fedha inaweza hata kuvuka mpaka kati yao: kuhamisha fedha * katika * ulimwengu ulinzi inaitwa * kulinda *, na kuihamisha tena ni * unshielding *.
 
 Ulimwengu wa uwazi ni "Bitcoin tayari unaelewa kwa kiasi kikubwa. " Ni ** ulimwengu ulinzi ** ambayo ina cryptography zote nzuri, na kwamba ni dunia tu mfululizo huu anajali kuhusu.
 
-! [ alt maandishi](/content-images/image-1-f821d24c6f.webp)
+! ![ alt maandishi](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
@@ -72,13 +72,13 @@ Sasa hebu tuwape wale viungo majina yao halisi.
 
 Maneno haya matano ni msamiati mzima wa Zcash kulindwa. Jifunze kama * hadithi *, si kama msamiato, na wao itakuwa fimbo.
 
-Katika hadithi. Real Zcash neno. Nini ni kweli.
+| Katika hadithi | Muhula halisi Zcash | Ni nini hasa |
 |---|---|---|
- Yaliyomo kwenye bahasha (kiasi + mmiliki + siri)  **Kumbuka**  "sarafu" ya kibinafsi: kipande cha thamani inayomilikiwa na mtu.
-Muhuri uliofungwa, usio wazi kwenye ubao. Muhuri wa kisiri unaothibitisha kuwepo kwa bahasha huku ukificha yaliyomo ndani.
-Bodi ya matangazo yenyewe ** mti wa kujitolea wa maelezo ** rekodi ya kiambatisho tu ya * kila maelezo yaliyowahi kuundwa *
-Alama ya tupu katika "kutumia" bin. ** Nullifier **. alama ya kipekee maana "note hii sasa imetumika".
-"Baada ya pazia" uchawi. ** Zero-ujuzi uthibitisho **. Ushahidi kwamba matumizi yote ni halali, kufunua hakuna wa hayo.
+| Yaliyomo kwenye bahasha (kiasi + mmiliki + siri) | **Dokezo** | "Sarafu" ya kibinafsi: kipande cha thamani kinachomilikiwa na mtu |
+| Bahasha iliyofungwa, isiyo na mwanga wowote ubaoni | **Ahadi ya Kumbuka** | Muhuri wa siri unaothibitisha bahasha ipo huku ukificha kilicho ndani |
+| Ubao wa matangazo wenyewe | **Mti wa ahadi ya kumbuka** | Rekodi ya nyongeza pekee ya *kila noti iliyowahi kuundwa* |
+| Tokeni tupu kwenye pipa la takataka "lililotumika" | **Kifuta null** | Alama ya kipekee inayomaanisha "noti hii sasa imetumika" |
+| Uchawi wa "nyuma ya pazia" | **Ushahidi wa kutojua** | Uthibitisho kwamba matumizi yote ni halali, bila kuonyesha yoyote kati yake |
 
 Kama unakumbuka kitu kingine chochote kutoka makala hii, kumbuka meza hii. Kila kitu ifuatavyo ni tu * kwa nini * kila kipande ina kuwa umbo njia ni.
 
@@ -124,7 +124,7 @@ The miracle is that the proof reveals **none** of those facts. Not the amount, n
 
 A note is *born*, it *lives* on the board, and eventually it *dies*, and crucially, its birth and its death look unrelated to anyone watching.
 
-! [ alt maandishi](/content-images/image-2-0eca0ea4f7.webp)
+! ![ alt maandishi](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
@@ -132,7 +132,7 @@ A note is *born*, it *lives* on the board, and eventually it *dies*, and crucial
 
 Hebu tuangalie Alice akimlipa Bob, na kila hatua ya umma na ya kibinafsi ikiwekwa alama.
 
-! [ alt maandishi](/content-images/image-4-7af0dfe795.webp)
+! ![ alt maandishi](/content-images/image-4-7af0dfe795.webp)
 
 Angalia asymmetry ambayo inafanya kazi ya faragha:
 
@@ -146,14 +146,14 @@ Angalia asymmetry ambayo inafanya kazi ya faragha:
 
 ## 8. Kile ambacho ulimwengu unaona dhidi ya kile kinachobaki kikifichwa
 
-Ukweli kuhusu malipo. Inaonekana kwa umma?
+| Ukweli kuhusu malipo | Inaonekana kwa umma? |
 |---|---|
-Hiyo * * ulinzi shughuli ilitokea. Ndiyo.
-- Kwamba alitii sheria zote (hakuna bandia, hakuna matumizi mara mbili) - Ndiyo (kupitia uthibitisho)
-Ni nani aliyetuma pesa hizo?
-**Who** alipokea. Siri.
-**Kiasi gani** kilipelekwa.
-Ni noti ipi iliyotumika mapema? Imefichwa.
+| Muamala huo *uliolindwa* ulitokea |  Ndiyo |
+| Kwamba ilitii sheria zote (hakuna kughushi, hakuna matumizi maradufu) |  Ndiyo (kupitia uthibitisho) |
+| **Nani** alituma pesa |  Imefichwa |
+| **Nani** aliipokea |  Imefichwa |
+| **Ni kiasi gani** kilitumwa |  Imefichwa |
+| **Ambayo** noti ya awali ilitumika |  Imefichwa |
 
 Hii ni azimio la utata kutoka Sehemu ya 1. umma kuthibitisha * sheria, * si * yaliyomo. * Ukaguzi na faragha kuacha mapigano, kwa sababu zero-ujuzi ushahidi utapata kuangalia zamani bila kugusa mwisho.
 
@@ -187,15 +187,15 @@ Maudhui mazuri ya elimu hupata uaminifu kwa kusema kile kilichopotea. Sehemu hii
 
 Kila "tutarudi kwa hili" hapo juu ni thread. Hapa ni ambapo kila mmoja anapata amefungwa:
 
-! [ alt maandishi](/content-images/image-29-27ef4636ff.webp)
+! ![ alt maandishi](/content-images/image-29-27ef4636ff.webp)
 
-◯ Mwisho wa makala hii. ◯ Maelezo ya kina.
+| Sehemu ya mwisho kutoka kwa makala haya | Ambapo imetatuliwa |
 |---|---|
-Jinsi gani bahasha iliyofungwa inaweza kufichwa * na * haiwezi kudanganywa?
-Makala 1 na 2: mashamba na curves.
-Makala ya 4: Merkle miti.
-Jinsi gani unaweza kuthibitisha kitu bila kufunua chochote? Kifungu cha 5: zero-maarifa uthibitisho.
-Jinsi gani vipande vyote vitano snap pamoja katika Zcash halisi? Makala 6: Shielded itifaki.
+| Bahasha iliyofungwa inawezaje kuficha na kutosameheka? | Kifungu cha 3: ahadi |
+| Funguo na mapishi ya siri hutoka wapi? | Makala 1 na 2: sehemu na mikunjo |
+| *"Ubao" ni nini hasa? | Kifungu cha 4: Miti ya Merkle |
+| Unawezaje kuthibitisha jambo bila kufichua chochote? | Kifungu cha 5: ushahidi wa kutojua chochote |
+| Vipande vyote vitano vinawezaje kuunganishwa pamoja katika Zcash? | Kifungu cha 6: itifaki iliyolindwa |
 
 ---
 
@@ -213,15 +213,15 @@ Sasa unashikilia ramani hiyo. Mfululizo unaobaki hujaza ramani.
 
 ## Orodha ya maneno
 
-Neno. Maana ya Kiingereza ya kawaida.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-** Kumbuka ** ** kitengo binafsi ya thamani, Zcash ni sawa na sarafu au muswada.
-** Nakala ya dhamana ** muhuri cryptographic kwamba inathibitisha noti ipo bila kufunua ni.
+| **Dokezo** | Kitengo cha thamani cha kibinafsi, sawa na sarafu au noti Zcash's |
+| **Ahadi ya Kumbuka** | Muhuri wa siri unaothibitisha kwamba noti ipo bila kuifichua |
 | **Note commitment tree** | The append-only public record of all note commitments |
-** Nullifier **. kipekee "matumizi" marker kuchapishwa wakati noti ni kutumika, kuzuia mara mbili matumizi.
-** Ushahidi wa ujuzi wa sifuri** Ushahidi kwamba taarifa ni ya kweli wakati haidhihirishi chochote zaidi ya ukweli wake.
-Kuhamisha fedha katika / nje ya ulimwengu binafsi shielded.
-** Kuangalia ufunguo ** Ufunguo kwamba inaruhusu mmiliki kugundua na kusoma maelezo kushughulikiwa kwao.
+| **Kifuta null** | Alama ya kipekee ya "kutumika" iliyochapishwa wakati noti inatumiwa, kuzuia matumizi mara mbili |
+| **Ushahidi wa kutojua** | Uthibitisho kwamba kauli ni kweli bila kufichua chochote zaidi ya ukweli wake |
+| **Kulinda/kuondoa** | Kuhamisha fedha kuingia/kutoka katika ulimwengu wa kibinafsi uliolindwa |
+| **Ufunguo wa kutazama** | Ufunguo unaomruhusu mmiliki kugundua na kusoma maelezo yaliyoelekezwa kwake |
 
 ---
 

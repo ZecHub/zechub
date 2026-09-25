@@ -29,7 +29,7 @@ Ndị nnọchi anya nwere nnwere onwe imepụta ihe n'ihe gbasara ihe omume ha n
 | Yukren| [Zcask Ukraine](https://x.com/Zcash_ua) | Yukren |
 | Naịjirịa | [Zcash Naịjirịa](https://x.com/ZcashNigeria) | Mmụta ndị mmepe, ntinye obodo |
 | Ọwụwa Anyanwụ Afrịka | [Zcash Ọwụwa Anyanwụ Afrịka](https://x.com/ZcashEastAfrica) | Mmụba obodo dị n'Ọwụwa Anyanwụ Afrịka na Uganda |
-| Saụt Afrịka [Zcash Saụt Afrịka](https://twitter.com/Zcash_SA) | Saụt Afrịka
+| South Africa | [Zcash Saụt Afrịka](https://twitter.com/Zcash_SA) | South Africa |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
 | Meksiko | [zcashqro](https://x.com/zcashqro) | Ntinye aka na mmepe mahadum |
 | Rọshịa | [ruZcash](https://x.com/ruZCASH) | Ọdịnaya na obodo asụsụ Rọshịa |

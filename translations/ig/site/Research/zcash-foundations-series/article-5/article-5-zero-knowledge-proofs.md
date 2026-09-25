@@ -1,7 +1,7 @@
 # Ihe Akaebe Na-enweghị Ihe Ọmụma: Igosi na I Kwere Eziokwu n'Ekwughị Ihe Mere I Ji Kwere
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-23-71534bece9.webp)
+! ![Alt ederede](/content-images/image-23-71534bece9.webp)
 
 ### Ihe mkpuchi nke na-eme ka ụwa hụ ihe ọ na-apụghị ịhụ
 
@@ -40,13 +40,13 @@ Akụkọ banyere ọgba ahụ na-egosi n'ụzọ dị jụụ ihe atọ a na-ag
 
 ## 3. Ihe nchebe atọ ahụ
 
-! [Alt ederede](/content-images/image-24-b559d31849.webp)
+! ![Alt ederede](/content-images/image-24-b559d31849.webp)
 
-Nkwado. N'akụkọ ọgba. Na Zcash.
+| Nkwa | N'akụkọ ọgba ahụ | Na Zcash |
 |---|---|---|
-Ọ bụrụ na ị maara okwu ahụ, ị na-apụ n'akụkụ aka nri mgbe niile.
-** Eziokwu ** A na-ejide onye na-egwu egwu na nnukwu ohere. Azụmahịa aghụghọ (ego adịgboroja, mmefu okpukpu abụọ) enweghị ike ịmepụta ihe akaebe a nabatara.
-** Zero-ihe ọmụma ** Onye na-enyocha anaghị anụ okwu nzuzo ahụ. netwọkụ anaghị amụta ego, adreesị, ma ọ bụ ihe edeturu.
+| **Mmezu** | Ọ bụrụ na ị maara okwu ahụ, ị na-apụ n'akụkụ aka nri mgbe niile | Azụmahịa dị irè na-emepụta ihe akaebe a nabatara mgbe niile |
+| **Ịdị mma** | A na-ejide bluffer na nnukwu ihe nwere ike ime | Azụmahịa aghụghọ (ego adịgboroja, mmefu okpukpu abụọ) enweghị ike imepụta ihe akaebe a nabatara |
+| **Ihe ọmụma efu** | Onye nyocha ahụ anaghị anụ okwu nzuzo ahụ | Netwọk ahụ anaghị amụta ọnụọgụgụ, adreesị, ma ọ bụ ndetu nke |
 
 If any one of these fails, the system breaks: no completeness and honest users get rejected; no soundness and forgers print money; no zero-knowledge and privacy evaporates.
 
@@ -62,7 +62,7 @@ The cave proves one cute fact. Zcash needs to prove a rich statement: *"I know a
 
 Think of the circuit as a list of arithmetic constraints that are *all satisfied only if the statement is true.* The private inputs that make everything check out, your note, your key, the Merkle path, are called the **witness.**
 
-! [Alt ederede](/content-images/image-25-2479377e43.webp)
+! ![Alt ederede](/content-images/image-25-2479377e43.webp)
 
 This is why we spent Article 1 on finite fields and Article 3 on ZK-friendly hashes: the circuit speaks field arithmetic, so every operation inside the statement (including hashing and the Merkle climb of Article 4) has to be expressed that way. The cheaper each operation is to express, the smaller and faster the proof.
 
@@ -90,7 +90,7 @@ There's no free lunch. Many SNARKs need a one-time **setup** that produces publi
 
 This leftover secret is nicknamed **toxic waste.** To dispose of it safely, Zcash ran elaborate **multi-party ceremonies** where many independent participants each contributed randomness; as long as *even one* destroyed their piece honestly, the toxic waste is unrecoverable.
 
-! [Alt ederede](/content-images/image-26-cdad6625cd.webp)
+! ![Alt ederede](/content-images/image-26-cdad6625cd.webp)
 
 Usoro ọhụrụ na-ewepụ ihe a chọrọ kpamkpam, nke bụ otu n'ime isi ihe mere Zcash ji mepụta usoro ihe akaebe ya n'oge.
 
@@ -98,11 +98,11 @@ Usoro ọhụrụ na-ewepụ ihe a chọrọ kpamkpam, nke bụ otu n'ime isi ih
 
 ## Ebe nke a bi na Zcash
 
-❑ Design ❑ Proof system ❑ Trusted setup? ❑ Built on ❑ Zụlite ihe ndị dị mkpa
+| Nhazi | Sistemụ ihe akaebe | Ntọala a tụkwasịrị obi? | E wuru ya na |
 |---|---|---|---|
-**Sprout** (nke mbụ) Early zk-SNARK Ee, emume mbụ
-**Sapling** **Groth16** Ee (multi-party "Ike nke Tau" + Sapling ememe) **BLS12-381** (Nkeji edemede 2)
-**Orchard** (nke dị ugbu a) **Halo 2** **Ọ dịghị ntọala a tụkwasịrị obi** **Pallas / Vesta** (Nkeji edemede 2)
+| **Sprout** (nke mbụ) | mmalite zk-SNARK | Ee | emume mbụ |
+| **Sapling** | **Uto nke 16** | Ee (emume "Ike nke Tau" nke ọtụtụ mmadụ na-eme + emume Sapling ) | **BLS12-381** (Isiokwu nke 2) |
+| **Orchard** (ugbu a) | **Halo 2** | **Enweghị ntọala a tụkwasịrị obi** | **Pallas / Vesta** (Isiokwu nke 2) |
 
 The march from Sprout to Sapling to Orchard is largely a story about proofs getting smaller, faster, and shedding the trusted setup. **Halo 2**, used by Orchard, needs no ceremony at all and is built to support *recursion* (proofs that verify other proofs), which is why Orchard uses the Pallas/Vesta **cycle** of curves from Article 2: each curve is tuned to verify proofs written over the other.
 
@@ -129,18 +129,18 @@ Zero-knowledge proofs are a deep field and we stayed at intuition level on purpo
 
 ## Okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara.
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-** Zero-knowledge proof ** Ikwenye na mmadụ okwu bụ eziokwu na-ekpughe ihe ọ bụla ọzọ.
-Onye na-eme ihe akaebe / onye na-enyocha ya.
-**Izu ezu** Eziokwu na-anabata mgbe niile (site n'aka onye na-ekwu eziokwu)
-◯ ** Eziokwu ◯ ◯ A na-ajụ nkwupụta ụgha (ndị aghụghọ apụghị imeri ma ọ bụrụ na ha enweghị obi ụtọ)
-Ihe nzuzo nke na-eme ka nkwupụta ahụ bụrụ eziokwu.
-** Arithmetic circuit ** Okwu a na-edegharị dị ka ịgbakwunye na ịba ụba n'elu ubi nwere njedebe.
-** Non-interactive (Fiat-Shamir) ** One-shot proof needing no live back-and-forth.
-Ihe akaebe ahụ pere mpe ma dị ngwa iji nyochaa n'agbanyeghị nha nkwupụta ahụ.
-**zk-SNARK** Zero-knowledge Succinct Non-interactive ARgument of Knowledge Okwu nke ihe omuma
-** Ntọala a tụkwasịrị obi / ihe mkpofu na-egbu egbu ** Ọdịdị nke otu oge nke ihe nzuzo fọdụrụnụ ga-ebibi.
+| **Ihe akaebe na-enweghị ihe ọmụma** | Mee ka mmadụ kwenye na ihe e kwuru bụ eziokwu ma ghara ikpughe ihe ọ bụla ọzọ |
+| **Onye Nlereanya / Onye Nyocha** | Onye na-eme ihe akaebe / onye na-enyocha ya |
+| **Mmezu** | A na-anabata eziokwu mgbe niile (site n'aka onye akaebe eziokwu) |
+| **Ịdị mma** | A na-ajụ okwu ụgha (ndị aghụghọ enweghị ike imeri ma ọ bụrụ na chi ọma) |
+| **Onye akaebe** | Ihe nzuzo ndị na-eme ka nkwupụta ahụ bụrụ eziokwu |
+| **Sekit mgbakọ na mwepụ** | E degharịrị nkwupụta dị ka ihe na-agbakwụnye ma na-amụba n'elu ubi nwere oke njedebe |
+| **Ọ dịghị emekọrịta ihe (Fiat-Shamir)** | Ihe akaebe otu ugboro nke na-achọghị ka e mee ihe dị ndụ ọzọ |
+| **Nsogbu** | Ihe akaebe ahụ dị obere ma dịkwa ngwa iji gosi n'agbanyeghị nha nkwupụta ahụ |
+| **zk-SNARK** | Ihe ọmụma efu Succinct Arụmụka ihe ọmụma na-abụghị mmekọrịta |
+| **Ntọala a tụkwasịrị obi / ihe mkpofu na-egbu egbu** | Nhazi paramita otu oge nke a ga-ebibi ihe nzuzo fọdụrụnụ |
 
 ---
 

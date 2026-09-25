@@ -42,14 +42,14 @@ Start with what is protected. Against every adversary in the model, including on
 
 Àwọn ohun tí a kò dáàbò bò ni àwọn nǹkan wọ̀nyí. Àpẹẹrẹ ìparun náà ṣe àkọsílẹ̀ wọn gẹ́gẹ́ bí àìlera tó mọ sí ọta-ìjàpá:
 
-Àìlera. Báwo ni?
+| Àìlera | Bawo |
 |:--|:--|
-"Ẹni tó ń ṣe àtakò náà mọ àdírẹ́sì IP tí oníṣe rẹ̀, èyí lè mú kí wọ́n rí ẹni gidi onítọ̀hún".
-Ó ń sọ ibi tí o wà ní ìlàlóye, ó sì ń wo IP rẹ nínú àpamọ́ ìṣàmúlò láti mọ ibì tó ti wá.
-í sọ èyí àti ìgbà tí o rán tàbí gbà ìsòwò ààbò kan. "ìránṣẹ́ ńlo àmúṣọrán púpọ̀, tó hàn bí ó tilẹ̀ jẹ pé a ti fi àkọọ́lẹ̀ dídá asopọ náà". Àpẹẹrẹ yìí ṣàkíyèsí wípé ìgbésẹ̀ rírán àti gbígba ni ìránṣẹ́ fúnra rẹ̀ rí.
-ìṣírò iye àwọn ìnáwó tí o ti ṣe ní àkókò kan. Ìwàláàyè àyè bákan náà, a rí i fún ìgbà pípẹ́ síi.
-◯ Ṣíṣàmúlò àwọn ìlànà ìsanwó tó ń wáyé léraléra. ▪ Kíyè sí ìgbà tí ìgbésẹ̀ kan bá ṣẹlẹ̀.
-◯ Ṣíṣayẹwo bóyá adirẹsi kan jẹ́ tìrẹ. Ẹnìkan tó bá mọ àdírẹsì náà "lè fi owó ránṣẹ́ sí i kó sì máa wò ó láti ríi bí àyè ìsọfúnni rẹ ṣe ń pọ̀ sí i" látinú pọ́ọ̀lù ẹ tí yóò mú un wá.
+| Sísọ ẹni tí o jẹ́ | "Ẹlẹ́ta mọ àdírẹ́sì IP olùlò, èyí tí ó lè mú wọn dé ibi tí olùlò náà wà gan-an" |
+| Ní ṣókí, sọ ibi tí o wà | Wiwa IP rẹ soke "ninu ibi ipamọ data agbegbe lati ṣe iṣiro ipo wọn" |
+| Sọ èyí àti ìgbà tí o fi ránṣẹ́ tàbí tí o gba ìṣòwò tí a dáàbò bò | Fífiránṣẹ́ “ń lo bandwidth púpọ̀ sí i, èyí tí a lè rí bí ó tilẹ̀ jẹ́ pé ìsopọ̀ náà jẹ́ ti ìkọ̀kọ̀”. Àwòṣe náà sọ pé iṣẹ́ fífiránṣẹ́ àti gbígbà ni a lè rí fún olupin náà fúnra rẹ̀ |
+| Kíkà iye àwọn ìṣòwò tí o ti ṣe lórí àkókò | Awọn ilana bandwidth kanna, ti a ṣe akiyesi lori akoko pipẹ |
+| Ṣíṣàyẹ̀wò àwọn ìlànà ìsanwó tó ń ṣẹlẹ̀ déédéé | Ṣíṣàkíyèsí nígbà tí ìgbòkègbodò bá ṣẹlẹ̀ |
+| Ṣíṣàyẹ̀wò bóyá àdírẹ́sì kan jẹ́ tìrẹ | Ẹlẹ́ta kan tí ó ti mọ àdírẹ́sì kan tẹ́lẹ̀ “lè fi owó ránṣẹ́ sí àdírẹ́sì náà kí ó sì ṣọ́ra láti rí i bóyá àwọn ìpele ìlọ́po púpọ̀ wà” láti inú àpò owó rẹ tí ó ń mú un wá |
 
 Awoṣe naa tun ṣe akiyesi pe ọran ti o wọpọ gba "ibasepo igbẹkẹle laarin olumulo ati oniṣẹ olupin lightwalletd".
 
@@ -97,13 +97,13 @@ Aṣayan ti o lagbara julọ ni lati jẹ oniṣẹ tirẹ, eyiti o yọ ibeere 
 
 Àwọn àkànṣe ìsọfúnni tí ó wà nínú àkọsílẹ̀ náà ní àkókò ti a kọ ọ́:
 
-Àgbàlá. Àwọn àkọsílẹ̀.
+| Olùpèsè | Àwọn Àkíyèsí |
 |:--|:--|
-Àwọn àgbègbè tí ó wà ní ìhà ọ̀tún rẹ̀ ni a ṣe àkọsílẹ̀ lẹ́gbẹ̀ẹ́ rèé: na.zec.rocks, eu.zec .rocks , ap.zec rocks àti sa.zec Rocks
-zec-node.cakewallet.com:443 ní ìkápá Cake Wallet's domain, tí ó wà lórí àkànṣe rẹ̀:
- zec.0xrpc.io:443 0xRPC ló ń ṣètò rẹ̀, ó sì máa ń fún àwọn ẹrù ìlépa ní àyè ọ̀fẹ́ tí kò sí owó lórí wọn àti pé wọ́n á fẹ́ kí gbogbo èèyàn wá fi ọrẹ ṣe é láti lè lo agbára tó wà nínú ẹ̀rọ náà.
+| zec.rocks:443 | A ṣe àkójọ àwọn ìparí agbègbè pẹ̀lú rẹ̀ ní na.zec.rocks, eu.zec.rocks, ap.zec.rocks àti sa.zec.rocks |
+| zec-node.cakewallet.com:443 | Lórí àpò ìpamọ́ Cake Wallet |
+| zec.0xrpc.io:443 | 0xRPC ló ń ṣiṣẹ́, èyí tó ń fúnni ní àwọn ẹ̀wọ̀n tó ń tà gbogbo ènìyàn lọ́fẹ̀ẹ́, tó sì ń béèrè fún àwọn ẹ̀bùn láti bo agbára wọn |
 | zaino.unsafe.zec.rocks:443 | A Zaino instance. Note the hostname, treat it as experimental |
-testnet.zec.rocks:443 Testnet, pẹlu ohun ti Zaino testnet ṣe akojọ ni zaino.testnet.unsafe.zec . rocks
+| testnet.zec.rocks:443 | Testnet, pẹ̀lú àpẹẹrẹ Zaino testnet tí a kọ sí zaino.testnet.unsafe.zec.rocks |
 
 Ṣayẹwo ibi ìsọfúnni dípò kí o fọkàn tán ìwé àkọsílẹ̀ yìí. Àwọn oníṣẹ́ ń wá, àwọn sì máa lọ, ojúewé bíi èyí á sì di arúgbó.
 

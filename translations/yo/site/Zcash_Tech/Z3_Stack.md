@@ -51,11 +51,11 @@ Orukọ naa jẹ ọna-ọna ti o ni imọran  Zebra, Zaino, Zallet  biotilejepe
                         light wallets / explorers
 ```
 
- Ẹ̀yà ara. Ipa nínú Z3  Ṣé ó pọn dandan?
+| Ẹ̀yà ara | Ipa ninu Z3 | A nilo? |
 | --- | --- | --- |
-**Zebra**. Ó ń ṣe àdàkọ àti ìmúṣẹ ẹ̀ka, ọ̀rò́-ìbínúni, JSON-RPC, ìlera àwọn ohun tí ó wà nídìí rẹ síta bẹ́ẹ̀ ni
+| **Zebra** | Ṣe àmúṣiṣẹ́pọ̀ àti ìfọwọ́sowọ́pọ̀ pq, ọ̀rọ̀ àfojúsùn, JSON-RPC, àti ìparí ìlera | Bẹ́ẹ̀ni |
 | **Zallet** | Full-node wallet. Embeds Zaino libraries. Connects straight to Zebra JSON-RPC. Does **not** call the standalone Zaino container | Yes |
- Zaino. ìdìbò tí ó dá dúró . lightwalletd-ìmúṣe gRPC fún àwọn oníṣẹ́mọ̀nà ìmọ̀lára ti òkè, pẹlúpùpọ̀ àgbékalẹ̀ JSON-RPC fun àwárí àti faucets No  `--profile indexer` |
+| **Zaino** | Atọka ti o da duro nikan. gRPC lightwalletd-compatible fun awọn alabara ina ita, pẹlu aṣoju JSON-RPC fun awọn oluwakiri ati awọn faucets | No — `--profile indexer` |
 
 Awọn ẹya aworan Z3 pin ni: `docker-compose.yml`. Ṣàtúnṣe pẹlú `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` tó o bá nílò àmì mìíràn.
 
@@ -65,13 +65,13 @@ Awọn ẹya aworan Z3 pin ni: `docker-compose.yml`. Ṣàtúnṣe pẹlú `Z3_Z
 
 | | zcashd | Z3 |
 | --- | --- | --- |
-Èdè C++ (ìpín Bitcoin) Àwọn iṣẹ Rust, tí a ṣètò pẹ̀lú Docker Compose.
- Àpẹẹrẹ ìgbésẹ̀. Ẹyọ méjì: ìsọ̀rí + àpò-ìpamọ́. Ìsọmọ̀ àti àwọn ohun èlò tí ó wà nínú àpò owó yàtọ̀ síra wọn.
-ìfohùnṣòótọ́ (Consensus) Retired (EOS 18 July 2026) Zebra (tàbí kókó mìíràn tó bá ṣepọ̀) ♀️
-Àpò. Ó ní àwo-ìwé inú rẹ̀ `wallet.dat` Zallet, ìsọfúnni tí a fi ìgbà orí kọ dídì.
- Light clients. Ìdájọ́ àkànṣe lightwalletd: Àkọsílẹ̀ Zaino tí ó wà ní àṣàyàn
-Àtòjọ. `zcash.conf` Àwọn fáìlì fún gbogbo ẹ̀ka-ẹ̀rọ lábẹ́: `config/<network>/` plus Kọ awọn faili env.
- Awọn nẹtiwọọki lori ile-iṣẹ kan. Ìjàpá ibudo ti o dun - Ẹ̀ka àkọ́kọ́: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
+| Èdè | C++ (Fọ́kì Bitcoin) | Àwọn iṣẹ́ ipata, tí a ṣètò pẹ̀lú Docker Compose |
+| Àwòṣe ilana | Oníná méjì kan: nódù + àpò owó | Awọn apoti ati awọn apoti apamọwọ lọtọ |
+| Ìfohùnṣọ̀kan | Fẹ̀yìntì (EOS 18 Keje 2026) | Zebra (tàbí nódù mìíràn tó báramu) |
+| Àpò owó | Inu-inu `wallet.dat` | Zallet, datadir ti a fi ọjọ-ori pamọ |
+| Awọn alabara ina | Nigbagbogbo a lightwalletd lọtọ | Ìfilọ́lẹ̀ Zaino tí a lè yàn |
+| Ṣètò | `zcash.conf` | Àwọn fáìlì fún nẹ́tíwọ́ọ̀kì kọ̀ọ̀kan lábẹ́ `config/<network>/` pẹlu Ṣakojọ awọn faili env |
+| Awọn nẹtiwọọki lori olupin kan | Àwọn ìjàkadì ojú omi tó ń roni lára | Kilasi akọkọ: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
 Tó o bá ṣì ní àpò kan tó ń gba omi ara rẹ, `zcashd` wallet, use ZecHub’s [ìwé tó ń darí ìrìn àjò-àjò.](/guides/migration-guide-zcashd-to-zebrad-zallet) and Zallet’s `migrate-zcashd-wallet` pàṣẹ dípò kó o ṣe àdàkọ rẹ̀ `wallet.dat` sinu iwọn didun Z3.
 
@@ -81,11 +81,11 @@ Tó o bá ṣì ní àpò kan tó ń gba omi ara rẹ, `zcashd` wallet, use ZecH
 
 Z3 jẹ́ iṣẹ́ kọ̀ǹpútà tí ó dá dúró. Wọn kò pín àwọn èbúté tàbí ìmúlò wọn.
 
-Àjọṣepọ̀ Orúkọ iṣẹ́-ìmọ̀ Lò ó fún ìmúṣiṣẹ́pọ̀ àkọ́kọ́ Owó gidi.
+| Nẹ́ẹ̀tìwọ́ọ̀kì | Orúkọ iṣẹ́ náà | Lò ó fún | Ìmúṣiṣẹ́pọ̀ àkọ́kọ́ | Awọn owo gidi |
 | --- | --- | --- | --- | --- |
-Ìkànnì pàtàkì. `z3-mainnet` Ìpèsè: 24 sí 72 wákàtí. Bẹ́ẹ̀ ni.
-Àwòkọ́ṣe ìwádìí. `z3-testnet`  Ìdánwò lórí ẹ̀rọ ìfọwọ́sọ̀nà gbogbo ènìyàn 2 sí 12 wákàtí Kò (ìdánwo ZEC)
-Àdánwò àdììtú. `z3-regtest`  Ìdánwò àdúgbò: ìdìbò ojú ẹsẹ̀, kò sí àwọn ẹlẹgbẹ́.
+| **àkójọpọ̀** | `z3-mainnet` | Ìṣẹ̀dá | Wákàtí 24–72 | Bẹ́ẹ̀ni |
+| **nẹ́ẹ̀tì ìdánwò** | `z3-testnet` | Ṣíṣe àgbékalẹ̀ lórí nẹ́tíwọ́ọ̀kì ìdánwò gbogbogbò | Wákàtí 2–12 | Rárá (dánwò ZEC) |
+| **ìforúkọsílẹ̀** | `z3-regtest` | Iṣẹ́ àdúgbò: àwọn ìdènà lẹ́sẹ̀kẹsẹ̀, kò sí àwọn ẹlẹgbẹ́ | Awọn iṣẹ́jú-àáyá | No |
 
 Àwọn oníṣẹ́ tuntun ní láti bẹ̀rẹ̀ sí í ṣe àyẹwò padà, kí wọ́n fìdí ìtòlẹ́sẹẹsẹ RPC àti ìṣàn owó alágbèéká múlẹ̀, lẹ́yìn náà ni kí wọn lọ sórí ẹ̀rọ ìdánrawò tàbí orí ère.
 
@@ -95,14 +95,14 @@ Z3 jẹ́ iṣẹ́ kọ̀ǹpútà tí ó dá dúró. Wọn kò pín àwọn èb
 
 Gbogbo awọn mẹta nẹtiwọki ti wa ni o kan lati coexist lori ọkan ẹrọ. iye isalẹ jẹ awọn atejade aiyipada; kọọkan ọkan ni overridable nipasẹ awọn baramu `Z3_*` Àwòrán ìlà àwọn àdàkọ ni: [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
 
-Ìránṣẹ́. Mainnet. Testnet. Regtest.
+| Iṣẹ́ | Mainnet | Nẹ́ẹ̀tìwọ́ọ̀kì ìdánwò | Ìforúkọsílẹ̀ |
 | --- | --- | --- | --- |
 | Zebra JSON-RPC | 8232 | 18232 | 29232 |
- Zebra P2P 8233 18233 (kò tíì jáde)
-Ìlera Zebra (ìyẹn àwọn ẹranko)`/ready`) | 8080 | 18080 | 28080 |
-Zaino gRPC (ìdánwò ìsọfúnni) 8137 18137 28137.
-Zaino JSON-RPC (ìdánwò ìdìpọ̀) 8237 18237 28237
-Zallet RPC 28232 40232 50232 Àkọlé àwòrán, Ẹ̀rọ ìdìbò ti ń lọ lókè.
+| Zebra P2P | 8233 | 18233 | (kò ṣe àtẹ̀jáde) |
+| Ìlera Zebra (`/ready`) | 8080 | 18080 | 28080 |
+| Zaino gRPC (profaili atọka) | 8137 | 18137 | 28137 |
+| Zaino JSON-RPC (profaili atọka) | 8237 | 18237 | 28237 |
+| RPC Zallet | 28232 | 40232 | 50232 |
 
 Láàárín ẹ̀rọ Compose, àwọn iṣẹ́ máa ń yanjú nípasẹ̀ orúkọ (`zebra`, `zaino`, `zallet`).
 
@@ -110,12 +110,12 @@ Láàárín ẹ̀rọ Compose, àwọn iṣẹ́ máa ń yanjú nípasẹ̀ orú
 
 ## Àwọn ìsọfúnni àti ààbò wọn
 
- Ìmúdàgba. Kí ló ń mú un dúró? Ṣó ti di ẹ̀yìn ọ̀tún báyìí?
+| Iwọn didun | Ohun tí ó ń mú | Ṣe àtìlẹ́yìn rẹ̀? |
 | --- | --- | --- |
-| `z3-<network>-chain`  Ìpínlẹ̀ ẹ̀ka Zebra (~300 GB mainnet)  Àtúnṣe-ìṣètò àfọwọ́kọ.
-| `z3-<network>-zallet`  Àkọsílẹ̀ àpamọ́ owó tí a fi kọǹpútà pamọ́ ** àti** orúkọ ọjọ-ori tó ń ṣí i sílẹ̀. ** Bẹẹni, èyí nìkan ni ìdìpòdí ti ó yẹ kí á ṣe afẹyinti rẹ.*
-| `z3-<network>-zaino`  Ìṣirò ìdìpò (kì í ṣe pẹ̀lú àwòkọ́ṣe olùdípò)  Àfọwọ́sọ  A tún un kọ.
-| `z3-<network>-cookie`  Zebra RPC cookie. Kò sí àtúnṣe kankan.
+| `z3-<network>-chain` | Ipò ẹ̀wọ̀n Zebra (~300 GB mainnet) | Àṣàyàn — a lè tún ṣe àtúnṣe |
+| `z3-<network>-zallet` | Ibi ipamọ data apamọwọ ti a fi pamọ **ati** idanimọ ọjọ-ori ti o ṣii rẹ | **Bẹ́ẹ̀ni — èyí nìkan ni ohùn tí a gbọ́dọ̀ fi ṣe àtìlẹ́yìn** |
+| `z3-<network>-zaino` | Ipò olùtọ́ka (pẹ̀lú ìṣàfihàn olùtọ́ka nìkan) | Àṣàyàn — a lè tún un kọ́ |
+| `z3-<network>-cookie` | Kúkì RPC Zebra | Rárá — àtúnṣe |
 
 Lati fi ipo ẹ̀rọ-ìmọ́lẹ̀ sórí àwo mìíràn kí o tó bẹ̀rẹ̀:
 

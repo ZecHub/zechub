@@ -6,7 +6,7 @@ Leo tunaangalia **Lelantus**!
 
 Iliyotolewa mnamo 2019, itifaki hii inajengwa juu ya Zerocoin. Inatumika katika sarafu ya ** Firo ** (zamani Zcoin) kuwezesha shughuli za kibinafsi kwenye mnyororo. Inafanana na Zcash kwa njia kadhaa lakini ni tofauti kabisa katika nyanja nyingi.
 
-[Lelantus utangulizi](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
+![Lelantus utangulizi](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Mfuatano wa matukio:
 - ** Sigma ** - Fixed jina mfumo
 - **Lelantus 1.0** - Kukosa uthibitisho sahihi wa usalama
 
-[Protocol mageuzi](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![Protocol mageuzi](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Faida kuu:
 
 **Upungufu**: Ukubwa wa seti kwa sasa umepunguzwa kwa sarafu **65,000**.
 
-[Lelantus faida](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+![Lelantus faida](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Hizi kazi sawa na ** Notes ** katika Zcash.
 
 sarafu ahadi ni kuchapishwa na kuhifadhiwa juu ya kitabu wakati sarafu ni kuundwa (kupitia Mint au kutumia shughuli).
 
-[Mchoro wa kujitolea kwa sarafu](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![Mchoro wa kujitolea kwa sarafu](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus inatumia classic **basecoin < - > zerocoin** mfano.
 
 Kama Zcash, shughuli uwazi lazima wazi kuchaguliwa na mtumiaji.
 
-[Lelantus mtiririko](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+![Lelantus mtiririko](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus hutumia ** One-of-Many Proofs ** kutoa maadili ya kuingiza muhimu kwa k
 
 Uthibitisho huu pia hutumiwa katika **Triptych** (iliyotajwa katika thread yetu ya CryptoNote).
 
-[Uthibitisho wa Moja-ya-Mengi](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![Uthibitisho wa Moja-ya-Mengi](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Pia itaongeza msaada kwa:
 
 Hizi makala sambamba Zcash Shielded Mali.
 
-[Lelantus-Spark tangazo](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Lelantus-Spark tangazo](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

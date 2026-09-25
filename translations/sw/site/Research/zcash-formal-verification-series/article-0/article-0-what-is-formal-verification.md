@@ -46,11 +46,11 @@ Tofauti ni kati ya ** sampuli ukweli** na ** kuthibitisha mali ya kubuni. Kupima
 
 Kila uthibitisho rasmi, bila kujali jinsi ya juu ni kujengwa kutoka hasa viungo tatu. Kuweka haya wazi na wengine ni maelezo mafupi.
 
-Nguzo. Maana ya kawaida. Kujenga ulinganisho.
+| Nguzo | Maana ya kawaida | Mfano wa ujenzi |
 |---|---|---|
-** Ufafanuzi**. taarifa sahihi ya nini "sahihi" * maana yake ni.* "Kila mlango lazima imefungwa usiku".
-** Mfumo**. Kitu halisi kuwa checked (programu, mzunguko, itifaki) Jengo na utaratibu wake kufunga.
-** Ushahidi**. hoja kali kwamba mfumo daima hukutana na vipimo vya. Uonyesho mantiki ambayo kubonyeza "lock" locks milango yote.
+| **Vipimo** | Kauli sahihi ya maana ya "sahihi" *maana* | "Kila mlango lazima ufungwe usiku" |
+| **Mfumo** | Kitu halisi kinachokaguliwa (programu, mzunguko, itifaki) | Jengo na utaratibu wake wa kufunga |
+| **Uthibitisho** | Hoja kali kwamba mfumo huo hukidhi vipimo kila wakati | Maonyesho ya kimantiki kwamba kubonyeza "kufuli" hufunga milango yote |
 
 Na sehemu ya nne, isiyo na sauti nyingi hufanya jambo hilo liwe lenye kuaminika:
 
@@ -85,11 +85,11 @@ Kwa kuwa ni wa mwanzo (0) na kila hatua hubeba kwa idadi ya pili, inashikilia **
 
 Formal uthibitisho ni nguvu kwa sehemu kutokana na kufafanua ufahamu kuhusu * ambapo * bugs kuja kutoka katika nafasi ya kwanza. kasoro yoyote katika mfumo wa sheria-kuangalia hufuatiliwa moja ya maeneo matatu:
 
-Chanzo cha mdudu. Nini maana yake? Je, tunaweza kuthibitisha mbali ni?
+| Chanzo cha mdudu | Inamaanisha nini | Je, tunaweza kuthibitisha hilo? |
 |---|---|---|
-**Maelezo**. hesabu au sheria wenyewe ni makosa (kushindwa hali, ufafanuzi mbaya) *** Ndiyo*, moja kwa moja hii ni rasmi ya uthibitisho wa nyumbani turf.
-** Utekelezaji**. Msimbo inashindwa uaminifu kutekeleza vipimo sahihi kwa sehemu; mara nyingi kushindwa kama kuacha ushahidi detectable
-** A kuvunjwa dhana** Kitu mfumo mzima hutegemea inageuka kuwa si kweli. No; mawazo ni msingi irreducible.
+| **Vipimo** | Hesabu au sheria zenyewe si sahihi (hali inayokosekana, ufafanuzi mbaya) | **Ndiyo**, moja kwa moja, hii ni sehemu rasmi ya uthibitishaji wa nyumbani |
+| **Utekelezaji** | Msimbo unashindwa kutekeleza kwa uaminifu vipimo sahihi | Kwa kiasi fulani; mara nyingi kushindwa huko huacha ushahidi unaoweza kugunduliwa |
+| **Dhana iliyovunjika** | Kitu ambacho mfumo mzima unategemea kinageuka kuwa si kweli | Hapana; dhana ndio msingi usioweza kupunguzwa |
 
 Hii taxonomy mambo zaidi ya inaonekana, na Sehemu 2 3 kurejea juu yake. kina, mende hatari sana, wale ambao wanaweza kujificha milele, huwa kuishi katika ** vipimo vya: maelezo ya hisabati ya nini mfumo ni lazima kufanya. Na maalum ni hasa kile mashine-iliyotathmini ushahidi unaweza kuchunguza moja kwa moja, kesi zote mara moja. Hiyo ndiyo sababu kubwa rasmi kuthibitisha juhudi lengo huko kwanza.
 
@@ -135,16 +135,16 @@ Ili kuweka hii readable sisi kurahisishwa. specifikationer halisi ni imeandikwa 
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-** Uthibitisho rasmi**. Kuthibitisha, hisabati, kwamba mfumo hukutana na vipimo kwa ajili ya kesi zote.
-**Maelezo**. Taarifa sahihi ya nini "tabia sahihi" maana yake ni,
-** Mfumo**. Programu halisi, mzunguko au itifaki kuwa checked.
-** Ushahidi** A mwisho mlolongo wa hatua za kimantiki kuanzisha madai kwa ajili ya kesi zote.
-Programu (Lean, Rocq, Isabelle) ambayo inachunguza kila hatua ya uthibitisho.
-** Mashine-iliyoangaliwa**. kuthibitishwa hatua kwa hatua na kompyuta, si tu kusoma binadamu.
-**Induction** Uhakikisho wa kiufundi: kweli katika mwanzo, na kila hatua hubeba kwa ijayo.
-** Dhana** Hali uthibitisho hutegemea; kama ni uongo, dhamana inaweza kuwa si kushikilia.
+| **Uthibitisho rasmi** | Kuthibitisha, kihisabati, kwamba mfumo unakidhi vipimo kwa kesi zote |
+| **Vipimo** | Kauli sahihi ya maana ya "tabia sahihi" |
+| **Mfumo** | Programu, mzunguko, au itifaki halisi inayokaguliwa |
+| **Uthibitisho** | Msururu wa hatua za kimantiki zinazoanzisha madai kwa kesi zote |
+| **Msaidizi wa uthibitisho / mthibitishaji wa nadharia** | Programu (Lean, Rocq, Isabelle) inayoangalia kila hatua ya uthibitisho |
+| **Imehakikiwa na mashine** | Imethibitishwa hatua kwa hatua na kompyuta, si kwa usomaji wa kibinadamu pekee |
+| **Uingizaji** | Mbinu ya uthibitisho: ni kweli mwanzoni, na kila hatua huipeleka kwenye inayofuata |
+| **Kudhani** | Sharti ambalo uthibitisho unategemea; ikiwa si kweli, dhamana inaweza isiweze kushikilia |
 
 ---
 

@@ -60,7 +60,7 @@ Pịa ebe a](https://zechub.wiki/using-zcash/non-custodial-exchanges) maka m nk�
 
 Mgbe ị na-eme nke a, anyị na-atụ aro iji otu n'ime ndị na-esonụ [wallets](https://zechub.wiki/wallets). 
 
-[Mgbasa ozi](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
+![Mgbasa ozi](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

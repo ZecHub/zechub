@@ -42,14 +42,14 @@ Overwinter ilikuwa ya kwanza Zcash mtandao kuboresha baada ya Oktoba 2016 mainne
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
- Network Upgrade (NU)  mabadiliko uratibu kwa Zcash ya makubaliano sheria, ulioamilishwa katika block kuweka urefu.
-◯ Id ya tawi la makubaliano. Kitambulisho kifupi ambacho kinaita seti ya sasa ya sheria za makubaliani.
-│Kiwango cha uanzishaji.‬️ Kiwango ambacho sheria mpya za uboreshaji wa mtandao huanza kutumika.‬
-│ Ulinzi wa kurudia.‬ Kanuni ambayo huzuia shughuli halali kwenye mlolongo mmoja kutumiwa tena katika mwingine.‬
-Mempool. Hifadhi ya shughuli ambazo zimetangazwa lakini bado kuchimbwa katika block.
-☐ Transaction expiry. A mwisho block urefu baada ya ambayo unmined shughuli ni imeshuka.
+| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's , yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Kitambulisho cha tawi la makubaliano | Kitambulisho kifupi kinachotaja seti ya sasa ya sheria za makubaliano |
+| Urefu wa uanzishaji | Kizuizi ambacho sheria mpya za uboreshaji wa mtandao huanza kutumika |
+| Ulinzi wa kucheza tena | Sheria inayozuia muamala halali kwenye mnyororo mmoja kutumiwa tena kwenye mwingine |
+| Mempool | Dimbwi la miamala ambayo imetangazwa lakini bado haijachimbwa kwenye kizuizi |
+| Muda wa muamala kuisha | Urefu wa kizuizi cha kumalizika muda ambao baada ya muamala ambao haujachimbwa hupunguzwa |
 
 ## FAQs
 

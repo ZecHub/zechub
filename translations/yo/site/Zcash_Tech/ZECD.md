@@ -64,12 +64,12 @@ ZECD nlo Orchard Unified Addresses bi iru adirẹsi aiyipada. Sapling ati awọn
 
 Ìlànà ìpamọ́ jẹ àdáṣe fún ìpè kan tàbí lágbàáyé nínú `[spend] privacy_policy`:
 
-Ìlànà. Àṣà ìṣesí.
+| Ètò Ìlànà | Ìwà |
 |--------|----------|
-| `AllowRevealedRecipients` (àkójọ)  A máa ń fi àṣẹ ránṣẹ́ sí àwọn olùgba tí kò ní àlàfo; ó ń sọ iye àti ẹni tó gbà á lórí ẹ̀rọ-ìpèsè.
+| `AllowRevealedRecipients` (aiyipada) | Àwọn ìwé àṣẹ tí a fi ránṣẹ́ sí àwọn olùgbà tí ó ṣe kedere; a fi iye àti iye olùgbà hàn lórí ẹ̀wọ̀n |
 | `AllowRevealedAmounts` | Permits cross-pool sends (Sapling↔Orchard) but rejects transparent recipients |
 | `FullPrivacy` | Only fully-shielded sends within one pool; rejects transparent recipients and cross-pool |
-| `AllowFullyTransparent` Ó tún fàyè gba ìfúnpáwó láti inú àwọn UTXO tí ó ṣe kedere.
+| `AllowFullyTransparent` | Ó tún jẹ́ kí t→t fi owó ránṣẹ́ láti ọ̀dọ̀ àwọn UTXO tí ó ṣe kedere |
 
 ### Bitcoin Core RPC Ìmúṣẹ Àjọṣe
 
@@ -170,15 +170,15 @@ zecd init --datadir ./data-watch --ufvk "uview1..." --birthday <height>
 
 Owó náà lè padà wá látinú ohun èlò tí a fi ń rántí nǹkan nìkan. Gbogbo àwọn ìsọfúnni yòókù kò ṣeé gbàgbé rárá.
 
- Àmì ọ̀pá àṣẹ: Oríṣiríṣi. Kí ló ń dáàbò bò? Ṣàtúnṣe?
+| Ohun èlò ìṣẹ̀dá | Ibi tí a wà | Ohun tí ó ń dáàbòbò | Ṣe afẹyinti? |
 |----------|----------|-----------------|----------|
-** 24-ọ̀rọ̀ mnemonic**. Ó hàn ní ẹ́ẹ̀kan ni: `zecd init` | The funds — loss = permanent loss | **Yes — offline (paper/HSM)** |
-| `keys.toml` | `<wallet dir>/keys.toml`  Ìkínní tí a fi àdàkọ kọ + ọjọ́ ìbí + ẹ̀rọ-ìpèsè. ** Bẹẹni, bí àṣírí**
-| `identity.txt` | `[keys] age_identity` Ó ń túmọ̀ àwọn àdàkọ yìí. `keys.toml` (ìtóótun láti náwó) **Béèrè  yàtọ̀ sí `keys.toml`** |
-▪ Bí ọmọ náà ṣe ga tó nígbà tí wọ́n bí i. `keys.toml`  Ṣe atunṣe iyara (eyikeyi giga ṣaaju akọkọ tx)  Gbigba pẹlu mnemonic 
-| `data.sqlite` | `<wallet dir>/data.sqlite`  Àpamọ́ àpò-ìwé  A tún un ṣe láti ìpilẹ̀ṣẹ̀ nígbà tí a bá ń mú ọ padà bò ó mọ́. Kò sí  Ohun tó ṣeé fi ṣòfò ni o
+| **Àmì ìrántí ọ̀rọ̀ 24** | Ti a fihan lẹẹkan ni `zecd init` | Awọn owo naa — pipadanu = pipadanu titilai | **Bẹ́ẹ̀ni — láìsí ìkànnì ayélujára (ìwé/HSM)** |
+| `keys.toml` | `<wallet dir>/keys.toml` | Irugbin ti a fi pamọ + ọjọ ibi + nẹtiwọọki | **Bẹ́ẹ̀ni — gẹ́gẹ́ bí Àṣírí** |
+| `identity.txt` | `[keys] age_identity` | Àwọn ìkọ̀sílẹ̀ `keys.toml` (na aṣẹ) | **Bẹ́ẹ̀ni — yàtọ̀ sí ara wọn `keys.toml`** |
+| Gíga ọjọ́ ìbí | Nínú `keys.toml` | Ó mú kí ara rẹ̀ yára padà (kí ó tóbi kí ó tó di àkọ́kọ́) | Ṣe igbasilẹ pẹlu mnemonic |
+| `data.sqlite` | `<wallet dir>/data.sqlite` | Àpò àpò — tí a tún ṣe láti inú irúgbìn nígbà tí a bá tún ṣe àtúnṣe | Rárá — ohun tí a lè pàdánù |
 | `blocks/` | `<wallet dir>/blocks/` | Compact block cache | No — never ship; can grow large |
-| `.cookie` | `<datadir>/.cookie`  Efemeral RPC cookie. Kò sí ìmúpadàbọ̀sípò nígbà tí a bá ń ṣíṣẹ́ padà
+| `.cookie` | `<datadir>/.cookie` | Kúkì RPC ìgbà díẹ̀ | Rárá — a túnṣe ní ìbẹ̀rẹ̀ |
 
 > **Awọn data directory gbọdọ jẹ ogun-ibilẹ.** ZECD ká ọkan-apẹrẹ titiipa (`<datadir>/.lock`) jẹ́ ìsínmọ̀ràn OS  kò ní àyè àwọn onílé. Má ṣe pín ìwé atọ́ka data kà-kọ lórí ẹ̀rọ (NFS, Kubernetes) `ReadWriteMany`)  méjì ZECD ìṣẹlẹ yoo bajẹ awọn apamọwọ DB. Lo `ReadWriteOnce` awọn iwe-ipamọ ni Kubernetes.
 
@@ -201,16 +201,16 @@ Gbogbo ọ̀nà tí kò sí nínú àkọsílẹ̀ náà ló ń padà wá. `-326
 
 Awọn oludasile ti o nlọ lati Bitcoin tabi awọn irinṣẹ zcashd yẹ ki o mọ nipa awọn iyatọ aiṣedede wọnyi:
 
- Ìwà Bitcoin Core ZECD
+| Ìwà | Bitcoin Core | ZECD |
 |----------|-------------|------|
-Àdàkọ adirẹsi. `1...` / `bc1...` | `u1...` (Orchard Unified Address)  kò lè ṣe àgbéyẹ̀wò gẹ́gẹ́ bí àdírésì Bitcoin nípa àwọn oníṣe-àdàkọ ìsọfúnni tí ó ń ṣàyẹ̀wò òpópónà.
-Àwọn àmì  Àpamọ́ àwọn àmì tí ó kún fún. Kò sí nídìí rẹ̀  `setlabel`, `listlabels`, àti bẹ́ẹ̀ lọ. padà wá `-32601` |
-ígba owó. Orísun-olùṣàmúlò; ọjà ìsanwó ZIP-317 deterministic nìkan; `settxfee`, `fee_rate`, `subtractfeefromamount` tí a kọ̀ tìtì `-8` |
-Àwọn àlàyé. Kò ní ìtìlẹyìn kankan. `sendtoaddress` gba ìpamọ́ hex; ìtàn ti ní `memo` + `memoStr` àwọn pápá.
- Ìmúdájú láti ná 1 3 (ìyípadà ti ara rẹ) / 10 (ọ̀gá-ẹlẹ́gbẹ́ kẹta)  ó ṣeé ṣe nípasẹ̀ ìtọ́jú àtúnṣe. `trusted_confirmations` / `untrusted_confirmations` |
-| `listsinceblock` on reorg. Wọ́n padà sí ìkápá-ìpín. Ó dá wọn pada `-5` (Block not found) bí a bá tún ọ̀pá ìlà ṣe  re-baseline with parameterless call.
-Ṣẹda awọn olugba ni: `sendmany`  Àṣìṣe. JSON parser ń pa àwọn àdàkọ (tí ó kẹ́yìn ló borí) kí ZECD tó rí wọn  má ṣe to àdírẹ̀sì kan náà lẹ́ẹ̀mejì
- Balance nigba akọkọ Sync. Blocks tabi igbona soke. Sin apakan iwontunwonsi  ẹnu-ọna adaṣiṣẹ lori awọn ti o ba wa ni aarin ati ki o si tunto fun pipadanu ninu rẹ, ṣugbọn ko le ṣe ohunkohun nipa fifi sori ẹrọ lati gba awá" n olumulo pada. `GET /readyz` (ó dá 503 padà títí tí a ó fi ṣe àtúnṣe sí gbogbo àwọn ìmúṣiṣẹ́pọ̀ àti àfikún tó wà ní sẹ́yìn)
+| Ìrísí àdírẹ́sì | `1...` / `bc1...` | `u1...` ( Unified Address) (Orchard ) — kò ṣeé ṣe láti ṣàtúnṣe gẹ́gẹ́ bí àdírẹ́sì Bitcoin láti ọwọ́ àwọn oníbàárà tí ń ṣàtúnṣe okùn |
+| Àwọn àmì | Ile itaja aami ni kikun | A ko ṣe imuse — `setlabel`, `listlabels`, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ. padà `-32601` |
+| Awọn idiyele | Owó tí a lè ṣètò fún olùlò; ọjà owó tí a ó san | ZIP-317 deterministic nìkan; `settxfee`, `fee_rate`, `subtractfeefromamount` kọ pẹlu `-8` |
+| Àwọn Àkọsílẹ̀ | A ko ṣe atilẹyin fun | `sendtoaddress` gba àkọsílẹ̀ hex; ìtàn ti `memo` + `memoStr` awọn aaye |
+| Àwọn ìjẹ́rìí láti náwó | 1 | 3 (iyipada tirẹ) / 10 (ẹni-kẹta) — le ṣe atunto nipasẹ `trusted_confirmations` / `untrusted_confirmations` |
+| `listsinceblock` lórí àtúntò | Ó rìn padà sí oríta | Àwọn ìdápadà `-5` (A ko ri bulọọki naa) ti a ba tun kọsọ naa pada — tun-ipilẹṣẹ pada pẹlu ipe ti ko ni paramita |
+| Àwọn olùgbà méjì nínú `sendmany` | Àṣìṣe | JSON parser wó àwọn àtúnṣe (àwọn ìṣẹ́gun ìkẹyìn) kí ZECD tó rí wọn — má ṣe kọ àdírẹ́sì kan náà sílẹ̀ lẹ́ẹ̀mejì |
+| Ìwọ̀ntúnwọ̀nsì nígbà ìṣiṣẹ́pọ̀ àkọ́kọ́ | Àwọn búlọ́ọ̀kì tàbí ìgbóná ara | N ṣiṣẹ iwọntunwọnsi apakan — adaṣe ẹnu-ọna lori `GET /readyz` (ó dá 503 padà títí tí a ó fi mú gbogbo rẹ̀ ṣiṣẹpọ tán tí àkójọpọ̀ ìdàgbàsókè yóò sì tán pátápátá) |
 | `minconf 0` in `getbalance` | 0-conf balance | Served as 1 — a shielded note is never spendable unmined |
 
 ---
@@ -274,10 +274,10 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Àwọn Èbúté Àkọ́ṣe (Default Ports)
 
-Àjọṣepọ̀: ZECD RPC Zebra RPC (ìdásílẹ̀) Ìlera.
+| Nẹ́ẹ̀tìwọ́ọ̀kì | ZECD RPC | Zebra RPC (àwòrán ẹ̀yìn) | Ìlera |
 |---------|----------|---------------------|--------|
 | Mainnet | 8232 | 8234 | 9233 |
-Àwòdì ìsọfúnni 18232 18234 9233
+| Nẹ́ẹ̀tìwọ́ọ̀kì ìdánwò | 18232 | 18234 | 9233 |
 
 ---
 
@@ -285,17 +285,17 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 | | zcashd | Zaino | ZECD |
 |--|--------|-------|------|
- ipa: ìsọ̀rí + àpò-ìpamọ́. olùtọjú (yí lightwalletd padà) Olùpèsè àpókì nìkan;
-Èdè: C++ Rust. Ìdàrúdàpọ̀ ìsọfúnni:
+| Ipa | Nọ́ńdà kíkún + àpò owó | Atọka (o rọpo lightwalletd) | olupin apamọwọ nikan |
+| Èdè | C++ | Ipata | Ipata |
 | Status | Deprecated | Active | Active (v0.5.0-rc3, Jul 2026) |
 | Default pool | Transparent | N/A | Orchard (shielded) |
 | RPC dialect | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
- Wá gbogbo ìsopọ̀. (self) ZEBRA tàbí zcashd, Zebra.
- Àtúnṣe tí kò ní ìpínlẹ̀. Rárá o N/A Bẹẹni (ohun tó wà fún ìkórè nìkan)
-Àwọn ìwé ìránnilétí tí a fi ààbò bo. Bẹ́ẹ̀ ni (`z_sendmany`) N/A: Bẹẹni (Ojú-ìwòye Bitcoin RPC)
-Àwòrán tí a máa ń wò lásán (UFVK) Bẹẹni. Bẹ́ẹ̀ ni. Bẹ̀ẹ̀ ní.
-Àwọsánmà-àbínibí Kò sí Díẹ̀ Sí Ẹsẹ kan ni o wà nínú rẹ, ẹyọ méjì.
- Install. Build/binary. Built. Ṣẹda ìmúṣẹ rẹ̀ ní pẹrẹu, kí o sì ṣe àtúnṣe síi. `cargo install zecd` |
+| Nilo nodule kikun | Bẹẹni (ara mi) | Zebra tabi zcashd | Zebra |
+| Ìgbàpadà láìsí ìpínlẹ̀ | No | N/A | Bẹ́ẹ̀ni (irugbin nìkan) |
+| Àwọn àkọsílẹ̀ tí a dáàbò bò | Bẹ́ẹ̀ni (`z_sendmany`) | N/A | Bẹ́ẹ̀ni (Ojú ilẹ̀ Bitcoin RPC) |
+| Aago-siwo nikan (UFVK) | Bẹ́ẹ̀ni | Bẹ́ẹ̀ni | Bẹ́ẹ̀ni |
+| Ìkùukùu-bíbí | No | Apá kan | Bẹ́ẹ̀ni |
+| Fi sori ẹrọ | Kíkọ́/àwòrán alágbèékà | Kọ́ | `cargo install zecd` |
 
 ---
 

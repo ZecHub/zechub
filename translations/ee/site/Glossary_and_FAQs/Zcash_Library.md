@@ -13,7 +13,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 |------|-----------|
 | Nuwɔnawo | Le esi teƒe be Orchard ƒe ɖoɖowɔɖia nawɔ kpeɖodzi ɖekaɖeka geɖewo na Gazazã kple Nuɖeɖe ɖesiaɖe la, eƒoa wo nu ƒu ɖe Nuwɔna ɖeka me. |
 | Adrɛswo | Zcash ƒe adrɛs siwo nye Shielded (Z/zaddr) kple Transparent (T/taddr) le esi. Adrɛs siwo wowɔ ɖekae (UA) le dɔ wɔm vivivi be woaxɔ ɖe Z kple T teƒe le NU5 ƒe tɔtrɔ megbe. |
-| Atiŋutinunyalawo ƒe Yɔyɔ | Kwasiɖa eve ƒe kaƒoƒo si ƒo nu tso Zcash ƒe ɖoɖowɔɖi kple numekuku ƒe ŋgɔyiyi yeyewo ŋu. Wowɔe le Zcash Nutome Nyamedzroƒe kple Masɔmasɔ. [Kpekpea Ŋuti Nyatakakawo](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Forum Gbeƒãɖeɖewo](https://forum.zcashcommunity.com) |
+| Atiŋutinunyalawo ƒe Yɔyɔ | Kwasiɖa eve ƒe kaƒoƒo si ƒo nu tso Zcash ƒe ɖoɖowɔɖi kple numekuku ƒe ŋgɔyiyi yeyewo ŋu. Wowɔe le Zcash Nutome Nyamedzroƒe kple Discord. [Kpekpea Ŋuti Nyatakakawo](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Forum Gbeƒãɖeɖewo](https://forum.zcashcommunity.com) |
 | Ame ŋutɔ ƒe ametakpɔnu | Enaa ezãlawo (ne míagblɔe tututu la, woƒe gakotokuwo) te ŋu tsɔa ga tso adrɛs si me kɔ dzi yia ZEC-ta yeyetɔ si wokpɔ ta na la le wo ɖokui si. |
 
 ## B
@@ -32,7 +32,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 |------|-----------|
 | Canopy | 5th Major Network Upgrade na Zcash. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Ðokuitsɔtsɔna ƒe Ðoɖo | Enaa mɔ na committer be wòatsɔ eɖokui ana ɖe polynomial si me ka kpui aɖe le si verifier ateŋu azã atsɔ aɖo kpe committed ƒe dodokpɔ siwo wogblɔ dzi. Viɖe le eŋu na kadodo ƒe gazazãwo dzi ɖeɖe kpɔtɔ le Zcash ƒe ɖoɖowɔɖia me. |
-| Nutoa me | [Zcash Nutome Takpekpe si Dziɖuɖua le](https://forum.zcashcommunity.com) / [Zcash Nutome Masɔmasɔ](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.com/invite/6AK7keWFaK) / [Reddit dzi](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
+| Nutoa me | [Zcash Nutome Takpekpe si Dziɖuɖua le](https://forum.zcashcommunity.com) / [Zcash Nutome Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit dzi](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Aɖaŋu si wodo ɖa be woawɔ ɖeka kple wo nɔewo si ana kpeɖodzi-dɔwɔwɔ ƒe block wɔwɔ nanɔ anyi eye wòtsɔa kpeɖodzi-of-stake finality layer kpena ɖe etame, ale blocks kpɔa finality sesẽ wu evɔ womegblẽa tomenukuƒewo ɖi o. Etsi tso Trailing Finality Layer numekuku me eye Shielded Labs ye le etum, si gakpɔtɔ le testnet ƒe ŋgɔyiyi me tso ƒe 2026. |
 | CrossPay | Nɔnɔme aɖe le Zodl gakotokua me si na nèzãa ZEC si wokpɔ ta na esime woxea fe na amesi xɔe le nunɔamesi kple kɔsɔkɔsɔ si wodi me, si woɖona to NEAR Intents dzi tsɔ wu be woato asitɔtrɔ le teƒe ɖeka dzi. |
 | Cypherpunk ƒe agbalẽ si nye Zero | Nuwɔwɔ ƒe Xexeame katã kple nuwɔwɔ aduadu ƒe agbagbadzedze le ECC, nɔnɔmetatawɔla Stranger Wolf, Mighty Jaxx kple lãwo ƒe agbenɔnɔ ƒe hadɔwɔla tiatia aɖewo dome. [Cypherpunk Zero Nyatakakadzraɖoƒe](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Nuƒoƒoƒu](https://opensea.io/collection/cypherpunk-zero) |

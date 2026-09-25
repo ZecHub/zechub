@@ -51,11 +51,11 @@ Jina ni informal mazingira ya mfumo wa shorthand  Zebra, Zaino, Zallet hata kama
                         light wallets / explorers
 ```
 
-Sehemu ya kazi katika Z3 inahitajika?
+| Kipengele | Jukumu katika Z3 | Inahitajika? |
 | --- | --- | --- |
-** Zebra**. Syncs na kuthibitisha mlolongo, uvumi, JSON-RPC, afya mwisho uhakika Ndiyo
-**Zallet**. Full-node mkoba. Embeds Zaino maktaba. Connects moja kwa moja na Zebra JSON-RPC. Does **not** wito kujitegemea zaino chombo cha yes
-** Zaino**. Standalone indexer. lightwalletd-ambatana gRPC kwa wateja wa nje mwanga, pamoja na JSON RPC wakala kwa ajili ya wavumbuzi na bomba No  `--profile indexer` |
+| **Zebra** | Husawazisha na kuthibitisha mnyororo, umbea, JSON-RPC, na sehemu ya mwisho ya afya | Ndiyo |
+| **Zallet** | Pochi yenye nodi kamili. Hupachika maktaba za Zaino . Huunganisha moja kwa moja kwenye Zebra JSON-RPC. Je, **hai** huita chombo cha Zaino kinachojitegemea | Ndiyo |
+| **Zaino** | Kiashiria cha kujitegemea. gRPC lightwalletd-compatible kwa wateja wa taa za nje, pamoja na proksi ya JSON-RPC kwa wachunguzi na mabomba | No — `--profile indexer` |
 
 Z3 pini picha matoleo katika `docker-compose.yml`. Override na `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` kama unahitaji lebo tofauti.
 
@@ -65,13 +65,13 @@ Z3 pini picha matoleo katika `docker-compose.yml`. Override na `Z3_ZEBRA_IMAGE`,
 
 | | zcashd | Z3 |
 | --- | --- | --- |
-Lugha C++ (Bitcoin uma) Huduma ya kutu, orchestrated na Docker Compose.
-Mfano wa mchakato. Binary moja: node + mfuko wa fedha. tofauti ya nodes na mifuko ya pesa za kifedha vyombo.
-◯ Mkataba wa pamoja ▸ Umetoka (EOS 18 Julai 2026) ❖ Zebra (au kiungo kingine kinachofaa) ❑ Kiini cha mzunguko.
-Kipaji. Kilijengwa ndani yake `wallet.dat` Zallet, data iliyofichwa kwa umri.
- wateja mwanga. kawaida tofauti lightwalletd. hiari Zaino profile.
-Config. Mchoro wa kompyuta `zcash.conf` Kwa-mtandao faili chini ya `config/<network>/` pamoja na kuandika faili za env.
-◯ Mitandao kwenye mwenyeji mmoja. Mashambulizi ya bandari yenye maumivu makali. Darasa la kwanza: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
+| Lugha | C++ (uma ya Bitcoin) | Huduma za kutu, zilizopangwa na Docker Compose |
+| Mfano wa mchakato | Panari moja: nodi + pochi | Vyombo tofauti vya nodi na pochi |
+| Makubaliano | Alistaafu (EOS 18 Julai 2026) | Zebra (au nodi nyingine inayolingana) |
+| Pochi | Imejengewa ndani `wallet.dat` | Zallet, data iliyosimbwa kwa njia fiche ya umri |
+| Wateja wa mwanga | Kawaida mkoba tofauti lightwalletd | Wasifu wa hiari Zaino |
+| Usanidi | `zcash.conf` | Faili za kila mtandao chini ya `config/<network>/` pamoja na Tunga faili za env |
+| Mitandao kwenye seva mwenyeji mmoja | Mgongano mkali wa bandari | Daraja la kwanza: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
 Ikiwa bado una tatizo la damu, tafadhali usisite kuuliza. `zcashd` wallet, use ZecHub’s [mwongozo wa uhamiaji](/guides/migration-guide-zcashd-to-zebrad-zallet) and Zallet’s `migrate-zcashd-wallet` amri badala ya kunakili `wallet.dat` katika kiasi Z3.
 
@@ -81,11 +81,11 @@ Ikiwa bado una tatizo la damu, tafadhali usisite kuuliza. `zcashd` wallet, use Z
 
 Z3 ni tatu kujitegemea kuandika miradi. Wao si kushiriki bandari au kiasi cha habari.
 
-Mtandao Jina la mradi Tumia kwa usawazishaji wa kwanza Fedha halisi.
+| Mtandao | Jina la mradi | Itumie kwa | Usawazishaji wa kwanza | Fedha halisi |
 | --- | --- | --- | --- | --- |
-**mainnet** Msaada wa simu ya mkononi. `z3-mainnet` Uzalishaji. Saa 24 kwa siku 72 Ndiyo.
-**testnet** Kiungo cha mtihani. `z3-testnet` ◯ Kuweka kwenye mtandao wa umma. 2 kwa 12 masaa. Hapana (kujaribu ZEC)
-Mtihani wa kukataa. `z3-regtest` Mazoezi ya ndani: vitalu vya papo hapo, hakuna wenza. Sekunde. Hapana.
+| **mtandao mkuu** | `z3-mainnet` | Uzalishaji | Saa 24–72 | Ndiyo |
+| **testnet** | `z3-testnet` | Kuigiza kwenye mtandao wa majaribio wa umma | Saa 2–12 | Hapana (jaribu ZEC) |
+| **jaribio la kawaida** | `z3-regtest` | Mazoezi ya ndani: vizuizi vya papo hapo, hakuna wenzao | Sekunde | No |
 
 Waendeshaji mpya wanapaswa kuanza kwa ** regtest **, kuthibitisha RPC na mtiririko wa pochi, kisha kuhamia testnet au mainnet.
 
@@ -95,14 +95,14 @@ Waendeshaji mpya wanapaswa kuanza kwa ** regtest **, kuthibitisha RPC na mtiriri
 
 Mtandao wote watatu ni maana ya kuishi pamoja kwenye mashine moja. maadili chini ni defaults kuchapishwa; kila mmoja ni overridable kupitia vinavyolingana `Z3_*` env var. Matrix ya canonical ni [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
 
-Huduma Mainnet Testnet Regtest
+| Huduma | Mtandao Mkuu | Mtandao wa Majaribio | Jaribio la Usajili |
 | --- | --- | --- | --- |
- Zebra JSON-RPC 8232 18232 29232
- Zebra P2P 8233 18233 (haijachapishwa)
-◯ Afya ya Zebra (`/ready`) | 8080 | 18080 | 28080 |
-Zaino gRPC (faili ya index) 8137 18137 28137.
-Zaino JSON-RPC (profile ya index) 8237 18237 28237
-Zallet RPC 28232 40232 50232 - Ni kweli, ni sawa.
+| Zebra JSON-RPC | 8232 | 18232 | 29232 |
+| Zebra P2P | 8233 | 18233 | (haijachapishwa) |
+| Afya Zebra (`/ready`) | 8080 | 18080 | 28080 |
+| Zaino gRPC (wasifu wa kiashiria) | 8137 | 18137 | 28137 |
+| Zaino JSON-RPC (wasifu wa kiashiria) | 8237 | 18237 | 28237 |
+| Zallet RPC | 28232 | 40232 | 50232 |
 
 Ndani ya mtandao wa Compose, huduma kutatua kwa jina (`zebra`, `zaino`, `zallet`).
 
@@ -110,12 +110,12 @@ Ndani ya mtandao wa Compose, huduma kutatua kwa jina (`zebra`, `zaino`, `zallet`
 
 ## Data na backups
 
-Kiasi. Nini inachukua? Kurudi nyuma yake?
+| Kiasi | Ina nini | Je, unahifadhi nakala rudufu? |
 | --- | --- | --- |
-| `z3-<network>-chain`  Zebra mlolongo hali (~ 300 GB mainnet)  hiari re-syncable.
-| `z3-<network>-zallet` │ Database wallet encrypted **na** umri utambulisho kwamba unlocks ni.‬  Ndiyo hii ni kiasi tu ambayo lazima kuwa na chelezo ***
-| `z3-<network>-zaino`  hali ya indexer (tu na profile indexer)  hiari rebuildable 
-| `z3-<network>-cookie` Kipakuzi cha Zebra RPC Hakuna  kilipata tena.
+| `z3-<network>-chain` | Hali ya mnyororo wa Zebra (~300 GB mtandao mkuu) | Hiari — inaweza kusawazishwa tena |
+| `z3-<network>-zallet` | Hifadhidata ya pochi iliyosimbwa kwa njia fiche **na** utambulisho wa umri unaoifungua | **Ndiyo — huu ndio ujazo pekee unaopaswa kuhifadhiwa nakala rudufu** |
+| `z3-<network>-zaino` | Hali ya kiashiria (ikiwa na wasifu wa kiashiria pekee) | Hiari — inaweza kujengwa upya |
+| `z3-<network>-cookie` | Biskuti ya Zebra RPC | Hapana — imezaliwa upya |
 
 Kuweka hali ya mnyororo kwenye diski nyingine kabla ya kuanza kwanza:
 

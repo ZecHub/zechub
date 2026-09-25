@@ -145,24 +145,24 @@ We simplified for clarity. The real Lean development is far more detailed than t
 
 ## Nsɛmfua a wɔde di dwuma
 
-Asɛmfua. Nkyerεase a emu da hɔ wɔ Borɔfo mu no kyerɛ sɛ:
+| Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-**Ironwood**. Zcash ne banbɔ a wɔabɔ no ho ban foforo (2026), na ɛbɛsi Orchard banbɔa a ɛreyɛ bɔne no ananmu.
-** Balance integrity** The pool never pays out more value than publicly entered it. - Nkrataa a w'atwerɛ no, ɛnnyɛ sɛ wode wo ho ahyɛ mu na ɛyɛ adwuma ntia; ɛsan yɛ nea wobɛtumi de ayɛ adwuma ama obi biara wɔ bere tenten bi akyi.
-**Nimdeɛ mu ntease pa**. Nkyerɛkyerɛmu a edi mũ hwehwɛ sɛ ɔdansefo ankasa na odi adanseɛ no ho dwuma.
-** Extractor**. Adeyɛ a ɛtwe adansefo no fi biribiara mu ma wogye di sɛ ɛyɛ nokware ho adansedi biara akyi.
-**Lean**: Ɔboafoɔ a ɔhwɛ sɛ wɔsɔ afiri mu hwɛ no, na ɔde yɛ saa.
-**ValidLedger**. Nkyerεkyerεmu a wͻde hyehyɛ no gyina nsusueԑ ne ntease so, na εma y'atumi de nnyinasoɔ ahorow yi adi dwuma wɔ ɔkwan soronko bi so.
-**Fingerprint** The boundary between the proven math and the running Rust software. - Nkyerεkyerεmu a w'atwerԑ no ne nea wo de adi dwuma wɔ "Rust" dwumadie mu, na ԑne sε wobedi so akͻ da biara mprenu yi ara.
-** Wɔ nsɛm a wɔaka no mu**. Sɛ wɔde nkyerɛmu kwan so asɛm bi to hɔ na ɛkyerɛ sɛ ɛyɛ nokware, nanso wɔnkyerɛ saa ase de kyerɛ sɛ ɛnyɛ nokorɛ.
-** Turnstile**. Ahyɛde a wɔde si ɔtare no ano wɔ baabi a wobetumi ahu sɛ ɛyɛ hɔ ankasa so.
-** High-assurance cryptography**. Agyinasoɔ a wɔfa so yɛ krado sɛ wɔde bɛhyɛ mmara ase no na ɛreyɛ adwuma bere nyinaa.
+| **Ironwood** | Zcash's shielded pool foforɔ (2026), a ɛsii Orchard pool a mfomsoɔ wɔ mu no ananmu |
+| **Balance nokwaredi** | Ɔtare no ntua bo a ɛboro nea wɔhyɛn mu wɔ baguam no da |
+| **Nimdeɛ a ɛyɛ den** | Adanse a ɛfata hwehwɛ sɛ ɔbofo no di adanse ankasa |
+| **Afiri a wɔde yi nneɛma mu** | Adeyɛ a ɛtwe ɔdansefo no fi ɔbebufo biara a ogye di mu |
+| **Twere** | Adanse boafo a wɔde mfiri hwɛ sɛnea wɔagye atom no |
+| **Ledger a ɛyɛ adwuma** | Nhwɛso a ɛyɛ mmara kwan so de a ɛfa adwene a ɛwɔ mu ho no di nsusuwii ahorow no so |
+| **Nsateaa nkyerɛwee** | Ɔhye a ɛda akontaabu a wɔada no adi ne Rust softwea a ɛretu mmirika no ntam |
+| **Wɔ nsusuwii ahorow a wɔaka ase** | Adanse no kura mu a wɔde ama a wɔato din cryptographic nsusuwii ahorow kura |
+| **Nneɛma a wɔde dannan nneɛma** | Mmara a ɛto ɔtare bi kwan a wɔfa so fi adi no ano wɔ ne sika a wɔde asie a wobetumi agye atom no so |
+| **Crypography a ɛwɔ awerɛhyem kɛse** | Ɔkyekye crypto a formal verification sɛ gyinapɛn anammɔn |
 
 ---
 
 ## Ntaaho nsɛm a wɔbisa no pii
 
-So saa adanse no kyerɛ sɛ nnua a wɔde dade ayɛ nni nkekae biara?
+**So adanse no kyerɛ sɛ Ironwood nni mmoawa?**
 Dabi, na ɛnka sɛ ɛte saa. Ɛkyerɛ ade biako a ɛyɛ nokware pefee - ɛne nea wɔkae no mu nokwaredi ne pɛyɛ - ɛno ma wotumi hu nneɛma bi a ɛnyɛ papa a wɔde di dwuma nanso ɛmma wontumi nhu nsunsuanso biara.
 
 ** So adanse no ma me nsa ka nneɛma a meyɛ wɔ kokoam?**

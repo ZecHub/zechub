@@ -75,12 +75,12 @@ In plain terms, the circuit's checklist was missing the boxes that should have p
 
 Àwọn ìfiwéra tó wà nínú ìtàn àtẹ̀wò wa kò yàtọ̀ rárá:
 
-Ìtàn nípa àwọn àtòjọ ìwádìí. Àbùdá Orchard (ìwà òmùgọ̀).
+| Ìtàn àyẹ̀wò | Kòkòrò Orchard |
 |---|---|
-Àpótí "àṣẹ ìrìnnà tí kò tíì pé" ti sọnù. Ìdènà tó sọnú lórí ìmúdọ́gba ọ̀pá-ìka elliptic kan ti sánmọ̀ sí àlàfo, èyí ni a fi ń ṣe àmì náà níbí yìí:
-Ẹni tí ìwé ìrìnnà rẹ̀ ti pé yóò gbà á láyè. Àwọn àṣìṣe tó bá ṣe ló máa ń yọrí sí ìmúdàgba nínú ìdánwò ìṣirò náà.
-Ẹnikẹ́ni mìíràn kò ní kópa, nítorí náà kò sí ohun tó jọ àṣìṣe. àwọn ìnáwó tí ó bágbà mu ṣiṣẹ̀ dáadáa, dída àìlera yìí mọ́lẹ̀.
-Ó gba ògbógi kan láti fi tọkàntọkàn ṣàyẹ̀wò ìṣirò àyíká náà.
+| Àpótí "ìwé ìrìnnà kò parí" tí ó sọnù | Ìdènà tí ó sọnù lórí ìsọdipúpọ̀ ìlà-ẹ̀rọ elliptic |
+| Arìnrìn-àjò ìwé ìrìnnà tí ó ti parí lọ | Àwọn ìtẹ̀síwájú èké láìnídìí ló ń kọjá àyẹ̀wò ìṣọ̀pọ̀ |
+| Gbogbo àwọn ẹlòmíràn kò ní ìpalára kankan, nítorí náà kò sí ohun tí ó dàbí àṣìṣe | Awọn iṣowo deede ṣiṣẹ daradara, ni fifi abawọn pamọ |
+| Ẹnìkan ṣoṣo ló ń wá a kiri ló máa rí ihò náà | Ó gba ògbóǹkangí kan láti mọ̀ọ́mọ̀ ṣe ìwádìí ìṣirò àyíká náà |
 
 Lati jẹ ki o mọ bi eyi ṣe lewu to: oluwadi, pẹlu iranlọwọ AI, kọ *iṣowo ṣiṣe pipe* ati pe a ti fi idi mulẹ ni nẹtiwọọki idanwo agbegbe kan pe o gbejade awọn owo-iworo ayederu ailopin. Eyi jẹ otitọ gidi ati ailagbara, kii ṣe aibalẹ imọlẹ.
 
@@ -111,13 +111,13 @@ The Orchard bug belongs to a recurring family, and seeing that family is what ma
 
 Ìtàn Zcash fúnra rẹ̀ fi àwòkọ́ṣe náà hàn:
 
- Ìṣòro (ọdún) Orísun: Ṣé ó ṣeé rí?
+| Kòkòrò (ọdún) | Orísun | Ṣe a le ṣe àwárí rẹ̀? |
 |---|---|---|
-ìdíwọ́n ìmúṣẹ Zerocash (2016, pre-launch) Àpèjúwe (àkójọpòsò tí a gé ní kékeré ti rú ohun àmúṣe ìdásílẹ̀ kan) ♀ Kò ṣeé rí.
-☐ ìdìbò ìdánilójú ètò ìṣètò tí a gbẹ́kẹ̀lé (2018) ☐ Àkọsílẹ̀ (ìwà àìtọ́ nínú ìwé zk-SNARK) ☐ Kò ṣeé rí.
-☐ Ìjàǹbá ìbéèrè ètò ìdánwò (2025) ☐ Àlàyé (ìdánwò tí ó sọnù nínú ìlànà ìdìbò) ☐ A lè rí i.
+| Àbùkù ìforúkọsílẹ̀ Zerocash (2016, ṣáájú ìfilọ́lẹ̀) | Ìlànà pàtó (haṣi tí a gé kúrú ti fọ́ ohun ìní ìdè kan) | A kò le rí i |
+| Àbùkù ìlera tó ṣeé gbẹ́kẹ̀lé (2018) | Ìlànà pàtó (àṣìṣe nínú ìwé zk-SNARK tó wà lábẹ́ rẹ̀) | A kò le rí i |
+| Ìkọlù ìbéèrè ètò ìṣàfihàn (2025) | Ìlànà ìṣàyẹ̀wò (àyẹ̀wò tí kò sí nínú ètò ìdánilójú) | A le ṣawari |
 | Curve-subgroup validation bug (2016) | Implementation (a missing subgroup check) | Detectable |
- Orchard under-constrained multiplication (2026)  Àkọsílẹ̀ (ìyí náà)  Undetectable.
+| **Orchard (2026)** | **Àlàyé pàtó (ìpínkiri náà)** | **A ko le ri** |
 
 Àlàfo tí ó lè fara pamọ títí ayé ni àwọn tó wà nínú ìṣirò. Ìyẹn gan-an ni ẹ̀ka ti ìdánilójú ìsọfúnni tí a ṣayẹwo nípa ẹrọ le yọ, gbogbo ọ̀ràn lẹ́ẹ̀kan náà. Ṣíṣe àyẹwò àti ṣíṣe ayẹwo àpẹẹrẹ; wípé fífi ìdíwárí ṣe àkójọpọ̀ ohun wọ̀nńnì kan ṣoṣo ló kún inú àkọsílẹ̀.
 
@@ -157,17 +157,17 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
 | **Shielded pool** | The private mode of Zcash where amounts and parties are hidden |
-**ìfihan ìmọ-gídí** Ẹ̀rí pé àlàyé tí a fi pamọ́ jẹ́ òótọ́, kò tú ohunkóhun mìíràn jáde.
-** Circuit** Ìdìpòpọ̀ àwọn ipò ìṣirò tí ìsopọ́ tó bágbà mu gbọdọ̀ tẹjúmọ.
-** Ìdènà**. Àmì kan (ìfiwéra) nínú àyíká náà.
-Àwọn ìjìnlẹ̀ iye tí ó bá tẹ àwọn ààlà náà lọ́rùn.
-**Soundness**: Ìdánilójú pé àwọn ọ̀rọ̀ tí ó jẹ́ òótọ́ nìkan ló lè mú ẹ̀rí tó ṣe é fọwọ́ sí.
-**Soundness gap** Àlàfo tó ń sọnù tí ó jẹ́ kí àwọn àlàyé èké kọjá lọ.
-** Under-constrained**. Circuit kan ti ko ni ipo to nilo, gbongbo Orchard bug naa.
-**Awọn ti a le ri/ti ko ni i rii**. Boya lilo yoo fi ẹri silẹ ninu iwe-ipamọ gbogbo eniyan.
+| **Ẹ̀rí ìmọ̀ òdo** | Ẹ̀rí pé gbólóhùn ìkọ̀kọ̀ wúlò, tí kò fi ohunkóhun mìíràn hàn |
+| **Àgbègbè** | Àkójọ àwọn ipò ìṣirò tí a ti ṣètò tẹ́lẹ̀ tí ìṣòwò tó wúlò gbọ́dọ̀ ní |
+| **Ìdíwọ́** | Ipo kan (idogba) ninu Circuit naa |
+| **Ẹlẹ́rìí** | Àwọn ìníyelórí ìkọ̀kọ̀ tí ó bá àwọn ìdíwọ́ mu |
+| **Alaafia** | Ìdánilójú pé àwọn gbólóhùn òtítọ́ nìkan ló lè mú ẹ̀rí tó wúlò wá |
+| **Ààlà ìlera** | Ìdènà tí ó sọnù tí ó jẹ́ kí àwọn gbólóhùn èké kọjá |
+| **Kò sí ìdíwọ́** | Circuit kan ti o padanu ipo ti o nilo, gbongbo kokoro Orchard |
+| **A le ṣe àwárí / a ko le ṣe àwárí ** | Bóyá ìfìyàjẹni yóò fi ẹ̀rí sílẹ̀ nínú ìwé àkọsílẹ̀ gbogbogbòò |
 
 ---
 

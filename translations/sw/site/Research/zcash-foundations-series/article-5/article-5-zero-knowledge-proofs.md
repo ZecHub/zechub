@@ -1,7 +1,7 @@
 # Uthibitisho wa Ujuzi-Zero: Kuthibitisha Wewe ni haki bila kusema kwa nini
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](/content-images/image-23-71534bece9.webp)
+! ![ alt maandishi](/content-images/image-23-71534bece9.webp)
 
 ### Pazia ambalo huruhusu ulimwengu kuthibitisha kile ambacho hakiwezi kamwe kuona
 
@@ -40,13 +40,13 @@ Hadithi hiyo ya pango inaonyesha kwa utulivu dhamana tatu ambazo kila uthibitish
 
 ## 3. Dhamana tatu
 
-! [ alt maandishi](/content-images/image-24-b559d31849.webp)
+! ![ alt maandishi](/content-images/image-24-b559d31849.webp)
 
-Dhamana katika hadithi ya pango katika Zcash
+| Dhamana | Katika hadithi ya pango | Katika Zcash |
 |---|---|---|
-** Ukamilifu **. Kama unajua neno, wewe daima kuondoka upande wa kulia. Transaction halali daima inazalisha ushahidi kukubalika.
-** Usawa **. bluffer ni hawakupata na uwezekano mkubwa. shughuli ya udanganyifu (fedha bandia, mara mbili matumizi) hawezi kuzalisha ushahidi kukubalika.
-Mtandao kamwe hujifunza kiasi, anwani, au ambayo kumbuka.
+| **Ukamilifu** | Ukijua neno, unatoka upande wa kulia kila wakati | Muamala halali hutoa uthibitisho unaokubalika kila wakati |
+| **Utulivu** | Mdanganyifu anashikwa na uwezekano mkubwa | Muamala wa ulaghai (pesa bandia, matumizi mara mbili) hauwezi kutoa uthibitisho unaokubalika |
+| **Kutojua chochote** | Mthibitishaji huwa hasikii neno la siri | Mtandao haujifunzi kamwe kiasi, anwani, au noti gani |
 
 Kama yoyote ya haya inashindwa, mfumo kuvunja: hakuna ukamilifu na watumiaji waaminifu kupata kukataliwa; hakuna soundness na forgers kuchapisha fedha; hakuna sifuri-ujuzi na faragha evaporates.
 
@@ -62,7 +62,7 @@ Daraja ni wazo ambalo linaunganisha mfululizo huu wote pamoja:
 
 Fikiria mzunguko kama orodha ya vikwazo arithmetic kwamba ni * wote kuridhika tu kama taarifa ni kweli.* pembejeo binafsi kwamba kufanya kila kitu kuangalia nje, kumbuka yako, ufunguo wako, njia Merkle, ni kuitwa ** shahidi.**
 
-! [ alt maandishi](/content-images/image-25-2479377e43.webp)
+! ![ alt maandishi](/content-images/image-25-2479377e43.webp)
 
 This is why we spent Article 1 on finite fields and Article 3 on ZK-friendly hashes: the circuit speaks field arithmetic, so every operation inside the statement (including hashing and the Merkle climb of Article 4) has to be expressed that way. The cheaper each operation is to express, the smaller and faster the proof.
 
@@ -90,7 +90,7 @@ Hakuna chakula cha mchana bure. wengi SNARKs haja ya mara moja ** kuanzisha ** a
 
 Siri hii iliyobaki ina jina la utani ** taka zenye sumu. * Ili kuiondoa salama, Zcash iliendesha sherehe za vyama vingi ambapo washiriki wengi huru kila mmoja alichangia nasibu; kwa muda mrefu kama * hata moja * iliharibu kipande chao kwa uaminifu, taka yenye sumu haiwezi kupatikana.
 
-! [ alt maandishi](/content-images/image-26-cdad6625cd.webp)
+! ![ alt maandishi](/content-images/image-26-cdad6625cd.webp)
 
 Mifumo mpya kuondoa mahitaji haya kabisa, ambayo ni moja ya sababu kubwa Zcash maendeleo mfumo wake ushahidi baada ya muda.
 
@@ -98,11 +98,11 @@ Mifumo mpya kuondoa mahitaji haya kabisa, ambayo ni moja ya sababu kubwa Zcash m
 
 ## 7. Ambapo hii anaishi katika Zcash
 
-Design. Proof system. Trusted setup? Built on.
+| Ubunifu | Mfumo wa uthibitisho | Umeweka mipangilio inayoaminika? | Imejengwa juu ya |
 |---|---|---|---|
-**Sprout** (mwanzoni) mapema zk-SNARK. Ndiyo, sherehe ya awali.
-** Sapling ** ** Groth16 ** ** Ndiyo (ya pande nyingi "Nguvu za Tau" + Sapling sherehe) ** BLS12-381 ** (Kifungu 2)
-**Orchard** (sasa) **Halo 2** **No Trusted Setup** **Pallas / Vesta** (Kifungu cha 2)
+| **Sprout** (mapema zaidi) | mapema zk-SNARK | Ndiyo | sherehe ya asili |
+| **Sapling** | **Groth16** | Ndiyo (sherehe ya "Nguvu za Tau" ya vyama vingi + sherehe Sapling ) | **BLS12-381** (Kifungu cha 2) |
+| **Orchard** (ya sasa) | **Halo 2** | **Hakuna usanidi unaoaminika** | **Pallas / Vesta** (Kifungu cha 2) |
 
 The march from Sprout to Sapling to Orchard is largely a story about proofs getting smaller, faster, and shedding the trusted setup. **Halo 2**, used by Orchard, needs no ceremony at all and is built to support *recursion* (proofs that verify other proofs), which is why Orchard uses the Pallas/Vesta **cycle** of curves from Article 2: each curve is tuned to verify proofs written over the other.
 
@@ -129,18 +129,18 @@ Zero-knowledge proofs are a deep field and we stayed at intuition level on purpo
 
 ## Orodha ya maneno
 
-Neno. Maana ya Kiingereza ya kawaida.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-** Ushahidi wa ujuzi wa sifuri**. Kushawishi mtu taarifa ni kweli wakati akifunua kitu kingine chochote.
-** prover / verifier **: Mtu anayefanya uthibitisho / mtu anayehakikisha.
-** Ukamilifu ** Taarifa za kweli daima zinakubaliwa (kutoka kwa mhakiki mwaminifu)
-Maelezo ya uongo yanakataliwa (walaghai hawawezi kushinda isipokuwa kwa bahati)
-**Shahidi**. Maelezo ya siri ambayo hufanya taarifa kweli.
-** mzunguko Arithmetic **. Taarifa rewritten kama kuongeza na kuzidisha juu ya uwanja wa mwisho.
-** Non-interactive (Fiat-Shamir) ** One-shots ushahidi hakuna haja ya kuishi nyuma na mbele.
-**Succinct** The ushahidi ni ndogo na haraka kuthibitisha bila kujali ukubwa wa taarifa.
-**zk-SNARK** Zero-maarifa Muhtasari Non-interactive hoja ya maarifa.
-** Trusted kuanzisha / sumu taka ** One-time parameter kizazi ambayo mabaki siri lazima kuharibiwa.
+| **Ushahidi wa kutojua** | Mshawishi mtu kwamba kauli ni kweli bila kufichua chochote kingine |
+| **Mtoaji/Mthibitishaji** | Yule anayetoa uthibitisho / yule anayeuthibitisha |
+| **Ukamilifu** | Kauli za kweli hukubaliwa kila wakati (kutoka kwa mthibitishaji mwaminifu) |
+| **Utulivu** | Kauli za uongo hukataliwa (wadanganyifu hawawezi kushinda isipokuwa kwa bahati) |
+| **Shahidi** | Michango ya siri inayofanya taarifa hiyo kuwa kweli |
+| **Mzunguko wa Hesabu** | Taarifa iliyoandikwa upya kama inaongeza na kuzidisha juu ya sehemu yenye kikomo |
+| **Haishirikishi (Fiat-Shamir)** | Ushahidi wa risasi moja usiohitaji kurudi na kurudi moja kwa moja |
+| **Fupi** | Uthibitisho ni mdogo na wa haraka kuthibitisha bila kujali ukubwa wa taarifa |
+| **zk-SNARK** | Maarifa yasiyo na kikomo Ufafanuzi usioingiliana wa Maarifa |
+| **Mpangilio unaoaminika / taka zenye sumu** | Uundaji wa vigezo vya wakati mmoja ambavyo siri yake iliyobaki lazima iharibiwe |
 
 ---
 

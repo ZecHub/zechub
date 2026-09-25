@@ -42,14 +42,14 @@ Start with what is protected. Against every adversary in the model, including on
 
 Kisha kuna kile ambacho si ulinzi. tishio mfano orodha hizi kama udhaifu inayojulikana dhidi ya trafiki-kuangalia adui:
 
-Udhaifu. Jinsi gani?
+| Udhaifu | Jinsi gani |
 |:--|:--|
-"Mpinzani anajua anwani ya IP ya mtumiaji, ambayo inaweza kuwaongoza kwa utambulisho wa kweli wa mtumiaja".
-Kuelezea karibu ambapo wewe ni kuangalia IP yako juu "katika database geolocation kukaribia eneo lao".
- Kuambia kwamba na wakati wewe alimtuma au kupokea shughuli ulinzi. Kutuma "inatumia bandwidth zaidi, ambayo ni inayoonekana hata kama uhusiano encrypted". Model inabainisha kuwa kitendo cha kutuma na kupokea ni kujulikana kwa server yenyewe
-Kuhesabu ni shughuli ngapi ulizofanya kwa muda. Mifumo ileile ya upana wa bendi, ilionekana katika kipindi kirefu zaidi cha wakati.
-Kuona mifumo ya malipo inayorudiwa. Kuchunguza wakati shughuli hutokea.
-◯ Kujua kama anwani ni yako. Adui ambaye tayari anajua anwani "inaweza kutuma fedha kwa anwani hiyo na kuangalia kuona ikiwa kuna spikes bandwidth" kutoka mkoba wako kuchota yake.
+| Kusema wewe ni nani | "Adui anajua anwani ya IP ya mtumiaji, ambayo inaweza kumpeleka kwenye utambulisho halisi wa mtumiaji" |
+| Kusema kwa ukali uko wapi | Kutafuta IP yako "katika hifadhidata ya eneo ili kukadiria eneo lake" |
+| Kusema hivyo na wakati ulituma au kupokea muamala uliolindwa | Kutuma "hutumia kipimo data zaidi, ambacho kinaonekana hata kama muunganisho umesimbwa kwa njia fiche". Mfano unabainisha kuwa kitendo cha kutuma na kupokea kinaonekana kwa seva yenyewe |
+| Kuhesabu miamala mingapi umefanya baada ya muda | Mifumo sawa ya kipimo data, iliyozingatiwa kwa muda mrefu zaidi |
+| Kugundua mifumo ya malipo inayojirudia | Kuangalia wakati shughuli inapotokea |
+| Kuchunguza kama anwani ni yako | Adui ambaye tayari anajua anwani "anaweza kutuma pesa kwenye anwani hiyo na kuangalia kama kuna ongezeko la kipimo data" kutoka kwenye pochi yako akiichukua |
 
 Mfano pia anabainisha kuwa kesi ya kawaida inachukua "uhusiano wa uaminifu kati ya mtumiaji na lightwalletd server operator".
 
@@ -97,13 +97,13 @@ Makala ya kwanza. [hosh.zec.rocks (mawe ya mawe)](https://hosh.zec.rocks/zec) Da
 
 Seva zilizoorodheshwa kwenye dashibodi wakati wa kuandika:
 
-Msimamizi. Maelezo.
+| Seva | Vidokezo |
 |:--|:--|
- zec.rocks:443  Vituo vya mwisho wa kikanda vimeorodheshwa kando yake na:na.zec.rocs, eu.zec .rocks, ap.zec rocks and sa.zec Rocks
- zec-node.cakewallet.com:443 kwenye kikoa cha Cake Wallet's domain
-ą zec.0xrpc.io:443ą Kuendeshwa na 0xRPC, ambayo inatoa bure umma mwisho pointi kwa idadi ya minyororo na anauliza kwa ajili ya michango ili kufidia uwezo wa
- zaino.unsafe.zec.rocks:443  Zaino mfano. Kumbuka jina la mwenyeji, kutibu kama majaribio
-☐ testnet.zec.rocks:443 ▸ Testnet, na mfano wa Zaino testnet waliotajwa katika zaino.testnet.unsafe.zec . rocks
+| zec.rocks:443 | Sehemu za mwisho za kikanda zimeorodheshwa kando yake katika na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
+| zec-node.cakewallet.com:443 | Kwenye kikoa cha Cake Pollet |
+| zec.0xrpc.io:443 | Inaendeshwa na 0xRPC, ambayo hutoa vituo vya umma bila malipo kwa minyororo kadhaa na inaomba michango ili kufidia uwezo |
+| zaino.unsafe.zec.rocks:443 | Mfano wa Zaino . Kumbuka jina la mwenyeji, lichukulie kama la majaribio |
+| testnet.zec.rocks:443 | Testnet, ikiwa na mfano wa Zaino testnet ulioorodheshwa katika zaino.testnet.unsafe.zec.rocks |
 
 Angalia dashibodi badala ya kuamini orodha hii. Waendeshaji huja na kwenda, na ukurasa kama huu umri.
 

@@ -20,7 +20,7 @@ Discord
 
 Tunahitaji kuanza na Discord kwa sababu ni programu ya mawasiliano tunayoitumia "nyumbani".
 
-Ugomvi ni muhimu sana kwa kusimamia jumuiya kubwa juu ya mada mbalimbali, lakini ni tu kama hatia kama wengine wengi wa kufaidika na taarifa zetu binafsi.
+Discord ni muhimu sana kwa kusimamia jumuiya kubwa katika mada mbalimbali, lakini ni hatia sawa na wengine wengi kufaidika na taarifa zetu binafsi.
 
 ### Hifadhi ya Data Discord
 

@@ -63,6 +63,6 @@ Ndiyo mkusanyiko wa awali got hacked, baadaye ni unwritten.
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 
-[Cypherpunk Zero DAO Mvutano](https://discord.com/invite/sjfgXys4Jf)
+[Discord Cypherpunk Zero DAO](https://discord.com/invite/sjfgXys4Jf)
 
 [Cypherpunk Zero NFT Mega Thread - Mchanganyiko wa picha za video na filamu.](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

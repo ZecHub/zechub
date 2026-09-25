@@ -46,11 +46,11 @@ Vovototo le nusiwo dzɔ ŋutɔŋutɔ ƒe kpɔɖeŋu xɔxɔ kple alesi woana nane
 
 Nu etɔ̃ koŋ dzie wotua nu sia nu si dzi woda asi ɖo la ɖo, eɖanye aleke kee wòɖaxɔ ŋgɔe o. Wɔ esiawo nyuie eye susɔea nye nya sue aɖe ko.
 
-Dzogoe. Gɔmesese si le eme na ame ko. Etsɔme ƒe kpɔɖeŋuwo wɔwɔ.
+| Sɔti | Gɔmesese si me kɔ | Nusɔsrɔ̃ tutuɖo |
 |---|---|---|
-Nya si wogblɔ le nyagbe "nyateƒenya" ŋu la fia be ele be woatu ʋɔtruwo katã ne zã do.
-** System**. Nusi tututu wole dodom (ɖoɖo, ɖoɖowɔɖi, mɔ̃ɖaŋununya) xɔ kple eƒe ʋɔtru si nu wodzena ɖo la le eme.
-Ðaseɖiɖi kpe ɖe eŋu be ɖoɖowɔɖia wɔa nu si wobia tso esi ɣesiaɣi. Efiaa eme kɔ nyuie be ne eƒo "dzesi" la, ʋɔtruwo katã aʋu.
+| **Nyatakakawo** | Nyagbɔgblɔ si sɔ pɛpɛpɛ tso nusi "dzɔdzɔe" *fia* ŋu | "Ele be woatu ʋɔtru ɖesiaɖe le zã me" |
+| **Mɔnu** | Nu ŋutɔŋutɔ si ŋu wole ŋku lém ɖo (ɖoɖowɔɖi aɖe, nutome sue aɖe, ɖoɖowɔɖi aɖe) | Xɔa kple eƒe gaƒoɖokui ƒe mɔ̃ |
+| **Kpeɖodzi** | Nyaʋiʋli sesẽ aɖe si nye be ɖoɖoa ɖoa nusi woɖo ɖi la gbɔ ɣesiaɣi | Ðeɖefia si me susu le be "lock" teti xea ʋɔtruwo katã |
 
 Eye nu enelia si na be woɖoa ŋu ɖe eŋu wu la:
 
@@ -87,9 +87,9 @@ Kpeɖodziwɔwɔ le se nu nye ŋusẽdɔ aɖe, elabena enana míekpɔnɛ be *afi 
 
 | Source of a bug | What it means | Can we prove it away? |
 |---|---|---|
-** Numeɖeɖewo**. Xexlẽdzesiwo alo sewo ŋutɔ mele eteƒe o (nu si mehiã le wo ŋu, gɔmeɖoanyi gbegblẽ) ** Ɛ̃*, tẽe la, esia nyea nu siwo dzi woda asi ɖo be woate ŋu aka ɖe edzii ƒe akpa aɖe ko.
-** Ewɔmɔnu**. Mɔnukpɔkpɔa mefia be woawɔ ɖe mɔfiame si le eme dzi pɛpɛpɛ o. Zi geɖe la, vodada siawo gblẽa kpeɖodzi siwo ŋu woate ŋu ake ɖo ɖi.
-**Ðeɖenunu aɖe si ŋu wotrɔ asi le.*** Nusi dzi nuɖoanyi bliboa nɔ te ɖo la va nye aʋatso. *Ao; ɖeko wòle abe ɖe wobui be nuwo ƒe gɔmeɖoɖoame mate ŋu atrɔ o ene.
+| **Ame ƒe nɔnɔme si wogblɔ** | Akɔntabubu alo seawo ŋutɔ mesɔ o (nɔnɔme si bu, gɔmesese gbegblẽ) | **Ẽ**, tẽ, esia nye formal verification ƒe aƒeme turf |
+| **Dɔwɔwɔa** | Sea do kpo nuteƒewɔwɔ ƒe nɔnɔme si sɔ la wɔwɔ nuteƒewɔwɔtɔe | Eƒe akpa aɖe; zi geɖe la, kpododonu mawo gblẽa kpeɖodzi siwo woate ŋu ade dzesii ɖi |
+| **Nukpɔsusu si gblẽ** | Nane si dzi nuɖoanyi bliboa ɖoa ŋu ɖo la va zua alakpa | Ao; susuwoe nye gɔmeɖoanyi si dzi womate ŋu aɖe akpɔtɔ o |
 
 Nuwo ƒe ɖoɖo sia le vevie wu alesi wòdze, eye akpa 2 kple 3 trɔ ɖe eŋu. Gbegblẽ siwo goglo wu si ate ŋu anɔ ɣaɣla ɖaa la nɔa **fefenu** me: nusi wòle be nuɖoɖoa nawɔe ŋuti akɔntabubuŋutise. Eye fefea nye nusiwo tututu mɔ̃ aɖe kpɔna dzea sii tẽa, nudzɔdzɔawo katã zi ɖeka kolia. Esia tae agbagba ɖesiaɖe si wodze tsɔ lé ŋku ɖe wo dzi gbã ɖo.
 
@@ -135,16 +135,16 @@ To keep this readable we simplified. Real specifications are written in precise 
 
 ## Nyagbewo ƒe hatsotsoa
 
-Nyagbe si gɔme woɖe le Eŋlisigbe me be "nuwɔwɔ".
+| Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
 |---|---|
-**Nuteƒewɔwɔ le mɔ dzi** Efia be woadae ɖe ɖoɖo aɖe si me la nu ne ele nanewo katã wɔm.
-Nya si wogblɔ le nyagbe "nuwɔwɔ ɖe ɖoɖo nu" ŋu la me kɔ nyuie.
-▪ **System**: Ðoɖowɔɖi, nutome sue alo ɖoɖo si tututu dzi wole ŋku lém ɖo.
-** Kpeɖodzi** Aɖaŋuɖoɖo siwo me nyawo le la ƒe ɖoɖo si nu wodzɔna ɖo, eye wo katã nyea nya ɖeka.
-▪ Kpeɖeŋutɔ si kpɔa kpeɖodziwo gbɔ / nuŋɔŋlɔdzesi ƒe numekuku ** Software (Lean, Rocq, Isabelle) siwo léa ŋku ɖe kpeɖodzia me afɔɖeɖe ɖesiaɖe ŋu.
-**Machine-checked**. Woŋlɔe ɖe kɔmpiuta dzi, ke menye amegbetɔwo ƒe nuŋlɔɖiwo ko o.
-Ŋutete si le ame ŋu be wòakpɔe adze sii la, enye nusi dzi woato akpɔ ŋusẽ ɖe eƒe susuwo kple seselelãmewo dzi. - Mateo 7:12.
-** Ðaseɖiɖi** Nɔnɔme si dzi kpeɖodzia nɔ te ɖo; ne enye alakpa la, ate ŋu ana kakaɖedzi manɔ anyi o.
+| **Dzidzedzekpɔkpɔ le se nu** | Eɖo kpe edzi, le akɔntabubu nu, be ɖoɖo aɖe ɖoa nɔnɔme aɖe si woɖo ɖi na nyawo katã gbɔ |
+| **Nyatakakawo** | Nyagbɔgblɔ si sɔ pɛpɛpɛ tso nusi "nuwɔna nyuitɔ" fia ŋu |
+| **Mɔnu** | Ðoɖowɔɖi, nutome sue, alo ɖoɖowɔɖi ŋutɔŋutɔ si ŋu wole ŋku lém ɖo |
+| **Kpeɖodzi** | Afɔɖeɖe siwo me susu le ƒe kɔsɔkɔsɔ si seɖoƒe li na si ɖoa nya aɖe anyi na nyawo katã |
+| **Kpeɖodzi ƒe kpeɖeŋutɔ / theorem prover** | Kɔmpiutadziɖoɖo (Lean, Rocq, Isabelle) si léa ŋku ɖe kpeɖodzi aɖe ƒe afɔɖeɖe ɖesiaɖe ŋu |
+| **Wolé ŋku ɖe mɔ̃a ŋu** | Woɖo kpe edzi afɔɖeɖe ɖesiaɖe to kɔmpiuta dzi, ke menye to amegbetɔ ƒe nuxexlẽ ɖeɖeko dzi o |
+| **Induction** | Kpeɖodzimɔnu aɖe: nyateƒee le gɔmedzedzea me, eye afɔɖeɖe ɖesiaɖe tsɔnɛ yia bubu dzi |
+| **Nu si wobu** | Nɔnɔme si dzi kpeɖodzia nɔ te ɖo; ne alakpae la, kakaɖedzinya la mate ŋu anɔ anyi o |
 
 ---
 

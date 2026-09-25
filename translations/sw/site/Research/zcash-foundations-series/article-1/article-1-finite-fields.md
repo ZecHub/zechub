@@ -1,7 +1,7 @@
 # Finite Fields: Nambari System Cryptography Anaishi Katika
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](/content-images/image-5-6e8a8950f8.webp)
+! ![ alt maandishi](/content-images/image-5-6e8a8950f8.webp)
 
 ### Kwa nini "wrapping kuzunguka" ni msingi siri ya Zcash
 
@@ -38,7 +38,7 @@ Tayari unatumia uwanja wa mwisho kila siku. Ni saa kwenye ukuta wako.
 
 On a 12-hour clock, numbers *wrap around*. Start at 10 o'clock, add 5 hours, and you don't land on "15 o'clock," you land on **3 o'clock**. The clock has only twelve positions, and counting past the top simply loops back to the start.
 
-! [ alt maandishi](/content-images/image-9-30b39f4cc5.webp)
+! ![ alt maandishi](/content-images/image-9-30b39f4cc5.webp)
 
 Mambo matatu tu yaliyotokea ndiyo kusudi la makala hii:
 
@@ -107,7 +107,7 @@ Hiyo sentensi ya pili ni janga kwa ajili ya hesabu. vitu mbili si sifuri kuzidis
 
 Mkuu, kwa ufafanuzi, hana mambo kama hayo. Hivyo mod mkuu, hakuna zero divisors inaweza kuonekana, kila kipengele nonzero anapata safi kinyume, na muundo ni uwanja sahihi.
 
-! [ alt maandishi](/content-images/image-8-573914db92.webp)
+! ![ alt maandishi](/content-images/image-8-573914db92.webp)
 
 > ** Reusable moja-lineer kwa ajili ya makala yako: ** * prime modulus katika, safi mgawanyiko nje. *
 
@@ -139,13 +139,13 @@ Huna haja ya kukumbuka hii. Unahitaji kujua kwamba ** mgawanyiko katika uwanja w
 
 Kuweka intuition pamoja, hapa ni kesi nzima katika ukurasa mmoja.
 
-Mali ya `F_p` Kwa nini mfumo wa faragha unataka.
+| Mali ya `F_p` | Kwa nini mfumo wa faragha unataka |
 |---|---|
-** Finite** Kompyuta huhifadhi kipengele chochote hasa; hakuna rounding, hakuna overflow, hakuna fuzz-pointi floating.
-** Wrap-karibu ** Erases "saizi", hivyo thamani kuvuja chochote kuhusu jinsi ilitolewa.
-** zote nne kazi kazi ** mapishi cryptographic (funguo, ahadi, uthibitisho) haja algebra halisi, si tu kuhesabu.
-** Ukubwa wa kuchagua ** Chagua 255-bit au 381-bit msingi na shamba ina vipengele zaidi kuliko kuna atomu katika ulimwengu inayoonekana; nadhani ni matumaini.
-** sahihi na deterministic ** pande mbili waaminifu computing kitu kimoja daima kupata matokeo sawa, ambayo ushahidi hutegemea.
+| **Mwisho** | Kompyuta huhifadhi kipengele chochote haswa; hakuna mzunguko, hakuna kufurika, hakuna uvujaji wa sehemu inayoelea |
+| **Funga** | Hufuta "ukubwa," kwa hivyo thamani haitoi chochote kuhusu jinsi ilivyotengenezwa |
+| **Shughuli zote nne zinafanya kazi** | Mapishi ya kidijitali (funguo, ahadi, uthibitisho) yanahitaji aljebra halisi, si kuhesabu tu |
+| **Ukubwa unaoweza kuchaguliwa** | Chagua prime ya biti 255 au biti 381 na sehemu ina elementi nyingi zaidi kuliko atomi katika ulimwengu unaoonekana; kukisia hakuna matumaini |
+| **Hasa na ya uhakika** | Wahusika wawili waaminifu wanaohesabu kitu kimoja hupata matokeo yanayofanana kila wakati, ambayo uthibitisho hutegemea |
 
 uwanja wa mwisho ni, katika kifungu kimoja, ** kikamilifu kufungwa, kikamilifu sahihi, kikamili kubwa uwanja kwa ajili ya hesabu.** Kila kitu kingine katika Zcash ni kujengwa kwa kucheza ndani yake.
 
@@ -159,7 +159,7 @@ You don't have to take "Zcash uses finite fields" on faith. Here's the concrete 
 - ** Orchard ** (sasa ulinzi kubuni) inatumia jozi ya curves kuitwa ** Pallas na Vesta ** (ya "Pasta" curves), ambayo mashamba kutumia primes takriban **255 bits ** muda mrefu.
 - The **note commitment**, the **nullifier**, and the numbers inside a **zero-knowledge proof** from Article 0 are all, at bottom, elements of one of these finite fields. When the protocol says "compute this commitment," it means "do this arithmetic mod that prime."
 
-! [ alt maandishi](/content-images/image-7-c81fe982f0.webp)
+! ![ alt maandishi](/content-images/image-7-c81fe982f0.webp)
 
 Hivyo jibu kwa Sura ya 0 ya wazi swali, * "ambapo mapishi siri kuja kutoka?" *, huanza hapa: ** kila kitu huanza kama hesabu katika uwanja wa mwisho. * Katika makala ijayo sisi kuchukua uwanja huo na kujenga mali halisi, pointi juu ya curve elliptic, ambayo kuwa funguo na ahadi.
 
@@ -184,15 +184,15 @@ Ili kukaa wageni-kirafiki sisi kurahisishwa baadhi ya mambo ya kweli. mashamba F
 
 ## Orodha ya maneno
 
-Neno. Maana ya Kiingereza ya kawaida.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-** Arithmetic ya moduli** Arithmeti inayozunguka baada ya kufikia thamani fulani, kama saa.
-**mod p** "Kugawanywa na `p` na kuweka iliyobaki".
-Mfumo wa hesabu ambapo kuongeza, kutoa, kuzidisha, na kugawanya kazi yote.
-** uwanja Finite `F_p`** Namba `0..p-1` na hesabu kufanyika mod msingi `p` |
-** Inverse (kinyume) ** Kipengele `a^(-1)` na `a x a^(-1) = 1`; "kugawanya na `a`" inamaanisha kuzidisha kwa hiyo.
-** Zero mgawanyiko **.Two nonzero maadili ambayo bidhaa ni sifuri; kitu ambacho kuharibiwa composite moduli.
-Nambari nzima kubwa kuliko 1 na hakuna sababu isipokuwa 1 na yenyewe.
+| **Hesabu ya kawaida** | Hesabu inayojikunja baada ya kufikia thamani isiyobadilika, kama saa |
+| **mod p** | "Gawanya kwa `p` na ubaki na iliyobaki" |
+| **Uwanja** | Mfumo wa nambari ambapo kuongeza, kutoa, kuzidisha, na kugawanya kazi zote |
+| **Sehemu yenye kikomo `F_p`** | Nambari `0..p-1` na hesabu iliyofanywa mod prime `p` |
+| **Kinyume (cha kubadilika)** | Kipengele `a^(-1)` na `a x a^(-1) = 1`"kugawanya kwa `a`"inamaanisha kuzidisha kwa hilo |
+| **Mgawanyiko sifuri** | Thamani mbili zisizo na sifuri ambazo bidhaa yake ni sifuri; kitu kinachoharibu moduli ya mchanganyiko |
+| **Mkuu** | Nambari nzima kubwa kuliko 1 bila vipengele isipokuwa 1 na yenyewe |
 
 ---
 

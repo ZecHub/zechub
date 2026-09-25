@@ -13,7 +13,7 @@ This guide explains how the payment flow works, how to set up an account, and ho
 1. [Kí ló dé tó o fi lo ZGo](#why-use-zgo)
 2. [Báwo ni ZGo ṣe ń ṣiṣẹ́](#how-zgo-works)
 3. [Lí ṣí àkáǹtì](#setting-up-an-account)
-4. [Jáde pẹ̀lú Xero](#zgo-with-xero)
+4. [ZGo pẹlu Xero](#zgo-with-xero)
 5. [ZGo pẹlu WooCommerce](#zgo-with-woocommerce)
 6. [Àwọn Ànímọ́](#features)
 7. [Àwọn àṣìṣe tó wọ́pọ̀](#common-mistakes)

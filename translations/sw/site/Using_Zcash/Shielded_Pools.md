@@ -171,7 +171,7 @@ Ona habari hii. [Ironwood](/zcash-tech/ironwood) kwa ajili ya kuboresha yenyewe,
 - ** Kutuma kutoka t-anwani ya T anwani**  umma kabisa, hakuna faragha. Daima kulinda fedha kwanza.
 - ** Kwa kudhani Orchard bado inakubali fedha**  ni matumizi tu tangu 28 Julai 2026. Thamani inaweza kuondoka, lakini hakuna kitu kipya kinachoingia.
 - **Kufanya kuchanganyikiwa kwa Sapling na Unified anwani**  Anwani za Sapling kuanza na `zs`. Unified anwani kuanza na `u1` na mfuko wapokeaji kadhaa, hivyo pool malipo yako ardhi katika inategemea ambayo mapokezi kwamba anwani hubeba
-- ** Kuondoka fedha katika shina pool**  Chipukizi imekuwa deprecated kwa miaka; hoja hizo fedha nje
+- **Kuacha fedha kwenye bwawa la Sprout ** — Sprout imeacha kutumika kwa miaka mingi; kuhamisha fedha hizo
 - ** Kutarajia uhamiaji kuwa kabisa asiyeonekana**  kiasi kuvuka turnstile ni umma, hata kama mtumaji na mpokeaji si wazi.
 - ** Kufikiria t → z (kuzuia) ni binafsi kabisa**  kitendo cha kuzuia yenyewe inaonekana kwenye mnyororo; yaliyomo si
 

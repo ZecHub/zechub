@@ -45,12 +45,12 @@ Awon ohun to wa nibe ni awon olopaa maa n foju ba. **Ibi ti o gba kiakia naa lo 
 
 Zebra ṣe atẹjade awọn ohun-ini wọnyi fun igbasilẹ kọọkan:
 
-Ànímọ́. Ète.
+| Ohun ìní | Ète |
 |---|---|
-| `zebrad-<version>-<arch>.tar.gz` Àpamọ́ ìsọfúnni méjì.
-| `zebrad-<version>-<arch>.tar.gz.sha256` Àkójọ àyẹ̀wò fún-àkọsílẹ̀.
-| `SHA256SUMS` ì ì ¬ë¥1⁄4 í ë ¤.
-| `SHA256SUMS.sigstore.json` ☐ Ìforúkọsílẹ̀ ìdìpọ̀ àwọn ìwé-ìpamọ́ Sigstore `SHA256SUMS` |
+| `zebrad-<version>-<arch>.tar.gz` | ibi ipamọ alakomeji |
+| `zebrad-<version>-<arch>.tar.gz.sha256` | Ṣíṣàyẹ̀wò fún fáìlì kọ̀ọ̀kan |
+| `SHA256SUMS` | àwọn àkójọ owó fún gbogbo àwọn ilé ìkọ́lé |
+| `SHA256SUMS.sigstore.json` | Ìfọwọ́sowọ́pọ̀ àpò ìsọ̀rí Sigstore `SHA256SUMS` |
 
 ### Ìgbésè 1  Ṣe àtúnyẹ̀wò
 
@@ -174,15 +174,15 @@ X509v3 Subject Alternative Name: critical
 
 Orukọ Ẹya yiyan jẹ idanimọ. O pe ibi ipamọ, faili ṣiṣan iṣẹ gangan ati aami naa. Sigstore ṣe afikun data meta siwaju sii ni awọn itẹsiwaju aṣa:
 
-Ẹ̀ka: Iye fún àtúnṣe 6.3.0
+| Pápá | Iye fun v6.3.0 |
 |---|---|
-Ẹ̀ka tí ó ń ṣe àdàkọ OIDC. `https://token.actions.githubusercontent.com` |
-Àkójọ ìsọfúnni. `https://github.com/ZcashFoundation/zebra` |
-Ṣẹ̀dá ìmúṣẹ. `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
-Olùdájọ́: `refs/tags/v6.3.0` |
-Àyíká oníṣe. `github-hosted` |
-Ṣiṣẹ́ ìtòlẹ́sẹẹsẹ. `.../actions/runs/31424510487/attempts/1` |
-Àkọlé àwòrán Ìwòye ibi ìpamọ́. `public` |
+| Olùfúnni OIDC | `https://token.actions.githubusercontent.com` |
+| Ibi ipamọ orisun | `https://github.com/ZcashFoundation/zebra` |
+| Kọ́ ìdúróṣinṣin | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| Ìtọ́kasí | `refs/tags/v6.3.0` |
+| Àyíká ìsáré | `github-hosted` |
+| Iṣẹ́ ìṣiṣẹ́ | `.../actions/runs/31424510487/attempts/1` |
+| Ìríran ibi ìpamọ́ | `public` |
 
 Gbogbo àwọn wọ̀nyí ni a lè ṣayẹwo. Ìsọ ìdìpọ̀ náà gbọ́dọ̀ bá àmì tí ó wà nínú ibi-ipamọ; ìgbésẹ̀ iṣẹ́ yẹ kí o wà àti pé kó jẹ ti gbogbo ènìyàn.
 
@@ -217,11 +217,11 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 Àkójọ náà ní àkọsílẹ̀ Rekor tó fi hàn pé a tẹ ìforúkọsílẹ ̀ rẹ ̀ síta fún gbogbo ènìyàn, àfikún-kìlọ:
 
-Àgbàlagbí. Iye.
+| Pápá | Iye |
 |---|---|
-Àkọsílẹ̀ àkọọ́lé ìlà. `2412071838` |
-Irú ìléwọ́. `hashedrekord v0.0.1` |
-Ó ti wà ní 2026-08-10 19:43:09 UTC.
+| Àtòjọ àkọsílẹ̀ Rekor | `2412071838` |
+| Irú ìwọlé | `hashedrekord v0.0.1` |
+| Ṣíṣepọ̀ ní | 2026-08-10 19:43:09 UTC |
 
 Eyi ni ohun ti o mu ki lilo aṣiri ṣiṣi ṣe awari. Ibuwọlu kan ti ko han ninu iwe-akọọlẹ, tabi farahan ni akoko aiṣe deedee, jẹ ifihan agbara to tọ lati ṣiṣẹ lori. Ṣe afiwe akoko iṣọpọ pẹlu ikede itusilẹ naa.
 
@@ -233,13 +233,13 @@ Eyi ni ohun ti o mu ki lilo aṣiri ṣiṣi ṣe awari. Ibuwọlu kan ti ko han
 
 Zallet ṣe atẹjade awọn ohun-ini oriṣiriṣi:
 
-Ànímọ́. Ète.
+| Ohun ìní | Ète |
 |---|---|
-| `zallet-<version>-<platform>.tar.gz` Àpamọ́ ìsọfúnni méjì.
-| `.tar.gz.asc` ì ì í GPG.
-| `.tar.gz.intoto.jsonl` Èrí láti ibi tí SLSA ti wá.
-| `.tar.gz.provenance.json` Àkọsílẹ̀ àtòjọ.
-| `.tar.gz.sbom.spdx` Àtòjọ àwọn ohun èlò fún ètò ìṣiṣẹ́.
+| `zallet-<version>-<platform>.tar.gz` | ibi ipamọ alakomeji |
+| `.tar.gz.asc` | Ibuwọlu GPG ti a ya sọtọ |
+| `.tar.gz.intoto.jsonl` | Ẹ̀rí Ìbẹ̀rẹ̀ SLSA |
+| `.tar.gz.provenance.json` | metadata orisun |
+| `.tar.gz.sbom.spdx` | ìwé-àkọsílẹ̀ ohun èlò kọ̀mpútà |
 
 ### Ìgbésè 1  Mọ kókó ìforúkọsílẹ̀ náà kí o tó lọ wá a.
 
@@ -330,12 +330,12 @@ O yoo ri ikilọ yi lori fere gbogbo idaniloju ayafi ti o ba fi ami-ami si bọt
 
 Zcash release signing moved from Electric Coin Company to Zcash Open Development Lab in 2026, after ZODL was formed in January 2026 by the former ECC engineering and product team.
 
-Àkójọ àdàkọ:Old key. New key.
+| | Kọ́kọ́rọ́ àtijọ́ | Kọ́kọ́rọ́ tuntun |
 |---|---|---|
-Àmì ìka. `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
-UID Zcash Ọ̀gá Àkọlé Ìforúkọsílẹ (ECC) `<sysadmin@z.cash>` | Zcash Open Development Lab (ZODL) `<sysadmin@zodl.com>` |
+| Ìka ìka | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
+| UID | Kọ́kọ́ ìfọwọ́sowọ́pọ̀ ọ̀gá Zcash (ECC) `<sysadmin@z.cash>` | Ilé Ìdàgbàsókè Zcash Open (ZODL) `<sysadmin@zodl.com>` |
 | Type | RSA 3072-bit, created 2023-06-19 | RSA 4096-bit, created 2026-03-23, expires 2028-03-22 |
-A tẹ̀ ẹ́ jáde ní: `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
+| A tẹ̀ ẹ́ jáde ní | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
 Àkọsílẹ̀ àkókò tí a tẹ jáde: kókó tuntun ti a ṣe 2026-03-23, ìfilọ́lẹ̀ 2026- 03-27, wíwọlé fún àdáni láti 2026-4-23, pípaáṣẹ kíkéde kọ́rọ̀ ECC àtijọ́ ní ètò sí 2026-6-23 .
 
@@ -425,12 +425,12 @@ Ojúlówó ìsọfúnni tí ó wà nínú àwọn àdàkọ náà kò ní jẹ́
 
 ## Apá 4  Àtẹ ìsọfúnni
 
-Project  Àwọn àtúnṣe tí a tẹ̀ jáde ní Method  Ibi tí kókó náà ti wá  Àdàkọ:Copyrighted by the author.
+| Iṣẹ́ Àgbékalẹ̀ | Àwọn ìtẹ̀jáde tí a tẹ̀ jáde ní | Ọ̀nà | Ibi ti bọtini naa ti wa |
 |---|---|---|---|
-"Ìgbẹ́ Zebra" `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore ìdìpọ̀. Kò sí kókó  Àmì CI nípasẹ̀ GitHub OIDC
-Ìtàn nípa Zallet. `github.com/zcash/zallet/releases` GPG tí a yà sókè. `.asc`, ibi tí SLSA ti wá, SBOM. `apt.z.cash/zodl.asc`  àkọ́kọ́ `0338 34DD…58E2 6AB1`, wíwọlé kókó-ìpínlẹ̀ `1FE9 9324…23F0 617F` |
-**zcashd** . *retired*  . ó dúró ní block 3,417,100 on 2026-07-18. má ṣe fi sori ẹrọ.
- Zodl (tí a mọ̀ sí Zashi) App Store / Google Play; `zodl-inc` on GitHub  ìdìbò ilé-ìpamọ́; àwọn ẹ̀dà Android tó dá dúró tí wọ́n ti fọwọ́ sí GPG ZODL kókó fún àtúnṣe àkọsílẹ̀ transition statement
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Àkójọ Sigstore | Ko si bọtini — idanimọ CI nipasẹ GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | GPG tí a yà sọ́tọ̀ `.asc`, SLSA ipilese, SBOM | `apt.z.cash/zodl.asc` - akọkọ `0338 34DD…58E2 6AB1`, ìfọwọ́sowọ́pọ̀ subkey `1FE9 9324…23F0 617F` |
+| **zcashd** | *fẹ̀yìntì* | — | Wọ́n dá dúró ní block 3,417,100 ní 2026-07-18. Má ṣe fi sori ẹrọ. |
+| **Zodl** (tí a mọ̀ sí Zashi tẹ́lẹ̀) | Ìtajà Ohun èlò / Google Play; `zodl-inc` lórí GitHub | Ìfọwọ́sowọ́pọ̀ ní ilé ìtajà; àwọn onípele méjì Android tí ó dúró ṣinṣin tí a fi GPG sí | Kọ́kọ́rọ́ ZODL fún gbólóhùn ìyípadà kọ̀ọ̀kan |
 
 > **Nọ́tà orúkọ:** Zashi ni a tún ṣe àdàkọ sí **Zodl** ní 2026  àkọ́kọ́ lórí App Store, lẹ́yìn náà lórí Google Play. Àwọn ìwé atọ́nà tí ó ti pẹ̀lẹ́ tó ń tọka si "Zashi" ṣàpèjúwe ìlà ìdílé apamọwọ kannáà.
 

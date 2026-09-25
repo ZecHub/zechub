@@ -29,10 +29,10 @@ Blockchains na-eji cryptography arụ ọtụtụ ọrụ dị iche iche:
 
 | Cryptographic tool | What it does | Quantum impact |
 | --- | --- | --- |
-◯ Nkwekọrịta dijitalụ ◯ Ihe akaebe na onye nwe ya nyere ikike imefu ego ◯ E nwere nnukwu ihe ize ndụ maka usoro elliptic-curve ndị a na-ahụkarị
-◯ Ọrụ hash ◯ Ịmepụta adreesị, nkwekọrịta, osisi Merkle, na ihe ịma aka ◯ Ihe ize ndụ dị ala, ma nchebe dị mkpa
+| Mbinye aka dijitalụ | Gosi na onye nwe ya nyere ikike imefu ego | Ihe egwu dị elu maka sistemụ elliptic-curve nkịtị |
+| Ọrụ Hash | Wulite adreesị, nkwa, osisi Merkle, na ihe ịma aka | Ihe egwu dị ala, mana oke nchekwa dị mkpa |
 | Zero-knowledge proofs | Prove shielded transactions are valid without revealing details | Depends on the proof system and assumptions |
-Nkwekọrịta igodo. Na-enyere wallets aka izochi data maka ndị na-anata ya. Ọ chọrọ nlezianya nyochaa n'okpuru ụdị egwu quantum.
+| Nkwekọrịta dị mkpa | Na-enyere aka zoo data ndetu maka ndị nnata | Ọ dị mkpa ka a nyochaa nke ọma n'okpuru ihe nlereanya ihe iyi egwu quantum |
 
 Kọmputa kọntaktị dị ike nke ga-eme ka ọtụtụ ihe ndị e ji edebanye aha n'akwụkwọ na kọmputa taa ghara ịdị irè, tinyere ihe ndị a na-akpọ elliptic-curve signatures.
 
@@ -88,14 +88,14 @@ Nkọwa ya dị mkpirikpi:
 
 ## Zcash Risk Map
 
-Ebe. Nkọwa nke onye mbido. Nchegbu post-quantum.
+| Mpaghara | Nkọwa onye mbido | Nchegbu mgbe ọnụọgụgụ gasịrị |
 | --- | --- | --- |
 | Transparent addresses | Public addresses and public transaction graph | Similar risks to other transparent blockchains |
-◯ Ikike imefu ego ◯ Ihe akaebe na onye ọrụ nwere ikike imefu ihe ◯ Atụmatụ mbinye aka nwere ike ịchọ nnọchi ma ọ bụ ịkwaga
-◯ Ihe edeturu echebe ◯ Ndekọ nzuzo nke uru dị n'ime ọdọ mmiri echedoro ◯ Ụfọdụ components nwere ike ịchọ echiche ọhụrụ ma ọ bụ ngwaọrụ mgbake
+| Mefu ikike imefu | Ihe akaebe na-egosi na enyere onye ọrụ ohere imefu ego | Atụmatụ mbinye aka nwere ike ịchọ nnọchi ma ọ bụ mbugharị |
+| Ihe ndetu echekwara | Ihe ndekọ nkeonwe nke uru n'ime ọdọ mmiri echebe | Ụfọdụ akụkụ nwere ike ịchọ echiche ọhụrụ ma ọ bụ ngwaọrụ mgbake |
 | zk-SNARKs | Proofs that shielded transactions are valid | Proof-system assumptions need review |
-◯ Nnyocha obere akpa ◯ Otú obere akpa si achọta ma kọwaa akwụkwọ ozi ndị e nwetara ◯ Ọ dị mkpa ka e nyochaa nkwekọrịta igodo na koodu nzuzo
-Mgbanwe. Ịkwaga ego na cryptography dị nchebe. Kwesịrị izere ma ego ọnwụ na nzuzo leaks.
+| Nnyocha obere akpa | Otu esi achọta ma detuo akwụkwọ ndị enwetara na obere akpa ego | Nkwekọrịta dị mkpa na ihe e dere ede kwesịrị inyocha |
+| Mbugharị | Ịkwaga ego na nchekwa nzuzo dị nchebe | Ga-ezere ma mfu ego na mfu nzuzo |
 
 ## Otú Zcash Si Na-akwadebe
 

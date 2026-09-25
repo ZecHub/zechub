@@ -11,7 +11,7 @@ Zingo Lab Cyan wɔa dɔ abe Shielded DAO ene. Míedzraa míaƒe ga ɖo ɖe gaxɔ
 ### Zingo! Gakotoku ([Github](https://github.com/zingolabs/zingo-mobile))
 Zingo Wallet nye Zcash gakotoku si me nusianu le si wowɔ na ezãla xɔlɔ̃wɔwɔtɔe, togbɔ be nɔnɔme deŋgɔ aɖewo le eme na ezãla siwo de ŋgɔ wu hã. Edoa alɔ transparent, Sapling kple Orchard pools, adrɛsgbalẽ le esi na fexexe enuenu eye wòle gbegbɔgblɔ vovovowo me. Enye gakotoku gbãtɔ si do alɔ Orchard eye wòwɔ NU5 ƒe nɔnɔmewo ŋudɔ.
 
-Zingo ƒe nɔnɔme veviwo dometɔ ɖeka! nye ŋutete si le esi be wòazã Memo ƒe akpaa atsɔ ana gɔmesese veviwo tso wò asitsatsa ŋu.
+Zingo! nye ŋutete si le esi be wòazã Memo ƒe akpaa atsɔ ana gɔmesese veviwo tso wò asitsatsa ŋu.
 
 Zingo! la li na asitelefonwo kple PC-wo. Àkpɔ nusiwo katã woɖe ɖe go [le afisia](https://zingolabs.org/)
 

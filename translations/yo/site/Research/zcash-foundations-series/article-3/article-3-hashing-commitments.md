@@ -34,12 +34,12 @@ A **hash iṣẹ** gba eyikeyi data ni gbogbo, kan nikan lẹta tabi kan gbogbo 
 
 Ẹ̀rí ìka tí ó dára ní àwọn ohun-ìní mẹ́rin.
 
-◯ Ànímọ́ ◯ Ìtumọ̀ tó ṣe kedere ◯ Ìdí tó fi ṣe pàtàkì
+| Ohun ìní | Ìtumọ̀ lásán | Idi ti o fi ṣe pataki |
 |---|---|---|
-**Deterministic**. Ohun kan náà tí a fi wọlé máa ń fún wa ní àmì ìka kan náà. O lè tún àtúnyẹ̀wò àmì-ìka kan ṣe nígbàkigbà.
-**Fast forward**. Ṣíṣàmúlò àwọn àmì ìka yára. Ó wúlò láti lò níbikíbi.
-** One-way (preimage resistant) ** Ti a ba fun ni ami ika, o ko le ri ohun ti o wọle. O fi data atilẹba pamọ.
-Ẹ ò lè rí ìléwọ̀n méjì tó yàtọ̀ síra tí wọ́n ní àmì ìka kan náà. Ẹnikẹ́ni ò lè ṣe àdàkọ rẹ̀.
+| **Ipinnu** | Ìtẹ̀wọlé kan náà máa ń fúnni ní ìka kan náà nígbà gbogbo | O le tun ṣayẹwo itẹka rẹ nigbakugba |
+| **Yára síwájú** | Iṣiro ika ọwọ naa yara | Wulo lati lo nibi gbogbo |
+| **Ọ̀nà kan ṣoṣo (ó dúró ṣinṣin sí àwòrán ìṣáájú)** | Nítorí pé o ní ìka ọwọ́, o kò le rí ohun tí ó ṣe é | Ó fi ìwífún àtilẹ̀wá pamọ́ |
+| **Rọrùn láti kọlu** | O ko le ri awọn titẹ sii oriṣiriṣi meji pẹlu itẹka kanna | Kò sí ẹni tó lè dojú ìjà kọ ara rẹ̀ |
 
 Àṣà mìíràn tó tún mú kí àwọn àlàfo ọwọ́ dà bí ohun ìyanu ni:
 
@@ -81,12 +81,12 @@ Láti **ṣí** (fi hàn) àdéhùn náà nígbà tó bá yá, o máa ń tẹ `v
 
 Àwọn ohun èlò méjì ló wà, Zcash sì ń lo àwọn méjèèjì.
 
- Ìpín tí ó dá lórí ìsọfúnni (hash-based commitment)  Àdéhùn tí a gbé kalẹ̀ (from Article 2) 
+| | **Ifaramo ti o da lori Hash** | **Ìfẹ́ Pedersen** (láti inú Àpilẹ̀kọ 2) |
 |---|---|---|
-Ohun tí wọ́n máa ń ṣe. `H(v, r)` | `v.G + r.H` (ó ń tọ́ka sí àlàfo kan)
-Àfipamọ́ kúrò lọ́wọ́... `r` Àwọn tí a kò yàn `r` |
-ìdìmú láti inú àdìdì ìkọlù ẹ̀kùn ẹ̀wù elliptic-curve trapdoor (ECDLP)
-Agbára àkànṣe. Rọrun ati ki o yara. Awọn adehun ** ṣafikun ** (homomorphic)
+| Ohunelo ohunelo | `H(v, r)` | `v.G + r.H` (àwọn ojú àmì lórí ìlà kan) |
+| Fipamọ́ sí | lairotẹlẹ `r` | lairotẹlẹ `r` |
+| Ìdè láti | resistance ikọlu | Ìlẹ̀kùn ìtẹ̀gùn elliptic-curve (ECDLP) |
+| Agbara pataki | rọrun ati ki o yara | Àwọn ìlérí **ṣe àfikún** (àwòrán oníṣe) |
 
 Ìlà ìkẹyìn yìí ni ìdí tí àwọn àdéhùn Pedersen fi ṣe pàtàkì púpọ̀ nínú Zcash. `commit(v_1) + commit(v_2)` jẹ́ ìwé-ìwé tó bágbà mu `commit(v_1 + v_2)`, àgbékalẹ̀ náà lè fi hàn nígbà tí ó bá yá pé owó tó wọlé dọ́gba sí owó tó jáde nípa fífi àwọn àdéhùn pọ̀, gbogbo rẹ̀ láìsí wípé iye kan ṣoṣo.
 
@@ -110,10 +110,10 @@ Nítorí náà, àwọn onímọ̀ ìjìnlẹ̀ tí wọ́n ń kọ Zcash ṣe �
 
 Zcash ti lo awọn hash oriṣiriṣi kọja awọn apẹrẹ rẹ, ọkọọkan ti a yan fun iṣẹ naa:
 
- Design  Hashes tí a lò  Where 
+| Apẹrẹ | Àwọn ìṣẹ́ tí a lò | Nibo |
 |---|---|---|
-**Sprout** (èyí tó kọ́kọ́ jáde) **SHA-256** Ìpinnu àkọsílẹ̀ àti igi náà
-**Sapling** **Pedersen hashes**, pẹ̀lú **BLAKE2**. Pedersen fún àwọn àdéhùn àkọsílẹ̀ àti igi Merkle; BLAKE 2 fún ìmújáde kókó àti àwọn ohun tí kò nídìí.
+| **Sprout** (àkọ́kọ́) | **SHA-256** | Ṣe akiyesi awọn ileri ati igi naa |
+| **Sapling** | ** Pedersen hashes ***, pẹlu ** BLAKE2 *** | Pedersen fún àwọn ìlérí àkọsílẹ̀ àti igi Merkle; BLAKE2 fún ìyọrísí pàtàkì àti àwọn ohun tí kò ní ìtumọ̀ |
 | **Orchard** (current) | **Sinsemilla**, plus **Poseidon** | Sinsemilla for note commitments and the Merkle tree; Poseidon for the nullifier, all designed for arithmetic circuits |
 
 The names to recognize are **Pedersen** and **Sinsemilla** (commitment-style hashes built from curve points, so they inherit the "adds up" superpower and prove cheaply) and **Poseidon** (a field-arithmetic hash purpose-built for zero-knowledge circuits). When Article 0 said a note's contents are sealed into a commitment, *this* is the machinery doing the sealing.
@@ -140,16 +140,16 @@ A ṣe simplified lati jẹ ki awọn nkan mọ. `v` àti `r` are encoded and wh
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
 | **Hash function** | Crushes any data into a short fixed-size fingerprint (digest) |
-**Digest**. Ẹ̀rí ìparẹ́ tí ó jáde nínú iṣẹ́ hash kan.
-** Àkọlé àwòrán resistance ** Kò lè yí àdàkọ padà sí ìkápá rẹ̀ (ọ̀nà kan)
-A ò lè rí ìsọfúnni méjì tó bára mu.
-**Avalanche effect** Ìyípadà ìsọfúnni díẹ̀ yí àdàkọ náà padà pátápátá.
-** Ìdánilójú ** Lock iye kan nísinsìnyí, ṣí i payá nígbà tó bá yá, kò lè purọ́ nípa rẹ̀.
-** Ohun tó ń mú kí èèyàn di afọ́jú (`r`) **. Nọmba àràbà tuntun tí ó mú kí ìmúṣẹ pa mọ́.
-**ZK-friendly hash** A hash ti a kọ lati inu iṣiro aaye ki o jẹ olowo poku lati fi idi rẹ mulẹ.
+| **Ìròyìn** | Ìtẹ̀jáde ìtẹ̀jáde iṣẹ́ hash kan |
+| **Idilọwọ aworan iwaju** | Kò le yí ìṣàyẹ̀wò padà sí ìtẹ̀síwájú rẹ̀ (ọ̀nà kan ṣoṣo) |
+| **Idilọwọ ikọlu** | Kò le rí àwọn ìtẹ̀síwájú méjì pẹ̀lú ìṣàfihàn kan náà |
+| **Ipa òjò dídì** | Àyípadà ìṣírò kékeré kan yí ìṣàyẹ̀wò padà pátápátá |
+| **Ìfaramọ́** | Ti iye kan pa nisinsinyi, ṣafihan nigbamii, ko le purọ nipa rẹ |
+| **Okùnfà ìfọ́jú (`r`)** | Nọ́mbà tuntun tí a kò lè rí tí ó ń fi ìfaramọ́ pamọ́ |
+| **Hash ti o ni ore-ZK** | Hash tí a fi ìṣirò pápá kọ́, nítorí náà ó rọrùn láti fi hàn |
 
 ---
 
