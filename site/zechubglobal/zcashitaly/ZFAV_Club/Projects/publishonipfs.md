@@ -14,7 +14,7 @@ Quando un utente aggiunge un file a IPFS, il file viene suddiviso in piccoli pez
 
 In questo modo si garantisce la ridondanza e la tolleranza ai guasti, rendendo al contempo difficile che un singolo nodo diventi un singolo punto di guasto o di controllo. 
 
-Leggere [Introduzione a IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)
+Leggere [Introduzione a IPFS](https://medium.com/@Consensys/an-introduction-to-ipfs-9bba4860abd0)
 
 
 
