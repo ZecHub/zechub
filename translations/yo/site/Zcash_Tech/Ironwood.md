@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Igi irin-igi
+# Ironwood
 
 > Ironwood ti ṣiṣẹ lori Zcash mainnet ni bulọọki 3,428,143 ni Oṣu Keje 28, 2026 UTC, ati pe o wa laaye lati igba naa.
 

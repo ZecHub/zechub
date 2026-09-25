@@ -24,7 +24,7 @@
 | Nu si nye | Nyatakakawo Tsitotsito |
 |-------------------|---------|
 | **Nyatakakadzraɖoƒe** | [https://zcash.me/](https://zcash.me/) |
-| **Twitter** ƒe nyatakakadzraɖoƒea | [@zcashme ƒe nyawo](https://x.com/zcashme) |
+| **Twitter** | [@zcashme ƒe nyawo](https://x.com/zcashme) |
 | **Nyatakaka ƒe Nɔnɔme**| `zcash.me/[username]` |
 | **Nɔnɔme** | Live (kple nɔnɔme siwo le ŋgɔyiyi me) |
 
@@ -68,7 +68,7 @@
 | Nu si nye | Nyatakakawo Tsitotsito |
 |-------------------|---------|
 | **Nyatakakadzraɖoƒe** | [https://tipz.cash/](https://tipz.cash/) |
-| **Twitter** ƒe nyatakakadzraɖoƒea | [@tipz_cash dzi](https://x.com/tipz_cash) |
+| **Twitter** | [@tipz_cash dzi](https://x.com/tipz_cash) |
 | **Nyatakaka ƒe Nɔnɔme**| `tipz.cash/@[username]` |
 | **Nɔnɔme** | Agbe |
 

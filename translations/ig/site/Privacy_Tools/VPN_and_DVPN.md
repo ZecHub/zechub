@@ -73,7 +73,7 @@ Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favor
 
 ## VPN ndị ọzọ na-akwado ịkwụ ụgwọ zcash:-
 
- 3. [__ ExpressVPN__](https://www.expressvpn.com/)
+ 3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)
  5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
  6. [__Private Internet Access (PIA) ]__](https://www.privateinternetaccess.com/)

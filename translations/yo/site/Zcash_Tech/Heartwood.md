@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Igi àyà igi
+# Heartwood
 
 > Heartwood lọ laaye lori Zcash mainnet ni bulọọki 903,000 (Oṣù Keje 16, 2020 UTC).
 
@@ -96,4 +96,4 @@ Coinbase outputs had to be transparent, so a miner's newly minted reward always 
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Òdòdó òyìnbó](../zcash-tech/blossom) · Àtúnṣe: [Àgbàlá ilé](../zcash-tech/canopy)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Blossom](../zcash-tech/blossom) · Àtúnṣe: [Canopy](../zcash-tech/canopy)

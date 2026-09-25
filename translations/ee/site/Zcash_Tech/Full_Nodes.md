@@ -70,7 +70,7 @@ Kpɔ egbɔ be yexlẽ Zebra ƒe agbalẽa hena ɖoɖowɔwɔ ŋuti mɔfiamewo, ey
 
 [Zebra ƒe Agbalẽa](https://zebra.zfnd.org) 
 
-[Masɔmasɔ](https://discord.gg/uvEdHsrb)
+[Discord](https://discord.gg/uvEdHsrb)
 
 
 
@@ -90,7 +90,7 @@ Esiawo nye kpɔɖeŋu mɔ̃ siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakaka
 
 [Coinmetrics ƒe xexlẽdzesiwo](https://docs.coinmetrics.io/info/assets/zec)
 
-[Blockchair ƒe zikpui](https://blockchair.com/zcash)
+[Blockchair](https://blockchair.com/zcash)
 
 Àte ŋu akpe asi ɖe network la ƒe ŋgɔyiyi hã ŋu to dodokpɔwo wɔwɔ alo ŋgɔyiyi yeyewo dodo ɖe ŋgɔ & metrics nana me. 
 

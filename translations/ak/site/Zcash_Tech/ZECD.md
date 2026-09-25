@@ -283,7 +283,7 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## ZECD ne zcashd ne Zaino ntam
 
-| | zcashd a wɔde yɛ adwuma | Zaino | ZECD |
+| | zcashd | Zaino | ZECD |
 |--|--------|-------|------|
 | Dwuma a Di | Node + sika kotoku a ɛyɛ ma | Indexer (ɛsi lightwalletd ananmu) | Wallet server nkutoo |
 | Kasa | C++ | Rust | Rust |

@@ -35,7 +35,7 @@ Ide ihe kachasị mma nwere usoro mmụta. Ọ ga-ekwe omume ịmụta isi ihe n
 banye na X, Google, Discord, Telegram
 - [Bing Dalle3](https://www.bing.com/create) - free version nwere ike ịdị nwayọ
 - [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - obere ego maka n'efu
-- [Ihe e sere ese](https://ideogram.ai/login) - Ọ dị mma n'ịmepụta ederede a na-agụ nke ọma na ihe oyiyi
+- [Ideogram](https://ideogram.ai/login) - Ọ dị mma n'ịmepụta ederede a na-agụ nke ọma na ihe oyiyi
 - [Ebe Egwuregwu AI](https://playgroundai.com/) - ọnọdụ n'efu, ndenye aha site na $ 15 / ọnwa
 - [Clipdrop site na nkwụsi ike.ai](https://clipdrop.co/stable-diffusion)
 - [StarryAI](https://www.starryai.com) - 5 ọrụ nkà/ụbọchị
@@ -58,7 +58,7 @@ banye na X, Google, Discord, Telegram
 
 - [RunwayML GEN-2](https://runwayml.com/) (nnwale n'efu, ndenye aha site na $ 15 / ọnwa)
 - [Pika labs esemokwu Bot](https://www.pika.art/) (Free ATM?)
-- [Elai](https://elai.io/) (ndenye aha site na $23/ọnwa)
+- [elai](https://elai.io/) (ndenye aha site na $23/ọnwa)
 
 ### Ngwá ọrụ ntụgharị vidiyo / ọdịyo:
 
@@ -73,11 +73,11 @@ banye na X, Google, Discord, Telegram
 
 ### Igwe na-emepụta egwu
 
-- [Ihe osise dị n'elu](https://soundraw.io/) - nwalee n'efu - (ndenye aha site na $16.99/ọnwa)
+- [Soundraw](https://soundraw.io/) - nwalee n'efu - (ndenye aha site na $16.99/ọnwa)
 - [beatoven.ai](https://www.beatoven.ai/) - nwalee n'efu - (ndenye aha site na $ 3 / ọnwa ma ọ bụ $ 1 / nkeji emepụtara)
 - [Soundful.com](https://soundful.com/) - nwalee n'efu - (ndenye aha site na $ 59.99 / ọnwa ma ọ bụ 29.99 / m kwa afọ)
-- [ụda mmiri](https://boomy.com/) - nwalee n'efu - (ndenye aha site na $9.99/ọnwa)
-- [N'olu dara ụda](https://www.loudly.com/) - nwalee n'efu - (ndenye aha site na $7.99/ọnwa)
+- [boomy](https://boomy.com/) - nwalee n'efu - (ndenye aha site na $9.99/ọnwa)
+- [Loudly](https://www.loudly.com/) - nwalee n'efu - (ndenye aha site na $7.99/ọnwa)
 - [Mubert](https://mubert.com/) - nwalee n'efu - (ndenye aha site na $ 14 / ọnwa)
 
 ### Ọkpụkpọ olu
@@ -85,5 +85,5 @@ banye na X, Google, Discord, Telegram
 - [egwu.ht](https://play.ht/) - n'efu - (ndenye aha site na $ 39 / ọnwa)
 - [ElevenLabs](https://elevenlabs.io/) - n'efu - (ndenye aha site na $ 5 / ọnwa)
 - [Murf](https://murf.ai/) - n'efu - (ndenye aha site na $29/ọnwa)
-- [Ha yiri](https://www.resemble.ai/) - nwalee n'efu (mgbe $ 0.006 kwa sekọnd)
-- [Nchịkọta](https://www.synthesia.io/) - (ndenye aha site na $22.5/ọnwa)
+- [Resemble](https://www.resemble.ai/) - nwalee n'efu (mgbe $ 0.006 kwa sekọnd)
+- [Synthesia](https://www.synthesia.io/) - (ndenye aha site na $22.5/ọnwa)

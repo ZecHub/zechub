@@ -20,7 +20,7 @@ O tun le mina ZEC, sugbon ti o jẹ maa ko ṣee ṣe fun apapọ onibara.](http
 
 ## Awọn paṣipaarọ ti o ṣe atilẹyin awọn yiyọ kuro ni aabo
 
-**[Àwọn Ìbejì](https://www.gemini.com)**
+**[Gemini](https://www.gemini.com)**
 
 Gemini jẹ paṣipaarọ cryptocurrency ti a ṣe ilana, apamọwọ, ati olutọju ti o jẹ ki o rọrun ati ailewu lati ra ZEC, Ether, ati awọn owo-iworo miiran. O le rà ZEC pẹlu fiat tabi awọn owo crypto miiran.
 
@@ -37,7 +37,7 @@ Flyp.me is a no sign-up crypto exchange. It was one of the safest and most priva
 Pupọ awọn paṣipaarọ pataki ṣe atilẹyin Zcash. Wo nibi fun atokọ alaye: [nibi](https://zechub.wiki/using-zcash/custodial-exchanges).
 
 
-**[Ìlànà owó](https://www.coinbase.com)**
+**[Coinbase](https://www.coinbase.com)**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

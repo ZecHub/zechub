@@ -108,6 +108,6 @@ Ihe nrite maka ụdị ọdịnaya a dị ntakịrị, yabụ ọ ga-adị mkpa 
 
 ### Ịrụcha Ihe A Mụrụla
 
-Please do not hesitate to get started contributing to one of the industry's most respected protocols. This is a great way to get involved with Zcash. If you have any questions about contributing, please let us know on [Agha na-aga n'ihu.](#join-the-conversation).
+Please do not hesitate to get started contributing to one of the industry's most respected protocols. This is a great way to get involved with Zcash. If you have any questions about contributing, please let us know on [Discord](#join-the-conversation).
 
 Ekele dịrị gị!

@@ -121,7 +121,7 @@ Dɔ siwo do ƒome kplii la dzena xoxo. [Zakura](https://zechub.wiki/zcash-tech/z
 
 - [Ame ŋutɔ ƒe Nyatakakawo Xɔxɔ](https://zechub.wiki/zcash-tech/private-information-retrieval) - mɔnu bubu si dzi woato awɔ gakotoku ƒe scanning bottleneck ma ke
 - [Zakura Node ƒe ŋkɔ](https://zechub.wiki/zcash-tech/zakura-node) - node si wotu ƒe akpa aɖe tso Tachyon ƒe mɔ̃ɖaŋudɔwɔwɔ ƒe agbagbadzedze me
-- [Ironwood ƒe ati](https://zechub.wiki/zcash-tech/ironwood) - ɖɔɖɔɖo si wɔ dɔ le July 2026 me, si wotɔtɔna zi geɖe kple Tachyon
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - ɖɔɖɔɖo si wɔ dɔ le July 2026 me, si wotɔtɔna zi geɖe kple Tachyon
 - [Turnstile ƒe ʋuƒoa](https://zechub.wiki/zcash-tech/the-turnstile) - mɔ̃ si Tachyon ateŋu azã ne woɖoe abe eya ŋutɔ ƒe ta ene
 - [Dedienɔnɔ le Quantum megbe](https://zechub.wiki/zcash-tech/post-quantum-security) - afisi Tachyon nɔa anyi ɖe ɖoɖowɔɖi ƒe dɔwɔwɔ si xɔa ɣeyiɣi didi wu xa
 - [Alesi Wowɔ Ðoɖo Ðe Zcash Ŋui](https://zechub.wiki/start-here/how-zcash-is-organized) - ame si le dɔ sia wɔm kple alesi lãwo ƒe agbenɔnɔ ƒe ɖoɖoa wɔ ɖeka

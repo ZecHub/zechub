@@ -20,7 +20,7 @@ _Ị nwekwara ike igwu ZEC, ma nke ahụ anaghị ekwe omume maka ndị na-azụ
 
 ## Mgbanwe ndị na-akwado iwepụ ego echedoro
 
-**[Ụmụ ejima](https://www.gemini.com)**
+**[Gemini](https://www.gemini.com)**
 
 Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes it simple and secure to buy ZEC, Ether, and other cryptocurrencies. You can buy ZEC with fiat or other cryptocurrencies.
 
@@ -37,7 +37,7 @@ Flyp.me is a no sign-up crypto exchange. It was one of the safest and most priva
 Imirikiti mgbanwe ndị isi na-akwado Zcash. Lee ebe a maka ndepụta zuru ezu: [ebe a](https://zechub.wiki/using-zcash/custodial-exchanges).
 
 
-**[Ụkpụrụ ego](https://www.coinbase.com)**
+**[Coinbase](https://www.coinbase.com)**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

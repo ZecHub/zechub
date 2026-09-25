@@ -89,4 +89,4 @@ Le Sprout te la, asitsatsa si ŋu wokpɔ ta na tutu xɔa aɖabaƒoƒo geɖe eye 
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Dzomeŋɔli](../zcash-tech/overwinter) · Esi kplᴐe ɖo: [Seƒoƒo ƒe ʋuʋu](../zcash-tech/blossom)
+Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Overwinter](../zcash-tech/overwinter) · Esi kplᴐe ɖo: [Blossom](../zcash-tech/blossom)

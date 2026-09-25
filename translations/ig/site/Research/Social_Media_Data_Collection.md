@@ -15,7 +15,7 @@ Unfortunately, this same convenience has also made us, as users, careless about 
 
 Next, we will outline the data that some of these platforms collect about us, what they do with it, and why this could pose a danger to our privacy and, potentially, our personal or family security.
 
-Ịgba aghara
+Discord
 -------
 
 Anyị kwesịrị ịmalite na Discord n'ihi na ọ bụ ngwa nkwurịta okwu anyị na-eji "n'ụlọ".

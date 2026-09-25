@@ -104,7 +104,7 @@ FROST track no na ɛyɛɛ akansi kɛseɛ wɔ ZecHub Hackathon 2026. Nnwuma a ɛd
 - **ZecVault** — 2-of-3 a wɔabɔ ho ban escrow a wɔde asi mainnet so (FROST threshold) .
 - **Steward** — threshold custody ma shielded Zcash a ɛwɔ UX a ɛtwe adwene si sanba so
 
-### Coinbase a wɔde yɛ adwuma
+### Coinbase
 Coinbase kyekyee production FROST dwumadie maa wɔn threshold signing systems (ma Bitcoin), a nsakraeɛ a ɛyi preprocessing stage no na ɛkyekyɛ aggregator dwumadie no mu wɔ wɔn a wɔde wɔn ho hyɛɛ mu nyinaa mu. Wɔn suahu no si FROST ahobammɔ nhyehyɛe no so dua wɔ nneɛma a wɔyɛ no nsenia so.
 
 ---

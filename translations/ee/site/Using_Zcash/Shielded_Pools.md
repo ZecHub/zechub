@@ -70,7 +70,7 @@ Orchard na zazã, dɔwɔwɔ nyuie, kple adzamenyawo nyo ɖe edzi ŋutɔ to asits
 
 Tso esime Ironwood ƒe ɖɔɖɔɖoa dze dɔ le 28 July 2026 dzi la, **Orchard nye gazazã ɖeɖeko**. Asixɔxɔ yeye aɖeke mate ŋu age ɖe ta la me o. Woate ŋu azã ga siwo le afima xoxo la kokoko, eye wole ʋuʋum yina Ironwood to mɔ si dzi woatrɔ asi le la dzi. Gakotokuwo kpɔa esia gbɔ na wò, togbɔ be wo dometɔ akpa gãtɔ nana nèkpɔa ŋusẽ aɖe ɖe alesi nèle du dzii dzi hã.
 
-Ne Orchard ƒe ga le asiwò la, kpɔ ɖa [Ironwood ƒe ati](/zcash-tech/ironwood) le nusi ʋuʋua fia le nuwɔna me ta.
+Ne Orchard ƒe ga le asiwò la, kpɔ ɖa [Ironwood](/zcash-tech/ironwood) le nusi ʋuʋua fia le nuwɔna me ta.
 
 ____
 
@@ -162,7 +162,7 @@ Nusi esia fia nɔ te ɖe afisi wò ga le dzi:
 
 > **Adzamenyawo ŋuti nuxlɔ̃ame ɖeka si dze be nànya.** Turstile la taa *agbɔsɔsɔ* si tso tadeaguƒewo dome, tsɔ kpe ɖe block ƒe kɔkɔme ŋu. Ame si ɖoe ɖa kple amesi xɔe la nɔa ɣaɣla abe alesi wònɔna ɖaa ene, gake woate ŋu atsɔ ga home tɔxɛ aɖe aɖo kadodo me kpli wò. Esia tae gakotokuwo ʋuna le afɔɖeɖe vovovowo me to ga home siwo wozãna ɖaa zazã me tsɔ wu be woaʋuʋu wò ga si susɔ ɖe ƒuƒoƒo ɖeka si woate ŋu ade dzesii me. Na wò gakotokua nazɔ eɖokui, eye nàbu Tor alo VPN zazã ŋu ale be wò IP nagabla ɖe ga home siwo nèʋuna ŋu o.
 
-Kpɔ [Ironwood ƒe ati](/zcash-tech/ironwood) na ŋgɔyiyia ŋutɔ, eye [Turnstile ƒe ʋuƒoa](/zcash-tech/the-turnstile) le alesi akɔntabubua wɔa dɔe ta.
+Kpɔ [Ironwood](/zcash-tech/ironwood) na ŋgɔyiyia ŋutɔ, eye [Turnstile ƒe ʋuƒoa](/zcash-tech/the-turnstile) le alesi akɔntabubua wɔa dɔe ta.
 
 <br/>
 
@@ -179,7 +179,7 @@ Kpɔ [Ironwood ƒe ati](/zcash-tech/ironwood) na ŋgɔyiyia ŋutɔ, eye [Turnsti
 
 ## Axa Siwo Do Ƒome Kplii
 
-- [Ironwood ƒe ati](/zcash-tech/ironwood) — Dodoɖeŋgɔ si wɔ fifi ta la
+- [Ironwood](/zcash-tech/ironwood) — Dodoɖeŋgɔ si wɔ fifi ta la
 - [Turnstile ƒe ʋuƒoa](/zcash-tech/the-turnstile) — Alesi wodzroa asixɔxɔ si le ʋuʋum le tadeaguƒewo dome la me
 - [Gakotokuwo](/using-zcash/wallets) — Gakotoku kawoe wodzrana ɖo eye Ironwood le klalo
 - [Adzɔnuwo ƒe asitsatsa](/using-zcash/transactions) — Alesi woaɖo asitsatsa siwo ŋu wokpɔ akpoxɔnu le ɖa

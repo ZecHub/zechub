@@ -10,7 +10,7 @@ Gundua zana, pochi, programu, maktaba na mipango ya mazingira iliyojengwa na jam
 Kitabu cha kazi ya elimu iliyoundwa na jamii Zcash kimataifa. 
 [Kutembelea](https://github.com/massadoptionorg/My-First-Zcash)
 
-### ZECKuchapisha
+### ZECPublish
 Upinzani-kubadilisha, Zcash blockchain powered kijamii vyombo vya habari. Ni pamoja na directory ya watumiaji wa Zcash na bila majina ujumbe bodi. 
 [Kutembelea](https://www.zecpublish.com)
 
@@ -42,7 +42,7 @@ Faragha-kwanza audiovisual pamoja kwamba treni, co-creates, na hutoa kujitolea A
 Yaliyomo ya elimu kwa watumiaji wapya wa Zcash na watengenezaji. 
 [Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
-### Zectastic (Kifungu cha Kijani)
+### Zectastic
 Tovuti ya maingiliano inayoonyesha michezo yenye mada za Zcash na hafla za jamii moja kwa moja. 
 [Kutembelea](https://zectastic.com/)
 
@@ -220,7 +220,7 @@ Browser ugani kwamba hubadilisha bei fiat fedha kwa ZEC katika muda halisi kama 
 Jukwaa la kukiri bila majina linalodhibitiwa na faragha ya Zcash. 
 [Kutembelea](https://shieldedwall.org/)
 
-### Ztrash (Takataka)
+### Ztrash
 Disposable barua pepe inbox kulipwa kwa ajili ya na ulinzi ZEC. 
 [Kutembelea](https://ztrash.com/)
 

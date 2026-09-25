@@ -39,7 +39,7 @@ Tunachapisha matoleo ya kazi ambazo kwa sasa tuna zawadi zinazofunguliwa kila Ju
 
 
 
-Ikiwa kuna njia zingine ambazo ungependa kuchangia, tafadhali tuma ujumbe kwa ZecHub ([@ZecHub](https://twitter.com/zechub)) kwenye Twitter au Jiunge nasi [Ugomvi](https://discord.gg/zcash).
+Ikiwa kuna njia zingine ambazo ungependa kuchangia, tafadhali tuma ujumbe kwa ZecHub ([@ZecHub](https://twitter.com/zechub)) kwenye Twitter au Jiunge nasi [Discord](https://discord.gg/zcash).
 
 ____
 

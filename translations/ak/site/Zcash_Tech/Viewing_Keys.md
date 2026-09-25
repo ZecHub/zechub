@@ -36,7 +36,7 @@ Eyinom mu biara ntumi nsɛe sika. Wɔn nyinaa yɛ nea ɛtra hɔ daa wɔ ɔkwan a
 
 ## Safe a wɔhwɛ wɔ Ironwood akyi
 
-NU6.3 de Ironwood shielded pool no bae na ɛmaa Orchard pool no yɛɛ nea wɔsɛe no nkutoo, enti sika tu fi biako so kɔ foforo so bere kɔ so. Hwɛ [Dade a Wɔde Yɛ Nnua](/zcash-tech/ironwood) ne [Nneɛma a wɔde dannan nneɛma](/zcash-tech/the-turnstile) ma upgrade no ankasa.
+NU6.3 de Ironwood shielded pool no bae na ɛmaa Orchard pool no yɛɛ nea wɔsɛe no nkutoo, enti sika tu fi biako so kɔ foforo so bere kɔ so. Hwɛ [Ironwood](/zcash-tech/ironwood) ne [Nneɛma a wɔde dannan nneɛma](/zcash-tech/the-turnstile) ma upgrade no ankasa.
 
 **Hwɛ safoa a wɔde ama ansa na Ironwood akɔ so ayɛ adwuma wɔ atutra no akyi.** ZIP 326 kyerɛ sɛ wɔde agyefo, ne ne hwɛ safoa a ɛba no a ɛne no hyia no, scoped kɔ Orchard *protocol* sen sɛ wɔde bɛkɔ pool: hwɛ safoa koro no ara a ɛba no sɔhwɛ-decrypt Orchard-pool ne Ironwood-pool note ciphertexts nyinaa. Zallet de di dwuma saa, na ɔka Ironwood nkyerɛwde ho asɛm sɛ ɛyɛ Orchard-shaped na wɔde akontaabu no Orchard hwɛ safe a ɛwɔ Ironwood nkyerɛwde-encryption domain no ase a wɔasɔ ahwɛ.
 

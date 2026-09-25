@@ -14,7 +14,7 @@ Ironwood nye ta si wotsɔ akpoxɔnu wɔe si va ɖo kple July 2026 ƒe network ƒ
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Akɔtagbalẽvi](https://backpack.exchange)
+- Nyatakakadzraɖoƒe: [Backpack](https://backpack.exchange)
 - Atsu kple asi: ZEC/USDC | ZEC-PERP ƒe agbalẽ
 - Kpekpeɖeŋunana: Wona gadede kple ga si woɖena le eme la wɔ dɔ. Womegblɔ adrɛs ƒomeviwo o
 - Ɣeyiɣi si Woatsɔ Ga De Asi: Womegblɔe o
@@ -27,7 +27,7 @@ ___
     <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Binance ƒe nuwɔna](https://binance.com)
+- Nyatakakadzraɖoƒe: [Binance](https://binance.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe (TEX Adrɛs Deposit) .
 - Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 20
@@ -53,7 +53,7 @@ ___
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Bitfinex ƒe nyawo](https://bitfinex.com)
+- Nyatakakadzraɖoƒe: [Bitfinex](https://bitfinex.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
 - Ɣeyiɣi si Woatsɔ Ade Gadzraɖoƒe: Aɖabaƒoƒo 25 
@@ -66,7 +66,7 @@ ___
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Coinbase ƒe ƒuƒoƒo](https://coinbase.com)
+- Nyatakakadzraɖoƒe: [Coinbase](https://coinbase.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
 - Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 150
@@ -79,7 +79,7 @@ ___
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Gemini ƒe ɣletivimefakaka](https://gemini.com)
+- Nyatakakadzraɖoƒe: [Gemini](https://gemini.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Transparent | Shielded kple ɖekawɔwɔ ƒe gaɖeɖe, Orchard tso November 2025
 - Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 50 
@@ -92,7 +92,7 @@ ___
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Huobi ƒe ŋkɔ](https://huobi.com)
+- Nyatakakadzraɖoƒe: [Huobi](https://huobi.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
 - Ɣeyiɣi si Woatsɔ Gade Asi: Aɖabaƒoƒo 35 
@@ -105,7 +105,7 @@ ___
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Kraken ƒe ŋkɔ](https://kraken.com)
+- Nyatakakadzraɖoƒe: [Kraken](https://kraken.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
 - Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 60
@@ -118,7 +118,7 @@ ___
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [KuCoin ƒe ŋkɔ](https://kucoin.com)
+- Nyatakakadzraɖoƒe: [KuCoin](https://kucoin.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
 - Ɣeyiɣi si Woatsɔ Ade Asie: Aɖabaƒoƒo 20 
@@ -144,7 +144,7 @@ ___
     <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Robinhood ƒe nɔnɔme](https://robinhood.com)
+- Nyatakakadzraɖoƒe: [Robinhood](https://robinhood.com)
 - Atsu kple asi: USD/ZEC | EUR/ZEC ƒe xexlẽme
 - Kpekpeɖeŋunana: Woɖea ga le t-adrɛs siwo me kɔ ɖeɖeko dzi. Womedoa alɔ ZEC ƒe gadede asi o
 - Ɣeyiɣi si Woade Gadzraɖoƒe: Womedoa alɔ gadede asi o

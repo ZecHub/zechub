@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Dade a Wɔde Yɛ Nnua
+# Ironwood
 
 > Ironwood yɛɛ adwuma wɔ Zcash mainnet so wɔ block 3,428,143 wɔ July 28, 2026 UTC, na ɛyɛ live fi saa bere no.
 

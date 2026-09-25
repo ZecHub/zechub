@@ -22,7 +22,7 @@ Wowɔ Zcash kple NEAR Intents ɖekae, si na be ezãlawo te ŋu trɔa Zcash (ZEC)
 
 ---
 
-## Mayawo ƒe Ðoɖowɔɖi 
+## Maya Protocol 
 
 Maya Protocol wɔ Zcash ɖekae be wòana eƒe decentralization, gazazã, kple asitsatsa ƒe adzamenyawo nanyo ɖe edzi. Ðekawɔwɔ sia na Zcash zãlawo kpɔa viɖe tso decentralized swaps me, si naa woate ŋu atrɔ ɖe nɔnɔmewo ŋu geɖe wu eye woate ŋu akpɔ ga geɖe wu esime wole adzamenyawo ta kpɔm. Srɔ̃ Nu Geɖe: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
 

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Maua ya maua
+# Blossom
 
 > Blossom alienda kuishi kwenye Zcash mainnet katika block 653,600 (Desemba 11, 2019 UTC).
 
@@ -96,4 +96,4 @@ Kwa sababu Blossom pia nusu tuzo kulipwa kwa block na mara mbili ya kupunguza mu
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Sapling](../zcash-tech/sapling) · Kisha: [Miti ya moyo](../zcash-tech/heartwood)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Sapling](../zcash-tech/sapling) · Kisha: [Heartwood](../zcash-tech/heartwood)

@@ -32,7 +32,7 @@ Blossom: Ìmúgbòòrò Nẹtiwọọki Gíga Kẹta fún Zcash. [Àwọn Ìsọ
 |------|-----------|
 Canopy. Ìyípadà Àgbà Ẹ̀rọ-ìpínlẹ̀ karùn fún Zcash. [Àwọn Ìsọfúnni Míì Sí I](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 ☐ Àtòjọ ìfẹnukò. O jẹ́ kí olùfọ̀rọ̀wánilẹ́nuwò kan ṣe àfihàn ọ̀pọ̀lọpọ̀ nípasẹ̀ òpó-ìpín tí ó kúrú èyí tí a lè lò láti fi fìdí àwọn ìdámọ̀ tó sọ nípa ẹyọ ọ̀tọ̀n náà múlẹ̀. Ó wúlò fún dín iye owó ìbáradé nínú ìlànà Zcash kù. ❑ Àwọn oníṣẹ́ abániṣiṣẹ́mọléṣe ti ń ṣiṣẹ́ lórí ètò àjọ yìí, bí àpẹẹrẹ: Microsoft Office Access àti Google Drive ni wọ́n máa ń lo
-Àwùjọ. [Àjọ Ìgbìmọ̀ Zcash tí ó jẹ́ ti Òfin](https://forum.zcashcommunity.com) / [Ìṣòro àwùjọ Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord ì í ë ¤ì 'ë¦¬í ¬ê° êμ¬ì§ .](https://discord.com/invite/6AK7keWFaK) / [Reddit (ìkànnì)](https://www.reddit.com/r/zec/) / [Ìsọfúnni orí tẹlifóònù](https://t.me/Zcash_Community) / [Twitter (ìkànnì)](https://x.com/zcash) |
+Àwùjọ. [Àjọ Ìgbìmọ̀ Zcash tí ó jẹ́ ti Òfin](https://forum.zcashcommunity.com) / [Ìṣòro àwùjọ Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord ì í ë ¤ì 'ë¦¬í ¬ê° êμ¬ì§ .](https://discord.com/invite/6AK7keWFaK) / [Reddit (ìkànnì)](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
  Crosslink. A ṣe àbá fún ìmúdàgba èrò orí tí ó ń mú kí ẹ̀rí-iṣẹ́ dídá àwọn ohun tó wà nídìí èdìdí ṣiṣẹ́ àti fífi ìdánilójú ìdíyelé sí òkè, nítorí náà àwọn nǹkan òǹkà máa ń rí ojúlówó láì fi iṣẹ́ iwakùsà sílẹ̀. Ó ti dàgbà láti inú àwárí Ìlà Ìdíyelé Àkọsílẹ̀ (Trailing Finality Layer) a sì ń kọ ọ́ ni Shielded Labs, kò tíì kúrò nínú ìtẹ̀jáde testnet títí di ọdún 2026.
 CrossPay. Àṣejèrè nínú àpò Zodl tí ó jẹ́ kí o lo owó-ìpamọ̀ ti ZEC nígbàtí ẹni tó ń gbà á bá gba iye náà ní oríṣi ohun ìní àti ẹ̀ka tí wọ́n fẹ́, èyí ni a máa fi ránṣẹ́ sí NEAR Intents dípò ìdásílẹ̀ kan tí kò ṣe pàtàkì jùlọ.
 Cypherpunk Zero. A Creative Universe ati ki o ifowosowopo akitiyan laarin ECC, alafo Stranger Wolf, Mighty Jaxx ati yan awọn alabašepọ ilolupo eda abemi. [Ìkànnì Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Àkójọ Òkun Ìta gbangba](https://opensea.io/collection/cypherpunk-zero) |
@@ -41,7 +41,7 @@ Cypherpunk Zero. A Creative Universe ati ki o ifowosowopo akitiyan laarin ECC, a
 
 Àkòrí. Ìtumọ̀.
 |------|-----------|
- DeFi. Àwọn iṣẹ́ tí ó ń so ZEC pọ̀ mọ́ DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock (ì í ì)](https://app.zenrocklabs.io/) / [ShapeShift (ì í ì)](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap (ì í ì ë ¤)](https://app.thorswap.finance/) |
+ DeFi. Àwọn iṣẹ́ tí ó ń so ZEC pọ̀ mọ́ DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
 ☐ ìpamọ́. Ìtumò sí ìdánwò tí a rán láti zaddr (ìpín-àdírẹ̀sì) lọ si taddr (Ìpínlẹ̀ àlàfo). Oríṣun idánwò náà kò hàn ṣùgbọ́n owó wọ inú ìṣùpòpọ̀ iye tó wà ní gbangba.
 Àwọn Àgbàjáde Ìpèsè. [Àwọn Ìpèsè fún Oníṣètò](https://www.zcashcommunity.com/developers/) |
 Àkọsílẹ̀. [Àwọn Àkọsílẹ̀ Ìjọba](https://zcash.readthedocs.io/en/latest/) |

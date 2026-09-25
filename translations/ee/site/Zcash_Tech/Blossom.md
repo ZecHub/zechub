@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Seƒoƒo ƒe ʋuʋu
+# Blossom
 
 > Blossom yi agbe le Zcash mainnet dzi le block 653,600 (December 11, 2019 UTC).
 
@@ -96,4 +96,4 @@ Elabena Blossom hã ɖe fetu si woxena ɖe block ɖeka ta dzi kpɔtɔ afã eye w
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Sapling](../zcash-tech/sapling) · Esi kplᴐe ɖo: [Dzimeƒu ƒe ati](../zcash-tech/heartwood)
+Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Sapling](../zcash-tech/sapling) · Esi kplᴐe ɖo: [Heartwood](../zcash-tech/heartwood)

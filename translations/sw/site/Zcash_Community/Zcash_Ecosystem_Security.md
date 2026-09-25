@@ -9,7 +9,7 @@
 Jukumu la Kiongozi wa Usalama wa Mifumo Ekolojia ya Zcash lilianzishwa kupitia ruzuku ya ZCG ili kutoa uhandisi maalum wa usalama kwa mfumo ikolojia mpana wa Zcash — hasa wafadhiliwa wa ZCG — nje ya ECC na ZF.
 
 - **2022–2023:** [kupanda kwa ardhi](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) alihudumu kama Kiongozi wa kwanza wa Usalama wa Mifumo Ikolojia. Pata maelezo zaidi katika [zecsec.com](https://zecsec.com).
-- **2024–2025:** ZCG imechaguliwa [Mamlaka Ndogo Zaidi](https://leastauthority.com) kuendelea na jukumu hilo kupitia [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723)Masasisho yanaweza kupatikana [hapa](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
+- **2024–2025:** ZCG imechaguliwa [Least Authority](https://leastauthority.com) kuendelea na jukumu hilo kupitia [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723)Masasisho yanaweza kupatikana [hapa](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
 - **2026:** Maabara Zilizolindwa [Taylor Hornby aliyechumbiwa](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) kama mshauri wa usalama ili kuimarisha uwezo wa usalama wa Zcash.
 
 ## Mpango wa Ufichuzi wa Usalama na Udhaifu wa ZCG

@@ -14,7 +14,7 @@ Ironwood bụ ọdọ mmiri e ji ihe nchebe kpuchie nke rutere na mmelite netw�
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
 </a>
 
-- Weebụsaịtị: [Akpa Akpa](https://backpack.exchange)
+- Weebụsaịtị: [Backpack](https://backpack.exchange)
 - Abụọ abụọ: ZEC/USDC | ZEC-PERP
 - Nkwado: Enyere ego na mwepụ ego. Ekwughị ụdị adreesị
 - Oge nkwụnye ego: Ekwughị ya

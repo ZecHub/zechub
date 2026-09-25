@@ -36,7 +36,7 @@ E nwere ihe karịrị otu ụdị isi, ọdịiche dị na ya na-ekpebi ego ole
 
 ## Ịlele igodo mgbe Ironwood gasịrị
 
-NU6.3 webatara ọdọ mmiri Ironwood nke e ji ihe nchebe kpuchie ma mee ka ọdọ mmiri Orchard bụrụ naanị ihe a na-emefu, ka ego wee si n'otu gaa na nke ọzọ na-agafe ka oge na-aga. [Osisi ígwè](/zcash-tech/ironwood) na [Ogwe aka ahụ](/zcash-tech/the-turnstile) maka mmelite ahụ n'onwe ya.
+NU6.3 webatara ọdọ mmiri Ironwood nke e ji ihe nchebe kpuchie ma mee ka ọdọ mmiri Orchard bụrụ naanị ihe a na-emefu, ka ego wee si n'otu gaa na nke ọzọ na-agafe ka oge na-aga. [Ironwood](/zcash-tech/ironwood) na [Ogwe aka ahụ](/zcash-tech/the-turnstile) maka mmelite ahụ n'onwe ya.
 
 **E nyere igodo nlele tupu Ironwood agaa n'ihu na-arụ ọrụ mgbe njem ahụ gasịrị.** ZIP 326 na-akọwapụta na a na-eji usoro *protocol* nke onye nnata na-anabata ihe, na igodo nlele ya na-abata, enyocha ya na Orchard kama ịbanye n'ọdọ mmiri: otu igodo nlele ahụ na-abata na-akọwapụta ma ederede ederede Orchard-pool na nke Ironwood-pool. Zallet na-eme ya n'ụzọ ahụ, na-akọwa ndetu Ironwood dị ka nke Orchard ma jiri igodo nlele Orchard nke akaụntụ ahụ decryption n'okpuru ngalaba nzuzo note-encryption nke Ironwood.
 

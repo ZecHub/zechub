@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Oge oyi na-agafe.
+# Overwinter
 
 > Oge oyi gara ndụ na Zcash mainnet na ngọngọ 347,500 (June 26, 2018 UTC).
 
@@ -105,4 +105,4 @@ Because it built the machinery that every later upgrade depends on. Overwinter i
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Mkpụrụ osisi na-eto eto](../zcash-tech/sprout) · Nke ọzọ: [Sapling](../zcash-tech/sapling)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Sprout](../zcash-tech/sprout) · Nke ọzọ: [Sapling](../zcash-tech/sapling)

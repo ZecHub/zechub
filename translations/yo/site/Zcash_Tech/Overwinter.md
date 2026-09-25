@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ìgbà òtútù
+# Overwinter
 
 > Overwinter lọ laaye lori Zcash mainnet ni bulọọki 347,500 (June 26, 2018 UTC).
 
@@ -105,4 +105,4 @@ Nitoripe o kọ awọn ẹrọ ti gbogbo igbesoke nigbamii da lori. Overwinter �
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Èso ẹ̀ka igi](../zcash-tech/sprout) · Àtúnṣe: [Sapling](../zcash-tech/sapling)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Sprout](../zcash-tech/sprout) · Àtúnṣe: [Sapling](../zcash-tech/sapling)

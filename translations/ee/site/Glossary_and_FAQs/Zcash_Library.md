@@ -24,15 +24,15 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 | Block | Block nye nuŋlɔɖi le Zcash blockchain me si me asitsatsa ƒe hatsotso aɖe si woɖo ɖe network la le. Le sɛkɛnd 75 ɖesiaɖe kloe me la, le mamã dedie nu la, wotsɔa block yeye aɖe kpena ɖe blockchain la ŋu. |
 | Block Explorer | Dɔwɔnu si le Internet dzi be nàkpɔ asitsatsa siwo katã wowɔ, tsã kple esiwo li fifia, le blockchain la dzi. [Zcash Block ƒe Ʋuʋudedi](https://zcashexplorer.app/) |
 | Blogwo ƒe nyatakakawo | [ZODL Blog (si woyɔna tsã be Electric Coin Co) .](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub ƒe Blog](https://zechub.wiki/zechub-dao) |
-| Seƒoƒo | 3rd Major Network Upgrade na Zcash. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
+| Blossom | 3rd Major Network Upgrade na Zcash. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| Akpɔkplɔ | 5th Major Network Upgrade na Zcash. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
+| Canopy | 5th Major Network Upgrade na Zcash. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Ðokuitsɔtsɔna ƒe Ðoɖo | Enaa mɔ na committer be wòatsɔ eɖokui ana ɖe polynomial si me ka kpui aɖe le si verifier ateŋu azã atsɔ aɖo kpe committed ƒe dodokpɔ siwo wogblɔ dzi. Viɖe le eŋu na kadodo ƒe gazazãwo dzi ɖeɖe kpɔtɔ le Zcash ƒe ɖoɖowɔɖia me. |
-| Nutoa me | [Zcash Nutome Takpekpe si Dziɖuɖua le](https://forum.zcashcommunity.com) / [Zcash Nutome Masɔmasɔ](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.com/invite/6AK7keWFaK) / [Reddit dzi](https://www.reddit.com/r/zec/) / [Telegram dzi](https://t.me/Zcash_Community) / [Twitter dzi](https://x.com/zcash) |
+| Nutoa me | [Zcash Nutome Takpekpe si Dziɖuɖua le](https://forum.zcashcommunity.com) / [Zcash Nutome Masɔmasɔ](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.com/invite/6AK7keWFaK) / [Reddit dzi](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Aɖaŋu si wodo ɖa be woawɔ ɖeka kple wo nɔewo si ana kpeɖodzi-dɔwɔwɔ ƒe block wɔwɔ nanɔ anyi eye wòtsɔa kpeɖodzi-of-stake finality layer kpena ɖe etame, ale blocks kpɔa finality sesẽ wu evɔ womegblẽa tomenukuƒewo ɖi o. Etsi tso Trailing Finality Layer numekuku me eye Shielded Labs ye le etum, si gakpɔtɔ le testnet ƒe ŋgɔyiyi me tso ƒe 2026. |
 | CrossPay | Nɔnɔme aɖe le Zodl gakotokua me si na nèzãa ZEC si wokpɔ ta na esime woxea fe na amesi xɔe le nunɔamesi kple kɔsɔkɔsɔ si wodi me, si woɖona to NEAR Intents dzi tsɔ wu be woato asitɔtrɔ le teƒe ɖeka dzi. |
 | Cypherpunk ƒe agbalẽ si nye Zero | Nuwɔwɔ ƒe Xexeame katã kple nuwɔwɔ aduadu ƒe agbagbadzedze le ECC, nɔnɔmetatawɔla Stranger Wolf, Mighty Jaxx kple lãwo ƒe agbenɔnɔ ƒe hadɔwɔla tiatia aɖewo dome. [Cypherpunk Zero Nyatakakadzraɖoƒe](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Nuƒoƒoƒu](https://opensea.io/collection/cypherpunk-zero) |
@@ -41,7 +41,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| DeFi | Dɔ siwo woawɔ atsɔ awɔ ɖeka kple ZEC kple DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock ƒe agbalẽ](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap ƒe ŋkɔ](https://app.thorswap.finance/) |
+| DeFi | Dɔ siwo woawɔ atsɔ awɔ ɖeka kple ZEC kple DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
 | Deshielding | Fia asitsatsa si wole ɖoɖom tso zaddr (adrɛs si wokpɔ ta na) yi taddr (adrɛs si me kɔ). Afisi asitsatsa la dzɔ tso la medzena o ke hã gaawo gena ɖe asixɔxɔ ƒe ƒuƒoƒo si woate ŋu akpɔ le dutoƒo me. |
 | Dɔwɔlawo ƒe Dɔwɔnuwo | [Dɔwɔlawo ƒe Dɔwɔnuwo](https://www.zcashcommunity.com/developers/) |
 | Nuŋlɔɖiwo | [Dziɖuɖua ƒe Nuŋlɔɖiwo](https://zcash.readthedocs.io/en/latest/) |
@@ -80,7 +80,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 |------|-----------|
 | Halo | Enaa nutome ƒe ɖɔɖɔɖowo te ŋu trɔna evɔ mehiã be woawɔ ɖoɖo siwo dzi woka ɖo o, si wɔnɛ be Zcash shielded protocol la le ablaɖeɖe me wu na etsɔme ŋgɔyiyiwo kple kekeɖenuwo. [Mɔ̃ɖaŋununya Ŋuti Numeɖela](https://z.cash/learn/what-is-halo-for-zcash/) |
 | HD Gakotoku | Gakotoku siwo woɖo ɖi le ɖoɖo nu la wɔa eve vevi eve siwo kplɔ wo nɔewo ɖo tso nuku ɖeka me, si naa wònɔa bɔbɔe eye woate ŋu akpɔ wo dzi eye wokpɔa dedienɔnɔ si le ɖoƒe kɔkɔ hã. |
-| Dzimeƒu ƒe ati | Zcash ƒe Network ƒe Ŋgɔyiyi Gã 4 lia. [Nyatakaka Bubuwo](https://z.cash/upgrade/heartwood/) |
+| Heartwood | Zcash ƒe Network ƒe Ŋgɔyiyi Gã 4 lia. [Nyatakaka Bubuwo](https://z.cash/upgrade/heartwood/) |
 
 ## I
 
@@ -90,7 +90,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 | Nuwɔwɔ ɖekae | Àte ŋu axɔ Zcash ƒe fexexe to ame 3 lia ƒe dɔwɔƒe geɖewo dzi. [Fexexe Ŋuti Dɔwɔlawo](https://z.cash/zcash-for-business/) |
 | Nuwɔwɔ aduadu ƒe Kpeɖodziɖoɖo | Mɔ̃ si me susu mele o si wɔa akɔntabubu ƒe kpɔɖeŋu abe gbedasiwo ƒe asitɔtrɔ le akpa eve dome ene: Dodokpɔla kple Kpeɖodzila. |
 | Gadede asi na ame | Ganyawo ƒe tiatia geɖewo li na dɔwɔƒewo ƒe gadelawo alo ƒomea ƒe dɔwɔƒe siwo di be yewoakpɔ gome le Zcash me. [Ŋkɔwo ƒe xexlẽdzesi bliboa](https://z.cash/investors/) |
-| Ironwood ƒe ati | Network upgrade (NU6.3) si wɔ dɔ le mainnet dzi le 28 July 2026 dzi le block 3,428,143. Eto ta yeye si ŋu wokpɔ akpoxɔnu ɖo, si woyɔna hã be Ironwood vɛ, eye wòna Orchard ta la nye gazazã ɖeɖeko ale be asixɔxɔ si li xoxo la ʋuna toa mɔ si trɔna la dzi. [Nyatakaka bubuwo](/zcash-tech/ironwood) |
+| Ironwood | Network upgrade (NU6.3) si wɔ dɔ le mainnet dzi le 28 July 2026 dzi le block 3,428,143. Eto ta yeye si ŋu wokpɔ akpoxɔnu ɖo, si woyɔna hã be Ironwood vɛ, eye wòna Orchard ta la nye gazazã ɖeɖeko ale be asixɔxɔ si li xoxo la ʋuna toa mɔ si trɔna la dzi. [Nyatakaka bubuwo](/zcash-tech/ironwood) |
 
 ## J
 
@@ -109,7 +109,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
 | Layer-1 ƒe ƒuƒoƒo | Fia gɔmeɖoanyi ƒe kadodo kple eƒe xɔtuɖoɖo siwo le ete. Layer-1 blockchains ateŋu aɖo kpe asitsatsa dzi ahawu enu evɔ mahiã be woawɔ network bubu o. Zcash nye L1 ƒe blockchain. |
-| librustzcash ƒe agbalẽ | Rust dɔwɔƒe si me crates kple dependencies katã le hena dɔwɔwɔ kple Zcash. [repo](https://github.com/zcash/librustzcash) |
+| librustzcash | Rust dɔwɔƒe si me crates kple dependencies katã le hena dɔwɔwɔ kple Zcash. [repo](https://github.com/zcash/librustzcash) |
 | Kekeli ƒe Gakotokuwo | A stateless server si subɔa kekeli asisiwo kple blockchain nyatakakawo. [Kekeli ƒe gakotoku](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
@@ -139,7 +139,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 |------|-----------|
 | Oblivious Synchronization | Mɔnu aɖe si wole wɔwɔm le Project Tachyon me si na gakotoku biaa nyatakaka siwo wòhiã tso dɔwɔƒe si dzi womeka ɖo o gbɔ evɔ meɖea nuŋlɔɖi siwo ŋu wòle biabiam tsoe la fiana o. Server la mesrɔ̃a wò nullifiers gbeɖe o, elabena protocol la nana wotrɔna le mɔ si me kadodo aɖeke mele o nu. [Nuŋɔŋlɔ-ɖe-dzi](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 | Orchard Shielded Pool | The third shielded pool for Zcash and represents the continued evolution of our zk-SNARK technology stack. [Nyatakaka bliboa](https://electriccoin.co/blog/explaining-halo-2/) |
-| Dzomeŋɔli | 1st Network Upgrade na Zcash. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+| Overwinter | 1st Network Upgrade na Zcash. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 
@@ -228,7 +228,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| Zcash ƒe | Cryptocurrency si wotu ɖe ame ŋutɔ ƒe nyawo dzi si zãa zk-SNARKs. Tɔdzisasrã siwo me kɔ (Bitcoin-style) kple fexexe siwo wokpɔ ta na bliboe. |
+| Zcash | Cryptocurrency si wotu ɖe ame ŋutɔ ƒe nyawo dzi si zãa zk-SNARKs. Tɔdzisasrã siwo me kɔ (Bitcoin-style) kple fexexe siwo wokpɔ ta na bliboe. |
 | Zcash Foundation | Independent non-profit that supports the Zcash ecosystem, funds development, and promotes privacy. |
 | Zcash ƒe Dɔwɔƒe | Peer-to-peer network of nodes si ɖoa kpe asitsatsa dzi eye wòléa blockchain la me ɖe asi. |
 | ZEC | Ga ƒe kɔpi si dziɖuɖua da asi ɖo na Zcash (gaɖɔliƒe aɖewo gakpɔtɔ ɖea XZC fiana). |
@@ -237,10 +237,10 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 | Zakura | Zcash blibo node dɔwɔwɔ si woɖe ɖe go le July 2026 me, si Valar Group kple Project Tachyon tu abe Zebra ƒe fɔkpa ene. Eɖoa taɖodzinu na throughput kple sync speed, kple snapshot bootstrapping kple taɖodzinu si wogblɔ be card-network scale, si ade 50,000 ƒe asitsatsa le sɛkɛnd ɖeka me. [zakura.com dzi](https://zakura.com) |
 | Zallet | Gakotoku ƒe akpa si xɔ zcashd ƒe gakotoku ƒe dɔwɔwɔwo esime wòxɔ dzudzɔ le dɔme, wotu ɖe Zaino dzi abe Zcash Z3 ƒe xɔtuɖoɖodɔa ƒe akpa aɖe ene. |
 | Zebra | Zcash Foundation ƒe Rust-si wotu ɖe node blibo ƒe dɔwɔwɔ (si nye zcashd teƒe). Dzadzraɖo ɖe ewɔwɔ ŋu eye woléa be nɛ vevie. [GitHub ƒe ŋkɔ](https://github.com/ZcashFoundation/zebra) |
-| zcashd ƒe ŋkɔ | Zcash blibo node gbãtɔ, forked tso Bitcoin Core. Exɔ dzudzɔ le dɔme le July 2026 me le esi wòɖe asi le eŋu ɣeyiɣi didi aɖe megbe, eye eƒe akpawo ma ɖe Zebra hena nukpɔsusu ɖeka kple Zallet hena gakotoku ƒe dɔwɔwɔwo dome. |
+| zcashd | Zcash blibo node gbãtɔ, forked tso Bitcoin Core. Exɔ dzudzɔ le dɔme le July 2026 me le esi wòɖe asi le eŋu ɣeyiɣi didi aɖe megbe, eye eƒe akpawo ma ɖe Zebra hena nukpɔsusu ɖeka kple Zallet hena gakotoku ƒe dɔwɔwɔwo dome. |
 | ZIP | Zcash Improvement Proposal - nutoa me dziɖuɖu ƒe ɖoɖo si wozãna tsɔ doa susu ɖa heda asi ɖe ɖoɖowɔɖi ƒe tɔtrɔwo dzi. [ZIP Nudzraɖoƒe](https://github.com/zcash/zips) |
 | ZODL | Zcash Ʋuʋu ƒe Ŋgɔyiyi Dɔwɔƒe. Habɔbɔ si le eɖokui si si Josh Swihart kple Electric Coin Company ƒe mɔ̃ɖaŋudɔwɔlawo ƒe ƒuƒoƒo tsãtɔ ɖo le ƒe 2026 ƒe gɔmedzedze esi woɖe asi le dɔ ŋu le dziɖuɖu ŋuti nyaʋiʋli aɖe si nɔ wo kple Bootstrap dome ta. Efɔ ga si wu dɔlar miliɔn 25 le nukuwo ƒe ga me le March 2026 me eye wòléa be na Zodl gakotoku si wogbugbɔ ŋkɔ na tso Zashi le February 2026 me. [zodl.com dzi](https://zodl.com) |
-| zk-SNARKs ƒe nyawo | Zero-Sidzedze Succinct Non-Interactive Arguments of Knowledge — nya ɣaɣlawo ƒe nuŋɔŋlɔ si naa ŋusẽ Zcash si kpɔa asitsatsa ta. Ðe mɔ be woaɖo kpe nya aɖe dzi (e.g., gazazã si sɔ) evɔ womaɖe nyatakaka ɣaɣla aɖeke afia o. |
+| zk-SNARKs | Zero-Sidzedze Succinct Non-Interactive Arguments of Knowledge — nya ɣaɣlawo ƒe nuŋɔŋlɔ si naa ŋusẽ Zcash si kpɔa asitsatsa ta. Ðe mɔ be woaɖo kpe nya aɖe dzi (e.g., gazazã si sɔ) evɔ womaɖe nyatakaka ɣaɣla aɖeke afia o. |
 | ZSA (Zcash ƒe nunɔamesiwo) | Dzesi siwo zãla na siwo nyi Zcash ƒe adzamenyawo si wokpɔ ta na la dome, si naa nunɔamesi bubu siwo menye ZEC o la ʋuna le wo ɖokui si le network la dzi. Wogblɔe le [ZIP 226 ƒe xexlẽdzesi](https://zips.z.cash/zip-0226) kple ame si di be yeaxɔ NU7 ƒe akpa aɖe. |
 
 ---

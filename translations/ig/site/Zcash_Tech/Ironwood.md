@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Osisi ígwè
+# Ironwood
 
 > Ironwood arụ ọrụ na Zcash mainnet na ngọngọ 3,428,143 na July 28, 2026 UTC, ọ nọkwa ndụ kemgbe.
 

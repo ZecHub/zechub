@@ -6,12 +6,12 @@ Kwa hadithi ya kuona jinsi faragha Zcash ina maendeleo katika upgrades haya, ang
 
  Upgrade  Activation (UTC)  Block  Branch id  Nini imebadilika 
 |---|---|---|---|---|
-| [Mchanga](../zcash-tech/sprout) Oktoba 28, 2016 genesis 00000000 uzinduzi: kwanza kulindwa pool na zk-SNARK shughuli binafsi.
-| [Kuishi kwa majira ya baridi kali](../zcash-tech/overwinter) Juni 26, 2018 347,500 5ba81b19 ulinzi wa kurudia, utaratibu wa kufuta na kumalizika muda wake kwa hivyo upgrades salama ziliwezekana.
+| [Sprout](../zcash-tech/sprout) Oktoba 28, 2016 genesis 00000000 uzinduzi: kwanza kulindwa pool na zk-SNARK shughuli binafsi.
+| [Overwinter](../zcash-tech/overwinter) Juni 26, 2018 347,500 5ba81b19 ulinzi wa kurudia, utaratibu wa kufuta na kumalizika muda wake kwa hivyo upgrades salama ziliwezekana.
 | [Sapling](../zcash-tech/sapling) Makala ya leo, Oktoba 29, 2018 419,200 76b809bb shughuli za ulinzi ufanisi wa kutosha kwa ajili ya simu na vifaa pochi.
-| [Maua ya maua](../zcash-tech/blossom) Disemba 11, 2019 653,600 2bb40e60 vitalu vya kasi, sekunde 75 na uwezo mkubwa zaidi.
-| [Miti ya moyo](../zcash-tech/heartwood) Julai 16, 2020 903,000 f5b9230b. Shielded madini zawadi na wateja nyepesi (FlyClient)
-| [Kivuli cha juu](../zcash-tech/canopy) Novemba 18, 2020 1,046,400 e9ff75a6 Mfuko wa Maendeleo, nusu ya kwanza na kumaliza mfuko wa Sprout.
+| [Blossom](../zcash-tech/blossom) Disemba 11, 2019 653,600 2bb40e60 vitalu vya kasi, sekunde 75 na uwezo mkubwa zaidi.
+| [Heartwood](../zcash-tech/heartwood) Julai 16, 2020 903,000 f5b9230b. Shielded madini zawadi na wateja nyepesi (FlyClient)
+| [Canopy](../zcash-tech/canopy) Novemba 18, 2020 1,046,400 e9ff75a6 Mfuko wa Maendeleo, nusu ya kwanza na kumaliza mfuko wa Sprout.
 | [NU5](../zcash-tech/nu5) Mei 31, 2022 1,687,104 c2d6d0b4. Orchard pool juu ya Halo 2 (hakuna kuaminika setup), anwani umoja, na shughuli v5.
 | [NU6](../zcash-tech/nu6) Novemba 23, 2024 2,726,400 c8e71055 mfuko wa fedha za maendeleo ya muda uliopangwa na mgawanyiko mpya wa ufadhili wa maendeleo.
 | [NU6.1](../zcash-tech/nu6-1) Novemba 24, 2025 3,146,400 4dec4df0 Jumuiya na mtaji wa sarafu ya utawala wa fedha hizo.

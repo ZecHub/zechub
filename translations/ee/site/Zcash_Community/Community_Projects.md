@@ -10,7 +10,7 @@ Kpɔ dɔwɔnu, gaɖakawo, dɔwɔƒe siwo Zcash-ha kple zero-knowledge ecosystem 
 Agbalẽ si me wofiaa nu le, si xexeame katã ƒe Zcash habɔbɔ wɔ. 
 [Tsaɖiɖi](https://github.com/massadoptionorg/My-First-Zcash)
 
-### ZECTsɔe ɖe agbalẽ me
+### ZECPublish
 Zcash blockchain-dɔwɔƒe si me nyatakakawo mele o. Eƒo nu tso ame siwo zãa Zcash kple ŋkɔmawu ƒe dɔdzikpɔƒea ŋu hã le eme. 
 [Tsaɖiɖi](https://www.zecpublish.com)
 
@@ -42,7 +42,7 @@ Amesiwo kpɔa videowo kple nu siwo le edzi yim ŋuti nyawo gbɔ koŋ ƒe ƒuƒo�
 Nu siwo me wofiaa nu le la na Zcash zãlawo kple edzakalawo. 
 [Kpekpewɔƒe](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
-### Zektastik-mɔ̃wo
+### Zectastic
 Enye internet dzi fefe siwo me Zcash-fewo kple hadome wɔnawo le. 
 [Tsaɖiɖi](https://zectastic.com/)
 
@@ -179,7 +179,7 @@ Zcash-mɔ̃ ŋuti nyatakakawo kple nu siwo le eŋu la ƒe ɖoɖowɔɖi.
 Zcash ƒe asiɖoɖo ɖe ga ŋuti kple nyatakakawo ŋudɔwɔwɔ le eƒe asitsatsa me. 
 [Tsaɖiɖi](https://zecprice.com)
 
-### Zlink-tɔŋutrɔwo
+### Zlink
 Enye nyatakakadzraɖoƒe si me woato adi kadodowo, dɔwɔnu kple nyatakaka siwo ku ɖe Zcash ƒe nudzraɖoƒea ŋu. 
 [Tsaɖiɖi](https://zlink.click)
 
@@ -220,7 +220,7 @@ Internet-ʋunuwo ƒe akpa si trɔa ga siwo wotsɔna ƒlea asii la zua ZEC le ɣe
 Ameŋkumemakpɔmakpɔ ƒe nuʋuʋuwo ŋuti mɔnu si dzi Zcash zãa eƒe adzamezã. 
 [Tsaɖiɖi](https://shieldedwall.org/)
 
-### Ztrash (Agbatsɔ)
+### Ztrash
 Wozãa ZEC tsɔ xea e-mail ƒe nuɖoɖofɔ si woate ŋu azã ake. 
 [Tsaɖiɖi](https://ztrash.com/)
 

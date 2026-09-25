@@ -28,7 +28,7 @@ Nvida GPUwo wɔa dɔ nyuie wu.
 
 - [Ta Nuwo: AI Dzidzime](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) tso AppStore - femaxee
 (Ate ŋu azã StableDiffusion ƒe kpɔɖeŋu vovovo geɖewo)
-- [DiffusionBee ƒe dɔwɔwɔ](https://diffusionbee.com/) - femaxe
+- [DiffusionBee](https://diffusionbee.com/) - femaxe
 (Ate ŋu azã StableDiffusion ƒe kpɔɖeŋu vovovo geɖewo)
 - [YɔyɔAI](https://invoke-ai.github.io/InvokeAI/) (ehiã 4GB GPU ŋkuɖodzinu)
 

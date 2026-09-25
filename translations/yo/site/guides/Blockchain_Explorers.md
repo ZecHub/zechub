@@ -72,7 +72,7 @@ Ohun tí a lè rí kọ́: ìpamọ́ wa sinmi lórí wíwà nínú àwọn adág
 
 - [Zcash Block Explorer (ìwádìí ìdìpọ̀)](https://mainnet.zcashexplorer.app/)
 
-- [Àga ìjókòó orí àpò.](https://blockchair.com)
+- [Blockchair](https://blockchair.com)
 
 - [3xpl (ì í ì)](https://3xpl.com/zcash)
 
@@ -86,7 +86,7 @@ Ohun tí a lè rí kọ́: ìpamọ́ wa sinmi lórí wíwà nínú àwọn adág
 * [Mempool.space (ìkànnì ìkórìíra)](https://mempool.space)
 * [Ethscan (ìfiwéra)](https://etherscan.io/)
 * [Zcash Block Explorer (ìwádìí ìdìpọ̀)](https://mainnet.zcashexplorer.app)
-* [Ìwòràn ìdìbò](https://hub.mintscan.io/chains/ibc-network)
+* [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
 ![bitcoinExlporer](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)

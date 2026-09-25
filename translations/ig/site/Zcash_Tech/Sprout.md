@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Mkpụrụ osisi na-eto eto
+# Sprout
 
 > Zcash malitere na Ọktọba 28, 2016, ya na ọdọ mmiri echedoro Sprout.
 
@@ -34,7 +34,7 @@ Sprout is the baseline that every later change builds on. When the network-upgra
 
 Okwu. N'asụsụ Bekee nkịtị pụtara:
 |---|---|
-ZK-SNARK Ihe akaebe na amaghị ihe ọ bụla nke gosipụtara azụmahịa dị irè n'ekpugheghị onye zitere, nnata maọbụ ego.
+zk-SNARK Ihe akaebe na amaghị ihe ọ bụla nke gosipụtara azụmahịa dị irè n'ekpugheghị onye zitere, nnata maọbụ ego.
 Zcash na-enye ndị ahịa ya ohere ịkwụ ụgwọ ego ha chọrọ. N'oge gara aga, a maara ọtụtụ ụlọ ọrụ dị ka "Zcash" ma ọ bụ "Sprout".
  z-address na t-addres A Z adreesị bụ shielded ma na-edebe nkọwa onwe. a T address bụ uzo na egosi ihe ọmụma banyere ọha Ledger
 ◯ Ememe ahụ. Nhazi ọtụtụ ndị na 2016 nke mepụtara ihe omume ọha mmadụ Sprout ma tụfuo nsị dị ize ndụ.
@@ -87,4 +87,4 @@ Sprout bụ mmalite nke Zcash, ọ bụghị nkwalite n'oge na-adịghị anya. 
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke ọzọ: [Oge oyi na-agafe.](../zcash-tech/overwinter)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke ọzọ: [Overwinter](../zcash-tech/overwinter)

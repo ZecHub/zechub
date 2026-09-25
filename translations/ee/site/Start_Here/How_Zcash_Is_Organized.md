@@ -108,9 +108,9 @@ Wiki sia li be wòakpe ɖe ŋuwò nàge ɖe eme, eyata afɔɖeɖe nyuitɔ si kpl
 - [Zãla ƒe Mɔfiame Yeye](https://zechub.wiki/start-here/new-user-guide) na azɔlizɔzɔ gbãtɔ to Zcash zazã me
 - [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](https://zechub.wiki/using-zcash/shielded-pools) na alesi Zcash naa asitsatsa nɔa ɣaɣla
 - [Trɔtrɔmɔ̃a](https://zechub.wiki/zcash-tech/the-turnstile) le alesi gaku ƒe agbɔsɔsɔme nɔa anyi si ŋu woate ŋu aɖo kpee ta
-- [Ironwood ƒe ati](https://zechub.wiki/zcash-tech/ironwood) na shielded pool si network la le ʋuʋum yi
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) na shielded pool si network la le ʋuʋum yi
 - [Netwɔƒea ƒe Ðɔɖɔɖowo](https://zechub.wiki/start-here/network-upgrades) na alesi Zcash trɔna le ɣeyiɣi aɖe megbe
-- [zk-SNARKs ƒe nyawo](https://zechub.wiki/zcash-tech/zk-snarks) na nya ɣaɣla siwo le megbe na ame ŋutɔ ƒe nyatakakawo
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) na nya ɣaɣla siwo le megbe na ame ŋutɔ ƒe nyatakakawo
 
 Axa ɖesiaɖe doa ka kple bubuwo, eyata àte ŋu akplɔ ka la ɖo alesi nèdi.
 

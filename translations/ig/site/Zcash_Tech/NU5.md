@@ -110,4 +110,4 @@ Orchard is built on the Halo 2 proving system, which needs no trusted setup and 
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Ugboro abụọ](../zcash-tech/canopy) · Nke ọzọ: [NU6](../zcash-tech/nu6)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Canopy](../zcash-tech/canopy) · Nke ọzọ: [NU6](../zcash-tech/nu6)

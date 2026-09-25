@@ -10,7 +10,7 @@ Chọpụta ngwaọrụ, obere akpa ego, ngwa, ọba akwụkwọ na usoro okike 
 Akwụkwọ ọrụ agụmakwụkwọ nke ndị Zcash zuru ụwa ọnụ mepụtara. 
 [Ịga leta ya .](https://github.com/massadoptionorg/My-First-Zcash)
 
-### ZECKwupụta ihe ndị a na-eme n'akwụkwọ.
+### ZECPublish
 Mgbasa mgbasa ozi Zcash na-eguzogide ọgwụ, nke a kwadoro site na blockchain. Gụnyere ndekọ aha ndị ọrụ Zcash yana bọọdụ ozi amaghị ama. 
 [Ịga leta ya .](https://www.zecpublish.com)
 
@@ -42,7 +42,7 @@ Nchịkọta ihe nkiri nke nzuzo na-azụ, mepụta ma nye nkwado AV afọ ofufo
 Ọdịnaya agụmakwụkwọ ahaziri maka ndị ọrụ Zcash ọhụrụ na ndị mmepe. 
 [Ụlọ Nzukọ ahụ](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
-### Zectastic (nke na-eme ka mmadụ dị ndụ)
+### Zectastic
 Ebe nrụọrụ mmekọrịta na-egosi egwuregwu Zcash nwere isiokwu yana ihe omume obodo dị ndụ. 
 [Ịga leta ya .](https://zectastic.com/)
 
@@ -179,7 +179,7 @@ Dashboard maka oge-ezigbo usoro nchịkọta netwọk Zcash na metrics nchebe.
 Nchịkọta na data metrics ngwá ọrụ maka Zcash ahịa price arụmọrụ. 
 [Ịga leta ya .](https://zecprice.com)
 
-### Zlink (ihe na-adịghị mma)
+### Zlink
 Nchịkọta maka ịchọta njikọ, ngwaọrụ na ozi gbasara usoro okike Zcash. 
 [Ịga leta ya .](https://zlink.click)
 
@@ -220,7 +220,7 @@ Mgbatị nchọgharị nke na-agbanwe ọnụahịa ego fiat ka ZEC n'oge dị a
 Ihe ngosi nkwupụta na-enweghị aha nke Zcash nzuzo kwadoro. 
 [Ịga leta ya .](https://shieldedwall.org/)
 
-### Ihe mkpofu ahịhịa .
+### Ztrash
 Igbe mbata ozi-e a na-ewepu ewepụ nke akwụ ụgwọ maka ZEC echekwara. 
 [Ịga leta ya .](https://ztrash.com/)
 

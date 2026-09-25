@@ -16,7 +16,7 @@ Atilẹyin fun awọn ohun-ini aṣiri yipada nigbagbogbo, nitorina ila kọọk
 | [BTCPay Olùpèsè](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  Kò sí ìpamọ́, wíwo kókó nìkan. Bẹẹni, ààbò nikan (Sapling, Orchard, UA) Bẹ̀ ni, orísun ìmọ̀-ìmọ̀. Rárá o, ẹ san owó nẹtiwọki nìkan. Àgbáyé, kò ní KYC 2026-07-29
 | [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
 | [Flexa](https://flexa.co/) ☐ Owó tí àwọn oníbàárà fi sí àkáǹtì, owó ti òwò náà sì ń san ní ẹ̀rọ fiat. Àwọn oníbààrọ́ máa ń ná nǹkan láìsí ìdìbò kankan lórí rẹ̀, ẹni tó bá gbà á kò rí ìwé-ìwé kan nínú rẹ̀. Kò sí 1% fún gbogbo iye tí wọ́n bá ta. Orílẹ̀ èdè Amẹrika àti 37 lára àwọn orílẹ̀-èdè SEPA, ZEC ni EU a kò fìdí múlẹ̀ 2026-07-29
-| [Àwọn ìsanwó NOW Payments](https://nowpayments.io/supported-coins/zcash-payments)  Kò sí ìpamọ́ ní àṣeparí. Rárá, àdírẹ́sì tí ó ṣe kedere nìkan ni o wà. Ko si 0.5%, tabi 1% pẹ̀lú iyipada. Gbogbogbo ayafi ibi ti a fi òfin dè é, kò sí KYC láti bẹ̀rẹ̀ 2026-07-29
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)  Kò sí ìpamọ́ ní àṣeparí. Rárá, àdírẹ́sì tí ó ṣe kedere nìkan ni o wà. Ko si 0.5%, tabi 1% pẹ̀lú iyipada. Gbogbogbo ayafi ibi ti a fi òfin dè é, kò sí KYC láti bẹ̀rẹ̀ 2026-07-29
 | [Plisio (ìlú)](https://plisio.net/accept-zcash) | Custodial, despite marketing | Not documented | No | 0.5% API, 1.5% white label | No KYC to receive | 2026-07-29 |
 | [Owó Binance Pay](https://pay.binance.com/en) | Custodial, off-chain | No, shielded deposits rejected | No | Free wallet to wallet, 0.8% payouts | Geo-restricted, ZEC delisted in FR, ES, IT, PL | 2026-07-29 |
 
@@ -135,7 +135,7 @@ O ṣiṣẹ ni Amẹrika ati, lati Oṣu Keje ọdun 2026, ni awọn orilẹ-ed
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
 - **Irú ìtìlẹyìn**: Ìríjú nìkan ni.
 - **Àpèjúwe**: NOWPayments jẹ́ ẹnu ọ̀nà ìsanwó crypto tí ó fún àwọn oníṣòwò láàyè láti gba owó Zcash àti ọrẹ ni rọọrun.
-- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [Àwọn ìsanwó NOW Payments](https://nowpayments.io/supported-coins/zcash-payments)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
 Ko si atilẹyin aabo. iwe aṣẹ wọn sọ fun ọ lati ṣeto adirẹsi ṣiṣanwọle kan fun Zcash, ati pe ZEC nikan ni owo ti wọn yan ọna yẹn. gbogbo isanwo ti o gba jẹ gbangba lori blockchain.

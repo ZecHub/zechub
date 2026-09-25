@@ -29,7 +29,7 @@ Shielded Labs ṣe àkọsílẹ̀ àwọn iṣẹ́ tí ó wà nídìí:
 - [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Àtúnṣe ìfọwọ́sowọ́pọ̀ tí a dábàá èyí tó máa pa iṣelọpọ ẹri-iṣẹ Zcash pọ̀ pẹlú èrí ìdínà, kí àwọn olùkópa nínú ZEC lè ṣèrànlọ́wọ́ láti ṣe ààbò nẹtiwù náà nígbàtí àwọn awakùsà ń bá iṣẹ́ ṣíṣe lọ.
 - [Àwọn Owó-ìṣúná tí ó wà ní ìmúṣẹ](https://shieldedlabs.net/fees/) - Iwadii ati irinṣẹ fun awọn idiyele iṣowo Zcash ti o ni asọtẹlẹ diẹ sii, ore-olumulo, ati resilient bi nẹtiwọọki ṣe dagbasoke.
 - [Kò sí nǹkan kan.](https://shieldedlabs.net/zero/) - A supported suite of open-source Zcash infrastructure software for exchanges, mining pools, wallet providers, and other organizations that rely on Zcash infrastructure.
-- [Igi irin-igi](https://shieldedlabs.net/ironwood/) - Àtúnṣe sí ẹ̀rọ Zcash àti ìsọ̀rí tí a dá ní ìdáhùn si àléébù òdì-dídi ti Orchard, èyí tí wọ́n ṣe láti mú kí àwọn ohun èlò tó ń tà káàkiri nínú Zcash padà wà bó ṣe yẹ.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Àtúnṣe sí ẹ̀rọ Zcash àti ìsọ̀rí tí a dá ní ìdáhùn si àléébù òdì-dídi ti Orchard, èyí tí wọ́n ṣe láti mú kí àwọn ohun èlò tó ń tà káàkiri nínú Zcash padà wà bó ṣe yẹ.
 
 ## Ìpín ti igi irin-iṣan
 
@@ -53,6 +53,6 @@ Zcash kò lo ìdarí on-chain tí ó wà ní alákòókò fún àwọn àtúnṣ
 - [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
 - [Àwọn Owó-ìṣúná tí ó wà ní ìmúṣẹ](https://shieldedlabs.net/fees/)
 - [Kò sí nǹkan kan.](https://shieldedlabs.net/zero/)
-- [Igi irin-igi](https://shieldedlabs.net/ironwood/)
+- [Ironwood](https://shieldedlabs.net/ironwood/)
 - [Ìdarí àti ìdìbò](https://shieldedlabs.net/governance/)
 - [Àwọn Ilé-ìwádìí Ààbò GitHub](https://github.com/ShieldedLabs)

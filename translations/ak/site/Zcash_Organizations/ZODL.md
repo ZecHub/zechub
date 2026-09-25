@@ -4,7 +4,7 @@
 
 # <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL (Zcash Open Development Lab)
 
-[Wɛbsaet no](https://zodl.com/) - [GitHub na ɛwɔ hɔ](https://github.com/AgoraCyber) - [X/Twitter na ɛwɔ hɔ](https://x.com/zodl_app) - [Akasakasa](https://discord.gg/zodl)
+[Wɛbsaet no](https://zodl.com/) - [GitHub na ɛwɔ hɔ](https://github.com/AgoraCyber) - [X/Twitter na ɛwɔ hɔ](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
 ## Asɛmpatrɛw Asɛm
 

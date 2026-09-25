@@ -121,7 +121,7 @@ Achọrọ m ime ihe ọ bụla ugbu a? Mba. Tachyon bụ atụmatụ, ma ọ b�
 
 - [Ịchọta Ozi nke Onwe Onye](https://zechub.wiki/zcash-tech/private-information-retrieval) - ụzọ ọzọ maka otu obere akpa nyocha windo.
 - [Zakura Node (Nọmba nke Zaku)](https://zechub.wiki/zcash-tech/zakura-node) - otu ọnụ wuru akụkụ nke Tachyon si engineering mgbalị
-- [Osisi ígwè](https://zechub.wiki/zcash-tech/ironwood) - nkwalite nke arụ ọrụ na July 2026, a na-ejikarị ya eme ihe Tachyon.
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - nkwalite nke arụ ọrụ na July 2026, a na-ejikarị ya eme ihe Tachyon.
 - [Ihe A Na-akpọ Turnstile](https://zechub.wiki/zcash-tech/the-turnstile) - usoro Tachyon nwere ike iji ma ọ bụrụ na etinyere ya dị ka ọdọ mmiri nke aka ya.
 - [Nchebe Mgbe E Mechara Ihe Ndị Dị n'Eluigwe na Ala](https://zechub.wiki/zcash-tech/post-quantum-security) - ebe Tachyon na-anọdụ n'akụkụ ọrụ usoro iheomume ogologo oge.
 - [Otú E Si Hazie Zcash](https://zechub.wiki/start-here/how-zcash-is-organized) - onye na-arụ ọrụ a nakwa otú usoro okike si adaba n'otu.

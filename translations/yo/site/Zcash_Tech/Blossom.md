@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Òdòdó òyìnbó
+# Blossom
 
 > Blossom lọ si ìkànnì Zcash mainnet ní block 653,600 (December 11, 2019 UTC).
 
@@ -96,4 +96,4 @@ Nítorí pé Blossom tún dín èrè tí wọ́n ń san fún ọ̀kọ̀ọ̀kan
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Sapling](../zcash-tech/sapling) · Àtúnṣe: [Igi àyà igi](../zcash-tech/heartwood)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Sapling](../zcash-tech/sapling) · Àtúnṣe: [Heartwood](../zcash-tech/heartwood)

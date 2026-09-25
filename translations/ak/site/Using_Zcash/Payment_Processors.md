@@ -16,7 +16,7 @@ Mmoa a wɔde ma wɔ kokoam agyapade ho no taa sesa, enti row biara kura n’anka
 | [BTCPay Server a ɛwɔ hɔ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Ɛnyɛ custodial, hwɛ safoa nkutoo | Yiw, wɔabɔ ho ban nkutoo (Sapling, Orchard, UA) | Yiw, open source | Obiara nni hɔ, wotua network fees nkutoo | Wiase nyinaa, KYC biara nni hɔ | 2026-07-29 |
 | [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Adetɔfo ankasa hwɛ, aguadifo si fiat | Customer sɛe sika shielded, gye afã a wɔankyerɛw | Dabi | 1% wɔ sikatua biara mu | US ne SEPA aman 37, ZEC a ɛwɔ EU no nsii so dua | 2026-07-29 |
-| [MPREMPRENNtua a wotua](https://nowpayments.io/supported-coins/zcash-payments) | Nea ɛnyɛ afiase de default | Dabi, address a ɛda adi pefee nkutoo | Dabi | 0.5%, anaa 1% ne nsakrae | Global gye baabi a wɔabara, KYC biara nni hɔ a wode befi ase | 2026-07-29 |
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Nea ɛnyɛ afiase de default | Dabi, address a ɛda adi pefee nkutoo | Dabi | 0.5%, anaa 1% ne nsakrae | Global gye baabi a wɔabara, KYC biara nni hɔ a wode befi ase | 2026-07-29 |
 | [Plisio na ɔkyerɛwee](https://plisio.net/accept-zcash) | Custodial, ɛmfa ho sɛ wɔtɔn | Wɔnkyerɛw nkyerɛwee | Dabi | 0.5% API, 1.5% fitaa nkyerɛwde | KYC biara nni hɔ a wobegye | 2026-07-29 |
 | [Binance Akatua](https://pay.binance.com/en) | Custodial, off-nkɔnsɔnkɔnsɔn | Dabi, wɔpow sika a wɔde asie a wɔabɔ ho ban | Dabi | Free sika kotoku kɔ sika kotoku, 0.8% payouts | Geo-restricted, ZEC a wɔayi afi ne din mu wɔ FR, ES, IT, PL | 2026-07-29 |
 
@@ -135,7 +135,7 @@ Flexa ankasa dawurubɔ no ka Zcash nkabom no ho asɛm sɛ ɛde ZEC a wɔabɔ ho 
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
 - **Mmoa Type**: Ɛyɛ nea ɛda adi nkutoo
 - **Nkyerɛkyerɛmu**: NOWPayments yɛ crypto sikatua apon a ɛma aguadifo tumi gye Zcash sikatua ne ntoboa a ɛnyɛ den.
-- **URL**: 1. [MPREMPRENNtua a wotua](https://nowpayments.io/supported-coins/zcash-payments)
+- **URL**: 1. [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
 Nhyɛso biara nni hɔ a wɔabɔ ho ban. Wɔn nkrataa no ka kyerɛ wo sɛ hyehyɛ address a ɛda adi pefee ma Zcash, na ZEC nkutoo ne sika a wɔyi fi mu saa kwan no so. Ka biara a wubenya no yɛ baguam wɔ blockchain no so.

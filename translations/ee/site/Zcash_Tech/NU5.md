@@ -110,4 +110,4 @@ Wotu Orchard ɖe Halo 2 kpeɖodziɖoɖoa dzi, si mehiã ɖoɖo si dzi woka ɖo o
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Canopy ƒe xɔmenuwo](../zcash-tech/canopy) · Esi kplᴐe ɖo: [NU6](../zcash-tech/nu6)
+Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Canopy](../zcash-tech/canopy) · Esi kplᴐe ɖo: [NU6](../zcash-tech/nu6)
