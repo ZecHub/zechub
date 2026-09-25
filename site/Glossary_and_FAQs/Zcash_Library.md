@@ -72,7 +72,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 
 | Term | Definition |
 |------|-----------|
-| Governance | Decisions from the ZIP process are written into the Zcash specification, as well as the software that runs the network. The changes are ratified on-chain when the majority of the network adopts the upgrade and does not break consensus. [Full Protocol History](https://zfnd.org/protocol-governance/) |
+| Governance | Decisions from the ZIP process are written into the Zcash specification, as well as the software that runs the network. The changes are ratified on-chain when the majority of the network adopts the upgrade and does not break consensus. [Full Protocol History](https://web.archive.org/web/20230225093956/https://zfnd.org/protocol-governance/) |
 
 ## H
 
