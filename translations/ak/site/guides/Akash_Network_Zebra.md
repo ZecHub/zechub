@@ -416,16 +416,16 @@ Sɛ wo balance no sua a, Akash bɛ auto-close wo deployment no. **Top up wo wall
 
 ```markdown
 ----------------------------------------------------------------------------------
-|            | Mainnet (a wɔahyɛ da ayɛ)               | Testnet a wɔde sɔ hwɛ                         |
+|            | Mainnet (default)               | Testnet                         |
 ---------------------------------------------------------------------------------|
-| Botaeɛ   | Nneɛma a wɔyɛ Zcash blockchain      | Sɔhwɛ ne nkɔso         |
-| Nɛtwɛke   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
-| P2P Hyɛn Gyinabea  | 8233                             | 18233                           |
-| RPC Hyɛn Gyinabea  | 8232                             | 18232                           |
-| Sync bere | Nna                             | Nnɔnhwere                           |
-| Akoraeɛ   | 350GB+                           | 50GB                            |
-| Akadeɛ | 4 CPU / 16GB RAM na ɛwɔ hɔ                 | 2 CPU / 8GB RAM na ɛwɔ hɔ                 |
-| Ɛka      | ~$15/ɔsram biara                       | ~$5/ɔsram biara                       |
+| Purpose   | Production Zcash blockchain      | Testing and development         |
+| Network   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
+| P2P Port  | 8233                             | 18233                           |
+| RPC Port  | 8232                             | 18232                           |
+| Sync time | Days                             | Hours                           |
+| Storage   | 350GB+                           | 50GB                            |
+| Resources | 4 CPU / 16GB RAM                 | 2 CPU / 8GB RAM                 |
+| Cost      | ~$15/month                       | ~$5/month                       |
 ----------------------------------------------------------------------------------
 ```
 

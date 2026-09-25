@@ -121,7 +121,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
   (.data.transactionsByAccount[] |
     [.txid, .height, .time, .value, .fee,
      ([.notes[].memo, .outputs[].memo] | map(select(. != null and . != "")) | unique | join(" | "))])
-  | @csv' itan.json > itan.csv
+  | @csv' history.json > history.csv
 ```
 
 ### Kíkà ìjáde náà
@@ -134,8 +134,8 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `notes` | Ohun tí a gbà nínú ìṣòwò yìí, títí kan ìyípadà. Àwọn àkọsílẹ̀ tí a fi ránṣẹ́ sí ọ wà níbí. Àwọn ìkọ̀wé tí ó hàn gbangba kò ní àdírẹ́sì. |
 | `spends` | Àkọọ́lẹ̀ náà sọ pé ìṣòwò yìí ti lò tán |
 | `outputs` | Ohun tí ìṣòwò náà fi ránṣẹ́: gbogbo ìjáde tí ó ṣe kedere, pẹ̀lú àwọn ìsanwó tí a dáàbò bo sí àwọn àdírẹ́sì mìíràn pẹ̀lú àwọn àkọsílẹ̀ wọn |
-| `pool` | 0 tí ó hàn gbangba, Sapling, Orchard, Ironwood 3 |
-| `scope` | 0 ita (ìsanwó kan ni), 1 ti inu (àyípadà) |
+| `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
+| `scope` | 0 external (a payment in), 1 internal (change) |
 
 Ohun elo Zkool tun ni Awọn Iṣowo Ọja, Memos ati awọn akọsilẹ ninu akojọ aṣayan iroyin naa, ṣugbọn wọn jẹ idalẹnu tabili aise: iye owo ti o wa ni zatoshis, timestamps Unix, ati awọn memo ni faili lọtọ.
 

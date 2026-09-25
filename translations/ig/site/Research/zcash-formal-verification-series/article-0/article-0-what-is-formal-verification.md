@@ -88,7 +88,7 @@ Nyocha nyocha dị ike n'ihi na ọ bụ ihe doro anya banyere * ebe* njehie si 
 | Isi mmalite nke njehie | Ihe ọ pụtara | Ànyị nwere ike igosi na ọ dị mma? |
 |---|---|---|
 | **Nkọwapụta ahụ** | Mgbakọ na mwepụ ma ọ bụ iwu ndị ahụ n'onwe ha ezighi ezi (ọnọdụ na-efu, nkọwa na-adịghị mma) | **Ee**, ozugbo, nke a bụ ebe obibi nke nkwenye iwu kwadoro |
-| **Mmejuputa ya** | Koodu ahụ anaghị eme ihe ziri ezi nke ọma | N'otu aka; ọtụtụ mgbe ọdịda ndị dị otú ahụ na-ahapụ ihe akaebe a na-ahụ anya |
+| **Mmejuputa ya** | Koodu ahụ anaghị eme ihe ziri ezi nke ọma | N'otu aka; ọtụtụ mgbe, ọdịda ndị dị otú ahụ na-ahapụ ihe akaebe a na-ahụ anya |
 | **Echiche gbajiri agbaji** | Ihe usoro dum dabere na ya na-aghọ ụgha | Mba; echiche bụ ntọala a na-apụghị ịgbanwe agbanwe |
 
 This taxonomy matters more than it looks, and Parts 2 and 3 turn on it. The deepest, most dangerous bugs, the ones that can hide forever, tend to live in the **specification**: the mathematical description of what the system is supposed to do. And the specification is exactly what a machine-checked proof can examine directly, all cases at once. That is why serious formal-verification efforts aim there first.

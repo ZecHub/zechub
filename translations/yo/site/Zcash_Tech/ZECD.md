@@ -285,10 +285,10 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 | | zcashd | Zaino | ZECD |
 |--|--------|-------|------|
-| Ipa | Nọ́ńdà kíkún + àpò owó | Indexer (rọ́pò lightwalletd) | olupin apamọwọ nikan |
+| Ipa | Nọ́ńdà kíkún + àpò owó | Atọka (o rọpo lightwalletd) | olupin apamọwọ nikan |
 | Èdè | C++ | Ipata | Ipata |
 | Ipò | Ti yọ kuro | Ti nṣiṣe lọwọ | Ti nṣiṣe lọwọ (v0.5.0-rc3, Oṣu Keje 2026) |
-| Adágún àìṣeédéé | Ṣíṣe kedere | N/A | Orchard (tí a fi ààbò pamọ́) |
+| Adágún àìyípadà | Ṣíṣe kedere | N/A | Orchard (tí a fi ààbò pamọ́) |
 | Èdè RPC | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
 | Nilo nodule kikun | Bẹẹni (ara mi) | Zebra tabi zcashd | Zebra |
 | Ìgbàpadà láìsí ìpínlẹ̀ | No | N/A | Bẹ́ẹ̀ni (irugbin nìkan) |

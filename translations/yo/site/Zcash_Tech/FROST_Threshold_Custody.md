@@ -64,7 +64,7 @@ FROST yanju eyi nipa ṣiṣe ni inu adagun ti a fi oju pa:
 | Àwọn àmì tí a lè rí lórí ẹ̀wọ̀n | Bẹ́ẹ̀ni — gbogbo àwọn kọ́kọ́rọ́ gbogbogbò tí a ti tú síta | Rárá — a kò lè yà á sọ́tọ̀ kúrò lára owó tí a fi ọwọ́ kan ṣoṣo ná |
 | Àwọn iye tí a lè rí | Bẹ́ẹ̀ni | No |
 | Ìṣètò tó yẹ | Ìwé àfọwọ́kọ lórí ẹ̀wọ̀n | Ìbánisọ̀rọ̀ tí kò ní ẹ̀wọ̀n |
-| Ìpamọ́ | Kò sí | Ìpamọ́ tí a dáàbò bo ní kíkún |
+| Ìpamọ́ | None | Ìpamọ́ tí a dáàbò bo ní kíkún |
 
 ---
 

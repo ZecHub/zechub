@@ -50,7 +50,7 @@ zallet rpc decoderawtransaction '"<hexstring>"'
 
 | Paramita   | Ụdị   | A chọrọ | Nkọwa              |
 |-------------|--------|----------|--------------------------|
-| eriri hexstring   | eriri | ee      | Eriri hex azụmahịa   |
+| eriri hexstring   | string | ee      | Eriri hex azụmahịa   |
 
 ---
 
@@ -62,7 +62,7 @@ zallet rpc decodescript '"<hexstring>"'
 
 | Paramita   | Ụdị   | A chọrọ | Nkọwa     |
 |-------------|--------|----------|-----------------|
-| eriri hexstring   | eriri | ee      | Hex edemede      |
+| eriri hexstring   | string | ee      | Hex edemede      |
 
 ---
 
@@ -74,9 +74,9 @@ zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 
 | Paramita  | Ụdị   | A chọrọ | Ntọala ndabara | Nkọwa                          |
 |------------|--------|----------|---------|--------------------------------------|
-| txid       | eriri | ee      |         | NJ Azụmahịa                       |
-| okwu dị oke mkpa    | nọmba | no       | 0       | `0` = hex, na-abụghị efu = ihe JSON    |
-| ngọngọ  | eriri | no       |         | Machibido ọchụchọ na ngọngọ a        |
+| txid       | string | ee      |         | NJ Azụmahịa                       |
+| okwu dị oke mkpa    | number | no       | 0       | `0` = hex, na-abụghị efu = ihe JSON    |
+| ngọngọ  | string | no       |         | Machibido ọchụchọ na ngọngọ a        |
 
 ---
 
@@ -138,7 +138,7 @@ zallet rpc validateaddress '"<address>"'
 
 | Paramita | Ụdị   | A chọrọ | Nkọwa             |
 |-----------|--------|----------|-------------------------|
-| adreesị   | eriri | ee      | Adreesị doro anya     |
+| adreesị   | string | ee      | Adreesị doro anya     |
 
 ---
 
@@ -150,9 +150,9 @@ zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 
 | Paramita  | Ụdị   | A chọrọ | Nkọwa             |
 |------------|--------|----------|-------------------------|
-| adreesị    | eriri | ee      | Adreesị doro anya     |
-| mbinye aka  | eriri | ee      | Mbinye aka nke Base64        |
-| ozi    | eriri | ee      | Ozi izizi        |
+| adreesị    | string | ee      | Adreesị doro anya     |
+| mbinye aka  | string | ee      | Mbinye aka nke Base64        |
+| ozi    | string | ee      | Ozi izizi        |
 
 ---
 
@@ -174,8 +174,8 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 
 | Paramita   | Ụdị   | A chọrọ | Nkọwa                          |
 |-------------|--------|----------|--------------------------------------|
-| okwuntughe  | eriri | ee      | Okwuntughe obere akpa                    |
-| nkeji oge     | nọmba | ee      | Sekọnd iji mee ka obere akpa ahụ mechie  |
+| okwuntughe  | string | ee      | Okwuntughe obere akpa                    |
+| nkeji oge     | number | ee      | Sekọnd iji mee ka obere akpa ahụ ghara imechi  |
 
 ---
 
@@ -187,7 +187,7 @@ zallet rpc z_converttex '"<transparent_address>"'
 
 | Paramita             | Ụdị   | A chọrọ | Nkọwa                |
 |-----------------------|--------|----------|----------------------------|
-| adreesị_ezigbo   | eriri | ee      | Adreesị P2PKH iji gbanwee   |
+| transparent_address   | string | ee      | Adreesị P2PKH iji gbanwee   |
 
 ---
 
@@ -199,7 +199,7 @@ zallet rpc z_exportkey '"<sapling_address>"'
 
 | Paramita | Ụdị   | A chọrọ | Nkọwa                                      |
 |-----------|--------|----------|--------------------------------------------------|
-| adreesị   | eriri | ee      | Adreesị Sapling nke ego ya dị mkpa maka mbupụ     |
+| adreesị   | string | ee      | Adreesị Sapling nke ego ya dị mkpa maka mbupụ     |
 
 > A ghaghị ịmeghe obere akpa ahụ. Ọ na-ebupụ naanị Sapling mmefu ego isi ihe.
 
@@ -213,7 +213,7 @@ zallet rpc z_getaccount '"<account_uuid>"'
 
 | Paramita     | Ụdị   | A chọrọ | Nkọwa     |
 |---------------|--------|----------|-----------------|
-| akaụntụ_uuid  | eriri | ee      | UUID Akaụntụ    |
+| account_uuid  | string | ee      | UUID Akaụntụ    |
 
 ---
 
@@ -226,8 +226,8 @@ zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<
 | Paramita          | Ụdị            | A chọrọ | Nkọwa                              |
 |--------------------|-----------------|----------|------------------------------------------|
 | akaụntụ            | eriri / nọmba | ee      | Ndepụta akaụntụ UUID ma ọ bụ ZIP-32 UUID akaụntụ     |
-| ụdị_onye nnata     | usoro nke eriri | no       | Ụdị nnata ga-agụnye                |
-| diversifier_index  | nọmba          | no       | Ndepụta ihe dị iche iche kpọmkwem               |
+| receiver_types     | usoro nke eriri | no       | Ụdị nnata ga-agụnye                |
+| diversifier_index  | number          | no       | Ndepụta ihe dị iche iche kpọmkwem               |
 
 ---
 
@@ -240,7 +240,7 @@ zallet rpc z_getbalanceforaccount <account> [<minconf>]
 | Paramita | Ụdị            | A chọrọ | Ntọala ndabara | Nkọwa                      |
 |-----------|-----------------|----------|---------|----------------------------------|
 | akaụntụ   | eriri / nọmba | ee      |         | UUID ma ọ bụ ndeksi ZIP-32 nke akaụntụ     |
-| minconf   | nọmba          | no       | 1       | Nkwenye kacha nta            |
+| minconf   | number          | no       | 1       | Nkwenye kacha nta            |
 
 ---
 
@@ -252,7 +252,7 @@ zallet rpc z_getbalances [<minconf>]
 
 | Paramita | Ụdị   | A chọrọ | Ntọala ndabara | Nkọwa               |
 |-----------|--------|----------|---------|---------------------------|
-| minconf   | nọmba | no       | 1       | Nkwenye kacha nta     |
+| minconf   | number | no       | 1       | Nkwenye kacha nta     |
 
 ---
 
@@ -264,8 +264,8 @@ zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 
 | Paramita     | Ụdị   | A chọrọ | Nkọwa                              |
 |---------------|--------|----------|------------------------------------------|
-| aha akaụntụ  | eriri | ee      | Aha mmadụ nwere ike ịgụ                      |
-| mkpụrụ        | eriri | no       | A chọrọ ma ọ bụrụ na obere akpa nwere ọtụtụ mkpụrụ    |
+| account_name  | string | ee      | Aha mmadụ nwere ike ịgụ                      |
+| mkpụrụ        | string | no       | A chọrọ ma ọ bụrụ na obere akpa nwere ọtụtụ mkpụrụ    |
 
 ---
 
@@ -277,8 +277,8 @@ zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 
 | Paramita     | Ụdị   | A chọrọ | Ntọala ndabara | Nkọwa                          |
 |---------------|--------|----------|---------|--------------------------------------|
-| minconf       | nọmba | no       | 1       | Nkwenye kacha nta                |
-| dị ka_nke_elu_dị elu  | nọmba | no       |         | Ajụjụ gbasara ịdị elu a (`-1` = isi) |
+| minconf       | number | no       | 1       | Nkwenye kacha nta                |
+| as_of_height  | number | no       |         | Ajụjụ gbasara ịdị elu a (`-1` = isi) |
 
 ---
 
@@ -314,8 +314,8 @@ zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 
 | Paramita          | Ụdị    | A chọrọ | Ntọala ndabara | Nkọwa                     |
 |--------------------|---------|----------|---------|---------------------------------|
-| minconf            | nọmba  | no       | 1       | Nkwenye kacha nta           |
-| gụnyere_naanị elekere  | Boolean | no       | ụgha   | Gụnye nhazi elekere naanị     |
+| minconf            | number  | no       | 1       | Nkwenye kacha nta           |
+| include_watchonly  | boolean | no       | false   | Gụnye nhazi elekere naanị     |
 
 ---
 
@@ -327,9 +327,9 @@ zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 
 | Paramita  | Ụdị    | A chọrọ | Ntọala ndabara | Nkọwa                          |
 |------------|---------|----------|---------|--------------------------------------|
-| akaụntụ    | eriri  | ee      |         | UUID Akaụntụ                         |
-| data_hex   | eriri  | ee      |         | Igodo ọha Hex ma ọ bụ edemede mgbapụta      |
-| nyochaghachi     | Boolean | no       | eziokwu    | Nyochagharịa mgbe ebubatara ya                  |
+| akaụntụ    | string  | ee      |         | UUID Akaụntụ                         |
+| hex_data   | string  | ee      |         | Igodo ọha Hex ma ọ bụ edemede mgbapụta      |
+| nyochaghachi     | boolean | no       | true    | Nyochagharịa mgbe ebubatara ya                  |
 
 ---
 
@@ -341,9 +341,9 @@ zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 
 | Paramita     | Ụdị   | A chọrọ | Ntọala ndabara        | Nkọwa                              |
 |---------------|--------|----------|----------------|------------------------------------------|
-| igodo           | eriri | ee      |                | Igodo mmefu agbatịkwuru Sapling            |
-| nyochaghachi        | eriri | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
-| elu_mmalite  | nọmba | no       | 0              | Nyochagharịa ogologo mmalite                      |
+| igodo           | string | ee      |                | Igodo mmefu agbatịkwuru Sapling            |
+| nyochaghachi        | string | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
+| start_height  | number | no       | 0              | Nyochagharịa ogologo mmalite                      |
 
 ---
 
@@ -355,7 +355,7 @@ zallet rpc z_listaccounts [<include_addresses>]
 
 | Paramita          | Ụdị    | A chọrọ | Ntọala ndabara | Nkọwa                              |
 |--------------------|---------|----------|---------|------------------------------------------|
-| gụnyere_adreesị  | Boolean | no       | eziokwu    | Weghachitekwa adreesị maka akaụntụ ọ bụla   |
+| include_addresses  | boolean | no       | true    | Weghachitekwa adreesị maka akaụntụ ọ bụla   |
 
 ---
 
@@ -367,7 +367,7 @@ zallet rpc z_listoperationids ['"<status>"']
 
 | Paramita | Ụdị   | A chọrọ | Nkọwa                          |
 |-----------|--------|----------|--------------------------------------|
-| ọkwa    | eriri | no       | Nyocha site na ọnọdụ (dịka ọmụmaatụ) `"success"`)  |
+| ọkwa    | string | no       | Nyocha site na ọnọdụ (dịka ọmụmaatụ) `"success"`)  |
 
 ---
 
@@ -379,11 +379,11 @@ zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height
 
 | Paramita      | Ụdị   | A chọrọ | Nkọwa                  |
 |----------------|--------|----------|------------------------------|
-| akaụntụ_uuid   | eriri | no       | Oke na otu akaụntụ         |
-| elu_mmalite   | nọmba | no       | Oke ala gụnyere        |
-| elu_ọgwụgwụ     | nọmba | no       | Oke elu pụrụ iche        |
-| dechapụ         | nọmba | no       | Wụpụ ọtụtụ nsonaazụ a       |
-| oke          | nọmba | no       | Nsonaazụ kachasị elu ị ga-eweghachi    |
+| account_uuid   | string | no       | Oke na otu akaụntụ         |
+| start_height   | number | no       | Oke ala gụnyere        |
+| end_height     | number | no       | Oke elu pụrụ iche        |
+| dechapụ         | number | no       | Wụpụ ọtụtụ nsonaazụ a       |
+| oke          | number | no       | Nsonaazụ kachasị elu ị ga-eweghachi    |
 
 ---
 
@@ -395,7 +395,7 @@ zallet rpc z_listunifiedreceivers '"<unified_address>"'
 
 | Paramita         | Ụdị   | A chọrọ | Nkọwa                  |
 |-------------------|--------|----------|------------------------------|
-| adreesị_otu   | eriri | ee      | Unified Address iji lelee anya   |
+| unified_address   | string | ee      | Unified Address iji lelee anya   |
 
 ---
 
@@ -407,11 +407,11 @@ zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1
 
 | Paramita          | Ụdị            | A chọrọ | Ntọala ndabara | Nkọwa                          |
 |--------------------|-----------------|----------|---------|--------------------------------------|
-| minconf            | nọmba          | no       | 1       | Nkwenye kacha nta                |
-| maxconf            | nọmba          | no       | ∞       | Nkwenye kachasị elu                |
-| gụnyere_naanị elekere  | Boolean         | no       | ụgha   | Gụnye naanị elekere-naanị                   |
+| minconf            | number          | no       | 1       | Nkwenye kacha nta                |
+| maxconf            | number          | no       | ∞       | Nkwenye kachasị elu                |
+| include_watchonly  | boolean         | no       | false   | Gụnye naanị elekere-naanị                   |
 | adreesị          | usoro nke eriri | no       |         | Nyocha na adreesị ndị a            |
-| dị ka_nke_elu_dị elu       | nọmba          | no       |         | Ajụjụ gbasara ịdị elu a              |
+| as_of_height       | number          | no       |         | Ajụjụ gbasara ịdị elu a              |
 
 ---
 
@@ -423,7 +423,7 @@ zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index
 
 | Paramita | Ụdị  | A chọrọ | Nkọwa                                                                 |
 |-----------|-------|----------|-----------------------------------------------------------------------------|
-| akaụntụ  | usoro | ee      | Usoro ihe dị iche iche: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| akaụntụ  | array | ee      | Usoro ihe dị iche iche: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
@@ -435,11 +435,11 @@ zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":
 
 | Paramita        | Ụdị            | A chọrọ | Ntọala ndabara         | Nkọwa                                      |
 |------------------|-----------------|----------|-----------------|--------------------------------------------------|
-| site na adreesị      | eriri          | ee      |                 | Adreesị ebe ma ọ bụ `"ANY_TADDR"`                  |
+| site na adreesị      | string          | ee      |                 | Adreesị ebe ma ọ bụ `"ANY_TADDR"`                  |
 | ego          | usoro ihe | ee      |                 | Ndị nnata (`address`, `amount`, nhọrọ `memo`)|
-| minconf          | nọmba          | no       |                 | Nkwenye kacha nta                            |
-| ụgwọ              | efu            | no       |                 | Ga-abụrịrị `null` (ZIP-317)                    |
-| amụma nzuzo   | eriri          | no       | `"FullPrivacy"` | Usoro amụma nzuzo                            |
+| minconf          | number          | no       |                 | Nkwenye kacha nta                            |
+| ụgwọ              | null            | no       |                 | Ga-abụrịrị `null` (ZIP-317)                    |
+| privacy_policy   | string          | no       | `"FullPrivacy"` | Usoro amụma nzuzo                            |
 
 ---
 
@@ -451,12 +451,12 @@ zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [n
 
 | Paramita        | Ụdị   | A chọrọ | Nkọwa                                      |
 |------------------|--------|----------|--------------------------------------------------|
-| site na adreesị      | eriri | ee      | Adreesị ma ọ bụ akaụntụ doro anya UUID              |
-| ime ihe        | eriri | ee      | Ebe a na-eche nche                             |
-| ụgwọ              | efu   | no       | Ga-abụrịrị `null`                                   |
-| oke            | nọmba | no       | Ọnụọgụ kachasị elu nke UTXO coinbase iji chebe           |
-| ihe ncheta             | eriri | no       | Ndepụta ederede nke e tinyere koodu hex                                 |
-| amụma nzuzo   | eriri | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
+| site na adreesị      | string | ee      | Adreesị ma ọ bụ akaụntụ doro anya UUID              |
+| ime ihe        | string | ee      | Ebe a na-eche nche                             |
+| ụgwọ              | null   | no       | Ga-abụrịrị `null`                                   |
+| oke            | number | no       | Ọnụọgụ kachasị elu nke UTXO coinbase iji chebe           |
+| ihe ncheta             | string | no       | Ndepụta ederede nke e tinyere koodu hex                                 |
+| privacy_policy   | string | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
 
 ---
 
@@ -468,7 +468,7 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 | Paramita | Ụdị   | A chọrọ | Nkọwa     |
 |-----------|--------|----------|-----------------|
-| txid      | eriri | ee      | NJ Azụmahịa  |
+| txid      | string | ee      | NJ Azụmahịa  |
 
 ---
 

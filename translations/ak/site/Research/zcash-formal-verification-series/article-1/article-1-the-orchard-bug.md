@@ -166,7 +166,7 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 | **Ɔdanseni** | Kokoam gyinapɛn ahorow a ɛma anohyeto ahorow no di mu |
 | **Nnyigyei** | Awerɛhyem a ɛne sɛ nsɛm a ɛyɛ nokware nkutoo na ebetumi ama wɔanya adanse a ɛfata |
 | **Nnyigyei mu nsonsonoe** | Anohyeto a ɛyera a ɛma atoro nsɛm twam |
-| **Wɔahyɛ no den** | Ɔmansin bi a ɛyera tebea bi a na ehia, Orchard mmoawa no ntini |
+| **Wɔahyɛde ase** | Ɔmansin bi a ɛyera tebea bi a na ehia, Orchard mmoawa no ntini |
 | **Wobetumi ahu / wontumi nhu** | Sɛ́ ebia mfaso a wɔde bedi dwuma no bɛma wɔagyaw adanse wɔ ɔmanfo ledger anaa |
 
 ---

@@ -72,7 +72,7 @@ Fun awọn aṣoju AI ti n ṣakoso ṣiṣan iṣẹ ifura, iwadii ofin, ibeere
 | **Olùgbà** | A le ri | Ti fi àkọpamọ́ | Ìpèníjà kọ̀ọ̀kan (a kò lè so pọ̀ mọ́ra) |
 | **Iye** | A le ri | Ti fi àkọpamọ́ | A le ri |
 | **Ìrántí** | A le ri | Ti fi àkọpamọ́ | N/A |
-| **Ààbò Àtúnṣe** | Kò sí | Ìsopọ̀mọ́ àkọsílẹ̀ | Àdírẹ́sì T fún ìpèníjà kọ̀ọ̀kan |
+| **Ààbò Àtúnṣe** | None | Ìsopọ̀mọ́ àkọsílẹ̀ | Àdírẹ́sì T fún ìpèníjà kọ̀ọ̀kan |
 | **Àpẹẹrẹ Lilo Iṣẹ** | A le sopọ̀ mọ́ | Ikọkọ | A kò le sopọ̀ mọ́ (àdírẹ́sì tuntun) |
 
 ### Ìṣòro Àìlèfòye-wí, Tí Àwọn Iṣẹ́ Tó Ń Ṣẹ̀ Láàárín Èèyàn Máa Ń Yanjú

@@ -181,7 +181,7 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 
 | Muhula | Ufafanuzi |
 |------|-----------|
-| Tachyon | Programu ya kuongeza ukubwa Zcash's, inayolenga NU7. Inahamisha pochi mbali na kuchanganua kila kizuizi kuelekea hali ya pochi inayobeba uthibitisho, usawazishaji usioeleweka na hali ya nodi inayoweza kupunguzwa, ikilenga kupitisha data kwa usalama katika maelfu ya miamala kwa sekunde. [Tovuti ya mradi](https://tachyon.z.cash/overview/) |
+| Tachyon | Programu ya kuongeza ukubwa Zcash's, inayolenga NU7. Inahamisha pochi mbali na kuchanganua kila kizuizi kuelekea hali ya pochi inayobeba uthibitisho, usawazishaji usioeleweka na hali ya nodi inayoweza kupunguzwa, ikilenga upitishaji uliolindwa katika maelfu ya miamala kwa sekunde. [Tovuti ya mradi](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (sarafu ya majaribio isiyo na thamani). |
 | Mtandao wa Majaribio | Blockchain tofauti ya kujaribu maboresho na vipengele kabla ya mainnet. |
 | Safu ya Mwisho wa Kufuata (TFL) | Utafiti kuhusu kuongeza safu ya mwisho nyuma ya mnyororo wa uthibitisho wa kazi Zcash's ili vitalu vya hivi karibuni viweze kukamilishwa bila kuchukua nafasi ya uchimbaji. Crosslink ndiyo muundo uliotokana nayo. |

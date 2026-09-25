@@ -166,7 +166,7 @@ Míeɖe nu me le susu nyui aɖe ta. Nuƒomɔ ŋutɔŋutɔ la lɔ nuto alafa geɖ
 | **Gbɔdzɔgbɔdzɔ** | Dzidzenu ɣaɣla siwo kpɔa mɔxenuwo gbɔ |
 | **Gbeɖiɖi** | Kakaɖedzi si nye be nya vavãwo koe ate ŋu ana kpeɖodzi si sɔ |
 | **Gbeɖiɖi ƒe dometsotso** | Mɔxenu si bu si nana alakpanyawo toa eme |
-| **Womexe mɔ ɖe enu o** | Nutome sue aɖe si to nɔnɔme aɖe si wòhiã, si nye Orchard ƒe nugbagbevi la ƒe ke |
+| **Womexe mɔ ɖe enu o** | Nutome sue aɖe si to nɔnɔme aɖe si wòhiã, si nye Orchard nugbagbevi la ƒe ke |
 | **Woate ŋu ade dzesii / womate ŋu ade dzesii o** | Nenye be amewo zazã ɖe mɔ gbegblẽ nu agblẽ kpeɖodziwo ɖe ledger me |
 
 ---

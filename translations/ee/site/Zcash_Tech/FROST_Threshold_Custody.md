@@ -60,7 +60,7 @@ FROST kpɔa esia gbɔ to dɔwɔwɔ le ta si wokpɔ ta na la me me:
 
 | | Multisign si me kɔ | FROST ƒe dzidzenu (si wotsɔ akpoxɔnu wɔe) |
 |--|---------------------|--------------------------|
-| Tsi xaxa | Nusi le gaglãgbe (dutoƒo) | Orchard (si wotsɔ akpoxɔnu wɔe) |
+| Tsi xaxa | Nusi me kɔ (dutoƒo) | Orchard (si wotsɔ akpoxɔnu wɔe) |
 | Amesiwo de asi ete siwo wokpɔna le kɔsɔkɔsɔ me | Ẽ — dutoƒo safuiwo katã ɖe go | Ao — womate ŋu ade vovototo wo dome tso ame ɖeka ƒe asidede agbalẽ te ƒe gazazã |
 | Ga home siwo wokpɔna | Ẽ | Ao |
 | Nuwɔwɔ aduadu hiã | On-kɔsɔkɔsɔ ŋɔŋlɔdzesiwo | Off-kɔsɔkɔsɔ ƒoƒo ƒe kadodo |

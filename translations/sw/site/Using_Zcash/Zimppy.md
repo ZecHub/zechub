@@ -72,7 +72,7 @@ Kwa mawakala wa AI kushughulikia mtiririko nyeti kazi, utafiti kisheria, maswali
 | **Mpokeaji** | Inaonekana | Imesimbwa kwa njia fiche | Kwa kila changamoto (haiwezi kuunganishwa) |
 | **Kiasi** | Inaonekana | Imesimbwa kwa njia fiche | Inaonekana |
 | **Kumbukumbu** | Inaonekana | Imesimbwa kwa njia fiche | N/A |
-| **Ulinzi wa Kurudia** | Hakuna | Kufunga kumbukumbu | Anwani ya T kwa kila changamoto |
+| **Ulinzi wa Kurudia** | None | Kufunga kumbukumbu | Anwani ya T kwa kila changamoto |
 | **Mfumo wa Matumizi ya Huduma** | Inaweza kuunganishwa | Privat | Haiwezi kuunganishwa (anwani mpya) |
 
 ### Tatizo la Urefu wa Muda, Litatatuliwa na Vikao vya Mazungumzo

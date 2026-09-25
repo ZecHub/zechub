@@ -185,7 +185,7 @@ Ihe ole na ole e mere iji mee ka ọ dị mfe ọgụgụ.`y^2 = x^3 + ax + b`);
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Eliptik gbagọrọ agbagọ** | Isi ihe na-eju afọ `y^2 = x^3 + ax + b`, yana "mgbakwunye" pụrụ iche nke isi ihe |
+| **Eliptik gbagọrọ agbagọ** | Points satisfying `y^2 = x^3 + ax + b`, with a special "addition" of points |
 | **Mgbakwunye isi ihe** | Iwu chord-na-tangent: ahịrị gafere isi ihe abụọ, were nke atọ kụrụ, tụgharịa uche |
 | **Tụọ aka na njedebe (`O`)** | "Efu" nke usoro ahụ; itinye ya agbanweghị ihe ọ bụla |
 | **Jenerato (`G`)** | Isi ihe nke ọnụọgụgụ ya mechara kpuchie otu ahụ dum |

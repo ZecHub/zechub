@@ -47,7 +47,7 @@ Zebra ɖea nu siawo ɖe go le eƒe magazine ɖesiaɖe me:
 
 | Nunɔamese | Taɖodzi |
 |---|---|
-| `zebrad-<version>-<arch>.tar.gz` | nudzraɖoƒe si me nu eve le |
+| `zebrad-<version>-<arch>.tar.gz` | nudzraɖoƒe si nye binary archive la |
 | `zebrad-<version>-<arch>.tar.gz.sha256` | ɖesiaɖe ƒe faɛl ƒe ɖaseɖigbalẽ |
 | `SHA256SUMS` | checksums na xɔtuɖaŋuwo katã |
 | `SHA256SUMS.sigstore.json` | Sigstore bundle ƒe asidede agbalẽ te `SHA256SUMS` |
@@ -235,7 +235,7 @@ Zallet ɖea ga bubu aɖewo ɖe go:
 
 | Nunɔamese | Taɖodzi |
 |---|---|
-| `zallet-<version>-<platform>.tar.gz` | nudzraɖoƒe si me nu eve le |
+| `zallet-<version>-<platform>.tar.gz` | nudzraɖoƒe si nye binary archive la |
 | `.tar.gz.asc` | GPG ƒe asidede agbalẽ te si woɖe ɖa |
 | `.tar.gz.intoto.jsonl` | SLSA ƒe afisi wòtso ƒe ɖaseɖiɖi |
 | `.tar.gz.provenance.json` | afisi wotso ƒe metadata |

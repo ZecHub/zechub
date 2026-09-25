@@ -1341,7 +1341,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+prose-retranslate+table-rebuild",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -6603,7 +6603,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+prose-retranslate+table-rebuild",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -13619,7 +13619,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -24143,7 +24143,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+prose-retranslate+table-rebuild",
+      "tool": "nllb-200-3.3B+prose-retranslate",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -29405,7 +29405,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {

@@ -64,7 +64,7 @@ FROST na-edozi nke a site n'ịrụ ọrụ n'ime ọdọ mmiri ahụ e chebere:
 | A na-ahụ ihe nrịbama n'usoro | Ee — igodo ọha niile ekpughere | Mba — a naghị amata ihe dị iche na mmefu onye bịanyere aka na ya |
 | Ọnụọgụ ndị a na-ahụ anya | Ee | No |
 | A chọrọ nhazi dị mkpa | Ederede dị n'ime yinye | Usoro nkwukọrịta dị n'èzí |
-| Nzuzo | Ọ dịghị | Nzuzo zuru oke nke kpuchiri ekpuchi |
+| Nzuzo | None | Nzuzo zuru oke nke kpuchiri ekpuchi |
 
 ---
 

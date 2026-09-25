@@ -72,7 +72,7 @@ Le AI dɔwɔla siwo wɔa nu le dɔwɔɖoɖowo, senyawo me numekukuwo, atikewɔw�
 | **Amexɔla** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | Kuxi ɖesiaɖe (si womate ŋu aƒo ka na o) |
 | **Home** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | Nukpɔkpɔ |
 | **Ŋkuɖodzinya** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | N/A |
-| **Gbugbɔgaƒoƒo Takpɔkpɔ** | Ɖeke o | Memo ƒe babla | T-adrɛs si nye kuxi ɖesiaɖe |
+| **Gbugbɔgaƒoƒo Takpɔkpɔ** | None | Memo ƒe babla | T-adrɛs si nye kuxi ɖesiaɖe |
 | **Subɔsubɔdɔ Zazã ƒe Kpɔɖeŋu** | Woate ŋu atsɔ kadodo aɖo wo nɔewo gbɔ | Ame ŋutᴐ ƒe | Womate ŋu aƒo ka na ame o (adr yeye) |
 
 ### Woɖe Nuwo Gbɔ Kpɔkpɔ ƒe Kuxia Ða To Ŋkuléle Ðe Eŋu Me

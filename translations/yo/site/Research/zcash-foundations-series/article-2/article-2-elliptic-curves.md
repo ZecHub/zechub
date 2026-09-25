@@ -185,7 +185,7 @@ A lo fọọmu Weierstrass ti o kuru (`y^2 = x^3 + ax + b`); Zcash's curves are 
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Ìtẹ̀gùn elliptical** | Àwọn ojú ìwé tó tẹ́ni lọ́rùn `y^2 = x^3 + ax + b`, pẹ̀lú "afikun" pàtàkì ti awọn aaye |
+| **Ìtẹ̀gùn elliptical** | Points satisfying `y^2 = x^3 + ax + b`, with a special "addition" of points |
 | **Àfikún àmì** | Òfin chord-and-tangent: ìlà la àwọn ojú ìwé méjì kọjá, mú ìlù kẹta, ṣàfihàn |
 | **Tọ́ka sí àìlópin (`O`)** | “Òdo” ni ìtẹ̀ náà; fífi kún un kò yí ohunkóhun padà |
 | **Ẹ̀rọ ìṣiṣẹ́ (`G`)** | Àkójọ ìpìlẹ̀ tí àwọn iye rẹ̀ tó pọ̀ tó sì bo gbogbo àwùjọ náà nígbẹ̀yìn gbẹ́yín |

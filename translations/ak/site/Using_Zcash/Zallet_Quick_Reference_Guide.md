@@ -395,7 +395,7 @@ zallet rpc z_listunifiedreceivers '"<unified_address>"'
 
 | Parameter | Type | Wɔhwehwɛ sɛ | Nkyerɛkyerɛmu |
 |-------------------|--------|----------|------------------------------|
-| unified_address a ɛyɛ biako   | ahoma | Aane      | Unified Address a wɔde bɛhwɛ mu   |
+| unified_address   | string | Aane      | Unified Address a wɔde bɛhwɛ mu   |
 
 ---
 

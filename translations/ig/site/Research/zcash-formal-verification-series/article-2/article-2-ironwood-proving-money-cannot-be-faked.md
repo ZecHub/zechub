@@ -151,11 +151,11 @@ We simplified for clarity. The real Lean development is far more detailed than t
 | **Iguzozi n'etiti ihe dị iche iche** | Ọdọ mmiri ahụ anaghị akwụ ụgwọ karịa ka ọ na-akwụ n'ihu ọha na eze |
 | **Ime ihe ọmụma** | Ihe akaebe dị irè chọrọ ka onye akaebe jide ezigbo onye akaebe |
 | **Ihe na-ewepụta ihe** | Usoro nke na-adọpụ onye akaebe ahụ n'ime onye akaebe ọ bụla na-eme ka mmadụ kwenye |
-| **Lean** | Onye enyemaka akaebe ejiri igwe lelee nkwenye ahụ |
+| **Dị jụụ** | Onye enyemaka akaebe ejiri igwe lelee nkwenye ahụ |
 | **ValidLedger** | Ụdị nkwekọrịta nkịtị na-achịkwa echiche ndị ahụ |
 | **Mkpisiaka** | Ókè dị n'etiti mgbakọ na mwepụ a nwapụtara na ngwanrọ Rust na-agba ọsọ |
 | **Dịka echiche ndị e kwuru** | Ihe akaebe ahụ na-ejide echiche nzuzo akpọrọ aha ya |
-| **Ụgbọala ntụgharị** | Iwu na-egbochi ụzọ ọpụpụ ọdọ mmiri na ebe a na-edebe ego ya |
+| **Ụgbọala ntụgharị** | Iwu na-egbochi ụzọ ọpụpụ ọdọ mmiri na ebe a na-etinye ego ya |
 | **Nkọwapụta mkpuchi dị elu** | Iwuli crypto site na nkwenye iwu dịka usoro ọkọlọtọ |
 
 ---

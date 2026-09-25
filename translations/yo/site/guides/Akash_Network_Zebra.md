@@ -416,16 +416,16 @@ Nígbà tí owó rẹ bá tán, Akash yóò pa ìmúṣẹ ọ̀rọ̀ náà tì
 
 ```markdown
 ----------------------------------------------------------------------------------
-|            | Mainnet (aiyipada)               | Nẹ́ẹ̀tìwọ́ọ̀kì ìdánwò                         |
+|            | Mainnet (default)               | Testnet                         |
 ---------------------------------------------------------------------------------|
-| Ète   | Iṣelọpọ blockchain Zcash      | Idanwo ati idagbasoke         |
-| Nẹ́ẹ̀tìwọ́ọ̀kì   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
-| Ibudo P2P  | 8233                             | 18233                           |
-| Ibudo RPC  | 8232                             | 18232                           |
-| Àkókò ìṣiṣẹ́pọ̀ | Àwọn ọjọ́                             | Wákàtí                           |
-| Ìpamọ́   | 350GB+                           | 50GB                            |
-| Àwọn ohun àlùmọ́nì | 4 CPU / 16GB Ramu                 | 2 CPU / 8GB Ramu                 |
-| Iye owo      | ~$15/osù                       | ~$5/osù                       |
+| Purpose   | Production Zcash blockchain      | Testing and development         |
+| Network   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
+| P2P Port  | 8233                             | 18233                           |
+| RPC Port  | 8232                             | 18232                           |
+| Sync time | Days                             | Hours                           |
+| Storage   | 350GB+                           | 50GB                            |
+| Resources | 4 CPU / 16GB RAM                 | 2 CPU / 8GB RAM                 |
+| Cost      | ~$15/month                       | ~$5/month                       |
 ----------------------------------------------------------------------------------
 ```
 

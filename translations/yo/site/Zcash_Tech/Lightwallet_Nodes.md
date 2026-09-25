@@ -49,7 +49,7 @@ Start with what is protected. Against every adversary in the model, including on
 | Sọ èyí àti ìgbà tí o fi ránṣẹ́ tàbí tí o gba ìṣòwò tí a dáàbò bò | Fífiránṣẹ́ “ń lo bandwidth púpọ̀ sí i, èyí tí a lè rí bí ó tilẹ̀ jẹ́ pé ìsopọ̀ náà jẹ́ ti ìkọ̀kọ̀”. Àwòṣe náà sọ pé iṣẹ́ fífiránṣẹ́ àti gbígbà ni a lè rí fún olupin náà fúnra rẹ̀ |
 | Kíkà iye àwọn ìṣòwò tí o ti ṣe lórí àkókò | Awọn ilana bandwidth kanna, ti a ṣe akiyesi lori akoko pipẹ |
 | Ṣíṣàyẹ̀wò àwọn ìlànà ìsanwó tó ń ṣẹlẹ̀ déédéé | Ṣíṣàkíyèsí nígbà tí ìgbòkègbodò bá ṣẹlẹ̀ |
-| Ṣíṣe àyẹ̀wò bóyá àdírẹ́sì kan jẹ́ tìrẹ | Ẹlẹ́ta kan tí ó ti mọ àdírẹ́sì kan tẹ́lẹ̀ “lè fi owó ránṣẹ́ sí àdírẹ́sì náà kí ó sì ṣọ́ra láti rí i bóyá àwọn ìpele ìlọ́po púpọ̀ wà” láti inú àpò owó rẹ tí ó ń mú un wá |
+| Ṣíṣàyẹ̀wò bóyá àdírẹ́sì kan jẹ́ tìrẹ | Ẹlẹ́ta kan tí ó ti mọ àdírẹ́sì kan tẹ́lẹ̀ “lè fi owó ránṣẹ́ sí àdírẹ́sì náà kí ó sì ṣọ́ra láti rí i bóyá àwọn ìpele ìlọ́po púpọ̀ wà” láti inú àpò owó rẹ tí ó ń mú un wá |
 
 Awoṣe naa tun ṣe akiyesi pe ọran ti o wọpọ gba "ibasepo igbẹkẹle laarin olumulo ati oniṣẹ olupin lightwalletd".
 

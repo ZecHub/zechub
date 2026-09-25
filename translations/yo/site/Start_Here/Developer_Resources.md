@@ -18,7 +18,7 @@ The stack changed a great deal in 2026. zcashd, which ran the network for most o
 | Olupin apamọwọ ina | Zaino tabi lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
 | Àwọn ilé ìkàwé àpò owó | Àwọn àpótí librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
 | Foonu alagbeka | Awọn SDK Android ati iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
-| Ìlànà ìpele | Àlàyé ìlànà àti àwọn ZIP | [awọn kooduopo.z.cash](https://zips.z.cash) |
+| Ìlànà ìpele | Àlàyé ìlànà àti àwọn ZIP | [zips.z.cash](https://zips.z.cash) |
 
 ## Àwọn ìsọ̀rí
 
@@ -55,7 +55,7 @@ Pupọ ninu iṣẹ apamọwọ naa waye ni awọn apoti Rust labẹ [librustzca
 | zcash_client_backend | "Awọn API fun ṣiṣẹda awọn alabara ina Zcash ti a daabobo", pẹlu amuṣiṣẹpọ ati ikole iṣowo |
 | zcash_client_sqlite | "Oníbàárà ìmọ́lẹ̀ Zcash tí ó dá lórí SQLite", ìpele ìpamọ́ fún ohun tí a sọ lókè yìí |
 | zcash_keys | "Zcash àti ìṣàkóso àdírẹ́sì" |
-| zcash_primitives | "Àwọn ìmúṣẹ ipata ti àwọn ìpìlẹ̀ Zcash " |
+| zcash_primitives | "Àwọn ìṣẹ̀dá ipata ti àwọn ìpìlẹ̀ Zcash " |
 | zcash_protocol | "Zcash àti àwọn irú iye" |
 | orchard | "Ìlànà ìṣòwò tí a dáàbò bo Orchard " |
 | sapling-crypto | "Ìkàwé Cryptographic fún Zcash Sapling" |

@@ -121,7 +121,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
   (.data.transactionsByAccount[] |
     [.txid, .height, .time, .value, .fee,
      ([.notes[].memo, .outputs[].memo] | map(select(. != null and . != "")) | unique | join(" | "))])
-  | akụkọ ihe mere eme @csv.json > akụkọ ihe mere eme.csv
+  | @csv' history.json > history.csv
 ```
 
 ### Ịgụpụta ihe ọ na-ewepụ.
@@ -134,8 +134,8 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `notes` | Ihe akaụntị natara n'azụmahịa a, tinyere mgbanwe. Ihe ndetu ezitere gị dị ebe a. Ihe ntinye doro anya enweghị adreesị. |
 | `spends` | Ihe ndekọ akaụntụ ahụ kwuru na azụmahịa a ejirila mee ihe |
 | `outputs` | Ihe azụmahịa ahụ zigara: mmepụta ọ bụla doro anya, tinyere ịkwụ ụgwọ echekwara na adreesị ndị ọzọ yana ndetu ha |
-| `pool` | 0 doro anya, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope` | 0 mpụga (ụgwọ dị na ya), 1 nke ime (mgbanwe) |
+| `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
+| `scope` | 0 external (a payment in), 1 internal (change) |
 
 Ngwa Zkool nwekwara Export Transactions, Memos and Notes na menu akaụntụ ahụ, mana ndị a bụ ihe mkpofu tebụl: ego dị na zatoshis, akara oge Unix, yana memos n'ime faịlụ ọzọ.
 

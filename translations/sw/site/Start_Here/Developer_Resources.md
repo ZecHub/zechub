@@ -18,7 +18,7 @@ The stack changed a great deal in 2026. zcashd, which ran the network for most o
 | Seva nyepesi ya pochi | Zaino au lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
 | Maktaba za pochi | Masanduku librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
 | Simu ya Mkononi | SDK za Android na iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
-| Vipimo | Vipimo vya itifaki na ZIP | [pesa taslimu ya zips.z](https://zips.z.cash) |
+| Vipimo | Vipimo vya itifaki na ZIP | [zips.z.cash](https://zips.z.cash) |
 
 ## Nodes (viungo)
 

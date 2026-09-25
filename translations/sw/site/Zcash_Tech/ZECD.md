@@ -210,7 +210,7 @@ Watengenezaji kuhamia kutoka Bitcoin au zcashd zana lazima kuwa na ufahamu wa hi
 | Uthibitisho wa matumizi | 1 | 3 (badiliko mwenyewe) / 10 (mhusika wa tatu) — inaweza kusanidiwa kupitia `trusted_confirmations` / `untrusted_confirmations` |
 | `listsinceblock` kwenye upangaji upya | Anarudi kwenye uma | Marejesho `-5` (Kizuizi hakipatikani) ikiwa kielekezi kimepangwa upya — rekebisha msingi kwa kutumia simu isiyo na vigezo |
 | Nakala za wapokeaji katika `sendmany` | Hitilafu | Kichanganuzi cha JSON hukunja nakala rudufu (ushindi wa mwisho) kabla ya ZECD kuziona — usiorodheshe anwani sawa mara mbili |
-| Salio wakati wa usawazishaji wa awali | Vitalu au kupasha joto | Huhudumia salio la sehemu — otomatiki ya lango imewashwa `GET /readyz` (hurejesha 503 hadi itakaposawazishwa kikamilifu na mzigo wa uboreshaji utakapoisha) |
+| Sawazisha wakati wa usawazishaji wa awali | Vitalu au kupasha joto | Huhudumia salio la sehemu — otomatiki ya lango imewashwa `GET /readyz` (hurejesha 503 hadi itakaposawazishwa kikamilifu na mzigo wa uboreshaji utakapoisha) |
 | `minconf 0` in `getbalance` | Salio la 0-conf | Imetumika kama 1 — noti iliyolindwa haiwezi kutumika bila kuchimbwa |
 
 ---
@@ -292,7 +292,7 @@ zecd --datadir ./data init --restore --birthday 2500000
 | Lahaja ya RPC | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
 | Inahitaji nodi kamili | Ndiyo (mimi mwenyewe) | Zebra au zcashd | Zebra |
 | Urejeshaji usio na uraia | No | N/A | Ndiyo (ya mbegu pekee) |
-| Memo zilizolindwa | Ndiyo (`z_sendmany`) | N/A | Ndiyo (uso wa Bitcoin RPC) |
+| Memo zilizolindwa | Ndiyo (`z_sendmany`) | N/A | Ndiyo (uso wa RPC ya Bitcoin) |
 | Saa pekee (UFVK) | Ndiyo | Ndiyo | Ndiyo |
 | Asili ya wingu | No | Sehemu | Ndiyo |
 | Sakinisha | Muundo/binary | Jenga | `cargo install zecd` |

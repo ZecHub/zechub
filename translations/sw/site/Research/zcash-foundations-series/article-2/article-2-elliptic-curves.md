@@ -185,7 +185,7 @@ Baadhi ya kurahisisha kuweka hii kusoma. Sisi kutumika ** short Weierstrass ** f
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Mkunjo wa mviringo** | Pointi zinazoridhisha `y^2 = x^3 + ax + b`, pamoja na "nyongeza" maalum ya pointi |
+| **Mkunjo wa mviringo** | Points satisfying `y^2 = x^3 + ax + b`, with a special "addition" of points |
 | **Ongeza pointi** | Sheria ya gumzo na mchanganyiko: piga mstari kupitia pointi mbili, piga hitilafu ya tatu, tafakari |
 | **Elekeza katika kutokuwa na mwisho (`O`)** | "Sufuri" ya mkunjo; kuiongeza hakubadilishi chochote |
 | **Jenereta (`G`)** | Sehemu ya msingi ambayo vizidisho vyake hatimaye hufunika kundi zima |

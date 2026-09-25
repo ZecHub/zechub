@@ -84,7 +84,7 @@ Z3 bụ ọrụ atọ dị iche iche na-arụ. Ha anaghị ekekọrịta ọdụ
 | Netwọk | Aha ọrụ | Jiri ya maka | Mmekọrịta mbụ | Ezigbo ego |
 | --- | --- | --- | --- | --- |
 | **netịịntị** | `z3-mainnet` | Mmepụta | Awa 24–72 | Ee |
-| **net ule** | `z3-testnet` | Ịme ihe ngosi na netwọk ule ọha na eze | Awa 2–12 | Mba (nwale ZEC) |
+| **net ule** | `z3-testnet` | Ịkwado netwọk ule ọha na eze | Awa 2–12 | Mba (nwale ZEC) |
 | **ndebanye aha** | `z3-regtest` | Omume mpaghara: mgbochi ozugbo, enweghị ndị ọgbọ | Sekọnd | No |
 
 Ndị ọrụ ọhụrụ kwesịrị ịmalite na ** regtest**, kwado RPC na wallet flows, wee gaa testnet ma ọ bụ mainnet.

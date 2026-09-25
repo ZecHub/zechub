@@ -72,7 +72,7 @@ Maka ndị ọrụ AI na-arụ ọrụ dị nro, nyocha iwu, ajụjụ gbasara a
 | **Onye nnata** | A na-ahụ anya | Ezoro ezo | Kwa ihe ịma aka (enweghị njikọ) |
 | **Ego** | A na-ahụ anya | Ezoro ezo | A na-ahụ anya |
 | **Ndetu** | A na-ahụ anya | Ezoro ezo | N/A |
-| **Nchedo ọzọ** | Ọ dịghị | Njikọ Memo | Adreesị T nke onye ọ bụla nwere nsogbu |
+| **Nchedo ọzọ** | None | Njikọ Memo | Adreesị T nke onye ọ bụla nwere nsogbu |
 | **Ụkpụrụ Ojiji Ọrụ** | Njikọ nwere ike | Nkeonwe | Enweghị ike ijikọ (addr ọhụrụ) |
 
 ### Nsogbu Oge Ọgwụgwọ, nke E Ji Usoro Ịmụ Ihe Dozie
@@ -466,7 +466,7 @@ packages/
 | Ihe atụ | Nkọwa |
 |---|---|
 | `examples/fortune-teller/` | Ngosipụta ụgwọ, nnọkọ, na nkwanye ugwu - Sava Rust + onye ahịa |
-| `examples/llm-summarizer/` | Ngosipụta nkwanye ugwu LLM nke ụgwọ-kwa-akara |
+| `examples/llm-summarizer/` | Ngosipụta nkwanye ugwu LLM nke na-akwụ ụgwọ kwa akara ngosi |
 | `examples/mcp-server/` | Ihe nkesa ngwaọrụ MCP nwere ngwaọrụ AI akwụ ụgwọ |
 | `examples/ts-server/` | Mmejuputa ntụaka ihe nkesa TypeScript MPP |
 
@@ -479,7 +479,7 @@ packages/
 | **Oge Nzukọ** | Itinye ego otu ugboro, arịrịọ onye na-ebuga ngwa ngwa, nkwụghachi mgbe emechara |
 | **Na-agagharị** | Ọdịnaya a na-akwụ ụgwọ kwa akara n'elu SSE |
 | **Chaji** | Ịkwụ ụgwọ echekwara ma ọ bụ nke doro anya dịka arịrịọ HTTP si dị (usoro 402) |
-| **Ịkwụ Ụgwọ doro anya** | Adreesị T nwere mgbochi replay kwa-ihe ịma aka + iwu nchekwa |
+| **Ịkwụ Ụgwọ Na-enweghị Ntugharị** | Adreesị T nwere mgbochi replay kwa-ihe ịma aka + iwu nchekwa |
 | **Akaụntụ dị iche iche** | Mgbanwe akaụntụ ZIP-32, nnyefe akaụntụ n'ofe, nguzozi akaụntụ kwa akaụntụ |
 | **Akpa CLI** | Zipu, chebe, nyefe, nguzozi ---niile, whoami, ịkwụ ụgwọ akpaaka |
 | **SDK abụọ** | TypeScript na nchara |
