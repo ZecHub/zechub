@@ -187,7 +187,7 @@ Nzọụkwụ site nzọụkwụ onye ọrụ na-ekwu: [Ntuziaka Mbugharị: zca
 | Gịnị ka ọ bụ | Akpa RPC zuru oke | Ihe nkesa obere akpa nchekwa nke mbụ | Obere akpa ndị ọrụ ikpeazụ | Nọmba nkwekọrịta | Ndochi Indexer / lightwalletd |
 | Na-anọchi | `zcashd` obere akpa ego | Ọ bụghị ihe a ga-atụba n'ime `zcashd` klọn | Ngwa mkpanaka/desktọpụ | `zcashd` ọnụ | `lightwalletd` |
 | Achọrọ ebe nkwado mpaghara | Ee | Ee (Zebra dịka ndabara) | Mba (onye ahịa dị mfe) | Ọ bụ *ngọdụ* ahụ | Ee |
-| nkwekọrịta RPC zcashd | E mere ya dị ka ụzọ mgbakọ ahụ | Naanị obere obere ndepụta ahọpụtara | N/A | Ụdị nkwekọrịta nke Zakura / Zakura akụkụ | API dị iche |
+| nkwekọrịta RPC zcashd | E mere ya dị ka ụzọ mgbakọ ahụ | Naanị obere obere ihe ahọpụtara | N/A | Ụdị nkwekọrịta nke Zakura / Zakura akụkụ | API dị iche |
 | Ụdị nchekwa | Onye ọrụ ahụ jidere igodo n'ime `wallet.db` | Ihe nkesa a na-enweta mkpụrụ | Igodo ngwaọrụ onye ọrụ | Enweghị obere akpa ego | Enweghị igodo |
 
 Zallet and **zecd** can both sit in front of Zebra. Pick Zallet when you need the `z_*` obere akpa elu na a Mbugharị ụzọ si `wallet.dat`. Họrọ zecd mgbe ịchọrọ ihe nkesa nke mbụ na-echebe bụ nke doro anya * abụghị* a `zcashd` onye na-eme ka mmadụ.

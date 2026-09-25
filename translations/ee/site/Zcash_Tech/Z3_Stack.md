@@ -53,7 +53,7 @@ Eŋkɔa nye nu gbagbewo ƒe ɖoɖowɔɖi me nya kpui  Zebra, Zaino, Zallet  togb
 
 | Kpeɖeŋutɔ | Akpa si wòwɔna le Z3 | Si hiã? |
 | --- | --- | --- |
-| **Zebra** | Syncs eye wòɖo kpe kɔsɔkɔsɔ, nyatoƒoetoto, JSON-RPC, lãmesẽ nuwuƒe dzi | Ɛ̃ |
+| **Zebra** | Syncs eye wòda asi ɖe kɔsɔkɔsɔ, nyatoƒoetoto, JSON-RPC, lãmesẽ nuwuƒe | Ɛ̃ |
 | **Zallet** | Gakotoku si me node blibo le. Embeds Zaino agbalẽdzraɖoƒewo. Doa ka kple Zebra JSON-RPC tẽ. Me **meyɔa** Zaino nugoe si le eɖokui si o | Ɛ̃ |
 | **Zaino** | Indexer si le eɖokui si. lightwalletd-compatible gRPC na gota kekeli asisiwo, tsɔ kpe ɖe JSON-RPC teƒenɔla na explorers kple faucets | No — `--profile indexer` |
 

@@ -49,7 +49,7 @@ N'akụkụ mgbanwe ego, Canopy nwere obere ZIP abụọ. [ZIP 212 (Ụlọ ọr
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
 | Ụgwọ ọrụ ndị guzobere | Ụdị ego mbụ nke kwụrụ ụgwọ maka mmepe Zcash n'oge mbụ, nke a na-eme atụmatụ ịkwụsị na ọkara mbụ |
-| Ego Mmepe | The 20 percent share of each block reward that Canopy routed to development, running to the second halving |
+| Ego Mmepe | Pasentị iri abụọ nke ụgwọ ọrụ ngọngọ ọ bụla nke Canopy butere na mmepe, na-agba ọsọ ruo ọkara nke abụọ |
 | Ụgwọ ọrụ nke ngọngọ (enyemaka) | ZEC ọhụrụ ahụ mepụtara ma kwụọ ụgwọ ka a na-egwupụta blọk ọ bụla |
 | Ọkara ọkara | Mmemme a haziri ebe a ga-ebelata ụgwọ ọrụ blọk ahụ n'ime ọkara |
 | Usoro ego | Usoro nkwekọrịta (ZIP 207) nke na-eduzi akụkụ nke enyemaka ngọngọ gaa na adreesị onye nnata akọwapụtara |

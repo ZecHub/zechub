@@ -24,13 +24,13 @@
 | Àkọsílẹ̀ | Àkọsílẹ̀ kan jẹ́ àkọsílẹ̀ nínú blockchain Zcash tí ó ní àkójọ àwọn ìṣòwò tí a fi ránṣẹ́ sí nẹ́tíwọ́ọ̀kì. Ní gbogbo ìṣẹ́jú-àáyá 75, ní àròpín, Àkọsílẹ̀ tuntun ni a fi kún blockchain náà. |
 | Olùṣàwárí Àkọsílẹ̀ | Ohun èlò lórí ayélujára láti wo gbogbo ìṣòwò, àtijọ́ àti lọ́wọ́lọ́wọ́, lórí blockchain. [Olùṣàwárí Àkọsílẹ̀ Zcash](https://zcashexplorer.app/) |
 | Àwọn bulọọgi | [Bulọọgi ZODL (tí a mọ̀ sí Electric Coin Co tẹ́lẹ̀)](https://zodl.com/blog/) / [Bulọọgi Zcash Foundation](https://zfnd.org/blog/) / [Bulọọgi ZecHub](https://zechub.wiki/zechub-dao) |
-| Blossom | Igbesoke Nẹtiwọọki 3rd Kẹta fun Zcash. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
+| Blossom | Igbesoke Nẹtiwọọki Pataki Kẹta fun Zcash. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
 
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
-| Canopy | 5th Nẹtiwọọki Karun-un fun Zcash. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
+| Canopy | Igbesoke Nẹtiwọọki Karun-un fun Zcash. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Ètò Ìdúróṣinṣin | Ó fún olùdásílẹ̀ láyè láti fi ara mọ́ ìpìlẹ̀ onípele pẹ̀lú okùn kúkúrú kan tí olùdásílẹ̀ lè lò láti fi ẹ̀rí hàn pé àwọn àyẹ̀wò tí a sọ pé wọ́n ṣe ti ìpìlẹ̀ Zcash... |
 | Àwùjọ | [Àpérò Àwùjọ Zcash](https://forum.zcashcommunity.com) / [Discord Àwùjọ Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord R&D Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Apẹrẹ ìfọwọ́sowọ́pọ̀ aládàpọ̀ tí a dámọ̀ràn tí ó máa ń mú kí iṣẹ́ ìṣẹ̀dá àwọn ohun èlò ìdánilójú ṣiṣẹ́ dúró, tí ó sì ń fi ìpele ìdánilójú àwọn ohun èlò kún orí wọn, kí àwọn ohun èlò náà lè lágbára sí i láìsí pé wọ́n ń fi iṣẹ́ ìwakùsà sílẹ̀. Ó dàgbà láti inú ìwádìí Trailing Finality Layer, Shielded Labs sì ń kọ́ ọ, ó sì ń ṣiṣẹ́ lórí ìdàgbàsókè testnet ní ọdún 2026. |
@@ -80,17 +80,17 @@
 |------|-----------|
 | Halo | Ó ń mú kí àwọn àtúnṣe síkọ́ọ̀tì ṣiṣẹ́ láìsí àìní fún àwọn ètò tí a gbẹ́kẹ̀lé, èyí sì ń mú kí ìlànà ààbò Zcash túbọ̀ rọrùn fún àwọn àtúnṣe àti àfikún ọjọ́ iwájú. [Olùṣàlàyé Ìmọ̀-ẹ̀rọ](https://z.cash/learn/what-is-halo-for-zcash/) |
 | Àpò HD | Àwọn àpò ìpamọ́ onípele-ìpele máa ń mú àwọn oríṣiríṣi àwọn méjì pàtàkì jáde láti inú irúgbìn kan, èyí tí ó ń fúnni ní ìrọ̀rùn àti ìṣàkóṣo pẹ̀lú ààbò gíga. |
-| Heartwood | 4th Nẹtiwọọki Kariaye ti Zcash. [Ìwífún Síi](https://z.cash/upgrade/heartwood/) |
+| Heartwood | Igbesoke Nẹtiwọọki Kariaye ti Zcash. [Ìwífún Síi](https://z.cash/upgrade/heartwood/) |
 
 ## I
 
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
 | Àtọ́ka | Àtòjọ ZCX CoinDesk's dúró fún iye owó pàtó kan tí ó dọ́gba pẹ̀lú USD fún Zcash. [Àtòjọ Owó](https://www.coindesk.com/indices/zcx/) |
-| Àwọn ìsopọ̀ | O le gba awọn sisanwo Zcash nipasẹ ọpọlọpọ awọn olupese ẹgbẹ 3rd. [Àwọn Olùṣètò Ìsanwó](https://z.cash/zcash-for-business/) |
+| Àwọn ìsopọ̀ | O le gba awọn sisanwo Zcash nipasẹ ọpọlọpọ awọn olupese ẹgbẹ kẹta. [Àwọn Olùṣètò Ìsanwó](https://z.cash/zcash-for-business/) |
 | Ètò Ìdánilójú Ìbáṣepọ̀ | Ẹ̀rọ àkójọpọ̀ kan tí ó ń ṣe àwòkọ́ṣe ìṣirò gẹ́gẹ́ bí ìpàṣípààrọ̀ àwọn ìránṣẹ́ láàrín àwọn ẹgbẹ́ méjì: Prover àti Verifier kan. |
 | Idoko-owo | Ọpọlọpọ awọn aṣayan inawo wa fun awọn oludokoowo ile-iṣẹ tabi awọn ọfiisi idile ti o fẹ lati ni ifihan si Zcash. [Àkójọ ni kikun](https://z.cash/investors/) |
-| Ironwood | The network upgrade (NU6.3) that activated on mainnet on 28 July 2026 at block 3,428,143. It introduced a new shielded pool, also called Ironwood, and made the Orchard pool spend-only so existing value migrates across the turnstile. [Ìwífún síi](/zcash-tech/ironwood) |
+| Ironwood | Ìmúdàgbàsókè nẹ́tíwọ́ọ̀kì (NU6.3) tí ó ṣiṣẹ́ lórí mainnet ní ọjọ́ kejìdínlọ́gbọ̀n oṣù keje ọdún 2026 ní block 3,428,143. Ó ṣe àgbékalẹ̀ adágún tuntun kan tí a dáàbò bò, tí a tún ń pè ní Ironwood, ó sì mú kí adágún Orchard náwó-níkan kí iye tí ó wà tẹ́lẹ̀ lè yípadà sí àwọn turnstile. [Ìwífún síi](/zcash-tech/ironwood) |
 
 ## J
 
@@ -129,8 +129,8 @@
 | Ọ̀nà Ìdúróṣinṣin Nẹ́tíwọ́ọ̀kì (NSM) | Àbá láti ọ̀dọ̀ Shielded Labs láti sun ìpín kan nínú owó ìṣòwò kí ìnáwó ààbò ìgbà pípẹ́ ti ìlànà náà má baà sinmi lórí ìtẹ̀jáde pátápátá. A ti sọ ọ́ ní ZIP 234, tí a ń ṣe àtúnyẹ̀wò rẹ̀ ní ọdún 2026. |
 | Àṣálẹ́ alẹ́ | Àpò owó alágbèéká fún Zcash. [Oju opo wẹẹbu](https://nighthawkwallet.com) |
 | Àpò Noir | Àpò ìfàsẹ́yìn ẹ̀rọ ìṣàfilọ́lẹ̀ ẹ̀rọ ìṣàfilọ́lẹ̀ Zcash tí Zcash Community Grants ń ṣe àtìlẹ́yìn rẹ̀, tí a ṣe láti so ZEC tí a dáàbò bo mọ́ àwọn ohun èlò ìṣàfilọ́lẹ̀ náà tààrà dípò gbígbára lé àwọn kódù QR àti àwọn ìfiránṣẹ́ ọwọ́. [zknoir.com](https://www.zknoir.com/) |
-| NU5 | Igbesoke Nẹtiwọọki Pataki 6th fun Zcash, ti a ṣe afihan adagun-odo Orchard ti a daabobo ati Awọn adirẹsi Apapọ. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Ìgbéga Nẹ́tíwọ́ọ̀kì 7th fún Zcash, ṣíṣe àtúnṣe ìrànlọ́wọ́ ìdènà láti fi ṣe ìnáwó fún ètò Zcash Community Grants àti Shielded Labs. A ti ṣiṣẹ́ ní ìparí ọdún 2024. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU5 | Igbesoke Nẹtiwọọki Pataki kẹfa fun Zcash, ti a ṣe afihan adagun-odo Orchard ti a daabobo ati Awọn adirẹsi Apapọ. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
+| NU6 | Ìgbéga Nẹ́tíwọ́ọ̀kì Ńlá keje fún Zcash, ṣíṣe àtúnṣe ìrànlọ́wọ́ ìdènà láti fi ṣe ìnáwó fún ètò Zcash Community Grants àti Shielded Labs. A ti ṣiṣẹ́ ní ìparí ọdún 2024. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 | NU7 | Àtúnṣe nẹ́tíwọ́ọ̀kì pàtàkì tó tẹ̀lé lẹ́yìn Ironwood. Àwọn ohun pàtàkì tó wà nínú àwọn olùdíje ni iṣẹ́ ìṣàyẹ̀wò Project Tachyon, Zcash Shielded Assets, àti Network Sustainability Mechanism. |
 
 ## O

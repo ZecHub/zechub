@@ -13,7 +13,7 @@
 <aside>
   
 #### Oge ọgụgụ
-| 2 mins |
+| Nkeji abụọ |
 
 </aside>
 
@@ -26,7 +26,7 @@
 <aside>
   
 #### Oge ọgụgụ
-| 2 mins |
+| Nkeji abụọ |
 
 </aside>
 
@@ -39,7 +39,7 @@
 <aside>
   
 #### Oge ọgụgụ
-| 2 mins |
+| Nkeji abụọ |
 
 </aside>
 
@@ -52,7 +52,7 @@
 <aside>
   
 #### Oge ọgụgụ
-| 2 mins |
+| Nkeji abụọ |
 
 </aside>
 
@@ -65,7 +65,7 @@
 <aside>
   
 #### Oge ọgụgụ
-| 2 mins |
+| Nkeji abụọ |
 
 </aside>
 
@@ -78,7 +78,7 @@
 <aside>
   
 #### Oge ọgụgụ
-| 2 mins |
+| Nkeji abụọ |
 
 </aside>
 
@@ -91,7 +91,7 @@
 <aside>
   
 #### Oge ọgụgụ
-| 2 mins |
+| Nkeji abụọ |
 
 </aside>
 
@@ -104,7 +104,7 @@
 <aside>
   
 #### Oge ọgụgụ
-| 2 mins |
+| Nkeji abụọ |
 
 </aside>
 
@@ -117,7 +117,7 @@
 <aside>
   
 #### Oge ọgụgụ
-| 2 mins |
+| Nkeji abụọ |
 
 </aside>
 

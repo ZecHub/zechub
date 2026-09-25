@@ -174,7 +174,7 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 
 | Kigezo   | Aina   | Inahitajika | Maelezo                          |
 |-------------|--------|----------|--------------------------------------|
-| kaulisiri  | string | ndiyo      | Nenosiri la pochi                    |
+| nenosiri  | string | ndiyo      | Nenosiri la pochi                    |
 | muda wa kuisha     | number | ndiyo      | Sekunde chache za kuweka pochi bila kufunguliwa  |
 
 ---

@@ -24,13 +24,13 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 | Kizuizi | Block ni rekodi katika blockchain Zcash ambayo ina seti ya miamala inayotumwa kwenye mtandao. Takriban kila baada ya sekunde 75, kwa wastani, block mpya huongezwa kwenye blockchain. |
 | Kichunguzi cha Zuia | Zana ya mtandaoni ya kutazama miamala yote, ya zamani na ya sasa, kwenye blockchain. [Kichunguzi cha Kizuizi Zcash](https://zcashexplorer.app/) |
 | Blogu | [Blogu ZODL (zamani ilikuwa Electric Coin Co)](https://zodl.com/blog/) / [Blogu Zcash Foundation](https://zfnd.org/blog/) / [Blogu ZecHub](https://zechub.wiki/zechub-dao) |
-| Blossom | Uboreshaji wa Mtandao Mkuu 3rd kwa Zcash. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
+| Blossom | Uboreshaji wa Mtandao Mkuu wa 3 kwa Zcash. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
 
 | Muhula | Ufafanuzi |
 |------|-----------|
-| Canopy | Uboreshaji Mkuu 5th wa Mtandao kwa Zcash. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
+| Canopy | Uboreshaji Mkuu wa 5 wa Mtandao kwa Zcash. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Mpango wa Kujitolea | Humruhusu mtoa huduma kujitolea kwa polinomiali yenye mfuatano mfupi ambao unaweza kutumiwa na mthibitishaji kuthibitisha tathmini zinazodaiwa za polinomiali iliyoahidiwa. Muhimu kwa kupunguza gharama za mawasiliano katika itifaki Zcash. |
 | Jumuiya | [Jukwaa Rasmi la Jumuiya Zcash](https://forum.zcashcommunity.com) / [Discord Jumuiya ya Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord R&D Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Muundo mseto uliopendekezwa wa makubaliano unaoweka uzalishaji wa vitalu vya uthibitisho wa kazi na kuongeza safu ya mwisho ya uthibitisho wa hisa juu, kwa hivyo vitalu hupata mwisho wenye nguvu bila kuacha uchimbaji. Ulitokana na utafiti wa Trailing Finality Layer na unajengwa na Shielded Labs, bado uko katika maendeleo ya testnet kufikia 2026. |
@@ -80,14 +80,14 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 |------|-----------|
 | Halo | Huwezesha uboreshaji wa saketi bila hitaji la usanidi unaoaminika, na kufanya itifaki iliyolindwa ya Zcash iwe rahisi zaidi kwa maboresho na viendelezi vya siku zijazo. [Kielezi cha Kiufundi](https://z.cash/learn/what-is-halo-for-zcash/) |
 | Pochi ya HD | Pochi za kihierarkia zenye mpangilio maalum hutoa mfululizo wa jozi muhimu kutoka kwa mbegu moja, na kutoa urahisi na udhibiti pamoja na usalama wa hali ya juu. |
-| Heartwood | Uboreshaji wa Mtandao Mkuu 4th wa Zcash. [Maelezo Zaidi](https://z.cash/upgrade/heartwood/) |
+| Heartwood | Uboreshaji wa Mtandao Mkuu wa 4 wa Zcash. [Maelezo Zaidi](https://z.cash/upgrade/heartwood/) |
 
 ## I
 
 | Muhula | Ufafanuzi |
 |------|-----------|
 | Kielezo | Kielezo cha ZCX CoinDesk's kinawakilisha kiwango cha muda halisi, sawa na USD kwa Zcash. [Fahirisi ya Bei](https://www.coindesk.com/indices/zcx/) |
-| Ujumuishaji | Unaweza kukubali malipo Zcash kupitia idadi ya watoa huduma 3rd. [Wachakataji wa Malipo](https://z.cash/zcash-for-business/) |
+| Ujumuishaji | Unaweza kukubali malipo Zcash kupitia idadi ya watoa huduma wengine. [Wachakataji wa Malipo](https://z.cash/zcash-for-business/) |
 | Mfumo wa Ushahidi Shirikishi | Mashine dhahania inayounda mfumo wa hesabu kama ubadilishanaji wa ujumbe kati ya pande mbili: Mtoaji na Mthibitishaji. |
 | Uwekezaji | Chaguzi kadhaa za kifedha zinapatikana kwa wawekezaji wa taasisi au ofisi za familia wanaotaka kupata uzoefu wa Zcash. [Orodha kamili](https://z.cash/investors/) |
 | Ironwood | Uboreshaji wa mtandao (NU6.3) ulioanza kutumika kwenye mtandao mkuu tarehe 28 Julai 2026 katika kitalu namba 3,428,143. Ulianzisha bwawa jipya la kuogelea lililolindwa, ambalo pia huitwa Ironwood, na kufanya bwawa la Orchard litumie pesa pekee ili thamani iliyopo ihamie kwenye turnstile. [Maelezo zaidi](/zcash-tech/ironwood) |
@@ -129,8 +129,8 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 | Mfumo wa Uendelevu wa Mtandao (NSM) | Pendekezo kutoka kwa Shielded Labs la kutumia sehemu ya ada za miamala ili bajeti ya usalama ya muda mrefu ya itifaki isitegemee kabisa utoaji. Imebainishwa katika ZIP 234, chini ya ukaguzi mwaka wa 2026. |
 | Nighthawk | Pochi ya mkononi kwa ajili ya Zcash. [Tovuti](https://nighthawkwallet.com) |
 | Pochi ya Noir | Pochi ya kiendelezi cha kivinjari Zcash inayoungwa mkono na Ruzuku za Jumuiya Zcash, iliyojengwa ili kuunganisha ZEC iliyolindwa moja kwa moja kwenye programu za kivinjari badala ya kutegemea misimbo ya QR na uhamishaji wa mikono. [zknoir.com](https://www.zknoir.com/) |
-| NU5 | Uboreshaji wa Mtandao Mkuu 6th wa Zcash, ukianzisha bwawa la kuogelea lililolindwa na Orchard na Anwani za Unified. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Uboreshaji wa Mtandao Mkuu 7th wa Zcash, kurekebisha ruzuku ya block ili kufadhili mpango wa Ruzuku za Jumuiya Zcash na Labs Shielded. Ilianzishwa mwishoni mwa 2024. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU5 | Uboreshaji wa Mtandao Mkuu wa 6 wa Zcash, ukianzisha bwawa la kuogelea lililolindwa na Orchard na Anwani za Unified. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
+| NU6 | Uboreshaji wa Mtandao Mkuu wa 7 wa Zcash, kurekebisha ruzuku ya block ili kufadhili mpango wa Ruzuku za Jumuiya Zcash na Labs Shielded. Ilianzishwa mwishoni mwa 2024. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 | NU7 | Uboreshaji mkuu unaofuata wa mtandao baada ya Ironwood. Vipengele vinavyotarajiwa ni pamoja na kazi ya kuongeza ukubwa ya Project Tachyon, Zcash Shielded Assets, na Mfumo wa Uendelevu wa Mtandao. |
 
 ## O
@@ -139,7 +139,7 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 |------|-----------|
 | Usawazishaji Usiojulikana | Mbinu inayoendelea kutengenezwa katika Project Tachyon ambayo inaruhusu pochi kuomba data inayohitaji kutoka kwa seva isiyoaminika bila kufichua ambayo inauliza kuihusu. Seva haijui kamwe vifutaji vyako, kwa sababu itifaki huvifanya vibadilike kwa njia isiyoweza kuunganishwa. [Uandishi](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 | Bwawa Orchard Lililolindwa na Bustani ya Mimea | Bwawa la tatu lililolindwa kwa Zcash na linawakilisha mageuzi yanayoendelea ya rundo letu la teknolojia ya zk-SNARK. [Maelezo kamili](https://electriccoin.co/blog/explaining-halo-2/) |
-| Overwinter | Uboreshaji wa Mtandao 1st kwa Zcash. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+| Overwinter | Uboreshaji wa Mtandao wa Kwanza kwa Zcash. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 

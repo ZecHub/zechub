@@ -43,7 +43,7 @@ FROST (**Flexible Round-Optimized Schnorr Threshold Signatures **) ni ìlànà �
 |-----------|----------------------------|
 | **DAO tabi iṣura ẹgbẹ** | Kò sí olùdarí kan ṣoṣo tó lè yọ owó kúrò ní ẹyọ kan; ó nílò ìfọwọ́sowọ́pọ̀ |
 | **Paṣipaarọ tabi olutọju** | Pinpin eewu pataki kọja awọn agbegbe aabo tabi awọn oṣiṣẹ |
-| **Ibi ipamọ otutu ti ara ẹni (pẹlu idile ti o gbẹkẹle)** | 2-of-3 between you + two family members — die or lose access, funds aren't lost |
+| **Ibi ipamọ otutu ti ara ẹni (pẹlu idile ti o gbẹkẹle)** | Méjì nínú mẹ́ta láàárín ìwọ àti àwọn ọmọ ìdílé méjì — ẹ kú tàbí kí ẹ pàdánù àǹfààní, owó kò ní pàdánù |
 | **Ẹ̀kọ́ ìtọ́jú** | Olùrà, olùtajà, àti olùdájọ́ ní ìpín kan; ìtúsílẹ̀ owó nígbà tí àwọn méjì bá gbà láti ṣe bẹ́ẹ̀ |
 | **Ìsanwó owó ìrànlọ́wọ́ tó níye lórí** | ZCG-style: nilo ọpọlọpọ awọn olufowosi ominira ṣaaju ki o to sanwo jade |
 | **Ìṣàkóso kọ́kọ́rọ́ olùgbékalẹ̀** | Dènà ewu inu — kò sí onímọ̀ ẹ̀rọ kan ṣoṣo tó lè da owó ìfowópamọ́ ìṣètò sílẹ̀ |

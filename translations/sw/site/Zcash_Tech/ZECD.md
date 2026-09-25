@@ -176,7 +176,7 @@ Fedha zinaweza kupatikana kutoka kwa mnemonic pekee. Kila kitu kingine ni cache.
 | `keys.toml` | `<wallet dir>/keys.toml` | Mbegu iliyosimbwa kwa njia fiche + siku ya kuzaliwa + mtandao | **Ndiyo — kama Siri** |
 | `identity.txt` | `[keys] age_identity` | Huondoa maficho `keys.toml` (tumia mamlaka) | **Ndiyo — tofauti na `keys.toml`** |
 | Urefu wa siku ya kuzaliwa | Ndani `keys.toml` | Hurejesha haraka (urefu wowote kabla ya kipimo cha kwanza) | Rekodi kwa kutumia kumbukumbu |
-| `data.sqlite` | `<wallet dir>/data.sqlite` | Akiba ya pochi — imejengwa upya kutoka kwa mbegu kwenye urejeshaji | Hapana — inayoweza kutupwa |
+| `data.sqlite` | `<wallet dir>/data.sqlite` | Akiba ya pochi — imejengwa upya kutoka kwa mbegu wakati wa kurejesha | Hapana — inayoweza kutupwa |
 | `blocks/` | `<wallet dir>/blocks/` | Akiba ya kizuizi kidogo | Hapana — kamwe usisafirishe; inaweza kukua kubwa |
 | `.cookie` | `<datadir>/.cookie` | Kidakuzi cha RPC cha muda mfupi | Hapana — imetengenezwa upya wakati wa kuanza |
 
@@ -210,7 +210,7 @@ Watengenezaji kuhamia kutoka Bitcoin au zcashd zana lazima kuwa na ufahamu wa hi
 | Uthibitisho wa matumizi | 1 | 3 (badiliko mwenyewe) / 10 (mhusika wa tatu) — inaweza kusanidiwa kupitia `trusted_confirmations` / `untrusted_confirmations` |
 | `listsinceblock` kwenye upangaji upya | Anarudi kwenye uma | Marejesho `-5` (Kizuizi hakipatikani) ikiwa kielekezi kimepangwa upya — rekebisha msingi kwa kutumia simu isiyo na vigezo |
 | Nakala za wapokeaji katika `sendmany` | Hitilafu | Kichanganuzi cha JSON hukunja nakala rudufu (ushindi wa mwisho) kabla ya ZECD kuziona — usiorodheshe anwani sawa mara mbili |
-| Sawazisha wakati wa usawazishaji wa awali | Vitalu au kupasha joto | Huhudumia salio la sehemu — otomatiki ya lango imewashwa `GET /readyz` (hurejesha 503 hadi itakaposawazishwa kikamilifu na mzigo wa uboreshaji utakapoisha) |
+| Salio la pochi wakati wa usawazishaji wa awali | Vitalu au kupasha joto | Huhudumia salio la sehemu — otomatiki ya lango imewashwa `GET /readyz` (hurejesha 503 hadi itakaposawazishwa kikamilifu na mzigo wa uboreshaji utakapoisha) |
 | `minconf 0` in `getbalance` | Salio la 0-conf | Imetumika kama 1 — noti iliyolindwa haiwezi kutumika bila kuchimbwa |
 
 ---

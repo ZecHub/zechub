@@ -137,7 +137,7 @@ To keep this readable we simplified. Real specifications are written in precise 
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Nsɛm a wɔde di dwuma wɔ ɔkwan a ɛfata so** | Ɛkyerɛ, wɔ akontaabu mu, sɛ nhyehyɛe bi hyia nsɛm pɔtee bi a wɔahyɛ ato hɔ ma nsɛm nyinaa |
+| **Nsɛm a wɔde di dwuma wɔ ɔkwan a ɛfata so** | Ɔda no adi, wɔ akontaabu mu, sɛ nhyehyɛe bi hyia nsɛm pɔtee bi a ɛfa nsɛm nyinaa ho |
 | **Nkyerɛkyerɛmu** | Asɛm pɔtee a ɛfa nea "suban a ɛteɛ" kyerɛ ho |
 | **Sestɛm** | Dwumadi, ɔmansin, anaa protocol ankasa a wɔrehwɛ mu |
 | **Nnyinasoɔ** | Anamɔn a ntease wom a ɛwɔ anohyeto a ɛde asɛm bi a wɔka ma nsɛm nyinaa si hɔ |

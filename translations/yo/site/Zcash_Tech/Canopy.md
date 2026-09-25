@@ -49,7 +49,7 @@ Ni pẹkipẹki pẹlu awọn ayipada owo, Canopy gbe meji kere imọ ZIPs. [ZIP
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
 | Ẹ̀bùn àwọn olùdásílẹ̀ | Àwòṣe ìnáwó àtilẹ̀wá tí ó sanwó fún ìdàgbàsókè Zcash ní ìbẹ̀rẹ̀, tí a ṣètò láti parí ní ìdajì àkọ́kọ́ |
-| Owó Ìdàgbàsókè | The 20 percent share of each block reward that Canopy routed to development, running to the second halving |
+| Owó Ìdàgbàsókè | Ìpín ogún nínú ọgọ́rùn-ún nínú èrè bulọ́ọ̀kì kọ̀ọ̀kan tí Canopy gbé lọ sí ìdàgbàsókè, ó sáré sí ìdajì kejì |
 | Ẹ̀bùn ìdínà (ìrànlọ́wọ́) | ZEC tuntun naa ṣẹda ati sanwo jade bi a ṣe n wa gbogbo bulọọki kọọkan |
 | Ìdajì ìpíndọ́gba | Ìṣẹ̀lẹ̀ tí a ti ṣètò níbi tí a ti gé èrè bulọọki náà sí méjì |
 | Ṣíṣàn owó ìnáwó | Ìlànà ìfohùnṣọ̀kan (ZIP 207) tí ó darí apá kan ti ìrànlọ́wọ́ bulọọki sí àwọn àdírẹ́sì olùgbà tí a ti sọ |

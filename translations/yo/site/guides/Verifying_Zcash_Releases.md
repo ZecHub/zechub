@@ -50,7 +50,7 @@ Zebra ṣe atẹjade awọn ohun-ini wọnyi fun igbasilẹ kọọkan:
 | `zebrad-<version>-<arch>.tar.gz` | ibi ipamọ alakomeji |
 | `zebrad-<version>-<arch>.tar.gz.sha256` | Ṣíṣàyẹ̀wò fún fáìlì kọ̀ọ̀kan |
 | `SHA256SUMS` | àwọn àkójọ owó fún gbogbo àwọn ilé ìkọ́lé |
-| `SHA256SUMS.sigstore.json` | Ìfọwọ́sowọ́pọ̀ àpò ìforúkọsílẹ̀ Sigstore `SHA256SUMS` |
+| `SHA256SUMS.sigstore.json` | Ìfọwọ́sowọ́pọ̀ àpò ìsọ̀rí Sigstore `SHA256SUMS` |
 
 ### Ìgbésè 1  Ṣe àtúnyẹ̀wò
 

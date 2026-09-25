@@ -147,7 +147,7 @@ As regulatory environments tighten around the world, with regions like the EU ex
 | Ẹ̀yà ara | Àwọn àlàyé |
 |---|---|
 | **Pẹpẹ** | ShapeShift DAO (a ti pín sí méjì, orísun ṣíṣí sílẹ̀) |
-| **Ìjọba** | Àwọn tó ni àmì ìdámọ̀ FOX |
+| **Ìjọba** | Àwọn tó ni àmì FOX |
 | **Zcash ** | Iṣowo ZEC ni kikun pẹlu atilẹyin iṣowo aabo |
 | **A nilo KYC** | No |
 | **Ààbò** | Kì í ṣe àkóso (àwọn olùlò máa ń pa àwọn kọ́kọ́rọ́ tiwọn mọ́) |

@@ -133,7 +133,7 @@ Nya siawo wɔ ɖeka kple Eŋlisigbe me Gbegɔmeɖeɖe Biblia ƒe mɔfiamewo. [Zc
 | "ZSAwo le agbe le Zcash dzi egbea." | Menye nenemae o. Woɖoe be woatsɔ ZSA ade dɔwɔwɔ me le Network Upgrade 7 (NU7) me eye wogale ŋku lém ɖe eŋu hele dodokpɔ wɔm. |
 | "ZSA tsɔa smart contractwo vaa Zcash." | ZSA gblɔa nunɔamesiwo nana, wo tsɔtsɔ yi na ame bubuwo kple wo tsɔtsɔ dzoe. Menye nubabla ƒe ƒuƒoƒo si woate ŋu awɔ ɖoɖo ɖe eŋu na taɖodzinu gbadzaae wònye o. |
 | "Àteŋu axe ZSA ƒe fewo le ZSA ƒe dzesi ŋutɔ me." | Woxea fewo le ZEC. |
-| "Ne wokpɔ akpoxɔnu ta la, ele be dzesi ƒe nunana hã nanye adzame." | ZIP 227 na woɖoe koŋ ɖe ga si woɖe ɖe go la le gaglãgbe, eyata woate ŋu alé ŋku ɖe nunɔamesi ɖesiaɖe ƒe tsɔtsɔ ŋu le dutoƒo. Ga si susɔ kple ga si wotsɔ dea ame bubu me la nɔa ame ŋutɔ si; nusiwo wotsɔna naa amewo mewɔa esia o. |
+| "Ne wokpɔ eta la, ele be dzesi ƒe nunana hã nanye adzame." | ZIP 227 na woɖoe koŋ ɖe ga si woɖe ɖe go la le gaglãgbe, eyata woate ŋu alé ŋku ɖe nunɔamesi ɖesiaɖe ƒe tsɔtsɔ ŋu le dutoƒo. Ga si susɔ kple ga si wotsɔ dea ame bubu me la nɔa ame ŋutɔ si; nusiwo wotsɔna naa amewo mewɔa esia o. |
 | "ZIP 230 nye tɔtrɔ 6 ƒe asitsatsa ƒe ɖoɖo si li fifia." | Woɖe ZIP 230 ɖa. Fifia woɖe Version 6 gɔme to ZIP 229 dzi. |
 
 ---

@@ -172,7 +172,7 @@ Enwere ike iweghachite ego site na naanị ihe ncheta. Ihe ọ bụla ọzọ b�
 
 | Ihe ochie | Ọnọdụ | Ihe ọ na-echebe | Ịkwado azụ? |
 |----------|----------|-----------------|----------|
-| **24-word mnemonic** | Egosiri otu ugboro na `zecd init` | Ego ahụ — mfu = mfu na-adịgide adịgide | **Ee — n'ịntanetị (akwụkwọ/HSM)** |
+| **Mkpọpụta okwu iri abụọ na anọ** | Egosiri otu ugboro na `zecd init` | Ego ahụ — mfu = mfu na-adịgide adịgide | **Ee — n'ịntanetị (akwụkwọ/HSM)** |
 | `keys.toml` | `<wallet dir>/keys.toml` | Mkpụrụ ezoro ezo + ụbọchị ọmụmụ + netwọk | **Ee — dị ka ihe nzuzo** |
 | `identity.txt` | `[keys] age_identity` | Decrypt na-ewepụ njehie `keys.toml` (imefu ikike) | **Ee — iche na `keys.toml`** |
 | Ogologo ụbọchị ọmụmụ | N'ime `keys.toml` | Na-eme ka mgbake dị ngwa ngwa (ogologo ọ bụla tupu tx mbụ) | Dekọọ na ihe ncheta |
@@ -210,7 +210,7 @@ Ndị mmepe na-esi n'ọrụ Bitcoin ma ọ bụ zcashd agagharị kwesịrị �
 | Nkwenye imefu ego | 1 | 3 (mgbanwe nkeonwe) / 10 (ndị ọzọ) — enwere ike ịhazi site na `trusted_confirmations` / `untrusted_confirmations` |
 | `listsinceblock` na nhazigharị | Na-aga azụ na ndụdụ | Nlaghachi `-5` (Achọtaghị ngọngọ) ọ bụrụ na e weghachitere cursor — weghachite ntọala na oku na-enweghị paramita |
 | Ndị nnata abụọ na `sendmany` | Njehie | JSON parser na-agbaji ihe abụọ (mmeri ikpeazụ) tupu ZECD ahụ ha — edekwala otu adreesị ahụ ugboro abụọ |
-| Nhazi n'oge mmekọrịta mbụ | Blọk ma ọ bụ ikpo ọkụ | Na-arụ ọrụ nguzozi nkebi — akpaghị aka ọnụ ụzọ ámá na-arụ ọrụ `GET /readyz` (na-eweghachi 503 ruo mgbe emechara njikọ zuru oke ma wepụ ihe ndị metụtara nkwalite) |
+| Balance during initial sync | Blọk ma ọ bụ ikpo ọkụ | Na-arụ ọrụ nguzozi nkebi — akpaghị aka ọnụ ụzọ ámá na-arụ ọrụ `GET /readyz` (na-eweghachi 503 ruo mgbe emechara njikọ zuru oke ma wepụ ihe ndị metụtara nkwalite) |
 | `minconf 0` in `getbalance` | Nha nha 0-conf | E nyere ya dịka 1 — ego echekwara agaghị emefu ego a na-egwupụtaghị |
 
 ---

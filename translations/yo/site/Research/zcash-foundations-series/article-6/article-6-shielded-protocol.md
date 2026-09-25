@@ -30,7 +30,7 @@ Olúkúlùkù, gbogbo ohun tí o ti kọ́ jẹ́ ọlọgbọ́n. ṣùgbọ́n
 | Owó tí ó wà nínú àpòòwé kan | **Àkíyèsí** (iye, olùgbà, àìròtẹ́lẹ̀) | tí a fi àmì sí gẹ́gẹ́ bí àwọn èròjà pápá (Àwòrán 1) |
 | Àpò tí kò ní ìbòjú tí a dì | **Ṣe akiyesi ifaramo** | Pedersen / Sinsemilla ifaramo (Aworan 2, 3) |
 | Igbimọ gbogbogbo | **Ṣe akiyesi igi ifaramo** (ìdákọ̀ró = gbòǹgbò rẹ̀) | Igi Merkle onípele (Àwòrán 4) |
-| Àmì òfo náà | **Ohun tí kò ní jẹ́ kí ó bàjẹ́** | ìkọsílẹ̀ àkọọ́lẹ̀ + kọ́kọ́rọ́ àṣírí tí ó bá ZK mu (Àwòrán 2, 3) |
+| Àmì òfo | **Ohun tí kò ní jẹ́ kí ó bàjẹ́** | ìkọsílẹ̀ àkọọ́lẹ̀ + kọ́kọ́rọ́ àṣírí tí ó bá ZK mu (Àwòrán 2, 3) |
 | "Owó tó wà nínu owó dọ́gba pẹ̀lú owó tó jáde" | **Awọn ileri iye + ayẹwo iwontunwonsi** | Àwọn ìlérí Pedersen tí ó ní ìrísí (Àwòrán 2, 3) |
 | Idán ìṣẹ́gun lẹ́yìn aṣọ ìbòrí | **Ẹ̀rí ìmọ̀ òdo** | zk-SNARK lórí ìṣètò ìṣirò (Àwòrán 5) |
 | "Iwọ nikan ni o le ka apoowe rẹ" | **Àkọsílẹ̀ ìkọ̀kọ̀ + àwọn kọ́kọ́rọ́ wíwo** | ìfọwọ́sowọ́pọ̀ + ìṣètò bọtini (àpilẹ̀kọ yìí) |
@@ -85,7 +85,7 @@ Jẹ ki a ṣe apejọ Alice sanwo Bob. A yoo lo Sapling ká kedere "lo ẹgbẹ
 | Àpèjúwe ìnáwó (ó gba àkọsílẹ̀) | Àpèjúwe àbájáde (ó ṣẹ̀dá àkọsílẹ̀) |
 |---|---|
 | ifaramo iye ti titẹ sii | ifaramo iye ti abajade |
-| **okọ** o fihan lodi si (gbongbo igi kan) | ìdúró tuntun **àkíyèsí** (ìwé tuntun) |
+| **ìdákọ̀ró** ó fi hàn lòdì sí (gbòǹgbò igi) | ìdúró tuntun **àkíyèsí** (ìwé tuntun) |
 | **asán** ti àkọsílẹ̀ tí a ti ná | kọ́kọ́rọ́ **aláìpẹ́** fún ìfipamọ́ |
 | kọ́kọ́rọ́ gbogbogbò tí a tún ṣe àtúnṣe + ìfọwọ́sowọ́pọ̀ àṣẹ ìnáwó | àkọsílẹ̀ **tí a fi ìkọ̀kọ̀ sí** (ọ̀rọ̀ ìkọ̀kọ̀ fún ẹni tí a gbà á) |
 | **zk-SNARK** ti o fihan awọn ẹtọ mẹrin naa | a **zk-SNARK** ti o fihan pe abajade naa wa ni apẹrẹ daradara |

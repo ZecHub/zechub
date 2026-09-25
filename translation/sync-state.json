@@ -13419,7 +13419,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B+table-rebuild+handfix",
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
@@ -23943,7 +23943,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B+table-rebuild+handfix",
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {

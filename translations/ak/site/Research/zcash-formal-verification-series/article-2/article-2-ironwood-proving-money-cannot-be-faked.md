@@ -150,9 +150,9 @@ We simplified for clarity. The real Lean development is far more detailed than t
 | **Ironwood** | Zcash's shielded pool foforɔ (2026), a ɛsii Orchard pool a mfomsoɔ wɔ mu no ananmu |
 | **Balance nokwaredi** | Ɔtare no ntua bo a ɛboro nea wɔhyɛn mu wɔ baguam no da |
 | **Nimdeɛ a ɛyɛ den** | Adanse a ɛfata hwehwɛ sɛ ɔbofo no di adanse ankasa |
-| **Afiri a wɔde yi nneɛma mu** | Adeyɛ a ɛtwe ɔdansefo no fi ɔbebufo biara a ogye di mu |
-| **Twere** | Adanse boafo a wɔde mfiri hwɛ sɛnea wɔagye atom no |
-| **ValidLedger** | Nhwɛso a ɛyɛ mmara kwan so de a ɛfa adwene a ɛwɔ mu ho no di nsusuwii ahorow no so |
+| **Afiri a wɔde yi nneɛma mu** | Adeyɛ a ɛtwe ɔdansefo no fi ɔbofo biara a ogye di mu |
+| **Twere** | Adanse boafo a wɔde mfiri hwɛ nokwaredi no |
+| **ValidLedger** | Nhwɛso a ɛwɔ mmara mu a ɛfa adwene a ɛwɔ mu ho no di nsusuwii ahorow no so |
 | **Nsateaa nkyerɛwee** | Ɔhye a ɛda akontaabu a wɔada no adi ne Rust softwea a ɛreyɛ adwuma no ntam |
 | **Wɔ nsusuwii ahorow a wɔaka ase** | Adanse no kura mu a wɔde ama a wɔato din cryptographic nsusuwii ahorow kura |
 | **Nneɛma a wɔde dannan nneɛma** | Mmara a ɛto ɔtare bi kwan a wɔfa so fi adi no ano wɔ ne sika a wɔde asie a wobetumi agye atom no so |

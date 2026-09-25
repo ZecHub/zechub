@@ -121,7 +121,7 @@ Ebumnuche a bụ ịkwaga site na njikwa nke nzukọ gaa n'ịchị achị ndị
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
 | 2020 - Nọvemba 2024  | 80%    | 7%            | 5%   | 8%   | -       | Ego mmepe ochie                           |
 | Nọvemba 2024 - ugbu a   | 80%    | 0%            | 0%   | 8%   | 12%     | Ihe nlereanya NU6 + ndọtị ZCG                  |
-| Aro (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Onye ji ego ejikọta) | Ruo ọkara 3rd; ntuli aka onye ji ego |
+| Aro (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Onye ji ego ejikọta) | Ruo ọkara nke atọ; ntuli aka onye ji ego |
 
 ## 5. Akụ Ndị E Ji Eme Ihe
 

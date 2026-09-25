@@ -61,7 +61,7 @@ Fún ìtọ́kasí ìṣíkiri pípé, pẹ̀lú àwọn ipa ọ̀nà ìgbàpad�
 | Gbólóhùn ìrúgbìn tàbí àtìlẹ́yìn **kìkì ìnáwó tí kìí ṣe ti Sprout** láti inú àpò ìpamọ́ lọ́wọ́lọ́wọ́ tàbí tí a ṣẹ̀ṣẹ̀ tọ́jú, títí kan ohun èlò YWallet Zcash àtijọ́ | [Zkool](#fund-recovery-with-zkool) |
 | Kọ́kọ́rọ́ wíwo **nìkan** | Zkool le gbé àwọn kọ́kọ́rọ́ wíwo tí a ti fi ìtìlẹ́yìn fún wọlé fún wíwọlé sí ìwé kíkà nìkan, ṣùgbọ́n kọ́kọ́rọ́ wíwo kò le fún ni àṣẹ láti náwó ìgbàpadà. Wá irúgbìn tàbí kọ́kọ́rọ́ ìnáwó tí ó báramu. |
 | Irúgbìn 24-ọ̀rọ̀ kan **ZecWallet Lite** | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Lite tabi zcashd `wallet.dat`, tàbí kọ́kọ́rọ́ ìnáwó Sapling / Sprout kan ṣoṣo | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). As of September 18, 2026, v1.3.0 is current and preferred; use v1.2.0 or later for `wallet.dat` àti ìpadàbọ̀sípò Sprout. |
+| ZecWallet Lite tabi zcashd `wallet.dat`, tàbí kọ́kọ́rọ́ ìnáwó Sapling / Sprout kan ṣoṣo | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Ní ọjọ́ kejìdínlógún oṣù kẹsàn-án ọdún 2026, v1.3.0 jẹ́ èyí tó wà lọ́wọ́lọ́wọ́, ó sì jẹ́ ohun tó dára jù; lo v1.2.0 tàbí lẹ́yìn náà fún `wallet.dat` àti ìpadàbọ̀sípò Sprout. |
 | Ohun èlò Sprout tí Argos kò lè lò, tàbí ìgbàpadà níbi tí o bá fẹ́ kí àwọn ohun èlò ìrúwé náà wà lábẹ́ ìṣàkóso tirẹ | Lo ipa ọ̀nà ẹ̀gbẹ́ tí ó ti wà tẹ́lẹ̀ nínú [itọsọna aaye kikun](/research/zec-pool-migration/view). |
 | Kò sí irugbin iṣẹ́ tàbí kọ́kọ́rọ́ ìnáwó, ṣùgbọ́n ẹ̀rọ tí a ti tì pa, ọ̀rọ̀ ìpamọ́ tí a gbàgbé, tàbí díìsìkì tí ó kùnà | [Imularada ọjọgbọn](#professional-recovery-when-you-do-not-have-the-seed)Má ṣe fi èso iṣẹ́ tàbí kọ́kọ́rọ́ ìnáwó ránṣẹ́ sí ẹnìkan tí ó kàn sí ọ láìbéèrè. |
 
