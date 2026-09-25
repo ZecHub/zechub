@@ -20,7 +20,7 @@ Saa ntetewee yi ma dwumadi ahorow no da hɔ:
 |:--|:--|
 | Zebra | Node a ɛyɛ pɛpɛɛpɛ ne validator |
 | Zaino | Indexer ne API dwumadie a ɛhwɛ akraman |
-| Zallet | Wallet service |
+| Zallet | Wallet som adwuma |
 | lightwalletd | Older light wallet server a wɔayɛ Zaino sɛ ɛbɛsesa anaasɛ ɛbɛboa |
 
 Zaino ma dwumadie a ɛfa light clients, full clients anaa wallets ne block explorers ho. Ɛma kwan kɔ finalized chain no mu, best chain a ɛnni awieɛ na ɛyɛ papa paa wɔ hɔ, ɛne mempool data a ɛwɔ Zebra nsam.

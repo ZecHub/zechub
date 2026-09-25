@@ -67,8 +67,8 @@ ZECD nlo Orchard Unified Addresses bi iru adirẹsi aiyipada. Sapling ati awọn
 | Ètò Ìlànà | Ìwà |
 |--------|----------|
 | `AllowRevealedRecipients` (aiyipada) | Àwọn ìwé àṣẹ tí a fi ránṣẹ́ sí àwọn olùgbà tí ó ṣe kedere; a fi iye àti iye olùgbà hàn lórí ẹ̀wọ̀n |
-| `AllowRevealedAmounts` | Permits cross-pool sends (Sapling↔Orchard) but rejects transparent recipients |
-| `FullPrivacy` | Only fully-shielded sends within one pool; rejects transparent recipients and cross-pool |
+| `AllowRevealedAmounts` | Ó gbà láyè láti fi ránṣẹ́ sí àwọn olùgbà tí ó wà ní orí òkè (Sapling↔Orchard) ṣùgbọ́n ó kọ̀ láti gba àwọn olùgbà tí ó hàn gbangba |
+| `FullPrivacy` | Àwọn ìránṣẹ́ tí a fi ààbò pamọ́ sí nìkan ni ó wà láàárín adágún kan; ó ń kọ̀ àwọn olùgbà tí ó hàn gbangba àti àwọn olùgbà tí ó kọjá adágún |
 | `AllowFullyTransparent` | Ó tún jẹ́ kí t→t fi owó ránṣẹ́ láti ọ̀dọ̀ àwọn UTXO tí ó ṣe kedere |
 
 ### Bitcoin Core RPC Ìmúṣẹ Àjọṣe
@@ -177,7 +177,7 @@ Owó náà lè padà wá látinú ohun èlò tí a fi ń rántí nǹkan nìkan. 
 | `identity.txt` | `[keys] age_identity` | Àwọn ìkọ̀sílẹ̀ `keys.toml` (na aṣẹ) | **Bẹ́ẹ̀ni — yàtọ̀ sí ara wọn `keys.toml`** |
 | Gíga ọjọ́ ìbí | Nínú `keys.toml` | Ó mú kí ara rẹ̀ yára padà (kí ó tóbi kí ó tó di àkọ́kọ́) | Ṣe igbasilẹ pẹlu mnemonic |
 | `data.sqlite` | `<wallet dir>/data.sqlite` | Àpò àpò — tí a tún ṣe láti inú irúgbìn nígbà tí a bá tún ṣe àtúnṣe | Rárá — ohun tí a lè pàdánù |
-| `blocks/` | `<wallet dir>/blocks/` | Compact block cache | No — never ship; can grow large |
+| `blocks/` | `<wallet dir>/blocks/` | Àkójọ ìdìpọ̀ kékeré | Rárá — má ṣe fi ọkọ̀ ojú omi ránṣẹ́ láé; o lè dàgbà sí i |
 | `.cookie` | `<datadir>/.cookie` | Kúkì RPC ìgbà díẹ̀ | Rárá — a túnṣe ní ìbẹ̀rẹ̀ |
 
 > **Awọn data directory gbọdọ jẹ ogun-ibilẹ.** ZECD ká ọkan-apẹrẹ titiipa (`<datadir>/.lock`) jẹ́ ìsínmọ̀ràn OS  kò ní àyè àwọn onílé. Má ṣe pín ìwé atọ́ka data kà-kọ lórí ẹ̀rọ (NFS, Kubernetes) `ReadWriteMany`)  méjì ZECD ìṣẹlẹ yoo bajẹ awọn apamọwọ DB. Lo `ReadWriteOnce` awọn iwe-ipamọ ni Kubernetes.
@@ -203,7 +203,7 @@ Awọn oludasile ti o nlọ lati Bitcoin tabi awọn irinṣẹ zcashd yẹ ki o
 
 | Ìwà | Bitcoin Core | ZECD |
 |----------|-------------|------|
-| Ìrísí àdírẹ́sì | `1...` / `bc1...` | `u1...` ( Unified Address) (Orchard ) — kò ṣeé ṣe láti ṣàtúnṣe gẹ́gẹ́ bí àdírẹ́sì Bitcoin láti ọwọ́ àwọn oníbàárà tí ń ṣàtúnṣe okùn |
+| Ìrísí àdírẹ́sì | `1...` / `bc1...` | `u1...` (Unified Address) (Orchard) — kò ṣeé ṣe láti ṣàtúnṣe gẹ́gẹ́ bí àdírẹ́sì Bitcoin láti ọwọ́ àwọn oníbàárà tí ń ṣàtúnṣe okùn |
 | Àwọn àmì | Ile itaja aami ni kikun | A ko ṣe imuse — `setlabel`, `listlabels`, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ. padà `-32601` |
 | Awọn idiyele | Owó tí a lè ṣètò fún olùlò; ọjà owó tí a ó san | ZIP-317 deterministic nìkan; `settxfee`, `fee_rate`, `subtractfeefromamount` kọ pẹlu `-8` |
 | Àwọn Àkọsílẹ̀ | A ko ṣe atilẹyin fun | `sendtoaddress` gba àkọsílẹ̀ hex; ìtàn ti `memo` + `memoStr` awọn aaye |
@@ -211,7 +211,7 @@ Awọn oludasile ti o nlọ lati Bitcoin tabi awọn irinṣẹ zcashd yẹ ki o
 | `listsinceblock` lórí àtúntò | Ó rìn padà sí oríta | Àwọn ìdápadà `-5` (A ko ri bulọọki naa) ti a ba tun kọsọ naa pada — tun-ipilẹṣẹ pada pẹlu ipe ti ko ni paramita |
 | Àwọn olùgbà méjì nínú `sendmany` | Àṣìṣe | JSON parser wó àwọn àtúnṣe (àwọn ìṣẹ́gun ìkẹyìn) kí ZECD tó rí wọn — má ṣe kọ àdírẹ́sì kan náà sílẹ̀ lẹ́ẹ̀mejì |
 | Ìwọ̀ntúnwọ̀nsì nígbà ìṣiṣẹ́pọ̀ àkọ́kọ́ | Àwọn búlọ́ọ̀kì tàbí ìgbóná ara | N ṣiṣẹ iwọntunwọnsi apakan — adaṣe ẹnu-ọna lori `GET /readyz` (ó dá 503 padà títí tí a ó fi mú gbogbo rẹ̀ ṣiṣẹpọ tán tí àkójọpọ̀ ìdàgbàsókè yóò sì tán pátápátá) |
-| `minconf 0` in `getbalance` | 0-conf balance | Served as 1 — a shielded note is never spendable unmined |
+| `minconf 0` in `getbalance` | Ìwọ̀ntúnwọ̀nsì 0-conf | A fi owó pamọ́ sí i gẹ́gẹ́ bí 1 — owó tí a fi ààbò pamọ́ kò ṣeé ná láìlo |
 
 ---
 
@@ -285,11 +285,11 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 | | zcashd | Zaino | ZECD |
 |--|--------|-------|------|
-| Ipa | Nọ́ńdà kíkún + àpò owó | Atọka (o rọpo lightwalletd) | olupin apamọwọ nikan |
+| Ipa | Nọ́ńdà kíkún + àpò owó | Indexer (rọ́pò lightwalletd) | olupin apamọwọ nikan |
 | Èdè | C++ | Ipata | Ipata |
-| Status | Deprecated | Active | Active (v0.5.0-rc3, Jul 2026) |
-| Default pool | Transparent | N/A | Orchard (shielded) |
-| RPC dialect | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
+| Ipò | Ti yọ kuro | Ti nṣiṣe lọwọ | Ti nṣiṣe lọwọ (v0.5.0-rc3, Oṣu Keje 2026) |
+| Adágún àìṣeédéé | Ṣíṣe kedere | N/A | Orchard (tí a fi ààbò pamọ́) |
+| Èdè RPC | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
 | Nilo nodule kikun | Bẹẹni (ara mi) | Zebra tabi zcashd | Zebra |
 | Ìgbàpadà láìsí ìpínlẹ̀ | No | N/A | Bẹ́ẹ̀ni (irugbin nìkan) |
 | Àwọn àkọsílẹ̀ tí a dáàbò bò | Bẹ́ẹ̀ni (`z_sendmany`) | N/A | Bẹ́ẹ̀ni (Ojú ilẹ̀ Bitcoin RPC) |

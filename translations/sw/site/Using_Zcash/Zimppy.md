@@ -468,7 +468,7 @@ packages/
 | `examples/fortune-teller/` | Chaji, kipindi, na maonyesho ya utiririshaji - Seva ya kutu + mteja |
 | `examples/llm-summarizer/` | Onyesho la utiririshaji la LLM la malipo kwa kila tokeni |
 | `examples/mcp-server/` | Seva ya zana ya MCP yenye zana za akili bandia zinazolipishwa |
-| `examples/ts-server/` | Utekelezaji wa marejeleo ya seva ya TypeScript MPP |
+| `examples/ts-server/` | Utekelezaji wa marejeleo ya seva TypeScript MPP |
 
 ---
 
@@ -477,12 +477,12 @@ packages/
 | Kipengele | Maelezo |
 |---|---|
 | **Vipindi** | Amana mara moja, maombi ya mtoa huduma papo hapo, marejesho ya pesa yanapofungwa |
-| **Inatiririshwa** | Maudhui yaliyopimwa kwa kila tokeni kupitia SSE |
+| **Inatiririsha** | Maudhui yaliyopimwa kwa kila tokeni kupitia SSE |
 | **Chaji** | Malipo yaliyolindwa au ya uwazi kwa kila ombi la HTTP (mtiririko wa 402) |
 | **Malipo ya Uwazi** | Anwani za T zenye amri ya kuzuia marudio kwa kila changamoto + ngao |
-| **Multi-Account** | ZIP-32 account rotation, cross-account transfers, per-account balances |
+| **Akaunti Nyingi** | Mzunguko wa akaunti ya ZIP-32, uhamisho wa akaunti mtambuka, salio kwa kila akaunti |
 | **Pochi ya CLI** | Tuma, ngao, uhamisho, salio --all, whoami, lipa kiotomatiki |
-| **SDK mbili** | Hati ya Aina na Kutu |
+| **SDK mbili** | TypeScript na Kutu |
 | **Inafuata Maalum** | Changamoto za HMAC-SHA256, makosa ya RFC 9457, `/.well-known/payment` ugunduzi |
 
 ---

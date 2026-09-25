@@ -101,7 +101,7 @@ Awọn ọna ṣiṣe tuntun yọ ibeere yii kuro patapata, eyiti o jẹ ọkan 
 | Apẹrẹ | Ètò ìdánilójú | Eto ti o gbẹkẹle? | A kọ́ ọ lórí |
 |---|---|---|---|
 | **Sprout** (àkọ́kọ́) | tete zk-SNARK | Bẹ́ẹ̀ni | ayẹyẹ àtilẹ̀wá |
-| **Sapling** | **Groth16** | Yes (the multi-party "Powers of Tau" + Sapling ceremony) | **BLS12-381** (Article 2) |
+| **Sapling** | **Groth16** | Bẹ́ẹ̀ni (àjọ "Agbára Tau" + ayẹyẹ Sapling) | **BLS12-381** (Àpilẹ̀kọ 2) |
 | **Orchard** (lọ́wọ́lọ́wọ́) | **Halo 2** | **Ko si eto ti o gbẹkẹle** | **Pallas / Vesta** (Abala 2) |
 
 The march from Sprout to Sapling to Orchard is largely a story about proofs getting smaller, faster, and shedding the trusted setup. **Halo 2**, used by Orchard, needs no ceremony at all and is built to support *recursion* (proofs that verify other proofs), which is why Orchard uses the Pallas/Vesta **cycle** of curves from Article 2: each curve is tuned to verify proofs written over the other.
@@ -137,7 +137,7 @@ Zero-knowledge proofs are a deep field and we stayed at intuition level on purpo
 | **Alaafia** | Àwọn ọ̀rọ̀ èké ni a kọ̀ (àwọn arẹ́nijẹ kò le borí àyàfi nípasẹ̀ oríire) |
 | **Ẹlẹ́rìí** | Àwọn ìkọ̀kọ̀ tí ó sọ gbólóhùn náà di òótọ́ |
 | **Ìṣètò ìṣirò** | Gbólóhùn kan tún kọ gẹ́gẹ́ bí àfikún àti ìsọdipúpọ̀ lórí pápá ààlà kan |
-| **Non-interactive (Fiat-Shamir)** | A one-shot proof needing no live back-and-forth |
+| **Kò ní ìbáṣepọ̀ (Fiat-Shamir)** | Ẹ̀rí ìbọn kan ṣoṣo kò nílò láti gbé ayé padà-àti-wá |
 | **Àkótán** | Ẹ̀rí náà kéré, ó sì yára láti jẹ́rìí láìka ìwọ̀n gbólóhùn náà sí |
 | **zk-SNARK** | Ìjíròrò ìmọ̀ tí kò ní ìbáṣepọ̀ pẹ̀lú ìmọ̀ |
 | **Ètò ìgbẹ́kẹ̀lé / ìdọ̀tí olóró** | Ìṣẹ̀dá paramita ìgbà kan tí àṣírí tó kù gbọ́dọ̀ parẹ́ |

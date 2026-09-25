@@ -155,8 +155,8 @@ Mkpịsị aka ndị ahụ bụ ihe e ji n'aka ma bụrụ ndị a pụrụ inyo
 
 | Zcash | Ihe ndị ọ na-eji | Ọrụ |
 |---|---|---|
-| **Sapling** (older) | **BLS12-381** plus an embedded curve called **Jubjub** | BLS12-381 carries the proof system; Jubjub is built over BLS12-381's scalar field so that key and commitment operations are cheap to perform *inside* a zero-knowledge proof |
-| **Orchard** (current) | **Pallas** and **Vesta** (the "Pasta" cycle) | Pallas carries Orchard's keys and commitments; the Pallas/Vesta pairing is specially arranged to make advanced proofs efficient |
+| **Sapling** (nke ochie) | **BLS12-381** tinyere usoro agbakwunyere nke a na-akpọ **Jubjub** | BLS12-381 nwere sistemụ ihe akaebe; E wuru Jubjub n'elu ubi scalar BLS12-381's ka ọrụ isi na nkwa wee dị ọnụ ala iji *n'ime* ihe akaebe efu |
+| **Orchard** (ugbu a) | **Pallas** na **Vesta** (usoro "Pasta") | Pallas na-ebu igodo na nkwa Orchard's; a haziri njikọ Pallas/Vesta nke ọma iji mee ka ihe akaebe dị elu dị irè |
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 

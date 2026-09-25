@@ -27,11 +27,11 @@ For blockchains, the most important example is public-key cryptography. Public k
 
 Blockchains na-eji cryptography arụ ọtụtụ ọrụ dị iche iche:
 
-| Cryptographic tool | What it does | Quantum impact |
+| Ngwa nzipu ozi | Ihe ọ na-eme | Mmetụta kwantum |
 | --- | --- | --- |
 | Mbinye aka dijitalụ | Gosi na onye nwe ya nyere ikike imefu ego | Ihe egwu dị elu maka sistemụ elliptic-curve nkịtị |
 | Ọrụ Hash | Wulite adreesị, nkwa, osisi Merkle, na ihe ịma aka | Ihe egwu dị ala, mana oke nchekwa dị mkpa |
-| Zero-knowledge proofs | Prove shielded transactions are valid without revealing details | Depends on the proof system and assumptions |
+| Ihe akaebe efu nke ihe ọmụma | Gosipụta na azụmahịa echekwara dị irè na-ekpugheghị nkọwa | Dabere na sistemụ ihe akaebe na nkwenye |
 | Nkwekọrịta dị mkpa | Na-enyere aka zoo data ndetu maka ndị nnata | Ọ dị mkpa ka a nyochaa nke ọma n'okpuru ihe nlereanya ihe iyi egwu quantum |
 
 Kọmputa kọntaktị dị ike nke ga-eme ka ọtụtụ ihe ndị e ji edebanye aha n'akwụkwọ na kọmputa taa ghara ịdị irè, tinyere ihe ndị a na-akpọ elliptic-curve signatures.
@@ -90,10 +90,10 @@ Nkọwa ya dị mkpirikpi:
 
 | Mpaghara | Nkọwa onye mbido | Nchegbu mgbe ọnụọgụgụ gasịrị |
 | --- | --- | --- |
-| Transparent addresses | Public addresses and public transaction graph | Similar risks to other transparent blockchains |
+| Adreesị doro anya | Adreesị ọha na eze na eserese azụmahịa ọha na eze | Ihe egwu ndị yiri ya na blockchain ndị ọzọ doro anya |
 | Mefu ikike imefu | Ihe akaebe na-egosi na enyere onye ọrụ ohere imefu ego | Atụmatụ mbinye aka nwere ike ịchọ nnọchi ma ọ bụ mbugharị |
 | Ihe ndetu echekwara | Ihe ndekọ nkeonwe nke uru n'ime ọdọ mmiri echebe | Ụfọdụ akụkụ nwere ike ịchọ echiche ọhụrụ ma ọ bụ ngwaọrụ mgbake |
-| zk-SNARKs | Proofs that shielded transactions are valid | Proof-system assumptions need review |
+| zk-SNARKs | Ihe akaebe na-egosi na azụmahịa echekwara dị irè | Echiche sistemụ akaebe chọrọ nyocha |
 | Nnyocha obere akpa | Otu esi achọta ma detuo akwụkwọ ndị enwetara na obere akpa ego | Nkwekọrịta dị mkpa na ihe e dere ede kwesịrị inyocha |
 | Mbugharị | Ịkwaga ego na nchekwa nzuzo dị nchebe | Ga-ezere ma mfu ego na mfu nzuzo |
 

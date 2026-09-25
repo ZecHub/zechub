@@ -49,11 +49,11 @@ NU5 ilifuatia upgrades Zcash ya awali: Overwinter, Sapling, Blossom, Heartwood n
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's , yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 | Orchard | Bwawa la kuogelea lenye ulinzi NU5 lilianzishwa, limejengwa kwenye mfumo wa kuthibitisha Halo 2 |
 | Halo 2 | Mfumo wa kuthibitisha nyuma ya Orchard ambao hauhitaji usanidi unaoaminika |
 | Mpangilio unaoaminika | Sherehe ya mara moja ambayo hufanya vigezo vya siri vya bwawa la kuogelea na lazima viaminiwe kuviharibu |
-| Anwani ya pamoja | Anwani moja inayoweza kuunganisha vipokezi kwa zaidi ya kundi moja (ZIP 316) |
+| Unified address | Anwani moja inayoweza kuunganisha vipokezi kwa zaidi ya kundi moja (ZIP 316) |
 | Kitambulisho cha tawi la makubaliano | Kitambulisho kinachoashiria ni seti gani ya sheria ambazo muamala unamiliki |
 
 ## FAQs

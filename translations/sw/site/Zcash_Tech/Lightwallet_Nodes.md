@@ -102,7 +102,7 @@ Seva zilizoorodheshwa kwenye dashibodi wakati wa kuandika:
 | zec.rocks:443 | Sehemu za mwisho za kikanda zimeorodheshwa kando yake katika na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
 | zec-node.cakewallet.com:443 | Kwenye kikoa cha Cake Pollet |
 | zec.0xrpc.io:443 | Inaendeshwa na 0xRPC, ambayo hutoa vituo vya umma bila malipo kwa minyororo kadhaa na inaomba michango ili kufidia uwezo |
-| zaino.unsafe.zec.rocks:443 | Mfano wa Zaino . Kumbuka jina la mwenyeji, lichukulie kama la majaribio |
+| zaino.unsafe.zec.rocks:443 | Mfano wa Zaino. Kumbuka jina la mwenyeji, lichukulie kama la majaribio |
 | testnet.zec.rocks:443 | Testnet, ikiwa na mfano wa Zaino testnet ulioorodheshwa katika zaino.testnet.unsafe.zec.rocks |
 
 Angalia dashibodi badala ya kuamini orodha hii. Waendeshaji huja na kwenda, na ukurasa kama huu umri.

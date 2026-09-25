@@ -416,16 +416,16 @@ Mgbe ego gị gwụrụ, Akash ga-emechi nkenye gi. ** Tinye obere akpa gị oge
 
 ```markdown
 ----------------------------------------------------------------------------------
-|            | Mainnet (default)               | Testnet                         |
+|            | Mainnet (ndabara)               | Netwọk Nnwale                         |
 ---------------------------------------------------------------------------------|
-| Purpose   | Production Zcash blockchain      | Testing and development         |
-| Network   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
-| P2P Port  | 8233                             | 18233                           |
-| RPC Port  | 8232                             | 18232                           |
-| Sync time | Days                             | Hours                           |
-| Storage   | 350GB+                           | 50GB                            |
-| Resources | 4 CPU / 16GB RAM                 | 2 CPU / 8GB RAM                 |
-| Cost      | ~$15/month                       | ~$5/month                       |
+| Ebumnuche   | Mmepụta Zcash blockchain      | Nnwale na mmepe         |
+| Netwọk   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
+| Ọdụ ụgbọ mmiri P2P  | 8233                             | 18233                           |
+| Ọdụ ụgbọ mmiri RPC  | 8232                             | 18232                           |
+| Oge mmekọrịta | Ụbọchị                             | Awa                           |
+| Nchekwa   | 350GB+                           | 50GB                            |
+| akụrụngwa | CPU 4 / RAM 16GB                 | CPU abụọ / RAM 8GB                 |
+| Ọnụ ego      | ~$15/ọnwa                       | ~$5/ọnwa                       |
 ----------------------------------------------------------------------------------
 ```
 

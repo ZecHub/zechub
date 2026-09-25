@@ -167,7 +167,7 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 | **Ịdị mma** | Nkwa na naanị eziokwu nwere ike imepụta ihe akaebe ziri ezi |
 | **Ọdịiche dị mma** | Mmachi na-efu efu nke na-ekwe ka okwu ụgha gafere |
 | **Enweghị oke mmachi** | Sekit na-efu ọnọdụ ọ chọrọ, mgbọrọgwụ nke ahụhụ Orchard |
-| **A na-achọpụta / a naghị achọpụta ya** | Ma mmegbu ọ ga-ahapụ ihe akaebe n'akwụkwọ ndekọ ọha |
+| **A na-achọpụta / a naghị achọpụta ya** | Ma mmegbu ọ ga-ahapụ ihe akaebe ledger ọha |
 
 ---
 

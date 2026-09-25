@@ -40,7 +40,7 @@ Before anything else, clear up a common misconception: **Zcash is not "the priva
 | Nzuzo | Ọha, dịka Bitcoin | Nkeonwe |
 | Adreesị na-amalite na | `t...` | `z...` or `u...` |
 | Onye zitere / onye nnata / ego | **A na-ahụ ya** nye mmadụ niile | **Zoro** site n'aka onye ọ bụla |
-| Teknụzụ dị n'okpuru | Akwụkwọ ndekọ ọha na eze nke ụdị Bitcoin | Nkwa nzuzo + ihe akaebe na-enweghị ihe ọmụma |
+| Teknụzụ dị n'okpuru | ledger ọha na eze nke ụdị Bitcoin | Nkwa nzuzo + ihe akaebe na-enweghị ihe ọmụma |
 
 Ego nwedịrị ike ịgafe ókèala dị n'etiti ha: ịkwaga ego * n'ime * ụwa a na-echebe bụ * mkpuchi *, na ịkwapụ ha bụ * unshielding *.
 
@@ -75,7 +75,7 @@ Okwu ise ndị a bụ okwu niile nke Zcash echekwara. Mụta ha dịka akụkọ
 | N'akụkọ ahụ | Okwu Zcash n'ezie | Ihe ọ bụ n'ezie |
 |---|---|---|
 | Ihe dị n'ime envelopu ahụ (ego + onye nwe ya + ihe nzuzo) | **Rịba ama** | "Mkpụrụ ego nkeonwe": obere uru nke onye nwe ya |
-| The sealed, opaque envelope on the board | **Note commitment** | A cryptographic seal proving an envelope exists while hiding what's inside |
+| Envelopu ahụ e mechiri emechi, nke na-adịghị acha ọcha nke dị na bọọdụ ahụ | **Rịba ama nkwa** | Akara nzuzo nke na-egosi na envelopu dị ma na-ezo ihe dị n'ime ya |
 | Akwụkwọ ozi ahụ n'onwe ya | **Rịba ama osisi nkwa** | Ndekọ mgbakwunye naanị nke *ndetu ọ bụla e kere* |
 | Ihe nrịbama efu dị na ihe mkpofu "gbanyụrụ" | **Ihe na-emebi ihe** | Ihe nrịbama pụrụ iche nke pụtara "e mefuru ego a ugbu a" |
 | Anwansi "n'azụ ákwà mgbochi" | **Ihe akaebe na-enweghị ihe ọmụma** | Ihe akaebe na mmefu niile dị irè, ọ dịghịkwa ihe ọ bụla gosiri na o mere |
@@ -194,7 +194,7 @@ This is a **mental model**, not the spec. To keep it newcomer-friendly we've qui
 | Kedu ka envelopu e mechiri emechi ga-esi bụrụ ma ihe zoro ezo ma ihe a na-apụghị ịgbanwe agbanwe? | Isiokwu nke atọ: nkwa |
 | Ebee ka igodo na uzommeputa nzuzo si abịa? | Isiokwu nke 1 na nke 2: ubi na usoro |
 | Gịnị bụ *bọdụ ahụ* kpọmkwem? | Isiokwu nke 4: Osisi Merkle |
-| How can you prove something while revealing nothing? | Article 5: zero-knowledge proofs |
+| Kedu ka ị ga-esi gosi ihe n'agbanyeghị na ị naghị ekpughe ihe ọ bụla? | Isiokwu nke ise: ihe akaebe na-egosi na enweghị ihe ọmụma |
 | Kedu ka iberibe ise niile si ejikọta ọnụ na ezigbo Zcash? | Nkeji edemede nke isii: usoro nchekwa |
 
 ---
@@ -221,7 +221,7 @@ Ugbu a, jide map ahụ. Ndị fọdụrụ n'usoro ahụ na-emejupụta ya.
 | **Ihe na-emebi ihe** | Ihe nrịbama "e mefuru" pụrụ iche nke e bipụtara mgbe ejiri akwụkwọ ndetu mee ihe, na-egbochi mmefu okpukpu abụọ |
 | **Ihe akaebe na-enweghị ihe ọmụma** | Ihe akaebe na-egosi na okwu bụ eziokwu ebe ọ na-ekpughe ihe ọ bụla karịrị eziokwu ya |
 | **Nchekwa / Ịkwado ihe mkpuchi** | Ịkwaga ego n'ime / n'ime ụwa nkeonwe echekwara |
-| **Igodo nlele** | Igodo nke na-enye onye nwe ya ohere ịchọpụta ma gụọ ihe ndetu e degaara ha |
+| **Viewing key** | Igodo nke na-enye onye nwe ya ohere ịchọpụta ma gụọ ihe ndetu e degaara ha |
 
 ---
 

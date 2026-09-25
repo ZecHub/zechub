@@ -51,7 +51,7 @@ Din no yɛ nhyehyɛeɛ a ɛnnyɛ adwuma ho ntweasoɔ  Zebra, Zaino, Zallet  mpo 
                         light wallets / explorers
 ```
 
-| Component no | Dwuma a edi wɔ Z3 mu | Ɛhia? |
+| Component no | Dwuma a edi wɔ Z3 | Ɛhia? |
 | --- | --- | --- |
 | **Zebra** | Syncs na ɛma nkɔnsɔnkɔnsɔn, nsɛmmɔnedi, JSON-RPC, akwahosan awiei no yɛ nokware | Aane |
 | **Zallet** | Full-node sika kotoku. Embeds Zaino nhomakorabea ahorow. Nkitahodi tẽẽ kɔ Zebra JSON-RPC so. Ɛnyɛ **ɛnyɛ** frɛ Zaino ahina a egyina hɔ ma ne ho no | Aane |
@@ -98,7 +98,7 @@ Wɔayɛ sɛ saa network mmiɛnsa yi nyinaa bɛbom atena afidie baako so. N'abodi
 | Asoɛeɛ | Mainnet a ɛwɔ hɔ | Testnet a wɔde sɔ hwɛ | Regtest yɛ nhwehwɛmu |
 | --- | --- | --- | --- |
 | Zebra JSON-RPC | 8232 | 18232 | 29232 |
-| Zebra P2P | 8233 | 18233 | (not published) |
+| Zebra P2P | 8233 | 18233 | (wɔntintim) |
 | Zebra akwahosan (`/ready`) | 8080 | 18080 | 28080 |
 | Zaino gRPC (indexer ho nsɛm) | 8137 | 18137 | 28137 |
 | Zaino JSON-RPC (indexer ho nsɛm) | 8237 | 18237 | 28237 |

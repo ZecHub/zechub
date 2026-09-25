@@ -46,7 +46,7 @@ Blossom bụ nke atọ netwọk nkwalite Zcash. Ọ sochiri Overwinter na Saplin
 | Oge ọkara nkewa | Blọk ole gafere n'etiti ọkara nke ụgwọ ọrụ blọk ọ bụla |
 | Njikọ ngalaba nkwekọrịta | Akara nke na-egosi usoro netwọk nke na-achịkwa node ma ọ bụ azụmahịa na-eso |
 | Mgbanwe nkwekọrịta abụọ | Mgbanwe iwu nke nodu ọ bụla ga-agbaso iji nọrọ na netwọk ahụ |
-| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's , nke a na-arụ ọrụ na elu blọk edobere |
+| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
 
 ## Ajụjụ ndị a na-ajụkarị
 

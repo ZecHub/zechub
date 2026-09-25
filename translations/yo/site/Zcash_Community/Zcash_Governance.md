@@ -119,9 +119,9 @@ ZIP 1016 (ti a dabaa ni Kínní 2025, ipo: Ti a dabaru) ṣafihan awoṣe inawo 
 
 | Àkókò           | Àwọn awakùsà | ECC/Bootstrap | ZF   | ZCG  | Àpótí Títìpa | Àwọn Àkíyèsí                                      |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
-| 2020 - Nov 2024  | 80%    | 7%            | 5%   | 8%   | -       | Classic dev fund                           |
+| 2020 - Oṣù kọkànlá 2024  | 80%    | 7%            | 5%   | 8%   | -       | Owó ìdàgbàsókè àtijọ́                           |
 | Oṣù kọkànlá ọdún 2024 - nísinsìnyí   | 80%    | 0%            | 0%   | 8%   | 12%     | Àwòṣe NU6 + ìfàgùn ZCG                  |
-| A gbé kalẹ̀ (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Ẹni tí ó ní èrè owó) | Títí di ìdajì kẹta; àwọn tó ni owó dúkìá dìbò |
+| A gbé kalẹ̀ (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Ẹni tí ó ní èrè owó) | Títí di 3rd; àwọn tó ni owó dúkìá dìbò |
 
 ## 5. Àwọn Ohun Ìní Tó Wà Níbàámu Pẹ̀lú Iṣẹ́ Náà
 

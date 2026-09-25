@@ -156,7 +156,7 @@ Esiae nye nɔnɔmetata si de blibo wu le nusiwo kplɔ wo nɔewo ɖo me, gake ega
 | **Nukpɔkpɔ ƒe safui** | Eɖea wò asitsatsa fiana na amesi le asiwò evɔ mèɖea mɔ na wo be woazã |
 | **Zazã ŋuti numeɖeɖe** | Tx ƒe akpa si ɖua nuŋlɔɖi (nullifier, anchor, proof) |
 | **Emetsonu ƒe numeɖeɖe** | Tx ƒe akpa si wɔa nuŋlɔɖi (ɖokuitsɔtsɔna, nya ɣaɣla, kpeɖodzi) |
-| **Action (Orchard)** | A unified unit doing one spend and one output together |
+| **Action (Orchard)** | Dɔwɔha ɖeka si wɔa gazazã ɖeka kple nu ɖeka wɔwɔ ɖekae |
 | **Asixɔxɔ ƒe ɖokuitsɔtsɔna** | A homomorphic Pedersen ƒe ɖokuitsɔtsɔna na ga home aɖe |
 | **Asidede agbalẽ te si blaa ame** | Asidede agbalẽ te si ɖo kpe asixɔxɔwo ƒe dadasɔ dzi evɔ meɖe wo fia o |
 | **Anchor** | Ati ƒe ke a gazazã ɖo kpe hamevinyenye dzi tsi tre ɖe |

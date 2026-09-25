@@ -44,7 +44,7 @@ Overwinter was the first Zcash network upgrade after the October 2016 mainnet la
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's , tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
 | ID ẹka Consensus | Àmì ìdámọ̀ kúkúrú kan tí ó ń sọ orúkọ àwọn òfin ìfohùnṣọ̀kan lọ́wọ́lọ́wọ́ |
 | Gíga ìṣiṣẹ́ | Àkọsílẹ̀ tí àwọn òfin tuntun ti ìgbéga nẹ́tíwọ́ọ̀kì kan gbéṣẹ́ sí |
 | Ààbò àtúnṣe eré | Òfin kan tí ó dá ìṣòwò kan dúró láti má ṣe tún lò lórí ẹ̀wọ̀n kan lórí òmíràn |

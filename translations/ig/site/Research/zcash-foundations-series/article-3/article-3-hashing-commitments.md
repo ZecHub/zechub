@@ -113,8 +113,8 @@ Zcash ejirila hashes dị iche iche n'ime atụmatụ ya, nke ọ bụla ahọp�
 | Nhazi | Ejiri hashes mee ihe | Ebee |
 |---|---|---|
 | **Sprout** (nke mbụ) | **SHA-256** | Rịba ama nkwa na osisi ahụ |
-| **Sapling** | ** Pedersen hashes ***, gbakwunyere ** BLAKE2 *** | Pedersen maka nkwa ndetu na osisi Merkle; BLAKE2 maka ihe ndị dị mkpa na ihe ndị na-emebi ihe |
-| **Orchard** (current) | **Sinsemilla**, plus **Poseidon** | Sinsemilla for note commitments and the Merkle tree; Poseidon for the nullifier, all designed for arithmetic circuits |
+| **Sapling** | ** Pedersen hashes ***, gbakwunyere **BLAKE2** | Pedersen maka nkwa ndetu na osisi Merkle; BLAKE2 maka ihe ndị dị mkpa na ihe ndị na-emebi ihe |
+| **Orchard** (ugbu a) | **Sinsemilla**, gbakwunyere **Poseidon** | Sinsemilla maka nkwa ndetu na osisi Merkle; Poseidon maka ihe na-emebi ihe, emebere ha niile maka sekit mgbakọ na mwepụ |
 
 The names to recognize are **Pedersen** and **Sinsemilla** (commitment-style hashes built from curve points, so they inherit the "adds up" superpower and prove cheaply) and **Poseidon** (a field-arithmetic hash purpose-built for zero-knowledge circuits). When Article 0 said a note's contents are sealed into a commitment, *this* is the machinery doing the sealing.
 

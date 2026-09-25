@@ -155,8 +155,8 @@ Alama za vidole ni thabiti na zinaweza kuchunguzwa.
 
 | Ubunifu wa Zcash | Mikunjo inayotumia | Jukumu |
 |---|---|---|
-| **Sapling** (older) | **BLS12-381** plus an embedded curve called **Jubjub** | BLS12-381 carries the proof system; Jubjub is built over BLS12-381's scalar field so that key and commitment operations are cheap to perform *inside* a zero-knowledge proof |
-| **Orchard** (ya sasa) | **Pallas** na **Vesta** (mzunguko wa "Pasta") | Pallas hubeba funguo na ahadi Orchard's ; uunganishaji wa Pallas/Vesta umepangwa maalum ili kufanya uthibitishaji wa hali ya juu uwe mzuri |
+| **Sapling** (ya zamani) | **BLS12-381** pamoja na mkunjo uliopachikwa unaoitwa **Jubjub** | BLS12-381 hubeba mfumo wa uthibitisho; Jubjub imejengwa juu ya uwanja wa scalar BLS12-381's ili shughuli muhimu na za kujitolea ziwe nafuu kufanya *ndani* ya uthibitisho usio na ujuzi wowote |
+| **Orchard** (ya sasa) | **Pallas** na **Vesta** (mzunguko wa "Pasta") | Pallas hubeba funguo na ahadi Orchard's; uunganishaji wa Pallas/Vesta umepangwa maalum ili kufanya uthibitishaji wa hali ya juu uwe mzuri |
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 

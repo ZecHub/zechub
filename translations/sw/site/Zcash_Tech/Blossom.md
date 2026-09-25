@@ -46,7 +46,7 @@ Blossom was Zcash's third network upgrade. It followed Overwinter and Sapling, a
 | Kipindi cha nusu | Ni vitalu vingapi vinavyopita kati ya kila nusu ya zawadi ya vitalu |
 | Kitambulisho cha tawi la makubaliano | Lebo inayoashiria ni seti gani ya sheria za mtandao ambazo nodi au muamala unafuata |
 | Mabadiliko ya makubaliano ya pande mbili | Mabadiliko ya sheria ambayo kila nodi lazima ipitishe ili kubaki kwenye mtandao |
-| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's , yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 
 ## FAQs
 

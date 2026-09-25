@@ -40,11 +40,11 @@ Heartwood ni hatua moja katika mbio ya upgrades Zcash, kila kuongeza kipande cha
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's , yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 | Muamala Coinbase | Muamala maalum katika kila kizuizi kinacholipa zawadi ya kizuizi |
 | Anwani Sapling Iliyolindwa | Aina ya anwani ya Zcash ya kibinafsi iliyoletwa na uboreshaji wa Sapling |
-| Msingi wa sarafu uliolindwa | Mabadiliko Heartwood ambayo huruhusu zawadi za block kulipwa katika anwani za Sapling zilizolindwa |
-| Mteja wa Fly | Njia inayowaruhusu wateja wepesi kuthibitisha uthibitisho wa kazi kwa kutumia uthibitisho mdogo |
+| coinbase uliolindwa | Mabadiliko Heartwood ambayo huruhusu zawadi za block kulipwa katika anwani za Sapling zilizolindwa |
+| FlyClient | Njia inayowaruhusu wateja wepesi kuthibitisha uthibitisho wa kazi kwa kutumia uthibitisho mdogo |
 | Safu ya Milima ya Merkle (MMR) | Muhtasari unaoendelea wa vitalu vilivyopita ambavyo kichwa cha vitalu kinajitolea |
 | Kitambulisho cha tawi la makubaliano | Lebo inayobainisha sheria za uboreshaji ambazo muamala unafuata, inayotumika kwa ajili ya ulinzi wa marudio |
 

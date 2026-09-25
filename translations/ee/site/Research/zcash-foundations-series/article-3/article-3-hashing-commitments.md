@@ -113,8 +113,8 @@ Zcash zã hash vovovowo le eƒe aɖaŋuwo katã me, wo dometɔ ɖesiaɖe tia na 
 | Aɖaŋuwɔwɔ | Hashes siwo wozã | Afisi |
 |---|---|---|
 | **Sprout** (gbãtɔ kekeake) | **SHA-256** ƒe ƒuƒoƒo | De dzesi adzɔgbeɖeɖewo kple ati la |
-| **Sapling** | **Pedersen hashes**, plus **BLAKE2** | Pedersen for note commitments and the Merkle tree; BLAKE2 for key derivation and nullifiers |
-| **Orchard** (current) | **Sinsemilla**, plus **Poseidon** | Sinsemilla for note commitments and the Merkle tree; Poseidon for the nullifier, all designed for arithmetic circuits |
+| **Sapling** | **Pedersen ƒe hashes**, kpe ɖe **BLAKE2** | Pedersen ɖe note ŋugbedodowo kple Merkle-ti la ta; BLAKE2 na safui ƒe dzɔtsoƒe kple nullifiers |
+| **Orchard** (fifia) | **Sinsemilla**, tsɔ kpe ɖe **Poseidon** ŋu | Sinsemilla na nuŋlɔɖi ƒe ŋugbedodowo kple Merkle-ti la; Poseidon na nullifier, wo katã wowɔ na akɔntabubu ƒe nutome suewo |
 
 Ŋkɔ siwo wòle be woade dzesii enye **Pedersen** kple **Sinsemilla** (hashes siwo wotu ɖe ɖokuitsɔtsɔna ƒe atsyã me tso curve points me, eyata wonyia "adds up" superpower la dome eye woɖoa kpe edzi le asi bɔbɔe me) kple **Poseidon** (field-arithmetic hash si wotu ɖe taɖodzinu aɖe ta na zero-knowledge circuits). Ne Se 0 gblɔ be wotre nuŋlɔɖi aɖe me nyawo nu wòzu adzɔgbeɖeɖe la, *esia* nye mɔ̃ si le nutrenua wɔm.
 

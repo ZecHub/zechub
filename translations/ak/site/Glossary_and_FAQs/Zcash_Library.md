@@ -168,7 +168,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Sapling | A major network upgrade that introduced significant efficiency improvements for shielded transactions and paved the way for mobile adoption. Activated at block 419200. |
+| Sapling | Network upgrade kɛseɛ a ɛde nkɔsoɔ kɛseɛ baa adwumayɛ mu wɔ shielded transactions na ɛbuee kwan maa mobile adoption. Wɔde yɛɛ adwuma wɔ block 419200. |
 | Nsɛm a Wɔpaw a Wɔda no Adi | Ɛma address a wɔabɔ ho ban wura no tumi paw safe a wɔde hwɛ anaa sikatua ho nsɛm a wɔda no adi kyerɛ nnipa foforo bere a ɔde data sie ma obiara. |
 | Address a Wɔabɔ ho ban | Wɔsan frɛ no zaddr. Wɔde z na efi ase. Fa zk-SNARKs di dwuma de sie nea ɔde kɔma, nea ogye, sika dodow, ne memo. |
 | Shielded Labs | Ahyehyɛde a ɛde ne ho a ɛyɛ adwuma wɔ Zcash protocol sikasɛm ne adwene a ɛwɔ hɔ ho. Mprempren odi Crosslink ne Network Sustainability Mechanism anim. [GitHub na ɛwɔ hɔ](https://github.com/ShieldedLabs) |
@@ -196,14 +196,14 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Unified Address | Modern address format (introduced in NU5) that works for both transparent and shielded payments in one string. |
+| Unified Address | Nnɛyi address nhyehyɛe (a wɔde aba NU5) a ɛyɛ adwuma ma sikatua a ɛda adi ne nea wɔabɔ ho ban nyinaa wɔ ahama biako mu. |
 | Upgrade Activation | Block sorokɔ pɔtee a ɛwɔ baabi a network upgrade (e.g. NU5, NU6) yɛ adwuma ankasa. |
 
 ## V
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Viewing Key | A private key that lets you view the balance and transaction history of a shielded address without being able to spend the funds. |
+| Viewing Key | Kokoam safoa a ɛma wutumi hwɛ address a wɔabɔ ho ban no sika a aka ne nea wɔde di dwuma ho abakɔsɛm a wuntumi mfa sika no nni dwuma. |
 
 ## W
 
@@ -229,7 +229,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
 | Zcash | Cryptocurrency a ɛtwe adwene si kokoamsɛm so a wɔde zk-SNARKs di dwuma. Bridges transparent (Bitcoin-style) ne sikatua a wɔabɔ ho ban koraa. |
-| Zcash Foundation | Independent non-profit that supports the Zcash ecosystem, funds development, and promotes privacy. |
+| Zcash Foundation | Independent non-profit a ɛboa Zcash ecosystem, de sika ma nkɔsoɔ, na ɛhyɛ kokoamsɛm ho nkuran. |
 | Zcash Nkitahodi | Peer-to-peer network of nodes a ɛma nkitahodi ahorow no yɛ nokware na ɛhwɛ blockchain no so. |
 | ZEC | Sika mmara a ɛyɛ aban de ma Zcash (nsesa bi da so ara kyerɛ XZC). |
 | Zerocash a ɛyɛ fɛ | Adesua nhyehyɛe (2014) a Zcash gyina so. |

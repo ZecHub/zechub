@@ -44,7 +44,7 @@ Overwinter ilikuwa ya kwanza Zcash mtandao kuboresha baada ya Oktoba 2016 mainne
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's , yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 | Kitambulisho cha tawi la makubaliano | Kitambulisho kifupi kinachotaja seti ya sasa ya sheria za makubaliano |
 | Urefu wa uanzishaji | Kizuizi ambacho sheria mpya za uboreshaji wa mtandao huanza kutumika |
 | Ulinzi wa kucheza tena | Sheria inayozuia muamala halali kwenye mnyororo mmoja kutumiwa tena kwenye mwingine |

@@ -28,7 +28,7 @@ Zallet yɛ **beta**. W'antumi anhwɛ no mu yie koraa. Nsakrae a wobɛyɛ wɔ saa
 
 `zcashd` Ɔde Bitcoin Core no ne sika kotoku a wɔfa so yɛ adwuma bom. Saa adwinni yi ayera.
 
-| Asodie | Stack dedaw bi | Mprempren stack a ɛwɔ hɔ |
+| Asodie | Stack dedaw | Mprempren stack a ɛwɔ hɔ |
 |------|-----------|---------------|
 | Nsɛm a Wɔpene so / P2P | `zcashd` | Zebra (`zebrad`) anaa Zakura |
 | Wallet / nsafe / sika a ɛkari pɛ | `zcashd` `wallet.dat` | **Zallet** () Ɔde ne nsa kyerɛɛ ne so`wallet.db`) |
@@ -186,7 +186,7 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 |--|--------|------|------------------------|----------------|-------|
 | Nea ɛyɛ | Full-node RPC sika kotoku | Shielded-kan sika kotoku server | Sika kotoku a wɔde di dwuma awiei | Consensus node a ɛwɔ hɔ | Indexer / lightwalletd a wɔde besi ananmu |
 | Ɛde si ananmu | `zcashd` sikabɔtɔ | Ɛnyɛ drop-in a wɔde bɛba `zcashd` clone a wɔde yɛ nneɛma | Mobile/desktop app ahorow a wɔde di dwuma | `zcashd` node no | `lightwalletd` |
-| Needs a local node | Yes | Yes (Zebra by default) | No (light client) | It *is* the node | Yes |
+| Ɛhia sɛ ɛwɔ mpɔtam hɔ node | Aane | Yiw (Zebra sɛnea wɔahyɛ no) | Dabi (hann client) | Ɛyɛ *ɛyɛ* node no | Aane |
 | zcashd RPC a ɛne no hyia | Wɔayɛ no sɛ compat kwan no | Subset nketewa a wɔapaw nkutoo | N/A | Ɔfã / Zakura compat mode | API soronko bi |
 | Nhwɛso a ɛfa mmofra a wɔhwɛ mmofra ho | Operator kura nsafe no mu `wallet.db` | Server a wotumi san nya aba | Ɔdefo mfiri nsafe | Sika kotoku biara nni hɔ | Safe biara nni hɔ |
 

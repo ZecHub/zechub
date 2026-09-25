@@ -54,7 +54,7 @@ Jina ni informal mazingira ya mfumo wa shorthand  Zebra, Zaino, Zallet hata kama
 | Kipengele | Jukumu katika Z3 | Inahitajika? |
 | --- | --- | --- |
 | **Zebra** | Husawazisha na kuthibitisha mnyororo, umbea, JSON-RPC, na sehemu ya mwisho ya afya | Ndiyo |
-| **Zallet** | Pochi yenye nodi kamili. Hupachika maktaba za Zaino . Huunganisha moja kwa moja kwenye Zebra JSON-RPC. Je, **hai** huita chombo cha Zaino kinachojitegemea | Ndiyo |
+| **Zallet** | Pochi yenye nodi kamili. Hupachika maktaba za Zaino. Huunganisha moja kwa moja kwenye Zebra JSON-RPC. Je, **hai** huita chombo cha Zaino kinachojitegemea | Ndiyo |
 | **Zaino** | Kiashiria cha kujitegemea. gRPC lightwalletd-compatible kwa wateja wa taa za nje, pamoja na proksi ya JSON-RPC kwa wachunguzi na mabomba | No — `--profile indexer` |
 
 Z3 pini picha matoleo katika `docker-compose.yml`. Override na `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` kama unahitaji lebo tofauti.

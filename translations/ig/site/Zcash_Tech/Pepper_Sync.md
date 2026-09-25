@@ -37,7 +37,7 @@ Pepper Sync na-ewebata ọtụtụ ndozi:
 
 | atụmatụ            | Ụdị Zingo gara aga                | Zingo 2.0 na Pepper Sync                   |
 | ------------------ | -------------------------------------- | -------------------------------------------- |
-| Sync Speed         | Slower, especially on first setup      | Much faster initial and ongoing sync         |
+| Ọsọ Mmekọrịta         | Jiri nwayọ nwayọ, ọkachasị na ntọala mbụ      | Mmekọrịta mbụ na nke na-aga n'ihu ngwa ngwa karịa         |
 | Njikwa Mmejọ     | Nsogbu mgbe ụfọdụ na ọdịda na-edoghị anya | Mbelata nkwụsi ike ka mma site na mgbake akpaka   |
 | Ahụmịhe Onye Ọrụ    | Mmekọrịta ahụ dị ka "ihe na-adịghị ahụkebe" nye ndị bịara ọhụrụ        | Na-edo anya, yana ọnọdụ na mmelite doro anya |
 | Arụmọrụ Ngwaọrụ | Ojiji dị elu nke CPU/ebe nchekwa                  | Emebere maka ojiji akụrụngwa dị mfe            |

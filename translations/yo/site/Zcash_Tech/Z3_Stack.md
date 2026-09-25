@@ -54,7 +54,7 @@ Orukọ naa jẹ ọna-ọna ti o ni imọran  Zebra, Zaino, Zallet  biotilejepe
 | Ẹ̀yà ara | Ipa ninu Z3 | A nilo? |
 | --- | --- | --- |
 | **Zebra** | Ṣe àmúṣiṣẹ́pọ̀ àti ìfọwọ́sowọ́pọ̀ pq, ọ̀rọ̀ àfojúsùn, JSON-RPC, àti ìparí ìlera | Bẹ́ẹ̀ni |
-| **Zallet** | Full-node wallet. Embeds Zaino libraries. Connects straight to Zebra JSON-RPC. Does **not** call the standalone Zaino container | Yes |
+| **Zallet** | Àpò ìpamọ́ gbogbo-nọ́ńbà. Ó fi àwọn ilé ìkàwé Zaino sí i. Ó so mọ́ Zebra JSON-RPC tààrà. Kò pe àpótí Zaino tí ó dúró ṣinṣin ní ìdúró tààrà | Bẹ́ẹ̀ni |
 | **Zaino** | Atọka ti o da duro nikan. gRPC lightwalletd-compatible fun awọn alabara ina ita, pẹlu aṣoju JSON-RPC fun awọn oluwakiri ati awọn faucets | No — `--profile indexer` |
 
 Awọn ẹya aworan Z3 pin ni: `docker-compose.yml`. Ṣàtúnṣe pẹlú `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` tó o bá nílò àmì mìíràn.

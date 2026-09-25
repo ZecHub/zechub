@@ -101,7 +101,7 @@ A na-ahụ ọrụ ndị metụtara ya. [Zakura](https://zechub.wiki/zcash-tech/
 | Mmekọrịta amaghị ama | Ịchọta data yinye nke obere akpa chọrọ n'ekpugheghị data achọrọ |
 | Data na-ebu ihe akaebe (PCD) | Data nke na-agagharị na ihe akaebe nke izi ezi nke ya, ka e wee nwee ike ijikọta ma tinye ihe akaebe |
 | Nchịkọta azụmahịa echekwara | Ụzọ Tachyon si ejikọta mgbanwe steeti echekwara, na-agbanwe otu esi ekwurịta okwu ma bịanye aka na ha |
-| enweghị ike ịmata ọdịiche dị n'etiti akwụkwọ ndekọ ego | Enweghị ike ịkọwa ihe onwunwe nke kpuchiri azụmahịa dị iche na ibe ya |
+| enweghị ike ịmata ọdịiche ledger | Enweghị ike ịkọwa ihe onwunwe nke kpuchiri azụmahịa dị iche na ibe ya |
 
 <br/>
 

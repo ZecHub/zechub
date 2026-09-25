@@ -39,7 +39,7 @@ Adanse a wɔhyehyɛ no mpɛn pii no ma adanse biako di adanse sɛ ɛkame ayɛ s�
 
 Ansa na Halo reba no, na sɛ wobenya recursive proof composition a, na ɛhwehwɛ sɛ wɔbɔ ka kɛse wɔ kɔmputa so ne nhyehyɛe a wotumi de ho to so. Nneɛma titiriw a wohui no mu biako ne ɔkwan bi a wɔfrɛ no **nested amortization**. Saa kwan yi ma kwan ma wɔde polynomial commitment scheme a egyina inner product argument so yɛ recursive composition, ɛma adwumayɛ tu mpɔn kɛse na ɛkwati nhyehyɛe a wogye di no.
 
-Wɔ [Halo krataa](https://eprint.iacr.org/2019/1021.pdf), yɛkyerɛkyerɛɛ saa polynomial commitment nhyehyɛe yi mu yiye na yehui sɛ aggregation technique foforo bi wɔ mu. Ɔkwan a wɔfa so yɛ no ma wotumi di adanse dodow bi a wɔde wɔn ho ayɛ a ɛkame ayɛ sɛ ɛyɛ nokware ntɛmntɛm te sɛ nea wɔde di adanse biako ho adanse. Eyi nkutoo bɛma wɔanya ɔkwan foforo a eye sen zk-SNARKs a na edi kan a wɔde dii dwuma wɔ Zcash.
+Wɔ [Halo krataa](https://eprint.iacr.org/2019/1021.pdf), yɛkyerɛkyerɛɛ saa polynomial commitment nhyehyɛe yi mu yiye na yehui sɛ aggregation technique foforo bi wɔ mu. Ɔkwan a wɔfa so yɛ no ma wotumi di adanse dodow bi a wɔde wɔn ho ayɛ a ɛkame ayɛ sɛ ɛyɛ nokware ntɛmntɛm te sɛ nea wɔde di adanse biako ho adanse. Eyi nkutoo bɛma woanya ɔkwan foforo a eye sen zk-SNARKs a atwam a wɔde dii dwuma wɔ Zcash.
 
 
 ### Halo 2. Nsɛm a wɔka kyerɛ

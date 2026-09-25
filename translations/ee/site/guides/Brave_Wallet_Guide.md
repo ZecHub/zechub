@@ -27,7 +27,7 @@ Fifia zãlawo ateŋu aɖo/xɔ ZEC evɔ womaɖe balance alo metadata afia o - wo 
 </div>
 
 
-## Akpa 1: Gakotoku si me Brave Ðoɖo
+## Akpa 1: Brave Wallet Ðoɖo
 
 **Afɔɖeɖe siwo wowɔ:**
 

@@ -54,7 +54,7 @@ Aha ahụ bụ ihe na-abụghị usoro nhazi nke ọma  Zebra, Zaino, Zallet  �
 | Akụkụ | Ọrụ na Z3 | A chọrọ ya? |
 | --- | --- | --- |
 | **Zebra** | Mmekọrịta ma kwado usoro agbụ, asịrị, JSON-RPC, njedebe ahụike | Ee |
-| **Zallet** | Full-node wallet. Embeds Zaino libraries. Connects straight to Zebra JSON-RPC. Does **not** call the standalone Zaino container | Yes |
+| **Zallet** | Akpa ego zuru oke. Na-etinye ọbá akwụkwọ Zaino. Na-ejikọ ozugbo na Zebra JSON-RPC. Anaghị akpọ akpa Zaino nke nọọrọ onwe ya | Ee |
 | **Zaino** | Ihe ndeksi nke na-anọpụ iche. gRPC lightwalletd-compatible maka ndị ahịa ọkụ mpụga, tinyere ihe nnọchiteanya JSON-RPC maka ndị na-eme nchọpụta na faucets | No — `--profile indexer` |
 
 Z3 pin oyiyi nsụgharị na- `docker-compose.yml`. Gbanwee na-eji `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` ma ọ bụrụ na ịchọrọ mkpado dị iche.
@@ -69,7 +69,7 @@ Z3 pin oyiyi nsụgharị na- `docker-compose.yml`. Gbanwee na-eji `Z3_ZEBRA_IMA
 | Ụdị usoro | Otu ọnụọgụ abụọ: node + obere akpa | Kewapụ oghere na akpa akpa iche |
 | Nkwekọrịta | Ezumike ezumike nká (EOS 18 Julaị 2026) | Zebra (ma ọ bụ ihe ọzọ dakọtara) |
 | Obere akpa | E wuru n'ime ya `wallet.dat` | Zallet, datadir ezoro ezo nke afọ |
-| Light clients | Usually a separate lightwalletd | Optional Zaino profile |
+| Ndị ahịa dị mfe | Ọtụtụ mgbe, a na-eji lightwalletd dị iche | Profaịlụ Zaino nhọrọ |
 | Nhazi | `zcash.conf` | Faịlụ kwa netwọk dị n'okpuru `config/<network>/` gbakwunyere Dee faịlụ env |
 | Netwọk dị n'otu ebe | Nsogbu ọdụ ụgbọ mmiri na-egbu mgbu | Klas nke mbụ: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 

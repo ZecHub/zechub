@@ -58,9 +58,9 @@ Zcash ti pẹ atilẹyin multisig ṣiṣan  awọn bọtini pupọ nilo lati lo
 
 FROST yanju eyi nipa ṣiṣe ni inu adagun ti a fi oju pa:
 
-| | Transparent multisig | FROST threshold (shielded) |
+| | Àwọn àmì ìṣíkiri tí ó hàn gbangba | Ààlà FROST (tí a dáàbò bò) |
 |--|---------------------|--------------------------|
-| Pool | Transparent (public) | Orchard (shielded) |
+| Adágún omi | Ṣíṣípayá (gbangba) | Orchard (tí a fi ààbò pamọ́) |
 | Àwọn àmì tí a lè rí lórí ẹ̀wọ̀n | Bẹ́ẹ̀ni — gbogbo àwọn kọ́kọ́rọ́ gbogbogbò tí a ti tú síta | Rárá — a kò lè yà á sọ́tọ̀ kúrò lára owó tí a fi ọwọ́ kan ṣoṣo ná |
 | Àwọn iye tí a lè rí | Bẹ́ẹ̀ni | No |
 | Ìṣètò tó yẹ | Ìwé àfọwọ́kọ lórí ẹ̀wọ̀n | Ìbánisọ̀rọ̀ tí kò ní ẹ̀wọ̀n |

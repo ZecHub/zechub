@@ -147,12 +147,12 @@ We simplified for clarity. The real Lean development is far more detailed than t
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Ironwood** | Zcash's new shielded pool (2026), replacing the flawed Orchard pool |
+| **Ironwood** | Adagun tuntun ti a fi aabo bo Zcash's (2026), ti o rọpo adagun Orchard ti ko ni abawọn |
 | **Ìwà títọ́ ní ìwọ́ntúnwọ̀nsì** | Adágún omi náà kò san owó tó ju èyí tí wọ́n fi síta ní gbangba lọ |
 | **Ìmọ̀ pípé** | Ẹ̀rí tó wúlò gbọ́dọ̀ jẹ́ kí olùjẹ́rìí jẹ́ ẹlẹ́rìí tòótọ́ |
 | **Ẹ̀rọ ìtújáde** | Ìlànà kan tí ó ń fa ẹlẹ́rìí kúrò nínú ẹnikẹ́ni tí ó lè jẹ́rìí tí ó lè yí i lérò padà |
 | **Lean** | Olùrànlọ́wọ́ ẹ̀rí tí a lò láti ṣàyẹ̀wò ìjẹ́rìí náà pẹ̀lú ẹ̀rọ |
-| **Ledger Tó Wúlò** | Àwòṣe ìfọwọ́sowọ́pọ̀ tí a gbé kalẹ̀ ló ń darí àwọn ìlànà ìdí tí a fi ń ṣe é |
+| **ValidLedger** | Àwòṣe ìfọwọ́sowọ́pọ̀ tí a gbé kalẹ̀ ló ń darí àwọn ìlànà ìdí tí a fi ń ṣe é |
 | **Àmì ìka ọwọ́** | Ààlà láàárín ìṣirò tí a ti fi hàn àti software Rust tí ń ṣiṣẹ́ |
 | **Lábẹ́ àwọn àbá tí a sọ** | Ẹ̀rí náà dúró fún àwọn àbá ìkọ̀kọ̀ tí a dárúkọ tí a sì fi orúkọ wọn sí i |
 | **Ìgbálẹ̀ ìyípadà** | Òfin kan tó ń dí àwọn ọ̀nà àbájáde adágún kan ní ibi tí wọ́n lè fìdí rẹ̀ múlẹ̀ |

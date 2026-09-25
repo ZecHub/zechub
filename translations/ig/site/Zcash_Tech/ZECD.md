@@ -67,7 +67,7 @@ Iwu nzuzo nwere ike ịhazi ya kwa oku ma ọ bụ n'ụwa niile na-akpọtụr�
 | Amụma | Àgwà |
 |--------|----------|
 | `AllowRevealedRecipients` (ndabara) | A na-ezigara ndị nnata doro anya akwụkwọ ikike; a na-ekpughe ego na onye nnata n'usoro |
-| `AllowRevealedAmounts` | Permits cross-pool sends (Sapling↔Orchard) but rejects transparent recipients |
+| `AllowRevealedAmounts` | Na-ekwe ka ndị na-eziga ozi n'ofe ọdọ mmiri (Sapling↔Orchard) mana ha jụrụ ndị nnata doro anya |
 | `FullPrivacy` | Naanị ndị e zipụrụ ihe niile n'ime otu ọdọ mmiri; ha anaghị anabata ndị nnata doro anya na ndị na-agafe agafe |
 | `AllowFullyTransparent` | Na-enyekwa ohere ka e ziga ego sitere na UTXO doro anya |
 
@@ -203,7 +203,7 @@ Ndị mmepe na-esi n'ọrụ Bitcoin ma ọ bụ zcashd agagharị kwesịrị �
 
 | Àgwà | Isi Bitcoin | ZECD |
 |----------|-------------|------|
-| Ụdị adreesị | `1...` / `bc1...` | `u1...` ( Unified Address) (Orchard ) - enweghị ike ịkọwa ya dị ka adreesị Bitcoin site n'aka ndị ahịa na-akọwapụta eriri |
+| Ụdị adreesị | `1...` / `bc1...` | `u1...` (Unified Address) (Orchard) - enweghị ike ịkọwa ya dị ka adreesị Bitcoin site n'aka ndị ahịa na-akọwapụta eriri |
 | Aha ndị e ji mee ihe | Ụlọ ahịa akara zuru oke | Emebeghị ya - `setlabel`, `listlabels`, wdg. nloghachi `-32601` |
 | Ụgwọ | A na-ahazi onye ọrụ; ahịa ụgwọ | ZIP-317 naanị ihe dị mkpa; `settxfee`, `fee_rate`, `subtractfeefromamount` jụrụ na `-8` |
 | Ihe ncheta | Anaghị akwado ya | `sendtoaddress` na-anabata ozi hex; akụkọ ihe mere eme nwere `memo` + `memoStr` ubi |
@@ -288,7 +288,7 @@ zecd --datadir ./data init --restore --birthday 2500000
 | Ọrụ | Ọnụ zuru ezu + obere akpa | Indexer (na-anọchi lightwalletd) | Naanị ihe nkesa obere akpa |
 | Asụsụ | C++ | Nchara | Nchara |
 | Ọkwa | Akwụsịla | Na-arụ ọrụ | Na-arụ ọrụ (v0.5.0-rc3, Julaị 2026) |
-| Default pool | Transparent | N/A | Orchard (shielded) |
+| Ọdọ mmiri ndabara | Ihe doro anya | N/A | Orchard (nke e ji ihe nchekwa kpuchie) |
 | Asụsụ RPC | zcashd-specific | gRPC (lightwalletd) | Isi Bitcoin JSON-RPC |
 | Chọrọ node zuru oke | Ee (onwe gị) | Zebra ma ọ bụ zcashd | Zebra |
 | Mgbake na-enweghị steeti | No | N/A | Ee (naanị mkpụrụ) |

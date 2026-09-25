@@ -30,7 +30,7 @@ Ndị nnọchi anya nwere nnwere onwe imepụta ihe n'ihe gbasara ihe omume ha n
 | Naịjirịa | [Zcash Naịjirịa](https://x.com/ZcashNigeria) | Mmụta ndị mmepe, ntinye obodo |
 | Ọwụwa Anyanwụ Afrịka | [Zcash Ọwụwa Anyanwụ Afrịka](https://x.com/ZcashEastAfrica) | Mmụba obodo dị n'Ọwụwa Anyanwụ Afrịka na Uganda |
 | South Africa | [Zcash Saụt Afrịka](https://twitter.com/Zcash_SA) | South Africa |
-| Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
+| Gana | [Zcash Ghana](https://x.com/ZcashGH) | Gana |
 | Meksiko | [zcashqro](https://x.com/zcashqro) | Ntinye aka na mmepe mahadum |
 | Rọshịa | [ruZcash](https://x.com/ruZCASH) | Ọdịnaya na obodo asụsụ Rọshịa |
 | India | [Zcash India](https://x.com/ZcashIND) | Agụmakwụkwọ ndị mmepe na uto obodo |

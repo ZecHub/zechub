@@ -48,7 +48,7 @@ Pamoja na mabadiliko ya fedha, Canopy alikuwa ndogo mbili ZIPs kiufundi. [ZIP 21
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| Zawadi ya waanzilishi | Mfumo wa awali wa ufadhili uliolipia maendeleo ya mapema Zcash , uliopangwa kuisha katika nusu ya kwanza ya mwaka |
+| Zawadi ya waanzilishi | Mfumo wa awali wa ufadhili uliolipia maendeleo ya mapema Zcash, uliopangwa kuisha katika nusu ya kwanza ya mwaka |
 | Mfuko wa Maendeleo | Sehemu ya asilimia 20 ya kila zawadi ya block ambayo Canopy iliipeleka kwenye maendeleo, ikiendelea hadi nusu ya pili ya mzunguko |
 | Zawadi ya kuzuia (ruzuku) | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
 | Kupunguza nusu | Tukio lililopangwa ambapo zawadi ya kuzuia hukatwa katikati |
@@ -63,7 +63,7 @@ Did Canopy cut the block reward? Canopy activated at the same block as Zcash's f
 
 What is the Development Fund for? It funds the people building Zcash. The money goes to the Electric Coin Company (through the Bootstrap Project), the Zcash Foundation, and Major Grants, which supports independent work.
 
-Je, bado ninaweza kutumia pesa katika bwawa Sprout ? Ndiyo. Bado unaweza kutoa pesa ambazo tayari ziko katika Sprout. Huwezi kuongeza thamani mpya ndani yake baada ya Canopy.
+Je, bado ninaweza kutumia pesa katika bwawa Sprout? Ndiyo. Bado unaweza kutoa pesa ambazo tayari ziko katika Sprout. Huwezi kuongeza thamani mpya ndani yake baada ya Canopy.
 
 Je, Mfuko wa Maendeleo ni wa kudumu? La. Ulikuwa umepangwa kuendesha kwa miaka minne, kutoka nusu ya kwanza mnamo Novemba 2020 hadi nusu ya pili mnamo 2024, ikitoa wakati wa jamii kuona jinsi inavyofanya kazi kabla ya kuiangalia tena.
 

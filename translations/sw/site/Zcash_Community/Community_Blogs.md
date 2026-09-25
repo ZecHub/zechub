@@ -14,7 +14,7 @@ Yafuatayo ni baadhi ya yale yanayoendelea:
 | James Katz                 | Maandishi na mawazo binafsi kuhusu Zcash na faragha      | [Tembelea ->](https://free2z.cash/James_Katz/) |
 | Sasisho la Vidole Vidogo             | Masasisho na maarifa ya mara kwa mara ya mfumo ikolojia                   | [Tembelea ->](https://thumbsup.substack.com) |
 | uundaji wa chumba              | Mawazo na maudhui ya jamii                            | [Tembelea ->](https://free2z.cash/roommatemusing) |
-| Blogu ya NerdBank              | Blogu ya kiufundi ililenga katika uundaji na zana za Zcash    | [Tembelea ->](https://blog.nerdbank.net/) |
+| Blogu NerdBank              | Blogu ya kiufundi ililenga katika uundaji na zana za Zcash    | [Tembelea ->](https://blog.nerdbank.net/) |
 | ZecMec                     | Makala Zcash-focused kwenye Medium                         | [Tembelea ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter             | Makala na jarida la kina                         | [Tembelea ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)     | Mahojiano na maudhui ya hadhi ya juu kuhusu faragha           | [Tembelea ->](https://naomibrockwell.com/highprofileinterviews) |

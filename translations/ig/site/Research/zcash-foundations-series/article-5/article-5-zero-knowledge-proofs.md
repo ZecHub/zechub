@@ -101,7 +101,7 @@ Usoro ọhụrụ na-ewepụ ihe a chọrọ kpamkpam, nke bụ otu n'ime isi ih
 | Nhazi | Sistemụ ihe akaebe | Ntọala a tụkwasịrị obi? | E wuru ya na |
 |---|---|---|---|
 | **Sprout** (nke mbụ) | mmalite zk-SNARK | Ee | emume mbụ |
-| **Sapling** | **Uto nke 16** | Ee (emume "Ike nke Tau" nke ọtụtụ mmadụ na-eme + emume Sapling ) | **BLS12-381** (Isiokwu nke 2) |
+| **Sapling** | **Groth16** | Ee (emume "Ike nke Tau" nke ọtụtụ mmadụ na-eme + emume Sapling) | **BLS12-381** (Isiokwu nke 2) |
 | **Orchard** (ugbu a) | **Halo 2** | **Enweghị ntọala a tụkwasịrị obi** | **Pallas / Vesta** (Isiokwu nke 2) |
 
 The march from Sprout to Sapling to Orchard is largely a story about proofs getting smaller, faster, and shedding the trusted setup. **Halo 2**, used by Orchard, needs no ceremony at all and is built to support *recursion* (proofs that verify other proofs), which is why Orchard uses the Pallas/Vesta **cycle** of curves from Article 2: each curve is tuned to verify proofs written over the other.

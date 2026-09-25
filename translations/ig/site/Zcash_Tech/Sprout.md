@@ -36,10 +36,10 @@ Sprout is the baseline that every later change builds on. When the network-upgra
 |---|---|
 | zk-SNARK | Ihe akaebe efu nke na-egosi na azụmahịa dị irè n'ekpugheghị onye zitere ya, onye nnata, ma ọ bụ ego ole ọ chọrọ |
 | Ọdọ mmiri echebere echebe | Akụkụ nkeonwe nke Zcash ebe a na-ezobe ego na oriri. Ọdọ mmiri Sprout bụ nke mbụ |
-| adreesị z na adreesị t | A na-echekwa adreesị z ma na-edebe nkọwa nzuzo. Adreesị t na-edo anya ma na-egosi nkọwa na akwụkwọ ndekọ ọha |
+| adreesị z na adreesị t | A na-echekwa adreesị z ma na-edebe nkọwa nzuzo. Adreesị t na-edo anya ma na-egosi nkọwa na ledger ọha |
 | Ememme ahụ | Nhazi nke ọtụtụ ndị otu nke afọ 2016 nke mepụtara paramita ọha Sprout's wee tụfuo ihe mkpofu na-egbu egbu |
 | Ihe mkpofu na-egbu egbu | Isi ihe nzuzo sitere na emume ahụ nke a ga-ebibi ka e wee ghara imepụta ZEC |
-| Ndenye aha ngalaba nkwekọrịta 0 | Akara maka iwu Sprout's , nke pụtara ntọala tupu mmelite netwọkụ ọ bụla |
+| Ndenye aha ngalaba nkwekọrịta 0 | Akara maka iwu Sprout's, nke pụtara ntọala tupu mmelite netwọkụ ọ bụla |
 
 ## Ajụjụ ndị a na-ajụkarị
 

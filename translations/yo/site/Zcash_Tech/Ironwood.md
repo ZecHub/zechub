@@ -10,7 +10,7 @@ Ohun tí ẹ ó mú lọ: ohun ti Ironwood yí padà, ìdí tí àbùkù owó t�
 
 Ironwood jẹ Zcash kan. [àtúnṣe síra ẹ̀rọ](../start-here/network-upgrades), ni ifowosi NU6.3, ti o ṣe agbekalẹ adagun-odo tuntun kan pẹlu orukọ kanna. A [adágún tí a fi ọ̀pá ìdáàbòbò ṣe](../using-zcash/shielded-pools) ni awọn akojọpọ ti owo eyi ti iye ati eni duro farapamọ nipa [ìkọ̀wé-ìmọ́ òfo (zero knowledge cryptography)](../zcash-tech/zk-snarks). Ironwood exists to contain and audit a soundness bug found in the existing Orchard shielded pool, and to give the community a stronger way to check that the total supply of ZEC is honest. Its consensus rules are specified in [ZIP 258](https://zips.z.cash/zip-0258).
 
-Kí ló dé tí èyí fi ṣe pàtàkì? Pẹ̀lú owó tí ó hàn gbangba bíi Bitcoin, ẹnikẹ́ni lè ṣàyẹ̀wò pé kò sí owó tí wọ́n fi ṣe àfọwọ́kọ nípa kíkà ìwé àkọsílẹ̀ gbogbogbòò. Owó tí a fi ààbò pamọ́ máa ń fi iye owó náà pamọ́, nítorí náà o kò lè wo lásán. Dípò bẹ́ẹ̀, ìwé-ìpamọ́ fúnra rẹ̀ gbọ́dọ̀ rí i dájú pé kò sí ẹni tí ó lè dá owó ní ìkọ̀kọ̀. Ironwood ṣe pàtàkì nítorí pé a rí àṣìṣe kan nínú ìdánilójú yẹn fún adágún Orchard . Ìmúdàgbàsókè náà ti àlàfo náà pa, ó sì fún ẹnikẹ́ni ní ọ̀nà láti jẹ́rìí sí i pé àpapọ̀ iye ZEC ṣì jẹ́ òótọ́.
+Kí ló dé tí èyí fi ṣe pàtàkì? Pẹ̀lú owó tí ó hàn gbangba bíi Bitcoin, ẹnikẹ́ni lè ṣàyẹ̀wò pé kò sí owó tí wọ́n fi ṣe àfọwọ́kọ nípa kíkà ledger. Owó tí a fi ààbò pamọ́ máa ń fi iye owó náà pamọ́, nítorí náà o kò lè wo lásán. Dípò bẹ́ẹ̀, ìwé-ìpamọ́ fúnra rẹ̀ gbọ́dọ̀ rí i dájú pé kò sí ẹni tí ó lè dá owó ní ìkọ̀kọ̀. Ironwood ṣe pàtàkì nítorí pé a rí àṣìṣe kan nínú ìdánilójú yẹn fún adágún Orchard. Ìmúdàgbàsókè náà ti àlàfo náà pa, ó sì fún ẹnikẹ́ni ní ọ̀nà láti jẹ́rìí sí i pé àpapọ̀ iye ZEC ṣì jẹ́ òótọ́.
 
 Ṣé o ṣẹ̀ṣẹ̀ ń lo Zcash? Bẹrẹ pẹlú: [Kí ni ZEC àti Zcash?](../start-here/what-is-zec-and-zcash) àti pé, [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](../using-zcash/shielded-pools), wá padà wálé.
 
@@ -78,7 +78,7 @@ Awọn apamọwọ ati sọfitiwia node ṣe itọju pupọ julọ ti eyi laif�
 | Àìsàn ìlera | Àbùkù kan tó ń jẹ́ kí ìṣòwò tí kò tọ́ kọjá àyẹ̀wò ẹ̀rí bíi pé ó wúlò |
 | Ìyípadà | Àyẹ̀wò gbogbogbòò tí ó ń ka iye ìṣípò láàárín àwọn adágún kí ìpèsè náà lè dúró ní àyẹ̀wò |
 | Na-ná nìkan | Adágún omi kan tí o lè ná láti, ṣùgbọ́n tí o kò lè fi ìní tuntun kún un |
-| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's , tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
 | Àkọsílẹ̀ tí a lè gbà padà sí Kuatomu | A ṣe àgbékalẹ̀ àkọsílẹ̀ kan kí a lè gba owó padà tí àwọn kọ̀ǹpútà quantum bá lè ba ìkọ̀kọ̀ ayélujára òde òní jẹ́ |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè

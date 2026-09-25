@@ -43,7 +43,7 @@ Watumiaji wanaweza sasa kutuma / kupokea ZEC bila kufunua mizani au metadata - y
 ! ![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
-## Sehemu ya 2: Kuongeza Zcash (ZEC) kwenye Brave Pollet
+## Sehemu ya 2: Kuongeza Zcash (ZEC) kwenye Brave Wallet
 
 ** Hatua zilizofunikwa:**
 

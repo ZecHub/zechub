@@ -49,7 +49,7 @@ Start with what is protected. Against every adversary in the model, including on
 | Sọ èyí àti ìgbà tí o fi ránṣẹ́ tàbí tí o gba ìṣòwò tí a dáàbò bò | Fífiránṣẹ́ “ń lo bandwidth púpọ̀ sí i, èyí tí a lè rí bí ó tilẹ̀ jẹ́ pé ìsopọ̀ náà jẹ́ ti ìkọ̀kọ̀”. Àwòṣe náà sọ pé iṣẹ́ fífiránṣẹ́ àti gbígbà ni a lè rí fún olupin náà fúnra rẹ̀ |
 | Kíkà iye àwọn ìṣòwò tí o ti ṣe lórí àkókò | Awọn ilana bandwidth kanna, ti a ṣe akiyesi lori akoko pipẹ |
 | Ṣíṣàyẹ̀wò àwọn ìlànà ìsanwó tó ń ṣẹlẹ̀ déédéé | Ṣíṣàkíyèsí nígbà tí ìgbòkègbodò bá ṣẹlẹ̀ |
-| Ṣíṣàyẹ̀wò bóyá àdírẹ́sì kan jẹ́ tìrẹ | Ẹlẹ́ta kan tí ó ti mọ àdírẹ́sì kan tẹ́lẹ̀ “lè fi owó ránṣẹ́ sí àdírẹ́sì náà kí ó sì ṣọ́ra láti rí i bóyá àwọn ìpele ìlọ́po púpọ̀ wà” láti inú àpò owó rẹ tí ó ń mú un wá |
+| Ṣíṣe àyẹ̀wò bóyá àdírẹ́sì kan jẹ́ tìrẹ | Ẹlẹ́ta kan tí ó ti mọ àdírẹ́sì kan tẹ́lẹ̀ “lè fi owó ránṣẹ́ sí àdírẹ́sì náà kí ó sì ṣọ́ra láti rí i bóyá àwọn ìpele ìlọ́po púpọ̀ wà” láti inú àpò owó rẹ tí ó ń mú un wá |
 
 Awoṣe naa tun ṣe akiyesi pe ọran ti o wọpọ gba "ibasepo igbẹkẹle laarin olumulo ati oniṣẹ olupin lightwalletd".
 
@@ -101,8 +101,8 @@ Aṣayan ti o lagbara julọ ni lati jẹ oniṣẹ tirẹ, eyiti o yọ ibeere 
 |:--|:--|
 | zec.rocks:443 | A ṣe àkójọ àwọn ìparí agbègbè pẹ̀lú rẹ̀ ní na.zec.rocks, eu.zec.rocks, ap.zec.rocks àti sa.zec.rocks |
 | zec-node.cakewallet.com:443 | Lórí àpò ìpamọ́ Cake Wallet |
-| zec.0xrpc.io:443 | 0xRPC ló ń ṣiṣẹ́, èyí tó ń fúnni ní àwọn ẹ̀wọ̀n tó ń tà gbogbo ènìyàn lọ́fẹ̀ẹ́, tó sì ń béèrè fún àwọn ẹ̀bùn láti bo agbára wọn |
-| zaino.unsafe.zec.rocks:443 | A Zaino instance. Note the hostname, treat it as experimental |
+| zec.0xrpc.io:443 | 0xRPC, èyí tó ń fúnni ní àwọn ẹ̀wọ̀n tó ń tà gbogbo ènìyàn lọ́fẹ̀ẹ́, tó sì ń béèrè fún àwọn ẹ̀bùn láti bo agbára wọn |
+| zaino.unsafe.zec.rocks:443 | Àpẹẹrẹ Zaino kan. Ṣàkíyèsí orúkọ olùgbàlejò, ṣe é gẹ́gẹ́ bí àṣàrò lórí ìwádìí |
 | testnet.zec.rocks:443 | Testnet, pẹ̀lú àpẹẹrẹ Zaino testnet tí a kọ sí zaino.testnet.unsafe.zec.rocks |
 
 Ṣayẹwo ibi ìsọfúnni dípò kí o fọkàn tán ìwé àkọsílẹ̀ yìí. Àwọn oníṣẹ́ ń wá, àwọn sì máa lọ, ojúewé bíi èyí á sì di arúgbó.

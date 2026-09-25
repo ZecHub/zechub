@@ -44,9 +44,9 @@ Mgbe ahụ enwere ihe a na-echedobeghị. Ihe nlereanya iyi egwu depụtara nd�
 
 | Adịghị ike | Kedu |
 |:--|:--|
-| Telling who you are | "The adversary knows the user's IP address, which could lead them to the user's real identity" |
+| Ịgwa onye ị bụ | "Onye mmegide maara adreesị IP nke onye ọrụ, nke nwere ike iduga ha n'ezi njirimara onye ọrụ" |
 | Na-ekwu ebe ị nọ n'ụzọ dị mkpirikpi | Ịchọta IP gị "na nchekwa data geolocation iji mee ka ha mara ebe ha nọ" |
-| Telling that and when you sent or received a shielded transaction | Sending "uses more bandwidth, which is visible even though the connection is encrypted". The model notes that the act of sending and receiving is visible to the server itself |
+| Ịkọ nke ahụ na mgbe ị zigara ma ọ bụ nata azụmahịa echekwara | Izipu "na-eji ọtụtụ bandwit, nke a na-ahụ anya ọbụlagodi na njikọ ahụ ezoro ezo". Ụdị ihe nlereanya ahụ na-ekwu na ihe nkesa ahụ na-ahụ ihe nkesa ahụ n'onwe ya |
 | Ịgụta ọnụọgụ azụmahịa ị mere ka oge na-aga | Ụdị bandwit ahụ, a hụrụ ya ruo ogologo oge |
 | Ịchọpụta usoro ịkwụ ụgwọ ugboro ugboro | Ịhụ mgbe ihe omume mere |
 | Ịchọpụta ma adreesị ọ bụ nke gị | Onye iro nke maara adreesị "nwere ike izipu ego na adreesị ahụ ma lezie anya iji hụ ma enwere mmụba bandwit" site na obere akpa gị iji nweta ya |
@@ -101,8 +101,8 @@ Ndị sava edepụtara na dashboard ahụ n'oge edere ederede:
 |:--|:--|
 | zec.rocks:443 | E depụtara njedebe mpaghara n'akụkụ ya na na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
 | zec-node.cakewallet.com:443 | Na ngalaba Cake Wallet |
-| zec.0xrpc.io:443 | 0xRPC na-arụ ọrụ, nke na-enye njedebe ọha na eze n'efu maka ọtụtụ agbụ ma na-arịọ maka onyinye iji kpuchie ikike |
-| zaino.unsafe.zec.rocks:443 | Ihe atụ Zaino . Rịba ama aha onye nnabata ahụ, were ya dị ka nnwale |
+| zec.0xrpc.io:443 | 0xRPC, nke na-enye njedebe ọha na eze n'efu maka ọtụtụ agbụ ma na-arịọ maka onyinye iji kpuchie ikike |
+| zaino.unsafe.zec.rocks:443 | Ihe atụ Zaino. Rịba ama aha onye nnabata ahụ, were ya dị ka nnwale |
 | testnet.zec.rocks:443 | Testnet, yana ihe atụ Zaino testnet edepụtara na zaino.testnet.unsafe.zec.rocks |
 
 Lelee dashboard kama ịtụkwasị ndepụta a obi. Ndị na-arụ ọrụ na-abịa ma laa, ibe dị ka nke a ga-aka nká.

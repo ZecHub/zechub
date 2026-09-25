@@ -102,7 +102,7 @@ Nuɖoanyi yeyewo ɖea nudidi sia ɖa keŋkeŋ, si nye susu gãtɔ siwo ta Zcash 
 |---|---|---|---|
 | **Sprout** (gbãtɔ kekeake) | gbãtɔ zk-SNARK | Ẽ | kɔnu gbãtɔ |
 | **Sapling** | **Tsitsi16** | Ẽ (ame geɖewo ƒe "Powers of Tau" + Sapling ƒe kɔnu) | **BLS12-381** (Nyati 2 lia) |
-| **Orchard** (current) | **Halo 2** | **No trusted setup** | **Pallas / Vesta** (Article 2) |
+| **Orchard** (fifia) | **Halo 2** ƒe ɣeyiɣia | **Ðoɖo si dzi woka ɖo aɖeke meli o** | **Pallas / Vesta** (Nyati 2 lia) |
 
 Azɔlizɔzɔ tso Sprout yi Sapling yi Orchard ƒe akpa gãtɔ nye ŋutinya si ku ɖe kpeɖodziwo ƒe sue, kabakaba, kple ɖoɖo si dzi woka ɖo la ɖeɖeɖa ŋu. **Halo 2**, si Orchard zãna la, mehiã kɔnu aɖeke kura o eye wotue be wòado alɔ *recursion* (kpeɖodzi siwo ɖoa kpe kpeɖodzi bubuwo dzi), si tae Orchard zãa Pallas/Vesta **cycle** of curves tso Se 2 lia me: wotrɔa curve ɖesiaɖe tsɔ ɖoa ​​kpe kpeɖodzi siwo woŋlɔ ɖe evelia dzi la dzi.
 

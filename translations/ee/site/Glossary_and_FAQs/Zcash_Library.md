@@ -168,7 +168,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| Sapling | A major network upgrade that introduced significant efficiency improvements for shielded transactions and paved the way for mobile adoption. Activated at block 419200. |
+| Sapling | Netwɔƒe ƒe tɔtrɔ gã aɖe si to dɔwɔwɔ nyuie ƒe ŋgɔyiyi gãwo vɛ na asitsatsa siwo ŋu wokpɔ ta na eye wòʋu mɔ na asitelefon zazã. Wowɔ dɔ le block 419200 dzi. |
 | Nyaɖeɖefia Tiatia | Enaa adrɛs si wokpɔ ta na la tɔ te ŋu tiaa nukpɔkpɔ ƒe safuiwo alo fexexe ŋuti nyatakakawo na ame bubuwo esime wòle nyatakakawo dzram ɖo ɖe ame bubu ɖesiaɖe si. |
 | Adrɛs si Wokpɔna | Wogayɔnae be zaddr. Edzea egɔme kple z. Ɣla ame si ɖoe ɖa, amesi xɔe, ga home, kple nuŋlɔɖi to zk-SNARKs zazã me. |
 | Labs Siwo Wotsɔ Akpoxɔnu Wɔe | Habɔbɔ si le eɖokui si si le dɔ wɔm tso Zcash protocol ganyawo kple nukpɔsusu ɖeka ŋu. Fifia exɔ ŋgɔ na Crosslink kple Network Sustainability Mechanism. [GitHub ƒe ŋkɔ](https://github.com/ShieldedLabs) |
@@ -196,14 +196,14 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| Unified Address | Modern address format (introduced in NU5) that works for both transparent and shielded payments in one string. |
+| Unified Address | Egbegbe adrɛs ƒe ɖoɖo (si woto vɛ le NU5) si wɔa dɔ na fexexe si me kɔ kple esi wokpɔ ta na siaa le ka ɖeka me. |
 | Dodoɖeŋgɔ ƒe Dɔwɔwɔ | Block ƒe kɔkɔme tɔxɛ si me network upgrade (e.g. NU5, NU6) wɔa dɔ le eɖokui si. |
 
 ## V
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| Viewing Key | A private key that lets you view the balance and transaction history of a shielded address without being able to spend the funds. |
+| Viewing Key | Safui si nye ame ŋutɔ tɔ si ana nàkpɔ adrɛs si wokpɔ ta na ƒe ga si susɔ kple asitsatsa ŋutinya evɔ màte ŋu azã ga la o. |
 
 ## W
 
@@ -222,14 +222,14 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| YWallet | A privacy-focused Zcash wallet supporting Orchard, Sapling and transparent addresses, known for fast sync. No longer maintained: its developer has confirmed it will not be updated for Ironwood, so it can no longer follow the network. Zkool, by the same developer, is the maintained successor. |
+| YWallet | Zcash gakotoku si léa ŋku ɖe ame ŋutɔ ƒe nyawo ŋu si doa alɔ Orchard, Sapling kple adrɛs siwo me kɔ, si wonya be ewɔa ɖeka kabakaba. Womegaléa be nɛ o: eƒe dɔwɔƒea ɖo kpe edzi be womawɔ yeye na Ironwood, eyata magate ŋu adze network la yome o. Zkool, si dɔwɔla ma ke wɔ lae nye amesi wolé be na ɖe eteƒe. |
 
 ## Z
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
 | Zcash | Cryptocurrency si wotu ɖe ame ŋutɔ ƒe nyawo dzi si zãa zk-SNARKs. Tɔdzisasrã siwo me kɔ (Bitcoin-style) kple fexexe siwo wokpɔ ta na bliboe. |
-| Zcash Foundation | Independent non-profit that supports the Zcash ecosystem, funds development, and promotes privacy. |
+| Zcash Foundation | Habɔbɔ si mekpɔa viɖe aɖeke tso eme o si le eɖokui si si doa alɔ Zcash lãwo ƒe agbenɔnɔ, naa ga ŋgɔyiyi, eye wòdoa ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ ɖe ŋgɔ. |
 | Zcash ƒe Dɔwɔƒe | Peer-to-peer network of nodes si ɖoa kpe asitsatsa dzi eye wòléa blockchain la me ɖe asi. |
 | ZEC | Ga ƒe kɔpi si dziɖuɖua da asi ɖo na Zcash (gaɖɔliƒe aɖewo gakpɔtɔ ɖea XZC fiana). |
 | Zerocash ƒe ga | Sukudede ƒe ɖoɖowɔɖi (2014) si dzi Zcash nɔ te ɖo. |

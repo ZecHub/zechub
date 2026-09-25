@@ -155,7 +155,7 @@ Asibidɛawo nye kɔnkrit eye woate ŋu alé ŋku ɖe wo ŋu.
 
 | Zcash ƒe nɔnɔme | Curves siwo wòzãna | Akpa si wòwɔna |
 |---|---|---|
-| **Sapling** (older) | **BLS12-381** plus an embedded curve called **Jubjub** | BLS12-381 carries the proof system; Jubjub is built over BLS12-381's scalar field so that key and commitment operations are cheap to perform *inside* a zero-knowledge proof |
+| **Sapling** (xoxotɔ) | **BLS12-381** kpe ɖe curve si wotsɔ de eme si woyɔna be **Jubjub** ŋu | BLS12-381 tsɔa kpeɖodziɖoɖoa; Wotu Jubjub ɖe BLS12-381's scalar field dzi ale be safui kple ɖokuitsɔtsɔna dɔwɔwɔwo naxɔ asi be woawɔ *le* zero-sidzedze kpeɖodzi |
 | **Atikutsetsebɔ** (fifia) | **Pallas** kple **Vesta** ("Pasta" ƒe tsatsam) | Pallas tsɔa Orchard ƒe safuiwo kple adzɔgbeɖeɖewo; wowɔ ɖoɖo ɖe Pallas/Vesta ƒe ƒoƒo ɖekae ŋu etɔxɛe be kpeɖodzi deŋgɔwo nawɔ dɔ nyuie |
 
 Susu siwo tae ʋuʋudedi ɖeka "gena ɖe" bubu ƒe agble me, kple nusitae *tsatsa* si me ʋuʋudedi eve le la ɖea vi, nye nu ŋutɔŋutɔwo eye wole vevie, gake wole kpeɖodzi-ɖoɖo ƒe nyatiwo me. Fifia la, takeaway la sesẽ: **Zcash safui ɖesiaɖe nye scalar zi gbɔ zi generator, eye Zcash ƒe ɖokuitsɔtsɔna ɖesiaɖe nye curve points ƒe ƒuƒoƒo**, si nɔa agbe ɖe curve siawo siwo ŋkɔ wo dometɔ ɖeka dzi.

@@ -238,7 +238,7 @@ Zallet ṣe atẹjade awọn ohun-ini oriṣiriṣi:
 | `zallet-<version>-<platform>.tar.gz` | ibi ipamọ alakomeji |
 | `.tar.gz.asc` | Ibuwọlu GPG ti a ya sọtọ |
 | `.tar.gz.intoto.jsonl` | Ẹ̀rí Ìbẹ̀rẹ̀ SLSA |
-| `.tar.gz.provenance.json` | metadata orisun |
+| `.tar.gz.provenance.json` | data orisun |
 | `.tar.gz.sbom.spdx` | ìwé-àkọsílẹ̀ ohun èlò kọ̀mpútà |
 
 ### Ìgbésè 1  Mọ kókó ìforúkọsílẹ̀ náà kí o tó lọ wá a.
@@ -334,7 +334,7 @@ Zcash release signing moved from Electric Coin Company to Zcash Open Development
 |---|---|---|
 | Ìka ìka | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
 | UID | Kọ́kọ́ ìfọwọ́sowọ́pọ̀ ọ̀gá Zcash (ECC) `<sysadmin@z.cash>` | Ilé Ìdàgbàsókè Zcash Open (ZODL) `<sysadmin@zodl.com>` |
-| Type | RSA 3072-bit, created 2023-06-19 | RSA 4096-bit, created 2026-03-23, expires 2028-03-22 |
+| Irú | RSA 3072-bit, tí a ṣẹ̀dá ní 2023-06-19 | RSA 4096-bit, tí a ṣẹ̀dá ní 2026-03-23, yóò parí ní 2028-03-22 |
 | A tẹ̀ ẹ́ jáde ní | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
 Àkọsílẹ̀ àkókò tí a tẹ jáde: kókó tuntun ti a ṣe 2026-03-23, ìfilọ́lẹ̀ 2026- 03-27, wíwọlé fún àdáni láti 2026-4-23, pípaáṣẹ kíkéde kọ́rọ̀ ECC àtijọ́ ní ètò sí 2026-6-23 .

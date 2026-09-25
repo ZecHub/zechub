@@ -333,7 +333,7 @@ Zcash release signing no tu fii Electric Coin Company hɔ kɔɔ Zcash Open Devel
 | | Safoa dedaw bi | Safoa foforo |
 |---|---|---|
 | Nsateaa nkyerɛwee | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
-| UID | Zcash Master Nsɛnkyerɛnne Safoa (ECC) `<sysadmin@z.cash>` | Zcash Nkɔso a Wɔabue Mu (ZODL) `<sysadmin@zodl.com>` |
+| UID | Zcash Master Nsɛnkyerɛnne Safoa (ECC) `<sysadmin@z.cash>` | Zcash Nkɔso a Wɔabue (ZODL) `<sysadmin@zodl.com>` |
 | Korɔ | RSA 3072-bit, wɔbɔɔ no 2023-06-19 | RSA 4096-bit, a wɔbɔɔ no 2026-03-23, twam 2028-03-22 |
 | Wotintimii wɔ | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
@@ -430,7 +430,7 @@ Nsaano nkyerɛwee a enni mu yɛ aniberesɛm sen nea ɛwɔ checksum. A-nso-mu no 
 | **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore a wɔde ahyɛ mu | Safoa biara nni hɔ — CI nipasu denam GitHub OIDC so |
 | **Zallet** | `github.com/zcash/zallet/releases` | GPG a wɔayi afi mu `.asc`, SLSA a efi mu ba, SBOM | `apt.z.cash/zodl.asc` - mfiaseɛ `0338 34DD…58E2 6AB1`, nsaano nkyerɛwee subkey `1FE9 9324…23F0 617F` |
 | **zcashd** | *akɔ ahomegyeɛ mu* | — | Wogyinaa block 3,417,100 wɔ 2026-07-18. Mfa nhyɛ mu. |
-| **Zodl** (kan no na wɔfrɛ no Zashi) | App Store / Google Play a wɔde di dwuma; `zodl-inc` wɔ GitHub so | Store a wɔde wɔn nsa hyɛ ase; standalone Android binaries GPG-a wɔde wɔn nsa ahyɛ ase | ZODL safoa biara nsakrae asɛm |
+| **Zodl** (kan no na wɔfrɛ no Zashi) | App Store / Google Play a wɔde di dwuma; `zodl-inc` wɔ GitHub | Store a wɔde wɔn nsa hyɛ ase; standalone Android binaries GPG-a wɔde wɔn nsa ahyɛ ase | ZODL safoa biara nsakrae asɛm |
 
 > **Nom a wɔde to:** Zashi no san too din foforo maa no sɛ *Zodl* wɔ 2026  kan App Store, afei Google Play. Akwankyerɛfoɔ dada bi a wɔnim "Zashi" kyerɛ sika kotoku koro yi ara ase.
 

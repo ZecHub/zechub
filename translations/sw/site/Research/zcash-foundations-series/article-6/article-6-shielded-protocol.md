@@ -109,7 +109,7 @@ Makala ya 0 kwa makusudi kufungua maswali. Hapa ni wote, imefungwa.
 | "Ubao" ni nini hasa? | Mti wa Merkle unaoendelea kwa kasi wa ahadi za noti; mzizi wake ndio nanga (Kifungu cha 4) |
 | Kwa nini tokeni tupu haiwezi kuunganishwa na bahasha yake? | Kifuta ni hashi yenye ufunguo iliyohifadhiwa katika seti tofauti na ahadi (Kifungu cha 2, 3, 4) |
 | Unathibitishaje uhalali bila kufichua chochote? | zk-SNARK juu ya saketi ya hesabu inayosimba madai yote manne (Kifungu cha 5) |
-| Mpokeaji anajifunzaje kwamba alilipwa? | Ujumbe umesimbwa kwa njia fiche kwenye anwani yao; wanajaribu kuondoa msimbo kwa kutumia ufunguo wa kutazama (makala haya) |
+| Mpokeaji anajifunzaje kwamba alilipwa? | Ujumbe umesimbwa kwa njia fiche kwenye anwani yao; wanajaribu kuondoa msimbo kwa kutumia viewing key (makala haya) |
 | "Pesa ndani = pesa nje" inatekelezwaje kibinafsi? | Ahadi za thamani za homomorphic + sahihi ya kufunga (Sehemu ya 5) |
 
 Tofauti kutoka ukurasa wa kwanza, * kuthibitisha kile huwezi kuona *, sasa ni kutatuliwa kabisa. Mtandao kuthibitisha ** madai kuhusu data siri **, kamwe data yenyewe.
@@ -153,7 +153,7 @@ This is the most complete picture in the series, but still a model. We compresse
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
 | **Ufunguo wa matumizi** | Siri moja ya mzizi ambayo funguo zote za mtumiaji hupata |
-| **Ufunguo wa kutazama** | Hufichua miamala yako kwa mmiliki bila kumruhusu kutumia |
+| **Viewing key** | Hufichua miamala yako kwa mmiliki bila kumruhusu kutumia |
 | **Maelezo ya matumizi** | Sehemu ya tx inayotumia noti (nullifier, nanga, uthibitisho) |
 | **Maelezo ya matokeo** | Sehemu ya tx inayounda noti (kujitolea, maandishi ya siri, uthibitisho) |
 | **Kitendo (Orchard)** | Kitengo kimoja kinachofanya matumizi moja na matokeo moja pamoja |

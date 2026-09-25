@@ -58,9 +58,9 @@ Zcash akwadowo ogologo oge igodo multisig na-agbanwe agbanwe  ọtụtụ mkpị
 
 FROST na-edozi nke a site n'ịrụ ọrụ n'ime ọdọ mmiri ahụ e chebere:
 
-| | Transparent multisig | FROST threshold (shielded) |
+| | Transparent multisig | Oke FROST (ekpuchiri) |
 |--|---------------------|--------------------------|
-| Pool | Transparent (public) | Orchard (shielded) |
+| Ọdọ mmiri | Transparent (ọha) | Orchard (nke e ji ihe nchekwa kpuchie) |
 | A na-ahụ ihe nrịbama n'usoro | Ee — igodo ọha niile ekpughere | Mba — a naghị amata ihe dị iche na mmefu onye bịanyere aka na ya |
 | Ọnụọgụ ndị a na-ahụ anya | Ee | No |
 | A chọrọ nhazi dị mkpa | Ederede dị n'ime yinye | Usoro nkwukọrịta dị n'èzí |

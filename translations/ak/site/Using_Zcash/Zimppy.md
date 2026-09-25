@@ -468,7 +468,7 @@ packages/
 | `examples/fortune-teller/` | Charge, session, ne streaming demos - Rust server + client |
 | `examples/llm-summarizer/` | LLM streaming demo a wotua ho ka |
 | `examples/mcp-server/` | MCP adwinnade server a AI nnwinnade a wotua ho ka |
-| `examples/ts-server/` | TypeScript MPP server nkyerɛkyerɛmu a wɔde di dwuma |
+| `examples/ts-server/` | TypeScript MPP server nkyerɛkyerɛmu dwumadie |
 
 ---
 

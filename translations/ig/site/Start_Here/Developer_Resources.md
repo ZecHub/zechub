@@ -16,7 +16,7 @@ Zcashd, nke na-agba ọsọ netwọkụ maka ọtụtụ akụkọ ihe mere eme 
 | Ọnụ zuru ezu | Zebra ma ọ bụ Zakura | [Akwụkwọ Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
 | Obere akpa nodu zuru oke | Zallet, na beta | [Akwụkwọ Zallet](https://zcash.github.io/zallet/) |
 | Ihe nkesa obere akpa ego | Zaino ma ọ bụ lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Wallet libraries | The librustzcash crates | [librustzcash](https://github.com/zcash/librustzcash) |
+| Ọbá akwụkwọ obere akpa | Igbe librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
 | Mkpanaka | SDKs gam akporo na iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
 | Nkọwapụta | Nkọwapụta usoro na ZIP | [zips.z.cash](https://zips.z.cash) |
 
@@ -57,7 +57,7 @@ Ihe ahụ bụ: [Usoro Nkwado Ndị Ahịa Dị Mfe](https://zcash.readthedocs.i
 | zcash_keys | "Zcash na njikwa adreesị" |
 | zcash_primitives | "Mmejuputa nchara nke Zcash primitives" |
 | zcash_protocol | "Zcash protocol" |
-| ubi mkpụrụ osisi | "Usoro azụmahịa nke Orchard kpuchiri" |
+| orchard | "Usoro azụmahịa nke Orchard kpuchiri" |
 | sapling-crypto | "Ọbá akwụkwọ cryptographic maka Zcash Sapling" |
 | pczt | "Ngwaọrụ maka ịrụ ọrụ na azụmahịa Zcash e kere n'ime akụkụ", nke eji maka mbinye aka ngwaike na ngwaọrụ dị iche iche |
 | zip321 | URI arịrịọ ịkwụ ụgwọ, dịka akọwara na ZIP 321 |

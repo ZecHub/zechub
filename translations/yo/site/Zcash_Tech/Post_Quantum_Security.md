@@ -90,9 +90,9 @@ But shielded Zcash is not automatically post-quantum. Shielded pools still depen
 
 | Agbègbè | Àlàyé olùbẹ̀rẹ̀ | Àníyàn lẹ́yìn-ìwọ̀n-owó |
 | --- | --- | --- |
-| Transparent addresses | Public addresses and public transaction graph | Similar risks to other transparent blockchains |
+| Àwọn àdírẹ́sì tí ó hàn gbangba | Awọn adirẹsi gbogbogbo ati aworan iṣowo gbogbo eniyan | Àwọn ewu tó jọra sí àwọn blockchain mìíràn tó hàn gbangba |
 | Na àṣẹ ìnáwó | Ẹ̀rí pé a gba olùlò láàyè láti náwó | Àwọn ètò ìfọwọ́sowọ́pọ̀ lè nílò ìyípadà tàbí ìṣípòpadà |
-| Shielded notes | Private records of value inside shielded pools | Some components may need new assumptions or recovery tools |
+| Àwọn àkọsílẹ̀ tí a dáàbò bò | Àwọn àkọsílẹ̀ iye ara ẹni nínú àwọn adágún tí a dáàbò bò | Àwọn ohun èlò kan lè nílò àwọn àbá tuntun tàbí àwọn irinṣẹ́ ìgbàpadà |
 | zk-SNARKs | Àwọn ẹ̀rí tó fi hàn pé àwọn ìṣòwò tó ní ààbò wúlò | Àwọn àbá ètò ẹ̀rí nílò àtúnyẹ̀wò |
 | Ṣíṣàyẹ̀wò Àpò Owó | Báwo ni àwọn àpò owó ṣe ń rí àti ṣe ń yí àwọn àkọsílẹ̀ tí a gbà padà | Àdéhùn pàtàkì àti ìfipamọ́ àkọsílẹ̀ nílò àtúnyẹ̀wò |
 | Ìṣílọ | Gbigbe awọn owo si cryptography ailewu | Ó gbọ́dọ̀ yẹra fún pípadánù owó àti jíjò ìpamọ́ |

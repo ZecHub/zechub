@@ -75,7 +75,7 @@ In plain terms, the circuit's checklist was missing the boxes that should have p
 
 Nu siwo sɔ kple nu si dzɔ le míaƒe nuŋlɔɖi me la de pɛpɛpɛ:
 
-| Checklist story | The Orchard bug |
+| Checklist ŋutinya | Atikutsetsebɔ ƒe nugbagbevi si Orchard |
 |---|---|
 | "passport not expired" ƒe aɖaka si bu | Mɔxenu si bu le elliptic-curve ƒe dzidziɖedzi ŋu |
 | Mɔzɔla si ƒe mɔzɔgbalẽ ƒe ɣeyiɣia wu enu la toa eme to mɔ sia mɔ nu | Aʋatsonyawo tsɔtsɔ de eme le wo ɖokui si to dzidziɖedzi ƒe dodokpɔa me |
@@ -160,14 +160,14 @@ Míeɖe nu me le susu nyui aɖe ta. Nuƒomɔ ŋutɔŋutɔ la lɔ nuto alafa geɖ
 | Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
 |---|---|
 | **Ta si ŋu wokpɔ akpoxɔnu le** | Zcash ƒe private mode si me woɣla ga homewo kple akpawo le |
-| **Sidzedze zero ƒe kpeɖodzi** | Kpeɖodzi be nya ɣaɣla aɖe sɔ, si meɖea nu bubu aɖeke fiana o |
+| **Sidzedze zero ƒe kpeɖodzi** | Kpeɖodzi si fia be nya ɣaɣla aɖe sɔ, si meɖea nu bubu aɖeke fiana o |
 | **Nutome nutome** | Akɔntabubu ƒe nɔnɔme siwo woɖo ɖi si dzi wòle be asitsatsa si sɔ nawɔ ɖo |
 | **Mɔxexeɖenu** | Nɔnɔme ɖeka (equation) le nutome suea me |
 | **Gbɔdzɔgbɔdzɔ** | Dzidzenu ɣaɣla siwo kpɔa mɔxenuwo gbɔ |
 | **Gbeɖiɖi** | Kakaɖedzi si nye be nya vavãwo koe ate ŋu ana kpeɖodzi si sɔ |
 | **Gbeɖiɖi ƒe dometsotso** | Mɔxenu si bu si nana alakpanyawo toa eme |
-| **Womexe mɔ ɖe enu o** | Nutome sue aɖe si to nɔnɔme aɖe si wòhiã, si nye Orchard nugbagbevi la ƒe ke |
-| **Woate ŋu ade dzesii / womate ŋu ade dzesii o** | Nenye be amewo zazã ɖe mɔ gbegblẽ nu agblẽ kpeɖodziwo ɖe dutoƒogbalẽ me |
+| **Womexe mɔ ɖe enu o** | Nutome sue aɖe si to nɔnɔme aɖe si wòhiã, si nye Orchard ƒe nugbagbevi la ƒe ke |
+| **Woate ŋu ade dzesii / womate ŋu ade dzesii o** | Nenye be amewo zazã ɖe mɔ gbegblẽ nu agblẽ kpeɖodziwo ɖe ledger me |
 
 ---
 

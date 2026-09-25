@@ -393,7 +393,7 @@ let resp = client
 | `npx zimppy wallet create` | Mepụta igodo ma gosipụta mkpụrụ okwu |
 | `npx zimppy wallet whoami` | Gosi adreesị (UA + T-addr), nguzozi, netwọk |
 | `npx zimppy wallet balance --all` | Nchịkọta nguzozi nke akaụntụ ọ bụla |
-| `npx zimppy wallet send <addr> <zat>` | Send shielded or transparent ZEC |
+| `npx zimppy wallet send <addr> <zat>` | Zipu ZEC nke e chebere ma ọ bụ nke doro anya |
 | `npx zimppy wallet transfer <from> <to> <zat>` | Mbufe dị n'ime akaụntụ gafere |
 | `npx zimppy wallet shield` | Bufee ego doro anya na Orchard (echekwara) |
 | `npx zimppy wallet use <name>` | Gbanwee njirimara obere akpa ego na-arụ ọrụ |
@@ -466,7 +466,7 @@ packages/
 | Ihe atụ | Nkọwa |
 |---|---|
 | `examples/fortune-teller/` | Ngosipụta ụgwọ, nnọkọ, na nkwanye ugwu - Sava Rust + onye ahịa |
-| `examples/llm-summarizer/` | Ngosipụta nkwanye ugwu LLM nke na-akwụ ụgwọ kwa akara ngosi |
+| `examples/llm-summarizer/` | Ngosipụta nkwanye ugwu LLM nke ụgwọ-kwa-akara |
 | `examples/mcp-server/` | Ihe nkesa ngwaọrụ MCP nwere ngwaọrụ AI akwụ ụgwọ |
 | `examples/ts-server/` | Mmejuputa ntụaka ihe nkesa TypeScript MPP |
 
@@ -479,10 +479,10 @@ packages/
 | **Oge Nzukọ** | Itinye ego otu ugboro, arịrịọ onye na-ebuga ngwa ngwa, nkwụghachi mgbe emechara |
 | **Na-agagharị** | Ọdịnaya a na-akwụ ụgwọ kwa akara n'elu SSE |
 | **Chaji** | Ịkwụ ụgwọ echekwara ma ọ bụ nke doro anya dịka arịrịọ HTTP si dị (usoro 402) |
-| **Ịkwụ Ụgwọ Na-enweghị Ntugharị** | Adreesị T nwere mgbochi replay kwa-ihe ịma aka + iwu nchekwa |
-| **Akaụntụ dị iche iche** | Mgbanwe akaụntụ ZIP-32 , nnyefe akaụntụ n'ofe, nguzozi akaụntụ kwa akaụntụ |
+| **Ịkwụ Ụgwọ doro anya** | Adreesị T nwere mgbochi replay kwa-ihe ịma aka + iwu nchekwa |
+| **Akaụntụ dị iche iche** | Mgbanwe akaụntụ ZIP-32, nnyefe akaụntụ n'ofe, nguzozi akaụntụ kwa akaụntụ |
 | **Akpa CLI** | Zipu, chebe, nyefe, nguzozi ---niile, whoami, ịkwụ ụgwọ akpaaka |
-| **SDK abụọ** | Ụdị edemede na nchara |
+| **SDK abụọ** | TypeScript na nchara |
 | **Dabere na Nkọwapụta** | Ihe ịma aka HMAC-SHA256, njehie RFC 9457, `/.well-known/payment` nchọpụta |
 
 ---

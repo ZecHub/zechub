@@ -147,8 +147,8 @@ Ka gburugburu iwu na-eme ka ụwa sie ike, ebe mpaghara dịka EU na-enyocha mgb
 | atụmatụ | Nkọwa |
 |---|---|
 | **Ikpo okwu** | ShapeShift DAO (nke enweghị ike ịgbanwe agbanwe, nke mepere emepe) |
-| **Ọchịchị** | Ndị ji akara FOX |
-| **Zcash Support** | Full ZEC trading with shielded transaction support |
+| **Ọchịchị** | Ndị ji akara ngosi FOX |
+| **Zcash ** | Azụmaahịa ZEC zuru oke na nkwado azụmahịa echekwara |
 | **Achọrọ KYC** | No |
 | **Nchedo** | Enweghị nchekwa (ndị ọrụ na-ejide igodo nke ha) |
 | **Mgbanwe Agbụ Ogbenye** | BTC, ETH, Arbitrum, Cosmos, na ndị ọzọ |

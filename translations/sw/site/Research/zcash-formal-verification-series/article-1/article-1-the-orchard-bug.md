@@ -114,7 +114,7 @@ Historia ya Zcash yenyewe inaonyesha muundo:
 | Mdudu (mwaka) | Chanzo | Inaweza kugunduliwa? |
 |---|---|---|
 | Dosari ya ahadi ya Zerocash (2016, kabla ya uzinduzi) | Vipimo (hash iliyokatwa ilivunja sifa ya kufunga) | Haigunduliki |
-| Kasoro ya uthabiti katika usanidi unaoaminika (2018) | Vipimo (kosa katika karatasi ya zk-SNARK ) | Haigunduliki |
+| Kasoro ya uthabiti katika usanidi unaoaminika (2018) | Vipimo (kosa katika karatasi ya zk-SNARK) | Haigunduliki |
 | Mgongano wa hoja ya mfumo wa kuthibitisha (2025) | Vipimo (hundi isiyopatikana katika mfumo wa uthibitisho) | Inaweza kugunduliwa |
 | Hitilafu ya uthibitishaji wa kikundi kidogo cha mkunjo (2016) | Utekelezaji (ukaguzi wa kikundi kidogo unaokosekana) | Inaweza kugunduliwa |
 | **Orchard (2026)** | **Vipimo (mzunguko)** | **Haigunduliki** |
@@ -167,7 +167,7 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 | **Utulivu** | Dhamana kwamba taarifa za kweli pekee ndizo zinaweza kutoa uthibitisho halali |
 | **Pengo la utimamu** | Kizuizi kinachokosekana kinachoruhusu taarifa za uongo kupita |
 | **Imebanwa kidogo** | Mzunguko usio na hali iliyohitajika, mzizi wa mdudu wa Orchard |
-| **Inaonekana / Haionekani** | Kama unyonyaji ungeacha ushahidi katika daftari la umma |
+| **Inaonekana / Haionekani** | Kama unyonyaji ungeacha ushahidi katika ledger la umma |
 
 ---
 

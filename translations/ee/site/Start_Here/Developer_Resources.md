@@ -15,7 +15,7 @@ The stack changed a great deal in 2026. zcashd, si nɔ network la dzi kpɔm le e
 |:--|:--|:--|
 | Node blibo | Zebra alo Zakura | [Zebra ƒe Agbalẽa](https://zebra.zfnd.org/), [zakura.com dzi](https://zakura.com/) |
 | Blibo node gakotoku | Zallet, le beta me | [Zallet ƒe Agbalẽa](https://zcash.github.io/zallet/) |
-| Light wallet server | Zaino or lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Kekeli gakotoku ƒe dɔwɔƒe | Zaino alo lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
 | Gakotoku ƒe agbalẽdzraɖoƒewo | librustzcash ƒe aɖakawo | [librustzcash](https://github.com/zcash/librustzcash) |
 | Asitelefon dzi | Android kple iOS SDKwo | [Android dzi](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
 | Nusiwo wogblɔ tso eŋu | Protocol spec kple ZIPwo | [zips.z.ga si wotsɔna xɔa gae](https://zips.z.cash) |

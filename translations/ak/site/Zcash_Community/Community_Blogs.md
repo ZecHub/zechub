@@ -15,7 +15,7 @@ Emu bi a ɛreyɛ adwuma no ni:
 | Thumbs’ Nsɛm a Wɔayɛ no Foforo             | Abɔde a nkwa wom ho nhyehyɛe foforo ne nhumu a wɔde ma daa                   | [Nsrahwɛ ->](https://thumbsup.substack.com) |
 | roomatemusing a wɔde di agoru              | Musings ne mpɔtam hɔ nsɛm                            | [Nsrahwɛ ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog a ɛwɔ hɔ              | Technical blog twee adwene sii Zcash nkɔso ne nnwinnade so    | [Nsrahwɛ ->](https://blog.nerdbank.net/) |
-| ZecMec na ɔkyerɛwee                     | Nsɛm Zcash-focused wɔ Medium so                         | [Nsrahwɛ ->](https://zecmec21.medium.com/) |
+| ZecMec                     | Nsɛm Zcash-focused wɔ Medium so                         | [Nsrahwɛ ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter na ɔkyerɛwee             | Nsɛm a emu dɔ ne nsɛmma nhoma                         | [Nsrahwɛ ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV) na ɔde ne nsa kyerɛɛ ne so     | Nsɛmbisa a ɛkorɔn ne emu nsɛm a ɛfa kokoam nsɛm ho           | [Nsrahwɛ ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles a wɔde kyerɛw nsɛm                  | Adebɔ ne mpɔtam hɔfo a wɔde Zcash nneɛma di dwuma              | [Nsrahwɛ ->](https://free2z.cash/sqribbles) |

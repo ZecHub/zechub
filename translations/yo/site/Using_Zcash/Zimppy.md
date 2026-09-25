@@ -69,10 +69,10 @@ Fun awọn aṣoju AI ti n ṣakoso ṣiṣan iṣẹ ifura, iwadii ofin, ibeere
 | Ohun ìní | Àwọn ẹ̀wọ̀n gbogbogbòò (USDC, ETH) | A fi ààbò bo Zimpy | Zippy Transparent |
 |---|---|---|---|
 | **Oluranṣẹ** | A le ri | Ti fi àkọpamọ́ | A le ri |
-| **Receiver** | Visible | Encrypted | Per-challenge (unlinkable) |
+| **Olùgbà** | A le ri | Ti fi àkọpamọ́ | Ìpèníjà kọ̀ọ̀kan (a kò lè so pọ̀ mọ́ra) |
 | **Iye** | A le ri | Ti fi àkọpamọ́ | A le ri |
-| **Memo** | Visible | Encrypted | N/A |
-| **Ààbò Àtúnṣe** | Kò sí | Ìsopọ̀ àkọsílẹ̀ | Àdírẹ́sì T fún ìpèníjà kọ̀ọ̀kan |
+| **Ìrántí** | A le ri | Ti fi àkọpamọ́ | N/A |
+| **Ààbò Àtúnṣe** | Kò sí | Ìsopọ̀mọ́ àkọsílẹ̀ | Àdírẹ́sì T fún ìpèníjà kọ̀ọ̀kan |
 | **Àpẹẹrẹ Lilo Iṣẹ** | A le sopọ̀ mọ́ | Ikọkọ | A kò le sopọ̀ mọ́ (àdírẹ́sì tuntun) |
 
 ### Ìṣòro Àìlèfòye-wí, Tí Àwọn Iṣẹ́ Tó Ń Ṣẹ̀ Láàárín Èèyàn Máa Ń Yanjú
@@ -477,12 +477,12 @@ packages/
 | Ẹ̀yà ara | Àpèjúwe |
 |---|---|
 | **Àwọn Àkókò** | Idogo lẹẹkan, awọn ibeere fun onigbese lẹsẹkẹsẹ, agbapada ni pipade |
-| **Streaming** | Pay-per-token metered content over SSE |
+| **Ṣíṣànwọle** | Akoonu ti a wọn fun isanwo-fun-ami lori SSE |
 | **Gbigba agbara** | Isanwo ti a daabobo tabi ti o han gbangba fun ibeere HTTP (402 flow) |
 | **Awọn isanwo ti o han gbangba** | Àwọn àdírẹ́sì T pẹ̀lú ìdènà àtúnṣe fún ìpèníjà kọ̀ọ̀kan + àṣẹ ààbò |
-| **Àkọọ́lẹ̀ Onírúurú** | Ìyípo àkọọ́lẹ̀ ZIP-32 , àwọn ìgbesẹ̀ àkọọ́lẹ̀-àgbékalẹ̀, àwọn ìwọ̀n àkọọ́lẹ̀-àgbéka .. |
+| **Àkọọ́lẹ̀ Onírúurú** | Ìyípo àkọọ́lẹ̀ ZIP-32, àwọn ìgbesẹ̀ àkọọ́lẹ̀-àgbékalẹ̀, àwọn ìwọ̀n àkọọ́lẹ̀-àgbéka .. |
 | **Àpò CLI** | Firanṣẹ, daabobo, gbe, iwọntunwọnsi --gbogbo, whoami, sanwo laifọwọyi |
-| **SDK Meji** | Iru-kikọ ati ipata |
+| **SDK Meji** | TypeScript ati ipata |
 | **Ó bá ìlànà pàtó mu** | Àwọn ìpèníjà HMAC-SHA256, àwọn àṣìṣe RFC 9457, `/.well-known/payment` àwárí |
 
 ---

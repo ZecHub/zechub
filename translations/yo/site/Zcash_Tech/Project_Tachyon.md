@@ -101,7 +101,7 @@ Tachyon jẹ **awuye, kii ṣe ẹya ti a firanṣẹ**. O tẹjade ni Oṣu K�
 | Ìmúṣọ̀kan àìmọ̀ | Gbigba data pq ti apamọwọ nilo laisi fifi alaye ti a beere fun han |
 | Dáta tó ń gbé ẹ̀rí (PCD) | Dátà tí ó ń rìn pẹ̀lú ẹ̀rí pé ó péye, kí a lè so àwọn ẹ̀rí pọ̀ kí a sì fún wọn ní ìfúnpọ̀ |
 | Àpapọ̀ ìṣòwò tí a dáàbò bo | Ọ̀nà tí Tachyon gbà ń kó àwọn ìyípadà ìpínlẹ̀ tí a dáàbò bò jọ, ó ń yí bí wọ́n ṣe ń bá wọn sọ̀rọ̀ àti bí wọ́n ṣe ń fọwọ́ sí i padà |
-| Àìṣeédámọ̀ ìwé àkọsílẹ̀ | A kò le sọ ohun ìní tí ó dáàbò bo àwọn ìṣòwò yàtọ̀ sí ara wọn |
+| Àìṣeédámọ̀ ledger | A kò le sọ ohun ìní tí ó dáàbò bo àwọn ìṣòwò yàtọ̀ sí ara wọn |
 
 <br/>
 

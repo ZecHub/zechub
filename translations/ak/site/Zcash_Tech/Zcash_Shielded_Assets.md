@@ -131,7 +131,7 @@ Saa nsusuwa yi di nhyehyeɛ a wɔadi so no akyi. [Zcash Ntɔsoɔ a wɔhyɛ ho b�
 | Gyidi a wɔtaa nya | Nea ɛte ankasa |
 | --- | --- |
 | "ZSAs no wɔ Zcash so nnɛ." | Wɔnnyɛ saa. Wɔayɛ nhyehyɛe sɛ wɔde ZSA bedi dwuma wɔ Network Upgrade 7 (NU7) mu na wɔda so ara wɔ nhwehwɛmu ne sɔhwɛ mu. |
-| "ZSA brings smart contracts to Zcash." | ZSA specifies the issuance, transfer and burn of assets. It is not a general-purpose programmable contract layer. |
+| "ZSA de smart contracts brɛ Zcash." | ZSA kyerɛ sɛnea wɔde agyapade bɛma, wɔde bɛma ne sɛnea wɔhyew. Ɛnyɛ apam a wɔde yɛ nhyehyɛe a wɔde di dwuma wɔ ɔkwan a ɛkɔ akyiri so. |
 | "Wobɛtumi atua ZSA ka wɔ ZSA token no ankasa mu." | Wɔtua sika no wɔ ZEC. |
 | "Sɛ wɔabɔ ho ban a, ɛsɛ sɛ token supply no nso yɛ kokoam." | ZIP 227 ma wɔhyɛ da ma nneɛma a wɔde ma no da adi pefee, enti wobetumi adi agyapade biara a wɔde ma no akyi wɔ baguam. Sika a aka ne sika a wɔde kɔma afoforo no tra hɔ kokoam; nea wɔde ma no nyɛ saa. |
 | "ZIP 230 yɛ mprempren version 6 asɛmdi nhyehyɛe." | Wɔayi ZIP 230 no afi hɔ. Mprempren wɔde ZIP 229 na ɛkyerɛkyerɛ Version 6 no mu. |

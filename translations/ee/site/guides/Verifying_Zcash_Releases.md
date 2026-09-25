@@ -430,7 +430,7 @@ A signature failure is more serious than a checksum failure. A checksum mismatch
 | **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore ƒe agbalẽdzraɖoƒe | Safui aɖeke meli o — CI ƒe dzesidenu to GitHub OIDC dzi |
 | **Zallet** | `github.com/zcash/zallet/releases` | GPG si woɖe ɖe vovo `.asc`, SLSA ƒe dzɔtsoƒe, SBOM | `apt.z.cash/zodl.asc` - gɔmedzeƒe `0338 34DD…58E2 6AB1`, asidede subkey dzi `1FE9 9324…23F0 617F` |
 | **zcashd** | *xɔ dzudzɔ* | — | Wotɔ ɖe block 3,417,100 dzi le 2026-07-18 dzi. Mègaɖoe ɖe wò kɔmpiuta dzi o. |
-| **Zodl** (si woyɔna tsã be Zashi) | Dɔdamɔnudzraƒe / Google Play; `zodl-inc` le GitHub dzi | Fiasewo ƒe asidede agbalẽ te; standalone Android binaries GPG-de asi ete | ZODL safui ɖe tɔtrɔ ƒe nyagbɔgblɔ ɖesiaɖe me |
+| **Zodl** (si woyɔna tsã be Zashi) | Dɔdamɔnudzraƒe / Google Play; `zodl-inc` le GitHub | Fiasewo ƒe asidede agbalẽ te; standalone Android binaries GPG-de asi ete | ZODL safui ɖe tɔtrɔ ƒe nyagbɔgblɔ ɖesiaɖe me |
 
 > **Name note:** Zashi was rebranded to **Zodl** in 2026  first on the App Store, then on Google Play. Kpekpeɖeŋu xoxo siwo ku ɖe "Zashi" ŋu la ɖɔ gaɖaka ƒe dzidzime ɖeka ma ke.
 

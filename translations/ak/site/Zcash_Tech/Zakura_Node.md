@@ -97,7 +97,7 @@ Wɔ wɔn a wɔde di dwuma no fam no, nsakrae a wotumi hu sen biara ne bere a wɔ
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
-| Language | C++ (forked from Bitcoin) | Rust | Rust (forked from Zebra) |
+| Kasa | C++ (wɔabɔ no forked fi Bitcoin) | Rust | Rust (wɔde fork a efi Zebra) |
 | Gyinabea | Wɔagyae | Active | Ɛyɛ adwuma (v1.0.0, Ɔpɛpɔn 2026) |
 | Sync ahoɔhare | Mfitiaseɛ | ~1× | ~5× ntɛmntɛm |
 | Block a wɔde twitwa nneɛma | Dabi | Dabi | Yiw |

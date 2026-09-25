@@ -121,20 +121,20 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
   (.data.transactionsByAccount[] |
     [.txid, .height, .time, .value, .fee,
      ([.notes[].memo, .outputs[].memo] | map(select(. != null and . != "")) | unique | join(" | "))])
-  | @csv' history.json > history.csv
+  | @csv' ŋutinya.json > ŋutinya.csv
 ```
 
 ### Nu siwo me woŋlɔ wo ɖo la xexlẽ
 
 | Gbadzaƒe | Gɔmeɖeɖe |
 |---|---|
-| `value` | Net change to the account in ZEC, fee included. Negative for sends. |
-| `fee` | Fee in ZEC. On payments you received, the sender paid it and it isn't in `value`. |
+| `value` | Net tɔtrɔ le akɔnta me le ZEC, fe hã le eme. Negative na dɔdɔwo. |
+| `fee` | Fetu le ZEC. Le fe siwo nèxɔ me la, ame si ɖoe ɖa la xee eye mele eme o `value`. |
 | `time` | Xlẽ ɣeyiɣi le UTC me, ɣeyiɣi ƒe didime ƒe dzesi manɔmee |
 | `notes` | Nusi akɔntabubua xɔ le asitsatsa sia me, si me tɔtrɔ hã le. Memo siwo woɖo ɖe wò la le afisia. Adrɛs aɖeke mele nya siwo woŋlɔna le gaglãgbe la ŋu o. |
 | `spends` | Akɔntabubua ŋutɔ de dzesii be asitsatsa sia wu enu |
 | `outputs` | Nusi asitsatsa la ɖo ɖa: nusianu si woɖe ɖe go le gaglãgbe, tsɔ kpe ɖe fexexe si wokpɔ ta na adrɛs bubuwo kple woƒe nuŋlɔɖiwo ŋu |
-| `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
+| `pool` | 0 si me kɔ, 1 Sapling, 2 Orchard, 3 Ironwood |
 | `scope` | 0 gotagome (fexexe aɖe le), 1 ememe (trɔtrɔ) |
 
 Export Transactions, Memos and Notes le account menu hã li na Zkool app la gake esiwo nye table dumps: zatoshis me ga homewo, Unix time stamp kple memos siwo le file bubu aɖe me.

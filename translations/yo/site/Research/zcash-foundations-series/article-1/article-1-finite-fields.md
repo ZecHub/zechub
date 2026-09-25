@@ -143,7 +143,7 @@ Tá a bá wo ohun tó ṣẹlẹ̀, a máa rí i pé gbogbo ẹjọ́ náà ló w�
 |---|---|
 | **Ipari** | Kọ̀ǹpútà máa ń kó gbogbo ohun tó wà nínú rẹ̀ pamọ́ ní pàtó; kò ní yípo, kò ní kún, kò ní ní ìfọ́jú omi |
 | **Ìparí-yíká** | Ó pa "iwọn" rẹ́, nítorí náà, ìníyelórí kan kò ní í sọ ohunkóhun nípa bí a ṣe ṣe é |
-| **All four operations work** | Cryptographic recipes (keys, commitments, proofs) need genuine algebra, not just counting |
+| **Gbogbo iṣẹ́ mẹ́rẹ̀ẹ̀rin ló ń ṣiṣẹ́** | Àwọn ìlànà ìkọ̀kọ̀ (àwọn kọ́kọ́rọ́, àwọn ìlérí, àwọn ẹ̀rí) nílò àljebra gidi, kìí ṣe kíkà nìkan |
 | **Iwọn ti a le yan** | Yan prime 255-bit tàbí 381-bit kan, pápá náà sì ní àwọn èròjà tó pọ̀ ju àwọn átọ̀mù tó wà nínú àgbáyé tó ṣeé rí lọ; àbámọ̀ kò ní ìrètí rárá |
 | **Gẹ́gẹ́ àti èyí tí a pinnu** | Àwọn ẹgbẹ́ méjì tí wọ́n jẹ́ olóòótọ́ tí wọ́n ń ṣe ìṣirò ohun kan náà máa ń rí àwọn àbájáde kan náà gbà, èyí tí ẹ̀rí fi hàn pé wọ́n ń ṣe é |
 

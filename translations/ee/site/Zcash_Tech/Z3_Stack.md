@@ -51,7 +51,7 @@ Eŋkɔa nye nu gbagbewo ƒe ɖoɖowɔɖi me nya kpui  Zebra, Zaino, Zallet  togb
                         light wallets / explorers
 ```
 
-| Kpeɖeŋutɔ | Akpa si wòwɔna le Z3 me | Si hiã? |
+| Kpeɖeŋutɔ | Akpa si wòwɔna le Z3 | Si hiã? |
 | --- | --- | --- |
 | **Zebra** | Syncs eye wòɖo kpe kɔsɔkɔsɔ, nyatoƒoetoto, JSON-RPC, lãmesẽ nuwuƒe dzi | Ɛ̃ |
 | **Zallet** | Gakotoku si me node blibo le. Embeds Zaino agbalẽdzraɖoƒewo. Doa ka kple Zebra JSON-RPC tẽ. Me **meyɔa** Zaino nugoe si le eɖokui si o | Ɛ̃ |
@@ -113,7 +113,7 @@ Le Compose-ƒa dzi la, ŋkɔwoe wotsɔna ɖoa dɔwo ŋu (`zebra`, `zaino`, `zall
 | Ɣlidodo | Nusi wòlé ɖe asi | Ðe megbe nɛa? |
 | --- | --- | --- |
 | `z3-<network>-chain` | Zebra kɔsɔkɔsɔ ƒe nɔnɔme (~ 300 GB mainnet) | Tiatia — woate ŋu agbugbɔ awɔ ɖeka |
-| `z3-<network>-zallet` | Gakotoku ƒe nyatakakadzraɖoƒe si wotsɔ nya ɣaɣlawo ŋlɔ **kple** ƒe si wòxɔ ƒe dzesi si ʋua enu | **Ẽ — esia koe nye volume si wòle be woawɔ backup** |
+| `z3-<network>-zallet` | Gakotoku ƒe nyatakakadzraɖoƒe si wotsɔ nya ɣaɣlawo ŋlɔ **kple** ƒe si wòxɔ si ʋua enu | **Ẽ — esia koe nye volume si wòle be woawɔ backup** |
 | `z3-<network>-zaino` | Indexer ƒe nɔnɔme (kple indexer ƒe nɔnɔmetata ɖeɖeko) | Optional — woate ŋu agbugbɔ atu |
 | `z3-<network>-cookie` | Zebra RPC ƒe kuki | Ao — wogbugbɔ wo dzi |
 

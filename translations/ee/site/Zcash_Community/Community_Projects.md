@@ -291,7 +291,7 @@ Zcash-native DEX si tsɔa ZEC ƒe akpoxɔnu dea Web3 DeFi dzi to WalletConnect d
 Decred ƒe gaɖɔɖo si dzi womegblẽna o, eye wòxɔa Zcash. 
 [Tsaɖiɖi](https://dex.decred.org)
 
-### Gakotoku Brave
+### Brave Wallet
 Browser wallet si dzi Zcash le. 
 [Tsaɖiɖi](https://brave.com/wallet/)
 

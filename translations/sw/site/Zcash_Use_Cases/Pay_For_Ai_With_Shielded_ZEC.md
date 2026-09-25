@@ -122,7 +122,7 @@ Hii ndiyo sehemu ambayo viongozi wengi hupuuza.
 
 | Kinachotokea | Huduma inajifunza nini | Kinachoendelea kwenye mnyororo |
 |---|---|---|
-| Browsing and prompting | Nothing. No account, no email | Nothing |
+| Kuvinjari na kushawishi | Hakuna. Hakuna akaunti, hakuna barua pepe | Hakuna |
 | Anwani ya amana imetolewa | Hakuna | Hakuna |
 | Unalipa **kutoka Sapling** | Anwani ya amana uliyotumia | Hakuna. Imefunikwa kwa ngao |
 | Unalipa **kutoka Ironwood** | Vile vile | **Kiasi na urefu wa kitalu** |

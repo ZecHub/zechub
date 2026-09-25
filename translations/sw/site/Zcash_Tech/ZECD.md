@@ -67,7 +67,7 @@ Sera ya faragha ni configurable kwa wito au kimataifa katika `[spend] privacy_po
 | Sera | Tabia |
 |--------|----------|
 | `AllowRevealedRecipients` (chaguo-msingi) | Vibali hutumwa kwa wapokeaji wazi; huonyesha kiasi na mpokeaji kwenye mnyororo |
-| `AllowRevealedAmounts` | Permits cross-pool sends (Sapling↔Orchard) but rejects transparent recipients |
+| `AllowRevealedAmounts` | Huruhusu kutuma mbegu za mtambuka (Sapling↔Orchard) lakini hukataa wapokeaji wazi |
 | `FullPrivacy` | Hutuma ujumbe ulio na kinga kamili ndani ya bwawa moja pekee; hukataa wapokeaji wa uwazi na bwawa la kuvuka |
 | `AllowFullyTransparent` | Pia inaruhusu t→t kutuma kunakofadhiliwa kutoka kwa UTXO zenye uwazi |
 
@@ -274,7 +274,7 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Bandari za chaguo-msingi
 
-| Mtandao | RPC ya ZECD | Zebra RPC (nyuma) | Afya |
+| Mtandao | RPC ZECD | Zebra RPC (nyuma) | Afya |
 |---------|----------|---------------------|--------|
 | Mtandao Mkuu | 8232 | 8234 | 9233 |
 | Mtandao wa Majaribio | 18232 | 18234 | 9233 |
@@ -288,7 +288,7 @@ zecd --datadir ./data init --restore --birthday 2500000
 | Jukumu | Nodi kamili + pochi | Kiashiria (kinachukua nafasi ya lightwalletd) | Seva ya pochi pekee |
 | Lugha | C++ | Kutu | Kutu |
 | Hali | Imeondolewa kwenye huduma | Inayotumika | Inayotumika (v0.5.0-rc3, Julai 2026) |
-| Default pool | Transparent | N/A | Orchard (shielded) |
+| Bwawa chaguo-msingi | Uwazi | N/A | Orchard (iliyofunikwa) |
 | Lahaja ya RPC | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
 | Inahitaji nodi kamili | Ndiyo (mimi mwenyewe) | Zebra au zcashd | Zebra |
 | Urejeshaji usio na uraia | No | N/A | Ndiyo (ya mbegu pekee) |

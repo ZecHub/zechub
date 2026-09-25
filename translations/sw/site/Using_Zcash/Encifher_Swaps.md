@@ -72,7 +72,7 @@ Kurudi kwenye ** encrypt.trade**, kwenda kwa ** Swap** Chagua ** eSOL / eUSDC ->
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-Injini ya **NEAR Intents** hushughulikia kiotomatiki uelekezaji wa mnyororo mtambuka - ikitoa **ZEC** moja kwa moja kwenye pochi yako ya Zodl ndani ya sekunde chache. 
+Injini ya **NEAR Intents** hushughulikia kiotomatiki uelekezaji wa mnyororo mtambuka - ikitoa **ZEC** moja kwa moja kwenye pochi yako Zodl ndani ya sekunde chache. 
 
 
 

@@ -133,7 +133,7 @@ A na-eji usoro ndị a eme ihe n'ụzọ kwekọrọ na nke mbụ. [Zcash Improv
 | "A na-eme ZSAs na Zcash taa." | Ha abụghị. A na-ahazi ZSA ka ọ banye na Network Upgrade 7 (NU7) ma a ka na-enyocha ma na-anwale ya. |
 | "ZSA na-eweta nkwekọrịta amamihe nye Zcash." | ZSA na-akọwapụta mwepụta, nnyefe na ọkụ nke ihe onwunwe. Ọ bụghị nkwekọrịta a na-eme atụmatụ maka ebumnuche izugbe. |
 | "Ị nwere ike ịkwụ ụgwọ ZSA na akara ZSA n'onwe ya." | A na-akwụ ụgwọ na ZEC. |
-| "If it is shielded, the token supply must be secret too." | ZIP 227 makes issuance transparent on purpose, so the supply of each asset can be tracked publicly. Balances and transfers stay private; the supply does not. |
+| "Ọ bụrụ na e chebere ya, ọkọnọ ihe nrịbama ahụ aghaghị ịbụ ihe nzuzo." | ZIP 227 na-eme ka mwepụta ahụ doo anya n'ebumnobi, ya mere enwere ike ịchọpụta nnyefe nke ihe onwunwe ọ bụla n'ihu ọha. Nha na nnyefe na-anọgide na nzuzo; nnyefe ahụ anaghị adị. |
 | "ZIP 230 bụ usoro azụmahịa nke ụdị 6 ugbu a." | A napụrụ ZIP 230. A na-akọwa ụdị nke 6 ugbu a site na ZIP 229. |
 
 ---

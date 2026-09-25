@@ -134,7 +134,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `notes` | Akaunti ilipokea kiasi gani katika muamala huu, ikijumuisha chenji. Memo zilizotumwa kwako ziko hapa. Maingizo ya uwazi hayana anwani. |
 | `spends` | Akaunti yenyewe inabainisha kuwa muamala huu ulitumia |
 | `outputs` | Muamala ulituma nini: kila matokeo ya uwazi, pamoja na malipo yaliyolindwa kwa anwani zingine zenye memo zao |
-| `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
+| `pool` | 0 inayong'aa, Miche 1 Sapling, 2 Orchard, 3 Ironwood |
 | `scope` | 0 ya nje (malipo ya ndani), 1 ya ndani (chenji) |
 
 Zkool programu pia ina Export Transactions, Memos na Notes katika orodha ya akaunti, lakini wale ni mbichi meza Dumps: kiasi katika zatoshis, Unix timestamps, na memos katika faili tofauti.

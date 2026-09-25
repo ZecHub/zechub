@@ -113,8 +113,8 @@ Zcash ti lo awọn hash oriṣiriṣi kọja awọn apẹrẹ rẹ, ọkọọka
 | Apẹrẹ | Àwọn ìṣẹ́ tí a lò | Nibo |
 |---|---|---|
 | **Sprout** (àkọ́kọ́) | **SHA-256** | Ṣe akiyesi awọn ileri ati igi naa |
-| **Sapling** | ** Pedersen hashes ***, pẹlu ** BLAKE2 *** | Pedersen fún àwọn ìlérí àkọsílẹ̀ àti igi Merkle; BLAKE2 fún ìyọrísí pàtàkì àti àwọn ohun tí kò ní ìtumọ̀ |
-| **Orchard** (current) | **Sinsemilla**, plus **Poseidon** | Sinsemilla for note commitments and the Merkle tree; Poseidon for the nullifier, all designed for arithmetic circuits |
+| **Sapling** | ** Pedersen hashes ***, pẹlu **BLAKE2** | Pedersen fún àwọn ìlérí àkọsílẹ̀ àti igi Merkle; BLAKE2 fún ìyọrísí pàtàkì àti àwọn ohun tí kò ní ìtumọ̀ |
+| **Orchard** (lọ́wọ́lọ́wọ́) | **Sinsemilla**, pẹlu **Poseidon** | Sinsemilla fún àwọn ìlérí àkọsílẹ̀ àti igi Merkle; Poseidon fún àwọn ohun tí ó ń parọ́, gbogbo wọn ni a ṣe fún àwọn àyíká ìṣirò |
 
 The names to recognize are **Pedersen** and **Sinsemilla** (commitment-style hashes built from curve points, so they inherit the "adds up" superpower and prove cheaply) and **Poseidon** (a field-arithmetic hash purpose-built for zero-knowledge circuits). When Article 0 said a note's contents are sealed into a commitment, *this* is the machinery doing the sealing.
 
@@ -142,7 +142,7 @@ A ṣe simplified lati jẹ ki awọn nkan mọ. `v` àti `r` are encoded and wh
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Hash function** | Crushes any data into a short fixed-size fingerprint (digest) |
+| **Iṣẹ́ Hash** | Ó fọ́ gbogbo ìwífún sínú ìka ọwọ́ kúkúrú tí a ti yípadà (ìwé) |
 | **Ìròyìn** | Ìtẹ̀jáde ìtẹ̀jáde iṣẹ́ hash kan |
 | **Idilọwọ aworan iwaju** | Kò le yí ìṣàyẹ̀wò padà sí ìtẹ̀síwájú rẹ̀ (ọ̀nà kan ṣoṣo) |
 | **Idilọwọ ikọlu** | Kò le rí àwọn ìtẹ̀síwájú méjì pẹ̀lú ìṣàfihàn kan náà |

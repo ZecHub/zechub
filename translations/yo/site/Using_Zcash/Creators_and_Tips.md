@@ -26,7 +26,7 @@
 | **Ojú òpó wẹ́ẹ̀bù**       | [https://zcash.me/](https://zcash.me/) |
 | **Twitter**       | [@zcashme](https://x.com/zcashme) |
 | **Ìrísí Ìròyìn**| `zcash.me/[username]` |
-| **Status**        | Live (with features in development) |
+| **Ipo**        | Lóògbé (pẹ̀lú àwọn ẹ̀yà ara tí a ń ṣe àgbékalẹ̀) |
 
 ### Àwọn Ànímọ́ Pàtàkì Rẹ̀
 

@@ -49,11 +49,11 @@ NU5 tẹsiwaju awọn igbesoke Zcash ti iṣaaju: Overwinter, Sapling, Blossom, 
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's , tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
 | Orchard | Adágún adágún NU5 tí a fi ààbò ṣe, tí a kọ́ sórí ètò ìṣàfihàn Halo 2 |
 | Halo 2 | Ètò ìṣàfihàn lẹ́yìn Orchard tí kò nílò ètò ìgbẹ́kẹ̀lé |
 | Eto ti a gbẹkẹle | Ayẹyẹ ìgbà kan ṣoṣo tí ó ṣe àwọn àṣírí ìkọ̀kọ̀ adágún kan tí a sì gbọ́dọ̀ gbẹ́kẹ̀lé láti pa wọ́n run |
-| Àdírẹ́sì ìṣọ̀kan | Àdírẹ́sì kan ṣoṣo tó lè kó àwọn olùgbà jọ fún ju adágún kan lọ (ZIP 316) |
+| Unified address | Àdírẹ́sì kan ṣoṣo tó lè kó àwọn olùgbà jọ fún ju adágún kan lọ (ZIP 316) |
 | ID ẹka Consensus | Àmì ìdámọ̀ tí ó ń fi àmì sí àwọn òfin tí ìṣòwò kan jẹ́ ti |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè

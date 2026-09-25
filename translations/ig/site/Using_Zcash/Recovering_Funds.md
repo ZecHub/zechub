@@ -29,7 +29,7 @@ O nwere ike ịdị mkpa ka a kwaga ZEC ochie nke nwere ihe nchebe dịka akụk
 | Ego gị dị | Ụzọ njem | Ihe ị ga-eme |
 | --- | --- | --- |
 | **Sprout** | **Sprout → Sapling → Ironwood** | If you have `wallet.dat` ma ọ bụ igodo mmefu Sprout nkeonwe, nwaa ụzọ mgbake Argos dị ugbu a. Ọ bụrụ na Argos adịghị mma, jiri ụzọ sidecar ochie dị na ntuziaka ubi zuru oke. Sprout ga-ebu ụzọ daa na Sapling, wee gaa n'ihu gaa Ironwood. Ụzọ a na-ewe oge n'ihi NU7. |
-| **Sapling** | **Sapling → Ironwood** | Ọ dịghị mkpa ka e nwee ebe a ga-esi nwetaghachi Sprout . Jiri obere akpa ego dị ugbu a nke nwere ike ị nwetaghachi ma ọ bụ mefuo akaụntụ Sapling gị ma wuo azụmahịa Ironwood . Nkwado Ironwood naanị anaghị egosi nkwado mgbake legacy-Sapling . |
+| **Sapling** | **Sapling → Ironwood** | Ọ dịghị mkpa ka e nwee ebe a ga-esi nwetaghachi Sprout. Jiri obere akpa ego dị ugbu a nke nwere ike ị nwetaghachi ma ọ bụ mefuo akaụntụ Sapling gị ma wuo azụmahịa Ironwood. Nkwado Ironwood naanị anaghị egosi nkwado mgbake legacy-Sapling. |
 | **Orchard** | **Orchard → Ironwood** | Orchard bụ naanị ụzọ ọpụpụ. Jiri usoro mbugharị Orchard-site-Ironwood nke dị n'ime obere akpa ego dakọtara ugbu a. Lee [Ego e weghachitere na ọdọ mmiri Ironwood](#recovered-funds-and-the-ironwood-pool). |
 
 ### Usoro mkpebi ajụjụ ise
@@ -59,9 +59,9 @@ Maka ntụaka mbugharị zuru oke, gụnyere ụzọ mgbake zuru ezu, iwu, ụgw
 | Ị nwere | Malite ebe a |
 | --- | --- |
 | Okwu mkpụrụ ma ọ bụ **mkpụrụ ego mmefu nke na-abụghị nke Sprout** sitere na obere akpa ego dị ugbu a ma ọ bụ nke a na-elekọta n'oge na-adịbeghị anya, gụnyere ihe ochie YWallet Zcash | [Zkool](#fund-recovery-with-zkool) |
-| Naanị igodo nlele** | Zkool nwere ike ibubata igodo nlele akwadoro maka ohere ịgụ naanị, mana igodo nlele enweghị ike inye ikike maka mmefu mgbake. Chọta mkpụrụ ma ọ bụ igodo mmefu kwekọrọ. |
+| Naanị **viewing key ** | Zkool nwere ike ibubata igodo nlele akwadoro maka ohere ịgụ naanị, mana viewing key enweghị ike inye ikike maka mmefu mgbake. Chọta mkpụrụ ma ọ bụ igodo mmefu kwekọrọ. |
 | Mkpụrụ nke mkpụrụ okwu iri abụọ na anọ nke **ZecWallet Lite** | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Lite ma ọ bụ zcashd `wallet.dat`, ma ọ bụ isi ihe eji emefu Sapling / Sprout | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Dịka ọ dị na Septemba 18, 2026, v1.3.0 dị ugbu a ma bụrụ nke a na-ahọrọ; jiri v1.2.0 ma ọ bụ karịa maka `wallet.dat` na mgbake Sprout . |
+| ZecWallet Lite ma ọ bụ zcashd `wallet.dat`, ma ọ bụ isi ihe eji emefu Sapling / Sprout | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Dịka ọ dị na Septemba 18, 2026, v1.3.0 dị ugbu a ma bụrụ nke a na-ahọrọ; jiri v1.2.0 ma ọ bụ karịa maka `wallet.dat` na mgbake Sprout. |
 | Ihe Sprout nke Argos na-enweghị ike ijikwa, ma ọ bụ mgbake ebe ịchọrọ ka ihe ndị dị na ya dị n'okpuru njikwa nke gị | Jiri ụzọ sidecar ochie dị na [ntuziaka ubi zuru oke](/research/zec-pool-migration/view). |
 | Enweghị mkpụrụ ọrụ ma ọ bụ igodo mmefu, mana ngwaọrụ akpọchiri akpọchi, paswọọdụ echefuru echefu, ma ọ bụ diski dara ada | [Mgbake ọkachamara](#professional-recovery-when-you-do-not-have-the-seed)E zigarala onye kpọtụrụ gị n'amaghị gị ma ọ bụ onye na-arịọ gị ka i tinye ego n'ọrụ. |
 

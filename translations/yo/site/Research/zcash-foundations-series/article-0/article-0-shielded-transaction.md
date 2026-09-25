@@ -40,7 +40,7 @@ Before anything else, clear up a common misconception: **Zcash is not "the priva
 | Ìpamọ́ | Gbogbo eniyan, gẹgẹ bi Bitcoin | Ikọkọ |
 | Àwọn àdírẹ́sì bẹ̀rẹ̀ pẹ̀lú | `t...` | `z...` or `u...` |
 | Olùránṣẹ́ / olùgbà / iye | **Ó hàn** sí gbogbo ènìyàn | **Fipamọ́** kúrò lọ́wọ́ gbogbo ènìyàn |
-| Ìmọ̀-ẹ̀rọ ìpìlẹ̀ | Ìwé àkọsílẹ̀ gbogbogbòò ti ara Bitcoin | Àwọn ìlérí ìkọ̀kọ̀ + ẹ̀rí àìmọ̀ |
+| Ìmọ̀-ẹ̀rọ ìpìlẹ̀ | ledger gbogbogbòò ti ara Bitcoin | Àwọn ìlérí ìkọ̀kọ̀ + ẹ̀rí àìmọ̀ |
 
 Owó pàápàá lè kọjá ààlà láàárín wọn: fífi owó * sínú* ayé tí wọ́n ń dáàbò bò ni a ń pè ní * dídáàbò bo, kíkó wọn padà síbi tó wà ni * ṣíṣídí ààbò kúrò.
 
@@ -75,7 +75,7 @@ Ní báyìí, ẹ jẹ́ ká pe àwọn ohun ìṣeré náà ní orúkọ wọn g
 | Nínú ìtàn náà | Àkókò Zcash gidi | Ohun tí ó jẹ́ gan-an |
 |---|---|---|
 | Àwọn ohun tó wà nínú àpòòwé náà (iye + ẹni tó ni ín + àṣírí kan) | **Àkíyèsí** | “Owó ẹyọ ara ẹni”: iye owó tí ó jẹ́ ti ẹnìkan |
-| The sealed, opaque envelope on the board | **Note commitment** | A cryptographic seal proving an envelope exists while hiding what's inside |
+| Àpò ìwé tí a ti dì, tí kò sì ní ìbòjú tí ó wà lórí pátákó náà | **Ṣe akiyesi ifaramo** | Èdìdì ìkọ̀kọ̀ kan tí ó ń fi hàn pé àpòòwé kan wà nígbà tí ó ń fi ohun tí ó wà nínú rẹ̀ pamọ́ |
 | Pátákó ìwé ìròyìn fúnra rẹ̀ | **Ṣe akiyesi igi ifaramo** | Àkọsílẹ̀ àfikún-nìkan ti *gbogbo àkọsílẹ̀ tí a tíì ṣẹ̀dá* |
 | Àmì òfo nínú àpótí "sókò" | **Ohun tí kò ní jẹ́ kí ó bàjẹ́** | Àmì àrà ọ̀tọ̀ kan tí ó túmọ̀ sí "a ti ná owó yìí tán báyìí" |
 | Ìdán "lẹ́yìn aṣọ ìkélé" | **Ẹ̀rí ìmọ̀ òdo** | Ẹ̀rí kan pé gbogbo owó tí a ná náà jẹ́ òótọ́, kò sì fi hàn pé kò sí nínú rẹ̀ |
@@ -192,7 +192,7 @@ Gbogbo "a ó padà wá sí èyí" lókè yìí jẹ́ ìjápọ̀ kan.
 | Ìròyìn dídùn láti inú àpilẹ̀kọ yìí | Ibi tí a ti ṣe ìpinnu rẹ̀ |
 |---|---|
 | Báwo ni àpò ìwé tí a fi èdìdì dì ṣe lè fara pamọ́ *àti* tí kò ṣeé bàjẹ́? | Àpilẹ̀kọ 3: àwọn ìlérí |
-| Where do the keys and secret recipes come from? | Articles 1 & 2: fields and curves |
+| Nibo ni awọn bọtini ati awọn ilana ikoko ti wa? | Àpilẹ̀kọ 1 àti 2: àwọn pápá àti àwọn ìlà |
 | Kí ni *ìyẹn* "àwòrán náà," gan-an? | Àpilẹ̀kọ 4: Àwọn igi Merkle |
 | Báwo lo ṣe lè fi hàn pé ohun kan jẹ́ òótọ́ láìsí pé o kò fi ohunkóhun hàn? | Àpilẹ̀kọ 5: Àwọn ẹ̀rí àìmọ̀ |
 | Báwo ni gbogbo àwọn nǹkan márùn-ún ṣe ń para pọ̀ ní Zcash? | Àpilẹ̀kọ 6: ìlànà tí a dáàbò bò |
@@ -221,7 +221,7 @@ Gbogbo "a ó padà wá sí èyí" lókè yìí jẹ́ ìjápọ̀ kan.
 | **Ohun tí kò ní jẹ́ kí ó bàjẹ́** | Àmì "ìnáwó" àrà ọ̀tọ̀ tí a tẹ̀ jáde nígbà tí a bá lo àkọsílẹ̀ kan, èyí tí ó ń dènà ìnáwó méjì |
 | **Ẹ̀rí ìmọ̀ òdo** | Ẹ̀rí pé gbólóhùn kan jẹ́ òótọ́ nígbà tí kò fi ohunkóhun tí ó ju òótọ́ rẹ̀ lọ hàn |
 | **Ṣíṣe àbò / ṣíṣe àbò** | Gbigbe owo sinu / jade kuro ninu agbaye aabo ikọkọ |
-| **Kọ́kọ́rọ́ wíwo** | Kọ́kọ́rọ́ tí ó jẹ́ kí ẹni tó ni ilé náà rí àti ka àwọn àkọsílẹ̀ tí a kọ sí wọn |
+| **Viewing key** | Kọ́kọ́rọ́ tí ó jẹ́ kí ẹni tó ni ilé náà rí àti ka àwọn àkọsílẹ̀ tí a kọ sí wọn |
 
 ---
 

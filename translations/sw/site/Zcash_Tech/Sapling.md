@@ -42,9 +42,9 @@ Sapling followed Overwinter, the June 2018 upgrade that prepared the network's u
 |---|---|
 | Muamala uliolindwa | Muamala wa kibinafsi Zcash unaoficha mtumaji, mpokeaji, na kiasi. |
 | Sprout | Itifaki ya awali iliyolindwa Zcash ilizinduliwa na, polepole na nzito kuliko Sapling. |
-| Saketi za Matumizi na Toa | Saketi mbili mpya zinazothibitisha Sapling zilizochukua nafasi ya saketi moja Sprout's ya JoinSplit. |
+| Saketi za Matumizi na Toa | Saketi mbili mpya zinazothibitisha Sapling zilizochukua nafasi ya saketi moja Sprout's JoinSplit. |
 | Anwani iliyochanganywa | Mojawapo ya anwani nyingi za malipo ambazo haziwezi kuunganishwa unazoweza kupata kutoka kwa ufunguo mmoja. |
-| Ufunguo wa kutazama | Ufunguo unaomruhusu mtu kuona miamala ya pochi bila kuweza kutumia pesa kutoka kwayo. |
+| Viewing key | Ufunguo unaomruhusu mtu kuona miamala ya pochi bila kuweza kutumia pesa kutoka kwayo. |
 | Kitambulisho cha tawi la makubaliano | Nambari fupi inayoelezea mtandao sheria za uboreshaji ambazo muamala unafuata. |
 
 ## FAQs

@@ -46,7 +46,7 @@ Blossom je Zcash's third network upgrade. O tẹle Overwinter ati Sapling, o si 
 | Àárín ìdajì àkókò | Iye awọn bulọọki melo lo kọja laarin idaji ere bulọọki kọọkan |
 | ID ẹka Consensus | Àmì kan tí ó ń fi àmì sí àwọn ìlànà nẹ́tíwọ́ọ̀kì tí ó ń tẹ̀lé nọ́ńbà tàbí ìṣòwò kan |
 | Ìyípadà ìfọwọ́sowọ́pọ̀ méjì | Àyípadà òfin tí gbogbo nódù gbọ́dọ̀ gbà láti dúró lórí nẹ́tíwọ́ọ̀kì |
-| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's , tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 

@@ -395,7 +395,7 @@ zallet rpc z_listunifiedreceivers '"<unified_address>"'
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |-------------------|--------|----------|------------------------------|
-| unified_address   | string | yes      | Unified Address to inspect   |
+| unified_address ƒe adrɛs   | ka | Ɛ̃      | Unified Address be woalé ŋku ɖe eŋu   |
 
 ---
 

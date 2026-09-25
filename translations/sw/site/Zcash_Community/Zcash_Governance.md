@@ -121,7 +121,7 @@ Utawala wa Zcash ni mchanganyiko wa "sheria za itifaki ya on-chain" na "makubali
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
 | 2020 - Novemba 2024  | 80%    | 7%            | 5%   | 8%   | -       | Mfuko wa maendeleo wa kawaida                           |
 | Novemba 2024 - sasa   | 80%    | 0%            | 0%   | 8%   | 12%     | Mfano wa NU6 + kiendelezi cha ZCG                  |
-| Imependekezwa (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Inadhibitiwa na Mwenye Sarafu) | Hadi nusu ya 3; upigaji kura wa mwenye sarafu |
+| Imependekezwa (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Inadhibitiwa na Mwenye Sarafu) | Hadi nusu 3rd; upigaji kura wa mwenye sarafu |
 
 ## 5. Rasilimali Zinazohusiana na Hilo
 

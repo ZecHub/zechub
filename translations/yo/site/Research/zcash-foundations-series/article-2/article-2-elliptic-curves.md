@@ -153,10 +153,10 @@ Ohun-ini ajeseku kan ti di ohun ti ko ni idiyele nigbamii: awọn adehun wọnyi
 
 Àwọn ẹ̀rí ìka náà dájú, wọ́n sì ṣeé ṣàyẹ̀wò.
 
-| Zcash design | Curves it uses | Role |
+| Apẹrẹ Zcash | Àwọn ìlà tí ó ń lò | Ipa |
 |---|---|---|
-| **Sapling** (older) | **BLS12-381** plus an embedded curve called **Jubjub** | BLS12-381 carries the proof system; Jubjub is built over BLS12-381's scalar field so that key and commitment operations are cheap to perform *inside* a zero-knowledge proof |
-| **Orchard** (lọ́wọ́lọ́wọ́) | **Pallas** àti **Vesta** (ìyípo "Pasta") | Pallas ní àwọn kọ́kọ́rọ́ àti ìlérí Orchard's ; a ṣètò ìsopọ̀ Pallas/Vesta ní pàtàkì láti jẹ́ kí àwọn ẹ̀rí tó ti ní ìlọsíwájú ṣiṣẹ́ dáadáa |
+| **Sapling** (agbalagba) | **BLS12-381** pẹ̀lú ìlà tí a fi sínú rẹ̀ tí a ń pè ní **Jubjub** | BLS12-381 ní ètò ìdánilójú; A kọ́ Jubjub lórí pápá ìpele BLS12-381's kí àwọn iṣẹ́ pàtàkì àti ìdánilójú má baà jẹ́ ohun tí a lè ṣe *nínú* ẹ̀rí àìmọ̀ |
+| **Orchard** (lọ́wọ́lọ́wọ́) | **Pallas** àti **Vesta** (ìyípo "Pasta") | Pallas ní àwọn kọ́kọ́rọ́ àti ìlérí Orchard's; a ṣètò ìsopọ̀ Pallas/Vesta ní pàtàkì láti jẹ́ kí àwọn ẹ̀rí tó ti ní ìlọsíwájú ṣiṣẹ́ dáadáa |
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 

@@ -395,7 +395,7 @@ zallet rpc z_listunifiedreceivers '"<unified_address>"'
 
 | Paramita         | Ụdị   | A chọrọ | Nkọwa                  |
 |-------------------|--------|----------|------------------------------|
-| unified_address   | string | yes      | Unified Address to inspect   |
+| adreesị_otu   | eriri | ee      | Unified Address iji lelee anya   |
 
 ---
 
@@ -438,7 +438,7 @@ zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":
 | site na adreesị      | eriri          | ee      |                 | Adreesị ebe ma ọ bụ `"ANY_TADDR"`                  |
 | ego          | usoro ihe | ee      |                 | Ndị nnata (`address`, `amount`, nhọrọ `memo`)|
 | minconf          | nọmba          | no       |                 | Nkwenye kacha nta                            |
-| ụgwọ              | efu            | no       |                 | Ga-abụrịrị `null` (ZIP-317 )                    |
+| ụgwọ              | efu            | no       |                 | Ga-abụrịrị `null` (ZIP-317)                    |
 | amụma nzuzo   | eriri          | no       | `"FullPrivacy"` | Usoro amụma nzuzo                            |
 
 ---

@@ -98,7 +98,7 @@ Lengo la shirika si tu kuongeza ufahamu wa jumla. Pia inataka kusaidia jamii kue
 
 ### Ushirikiano wa Mazingira
 
-Obscura Labs hufanya kazi na mashirika, watengenezaji, waelimishaji, watafiti, biashara, waendeshaji wa miundombinu, na viongozi wa jamii katika mfumo mzima wa ikolojia Zcash .
+Obscura Labs hufanya kazi na mashirika, watengenezaji, waelimishaji, watafiti, biashara, waendeshaji wa miundombinu, na viongozi wa jamii katika mfumo mzima wa ikolojia Zcash.
 
 Ushirikiano huu ni lengo la kusaidia mipango ambayo:
 
@@ -130,7 +130,7 @@ Zebra is an independent implementation of the Zcash consensus protocol. Operatin
 
 ### Lightwalletd Huduma
 
-Obscura Labs huendesha miundombinu ya Lightwalletd ili kusaidia muunganisho wa pochi ya Zcash .
+Obscura Labs huendesha miundombinu Lightwalletd ili kusaidia muunganisho wa pochi ya Zcash.
 
 Lightwalletd hutoa data blockchain kwa mteja mwanga-pochi bila kuhitaji kila mtumiaji wa mkoba kuendesha node kamili ya Zcash.
 

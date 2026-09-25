@@ -114,9 +114,9 @@ The Orchard bug belongs to a recurring family, and seeing that family is what ma
 | Kòkòrò (ọdún) | Orísun | Ṣe a le ṣe àwárí rẹ̀? |
 |---|---|---|
 | Àbùkù ìforúkọsílẹ̀ Zerocash (2016, ṣáájú ìfilọ́lẹ̀) | Ìlànà pàtó (haṣi tí a gé kúrú ti fọ́ ohun ìní ìdè kan) | A kò le rí i |
-| Àbùkù ìlera tó ṣeé gbẹ́kẹ̀lé (2018) | Ìlànà pàtó (àṣìṣe nínú ìwé zk-SNARK tó wà lábẹ́ rẹ̀) | A kò le rí i |
+| Àbùkù ìlera tí a gbé kalẹ̀ tí a gbé kalẹ̀ (2018) | Ìlànà pàtó (àṣìṣe nínú ìwé zk-SNARK tó wà lábẹ́ rẹ̀) | A kò le rí i |
 | Ìkọlù ìbéèrè ètò ìṣàfihàn (2025) | Ìlànà ìṣàyẹ̀wò (àyẹ̀wò tí kò sí nínú ètò ìdánilójú) | A le ṣawari |
-| Curve-subgroup validation bug (2016) | Implementation (a missing subgroup check) | Detectable |
+| Àṣìṣe ìfọwọ́sowọ́pọ̀ ẹgbẹ́ kékeré (2016) | Ìmúṣe (àyẹ̀wò ẹgbẹ́ kékeré tí ó sọnù) | A le ṣawari |
 | **Orchard (2026)** | **Àlàyé pàtó (ìpínkiri náà)** | **A ko le ri** |
 
 Àlàfo tí ó lè fara pamọ títí ayé ni àwọn tó wà nínú ìṣirò. Ìyẹn gan-an ni ẹ̀ka ti ìdánilójú ìsọfúnni tí a ṣayẹwo nípa ẹrọ le yọ, gbogbo ọ̀ràn lẹ́ẹ̀kan náà. Ṣíṣe àyẹwò àti ṣíṣe ayẹwo àpẹẹrẹ; wípé fífi ìdíwárí ṣe àkójọpọ̀ ohun wọ̀nńnì kan ṣoṣo ló kún inú àkọsílẹ̀.
@@ -159,7 +159,7 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Shielded pool** | The private mode of Zcash where amounts and parties are hidden |
+| **Adágún omi tí a fi ààbò pamọ́** | Ipo ikọkọ ti Zcash nibiti a ti fi awọn iye ati awọn ayẹyẹ pamọ |
 | **Ẹ̀rí ìmọ̀ òdo** | Ẹ̀rí pé gbólóhùn ìkọ̀kọ̀ wúlò, tí kò fi ohunkóhun mìíràn hàn |
 | **Àgbègbè** | Àkójọ àwọn ipò ìṣirò tí a ti ṣètò tẹ́lẹ̀ tí ìṣòwò tó wúlò gbọ́dọ̀ ní |
 | **Ìdíwọ́** | Ipo kan (idogba) ninu Circuit naa |
@@ -167,7 +167,7 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 | **Alaafia** | Ìdánilójú pé àwọn gbólóhùn òtítọ́ nìkan ló lè mú ẹ̀rí tó wúlò wá |
 | **Ààlà ìlera** | Ìdènà tí ó sọnù tí ó jẹ́ kí àwọn gbólóhùn èké kọjá |
 | **Kò sí ìdíwọ́** | Circuit kan ti o padanu ipo ti o nilo, gbongbo kokoro Orchard |
-| **A le ṣe àwárí / a ko le ṣe àwárí ** | Bóyá ìfìyàjẹni yóò fi ẹ̀rí sílẹ̀ nínú ìwé àkọsílẹ̀ gbogbogbòò |
+| **A le ṣe àwárí / a ko le ṣe àwárí ** | Bóyá ìfìyàjẹni yóò fi ẹ̀rí sílẹ̀ nínú ledger gbogbogbòò |
 
 ---
 

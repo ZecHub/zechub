@@ -29,10 +29,10 @@ Nke a bụ usoro ahụ dum n'otu peeji, nke e depụtara site n'akụkọ nke Nk
 |---|---|---|
 | Ego dị n'ime envelopu | **Rịba ama** (uru, onye nnata, enweghị usoro) | e tinyere koodu dị ka ihe ubi (Art 1) |
 | Envelopu ahụ a na-anaghị ahụ anya nke e mechiri emechi | **Rịba ama nkwa** | Pedersen / Sinsemilla nkwa (Art 2, 3) |
-| The public board | **Note commitment tree** (anchor = its root) | incremental Merkle tree (Art 4) |
+| Òtù ọha na eze | **Rịba ama osisi nkwa** (anchor = mgbọrọgwụ ya) | Osisi Merkle nke na-abawanye ụba (Nkeji nke 4) |
 | Ihe nrịbama efu | **Ihe na-emebi ihe** | ihe e ji edetu ihe nke ZK + igodo nzuzo (Art 2, 3) |
 | "Ego dị n'ime ya hà nhata ego" | **Nkwa uru + nlele nguzozi** | Nkwa Pedersen nke nwere ụdị onwe ya (Art 2, 3) |
-| The behind-the-curtain magic | **Zero-knowledge proof** | zk-SNARK over an arithmetic circuit (Art 5) |
+| Anwansi dị n'azụ ákwà mgbochi | **Ihe akaebe na-enweghị ihe ọmụma** | zk-SNARK n'elu sekit mgbakọ na mwepụ (Art 5) |
 | "Naanị gị nwere ike ịgụ akwụkwọ ozi gị" | **Ndetu ezoro ezo + igodo nlele** | nzuzo + usoro isi (isiokwu a) |
 
 ---
@@ -82,13 +82,13 @@ Ka anyị gbakọta Alice na-akwụ Bob. Anyị ga-eji Sapling's doro anya "na-e
 
 **A na-ekpuchi azụmahịa na-ejikọta ụdị nkọwa abụọ:**
 
-| Spend description (consumes a note) | Output description (creates a note) |
+| Nkọwa mmefu (na-eri ihe ndetu) | Nkọwapụta (na-emepụta ndetu) |
 |---|---|
 | ntinye uru nke ntinye ahụ | ntinye uru nke mmepụta |
 | **ankros** ọ na-egosi megide (mgbọrọgwụ osisi) | nkwa ọhụrụ **ndetu** (akwụkwọ ọhụrụ) |
 | **ihe na-emebi ihe** nke akwụkwọ ego emefuru | igodo **ephemeral** maka izochi ihe |
 | igodo ọha emegharịrị agbanwere + mbinye aka ikike mmefu | ndetu **e zoro ezo** (ederede ederede maka onye nnata) |
-| the **zk-SNARK** proving the four claims | a **zk-SNARK** proving the output is well-formed |
+| **zk-SNARK** na-egosi nkwupụta anọ ahụ | a **zk-SNARK** na-egosi na mmepụta ahụ dị mma |
 
 Tụkwasị na otu ** mbinye aka na-ejikọta ihe niile, na-eme ka nguzozi uru (Nkebi nke 5).
 
@@ -104,13 +104,13 @@ Nkeji edemede 0 kpachapụrụ anya mepee ajụjụ. Lee ha niile, mechiri emech
 
 | Emepere oghere ahụ na Isiokwu 0 | Emechiri site na |
 |---|---|
-| How is a sealed-yet-unforgeable envelope possible? | Commitments: hiding from randomness, binding from collision resistance / the curve trapdoor (Art 3) |
+| Kedu otu esi enwe ike itinye envelopu emechiri emechi mana nke a na-apụghị ịgbanwe agbanwe? | Nkwa: izopụ onwe gị n'enweghị ihe mberede, ijikọta onwe gị site na iguzogide ihe mberede / ụzọ ọnyà mgbagọ (Art 3) |
 | Ebee ka igodo na nri nzuzo si abịa? | Mmụba scalar mgbakọ na mwepụ ubi na elliptic-curve (Nkeji 1, 2) |
 | Gịnị kpọmkwem bụ "bọọdụ" ahụ? | Osisi Merkle nke nkwa ndị a na-eme n'oge gara aga; mgbọrọgwụ ya bụ ihe e ji aka rụọ (Art 4) |
-| Why can't the void token be linked to its envelope? | The nullifier is a keyed hash kept in a separate set from commitments (Art 2, 3, 4) |
-| How do you prove validity while revealing nothing? | A zk-SNARK over an arithmetic circuit encoding all four claims (Art 5) |
-| How does the recipient learn they were paid? | The note is encrypted to their address; they trial-decrypt with a viewing key (this article) |
-| How is "money in = money out" enforced privately? | Homomorphic value commitments + the binding signature (Sec 5) |
+| Gịnị mere na enweghị ike ijikọ ihe ngosi efu na envelopu ya? | Ihe na-emebi ihe bụ ihe e ji aka dee nke dị iche na nkwa (Art 2, 3, 4) |
+| Kedu ka ị si egosi na ị bụ onye eziokwu ma ghara ikpughe ihe ọ bụla? | zk-SNARK n'elu sekit mgbakọ na mwepụ nke na-akọwapụta nkwupụta anọ niile (Art 5) |
+| Kedu ka onye nnata si amata na akwụọla ha ụgwọ? | E zoro ihe ndetu ahụ n'adres ha; ha na-anwale iji viewing key gbanwee ya (isiokwu a) |
+| Kedu otu esi etinye "ego dị n'ime = ego" n'ọrụ n'onwe ya? | Nkwa uru nke Homomorphic + mbinye aka njikọ (Nkebi nke 5) |
 
 Ihe mgbagwoju anya site na peeji nke mbụ, * nyochaa ihe ị na-apụghị ịhụ*, ugbu a ka etisasịwo kpamkpam. netwọk ahụ na-enyocha ** nkwupụta banyere data zoro ezo **, ọ dịghị mgbe data n'onwe ya.
 
@@ -153,7 +153,7 @@ This is the most complete picture in the series, but still a model. We compresse
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
 | **Isi ihe eji emefu ego** | Ihe nzuzo otu mgbọrọgwụ nke igodo niile onye ọrụ si enweta |
-| **Igodo nlele** | Na-ekpughe azụmahịa gị nye onye nwere ya n'ekweghị ka ha mefuo ego |
+| **Viewing key** | Na-ekpughe azụmahịa gị nye onye nwere ya n'ekweghị ka ha mefuo ego |
 | **Nkọwa mmefu** | Akụkụ nke tx nke na-eri ihe ndetu (ihe na-emebi ihe, arịlịka, ihe akaebe) |
 | **Nkọwa mmepụta** | Akụkụ nke tx nke na-emepụta ndetu (nkwa, ederede nzuzo, ihe akaebe) |
 | **Ihe Omume (Orchard)** | Otu n'otu na-emefu otu mmefu na otu mmepụta ọnụ |

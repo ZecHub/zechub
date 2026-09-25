@@ -46,8 +46,8 @@ A Sapling payment disclosure does not have to reveal a sender address. Spend aut
 | Kitambulisho cha Muamala | Kuhakikisha kwamba muamala ulichimbwa | Data ya muamala wa umma na uthibitisho | Hapana | Ndiyo, lakini maelezo ya malipo yaliyolindwa yanabaki kufichwa |
 | Picha ya skrini au risiti | Utunzaji usio rasmi wa kumbukumbu | Chochote mtumaji anachochagua kuonyesha | Hapana | Hapana; picha inaweza kuhaririwa |
 | Ufichuzi wa malipo | Kuthibitisha maelezo yaliyochaguliwa ya malipo moja | Matokeo ya miamala yaliyochaguliwa na uthibitisho wowote wa mtumaji au wa kupinga uliojumuishwa | Hapana, lakini uthibitisho ulioshirikiwa unaweza kunakiliwa | Ndiyo |
-| Incoming Viewing Key | Monitoring payments received by an account | Incoming activity covered by the key | Yes | It decrypts matching incoming payments |
-| Full Viewing Key | Accounting or auditing an account | Incoming and outgoing activity, amounts, memos, and balances covered by the key | Yes | It decrypts matching account activity |
+| Incoming Viewing Key | Kufuatilia malipo yanayopokelewa na akaunti | Shughuli inayoingia inayofunikwa na ufunguo | Ndiyo | Huondoa usimbaji fiche wa malipo yanayoingia yanayolingana |
+| Full Viewing Key | Uhasibu au ukaguzi wa akaunti | Shughuli zinazoingia na zinazotoka, kiasi, memo, na salio zinazofunikwa na ufunguo | Ndiyo | Huondoa usimbaji fiche wa shughuli za akaunti zinazolingana |
 
 Tumia ufichuzi mdogo zaidi unaojibu swali. Mzozo wa mfanyabiashara kuhusu malipo moja kwa kawaida hauhalalishi ufikiaji wa kila malipo katika akaunti. Mhasibu ambaye lazima apitie kipindi kamili cha kuripoti anaweza kuhitaji ufunguo wa kutazama badala yake.
 
@@ -62,7 +62,7 @@ Hakuna pochi ya sasa inayotambuliwa hapa kama inayotekeleza uundaji au uthibitis
 | Programu | Inafaa leo kwa | Kikomo muhimu |
 | --- | --- | --- |
 | [Zkool](https://github.com/hhanh00/zkool2) | Kuangalia metadata ya kina ya miamala, kiasi, ingizo na matokeo ya pamoja, na memo; kuingiza funguo za kutazama za Unified au Sapling kwenye akaunti za kutazama pekee | Haitangazi uundaji au uthibitishaji wa ufichuzi wa ZIP 311 |
-| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Reviewing shielded transaction history and memos; importing a Unified Full Viewing Key in read-only mode | A wallet record or read-only account is not a selectively scoped payment disclosure |
+| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Kupitia historia na memo za miamala zilizolindwa; kuingiza Full Viewing Key Uliounganishwa katika hali ya kusoma pekee | Rekodi ya pochi au akaunti ya kusoma pekee si ufichuzi wa malipo uliochaguliwa kwa njia maalum |
 | [Zallet](https://zcash.github.io/zallet/) | Mtiririko wa kazi wa waendeshaji kwa kutumia `z_viewtransaction`, `z_exportviewingkey`na `z_importviewingkey` | Programu ya Beta; RPC zake za ufunguo wa kutazama na miamala ni rekodi pana au za ndani, si uthibitisho wa ZIP 311 |
 
 Tumia pochi iliyotuma au kupokea malipo kwanza. Angalia maelezo yake ya muamala, memo, kitambulisho cha muamala, na uthibitisho, kisha mwombe mhusika mwingine kulinganisha maelezo hayo na rekodi zake. Usiweke pochi mpya na uingize kifungu cha mbegu ili tu kutoa ushahidi. Ikiwa mkaguzi anahitaji mwonekano unaoendelea, fikiria akaunti inayolingana ya kutazama pekee na uelewe upeo wa ufunguo wa kutazama kabla ya kuushiriki.

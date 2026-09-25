@@ -43,7 +43,7 @@ ZecMap ṣe àkójọ àwọn ilé-iṣẹ́ orí ayélujára pẹ̀lú. Ṣàw�
 
 ### Ṣètò Ìrìn Àjò Kárí ZEC
 
-Ṣíṣe ìrìnàjò lọ sí ìlú tàbí orílẹ̀-èdè tuntun? ZecMap jẹ́ kí o wo bí àwọn oníṣòwò ṣe ń ṣiṣẹ́ kí o tó dé, kí o lè ṣètò àwọn ibi ìdúró sí ní àwọn ilé oúnjẹ, àwọn ilé ìtajà, àti àwọn iṣẹ́ ZEC-friendly .
+Ṣíṣe ìrìnàjò lọ sí ìlú tàbí orílẹ̀-èdè tuntun? ZecMap jẹ́ kí o wo bí àwọn oníṣòwò ṣe ń ṣiṣẹ́ kí o tó dé, kí o lè ṣètò àwọn ibi ìdúró sí ní àwọn ilé oúnjẹ, àwọn ilé ìtajà, àti àwọn iṣẹ́ ZEC-friendly.
 
 ### Atilẹyin fun Awọn Olumulo Zcash Tuntun
 

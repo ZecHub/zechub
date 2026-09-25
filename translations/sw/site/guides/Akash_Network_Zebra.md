@@ -416,16 +416,16 @@ Wakati usawa wako ni mdogo, Akash itafunga moja kwa moja kupelekwa kwako. ** Ong
 
 ```markdown
 ----------------------------------------------------------------------------------
-|            | Mainnet (default)               | Testnet                         |
+|            | Mainnet (chaguomsingi)               | Mtandao wa Majaribio                         |
 ---------------------------------------------------------------------------------|
-| Purpose   | Production Zcash blockchain      | Testing and development         |
-| Network   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
-| P2P Port  | 8233                             | 18233                           |
-| RPC Port  | 8232                             | 18232                           |
-| Sync time | Days                             | Hours                           |
-| Storage   | 350GB+                           | 50GB                            |
-| Resources | 4 CPU / 16GB RAM                 | 2 CPU / 8GB RAM                 |
-| Cost      | ~$15/month                       | ~$5/month                       |
+| Kusudi   | Uzalishaji wa blockchain Zcash      | Upimaji na maendeleo         |
+| Mtandao   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
+| Lango P2P  | 8233                             | 18233                           |
+| Lango la RPC  | 8232                             | 18232                           |
+| Muda wa kusawazisha | Siku                             | Saa za kazi                           |
+| Hifadhi   | 350GB+                           | 50GB                            |
+| Rasilimali | CPU 4 / RAM 16GB                 | CPU 2 / RAM 8GB                 |
+| Gharama      | ~$15/mwezi                       | ~$5/mwezi                       |
 ----------------------------------------------------------------------------------
 ```
 

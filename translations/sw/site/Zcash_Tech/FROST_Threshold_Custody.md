@@ -58,9 +58,9 @@ Zcash kwa muda mrefu imekuwa ikiunga mkono ishara nyingi za uwazi  funguo kadhaa
 
 FROST hutatua hili kwa kufanya kazi ndani ya bwawa la ulinzi:
 
-| | Transparent multisig | FROST threshold (shielded) |
+| | Ishara nyingi za uwazi | Kizingiti cha FROST (kilichofunikwa) |
 |--|---------------------|--------------------------|
-| Pool | Transparent (public) | Orchard (shielded) |
+| Bwawa la kuogelea | Uwazi (umma) | Orchard (iliyofunikwa) |
 | Wasaini wanaonekana kwenye mnyororo | Ndiyo — funguo zote za umma zimefichuliwa | Hapana — haitofautiani na matumizi ya mtu mmoja aliyesaini |
 | Kiasi kinachoonekana | Ndiyo | No |
 | Uratibu unahitajika | Hati ya mnyororo | Duru ya mawasiliano nje ya mnyororo |
@@ -133,7 +133,7 @@ Kama signature yoyote hutuma sahihi mbaya sehemu, itifaki huwatambua na mimba (w
 |-------|-----------|------|
 | 1-of-1 | Hakuna ustahimilivu — sehemu moja ya kushindwa | Hasara ya ufunguo = hasara ya kudumu |
 | 2-of-2 | Lazima uwe na watia saini wote wawili — hakuna uvumilivu wa makosa | Moja haipatikani = fedha zilizogandishwa |
-| 2-of-3 | One shard can be lost or unavailable | Lower security margin than 3-of-5 |
+| 2-of-3 | Kipande kimoja kinaweza kupotea au kutopatikana | Kiwango cha chini cha usalama kuliko 3 kati ya 5 |
 | 3-of-5 | Vipande viwili vinaweza kupotea; usalama imara | Uratibu zaidi wa gharama za uendeshaji |
 | 3-of-7 | Daraja la kitaasisi; huvumilia kushindwa mara mbili | Gharama kubwa ya uratibu |
 

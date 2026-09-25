@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Àkójọ àwọn ìgbàsílẹ̀ Zcash Engineering Office Hours .
+Àkójọ àwọn ìgbàsílẹ̀ Zcash Engineering Office Hours.
 
 # Zcash Engineering Office Hours
 

@@ -101,7 +101,7 @@ Kazi inayohusiana na hiyo tayari inaonekana. [Zakura](https://zechub.wiki/zcash-
 | Usawazishaji usio wazi | Kuchukua data ya mnyororo ambayo pochi inahitaji bila kufichua ni data gani iliyoombwa |
 | Data ya kubeba uthibitisho (PCD) | Data inayosafiri ikiwa na uthibitisho wa usahihi wake, ili uthibitisho uweze kuunganishwa na kubanwa |
 | Jumla ya miamala iliyolindwa | Njia ya Tachyon ya kuunganisha mabadiliko ya hali yaliyolindwa, kubadilisha jinsi yanavyowasilishwa na kusainiwa |
-| kutotofautisha leja | Mali iliyolinda miamala haiwezi kutofautishwa kati ya mali nyingine |
+| kutotofautisha ledger | Mali iliyolinda miamala haiwezi kutofautishwa kati ya mali nyingine |
 
 <br/>
 

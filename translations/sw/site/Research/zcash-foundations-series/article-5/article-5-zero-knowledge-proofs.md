@@ -101,7 +101,7 @@ Mifumo mpya kuondoa mahitaji haya kabisa, ambayo ni moja ya sababu kubwa Zcash m
 | Ubunifu | Mfumo wa uthibitisho | Umeweka mipangilio inayoaminika? | Imejengwa juu ya |
 |---|---|---|---|
 | **Sprout** (mapema zaidi) | mapema zk-SNARK | Ndiyo | sherehe ya asili |
-| **Sapling** | **Groth16** | Ndiyo (sherehe ya "Nguvu za Tau" ya vyama vingi + sherehe Sapling ) | **BLS12-381** (Kifungu cha 2) |
+| **Sapling** | **Groth16** | Ndiyo (sherehe ya "Nguvu za Tau" ya vyama vingi + sherehe Sapling) | **BLS12-381** (Kifungu cha 2) |
 | **Orchard** (ya sasa) | **Halo 2** | **Hakuna usanidi unaoaminika** | **Pallas / Vesta** (Kifungu cha 2) |
 
 The march from Sprout to Sapling to Orchard is largely a story about proofs getting smaller, faster, and shedding the trusted setup. **Halo 2**, used by Orchard, needs no ceremony at all and is built to support *recursion* (proofs that verify other proofs), which is why Orchard uses the Pallas/Vesta **cycle** of curves from Article 2: each curve is tuned to verify proofs written over the other.

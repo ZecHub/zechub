@@ -30,7 +30,7 @@ Olúkúlùkù, gbogbo ohun tí o ti kọ́ jẹ́ ọlọgbọ́n. ṣùgbọ́n
 | Owó tí ó wà nínú àpòòwé kan | **Àkíyèsí** (iye, olùgbà, àìròtẹ́lẹ̀) | tí a fi àmì sí gẹ́gẹ́ bí àwọn èròjà pápá (Àwòrán 1) |
 | Àpò tí kò ní ìbòjú tí a dì | **Ṣe akiyesi ifaramo** | Pedersen / Sinsemilla ifaramo (Aworan 2, 3) |
 | Igbimọ gbogbogbo | **Ṣe akiyesi igi ifaramo** (ìdákọ̀ró = gbòǹgbò rẹ̀) | Igi Merkle onípele (Àwòrán 4) |
-| Àmì òfo náà | **Ohun tí kò ní jẹ́ kí ó bàjẹ́** | ìkọsílẹ̀ àkọọ́lẹ̀ + kọ́kọ́rọ́ àṣírí tí ó bá ZK mu (Àwòrán 2, 3) |
+| Àmì òfo | **Ohun tí kò ní jẹ́ kí ó bàjẹ́** | ìkọsílẹ̀ àkọọ́lẹ̀ + kọ́kọ́rọ́ àṣírí tí ó bá ZK mu (Àwòrán 2, 3) |
 | "Owó tó wà nínu owó dọ́gba pẹ̀lú owó tó jáde" | **Awọn ileri iye + ayẹwo iwontunwonsi** | Àwọn ìlérí Pedersen tí ó ní ìrísí (Àwòrán 2, 3) |
 | Idán ìṣẹ́gun lẹ́yìn aṣọ ìbòrí | **Ẹ̀rí ìmọ̀ òdo** | zk-SNARK lórí ìṣètò ìṣirò (Àwòrán 5) |
 | "Iwọ nikan ni o le ka apoowe rẹ" | **Àkọsílẹ̀ ìkọ̀kọ̀ + àwọn kọ́kọ́rọ́ wíwo** | ìfọwọ́sowọ́pọ̀ + ìṣètò bọtini (àpilẹ̀kọ yìí) |
@@ -82,7 +82,7 @@ Jẹ ki a ṣe apejọ Alice sanwo Bob. A yoo lo Sapling ká kedere "lo ẹgbẹ
 
 **Iṣowo ti o ni aabo kan ni awọn iru awọn apejuwe meji:**
 
-| Àpèjúwe ìnáwó (ó gba àkọsílẹ̀ kan) | Àpèjúwe àbájáde (ó ṣẹ̀dá àkọsílẹ̀) |
+| Àpèjúwe ìnáwó (ó gba àkọsílẹ̀) | Àpèjúwe àbájáde (ó ṣẹ̀dá àkọsílẹ̀) |
 |---|---|
 | ifaramo iye ti titẹ sii | ifaramo iye ti abajade |
 | **ìdákọ̀ró** ó fi hàn lòdì sí (gbòǹgbò igi) | ìdúró tuntun **àkíyèsí** (ìwé tuntun) |
@@ -105,11 +105,11 @@ Trace the privacy: the network checked the anchor, checked the nullifier was fre
 | A ṣí ìṣẹ́po náà ní Àpilẹ̀kọ 0 | Ti pa nipasẹ |
 |---|---|
 | Báwo ni a ṣe lè ṣe àpò ìwé tí a ti dí tí kò sì ṣeé yípadà? | Àwọn ìlérí: fífi ara pamọ́ kúrò nínú àìròtẹ́lẹ̀, dídì mọ́ kúrò nínú ìdènà ìkọlù / ilẹ̀kùn ìtẹ̀ (Àwòrán 3) |
-| Níbo ni àwọn kọ́kọ́rọ́ àti àwọn oúnjẹ ìkọ̀kọ̀ ti wá? | Ìsọdipúpọ̀ scalar oníṣirò pápá àti elliptic-curve (Àwòrán 1, 2) |
+| Nibo ni awọn bọtini ati awọn ilana ikoko ti wa? | Ìsọdipúpọ̀ scalar oníṣirò pápá àti elliptic-curve (Àwòrán 1, 2) |
 | Kí ni "ìgbìmọ̀" gan-an? | Igi Merkle tí ó ń fi àwọn ìlérí pàtàkì kún un; gbòǹgbò rẹ̀ ni ìdákọ́ró (Àwòrán 4) |
 | Kí ló dé tí a kò fi lè so àmì ìforúkọsílẹ̀ náà mọ́ àpò rẹ̀? | Àìsí-ìparẹ́ ni àmì ìkọ̀kọ̀ tí a fi pamọ́ sí àkójọpọ̀ ọ̀tọ̀ láti ọ̀dọ̀ àwọn ìlérí (Àwòrán 2, 3, 4) |
 | Báwo lo ṣe lè fi hàn pé òótọ́ ni nígbà tí o kò sì sọ ohunkóhun? | zk-SNARK lórí àyíká ìṣirò kan tí ó ń ṣàkójọ gbogbo àwọn ẹ̀tọ́ mẹ́rẹ̀ẹ̀rin (Àwòrán 5) |
-| Báwo ni ẹni tí a gbà á ṣe mọ̀ pé wọ́n ti san owó fún un? | A fi àmì ìkọ̀kọ̀ náà sí àdírẹ́sì wọn; wọ́n fi kọ́kọ́rọ́ wíwo yí i padà láti dán an wò (àpilẹ̀kọ yìí) |
+| Báwo ni ẹni tí a gbà á ṣe mọ̀ pé wọ́n ti san owó fún un? | A fi àmì ìkọ̀kọ̀ náà sí àdírẹ́sì wọn; wọ́n fi kọ́kọ́rọ́ wíwo yí i padà láti viewing key (àpilẹ̀kọ yìí) |
 | Báwo ni a ṣe ń fi "owo wọlé = owó jáde" sí ìkọ̀kọ̀? | Àwọn ìlérí iye oníṣe + ìfọwọ́sowọ́pọ̀ ìdènà (Apá 5) |
 
 Àdììtú tó wà ní ojú ìwé àkọ́kọ́, *yẹ̀wò ohun tí o kò lè rí*, ti di ohun tí kò sí mọ́ báyìí. Ẹ̀rọ náà ń ṣàyẹ̀wò **ìpolongo nípa àwọn ìsọfúnni tó fara sin**, kì í ṣe àwọn ìwífún fúnra wọn.
@@ -153,7 +153,7 @@ This is the most complete picture in the series, but still a model. We compresse
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
 | **Kọ́kọ́rọ́ ìnáwó** | Àṣírí gbòǹgbò kan ṣoṣo tí gbogbo àwọn kọ́kọ́rọ́ olùlò ti wá |
-| **Kọ́kọ́rọ́ wíwo** | Ṣí àwọn ìṣòwò rẹ hàn fún ẹni tó ni ín láìjẹ́ kí wọ́n náwó |
+| **Viewing key** | Ṣí àwọn ìṣòwò rẹ hàn fún ẹni tó ni ín láìjẹ́ kí wọ́n náwó |
 | **Àpèjúwe ìnáwó** | Apá tx kan tí ó ń gba àkọsílẹ̀ kan (ohun tí kò ní ìtumọ̀, ìdámọ̀, ẹ̀rí) |
 | **Àpèjúwe ìjáde** | Apá tx kan tí ó ṣẹ̀dá àkọsílẹ̀ kan (ìdúróṣinṣin, ìkọ̀wé ìkọ̀kọ̀, ẹ̀rí) |
 | **Igbesẹ (Orchard)** | Ẹyọ kan ṣoṣo tí ó ń lo owó kan àti ìyọrísí kan papọ̀ |

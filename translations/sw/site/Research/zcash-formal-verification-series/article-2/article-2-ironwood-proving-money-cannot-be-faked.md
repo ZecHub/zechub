@@ -152,7 +152,7 @@ We simplified for clarity. The real Lean development is far more detailed than t
 | **Usawa wa maarifa** | Ushahidi halali unahitaji mthibitishaji kuwa na ushahidi halisi |
 | **Kitoaji** | Utaratibu unaomtoa shahidi kutoka kwenye uthibitisho wowote unaoshawishi |
 | **Konda** | Msaidizi wa uthibitishaji alitumika kukagua uthibitishaji kwa mashine |
-| **Leja Halali** | Mfano rasmi wa makubaliano hutawala nadharia za mantiki |
+| **ValidLedger** | Mfano rasmi wa makubaliano hutawala nadharia za mantiki |
 | **Alama ya vidole** | Mpaka kati ya hesabu iliyothibitishwa na programu ya Rust inayoendeshwa |
 | **Chini ya dhana zilizotajwa** | Uthibitisho umetoa dhana zilizotajwa za kriptografia |
 | **Turnstile** | Sheria inayoweka mipaka ya njia za kutoka za bwawa la kuogelea kwenye amana zake zinazoweza kuthibitishwa |

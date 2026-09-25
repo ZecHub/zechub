@@ -416,16 +416,16 @@ Ne wò ga si susɔ la vɔ la, Akash axe wò dɔwɔwɔ le eɖokui si. **Tsɔ wò 
 
 ```markdown
 ----------------------------------------------------------------------------------
-|            | Mainnet (default)               | Testnet                         |
+|            | Mainnet (si woɖo ɖi)               | Dodokpɔ ƒe mɔ̃                         |
 ---------------------------------------------------------------------------------|
-| Purpose   | Production Zcash blockchain      | Testing and development         |
-| Network   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
-| P2P Port  | 8233                             | 18233                           |
-| RPC Port  | 8232                             | 18232                           |
-| Sync time | Days                             | Hours                           |
-| Storage   | 350GB+                           | 50GB                            |
-| Resources | 4 CPU / 16GB RAM                 | 2 CPU / 8GB RAM                 |
-| Cost      | ~$15/month                       | ~$5/month                       |
+| Taɖodzi   | Ewɔwɔ Zcash blockchain      | Dodokpɔ kple ŋgɔyiyi         |
+| Kadodo   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
+| P2P Melidzeƒea  | 8233                             | 18233                           |
+| RPC Melidzeƒea  | 8232                             | 18232                           |
+| Sync ɣeyiɣi | Ŋkekewo                             | Gaƒoƒowo                           |
+| Nudzadzraɖo   | 350GB+                           | 50GB                            |
+| Nunɔamesiwo | 4 CPU / 16GB RAM ƒe RAM                 | 2 CPU / 8GB RAM ƒe RAM                 |
+| Asixᴐxᴐ      | ~$15/ɣleti ɖeka                       | ~$5/ɣleti ɖeka                       |
 ----------------------------------------------------------------------------------
 ```
 

@@ -16,7 +16,7 @@ The stack changed a great deal in 2026. zcashd, which ran the network for most o
 | Nodi kamili | Zebra au Zakura | [Kitabu cha Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
 | Pochi kamili ya nodi | Zallet, katika beta | [Kitabu Zallet](https://zcash.github.io/zallet/) |
 | Seva nyepesi ya pochi | Zaino au lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Wallet libraries | The librustzcash crates | [librustzcash](https://github.com/zcash/librustzcash) |
+| Maktaba za pochi | Masanduku librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
 | Simu ya Mkononi | SDK za Android na iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
 | Vipimo | Vipimo vya itifaki na ZIP | [pesa taslimu ya zips.z](https://zips.z.cash) |
 
@@ -53,12 +53,12 @@ Kazi zaidi mkoba hutokea katika makontena Rust chini ya [librustzcash](https://g
 | Kreti | Ni kwa ajili ya nini |
 |:--|:--|
 | zcash_client_backend | "API za kuunda wateja wa mwanga Zcash waliolindwa", ikiwa ni pamoja na usawazishaji na ujenzi wa miamala |
-| mteja_wa_zcash_sqlite | "Kiteja cha mwanga Zcash kinachotegemea SQLite", safu ya hifadhi ya hapo juu |
-| funguo_za_zcash | "Zcash na anwani" |
+| zcash_client_sqlite | "Kiteja cha mwanga Zcash kinachotegemea SQLite", safu ya hifadhi ya hapo juu |
+| zcash_keys | "Zcash na anwani" |
 | zcash_primitives | "Utekelezaji wa kutu wa vifaa vya awali Zcash " |
-| itifaki_ya_zcash | "Zcash na aina za thamani" |
-| bustani ya matunda | "Itifaki ya miamala iliyolindwa na Orchard " |
-| miche ya crypto | "Maktaba ya kriptografia kwa ajili ya Zcash Sapling" |
+| zcash_protocol | "Zcash na aina za thamani" |
+| orchard | "Itifaki ya miamala iliyolindwa na Orchard " |
+| sapling-crypto | "Maktaba ya kriptografia kwa ajili ya Zcash Sapling" |
 | pczt | "Zana za kufanya kazi na miamala ya Zcash iliyotengenezwa kwa sehemu", inayotumika kwa ajili ya vifaa na utiaji saini wa vifaa vingi |
 | zip321 | URI za ombi la malipo, kama ilivyoainishwa katika ZIP 321 |
 

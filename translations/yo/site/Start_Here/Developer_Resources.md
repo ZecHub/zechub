@@ -15,8 +15,8 @@ The stack changed a great deal in 2026. zcashd, which ran the network for most o
 |:--|:--|:--|
 | Odidi kikun | Zebra tàbí Zakura | [Ìwé Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
 | Àpò owó nódù kíkún | Zallet, ní beta | [Ìwé Zallet](https://zcash.github.io/zallet/) |
-| Light wallet server | Zaino or lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Wallet libraries | The librustzcash crates | [librustzcash](https://github.com/zcash/librustzcash) |
+| Olupin apamọwọ ina | Zaino tabi lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Àwọn ilé ìkàwé àpò owó | Àwọn àpótí librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
 | Foonu alagbeka | Awọn SDK Android ati iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
 | Ìlànà ìpele | Àlàyé ìlànà àti àwọn ZIP | [awọn kooduopo.z.cash](https://zips.z.cash) |
 
@@ -55,10 +55,10 @@ Pupọ ninu iṣẹ apamọwọ naa waye ni awọn apoti Rust labẹ [librustzca
 | zcash_client_backend | "Awọn API fun ṣiṣẹda awọn alabara ina Zcash ti a daabobo", pẹlu amuṣiṣẹpọ ati ikole iṣowo |
 | zcash_client_sqlite | "Oníbàárà ìmọ́lẹ̀ Zcash tí ó dá lórí SQLite", ìpele ìpamọ́ fún ohun tí a sọ lókè yìí |
 | zcash_keys | "Zcash àti ìṣàkóso àdírẹ́sì" |
-| zcash_primitives | "Àwọn ìṣẹ̀dá ipata ti àwọn ìpìlẹ̀ Zcash " |
-| zcash_protocol | "Zcash protocol network constants and value types" |
-| ọgbà igi | "Ìlànà ìṣòwò tí a dáàbò bo Orchard " |
-| igi-crypto | "Ìkàwé Cryptographic fún Zcash Sapling" |
+| zcash_primitives | "Àwọn ìmúṣẹ ipata ti àwọn ìpìlẹ̀ Zcash " |
+| zcash_protocol | "Zcash àti àwọn irú iye" |
+| orchard | "Ìlànà ìṣòwò tí a dáàbò bo Orchard " |
+| sapling-crypto | "Ìkàwé Cryptographic fún Zcash Sapling" |
 | pczt | "Àwọn irinṣẹ́ fún ṣíṣiṣẹ́ pẹ̀lú àwọn ìṣòwò Zcash tí a ṣẹ̀dá díẹ̀", tí a lò fún ìfọwọ́sowọ́pọ̀ ẹ̀rọ àti ìfọwọ́sowọ́pọ̀ ẹ̀rọ púpọ̀ |
 | zip321 | Àwọn URI ìbéèrè ìsanwó, gẹ́gẹ́ bí a ti sọ nínú ZIP 321 |
 

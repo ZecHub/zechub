@@ -113,8 +113,8 @@ Zcash de hash ahorow adi dwuma wɔ ne nsusuwii ahorow nyinaa mu, na wɔapaw emu 
 | Nsusuwii | Hashes a wɔde di dwuma | Ɛhe na |
 |---|---|---|
 | **Sprout** (a edi kan koraa) | **SHA-256** na ɛyɛ adwuma | Hyɛ bɔhyɛ ahorow ne dua no nsow |
-| **Sapling** | **Pedersen hashes**, plus **BLAKE2** | Pedersen for note commitments and the Merkle tree; BLAKE2 for key derivation and nullifiers |
-| **Orchard** (current) | **Sinsemilla**, plus **Poseidon** | Sinsemilla for note commitments and the Merkle tree; Poseidon for the nullifier, all designed for arithmetic circuits |
+| **Sapling** | **Pedersen hashes**, ne **BLAKE2** | Pedersen ma note commitments ne Merkle dua no; BLAKE2 ma key derivation ne nullifiers |
+| **Orchard** (mprempren) | **Sinsemilla**, ne **Poseidon** ka ho | Sinsemilla ma nsɛm a wɔahyɛ no nsow ne Merkle dua no; Poseidon ma nullifier, ne nyinaa a wɔayɛ ama akontaabu amansin |
 
 Edin a ɛsɛ sɛ wohu ne **Pedersen** ne **Sinsemilla** (commitment-style hashes a wɔasisi afi curve points, enti wonya "adds up" superpower no agyapade na ɛda adi sɛ ne bo nyɛ den) ne **Poseidon** (field-arithmetic hash a wɔde atirimpɔw ayɛ ama zero-knowledge circuits). Bere a Ahyɛde 0 kae sɛ wɔasɔ krataa bi mu nsɛm ano ayɛ no bɔhyɛ a, *eyi* ne mfiri a ɛreyɛ nsɔano no.
 

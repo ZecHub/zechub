@@ -130,7 +130,7 @@ Pẹlu yi ni imọran, awọn egbe ni [QEDIT](https://qed-it.com/) awọn ero la
 
 | Ìgbàgbọ́ gbogbogbò | Kí ni ó jẹ́ gan-an? |
 | --- | --- |
-| "ZSAs are live on Zcash today." | They are not. ZSA is scheduled for deployment in Network Upgrade 7 (NU7) and is still under review and testing. |
+| "Àwọn ZSA wà lórí Zcash lónìí." | Wọn kò rí bẹ́ẹ̀. A ti ṣètò ZSA fún ìgbékalẹ̀ nínú Network Upgrade 7 (NU7) ó sì ṣì wà lábẹ́ àtúnyẹ̀wò àti ìdánwò. |
 | "ZSA mu awọn adehun ọlọgbọn wa si Zcash." | ZSA sọ nípa ìfúnni, gbigbe àti sísun àwọn dúkìá. Kì í ṣe ìpele àdéhùn tí a lè ṣètò fún gbogbogbòò. |
 | "O le san owo ZSA ninu ami ZSA funrararẹ." | A san owo ni ZEC. |
 | "Tí a bá dáàbò bò ó, ìpèsè àmì náà gbọ́dọ̀ jẹ́ àṣírí pẹ̀lú." | ZIP 227 mú kí ìfiránṣẹ́ náà ṣe kedere nítorí pé a mọ̀ ọ́n ṣe é, nítorí náà a lè tọ́pasẹ̀ ìfiránṣẹ́ dúkìá kọ̀ọ̀kan ní gbangba. Ìwọ̀n àti ìfiránṣẹ́ náà dúró ní ìkọ̀kọ̀; ìfiránṣẹ́ náà kò sí níbẹ̀. |

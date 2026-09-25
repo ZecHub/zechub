@@ -10,11 +10,11 @@ Atilẹyin fun awọn ohun-ini aṣiri yipada nigbagbogbo, nitorina ila kọọk
 
 <div class="processor-table">
 
-| Processor | Custody | Shielded ZEC | Self-host | Merchant fee | Regions / KYC | Verified |
+| Isise ero isise | Ààbò | ZEC tí a dáàbò bò | Olùgbàlejò ara-ẹni | Owo Oniṣowo | Àwọn agbègbè / KYC | Ti jẹ́rìí sí i |
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Àìsí ìtọ́jú | Bẹ́ẹ̀ni, Orchard nípasẹ̀ Àwọn Àdírẹ́sì Ìṣọ̀kan | Bẹ́ẹ̀ni, orísun ṣíṣí sílẹ̀ | 1% fun isanwo kan, ọfẹ ti o ba jẹ pe o gbalejo funrararẹ | Ko si KYC, awọn agbegbe ko ti sọ | 2026-07-29 |
 | [Olùpèsè BTPay](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Kì í ṣe ti àkóso, kọ́kọ́rọ́ ìwò nìkan | Bẹ́ẹ̀ni, a dáàbò bò ó nìkan (Sapling, Orchard, UA) | Bẹ́ẹ̀ni, orísun ṣíṣí sílẹ̀ | Kò sí, ìwọ nìkan ni o san owó nẹ́tíwọ́ọ̀kì nìkan | Àgbáyé, kò sí KYC | 2026-07-29 |
-| [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
+| [ZGo](https://zgo.cash/) | Àìsí ìtọ́jú | Bẹ́ẹ̀ni, Sapling àti Orchard | Rárá, iṣẹ́ tí a gbàlejò | Ìpàdé tí a ti san tẹ́lẹ̀, a kò tẹ̀ ẹ́ jáde iye owó rẹ̀ | Ko si KYC ti a sọ, awọn agbegbe ko ti sọ | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Oníbàárà ń tọ́jú ara rẹ̀, oníṣòwò sì ń yanjú ìṣòro owó fiat | A ko fi owo pamọ fun onibara, apa gbigba ko si ni akọsilẹ | No | 1% fun isanwo kan | Orílẹ̀-èdè Amẹ́ríkà àti orílẹ̀-èdè SEPA mẹ́tàdínlógójì, ZEC ní EU kò tíì jẹ́rìí sí i | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Àìsí ìtọ́jú nípasẹ̀ àìyípadà | Rárá, àdírẹ́sì tí ó ṣe kedere nìkan | No | 0.5%, tabi 1% pẹlu iyipada | Àgbáyé àyàfi níbi tí a ti kà á léèwọ̀, kò sí KYC láti bẹ̀rẹ̀ | 2026-07-29 |
 | [Plisio (ìlú)](https://plisio.net/accept-zcash) | Custodial, despite marketing | Not documented | No | 0.5% API, 1.5% white label | No KYC to receive | 2026-07-29 |

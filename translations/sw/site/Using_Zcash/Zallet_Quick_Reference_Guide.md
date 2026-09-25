@@ -151,7 +151,7 @@ zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 | Kigezo  | Aina   | Inahitajika | Maelezo             |
 |------------|--------|----------|-------------------------|
 | anwani    | kamba | ndiyo      | Anwani ya uwazi     |
-| sahihi  | kamba | ndiyo      | Saini ya Base64        |
+| sahihi  | kamba | ndiyo      | Saini Base64        |
 | ujumbe    | kamba | ndiyo      | Ujumbe asili        |
 
 ---
@@ -454,7 +454,7 @@ zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [n
 | kutoka kwa anwani      | kamba | ndiyo      | Anwani au akaunti ya UUID inayoeleweka              |
 | anwani        | kamba | ndiyo      | Sehemu ya mwisho iliyolindwa                             |
 | ada              | null   | no       | Lazima iwe `null`                                   |
-| kikomo            | nambari | no       | Idadi ya juu zaidi ya UTXO za coinbase za kulinda           |
+| kikomo            | nambari | no       | Idadi ya juu zaidi ya UTXO coinbase za kulinda           |
 | memo             | kamba | no       | Memo iliyosimbwa kwa heksaidi                                 |
 | sera_ya_faragha   | kamba | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
 

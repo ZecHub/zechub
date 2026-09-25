@@ -40,7 +40,7 @@ Kabla ya kitu kingine chochote, eleza dhana potofu ya kawaida: ** Zcash sio "sar
 | Faragha | Umma, kama vile Bitcoin | Privat |
 | Anwani huanza na | `t...` | `z...` or `u...` |
 | Mtumaji/mpokeaji/kiasi | **Inaonekana** kwa kila mtu | **Imefichwa** kutoka kwa kila mtu |
-| Teknolojia ya msingi | Kitabu cha umma cha mtindo wa Bitcoin | Ahadi za kidijitali + uthibitisho wa kutojua chochote |
+| Teknolojia ya msingi | ledger cha umma cha mtindo wa Bitcoin | Ahadi za kidijitali + uthibitisho wa kutojua chochote |
 
 Fedha inaweza hata kuvuka mpaka kati yao: kuhamisha fedha * katika * ulimwengu ulinzi inaitwa * kulinda *, na kuihamisha tena ni * unshielding *.
 
@@ -217,11 +217,11 @@ Sasa unashikilia ramani hiyo. Mfululizo unaobaki hujaza ramani.
 |---|---|
 | **Dokezo** | Kitengo cha thamani cha kibinafsi, sawa na sarafu au noti Zcash's |
 | **Ahadi ya Kumbuka** | Muhuri wa siri unaothibitisha kwamba noti ipo bila kuifichua |
-| **Note commitment tree** | The append-only public record of all note commitments |
+| **Mti wa ahadi ya kumbuka** | Rekodi ya umma ya ahadi zote za noti zinazoongezwa pekee |
 | **Kifuta null** | Alama ya kipekee ya "kutumika" iliyochapishwa wakati noti inatumiwa, kuzuia matumizi mara mbili |
 | **Ushahidi wa kutojua** | Uthibitisho kwamba kauli ni kweli bila kufichua chochote zaidi ya ukweli wake |
 | **Kulinda/kuondoa** | Kuhamisha fedha kuingia/kutoka katika ulimwengu wa kibinafsi uliolindwa |
-| **Ufunguo wa kutazama** | Ufunguo unaomruhusu mmiliki kugundua na kusoma maelezo yaliyoelekezwa kwake |
+| **Viewing key** | Ufunguo unaomruhusu mmiliki kugundua na kusoma maelezo yaliyoelekezwa kwake |
 
 ---
 

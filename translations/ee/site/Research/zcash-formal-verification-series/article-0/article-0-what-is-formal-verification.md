@@ -85,7 +85,7 @@ Esi wònye be ele eme le gɔmedzedze (0) eye afɔɖeɖe ɖesiaɖe kplɔa ame yia
 
 Kpeɖodziwɔwɔ le se nu nye ŋusẽdɔ aɖe, elabena enana míekpɔnɛ be *afi kae* vodadawo tsona gbã. Mɔnu ɖesiaɖe si dzi woato akpɔ nyawo gbɔ la ate ŋu ava nɔ te ɖe nɔnɔme etɔ̃ siawo dometɔ ɖeka dzi:
 
-| Source of a bug | What it means | Can we prove it away? |
+| Nudzodzoe aɖe tsoƒe | Nusi wòfia | Ðe míate ŋu aɖo kpe edzi be wòadzoa? |
 |---|---|---|
 | **Ame ƒe nɔnɔme si wogblɔ** | Akɔntabubu alo seawo ŋutɔ mesɔ o (nɔnɔme si bu, gɔmesese gbegblẽ) | **Ẽ**, tẽ, esia nye formal verification ƒe aƒeme turf |
 | **Dɔwɔwɔa** | Sea do kpo nuteƒewɔwɔ ƒe nɔnɔme si sɔ la wɔwɔ nuteƒewɔwɔtɔe | Eƒe akpa aɖe; zi geɖe la, kpododonu mawo gblẽa kpeɖodzi siwo woate ŋu ade dzesii ɖi |

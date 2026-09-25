@@ -59,10 +59,10 @@ NU6 ni sura moja katika hadithi ndefu kuhusu jinsi Zcash inavyolipia yenyewe.
 |---|---|
 | Ruzuku ya vitalu | ZEC mpya iliyoundwa na kila kitalu kinachochimbwa |
 | Muamala Coinbase | Muamala maalum unaolipa ruzuku na ada za block |
-| Kisanduku cha Kufuli cha Mfuko wa Wasanidi Programu Kilichoahirishwa | Akiba ya ndani ya itifaki ambayo inashikilia sehemu ya kutolewa kwa matumizi ya baadaye yaliyoamuliwa na jamii |
+| Kisanduku cha Kufungia cha Mfuko wa Wasanidi Programu Kilichoahirishwa | Akiba ya ndani ya itifaki ambayo inashikilia sehemu ya kutolewa kwa matumizi ya baadaye yaliyoamuliwa na jamii |
 | Ruzuku za Jumuiya Zcash (ZCG) | Kamati inayofadhili kazi na na kwa ajili ya jumuiya Zcash |
 | Kitambulisho cha tawi la makubaliano | Nodi za kitambulisho hutumia kubaini ni sheria gani za uboreshaji ambazo kizuizi hufuata |
-| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's , yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 
 ## FAQs
 

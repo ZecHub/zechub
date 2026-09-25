@@ -29,7 +29,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+defi-brand-restore+gloss-restore+prose-retranslate",
+      "tool": "gt-static+brand-restore+defi-brand-restore+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -205,7 +205,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -213,7 +213,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-4/article-4-merkle-trees.md": {
@@ -229,7 +229,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-6/article-6-shielded-protocol.md": {
@@ -237,7 +237,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Start_Here/Developer_Resources.md": {
@@ -413,7 +413,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+gloss-restore",
+      "tool": "gt-static+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -485,7 +485,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {
@@ -685,7 +685,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+prose-retranslate",
+      "tool": "gt-static+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -973,7 +973,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -1021,7 +1021,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -1045,7 +1045,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
@@ -1141,7 +1141,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+gloss-restore",
+      "tool": "gt-static+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
@@ -1157,7 +1157,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
@@ -1341,7 +1341,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+prose-retranslate",
+      "tool": "gt-static+prose-retranslate+table-rebuild",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -1749,7 +1749,7 @@
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     }
   },
@@ -5291,7 +5291,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+defi-brand-restore+gloss-restore+prose-retranslate",
+      "tool": "gt-static+brand-restore+defi-brand-restore+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -5467,7 +5467,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -5475,7 +5475,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-4/article-4-merkle-trees.md": {
@@ -5491,7 +5491,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+table-rebuild",
       "edited": false
     },
     "Research/zcash-foundations-series/article-6/article-6-shielded-protocol.md": {
@@ -5499,7 +5499,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Start_Here/Developer_Resources.md": {
@@ -5507,7 +5507,7 @@
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+prose-retranslate",
+      "tool": "gt-static+brand-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Start_Here/Development_Fund.md": {
@@ -5675,7 +5675,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+gloss-restore",
+      "tool": "gt-static+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -5747,7 +5747,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {
@@ -5787,7 +5787,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
@@ -6235,7 +6235,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -6275,7 +6275,7 @@
       "src_commit": "a7088bd66279fea1abde028ad0771c7f833074e7",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore",
+      "tool": "gt-static+brand-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -6283,7 +6283,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -6307,7 +6307,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
@@ -6403,7 +6403,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+brand-restore+gloss-restore",
+      "tool": "gt-static+brand-restore+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
@@ -6603,7 +6603,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+prose-retranslate",
+      "tool": "gt-static+prose-retranslate+table-rebuild",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -7011,7 +7011,7 @@
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     }
   },
@@ -12899,7 +12899,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
@@ -13619,7 +13619,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -14027,7 +14027,7 @@
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     }
   },
@@ -23919,7 +23919,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -24143,7 +24143,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+prose-retranslate",
+      "tool": "nllb-200-3.3B+prose-retranslate+table-rebuild",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -24551,7 +24551,7 @@
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     }
   },
@@ -28685,7 +28685,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
@@ -29221,7 +29221,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
@@ -29405,7 +29405,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+table-rebuild",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -29813,7 +29813,7 @@
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     }
   },

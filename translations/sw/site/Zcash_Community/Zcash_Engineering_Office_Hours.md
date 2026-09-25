@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Mkusanyiko wa rekodi za Zcash Engineering Office Hours .
+Mkusanyiko wa rekodi za Zcash Engineering Office Hours.
 
 # Zcash Engineering Office Hours
 

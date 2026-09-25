@@ -152,9 +152,9 @@ Míeɖe eme be míase egɔme bɔbɔe wu. Lean ƒe ŋgɔyiyi ŋutɔŋutɔ la me n
 | **Sidzedze ƒe nyonyome** | Kpeɖodzi si sɔ bia tso lododowɔla la si be wòaɖi ɖase vavã |
 | **Nuɖemɔ̃** | Dɔwɔwɔ si hea ɖasefoa doa goe le lodododzikpɔla ɖesiaɖe si ŋu kakaɖedzi le me |
 | **Blɔ** | Kpeɖodzi kpeɖeŋutɔ si wozãna tsɔ léa ŋku ɖe kpeɖodzia ŋu to mɔ̃ dzi |
-| **Agbalẽgbalẽ si sɔ** | Nusiwo dzi woda asi ɖo ƒe kpɔɖeŋu si wowɔ le se nu la ɖua dzi le nukpɔsusu siwo ŋu wobua tame le la dzi |
+| **ValidLedger** | Nusiwo dzi woda asi ɖo ƒe kpɔɖeŋu si wowɔ le se nu la ɖua dzi le nufiafiawo ƒe susu ŋu |
 | **Asibidɛ ƒe dzesi** | Liƒo si le akɔntabubu si ŋu kpeɖodzi le kple Rust kɔmpiuta dɔwɔɖoɖo si le dɔ wɔm dome |
-| **Le susu siwo wogblɔ te** | Kpeɖodzia lé ɖe asi si wona ŋkɔ cryptographic assumptions lé |
+| **Le susu siwo wogblɔ te** | Kpeɖodziawo lé ɖe te siwo wona ŋkɔ cryptographic assumptions lé |
 | **Tɔtrɔmɔ̃** | Se si ɖo seɖoƒe na ta aɖe ƒe dodo le eƒe gadzraɖoƒe siwo ŋu woate ŋu aɖo kpee |
 | **Nya ɣaɣlawo ƒe nyatakaka si ŋu kakaɖedzi le ŋutɔ** | Crypto tutu kple kpeɖodzi le se nu abe afɔɖeɖe si wozãna ɖaa ene |
 

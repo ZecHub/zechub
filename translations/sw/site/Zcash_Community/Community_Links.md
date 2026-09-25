@@ -43,7 +43,7 @@ Zcash ina uwepo hai wa kimataifa kwenye X. Akaunti muhimu za kufuata:
 | [@Zcash](https://x.com/zcash) | Akaunti rasmi ya Zcash |
 | [@ZecHub](https://x.com/zechub) | ZecHub DAO - elimu ya jamii na zawadi |
 | [@zodl_app](https://x.com/zodl_app) | Pochi ya ZODL (zamani Zashi) |
-| [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash Foundation updates |
+| [@ZcashFoundation](https://x.com/zcashfoundation) | Masasisho Zcash Foundation |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Jumuiya ya Zcash Brazil |
 | [@ZcashTR](https://x.com/ZcashTR) | Uturuki Zcash |
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |

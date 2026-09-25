@@ -145,7 +145,7 @@ N'ịchịkọta ihe ọmụma ahụ, lee ihe ndekọ ahụ dum n'otu peeji.
 | **Gbaa gburugburu** | Na-ehichapụ "nha," yabụ uru anaghị ekpughe ihe ọ bụla gbasara otu esi emepụta ya |
 | **Ọrụ anọ niile na-arụ ọrụ** | Ntụziaka maka ihe odide nzuzo (igodo, nkwa, ihe akaebe) chọrọ ezigbo algebra, ọ bụghị naanị ịgụta ọnụ |
 | **Nha a ga-ahọrọ** | Họrọ 255-bit ma ọ bụ 381-bit praịm, ebe ahụ nwere ọtụtụ ihe karịa atọm dị na mbara igwe a na-ahụ anya; ịkọ nkọ enweghị olileanya |
-| **Exact and deterministic** | Two honest parties computing the same thing always get identical results, which proofs depend on |
+| **Kpọmkwem na nke doro anya** | Ndị otu abụọ na-eme ihe n'eziokwu na-agbakọ otu ihe na-enweta otu nsonaazụ mgbe niile, nke ihe akaebe dabere na ya |
 
 A finite field is, in one phrase, **a perfectly closed, perfectly exact, perfectly huge playground for arithmetic.** Everything else in Zcash is built by playing inside it.
 

@@ -44,7 +44,7 @@ Overwinter was the first Zcash network upgrade after the October 2016 mainnet la
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's , nke a na-arụ ọrụ na elu blọk edobere |
+| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
 | Njikọ ngalaba nkwekọrịta | Ihe njirimara dị mkpirikpi nke na-akpọ aha iwu nkwekọrịta dị ugbu a |
 | Elu mmalite ọrụ | Mkpọchi ebe iwu ọhụrụ nke nkwalite netwọkụ ga-amalite ịrụ ọrụ |
 | Nchedo ọzọ | Iwu nke na-egbochi azụmahịa dị irè n'otu agbụ ka a ghara iji ya mee ihe ọzọ |

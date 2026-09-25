@@ -78,7 +78,7 @@ Wallets na node programu kushughulikia zaidi ya hii moja kwa moja, lakini mabadi
 | Kidudu cha usikivu | Dosari inayoruhusu muamala batili kupitisha ukaguzi wa uthibitisho kana kwamba ni halali |
 | Turnstile | Kituo cha ukaguzi cha umma kinachohesabu thamani inayohamishwa kati ya mabwawa ili usambazaji uendelee kukaguliwa |
 | Matumizi pekee | Bwawa la kuogelea unaloweza kutumia, lakini huwezi kuongeza thamani mpya |
-| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's , yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 | Dokezo linaloweza kurejeshwa kwa Quantum | Muundo wa noti ulioundwa ili fedha ziweze kupatikana ikiwa kompyuta za kwantum zitavunja usimbaji fiche wa leo |
 
 ## FAQs
