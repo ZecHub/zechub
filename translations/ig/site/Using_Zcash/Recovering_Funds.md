@@ -59,7 +59,7 @@ Maka ntụaka mbugharị zuru oke, gụnyere ụzọ mgbake zuru ezu, iwu, ụgw
 | Ị nwere | Malite ebe a |
 | --- | --- |
 | Okwu mkpụrụ ma ọ bụ **mkpụrụ ego mmefu nke na-abụghị nke Sprout** sitere na obere akpa ego dị ugbu a ma ọ bụ nke a na-elekọta n'oge na-adịbeghị anya, gụnyere ihe ochie YWallet Zcash | [Zkool](#fund-recovery-with-zkool) |
-| Naanị **viewing key ** | Zkool nwere ike ibubata igodo nlele akwadoro maka ohere ịgụ naanị, mana viewing key enweghị ike inye ikike maka mmefu mgbake. Chọta mkpụrụ ma ọ bụ igodo mmefu kwekọrọ. |
+| Naanị **viewing key** | Zkool nwere ike ibubata igodo nlele akwadoro maka ohere ịgụ naanị, mana viewing key enweghị ike inye ikike maka mmefu mgbake. Chọta mkpụrụ ma ọ bụ igodo mmefu kwekọrọ. |
 | Mkpụrụ nke mkpụrụ okwu iri abụọ na anọ nke **ZecWallet Lite** | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
 | ZecWallet Lite ma ọ bụ zcashd `wallet.dat`, ma ọ bụ isi ihe eji emefu Sapling / Sprout | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Dịka ọ dị na Septemba 18, 2026, v1.3.0 dị ugbu a ma bụrụ nke a na-ahọrọ; jiri v1.2.0 ma ọ bụ karịa maka `wallet.dat` na mgbake Sprout. |
 | Ihe Sprout nke Argos na-enweghị ike ijikwa, ma ọ bụ mgbake ebe ịchọrọ ka ihe ndị dị na ya dị n'okpuru njikwa nke gị | Jiri ụzọ sidecar ochie dị na [ntuziaka ubi zuru oke](/research/zec-pool-migration/view). |

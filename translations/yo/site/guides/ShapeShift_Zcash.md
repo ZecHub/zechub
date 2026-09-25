@@ -148,12 +148,12 @@ As regulatory environments tighten around the world, with regions like the EU ex
 |---|---|
 | **Pẹpẹ** | ShapeShift DAO (a ti pín sí méjì, orísun ṣíṣí sílẹ̀) |
 | **Ìjọba** | Àwọn tó ni àmì FOX |
-| **Zcash ** | Iṣowo ZEC ni kikun pẹlu atilẹyin iṣowo aabo |
+| **Zcash** | Iṣowo ZEC ni kikun pẹlu atilẹyin iṣowo aabo |
 | **A nilo KYC** | No |
 | **Ààbò** | Kì í ṣe àkóso (àwọn olùlò máa ń pa àwọn kọ́kọ́rọ́ tiwọn mọ́) |
 | **Àwọn Ìyípadà Ẹ̀wọ̀n Àgbélébùú** | BTC, ETH, Arbitrum, Cosmos, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ |
 | **Ilé-iṣẹ́ amúlétutù** | Agbara lati owo Liquify (atilẹyin RPC blockchain 90+) |
-| **Zcash ** | $50,000 fun atilẹyin imọ-ẹrọ ati titaja |
+| **Zcash** | $50,000 fun atilẹyin imọ-ẹrọ ati titaja |
 
 Awọn ShapeShift ati Zcash isopọmọ duro fun a significant igbese siwaju fun asiri ni decentralized owo. nipa apapo ti awọn non-custodial, multichain iṣowo amayederun pẹlu zero imo ẹri imọ ẹrọ zcash ká, olumulo gba wiwọle si gan ikọkọ, permissionless cryptocurrency isowo. fun ẹnikẹni ti o iye owo ìpamọ ati ara-aṣẹ ọba aláṣẹ, yi integration pese kan wulo, wọlé ipa ọna lati lilo ZEC lai adehunsofin .
 

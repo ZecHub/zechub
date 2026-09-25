@@ -167,7 +167,7 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 | **Alaafia** | Ìdánilójú pé àwọn gbólóhùn òtítọ́ nìkan ló lè mú ẹ̀rí tó wúlò wá |
 | **Ààlà ìlera** | Ìdènà tí ó sọnù tí ó jẹ́ kí àwọn gbólóhùn èké kọjá |
 | **Kò sí ìdíwọ́** | Circuit kan ti o padanu ipo ti o nilo, gbongbo kokoro Orchard |
-| **A le ṣe àwárí / a ko le ṣe àwárí ** | Bóyá ìfìyàjẹni yóò fi ẹ̀rí sílẹ̀ nínú ledger gbogbogbòò |
+| **A le ṣe àwárí / a ko le ṣe àwárí** | Bóyá ìfìyàjẹni yóò fi ẹ̀rí sílẹ̀ nínú ledger gbogbogbòò |
 
 ---
 

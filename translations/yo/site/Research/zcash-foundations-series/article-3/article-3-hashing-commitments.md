@@ -113,7 +113,7 @@ Zcash ti lo awọn hash oriṣiriṣi kọja awọn apẹrẹ rẹ, ọkọọka
 | Apẹrẹ | Àwọn ìṣẹ́ tí a lò | Nibo |
 |---|---|---|
 | **Sprout** (àkọ́kọ́) | **SHA-256** | Ṣe akiyesi awọn ileri ati igi naa |
-| **Sapling** | ** Pedersen hashes ***, pẹlu **BLAKE2** | Pedersen fún àwọn ìlérí àkọsílẹ̀ àti igi Merkle; BLAKE2 fún ìyọrísí pàtàkì àti àwọn ohun tí kò ní ìtumọ̀ |
+| **Sapling** | **Pedersen hashes** *, pẹlu **BLAKE2** | Pedersen fún àwọn ìlérí àkọsílẹ̀ àti igi Merkle; BLAKE2 fún ìyọrísí pàtàkì àti àwọn ohun tí kò ní ìtumọ̀ |
 | **Orchard** (lọ́wọ́lọ́wọ́) | **Sinsemilla**, pẹlu **Poseidon** | Sinsemilla fún àwọn ìlérí àkọsílẹ̀ àti igi Merkle; Poseidon fún àwọn ohun tí ó ń parọ́, gbogbo wọn ni a ṣe fún àwọn àyíká ìṣirò |
 
 The names to recognize are **Pedersen** and **Sinsemilla** (commitment-style hashes built from curve points, so they inherit the "adds up" superpower and prove cheaply) and **Poseidon** (a field-arithmetic hash purpose-built for zero-knowledge circuits). When Article 0 said a note's contents are sealed into a commitment, *this* is the machinery doing the sealing.
