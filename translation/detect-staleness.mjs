@@ -19,7 +19,9 @@
 //             forever). Rename reconciliation is left to the operator agent.
 // Plus, informationally:
 //   uncurated — a non-global page exists in site/ but is not in the curated
-//               list (candidate to add, or intentionally out of scope).
+//               list (candidate to add). A page deliberately served in English
+//               in every locale is listed in translation/english-only-pages.txt
+//               instead, and is not reported.
 //
 // A `stale` (or `orphan`) page is additionally flagged `highSeverity` when the
 // English change touches security/deprecation/warning content — those must not
@@ -221,7 +223,14 @@ function walkSourcePages() {
     .filter((p) => p.endsWith(".md") && !p.startsWith("site/zechubglobal/"))
     .map((p) => p.replace(/^site\//, ""));
 }
-const uncurated = walkSourcePages().filter((p) => !curatedSet.has(p)).sort();
+// Pages served in English in every locale BY DECISION (the wallet page: every
+// line on it is a brand, a logo or data the wiki parses by its English labels).
+// Listing them keeps "uncurated" meaning "candidate to translate".
+const englishOnlyPath = join(root, "translation/english-only-pages.txt");
+const englishOnly = new Set(existsSync(englishOnlyPath)
+  ? readFileSync(englishOnlyPath, "utf8").split("\n").map((l) => l.trim()).filter((l) => l && !l.startsWith("#"))
+  : []);
+const uncurated = walkSourcePages().filter((p) => !curatedSet.has(p) && !englishOnly.has(p)).sort();
 
 // ---- summarize ------------------------------------------------------------
 
