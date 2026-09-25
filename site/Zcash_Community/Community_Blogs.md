@@ -16,7 +16,7 @@ Here are some of the active ones:
 | roomatemusing              | Musings and community content                            | [Visit ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | Technical blog focused on Zcash development and tools    | [Visit ->](https://blog.nerdbank.net/) |
 | ZecMec                     | Zcash-focused articles on Medium                         | [Visit ->](https://zecmec21.medium.com/) |
-| Ian Sagstetter             | In-depth articles and newsletter                         | [Visit ->](https://iansagstetter.substack.com/) |
+| Ian Sagstetter             | In-depth articles and newsletter                         | [Visit ->](https://web.archive.org/web/202205101/https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)     | High-profile interviews and content on privacy           | [Visit ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | Creative and community-driven Zcash content              | [Visit ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Technical writings from Zcash core developer             | [Visit ->](https://words.str4d.xyz/) |

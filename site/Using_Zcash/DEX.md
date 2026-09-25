@@ -63,12 +63,15 @@ ___
 
 ___
 
-### Router Protocol
+### Router Protocol (offline)
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Website: https://app.routerprotocol.com/
-- Description: Cross-chain liquidity transport layer that allows seamless asset and data transfer between multiple blockchains.
+**Status:** Origin DNS does not resolve as of 19 Sep 2026. `app.routerprotocol.com` returns `ENOTFOUND`. Do not treat this as a live swap frontend.
+
+- Last listed website: `https://app.routerprotocol.com/`
+- Description: Was listed as a cross-chain liquidity transport layer. The listed frontend origin is unreachable.
+
 
 ___
 
