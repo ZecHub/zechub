@@ -14,7 +14,7 @@ Ironwood ni bwawa lililolindwa lililofika na uboreshaji wa mtandao wa Julai 2026
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
 </a>
 
-- Tovuti: [Mkoba](https://backpack.exchange)
+- Tovuti: [Backpack](https://backpack.exchange)
 - Jozi: ZEC/USDC | ZEC-PERP
 - Usaidizi: Amana na utoaji pesa umewezeshwa. Aina za anwani hazijatajwa
 - Muda wa Kuweka Amana: Haijatajwa
@@ -131,7 +131,7 @@ ___
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- Tovuti: [Sawa](https://www.okx.com)
+- Tovuti: [OKX](https://www.okx.com)
 - Jozi: ALL/ZEC
 - Inasaidia: Uwazi
 - Muda wa Kuweka Amana: Dakika 25 

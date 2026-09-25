@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Koma Nnua
+# Heartwood
 
 > Heartwood kɔɔ so yɛɛ adwuma wɔ Zcash mainnet so wɔ block 903,000 (July 16, 2020 UTC).
 
@@ -96,4 +96,4 @@ Na ɛsɛ sɛ Coinbase outputs yɛ nea ɛda adi pefee, enti bere nyinaa na obi a 
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Nhwiren a ɛyɛ fɛ](../zcash-tech/blossom) · Deɛ ɛdi hɔ: [Canopy a wɔde yɛ adwuma](../zcash-tech/canopy)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Blossom](../zcash-tech/blossom) · Deɛ ɛdi hɔ: [Canopy](../zcash-tech/canopy)

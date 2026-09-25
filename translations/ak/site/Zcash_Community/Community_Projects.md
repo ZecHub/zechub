@@ -10,7 +10,7 @@ Hwehwɛ mfidie, sika nkotoku, dwumadie ahodoɔ, nwomakorabea ne nneɛma a Zcash 
 Nwoma a wɔfa so sua ade na Zcash wiase nyinaa ayɛ. 
 [Nsrahwɛ a ɛba so](https://github.com/massadoptionorg/My-First-Zcash)
 
-### ZECNkyerɛw no mu
+### ZECPublish
 Zcash blockchain-a wɔfa so yɛ social media a ɛmmrɛ sɛ wɔbɛsesa no. Ɛka wɔn a wɔde Zcash di dwuma ho din ne message board bi nso wom. 
 [Nsrahwɛ a ɛba so](https://www.zecpublish.com)
 
@@ -42,7 +42,7 @@ Ahintasɛm-kan anibue a wɔhwɛ so ma nnipa nyinaa, na ɛboa wɔn ho ne AV mmoa 
 Nwoma a wɔhyehyɛ no yɛ nhyehyεe ma wɔn a wͻde Zcash di dwuma na wͻn de yε adwuma. 
 [Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
-### Zectastic (Nneɛma a wɔhwɛ so)
+### Zectastic
 Interactive bea a Zcash-themed agodie ne nnipa kuo dwumadie wɔ hɔ. 
 [Nsrahwɛ a ɛba so](https://zectastic.com/)
 
@@ -121,7 +121,7 @@ Ywallet a ɔgye Zcash protocol mfoni foforɔ di, ɛne Orchard.
 Dwumadi krataa a emu yɛ hare ma Zcash, na wɔakyerɛw no Rust mu. 
 [Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
-### Aboɔ apam nwoma (Gem Wallet)
+### Gem Wallet
 Multi-chain, open source, self-custodial wallet a ɛboa sɛ wɔsoma ZEC. 
 [Nsrahwɛ a ɛba so](https://gemwallet.com/)
 
@@ -179,7 +179,7 @@ Dwumadibea a wɔde yɛ bere-mu Zcash network statistics ne shielding metrics.
 Nhyehyɛeɛ a wɔde di dwuma ne data metrics dwumadie ma Zcash wɔ ɛbɔ no ho. 
 [Nsrahwɛ a ɛba so](https://zecprice.com)
 
-### Nkyea a wɔhyehyɛ no
+### Zlink
 Kɔmputa a wɔde hwehwɛ akwan, nnwinnade ne nsɛm fa Zcash mu. 
 [Nsrahwɛ a ɛba so](https://zlink.click)
 
@@ -220,7 +220,7 @@ Browser atwerԑde a' ɔdan sika ho nsesaeԑ de kɔ ZEC wɔ bere ankasa mu sε wo
 Anonim a obi bɛpa ho kyɛw no dwumadibea a Zcash ahobammɔ na ɛma ɛyɛ adwuma. 
 [Nsrahwɛ a ɛba so](https://shieldedwall.org/)
 
-### Atutufoɔ
+### Ztrash
 Krataa a wɔde kɔma obi wɔ e-mail mu no, ɔde ZEC na ɛtua ho ka. 
 [Nsrahwɛ a ɛba so](https://ztrash.com/)
 

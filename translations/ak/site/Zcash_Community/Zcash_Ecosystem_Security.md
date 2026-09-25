@@ -9,7 +9,7 @@
 Wɔnam ZCG mmoa so na ɛde Zcash Ecosystem Security Lead dwumadie no sii hɔ sɛ ɛbɛma ahobanbɔ mfiridwuma a wɔatu wɔn ho ama ama Zcash ecosystem a ɛtrɛ — titire no ZCG mmoa — a ɛwɔ ECC ne ZF akyi.
 
 - **2022–2023:** [asase a wɔde hyɛ asase so](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) ɔsom sɛ Ecosystem Security Lead a odi kan. Sua pii wɔ [zecsec.com so na ɛwɔ hɔ](https://zecsec.com).
-- **2024–2025:** Wɔapaw ZCG [Tumi a Ɛsua koraa](https://leastauthority.com) sɛ wɔbɛtoa dwumadi no so denam foforo so [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723). Wobetumi ahu nsɛm foforo a wɔayɛ [ha](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
+- **2024–2025:** Wɔapaw ZCG [Least Authority](https://leastauthority.com) sɛ wɔbɛtoa dwumadi no so denam foforo so [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723). Wobetumi ahu nsɛm foforo a wɔayɛ [ha](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
 - **2026:** Labs a wɔabɔ ho ban [ɔhyɛɛ Taylor Hornby aware nhyehyɛe](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) sɛ ahobammɔ ho ɔfotufo a ɔbɛhyɛ Zcash ahobammɔ tumi mu den.
 
 ## ZCG Ahobanbɔ & Nneɛma a Ɛyɛ Fɛ a Wɔda no Adi Ho Dwumadi

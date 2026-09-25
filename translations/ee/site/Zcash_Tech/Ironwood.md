@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ironwood ƒe ati
+# Ironwood
 
 > Ironwood wɔ dɔ le Zcash mainnet dzi le block 3,428,143 le July 28, 2026 UTC, eye wòle agbe tso ɣemaɣi.
 

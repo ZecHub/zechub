@@ -147,7 +147,7 @@ We simplified for clarity. The real Lean development is far more detailed than t
 
 Asɛmfua. Nkyerεase a emu da hɔ wɔ Borɔfo mu no kyerɛ sɛ:
 |---|---|
-Zcash ne banbɔ a wɔabɔ no ho ban foforo (2026), na ɛbɛsi Orchard banbɔa a ɛreyɛ bɔne no ananmu.
+**Ironwood**. Zcash ne banbɔ a wɔabɔ no ho ban foforo (2026), na ɛbɛsi Orchard banbɔa a ɛreyɛ bɔne no ananmu.
 ** Balance integrity** The pool never pays out more value than publicly entered it. - Nkrataa a w'atwerɛ no, ɛnnyɛ sɛ wode wo ho ahyɛ mu na ɛyɛ adwuma ntia; ɛsan yɛ nea wobɛtumi de ayɛ adwuma ama obi biara wɔ bere tenten bi akyi.
 **Nimdeɛ mu ntease pa**. Nkyerɛkyerɛmu a edi mũ hwehwɛ sɛ ɔdansefo ankasa na odi adanseɛ no ho dwuma.
 ** Extractor**. Adeyɛ a ɛtwe adansefo no fi biribiara mu ma wogye di sɛ ɛyɛ nokware ho adansedi biara akyi.

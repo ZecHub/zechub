@@ -16,7 +16,7 @@ Kpekpeɖeŋunana ameŋunyatakakawo ƒe nunɔamesiwo trɔna zi geɖe, eyata fli �
 | [BTCPay Dɔwɔƒe si Kpɔa Dɔwɔnyawo Gbɔ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non-custodial, view key ɖeɖeko | Ẽ, wokpɔ akpoxɔnu ko (Sapling, Orchard, UA) | Ẽ, ʋuʋu dzɔtsoƒe | Ðeke meli o, èxea network fees ko | Xexeame katã, KYC aɖeke meli o | Ƒe 2026-07-29 |
 | [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Asitsalawo ƒe ɖokuidzikpɔkpɔ, asitsala ɖoa anyi le fiat | Asitsalawo zãa akpoxɔnu, xɔxɔ akpa si womeŋlɔ ɖi o | Ao | 1% le fexexe ɖesiaɖe me | US kple SEPA dukɔ 37, ZEC le EU meɖo kpe edzi o | Ƒe 2026-07-29 |
-| [FIFIA Fexexewo](https://nowpayments.io/supported-coins/zcash-payments) | Menye vidzikpɔkpɔ o le gɔmedzedzea me | Ao, adrɛs si me kɔ koe | Ao | 0.5%, alo 1% kple tɔtrɔ | Xexeame katã negbe afisi wode se ɖo ko, KYC aɖeke meli be woadze egɔme | Ƒe 2026-07-29 |
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Menye vidzikpɔkpɔ o le gɔmedzedzea me | Ao, adrɛs si me kɔ koe | Ao | 0.5%, alo 1% kple tɔtrɔ | Xexeame katã negbe afisi wode se ɖo ko, KYC aɖeke meli be woadze egɔme | Ƒe 2026-07-29 |
 | [Plisio ƒe ŋkɔ](https://plisio.net/accept-zcash) | Custodial, togbɔ be asitsatsa | Womeŋlɔe ɖi o | Ao | 0.5% API, 1.5% yevu ƒe dzeside | KYC aɖeke meli si woaxɔ | Ƒe 2026-07-29 |
 | [Binance Fetu](https://pay.binance.com/en) | Custodial, off-kɔsɔkɔsɔ | Ao, wogbe ga si wotsɔ de akpoxɔnu me | Ao | Gakotoku femaxee yi gakotoku me, 0.8% ƒe fexexe | Woxe mɔ ɖe anyigba nu, woɖe ZEC ɖa le FR, ES, IT, PL | Ƒe 2026-07-29 |
 
@@ -135,7 +135,7 @@ Ewɔa dɔ le United States eye tso July 2026 me la, ewɔa dɔ le SEPA dukɔ kple
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
 - **Kpekpeɖeŋu Ƒomevi**: Edzena le gaglãgbe ɖeɖeko
 - **Numeɖeɖe**: NOWPayments nye crypto fexexe ƒe agbo si naa asitsalawo te ŋu xɔa Zcash fexexe kple nudzɔdzɔwo bɔbɔe.
-- **URL**: [FIFIA Fexexewo](https://nowpayments.io/supported-coins/zcash-payments)
+- **URL**: [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
 Kpekpeɖeŋu si ŋu wotsɔ akpoxɔnu ɖo aɖeke meli o. Woƒe nuŋlɔɖiwo gblɔna na wò be nàɖo adrɛs si me kɔ na Zcash, eye ZEC koe nye gaku si woɖe ɖe vovo nenema. Fe ɖesiaɖe si nàxɔ la nye dutoƒo le blockchain la dzi.

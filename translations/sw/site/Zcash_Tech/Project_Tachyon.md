@@ -121,7 +121,7 @@ Mimi haja ya kufanya kitu chochote sasa? Hapana Tachyon ni pendekezo. Kama kupit
 
 - [Kupata Habari za Kibinafsi](https://zechub.wiki/zcash-tech/private-information-retrieval) - mbinu nyingine kwa sawa mfuko wa fedha skanning bottleneck
 - [Zakura Node (Kituo cha Zakura)](https://zechub.wiki/zcash-tech/zakura-node) - node kujengwa sehemu nje ya juhudi uhandisi Tachyon wa
-- [Mti wa chuma](https://zechub.wiki/zcash-tech/ironwood) - kuboresha kwamba kuanzishwa katika Julai 2026, mara nyingi kuchanganyikiwa na Tachyon
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - kuboresha kwamba kuanzishwa katika Julai 2026, mara nyingi kuchanganyikiwa na Tachyon
 - [Mzunguko wa Kioo cha Gari-Moshi](https://zechub.wiki/zcash-tech/the-turnstile) - utaratibu Tachyon inaweza kutumia kama deployed kama bwawa yake mwenyewe
 - [Usalama Baada ya Quantum](https://zechub.wiki/zcash-tech/post-quantum-security) - ambapo Tachyon anakaa kando ya muda mrefu kazi itifaki
 - [Jinsi Zcash Ilivyopangwa](https://zechub.wiki/start-here/how-zcash-is-organized) - Nani anafanya kazi hii na jinsi mazingira yanavyoungana pamoja

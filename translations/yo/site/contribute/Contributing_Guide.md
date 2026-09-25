@@ -108,6 +108,6 @@ Awọn ẹsan fun iru akoonu yii jẹ diẹ ti o tobi, nitorinaa a nilo lati fi 
 
 ### Kí N Tó parí Ìkẹ́kọ̀ọ́ Mi
 
-Jọwọ ma ṣe ṣiyemeji lati bẹrẹ si ni idasi fun ọkan ninu awọn ile ise ká julọ bọwọ protocols. yi jẹ nla kan ona lati gba lowo pẹlu zcash. ti o ba ti o ni eyikeyi ibeere nipa didasilẹ, jọwọ fi wa mọ lori Zcash . [Ìjàǹbá ọkàn](#join-the-conversation).
+Jọwọ ma ṣe ṣiyemeji lati bẹrẹ si ni idasi fun ọkan ninu awọn ile ise ká julọ bọwọ protocols. yi jẹ nla kan ona lati gba lowo pẹlu zcash. ti o ba ti o ni eyikeyi ibeere nipa didasilẹ, jọwọ fi wa mọ lori Zcash . [Discord](#join-the-conversation).
 
 Ẹ ṣeun!

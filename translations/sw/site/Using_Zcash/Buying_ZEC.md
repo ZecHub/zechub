@@ -20,7 +20,7 @@ Unaweza pia madini ZEC, lakini kwamba ni kawaida haiwezekani kwa watumiaji wa wa
 
 ## Kubadilishana kwamba msaada kuondolewa shielded
 
-**[Jamani](https://www.gemini.com)**
+**[Gemini](https://www.gemini.com)**
 
 Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes it simple and secure to buy ZEC, Ether, and other cryptocurrencies. You can buy ZEC with fiat or other cryptocurrencies.
 

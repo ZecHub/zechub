@@ -20,11 +20,11 @@ _Àte ŋu aku ZEC hã, gake zi geɖe la, ema manya wɔ na nuƒlela mamã dedie o
 
 ## Exchange siwo doa alɔ gaɖeɖe si wokpɔ ta na
 
-**[Gemini ƒe ŋkɔ](https://www.gemini.com)**
+**[Gemini](https://www.gemini.com)**
 
 Gemini nye cryptocurrency exchange, gakotoku, kple nudzrala si ŋu wowɔ ɖoɖo ɖo si na wòle bɔbɔe eye wòle dedie be woaƒle ZEC, Ether, kple cryptocurrency bubuwo. Àte ŋu aƒle ZEC kple fiat alo cryptocurrencies bubuwo.
 
-**[BitcoinVN ƒe agbalẽ](https://bitcoinvn.io)**
+**[BitcoinVN](https://bitcoinvn.io)**
 
 BitcoinVN nye asitɔtrɔ enumake si menye nudzraɖoƒe o si doa alɔ shielded (z-address) deposits kple gaɖeɖe na ZEC — exchange ʋee ŋutɔwo dometɔ ɖeka le xexeame katã kple z-address ƒe kpekpeɖeŋu blibo. Esi nèle dɔ wɔm tso ƒe 2014 me ta la, àte ŋu aɖɔli BTC, ETH, USDT, kple cryptocurrencies bubuwo na ZEC tẽe ɖe wò gakotoku si ŋu wokpɔ ta na la me.
 
@@ -37,7 +37,7 @@ Flyp.me nye crypto exchange si me womedea asi agbalẽ te o. Enye mɔ siwo le de
 Exchange gã akpa gãtɔ doa alɔ Zcash. Kpɔ afisia hena xexlẽdzesi tsitotsito: [afisia](https://zechub.wiki/using-zcash/custodial-exchanges).
 
 
-**[Coinbase ƒe ƒuƒoƒo](https://www.coinbase.com)**
+**[Coinbase](https://www.coinbase.com)**
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

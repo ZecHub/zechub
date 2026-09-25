@@ -101,7 +101,7 @@ Nuɖoanyi yeyewo ɖea nudidi sia ɖa keŋkeŋ, si nye susu gãtɔ siwo ta Zcash 
 | Aɖaŋuwɔwɔ | Kpeɖodzi ƒe ɖoɖo | Ðoɖo si dzi woka ɖo? | Wotue ɖe |
 |---|---|---|---|
 | **Sprout** (gbãtɔ kekeake) | gbãtɔ zk-SNARK | Ẽ | kɔnu gbãtɔ |
-| **Atitikewo** | **Tsitsi16** | Ẽ (ame geɖewo ƒe "Powers of Tau" + Sapling ƒe kɔnu) | **BLS12-381** (Nyati 2 lia) |
+| **Sapling** | **Tsitsi16** | Ẽ (ame geɖewo ƒe "Powers of Tau" + Sapling ƒe kɔnu) | **BLS12-381** (Nyati 2 lia) |
 | **Orchard** (current) | **Halo 2** | **No trusted setup** | **Pallas / Vesta** (Article 2) |
 
 Azɔlizɔzɔ tso Sprout yi Sapling yi Orchard ƒe akpa gãtɔ nye ŋutinya si ku ɖe kpeɖodziwo ƒe sue, kabakaba, kple ɖoɖo si dzi woka ɖo la ɖeɖeɖa ŋu. **Halo 2**, si Orchard zãna la, mehiã kɔnu aɖeke kura o eye wotue be wòado alɔ *recursion* (kpeɖodzi siwo ɖoa kpe kpeɖodzi bubuwo dzi), si tae Orchard zãa Pallas/Vesta **cycle** of curves tso Se 2 lia me: wotrɔa curve ɖesiaɖe tsɔ ɖoa ​​kpe kpeɖodzi siwo woŋlɔ ɖe evelia dzi la dzi.
@@ -139,7 +139,7 @@ Zero-sidzedze kpeɖodziwo nye gogloƒe eye míeɖoe koŋ nɔ intuition level. M�
 | **Akɔntabubu ƒe nutome sue** | Nyagbɔgblɔ si wogbugbɔ ŋlɔ abe kpeɖeŋutɔ kple dzidziɖedzi le agble si seɖoƒe li na dzi |
 | **Menye nuwɔwɔ aduadu o (Fiat-Shamir)** | Kpeɖodzi si wotu zi ɖeka si mehiã be woanɔ agbe yi megbe kple ŋgɔ o |
 | **Kpuie ko** | Kpeɖodzia le sue eye woate ŋu aɖo kpe edzi kabakaba metsɔ le nyagbɔgblɔ ƒe lolome me o |
-| **zk-SNARK** ƒe ƒuƒoƒo | Zero-knowledge Kpuie si Mewɔa nu ɖekae o ARgument of Knowledge |
+| **zk-SNARK** | Zero-knowledge Kpuie si Mewɔa nu ɖekae o ARgument of Knowledge |
 | **Ðoɖo si dzi woka ɖo / gbeɖuɖɔ si me aɖi le** | Zi ɖeka ƒe parameter dzidzime si ƒe nya ɣaɣla susɔea wòle be woatsrɔ̃ |
 
 ---

@@ -36,7 +36,7 @@ Kò sí èyíkéyìí nínú ìwọ̀nyí tó lè náwó. Gbogbo wọn ló wà t
 
 ## Wiwo awọn bọtini lẹhin Ironwood
 
-NU6.3 ṣe àgbékalẹ̀ adágún tí wọ́n fi ààbò Ironwood ṣe, ó sì mú kí adágún Orchard náà náwó nìkan, kí owó lè máa lọ láti ọ̀kan sí òmíràn bí àkókò ti ń lọ. [Igi irin](/zcash-tech/ironwood) àti [Ìyípo náà](/zcash-tech/the-turnstile) fún ìgbéga náà fúnra rẹ̀.
+NU6.3 ṣe àgbékalẹ̀ adágún tí wọ́n fi ààbò Ironwood ṣe, ó sì mú kí adágún Orchard náà náwó nìkan, kí owó lè máa lọ láti ọ̀kan sí òmíràn bí àkókò ti ń lọ. [Ironwood](/zcash-tech/ironwood) àti [Ìyípo náà](/zcash-tech/the-turnstile) fún ìgbéga náà fúnra rẹ̀.
 
 **Kọ́kọ́rọ́ ìwòran kan tí a ti fi sílẹ̀ kí Ironwood tó máa ṣiṣẹ́ lẹ́yìn ìṣíkiri náà.** ZIP 326 sọ pé a ti lo ohun tí a gbà, àti kọ́kọ́rọ́ ìwòran tí ó báramu rẹ̀, sí Orchard *protocol* dípò sí adágún omi: ìwádìí ìwòran kan náà tí ń bọ̀ ń yọ àwọn ìkọ̀wé àkọsílẹ̀ Orchard-pool àti Ironwood-pool kúrò. Zallet ṣe é lọ́nà yẹn, ó ń ṣàpèjúwe àwọn àkọsílẹ̀ Ironwood gẹ́gẹ́ bí àwòrán Orchard àti ìyípadà ìdánwò pẹ̀lú àwọn kọ́kọ́rọ́ ìwòran Orchard àkọọ́lẹ̀ lábẹ́ agbègbè ìpamọ́ àkọsílẹ̀ Ironwood.
 

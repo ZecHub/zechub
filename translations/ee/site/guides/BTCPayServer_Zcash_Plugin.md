@@ -660,7 +660,7 @@ Ne èda plugin la vɔ la, **Zcash** ƒe akpa yeye aɖe adze le ɖoɖowo ƒe nyaw
 
 > Menye gakotokuwo katãe doa alɔ **Unified Full Viewing Key (UFVK)** ƒe dɔdɔ haɖe o. 
 > Tiatia siwo wokafu: 
-> – [**Zkool** ƒe .](https://github.com/hhanh00/zkool2/)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Gakotoku (trɔtrɔ na PC)**](https://zingolabs.org/)  
 > Le dɔwɔnu eveawo siaa me la, di UFVK ƒe dɔdɔ le backup/export ƒe akpaa dzi.
 

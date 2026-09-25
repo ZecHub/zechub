@@ -26,7 +26,7 @@ Kwa sababu kuna aina mbili, thamani inaweza kuhama kwa njia nne: uwazi hadi uwaz
 
 ## Kile ambacho mchunguzi anaweza kuona
 
-Mchunguzi wa umma kama vile [Kiti cha kuzuia](https://blockchair.com/zcash) inaweza kusoma waziwazi:
+Mchunguzi wa umma kama vile [Blockchair](https://blockchair.com/zcash) inaweza kusoma waziwazi:
 
 - Malipo yoyote ya uwazi kamili (t hadi t), kuanzia mwanzo hadi mwisho.
 - Pesa zinazoingia kwenye bwawa lenye ngao (upande unaoonekana na kiasi).

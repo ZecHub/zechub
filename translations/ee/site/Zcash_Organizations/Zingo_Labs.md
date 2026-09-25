@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Dziɖuɖua ƒe Nyatakakadzraɖoƒe](https://zingolabs.org/) - [Github ƒe ŋkɔ](https://github.com/zingolabs) - [X/Twitter dzi](https://x.com/ZingoLabs) - [Instagram dzi](https://www.instagram.com/zingolabesp/)
+[Dziɖuɖua ƒe Nyatakakadzraɖoƒe](https://zingolabs.org/) - [Github ƒe ŋkɔ](https://github.com/zingolabs) - [X/Twitter dzi](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs nye ŋutegakpɔlawo ƒe ƒuƒoƒo si tsɔ wo ɖokui na be yewoana amegbetɔ ƒe nuteƒekpɔkpɔ nanyo ɖe edzi. Míexɔe se be ele be mɔ̃ɖaŋununya naɖe vi na ameƒomea eye be míakpɔ dzidzedze to kadodo siwo dzi wolɔ̃ ɖo me. Míele dzesi dem kpɔɖeŋu siwo na esia te ŋu dzɔna.
 

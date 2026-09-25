@@ -16,7 +16,7 @@ Processor. Custody. Shielded ZEC. Self-host. Merchant ada. Mikoa / KYC. kuthibit
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  Hakuna uhifadhi, angalia tu ufunguo. Ndiyo, kulindwa (Sapling, Orchard, UA) Tu. Ndio, chanzo wazi. Hapana, unalipa ada ya mtandao tu. Global, hakuna KYC 2026-07-29
 | [ZGo](https://zgo.cash/) ☐ Hakuna dhamana ya kifungo cha muda. ❑ Ndiyo, Sapling na Orchard. ▸ Hapana, huduma iliyohifadhiwa. ❖ Kipindi kilicholipwa mapema, bei haijachapishwa.  KYC haikutolewa, mikoa haikutajwa. 2026-07-29
 | [Flexa](https://flexa.co/) 客户自保,商家以法币结算.客户花费保护,收款方未经记录.没有1% per payment.美国和37SEPA国家,欧盟ZEC未确认2026-07-29
-| [Sasa Malipo ya malipo](https://nowpayments.io/supported-coins/zcash-payments) Hakuna utunzaji kwa default. Hapana, anwani ya uwazi tu. Sio 0.5%, au 1% na ubadilishaji wa kimataifa isipokuwa ambapo marufuku, hakuna KYC kuanza 2026-07-29
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) Hakuna utunzaji kwa default. Hapana, anwani ya uwazi tu. Sio 0.5%, au 1% na ubadilishaji wa kimataifa isipokuwa ambapo marufuku, hakuna KYC kuanza 2026-07-29
 | [Plisio](https://plisio.net/accept-zcash)  Weka, licha ya uuzaji. Si kumbukumbu No 0.5% API 1.5% nyeupe lebo Hakuna KYC kupokea 2026-07-29
 | [Malipo ya Binance Pay](https://pay.binance.com/en)  Weka, nje ya mlolongo. Hapana, amana za kulindwa zinakataliwa. Hakuna bure mkoba kwa mfuko wa fedha, 0.8% payouts geo-kuzuiliwa, ZEC delisted katika FR, ES, IT, PL 2026-07-29
 
@@ -135,7 +135,7 @@ Inafanya kazi nchini Marekani na, tangu Julai 2026, katika nchi 37 za SEPA. Kama
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
 - ** Aina ya msaada**: Uwazi tu.
 - **Maelezo**: NOWPayments ni lango la malipo ya crypto ambayo inawawezesha wafanyabiashara kukubali malipo na michango ya Zcash kwa urahisi.
-- ** URL**: [Sasa Malipo ya malipo](https://nowpayments.io/supported-coins/zcash-payments)
+- ** URL**: [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
 Hakuna msaada kulindwa. nyaraka zao anasema kuweka anwani ya uwazi kwa Zcash, na ZEC ni sarafu tu wao pekee nje njia hiyo kila malipo kupokea ni umma juu blockchain.

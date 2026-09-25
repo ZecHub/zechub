@@ -16,7 +16,7 @@ Saa asɛm yi kyerɛkyerɛ deɛ ShapeShift yɛ, sɛdeɛ Zcash yɛ adwuma, sɛdeɛ
 
 ## Dɛn ne ShapeShift?
 
-[ShapeShift a Wɔde Yɛ Nneɛma](https://shapeshift.com/) yɛ decentralized, open-source cryptocurrency platform a ɛma wɔn a wɔde di dwuma no tumi di gua, di akyi, na wɔhwɛ dijitaal agyapade so wɔ blockchains pii so a wɔnyɛ akontaabu, mfa nkrataa a ɛkyerɛ sɛ wɔyɛ nnipa, anaasɛ wɔmfa wɔn sika sohwɛ mma.
+[ShapeShift](https://shapeshift.com/) yɛ decentralized, open-source cryptocurrency platform a ɛma wɔn a wɔde di dwuma no tumi di gua, di akyi, na wɔhwɛ dijitaal agyapade so wɔ blockchains pii so a wɔnyɛ akontaabu, mfa nkrataa a ɛkyerɛ sɛ wɔyɛ nnipa, anaasɛ wɔmfa wɔn sika sohwɛ mma.
 
 ### Abakɔsɛm Tiatiaa
 

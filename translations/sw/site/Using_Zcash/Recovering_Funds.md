@@ -29,7 +29,7 @@ ZEC ya zamani iliyolindwa inaweza kuhitaji kuhamishwa kama sehemu ya urejeshaji.
 | Fedha zako ziko | Njia ya uhamiaji | Cha kufanya |
 | --- | --- | --- |
 | **Sprout** | **Sprout → Sapling → Ironwood** | If you have `wallet.dat` au ufunguo wa matumizi wa Sprout unaojitegemea, jaribu njia ya sasa ya kurejesha Argos kwanza. Ikiwa Argos haifai, tumia njia ya gari la pembeni la zamani katika mwongozo kamili wa uwanja. Sprout lazima itue kwenye Sapling kwanza, kisha usonge mbele hadi Ironwood. Njia hii inazingatia wakati kwa sababu ya NU7. |
-| **Kuchanja** | **Kuchanja → Ironwood** | Hakuna mazingira ya urejeshaji wa Sprout yanayohitajika. Tumia pochi ya sasa ambayo inaweza kurejesha au kutumia akaunti yako maalum ya Sapling na kujenga miamala ya Ironwood. Usaidizi wa Ironwood pekee hauthibitishi usaidizi wa urejeshaji wa Sapling wa zamani. |
+| **Sapling** | **Sapling → Ironwood** | Hakuna mazingira ya urejeshaji wa Sprout yanayohitajika. Tumia pochi ya sasa ambayo inaweza kurejesha au kutumia akaunti yako maalum ya Sapling na kujenga miamala ya Ironwood. Usaidizi wa Ironwood pekee hauthibitishi usaidizi wa urejeshaji wa Sapling wa zamani. |
 | **Orchard** | **Orchard → Ironwood** | Orchard ni ya kutoka pekee. Tumia mtiririko wa uhamiaji wa pochi ya sasa inayoendana na Orchard iliyojengewa ndani ya Orchard-to-Ironwood. Tazama [Fedha zilizorejeshwa na bwawa la kuogelea la Ironwood](#recovered-funds-and-the-ironwood-pool). |
 
 ### Mtiririko wa maamuzi ya maswali matano
@@ -125,7 +125,7 @@ Unshield All ni muhimu wakati wa kujiondoa kwenye soko la kubadilishana ambalo l
 
 Argos inasoma faili za mbegu na pochi za ZecWallet Lite, zcashd `wallet.dat`, standalone Sapling extended spending keys, and Sprout spending material. For Sprout, a ZecWallet Lite seed alone is not enough because those keys were generated separately. Argos is a recovery tool, not a day-to-day wallet: inspect the source material locally, scan, then sweep into a maintained wallet you control.
 
-Mamlaka Ndogo Zaidi [imekaguliwa](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) chombo. Urejeshaji wenyewe ni bure. Mchango wa hiari kwa Sovright unaweza kuonekana wakati wa uporaji.
+Least Authority [imekaguliwa](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) chombo. Urejeshaji wenyewe ni bure. Mchango wa hiari kwa Sovright unaweza kuonekana wakati wa uporaji.
 
 > **Usichape mbegu kwenye tovuti.** Tovuti ya Argos ni upakuaji na upakuaji pekee [mwongozo wa mtumiaji](https://argos.sovright.com/guide.html)Funguo hubaki kwenye programu ya eneo-kazi iliyosainiwa. Uthibitisho ni wa ndani dhidi ya cheki za BIP-39. Sehemu ya mbegu hufunguka mara tu uchanganuzi unapoanza. Mtu yeyote anayekutumia ujumbe akiomba mbegu hiyo "ili kusaidia kurejesha pesa zako" anakulaghai.
 
@@ -191,7 +191,7 @@ Ikiwa ufunguo au mbegu imepotea, urejeshaji unaojiendesha wenyewe hauwezi kuanza
 
 Njia hiyo si sawa na kurejesha mbegu uliyonayo bado. Usimpe mtu yeyote mbegu inayofanya kazi anayejitolea "kuirejesha" kwa ajili yako. Toleo la ulaghai la huduma hii ni la kawaida.
 
-[Haijachorwa](https://unciphered.com) ni kampuni moja inayofanya kazi hii ndani na imeshughulikiwa katika maeneo kama vile [Imeunganishwa kwa waya](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Ni huduma ya jumla ya kurejesha data ya kidijitali, si kifaa maalum cha Zcash, na hutoza ada kwa kazi hiyo. ZecHub haiungi mkono kampuni yoyote ya kurejesha data. Ukifuata njia hii, thibitisha kikoa rasmi mwenyewe na udhani mtu yeyote anayekutumia DM kwanza ni mlaghai.
+[Unciphered](https://unciphered.com) ni kampuni moja inayofanya kazi hii ndani na imeshughulikiwa katika maeneo kama vile [Imeunganishwa kwa waya](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Ni huduma ya jumla ya kurejesha data ya kidijitali, si kifaa maalum cha Zcash, na hutoza ada kwa kazi hiyo. ZecHub haiungi mkono kampuni yoyote ya kurejesha data. Ukifuata njia hii, thibitisha kikoa rasmi mwenyewe na udhani mtu yeyote anayekutumia DM kwanza ni mlaghai.
 
 Ikiwa bado una ufunguo wa mbegu au matumizi unaofanya kazi, anza na njia ya kurejesha data inayojiendesha kama vile Zkool au Argos kwenye mashine yako mwenyewe badala yake.
 
@@ -206,7 +206,7 @@ Ikiwa tayari una nyenzo za kurejesha Zcash kutoka YWallet, zirejeshe katika Zkoo
 ## Kurasa zinazohusiana
 
 - [Pochi](/using-zcash/wallets) - pochi gani zinatunzwa na utayari wao wa Ironwood, ikiwa ni pamoja na Argos
-- [Mbao ya Ironwood](/zcash-tech/ironwood) - uboreshaji huo ulibadilisha nini na kwa nini fedha zinahama
+- [Ironwood](/zcash-tech/ironwood) - uboreshaji huo ulibadilisha nini na kwa nini fedha zinahama
 - [Kumbukumbu](/using-zcash/memos) - jinsi memo zilizosimbwa kwa njia fiche zinavyofanya kazi
 - [Funguo za Kutazama](/zcash-tech/viewing-keys) - ufikiaji wa kusoma pekee bila nguvu ya matumizi
 - [Nodi za Lightwallet](/zcash-tech/lightwallet-nodes) - public lightwalletd endpoints Argos can use

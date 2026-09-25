@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Osisi nkwụ
+# Heartwood
 
 > Heartwood gara ndụ na Zcash mainnet na ngọngọ 903,000 (July 16, 2020 UTC).
 
@@ -96,4 +96,4 @@ Mgbasa ozi Coinbase ga-abụ ihe na-enweghị ntụpọ, yabụ ụgwọ ọrụ
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Osisi okooko osisi Blossom](../zcash-tech/blossom) · Nke ọzọ: [Ugboro abụọ](../zcash-tech/canopy)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Blossom](../zcash-tech/blossom) · Nke ọzọ: [Canopy](../zcash-tech/canopy)

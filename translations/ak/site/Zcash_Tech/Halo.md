@@ -96,7 +96,7 @@ Halo 2 adanseɛ a wɔde bedi dwuma ama Verifiable Delay Function (VDF) a ɛyɛ a
 
 Wobetumi de adi dwuma sɛ fibea a atirimpɔw nyinaa randomness a nea ɛka ho ne dwumadie wɔ smart contract applications ne saa ara nso na ɔkannifo paw wɔ Proof of Stake wɔ Ethereum & protocols afoforo.
 
-ECC, Filecoin Fapem, Protocol Labs, ne Ethereum Fapem nso ne wɔn bɛyɛ adwuma [Ɔman a ɛboro so](https://www.supranational.net/), adetɔnfo a ne ho akokwaw wɔ hardware-accelerated cryptography mu, ma GPU ne ASIC nhyehyɛe a ebetumi aba ne VDF no nkɔso.
+ECC, Filecoin Fapem, Protocol Labs, ne Ethereum Fapem nso ne wɔn bɛyɛ adwuma [SupraNational](https://www.supranational.net/), adetɔnfo a ne ho akokwaw wɔ hardware-accelerated cryptography mu, ma GPU ne ASIC nhyehyɛe a ebetumi aba ne VDF no nkɔso.
 
 No [Kokoamsɛm ne Scaling Nhwehwɛmu kuw](https://appliedzkp.org/) nso reyɛ nhwehwɛmu wɔ akwan ahodoɔ a Halo 2 adanseɛ bɛtumi ama kokoamsɛm ne scalability atu mpɔn ama Ethereum ecosystem. Saa kuw yi roll up kɔ Ethereum fapem no so, na ɛwɔ adwene a ɛtrɛw wɔ zero-nimdeɛ adanse ne cryptographic primitives so. 
 

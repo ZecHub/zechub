@@ -133,7 +133,7 @@ O sanwó láti adirẹsi tí ó ṣe kedere. Ohun kan náà ni iye owó àti t-a
 
 Adirẹsi ìpamọ́ NanoGPT jẹ adirẹti iṣọkan. Ṣiṣatunkọ ọkan ti a fun ni Oṣu Kẹjọ ọdun 2026 fihan awọn olugba meji gangan: **Sapling** ati **Orchard**.
 
-Láti ìgbà tí àwọn [Igi irin-igi](/zcash-tech/ironwood) àtúnṣe tí a ṣe ní 28 July 2026, Orchard jẹ́ ìnáwó nìkan àti pé kò sí iye tuntun tó lè wọlé. Èyí fi **Sapling sílẹ̀ gẹ́gẹ́ bí ẹni kan ṣoṣo tí owó-ìsanti le dé inú rẹ**.
+Láti ìgbà tí àwọn [Ironwood](/zcash-tech/ironwood) àtúnṣe tí a ṣe ní 28 July 2026, Orchard jẹ́ ìnáwó nìkan àti pé kò sí iye tuntun tó lè wọlé. Èyí fi **Sapling sílẹ̀ gẹ́gẹ́ bí ẹni kan ṣoṣo tí owó-ìsanti le dé inú rẹ**.
 
 Nitorina ti ZEC rẹ ba wa ni Sapling, owo sisan jẹ Sapling si Sapling ati pe ko si nkankan nipa rẹ. Ṣugbọn bi o ba ti lọ si Ironwood, sanwo n gbe iye kọja aala adagun kan, ati [àgbá yípo náà](/zcash-tech/the-turnstile) ó máa ń tẹ iye àti gíga rẹ̀ jáde bó tilẹ̀ jẹ́ pé ẹni tó rán an àtẹni tí ó gbà á kò ní mọ.
 
@@ -163,7 +163,7 @@ O lè:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Igi irin-igi](/zcash-tech/ironwood) - ìdí tí àpò owó rẹ fi yí padà.
+- [Ironwood](/zcash-tech/ironwood) - ìdí tí àpò owó rẹ fi yí padà.
 - [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile) - ohun tó di ti gbogbo ènìyàn nígbà tí iye bá kọjá àwọn ìsọ̀rí-ìpínlẹ̀ (pool)
 - [Àwọn àpamọ́ owó](/using-zcash/wallets) - àwọn pọ́ọ̀sì wo ni wọ́n ń lò?
 - [ZODL](/zcash-organizations/zodl) - àpò owó tó wà lẹ́yìn CrossPay.

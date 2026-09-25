@@ -32,7 +32,7 @@ Neno. Ufafanuzi.
 |------|-----------|
 Canopy. Kuboresha 5th Mkuu Network kwa Zcash. [Habari Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 ☐ Kujitolea mpango ❑ inaruhusu committer kujitolea kwa polynomial na short string ambayo inaweza kutumika na kuthibitisha ili kuidhinisha alitangaza tathmini ya ahadi polynominal. muhimu kwa kupunguza gharama za mawasiliano katika itifaki Zcash ▸
-Jumuiya. [rasmi Zcash Jumuiya Forum](https://forum.zcashcommunity.com) / [Zcash Community Mvutano](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R & D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram ya simu](https://t.me/Zcash_Community) / [Twitter ya Kimataifa](https://x.com/zcash) |
+Jumuiya. [rasmi Zcash Jumuiya Forum](https://forum.zcashcommunity.com) / [Zcash Community Mvutano](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R & D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 Crosslink. A mapendekezo ya mseto makubaliano kubuni kwamba anaendelea uthibitisho wa kazi block uzalishaji na inaongeza ushahidi-ya hisa mwisho safu juu, hivyo vitalu kupata nguvu zaidi finality bila kuacha madini. Ni alikulia nje ya Trailing Finality Layer utafiti na ni kujengwa kwa Shielded Labs, bado katika testnet maendeleo kama 2026.
 ◯ CrossPay. Kipengele katika mkoba Zodl kwamba utapata kutumia walled ZEC wakati mpokeaji ni kulipwa kwa mali na mlolongo wao wanapendelea, routed kupitia NEAR Intents badala ya kubadilishana kati. ❖ Kiwango cha fedha za mtu binafsi (Cross Payment) - kipimo kikubwa zaidi kuliko kiwango cha pesa kilichopangwa kabla ya matumizi yake.
  Cypherpunk Zero. Creative Universe na juhudi za ushirikiano kati ya ECC, mwandishi Stranger Wolf, Mighty Jaxx na kuchagua washirika wa mazingira. [Cypherpunk Zero Site (Kituo cha Nusu ya Kibaya)](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Kukusanya Bahari ya Chini](https://opensea.io/collection/cypherpunk-zero) |
@@ -139,7 +139,7 @@ Neno. Ufafanuzi.
 |------|-----------|
 ◯ Oblivious Synchronization. Njia ya maendeleo katika Mradi Tachyon kwamba lets mkoba ombi data inahitajika kutoka server untrusted bila kuonyesha ambayo maelezo ni kuuliza kuhusu. Server kamwe anajifunza yako nullifiers, kwa sababu itifaki inawafanya kuendeleza katika njia unlinkable. [Kuandika-up](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 Orchard Shielded Pool. tatu kulindwa pool kwa Zcash na inawakilisha maendeleo ya kuendelea wa teknolojia yetu zk-SNARK stack. [Maelezo kamili](https://electriccoin.co/blog/explaining-halo-2/) |
-Mzunguko wa kwanza wa Mtandao kwa Zcash. [Habari Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+Overwinter. Mzunguko wa kwanza wa Mtandao kwa Zcash. [Habari Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 

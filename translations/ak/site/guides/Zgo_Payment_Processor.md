@@ -122,7 +122,7 @@ Sɛ wopɛ sɛ wohyehyɛ a, ɔkwan no yɛ tiawa: nya Zcash sika kotoku, yɛ akont
 
 - [ZGo aban wɛbsaet](https://zgo.cash/)
 - [Xero Integration Configuration nantew kwan so](https://hedgedoc.vergara.tech/s/4iXC67fmb)
-- [WooAguadi](https://woocommerce.com/) ne [WordPress](https://wordpress.org/)
+- [WooCommerce](https://woocommerce.com/) ne [WordPress](https://wordpress.org/)
 - [Xero, na ɔde ne nsa kyerɛɛ ne so](https://www.xero.com/)
 - [Zcash adwuma no homepage](https://z.cash/)
 - [ZecHub Sikakorabea Ahorow](https://zechub.wiki/wallets), Zcash sika kotoku a ɛne no hyia a wɔahyehyɛ

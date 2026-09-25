@@ -76,7 +76,7 @@ zainod --config zindexer.toml
 ```
 
 
-### zingo-cli ƒe ŋkɔ
+### zingo-cli
 
 ```
 git clone https://github.com/zingolabs/zingolib.git

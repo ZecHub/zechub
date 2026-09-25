@@ -15,7 +15,7 @@ Kwa bahati mbaya, urahisi huu pia umetufanya sisi, kama watumiaji, tusijali kuhu
 
 Halafu, tutaelezea data ambazo baadhi ya majukwaa haya hukusanya juu yetu, wanafanya nini nayo, na kwa nini hii inaweza kuhatarisha faragha yetu na, uwezekano, usalama wetu wa kibinafsi au wa familia.
 
-Kutoelewana
+Discord
 -------
 
 Tunahitaji kuanza na Discord kwa sababu ni programu ya mawasiliano tunayoitumia "nyumbani".

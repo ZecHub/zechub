@@ -93,5 +93,5 @@ Ele vevie be woaɖi anukware le fefewɔƒea ŋu. Esia nye numekuku kple mɔ̃ɖa
 
 - [Zcash Gakotoku ƒe Ðoɖowɔwɔ](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - nusitae syncing wɔa dɔ abe alesi wòwɔna egbea ene
 - [Lightwallet ƒe Nutowo](https://zechub.wiki/zcash-tech/lightwallet-nodes) - kekeli ƒe asisi ƒe kpɔɖeŋu PIR la anyo ɖe edzi
-- [zk-SNARKs ƒe nyawo](https://zechub.wiki/zcash-tech/zk-snarks) - dɔwɔnu gã bubu si nye cryptographic dɔwɔnu si le megbe na Zcash ƒe adzamenyawo
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - dɔwɔnu gã bubu si nye cryptographic dɔwɔnu si le megbe na Zcash ƒe adzamenyawo
 - [Dedienɔnɔ le Quantum megbe](https://zechub.wiki/zcash-tech/post-quantum-security) - nusita mɔnu siwo wotu ɖe lattice dzi le vevie na etsɔme

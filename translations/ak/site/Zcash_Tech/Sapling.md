@@ -89,4 +89,4 @@ Wɔ Sprout ase no, na sɛ wɔbɛkyekyere asɛm a wɔabɔ ho ban no gye simma kak
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Awɔw bere mu](../zcash-tech/overwinter) · Deɛ ɛdi hɔ: [Nhwiren a ɛyɛ fɛ](../zcash-tech/blossom)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Overwinter](../zcash-tech/overwinter) · Deɛ ɛdi hɔ: [Blossom](../zcash-tech/blossom)

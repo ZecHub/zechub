@@ -29,7 +29,7 @@ The organization contributes through direct engineering, public research, infras
 - [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Nwelite nkwekọrịta ngwakọ a tụrụ aro nke ga-ejikọta ihe akaebe Zcash na-arụ ọrụ na ngosipụta nke njedebe, yabụ ndị nwere ZEC nwere ike inye aka chekwaa netwọkụ ka ndị omimi nọgidere na-emepụta blocks.
 - [Ụgwọ ndị na-agbanwe agbanwe](https://shieldedlabs.net/fees/) - Nnyocha na ngwa ọrụ maka ụgwọ azụmahịa Zcash a ga-atụ anya ya, nke dị mfe iji rụọ ọrụ ma nwee ike ịnagide ka netwọkụ ahụ na-agbanwe.
 - [Ọ dịghị ihe ọ bụla.](https://shieldedlabs.net/zero/) - A supported suite of open-source Zcash infrastructure software for exchanges, mining pools, wallet providers, and other organizations that rely on Zcash infrastructure.
-- [Osisi ígwè](https://shieldedlabs.net/ironwood/) - Nwelite netwọk Zcash na ọdọ mmiri echedoro mepụtara iji meghachi omume n'ihe nkedo nke Orchard, e mere ka ọ weghachite nkwado ziri ezi nke nnwere onwe.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Nwelite netwọk Zcash na ọdọ mmiri echedoro mepụtara iji meghachi omume n'ihe nkedo nke Orchard, e mere ka ọ weghachite nkwado ziri ezi nke nnwere onwe.
 
 ## Onyinye Ironwood
 
@@ -53,6 +53,6 @@ Zcash does not use automatic on-chain governance for protocol changes. Polls and
 - [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
 - [Ụgwọ ndị na-agbanwe agbanwe](https://shieldedlabs.net/fees/)
 - [Ọ dịghị ihe ọ bụla.](https://shieldedlabs.net/zero/)
-- [Osisi ígwè](https://shieldedlabs.net/ironwood/)
+- [Ironwood](https://shieldedlabs.net/ironwood/)
 - [Ọchịchị na ntuliaka](https://shieldedlabs.net/governance/)
 - [Ụlọ nyocha echedoro GitHub](https://github.com/ShieldedLabs)

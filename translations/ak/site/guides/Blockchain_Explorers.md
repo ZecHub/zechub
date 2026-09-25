@@ -72,7 +72,7 @@ Nea wɔde kɔ: kokoamsɛm gyina atare a wɔabɔ ho ban no mu a wobɛtra so. Sɛ 
 
 - [Zcash Block Nhwehwɛmufoɔ](https://mainnet.zcashexplorer.app/)
 
-- [Blockchair a wɔde si dan mu](https://blockchair.com)
+- [Blockchair](https://blockchair.com)
 
 - [3xpl](https://3xpl.com/zcash)
 
@@ -86,7 +86,7 @@ Nhwɛso pa anan a ɛfa blockchain explorers ahorow ho ni:
 * [Mempool.ahunmu](https://mempool.space)
 * [Ethscan na ɔkyerɛwee](https://etherscan.io/)
 * [Zcash Block Nhwehwɛmufoɔ](https://mainnet.zcashexplorer.app)
-* [Mintscan na ɔkyerɛwee](https://hub.mintscan.io/chains/ibc-network)
+* [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
 ![bitcoinExlporer](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)

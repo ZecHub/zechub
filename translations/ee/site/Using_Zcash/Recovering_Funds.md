@@ -29,8 +29,8 @@ Ele vevie ŋutɔ be ezãlawo nase afɔku siwo le ame ŋutɔ ƒe safuiwo gbɔ kp�
 | Wò ga le | Ʋuʋu ƒe mɔ | Nusi woawɔ |
 | --- | --- | --- |
 | **Sprout** | **Sprout → Sapling → Ironwood** | If you have `wallet.dat` alo Sprout ƒe gazazã ƒe safui si le eɖokui si la, te Argos ƒe hayahaya ƒe mɔ si li fifia kpɔ gbã. Ne Argos mesɔ o la, zã axadzimɔ si nye domenyinu le gbeadzimɔfianu bliboa me. Ele be Sprout naɖi ɖe Sapling gbã, emegbe wòayi ŋgɔ ayi Ironwood. Mɔ sia xɔa ɣeyiɣi le NU7 ta. |
-| **Atitikewo** | **Atitike → Gaŋuti** | Sprout ƒe hayahaya ƒe nɔnɔme aɖeke mehiã o. Zã gakotoku si li fifia si ate ŋu axɔ wò Sapling akɔnta tɔxɛa alo azãe eye wòatu Ironwood ƒe asitsatsa. Ironwood ƒe kpekpeɖeŋu ɖeɖe meɖo kpe domenyinu-Sapling ƒe gbugbɔgaxɔ ƒe kpekpeɖeŋu dzi o. |
-| **Atikutsetsebɔ** | **Atikutsetsebɔ → Gayibɔ** | Atikutsetsebɔa nye esi me woate ŋu ado le ko. Zã gakotoku si sɔ fifia ƒe Orchard-to-Ironwood ʋuʋu ƒe sisi si wotu ɖe eme. Kpɔ [Ga si wogbugbɔ xɔ kple Ironwood ta la](#recovered-funds-and-the-ironwood-pool). |
+| **Sapling** | **Sapling → Ironwood** | Sprout ƒe hayahaya ƒe nɔnɔme aɖeke mehiã o. Zã gakotoku si li fifia si ate ŋu axɔ wò Sapling akɔnta tɔxɛa alo azãe eye wòatu Ironwood ƒe asitsatsa. Ironwood ƒe kpekpeɖeŋu ɖeɖe meɖo kpe domenyinu-Sapling ƒe gbugbɔgaxɔ ƒe kpekpeɖeŋu dzi o. |
+| **Orchard** | **Orchard → Ironwood** | Atikutsetsebɔa nye esi me woate ŋu ado le ko. Zã gakotoku si sɔ fifia ƒe Orchard-to-Ironwood ʋuʋu ƒe sisi si wotu ɖe eme. Kpɔ [Ga si wogbugbɔ xɔ kple Ironwood ta la](#recovered-funds-and-the-ironwood-pool). |
 
 ### Nyabiase atɔ̃ ƒe nyametsotso ƒe sisi
 
@@ -125,7 +125,7 @@ Unshield All ɖea vi ne èle asi ɖem le asitsaƒe si xɔa adrɛs siwo me kɔ ko
 
 Argos xlẽa ZecWallet Lite nukuwo kple gakotoku ƒe faɛlwo, zcashd `wallet.dat`, standalone Sapling keke gazazã safuiwo, kple Sprout gazazã ŋuti nu. Le Sprout gome la, ZecWallet Lite nuku ɖeɖe mesɔ gbɔ o elabena wowɔ safui mawo ɖe vovo. Argos nye dɔwɔnu si wotsɔ gbugbɔa gakotoku, ke menye gbesiagbe gakotoku o: lé ŋku ɖe nyatakakatsoƒea ŋu le mia gbɔ, skan, emegbe nàkɔe ɖe gakotoku si dzi nèkpɔ ŋusẽ ɖo si dzi nèlé be na la me.
 
-Ŋusẽtɔ Suetɔ Kekeake [wowɔ agbalẽdzikpɔkpɔdɔa](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) dɔwɔnua. Hahaya ŋutɔ nye femaxee. Nudzɔdzɔ si woate ŋu awɔ na Sovright ate ŋu adze le ʋuʋua wɔɣi.
+Least Authority [wowɔ agbalẽdzikpɔkpɔdɔa](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) dɔwɔnua. Hahaya ŋutɔ nye femaxee. Nudzɔdzɔ si woate ŋu awɔ na Sovright ate ŋu adze le ʋuʋua wɔɣi.
 
 > **Mègaŋlɔ nuku aɖeke ɖe nyatakakadzraɖoƒe gbeɖe o.** Argos nyatakakadzraɖoƒea nye kɔpiwɔwɔ kple... [zãla ƒe mɔfiame](https://argos.sovright.com/guide.html). Safuiwo nɔa kɔmpiutadziɖoɖo si wode asi ete la me. Validation nye nutoa me tɔ tsɔ tsi tre ɖe BIP-39 checksum ŋu. Nuku ƒe agblea kɔna ne wonya dze scan gɔme ko. Ame sia ame si aɖo gbedasi ɖe wò be wòabia nuku ma "be wòakpe ɖe ŋuwò nàxɔ wò ga" la le ametafatafa ƒom na wò.
 
@@ -191,7 +191,7 @@ Ne nuku alo safuia megali o la, gbugbɔgaɖoanyi si ame ŋutɔ xɔ mate ŋu adze
 
 Mɔ ma mesɔ kple nuku aɖe si gakpɔtɔ le asiwò la gbugbɔgaɖo o. Mègatsɔ nuku si le dɔ wɔm la ade asi na amesiame si gblɔ be "yeaxɔe" na wò o. Subɔsubɔdɔ sia ƒe ametafatafa ƒe mɔnu bɔ.
 
-[Womeŋlɔe ɖe nyatakakadzraɖoƒea o](https://unciphered.com) nye dɔwɔƒe ɖeka si wɔa dɔ sia le wo ɖokui si eye woƒo nu tso eŋu le teƒewo abe [Wotsɔ ka blae](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Wonye crypto gbugbɔgaxɔ ƒe dɔwɔƒe si wozãna le mɔ gbadza nu, menye dɔwɔnu si wozãna na Zcash koŋ o, eye woxɔa ga ɖe dɔa ta. ZecHub meda asi ɖe dɔwɔƒe aɖeke si xɔa ga le amewo si dzi o. Ne èto mɔ sia dzi la, wò ŋutɔ ɖo kpe domenyiŋusẽfianu si dziɖuɖua ɖo dzi eye nàtsɔe be amesiame si awɔ DM na wò gbã la nye ametafakala.
+[Unciphered](https://unciphered.com) nye dɔwɔƒe ɖeka si wɔa dɔ sia le wo ɖokui si eye woƒo nu tso eŋu le teƒewo abe [Wotsɔ ka blae](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Wonye crypto gbugbɔgaxɔ ƒe dɔwɔƒe si wozãna le mɔ gbadza nu, menye dɔwɔnu si wozãna na Zcash koŋ o, eye woxɔa ga ɖe dɔa ta. ZecHub meda asi ɖe dɔwɔƒe aɖeke si xɔa ga le amewo si dzi o. Ne èto mɔ sia dzi la, wò ŋutɔ ɖo kpe domenyiŋusẽfianu si dziɖuɖua ɖo dzi eye nàtsɔe be amesiame si awɔ DM na wò gbã la nye ametafakala.
 
 Ne nuku si le dɔ wɔm alo gazazã ƒe safui gakpɔtɔ le asiwò la, dze egɔme kple mɔ si dzi nàto axɔ wò ŋutɔ abe Zkool alo Argos ene le wò ŋutɔ wò mɔ̃ dzi boŋ.
 
@@ -206,7 +206,7 @@ Ne Zcash gbugbɔgaxɔ ƒe nu tso YWallet le asiwò xoxo la, gbugbɔe ɖo ɖe Zko
 ## Axa siwo do ƒome kplii
 
 - [Gakotokuwo](/using-zcash/wallets) - gakotoku siwo dzi wodzrana ɖo kple woƒe Ironwood dzadzraɖo, siwo dome Argos hã le
-- [Ironwood ƒe ati](/zcash-tech/ironwood) - nusi tɔtrɔa trɔ kple nusita ga ʋuna
+- [Ironwood](/zcash-tech/ironwood) - nusi tɔtrɔa trɔ kple nusita ga ʋuna
 - [Nuŋlɔɖiwo](/using-zcash/memos) - alesi nuŋlɔɖi siwo wotsɔ nya ɣaɣlawo ŋlɔe wɔa dɔe
 - [Safuiwo Kpɔkpɔ](/zcash-tech/viewing-keys) - xexlẽ ɖeɖeko ƒe mɔɖeɖe mazã ŋusẽ manɔmee
 - [Lightwallet ƒe Nutowo](/zcash-tech/lightwallet-nodes) - dutoƒo lightwalletd nuwuƒewo Argos ate ŋu azã

@@ -133,7 +133,7 @@ Eyi ne ɔfã a akwankyerɛfo dodow no ara twa so.
 
 NanoGPT deposit address no yɛ address a wɔaka abom. Decoding baako a wɔde maeɛ wɔ August 2026 mu no kyerɛ receivers mmienu pɛpɛɛpɛ: **Sapling** ne **Orchard**.
 
-Esiane sɛ na... [Dade dua](/zcash-tech/ironwood) upgrade activated on 28 July 2026, Orchard yɛ spend-only na boɔ foforɔ biara ntumi nkɔ mu. Ɛno gyaw **Sapling sɛ nea ogye sika biako pɛ a obetumi asi fam wɔ mu ankasa**.
+Esiane sɛ na... [Ironwood](/zcash-tech/ironwood) upgrade activated on 28 July 2026, Orchard yɛ spend-only na boɔ foforɔ biara ntumi nkɔ mu. Ɛno gyaw **Sapling sɛ nea ogye sika biako pɛ a obetumi asi fam wɔ mu ankasa**.
 
 Enti sɛ wo ZEC no wɔ Sapling dedaw a, sikatua no yɛ Sapling to Sapling na biribiara nni ho a ɛyɛ baguam. Nanso sɛ woatu akɔ Ironwood a, tua a wotua no tu bo a ɛsom wɔ ɔtare bi hye so, na [afiri a wɔde dannan nneɛma](/zcash-tech/the-turnstile) tintim sika dodow ne ne sorokɔ ɛwom mpo sɛ nea ɔde kɔma ne nea ogye no tra hɔ ahintaw de.
 
@@ -163,7 +163,7 @@ Wobɛtumi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Dade dua](/zcash-tech/ironwood) - a enti a pool a wo sika te mu no sesae
+- [Ironwood](/zcash-tech/ironwood) - a enti a pool a wo sika te mu no sesae
 - [Turnstile a ɛwɔ hɔ no](/zcash-tech/the-turnstile) - a ebeye baguam bere a botae twa atare
 - [Sika kotoku](/using-zcash/wallets) - a wode sika kotokuo a wodi so
 - [ZODL](/zcash-organizations/zodl) - sika kotokuo a ewo CrossPay akyi

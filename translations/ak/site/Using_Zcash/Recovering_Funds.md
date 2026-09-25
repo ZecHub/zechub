@@ -29,8 +29,8 @@ Ebia ɛho behia sɛ wotu ZEC dedaw a wɔabɔ ho ban no kɔ baabi foforo sɛ ɔkw
 | Wo sika wɔ | Ɔkwan a wɔfa so tu kɔ mmeae foforo | Nea ɛsɛ sɛ woyɛ |
 | --- | --- | --- |
 | **Sprout** | **Sprout → Sapling → Ironwood** | If you have `wallet.dat` anaasɛ Sprout sikasɛm safoa a egyina hɔ ma ne ho, sɔ mprempren Argos sanba kwan no hwɛ kan. Sɛ Argos mfata a, fa agyapadeɛ sidecar kwan no di dwuma wɔ afuom akwankyerɛ a edi mũ no mu. Ɛsɛ sɛ Sprout di kan si fam wɔ Sapling, afei ɛkɔ n’anim kɔ Ironwood. Saa kwan yi yɛ nea ɛfa bere ho esiane NU7 nti. |
-| **Nnuadewa** | **Nnuadewa → Dade dua** | Sprout recovery tebea biara ho nhia. Fa mprempren sika kotoku a ebetumi asan agye anaasɛ asɛe wo Sapling akontaabu pɔtee no na ayɛ Ironwood nkitahodi ahorow di dwuma. Ironwood mmoa nkutoo nkyerɛ sɛ agyapade-Sapling sanba mmoa. |
-| **Nnua Turo** | **Nnua Turo → Dade Nnua** | Orchard yɛ nea wotumi fi adi nkutoo. Fa mprempren sika kotoku a ɛne no hyia no Orchard-to-Ironwood atutra nsu a wɔde ahyɛ mu no di dwuma. Hwɛ [Sika a wɔsan nyae ne Ironwood ɔtare no](#recovered-funds-and-the-ironwood-pool). |
+| **Sapling** | **Sapling → Ironwood** | Sprout recovery tebea biara ho nhia. Fa mprempren sika kotoku a ebetumi asan agye anaasɛ asɛe wo Sapling akontaabu pɔtee no na ayɛ Ironwood nkitahodi ahorow di dwuma. Ironwood mmoa nkutoo nkyerɛ sɛ agyapade-Sapling sanba mmoa. |
+| **Orchard** | **Orchard → Ironwood** | Orchard yɛ nea wotumi fi adi nkutoo. Fa mprempren sika kotoku a ɛne no hyia no Orchard-to-Ironwood atutra nsu a wɔde ahyɛ mu no di dwuma. Hwɛ [Sika a wɔsan nyae ne Ironwood ɔtare no](#recovered-funds-and-the-ironwood-pool). |
 
 ### Nsɛmmisa anum gyinaesi a ɛsen
 
@@ -125,7 +125,7 @@ Unshield All ho wɔ mfaso bere a woretwe wo ho akɔ exchange a egye address a ɛ
 
 Argos kenkan ZecWallet Lite aba ne sika kotoku fael, zcashd `wallet.dat`, standalone Sapling extended sika a wɔsɛe no safe, ne Sprout sikasɛm ho nneɛma. Sprout deɛ, ZecWallet Lite aba nko ara nnɔɔso ɛfiri sɛ wɔyɛɛ saa safoa no wɔ ɔkwan soronko so. Argos yɛ adwinnade a wɔde san nya nneɛma, ɛnyɛ da biara da sika kotoku: hwehwɛ nneɛma a wonya fi mu no wɔ wo mpɔtam hɔ, scan, afei popa kɔ sika kotoku a wɔahwɛ so yiye a wudi so mu.
 
-Tumi a Ɛsua koraa [wɔayɛ ho akontaabu](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) adwinnade no. Sɛ obi ho tɔ no ankasa a, wontua hwee. Ntoboa a wobetumi de ama Sovright betumi ada adi bere a wɔreprapra mu no.
+Least Authority [wɔayɛ ho akontaabu](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) adwinnade no. Sɛ obi ho tɔ no ankasa a, wontua hwee. Ntoboa a wobetumi de ama Sovright betumi ada adi bere a wɔreprapra mu no.
 
 > **Nkyerɛw aba bi nkɔ wɛbsaet bi mu da.** Argos sait no yɛ nea wɔtwe ne nea... [akwankyerɛ a wɔde di dwuma](https://argos.sovright.com/guide.html). Safoa tra desktop app a wɔde wɔn nsa ahyɛ ase no mu. Validation yɛ local tia BIP-39 checksum no. Aba afuw no mu tew bere a wɔafi ase scan no. Obiara a ɔde message bɛmena wo sɛ ɔsrɛ saa aba no "sɛ ɔmmoa mma wonnya wo sika" no resisi wo.
 
@@ -191,7 +191,7 @@ Sɛ aba anaa safoa no ayera a, sanba a obi ankasa agye no ntumi mfi ase. Nnipa b
 
 Saa kwan no ne aba a woda so ara wɔ a wobɛsan de aba no nyɛ ade koro. Mfa aba a ɛyɛ adwuma nhyɛ obiara a ɔka sɛ "ɔbɛsan anya" ama wo no nsa. Saa ɔsom yi mu nsisi no abu so.
 
-[Wɔamfa nsɛm a wɔde asie](https://unciphered.com) yɛ adwumakuw biako a ɛyɛ adwuma yi wɔ wɔn fie na wɔaka ho asɛm wɔ mmeae te sɛ [Wɔde nhama ayɛ](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Wɔyɛ general crypto recovery service, ɛnyɛ Zcash-specific adwinnade, na wɔbɔ adwuma no ho ka. ZecHub nnye adwumakuw biara a ɛsan nya ahoɔden ntom. Sɛ wofa saa kwan yi so a, w’ankasa si official domain no so dua na fa no sɛ obiara a odi kan DM wo no yɛ scammer.
+[Unciphered](https://unciphered.com) yɛ adwumakuw biako a ɛyɛ adwuma yi wɔ wɔn fie na wɔaka ho asɛm wɔ mmeae te sɛ [Wɔde nhama ayɛ](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Wɔyɛ general crypto recovery service, ɛnyɛ Zcash-specific adwinnade, na wɔbɔ adwuma no ho ka. ZecHub nnye adwumakuw biara a ɛsan nya ahoɔden ntom. Sɛ wofa saa kwan yi so a, w’ankasa si official domain no so dua na fa no sɛ obiara a odi kan DM wo no yɛ scammer.
 
 Sɛ woda so ara wɔ aba a ɛyɛ adwuma anaa sika a wode di dwuma safe a, fi ase fa ɔkwan a wo ankasa wobɛfa so asan agye te sɛ Zkool anaa Argos wɔ w’ankasa mfiri so mmom.
 
@@ -206,7 +206,7 @@ Sɛ wowɔ Zcash recovery material dedaw a efi YWallet a, san fa ba Zkool mu dena
 ## Nkratafa a ɛfa ho
 
 - [Sika kotoku](/using-zcash/wallets) - a wohwɛ so sika kotokuo ne ne Ironwood ahoboa, a Argos ka ho
-- [Dade a Wɔde Yɛ Nnua](/zcash-tech/ironwood) - dee upgrade no sesae ne nea enti a sika tu tu
+- [Ironwood](/zcash-tech/ironwood) - dee upgrade no sesae ne nea enti a sika tu tu
 - [Memos a wɔde kyerɛw nsɛm](/using-zcash/memos) - sedee encrypted memos y adwuma
 - [Nneɛma a Wɔde Hwɛ](/zcash-tech/viewing-keys) - akenkan nkoaa kwan a wonnye tumi
 - [Lightwallet Nodes a Wɔde Di Dwuma](/zcash-tech/lightwallet-nodes) - public lightwalletd endpoints Argos betumi de adi dwuma

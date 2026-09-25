@@ -70,7 +70,7 @@ Hwɛ sɛ wobɛkenkan Zebra nwoma no ama nhyehyeɛ akwankyerɛ, na kɔka R&D Disc
 
 [The Zebra Book](https://zebra.zfnd.org) 
 
-[Akasakasa](https://discord.gg/uvEdHsrb)
+[Discord](https://discord.gg/uvEdHsrb)
 
 
 
@@ -90,7 +90,7 @@ Eyinom yɛ nhwɛso platform ahorow a ɛma kwan ma wotumi kɔ Zcash Network data 
 
 [Nneɛma a wɔde yɛ nneɛma](https://docs.coinmetrics.io/info/assets/zec)
 
-[Akongua a wɔde si dan mu](https://blockchair.com/zcash)
+[Blockchair](https://blockchair.com/zcash)
 
 Wo nso wobɛtumi aboa ama ntwamutam no anya nkɔsoɔ denam sɔhwɛ a wobɛtu mmirika anaasɛ wobɛhyɛ nkɔsoɔ foforɔ ho nyansa & metrics a wode bɛma. 
 

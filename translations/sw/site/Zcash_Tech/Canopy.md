@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Kivuli cha juu
+# Canopy
 
 > Canopy ilianza kutumika kwenye mtandao wa Zcash katika block 1,046,400 (Novemba 18, 2020 UTC).
 
@@ -109,4 +109,4 @@ Msingi wa mwanzilishi zawadi ilikuwa imepangwa mwisho katika kwanza halving. Bil
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Miti ya moyo](../zcash-tech/heartwood) · Kisha: [NU5](../zcash-tech/nu5)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Heartwood](../zcash-tech/heartwood) · Kisha: [NU5](../zcash-tech/nu5)

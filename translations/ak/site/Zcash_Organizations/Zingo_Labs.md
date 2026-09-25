@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Ɔmanfoɔ Wɛbsaet](https://zingolabs.org/) - [Github a woagye atom](https://github.com/zingolabs) - [X/Twitter so na woagye atom](https://x.com/ZingoLabs) - [Instagram so na woagye atom](https://www.instagram.com/zingolabesp/)
+[Ɔmanfoɔ Wɛbsaet](https://zingolabs.org/) - [Github a woagye atom](https://github.com/zingolabs) - [X/Twitter so na woagye atom](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs yɛ anisoadehunufoɔ kuo a wɔatu wɔn ho ama sɛ wɔbɛma nnipa suahunu akɔ anim. Yegye di sɛ ɛsɛ sɛ mfiridwuma so ba adesamma mfaso na yɛnam nkitahodi a yɛpene so so na edi yiye. Yɛrekyerɛ nhwɛso ahorow a ɛma eyi tumi yɛ yiye.
 

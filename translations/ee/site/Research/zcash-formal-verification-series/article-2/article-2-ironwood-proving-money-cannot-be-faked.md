@@ -147,7 +147,7 @@ Míeɖe eme be míase egɔme bɔbɔe wu. Lean ƒe ŋgɔyiyi ŋutɔŋutɔ la me n
 
 Nyagbe si gɔme woɖe le Eŋlisigbe me be "nuwɔwɔ".
 |---|---|
-Zcash ƒe tsimɔ yeye si ŋu wotrɔ asi le (2026), si xɔ ɖe Orchard tsiƒuƒe si gblẽ la teƒe.
+**Ironwood** Zcash ƒe tsimɔ yeye si ŋu wotrɔ asi le (2026), si xɔ ɖe Orchard tsiƒuƒe si gblẽ la teƒe.
 **Gbɔdzɔmenuwo ƒe Ðekawɔwɔ** Aƒleƒea maxɔ ga si wu esi amewo tsɔ de eme la gbeɖe o.
 Kpeɖodzi si ŋu kakaɖedzi le bia be amesi tsɔ kpeɖodzia vɛ naxɔ ɖasefo vavã.
 ** Extractor**: Enye mɔnu si wotsɔna ɖea ɖasefoa le ame sia ame ƒe nya me.

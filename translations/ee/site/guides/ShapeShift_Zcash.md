@@ -16,7 +16,7 @@ Nyati sia ɖe nusi ShapeShift nye, alesi Zcash wɔa dɔe, alesi nàte ŋu aɖɔl
 
 ## Nukae nye ShapeShift?
 
-[Nɔnɔme ƒe Tɔtrɔ](https://shapeshift.com/) nye cryptocurrency mɔnu si woɖe ɖe vovo, si woate ŋu azã faa, si na be ezãlawo te ŋu dzraa dijitaal nunɔamesiwo, léa ŋku ɖe wo ŋu, eye wokpɔa wo dzi le blockchain geɖe me evɔ womewɔa akɔnta, tsɔa dzesidegbalẽviwo ɖona ɖa, alo tsɔa woƒe ga dzi kpɔkpɔ de asi na wo o.
+[ShapeShift](https://shapeshift.com/) nye cryptocurrency mɔnu si woɖe ɖe vovo, si woate ŋu azã faa, si na be ezãlawo te ŋu dzraa dijitaal nunɔamesiwo, léa ŋku ɖe wo ŋu, eye wokpɔa wo dzi le blockchain geɖe me evɔ womewɔa akɔnta, tsɔa dzesidegbalẽviwo ɖona ɖa, alo tsɔa woƒe ga dzi kpɔkpɔ de asi na wo o.
 
 ### Ŋutinya Kpuie aɖe
 
