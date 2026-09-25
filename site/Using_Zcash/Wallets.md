@@ -4,13 +4,13 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Features: Address Book | CrossPay | NEAR Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
 - Ironwood: Ready
 
 ---
 
-## [Ywallet](https://ywallet.app/installation/)
-![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
+## [YWallet](https://ywallet.app/installation/)
+![logo](/content-images/ywalletcard-0cd7232810.webp "YWallet")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -104,8 +104,8 @@
 
 ---
 
-## [Zingo-CLI](https://github.com/zingolabs/zingolib)
-![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
+## [zingo-cli](https://github.com/zingolabs/zingolib)
+![logo](/content-images/zingocard-9a2546668d.webp "zingo-cli")
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -126,8 +126,8 @@
 
 ---
 
-## [Zcashd](https://github.com/zcash/zcash)
-![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
+## [zcashd](https://github.com/zcash/zcash)
+![logo](/content-images/zcashd-92df3291ad.webp "zcashd")
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -147,8 +147,8 @@
 
 ---
 
-## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](/content-images/metamask-25048569f6.webp "Metamask")
+## [MetaMask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+![logo](/content-images/metamask-25048569f6.webp "MetaMask")
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -285,7 +285,7 @@
 - Operating System: Browser | Windows | macOS
 - Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
 - Pools: Sapling | Transparent
-- Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Features: Multi Coin | NEAR Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
 - Ironwood: Ready
 
 ---
@@ -301,8 +301,8 @@
 
 ---
 
-## [Zecd](https://zecd.org/quickstart.html)
-![logo](/content-images/zecd.webp "Zecd")
+## [zecd](https://zecd.org/quickstart.html)
+![logo](/content-images/zecd.webp "zecd")
 - Devices: Desktop
 - Operating System: Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
@@ -328,7 +328,7 @@
 - Operating System: Linux | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
 - Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | Tor Support | I2P Support | Zebra/Zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
+- Features: Address Book | Tor Support | I2P Support | Zebra/zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
 - Ironwood: Ready
 
 ---
