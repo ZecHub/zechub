@@ -4,7 +4,7 @@
 - Sistema Operativo: Android | iOS
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Hardware
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Livro de Endereços | CrossPay | Near Intents | Pagamentos Flexa | Multisignatura | Pedido de Pagamento | Memo Blindado | Gastar antes da Sincronização | Endereço TEX | Suporte Tor | F-droid
+- Funcionalidades: Livro de endereços | CrossPay | Near Intents | Flexa Pagamentos | Multissinatura | Pedido de pagamento | Memo protegido | Gastar antes da sincronização | Endereço TEX | Suporte Tor | F-droid
 - Ironwood: Pronto
 
 ---
@@ -15,7 +15,7 @@
 - Sistema Operativo: Android | iOS | Windows | Linux | macOS
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Hardware
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Livro de Endereços | Armazenamento Frio | Endereço Diversificado | Pedido de Pagamento | Transferência entre Pools | Memo Blindado | Endereço TEX | Votação | WarpSync
+- Funcionalidades: Livro de endereços | Armazenamento a frio | Endereço diversificado | Pedido de pagamento | Transferência entre pools | Memo protegido | Endereço TEX | Votação | WarpSync
 - Ironwood: Não pronto
 
 ---
@@ -26,7 +26,7 @@
 - Sistema Operativo: Android | iOS | Windows | Linux | macOS
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address
 - Pools: Sapling | Ironwood
-- Funcionalidades: Bot do Discord
+- Funcionalidades: Bot Discord
 
 ---
 
@@ -36,7 +36,7 @@
 - Sistema Operativo: Android | iOS | Windows | Linux
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Livro de Endereços | Perspetivas Financeiras | Pedido de Pagamento | PepperSync | Memo Blindado | Suporte de Testnet
+- Funcionalidades: Livro de endereços | Informações financeiras | Pedido de pagamento | PepperSync | Memo protegido | Suporte para testnet
 - Ironwood: Pronto
 
 ---
@@ -47,7 +47,7 @@
 - Sistema Operativo: Android | iOS
 - Suporte de carteira: Frase-semente | Unified Address
 - Pools: Transparente | Sapling
-- Funcionalidades: Blindagem Automática | Swaps DEX | Multi Moeda | Memo Blindado | Gastar antes da Sincronização
+- Funcionalidades: Blindagem automática | Trocas DEX | Multi-moeda | Memo protegido | Gastar antes da sincronização
 
 ---
 
@@ -57,7 +57,7 @@
 - Sistema Operativo: Android | iOS
 - Suporte de carteira: Frase-semente | Unified Address
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Swaps DEX | Multi Moeda | Gastar antes da Sincronização
+- Funcionalidades: Trocas DEX | Multi-moeda | Gastar antes da sincronização
 - Ironwood: Pronto
 
 ---
@@ -68,7 +68,7 @@
 - Sistema Operativo: Android | iOS | Windows
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Livro de Endereços | Verificação de Endereço | Blindagem Automática | Endereço Diversificado | Pedido de Pagamento | Memo Blindado | Endereço TEX | Suporte de Testnet
+- Funcionalidades: Livro de endereços | Verificação de endereço | Blindagem automática | Endereço diversificado | Pedido de pagamento | Memo protegido | Endereço TEX | Suporte para testnet
 
 ---
 
@@ -78,7 +78,7 @@
 - Sistema Operativo: Android | iOS | Windows | Linux
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Hardware
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Rotação de Endereços | Suporte Alargado de Chaves | Exportações Encriptadas | Multisig FROST | Sincronização de Múltiplas Contas | Memo Blindado | Suporte de Testnet
+- Funcionalidades: Rotação de endereços | Amplo suporte de chaves | Exportações encriptadas | Multissinatura FROST | Sincronização de múltiplas contas | Memo protegido | Suporte para testnet
 - Ironwood: Pronto
 
 ---
@@ -89,7 +89,7 @@
 - Sistema Operativo: Android | iOS | Windows | Linux | macOS
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Livro de Endereços | Rotação de Endereços | Blindagem Automática | Swaps DEX | Multi Moeda | Memo Blindado | Suporte Tor
+- Funcionalidades: Livro de endereços | Rotação de endereços | Blindagem automática | Trocas DEX | Multi-moeda | Memo protegido | Suporte Tor
 - Ironwood: Pronto
 
 ---
@@ -100,7 +100,7 @@
 - Sistema Operativo: Windows | Linux | macOS
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Nó completo
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Livro de Endereços | Interface Gráfica | Memo Blindado | Suporte de Testnet
+- Funcionalidades: Livro de endereços | Interface gráfica | Memo protegido | Suporte para testnet
 
 ---
 
@@ -110,7 +110,7 @@
 - Sistema Operativo: Windows | Linux | macOS
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Nó completo
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Interface de Linha de Comandos | PepperSync | Memo Blindado | Suporte de Testnet
+- Funcionalidades: Interface de linha de comandos | PepperSync | Memo protegido | Suporte para testnet
 - Ironwood: Em progresso
 
 ---
@@ -121,7 +121,7 @@
 - Sistema Operativo: Windows | Linux | macOS
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Nó completo
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Lançamento Alfa | Interface JSON-RPC | Memo Blindado | Suporte de Testnet
+- Funcionalidades: Versão alfa | Interface JSON-RPC | Memo protegido | Suporte para testnet
 - Ironwood: Pronto
 
 ---
@@ -132,7 +132,7 @@
 - Sistema Operativo: Windows | Linux | macOS
 - Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Nó completo
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Interface de Linha de Comandos | Endereço Diversificado | Memo Blindado | Suporte de Testnet
+- Funcionalidades: Interface de linha de comandos | Endereço diversificado | Memo protegido | Suporte para testnet
 - Ironwood: Não pronto
 
 ---
@@ -143,7 +143,7 @@
 - Sistema Operativo: Navegador
 - Suporte de carteira: Frase-semente | Unified Address
 - Pools: Transparente | Ironwood
-- Funcionalidades: Memo Blindado | Gastar antes da Sincronização | Suporte de Testnet
+- Funcionalidades: Memo protegido | Gastar antes da sincronização | Suporte para testnet
 
 ---
 
@@ -153,7 +153,7 @@
 - Sistema Operativo: Navegador
 - Suporte de carteira: Frase-semente | Unified Address
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Multi Moeda
+- Funcionalidades: Multi-moeda
 
 ---
 
@@ -163,7 +163,7 @@
 - Sistema Operativo: Navegador
 - Suporte de carteira: Frase-semente | Unified Address
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Swaps DEX
+- Funcionalidades: Trocas DEX
 
 ---
 
@@ -173,7 +173,7 @@
 - Sistema Operativo: Android | iOS | Navegador
 - Suporte de carteira: Frase-semente
 - Pools: Transparente
-- Funcionalidades: Multi Moeda
+- Funcionalidades: Multi-moeda
 
 ---
 
@@ -183,7 +183,7 @@
 - Sistema Operativo: Android | iOS | Navegador
 - Suporte de carteira: Frase-semente
 - Pools: Transparente
-- Funcionalidades: Multi Moeda
+- Funcionalidades: Multi-moeda
 
 ---
 
@@ -193,7 +193,7 @@
 - Sistema Operativo: Android | iOS | Windows | Linux | macOS | Navegador
 - Suporte de carteira: Frase-semente
 - Pools: Transparente
-- Funcionalidades: Multi Moeda
+- Funcionalidades: Multi-moeda
 
 ---
 
@@ -203,7 +203,7 @@
 - Sistema Operativo: Android | iOS | Windows
 - Suporte de carteira: Frase-semente
 - Pools: Transparente
-- Funcionalidades: Multi Moeda
+- Funcionalidades: Multi-moeda
 
 ---
 
@@ -213,7 +213,7 @@
 - Sistema Operativo:
 - Suporte de carteira: Hardware | Unified Address
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Multi Moeda
+- Funcionalidades: Multi-moeda
 - Ironwood: Pronto
 
 ---
@@ -224,7 +224,7 @@
 - Sistema Operativo:
 - Suporte de carteira: Hardware
 - Pools: Transparente
-- Funcionalidades: Multi Moeda
+- Funcionalidades: Multi-moeda
 - Ironwood: Em progresso
 
 ---
@@ -235,7 +235,7 @@
 - Sistema Operativo: Android | iOS | Navegador
 - Suporte de carteira: Frase-semente | Hardware
 - Pools: Transparente
-- Funcionalidades: Multi Moeda
+- Funcionalidades: Multi-moeda
 
 ---
 
@@ -245,7 +245,7 @@
 - Sistema Operativo:
 - Suporte de carteira: Hardware
 - Pools: Transparente
-- Funcionalidades: Várias Moedas
+- Funcionalidades: Multi-moeda
 
 ---
 
@@ -254,7 +254,7 @@
 - Dispositivos: Web | Móvel | Computador
 - Sistema Operativo: Android | iOS | Windows | Linux | macOS | Navegador
 - Pools: Transparente
-- Funcionalidades: Multi Moeda | Aplicação Web
+- Funcionalidades: Multi-moeda | Aplicação Web
 
 ---
 
@@ -264,7 +264,7 @@
 - Sistema Operativo: macOS
 - Suporte de carteira: Frase-semente | Unified Address | Hardware
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Blindagem Automática | Memo Blindado | Suporte de Testnet | Multisig FROST
+- Funcionalidades: Blindagem automática | Memo protegido | Suporte para testnet | Multissinatura FROST
 - Ironwood: Pronto
 
 ---
@@ -273,8 +273,8 @@
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Dispositivos: Web | Computador
 - Sistema Operativo: Navegador
-- Pools: Blindado | Transparente
-- Funcionalidades: Extensão do Navegador | Transações Blindadas | Swaps Cross-chain | Empréstimos e Financiamentos | Ligações a DApps | Rhea
+- Pools: Protegido | Transparente
+- Funcionalidades: Extensão de navegador | Transações protegidas | Trocas cross-chain | Empréstimos e concessão de crédito | Ligações a DApps | Rhea
 - Ironwood: Pronto
 
 ---
@@ -283,9 +283,9 @@
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Dispositivos: Web | Computador
 - Sistema Operativo: Navegador | Windows | macOS
-- Suporte de carteira: Frase-semente | Carteira Externa | Endereço de Receção | Código QR | Hardware
+- Suporte de carteira: Frase-semente | Carteira externa | Endereço de receção | Código QR | Hardware
 - Pools: Sapling | Transparente
-- Funcionalidades: Multi Moeda | Near Intents | Maya DEX | Sem KYC | Sem Custódia | Aplicação Web | Aplicação para Computador | ZEC Blindado | AnyPay
+- Funcionalidades: Multi-moeda | Near Intents | Maya DEX | Sem KYC | Sem custódia | Aplicação Web | Aplicação para computador | ZEC protegido | AnyPay
 - Ironwood: Pronto
 
 ---
@@ -296,7 +296,7 @@
 - Sistema Operativo: Android
 - Suporte de carteira: Unified Address
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Messenger encriptado de ponta a ponta | NEAR Intents | P2P.me Offramp | Beta
+- Funcionalidades: Mensageiro encriptado de ponta a ponta | NEAR Intents | P2P.me Offramp | Beta
 - Ironwood: Pronto
 
 ---
@@ -305,9 +305,9 @@
 ![logo](/content-images/zecd.webp "Zecd")
 - Dispositivos: Computador
 - Sistema Operativo: Linux
-- Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Chave Privada | Chave de Gastos | Cópia de Segurança da Carteira / Exportação de Chaves | Carteira de Nó Completo
+- Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Chave privada | Chave de gasto | Cópia de segurança da carteira / Exportação de chave | Carteira de nó completo
 - Pools: Transparente | Sapling | Ironwood | Sprout
-- Funcionalidades: Memo Encriptado | Cópia de Segurança da Carteira (dados da carteira) | Interface RPC | Memo Blindado | Gestão de Chaves Privadas
+- Funcionalidades: Memo encriptado | Cópia de segurança da carteira (dados da carteira) | Interface RPC | Memo protegido | Gestão de chaves privadas
 - Ironwood: Pronto
 
 ---
@@ -316,9 +316,9 @@
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Dispositivos: Móvel | Computador
 - Sistema Operativo: iOS | macOS
-- Suporte de carteira: Frase-semente | Passkey | Unified Address | Chave Privada | Carteira de Autocustódia
+- Suporte de carteira: Frase-semente | Passkey | Unified Address | Chave privada | Carteira de autocustódia
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Autocustódia | Chave Privada Armazenada Localmente | Sem KYC Necessário | Sem Dependência de Servidor Zend para a Atividade da Carteira | Transação Blindada Encriptada | Recuperação da Frase-semente | Memo Blindado | Autenticação por Passkey
+- Funcionalidades: Autocustódia | Chave privada armazenada localmente | Não requer KYC | Sem dependência do servidor Zend para a atividade da carteira | Transação protegida encriptada | Recuperação por frase-semente | Memo protegido | Autenticação por Passkey
 
 ---
 
@@ -326,9 +326,9 @@
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - Dispositivos: Computador | Navegador
 - Sistema Operativo: Linux | iOS | macOS
-- Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Chave de Gastos | Carteira HD | Gestão de Chaves Privadas
+- Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Chave de gasto | Carteira HD | Gestão de chaves privadas
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: Livro de Endereços | Suporte Tor | Suporte I2P | Integração Zebra/zebrad | Histórico de Transações | Exportação de Transações | Derivação Local de Testemunhas | Taxa Dinâmica (ZIP-317) | Compatibilidade com NU6.2 | Suporte de Migração NU6.3 | Memo Blindado
+- Funcionalidades: Livro de endereços | Suporte Tor | Suporte I2P | Integração Zebra/Zebrad | Histórico de transações | Exportação de transações | Derivação local de testemunhas | Taxa dinâmica (ZIP-317) | Compatibilidade com NU6.2 | Suporte à migração NU6.3 | Memo protegido
 - Ironwood: Pronto
 
 ---
@@ -336,10 +336,10 @@
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
 - Dispositivos: Móvel | Computador
-- Sistema Operativo: Android | Windows | Linux (CLI e Servidor MCP) | iOS | macOS
-- Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Carteira Multi-Conta | Carteira de Autocustódia | Gestão de Chaves Privadas | Suporte de Carteira de Agente
+- Sistema Operativo: Android | Windows | Linux (CLI e servidor MCP) | iOS | macOS
+- Suporte de carteira: Frase-semente | Viewing Key | Unified Address | Carteira multicontra | Carteira de autocustódia | Gestão de chaves privadas | Suporte para carteira de agente
 - Pools: Transparente | Sapling | Ironwood
-- Funcionalidades: NEAR Intents | Pedidos de Pagamento | Memo Blindado | Transação Blindada por Predefinição | Testnet | Swap Cross-chain | CipherPay | Viewing Key | Agente de IA | Servidor MCP | Carteira CLI | FROST | Beta
+- Funcionalidades: NEAR Intents | Pedidos de pagamento | Memo protegido | Transação protegida por defeito | Testnet | Troca cross-chain | CipherPay | Viewing Key | Agente de IA | Servidor MCP | Carteira CLI | FROST | Beta
 - Ironwood: Em progresso
 
 ---
@@ -348,7 +348,28 @@
 ![logo](/content-images/argos.webp "Argos")
 - Dispositivos: Computador
 - Sistema Operativo: Windows | Linux | macOS
-- Suporte de carteira: Frase-semente | Chave de Gastos | Chave Privada | Cópia de Segurança da Carteira / Exportação de Chaves
+- Suporte de carteira: Frase-semente | Chave de gasto | Chave privada | Cópia de segurança da carteira / Exportação de chave
 - Pools: Transparente | Sapling | Ironwood | Sprout
-- Funcionalidades: Recuperação de Carteira | Interface de Linha de Comandos | Memo Blindado | Suporte de Testnet
+- Funcionalidades: Recuperação de carteira | Interface de linha de comandos | Memo protegido | Suporte para testnet
 - Ironwood: Pronto
+
+---
+
+## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
+![logo](/content-images/gem_wallet_logo.png "Gem Wallet")
+- Dispositivos: Móvel
+- Sistema Operativo: Android | iOS
+- Suporte de carteira: Frase-semente
+- Pools: Transparente
+- Funcionalidades: Multi-moeda
+
+--- 
+
+## [Freedom Wallet](https://www.freedomwallet.com/)
+![logo](/content-images/freedomwalletlogo.jpg "Freedom Wallet")
+- Dispositivos: Móvel | Computador
+- Sistema Operativo: Android | iOS | Linux | Windows
+- Suporte de carteira: Frase-semente | Chave privada | Carteira de autocustódia | Unified Address
+- Pools: Transparente | Sapling | Ironwood
+- Funcionalidades: Suporte de privacidade multi-chain | Transação protegida encriptada | Recuperação por frase-semente | Trocas na aplicação | Sincronização de carteira leve
+- Ironwood: Em progresso

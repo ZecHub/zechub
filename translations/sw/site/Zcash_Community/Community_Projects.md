@@ -126,7 +126,7 @@ Multi-chain, wazi chanzo, binafsi custodial mkoba ambayo inasaidia kutuma, kupok
 [Kutembelea](https://gemwallet.com/)
 
 ### TIPZ
-Kuishi yasiyo ya kizuizini tipping jukwaa ambapo kila ncha hufika kama ZEC ulinzi. Inasaidia msalaba-mnyororo juu ramps kupitia NEAR Makusudi. 
+Kuishi yasiyo ya kizuizini tipping jukwaa ambapo kila ncha hufika kama ZEC ulinzi. Inasaidia msalaba-mnyororo juu ramps kupitia NEAR Intents. 
 [Kutembelea](https://tipz.cash/)
 
 ### CYZE

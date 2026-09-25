@@ -4,19 +4,19 @@
 - オペレーティングシステム: Android | iOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | ハードウェア
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: アドレス帳 | CrossPay | Near Intents | Flexa Payments | マルチシグネチャ | 支払いリクエスト | シールドメモ | 同期前の送金 | TEXアドレス | Tor対応 | F-droid
-- Ironwood: 対応済み
+- 機能: アドレス帳 | CrossPay | Near Intents | Flexa 決済 | マルチシグネチャ | 支払いリクエスト | シールドメモ | 同期前の支出 | TEXアドレス | Tor対応 | F-droid
+- Ironwood: 準備完了
 
 ---
 
-## [YWallet](https://ywallet.app/installation/)
+## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | ハードウェア
 - プール: トランスペアレント | Sapling | Ironwood
 - 機能: アドレス帳 | コールドストレージ | 多様化アドレス | 支払いリクエスト | プール間送金 | シールドメモ | TEXアドレス | 投票 | WarpSync
-- Ironwood: 未対応
+- Ironwood: 未準備
 
 ---
 
@@ -26,7 +26,7 @@
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address
 - プール: Sapling | Ironwood
-- 機能: Discordボット
+- 機能: Discord ボット
 
 ---
 
@@ -37,7 +37,7 @@
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address
 - プール: トランスペアレント | Sapling | Ironwood
 - 機能: アドレス帳 | 財務インサイト | 支払いリクエスト | PepperSync | シールドメモ | テストネット対応
-- Ironwood: 対応済み
+- Ironwood: 準備完了
 
 ---
 
@@ -47,7 +47,7 @@
 - オペレーティングシステム: Android | iOS
 - ウォレット対応: シードフレーズ | Unified Address
 - プール: トランスペアレント | Sapling
-- 機能: 自動シールド化 | DEXスワップ | 複数コイン | シールドメモ | 同期前の送金
+- 機能: 自動シールド化 | DEXスワップ | マルチコイン | シールドメモ | 同期前の支出
 
 ---
 
@@ -57,8 +57,8 @@
 - オペレーティングシステム: Android | iOS
 - ウォレット対応: シードフレーズ | Unified Address
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: DEXスワップ | 複数コイン | 同期前の送金
-- Ironwood: 対応済み
+- 機能: DEXスワップ | マルチコイン | 同期前の支出
+- Ironwood: 準備完了
 
 ---
 
@@ -78,8 +78,8 @@
 - オペレーティングシステム: Android | iOS | Windows | Linux
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | ハードウェア
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: アドレスローテーション | 幅広いキー対応 | 暗号化エクスポート | FROSTマルチシグ | マルチアカウント同期 | シールドメモ | テストネット対応
-- Ironwood: 対応済み
+- 機能: アドレスローテーション | 幅広いキー対応 | 暗号化エクスポート | FROST マルチシグ | マルチアカウント同期 | シールドメモ | テストネット対応
+- Ironwood: 準備完了
 
 ---
 
@@ -89,8 +89,8 @@
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: アドレス帳 | アドレスローテーション | 自動シールド化 | DEXスワップ | 複数コイン | シールドメモ | Tor対応
-- Ironwood: 対応済み
+- 機能: アドレス帳 | アドレスローテーション | 自動シールド化 | DEXスワップ | マルチコイン | シールドメモ | Tor対応
+- Ironwood: 準備完了
 
 ---
 
@@ -111,7 +111,7 @@
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | フルノード
 - プール: トランスペアレント | Sapling | Ironwood
 - 機能: コマンドラインインターフェース | PepperSync | シールドメモ | テストネット対応
-- Ironwood: 開発中
+- Ironwood: 進行中
 
 ---
 
@@ -122,7 +122,7 @@
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | フルノード
 - プール: トランスペアレント | Sapling | Ironwood
 - 機能: アルファリリース | JSON-RPCインターフェース | シールドメモ | テストネット対応
-- Ironwood: 対応済み
+- Ironwood: 準備完了
 
 ---
 
@@ -133,7 +133,7 @@
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | フルノード
 - プール: トランスペアレント | Sapling | Ironwood
 - 機能: コマンドラインインターフェース | 多様化アドレス | シールドメモ | テストネット対応
-- Ironwood: 未対応
+- Ironwood: 未準備
 
 ---
 
@@ -143,17 +143,17 @@
 - オペレーティングシステム: ブラウザ
 - ウォレット対応: シードフレーズ | Unified Address
 - プール: トランスペアレント | Ironwood
-- 機能: シールドメモ | 同期前の送金 | テストネット対応
+- 機能: シールドメモ | 同期前の支出 | テストネット対応
 
 ---
 
-## [MetaMask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](/content-images/metamask-25048569f6.webp "Metamask")
 - デバイス: ウェブ
 - オペレーティングシステム: ブラウザ
 - ウォレット対応: シードフレーズ | Unified Address
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: 複数コイン
+- 機能: マルチコイン
 
 ---
 
@@ -173,7 +173,7 @@
 - オペレーティングシステム: Android | iOS | ブラウザ
 - ウォレット対応: シードフレーズ
 - プール: トランスペアレント
-- 機能: 複数コイン
+- 機能: マルチコイン
 
 ---
 
@@ -183,7 +183,7 @@
 - オペレーティングシステム: Android | iOS | ブラウザ
 - ウォレット対応: シードフレーズ
 - プール: トランスペアレント
-- 機能: 複数コイン
+- 機能: マルチコイン
 
 ---
 
@@ -193,7 +193,7 @@
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS | ブラウザ
 - ウォレット対応: シードフレーズ
 - プール: トランスペアレント
-- 機能: 複数コイン
+- 機能: マルチコイン
 
 ---
 
@@ -203,7 +203,7 @@
 - オペレーティングシステム: Android | iOS | Windows
 - ウォレット対応: シードフレーズ
 - プール: トランスペアレント
-- 機能: 複数コイン
+- 機能: マルチコイン
 
 ---
 
@@ -213,8 +213,8 @@
 - オペレーティングシステム:
 - ウォレット対応: ハードウェア | Unified Address
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: 複数コイン
-- Ironwood: 対応済み
+- 機能: マルチコイン
+- Ironwood: 準備完了
 
 ---
 
@@ -224,8 +224,8 @@
 - オペレーティングシステム:
 - ウォレット対応: ハードウェア
 - プール: トランスペアレント
-- 機能: 複数コイン
-- Ironwood: 開発中
+- 機能: マルチコイン
+- Ironwood: 進行中
 
 ---
 
@@ -235,7 +235,7 @@
 - オペレーティングシステム: Android | iOS | ブラウザ
 - ウォレット対応: シードフレーズ | ハードウェア
 - プール: トランスペアレント
-- 機能: 複数コイン
+- 機能: マルチコイン
 
 ---
 
@@ -245,7 +245,7 @@
 - オペレーティングシステム:
 - ウォレット対応: ハードウェア
 - プール: トランスペアレント
-- 機能: 複数コイン
+- 機能: マルチコイン
 
 ---
 
@@ -254,7 +254,7 @@
 - デバイス: ウェブ | モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS | ブラウザ
 - プール: トランスペアレント
-- 機能: 複数コイン | ウェブアプリ
+- 機能: マルチコイン | ウェブアプリ
 
 ---
 
@@ -264,8 +264,8 @@
 - オペレーティングシステム: macOS
 - ウォレット対応: シードフレーズ | Unified Address | ハードウェア
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: 自動シールド化 | シールドメモ | テストネット対応 | FROSTマルチシグ
-- Ironwood: 対応済み
+- 機能: 自動シールド化 | シールドメモ | テストネット対応 | FROST マルチシグ
+- Ironwood: 準備完了
 
 ---
 
@@ -274,8 +274,8 @@
 - デバイス: ウェブ | デスクトップ
 - オペレーティングシステム: ブラウザ
 - プール: シールド | トランスペアレント
-- 機能: ブラウザ拡張機能 | シールド取引 | クロスチェーンスワップ | 貸付・借入 | DApp接続 | Rhea
-- Ironwood: 対応済み
+- 機能: ブラウザ拡張機能 | シールドトランザクション | クロスチェーンスワップ | レンディング＆ボローイング | DApp接続 | Rhea
+- Ironwood: 準備完了
 
 ---
 
@@ -285,8 +285,8 @@
 - オペレーティングシステム: ブラウザ | Windows | macOS
 - ウォレット対応: シードフレーズ | 外部ウォレット | 受取アドレス | QRコード | ハードウェア
 - プール: Sapling | トランスペアレント
-- 機能: 複数コイン | Near Intents | Maya DEX | KYC不要 | ノンカストディアル | ウェブアプリ | デスクトップアプリ | シールドされたZEC | AnyPay
-- Ironwood: 対応済み
+- 機能: マルチコイン | Near Intents | Maya DEX | KYC不要 | ノンカストディアル | ウェブアプリ | デスクトップアプリ | シールド ZEC | AnyPay
+- Ironwood: 準備完了
 
 ---
 
@@ -296,8 +296,8 @@
 - オペレーティングシステム: Android
 - ウォレット対応: Unified Address
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: エンドツーエンド暗号化メッセンジャー | NEAR Intents | P2P.me Offramp | ベータ
-- Ironwood: 対応済み
+- 機能: エンドツーエンド暗号化メッセンジャー | NEAR Intents | P2P.meオフランプ | ベータ
+- Ironwood: 準備完了
 
 ---
 
@@ -305,10 +305,10 @@
 ![logo](/content-images/zecd.webp "Zecd")
 - デバイス: デスクトップ
 - オペレーティングシステム: Linux
-- ウォレット対応: シードフレーズ | Viewing Key | Unified Address | 秘密鍵 | 支出キー | ウォレットバックアップ／キーエクスポート | フルノードウォレット
+- ウォレット対応: シードフレーズ | Viewing Key | Unified Address | 秘密鍵 | 支出キー | ウォレットバックアップ / キーエクスポート | フルノードウォレット
 - プール: トランスペアレント | Sapling | Ironwood | Sprout
 - 機能: 暗号化メモ | ウォレットバックアップ（ウォレットデータ） | RPCインターフェース | シールドメモ | 秘密鍵管理
-- Ironwood: 対応済み
+- Ironwood: 準備完了
 
 ---
 
@@ -318,7 +318,7 @@
 - オペレーティングシステム: iOS | macOS
 - ウォレット対応: シードフレーズ | パスキー | Unified Address | 秘密鍵 | セルフカストディウォレット
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: セルフカストディ | 秘密鍵をローカルに保存 | KYC不要 | ウォレット操作にZendサーバーへの依存なし | 暗号化されたシールド取引 | シード復元 | シールドメモ | パスキー認証
+- 機能: セルフカストディ | ローカル保存の秘密鍵 | KYC不要 | ウォレット利用時にZendサーバーへの依存なし | 暗号化されたシールドトランザクション | シード復元 | シールドメモ | パスキー認証
 
 ---
 
@@ -328,8 +328,8 @@
 - オペレーティングシステム: Linux | iOS | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | 支出キー | HDウォレット | 秘密鍵管理
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: アドレス帳 | Tor対応 | I2P対応 | Zebra/zebrad統合 | 取引履歴 | 取引エクスポート | ローカル証人導出 | 動的手数料 (ZIP-317) | NU6.2互換性 | NU6.3移行対応 | シールドメモ
-- Ironwood: 対応済み
+- 機能: アドレス帳 | Tor対応 | I2P対応 | Zebra/Zebrad統合 | トランザクション履歴 | トランザクションエクスポート | ローカルウィットネス導出 | 動的手数料（ZIP-317） | NU6.2互換性 | NU6.3移行対応 | シールドメモ
+- Ironwood: 準備完了
 
 ---
 
@@ -339,8 +339,8 @@
 - オペレーティングシステム: Android | Windows | Linux（CLIおよびMCPサーバー） | iOS | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | マルチアカウントウォレット | セルフカストディウォレット | 秘密鍵管理 | エージェントウォレット対応
 - プール: トランスペアレント | Sapling | Ironwood
-- 機能: NEAR Intents | 支払いリクエスト | シールドメモ | シールド取引がデフォルト | テストネット | クロスチェーンスワップ | CipherPay | Viewing Key | AIエージェント | MCPサーバー | CLIウォレット | FROST | ベータ
-- Ironwood: 開発中
+- 機能: NEAR Intents | 支払いリクエスト | シールドメモ | シールドトランザクションがデフォルト | テストネット | クロスチェーンスワップ | CipherPay | Viewing Key | AIエージェント | MCPサーバー | CLIウォレット | FROST | ベータ
+- Ironwood: 進行中
 
 ---
 
@@ -348,7 +348,28 @@
 ![logo](/content-images/argos.webp "Argos")
 - デバイス: デスクトップ
 - オペレーティングシステム: Windows | Linux | macOS
-- ウォレット対応: シードフレーズ | 支出キー | 秘密鍵 | ウォレットバックアップ／キーエクスポート
+- ウォレット対応: シードフレーズ | 支出キー | 秘密鍵 | ウォレットバックアップ / キーエクスポート
 - プール: トランスペアレント | Sapling | Ironwood | Sprout
 - 機能: ウォレット復元 | コマンドラインインターフェース | シールドメモ | テストネット対応
-- Ironwood: 対応済み
+- Ironwood: 準備完了
+
+---
+
+## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
+![logo](/content-images/gem_wallet_logo.png "Gem Wallet")
+- デバイス: モバイル
+- オペレーティングシステム: Android | iOS
+- ウォレット対応: シードフレーズ
+- プール: トランスペアレント
+- 機能: マルチコイン
+
+--- 
+
+## [Freedom Wallet](https://www.freedomwallet.com/)
+![logo](/content-images/freedomwalletlogo.jpg "Freedom Wallet")
+- デバイス: モバイル | デスクトップ
+- オペレーティングシステム: Android | iOS | Linux | Windows
+- ウォレット対応: シードフレーズ | 秘密鍵 | セルフカストディウォレット | Unified Address
+- プール: トランスペアレント | Sapling | Ironwood
+- 機能: マルチチェーンプライバシー対応 | 暗号化されたシールドトランザクション | シード復元 | アプリ内スワップ | ライトウォレット同期
+- Ironwood: 進行中
