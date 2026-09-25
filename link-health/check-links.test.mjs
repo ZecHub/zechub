@@ -9,11 +9,21 @@
 //
 // Run: node link-health/check-links.test.mjs
 import { readFileSync } from "node:fs";
+import { basename, dirname } from "node:path";
 
 const src = readFileSync(new URL("./check-links.mjs", import.meta.url), "utf8");
 const originalOf = new Function(
   src.slice(src.indexOf("function originalOf"), src.indexOf("// ── suggested actions")) +
   "; return originalOf;")();
+
+const routeExists = new Function(
+  "basename",
+  "dirname",
+  "existsSync",
+  src.slice(src.indexOf("function transformUri"), src.indexOf("// ── file walking")) +
+    src.slice(src.indexOf("function routeExists"), src.indexOf("// ── external checking")) +
+    "; return routeExists;",
+)(basename, dirname, () => false);
 
 let failed = 0;
 const eq = (name, got, want) => {
@@ -47,6 +57,25 @@ eq("star timestamp (latest)",
    originalOf(`${A}/*/https://example.org/x`),
    { when: "*", original: "https://example.org/x" });
 
+// App routes must resolve by their complete path. A valid top-level app page
+// must not make arbitrary descendants look healthy.
+const appRoutes = new Set(["wallets", "dashboard", "hackathon", "developers/quick-start"]);
+eq("exact app route",
+   routeExists("/wallets", [], appRoutes),
+   { ok: true, how: "app route" });
+eq("dashboard app route",
+   routeExists("/dashboard", [], appRoutes),
+   { ok: true, how: "app route" });
+eq("hackathon app route",
+   routeExists("/hackathon", [], appRoutes),
+   { ok: true, how: "app route" });
+eq("invalid nested path under app route",
+   routeExists("/wallets/does-not-exist", [], appRoutes),
+   { ok: false, how: "no file at site/Wallets/Does_Not_Exist.md" });
+eq("legitimate nested app route",
+   routeExists("/developers/quick-start", [], appRoutes),
+   { ok: true, how: "app route" });
+
 // must NOT match: these are ordinary links and re-probing them is meaningless
 eq("not an archive host", originalOf("https://example.org/web/20250611203406/https://x.test/"), null);
 eq("archive without a target", originalOf(`${A}/20250611203406/`), null);
@@ -55,5 +84,5 @@ eq("the archive home page", originalOf("https://web.archive.org/"), null);
 eq("target without a host", originalOf(`${A}/2022/https://?`), null);
 eq("non-string input", originalOf(Symbol("x")), null);
 
-console.log(failed ? `${failed} failing` : "all 12 cases correct");
+console.log(failed ? `${failed} failing` : "all 17 cases correct");
 process.exit(failed ? 1 : 0);
