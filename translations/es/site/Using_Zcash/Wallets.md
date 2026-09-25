@@ -1,375 +1,375 @@
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
-- Dispositivos: Móvil
-- Sistema operativo: Android | iOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Hardware
-- Pools: Transparente | Sapling | Ironwood
-- Características: Libreta de direcciones | CrossPay | Near Intents | Flexa Pagos | Multifirma | Solicitud de pago | Memo blindado | Gastar antes de sincronizar | Dirección TEX | Compatibilidad con Tor | F-droid
-- Ironwood: Listo
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Ironwood: Ready
 
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: Android | iOS | Windows | Linux | macOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Hardware
-- Pools: Transparente | Sapling | Ironwood
-- Características: Libreta de direcciones | Almacenamiento en frío | Dirección diversificada | Solicitud de pago | Transferencia entre pools | Memo blindado | Dirección TEX | Votación | WarpSync
-- Ironwood: No está listo
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
+- Ironwood: Not Ready
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: Android | iOS | Windows | Linux | macOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Sapling | Ironwood
-- Características: Bot Discord
+- Features: Discord Bot
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: Android | iOS | Windows | Linux
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address
-- Pools: Transparente | Sapling | Ironwood
-- Características: Libreta de direcciones | Información financiera | Solicitud de pago | PepperSync | Memo blindado | Compatibilidad con testnet
-- Ironwood: Listo
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Edge](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
-- Dispositivos: Móvil
-- Sistema operativo: Android | iOS
-- Compatibilidad con wallets: Frase semilla | Unified Address
-- Pools: Transparente | Sapling
-- Características: Blindaje automático | Swaps DEX | Multimoneda | Memo blindado | Gastar antes de sincronizar
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling
+- Features: Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Spend before Sync
 
 ---
 
 ## [Unstoppable](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
-- Dispositivos: Móvil
-- Sistema operativo: Android | iOS
-- Compatibilidad con wallets: Frase semilla | Unified Address
-- Pools: Transparente | Sapling | Ironwood
-- Características: Swaps DEX | Multimoneda | Gastar antes de sincronizar
-- Ironwood: Listo
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: DEX Swaps | Multi Coin | Spend before Sync
+- Ironwood: Ready
 
 ---
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: Android | iOS | Windows
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address
-- Pools: Transparente | Sapling | Ironwood
-- Características: Libreta de direcciones | Verificación de direcciones | Blindaje automático | Dirección diversificada | Solicitud de pago | Memo blindado | Dirección TEX | Compatibilidad con testnet
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Address Check | Automatic Shielding | Diversified Address | Payment Request | Shielded Memo | TEX Address | Testnet Support
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: Android | iOS | Windows | Linux
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Hardware
-- Pools: Transparente | Sapling | Ironwood
-- Características: Rotación de direcciones | Amplia compatibilidad con claves | Exportaciones cifradas | Multifirma FROST | Sincronización multicuenta | Memo blindado | Compatibilidad con testnet
-- Ironwood: Listo
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: Android | iOS | Windows | Linux | macOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address
-- Pools: Transparente | Sapling | Ironwood
-- Características: Libreta de direcciones | Rotación de direcciones | Blindaje automático | Swaps DEX | Multimoneda | Memo blindado | Compatibilidad con Tor
-- Ironwood: Listo
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
+- Ironwood: Ready
 
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
-- Dispositivos: Escritorio
-- Sistema operativo: Windows | Linux | macOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Nodo completo
-- Pools: Transparente | Sapling | Ironwood
-- Características: Libreta de direcciones | Interfaz gráfica | Memo blindado | Compatibilidad con testnet
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Graphical Interface | Shielded Memo | Testnet Support
 
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
-- Dispositivos: Escritorio
-- Sistema operativo: Windows | Linux | macOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Nodo completo
-- Pools: Transparente | Sapling | Ironwood
-- Características: Interfaz de línea de comandos | PepperSync | Memo blindado | Compatibilidad con testnet
-- Ironwood: En progreso
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
+- Ironwood: In Progress
 
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
-- Dispositivos: Escritorio
-- Sistema operativo: Windows | Linux | macOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Nodo completo
-- Pools: Transparente | Sapling | Ironwood
-- Características: Lanzamiento alfa | Interfaz JSON-RPC | Memo blindado | Compatibilidad con testnet
-- Ironwood: Listo
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
-- Dispositivos: Escritorio
-- Sistema operativo: Windows | Linux | macOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Nodo completo
-- Pools: Transparente | Sapling | Ironwood
-- Características: Interfaz de línea de comandos | Dirección diversificada | Memo blindado | Compatibilidad con testnet
-- Ironwood: No está listo
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
+- Ironwood: Not Ready
 
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
-- Dispositivos: Web
-- Sistema operativo: Navegador
-- Compatibilidad con wallets: Frase semilla | Unified Address
-- Pools: Transparente | Ironwood
-- Características: Memo blindado | Gastar antes de sincronizar | Compatibilidad con testnet
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Ironwood
+- Features: Shielded Memo | Spend before Sync | Testnet Support
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](/content-images/metamask-25048569f6.webp "Metamask")
-- Dispositivos: Web
-- Sistema operativo: Navegador
-- Compatibilidad con wallets: Frase semilla | Unified Address
-- Pools: Transparente | Sapling | Ironwood
-- Características: Multimoneda
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Coin
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Dispositivos: Web
-- Sistema operativo: Navegador
-- Compatibilidad con wallets: Frase semilla | Unified Address
-- Pools: Transparente | Sapling | Ironwood
-- Características: Swaps DEX
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: DEX Swaps
 
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
-- Dispositivos: Móvil | Web
-- Sistema operativo: Android | iOS | Navegador
-- Compatibilidad con wallets: Frase semilla
-- Pools: Transparente
-- Características: Multimoneda
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
-- Dispositivos: Móvil | Web
-- Sistema operativo: Android | iOS | Navegador
-- Compatibilidad con wallets: Frase semilla
-- Pools: Transparente
-- Características: Multimoneda
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
-- Dispositivos: Móvil | Escritorio | Web
-- Sistema operativo: Android | iOS | Windows | Linux | macOS | Navegador
-- Compatibilidad con wallets: Frase semilla
-- Pools: Transparente
-- Características: Multimoneda
+- Devices: Mobile | Desktop | Web
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: Android | iOS | Windows
-- Compatibilidad con wallets: Frase semilla
-- Pools: Transparente
-- Características: Multimoneda
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
-- Dispositivos:
-- Sistema operativo:
-- Compatibilidad con wallets: Hardware | Unified Address
-- Pools: Transparente | Sapling | Ironwood
-- Características: Multimoneda
-- Ironwood: Listo
+- Devices:
+- Operating System:
+- Wallet Support: Hardware | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Coin
+- Ironwood: Ready
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Dispositivos:
-- Sistema operativo:
-- Compatibilidad con wallets: Hardware
-- Pools: Transparente
-- Características: Multimoneda
-- Ironwood: En progreso
+- Devices:
+- Operating System:
+- Wallet Support: Hardware
+- Pools: Transparent
+- Features: Multi Coin
+- Ironwood: In Progress
 
 ---
 
 ## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
-- Dispositivos: Móvil | Web
-- Sistema operativo: Android | iOS | Navegador
-- Compatibilidad con wallets: Frase semilla | Hardware
-- Pools: Transparente
-- Características: Multimoneda
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase | Hardware
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
-- Dispositivos:
-- Sistema operativo:
-- Compatibilidad con wallets: Hardware
-- Pools: Transparente
-- Características: Multimoneda
+- Devices:
+- Operating System:
+- Wallet Support: Hardware
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
-- Dispositivos: Web | Móvil | Escritorio
-- Sistema operativo: Android | iOS | Windows | Linux | macOS | Navegador
-- Pools: Transparente
-- Características: Multimoneda | Aplicación web
+- Devices: Web | Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Pools: Transparent
+- Features: Multi Coin | Web App
 
 ---
 
 ## [Vizor](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
-- Dispositivos: Escritorio | Móvil
-- Sistema operativo: macOS
-- Compatibilidad con wallets: Frase semilla | Unified Address | Hardware
-- Pools: Transparente | Sapling | Ironwood
-- Características: Blindaje automático | Memo blindado | Compatibilidad con testnet | Multifirma FROST
-- Ironwood: Listo
+- Devices: Desktop | Mobile
+- Operating System: macOS
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
+- Ironwood: Ready
 
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
-- Dispositivos: Web | Escritorio
-- Sistema operativo: Navegador
-- Pools: Blindado | Transparente
-- Características: Extensión de navegador | Transacciones blindadas | Swaps entre cadenas | Préstamos y empréstitos | Conexiones DApp | Rhea
-- Ironwood: Listo
+- Devices: Web | Desktop
+- Operating System: Browser
+- Pools: Shielded | Transparent
+- Features: Browser Extension | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Rhea
+- Ironwood: Ready
 
 ---
 
 ## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
-- Dispositivos: Web | Escritorio
-- Sistema operativo: Navegador | Windows | macOS
-- Compatibilidad con wallets: Frase semilla | Wallet externa | Dirección de recepción | Código QR | Hardware
-- Pools: Sapling | Transparente
-- Características: Multimoneda | Near Intents | Maya DEX | Sin KYC | Sin custodia | Aplicación web | Aplicación de escritorio | ZEC blindado | AnyPay
-- Ironwood: Listo
+- Devices: Web | Desktop
+- Operating System: Browser | Windows | macOS
+- Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
+- Pools: Sapling | Transparent
+- Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Ironwood: Ready
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Dispositivos: Móvil
-- Sistema operativo: Android
-- Compatibilidad con wallets: Unified Address
-- Pools: Transparente | Sapling | Ironwood
-- Características: Mensajero cifrado de extremo a extremo | NEAR Intents | P2P.me Offramp | Beta
-- Ironwood: Listo
+- Devices: Mobile
+- Operating System: Android
+- Wallet Support: Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
+- Ironwood: Ready
 
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Dispositivos: Escritorio
-- Sistema operativo: Linux
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Clave privada | Clave de gasto | Copia de seguridad de wallet / Exportación de clave | Wallet de nodo completo
-- Pools: Transparente | Sapling | Ironwood | Sprout
-- Características: Memo cifrado | Copia de seguridad de wallet (datos de wallet) | Interfaz RPC | Memo blindado | Gestión de claves privadas
-- Ironwood: Listo
+- Devices: Desktop
+- Operating System: Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
+- Pools: Transparent | Sapling | Ironwood | Sprout
+- Features: Encrypted Memo | Wallet Backup (wallet data) | RPC Interface | Shielded Memo | Private Key Management
+- Ironwood: Ready
 
 ---
 
 ## [Zend:Zcash Wallet](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: iOS | macOS
-- Compatibilidad con wallets: Frase semilla | Passkey | Unified Address | Clave privada | Wallet sin custodia
-- Pools: Transparente | Sapling | Ironwood
-- Características: Autocustodia | Clave privada almacenada localmente | No se requiere KYC | Sin dependencia del servidor Zend para la actividad de la wallet | Transacción blindada cifrada | Recuperación de semilla | Memo blindado | Autenticación con Passkey
+- Devices: Mobile | Desktop
+- Operating System: iOS | macOS
+- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
+- Pools: Transparent | Sapling | Ironwood
+- Features: Self-Custody | Private Key Stored Locally | No KYC Required | No Zend Server Dependency for Wallet Activity | Encrypted Shielded Transaction | Seed Recovery | Shielded Memo | Passkey Authentication
 
 ---
 
 ## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
-- Dispositivos: Escritorio | Navegador
-- Sistema operativo: Linux | iOS | macOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Clave de gasto | Wallet HD | Gestión de claves privadas
-- Pools: Transparente | Sapling | Ironwood
-- Características: Libreta de direcciones | Compatibilidad con Tor | Compatibilidad con I2P | Integración Zebra/Zebrad | Historial de transacciones | Exportación de transacciones | Derivación local de testigos | Comisión dinámica (ZIP-317) | Compatibilidad con NU6.2 | Compatibilidad de migración NU6.3 | Memo blindado
-- Ironwood: Listo
+- Devices: Desktop | Browser
+- Operating System: Linux | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Tor Support | I2P Support | Zebra/Zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
+- Ironwood: Ready
 
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: Android | Windows | Linux (CLI y servidor MCP) | iOS | macOS
-- Compatibilidad con wallets: Frase semilla | Viewing Key | Unified Address | Wallet multicuenta | Wallet sin custodia | Gestión de claves privadas | Compatibilidad con wallet de agente
-- Pools: Transparente | Sapling | Ironwood
-- Características: NEAR Intents | Solicitudes de pago | Memo blindado | Transacción blindada predeterminada | Testnet | Swap entre cadenas | CipherPay | Viewing Key | Agente de IA | Servidor MCP | Wallet CLI | FROST | Beta
-- Ironwood: En progreso
+- Devices: Mobile | Desktop
+- Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
+- Pools: Transparent | Sapling | Ironwood
+- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
+- Ironwood: In Progress
 
 ---
 
 ## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
-- Dispositivos: Escritorio
-- Sistema operativo: Windows | Linux | macOS
-- Compatibilidad con wallets: Frase semilla | Clave de gasto | Clave privada | Copia de seguridad de wallet / Exportación de clave
-- Pools: Transparente | Sapling | Ironwood | Sprout
-- Características: Recuperación de wallet | Interfaz de línea de comandos | Memo blindado | Compatibilidad con testnet
-- Ironwood: Listo
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Spending Key | Private Key | Wallet Backup / Key Export
+- Pools: Transparent | Sapling | Ironwood | Sprout
+- Features: Wallet Recovery | Command Line Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
 ![logo](/content-images/gem_wallet_logo.png "Gem Wallet")
-- Dispositivos: Móvil
-- Sistema operativo: Android | iOS
-- Compatibilidad con wallets: Frase semilla
-- Pools: Transparente
-- Características: Multimoneda
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 --- 
 
 ## [Freedom Wallet](https://www.freedomwallet.com/)
 ![logo](/content-images/freedomwalletlogo.jpg "Freedom Wallet")
-- Dispositivos: Móvil | Escritorio
-- Sistema operativo: Android | iOS | Linux | Windows
-- Compatibilidad con wallets: Frase semilla | Clave privada | Wallet sin custodia | Unified Address
-- Pools: Transparente | Sapling | Ironwood
-- Características: Compatibilidad con privacidad multichain | Transacción blindada cifrada | Recuperación de semilla | Swaps dentro de la aplicación | Sincronización de wallet ligera
-- Ironwood: En progreso
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Linux | Windows
+- Wallet Support: Seed Phrase | Private Key | Self-Custody Wallet | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi-Chain Privacy Support | Encrypted Shielded Transaction | Seed Recovery | In-App Swaps | Light Wallet Sync
+- Ironwood: In Progress

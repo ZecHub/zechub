@@ -1,0 +1,8 @@
+{
+  "_comment": "Lines a translation must carry VERBATIM from the English page, at the same line number. The wiki parses them as data: src/lib/parseMarkdown.ts reads the wallet fields by their English labels and colours the Ironwood badge by its English status, so a translated label or value blanks the field in that locale. Checked by scripts/check-verbatim-lines.mjs; `--fix` copies the English lines over.",
+  "pages": {
+    "Using_Zcash/Wallets.md": [
+      "^- (Devices|Operating System|Wallet Support|Pools|Features|Ironwood):"
+    ]
+  }
+}

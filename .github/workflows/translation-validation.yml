@@ -94,6 +94,17 @@ jobs:
       - name: Page hygiene gate self-test
         run: node scripts/check-page-hygiene.test.mjs
 
+      # Some translated lines are DATA the wiki parses: the wallet page reads
+      # each wallet's fields by their English labels and colours the Ironwood
+      # badge by its English status. Translated, the Features list rendered
+      # empty and the badge grey in every locale. translation/verbatim-lines.json
+      # lists those lines; they must match English exactly.
+      - name: Verbatim data lines
+        run: node scripts/check-verbatim-lines.mjs
+
+      - name: Verbatim data lines self-test
+        run: node scripts/check-verbatim-lines.test.mjs
+
       # Every venue named on the exchange pages must be a protected term, or
       # a machine engine will translate the BRAND. It did: LetsExchange became
       # "Ẹ jẹ́ kí a pààrọ̀" ("let us exchange") in Yoruba, across 109 headings

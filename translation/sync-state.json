@@ -485,7 +485,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+notranslate-spans",
+      "tool": "gt-static+notranslate-spans+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -2247,7 +2247,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -4009,7 +4009,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -5771,7 +5771,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+notranslate-spans",
+      "tool": "gt-static+notranslate-spans+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -7533,7 +7533,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -9295,7 +9295,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -11057,7 +11057,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -12819,7 +12819,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+notranslate-spans",
+      "tool": "gt-static+notranslate-spans+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -14581,7 +14581,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -16343,7 +16343,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -18105,7 +18105,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -19867,7 +19867,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -21629,7 +21629,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -23391,7 +23391,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+notranslate-spans",
+      "tool": "gt-static+notranslate-spans+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -25153,7 +25153,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -26915,7 +26915,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -28677,7 +28677,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+notranslate-spans",
+      "tool": "gt-static+notranslate-spans+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -30439,7 +30439,7 @@
       "src_commit": "aed83089479cc17cf2b52b73c0dbbf8648d36fe8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+verbatim-lines",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {

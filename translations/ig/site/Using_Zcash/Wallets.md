@@ -1,375 +1,375 @@
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
-- Ngwaọrụ: Mkpanaka
-- Sistemụ arụmọrụ: Android | iOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Akụrụngwa
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Akwụkwọ Adreesị | CrossPay | Near Intents | Ụgwọ Flexa | Mbinye aka dị iche iche | Arịrịọ Ịkwụ Ụgwọ | Ihe Nchedo Ekpuchiri | Mefuo ego tupu ejikọta ya | Adreesị TEX | Nkwado Tor | F-droid
-- Ironwood: Dị njikere
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Ironwood: Ready
 
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | iOS | Windows | Linux | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Akụrụngwa
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Akwụkwọ Adreesị | Nchekwa Oyi | Adreesị dị iche iche | Arịrịọ Ịkwụ Ụgwọ | Nyefe Ọdọ Mmiri | Ihe Nchedo Ekpuchiri | Adreesị TEX | Ịtụ vootu | WarpSync
-- Ironwood: Adịghị njikere
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
+- Ironwood: Not Ready
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | iOS | Windows | Linux | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address
-- Ọdọ mmiri: Sapling | Ironwood
-- Atụmatụ: Discord Bot
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Sapling | Ironwood
+- Features: Discord Bot
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | iOS | Windows | Linux
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Akwụkwọ Adreesị | Nghọta Ego | Arịrịọ Ịkwụ Ụgwọ | PepperSync | Ihe Nchedo Ekpuchiri | Nkwado Netwọk Nnwale
-- Ironwood: Dị njikere
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Edge](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
-- Ngwaọrụ: Mkpanaka
-- Sistemụ arụmọrụ: Android | iOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Unified Address
-- Ọdọ mmiri: Transparent | Sapling
-- Atụmatụ: Nchekwa Akpaaka | Mgbanwe DEX | Ọtụtụ Mkpụrụ ego | Ihe Nchedo Ekpuchiri | Mefuo ego tupu ejikọta ya
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling
+- Features: Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Spend before Sync
 
 ---
 
 ## [Unstoppable](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
-- Ngwaọrụ: Mkpanaka
-- Sistemụ arụmọrụ: Android | iOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Unified Address
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Mgbanwe DEX | Ọtụtụ Mkpụrụ ego | Mefuo ego tupu ejikọta ya
-- Ironwood: Dị njikere
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: DEX Swaps | Multi Coin | Spend before Sync
+- Ironwood: Ready
 
 ---
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | iOS | Windows
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Akwụkwọ Adreesị | Lelee Adreesị | Nchekwa Akpaaka | Adreesị dị iche iche | Arịrịọ Ịkwụ Ụgwọ | Ihe Nchedo Ekpuchiri | Adreesị TEX | Nkwado Netwọk Nnwale
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Address Check | Automatic Shielding | Diversified Address | Payment Request | Shielded Memo | TEX Address | Testnet Support
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | iOS | Windows | Linux
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Akụrụngwa
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Mgbanwe Adreesị | Nkwado Igodo Sara Mbara | Mbupụ Ezoro Ezo | FROST na-atụ | Mmekọrịta Ọtụtụ Akaụntụ | Ihe Nchedo Ekpuchiri | Nkwado Netwọk Nnwale
-- Ironwood: Dị njikere
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | iOS | Windows | Linux | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Akwụkwọ Adreesị | Mgbanwe Adreesị | Nchekwa Akpaaka | Mgbanwe DEX | Ọtụtụ Mkpụrụ ego | Ihe Nchedo Ekpuchiri | Nkwado Tor
-- Ironwood: Dị njikere
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
+- Ironwood: Ready
 
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
-- Ngwaọrụ: Desktọpụ
-- Sistemụ Ọrụ: Windows | Linux | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Ọnụ zuru ezu
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Akwụkwọ Adreesị | Nhazi eserese | Ihe Nchedo Ekpuchiri | Nkwado Netwọk Nnwale
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Graphical Interface | Shielded Memo | Testnet Support
 
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
-- Ngwaọrụ: Desktọpụ
-- Sistemụ Ọrụ: Windows | Linux | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Ọnụ zuru ezu
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Njikwa Ahịrị Iwu | PepperSync | Ihe Nchedo Ekpuchiri | Nkwado Netwọk Nnwale
-- Ironwood: Na-aga n'ihu
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
+- Ironwood: In Progress
 
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
-- Ngwaọrụ: Desktọpụ
-- Sistemụ Ọrụ: Windows | Linux | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Ọnụ zuru ezu
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Ntọhapụ Alfa | Njikọ JSON-RPC | Ihe Nchedo Ekpuchiri | Nkwado Netwọk Nnwale
-- Ironwood: Dị njikere
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
-- Ngwaọrụ: Desktọpụ
-- Sistemụ Ọrụ: Windows | Linux | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Ọnụ zuru ezu
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Njikwa Ahịrị Iwu | Adreesị dị iche iche | Ihe Nchedo Ekpuchiri | Nkwado Netwọk Nnwale
-- Ironwood: Adịghị njikere
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
+- Ironwood: Not Ready
 
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
-- Ngwaọrụ: Weebụ
-- Sistemụ Ọrụ: Ihe Nchọgharị
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Unified Address
-- Ọdọ mmiri: Transparent | Ironwood
-- Atụmatụ: Nchedo Memo | Mefuo ego tupu ejikọta ya | Nkwado Netwọk Nnwale
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Ironwood
+- Features: Shielded Memo | Spend before Sync | Testnet Support
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](/content-images/metamask-25048569f6.webp "Metamask")
-- Ngwaọrụ: Weebụ
-- Sistemụ Ọrụ: Ihe Nchọgharị
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Unified Address
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Coin
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Ngwaọrụ: Weebụ
-- Sistemụ Ọrụ: Ihe Nchọgharị
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Unified Address
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Mgbanwe DEX
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: DEX Swaps
 
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
-- Ngwaọrụ: Mkpanaka | Weebụ
-- Sistemụ arụmọrụ: Android | iOS | Ihe nchọgharị
-- Nkwado Akpa Ego: Mkpụrụ Okwu
-- Ọdọ mmiri: Transparent
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
-- Ngwaọrụ: Mkpanaka | Weebụ
-- Sistemụ arụmọrụ: Android | iOS | Ihe nchọgharị
-- Nkwado Akpa Ego: Mkpụrụ Okwu
-- Ọdọ mmiri: Transparent
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
-- Ngwaọrụ: Mkpanaka | Desktọpụ | Weebụ
-- Sistemụ arụmọrụ: Android | iOS | Windows | Linux | macOS | Ihe nchọgharị
-- Nkwado Akpa Ego: Mkpụrụ Okwu
-- Ọdọ mmiri: Transparent
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
+- Devices: Mobile | Desktop | Web
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | iOS | Windows
-- Nkwado Akpa Ego: Mkpụrụ Okwu
-- Ọdọ mmiri: Transparent
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
-- Ngwaọrụ:
-- Sistemụ nrụọrụ:
-- Nkwado Akpa Ego: Ngwaike | Unified Address
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
-- Ironwood: Dị njikere
+- Devices:
+- Operating System:
+- Wallet Support: Hardware | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Coin
+- Ironwood: Ready
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Ngwaọrụ:
-- Sistemụ nrụọrụ:
-- Nkwado Akpa Ego: Ngwaike
-- Ọdọ mmiri: Transparent
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
-- Ironwood: Na-aga n'ihu
+- Devices:
+- Operating System:
+- Wallet Support: Hardware
+- Pools: Transparent
+- Features: Multi Coin
+- Ironwood: In Progress
 
 ---
 
 ## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
-- Ngwaọrụ: Mkpanaka | Weebụ
-- Sistemụ arụmọrụ: Android | iOS | Ihe nchọgharị
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Akụrụngwa
-- Ọdọ mmiri: Transparent
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase | Hardware
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
-- Ngwaọrụ:
-- Sistemụ nrụọrụ:
-- Nkwado Akpa Ego: Ngwaike
-- Ọdọ mmiri: Transparent
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
+- Devices:
+- Operating System:
+- Wallet Support: Hardware
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
-- Ngwaọrụ: Weebụ | Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | iOS | Windows | Linux | macOS | Ihe nchọgharị
-- Ọdọ mmiri: Transparent
-- Atụmatụ: Ọtụtụ Mkpụrụ ego | Ngwa Weebụ
+- Devices: Web | Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Pools: Transparent
+- Features: Multi Coin | Web App
 
 ---
 
 ## [Vizor](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
-- Ngwaọrụ: Desktọpụ | Mkpanaka
-- Sistemụ arụmọrụ: macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Unified Address | Akụrụngwa
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Nchekwa Akpaaka | Ihe Nchedo Ekpuchiri | Nkwado Netwọk Nnwale | FROST na-atụ
-- Ironwood: Dị njikere
+- Devices: Desktop | Mobile
+- Operating System: macOS
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
+- Ironwood: Ready
 
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
-- Ngwaọrụ: Weebụ | Desktọpụ
-- Sistemụ Ọrụ: Ihe Nchọgharị
-- Ọdọ mmiri: Ekpuchiri | Ihe doro anya
-- Atụmatụ: Mgbatị Ihe Nchọgharị | Azụmahịa Ekpuchiri Echekwa | Mgbanwe nke Cross-chain | Ịgbazinye ego na ịgbaziri ego | Njikọ DApp | Rhea
-- Ironwood: Dị njikere
+- Devices: Web | Desktop
+- Operating System: Browser
+- Pools: Shielded | Transparent
+- Features: Browser Extension | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Rhea
+- Ironwood: Ready
 
 ---
 
 ## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
-- Ngwaọrụ: Weebụ | Desktọpụ
-- Sistemụ Ọrụ: Ihe Nchọgharị | Windows | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Obere akpa mpụga | Nata adreesị | Koodu QR | Akụrụngwa
-- Ọdọ mmiri: Sapling | Ihe doro anya
-- Atụmatụ: Ọtụtụ Mkpụrụ ego | Near Intents | Maya DEX | Enweghị KYC | Ihe Na-anaghị Eme Nchebe | Ngwa Weebụ | Ngwa Desktọpụ | ZEC echekwara | AnyPay
-- Ironwood: Dị njikere
+- Devices: Web | Desktop
+- Operating System: Browser | Windows | macOS
+- Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
+- Pools: Sapling | Transparent
+- Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Ironwood: Ready
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Ngwaọrụ: Mkpanaka
-- Sistemụ arụmọrụ: Android
-- Nkwado Akpa Ego: Unified Address
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Ozi ezoro ezo site na njedebe ruo na njedebe | NEAR Intents | P2P.me Offramp | Beta
-- Ironwood: Dị njikere
+- Devices: Mobile
+- Operating System: Android
+- Wallet Support: Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
+- Ironwood: Ready
 
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Ngwaọrụ: Desktọpụ
-- Sistemụ arụmọrụ: Linux
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Igodo nkeonwe | Igodo Mmefu | Ndabere Akpa / Mbupụ Igodo | Obere akpa Node zuru oke
-- Ọdọ mmiri: Transparent | Sapling | Ironwood | Sprout
-- Atụmatụ: Memo ezoro ezo | Ndabere obere akpa (data obere akpa) | Njikọ RPC | Ihe Nchedo Ekpuchiri | Njikwa Igodo nkeonwe
-- Ironwood: Dị njikere
+- Devices: Desktop
+- Operating System: Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
+- Pools: Transparent | Sapling | Ironwood | Sprout
+- Features: Encrypted Memo | Wallet Backup (wallet data) | RPC Interface | Shielded Memo | Private Key Management
+- Ironwood: Ready
 
 ---
 
 ## [Zend:Zcash Wallet](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: iOS | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Paswọọdụ | Unified Address | Igodo nkeonwe | Akpa Nchekwa Onwe
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Nchekwa onwe | Nchekwa igodo nkeonwe n'ógbè gị | Achọghị KYC | Enweghị ndabere nke sava Zend maka ọrụ obere akpa | Azụmahịa Ezoro Ezo | Mgbake Mkpụrụ | Ihe Nchedo Ekpuchiri | Nyocha nke Paswọọdụ
+- Devices: Mobile | Desktop
+- Operating System: iOS | macOS
+- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
+- Pools: Transparent | Sapling | Ironwood
+- Features: Self-Custody | Private Key Stored Locally | No KYC Required | No Zend Server Dependency for Wallet Activity | Encrypted Shielded Transaction | Seed Recovery | Shielded Memo | Passkey Authentication
 
 ---
 
 ## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
-- Ngwaọrụ: Desktọpụ | Ihe nchọgharị
-- Sistemụ arụmọrụ: Linux | iOS | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Igodo Mmefu | Obere akpa HD | Njikwa Igodo nkeonwe
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Akwụkwọ Adreesị | Nkwado Tor | Nkwado I2P | Njikọta Zebra/Zebrad | Akụkọ Azụmahịa | Mbupụ Azụmahịa | Nchọpụta nke Ndịàmà Obodo | Ụgwọ Mgbanwe (ZIP-317) | Ndakọrịta NU6.2 | Nkwado Mbugharị NU6.3 | Ihe Nchedo Ekpuchiri
-- Ironwood: Dị njikere
+- Devices: Desktop | Browser
+- Operating System: Linux | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Tor Support | I2P Support | Zebra/Zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
+- Ironwood: Ready
 
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | Windows | Linux (CLI na MCP Server) | iOS | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Viewing Key | Unified Address | Obere akpa akaụntụ dị iche iche | Akpa Nchekwa Onwe | Njikwa Igodo nkeonwe | Nkwado obere akpa onye nnọchite anya
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: NEAR Intents | Arịrịọ ịkwụ ụgwọ | Ihe Nchedo Ekpuchiri | Ndabara Azụmaahịa Ekpuchiri Echekwa | Netwọk Nnwale | Mgbanwe nke obe | CipherPay | Viewing Key | Onye nnọchite anya AI | Sava MCP | Akpa CLI | FROST | Beta
-- Ironwood: Na-aga n'ihu
+- Devices: Mobile | Desktop
+- Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
+- Pools: Transparent | Sapling | Ironwood
+- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
+- Ironwood: In Progress
 
 ---
 
 ## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
-- Ngwaọrụ: Desktọpụ
-- Sistemụ Ọrụ: Windows | Linux | macOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Igodo Mmefu | Igodo nkeonwe | Ndabere Akpa / Mbupụ Igodo
-- Ọdọ mmiri: Transparent | Sapling | Ironwood | Sprout
-- Atụmatụ: Iweghachite obere akpa | Njikọ Ahịrị Iwu | Ihe Nchedo Ekpuchiri | Nkwado Netwọk Nnwale
-- Ironwood: Dị njikere
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Spending Key | Private Key | Wallet Backup / Key Export
+- Pools: Transparent | Sapling | Ironwood | Sprout
+- Features: Wallet Recovery | Command Line Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
 ![logo](/content-images/gem_wallet_logo.png "Gem Wallet")
-- Ngwaọrụ: Mkpanaka
-- Sistemụ arụmọrụ: Android | iOS
-- Nkwado Akpa Ego: Mkpụrụ Okwu
-- Ọdọ mmiri: Transparent
-- Atụmatụ: Ọtụtụ Mkpụrụ ego
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 --- 
 
 ## [Freedom Wallet](https://www.freedomwallet.com/)
 ![logo](/content-images/freedomwalletlogo.jpg "Freedom Wallet")
-- Ngwaọrụ: Mkpanaka | Desktọpụ
-- Sistemụ arụmọrụ: Android | iOS | Linux | Windows
-- Nkwado Akpa Ego: Mkpụrụ Okwu | Igodo nkeonwe | Akpa Nchekwa Onwe | Unified Address
-- Ọdọ mmiri: Transparent | Sapling | Ironwood
-- Atụmatụ: Nkwado Nzuzo nke Ọtụtụ Chain | Azụmahịa Ezoro Ezo | Mgbake Mkpụrụ | Mgbanwe n'ime ngwa | Mmekọrịta obere akpa
-- Ironwood: Na-aga n'ihu
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Linux | Windows
+- Wallet Support: Seed Phrase | Private Key | Self-Custody Wallet | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi-Chain Privacy Support | Encrypted Shielded Transaction | Seed Recovery | In-App Swaps | Light Wallet Sync
+- Ironwood: In Progress

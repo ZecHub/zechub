@@ -1,375 +1,375 @@
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
-- 기기: 모바일
-- 운영 체제: Android | iOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 하드웨어
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 주소록 | CrossPay | Near Intents | Flexa 결제 | 다중 서명 | 결제 요청 | 차폐 메모 | 동기화 전 사용 | TEX 주소 | Tor 지원 | F-droid
-- Ironwood: 준비됨
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Ironwood: Ready
 
 ---
 
 ## [YWallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: Android | iOS | Windows | Linux | macOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 하드웨어
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 주소록 | 콜드 스토리지 | 다양화 주소 | 결제 요청 | 풀 전송 | 차폐 메모 | TEX 주소 | 투표 | WarpSync
-- Ironwood: 준비되지 않음
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
+- Ironwood: Not Ready
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: Android | iOS | Windows | Linux | macOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address
-- 풀: Sapling | Ironwood
-- 기능: Discord 봇
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Sapling | Ironwood
+- Features: Discord Bot
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: Android | iOS | Windows | Linux
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 주소록 | 금융 인사이트 | 결제 요청 | PepperSync | 차폐 메모 | 테스트넷 지원
-- Ironwood: 준비됨
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Edge](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
-- 기기: 모바일
-- 운영 체제: Android | iOS
-- 지갑 지원: 시드 문구 | Unified Address
-- 풀: 투명 | Sapling
-- 기능: 자동 차폐 | DEX 스왑 | 멀티코인 | 차폐 메모 | 동기화 전 사용
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling
+- Features: Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Spend before Sync
 
 ---
 
 ## [Unstoppable](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
-- 기기: 모바일
-- 운영 체제: Android | iOS
-- 지갑 지원: 시드 문구 | Unified Address
-- 풀: 투명 | Sapling | Ironwood
-- 기능: DEX 스왑 | 멀티코인 | 동기화 전 사용
-- Ironwood: 준비됨
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: DEX Swaps | Multi Coin | Spend before Sync
+- Ironwood: Ready
 
 ---
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: Android | iOS | Windows
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 주소록 | 주소 확인 | 자동 차폐 | 다양화 주소 | 결제 요청 | 차폐 메모 | TEX 주소 | 테스트넷 지원
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Address Check | Automatic Shielding | Diversified Address | Payment Request | Shielded Memo | TEX Address | Testnet Support
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: Android | iOS | Windows | Linux
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 하드웨어
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 주소 순환 | 광범위한 키 지원 | 암호화된 내보내기 | FROST 다중 서명 | 다중 계정 동기화 | 차폐 메모 | 테스트넷 지원
-- Ironwood: 준비됨
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: Android | iOS | Windows | Linux | macOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 주소록 | 주소 순환 | 자동 차폐 | DEX 스왑 | 멀티코인 | 차폐 메모 | Tor 지원
-- Ironwood: 준비됨
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
+- Ironwood: Ready
 
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
-- 기기: 데스크톱
-- 운영 체제: Windows | Linux | macOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 풀 노드
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 주소록 | 그래픽 인터페이스 | 차폐 메모 | 테스트넷 지원
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Graphical Interface | Shielded Memo | Testnet Support
 
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
-- 기기: 데스크톱
-- 운영 체제: Windows | Linux | macOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 풀 노드
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 명령줄 인터페이스 | PepperSync | 차폐 메모 | 테스트넷 지원
-- Ironwood: 진행 중
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
+- Ironwood: In Progress
 
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
-- 기기: 데스크톱
-- 운영 체제: Windows | Linux | macOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 풀 노드
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 알파 릴리스 | JSON-RPC 인터페이스 | 차폐 메모 | 테스트넷 지원
-- Ironwood: 준비됨
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
-- 기기: 데스크톱
-- 운영 체제: Windows | Linux | macOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 풀 노드
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 명령줄 인터페이스 | 다양화 주소 | 차폐 메모 | 테스트넷 지원
-- Ironwood: 준비되지 않음
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
+- Ironwood: Not Ready
 
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
-- 기기: 웹
-- 운영 체제: 브라우저
-- 지갑 지원: 시드 문구 | Unified Address
-- 풀: 투명 | Ironwood
-- 기능: 차폐 메모 | 동기화 전 사용 | 테스트넷 지원
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Ironwood
+- Features: Shielded Memo | Spend before Sync | Testnet Support
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](/content-images/metamask-25048569f6.webp "Metamask")
-- 기기: 웹
-- 운영 체제: 브라우저
-- 지갑 지원: 시드 문구 | Unified Address
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 멀티코인
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Coin
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- 기기: 웹
-- 운영 체제: 브라우저
-- 지갑 지원: 시드 문구 | Unified Address
-- 풀: 투명 | Sapling | Ironwood
-- 기능: DEX 스왑
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: DEX Swaps
 
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
-- 기기: 모바일 | 웹
-- 운영 체제: Android | iOS | 브라우저
-- 지갑 지원: 시드 문구
-- 풀: 투명
-- 기능: 멀티코인
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
-- 기기: 모바일 | 웹
-- 운영 체제: Android | iOS | 브라우저
-- 지갑 지원: 시드 문구
-- 풀: 투명
-- 기능: 멀티코인
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
-- 기기: 모바일 | 데스크톱 | 웹
-- 운영 체제: Android | iOS | Windows | Linux | macOS | 브라우저
-- 지갑 지원: 시드 문구
-- 풀: 투명
-- 기능: 멀티코인
+- Devices: Mobile | Desktop | Web
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: Android | iOS | Windows
-- 지갑 지원: 시드 문구
-- 풀: 투명
-- 기능: 멀티코인
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
-- 기기:
-- 운영 체제:
-- 지갑 지원: 하드웨어 | Unified Address
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 멀티코인
-- Ironwood: 준비됨
+- Devices:
+- Operating System:
+- Wallet Support: Hardware | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Coin
+- Ironwood: Ready
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- 기기:
-- 운영 체제:
-- 지갑 지원: 하드웨어
-- 풀: 투명
-- 기능: 멀티코인
-- Ironwood: 진행 중
+- Devices:
+- Operating System:
+- Wallet Support: Hardware
+- Pools: Transparent
+- Features: Multi Coin
+- Ironwood: In Progress
 
 ---
 
 ## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
-- 기기: 모바일 | 웹
-- 운영 체제: Android | iOS | 브라우저
-- 지갑 지원: 시드 문구 | 하드웨어
-- 풀: 투명
-- 기능: 멀티코인
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase | Hardware
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
-- 기기:
-- 운영 체제:
-- 지갑 지원: 하드웨어
-- 풀: 투명
-- 기능: 멀티코인
+- Devices:
+- Operating System:
+- Wallet Support: Hardware
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
-- 기기: 웹 | 모바일 | 데스크톱
-- 운영 체제: Android | iOS | Windows | Linux | macOS | 브라우저
-- 풀: 투명
-- 기능: 멀티코인 | 웹 앱
+- Devices: Web | Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Pools: Transparent
+- Features: Multi Coin | Web App
 
 ---
 
 ## [Vizor](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
-- 기기: 데스크톱 | 모바일
-- 운영 체제: macOS
-- 지갑 지원: 시드 문구 | Unified Address | 하드웨어
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 자동 차폐 | 차폐 메모 | 테스트넷 지원 | FROST 다중 서명
-- Ironwood: 준비됨
+- Devices: Desktop | Mobile
+- Operating System: macOS
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
+- Ironwood: Ready
 
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
-- 기기: 웹 | 데스크톱
-- 운영 체제: 브라우저
-- 풀: 차폐 | 투명
-- 기능: 브라우저 확장 프로그램 | 차폐 거래 | 크로스체인 스왑 | 대출 및 차입 | DApp 연결 | Rhea
-- Ironwood: 준비됨
+- Devices: Web | Desktop
+- Operating System: Browser
+- Pools: Shielded | Transparent
+- Features: Browser Extension | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Rhea
+- Ironwood: Ready
 
 ---
 
 ## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
-- 기기: 웹 | 데스크톱
-- 운영 체제: 브라우저 | Windows | macOS
-- 지갑 지원: 시드 문구 | 외부 지갑 | 수신 주소 | QR 코드 | 하드웨어
-- 풀: Sapling | 투명
-- 기능: 멀티코인 | Near Intents | Maya DEX | KYC 없음 | 비수탁형 | 웹 앱 | 데스크톱 앱 | 차폐 ZEC | AnyPay
-- Ironwood: 준비됨
+- Devices: Web | Desktop
+- Operating System: Browser | Windows | macOS
+- Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
+- Pools: Sapling | Transparent
+- Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Ironwood: Ready
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- 기기: 모바일
-- 운영 체제: Android
-- 지갑 지원: Unified Address
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 종단 간 암호화 메신저 | NEAR Intents | P2P.me 오프램프 | 베타
-- Ironwood: 준비됨
+- Devices: Mobile
+- Operating System: Android
+- Wallet Support: Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
+- Ironwood: Ready
 
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- 기기: 데스크톱
-- 운영 체제: Linux
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 개인 키 | 지출 키 | 지갑 백업 / 키 내보내기 | 풀 노드 지갑
-- 풀: 투명 | Sapling | Ironwood | Sprout
-- 기능: 암호화된 메모 | 지갑 백업(지갑 데이터) | RPC 인터페이스 | 차폐 메모 | 개인 키 관리
-- Ironwood: 준비됨
+- Devices: Desktop
+- Operating System: Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
+- Pools: Transparent | Sapling | Ironwood | Sprout
+- Features: Encrypted Memo | Wallet Backup (wallet data) | RPC Interface | Shielded Memo | Private Key Management
+- Ironwood: Ready
 
 ---
 
 ## [Zend:Zcash Wallet](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: iOS | macOS
-- 지갑 지원: 시드 문구 | 패스키 | Unified Address | 개인 키 | 자기 보관형 지갑
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 자기 보관 | 로컬에 저장된 개인 키 | KYC 불필요 | 지갑 활동에 Zend 서버 의존성 없음 | 암호화된 차폐 거래 | 시드 복구 | 차폐 메모 | 패스키 인증
+- Devices: Mobile | Desktop
+- Operating System: iOS | macOS
+- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
+- Pools: Transparent | Sapling | Ironwood
+- Features: Self-Custody | Private Key Stored Locally | No KYC Required | No Zend Server Dependency for Wallet Activity | Encrypted Shielded Transaction | Seed Recovery | Shielded Memo | Passkey Authentication
 
 ---
 
 ## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
-- 기기: 데스크톱 | 브라우저
-- 운영 체제: Linux | iOS | macOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 지출 키 | HD 지갑 | 개인 키 관리
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 주소록 | Tor 지원 | I2P 지원 | Zebra/Zebrad 통합 | 거래 내역 | 거래 내보내기 | 로컬 증인 도출 | 동적 수수료(ZIP-317) | NU6.2 호환성 | NU6.3 마이그레이션 지원 | 차폐 메모
-- Ironwood: 준비됨
+- Devices: Desktop | Browser
+- Operating System: Linux | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Tor Support | I2P Support | Zebra/Zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
+- Ironwood: Ready
 
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: Android | Windows | Linux (CLI 및 MCP 서버) | iOS | macOS
-- 지갑 지원: 시드 문구 | Viewing Key | Unified Address | 다중 계정 지갑 | 자기 보관형 지갑 | 개인 키 관리 | 에이전트 지갑 지원
-- 풀: 투명 | Sapling | Ironwood
-- 기능: NEAR Intents | 결제 요청 | 차폐 메모 | 기본 차폐 거래 | 테스트넷 | 크로스체인 스왑 | CipherPay | Viewing Key | AI 에이전트 | MCP 서버 | CLI 지갑 | FROST | 베타
-- Ironwood: 진행 중
+- Devices: Mobile | Desktop
+- Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
+- Pools: Transparent | Sapling | Ironwood
+- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
+- Ironwood: In Progress
 
 ---
 
 ## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
-- 기기: 데스크톱
-- 운영 체제: Windows | Linux | macOS
-- 지갑 지원: 시드 문구 | 지출 키 | 개인 키 | 지갑 백업 / 키 내보내기
-- 풀: 투명 | Sapling | Ironwood | Sprout
-- 기능: 지갑 복구 | 명령줄 인터페이스 | 차폐 메모 | 테스트넷 지원
-- Ironwood: 준비됨
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Spending Key | Private Key | Wallet Backup / Key Export
+- Pools: Transparent | Sapling | Ironwood | Sprout
+- Features: Wallet Recovery | Command Line Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
 ![logo](/content-images/gem_wallet_logo.png "Gem Wallet")
-- 기기: 모바일
-- 운영 체제: Android | iOS
-- 지갑 지원: 시드 문구
-- 풀: 투명
-- 기능: 멀티코인
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 --- 
 
 ## [Freedom Wallet](https://www.freedomwallet.com/)
 ![logo](/content-images/freedomwalletlogo.jpg "Freedom Wallet")
-- 기기: 모바일 | 데스크톱
-- 운영 체제: Android | iOS | Linux | Windows
-- 지갑 지원: 시드 문구 | 개인 키 | 자기 보관형 지갑 | Unified Address
-- 풀: 투명 | Sapling | Ironwood
-- 기능: 멀티체인 프라이버시 지원 | 암호화된 차폐 거래 | 시드 복구 | 앱 내 스왑 | 라이트 지갑 동기화
-- Ironwood: 진행 중
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Linux | Windows
+- Wallet Support: Seed Phrase | Private Key | Self-Custody Wallet | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi-Chain Privacy Support | Encrypted Shielded Transaction | Seed Recovery | In-App Swaps | Light Wallet Sync
+- Ironwood: In Progress

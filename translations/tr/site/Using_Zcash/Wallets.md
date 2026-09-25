@@ -1,375 +1,375 @@
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
-- Cihazlar: Mobil
-- İşletim Sistemi: Android | iOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Donanım
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Adres Defteri | CrossPay | Near Intents | Flexa Ödemeleri | Çoklu İmza | Ödeme Talebi | Korumalı Not | Senkronizasyon Öncesi Harcama | TEX Adresi | Tor Desteği | F-droid
-- Ironwood: Hazır
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Ironwood: Ready
 
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: Android | iOS | Windows | Linux | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Donanım
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Adres Defteri | Soğuk Depolama | Çeşitlendirilmiş Adres | Ödeme Talebi | Havuz Transferi | Korumalı Not | TEX Adresi | Oylama | WarpSync
-- Ironwood: Hazır Değil
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
+- Ironwood: Not Ready
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: Android | iOS | Windows | Linux | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address
-- Havuzlar: Sapling | Ironwood
-- Özellikler: Discord Botu
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Sapling | Ironwood
+- Features: Discord Bot
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: Android | iOS | Windows | Linux
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Adres Defteri | Finansal İçgörüler | Ödeme Talebi | PepperSync | Korumalı Not | Testnet Desteği
-- Ironwood: Hazır
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Edge](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
-- Cihazlar: Mobil
-- İşletim Sistemi: Android | iOS
-- Cüzdan Desteği: Seed Phrase | Unified Address
-- Havuzlar: Şeffaf | Sapling
-- Özellikler: Otomatik Koruma | DEX Takasları | Çoklu Coin | Korumalı Not | Senkronizasyon Öncesi Harcama
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling
+- Features: Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Spend before Sync
 
 ---
 
 ## [Unstoppable](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
-- Cihazlar: Mobil
-- İşletim Sistemi: Android | iOS
-- Cüzdan Desteği: Seed Phrase | Unified Address
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: DEX Takasları | Çoklu Coin | Senkronizasyon Öncesi Harcama
-- Ironwood: Hazır
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: DEX Swaps | Multi Coin | Spend before Sync
+- Ironwood: Ready
 
 ---
 
 ## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: Android | iOS | Windows
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Adres Defteri | Adres Kontrolü | Otomatik Koruma | Çeşitlendirilmiş Adres | Ödeme Talebi | Korumalı Not | TEX Adresi | Testnet Desteği
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Address Check | Automatic Shielding | Diversified Address | Payment Request | Shielded Memo | TEX Address | Testnet Support
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: Android | iOS | Windows | Linux
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Donanım
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Adres Rotasyonu | Geniş Anahtar Desteği | Şifrelenmiş Dışa Aktarımlar | FROST Çoklu İmza | Çoklu Hesap Senkronizasyonu | Korumalı Not | Testnet Desteği
-- Ironwood: Hazır
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: Android | iOS | Windows | Linux | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Adres Defteri | Adres Rotasyonu | Otomatik Koruma | DEX Takasları | Çoklu Coin | Korumalı Not | Tor Desteği
-- Ironwood: Hazır
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
+- Ironwood: Ready
 
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
-- Cihazlar: Masaüstü
-- İşletim Sistemi: Windows | Linux | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Tam Düğüm
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Adres Defteri | Grafik Arayüz | Korumalı Not | Testnet Desteği
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Graphical Interface | Shielded Memo | Testnet Support
 
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
-- Cihazlar: Masaüstü
-- İşletim Sistemi: Windows | Linux | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Tam Düğüm
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Komut Satırı Arayüzü | PepperSync | Korumalı Not | Testnet Desteği
-- Ironwood: Devam Ediyor
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
+- Ironwood: In Progress
 
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
-- Cihazlar: Masaüstü
-- İşletim Sistemi: Windows | Linux | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Tam Düğüm
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Alfa Sürümü | JSON-RPC Arayüzü | Korumalı Not | Testnet Desteği
-- Ironwood: Hazır
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
-- Cihazlar: Masaüstü
-- İşletim Sistemi: Windows | Linux | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Tam Düğüm
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Komut Satırı Arayüzü | Çeşitlendirilmiş Adres | Korumalı Not | Testnet Desteği
-- Ironwood: Hazır Değil
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
+- Ironwood: Not Ready
 
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
-- Cihazlar: Web
-- İşletim Sistemi: Tarayıcı
-- Cüzdan Desteği: Seed Phrase | Unified Address
-- Havuzlar: Şeffaf | Ironwood
-- Özellikler: Korumalı Not | Senkronizasyon Öncesi Harcama | Testnet Desteği
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Ironwood
+- Features: Shielded Memo | Spend before Sync | Testnet Support
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](/content-images/metamask-25048569f6.webp "Metamask")
-- Cihazlar: Web
-- İşletim Sistemi: Tarayıcı
-- Cüzdan Desteği: Seed Phrase | Unified Address
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Çoklu Coin
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Coin
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Cihazlar: Web
-- İşletim Sistemi: Tarayıcı
-- Cüzdan Desteği: Seed Phrase | Unified Address
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: DEX Takasları
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: DEX Swaps
 
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
-- Cihazlar: Mobil | Web
-- İşletim Sistemi: Android | iOS | Tarayıcı
-- Cüzdan Desteği: Seed Phrase
-- Havuzlar: Şeffaf
-- Özellikler: Çoklu Coin
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
-- Cihazlar: Mobil | Web
-- İşletim Sistemi: Android | iOS | Tarayıcı
-- Cüzdan Desteği: Seed Phrase
-- Havuzlar: Şeffaf
-- Özellikler: Çoklu Coin
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
-- Cihazlar: Mobil | Masaüstü | Web
-- İşletim Sistemi: Android | iOS | Windows | Linux | macOS | Tarayıcı
-- Cüzdan Desteği: Seed Phrase
-- Havuzlar: Şeffaf
-- Özellikler: Çoklu Coin
+- Devices: Mobile | Desktop | Web
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: Android | iOS | Windows
-- Cüzdan Desteği: Seed Phrase
-- Havuzlar: Şeffaf
-- Özellikler: Çoklu Coin
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
-- Cihazlar:
-- İşletim Sistemi:
-- Cüzdan Desteği: Donanım | Unified Address
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Çoklu Coin
-- Ironwood: Hazır
+- Devices:
+- Operating System:
+- Wallet Support: Hardware | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Coin
+- Ironwood: Ready
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Cihazlar:
-- İşletim Sistemi:
-- Cüzdan Desteği: Donanım
-- Havuzlar: Şeffaf
-- Özellikler: Çoklu Coin
-- Ironwood: Devam Ediyor
+- Devices:
+- Operating System:
+- Wallet Support: Hardware
+- Pools: Transparent
+- Features: Multi Coin
+- Ironwood: In Progress
 
 ---
 
 ## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
-- Cihazlar: Mobil | Web
-- İşletim Sistemi: Android | iOS | Tarayıcı
-- Cüzdan Desteği: Seed Phrase | Donanım
-- Havuzlar: Şeffaf
-- Özellikler: Çoklu Coin
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase | Hardware
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
-- Cihazlar:
-- İşletim Sistemi:
-- Cüzdan Desteği: Donanım
-- Havuzlar: Şeffaf
-- Özellikler: Çoklu Coin
+- Devices:
+- Operating System:
+- Wallet Support: Hardware
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
 ## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
-- Cihazlar: Web | Mobil | Masaüstü
-- İşletim Sistemi: Android | iOS | Windows | Linux | macOS | Tarayıcı
-- Havuzlar: Şeffaf
-- Özellikler: Çoklu Coin | Web Uygulaması
+- Devices: Web | Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Pools: Transparent
+- Features: Multi Coin | Web App
 
 ---
 
 ## [Vizor](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
-- Cihazlar: Masaüstü | Mobil
-- İşletim Sistemi: macOS
-- Cüzdan Desteği: Seed Phrase | Unified Address | Donanım
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Otomatik Koruma | Korumalı Not | Testnet Desteği | FROST Çoklu İmza
-- Ironwood: Hazır
+- Devices: Desktop | Mobile
+- Operating System: macOS
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood
+- Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
+- Ironwood: Ready
 
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
-- Cihazlar: Web | Masaüstü
-- İşletim Sistemi: Tarayıcı
-- Havuzlar: Korumalı | Şeffaf
-- Özellikler: Tarayıcı Eklentisi | Korumalı İşlemler | Zincirler Arası Takaslar | Borç Verme ve Alma | DApp Bağlantıları | Rhea
-- Ironwood: Hazır
+- Devices: Web | Desktop
+- Operating System: Browser
+- Pools: Shielded | Transparent
+- Features: Browser Extension | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Rhea
+- Ironwood: Ready
 
 ---
 
 ## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
-- Cihazlar: Web | Masaüstü
-- İşletim Sistemi: Tarayıcı | Windows | macOS
-- Cüzdan Desteği: Seed Phrase | Harici Cüzdan | Alıcı Adresi | QR Kodu | Donanım
-- Havuzlar: Sapling | Şeffaf
-- Özellikler: Çoklu Coin | Near Intents | Maya DEX | KYC Yok | Emanetsiz | Web Uygulaması | Masaüstü Uygulaması | Korumalı ZEC | AnyPay
-- Ironwood: Hazır
+- Devices: Web | Desktop
+- Operating System: Browser | Windows | macOS
+- Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
+- Pools: Sapling | Transparent
+- Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Ironwood: Ready
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Cihazlar: Mobil
-- İşletim Sistemi: Android
-- Cüzdan Desteği: Unified Address
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Uçtan Uca Şifreli Mesajlaşma | NEAR Intents | P2P.me Offramp | Beta
-- Ironwood: Hazır
+- Devices: Mobile
+- Operating System: Android
+- Wallet Support: Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
+- Ironwood: Ready
 
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Cihazlar: Masaüstü
-- İşletim Sistemi: Linux
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Özel Anahtar | Harcama Anahtarı | Cüzdan Yedekleme / Anahtar Dışa Aktarma | Tam Düğüm Cüzdanı
-- Havuzlar: Şeffaf | Sapling | Ironwood | Sprout
-- Özellikler: Şifrelenmiş Not | Cüzdan Yedekleme (cüzdan verileri) | RPC Arayüzü | Korumalı Not | Özel Anahtar Yönetimi
-- Ironwood: Hazır
+- Devices: Desktop
+- Operating System: Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
+- Pools: Transparent | Sapling | Ironwood | Sprout
+- Features: Encrypted Memo | Wallet Backup (wallet data) | RPC Interface | Shielded Memo | Private Key Management
+- Ironwood: Ready
 
 ---
 
 ## [Zend:Zcash Wallet](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: iOS | macOS
-- Cüzdan Desteği: Seed Phrase | Passkey | Unified Address | Özel Anahtar | Kendi Saklamalı Cüzdan
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Kendi Saklama | Özel Anahtar Yerel Olarak Saklanır | KYC Gerekmez | Cüzdan Etkinliği için Zend Sunucusu Bağımlılığı Yok | Şifrelenmiş Korumalı İşlem | Seed Kurtarma | Korumalı Not | Passkey Kimlik Doğrulaması
+- Devices: Mobile | Desktop
+- Operating System: iOS | macOS
+- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
+- Pools: Transparent | Sapling | Ironwood
+- Features: Self-Custody | Private Key Stored Locally | No KYC Required | No Zend Server Dependency for Wallet Activity | Encrypted Shielded Transaction | Seed Recovery | Shielded Memo | Passkey Authentication
 
 ---
 
 ## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
-- Cihazlar: Masaüstü | Tarayıcı
-- İşletim Sistemi: Linux | iOS | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Harcama Anahtarı | HD Cüzdan | Özel Anahtar Yönetimi
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Adres Defteri | Tor Desteği | I2P Desteği | Zebra/Zebrad Entegrasyonu | İşlem Geçmişi | İşlem Dışa Aktarma | Yerel Tanık Türetilmesi | Dinamik Ücret (ZIP-317) | NU6.2 Uyumluluğu | NU6.3 Geçiş Desteği | Korumalı Not
-- Ironwood: Hazır
+- Devices: Desktop | Browser
+- Operating System: Linux | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
+- Pools: Transparent | Sapling | Ironwood
+- Features: Address Book | Tor Support | I2P Support | Zebra/Zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
+- Ironwood: Ready
 
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: Android | Windows | Linux (CLI ve MCP Sunucusu) | iOS | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Çoklu Hesap Cüzdanı | Kendi Saklamalı Cüzdan | Özel Anahtar Yönetimi | Agent Cüzdan Desteği
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: NEAR Intents | Ödeme Talepleri | Korumalı Not | Varsayılan Korumalı İşlem | Testnet | Zincirler Arası Takas | CipherPay | Viewing Key | AI Agent | MCP Sunucusu | CLI Cüzdanı | FROST | Beta
-- Ironwood: Devam Ediyor
+- Devices: Mobile | Desktop
+- Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
+- Pools: Transparent | Sapling | Ironwood
+- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
+- Ironwood: In Progress
 
 ---
 
 ## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
-- Cihazlar: Masaüstü
-- İşletim Sistemi: Windows | Linux | macOS
-- Cüzdan Desteği: Seed Phrase | Harcama Anahtarı | Özel Anahtar | Cüzdan Yedekleme / Anahtar Dışa Aktarma
-- Havuzlar: Şeffaf | Sapling | Ironwood | Sprout
-- Özellikler: Cüzdan Kurtarma | Komut Satırı Arayüzü | Korumalı Not | Testnet Desteği
-- Ironwood: Hazır
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Spending Key | Private Key | Wallet Backup / Key Export
+- Pools: Transparent | Sapling | Ironwood | Sprout
+- Features: Wallet Recovery | Command Line Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
 ## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
 ![logo](/content-images/gem_wallet_logo.png "Gem Wallet")
-- Cihazlar: Mobil
-- İşletim Sistemi: Android | iOS
-- Cüzdan Desteği: Seed Phrase
-- Havuzlar: Şeffaf
-- Özellikler: Çoklu Coin
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
 
 --- 
 
 ## [Freedom Wallet](https://www.freedomwallet.com/)
 ![logo](/content-images/freedomwalletlogo.jpg "Freedom Wallet")
-- Cihazlar: Mobil | Masaüstü
-- İşletim Sistemi: Android | iOS | Linux | Windows
-- Cüzdan Desteği: Seed Phrase | Özel Anahtar | Kendi Saklamalı Cüzdan | Unified Address
-- Havuzlar: Şeffaf | Sapling | Ironwood
-- Özellikler: Çoklu Zincir Gizlilik Desteği | Şifrelenmiş Korumalı İşlem | Seed Kurtarma | Uygulama İçi Takaslar | Hafif Cüzdan Senkronizasyonu
-- Ironwood: Devam Ediyor
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Linux | Windows
+- Wallet Support: Seed Phrase | Private Key | Self-Custody Wallet | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi-Chain Privacy Support | Encrypted Shielded Transaction | Seed Recovery | In-App Swaps | Light Wallet Sync
+- Ironwood: In Progress
