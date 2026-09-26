@@ -27,6 +27,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Sapling | Ironwood
 - Features: Discord Bot
+- Ironwood: Ready
 
 ---
 
