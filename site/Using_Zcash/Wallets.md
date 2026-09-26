@@ -69,8 +69,9 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | Address Check | Automatic Shielding | Diversified Address | Payment Request | Shielded Memo | TEX Address | Testnet Support
+- Pools: Transparent | Sapling
+- Features: Address Book | Address Check | Address Rotation | Automatic Shielding | Payment Request | Shielded Memo | TEX Address | Testnet Support
+- Ironwood: Not Ready
 
 ---
 
