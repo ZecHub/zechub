@@ -59,7 +59,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Features: DEX Swaps | Multi Coin | Spend before Sync
+- Features: CrossPay | Multi Coin | Spend before Sync | Swaps
 - Ironwood: Ready
 
 ---
