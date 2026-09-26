@@ -11,12 +11,12 @@
 
 ## [YWallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "YWallet")
+- Status: Deprecated | Dropped Zcash support after the NU6.3 Ironwood upgrade (2026). The author's successor wallet is Zkool.
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
-- Ironwood: Not Ready
+- Pools: Transparent | Sapling
+- Features: Address Book | Address Rotation | Cold Storage | Payment Request | Pool Transfer | Shielded Memo | TEX Address | WarpSync
 
 ---
 
