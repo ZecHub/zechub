@@ -89,10 +89,10 @@
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
 - Devices: Mobile | Desktop
-- Operating System: Android | iOS | Windows | Linux | macOS
+- Operating System: Android | iOS | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
+- Features: Address Book | Address Rotation | Automatic Shielding | Multi Coin | Shielded Memo | Swaps | Tor Support
 - Ironwood: Ready
 
 ---
