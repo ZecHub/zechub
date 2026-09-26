@@ -47,8 +47,9 @@
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling
-- Features: Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Spend before Sync
+- Pools: Transparent | Sapling | Ironwood
+- Features: Automatic Shielding | Multi Coin | Shielded Memo | Spend before Sync | Swaps | ZNS Names
+- Ironwood: Ready
 
 ---
 
