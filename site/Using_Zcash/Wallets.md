@@ -199,11 +199,12 @@
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
-- Devices: Mobile | Desktop | Web
-- Operating System: Android | iOS | Windows | Linux | macOS | Browser
-- Wallet Support: Seed Phrase
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Hardware
 - Pools: Transparent
-- Features: Multi Coin
+- Features: Multi Coin | Swaps
+- Ironwood: Transparent only
 
 ---
 
