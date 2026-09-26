@@ -181,7 +181,8 @@
 - Operating System: Android | iOS | Browser
 - Wallet Support: Seed Phrase
 - Pools: Transparent
-- Features: Multi Coin
+- Features: Multi Coin | Multisig
+- Ironwood: Transparent only
 
 ---
 
