@@ -253,11 +253,11 @@
 
 ## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
-- Devices:
-- Operating System:
+- Devices: Hardware
 - Wallet Support: Hardware
 - Pools: Transparent
 - Features: Multi Coin
+- Ironwood: Not Ready
 
 ---
 
