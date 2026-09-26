@@ -210,11 +210,12 @@
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
-- Devices: Mobile | Desktop
-- Operating System: Android | iOS | Windows
+- Devices: Mobile
+- Operating System: Android | iOS
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
+- Ironwood: Transparent only
 
 ---
 
