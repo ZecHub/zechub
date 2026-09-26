@@ -112,10 +112,10 @@
 ![logo](/content-images/zingocard-9a2546668d.webp "zingo-cli")
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
-- Ironwood: In Progress
+- Ironwood: Ready
 
 ---
 
