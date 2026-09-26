@@ -247,6 +247,7 @@
 - Wallet Support: Seed Phrase | Hardware
 - Pools: Transparent
 - Features: Multi Coin
+- Ironwood: Not Ready
 
 ---
 
