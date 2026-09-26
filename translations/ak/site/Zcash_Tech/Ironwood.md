@@ -74,12 +74,12 @@ Wallet ne node software di eyi mu dodow no ara ho dwuma ara kwa, nanso nsakrae a
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Ɔtare a wɔabɔ ho ban | Sika a wɔahyehyɛ a wɔde zero-knowledge cryptography de ne sika ne ne wuranom asie |
-| Nnyigyei bɔne bug | Mfomsoɔ a ɛma asɛm a ɛnni mu twa adanseɛ nhwehwɛmu no te sɛ nea ɛyɛ nokware |
-| Turnstile a wɔde dannan nneɛma | Ɔmanfoɔ checkpoint a ɛkan boɔ a ɛkɔ pools ntam ma enti supply no kɔ so yɛ auditable |
-| Sika a wɔsɛe no nkutoo | Pool a wobɛtumi asɛe sika afiri mu, nanso wuntumi mfa boɔ foforɔ nka |
-| Ntwamutam a wɔde yɛ adwuma (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
-| Quantum-a wɔsan nya no nsow | A note format a wɔayɛ sɛnea ɛbɛyɛ a wobetumi asan anya sika sɛ quantum kɔmputa ahorow bu nnɛyi cryptography |
+| Shielded pool | Sika a wɔahyehyɛ a wɔde zero-knowledge cryptography de ne sika ne ne wuranom asie |
+| Soundness bug | Mfomsoɔ a ɛma asɛm a ɛnni mu twa adanseɛ nhwehwɛmu no te sɛ nea ɛyɛ nokware |
+| Turnstile | Ɔmanfoɔ checkpoint a ɛkan boɔ a ɛkɔ pools ntam ma enti supply no kɔ so yɛ auditable |
+| Spend-only | Pool a wobɛtumi asɛe sika afiri mu, nanso wuntumi mfa boɔ foforɔ nka |
+| Network upgrade (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
+| Quantum-recoverable note | A note format a wɔayɛ sɛnea ɛbɛyɛ a wobetumi asan anya sika sɛ quantum kɔmputa ahorow bu nnɛyi cryptography |
 
 ## FAQ
 

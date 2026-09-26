@@ -186,13 +186,13 @@ Ili kukaa wageni-kirafiki sisi kurahisishwa baadhi ya mambo ya kweli. mashamba F
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Hesabu ya kawaida** | Hesabu inayojikunja baada ya kufikia thamani isiyobadilika, kama saa |
+| **Modular arithmetic** | Hesabu inayojikunja baada ya kufikia thamani isiyobadilika, kama saa |
 | **mod p** | "Gawanya kwa `p` na ubaki na iliyobaki" |
-| **Uwanja** | Mfumo wa nambari ambapo kuongeza, kutoa, kuzidisha, na kugawanya kazi zote |
-| **Sehemu yenye kikomo `F_p`** | Nambari `0..p-1` na hesabu iliyofanywa mod prime `p` |
-| **Kinyume (cha kubadilika)** | Kipengele `a^(-1)` na `a x a^(-1) = 1`"kugawanya kwa `a`"inamaanisha kuzidisha kwa hilo |
-| **Mgawanyiko sifuri** | Thamani mbili zisizo na sifuri ambazo bidhaa yake ni sifuri; kitu kinachoharibu moduli ya mchanganyiko |
-| **Mkuu** | Nambari nzima kubwa kuliko 1 bila vipengele isipokuwa 1 na yenyewe |
+| **Field** | Mfumo wa nambari ambapo kuongeza, kutoa, kuzidisha, na kugawanya kazi zote |
+| **Finite field `F_p`** | Nambari `0..p-1` na hesabu iliyofanywa mod prime `p` |
+| **Inverse (reciprocal)** | Kipengele `a^(-1)` na `a x a^(-1) = 1`"kugawanya kwa `a`"inamaanisha kuzidisha kwa hilo |
+| **Zero divisor** | Thamani mbili zisizo na sifuri ambazo bidhaa yake ni sifuri; kitu kinachoharibu moduli ya mchanganyiko |
+| **Prime** | Nambari nzima kubwa kuliko 1 bila vipengele isipokuwa 1 na yenyewe |
 
 ---
 

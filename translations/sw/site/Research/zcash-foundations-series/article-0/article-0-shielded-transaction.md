@@ -215,12 +215,12 @@ Sasa unashikilia ramani hiyo. Mfululizo unaobaki hujaza ramani.
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Dokezo** | Kitengo cha thamani cha kibinafsi, sawa na sarafu au noti Zcash's |
-| **Ahadi ya Kumbuka** | Muhuri wa siri unaothibitisha kwamba noti ipo bila kuifichua |
-| **Mti wa ahadi ya kumbuka** | Rekodi ya umma ya ahadi zote za noti zinazoongezwa pekee |
-| **Kifuta null** | Alama ya kipekee ya "kutumika" iliyochapishwa wakati noti inatumiwa, kuzuia matumizi mara mbili |
-| **Ushahidi wa kutojua** | Uthibitisho kwamba kauli ni kweli bila kufichua chochote zaidi ya ukweli wake |
-| **Kulinda/kuondoa** | Kuhamisha fedha kuingia/kutoka katika ulimwengu wa kibinafsi uliolindwa |
+| **Note** | Kitengo cha thamani cha kibinafsi, sawa na sarafu au noti Zcash's |
+| **Note commitment** | Muhuri wa siri unaothibitisha kwamba noti ipo bila kuifichua |
+| **Note commitment tree** | Rekodi ya umma ya ahadi zote za noti zinazoongezwa pekee |
+| **Nullifier** | Alama ya kipekee ya "kutumika" iliyochapishwa wakati noti inatumiwa, kuzuia matumizi mara mbili |
+| **Zero-knowledge proof** | Uthibitisho kwamba kauli ni kweli bila kufichua chochote zaidi ya ukweli wake |
+| **Shielding / deshielding** | Kuhamisha fedha kuingia/kutoka katika ulimwengu wa kibinafsi uliolindwa |
 | **Viewing key** | Ufunguo unaomruhusu mmiliki kugundua na kusoma maelezo yaliyoelekezwa kwake |
 
 ---

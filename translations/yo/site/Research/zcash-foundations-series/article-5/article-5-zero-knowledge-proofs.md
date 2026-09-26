@@ -131,16 +131,16 @@ Zero-knowledge proofs are a deep field and we stayed at intuition level on purpo
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Ẹ̀rí ìmọ̀ òdo** | Jẹ́ kí ẹnìkan gbàgbọ́ pé ọ̀rọ̀ kan jẹ́ òótọ́ láìsí pé ó ń sọ ohunkóhun mìíràn |
-| **Olùdámọ̀ràn / Olùdámọ̀ràn** | Ẹni tí ó ṣe ẹ̀rí / ẹni tí ó ń ṣàyẹ̀wò rẹ̀ |
-| **Pípé** | Àwọn gbólóhùn òtítọ́ ni a máa ń gbà nígbà gbogbo (láti ọ̀dọ̀ olùjẹ́rìí òtítọ́) |
-| **Alaafia** | Àwọn ọ̀rọ̀ èké ni a kọ̀ (àwọn arẹ́nijẹ kò le borí àyàfi nípasẹ̀ oríire) |
-| **Ẹlẹ́rìí** | Àwọn ìkọ̀kọ̀ tí ó sọ gbólóhùn náà di òótọ́ |
-| **Ìṣètò ìṣirò** | Gbólóhùn kan tún kọ gẹ́gẹ́ bí àfikún àti ìsọdipúpọ̀ lórí pápá ààlà kan |
-| **Kò ní ìbáṣepọ̀ (Fiat-Shamir)** | Ẹ̀rí ìbọn kan ṣoṣo kò nílò láti gbé ayé padà-àti-wá |
-| **Àkótán** | Ẹ̀rí náà kéré, ó sì yára láti jẹ́rìí láìka ìwọ̀n gbólóhùn náà sí |
+| **Zero-knowledge proof** | Jẹ́ kí ẹnìkan gbàgbọ́ pé ọ̀rọ̀ kan jẹ́ òótọ́ láìsí pé ó ń sọ ohunkóhun mìíràn |
+| **Prover / Verifier** | Ẹni tí ó ṣe ẹ̀rí / ẹni tí ó ń ṣàyẹ̀wò rẹ̀ |
+| **Completeness** | Àwọn gbólóhùn òtítọ́ ni a máa ń gbà nígbà gbogbo (láti ọ̀dọ̀ olùjẹ́rìí òtítọ́) |
+| **Soundness** | Àwọn ọ̀rọ̀ èké ni a kọ̀ (àwọn arẹ́nijẹ kò le borí àyàfi nípasẹ̀ oríire) |
+| **Witness** | Àwọn ìkọ̀kọ̀ tí ó sọ gbólóhùn náà di òótọ́ |
+| **Arithmetic circuit** | Gbólóhùn kan tún kọ gẹ́gẹ́ bí àfikún àti ìsọdipúpọ̀ lórí pápá ààlà kan |
+| **Non-interactive (Fiat-Shamir)** | Ẹ̀rí ìbọn kan ṣoṣo kò nílò láti gbé ayé padà-àti-wá |
+| **Succinct** | Ẹ̀rí náà kéré, ó sì yára láti jẹ́rìí láìka ìwọ̀n gbólóhùn náà sí |
 | **zk-SNARK** | Ìjíròrò ìmọ̀ tí kò ní ìbáṣepọ̀ pẹ̀lú ìmọ̀ |
-| **Ètò ìgbẹ́kẹ̀lé / ìdọ̀tí olóró** | Ìṣẹ̀dá paramita ìgbà kan tí àṣírí tó kù gbọ́dọ̀ parẹ́ |
+| **Trusted setup / toxic waste** | Ìṣẹ̀dá paramita ìgbà kan tí àṣírí tó kù gbọ́dọ̀ parẹ́ |
 
 ---
 

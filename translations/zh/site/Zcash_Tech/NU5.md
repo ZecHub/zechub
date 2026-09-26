@@ -49,12 +49,12 @@ NU5 紧随 Zcash 早期的升级之后：Overwinter、Sapling、Blossom、Heartw
 
 | 术语 | 通俗含义 |
 |---|---|
-| 网络升级（NU） | 对 Zcash 共识规则进行的一次协调变更，在设定的区块高度激活 |
+| Network upgrade (NU) | 对 Zcash 共识规则进行的一次协调变更，在设定的区块高度激活 |
 | Orchard | NU5 引入的屏蔽池，建立在 Halo 2 证明系统之上 |
 | Halo 2 | Orchard 背后的证明系统，不需要可信设置 |
-| 可信设置 | 一次性仪式，用于生成池的秘密参数，并且必须被信任会将其销毁 |
-| Unified Address | 一种可打包多个池接收器的单一地址（ZIP 316） |
-| 共识分支 id | 用于标识一笔交易属于哪一套规则的标识符 |
+| Trusted setup | 一次性仪式，用于生成池的秘密参数，并且必须被信任会将其销毁 |
+| Unified address | 一种可打包多个池接收器的单一地址（ZIP 316） |
+| Consensus branch id | 用于标识一笔交易属于哪一套规则的标识符 |
 
 ## 常见问题
 

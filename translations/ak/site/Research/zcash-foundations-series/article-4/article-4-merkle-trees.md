@@ -135,13 +135,13 @@ Nsɛm a wɔma ɛyɛ mmerɛw, sɛnea wɔtaa yɛ no. Merkle nnua a ɛkɔ soro anka
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Merkle dua** | Dua a ɛyɛ hashes; nhaban yɛ data nsateaa nkyerɛwee, awofo hash wɔn mma |
-| **Ahaban** | Node bi a ɛwɔ ase; wɔ Zcash mu no, biako note bɔhyɛ |
-| **Merkle ntini** | Nsateaa biako a ɛwɔ soro a ɛbɔ dua no nyinaa mua |
-| **Agyedie kwan / Merkle adanseɛ** | Onuanom hashes a ehia na wɔde akyerɛ sɛ ahaban bi wɔ dua |
-| **Merkle dua a ɛkɔ soro** | Merkle dua a append-only (wɔde nhaban nkutoo na ɛka ho) |
+| **Merkle tree** | Dua a ɛyɛ hashes; nhaban yɛ data nsateaa nkyerɛwee, awofo hash wɔn mma |
+| **Leaf** | Node bi a ɛwɔ ase; wɔ Zcash mu no, biako note bɔhyɛ |
+| **Merkle root** | Nsateaa biako a ɛwɔ soro a ɛbɔ dua no nyinaa mua |
+| **Authentication path / Merkle proof** | Onuanom hashes a ehia na wɔde akyerɛ sɛ ahaban bi wɔ dua |
+| **Incremental Merkle tree** | Merkle dua a append-only (wɔde nhaban nkutoo na ɛka ho) |
 | **Anchor** | Merkle ntini bi a spend ka ho asɛm sɛ "dua tebea a merekyerɛ sɛ ɛne no tia" |
-| **Nullifier a wɔahyehyɛ** | Sent-markers a wɔaboaboa ano a ɛtetew mu a esiw sika a wɔsɛe no mmɔho abien |
+| **Nullifier set** | Sent-markers a wɔaboaboa ano a ɛtetew mu a esiw sika a wɔsɛe no mmɔho abien |
 
 ---
 

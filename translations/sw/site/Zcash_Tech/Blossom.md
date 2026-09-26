@@ -41,12 +41,12 @@ Blossom was Zcash's third network upgrade. It followed Overwinter and Sapling, a
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| Nafasi ya kulenga vitalu | Muda ambao mtandao unalenga kati ya kizuizi kimoja na kingine |
-| Zawadi ya kuzuia | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
-| Kipindi cha nusu | Ni vitalu vingapi vinavyopita kati ya kila nusu ya zawadi ya vitalu |
-| Kitambulisho cha tawi la makubaliano | Lebo inayoashiria ni seti gani ya sheria za mtandao ambazo nodi au muamala unafuata |
-| Mabadiliko ya makubaliano ya pande mbili | Mabadiliko ya sheria ambayo kila nodi lazima ipitishe ili kubaki kwenye mtandao |
-| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Block target spacing | Muda ambao mtandao unalenga kati ya kizuizi kimoja na kingine |
+| Block reward | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
+| Halving interval | Ni vitalu vingapi vinavyopita kati ya kila nusu ya zawadi ya vitalu |
+| Consensus branch id | Lebo inayoashiria ni seti gani ya sheria za mtandao ambazo nodi au muamala unafuata |
+| Bilateral consensus change | Mabadiliko ya sheria ambayo kila nodi lazima ipitishe ili kubaki kwenye mtandao |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 
 ## FAQs
 

@@ -40,12 +40,12 @@ Sapling followed Overwinter, the June 2018 upgrade that prepared the network's u
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| Azụmahịa echekwara | Azụmahịa Zcash nkeonwe nke na-ezochi onye zitere ya, onye nnata, na ego ole ọ na-enweta. |
+| Shielded transaction | Azụmahịa Zcash nkeonwe nke na-ezochi onye zitere ya, onye nnata, na ego ole ọ na-enweta. |
 | Sprout | Usoro nchekwa mbụ nke Zcash malitere site na, nwayọ ma dị arọ karịa Sapling. |
-| Sekit mmefu na mmepụta | Sekit abụọ ọhụrụ Sapling proof nke nọchiri sekit JoinSplit Sprout's. |
-| Adreesị dị iche iche | Otu n'ime ọtụtụ adreesị ịkwụ ụgwọ na-enweghị njikọ ị nwere ike nweta site na otu igodo. |
+| Spend and Output circuits | Sekit abụọ ọhụrụ Sapling proof nke nọchiri sekit JoinSplit Sprout's. |
+| Diversified address | Otu n'ime ọtụtụ adreesị ịkwụ ụgwọ na-enweghị njikọ ị nwere ike nweta site na otu igodo. |
 | Viewing key | Mkpịsị ugodi nke na-eme ka mmadụ hụ azụmahịa obere akpa ego n'enweghị ike imefu ego na ya. |
-| Njikọ ngalaba nkwekọrịta | Koodu dị mkpirikpi nke na-agwa netwọk iwu nkwalite azụmahịa na-eso. |
+| Consensus branch id | Koodu dị mkpirikpi nke na-agwa netwọk iwu nkwalite azụmahịa na-eso. |
 
 ## Ajụjụ ndị a na-ajụkarị
 

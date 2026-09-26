@@ -22,9 +22,9 @@ Iru bọtini ju ọkan lọ lo wa, iyatọ naa si ni ipinnu iye ti o fi funni.
 
 | Kọ́kọ́rọ́ | Àkọ́kọ́ | Àwọn ẹ̀bùn |
 |---|---|---|
-| Kọ́kọ́rọ́ ìwòran pípé tí a ti ṣọ̀kan (UFVK) | `uview…` | Ó rí àwọn ìṣòwò **àti** tí ń wọlé fún gbogbo adágún inú àkọọ́lẹ̀ náà |
-| Kọ́kọ́rọ́ wíwo tí a ti ṣọ̀kan tí ó ń wọlé (UIVK) | `uivk…` | Ó rí àwọn ìṣòwò tí ń wọlé nìkan, fún gbogbo adágún inú àkọọ́lẹ̀ náà |
-| Kọ́kọ́rọ́ ìwòran tó gùn sí i láti ọwọ́ Sapling | `zxviews…` | Ó rí iṣẹ́ Sapling tí ń wọlé àti èyí tí ń jáde fún àwọn àdírẹ́sì kọ́kọ́rọ́ náà |
+| Unified full viewing key (UFVK) | `uview…` | Ó rí àwọn ìṣòwò **àti** tí ń wọlé fún gbogbo adágún inú àkọọ́lẹ̀ náà |
+| Unified incoming viewing key (UIVK) | `uivk…` | Ó rí àwọn ìṣòwò tí ń wọlé nìkan, fún gbogbo adágún inú àkọọ́lẹ̀ náà |
+| Sapling extended full viewing key | `zxviews…` | Ó rí iṣẹ́ Sapling tí ń wọlé àti èyí tí ń jáde fún àwọn àdírẹ́sì kọ́kọ́rọ́ náà |
 
 Kò sí èyíkéyìí nínú ìwọ̀nyí tó lè náwó. Gbogbo wọn ló wà títí láé ní ọ̀nà tó ṣe pàtàkì: a kò lè dá kọ́kọ́rọ́ tí o ti fúnni padà, a kò lè dá a padà, a kàn lè dá a padà lẹ́yìn ikú, nípa gbígbé owó lọ sí àkáǹtì tí kọ́kọ́rọ́ ẹni kejì kò ní.
 

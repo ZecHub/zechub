@@ -137,14 +137,14 @@ To keep this readable we simplified. Real specifications are written in precise 
 
 | Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
 |---|---|
-| **Dzidzedzekpɔkpɔ le se nu** | Eɖo kpe edzi, le akɔntabubu nu, be ɖoɖo aɖe ɖoa nɔnɔme aɖe si woɖo ɖi na nyawo katã gbɔ |
-| **Nyatakakawo** | Nyagbɔgblɔ si sɔ pɛpɛpɛ tso nusi "nuwɔna nyuitɔ" fia ŋu |
-| **Mɔnu** | Ðoɖowɔɖi, nutome sue, alo ɖoɖowɔɖi ŋutɔŋutɔ si ŋu wole ŋku lém ɖo |
-| **Kpeɖodzi** | Afɔɖeɖe siwo me susu le ƒe kɔsɔkɔsɔ si seɖoƒe li na si ɖoa nya aɖe anyi na nyawo katã |
-| **Kpeɖodzi ƒe kpeɖeŋutɔ / theorem prover** | Kɔmpiutadziɖoɖo (Lean, Rocq, Isabelle) si léa ŋku ɖe kpeɖodzi aɖe ƒe afɔɖeɖe ɖesiaɖe ŋu |
-| **Wolé ŋku ɖe mɔ̃a ŋu** | Woɖo kpe edzi afɔɖeɖe ɖesiaɖe to kɔmpiuta dzi, ke menye to amegbetɔ ƒe nuxexlẽ ɖeɖeko dzi o |
+| **Formal verification** | Eɖo kpe edzi, le akɔntabubu nu, be ɖoɖo aɖe ɖoa nɔnɔme aɖe si woɖo ɖi na nyawo katã gbɔ |
+| **Specification** | Nyagbɔgblɔ si sɔ pɛpɛpɛ tso nusi "nuwɔna nyuitɔ" fia ŋu |
+| **System** | Ðoɖowɔɖi, nutome sue, alo ɖoɖowɔɖi ŋutɔŋutɔ si ŋu wole ŋku lém ɖo |
+| **Proof** | Afɔɖeɖe siwo me susu le ƒe kɔsɔkɔsɔ si seɖoƒe li na si ɖoa nya aɖe anyi na nyawo katã |
+| **Proof assistant / theorem prover** | Kɔmpiutadziɖoɖo (Lean, Rocq, Isabelle) si léa ŋku ɖe kpeɖodzi aɖe ƒe afɔɖeɖe ɖesiaɖe ŋu |
+| **Machine-checked** | Woɖo kpe edzi afɔɖeɖe ɖesiaɖe to kɔmpiuta dzi, ke menye to amegbetɔ ƒe nuxexlẽ ɖeɖeko dzi o |
 | **Induction** | Kpeɖodzimɔnu aɖe: nyateƒee le gɔmedzedzea me, eye afɔɖeɖe ɖesiaɖe tsɔnɛ yia bubu dzi |
-| **Nu si wobu** | Nɔnɔme si dzi kpeɖodzia nɔ te ɖo; ne alakpae la, kakaɖedzinya la mate ŋu anɔ anyi o |
+| **Assumption** | Nɔnɔme si dzi kpeɖodzia nɔ te ɖo; ne alakpae la, kakaɖedzinya la mate ŋu anɔ anyi o |
 
 ---
 

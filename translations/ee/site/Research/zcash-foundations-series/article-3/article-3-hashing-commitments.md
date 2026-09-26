@@ -142,14 +142,14 @@ Míewɔe bɔbɔe be nuwo me nakɔ. Ðokuitsɔtsɔna ƒe ɖoɖo ŋutɔŋutɔwo gb
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| **Hash ƒe dɔwɔwɔ** | Egbãa nyatakaka ɖesiaɖe ɖe asibidɛ kpui si ƒe lolome le ɖoɖo nu (digest) |
+| **Hash function** | Egbãa nyatakaka ɖesiaɖe ɖe asibidɛ kpui si ƒe lolome le ɖoɖo nu (digest) |
 | **Digest** | Asibidɛ ƒe dzesi si dona tso hash dɔwɔwɔ aɖe me |
-| **Preimage tsitretsitsi** | Mateŋu atrɔ digest aɖe atrɔ ayi eƒe nyawo tsɔtsɔ de eme (mɔ ɖeka dzi) |
-| **Tsitretsitsi ɖe ʋufɔku ŋu** | Mete ŋu kpɔ input eve siwo ƒe digest ɖeka le o |
-| **Avalanche ƒe ŋusẽkpɔɖeamedzi** | Tɔtrɔ sue aɖe si wotsɔ dea eme trɔa digest |
-| **Adzɔgbeɖeɖe** | Do asixɔxɔ aɖe fifia, ɖee fia emegbe, mate ŋu aka alakpa le eŋu o |
-| **Nu si gbãa ŋku (`r`)** | Xexlẽdzesi yeye si wowɔ le vome si naa ɖokuitsɔtsɔna ɣlaa |
-| **ZK-xɔlɔ̃ hash** | Hash si wotu tso agble me akɔntabubu me eyata exɔ asi be woaɖo kpe |
+| **Preimage resistance** | Mateŋu atrɔ digest aɖe atrɔ ayi eƒe nyawo tsɔtsɔ de eme (mɔ ɖeka dzi) |
+| **Collision resistance** | Mete ŋu kpɔ input eve siwo ƒe digest ɖeka le o |
+| **Avalanche effect** | Tɔtrɔ sue aɖe si wotsɔ dea eme trɔa digest |
+| **Commitment** | Do asixɔxɔ aɖe fifia, ɖee fia emegbe, mate ŋu aka alakpa le eŋu o |
+| **Blinding factor (`r`)** | Xexlẽdzesi yeye si wowɔ le vome si naa ɖokuitsɔtsɔna ɣlaa |
+| **ZK-friendly hash** | Hash si wotu tso agble me akɔntabubu me eyata exɔ asi be woaɖo kpe |
 
 ---
 

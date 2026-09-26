@@ -43,9 +43,9 @@ Mehiã be Sapling ƒe fexexe ŋuti nyatakaka aɖe naɖe amesi ɖoe ɖa ƒe adrɛ
 
 | Mɔnu | Zãzã nyuitɔ kekeake | Nusi wòɖe fia | Mɔɖeɖe ɖe nu ŋu yi edzia? | Wotsɔ nya ɣaɣlawo bla ɖe fexexea ŋua? |
 | --- | --- | --- | --- | --- |
-| Asitsatsa ƒe ID | Kpɔkpɔ be woɖe asi le asitsatsa aɖe ŋu | Dutoƒo asitsatsa ŋuti nyatakakawo kple kpeɖodzinyawo | Ao | Ẽ, gake fexexe ŋuti nyatakaka siwo wokpɔ ta na la gakpɔtɔ le ɣaɣla |
-| Screenshot alo xɔgbalẽvi | Nuŋlɔɖiwo wɔwɔ le vome | Nuka kee amesi ɖoe ɖa tia be yeaɖe afia | Ao | Ao; woate ŋu atrɔ asi le nɔnɔmetata la ŋu |
-| Fexexe ƒe nyatakakawo ɖeɖefia | Fexexe ɖeka ŋuti nyatakaka tiatia aɖewo ƒe kpeɖodzinana | Asitsatsa ƒe emetsonu tiatia kple amedɔdɔ ɖesiaɖe si le eme alo gbetɔame ƒe kpeɖodzi | Ao, gake woate ŋu awɔ kpeɖodzi si woama la ƒe kɔpi | Ẽ |
+| Transaction ID | Kpɔkpɔ be woɖe asi le asitsatsa aɖe ŋu | Dutoƒo asitsatsa ŋuti nyatakakawo kple kpeɖodzinyawo | Ao | Ẽ, gake fexexe ŋuti nyatakaka siwo wokpɔ ta na la gakpɔtɔ le ɣaɣla |
+| Screenshot or receipt | Nuŋlɔɖiwo wɔwɔ le vome | Nuka kee amesi ɖoe ɖa tia be yeaɖe afia | Ao | Ao; woate ŋu atrɔ asi le nɔnɔmetata la ŋu |
+| Payment disclosure | Fexexe ɖeka ŋuti nyatakaka tiatia aɖewo ƒe kpeɖodzinana | Asitsatsa ƒe emetsonu tiatia kple amedɔdɔ ɖesiaɖe si le eme alo gbetɔame ƒe kpeɖodzi | Ao, gake woate ŋu awɔ kpeɖodzi si woama la ƒe kɔpi | Ẽ |
 | Incoming Viewing Key | Lé ŋku ɖe fe siwo akɔntabubu aɖe xɔ ŋu | Dɔwɔna si gbɔna si ŋu safuia ƒo nu tsoe | Ɛ̃ | Eɖea ga si woxena ɖe eta siwo sɔ la me |
 | Full Viewing Key | Akɔntabubu alo akɔntabubu aɖe me dzodzro | Dɔwɔna si va kple esi dona, ga homewo, nuŋlɔɖiwo, kple ga si susɔ si safuia xe | Ɛ̃ | Eɖea akɔntabubu ƒe dɔwɔna siwo sɔ la me |
 

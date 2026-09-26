@@ -43,9 +43,9 @@ Nkpughe ụgwọ Sapling agaghị ekpughe adreesị onye zitere ya. Ikike mmefu 
 
 | Usoro | Ojiji kacha mma | Ihe ọ na-ekpughe | Ịnweta na-aga n'ihu? | Ejikọtara ya na ịkwụ ụgwọ ahụ n'ụzọ nzuzo? |
 | --- | --- | --- | --- | --- |
-| NJ Azụmahịa | Ịlele na e gwupụtara azụmahịa | Data na nkwenye azụmahịa ọha | Mba | Ee, mana nkọwa ịkwụ ụgwọ echekwara ka zoro ezo |
-| Nseta ihuenyo ma ọ bụ nnata | Idebe ndekọ na-abụghị nke iwu | Ihe ọ bụla onye zitere ya họọrọ igosi | Mba | Mba; enwere ike dezie onyonyo ahụ |
-| Ngosipụta ịkwụ ụgwọ | Ịgosipụta nkọwa ahọpụtara nke otu ịkwụ ụgwọ | Nsonaazụ azụmahịa ahọpụtara na onye zitere ma ọ bụ ihe akaebe ịma aka ọ bụla gụnyere | Mba, mana enwere ike iṅomi ihe akaebe ekesara | Ee |
+| Transaction ID | Ịlele na e gwupụtara azụmahịa | Data na nkwenye azụmahịa ọha | Mba | Ee, mana nkọwa ịkwụ ụgwọ echekwara ka zoro ezo |
+| Screenshot or receipt | Idebe ndekọ na-abụghị nke iwu | Ihe ọ bụla onye zitere ya họọrọ igosi | Mba | Mba; enwere ike dezie onyonyo ahụ |
+| Payment disclosure | Ịgosipụta nkọwa ahọpụtara nke otu ịkwụ ụgwọ | Nsonaazụ azụmahịa ahọpụtara na onye zitere ma ọ bụ ihe akaebe ịma aka ọ bụla gụnyere | Mba, mana enwere ike iṅomi ihe akaebe ekesara | Ee |
 | Incoming Viewing Key | Na-enyocha ụgwọ ndị a natara site na akaụntụ | Ọrụ na-abata nke igodo ahụ kpuchiri | Ee | Ọ na-akọwapụta ụgwọ ndị dakọtara na-abata |
 | Full Viewing Key | Ịgụta ego ma ọ bụ inyocha akaụntụ | Ọrụ na-abata na nke na-apụ apụ, ọnụọgụgụ, ndetu, na nguzozi nke igodo ahụ kpuchiri | Ee | Ọ na-akọwapụta ihe omume akaụntụ dakọtara |
 

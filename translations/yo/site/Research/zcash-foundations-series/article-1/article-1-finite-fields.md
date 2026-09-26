@@ -186,13 +186,13 @@ Lati wa ni titunse- ore a simplified kan diẹ ninu awọn otitọ ohun. lopin a
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Iṣiro onirọpo** | Ìṣirò tó ń yípo lẹ́yìn tí ó bá dé iye tí a ti sọ tẹ́lẹ̀, bí aago |
+| **Modular arithmetic** | Ìṣirò tó ń yípo lẹ́yìn tí ó bá dé iye tí a ti sọ tẹ́lẹ̀, bí aago |
 | **mod p** | "Pínpín nípasẹ̀ `p` kí o sì pa èyí tó kù mọ́" |
-| **Pápá** | Ètò nọ́mbà níbi tí a ti ń fi kún, yọ kúrò, sọ di púpọ̀, àti pín gbogbo iṣẹ́ |
-| **Pápá ìparí `F_p`** | Àwọn nọ́mbà náà `0..p-1` pẹlu isiro ti ṣe mod a prime `p` |
-| **Iyipada (pasiparo)** | Ẹ̀yà náà `a^(-1)` pẹlu `a x a^(-1) = 1`"pínpín nípasẹ̀ `a`"tumọ si isodipupo nipasẹ rẹ |
-| **Odo ipinpin** | Àwọn ìníyelórí méjì tí kò ní òdo tí ọjà wọn jẹ́ òdo; ohun tí ó ba àkójọpọ̀ modulu jẹ́ |
-| **Akọrin** | Nọ́mbà odidi tó ju 1 lọ láìsí àwọn ohun tó ní í ṣe pẹ̀lú àyàfi 1 àti ara rẹ̀ |
+| **Field** | Ètò nọ́mbà níbi tí a ti ń fi kún, yọ kúrò, sọ di púpọ̀, àti pín gbogbo iṣẹ́ |
+| **Finite field `F_p`** | Àwọn nọ́mbà náà `0..p-1` pẹlu isiro ti ṣe mod a prime `p` |
+| **Inverse (reciprocal)** | Ẹ̀yà náà `a^(-1)` pẹlu `a x a^(-1) = 1`"pínpín nípasẹ̀ `a`"tumọ si isodipupo nipasẹ rẹ |
+| **Zero divisor** | Àwọn ìníyelórí méjì tí kò ní òdo tí ọjà wọn jẹ́ òdo; ohun tí ó ba àkójọpọ̀ modulu jẹ́ |
+| **Prime** | Nọ́mbà odidi tó ju 1 lọ láìsí àwọn ohun tó ní í ṣe pẹ̀lú àyàfi 1 àti ara rẹ̀ |
 
 ---
 

@@ -40,13 +40,13 @@ Heartwood is one step in a run of Zcash upgrades, each adding a piece the next o
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
-| Iṣowo Coinbase | Iṣowo pataki ni bulọọki kọọkan ti o san ere bulọọki naa |
-| Àdírẹ́sì Sapling tí a dáàbò bo | Irú àdírẹ́sì Zcash ìkọ̀kọ̀ tí Sapling ṣe àgbékalẹ̀ rẹ̀ |
-| coinbase tí a dáàbò bò | Àyípadà Heartwood tí ó jẹ́ kí a san àwọn èrè ìdènà sí àwọn àdírẹ́sì Sapling tí a dáàbò bò |
+| Network upgrade (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Coinbase transaction | Iṣowo pataki ni bulọọki kọọkan ti o san ere bulọọki naa |
+| Shielded Sapling address | Irú àdírẹ́sì Zcash ìkọ̀kọ̀ tí Sapling ṣe àgbékalẹ̀ rẹ̀ |
+| Shielded coinbase | Àyípadà Heartwood tí ó jẹ́ kí a san àwọn èrè ìdènà sí àwọn àdírẹ́sì Sapling tí a dáàbò bò |
 | FlyClient | Ọ̀nà kan tí ó jẹ́ kí àwọn oníbàárà ìmọ́lẹ̀ ṣàyẹ̀wò ẹ̀rí iṣẹ́ pẹ̀lú àwọn ẹ̀rí kékeré |
-| Àwọn Òkè Merkle (MMR) | Àkópọ̀ tó ń lọ lọ́wọ́ lórí àwọn búlọ́ọ̀kì tó ti kọjá tí àkọlé búlọ́ọ̀kì náà fi hàn |
-| ID ẹka Consensus | Àmì tí ó ń ṣàfihàn àwọn òfin ìgbéga tí ìṣòwò kan ń tẹ̀lé, tí a lò fún ààbò àtúnṣe |
+| Merkle Mountain Range (MMR) | Àkópọ̀ tó ń lọ lọ́wọ́ lórí àwọn búlọ́ọ̀kì tó ti kọjá tí àkọlé búlọ́ọ̀kì náà fi hàn |
+| Consensus branch id | Àmì tí ó ń ṣàfihàn àwọn òfin ìgbéga tí ìṣòwò kan ń tẹ̀lé, tí a lò fún ààbò àtúnṣe |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 

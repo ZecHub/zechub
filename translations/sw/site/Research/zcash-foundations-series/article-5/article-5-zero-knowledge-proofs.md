@@ -131,16 +131,16 @@ Zero-knowledge proofs are a deep field and we stayed at intuition level on purpo
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Ushahidi wa kutojua** | Mshawishi mtu kwamba kauli ni kweli bila kufichua chochote kingine |
-| **Mtoaji/Mthibitishaji** | Yule anayetoa uthibitisho / yule anayeuthibitisha |
-| **Ukamilifu** | Kauli za kweli hukubaliwa kila wakati (kutoka kwa mthibitishaji mwaminifu) |
-| **Utulivu** | Kauli za uongo hukataliwa (wadanganyifu hawawezi kushinda isipokuwa kwa bahati) |
-| **Shahidi** | Michango ya siri inayofanya taarifa hiyo kuwa kweli |
-| **Mzunguko wa Hesabu** | Taarifa iliyoandikwa upya kama inaongeza na kuzidisha juu ya sehemu yenye kikomo |
-| **Haishirikishi (Fiat-Shamir)** | Ushahidi wa risasi moja usiohitaji kurudi na kurudi moja kwa moja |
-| **Fupi** | Uthibitisho ni mdogo na wa haraka kuthibitisha bila kujali ukubwa wa taarifa |
+| **Zero-knowledge proof** | Mshawishi mtu kwamba kauli ni kweli bila kufichua chochote kingine |
+| **Prover / Verifier** | Yule anayetoa uthibitisho / yule anayeuthibitisha |
+| **Completeness** | Kauli za kweli hukubaliwa kila wakati (kutoka kwa mthibitishaji mwaminifu) |
+| **Soundness** | Kauli za uongo hukataliwa (wadanganyifu hawawezi kushinda isipokuwa kwa bahati) |
+| **Witness** | Michango ya siri inayofanya taarifa hiyo kuwa kweli |
+| **Arithmetic circuit** | Taarifa iliyoandikwa upya kama inaongeza na kuzidisha juu ya sehemu yenye kikomo |
+| **Non-interactive (Fiat-Shamir)** | Ushahidi wa risasi moja usiohitaji kurudi na kurudi moja kwa moja |
+| **Succinct** | Uthibitisho ni mdogo na wa haraka kuthibitisha bila kujali ukubwa wa taarifa |
 | **zk-SNARK** | Maarifa yasiyo na kikomo Ufafanuzi usioingiliana wa Maarifa |
-| **Mpangilio unaoaminika / taka zenye sumu** | Uundaji wa vigezo vya wakati mmoja ambavyo siri yake iliyobaki lazima iharibiwe |
+| **Trusted setup / toxic waste** | Uundaji wa vigezo vya wakati mmoja ambavyo siri yake iliyobaki lazima iharibiwe |
 
 ---
 

@@ -148,15 +148,15 @@ We simplified for clarity. The real Lean development is far more detailed than t
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
 | **Ironwood** | Bwawa jipya Zcash's lenye ulinzi (2026), likichukua nafasi ya bwawa Orchard lenye dosari |
-| **Uadilifu wa usawa** | Bwawa la kuogelea halilipi thamani zaidi ya kuingia hadharani |
-| **Usawa wa maarifa** | Ushahidi halali unahitaji mthibitishaji kuwa na ushahidi halisi |
-| **Kitoaji** | Utaratibu unaomtoa shahidi kutoka kwenye uthibitisho wowote unaoshawishi |
-| **Konda** | Msaidizi wa uthibitishaji alitumika kukagua uthibitishaji kwa mashine |
+| **Balance integrity** | Bwawa la kuogelea halilipi thamani zaidi ya kuingia hadharani |
+| **Knowledge soundness** | Ushahidi halali unahitaji mthibitishaji kuwa na ushahidi halisi |
+| **Extractor** | Utaratibu unaomtoa shahidi kutoka kwenye uthibitisho wowote unaoshawishi |
+| **Lean** | Msaidizi wa uthibitishaji alitumika kukagua uthibitishaji kwa mashine |
 | **ValidLedger** | Mfano rasmi wa makubaliano hutawala nadharia za mantiki |
-| **Alama ya vidole** | Mpaka kati ya hesabu iliyothibitishwa na programu ya Rust inayoendeshwa |
-| **Chini ya dhana zilizotajwa** | Uthibitisho umetoa dhana zilizotajwa za kriptografia |
+| **Fingerprint** | Mpaka kati ya hesabu iliyothibitishwa na programu ya Rust inayoendeshwa |
+| **Under stated assumptions** | Uthibitisho umetoa dhana zilizotajwa za kriptografia |
 | **Turnstile** | Sheria inayoweka mipaka ya njia za kutoka za bwawa la kuogelea kwenye amana zake zinazoweza kuthibitishwa |
-| **Usimbaji fiche wa uhakika wa hali ya juu** | Kujenga crypto kwa uthibitisho rasmi kama hatua ya kawaida |
+| **High-assurance cryptography** | Kujenga crypto kwa uthibitisho rasmi kama hatua ya kawaida |
 
 ---
 

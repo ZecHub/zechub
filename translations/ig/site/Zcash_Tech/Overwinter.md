@@ -44,12 +44,12 @@ Overwinter was the first Zcash network upgrade after the October 2016 mainnet la
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
-| Njikọ ngalaba nkwekọrịta | Ihe njirimara dị mkpirikpi nke na-akpọ aha iwu nkwekọrịta dị ugbu a |
-| Elu mmalite ọrụ | Mkpọchi ebe iwu ọhụrụ nke nkwalite netwọkụ ga-amalite ịrụ ọrụ |
-| Nchedo ọzọ | Iwu nke na-egbochi azụmahịa dị irè n'otu agbụ ka a ghara iji ya mee ihe ọzọ |
-| Òtù Ndị otu | Ọgbakọ azụmahịa ndị agbasaala mana a ka gwupụtabeghị n'ime ngọngọ |
-| Ngwụcha azụmahịa | Ogologo blọk njedebe nke a ga-ewepụ azụmahịa a na-egwupụtaghị |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Consensus branch id | Ihe njirimara dị mkpirikpi nke na-akpọ aha iwu nkwekọrịta dị ugbu a |
+| Activation height | Mkpọchi ebe iwu ọhụrụ nke nkwalite netwọkụ ga-amalite ịrụ ọrụ |
+| Replay protection | Iwu nke na-egbochi azụmahịa dị irè n'otu agbụ ka a ghara iji ya mee ihe ọzọ |
+| Mempool | Ọgbakọ azụmahịa ndị agbasaala mana a ka gwupụtabeghị n'ime ngọngọ |
+| Transaction expiry | Ogologo blọk njedebe nke a ga-ewepụ azụmahịa a na-egwupụtaghị |
 
 ## Ajụjụ ndị a na-ajụkarị
 

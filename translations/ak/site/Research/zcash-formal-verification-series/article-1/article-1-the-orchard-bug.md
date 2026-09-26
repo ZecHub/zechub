@@ -159,15 +159,15 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Ɔtare a wɔabɔ ho ban** | Zcash kokoam mode a wɔde sika ne apontow ahorow asie |
-| **Nimdeɛ a ɛnyɛ hwee ho adanse** | Adanse a ɛkyerɛ sɛ asɛm bi a ahintaw yɛ nokware, a ɛnna biribi foforo biara adi |
-| **Amansin** | Akontaabu tebea horow a wɔahyɛ da ayɛ a ɛsɛ sɛ asɛm a ɛfata di ho dwuma |
-| **Anohyeto** | Tebea biako (equation) a ɛwɔ ɔmansin no mu |
-| **Ɔdanseni** | Kokoam gyinapɛn ahorow a ɛma anohyeto ahorow no di mu |
-| **Nnyigyei** | Awerɛhyem a ɛne sɛ nsɛm a ɛyɛ nokware nkutoo na ebetumi ama wɔanya adanse a ɛfata |
-| **Nnyigyei mu nsonsonoe** | Anohyeto a ɛyera a ɛma atoro nsɛm twam |
-| **Wɔahyɛde ase** | Ɔmansin bi a ɛyera tebea bi a na ehia, Orchard mmoawa no ntini |
-| **Wobetumi ahu / wontumi nhu** | Sɛ́ ebia mfaso a wɔde bedi dwuma no bɛma wɔagyaw adanse wɔ ɔmanfo ledger anaa |
+| **Shielded pool** | Zcash kokoam mode a wɔde sika ne apontow ahorow asie |
+| **Zero-knowledge proof** | Adanse a ɛkyerɛ sɛ asɛm bi a ahintaw yɛ nokware, a ɛnna biribi foforo biara adi |
+| **Circuit** | Akontaabu tebea horow a wɔahyɛ da ayɛ a ɛsɛ sɛ asɛm a ɛfata di ho dwuma |
+| **Constraint** | Tebea biako (equation) a ɛwɔ ɔmansin no mu |
+| **Witness** | Kokoam gyinapɛn ahorow a ɛma anohyeto ahorow no di mu |
+| **Soundness** | Awerɛhyem a ɛne sɛ nsɛm a ɛyɛ nokware nkutoo na ebetumi ama wɔanya adanse a ɛfata |
+| **Soundness gap** | Anohyeto a ɛyera a ɛma atoro nsɛm twam |
+| **Under-constrained** | Ɔmansin bi a ɛyera tebea bi a na ehia, Orchard mmoawa no ntini |
+| **Detectable / undetectable** | Sɛ́ ebia mfaso a wɔde bedi dwuma no bɛma wɔagyaw adanse wɔ ɔmanfo ledger anaa |
 
 ---
 

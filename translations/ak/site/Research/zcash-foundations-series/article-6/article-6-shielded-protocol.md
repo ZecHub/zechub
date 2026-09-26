@@ -153,14 +153,14 @@ Eyi ne mfonini a edi mũ sen biara wɔ nsɛm a ɛtoatoa so no mu, nanso ɛda so 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
 | **Spending key** | Ntini biako ahintasɛm a ɔdefo safe nyinaa fi mu |
-| **Hwɛ safoa** | Da wo nnwuma adi kyerɛ obi a ɔwɔ bi a ɔmma wɔmfa |
-| **Spend nkyerɛkyerɛmu** | Tx fã a ɛdi nkyerɛwde bi (nullifier, anchor, proof) |
-| **Output nkyerɛkyerɛmu** | Tx fã a ɛma nkyerɛwde (commitment, ciphertext, proof) |
-| **Adeyɛ (Orchard)** | A unified unit a ɛyɛ biako spend ne biako output bom |
-| **Boɔ a ɛsom boɔ ho bɔhyɛ** | A homomorphic Pedersen bɔhyɛ a ɛfa sika bi ho |
-| **Nsaano nkyerɛwee a ɛkyekyere** | Nsaano nkyerɛwee a ɛkyerɛ sɛ gyinapɛn ahorow kari pɛ a ɛnda no adi |
+| **Viewing key** | Da wo nnwuma adi kyerɛ obi a ɔwɔ bi a ɔmma wɔmfa |
+| **Spend description** | Tx fã a ɛdi nkyerɛwde bi (nullifier, anchor, proof) |
+| **Output description** | Tx fã a ɛma nkyerɛwde (commitment, ciphertext, proof) |
+| **Action (Orchard)** | A unified unit a ɛyɛ biako spend ne biako output bom |
+| **Value commitment** | A homomorphic Pedersen bɔhyɛ a ɛfa sika bi ho |
+| **Binding signature** | Nsaano nkyerɛwee a ɛkyerɛ sɛ gyinapɛn ahorow kari pɛ a ɛnda no adi |
 | **Anchor** | Dua ntini a spend di asɔremma ho adanse tia |
-| **Asɔhwɛ decryption** | Obi a ogye no resɔ bɔhyɛ foforo ahwɛ de ahwehwɛ nsɛm a wɔakyerɛw a wɔahyɛ da ayɛ ama wɔn |
+| **Trial decryption** | Obi a ogye no resɔ bɔhyɛ foforo ahwɛ de ahwehwɛ nsɛm a wɔakyerɛw a wɔahyɛ da ayɛ ama wɔn |
 
 ---
 

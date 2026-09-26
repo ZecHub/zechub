@@ -137,14 +137,14 @@ To keep this readable we simplified. Real specifications are written in precise 
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Nsɛm a wɔde di dwuma wɔ ɔkwan a ɛfata so** | Ɛkyerɛ, wɔ akontaabu mu, sɛ nhyehyɛe bi hyia nsɛm pɔtee bi a wɔahyɛ ato hɔ ma nsɛm nyinaa |
-| **Nkyerɛkyerɛmu** | Asɛm pɔtee a ɛfa nea "suban a ɛteɛ" kyerɛ ho |
-| **Sestɛm** | Dwumadi, ɔmansin, anaa protocol ankasa a wɔrehwɛ mu |
-| **Nnyinasoɔ** | Anamɔn a ntease wom a ɛwɔ anohyeto a ɛde asɛm bi a wɔka ma nsɛm nyinaa si hɔ |
-| **Adanseɛ boafoɔ / theorem prover** | Software (Lean, Rocq, Isabelle) a ɛhwɛ anammɔn biara a ɛwɔ adanse bi mu |
-| **Wɔahwɛ mfiri so** | Kɔmputa na ɛkyerɛ sɛ ɛyɛ nokware anammɔn biara, ɛnyɛ nnipa akenkan nkutoo |
-| **Nneɛma a wɔde hyɛ mu** | Adanse kwan: ɛyɛ nokware wɔ mfiase, na anammɔn biara de kɔ nea edi hɔ no so |
-| **Nsusuiɛ** | Tebea a adanse no de ne ho to so; sɛ ɛyɛ atoro a, ebia guarantee no renkura mu |
+| **Formal verification** | Ɛkyerɛ, wɔ akontaabu mu, sɛ nhyehyɛe bi hyia nsɛm pɔtee bi a wɔahyɛ ato hɔ ma nsɛm nyinaa |
+| **Specification** | Asɛm pɔtee a ɛfa nea "suban a ɛteɛ" kyerɛ ho |
+| **System** | Dwumadi, ɔmansin, anaa protocol ankasa a wɔrehwɛ mu |
+| **Proof** | Anamɔn a ntease wom a ɛwɔ anohyeto a ɛde asɛm bi a wɔka ma nsɛm nyinaa si hɔ |
+| **Proof assistant / theorem prover** | Software (Lean, Rocq, Isabelle) a ɛhwɛ anammɔn biara a ɛwɔ adanse bi mu |
+| **Machine-checked** | Kɔmputa na ɛkyerɛ sɛ ɛyɛ nokware anammɔn biara, ɛnyɛ nnipa akenkan nkutoo |
+| **Induction** | Adanse kwan: ɛyɛ nokware wɔ mfiase, na anammɔn biara de kɔ nea edi hɔ no so |
+| **Assumption** | Tebea a adanse no de ne ho to so; sɛ ɛyɛ atoro a, ebia guarantee no renkura mu |
 
 ---
 

@@ -131,16 +131,16 @@ Zero-nimdeɛ adanse yɛ afuw a emu dɔ na yɛhyɛɛ da traa intuition level. Yɛ
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Zero-nimdeɛ adanseɛ** | Ma obi gye di sɛ asɛm bi yɛ nokware bere a wonna biribi foforo biara adi |
-| ** Ɔbɛbufoɔ / Ɔhwɛfoɔ** | Nea ɔyɛ adanse / nea ɔhwɛ mu |
-| **Nea edi mũ** | Nokware nsɛm gye tom bere nyinaa (efi ɔbofo a odi nokware hɔ) |
-| **Nnyigyei** | Atoro nsɛm nya pow (nsisifo ntumi nni nkonim gye sɛ ɛnam anigye so) |
-| **Ɔdansefo** | Kokoam nsɛm a wɔde hyɛ mu a ɛma asɛm no yɛ nokware |
-| **Akontaabu amansin** | Asɛm a wɔasan akyerɛw sɛ ɛka ho na ɛdɔɔso wɔ afuw a ɛwɔ anohyeto so |
-| **Nea ɛnyɛ nkitahodi (Fiat-Shamir)** | Adanse a wɔde tow tuo biako a enhia sɛ wɔte ase akyi-ne-akyi |
-| **Nsɛm tiawa** | Adanse no sua na ɛyɛ ntɛm sɛ wobɛdi ho adanse ɛmfa ho sɛnea asɛm no kɛse te |
+| **Zero-knowledge proof** | Ma obi gye di sɛ asɛm bi yɛ nokware bere a wonna biribi foforo biara adi |
+| **Prover / Verifier** | Nea ɔyɛ adanse / nea ɔhwɛ mu |
+| **Completeness** | Nokware nsɛm gye tom bere nyinaa (efi ɔbofo a odi nokware hɔ) |
+| **Soundness** | Atoro nsɛm nya pow (nsisifo ntumi nni nkonim gye sɛ ɛnam anigye so) |
+| **Witness** | Kokoam nsɛm a wɔde hyɛ mu a ɛma asɛm no yɛ nokware |
+| **Arithmetic circuit** | Asɛm a wɔasan akyerɛw sɛ ɛka ho na ɛdɔɔso wɔ afuw a ɛwɔ anohyeto so |
+| **Non-interactive (Fiat-Shamir)** | Adanse a wɔde tow tuo biako a enhia sɛ wɔte ase akyi-ne-akyi |
+| **Succinct** | Adanse no sua na ɛyɛ ntɛm sɛ wobɛdi ho adanse ɛmfa ho sɛnea asɛm no kɛse te |
 | **zk-SNARK** | Zero-knowledge Tiawa a Ɛnyɛ nkitahodi ARgument of Knowledge |
-| **Nsiesiei a wogye di / awuduru nwura** | One-time parameter generation a ɛsɛ sɛ wɔsɛe n’ahintasɛm a aka |
+| **Trusted setup / toxic waste** | One-time parameter generation a ɛsɛ sɛ wɔsɛe n’ahintasɛm a aka |
 
 ---
 

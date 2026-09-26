@@ -215,12 +215,12 @@ Gbogbo "a ó padà wá sí èyí" lókè yìí jẹ́ ìjápọ̀ kan.
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Àkíyèsí** | Iye owo ikọkọ kan, ti o dọgba pẹlu Zcash's ti owo tabi iwe-owo kan |
-| **Ṣe akiyesi ifaramo** | Èdìdì ìkọ̀kọ̀ kan tí ó fi hàn pé àkọsílẹ̀ kan wà láìsí pé ó ṣí i payá |
-| **Ṣe akiyesi igi ifaramo** | Àkọsílẹ̀ gbogbogbò tí a fi kún un nìkan ti gbogbo ìlérí àkọsílẹ̀ |
-| **Ohun tí kò ní jẹ́ kí ó bàjẹ́** | Àmì "ìnáwó" àrà ọ̀tọ̀ tí a tẹ̀ jáde nígbà tí a bá lo àkọsílẹ̀ kan, èyí tí ó ń dènà ìnáwó méjì |
-| **Ẹ̀rí ìmọ̀ òdo** | Ẹ̀rí pé gbólóhùn kan jẹ́ òótọ́ nígbà tí kò fi ohunkóhun tí ó ju òótọ́ rẹ̀ lọ hàn |
-| **Ṣíṣe àbò / ṣíṣe àbò** | Gbigbe owo sinu / jade kuro ninu agbaye aabo ikọkọ |
+| **Note** | Iye owo ikọkọ kan, ti o dọgba pẹlu Zcash's ti owo tabi iwe-owo kan |
+| **Note commitment** | Èdìdì ìkọ̀kọ̀ kan tí ó fi hàn pé àkọsílẹ̀ kan wà láìsí pé ó ṣí i payá |
+| **Note commitment tree** | Àkọsílẹ̀ gbogbogbò tí a fi kún un nìkan ti gbogbo ìlérí àkọsílẹ̀ |
+| **Nullifier** | Àmì "ìnáwó" àrà ọ̀tọ̀ tí a tẹ̀ jáde nígbà tí a bá lo àkọsílẹ̀ kan, èyí tí ó ń dènà ìnáwó méjì |
+| **Zero-knowledge proof** | Ẹ̀rí pé gbólóhùn kan jẹ́ òótọ́ nígbà tí kò fi ohunkóhun tí ó ju òótọ́ rẹ̀ lọ hàn |
+| **Shielding / deshielding** | Gbigbe owo sinu / jade kuro ninu agbaye aabo ikọkọ |
 | **Viewing key** | Kọ́kọ́rọ́ tí ó jẹ́ kí ẹni tó ni ilé náà rí àti ka àwọn àkọsílẹ̀ tí a kọ sí wọn |
 
 ---

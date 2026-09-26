@@ -142,14 +142,14 @@ Sisi kurahisisha kuweka mambo wazi. mipango halisi ahadi kufafanua hasa jinsi `v
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Kitendakazi cha Hash** | Huponda data yoyote kuwa alama fupi ya kidole isiyobadilika (digest) |
-| **Mchanganuzi** | Kidole cha alama cha matokeo cha kitendakazi cha hashi |
-| **Upinzani wa awali** | Haiwezi kurudisha muhtasari kwenye ingizo lake (la upande mmoja) |
-| **Upinzani wa mgongano** | Siwezi kupata ingizo mbili zenye muhtasari sawa |
-| **Athari ya maporomoko ya theluji** | Mabadiliko madogo ya kuingiza hubadilisha kabisa muhtasari |
-| **Kujitolea** | Funga thamani sasa, funua baadaye, huwezi kusema uongo kuihusu |
-| **Kipengele cha upofu (`r`)** | Nambari mpya nasibu inayoficha ahadi |
-| **Hash inayofaa ZK** | Hash iliyojengwa kutoka kwa hesabu ya uwanja kwa hivyo ni rahisi kuthibitisha |
+| **Hash function** | Huponda data yoyote kuwa alama fupi ya kidole isiyobadilika (digest) |
+| **Digest** | Kidole cha alama cha matokeo cha kitendakazi cha hashi |
+| **Preimage resistance** | Haiwezi kurudisha muhtasari kwenye ingizo lake (la upande mmoja) |
+| **Collision resistance** | Siwezi kupata ingizo mbili zenye muhtasari sawa |
+| **Avalanche effect** | Mabadiliko madogo ya kuingiza hubadilisha kabisa muhtasari |
+| **Commitment** | Funga thamani sasa, funua baadaye, huwezi kusema uongo kuihusu |
+| **Blinding factor (`r`)** | Nambari mpya nasibu inayoficha ahadi |
+| **ZK-friendly hash** | Hash iliyojengwa kutoka kwa hesabu ya uwanja kwa hivyo ni rahisi kuthibitisha |
 
 ---
 

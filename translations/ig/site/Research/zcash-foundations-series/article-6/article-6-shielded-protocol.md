@@ -152,15 +152,15 @@ This is the most complete picture in the series, but still a model. We compresse
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Isi ihe eji emefu ego** | Ihe nzuzo otu mgbọrọgwụ nke igodo niile onye ọrụ si enweta |
+| **Spending key** | Ihe nzuzo otu mgbọrọgwụ nke igodo niile onye ọrụ si enweta |
 | **Viewing key** | Na-ekpughe azụmahịa gị nye onye nwere ya n'ekweghị ka ha mefuo ego |
-| **Nkọwa mmefu** | Akụkụ nke tx nke na-eri ihe ndetu (ihe na-emebi ihe, arịlịka, ihe akaebe) |
-| **Nkọwa mmepụta** | Akụkụ nke tx nke na-emepụta ndetu (nkwa, ederede nzuzo, ihe akaebe) |
-| **Ihe Omume (Orchard)** | Otu n'otu na-emefu otu mmefu na otu mmepụta ọnụ |
-| **Nkwa uru** | Nkwa Pedersen nwere njikọ na ego |
-| **Mbinye aka na-ejikọ aka** | Mbinye aka nke na-egosi na ụkpụrụ na-aga nke ọma n'ekpugheghị ha |
+| **Spend description** | Akụkụ nke tx nke na-eri ihe ndetu (ihe na-emebi ihe, arịlịka, ihe akaebe) |
+| **Output description** | Akụkụ nke tx nke na-emepụta ndetu (nkwa, ederede nzuzo, ihe akaebe) |
+| **Action (Orchard)** | Otu n'otu na-emefu otu mmefu na otu mmepụta ọnụ |
+| **Value commitment** | Nkwa Pedersen nwere njikọ na ego |
+| **Binding signature** | Mbinye aka nke na-egosi na ụkpụrụ na-aga nke ọma n'ekpugheghị ha |
 | **Anchor** | Mgbọrọgwụ osisi a na-emefu ego na-egosi na ọ bụ onye otu megidere |
-| **Nyocha nnwale** | Onye nnata na-anwale nkwa ọhụrụ iji chọta ndetu e mere maka ha |
+| **Trial decryption** | Onye nnata na-anwale nkwa ọhụrụ iji chọta ndetu e mere maka ha |
 
 ---
 

@@ -40,12 +40,12 @@ Sapling followed Overwinter, the June 2018 upgrade that prepared the network's u
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| Muamala uliolindwa | Muamala wa kibinafsi Zcash unaoficha mtumaji, mpokeaji, na kiasi. |
+| Shielded transaction | Muamala wa kibinafsi Zcash unaoficha mtumaji, mpokeaji, na kiasi. |
 | Sprout | Itifaki ya awali iliyolindwa Zcash ilizinduliwa na, polepole na nzito kuliko Sapling. |
-| Saketi za Matumizi na Toa | Saketi mbili mpya zinazothibitisha Sapling zilizochukua nafasi ya saketi moja Sprout's JoinSplit. |
-| Anwani iliyochanganywa | Mojawapo ya anwani nyingi za malipo ambazo haziwezi kuunganishwa unazoweza kupata kutoka kwa ufunguo mmoja. |
+| Spend and Output circuits | Saketi mbili mpya zinazothibitisha Sapling zilizochukua nafasi ya saketi moja Sprout's JoinSplit. |
+| Diversified address | Mojawapo ya anwani nyingi za malipo ambazo haziwezi kuunganishwa unazoweza kupata kutoka kwa ufunguo mmoja. |
 | Viewing key | Ufunguo unaomruhusu mtu kuona miamala ya pochi bila kuweza kutumia pesa kutoka kwayo. |
-| Kitambulisho cha tawi la makubaliano | Nambari fupi inayoelezea mtandao sheria za uboreshaji ambazo muamala unafuata. |
+| Consensus branch id | Nambari fupi inayoelezea mtandao sheria za uboreshaji ambazo muamala unafuata. |
 
 ## FAQs
 

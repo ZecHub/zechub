@@ -142,14 +142,14 @@ Yɛyɛɛ no ​​mmerɛw sɛnea ɛbɛyɛ a nneɛma mu daa hɔ. Ahofama nhyehyɛ
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Hash dwumadie** | Crushes data biara ma ɛyɛ fixed-size nsateaa nkyerɛwee tiawa (digest) |
+| **Hash function** | Crushes data biara ma ɛyɛ fixed-size nsateaa nkyerɛwee tiawa (digest) |
 | **Digest** | Nsateaa a ɛfiri hash dwumadie bi mu |
-| **Preimage a wɔko tia** | Entumi nsan digest bi nsan nkɔ ne input (ɔkwan biako so) |
-| **Nneɛma a ɛbɔ ho ban** | Wontumi nnya input abien a ɛwɔ digest koro |
-| **Avalanche nkɛntɛnso** | Nsakrae ketewaa bi a ɛba input mu sesa digest |
-| **Ahofama** | Lock a value now, da no adi akyiri yi, ntumi nni atoro wɔ ho |
-| **Ade a ɛma anifurae (`r`)** | Random number a ɛyɛ foforo a ɛma bɔhyɛ bi sie |
-| **ZK-adamfofa hash** | Hash a wɔasisi afi field akontabuo mu enti ɛyɛ cheap sɛ wobɛkyerɛ sɛ |
+| **Preimage resistance** | Entumi nsan digest bi nsan nkɔ ne input (ɔkwan biako so) |
+| **Collision resistance** | Wontumi nnya input abien a ɛwɔ digest koro |
+| **Avalanche effect** | Nsakrae ketewaa bi a ɛba input mu sesa digest |
+| **Commitment** | Lock a value now, da no adi akyiri yi, ntumi nni atoro wɔ ho |
+| **Blinding factor (`r`)** | Random number a ɛyɛ foforo a ɛma bɔhyɛ bi sie |
+| **ZK-friendly hash** | Hash a wɔasisi afi field akontabuo mu enti ɛyɛ cheap sɛ wobɛkyerɛ sɛ |
 
 ---
 

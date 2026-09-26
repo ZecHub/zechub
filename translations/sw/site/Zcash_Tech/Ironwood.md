@@ -74,12 +74,12 @@ Wallets na node programu kushughulikia zaidi ya hii moja kwa moja, lakini mabadi
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| Bwawa la kuogelea lililolindwa | Seti ya fedha ambazo kiasi na wamiliki wake wamefichwa na usimbaji fiche usio na maarifa yoyote |
-| Kidudu cha usikivu | Dosari inayoruhusu muamala batili kupitisha ukaguzi wa uthibitisho kana kwamba ni halali |
+| Shielded pool | Seti ya fedha ambazo kiasi na wamiliki wake wamefichwa na usimbaji fiche usio na maarifa yoyote |
+| Soundness bug | Dosari inayoruhusu muamala batili kupitisha ukaguzi wa uthibitisho kana kwamba ni halali |
 | Turnstile | Kituo cha ukaguzi cha umma kinachohesabu thamani inayohamishwa kati ya mabwawa ili usambazaji uendelee kukaguliwa |
-| Matumizi pekee | Bwawa la kuogelea unaloweza kutumia, lakini huwezi kuongeza thamani mpya |
-| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
-| Dokezo linaloweza kurejeshwa kwa Quantum | Muundo wa noti ulioundwa ili fedha ziweze kupatikana ikiwa kompyuta za kwantum zitavunja usimbaji fiche wa leo |
+| Spend-only | Bwawa la kuogelea unaloweza kutumia, lakini huwezi kuongeza thamani mpya |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Quantum-recoverable note | Muundo wa noti ulioundwa ili fedha ziweze kupatikana ikiwa kompyuta za kwantum zitavunja usimbaji fiche wa leo |
 
 ## FAQs
 

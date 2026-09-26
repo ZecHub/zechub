@@ -43,9 +43,9 @@ Eine Sapling-Zahlungsfreigabe muss keine Absenderadresse offenlegen. Die Ausgabe
 
 | Methode | Beste Verwendung | Was sie offenlegt | Fortlaufender Zugriff? | Kryptografisch an die Zahlung gebunden? |
 | --- | --- | --- | --- | --- |
-| Transaktions-ID | Prüfen, ob eine Transaktion gemint wurde | Öffentliche Transaktionsdaten und Bestätigungen | Nein | Ja, aber abgeschirmte Zahlungsdetails bleiben verborgen |
-| Screenshot oder Beleg | Informelle Aufzeichnungen | Was auch immer der Absender anzeigen möchte | Nein | Nein; das Bild kann bearbeitet werden |
-| Zahlungsfreigabe | Ausgewählte Details einer Zahlung nachweisen | Ausgewählte Transaktions-Outputs sowie enthaltene Absender- oder Challenge-Nachweise | Nein, aber der geteilte Nachweis kann kopiert werden | Ja |
+| Transaction ID | Prüfen, ob eine Transaktion gemint wurde | Öffentliche Transaktionsdaten und Bestätigungen | Nein | Ja, aber abgeschirmte Zahlungsdetails bleiben verborgen |
+| Screenshot or receipt | Informelle Aufzeichnungen | Was auch immer der Absender anzeigen möchte | Nein | Nein; das Bild kann bearbeitet werden |
+| Payment disclosure | Ausgewählte Details einer Zahlung nachweisen | Ausgewählte Transaktions-Outputs sowie enthaltene Absender- oder Challenge-Nachweise | Nein, aber der geteilte Nachweis kann kopiert werden | Ja |
 | Incoming Viewing Key | Überwachung von Zahlungen, die ein Konto erhält | Durch den Schlüssel abgedeckte eingehende Aktivitäten | Ja | Entschlüsselt passende eingehende Zahlungen |
 | Full Viewing Key | Buchhaltung oder Prüfung eines Kontos | Durch den Schlüssel abgedeckte ein- und ausgehende Aktivitäten, Beträge, Memos und Salden | Ja | Entschlüsselt passende Kontoaktivitäten |
 

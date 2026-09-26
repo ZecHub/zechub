@@ -152,15 +152,15 @@ This is the most complete picture in the series, but still a model. We compresse
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Ufunguo wa matumizi** | Siri moja ya mzizi ambayo funguo zote za mtumiaji hupata |
+| **Spending key** | Siri moja ya mzizi ambayo funguo zote za mtumiaji hupata |
 | **Viewing key** | Hufichua miamala yako kwa mmiliki bila kumruhusu kutumia |
-| **Maelezo ya matumizi** | Sehemu ya tx inayotumia noti (nullifier, nanga, uthibitisho) |
-| **Maelezo ya matokeo** | Sehemu ya tx inayounda noti (kujitolea, maandishi ya siri, uthibitisho) |
-| **Kitendo (Orchard)** | Kitengo kimoja kinachofanya matumizi moja na matokeo moja pamoja |
-| **Ahadi ya thamani** | Ahadi ya Pedersen ya homomorphic kwa kiasi |
-| **Saini ya kufunga** | Saini inayothibitisha usawa wa maadili bila kuyafichua |
-| **Nanga** | Mzizi wa mti unaotumika unathibitisha uanachama dhidi ya |
-| **Usimbuaji wa majaribio** | Mpokeaji akijaribu ahadi mpya za kupata maelezo yaliyokusudiwa kwake |
+| **Spend description** | Sehemu ya tx inayotumia noti (nullifier, nanga, uthibitisho) |
+| **Output description** | Sehemu ya tx inayounda noti (kujitolea, maandishi ya siri, uthibitisho) |
+| **Action (Orchard)** | Kitengo kimoja kinachofanya matumizi moja na matokeo moja pamoja |
+| **Value commitment** | Ahadi ya Pedersen ya homomorphic kwa kiasi |
+| **Binding signature** | Saini inayothibitisha usawa wa maadili bila kuyafichua |
+| **Anchor** | Mzizi wa mti unaotumika unathibitisha uanachama dhidi ya |
+| **Trial decryption** | Mpokeaji akijaribu ahadi mpya za kupata maelezo yaliyokusudiwa kwake |
 
 ---
 

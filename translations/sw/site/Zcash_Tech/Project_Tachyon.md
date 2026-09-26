@@ -95,13 +95,13 @@ Kazi inayohusiana na hiyo tayari inaonekana. [Zakura](https://zechub.wiki/zcash-
 
 | Muhula | Maana |
 |---|---|
-| Uondoaji wa usimbaji fiche wa majaribio | Kujaribu kuficha miamala moja baada ya nyingine ili kupata ile iliyoelekezwa kwako |
-| Usambazaji wa siri ndani ya bendi | Kuweka siri ya malipo ndani ya muamala kwenye blockchain, kama Zcash inavyofanya leo |
-| Malipo ya nje ya bendi | Kupitisha maelezo ya malipo moja kwa moja kati ya mtumaji na mpokeaji badala ya kupitia mnyororo |
-| Usawazishaji usio wazi | Kuchukua data ya mnyororo ambayo pochi inahitaji bila kufichua ni data gani iliyoombwa |
-| Data ya kubeba uthibitisho (PCD) | Data inayosafiri ikiwa na uthibitisho wa usahihi wake, ili uthibitisho uweze kuunganishwa na kubanwa |
-| Jumla ya miamala iliyolindwa | Njia ya Tachyon ya kuunganisha mabadiliko ya hali yaliyolindwa, kubadilisha jinsi yanavyowasilishwa na kusainiwa |
-| kutotofautisha ledger | Mali iliyolinda miamala haiwezi kutofautishwa kati ya mali nyingine |
+| Trial decryption | Kujaribu kuficha miamala moja baada ya nyingine ili kupata ile iliyoelekezwa kwako |
+| In-band secret distribution | Kuweka siri ya malipo ndani ya muamala kwenye blockchain, kama Zcash inavyofanya leo |
+| Out-of-band payment | Kupitisha maelezo ya malipo moja kwa moja kati ya mtumaji na mpokeaji badala ya kupitia mnyororo |
+| Oblivious synchronization | Kuchukua data ya mnyororo ambayo pochi inahitaji bila kufichua ni data gani iliyoombwa |
+| Proof-carrying data (PCD) | Data inayosafiri ikiwa na uthibitisho wa usahihi wake, ili uthibitisho uweze kuunganishwa na kubanwa |
+| Shielded transaction aggregate | Njia ya Tachyon ya kuunganisha mabadiliko ya hali yaliyolindwa, kubadilisha jinsi yanavyowasilishwa na kusainiwa |
+| ledger indistinguishability | Mali iliyolinda miamala haiwezi kutofautishwa kati ya mali nyingine |
 
 <br/>
 

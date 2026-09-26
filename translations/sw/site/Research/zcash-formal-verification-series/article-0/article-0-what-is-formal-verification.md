@@ -137,14 +137,14 @@ Ili kuweka hii readable sisi kurahisishwa. specifikationer halisi ni imeandikwa 
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Uthibitisho rasmi** | Kuthibitisha, kihisabati, kwamba mfumo unakidhi vipimo kwa kesi zote |
-| **Vipimo** | Kauli sahihi ya maana ya "tabia sahihi" |
-| **Mfumo** | Programu, mzunguko, au itifaki halisi inayokaguliwa |
-| **Uthibitisho** | Msururu wa hatua za kimantiki zinazoanzisha madai kwa kesi zote |
-| **Msaidizi wa uthibitisho / mthibitishaji wa nadharia** | Programu (Lean, Rocq, Isabelle) inayoangalia kila hatua ya uthibitisho |
-| **Imehakikiwa na mashine** | Imethibitishwa hatua kwa hatua na kompyuta, si kwa usomaji wa kibinadamu pekee |
-| **Uingizaji** | Mbinu ya uthibitisho: ni kweli mwanzoni, na kila hatua huipeleka kwenye inayofuata |
-| **Kudhani** | Sharti ambalo uthibitisho unategemea; ikiwa si kweli, dhamana inaweza isiweze kushikilia |
+| **Formal verification** | Kuthibitisha, kihisabati, kwamba mfumo unakidhi vipimo kwa kesi zote |
+| **Specification** | Kauli sahihi ya maana ya "tabia sahihi" |
+| **System** | Programu, mzunguko, au itifaki halisi inayokaguliwa |
+| **Proof** | Msururu wa hatua za kimantiki zinazoanzisha madai kwa kesi zote |
+| **Proof assistant / theorem prover** | Programu (Lean, Rocq, Isabelle) inayoangalia kila hatua ya uthibitisho |
+| **Machine-checked** | Imethibitishwa hatua kwa hatua na kompyuta, si kwa usomaji wa kibinadamu pekee |
+| **Induction** | Mbinu ya uthibitisho: ni kweli mwanzoni, na kila hatua huipeleka kwenye inayofuata |
+| **Assumption** | Sharti ambalo uthibitisho unategemea; ikiwa si kweli, dhamana inaweza isiweze kushikilia |
 
 ---
 

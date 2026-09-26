@@ -152,15 +152,15 @@ This is the most complete picture in the series, but still a model. We compresse
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Kọ́kọ́rọ́ ìnáwó** | Àṣírí gbòǹgbò kan ṣoṣo tí gbogbo àwọn kọ́kọ́rọ́ olùlò ti wá |
+| **Spending key** | Àṣírí gbòǹgbò kan ṣoṣo tí gbogbo àwọn kọ́kọ́rọ́ olùlò ti wá |
 | **Viewing key** | Ṣí àwọn ìṣòwò rẹ hàn fún ẹni tó ni ín láìjẹ́ kí wọ́n náwó |
-| **Àpèjúwe ìnáwó** | Apá tx kan tí ó ń gba àkọsílẹ̀ kan (ohun tí kò ní ìtumọ̀, ìdámọ̀, ẹ̀rí) |
-| **Àpèjúwe ìjáde** | Apá tx kan tí ó ṣẹ̀dá àkọsílẹ̀ kan (ìdúróṣinṣin, ìkọ̀wé ìkọ̀kọ̀, ẹ̀rí) |
-| **Igbesẹ (Orchard)** | Ẹyọ kan ṣoṣo tí ó ń lo owó kan àti ìyọrísí kan papọ̀ |
-| **Ifaramo iye** | Ìfẹ́ Pedersen tó ní ìrísí tó jọra sí iye kan |
-| **Ìfọwọ́sowọ́pọ̀ tó ń múni ṣiṣẹ́** | Ibuwọlu ti o fihan pe awọn iye wa ni iwọntunwọnsi laisi ṣiṣafihan wọn |
-| **Ìdákọ̀ró** | Gbòǹgbò igi tí a náwó fi hàn pé ọmọ ẹgbẹ́ lòdì sí |
-| **Ìdánwò ìtúpalẹ̀** | Olùgbàlejò kan ń dán àwọn ìlérí tuntun wò láti rí àwọn àkọsílẹ̀ tí a ṣe fún wọn |
+| **Spend description** | Apá tx kan tí ó ń gba àkọsílẹ̀ kan (ohun tí kò ní ìtumọ̀, ìdámọ̀, ẹ̀rí) |
+| **Output description** | Apá tx kan tí ó ṣẹ̀dá àkọsílẹ̀ kan (ìdúróṣinṣin, ìkọ̀wé ìkọ̀kọ̀, ẹ̀rí) |
+| **Action (Orchard)** | Ẹyọ kan ṣoṣo tí ó ń lo owó kan àti ìyọrísí kan papọ̀ |
+| **Value commitment** | Ìfẹ́ Pedersen tó ní ìrísí tó jọra sí iye kan |
+| **Binding signature** | Ibuwọlu ti o fihan pe awọn iye wa ni iwọntunwọnsi laisi ṣiṣafihan wọn |
+| **Anchor** | Gbòǹgbò igi tí a náwó fi hàn pé ọmọ ẹgbẹ́ lòdì sí |
+| **Trial decryption** | Olùgbàlejò kan ń dán àwọn ìlérí tuntun wò láti rí àwọn àkọsílẹ̀ tí a ṣe fún wọn |
 
 ---
 

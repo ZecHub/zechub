@@ -74,12 +74,12 @@ Awọn apamọwọ ati sọfitiwia node ṣe itọju pupọ julọ ti eyi laif�
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| Adágún adágún tí a dáàbò bò | Àkójọ owó tí iye àti àwọn olówó rẹ̀ wà lábẹ́ ìkọ̀kọ̀ ìmọ̀-òdodo |
-| Àìsàn ìlera | Àbùkù kan tó ń jẹ́ kí ìṣòwò tí kò tọ́ kọjá àyẹ̀wò ẹ̀rí bíi pé ó wúlò |
-| Ìyípadà | Àyẹ̀wò gbogbogbòò tí ó ń ka iye ìṣípò láàárín àwọn adágún kí ìpèsè náà lè dúró ní àyẹ̀wò |
-| Na-ná nìkan | Adágún omi kan tí o lè ná láti, ṣùgbọ́n tí o kò lè fi ìní tuntun kún un |
-| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
-| Àkọsílẹ̀ tí a lè gbà padà sí Kuatomu | A ṣe àgbékalẹ̀ àkọsílẹ̀ kan kí a lè gba owó padà tí àwọn kọ̀ǹpútà quantum bá lè ba ìkọ̀kọ̀ ayélujára òde òní jẹ́ |
+| Shielded pool | Àkójọ owó tí iye àti àwọn olówó rẹ̀ wà lábẹ́ ìkọ̀kọ̀ ìmọ̀-òdodo |
+| Soundness bug | Àbùkù kan tó ń jẹ́ kí ìṣòwò tí kò tọ́ kọjá àyẹ̀wò ẹ̀rí bíi pé ó wúlò |
+| Turnstile | Àyẹ̀wò gbogbogbòò tí ó ń ka iye ìṣípò láàárín àwọn adágún kí ìpèsè náà lè dúró ní àyẹ̀wò |
+| Spend-only | Adágún omi kan tí o lè ná láti, ṣùgbọ́n tí o kò lè fi ìní tuntun kún un |
+| Network upgrade (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Quantum-recoverable note | A ṣe àgbékalẹ̀ àkọsílẹ̀ kan kí a lè gba owó padà tí àwọn kọ̀ǹpútà quantum bá lè ba ìkọ̀kọ̀ ayélujára òde òní jẹ́ |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 

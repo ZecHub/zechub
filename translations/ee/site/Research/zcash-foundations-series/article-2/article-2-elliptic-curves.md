@@ -185,13 +185,13 @@ Nu ʋɛ aɖewo siwo wowɔ wòle bɔbɔe na esia na wote ŋu xlẽa esia. Míezã
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| **Elliptic ƒe ʋuʋudedi** | Nya siwo naa dzidzeme ame `y^2 = x^3 + ax + b`, kple "tsɔtsɔ kpe ɖe" nya veviwo ŋu tɔxɛ aɖe |
-| **Nya si wotsɔ kpe ɖe eŋu** | Chord-and-tangent ƒe se: fli to teƒe eve, xɔ etɔ̃lia ƒoƒo, ɖe |
-| **Fia asi seɖoƒemanɔsitɔ (`O`)** | Curve la ƒe "zero"; etsɔtsɔ kpee metrɔa naneke o |
-| **Dzɔdzɔmeŋusẽŋununya (`G`)** | Gɔmeɖoanyi si ƒe xexlẽdzesiwo xɔa ƒuƒoƒo bliboa mlɔeba |
-| **Scalar dzidziɖedzi (`kG`)** | Tsɔ kpe ɖe eŋu `G` na eɖokui `k` ɣeyiɣiwo; ŋgɔgbe bɔbɔe, megbedede sesẽ |
-| **ECDLP** ƒe ƒuƒoƒo | Kuxi sesẽ si nye hayahaya `k` tso `kG`; dedienɔnɔ ƒe gɔmeɖoanyia |
-| **Pedersen ƒe ɖokuitsɔtsɔna** | `v.G + r.H`; agbalẽkotoku si wotu nu ɖo si ɣlaa, blaa nu, eye wòtsɔa |
+| **Elliptic curve** | Nya siwo naa dzidzeme ame `y^2 = x^3 + ax + b`, kple "tsɔtsɔ kpe ɖe" nya veviwo ŋu tɔxɛ aɖe |
+| **Point addition** | Chord-and-tangent ƒe se: fli to teƒe eve, xɔ etɔ̃lia ƒoƒo, ɖe |
+| **Point at infinity (`O`)** | Curve la ƒe "zero"; etsɔtsɔ kpee metrɔa naneke o |
+| **Generator (`G`)** | Gɔmeɖoanyi si ƒe xexlẽdzesiwo xɔa ƒuƒoƒo bliboa mlɔeba |
+| **Scalar multiplication (`kG`)** | Tsɔ kpe ɖe eŋu `G` na eɖokui `k` ɣeyiɣiwo; ŋgɔgbe bɔbɔe, megbedede sesẽ |
+| **ECDLP** | Kuxi sesẽ si nye hayahaya `k` tso `kG`; dedienɔnɔ ƒe gɔmeɖoanyia |
+| **Pedersen commitment** | `v.G + r.H`; agbalẽkotoku si wotu nu ɖo si ɣlaa, blaa nu, eye wòtsɔa |
 
 ---
 

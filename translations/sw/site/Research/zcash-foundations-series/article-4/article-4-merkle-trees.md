@@ -135,13 +135,13 @@ Simplifications, as usual. Real incremental Merkle trees track "frontier" nodes 
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Mti wa Merkle** | Mti wa hashes; majani ni alama za vidole, wazazi hupiga watoto wao hashes |
-| **Jani** | Nodi ya chini; katika Zcash, ahadi ya noti moja |
-| **Mzizi wa Merkle** | Kidole kimoja cha juu kinachofupisha mti mzima |
-| **Njia ya uthibitishaji / Uthibitisho wa Merkle** | Hashes za ndugu zinahitajika kuthibitisha jani liko kwenye mti |
-| **Mti wa Merkle Unaoongezeka** | Mti wa Merkle unaotumika tu (majani huongezwa tu) |
-| **Nanga** | Mzizi wa Merkle ambao spend anautaja kama "hali ya mti ninayoipinga" |
-| **Seti ya vifutaji** | Mkusanyiko tofauti wa alama za matumizi zinazozuia matumizi maradufu |
+| **Merkle tree** | Mti wa hashes; majani ni alama za vidole, wazazi hupiga watoto wao hashes |
+| **Leaf** | Nodi ya chini; katika Zcash, ahadi ya noti moja |
+| **Merkle root** | Kidole kimoja cha juu kinachofupisha mti mzima |
+| **Authentication path / Merkle proof** | Hashes za ndugu zinahitajika kuthibitisha jani liko kwenye mti |
+| **Incremental Merkle tree** | Mti wa Merkle unaotumika tu (majani huongezwa tu) |
+| **Anchor** | Mzizi wa Merkle ambao spend anautaja kama "hali ya mti ninayoipinga" |
+| **Nullifier set** | Mkusanyiko tofauti wa alama za matumizi zinazozuia matumizi maradufu |
 
 ---
 

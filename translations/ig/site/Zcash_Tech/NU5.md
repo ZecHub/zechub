@@ -49,12 +49,12 @@ NU5 followed Zcash's earlier upgrades: Overwinter, Sapling, Blossom, Heartwood, 
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
 | Orchard | E webatara ọdọ mmiri NU5 a na-echebe, nke e wuru na sistemụ nnwale Halo 2 |
 | Halo 2 | Sistemụ na-egosi ihe dị n'azụ Orchard nke na-achọghị ntọala a pụrụ ịtụkwasị obi |
-| Ntọala a tụkwasịrị obi | Ememe otu ugboro nke na-eme paramita nzuzo nke ọdọ mmiri ma a ga-atụkwasị ya obi ibibi ha |
+| Trusted setup | Ememe otu ugboro nke na-eme paramita nzuzo nke ọdọ mmiri ma a ga-atụkwasị ya obi ibibi ha |
 | Unified address | Otu adreesị nke nwere ike ijikọ ndị nnata maka ihe karịrị otu ọdọ mmiri (ZIP 316) |
-| Njikọ ngalaba nkwekọrịta | Ihe njirimara nke na-egosi usoro iwu azụmahịa bụ |
+| Consensus branch id | Ihe njirimara nke na-egosi usoro iwu azụmahịa bụ |
 
 ## Ajụjụ ndị a na-ajụkarị
 

@@ -185,13 +185,13 @@ Baadhi ya kurahisisha kuweka hii kusoma. Sisi kutumika ** short Weierstrass ** f
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Mkunjo wa mviringo** | Pointi zinazoridhisha `y^2 = x^3 + ax + b`, pamoja na "nyongeza" maalum ya pointi |
-| **Ongeza pointi** | Sheria ya gumzo na mchanganyiko: piga mstari kupitia pointi mbili, piga hitilafu ya tatu, tafakari |
-| **Elekeza katika kutokuwa na mwisho (`O`)** | "Sufuri" ya mkunjo; kuiongeza hakubadilishi chochote |
-| **Jenereta (`G`)** | Sehemu ya msingi ambayo vizidisho vyake hatimaye hufunika kundi zima |
-| **Kuzidisha kwa kiwango kikubwa (`kG`)** | Kuongeza `G` yenyewe `k` nyakati; kusonga mbele kwa urahisi, vigumu kurudi nyuma |
+| **Elliptic curve** | Pointi zinazoridhisha `y^2 = x^3 + ax + b`, pamoja na "nyongeza" maalum ya pointi |
+| **Point addition** | Sheria ya gumzo na mchanganyiko: piga mstari kupitia pointi mbili, piga hitilafu ya tatu, tafakari |
+| **Point at infinity (`O`)** | "Sufuri" ya mkunjo; kuiongeza hakubadilishi chochote |
+| **Generator (`G`)** | Sehemu ya msingi ambayo vizidisho vyake hatimaye hufunika kundi zima |
+| **Scalar multiplication (`kG`)** | Kuongeza `G` yenyewe `k` nyakati; kusonga mbele kwa urahisi, vigumu kurudi nyuma |
 | **ECDLP** | Tatizo gumu la kupona `k` kutoka `kG`; msingi wa usalama |
-| **Kujitolea kwa Pedersen** | `v.G + r.H`bahasha iliyofungwa ambayo huficha, hufunga, na kuongeza ukubwa |
+| **Pedersen commitment** | `v.G + r.H`bahasha iliyofungwa ambayo huficha, hufunga, na kuongeza ukubwa |
 
 ---
 

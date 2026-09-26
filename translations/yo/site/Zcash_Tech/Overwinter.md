@@ -44,12 +44,12 @@ Overwinter was the first Zcash network upgrade after the October 2016 mainnet la
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
-| ID ẹka Consensus | Àmì ìdámọ̀ kúkúrú kan tí ó ń sọ orúkọ àwọn òfin ìfohùnṣọ̀kan lọ́wọ́lọ́wọ́ |
-| Gíga ìṣiṣẹ́ | Àkọsílẹ̀ tí àwọn òfin tuntun ti ìgbéga nẹ́tíwọ́ọ̀kì kan gbéṣẹ́ sí |
-| Ààbò àtúnṣe eré | Òfin kan tí ó dá ìṣòwò kan dúró láti má ṣe tún lò lórí ẹ̀wọ̀n kan lórí òmíràn |
-| Ọmọ ẹgbẹ́ | Àkójọ àwọn ìṣòwò tí a ti gbé jáde ṣùgbọ́n tí a kò tí ì wakọ̀ sínú bulọ́ọ̀kì kan |
-| Ipari iṣowo naa | Gíga bulọọki ipari ti a fi silẹ lẹhin ti a ti yọ iṣowo ti a ko tii wa kuro |
+| Network upgrade (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Consensus branch id | Àmì ìdámọ̀ kúkúrú kan tí ó ń sọ orúkọ àwọn òfin ìfohùnṣọ̀kan lọ́wọ́lọ́wọ́ |
+| Activation height | Àkọsílẹ̀ tí àwọn òfin tuntun ti ìgbéga nẹ́tíwọ́ọ̀kì kan gbéṣẹ́ sí |
+| Replay protection | Òfin kan tí ó dá ìṣòwò kan dúró láti má ṣe tún lò lórí ẹ̀wọ̀n kan lórí òmíràn |
+| Mempool | Àkójọ àwọn ìṣòwò tí a ti gbé jáde ṣùgbọ́n tí a kò tí ì wakọ̀ sínú bulọ́ọ̀kì kan |
+| Transaction expiry | Gíga bulọọki ipari ti a fi silẹ lẹhin ti a ti yọ iṣowo ti a ko tii wa kuro |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 

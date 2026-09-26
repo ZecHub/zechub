@@ -43,9 +43,9 @@ A Sapling payment disclosure does not have to reveal a sender address. Spend aut
 
 | Mbinu | Matumizi bora | Inafunua nini | Ufikiaji unaoendelea? | Je, imeunganishwa kidijitali na malipo? |
 | --- | --- | --- | --- | --- |
-| Kitambulisho cha Muamala | Kuhakikisha kwamba muamala ulichimbwa | Data ya muamala wa umma na uthibitisho | Hapana | Ndiyo, lakini maelezo ya malipo yaliyolindwa yanabaki kufichwa |
-| Picha ya skrini au risiti | Utunzaji usio rasmi wa kumbukumbu | Chochote mtumaji anachochagua kuonyesha | Hapana | Hapana; picha inaweza kuhaririwa |
-| Ufichuzi wa malipo | Kuthibitisha maelezo yaliyochaguliwa ya malipo moja | Matokeo ya miamala yaliyochaguliwa na uthibitisho wowote wa mtumaji au wa kupinga uliojumuishwa | Hapana, lakini uthibitisho ulioshirikiwa unaweza kunakiliwa | Ndiyo |
+| Transaction ID | Kuhakikisha kwamba muamala ulichimbwa | Data ya muamala wa umma na uthibitisho | Hapana | Ndiyo, lakini maelezo ya malipo yaliyolindwa yanabaki kufichwa |
+| Screenshot or receipt | Utunzaji usio rasmi wa kumbukumbu | Chochote mtumaji anachochagua kuonyesha | Hapana | Hapana; picha inaweza kuhaririwa |
+| Payment disclosure | Kuthibitisha maelezo yaliyochaguliwa ya malipo moja | Matokeo ya miamala yaliyochaguliwa na uthibitisho wowote wa mtumaji au wa kupinga uliojumuishwa | Hapana, lakini uthibitisho ulioshirikiwa unaweza kunakiliwa | Ndiyo |
 | Incoming Viewing Key | Kufuatilia malipo yanayopokelewa na akaunti | Shughuli inayoingia inayofunikwa na ufunguo | Ndiyo | Huondoa usimbaji fiche wa malipo yanayoingia yanayolingana |
 | Full Viewing Key | Uhasibu au ukaguzi wa akaunti | Shughuli zinazoingia na zinazotoka, kiasi, memo, na salio zinazofunikwa na ufunguo | Ndiyo | Huondoa usimbaji fiche wa shughuli za akaunti zinazolingana |
 

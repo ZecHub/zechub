@@ -35,11 +35,11 @@ Sprout is the baseline that every later change builds on. When the network-upgra
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
 | zk-SNARK | Ẹ̀rí àìmọ̀ tí ó fi hàn pé ìṣòwò kan wúlò láìsí fífi olùránṣẹ́, olùgbà, tàbí iye tí ó fi hàn |
-| Adágún adágún tí a dáàbò bò | Apá ìkọ̀kọ̀ ti Zcash níbi tí a ti fi owó àti àwọn ayẹyẹ pamọ́ sí. Adágún Sprout ni àkọ́kọ́ |
-| àdírẹ́sì z àti àdírẹ́sì t | Àdírẹ́sì z ni a fi ààbò bo, àwọn àkọsílẹ̀ náà sì jẹ́ àṣírí. Àdírẹ́sì t náà ṣe kedere, ó sì fi àwọn àlàyé hàn lórí ledger gbogbogbòò |
-| Ayẹyẹ náà | Ètò ẹgbẹ́ olókìkí ti ọdún 2016 tí ó mú àwọn ìlànà gbogbogbòò Sprout's jáde, lẹ́yìn náà ó kó àwọn ìdọ̀tí olóró náà kúrò |
-| Egbin oloro | Àwọn kókó pàtàkì láti inú ayẹyẹ náà tí a ní láti parun kí a má baà lè ṣe àgbélébùú ZEC |
-| Ẹ̀ka ìfohùnṣọ̀kan id 0 | Àmì fún àwọn òfin Sprout's, tí ó túmọ̀ sí ìpìlẹ̀ ṣáájú àtúnṣe nẹ́tíwọ́ọ̀kì èyíkéyìí |
+| Shielded pool | Apá ìkọ̀kọ̀ ti Zcash níbi tí a ti fi owó àti àwọn ayẹyẹ pamọ́ sí. Adágún Sprout ni àkọ́kọ́ |
+| z-address and t-address | Àdírẹ́sì z ni a fi ààbò bo, àwọn àkọsílẹ̀ náà sì jẹ́ àṣírí. Àdírẹ́sì t náà ṣe kedere, ó sì fi àwọn àlàyé hàn lórí ledger gbogbogbòò |
+| The Ceremony | Ètò ẹgbẹ́ olókìkí ti ọdún 2016 tí ó mú àwọn ìlànà gbogbogbòò Sprout's jáde, lẹ́yìn náà ó kó àwọn ìdọ̀tí olóró náà kúrò |
+| Toxic waste | Àwọn kókó pàtàkì láti inú ayẹyẹ náà tí a ní láti parun kí a má baà lè ṣe àgbélébùú ZEC |
+| Consensus branch id 0 | Àmì fún àwọn òfin Sprout's, tí ó túmọ̀ sí ìpìlẹ̀ ṣáájú àtúnṣe nẹ́tíwọ́ọ̀kì èyíkéyìí |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 

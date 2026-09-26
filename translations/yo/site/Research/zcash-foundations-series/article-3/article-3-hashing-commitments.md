@@ -142,14 +142,14 @@ A ṣe simplified lati jẹ ki awọn nkan mọ. `v` àti `r` are encoded and wh
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Iṣẹ́ Hash** | Ó fọ́ gbogbo ìwífún sínú ìka ọwọ́ kúkúrú tí a ti yípadà (ìwé) |
-| **Ìròyìn** | Ìtẹ̀jáde ìtẹ̀jáde iṣẹ́ hash kan |
-| **Idilọwọ aworan iwaju** | Kò le yí ìṣàyẹ̀wò padà sí ìtẹ̀síwájú rẹ̀ (ọ̀nà kan ṣoṣo) |
-| **Idilọwọ ikọlu** | Kò le rí àwọn ìtẹ̀síwájú méjì pẹ̀lú ìṣàfihàn kan náà |
-| **Ipa òjò dídì** | Àyípadà ìṣírò kékeré kan yí ìṣàyẹ̀wò padà pátápátá |
-| **Ìfaramọ́** | Ti iye kan pa nisinsinyi, ṣafihan nigbamii, ko le purọ nipa rẹ |
-| **Okùnfà ìfọ́jú (`r`)** | Nọ́mbà tuntun tí a kò lè rí tí ó ń fi ìfaramọ́ pamọ́ |
-| **Hash ti o ni ore-ZK** | Hash tí a fi ìṣirò pápá kọ́, nítorí náà ó rọrùn láti fi hàn |
+| **Hash function** | Ó fọ́ gbogbo ìwífún sínú ìka ọwọ́ kúkúrú tí a ti yípadà (ìwé) |
+| **Digest** | Ìtẹ̀jáde ìtẹ̀jáde iṣẹ́ hash kan |
+| **Preimage resistance** | Kò le yí ìṣàyẹ̀wò padà sí ìtẹ̀síwájú rẹ̀ (ọ̀nà kan ṣoṣo) |
+| **Collision resistance** | Kò le rí àwọn ìtẹ̀síwájú méjì pẹ̀lú ìṣàfihàn kan náà |
+| **Avalanche effect** | Àyípadà ìṣírò kékeré kan yí ìṣàyẹ̀wò padà pátápátá |
+| **Commitment** | Ti iye kan pa nisinsinyi, ṣafihan nigbamii, ko le purọ nipa rẹ |
+| **Blinding factor (`r`)** | Nọ́mbà tuntun tí a kò lè rí tí ó ń fi ìfaramọ́ pamọ́ |
+| **ZK-friendly hash** | Hash tí a fi ìṣirò pápá kọ́, nítorí náà ó rọrùn láti fi hàn |
 
 ---
 

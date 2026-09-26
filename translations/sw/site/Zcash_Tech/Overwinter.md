@@ -44,12 +44,12 @@ Overwinter ilikuwa ya kwanza Zcash mtandao kuboresha baada ya Oktoba 2016 mainne
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| Uboreshaji wa mtandao (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
-| Kitambulisho cha tawi la makubaliano | Kitambulisho kifupi kinachotaja seti ya sasa ya sheria za makubaliano |
-| Urefu wa uanzishaji | Kizuizi ambacho sheria mpya za uboreshaji wa mtandao huanza kutumika |
-| Ulinzi wa kucheza tena | Sheria inayozuia muamala halali kwenye mnyororo mmoja kutumiwa tena kwenye mwingine |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Consensus branch id | Kitambulisho kifupi kinachotaja seti ya sasa ya sheria za makubaliano |
+| Activation height | Kizuizi ambacho sheria mpya za uboreshaji wa mtandao huanza kutumika |
+| Replay protection | Sheria inayozuia muamala halali kwenye mnyororo mmoja kutumiwa tena kwenye mwingine |
 | Mempool | Dimbwi la miamala ambayo imetangazwa lakini bado haijachimbwa kwenye kizuizi |
-| Muda wa muamala kuisha | Urefu wa kizuizi cha kumalizika muda ambao baada ya muamala ambao haujachimbwa hupunguzwa |
+| Transaction expiry | Urefu wa kizuizi cha kumalizika muda ambao baada ya muamala ambao haujachimbwa hupunguzwa |
 
 ## FAQs
 

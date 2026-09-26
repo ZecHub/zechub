@@ -159,15 +159,15 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| **Bwawa la kuogelea lenye ngao** | Hali ya faragha ya Zcash ambapo kiasi na vyama vimefichwa |
-| **Ushahidi wa kutojua** | Uthibitisho kwamba kauli iliyofichwa ni halali, bila kufichua kitu kingine chochote |
-| **Mzunguko** | Seti isiyobadilika ya masharti ya hesabu ambayo muamala halali lazima utimize |
-| **Kikwazo** | Hali moja (mlinganyo) ndani ya saketi |
-| **Shahidi** | Thamani za siri zinazokidhi vikwazo |
-| **Utulivu** | Dhamana kwamba taarifa za kweli pekee ndizo zinaweza kutoa uthibitisho halali |
-| **Pengo la utimamu** | Kizuizi kinachokosekana kinachoruhusu taarifa za uongo kupita |
-| **Imebanwa kidogo** | Mzunguko usio na hali iliyohitajika, mzizi wa mdudu wa Orchard |
-| **Inaonekana / Haionekani** | Kama unyonyaji ungeacha ushahidi katika ledger la umma |
+| **Shielded pool** | Hali ya faragha ya Zcash ambapo kiasi na vyama vimefichwa |
+| **Zero-knowledge proof** | Uthibitisho kwamba kauli iliyofichwa ni halali, bila kufichua kitu kingine chochote |
+| **Circuit** | Seti isiyobadilika ya masharti ya hesabu ambayo muamala halali lazima utimize |
+| **Constraint** | Hali moja (mlinganyo) ndani ya saketi |
+| **Witness** | Thamani za siri zinazokidhi vikwazo |
+| **Soundness** | Dhamana kwamba taarifa za kweli pekee ndizo zinaweza kutoa uthibitisho halali |
+| **Soundness gap** | Kizuizi kinachokosekana kinachoruhusu taarifa za uongo kupita |
+| **Under-constrained** | Mzunguko usio na hali iliyohitajika, mzizi wa mdudu wa Orchard |
+| **Detectable / undetectable** | Kama unyonyaji ungeacha ushahidi katika ledger la umma |
 
 ---
 

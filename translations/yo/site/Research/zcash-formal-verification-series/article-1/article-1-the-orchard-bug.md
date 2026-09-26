@@ -159,15 +159,15 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Adágún omi tí a fi ààbò pamọ́** | Ipo ikọkọ ti Zcash nibiti a ti fi awọn iye ati awọn ayẹyẹ pamọ |
-| **Ẹ̀rí ìmọ̀ òdo** | Ẹ̀rí pé gbólóhùn ìkọ̀kọ̀ wúlò, tí kò fi ohunkóhun mìíràn hàn |
-| **Àgbègbè** | Àkójọ àwọn ipò ìṣirò tí a ti ṣètò tẹ́lẹ̀ tí ìṣòwò tó wúlò gbọ́dọ̀ ní |
-| **Ìdíwọ́** | Ipo kan (idogba) ninu Circuit naa |
-| **Ẹlẹ́rìí** | Àwọn ìníyelórí ìkọ̀kọ̀ tí ó bá àwọn ìdíwọ́ mu |
-| **Alaafia** | Ìdánilójú pé àwọn gbólóhùn òtítọ́ nìkan ló lè mú ẹ̀rí tó wúlò wá |
-| **Ààlà ìlera** | Ìdènà tí ó sọnù tí ó jẹ́ kí àwọn gbólóhùn èké kọjá |
-| **Kò sí ìdíwọ́** | Circuit kan ti o padanu ipo ti o nilo, gbongbo kokoro Orchard |
-| **A le ṣe àwárí / a ko le ṣe àwárí** | Bóyá ìfìyàjẹni yóò fi ẹ̀rí sílẹ̀ nínú ledger gbogbogbòò |
+| **Shielded pool** | Ipo ikọkọ ti Zcash nibiti a ti fi awọn iye ati awọn ayẹyẹ pamọ |
+| **Zero-knowledge proof** | Ẹ̀rí pé gbólóhùn ìkọ̀kọ̀ wúlò, tí kò fi ohunkóhun mìíràn hàn |
+| **Circuit** | Àkójọ àwọn ipò ìṣirò tí a ti ṣètò tẹ́lẹ̀ tí ìṣòwò tó wúlò gbọ́dọ̀ ní |
+| **Constraint** | Ipo kan (idogba) ninu Circuit naa |
+| **Witness** | Àwọn ìníyelórí ìkọ̀kọ̀ tí ó bá àwọn ìdíwọ́ mu |
+| **Soundness** | Ìdánilójú pé àwọn gbólóhùn òtítọ́ nìkan ló lè mú ẹ̀rí tó wúlò wá |
+| **Soundness gap** | Ìdènà tí ó sọnù tí ó jẹ́ kí àwọn gbólóhùn èké kọjá |
+| **Under-constrained** | Circuit kan ti o padanu ipo ti o nilo, gbongbo kokoro Orchard |
+| **Detectable / undetectable** | Bóyá ìfìyàjẹni yóò fi ẹ̀rí sílẹ̀ nínú ledger gbogbogbòò |
 
 ---
 

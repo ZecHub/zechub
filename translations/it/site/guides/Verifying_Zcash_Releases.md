@@ -176,13 +176,13 @@ Il Subject Alternative Name è l'identità. Indica il repository, il file esatto
 
 | Campo | Valore per v6.3.0 |
 |---|---|
-| Emittente OIDC | `https://token.actions.githubusercontent.com` |
-| Repository sorgente | `https://github.com/ZcashFoundation/zebra` |
-| Commit di build | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| Ambiente runner | `github-hosted` |
-| Esecuzione workflow | `.../actions/runs/31424510487/attempts/1` |
-| Visibilità del repository | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Ognuno di questi elementi è verificabile. L'hash del commit dovrebbe corrispondere al tag nel repository; l'esecuzione del workflow dovrebbe esistere ed essere pubblica.
 
@@ -219,9 +219,9 @@ Il bundle contiene una voce Rekor che prova che la firma è stata pubblicata in 
 
 | Campo | Valore |
 |---|---|
-| Indice log Rekor | `2412071838` |
-| Tipo di voce | `hashedrekord v0.0.1` |
-| Integrata il | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 È questo che rende rilevabile un uso improprio silenzioso delle chiavi. Una firma che non è mai comparsa nel log, o che vi è comparsa in un momento implausibile, è un segnale su cui vale la pena agire. Confronta il tempo di integrazione con l'annuncio della release.
 
@@ -427,10 +427,10 @@ Un fallimento della firma è più grave di un fallimento del checksum. Una discr
 
 | Progetto | Release pubblicate su | Metodo | Da dove proviene la chiave |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + bundle Sigstore | Nessuna chiave: identità CI tramite GitHub OIDC |
-| **Zallet** | `github.com/zcash/zallet/releases` | GPG `.asc` distaccato, provenance SLSA, SBOM | `apt.z.cash/zodl.asc` — primaria `0338 34DD…58E2 6AB1`, sottochiave di firma `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Nessuna chiave: identità CI tramite GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — primaria `0338 34DD…58E2 6AB1`, sottochiave di firma `1FE9 9324…23F0 617F` |
 | **zcashd** | *ritirato* | — | Arrestato al blocco 3,417,100 il 2026-07-18. Non installarlo. |
-| **Zodl** (ex Zashi) | App Store / Google Play; `zodl-inc` su GitHub | Firma dello store; binari Android standalone firmati con GPG | Chiave ZODL secondo la dichiarazione di transizione |
+| **Zodl** (ex Zashi) | App Store / Google Play; `zodl-inc` su GitHub | Store signing; standalone Android binaries GPG-signed | Chiave ZODL secondo la dichiarazione di transizione |
 
 > **Nota sul nome:** Zashi è stato rinominato in **Zodl** nel 2026, prima su App Store e poi su Google Play. Le guide più vecchie che si riferiscono a "Zashi" descrivono la stessa linea di wallet.
 

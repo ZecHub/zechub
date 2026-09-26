@@ -41,12 +41,12 @@ Blossom bụ nke atọ netwọk nkwalite Zcash. Ọ sochiri Overwinter na Saplin
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| Oghere ebe a na-elekwasị anya na-egbochi | Oge netwọk ahụ na-achọ n'etiti otu ngọngọ na nke ọzọ |
-| Ụgwọ ọrụ ngọngọ | ZEC ọhụrụ ahụ mepụtara ma kwụọ ụgwọ ka a na-egwupụta blọk ọ bụla |
-| Oge ọkara nkewa | Blọk ole gafere n'etiti ọkara nke ụgwọ ọrụ blọk ọ bụla |
-| Njikọ ngalaba nkwekọrịta | Akara nke na-egosi usoro netwọk nke na-achịkwa node ma ọ bụ azụmahịa na-eso |
-| Mgbanwe nkwekọrịta abụọ | Mgbanwe iwu nke nodu ọ bụla ga-agbaso iji nọrọ na netwọk ahụ |
-| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Block target spacing | Oge netwọk ahụ na-achọ n'etiti otu ngọngọ na nke ọzọ |
+| Block reward | ZEC ọhụrụ ahụ mepụtara ma kwụọ ụgwọ ka a na-egwupụta blọk ọ bụla |
+| Halving interval | Blọk ole gafere n'etiti ọkara nke ụgwọ ọrụ blọk ọ bụla |
+| Consensus branch id | Akara nke na-egosi usoro netwọk nke na-achịkwa node ma ọ bụ azụmahịa na-eso |
+| Bilateral consensus change | Mgbanwe iwu nke nodu ọ bụla ga-agbaso iji nọrọ na netwọk ahụ |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
 
 ## Ajụjụ ndị a na-ajụkarị
 

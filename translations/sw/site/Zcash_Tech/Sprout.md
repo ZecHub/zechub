@@ -35,11 +35,11 @@ Sprout ni msingi kwamba kila mabadiliko ya baadaye hujenga juu. Wakati wa mtanda
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
 | zk-SNARK | Uthibitisho usio na ufahamu unaoonyesha kuwa muamala ni halali bila kufichua mtumaji, mpokeaji, au kiasi |
-| Bwawa la kuogelea lililolindwa | Upande wa faragha wa Zcash ambapo kiasi na sherehe zimefichwa. Bwawa la Sprout lilikuwa la kwanza |
-| anwani ya z na anwani ya t | Anwani ya z inalindwa na huweka maelezo kuwa ya faragha. Anwani ya t ni wazi na inaonyesha maelezo kwenye ledger ya umma |
-| Sherehe | Muundo wa vyama vingi wa 2016 uliozalisha vigezo vya umma Sprout's na kisha kutupa taka zenye sumu |
-| Taka zenye sumu | Sehemu muhimu za siri kutoka kwa Sherehe ambazo zilibidi ziharibiwe ili ZEC isiweze kughushiwa |
-| Kitambulisho cha tawi la makubaliano 0 | Lebo ya sheria Sprout's, ikimaanisha msingi kabla ya uboreshaji wowote wa mtandao |
+| Shielded pool | Upande wa faragha wa Zcash ambapo kiasi na sherehe zimefichwa. Bwawa la Sprout lilikuwa la kwanza |
+| z-address and t-address | Anwani ya z inalindwa na huweka maelezo kuwa ya faragha. Anwani ya t ni wazi na inaonyesha maelezo kwenye ledger ya umma |
+| The Ceremony | Muundo wa vyama vingi wa 2016 uliozalisha vigezo vya umma Sprout's na kisha kutupa taka zenye sumu |
+| Toxic waste | Sehemu muhimu za siri kutoka kwa Sherehe ambazo zilibidi ziharibiwe ili ZEC isiweze kughushiwa |
+| Consensus branch id 0 | Lebo ya sheria Sprout's, ikimaanisha msingi kabla ya uboreshaji wowote wa mtandao |
 
 ## FAQs
 

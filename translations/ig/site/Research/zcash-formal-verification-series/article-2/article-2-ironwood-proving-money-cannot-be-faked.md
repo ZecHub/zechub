@@ -148,15 +148,15 @@ We simplified for clarity. The real Lean development is far more detailed than t
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
 | **Ironwood** | Ọdọ mmiri ọhụrụ Zcash's nke e ji ihe nchebe kpuchie (2026), nke na-anọchi ọdọ mmiri Orchard nke nwere ntụpọ |
-| **Iguzozi n'etiti ihe dị iche iche** | Ọdọ mmiri ahụ anaghị akwụ ụgwọ karịa ka ọ na-akwụ n'ihu ọha na eze |
-| **Ime ihe ọmụma** | Ihe akaebe dị irè chọrọ ka onye akaebe jide ezigbo onye akaebe |
-| **Ihe na-ewepụta ihe** | Usoro nke na-adọpụ onye akaebe ahụ n'ime onye akaebe ọ bụla na-eme ka mmadụ kwenye |
+| **Balance integrity** | Ọdọ mmiri ahụ anaghị akwụ ụgwọ karịa ka ọ na-akwụ n'ihu ọha na eze |
+| **Knowledge soundness** | Ihe akaebe dị irè chọrọ ka onye akaebe jide ezigbo onye akaebe |
+| **Extractor** | Usoro nke na-adọpụ onye akaebe ahụ n'ime onye akaebe ọ bụla na-eme ka mmadụ kwenye |
 | **Lean** | Onye enyemaka akaebe ejiri igwe lelee nkwenye ahụ |
 | **ValidLedger** | Ụdị nkwekọrịta nkịtị na-achịkwa echiche ndị ahụ |
-| **Mkpisiaka** | Ókè dị n'etiti mgbakọ na mwepụ a nwapụtara na ngwanrọ Rust na-agba ọsọ |
-| **Dịka echiche ndị e kwuru** | Ihe akaebe ahụ na-ejide echiche nzuzo akpọrọ aha ya |
-| **Ụgbọala ntụgharị** | Iwu na-egbochi ụzọ ọpụpụ ọdọ mmiri na ebe a na-edebe ego ya |
-| **Nkọwapụta mkpuchi dị elu** | Iwuli crypto site na nkwenye iwu dịka usoro ọkọlọtọ |
+| **Fingerprint** | Ókè dị n'etiti mgbakọ na mwepụ a nwapụtara na ngwanrọ Rust na-agba ọsọ |
+| **Under stated assumptions** | Ihe akaebe ahụ na-ejide echiche nzuzo akpọrọ aha ya |
+| **Turnstile** | Iwu na-egbochi ụzọ ọpụpụ ọdọ mmiri na ebe a na-edebe ego ya |
+| **High-assurance cryptography** | Iwuli crypto site na nkwenye iwu dịka usoro ọkọlọtọ |
 
 ---
 

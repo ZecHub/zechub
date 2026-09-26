@@ -48,12 +48,12 @@ Pamoja na mabadiliko ya fedha, Canopy alikuwa ndogo mbili ZIPs kiufundi. [ZIP 21
 
 | Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-| Zawadi ya waanzilishi | Mfumo wa awali wa ufadhili uliolipia maendeleo ya mapema Zcash, uliopangwa kuisha katika nusu ya kwanza ya mwaka |
-| Mfuko wa Maendeleo | Sehemu ya asilimia 20 ya kila zawadi ya block ambayo Canopy iliipeleka kwenye maendeleo, ikiendelea hadi nusu ya pili ya mzunguko |
-| Zawadi ya kuzuia (ruzuku) | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
-| Kupunguza nusu | Tukio lililopangwa ambapo zawadi ya kuzuia hukatwa katikati |
-| Mtiririko wa ufadhili | Utaratibu wa makubaliano (ZIP 207) unaoelekeza sehemu ya ruzuku ya block kwa anwani zilizoainishwa za wapokeaji |
-| Bwawa Sprout la kuchipua | Bwawa la awali Zcash's lililolindwa, ambalo Canopy iliacha kupokea thamani mpya ndani yake |
+| Founders reward | Mfumo wa awali wa ufadhili uliolipia maendeleo ya mapema Zcash, uliopangwa kuisha katika nusu ya kwanza ya mwaka |
+| Development Fund | Sehemu ya asilimia 20 ya kila zawadi ya block ambayo Canopy iliipeleka kwenye maendeleo, ikiendelea hadi nusu ya pili ya mzunguko |
+| Block reward (subsidy) | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
+| Halving | Tukio lililopangwa ambapo zawadi ya kuzuia hukatwa katikati |
+| Funding stream | Utaratibu wa makubaliano (ZIP 207) unaoelekeza sehemu ya ruzuku ya block kwa anwani zilizoainishwa za wapokeaji |
+| Sprout pool | Bwawa la awali Zcash's lililolindwa, ambalo Canopy iliacha kupokea thamani mpya ndani yake |
 
 ## FAQs
 

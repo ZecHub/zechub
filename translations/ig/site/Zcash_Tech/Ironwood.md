@@ -74,12 +74,12 @@ Wallets and node software handle most of this automatically, but the practical s
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| Ọdọ mmiri echebere echebe | Nchịkọta ego nke ego na ndị nwe ya zoro ezo site na nzuzo efu |
-| Ahụhụ na-adị mma | Njehie nke na-ekwe ka azụmahịa na-ezighi ezi gafere nyocha akaebe dị ka a ga-asị na ọ dị irè |
+| Shielded pool | Nchịkọta ego nke ego na ndị nwe ya zoro ezo site na nzuzo efu |
+| Soundness bug | Njehie nke na-ekwe ka azụmahịa na-ezighi ezi gafere nyocha akaebe dị ka a ga-asị na ọ dị irè |
 | Turnstile | Ebe nlele ọha nke na-agụta uru na-agagharị n'etiti ọdọ mmiri ka ọkọnọ ahụ wee nọgide na-enyocha ya |
-| Mefuo naanị | Ọdọ mmiri ị nwere ike iji, mana ị gaghị etinye uru ọhụrụ na ya |
-| Mmelite netwọk (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
-| Ihe ndetu a na-agbake na kwantum | E mere usoro ndetu ka e wee nweta ego ma ọ bụrụ na kọmputa quantum emebie ihe ndekọ ego nke oge a |
+| Spend-only | Ọdọ mmiri ị nwere ike iji, mana ị gaghị etinye uru ọhụrụ na ya |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Quantum-recoverable note | E mere usoro ndetu ka e wee nweta ego ma ọ bụrụ na kọmputa quantum emebie ihe ndekọ ego nke oge a |
 
 ## Ajụjụ ndị a na-ajụkarị
 

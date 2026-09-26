@@ -137,14 +137,14 @@ To keep this readable we simplified. Real specifications are written in precise 
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Nkwenye iwu** | Na-egosi, n'ụzọ mgbakọ na mwepụ, na sistemụ na-emezu nkọwapụta maka ikpe niile |
-| **Nkọwapụta** | Nkọwa zuru oke nke ihe "omume ziri ezi" pụtara |
-| **Sistemụ** | Mmemme, sekit, ma ọ bụ usoro a na-enyocha n'ezie |
-| **Ihe akaebe** | Usoro dị oke mma nke usoro ezi uche dị na ya nke na-eme ka mkpesa maka ikpe niile dị |
-| **Onye enyemaka akaebe / ihe akaebe nke ozizi** | Ngwanrọ (Lean, Rocq, Isabelle) nke na-enyocha nzọụkwụ ọ bụla nke ihe akaebe |
-| **Enyochala igwe** | Kọmputa kwadoro ya site na nzọụkwụ site na nzọụkwụ, ọ bụghị naanị site na ọgụgụ mmadụ |
-| **Mmalite** | Usoro nnwale: eziokwu na mbido, nzọụkwụ ọ bụla na-ebuga ya na nke ọzọ |
-| **Echiche** | Ọnọdụ ihe akaebe ahụ dabere na ya; ọ bụrụ na ọ bụ ụgha, nkwa ahụ nwere ike ọ gaghị ejide ya |
+| **Formal verification** | Na-egosi, n'ụzọ mgbakọ na mwepụ, na sistemụ na-emezu nkọwapụta maka ikpe niile |
+| **Specification** | Nkọwa zuru oke nke ihe "omume ziri ezi" pụtara |
+| **System** | Mmemme, sekit, ma ọ bụ usoro a na-enyocha n'ezie |
+| **Proof** | Usoro dị oke mma nke usoro ezi uche dị na ya nke na-eme ka mkpesa maka ikpe niile dị |
+| **Proof assistant / theorem prover** | Ngwanrọ (Lean, Rocq, Isabelle) nke na-enyocha nzọụkwụ ọ bụla nke ihe akaebe |
+| **Machine-checked** | Kọmputa kwadoro ya site na nzọụkwụ site na nzọụkwụ, ọ bụghị naanị site na ọgụgụ mmadụ |
+| **Induction** | Usoro nnwale: eziokwu na mbido, nzọụkwụ ọ bụla na-ebuga ya na nke ọzọ |
+| **Assumption** | Ọnọdụ ihe akaebe ahụ dabere na ya; ọ bụrụ na ọ bụ ụgha, nkwa ahụ nwere ike ọ gaghị ejide ya |
 
 ---
 

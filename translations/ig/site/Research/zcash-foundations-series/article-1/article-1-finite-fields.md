@@ -186,12 +186,12 @@ Iji nọrọ ọhụrụ-enyi na enyi anyị simplified a ole na ole ezi ihe. `F
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Mgbakọ Modular** | Mgbakọ na mwepụ nke na-agbakọta mgbe o ruru uru a kapịrị ọnụ, dị ka elekere |
+| **Modular arithmetic** | Mgbakọ na mwepụ nke na-agbakọta mgbe o ruru uru a kapịrị ọnụ, dị ka elekere |
 | **mod p** | "Kewaa site na `p` ma debe ihe fọdụrụ" |
-| **Ubi** | Sistemụ ọnụọgụgụ ebe ịtinye, wepụ, mụbaa, ma kewaa ọrụ niile |
-| **Ogige zuru oke `F_p`** | Ọnụọgụ ndị ahụ `0..p-1` na mgbakọ na mwepụ emee mod a praịm `p` |
-| **Agbanyeghị (n'otu aka)** | Ihe ahụ `a^(-1)` na `a x a^(-1) = 1`"na-ekewa site na `a`"pụtara ịmụba site na ya |
-| **Enweghị onye nkewa** | Uru abụọ na-abụghị efu nke ngwaahịa ha bụ efu; ihe na-emebi modulu mejupụtara |
+| **Field** | Sistemụ ọnụọgụgụ ebe ịtinye, wepụ, mụbaa, ma kewaa ọrụ niile |
+| **Finite field `F_p`** | Ọnụọgụ ndị ahụ `0..p-1` na mgbakọ na mwepụ emee mod a praịm `p` |
+| **Inverse (reciprocal)** | Ihe ahụ `a^(-1)` na `a x a^(-1) = 1`"na-ekewa site na `a`"pụtara ịmụba site na ya |
+| **Zero divisor** | Uru abụọ na-abụghị efu nke ngwaahịa ha bụ efu; ihe na-emebi modulu mejupụtara |
 | **Prime** | Ọnụọgụgụ dum karịrị 1 na-enweghị ihe ọ bụla ma e wezụga 1 na onwe ya |
 
 ---

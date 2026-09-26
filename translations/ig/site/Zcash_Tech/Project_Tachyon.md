@@ -95,13 +95,13 @@ A na-ahụ ọrụ ndị metụtara ya. [Zakura](https://zechub.wiki/zcash-tech/
 
 | Oge okwu | Ihe ọ pụtara |
 |---|---|
-| Nkọwapụta nnwale | Ịnwa ịchọpụta azụmahịa otu otu iji chọta ndị e zigara gị |
-| Nkesa nzuzo n'ime otu egwu | Itinye nzuzo ịkwụ ụgwọ n'ime azụmahịa ahụ na blockchain, dịka Zcash si eme taa |
-| Ịkwụ ụgwọ n'èzí | Ịnyefe nkọwa ịkwụ ụgwọ ozugbo n'etiti onye zitere na onye nnata kama site na yinye ahụ |
-| Mmekọrịta amaghị ama | Ịchọta data yinye nke obere akpa chọrọ n'ekpugheghị data achọrọ |
-| Data na-ebu ihe akaebe (PCD) | Data nke na-agagharị na ihe akaebe nke izi ezi nke ya, ka e wee nwee ike ijikọta ma tinye ihe akaebe |
-| Nchịkọta azụmahịa echekwara | Ụzọ Tachyon si ejikọta mgbanwe steeti echekwara, na-agbanwe otu esi ekwurịta okwu ma bịanye aka na ha |
-| enweghị ike ịmata ọdịiche ledger | Enweghị ike ịkọwa ihe onwunwe nke kpuchiri azụmahịa dị iche na ibe ya |
+| Trial decryption | Ịnwa ịchọpụta azụmahịa otu otu iji chọta ndị e zigara gị |
+| In-band secret distribution | Itinye nzuzo ịkwụ ụgwọ n'ime azụmahịa ahụ na blockchain, dịka Zcash si eme taa |
+| Out-of-band payment | Ịnyefe nkọwa ịkwụ ụgwọ ozugbo n'etiti onye zitere na onye nnata kama site na yinye ahụ |
+| Oblivious synchronization | Ịchọta data yinye nke obere akpa chọrọ n'ekpugheghị data achọrọ |
+| Proof-carrying data (PCD) | Data nke na-agagharị na ihe akaebe nke izi ezi nke ya, ka e wee nwee ike ijikọta ma tinye ihe akaebe |
+| Shielded transaction aggregate | Ụzọ Tachyon si ejikọta mgbanwe steeti echekwara, na-agbanwe otu esi ekwurịta okwu ma bịanye aka na ha |
+| ledger indistinguishability | Enweghị ike ịkọwa ihe onwunwe nke kpuchiri azụmahịa dị iche na ibe ya |
 
 <br/>
 

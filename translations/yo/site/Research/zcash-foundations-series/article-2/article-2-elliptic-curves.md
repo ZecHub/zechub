@@ -185,13 +185,13 @@ A lo fọọmu Weierstrass ti o kuru (`y^2 = x^3 + ax + b`); Zcash's curves are 
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Ìtẹ̀gùn elliptical** | Àwọn ojú ìwé tó tẹ́ni lọ́rùn `y^2 = x^3 + ax + b`, pẹ̀lú "afikun" pàtàkì ti awọn aaye |
-| **Àfikún àmì** | Òfin chord-and-tangent: ìlà la àwọn ojú ìwé méjì kọjá, mú ìlù kẹta, ṣàfihàn |
-| **Tọ́ka sí àìlópin (`O`)** | “Òdo” ni ìtẹ̀ náà; fífi kún un kò yí ohunkóhun padà |
-| **Ẹ̀rọ ìṣiṣẹ́ (`G`)** | Àkójọ ìpìlẹ̀ tí àwọn iye rẹ̀ tó pọ̀ tó sì bo gbogbo àwùjọ náà nígbẹ̀yìn gbẹ́yín |
-| **Isọdipupo iwọn (`kG`)** | Fifikun `G` fún ara rẹ̀ `k` àkókò; ìrọ̀rùn síwájú, ó ṣòro láti yí padà |
+| **Elliptic curve** | Àwọn ojú ìwé tó tẹ́ni lọ́rùn `y^2 = x^3 + ax + b`, pẹ̀lú "afikun" pàtàkì ti awọn aaye |
+| **Point addition** | Òfin chord-and-tangent: ìlà la àwọn ojú ìwé méjì kọjá, mú ìlù kẹta, ṣàfihàn |
+| **Point at infinity (`O`)** | “Òdo” ni ìtẹ̀ náà; fífi kún un kò yí ohunkóhun padà |
+| **Generator (`G`)** | Àkójọ ìpìlẹ̀ tí àwọn iye rẹ̀ tó pọ̀ tó sì bo gbogbo àwùjọ náà nígbẹ̀yìn gbẹ́yín |
+| **Scalar multiplication (`kG`)** | Fifikun `G` fún ara rẹ̀ `k` àkókò; ìrọ̀rùn síwájú, ó ṣòro láti yí padà |
 | **ECDLP** | Iṣoro lile ti imularada `k` láti `kG`ipilẹ aabo; |
-| **Ìfẹ́ Pedersen** | `v.G + r.H`; àpò ìwé tí a fi èdìdì dì tí ó ń fi pamọ́, ó ń di, ó sì ń so pọ̀ mọ́ ara wọn |
+| **Pedersen commitment** | `v.G + r.H`; àpò ìwé tí a fi èdìdì dì tí ó ń fi pamọ́, ó ń di, ó sì ń so pọ̀ mọ́ ara wọn |
 
 ---
 

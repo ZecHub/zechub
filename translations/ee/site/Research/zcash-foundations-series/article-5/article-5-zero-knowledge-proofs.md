@@ -131,16 +131,16 @@ Zero-sidzedze kpeɖodziwo nye gogloƒe eye míeɖoe koŋ nɔ intuition level. M�
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| **Zero-sidzedze ƒe kpeɖodzi** | Na ame aɖe ka ɖe edzi be nya aɖe nye nyateƒe esime mèle nu bubu aɖeke ɖem fia o |
-| **Dodokpɔ / Kpeɖodzila** | Ame si wɔa kpeɖodzia / amesi léa ŋku ɖe eŋu |
-| **Bliboenyenye** | Nyateƒenyawo xɔa ame dzi ɣesiaɣi (tso lodododzikpɔla anukwaretɔ gbɔ) |
-| **Gbeɖiɖi** | Wogbea alakpanyawo (ameflulawo mate ŋu aɖu dzi o negbe to dzɔgbenyui me ko) |
-| **Ðasefo** | Nya ɣaɣla siwo wotsɔ de eme siwo na nyagbɔgblɔa nye nyateƒe |
-| **Akɔntabubu ƒe nutome sue** | Nyagbɔgblɔ si wogbugbɔ ŋlɔ abe kpeɖeŋutɔ kple dzidziɖedzi le agble si seɖoƒe li na dzi |
-| **Menye nuwɔwɔ aduadu o (Fiat-Shamir)** | Kpeɖodzi si wotu zi ɖeka si mehiã be woanɔ agbe yi megbe kple ŋgɔ o |
-| **Kpuie ko** | Kpeɖodzia le sue eye woate ŋu aɖo kpe edzi kabakaba metsɔ le nyagbɔgblɔ ƒe lolome me o |
+| **Zero-knowledge proof** | Na ame aɖe ka ɖe edzi be nya aɖe nye nyateƒe esime mèle nu bubu aɖeke ɖem fia o |
+| **Prover / Verifier** | Ame si wɔa kpeɖodzia / amesi léa ŋku ɖe eŋu |
+| **Completeness** | Nyateƒenyawo xɔa ame dzi ɣesiaɣi (tso lodododzikpɔla anukwaretɔ gbɔ) |
+| **Soundness** | Wogbea alakpanyawo (ameflulawo mate ŋu aɖu dzi o negbe to dzɔgbenyui me ko) |
+| **Witness** | Nya ɣaɣla siwo wotsɔ de eme siwo na nyagbɔgblɔa nye nyateƒe |
+| **Arithmetic circuit** | Nyagbɔgblɔ si wogbugbɔ ŋlɔ abe kpeɖeŋutɔ kple dzidziɖedzi le agble si seɖoƒe li na dzi |
+| **Non-interactive (Fiat-Shamir)** | Kpeɖodzi si wotu zi ɖeka si mehiã be woanɔ agbe yi megbe kple ŋgɔ o |
+| **Succinct** | Kpeɖodzia le sue eye woate ŋu aɖo kpe edzi kabakaba metsɔ le nyagbɔgblɔ ƒe lolome me o |
 | **zk-SNARK** | Zero-knowledge Kpuie si Mewɔa nu ɖekae o ARgument of Knowledge |
-| **Ðoɖo si dzi woka ɖo / gbeɖuɖɔ si me aɖi le** | Zi ɖeka ƒe parameter dzidzime si ƒe nya ɣaɣla susɔea wòle be woatsrɔ̃ |
+| **Trusted setup / toxic waste** | Zi ɖeka ƒe parameter dzidzime si ƒe nya ɣaɣla susɔea wòle be woatsrɔ̃ |
 
 ---
 

@@ -44,12 +44,12 @@ Overwinter nye Zcash network ƒe tɔtrɔ gbãtɔ le October 2016 mainnet ƒe dod
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Netwɔƒe ƒe ŋgɔyiyi (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
-| Nubabla ƒe alɔdze id | Dzesidenu kpui aɖe si yɔa se siwo dzi woda asi ɖo ƒe hatsotso si li fifia |
-| Dɔwɔwɔ ƒe kɔkɔme | Block si dzi network upgrade ƒe se yeyewo dze dɔwɔwɔ gɔme le |
-| Gbugbɔ ƒoƒo takpɔkpɔ | Se si xea mɔ na asitsatsa si sɔ le kɔsɔkɔsɔ ɖeka dzi be woagazãe le bubu dzi o |
-| Mempool ƒe ƒuƒoƒo | Asitsatsa siwo woɖe ɖe go gake womeɖe tome haɖe o ɖe block |
-| Asitsatsa ƒe nuwuwu | Exiration block height si megbe woɖe asi le asitsatsa si womeɖe o ŋu |
+| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Consensus branch id | Dzesidenu kpui aɖe si yɔa se siwo dzi woda asi ɖo ƒe hatsotso si li fifia |
+| Activation height | Block si dzi network upgrade ƒe se yeyewo dze dɔwɔwɔ gɔme le |
+| Replay protection | Se si xea mɔ na asitsatsa si sɔ le kɔsɔkɔsɔ ɖeka dzi be woagazãe le bubu dzi o |
+| Mempool | Asitsatsa siwo woɖe ɖe go gake womeɖe tome haɖe o ɖe block |
+| Transaction expiry | Exiration block height si megbe woɖe asi le asitsatsa si womeɖe o ŋu |
 
 ## Nyabiasewo ƒe Nyabiasewo
 

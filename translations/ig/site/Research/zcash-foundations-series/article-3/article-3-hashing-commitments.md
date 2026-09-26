@@ -142,14 +142,14 @@ Anyị mere ka ihe dị mfe iji mee ka ihe doo anya. `v` na `r` are encoded and 
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Ọrụ Hash** | Na-agweri data ọ bụla ka ọ bụrụ obere mkpịsị aka a kapịrị ọnụ (gbakọọ) |
-| **Nchịkọta** | Mkpisiaka mmepụta nke ọrụ hash |
-| **Nguzogide onyonyo mbụ** | Enweghị ike ịtụgharị nchịkọta azụ na ntinye ya (otu ụzọ) |
-| **Nguzogide nkukota** | Enweghị ike ịchọta ntinye abụọ nwere otu nchịkọta akụkọ |
-| **Mmetụta oké ifufe** | Obere mgbanwe ntinye na-agbanwe mgbanwe ahụ kpamkpam |
-| **Nkwanye ugwu** | Kpọchie uru ugbu a, kpughee ma emechaa, enweghị m ike ịgha ụgha gbasara ya |
-| **Ihe na-akpata ìsì (`r`)** | Nọmba ọhụrụ a na-enweghị usoro nke na-ezochi nkwa |
-| **Hash dị mfe maka ZK** | Hash e ji mgbakọ na mwepụ ubi rụọ, ya mere ọ dị ọnụ ala igosi |
+| **Hash function** | Na-agweri data ọ bụla ka ọ bụrụ obere mkpịsị aka a kapịrị ọnụ (gbakọọ) |
+| **Digest** | Mkpisiaka mmepụta nke ọrụ hash |
+| **Preimage resistance** | Enweghị ike ịtụgharị nchịkọta azụ na ntinye ya (otu ụzọ) |
+| **Collision resistance** | Enweghị ike ịchọta ntinye abụọ nwere otu nchịkọta akụkọ |
+| **Avalanche effect** | Obere mgbanwe ntinye na-agbanwe mgbanwe ahụ kpamkpam |
+| **Commitment** | Kpọchie uru ugbu a, kpughee ma emechaa, enweghị m ike ịgha ụgha gbasara ya |
+| **Blinding factor (`r`)** | Nọmba ọhụrụ a na-enweghị usoro nke na-ezochi nkwa |
+| **ZK-friendly hash** | Hash e ji mgbakọ na mwepụ ubi rụọ, ya mere ọ dị ọnụ ala igosi |
 
 ---
 

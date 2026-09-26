@@ -50,7 +50,7 @@ zallet rpc decoderawtransaction '"<hexstring>"'
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |-------------|--------|----------|--------------------------|
-| hexstring ƒe ka | ka | ẽ | Asitsatsa hex ka |
+| hexstring   | ka | ẽ | Asitsatsa hex ka |
 
 ---
 
@@ -62,7 +62,7 @@ zallet rpc decodescript '"<hexstring>"'
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |-------------|--------|----------|-----------------|
-| hexstring ƒe ka | ka | ẽ | Script hex |
+| hexstring   | ka | ẽ | Script hex |
 
 ---
 
@@ -75,8 +75,8 @@ zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |------------|--------|----------|---------|--------------------------------------|
 | txid | ka | ẽ |         | Asitsatsa ƒe ID |
-| nyagbɔgblɔ ƒe nyawo | xexlẽdzesi | ao | 0 | `0` = hex, non-zero = JSON nu |
-| blockhash ƒe ʋuʋu | ka | ao |         | Seɖoƒe na didi ɖe mɔxenu sia |
+| verbose    | xexlẽdzesi | ao | 0 | `0` = hex, non-zero = JSON nu |
+| blockhash  | ka | ao |         | Seɖoƒe na didi ɖe mɔxenu sia |
 
 ---
 
@@ -138,7 +138,7 @@ zallet rpc validateaddress '"<address>"'
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |-----------|--------|----------|-------------------------|
-| adrɛs | ka | ẽ | Adrɛs si me kɔ nyuie |
+| address   | ka | ẽ | Adrɛs si me kɔ nyuie |
 
 ---
 
@@ -150,9 +150,9 @@ zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |------------|--------|----------|-------------------------|
-| adrɛs | ka | ẽ | Adrɛs si me kɔ nyuie |
-| asidede agbalẽ te | ka | ẽ | Base64 ƒe asidede agbalẽ te |
-| gbedasi | ka | ẽ | Gbedasi gbãtɔ |
+| address    | ka | ẽ | Adrɛs si me kɔ nyuie |
+| signature  | ka | ẽ | Base64 ƒe asidede agbalẽ te |
+| message    | ka | ẽ | Gbedasi gbãtɔ |
 
 ---
 
@@ -174,8 +174,8 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |-------------|--------|----------|--------------------------------------|
-| nyagbe si wotsɔ toa nyagbewoe | ka | ẽ | Gakotoku ƒe nyagbegbɔgblɔ |
-| ɣeyiɣi si woatsɔ awɔ dɔe | xexlẽdzesi | ẽ | Sɛkɛnd be woana gakotokua nanɔ ʋuʋu ɖi |
+| passphrase  | ka | ẽ | Gakotoku ƒe nyagbegbɔgblɔ |
+| timeout     | xexlẽdzesi | ẽ | Sɛkɛnd be woana gakotokua nanɔ ʋuʋu ɖi |
 
 ---
 
@@ -187,7 +187,7 @@ zallet rpc z_converttex '"<transparent_address>"'
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |-----------------------|--------|----------|----------------------------|
-| adrɛs_si me kɔ nyuie | ka | ẽ | P2PKH adrɛs be woatrɔ |
+| transparent_address   | ka | ẽ | P2PKH adrɛs be woatrɔ |
 
 ---
 
@@ -199,7 +199,7 @@ zallet rpc z_exportkey '"<sapling_address>"'
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |-----------|--------|----------|--------------------------------------------------|
-| adrɛs | ka | ẽ | Sapling adrɛs si ƒe gazazã ƒe safui be woatsɔ aɖo duta |
+| address   | ka | ẽ | Sapling adrɛs si ƒe gazazã ƒe safui be woatsɔ aɖo duta |
 
 > Ele be woaʋu gakotokua. Sapling ƒe gazazã ƒe safuia koe wòɖona ɖe duta.
 
@@ -213,7 +213,7 @@ zallet rpc z_getaccount '"<account_uuid>"'
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |---------------|--------|----------|-----------------|
-| akɔnta_uuid | ka | ẽ | Akɔntabubu UUID |
+| account_uuid  | ka | ẽ | Akɔntabubu UUID |
 
 ---
 
@@ -225,9 +225,9 @@ zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |--------------------|-----------------|----------|------------------------------------------|
-| akɔntabubu | ka / xexlẽdzesi | ẽ | Akɔntabubu UUID alo ZIP-32 akɔnta ƒe xexlẽdzesi |
-| xɔla_ƒomeviwo | ƒuƒoƒo si me ka | ao | Xɔla ƒomeviwo be woade |
-| vovototodedeameme_nufiamefianu | xexlẽdzesi | ao | Diversifier ƒe dzesi tɔxɛ aɖe |
+| account            | ka / xexlẽdzesi | ẽ | Akɔntabubu UUID alo ZIP-32 akɔnta ƒe xexlẽdzesi |
+| receiver_types     | ƒuƒoƒo si me ka | ao | Xɔla ƒomeviwo be woade |
+| diversifier_index  | xexlẽdzesi | ao | Diversifier ƒe dzesi tɔxɛ aɖe |
 
 ---
 
@@ -239,8 +239,8 @@ zallet rpc z_getbalanceforaccount <account> [<minconf>]
 
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |-----------|-----------------|----------|---------|----------------------------------|
-| akɔntabubu | ka / xexlẽdzesi | ẽ |         | Akɔntabubu UUID alo ZIP-32 ƒe xexlẽdzesi |
-| minconf ƒe nyawo | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
+| account   | ka / xexlẽdzesi | ẽ |         | Akɔntabubu UUID alo ZIP-32 ƒe xexlẽdzesi |
+| minconf   | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
 
 ---
 
@@ -252,7 +252,7 @@ zallet rpc z_getbalances [<minconf>]
 
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |-----------|--------|----------|---------|---------------------------|
-| minconf ƒe nyawo | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
+| minconf   | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
 
 ---
 
@@ -264,8 +264,8 @@ zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |---------------|--------|----------|------------------------------------------|
-| akɔnta_ŋkɔ | ka | ẽ | Ŋkɔ si amegbetɔ ate ŋu axlẽ |
-| nukuwo ƒe fp | ka | ao | Ehiã ne gakotokua me nuku geɖe le |
+| account_name  | ka | ẽ | Ŋkɔ si amegbetɔ ate ŋu axlẽ |
+| seedfp        | ka | ao | Ehiã ne gakotokua me nuku geɖe le |
 
 ---
 
@@ -277,8 +277,8 @@ zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |---------------|--------|----------|---------|--------------------------------------|
-| minconf ƒe nyawo | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
-| abe alesi_le_kɔkɔme ene | xexlẽdzesi | ao |         | Nyabiase tso kɔkɔƒe sia (`-1` = aɖaŋuɖoɖo) |
+| minconf       | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
+| as_of_height  | xexlẽdzesi | ao |         | Nyabiase tso kɔkɔƒe sia (`-1` = aɖaŋuɖoɖo) |
 
 ---
 
@@ -290,7 +290,7 @@ zallet rpc z_getoperationresult ['["opid1","opid2"]']
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |--------------|-----------------|----------|------------------------------------------|
-| dɔwɔwɔ ƒe nɔnɔmetata | ƒuƒoƒo si me ka | ao | Dɔwɔwɔ ƒe IDwo (ɖe asi le wo katã ŋu na esiwo wowu enu) |
+| operationid  | ƒuƒoƒo si me ka | ao | Dɔwɔwɔ ƒe IDwo (ɖe asi le wo katã ŋu na esiwo wowu enu) |
 
 ---
 
@@ -302,7 +302,7 @@ zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |--------------|-----------------|----------|--------------------------------|
-| dɔwɔwɔ ƒe nɔnɔmetata | ƒuƒoƒo si me ka | ao | Dɔwɔwɔ ƒe IDwo (ɖe asi le wo katã ŋu) |
+| operationid  | ƒuƒoƒo si me ka | ao | Dɔwɔwɔ ƒe IDwo (ɖe asi le wo katã ŋu) |
 
 ---
 
@@ -314,7 +314,7 @@ zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |--------------------|---------|----------|---------|---------------------------------|
-| minconf ƒe nyawo | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
+| minconf            | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
 | include_watchonly | boolean | ao | alakpa | De gaƒoɖokui ɖeɖeko ƒe dadasɔwo eme |
 
 ---
@@ -327,8 +327,8 @@ zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |------------|---------|----------|---------|--------------------------------------|
-| akɔntabubu | ka | ẽ |         | Akɔntabubu UUID |
-| hex_nyatakakawo | ka | ẽ |         | Hex dutoƒo safui alo xɔname ŋɔŋlɔdzesi |
+| account    | ka | ẽ |         | Akɔntabubu UUID |
+| hex_data   | ka | ẽ |         | Hex dutoƒo safui alo xɔname ŋɔŋlɔdzesi |
 | rescan | boolean | ao | nyateƒe | Gbugbɔ scan le import megbe |
 
 ---
@@ -341,9 +341,9 @@ zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |---------------|--------|----------|----------------|------------------------------------------|
-| safui | ka | ẽ |                | Sapling keke gazazã ƒe safui |
+| key           | ka | ẽ |                | Sapling keke gazazã ƒe safui |
 | rescan | ka | ao | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
-| gɔmedzedze_ƒe kɔkɔme | xexlẽdzesi | ao | 0 | Rescan gɔmedzedze ƒe kɔkɔme |
+| start_height  | xexlẽdzesi | ao | 0 | Rescan gɔmedzedze ƒe kɔkɔme |
 
 ---
 
@@ -355,7 +355,7 @@ zallet rpc z_listaccounts [<include_addresses>]
 
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |--------------------|---------|----------|---------|------------------------------------------|
-| de_adrɛswo me | boolean | ao | nyateƒe | Trɔ adrɛswo hã na akɔnta ɖesiaɖe |
+| include_addresses  | boolean | ao | nyateƒe | Trɔ adrɛswo hã na akɔnta ɖesiaɖe |
 
 ---
 
@@ -367,7 +367,7 @@ zallet rpc z_listoperationids ['"<status>"']
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |-----------|--------|----------|--------------------------------------|
-| nɔnɔme | ka | ao | Klɔe le nɔnɔme nu (e.g. `"success"`)  |
+| status    | ka | ao | Klɔe le nɔnɔme nu (e.g. `"success"`)  |
 
 ---
 
@@ -379,11 +379,11 @@ zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |----------------|--------|----------|------------------------------|
-| akɔnta_uuid | ka | ao | Seɖoƒe li na akɔnta ɖeka |
-| gɔmedzedze_ƒe kɔkɔme | xexlẽdzesi | ao | Nusiwo katã le ete ƒe liƒo |
-| nuwuwu_kɔkɔme | xexlẽdzesi | ao | Exclusive dzigbe seɖoƒe |
+| account_uuid   | ka | ao | Seɖoƒe li na akɔnta ɖeka |
+| start_height   | xexlẽdzesi | ao | Nusiwo katã le ete ƒe liƒo |
+| end_height     | xexlẽdzesi | ao | Exclusive dzigbe seɖoƒe |
 | offset | xexlẽdzesi | ao | Skip esia geɖe ƒe emetsonuwo |
-| seɖoƒe | xexlẽdzesi | ao | Nusiwo do tso eme si sɔ gbɔ wu be woatrɔ |
+| limit          | xexlẽdzesi | ao | Nusiwo do tso eme si sɔ gbɔ wu be woatrɔ |
 
 ---
 
@@ -407,11 +407,11 @@ zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1
 
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |--------------------|-----------------|----------|---------|--------------------------------------|
-| minconf ƒe nyawo | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
-| maxconf ƒe ƒuƒoƒo | xexlẽdzesi | ao | ∞ ∞ | Kpeɖodzinya siwo sɔ gbɔ wu |
+| minconf            | xexlẽdzesi | ao | 1 | Kpeɖodzi suetɔ kekeake |
+| maxconf            | xexlẽdzesi | ao | ∞ ∞ | Kpeɖodzinya siwo sɔ gbɔ wu |
 | include_watchonly | boolean | ao | alakpa | De gaƒoɖokui ɖeɖeko ƒe |
-| adrɛswo | ƒuƒoƒo si me ka | ao |         | Filter ɖe adrɛs siawo dzi |
-| abe alesi_le_kɔkɔme ene | xexlẽdzesi | ao |         | Nyabiase tso kɔkɔƒe sia |
+| addresses          | ƒuƒoƒo si me ka | ao |         | Filter ɖe adrɛs siawo dzi |
+| as_of_height       | xexlẽdzesi | ao |         | Nyabiase tso kɔkɔƒe sia |
 
 ---
 
@@ -423,7 +423,7 @@ zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |-----------|-------|----------|-----------------------------------------------------------------------------|
-| akɔntabubuwo | ƒuƒoƒo | ẽ | Nu siwo woɖo ɖe ɖoɖo nu: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| accounts  | ƒuƒoƒo | ẽ | Nu siwo woɖo ɖe ɖoɖo nu: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
@@ -435,11 +435,11 @@ zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":
 
 | Parameter | Ƒomevi | Wobia tso esi | Default | Numeɖeɖe |
 |------------------|-----------------|----------|-----------------|--------------------------------------------------|
-| tso adrɛs gbɔ | ka | ẽ |                 | Dzɔtsoƒe ƒe adrɛs alo `"ANY_TADDR"`                  |
-| ga homewo | nu ƒe ƒuƒoƒo | ẽ |                 | Amesiwo xɔe (`address`, `amount`, le tiatia me `memo`)|
-| minconf ƒe nyawo | xexlẽdzesi | ao |                 | Kpeɖodzi suetɔ kekeake |
-| fetu si woxena | null | ao |                 | Ele be wòanɔ nenema `null` (ZIP-317 ɖeɖeko) |
-| ame ŋutɔ ƒe nyatakakawo_ɖoɖo | ka | ao | `"FullPrivacy"` | Ameŋunyatakakawo ŋuti ɖoɖowo ƒe ka |
+| fromaddress      | ka | ẽ |                 | Dzɔtsoƒe ƒe adrɛs alo `"ANY_TADDR"`                  |
+| amounts          | nu ƒe ƒuƒoƒo | ẽ |                 | Amesiwo xɔe (`address`, `amount`, le tiatia me `memo`)|
+| minconf          | xexlẽdzesi | ao |                 | Kpeɖodzi suetɔ kekeake |
+| fee              | null | ao |                 | Ele be wòanɔ nenema `null` (ZIP-317 ɖeɖeko) |
+| privacy_policy   | ka | ao | `"FullPrivacy"` | Ameŋunyatakakawo ŋuti ɖoɖowo ƒe ka |
 
 ---
 
@@ -451,12 +451,12 @@ zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [n
 
 | Parameter | Ƒomevi | Wobia tso esi | Numeɖeɖe |
 |------------------|--------|----------|--------------------------------------------------|
-| tso adrɛs gbɔ | ka | ẽ | Adrɛs alo akɔnta si me kɔ UUID |
-| toadrɛs ƒe adrɛs | ka | ẽ | Teƒe si woɖo tae si wotsɔ akpoxɔnu ɖo |
-| fetu si woxena | null | ao | Ele be wòanɔ nenema `null`                                   |
-| seɖoƒe | xexlẽdzesi | ao | Max xexlẽme si le coinbase UTXOs be woakpɔ akpoxɔnu |
+| fromaddress      | ka | ẽ | Adrɛs alo akɔnta si me kɔ UUID |
+| toaddress        | ka | ẽ | Teƒe si woɖo tae si wotsɔ akpoxɔnu ɖo |
+| fee              | null | ao | Ele be wòanɔ nenema `null`                                   |
+| limit            | xexlẽdzesi | ao | Max xexlẽme si le coinbase UTXOs be woakpɔ akpoxɔnu |
 | memo | ka | ao | Hex-encoded memo |
-| ame ŋutɔ ƒe nyatakakawo_ɖoɖo | ka | ao | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
+| privacy_policy   | ka | ao | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
 
 ---
 

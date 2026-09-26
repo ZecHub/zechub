@@ -49,12 +49,12 @@ NU5 dii Zcash nkɔsoɔ a ɛdi kan no akyi: Overwinter, Sapling, Blossom, Heartwo
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Netwɛk no mu nkɔso (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
+| Network upgrade (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
 | Orchard | Shielded pool NU5 de bae, wɔkyekyee wɔ Halo 2 proving nhyehyɛe no so |
 | Halo 2 | Proving system a ɛwɔ Orchard akyi a enhia sɛ wɔyɛ nhyehyɛe a wotumi de ho to so |
-| Nsiesiei a wogye di | Aguadi a wɔyɛ no pɛnkoro a ɛma ɔtare bi kokoam parameters na ɛsɛ sɛ wɔde wɔn ho to so sɛ wɔbɛsɛe no |
-| Address a wɔaka abom | Address baako a ɛtumi bundle receivers ma bɛboro pool baako (ZIP 316) |
-| Adwene a ɛwɔ mu baa dwumadibea id | Nkyerɛkyerɛmu a ɛkyerɛ mmara ahorow bɛn na asɛm bi yɛ |
+| Trusted setup | Aguadi a wɔyɛ no pɛnkoro a ɛma ɔtare bi kokoam parameters na ɛsɛ sɛ wɔde wɔn ho to so sɛ wɔbɛsɛe no |
+| Unified address | Address baako a ɛtumi bundle receivers ma bɛboro pool baako (ZIP 316) |
+| Consensus branch id | Nkyerɛkyerɛmu a ɛkyerɛ mmara ahorow bɛn na asɛm bi yɛ |
 
 ## FAQ
 

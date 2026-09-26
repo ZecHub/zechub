@@ -49,12 +49,12 @@ NU5 kplɔ Zcash ƒe tɔtrɔ siwo wòwɔ do ŋgɔ ɖo: Overwinter, Sapling, Bloss
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Netwɔƒe ƒe ŋgɔyiyi (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
 | Orchard | Akpoxɔnu ta si NU5 to vɛ, si wotu ɖe Halo 2 kpeɖodziɖoɖoa dzi |
-| Halo 2 ƒe ƒuƒoƒo | Kpeɖodziɖoɖo si le megbe na Orchard si mehiã ɖoɖo si dzi woka ɖo o |
-| Ðoɖo si dzi woka ɖo | Kɔnu si wowɔna zi ɖeka si wɔa ta aɖe ƒe nya ɣaɣlawo eye ele be woaka ɖe edzi be wòatsrɔ̃ wo |
-| Adrɛs si wowɔ ɖekae | Adrɛs ɖeka si ateŋu aƒo xɔlawo nu ƒu na ta si wu ɖeka (ZIP 316) |
-| Nubabla ƒe alɔdze id | Dzesidenu si dea dzesi se siwo me asitsatsa aɖe le |
+| Halo 2 | Kpeɖodziɖoɖo si le megbe na Orchard si mehiã ɖoɖo si dzi woka ɖo o |
+| Trusted setup | Kɔnu si wowɔna zi ɖeka si wɔa ta aɖe ƒe nya ɣaɣlawo eye ele be woaka ɖe edzi be wòatsrɔ̃ wo |
+| Unified address | Adrɛs ɖeka si ateŋu aƒo xɔlawo nu ƒu na ta si wu ɖeka (ZIP 316) |
+| Consensus branch id | Dzesidenu si dea dzesi se siwo me asitsatsa aɖe le |
 
 ## Nyabiasewo ƒe Nyabiasewo
 

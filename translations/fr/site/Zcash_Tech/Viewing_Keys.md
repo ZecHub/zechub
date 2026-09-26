@@ -22,9 +22,9 @@ Il existe plusieurs types de clés, et la différence détermine l'étendue de c
 
 | Clé | Préfixe | Autorise |
 |---|---|---|
-| Clé de visualisation complète unifiée (UFVK) | `uview…` | Voit les transactions entrantes **et** sortantes de chaque pool du compte |
-| Clé de visualisation entrante unifiée (UIVK) | `uivk…` | Voit uniquement les transactions entrantes, pour chaque pool du compte |
-| Clé de visualisation complète étendue Sapling | `zxviews…` | Voit l'activité entrante et sortante Sapling pour les adresses de la clé |
+| Unified full viewing key (UFVK) | `uview…` | Voit les transactions entrantes **et** sortantes de chaque pool du compte |
+| Unified incoming viewing key (UIVK) | `uivk…` | Voit uniquement les transactions entrantes, pour chaque pool du compte |
+| Sapling extended full viewing key | `zxviews…` | Voit l'activité entrante et sortante Sapling pour les adresses de la clé |
 
 Aucune de ces clés ne peut dépenser. Toutes sont permanentes dans le sens qui compte : une clé que vous avez communiquée ne peut pas être révoquée, seulement rendue obsolète en déplaçant les fonds vers un compte dont l'autre partie ne détient pas les clés.
 

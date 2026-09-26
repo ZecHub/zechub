@@ -185,13 +185,13 @@ Ihe ole na ole e mere iji mee ka ọ dị mfe ọgụgụ.`y^2 = x^3 + ax + b`);
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Eliptik gbagọrọ agbagọ** | Isi ihe na-eju afọ `y^2 = x^3 + ax + b`, yana "mgbakwunye" pụrụ iche nke isi ihe |
-| **Mgbakwunye isi ihe** | Iwu chord-na-tangent: ahịrị gafere isi ihe abụọ, were nke atọ kụrụ, tụgharịa uche |
-| **Tụọ aka na njedebe (`O`)** | "Efu" nke usoro ahụ; itinye ya agbanweghị ihe ọ bụla |
-| **Jenerato (`G`)** | Isi ihe nke ọnụọgụgụ ya mechara kpuchie otu ahụ dum |
-| **Mmụba nha nhata (`kG`)** | Na-agbakwụnye `G` nye onwe ya `k` oge; dị mfe ịga n'ihu, siri ike ịlaghachi azụ |
+| **Elliptic curve** | Isi ihe na-eju afọ `y^2 = x^3 + ax + b`, yana "mgbakwunye" pụrụ iche nke isi ihe |
+| **Point addition** | Iwu chord-na-tangent: ahịrị gafere isi ihe abụọ, were nke atọ kụrụ, tụgharịa uche |
+| **Point at infinity (`O`)** | "Efu" nke usoro ahụ; itinye ya agbanweghị ihe ọ bụla |
+| **Generator (`G`)** | Isi ihe nke ọnụọgụgụ ya mechara kpuchie otu ahụ dum |
+| **Scalar multiplication (`kG`)** | Na-agbakwụnye `G` nye onwe ya `k` oge; dị mfe ịga n'ihu, siri ike ịlaghachi azụ |
 | **ECDLP** | Nsogbu siri ike nke ịlọghachi `k` site na `kG`ntọala nchekwa |
-| **Nkwa Pedersen** | `v.G + r.H`; envelopu e mechiri emechi nke na-ezo, na-ekekọta, ma na-agbakwụnye |
+| **Pedersen commitment** | `v.G + r.H`; envelopu e mechiri emechi nke na-ezo, na-ekekọta, ma na-agbakwụnye |
 
 ---
 

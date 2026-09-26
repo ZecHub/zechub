@@ -43,9 +43,9 @@ Apẹẹrẹ Sapling ti ZIP naa lo bọtini sifisi ti njade lati gba gbogbo abaj
 
 | Ọ̀nà | Lilo ti o dara julọ | Kini o ṣafihan | Iwọle ti nlọ lọwọ? | Ti a so mọ isanwo naa pẹlu cryptographic? |
 | --- | --- | --- | --- | --- |
-| ID Iṣowo | Ṣiṣayẹwo pe a ti wakọ iṣowo kan | Awọn data iṣowo gbogbogbo ati awọn ijẹrisi | Bẹẹkọ | Bẹẹni, ṣugbọn awọn alaye isanwo ti a daabobo wa ni pamọ |
-| Àwòrán ìfàmọ́ra tàbí ìwé ẹ̀rí ìsanwó | Ìtọ́jú àkọsílẹ̀ àìṣedéédé | Ohunkóhun tí olùránṣẹ́ bá yàn láti fi hàn | Rárá | Rárá; a lè ṣàtúnṣe àwòrán náà |
-| Ìfihàn ìsanwó | Ṣíṣe àfihàn àwọn kúlẹ̀kúlẹ̀ tí a yàn nípa ìsanwó kan | Àwọn àbájáde ìṣòwò tí a yàn àti èyíkéyìí olùránṣẹ́ tàbí ẹ̀rí ìpèníjà tí ó wà nínú rẹ̀ | Rárá, ṣùgbọ́n a lè da ẹ̀rí tí a pín kọ | Bẹ́ẹ̀ni |
+| Transaction ID | Ṣiṣayẹwo pe a ti wakọ iṣowo kan | Awọn data iṣowo gbogbogbo ati awọn ijẹrisi | Bẹẹkọ | Bẹẹni, ṣugbọn awọn alaye isanwo ti a daabobo wa ni pamọ |
+| Screenshot or receipt | Ìtọ́jú àkọsílẹ̀ àìṣedéédé | Ohunkóhun tí olùránṣẹ́ bá yàn láti fi hàn | Rárá | Rárá; a lè ṣàtúnṣe àwòrán náà |
+| Payment disclosure | Ṣíṣe àfihàn àwọn kúlẹ̀kúlẹ̀ tí a yàn nípa ìsanwó kan | Àwọn àbájáde ìṣòwò tí a yàn àti èyíkéyìí olùránṣẹ́ tàbí ẹ̀rí ìpèníjà tí ó wà nínú rẹ̀ | Rárá, ṣùgbọ́n a lè da ẹ̀rí tí a pín kọ | Bẹ́ẹ̀ni |
 | Incoming Viewing Key | Abojuto awọn sisanwo ti a gba nipasẹ akọọlẹ kan | Iṣẹ́ tí ń wọlé tí kọ́kọ́rọ́ náà bo | Bẹ́ẹ̀ni | Ó ń ṣe àtúnṣe àwọn ìsanwó tí ó báramu |
 | Full Viewing Key | Iṣiro tabi iṣatunwo akọọlẹ kan | Iṣẹ́ tí ń wọlé àti èyí tí ń jáde, iye owó, àkọsílẹ̀, àti ìwọ̀n tí kọ́kọ́rọ́ náà bo | Bẹ́ẹ̀ni | Ó ń dín ìṣiṣẹ́ àkọọ́lẹ̀ tí ó báramu kù |
 

@@ -215,12 +215,12 @@ Ugbu a, jide map ahụ. Ndị fọdụrụ n'usoro ahụ na-emejupụta ya.
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Rịba ama** | Ọnụọgụ uru nkeonwe, Zcash's yiri mkpụrụ ego ma ọ bụ akwụkwọ ego |
-| **Rịba ama nkwa** | Akara nzuzo nke na-egosi na ndetu dị adị n'ekpugheghị ya |
-| **Rịba ama osisi nkwa** | Ndekọ ọha na eze nke nkwa ndetu niile dị na mgbakwunye |
-| **Ihe na-emebi ihe** | Ihe nrịbama "e mefuru" pụrụ iche nke e bipụtara mgbe ejiri akwụkwọ ndetu mee ihe, na-egbochi mmefu okpukpu abụọ |
-| **Ihe akaebe na-enweghị ihe ọmụma** | Ihe akaebe na-egosi na okwu bụ eziokwu ebe ọ na-ekpughe ihe ọ bụla karịrị eziokwu ya |
-| **Nchekwa / Ịkwado ihe mkpuchi** | Ịkwaga ego n'ime / n'ime ụwa nkeonwe echekwara |
+| **Note** | Ọnụọgụ uru nkeonwe, Zcash's yiri mkpụrụ ego ma ọ bụ akwụkwọ ego |
+| **Note commitment** | Akara nzuzo nke na-egosi na ndetu dị adị n'ekpugheghị ya |
+| **Note commitment tree** | Ndekọ ọha na eze nke nkwa ndetu niile dị na mgbakwunye |
+| **Nullifier** | Ihe nrịbama "e mefuru" pụrụ iche nke e bipụtara mgbe ejiri akwụkwọ ndetu mee ihe, na-egbochi mmefu okpukpu abụọ |
+| **Zero-knowledge proof** | Ihe akaebe na-egosi na okwu bụ eziokwu ebe ọ na-ekpughe ihe ọ bụla karịrị eziokwu ya |
+| **Shielding / deshielding** | Ịkwaga ego n'ime / n'ime ụwa nkeonwe echekwara |
 | **Viewing key** | Igodo nke na-enye onye nwe ya ohere ịchọpụta ma gụọ ihe ndetu e degaara ha |
 
 ---

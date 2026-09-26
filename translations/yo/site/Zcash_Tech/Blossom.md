@@ -41,12 +41,12 @@ Blossom je Zcash's third network upgrade. O tẹle Overwinter ati Sapling, o si 
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| Ààyè àfojúsùn dídín | Akoko ti nẹtiwọọki naa fẹ lati wa laarin bulọọki kan ati ekeji |
-| Ẹ̀bùn dídílọ́nù | ZEC tuntun naa ṣẹda ati sanwo jade bi a ṣe n wa gbogbo bulọọki kọọkan |
-| Àárín ìdajì àkókò | Iye awọn bulọọki melo lo kọja laarin idaji ere bulọọki kọọkan |
-| ID ẹka Consensus | Àmì kan tí ó ń fi àmì sí àwọn ìlànà nẹ́tíwọ́ọ̀kì tí ó ń tẹ̀lé nọ́ńbà tàbí ìṣòwò kan |
-| Ìyípadà ìfọwọ́sowọ́pọ̀ méjì | Àyípadà òfin tí gbogbo nódù gbọ́dọ̀ gbà láti dúró lórí nẹ́tíwọ́ọ̀kì |
-| Igbesoke nẹtiwọọki (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Block target spacing | Akoko ti nẹtiwọọki naa fẹ lati wa laarin bulọọki kan ati ekeji |
+| Block reward | ZEC tuntun naa ṣẹda ati sanwo jade bi a ṣe n wa gbogbo bulọọki kọọkan |
+| Halving interval | Iye awọn bulọọki melo lo kọja laarin idaji ere bulọọki kọọkan |
+| Consensus branch id | Àmì kan tí ó ń fi àmì sí àwọn ìlànà nẹ́tíwọ́ọ̀kì tí ó ń tẹ̀lé nọ́ńbà tàbí ìṣòwò kan |
+| Bilateral consensus change | Àyípadà òfin tí gbogbo nódù gbọ́dọ̀ gbà láti dúró lórí nẹ́tíwọ́ọ̀kì |
+| Network upgrade (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 

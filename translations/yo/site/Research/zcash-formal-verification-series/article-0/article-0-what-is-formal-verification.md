@@ -137,14 +137,14 @@ láti jẹ́ kí èyí ṣeé kà, a ṣe àtúnṣe. àwọn ìlànà gidi ni w
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Ìjẹ́rìísí tó péye** | Ní ti ìṣirò, ó ń fi hàn pé ètò kan bá ìlànà mu fún gbogbo ọ̀ràn |
-| **Àlàyé pàtó** | Gbólóhùn pàtó nípa ohun tí "ìwà tó tọ́" túmọ̀ sí |
-| **Ètò** | Ètò gidi, Circuit, tàbí Protocol tí a ń ṣàyẹ̀wò |
-| **Ẹ̀rí** | Ìwọ̀n tó péye ti àwọn ìgbésẹ̀ tó bófin mu láti fi ẹ̀tọ́ múlẹ̀ fún gbogbo àwọn ọ̀ràn |
-| **Atilẹyin ẹri / ẹri ilana-ẹkọ** | Sọ́fítíwètì (Lean, Rocq, Isabelle) tí ó ń ṣàyẹ̀wò gbogbo ìgbésẹ̀ ẹ̀rí kan |
-| **A ti ṣe ayẹwo ẹrọ** | Kọ̀ǹpútà ti fi ìdí rẹ̀ múlẹ̀ ní ìgbésẹ̀-lẹ́sẹ̀, kìí ṣe nípa kíkà ènìyàn nìkan |
-| **Ìfàsẹ́yìn** | Ọ̀nà ìdánilójú: òótọ́ ní ìbẹ̀rẹ̀, ìgbésẹ̀ kọ̀ọ̀kan sì gbé e lọ sí òmíràn |
-| **Ìgbàgbọ́** | Àdéhùn kan tí ẹ̀rí náà gbẹ́kẹ̀lé; tí ó bá jẹ́ èké, ìdánilójú náà lè má dúró fún |
+| **Formal verification** | Ní ti ìṣirò, ó ń fi hàn pé ètò kan bá ìlànà mu fún gbogbo ọ̀ràn |
+| **Specification** | Gbólóhùn pàtó nípa ohun tí "ìwà tó tọ́" túmọ̀ sí |
+| **System** | Ètò gidi, Circuit, tàbí Protocol tí a ń ṣàyẹ̀wò |
+| **Proof** | Ìwọ̀n tó péye ti àwọn ìgbésẹ̀ tó bófin mu láti fi ẹ̀tọ́ múlẹ̀ fún gbogbo àwọn ọ̀ràn |
+| **Proof assistant / theorem prover** | Sọ́fítíwètì (Lean, Rocq, Isabelle) tí ó ń ṣàyẹ̀wò gbogbo ìgbésẹ̀ ẹ̀rí kan |
+| **Machine-checked** | Kọ̀ǹpútà ti fi ìdí rẹ̀ múlẹ̀ ní ìgbésẹ̀-lẹ́sẹ̀, kìí ṣe nípa kíkà ènìyàn nìkan |
+| **Induction** | Ọ̀nà ìdánilójú: òótọ́ ní ìbẹ̀rẹ̀, ìgbésẹ̀ kọ̀ọ̀kan sì gbé e lọ sí òmíràn |
+| **Assumption** | Àdéhùn kan tí ẹ̀rí náà gbẹ́kẹ̀lé; tí ó bá jẹ́ èké, ìdánilójú náà lè má dúró fún |
 
 ---
 

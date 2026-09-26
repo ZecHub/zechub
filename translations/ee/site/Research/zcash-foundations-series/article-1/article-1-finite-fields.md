@@ -186,13 +186,13 @@ Be míanɔ ame yeyewo xɔlɔ̃wɔwɔ me la, míena nu vavã ʋɛ aɖewo nɔ bɔb
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| **Akɔntabubu si wowɔna le mɔ̃ dzi** | Akɔntabubu si ƒoa xlãe ne eɖo asixɔxɔ si woɖo ɖi gbɔ vɔ, abe gaƒoɖokui |
-| **mod p** ƒe ƒuƒoƒo | "Ma ɖe eme to." `p` eye nàdzra susɔea ɖo" |
-| **Agble** | Xexlẽdzesiwo ƒe ɖoɖo si me woatsɔ akpe ɖe eŋu, aɖee le eme, adzi ɖe edzi, eye woama wo katã ƒe dɔwɔwɔ |
-| **Agble si seɖoƒe li na `F_p`** ** | Xexlẽmeawo `0..p-1` kple akɔntabubu wɔ mod a prime `p` |
-| **Inverse (nuwɔwɔ ɖe wo nɔewo ŋu)** | Nu vevi si le eme `a^(-1)` kple `a x a^(-1) = 1`; "mamã to." `a`" fia be woadzii ɖe edzi |
-| **Zero mama** | Asixɔxɔ eve siwo menye zero o siwo ƒe nuwɔna nye zero; nusi gblẽa nu le composite moduli |
-| **Nu vevitɔ kekeake** | Xexlẽme blibo si lolo wu 1 si me nu vevi aɖeke mele o negbe 1 kple eya ŋutɔ |
+| **Modular arithmetic** | Akɔntabubu si ƒoa xlãe ne eɖo asixɔxɔ si woɖo ɖi gbɔ vɔ, abe gaƒoɖokui |
+| **mod p** | "Ma ɖe eme to." `p` eye nàdzra susɔea ɖo" |
+| **Field** | Xexlẽdzesiwo ƒe ɖoɖo si me woatsɔ akpe ɖe eŋu, aɖee le eme, adzi ɖe edzi, eye woama wo katã ƒe dɔwɔwɔ |
+| **Finite field `F_p`** | Xexlẽmeawo `0..p-1` kple akɔntabubu wɔ mod a prime `p` |
+| **Inverse (reciprocal)** | Nu vevi si le eme `a^(-1)` kple `a x a^(-1) = 1`; "mamã to." `a`" fia be woadzii ɖe edzi |
+| **Zero divisor** | Asixɔxɔ eve siwo menye zero o siwo ƒe nuwɔna nye zero; nusi gblẽa nu le composite moduli |
+| **Prime** | Xexlẽme blibo si lolo wu 1 si me nu vevi aɖeke mele o negbe 1 kple eya ŋutɔ |
 
 ---
 

@@ -159,15 +159,15 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Ọdọ mmiri e ji ihe nchekwa kpuchie** | Ụdị Zcash nkeonwe ebe a na-ezobe ego na oriri |
-| **Ihe akaebe na-enweghị ihe ọmụma** | Ihe akaebe na nkwupụta zoro ezo dị irè, na-ekpughe ihe ọ bụla ọzọ |
-| **Okporo ụzọ** | Ntọala ọnọdụ mgbakọ na mwepụ edobere nke azụmahịa ziri ezi ga-emezurịrị |
-| **Mgbochi** | Otu ọnọdụ (nha nhata) n'ime sekit ahụ |
-| **Onye akaebe** | Ụkpụrụ nzuzo ndị na-emezu ihe mgbochi ndị ahụ |
-| **Ịdị mma** | Nkwa na naanị eziokwu nwere ike imepụta ihe akaebe ziri ezi |
-| **Ọdịiche dị mma** | Mmachi na-efu efu nke na-ekwe ka okwu ụgha gafere |
-| **Enweghị oke mmachi** | Sekit na-efu ọnọdụ ọ chọrọ, mgbọrọgwụ nke ahụhụ Orchard |
-| **A na-achọpụta / a naghị achọpụta ya** | Ma mmegbu ọ ga-ahapụ ihe akaebe ledger ọha |
+| **Shielded pool** | Ụdị Zcash nkeonwe ebe a na-ezobe ego na oriri |
+| **Zero-knowledge proof** | Ihe akaebe na nkwupụta zoro ezo dị irè, na-ekpughe ihe ọ bụla ọzọ |
+| **Circuit** | Ntọala ọnọdụ mgbakọ na mwepụ edobere nke azụmahịa ziri ezi ga-emezurịrị |
+| **Constraint** | Otu ọnọdụ (nha nhata) n'ime sekit ahụ |
+| **Witness** | Ụkpụrụ nzuzo ndị na-emezu ihe mgbochi ndị ahụ |
+| **Soundness** | Nkwa na naanị eziokwu nwere ike imepụta ihe akaebe ziri ezi |
+| **Soundness gap** | Mmachi na-efu efu nke na-ekwe ka okwu ụgha gafere |
+| **Under-constrained** | Sekit na-efu ọnọdụ ọ chọrọ, mgbọrọgwụ nke ahụhụ Orchard |
+| **Detectable / undetectable** | Ma mmegbu ọ ga-ahapụ ihe akaebe ledger ọha |
 
 ---
 

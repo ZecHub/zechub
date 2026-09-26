@@ -35,11 +35,11 @@ Sprout ne nnyinaso a nsakrae biara a ɛbɛba akyiri yi de si so. Bere a network-
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
 | zk-SNARK | Adanse a nimdeɛ nnim a ɛkyerɛ sɛ asɛm bi ayɛ no yɛ nokware a ɛnkyerɛ nea ɔde kɔmaa, nea ogyee, anaa sika dodow |
-| Ɔtare a wɔabɔ ho ban | Zcash kokoam fã a wɔde sika ne apontow ahorow asie. Sprout pool no ne nea edi kan |
-| z-address ne t-address | Wɔabɔ z-address ho ban na ɛma nsɛm no yɛ kokoam. T-address bi yɛ nea ɛda adi pefee na ɛkyerɛ nsɛm a ɛkɔ akyiri wɔ ɔmanfo ledger |
-| Afahyɛ no | 2016 multi-party setup a ɛmaa Sprout ɔmanfoɔ parameters na afei wɔtow awuduru nwura |
-| Nwura a awuduru wom | Kokoam key pieces a efi Ceremony no mu a na ɛsɛ sɛ wɔsɛe no sɛnea ɛbɛyɛ a wɔrentumi nyɛ ZEC |
-| Nhyiamu baa dwumadibea id 0 | Sprout mmara no label, a ɛkyerɛ sɛ mfitiaseɛ ansa na network upgrade biara |
+| Shielded pool | Zcash kokoam fã a wɔde sika ne apontow ahorow asie. Sprout pool no ne nea edi kan |
+| z-address and t-address | Wɔabɔ z-address ho ban na ɛma nsɛm no yɛ kokoam. T-address bi yɛ nea ɛda adi pefee na ɛkyerɛ nsɛm a ɛkɔ akyiri wɔ ɔmanfo ledger |
+| The Ceremony | 2016 multi-party setup a ɛmaa Sprout ɔmanfoɔ parameters na afei wɔtow awuduru nwura |
+| Toxic waste | Kokoam key pieces a efi Ceremony no mu a na ɛsɛ sɛ wɔsɛe no sɛnea ɛbɛyɛ a wɔrentumi nyɛ ZEC |
+| Consensus branch id 0 | Sprout mmara no label, a ɛkyerɛ sɛ mfitiaseɛ ansa na network upgrade biara |
 
 ## FAQ
 

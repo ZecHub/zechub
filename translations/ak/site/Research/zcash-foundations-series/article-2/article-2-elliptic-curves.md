@@ -185,13 +185,13 @@ Nneɛma kakraa bi a wɔayɛ no mmerɛw no maa eyi kɔɔ so kenkan. Yɛde **Weier
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Elliptic a ɛyɛ kurukuruwa** | Nsɛntitiriw a ɛma abotɔyam `y^2 = x^3 + ax + b`, a "ade ka ho" soronko bi a ɛfa nsɛntitiriw ho |
-| **Nsɛntitiriw a wɔde ka ho** | Chord-and-tangent mmara: line fa nsɛntitiriw abien mu, fa hit a ɛto so abiɛsa, kyerɛ |
-| **Twe adwene si baabi a enni ano (`O`)** | Curve no yɛ "zero"; sɛ wode ka ho a, ɛnsesa hwee |
-| **Nneɛma a ɛma anyinam ahoɔden (`G`)** | Base point a awiei koraa no ne multiples kata kuw no nyinaa so |
-| **Scalar dodow a ɛkɔ soro (`kG`)** | Ɔde ka ho `G` ma n’ankasa ho `k` mmere; ɛnyɛ den sɛ wobɛkɔ anim, ɛyɛ den sɛ wobɛsan akɔ akyi |
-| **ECDLP** na ɛyɛ adwuma | Ɔhaw a emu yɛ den a ɛne sɛ obi ho bɛtɔ no `k` firi `kG`; ahobammɔ fapem no |
-| **Pedersen bɔhyɛ** | `v.G + r.H`; envelope a wɔatoto mu a ɛde sie, kyekyere, na ɛka bom |
+| **Elliptic curve** | Nsɛntitiriw a ɛma abotɔyam `y^2 = x^3 + ax + b`, a "ade ka ho" soronko bi a ɛfa nsɛntitiriw ho |
+| **Point addition** | Chord-and-tangent mmara: line fa nsɛntitiriw abien mu, fa hit a ɛto so abiɛsa, kyerɛ |
+| **Point at infinity (`O`)** | Curve no yɛ "zero"; sɛ wode ka ho a, ɛnsesa hwee |
+| **Generator (`G`)** | Base point a awiei koraa no ne multiples kata kuw no nyinaa so |
+| **Scalar multiplication (`kG`)** | Ɔde ka ho `G` ma n’ankasa ho `k` mmere; ɛnyɛ den sɛ wobɛkɔ anim, ɛyɛ den sɛ wobɛsan akɔ akyi |
+| **ECDLP** | Ɔhaw a emu yɛ den a ɛne sɛ obi ho bɛtɔ no `k` firi `kG`; ahobammɔ fapem no |
+| **Pedersen commitment** | `v.G + r.H`; envelope a wɔatoto mu a ɛde sie, kyekyere, na ɛka bom |
 
 ---
 

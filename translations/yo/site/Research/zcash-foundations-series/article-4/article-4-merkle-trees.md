@@ -135,13 +135,13 @@ Simplifications, as usual. Real incremental Merkle trees track "frontier" nodes 
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Igi Merkle** | Igi hashes; ewé jẹ́ ìka ìka data, àwọn òbí hashes fún àwọn ọmọ wọn |
-| **Ewé** | Ipò ìsàlẹ̀ kan; nínú Zcash, ìfaramọ́ àkọsílẹ̀ kan |
-| **Gbòǹgbò Merkle** | Ìka ìka òkè kan ṣoṣo tó ṣàkópọ̀ gbogbo igi náà |
-| **Ọ̀nà ìjẹ́rìísí / ẹ̀rí Merkle** | Àwọn ìdènà ọmọ ìyá tí a nílò láti fi hàn pé ewé kan wà nínú igi náà |
-| **Igi Merkle ti o pọ si** | Igi Merkle kan ṣoṣo tí a fi kún un (a máa ń fi ewé kún un nígbà gbogbo) |
-| **Ìdákọ̀ró** | Gbòǹgbò Merkle tí a ná ń tọ́ka sí gẹ́gẹ́ bí "ipò igi tí mo ń fi ẹ̀sùn kàn" |
-| **Ẹ̀rọ ìparẹ́** | Àkójọpọ̀ àwọn àmì tí a fi owó pamọ́ sí ọ̀tọ̀ọ̀tọ̀ tí ó ń dí ìnáwó méjì lọ́wọ́ |
+| **Merkle tree** | Igi hashes; ewé jẹ́ ìka ìka data, àwọn òbí hashes fún àwọn ọmọ wọn |
+| **Leaf** | Ipò ìsàlẹ̀ kan; nínú Zcash, ìfaramọ́ àkọsílẹ̀ kan |
+| **Merkle root** | Ìka ìka òkè kan ṣoṣo tó ṣàkópọ̀ gbogbo igi náà |
+| **Authentication path / Merkle proof** | Àwọn ìdènà ọmọ ìyá tí a nílò láti fi hàn pé ewé kan wà nínú igi náà |
+| **Incremental Merkle tree** | Igi Merkle kan ṣoṣo tí a fi kún un (a máa ń fi ewé kún un nígbà gbogbo) |
+| **Anchor** | Gbòǹgbò Merkle tí a ná ń tọ́ka sí gẹ́gẹ́ bí "ipò igi tí mo ń fi ẹ̀sùn kàn" |
+| **Nullifier set** | Àkójọpọ̀ àwọn àmì tí a fi owó pamọ́ sí ọ̀tọ̀ọ̀tọ̀ tí ó ń dí ìnáwó méjì lọ́wọ́ |
 
 ---
 

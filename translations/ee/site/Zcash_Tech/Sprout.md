@@ -35,11 +35,11 @@ Sprout ye nye gɔmeɖoanyi si dzi tɔtrɔ ɖesiaɖe si ava emegbe tua ɖo. Esi n
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
 | zk-SNARK | Kpeɖodzi si me sidzedze zero le si ɖea asitsatsa aɖe fiana la sɔ evɔ meɖe amesi ɖoe ɖa, amesi xɔe, alo ga home |
-| Ta si wotsɔ akpoxɔnu wɔe | Zcash ƒe akpa si nye ame ŋutɔ tɔ si me woɣlaa ga homewo kple kplɔ̃ɖoƒewo le. Sprout ta lae nye gbãtɔ |
-| z-adrɛs kple t-adrɛs | Wokpɔa z-adrɛs ta eye wònaa nyatakakawo nɔa ɣaɣla. T-adrɛs aɖe me kɔ eye wòɖea nyatakakawo fiana le dutoƒo ledger |
-| Kɔnu la | Ƒe 2016 ƒe akpa geɖe ƒe ɖoɖo si na Sprout ƒe dutoƒo parameters eye emegbe wòtsɔ aɖi gbeɖuɖɔwo ƒu gbe |
-| Gbeɖuɖɔ siwo me aɖi le | Safui ɣaɣla siwo tso Kɔnu la me siwo wòle be woatsrɔ̃ ale be womate ŋu awɔ ZEC o |
-| Nubabla ƒe alɔdze id 0 | Sprout ƒe sewo ƒe dzeside, si gɔmee nye gɔmedzedze hafi network ƒe tɔtrɔ ɖesiaɖe |
+| Shielded pool | Zcash ƒe akpa si nye ame ŋutɔ tɔ si me woɣlaa ga homewo kple kplɔ̃ɖoƒewo le. Sprout ta lae nye gbãtɔ |
+| z-address and t-address | Wokpɔa z-adrɛs ta eye wònaa nyatakakawo nɔa ɣaɣla. T-adrɛs aɖe me kɔ eye wòɖea nyatakakawo fiana le dutoƒo ledger |
+| The Ceremony | Ƒe 2016 ƒe akpa geɖe ƒe ɖoɖo si na Sprout ƒe dutoƒo parameters eye emegbe wòtsɔ aɖi gbeɖuɖɔwo ƒu gbe |
+| Toxic waste | Safui ɣaɣla siwo tso Kɔnu la me siwo wòle be woatsrɔ̃ ale be womate ŋu awɔ ZEC o |
+| Consensus branch id 0 | Sprout ƒe sewo ƒe dzeside, si gɔmee nye gɔmedzedze hafi network ƒe tɔtrɔ ɖesiaɖe |
 
 ## Nyabiasewo ƒe Nyabiasewo
 

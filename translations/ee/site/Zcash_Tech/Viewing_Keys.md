@@ -22,9 +22,9 @@ Safui ƒomevi siwo wu ɖeka koe li, eye vovototoae tsoa nya me le agbɔsɔsɔ si
 
 | Safui | Gbãtɔ ƒe ŋgɔdonya | Gakpekpeɖeŋunana |
 |---|---|---|
-| Nukpɔkpɔ blibo ƒe safui si wowɔ ɖekae (UFVK) | `uview…` | Ekpɔa **kple** asitsatsa siwo va yina na ta ɖesiaɖe si le akɔnta |
-| Nukpɔkpɔ ƒe safui ɖeka si va (UIVK) | `uivk…` | Ekpɔa asitsatsa siwo va ɖeɖeko, na ta ɖesiaɖe si le akɔnta |
-| Sapling keke blibo kpɔkpɔ safui | `zxviews…` | Ekpɔa Sapling ƒe dɔwɔna si va kple esi dona na safuia ƒe adrɛswo |
+| Unified full viewing key (UFVK) | `uview…` | Ekpɔa **kple** asitsatsa siwo va yina na ta ɖesiaɖe si le akɔnta |
+| Unified incoming viewing key (UIVK) | `uivk…` | Ekpɔa asitsatsa siwo va ɖeɖeko, na ta ɖesiaɖe si le akɔnta |
+| Sapling extended full viewing key | `zxviews…` | Ekpɔa Sapling ƒe dɔwɔna si va kple esi dona na safuia ƒe adrɛswo |
 
 Amesiawo dometɔ aɖeke mate ŋu azã ga o. Wo katã wonɔa anyi ɖaa le mɔ si le vevie nu: womate ŋu aɖo ŋku safui aɖe si nèna dzi o, ɖeko wòanɔ agbe didi wu, to ga tsɔtsɔ yi akɔnta si ƒe safuiwo mele akpa kemɛa si o me.
 

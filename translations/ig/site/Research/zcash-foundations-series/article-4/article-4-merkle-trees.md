@@ -135,13 +135,13 @@ Simplifications, as usual. Real incremental Merkle trees track "frontier" nodes 
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Osisi Merkle** | Osisi nke hashes; akwụkwọ bụ akara mkpịsị aka data, ndị nne na nna na-emegbu ụmụ ha |
-| **Akwụkwọ** | Ọnụ ala; na Zcash, nkwa otu ihe ndetu |
-| **Mgbọrọgwụ Merkle** | Mkpisi aka elu nke otu na-achịkọta osisi ahụ dum |
-| **Ụzọ nkwenye / ihe akaebe Merkle** | Ihe ndị nwanne kwesịrị iji gosi na akwụkwọ dị n'osisi ahụ |
-| **Osisi Merkle na-abawanye ụba** | Osisi Merkle nke naanị ya na-agbakwunye (a na-etinye akwụkwọ naanị mgbe niile) |
+| **Merkle tree** | Osisi nke hashes; akwụkwọ bụ akara mkpịsị aka data, ndị nne na nna na-emegbu ụmụ ha |
+| **Leaf** | Ọnụ ala; na Zcash, nkwa otu ihe ndetu |
+| **Merkle root** | Mkpisi aka elu nke otu na-achịkọta osisi ahụ dum |
+| **Authentication path / Merkle proof** | Ihe ndị nwanne kwesịrị iji gosi na akwụkwọ dị n'osisi ahụ |
+| **Incremental Merkle tree** | Osisi Merkle nke naanị ya na-agbakwunye (a na-etinye akwụkwọ naanị mgbe niile) |
 | **Anchor** | Mgbọrọgwụ Merkle nke na-ezo aka dị ka "ọnọdụ osisi m na-egosi megide" |
-| **Nchịkọta ihe na-emebi ihe** | Nchịkọta dị iche iche nke ihe nrịbama emefuru nke na-egbochi mmefu okpukpu abụọ |
+| **Nullifier set** | Nchịkọta dị iche iche nke ihe nrịbama emefuru nke na-egbochi mmefu okpukpu abụọ |
 
 ---
 

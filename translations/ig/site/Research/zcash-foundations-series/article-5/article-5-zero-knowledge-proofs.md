@@ -131,16 +131,16 @@ Zero-knowledge proofs are a deep field and we stayed at intuition level on purpo
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-| **Ihe akaebe na-enweghị ihe ọmụma** | Mee ka mmadụ kwenye na ihe e kwuru bụ eziokwu ma ghara ikpughe ihe ọ bụla ọzọ |
-| **Onye Nlereanya / Onye Nyocha** | Onye na-eme ihe akaebe / onye na-enyocha ya |
-| **Mmezu** | A na-anabata eziokwu mgbe niile (site n'aka onye akaebe eziokwu) |
-| **Ịdị mma** | A na-ajụ okwu ụgha (ndị aghụghọ enweghị ike imeri ma ọ bụrụ na chi ọma) |
-| **Onye akaebe** | Ihe nzuzo ndị na-eme ka nkwupụta ahụ bụrụ eziokwu |
-| **Sekit mgbakọ na mwepụ** | E degharịrị nkwupụta dị ka ihe na-agbakwụnye ma na-amụba n'elu ubi nwere oke njedebe |
-| **Ọ dịghị emekọrịta ihe (Fiat-Shamir)** | Ihe akaebe otu ugboro nke na-achọghị ka e mee ihe dị ndụ ọzọ |
-| **Nsogbu** | Ihe akaebe ahụ dị obere ma dịkwa ngwa iji gosi n'agbanyeghị nha nkwupụta ahụ |
+| **Zero-knowledge proof** | Mee ka mmadụ kwenye na ihe e kwuru bụ eziokwu ma ghara ikpughe ihe ọ bụla ọzọ |
+| **Prover / Verifier** | Onye na-eme ihe akaebe / onye na-enyocha ya |
+| **Completeness** | A na-anabata eziokwu mgbe niile (site n'aka onye akaebe eziokwu) |
+| **Soundness** | A na-ajụ okwu ụgha (ndị aghụghọ enweghị ike imeri ma ọ bụrụ na chi ọma) |
+| **Witness** | Ihe nzuzo ndị na-eme ka nkwupụta ahụ bụrụ eziokwu |
+| **Arithmetic circuit** | E degharịrị nkwupụta dị ka ihe na-agbakwụnye ma na-amụba n'elu ubi nwere oke njedebe |
+| **Non-interactive (Fiat-Shamir)** | Ihe akaebe otu ugboro nke na-achọghị ka e mee ihe dị ndụ ọzọ |
+| **Succinct** | Ihe akaebe ahụ dị obere ma dịkwa ngwa iji gosi n'agbanyeghị nha nkwupụta ahụ |
 | **zk-SNARK** | Ihe ọmụma efu Succinct Arụmụka ihe ọmụma na-abụghị mmekọrịta |
-| **Ntọala a tụkwasịrị obi / ihe mkpofu na-egbu egbu** | Nhazi paramita otu oge nke a ga-ebibi ihe nzuzo fọdụrụnụ |
+| **Trusted setup / toxic waste** | Nhazi paramita otu oge nke a ga-ebibi ihe nzuzo fọdụrụnụ |
 
 ---
 
