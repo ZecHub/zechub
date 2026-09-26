@@ -119,13 +119,14 @@
 
 ---
 
-## [Zallet](https://github.com/zcash/wallet)
+## [Zallet](https://github.com/zcash/zallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Devices: Desktop
-- Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Operating System: Linux | macOS
+- Wallet Support: Seed Phrase | Unified Address | Full Node
 - Pools: Transparent | Sapling | Ironwood
-- Features: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support
+- Features: RPC Interface | Shielded Memo | Testnet Support
+- Stage: Beta
 - Ironwood: Ready
 
 ---
