@@ -158,8 +158,9 @@
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling
 - Features: Multi Coin
+- Ironwood: Not Ready
 
 ---
 
