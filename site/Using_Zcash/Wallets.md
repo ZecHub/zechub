@@ -330,11 +330,13 @@
 
 ## [Zend:Zcash Wallet](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
-- Devices: Mobile | Desktop
-- Operating System: iOS | macOS
-- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
-- Pools: Transparent | Sapling | Ironwood
-- Features: Self-Custody | Private Key Stored Locally | No KYC Required | No Zend Server Dependency for Wallet Activity | Encrypted Shielded Transaction | Seed Recovery | Shielded Memo | Passkey Authentication
+- Devices: Mobile
+- Operating System: iOS
+- Wallet Support: Passkey | Unified Address
+- Pools: Transparent | Sapling
+- Features: No KYC | Shielded Memo
+- Stage: Beta
+- Ironwood: Not Ready
 
 ---
 
