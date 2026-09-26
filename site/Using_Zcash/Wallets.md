@@ -169,8 +169,9 @@
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Ironwood
-- Features: DEX Swaps
+- Pools: Transparent | Sapling
+- Features: Swaps | ZNS Names
+- Ironwood: Not Ready
 
 ---
 
