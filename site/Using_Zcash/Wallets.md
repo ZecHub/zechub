@@ -321,9 +321,9 @@
 ![logo](/content-images/zecd.webp "zecd")
 - Devices: Desktop
 - Operating System: Linux
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
-- Pools: Transparent | Sapling | Ironwood | Sprout
-- Features: Encrypted Memo | Wallet Backup (wallet data) | RPC Interface | Shielded Memo | Private Key Management
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: Encrypted Backup | RPC Interface | Shielded Memo
 - Ironwood: Ready
 
 ---
