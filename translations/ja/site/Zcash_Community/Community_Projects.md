@@ -75,7 +75,7 @@ Zcashの助成金を見つけ、追跡し、レビューしやすくすること
 
 ### Ezcash
 使いやすく高機能な、オートシールド対応のマルチプラットフォームZcashウォレット。  
-[訪問](https://blog.nerdbank.net/ezcash-app)
+[訪問](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Zebrad向けに構築されたOrchard重視のZcashウォレットで、完全にシールドされたトランザクションと安全な鍵管理をサポートします。  
@@ -191,7 +191,7 @@ Zcashエコシステムのプライバシー最優先マーケットプレイス
 ### Zecsite
 JavaScriptを使用せずにZcashのニュース、統計、教育コンテンツを集約する、プライバシー重視の静的ウェブサイト。
 
-[訪問](https://zecsite/org)
+[訪問](https://zecsite.org/netscape/en/index.html)
 
 [フォーラム](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

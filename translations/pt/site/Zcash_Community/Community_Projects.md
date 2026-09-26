@@ -75,7 +75,7 @@ Pagamentos privados para a internet. Non-custodial, sem KYC. Os comerciantes rec
 
 ### Ezcash
 Wallet Zcash multiplataforma, fácil de usar e completa, com suporte para autoshielding.  
-[Visitar](https://blog.nerdbank.net/ezcash-app)
+[Visitar](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Wallet Zcash focada em Orchard, construída para Zebrad, com suporte para transações totalmente shielded e gestão segura de chaves.  
@@ -191,7 +191,7 @@ O marketplace centrado na privacidade do ecossistema Zcash. Os pagamentos são l
 ### Zecsite
 Um website estático focado na privacidade que agrega notícias, estatísticas e conteúdo educativo sobre Zcash sem usar JavaScript.
 
-[Visitar](https://zecsite/org)
+[Visitar](https://zecsite.org/netscape/en/index.html)
 
 [Fórum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

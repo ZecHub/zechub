@@ -6,7 +6,7 @@
 
 > 🇧🇷 [Versão em Portugalfo na wɔwom](/zechubglobal/zcashbrasil/zcashtech/zecd)
 
-ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash) na wɔdaa no adi denam Bitcoin Core JSON-RPC kasa no so. Ɛma developers ne payment integrators API a wonim, a ɛne Bitcoin hyia a wɔde bɛdi nkitaho ne Zcash — bere a ɛma Orchard (private pool a ɛsen biara) yɛ default. Wɔyɛɛ no ​​denam [zec.rocks](https://zec.rocks), wɔayɛ ZECD sɛ wɔmfa nsi ananmu `zcashd`’s wallet dwumadie wɔ nnɛyi, cloud-native deployments mu.
+ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash](https://github.com/zcash/librustzcash) na wɔdaa no adi denam Bitcoin Core JSON-RPC kasa no so. Ɛma developers ne payment integrators API a wonim, a ɛne Bitcoin hyia a wɔde bɛdi nkitaho ne Zcash — bere a ɛma Orchard (private pool a ɛsen biara) yɛ default. Wɔyɛɛ no ​​denam [zec.rocks](https://zec.rocks), wɔayɛ ZECD sɛ wɔmfa nsi ananmu `zcashd`’s wallet dwumadie wɔ nnɛyi, cloud-native deployments mu.
 
 **Mprempren nkyerɛaseɛ:** 0.5.0-rc3 (July 13, 2026) — a Ironwood (NU6.3) mmoa ka ho. Install via `cargo install zecd` anaasɛ fa Docker mfonini a ɛyɛ aban de no di dwuma.
 
@@ -283,14 +283,14 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## ZECD ne zcashd ne Zaino ntam
 
-| | zcashd a wɔde yɛ adwuma | Zaino | ZECD |
+| | zcashd | Zaino | ZECD |
 |--|--------|-------|------|
 | Dwuma a Di | Node + sika kotoku a ɛyɛ ma | Indexer (ɛsi lightwalletd ananmu) | Wallet server nkutoo |
 | Kasa | C++ | Rust | Rust |
 | Gyinabea | Wɔagyae | Active | Ɛyɛ adwuma (v0.5.0-rc3, Ɔpɛpɔn 2026) |
-| Default pool | Transparent | N/A | Orchard (shielded) |
-| RPC dialect | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
-| Requires full node | Yes (self) | Zebra or zcashd | Zebra |
+| Default pool a wɔde ahyɛ mu | Fann | N/A | Orchard (a wɔabɔ ho ban) |
+| RPC kasa a wɔka | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC na ɛyɛ adwuma |
+| Ɛhwehwɛ sɛ node a edi mũ | Yiw (ankasa) | Zebra anaa zcashd | Zebra |
 | Ɔman a wonni ahoɔden a wɔsan nya | Dabi | N/A | Yiw (aba nkutoo) |
 | Memos a wɔabɔ ho ban | Aane (`z_sendmany`) | N/A | Yiw (Bitcoin RPC ani) |
 | Watch-nko (UFVK) | Yiw | Yiw | Yiw |

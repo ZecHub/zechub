@@ -6,7 +6,7 @@
 
 <img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
-Kuendesha programu Zebra node juu ya Raspberry Pi 4 utapata kushiriki katika mtandao Zcash kama huru, makubaliano-sambamba node. Mwongozo huu kutembea wewe kupitia hatua za kuanzisha na kuendesha Zebra juu ya yako RaspBerry Pi 4.
+Kuendesha programu Zebra node juu ya Raspberry Pi 4 utapata kushiriki katika mtandao Zcash kama huru, makubaliano-sambamba Node. Mwongozo huu kutembea wewe kupitia hatua za kuanzisha na kukimbia Zebra kwenye yako RaspBerry Pi 4.
 
 ## Mahitaji ya awali
 
@@ -14,11 +14,11 @@ Kuendesha programu Zebra node juu ya Raspberry Pi 4 utapata kushiriki katika mta
 
 2. MicroSD kadi (16GB au zaidi ilipendekeza) na Raspberry Pi OS (Raspbian) imewekwa.
 
-3. Kuunganishwa kwa mtandao imara.
+3. Kiunganishi imara internet.
 
-4. Kibodi, panya, na kufuatilia (kwa ajili ya kuanzisha awali).
+4. Kibodi, panya na kiwambo (kwa ajili ya kuanzisha awali).
 
-5. SSH mteja (hiari, kwa ajili ya upatikanaji wa kijijini).
+5. SSH mteja (hiari, kwa ajili ya upatikanaji wa mbali).
 
 ## Ufungaji
 
@@ -46,35 +46,35 @@ Kuendesha programu Zebra node juu ya Raspberry Pi 4 utapata kushiriki katika mta
 
    __ mzigo kujenga --release__
 
-   Utaratibu huu unaweza kuchukua muda. Hakikisha kwamba yako Raspberry Pi ni kutosha baridi, kama kukusanya inaweza kuzalisha joto.
+   Utaratibu huu unaweza kuchukua muda. Hakikisha kwamba yako Raspberry Pi ni kutosha baridi, kama kuunganisha inaweza kutoa joto.
 
-5. __ Configuration__
-   Kujenga faili ya Configuration kwa Zebra. Unaweza kutumia default Config kama hatua ya kuanzia:
+5. __ Configuration__ (Usanidi)
+   Kujenga faili ya Configuration kwa Zebra. Unaweza kutumia default config kama hatua ya kuanzia:
 
-   __cp zcash.conf.mfano zcash .conf__
+   __ cp zcash.conf.mfano wa zcash .conf__
 
-   Hariri faili zcash.conf ili Customize mipangilio yako node ya. Unaweza kutaja mtandao, kuwezesha madini, kuanzisha uhusiano peer, na zaidi.
+   Hariri faili zcash.conf ili Customize mipangilio yako node ya. Unaweza kutaja mtandao, kuwezesha madini, kuanzisha uhusiano peer na zaidi.
 
 6. __Kuanza Zebra__
    Sasa unaweza kuanza Zebra na Configuration yako desturi:
 
    __./target/release/zebrad -c zcash.conf__
 
-   __gi maoni__ 
+   __ maoni ya kitanda__ 
 
-   Amri hii itaanza node Zebra, na itaanza kusawazisha na blockchain Zcash.
+   Amri hii itaanza node Zebra, na itakuwa kuanza kusawazisha kwa blockchain Zcash.
 
 7. __Kufuatilia__
-   Unaweza kufuatilia maendeleo na hali ya node yako Zebra kwa kufungua kivinjari cha mtandao na navigating kwa __http://127.0.0.1:8233/status__.
+   Unaweza kufuatilia maendeleo na hali ya node yako Zebra kwa kufungua kivinjari cha mtandao na navigating to __http://127.0.0.1:8233/status__.
 
 <img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
 ## Kutatua matatizo
 
-Kama wewe kukutana na matatizo yoyote na kujenga au kuendesha Zebra, angalia [Zebra nyaraka](https://doc.zebra.zfnd.org/docs/intro.html) kwa vidokezo vya kutatua matatizo na taarifa za ziada.
+Kama kukutana na matatizo yoyote kwa kujenga au kuendesha Zebra, angalia [Nyaraka za Zebra](https://zebra.zfnd.org/user/troubleshooting.html) kwa vidokezo vya kutatua matatizo na taarifa za ziada.
 
-Hakikisha kuweka Raspberry Pi yako baridi, kama kuendesha node inaweza kuzalisha joto. Unaweza kutaka kutumia ufumbuzi baridi , kama vile shabiki au sinki joto.
+Hakikisha kuweka Raspberry Pi yako baridi, kama kuendesha node inaweza kutoa joto. Unaweza kutaka kutumia ufumbuzi wa baridi ya, kama vile shabiki au sinki la joto .
 
-## Matokeo
+## Matokeo ya Uchunguzi
 
-Kwa kufuata mwongozo huu, unapaswa kuwa na mafanikio ya kuanzisha na kuendesha Zebra kwenye Raspberry Pi yako 4. wewe ni sasa kuchangia mtandao Zcash kama node huru, kusaidia kupata faragha ya shughuli Zcash.
+Kwa kufuata mwongozo huu, unapaswa kuwa na mafanikio kuanzisha na kukimbia Zebra kwenye Raspberry Pi yako 4. sasa ni kuchangia mtandao Zcash kama node huru, kusaidia kupata faragha ya shughuli Zcash.

@@ -10,15 +10,15 @@ Nkwado maka akụ nzuzo na-agbanwe mgbe niile, yabụ ahịrị ọ bụla nwere
 
 <div class="processor-table">
 
- Processor  Custody  Shielded ZEC  Self-host  Merchant fee  Regions / KYC  Verified  Onye na - eme ihe n'eziokwu  Nhazi oge: Ọ bụrụ na ị nwere ike ịchọta ozi gbasara onye ahịa gị, biko kpọtụrụ anyị.
+| Nhazi ihe nhazi | Ụlọ Nnọchi | ZEC echekwara | Onye na-anabata onwe ya | Ụgwọ onye ahịa | Mpaghara / KYC | Enyochala |
 |:--|:--|:--|:--|:--|:--|:--|
-[CipherPay] Ọ bụ ihe na-atọ ụtọ.](https://www.cipherpay.app)  Non-custodial. Ee, Orchard site Unified Addresses. Ee open source 1% kwa ugwo, free ma ọ bụrụ na onwe kwadoro Ọ dịghị KYC, mpaghara adịghị kwuru 2026-07-29
-[BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) ❑ Enweghị njide, igodo nlele naanị. ● Ee, ọta nanị (Sapling, Orchard, UA) ▪ Ee, isi mmalite emeghe □ Mba, ị na-akwụ ụgwọ netwọkụ naanị Global, enweghị KYC 2026-07-29
-[Zaga n'ihu](https://zgo.cash/) ❑ N'enweghị onye na-elekọta ya. □ Ee, Sapling and Orchard. ● Mba, ọrụ a kwadoro. ◆ Oge ịkwụ ụgwọ tupu oge eruo, ọnụahịa e bipụtaghị. ▪ Ọ dịghị KYC kwuru, ógbè ndị ahụ ekwughị 2026-07-29
-[Flexa] Ọ bụ ihe na-atọ ụtọ.](https://flexa.co/) ◯ Ndị ahịa na-echekwa onwe ha, ndị ọchụnta ego ji mkpụrụ ego nkịtị akwụ ụgwọ. Onye ahịa na emefu ihe n'ụzọ a ga-eji chebe ya, onye natara onyinye ahụ enweghị akwụkwọ e dere ede. Ọ dịghị otu pasent kwa ịkwụ ụgwọ US na mba 37 nke SEPA, ZEC EU ekwenyebeghị 2026-07-29
-[Ugbu a ịkwụ ụgwọ](https://nowpayments.io/supported-coins/zcash-payments)  Enweghị njide site na ndabara. Mba, naanị adreesị doro anya. Ọ dịghị 0.5%, ma ọ bụ 1% nwere ntụgharị. Global belụsọ ebe amachibidoro ya iwu, enweghị KYC ịmalite 2026-07-29
-[Plisio] Ọ bụ ihe na-atọ ụtọ.](https://plisio.net/accept-zcash) ◯ Nchebe, n'agbanyeghị ahịa. A dịghị edeba aha ya na akwụkwọ ọ bụla. Mba 0.5% API, 1.5% akara ọcha. Ọ nweghị KYC ịnata 2026-07-29
-[Binance na-akwụ ụgwọ](https://pay.binance.com/en) ◯ Nchebe, n'èzí-mgbasa ozi. ❑ Mba, a jụrụ ego echekwara na nchekwa. ❖ Ee e. ● E nweghị ụgwọ ọ bụla maka obere akpa gị, ịkwụghachi ya bụ 0.8% ▪ Ebe i bi adịghị ekwe ka mmadụ bata ebe ahụ, ZEC ewepụla aha ha ná mba FR, ES, IT, PL 2026-07-29
+| [CipherPay](https://www.cipherpay.app) | Enweghị nchekwa | Ee, Orchard site na Adreesị Ndị Dị n'Otu | Ee, isi mmalite mepere emepe | 1% kwa ịkwụ ụgwọ, n'efu ma ọ bụrụ na ejiri aka gị kwado ya | Enweghị KYC, akọwapụtaghị mpaghara | 2026-07-29 |
+| [Ihe nkesa BTPay](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Enweghị nchekwa, naanị igodo lee | Ee, naanị ihe e ji kpuchie (Sapling, Orchard, UA) | Ee, isi mmalite mepere emepe | Ọ dịghị, ị na-akwụ ụgwọ netwọk naanị | Ụwa niile, enweghị KYC | 2026-07-29 |
+| [ZGo](https://zgo.cash/) | Enweghị nchekwa | Ee, Sapling na Orchard | Mba, ọrụ akwadoro | Oge akwụgoro ụgwọ tupu oge eruo, ebipụtaghị ọnụahịa | E kwubeghị KYC, e kwubeghịkwa mpaghara ndị ahụ | 2026-07-29 |
+| [Flexa](https://flexa.co/) | Onye ahịa na-elekọta onwe ya, onye ahịa na-akwụ ụgwọ na fiat | Emefu ego onye ahịa n'ihe gbasara nchekwa, a naghị ede akụkụ nnata akwụkwọ | No | 1% kwa ịkwụ ụgwọ | Mba US na mba 37 SEPA, ZEC na EU ekwenyeghị | 2026-07-29 |
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Enweghị nchekwa site na ndabara | Mba, naanị adreesị doro anya | No | 0.5%, ma ọ bụ 1% na mgbanwe | Mba ụwa niile ma e wezụga ebe amachibidoro iwu, enweghị KYC ịmalite | 2026-07-29 |
+| [Plisio](https://plisio.net/accept-zcash) | Nchekwa, n'agbanyeghị ahịa | Edebeghị ya ede | No | 0.5% API, akara ọcha 1.5% | Enweghị KYC ị ga-enweta | 2026-07-29 |
+| [Ụgwọ Binance](https://pay.binance.com/en) | Nchekwa, nke na-anọghị n'usoro | Mba, a jụrụ itinye ego echekwara | No | Akpa ego efu na obere akpa, 0.8% ịkwụ ụgwọ | E wepụrụ ZEC na mpaghara dị iche iche, FR, ES, IT, PL | 2026-07-29 |
 
 </div>
 
@@ -75,20 +75,20 @@ Ihe abụọ ị ga-atụle. Ọ malitere na February 2026 ma enweghị nyocha n
 ## [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" class="processor-logo" />
 - ** Ụdị nkwado**: Echebe naanị (Sapling, Orchard, Unified Address)
 - **Nkọwa**: BTCPay Server bụ ihe na-emeghe, onye nhazi ego cryptocurrency nke onwe ya.
-- ** URL**: [BTCPay Server] (Nke a bụ ihe nchọgharị na-enye aka)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+- ** URL**: [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" width="200" hidden />
 
 Nhọrọ kachasị ike na njide. Ihe nchekwa ya bụ naanị ihe ngosi ma ghara inwe mkpụrụ ma ọ bụ igodo nzuzo, n'ihi ya ọbụna onye nkesa nwere nsogbu enweghị ike iji ego gị mee ihe.
 
 E kpuchiri ya, na-ekpuchi Sapling, Orchard na Unified Addresses. Enweghị uzo doro anya, n'ihi ya echela atụmatụ gburugburu otu.
 
-To install it you need the btcpay-zcash Docker fork on the feat/zec branch, plus a viewing key exported from a wallet such as Ywallet or Zingo. By default it talks to a remote lightwalletd, or you can run Zebra and lightwalletd yourself.
+To install it you need the btcpay-zcash Docker fork on the feat/zec branch, plus a viewing key exported from a wallet such as Zkool or Zingo. By default it talks to a remote lightwalletd, or you can run Zebra and lightwalletd yourself.
 
 Otu njedebe ịmara banyere: ngwa mgbakwunye ahụ na-eji otu obere akpa Zcash maka ụlọ ahịa ọ bụla n'otu oge, yabụ anaghị agba ọsọ ya na sava nkesa. A na - arụ ọrụ ego kwa ụlọ ahịa.
 
 Enweghị ụgwọ maka ngwanrọ ahụ n'onwe ya. Ị na-akwụ ụgwọ netwọk Zcash yana ihe ọ bụla ọnụahịa gị nwere ike ịbụ.
 
-**Nke ikpeazụ enyocha:** 2026-07-29
+**Ikpeazụ enyocha:** 2026-07-29
 
 ---
 
@@ -108,7 +108,7 @@ You cannot really self-host it. ZGo runs the Zcash infrastructure for you and pu
 
 Ọ bụghịkwa n'efu. ZGo na-ere nnọkọ ndị a kwụrụ ụgwọ ma chọọ oge Pro maka WooCommerce, mana ibe ọnụahịa adịghị ugbu a, yabụ enweghị ọnụọgụ ebe a.
 
-**Nke ikpeazụ enyocha:** 2026-07-29
+**Ikpeazụ enyocha:** 2026-07-29
 
 ---
 
@@ -128,14 +128,14 @@ Nkwupụta nke Flexa n'onwe ya na-akọwa njikọta Zcash dị ka ịkwụ ụgw
 
 Ọ na-arụ ọrụ na United States, ma kemgbe July 2026, n'ime mba 37 nke SEPA. A kọwaghị ma enwere ike iji ZEC mee ihe na Europe.
 
-**Ikpeazụ enyocha:** 2026-07-29
+**Nke ikpeazụ enyocha:** 2026-07-29
 
 ---
 
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
 - ** Ụdị nkwado**: Naanị ihe na-ekpuchi anya.
 - **Nkọwa**: NOWPayments bụ ọnụ ụzọ ịkwụ ụgwọ crypto nke na-enyere ndị ahịa aka ịnabata Zcash ịkwụ ego na onyinye n'ụzọ dị mfe.
-- ** URL**: [Ugbu a ịkwụ ụgwọ](https://nowpayments.io/supported-coins/zcash-payments)
+- ** URL**: [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
 Enweghị nkwado echedoro. akwụkwọ ha na-agwa gị ka ị setịpụ adreesị doro anya maka Zcash, ma ZEC bụ naanị mkpụrụ ego ha wepụtara n'ụzọ ahụ. ugwo ọ bụla i nwetara ga-abụ nke ọha na eze na blockchain.
@@ -146,7 +146,7 @@ Enweghị njide site na ndabara. FAQ ha kwuru na ha anaghị echekwa ego ma ghar
 
 Ọ dị n'ụwa niile ma e wezụga ebe iwu machibidoro ya. Ị chọghị KYC ịmalite ịnabata crypto, naanị iwepụ fiat.
 
-**Ikpeazụ enyocha:** 2026-07-29
+**Nke ikpeazụ enyocha:** 2026-07-29
 
 ---
 
@@ -171,7 +171,7 @@ Akpa ego ahụ bụ n'efu, ọnụ ụzọ na API na-akwụ ụgwọ 0.5%, yana 
 ## [Binance Pay](https://pay.binance.com/en) <img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" class="processor-logo" />
 - ** Ụdị nkwado**: Naanị ihe na-ekpuchi, a jụrụ ego echekwara echebe.
 - **Nkọwa**: Binance Pay bụ usoro ịkwụ ụgwọ cryptocurrency nke na-akwado ịkwụ ego Zcash.
-- ** URL**: [Binance Pay] (Nke a bụ ihe na-eme ka ọ bụrụ ọrụ)](https://pay.binance.com/en)
+- ** URL**: [Binance Na-akwụ ụgwọ](https://pay.binance.com/en)
 <img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" width="200" hidden />
 
 Binance na-agbagha ZEC zitere site na adreesị echedoro. Ọjụjụ ahụ bụ ihe kpatara e ji kee adres TEX.

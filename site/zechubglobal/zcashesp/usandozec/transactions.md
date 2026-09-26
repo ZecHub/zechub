@@ -32,4 +32,4 @@ Las transacciones transparentes han causado confusión en el pasado sobre la pri
 
 **Nota**
 
-Por favor, ten en cuenta que el modo más seguro de usar ZEC es usando sólo transacciones blindadas. Algunas billeteras han implementado [Direcciones Unificadas](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) que permiten a los usuarios e intercambios combinar direcciones transparentes y blindadas en una sola.
+Por favor, ten en cuenta que el modo más seguro de usar ZEC es usando sólo transacciones blindadas. Algunas billeteras han implementado [Direcciones Unificadas](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) que permiten a los usuarios e intercambios combinar direcciones transparentes y blindadas en una sola.

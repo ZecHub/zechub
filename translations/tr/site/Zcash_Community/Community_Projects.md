@@ -75,7 +75,7 @@ Zcash hibelerinin keşfedilmesini, takip edilmesini ve incelenmesini basitleşti
 
 ### Ezcash
 Kullanımı kolay, tam özellikli, çok platformlu ve autoshielding destekli Zcash cüzdanı.  
-[Ziyaret et](https://blog.nerdbank.net/ezcash-app)
+[Ziyaret et](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Tamamen shielded işlemleri ve güvenli anahtar yönetimini destekleyen, Zebrad için geliştirilmiş Orchard odaklı Zcash cüzdanı.  
@@ -191,7 +191,7 @@ Zcash ekosisteminin gizlilik öncelikli pazaryeri. Ödemeler doğrudan sonuçlan
 ### Zecsite
 JavaScript kullanmadan Zcash haberlerini, istatistiklerini ve eğitim içeriklerini bir araya getiren gizlilik odaklı statik web sitesi.
 
-[Ziyaret et](https://zecsite/org)
+[Ziyaret et](https://zecsite.org/netscape/en/index.html)
 
 [Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

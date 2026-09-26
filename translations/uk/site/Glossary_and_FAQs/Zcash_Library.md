@@ -126,7 +126,7 @@
 
 | Term | Definition |
 |------|-----------|
-| Механізм стійкості мережі (NSM) | Пропозиція від Shielded Labs спалювати частку комісій за транзакції, щоб довгостроковий бюджет безпеки протоколу не ґрунтувався виключно на емісії. Визначено в ZIP 234, перебуває на розгляді у 2026 році. |
+| Network Sustainability Mechanism (NSM) | Пропозиція від Shielded Labs спалювати частку комісій за транзакції, щоб довгостроковий бюджет безпеки протоколу не ґрунтувався виключно на емісії. Визначено в ZIP 234, перебуває на розгляді у 2026 році. |
 | Nighthawk | Мобільний гаманець для Zcash. [Вебсайт](https://nighthawkwallet.com) |
 | Noir Wallet | Гаманець Zcash у вигляді браузерного розширення, що підтримується Zcash Community Grants і створений для прямого підключення екранованих ZEC до браузерних застосунків замість використання QR-кодів і ручних переказів. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | 6-те велике мережеве оновлення Zcash, що запровадило екранований пул Orchard і Unified Addresses. [Докладніше](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
@@ -137,7 +137,7 @@
 
 | Термін | Визначення |
 |------|-----------|
-| Нерозкривальна синхронізація | Метод, що розробляється в Project Tachyon і дає гаманцю змогу запитувати потрібні йому дані з ненадійного сервера, не розкриваючи, про які саме ноти він запитує. Сервер ніколи не дізнається про ваші nullifier-и, оскільки протокол змушує їх еволюціонувати в непов’язуваний спосіб. [Опис](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Oblivious Synchronization | Метод, що розробляється в Project Tachyon і дає гаманцю змогу запитувати потрібні йому дані з ненадійного сервера, не розкриваючи, про які саме ноти він запитує. Сервер ніколи не дізнається про ваші nullifier-и, оскільки протокол змушує їх еволюціонувати в непов’язуваний спосіб. [Опис](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 | Orchard Shielded Pool | Третій захищений пул для Zcash, що представляє безперервну еволюцію нашого технологічного стеку ZK-SNARKs. [Повні подробиці](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | 1-ше мережеве оновлення Zcash. [Докладніше](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
@@ -207,9 +207,9 @@
 
 ## W
 
-| Term | Definition |
+| Термін | Визначення |
 |------|-----------|
-| Wallet | Програмне або апаратне забезпечення, яке зберігає приватні ключі та дозволяє надсилати/отримувати ZEC. До активних гаманців належать ZODL (iOS/Android), Zingo! (мобільний/десктопний), Nighthawk (Android), YWallet, Zallet (незабаром) і Keystone (апаратний). Повний список дивіться у [Гаманці екосистеми Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Програмне або апаратне забезпечення, яке зберігає приватні ключі та дозволяє надсилати/отримувати ZEC. До активних гаманців належать ZODL (iOS/Android), Zingo! (мобільний/десктопний), Nighthawk (Android), Zkool (мобільний/десктопний), Zallet (незабаром) і Keystone (апаратний). Повний список дивіться у [Гаманці екосистеми Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Перший JavaScript SDK для Zcash, створений ChainSafe для браузерних середовищ. Він лежить в основі снапу Zcash Shielded Wallet, який приніс shielded ZEC до MetaMask. |
 
 ## X

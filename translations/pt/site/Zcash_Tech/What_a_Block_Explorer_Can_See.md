@@ -56,14 +56,14 @@ Se consultares os dados em bruto, os campos do remetente e do destinatário shie
 
 ## Põe isto em prática
 
-- Usa uma wallet que, por predefinição, utilize endereços shielded, como a [ZODL](https://zodl.com) ou a [Ywallet](https://ywallet.app/).
+- Usa uma wallet que, por predefinição, utilize endereços shielded, como a [ZODL](https://zodl.com) ou a [Zingo!](https://www.zingolabs.org/).
 - Quando receberes ZEC num endereço transparente, move-o para um endereço shielded antes de o gastares.
 - Paga para endereços shielded sempre que possível. Todos os pagamentos transparentes são totalmente públicos; um pagamento shielded não o é.
 
 ## Recursos
 
 - [Zcash: recomendações de privacidade e segurança](https://z.cash/support/security/privacy-security-recommendations/)
-- [Um ecossistema shielded (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Um ecossistema shielded (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Como funciona a tecnologia da Zcash](https://z.cash/technology/)
 - [Explorador Zcash do Blockchair](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@ Se consultares os dados em bruto, os campos do remetente e do destinatário shie
 - [Noções básicas da Zcash](/start-here/what-is-zec-and-zcash)
 - [Wallets](/using-zcash/wallets)
 - [Pools shielded](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

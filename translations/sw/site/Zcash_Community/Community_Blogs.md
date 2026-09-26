@@ -6,24 +6,23 @@ Wanachama wa jamii wanaendesha blogu nyingi nzuri zinazohusu Zcash, faragha, sar
 
 Yafuatayo ni baadhi ya yale yanayoendelea:
 
- Blogu / Mwandishi  Maelezo Kiungo 
+| Blogu / Mwandishi              | Maelezo                                              | Kiungo |
 |----------------------------|----------------------------------------------------------|------|
-Jinsi Zcash kazi. Kujenga mfano wa kufanya kazi ya Zcash [Tembelea ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
-Max Desalle. Kujifunza Zcash [Tembelea ->](https://maxdesalle.com/mastering-zcash/) |
-Mike Rosulek: furaha ya Cryptography [Tembelea ->](https://joyofcryptography.com/) |
-James Katz: Maandishi binafsi na mawazo juu ya Zcash na faragha [Tembelea ->](https://free2z.cash/James_Katz/) |
- [Tembelea -] Maelezo ya sasa na maelezo kuhusu mfumo wa mazingira.](https://thumbsup.substack.com) |
-[Tembelea ->] chumba kutumia mawazo na jamii maudhui.](https://free2z.cash/roommatemusing) |
- NerdBank Blog  Blogu ya kiufundi ililenga maendeleo na zana za Zcash [Tembelea ->](https://blog.nerdbank.net/) |
-Thor anapenda Habari, maoni na maelezo juu ya Zcash [Tembelea ->](https://www.thorlikes.com/) |
- ZecMec Zcash-ililenga makala juu ya Medium [Tembelea ->](https://zecmec21.medium.com/) |
-Ian Sagstetter makala ya kina na jarida [Tembelea ->](https://iansagstetter.substack.com/) |
-Naomi Brockwell (NBTV) Mahojiano ya juu na maudhui kuhusu faragha [Tembelea ->](https://naomibrockwell.com/highprofileinterviews) |
-Sqribbles. Creative na jamii inayotokana Zcash maudhui [Tembelea ->](https://free2z.cash/sqribbles) |
-Str4d. maandishi ya kiufundi kutoka Zcash developer msingi [Tembelea ->](https://words.str4d.xyz/) |
- CipherScan Weekly  Machapisho ya kila wiki blog kufunika Zcash blockchain uchambuzi [Tembelea ->](https://cipherscan.app/) |
-Zcash Shielded News Wiki faragha na mazingira ya habari digest [Tembelea ->](https://zechub.wiki) |
-❖ ZecHub DAO Blog✔ makala na maudhui ya elimu kutoka kwa jamii za ZECHUB-DAO [Zuru ->](https://zechub.wiki) |
+| Jinsi Zcash inavyofanya kazi            | Jenga mfumo wa kufanya kazi wa Zcash                           | [Tembelea ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desale                | Kumjua Zcash                                          | [Tembelea ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | Furaha ya Uandishi wa Siri                                  | [Tembelea ->](https://joyofcryptography.com/) |
+| James Katz                 | Maandishi na mawazo binafsi kuhusu Zcash na faragha      | [Tembelea ->](https://free2z.cash/James_Katz/) |
+| Sasisho la Vidole Vidogo             | Masasisho na maarifa ya mara kwa mara ya mfumo ikolojia                   | [Tembelea ->](https://thumbsup.substack.com) |
+| uundaji wa chumba              | Mawazo na maudhui ya jamii                            | [Tembelea ->](https://free2z.cash/roommatemusing) |
+| Blogu NerdBank              | Blogu ya kiufundi ililenga katika uundaji na zana za Zcash    | [Tembelea ->](https://blog.nerdbank.net/) |
+| ZecMec                     | Makala Zcash-focused kwenye Medium                         | [Tembelea ->](https://zecmec21.medium.com/) |
+| Ian Sagstetter             | Makala na jarida la kina                         | [Tembelea ->](https://iansagstetter.substack.com/) |
+| Naomi Brockwell (NBTV)     | Mahojiano na maudhui ya hadhi ya juu kuhusu faragha           | [Tembelea ->](https://naomibrockwell.com/highprofileinterviews) |
+| Sqribbles                  | Maudhui ya Zcash yanayoendeshwa na ubunifu na jamii              | [Tembelea ->](https://free2z.cash/sqribbles) |
+| Str4d                      | Maandishi ya kiufundi kutoka kwa msanidi programu mkuu wa Zcash             | [Tembelea ->](https://words.str4d.xyz/) |
+| CipherScan ya Kila Wiki          | Machapisho ya blogu ya kila wiki yanayohusu uchanganuzi wa blockchain Zcash    | [Tembelea ->](https://cipherscan.app/) |
+| Habari Zilizolindwa za Zcash        | Muhtasari wa habari za faragha na mfumo ikolojia kila wiki                 | [Tembelea ->](https://zechub.substack.com/) |
+| Blogu ZecHub DAO            | Makala na maudhui ya kielimu kutoka kwa jumuiya ya ZecHub DAO | [Tembelea ->](https://zechub.wiki) |
 
 ---
 

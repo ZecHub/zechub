@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àgbàlá ilé
+# Canopy
 
 > Canopy lọ si igbesi aye lori Zcash mainnet ni bulọọki 1,046,400 (November 18, 2020 UTC).
 
@@ -46,14 +46,14 @@ Ni pẹkipẹki pẹlu awọn ayipada owo, Canopy gbe meji kere imọ ZIPs. [ZIP
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-ígba owó àwọn olùdásílẹ̀. Àpẹẹrẹ ìtìlẹ́yìn àkọ́kọ́ tí ó sanwó fún àdàgbàsókè Zcash, èyí ti a yàn láti parí ní ìdámẹ́wàá àkójọpọ̀ náà ni:
-ípo ìdàgbàsókè. 20% ìpín nínú èrè àkànṣe tí Canopy fi síbi ètò, tó ń lọ sókè dé apá kejì ti ẹ̀ka náà.
-ì£1⁄4ë¡ ì ¤í ¬ (block reward) ZEC tuntun tí a dá àti ti ó san bí block kọ̀ọ̀kan bá ṣe ń wa mined.
-Halving Ìṣẹ̀lẹ̀ tí a ṣètò níbi ti èrè ìdìbò náà fi ń dín kù sí méjì.
-íṣàn owó. Ẹ̀rọ ìfọwọ́sowọ́pọ (ZIP 207) tí ó darí apá kan ti àkànṣe ìrànwó sí àwọn adirẹsi olùgba pàtó.
- Sprout pool Zcash's original shielded pool, tí Canopy dáwọ́ gbígba iye tuntun wọlé sí.
+| Founders reward | Àwòṣe ìnáwó àtilẹ̀wá tí ó sanwó fún ìdàgbàsókè Zcash ní ìbẹ̀rẹ̀, tí a ṣètò láti parí ní ìdajì àkọ́kọ́ |
+| Development Fund | Ìpín ogún nínú ọgọ́rùn-ún nínú èrè bulọ́ọ̀kì kọ̀ọ̀kan tí Canopy gbé lọ sí ìdàgbàsókè, ó sáré sí ìdajì kejì |
+| Block reward (subsidy) | ZEC tuntun naa ṣẹda ati sanwo jade bi a ṣe n wa gbogbo bulọọki kọọkan |
+| Halving | Ìṣẹ̀lẹ̀ tí a ti ṣètò níbi tí a ti gé èrè bulọọki náà sí méjì |
+| Funding stream | Ìlànà ìfohùnṣọ̀kan (ZIP 207) tí ó darí apá kan ti ìrànlọ́wọ́ bulọọki sí àwọn àdírẹ́sì olùgbà tí a ti sọ |
+| Sprout pool | Adagun adágún ààbò Zcash's àtilẹ̀wá, èyí tí Canopy dẹ́kun gbígbà iye tuntun sínú rẹ̀ |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 
@@ -89,7 +89,7 @@ Canopy ti ṣiṣẹ ni bulọọki kanna gangan bi idaji akọkọ Zcash. Kí n
 
 [ZIP 214: Àwọn ìlànà ìfọwọ́sowọ́pọ̀ fún Ìpèsè Àkànṣe ti Zcash](https://zips.z.cash/zip-0214)
 
-[ZIP 211: Ṣiṣiṣẹda Afikun ti Iye Tuntun si Awọn ẹka iye Ẹya Agbara Ọja](https://zips.z.cash/zip-0211)
+[ZIP 211: Dídínà Àfikún Iye Tuntun sí Adagun Iye Ẹwọn Sprout](https://zips.z.cash/zip-0211)
 
 [Àtúnṣe sípínlẹ̀-ìmọ́ra Canopy Network Upgrade](https://z.cash/upgrade/canopy/)
 
@@ -109,4 +109,4 @@ Canopy ti ṣiṣẹ ni bulọọki kanna gangan bi idaji akọkọ Zcash. Kí n
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Igi àyà igi](../zcash-tech/heartwood) · Àtúnṣe: [NU5](../zcash-tech/nu5)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Heartwood](../zcash-tech/heartwood) · Àtúnṣe: [NU5](../zcash-tech/nu5)

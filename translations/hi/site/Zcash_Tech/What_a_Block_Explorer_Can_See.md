@@ -56,23 +56,23 @@ Zcash में दो प्रकार के पते होते है�
 
 ## इसे व्यवहार में लागू करें
 
-- ऐसा wallet उपयोग करें जो default रूप से shielded addresses का इस्तेमाल करता हो, जैसे [Zodl](https://zodl.com) या [Ywallet](https://ywallet.app/)।
+- ऐसा wallet उपयोग करें जो default रूप से shielded addresses का इस्तेमाल करता हो, जैसे [ZODL](https://zodl.com) या [Zingo!](https://www.zingolabs.org/)।
 - जब आपको किसी transparent address पर ZEC प्राप्त हो, तो उसे खर्च करने से पहले एक shielded address में स्थानांतरित कर दें।
 - जहाँ संभव हो, shielded addresses पर भुगतान करें। हर transparent भुगतान पूरी तरह सार्वजनिक होता है; shielded भुगतान ऐसा नहीं होता।
 
 ## संसाधन
 
 - [Zcash: गोपनीयता और सुरक्षा संबंधी सिफारिशें](https://z.cash/support/security/privacy-security-recommendations/)
-- [एक shielded ecosystem (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [एक shielded ecosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Zcash technology कैसे काम करती है](https://z.cash/technology/)
 - [Blockchair Zcash explorer](https://blockchair.com/zcash)
 
 ## संबंधित पृष्ठ
 
 - [Zcash की मूल बातें](/start-here/what-is-zec-and-zcash)
-- [Wallets](/using-zcash/wallets)
-- [Shielded pools](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [वॉलेट्स](/using-zcash/wallets)
+- [शील्डेड पूल्स](/using-zcash/shielded-pools)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

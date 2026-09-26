@@ -105,8 +105,7 @@ A equipe da ECC está trabalhando em novos métodos RPC em `zcashd` (substituind
 
 ## Recomendação
 
-Experimente a versão mais recente do **YWallet**!  
-Ela já mostra um "Plano de Transação" na tela antes de você apertar enviar, ajudando você a fazer escolhas mais privadas.
+Esta discussão originalmente apontava para **Ywallet**, pelo plano de transação que mostrava antes de você enviar. Ywallet deixou de ser mantida e não será atualizada para Ironwood, por isso já não consegue acompanhar a cadeia. Em vez disso, escolha uma carteira mantida na página [Carteiras](https://zechub.wiki/wallets) e prefira uma que lhe diga o que uma transação revelará antes de ser enviada.
 
 Ótimo artigo sobre privacidade de transações: https://medium.com/@hanh.huynh/
 

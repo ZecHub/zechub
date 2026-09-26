@@ -20,7 +20,7 @@ Elɔ:
 
 
 
-## Zcash ƒe ŋkɔ 
+## Zcash 
 
 * Elektrɔnik ga si wotsɔ nya ɣaɣlawo ŋlɔe. Cryptocurrency gbãtɔ si to zero-knowledge encryption vɛ na ame ŋutɔ ƒe hatiwo ƒe fexexe.
 

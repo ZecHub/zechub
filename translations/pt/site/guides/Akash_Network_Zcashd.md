@@ -512,7 +512,7 @@ Quando o seu saldo ficar baixo, o Akash irá fechar automaticamente a sua implem
 
 **Documentação Akash**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Exploradores de Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Exploradores de Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Discord do Akash**: [https://discord.akash.network](https://discord.akash.network) (para problemas com fornecedores)
 

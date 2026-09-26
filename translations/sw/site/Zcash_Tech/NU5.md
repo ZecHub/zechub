@@ -47,14 +47,14 @@ NU5 ilifuatia upgrades Zcash ya awali: Overwinter, Sapling, Blossom, Heartwood n
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
- Network Upgrade (NU)  mabadiliko uratibu kwa Zcash ya makubaliano sheria, ulioamilishwa katika block kuweka urefu.
-Orchard. Hifadhi ya maji kulindwa NU5 ilianzisha, kujengwa juu Halo 2 kuthibitisha mfumo.
-Halo 2 mfumo wa kuthibitisha nyuma Orchard kwamba mahitaji hakuna kuaminika kuweka.
-◯ Kuweka salama. Msherehekeo wa mara moja ambao hufanya vigezo vya siri za bwawa na lazima uaminiwe kuharibu hizo.
-☐ Unified anwani. Anwani moja ambayo inaweza kundi wapokeaji kwa ajili ya pool zaidi ya mmoja (ZIP 316)
-◯ id ya tawi la makubaliano. Kitambulisho cha kuashiria ambayo seti ya sheria shughuli ni mali yake.
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Orchard | Bwawa la kuogelea lenye ulinzi NU5 lilianzishwa, limejengwa kwenye mfumo wa kuthibitisha Halo 2 |
+| Halo 2 | Mfumo wa kuthibitisha nyuma ya Orchard ambao hauhitaji usanidi unaoaminika |
+| Trusted setup | Sherehe ya mara moja ambayo hufanya vigezo vya siri vya bwawa la kuogelea na lazima viaminiwe kuviharibu |
+| Unified address | Anwani moja inayoweza kuunganisha vipokezi kwa zaidi ya kundi moja (ZIP 316) |
+| Consensus branch id | Kitambulisho kinachoashiria ni seti gani ya sheria ambazo muamala unamiliki |
 
 ## FAQs
 
@@ -100,7 +100,7 @@ Orchard imejengwa kwenye mfumo wa kuthibitisha Halo 2, ambayo haihitaji usanidi 
 
 [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
 
-[Halo (Habari Njema)](../zcash-tech/halo)
+[Halo](../zcash-tech/halo)
 
 [zk-SNARKS](../zcash-tech/zk-snarks)
 
@@ -110,4 +110,4 @@ Orchard imejengwa kwenye mfumo wa kuthibitisha Halo 2, ambayo haihitaji usanidi 
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Kivuli cha juu](../zcash-tech/canopy) · Kisha: [NU6](../zcash-tech/nu6)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Canopy](../zcash-tech/canopy) · Kisha: [NU6](../zcash-tech/nu6)

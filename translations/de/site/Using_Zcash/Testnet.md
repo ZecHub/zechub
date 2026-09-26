@@ -33,14 +33,14 @@ Ein Wallet-Entwickler kann Software mit einem Testnet-RPC-Endpunkt verbinden und
 
 #### 2. Testen von Netzwerk-Upgrades
 
-Zcash aktualisiert sein Kernprotokoll regelmäßig (z. B. Nu5, Nu6). Im Testnet werden neue Upgrades **vor dem Mainnet** aktiviert, sodass Entwickler und die Community Fehler erkennen und beheben können.
+Zcash aktualisiert sein Kernprotokoll regelmäßig (z. B. NU6.1, NU6.2 und Ironwood). Im Testnet werden neue Upgrades **vor dem Mainnet** aktiviert, sodass Entwickler und die Community Fehler erkennen und beheben können.
 
 **Beispiel:**  
 Eine neue Konsensregel oder ein neuer Transaktionstyp wird zuerst ins Testnet eingespielt. Nach erfolgreichen Tests wird sie bzw. er im Mainnet auf einer vorab festgelegten Blockhöhe aktiviert.
 
 #### 3. Testen von Node-Implementierungen
 
-Zcash unterstützt mehrere Node-Software-Implementierungen – `zcashd` und **Zebra** (eine auf Rust basierende Node, die von der Zcash Foundation gepflegt wird). Das Testnet ermöglicht das Testen von Nodes unter realen Bedingungen ohne finanzielles Risiko.  
+Der gepflegte Zcash-Node ist **Zebra** (der Rust-basierte Node, der von der Zcash Foundation gepflegt wird) und die gepflegte Wallet ist [Zallet](https://github.com/zcash/zallet). `zcashd`, die ursprüngliche Node-Implementierung, erreichte am 18. Juli 2026 seinen automatischen End-of-Support-Halt und wird nicht mehr gepflegt - siehe den [Migrationsleitfaden von zcashd zu Zebra und Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Das Testnet ermöglicht das Testen von Nodes unter realen Bedingungen ohne finanzielles Risiko.
 
 Node-Entwickler können:
 
@@ -130,10 +130,10 @@ Ein **Faucet** ist ein Dienst, der kostenlose TAZ-Coins zum Testen bereitstellt:
 - Dadurch entfällt die Notwendigkeit, TAZ manuell zu minen  
 
 **Beispiel:**  
-1. Besuche ein Testnet-Faucet (z. B. [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. Besuche ein Testnet-Faucet (z. B. [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. Gib deine Testnet-Adresse ein  
 3. Fordere TAZ an  
-4. Erhalte TAZ sofort, um mit dem Testen zu beginnen  
+4. Erhalte TAZ sofort, um mit dem Testen zu beginnen
 
 **Warum das wichtig ist:**  
 - Sicheres Testen ohne ZEC zu riskieren  

@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Dziɖuɖua ƒe Nyatakakadzraɖoƒe](https://zingolabs.org/) - [Github ƒe ŋkɔ](https://github.com/zingolabs) - [X/Twitter dzi](https://x.com/ZingoLabs) - [Instagram dzi](https://www.instagram.com/zingolabesp/)
+[Dziɖuɖua ƒe Nyatakakadzraɖoƒe](https://zingolabs.org/) - [Github ƒe ŋkɔ](https://github.com/zingolabs) - [X/Twitter dzi](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs nye ŋutegakpɔlawo ƒe ƒuƒoƒo si tsɔ wo ɖokui na be yewoana amegbetɔ ƒe nuteƒekpɔkpɔ nanyo ɖe edzi. Míexɔe se be ele be mɔ̃ɖaŋununya naɖe vi na ameƒomea eye be míakpɔ dzidzedze to kadodo siwo dzi wolɔ̃ ɖo me. Míele dzesi dem kpɔɖeŋu siwo na esia te ŋu dzɔna.
 
@@ -11,7 +11,7 @@ Zingo Lab Cyan wɔa dɔ abe Shielded DAO ene. Míedzraa míaƒe ga ɖo ɖe gaxɔ
 ### Zingo! Gakotoku ([Github](https://github.com/zingolabs/zingo-mobile))
 Zingo Wallet nye Zcash gakotoku si me nusianu le si wowɔ na ezãla xɔlɔ̃wɔwɔtɔe, togbɔ be nɔnɔme deŋgɔ aɖewo le eme na ezãla siwo de ŋgɔ wu hã. Edoa alɔ transparent, Sapling kple Orchard pools, adrɛsgbalẽ le esi na fexexe enuenu eye wòle gbegbɔgblɔ vovovowo me. Enye gakotoku gbãtɔ si do alɔ Orchard eye wòwɔ NU5 ƒe nɔnɔmewo ŋudɔ.
 
-Zingo ƒe nɔnɔme veviwo dometɔ ɖeka! nye ŋutete si le esi be wòazã Memo ƒe akpaa atsɔ ana gɔmesese veviwo tso wò asitsatsa ŋu.
+Zingo! nye ŋutete si le esi be wòazã Memo ƒe akpaa atsɔ ana gɔmesese veviwo tso wò asitsatsa ŋu.
 
 Zingo! la li na asitelefonwo kple PC-wo. Àkpɔ nusiwo katã woɖe ɖe go [le afisia](https://zingolabs.org/)
 

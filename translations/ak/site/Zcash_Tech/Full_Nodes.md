@@ -8,7 +8,7 @@ Full Node yɛ software a ɛyɛ cryptocurrency biara blockchain no mfonini a edi 
 
 Ɛkura kyerɛwtohɔ a edi mũ a ɛfa asɛm biara a asi fi genesis ho na enti ɛtumi hwɛ sɛ nkitahodi foforo ne blocks a wɔde aka blockchain no ho no yɛ nokware.
 
-## Zcashd na ɛyɛ adwuma
+## Zcashd
 
 > **Hyɛ no nsow:** wɔregyae zcashd. Electric Coin Company no [abɔ amanneɛ wɔ ɔkwan a ɛfata so](https://z.cash/support/zcashd-deprecation/) sɛ wɔregyae zcashd, a wɔde [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) ne ne sika kotoku dwumadi a [Zallet](https://github.com/zcash/zallet). Sɛ wopɛ deployments foforo a, fa Zebra di dwuma (hwɛ ase hɔ). Sɛ woreyɛ zcashd node dedaw a, di [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
 
@@ -70,7 +70,7 @@ Hwɛ sɛ wobɛkenkan Zebra nwoma no ama nhyehyeɛ akwankyerɛ, na kɔka R&D Disc
 
 [The Zebra Book](https://zebra.zfnd.org) 
 
-[Akasakasa](https://discord.gg/uvEdHsrb)
+[Discord](https://discord.gg/uvEdHsrb)
 
 
 
@@ -90,7 +90,7 @@ Eyinom yɛ nhwɛso platform ahorow a ɛma kwan ma wotumi kɔ Zcash Network data 
 
 [Nneɛma a wɔde yɛ nneɛma](https://docs.coinmetrics.io/info/assets/zec)
 
-[Akongua a wɔde si dan mu](https://blockchair.com/zcash)
+[Blockchair](https://blockchair.com/zcash)
 
 Wo nso wobɛtumi aboa ama ntwamutam no anya nkɔsoɔ denam sɔhwɛ a wobɛtu mmirika anaasɛ wobɛhyɛ nkɔsoɔ foforɔ ho nyansa & metrics a wode bɛma. 
 

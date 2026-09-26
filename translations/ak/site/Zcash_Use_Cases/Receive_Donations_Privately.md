@@ -33,7 +33,7 @@ Cryptocurrencies dodow no ara da biribiara adi:
 Eyi de asiane ahorow a anibere wom ba:
 - Sikasɛm mu kokoam nsɛm a wɔhwere
 - Targeting anaa surveillance a wɔde wɔn ani si so
-- Wɔn a wɔde mmoa ma no a wɔda wɔn ho adi wɔ baguam
+- Ɔmanfo a wɔda wɔn ho adi wɔ wɔn a wɔde mmoa ma no ho
 
 <br/>
 
@@ -52,7 +52,7 @@ Wei ma wotumi nya sika **a worenda wo sikasɛm ho mfonini adi**.
 
 - Zcash sika kotoku a ɛboa address ahorow a wɔabɔ ho ban:
   - Zodl
-  - YWallet na ɛyɛ adwuma
+  - Zingo!
   - Sika kotoku afoforo a wɔboa
 
 <br/>
@@ -68,7 +68,7 @@ Eyi taa fi ase wɔ: `zs...`
 
 - Twerɛ wo z-address no wɔ:
   - Wɛbsaet no
-  - Social media sohyial media
+  - Social media ho nsɛm
   - Ntoboa ho nkratafa
 
 **MMFA address a ɛda adi pefee (t) nkyɛ.**
@@ -77,7 +77,7 @@ Eyi taa fi ase wɔ: `zs...`
 
 Hyɛ wɔn a wɔde mmoa ma no nkuran sɛ:
 - Fa sika kotoku a ɛboa nnwuma a wɔabɔ ho ban di dwuma
-- Fa fi atare a wɔabɔ ho ban (ɛnyɛ nea ɛda adi pefee) so mena .
+- Fa fi atare a wɔabɔ ho ban mu (ɛnyɛ nea ɛda adi pefee) soma .
 
 ### Anamɔn 4: Kura Kokoam Nsɛm Ho Ahotew Mfitiase Mu
 

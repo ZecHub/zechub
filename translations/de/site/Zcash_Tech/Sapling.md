@@ -42,9 +42,9 @@ Sapling folgte auf Overwinter, das Upgrade vom Juni 2018, das den Upgrade-Mechan
 |---|---|
 | Shielded transaction | Eine private Zcash-Transaktion, die Absender, Empfänger und Betrag verbirgt. |
 | Sprout | Das ursprüngliche shielded Protokoll, mit dem Zcash gestartet ist, langsamer und schwergewichtiger als Sapling. |
-| Spend- und Output-Circuits | Die zwei neuen Proving-Circuits von Sapling, die den einzelnen JoinSplit-Circuit von Sprout ersetzten. |
-| Diversifizierte Adresse | Eine von vielen nicht verknüpfbaren Zahlungsadressen, die du aus einem einzigen Schlüssel ableiten kannst. |
-| Viewing Key | Ein Schlüssel, der es jemandem erlaubt, die Transaktionen einer Wallet zu sehen, ohne daraus Geld ausgeben zu können. |
+| Spend and Output circuits | Die zwei neuen Proving-Circuits von Sapling, die den einzelnen JoinSplit-Circuit von Sprout ersetzten. |
+| Diversified address | Eine von vielen nicht verknüpfbaren Zahlungsadressen, die du aus einem einzigen Schlüssel ableiten kannst. |
+| Viewing key | Ein Schlüssel, der es jemandem erlaubt, die Transaktionen einer Wallet zu sehen, ohne daraus Geld ausgeben zu können. |
 | Consensus branch id | Ein kurzer Code, der dem Netzwerk mitteilt, welchen Upgrade-Regeln eine Transaktion folgt. |
 
 ## FAQ

@@ -30,7 +30,7 @@ ZEC ofrece a las personas la posibilidad de transferir datos sin permisos. Tener
 
 [El caso de Zcash y la privacidad](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Un ecosistema blindado](https://electriccoin.co/blog/shielded-ecosystem/)
+[Un ecosistema blindado](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Recomendaciones de privacidad de Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash resuelve el mayor defecto de Bitcoin: la propiedad y transferencia privada
 
 [Cómo funciona](https://z.cash/technology/)
 
-[El HTTPS de las blockchains](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## Páginas relacionadas
 
-- [Guía para nuevos usuarios](/start-here/new-user-guide) — Incorporación paso a paso para nuevos poseedores de ZEC
-- [Billeteras](/using-zcash/wallets) — Elige una billetera blindada para guardar tu ZEC
+- [Guía para nuevos usuarios](/start-here/new-user-guide) — Incorporación paso a paso para nuevos titulares de ZEC
+- [Wallets](/using-zcash/wallets) — Elige una wallet blindada para guardar tus ZEC
 - [Comprar ZEC](/using-zcash/buying-zec) — Dónde y cómo adquirir ZEC
-- [Pools blindados](/using-zcash/shielded-pools) — Cómo los pools de Zcash mantienen las transacciones privadas
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — La criptografía detrás de la privacidad de Zcash
+- [Pools blindados](/using-zcash/shielded-pools) — Cómo los pools de Zcash mantienen privadas las transacciones
+- [zk-SNARKs](/zcash-tech/zk-snarks) — La criptografía detrás de la privacidad de Zcash

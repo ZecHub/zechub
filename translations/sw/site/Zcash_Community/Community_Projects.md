@@ -10,7 +10,7 @@ Gundua zana, pochi, programu, maktaba na mipango ya mazingira iliyojengwa na jam
 Kitabu cha kazi ya elimu iliyoundwa na jamii Zcash kimataifa. 
 [Kutembelea](https://github.com/massadoptionorg/My-First-Zcash)
 
-### ZECKuchapisha
+### ZECPublish
 Upinzani-kubadilisha, Zcash blockchain powered kijamii vyombo vya habari. Ni pamoja na directory ya watumiaji wa Zcash na bila majina ujumbe bodi. 
 [Kutembelea](https://www.zecpublish.com)
 
@@ -42,7 +42,7 @@ Faragha-kwanza audiovisual pamoja kwamba treni, co-creates, na hutoa kujitolea A
 Yaliyomo ya elimu kwa watumiaji wapya wa Zcash na watengenezaji. 
 [Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
-### Zectastic (Kifungu cha Kijani)
+### Zectastic
 Tovuti ya maingiliano inayoonyesha michezo yenye mada za Zcash na hafla za jamii moja kwa moja. 
 [Kutembelea](https://zectastic.com/)
 
@@ -75,7 +75,7 @@ Malipo binafsi kwa ajili ya mtandao. Non-matayarisho, hakuna KYC wafanyabiashara
 
 ### Ezcash
 Rahisi kutumia, kikamilifu featured multiplatform Zcash mkoba na msaada autoshielding. 
-[Kutembelea](https://blog.nerdbank.net/ezcash-app)
+[Kutembelea](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Kipaji Nozy
 Orchard-ililenga Zcash mkoba kujengwa kwa Zebrad, kusaidia shughuli kikamilifu ulinzi na usimamizi wa usalama muhimu. 
@@ -89,7 +89,7 @@ Malipo gateway kwamba lets watumiaji kutumia shielded ZEC juu ya kununua halisi 
 Open-chanzo faragha mkoba kwa Zcash na Penumbra. Browser ugani pamoja na upande wa wateja kuthibitisha, alithibitisha mwanga-mteja usanifu, baridi kusaini, FROST multisig, na hakuna kuona ufunguo kuondoka kifaa. 
 [Kutembelea](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
-### ZGo (Kipindi cha Kiangazi)
+### ZGo
 Zcash Register ambayo inawezesha wauzaji na wafanyabiashara kukubali malipo ya Zcash. 
 [Kutembelea](https://zgo.cash)
 
@@ -113,7 +113,7 @@ faragha-umakini Zcash mkoba iliyoundwa kwa ajili ya shughuli rahisi na binafsi Z
 Lengo makao akiba mkoba kujengwa juu ya Zcash ulinzi shughuli. 
 [Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
-### Shule ya Zkool
+### Zkool
 Mrithi wa Ywallet kusaidia karibuni Zcash itifaki makala ikiwa ni pamoja na Orchard. 
 [Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
@@ -126,7 +126,7 @@ Multi-chain, wazi chanzo, binafsi custodial mkoba ambayo inasaidia kutuma, kupok
 [Kutembelea](https://gemwallet.com/)
 
 ### TIPZ
-Kuishi yasiyo ya kizuizini tipping jukwaa ambapo kila ncha hufika kama ZEC ulinzi. Inasaidia msalaba-mnyororo juu ramps kupitia NEAR Makusudi. 
+Kuishi yasiyo ya kizuizini tipping jukwaa ambapo kila ncha hufika kama ZEC ulinzi. Inasaidia msalaba-mnyororo juu ramps kupitia NEAR Intents. 
 [Kutembelea](https://tipz.cash/)
 
 ### CYZE
@@ -191,7 +191,7 @@ Ulinzi wa faragha kwanza soko la mazingira Zcash. Malipo ya kukaa moja kwa moja 
 ### Zecsite
 Tovuti ya kijiografia inayolenga faragha ambayo inakusanya habari za Zcash, takwimu na yaliyomo kwenye elimu bila kutumia JavaScript.
 
-[Kutembelea](https://zecsite/org)
+[Kutembelea](https://zecsite.org/netscape/en/index.html)
 
 [Mkutano wa Majadiliano](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
@@ -220,7 +220,7 @@ Browser ugani kwamba hubadilisha bei fiat fedha kwa ZEC katika muda halisi kama 
 Jukwaa la kukiri bila majina linalodhibitiwa na faragha ya Zcash. 
 [Kutembelea](https://shieldedwall.org/)
 
-### Ztrash (Takataka)
+### Ztrash
 Disposable barua pepe inbox kulipwa kwa ajili ya na ulinzi ZEC. 
 [Kutembelea](https://ztrash.com/)
 
@@ -291,7 +291,7 @@ Zcash-asili DEX kwamba huleta shielded ZEC katika Web3 DeFi kupitia WalletConnec
 Decreds madaraka kubadilishana kwamba inasaidia Zcash. 
 [Kutembelea](https://dex.decred.org)
 
-### Mkoba Jasiri
+### Brave Wallet
 Browser mkoba na msaada Zcash. 
 [Kutembelea](https://brave.com/wallet/)
 

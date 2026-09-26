@@ -39,7 +39,7 @@ Adanse a wɔhyehyɛ no mpɛn pii no ma adanse biako di adanse sɛ ɛkame ayɛ s�
 
 Ansa na Halo reba no, na sɛ wobenya recursive proof composition a, na ɛhwehwɛ sɛ wɔbɔ ka kɛse wɔ kɔmputa so ne nhyehyɛe a wotumi de ho to so. Nneɛma titiriw a wohui no mu biako ne ɔkwan bi a wɔfrɛ no **nested amortization**. Saa kwan yi ma kwan ma wɔde polynomial commitment scheme a egyina inner product argument so yɛ recursive composition, ɛma adwumayɛ tu mpɔn kɛse na ɛkwati nhyehyɛe a wogye di no.
 
-Wɔ [Halo krataa](https://eprint.iacr.org/2019/1021.pdf), yɛkyerɛkyerɛɛ saa polynomial commitment nhyehyɛe yi mu yiye na yehui sɛ aggregation technique foforo bi wɔ mu. Ɔkwan a wɔfa so yɛ no ma wotumi di adanse dodow bi a wɔde wɔn ho ayɛ a ɛkame ayɛ sɛ ɛyɛ nokware ntɛmntɛm te sɛ nea wɔde di adanse biako ho adanse. Eyi nkutoo bɛma woanya ɔkwan foforo a eye sen zk-SNARK ahorow a atwam a wɔde dii dwuma wɔ Zcash mu no.
+Wɔ [Halo krataa](https://eprint.iacr.org/2019/1021.pdf), yɛkyerɛkyerɛɛ saa polynomial commitment nhyehyɛe yi mu yiye na yehui sɛ aggregation technique foforo bi wɔ mu. Ɔkwan a wɔfa so yɛ no ma wotumi di adanse dodow bi a wɔde wɔn ho ayɛ a ɛkame ayɛ sɛ ɛyɛ nokware ntɛmntɛm te sɛ nea wɔde di adanse biako ho adanse. Eyi nkutoo bɛma woanya ɔkwan foforo a eye sen zk-SNARKs a atwam a wɔde dii dwuma wɔ Zcash.
 
 
 ### Halo 2. Nsɛm a wɔka kyerɛ
@@ -96,17 +96,17 @@ Halo 2 adanseɛ a wɔde bedi dwuma ama Verifiable Delay Function (VDF) a ɛyɛ a
 
 Wobetumi de adi dwuma sɛ fibea a atirimpɔw nyinaa randomness a nea ɛka ho ne dwumadie wɔ smart contract applications ne saa ara nso na ɔkannifo paw wɔ Proof of Stake wɔ Ethereum & protocols afoforo.
 
-ECC, Filecoin Fapem, Protocol Labs, ne Ethereum Fapem nso ne wɔn bɛyɛ adwuma [Ɔman a ɛboro so](https://www.supranational.net/), adetɔnfo a ne ho akokwaw wɔ hardware-accelerated cryptography mu, ma GPU ne ASIC nhyehyɛe a ebetumi aba ne VDF no nkɔso.
+ECC, Filecoin Fapem, Protocol Labs, ne Ethereum Fapem nso ne wɔn bɛyɛ adwuma [SupraNational](https://www.supranational.net/), adetɔnfo a ne ho akokwaw wɔ hardware-accelerated cryptography mu, ma GPU ne ASIC nhyehyɛe a ebetumi aba ne VDF no nkɔso.
 
 No [Kokoamsɛm ne Scaling Nhwehwɛmu kuw](https://appliedzkp.org/) nso reyɛ nhwehwɛmu wɔ akwan ahodoɔ a Halo 2 adanseɛ bɛtumi ama kokoamsɛm ne scalability atu mpɔn ama Ethereum ecosystem. Saa kuw yi roll up kɔ Ethereum fapem no so, na ɛwɔ adwene a ɛtrɛw wɔ zero-nimdeɛ adanse ne cryptographic primitives so. 
 
 ## Nnwuma afoforo a wɔde Halo di dwuma
 
-+ [Anoma, kokoam nsɛm a wɔkora so multichain atom swap protocol](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, kokoam nsɛm a wɔkora so multichain atom swap protocol](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, a ɛyɛ L2 zkRollup a ɛwɔ Cardano so](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, a ɛyɛ kokoam L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, a ɛyɛ kokoam L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, L2 zkRollup a ɛwɔ Ethereum so](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ No [Kokoamsɛm ne Scaling Nhwehwɛmu kuw](https://appliedzkp.org/) nso reyɛ nhw
 
 **Nwoma a wɔakyerɛw**
 
-[Halo 2 nneɛma a wɔde yɛ adwuma](https://github.com/adria0/awesome-halo2)
+[Halo 2 nneɛma a wɔde yɛ adwuma](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2 ho nsɛm a wɔakyerɛw](https://zcash.github.io/halo2/)
 

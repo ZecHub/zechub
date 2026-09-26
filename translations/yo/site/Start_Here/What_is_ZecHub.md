@@ -6,7 +6,7 @@
 # Kí ni ZecHub?
 ---
 
-ZecHub jẹ a decentralized eko hub fun Zcash. Awọn ìlépa ti [ZecHub] ni lati mu awọn oniwe-ašẹ ati ki o ṣe awari gbogbo owo, bi daradara bi ohun elo to wa ninu rẹ.](http://zechub.xyz) ni lati pese pẹpẹ ẹkọ nibi ti awọn ọmọ ẹgbẹ agbegbe le ṣiṣẹ papọ lori ṣiṣe, idanimọ ati igbega akoonu ti o ṣe atilẹyin ilolupo eda abemi Zcash. A ṣe eyi nipasẹ diẹ ninu awọn ilana kan.
+ZecHub jẹ a decentralized eko hub fun Zcash. Awọn ìlépa ti [ZecHub](http://zechub.xyz) ni lati pese pẹpẹ ẹkọ nibi ti awọn ọmọ ẹgbẹ agbegbe le ṣiṣẹ papọ lori ṣiṣe, idanimọ ati igbega akoonu ti o ṣe atilẹyin ilolupo eda abemi Zcash. A ṣe eyi nipasẹ diẹ ninu awọn ilana kan.
 
 1. [Àwọn ìdánilẹ́kọ̀ọ́](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
 2. [Àwọn ìwé-ìwé Wiki](https://zechub.wiki/)
@@ -33,7 +33,7 @@ Ti o ba ti wa ni titun si Zcash, lo [yi guide](/start-here/new-user-guide).****
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>

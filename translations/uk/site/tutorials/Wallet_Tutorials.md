@@ -7,7 +7,7 @@
 Нижче наведено список посібників із гаманців, які допоможуть вам розпочати роботу з ZEC.
 
 
-- Гаманець Zodl
+- Гаманець ZODL 
 
 [![Мініатюра відео](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 
@@ -19,6 +19,8 @@ ____
 [![Мініатюра відео](/content-images/hqdefault-02389a1b67.webp)](https://www.youtube.com/watch?v=ao4ORC_VNcY)
 
 ____ 
+
+> Три відео про Ywallet нижче збережено для довідки. Ywallet більше не підтримується й не оновлюватиметься для Ironwood, тому більше не може відстежувати блокчейн. Оберіть гаманець, що підтримується, на сторінці [Гаманці](https://zechub.wiki/wallets).
 
 - Холодне зберігання Ywallet
 
@@ -33,14 +35,14 @@ ____
 
 ____
 
-- Функція Multipay у Ywallet
+- Функція мультиплатежів Ywallet
 
 [![Мініатюра відео](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
 
 
 ____
 
-- Посібник з гаманця Unstoppable 
+- Посібник із Unstoppable Wallet 
 
 [![Мініатюра відео](/content-images/hqdefault-8ecdd85617.webp)](https://www.youtube.com/watch?v=B9tpkgVRsq4)
 

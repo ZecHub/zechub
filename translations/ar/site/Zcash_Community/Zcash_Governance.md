@@ -129,7 +129,7 @@ Zcash هي عملة مشفرة تعتمد على Proof-of-Work. كل كتلة ي
 - ZIP 1015 (تغيير تمويل NU6) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
 - ZIP 1016 (نموذج حاملي العملات المقترح) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - مقترحات تحسين Zcash -> [zips.z.cash](https://zips.z.cash)  
-- بوابة Zcash Community Grants -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com) (أو موقع FPF الحالي)
+- بوابة Zcash Community Grants -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 
 ## 6. لوحة معلومات Lockbox
 

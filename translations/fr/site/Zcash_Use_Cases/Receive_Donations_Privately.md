@@ -52,7 +52,7 @@ Cela vous permet de recevoir des fonds **sans exposer votre graphe financier**.
 
 - Un portefeuille Zcash prenant en charge les adresses blindées :
   - ZODL
-  - YWallet
+  - Zingo!
   - Autres portefeuilles compatibles
 
 <br/>

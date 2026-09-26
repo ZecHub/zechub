@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Osisi ígwè
+# Ironwood
 
-> Ironwood na-arụ ọrụ na Zcash mainnet na ngọngọ 3,428,143, nke a tụrụ anya gburugburu July 28, 2026 UTC.
+> Ironwood arụ ọrụ na Zcash mainnet na ngọngọ 3,428,143 na July 28, 2026 UTC, ọ nọkwa ndụ kemgbe.
 
 Ihe ị ga-ewepụ: ihe Ironwood gbanwere, gịnị mere ahụhụ dị na ego zoro ezo ji bụrụ nke siri ike, nakwa etu turnstile si eme ka onye ọ bụla kwenye na e meghị ZEC.
 
@@ -18,7 +18,7 @@ Why this matters. With transparent money like Bitcoin, anyone can check that no 
 
 ## Ihe Mere Osisi Ironwood Ji Dị Mkpa
 
-Na ngwụcha ọnwa Mee 2026, onye nyocha nchekwa onwe ya Taylor Hornby, n'oge nyochaa usoro maka [Ụlọ nyocha echekwara](../zcash-organizations/shielded-labs), responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo (ụtụtụ ọma)](../zcash-tech/halo) 2 na-egosi usoro.
+Na ngwụcha ọnwa Mee 2026, onye nyocha nchekwa onwe ya Taylor Hornby, n'oge nyochaa usoro maka [Ụlọ nyocha echekwara](../zcash-organizations/shielded-labs), responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo](../zcash-tech/halo) 2 na-egosi usoro.
 
 1. Ihe na-egosi na azụmahịa bụ nke ziri ezi abụghị ihe ga-eme ka o doo anya.
 2. Na usoro iwu, onye na-awakpo nwere ike iji ntụpọ ahụ mepụta uru adịghị mma n'ime ọdọ mmiri Orchard ma jiri ego ndị na - abụghị nke ha mee ihe, hapụ enweghị akara ọ bụla node nkịtị ga - ejide.
@@ -34,7 +34,7 @@ Importantly, there is no evidence the bug was ever exploited, no evidence of imp
 
 Ndị obodo Zcash zigara ndozi na nkebi kama ịbụ otu oge.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates around July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. Na mbido June 2026, ihe na-adịru nwa oge gbanyụrụ ọdọ mmiri Orchard ka a kwadebere idozi ya.
 2. Nwelite NU6.2 doziri usoro Orchard n'onwe ya, na-emechi nsogbu ahụ dị mkpa.
@@ -46,7 +46,7 @@ Ndị obodo Zcash zigara ndozi na nkebi kama ịbụ otu oge.
 
 NU6.2 nwetara usoro Orchard maka azụmahịa ọhụrụ niile, mana uru e mepụtara n'okpuru iwu ochie ka na-anọdụ na ọdọ mmiri nke Orchard. Ironwood nyere uru ahụ ebe dị ọcha yana ụzọ iji nyochaa ya mgbe ọ na-agagharị.
 
-The Ironwood pool is a new shielded value pool created when NU6.3 activates. It is built on the corrected circuit and uses a quantum-recoverable note format (a design that lets funds be recovered if [kọmputa quantum](../zcash-tech/post-quantum-security) mgbe ọ bụla mebie cryptography nke taa), akọwapụtara na [ZIP 2005 Ihe ndị dị na peeji nke 3](https://zips.z.cash/zip-2005).
+Ogwe Ironwood bụ oghere ego echekwara nke NU6.3 mepụtara na ngọngọ 3,428,143. Ọ wuru n'elu usoro a gbaziri agbazi ma jiri ụdị mpempe akwụkwọ nwere ike weghachite (atụmatụ nke ga-eme ka eweghachi ego ọ bụrụhaala na ị nweta ya) [kọmputa quantum](../zcash-tech/post-quantum-security) mgbe ọ bụla mebie cryptography nke taa), akọwapụtara na [ZIP 2005 Ihe ndị dị na peeji nke 3](https://zips.z.cash/zip-2005).
 
 1. Mgbe arụ ọrụ, ọdọ mmiri ochie Orchard na-aghọ naanị mmefu ego, yabụ enweghị uru ọhụụ nwere ike ịbanye n'ime ya.
 2. Uru ọhụrụ a na-echebe gafere n'ime Ironwood kama.
@@ -72,14 +72,14 @@ Wallets and node software handle most of this automatically, but the practical s
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-❖ Ebe a na-edebe ego ndị e zoro ezo. A naghị eji ihe ọ bụla amata onye nwe ha ma ọ bụ otú o si dịrị ya.
-◯ Nrụpụta nke ezi uche. Njehie na-eme ka azụmahịa adịghị mma gafere nyocha nkwenye dị ka a ga - asị na ọ bụ ezigbo ya.
-◯ Turnstile ❑ Ebe a na-enyocha ihe n'ihu ọha nke na-agụpụta ego ndị e bufeere ha ka ọ bụrụzie onye ga-ahụ maka ya.
--Naanị-emefu: A ọdọ mmiri ị nwere ike imefu si, ma enweghị ike tinye ọhụrụ uru na...
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
- Quantum-recoverable note. Ụdị akwụkwọ ego e mere ka a na-enweta ego ma ọ bụrụ na kọmputa kọmpụta mebie ihe ndị dị n'akwụkwọ nzuzo taa.
+| Shielded pool | Nchịkọta ego nke ego na ndị nwe ya zoro ezo site na nzuzo efu |
+| Soundness bug | Njehie nke na-ekwe ka azụmahịa na-ezighi ezi gafere nyocha akaebe dị ka a ga-asị na ọ dị irè |
+| Turnstile | Ebe nlele ọha nke na-agụta uru na-agagharị n'etiti ọdọ mmiri ka ọkọnọ ahụ wee nọgide na-enyocha ya |
+| Spend-only | Ọdọ mmiri ị nwere ike iji, mana ị gaghị etinye uru ọhụrụ na ya |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Quantum-recoverable note | E mere usoro ndetu ka e wee nweta ego ma ọ bụrụ na kọmputa quantum emebie ihe ndekọ ego nke oge a |
 
 ## Ajụjụ ndị a na-ajụkarị
 
@@ -119,7 +119,7 @@ Site na turnstile. A na-agụta mkpụrụ ego ọ bụla nke si n'ọdọ mmiri
 
 [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools)
 
-[Halo (ụtụtụ ọma)](../zcash-tech/halo)
+[Halo](../zcash-tech/halo)
 
 [zk-SNARKS](../zcash-tech/zk-snarks)
 

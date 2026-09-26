@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nini block explorer unaweza kuona juu ya Zcash
+# Kile ambacho mchunguzi wa block anaweza kuona kwenye Zcash
 
 ## TL;DR
 
-- Katika Bitcoin, block explorer inaonyesha kila kitu: mtumaji, mpokeaji na kiasi.
-- Juu ya Zcash, hiyo ni kweli tu kwa ajili ya uwazi (t-anwani) shughuli.
-- Mvumbuzi anaweza kuona pesa zikiingia na kutoka katika dimbwi hilo, lakini hawezi kuona kinachotendeka ndani yake.
-- Utaftaji uliofichwa kabisa (z hadi z) hauonyeshi mtumaji, mpokeaji na kiasi chochote.
-- Yoyote ya umma "ngao kiwango" takwimu ni sakafu, kwa sababu shughuli binafsi kabisa haionekani kutoka nje.
+- Kwenye Bitcoin, mchunguzi wa block anaonyesha kila kitu: mtumaji, mpokeaji, na kiasi.
+- Kwenye Zcash, hiyo ni kweli tu kwa shughuli ya uwazi (anwani ya t).
+- Mchunguzi anaweza kuona pesa zikiingia na kutoka kwenye bwawa lililofunikwa, lakini si kile kinachotokea ndani yake.
+- Miamala iliyolindwa kikamilifu (z hadi z) haionyeshi mtumaji, mpokeaji, na kiasi.
+- Takwimu yoyote ya "kiwango cha ngao" ya umma ni sakafu, kwa sababu shughuli za kibinafsi kabisa hazionekani kutoka nje.
 
 ---
 
@@ -18,62 +18,62 @@
 
 Zcash ina aina mbili za anwani.
 
-A ** anwani ya uwazi** huanza na `t` na kazi kama anwani Bitcoin. mizani na malipo ni ya umma.
+**Anwani ya uwazi** huanza na `t` na hufanya kazi kama anwani ya Bitcoin. Salio na malipo ni ya umma.
 
-** anwani ya ulinzi** huanza na `z` Mtandao unaweza kuthibitisha malipo ulinzi ni halali bila kufunua mtumaji, mpokeaji au kiasi.
+Anwani ya **Anwani iliyolindwa** huanza na `z` na inalindwa na ushahidi usio na ufahamu. Mtandao unaweza kuthibitisha kuwa malipo yaliyolindwa ni halali bila kufichua mtumaji, mpokeaji, au kiasi.
 
-Because there are two types, value can move in four ways: transparent to transparent (t to t), transparent to shielded (t to z, called shielding), shielded to transparent (z to t, called deshielding), and shielded to shielded (z to z, fully private).
+Kwa sababu kuna aina mbili, thamani inaweza kuhama kwa njia nne: uwazi hadi uwazi (t hadi t), uwazi hadi ulindwa (t hadi z, inayoitwa shielding), iliyolindwa hadi uwazi (z hadi t, inayoitwa deshielding), na iliyolindwa hadi ulindwa (z hadi z, faragha kikamilifu).
 
-## Mambo ambayo mchunguzi anaweza kuona
+## Kile ambacho mchunguzi anaweza kuona
 
-Mtafiti wa umma kama vile [Kiti cha magurudumu](https://blockchair.com/zcash) unaweza kusoma wazi:
+Mchunguzi wa umma kama vile [Blockchair](https://blockchair.com/zcash) inaweza kusoma waziwazi:
 
-- Yoyote malipo ya uwazi (t kwa t), mwisho hadi mwisho.
-- Fedha kuingia katika hifadhi ya kulindwa (upande wa uwazi na kiasi).
-- Fedha kuacha pool shielded (upande wa uwazi na kiasi).
-- Jumla ZEC uliofanyika katika kila hifadhi kulindwa, ambayo ni ya umma ili mtandao unaweza kuthibitisha hakuna sarafu ziliundwa kutoka chochote.
+- Malipo yoyote ya uwazi kamili (t hadi t), kuanzia mwanzo hadi mwisho.
+- Pesa zinazoingia kwenye bwawa lenye ngao (upande unaoonekana na kiasi).
+- Pesa zinazotoka kwenye bwawa lililofunikwa (upande unaoonekana na kiasi).
+- Jumla ya ZEC ilishikiliwa katika kila bwawa lililolindwa, ambalo ni la umma kwa hivyo mtandao unaweza kuthibitisha kuwa hakuna sarafu zilizoundwa kutoka kwa kitu chochote.
 
-Kwa kifupi, kingo za bwawa kulindwa ni kuonekana. Unaweza kuangalia thamani kuvuka ndani na nje.
+Kwa kifupi, kingo za bwawa lililofunikwa zinaonekana. Unaweza kutazama thamani ikiingia na kutoka.
 
-## Kile ambacho mtafiti hawezi kuona
+## Kile ambacho mchunguzi hawezi kuona
 
-Mtafiti wa umma hawezi kusoma:
+Mchunguzi wa umma hawezi kusoma:
 
-- Kikamilifu kulindwa (z kwa z) shughuli. mtumaji, mpokeaji na kiasi kubaki siri.
-- Mtumaji au mpokeaji nyuma ya malipo yoyote kulindwa.
-- usawa wa anwani binafsi shielded.
-- Nini kinatokea kwa fedha mara moja wao ni ndani ya bwawa.
+- Miamala iliyolindwa kikamilifu (z hadi z). Mtumaji, mpokeaji, na kiasi hubaki kimefichwa.
+- Mtumaji au mpokeaji anayehusika na malipo yoyote yaliyolindwa.
+- Salio la anwani ya mtu binafsi iliyolindwa.
+- Nini kitatokea kwa fedha zinapokuwa ndani ya bwawa la kuogelea?
 
-Query data ghafi na walinzi wa mtumaji na mpokeaji mashamba kurudi tupu. Explorer si kuficha hii kwa uchaguzi. Ni kamwe juu ya mnyororo umma katika fomu readable. habari ni encrypted, na tu mtu mwenye haki kuangalia muhimu anaweza kusoma hiyo.
+Uliza data ghafi na sehemu za mtumaji na mpokeaji zilizolindwa zinarudi tupu. Mchunguzi hafichi hili kwa hiari yake. Halikuwahi kuwa kwenye mnyororo wa umma katika umbo linaloweza kusomeka. Taarifa hiyo imesimbwa kwa njia fiche, na ni mtu mwenye ufunguo sahihi wa kutazama pekee anayeweza kuisoma.
 
-## Kwa nini ni muhimu?
+## Kwa nini ni muhimu
 
-Faragha yako hutokana na cryptography, si kutoka kuamini kampuni.** mtoa data hawezi kuangalia ndani ya shughuli kulindwa hata kama anataka.
+**Faragha yako inatokana na usimbaji fiche, si kutokana na kuiamini kampuni.** Mtoa huduma wa data hawezi kuangalia ndani ya muamala uliolindwa hata kama anataka.
 
-Takwimu za kiwango cha ulinzi wa umma hazingatii faragha.* Watafiti wanaweza kupima tu kile kinachovuka mpaka wa umma, kwa hivyo kiasi halisi cha shughuli ya kibinafsi ni angalau wanachoripoti, na kawaida zaidi.
+**Idadi za kiwango cha ulinzi wa umma hupungua thamani ya faragha.** Watafiti wanaweza kupima tu kile kinachovuka mipaka ya umma, kwa hivyo kiasi halisi cha shughuli za kibinafsi ni angalau kile wanachoripoti, na kwa kawaida zaidi.
 
-**Kikundi kikubwa cha walinzi kinalinda kila mtu.** Watu wengi wanaotumia anwani za ulinzi, umati mkubwa zaidi wa malipo yoyote ya kibinafsi hujificha. Kutumia anani iliyohifadhiwa husaidia kukulinda wewe na watu wengine wote kwenye kikosi hicho.
+**Dimbwi kubwa lenye ngao hulinda kila mtu.** Kadiri watu wengi wanavyotumia anwani zenye ngao, ndivyo umati wa watu unaojificha huongezeka. Kutumia anwani yenye ngao husaidia kukulinda wewe na kila mtu mwingine ndani ya dimbwi.
 
-## Tumia shauri hilo maishani mwako.
+## Ifanye iwe katika vitendo
 
-- Tumia mkoba kwamba defaults kwa anwani ulinzi, kama vile [Zodl](https://zodl.com) or [Kipaji cha Ywallet](https://ywallet.app/).
-- Wakati kupokea ZEC katika anwani ya uwazi, hoja ni kwa anwani ulinzi kabla ya kutumia.
-- Kulipa kwa anwani za ulinzi ambapo unaweza. Kila malipo ya uwazi ni wazi kabisa; moja iliyohifadhiwa sio.
+- Tumia pochi ambayo hutumika kama anwani zilizolindwa, kama vile [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
+- Unapopokea ZEC katika anwani inayoonekana wazi, ihamishe kwenye anwani iliyolindwa kabla ya kuitumia.
+- Lipa kwa anwani zilizolindwa unapoweza. Kila malipo ya uwazi ni ya umma kikamilifu; yaliyolindwa si ya umma.
 
 ## Rasilimali
 
-- [Zcash: faragha na usalama mapendekezo](https://z.cash/support/security/privacy-security-recommendations/)
-- [A shielded ecosystem (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Zcash: mapendekezo ya faragha na usalama](https://z.cash/support/security/privacy-security-recommendations/)
+- [A shielded ecosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Jinsi teknolojia ya Zcash inavyofanya kazi](https://z.cash/technology/)
-- [Blockchair Zcash Explorer (Kiongozi wa Kijamii)](https://blockchair.com/zcash)
+- [Kichunguzi cha Zcash cha Blockchair](https://blockchair.com/zcash)
 
-## Kurasa zinazohusiana na makala hii
+## Kurasa zinazohusiana
 
-- [Zcash misingi ya msingi](/start-here/what-is-zec-and-zcash)
-- [Mkoba](/using-zcash/wallets)
-- [Vidimbwi vilivyolindwa](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [Misingi ya Zcash](/start-here/what-is-zec-and-zcash)
+- [Pochi](/using-zcash/wallets)
+- [Mabwawa ya kuogelea yaliyolindwa](/using-zcash/shielded-pools)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 
-*Kama ungependa kuongeza au kupendekeza mabadiliko ya ukurasa huu wa wiki, tafadhali nenda kwa: [ZecHub GitHub repo](https://github.com/ZecHub/zechub) na kuwasilisha ombi la kuvuta.*
+*Ikiwa ungependa kuongeza au kupendekeza marekebisho kwenye ukurasa huu wa wiki, tafadhali nenda kwenye [Repo ya ZecHub GitHub](https://github.com/ZecHub/zechub) na uwasilishe ombi la kuvuta.*

@@ -73,9 +73,9 @@ Zcash (ZEC) nye cryptocurrency si wowɔ na ame ŋutɔ ƒe nyatakakawo tsɔtsɔ n
 
 ## VPN bubu siwo doa alɔ zcash fexexe:-
 
- 3. [__GblɔVPN__](https://www.expressvpn.com/)
+ 3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__ ƒe lãmesẽnyawo gbɔ kpɔkpɔ.](https://nordvpn.com/)
- 5. [__Nyatakakadzraɖoƒe Gbɔgbɔ__ .](https://www.cyberghostvpn.com/en_US/)
+ 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
  6. [__Internet Mɔnukpɔkpɔ (PIA)__](https://www.privateinternetaccess.com/)
 
 Nenɔ susu me na wò be cryptocurrency fexexe ƒe mɔnuwo ƒe anyinɔnɔ ate ŋu atrɔ, eyata anyo be nàlé ŋku ɖe VPN dɔwɔƒea ƒe nyatakakadzraɖoƒe alo nàte ɖe woƒe asisiwo ƒe kpekpeɖeŋu ŋu hena nyatakaka yeyetɔ kekeake siwo ku ɖe fexexemɔnu siwo dzi woda asi ɖo ŋu, siwo dome Zcash hã le.

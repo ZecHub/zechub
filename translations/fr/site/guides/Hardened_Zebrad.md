@@ -127,3 +127,4 @@ alias zebra-stop='sudo systemctl stop zebrad'
 alias zebra-status='sudo systemctl status zebrad'
 alias zebra-logs='journalctl -u zebrad -f'
 alias zebra-cookie='sudo cat /var/lib/zebrad/.cookie'
+```

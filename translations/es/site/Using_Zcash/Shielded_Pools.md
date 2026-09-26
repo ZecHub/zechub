@@ -90,7 +90,7 @@ Zcash Sapling permite a los usuarios realizar transacciones privadas en solo uno
 
 El blindaje de transacciones mejora la privacidad, haciendo imposible que terceros vinculen transacciones y determinen la cantidad de ZEC que se está transfiriendo. Sapling también mejora la usabilidad al reducir los requisitos computacionales para generar transacciones privadas, haciéndolas más accesibles para los usuarios.
 
-Las direcciones de wallet Sapling comienzan con "zs" y esto puede observarse en todas las wallets blindadas de Zcash compatibles (YWallet, Zingo Wallet, Nighthawk, etc.) que tienen direcciones Sapling integradas. Zcash Sapling representa un avance significativo en tecnología en lo que respecta a la privacidad y la eficiencia de las transacciones, lo que convierte a Zcash en una criptomoneda práctica y eficaz para usuarios que valoran la privacidad y la seguridad.
+Las direcciones de wallet Sapling comienzan con "zs" y esto puede observarse en todas las wallets blindadas de Zcash compatibles (Zkool, Zingo Wallet, Nighthawk, etc.) que tienen direcciones Sapling integradas. Zcash Sapling representa un avance significativo en tecnología en lo que respecta a la privacidad y la eficiencia de las transacciones, lo que convierte a Zcash en una criptomoneda práctica y eficaz para usuarios que valoran la privacidad y la seguridad.
 
 ____
 

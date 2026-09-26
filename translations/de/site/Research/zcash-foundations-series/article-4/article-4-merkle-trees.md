@@ -135,13 +135,13 @@ Vereinfachungen, wie üblich. Echte inkrementelle Merkle-Bäume verfolgen „Fro
 
 | Begriff | Bedeutung in einfachem Deutsch |
 |---|---|
-| **Merkle-Baum** | Ein Baum aus Hashes; Blätter sind Daten-Fingerabdrücke, Eltern hashen ihre Kinder |
-| **Blatt** | Ein unterer Knoten; in Zcash ein einzelnes Note-Commitment |
-| **Merkle-Wurzel** | Der einzelne obere Fingerabdruck, der den ganzen Baum zusammenfasst |
-| **Authentifizierungspfad / Merkle-Beweis** | Die Geschwister-Hashes, die nötig sind, um zu beweisen, dass ein Blatt im Baum ist |
-| **Inkrementeller Merkle-Baum** | Ein Merkle-Baum, an den nur angehängt wird (Blätter werden ausschließlich hinzugefügt) |
+| **Merkle tree** | Ein Baum aus Hashes; Blätter sind Daten-Fingerabdrücke, Eltern hashen ihre Kinder |
+| **Leaf** | Ein unterer Knoten; in Zcash ein einzelnes Note-Commitment |
+| **Merkle root** | Der einzelne obere Fingerabdruck, der den ganzen Baum zusammenfasst |
+| **Authentication path / Merkle proof** | Die Geschwister-Hashes, die nötig sind, um zu beweisen, dass ein Blatt im Baum ist |
+| **Incremental Merkle tree** | Ein Merkle-Baum, an den nur angehängt wird (Blätter werden ausschließlich hinzugefügt) |
 | **Anchor** | Eine Merkle-Wurzel, auf die sich eine Ausgabe als „der Baumzustand, gegen den ich beweise“ bezieht |
-| **Nullifier-Menge** | Die separate Sammlung von Ausgabemarkierungen, die Double-Spends blockiert |
+| **Nullifier set** | Die separate Sammlung von Ausgabemarkierungen, die Double-Spends blockiert |
 
 ---
 

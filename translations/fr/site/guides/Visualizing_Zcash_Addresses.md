@@ -6,7 +6,7 @@
 # Visualiser les adresses Zcash
 
 Si vous découvrez Zcash pour la première fois, vous réaliserez immédiatement qu’il existe deux types de [transactions](https://zechub.wiki/using-zcash/transactions) possibles : *transparentes* et *protégées*.
-De plus, si vous avez suivi les derniers développements de l’écosystème Zcash, vous avez peut-être entendu parler des [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA.
+De plus, si vous avez suivi les derniers développements de l’écosystème Zcash, vous avez peut-être entendu parler des [Unified Addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA.
 Lorsque les acteurs de l’industrie Zcash parlent de transactions *protégées*, ils désignent des transactions impliquant des adresses encodées pour les protocoles sapling ou orchard. 
 Les UA sont conçues pour unifier *tout* type de transaction protégée ou transparente dans une seule adresse. Cette généralisation est la clé pour simplifier l’expérience utilisateur à l’avenir. L’objectif de ce guide est de compléter la compréhension des UA avec des exemples visuels concrets.
 

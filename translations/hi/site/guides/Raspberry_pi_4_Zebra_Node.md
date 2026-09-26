@@ -71,7 +71,7 @@ Raspberry Pi 4 पर Zebra node software चलाने से आप Zcash ne
 
 ## समस्या निवारण
 
-यदि आपको Zebra को build या run करते समय कोई समस्या आती है, तो troubleshooting tips और अतिरिक्त जानकारी के लिए [Zebra दस्तावेज़ीकरण](https://doc.zebra.zfnd.org/docs/intro.html) देखें।
+यदि आपको Zebra को build या run करते समय कोई समस्या आती है, तो troubleshooting tips और अतिरिक्त जानकारी के लिए [Zebra दस्तावेज़ीकरण](https://zebra.zfnd.org/user/troubleshooting.html) देखें।
 
 यह सुनिश्चित करें कि आपका Raspberry Pi ठंडा रहे, क्योंकि node चलाने से गर्मी उत्पन्न हो सकती है। आप cooling solution, जैसे fan या heat sink, का उपयोग करना चाह सकते हैं।
 

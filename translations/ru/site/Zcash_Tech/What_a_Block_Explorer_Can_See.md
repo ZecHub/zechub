@@ -56,14 +56,14 @@
 
 ## Применяйте это на практике
 
-- Используйте кошелёк, который по умолчанию использует экранированные адреса, например [Zodl](https://zodl.com) или [Ywallet](https://ywallet.app/).
+- Используйте кошелёк, который по умолчанию использует экранированные адреса, например [ZODL](https://zodl.com) или [Zingo!](https://www.zingolabs.org/).
 - Когда вы получаете ZEC на прозрачный адрес, переведите их на экранированный адрес, прежде чем тратить.
 - По возможности отправляйте платежи на экранированные адреса. Каждый прозрачный платёж полностью публичен; экранированный — нет.
 
 ## Ресурсы
 
 - [Zcash: рекомендации по приватности и безопасности](https://z.cash/support/security/privacy-security-recommendations/)
-- [Экранированная экосистема (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Экранированная экосистема (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Как работает технология Zcash](https://z.cash/technology/)
 - [Обозреватель Zcash на Blockchair](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@
 - [Основы Zcash](/start-here/what-is-zec-and-zcash)
 - [Кошельки](/using-zcash/wallets)
 - [Экранированные пулы](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

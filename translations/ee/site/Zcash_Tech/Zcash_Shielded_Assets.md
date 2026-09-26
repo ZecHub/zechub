@@ -6,142 +6,142 @@
     <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
 </a>
 
-# Zcash ƒe Nunɔamesi Siwo Wokpɔna
+# Zcash-Dɔ Siwo Woɣla Ðe Ame Ŋu
 
 ## TL;DR
 
-Zcash Shielded Assets (ZSA) nye ɖoɖowɔɖi ƒe kekeɖenudɔ si wodo ɖa si ana nunɔamesiwo **siwo menye ZEC** o — stablecoins, dziɖuɖu ƒe dzesiwo, alo nunɔamesi ɖesiaɖe si wowɔ ɖe ɖoɖo nu — nanɔ Zcash ƒe shielded pool me, eye woadzra ame si ɖoe ɖa, amesi xɔe, kple ga homea ɖe ame ŋutɔ si.
+Zcash Shielded Assets (ZSA) nye ɖoɖowɔɖi si woɖo be woana ga siwo mele ZEC me o, abe stablecoins alo nu bubu ɖe sia ɖe ƒomevi ene nanɔ zcash ƒe asime le eƒe akpa dzi. Ame si ɖo eŋu kple ame si xɔe kpakple woƒe homea katã anɔ ɣaɣla ɖaa.
 
-- **Nusi wònye:** ERC-20-style custom nunɔamesiwo, gake wokpɔ ta na le gɔmedzedzea me.
-- **Amekae le etum:** [QEDIT ƑE NUÐEÐEŊUTI](https://qed-it.com/), le gakpekpeɖeŋu si tso Zcash Foundation gbɔ, le nuwɔwɔ aduadu kple Electric Coin Company.
-- **Alesi wogblɔe:** [ZIP 226 ƒe xexlẽdzesi](https://zips.z.cash/zip-0226) (tsɔe yi teƒe bubu eye nàtɔ dzoe) ɖekae kple [ZIP 227 ƒe xexlẽdzesi](https://zips.z.cash/zip-0227) (si woɖe ɖe go).
-- **Nɔnɔme:** menye agbe le mainnet dzi o. Woɖo ZSA ƒe ɖoɖowɔɖia be woatsɔe ade dɔwɔwɔ me le Network Upgrade 7 (NU7) me.
-- **Fewo:** woxenɛ ɣesiaɣi le ZEC me, eɖanye nunɔamesi ka kee wole ʋuʋum o.
-
----
-
-## Numeɖeɖe Vevitɔ
-
-Zcash Shielded Assets (ZSA) nye ŋgɔyiyi si wodo ɖa le Zcash ƒe ɖoɖowɔɖia ŋu si ana woate ŋu awɔ, atsɔ wo ayi teƒe bubu, eye woatɔ dzo nunɔamesi siwo wowɔ ɖe ɖoɖo nu le Zcash kɔsɔkɔsɔa dzi.
-
-Ne ènya nu tso... [ERC-20 ƒe agbalẽa](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) dzesi dzidzenu le Ethereum blockchain, ZSAwo nye na Zcash abe alesi ERC-20 dzesiwo le na Ethereum ene.
-
-Zcash Shielded Assets ana woate ŋu awɔ dzesi siwo wowɔ ɖe ɖoɖo nu le Zcash blockchain la dzi, si ana woaɖe mɔ na dzesi siwo menye [ZEC](/guides/using-zec-privately) be woakpɔ viɖe tso adzɔnu siwo wokpɔ ta na ƒe ŋkɔmaɖemaɖe kple adzamenyawo me le Zcash blockchain la dzi.
-
-ZSAwo zazã vevi aɖe si ate ŋu anye be woaɖe stablecoins ɖe Zcash ƒe ɖoɖowɔɖia dzi. Stablecoins nye cryptocurrencies siwo tsɔa woƒe asixɔxɔ dea ga fiat, abe United States Dollar alo Euro ene. Fifia la, stablecoins siwo wokakana wu dometɔ aɖewo nye ERC-20 tokens abe [USDC](https://www.circle.com/en/usdc) kple [Dai](https://docs.makerdao.com/).
-
-ZSAwo zazã bubu si ate ŋu anye dziɖuɖu ƒe dzesiwo nana. Le kpɔɖeŋu me, Zechub (wiki sia tala) nye Decentralized Autonomous Organization (DAO) eye ateŋu awɔ ZSA eye wòana eƒe hameviwo hena akɔdada le aɖaŋuɖoɖowo kple dziɖuɖu ŋuti nyametsotsowo ŋu.
-
-Wole ZSAwo wɔm to... [QEDIT ƑE NUÐEÐEŊUTI](https://qed-it.com/), le gakpekpeɖeŋu gã aɖe si tso [Zcash Foundation](/zcash-organizations/zcash-foundation) le nuwɔwɔ aduadu kple... [Electric Coin Company](/zcash-organizations/electric-coin-company). Esi wogale dɔ sia wɔm vevie ta la, wodaa nyatakaka yeyewo ɖe edzi [ka sia](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) ƒe Zcash ƒe nyamedzroƒea. The [ZSA ƒe kpekpeɖeŋunana ƒe biabiawo](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) by QEDIT la le Zcash Foundation ƒe kpekpeɖeŋunana ƒe nyatakakadzraɖoƒe.
+- **Nukae wònye:** Eʋeawo ƒe akpa si le abe ERC-20 ene, gake woxɔa asi na wo to mɔ̃ dzi.
+- ** Amekae le etutu dzi:** [QEDIT](https://qed-it.com/), si le Zcash Foundation ƒe gakpekpeɖeŋu te, kple Electric Coin Company.
+- ** Ale si woɖee fiae:** [ZIP 226 ƒe adrɛswo](https://zips.z.cash/zip-0226) (woaɖɔe ɖo eye woatɔ dzoe) kple [ZIP 227 (Afi si woɖo ame ɖo)](https://zips.z.cash/zip-0227) (nuwo ƒe dodo).
+- ** Nɔnɔme:** menyea agbe le internet dzi o. Woɖo ɖoɖo be woazã ZSA ƒe protocol la na Network Upgrade 7 (NU7).
+- ** Fewo:** woxena le ZEC me ɣesiaɣi, eɖanye nusi dzi wole asi trɔm ɖo o.
 
 ---
 
-## Nukpɔkpɔ / Nusɔsrɔ̃
+## Nya Vevi Siwo Woɖe Fia
 
-### Agbalẽkotoku si wotre nu na la
+Zcash Shielded Assets (ZSA) nye ɖoɖo si wowɔ be woatsɔ ana ame ƒe asitsatsawo nanɔ dzadzraɖoɖi, atsɔe ayi na amewo eye woazãe le nu siwo wotsɔna wɔa dɔe la me.
 
-Kpɔ asitsatsa si wotsɔ Zcash ta kpɔ la ɖa abe agbalẽkotoku gbadza si wotu nu ɖo si wotsɔ ƒu gbe ɖe dutoƒo posuɖaka me ene. Ame sia ame ate ŋu akpɔe be woda agbalẽkotoku aɖe ɖe afima. Ame aɖeke mate ŋu akpɔ amesi ɖoe ɖa, amesi ƒoe nu ƒu, alo nusi le eme o — eye agbalẽkotoku ɖesiaɖe ƒe dzedzeme sɔ kple bubu ɖesiaɖe.
+Ne ènya nu tso atike siwo le eme ŋu nyuie la, ke na míadzro wo me. [ERC-20 (Ðeviwo ƒe Dzedzeme)](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token standard on the Ethereum blockchain, ZSAs are to Zcash as ERC-20 tokens are to Ethereum.
 
-Egbea la, nu ɖeka koe ate ŋu atsɔ agbalẽkotoku si le Zcash network la dzi: ZEC.
+Zcash Shielded Assets ana be woate ŋu awɔ tokens siwo le ame ŋutɔ tɔ dzi ɖe zcash blockchain la me, si awɔe be woazã token bubuwo tsɔ wu esiwo wozãna tsã. [ZEC](/guides/using-zec-privately) be woazã nu siwo wowɔna le Zcash ƒe kɔmpiuta dzi atsɔ akpɔ egbɔ be ame aɖeke magblɔ ŋkɔ na yewo o.
 
-ZSA metrɔa agbalẽkotokua o. Etrɔa **nusi woɖe mɔ na le eme**. Le ZSA megbe la, agbalẽkotoku ma ke si wotre nu na ate ŋu atsɔ stablecoin, DAO ƒe dziɖuɖu ƒe dzesi, alo dɔwɔƒe ƒe nuteƒewɔwɔ ƒe teƒe — eye ne èkpɔe la, adze abe agbalẽkotoku bubu ɖesiaɖe si le network la dzi ene pɛpɛpɛ kokoko.
+A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC ƒe akpa aɖe](https://www.circle.com/en/usdc) kple [Dai la me.](https://docs.makerdao.com/).
 
-Nya ɖeka si sɔ be nàlé ɖe asi: **woxea posufe ɣesiaɣi le ZEC** me, eɖanye nuka kee le agbalẽkotokua me o.
+ZSA ƒe dɔwɔna bubu enye be woade dziɖuɖumɔnuwo asi na ame bubuwo. Le kpɔɖeŋu me, Zechub (xexea si ta wiki sia) nye Decentralized Autonomous Organization (DAO), eye ate ŋu awɔ nu ahaɖo ZSA aɖe ɖe eƒe hameviwo hena akɔdada le ɖoɖo kple dziɖuɖu ŋuti nyametsotsowo ŋu.
 
-### Nusi gotagome eteƒekpɔla ate ŋu akpɔ
+Wole ZSAwo wɔm le: [QEDIT](https://qed-it.com/), le Dukɔa ƒe gadzraɖoƒe gã aɖe si nye United States of America la te. [Zcash Foundation](/zcash-organizations/zcash-foundation) le nuwɔwɔ aduadu kple Dukɔa ƒe Dɔdzikpɔha la me. [Electric Coin Company](/zcash-organizations/electric-coin-company)Esi wònye be wole dɔ sia wɔm vevie ta la, wotaa nyatakaka yeyewo ɖe Internet dzi le: www.jw.org/ee. [ɖeti sia](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) of the Zcash forum. The [ZSA ƒe kpekpeɖeŋu biabia](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) le QEDIT ƒe nyatakakadzraɖoƒe si nye Zcash Foundation grants website.
 
-| Eteƒekpɔla ateŋu akpɔ... | ERC-20 le Ethereum dzi | ZSA le Zcash dzi |
+---
+
+## Ŋutega / Nuŋububu
+
+### Ametaku si nu womi ɖo la me nyawo.
+
+Kpɔe ɖa le susu me be Zcash ƒe ga si wotsɔ xe mɔ na la nye ameflɔnu aɖe, eye ame sia ame ate ŋu akpɔe. Ame aɖeke mate ŋu anya amesi ɖo agbalẽa ɖe amewo o; wo dometɔ ɖeka hã mete ŋu nya nusi tututu woŋlɔ ɖe eme o  . Amefluawo katã sɔ kple nɔvia tɔ pɛpɛpɛ.
+
+Egbea la, nu ɖeka koe le agbalẽkotoku si dzi Zcash ƒe nyatakakadzraɖoƒea nɔna me: enyea ZEC.
+
+ZSA metrɔa nu le ameflɔgba me o. Etrɔa nusi woɖe mɔ na la ɖe eme.* Le ZSA megbe, agbalẽkpo ma ke si wotre enu ate ŋu atsɔ stablecoin alo DAO ƒe dziɖuɖu ŋuti dzesi aɖe loo alo dɔwɔha ƒe nuteƒewɔwɔ teƒe  eye ne wokpɔe tso gota ko la egale abe ame bubu ɖesiaɖe tɔ ene le kadodoa dzi.
+
+Nu vevi aɖe li si ŋu wòle be nàlé ŋku ɖo: ** Woxea fe ɖe nu siwo le lɛtakotoku me la ta ɣesiaɣi kple ZEC**.
+
+### Nusi ame si le gota ate ŋu akpɔ la
+
+| Eteƒekpɔla ate ŋu akpɔ... | ERC-20 le Ethereum dzi | ZSA le Zcash |
 | --- | --- | --- |
-| Amekae ɖoe ɖa | Dutoƒo | Wokpɔ akpoxɔnu dzi |
-| Amekae xɔe | Dutoƒo | Wokpɔ akpoxɔnu dzi |
-| Aleke gbegbee woʋuʋu | Dutoƒo | Wokpɔ akpoxɔnu dzi |
-| Ame ɖekaɖekawo ƒe dadasɔ | Dutoƒo | Wokpɔ akpoxɔnu dzi |
-| Nusiwo katã woatsɔ ana nunɔamesiawo | Dutoƒo | **Dutoƒo — eɖoe koŋ** |
-| Ga si woxea fe la le | ETH | ZEC |
+| Ame si ɖoe ɖa | Amedome | Wotsɔ akpoxɔnu na |
+| Ame si xɔe | Amedome | Wotsɔ akpoxɔnu na |
+| Aleke gbegbee woʋãe nye si | Amedome | Wotsɔ akpoxɔnu na |
+| Ame ɖekaɖekawo ƒe dadasɔ | Amedome | Wotsɔ akpoxɔnu na |
+| Nusiwo woatsɔ ana nunɔamesiawo katã | Amedome | **Dutoƒo — eɖoe koŋ** |
+| Ga si me woxea fetu la le | ETH | ZEC |
 
-### Nusitae nuzazãwo ƒe fli la menye nudzodzoe o
+### Nukata nuƒledzedzesi la menye vodada o?
 
-Fli eve siwo le ete le kplɔ̃a dzi lae nye afisi ZSA doa dzidzɔ na ame le.
+Afisi ZSA ƒe dɔdeasiwo va dzena le enye kplɔ̃a ƒe axa eve siwo le ete.
 
-ZIP 227 ɖoe koŋ na **eɖeɖe ɖe go le gaglãgbe**, ale be woate ŋu alé ŋku ɖe nunɔamesi ɖesiaɖe ƒe nusiwo le tsatsam ŋu le kɔsɔkɔsɔ me. Ame ɖekaɖekawo ƒe nunɔamesiwo kple ame ɖekaɖekawo ƒe fexexe nɔa ame ŋutɔ si; dzesi siwo katã li la ƒe xexlẽme mewɔa esia o.
+ZIP 227 deliberately keeps **issuance transparent**, so that the circulating supply of every asset can be tracked on-chain. Individual holdings and individual payments stay private; the total number of tokens in existence does not.
 
-Le stablecoin nana gome la, ƒuƒoƒo mae nye nya la tsɔ wu be wòanye nugblẽfexexe. Woate ŋu adzro ga si wodzra ɖo ɖi me ɖe nusi dzi woate ŋu aka ɖo le dutoƒo nu, evɔ ame siwo zãa dzesia ŋutɔŋutɔ ya léa woƒe ga si susɔ kple ga si woxe na wo la ɖe wo ɖokui si.
+Le stablecoin-dɔwɔƒe gome la, nu vevi si le ɖekawɔwɔ sia mee nye be woate ŋu adzra ga siwo woadzra ɖo ɖe eŋu dzi akpɔe ne wokpɔa mɔ na amewo ƒe numekukuwo. Ke hã ame siwo zãna token siawo ya dzraa woƒe ganyawo kple fexeɖetawo me ke ɖi hena woawo ŋutɔwo ɖeɖe ko.
 
-### Nusiwo nye nunɔamesi ɖeka, dzesidenu ɖeka
+### Nunɔamesi ɖeka, amenyenye ɖekae li.
 
-Nu ɖesiaɖe xɔa **Nunɔamesi ƒe Dzesidenu** tɔxɛ aɖe, si woɖe tso amesi tsɔe na ƒe safui me kpe ɖe nunɔamesi la ŋuti nuŋlɔɖi si woŋlɔ ɖe agbalẽ me ŋu. Nudzɔla vovovo eve mate ŋu awɔ dzesidenu ɖeka o, eye nunɔamesi aɖe wɔwɔ alo tɔtrɔ bia be woaɖe mɔ ɖe nya ɣaɣlawo ŋu tso eɖela gbɔ. Le agbalẽkotoku ƒe nya nu la: ame sia ame ate ŋu aɖo agbalẽkotoku ɖe Internet dzi, gake gakotoku si si nunɔamesi aɖe le koe ate ŋu ata eƒe akpa gãtɔ.
+Nu sia nu si le asitelefon dzi la nyea eƒe ŋkɔ kple dzesi tɔxɛ, eye ame siwo ŋlɔe hã ate ŋu akpɔ mɔ be woagbugbɔ adzrae o. Ame ɖesiaɖe ƒe asi anɔ etɔxɛ abe ale si ko wònɔna ne wole ga zãm ene; gake dɔtɔ ɖeka koe tea ŋu wɔa esia alo wòtea ŋu tsɔa agbalẽ bubuwo ɖoa nyatakakawo ɖe amewo gbɔ tsɔ ɖea gbeƒã woƒe nyawo na wo.
 
 ---
 
-## Deep Dive (Tsi me tsi goglo).
+## Ƒu Tsi Kɔkɔe
 
-### ZSA Demo le Zebra dzi
+### ZSA ƒe Demo le Zebra dzi
 
 [![Video Thumbnail](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
 
-**Ƒo demo la na ɖokuiwò!**
+**Ðe demo la na ɖokuiwò!**
 
-Klo zcash-tx-tool ƒe nudzraɖoƒea ƒe nɔnɔmetata: <https://github.com/QED-it/zcash_tx_tool>
+Kpe zcash-tx-tool ƒe nudzraɖoƒe: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
-### Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖowo (ZIPs) .
+### Zcash Dzadzraɖowɔɖoɖowo (ZIP)
 
-- [ZIP 226 ƒe xexlẽdzesi](https://zips.z.cash/zip-0226): Zcash Shielded Assets ƒe Asitɔtrɔ Kple Wo Dzodzo
-- [ZIP 227 ƒe xexlẽdzesi](https://zips.z.cash/zip-0227): Zcash Shielded Assets ƒe nana
-- [ZIP 230 ƒe xexlẽdzesi](https://zips.z.cash/zip-0230): Version 6 Asitsatsa ƒe Nɔnɔme
+- [ZIP 226 ƒe adrɛswo](https://zips.z.cash/zip-0226): Zcash-Dɔ Siwo Dzi Woato Aɖe Mɔ Ðo Kple Etsɔtsɔe Dzo
+- [ZIP 227 (Afi si woɖo ame ɖo)](https://zips.z.cash/zip-0227): Zcash-Dɔ Siwo Dzi Woato Aɖe Mɔ Ðo La Dodo Ðe Go Me
+- [ZIP 230 ƒe kadodoa me.](https://zips.z.cash/zip-0230): Version 6 Dzadzɛ ƒe Amesiamewɔwɔ
 
-> **De dzesii le ZIP 230 ŋu:** Woɖe ZIP 230 ɖa tso ɣemaɣi eye womawɔe o. Fifia woɖe asitsatsa ƒe tɔtrɔ 6 gɔme to [ZIP 229 ƒe xexlẽdzesi](https://zips.z.cash/zip-0229). Kpɔ gbeƒãɖeɖe si le etame [ZIP 230 ƒe xexlẽdzesi](https://zips.z.cash/zip-0230) axa 10.
+> **Nuka le ZIP 230 ŋu:** Wodzudzɔ eƒe dɔwɔwɔ eye womazãe o. Fifia la, nuwɔwɔ ƒe gɔmeɖeɖe 6 lia nye esi me woɖe egɔme be "ZIP" si wozãna na dɔwɔnawo dometɔ ɖesiaɖe enyea "Transaction Version 2". [ZIP 229 (Afi si woɖo ame ɖo)](https://zips.z.cash/zip-0229)Kpɔ nyatakaka si le axa sia ƒe etame. [ZIP 230 ƒe kadodoa me.](https://zips.z.cash/zip-0230) axa.
 
-ZIP 226 ɖe OrchardZSA ƒe ɖoɖowɔɖi gɔme — Orchard ɖoɖowɔɖi ƒe kekeɖenudɔwɔwɔ si tsɔa nunɔamesi siwo wowɔ ɖe ɖoɖo nu ƒe asitɔtrɔ kple wo dzodzo. ZIP 227 ɖe alesi wowɔa nunɔamesi mawoe le gɔmedzedzea me, eye ɖeko wòle be woawɔe kpe ɖe ZIP 226 ŋu.
+ZIP 226 defines the OrchardZSA protocol — an extension of the Orchard protocol that carries the transfer and burn of custom assets. ZIP 227 defines how those assets are created in the first place, and must only be implemented alongside ZIP 226.
 
-### ZSA ƒe Gakpekpeɖeŋunana ƒe Aɖaŋuɖoɖo
+### ZSA ƒe Nunana Ŋuti Mɔɖegbalẽvi
 
-ZSA ƒe aɖaŋuɖoɖo si nye Shielded Assets (ZSA/UDA) la nye esi... [QEDIT ƑE NUÐEÐEŊUTI](https://qed-it.com/) ƒuƒoƒo be woatu generic shielded nunɔamesiwo ɖe Zcash blockchain dzi. Zi geɖe la, woyɔa esiawo be Zãla ƒe Nunɔamesiwo (UDA) alo be Zcash Shielded Assets (ZSA).
+ZSA ƒe ɖoɖo si wowɔ na Asset Shielded (ZSA/UDA) la nye esi dzi Dukɔa Ƒe Gomenɔamesi Dɔwɔƒe de asii. [QEDIT](https://qed-it.com/) Woyɔa wo be User Defined Assets (UDA) alo Zcash Shielded Asset (ZSA).
 
-Le aɖaŋuɖoɖo sia ta la, ƒuƒoƒo si le... [QEDIT ƑE NUÐEÐEŊUTI](https://qed-it.com/) ɖoe be yeatsɔ DeFi ava Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me eye le ɣeyiɣi ma ke me la, yeana woate ŋu azã ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya nyuitɔ kekeake le DeFi lãwo ƒe agbenɔnɔ ƒe ɖoɖo si li fifia me. Le numekuku aɖe si wowɔ le numekuku aɖe me me la, ƒuƒoƒoa bia, eye nutoa me tɔwo ɖo nya ma ŋu [generic shielded assets (ZSA/UDA) ye nye nusi wobia wu fifia](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
+Le aɖaŋuɖoɖo sia ta la, dɔwɔha si le Germany ƒe agbalẽtaƒe aɖe gblɔ be: "Míekpɔe dze sii". [QEDIT](https://qed-it.com/) Edzro be yewoatsɔ DeFi ayi ɖe Zcash ƒe nu gbagbewo dome eye le ɣeyiɣi ma ke me la, woana mɔnukpɔkpɔ ame siwo zãa mɔ̃ɖaŋununya nyuitɔ kekeake si dzi woate ŋu ato akpɔ woƒe dedienɔnɔ ta. Le numekuku aɖe me la , ƒuƒoƒo sia bia nya siawo, eye nutoa ɖo eŋu be: [nu si koŋ amewo dina fifiae nye be yewoakpɔ ga siwo wotsɔ xe fewo dzi (ZSA/UDA) ta.](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
-Aɖaŋuɖoɖo siawo wɔ ɖe mɔ̃ɖaŋununya dzi le... [Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖo (ZIP) .](https://zips.z.cash/zip-0000) specification eye woɖe wo gɔme le ZIP 226 & ZIP 227 me.
+Nya siawo wɔ ɖeka kple Eŋlisigbe me Gbegɔmeɖeɖe Biblia ƒe mɔfiamewo. [Zcash Dzadzraɖowɔɖoɖo (ZIP)](https://zips.z.cash/zip-0000) Woɖe wo me le ZIP 226 kple ZIP 277 la me.
 
-1. [ZIP 226 ƒe xexlẽdzesi](https://zips.z.cash/zip-0226): Zcash Shielded Assets ƒe Asitɔtrɔ Kple Wo Dzodzo
-2. [ZIP 227 ƒe xexlẽdzesi](https://zips.z.cash/zip-0227): Zcash Shielded Assets ƒe nana
-
----
-
-## Nusiwo wòfia ŋutɔŋutɔ
-
-**Ne èlé ZEC alo zãe la**
-
-- Woɖe ZSAwo gɔme be wonye Orchard ("OrchardZSA") ƒe kekeɖenudɔwɔwɔ, eyata woama mɔ̃ siwo wotsɔ akpoxɔnu wɔe siwo ZEC zãna xoxo. Wò gakotokua ahiã ZSA ƒe kpekpeɖeŋu si dze ƒã hafi wòate ŋu alé wo alo aɖo wo ɖa.
-- Àhiã ZEC aɖewo le asiwò ɣesiaɣi. Woxea fe siwo woxena ɖe ZSA nana kple etsɔtsɔ yi teƒe bubu ta le ZEC me, ke menye le nunɔamesi la ŋutɔ me o.
-- Naneke metrɔna le wò ZEC ƒe asitsatsa siwo li fifia ŋu o.
-
-**Ne ènye amesi ate ŋu ana — stablecoin, DAO, dɔwɔƒe**
-
-- Nunɔamesi aɖe nana bia be nàna mɔɖeɖe ɖe nya ɣaɣlawo ŋu si wobla ɖe asiɖeɖe le nu ŋu ƒe safui ŋu, eyata wò ɖeka koe ate ŋu awɔ wò ŋutɔ wò nunɔamesi ƒe nɔnɔmewo alo atrɔ wo.
-- Woate ŋu adzro wò nunɔamesi ƒe nusiwo le tsatsam la me le dutoƒo evɔ wò zãlawo ƒe ga si susɔ kple esiwo wotsɔ yi na ame bubuwo ya ya mate ŋu awɔe o. Le gadzɔdzɔdɔwɔƒe si ŋu wowɔ ɖoɖo ɖo gome la, zi geɖe la, esiae nyea nuƒoƒoƒu si tututu hiã.
-- Asiɖeɖe le gadodo ɖeka ŋu ate ŋu ana nunɔamesi siwo wu ɖeka nado zi ɖeka.
-
-**Na lãwo ƒe agbenɔnɔ ƒe ɖoɖo**
-
-- Esi wònye be woŋlɔ ZSA ƒe fe ɖesiaɖe ɖe ZEC me ta la, dɔwɔna le nunɔamesi ɖesiaɖe si woaɖe ɖe go le Zcash dzi le etsɔme me hea didi vɛ na ZEC ŋutɔ.
+1. [ZIP 226 ƒe adrɛswo](https://zips.z.cash/zip-0226): Zcash-Dɔ Siwo Dzi Woato Aɖe Mɔ Ðo Kple Etsɔtsɔe Dzo
+2. [ZIP 227 (Afi si woɖo ame ɖo)](https://zips.z.cash/zip-0227): Zcash-Dɔ Siwo Dzi Woato Aɖe Mɔ Ðo La Dodo Ðe Go Me
 
 ---
 
-## Vodada Siwo Wowɔna Zi geɖe
+## Nusiwo Woate Ŋu Awɔ le Agbe Me
 
-| Dzixɔse si bɔ | Nuka tututue nye nyateƒe |
+** Ne èle ZEC alo zãe**
+
+- ZSAs are defined as an extension of Orchard ("OrchardZSA"), so they would share the shielded machinery ZEC already uses. Your wallet will need explicit ZSA support before it can hold or send them.
+- Àhiã ZEC aɖewo ɣesiaɣi. Woxea fe ɖe ZSA ƒe tata kple etamenuwo ŋu le ZEC me, ke menye le nunɔamesi la ŋutɔ me o.
+- Naneke metrɔ le wò ZEC ƒe dɔwɔna siwo li fifia la ŋu o.
+
+**Ne ènye ame si ate ŋu ade ga asi na wò  stablecoin, DAO, alo dɔwɔƒe**
+
+- Ne èdi be yeaɖe ga aɖe la, ele be nàna mɔɖeɖe ɖe eŋu le asitelefon dzi eye wòaku nu me kple eƒe safui si ana wòaɖee. Eya ta wò ɖeka koe ate ŋu awɔ dɔ alo atrɔ asi le ale si nèzãa gae ŋui la ŋuti.
+- Woate ŋu adzro wò ga siwo le ƒoƒom la me, gake womakpɔa wo ŋuti nyatakakawo o. Le gadzraɖoƒe si dzi woda asi ɖo ta la, esiae nye nu vovovoawo ƒe ƒuƒoƒo tututu.
+- Dɔwɔƒe ɖeka ƒe dɔwɔna ate ŋu ana woaɖo ga si wu ɖeka zi ɖeka.
+
+**Na nutoa me tɔwo**
+
+- Esi wònye be ZSA ƒe fe ɖesiaɖe nyea ZEC ta la, dɔwɔna ɖe kesinɔnu siwo ava le etsɔme si woadzra ɖo kple Zcash dzi hea didi va nɔa ZEC ŋutɔ ŋu.
+
+---
+
+## Vodada Siwo Dzɔna Zi Geɖe La
+
+| Dzixɔse si bɔ | Nukae nye nyateƒe |
 | --- | --- |
 | "ZSAwo le agbe le Zcash dzi egbea." | Menye nenemae o. Woɖoe be woatsɔ ZSA ade dɔwɔwɔ me le Network Upgrade 7 (NU7) me eye wogale ŋku lém ɖe eŋu hele dodokpɔ wɔm. |
-| "ZSA tsɔa smart contractwo vaa Zcash gbɔ." | ZSA gblɔa nunɔamesiwo nana, wo tsɔtsɔ yi na ame bubuwo kple wo tsɔtsɔ dzoe. Menye nubabla ƒe ƒuƒoƒo si woate ŋu awɔ ɖoɖo ɖe eŋu na taɖodzinu gbadzaae wònye o. |
-| "Àteŋu axe ZSA ƒe fewo le ZSA ƒe dzesi ŋutɔ me." | Woxea fewo le ZEC me. |
-| "Ne wokpɔ eta la, ele be dzesi ƒe nunana hã nanye adzame." | ZIP 227 na woɖoe koŋ ɖe ga si woɖe ɖe go la me kɔ, eyata woate ŋu alé ŋku ɖe nunɔamesi ɖesiaɖe ƒe tsɔtsɔ ŋu le dutoƒo. Ga si susɔ kple ga si wotsɔ dea ame bubu me la nɔa ame ŋutɔ si; nusiwo wotsɔna naa amewo mewɔa esia o. |
-| "ZIP 230 nye tɔtrɔ 6 ƒe asitsatsa ƒe ɖoɖo si li fifia." | Woɖe ZIP 230 ɖa. Fifia woɖe Version 6 gɔme to ZIP 229. |
+| "ZSA tsɔa smart contractwo vaa Zcash." | ZSA gblɔa nunɔamesiwo nana, wo tsɔtsɔ yi na ame bubuwo kple wo tsɔtsɔ dzoe. Menye nubabla ƒe ƒuƒoƒo si woate ŋu awɔ ɖoɖo ɖe eŋu na taɖodzinu gbadzaae wònye o. |
+| "Àteŋu axe ZSA ƒe fewo le ZSA ƒe dzesi ŋutɔ me." | Woxea fewo le ZEC. |
+| "Ne wokpɔ akpoxɔnu ta la, ele be dzesi ƒe nunana hã nanye adzame." | ZIP 227 na woɖoe koŋ ɖe ga si woɖe ɖe go la le gaglãgbe, eyata woate ŋu alé ŋku ɖe nunɔamesi ɖesiaɖe ƒe tsɔtsɔ ŋu le dutoƒo. Ga si susɔ kple ga si wotsɔ dea ame bubu me la nɔa ame ŋutɔ si; nusiwo wotsɔna naa amewo mewɔa esia o. |
+| "ZIP 230 nye tɔtrɔ 6 ƒe asitsatsa ƒe ɖoɖo si li fifia." | Woɖe ZIP 230 ɖa. Fifia woɖe Version 6 gɔme to ZIP 229 dzi. |
 
 ---
 
-## Axa Siwo Do Ƒome Kplii
+## Axawo Siwo Do Ka Kple Wo Nɔewo
 
-- [Halo](/zcash-tech/halo) — kpeɖodziɖoɖo si le megbe na Orchard, ɖoɖowɔɖi ZSA kekena ɖe enu
-- [Zk-SNARKs ƒe nyawo](/zcash-tech/zk-snarks) — sidzedze zero-sidzedze ƒe kpeɖodzi siwo na woɖo kpe asiɖeɖe le ame ŋu si ŋu akpoxɔnu le dzi evɔ womeɖee fia o
-- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — afisi ZSAwo anɔ kpe ɖe ZEC ŋu le
-- [Adzɔnuwo ƒe asitsatsa](/using-zcash/transactions) — alesi wotsɔa Zcash ƒe asitsatsa aɖe ƒoa ƒui
-- [Zebra ƒe Node Bliboe](/zcash-tech/zebra-full-node) — node ƒe dɔwɔwɔ si wozã le ZSA ƒe wɔwɔfia si le etame me
+- [Halo](/zcash-tech/halo)  ɖoɖo si dzi woato awɔ numekuku le Orchard megbe, enye ZSA ƒe mɔfianuwo.
+- [Zk-SNARKwo](/zcash-tech/zk-snarks)  kpeɖodzi siwo me womenya naneke le o, si na wokpɔa nu sia ƒe dzɔdzɔmesewo dzi evɔ womeɖea wo ɖe go o la ŋu.
+- [Ta Siwo Woɣla Ðe Aʋawɔnu Nu](/using-zcash/shielded-pools)  afisi ZSAwo anɔ agbe le hekpe ɖe ZEC ŋu.
+- [Nuwɔnawo](/using-zcash/transactions)  alesi wowɔa Zcash-gafewoe
+- [Zebra ƒe Dzogoe Blibo la](/zcash-tech/zebra-full-node)  nuwɔmɔnu si wozã le ZSA ƒe wɔwɔfia me la dzi.

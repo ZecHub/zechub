@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Community/Verifying_Zcash_Releases.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Verifying_Zcash_Releases.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
@@ -176,13 +176,13 @@ Subject Alternative Name이 바로 신원입니다. 저장소, 정확한 워크�
 
 | 필드 | v6.3.0의 값 |
 |---|---|
-| OIDC 발급자 | `https://token.actions.githubusercontent.com` |
-| 소스 저장소 | `https://github.com/ZcashFoundation/zebra` |
-| 빌드 커밋 | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| 러너 환경 | `github-hosted` |
-| 워크플로 실행 | `.../actions/runs/31424510487/attempts/1` |
-| 저장소 공개 범위 | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 이들 각각은 모두 확인 가능합니다. 커밋 해시는 저장소의 태그와 일치해야 하고, 워크플로 실행은 존재해야 하며 공개되어 있어야 합니다.
 
@@ -219,9 +219,9 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 | 필드 | 값 |
 |---|---|
-| Rekor 로그 인덱스 | `2412071838` |
-| 항목 유형 | `hashedrekord v0.0.1` |
-| 통합 시각 | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 이것이 조용한 키 오용을 감지 가능하게 만드는 요소입니다. 로그에 한 번도 나타나지 않았거나, 있을 법하지 않은 시각에 나타난 서명은 조치할 가치가 있는 신호입니다. 통합 시각을 릴리스 공지 시점과 비교해 보십시오.
 
@@ -427,10 +427,10 @@ sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
 
 | 프로젝트 | 릴리스 게시 위치 | 방법 | 키 출처 |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore 번들 | 키 없음 — GitHub OIDC를 통한 CI 신원 |
-| **Zallet** | `github.com/zcash/zallet/releases` | 분리된 GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — 기본 `0338 34DD…58E2 6AB1`, 서명 서브키 `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | 키 없음 — GitHub OIDC를 통한 CI 신원 |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — 기본 `0338 34DD…58E2 6AB1`, 서명 서브키 `1FE9 9324…23F0 617F` |
 | **zcashd** | *은퇴* | — | 2026-07-18에 블록 3,417,100에서 중단됨. 설치하지 마십시오. |
-| **Zodl** (구 Zashi) | App Store / Google Play; GitHub의 `zodl-inc` | 스토어 서명; 독립형 Android 바이너리는 GPG 서명 | 키 전환 성명서에 따른 ZODL 키 |
+| **Zodl** (구 Zashi) | App Store / Google Play; GitHub의 `zodl-inc` | Store signing; standalone Android binaries GPG-signed | 키 전환 성명서에 따른 ZODL 키 |
 
 > **이름 관련 참고:** Zashi는 2026년에 **Zodl**로 리브랜딩되었습니다. 먼저 App Store에서, 그다음 Google Play에서 변경되었습니다. "Zashi"를 언급하는 오래된 가이드는 같은 지갑 계보를 설명하는 것입니다.
 

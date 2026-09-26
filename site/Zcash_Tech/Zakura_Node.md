@@ -18,6 +18,7 @@ Zakura is a free, open-source full node implementation for Zcash, built for scal
 - A **zcashd RPC compatibility mode** lets existing wallets and integrations work without modification.
 - An **experimental P2P transport layer** (disabled by default) targets sub-500ms block propagation with DoS-resistant gossip.
 - Compatible with **Ironwood (NU6.3)**, the Zcash network upgrade activated in mid-2026.
+- **Zakura Common** (v1.3.0, August 2026) speeds up the cryptography wallets use to build private transactions: from over 3 seconds to under 200 ms in many cases, per Zakura's benchmarks.
 - Led by **Sean Bowe** (Zcash cofounder, Project Tachyon) and **Dev Ojha** (Valar Group).
 
 ---
@@ -72,6 +73,26 @@ Zakura is fully compatible with the Ironwood network upgrade (NU6.3), activated 
 
 ---
 
+## Zakura Common: Faster Wallet Cryptography
+
+In August 2026 the Zakura team released Zakura Common, a set of accelerated forks of the cryptography libraries that Zcash wallets and nodes rely on. Zakura switched to the new stack in version 1.3.0, and Vizor Wallet is among the first wallets to integrate it.
+
+![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](/content-images/zakuracommonspeedups.webp)
+
+According to Zakura's own benchmarks:
+
+| Operation | Speedup |
+|--|--|
+| Proof generation on mobile | more than 14× (desktop: more than 5×) |
+| Sinsemilla hashing | more than 21× |
+| zk-SNARK verification | 4–8× |
+| Trial decryption | more than 1.5× |
+
+For users, the most visible change is waiting time. Building a private transaction used to take a wallet more than three seconds. With Zakura Common it can take under 200 ms in many cases. This is the time your device spends preparing the transaction, not the time the network needs to confirm it.
+
+
+---
+
 ## How Zakura Relates to Other Zcash Nodes
 
 | | zcashd | Zebra | Zakura |
@@ -81,7 +102,7 @@ Zakura is fully compatible with the Ironwood network upgrade (NU6.3), activated 
 | Sync speed | Baseline | ~1× | ~5× faster |
 | Block pruning | No | No | Yes |
 | zcashd RPC compat | Native | Partial | Yes (compat mode) |
-| Snapshot bootstrap | No | No | Yes (<2 min) |
+| Snapshot bootstrap | No | No | Yes (less than 2 min) |
 | Experimental P2P | No | No | Yes (opt-in) |
 
 ---
@@ -110,3 +131,4 @@ Download options, snapshots, and configuration documentation are available at:
 - [Zakura Website](https://zakura.com/)
 - [Zakura on X/Twitter](https://x.com/ZakuraZcash)
 - [Project Tachyon](https://electriccoin.co/blog/)
+- [Zakura Common announcement](https://zakura.com/announcements/zakura-common/)

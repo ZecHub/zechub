@@ -36,7 +36,7 @@ Crosslink Protocol은 Zcash의 진화에서 중요한 이정표로, Zcash를 **H
 
 Crosslink 프로토콜은 Zcash의 하이브리드 Proof-of-Work/Proof-of-Stake (PoW/PoS) 단계를 위해 제안된 설계입니다. 이는 PoW를 Byzantine Fault Tolerance (BFT) 프로토콜과 통합하여, PoW 또는 PoS 중 하나만 안전하게 유지되어도 보장된 파이널리티를 가능하게 합니다. 이 설계는 채굴자의 참여를 유지하면서 스테이킹 기반 검증을 도입해 네트워크 보안성과 탈중앙화를 강화하는 것을 목표로 합니다. Crosslink 2라고 불리는 이 제안의 핵심 특징은 BFT 제안자와 채굴자를 통합하여 아키텍처를 단순화한다는 점입니다. 이러한 간소화된 접근 방식은 구조적 변경을 최소화하고 "더미" BFT 계층을 사용할 수 있게 하여, 높은 보안 기준을 유지하면서도 프로토타이핑과 배포를 더 쉽게 만듭니다.
 
-구현 계획에는 Crosslink 2*를 Zcash의 Zebra 클라이언트에 통합하기 위한 예상 엔지니어링 비용이 포함된 로드맵이 담겨 있습니다. 이 단계적 배포는 이해관계자 인센티브의 균형을 맞추고, 혼란을 줄이며, 확장성·사용성·탈중앙화라는 Zcash의 목표에 부합하는 데 초점을 둡니다. 프로토콜의 강력한 보안 속성에 대한 신뢰가 커지면서, Zcash 진화의 핵심 단계가 될 잠재력도 더욱 확고해지고 있습니다. 에너지 효율성을 개선하고 합의 메커니즘을 강화함으로써, Crosslink는 진화하는 블록체인 과제에 대한 미래지향적 해법을 제시합니다. 자세한 내용은 [GitHub 저장소](https://github.com/ShieldedLabs/crosslink-deployment)와 [Zcash Community Forum](https://forum.zcashcommunity.com)을 참고하세요.
+구현 계획에는 Crosslink 2*를 Zcash의 Zebra 클라이언트에 통합하기 위한 예상 엔지니어링 비용이 포함된 로드맵이 담겨 있습니다. 이 단계적 배포는 이해관계자 인센티브의 균형을 맞추고, 혼란을 줄이며, 확장성·사용성·탈중앙화라는 Zcash의 목표에 부합하는 데 초점을 둡니다. 프로토콜의 강력한 보안 속성에 대한 신뢰가 커지면서, Zcash 진화의 핵심 단계가 될 잠재력도 더욱 확고해지고 있습니다. 에너지 효율성을 개선하고 합의 메커니즘을 강화함으로써, Crosslink는 진화하는 블록체인 과제에 대한 미래지향적 해법을 제시합니다. 자세한 내용은 [GitHub 저장소](https://github.com/ShieldedLabs/zebra-crosslink)와 [Zcash Community Forum](https://forum.zcashcommunity.com)을 참고하세요.
 
 ### Crosslink의 목표와 목적
 
@@ -90,7 +90,7 @@ Crosslink Protocol은 Zodl과 같은 주요 생태계 파트너와 협력하여 
 * 활성화 로직: Crosslink의 도입은 Zcash 합의 규칙의 변경을 필요로 하며, 여기에는 지분 분배 프로세스 정의와 하이브리드 합의를 지원하기 위한 네트워크 프로토콜 규칙 업데이트가 포함됩니다.
 * 단계적 배포: 네트워크 안정성과 커뮤니티 적응을 보장하기 위해 프로토콜은 단계적으로 출시됩니다. 초기 단계는 기술적 구현에 초점을 맞추고, 이후 공증인 선정을 위한 거버넌스 통합이 뒤따릅니다.
 
-기술적 세부사항을 살펴보고 진행 상황을 추적하려면 [GitHub의 Crosslink Deployment Repository](https://github.com/ShieldedLabs/crosslink-deployment)를 확인하세요.
+기술적 세부사항을 살펴보고 진행 상황을 추적하려면 [GitHub의 zebra-crosslink 리포지토리](https://github.com/ShieldedLabs/zebra-crosslink) 및 [zebra-crosslink 안내서](https://shieldedlabs.github.io/zebra-crosslink/)를 확인하세요.
 
 ## Practical Implications
 

@@ -36,7 +36,7 @@ Hybrid Proof-of-Stake (PoS) दृष्टिकोण पारंपरिक
 
 Crosslink प्रोटोकॉल Zcash के hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) चरण के लिए एक प्रस्तावित डिज़ाइन है। यह PoW को Byzantine Fault Tolerance (BFT) प्रोटोकॉल के साथ एकीकृत करता है, जिससे सुनिश्चित finality मिलती है, जब तक PoW या PoS में से कोई एक सुरक्षित बना रहता है। इस डिज़ाइन का उद्देश्य staked validation को शामिल करके, और miners की भागीदारी बनाए रखते हुए, नेटवर्क सुरक्षा और विकेंद्रीकरण को मज़बूत करना है। प्रस्ताव की एक प्रमुख विशेषता, जिसे Crosslink 2 कहा जाता है, BFT proposers और miners को एकीकृत करके architecture को सरल बनाती है। यह सुव्यवस्थित दृष्टिकोण संरचनात्मक परिवर्तनों को न्यूनतम करता है और एक "dummy" BFT layer के उपयोग की अनुमति देता है, जिससे prototype बनाना और deploy करना आसान हो जाता है, जबकि उच्च सुरक्षा मानक बने रहते हैं।
 
-Implementation plan में Zcash के Zebra client में Crosslink 2* को एकीकृत करने के लिए अनुमानित engineering costs सहित एक roadmap शामिल है। यह चरणबद्ध deployment stakeholder incentives को संतुलित करने, व्यवधान कम करने, और scalability, usability, तथा decentralization के लिए Zcash के लक्ष्यों के अनुरूप रहने पर केंद्रित है। प्रोटोकॉल की मज़बूत security properties में बढ़ता विश्वास इसे Zcash के विकास में एक महत्वपूर्ण कदम के रूप में और मजबूत करता है। ऊर्जा दक्षता को संबोधित करके और consensus mechanisms को बेहतर बनाकर, Crosslink बदलती blockchain चुनौतियों के लिए एक दूरदर्शी समाधान प्रदान करता है। अधिक जानकारी के लिए, [GitHub repository](https://github.com/ShieldedLabs/crosslink-deployment) और [Zcash Community Forum](https://forum.zcashcommunity.com) देखें।
+कार्यान्वयन योजना में Zcash के Zebra client में Crosslink 2* को एकीकृत करने के लिए अनुमानित engineering costs सहित एक roadmap शामिल है। यह चरणबद्ध deployment stakeholder incentives को संतुलित करने, व्यवधान कम करने, और scalability, usability, तथा decentralization के लिए Zcash के लक्ष्यों के अनुरूप रहने पर केंद्रित है। प्रोटोकॉल की मज़बूत security properties में बढ़ता विश्वास इसे Zcash के विकास में एक महत्वपूर्ण कदम के रूप में और सुदृढ़ करता है। ऊर्जा दक्षता को संबोधित करके और consensus mechanisms को बेहतर बनाकर, Crosslink बदलती blockchain चुनौतियों के लिए एक दूरदर्शी समाधान प्रदान करता है। अधिक जानकारी के लिए, [GitHub repository](https://github.com/ShieldedLabs/zebra-crosslink) और [Zcash Community Forum](https://forum.zcashcommunity.com) देखें।
 
 ### Crosslink के लक्ष्य और उद्देश्य
 
@@ -90,7 +90,7 @@ Crosslink प्रोटोकॉल को Shielded Labs द्वारा Zo
 * Activation Logic: Crosslink की शुरुआत के लिए Zcash consensus rules में बदलाव आवश्यक हैं, जिनमें stake distribution process को परिभाषित करना और hybrid consensus का समर्थन करने के लिए network protocol rules को अपडेट करना शामिल है।
 * Phased Deployment: नेटवर्क स्थिरता और समुदाय के अनुकूलन को सुनिश्चित करने के लिए प्रोटोकॉल चरणों में लागू किया जाएगा। शुरुआती चरण technical implementation पर केंद्रित हैं, इसके बाद notaries के चयन के लिए governance integration आएगा।
 
-आप [GitHub पर Crosslink Deployment Repository](https://github.com/ShieldedLabs/crosslink-deployment) के माध्यम से तकनीकी विवरण देख सकते हैं और इसकी प्रगति का अनुसरण कर सकते हैं।
+आप [GitHub पर zebra-crosslink रिपॉज़िटरी](https://github.com/ShieldedLabs/zebra-crosslink) और [zebra-crosslink पुस्तक](https://shieldedlabs.github.io/zebra-crosslink/) के माध्यम से तकनीकी विवरण देख सकते हैं और इसकी प्रगति का अनुसरण कर सकते हैं।
 
 ## व्यावहारिक प्रभाव
 

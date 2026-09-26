@@ -150,7 +150,7 @@ zallet -d /mnt/zcash-data/zallet help
 
 ## 附加资源
 - [Zebra 手册](https://zebra.zfnd.org) — 官方 Zebra 文档
-- [Zallet 手册](https://zcash.github.io/wallet) — 官方 Zallet 文档
+- [Zallet 手册](https://zcash.github.io/zallet/) — 官方 Zallet 文档
 - [zcashd 停止支持通知](https://z.cash/support/zcashd-deprecation)
 
 ---

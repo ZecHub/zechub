@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Community/Verifying_Zcash_Releases.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Verifying_Zcash_Releases.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
@@ -176,13 +176,13 @@ Le Subject Alternative Name est l’identité. Il nomme le dépôt, le fichier d
 
 | Champ | Valeur pour v6.3.0 |
 |---|---|
-| Émetteur OIDC | `https://token.actions.githubusercontent.com` |
-| Dépôt source | `https://github.com/ZcashFoundation/zebra` |
-| Commit de build | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| Environnement du runner | `github-hosted` |
-| Exécution du workflow | `.../actions/runs/31424510487/attempts/1` |
-| Visibilité du dépôt | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Chacun de ces éléments peut être contrôlé. Le hash du commit doit correspondre au tag dans le dépôt ; l’exécution du workflow doit exister et être publique.
 
@@ -219,9 +219,9 @@ Le bundle contient une entrée Rekor prouvant que la signature a été publiée 
 
 | Champ | Valeur |
 |---|---|
-| Index du journal Rekor | `2412071838` |
-| Type d’entrée | `hashedrekord v0.0.1` |
-| Intégré le | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 C’est ce qui rend détectable un usage abusif silencieux des clés. Une signature qui n’apparaît jamais dans le journal, ou qui y apparaît à un moment peu plausible, constitue un signal qui mérite une réaction. Comparez l’heure d’intégration à l’annonce de publication.
 
@@ -427,10 +427,10 @@ Un échec de signature est plus grave qu’un échec de somme de contrôle. Une 
 
 | Projet | Versions publiées sur | Méthode | Provenance de la clé |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + bundle Sigstore | Pas de clé — identité CI via GitHub OIDC |
-| **Zallet** | `github.com/zcash/zallet/releases` | GPG `.asc` détaché, provenance SLSA, SBOM | `apt.z.cash/zodl.asc` — primaire `0338 34DD…58E2 6AB1`, sous-clé de signature `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Pas de clé — identité CI via GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — primaire `0338 34DD…58E2 6AB1`, sous-clé de signature `1FE9 9324…23F0 617F` |
 | **zcashd** | *retiré* | — | Arrêté au bloc 3,417,100 le 2026-07-18. Ne pas installer. |
-| **Zodl** (anciennement Zashi) | App Store / Google Play ; `zodl-inc` sur GitHub | Signature du store ; binaires Android autonomes signés GPG | Clé ZODL selon la déclaration de transition |
+| **Zodl** (anciennement Zashi) | App Store / Google Play ; `zodl-inc` sur GitHub | Store signing; standalone Android binaries GPG-signed | Clé ZODL selon la déclaration de transition |
 
 > **Remarque sur le nom :** Zashi a été renommé **Zodl** en 2026 — d’abord sur l’App Store, puis sur Google Play. Les anciens guides qui parlent de « Zashi » décrivent la même lignée de wallet.
 

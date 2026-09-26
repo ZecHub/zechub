@@ -4,41 +4,41 @@
 
 # Àwọn Aṣojú Àgbáyé Zcash
 
-Eto Ambassador Agbaye ṣe idanimọ awọn ọmọ ẹgbẹ agbegbe ti o ṣe awọn ẹbun didara giga si ilolupo eda abemi Zcash ati fun wọn ni agbara lati di oludari. Awọn aṣoju dagba agbegbe Zcash, ṣe awakọ gbigba olumulo, ati ilọsiwaju imoye ti imọ-ẹrọ ifipamọ aṣiri Zcash.
+Ètò Àjọ Àgbáyé ń dá àwọn ọmọ ẹgbẹ́ àwùjọ tí wọ́n ń ṣe àfikún tó ga jùlọ sí ètò Zcash mọ̀, ó sì ń fún wọn lágbára láti di olórí. Àwọn Àjọ ń mú kí àwùjọ Zcash dàgbà, wọ́n ń mú kí àwọn olùlò gbà wọ́n, wọ́n sì ń mú kí ìmọ̀ nípa ìmọ̀ ẹ̀rọ ìpamọ́ Zcash pọ̀ sí i.
 
-## Iṣẹ́ wo ni Aṣojú ń ṣe?
+## Kí ni Aṣojú kan ń ṣe?
 
-- Ṣètò àwọn ìṣẹ̀lẹ̀ pàdé ara ẹni tàbí ti orí kọ̀ǹpútà
-- Ṣetọju ifarahan ti nṣiṣe lọwọ lori media media ati ṣẹda akoonu atilẹba nipa Zcash
-- Túmọ̀ àwọn ohun èlò ìdánilẹ́kọ̀ọ́ Zcash sí èdè ìbílẹ̀
-- Awọn olumulo tuntun ati awọn oludagbasoke tuntun si eto ilolupo Zcash
-- Ṣojú fún Zcash ní àwọn àpérò crypto àti àwọn ìṣẹ̀lẹ̀ àwùjọ
+- Gbalejo awọn iṣẹlẹ ipade ti ara tabi foju
+- Ṣetọju wiwa ti nṣiṣe lọwọ lori media awujọ ki o ṣẹda akoonu atilẹba nipa Zcash
+- Túmọ̀ àwọn ohun èlò ẹ̀kọ́ Zcash sí àwọn èdè ìbílẹ̀
+- Àwọn olùlò tuntun àti àwọn olùgbékalẹ̀ sí ètò-ẹ̀rọ Zcash
+- Ṣe aṣoju Zcash ni awọn apejọ crypto ati awọn iṣẹlẹ agbegbe
 
-Àwọn Aṣojú ní òmìnira láti ṣe àwọn ìgbòkègbodò tí wọ́n ń gbèrò, èyí tó fún wọn láǹfààní láti ṣe àfikún ìpolongo wọn sí ipò tí wọ́n wà ládùúgbò wọn.
+Àwọn aṣojú ní òmìnira láti ṣe àwọn iṣẹ́ tí wọ́n ń gbèrò, èyí sì ń jẹ́ kí wọ́n lè ṣe àtúnṣe sí bí wọ́n ṣe ń ṣe sí àdúgbò wọn.
 
-## [Ìkànnì Àgbáyé ti Aṣojú](https://zcashambassadors.com)
+## [Oju opo wẹẹbu Aṣoju Agbaye](https://zcashambassadors.com)
 
-## Awọn Agbegbe Ambassador ti nṣiṣe lọwọ (2026)
+## Àwọn Àwùjọ Aṣojú Tó Ń Ṣiṣẹ́ (2026)
 
-Àgbègbè. Ẹgbẹ́ aráàlú. Iṣẹ́ pàtàkì.
+| Agbègbè | Àwùjọ | Iṣẹ́ pàtàkì |
 |--------|-----------|-------------|
-[Zcash ní èdè Spanish](https://zcashesp.com) Àwọn ohun tó wà ní èdè Spanish, ZK AV Club, Zcast podcast.
-Brazil. [Zcash Brazil] [Àwòrán ilẹ̀ Brazil](https://x.com/zcashbrazil) Àwọn ìdánilẹ́kọ̀ọ́, àwọn ìpàdé, ìwé ìròyìn Shielded.
-| Turkey | [Zcash Turkey](https://x.com/ZcashTR) Àwọn ohun èlò ìdánilẹ́kọ̀ọ́, Ìkópa nínú Ọ̀sẹ̀ Blockchain ní Istanbul.
-| Arabia | [Zcash Arabia](https://x.com/ZcashArabia) Àwọn ohun tó wà nínú ẹ̀kọ́ èdè Lárúbáwá, AMAs.
-| Nigeria | [Zcash Nigeria](https://x.com/ZcashNigeria) Ẹ̀kọ́ fún àwọn olùdàgbàsókè, gbígba àwọn aráàlú wọlé.
-| East Africa | [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) Gúúsù Áfíríkà, Uganda ìdàgbàsókè àwùjọ.
-Kenya [KBCC 2026 Ìmúṣẹ](https://forum.zcashcommunity.com/t/zcash-gold-sponsorship-kenya-kbcc-2026-activation-privacy-workshop/55520) Àjọ tó ń ṣagbátẹrù àpérò Kenya Blockchain Conference + ìdánilẹ́kọ̀ọ́ ìpamọ́
-Mexico. [CodeRaiz Mexico] Àkọlé àwòrán](https://forum.zcashcommunity.com/t/zcash-university-outreach-initiative-mexico-2026-coderaiz-proposal/55506) ìkórìíra àwọn akẹ́kọ̀ọ́ àti gbígbé àwọn olùdàgbà wọlé.
-Tanzania. [Pesa Ya Siri] [Àwòrán tó wà ní ojú ìwé 7](https://forum.zcashcommunity.com/t/pesa-ya-siri-making-zcash-a-household-name-in-tanzania/55558) ▪ Ṣíṣe kí Zcash di orúkọ tí gbogbo èèyàn mọ̀ ní Tanzania.
-Orílẹ̀-èdè Rọ́ṣíà](https://x.com/ruZCASH) Àwọn ohun tó wà ní èdè Rọ́ṣíà àti àwùjọ
-| India | [Zcash India](https://forum.zcashcommunity.com/t/zcash-india-2026/54762) Ẹ̀kọ́ àwọn olùdàgbàsókè àti ìdàgbàsíwájú àwùjọ.
+| Látìn Amẹ́ríkà | [Zcash en Español](https://x.com/zcashesp1) | Àkóónú èdè Sípéènì, Ẹgbẹ́ ZK AV, Podcast Zcast |
+| Brazil | [Zcash Brazil](https://x.com/zcashbrazil) | Àwọn ìdánilẹ́kọ̀ọ́, àwọn ìpàdé, Ìwé Ìròyìn Ààbò |
+| Tọki | [Zcash Tọki](https://x.com/ZcashTR) | Àkóónú ẹ̀kọ́, Ìkópa Ọ̀sẹ̀ Blockchain ní Istanbul |
+| Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Àkóónú ẹ̀kọ́ Lárúbáwá, AMAs |
+| Yukrayn| [Zcask Ukraine](https://x.com/Zcash_ua) | Yukrayn |
+| Nàìjíríà | [Zcash Nàìjíríà](https://x.com/ZcashNigeria) | Ẹ̀kọ́ àwọn olùgbékalẹ̀, ìtẹ̀síwájú àwùjọ |
+| Ìlà Oòrùn Áfíríkà | [Zcash Ìlà Oòrùn Áfíríkà](https://x.com/ZcashEastAfrica) | Ìdàgbàsókè àwùjọ ní ìlà-oòrùn Áfíríkà, Uganda |
+| gusu Afrika | [Zcash Gúúsù Áfíríkà](https://twitter.com/Zcash_SA) | gusu Afrika |
+| Gánà | [Zcash Ghana](https://x.com/ZcashGH) | Gánà |
+| Meksiko | [zcashqro](https://x.com/zcashqro) | Ìbánisọ̀rọ̀ àti ìdàgbàsókè Yunifásítì |
+| Rọ́síà | [ruZcash](https://x.com/ruZCASH) | Àkóónú àti àwùjọ èdè Rọ́síà |
+| Íńdíà | [Zcash Íńdíà](https://x.com/ZcashIND) | Ẹ̀kọ́ àwọn olùgbékalẹ̀ àti ìdàgbàsókè àwùjọ |
+| Kòríà | [Zcash Kòríà](https://x.com/zcashkorea) | Àkóónú ẹ̀kọ́ Korea |
 
-## Béèrè Láti Di Aṣojú
+## Fi ìbéèrè sílẹ̀ láti di Aṣojú
 
-Ṣe o nifẹ lati ṣe aṣoju Zcash ni agbegbe rẹ? Lọ si [zcashambassadors.com](https://zcashambassadors.com) láti kẹ́kọ̀ọ́ nípa ètò náà kí wọ́n sì fi sílò.
+O tun le kopa ninu:
+- Ṣíṣe àfikún sí [Àwọn ẹ̀bùn ZEC](https://bounties.zechub.wiki/)
+- Dídarapọ̀ mọ́ ara wọn [Zcash Global Discord](https://discord.gg/zcash)
 
-O tún lè kópa nípa:
-- Ṣiṣẹpọ si [ZecHub DAO](https://app.dework.xyz/zechub-2424) àwọn èrè
-- Lílọ sí [Zcash Global Discord](https://discord.gg/zcash)
-- Ṣíwọ̀ọ́ sí Àpérò [ZODL ní Prague, July 810 2026](https://forum.zcashcommunity.com/t/zodl-summit-july-8-10-in-prague-czech-republic/55716)

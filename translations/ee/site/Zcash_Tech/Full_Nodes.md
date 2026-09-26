@@ -8,7 +8,7 @@ Full Node nye kɔmpiutadziɖoɖo si wɔa cryptocurrency ɖesiaɖe ƒe blockchain
 
 Eléa asitsatsa ɖesiaɖe si dzɔ tso gɔmedzedzea me ƒe nuŋlɔɖi blibo ɖe asi eye le esia ta ete ŋu ɖoa kpe asitsatsa yeyewo kple mɔxenu siwo wotsɔ kpe ɖe blockchain ŋu ƒe nyateƒenyenye dzi.
 
-## Zcashd ƒe ŋkɔ
+## Zcashd
 
 > **De dzesii:** wole zcashd ɖem ɖa. Electric Coin Company [ɖe gbeƒãe le se nu](https://z.cash/support/zcashd-deprecation/) be wole dzudzɔ xɔm le zcashd me, eye wotsɔ [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) kple eƒe gakotoku ƒe akpa si [Zallet](https://github.com/zcash/zallet). Ne èdi be yeawɔ dɔ yeyewo la, zã Zebra (kpɔ ete). Ne èwɔ zcashd node xoxo la, wɔ ɖe [Migration Guide: zcashd to Zebrad/Zallet dzi](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
 
@@ -62,7 +62,7 @@ Zebra nye Zcash ɖoɖowɔɖi ƒe node blibo si le eɖokui si, si le klalo na ew�
 
 Zebra ɖoa kpe mɔxenuwo kple asitsatsa dzi, kpɔa gome le hatiwo ƒe kadodo me, eye wòɖea RPC ƒe ŋgɔdonya ɖe go na dɔwɔɖoɖowo. Gakotokua nye akpa aɖe si to vovo fifia: [Zallet](https://github.com/zcash/zallet) ƒua du ɖe Zebra node ŋu eye wòkpɔa safuiwo kple dadasɔwo gbɔ. Esia xɔ ɖe zcashd teƒe, si ƒo node kple gakotoku nu ƒu ɖe dɔwɔwɔ ɖeka me.
 
-Be woasubɔ kekeli gakotoku siwo ŋu wokpɔ ta na la, node la zɔna ɖe indexer aɖe xa, si nye [lightwalletd si woɖo anyi](https://github.com/zcash/lightwalletd) alo yeyetɔ kekeake [Zaino](https://zechub.wiki/zaino).
+Be woasubɔ kekeli gakotoku siwo ŋu wokpɔ ta na la, node la zɔna ɖe indexer aɖe xa, si nye [lightwalletd](https://github.com/zcash/lightwalletd) alo yeyetɔ kekeake [Zaino](https://zechub.wiki/zaino).
 
 Kpɔ egbɔ be yexlẽ Zebra ƒe agbalẽa hena ɖoɖowɔwɔ ŋuti mɔfiamewo, eye nàwɔ ɖeka kple R&D Discord server hena kpekpeɖeŋu. 
 
@@ -70,7 +70,7 @@ Kpɔ egbɔ be yexlẽ Zebra ƒe agbalẽa hena ɖoɖowɔwɔ ŋuti mɔfiamewo, ey
 
 [Zebra ƒe Agbalẽa](https://zebra.zfnd.org) 
 
-[Masɔmasɔ](https://discord.gg/uvEdHsrb)
+[Discord](https://discord.gg/uvEdHsrb)
 
 
 
@@ -90,7 +90,7 @@ Esiawo nye kpɔɖeŋu mɔ̃ siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakaka
 
 [Coinmetrics ƒe xexlẽdzesiwo](https://docs.coinmetrics.io/info/assets/zec)
 
-[Blockchair ƒe zikpui](https://blockchair.com/zcash)
+[Blockchair](https://blockchair.com/zcash)
 
 Àte ŋu akpe asi ɖe network la ƒe ŋgɔyiyi hã ŋu to dodokpɔwo wɔwɔ alo ŋgɔyiyi yeyewo dodo ɖe ŋgɔ & metrics nana me. 
 
@@ -118,7 +118,7 @@ Viɖe bubu aɖe le esia ŋu be wòana zãla bubuwo nado ka kple wò node .onion 
 
 Xlẽ [Kpekpeɖeŋunagbalẽwo](https://zcash.readthedocs.io/en/latest/)
 
-Wɔ ɖeka kple míaƒe [Masɔmasɔ Sever](https://discord.gg/zcash) alo nàdo asi ɖe mía gbɔ le [twitter](https://twitter.com/ZecHub)
+Wɔ ɖeka kple míaƒe [Discord Sever](https://discord.gg/zcash) alo nàdo asi ɖe mía gbɔ le [twitter](https://twitter.com/ZecHub)
 
 
 

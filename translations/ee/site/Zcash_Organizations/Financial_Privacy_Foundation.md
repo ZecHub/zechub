@@ -1,42 +1,42 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Financial Privacy Foundation.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Financial_Privacy_Foundation.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ganyawo Ŋuti Nyatakakawo Ŋuti Dɔwɔƒe (FPF) .
+# Gadzikpɔkpɔ Ŋuti Ðoɖowɔha (FPF)
 ![FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
-## Ku ɖe FPF ŋu
-Ganyawo Ŋuti Nyatakaka Dɔwɔƒe (FPF) nye habɔbɔ si mekpɔa viɖe aɖeke tso eme o si woɖo ɖe Cayman Ƒukpowo dzi. FPFwo ƒe taɖodzinu vevitɔe nye be woafia nu ame ɖekaɖekawo kple nutoawo ahado ŋusẽ wo be woakpɔ ŋusẽ ɖe woƒe ganyawo ƒe adzamenyawo kple dedienɔnɔ dzi. FPF ɖoe kplikpaa hã be yeado ganyawo ŋuti ɖoɖo si le dzɔdzɔe eye wòsɔ si dea bubu ame ŋutɔ ƒe nyatakakawo ŋu la ɖe ŋgɔ. FPFwo ƒe dɔwɔna vevitɔ si ku ɖe ganyawo ƒe adzamenyawo ŋue nye be woana ame ɖekaɖekawo kple nutoawo nyatakakawo, nunɔamesiwo kple kpekpeɖeŋu be woatsɔ akpɔ woƒe ganyawo ŋuti nyatakakawo ta ahawɔ wo nyuie wu. Ganyawo Ŋuti Nyatakakawo Gbɔkpɔha (FPF) le kpekpeɖeŋunana ƒe ɖoɖo aɖe si ƒe tanyae nye FPF X FPF wɔm fifia.
+## Le FPF ŋu
+Financial Privacy Foundation (FPF) nye habɔbɔ si me viɖe mele o, eye woɖo wo ɖe Cayman Islands. FPF ƒe taɖodzinu enye be yeafia nu amewo ahana ŋusẽ ame kple hamewo alebe woate ŋu akpɔ woƒe ganyawo dzi nyuie le adzame. Eɖoe hã be yeaɖo gaɖoɖo ɖoɖo nyui aɖe anyi si ana bubu nanɔ ame ŋutɔ ƒe nya ɣaɣlawo ŋu. Gakpɔtɔ la, eƒe dɔwɔna koŋue nye be wòatsɔ nyatakakawo, nuwo kpakple kpekpeɖeŋu akpe asi na amesiame kple nutoa me tɔwo bene woakpɔ yewoƒe ganyawo ta ahawɔe ɖoɖola nyuitɔ kekeake. Fifia ya la, wole nunana wɔm tso Financial Privacy Fund (FPB) gbɔ tsɔ kpea asi ɖe ɖoɖo sia ŋuti.
 
-##  Nyatakaka siwo ku ɖe FPF X FPF ŋu
+##  Nyatakakawo tso FPF X FPF ŋu.
 
- FPF X FPF ku ɖe FPF ƒe dodokpɔ gbãtɔ ƒe kpekpeɖeŋunaɖoɖo, Ganyawo ƒe Adzamenyawo Gbɔkpɔha (FPF x FPF) ŋu. Ðoɖoa ana ga na mɔ̃ɖaŋudɔwo wɔwɔ le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me siwo le nuwuwu gogom, alo dɔ siwo akpe ɖe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa ŋu enumake eye woate ŋu awu enu le ɣeyiɣi kple gazazã ƒe seɖoƒe si woɖo ɖi me. FPF X FPF le egɔme dzem kple ga sue aɖe ŋutɔ be woatsɔ atrɔ asi le gakpekpeɖeŋunana ƒe ɖoɖoa ŋu eye wòle mɔkpɔkpɔ me be yeadze ŋgɔdonyawo gɔme le etsɔme. 
+ FPF X FPF is about FPFs first experimental grant program, the Financial Privacy Fund (FPF x FPF). The program will fund engineering projects within the Zcash ecosystem that are nearing completion, or projects that will immediately contribute to the ecosystem and can be completed within the specified time and funding limits. FPF X FPF is launching with very limited funds to refine the grant funding process and hopes to launch future rounds. 
 
 
-## [FPF x ZecHub Bounty Ðoɖowɔɖi - Blog Nyatakaka](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
+## [FPF x ZecHub Bounty Program - Blog Post (Fɔɖivɛɖoanyi si le Ŋutifafa me)](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
 
 ## FPF X FPF Ðoɖowɔɖi Ŋuti Nyatakakawo 
 
-FPF X FPF Dɔwɔɖoɖo Ŋuti Nyatakakawo FPF ƒe nyatakaka geɖewo le eƒe ɖoɖowɔɖia me siwo nye:
+FPF X FPF ƒe ɖoɖowo ŋuti nya aɖewo le eƒe ɖoɖoa me siwo nye:
 
-- Ga home: Vaseɖe $50,000 USD
-- Nubiabia si sɔ gbɔ wu: $25,000 USD
-- KYC ƒe Nudidiwo: Ðeke meli o
-- Dɔa Ƒomevi: Mɔ̃ɖaŋudɔ siwo ate ŋu aɖe vi na Zcash ƒe lãwo ƒe agbenɔnɔ tẽ eye woate ŋu awu enu bliboe koe woabu.
-- Fexexe: Ne wowu dɔa nu dzidzedzetɔe
-- Ɣletiŋkeke si dzi Woadze egɔme: March 18, 2024
+- Ga home si woana: Do $50,000 USD.
+- Ne mede ɖeke o la, woabia dɔlar 25,000.
+- KYC Nudidiawo: Womele ɖeke me o.
+- Dɔwɔɖui ƒe Ƒome: Mɔ̃ɖaŋudɔ siwo ate ŋu aɖe vi na Zcash-nutowo me tɔwo tẽ eye woate ŋu awu wo nu keŋkeŋ koe woabu.
+- Fetu: Ne wowu dɔa nu dzidzedzetɔe ko.
+- Woadoe ɖe yame le March 18, 2024 dzi.
 
-## Gakpekpeɖeŋunana ƒe Dɔbiagbalẽvi ƒe Dɔwɔɖoɖo 
+## Dɔwɔgbalẽvi si dzi woazã dɔmenyonunana ɖo 
 
-FPF X FPF ƒe kpekpeɖeŋunana ƒe ɖoɖoa lɔ ɖoɖo geɖewo ɖe eme. Gbã la, ele be amesiwo di be yewoaxɔ kpekpeɖeŋua nabia gakpekpeɖeŋua to agbalẽvi si le dedie si wona la dzi. Emegbe la, FPF alé ŋku ɖe dɔbiagbalẽvia ŋu be edze hã, eye woana dɔbialaawo nanya woƒe nɔnɔme le ɣletigbalẽ dzi ŋkeke 5 me le dɔbiagbalẽvia ƒe ɣeyiɣi mamlɛa megbe. Eyome, adhoc review committee alé ŋku ɖe kpekpeɖeŋunana ƒe ɖoɖoa ŋu ahatso nya me le eŋu le ɣletigbalẽ dzi ŋkeke 20 me le ɣeyiɣi mamlɛtɔ si wotsɔ ɖoe ɖa megbe. Woata gakpekpeɖeŋu siwo wona la ŋuti nyatakakawo ɖe FPF ƒe nyatakakadzraɖoƒe be woawɔ nu le gaglãgbe eye woabu akɔnta.
+FPF X FPF ƒe ɖoɖowo le nu vovovowo me. Gbã la, ele be amesiwo di kpekpeɖeŋu naxɔa agbalẽvi si woɖo ɖi dzi woanae. Emegbe FPF adzro woƒe nudidiwo ŋu eye woaɖe gbeƒã alesi wole ene na amesiame ŋkeke atɔ̃ do ŋgɔ na game si wotsɔ ɖo dɔbiagbalẽvia te; emegbe adhoc dzikpɔkpɔ kɔmiti aɖe ava kpɔ nudzɔdzɔawo gbɔ ahatso nya me tso eŋu le ɣleti 20 megbe hafi azãgbe sia nava yi. Woaɖe nyatakaka siwo ku ɖe kpekpeɖeŋunana ame bubuwo ŋuti la afia to Internet dzi hena numekɔkɔ kple nugɔmesese nyuie.
 
-## Nyatakaka Bubuwo tso FPF X FPF ŋu 
+## Nya Geɖe Ku Ðe FPF X FPF Ŋu 
 
-Àte ŋu akpɔ nyatakaka bubuwo tso FPF X FPF ŋu le Ganyawo Ŋuti Nyatakakawo Ŋuti Modzakaɖeɖe (FPF) ƒe nyatakakadzraɖoƒe [le afisia](https://www.financialprivacyfoundation.org/grants) eye ne ègale didim be yeanya nu tso FPF X FPF ɖoɖoa ŋu la, àte ŋu ayi FAQs ƒe nuŋlɔɖi le afisia: [FAQs](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
+Àte ŋu akpɔ nyatakaka bubuwo ku ɖe FPF X FPF la ŋuti le Financial Privacy Fun (FPF) ƒe internet dzi. [le afisia.](https://www.financialprivacyfoundation.org/grants) eye ne ègale nu dim le FPF X FPF ɖoɖowɔɖia ŋu la, àte ŋu akpɔ FAQ ƒe agbalẽa: [Nya Siwo Amewo Biana Edziedzi](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Ne èdi be yeazu Lɔlɔ̃nu Faa Dɔwɔla na FPF X FPF ɖoɖoa ƒe ɣeyiɣi sia la, taflatse yi [link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Ne èdi nyabiase bubuwo ku ɖe FPF X FPF ƒe Gakpekpeɖeŋunaɖoɖoa ŋu la, àte ŋu abia tẽ to e-mail ɖoɖo ɖe [FPF](info@financialprivacyfoundation.org).
+Ne èdi be yeanye Volunteer Reviewer le FPF X FPF ƒe ɖoɖo sia me la, taflatse yi afii: www.fpfx-reviewers.org/en/ [kadodo si le wo dome](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Ne nya bubu le asiwò ku ɖe FPF X FPF Grant Program ŋu la, àteŋu abia tẽ to e-mail dzi. [FPF (Fɔkpa)](info@financialprivacyfoundation.org).
 
-## Nunɔamesiwo 
-[Ganyawo Ŋuti Nyatakakawo Ŋuti Gaxɔ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
+## Ganyawo ƒe Kpekpeɖeŋu 
+[Ganyawo Ŋuti Nyatakakawo Gbɔkpɔla](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
 
 

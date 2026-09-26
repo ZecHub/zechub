@@ -82,7 +82,7 @@ L'opzione più forte sul piano della custodia. Il suo backend wallet è di sola 
 
 Solo shielded, con supporto per Sapling, Orchard e Unified Addresses. Non c'è un ripiego sul trasparente, quindi non pianificare contando su quello.
 
-Per installarlo ti serve il fork Docker btcpay-zcash sul branch feat/zec, più una Viewing Key esportata da un wallet come Ywallet o Zingo. Per impostazione predefinita comunica con un lightwalletd remoto, oppure puoi eseguire tu stesso Zebra e lightwalletd.
+Per installarlo ti serve il fork Docker btcpay-zcash sul branch feat/zec, più una Viewing Key esportata da un wallet come Zkool o Zingo. Per impostazione predefinita comunica con un lightwalletd remoto, oppure puoi eseguire tu stesso Zebra e lightwalletd.
 
 Una limitazione da conoscere: il plugin usa un singolo wallet Zcash per tutti i negozi su un'istanza, quindi non eseguirlo su un server condiviso. Si sta lavorando a wallet separati per ogni negozio.
 

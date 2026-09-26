@@ -30,7 +30,7 @@ Bii o ṣe le ṣe Awọn ibeere isanwo pẹlu Zcash:
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
     title="How to make Payment Requests with Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -46,7 +46,7 @@ Fífi ìsọfúnni nípa ẹ̀bùn Zcash kún ojúlé rẹ:
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
     title="Adding a Zcash Donation Widget to your Website"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

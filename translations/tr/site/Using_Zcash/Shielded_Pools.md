@@ -90,7 +90,7 @@ Zcash Sapling, kullanıcıların Sprout serisine kıyasla çok daha kısa süred
 
 İşlem shielded özelliği gizliliği artırır; üçüncü tarafların işlemleri ilişkilendirmesini ve aktarılan ZEC miktarını belirlemesini imkânsız hâle getirir. Sapling ayrıca özel işlem üretmek için gereken hesaplama gereksinimlerini azaltarak kullanılabilirliği iyileştirir ve bunu kullanıcılar için daha erişilebilir kılar.
 
-Sapling cüzdan adresleri "zs" ile başlar ve bu, Sapling adreslerini yerleşik olarak içeren desteklenen tüm Zcash Shielded Wallet’larda (YWallet, Zingo Wallet, Nighthawk vb.) görülebilir. Zcash Sapling, işlem gizliliği ve verimliliği açısından önemli bir teknolojik gelişmeyi temsil eder; bu da Zcash’i gizlilik ve güvenliğe önem veren kullanıcılar için pratik ve etkili bir kripto para birimi hâline getirir.
+Sapling cüzdan adresleri "zs" ile başlar ve bu, Sapling adreslerini yerleşik olarak içeren desteklenen tüm Zcash Shielded Wallet’larda (Zkool, Zingo Wallet, Nighthawk vb.) görülebilir. Zcash Sapling, işlem gizliliği ve verimliliği açısından önemli bir teknolojik gelişmeyi temsil eder; bu da Zcash’i gizlilik ve güvenliğe önem veren kullanıcılar için pratik ve etkili bir kripto para birimi hâline getirir.
 
 ____
 

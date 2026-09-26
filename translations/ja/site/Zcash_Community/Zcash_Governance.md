@@ -125,11 +125,11 @@ Zcashガバナンスは「オンチェーンプロトコルルール」と「オ
 
 ## 5. 関連リソース
 
-- 公式資金説明 -> [z.cash/network funding section](https://z.cash/network/?funding=#funding)  
+- 公式資金説明 -> [z.cash/networkの資金セクション](https://z.cash/network/?funding=#funding)  
 - ZIP 1015（NU6資金変更）-> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
 - ZIP 1016（提案されたコインホルダーモデル）-> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
-- Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
-- Zcash Community Grantsポータル -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com)（または現在のFPFサイト）
+- Zcash 改善提案 -> [zips.z.cash](https://zips.z.cash)  
+- Zcash Community Grantsポータル -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 
 ## 6. ロックボックスダッシュボード
 

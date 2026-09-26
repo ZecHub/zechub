@@ -37,10 +37,6 @@ Jeden Montag veröffentlichen wir Issues für Aufgaben, für die derzeit Bountie
 
 [ZecHub-Wiki Github-Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
-[ZecHub-Namada Github-Issues](https://app.dework.xyz/zechub-2424)
-
-
-
 Falls es andere Möglichkeiten gibt, wie du beitragen möchtest, sende bitte ZecHub ([@ZecHub](https://twitter.com/zechub)) eine Nachricht auf Twitter oder tritt unserem [Discord](https://discord.gg/zcash) bei.
 
 ____

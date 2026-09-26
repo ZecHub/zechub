@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Koma Nnua
+# Heartwood
 
 > Heartwood kɔɔ so yɛɛ adwuma wɔ Zcash mainnet so wɔ block 903,000 (July 16, 2020 UTC).
 
@@ -40,13 +40,13 @@ Heartwood yɛ anammɔn biako wɔ mmirikatu a Zcash nkɔso, biara de afã bi ka h
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Netwɛk no mu nkɔso (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
-| Coinbase nkitahodi | Adwuma titiriw a ɛwɔ block biara mu a ɛtua block akatua |
+| Network upgrade (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
+| Coinbase transaction | Adwuma titiriw a ɛwɔ block biara mu a ɛtua block akatua |
 | Shielded Sapling address | Zcash address type a ɛyɛ kokoam a Sapling upgrade |
-| Coinbase a wɔabɔ ho ban | Heartwood nsakrae a ɛma wotua block akatua kɔ shielded Sapling address ahorow mu |
-| FlyAdetɔfo | Ɔkwan a ɛma hann afɛfo de adanse nketewa di adanse-a-ɛyɛ adwuma ho adanse |
-| Merkle Mmepɔw (MMR) | Blok ahorow a atwam a block header no de ne ho to |
-| Adwene a ɛwɔ mu baa dwumadibea id | Tag a ɛkyerɛ upgrade mmara a asɛm bi di akyi, a wɔde di dwuma ma replay ahobammɔ |
+| Shielded coinbase | Heartwood nsakrae a ɛma wotua block akatua kɔ shielded Sapling address ahorow mu |
+| FlyClient | Ɔkwan a ɛma hann afɛfo de adanse nketewa di adanse-a-ɛyɛ adwuma ho adanse |
+| Merkle Mountain Range (MMR) | Blok ahorow a atwam a block header no de ne ho to |
+| Consensus branch id | Tag a ɛkyerɛ upgrade mmara a asɛm bi di akyi, a wɔde di dwuma ma replay ahobammɔ |
 
 ## FAQ
 
@@ -96,4 +96,4 @@ Na ɛsɛ sɛ Coinbase outputs yɛ nea ɛda adi pefee, enti bere nyinaa na obi a 
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Nhwiren a ɛyɛ fɛ](../zcash-tech/blossom) · Deɛ ɛdi hɔ: [Canopy a wɔde yɛ adwuma](../zcash-tech/canopy)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Blossom](../zcash-tech/blossom) · Deɛ ɛdi hɔ: [Canopy](../zcash-tech/canopy)

@@ -150,8 +150,8 @@ Zebra und Zallet sind bei der Einrichtung im Allgemeinen CPU-schonender als das 
 
 ## Zusätzliche Ressourcen
 - [Zebra Book](https://zebra.zfnd.org) — offizielle Zebra-Dokumentation
-- [Zallet Book](https://zcash.github.io/wallet) — offizielle Zallet-Dokumentation
-- [Hinweis zum End-of-Support von zcashd](https://z.cash/support/zcashd-deprecation)
+- [Zallet Book](https://zcash.github.io/zallet/) — offizielle Zallet-Dokumentation
+- [zcashd Hinweis zum End-of-Support](https://z.cash/support/zcashd-deprecation)
 
 ---
 

@@ -33,14 +33,14 @@ Lo sviluppatore di un portafoglio può collegare il software a un endpoint RPC d
 
 #### 2. Testare gli aggiornamenti della rete
 
-Zcash aggiorna periodicamente il suo protocollo principale (ad esempio Nu5, Nu6). La Testnet attiva i nuovi aggiornamenti **prima della Mainnet**, permettendo agli sviluppatori e alla comunità di identificare e risolvere i bug.
+Zcash aggiorna periodicamente il suo protocollo principale (ad esempio NU6.1, NU6.2 e Ironwood). La Testnet attiva i nuovi aggiornamenti **prima della Mainnet**, permettendo agli sviluppatori e alla comunità di identificare e risolvere i bug.
 
 **Esempio
 Una nuova regola di consenso o un nuovo tipo di transazione vengono prima inviati a Testnet. Dopo aver superato i test, viene attivata su Mainnet a un'altezza di blocco predeterminata.
 
 #### 3. Test delle implementazioni dei nodi
 
-Zcash supporta diverse implementazioni software dei nodi: `zcashd` e **Zebra** (nodo basato su Rust e gestito dalla Zcash Foundation). Testnet consente di testare i nodi in condizioni reali senza rischi finanziari.  
+Il nodo Zcash mantenuto è **Zebra** (il nodo basato su Rust mantenuto dalla Zcash Foundation) e il wallet mantenuto è [Zallet](https://github.com/zcash/zallet). `zcashd`, l'implementazione del nodo originale, ha raggiunto il suo arresto automatico di fine supporto il 18 luglio 2026 e non è più mantenuto - vedi la [guida alla migrazione da zcashd a Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Il testnet consente di testare i nodi in condizioni reali senza rischi finanziari.
 
 Gli sviluppatori di nodi possono:
 
@@ -129,10 +129,10 @@ Un **faucet** (in italiano rubinetto) è un servizio che offre monete TAZ gratui
 - Gli utenti forniscono un indirizzo Testnet; il faucet invia una piccola quantità di TAZ
 - Evita la necessità di mining manuale di TAZ
 
-**Esempio:**
-1. Visita un faucet di Testnet (ad esempio, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/)])
-2. Inserisci il tuo indirizzo Testnet
-3. Richiedi TAZ
+**Esempio:**  
+1. Visita un faucet di Testnet (ad esempio, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
+2. Inserisci il tuo indirizzo Testnet  
+3. Richiedi TAZ  
 4. Ricevi immediatamente le TAZ per iniziare i test
 
 **Perché è importante

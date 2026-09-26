@@ -63,7 +63,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados com 
 | Termo | Definição |
 |------|-----------|
 | Fiat-Shamir | Uma técnica para pegar numa prova interativa de conhecimento e criar com base nela uma assinatura digital. Desta forma, algum facto (por exemplo, o conhecimento de um segredo) pode ser provado publicamente sem revelar a informação subjacente. |
-| Verificação Formal | Provar matematicamente que um sistema se comporta exatamente como especificado, em vez de depender apenas de testes. O circuito Ironwood Action foi verificado desta forma por contribuidores da zkSecurity e da ZODL, usando o provador de teoremas Lean, para demonstrar a ausência de falhas de solidez. |
+| Formal Verification | Provar matematicamente que um sistema se comporta exatamente como especificado, em vez de depender apenas de testes. O circuito Ironwood Action foi verificado desta forma por contribuidores da zkSecurity e da ZODL, usando o provador de teoremas Lean, para demonstrar a ausência de falhas de solidez. |
 | Founders Reward | A recompensa dos fundadores representa 20 por cento da recompensa total por bloco e é deduzida do valor de cada bloco e distribuída de forma transparente para impulsionar o desenvolvimento e o crescimento do protocolo. |
 | Free2z | Uma ferramenta para conteúdo anónimo e donativos privados alimentada por Zcash. [Free2z](https://free2z.com) |
 | FROST | Esquema de assinatura Schnorr threshold flexível e otimizado por rondas. [Artigo de Investigação](https://eprint.iacr.org/2020/852) |
@@ -209,7 +209,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados com 
 
 | Termo | Definição |
 |------|-----------|
-| Wallet | Software ou hardware que armazena chaves privadas e permite enviar/receber ZEC. As wallets ativas incluem ZODL (iOS/Android), Zingo! (móvel/desktop), Nighthawk (Android), YWallet, Zallet (em breve) e Keystone (hardware). Para uma lista completa, veja [Wallets do Ecossistema Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software ou hardware que armazena chaves privadas e permite enviar/receber ZEC. As wallets ativas incluem ZODL (iOS/Android), Zingo! (móvel/desktop), Nighthawk (Android), Zkool (móvel/desktop), Zallet (em breve) e Keystone (hardware). Para uma lista completa, veja [Wallets do Ecossistema Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | O primeiro SDK JavaScript para Zcash, desenvolvido pela ChainSafe para ambientes de navegador. Está na base do snap Zcash Shielded Wallet que levou ZEC shielded ao MetaMask. |
 
 ## X

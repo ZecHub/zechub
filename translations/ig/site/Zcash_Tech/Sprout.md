@@ -2,13 +2,13 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Mkpụrụ osisi na-eto eto
+# Sprout
 
 > Zcash malitere na Ọktọba 28, 2016, ya na ọdọ mmiri echedoro Sprout.
 
 Ihe ị ga-ewepụ: Sprout bụ ebe Zcash bidoro, oge mbụ ego nkeonwe na -enyocha ya gbara ọsọ n'elu ndụ blockchain.
 
-Sprout bụ mmalite nke netwọk Zcash, ọ bụghị mgbe e mesịrị. [nkwalite netwọkụ.](../start-here/network-upgrades)Ọ malitere ndụ na genesis block on October 28, 2016. Enweghị nọmba ZIP akọwapụtara Sprout: usoro ZIP bidoro mgbe e mesịrị site n'oge oyi, yabụ a kọwara Sprout site na nkọwapụta mbụ nke Protocol Zcash yana owuwu Zerocash ọ wuru. The [Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company) (then the Zerocoin Electric Coin Company), led by Zooko Wilcox, built and shipped it. Sprout introduced the first practical zk-SNARK shielded transactions and the original shielded pool, so people could send ZEC with the sender, receiver, and amount hidden while the network still checked that the balances added up. The name signaled a young, budding chain that the team expected to grow.
+Sprout bụ mmalite nke netwọk Zcash, ọ bụghị mgbe e mesịrị. [nkwalite netwọkụ.](../start-here/network-upgrades)Ọ malitere ịpụta ìhè na ngalaba mmalite na Ọktoba 28, 2016. Enweghị ZIP nọmba na-akọwa Sprout: usoro ZIP malitere mgbe e mesịrị na Overwinter, yabụ nkọwapụta Zcash Protocol mbụ na owuwu Zerocash e wuru ya kọwara Sprout [Electric Coin Company](../zcash-organizations/electric-coin-company) (then the Zerocoin Electric Coin Company), led by Zooko Wilcox, built and shipped it. Sprout introduced the first practical zk-SNARK shielded transactions and the original shielded pool, so people could send ZEC with the sender, receiver, and amount hidden while the network still checked that the balances added up. The name signaled a young, budding chain that the team expected to grow.
 
 Why this matters. Every public blockchain before Sprout put your payments on display: anyone could see who paid whom and how much. Sprout was the first live, permissionless network to hide those details and still prove no one was cheating. That matters for ordinary financial privacy, the kind you expect from cash or a bank statement no one else can read. It also proved that strong on-chain privacy could work in practice, beyond a paper design. The trusted-setup Ceremony that made it possible became a reference point for later cryptography work, and the slow, memory-heavy proving system Sprout shipped with is exactly what pushed the team to build Sapling two years later.
 
@@ -32,14 +32,14 @@ Sprout is the baseline that every later change builds on. When the network-upgra
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-ZK-SNARK Ihe akaebe na amaghị ihe ọ bụla nke gosipụtara azụmahịa dị irè n'ekpugheghị onye zitere, nnata maọbụ ego.
-Zcash na-enye ndị ahịa ya ohere ịkwụ ụgwọ ego ha chọrọ. N'oge gara aga, a maara ọtụtụ ụlọ ọrụ dị ka "Zcash" ma ọ bụ "Sprout".
- z-address na t-addres A Z adreesị bụ shielded ma na-edebe nkọwa onwe. a T address bụ uzo na egosi ihe ọmụma banyere ọha Ledger
-◯ Ememe ahụ. Nhazi ọtụtụ ndị na 2016 nke mepụtara ihe omume ọha mmadụ Sprout ma tụfuo nsị dị ize ndụ.
-◯ Ihe ndị na-egbu egbu. ▪ Akụkụ ihe nzuzo dị mkpa sitere n'Ememe ahụ e bibiri ka a ghara ịgha ụgha ZEC.
-◯ Consensus branch id 0. Ihe akara maka iwu Sprout, nke pụtara ntọala tupu nkwalite netwọk ọ bụla.
+| zk-SNARK | Ihe akaebe efu nke na-egosi na azụmahịa dị irè n'ekpugheghị onye zitere ya, onye nnata, ma ọ bụ ego ole ọ chọrọ |
+| Shielded pool | Akụkụ nkeonwe nke Zcash ebe a na-ezobe ego na oriri. Ọdọ mmiri Sprout bụ nke mbụ |
+| z-address and t-address | A na-echekwa adreesị z ma na-edebe nkọwa nzuzo. Adreesị t na-edo anya ma na-egosi nkọwa na ledger ọha |
+| The Ceremony | Nhazi nke ọtụtụ ndị otu nke afọ 2016 nke mepụtara paramita ọha Sprout's wee tụfuo ihe mkpofu na-egbu egbu |
+| Toxic waste | Isi ihe nzuzo sitere na emume ahụ nke a ga-ebibi ka e wee ghara imepụta ZEC |
+| Consensus branch id 0 | Akara maka iwu Sprout's, nke pụtara ntọala tupu mmelite netwọkụ ọ bụla |
 
 ## Ajụjụ ndị a na-ajụkarị
 
@@ -83,8 +83,8 @@ Sprout bụ mmalite nke Zcash, ọ bụghị nkwalite n'oge na-adịghị anya. 
 
 [Gịnị bụ ZEC na Zcash?](../start-here/what-is-zec-and-zcash)
 
-[Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company)
+[Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke ọzọ: [Oge oyi na-agafe.](../zcash-tech/overwinter)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke ọzọ: [Overwinter](../zcash-tech/overwinter)

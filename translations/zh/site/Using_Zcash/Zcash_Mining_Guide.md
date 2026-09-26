@@ -25,7 +25,7 @@ Zcash (ZEC) 是一种以隐私为重点的加密货币，使用 Equihash 工作�
   - 对于 GPU：lolMiner（支持 AMD/NVIDIA）、GMiner 或 miniZ（偏向 NVIDIA）。请从官方 GitHub 仓库下载（例如 github.com/Lolliedieb/lolMiner-releases）。
   - 对于 ASIC：使用制造商内置的固件/控制面板（例如 Bitmain 的网页界面）。
 - **钱包：** 一个用于接收付款的 Zcash 钱包。推荐：
-  - Shielded（私密）：Zodl Wallet、Zingo（Mobile/Desktop）YWallet（mobile/desktop）。
+  - Shielded（私密）：Zodl Wallet、Zingo（Mobile/Desktop）、Zkool（mobile/desktop）。
   - Transparent（更简单但隐私性较弱）：Edge Wallet、Zecwallet Lite。
   - 从 [钱包](https://zechub.wiki/wallets) 下载。如果矿池支持，生成一个 shielded 地址（以 `zs` 开头）以获得更好的隐私。
 

@@ -209,7 +209,7 @@
 
 | المصطلح | التعريف |
 |------|-----------|
-| Wallet | برنامج أو جهاز يحتفظ بالمفاتيح الخاصة ويتيح لك إرسال واستقبال ZEC. تشمل المحافظ النشطة ZODL ‏(iOS/Android) وZingo! ‏(محمول/سطح مكتب) وNighthawk ‏(Android) وYWallet وZallet ‏(قريبًا) وKeystone ‏(عتادية). وللاطلاع على القائمة الكاملة، راجع [محافظ منظومة Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | برنامج أو جهاز يحتفظ بالمفاتيح الخاصة ويتيح لك إرسال واستقبال ZEC. تشمل المحافظ النشطة ZODL ‏(iOS/Android) وZingo! ‏(محمول/سطح مكتب) وNighthawk ‏(Android) وZkool ‏(محمول/سطح مكتب) وZallet ‏(قريبًا) وKeystone ‏(عتادية). وللاطلاع على القائمة الكاملة، راجع [محافظ منظومة Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | أول حزمة SDK بلغة JavaScript لـ Zcash، وقد بنتها ChainSafe لبيئات المتصفح. وهي تشكّل الأساس لـ Zcash Shielded Wallet snap الذي جلب ZEC المحمي إلى MetaMask. |
 
 ## X

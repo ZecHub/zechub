@@ -56,14 +56,14 @@ Ham veriyi sorguladığınızda, shielded gönderen ve alıcı alanları boş d�
 
 ## Bunu pratiğe dökün
 
-- Varsayılan olarak shielded adresleri kullanan bir cüzdan kullanın; örneğin [ZODL](https://zodl.com) veya [Ywallet](https://ywallet.app/).
+- Varsayılan olarak shielded adresleri kullanan bir cüzdan kullanın; örneğin [ZODL](https://zodl.com) veya [Zingo!](https://www.zingolabs.org/).
 - ZEC'i şeffaf bir adreste aldığınızda, harcamadan önce onu bir shielded adrese taşıyın.
 - Mümkün olan yerlerde shielded adreslere ödeme yapın. Her şeffaf ödeme tamamen herkese açıktır; shielded olan ise değildir.
 
 ## Kaynaklar
 
 - [Zcash: gizlilik ve güvenlik önerileri](https://z.cash/support/security/privacy-security-recommendations/)
-- [Shielded bir ekosistem (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Korumalı bir ekosistem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Zcash teknolojisi nasıl çalışır](https://z.cash/technology/)
 - [Blockchair Zcash gezgini](https://blockchair.com/zcash)
 
@@ -71,8 +71,8 @@ Ham veriyi sorguladığınızda, shielded gönderen ve alıcı alanları boş d�
 
 - [Zcash temelleri](/start-here/what-is-zec-and-zcash)
 - [Cüzdanlar](/using-zcash/wallets)
-- [Shielded pool'lar](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [Korumalı havuzlar](/using-zcash/shielded-pools)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

@@ -4,7 +4,7 @@
 
 # FROST & Kiwango cha Kuweka kwa ZEC Shielded
 
-> Kwa maelezo kamili ya cryptographic wa itifaki FROST, angalia [FROST ukurasa kiufundi](FROST.md).
+> Kwa maelezo kamili ya cryptographic wa itifaki FROST, angalia makala. [Ukurasa wa kiufundi FROST](FROST.md).
 
 Ulinzi wa kizingiti cha FROST unaendelea kuja katika mazungumzo ya Zcash  ilikuwa wimbo bora kwenye ZecHub Hackathon 2026  lakini dhana hiyo haijaelezewa kila wakati kwa lugha rahisi. Ukurasa huu unashughulikia inamaanisha nini, unapohitaji kweli, biashara-offs, na ni zana zipi zinaunga mkono leo.
 
@@ -39,14 +39,14 @@ Mali muhimu:
 
 Kiwango cha kuhifadhi ina maana wakati ** kupoteza ufunguo mmoja au mtu mmoja haipaswi kumaanisha kupoteza fedha**.
 
-Hali. Kwa nini udhibiti wa kizingiti husaidia?
+| Hali | Kwa nini utunzaji wa kizingiti husaidia |
 |-----------|----------------------------|
-** DAO au timu hazina** Hakuna admin moja inaweza drain fedha unilaterally; inahitaji makubaliano.
-** Kubadilishana au custodian**. Inasambaza hatari muhimu katika maeneo ya usalama au wafanyakazi.
-** Kihifadhi cha kibinafsi baridi (na familia ya kuaminika) ** 2-ya-3 kati yenu + wanafamilia wawili  kufa au kupoteza upatikanaji, fedha si waliopotea.
-** Escrow** Mnunuzi, muuzaji na mratibu kila mmoja ana hisa; fedha kutolewa wakati wawili kukubaliana.
-** Kiwango cha juu ya kutoa ruzuku** ZCG-style: inahitaji saini nyingi huru kabla ya kulipa nje.
- ** Developer muhimu usimamizi** kuzuia tishio la ndani hakuna mhandisi mmoja anaweza kuondoa mfuko itifaki.
+| **DAO au hazina ya timu** | Hakuna msimamizi mmoja anayeweza kutoa pesa peke yake; inahitaji makubaliano |
+| **Mbadilishaji au mlinzi** | Husambaza hatari kuu katika maeneo ya usalama au wafanyakazi |
+| **Hifadhi ya kibinafsi ya baridi (pamoja na familia inayoaminika)** | 2 kati ya 3 kati yenu + wanafamilia wawili — kufa au kupoteza ufikiaji, fedha hazipotei |
+| **Escrow** | Mnunuzi, muuzaji, na msuluhishi kila mmoja ana hisa; fedha hutolewa wakati wawili wanapokubaliana |
+| **Utoaji wa ruzuku yenye thamani kubwa** | ZCG-style: unahitaji watia saini wengi huru kabla ya kulipa |
+| **Usimamizi wa ufunguo wa msanidi programu** | Zuia tishio la ndani - hakuna mhandisi hata mmoja anayeweza kuondoa mfuko wa itifaki |
 
 Labda ** hauitaji** uhifadhi wa kizingiti kwa mkoba wa kibinafsi unaodhibiti peke yako, kiasi kidogo, au hali ambapo usimamizi ulioongezwa juu ya gharama huzidi kupunguza hatari.
 
@@ -58,13 +58,13 @@ Zcash kwa muda mrefu imekuwa ikiunga mkono ishara nyingi za uwazi  funguo kadhaa
 
 FROST hutatua hili kwa kufanya kazi ndani ya bwawa la ulinzi:
 
-| | Transparent multisig | FROST threshold (shielded) |
+| | Ishara nyingi za uwazi | Kizingiti cha FROST (kilichofunikwa) |
 |--|---------------------|--------------------------|
-| Pool | Transparent (public) | Orchard (shielded) |
- Signers inayoonekana kwenye mnyororo. Ndiyo  wote funguo za umma wazi. No  indistinguishable kutoka matumizi moja-msaini
-Kiasi kinachoonekana Ndiyo Hapana.
-Ushirikiano unahitajika. On-chain script off-chain round of communication.
-Faragha. Hakuna faragha kamili ya kulindwa.
+| Bwawa la kuogelea | Uwazi (umma) | Orchard (iliyofunikwa) |
+| Wasaini wanaonekana kwenye mnyororo | Ndiyo — funguo zote za umma zimefichuliwa | Hapana — haitofautiani na matumizi ya mtu mmoja aliyesaini |
+| Kiasi kinachoonekana | Ndiyo | No |
+| Uratibu unahitajika | Hati ya mnyororo | Duru ya mawasiliano nje ya mnyororo |
+| Faragha | Hakuna | Faragha iliyolindwa kikamilifu |
 
 ---
 
@@ -94,8 +94,8 @@ Kupoteza shard si mwisho wa dunia (hiyo ni hatua ya kizingiti), lakini mipango a
 ### Zcash Foundation  frost.zfnd.org
 Zcash Foundation imewasilisha uanzishaji wa kazi ya FROST na tovuti ya onyesho. Hii ni utekelezaji wa kumbukumbu uliotumiwa kwa upimaji na maendeleo.
 
-### YWallet FROST Demo
-YWallet (high-utendaji Zcash mkoba) ina mapema FROST demo ushirikiano. Angalia [YWallet Frost Demo mwongozo](/guides/Ywallet_FROST_Demo) kwa ajili ya hatua-kwa-hatua maelekezo.
+### Ywallet FROST Demo
+Ywallet alikuwa mapema FROST demo ushirikiano, kutembea kwa njia ya katika [Ywallet FROST Demo mwongozo](/guides/Ywallet_FROST_Demo). Ywallet ni tena iimarishwe na haitakuwa updated kwa Ironwood, hivyo kusoma mwongozo kama background badala ya kitu cha kukimbia leo. Zkool, kutoka developer huo, ni mrithi kudumishwa na orodha FROST multisig kati ya makala yake.
 
 ### ZecHub Hackathon 2026  Miradi ya Barabara za FROST
 
@@ -129,13 +129,13 @@ Kama signature yoyote hutuma sahihi mbaya sehemu, itifaki huwatambua na mimba (w
 
 ## Kuchagua vigezo yako kizingiti
 
-Kuweka. Ujasiri. Hatari.
+| Usanidi | Ustahimilivu | Hatari |
 |-------|-----------|------|
-◯ 1-of-1 Hakuna uwezo wa kukabiliana na hali ya kutofaulu. Kupoteza ufunguo = kupotea kabisa.
- 2-ya-2  Lazima kuwa na saini zote mbili  hakuna kuvumilia makosa. moja haipatikani = fedha waliohifadhiwa.
-| 2-of-3 | One shard can be lost or unavailable | Lower security margin than 3-of-5 |
-Sehemu mbili zinaweza kupotea; usalama mkubwa. Ushirikiano zaidi juu ya kichwa.
-3 ya 7 kiwango cha taasisi; huvumilia kushindwa mara mbili gharama kubwa za uratibu.
+| 1-of-1 | Hakuna ustahimilivu — sehemu moja ya kushindwa | Hasara ya ufunguo = hasara ya kudumu |
+| 2-of-2 | Lazima uwe na watia saini wote wawili — hakuna uvumilivu wa makosa | Moja haipatikani = fedha zilizogandishwa |
+| 2-of-3 | Kipande kimoja kinaweza kupotea au kutopatikana | Kiwango cha chini cha usalama kuliko 3 kati ya 5 |
+| 3-of-5 | Vipande viwili vinaweza kupotea; usalama imara | Uratibu zaidi wa gharama za uendeshaji |
+| 3-of-7 | Daraja la kitaasisi; huvumilia kushindwa mara mbili | Gharama kubwa ya uratibu |
 
 hatua ya kuanzia vitendo kwa timu zaidi: ** 2-ya-3** (kuweza kukabiliana, ushirikiano mdogo) au ** 3-ya-5** (taasisi, usalama wa juu).
 
@@ -143,17 +143,16 @@ hatua ya kuanzia vitendo kwa timu zaidi: ** 2-ya-3** (kuweza kukabiliana, ushiri
 
 ## Kurasa Zinazohusiana
 
-- [FROST — Technical Deep Dive](FROST.md)  maelezo ya usiri wa itifaki (DKG, saini raundi, uthibitisho usalama)
-- [YWallet FROST Demo Mwongozo](/guides/Ywallet_FROST_Demo)  hatua kwa hatua mikono-juu demo
-- [FROST Demo (frostdemo)](/guides/frostdemo)  Zcash Foundation demo kutembea kwa njia ya
-- [Kuona funguo za](Viewing_Keys.md)  kusoma tu kupata anwani za ulinzi (mchanganyiko wa kuhifadhi kizingiti)
-- [Zcash Shielded Mali ya](Zcash_Shielded_Assets.md)  FROST pia ni muhimu miundombinu kwa ajili ya ZSA utoaji
+- [FROST  Ufundi wa Kuzama kwa Kina](FROST.md)  maelezo ya usiri wa itifaki (DKG, saini raundi, uthibitisho usalama)
+- [Ywallet FROST Demo Mwongozo](/guides/Ywallet_FROST_Demo)  background, Ywallet ni tena iimarishwe
+- [Kuangalia funguo za kuvinjari](Viewing_Keys.md)  kusoma tu kupata anwani za ulinzi (mchanganyiko wa kuhifadhi kizingiti)
+- [Zcash Shielded Mali za fedha](Zcash_Shielded_Assets.md)  FROST pia ni muhimu miundombinu kwa ajili ya ZSA utoaji
 
 ## Rasilimali
 
-- [Karatasi ya utafiti wa FROST (Komlo & Goldberg, 2020) ](https://eprint.iacr.org/2020/852.pdf)
-- [IETF FROST rasimu ya kiwango (rasimu-irtf-cfrg-frozen) ](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
+- [Karatasi ya utafiti wa FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
+- [IETF FROST rasimu ya kiwango (rasimu-irtf-cfrg-frozen)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
 - [Zcash Foundation FROST utekelezaji](https://frost.zfnd.org)
-- [Chelsea Komlo  Nini ni Saini ya Kiwango cha Threshold? (Zcon3) ](https://youtu.be/cAfTTfblzoU?t=110)
-- [Coinbase  Threshold Digital Signatures] (Mfumo wa sarafu ya msingi)](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROST  imara Async Schnorr Threshold Signatures (Blockstream) ](https://eprint.iacr.org/2022/550.pdf)
+- [Chelsea Komlo  Nini ni Saini ya Kiwango cha Threshold? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
+- [Coinbase  Threshold Digital Signatures (Signature za Kijitabu cha Simu ya Mlango)](https://www.coinbase.com/blog/threshold-digital-signatures)
+- [ROAST  imara Async Schnorr Threshold Signatures (Blockstream)](https://eprint.iacr.org/2022/550.pdf)

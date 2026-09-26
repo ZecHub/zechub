@@ -21,12 +21,12 @@
 
 **Zcash.me** is a profile directory and discovery platform that makes it easy for anyone to find and send ZEC to Zcash users. It serves as the "Linktree for Zcash" - a simple way to share your shielded address and social presence with a single link.
 
-Ihe. Nkọwapụta ihe.
+| ihe              | Nkọwa |
 |-------------------|---------|
-** Ebe nrụọrụ weebụ** [https://zcash.me/](https://zcash.me/) |
- @zcashme  #twitter# [@zcashmE](https://x.com/zcashme) |
- Ọdịdị Profaịlụ  `zcash.me/[username]` |
- **Ọnọdụ** Live (na atụmatụ na mmepe)
+| **Weebụsaịtị**       | [https://zcash.me/](https://zcash.me/) |
+| **Twitter**       | [@zcashme](https://x.com/zcashme) |
+| **Ụdị profaịlụ**| `zcash.me/[username]` |
+| **Ọnọdụ**        | Ndụ (nwere atụmatụ ndị a na-emepe) |
 
 ### Ihe Ndị Bụ́ Isi E Ji Mara Ya
 
@@ -39,14 +39,14 @@ Ihe. Nkọwapụta ihe.
 - **Ọnọdụ Ọrụ** - Na-egosi oge ikpeazụ arụ ọrụ.
 
 #### Ọ Ga-abịa n'Isi Nso
- Njirimara: Nkọwapụta.
+| atụmatụ            | Nkọwa |
 |--------------------|-------------|
-◯ Map ebe. Chọta ndị ọrụ Zcash dị nso na gị.
-Ihe ngosi. Nchịkọta ọnụ ọgụgụ na-eleba anya n'ihe ndị e ji eme ihe maka uto.
-Ntuliaka obodo. Votu na isiokwu gburugburu ebe obibi.
-◯ Akụkọ & Mgbasaozi ❑ Nchịkọta akụkọ ọhụrụ ndị a na-ebipụta n'ụlọ ọrụ.
-"Nnọkọ". "Mkparịta ụka obodo"
-Ngwa mkpanaka. Ahụmịhe ekwentị zuru oke.
+| Maapụ Ọnọdụ       | Chọta ndị ọrụ Zcash dị nso |
+| Ọnụọgụgụ Ikpo Okwu| Lee usoro uto |
+| Ntuli Aka Obodo    | Votu na isiokwu gburugburu ebe obibi |
+| Akụkọ na Ọkwa | Mmelite gọọmentị |
+| Ọgbakọ              | Mkparịta ụka obodo |
+| Ngwa Mkpanaka         | Ahụmịhe ekwentị zuru oke |
 
 ### Ịmalite Ime Ihe Ndị A Chọrọ
 1. Gaa leta [https://zcash.me/](https://zcash.me/) wee pịa ** Jikọọ**
@@ -65,12 +65,12 @@ Ngwa mkpanaka. Ahụmịhe ekwentị zuru oke.
 
 **TipZ** bụ usoro iwu nzuzo nke onwe onye e wuru maka ndị okike na cypherpunks. Ndị Fans na-atụgharị n'ime isi cryptocurrency ọ bụla; a gbanwere ya ma nyefee ya dịka ZEC echekwara.
 
-Ihe. Nkọwapụta ihe.
+| ihe              | Nkọwa |
 |-------------------|---------|
-** Ebe nrụọrụ weebụ** [https://tipz.cash/](https://tipz.cash/) |
- @tipz_cash  #twitter# [@tipsz_ cash](https://x.com/tipz_cash) |
- Ọdịdị Profaịlụ  `tipz.cash/@[username]` |
-**Ọnọdụ**. Ndụ.
+| **Weebụsaịtị**       | [https://tipz.cash/](https://tipz.cash/) |
+| **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
+| **Ụdị profaịlụ**| `tipz.cash/@[username]` |
+| **Ọnọdụ**        | Ndụ |
 
 > * "tipz.cash bụ usoro nzuzo nke onwe maka ndị okike na cypherpunks".*
 
@@ -88,12 +88,12 @@ Ihe. Nkọwapụta ihe.
 - Nhọrọ zuru ezu onye okike amaghị aha ya
 
 #### Ịkwụ Ụgwọ Cross-Chain
-Ego. Ntanetị.
+| Ego | Netwọk |
 |----------|---------|
-ETH Ethereum. Ihe ndị a bụ ihe niile ị ga-eme iji nweta ego gị:
- USDC: Ọtụtụ agbụ.
-SOL Solana, ọ bụ onye na-ese ihe.
-ZEC: Direct Zcash. (Nke a bụ ihe e ji mara ndị na-ere ahịa)
+| ETH      | Ethereum |
+| USDC     | Ọtụtụ agbụ ígwè |
+| SOL      | Solana |
+| ZEC      | Zcash ozugbo |
 
 #### Nchebe nke Onye Okike
 - Enweghị ihe ize ndụ nke ikpo okwu na-apụ apụ.

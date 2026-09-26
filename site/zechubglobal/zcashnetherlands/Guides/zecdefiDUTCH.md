@@ -68,7 +68,7 @@ ZeroBridge is een gedecentraliseerde client van het Zero DAO-protocol, waardoor 
 
 ### Stap 1: converteer afgeschermde ZEC naar ETH
 
-Bezoek [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH)
+Bezoek [ZeroDAO](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)
 
 Maak verbinding met uw portemonnee naar keuze
 

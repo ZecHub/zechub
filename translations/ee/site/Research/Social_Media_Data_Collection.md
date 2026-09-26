@@ -15,14 +15,14 @@ Nublanuitɔe la, alesi wòanɔ bɔbɔe sia ke na mí, abe ezãlawo ene hã, míe
 
 Eyome, míagblɔ nyatakaka siwo mɔ̃ siawo dometɔ aɖewo ƒo ƒu tso mía ŋu, nu siwo wowɔna kplii, kple nusita esia ate ŋu ade míaƒe adzamenyawo kple, ate ŋu anye míaƒe ame ŋutɔ alo míaƒe ƒomea ƒe dedienɔnɔ afɔku me.
 
-Masɔmasɔ
+Discord
 -------
 
 Ele be míadze egɔme kple Discord elabena enye kadodomɔnu si míezãna "le aƒeme."
 
-Masɔmasɔ ɖea vi ŋutɔ le nuto gã aɖe dzi kpɔkpɔ me le nyati vovovowo ŋu, gake eɖi fɔ abe ame bubu geɖewo ene be míaƒe nyatakakawo ɖe vi na mí.
+Discord ɖea vi ŋutɔ le nuto gã aɖe dzi kpɔkpɔ me le nyati vovovowo ŋu, gake eɖi fɔ abe ame bubu geɖewo ene be míekpɔ viɖe tso míaƒe nyatakakawo me.
 
-### Nyatakakawo ƒe Masɔmasɔwo Dzraɖoƒewo
+### Nyatakakawo Discord Dzraɖoƒewo
 
 Le eƒe ameŋunyatakakawo ŋuti ɖoɖoa nu la, Discord ƒoa nyatakaka siwo gbɔna nu ƒu tso mía ŋu:
 
@@ -38,7 +38,7 @@ Woate ŋu abu nusiwo wowɔna kple míaƒe nyatakakawo ƒe akpa gãtɔ be wosɔ, 
 
 Wogblɔna hã be yewoate ŋu azã nyatakakaawo atsɔ ana dziɖuɖumegã ɖesiaɖe si ate ŋu abiae to ʋɔnudrɔ̃ƒe ƒe sedede dzi.
 
-Twitter dzi
+Twitter
 -------
 
 Abe Discord ene la, Twitter dzraa nyatakaka gbogbo aɖewo ɖo ɖe eƒe dɔwɔƒewo. Edzraa gbedasi siwo nèɖona tẽ, amesiwo nèdzena, kple amesiwo nèwɔa nu kplii hã ɖo (nyatakaka siwo nèdzra ɖo, nusiwo nèlɔ̃na), eye le nyateƒe me la, woƒe ɖoɖowo ɖi wo nɔewo kura, eye wo dometɔ aɖewoe nye wò nyatakakawo mama na ame bubuwo kple dziɖuɖumegãwo.

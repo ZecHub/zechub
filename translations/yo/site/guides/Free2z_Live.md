@@ -1,195 +1,195 @@
-[![Àtúnṣe ojúewé](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Ṣiṣeto akọọlẹ + Itọsọna Live Stream
+# Free2z: Eto akọọlẹ + ikẹkọ ṣiṣanwọle laaye
 
-## Ìfilọ́lẹ̀
+## Ifihan
 
-Free2Z is a platform for creators and supporters to connect and achieve their goals. Free2Z provides tools for creators to showcase their talents and raise funds for their projects without compromising privacy. Supporters can find and support causes they believe in.
+Free2Z jẹ́ pẹpẹ fún àwọn olùdá àti àwọn olùrànlọ́wọ́ láti sopọ̀ mọ́ ara wọn kí wọ́n sì ṣe àṣeyọrí àwọn góńgó wọn. Free2Z ń pèsè àwọn irinṣẹ́ fún àwọn olùdá láti fi àwọn ẹ̀bùn wọn hàn àti láti kó owó jọ fún àwọn iṣẹ́ àgbékalẹ̀ wọn láìsí ìfipamọ́. Àwọn olùrànlọ́wọ́ lè rí àwọn ìdí tí wọ́n gbàgbọ́ àti láti ṣètìlẹ́yìn fún.
 
 ## Ṣẹ̀dá àkọọ́lẹ̀ rẹ
 
-Lọwọlọwọ, ọna meji lo wa lati ṣẹda iroyin rẹ lori Free2Z: 
-1. Yan orúkọ aṣàmúlò àti ọ̀rọ̀-ìfipamọ́. 
-2. So àkọọ́lẹ̀ Twitter rẹ pọ̀. 
+Lọwọlọwọ, awọn ọna meji lo wa lati ṣẹda akọọlẹ rẹ lori Free2Z: 
+1. Yan orukọ olumulo ati ọrọ igbaniwọle kan. 
+2. So akọọlẹ Twitter rẹ pọ. 
 
-Láti dá àkọọ́lẹ̀ kan tàbí kí o wọlé, lọ sí https://free2z.cash/ ki o si tẹ bọtini 'ṢẸ'.
+Láti ṣẹ̀dá àkọọ́lẹ̀ tàbí wọlé, ṣèbẹ̀wò https://free2z.cash/ kí o sì tẹ bọ́tìnì 'ṢẸ̀DÁ'.
 
-[Ìdásílẹ̀/ìforúkọsílẹ̀ fọọmu!](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+![Login/signup form](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
-The login/signup form will appear in your browser. Choose your username and a strong password - this will be your login information. Solve the captcha and click the 'Enter' button to create your account.
+Fọ́ọ̀mù ìwọlé/ìforúkọsílẹ̀ yóò hàn nínú ẹ̀rọ aṣàwárí rẹ. Yan orúkọ olùlò rẹ àti ọ̀rọ̀ìpamọ́ tó lágbára - èyí ni yóò jẹ́ ìwífún ìwọlé rẹ. Yan ìkọ̀wé náà kí o sì tẹ bọ́tìnì 'Tẹ' láti ṣẹ̀dá àkọọ́lẹ̀ rẹ.
 
-[Orukọ olumulo àti ọ̀rọ̀-ìfipamọ́ sínú fọ́ọ̀mù!](/content-images/image-2023-11-19-133141052-0387984be1.webp)
+![Username and password entry form](/content-images/image-2023-11-19-133141052-0387984be1.webp)
 
-Alternatively, you can create a Free2Z account by connecting your Twitter account. To do this, click on the Twitter logo next to 'Login With', and you will be asked to connect your Twitter account.
+Tabi ki o ṣẹda akọọlẹ Free2Z kan nipa sisopọ akọọlẹ Twitter rẹ. Lati ṣe eyi, tẹ aami Twitter ti o wa lẹgbẹẹ 'Wọle Pẹlu', a o si beere lọwọ rẹ lati so akọọlẹ Twitter rẹ pọ mọ.
 
-[Àtúnṣe ìforúkọsílẹ̀ Twitter](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
+![Twitter login option](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
 
-Tẹ **Fọwọsi ohun elo** lati sopọ akọọlẹ Twitter rẹ si Free2Z.
+Tẹ **Aṣẹ fun app** lati so akọọlẹ Twitter rẹ pọ mọ Free2Z.
 
-## Ṣẹ̀dá àwòkọ́ṣe rẹ
+## Ṣe akanṣe profaili rẹ
 
-Lẹ́yìn tí a bá ti dá àkọọ́lẹ̀ rẹ, a ó darí ọ sí ojúewé Profaili Free2Z rẹ. Bí o bá dá àkọọ́lẹ̀ tìrẹ nípa lílo Twitter rẹ, ọ̀pọ̀lọpọ̀ àwọn pápá ni a ó fi kún un lóòtọ́. Bí ẹ bá dá àpamọ́ kan nípa wíwọlé orúkọ oníṣe àti ọ̀rọ̀-ìfiwọlé, ẹ gbọ́dọ̀ tẹ ìwífún yín níbí. Ẹ lè lo orúkọ àdàkọ dípò orúkọ gidi yín.
+Lẹ́yìn tí a bá ti ṣẹ̀dá àkọọ́lẹ̀ rẹ, a ó darí rẹ sí ojú ìwé ìṣàfihàn Free2Z rẹ. Tí o bá ṣẹ̀dá àkọọ́lẹ̀ rẹ nípa sísopọ̀ Twitter rẹ, ọ̀pọ̀lọpọ̀ àwọn pápá ni a ó fi kún láìfọwọ́sí. Tí o bá ṣẹ̀dá àkọọ́lẹ̀ kan nípa títẹ orúkọ olùlò àti ọ̀rọ̀ìpamọ́ sí, o yẹ kí o fi ìwífún rẹ síbí. O lè lo orúkọ ìpèníjà dípò orúkọ gidi rẹ.
 
-![Orí ìsọfúnni tí kò ní nǹkan tí ó wà lákọsílẹ̀](/content-images/default-header-a11eb8328f.webp)
+![Default empty profile header](/content-images/default-header-a11eb8328f.webp)
 
-O ti wa ni oyimbo dídùn bayi, ki jẹ ki ká ṣe o siwaju sii wuni nipa siseto ohun avatar ati kan asia. awọn Free2Z wiwo mu yi igbese gan rọrun lilo awọn fifuye bọtini (awọn soke ọfà lori ọtun).
+Ó máa ń súni gan-an ní báyìí, nítorí náà, ẹ jẹ́ kí a jẹ́ kí ó túbọ̀ dùn mọ́ni nípa ṣíṣètò àwòrán àti àsíá. Ìrísí Free2Z mú kí ìgbésẹ̀ yìí rọrùn nípa lílo bọ́tìnì ìgbésókè (ọfà òkè ní apá ọ̀tún).
 
-![Avatar ati awọn bọtini igbasilẹ asia](/content-images/avatar-and-banner-bd20d0bbfb.webp)
+![Avatar and banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
 
-O lè rí àbájáde rẹ̀ ní òkè ojú ewé náà.
+O le ri abajade ni oke oju-iwe naa.
 
-[Ojúewé Profaili lẹ́yìn tí a ṣe àdáni!](/content-images/resultatpage-f4ddacb8b8.webp)
+![Profile page after customization](/content-images/resultatpage-f4ddacb8b8.webp)
 
-Ah, much better! If you have some artistic skills, you can make your Free2Z profile page look amazing! Write a nice description for your page. You can talk about yourself or describe the type of content that others can expect from you. (Tip: Use markdown syntax to personalize your description!)
+Ó dára jù bẹ́ẹ̀ lọ! Tí o bá ní àwọn ọgbọ́n iṣẹ́ ọ̀nà, o lè mú kí ojú ìwé ìṣàfihàn Free2Z rẹ dára gan-an! Kọ àpèjúwe tó dára fún ojú ìwé rẹ. O lè sọ̀rọ̀ nípa ara rẹ tàbí kí o ṣàlàyé irú àkóónú tí àwọn ẹlòmíràn lè retí láti ọ̀dọ̀ rẹ. (Àmọ̀ràn: Lo ìlànà markdown láti ṣe àpèjúwe rẹ ní ọ̀nà tó dára!)
 
-![Ṣàtúnṣe àlàyé ìkápá](/content-images/edit-description-b52afabec1.webp)
+![Editing the description field](/content-images/edit-description-b52afabec1.webp)
 
-Ẹ má gbàgbé láti fún wa ní àdírẹ́sì Zcash yín, kí àwọn alátìlẹyìn lè fi owó ránṣẹ́ sí yín!
+Má gbàgbé láti fún ọ ní àdírẹ́sì Zcash rẹ tí a fi ààbò bo, kí àwọn olùrànlọ́wọ́ lè fi owó tààrà fún ọ!
 
-[Ile adirẹsi ti o ni aabo Zcash](/content-images/p2p-address-b89f035bd9.webp)
+![Zcash shielded address field](/content-images/p2p-address-b89f035bd9.webp)
 
-Ìgbésẹ̀ ìkẹyìn láti parí ìmúrasílẹ̀ ojú-ewé rẹ ni láti seto 'Iye owó Ẹlẹ́gbẹ́'. Èyí ni iye owó ní 2Zs (Tuzies) tí àwọn oníṣe míràn yóò san láti forúkọsílẹ̀ sí ojú-ewe rẹ!
+Igbesẹ ikẹhin lati pari iṣeto oju-iwe rẹ ni lati ṣeto 'Iye owo Ẹgbẹ'. Eyi ni idiyele ni 2Zs (Tuzies) ti awọn olumulo miiran yoo san lati ṣe alabapin si oju-iwe rẹ! (Alaye diẹ sii lori 2Zs nigbamii).
 
-[Ìpèsè owó ọmọ ẹgbẹ](/content-images/member-price-2dafd7e399.webp)
+![Member price setting](/content-images/member-price-2dafd7e399.webp)
 
-Níkẹyìn, tẹ bọtini 'Update Profile' láti parí ìtòlẹ́sẹẹsẹ profaili rẹ!
+Níkẹyìn, tẹ bọ́tìnì 'Ìmúdàgba Profile' láti parí ìṣètò profaili rẹ!
 
-## Àwọn ìforúkọsílẹ̀ àti 2Zs
+## Awọn iforukọsilẹ ati 2Zs
 
-Free2Z allows users to subscribe to their favorite creators and get access to exclusive features and members-only content. The creator should configure a minimum amount of 2Zs for a subscription.  
+Free2Z gba awọn olumulo laaye lati ṣe alabapin si awọn olupilẹṣẹ ayanfẹ wọn ki wọn si ni iwọle si awọn ẹya iyasọtọ ati akoonu awọn ọmọ ẹgbẹ nikan. Ẹlẹda yẹ ki o ṣeto iye ti o kere ju 2Z fun iforukọsilẹ kan. 
 
-2Zs tabi Tuzies jẹ awọn kirẹditi oni-nọmba ti o wa ninu ohun elo ti a lo ni Free2Z fun ọpọlọpọ awọn idi, pẹlu: 
-1. Ìforúkọsílẹ̀ fún àwọn olùdásílẹ̀ 
-2. Mímú kí ojúewé Free2Z di èyí tí a lè rí 
-3. Ṣíṣe àwọn ọrẹ fún àwọn ẹlẹ́dàá 
+2Zs tàbí Tuzies jẹ́ àwọn kirediti oni-nọmba inu-app tí a lò nínú Free2Z fún ọ̀pọ̀lọpọ̀ ète, pẹ̀lú: 
+1. Ṣíṣe alabapin si awọn olupilẹṣẹ 
+2. Gbígbé ojú ìwé Free2Z sókè 
+3. Ṣíṣe àwọn ẹ̀bùn sí àwọn olùṣẹ̀dá 
 
-O le wo awọn kirediti 2Zs rẹ ni ori oju-iwe profaili rẹ.
+O le ri awọn kirediti 2Z rẹ ni ori iwe profaili rẹ.
 
-![2Zs / Tuzies ì ¬ì ©í ê° ì '](/content-images/tuzis-balance-9d6a9eff7f.webp)
+![2Zs / Tuzies balance in header](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
-O le ra awọn 2Zs pẹlu Zcash nipa titẹ lori iwontunwonsi 2Z rẹ. Iye ti o kere julọ fun rira jẹ 0.05 ZEC, ati oṣuwọn iyipada lọwọlọwọ jẹ 0. 05 ZEC = 10 2ZS.
+O le ra 2Z diẹ sii pẹlu Zcash nipa titẹ lori iwontunwonsi 2Z rẹ. Iye ti o kere julọ fun rira ni 0.05 ZEC, ati oṣuwọn iyipada lọwọlọwọ jẹ 0.05 ZEC = 10 2Zs.
 
-[Ríra 2Zs ìjápọ](/content-images/buy-tuzies-e82c626047.webp)
+![Buying 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
 
-## Fífúnni ní nǹkan àti kíkọ orúkọ sílẹ̀
+## Ṣíṣe ìtọrẹ àti ṣíṣe alabapin
 
-Once you find a creator you like, you can show your appreciation by donating and subscribing to them. All donations go directly to the creator's wallet. As an example, let's subscribe to [Free2Z's own page](https://free2z.cash/free2z).
+Nígbà tí o bá ti rí ẹlẹ́dàá tí o fẹ́ràn, o lè fi ìmọrírì rẹ hàn nípa ṣíṣe ìrànlọ́wọ́ àti ṣíṣe ìforúkọsílẹ̀ fún wọn. Gbogbo ẹ̀bùn lọ tààrà sí àpò ìṣẹ̀dá náà. Fún àpẹẹrẹ, ẹ jẹ́ kí a forúkọ sílẹ̀ fún [Ojú ìwé Free2Z fúnra rẹ̀](https://free2z.cash/free2z).
 
-[Ojúewé Free2Z](/content-images/free2z-page-94c5fd5f4f.webp)
+![Free2Z official page](/content-images/free2z-page-94c5fd5f4f.webp)
 
-Lati ṣe alabapin si oju-iwe kan, gbogbo ohun ti o nilo lati ṣe ni tẹ lori aami alabapin lori akọle oju iwe.
+Láti forúkọ sílẹ̀ sí ojú ìwé kan, gbogbo ohun tí o nílò láti ṣe ni láti tẹ àmì ìforúkọsílẹ̀ lórí àkọlé ojú ìwé náà.
 
-[Àmì ìforúkọsílẹ̀ lórí ojúewé olùṣèdá](/content-images/subscribe-to-creator-76c306d924.webp)
+![Subscribe button on creator page](/content-images/subscribe-to-creator-76c306d924.webp)
 
-Iwọ yoo wo iye to kere julọ fun ṣiṣe alabapin. Ṣayẹwo ti o ba ni awọn tuzis to ati tẹ ṣe alabapin .
+O yoo ri iye ti o kere ju fun iforukọsilẹ. Ṣe idanwo boya o ni awọn tuzi to ki o tẹ alabapin.
 
-![Fídí ìforúkọsílẹ̀ alágbèéká](/content-images/confirm-subscribe-7381923e36.webp)
+![Confirm subscription popup](/content-images/confirm-subscribe-7381923e36.webp)
 
-### Fi 2Zs tàbí Zcash ṣètọrẹ
+### Ṣe ìtọrẹ nípa lílo 2Zs tàbí Zcash
 
-O le ṣe ọrẹ taara lori oju-iwe wọn, nipa titẹ aami oludasile Fund.
+O le ṣetọrẹ taara lori oju-iwe wọn, nipa titẹ aami olupilẹṣẹ Fund naa.
 
-[Pákó olùdásílẹ̀ owó](/content-images/fund-creator-ac59aee7bf.webp)
+![Fund creator button](/content-images/fund-creator-ac59aee7bf.webp)
 
-Or, from inside a post, look for the floating plus button. From here, you can donate to the creator or promote the post on Free2Z.
+Tàbí, láti inú ìfìwéránṣẹ́ kan, wá bọ́tìnì floating plus. Láti ibi, o lè fi owó fún olùdásílẹ̀ tàbí kí o gbé ìfìwéránṣẹ́ náà ga lórí Free2Z.
 
-![Àwọn kókó ìgbésẹ̀ tí ń léfòó nínú òpó](/content-images/post-floating-buttons-a1e2ef1102.webp)
+![Floating action buttons inside a post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
-## Ìṣiṣẹ́ tí ó ń gbé jáde
+## Ṣíṣíṣanwọle Laaye
 
-Free2z pẹpẹ nfunni ni ẹya ti o dara julọ ti a npe ni Free 2z Live. Pẹlu ọpa yii, awọn ẹlẹda le bẹrẹ awọn ṣiṣan laaye fun awọn ọmọ ẹgbẹ ti o forukọsilẹ. 
-- Ohun afetigbọ ati fidio 
+Pẹpẹ Free2z n pese ẹya iyalẹnu kan ti a pe ni Free2z Live. Pẹlu irinṣẹ yii, awọn olupilẹṣẹ le bẹrẹ ṣiṣanwọle laaye fun awọn ọmọ ẹgbẹ ti a forukọsilẹ. Diẹ ninu awọn ẹya pataki ti Free2z Live pẹlu: 
+- Ohùn àti fídíò 
 - Pínpín iboju 
-- Ṣíṣàtúnṣe àpapọ̀ kòódì 
-- Ìjíròrò 
-- Àkọlé tí ó wà ní àkọlé 
-- Ọ̀pọ̀ nǹkan míì sì tún wà!
+- Ṣíṣe àtúnṣe kódì ìfọwọ́sowọ́pọ̀ 
+- Ìfọ̀rọ̀wérọ̀ 
+- Fífi Wúrà Wúrà 
+- Ati pupọ diẹ sii!
 
-### Kí ni o lè ṣe pẹ̀lú Free2z Live
+### Kini o le ṣe pẹlu Free2z Live
 
-Free2z Live jẹ́ irinṣẹ́ alágbára, tí ó ń jẹ́ kí àwọn olùdásílẹ̀ láti máa gbé oríṣiríṣi ìsọfúnni jáde. 
-- Àwọn ìdánilẹ́kọ̀ọ́ àti àfihàn 
-- Àwọn eré àti àwọn ìṣẹ̀lẹ̀ 
-- Àwọn ìpolówó ọjà tí wọ́n jọ ń ṣe 
-- Ìròyìn tí ó wà ní tààràtà àti ìwé ìròyìn 
-- Ìmọ̀ ọgbọ́n orí rẹ kò ní ààlà!
+Free2z Live jẹ́ irinṣẹ́ alágbára, tó ń jẹ́ kí àwọn olùdásílẹ̀ lè gbé irú àkóónú èyíkéyìí jáde. Àwọn àpẹẹrẹ díẹ̀ lára irú àkóónú tí o lè gbé jáde pẹ̀lú Free2z Live nìyí: 
+- Àwọn ìdánilẹ́kọ̀ọ́ àti àwọn àfihàn 
+- Àwọn ìṣeré àti àwọn ìṣẹ̀lẹ̀ 
+- Àwọn iṣẹ́ àfọwọ́sowọ́pọ̀ 
+- Iroyin laaye ati iroyin 
+- Ìṣẹ̀dá rẹ ni ààlà!
 
-### Bí a ṣe ń gbé jáde
+### Bawo ni lati lọ laaye
 
-O rọrun pupọ lati bẹrẹ ṣiṣan laaye pẹlu Free2z Live. Ṣugbọn awọn ibeere diẹ wa ṣaaju ki o to le bẹrẹ igbohunsafefe rẹ. 
-1. Ẹlẹda ** gbọdọ ** ni o kere julọ ** iye owo ọmọ ẹgbẹ ** ti 10 2Zs. 
-2. Ẹlẹda ** gbọdọ ** ni iwontunwonsi ti o kere ju 150 2Zs ninu akọọlẹ wọn. 
+Ó rọrùn gan-an láti bẹ̀rẹ̀ sí í fi Free2z Live bẹ̀rẹ̀ sí í fi ránṣẹ́. Àmọ́ àwọn nǹkan díẹ̀ ló wà kí o tó lè bẹ̀rẹ̀ sí í fi ránṣẹ́. 
+1. Olùdá **gbọ́dọ̀** ní iye owó tó kéré jù **ẹgbẹ́** ti 10 2Z. 
+2. Olùdá **gbọ́dọ̀** ní ìwọ́ntúnwọ̀nsí tó kéré tán 150 2Z nínú àkọọ́lẹ̀ wọn. 
 
-Bí olùdásílẹ̀ bá kúnjú ìwọ̀n ** méjèèjì** nínú àwọn ipò tí ó wà lókè yìí, àmì kan tí a pè ní **Go Live** ni yóò wà fún wọn ní ojúewé ìkọsílẹ̀ wọn.
+Tí ẹlẹ́dàá bá pàdé **méjèjì** àwọn òfin tí a kọ sí òkè yìí, àmì kan tí orúkọ rẹ̀ ń jẹ́ **Lọ Láààyè** yóò wà fún wọn lórí ojú ìwé ìṣàfihàn wọn.
 
-![Pẹpẹ Gbigba laaye](/content-images/go-live-4c8ac67505.webp)
+![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-To start a live stream, just click the **Go Live** button, and the Free2z app will ask for permission to use your microphone and webcam (if you have one). After you grant the necessary permissions, Free2z will ask you to enter a nickname that you want to use during the live stream. Once you have selected a nickname, click **Join** to start your live stream.
+Láti bẹ̀rẹ̀ síí gbé ìgbéjáde láyè, tẹ bọ́tìnì **Lọ Láààyè**, àpù Free2z yóò sì béèrè fún àṣẹ láti lo gbohùngbohùn àti kámẹ́rà rẹ (tí o bá ní ọ̀kan). Lẹ́yìn tí o bá fún ọ ní àṣẹ tó yẹ, Free2z yóò béèrè lọ́wọ́ rẹ láti tẹ orúkọ àpèlé kan tí o fẹ́ lò nígbà tí ó bá ń gbéjáde láyè. Nígbà tí o bá ti yan orúkọ àpèlé kan, tẹ **Dara pọ̀** láti bẹ̀rẹ̀ síí gbéjáde láyè rẹ.
 
-![Yàn orúkọ-ìmọ̀ fún ìtòlẹ́sẹẹsẹ tí ó wà láàyè](/content-images/select-nickname-414444b992.webp)
+![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
-Àti ṣe! Nígbà tí o bá bẹ̀rẹ̀ ìtòlẹ́sẹẹsẹ gbígbádùn, àkọọ́lẹ̀ rẹ yóò fi àmì kan hàn tó fi hàn pé o wà láàyè, kí àwọn oníbàárà rẹ lè darapọ̀ mọ́ ìtòlẹ́sẹẹẹẹsẹ náà.
+Ó sì ti parí! Nígbà tí o bá bẹ̀rẹ̀ sí í gbé ìgbésẹ̀ lórí ayélujára, ìwífún rẹ yóò fi àmì kan hàn tí ó fi hàn pé o wà láàyè, kí àwọn olùforúkọsílẹ̀ rẹ lè dara pọ̀ mọ́ ìgbésẹ̀ lórí ayélujára náà.
 
-[Ìkópa nínú ìtòlẹ́sẹẹsẹ tí ó wà láàyè](/content-images/join-livestream-679334ba53.webp)
+![Joining a livestream](/content-images/join-livestream-679334ba53.webp)
 
-Nígbà tí àwọn ènìyàn bá darapọ̀ mọ́ ìtòlẹ́sẹẹsẹ náà, wọ́n lè bára wọn sọ̀rọ̀, kí wọ́N béèrè láti darapọ́ mọ́ wọn lórí ìtàgé, kí wọ́n ṣe àjọṣepọ̀ nípa dídìbò nínú ìwádìí, àti púpọ̀lọpọ̀.
+Nígbà tí àwọn ènìyàn bá dara pọ̀ mọ́ ìtàkùn ayélujára, wọ́n lè bá ara wọn sọ̀rọ̀, kí wọ́n béèrè láti dara pọ̀ mọ́ orí ìtàkùn, kí wọ́n bá ara wọn sọ̀rọ̀ nípa dídìbò nínú ìdìbò, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ.
 
-![Àpẹẹrẹ ìtòlẹ́sẹẹsẹ Free2z Live](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Àpẹẹrẹ ìtòlẹ́sẹẹsẹ Free2z Live)_
+_(Àpẹẹrẹ ti igba Free2z Live)_
 
-Free2z Live jẹ ohun elo ti o ni agbara ati agbara. Ni abala ti n bọ, Emi yoo pese iwoye ti awọn iṣẹ ṣiṣe ati awọn irinṣẹ rẹ.
+Free2z Live jẹ́ ohun tó wọ́pọ̀ tí ó sì lágbára. Ní apá tó tẹ̀lé e, màá ṣe àkópọ̀ àwọn iṣẹ́ àti irinṣẹ́ rẹ̀.
 
-### Ṣiṣawari Free2z Live
+### Ṣíṣe àwárí Free2z Live
 
-Àkọsílẹ̀ wiki yìí kò ní ìtumọ̀ láti jẹ́ ìwé atójútó tó jinlẹ̀ nípa Free2z tàbí Free2Z Live. Ṣùgbọ́n àtúnyẹ̀wò gbòógì nípa àwọn irinṣẹ́ rẹ̀ nìyí.
+A kò ṣe ètò wiki-doc yìí láti jẹ́ ìtọ́sọ́nà tó jinlẹ̀ sí Free2z tàbí Free2z Live. Ṣùgbọ́n àkópọ̀ gbogbogbòò àwọn irinṣẹ́ rẹ̀ nìyí.
 
-Ní apá òsì ìsàlẹ̀ ẹ̀rọ náà, a rí àwọn kọ́kọ́rọ́ mélòó kan.
+Ní ìsàlẹ̀ apá òsì ti ìbòjú náà, a rí àwọn bọ́tìnì díẹ̀.
 
-[Ìkáwọ́ òsì ìsàlẹ̀!](/content-images/free2z-live-left-60b450b01c.webp)
+![Bottom left controls](/content-images/free2z-live-left-60b450b01c.webp)
 
-Àṣiṣẹ́ dídára kan níbí ni agbára láti pínpín àwo rẹ kí àwọn oníṣe míràn lè rí ohun tí o ń ṣe.
+Iṣẹ́ rere kan níbí ni agbára láti pín ìbòjú rẹ kí àwọn olùlò mìíràn lè rí ohun tí o ń ṣe.
 
-Ní ìsàlẹ̀ a lè rí àwọn àyè tí a ó máa gbé ìsọfúnni jáde.
+Ni isalẹ a le rii awọn aṣayan ṣiṣan laaye.
 
-[Àpótí irinṣẹ ìsàlẹ̀](/content-images/free2z-live-bottom-ae64a6960c.webp)
+![Bottom toolbar](/content-images/free2z-live-bottom-ae64a6960c.webp)
 
-Díẹ̀ lára àwọn àbá tó ṣe pàtàkì nìyí: 
-- Mu / unmute gbohungbohun 
-- Ṣiṣẹ / pa oju-iwe wẹẹbu 
-- Ẹ kúrò lórí ìtàgé. 
-- Pa gbogbo àwọn agbọrọsọ 
-- Ẹ kúrò níbí. 
+Diẹ ninu awọn aṣayan bọtini pataki nibi ni: 
+- Mu gbohungbohun kuro / mu pipa kuro 
+- Mu kamera wẹẹbu ṣiṣẹ / mu ṣiṣẹ 
+- Fi ipele silẹ 
+- Mu gbogbo awọn agbọrọsọ dakẹ 
+- Fi ibẹ̀ sílẹ̀ 
 
-Láti parí ìtòlẹ́sẹẹsẹ kan, o gbọ́dọ̀ tẹ̀lé ìkànnì 'Leave', lẹ́yìn náà tẹ 'End meeting for all' láti dá ìpàdé náà dúró fún gbogbo àwọn olùkópa.
+Láti fòpin sí ìfọ̀rọ̀wérọ̀ lórí ayélujára, o gbọ́dọ̀ tẹ bọ́tìnì 'Fi sílẹ̀', lẹ́yìn náà tẹ 'Parí ìpàdé fún gbogbo ènìyàn' láti dá ìpàdé náà dúró fún gbogbo àwọn tó kópa.
 
-[Ohun tó wà nísàlẹ̀ lápá ọ̀tún](/content-images/free2z-live-right-c83cb6d209.webp)
+![Bottom right interaction panel](/content-images/free2z-live-right-c83cb6d209.webp)
 
-Awọn bọtini isalẹ ọtun ni awọn iṣẹ ti o ni ibatan si ibaraenisepo ṣiṣan laaye, gẹgẹbi: 
-- **Ijíròrò**: Èyí jẹ́ kí àwọn olùkópa lè jíròrò pẹ̀lú ara wọn àti olùgbàlejò nígbà tí wọ́n bá ń gbé ìsọfúnni jáde. 
-- **Ìwádìí**: Èyí jẹ́ kí olùgbalejo lè dá ìwádìí sílẹ̀ kí ó sì kó àlàyé jọ láti ọ̀dọ̀ àwọn olùkópa. 
-- **Àtòjọ àwọn olùkópa**: Èyí fi àtòjọ gbogbo àwọn olùkọ́ tí wọ́n ń kópa nínú ìtòlẹ́sẹẹsẹ náà hàn. 
-- Awọn ohun itanna: Eyi gba alejo laaye lati ṣafikun awọn afikun ati awọn itẹsiwaju lati mu iriri ṣiṣan laaye pọ si.
+Àwọn bọ́tìnì ní ìsàlẹ̀ ọ̀tún ní àwọn iṣẹ́ tó ní í ṣe pẹ̀lú ìbáṣepọ̀ sísúnmọ́ ààyè, bíi: 
+- **Ìfọ̀rọ̀wérọ̀**: Èyí ń jẹ́ kí àwọn olùkópa lè bá ara wọn àti olùgbàlejò sọ̀rọ̀ nígbà tí wọ́n bá ń gbé ìròyìn náà lọ síta. 
+- **Ìdìbò**: Èyí ń jẹ́ kí olùgbàlejò ṣẹ̀dá ìdìbò kí ó sì kó èsì jọ láti ọ̀dọ̀ àwọn olùkópa. 
+- **Àkójọ àwọn olùkópa**: Èyí fi àkójọ àwọn olùkópa nínú ìṣàfihàn aláàyè hàn. 
+- **Awọn afikun**: Eyi n gba olugbalejo laaye lati ṣafikun awọn afikun ati awọn afikun lati mu iriri ṣiṣanwọle laaye pọ si.
 
-[Àkójọ àwọn àfikún!](/content-images/free2z-live-plugins-e9a30ee355.webp)
+![Plugins panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
 
-kì í ṣe ète wiki-doc yìí láti ṣàlàyé gbogbo àwọn àfikún, ṣùgbọ́n mo rọ̀ ọ́ láti gbìyànjú gbogbo wọn wò, bí gbogbo wọn ṣe ń fúnni ní ìjápọ̀ tó dára láàrin àwọn olùdásílẹ̀ àti àwọn olùwòran. láti fi àfikùn kan sílẹ̀, kàn tẹ bọtini 'rocket' ní apá ọ̀tún.
+Kì í ṣe ète wiki-doc yìí láti ṣàlàyé gbogbo àwọn afikún-ọ̀rọ̀ náà, ṣùgbọ́n mo gbà yín níyànjú láti gbìyànjú gbogbo wọn, nítorí pé gbogbo wọn ní ìníyelórí ìbáṣepọ̀ tó dára láàárín àwọn olùdá àti àwọn olùwòran. Láti ṣe ìfilọ́lẹ̀ afikún-ọ̀rọ̀ kan, tẹ bọ́tìnì 'rocket' ní apá ọ̀tún.
 
 ## Ìparí
 
-In conclusion, Free2z is a versatile platform for creators to showcase their abilities, share knowledge and raise funds for their projects, and engage with their supporters through the powerful tool of Free2z Live.
+Ní ìparí, Free2z jẹ́ pẹpẹ tí ó wúlò fún àwọn olùdásílẹ̀ láti fi agbára wọn hàn, pín ìmọ̀ àti láti kó owó jọ fún àwọn iṣẹ́ àgbékalẹ̀ wọn, àti láti bá àwọn olùrànlọ́wọ́ wọn ṣiṣẹ́ nípasẹ̀ irinṣẹ́ alágbára ti Free2z Live.
 
 ----
 
-### Àwọn ohun àmúṣọrọ̀
+### Àwọn ohun àlùmọ́nì
 
-[Free2z ì ì 'í ë ¤.](https://free2z.cash/)  
-[Àkọsílẹ̀ Free2z](https://free2z.cash/docs/)  
-[2Z Àkópọ̀](https://free2z.cash/docs/2Zs/)  
-[Ṣídá àwòrán ara ẹni](https://free2z.cash/docs/creators/creating-a-profile)  
-[Kí ni Free2z Live?](https://free2z.cash/docs/creators/free2z-live)  
-[Free2z fún Àwọn Alátìlẹyìn](https://free2z.cash/docs/category/for-supporters)
+[Free2z](https://free2z.cash/)  
+[Ìwé ìforúkọsílẹ̀ Free2z](https://free2z.cash/docs/)  
+[Àkópọ̀ 2Z](https://free2z.cash/docs/getting-started/tuzis)  
+[Ṣíṣẹ̀dá profaili kan](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[Kí ni Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2z fún àwọn Olùrànlọ́wọ́](https://free2z.cash/docs/category/for-supporters)
 
 ---
 
-James Katz ló kọ ọ́ fún Zechub.
+_James Katz ló kọ ọ́ fún ZecHub._

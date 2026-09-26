@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Osisi okooko osisi Blossom
+# Blossom
 
 > Blossom gara ndụ na Zcash mainnet na ngọngọ 653,600 (December 11, 2019 UTC).
 
@@ -39,14 +39,14 @@ Blossom bụ nke atọ netwọk nkwalite Zcash. Ọ sochiri Overwinter na Saplin
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
- Oge dị n'etiti ihe mgbaru ọsọ nke ngọngọ ahụ. oge netwọk na-achọ maka otu ogige ruo ọzọ.
- Block ụgwọ ọrụ  The ọhụrụ ZEC kere na-akwụ dị ka onye ọ bụla ngọngọ a gwuru.
- Ịgbaji oge ole ka ị ga-agafe n'etiti nke ọ bụla na nkwụghachi ụgwọ.
-◯ Consensus branch id. A mkpado na akara nke set of netwọk iwu a ọnụ ma ọ bụ azụmahịa na-esote.
-◯ Mgbanwe nkwekọrịta abụọ ❖ mgbanwe iwu nke ọ bụla ọnụ ga-agbaso iji nọrọ na netwọkụ ahụ.
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
+| Block target spacing | Oge netwọk ahụ na-achọ n'etiti otu ngọngọ na nke ọzọ |
+| Block reward | ZEC ọhụrụ ahụ mepụtara ma kwụọ ụgwọ ka a na-egwupụta blọk ọ bụla |
+| Halving interval | Blọk ole gafere n'etiti ọkara nke ụgwọ ọrụ blọk ọ bụla |
+| Consensus branch id | Akara nke na-egosi usoro netwọk nke na-achịkwa node ma ọ bụ azụmahịa na-eso |
+| Bilateral consensus change | Mgbanwe iwu nke nodu ọ bụla ga-agbaso iji nọrọ na netwọk ahụ |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
 
 ## Ajụjụ ndị a na-ajụkarị
 
@@ -96,4 +96,4 @@ N'ihi na Blossom belatara ụgwọ ọrụ a kwụrụ maka otu ngọngọ ma me
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Osisi osisi Sapling](../zcash-tech/sapling) · Nke ọzọ: [Osisi nkwụ](../zcash-tech/heartwood)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Sapling](../zcash-tech/sapling) · Nke ọzọ: [Heartwood](../zcash-tech/heartwood)

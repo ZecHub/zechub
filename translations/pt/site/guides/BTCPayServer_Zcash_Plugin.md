@@ -124,7 +124,7 @@ Todos os fundos vão **diretamente** para a carteira do comerciante. A seguranç
 ### Como funciona
 
 - **A carteira é criada com antecedência.**  
-  O comerciante usa uma carteira Zcash compatível com viewing keys - como [YWallet](https://ywallet.app/installation) ou [Zingo! Wallet](https://zingolabs.org/).  
+  O comerciante usa uma carteira Zcash compatível com viewing keys - como [Zkool](https://github.com/hhanh00/zkool2/) ou [Zingo! Wallet](https://zingolabs.org/).  
   Uma lista completa está disponível em [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - **O BTCPay Server se conecta por meio de uma viewing key.**  
@@ -441,7 +441,7 @@ Adicione a seguinte linha, substituindo a URL pelo endpoint escolhido:
 
 Você pode usar:
 
-* Um **nó público**, como `https://lightwalletd.zcash-infra.com`
+* Um **nó público**, como `https://zec.rocks:443`
 * Seu próprio nó auto-hospedado, implantado separadamente do BTCPay Server
 
 > Se o `lightwalletd` externo ficar indisponível ou sobrecarregado, os pagamentos blindados falharão.
@@ -660,8 +660,8 @@ Depois de instalar o plugin, uma nova seção **Zcash** aparecerá no menu de co
 
 > Nem todas as carteiras ainda oferecem suporte à exportação de **Unified Full Viewing Key (UFVK)**.  
 > Opções recomendadas:  
-> – [**YWallet**](https://ywallet.app/installation)  
-> – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
+> – [**Zingo! Wallet (versão para PC)**](https://zingolabs.org/)  
 > Em ambos os aplicativos, procure a exportação de UFVK na seção de backup/exportação.
 
 Essas chaves oferecem suporte à **rotação automática de endereços**, o que significa:

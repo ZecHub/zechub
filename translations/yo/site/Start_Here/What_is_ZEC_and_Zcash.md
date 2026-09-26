@@ -2,14 +2,14 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àwọn Ìlànà Zcash
+# Àwọn Ìpìlẹ̀ Zcash
 
 ## TL;DR
 
-- **ZEC** jẹ owo oni-nọmba aṣiri-akọkọ ti a kọ lori blockchain Zcash
-- Ko dabi Bitcoin, ZEC ṣe atilẹyin ni kikun **shielded (private) awọn iṣowo** nipa lilo awọn ẹri-imọ-nọmba
-- O lè pinnu ohun tó o máa sọ nípa ọ̀rọ̀ ìnáwó rẹ àti ẹni tó o fẹ́ sọ fún
-- Zcash jẹ orisun ṣiṣi, laisi igbanilaaye, ati aiṣedede
+- **ZEC** jẹ́ owó oní-nọ́ńbà àkọ́kọ́ tí a kọ́ sórí blockchain Zcash
+- Láìdàbí Bitcoin, ZEC ń ṣe àtìlẹ́yìn fún àwọn ìṣòwò **tí a fi ààbò pamọ́ (ìkọ̀kọ̀)** nípa lílo àwọn ẹ̀rí àìmọ̀
+- O n ṣakoso aṣiri eto inawo rẹ: yan ohun ti o yoo ṣafihan, ati tani o yoo ṣafihan fun
+- Zcash jẹ́ orísun ṣíṣí sílẹ̀, láìní àṣẹ, àti aláìlágbára.
 
 ---
 
@@ -20,46 +20,44 @@
 
 ---
 
-ZEC is a digital currency that is based on the Zcash blockchain. It is the closest approximation to cash on the web. While it shares many similar features to Bitcoin, it solves Bitcoin's biggest flaw by enabling users to run fully private monetary transactions.
+ZEC jẹ́ owó oní-nọ́ńbà tí a gbé ka orí ẹ̀rọ ìbánisọ̀rọ̀ Zcash. Ó jẹ́ owó tí ó sún mọ́ owó lórí ayélujára. Bó tilẹ̀ jẹ́ pé ó ní ọ̀pọ̀lọpọ̀ àwọn ànímọ́ tí ó jọ Bitcoin, ó yanjú àbùkù ńlá Bitcoin nípa jíjẹ́ kí àwọn olùlò lè ṣe àwọn ìṣòwò owó ìkọ̀kọ̀ pátápátá.
 
-#### Kí nìdí tó fi ṣe pàtàkì pé kí wọ́n ní owó ti ara wọn?
+#### Kí ló dé tí owó àdáni fi ṣe pàtàkì?
 
-ZEC gives people the opportunity to transfer data permissionlessly. Having a peer-to-peer, permissionless money system gives people the ability to store value, or transact with others, independent of centralized entities. ZEC enables people to choose when they want to disclose information about their finances with others.
+ZEC fún àwọn ènìyàn ní àǹfààní láti gbé ìwífún láìsí àṣẹ. Níní ètò owó tí kò ní àṣẹ fún àwọn ènìyàn ní agbára láti kó iye owó pamọ́, tàbí láti bá àwọn ẹlòmíràn ṣe àjọṣepọ̀ láìsí àwọn àjọ tí ó wà ní àárín gbùngbùn. ZEC ń jẹ́ kí àwọn ènìyàn yan ìgbà tí wọ́n fẹ́ fi ìwífún nípa ìnáwó wọn hàn pẹ̀lú àwọn ẹlòmíràn.
 
-#### Àwọn ohun àmúṣọrọ̀
+#### Àwọn ohun àlùmọ́nì
 
-[Ìrànlẹ́ Zcash àti Ìpamọ́ra](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
+[Ọ̀ràn Zcash àti Ìpamọ́](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Àyíká Ayé Kan Tí Wọ́n Dáàbò Bò](https://electriccoin.co/blog/shielded-ecosystem/)
+[Ètò Àyíká Tí A Dáàbòbò](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
-[Àwọn Àbá Ìpamọ́ Zcash](https://z.cash/support/security/privacy-security-recommendations/)
+[Awọn iṣeduro ikọkọ Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
 ## Kí ni Zcash?
 
-Zcash is an implementation of the "Zerocash" protocol. It is an open-source, blockchain-based ledger that features a sophisticated zero-knowledge proving system. Based on Bitcoin's code, it specializes in offering a higher standard of privacy through its proving system preserving confidentiality of [transaction metadata](https://nym.com/blog/what-is-metadata)Ni ipilẹ rẹ, Zcash jẹ ohun ini data ikọkọ ti a gbe laisi igbanilaaye nigbati awọn iṣowo ba waye. 
+Zcash jẹ́ ìlò ìlànà "Zerocash". Ó jẹ́ ìwé àkọsílẹ̀ onípele-ìṣí-orí ... [metadata iṣowo](https://nym.com/blog/what-is-metadata)Ní pàtàkì rẹ̀, Zcash jẹ́ ohun ìní ìkọ̀kọ̀ tí a lè gbé kiri láìsí àṣẹ nígbà tí a bá ń ṣe àwọn ìṣòwò. 
 
-#### Kí nìdí tó fi ṣe pàtàkì?
+#### Kí ló dé tí ó fi ṣe pàtàkì?
 
-Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In a world where blockchain applications and cryptocurrencies are becoming more widely accepted, pseudonymous transactions are no longer a viable option to protect user privacy. Surveillance applications are becoming more widely used to analyze blockchain transactions.
+Zcash yanjú àbùkù tó tóbi jùlọ ti Bitcoin; ìnilára àdáni àti ìfiránṣẹ́ dátà. Nínú ayé kan tí àwọn ohun èlò blockchain àti owó crypto ti ń di ohun tí a gbà ní gbogbogbòò, àwọn ìṣòwò tí a fi orúkọ èké ṣe kò tún jẹ́ àṣàyàn tó ṣeé ṣe mọ́ láti dáàbò bo ìpamọ́ olùlò mọ́. Àwọn ohun èlò ìṣọ́ra ti di ohun tí a ń lò ní gbogbogbòò láti ṣàyẹ̀wò àwọn ìṣòwò blockchain.
 
 <a href="">
     <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
-#### Àwọn ohun àmúṣọrọ̀
+#### Àwọn ohun àlùmọ́nì
 
-[Àwọn Ohun Tó Yẹ Kó O Mọ̀](https://z.cash/the-basics/)
+[Àwọn Ìpìlẹ̀](https://z.cash/the-basics/)
 
-[Bí Ó Ṣe Ń Ṣiṣẹ́](https://z.cash/technology/)
-
-[Àwọn HTTPS ti Àkọsílẹ̀ Ìdánwò](https://nakamoto.com/zcash-the-https-of-blockchains/)
+[Bó Ṣe Ń Ṣiṣẹ́](https://z.cash/technology/)
 
 ---
 
-## Àwọn ojúewé tó tan mọ́ ọn
+## Àwọn ojú ìwé tó jọra
 
-- [Ìtọ́sọ́nà fún Olùṣàmúlò Tuntun](/start-here/new-user-guide)  Igbesẹ-ni-igbesẹ fun awọn oniwun ZEC tuntun
-- [Àwọn pọ́ọ̀sì](/using-zcash/wallets)  Yan apamọwọ ti o ni aabo lati tọju ZEC rẹ
-- [Ríra ZEC](/using-zcash/buying-zec)  Ibo àti bí a ṣe lè rí ZEC gbà
-- [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Ṣe](/using-zcash/shielded-pools)  Bí àwọn ìsọ̀rí Zcash ṣe ń pa àwọn ìsọfúnni tó jẹ mọ́ ìdánwò mọ́
-- [Àwọn ZK-SNARKs](/zcash-tech/zk-snarks)  Àkọsílẹ̀ tó wà lẹ́yìn ìpamọ́ Zcash
+- [Itọsọna Olumulo Tuntun](/start-here/new-user-guide) — Ìgbékalẹ̀ ìgbésẹ̀-ní-ìgbésẹ̀ fún àwọn olùdíje ZEC tuntun
+- [Àwọn Àpò Ìpamọ́](/using-zcash/wallets) — Yan àpò àpamọ́ kan tí a dáàbò bo láti gbé ZEC rẹ sí
+- [Rira ZEC](/using-zcash/buying-zec) — Nibo ati bi a ṣe le gba ZEC
+- [Àwọn Adágún Tí A Dáàbò Bo](/using-zcash/shielded-pools) — Báwo ni àwọn adágún Zcash ṣe ń fi àwọn ìṣòwò ṣe àṣírí
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Ìkọ̀kọ̀ tí ó wà lẹ́yìn ìpamọ́ Zcash

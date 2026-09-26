@@ -16,7 +16,7 @@ Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) u
     src="https://www.youtube.com/embed/SVekeNU6_-g"
     title="Zcash Full Node setup on Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -420,7 +420,7 @@ Mgbe ị kwụsịrị maọbụ chọọ ịkwụsị akwụ ụgwọ:
 
 -> Gaa na ** My Deployments**
 
--> Chọta gị zcashd nkenye ọnọdụ
+-> Chọta gị zcashd nkesa
 
 -> Pịa **"Mechie Ntinye aka"**
 
@@ -512,13 +512,13 @@ Mgbe ego gị gwụrụ, Akash ga-emechi nkenye gi. ** Tinye obere akpa gị oge
 
 ** Akash Docs**: Onye na-eme ihe nkiri a bụ onye isi. [https://akash.network/docs/](https://akash.network/docs/)
 
-** Ndị na-enyocha Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+** Ndị na-enyocha Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: Onye na-agba egwu, onye na-egwu egwú. [https://discord.akash.network](https://discord.akash.network) (maka nsogbu ndị na-enye ọrụ)
 
 ## Ihe Ndị E Kwuru ná Ngwụcha
 
-- ** Ihe nchekwa na-adịgide adịgide.** Emela ka * nọgidere: ezi ma ọ bụ jiri klas beta2 mee ihe. Jiri * beta3*.
+- ** Ihe nchekwa na-adịgide adịgide.** Emela * persistent: true ma ọ bụ jiri klas beta2. Jiri beta3.
 - **Mmemme mbụ na-adị nwayọ.** Nwee ndidi. Nke a bụ ihe dị mma maka ọnụ ọgụgụ blockchain.
 - **Jide ego gị.** Ntinye aka na-emechi onwe ya mgbe AKT gwụrụ.
 - ** Ndabere abụghị akpaka.** Ọ bụrụ na ị hụrụ data n'anya, chee na ọ nwere ike ikpochapụ ma mee atụmatụ dịka.

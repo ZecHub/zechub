@@ -52,7 +52,7 @@ Questo ti permette di ricevere fondi **senza esporre il tuo grafo finanziario**.
 
 - Un wallet Zcash che supporta gli indirizzi schermati:
   - Zodl
-  - YWallet
+  - Zingo!
   - Altri wallet supportati
 
 <br/>

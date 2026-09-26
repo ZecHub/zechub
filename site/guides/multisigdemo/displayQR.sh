@@ -9,7 +9,7 @@
 # Kept as a record of the transparent multisig workflow. For multi-party
 # custody on Zcash today see:
 #   https://zechub.wiki/zcash-tech/frost-threshold-custody
-#   https://zechub.wiki/guides/frostdemo/ywallet-frost-demo
+#   https://zechub.wiki/guides/ywallet-frost-demo
 
 from="${1}"     # $1 represent first argument
 

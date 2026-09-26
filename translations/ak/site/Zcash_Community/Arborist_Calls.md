@@ -44,7 +44,7 @@ Arborist Calls ho wɔ mfaso ma:
     src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G"
     title="Zcash Arborist Call Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -150,9 +150,9 @@ Zebra ati Zallet ni o wa lapapọ fẹẹrẹfẹ lori CPU nigba iṣeto ju comp
 
 ## Àwọn ohun èlò àfikún
 - [Ìwé Zebra](https://zebra.zfnd.org)  ìwé àṣẹ Zebra tí ó wà nípamọ́
-- [Ìwé Zallet](https://zcash.github.io/wallet)  ìwé àṣẹ Zallet tí ó wà nílẹ̀-èdè rẹ.
-- [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
+- [Ìwé Zallet Book](https://zcash.github.io/zallet/)  ìwé àṣẹ Zallet tí ó wà nílẹ̀-èdè rẹ.
+- [Ìfilọ́lẹ̀ ìparí àtìlẹ́yìn zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---
 
-*Bí o bá rí i pé ìwé yìí wúlò, ronú nípa gbígbà láti ṣe ìtìlẹyìn fún ZecHub: [fi adirẹsi tí a fi ààbò pamọ́ sí ti ẹ̀bùn-ìfúnni ní Zechub lọwọlọwọ lati zechub.wiki/donation  kò wà nínú ibí nítorí mi ò lè ṣètọ́jú wípé ó ṣì jẹ́ ojúmọ́].*
+*Bí o bá rí i pé ìwé yìí wúlò, ronú nípa gbígbà láti ṣètìlẹyìn fún ZecHub: [insert current ZecHub donation shielded address from zechub.wiki/donation  not included here since I couldn't verify it is still current].* Àkọlé àwòrán, Owó ti wọn fi ń ṣe ọrẹ fún àjọ yìí kò sí níbí nítorí pé mi ò lè rí i bóyá ó ṣì wà lọ́wọ́lọ́wọ̣ báyìí.]

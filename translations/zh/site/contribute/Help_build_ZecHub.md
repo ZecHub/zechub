@@ -37,10 +37,6 @@
 
 [ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
-[ZecHub-Namada Github Issues](https://app.dework.xyz/zechub-2424)
-
-
-
 如果你还希望通过其他方式做出贡献，请在 Twitter 上联系 ZecHub（[@ZecHub](https://twitter.com/zechub)），或加入我们的 [Discord](https://discord.gg/zcash)。
 
 ____

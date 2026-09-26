@@ -6,7 +6,7 @@
 
 <img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
-Zebra node ƒe kɔmpiuta dɔwɔɖoɖoa zazã le Raspberry Pi 4 dzi na be nàte ŋu akpɔ gome le Zcash network la me abe node si le eɖokui si, si sɔ kple nukpɔsusu ɖeka ene. Mɔfiame sia akplɔ wò to atrakpui siwo dzi nàto aɖo Zebra ɖe wò Raspberry Pi 4 dzi ahawɔe.
+Zebra node kɔmpiuta dɔwɔɖoɖoa zazã le Raspberry Pi 4 dzi na be nàte ŋu akpɔ gome le Zcash network la me abe node si le eɖokui si, si sɔ kple nukpɔsusu ɖeka ene. Mɔfiame sia akplɔ wò to atrakpui siwo dzi nàto aɖo Zebra ɖe wò Raspberry Pi 4 dzi ahawɔe.
 
 ## Nusiwo hiã do ŋgɔ
 
@@ -46,7 +46,7 @@ Zebra node ƒe kɔmpiuta dɔwɔɖoɖoa zazã le Raspberry Pi 4 dzi na be nàte �
 
    __agba tutu --ɖe asi le__ .
 
-   Dɔ sia wɔwɔ ate ŋu axɔ ɣeyiɣi aɖe. Kpɔ egbɔ be wò Raspberry Pi fa nyuie, elabena nuƒoƒoƒu ate ŋu ana dzoxɔxɔ nado.
+   Dɔ sia ate ŋu axɔ ɣeyiɣi aɖe. Kpɔ egbɔ be wò Raspberry Pi fa nyuie, elabena nuƒoƒoƒu ate ŋu ana dzoxɔxɔ nado.
 
 5. __Ðoɖowɔwɔ__ .
    Wɔ ɖoɖowɔɖi ƒe faɛl na Zebra. Àte ŋu azã ɖoɖowɔɖi si woɖo ɖi la abe gɔmedzedze ene:
@@ -71,10 +71,10 @@ Zebra node ƒe kɔmpiuta dɔwɔɖoɖoa zazã le Raspberry Pi 4 dzi na be nàte �
 
 ## Kuxiwo gbɔ kpɔkpɔ
 
-Ne èdo go kuxi aɖewo le Zebra tutu alo ewɔwɔ me la, ke lé ŋku ɖe [Zebra ƒe nuŋlɔɖiwo ŋu](https://doc.zebra.zfnd.org/docs/intro.html) hena kuxiwo gbɔ kpɔkpɔ ŋuti aɖaŋuɖoɖowo kple nyatakaka bubuwo.
+Ne èdo go kuxi aɖewo le Zebra tutu alo edzikpɔkpɔ me la, ke lé ŋku ɖe... [Zebra ƒe nuŋlɔɖiwo](https://zebra.zfnd.org/user/troubleshooting.html) hena kuxiwo gbɔ kpɔkpɔ ŋuti aɖaŋuɖoɖowo kple nyatakaka bubuwo.
 
 Kpɔ egbɔ be yena yeƒe Raspberry Pi fa, elabena node ƒe duƒuƒu ate ŋu ana dzoxɔxɔ nado. Àdi be yeazã fafamɔ̃, abe fesre alo dzoxɔxɔnamɔ̃ ene.
 
 ## Nyanuwuwuw
 
-To mɔfiame sia dzi wɔwɔ me la, ele be nàɖo Zebra dzidzedzetɔe ahawɔe le wò Raspberry Pi 4. Fifia èle asi kpem ɖe Zcash network ŋu abe node si le eɖokui si ene, si le kpekpem ɖe Zcash ƒe asitsatsa ƒe adzamenyawo ta.
+Ne èwɔ ɖe mɔfiame sia dzi la, ele be nàɖo Zebra dzidzedzetɔe ahawɔe le wò Raspberry Pi 4. Fifia èle asi kpem ɖe Zcash network ŋu abe node si le eɖokui si ene, si le kpekpem ɖe Zcash ƒe asitsatsa ƒe adzamenyawo ta.

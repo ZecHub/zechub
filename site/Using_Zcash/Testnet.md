@@ -33,14 +33,14 @@ A wallet developer can connect software to a Testnet RPC endpoint and simulate t
 
 #### 2. Testing Network Upgrades
 
-Zcash upgrades its core protocol periodically (e.g., Nu5, Nu6). Testnet activates new upgrades **before Mainnet**, allowing developers and the community to identify and fix bugs.
+Zcash upgrades its core protocol periodically (e.g., NU6.1, NU6.2 and Ironwood). Testnet activates new upgrades **before Mainnet**, allowing developers and the community to identify and fix bugs.
 
 **Example:**  
 A new consensus rule or transaction type is first pushed to Testnet. After successful testing, it activates on Mainnet at a predetermined block height.
 
 #### 3. Testing Node Implementations
 
-Zcash supports multiple node software implementations - `zcashd` and **Zebra** (Rust-based node maintained by the Zcash Foundation). Testnet enables testing of nodes in real conditions without financial risk.  
+Zcash's maintained node is **Zebra** (the Rust-based node maintained by the Zcash Foundation) and the maintained wallet is [Zallet](https://github.com/zcash/zallet). `zcashd`, the original node implementation, reached its automatic end-of-support halt on 18 July 2026 and is no longer maintained - see the [zcashd to Zebra and Zallet migration guide](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet enables testing of nodes in real conditions without financial risk.
 
 Node developers can:
 
@@ -130,7 +130,7 @@ A **faucet** is a service that gives free TAZ coins for testing:
 - Avoids the need to mine TAZ manually  
 
 **Example:**  
-1. Visit a Testnet faucet (e.g., [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. Visit a Testnet faucet (e.g., [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. Enter your Testnet address  
 3. Request TAZ  
 4. Receive TAZ instantly to start testing  

@@ -20,6 +20,8 @@ ____
 
 ____ 
 
+> A na-edebe vidio Ywallet atọ dị n'okpuru ebe a maka ntụaka. E jighizi ego nchekwa ahụ ma agaghị emelite ya maka Ironwood, yabụ ọ nweghị ike ịgbaso agbụ ígwè ọzọ. Họrọ obere akpa echekwara site na ihe nchọgharị weebụ nke nwere ọtụtụ ndị ọrụ iji nweta ozi gbasara akaụntụ gị. [Akpa ego](https://zechub.wiki/wallets) peeji nke.
+
 - Ywallet Nchekwa Nzuzo
 
 [![Video Thumbnail](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)

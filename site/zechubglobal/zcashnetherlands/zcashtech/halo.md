@@ -92,11 +92,11 @@ De [Privacy and Scaling Exploration group](https://appliedzkp.org/) onderzoekt o
 
 ## Andere projecten die Halo gebruiken
 
-+ [Anoma, een privacybehoud multichain atomic swap-protocol](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, een privacybehoud multichain atomic swap-protocol](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, een L2 zkRollup op Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, een private L1 zkEVM-blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, een private L1 zkEVM-blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, een L2 zkRollup op Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -113,7 +113,7 @@ De [Privacy and Scaling Exploration group](https://appliedzkp.org/) onderzoekt o
 
 **Documentatie**
 
-[Halo 2-bronnen](https://github.com/adria0/awesome-halo2)
+[Halo 2-bronnen](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2-documenten](https://zcash.github.io/halo2/)
 

@@ -77,7 +77,7 @@ Mmeri abụghị njedebe nke ụzọ. Imeri na-ewulite pọtụfoliyo gị na ah
 
 - [Akụrụngwa Onye Mmepụta](https://zechub.wiki/developers) - ebe mbụ ndị na-ewu Zcash ga-akwụsị.
 - [Zebra Full Node (Nọmba zuru ezu)](https://zechub.wiki/zcash-tech/zebra-full-node) - ọnụ na isi nke ikpo okwu ahụ.
-- [FROST (nke a na-akpọ)](https://zechub.wiki/zcash-tech/frost) - ntinye aka n'ókè maka oru ngo di elu.
+- [FROST](https://zechub.wiki/zcash-tech/frost) - ntinye aka n'ókè maka oru ngo di elu.
 
 <br/>
 

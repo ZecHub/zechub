@@ -1,47 +1,49 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/tutorials/Wallet_Tutorials.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# Tutoriais de Carteiras Zcash
+# Tutoriais de Wallets Zcash
 
-Abaixo está uma lista de tutoriais de carteiras que podem ajudá-lo a começar com ZEC.
+Abaixo encontra uma lista de tutoriais de wallets que o podem ajudar a começar a utilizar ZEC.
 
 
-- Carteira Zodl
+- Wallet ZODL 
 
-[![Miniatura do Vídeo](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
+[![Miniatura do vídeo](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 
 ____
 
 
-- Comparando Carteiras Zcash
+- Comparação de Wallets Zcash
 
-[![Miniatura do Vídeo](/content-images/hqdefault-02389a1b67.webp)](https://www.youtube.com/watch?v=ao4ORC_VNcY)
+[![Miniatura do vídeo](/content-images/hqdefault-02389a1b67.webp)](https://www.youtube.com/watch?v=ao4ORC_VNcY)
 
 ____ 
 
-- Armazenamento Frio do Ywallet
+> Os três vídeos Ywallet abaixo são mantidos como referência. Ywallet deixou de receber manutenção e não será atualizada para Ironwood, pelo que já não consegue acompanhar a cadeia. Escolha uma wallet com manutenção ativa na página [Wallets](https://zechub.wiki/wallets).
 
-[![Miniatura do Vídeo](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)
+- Armazenamento a frio Ywallet
 
-____
-
-- Backup em Lote do YWallet
-
-[![Miniatura do Vídeo](/content-images/hqdefault-a374a413ed.webp)](https://www.youtube.com/watch?v=0skM-RziBv8)
-
+[![Miniatura do vídeo](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)
 
 ____
 
-- Recurso Multipay do YWallet
+- Cópia de segurança em lote Ywallet
 
-[![Miniatura do Vídeo](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
+[![Miniatura do vídeo](/content-images/hqdefault-a374a413ed.webp)](https://www.youtube.com/watch?v=0skM-RziBv8)
 
 
 ____
 
-- Tutorial da Carteira Unstoppable 
+- Funcionalidade de multipagamento Ywallet
 
-[![Miniatura do Vídeo](/content-images/hqdefault-8ecdd85617.webp)](https://www.youtube.com/watch?v=B9tpkgVRsq4)
+[![Miniatura do vídeo](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
+
+
+____
+
+- Tutorial da Unstoppable Wallet 
+
+[![Miniatura do vídeo](/content-images/hqdefault-8ecdd85617.webp)](https://www.youtube.com/watch?v=B9tpkgVRsq4)
 
 ____

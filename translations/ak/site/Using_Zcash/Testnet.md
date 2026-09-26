@@ -2,7 +2,7 @@
 
 ## Dɛn Ne Zcash Testnet no?
 
-**Zcash Testnet** yɛ blockchain a ɛne no di nsɛ wɔ Zcash main network (Mainnet) ankasa a ɛsan yɛ protocol, mmara, ne asɛmdi mu nteaseɛ pɛpɛɛpɛ - nanso ɛwɔ nsonsonoeɛ titire mmienu:
+**Zcash Testnet** yɛ blockchain a ɛne ne ho di nsɛ wɔ Zcash main network (Mainnet) ankasa a ɛsan yɛ protocol, mmara, ne ayɔnkofa nteaseɛ pɛpɛɛpɛ - nanso ɛwɔ nsonsonoeɛ titire mmienu:
 
 1. **Nsika biara nni sika boɔ ankasa** - wɔfrɛ no **TAZ**, ɛnyɛ ZEC, na wɔde yɛ sɔhwɛ nko ara. 
 2. **Wɔsɔ network upgrades, nnwinnade, ne software hwɛ wɔ ha kan** ansa na wɔde adi dwuma wɔ Zcash blockchain ankasa no so. 
@@ -26,21 +26,21 @@ Wɔn a wɔyɛ sika kotoku, nsakrae, softwea a wɔde tu fagude, anaa kokoam nnwin
 - Sɔhwɛ ayɔnkofa kokoam nsɛm (transparent vs shielded) . 
 
 **Nhwɛsoɔ:** 
-Nnwinnade te sɛ [ .`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) fa Testnet di dwuma de yɛ nkitahodi na sɔ Zcash shielded asset functionalities hwɛ. 
+Nnwinnade te sɛ [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) fa Testnet di dwuma de yɛ nkitahodi na sɔ Zcash shielded asset functionalities hwɛ. 
 
 **Wiase ankasa mu tebea:** 
 Wallet developer betumi de software abɔ Testnet RPC endpoint na wayɛ asetena nyinaa ho mfonini - ɔbɔ address, ɔde shielded transactions bɛmena, na wagye sika a aka no atom - ansa na wakɔ live wɔ Mainnet so.
 
 #### 2. Wɔsɔ Network Upgrades hwɛ
 
-Zcash yɛ ne core protocol no foforo bere ne bere mu (e.g., Nu5, Nu6). Testnet ma nkɔsoɔ foforɔ yɛ adwuma **ansa na Mainnet** aba, ɛma developers ne mpɔtam hɔfoɔ tumi hunu na wɔsiesie mfomsoɔ.
+Zcash yɛ ne core protocol no foforo bere ne bere mu (e.g., NU6.1, NU6.2 ne Ironwood). Testnet ma nkɔsoɔ foforɔ yɛ adwuma **ansa na Mainnet** aba, ɛma developers ne mpɔtam hɔfoɔ tumi hunu na wɔsiesie mfomsoɔ.
 
 **Nhwɛsoɔ:** 
 Wɔdi kan pia adwene foforɔ mmara anaa ayɔnkofa su kɔ Testnet. Sɛ wɔsɔ hwɛ yiye wie a, ɛyɛ adwuma wɔ Mainnet so wɔ block sorokɔ a wɔahyɛ ato hɔ.
 
 #### 3. Sɔhwɛ Node Nnwuma a Wɔde Di Dwuma
 
-Zcash boa node software dwumadie ahodoɔ pii - . `zcashd` ne **Zebra** (Rust-based node a Zcash Foundation na ɛhwɛ so). Testnet ma wotumi sɔ nodes hwɛ wɔ tebea ankasa mu a sikasɛm mu asiane biara nni mu. 
+Zcash node a wɔhwɛ so no yɛ **Zebra** (node a egyina Rust so a Zcash Foundation hwɛ so) na sika kotoku a wɔhwɛ so no yɛ [Zallet](https://github.com/zcash/zallet). `zcashd`, mfitiaseɛ node dwumadie no, duu ne automatic end-of-support halt wɔ 18 July 2026 na wɔanhwɛ so bio - hwɛ [zcashd to Zebra ne Zallet atutra akwankyerɛ](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet ma wotumi sɔ nodes hwɛ wɔ tebea ankasa mu a sikasɛm mu asiane biara nni mu.
 
 Node developers betumi:
 
@@ -57,7 +57,7 @@ Mpɔtam hɔ nkyerɛkyerɛ ne nkrataa ma kwan ma wonya **Testnet faucets, explore
 
 ## Testnet a Wɔde Di Dwuma Ankasa
 
-### 1. Ɔdebɔfo Sɔhwɛ (Wallet / App) .
+### 1. Ɔdebɔneyɛfo Sɔhwɛ (Wallet / App) .
 
 - Fa wo ho to Zcash Testnet so 
 - Bisa TAZ fi faucet bi mu 
@@ -130,7 +130,7 @@ Susuw TAZ ho sɛ **"agoru sika" ma Zcash Testnet**.
 - Kwati hia a ehia sɛ wode nsa tu TAZ 
 
 **Nhwɛsoɔ:** 
-1. Kɔ Testnet faucet bi so (e.g., [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com so na ɔkyerɛwee](https://fauzec.com/))  
+1. Kɔ Testnet faucet bi so (e.g., . [fauzec.com so na ɛwɔ hɔ](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz na ɛyɛ adwuma wɔ ɔkwan a ɛyɛ nwonwa so](https://zcashfaucet.jinolabs.xyz/))  
 2. Hyehyɛ wo Testnet address no 
 3. Bisa TAZ 
 4. Nya TAZ ntɛm ara na fi ase sɔ hwɛ 
@@ -144,7 +144,7 @@ Susuw TAZ ho sɛ **"agoru sika" ma Zcash Testnet**.
 
 ## Zkool ne Zingo! Sika kotoku
 
-### Zkool na ɔkyerɛwee
+### Zkool
 
 - Multi-account wallet ma Zcash dwumadiefoɔ a wɔakɔ anim 
 - Ɛboa aba kasasin, hwɛ safe, address a ɛda adi na wɔabɔ ho ban 
@@ -166,7 +166,7 @@ Susuw TAZ ho sɛ **"agoru sika" ma Zcash Testnet**.
     src="https://www.youtube.com/embed/XCGwwqLZILg"
     title="Zkool Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -184,7 +184,7 @@ Susuw TAZ ho sɛ **"agoru sika" ma Zcash Testnet**.
     src="https://www.youtube.com/embed/To7WAkiBldA"
     title="Zingo Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

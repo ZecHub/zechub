@@ -14,7 +14,7 @@ ZODL은 대규모 금융 감시가 없는 세상을 상상합니다. 이곳에�
 
 ZODL (Zcash Open Development Lab)은 2026년 초에 이전 Electric Coin Company (ECC)의 전 CEO인 Josh Swihart에 의해 설립되었습니다. 2026년 1월, ECC의 전체 엔지니어링 및 제품 팀이 ECC를 감독하는 비영리 단체 Bootstrap과의 거버넌스 분쟁으로 인해 사임했습니다. 원래 Zcash의 가장 중요한 시스템을 설계, 구현, 유지한 핵심 팀은 ZODL로 이전하여 독립적으로 작업을 계속하기로 결정했습니다.
 
-이전 ECC에서 개발 및 유지된 Zashi 지갑은 새로운 조직인 Zodl로 리브랜딩되었습니다. 사용자는 아무런 조치를 취할 필요가 없었으며, 다음 업데이트 시 앱이 자동으로 리브랜딩되었습니다.
+이전 ECC에서 개발 및 유지된 Zashi 지갑은 새로운 조직에서 ZODL로 리브랜딩되었습니다. 사용자는 아무런 조치를 취할 필요가 없었으며, 다음 업데이트 시 앱이 자동으로 리브랜딩되었습니다.
 
 ## 자금 지원
 
@@ -30,7 +30,7 @@ ZODL (Zcash Open Development Lab)은 2026년 초에 이전 Electric Coin Company
 - **Balaji Srinivasan**
 - 암호화폐 및 기술 분야의 추가 엔젤 투자자들
 
-이 자금은 Zcash 프로토콜과 Zodl 지갑의 개발 확장을 위해 사용되고 있습니다.
+이 자금은 Zcash 프로토콜과 ZODL 지갑의 개발 확장을 위해 사용되고 있습니다.
 
 ## 리더십
 
@@ -40,12 +40,12 @@ ZODL (Zcash Open Development Lab)은 2026년 초에 이전 Electric Coin Company
 
 ## 제품
 
-### Zodl 지갑 (이전 Zashi)
+### ZODL 지갑 (이전 Zashi)
 
-Zodl은 사적인 Zcash 거래를 위한 자체 보관 모바일 지갑입니다. 이는 프로토콜 수준의 깊은 지식과 사용자 친화적인 디자인을 결합하여 복잡성을 숨기면서도 보안을 유지합니다.
+ZODL은 사적인 Zcash 거래를 위한 자체 보관 모바일 지갑입니다. 이는 프로토콜 수준의 깊은 지식과 사용자 친화적인 디자인을 결합하여 복잡성을 숨기면서도 보안을 유지합니다.
 
 **플랫폼:**
-- [iOS (앱 스토어)](https://apps.apple.com/app/zodl/id6444974742)
+- [iOS (앱 스토어)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (플레이 스토어)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)

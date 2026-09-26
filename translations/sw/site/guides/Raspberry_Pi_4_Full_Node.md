@@ -149,10 +149,10 @@ Kuthibitisha mkoba anajibu, na mara moja Zebra kumaliza syncing, kwamba mizani /
 Zebra na Zallet ni kwa ujumla nyepesi juu ya CPU wakati wa kuanzisha kuliko kukusanya zcashd ilikuwa, tangu wewe ni mbio pre-kujengwa binaries / vyombo. 4 GB RAM ni hatua nzuri kuanzia; kufuatilia pamoja `htop` na kuzingatia 8 GB Pi 4 lahaja kama unaweza kuona swapping nzito.
 
 ## Rasilimali za ziada
-- [Kitabu Zebra](https://zebra.zfnd.org)  hati rasmi Zebra
-- [Kitabu cha Zallet](https://zcash.github.io/wallet)  hati rasmi za Zallet
+- [Kitabu cha Zebra](https://zebra.zfnd.org)  hati rasmi Zebra
+- [Kitabu cha Zallet](https://zcash.github.io/zallet/)  hati rasmi za Zallet
 - [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
 
 ---
 
-* Kama ulipata mwongozo huu kuwa muhimu, fikiria kuunga mkono ZecHub: [ingiza anwani ya sasa iliyohifadhiwa kutoka kwa mchango wa zechub.wiki/donation  haijajumuishwa hapa kwani sikuweza kuthibitisha ikiwa bado ni halali].*
+* Kama wewe kupatikana mwongozo huu muhimu, kufikiria kusaidia ZecHub: [insert current ZecHub donation shielded address from zechub.wiki/donation  not included here since I couldn't verify it is still current].* (Imepigwa marufuku hapa kwa sababu sikuweza kuthibitisha kama bado ni ya sasa).]

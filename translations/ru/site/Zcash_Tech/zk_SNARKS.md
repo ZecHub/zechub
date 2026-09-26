@@ -161,7 +161,7 @@ Sha256 — это один из примеров хеш-функции, кото
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Требует доверенной настройки, но имеет очень короткие доказательства, которые можно быстро проверить.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK): Универсальная доверенная настройка.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Универсальная доверенная настройка.
 
 [DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Не требуют доверенной настройки, но создают немного более длинные доказательства или могут потребовать больше времени для работы прувера.
 

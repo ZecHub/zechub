@@ -75,7 +75,7 @@
 
 ### Ezcash
 محفظة Zcash متعددة المنصات، سهلة الاستخدام وكاملة الميزات، مع دعم autoshielding.  
-[زيارة](https://blog.nerdbank.net/ezcash-app)
+[زيارة](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 محفظة Zcash تركّز على Orchard ومبنية لـ Zebrad، وتدعم المعاملات المحمية بالكامل وإدارة المفاتيح الآمنة.  
@@ -191,7 +191,7 @@
 ### Zecsite
 موقع ثابت يركز على الخصوصية ويجمع أخبار Zcash، والإحصاءات، والمحتوى التعليمي من دون استخدام JavaScript.
 
-[زيارة](https://zecsite/org)
+[زيارة](https://zecsite.org/netscape/en/index.html)
 
 [المنتدى](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

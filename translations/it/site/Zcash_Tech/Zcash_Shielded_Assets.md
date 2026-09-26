@@ -80,7 +80,7 @@ Ogni asset riceve un **Asset Identifier** univoco, derivato dalla chiave di emis
 
 **Esegui la demo tu stesso!**
 
-Clona il repository zcash-tx-tool: <https://github.com/QED-it/zcash_tx_tool>
+Clona il repository zcash-tx-tool: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash Improvement Proposals (ZIP)
 

@@ -10,7 +10,7 @@ Chọpụta ngwaọrụ, obere akpa ego, ngwa, ọba akwụkwọ na usoro okike 
 Akwụkwọ ọrụ agụmakwụkwọ nke ndị Zcash zuru ụwa ọnụ mepụtara. 
 [Ịga leta ya .](https://github.com/massadoptionorg/My-First-Zcash)
 
-### ZECKwupụta ihe ndị a na-eme n'akwụkwọ.
+### ZECPublish
 Mgbasa mgbasa ozi Zcash na-eguzogide ọgwụ, nke a kwadoro site na blockchain. Gụnyere ndekọ aha ndị ọrụ Zcash yana bọọdụ ozi amaghị ama. 
 [Ịga leta ya .](https://www.zecpublish.com)
 
@@ -42,7 +42,7 @@ Nchịkọta ihe nkiri nke nzuzo na-azụ, mepụta ma nye nkwado AV afọ ofufo
 Ọdịnaya agụmakwụkwọ ahaziri maka ndị ọrụ Zcash ọhụrụ na ndị mmepe. 
 [Ụlọ Nzukọ ahụ](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
-### Zectastic (nke na-eme ka mmadụ dị ndụ)
+### Zectastic
 Ebe nrụọrụ mmekọrịta na-egosi egwuregwu Zcash nwere isiokwu yana ihe omume obodo dị ndụ. 
 [Ịga leta ya .](https://zectastic.com/)
 
@@ -75,7 +75,7 @@ Community-focused grants dashboard designed to simplify how Zcash grants are dis
 
 ### Ezcash
 Mfe iji, zuru ezu-apụta multiplatform Zcash wallet na autoshielding support. 
-[Ịga leta ya .](https://blog.nerdbank.net/ezcash-app)
+[Ịga leta ya .](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Obere obere akpa ego Nozy Wallet
 Orchard-focused Zcash wallet built for Zebrad, supporting fully shielded transactions and secure key management.  
@@ -89,7 +89,7 @@ Orchard-focused Zcash wallet built for Zebrad, supporting fully shielded transac
 Open-source nzuzo wallet maka Zcash na Penumbra. Mgbatị ihe nchọgharị nwere nkwenye ndị ahịa, nyochaa ngwa ọrụ ọkụ nke onye ahịa, ntinye aka oyi, FROST multisig, yana igodo nlele anaghị ahapụ ngwaọrụ ahụ. 
 [Ịga leta ya .](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
-### ZGo (nke a na-akpọ)
+### ZGo
 Ndebanye aha Zcash nke na-enyere ndị ahịa aka ịnabata ịkwụ ụgwọ Zcash. 
 [Ịga leta ya .](https://zgo.cash)
 
@@ -101,7 +101,7 @@ Usoro nkwụnye ego nke igwe (MPP) maka Zcash. Ezubere ya maka ndị ọrụ AI 
 Discord bot na-enye ohere enweghị nsogbu ma nwee nchekwa maka azụmahịa Zcash. 
 [Ịga leta ya .](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
-### ZODL (n'asụsụ Bekee)
+### ZODL
 Flagship Zcash wallet from ZODL (formerly Zashi). Available on iOS and Android. Supports shielded ZEC and NU7 coinholder voting.  
 [Ịga leta ya .](https://zodl.app/)
 
@@ -113,7 +113,7 @@ Privacy-focused Zcash wallet designed for simple and private ZEC transactions.
 Ihe mgbaru ọsọ-dabeere ego wallet wuru na Zcash shielded azụmahịa. 
 [Ụlọ Nzukọ ahụ](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
-### Zkool (ụlọ akwụkwọ)
+### Zkool
 Onye nọchiri Ywallet na-akwado atụmatụ Zcash protocol kachasị ọhụrụ gụnyere Orchard. 
 [Ụlọ Nzukọ ahụ](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
@@ -121,7 +121,7 @@ Onye nọchiri Ywallet na-akwado atụmatụ Zcash protocol kachasị ọhụr�
 Akpa ego desktọọpụ dị mfe maka Zcash nke edere na Rust. 
 [Ụlọ Nzukọ ahụ](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
-### Akpa ego Gem
+### Gem Wallet
 Multi-chain, open source, ego nchekwa onwe onye nke na akwado izipu, ịnata, na ịgbanwere ZEC. 
 [Ịga leta ya .](https://gemwallet.com/)
 
@@ -163,7 +163,7 @@ Onye nyocha Zcash zuru oke site na Nighthawk Apps.
 Nchọgharị dabeere na Zcash Unified Address parser maka inyocha adreesị dị n'otu. 
 [Ịga leta ya .](https://zcash.space/)
 
-### ZecMap (n'asụsụ Bekee)
+### ZecMap
 Map ụwa nke ụlọ ọrụ na ebe ndị nabatara Zcash. 
 [Ịga leta ya .](https://zecmap.com/)
 
@@ -171,7 +171,7 @@ Map ụwa nke ụlọ ọrụ na ebe ndị nabatara Zcash.
 Ngwá ọrụ iji lelee oge nzaghachi gRPC nke Zcash Lightwalletd nodes. 
 [Ịga leta ya .](https://github.com/emersonian/zecping)
 
-### ZecStats (n'asụsụ Bekee)
+### ZecStats
 Dashboard maka oge-ezigbo usoro nchịkọta netwọk Zcash na metrics nchebe. 
 [Ịga leta ya .](https://zecstats.com)
 
@@ -179,7 +179,7 @@ Dashboard maka oge-ezigbo usoro nchịkọta netwọk Zcash na metrics nchebe.
 Nchịkọta na data metrics ngwá ọrụ maka Zcash ahịa price arụmọrụ. 
 [Ịga leta ya .](https://zecprice.com)
 
-### Zlink (ihe na-adịghị mma)
+### Zlink
 Nchịkọta maka ịchọta njikọ, ngwaọrụ na ozi gbasara usoro okike Zcash. 
 [Ịga leta ya .](https://zlink.click)
 
@@ -191,7 +191,7 @@ Ahịa nzuzo nke mbụ na gburugburu ebe obibi Zcash. A na-akwụ ụgwọ ozugb
 ### Zecsite
 Ebe nrụọrụ weebụ na-elekwasị anya nzuzo nke nchịkọta akụkọ Zcash, ọnụ ọgụgụ, na ọdịnaya agụmakwụkwọ n'ejighị JavaScript.
 
-[Ịga leta ya .](https://zecsite/org)
+[Ịga leta ya .](https://zecsite.org/netscape/en/index.html)
 
 [Ụlọ Nzukọ ahụ](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
@@ -220,7 +220,7 @@ Mgbatị nchọgharị nke na-agbanwe ọnụahịa ego fiat ka ZEC n'oge dị a
 Ihe ngosi nkwupụta na-enweghị aha nke Zcash nzuzo kwadoro. 
 [Ịga leta ya .](https://shieldedwall.org/)
 
-### Ihe mkpofu ahịhịa .
+### Ztrash
 Igbe mbata ozi-e a na-ewepu ewepụ nke akwụ ụgwọ maka ZEC echekwara. 
 [Ịga leta ya .](https://ztrash.com/)
 
@@ -291,7 +291,7 @@ Zcash-native DEX nke na - eweta ZEC echedoro n'ime Web3 DeFi site na WalletConne
 Decred bụ mgbanwe na-enweghị isi nke na-akwado Zcash. 
 [Ịga leta ya .](https://dex.decred.org)
 
-### Akpa ego obi ike .
+### Brave Wallet
 Akpa ego nchọgharị nwere nkwado Zcash. 
 [Ịga leta ya .](https://brave.com/wallet/)
 

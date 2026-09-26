@@ -70,7 +70,7 @@ Orchard kwa kiasi kikubwa kuboreshwa usability, ufanisi na faragha kwa kupunguza
 
 Tangu Ironwood kuboresha kuanzishwa tarehe 28 Julai 2026, ** Orchard ni kutumia tu. Hakuna thamani mpya inaweza kuingia bwawa. Fedha tayari uliofanyika kuna bado unaweza kutumika, na ni wakihamia nje katika Ironwood kupitia turnstile ya. pochi kushughulikia hii kwa ajili yenu, ingawa wengi kukupa baadhi ya udhibiti juu ya kasi.
 
-Kama wewe kushikilia Orchard fedha, angalia [Mti wa chuma](/zcash-tech/ironwood) kwa maana ya uhamiaji katika mazoezi.
+Kama wewe kushikilia Orchard fedha, angalia [Ironwood](/zcash-tech/ironwood) kwa maana ya uhamiaji katika mazoezi.
 
 ____
 
@@ -90,7 +90,7 @@ Zcash Sapling inaruhusu watumiaji kufanya shughuli binafsi katika sekunde chache
 
 Transaction shielding enhances privacy, making it impossible for third-parties to link transactions and determine the amount of ZEC being transferred. Sapling also improves usability by reducing the computational requirements for generating private transactions by making it more accessible to users.
 
-Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (YWallet, Zingo Wallet Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
+Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
 
 ____
 
@@ -162,7 +162,7 @@ Nini hii ina maana inategemea ambapo fedha yako ni:
 
 > **One faragha tahadhari thamani ya kujua.** turnstile kuchapisha * kiasi cha kwamba kuvuka kati ya mabwawa, pamoja na block urefu. mtumaji na mpokeaji kubaki siri kama siku zote, lakini kipekee kiasi inaweza kuwa wanaohusishwa nyuma yenu. Hii ni kwa nini pochi kuhamia katika hatua kutumia majina standard badala ya kusonga mizani yako katika moja kutambulika lump. basi mkoba wako kasi yenyewe, na kufikiria kutumia Tor au VPN hivyo IP yako si amefungwa kwa kiasi wewe hoja.
 
-Ona habari hii. [Mti wa chuma](/zcash-tech/ironwood) kwa ajili ya kuboresha yenyewe, na [Mzunguko wa Kioo cha Gari-Moshi](/zcash-tech/the-turnstile) kwa jinsi ya uhasibu kazi.
+Ona habari hii. [Ironwood](/zcash-tech/ironwood) kwa ajili ya kuboresha yenyewe, na [Mzunguko wa Kioo cha Gari-Moshi](/zcash-tech/the-turnstile) kwa jinsi ya uhasibu kazi.
 
 <br/>
 
@@ -171,7 +171,7 @@ Ona habari hii. [Mti wa chuma](/zcash-tech/ironwood) kwa ajili ya kuboresha yeny
 - ** Kutuma kutoka t-anwani ya T anwani**  umma kabisa, hakuna faragha. Daima kulinda fedha kwanza.
 - ** Kwa kudhani Orchard bado inakubali fedha**  ni matumizi tu tangu 28 Julai 2026. Thamani inaweza kuondoka, lakini hakuna kitu kipya kinachoingia.
 - **Kufanya kuchanganyikiwa kwa Sapling na Unified anwani**  Anwani za Sapling kuanza na `zs`. Unified anwani kuanza na `u1` na mfuko wapokeaji kadhaa, hivyo pool malipo yako ardhi katika inategemea ambayo mapokezi kwamba anwani hubeba
-- ** Kuondoka fedha katika shina pool**  Chipukizi imekuwa deprecated kwa miaka; hoja hizo fedha nje
+- **Kuacha fedha kwenye bwawa la Sprout** — Sprout imeacha kutumika kwa miaka mingi; kuhamisha fedha hizo
 - ** Kutarajia uhamiaji kuwa kabisa asiyeonekana**  kiasi kuvuka turnstile ni umma, hata kama mtumaji na mpokeaji si wazi.
 - ** Kufikiria t → z (kuzuia) ni binafsi kabisa**  kitendo cha kuzuia yenyewe inaonekana kwenye mnyororo; yaliyomo si
 
@@ -179,7 +179,7 @@ Ona habari hii. [Mti wa chuma](/zcash-tech/ironwood) kwa ajili ya kuboresha yeny
 
 ## Kurasa Zinazohusiana
 
-- [Mti wa chuma](/zcash-tech/ironwood)  Kuboresha kwamba umba pool sasa
+- [Ironwood](/zcash-tech/ironwood)  Kuboresha kwamba umba pool sasa
 - [Mzunguko wa Kioo cha Gari-Moshi](/zcash-tech/the-turnstile)  Jinsi thamani kusonga kati ya makundi ni audited
 - [Mkoba](/using-zcash/wallets)  Ni pochi ni iimarishwe na Ironwood tayari
 - [Shughuli za biashara](/using-zcash/transactions)  Jinsi ya kutuma shughuli shielded

@@ -1,246 +1,246 @@
-# BTCPay Server pẹlu Atilẹyin Zcash: Itọsọna fifi sori ẹrọ ati isopọpọ ni kikun
+# Olùpèsè BTPay pẹ̀lú Àtìlẹ́yìn Zcash: Ìtọ́sọ́nà Kíkún fún Fífi Sílẹ̀ àti Ìṣọ̀kan
 
-BTCPay Server allows online businesses to accept cryptocurrency payments directly, without intermediaries or custodians. This guide walks you through the complete process of setting up BTCPay Server with native support for Zcash shielded payments.
+BTCPay Server gba awọn iṣowo ori ayelujara laaye lati gba awọn sisanwo cryptocurrency taara, laisi awọn alarina tabi awọn olutọju. Itọsọna yii yoo ṣe itọsọna rẹ nipasẹ gbogbo ilana ti ṣeto BTCPay Server pẹlu atilẹyin abinibi fun awọn sisanwo Zcash ti a daabobo.
 
-> Àkọsílẹ̀ yìí dá lórí bí o ṣe lè fi Zcash sínú BTCPay Server rẹ. 
-> O ṣe atilẹyin awọn iṣeto mejeeji ** full node (Zebra) ** ati ** lightwalletd-based setups **.
-
----
-
-## Àkópọ̀ Àwọn Ohun Tó Wà Nínú Ìwé Yìí
-
-- [Kí nìdí lo BTCPay Server pẹlu Zcash](#Why-Use-BTCPay-Server-with-Zcash)
-- [Báwo ni BTCPay Server ṣe ń ṣiṣẹ́](#How-BTCPay-Server-Works)
-- [Ibo La Ti Ń Fi Owó Pa Mọ́? Ta Ló Ń Ṣàkóso Àwọn Kọ́kọ́rọ́ Àdáni?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
-- [Bawo ni lati Ṣeto BTCPay Server fun gbigba Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
-  - [Gbigba BTCPay Server pẹlu atilẹyin Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Running Your Own Zcash Full Node (Zebra + Lightwalletd) ] [Ṣíṣiṣẹ Zcash Rẹ Ni Gbogbo Nọ́ọ̀dù](#Running-Your-Own-Zcash-Full-Node)
-  - [Connecting to an External lightwalletd Node (Custom Configuration)](#Connecting-to-an-External-Lightwalletd-Node)
-  - [Gbigba BTCPay Server ni Ile pẹlu Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
-- [Ṣiṣeto ohun itanna Zcash ni wiwo wẹẹbu BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
-- [Ṣíṣepọ BTCPay Server pẹ̀lú Ìkànnì Rẹ](#Integrating-BTCPay-Server-with-Your-Website)
-  - [Ìkójọpọ API](#API-Integration)
-    - [Ṣídá kókó API kan](#Generating-an-API-Key)
-    - [Àpẹẹrẹ: Ṣiṣẹda Invoice nipasẹ API](#Example-Creating-an-Invoice-via-API)
-    - [Lífi Àpótí Ìdánwò Orí Íńtánẹ́ẹ̀tì Ṣiṣẹ́](#Setting-Up-a-Webhook-Optional)
-  - [Ìkójọpọ CMS](#CMS-Integration)
-  - [Bọtini Ìsanwó tàbí Iframe](#Payment-Button-or-Iframe-No-CMS-or-API-Needed)
-- [Ìparí Àlàyé](#Conclusion)
-- [Àwọn ohun àmúṣọrọ̀](#Resources)
-
+> Ìwé yìí dá lórí bí a ṣe lè so Zcash pọ̀ mọ́ BTCPay Server rẹ. 
+> Ó ṣe àtìlẹ́yìn fún àwọn ètò **full node (Zebra)** àti **lightwalletd-based setups**.
 
 ---
 
-## Kí nìdí lo BTCPay Server pẹlu Zcash
+## Atọka akoonu
 
-Àwọn oníṣòwò orí ayélujára ti ń gba owó orí. Ó yára, ó kárí ayé, ó sì ń ṣiṣẹ́ láìsí báńkì. Èyí ń ṣe àwọn oníṣòjà àti àwọn oníbàárà láǹfààní. Àmọ́, ohun pàtàkì kan wà tí ọ̀pọ̀ èèyàn ò kíyè sí.
+- [Kí ló dé tí o fi lo BTPay Server pẹ̀lú Zcash](#Why-Use-BTCPay-Server-with-Zcash)
+- [Báwo ni BTPay Server ṣe ń ṣiṣẹ́](#How-BTCPay-Server-Works)
+- [Ibo ni a ti n tọju owo naa? Ta ni o n ṣakoso awọn bọtini ikọkọ?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
+- [Bí a ṣe le ṣètò BTPay Server fún gbígba Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
+  - [Ṣíṣe ìfiránṣẹ́ BTPay Server pẹ̀lú ìrànlọ́wọ́ Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
+  - [Ṣíṣiṣẹ́ Kún Kún Zcash Tirẹ̀ (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [Sísopọ̀ mọ́ Nódì lightwalletd kan (Ìṣètò Àṣà)](#Connecting-to-an-External-Lightwalletd-Node)
+  - [Ṣe àtìlẹ́yìn fún BTPay Server nílé pẹ̀lú Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
+- [Ṣíṣeto Plugin Zcash nínú Ìbánisọ̀rọ̀ Wẹ́ẹ̀bù BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
+- [Ṣíṣe àfikún BTPay Server pẹ̀lú ojú òpó wẹ́ẹ̀bù rẹ](#Integrating-BTCPay-Server-with-Your-Website)
+  - [Ìṣọ̀kan API](#API-Integration)
+    - [Ṣíṣẹ̀dá Kọ́kọ́rọ́ API kan](#Generating-an-API-Key)
+    - [Àpẹẹrẹ: Ṣíṣẹ̀dá Ìwé Ìsanwó nípasẹ̀ API](#Example-Creating-an-Invoice-via-API)
+    - [Ṣíṣeto Webhook kan](#Setting-Up-a-Webhook-Optional)
+  - [Ìṣọ̀kan CMS](#CMS-Integration)
+  - [Bọ́tìnì Ìsanwó tàbí Iframe](#Payment-Button-or-Iframe-No-CMS-or-API-Needed)
+- [Ìparí](#Conclusion)
+- [Àwọn ohun àlùmọ́nì](#Resources)
 
-Nigbati o ba n gbe aṣẹ kan, alabara maa n pese alaye ti ara ẹni: orukọ, adirẹsi gbigbe, ati nọmba foonu. Ti a ba ṣe isanwo nipa lilo blockchain gbangba - bii Bitcoin, Ethereum, tabi awọn owo iduroṣinṣin lori Ethereum tabi Tron - idunadura naa di mimọ nigbagbogbo fun itupalẹ.
 
-Ẹnikẹ́ni, kódà láìmọ ohun tí wọ́n pàṣẹ fún, lè:
+---
 
-- wo ìgbà tí wọ́n san owó náà àti iye tó jẹ́ 
-- láti mọ ibi tí owó náà ti wá àti ibi tí wọ́n ti lọ 
-- so adirẹsi cryptocurrency pọ̀ mọ́ ẹni gidi kan tí ó bá jẹ́ pé ó ní ìsopọ̀ kankan (fún àpẹrẹ, imeeli tí ó tú jáde tàbí orúkọ ọkọ̀ òkun)
+## Kí ló dé tí o fi lo BTPay Server pẹ̀lú Zcash
 
-Èyí túmọ̀ sí pé ohun kan ṣoṣo téèyàn bá rà lè jẹ́ ká mọ gbogbo bí ọ̀rọ̀ ìṣúnná owó oníbàárà ṣe rí.
+Iṣowo ori ayelujara n gba owo oni-nọmba kiri ayelujara ni kiakia. O yara, agbaye, o si n ṣiṣẹ laisi awọn ile ifowopamọ. Eyi ṣe anfani fun awọn oniṣowo ati awọn alabara. Ṣugbọn awọn alaye pataki kan wa ti ọpọlọpọ awọn eniyan foju kọ.
 
-ó sì tún ń ṣiṣẹ́ lọ́nà kejì pẹ̀lú. bí àdírẹ́sì oníṣòwò kan bá ti wà lórí ẹ̀rọ-ìpèsè, wọ́n á di ẹni tí a fi hàn. àwọn alátakò àti àwọn alábòójútó tí kì í ṣe ara wọn lè tọpinpin iye owó tí wọ́ n san, ìgbòkègbodò àwọn olùpèsè àti bí ètò ìṣòwò ṣe ń lọ.
+Nígbà tí a bá ń ṣe àṣẹ, oníbàárà sábà máa ń fúnni ní ìwífún nípa ara ẹni: orúkọ, àdírẹ́sì ìfiránṣẹ́, àti nọ́mbà fóònù. Tí a bá ń san owó náà nípa lílo blockchain gbogbogbòò - bíi Bitcoin, Ethereum, tàbí stablecoins lórí Ethereum tàbí Tron - ìṣòwò náà yóò hàn gbangba fún ìwádìí títí láé.
 
-### Apapo BTCPay Server ati Zcash le yanju eyi.
+Ẹnikẹ́ni, láì mọ ohun tí wọ́n pàṣẹ fún, lè:
+
+- wo ìgbà àti iye tí a san 
+- tọpinpin ibi tí owó náà ti wá àti ibi tí wọ́n lọ 
+- so àdírẹ́sì owó-orí mọ́ ẹni gidi kan tí ó bá ní ìbáṣepọ̀ kankan (fún àpẹẹrẹ, ìmeeli tí ó ti wó tàbí orúkọ ìfiránṣẹ́)
+
+Èyí túmọ̀ sí wípé ríra kan ṣoṣo lè fi gbogbo ìtàn ìnáwó oníbàárà hàn.
+
+Ó sì tún ń ṣiṣẹ́ lọ́nà mìíràn pẹ̀lú. Tí àdírẹ́sì oníṣòwò bá ti fara hàn lórí ẹ̀wọ̀n rí, wọ́n á di ẹni tí a ti tú síta. Àwọn olùdíje àti àwọn olùṣàkíyèsí ẹgbẹ́ kẹta lè tọ́pasẹ̀ iye ìsanwó, iṣẹ́ olùpèsè, àti ìṣètò ìṣàn ìṣòwò.
+
+### Àpapọ̀ BTPay Server àti Zcash lè yanjú èyí.
 
 
-BTCPay Server jẹ eto ọfẹ ati ti ko ni idojukọ fun gbigba awọn sisanwo cryptocurrency. 
-Kò sí ìsọ̀rí-ìsanwó kankan, kò sì ní owó kankan. Gbogbo owó tó bá ń wọlé ni wọ́n máa ń kó sínú àpamọ́ oníṣòwò náà. 
-Eyi le jẹ apamọwọ ti ara ẹni tabi iṣeto multisig laarin agbari kan.
+BTPay Server jẹ́ ètò ọ̀fẹ́ àti ètò tí a kò ṣe àkójọpọ̀ fún gbígba owó ìsanwó owó. 
+Kì í ṣe alárinà ìsanwó, kò sì ní owó kankan. Gbogbo ìsanwó lọ tààrà sí àpò oníṣòwò náà. 
+Èyí lè jẹ́ àpò owó ara ẹni tàbí ètò ìforúkọsílẹ̀ púpọ̀ láàárín àjọ kan.
 
-Olùpèsè náà ń bójú tó àwọn ìgbòkègbodò ìfọ̀rọ̀wérọ̀:
+Olupin naa n ṣakoso awọn iṣẹ-ṣiṣe iṣọkan:
 
-- n ṣe adirẹsi alailẹgbẹ fun aṣẹ kọọkan 
-- ó máa ń tọpinpin ìgbà tí wọ́n bá gba owó, ó sì máa ń so kókó náà mọ́ ìfilọ̀ náà 
-- ó máa ń fúnni ní ìwé-ìrírí àti ìsọfúnni 
-- ó pèsè àlàfo ìsanwó fún oníbàárà 
+- n pese adirẹsi alailẹgbẹ fun aṣẹ kọọkan 
+- tọpinpin nígbà tí a bá gba ìsanwó, ó sì so ó pọ̀ mọ́ àṣẹ náà 
+- ó fúnni ní ìwé ẹ̀rí àti ìfitónilétí 
+- pese wiwo isanwo fun alabara 
 
-Ohun gbogbo nṣiṣẹ labẹ iṣakoso ti awọn oniwun itaja, lai gbẹkẹle awọn iṣẹ ẹni-kẹta.
+Ohun gbogbo ni o n ṣakoso labẹ iṣakoso ti onile itaja naa, laisi gbigbekele awọn iṣẹ ẹni-kẹta.
 
-Zcash jẹ cryptocurrency ti a kọ lori awọn ẹri-imọ-nọmba. O ṣe atilẹyin awoṣe iṣowo ikọkọ ni kikun. 
-Nigbati o ba nlo awọn adirẹsi ideri (ti a npe ni addresses), oluranlowo, olugba, ati iye iṣowo ko han lori blockchain.
+Zcash jẹ́ owó ìtanràn tí a gbé ka orí ẹ̀rí àìmọ̀. Ó ń ṣe àtìlẹ́yìn fún àwòṣe ìṣòwò àdáni pátápátá. 
+Nígbà tí a bá ń lo àwọn àdírẹ́sì ààbò (tí a ń pè ní “àdírẹ́sì” lẹ́yìn náà), a kò fi olùránṣẹ́, olùgbà, àti iye ìṣòwò náà hàn lórí blockchain.
 
 Fun awọn ile itaja ori ayelujara, eyi tumọ si:
 
-- Olùtajà lè parí ìsanwó náà láìfi ìtàn ìṣúnná owó wọn hàn 
-- Olùtajà náà gba owó láìfi àdírẹ́sì wọn, iye tí wọ́n tà, tàbí ọ̀nà tí wọ́n gbà ṣe ọjà náà hàn 
-- Kò sí olùṣàmúlò àjèjì tó lè so owó náà mọ́ àṣẹ tàbí àwọn ìsọfúnni oníbàárà
+- Olùrà náà lè parí ìsanwó náà láìfi ìtàn ìnáwó rẹ̀ hàn 
+- Olùtajà náà gba owó láìsí pé ó tú àdírẹ́sì rẹ̀, iye títà rẹ̀, tàbí ètò ìṣòwò rẹ̀ jáde 
+- Kò sí olùwòran láti òde tí ó lè so ìsanwó pọ̀ mọ́ àṣẹ náà tàbí mọ́ dátà oníbàárà
 
-### Àpẹẹrẹ Tó Ṣeé Tẹ̀ Lé
+### Àpẹẹrẹ Tó Wúlò
 
-Olumulo kan gbe aṣẹ kan ki o yan Bitcoin tabi USDT bi ọna isanwo. 
-Wàá rí àdírẹ́sì tí wọ́n fi ń sanwó lórí ìkànnì náà, wàá sì rí iye tó yẹ kó o san. 
-Lẹ́yìn tí wọ́n bá ti sanwó náà tán, a máa ń tọ́jú àdírẹ́sì yìí sínú ẹ̀rọ alágbèéká, á sì wá di ti gbogbo èèyàn. 
-Olùdarí nìkan nílò láti so àṣẹ kan pọ̀ mọ́ adirẹsi náà láti rí ìjìnlẹ̀ àtúnyẹ̀wò pẹ̀lú gbogbo ìtàn ìsòwò rẹ̀.
+Olùlò kan pàṣẹ fún wọn, ó sì yan Bitcoin tàbí USDT gẹ́gẹ́ bí ọ̀nà ìsanwó. 
+Oju opo wẹẹbu naa n pese adirẹsi isanwo kan ati pe o n ṣafihan iye naa. 
+Lẹ́yìn tí a bá ti san owó náà tán, a ó fi àdírẹ́sì yìí pamọ́ sínú blockchain náà, yóò sì di èyí tí gbogbo ènìyàn mọ̀. 
+Olùkọlù kan gbọ́dọ̀ so àṣẹ kan pọ̀ mọ́ àdírẹ́sì náà láti lè ríran sí gbogbo ìtàn ìṣòwò rẹ̀ fún ìgbà pípẹ́.
 
-Wàyí o, ẹ fojú inú wò ó pé ohun kan náà ló ń ṣẹlẹ̀ sí Zcash. 
-BTCPay Server máa ń dá adirẹsi ààbò sílẹ̀. Olùtajà á fi owó náà ránṣẹ́. 
-Láti ojú ìwòye blockchain, kò sí nǹkan tó ṣẹlẹ̀. Kò sí ìsọfúnni fún gbogbo ènìyàn láti ṣàyẹ̀wò. 
-Olùpèsè náà gba ìdánilójú, ó so ó mọ́ àṣẹ náà, ó sì parí ìgbésẹ̀ náà.
+Wàyí o, fojú inú wo irú ipò kan náà pẹ̀lú Zcash. 
+BTCPay Server n pese adirẹsi ti a fi pamọ. Olura naa n fi isanwo ranṣẹ. 
+Láti ojú ìwòye blockchain, kò sí ohun tó ń ṣẹlẹ̀. Kò sí ìwádìí gbogbogbò láti ṣàyẹ̀wò. 
+Olùpèsè náà gba ìjẹ́rìí, ó so ó pọ̀ mọ́ àṣẹ náà, ó sì parí iṣẹ́ náà.
 
-Fún ẹnikẹ́ni tó bá wà níta, ó dà bí ẹni pé kò sí nǹkan kan tó ṣẹlẹ̀. 
-Ọ̀rọ̀ tó bọ́gbọ́n mu ni pé kí ilé ìtajà náà àti oníbàárà rẹ̀ jọ jíròrò, bó sì ṣe yẹ kó rí nìyẹn.
+Fún ẹnikẹ́ni tí kò sí nílé, ó dà bíi pé kò sí ohun tó ṣẹlẹ̀. 
+Gbogbo ọgbọn kan wa laarin ile itaja ati alabara - bi o ti yẹ.
 
-Ìdáhùn yìí kò fi ètò ìdánilójú tàbí ìmúlò ṣe pàṣán. 
-Ohun gbogbo ń ṣiṣẹ́ bákan náà pẹ̀lú àwọn owó-ìpamọ́ mìíràn, kìkì láìsí ewu dída ìsọfúnni jáde.
-
-
-
-## Bawo ni BTCPay Server ṣe n ṣiṣẹ
-
-BTCPay Server n ṣiṣẹ gẹgẹ bi afara ṣiṣe sisanwo laarin pẹpẹ e-commerce rẹ ati blockchain. Eyi ni bi iṣan naa ṣe n ṣiṣẹ:
-
-1. **Awọn onibara fi ohun ibere** lori rẹ aaye ayelujara (fun apẹẹrẹ WooCommerce, Magento, tabi eyikeyi Syeed pẹlu BTCPay isopọmọ).
-
-2. ** Ile itaja naa beere fun iwe-iṣowo owo sisan kan** lati BTCPay Server. Olùgbéejáde náà ṣe àtúnṣe iwe-ẹri kan pẹlu:
-   - Iye aṣẹ náà
-   - Àkọsílẹ̀ àkókò
-   - A Zcash Unified Address (UA) - e.g., `u1...` - tí ó ní agbóhùnmáwòrán Orchard (tí a fi ààbò ṣe) nínú gẹ́gẹ́ bí ìpilẹ̀ṣẹ̀.
-
-3. **Awọn onibara ri awọn owo oju-iwe** ati ki o rán ZEC si awọn ti pese adirẹsi.
-
-4. **BTCPay Server n ṣetọju blockchain**, ṣayẹwo isanwo naa lodi si:
-   - Iye tí a retí
-   - Adirẹsi ibi tí wọ́n ti gbà á
-   - Àmì àkókò tí wọ́n fi sàmì sí fáìlì náà
-
-5. **Nígbà tí wọ́n bá ti rí ìnáwó náà tí wọn sì fọwọ́ sí i**, BTCPay á sọ fún ilé ìtajà náà.
-
-6. **Awọn onibara gba a owo ijẹrisi.** Optionally, awọn olupin le firanṣẹ a gba nipasẹ imeeli.
-
-Gbogbo ìgbésẹ̀ yìí ló máa ń wáyé lọ́nà àkànṣe, láìsí alárinà tàbí olùtọ́jú. 
-BTCPay Server kì í ní owó kankan - ó kàn ń so ètò ìfilọ́lẹ̀ pọ̀ mọ́ blockchain lọ́nà ààbò àti ní ìkọ̀kọ̀.
-## Ibo Ni Wọ́n Ti Ń Fi Owó Pa Mọ́?
-
-BTCPay Server kì í ṣe àpòòwé, kò sì nílò kókó ìkọ̀kọ̀. 
-Gbogbo owó lọ tààràtà sí àpamọ́ oníṣòwò. Ààbò ni a rí i dájú nípa lílo ẹ̀rọ-ìmọ̀lé tí ó dá lórí wíwo kókó.
-
-### Bí Ó Ṣe Ń Ṣiṣẹ
-
-- ** A ti dá àpamọ́ owó náà sílẹ̀ ṣáájú.** 
-  Oniṣowo nlo apamọwọ Zcash ti o ṣe atilẹyin awọn bọtini wiwo - gẹgẹbi [YWallet](https://ywallet.app/installation) tàbí [Zingo!](https://zingolabs.org/).  
-  Àtòjọ tó kún rẹ́rẹ́ wà ní [ZecHub.wiki](https://zechub.wiki/wallets).
-
-- **BTCPay Server ń so pọ̀ nípasẹ̀ kókó àwòwòwò.** 
-  A view bọtini ni a ** ka-nikan bọtini **: o le ṣe awari wọle owo ati ki o ṣẹda titun gbigba awọn adirẹsi, 
-  ṣùgbọ́n kò lè ná owó. Olùgbàṣe náà kò fi àwọn ọ̀rọ̀-ìmọ́ tàbí kókó ìkọ̀kọ̀ pamọ́.
-
-- **Awọn data blockchain ti wa ni wiwọle nipasẹ a `lightwalletd` olùrànlọ́wọ́.** 
-  O le lo a gbangba node bi `https://zec.rocks`, tàbí kó o máa dá ṣiṣẹ́ `Zebra + lightwalletd` ìdìpọ̀ fún ipò ọba aláṣẹ kíkún.
-
-- **Ohun tí a bá pàṣẹ máa ń ní àdírẹ́sì kan ṣoṣo.** 
-  Awọn bọtini wiwo gba olupin laaye lati fa awọn adirẹsi Zcash ti o ni aabo tuntun fun gbogbo iwe-owo, 
-  ó máa ń jẹ́ kí wọ́n lè tọpinpin ìsanwó tí kò léwu, kò sì ní jẹ́ káwọn èèyàn lo àdírẹ́sì náà lẹ́ẹ̀kan sí i.
-
-- **O ní àṣẹ lórí owó náà.** 
-  Kódà bí wọ́n bá ṣe àdàkàdekè sí àwọn ohun èlò náà, kò sẹ́ni tó lè jí owó rẹ - ìsọfúnni nípa ìsanwó nìkan ló lè fara hàn.
-
-Àwòrán yìí ya àwọn ohun èlò ìkọ́lé kúrò lára àwọn ohun ìní tí wọ́n ń darí. 
-O le ṣe imudojuiwọn, gbigbe, tabi tun fi sori ẹrọ BTCPay Server laisi fifi eyikeyi awọn owo si eewu.
-
-## Bawo ni lati Ṣeto BTCPay Server fun Gbigba Zcash
-
-Ninu awọn abala ti tẹlẹ, a ṣalaye bi BTCPay Server ṣe n ṣiṣẹ pẹlu Zcash ati idi ti o ṣe pataki fun awọn sisanwo fifipamọ aṣiri. Bayi o to akoko lati gba ọwọ lori.
-
-Àwọn nǹkan bíi mélòó kan ló máa pinnu irú ibi tó o máa lọ:
-
-- Ǹjẹ́ o ti ní àpẹẹrẹ BTCPay Server?
-- Ṣe o fẹ lati lo lightwalletd ti gbogbo eniyan tabi ṣiṣe akopọ kikun tirẹ?
-- Ṣé server náà yóò ṣiṣẹ lórí VPS tàbí ní ilé?
-
-Orí yìí ń bo gbogbo ìṣẹ̀lẹ̀ ìṣètò tí ó wà lọ́wọ́lóde - láti ìtòlẹ́sẹẹsẹ tí ó kéré jù lọ títí dé ìmúṣẹ láìsí ìdìbò kankan.
-
-A óò jíròrò àwọn kókó wọ̀nyí:
-
-- Bii o ṣe le gbe ohun gbogbo lati ibẹrẹ lori VPS, pẹlu akopọ kikun (Zebra)
-- Bii o ṣe le ṣiṣẹ BTCPay Server ni ile lakoko ti o tọju IP rẹ farapamọ nipa lilo ** Cloudflare Tunnel **
-- Bii o ṣe le mu ati tunto atilẹyin Zcash laarin wiwo wẹẹbu BTCPay Server
-- Bii o ṣe le ṣepọ BTCPay pẹlu oju opo wẹẹbu rẹ tabi itaja ori ayelujara
+Ojutu yii ko ba adaṣe tabi lilo jẹ. 
+Ohun gbogbo n ṣiṣẹ bakanna bi pẹlu awọn owo-owo crypto miiran, laisi ewu jijo data.
 
 
-## Gbigba BTCPay Server pẹlu atilẹyin Zcash
 
-Jẹ ki a tẹsiwaju si iṣeto gangan. Ni apakan yii, a yoo fi sori ẹrọ BTCPay Server pẹlu atilẹyin Zcash - boya lori VPS tuntun tabi nipa fifi atilẹyin ZEC kun si apẹẹrẹ ti o wa tẹlẹ.
+## Báwo ni BTPay Server ṣe ń ṣiṣẹ́
 
-Ti o ba ti ni BTCPay Server ti nṣiṣẹ tẹlẹ (fun apẹẹrẹ fun BTC tabi Lightning), o ko nilo lati tun ohun gbogbo ṣe - o kan mu ohun itanna ZEC ṣiṣẹ.
+BTCPay Server n ṣiṣẹ́ gẹ́gẹ́ bí afárá ìṣiṣẹ́ ìsanwó láàárín pẹpẹ ìtajà e-commerce rẹ àti blockchain. Èyí ni bí ìṣàn náà ṣe ń ṣiṣẹ́:
 
-A yoo rin nipasẹ orisirisi awọn iṣeto, lati kere setups lilo a gbangba `lightwalletd` kókó sí àwọn ohun èlò tí ó jẹ́ olómìnira ní kíkún pẹ̀lú kókó rẹ. 
-Aṣayan ti o dara julọ da lori ipo olupin rẹ ati iye ominira ti o fẹ lati inu amayederun ita.
+1. **Oníbàárà náà pàṣẹ** lórí ojú-òpó wẹ́ẹ̀bù rẹ (fún àpẹẹrẹ WooCommerce, Magento, tàbí èyíkéyìí ìtàkùn pẹ̀lú ìṣọ̀kan BTCPay).
 
-> Àkọsílẹ̀ àfikún: 
+2. **Ile itaja naa n beere fun iwe isanwo** lati ọdọ BTPay Server. Olupin naa n ṣe iwe isanwo alailẹgbẹ pẹlu:
+   - Iye aṣẹ naa
+   - Aago kika akoko kan
+   - A Zcash Unified Address (UA) - e.g., `u1...` - èyí tí ó ní olugba Orchard (tí a dáàbò bò) nípasẹ̀ àìṣeédá.
+
+3. **Oníbàárà náà rí ojú ìwé ìsanwó** ó sì fi ZEC ránṣẹ́ sí àdírẹ́sì tí a pèsè.
+
+4. **Olùpèsè BTCPay ń ṣe àbójútó blockchain**, ó ń ṣàyẹ̀wò ìsanwó náà sí:
+   - Iye ti a reti
+   - Adirẹsi gbigba
+   - Àkókò ìforúkọsílẹ̀ ìwé-ẹ̀rí náà
+
+5. **Lẹ́yìn tí a bá ti rí ìṣòwò náà tí a sì ti fìdí rẹ̀ múlẹ̀**, BTCPay yóò sọ fún ilé ìtajà náà.
+
+6. **Oníbàárà náà gba ìjẹ́rìí ìsanwó.** Tí ó bá jẹ́ pé o bá fẹ́, olupin náà lè fi ìwé ẹ̀rí ránṣẹ́ nípasẹ̀ ìmeeli.
+
+Gbogbo ilana yii maa n waye ni **laifọwọyi**, laisi awọn alarina tabi awọn oluṣọ. 
+BTCPay Server kò ní owó kankan** - ó kàn so ètò àṣẹ mọ́ blockchain náà ní ààbò àti ní ìkọ̀kọ̀.
+## Ibo ni a ti n tọju owo naa? Ta ni o n ṣakoso awọn bọtini ikọkọ?
+
+BTPay Server kìí ṣe àpò owó, kò sì nílò àwọn kọ́kọ́rọ́ ìkọ̀kọ̀**. 
+Gbogbo owó lọ sí **tààrà** sí àpò oníṣòwò náà. A ń rí ààbò nípa lílo **àwòrán tí a fi àmì sí**.
+
+### Bó Ṣe Ń Ṣiṣẹ́
+
+- **A ti ṣẹ̀dá àpò owó náà ṣáájú.** 
+  Oníṣòwò náà ń lo àpò Zcash kan tí ó ń ṣe àtìlẹ́yìn fún àwọn kọ́kọ́rọ́ wíwo - bíi [Zkool](https://github.com/hhanh00/zkool2/) or [Àpò owó Zingo!](https://zingolabs.org/).  
+  Àkójọ gbogbo wà ní [ZecHub.wiki](https://zechub.wiki/wallets).
+
+- **Ẹ̀rọ BTCPay sopọ̀ mọ́ ara wọn nípasẹ̀ kọ́kọ́rọ́ wíwo.** 
+  Kọ́kọ́rọ́ wíwo jẹ́ **kọ́kọ́rọ́ kíkà-nìkan**: ó lè ṣàwárí àwọn ìsanwó tí ń bọ̀ kí ó sì ṣe àdírẹ́sì ìgbàwọlé tuntun, 
+  ṣùgbọ́n kò le ná owó. Olùpèsè náà kò tọ́jú àwọn gbólóhùn tàbí àwọn kọ́kọ́rọ́ ìkọ̀kọ̀.
+
+- **A le wọle si data Blockchain nipasẹ `lightwalletd` olupin.** 
+  O le lo ibi ipamọ gbogbogbo bii `https://zec.rocks`, tabi ṣiṣẹ tirẹ `Zebra + lightwalletd` àkójọpọ̀ fún gbogbo agbára ìjọba.
+
+- **Gbogbo àṣẹ ni a gba àdírẹ́sì àrà ọ̀tọ̀.** 
+  Wiwo awọn bọtini gba olupin laaye lati gba awọn adirẹsi Zcash tuntun ti a daabobo fun gbogbo iwe-owo, 
+  mu ki a le ṣe atẹle isanwo to ni aabo ati idilọwọ lilo adirẹsi.
+
+- **O ni iṣakoso kikun lori owo naa.** 
+  Bí ó tilẹ̀ jẹ́ pé wọ́n ti fi ẹ̀rọ ìpamọ́ náà sínú ewu, kò sí ẹni tí ó lè jí owó rẹ - àwọn ìsanwó nìkan ni a lè fi hàn.
+
+Apẹẹrẹ yii ya **infrastructure** kuro ninu **iṣakoso dukia**. 
+O le ṣe imudojuiwọn, gbe lọ si ibomiran, tabi tun fi BTPay Server sori ẹrọ laisi fifi owo eyikeyi sinu ewu.
+
+## Bí a ṣe le ṣètò BTPay Server fún gbígba Zcash
+
+Nínú àwọn apá tó ṣáájú, a ṣàlàyé bí BTCPay Server ṣe ń ṣiṣẹ́ pẹ̀lú Zcash àti ìdí tó fi ṣe pàtàkì fún àwọn ìsanwó ìpamọ́ ìpamọ́. Ó tó àkókò láti bẹ̀rẹ̀ iṣẹ́.
+
+Eto gangan rẹ yoo dale lori ọpọlọpọ awọn ifosiwewe:
+
+- Ṣé o ti ní àpẹẹrẹ BTCPay Server kan tẹ́lẹ̀?
+- Do you want to use a public lightwalletd or run your own full node?
+- Ṣe olupin naa yoo ṣiṣẹ lori VPS tabi ni ile?
+
+Orí yìí bo gbogbo àwọn ìṣẹ̀lẹ̀ ìṣètò lọ́wọ́lọ́wọ́ - láti àwọn ètò tó kéré sí àwọn ìgbékalẹ̀ tó ní agbára gbogbo.
+
+A yoo rin nipasẹ awọn atẹle:
+
+- Bii o ṣe le lo ohun gbogbo lati ibẹrẹ lori VPS kan, pẹlu node kikun (Zebra)
+- Bí a ṣe lè lo BTPay Server nílé nígbàtí a bá ń fi IP rẹ pamọ́ nípa lílo **Cloudflare Tunnel**
+- Bii o ṣe le mu ati ṣeto atilẹyin Zcash ṣiṣẹ ninu wiwo wẹẹbu BTCPay Server
+- Bii o ṣe le ṣepọ BTPay pẹlu oju opo wẹẹbu tabi ile itaja ori ayelujara rẹ
+
+
+## Ṣíṣe ìfiránṣẹ́ BTPay Server pẹ̀lú ìrànlọ́wọ́ Zcash
+
+Ẹ jẹ́ ká tẹ̀síwájú sí ètò gidi náà. Nínú abala yìí, a ó fi BTPay Server pẹ̀lú àtìlẹ́yìn Zcash sílẹ̀ - yálà lórí VPS tuntun tàbí nípa fífi àtìlẹ́yìn ZEC sí àpẹẹrẹ kan tó wà tẹ́lẹ̀.
+
+Tí o bá ti ní BTPay Server tó ń ṣiṣẹ́ (fún àpẹẹrẹ BTC tàbí Lightning), o kò nílò láti tún gbogbo nǹkan ṣe - o kan mú kí àfikún ZEC ṣiṣẹ́.
+
+A ó rìn lórí onírúurú ìṣètò, láti àwọn ètò tó kéré jùlọ nípa lílo gbogbogbòò `lightwalletd` node sí àwọn ìfisípò tí ó ní gbogbo agbára pẹ̀lú node tí ó ní gbogbo agbára tirẹ̀. 
+Aṣayan ti o dara julọ da lori ipo olupin rẹ ati iye ominira ti o fẹ lati awọn amayederun ita.
+
+> Àwọn ìwé àfikún àṣẹ: 
 > [https://github.com/btcpay-zcash/btcpayserver-zcash-plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 >
-> ** Ìkìlọ̀ - àpò kan fún ẹ̀dà kọ̀ọ̀kan:** 
-> Àwápá Zcash ńlo **one shared wallet** káàkiri **all stores** nínú àpẹẹrẹ BTCPay. 
-> Ti o ba gbalejo ọpọlọpọ awọn ile itaja ominira lori apẹẹrẹ kan, wọn yoo pin apamọwọ Zcash kanna. 
-> Lo àwọn ẹ̀dà tó yàtọ̀ tí o bá nílò ìyàsọ́tọ̀ àpamọ́wọ́ tó le.
+> **Ìkìlọ̀ - àpò owó kan fún àpẹẹrẹ kan:** 
+> Àfikún Zcash náà ń lo **àpò owó kan tí a pín** káàkiri **gbogbo àwọn ilé ìtajà** nínú àpẹẹrẹ BTPay. 
+> Tí o bá ń ṣe àtìlẹ́yìn fún ọ̀pọ̀lọpọ̀ àwọn ilé ìtajà olómìnira lórí àpẹẹrẹ kan, wọn yóò pín àpò Zcash kan náà. 
+> Lo awọn apẹẹrẹ lọtọ ti o ba nilo iyasọtọ ti o muna ti apamọwọ.
 
 ---
 
-### Àtòjọ VPS tí a dábàá
+### Iṣeto VPS ti a ṣeduro
 
 Ṣaaju ki o to fi sori ẹrọ, rii daju pe o ni:
 
 - VPS kan pẹlu **Ubuntu 22.04+**
-- Orukọ ìkápá tí ó tọka sí adirẹsi IP ààrò rẹ (nípasẹ̀ DNS)
-- `git`, `docker`, àti `docker-compose` tí wọ́n fi sípò
-- SSH ìwífún sí àwọn ìránṣẹ́
+- Orúkọ ìkápá kan tí ó tọ́ka sí àdírẹ́sì IP ti olupin rẹ (nípasẹ̀ DNS)
+- `git`, `docker`, àti `docker-compose` ti fi sori ẹrọ
+- Wiwọle SSH si olupin naa
 
 ---
 
-## Mímúra Serveri Rẹ sílẹ̀ (ìpín tí a fi pamọ́)
+## Ngbaradi olupin rẹ (apakan ti o farasin)
 
 <details>
   <summary>Click to expand</summary>
 
-Lati gbe BTCPay Server pẹlu atilẹyin Zcash, iwọ yoo nilo awọn atẹle:
+Láti lo BTPay Server pẹ̀lú àtìlẹ́yìn Zcash, o nílò àwọn wọ̀nyí:
 
 ### 1. VPS pẹlu Ubuntu 22.04 tabi tuntun
 
-A dábàá pé kí o lo ìfiwéra tí ó kéré jùlọ ti Ubuntu Server 22.04 LTS. 
-Ẹnikẹ́ni tó bá ń pèsè VPS tí ó ní àdírẹ́sì IP tí a yà sọ́tọ̀ yóò ṣiṣẹ́. 
+A gbani nimọran lilo fifi sori ẹrọ ti o kere ju ti **Ubuntu Server 22.04 LTS**. 
+Olupese VPS eyikeyi ti o funni ni adiresi IP ti a yasọtọ yoo ṣiṣẹ. 
 
-**Àwọn ohun tí ó kéré jù lọ tí a nílò**: 
-- 2 àwọn ẹ̀yà CPU 
-- 4 GB RAM 
-- 40 GB àyè disk 
+**Awọn ibeere ti o kere ju**: 
+- Awọn koko CPU meji 
+- Ramu 4 GB 
+- Ààyè díìsìkì 40 GB 
 
-Ìtòlẹ́sẹẹsẹ yìí tó bí o bá ń lo lightwalletd fún Zcash. 
-Ti o ba gbero lati ṣiṣẹ ** kikun Zcash node **, iwọ yoo nilo ** o kere ju 300 GB ** ti aaye disk ọfẹ.
-
----
-
-### 2. Orukọ ìkápá tí ó tọka sí ààrò rẹ
-
-Ninu awá" n DNS olupese ká dasibodu, á1£áo1da a `A` àkọsílẹ̀ fún ìsókè àkànṣe 
-(e.g. `btcpay.example.com`) ti o tọka si adirẹsi IP VPS rẹ. 
-
-A ó lo ìkápá yìí láti wọlé sí BTCPay Server láti inú aṣàwákiri 
-àti láti dá ẹ̀rí SSL sílẹ̀ lóòrèkóòrè nípasẹ̀ Let's Encrypt.
+Eto yii to ti o ba nlo lightwalletd fun Zcash. 
+Tí o bá fẹ́ lo **kikun Zcash node**, o nílò **ó kéré tán 300 GB** ti ààyè disk ọ̀fẹ́.
 
 ---
 
-### 3. SSH ìwífún sí àwọn server
+### 2. Orúkọ ìkápá tí ó tọ́ka sí olupin rẹ
 
-Lati fi BTCPay Server sori ẹrọ, o gbọdọ sopọ si VPS rẹ nipasẹ SSH. 
-Láti orí òpó rẹ, tẹ̀lé:
+Nínú Dasibodu olupese DNS rẹ, ṣẹ̀dá `A` ṣe igbasilẹ fun subdomain kan 
+(e.g. `btcpay.example.com`) tó tọ́ka sí àdírẹ́sì IP VPS rẹ. 
+
+A o lo domain yi lati wọle si BTPay Server lati ẹrọ aṣawakiri 
+àti láti ṣe àgbékalẹ̀ **ẹ̀rí SSL ọ̀fẹ́** láìfọwọ́sí nípasẹ̀ Let's Encrypt.
+
+---
+
+### 3. Wiwọle SSH si olupin naa
+
+Láti fi BTPay Server sori ẹrọ, o gbọdọ sopọ mọ VPS rẹ nipasẹ SSH. 
+Láti inú ẹ̀rọ ìṣiṣẹ́ rẹ, ṣiṣẹ́:
 
 `ssh root@YOUR_SERVER_IP`
 
-Ti o ba lo macOS, Linux, tabi WSL lori Windows, SSH ti wa tẹlẹ ninu ebute naa.
-Ní orí Windows, lo SSH oníṣe bíi PuTTY.
+Tí o bá ń lo macOS, Linux, tàbí WSL lórí Windows, SSH ti wà ní ẹ̀rọ ìṣiṣẹ́ náà.
+Lórí Windows lásán, lo oníbàárà SSH bíi **PuTTY**.
 
 ---
 
-### 4. Fi Git, Docker, ati Docker Kọ sori ẹrọ
+### 4. Fi Git, Docker, àti Docker Compose sori ẹrọ
 
-Lẹ́yìn tí o bá ti so pọ̀ nípasẹ̀ SSH, ṣe àtúnṣe àwọn ìdìpọ̀ ètò rẹ kí o sì fi àwọn ohun èlò tí ó yẹ sínú rẹ:
+Ni kete ti o ba ti sopọ nipasẹ SSH, ṣe imudojuiwọn awọn idii eto rẹ ki o fi awọn paati ti o nilo sii:
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -248,18 +248,18 @@ sudo apt install git curl docker.io docker-compose-plugin -y
 sudo systemctl enable docker
 ```
 
-> Lori Ubuntu 22.04 ati tuntun, `docker-compose` kò ní sí àyè fún lílo oògùn APT.
-> Ìdìpọ̀ tí a dábàá ni `docker-compose-plugin`, tí ó pèsè àwọn `docker compose` àṣẹ (kíyèsí àlàfo dípò ìsọ̀rí).
+> Lori Ubuntu 22.04 ati tuntun, `docker-compose` láti APT ti yọ kúrò.
+> Apoti ti a ṣeduro ni `docker-compose-plugin`, eyi ti o pese `docker compose` àṣẹ (kíyèsí àlàfo dípò daaṣi).
 
-Àyíká ààrò rẹ ti ṣetan báyìí fún gbígbé BTCPay Server kalẹ̀.
+Ayika olupin rẹ ti ṣetan bayi fun fifi sori ẹrọ BTPay Server.
 
 </details>
 
 ---
 
-### Ìgbésẹ̀ 1: Ṣe Àdàkọ Àpamọ́ náà
+### Igbesẹ 1: Ṣíṣe àkójọpọ̀ náà
 
-Ṣẹda itọsọna iṣẹ kan ki o ṣe igbasilẹ BTCPay Server Docker deployment:
+Ṣẹ̀dá àkójọ ìṣiṣẹ́ kan kí o sì gba ìgbékalẹ̀ BTPay Server Docker sílẹ̀:
 
 ```
 mkdir BTCPayServer
@@ -270,9 +270,9 @@ cd btcpayserver-docker
 
 ---
 
-### Igbesẹ 2: Àwọn Àyíká Ìyípadà Ètò Àtijọ
+### Igbesẹ 2: Awọn Iyipada Ayika Tita jade
 
-Yípò `btcpay.example.com` pẹlu agbegbe rẹ gangan:
+Rọpo `btcpay.example.com` pẹlu agbegbe gidi rẹ:
 
 ```
 export BTCPAY_HOST="btcpay.example.com"
@@ -283,35 +283,35 @@ export BTCPAYGEN_REVERSEPROXY="nginx"
 export BTCPAYGEN_LIGHTNING="none"
 ```
 
-> Ti o ba gbero lati fi Monero tabi Litecoin kun nigbamii, o le ṣafikun wọn bayi:
+> Tí o bá fẹ́ fi Monero tàbí Litecoin kún un nígbà tó bá yá, o lè fi wọ́n kún un nísinsìnyí:
 
 ```
 export BTCPAYGEN_CRYPTO3="ltc"
 export BTCPAYGEN_CRYPTO4="xmr"
 ```
 
-O le fi owo tuntun kun nigbakugba nipa gbigbe awọn oniyipada ti o yẹ ati ṣiṣatunkọ iwe afọwọkọ iṣeto:
+O le fi awọn owó tuntun kun nigbakugba nipa gbigbe awọn oniyipada ti o yẹ jade ati tun ṣe igbasilẹ eto naa:
 
 `. ./btcpay-setup.sh -i`
 
-Fun itọsọna yii, a yoo fojusi lori **Zcash nikan**.
+Fún ìtọ́sọ́nà yìí, a ó dojúkọ **Zcash nìkan**.
 
 ---
 
-### Ìgbésẹ̀ 3: Ṣiṣẹ́ Ẹ̀rọ-ìfiwọlé náà
+### Igbesẹ 3: Ṣiṣẹ ẹrọ fifi sori ẹrọ naa
 
-Ṣiṣẹ́ ìkọ̀wé ìmúrasílẹ̀ láti kọ́ àti ṣíṣẹ̀ǹpútà alágbàṣe:
+Ṣiṣe iwe afọwọkọ eto lati kọ ati ifilọlẹ olupin naa:
 
 `. ./btcpay-setup.sh -i`
 
-Awọn iwe afọwọkọ yoo fi sori ẹrọ dependencies, ṣẹda awọn `docker-compose.yml`, bẹrẹ awọn iṣẹ, ati tunto `systemd`.
-Ó máa gba nǹkan bí ìṣẹ́jú márùn-ún.
+Iwe afọwọkọ naa yoo fi awọn igbẹkẹle sori ẹrọ, ṣe ina `docker-compose.yml`, bẹ̀rẹ̀ iṣẹ́, kí o sì túnṣe `systemd`.
+Èyí gba tó ìṣẹ́jú márùn-ún.
 
-Lẹ́yìn tí ó bá parí, BTCPay Server rẹ yóò wà ní:
+Ní kete tí ó bá ti parí, àpẹẹrẹ BTPay Server rẹ yóò wà ní:
 
 `https://btcpay.example.com`
 
-> Ti o ba n ṣatunṣe fifi sori ẹrọ ti o wa tẹlẹ (fun apẹẹrẹ fifi ZEC kun), rii daju lati da duro ki o tun bẹrẹ olupin pẹlu awọn eto tuntun:
+> Tí o bá ń ṣe àtúnṣe sí ètò ìṣiṣẹ́ tó wà tẹ́lẹ̀ (fún àpẹẹrẹ, fífi ZEC kún un), rí i dájú pé o dáwọ́ dúró kí o sì tún bẹ̀rẹ̀ sí í lo àwọn ètò tuntun:
 
 ```
 cd ~/BTCPayServer/btcpayserver-docker
@@ -319,85 +319,85 @@ btcpay-down.sh
 . ./btcpay-setup.sh -i
 ```
 
-Lẹhinna tẹsiwaju si abala ti o tẹle lati tunto Zcash ni wiwo wẹẹbu BTCPay Server.
+Lẹ́yìn náà, tẹ̀síwájú sí apá tó tẹ̀lé láti ṣètò Zcash nínú ìfọwọ́sowọ́pọ̀ wẹ́ẹ̀bù BTCPay Server.
 
 
 
-## Ṣiṣiṣẹ Zcash Rẹ Nọ́ọ̀dù Kíkún
+## Ṣiṣẹ́ Kún Kún Zcash Tirẹ̀
 
-Ti o ba fẹ **not** lati gbekele gbangba `lightwalletd` awọn nodu, o le gbe gbogbo nodu Zcash rẹ papọ pẹlu Lightwalletd lori olupin kanna. 
-Èyí á fún ọ ní **ìdarí-ara-ẹni-nìkan pátápátá** - kò ní sí ìfiwéra kankan, kò sì sí ìfọkàntán kankan.
-
----
-
-### Ìgbésẹ̀ 1: Rí i dájú pé o ní àyè tó pọ̀ tó lórí ẹ̀rọ alágbèéká rẹ
-
-Nọ́ọ̀dù Zcash tó kún (Zebra + Lightwalletd) ní báyìí ń béèrè **300+ GB** ti àyè disk, ó sì ń bá a lọ láti dàgbà.
-
-Ìpínyà:
-
-- Ibi ìpamọ́ ìsọfúnni Zebra blockchain: ~260-270 GB
-- Lightwalletd ìfiwéra: ~15-20 GB
-
-#### Ìpamọ́ tí a dábàá:
-
-- **400 GB+** ti o ba jẹ pe olupin naa lo **nikan** fun awọn sisanwo Zcash
-- **800 GB+** ti o ba jẹ pe olupin naa tun nṣiṣẹ BTCPay Server, PostgreSQL, Nginx, ati bẹbẹ lọ.
-
-> O dara julọ lo disiki SSD/NVMe pẹlu agbara **1 TB**, paapaa ti o ko ba gbero lati ṣajọ data nigbagbogbo.
+Tí o bá fẹ́ kí **kìí** gbẹ́kẹ̀lé gbogbo ènìyàn `lightwalletd` awọn nodes, o le gbe nodes Zcash rẹ ti o kun pẹlu Lightwalletd lori olupin kanna. 
+Èyí fún ọ ní **ìdádúró-ẹni-nípa-kíkún** - kò sí ìgbẹ́kẹ̀lé láti òde, kò sí ìgbẹ́kẹ̀lé tí a nílò.
 
 ---
 
-### Igbesẹ 2: Ṣeto Awọn iyipada Ayika
+### Igbesẹ 1: Rii daju pe o ni aaye to to fun disk
 
-Fi ohun tí ó tẹ̀lé sí àyíká rẹ láti mú kí ìtòlẹ́sẹẹsẹ ìkànnì náà ṣiṣẹ́:
+Nọ́mbà Zcash pípé kan (Zebra + Lightwalletd) lọ́wọ́lọ́wọ́ nílò ààyè díìsìkì **300+ GB**, ó sì ń tẹ̀síwájú láti dàgbàsókè.
+
+Ko ṣiṣẹ:
+
+- Ibi ipamọ data ti Zebra blockchain: ~260-270 GB
+- Atọka Lightwalletd: ~15-20 GB
+
+#### Ibi ipamọ ti a ṣeduro:
+
+- **400 GB+** tí a bá lo olupin náà **nikan** fún àwọn ìsanwó Zcash
+- **800 GB+** tí olupin náà bá tún ń lo BTPay Server, PostgreSQL, Nginx, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ.
+
+> Ó dára láti lo díìsìkì SSD/NVMe pẹ̀lú agbára **1 TB**, pàápàá jùlọ tí o kò bá ní èrò láti gé dátà déédéé.
+
+---
+
+### Igbesẹ 2: Ṣeto Awọn Oniyipada Ayika
+
+Fi àwọn nǹkan wọ̀nyí kún ètò àyíká rẹ láti mú kí ìṣètò gbogbo nódù ṣiṣẹ́:
 
 ```
 export BTCPAYGEN_EXCLUDE_FRAGMENTS="zcash"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 ```
 
-Èyí yóò kan àwọn `zcash-fullnode` ìyókù, eyi ti o se igbekale mejeeji `zebrad` àti `lightwalletd` inu BTCPay Server.
+Èyí yóò ní nínú rẹ̀ `zcash-fullnode` àfọ́, èyí tí ó ṣí àwọn méjèèjì sílẹ̀ `zebrad` àti `lightwalletd` inu BTPay Server.
 
 ---
 
-### Ìgbésẹ̀ 3: Tún Ṣiṣẹ́ Ẹ̀rọ-ìfiwọlé náà
+### Igbesẹ 3: Tun-ṣiṣẹ oluṣeto naa
 
 `. ./btcpay-setup.sh -i`
 
-Àkọsílẹ̀ náà yóò:
+Ìwé ìkọ̀wé náà yóò:
 
 * Ṣe igbasilẹ awọn aworan Docker fun Zebra ati Lightwalletd
-* Ṣeto awọn iṣẹ inu BTCPay stack
-* Sopọ ohun itanna Zcash si àdúgbò `lightwalletd` àpẹẹrẹ
+* Ṣeto awọn iṣẹ inu akopọ BTCPay
+* So afikun Zcash pọ mọ **agbegbe** `lightwalletd` àpẹẹrẹ
 
-> **Iṣakojọpọ blockchain ni kikun le gba awọn ọjọ pupọ**, paapaa lori awọn olupin VPS ti o ni orisun kekere.
-> Títí dìgbà tí ìṣọ̀kan náà bá parí, àwọn ìsanwó tí a fi ààbò bo kò ní sí.
+> **Ìṣọ̀kan blockchain kíkún lè gba ọjọ́ púpọ̀**, pàápàá jùlọ lórí àwọn olupin VPS tí kò ní ohun èlò púpọ̀.
+> Títí tí ìṣiṣẹ́pọ̀ náà yóò fi parí, àwọn ìsanwó tí a dáàbò bò kò ní sí.
 
 
-## Sopọ si Ẹrọ Lightwalletd ti ita
+## Sísopọ̀ mọ́ Nọ́ńbà Ìmọ́lẹ̀ Ìta
 
-Ní ọ̀pọ̀lọpọ̀ ìgbà, a kò nílò àkóso ara ẹni ní kíkún - àti àwọn oníṣòwò lè máà fẹ́ lo àkókò àti àyè díìsìkì tí wọ́n fi ń ṣiṣẹ́ Zcash node kan. 
-Nipa aiyipada, BTCPay Server so si a gbangba `lightwalletd` node lati ṣakoso awọn sisanwo ti o ni aabo laisi gbigba gbogbo blockchain.
+Ní ọ̀pọ̀lọpọ̀ ìgbà, a kò nílò òmìnira pátápátá - àwọn oníṣòwò sì lè má fẹ́ lo àkókò àti ààyè díìkì láti ṣiṣẹ́ ní gbogbo Zcash. 
+Nípa àìyẹ̀, BTPay Server so pọ̀ mọ́ gbogbo ènìyàn kan `lightwalletd` node láti ṣe àkóso àwọn ìsanwó tí a dáàbò bò láìgba gbogbo blockchain náà.
 
-Aṣayan ipari ti o wa ni:
+Ipari aiyipada naa ni:
 
 `https://zec.rocks:443`
 
-Sibẹsibẹ, o le tunto BTCPay Server lati sopọ si ** eyikeyi ita `lightwalletd` node**, irú bíi:
+Sibẹsibẹ, o le ṣe atunto BTPay Server lati sopọ mọ **eyikeyi ita gbangba `lightwalletd` node**, bíi:
 
 `https://lightwalletd.example:443`
 
-Apá yìí fi bí a ṣe lè ṣe èyí hàn nípa lílo ìyókù Docker àdáni.
+Apá yìí fi bí a ṣe lè ṣe èyí hàn nípa lílo **àpapọ̀ Docker àṣà**.
 
-> Àpẹẹrẹ ìtòlẹ́sẹẹsẹ kíkún pẹ̀lú gbogbo àwọn àyíká àyíka wà ní [ìpamọ́ ohun èlò](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml).  
-> Àwọn ìgbésẹ̀ tó wà nísàlẹ̀ yìí fi bí nǹkan ṣe máa ń rí hàn.
+> Àpẹẹrẹ ìṣètò pípé pẹ̀lú gbogbo àwọn oníyípadà àyíká wà nínú [ibi ipamọ afikun](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml).  
+> Awọn igbesẹ ni isalẹ fihan eto iṣẹ ti o kere ju.
 
 ---
 
-### Ìgbésẹ̀ 1: Ṣẹ̀dá Àyọkà Docker Àdáni
+### Igbesẹ 1: Ṣẹda Apakan Docker Aṣa kan
 
-Nínú àkọọ́lẹ̀ iṣẹ́ BTCPayServer rẹ, dá fáìlì àlàfo àdáni kan:
+Nínú ìwé àkójọ iṣẹ́ BTPayServer rẹ, ṣẹ̀dá fáìlì àdáni kan:
 
 ```
 cd ~/BTCPayServer/btcpayserver-docker
@@ -405,22 +405,22 @@ mkdir -p docker-compose-generator/docker-fragments
 nano docker-compose-generator/docker-fragments/zcash-lightwalletd.custom.yml
 ```
 
-Ṣafikun akoonu atẹle:
+Fi akoonu wọnyi kun:
 
 ```
 exclusive:
 - zcash
 ```
 
-Àwọn `exclusive` ó rí i dájú pé kìkì àjákù kan péré tó ní àmì kan náà (`zcash` nínú ọ̀ràn yìí) lè máa bá a lọ ní ṣíṣiṣẹ́ lẹ́ẹ̀kan náà.
-Eleyi yago fun iṣeto rogbodiyan - fun apẹẹrẹ, o ko le ṣiṣe awọn mejeeji awọn `zcash-fullnode` àlàfo ati yi aṣa ita `lightwalletd` ìyókù náà á wá pa dà síbi kan náà.
-Nípa fífi àmì sí i pé `exclusive: zcash`, BTCPay Server yoo laifọwọyi pa awọn aiyipada `zcash-fullnode` àti ti inú `lightwalletd` awọn apoti, gbigba ọ laaye lati sopọ si akopọ ita ti ara rẹ dipo.
+Àwọn `exclusive` itọsọna rii daju pe apakan kan ṣoṣo pẹlu aami kanna (`zcash` nínú ọ̀ràn yìí) lè ṣiṣẹ́ ní àkókò kan.
+Èyí ń dènà àwọn ìforígbárí ìṣètò - fún àpẹẹrẹ, o kò le ṣiṣẹ́ méjèèjì `zcash-fullnode` àfọ́ àti ìta àdáni yìí `lightwalletd` ìpín ní àkókò kan náà.
+Nípa sísàmì sí i gẹ́gẹ́ bí `exclusive: zcash`, BTPay Server yoo mu aiyipada naa kuro laifọwọyi `zcash-fullnode` àti ti inú `lightwalletd` àwọn àpótí, èyí tí ó jẹ́ kí o lè so mọ́ nódù ìta tirẹ dípò.
 
 ---
 
-### Igbesẹ 2: Ṣeto Awọn iyipada Ayika
+### Igbesẹ 2: Ṣeto Awọn Oniyipada Ayika
 
-Ní ibùdó:
+Nínú ebute naa:
 
 ```
 export BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;zcash"
@@ -429,85 +429,85 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 ---
 
-### Igbese 3: Ṣalaye Adirẹsi Nọ́ọ̀dù Àjòjì
+### Igbesẹ 3: Ṣalaye Adirẹsi Node Ita
 
-Ṣí àwọn `.env` Àkọsílẹ̀:
+Ṣí tirẹ `.env` fáìlì:
 
 `nano .env`
 
-Fi ìlà tí ó wà nísàlẹ̀ yìí kún un, tí o sì fi àlàfo tí o yàn rọ́pò URL:
+Fi ìlà tó tẹ̀lé yìí kún un, kí o sì fi ibi tí o yàn rọ́pò URL náà:
 
 `ZCASH_LIGHTWALLETD=https://lightwalletd.example:443`
 
-O lè lo:
+O le lo:
 
-* A ** gbangba node **, gẹgẹ bi awọn `https://lightwalletd.zcash-infra.com`
-* Rẹ ara-gbalejo node, deployed lọtọ lati BTCPay Server
+* **Ibi gbogbo eniyan**, bii `https://zec.rocks:443`
+* Nódù ti ara rẹ ti o gbalejo, ti a gbe lọtọ kuro ninu BTPay Server
 
-> Bí àyè òde bá `lightwalletd` kò ní sí láàyè tàbí kó pọ̀ ju bó ṣe yẹ lọ, àwọn ìsanwó tí wọ́n fi ààbò bo ara wọn yóò kùnà.
-> Fun awọn iṣẹ pataki, yan ** iduroṣinṣin ati idanwo opin ** (bi awọn aiyipada `zec.rocks`).
+> Tí ó bá jẹ́ pé òde ni `lightwalletd` di ohun tí kò sí tàbí tí ó kún fún àpọ̀jù, àwọn ìsanwó tí a dáàbò bò yóò kùnà.
+> Fún àwọn iṣẹ́ pàtàkì, yan **ìparí tí ó dúró ṣinṣin tí a sì ti fi hàn** (bíi àtúnṣe `zec.rocks`).
 
-> Fẹ́ láti gba àlejò fúnra rẹ̀ `lightwalletd`?
-> O lè lo `docker-compose.lwd.yml` láti ibi ìpamọ́ Zebra [](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml).
-> **Ìkìlọ̀:** Ìtòlẹ́sẹẹsẹ yìí kò sí lákọsílẹ̀ ní ọ̀nà ìṣàkóso, ó sì ń béèrè ìtòlẹ́sẹẹgbẹ́ TLS lọ́nà ọwọ́, àtúntò ibodè, àti ìtòlẹ̀sẹẹṣẹ firewall - tí wọ́n dábàá fún àwọn oníṣe àgbà nìkan.
+> Mo fẹ́ gbàlejò ara mi `lightwalletd`?
+> O le lo awọn `docker-compose.lwd.yml` láti inú [Ibi ipamọ Zebra](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml).
+> **Ìkìlọ̀:** A kò ṣe àkọsílẹ̀ ètò yìí ní gbangba, ó sì nílò ìṣètò TLS pẹ̀lú ọwọ́, ìfiranṣẹ́ ibùdókọ̀, àti ìṣètò ogiriina - a gbani nímọ̀ràn fún àwọn olùlò tó ti ní ìmọ̀ nípa rẹ̀ nìkan.
 
 ---
 
-### Ìgbésẹ̀ 4: Tún Ṣiṣẹ́ Ẹ̀rọ-ìfiwọlé náà
+### Igbesẹ 4: Tun-ṣiṣẹ oluṣeto naa
 
 `. ./btcpay-setup.sh -i`
 
-BTCPay Server yoo lo rẹ ti adani config ati ki o sopọ si awọn ti a ṣalaye `lightwalletd` kókó.
+BTPay Server yoo lo iṣeto aṣa rẹ ki o si sopọ mọ eyi ti a sọ tẹlẹ `lightwalletd` nodulu.
 
-Láti ìsinsìnyìí lọ, àfikún Zcash yóò máa lo ìparí ìta láti ṣe àwọn ìnáwó tí a fi ààbò bo.
+Láti ìsinsìnyí lọ, àfikún Zcash yóò lo ìparí ìta yẹn fún bíbójútó àwọn ìṣòwò tí a dáàbò bò.
 
 
-## Gbigba BTCPay Server ni Ile pẹlu Cloudflare Tunnel
+## Ṣe àtìlẹ́yìn fún BTPay Server nílé pẹ̀lú Cloudflare Tunnel
 
-Ṣe o fẹ gba awọn sisanwo Zcash lakoko ti o n gbalejo BTCPay Server lori ẹrọ ile kan - bii Raspberry Pi 5 tabi eyikeyi olupin agbegbe ** laisi IP iduroṣinṣin **? 
-O le fi ààbò tú àpẹrẹ rẹ sí orí ayélujára nípa lílo ** Cloudflare Tunnel **.
+Ṣé o fẹ́ gba owó Zcash nígbà tí o ń gbàlejò BTPay Server lórí ẹ̀rọ ilé kan - bíi Raspberry Pi 5 tàbí èyíkéyìí olupin ìbílẹ̀ **láìsí IP àìdúró kan**? 
+O le fi apẹẹrẹ rẹ han si intanẹẹti lailewu nipa lilo **Cloudflare Tunnel**.
 
-Ọna yìí ń yẹra fún fífi ojúlé ránṣẹ́, ó sì fi adirẹsi IP rẹ pamọ́ fún gbogbo ènìyàn - nígbà tí o sì ń jẹ́ kí ààrò rẹ wà nípò lórí HTTPS.
+Ọ̀nà yìí yẹra fún fífi àfikún sí ibudo àti fífi àdírẹ́sì IP gidi rẹ pamọ́ fún gbogbo ènìyàn - nígbàtí ó ń jẹ́ kí olupin rẹ lè wọlé nípasẹ̀ HTTPS.
 
-O tun ṣe iranlọwọ fun ọ ** lati yago fun idiyele ti yiyalo VPS **, eyiti o jẹ apẹrẹ ti awọn sisanwo cryptocurrency ba jẹ ẹya aṣayan dipo ipilẹ ti iṣowo rẹ.
+Ó tún ń ràn ọ́ lọ́wọ́ láti yẹra fún iye owó tí a fi ń yá VPS**, èyí tí ó dára jùlọ tí ìsanwó owó cryptocurrency bá jẹ́ ohun tí a kò lè ṣe dípò ohun tí ó jẹ́ pàtàkì nínú iṣẹ́ rẹ.
 
 ---
 
-### Ìgbésẹ̀ 1: Fi Cloudflare Tunnel sori ẹrọ
+### Igbesẹ 1: Fi Oju-ọna Cloudflare sori ẹrọ
 
-1. Ṣẹ̀dá àkọọ́lẹ̀ ní [cloudflare.com](https://www.cloudflare.com) kí o sì fi àdúgbò rẹ kún un.
-2. Lori rẹ ** ile olupin **, fi sori ẹrọ Cloudflare Tunnel:
+1. Ṣẹ̀dá àkọọ́lẹ̀ kan ní [cloudflare.com](https://www.cloudflare.com) kí o sì fi domain rẹ kún un.
+2. Lórí **olùpèsè ilé** rẹ, fi Cloudflare Tunnel sori ẹrọ:
 
 ```
 sudo apt update
 sudo apt install cloudflared --legacy
 ```
 
-3. Ṣiṣayẹwo pẹlu Cloudflare:
+3. Ṣe ìjẹ́rìísí pẹ̀lú Cloudflare:
 
 `cloudflared tunnel login`
 
-Àṣẹ yìí yóò ṣí wíńdò aṣàwákiri kan. Wọlé wọlé kí o sì fọwọ́ sí wíwọlé sí ìkápá rẹ.
-Cloudflare yóò dá ẹ̀rọ-ìmọ̀lára kan sílẹ̀ `credentials` faili pẹlu ami kan lori olupin rẹ.
+Àṣẹ yìí yóò ṣí fèrèsé ẹ̀rọ ìṣàwárí. Wọlé kí o sì fún ni láṣẹ láti wọlé sí agbègbè rẹ.
+Cloudflare yoo ṣẹda laifọwọyi `credentials` faili pẹlu ami kan lori olupin rẹ.
 
-4. Ṣẹda eefin tuntun (o le sọ ọ́ ni `btcpay` tàbí ohunkóhun mìíràn):
+4. Ṣẹ̀dá ọ̀nà tuntun kan (o le dárúkọ rẹ̀) `btcpay` tabi ohunkohun miiran):
 
 `cloudflared tunnel create btcpay`
 
-Eyi n ṣe ipilẹṣẹ `btcpay.json` fáìlì tí ó ní ìdánimọ̀ ihò àti àwọn ìforúkọsílẹ̀ - o máa nílò rẹ̀ ní ìgbésẹ̀ tó tẹ̀ lé e.
+Èyí ló ń mú kí `btcpay.json` fáìlì tó ní àmì ìdánimọ̀ àti àwọn ìwé ẹ̀rí - o máa nílò rẹ̀ ní ìgbésẹ̀ tó tẹ̀lé.
 
 ---
 
-### Ìgbésẹ̀ 2: Ṣẹ̀dá Àkọsílẹ̀ Ìṣètò Ọ̀nà Ìkọ̀rọ̀
+### Igbesẹ 2: Ṣẹda Faili Iṣeto Tunnel
 
-Ṣẹda itọsọna iṣeto (ti ko ba si tẹlẹ) ki o si ṣii faili iṣeto:
+Ṣẹ̀dá àkójọ ìṣètò (tí kò bá sí) kí o sì ṣí fáìlì ìṣètò náà:
 
 ```
 sudo mkdir -p /etc/cloudflared
 sudo nano /etc/cloudflared/config.yml
 ```
 
-Fi ìtòlẹ́sẹẹsẹ tí ó wà nísàlẹ̀ yìí sínú:
+Lẹ́ẹ̀mọ́ ìṣètò wọ̀nyí:
 
 ```
 tunnel: btcpay    # your tunnel name
@@ -521,40 +521,40 @@ ingress:
 
 #### Àlàyé:
 
-* `tunnel` - orúkọ ọ̀nà abẹ́rẹ́ tí o dá ṣáájú
-* `credentials-file` - ipa-ọna si faili ami ti a ṣẹda lakoko `cloudflared tunnel login`
-* `hostname` - ìkápá rẹ tí a forúkọsílẹ̀ pẹ̀lú Cloudflare (bíi `btcpay.example.com`)
-* `service` - adirẹsi agbegbe ti BTCPay Server rẹ (nigbagbogbo `http://127.0.0.1:80` fun Nginx)
+* `tunnel` - Orukọ oju eefin ti o ṣẹda tẹlẹ
+* `credentials-file` - ipa ọna si faili ami ti a ṣẹda lakoko `cloudflared tunnel login`
+* `hostname` - domain rẹ ti forukọsilẹ pẹlu Cloudflare (fun apẹẹrẹ `btcpay.example.com`)
+* `service` - adiresi agbegbe ti olupin BTPay rẹ (nigbagbogbo `http://127.0.0.1:80` fún Nginx)
 
-> Cloudflare yóò ṣe àgbékalẹ̀ ìsọfúnni lọ́nà tí ó ní ààbò lọ sí ààrò ilé rẹ, láìsí fífi IP ilé rẹ hàn.
+> Cloudflare yoo ṣe aṣoju ijabọ lailewu si olupin agbegbe rẹ, laisi ifihan IP ile rẹ.
 
 
-### Igbesẹ 3: Ṣafikun Àkọsílẹ DNS fún Ọ̀nà Ìkọ̀kọ̀ Rẹ
+### Igbesẹ 3: Fi Igbasilẹ DNS kun fun Oju-ọna Rẹ
 
-Lẹ́yìn tí o bá ti dá ọ̀nà náà, Cloudflare yóò fi àkọsílẹ̀ CNAME DNS kan kún un fún ìkápá rẹ.
+Lẹ́yìn tí o bá ti ṣẹ̀dá ihò ojú irin, Cloudflare máa ń fi àkọsílẹ̀ DNS CNAME kún un** láìfọwọ́kàn fún domain rẹ. Ó yẹ kí ó rí báyìí:
 
 `btcpay.example.com -> <UUID>.cfargotunnel.com`
 
-Ti o ko ba han laifọwọyi, fi sii ni ọwọ:
+Tí kò bá farahàn láìfọwọ́ṣe, fi kún un pẹ̀lú ọwọ́:
 
-1. Lọ sí [Àpótí Ìdarí Cloudflare rẹ](https://dash.cloudflare.com/)
-2. Yọ lọ sí abala **DNS**
-3. Ṣafikun igbasilẹ CNAME tuntun:
-   - ** Orúkọ**: `btcpay`
-   - Àfojúsùn: `<UUID>.cfargotunnel.com`  
-     O lè rí iye náà gan-an nínú ìwé rẹ `btcpay.json` faili tabi nipa ṣiṣe:
+1. Lọ sí ọ̀dọ̀ rẹ [Dásíbọ̀ọ̀dù Ìkùukùu](https://dash.cloudflare.com/)
+2. Lọ sí abala **DNS**
+3. Fi igbasilẹ CNAME tuntun kun:
+   - **Orúkọ**: `btcpay`
+   - **Àfojúsùn**: `<UUID>.cfargotunnel.com`  
+     O le rii iye gangan ninu rẹ `btcpay.json` faili tabi nipa ṣiṣe:
      
      `cloudflared tunnel list`
      
-   - **Ipò aṣojú**: A ti fàyè gbà á (àwọsánmà aláwọ̀ osan)
+   - **Ipo aṣoju**: Ti mu ṣiṣẹ (awọsanma alawọ ewe)
 
-> Àkọsílẹ̀ yìí ń rí i dájú pé gbogbo àwọn ìbéèrè sí `btcpay.example.com` a máa ń darí wọn nípasẹ̀ Àkọ́lé Cloudflare, tí yóò fi ojúlówó IP adirẹsi rẹ pamọ́ fún gbogbo ènìyàn.
+> Àkọsílẹ̀ yìí yóò mú kí gbogbo àwọn tó béèrè fún un mọ̀ pé `btcpay.example.com` wọ́n máa ń fi àdírẹ́sì IP rẹ pamọ́ fún gbogbo ènìyàn.
 
 ---
 
-### Igbesẹ 4: Ṣẹ̀rọ̀ Àkọ́lé lórí Ìbẹ̀rẹ̀ Ọ̀nà
+### Igbesẹ 4: Mu ọna oju irin ṣiṣẹ lori Ibẹrẹ Eto
 
-Lati jẹ ki eefin naa ṣiṣẹ laifọwọyi ni igbesoke, fi sori ẹrọ bi iṣẹ eto:
+Láti jẹ́ kí ihò ojú irin náà ṣiṣẹ́ láìfọwọ́sí nígbà tí o bá ń bẹ̀rẹ̀, fi sori ẹrọ gẹ́gẹ́ bí iṣẹ́ ètò kan:
 
 `sudo cloudflared service install`
 
@@ -565,79 +565,79 @@ sudo systemctl enable cloudflared
 sudo systemctl start cloudflared
 ```
 
-Ṣayẹwo ipo:
+Ṣe àyẹ̀wò ipò náà:
 
 `sudo systemctl status cloudflared`
 
-O yẹ ki o ri ifiranṣẹ bi `Active: active (running)` àti ìdánilójú pé `btcpay.example.com` ó wà lórí íńtánẹ́ẹ̀tì.
+O yẹ ki o wo ifiranṣẹ kan bi `Active: active (running)` àti ìfìdí múlẹ̀ pé `btcpay.example.com` wà lórí ayélujára.
 
-> Láti ìsinsìnyìí lọ, ọ̀nà náà yóò bẹ̀rẹ̀ lóòrèkóòrè ní gbogbo ìgbà tí a bá tún un ṣe, àti BTCPay Server rẹ yóò wà fún gbogbo ènìyàn - láìsí títúbọ̀-sípò àti láìfi IP gidi rẹ hàn.
+> Láti ìsinsìnyí lọ, ihò náà yóò bẹ̀rẹ̀ láìfọwọ́sí nígbàkúgbà tí a bá tún bẹ̀rẹ̀, a ó sì lè rí BTCPay Server rẹ gbà - láìsí ìfọ̀rọ̀wérọ̀ ibudo àti láìsí fífi IP gidi rẹ hàn.
 
 ---
 
-### Igbesẹ 5: Ṣẹ̀yìn ìtòlẹ́sẹẹsẹ BTCPay Server
+### Igbesẹ 5: Pari Eto BTPay Server
 
-Ti o ba fẹ fi BTCPay Server sori ẹrọ fun igba akọkọ, ṣeto agbegbe rẹ ṣaaju ṣiṣe iwe afọwọkọ iṣeto:
+Tí o bá fẹ́ fi BTPay Server sori ẹrọ fun igba akọkọ, ṣeto domain rẹ ṣaaju ṣiṣe akosile iṣeto naa:
 
 `export BTCPAY_HOST="btcpay.example.com"`
 
-Eyi ni idaniloju pe agbegbe ti o tọ ni a lo nigbati o ba n ṣe agbekalẹ ** iṣeto Nginx ** ati ** awọn iwe-ẹri SSL **.
+Èyí rí i dájú pé a lo domain tó tọ́ nígbà tí a bá ń ṣe ìṣẹ̀dá ìṣètò **Nginx** àti **àwọn ìwé-ẹ̀rí SSL**.
 
-Ti o ba ti fi BTCPay Server sori ẹrọ tẹlẹ ati pe o n ṣafikun eefin naa:
+Tí BTPay Server bá ti fi sori ẹrọ tẹlẹ tí o sì ń fi ọ̀nà ìṣàlẹ̀ kún un:
 
 ```
 cd ~/BTCPayServer/btcpayserver-docker
 . ./btcpay-setup.sh -i
 ```
 
-Ìmúrasílẹ̀ náà yóò tún àwọn ìtòlẹ́sẹẹsẹ ṣe, yóò sì lo àdúgbò tuntun.
-O yẹ ki o ni anfani lati wọle si olupin rẹ ni:
+Eto naa yoo tun awọn atunto ṣe ati lo agbegbe tuntun naa.
+O yẹ ki o ni anfani bayi lati wọle si olupin rẹ ni:
 
 `https://btcpay.example.com`
 
-> Yálà o ń lo ìkànnì tó wà fún gbogbo ènìyàn `lightwalletd` tàbí kó jẹ́ gbogbo ìlà tó wà nínú rẹ, èyí kò ní nípa lórí ojú ọ̀nà náà.
-> Gbogbo awọn ti o ni pataki ni wipe BTCPay Server ti wa ni gbigbọ lori `127.0.0.1:80` ní àdúgbò.
+> Bóyá o ń lo ohun gbogbo-gbohungbohun `lightwalletd` tàbí ojú ọpọ́n ara rẹ, èyí kò ní ipa lórí ojú ọpọ́n náà.
+> Ohun tó ṣe pàtàkì ni pé BTPay Server ń tẹ́tí sí i lórí `127.0.0.1:80` agbegbe.
 
 
-## Ṣiṣeto ohun itanna Zcash ni wiwo wẹẹbu BTCPay Server
+## Ṣíṣeto Plugin Zcash nínú Ìbánisọ̀rọ̀ Wẹ́ẹ̀bù BTCPay Server
 
-> **Ó ṣe pàtàkì fún àwọn ilé-ìtajà tí ó ní ọ̀pọ̀lọpọ̀ ilé ìtajà:** 
-> Zcash wallet ti a ṣe eto nibi jẹ **global** si apeere. Gbogbo awọn ile itaja yoo lo apamọwọ yii ayafi ti o ba ṣiṣẹ awọn apeere BTCPay lọtọ.
+> **Ṣe pàtàkì fún àwọn ètò ìtajà púpọ̀:** 
+> Àpò Zcash tí a ṣètò níbí jẹ́ **àgbáyé** fún àpẹẹrẹ náà. Gbogbo àwọn ilé ìtajà ni yóò lo àpò yìí àyàfi tí o bá lo àwọn àpẹẹrẹ BTPay ọ̀tọ̀ọ̀tọ̀.
 
-Lẹ́yìn tí o bá ti fi aṣeyọri ṣe ìmúṣiṣẹ́ BTCPay Server rẹ, o ní láti ṣe àwọn àtúnṣe díẹ̀ nípasẹ̀ àlàfo orí ayélujára admin. 
-Àkọsílẹ̀ osise náà pèsè àwọn ìtọ́ni kíkún ní èdè Gẹ̀ẹ́sì - níbí, a ó rìn nípasẹ̀ àwọn ìgbésẹ̀ pàtàkì àti dídákẹ́kọ̀ọ́ ní pàtó lórí ṣíṣàtúnṣe àfikún Zcash.
+Lẹ́yìn tí o bá ti ṣe àṣeyọrí nínú ṣíṣe àgbékalẹ̀ BTPay Server rẹ, o gbọ́dọ̀ ṣe àwọn ìṣètò ìpìlẹ̀ kan nípasẹ̀ ojú-ọ̀nà wẹ́ẹ̀bù admin. 
+Ìwé àṣẹ náà fún wa ní àwọn ìtọ́ni ní kíkún ní èdè Gẹ̀ẹ́sì - níbí, a ó rìn lórí àwọn ìgbésẹ̀ pàtàkì àti àfiyèsí pàtàkì lórí ṣíṣètò àfikún Zcash.
 
 ---
 
-### Ìgbésẹ̀ 1: Ṣíwọlé sí ojú-ọ̀nà Ìkànnì
+### Igbesẹ 1: Wọle si Oju opo wẹẹbu
 
-Ṣabẹwo si ẹda rẹ ni:
+Ṣèbẹ̀wò sí àpẹẹrẹ rẹ ní:
 
 `[https://btcpay.example.com](https://btcpay.example.com)`
 
-- Tẹ ìwásílẹ̀ olùdarí àti ọ̀rọ̀-ìfipamọ́ rẹ.
-- Bí èyí bá jẹ́ ìgbà àkọ́kọ́ tí o wọlé, a ó sọ fún ọ láti dá àkáǹtì kan.
-- Àkọsílẹ̀ àkọ́kọ́ tí o bá forúkọsílè̀ yóò gba àwọn ẹ̀tọ́ olùdarí.
+- Tẹ iwọle ati ọrọ igbaniwọle alabojuto rẹ sii.
+- Tí èyí bá jẹ́ ìgbà àkọ́kọ́ tí o bá wọlé, a ó béèrè fún ọ láti ṣẹ̀dá àkọọ́lẹ̀ kan.
+- A ó fún àkọọ́lẹ̀ àkọ́kọ́ tí o bá forúkọ sílẹ̀ ní àǹfààní ìṣàkóso láìfọwọ́sí.
 
 ---
 
-### Igbesẹ 2: Fi ohun itanna Zcash sori ẹrọ
+### Igbesẹ 2: Fi sori ẹrọ Zcash Plugin
 
-1. Ninu akojọ aṣayan akọkọ, lọ sí:
+1. Nínú àkójọ àkójọ àkọ́kọ́, lọ sí:
 
 `Plugins -> Browse Plugins`
 
-2. Ṣawari ohun itanna **Zcash (ZEC) ** Lo ọpa àwárí ti o ba jẹ dandan.
-3. Tẹ ** Fi sori ẹrọ ** ki o si jẹrisi.
+2. Wa ohun afikun **Zcash (ZEC)**. Lo ọpa wiwa ti o ba nilo.
+3. Tẹ **Fi sori ẹrọ** ki o si jẹrisi.
 
 > Tun ilana yii ṣe fun eyikeyi awọn altcoins miiran ti o mu ṣiṣẹ lakoko iṣeto olupin.
 
-Lẹ́yìn tí o bá ti fi sori ẹrọ, tẹ **Restart Server** láti tún àlẹ̀rọ̀ká ìjápọ̀ náà ṣe pẹ̀lú àwọn àfikún tó wà nídìí.
+Lẹ́yìn tí o bá ti fi sori ẹrọ, tẹ **Tun bẹrẹ olupin** láti tún bẹ̀rẹ̀ ìfọwọ́sowọ́pọ̀ pẹ̀lú àwọn afikún tí ń ṣiṣẹ́.
 
 
 ### Step 3: Connect Your Wallet via Viewing Key
 
-Lẹ́yìn tí o bá ti fi àfikún náà sori ẹrọ, abala **Zcash** tuntun kan yóò farahàn nínú ìtòlẹ́sẹẹsẹ.
+Lẹ́yìn tí o bá ti fi àfikún náà sílẹ̀, apá **Zcash** tuntun kan yóò farahàn nínú àkójọ àwọn ètò.
 
 1. Go to:
 
@@ -645,111 +645,111 @@ Lẹ́yìn tí o bá ti fi àfikún náà sori ẹrọ, abala **Zcash** tuntun k
 
 2. Paste your **Unified Full Viewing Key (UFVK)** - BTCPay will derive a Unified Address for each invoice and detect incoming shielded payments.
 
-> **Note:** Legacy Sapling viewing keys are supported, but to use Orchard/Unified Addresses you should provide a **UFVK**.
+> **Àkíyèsí:** Àwọn bọtini wíwo Legacy Sapling ni a ṣe àtìlẹ́yìn fún, ṣùgbọ́n láti lo Orchard/Unified Addresses, o yẹ kí o pèsè **UFVK**.
 
 
-   Àpẹẹrẹ ìmúra:
+   Àpẹẹrẹ ìrísí:
 
 `uview184syv9wftwngkay8d...`
 
-3. Tẹ iye kan sinu pápá gíga ìdìpọ̀
+3. Tẹ iye kan sii ni aaye giga Block
 
-* **Iṣeto igba akọkọ pẹlu apamọwọ tuntun (ọ̀rọ̀ ìkókó tuntun):** tẹ giga bulọọki Zcash lọwọlọwọ (o le ṣayẹwo rẹ ni 3xpl.com/zcash) - eyi yára si iṣawari akọkọ.
-* **Gbigbe lori olupin kanna lati iṣeto Sapling-nikan ti o jogun si Awọn adirẹsi Iṣọkan / Orchard:** fi aaye yii silẹ ni ofo.
-* **Moving your store to a new server with the same wallet/UFVK:** optionally enter the birth height - an approximate height of your store's first paid order (match the order date on 3xpl to narrow the scan). If unsure, leave it empty.
+* **Ṣètò ìgbà àkọ́kọ́ pẹ̀lú àpò owó tuntun (gbólóhùn irúgbìn tuntun):** tẹ gíga bulọọki Zcash lọ́wọ́lọ́wọ́ (o lè ṣàyẹ̀wò rẹ̀ ní 3xpl.com/zcash) - èyí mú kí wíwò àkọ́kọ́ yára.
+* **Ṣíṣí lọ sí orí ẹ̀rọ ìṣiṣẹ́ kan náà láti ìṣètò Sapling-nìkan tí ó ti wà tẹ́lẹ̀ sí Àdírẹ́sì Ìṣọ̀kan / Orchard:** fi pápá yìí sílẹ̀ lófo.
+* **Gbígbé ilé ìtajà rẹ lọ sí olupin tuntun pẹ̀lú àpò owó kan náà/UFVK:** o lè fi gíga ìbí rẹ sí i - gíga tó fẹ́rẹ̀ẹ́ tó ti ọjà àkọ́kọ́ tí ilé ìtajà rẹ san (bá ọjọ́ àṣẹ rẹ mu lórí 3xpl láti dín àwòrán náà kù). Tí kò bá dá ọ lójú, fi sílẹ̀ ní òfo.
 
-> Kì í ṣe gbogbo wallets ló ń ṣe àtìlẹ́yìn **Unified Full Viewing Key (UFVK) ** export báyìí. 
-> Àwọn àbá: 
->  [**YWallet**](https://ywallet.app/installation)  
->  [**Zingo! Wọléètì (àtúnṣe fún PC) **](https://zingolabs.org/)  
-> Ninu awọn ohun elo mejeeji, wa fun gbigbe UFVK ni apakan afẹyinti / gbigbe.
+> Not all wallets support **Unified Full Viewing Key (UFVK)** export yet.  
+> Awọn aṣayan ti a ṣeduro: 
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
+> – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
+> Nínú àwọn àpù méjèèjì, wá UFVK export nínú apá àfikún/ìtajà.
 
-Àwọn kókó wọ̀nyí ń ṣe àtìlẹ́yìn **ìyípadà adirẹsi àfọwọ́kọ**, èyí tó túmọ̀ sí:
-- Gbogbo oníbàárà ló máa ń gba àdírẹ́sì ìsanwó kan ṣoṣo.
-- Ìwọ̀n kan ṣoṣo, tó wà níṣọ̀kan lo rí
+Àwọn kọ́kọ́rọ́ wọ̀nyí ń ṣe àtìlẹ́yìn fún **yíyípo àdírẹ́sì aládàáṣe**, ìtumọ̀ rẹ̀ ni:
+- Gbogbo alabara ni a gba adirẹsi isanwo **alailẹgbẹ**
+- O ri **iwontunwonsi kanṣoṣo, ti iṣọkan**
 
-O le wa akojọ ibaramu ti o gbooro sii lori [ZecHub -> Wallets](https://zechub.wiki/wallets).
+O le wa atokọ ibamu gbooro lori [ZecHub -> Awọn apamọwọ](https://zechub.wiki/wallets).
 
-Nígbà tí gbogbo pápá bá ti kún, tẹ **Save**.
+Nígbà tí gbogbo àwọn pápá bá ti kún tán, tẹ **Fipamọ́**.
 
 ---
 
-### Ṣe àyẹ̀wò Ìṣàn Owó-ìsanwó ZEC Rẹ
+### Ṣe ìdánwò ìṣàn ìsanwó ZEC rẹ
 
-Ìkíni - àpamọ́ Zcash rẹ ti so mọ́ BTCPay Server báyìí.
+Oriire - apamọwọ Zcash rẹ ti sopọ mọ olupin BTPay bayi.
 
-Ẹ jẹ́ ká ṣe àyẹ̀wò kan:
+Jẹ ki a ṣe idanwo kan:
 
 1. Go to:
 
 `Invoices -> Create New`
 
-2. Ṣẹda iwe-owo idanwo fun iye kekere kan ni ZEC.
-3. Fi owó ránṣẹ́ láti inú àpamọ́ owó míì (kì í ṣe èyí tí a so mọ́ BTCPay).
-4. Lọgan ti a ba rii iṣowo naa, oju-iwe iwe-owo yoo ṣafihan ayẹyẹ wiwo kan.
-5. Fọwọsi pe ipo iwe-owo naa yipada si **Paid**.
+2. Ṣe ìdánwò ìwé-ẹ̀rí fún iye díẹ̀ ní ZEC.
+3. Fi owó ranṣẹ́ láti **àpò owó mìíràn** (kì í ṣe èyí tí a so mọ́ BTPay).
+4. Nígbà tí a bá ti rí ìṣòwò náà, ojú ìwé ìwé-ẹ̀rí náà yóò fi ayẹyẹ tí a lè fojú rí hàn.
+5. Jẹ́rìí sí i pé ipò ìwé-ìsanwó náà yípadà sí **Sanwó**.
 
-Ti ohun gbogbo ba ṣiṣẹ - o ṣetan lati ṣepọ awọn sisanwo ZEC sinu oju opo wẹẹbu rẹ nipa lilo API tabi awọn afikun CMS.
+Tí ohun gbogbo bá ṣiṣẹ́ - o ti ṣetán láti fi àwọn ìsanwó ZEC sínú ojú-òpó wẹ́ẹ̀bù rẹ nípa lílo àwọn afikún API tàbí CMS.
 
 
 
-## Ṣiṣẹpọ BTCPay Server pẹlu oju opo wẹẹbu rẹ
+## Ṣíṣe àfikún BTPay Server pẹ̀lú ojú òpó wẹ́ẹ̀bù rẹ
 
-Lọgan ti apamọwọ Zcash rẹ ba ti sopọ mọ BTCPay Server, o le ṣepọ eto isanwo naa sinu oju opo wẹẹbu rẹ. 
-Awọn ọna pupọ lo wa lati ṣe eyi - lati iraye si API taara si awọn ohun itanna ti o ṣetan lati lo fun awọn iru ẹrọ CMS olokiki.
-
----
-
-### Àwọn Ìpinnu Tó Wà fún Ìkórajọ
-
-- **Ìkópọ API** 
-  O tayọ fun awọn oju opo wẹẹbu ti a ṣe adani tabi awọn ọna ṣiṣe laisi CMS kan. 
-  O fun ọ ni iṣakoso kikun lori ẹda iwe-owo, titele isanwo, ati awọn iwifunni - gbogbo rẹ laarin wiwo tirẹ ati imọran. 
-  Nilo imọ siseto ipilẹ, nitorinaa iṣẹ yii ni o dara julọ nipasẹ olupilẹṣẹ rẹ.
-
-- Àwọn àfikún CMS 
-  O wa fun awọn iru ẹrọ bii ** WooCommerce **, ** PrestaShop **, ati awọn miiran. 
-  Àwọn àfikún wọ̀nyí jẹ́ kí o lè gba owó ní ìṣẹ́jú díẹ̀ - kò nílò kóòdì.
-
-- **Bọtini Ìsanwó tàbí Iframe** 
-  Ọ̀nà tó rọrùn jù lọ. 
-  Ó dára fún àwọn ojúewé ìlépa, àwọn ìkànnì àdáni, tàbí ìkànlẹ̀ èyíkéyìí tí o bá fẹ́ fi ìjápọ̀ ọrẹ tàbí ìsọfúnni ìsanwó sí.
+Nígbà tí a bá ti so àpò Zcash rẹ pọ̀ mọ́ BTCPay Server, o lè fi ètò ìsanwó náà sínú ojú òpó wẹ́ẹ̀bù rẹ. 
+Ọ̀pọ̀lọpọ̀ ọ̀nà ló wà láti ṣe èyí - láti ìwọlé API tààrà sí àwọn afikún tí a ti ṣetán láti lò fún àwọn ìpèsè CMS olókìkí.
 
 ---
 
-### Àkójọpọ API
+### Àwọn Àṣàyàn Ìṣọ̀kan
 
-Ti o ba n lo pẹpẹ ti ara ẹni (tabi ko si CMS rara), API ni aṣayan ti o dara julọ. 
-O fun ọ ni irọrun pipe: o le ṣẹda awọn iwe-owo, tọpinpin ipo wọn, gba awọn iwifunni, ati ṣakoso iriri olumulo ni kikun.
+- **Ìṣọ̀kan API** 
+  Ó dára fún àwọn ojú-òpó wẹ́ẹ̀bù tàbí àwọn ètò tí a ṣe láìsí CMS. 
+  Ó fún ọ ní agbára kíkún lórí ṣíṣẹ̀dá ìwé-ẹ̀rí, títẹ̀lé ìsanwó, àti àwọn ìfitónilétí - gbogbo rẹ̀ wà lábẹ́ ìrísí àti ìlànà rẹ. 
+  Ó nílò ìmọ̀ ìpìlẹ̀ nípa ètò ìṣiṣẹ́, nítorí náà, olùgbékalẹ̀ rẹ ló máa ṣe iṣẹ́ yìí dáadáa jùlọ.
 
-> Àkíyèsí: Kódà àwọn àfikún CMS kan máa ń lo API lábẹ́ òrùlé, nítorí náà kíkọ API kókó jẹ́ ìgbésẹ̀ àkọ́kọ́ tí a nílò, láìka ọ̀nà ìsopọ̀ rẹ sí.
+- **Awọn afikun CMS** 
+  Ó wà fún àwọn ìkànnì bíi **WooCommerce**, **PrestaShop**, àti àwọn mìíràn. 
+  Àwọn afikún wọ̀nyí gba ọ láàyè láti gba ìsanwó láàárín ìṣẹ́jú díẹ̀ - kò sí ìbéèrè fún kíkọ.
 
-Igbese ti o tẹle: ṣe ipilẹṣẹ bọtini API fun ile itaja rẹ ki o bẹrẹ lilo [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/) láti kọ́ ìdàgbàsókè ara rẹ.
+- **Bọ́tìnì ìsanwó tàbí Iframe** 
+  Ọ̀nà tó rọrùn jùlọ. 
+  Ó dára fún àwọn ojú ìwé ìbalẹ̀, àwọn ojú ìwé wẹ́ẹ̀bù ti ara ẹni, tàbí èyíkéyìí ojú ìwé tí o fẹ́ fi ìjápọ̀ ẹ̀bùn tàbí ẹ̀rọ ìsanwó sínú.
+
+---
+
+### Ìṣọ̀kan API
+
+Tí o bá ń lo pẹpẹ àṣà kan (tàbí tí o kò bá ní CMS rárá), API ni àṣàyàn tó dára jùlọ. 
+Ó fún ọ ní ìyípadà pípé: o lè ṣẹ̀dá àwọn ìwé-ẹ̀rí, tọ́pasẹ̀ ipò wọn, gba àwọn ìfitónilétí, àti ṣàkóso ìrírí olùlò ní kíkún.
+
+> Àkíyèsí: Àní àwọn afikún CMS kan tilẹ̀ máa ń lo API lábẹ́ ìbòjú, nítorí náà ṣíṣẹ̀dá kọ́kọ́rọ́ API ni ìgbà àkọ́kọ́ tí a nílò**, láìka ọ̀nà ìṣọ̀kan rẹ sí.
+
+Igbese ti o tẹle: ṣe ipilẹ bọtini API kan fun ile itaja rẹ ki o bẹrẹ lilo [Greenfield API](https://docs.btcpayserver.org/API/Greenfield/v1/) láti kọ́ ìṣọ̀kan rẹ.
 
 
-### Ṣiṣẹda bọtini API kan
+### Ṣíṣẹ̀dá Kọ́kọ́rọ́ API kan
 
-Lati ṣepọ BTCPay Server pẹlu oju opo wẹẹbu rẹ tabi ohun elo rẹ, iwọ yoo nilo lati ṣe ipilẹṣẹ bọtini API kan.
+Láti so BTPay Server pọ̀ mọ́ ojú òpó wẹ́ẹ̀bù tàbí àpù rẹ, o ní láti ṣe àwárí kọ́kọ́rọ́ API kan.
 
-1. Ṣíwọlé sí BTCPay Server kí o sì ṣí ìtòlẹ́sẹẹsẹ oníṣe (ojú ọ̀tún òkè)
-2. Lọ sí àwọn kókó API
-3. Tẹ **Ṣẹda bọtini API tuntun**
-4. Tẹ orukọ kan wọlé fún kókó rẹ
-5. Ninu abala **Awọn igbanilaaye**, jẹ ki:
+1. Wọlé sí BTPay Server kí o sì ṣí àkójọ àṣàyàn olùlò **(igun ọ̀tún òkè)
+2. Lọ sí **Àwọn Kọ́kọ́rọ́ API**
+3. Tẹ **Ṣẹda bọtini API tuntun kan**
+4. Tẹ orukọ sii fun bọtini rẹ
+5. Nínú abala **Awọn igbanilaaye**, mu ṣiṣẹ:
    - `Can create invoice`
    - `Can view invoice`
-   - * ((Ohun tí o kò bá fẹ́) * `Can modify store settings` - tí o bá nílò àbójútó ní orílé-iṣé
+   - *(Àṣàyàn)* `Can modify store settings` - nikan ti o ba nilo iṣakoso ipele ile itaja
 
-6. Tẹ **Generate**. Àkọsílẹ̀ API ti ara ẹni rẹ yóò hàn - ṣe ẹ̀dà rẹ kí o sì tọ́jú rẹ̀ lọ́nà tí ó ní ààbò.
+6. Tẹ **Ṣẹ̀dá**. A ó fi kọ́kọ́rọ́ API ti ara ẹni rẹ hàn - daakọ rẹ kí o sì tọ́jú rẹ̀ dáadáa.
 
-> Kọ́kọ́rọ́ yìí máa ń fúnni láyè láti wo àwọn ìwé ìnáwó ilé ìtajà rẹ. 
-> Má ṣe pín in fún gbogbo ènìyàn tàbí kóo fi í hàn nínú kóòdì ẹgbẹ́ oníbàárà.
+> Kọ́kọ́ yìí fún ọ láyè láti rí àwọn ìwé-ìròyìn ilé ìtajà rẹ. 
+> Má ṣe*** pín in ní gbangba tàbí kí o fi hàn án nínú kódì ẹ̀gbẹ́ oníbàárà.
 
 ---
 
-### Àpẹẹrẹ: Ṣiṣẹda Invoice nipasẹ API
+### Àpẹẹrẹ: Ṣíṣẹ̀dá Ìwé Ìsanwó nípasẹ̀ API
 
-**Ojú-ìwòye:**
+**Ipari:**
 
 ```
 POST /api/v1/stores/{storeId}/invoices
@@ -757,7 +757,7 @@ Authorization: token {apiKey}
 Content-Type: application/json
 ```
 
-Ẹ̀ka tó ń béèrè ìbéèrè:
+**Ẹ̀bùn ìbéèrè:**
 
 ```
 {
@@ -770,82 +770,82 @@ Content-Type: application/json
 }
 ```
 
-Ìdáhùn:
+**Ìdáhùn:**
 
-Iwọ yoo gba ohun JSON pẹlu:
+O yoo gba ohun JSON kan pẹlu:
 
 * `invoiceId`
-* URL ìsanwó tí o lè fi sínú ìkànnì rẹ tàbí ránṣẹ́ sí oníbàárà
+* URL ìsanwó tí o lè fi sí ojú òpó wẹ́ẹ̀bù rẹ tàbí kí o fi ránṣẹ́ sí oníbàárà rẹ
 
-Wo gbogbo ìwé:
-[Greenfield API  Ṣẹda Iwe-iṣowo](https://docs.btcpayserver.org/API/Greenfield/v1/#operation/CreateInvoice)
-
----
-
-### Ṣiṣeto Webhook (Ohun ti o fẹ)
-
-Lati gba awọn iwifunni akoko gidi nigbati ipo iwe-owo ba yipada (fun apẹẹrẹ nigbati a ba gba isanwo kan):
-
-1. Lọ sí àwọn ìtòlẹ́sẹẹsẹ ilé-ìtajà rẹ -> **Webhooks**
-2. Ṣafikun URL ti rẹ backend opin ojuami ti yoo mu `POST` àwọn ìbéèrè láti BTCPay Server
-3. BTCPay yóò fi ìfilọ́lẹ̀ ránṣẹ́ lọ́nà ẹ̀rọ nígbàtí àkáǹtì bá ti san tàbí tí ó bá pé
-
-Webhook payloads and retry logic are described in the [official webhook documentation] Àwọn ohun èlò tí wọ́n fi ń ṣe àtúnyẹ̀wò àti àtúnṣe ojú-ọ̀nà ni a ṣàpèjúwe nínú [ìwé àkọsílẹ̀ ojú-ọ̀](https://docs.btcpayserver.org/FAQ/General/#how-to-create-a-webhook-).
-
-> Àpẹẹrẹ ìsowọ́pọ̀ wà fún oríṣiríṣi èdè ètò nínú àwọn ìwé BTCPay àti àwọn ibi ìpamọ́ GitHub.
-
-
-
-### Àkójọpọ CMS
-
-BTCPay Server n ṣe atilẹyin awọn afikun fun awọn ọna ṣiṣe iṣakoso akoonu olokiki (CMS). 
-Aṣopọpọ ti o dagba julọ ati ti a lo ni ibigbogbo jẹ pẹlu **WordPress + WooCommerce**, ṣiṣe ni rọọrun lati gba awọn sisanwo ZEC **laisi kikọ koodu**.
+Wo gbogbo ìwé àkọsílẹ̀:
+[Greenfield API – Ṣẹ̀dá Ìwé Ìsanwó](https://docs.btcpayserver.org/API/Greenfield/v1/#operation/CreateInvoice)
 
 ---
 
-#### WooCommerce (WordPress) Àwọn ojúewé tó jápọ̀ mọ́ "
+### Ṣíṣeto Webhook kan (Àṣàyàn)
 
-BTCPay Server ṣe atilẹyin ohun itanna fun WooCommerce.
+Láti gba àwọn ìfitónilétí ní àkókò gidi nígbà tí ipò ìwé-ẹ̀rí bá yípadà (fún àpẹẹrẹ nígbà tí a bá gba ìsanwó):
 
-Àwọn ìgbésẹ̀ láti kópa:
+1. Lọ sí àwọn ètò ìtajà rẹ -> **Webhooks**
+2. Fi URL ti opin opin rẹ ti yoo mu kun `POST` Àwọn ìbéèrè láti ọ̀dọ̀ BTPay Server
+3. BTPay yoo fi awọn iwifunni ranṣẹ laifọwọyi nigbati a ba san iwe-owo kan tabi ti pari
 
-1. Fi ohun itanna **BTCPay fun WooCommerce** sori ẹrọ lati inu itanna itanna WordPress tabi lati GitHub.
-2. Ninu abala aṣakoso WordPress rẹ, lọ sí:
+A ṣe àpèjúwe àwọn ẹrù ìsanwó Webhook àti ìlànà ìgbìyànjú mìíràn nínú [ìwé ìkọ̀wé wẹ́ẹ̀bù tí a fọwọ́ sí](https://docs.btcpayserver.org/FAQ/General/#how-to-create-a-webhook-).
+
+> Àpẹẹrẹ àwọn ìṣọ̀kan wà fún onírúurú èdè ìṣètò nínú àwọn ìwé BTPay àti àwọn ibi ìpamọ́ GitHub.
+
+
+
+### Ìṣọ̀kan CMS
+
+BTPay Server n ṣe atilẹyin fun awọn afikun fun awọn eto iṣakoso akoonu olokiki (CMS). 
+Ìṣọ̀kan tó dàgbà jùlọ àti èyí tí a ń lò ní gbogbogbòò ni pẹ̀lú **WordPress + WooCommerce**, èyí tó mú kí ó rọrùn láti gba ìsanwó ZEC** láìsí kíkọ kódì**.
+
+---
+
+#### WooCommerce (WordPress)
+
+BTPay Server ṣe atilẹyin fun afikun kan fun WooCommerce ni ifowosi.
+
+Awọn igbesẹ lati ṣepọ:
+
+1. Fi ohun itanna **BTCPay fun WooCommerce** sori ẹrọ lati inu itọsọna afikun WordPress tabi lati GitHub.
+2. Nínú àkójọ ìṣàkóso WordPress rẹ, lọ sí:
 
 `WooCommerce -> Settings -> Payments`
 
-3. Wá **BTCPay** nínú àkọsílẹ̀ kí o sì tẹ **Set up**
-4. Tẹ BTCPay Server rẹ URL ki o si tẹle awọn itọnisọna aṣẹ 
-   (a ṣe iṣeduro iṣelọpọ bọtini API laifọwọyi)
-5. Fún ọ̀nà ìsanwó náà àti pa àwọn àyípadà rẹ mọ́
+3. Wa **BTCPay** ninu atokọ naa ki o tẹ **Ṣeto**
+4. Tẹ URL BTPay Server rẹ sii ki o si tẹle awọn ilana aṣẹ 
+   (A ṣe iṣeduro ṣiṣẹda bọtini API laifọwọyi)
+5. Mu ọna isanwo ṣiṣẹ ki o si fi awọn eto rẹ pamọ
 
-> Detailed instructions, video tutorials, and troubleshooting guides are available in the plugin documentation.
+> Àwọn ìtọ́ni tó kún rẹ́rẹ́, àwọn ìdánilẹ́kọ̀ọ́ fídíò, àti àwọn ìtọ́sọ́nà ìṣòro wà nínú ìwé àfikún náà.
 
-O tún lè rí àwọn àtúnṣe CMS mìíràn ní apá kan náà nínú àwọn ìwé BTCPay.
-
----
-
-### Bọtini ìsanwó tàbí Iframe (Kò sí CMS tàbí API Tí a nílò)
-
-Ti o ko ba lo CMS ati pe o ko fẹ lati ṣiṣẹ pẹlu awọn API, ọna ti o rọrun julọ lati gba awọn sisanwo ZEC ni lati ** fi ọna asopọ isanwo tabi ẹrọ ailorukọ ** sii taara lori oju opo wẹẹbu rẹ.
-
-Ọ̀nà yìí dára gan-an fún:
-
-- Àwọn ojúewé ìkápá
-- Àwọn ojúewé àpapọ̀
-- Àwọn ìkànnì tàbí àwọn ojúewé tí kò yí padà
-- Awọn iṣẹ akanṣe laisi olupin afẹyinti
+O tun yoo ri awọn aṣayan isọdọkan CMS miiran ni apakan kanna ti awọn iwe BTPay.
 
 ---
 
-#### Aṣayan 1: Bọtini Ìsanwó (Àjápọ̀)
+### Bọ́tìnì Ìsanwó tàbí Iframe (Kò sí CMS tàbí API tí a nílò)
 
-1. Ninu BTCPay Server, fi ọwọ ṣẹda iwe-owo ni abala **Invoices**
-2. Ṣe àdàkọ ìjápọ̀ ìsanwó, bí àpẹẹrẹ:
+Tí o kò bá lo CMS tí o kò sì fẹ́ ṣiṣẹ́ pẹ̀lú API, ọ̀nà tó rọrùn jùlọ láti gba ìsanwó ZEC ni láti fi ìjápọ̀ ìsanwó tàbí widget** sínú ojú òpó wẹ́ẹ̀bù rẹ tààrà.
+
+Ọna yii jẹ o dara fun:
+
+- Àwọn ojú ìwé ìbalẹ̀
+- Àwọn ojú òpó portfolio
+- Àwọn bulọọgi tàbí àwọn ojú ìwé tí kò dúró
+- Àwọn iṣẹ́ àgbékalẹ̀ láìsí olupin backend
+
+---
+
+#### Àṣàyàn 1: Bọ́tìnì Ìsanwó (Ọ̀nà Ìjápọ̀)
+
+1. Nínú BTCPay Server, fi ọwọ́ ṣẹ̀dá ìwé-ìsanwó kan ní apá **Àwọn Ìwé-ìsanwó**
+2. Daakọ ọna asopọ isanwo naa, fun apẹẹrẹ:
 
 `[https://btcpay.example.com/i/abc123](https://btcpay.example.com/i/abc123)`
 
-3. Ṣafikun ìjápọ̀ sí HTML rẹ:
+3. Fi ìjápọ̀ náà kún HTML rẹ:
 
 ```
 <a href="https://btcpay.example.com/i/abc123" target="_blank">
@@ -855,43 +855,43 @@ Ti o ko ba lo CMS ati pe o ko fẹ lati ṣiṣẹ pẹlu awọn API, ọna ti o
 
 ---
 
-#### Aṣayan 2: Àkọsílẹ̀-ìṣírò tí a fi sínú (Iframe)
+#### Àṣàyàn 2: Ìwé Ìsanwó Tí A Fi Sílẹ̀ (Iframe)
 
-Lati fi iwe-owo han taara lori aaye rẹ, lo iframe kan:
+Láti fi ìwé-ẹ̀rí náà hàn tààrà lórí ojú-òpó wẹ́ẹ̀bù rẹ, lo iframe kan:
 
 `<iframe src="https://btcpay.example.com/i/abc123" width="600" height="350" frameborder="0"></iframe>`
 
-> O le ṣe aṣa bọtini tabi apoti iframe lati baamu apẹrẹ aaye rẹ - BTCPay Server gba irọrun irọrun ti oju-iwe iwe-owo.
+> O le ṣe àwọ̀ bọ́tìnì tàbí àpótí iframe láti bá àwòrán ojú òpó wẹ́ẹ̀bù rẹ mu - BTCPay Server gba àwọ̀lékè tó rọrùn láti kọ sí ojú ìwé ìwé-ìsanwó.
 
 ## Ìparí
 
-Itọsọna yii gun - ṣugbọn o bo awọn abala ipilẹ ti iṣọpọ awọn sisanwo Zcash pẹlu BTCPay Server nikan.
+Ìtọ́sọ́nà yìí gùn gan-an - ṣùgbọ́n ó kan àwọn apá ìpìlẹ̀ ti sísopọ̀ àwọn ìsanwó Zcash pọ̀ mọ́ BTCPay Server nìkan.
 
-The BTCPay Server interface offers far more functionality than we've shown here. Luckily, the UI is available in multiple languages (including Russian), making it easy to explore and experiment further.
+Ìfọwọ́sowọ́pọ̀ BTCPay Server ní iṣẹ́ púpọ̀ ju èyí tí a ti fihàn níbí lọ. Ó ṣe tán, UI wà ní ọ̀pọ̀lọpọ̀ èdè (pẹ̀lú èdè Rọ́síà), èyí tí ó mú kí ó rọrùn láti ṣe àwárí àti láti ṣe àdánwò síwájú sí i.
 
-BTCPay jẹ ohun elo ti o ni irọrun pupọ. O le:
+BTPay jẹ́ irinṣẹ́ tó rọrùn láti lò. O lè:
 
-* Gbé ọ̀pọ̀lọpọ̀ àwọn ilé ìtajà tí ó wà ní ẹyọ kan ṣoṣo
-* Ṣalaye awọn ipa ati awọn igbanilaaye aṣa fun awọn ọmọ ẹgbẹ ẹgbẹ - lati wiwo aṣẹ nikan si aṣakoso kikun
-* Lo àwọn ìkápá rẹ àti àmì ọ̀pá àṣẹ rẹ
-* Ṣeto awọn webhooks, awọn apamọwọ afẹyinti, ati paapaa iraye si Tor
-* Configure advanced settings such as tax rules, discount codes, checkout page customization, payment method restrictions, and more
+* Gbalejo ọpọlọpọ awọn ile itaja ominira lori apẹẹrẹ kan
+* Ṣàlàyé àwọn ipa àti àṣẹ àdáni fún àwọn ọmọ ẹgbẹ́ - láti ìwò àṣẹ nìkan sí ìṣàkóso gbogbogbòò
+* Lo àwọn agbègbè ìkápá àti àmì ìdánimọ̀ tirẹ
+* Ṣètò webhooks, àwọn àpò ìfowópamọ́ fallback, àti ìwọ̀lé sí Tor pàápàá
+* Ṣètò àwọn ètò ìlọsíwájú bíi àwọn òfin owó-orí, àwọn kódì ìdínkù, àtúnṣe ojú ìwé ìsanwó, àwọn ìdíwọ́ ọ̀nà ìsanwó, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ
 
-BTCPay ni a kọ gẹ́gẹ́ bí àyípadà ìmọ̀-ìmọ̀ sí àwọn olùpèsè ìsanwó tí ó wà láàrín. Bí o bá ń wá láti gba ìsúná ZEC tí kò ní alárinà kankan, pẹpẹ yìí tọ́ fún àfiyèsí rẹ.
+A ṣe BTPay gẹ́gẹ́ bí àṣàyàn orísun ṣíṣí sílẹ̀ fún àwọn olùpèsè ìsanwó àárín gbùngbùn. Tí o bá ń fẹ́ gba ìsanwó ZEC àdáni láìsí àwọn aṣojú, pẹpẹ yìí yẹ fún àfiyèsí rẹ pátápátá.
 
-A fẹ́ kí o ṣàṣeyọrí nínú wíwá BTCPay àti ṣíṣe ìsanwó rẹ ní tirẹ̀.
+A fẹ́ kí o ṣe àṣeyọrí nípa ṣíṣe àwárí ètò BTCPay àti ṣíṣe àwọn ìsanwó rẹ ní tòótọ́.
 
-## Àwọn ohun àmúṣọrọ̀
+## Àwọn ohun àlùmọ́nì
 
-* [Ojúlé Ìkànnì Ọ̀fẹ́ BTCPay Server](https://btcpayserver.org/)
-* [BTCPay FAQ](https://docs.btcpayserver.org/FAQ/)
-* [BTCPay Server GitHub Àpamọ́](https://github.com/btcpayserver/btcpayserver)
-* [BTCPay Server Mainnet Àdánwò](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
-* [Zcash Plugin fún BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
-* [Ìtọ́wọ́ọ̀wọ́ Ìsopọ Zcash Plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
-* [Àṣà zcash-lightwalletd.custom.yml Àpẹẹrẹ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker Compose File (Zebra) ] Àtúnṣe ojúewé](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
-* [BTCPay API Key Docs (Greenfield API) ](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
-* [Ṣẹ́ Àgbélébùú Àwọsánmà](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-* [Àtòjọ Àwọn Owó-ìpamọ́ Zcash (ZecHub) ](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd lórí Raspberry Pi 5 (ZecHub) ](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Oju opo wẹẹbu osise olupin BTPay](https://btcpayserver.org/)
+* [Awọn ibeere ti a maa n beere nipa BTCPay](https://docs.btcpayserver.org/FAQ/)
+* [Ibi ipamọ GitHub Server BTPay](https://github.com/btcpayserver/btcpayserver)
+* [Àfihàn Mainnet ti olupin BTPay](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
+* [Plugin Zcash fun BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+* [Ìtọ́sọ́nà Fífi sori ẹrọ Plugin Zcash](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
+* [Àpẹẹrẹ zcash-lightwalletd.custom.yml àdáni](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
+* [Fáìlì Ìkọ̀wé Docker Lightwalletd (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [Àwọn Ìwé Pàtàkì API BTCPay (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
+* [Ṣẹ̀dá Ojú Ìhò Cloudflare kan](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
+* [Àkójọ ìbáramu pẹ̀lú àpò owó Zcash (ZecHub)](https://zechub.wiki/wallets)
+* [Zebra + Lightwalletd on Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

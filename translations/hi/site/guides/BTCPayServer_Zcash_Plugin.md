@@ -125,7 +125,7 @@ BTCPay Server **wallet नहीं है** और इसे **private keys क
 ### यह कैसे काम करता है
 
 - **Wallet पहले से बनाया जाता है।**  
-  Merchant ऐसा Zcash wallet उपयोग करता है जो viewing keys को सपोर्ट करता हो - जैसे [YWallet](https://ywallet.app/installation) या [Zingo! Wallet](https://zingolabs.org/)।  
+  Merchant ऐसा Zcash wallet उपयोग करता है जो viewing keys को सपोर्ट करता हो - जैसे [Zkool](https://github.com/hhanh00/zkool2/) या [Zingo! Wallet](https://zingolabs.org/)।  
   पूरी सूची [ZecHub.wiki](https://zechub.wiki/wallets) पर उपलब्ध है।
 
 - **BTCPay Server viewing key के माध्यम से connect करता है।**  
@@ -442,8 +442,8 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 आप उपयोग कर सकते हैं:
 
-* कोई **public node**, जैसे `https://lightwalletd.zcash-infra.com`
-* आपका अपना self-hosted node, जो BTCPay Server से अलग deploy किया गया हो
+* एक **सार्वजनिक नोड**, जैसे `https://zec.rocks:443`
+* आपका अपना self-hosted नोड, जो BTCPay Server से अलग deploy किया गया हो
 
 > यदि external `lightwalletd` अनुपलब्ध हो जाए या overloaded हो जाए, तो shielded payments विफल हो जाएँगी।
 > महत्वपूर्ण services के लिए **स्थिर और भरोसेमंद endpoint** चुनें (जैसे default `zec.rocks`)।
@@ -661,7 +661,7 @@ Plugin install करने के बाद settings menu में एक न�
 
 > अभी सभी wallets **Unified Full Viewing Key (UFVK)** export को सपोर्ट नहीं करते।  
 > अनुशंसित विकल्प:  
-> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
 > दोनों apps में backup/export section में UFVK export विकल्प देखें।
 

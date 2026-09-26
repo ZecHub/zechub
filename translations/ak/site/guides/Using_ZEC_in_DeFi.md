@@ -15,14 +15,14 @@ Wɔaka Zcash ne NEAR Intents abom, na ɛma wɔn a wɔde di dwuma no tumi sesa Zc
     src="https://www.youtube.com/embed/mKVvXY4yjjA"
     title="Crosschain Swaps with Zcash x NEAR Intents"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
 ---
 
-## Mayafo Mmarahyɛ Bagua 
+## Maya Protocol 
 
 Maya Protocol aka Zcash abom de ama ne decentralization, liquidity, ne transaction kokoamsɛm ayɛ yie. Saa nkabom yi ma Zcash dwumadiefoɔ nya mfasoɔ firi decentralized swaps mu, na ɛma wɔtumi yɛ nsakraeɛ ne sika kɛseɛ berɛ a wɔkora kokoamsɛm so. Sua pii: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
 
@@ -33,7 +33,7 @@ Maya Protocol aka Zcash abom de ama ne decentralization, liquidity, ne transacti
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
     title="How to Swap Ethereum to Zcash on LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

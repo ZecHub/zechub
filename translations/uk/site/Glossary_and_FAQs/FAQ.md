@@ -1,111 +1,138 @@
 # Часті запитання
 
-Список найпоширеніших запитань про Zcash. Для усунення несправностей клієнта Zcash, будь ласка, перегляньте [офіційний посібник з усунення несправностей](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+Список найпоширеніших запитань про Zcash. Щоб усунути несправності клієнта Zcash, перегляньте [офіційний посібник з усунення несправностей](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
 ### Швидка навігація
-[Що таке Zcash?](#what-is-zcash) | [Як отримати Zcash?](#acquire) | [Відмінність від інших криптовалют?](#difference) | [Керування протоколом?](#governance) | [Де моя транзакція?](#transaction) | [Чи справді Zcash приватний?](#privacy) | [Поширені хибні уявлення](#misconceptions)
+
+<div className="flex flex-wrap gap-2 my-4">
+  <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Що таке Zcash?</a>
+  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Як я можу придбати Zcash?</a>
+  <a href="#what-is-the-difference-between-zcash-and-other-cryptocurrencies" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Відмінність від інших криптовалют?</a>
+  <a href="#how-is-the-zcash-protocol-governed" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Управління протоколом?</a>
+  <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Де моя транзакція?</a>
+  <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Чи справді Zcash приватний?</a>
+  <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Поширені хибні уявлення</a>
+</div>
 
 ---
 
 ## Що таке Zcash?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash — це цифрова валюта зі швидкими, конфіденційними транзакціями та низькими комісіями. Приватність є центральною особливістю Zcash. Вона стала піонером у використанні доказів з нульовим розголошенням для шифрування всіх транзакцій.  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Для миттєвих, мобільних, безпечних і приватних платежів доступні кілька гаманців: [Мобільні гаманці](https://z.cash/wallets/)
+Zcash — це цифрова валюта зі швидкими конфіденційними транзакціями та низькими комісіями. Приватність є центральною особливістю Zcash. Вона першою почала використовувати докази з нульовим розголошенням для шифрування всіх транзакцій.
+
+Для миттєвих, мобільних, безпечних і приватних платежів доступні кілька гаманців: [Гаманці](/using-zcash/wallets)
+
 </div>
 
-## Як я можу отримати Zcash?
+## Як я можу придбати Zcash?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Ви можете купити ZEC на криптовалютних [біржах](https://z.cash/exchanges).  
-Ви також можете придбати Zcash напряму в інших людей або отримати його шляхом майнінгу.
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+Ви можете купити ZEC на [кастодіальних біржах](/using-zcash/custodial-exchanges), [DEX](/dex) або [централізованих платформах обміну](/using-zcash/centralizedswaps).
+
+Ви також можете придбати Zcash безпосередньо в іншої людини або отримати його шляхом майнінгу.
+
 </div>
 
-## У чому різниця між Zcash та іншими криптовалютами?
+## Чим Zcash відрізняється від інших криптовалют?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash за своєю суттю є більш приватним, ніж Bitcoin або Ethereum. Він пропонує швидкий час створення блоків (75 секунд), низькі комісії та регулярні оновлення.  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Користувачі можуть обирати між **прозорими** або **захищеними** транзакціями. Для додаткової інформації дивіться [Захищена екосистема](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html).
+Zcash принципово приватніший за Bitcoin або Ethereum. Він пропонує швидкий час створення блоків (75 секунд), низькі комісії та регулярні оновлення.
+
+Користувачі можуть обирати між **прозорими** та **захищеними** транзакціями. Докладніше дивіться в [Захищеній екосистемі](https://electriccoin.co/blog/shielded-ecosystem).
+
 </div>
 
-## Як керується протокол Zcash?
+## Як управляється протокол Zcash?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Протоколом керує процес **Zcash Improvement Proposal (ZIP)**. Будь-хто може подати чернетку ZIP. Чернетки обговорюються спільнотою та приймаються або відхиляються редакторами ZIP:
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-- [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)  
+Протокол управляється через процес **пропозицій щодо вдосконалення Zcash (ZIP)**. Будь-хто може подати чернетку ZIP. Чернетки обговорюються спільнотою та приймаються або відхиляються редакторами ZIP:
+
+- [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)
 - [Deirdre Connolly](https://twitter.com/durumcrustulum) (Zcash Foundation)
 
-Рішення вносяться до специфікації та ратифікуються ончейн, коли мережа їх ухвалює.
+Рішення вносяться до специфікації та ратифікуються в блокчейні, коли мережа їх ухвалює.
+
 </div>
 
 ## Де моя транзакція?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Спочатку прочитайте [наш посібник з блокчейн-експлорерів](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629). Потім перевірте [Zcash Block Explorer](https://zcashblockexplorer.com).  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Транзакції стають недійсними приблизно через 25 хвилин (20 блоків), а кошти автоматично повертаються.  
+Спершу прочитайте [наш посібник з оглядачів блокчейну](/guides/blockchain-explorers). Потім перевірте [Zcashоглядач блокчейну](https://zcashblockexplorer.com).
 
-**Поширені причини, через які транзакція може не з’явитися:**
+Термін дії транзакцій спливає приблизно через 25 хвилин (20 блоків), а кошти повертаються автоматично.
+
+**Поширені причини, через які транзакція може не відображатися:**
+
 - Втрата з’єднання
-- Занадто низька комісія за транзакцію
+- Надто низька комісія за транзакцію
 - Перевантаження мережі
-- Забагато прозорих входів (занадто великий розмір)
+- Надто багато прозорих входів (завеликий розмір)
 
-**Поради для успішного виконання:**
+**Поради для успішного проведення транзакції:**
+
 - Використовуйте стабільне з’єднання
-- Сплачуйте стандартну комісію (або вищу для пріоритету)
-- Зачекайте та спробуйте пізніше
-- Використовуйте менше входів, щоб транзакція залишалася малою
+- Сплачуйте стандартну комісію (або вищу для пріоритетної обробки)
+- Зачекайте та повторіть спробу пізніше
+- Використовуйте менше входів, щоб транзакція залишалася невеликою
+
 </div>
 
 ## Чи справді Zcash приватний?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-**Так.** Zcash шифрує дані відправника, суму та дані отримувача для захищених транзакцій.  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+**Так.** Zcash шифрує дані відправника, суму й дані одержувача для захищених транзакцій.
 
 Zcash **не**:
-- Шифрує мультипідписні транзакції (інтеграція FROST очікується)
+
+- Шифрує транзакції з мультипідписом (очікується інтеграція FROST)
 - Захищає від кореляцій із прозорими транзакціями
 - Приховує IP-адреси
 
-Додаткове читання: [Захищена екосистема](https://electriccoin.co/blog/shielded-ecosystem)
+Додатково: [Захищена екосистема](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+
 </div>
 
 ## Кілька поширених хибних уявлень
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Хибне уявлення</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Правильна відповідь</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Чи є Zcash централізованою монетою?</td>
-        <td className="py-5 px-6 text-foreground">Ні. Угода про торговельну марку не дозволяє Zcash Foundation або ECC діяти всупереч консенсусу спільноти. Керування доведено є децентралізованим (див. [звіт Messari](https://messari.io/report/decentralizing-zcash)). Опитування спільноти, ZecHub і A/V Club від Zcash Foundation забезпечують широку участь.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Чи має Zcash бекдор?</td>
-        <td className="py-5 px-6 text-foreground">Ні. Ані Zcash, ані будь-яке криптографічне програмне забезпечення, яке ми створили, не містить бекдору і ніколи не міститиме.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Чи контролюється Zcash корпорацією?</td>
-        <td className="py-5 px-6 text-foreground">Ні. Хоча ми співпрацюємо з компаніями у сфері досліджень, Zcash залишається відданим децентралізації. Кілька автономних організацій працюють разом задля самостійного зберігання коштів і права на приватність.</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash має обмежену приватність порівняно з іншими приватними монетами</td>
-        <td className="py-5 px-6 text-foreground">Ні. Приватність у стилі Monero/Grin покладається на приманки (які можна обійти). Zcash шифрує всі дані захищених транзакцій, тому кожна транзакція в пулі є невідрізненною. Див. [Недостатньо приватно?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
-      </tr>
-    </tbody>
-  </table>
+<div className="rounded-2xl border border-border bg-card p-5 my-4 overflow-x-auto">
+
+<table className="w-full border-collapse">
+  <thead>
+    <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Хибне уявлення</th>
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Правильна відповідь</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Чи є Zcash централізованою монетою?</td>
+      <td className="py-4 px-5 text-foreground">Ні. Угода про торговельну марку забороняє Zcash Foundation або ECC діяти всупереч консенсусу спільноти. Управління є доведено децентралізованим (див. [звіт Messari](https://messari.io/report/decentralizing-zcash)). Опитування спільноти, ZecHub та A/V Club Zcash Foundation забезпечують широку участь.</td>
+    </tr>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Чи має Zcash бекдор?</td>
+      <td className="py-4 px-5 text-foreground">Ні. Ані Zcash, ані будь-яке створене нами криптографічне програмне забезпечення не містить бекдорів і ніколи не міститиме.</td>
+    </tr>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Чи контролюється Zcash корпорацією?</td>
+      <td className="py-4 px-5 text-foreground">Неправильно. Хоча ми співпрацюємо з компаніями у дослідженнях, Zcash зберігає відданість децентралізації. Кілька автономних організацій разом працюють заради самостійного зберігання коштів і прав на приватність.</td>
+    </tr>
+    <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcash має обмежену приватність порівняно з іншими приватними монетами</td>
+      <td className="py-4 px-5 text-foreground">Ні. Приватність у стилі Monero/Grin покладається на приманки (які можна нейтралізувати). Zcash шифрує всі дані захищених транзакцій, тому кожна транзакція в пулі є невідрізненною від інших. Дивіться [Недостатньо приватно?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 
 ---
 
-**Останнє оновлення:** березень 2026  
+**Останнє оновлення:** березень 2026
 **Хочете долучитися?** [Редагуйте цю сторінку на GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

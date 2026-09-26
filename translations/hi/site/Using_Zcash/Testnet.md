@@ -33,14 +33,14 @@ Testnet blockchain development के लिए अत्यंत महत्�
 
 #### 2. Network Upgrades की Testing
 
-Zcash समय-समय पर अपने core protocol को upgrade करता है (जैसे Nu5, Nu6)। Testnet पर नए upgrades **Mainnet से पहले** activate किए जाते हैं, जिससे developers और community bugs की पहचान कर उन्हें ठीक कर सकें।
+Zcash समय-समय पर अपने core protocol को upgrade करता है (जैसे NU6.1, NU6.2 और Ironwood)। Testnet पर नए upgrades **Mainnet से पहले** activate किए जाते हैं, जिससे developers और community bugs की पहचान कर उन्हें ठीक कर सकें।
 
 **उदाहरण:**  
 किसी नए consensus rule या transaction type को पहले Testnet पर भेजा जाता है। सफल testing के बाद, यह Mainnet पर पूर्वनिर्धारित block height पर activate होता है।
 
 #### 3. Node Implementations की Testing
 
-Zcash कई node software implementations को support करता है - `zcashd` और **Zebra** (Rust-based node जिसे Zcash Foundation बनाए रखता है)। Testnet आर्थिक जोखिम के बिना वास्तविक परिस्थितियों में nodes की testing को संभव बनाता है।  
+Zcash का रखरखाव किया गया नोड **Zebra** (Zcash Foundation द्वारा रखरखाव किया गया Rust-आधारित नोड) है और रखरखाव किया गया वॉलेट [Zallet](https://github.com/zcash/zallet) है। मूल नोड कार्यान्वयन `zcashd` 18 जुलाई 2026 को स्वचालित सहायता-समाप्ति रुकावट पर पहुँच गया और अब इसका रखरखाव नहीं किया जाता - [zcashd से Zebra और Zallet माइग्रेशन गाइड](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) देखें। टेस्टनेट बिना वित्तीय जोखिम के वास्तविक परिस्थितियों में नोड्स का परीक्षण करने में सक्षम बनाता है।
 
 Node developers यह कर सकते हैं:
 
@@ -130,10 +130,10 @@ TAZ को **Zcash Testnet के लिए "play money"** की तरह स�
 - TAZ को manually mine करने की आवश्यकता से बचाता है  
 
 **उदाहरण:**  
-1. किसी Testnet faucet पर जाएँ (जैसे, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. किसी Testnet faucet पर जाएँ (जैसे, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. अपना Testnet address दर्ज करें  
 3. TAZ का अनुरोध करें  
-4. Testing शुरू करने के लिए तुरंत TAZ प्राप्त करें  
+4. Testing शुरू करने के लिए तुरंत TAZ प्राप्त करें
 
 **यह क्यों महत्वपूर्ण है:**  
 - ZEC को जोखिम में डाले बिना सुरक्षित testing  

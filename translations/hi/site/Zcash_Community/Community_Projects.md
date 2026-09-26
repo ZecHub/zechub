@@ -74,8 +74,8 @@ internet के लिए private payments। non-custodial, बिना KYC।
 [देखें](https://www.cipherpay.app/en)
 
 ### Ezcash
-आसान-से-उपयोग वाला, पूर्ण-विशेषताओं से युक्त multiplatform Zcash wallet, जिसमें autoshielding support है।  
-[देखें](https://blog.nerdbank.net/ezcash-app)
+आसान-से-उपयोग वाला, पूर्ण-विशेषताओं से युक्त multiplatform Zcash वॉलेट, जिसमें autoshielding support है।  
+[देखें](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Orchard-केंद्रित Zcash wallet, जो Zebrad के लिए बनाया गया है, और fully shielded transactions तथा secure key management को support करता है।  
@@ -191,7 +191,7 @@ Zcash ecosystem का privacy-first marketplace। payments सीधे settle
 ### Zecsite
 एक privacy-focused static website जो JavaScript का उपयोग किए बिना Zcash news, statistics, और educational content को aggregate करती है।
 
-[देखें](https://zecsite/org)
+[देखें](https://zecsite.org/netscape/en/index.html)
 
 [फ़ोरम](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

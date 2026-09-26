@@ -57,12 +57,12 @@ Bir işletme ZEC kabul ediyor ancak henüz ZecMap’te yer almıyorsa, herhangi 
 
 | Alan | Sağlanması gereken |
 |-------|----------------|
-| İşletme adı | Kamuya açık şekilde göründüğü resmî ad |
-| Web sitesi veya iletişim | URL veya sosyal profil |
-| Konum | Fiziksel işletmeler için adres; çevrimiçi olanlar için bölge |
-| Kategori | Kafe, restoran, mağaza, hizmet, çevrimiçi mağaza vb. |
-| Kanıt | Kamuya açık ödeme sayfası, satıcı duyurusu veya doğrudan teyit |
-| Ödeme notları | Yüz yüze, çevrimiçi veya her ikisi; transparent ya da shielded ZEC |
+| Business name | Kamuya açık şekilde göründüğü resmî ad |
+| Website or contact | URL veya sosyal profil |
+| Location | Fiziksel işletmeler için adres; çevrimiçi olanlar için bölge |
+| Category | Kafe, restoran, mağaza, hizmet, çevrimiçi mağaza vb. |
+| Evidence | Kamuya açık ödeme sayfası, satıcı duyurusu veya doğrudan teyit |
+| Payment notes | Yüz yüze, çevrimiçi veya her ikisi; transparent ya da shielded ZEC |
 
 Gönderimler özel müşteri verilerini içermemelidir. İşlem kanıtı kullanıyorsanız paylaşmadan önce kişisel ayrıntıları, sipariş numaralarını ve ev adreslerini kaldırın.
 

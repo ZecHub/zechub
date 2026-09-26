@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ffifi
+# Sprout
 
 > Zcash fii ase wɔ October 28, 2016, a Sprout shielded pool no ka ho.
 
@@ -14,7 +14,7 @@ Nea enti a eyi ho hia. Ɔmanfoɔ blockchain biara a ɛwɔ hɔ ansa na Sprout reb
 
 ## Ɔtare a edi kan a wɔabɔ ho ban
 
-Sprout yɛɛ address ahorow abien. Address a ɛda adi pefee (t-addresses) yɛ adwuma te sɛ Bitcoin, a nsɛm no da adi wɔ ɔmanfo ledger no so. Address a wɔabɔ ho ban (z-addresses) de sika kɔ Sprout no mu [ɔtare a wɔabɔ ho ban](../using-zcash/shielded-pools), baabi a nea ɔde kɔmae, nea ogye, ne sika dodow no tra hɔ ahintaw. Afiri no ne sɛ [zk-SNARKs a wɔde wɔn ho hyɛ mu](../zcash-tech/zk-snarks), adanse a nimdeɛ biara nni mu a ɛma asɛm bi kyerɛ sɛ ɛyɛ nokware, a sika a wɔsɛe no mmɔho abien ne sika a aka a ɛka bom, a ɛnda nsɛm no mu biara adi. Sprout ne bere a edi kan a eyi tuu mmirika wɔ adwumayɛ mu wɔ cryptocurrency a ɛte ase so.
+Sprout yɛɛ address ahorow abien. Address a ɛda adi pefee (t-addresses) yɛ adwuma te sɛ Bitcoin, a nsɛm no da adi wɔ ɔmanfo ledger no so. Address a wɔabɔ ho ban (z-addresses) de sika kɔ Sprout no mu [ɔtare a wɔabɔ ho ban](../using-zcash/shielded-pools), baabi a nea ɔde kɔmae, nea ogye, ne sika dodow no tra hɔ ahintaw. Afiri no ne sɛ [zk-SNARKs](../zcash-tech/zk-snarks), adanse a nimdeɛ biara nni mu a ɛma asɛm bi kyerɛ sɛ ɛyɛ nokware, a sika a wɔsɛe no mmɔho abien ne sika a aka a ɛka bom, a ɛnda nsɛm no mu biara adi. Sprout ne bere a edi kan a eyi tuu mmirika wɔ adwumayɛ mu wɔ cryptocurrency a ɛte ase so.
 
 ![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
 
@@ -34,12 +34,12 @@ Sprout ne nnyinaso a nsakrae biara a ɛbɛba akyiri yi de si so. Bere a network-
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| zk-SNARK-AKWANKYERƐ | Adanse a nimdeɛ nnim a ɛkyerɛ sɛ asɛm bi ayɛ no yɛ nokware a ɛnkyerɛ nea ɔde kɔmaa, nea ogyee, anaa sika dodow |
-| Ɔtare a wɔabɔ ho ban | Zcash kokoam fã a wɔde sika ne apontow ahorow asie. Sprout pool no ne nea edi kan |
-| z-address ne t-address | Wɔabɔ z-address ho ban na ɛma nsɛm no yɛ kokoam. T-address bi yɛ nea ɛda adi pefee na ɛkyerɛ nsɛm a ɛkɔ akyiri wɔ ɔmanfo ledger |
-| Afahyɛ no | 2016 multi-party setup a ɛmaa Sprout ɔmanfoɔ parameters na afei wɔtow awuduru nwura |
-| Nwura a awuduru wom | Kokoam key pieces a efi Ceremony no mu a na ɛsɛ sɛ wɔsɛe no sɛnea ɛbɛyɛ a wɔrentumi nyɛ ZEC |
-| Nhyiamu baa dwumadibea id 0 | Sprout mmara no label, a ɛkyerɛ sɛ mfitiaseɛ ansa na network upgrade biara |
+| zk-SNARK | Adanse a nimdeɛ nnim a ɛkyerɛ sɛ asɛm bi ayɛ no yɛ nokware a ɛnkyerɛ nea ɔde kɔmaa, nea ogyee, anaa sika dodow |
+| Shielded pool | Zcash kokoam fã a wɔde sika ne apontow ahorow asie. Sprout pool no ne nea edi kan |
+| z-address and t-address | Wɔabɔ z-address ho ban na ɛma nsɛm no yɛ kokoam. T-address bi yɛ nea ɛda adi pefee na ɛkyerɛ nsɛm a ɛkɔ akyiri wɔ ɔmanfo ledger |
+| The Ceremony | 2016 multi-party setup a ɛmaa Sprout ɔmanfoɔ parameters na afei wɔtow awuduru nwura |
+| Toxic waste | Kokoam key pieces a efi Ceremony no mu a na ɛsɛ sɛ wɔsɛe no sɛnea ɛbɛyɛ a wɔrentumi nyɛ ZEC |
+| Consensus branch id 0 | Sprout mmara no label, a ɛkyerɛ sɛ mfitiaseɛ ansa na network upgrade biara |
 
 ## FAQ
 
@@ -87,4 +87,4 @@ Sprout yɛ Zcash mfitiaseɛ a wɔde sii hɔ, ɛnyɛ akyiri yi upgrade. Ɛyɛ adw
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Deɛ ɛdi hɔ: [Awɔw bere mu](../zcash-tech/overwinter)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Deɛ ɛdi hɔ: [Overwinter](../zcash-tech/overwinter)

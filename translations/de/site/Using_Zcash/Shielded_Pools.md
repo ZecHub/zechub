@@ -90,7 +90,7 @@ Zcash Sapling ermöglicht es Nutzern, private Transaktionen in nur wenigen Sekun
 
 Das Shielding von Transaktionen verbessert die Privatsphäre, sodass es für Dritte unmöglich ist, Transaktionen zu verknüpfen und die Menge an übertragenem ZEC zu bestimmen. Sapling verbessert außerdem die Benutzerfreundlichkeit, indem die Rechenanforderungen für die Erstellung privater Transaktionen gesenkt werden und sie dadurch für Nutzer zugänglicher werden.
 
-Sapling-Wallet-Adressen beginnen mit „zs“, und das lässt sich in allen unterstützten Zcash Shielded Wallets beobachten (YWallet, Zingo Wallet, Nighthawk usw.), die integrierte Sapling-Adressen haben. Zcash Sapling stellt einen bedeutenden technologischen Fortschritt dar, wenn es um die Privatsphäre und Effizienz von Transaktionen geht, was Zcash zu einer praktischen und effektiven Kryptowährung für Nutzer macht, die Privatsphäre und Sicherheit schätzen.
+Sapling-Wallet-Adressen beginnen mit „zs“, und das lässt sich in allen unterstützten Zcash Shielded Wallets beobachten (Zkool, Zingo Wallet, Nighthawk usw.), die integrierte Sapling-Adressen haben. Zcash Sapling stellt einen bedeutenden technologischen Fortschritt dar, wenn es um die Privatsphäre und Effizienz von Transaktionen geht, was Zcash zu einer praktischen und effektiven Kryptowährung für Nutzer macht, die Privatsphäre und Sicherheit schätzen.
 
 ____
 

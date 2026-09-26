@@ -71,7 +71,7 @@ Bir Raspberry Pi 4 üzerinde Zebra düğüm yazılımını çalıştırmak, Zcas
 
 ## Sorun Giderme
 
-Zebra'yı derlerken veya çalıştırırken herhangi bir sorunla karşılaşırsanız, sorun giderme ipuçları ve ek bilgiler için [Zebra belgelerine](https://doc.zebra.zfnd.org/docs/intro.html) göz atın.
+Zebra'yı derlerken veya çalıştırırken herhangi bir sorunla karşılaşırsanız, sorun giderme ipuçları ve ek bilgiler için [Zebra belgelerine](https://zebra.zfnd.org/user/troubleshooting.html) göz atın.
 
 Bir düğüm çalıştırmanın ısı üretebileceğini unutmayın; Raspberry Pi cihazınızı serin tuttuğunuzdan emin olun. Fan veya ısı emici gibi bir soğutma çözümü kullanmak isteyebilirsiniz.
 

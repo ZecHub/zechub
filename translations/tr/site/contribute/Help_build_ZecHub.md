@@ -37,10 +37,6 @@ Hata bildirin
 
 [ZecHub-Wiki Github Issue’ları](https://github.com/ZecHub/zechub-wiki/issues)
 
-[ZecHub-Namada Github Issue’ları](https://app.dework.xyz/zechub-2424)
-
-
-
 Katkıda bulunmak istediğiniz başka yollar varsa, lütfen Twitter’da ZecHub’a ([@ZecHub](https://twitter.com/zechub)) mesaj gönderin veya [Discord](https://discord.gg/zcash) sunucumuza katılın.
 
 ____

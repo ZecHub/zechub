@@ -82,7 +82,7 @@ Saklama açısından en güçlü seçenektir. Cüzdan arka ucu yalnızca görün
 
 Yalnızca shielded, Sapling, Orchard ve Unified Address desteği sunar. Şeffaf bir geri dönüş seçeneği yoktur, dolayısıyla buna göre plan yapmayın.
 
-Kurulum için feat/zec dalındaki btcpay-zcash Docker çatalına, ayrıca Ywallet veya Zingo gibi bir cüzdandan dışa aktarılmış bir viewing key’e ihtiyacınız vardır. Varsayılan olarak uzak bir lightwalletd ile konuşur ya da Zebra ve lightwalletd’yi kendiniz çalıştırabilirsiniz.
+Kurulum için feat/zec dalındaki btcpay-zcash Docker çatalına, ayrıca Zkool veya Zingo gibi bir cüzdandan dışa aktarılmış bir viewing key’e ihtiyacınız vardır. Varsayılan olarak uzak bir lightwalletd ile konuşur ya da Zebra ve lightwalletd’yi kendiniz çalıştırabilirsiniz.
 
 Bilmeniz gereken bir sınırlama: eklenti, bir örnek üzerindeki her mağaza için tek bir Zcash cüzdanı kullanır; bu nedenle paylaşımlı bir sunucuda çalıştırmayın. Mağaza başına cüzdan üzerinde çalışılıyor.
 

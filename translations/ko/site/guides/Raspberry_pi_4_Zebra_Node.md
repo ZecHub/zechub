@@ -71,7 +71,7 @@ Raspberry Pi 4에서 Zebra 노드 소프트웨어를 실행하면 Zcash 네트�
 
 ## 문제 해결
 
-Zebra를 빌드하거나 실행하는 과정에서 문제가 발생하면 [Zebra 문서](https://doc.zebra.zfnd.org/docs/intro.html)에서 문제 해결 팁 및 추가 정보를 확인하세요.
+Zebra를 빌드하거나 실행하는 과정에서 문제가 발생하면 [Zebra 문서](https://zebra.zfnd.org/user/troubleshooting.html)에서 문제 해결 팁 및 추가 정보를 확인하세요.
 
 Raspberry Pi가 노드를 실행하면서 열을 발생시킬 수 있으므로, 냉각 솔루션(예: 선풍기 또는 히트 싱크)을 사용하는 것이 좋습니다.
 

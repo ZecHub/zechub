@@ -439,7 +439,7 @@ Start with Testnet if you're just testing the deployment process. See "Switching
 
 **Zebra Docs**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash Explorers**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (for provider issues)
 

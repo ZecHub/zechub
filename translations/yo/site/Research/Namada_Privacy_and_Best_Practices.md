@@ -2,101 +2,101 @@
 published: 2025-08-02
 ---
 
-<a href="https://github.com/Zechub/zechub/edit/main/site/Research/Namada_Best_Practices.md" target="_blank">
+<a href="https://github.com/Zechub/zechub/edit/main/site/Research/Namada_Privacy_and_Best_Practices.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-[Àmì Àwòrán Namada](/content-images/nam-078c7b6883.webp)
+![Namada Logo](/content-images/nam-078c7b6883.webp)
 
-# Àwọn Ìṣe Ààbò Àṣírí Namada
+# Àwọn Ìlànà Ìpamọ́ Namada Tó Dáa Jùlọ
 
-> Ìtọ́sọ́nà tó wúlò tó sì ṣeé mú lò láti lè ní ìpamọ́ra tó ga jù lọ lórí Namada - àti láti mọ ibi tí ààbò rẹ̀ parí sí gan-an.
+> Ìtọ́ni tó wúlò, tí a lè gbé ṣe láti rí i pé o ní ìpamọ́ra dé ibi tó pọ̀ jù lọ lórí Namada - àti òye pàtó nípa bí ààbò rẹ̀ ti ń parí sí.
 
-** Ìpamọ́ jẹ́ ẹ̀tọ́ tó ṣe pàtàkì.** Namada ni wọ́n dá sílẹ̀ láti dáàbò bò ó nípasẹ̀ ìmọ̀-kìí-ṣe-mọ̀-nǹkan tí ó ti gòkè àgbà. Ìtọ́sọ́nà yìí ṣàpèjúwe àwọn àṣà tó dára jùlọ tí àwọn oníṣe àti olùdàgbà tí ó mọ̀ nípa ìpamọ̣ ń lò.
+** Ìpamọ́ jẹ ẹ̀tọ́ pàtàkì.** Namada ni a ṣe láti dáàbò bò ó nípasẹ̀ ìmọ-ìmọ tí kò fi bẹ́ẹ̀ sí ìdìkọ. Àlàkalè yìí ń sọ àwọn ìlànà tó dára jùlọ táwọn oníṣe àti olùdàgbàsókè ti mọyì àtimáa lo ìpamọ̣ fún ara wọn lò.
 
 ---
 
-## Bí Namada Ṣe Ń Dáàbò Bo Àṣírí Rẹ
+## Bí Namada Ṣe Ń Dáàbò Bo Ìṣírí Rẹ
 
-Namada jẹ olominira, ìpamọ-akọkọ blockchain ti o fi adirẹsi apamọwọ pamọ, iye iṣowo, ati awọn iwontunwonsi nipa lilo ** awọn ẹri-imọ-odo (zk-SNARKs) **.
+Namada jẹ́ blockchain aládàáni, àkọ́kọ́ ìpamọ́ tí ó ń fi àdírẹ́sì àpò owó, iye ìṣòwò, àti ìwọ̀nba pamọ́ nípa lílo **ẹ̀rí ìmọ̀ òdo (zk-SNARKs)**.
 
 ### Àwọn Ànímọ́ Ìpamọ́ pàtàkì
 
-- **Iṣẹ́ Ààbò** - Ó fi ẹni tí ó ránṣẹ́, ẹni tó gbà á, àti iye owó pamọ́ pátápátá.
-- **Multi-Asset Shielded Pool (MASP) ** - Awọn gbigbe ti ara ẹni, awọn paṣipaarọ, ati fifọ kọja eyikeyi dukia.
-- ** Ìpamọ́-ìpínlẹ̀ Àlàkalẹ̀** - Ìkórawọ́ tí a fi ààbò ṣe nípasẹ̀ IBC (ìtìlẹyìn Ethereum àti Solana ń bọ̀ láìpẹ́).
-- ** Awọn ẹsan Ipadabọ ti o ni aabo ** - Gba awọn ami ami NAM ni irọrun nipa fifipamọ awọn iṣowo.
-- **Iye owo kekere** - Ìpamọ́ alágbára láìsí fífi ìmúlò rúbọ.
+- **Iṣẹ́-òwò tí a fi ààbò bo** - Ó pa ẹni tó rán an, olùgbà á sì kó owó náà pamọ.
+- **Multi-Asset Shielded Pool (MASP)** - Awọn gbigbe ti ara ẹni, awọn paṣipaarọ ati fifẹ kọja eyikeyi dukia.
+- ** Ìpamọ́-àlàfo Àkọsílẹ̀** - Igbójútó tí a fi ààbò ṣe nípasẹ̀ IBC (ìtìléyìn Ethereum àti Solana ń bọ̀ láìpẹ́).
+- **Isanwo Iṣilọ Ideri** - Gba awọn ami NAM ni irọrun nipa fifipamọ awọn iṣowo.
+- **Iye owo kekere** - Ìpamọ́ra tí ó lágbára láì fi ìmúlò ṣe pàdánù.
 
 ---
 
-## Àwọn Ààlà Pàtàkì
+## Àwọn Ààlà Pàtàkì Tó Wà Nínú Rẹ̀
 
-Paapaa aṣiri on-chain ti o lagbara julọ le ni ipa nipasẹ ihuwasi olumulo tabi awọn ifosiwewe ita-chain.
+Paapaa aṣiri on-chain ti o lagbara julọ le jẹ ipalara nipasẹ ihuwasi olumulo tabi awọn ifosiwewe ita okun.
 
 <div class="border-l-4 border-yellow-400 bg-yellow-400/10 p-6 my-8 rounded-r-xl text-sm">
 
-** Namada kò dáàbò bò ọ́ kúrò lọ́wọ́:**
+** Namada KO ṣe aabo lodi si:**
 
-- Ṣíṣe ìsopọ̀ láìsí VPN tàbí Tor (ìdílé IP rẹ fara hàn)
-- Lílo àwọn àdírẹ́ẹ̀sì tí a fi ààbò bo léraléra
-- Ṣiṣe awọn iṣowo ti o ṣe kedere (ti a ko ni idaabobo)
-- Sopọ adirẹsi Namada rẹ si media awujọ tabi idanimọ agbaye gidi
-- Lilo awọn paṣipaarọ KYC ti a ṣepọ fun awọn idogo tabi awọn yiyọ kuro
+- Ṣíṣe ìsopọ̀ láìlo VPN tàbí Tor (ìdílé IP rẹ fara hàn)
+- Lílo àwọn àdírẹ́sì tí a fi ààbò bo léraléra
+- Ṣiṣe awọn iṣowo ti o ni oye (ti a ko fi pamọ)
+- Lílo àdírésì Namada rẹ sí àwọn ìkànnì àjọlò tàbí ẹ̀dá gidi-ayé
+- Lilo awọn paṣipaarọ KYC ti a ṣepọ fun idogo tabi yiyọ kuro
 
 </div>
 
 ---
 
-## Àwọn Ìlànà Tó Dára Jù Lọ Láti Jẹ́ Kí Ìfọ̀kànbalẹ̀ Wà Níwọ̀n
+## Àwọn Ìlànà Tó Dára Jù Lọ Láti Jẹ́ Kí Àṣírí Rẹ Pọ̀ Sí I
 
 ### 1. Àwọn Ìlànà Gbogbogbo
-- Àkọsílẹ̀ sí àwọn ìsòwò tí a fi ààbò pamọ́ fún gbogbo ìṣe.
-- Má ṣe tún lo àwọn àdírẹ́sì tí a fi ààbò bo fún àwọn ète mìíràn.
-- Yẹra fún dídàpò ìgbòkègbodò tí a fi ààbò àti èyí tí ó ṣe kedere nínú ìtòlẹ́sẹẹsẹ kan náà.
+- Àkọsílẹ̀ sí àwọn ìsòwò tí a fi ààbò pamọ́ fún gbogbo ìgbésẹ̀.
+- Má ṣe tún lo àwọn àdírẹ́sì tí a fi ààbò bo fún ète mìíràn.
+- Má ṣe da ìgbòkègbodò tí kò ní ìmọ́lẹ̀ àti èyí tó ń mójútó ara pọ̀ nínú ìdánrawò kan náà.
 
-### 2. Àwọn Ohun Ìní Tó Ń Mú Kí Ọ̀rọ̀ Náà Yí Padà
-- Lo adirẹsi ti o mọ funrararẹ ** nikan ** fun awọn afara ti n wọle.
-- Gbógun ti àwọn ohun ìní lẹ́sẹ̀kẹsẹ̀ lẹ́yìn tí wọ́n bá ti wọlé.
-- Má ṣe gba ibòmíì kọjá láti Namada tó bá ṣeé ṣe.
+### 2. Àwọn Ohun Ìní Tó Ń Mú Kí Ọ̀ràn Túbọ̀ Rọrùn Sí I
+- Lo adirẹsi àlàfo kan tí a yàtọ̀ sí ** nìkan** fún àwọn afárá tó ń wọlé.
+- Ẹ tètè dáàbò bo àwọn ohun ìní yín lẹ́yìn tí ẹ bá ti wọlé.
+- Dín ààlà tí ó ń jáde láti Namada kù nígbà tí ó bá ṣeé ṣe.
 
-### 3. MASP (Multi-Asset Shielded Pool) (Àkójọ Àwọn Ohun Ìní Tó Wà ní Ìpamọ́)
-- Fi gbogbo ohun ìní sínú MASP gẹ́gẹ́ bí ìlànà.
-- Máa wo owó tó wà nínú owó MASP rẹ bí owó tó o fi ń ṣètìlẹyìn fún ara rẹ.
+### 3. MASP (Multi-Asset Shielded Pool) Àjọ tí ó ń dáàbò bo àwọn ohun ìní púpọ̀.
+- Pa gbogbo ohun ìní mọ́ lábẹ́ MASP gẹ́gẹ́ bí àfojúsùn.
+- Ṣe àgbéyẹ̀wò ìdìpọ̀ owó MASP rẹ bí òǹdè tí o ní lákọọ́lẹ̀.
 
 ### 4. Àwọn Kọ́kọ́rọ́ Ìwòran
-- Ṣàjọpín àwọn kókó wíwo **kìkì** pẹ̀lú àwọn ẹni tí o fọkàn tán pátápátá.
-- Má ṣe gbé àwọn kọ́kọ́rọ́ tó o fi ń wo nǹkan jáde tàbí kó o gbé e sórí ìkànnì.
+- Ṣàjọpín àwọn kókó wíwo **kìlọ** pẹ̀lú àwọn ẹni tí o fọkàn tán pátápátá.
+- Má ṣe gbé àwọn kókó ìwòye jáde tàbí kí o fi wọ́n síta fún gbogbo èèyàn.
 
-### 5. Ìmọ́tótó Ìṣirò
+### 5. Ìmọ́tótó Iṣẹ́-òwò
 - Ṣiṣayẹwo akoko ati iye laarin awọn iṣowo.
-- Ṣẹda awọn iṣowo pupọ nigbati o ba ṣeeṣe.
-- Yẹra fún rírán owó tó pọ̀ tàbí èyí tó ṣeé dá mọ̀ dáadáa.
+- Ṣiṣan awọn iṣowo pupọ nigbati o ba ṣeeṣe.
+- Má ṣe fi owó tó pọ̀ tàbí èyí tí kò ṣeé dá mọ̀ ránṣẹ́.
 
-### 6. Ìdáàbòbo Iṣẹ́
-- Nigbagbogbo lo VPN (Tor) nigba ti o ba nlo pẹlu awọn apamọwọ tabi dApps.
-- Má ṣe pín àwọn àwòrán ojú-ewé tó ní àdírésì tàbí àlàfo.
-- Lo àwọn àpamọ́wọ́ tó yàtọ̀ síra fún onírúurú ìgbòkègbodò (ìṣòwò, ọrẹ, ìlò ara ẹni).
-
----
-
-## Àtòjọ Àkọsílẹ̀ Ìpamọ́ Tí a Gbọ́
-
-1. **Gbogbo ìgbà ni kí o kókó dáàbò bo ara rẹ** - gbé àwọn ohun ìní sínú MASP kí o tó ṣe ìdánwò.
-2. **Yí àwọn adirẹsi tí a fi ààbò ṣe yí padà** déédéé fún àwọn ọ̀ràn lílò tí ó yàtọ̀.
-3. **Gba taara si awọn adirẹsi ti o ni aabo** lati awọn paṣipaarọ nigbati o ba ṣeeṣe.
-4. **Yíyípadà àkókò ìsòwò** láti já àwọn àdàkọ tí a lè dá mọ̀.
-5. **Lọ́wọ́ àwọn àpamọ́ owó alágbèéká** fún àwọn ohun ìní ńláńlá.
-6. **Máa sọ software di ìgbàlódé** - máa lo àtúnṣe Namada tí ó ṣẹ̀ṣẹ̀ jáde.
-7. **Ṣọ́ra fún ẹ̀rọ rẹ** pẹ̀lú ìkọ̀sílẹ̀ tó lágbára àti àwọn olùdarí ọ̀rọ̀-ìfiwọlé.
-8. **Ẹ ṣọ́ra gidigidi** nípa ìkọ̀sílẹ̀ metadata nínú ìjíròrò tàbí àwọn àkọsílẹ̀ tí ó wà fún gbogbo ènìyàn.
+### 6. Ààbò Ìṣiṣẹ́
+- Nigbagbogbo lo VPN (Tor) nigba ti o ba n ṣepọ pẹlu awọn apamọwọ tabi dApps.
+- Má ṣe pín àwòrán ojú-ewé tó ní àdírésì tàbí ìsọ̀rí.
+- Lo àwọn àpò ọ̀tọ̀ọ̀tò́ fún onírúurú ìgbòkègbodò (ìṣòwò, ọrẹ àti lílo ara ẹni).
 
 ---
 
-## Ṣètìlẹyìn
+## Àtòjọ Ìpamọ́ tí a mú gbòòrò sí i
 
-Ṣé o ní àwọn àfikún ìlànà tó dára jùlọ tàbí àlàyé? 
-[Ẹ dara pọ̀ mọ́ ìjíròrò lórí Àríyànjiyàn](https://discord.gg/srC76aE6)
+1. **Gbogbo ìgbà ni kí o kókó dáàbò bo ara rẹ** - gbé àwọn ohun ìní sínú MASP ṣáájú ṣíṣe ìdánwò.
+2. **Yíyí àwọn àdírésì tí a fi ààbò ṣe** déédéé fún ọ̀nà ìlò tó yàtọ̀.
+3. **Sọ́ owó jáde ní tààràtà sí àwọn àdírẹ́sì tí a fi ààbò bo** láti ibi ìsòwò nígbà tó bá ṣeé ṣe.
+4. **Yíyí àkókò ìsòwò padà** láti já àwọn àdàkọ tí a lè dá mọ̀.
+5. **Lọ́wọ̀n àwọn àpamọ́ owó alágbèéká** fún ìkóra-ẹni tó pọ.
+6. **Ṣe àtúnṣe software** - máa lo kálukú nínú àwọn oníṣẹ́ Namada tí ó ṣẹ̀yìn.
+7. **Ṣójútó ẹrọ rẹ** pẹ̀lú ìdìkọ́ àti àwọn olùṣakoso ọ̀rọ ààbò tó lágbára.
+8. **Ẹ ṣọ́ra gidigidi** nípa ìsunmọ̀ metadata nínú àwọn àjùmọ̀sọ̀rọ tàbí àkọsílẹ̀.
 
 ---
-* Àtúnyẹ̀wò ìkẹyìn: March 2026*
+
+## Ṣíṣe àfikún
+
+Ṣe o ni awọn ilana to dara julọ tabi alaye? 
+[Darapọ mọ ijiroro lori Discord](https://discord.gg/srC76aE6)
+
+---
+*Ìgbà tí a ṣe àtúnṣe ìkẹyìn: March 2026*

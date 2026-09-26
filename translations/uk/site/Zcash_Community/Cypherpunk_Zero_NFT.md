@@ -15,7 +15,7 @@ Cypherpunk Zero — це серія оповідей, у центрі яких Z
 
 ## Управління
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — власний портал DAO на vote.cypherpunkzero.com було закрито, а його домен більше не працює; це збережений простір Snapshot.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

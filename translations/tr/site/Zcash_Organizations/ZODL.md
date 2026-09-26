@@ -14,7 +14,7 @@ ZODL, yasalara uyan insanların özgürce ve özel biçimde işlem yapabildiği,
 
 ZODL (Zcash Open Development Lab), 2026'nın başlarında Electric Coin Company (ECC)'nin eski CEO'su Josh Swihart tarafından kuruldu. Ocak 2026'da, ECC'yi denetleyen 501(c)(3) statüsündeki kâr amacı gütmeyen yönetim kurulu Bootstrap ile yaşanan bir yönetişim anlaşmazlığının ardından ECC'nin tüm mühendislik ve ürün ekibi istifa etti. Başlangıçta Zcash'in en kritik sistemlerini tasarlayan, uygulayan ve sürdüren çekirdek ekip, çalışmalarını bağımsız şekilde sürdürmek üzere ZODL'a geçti.
 
-Daha önce ECC bünyesinde geliştirilen ve sürdürülen Zashi cüzdanı, yeni organizasyon altında Zodl olarak yeniden markalandı. Uygulama bir sonraki güncellemeyle otomatik olarak yeniden markalandığı için kullanıcıların herhangi bir işlem yapmasına gerek kalmadı.
+Daha önce ECC bünyesinde geliştirilen ve sürdürülen Zashi cüzdanı, yeni organizasyon altında ZODL olarak yeniden markalandı. Uygulama bir sonraki güncellemeyle otomatik olarak yeniden markalandığı için kullanıcıların herhangi bir işlem yapmasına gerek kalmadı.
 
 ## Finansman
 
@@ -30,7 +30,7 @@ Mart 2026'da ZODL, şu önde gelen yatırımcıları da içeren bir gruptan 25 m
 - **Balaji Srinivasan**
 - Kripto ve teknoloji sektörlerinden ek melek yatırımcılar
 
-Bu sermaye, hem Zcash protokolünün hem de Zodl cüzdanının geliştirilmesini büyütmek için kullanılıyor.
+Bu sermaye, hem Zcash protokolünün hem de ZODL cüzdanının geliştirilmesini büyütmek için kullanılıyor.
 
 ## Liderlik
 
@@ -40,12 +40,12 @@ Daha geniş ekip, daha önce ECC'de Zcash'i geliştiren ve sürdüren özgün Zc
 
 ## Ürünler
 
-### Zodl Cüzdanı (eski adıyla Zashi)
+### ZODL Cüzdanı (eski adıyla Zashi)
 
-Zodl, özel Zcash işlemleri için tasarlanmış, saklama hizmeti sunmayan bir mobil cüzdandır. Kullanıcı dostu tasarımı, protokol düzeyindeki derin bilgiyle birleştirir; güvenliği korurken karmaşıklığı gizler.
+ZODL, özel Zcash işlemleri için tasarlanmış, saklama hizmeti sunmayan bir mobil cüzdandır. Kullanıcı dostu tasarımı, protokol düzeyindeki derin bilgiyle birleştirir; güvenliği korurken karmaşıklığı gizler.
 
 **Platformlar:**
-- [iOS (App Store)](https://apps.apple.com/app/zodl/id6444974742)
+- [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)

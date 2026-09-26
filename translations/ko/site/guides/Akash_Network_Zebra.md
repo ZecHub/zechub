@@ -439,6 +439,6 @@ RAM을 절약하려 했습니다. 배포를 종료하고 최소 12Gi 메모리(1
 
 **Zebra 문서**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash 탐색기**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash 탐색기**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash 디스코드**: [https://discord.akash.network](https://discord.akash.network) (제공자 문제에 대해)

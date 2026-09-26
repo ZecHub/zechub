@@ -161,7 +161,7 @@ Transparent Setup (No Trusted Setup)- Алгоритм попередньої о
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Потребує Trusted Setup, але має дуже короткі докази, які можна швидко перевіряти.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK): Universally Trusted Setup.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universally Trusted Setup.
 
 [DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Не потребують Trusted Setup, але створюють дещо довші докази або можуть вимагати більше часу для роботи prover. 
 

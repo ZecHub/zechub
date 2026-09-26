@@ -2,87 +2,87 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àwọn Kókó Ìwòran
+# Àwọn Kọ́kọ́rọ́ Wíwo
 
-Shielded addresses let you transact while revealing as little as possible on the Zcash blockchain. So what happens when you *do* need to show a specific party what you hold, or what you sent? Every shielded address has a viewing key that grants read access without granting the ability to spend. Viewing keys were introduced in [ZIP 310 ìyẹn àwọn tó ń gbé nílùú](https://zips.z.cash/zip-0310) a sì fi kún ìlànà náà nínú àtúnṣe nẹtiwọọki Sapling.
+Àwọn àdírẹ́sì ààbò jẹ́ kí o ṣe ìṣòwò pẹ̀lú ṣíṣípayá díẹ̀ bí ó ti ṣeé ṣe lórí ẹ̀rọ Zcash blockchain. Kí ló máa ń ṣẹlẹ̀ tí o bá *ní* nílò láti fi ohun tí o ní tàbí ohun tí o fi ránṣẹ́ hàn ẹgbẹ́ kan pàtó? Gbogbo àdírẹ́sì ààbò ní kọ́kọ́rọ́ ìwòran tí ó fúnni ní àǹfààní láti ka ìwé láìsí pé kí o náwó. Àwọn kọ́kọ́rọ́ ìwòran ni a ṣe àgbékalẹ̀ rẹ̀ nínú [ZIP 310](https://zips.z.cash/zip-0310) a sì fi kún ìlànà náà nínú ìgbéga nẹ́tíwọ́ọ̀kì Sapling.
 
-Àkọlé fífi ojú ríran jẹ́ irinṣẹ̀ fún ìfúnni tí ó yanjú: o yàn ẹni tó ń wo ohun, àti pé kò sí ìgbà kankan tí wàá fi àṣẹ láti náwó ṣe é.
+Kọ́kọ́rọ́ ìwojú ni irinṣẹ́ fún ìfihàn àṣàyàn: ìwọ ni o yan ẹni tí ó rí ohun tí o fẹ́, ìwọ kì í sì í fi àṣẹ ìnáwó rẹ lé e lọ́wọ́.
 
-## Kí nìdí tó fi yẹ ká lo kọ́kọ́rọ́ ìmọ́lẹ̀?
+## Kí ló dé tí a fi ń lo kọ́kọ́rọ́ wíwo?
 
-Ìwé tí iléeṣẹ́ tó ń ṣe owó ẹyọ, ìyẹn Electric Coin Company kọ lórí kókó yìí sọ àwọn ipò tó sábà máa ń wáyé jù lọ, wọ́n sì ṣì wà títí dòní olónìí:
+Àkọsílẹ̀ Electric Coin Company lórí ọ̀rọ̀ yìí ṣe àlàyé àwọn ipò tí ó sábà máa ń wáyé, àwọn wọ̀nyí sì ṣì jẹ́ àwọn tí ó wọ́pọ̀ títí di òní:
 
-- **Ipín-ìṣirò kan tó ń wo àwọn ìsúná.** Ipò ìṣíró náà máa fi kókó wíwo tí ó wọlé sínú àlàfo àwárí orí ayélujára kí o lè rí i pé oníbàárà ti ṣe idogo sí àdírésì aláàbò, nígbàtí kókó owó náa wà lórí ẹ̀rọ kòríkòsùn tí kì í fọwọ́ kàn án.
-- **Alábojuto tó ń fi ẹ̀rí hàn pé ó ní àwọn ohun ìní.** Aṣojú náà fún olùṣe àyẹwò kan lákọójútó kíkóòyán ojú sí gbogbo àdírésì tí a ṣe dígí. Olùṣèwádìí lè ṣàyẹ̀wò iye owó wọ́n àti láti wo ìgbésè ti o kọjá lọ si tàbí lati adiré wọ̀nyẹn, kò sì le se ohunkóhun mìíràn.
-- **Ipa-nla ti o yẹ lori alabaṣiṣẹpọ kan.** Nibi ti paṣipaarọ nilo lati ṣe atunyẹwo itan aabo alabara bi apakan ti iṣakoso to dara julọ, o le beere fun bọtini wiwo dipo awọn owo.
+- **Paṣipaarọ kan n wo awọn idogo.** Paṣipaarọ naa n gbe bọtini wiwo ti nwọle sori aaye wiwa ti o kọju si intanẹẹti ki o le ṣe akiyesi awọn idogo alabara si adirẹsi ti o ni aabo, lakoko ti bọtini inawo naa duro lori ohun elo ti ko kan nẹtiwọọki naa rara.
+- **Alábòójútó kan tí ó ń fi hàn pé òun ní ohun ìní.** Olùtọ́jú náà fún olùwòye ní kọ́kọ́rọ́ ìwòran pípé fún àdírẹ́sì kọ̀ọ̀kan tí a dáàbò bò. Olùwòye lè ṣàyẹ̀wò àwọn ìwọ̀n wọ̀nyẹn kí ó sì ṣàtúnyẹ̀wò àwọn ìgbòkègbodò tí ó ti kọjá sí àti láti àwọn àdírẹ́sì wọ̀nyẹn, kò sì lè ṣe ohunkóhun mìíràn.
+- **Àkíyèsí tó yẹ lórí ẹ̀gbẹ́ kan.** Níbi tí pàṣípààrọ̀ kan bá nílò láti ṣe àtúnyẹ̀wò ìtàn oníbàárà gẹ́gẹ́ bí apá kan nínú ìwádìí tó dára síi, ó lè béèrè fún kọ́kọ́rọ́ ìwòran dípò owó náà.
 
-## Ohun tí kókó ìwòye ń ṣe àti ohun tó ò fi hàn
+## Ohun tí kọ́kọ́rọ́ wíwo ń ṣe àti ohun tí kò ń ṣí payá
 
-Irú kọ́kọ́rọ́ kan ṣoṣo ò lè wà, ìyàtọ̀ tó sì máa ń wà nínú wọn ló máa pinnu iye tí wàá fúnni.
+Iru bọtini ju ọkan lọ lo wa, iyatọ naa si ni ipinnu iye ti o fi funni.
 
-Àkọlé: Prefix. Grants.
+| Kọ́kọ́rọ́ | Àkọ́kọ́ | Àwọn ẹ̀bùn |
 |---|---|---|
-ì ì í êμ¬ë§¤í ë¥1⁄4 (UFVK) `uview…` ◯ Ó ń wo àwọn ìnáwó tó wọlé tí ó sì jáde fún gbogbo àgbájọ nínú àkọọ́lẹ̀ náà.
-ì í ì ¬ë¦¬í ë°© (UIVK) `uivk…` Ó ń wo àwọn ìnáwó tó wọlé nìkan, fún gbogbo àgbájọ nínú àkọọ́lẹ̀.
-| Sapling extended full viewing key | `zxviews…` ◯ Ó ń wo ìgbòkègbodò Sapling tí ó wọlé àti èyí tó jáde fún àwọn àdírẹ́sì kókó náà.
+| Unified full viewing key (UFVK) | `uview…` | Ó rí àwọn ìṣòwò **àti** tí ń wọlé fún gbogbo adágún inú àkọọ́lẹ̀ náà |
+| Unified incoming viewing key (UIVK) | `uivk…` | Ó rí àwọn ìṣòwò tí ń wọlé nìkan, fún gbogbo adágún inú àkọọ́lẹ̀ náà |
+| Sapling extended full viewing key | `zxviews…` | Ó rí iṣẹ́ Sapling tí ń wọlé àti èyí tí ń jáde fún àwọn àdírẹ́sì kọ́kọ́rọ́ náà |
 
-Kò sí èyí tó lè náwó. Gbogbo wọn ló máa ń wà títí lọ ní ọ̀nà tí ó ṣe pàtàkì: kókó kan téèyàn fúnni kò ṣeé gbà padà, kìkì pé owó náà á kọjá àyè rẹ̀ nípa fífi ránṣẹ́ sórí àkọsílẹ̀ tí ẹni kejì kò ni kókó inú ẹ̀.
+Kò sí èyíkéyìí nínú ìwọ̀nyí tó lè náwó. Gbogbo wọn ló wà títí láé ní ọ̀nà tó ṣe pàtàkì: a kò lè dá kọ́kọ́rọ́ tí o ti fúnni padà, a kò lè dá a padà, a kàn lè dá a padà lẹ́yìn ikú, nípa gbígbé owó lọ sí àkáǹtì tí kọ́kọ́rọ́ ẹni kejì kò ní.
 
-Àwọn ohun méjì tó lè mú kó o sọ nǹkan kan fún ẹlòmíì ni pé kí ìwọ náà mọ àwọn méjèèjì.
+Àwọn ìdẹkùn ìṣípayá méjì ló yẹ kí o mọ̀ kí o tó sọ ohunkóhun.
 
-**Incoming kò túmọ sí pé ó dín.** A ṣe àfikún kókó wíwo tí ń wọlé fún gbogbo àkọọ́lẹ̀, kì í ṣe láti adirẹsi kan tí a béèrè lọ́wọ́ rẹ nípa. Ṣíṣàn UIVK fún àdírésì Sapling kan ṣoṣo ṣì máa n fi ìríran tó ń wọle hàn nípasẹ̀ gbogbo àwọn agbègbè nínú àkọọ̣lẹ̀ náà, nítorí náà yóò sọ púpọ̀ ju orúkọ àdírẹsí ti o pe ni Adirẹsis yìí nìkan. [Ìwé Zallet Book](https://zcash.github.io/zallet/zcashd/json_rpc.html) ó sọ èyí ní kedere.
+**Wíwọlé kò túmọ̀ sí pé ó há.** A máa ń lo bọ́tìnì wíwo tí ó ṣọ̀kan láti wo gbogbo àkọọ́lẹ̀ náà, kìí ṣe sí àdírẹ́sì kan ṣoṣo tí wọ́n béèrè lọ́wọ́ rẹ. Fífi UIVK ránṣẹ́ síta fún àdírẹ́sì Sapling kan ṣoṣo ṣì ń jẹ́ kí a rí gbogbo àkójọpọ̀ nínú àkọọ́lẹ̀ náà, nítorí náà ó ń fi ohun tó pọ̀ ju àdírẹ́sì tí ó dárúkọ hàn. [Ìwé Zallet](https://zcash.github.io/zallet/zcashd/json_rpc.html) ó sọ èyí ní kedere.
 
-** Adirẹsi ti a tẹjade tẹlẹ fi bọtini wiwo rẹ to wọle han si ọta iwaju kan.** [ZIP 326](https://zips.z.cash/zip-0326) ó sọ wípé ọ̀tá tí o ní kọǹpútà kọńmátì lè gba kókó ìwòye tó wọlé láti inú àdírésì oríṣiríṣi kan, èyí kò ṣeé ṣe bí ìgbà téèyàn bá ń mú kí kókó àyáláyé jẹ́ òdìkejì. títẹ adirẹsi jáde kì í ṣe ohunkan náà bíi títẹ kókó ìṣọ̀rí sílẹ̀ lónìí ṣùgbọ́n àwọn méjèèjì sún mọ́ra wọn jùlọ fún àkókò gígùn díẹ̀.
+**Àdírẹ́sì tí a tẹ̀ jáde ti fi kọ́kọ́rọ́ ìwòran rẹ̀ hàn fún ọ̀tá ọjọ́ iwájú.** [ZIP 326](https://zips.z.cash/zip-0326) sọ pé ọ̀tá kan tí ó ní kọ̀ǹpútà quantum lè gba kọ́kọ́rọ́ ìwòran tí ń bọ̀ láti inú àdírẹ́sì onírúurú tí a tẹ̀ jáde, èyí tí ó ṣeé ṣe ní ọ̀nà tí gbígbà kọ́kọ́rọ́ ìmúṣẹpadà kò ṣe rí bẹ́ẹ̀. Títẹ̀ àdírẹ́sì jáde kò rí bẹ́ẹ̀ gẹ́gẹ́ bí títẹ̀ bọ́tìnì ìwòran jáde lónìí, ṣùgbọ́n àwọn méjèèjì jókòó papọ̀ ní àárín gbùngbùn ibi tí ó gùn tó.
 
-## Àwọn kókó tí ó ń wo Ironwood lẹ́yìn rẹ̀.
+## Wiwo awọn bọtini lẹhin Ironwood
 
-NU6.3 ṣe afihan adagun-odo Ironwood ti o ni aabo ati pe awọn odidi Orchard jẹ lilo nikan, nitorinaa owo nlọ lati ọkan si ekeji lori akoko. Wo [Igi irin-igi](/zcash-tech/ironwood) àti pé, [Ìyípadà náà ni pé:](/zcash-tech/the-turnstile) fún àtúnṣe náà fúnra rẹ̀.
+NU6.3 ṣe àgbékalẹ̀ adágún tí wọ́n fi ààbò Ironwood ṣe, ó sì mú kí adágún Orchard náà náwó nìkan, kí owó lè máa lọ láti ọ̀kan sí òmíràn bí àkókò ti ń lọ. [Ironwood](/zcash-tech/ironwood) àti [Ìyípo náà](/zcash-tech/the-turnstile) fún ìgbéga náà fúnra rẹ̀.
 
-**Kínà ìwojúwòrán tí a fi sílẹ̀ kí Ironwood bá ṣiṣẹ́ lẹ́yìn ṣíṣípò.** ZIP 326 sọ pé olùgba, àti kókó wíwò tó wọlé sí i ni ó wà ní àyè fún Orchard *protocol* dípò láti ṣe àkójọ: kọǹpútà náà ń tú àwọn àkọọlẹ̀ òdìwé ti Orchid-pool ati Ironwood-pool. Zallet gbé e kalẹ̀ lọ́nà yẹn, ó ṣàpèjúwe ìwéwèé ironwood gẹ́gẹ́ bí èyí tí o jẹ́ orkidì tí wọn sì tún ṣàyípadà rẹ̀ pẹ̀lú kíní wíwò Orchid akọọkọ lábẹ́ agbègbè ìdánimọ̀ ohun èlò Ironwood.
+**Kọ́kọ́rọ́ ìwòran kan tí a ti fi sílẹ̀ kí Ironwood tó máa ṣiṣẹ́ lẹ́yìn ìṣíkiri náà.** ZIP 326 sọ pé a ti lo ohun tí a gbà, àti kọ́kọ́rọ́ ìwòran tí ó báramu rẹ̀, sí Orchard *protocol* dípò sí adágún omi: ìwádìí ìwòran kan náà tí ń bọ̀ ń yọ àwọn ìkọ̀wé àkọsílẹ̀ Orchard-pool àti Ironwood-pool kúrò. Zallet ṣe é lọ́nà yẹn, ó ń ṣàpèjúwe àwọn àkọsílẹ̀ Ironwood gẹ́gẹ́ bí àwòrán Orchard àti ìyípadà ìdánwò pẹ̀lú àwọn kọ́kọ́rọ́ ìwòran Orchard àkọọ́lẹ̀ lábẹ́ agbègbè ìpamọ́ àkọsílẹ̀ Ironwood.
 
-Àwọn ohun mẹ́ta tó máa ṣẹlẹ̀ sí ẹnikẹ́ni tí ó bá ní kókó tàbí ẹni tó fún un:
+Àbájáde mẹ́ta fún ẹnikẹ́ni tó bá di kọ́kọ́rọ́ mú tàbí tó fún ní kọ́kọ́rọ́:
 
-1. ** Àwọn òṣùwọ̀n máa ń yí padà láàárín àwọn ìkùdu, ẹni tó bá sì rí i á mòye pé ó ti ṣẹlẹ̀.** [ZIP 318 Àwọn ojúewé wọ̀nyí jápọ̀:](https://zips.z.cash/zip-0318) ṣalaye gbigbe bi lẹsẹkẹsẹ ti awọn iṣowo kekere, iṣọkan Orchard-to-Ironwood ni igbohunsafefe lori eto ayidayida kan, ọkọọkan nlo akọsilẹ Ọgba ọgbà ati ṣiṣejade Ironwood ọkan ti ẹda canonical. Oluwo wo pẹlu bọtini wiwo rii idaduro lati ọdọ adagun si ekeji ni awọn igbesẹ fun ọsẹ diẹ, kii ṣe ninu gbigbe nikan. Iwe apamọwọ le tun ilọsiwaju irin ajo tirẹ jade lati data pq nipa lilo awọn bọtini iwo rẹ.
-2. **Kọọkan gbigbe igbese fi han iye ti o gbe.** Ti jẹ inherent lati kọja a turnstile, ati awọn ohun ti ṣe ni migration auditable. pipin iwontunwonsi sinu canonical denominations tumo si ko ọkan idunadura afihan gbogbo Orchard-pool iwontuna.
-3. **Awọn iroyin ti a ṣẹda lẹhin Ironwood le gba awọn bọtini wọn ni ọna miiran.** [ZIP 2005 Ìpínlẹ̀ Ọsirélíà](https://zips.z.cash/zip-2005) ó fi a `use_qsk` flag fun quantum-recoverable kókó, ati awọn ti o ayipada bi ni wọle, outgoing ki o si diversifier kọ̀ọ̀kan wa lati ọdọ rẹ; nitorina `use_qsk = true` awọn bọtini jẹ gan o yatọ si awọn bọtinin. ZIP 326 nilo ni asia lati wa ni iṣọkan kọja kan iroyin ati ki o ko ba gbekalẹ `use_qsk = true` awọn bọtini ṣaaju ki o to NU6.3 activated on Mainnet. A pataki okeere lati kan iroyin ti tẹlẹ niwaju Ironwood jẹ nitorina a `use_qsk = false` má ṣe rò pé kókó tí a gbé jáde láti àkọọ́lẹ̀ kan ṣàpèjúwe òmíràn.
+1. **Ìwọ̀ntúnwọ̀nsì máa ń lọ láàrín àwọn adágún omi, olùwòran sì máa ń rí i pé ó ṣẹlẹ̀.** [ZIP 318](https://zips.z.cash/zip-0318) Ṣàlàyé ìṣíkiri gẹ́gẹ́ bí ìtòlẹ́sẹẹsẹ àwọn ìṣòwò kékeré, tí ó dọ́gba pẹ̀lú ìmọ̀ọ́mọ̀, tí a gbé kalẹ̀ lórí ìtòlẹ́sẹẹsẹ àìròtẹ́lẹ̀, tí ọ̀kọ̀ọ̀kan ń lo àkọsílẹ̀ Orchard kan àti ṣíṣe àgbéjáde Ironwood kan láti inú ẹ̀ka kan tí ó wà ní ìpìlẹ̀. Olùṣàyẹ̀wò tí ó ń wo kọ́kọ́rọ́ ìwòran rí i pé àwọn ohun ìní ń yípadà láti adágún kan sí òmíràn ní àwọn ìgbésẹ̀ ní ọ̀sẹ̀ díẹ̀, kìí ṣe ní ìgbésẹ̀ kan ṣoṣo. Àpò owó kan lè tún ìlọsíwájú ìrìnàjò tirẹ̀ láti inú dátà ẹ̀wọ̀n nípa lílo àwọn kọ́kọ́rọ́ ìwòran rẹ̀.
+2. **Ìgbésẹ̀ ìṣíkiri kọ̀ọ̀kan ń fi ìníyelórí tí ó ń gbé hàn.** Ìyẹn jẹ́ ohun tí ó wà nínú rírékọjá ìyípo kan, òun sì ni ohun tí ó mú kí ìṣíkiri náà ṣeé ṣe láti ṣe àyẹ̀wò rẹ̀. Pípín ìwọ́ntúnwọ̀nsì sí àwọn ẹ̀ka òfin túmọ̀ sí wípé kò sí ìṣòwò kan ṣoṣo tí ó ń fi gbogbo ìwọ́ntúnwọ̀nsì Orchard-pool hàn.
+3. **Àwọn àkọọ́lẹ̀ tí a ṣẹ̀dá lẹ́yìn Ironwood lè rí àwọn kọ́kọ́rọ́ wọn ní ọ̀nà ọ̀tọ̀ọ̀tọ̀.** [ZIP 2005](https://zips.z.cash/zip-2005) ṣe afikun kan `use_qsk` àsíá fún àwọn kọ́kọ́rọ́ tí a lè gbà padà sí quantum, ó sì yí bí a ṣe ń rí àwọn kọ́kọ́rọ́ tí ń wọlé, tí ń jáde àti tí ń diversifier, padà, nítorí náà `use_qsk = true` Àwọn kọ́kọ́rọ́ jẹ́ kọ́kọ́rọ́ tó yàtọ̀ pátápátá. ZIP 326 nílò kí àsíá náà jẹ́ ọ̀kan-ò-jọ̀kan lórí àkọọ́lẹ̀ kan, ó sì kọ̀ láti ṣe é. `use_qsk = true` àwọn kọ́kọ́rọ́ kí NU6.3 tó ṣiṣẹ́ lórí Mainnet. Nítorí náà, kọ́kọ́rọ́ tí a kó jáde láti inú àkọọ́lẹ̀ kan tí ó ti wà tẹ́lẹ̀ kí Ironwood tó di `use_qsk = false` bọtini, ó sì dúró ṣinṣin fún àkọọ́lẹ̀ yẹn. Má ṣe rò pé kọ́kọ́rọ́ tí a kó jáde láti àkọọ́lẹ̀ kan ṣàpèjúwe òmíràn.
 
-## Ṣíṣànáàtò kókó ìwòran kan
+## Gbigbe bọtini wiwo jade
 
 ### Zallet
 
-[Zallet](https://github.com/zcash/zallet) is the full-node wallet that replaced the wallet inside zcashd. Viewing-key export and import arrived in **v0.1.0-beta.2 (28 July 2026)**, so check your version first; earlier builds do not have these methods. Every argument after the method name must be valid JSON, which means string values keep their own double quotes. The [Ìwé Ìtọ́sọ́nà Rírìndìn Nípa Zallet](/using-zcash/zallet-quick-reference-guide) ó kan ọ̀nà tí wọ́n gbà ń darí àwọn ọmọ ogun.
+[Zallet](https://github.com/zcash/zallet) ni àpò owó gbogbo-nọ́ńbà tó rọ́pò àpò owó inú zcashd. Ìtajà àti ìkọ́wọlé Woing-key dé ní **v0.1.0-beta.2 (28 Keje 2026)**, nítorí náà ṣàyẹ̀wò ẹ̀yà rẹ ní àkọ́kọ́; àwọn ìkọ́lé ìṣáájú kò ní àwọn ọ̀nà wọ̀nyí. Gbogbo àríyànjiyàn lẹ́yìn orúkọ ọ̀nà náà gbọ́dọ̀ jẹ́ JSON tó wúlò, èyí tí ó túmọ̀ sí wípé àwọn iye okùn máa ń pa àwọn gbólóhùn méjì tiwọn mọ́. [Ìtọ́sọ́nà Ìtọ́kasí Kíákíá Zallet](/using-zcash/zallet-quick-reference-guide) bo gbogbo ilana naa.
 
-Kọ ohun tó wà nínú pọ́ọ̀sì náà sílẹ̀:
+Kọ ohun tí àpò owó náà ní:
 
 ```bash
 zallet rpc listaddresses
 ```
 
-Ṣíṣàn kókó wíwo gbogbo àkọọ́lẹ̀ náà nípa fífi adirẹsi kan ṣoṣo ranṣẹ:
+Gbe bọtini wiwo kikun ti akọọlẹ naa jade nipa fifiranṣẹ adirẹsi iṣọkan kan:
 
 ```bash
 zallet rpc z_exportviewingkey '"<unified address>"'
 ```
 
-Ṣàtúnṣe àlẹmọ wíwò wọlé tí ó wà ní ọ̀kan-ò-jọ̀kan ti àkọọ́sílẹ̀ dípò, nípa lílo ìtọ́jú yíyẹ (optional) `ivk` àríyànjiyàn:
+Gbe bọtini wiwo ti a ti so pọ ti akọọlẹ naa jade dipo, nipa lilo aṣayan ti o yan `ivk` ariyanjiyan:
 
 ```bash
 zallet rpc z_exportviewingkey '"<unified address>"' true
 ```
 
-Gbigba adirẹsi Sapling pada si akọọlẹ yẹn'Sapling ti o gbooro kikun wiwo bọtini (`zxviews…`), ti o baamu ihuwasi zcashd atijọ. Awọn idiwọn meji ti a ṣe akọsilẹ: A kọ awọn adirẹsi Sprout, ati pe Sapling extended full view key ko le gbe jade lati inu iroyin kan eyiti o wọle bi wiwo nikan, nitori apamọwọ naa ko le tunṣe rẹ . `ivk` fọọmu naa ṣiṣẹ fun awọn iroyin wiwo nikan ti a gbe wọle.
+Tí a bá fi àdírẹ́sì Sapling sílẹ̀, a ó máa rí kọ́kọ́rọ́ ìwòran Sapling tó gùn sí i ní àkọọ́lẹ̀ náà (`zxviews…`), bá ìwà zcashd àtijọ́ mu. Àwọn ààlà méjì tí a kọ sílẹ̀: A kò kọ̀ àwọn àdírẹ́sì Sprout, àti pé a kò le kó kọ́kọ́rọ́ ìwòye Sapling tí ó gùn sí i jáde láti inú àkọọ́lẹ̀ kan tí a gbé wọlé gẹ́gẹ́ bí view-only, nítorí pé àpò owó náà kò le tún un ṣe. `ivk` fọ́ọ̀mù náà ń ṣiṣẹ́ fún àwọn àkọọ́lẹ̀ ìwò-nìkan tí a kó wọlé.
 
-### Àwọn àpò tí ó ń gbé àwọn kókó ìwòran jáde láti inú ojú-ìmọ̀ wọn fúnra rẹ̀.
+### Àwọn àpò tí ó ń kó àwọn kọ́kọ́rọ́ ìwòran jáde láti inú ìrísí tiwọn
 
-Àwọn ohun tó ń ṣẹlẹ̀: [Àwọn àpamọ́ owó](/using-zcash/wallets) ojúewé yìí ń tọ́jú ìtìlẹyìn kókó-wò àti ìdánilójú Ironwood fún àpò kọ̀ọ̀kan. Ní àkókò tí a fi kọ ìwé, àwọn apamọwọ tó ṣe àkọsílẹ̀ ìtìlẹ́yìn kókò-wò àtàwọn **Ironwood: Ready** ní ZODL, Zingo!, Zkool, Cake, Zallet, Zecd and Nozy nínú. Ṣayẹwo ojúewè yẹn dípò èyí kí o to gbára lé ọjà kan ṣoṣo nítorí pé ìtẹríba máa yí padà.
+Àwọn [Àwọn Àpò Ìpamọ́](/using-zcash/wallets) ojú ìwé náà ń tọ́ka sí ìrànlọ́wọ́ àmì wíwo àti ìmúrasílẹ̀ Ironwood fún àpò owó kọ̀ọ̀kan. Ní àkókò tí a ń kọ ọ́, àwọn àpò owó tí a kọ sí àpò owó àti **Ironwood: Ready** ní ZODL, Zingo!, Zkool, Cake, Zallet, Zecd àti Nozy nínú. Ṣàyẹ̀wò ojú ìwé yẹn dípò èyí kí o tó gbẹ́kẹ̀lé àpò owó kan ṣoṣo, nítorí pé ìmúrasílẹ̀ yípadà.
 
-## Ṣíṣe àtúntò kókó wíwo gẹ́gẹ́ bí àkọọ́lẹ̀ tí ó ń wo nìkan (watch-only account)
+## Gbígbé kọ́kọ́rọ́ ìwòran wọlé gẹ́gẹ́ bí àkọọ́lẹ̀ aago-ìwò nìkan
 
 ### Zkool
 
-[Zkool](https://github.com/hhanh00/zkool2) ni awọn julọ rọ aṣayan nibi, nitori ti o gba unified bọtini bi daradara bi ogún awon. rẹ README iwe-ka nikan iroyin da lati a ** iṣọkan wiwo bọtini** tabi kan ** Sapling extended wiwo Key**, pẹlú pẹlu ogbologbo ipamọ extended bọtini okeere lati zcashd. fi titun kan account, yan wo nìkan ọna ati ki o lẹẹmọ awọn ohun elo fun lilo ninu awá" n faili kika á1£iáo1ráo1. `uview…` or `zxviews…` kókó; àkọọ́lẹ̀ náà yóò wá ṣe àdàkọ àti ìròyìn ìsókè owó àti ìtàn láì ní àṣẹ láti náwó.
+[Zkool](https://github.com/hhanh00/zkool2) ni àṣàyàn tó rọrùn jùlọ níbí, nítorí ó gba àwọn kọ́kọ́rọ́ ìṣọ̀kan àti àwọn tí ó ti wà tẹ́lẹ̀. README rẹ̀ ṣe àkọsílẹ̀ àwọn àkọọ́lẹ̀ ìwò-nìkan tí a ṣẹ̀dá láti inú **kọ́kọ́ ìwo-ìṣọ̀kan** tàbí **kọ́kọ́ ìwo-ìfẹ̀ Sapling**, pẹ̀lú àwọn kọ́kọ́rọ́ ìfẹ̀ tí a fi ààbò pamọ́ fún ìgbàanì tí a kó jáde láti zcashd. Fi àkọọ́lẹ̀ tuntun kún un, yan ipa ọ̀nà ìwò-ìfẹ̀ nìkan, kí o sì lẹẹ mọ́ ọn. `uview…` or `zxviews…` bọtini; akọọlẹ naa lẹhinna muṣiṣẹpọ ati ijabọ awọn iwọntunwọnsi ati itan laisi aṣẹ inawo.
 
-Ìtìlẹyìn ìlànà Ironwood àti ìyípadà Orchard-to-Ironwood dé ní Zkool 6.24.0 (20 July 2026), àti 6.26.1 (2 August 2026) ṣàtúnṣe àyèwò ìṣòwò Ironwood nínú mempool. Ṣiṣẹ́ 6.26,1 tàbí lẹ́hìn èyí.
+Àtìlẹ́yìn ìlànà Ironwood àti ìṣíkiri Orchard-sí-Ironwood dé Zkool 6.24.0 (20 Keje 2026), àti 6.26.1 (2 August 2026) tí a ti ṣe àtúnṣe ìwádìí ìṣòwò Ironwood ní mempool. Ṣiṣẹ́ 6.26.1 tàbí lẹ́yìn náà.
 
 ### Zallet
 
@@ -90,26 +90,29 @@ Gbigba adirẹsi Sapling pada si akọọlẹ yẹn'Sapling ti o gbooro kikun wi
 zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 ```
 
-Àríyànjiyàn kejì ni ìlànà àtúnṣe: `"whenkeyisnew"` (ìwà àìdáa), `"yes"` or `"no"`. Ẹkẹta ni giga bulọọki lati ṣawari lẹẹkansi. Zallet gbe bọtini wọle bi akọọlẹ wiwo nikan ati tọpinpin awọn iṣowo ti n bọ ati jade fun awọn adirẹsi rẹ laisi aṣẹ inawo.
+Àríyànjiyàn kejì ni ìlànà àtúnyẹ̀wò: `"whenkeyisnew"` (àìyípadà), `"yes"` or `"no"`Ẹkẹta ni gíga bulọọki lati tun ṣe ayẹwo lati. Zallet gbe bọtini naa wọle gẹgẹbi akọọlẹ wiwo-nikan o si tọpa awọn iṣowo ti nwọle ati ti njade fun awọn adirẹsi rẹ laisi aṣẹ inawo.
 
-**Zallet n gbe awọn Sapling ti o gbooro sii ni kikun wiwo bọtini nikan.** Ko yoo ṣe agbewọle a `uview…` láti fi ààyè ìkàwé sí àkọọ́lẹ̀ tí a ṣepọ, kó o gbé UFVK náà jáde kúrò nínú Zallet kí o sì mú un wọlé sínú apamọwọ tó gba àwọn kọǹpútà aláwọ̀tọ́jú bíi Zkool.
+**Zallet gbé àwọn kọ́kọ́rọ́ ìwòran gígùn Sapling wọlé nìkan.** Kò ní gbé wọlé `uview…` Kọ́kọ́rọ́ ìwòye pípé, bó tilẹ̀ jẹ́ pé ó lè kó ọ̀kan jáde. Láti fi ààyè ìkawọ́lé sí àkọọ́lẹ̀ àpapọ̀ kan, kó UFVK jáde láti Zallet kí o sì kó o wọlé sínú àpò tí ó gba àwọn kọ́kọ́rọ́ àpapọ̀, bíi Zkool.
 
-## Ohun tó yí padà, àti ohun tí kò yẹ ká máa wá mọ́
+Láti yí kọ́kọ́rọ́ tí a kó wọlé padà sí fáìlì ìtàn ìṣòwò pípé, pẹ̀lú àwọn txids, owó àti àkọsílẹ̀, wo [Exporting Transaction History from a Viewing Key](/guides/viewing-key-transaction-export).
 
-Bí o bá tẹ̀lé àdàkọ àtijọ́ ojúewé yìí, tàbí ìtumọ̀ rẹ̀ kan, ọ̀nà mẹ́ta kò ṣiṣẹ́ mọ́.
+## Kí ló yípadà, àti ohun tí a gbọ́dọ̀ dáwọ́ dúró láti máa wá
 
-- **`zcash-cli z_exportviewingkey` àti pé, `z_importviewingkey`.** zcashd dé opin atilẹyin rẹ ni 18 July 2026 ati pe ko ṣiṣẹ mọ. Awọn ọna Zallet ti o jẹ orukọ kanna ni iyipada; wo awọn alaye fun Zcashd, eyiti a ṣe nipasẹ oludari kan lati ṣalaye bi wọn ṣe nlo owo-ori naa: [ìwé tó ń darí ìrìn àjò-àjò.](/guides/migration-guide-zcashd-to-zebrad-zallet).
-- **The Ywallet walkthrough.** The Wallets page marks Ywaller **Ironwood: Not Ready**, so it is not the wallet to point people at for Ironwood-era viewing keys. Zkool, from the same developer, accepts the same range of keys and is marked Ready. Ìtòsí ìkóhunsòpòwò tí ó wà ní ojúewé yìí ni "Ìtójúwón" àti "ìrówó". Àkọlé àwòrán Àwọn àkájọ ìwé tó ń gbé àwọn àkọọ́lẹ̀ káàkiri ayé ló fi hàn pé wọ́n ti ṣe é láti rí bí wọ́n á ṣe máa wo kókó òpópẹrẹ náà (àdàkejì) nígbà tí kò bá sí ohun kan pàtó nínú wọn.
-- **zcashblockexplorer.com/vk.** Iṣẹ́ náà dá HTTP 503 padà pẹ̀lú ìwé ẹrí tí kò léwu, ó sì ti di èyí tí a pa tì dípò kí á rọ́pò rẹ̀. Fífi kókó ìwòye sínú ojúlé ayélujára kan fi gbogbo ìtàn ìṣiṣẹ́ rẹ fún ẹnikẹ́ni tó bá ń ṣiṣẹ́ orí ilé ayélujá yẹn, ìyẹn ni ìgbàgbogbo jẹ́ ọ̀kan lára àwọn àyè mẹ́ta ní ojú-iwe àtijọ́. Gbé kókó wọle sí inú apamọwọ tí o nṣiṣẹ́ dípòi.
+Tí o bá tẹ̀lé àtúnṣe àtijọ́ ti ojú ìwé yìí, tàbí ìtumọ̀ rẹ̀, ọ̀nà mẹ́ta kò ní ṣiṣẹ́ mọ́.
 
-## Àwọn Owó-ìṣúnná owó
+- **`zcash-cli z_exportviewingkey` àti `z_importviewingkey`.** zcashd dé ìdádúró ìdúró-ìdúró-ìdúró rẹ̀ ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026, kò sì ṣiṣẹ́ mọ́. Àwọn ọ̀nà tí a dárúkọ Zallet ni a fi ń rọ́pò rẹ̀; wo [ìtọ́sọ́nà ìrìnàjò](/guides/migration-guide-zcashd-to-zebrad-zallet).
+- **Ìlànà Ywallet.** Ojú ìwé àwọn Wallets ni Ywallet **Ironwood: Kò Ṣetán**, nítorí náà kì í ṣe àpò owó láti tọ́ka sí àwọn ènìyàn fún àwọn kọ́kọ́rọ́ ìwòran ìgbà Ironwood. Zkool, láti ọ̀dọ̀ olùgbékalẹ̀ kan náà, gba irú àwọn kọ́kọ́rọ́ kan náà, a sì fi àmì náà hàn án.
+- **zcashblockexplorer.com/vk.** Iṣẹ́ náà dá HTTP 503 padà pẹ̀lú ìwé ẹ̀rí tí kò tọ́, a sì ti fi sílẹ̀ dípò kí a yípadà. Lílo kọ́kọ́rọ́ ìwòran sínú ojú òpó wẹ́ẹ̀bù kan fi gbogbo ìtàn ìṣòwò rẹ fún ẹnikẹ́ni tí ó bá ń lo ojú òpó wẹ́ẹ̀bù náà, èyí tí ó jẹ́ èyí tí ó lágbára jùlọ nínú àwọn àṣàyàn mẹ́ta lórí ojú ìwé àtijọ́. Gbé kọ́kọ́rọ́ náà sínú àpò owó tí o ń lò dípò rẹ̀.
 
-Lo awọn bọtini wiwo lori ipilẹ bi o ti nilo, ki o si fẹ bọtini to nipọn julọ ti o dahun ibeere ti a beere.
+## Àwọn ohun àlùmọ́nì
 
-- [ZIP 326: NU6.3 Àwọn ìyọrísí fún Wallets](https://zips.z.cash/zip-0326)  bí àwọn kókó ìwòran ṣe ń hùwà ní gbogbo agbami Orchard àti Ironwood
-- [ZIP 229: Ẹ̀dà 6 Àkọlé Ìṣirò](https://zips.z.cash/zip-0229)  ó ṣàpèjúwe àwọn adágún Orchard àti Ironwood.
-- [Àkọsílẹ̀ ìyípadà Zallet](https://github.com/zcash/zallet/blob/main/CHANGELOG.md)  èyí tí a tú sílẹ̀ fi kún ìlànà RPC wo ni ó wà nínú rẹ?
-- [Zkool README ì í ë ¤ì 'ë¦¬í ¬](https://github.com/hhanh00/zkool2/blob/main/README.md)  àwọn oríṣi àkọọ́lẹ̀ àti kókó tí a fọwọ́ sí
-- [ECC, Ó Ṣàlàyé Àwọn Ohun Tó Ń Mú Ká Lè Rí I](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, Àkọsílẹ̀ Ìpinnu àti Àwọn Kọ́kọ́rójú Wo-Wo](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+Lo awọn bọtini wiwo bi o ṣe nilo, ki o si yan bọtini ti o kere julọ ti o dahun ibeere ti a beere.
+
+- [Àwọn ìṣípayá ìsanwó](/zcash-tech/payment-disclosures) - fi idi awọn alaye ti a yan ti isanwo kan han laisi fifun ni iwọle si akọọlẹ kan nigbagbogbo
+- [ZIP 326: Àbájáde NU6.3 fún àwọn àpò owó](https://zips.z.cash/zip-0326) — Báwo ni àwọn kọ́kọ́rọ́ wíwo ṣe ń hùwà ní àwọn adágún Orchard àti Ironwood
+- [ZIP 229: Ẹ̀yà 6 Ìlànà Ìṣòwò](https://zips.z.cash/zip-0229) - ṣalaye awọn adagun-odo Orchard ati Ironwood
+- [Àkọsílẹ̀ ìyípadà Zallet](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) - ìtújáde tí a fi kún ọ̀nà RPC wo ni
+- [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) - akọọlẹ ti o ni atilẹyin ati awọn oriṣi bọtini
+- [ECC, Ṣàlàyé Àwọn Kọ́kọ́rọ́ Wiwo](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC, Àfihàn Àṣàyàn àti Àwọn Kọ́kọ́rọ́ Wíwo](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

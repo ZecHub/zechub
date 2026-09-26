@@ -15,14 +15,13 @@ Aqui estão alguns dos que estão ativos:
 | Thumbs' Update             | Atualizações regulares do ecossistema e análises         | [Visitar ->](https://thumbsup.substack.com) |
 | roomatemusing              | Reflexões e conteúdo da comunidade                       | [Visitar ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | Blog técnico focado no desenvolvimento e nas ferramentas de Zcash | [Visitar ->](https://blog.nerdbank.net/) |
-| Thor Likes                 | Notícias, opiniões e comentários sobre Zcash            | [Visitar ->](https://www.thorlikes.com/) |
 | ZecMec                     | Artigos sobre Zcash no Medium                            | [Visitar ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter             | Artigos aprofundados e newsletter                        | [Visitar ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)     | Entrevistas de destaque e conteúdo sobre privacidade     | [Visitar ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | Conteúdo criativo e voltado para a comunidade sobre Zcash | [Visitar ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Textos técnicos de um desenvolvedor principal de Zcash   | [Visitar ->](https://words.str4d.xyz/) |
 | CipherScan Weekly          | Publicações semanais cobrindo análises da blockchain Zcash | [Visitar ->](https://cipherscan.app/) |
-| Zcash Shielded News        | Resumo semanal de notícias sobre privacidade e ecossistema | [Visitar ->](https://zechub.wiki) |
+| Zcash Shielded News        | Resumo semanal de notícias sobre privacidade e ecossistema | [Visitar ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | Artigos e conteúdo educacional da comunidade ZecHub DAO  | [Visitar ->](https://zechub.wiki) |
 
 ---

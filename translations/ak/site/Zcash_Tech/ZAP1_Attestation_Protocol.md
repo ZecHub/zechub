@@ -1,32 +1,32 @@
-# ZAP1 Adansedi Nhyehyɛe
+# ZAP1 Attestation Protocol (Ɔbaakofoɔ a ɔtɔ so mmienu)
 
-ZAP1 yɛ open-source adansedie protocol ma Zcash. Ɛkyerɛw asetra mu nsɛm a wɔahyehyɛ no kɔ BLAKE2b Merkle dua bi so na ɛde dua ntini no hyɛ nkɔnsɔnkɔnsɔn so denam Orchard shielded memos so. Adanse ahorow no yɛ nea wotumi di ho adanse wɔ baguam. Event data no tra hɔ kokoam.
+ZAP1 is an open-source attestation protocol for Zcash. It writes structured lifecycle events to a BLAKE2b Merkle tree and anchors the tree root on-chain via Orchard shielded memos. Proofs are publicly verifiable. Event data stays private.
 
-## Sɛnea ɛyɛ adwuma
+## Sɛnea ɛyɛ adwuma no
 
-Adwumayɛfoɔ kyerɛw nsɛm a ɛsisiiɛ ahodoɔ (deployments, payments, transfers, ne nea ɛkeka ho) na wɔde kɔ ZAP1 instance. Adeyɛ biara ma ahaban hash a wɔde domain-separated BLAKE2b-256 di dwuma. Ahaban boaboa ano wɔ Merkle dua bi mu. Sɛ wɔdu threshold bi a, wɔde dua ntini no encoded sɛ ZAP1:09 memo na wɔde anchored to Zcash wɔ shielded transaction mu.
+Operators register event types (deployments, payments, transfers, etc.) and submit them to a ZAP1 instance. Each event produces a leaf hash using domain-separated BLAKE2b-256. Leaves accumulate in a Merkle tree. Sɛ wɔdu ɛdan bi mu na wonya akatua no wie a, wɔde dua no nhini di dwuma sɛ ZAP1:09 memo ma ɛyɛ adwuma wɔ Zcash so wɔ dwumadie bi a wɔn ani da hɔ so.
 
-Obiara a ɔwɔ ahaban hash betumi ahwɛ sɛ ɔkwan mũ no nyinaa fi ahaban so kɔ ntini so kɔ on-chain anchor so, a onni nea ɔde di dwuma no mu ahotoso.
+Obiara a ɔwɔ ahaban hash tumi hu kwan no nyinaa fi ahaban so kɔ ntini mu de kosi ɔkyɛn-nkrataafa, bere a ɔnni nea ɔde ne ho to n'adwumamfoɔ so.
 
-## Agyapade atitiriw
+## N'adeε a ɛho hia paa ne:
 
-- **Application-agnostic**: Zcash dwumadie biara bɛtumi akyerɛkyerɛ wɔn ankasa event ahodoɔ ne personalization strings
-- **Privacy-preserving**: event payloads yɛ hashed ansa na anchoring. Hashes nkutoo na ɛkɔ on-chain.
-- **Independently verifiable**: nokwaredi hia adanse bundle ne nkɔnsɔnkɔnsɔn kwan nkutoo. Ɛho nhia sɛ adwumayɛfo no mu ahotoso biara.
-- **ZIP 302 a ɛne no hyia**: ZAP1 rehyiam akɔ ZIP 302 partType bi so ama adansedie payload no
+- ** Application-agnostic**: obiara a ɔde Zcash di dwuma no betumi akyerɛ ne dwumadie ahodoɔ ne n'ankasa ahwehwɛde ahorow ase.
+- **Ahobanbɔ-a ɛhwɛ so**: dwumadi no ho mfasoɔ a wɔde di dwuma wɔ hash mu ansa na w'atwe ato hɔ. Hash nko ara na ɛkɔ on chain.
+- **Independently verifiable**: verification hia proof bundle ne chain access nkoara. no operator trust required.
+- **ZIP 302 compatible**: ZAP1 resane akɔfa ZIP 302, partType ama adansedie no so mfasoɔ.
 
-## Nea ɛwɔ hɔ
+## Nea ɛwɔ hɔ no
 
-- Nhwehwɛmu a wɔde di dwuma (Rust, MIT tumi krataa) .
-- SDK a ɛkyerɛ sɛ ɛyɛ nokware wɔ crates.io (Rust + 83KB WASM) .
+- Reference implementation (Rust, MIT licensed) - Nkyerεkyerεmu a εfa dwumadie ho.
+- Verification SDK wɔ crates.io (Rust + 83KB WASM) so
 - JavaScript SDK wɔ npm so
-- Amansan nyinaa memo decoder (ɛkyerɛ ZAP1, ZIP 302 TVLV, nsɛm, binary, ne memos a hwee nni mu)
-- Conformance kit a ɛwɔ API nhwehwɛmu 29 ne protocol nhwehwɛmu 14
-- FROST 2-of-3 threshold signing nhyehyɛe a wɔde ma akuw pii anchor broadcasting
-- ZIP draft PR #1243 a wɔrehwɛ mu
-- 4 mainnet anchors a ɛwɔ nhaban 14 de besi March 2026
+- Universal memo decoder (hu ZAP1, ZIP 302 TVLV, text, binary ne memos a ɛnni hwee)
+- Conformity kit with 29 API checks and 14 protocol checks (Ɛho nhyehyɛeɛ a ɛfa akwantuo ho)
+- FROST 2-of-3 threshold signing design for multi-party anchor broadcasting (Ɔwԑn Aban Ahyehyԑde a ԑfa Ɔmanfo Hɔn Agyinabea ho)
+- ZIP draft PR #1243 a wɔresusuw ho
+- 4 mainnet anchors a 14 leaves as of March 2026 (Ɛyɛ bosome no mu na wɔdi nkuro)
 
-## Dan nhyehyɛeɛ
+## Abɔdeyɛ mu adansiɛ
 
 ```
 Your app  -->  ZAP1 API  -->  Merkle tree  -->  Zcash anchor
@@ -35,14 +35,14 @@ Your app  -->  ZAP1 API  -->  Merkle tree  -->  Zcash anchor
           (DEPLOYMENT, etc)                    (ZAP1:09:{root})
 ```
 
-Operator biara de wɔn ankasa ZAP1 instance di dwuma a wɔn ankasa keys, Merkle dua, ne anchors ka ho. Tebea biara nni hɔ a wɔkyɛ wɔ adwumayɛfo ntam.
+Ɔdansifoɔ biara de ne ZAP1 nsɛdi di dwuma a wɔn ankasa nsaano, Merkle dua, ne anchors. Obiara nni tebea bi wɔ operator ntam.
 
-## Baabi a wubetumi asua pii
+## Ɛhe na wobɛtumi asua pii?
 
-- Faako a wonyae: [github.com/Frontier-Compute/zap1](https://github.com/Frontier-Compute/zap1)
-- SDK a ɛkyerɛ sɛ ɛyɛ nokware: [crates.io/crates/zap1-hwɛ](https://crates.io/crates/zap1-verify)
-- Memo decoder: [krates.io/krates/zcash-memo-dekode a wɔde kyerɛw nsɛm](https://crates.io/crates/zcash-memo-decode)
-- Protocol no ho nkyerɛkyerɛmu: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
-- ZIP a wɔde kyerɛw nsɛm: [PR #1243](https://github.com/zcash/zips/pull/1243)
-- API a ɛte ase: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
-- Ɔdefoɔ akwankyerɛ: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+- Firibea: [github.com/Frontier-Compute/zap1](https://github.com/Frontier-Compute/zap1)
+- Verification SDK: [crates.io/crates/zap1-verify](https://crates.io/crates/zap1-verify)
+- Memo dekode: [nnaka.io/nnaka/zcash-memo-decode](https://crates.io/crates/zcash-memo-decode)
+- Nhyehyɛeɛ no ho nsɛnkyerɛne: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
+- ZIP nsusue: [PR #1243](https://github.com/zcash/zips/pull/1243)
+- Mmerɛ a wowɔ hɔ: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
+- Ɔsomfoɔ akwankyerε: [OPERATOR_GUIDE.md (Ɔkwan a wɔfa so de kyerɛ kasa ase)](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

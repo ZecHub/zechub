@@ -6,24 +6,23 @@ Ndị otu obodo na-agba ọtụtụ blọọgụ dị mma gbasara Zcash, nzuzo, 
 
 Lee ụfọdụ n'ime ndị na-arụsi ọrụ ike:
 
- Blog / Onye edemede  Nkọwa njikọ 
+| Blọọgụ / Onye dere ya              | Nkọwa                                              | Njikọ |
 |----------------------------|----------------------------------------------------------|------|
-❑ Olee otú Zcash si arụ ọrụ. ● Mepụta ihe atụ nke Zcash na-arụ ọrụ [Gaa n'ebe a -> ](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
-Max Desalle: Ịmụta Zcash [Nleta ->](https://maxdesalle.com/mastering-zcash/) |
-◯ Mike Rosulek ❑ Ọṅụ nke Cryptography [Nleta -> ](https://joyofcryptography.com/) |
-James Katz Ihe odide onwe onye na echiche banyere Zcash na nzuzo [Visit ->](https://free2z.cash/James_Katz/) |
-◯ Nwelite mkpịsị aka gị. ● Mmelite na nghọta nke usoro okike mgbe niile [Gaa -> ](https://thumbsup.substack.com) |
-[Nleta -> N'ụlọ> Ọdịnaya na-eji ihe ndị dị n'ime obodo eme ihe](https://free2z.cash/roommatemusing) |
- NerdBank Blog  Technical blog lekwasịrị anya na Zcash mmepe na ngwaọrụ [Visit ->](https://blog.nerdbank.net/) |
- Thor Likes  Akụkọ, echiche na nkọwa banyere Zcash [Visit ->](https://www.thorlikes.com/) |
- ZecMec Zcash-lekwasịrị anya isiokwu na Ọkara [Visit ->](https://zecmec21.medium.com/) |
- Ian Sagstetter  Isiokwu na akwụkwọ akụkọ miri emi [Visit ->](https://iansagstetter.substack.com/) |
-♬ Naomi Brockwell (NBTV) ♬ Ajụjụ ọnụ ndị dị elu na ọdịnaya gbasara nzuzo [Visit ->](https://naomibrockwell.com/highprofileinterviews) |
- Sqribbles  Creative na obodo-chụpụrụ Zcash ọdịnaya [Visit ->](https://free2z.cash/sqribbles) |
- Str4d  Akwụkwọ edemede nke onye mmepe Zcash isi [Visit ->](https://words.str4d.xyz/) |
- CipherScan Weekly  Ọhụrụ blog posts ekpuchi Zcash blockchain analysis [Visit ->](https://cipherscan.app/) |
- Zcash Shielded News  Nchịkọta akụkọ nzuzo na gburugburu ebe obibi kwa izu [Visit ->](https://zechub.wiki) |
-◯ ZecHub DAO Blog ▸ Isiokwu na ihe mmụta sitere n'aka obodo nke Zechub DAO [Visit ->](https://zechub.wiki) |
+| Otu Zcash si arụ ọrụ            | Mepụta usoro ọrụ nke Zcash                           | [Gaa leta ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | Ịmụta Zcash                                          | [Gaa leta ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | Ọṅụ nke Cryptography                                  | [Gaa leta ->](https://joyofcryptography.com/) |
+| James Katz                 | Ihe odide na echiche nkeonwe gbasara Zcash na nzuzo      | [Gaa leta ->](https://free2z.cash/James_Katz/) |
+| Mmelite nke Mkpisi Aka             | Mmelite na nghọta gburugburu ebe obibi oge niile                   | [Gaa leta ->](https://thumbsup.substack.com) |
+| ime ụlọ na-atọ ọchị              | Echiche na ihe dị na obodo                            | [Gaa leta ->](https://free2z.cash/roommatemusing) |
+| Blọọgụ NerdBank              | Blọọgụ teknụzụ lekwasịrị anya na mmepe na ngwaọrụ Zcash    | [Gaa leta ->](https://blog.nerdbank.net/) |
+| ZecMec                     | Edemede Zcash-focused na Medium                         | [Gaa leta ->](https://zecmec21.medium.com/) |
+| Ian Sagstetter             | Isiokwu na akwụkwọ ozi miri emi                         | [Gaa leta ->](https://iansagstetter.substack.com/) |
+| Naomi Brockwell (NBTV)     | Ajụjụ ọnụ dị elu na ọdịnaya gbasara nzuzo           | [Gaa leta ->](https://naomibrockwell.com/highprofileinterviews) |
+| Sqribbles                  | Ọdịnaya Zcash nke obodo na-emepụta ihe na nke okike              | [Gaa leta ->](https://free2z.cash/sqribbles) |
+| Str4d                      | Ihe odide teknụzụ sitere n'aka onye mmepe Zcash isi             | [Gaa leta ->](https://words.str4d.xyz/) |
+| CipherScan kwa izu          | Ọkwa blọgụ kwa izu na-ekpuchi nyocha Zcash blockchain    | [Gaa leta ->](https://cipherscan.app/) |
+| Akụkọ Zcash Ekpuchiri        | Nchịkọta akụkọ nzuzo na gburugburu ebe obibi kwa izu                 | [Gaa leta ->](https://zechub.substack.com/) |
+| Blọọgụ ZecHub DAO            | Edemede na ihe mmụta sitere na obodo ZecHub DAO | [Gaa leta ->](https://zechub.wiki) |
 
 ---
 

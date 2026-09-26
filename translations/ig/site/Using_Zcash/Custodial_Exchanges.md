@@ -4,18 +4,34 @@
 
 # <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Custodial Exchanges
 
+Ironwood bụ ọdọ mmiri e ji ihe nchebe kpuchie nke rutere na mmelite netwọk nke ọnwa Julaị afọ 2026. Mgbanwe ndị na-ejikwa naanị adreesị T doro anya anaghị emetụ ya aka, yabụ a na-akara ha akara na ha adịghị mkpa. Ebe mgbanwe na-ejikwa adreesị echekwara mana ekwughị ọdọ mmiri ọ na-eji, ahịrị ahụ na-ekwu ya kama ịkọ nkọ.
+
 ---
 
-### [Binance] Ihe ndị dị mkpa.](https://binance.com)
+### [Backpack](https://backpack.exchange)
+
+<a href="https://backpack.exchange">
+    <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
+</a>
+
+- Weebụsaịtị: [Backpack](https://backpack.exchange)
+- Abụọ abụọ: ZEC/USDC | ZEC-PERP
+- Nkwado: Enyere ego na mwepụ ego. Ekwughị ụdị adreesị
+- Oge nkwụnye ego: Ekwughị ya
+- Ironwood: Ekwughị ya
+___
+
+### [Binance](https://binance.com)
 
 <a href="https://binance.com">
     <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Binance](https://binance.com)
-- N'ụzọ abụọ: ALL/ZEC
+- Weebụsaịtị: [Binance](https://binance.com)
+- Abụọ abụọ: ALL/ZEC
 - Nkwado: Transparent (Nkwụnye ego adreesị TEX)
-- Oge nkwụnye ego: 20 nkeji.
+- Oge nkwụnye ego: nkeji iri abụọ
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -24,10 +40,11 @@ ___
     <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [BitcoinVN](https://bitcoinvn.io)
-- Pairs: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- Nkwado: Ihe na-enweghị ihe ọ bụla. Echebe (z-address Deposit & Withdrawal)
-- Oge nkwụnye ego: Ozugbo (ntụgharị na-abụghị njide)
+- Weebụsaịtị: [BitcoinVN](https://bitcoinvn.io)
+- Abụọ abụọ: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- Nkwado: Transparent | Echekwara (ntinye ego na mwepụ adreesị z)
+- Oge Mgbazinye Ego: Ozugbo (mgbanwe na-abụghị nke nchekwa)
+- Ironwood: Ekwughị ya
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -36,58 +53,63 @@ ___
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Bitfinex](https://bitfinex.com)
-- N'ụzọ abụọ: ALL/ZEC
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 25 nkeji. 
+- Weebụsaịtị: [Bitfinex](https://bitfinex.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge Nkwụnye Ego: Nkeji iri abụọ na ise 
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
-### [Coinbase] Ihe na-eme ka ego dị mma.](https://coinbase.com)
+### [Coinbase](https://coinbase.com)
 
 <a href="https://coinbase.com">
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Coinbase](https://coinbase.com)
-- N'ụzọ abụọ: ALL/ZEC
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 150 nkeji.
+- Weebụsaịtị: [Coinbase](https://coinbase.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge nkwụnye ego: nkeji 150
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
- ### [Jemina](https://gemini.com)
+ ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Gemini](https://gemini.com)
-- N'ụzọ abụọ: ALL/ZEC
-- Nkwado: Ihe na-egosi ihe niile. Nchekwa Wepụ ego
-- Oge nkwụnye ego: 50 nkeji. 
+- Weebụsaịtị: [Gemini](https://gemini.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent | Mwepụ nchekwa na nke ejikọtara ọnụ, Orchard kemgbe Nọvemba 2025
+- Oge nkwụnye ego: Nkeji iri ise 
+- Ironwood: A na-akwado mwepụ nchekwa, a naghị akọwapụta ọdọ mmiri
 ___
 
-### [Huobi] Ọ bụ ihe na-atọ ụtọ.](https://huobi.com)
+### [Huobi](https://huobi.com)
 
 <a href="https://huobi.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Huobi](https://huobi.com)
-- N'ụzọ abụọ: ALL/ZEC
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 35 nkeji. 
+- Weebụsaịtị: [Huobi](https://huobi.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge Nkwụnye Ego: Nkeji 35 
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
-### [Kraken] Ọ bụ ihe a na-eme.](https://kraken.com)
+### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [Kraken](https://kraken.com)
-- N'ụzọ abụọ: ALL/ZEC.
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 60 nkeji.
+- Weebụsaịtị: [Kraken](https://kraken.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge nkwụnye ego: nkeji iri isii
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -96,20 +118,35 @@ ___
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [KuCoin](https://kucoin.com)
-- N'ụzọ abụọ: ALL/ZEC.
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 20 nkeji. 
+- Weebụsaịtị: [KuCoin](https://kucoin.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge nkwụnye ego: Nkeji iri abụọ 
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___
 
-## [OKEx](https://okex.com)
+## [OKX (nke bụbu OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- Ebe nrụọrụ weebụ: [OKEx.](https://okex.com)
-- N'ụzọ abụọ: ALL/ZEC.
-- Ihe na-akwado ya: Ọ bụ ihe a ga-ahụ anya.
-- Oge nkwụnye ego: 25 nkeji. 
+- Weebụsaịtị: [OKX](https://www.okx.com)
+- Abụọ abụọ: ALL/ZEC
+- Nkwado: Transparent
+- Oge Nkwụnye Ego: Nkeji iri abụọ na ise 
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
+___
+
+### [Robinhood](https://robinhood.com)
+
+<a href="https://robinhood.com">
+    <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
+</a>
+
+- Weebụsaịtị: [Robinhood](https://robinhood.com)
+- Abụọ abụọ: USD/ZEC | EUR/ZEC
+- Nkwado: Mwepụ ego na adreesị t doro anya naanị. Anaghị akwado nkwụnye ego ZEC
+- Oge nkwụnye ego: Anaghị akwado nkwụnye ego
+- Ironwood: Anaghị emetụta ya, naanị adreesị doro anya
 ___

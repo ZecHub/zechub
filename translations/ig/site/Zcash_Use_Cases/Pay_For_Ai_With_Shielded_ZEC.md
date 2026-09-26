@@ -120,20 +120,20 @@ ZEC gị na-apụ echekwa. Ọrụ ahụ hụrụ ụgwọ USDC nkịtị ka ọ
 
 Nke a bụ akụkụ ọtụtụ ndị nduzi na-atụfu.
 
-❑ Gịnị na-eme? ▪ Ihe ọrụ ahụ mụtara. ● Olee ihe ndị a ga-eji mee ya.
+| Kedu ihe na-eme | Ihe ọrụ ahụ na-amụta | Gịnị na-eme na yinye |
 |---|---|---|
-Ịchọgharị na ịkpata ihe ọ bụla. Enweghị akaụntụ, enweghị ozi-e. Ọ dịghị ihe ọ bụ.
-◯ A na-enye adreesị ebe a ga-edebe ego. ❑ Ọ dịghị ihe ọ bụla ị chọrọ ka m mee gị ❖ E nweghị ihe dị n'akwụkwọ ahụ.
-Ị na-akwụ ụgwọ site Sapling. adreesị nkwụnye ego ị ji ihe ọ bụla echebe ka a ga-echebe gị, ma e wezụga mgbe ahụ i nwere ike ịhụ ya n'ụzọ doro anya dị ka onye ọrụ nke ụlọ akụ anyị.
-Ị na-akwụ ụgwọ site Ironwood. Otu ego ahụ, dị ka ịdị elu nke ụlọ mpempe akwụkwọ si dị.
-Ị na-akwụ ụgwọ site n'adres doro anya. Otu ihe ahụ, ego ole ị kwụrụ nakwa adreesị gị bụ otu.
-❑ Ihe ọ bụla dị n'elu. ● IP gị, ma ị na-ejighị Tor maọbụ VPN mee ihe. □ Ọ bụghị nke a metụtara ya.
+| Ịchọgharị na mkpali | Ọ dịghị ihe ọ bụla. Enweghị akaụntụ, enweghị email | Ọ dịghị ihe ọ bụla |
+| E nyere adreesị nkwụnye ego | Ọ dịghị ihe ọ bụla | Ọ dịghị ihe ọ bụla |
+| Ị na-akwụ ụgwọ **site na Sapling** | Adreesị nkwụnye ego ị jiri | Ọ dịghị ihe ọ bụla. E chebere ya ka ọ ghara imebi |
+| Ị na-akwụ ụgwọ **site na Ironwood** | Otu ihe ahụ | **Ọnụọgụ na ogologo nke blọk ahụ** |
+| Ị na-akwụ ụgwọ **site na adreesị doro anya** | Otu ihe ahụ | Ọnụ ego na adreesị T gị |
+| Nke ọ bụla n'ime ihe ndị dị n'elu | Adreesị IP gị, belụsọ ma ị na-eji Tor ma ọ bụ VPN | Ọ metụtaghị |
 
 ### Ihe mere ọdọ mmiri ji dị mkpa
 
 Adreesị nkwụnye ego nke NanoGPT bụ adreesị dị n'otu. Nkọwapụta otu enyere na August 2026 gosipụtara kpọmkwem ndị nnata abụọ: ** Sapling** na ** Orchard ** .
 
-Kemgbe ahụ, ndị na-eme ihe nkiri. [Osisi ígwè](/zcash-tech/ironwood) nkwalite arụ ọrụ na 28 Julaị 2026, Orchard bụ naanị mmefu ma enweghị uru ọhụụ nwere ike ịbanye ya. Nke ahụ hapụrụ ** Sapling dị ka onye nnata ego ọ bụla nwere ike ịbata**.
+Kemgbe ahụ, ndị na-eme ihe nkiri. [Ironwood](/zcash-tech/ironwood) nkwalite arụ ọrụ na 28 Julaị 2026, Orchard bụ naanị mmefu ma enweghị uru ọhụụ nwere ike ịbanye ya. Nke ahụ hapụrụ ** Sapling dị ka onye nnata ego ọ bụla nwere ike ịbata**.
 
 Ya mere, ọ bụrụ na ZEC gị adịlarị na Sapling, ịkwụ ụgwọ bụ Sapling ka Sapling ma onweghị ihe gbasara ya. Ma ọ bụrụ n'ịkwaga Ironwood, ị kwụọ ụgwọ gafere oke ọdọ mmiri ahụ, yana uru dị mkpa nke ego a chọrọ iji nweta ọrụ site na ụlọ akụ maka ndị ahịa ha. [na turnstile](/zcash-tech/the-turnstile) publishes the amount and the height even though sender and receiver stay hidden.
 
@@ -163,10 +163,10 @@ I nwere ike:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Osisi ígwè](/zcash-tech/ironwood) - ihe mere na ọdọ mmiri gị ego nọdụ ke gbanwere
+- [Ironwood](/zcash-tech/ironwood) - ihe mere na ọdọ mmiri gị ego nọdụ ke gbanwere
 - [Ihe A Na-akpọ Turnstile](/zcash-tech/the-turnstile) - ihe na-aghọ ọha mgbe uru agafe ọdọ mmiri
 - [Akpa ego](/using-zcash/wallets) - nke wallets na-echekwa.
-- [ZODL (n'asụsụ Bekee)](/zcash-organizations/zodl) - obere akpa dị n'azụ CrossPay.
+- [ZODL](/zcash-organizations/zodl) - obere akpa dị n'azụ CrossPay.
 
 <br/>
 

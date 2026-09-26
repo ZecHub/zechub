@@ -28,7 +28,7 @@ Sisi kuanza kwa kuzalisha ** 128 bits ** ya entropy.
 Sisi hash entropy kutumia ** SHA256 **. bits chache za kwanza ya hash hii kuwa checksum. 
 Hii inatupa kipekee alama ya vidole kwa entropy yetu.
 
-[Entropy + Checksum mchoro](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![Entropy + Checksum mchoro](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
 
 ### 3. Kugawanywa katika vipande vya 11-bit
 Jumla ya 132 bits (128 entropy + 4 checksum) ni kutengwa katika chunks ya 11 bits.
@@ -59,7 +59,7 @@ Mbegu ya mkoba hutokana na kifungu cha mnemonic kwa kutumia ** Key Derivation Fu
 
 Hii inazalisha mbegu ya ** 64-byte (512-bit).
 
-[Mbegu kwa funguo kuu](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![Mbegu kwa funguo kuu](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
 ### Funguo Kuu
 Mbegu ni kugawanywa katika mbili 32-byte mfululizo:
@@ -78,7 +78,7 @@ Katika Zcash, ** mamlaka ya kutazama ** au ** kutumia mamlaka ** inaweza kuhamis
 
 Kutoka ** Expanded matumizi Key ** sisi kupata:
 - Full Viewing Key
-- Incoming Viewing Key (Funguo ya Kuona Inayoingia)
+- Incoming Viewing Key
 - Seti ya anwani za malipo
 
 Mifumo tofauti ya derivation kuzalisha nje anwani yanafaa kwa ajili ya kutoa nje kwa watumaji katika mabwawa shielded (Sapling & Orchard).

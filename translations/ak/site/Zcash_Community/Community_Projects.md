@@ -1,319 +1,319 @@
-# Mpɔtam Hɔ Nnwuma
+# Amanamanmufoɔ Nhyehyɛeɛ
 
-Hwehwɛ nnwinnade, sika kotoku, dwumadie, nwomakorabea, ne abɔdeɛ a nkwa wom ho nhyehyɛeɛ a Zcash mpɔtam hɔfoɔ ne abɔdeɛ a nkwa wom a nimdeɛ nnim a ɛtrɛ no asi.
-
----
-
-## Nhomasua, Nsɛm ho amanneɛbɔ, ne Mpɔtam Hɔ
-
-### Me Zcash a Edi Kan
-Nhomasua adwuma nhoma a Zcash wiase nyinaa mpɔtam hɔfo na wɔyɛe. 
-[Sra](https://github.com/massadoptionorg/My-First-Zcash)
-
-### ZECUblish na ɛyɛ adwuma
-Censorship-resistant, Zcash blockchain-a ɛyɛ adwuma wɔ sohyial media so. Zcash dwumadiefoɔ kyerɛwtohɔ ne nkrasɛm board a wɔmmɔ din ka ho. 
-[Sra](https://www.zecpublish.com)
-
-### ZK Radio so na ɔkyerɛwee
-Intanɛt so radio dwumadibea a wɔde bɛbɔ Zcash mpɔtam hɔ amanneɛ, akyerɛkyerɛ, na wɔagye wɔn ani. Zcash en Español ne ZKAV Club na wɔyɛɛ no. 
-[Sra](https://zcashesp.com/zk-radio/)
-
-### ZShieldHer na ɔyɛ
-Zcash nkyerɛkyerɛ beae a wɔde ma wɔn a wɔanya wɔn ti adidi mu wɔ ofie basabasayɛ mu. 
-[Sra](https://zshieldher.com/)
-
-### ZecForge na ɔkyerɛwee
-Ɔbɔadeɛ forge ma Zcash ecosystem no twee adwene sii onboarding, ɔbɔadeɛ nkɔsoɔ, ne nsɛm a ɛwɔ mu kyekyɛ so. 
-[Sra](https://x.com/zec_forge)
-
-### Zcash Video Series a Wobɛtumi Ayɛ no Yie
-Nhomasua a ɛkɔ akyiri a ɛfa Zcash mfiridwuma, cryptography, sikasɛm, ne nniso ho. 
-[Sra](https://www.youtube.com/watch?v=YWUzh_VtrR8)
-
-### Zcast na ɛwɔ hɔ
-Spania kasa mu Zcash podcast a ɛwɔ abɔde a nkwa wom ho nsɛm a aba foforo. 
-[Sra](https://www.youtube.com/@ZcastEsp)
-
-### Nimdeɛ a enni Audiovisual Club (ZKAV) .
-Privacy-first audiovisual collective a ɛtete, bom bɔ, na ɛde atuhoamafoɔ AV mmoa ma ma open-source ne decentralized tech mpɔtam hɔ nhyiamu. 
-[Sra](https://zkav.club/)
-
-### Zcash Network Sukuu a ɛwɔ hɔ
-Nhomasua mu nsɛm a wɔahyehyɛ ama Zcash dwumadiefoɔ ne wɔn a wɔyɛ no foforɔ. 
-[Nhyiamu](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
-
-### Zectastic a ɛyɛ nea ɛwɔ hɔ
-Interactive site a ɛkyerɛ Zcash-themed agodie ne mpɔtam hɔ nhyiam ahorow a ɛkɔ so. 
-[Sra](https://zectastic.com/)
-
-### Zec App na ɛyɛ adwuma
-Mobile application a ɛka Zcash amanneɛbɔ, mpɔtam hɔ dwumadi, ntwamutam ho nsɛm, sika kotoku, nsakrae, ne abɔde a nkwa wom ho nneɛma bom wɔ beae biako. 
-[Nhyiamu](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
-
-### PGPZ Mpɔtam Hɔ
-Community hub for Pretty Good Policy for Zcash (PGPZ), Washington D.C. nhyehyeɛ nhyehyɛeɛ a ɛtwe adwene si digyital sika a wɔkora kokoam nsɛm so, mmara sodie a mfasoɔ wɔ so, ne ɔmanfoɔ yiedie dwumadie a Zcash di. 
-[Sra](https://community.pgpz.org/)
-
-### Gleyo na ɔkyerɛwee 
-Mpɔtam hɔfoɔ nkitahodi ne akatua atenaeɛ a wɔayɛ ama Zcash mpɔtam, Web3 nnwuma, ne Web2 ahyehyɛdeɛ. Ɛboa mpɔtam hɔfoɔ wɔ hyɛn no mu na wɔde wɔn ho hyɛ asɔremma mu denam quests, chat, ne akatua so, berɛ a ɛma wɔn a wɔde di dwuma no nya na wɔtwe private shielded ZEC.
-
-[Sra](https://gleyo.app/)
-
-### Zcash Mmoa a Wɔde Ma Hub
-Community-focused grants dashboard a wɔayɛ sɛ ɛbɛma sɛdeɛ wɔhunu Zcash grants, di akyi, na wɔsan hwɛ mu no ayɛ mmerɛ. Ɛde mmoa akwammisa, nsɛntitiriw, sikasɛm nhyehyɛe, nkɔmmɔbɔ, ne nhwehwɛmu ba beae biako denam twetwe data a ɛte ase fi Zcash Community Grants GitHub akorae no so. Asɛnka agua no botae ne sɛ ɛbɛma osuahu a emu da hɔ na ɛyɛ mmerɛw sɛ wɔde bedi dwuma ama wɔn a wɔrehwehwɛ adwuma, boayikuw no mufo, ne mpɔtam hɔfo a wɔhwɛ nneɛma mu.
-
-[Sra](https://staging.zgrantshub.com/)
-
+Hwehwɛ mfidie, sika nkotoku, dwumadie ahodoɔ, nwomakorabea ne nneɛma a Zcash kuo no ayɛ na ɛde ama zero-knowledge mu.
 
 ---
 
-## Sikakorabea ne Nnwinnade a Wɔde Tua Ka
+## Nhomasua, Nsɛm Ho Dwumadibea Ne Ɔmanfo Mu Gyidi
 
-### Cipherpay a wɔde tua ho ka
-Ankorankoro sikatua a wɔde tua intanɛt so. Ɛnyɛ afiase, KYC biara nni hɔ. Aguadifo nya ZEC tẽẽ kɔ address ahorow a wɔabɔ ho ban so. 
-[Sra](https://www.cipherpay.app/en)
+### Me Dikan Zcash a Edi Kan No
+Nwoma a wɔfa so sua ade na Zcash wiase nyinaa ayɛ. 
+[Nsrahwɛ a ɛba so](https://github.com/massadoptionorg/My-First-Zcash)
 
-### Ezcash na ɔkyerɛwee
-Ɛnyɛ den sɛ wode bedi dwuma, a ɛwɔ nneɛma nyinaa multiplatform Zcash sika kotoku a autoshielding mmoa. 
-[Sra](https://blog.nerdbank.net/ezcash-app)
+### ZECPublish
+Zcash blockchain-a wɔfa so yɛ social media a ɛmmrɛ sɛ wɔbɛsesa no. Ɛka wɔn a wɔde Zcash di dwuma ho din ne message board bi nso wom. 
+[Nsrahwɛ a ɛba so](https://www.zecpublish.com)
 
-### Nozy Sikakorabea
-Zcash sika kotoku a wɔde wɔn adwene si Orchard so a wɔasi ama Zebrad, a ɛboa nnwuma a wɔabɔ ho ban koraa ne safoa sohwɛ a ahobammɔ wom. 
-[Sra](https://github.com/LEONINE-DAO/Nozy-wallet)
+### ZK Radio
+Online radio station de rebɛma Zcash community no nimdeɛ, akyerɛkyerɛ wɔn na w'agye wɔn ani. Yԑde yεn adi dwuma a ne nyinaa yɛ Zcash en Español ɛne ZKAV Club . 
+[Nsrahwɛ a ɛba so](https://zcashesp.com/zk-radio/)
 
-### Overpay.com
-Katua apon a ɛma wɔn a wɔde di dwuma no sɛe ZEC a wɔabɔ ho ban wɔ wiase ankasa mu adetɔ ho (mprempren ɛwɔ alpha mu). 
-[Sra](https://overpay.com)
+### ZShieldHer (Ɔhwɛ ne ho so)
+Zcash adesua bea a wɔhwɛ wɔn a wɔyɛ basabasa wɔ fie so. 
+[Nsrahwɛ a ɛba so](https://zshieldher.com/)
 
-### Zafu Sikakorabea
-Open-source kokoam sika kotoku ma Zcash ne Penumbra. Browser ntrɛwmu a ɛwɔ client-side proving, verified light-client architecture, cold signing, FROST multisig, ne view key biara nni hɔ a efi afiri no mu. 
-[Sra](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
+### ZecForge
+Ɔbɔadeɛ forge ma Zcash mu nneɛma a ɛwɔ hɔ no de n'adwene asi onboarding, creator development ne content distribution so. 
+[Nsrahwɛ a ɛba so](https://x.com/zec_forge)
+
+### Zcash Video Ahorow a Yɛbɛtumi Ayɛ no Yiye
+Nhomasua a ɛkɔ akyiri wɔ Zcash mfidie, nkrataa ho nimdeɛ, sikasɛm ne abansi mu. 
+[Nsrahwɛ a ɛba so](https://www.youtube.com/watch?v=YWUzh_VtrR8)
+
+### Zcast (Ɔkasa)
+Zcash podcast a ɛwɔ Spain kasa mu ne nea ɛreba nnansa yi wɔ ecosystem ho. 
+[Nsrahwɛ a ɛba so](https://www.youtube.com/@ZcastEsp)
+
+### Zero-knowledge Audiovisual Club (ZKAV) - Nhomasoɔ a enni nimdeɛ biara wɔ mu.
+Ahintasɛm-kan anibue a wɔhwɛ so ma nnipa nyinaa, na ɛboa wɔn ho ne AV mmoa ma abue kwan mu dwumadie ahorow. 
+[Nsrahwɛ a ɛba so](https://zkav.club/)
+
+### Zcash Network Sukuu no
+Nwoma a wɔhyehyɛ no yɛ nhyehyεe ma wɔn a wͻde Zcash di dwuma na wͻn de yε adwuma. 
+[Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
+
+### Zectastic
+Interactive bea a Zcash-themed agodie ne nnipa kuo dwumadie wɔ hɔ. 
+[Nsrahwɛ a ɛba so](https://zectastic.com/)
+
+### Zec App no yɛ adwuma.
+Nkrataa a wɔde di dwuma wɔ fon so no de Zcash nsɛm, nnipa mu dwumadi ahorow, network ho nkrataa, sika mpokyerɛbea ne nneɛma foforo nyinaa bom yɛ adwuma. 
+[Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
+
+### PGPZ kuo no
+Community hub for Pretty Good Policy for Zcash (PGPZ), a Washington D.C. amanyɔsԑm nhyehyεe na ɛtwe adwene si ahobanbɔ-akorabea dweredie, ne di dwuma pa wɔ ɔmanfo ani so ho no mu. 
+[Nsrahwɛ a ɛba so](https://community.pgpz.org/)
+
+### Gleyo 
+Community engagement and rewards platform designed for Zcash communities, Web3 projects, and Web2 organizations. It helps communities onboard and engage members through quests, chat, and rewards, while allowing users to earn and withdraw private shielded ZEC.
+
+[Nsrahwɛ a ɛba so](https://gleyo.app/)
+
+### Zcash Nkrataa a Ɛma Sika Hub
+Zcash yɛ ɔmansin a wɔhwɛ ma wɔn sika, na ɛboa sɛ wonya mpuntuo. Ɛde mmoa ho nsrahwɛ ba baabi baako denam data bi a ɛwɔ hɔ firi zcash community grants GitHub no so. N'atirimpɔ ne sɛ ɛbɛma apomudenfoɔ anya nimdeɛ pii de adi dwuma ama nnipa biara a wɔpɛ sɛ wɔde wɔn nsa ka biribi anaa obi bɛtumi ayɛ adwuma ama wɔn.
+
+[Nsrahwɛ a ɛba so](https://staging.zgrantshub.com/)
+
+
+---
+
+## Sika nkotoku ne akatua ho dwumadie
+
+### Cipherpay
+Ɔmanfo a wɔn ani da hɔ wɔ Intanɛt so no, wontua sika biara. Wonnfa nkontaabu mma obi na wɔmfa nkɔma obiara. Adwumayɛfo nya ZEC tẽẽ kɔ address ahorow a wɔde bɔ ho ban mu. 
+[Nsrahwɛ a ɛba so](https://www.cipherpay.app/en)
+
+### Ezcash (Ɔmanfo) kasa mu
+Easy-to-use, multi-platform Zcash wallet a ɛwɔ dwumadie nyinaa ne auto shielding mmoa. 
+[Nsrahwɛ a ɛba so](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
+
+### Nozy Wallet (Ɔkraman a Ɔbɔ Twi)
+Zcash portfolios a ɛtwe adwene si Orchard so na wɔyɛɛ no maa Zebrad, wɔboa ma wotwa nneɛma ho ban ne wɔn nsa ka ahwehwɛde. 
+[Nsrahwɛ a ɛba so](https://github.com/LEONINE-DAO/Nozy-wallet)
+
+### Overpay.com - Akwantu a wɔfa so tua ka pii
+Akatua kwan a ɛma wɔn tumi de ZEC bɔ ho ban wɔ wiase ankasa mu nneɛma so (a seesei ɛwɔ alpha). 
+[Nsrahwɛ a ɛba so](https://overpay.com)
+
+### Zafu Kuro no mu nsɛm
+Open-source kwampaefo akwanmuɔbammɔ sika krataa ma Zcash ne Penumbra. Browser atrɛw a ɛwɔ ɔhwεfoɔ no nkyɛn adanseɛ, wɔsɔ light-client architecture hwɛe, cold signing, FROST multisig, na wonnya kwan mfa afiri mu nkɔhwɛ hɔ. 
+[Nsrahwɛ a ɛba so](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo
-Zcash Register a ɛma adetɔnfoɔ ne aguadifoɔ tumi gye Zcash sikatua. 
-[Sra](https://zgo.cash)
+Zcash Register a ɛma aguadifoɔ ne adwadifoɔ tumi gye Zcash ka. 
+[Nsrahwɛ a ɛba so](https://zgo.cash)
 
-### Zimppy na ɔkyerɛwee
-Mfiri a Wɔde Tua Ka Ho Nhyehyɛe (MPP) ma Zcash. Wɔayɛ ama AI agents ne mfiri-kɔ-mfiri adwumayɛ nhyehyɛe a wɔde wɔn ankasa yɛ. Ɛboa Orchard sikatua a wɔabɔ ho ban koraa. 
-[Sra](https://zimppy.xyz/)
+### Nkranfo
+Machine Payment Protocol (MPP) ma Zcash. Wɔayɛ no ama AI agencies ne automated machine-to-machine workflows. Ɛboa Orchard akatua a wɔabɔ ho ban koraa. 
+[Nsrahwɛ a ɛba so](https://zimppy.xyz/)
 
-### Dizzy Wallet a Ɛyɛ Fɛ
-Discord bot a ɛma wonya kwan a ɛnyɛ den na ahobammɔ wom wɔ Zcash nnwuma mu. 
-[Sra](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
+### Dizzy Wallet
+Discord bot a ɔde kwan pa ma Zcash amansɛm. 
+[Nsrahwɛ a ɛba so](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Flagship Zcash sika kotoku a efi ZODL (kan no na wɔfrɛ no Zashi). Ɛwɔ iOS ne Android so. Ɛboa ZEC a wɔabɔ ho ban ne NU7 coinholder abatow. 
-[Sra](https://zodl.app/)
+Flagship Zcash wallet from ZODL (formerly Zashi). Available on iOS and Android. Supports shielded ZEC and NU7 coinholder voting.  
+[Nsrahwɛ a ɛba so](https://zodl.app/)
 
-### Noir Sikakorabea
-Zcash sika kotoku a wɔde wɔn adwene si kokoam nsɛm so a wɔayɛ ama ZEC nnwuma a ɛnyɛ den na ɛyɛ kokoam nsɛm. 
-[Nhyiamu](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
+### Noir Kɔntire no
+Privacy-focused Zcash wallet designed for simple and private ZEC transactions.  
+[Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
 
-### ZecVault na ɔkyerɛwee
-Botae a egyina sikakorabea sika kotoku a wɔasi wɔ Zcash kyɛm nkitahodi so. 
-[Nhyiamu](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
+### ZecVault (Ɔfese a wɔhwɛ so)
+Nkrataa nkrataa a wɔde kora sika so wɔ Zcash nnwumakuw mu. 
+[Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
-### Zkool na ɔkyerɛwee
-Ywallet akyidifoɔ a ɔboa Zcash protocol nneɛma a ɛtwa toɔ a Orchard ka ho. 
-[Nhyiamu](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
+### Zkool
+Ywallet a ɔgye Zcash protocol mfoni foforɔ di, ɛne Orchard. 
+[Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
-### MonteZecret na ɔkyerɛwee
-Sɔhwɛ desktop sika kotoku a emu yɛ hare ma Zcash a wɔakyerɛw wɔ Rust mu. 
-[Nhyiamu](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
+### MonteZecret
+Dwumadi krataa a emu yɛ hare ma Zcash, na wɔakyerɛw no Rust mu. 
+[Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
-### Gem Sikakorabea
-Multi-chain, open-source, self-custodial wallet a ɛboa ZEC a wɔde mena, gye, ne sesa. 
-[Sra](https://gemwallet.com/)
+### Gem Wallet
+Multi-chain, open source, self-custodial wallet a ɛboa sɛ wɔsoma ZEC. 
+[Nsrahwɛ a ɛba so](https://gemwallet.com/)
 
-### AKWANKYERƐ
-Live non-custodial tipping platform a tip biara du sɛ shielded ZEC. Ɛboa cross-chain on-ramps denam NEAR Intents so. 
-[Sra](https://tipz.cash/)
+### TIPZ (Twiase)
+Ɔyɛ ɔfese a wɔnfa nneduafoɔ nni dwuma wɔ so, na ɛsan nso yɛ baabi a wɔde adaka biara ba sɛ ZEC. Ɛboa ma wonya kwan kɔ abɔnten fa NEAR Intents ho. 
+[Nsrahwɛ a ɛba so](https://tipz.cash/)
 
-### CYZE na ɔkyerɛwee
-Sika kotoku ne nkitahodi nhyehyɛe a wɔbom yɛ a ɛma kuw no mufo pii tumi bom hwɛ Zcash sika a wɔabɔ ho ban so. Ɛde FROST threshold signatures di dwuma, na ɛma akuw tumi ma Orchard nkitahodi ho kwan wɔ bom a ɛmma obiako a ɔde ne ho hyɛ mu no tumi koraa wɔ sika kotoku no so.
+### CYZE (Ɔwɔ hɔ)
+Kɔntaktir ne nhyehyeɛ a ɛboa ma kuo mma bebree tumi di Zcash sika so wɔ bom. Ɛde FROST nsaano nkyerɛwee yɛ adwuma, na ɛma akuo no kwan sɛ wɔn nyinaa bɛtumi ayɛ Orchard dwumadie bi a obiara nni ho dwuma biara wɔ kͻntaaboɔ yi mu.
 
-[Sra](https://github.com/USCMig/Cyze)
+[Nsrahwɛ a ɛba so](https://github.com/USCMig/Cyze)
 
-### Pendrake Ɔwɛn-Aban
-Desktop sika kotoku a wɔde hwɛ nneɛma nkutoo a wɔayɛ ama ankorankoro ne ahyehyɛde ahorow a ɛsɛ sɛ wɔhwɛ sika a wɔabɔ ho ban a wonni tumi a wɔde bedi dwuma. Ɛboa atɔfoɔ ne sika a ɛkari pɛ a wɔhwɛ so, Orchard ne Sapling nsɛm a wɔakyerɛw, memo hwɛ, abakɔsɛm mu fiat boɔ a wɔbu, ayɔnkofa ho amanneɛbɔ, sika kotokuo a wɔde sie, ne screen-sharing features a ɛtwe adwene si kokoamsɛm so.
+### Pendrake Watch (Ɔwɛmfo)
+Dwumadi-nsahyɛ a wɔde hwɛ nneɛma so nkutoo, na wɔayɛ no ama ankorankoro ne ahyehyɛde ahorow a ehia sɛ wɔhwɛ sika bi ho yiye bere a wontumi mfa nnhyɛ wɔn nsa. Ɛboa ma wotwa adwuma mu di dwuma, Orchard and Sapling notes, memo viewing, abakɔsɛm fiat valuation, transaction notifications, wallet encryption, ɛne ahwehwɛbea fafa dwumadie ahodoɔ.
 
-[Sra](https://github.com/auzum197/pendrake-watch)
+[Nsrahwɛ a ɛba so](https://github.com/auzum197/pendrake-watch)
 
 ---
 
-## Nhwehwɛmufo, Data, ne Network Dashboards
+## Explorers, Data, ne Network Dashboards
 
-### CipherScan a wɔde kyerɛw nsɛm
-Kokoamsɛm-di kan Zcash blockchain nhwehwɛmufo. Wɔde Next.js 15, TypeScript, ne Rust/WASM na ɛkyekyee. Lookups ntumi nkɔ asɛmmisa metadata. 
-[Sra](https://cipherscan.app/)
+### CipherScan - Nhyehyɛeɛ a wɔde yɛ nhwehwɛmu
+Zcash blockchain explorer a ɛhwɛ ahobanbɔ so. Ɛde Next.js 15, TypeScript, ne Rust/WASM na ɛyɛe. Nhwehwɛmu no mma mmobɔ abisa ho metadata nhyerɛn mu. 
+[Nsrahwɛ a ɛba so](https://cipherscan.app/)
 
-### Exblo
-Block explorer a wɔayɛ sɛ wɔde bɛsɔ nnwuma ahwɛ wɔ Zcash Testnet so. 
-[Sra](https://testnet.exblo.app/)
+### Exblo ԑne n'adwenfa no
+Block explorer a' wɔ de ayɛ adwuma ama transaction asɔduro wɔ Zcash Testnet so. 
+[Nsrahwɛ a ɛba so](https://testnet.exblo.app/)
 
-### OpenZcash na ɛyɛ adwuma
-Ɔmanfoɔ nhumu dashboard ma Zcash Dev Fund, a ZCG ne FPF mmoa akontabuo, Lockbox, nnisoɔ, ne sika a wɔde ma ka ho. 
-[Sra](https://openzcash.org/)
+### OpenZcash
+Aban no mu trɛtrɛma paneԑ a' ԑfa Zcash Dev Fund ho, sԑnea ZCG ne FPF mmoa nkrataa so dwumadie te, Lockbox, nniso, ne sika a wotua. 
+[Nsrahwɛ a ɛba so](https://openzcash.org/)
 
-### Zcash Block Nhwehwɛmufoɔ
-Zcash block explorer a ɛyɛ pɛpɛɛpɛ fi Nighthawk Apps. 
-[Sra](https://mainnet.zcashexplorer.app/)
+### Zcash Ɔfese Kpondɛvolɛ
+Zcash block explorer a ne nyinaa wɔ hɔ firi Nighthawk Apps. 
+[Nsrahwɛ a ɛba so](https://mainnet.zcashexplorer.app/)
 
-### Zcash.Ahunmu
-Zcash Unified Address parser a egyina Browser so a wɔde hwehwɛ Unified Address ahorow mu. 
-[Sra](https://zcash.space/)
+### Zcash.Ɔsoro no
+Zcash Unified Address parser a ɛgyina browser so de hwehwɛ Unified addresses mu. 
+[Nsrahwɛ a ɛba so](https://zcash.space/)
 
-### ZecMap na ɛwɔ hɔ
-Wiase nyinaa map a ɛkyerɛ nnwuma ne mmeae a wogye Zcash. 
-[Sra](https://zecmap.com/)
+### ZecMap
+Adwuma ne mmeae a wogye Zcash no ho wiase nyinaa asase mfonini. 
+[Nsrahwɛ a ɛba so](https://zecmap.com/)
 
-### ZECping a wɔde yɛ adwuma
-Adwinnade a wɔde hwɛ gRPC mmuae bere a Zcash Lightwalletd nodes. 
-[Sra](https://github.com/emersonian/zecping)
+### ZECping (Ɔmanfo a wɔhwɛ wɔn so)
+Dwumadie a wɔde hwɛ gRPC mmuaeɛ berɛ wɔ Zcash Lightwalletd node. 
+[Nsrahwɛ a ɛba so](https://github.com/emersonian/zecping)
 
-### ZecStats na ɛwɔ hɔ
-Dashboard ma bere ankasa Zcash ntwamutam akontaabu ne shielding metrics. 
-[Sra](https://zecstats.com)
+### ZecStats
+Dwumadibea a wɔde yɛ bere-mu Zcash network statistics ne shielding metrics. 
+[Nsrahwɛ a ɛba so](https://zecstats.com)
 
-### zecprice a ɛyɛ fɛ
-Tracking ne data metrics adwinnade ma Zcash gua so bo adwumayɛ. 
-[Sra](https://zecprice.com)
+### zecprice neɛ yɛ no
+Nhyehyɛeɛ a wɔde di dwuma ne data metrics dwumadie ma Zcash wɔ ɛbɔ no ho. 
+[Nsrahwɛ a ɛba so](https://zecprice.com)
 
 ### Zlink
-Directory a wɔde hwehwɛ links, nnwinnade, ne nsɛm a ɛfa Zcash ecosystem ho. 
-[Sra](https://zlink.click)
+Kɔmputa a wɔde hwehwɛ akwan, nnwinnade ne nsɛm fa Zcash mu. 
+[Nsrahwɛ a ɛba so](https://zlink.click)
 
-### Zecmarket na ɔkyerɛwee
-Zcash abɔde a nkwa wom nhyehyɛe no gua a edi kan a ɛfa kokoam nsɛm ho. Katua no siesie tẽẽ na asɛnka agua no nkura wo sika da.
+### Zecmarket
+Zcash mu asetena kwan a edi kan no. Wɔtua ka ntɛmntɛm, na w'ahyehyɛde no mfa wo sika nsie da biara.
 
-[Sra](https://zecmarket.org/)
+[Nsrahwɛ a ɛba so](https://zecmarket.org/)
 
-### Zecsite na ɔkyerɛwee
-Wɛbsaet a ɛgyina hɔ pintinn a ɛtwe adwene si kokoamsɛm so a ɛboaboa Zcash amanneɛbɔ, akontabuo, ne nkyerɛkyerɛ nsɛm ano a wɔmfa JavaScript nni dwuma.
+### Zecsite
+YƐN websaet a y'adwen ho wɔ ahobammɔ so na ɛboaboa Zcash nsɛm, akontaabu ne nwomasua mu nkrataa ano bere a JavaScript nni dwuma.
 
-[Sra](https://zecsite/org)
+[Nsrahwɛ a ɛba so](https://zecsite.org/netscape/en/index.html)
 
-[Nhyiamu](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
+[Nhyiamu hɔ.](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
-### ZEC-OS na ɛwɔ hɔ
-Aretro-style desktop interface a ɛka Zcash ecosystem nnwinnade ahorow ne nsɛm bom yɛ no application biako. Ɛka blockchain explorer, mempool viewer, network akontaabu, abakɔsɛm charts, shielded pool ho nsɛm, mining nnwinnade, Unified Address decoder, calculator, agodie, terminal, ne utilities afoforo.
+### ZEC-OS
+Aretro-style desktop interface a ɛbom Zcash ecosystem nnwinnade ne nsɛm wɔ dwumadie baako mu. Ɛka blockchain explorer, mempool viewer, network statistics, abakɔsɛm nkrataa, shielded pool information, mining tools, Unified Address decoder, calculator, games, terminal, ɛne nneɛma afoforo bi ho.
 
-[Sra](https://www.zec-os.com/)
-
----
-
-## Nnipa a Wɔyɛ, Edin, ne Osuahu a Ɔde Di Dwuma
-
-### ZcashEdin ahorow
-Edin ahorow a nnipa betumi akenkan ama address ahorow a wɔabɔ ho ban wɔ Zcash ho (e.g. `alice.zec` resolves to a Unified Address).  
-[Sra](https://www.zcashnames.com/)
-
-### Zapp / ZappIt Kɛkɛ
-Privacy-first messenger a ɛde ZEC nkɔmmɔbɔ ahorow bata wiase ankasa sikatua ho. 
-[Sra](https://www.justzappit.xyz/)
-
-### Zentat na ɛwɔ hɔ
-Browser ntrɛwmu a ɛdannan fiat sika bo kɔ ZEC mu wɔ bere ankasa mu bere a worehwehwɛ wɛbsaet no so no. 
-[Sra](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
-
-### Ɔfasu a Wɔabɔ ho ban
-Anonymous confession platform a Zcash kokoamsɛm na ɛma ahoɔden. 
-[Sra](https://shieldedwall.org/)
-
-### Ztrash na ɛyɛ
-Email inbox a wɔtow gu a wɔde ZEC a wɔabɔ ho ban tua ho ka. 
-[Sra](https://ztrash.com/)
-
-### LiveZEC na ɛwɔ hɔ
-Tipping platform a ɛtwe adwene si kokoamsɛm so ma streamers a ɛma wɔn a wɔhwɛ no tumi de ZEC a wɔabɔ ho ban no kɔ streamer’s self-custodial wallet so tẽẽ.
-
-[Sra](https://zec.live/)
-
-### ZecLedger na ɔkyerɛwee
-Sikasɛm akyidi ne akontaabu adwinnade a ɛkora kokoamsɛm so ma Zcash. Ɛka ɔmanfoɔ dashboard a ɛfa ntwamutam data a ɛda adi pefee ne mpɔtam hɔ kokoam akontabuo a ɛde hwɛ safe di dwuma a ɛnda no adi bom, ɛboa wɔn a wɔde di dwuma no ma wɔdi sika a aka, asɛm a wɔde di dwuma ho abakɔsɛm, ɛka a wɔgyina so, na awieeɛ koraa no sikasɛm nhyehyɛeɛ ne amanneɛbɔ a wɔasiesie toɔ toɔ so berɛ a wɔkora wɔn sika so na ɛyɛ kokoam.
-
-[Sra](https://zecledger-web.vercel.app/)
-
-### Nokwaredi a wɔde ZcashMe di dwuma
-Ahodi nhyehyɛe a ɛtwe adwene si kokoamsɛm so a ɛde Zcash nkitahodi a wɔabɔ ho ban di dwuma sɛ ɔkwan a wɔfa so kɔ mu. Wɔn a wɔde di dwuma no scan QR code bi na wɔde ahotoso ho asɛm ketewaa bi mena.
-
-[Sra](https://github.com/zcashme/zns-login)
+[Nsrahwɛ a ɛba so](https://www.zec-os.com/)
 
 ---
 
-## Developer, Sɔhwɛ, ne Nneɛma a Wɔde Yɛ Adwuma
+## Suban, Din ne Odwumfo Asetena
 
-### Ziggurat na ɛyɛ
-Network sɔhwɛ suite ma zcashd ne Zebra developers. Zcash crawler ka ho. 
-[Sra](https://github.com/runziggurat/zcash)
+### ZcashNames
+"Zcash" din a nipa betumi akenkan ama Zcash address ahorow (te sɛ: `alice.zec` resolves to a Unified Address).  
+[Nsrahwɛ a ɛba so](https://www.zcashnames.com/)
+
+### Zapp / JustZappIt (Ɔwɔ hɔ wɔ kasa ahodoɔ mu)
+Ɔmanfo ho nsɛm a wodi kan no de ZEC nkitaho di dwuma ma wɔde tua ka wɔ wiase ankasa mu. 
+[Nsrahwɛ a ɛba so](https://www.justzappit.xyz/)
+
+### Ntetemu no mu nkrataa
+Browser atwerԑde a' ɔdan sika ho nsesaeԑ de kɔ ZEC wɔ bere ankasa mu sε worehwehwԑ Intanɛt so. 
+[Nsrahwɛ a ɛba so](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
+
+### Ɔfasu a Ɛbɔ Ho Ban
+Anonim a obi bɛpa ho kyɛw no dwumadibea a Zcash ahobammɔ na ɛma ɛyɛ adwuma. 
+[Nsrahwɛ a ɛba so](https://shieldedwall.org/)
+
+### Ztrash
+Krataa a wɔde kɔma obi wɔ e-mail mu no, ɔde ZEC na ɛtua ho ka. 
+[Nsrahwɛ a ɛba so](https://ztrash.com/)
+
+### LiveZEC (Ɔwɔ hɔ wɔ Ghana)
+Ɔyɛ kwankyerɛfo a wɔhwɛ wɔn ahofadi so na wɔde ma no kwan sɛ ɔtumi de ZEC kɔma nea ɔde ne ho sie sika.
+
+[Nsrahwɛ a ɛba so](https://zec.live/)
+
+### ZecLedger (Nkyerεtohɔ)
+A privacy-preserving financial tracking and accounting tool for Zcash. It combines a public dashboard for transparent network data with local private accounting that uses viewing keys without exposing them, helping users track balances, transaction history, cost basis, and eventually budgeting and tax-ready reports while keeping their funds secure and private.
+
+[Nsrahwɛ a ɛba so](https://zecledger-web.vercel.app/)
+
+### Authentication a wɔde ZcashMe di dwuma no
+Ahenhosan a wɔde di dwuma wɔ amanne ho ne sɛ, ɛyɛ adwuma de yɛ Zcash mu dwumadie. Nkorɔfo hwehwɛ QR code na afei wɔma kwan ma wɔyɛ nhyehyɛe kakra fa kyerɛ wɔn nea ɛrekɔ so.
+
+[Nsrahwɛ a ɛba so](https://github.com/zcashme/zns-login)
+
+---
+
+## Developer, Testing, ne Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa no mu
+
+### Ziggurat (ɔsom mu nkaeɛ)
+Network test suite ma zcashd ne Zebra developers. Ɛka Zcash crawler ho. 
+[Nsrahwɛ a ɛba so](https://github.com/runziggurat/zcash)
 
 ### ZecDev
-Linux-kan adwinnadeɛ a ɛde Zebra regtest ntwamutam a faucet, Unified Address fixtures, ne lightwalletd anaa Zaino, ne GitHub Actions a wɔtumi de di dwuma bio ma shielded end-to-end flows ba. 
-[Sra](https://github.com/zecdev)
+Linux-first toolkit a ɛde Zebra regtest network ba, faucet, Unified Address fixtures ne lightwalletd anaa Zaino, ɛne reusable GitHub Actions ma shielded end-to-end flows. 
+[Nsrahwɛ a ɛba so](https://github.com/zecdev)
 
-### Zebra Coverage-Guided Fuzzing Nneɛma a Wɔde Yɛ Adwuma
-Nhyehyɛeɛ a wɔde sɔ Zebra’s parsing, networking, ne cryptographic components hwɛ tia inputs a wɔanhyehyɛ no yie. 
-[Nhyiamu](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
+### Zebra coverage-guided fuzzing infrastructure
+Systematic testing of Zebra’s parsing, networking, and cryptographic components against malformed inputs.  
+[Nhyiamu hɔ.](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-### Awɔw a ɛyɛ nwini
-Threshold signature scheme (FROST) adwuma a wɔrenya nkɔsoɔ ama wɔagye atom kɛseɛ wɔ Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ mu. 
-[Krataa](https://eprint.iacr.org/2020/852)
+### Nkyenkyene
+Wɔreyɛ adwuma wɔ "threshold signature scheme" (FROST) ho de reboa ma wɔn a wɔwɔ Zcash mu no anya so mfaso. 
+[Krataafa a wɔde kyerɛw nsɛm wom](https://eprint.iacr.org/2020/852)
 
-### MonteZcret Nhwehwɛmu
-Open-source adwumayɛ-sɔhwɛ adwuma a ɛhwehwɛ akwan horow a wɔfa so yɛ Zcash blockchain data a ɛne ne ho hyia. 
-[Sra](https://github.com/openkoder/benchmarks_zcash/)
-
----
-
-## Nnwuma a Ɛtrɛw a Wɔde Zcash Di Dwuma
-
-### aftok
-Cooperative, bottom-up adwumayɛ nhyehyɛe nhwɛso a wɔasi wɔ Zcash so. 
-[Sra](https://aftok.com)
-
-### ZK Wiase Nyinaa Boa a Wɔde Ma
-Zcash-native credit ne abatow nhyehyɛe a wɔde bɛda nneɛma adi a wɔpaw, ahoboa a wɔde besiesie, din a wɔbɛfa wɔ ahye so, ne nniso a wɔabɔ ho ban. 
-[Sra](https://voting.zkglobalcredit.tech/)
-
-### Free2z
-Adwinnade a wɔde yɛ nneɛma a wɔmmɔ din ne kokoam ntoboa a Zcash na ɛma ahoɔden. 
-[Sra](https://free2z.cash)
-
-### Rhea Sikasɛm
-Zcash gateway a ɛma browser sika kotoku ne cross-chain DeFi kwan. 
-[Nhyiamu](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
-
-### BazaarSwap na ɛwɔ hɔ
-Zcash-native DEX a ɛde ZEC a wɔabɔ ho ban ba Web3 DeFi mu denam WalletConnect so. 
-[Nhyiamu](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
-
-### DCRDEX na ɔkyerɛwee
-Decred’s decentralized exchange a ɛboa Zcash. 
-[Sra](https://dex.decred.org)
-
-### Akokodurufo Sikakorabea
-Browser sika kotoku a Zcash mmoa wom. 
-[Sra](https://brave.com/wallet/)
-
-### Nano-GPT a wɔde yɛ adwuma
-AI platform a ɛma kwan kɔ AI nhwɛso ahorow pii a edi kan bere a ɛboa cryptocurrency sikatua, a Zcash ka ho.
-
-[Sra](https://nano-gpt.com/conversation/new)
-
-### zk.poker a wɔde di dwuma
-Atipɛnfo-ne-atipɛnfo poker platform a ɛka awiei-kɔ-awie encryption, adwene mu poker, ne Zcash kokoam mfiridwuma bom. Wɔayɛ no sɛnea ɛbɛyɛ a ɛho renhia sɛ nea ɔde di dwuma no hu agodifo kaad anaasɛ okura kyakyatow sika no tẽẽ.
-
-[Sra](https://zkbtc.org/)
-
+### MonteZcret Benchmark (Ɔkwan a wɔfa so yɛ ntotoe)
+Adwuma a wɔde yɛ nhwehwɛmu wɔ dwumadie ho no, na ɛhwɛ akwan ahodoɔ so de kyerɛ sɛ Zcash blockchain data mu adwuma te. 
+[Nsrahwɛ a ɛba so](https://github.com/openkoder/benchmarks_zcash/)
 
 ---
 
-## Ahyehyɛde ahorow & Labs
+## Mmerɛ a wɔde Zcash di dwuma no, wɔdi ho dwuma bebree.
 
-### Labs a Wɔabɔ ho Ban
-Zcash mmoa ahyehyɛde a ɛde ne ho, a wɔde ntoboa na ɛyɛ adwuma a ɛwɔ Switzerland. Ahyehyɛde a edi kan wɔ abɔde a nkwa wom mu a ennyaa Development Fund anaasɛ block reward funding da. 
-[Sra](https://shieldedlabs.net/)
+### ɛfɔmfoɔ
+Adwumayɛ nhyehyɛe a wɔde fa nnwuma ho na ɛgyina Zcash so. 
+[Nsrahwɛ a ɛba so](https://aftok.com)
 
-### Cypherpunk a wɔde di dwuma
-Company a wɔatu wɔn ho ama sɛ wɔbɛkora kokoam nsɛm, wɔn ankasa tumidi, ne cypherpunk gyinapɛn ahorow so. Ɔkyekye nnwinnade ma ankorankoro a ɛsɛ sɛ wɔbɔ wɔn dijitaal asetra ho ban. 
-[Sra](https://cypherpunk.com/)
+### ZK Global Credit - Ɔmanfo Ntam Ahodie
+Zcash-native credit ne voting infrastructure ma no a w'ayi ho adi, settlement readiness, cross-border reputation, na shielded governance. 
+[Nsrahwɛ a ɛba so](https://voting.zkglobalcredit.tech/)
+
+### Free2z (free)
+Dwumadie a wɔde yɛ biribi wɔ ɔkwan a enni din so ne nnipa ankasa ntoboa, na Zcash de di dwuma. 
+[Nsrahwɛ a ɛba so](https://free2z.cash)
+
+### Rhea Finance
+Zcash gateway a ɛde browser wallet ne cross-chain DeFi kwan ma. 
+[Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
+
+### BazaarSwap: Ɔmanfo a wɔtɔ so mmienu.
+Zcash-native DEX a ɛde ZEC a wɔabɔ ho ban ba Web3 DeFi so denam WalletConnect so. 
+[Nhyiamu hɔ.](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
+
+### DCRDEX
+Decreds de centralized exchange a ɛboa Zcash. 
+[Nsrahwɛ a ɛba so](https://dex.decred.org)
+
+### Brave Wallet
+Browser sika nkontaabu a Zcash mmoa wɔ mu. 
+[Nsrahwɛ a ɛba so](https://brave.com/wallet/)
+
+### Nano-GPT no ho yɛ hu.
+AI dwumadibea a ɛma obi nya kwan kɔ mfoni pii so wɔ bere koro mu ma ɔboa cryptocurrency akatua, ɛne Zcash.
+
+[Nsrahwɛ a ɛba so](https://nano-gpt.com/conversation/new)
+
+### zk.poker (Ɔwԑn Aban)
+Peer-to-peer poker kwan a ɛbom fa end-to -end encryption, mental poker ne Zcash privacy technology. Wɔayɛ no sɛnea ɛbɛyɛ na operator no nhia sɛ ohu agyinatufo nkrataa anaa ɔde sika a wɔde di agorɔ no hyɛ n'ase tẽẽ.
+
+[Nsrahwɛ a ɛba so](https://zkbtc.org/)
+
+
+---
+
+## Ahyehyɛde ne Adwumakuo a wɔhwɛ wɔn so no
+
+### Adwumakuo a wɔhwɛ wɔn so no
+Nkorabata a wɔde ntoboa na ɛhwɛ Zcash mmoa ahyehyɛde no wɔ Switzerland. Ahyehyɛde a edi kan wɔ abɔde mu a onyaa Mmoa Agyinatu anaa akatua sika da. 
+[Nsrahwɛ a ɛba so](https://shieldedlabs.net/)
+
+### Cypherpunk (Nsɛm a wɔabɔ no dawuru)
+Adwumakuw a wɔde wɔn ho hyɛ ahofadi, ahosodi ne kypherpunk gyinapɛn ahorow mu. Ɛhye ma nnwinnade bi wɔ hɔ ma ankorankoro a ehia sɛ wɔbɔ wɔn asetra a edi dwuma no ho ban. 
+[Nsrahwɛ a ɛba so](https://cypherpunk.com/)

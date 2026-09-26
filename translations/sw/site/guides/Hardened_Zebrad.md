@@ -112,13 +112,13 @@ sudo systemctl daemon-reload
 
 ## Daily Matumizi - Single-Amri Workflow
 
-Kitendo. Amri. Vidokezo.
+| Kitendo                  | Amri                                      | Vidokezo |
 |-------------------------|----------------------------------------------|-------|
-Kuanza. `sudo systemctl start zebrad` Amri moja.
-** Acha **. `sudo systemctl stop zebrad` Amri moja.
-Hali ya sasa `sudo systemctl status zebrad` Inaonyesha ikiwa inafanya kazi.
-** Kuishi kumbukumbu ** `journalctl -u zebrad -f -o short-precise` Inachukua nafasi ya `screen -r` |
-**Kupata cookie RPC** `sudo cat /var/lib/zebrad/.cookie` Tu wakati wa kukimbia.
+| **Anza**               | `sudo systemctl start zebrad`                | Amri moja |
+| **Simama**                | `sudo systemctl stop zebrad`                 | Amri moja |
+| **Hali**              | `sudo systemctl status zebrad`               | Inaonyesha ikiwa inaendeshwa |
+| **Kumbukumbu za moja kwa moja**           | `journalctl -u zebrad -f -o short-precise`  | Hubadilisha `screen -r` |
+| **Pata kuki ya RPC**      | `sudo cat /var/lib/zebrad/.cookie`           | Wakati wa kukimbia pekee |
 
 ** Aliases urahisi ** (kuongeza kwa `~/.bashrc` or `~/.zshrc`):
 ```

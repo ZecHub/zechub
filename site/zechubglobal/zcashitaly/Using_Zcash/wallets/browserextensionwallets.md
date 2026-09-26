@@ -3,7 +3,7 @@
 
 I portafogli delle estensioni del browser consentono di interagire con il proprio account tramite il browser
 
-Per saperne di più sui diversi tipi di pool Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://wiki.zechub.xyz/zcash-value-pools)
+Per saperne di più sui diversi tipi di pool Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://zechub.wiki/zcash-value-pools)
 
 ---
 

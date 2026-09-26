@@ -56,14 +56,14 @@ Si vous interrogez les données brutes, les champs de l’expéditeur et du dest
 
 ## Mettez-le en pratique
 
-- Utilisez un wallet qui utilise par défaut des adresses protégées, comme [ZODL](https://zodl.com) ou [Ywallet](https://ywallet.app/).
+- Utilisez un wallet qui utilise par défaut des adresses protégées, comme [ZODL](https://zodl.com) ou [Zingo!](https://www.zingolabs.org/).
 - Lorsque vous recevez des ZEC sur une adresse transparente, déplacez-les vers une adresse protégée avant de les dépenser.
 - Payez vers des adresses protégées lorsque c’est possible. Chaque paiement transparent est entièrement public ; un paiement protégé ne l’est pas.
 
 ## Ressources
 
 - [Zcash : recommandations de confidentialité et de sécurité](https://z.cash/support/security/privacy-security-recommendations/)
-- [Un écosystème protégé (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Un écosystème protégé (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Comment fonctionne la technologie Zcash](https://z.cash/technology/)
 - [Explorateur Zcash de Blockchair](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@ Si vous interrogez les données brutes, les champs de l’expéditeur et du dest
 - [Les bases de Zcash](/start-here/what-is-zec-and-zcash)
 - [Wallets](/using-zcash/wallets)
 - [Pools protégés](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

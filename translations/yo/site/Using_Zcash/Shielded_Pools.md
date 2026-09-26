@@ -70,7 +70,7 @@ Orchard ṣe ilọsiwaju lilo, ṣiṣe ati asiri ni pataki nipa idinku idasil�
 
 Lati igba ti igbesoke Ironwood ṣiṣẹ ni 28 Keje 2026, ** Orchard jẹ lilo-nikan. Ko si iye tuntun le wọ inu adagun naa. Awọn owo ti o wa tẹlẹ nibẹ tun le lo, ati pe wọn nlọ kiri sinu Ironwood nipasẹ awọn ọna iyipada. Wallets ṣe itọju eyi fun ọ, botilẹjẹpe ọpọlọpọ fi diẹ ninu iṣakoso lori iyara.
 
-Bí o bá ní owó Orchard, wo: [Igi irin-igi](/zcash-tech/ironwood) nítorí ohun tí ṣíṣí lọ síbòmíràn túmọ̀ sí nínú ìwàláàyè.
+Bí o bá ní owó Orchard, wo: [Ironwood](/zcash-tech/ironwood) nítorí ohun tí ṣíṣí lọ síbòmíràn túmọ̀ sí nínú ìwà hù.
 
 ____
 
@@ -88,9 +88,9 @@ Some of the upgrades include improved performance for shielded addresses, Improv
 
 Zcash Sapling gba awọn olumulo laaye lati ṣe iṣowo ti ara ẹni ni iṣẹju diẹ nigbati a ba fiwe si iye akoko to gun julọ ninu Sprout Series. 
 
-Ààbò ìsòwò ń mú kí àṣírí túbọ̀ jẹ́ àdáni, tí ó sì sọ ọ di aláìṣeé ṣe fún àwọn ẹgbẹ́ kẹta láti so ìṣàdálẹ̀ pọ̀ àti dípinnu iye ZEC ti a n gbe. Sapling tún mu ki ìlúlò sunwọ̀n sí i nípa yíyẹnu ohun-èlò tó nílò nípasẹ̀ kímọ òye ìdánimọ̀ fun ṣíṣe ètò ìbániṣiṣẹ́kọlẹ̀ láìsí ẹni to mọ̀ ọ́n dá lóhùn nípa jíjẹ́ kó rọrùn fáwọn onílò láti lòó.
+Ààbò ìsòwò ń mú kí àṣírí túbọ̀ jẹ́ àdáni, tí ó sì sọ ọ di aláìṣeé ṣe fún àwọn ẹgbẹ́ kẹta láti so ìṣàdálẹ̀ pọ̀ àti dípinnu iye ZEC ti a n gbe. Sapling tún mu ki ìlúlò sunwọ̀n sí i nípa yíyẹnu ohun àmúṣọrọ̀ kọnputa fun gbígbéṣẹ́ ìdánilẹ́kọ̀ọ́ onípamọ́ nípa sísọ rẹ̀ di èyí tó ṣeé wọlé dé lójú olùlohun-ìwífún.
 
-Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (YWallet, Zingo Wallet Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
+Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
 
 ____
 
@@ -98,13 +98,13 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Àwòrán 4: Ìtòlẹ́sẹẹsẹ tó fi àgbá ìrẹ̀ǹgbẹ hàn ní oṣù October, 2025
+Àwòrán 4: Àtẹ àwòrán tó fi adágún Sprout hàn ní oṣù kẹwàá ọdún 2025
 
 Sprout ni àkọ́kọ́ nínú àwọn ìlànà ìpamọ̀ tí kò ní àṣẹ, Zero Knowledge. Ó ti bẹ̀rẹ̀ láti 28 October 2016.
 
 Awọn adirẹsi Sprout ni a mọ nipasẹ awọn lẹta meji akọkọ wọn eyiti o jẹ "zc" nigbagbogbo. O ti pe orukọ rẹ ni "Sprout" fun idi pataki lati tẹnumọ pe sọfitiwia naa jẹ ọdọ, blockchain budding pẹlu agbara nla lati dagba ati ṣiṣi silẹ fun idagbasoke. 
 
-A lo ọ̀pọ̀lọpò gẹ́gẹ́ bí irinṣẹ́ fún ìmúlẹ̀síwájú. [Zcash ìbẹ̀rẹ̀ díẹ̀ Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) èyí tí ó mú kí ìfúnni ZEC àti èrè Block fún àwọn Miners. 
+A lo Sprout gẹ́gẹ́ bí ohun èlò ìṣáájú fún [Zcash ìbẹ̀rẹ̀ díẹ̀ Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) èyí tí ó mú kí ìfúnni ZEC àti èrè Block fún àwọn Miners. 
 
 Bi eto ilolupo Zcash ti n tẹsiwaju lati faagun pẹlu nọmba awọn iṣowo ideri, o ṣe akiyesi pe jara Sprout Series di opin ati ṣiṣe to kere si nigbati o ba de asiri olumulo, iṣiro owo-owo ati sisẹ. Eyi yori si atunṣe ti nẹtiwọọki ati Sapling Upgrade . 
 
@@ -162,7 +162,7 @@ Ohun tí èyí túmọ̀ sí sinmi lórí ibi ti owó rẹ wà:
 
 > **One privacy caveat worth knowing.** The turnstile publishes the *amount* that crosses between pools, along with the block height. Sender and receiver stay hidden as always, but a distinctive amount can be linked back to you. This is why wallets migrate in stages using standard denominations instead of moving your balance in one recognisable lump. Let your wallet pace itself, and consider using Tor or a VPN so your IP is not tied to the amounts you move.
 
-Wo àwọn ojúewé yìí: [Igi irin-igi](/zcash-tech/ironwood) fún ìmúbọ̀sípò náà fúnra rẹ̀, àti [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile) bí ìwé ìwádìí ṣe ń ṣiṣẹ́.
+Wo àwọn ojúewé yìí: [Ironwood](/zcash-tech/ironwood) fún ìmúbọ̀sípò náà fúnra rẹ̀, àti [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile) bí ìwé ìwádìí ṣe ń ṣiṣẹ́.
 
 <br/>
 
@@ -179,10 +179,10 @@ Wo àwọn ojúewé yìí: [Igi irin-igi](/zcash-tech/ironwood) fún ìmúbọ̀s
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Igi irin-igi](/zcash-tech/ironwood)  Àtúnṣe tí ó dá àgbájọ ti òde òní sílẹ̀
+- [Ironwood](/zcash-tech/ironwood)  Àtúnṣe tí ó dá àgbájọ ti òde òní sílẹ̀
 - [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile)  Bí a ṣe ń ṣàyẹ̀wò iye tí ó máa ń ṣí kiri láàárín àwọn àgbájọ owó náà.
 - [Àwọn àpamọ́ owó](/using-zcash/wallets)  Àwọn àpamọ́ owó wo ni a tọjú tí Ironwood sì ṣetán?
 - [Àwọn Àdéhùn Ìṣirò](/using-zcash/transactions)  Bí a ṣe ń fi àwọn ìnáwó tí ó ní ààbò ránṣẹ́
 - [Rírà ZEC](/using-zcash/buying-zec)  Gbígba ZEC kí o tó lò ó nínú àwọn àgbájọ.
-- [ZK-SNARKs (ì í ì ë°©í °)](/zcash-tech/zk-snarks)  Ìpilẹ̀kọ́ ìdìbò àwọn àgbá tí a fi ọṣọ bojú
+- [ZK-SNARKs](/zcash-tech/zk-snarks)  Ìpilẹ̀kọ́ ìdìbò àwọn àgbá tí a fi ọṣọ bojú
 - [Kí ni ZEC àti Zcash?](/start-here/what-is-zec-and-zcash)  Ìtàn nípa ìpamọ́ Zcash

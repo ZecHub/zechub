@@ -6,14 +6,14 @@
 
 ## Emenyawo ƒe Tabla
 
-1. [Zcash.me ƒe nyatakakadzraɖoƒea](#zcashme)
+1. [Zcash.me](#zcashme)
 2. [AɖaŋuɖoɖoZ](#tipz)
 3. [Nusita Ameŋunyatakakawo Ŋuti Nyatakaka Le Vevie Na Wɔlawo](#why-privacy-matters-for-creators)
 4. [Dɔwɔnu Bubuwo](#additional-resources)
 
 ---
 
-## Zcash.me ƒe nyatakakadzraɖoƒea
+## Zcash.me
 
 ![Zcash.me Logo](/content-images/_unavailable.svg)
 
@@ -24,7 +24,7 @@
 | Nu si nye | Nyatakakawo Tsitotsito |
 |-------------------|---------|
 | **Nyatakakadzraɖoƒe** | [https://zcash.me/](https://zcash.me/) |
-| **Twitter** ƒe nyatakakadzraɖoƒea | [@zcashme ƒe nyawo](https://x.com/zcashme) |
+| **Twitter** | [@zcashme ƒe nyawo](https://x.com/zcashme) |
 | **Nyatakaka ƒe Nɔnɔme**| `zcash.me/[username]` |
 | **Nɔnɔme** | Live (kple nɔnɔme siwo le ŋgɔyiyi me) |
 
@@ -68,7 +68,7 @@
 | Nu si nye | Nyatakakawo Tsitotsito |
 |-------------------|---------|
 | **Nyatakakadzraɖoƒe** | [https://tipz.cash/](https://tipz.cash/) |
-| **Twitter** ƒe nyatakakadzraɖoƒea | [@tipz_cash dzi](https://x.com/tipz_cash) |
+| **Twitter** | [@tipz_cash dzi](https://x.com/tipz_cash) |
 | **Nyatakaka ƒe Nɔnɔme**| `tipz.cash/@[username]` |
 | **Nɔnɔme** | Agbe |
 

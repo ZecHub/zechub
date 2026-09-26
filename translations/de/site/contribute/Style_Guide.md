@@ -41,7 +41,7 @@ Der ZecHub-Stil ist einfach und zugänglich. Wir heißen alle willkommen und kon
 
 ## Tweets
 
-> Diese allgemeine Stilrichtlinie ist zum Schreiben von Artikeln oder Benutzeranleitungen für ZecHub gedacht. Für Tweets oder kurze Aussagen verwende die [Stilrichtlinie für Tweets](./tweets.md).
+> Diese allgemeine Stilrichtlinie ist zum Verfassen von Artikeln oder Benutzeranleitungen für ZecHub gedacht. Sie gilt auch für Tweets und andere kurze Aussagen: Halte sie kurz, nenne das Wesentliche gleich zu Beginn und lasse bei kurzen Zeilen die Satzschlusszeichen weg.
 
 ---
 

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Igi àyà igi
+# Heartwood
 
 > Heartwood lọ laaye lori Zcash mainnet ni bulọọki 903,000 (Oṣù Keje 16, 2020 UTC).
 
@@ -30,7 +30,7 @@ Heartwood also changed what a block header commits to. The header field previous
 
 ![FlyClient flow: each block's header data is committed into a Merkle Mountain Range root (hashLightClientRoot), which lets a light client verify proof-of-work with a small logarithmic-size proof](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
 
-## Ibi Tí Igi Ọkàn Ti Wúlò Tó
+## Ibi ti Heartwood ba wa
 
 Heartwood is one step in a run of Zcash upgrades, each adding a piece the next one relies on. Overwinter and Sapling arrived in 2018, Blossom in 2019, and Heartwood in 2020 at block 903,000. Canopy followed later in 2020 at block 1,046,400. Sapling is the key link in this chain for Heartwood: its efficient shielded-transaction machinery was the technical precondition that made shielded coinbase possible.
 
@@ -38,21 +38,21 @@ Heartwood is one step in a run of Zcash upgrades, each adding a piece the next o
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
- Network upgrade (NU)  Aṣayan iyipada ti a ṣepọ si awọn ofin ifọkanbalẹ Zcash, ti o ṣiṣẹ ni giga bulọọki ṣeto.
- Coinbase transaction. Ìṣirò àkànṣe nínú kọ̀ọ̀kan block tí ó san èrè ìdìpọ̀ náà jáde.
- Adirẹsi Sapling ti a bo. Iru adirẹti Zcash ikọkọ kan tí ó wọlé pẹ̀lú àtúnṣe Sapling.
-ì£1⁄4ë¡ ì ¤í ¬ í ̧ ë¦¬. Heartwood yípadà tí ó jé kí block èrè ti wa ni san sinu Shielded Sapling adirẹsi.
-FlyClient. Ọna tí ó jẹ́ kí àwọn oníṣe kékeré ṣàyẹ̀wò ẹrí-iṣẹ́ pẹlú èsì dídákẹ́ńdé.
- Merkle Mountain Range (MMR) A running summary of past blocks that the block header commits to. Àkópòsí àwọn ìdìpọ̀ tó ti kọjá tí orí-ìdíwọ́ náà fi ṣe àdàkọ rẹ̀ sí:
-☐ Ajọṣepọ ẹka id. Àmì tí ó ń dá àwọn ìlànà ìmúbọ̀sípò wo ni ìṣiṣẹ́ kan tẹ̀lé, a lò fún ààbò atúnṣe (replay protection).
+| Network upgrade (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
+| Coinbase transaction | Iṣowo pataki ni bulọọki kọọkan ti o san ere bulọọki naa |
+| Shielded Sapling address | Irú àdírẹ́sì Zcash ìkọ̀kọ̀ tí Sapling ṣe àgbékalẹ̀ rẹ̀ |
+| Shielded coinbase | Àyípadà Heartwood tí ó jẹ́ kí a san àwọn èrè ìdènà sí àwọn àdírẹ́sì Sapling tí a dáàbò bò |
+| FlyClient | Ọ̀nà kan tí ó jẹ́ kí àwọn oníbàárà ìmọ́lẹ̀ ṣàyẹ̀wò ẹ̀rí iṣẹ́ pẹ̀lú àwọn ẹ̀rí kékeré |
+| Merkle Mountain Range (MMR) | Àkópọ̀ tó ń lọ lọ́wọ́ lórí àwọn búlọ́ọ̀kì tó ti kọjá tí àkọlé búlọ́ọ̀kì náà fi hàn |
+| Consensus branch id | Àmì tí ó ń ṣàfihàn àwọn òfin ìgbéga tí ìṣòwò kan ń tẹ̀lé, tí a lò fún ààbò àtúnṣe |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 
 Does Heartwood change my ZEC or my privacy? No. Heartwood did not touch your existing funds. It added the option for miners to receive rewards into shielded addresses and improved support for light clients. Your own balances and shielded transactions are unaffected.
 
-kí ni ààbò coinbase? the coinbase jẹ awọn idunadura ti o san a block èrè. heartwood nfun wipe èrè lọ si kan dì Sapling adirẹsi dipo ti a ìmọ ọkan, ki miners owo le duro ikọkọ.
+Kí ni coinbase? coinbase ni ìṣòwò tí ó ń san èrè block kan. Heartwood jẹ́ kí èrè náà lọ sí àdírẹ́sì Sapling tí a dáàbò bo dípò èyí tí ó ṣe kedere, kí owó tí àwọn awakùsà ń rí lè wà ní ìkọ̀kọ̀.
 
 Ṣe awọn oniwakiri gbọdọ gba ẹsan ti a fi pamọ bayi? Rara. Aṣayan iṣakoso owo-owo ni o jẹ aṣayan. Awọn abajade ṣiṣi iwe ifowopamọ ṣi wa ni atilẹyin, nitorinaa awọn miners le yan boya.
 
@@ -96,4 +96,4 @@ Coinbase outputs had to be transparent, so a miner's newly minted reward always 
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Òdòdó òyìnbó](../zcash-tech/blossom) · Àtúnṣe: [Àgbàlá ilé](../zcash-tech/canopy)
+Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Blossom](../zcash-tech/blossom) · Àtúnṣe: [Canopy](../zcash-tech/canopy)

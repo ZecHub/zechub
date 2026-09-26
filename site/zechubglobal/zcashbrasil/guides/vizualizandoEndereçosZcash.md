@@ -2,7 +2,7 @@
 
 Se você está aprendendo sobre a Zcash pela primeira vez, perceberá imediatamente que existem dois tipos de [transações]([https://zechub.notion.site/Transactions-2862a2c98a104c3fa08402fb9d5b71b8](https://zechub.wiki/using-zcash/transactions)) que podem ocorrer: *transparentes* e *blindadas*.
 
-Além disso, se você tem acompanhado os últimos desenvolvimentos no ecossistema Zcash, pode ter aprendido sobre [Endereços Unificados](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA's.
+Além disso, se você tem acompanhado os últimos desenvolvimentos no ecossistema Zcash, pode ter aprendido sobre [Endereços Unificados](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ou UA's.
 
 Quando as pessoas falam sobre a Zcash e suas transações *blindadas*, elas se referem a transações que envolvem endereços codificados para os protocolos Sapling ou Orchard.
 

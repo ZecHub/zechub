@@ -149,8 +149,8 @@ Cüzdanın yanıt verdiğini ve Zebra senkronizasyonu tamamladıktan sonra bakiy
 Önceden derlenmiş binary'ler/container'lar çalıştırdığınız için Zebra ve Zallet, kurulum sırasında genel olarak zcashd derlemeye kıyasla CPU açısından daha hafiftir. 4 GB RAM makul bir başlangıç noktasıdır; `htop` ile izleyin ve yoğun swap görürseniz 8 GB'lık Pi 4 varyantını değerlendirin.
 
 ## Ek kaynaklar
-- [Zebra Kitabı](https://zebra.zfnd.org) — resmi Zebra belgeleri
-- [Zallet Kitabı](https://zcash.github.io/wallet) — resmi Zallet belgeleri
+- [Zebra Kitabı](https://zebra.zfnd.org) — resmî Zebra belgeleri
+- [Zallet Kitabı](https://zcash.github.io/zallet/) — resmî Zallet belgeleri
 - [zcashd Destek Sonu bildirimi](https://z.cash/support/zcashd-deprecation)
 
 ---

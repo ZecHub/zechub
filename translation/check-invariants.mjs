@@ -8,7 +8,7 @@
 //
 // Invariants enforced:
 //
-//   Bijection (always, no git needed)
+//   Bijection (always; needs git to list the tree, but no base ref)
 //     - Every listed curated page exists in site/  (no phantom curated entries).
 //     - Per locale: the set of manifest entries == the set of translated files
 //       present under translations/<locale>/site/  (no orphan translations
@@ -46,6 +46,7 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 import { hashPage } from "./lib/normalize-hash.mjs";
+import { parseVerifiedNoops, noopAllowed } from "./lib/verified-noops.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const VALID_ENGINES = new Set(["llm", "nllb", "gt"]);
@@ -81,6 +82,11 @@ function baseRef() {
 
 const violations = [];
 const fail = (msg) => violations.push(msg);
+// Non-fatal. A notice is for something a human should tidy but that is not wrong:
+// it must never change the exit code, or an ordinary edit elsewhere would turn
+// this check red for housekeeping.
+const notices = [];
+const note = (msg) => notices.push(msg);
 
 // ---- load data ------------------------------------------------------------
 
@@ -98,7 +104,66 @@ try {
   fail(`sync-state.json is not valid JSON: ${e.message}`);
   report();
 }
+const isBlock = (v) => typeof v === "object" && v !== null && !Array.isArray(v);
+// The file parsed as JSON, which does not make it a manifest: `null`, a list or a
+// string all parse. Object.keys(null) is a TypeError, and a TypeError here throws
+// away the report along with every finding in it.
+if (!isBlock(manifest)) {
+  fail("sync-state.json is not a JSON object — cannot read any locale from it.");
+  report();
+}
 const locales = Object.keys(manifest);
+// Every level of the manifest gets its shape checked before anything reads it.
+// The top level was checked and the entries were checked; the locale blocks in
+// between were not, and Object.keys(null) is a TypeError — which loses every
+// violation collected so far and prints a stack trace instead of the report.
+for (const loc of locales) {
+  if (!isBlock(manifest[loc])) {
+    fail(`manifest locale "${loc}" is not an object — cannot read its entries.`);
+    report();
+  }
+  // And each record. Everything downstream reads fields off these; a value that
+  // is not a record makes that a TypeError, which throws away the report and
+  // every finding already in it. The checks further down test what a record
+  // SAYS; this one establishes that there is a record to ask.
+  for (const [page, entry] of Object.entries(manifest[loc])) {
+    if (!isBlock(entry)) {
+      fail(`${loc}/${page}: manifest entry is not an object — there is nothing to check.`);
+      report();
+    }
+  }
+}
+
+// ---- the human-authored Direction 2 exception list ------------------------
+// Absent means no exceptions, which is exactly the behaviour before it existed.
+const VERIFIED_NOOPS_PATH = "translation/verified-noops.txt";
+const verifiedNoops = (() => {
+  const abs = join(root, VERIFIED_NOOPS_PATH);
+  if (!existsSync(abs)) return new Map();
+  let text;
+  try {
+    text = readFileSync(abs, "utf8");
+  } catch (e) {
+    // Unreadable is not empty. Returning no exceptions would quietly refuse every
+    // page the list authorises; throwing would discard the report entirely.
+    fail(`${VERIFIED_NOOPS_PATH}: cannot be read (${e.code || e.message})`);
+    return new Map();
+  }
+  const { entries, errors } = parseVerifiedNoops(text);
+  for (const e of errors) fail(`${VERIFIED_NOOPS_PATH}: ${e}`);
+  for (const key of entries.keys()) {
+    const [loc, ...rest] = key.split("/");
+    const page = rest.join("/");
+    // A line naming a locale or page that does not exist grants nothing — the
+    // key can never match an entry — so this is a notice, not a violation.
+    // Failing here would make retiring a page or a locale impossible until
+    // somebody remembered to edit this file, and would turn a correct cleanup
+    // into a red build. A typo is worth surfacing; it is not worth blocking on.
+    if (!manifest[loc]) note(`${VERIFIED_NOOPS_PATH}: "${key}" names locale "${loc}", which does not exist — the line grants nothing and can be removed`);
+    else if (!curatedSet.has(page)) note(`${VERIFIED_NOOPS_PATH}: "${key}" names a page that is not curated — the line grants nothing and can be removed`);
+  }
+  return entries;
+})();
 
 // ---- locale universe: manifest keys ⇔ translations/<loc> directories ------
 // The manifest defines the locale universe for detection, so it must not be
@@ -108,12 +173,18 @@ const locales = Object.keys(manifest);
 function localeDirs() {
   let out;
   try {
-    out = execFileSync("git", ["ls-files", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
-  } catch {
+    // -z: without it git C-quotes any non-ASCII path, and a quoted path matches
+    // none of the tests below — the file would leave the corpus unnoticed.
+    out = execFileSync("git", ["ls-files", "-z", "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+  } catch (e) {
+    // An empty set here means "no locale directories exist", which would hide
+    // the entire translated corpus and pass every bijection check vacuously.
+    // Absence must be observed, never inferred from a failure.
+    fail(`could not list translations/ (${e.code || e.message}) — refusing to treat that as "nothing is there".`);
     return new Set();
   }
   const dirs = new Set();
-  for (const p of out.split("\n")) {
+  for (const p of out.split("\0")) {
     const m = p.match(/^translations\/([^/]+)\/site\//);
     if (m) dirs.add(m[1]);
   }
@@ -124,6 +195,35 @@ function localeDirs() {
   const manifestLocales = new Set(locales);
   for (const d of dirs) if (!manifestLocales.has(d)) fail(`locale "${d}" has translations but no manifest block`);
   for (const l of manifestLocales) if (!dirs.has(l)) fail(`manifest declares locale "${l}" with no translations/${l}/site/ directory`);
+}
+
+// ---- every tracked translation is an ordinary file -----------------------
+// A symlink's blob holds its TARGET PATH, so the object id and the text a reader
+// actually sees can move independently: the diff says "changed" when the page did
+// not, or says nothing when the target was rewritten underneath it. Stated over
+// the whole tree rather than per change, because a link that was already there
+// appears in no diff, and the rule is a property of the corpus rather than of one
+// pull request. (An earlier note credited a per-diff-record check for this; that
+// check was deleted once this one existed.) The base side is covered separately,
+// where its hash is read.
+{
+  let listing;
+  try {
+    listing = execFileSync("git", ["ls-files", "-s", "-z", "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+  } catch (e) {
+    fail(`could not list translations/ with modes (${e.code || e.message}) — refusing to treat that as "nothing is there".`);
+    listing = "";
+  }
+  for (const rec of listing.split("\0")) {
+    if (!rec) continue;
+    const m = rec.match(/^(\d{6}) [0-9a-f]+ \d+\t([\s\S]+)$/);
+    if (!m) { fail(`could not parse git ls-files record "${rec.slice(0, 80)}".`); continue; }
+    const [, mode, path] = m;
+    if (!path.endsWith(".md")) continue;
+    if (mode !== "100644" && mode !== "100755") {
+      fail(`${path} is not a regular file (mode ${mode}) — translations must be ordinary files, not symlinks or submodules.`);
+    }
+  }
 }
 
 // ---- bijection: curated ⊆ site -------------------------------------------
@@ -141,16 +241,25 @@ function localeDirs() {
 // than softening it to a warning. The deletion PR is the cheap moment to catch it.
 //
 //   deleted here  — the source existed at the base ref and is gone now. A
-//                   legitimate editorial act; drop the curated line in the same
-//                   PR and the next sync removes the orphaned translations.
+//                   legitimate editorial act; retire it in the same PR, which
+//                   means the curated line AND the manifest entries AND the
+//                   translated files. Leaving the files for a later sync does not
+//                   work: an entry without a curated line and a file without an
+//                   entry are each refused in their own right.
 //   never existed — a phantom entry (typo, wrong case, wrong directory). A real
 //                   defect in the curated list, not a consequence of this PR.
 
-// Resolve the comparison point ONCE. The MERGE-BASE, not the base tip: probing
-// the tip answers "is it on main right now", which is a different question and
-// gives the wrong answer on every PR after a deletion has landed. (Confirmed by
-// simulation: an unrelated PR branched after such a deletion was told the page
-// "never did" exist — for a page that had been there for years.)
+// Resolve the comparison point ONCE, and as the MERGE-BASE rather than the base
+// tip. The reason is change-tracking, not the deletion message: comparing against
+// a tip that has moved ahead of the branch reads main's own later commits as
+// reversals, which shows up as a refusal for work the branch never did. Measured:
+// a branch cut before an authorised no-op landed on main is refused when compared
+// against the tip and passes against the merge base.
+//
+// The deletion diagnostic is affected too, and in the same direction: where main
+// has since deleted the page, or added it after the branch was cut, the tip and
+// the merge base disagree and the merge base gives the truer message. An earlier
+// note here claimed they were indifferent there; they are not.
 let _baseCmpSha;
 function baseCompareSha() {
   if (_baseCmpSha !== undefined) return _baseCmpSha;
@@ -213,8 +322,10 @@ function pathAtBase(relPath) {
       `but are still listed in translation/curated-pages.txt:\n` +
       deletedHere.map((q) => `      - ${q}`).join("\n") +
       `\n    If you DELETED the page: remove those exact lines from ` +
-      `translation/curated-pages.txt here. Leave translations/<locale>/site/ alone — the ` +
-      `next translation sync detects them as orphans and removes them.` +
+      `translation/curated-pages.txt, AND the page's entry from every locale block in ` +
+      `translation/sync-state.json, AND the translated files themselves. All three: a ` +
+      `curated line without a page, an entry without a curated line, and a file without an ` +
+      `entry are each refused, so removing only some of them cannot go green.` +
       `\n    If you RENAMED or MOVED it: put the NEW path in curated-pages.txt instead of ` +
       `deleting the line, or the page silently drops out of translation in all 18 locales.`
     );
@@ -244,14 +355,18 @@ function pathAtBase(relPath) {
 function localeFiles(loc) {
   let out;
   try {
-    out = execFileSync("git", ["ls-files", `translations/${loc}/site/`], {
+    out = execFileSync("git", ["ls-files", "-z", "--", `translations/${loc}/site/`], {
       cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT,
     });
-  } catch {
+  } catch (e) {
+    // Empty would mean "this locale has no files", so every manifest entry for
+    // it would look like an orphan and every real file would go unchecked.
+    // Absence must be observed, never inferred from a failure.
+    fail(`could not list translations/${loc}/site/ (${e.code || e.message}) — refusing to treat that as "nothing is there".`);
     return new Set();
   }
   return new Set(
-    out.split("\n")
+    out.split("\0")
       .filter((p) => p.endsWith(".md"))
       .map((p) => p.replace(`translations/${loc}/site/`, "")),
   );
@@ -273,7 +388,6 @@ for (const loc of locales) {
   }
   // provenance well-formedness
   for (const [page, e] of Object.entries(entries)) {
-    if (typeof e !== "object" || e === null) { fail(`${loc}/${page}: entry is not an object`); continue; }
     if (typeof e.src !== "string" || !/^sha256:[0-9a-f]{64}$/.test(e.src)) fail(`${loc}/${page}: invalid src hash`);
     if (!VALID_ENGINES.has(e.engine)) fail(`${loc}/${page}: invalid engine "${e.engine}"`);
     if (!VALID_MODES.has(e.mode)) fail(`${loc}/${page}: invalid mode "${e.mode}"`);
@@ -292,11 +406,24 @@ for (const loc of locales) {
 
 // ---- freshness declaration ------------------------------------------------
 
+// Hash a page from disk, or null when there is no page there. An unreadable file
+// is neither: it is a finding. Letting the read throw would abandon every
+// violation already collected and print a stack trace instead of the report.
+function hashFileOrNull(abs, label) {
+  if (!existsSync(abs) || !statSync(abs).isFile()) return null;
+  try {
+    return hashPage(readFileSync(abs, "utf8"));
+  } catch (e) {
+    fail(`${label}: cannot be read (${e.code || e.message})`);
+    return null;
+  }
+}
+
 const srcHashCache = new Map();
 function currentHash(page) {
   if (!srcHashCache.has(page)) {
     const abs = join(root, "site", page);
-    srcHashCache.set(page, (existsSync(abs) && statSync(abs).isFile()) ? hashPage(readFileSync(abs, "utf8")) : null);
+    srcHashCache.set(page, hashFileOrNull(abs, `site/${page}`));
   }
   return srcHashCache.get(page);
 }
@@ -304,8 +431,54 @@ for (const loc of locales) {
   for (const [page, e] of Object.entries(manifest[loc])) {
     if (currentHash(page) === e.src) {
       const abs = join(root, "translations", loc, "site", page);
-      if (!existsSync(abs)) fail(`${loc}/${page}: claims freshness but translated file is absent`);
+      // isFile, not merely exists: a DIRECTORY at a page's path reads as a
+      // deletion to git, and a deletion counts as "changed" — which is the
+      // classification that satisfies Direction 2. Without this, replacing a
+      // translation with a directory of the same name settled a stale page.
+      if (!existsSync(abs) || !statSync(abs).isFile()) fail(`${loc}/${page}: claims freshness but there is no translated file there`);
     }
+  }
+}
+
+// The translation ON DISK, hashed the same way as the English so a line can pin
+// both sides of what a person actually looked at. "On disk" is not a caveat here,
+// it is what the whole check reads: the manifest, both page hashes, and the diff
+// that narrows the work all describe the working tree. An uncommitted change is
+// therefore seen and judged — which is why a dirty tree gets a notice saying the
+// answer describes your disk rather than the commit CI will look at.
+const transHashCache = new Map();
+function translationHash(loc, page) {
+  const k = `${loc}/${page}`;
+  if (!transHashCache.has(k)) {
+    const abs = join(root, "translations", loc, "site", page);
+    transHashCache.set(k, hashFileOrNull(abs, `translations/${loc}/site/${page}`));
+  }
+  return transHashCache.get(k);
+}
+
+// ---- expired exception lines ----------------------------------------------
+// A line in verified-noops.txt names both the English and the translation it is
+// about, so it stops applying by itself once either of them moves on. Expiry is
+// the design working, not a fault — so this is a notice, never a failure.
+// Without it the file would silently accumulate lines nobody can tell are dead.
+//
+// This loop must stay BELOW both hash helpers: it once sat above translationHash's
+// cache, so every call threw on the uninitialised `const` and the catch below
+// swallowed it. The notices were dead for the whole life of the feature and no
+// exit code could show it.
+for (const [key, listed] of verifiedNoops) {
+  const [loc, ...rest] = key.split("/");
+  const page = rest.join("/");
+  if (!manifest[loc] || !curatedSet.has(page)) continue;   // noted above; inert
+  // Both helpers report an unreadable file and return null, so neither throws and
+  // this loop cannot end the run. A file nothing else reaches still gets reported
+  // once, by the helper, rather than silently skipped here.
+  const current = currentHash(page);
+  const currentTrans = translationHash(loc, page);
+  if (current !== null && current !== listed.src) {
+    note(`${VERIFIED_NOOPS_PATH}: "${key}" no longer applies — the English it names has changed, so the line can be removed`);
+  } else if (currentTrans !== null && currentTrans !== listed.translation) {
+    note(`${VERIFIED_NOOPS_PATH}: "${key}" no longer applies — the translation it names has changed since it was looked at, so the line can be removed`);
   }
 }
 
@@ -344,21 +517,14 @@ if (baseArgInvalid) {
   // Fail closed: a REQUESTED base that can't be resolved must NOT silently skip
   // the gate (force-push, shallow clone, or a typo would otherwise disable the
   // only history-dependent invariant while still exiting green).
-  let baseSha = null;
-  try {
-    baseSha = execFileSync("git", ["rev-parse", "--verify", "--quiet", `${base}^{commit}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }).trim();
-  } catch {
-    baseSha = null;
-  }
-  if (!baseSha) {
+  // baseCompareSha() already answers "which commit do we compare against" — it
+  // resolves the ref and walks back to the merge base, with the same fallback for
+  // unrelated histories. Asking it twice, two different ways, is how the two
+  // answers drift apart.
+  const mergeBase = baseCompareSha();
+  if (!mergeBase) {
     fail(`base ref "${base}" could not be resolved — refusing to skip change-tracking silently (shallow clone? force-push? run CI with fetch-depth: 0).`);
   } else {
-    let mergeBase = baseSha;
-    try {
-      mergeBase = execFileSync("git", ["merge-base", baseSha, "HEAD"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }).trim();
-    } catch {
-      mergeBase = baseSha; // divergent/unrelated history → direct diff against base
-    }
 
     // Whether the manifest existed at the base is a real distinction — absent
     // means this PR introduces it and there is genuinely nothing to
@@ -413,43 +579,239 @@ if (baseArgInvalid) {
       // an array, or a string parses fine and then throws on the first
       // `baseManifest[loc]` below. Reject the shape here so the reason is
       // reported instead of a stack trace.
-      if (!baseUnreadable && (typeof baseManifest !== "object" || baseManifest === null || Array.isArray(baseManifest))) {
+      if (!baseUnreadable && !isBlock(baseManifest)) {
         baseUnreadable = true;
         fail(`the manifest at base ${mergeBase.slice(0, 12)} is not a JSON object — cannot change-track against it.`);
+      }
+      if (!baseUnreadable) {
+        for (const loc of Object.keys(baseManifest)) {
+          if (!isBlock(baseManifest[loc])) {
+            baseUnreadable = true;
+            fail(`locale "${loc}" in the manifest at base ${mergeBase.slice(0, 12)} is not an object — cannot change-track against it.`);
+            continue;
+          }
+          // And the records inside. This level was left unchecked while the two
+          // around it were checked, and it is the one where a miss costs a verdict
+          // rather than a crash: a FALSY record reads exactly like "no record at
+          // this key", so the page is taken for a new one and both rules step
+          // over it — the record advances with nothing to check it against.
+          for (const page of Object.keys(baseManifest[loc])) {
+            if (!isBlock(baseManifest[loc][page])) {
+              baseUnreadable = true;
+              fail(`${loc}/${page} in the manifest at base ${mergeBase.slice(0, 12)} is not a record — cannot change-track against it.`);
+            }
+          }
+        }
       }
     }
 
     if (firstIntroduction) {
       console.log(`notice: base ${mergeBase.slice(0, 12)} has no manifest — first introduction, nothing to change-track.`);
     } else if (!baseUnreadable) {
-      let changed;
+      // ONE comparison per manifest entry, shared by both rules: did this
+      // translation change, and what record did this page have before?
+      //
+      // "Changed" means the normalised text differs (hashPage: line endings,
+      // trailing blank lines, BOM, volatile front matter, Unicode form). Asking
+      // git a different question and treating its answer as this one is what
+      // produced the worst defect this check has had.
+      //
+      // Be careful with the next step of that thought, because it does not hold.
+      // hashPage is deliberately generous about what counts as a change: on the
+      // ENGLISH side, over-reporting costs a little retranslation and
+      // under-reporting serves a stale page forever, so it errs towards flipping.
+      // Here that asymmetry is INVERTED — a translation counted as changed is what
+      // lets `src` advance, so over-reporting a change under-reports staleness.
+      // The five things above are what hashPage normalises, NOT the set of edits a
+      // reader cannot see: an HTML comment, a zero-width character, an interior
+      // blank line all count as changes and will settle a stale page. That is a
+      // known limit with a test on it, not an oversight; narrowing it would take a
+      // markdown AST, which this pipeline deliberately does not have.
+      //
+      // git's byte-level diff is used only to NARROW the work. A difference in
+      // normalised text implies a difference in bytes, so a path git calls
+      // identical cannot have changed; the reverse does not hold, which is why
+      // the paths git does list are then compared properly.
+      let touched;
       try {
-        changed = execFileSync("git", ["diff", "--name-only", "-z", `${mergeBase}..HEAD`, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        const listing = execFileSync("git", ["diff", "--name-only", "-z", "--no-renames", mergeBase, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        touched = new Set(listing.split("\0").filter(Boolean));
       } catch (e) {
         // The base resolved but the diff failed — do not treat as "no changes".
         fail(`git diff against base ${mergeBase.slice(0, 12)} failed: ${e.message}`);
-        changed = "";
+        touched = null;
       }
-      const changedSet = new Set(
-        changed.split("\0")
-          .filter((p) => p.endsWith(".md"))
-          .map((p) => p.match(/^translations\/([^/]+)\/site\/(.+)$/))
-          .filter(Boolean)
-          .map((m) => `${m[1]}/${m[2]}`),
-      );
+
+      // Two readers now ask for the same path — the predecessor index below and
+      // the per-entry comparison after it — so the answer is kept. Not for speed:
+      // an unreadable base file is a violation, and asking twice would report it
+      // twice for one fault. Third instance of the cache already used for the
+      // English and the translated side.
+      const baseHashCache = new Map();
+      // The head-side rule that a translation must be an ordinary file says nothing
+      // about the base, and the base's hash is evidence in the same comparison. A
+      // symlink there reads back as its TARGET PATH, which cannot equal the page
+      // text, so the pair compares unequal forever — "changed", the answer that
+      // settles a source bump. Listed once; the modes come from the same tree read
+      // the head-side rule uses.
+      const baseNonRegular = new Set();
+      try {
+        const listing = execFileSync("git", ["ls-tree", "-r", "-z", mergeBase, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        for (const rec of listing.split("\0")) {
+          if (!rec) continue;
+          const m = rec.match(/^(\d{6}) \w+ [0-9a-f]+\t([\s\S]+)$/);
+          if (m && m[1] !== "100644" && m[1] !== "100755") baseNonRegular.add(m[2]);
+        }
+      } catch (e) {
+        fail(`could not list translations/ at base ${mergeBase.slice(0, 12)}: ${e.message}`);
+      }
+
+      const baseHash = (loc, page) => {
+        const k = `${loc}/${page}`;
+        if (!baseHashCache.has(k)) baseHashCache.set(k, readBaseHash(loc, page));
+        return baseHashCache.get(k);
+      };
+      function readBaseHash(loc, page) {
+        if (baseNonRegular.has(`translations/${loc}/site/${page}`)) {
+          fail(`translations/${loc}/site/${page} was not a regular file at base ${mergeBase.slice(0, 12)} — what it recorded cannot be read back, so nothing can be compared against it.`);
+          return null;
+        }
+        const rel = `translations/${loc}/site/${page}`;
+        // A path git did not list has identical bytes at both ends, so the hash
+        // already read from the working tree IS the hash at the base. That is the
+        // same inference the narrowing above rests on, used here to source an
+        // answer instead of to skip one. It is what keeps a predecessor index
+        // over every base entry from costing one git invocation per pair:
+        // measured on this corpus, 3762 of them take the run from 0.6s to 27.7s.
+        // Only when the file is actually there — an absent one is a finding the
+        // read below reports, not a hash of nothing.
+        if (touched !== null && !touched.has(rel)) {
+          const wt = translationHash(loc, page);
+          if (wt !== null) return wt;
+        }
+        try {
+          // `cat-file --filters`, not `show`: `show` hands back the raw blob, while
+          // the other side of this comparison reads the working tree. Where a
+          // .gitattributes filter applies those are different representations of
+          // the same page, and every listed path then compares unequal forever —
+          // which is the answer that skips Direction 2. Both sides must be read in
+          // the form a reader sees.
+          //
+          // GIT_ATTR_SOURCE pins WHOSE attributes convert it: without it the base
+          // blob is read through the attributes of the tree being checked. Pinning
+          // to the base is correct by construction — read the base as the base —
+          // but be accurate about its worth: a sweep of the attribute transitions
+          // this comment used to cite found no case where it changes a verdict, and
+          // no test pins it. It is kept as a correctness statement, not as a guard
+          // that is known to catch something.
+          //
+          // And it buys nothing on the head side, which applies no attributes at
+          // all: readFileSync reads the bytes on disk. See limit C.
+          return hashPage(execFileSync("git", ["cat-file", "--filters", `${mergeBase}:${rel}`], {
+            cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT,
+            env: { ...process.env, GIT_ATTR_SOURCE: mergeBase },
+          }));
+        } catch (e) {
+          // Only ever asked for a path the BASE manifest names, so the file was
+          // there. Failing to read it is a finding, not an absence — and it must
+          // not read as "changed", because that is the answer that satisfies
+          // Direction 2 and would license the very bump we cannot verify.
+          fail(`could not read ${rel} at base ${mergeBase.slice(0, 12)}: ${e.message}`);
+          return null;
+        }
+      }
+
+      // key -> { was, changed }
+      //
+      // A page that moved is still the page it was, and its record should move
+      // with it. Its predecessor is a base manifest key whose translation is the
+      // one now sitting at the new key.
+      // Keys, not paths, and across ALL locales: renaming `translations/it` to
+      // `translations/it-IT` moves every page at once, and searching only within
+      // a locale made all 18 of them look brand new — which is how a locale-code
+      // migration could mark stale translations current.
+      // And across all base keys, INCLUDING ones that still exist. A move split
+      // across two pull requests copies the page in the first and retires the old
+      // key in the second; if only keys that disappeared here could be a
+      // predecessor, the copying half has nothing to compare against, so the new
+      // key's `src` is checked against no record at all and can claim an English
+      // its translation was never made against. Both halves go green.
+      const predecessors = new Map();
+      for (const loc of Object.keys(baseManifest)) {
+        for (const page of Object.keys(baseManifest[loc])) {
+          // A key that still exists earns its place in this index only when its
+          // hash comes free from the working tree. With no diff to say which
+          // paths stand still, nothing comes free, and asking git for each of
+          // them is one invocation per pair. That run has already failed on the
+          // diff; it does not also need to take 27 seconds about it.
+          if (touched === null) continue;
+          const h = baseHash(loc, page);
+          if (h === null) continue;
+          predecessors.set(h, [...(predecessors.get(h) || []), { loc, page, entry: baseManifest[loc][page] }]);
+        }
+      }
+
+      const comparisons = new Map();
+      for (const loc of locales) {
+        for (const page of Object.keys(manifest[loc])) {
+          const rel = `translations/${loc}/site/${page}`;
+          let was = baseManifest[loc]?.[page];
+          let changed;
+          if (was) {
+            // Unlisted by git ⇒ the bytes are identical ⇒ nothing changed. A side
+            // we could not read is not "changed" either: unknown must never be the
+            // answer that lets a source bump through.
+            const before = touched !== null && touched.has(rel) ? baseHash(loc, page) : null;
+            changed = before !== null && before !== translationHash(loc, page);
+          } else {
+            const candidates = predecessors.get(translationHash(loc, page)) || [];
+            // Several predecessors only matter when they would answer
+            // differently. What is read from `was` on this path is the source it
+            // was translated against and whether it is held as hand-edited —
+            // Direction 2 below, and noopAllowed's refusal on `edited`. Direction
+            // 1 never sees it, because a page that continues a record did not
+            // change. Candidates agreeing on those two give the same verdict
+            // whichever one this page continues, so refusing would only block
+            // honest work: three pages in this corpus carry one translation
+            // across up to 17 locales (the English, passed through untranslated),
+            // and seeding any new locale lands on them.
+            // Compare the two fields as VALUES, not as text. `false` and the
+            // string "false" print the same and are not the same: noopAllowed
+            // admits one and refuses the other, so a key that conflates them
+            // would call two candidates equivalent when they decide the page
+            // differently. `edited` is keyed as "is it exactly false", because
+            // that is the only distinction anything downstream makes of it.
+            const disagree = new Set(candidates.map((c) =>
+              JSON.stringify([c.entry.src ?? null, c.entry.edited === false])));
+            if (disagree.size > 1) {
+              fail(`${loc}/${page}: this translation is identical to ${candidates.length} entries at the base (${candidates.map((c) => `${c.loc}/${c.page}`).join(", ")}), and they do not agree on the record they carry — the source they were translated against, or whether they are held as hand-edited — so which one this page continues cannot be told. Give this page a translation distinct from theirs — re-translating it is the only thing that separates them, and moving one page at a time does not, because a page that is still there counts too.`);
+            }
+            was = candidates[0]?.entry;
+            changed = !was;   // a move changed nothing; a genuinely new page is new
+          }
+          comparisons.set(`${loc}/${page}`, { was, changed });
+        }
+      }
+
+      try {
+        const dirty = execFileSync("git", ["status", "--porcelain", "-z", "--", "site/", "translations/", "translation/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        const n = dirty.split("\0").filter((x) => x !== "").length;
+        if (n > 0) {
+          note(`${n} uncommitted change(s) under site/, translations/ or translation/ — this run describes your WORKING TREE, not the commit CI will check. Commit before trusting a green result.`);
+        }
+      } catch { /* status is advisory; never let it end the run */ }
 
       // Direction 1 — translation changed ⇒ manifest must record why.
-      for (const key of changedSet) {
+      for (const [key, { was, changed }] of comparisons) {
+        if (!changed) continue;
         const [loc, ...rest] = key.split("/");
         const page = rest.join("/");
-        const now = manifest[loc]?.[page];
-        const was = baseManifest[loc]?.[page];
-        if (!now) continue; // deletion — bijection handles the file/entry pairing
+        const now = manifest[loc][page];
         // A hand-edit is a valid reason ONLY when the edited flag FLIPS in this
         // PR (false/absent → true). `edited:true` already at base is not a
         // standing licence to mutate the file forever with no manifest trace.
         const editFlipped = now.edited === true && was?.edited !== true;
-        const provenanceChanged = !was || now.src !== was.src || now.mode !== was.mode || now.tool !== was.tool;
+        const provenanceChanged = !was || now.src !== was.src || now.mode !== was.mode || now.tool !== was.tool || now.engine !== was.engine;
         if (!provenanceChanged && !editFlipped) {
           fail(`${loc}/${page}: translation changed but manifest provenance did not — record the pass in \`tool\` (free-form, e.g. "${now.tool || "gpt-5.4"}+linkrepair"). Only flip edited:true for a human-authored fix you want protected from machine re-translation: it removes the page from automated sync permanently.`);
         }
@@ -460,10 +822,52 @@ if (baseArgInvalid) {
       // "fresh" forever — the exact lie this gate exists to prevent.
       for (const loc of locales) {
         for (const [page, now] of Object.entries(manifest[loc])) {
-          const was = baseManifest[loc]?.[page];
-          if (!was) continue; // new entry — bijection ensures a matching file
-          if (now.src !== was.src && !changedSet.has(`${loc}/${page}`)) {
-            fail(`${loc}/${page}: manifest src changed but the translation file did not — a hash bump alone would mark a stale translation "fresh"`);
+          const was = comparisons.get(`${loc}/${page}`)?.was;
+          if (!was) continue; // genuinely new — bijection ensures a matching file
+          if (now.src !== was.src && !comparisons.get(`${loc}/${page}`).changed) {
+            // Unless a human has listed this exact page against this exact
+            // source in translation/verified-noops.txt, confirming the committed
+            // translation is already correct for it. The pipeline writes the
+            // manifest; nothing in it writes that file, so in practice the claim
+            // and the thing it claims about come from different hands — see
+            // lib/verified-noops.mjs for how far that does and does not go.
+            const key = `${loc}/${page}`;
+            if (noopAllowed({
+              entry: now,
+              baseEntry: was,
+              listed: verifiedNoops.get(key),
+              currentSourceHash: currentHash(page),
+              currentTranslationHash: translationHash(loc, page),
+            })) continue;
+            // Only offer a copy-paste line when there is a real translation to
+            // name. With no file on disk the hash is null, and printing that
+            // would hand the operator a line the parser rejects.
+            const th = translationHash(loc, page);
+            // An exception pins the manifest's src to the English ON DISK. If the
+            // manifest records some other hash, no line can satisfy that, and
+            // printing one anyway sends the operator round a loop: they add
+            // exactly what was asked for and the same refusal comes back.
+            const srcMatchesDisk = now.src === currentHash(page);
+            // A page held as hand-edited is out of automated sync, and an
+            // exception cannot settle it — noopAllowed refuses on `edited` before
+            // it ever looks at a line. Offering one anyway is the same loop as
+            // above: the operator adds exactly what was printed and the identical
+            // refusal comes back.
+            const heldNow = now.edited !== false;
+            const heldAtBase = Boolean(was) && was.edited !== false;
+            const suggestion = heldNow
+              ? `but this page is held as hand-edited, which takes it out of automated sync — no exception applies while that is set, so either clear the flag or retranslate the page`
+              : heldAtBase
+              // The flag is already clear here; it was set at the base. Telling the
+              // operator to clear it describes what they have just done, and the
+              // refusal comes from history they cannot edit in this change.
+              ? `but this page was held as hand-edited at the base, and an exception cannot reach back past that — land the cleared flag on its own first, or retranslate the page`
+              : !srcMatchesDisk
+              ? `but note the manifest records src ${String(now.src).slice(0, 20)}… while site/${page} hashes to ${String(currentHash(page)).slice(0, 20)}… — no exception can bridge that, because a line pins the manifest to the English actually on disk. Fix the recorded src first`
+              : th === null
+              ? `there is no translation file at translations/${loc}/site/${page} to name, so the exception cannot apply — the missing file is the thing to fix`
+              : `a human can record that in ${VERIFIED_NOOPS_PATH} as "${loc}/${page} ${now.src} ${th}" — naming both the English checked and the translation found already correct for it${verifiedNoops.has(key) ? `. REPLACE the existing line for this page: a second line for the same key is a duplicate and fails the check` : ""}`;
+            fail(`${loc}/${page}: manifest src changed but the translation file did not — a hash bump alone would mark a stale translation "fresh". If the committed translation is genuinely already correct for this source, ${suggestion}.`);
           }
         }
       }
@@ -474,6 +878,7 @@ if (baseArgInvalid) {
 report();
 
 function report() {
+  for (const n of notices) console.log(`  note: ${n}`);
   if (violations.length === 0) {
     console.log(`Manifest invariants hold: ${curated.length} curated pages, ${locales.length} locales.`);
     process.exit(0);

@@ -6,7 +6,7 @@ ZecHub kwan no yɛ mmerɛw na wotumi bɛn. Yɛma obiara akwaaba na yɛde yɛn ad
 
 1. **Ready to assist** - Kyerɛkyerɛ Zcash dwumadiefoɔ sɛ yɛwɔ wɔn afã.
 
-2. **Tiatiaa na ɛkɔ asɛm no mu:** Fa nkrasɛm a ɛyɛ mmerɛw sen biara ma. Fa asɛm a ɛho hia sen biara no fi ase.
+2. **Tiawa na ɛkɔ asɛm no mu:** Fa nkrasɛm a ɛyɛ mmerɛw sen biara a wubetumi ma. Fa asɛm a ɛho hia sen biara no fi ase.
 
 3. **User-centered:** Yɛkyerɛw ma users kan, developers nea ɛto so abien, na obiara a aka no yɛ nea ɛto so abiɛsa.
 
@@ -28,7 +28,7 @@ ZecHub kwan no yɛ mmerɛw na wotumi bɛn. Yɛma obiara akwaaba na yɛde yɛn ad
 
 - **San kyerɛw nkyerɛwee a ɛyɛ mmerɛw**. Mpɛn pii no, fa adeyɛ asɛm bi fi asɛm biara ase. Wubetumi na na ɛwɔ hɔ a ɛsɛ sɛ wɔsan hwɛ mu.
 
-  - Nhwɛsoɔ: Wubetumi de ZEC amena na woagye afiri wo fon so->Fa wo fon so de ZEC amena na wogye
+  - Nhwɛsoɔ: Wubetumi de ZEC amena na woagye afiri wo fon a wokura kyin so->Fa wo fon so de ZEC amena na wogye
 
 - **Nnyɛ spacey**. Fa baabi biako pɛ di dwuma wɔ periods ne colons akyi.
 
@@ -41,7 +41,7 @@ ZecHub kwan no yɛ mmerɛw na wotumi bɛn. Yɛma obiara akwaaba na yɛde yɛn ad
 
 ## Tweets a wɔde kyerɛw nsɛm
 
-> Saa kwankyerɛ a ɛfa ɔkwan a wɔfa so yɛ ade nyinaa ho yi yɛ nea wɔde kyerɛw nsɛm anaa akwankyerɛ a wɔde di dwuma ma ZecHub. Sɛ wopɛ tweets anaa nsɛm ntiantiaa a, fa [tweets style guide](./tweets.md).
+> Saa kwankyerɛ a ɛfa ɔkwan a wɔfa so yɛ ade nyinaa ho yi yɛ nea wɔde kyerɛw nsɛm anaa akwankyerɛ a wɔde di dwuma ma ZecHub. Ɛfa tweets ne nsɛm ntiantiaa afoforo nso ho: ma ɛnyɛ tiawa, fa asɛm no hyɛ anim, na twa awiei nkyerɛwde agyiraehyɛde wɔ nkyerɛwde ntiantiaa so.
 
 ---
 

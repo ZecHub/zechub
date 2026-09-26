@@ -8,7 +8,7 @@ Ne èdi azɔlizɔzɔ bliboa kple numeɖeɖe si wokpɔna la, kpɔ [**YouTube guid
     src="https://www.youtube.com/embed/UJh9Ilkohdw"
     title="How to use ZEC on Metamask"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

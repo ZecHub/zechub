@@ -8,8 +8,8 @@
 
 - **ZEC** yɛ kokoamsɛm-di kan dijitaal sika a wɔasi wɔ Zcash blockchain so
 - Nea ɛnte sɛ Bitcoin no, ZEC boa **shielded (private) transactions** koraa denam nimdeɛ a enni adanse a wɔde di dwuma so
-- Wo na wohwɛ wo sikasɛm so: paw nea wobɛda no adi, ne nea wobɛda no adi akyerɛ wɔn
-- Zcash yɛ open-source, enni kwan, na wɔde ahyɛ aman nyinaa nsa
+- Wo na wohwɛ wo sikasɛm so: paw nea wobɛda no adi, ne onii a wobɛda no adi akyerɛ wɔn
+- Zcash yɛ nea wɔabue ano, enni kwan, na wɔde ama
 
 ---
 
@@ -24,19 +24,19 @@ ZEC yɛ dijitaal sika a egyina Zcash blockchain so. Ɛyɛ bɛyɛ a ɛbɛn sika a
 
 #### Dɛn nti na ankorankoro sika ho hia?
 
-ZEC ma nkurɔfo nya hokwan de data kɔ baabi foforo a wɔmma ho kwan. Sɛ nkurɔfo nya sika nhyehyɛe a ɛne atipɛnfo ne atipɛnfo di nkitaho a wɔmma ho kwan a, ɛma wotumi sie bo a ɛsom, anaasɛ wɔne afoforo di nkitaho, a wɔmfa wɔn ho mfi nnwumakuw a ɛwɔ mfinimfini no ho. ZEC ma nkurɔfo tumi paw bere a wɔpɛ sɛ wɔda wɔn sikasɛm ho nsɛm adi kyerɛ afoforo.
+ZEC ma nkurɔfoɔ hokwan sɛ wɔde data bɛkɔ baabi foforɔ a wɔmma ho kwan. Sɛ nkurɔfo nya sika nhyehyɛe a ɛne atipɛnfo di nkitaho a wɔmma ho kwan a, ɛma wotumi de bo a ɛsom sie, anaasɛ wɔne afoforo di nkitaho, a wɔde wɔn ho fi nnwumakuw a ɛwɔ mfinimfini no ho. ZEC ma nkurɔfo tumi paw bere a wɔpɛ sɛ wɔda wɔn sikasɛm ho nsɛm adi kyerɛ afoforo.
 
 #### Akadeɛ
 
 [Zcash ne Kokoam Nsɛm Ho Asɛm no](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Abɔde a Nkwa Wom a Wɔabɔ Ho Ban](https://electriccoin.co/blog/shielded-ecosystem/)
+[Abɔde a Nkwa Wom a Wɔabɔ Ho Ban](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcash Kokoam Nsɛm Ho Nkamfo](https://z.cash/support/security/privacy-security-recommendations/)
 
 ## Dɛn ne Zcash?
 
-Zcash yɛ "Zerocash" protocol no a wɔde di dwuma. Ɛyɛ open-source, blockchain-based ledger a ɛwɔ zero-nimdeɛ adansedie nhyehyɛeɛ a ɛyɛ nwonwa. Ɛgyina Bitcoin mmara so, ɛyɛ ne titire wɔ kokoamsɛm a ɛkorɔn a ɛde ma denam ne adansedi nhyehyɛe a ɛkora [asɛmdi metadata so kokoamsɛm so](https://nym.com/blog/what-is-metadata). Wɔ ne titiriw mu no, Zcash yɛ kokoam data wurayɛ a wɔde kɔ baabi foforo a wɔmma ho kwan bere a wɔreyɛ nnwuma no. 
+Zcash yɛ "Zerocash" protocol no a wɔde di dwuma. Ɛyɛ open-source, blockchain-based ledger a ɛwɔ zero-nimdeɛ adansedie nhyehyɛeɛ a ɛyɛ nwonwa. Gyina Bitcoin mmara so, ɛyɛ specializes wɔ de ma gyinapɛn a ɛkorɔn a kokoamsɛm denam ne adanse nhyehyɛe a ɛkora kokoamsɛm so [asɛmdi ho metadata](https://nym.com/blog/what-is-metadata). Wɔ ne titiriw mu no, Zcash yɛ kokoam data wurayɛ a wɔde kɔ baabi foforo a wɔmma ho kwan bere a wɔreyɛ nnwuma no. 
 
 #### Dɛn nti na ɛho hia?
 
@@ -52,14 +52,12 @@ Zcash siesie Bitcoin sintɔ kɛse no; ankorankoro wurayɛ ne data a wɔde ma afo
 
 [Sɛnea Ɛyɛ Adwuma](https://z.cash/technology/)
 
-[HTPS a ɛwɔ Blockchains mu](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## Nkratafa a Ɛfa Ho
 
-- [Nkyerɛkyerɛmu Foforo a Wɔde Di Dwuma](/start-here/new-user-guide) — Anamɔn biara onboarding ma ZEC kurafo foforo
-- [Wɔde sika kotoku](/using-zcash/wallets) — Paw sika kotoku a wɔabɔ ho ban a wode bɛkura wo ZEC
-- [Wɔretɔ ZEC](/using-zcash/buying-zec) — Baabi ne ɔkwan a wɔbɛfa so anya ZEC
+- [Akwankyerɛ Foforo a Wɔde Di Dwuma](/start-here/new-user-guide) — Anamɔn biara onboarding ma ZEC kurafo foforo
+- [Sika kotoku](/using-zcash/wallets) — Paw sika kotoku a wɔabɔ ho ban a wode bɛkura wo ZEC
+- [ZEC a wobɛtɔ](/using-zcash/buying-zec) — Baabi ne ɔkwan a wɔbɛfa so anya ZEC
 - [Atare a Wɔabɔ Ho Ban](/using-zcash/shielded-pools) — Sɛnea Zcash pools ma nnwuma yɛ kokoam
-- [ZK-SNARKs na wɔkyerɛwee](/zcash-tech/zk-snarks) — Ccryptography a ɛwɔ Zcash kokoam nsɛm akyi
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Ccryptography a ɛwɔ Zcash kokoam nsɛm akyi

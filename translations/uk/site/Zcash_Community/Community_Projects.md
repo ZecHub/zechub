@@ -74,8 +74,8 @@
 [Відвідати](https://www.cipherpay.app/en)
 
 ### Ezcash
-Простий у використанні, багатофункціональний мультиплатформний гаманець Zcash із підтримкою autoshielding.  
-[Відвідати](https://blog.nerdbank.net/ezcash-app)
+Простий у використанні, багатофункціональний мультиплатформний гаманець Zcash із підтримкою автоматичного екранування.  
+[Відвідати](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Орієнтований на Orchard гаманець Zcash, створений для Zebrad, із підтримкою повністю shielded транзакцій і безпечного керування ключами.  
@@ -191,7 +191,7 @@ Discord-бот, що забезпечує безперешкодний і без
 ### Zecsite
 Статичний сайт, орієнтований на приватність, який збирає новини, статистику та освітній контент про Zcash без використання JavaScript.
 
-[Відвідати](https://zecsite/org)
+[Відвідати](https://zecsite.org/netscape/en/index.html)
 
 [Форум](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

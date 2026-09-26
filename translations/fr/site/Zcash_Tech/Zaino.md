@@ -1,30 +1,93 @@
-# Indexeur Zaino
+# Zaino Indexeur
 
-Zaino est un indexeur, développé en Rust par l’équipe Zingo, qui vise à remplacer lightwalletd et à faire progresser le projet de dépréciation de zcashd.
+Zaino est un indexeur Rust pour la blockchain Zcash. Il lit les données de la chaîne depuis un nœud complet Zebra et fournit les données dont les wallets, explorateurs, faucets et autres services ont besoin, sans que Zebra soit lui-même responsable de chaque index destiné aux clients.
 
-Zaino offre des fonctionnalités essentielles à la fois pour les clients légers, tels que les portefeuilles et les applications qui n’ont pas besoin de l’historique complet de la blockchain, et pour les clients complets ou les portefeuilles. Il prend également en charge les explorateurs de blocs, en donnant accès à la fois à la blockchain finalisée et à la meilleure chaîne non finalisée ainsi qu’à la mempool gérées par un validateur complet Zebra ou Zcashd.
+## TL;DR
 
-## Pourquoi un nouvel indexeur ?
+* **Zebra** valide la chaîne Zcash.
+* **Zaino** indexe les données de la chaîne de Zebra et expose des API destinées aux clients.
+* **Zallet** est le composant wallet de la pile Z3. Dans la configuration Z3 par défaut, Zallet communique directement avec Zebra et ne nécessite pas le service autonome Zaino.
+* Le service autonome Zaino est utile lorsque les opérateurs ont besoin d’un point de terminaison gRPC compatible avec lightwalletd, d’un proxy JSON-RPC ou d’une infrastructure pour les wallets légers, les explorateurs, les faucets et des services similaires.
+* Zaino est une infrastructure active, mais les opérateurs doivent consulter la documentation officielle de Zaino et de Z3 pour connaître les détails actuels de déploiement avant de l’exécuter en production.
 
-La raison principale est de se préparer pour l’avenir. Zcashd et lightwalletd ont été construits en 2016 à partir d’un fork du code de bitcoind, en utilisant C plus. La plateforme et le code utilisés pour construire ces deux services commencent à vieillir, deviennent difficiles à faire évoluer, à maintenir et à utiliser pour développer des fonctionnalités modernes.
+## Ce que fait Zaino
 
-Rust est un langage moderne, robuste et sécurisé qui permet à Zcash d’être prêt pour les développements futurs, en invitant de nouveaux développeurs à construire de nombreuses nouvelles fonctionnalités dans et autour de l’écosystème Zcash.
+Zaino se situe entre Zebra et les logiciels clients. Zebra est le nœud de consensus : il télécharge, vérifie et suit la blockchain Zcash. Zaino utilise Zebra comme source de données de chaîne, puis prépare des vues indexées que les applications clientes peuvent interroger efficacement.
 
-Néanmoins, Zaino vise à rester rétrocompatible lorsque cela est possible, en fournissant des API et des interfaces qui aident à réduire les frictions d’adoption et à garantir que l’écosystème Zcash au sens large puisse bénéficier des améliorations de Zaino sans réécritures importantes ni courbe d’apprentissage significative.
+Cette séparation clarifie les rôles :
 
-De plus, Zaino permettra de séparer les fonctionnalités des clients légers du nœud complet, via un accès RPC et une bibliothèque cliente complète, permettant aux développeurs d’intégrer Zaino et d’accéder directement aux données de la chaîne depuis leur application de client léger, tout en maintenant les données sensibles du nœud Zebra isolées et sécurisées.
+| Composant | Rôle |
+|:--|:--|
+| Zebra | Nœud complet et validateur |
+| Zaino | Indexeur et service d’API destiné aux clients |
+| Zallet | Service wallet |
+| lightwalletd | Ancien serveur de wallet léger que Zaino est conçu pour remplacer ou compléter |
 
-## Quelques schémas montrant comment fonctionne Zaino
+Zaino fournit des fonctionnalités aux clients légers, aux clients complets ou wallets, ainsi qu’aux explorateurs de blocs. Il donne accès à la chaîne finalisée, à la meilleure chaîne non finalisée et aux données du mempool détenues par Zebra.
+
+## Comment il s’intègre dans la pile Zcash actuelle
+
+La pile Z3 actuelle est construite autour de Zebra, Zallet et de Zaino facultatif.
+
+Dans le déploiement Z3 par défaut, Zebra et Zallet s’exécutent ensemble. Zallet accède directement à Zebra, donc un opérateur n’exécutant qu’une pile wallet locale n’a pas besoin de démarrer le service autonome Zaino.
+
+Zaino est ajouté lorsque l’opérateur souhaite servir des clients externes. Dans Z3, il s’exécute derrière le profil Compose `indexer` et ajoute :
+
+* un point de terminaison gRPC compatible avec lightwalletd pour les clients de wallets légers
+* un proxy JSON-RPC pour les explorateurs, faucets et backends de services
+* une base de données d’indexeur distincte de l’état de chaîne de Zebra
+
+Cela rend Zaino particulièrement pertinent pour les backends de wallets, les opérateurs d’infrastructures publiques, les explorateurs, les faucets et les développeurs testant des services nécessitant des données de chaîne Zcash indexées.
+
+## Zaino et lightwalletd
+
+lightwalletd est le serveur de wallet léger d’origine. Zaino est la voie de remplacement basée sur Rust pour ce rôle. Son objectif est de fournir des API compatibles lorsque cela est possible, afin que les wallets et services puissent migrer sans devoir être entièrement réécrits en une seule fois.
+
+Cela ne signifie pas que chaque déploiement de lightwalletd a déjà migré vers Zaino. Les opérateurs doivent considérer Zaino comme faisant partie de la pile actuelle basée sur Zebra et consulter la documentation, les versions et les tableaux de bord de service les plus récents avant de choisir quoi exécuter.
+
+## Notes pour les opérateurs
+
+Le chemin de déploiement faisant le plus autorité est le dépôt Z3. Z3 inclut Zaino comme service facultatif :
+
+```bash
+docker compose --env-file .env.<network> --profile indexer up -d
+```
+
+Exécutez d’abord la configuration Z3 normale et attendez que Zebra se synchronise avant de démarrer les services dépendants sur le mainnet ou le testnet.
+
+Zaino expose deux types de services réseau. Le service gRPC est l’API destinée aux wallets légers. Le service JSON-RPC est prévu pour le loopback ou les réseaux privés de confiance, à moins qu’une couche externe ne fournisse une protection. N’exposez pas au public un point de terminaison JSON-RPC non authentifié ou non chiffré.
+
+## Quelques diagrammes montrant le fonctionnement de Zaino
 
 ### Architecture interne de Zaino
-![Architecture interne de Zaino](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
-### Architecture du service Zaino en direct
-![Architecture du service Zebra en direct](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+
+### Architecture du service en direct de Zaino
+
+![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Architecture système de Zaino
-![Architecture système de Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
+![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+
+## Erreurs fréquentes
+
+**Considérer Zaino comme un nœud complet.** Zaino n’est pas le validateur. Zebra valide la chaîne ; Zaino indexe les données provenant de Zebra.
+
+**Supposer que chaque déploiement Z3 nécessite Zaino autonome.** Zallet peut accéder directement à Zebra dans la pile Z3 par défaut. Démarrez Zaino lorsque vous avez besoin du service d’indexeur autonome pour des clients externes.
+
+**Présenter des fonctionnalités prévues comme déjà déployées.** Zaino est activement développé ; consultez donc les notes de version et la documentation actuelles avant de décrire une fonctionnalité comme disponible.
+
+**Exposer JSON-RPC sans précaution.** L’interface JSON-RPC de Zaino est destinée au loopback ou aux réseaux privés de confiance, sauf si elle est protégée par une autre couche.
 
 ## Où puis-je en apprendre davantage ?
-Vous pouvez en lire davantage sur l’indexeur Zaino dans le [fil officiel du forum de la communauté Zcash](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation/48545/38) ou sur sa [page Github officielle](https://github.com/zingolabs/zaino)
+
+* [Dépôt GitHub de Zaino](https://github.com/zingolabs/zaino)
+* [Versions de Zaino](https://github.com/zingolabs/zaino/releases)
+* [Documentation générée de Zaino](https://zingolabs.github.io/zaino/)
+* [Dépôt de déploiement Z3](https://github.com/ZcashFoundation/z3)
+* [Documentation de Zebra](https://zebra.zfnd.org/)
+* [Subvention et discussion du projet Zaino](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+
+**Dernière mise à jour :** août 2026

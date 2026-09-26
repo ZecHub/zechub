@@ -2,50 +2,57 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Alt Text" width="50"/>    Shielded Labs
+# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs logo" width="50"/> Shielded Labs
 
+[Shielded Labs](https://shieldedlabs.net/) is an independent, donation-funded Zcash support organization based in Switzerland. Its mission is to build unstoppable private money that empowers human freedom and self-sovereignty, with a focus on work that advances the sustainability, security, and scalability of the Zcash network.
 
-[Shielded Labs](https://shieldedlabs.net) was founded as a Swiss Association in December 2022, and has no affiliation with Zcash Community Grants (ZCG) and has no plans to apply for ZCG funding.
+Shielded Labs adds independent engineering capacity to the Zcash ecosystem. It is not part of the Electric Coin Company, the Zcash Foundation, or Zcash Community Grants, and it describes itself as the first Zcash ecosystem organization that has not received direct or indirect funding from the Development Fund or block rewards.
 
-Zcash is currently supported by 2 US organizations, the Electric Coin Company (ECC) and Zcash Foundation, that are the sole recipients of the development fund. ZCG is not an organization, but a grants committee under the Foundation, which custodies and administers its funds. More independent organizations contributing to the Zcash ecosystem are needed in order to diffuse power and become more decentralized.
+## Mission and Role
 
-Zcash is building critical privacy-protecting financial infrastructure, and there is a risk that the work being done could be hindered by regulation. In particular, Zcash exposure to the US is a potential single point of failure, and we need to urgently build an ecosystem that is resistant to capture.  
+Shielded Labs focuses on protocol and infrastructure work that can make Zcash more resilient over the long term. Its public materials emphasize:
 
-Shielded Labs is domiciled in Switzerland because it is a country that is both crypto-friendly and has a long history of preserving privacy rights.
+- Human freedom and financial privacy
+- Independent funding outside the Development Fund
+- Respect for ZEC holders and coinholder input
+- User autonomy and self-sovereignty
+- Technical innovation for sustainability, security, and scalability
+- Collaboration with other Zcash contributors
 
-## Vision
+The organization contributes through direct engineering, public research, infrastructure support, and ecosystem coordination. It also maintains public resources for governance polling and coinholder-directed funding, helping Zcash community members understand when and how they can participate in governance signals.
 
-Shielded Labs aims to increase user adoption, develop new use cases for Zcash, and contribute to protocol development. 
+## Current Projects
 
-**Overview of areas of strategic focus:** 
+Shielded Labs publicly lists several active project areas:
 
-### User Adoption: 
+- [Network Sustainability Mechanism](https://shieldedlabs.net/nsm/) - A set of proposed changes intended to support Zcash's long-term security budget while preserving the 21 million ZEC supply cap. The NSM work includes voluntary ZEC burns, issuance smoothing, and fee-burning proposals described in ZIPs 233, 234, and 235.
+- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - A proposed hybrid consensus upgrade that would combine Zcash's proof-of-work block production with proof-of-stake finality, so ZEC holders could help secure the network while miners continue producing blocks.
+- [Dynamic Fees](https://shieldedlabs.net/fees/) - Research and tooling for more predictable, user-friendly, and resilient Zcash transaction fees as the network evolves.
+- [Zero](https://shieldedlabs.net/zero/) - A supported suite of open-source Zcash infrastructure software for exchanges, mining pools, wallet providers, and other organizations that rely on Zcash infrastructure.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - A Zcash network upgrade and shielded pool created in response to the Orchard counterfeiting vulnerability, designed to restore independently verifiable soundness of Zcash's circulating supply.
 
-Shielded Labs will work to increase user adoption by getting Zcash listed on more exchanges, working with companies on payments integration, and increasing Zcash availability on DEXs and Defi applications. It will prioritize projects that advance the usability of Zcash, such as Zcash Shielded Assets, and support the development of bridges, AMMs, and fiat on/off-ramps.
+## Ironwood Contribution
 
-### Human Rights and Freedom: 
+In 2026, Shielded Labs played an important role in the ecosystem response to the Orchard counterfeiting vulnerability. The vulnerability was discovered by Shielded Labs security researcher Taylor Hornby and disclosed to Zcash Open Development Lab (ZODL), which coordinated an emergency remediation with other Zcash contributors.
 
-Shielded Labs will partner with human rights and civil liberties organizations to get Zcash into the hands of those who need it the most.
+After the emergency fix, the community still needed a way to restore independent confidence in Zcash's circulating supply. Ironwood addressed that by creating a new shielded pool using the corrected Orchard circuit and by sealing the original Orchard pool so funds could leave only through the turnstile. Shielded Labs worked alongside Project Tachyon, Valar Group, ZODL, and the Zcash Foundation on the design, review, and ecosystem preparation for Ironwood.
 
-### Protocol Development: 
+This work demonstrated one of Shielded Labs' core roles in Zcash: adding independent protocol-development and security capacity outside the original Zcash development organizations.
 
-To date, all network upgrades have been implemented by ECC. Resilience requires decentralization, and Shielded Labs will help Zcash decentralize by contributing to core protocol development.
+## Governance Work
 
-## Launch
+Shielded Labs also publishes governance information for Zcash community members. Its governance page tracks protocol governance polls, ZCAP participation, coinholder-directed funding, and supported voting wallets. This helps make Zcash decision-making easier to follow for coinholders, ZCAP members, and broader community participants.
 
-Shielded Labs will fork the Zcash GitHub repository, implement the new source code, and create a pull request for a merge. Assuming it has sufficient funding and developer resources, Shielded Labs would be responsible for ongoing support as the maintainer of the forked codebase repository.
+Zcash does not use automatic on-chain governance for protocol changes. Polls and community input are advisory signals that feed into the broader rough-consensus process. Shielded Labs' governance work helps make those signals more accessible and easier to verify.
 
-It would be the first time a network upgrade was initiated by an independent developer demonstrating that Zcash is truly a permissionless network.
+## Resources
 
-Initial part-time, project-based support will be needed to help lay the groundwork for the organization to grow.
-
-## Funding
-
-Initially, Shielded Labs is funded entirely by donations & aims to raise funds to bootstrap the first year of operations. 
-
-With regard to long-term funding, Shielded Labs has outlined a proposal "Network Sustainability Fund" to be a recipient of Zcash development fund via the block reward after the next halving in Q4 2024. 
-
-This will involve development of a modified issuance schedule and the mechanism to direct funds to the Sustainability Fund & plans for implemention on zcashd/zebrad. 
-
-You can read the full proposal here:
-https://shieldedlabs.net/nsm
+- [Shielded Labs website](https://shieldedlabs.net/)
+- [Shielded Labs projects](https://shieldedlabs.net/projects/)
+- [Network Sustainability Mechanism](https://shieldedlabs.net/nsm/)
+- [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
+- [Dynamic Fees](https://shieldedlabs.net/fees/)
+- [Zero](https://shieldedlabs.net/zero/)
+- [Ironwood](https://shieldedlabs.net/ironwood/)
+- [Governance and polling](https://shieldedlabs.net/governance/)
+- [Shielded Labs GitHub](https://github.com/ShieldedLabs)

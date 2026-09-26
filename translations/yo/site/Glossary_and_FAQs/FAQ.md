@@ -1,111 +1,138 @@
-# Àwọn Ìbéèrè Tí Àwọn Èèyàn Máa Ń Béèrè
+# Àwọn Ìbéèrè Tí Wọ́n Máa Ń Béèrè Lóòrèkóòrè
 
-A akojọ kan ti awọn julọ wọpọ ibeere nipa Zcash. fun troubleshooting awọn Zcash onibara, jọwọ wo awọn [aṣẹ troubleshoot guide](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+A akojọ kan ti awọn julọ wọpọ ibeere nipa Zcash. fun troubleshooting ni Zcash onibara, jọwọ wo awọn [ìwé atọ́nà ìtọ́jú àṣìṣe tí ó wà nípamọ̀.](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
-### Àwòrán ojú-ọ̀nà
-[Kí ni Zcash?](#what-is-zcash) [Báwo ni o ṣe lè rí Zcash?](#acquire) [Ìyàtọ̀ sí àwọn owó-ìpamọ́ mìíràn?](#difference) [Ìdarí ìlànà?](#governance) [Ibo ni ìnáwó mi wà?](#transaction) [Ṣé Zcash jẹ́ àdáni lóòótọ́?](#privacy) [Àwọn èrò òdì tó wọ́pọ̀](#misconceptions)
+### Ìrìn-àjò Rírìndìn
+
+<div className="flex flex-wrap gap-2 my-4">
+  <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">What is Zcash?</a>
+  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">How can I acquire Zcash?</a>
+  <a href="#what-is-the-difference-between-zcash-and-other-cryptocurrencies" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Difference from other cryptocurrencies?</a>
+  <a href="#how-is-the-zcash-protocol-governed" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Protocol governance?</a>
+  <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Where is my transaction?</a>
+  <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Is Zcash really private?</a>
+  <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Common misconceptions</a>
+</div>
 
 ---
 
 ## Kí ni Zcash?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash is a digital currency with fast, confidential transactions and low fees. Privacy is the central feature of Zcash. It pioneered the use of zero-knowledge proofs to encrypt all transactions.  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Awọn apamọwọ pupọ wa fun awọn sisanwo lẹsẹkẹsẹ, alagbeka, ailewu ati ti ara ẹni: [Awọn apamọwọ Alagbeka](https://z.cash/wallets/)
+Zcash is a digital currency with fast, confidential transactions and low fees. Privacy is the central feature of Zcash. It pioneered the use of zero-knowledge proofs to encrypt all transactions.
+
+Awọn apamọwọ pupọ wa fun awọn sisanwo lẹsẹkẹsẹ, alagbeka, ailewu ati ti ara ẹni: [Àwọn àpamọ́ owó](/using-zcash/wallets)
+
 </div>
 
 ## Báwo ni mo ṣe lè rí Zcash gbà?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-O le ra ZEC lori cryptocurrency [ìpàdé](https://z.cash/exchanges).  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+O le ra ZEC ni ìkànnì wa. [àwọn ilé ìfowópamọ́ tí ó wà ní ààbò;](/using-zcash/custodial-exchanges), [Àwọn DEXs](/dex), or [àwọn àkànṣe ìsọ̀rí ìdánwò (central swap platform)](/using-zcash/centralizedswaps).
+
 O tun le ra Zcash peer-to-peer tabi gba nipasẹ iwakusa.
+
 </div>
 
-## Kí ni ìyàtọ̀ tó wà láàrin Zcash àti àwọn owó-ìpamọ́ mìíràn?
+## Kí ni ìyàtọ̀ tó wà láàárín Zcash àti àwọn owó oní-ìpamọ́ mìíràn?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Zcash is fundamentally more private than Bitcoin or Ethereum. It offers fast block times (75 seconds), low fees, and regular upgrades.  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Awọn olumulo le yan laarin awọn iṣowo ** Transparent ** tabi ** Shielded **. Fun alaye diẹ sii wo [A Shielded Ecosystem](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html).
+Zcash jẹ ohun ti o ni iyasọtọ ju Bitcoin tabi Ethereum. O nfun awọn akoko pipin yara (awọn aaya 75), owo kekere, ati awọn igbesoke igbagbogbo.
+
+Awọn olumulo le yan laarin ** Transparent** tabi ** Shielded** awọn iṣowo. Fun alaye siwaju sii wo: [Àwọn Ohun Abẹ̀mí Tó Ń Dáàbò Bò Wọ́n](https://electriccoin.co/blog/shielded-ecosystem).
+
 </div>
 
 ## Bawo ni a ṣe n ṣakoso ilana Zcash?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Àkọsílẹ̀ náà wà lábẹ́ ìtòlẹ́sẹẹsẹ **Zcash Improvement Proposal (ZIP) **. Ẹnikẹ́ni lè fi àdàkọ ZIP ránṣẹ́. Àwọn àdàkàdekè ni àwùjọ ń sọ̀rọ̀ nípa wọn tí àwọn olóòtú ZIP sì gbà tàbí kọ̀ wọ́n sílẹ̀:
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-- [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)  
-- [Deirdre Connolly](https://twitter.com/durumcrustulum) (Zcash Foundation)
+Àkọsílẹ̀ náà ni ó ń darí ètò ìsọ̀rí àtúnṣe Zcash (ZIP) ẹnikẹ́ni lè fi ìwé-àkójọ ti àwọn ohun tí wọ́n fẹ́ ṣe sí àkọọ́lé wọn ránṣẹ́. Àwọn akọsilẹ yìí máa ń wà fún ìgbìmọ̀ láti jíròrò, kí wọ́n sì gbà tàbí kọ ọ́ sílẹ̀:
 
-A kọ àwọn ìpinnu sínú àkànṣe-àkọsílẹ̀ náà, a sì fọwọ́ sí wọn lórí ẹ̀rọ ìgbàlódé nígbà tí nẹ́tàkì bá gbà wọ́n.
+- [Daira Hopwood (ìyẹn ọmọbìnrin)](https://twitter.com/feministPLT) (Electric Coin Company)
+- [Deirdre Connolly - Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:](https://twitter.com/durumcrustulum) (Zcash Foundation)
+
+A kọ àwọn ìpinnu sínú àlàyé ìsọfúnni tí a sì fọwọ́ sí wọn nínú ẹ̀ka nígbàtí nẹtiwẹẹki bá gbà wọ́n.
+
 </div>
 
-## Ibo ni Àdókòwò mi wà?
+## Ibo ni Àdéhùn mi wà?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-Ẹ kọ́kọ́ ka [ìtọ́sọ́nà wa láti dènà àwọn olùwádìí](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629)Lẹhinna ṣayẹwo [Zcash Block Explorer](https://zcashblockexplorer.com).  
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Awọn iṣowo pari lẹhin to iṣẹju 25 (awọn bulọọki 20) ati awọn owo ni a pada laifọwọyi. 
+Ìkàwé àkọ́kọ́ [ìwé tó ń darí wa láti dènà àwọn olùwádìí.](/guides/blockchain-explorers)Wá wò ó bóyá o mọ̀. [Zcash Block Explorer (ìwádìí ìdìpọ̀)](https://zcashblockexplorer.com).
 
-**Àwọn ìdí tí ó wọ́pọ̀ tí ìsòwò kan kò fi lè fara hàn:**
-- Isonu ti asopọmọra
-- Owó ìnáwó tó kéré jù
-- Àìnípọn ẹ̀rọ
-- Ọpọlọpọ awọn wiwọle ṣiṣan (iwọn ti o tobi ju)
+Àwọn ìnáwó máa ń pé lẹ́yìn nǹkan bí ìṣẹ́jú mẹ́ẹ̀ẹ́dọ́gbọ̀n (20 blocks) tí owó náà sì ti padà sí ọjà.
+
+**Àwọn ìdí tí ó wọ́pọ̀ tó lè mú kí ìsòwò kan máà fara hàn:**
+
+- Ìdálẹ̀ ìsopọ̀
+- Owó ìnájà ti kéré jùlọ.
+- Àìnípọn ẹ̀rọ-ayárabíàṣá
+- Ọpọlọpọ awọn wiwọle ti o ni imọlẹ (iwọn tobi ju)
 
 ** Àwọn ìmọ̀ràn tó lè mú kó o ṣàṣeyọrí:**
+
 - Lo ìsopọ̀ tí ó dúró sán-ún
-- San owó ọjà tó wà níwọ̀ntúnwọ̀nsì (tàbí èyí tó ga jù bẹ́ẹ̀ lọ tó bá jẹ́ pé ó gbawájú)
-- Dúró kí o sì tún gbìyànjú lẹ́yìn náà
-- Lo awọn titẹ sii diẹ lati jẹ ki iṣowo naa kere
+- San owó orí tó wà níwọ̀n (tàbí kó o san iye tí ó ga jù bẹ́ẹ̀ lọ)
+- Dúró kí o sì tún gbìyànjú lẹ́yìn náà.
+- Lo awọn titẹ sii diẹ lati jẹ ki iṣowo naa kere si
+
 </div>
 
 ## Ṣé lóòótọ́ ni owó Zcash jẹ́ ti ara ẹni?
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-**Bẹẹni.** Zcash ṣe àdàkọ ẹni tí ó ránṣẹ́, iye owó, àti ẹni tí wọ́n gbà fún àwọn ìnáwó tí a fi ààbò bo. 
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash kì í ṣe:
-- Ṣe àdàkọ àwọn ìsọfúnni tí a fi ọ̀pọ̀lọpọ̀ òǹkọ̀wé ṣe (ìkójọpọ̀ FROST ti ń dúró)
-- Ààbò kúrò nínú ìfipábánilòpọ̀ pẹ̀lú àwọn ìdásílẹ̀ tí ó ṣe kedere
+**Bẹẹni.** Zcash máa ń ṣe àdàkọ àwọn onífiranṣẹ, iye owó àti ẹni tí ó gbà fún ìnáwó tó ní ìdánwò.
+
+Zcash kò ní:
+
+- Ṣiṣii awọn iṣowo multicircle (ifọwọsowọpọ FROST ti o duro)
+- Ààbò kúrò nínú ìfipábánilòpọ̀ pẹlú àwọn ìdásílẹ̀ tí ó ṣe kedere.
 - Fi àwọn àdírẹ́ẹ̀sì IP pamọ́
 
-[Àyíká Ayé Kan Tí Wọ́n Dáàbò Gbé](https://electriccoin.co/blog/shielded-ecosystem)
+Àwọn àfikún ìwé: [Àwọn Ohun Abẹ̀mí Tó Ń Dáàbò Bò Wọ́n](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+
 </div>
 
-## Àwọn èrò òdì kan tó wọ́pọ̀
+## Àwọn èrò òdì kan tó wọ́pọ̀ nípa àwọn ọmọdé ni pé:
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Misconception</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Correct Answer</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Is Zcash a centralised coin?</td>
-        <td className="py-5 px-6 text-foreground">No. A trademark agreement prevents the Zcash Foundation or ECC from acting against community consensus. Governance is proven decentralised (see [Messari report](https://messari.io/report/decentralizing-zcash)). Community polls, ZecHub, and Zcash Foundation A/V Club all enable broad participation.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Does Zcash have a backdoor?</td>
-        <td className="py-5 px-6 text-foreground">No. Neither Zcash nor any cryptographic software we have built contains a backdoor, and never will.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Is Zcash controlled by a corporation?</td>
-        <td className="py-5 px-6 text-foreground">Incorrect. While we partner with companies for research, Zcash remains committed to decentralisation. Multiple autonomous organisations work together toward self-custody and privacy rights.</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash has limited privacy compared to other privacy coins</td>
-        <td className="py-5 px-6 text-foreground">No. Monero/Grin-style privacy relies on decoys (which can be defeated). Zcash encrypts all shielded transaction data so every transaction in the pool is indistinguishable. See [Not Private Enough?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
-      </tr>
-    </tbody>
-  </table>
+<div className="rounded-2xl border border-border bg-card p-5 my-4 overflow-x-auto">
+
+<table className="w-full border-collapse">
+  <thead>
+    <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Misconception</th>
+      <th className="py-4 px-5 text-left font-bold text-amber-800 dark:text-white">Correct Answer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Is Zcash a centralised coin?</td>
+      <td className="py-4 px-5 text-foreground">No. A trademark agreement prevents the Zcash Foundation or ECC from acting against community consensus. Governance is proven decentralised (see [Messari report](https://messari.io/report/decentralizing-zcash)). Community polls, ZecHub, and Zcash Foundation A/V Club all enable broad participation.</td>
+    </tr>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Does Zcash have a backdoor?</td>
+      <td className="py-4 px-5 text-foreground">No. Neither Zcash nor any cryptographic software we have built contains a backdoor, and never will.</td>
+    </tr>
+    <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Is Zcash controlled by a corporation?</td>
+      <td className="py-4 px-5 text-foreground">Incorrect. While we partner with companies for research, Zcash remains committed to decentralisation. Multiple autonomous organisations work together toward self-custody and privacy rights.</td>
+    </tr>
+    <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
+      <td className="py-4 px-5 font-medium text-foreground">Zcash has limited privacy compared to other privacy coins</td>
+      <td className="py-4 px-5 text-foreground">No. Monero/Grin-style privacy relies on decoys (which can be defeated). Zcash encrypts all shielded transaction data so every transaction in the pool is indistinguishable. See [Not Private Enough?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 
 ---
 
-** Àtúnyẹ̀wò ìkẹyìn:** March 2026 
-[Ṣàtúnṣe ojúewé yìí lórí GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)
+** Àtúnṣe ìkẹyìn:** March 2026
+**Ṣé o fẹ́ kópa?** [Ṣàtúnṣe ojúewé yìí lórí GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

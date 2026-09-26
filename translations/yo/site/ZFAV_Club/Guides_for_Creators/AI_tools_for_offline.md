@@ -28,7 +28,7 @@ Nvida GPUs ṣiṣẹ dara julọ.
 
 - [Ẹ̀rọ Àwòrán: Ìran Ẹ̀rọ Ọpọlọ](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) láti AppStore - free
 (Le lo ọpọlọpọ awọn oriṣiriṣi awọn awoṣe StableDiffusion)
-- [Àdàkàdekè Bee](https://diffusionbee.com/) - lómìnira
+- [DiffusionBee](https://diffusionbee.com/) - lómìnira
 (Le lo ọpọlọpọ awọn oriṣiriṣi awọn awoṣe StableDiffusion)
 - [Gbé ÀÍ](https://invoke-ai.github.io/InvokeAI/) (nilo iranti GPU 4GB)
 
@@ -40,12 +40,12 @@ Nvida GPUs ṣiṣẹ dara julọ.
 
 ### Windows - ṣe igbasilẹ awọn awoṣe aṣa
 
-- [GPT4Gbogbo](https://gpt4all.io/index.html) (min 8gb RAM ti a beere fun)
+- [GPT4All](https://gpt4all.io/index.html) (min 8gb RAM ti a beere fun)
 
 ### Mac OS - ṣe igbasilẹ awọn awoṣe aṣa
 
-- [GPT4Gbogbo](https://gpt4all.io/index.html) - (ṣiṣẹ gan ni kiakia lori M1 Macs, ti o da lori GPT awoṣe lo)
+- [GPT4All](https://gpt4all.io/index.html) - (ṣiṣẹ gan ni kiakia lori M1 Macs, ti o da lori GPT awoṣe lo)
 
 ## Linux - ṣe igbasilẹ awọn awoṣe aṣa
 
-- [GPT4Gbogbo](https://gpt4all.io/index.html) (min 8gb RAM ti a beere fun)
+- [GPT4All](https://gpt4all.io/index.html) (min 8gb RAM ti a beere fun)

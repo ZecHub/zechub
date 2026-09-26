@@ -52,7 +52,7 @@ Zcash 的屏蔽交易会隐藏：
 
 - 一个支持屏蔽地址的 Zcash 钱包：
   - Zodl
-  - YWallet
+  - Zingo!
   - 其他受支持的钱包
 
 <br/>

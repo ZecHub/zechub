@@ -62,7 +62,7 @@ Para mais detalhes técnicos, os usuários são incentivados a revisar o reposit
 * Entregáveis: 
 No 1º trimestre de 2025, a equipe anunciou o lançamento do [site de demonstração do red·bridge](https://redbridge-demo.red.dev/index.html), onde qualquer pessoa pode experimentar a experiência do usuário, dar feedback e sugerir melhorias. Ele também serve como uma forma fácil de apresentar o projeto a pessoas não técnicas.
 
-* A equipe usou Zebra para a versão final do red·bridge. Para testá-lo, eles atualizaram dois dos três nós em sua blockchain de teste, ZavaX Oracle, que roda na testnet Fuji da Avalanche. O último nó foi atualizado com sucesso, agora o [Zavax Oracle](https://zavax-oracle.red.dev/) agora roda em ZEBRA!
+* A equipa usou Zebra para a versão final do red·bridge. Para o testar, atualizaram dois dos três nós na sua blockchain de teste, ZavaX Oracle, que funciona na testnet Fuji da Avalanche. O último nó foi atualizado com sucesso; agora, o [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) funciona em Zebra!
 
 * No 1º trimestre de 2025, o site red.bridge foi programado para oferecer quatro visualizações: red, Dark, Light e Zebra, em vez da versão inicial, que era red.
 

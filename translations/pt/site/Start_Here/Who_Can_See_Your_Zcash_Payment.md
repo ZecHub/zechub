@@ -64,7 +64,7 @@ A ordem importa. Dê a chave mais restrita que faça o trabalho, não a mais amp
 
 ## Coloque isto em prática
 
-- Use uma wallet que blinde por defeito, como a [Zodl](https://zodl.com) ou a [Ywallet](https://ywallet.app/).
+- Use uma wallet que blinde por defeito, como a [Zodl](https://zodl.com) ou a [Zingo!](https://www.zingolabs.org/).
 - Blinde os fundos assim que chegarem de uma exchange, antes de os gastar.
 - Pague para endereços blindados sempre que o destinatário suportar um.
 - Antes de partilhar uma viewing key, pergunte qual é a menor chave que responde à questão que está a ser colocada.

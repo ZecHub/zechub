@@ -90,7 +90,7 @@ Zcash Sapling consente agli utenti di effettuare transazioni private in pochi se
 
 La schermatura delle transazioni migliora la privacy, rendendo impossibile per terze parti collegare le transazioni e determinare la quantità di ZEC trasferita. Sapling migliora anche l’usabilità riducendo i requisiti computazionali necessari per generare transazioni private, rendendole più accessibili agli utenti.
 
-Gli indirizzi dei wallet Sapling iniziano con "zs" e questo si può osservare in tutti i wallet schermati Zcash supportati (YWallet, Zingo Wallet, Nighthawk ecc.) che hanno indirizzi Sapling integrati. Zcash Sapling rappresenta un importante sviluppo tecnologico in termini di privacy ed efficienza delle transazioni, che rende Zcash una criptovaluta pratica ed efficace per gli utenti che danno valore a privacy e sicurezza.
+Gli indirizzi dei wallet Sapling iniziano con "zs" e questo si può osservare in tutti i wallet schermati Zcash supportati (Zkool, Zingo Wallet, Nighthawk ecc.) che hanno indirizzi Sapling integrati. Zcash Sapling rappresenta un importante sviluppo tecnologico in termini di privacy ed efficienza delle transazioni, che rende Zcash una criptovaluta pratica ed efficace per gli utenti che danno valore a privacy e sicurezza.
 
 ____
 

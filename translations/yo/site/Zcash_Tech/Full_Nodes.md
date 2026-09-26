@@ -10,7 +10,7 @@ It holds a complete record of every transaction that has occurred since genesis 
 
 ## Zcashd
 
-> ** Àkíyèsí:** zcashd ti wa ni deprecated. The Electric Coin Company ti [ni ifowosi kede](https://z.cash/support/zcashd-deprecation/) pe zcashd ti wa ni retired, pẹlu awọn oniwe-pupọ-node ipa rọpo nipasẹ [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) àti ipa tí [Zallet] ń kó nínú owó pópó rẹ̀](https://github.com/zcash/zallet). Fun titun deployments, lo Zebra (wo ni isalẹ). Ti o ba ti tẹlẹ ṣiṣe a zcashd node, tẹle awọn [Migration Guide: zcash d to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> ** Àkíyèsí:** zcashd ti wa ni deprecated. The Electric Coin Company ti [ni ifowosi kede](https://z.cash/support/zcashd-deprecation/) pe zcashd ti wa ni retired, pẹlu awọn oniwe-pupọ-node ipa rọpo nipasẹ [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) àti ipa tí [Zallet](https://github.com/zcash/zallet). Fun titun deployments, lo Zebra (wo ni isalẹ). Ti o ba ti tẹlẹ ṣiṣe a zcashd node, tẹle awọn [Migration Guide: zcash d to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd was the original Full Node implementation for Zcash, developed and maintained by the Electric Coin Company. The build instructions below are retained for reference and for operators migrating away from zcashd.
 
@@ -56,7 +56,7 @@ Zcashd exposes a set of API's via its RPC interface. These API's provide functio
 [Afowoyi fun Zcashd lori Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 
-## Ẹranko Zebra
+## Zebra
 
 Zebra is an independent, production-ready full node implementation of the Zcash protocol, created by the Zcash Foundation and written in Rust. As zcashd is retired, Zebra (`zebrad`) ni ìkápá tí a dábàá fún ìmúṣẹ tuntun.
 
@@ -70,7 +70,7 @@ Rii daju lati ka iwe Zebra fun awọn itọnisọna iṣeto, ati darapọ mọ o
 
 [Ìwé Zebra](https://zebra.zfnd.org) 
 
-[Àìfohùnṣọ̀kan](https://discord.gg/uvEdHsrb)
+[Discord](https://discord.gg/uvEdHsrb)
 
 
 
@@ -90,7 +90,7 @@ Eyi ni awọn apẹẹrẹ awọn iru ẹrọ ti o fun laaye iraye si data Nẹt
 
 [Àwọn ìlànà ìṣirò owó](https://docs.coinmetrics.io/info/assets/zec)
 
-[Ìjókòó alágbèéká](https://blockchair.com/zcash)
+[Blockchair](https://blockchair.com/zcash)
 
 O tun le ṣe alabapin si idagbasoke nẹtiwọọki nipa ṣiṣe awọn idanwo tabi sisọ awọn ilọsiwaju tuntun & pese awọn iṣiro. 
 
@@ -118,7 +118,7 @@ Eyi ni anfani afikun ti gbigba awọn olumulo miiran lati sopọ ni ikọkọ si
 
 Ka [Àwọn Àkọsílẹ̀ Ìtìlẹyìn](https://zcash.readthedocs.io/en/latest/)
 
-Ẹ darapọ̀ mọ́ wa [Apá Ìdàrúdàpò](https://discord.gg/zcash) tàbí kó o kàn sí wa lórí [twitter](https://twitter.com/ZecHub)
+Ẹ darapọ̀ mọ́ wa [Discord Sever](https://discord.gg/zcash) tàbí kó o kàn sí wa lórí [twitter](https://twitter.com/ZecHub)
 
 
 

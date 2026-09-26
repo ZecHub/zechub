@@ -124,7 +124,7 @@ BTCPay Server **не є** гаманцем і **не потребує прива
 ### Як це працює
 
 - **Гаманець створюється заздалегідь.**  
-  Продавець використовує гаманець Zcash, який підтримує viewing key — наприклад, [YWallet](https://ywallet.app/installation) або [Zingo! Wallet](https://zingolabs.org/).  
+  Продавець використовує гаманець Zcash, який підтримує Viewing Key — наприклад, [Zkool](https://github.com/hhanh00/zkool2/) або [Zingo! Wallet](https://zingolabs.org/).  
   Повний список доступний на [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - **BTCPay Server підключається через viewing key.**  
@@ -441,7 +441,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 Ви можете використовувати:
 
-* **Публічний вузол**, наприклад `https://lightwalletd.zcash-infra.com`
+* **Публічний вузол**, наприклад `https://zec.rocks:443`
 * Власний self-hosted вузол, розгорнутий окремо від BTCPay Server
 
 > Якщо зовнішній `lightwalletd` стане недоступним або перевантаженим, shielded-платежі перестануть працювати.
@@ -660,7 +660,7 @@ cd ~/BTCPayServer/btcpayserver-docker
 
 > Не всі гаманці вже підтримують експорт **Unified Full Viewing Key (UFVK)**.  
 > Рекомендовані варіанти:  
-> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (версія для ПК)**](https://zingolabs.org/)  
 > В обох застосунках шукайте експорт UFVK у розділі резервного копіювання/експорту.
 

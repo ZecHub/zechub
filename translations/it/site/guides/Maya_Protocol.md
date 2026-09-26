@@ -73,7 +73,7 @@ Ecco un elenco con alcuni dei servizi che già supportano Maya:
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-[DefiSpot](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet e Rabby.
+DefiSpot: non è più online, il suo dominio non viene risolto.
 
 [XDEFI](https://www.xdefi.io/): un wallet self-custody multi-ecosistema con supporto per oltre 30 blockchain native e tutte le chain EVM e Cosmos, tra cui Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON e altre.
 

@@ -125,7 +125,7 @@ BTCPay Server **不是**钱包，也**不需要私钥**。
 ### 工作方式
 
 - **钱包是预先创建的。**  
-  商家使用支持 Viewing Key 的 Zcash 钱包——例如 [YWallet](https://ywallet.app/installation) 或 [Zingo! Wallet](https://zingolabs.org/)。  
+  商家使用支持 Viewing Key 的 Zcash 钱包——例如 [Zkool](https://github.com/hhanh00/zkool2/) 或 [Zingo! Wallet](https://zingolabs.org/)。  
   完整列表可见 [ZecHub.wiki](https://zechub.wiki/wallets)。
 
 - **BTCPay Server 通过 Viewing Key 连接。**  
@@ -442,7 +442,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 你可以使用：
 
-* **公共节点**，例如 `https://lightwalletd.zcash-infra.com`
+* **公共节点**，例如 `https://zec.rocks:443`
 * 你自己单独部署、与 BTCPay Server 分离的节点
 
 > 如果外部 `lightwalletd` 不可用或负载过高，屏蔽支付将会失败。
@@ -661,7 +661,7 @@ cd ~/BTCPayServer/btcpayserver-docker
 
 > 目前并非所有钱包都支持导出 **Unified Full Viewing Key (UFVK)**。  
 > 推荐选项：  
-> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet（PC 版本）**](https://zingolabs.org/)  
 > 在这两个应用中，请在备份/导出部分寻找 UFVK 导出选项。
 

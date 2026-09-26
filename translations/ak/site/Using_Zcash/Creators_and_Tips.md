@@ -6,14 +6,14 @@
 
 ## Nsɛm a Wɔahyehyɛ
 
-1. [Zcash.me na ɛwɔ hɔ](#zcashme)
+1. [Zcash.me](#zcashme)
 2. [TipZ a ɛyɛ fɛ](#tipz)
 3. [Nea Enti a Kokoam Nsɛm Ho Hia Ma Adebɔfo](#why-privacy-matters-for-creators)
 4. [Nneɛma Afoforo a Wɔde Yɛ Adwuma](#additional-resources)
 
 ---
 
-## Zcash.me na ɛwɔ hɔ
+## Zcash.me
 
 ![Zcash.me Logo](/content-images/_unavailable.svg)
 
@@ -24,7 +24,7 @@
 | Adeɛ a ɛwɔ | Nsɛm a ɛkɔ akyiri |
 |-------------------|---------|
 | **Wɛbsite** | [https://zcash.me/](https://zcash.me/) |
-| **Twitter ** Nsɛm a wɔka kyerɛ | [@zcashme na ɔwom](https://x.com/zcashme) |
+| **Twitter** | [@zcashme na ɔwom](https://x.com/zcashme) |
 | **Profael Nkyekyɛm**| `zcash.me/[username]` |
 | **Gyinabea** | Live (a features wɔ nkɔsoɔ mu) |
 
@@ -68,7 +68,7 @@
 | Adeɛ a ɛwɔ | Nsɛm a ɛkɔ akyiri |
 |-------------------|---------|
 | **Wɛbsite** | [https://tipz.cash/](https://tipz.cash/) |
-| **Twitter ** Nsɛm a wɔka kyerɛ | [@tipz_cash na ɛyɛ adwuma](https://x.com/tipz_cash) |
+| **Twitter** | [@tipz_cash na ɛyɛ adwuma](https://x.com/tipz_cash) |
 | **Profael Nkyekyɛm**| `tipz.cash/@[username]` |
 | **Gyinabea** | Live |
 

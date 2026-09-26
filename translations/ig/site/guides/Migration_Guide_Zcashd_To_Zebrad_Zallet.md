@@ -1,66 +1,66 @@
 # Ntuziaka Mbugharị: Site na zcashd ruo Zebrad/Zallet
 
-The Zcash ecosystem is evolving. The traditional Zcashd full node, maintained by *Electric Coin Company (ECC)* / *Zodl*, is gradually being replaced by Zebra and Zallet.
+Zcashd zuru oke, nke *Electric Coin Company (ECC) * / *Zodl* na-elekọta ya ka Zebra na Zallet dochiri. zcashd ruru njedebe nkwado ya na 18 July 2026 ma ọ naghịzi agba ọsọ.
 
-- Zebra bụ mmejuputa Rust nke oge a nke usoro Zcash nke Zcash Foundation mepụtara
-- Zallet bụ obere akpa ego dị mfe e wuru iji jikọta ya na Zebra nodes nke Zodl mepụtara
+- Zebra bụ mmejuputa Rust nke oge a na usoro Zcash mepụtara site n'aka ụlọ ọrụ Zcash Foundation.
+- Zallet bụ obere akpa ego dị mfe e wuru iji jikọta ya na Zebra nodes nke Zodl mepụtara.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 This guide walks you through the migration from **Zcashd** to **Zebrad** and **Zallet**, including setup, wallet import, and troubleshooting common migration issues.
 
 ---
 
-## Zcash oru ngo ekwuputala n'ihu ọha na a ga-ewepụ zcashd na 2025.
+## zcashd kwụsịrị ịgba ọsọ na 18 Julaị 2026
 
-**Ọnọdụ Mkpesa & Ihe Ọ Pụtara**
+**Ihe nke a pụtara**
 
-- Ihe oru Zcash ekwuputala n'ihu ọha na a ga-ewepụ zcashd na 2025.
-- Full nodes are being migrated to Zebrad, a Rust implementation, while Zallet is intended to succeed the wallet component of zcashd. 
-- In response, the Zebra project tracks a "Zcashd Deprecation" milestone to ensure compatibility, RPC migration, and ecosystem support.
-- Maka ọtụtụ usoro RPC, Zebrad / Zallet ga-achọ ịbụ ndị na-edochi anya (na-eṅomi ma ọ bụ na-eme ka omume kwekọọ). Ndị ọzọ ga-agbanwe maọbụ enweghị ike ịkwado.
+- zcashd ruru njedebe nkwado ya na 18 Julaị 2026. Ọ gaghị emekọrịta ọzọ na isi nke agbụ, ọ nweghịkwa ike izipu ma ọ bụ nata ego. Nke a emechara, abụghị atụmatụ.
+- zcashd's two jobs are now split: **zebrad** is the full node, and **Zallet** is the wallet.
+- Zallet bụ na ** beta**. Mgbanwe mgbanwe nwere ike ime n'etiti ntọhapụ, ụfọdụ usoro zcashd JSON-RPC emebeghị ka ọ dị ugbu a. Lelee ihe ndị ahụ [usoro ọnọdụ matriks](https://zcash.github.io/zallet/) tupu ị dabere na oku a kapịrị ọnụ.
+- Ọ bụrụ na ị ka nwere **Sprout** ego, gụọ ọkwa ahụ n'ọzọ 6 mbụ. Zallet anaghị akwado ọdọ mmiri Sprout, ụzọ a na-ejikarị ebugharị ego ndị ahụ chọrọ zcashd na-agba ọsọ.
 
 **Ihe Mere A Ga-eji Kwapụ - Ọ Bụghị Ịdị Na-eleda Mmadụ Anya**
 
-Ọ bụrụgodị na anyị ahapụ ihe ndị na-eme ka mmadụ gharazie inwe mmasị n'ebe ndị ọzọ nọ, e nwere ezigbo ihe ndị mere mmadụ ga-eji kwaga ebe ọzọ:
-- Nchebe na ike: Nchekwa nchekwa nke Rust na ngwa ọrụ ọgbara ọhụrụ na-ebelata ihe ize ndụ nke adịghị ike.
-- Arụmọrụ na arụmọrụ: Zebrad ka e mere maka ịmekọrịta, iji ihe eji eme ihe n'ụzọ dị irè karị, na ngwa ngwa.
-- Modular Architecture: Iche iche n'echiche (Zebrad) site na obere akpa UI (Zallet) na-enye ókèala doro anya na ụzọ nkwalite ka mma.
-- Nkwekọrịta Ecosystem Ọdịnihu: Ngwá ọrụ, nkwalite, na ndị ọzọ nke usoro okike Zcash ga-elekwasị anya na Zebrad / Zallet.
-- Udo nke Uche: Zere ịbụ onye a na-ejide na-agba ọsọ a deprecated, unsupported akụrụngwa.
+Ọbụna ma e wezụga inwe obi nkoropụ, e nwere ihe ndị gbara ọkpụrụkpụ mere a ga-eji kwaga ebe ọzọ:
+- Nchekwa na ike: nchekwa ncheta Rust na ngwa ọrụ ọgbara ọhụrụ belata ihe ize ndụ nke adịghị ike.
+- Arụmọrụ & arụmọrụ: Zebrad ka e mere maka ịmekọrịta, iji ihe eji eme ihe n'ụzọ dị irè karị na ngwa sync.
+- Modular Architecture: Iche iche n'echiche (Zebrad) site na obere akpa UI (Zallet) na-enye oke ala doro anya ma melite ụzọ ka mma.
+- Njikọ nke Ọdịnihu Ecosystem: Ngwá ọrụ, nkwalite na ndị ọzọ nke usoro okike Zcash ga-elekwasị anya Zebrad / Zallet.
+- Udo nke uche: Zere ịbụ onye a na-ejide iji mee ihe dị njọ, akwadoghị.
 
-### Ugbu a, ka anyị banye n'ime ntuziaka Mbugharị
+### Ugbu a ka anyị banye n'ime ntuziaka Mbugharị.
 
-** 1. nkwado ndabere na mpaghara Ihe niile **
-* Ndabere gị wallet.dat (ma ọ bụ ihe ọ bụla ọzọ wallet faịlụ / isi ụlọ ahịa) si gị zcashd ọnụ.
+** 1. ndabere Ihe niile**
+* Nweta nchekwa wallet.dat gị (ma ọ bụ faịlụ akpa ego / isi ụlọ ahịa) site na zcashd node gị .
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-! [bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
-* Chekwaa zcash.conf gị na ntọala omenala ọ bụla.
-* Mbupụ otu edemede RPC ma ọ bụ akpaaka ị na-eji.
-* Nyochaa na nkwado ndabere gị dị mma (dịka ọmụmaatụ na gburugburu ebe ọzọ, gbalịa imeghe ma ọ bụ nyochaa ha).
-* Nyochaa usoro JSON-RPC nke ị na-adabere ugbu a.
-* Compare against the planned compatibility table maintained on the [Zcash support site](https://z.cash/support/zcashd-deprecation/?utm_source=chatgpt.com) 
-* Kwadebe maka mgbanwe ma ọ bụ usoro ndị na-efu (ụfọdụ nwere ike ịchọ ọrụ maọbụ mgbanwe).
+* Chekwaa zcash.conf gị na ntọala ọ bụla omenala .
+* Mbupụ otu edemede RPC ọ bụla maọbụ akpaaka ị na-eji.
+* Nyochaa na nkwado ndabere gị dị mma (dịka ọmụmaatụ, n'ime gburugburu ebe ọzọ, gbalịa imeghe ma ọ bụ nyochaa ha).
+* Nyochaa usoro JSON-RPC nke ị na - adabere ugbu a.
+* Tụlee ya na tebụl ndakọrịta a haziri ahazi nke e debere n'akwụkwọ akụkọ ahụ. [Ebe nkwado Zcash](https://z.cash/support/zcashd-deprecation/) 
+* Kwadebe maka mgbanwe ma ọ bụ usoro ndị na-efu (ụfọdụ nwere ike ịchọ ọrụ gburugburu ma ọ bụkwanụ imezi ya).
 
 **2. System chọrọ & Disk Space**
-* Jide n'aka na ị nwere ohere diski zuru oke (Zcash chain dị ukwuu). Ọ dịkarịa ala 10 GB nke ohere disiki efu.
+* Oghere diski bụ ihe ndị mmadụ na-eleda anya. Zcash chain gafere ** 270 GB** n'August 2026, yabụ hapụ ma ọ dịkarịa ala ** 300 GB** nke ohere efu, na SSD ma ị nwere ike.
 * Jide n'aka na igwe gị nwere netwọkụ kwụsiri ike, CPU, RAM.
 * Njikọ Ịntanetị 
-* Ọ bụrụ na ị na-eme atụmatụ ịhazi site na isi iyi, wụnye Rust & Cargo.
+* Ọ bụrụ na ị ga-eme atụmatụ iji mepụta site na isi iyi, wụnye Rust & Cargo.
 
 ** 3. Wụnye / Nhazi Zebrad**
-Ị nwere ike ma budata a prebuilt ọnụọgụ abụọ ma ọ bụ wuo site na isi iyi.
-* The Zcash Foundation publishes releases and binaries for Zebra. E.g. you might use an install script or download the appropriate binary for your OS.
+Ị nwere ike ibudata ọnụọgụ abụọ e wuru tupu oge ma ọ bụ wuo site na isi iyi.
+* Zcash Foundation na-ebipụta mbipụta na ọnụọgụ abụọ maka Zebra. Dịka ọmụmaatụ, ị nwere ike iji edemede wụnye ma ọ bụ budata ọnụọgba kwesịrị ekwesị maka OS gị.
 
-* Note that in recent Zebra versions, [the RPC endpoint is no longer enabled by default in Docker.](https://zfnd.org/zebra-2-3-0-release/?utm_source=chatgpt.com)
+* Rịba ama na n'ụdị Zebra ndị ọhụrụ, [njedebe RPC anaghịzi enyere ya aka na ndabara na Docker.](https://zfnd.org/zebra-2-3-0-release/)
 
-** Nhọrọ A: Wụnye site na prebuilt ọnụọgụ abụọ ** 
-Na **Linux**/**macOS**:
+** Nhọrọ A: Wụnye site na ngwaike nke emebere tupu** 
+Na ** Linux**/** macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
@@ -68,7 +68,7 @@ Na **Linux**/**macOS**:
 
 This installs the latest stable version of zebrad.
 
-** Nhọrọ B: Mee site na isi mmalite **
+** Nhọrọ B: Wụpụta site na isi iyi**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
@@ -77,7 +77,7 @@ This installs the latest stable version of zebrad.
 Mgbe i wuchara ya, bugharịa binary ahụ n'ụzọ gị:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
+![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Nhazi & Mwepụta** 
@@ -87,69 +87,87 @@ Mepụta nhazi ndabara:
 ![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
-Dezie **zebrad.toml** na mmasị gị (na-ege ntị na adreesị, ọdụ ụgbọ mmiri, ndekọ steeti, caching).
+Dezie **zebrad.toml** na mmasị gị (ịge ntị adreesị, ọdụ ụgbọ mmiri, ndekọ steeti, caching).
 
 ** Malite ọnụ:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise](/content-images/H1KPkvt6gl-864c48ca40.webp)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
-The node will begin syncing from genesis - expect several hours (or more) depending on hardware and network.
+Njikọ ahụ ga-amalite syncing site na mmalite - atụ anya ọtụtụ awa (ma ọ bụ karịa) dabere na ngwaike na netwọk.
 
-** 5. Wụnye / Mbido Zallet (Wallet) **
+** 5. Wụnye / Nhazi Zallet (Wallet)**
 
 Ezubere Zallet iji dochie akụkụ akpa ego nke zcashd.
 
 Lelee Zallet GitHub / wepụta peeji maka ọnụọgụ abụọ.
 
-** Ma ọ bụ wuo site na isi iyi:**
+**Ma ọ bụ wuru site na isi iyi:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
-* Bido GUI ma ọ bụ CLI (dị ka nrụnye gị nyere).
-* Hazie ya iji jikọọ na mpaghara Zebrad gị site na RPC ma ọ bụ API endpoint.
+* Mepee GUI ma ọ bụ CLI (dị ka nrụnye gị nyere).
+* Hazie ya ka ọ jikọọ na mpaghara Zebrad gị site na RPC ma ọ bụ API endpoint.
 
-** 6. Ịbubata gị zcashd obere akpa n'ime Zallet** 
-Site na Dump Key Dump
+** 6. Ịbubata gị zcashd obere akpa n'ime Zallet**
 
-Na zcashd, mbupụ igodo nzuzo gị:
+Ị chọghị zcashd na-agba ọsọ maka nke a. Zallet gụrụ ya `wallet.dat` faịlụ ozugbo, nke dị mkpa n'ihi na zcashd enweghị ike ịmalite.
+
+> **Nọgide na-eme ya. `wallet.dat`.** Mbugharị na-akọ ihe ọ bụla o nwere ike ghara ịnọchite anya ya n'ime obere akpa Zallet kama ibubata ya, ma isi ihe ahụ dị naanị na akaụntụ. `wallet.dat`. Ehichapụla ya mgbe ị kwagara.
+
+Gbaa ọsọ . `zallet init-wallet-encryption` Zallet na-ezipụ ihe dị mkpa maka njirimara afọ, ma onye ahụ ga - adị tupu ebubata igodo ọ bụla.
+
+Mgbe ahụ gbanwee nhazi gị na obere akpa gị:
+
+```bash
+# translate zcash.conf into zallet.toml
+zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir -o /path/to/zallet/datadir/zallet.toml
+
+# import wallet.dat into Zallet's wallet.db
+zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
+```
+
+`migrate-zcashd-wallet` bụ naanị ugbu a na-ewu ya na ndị ahụ. `zcashd-import` ihe, na ịgụ ya. `wallet.dat` chọrọ ndị ahụ. `db_dump` ihe enyemaka site na Berkeley DB 6.2, mbipute zcashd eji. Ọ bụrụ na ị nwere karịa otu faịlụ wallet, gbaa iwu ahụ ozugbo maka faịlụ ma gbakwunye `--allow-multiple-wallet-imports` na-esote aga; onye ọ bụla na-aghọ ya set nke akaụntụ. gị `rpcuser` na nke a: `rpcpassword` a naghị ebugharị ya, n'ihi na Zallet JSON-RPC jiri kuki nyochaa site na ndabara; tinye nzere na `zallet add-rpc-user` ma ọ bụrụ na ị chọrọ ha.
+
+** Ihe na-abịa gafee**
+
+* Mnemonic mkpụrụ na igodo ndị sitere n'aka ha, yana akaụntụ e wughachiri iji kwekọọ na obere akpa zcashd
+* Standalone dị Sapling mmefu igodo na uzo igodo
+* Ntinye ederede naanị elekere na-agụnye igodo ọha ma ọ bụ edemede mgbapụta ha.
+* Ụbọchị ọmụmụ akaụntụ, ya mere na-amalite nyocha nke agbụ ahụ n'ogologo kwesịrị ekwesị
+
+**Ihe na-adịghị abịa gafee.** Ndị a kọrọ ọnụ kama dị ka ihe ndị e webatara:
+
+* ** Igodo na ego nke Sprout.** Zallet anaghị akwado ogbe mmiri. Ụzọ a kwadoro bụ ịkwaga ego ọmụrụ nwa site n'iji zcashd tupu ezumike nká, ma nke ahụ agaghịzi ekwe omume. Ọ bụrụ na nke a metụtara gị, jụọ maka ya [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) ma ọ bụ na- [ọgbakọ obodo](https://forum.zcashcommunity.com/) tupu m emee ihe ọ bụla ọzọ.
+* Ihe ndị e dere n'akwụkwọ adreesị gị .
+* Ihe edere naanị-ekiri echekwara na enweghị igodo ọha ma ọ bụ script mgbapụta, yana ihe ndenye nwere mkpịsị ugodi ndị a na - ejighị arụ ọrụ.
+* Regtest wallets (akpa ego ndị a na-ejigide)
+
+**Idebe azụ mgbe.** Ihe ncheta n'onwe ya abụghị nkwado zuru ezu, n'ihi na igodo ndị a webatara dị naanị na nchekwa data wallet. Debe akwụkwọ nche nke ihe niile ị chọrọ iji mee ka ọ bụrụ eziokwu ma nwee ike ịchọta ha ọzọ. `wallet.db`, afọ izo ya ezo njirimara faịlụ aha site na ndị ọrụ nke ụlọọrụ ahụ. `keystore.encryption_identity` nhọrọ, na gị mnemonic ahịrịokwu ahụ, ma debe mbụ `wallet.dat`Rịba ama na . `wallet.db` abụghị nke ezoro ezo: ọ na-ejide akụkọ azụmahịa gị ma lee igodo n'ụzọ doro anya, yabụ chekwaa nkwado ndabere ahụ ebe dị nchebe.
+
+** Nnyocha na mmekọrịta nke obere akpa ego**
+
+* Ozugbo e webatara igodo ndị ahụ, Zallet ga-eme ka a nyochaghachi agbụ ígwè site na Zebrad.
+* Nye Zallet oge iji wughachi nguzozi gị na akụkọ azụmahịa.
+
+** 7. Lelee nguzozi na Sync**
+
+Ozugbo ebubata, Zallet ga-ejikọ na Zebrad gị ma nyochaa blockchain.
+Mgbe emechara mmekọrịta, nguzo gị na azụmahịa ga-apụta kpọmkwem dị ka ọ dịbu.
+
+Ị nwere ike ịchọpụta ọnọdụ sync nke ọnụ gị site na ịgba ọsọ:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
-* Na Zallet, họrọ Import Keys ma ọ bụ nhọrọ yiri ya.
-* Detuo ya na zcashd_keys.txt. 
-* Zallet ga-enyocha ma webata adreesị ZEC na igodo ndị metụtara ya.
-
-** Site na mkpụrụ okwu ** (ma ọ bụrụ na ọdabara)
-
-* If your wallet supports a seed backup, use Restore from Seed Phrase in Zallet.
-* This only works if your zcashd wallet was derived from a seed (or you have seed conversion).
-
-** Nyocha na mmekọrịta nke obere akpa ego **
-
-* Ozugbo e webatara mkpịsị ugodi ndị ahụ, Zallet ga-eme ka a nyochaghachi agbụ ígwè ahụ site na Zebrad.
-* Nye Zallet oge iji wughachi nguzo gị na akụkọ azụmahịa gị.
-
-** 7. Lelee nguzozi na Sync **
-
-Ozugbo ebubata ya, Zallet ga-ejikọ na Zebrad node gị ma nyochagharịa blockchain.
-Mgbe synchronization zuru ezu, nguzo gị na azụmahịa kwesịrị ịpụta kpọmkwem dị ka tupu.
-
-Ị nwere ike ịchọpụta ọnọdụ sync gị site na ịgba ọsọ:
+Ma ọ bụ nyochaa ihe ndekọ.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
-</div>
-
-Ma ọ bụ na-enyocha ihe ndekọ.
-
-<div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise](/content-images/r1HfVPF6gg-b6b76e9907.webp)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Nchọpụta nsogbu**
@@ -195,8 +213,8 @@ Ma ọ bụ na-enyocha ihe ndekọ.
 
 **9. nkwubi okwu**
 
-Migrating from zcashd to Zebrad and Zallet gives you a faster, safer, and more modern Zcash experience.
+Ịkwaga site na zcashd gaa Zebrad and Zallet na-enye gị ngwa ngwa, nchekwa dị mma karị, yana ahụmịhe Zcash nke oge a.
 With Rust-based security, modular design, and better tooling, this setup ensures your node and wallet remain future-ready as the Zcash ecosystem continues to evolve.
 
-Ndụmọdụ: Debe igodo obere akpa gị na-anọghị n'ịntanetị ma na-echekwa data Zallet gị mgbe niile.
-Gaa na [zebra.zfnd.org](https://zebra.zfnd.org) na [zallet.zfnd.org](https://zallet.zfnd.org) maka mmelite na nkwado obodo.
+Ndụmọdụ: Debe igodo obere akpa gị na-anọghị n'ịntanetị ma mee nkwado ndabere nke data Zallet gị mgbe niile.
+Ịga leta ya . [zebra.zfnd.org](https://zebra.zfnd.org) maka Zebra, na [Akwụkwọ Zallet ahụ .](https://zcash.github.io/zallet/) ma ọ bụ na- [Ebe nchekwa Zallet](https://github.com/zcash/zallet) maka Zallet. The [Ịkwaga site na zcashd](https://zcash.github.io/zallet/) chapter of The Zallet Book is the authoritative reference for step 6.

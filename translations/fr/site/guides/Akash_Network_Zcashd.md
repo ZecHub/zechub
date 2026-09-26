@@ -512,7 +512,7 @@ Lorsque votre solde devient faible, Akash fermera automatiquement votre déploie
 
 **Documentation Akash** : [https://akash.network/docs/](https://akash.network/docs/)
 
-**Explorateurs Zcash** : [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Explorateurs Zcash** : [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Discord Akash** : [https://discord.akash.network](https://discord.akash.network) (pour les problèmes de fournisseur)
 

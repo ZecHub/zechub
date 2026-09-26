@@ -64,7 +64,7 @@ L'ordine conta. Condividi la chiave più limitata che svolge il compito, non la 
 
 ## Mettilo in pratica
 
-- Usa un wallet che scherma per impostazione predefinita, come [Zodl](https://zodl.com) o [Ywallet](https://ywallet.app/).
+- Usa un wallet che scherma per impostazione predefinita, come [Zodl](https://zodl.com) o [Zingo!](https://www.zingolabs.org/).
 - Scherma i fondi non appena arrivano da un exchange, prima di spenderli.
 - Paga verso indirizzi schermati ogni volta che il destinatario ne supporta uno.
 - Prima di condividere una viewing key, chiediti quale sia la chiave più piccola che risponde alla domanda che ti viene posta.

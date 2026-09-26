@@ -5,8 +5,8 @@
 
 # Zcash Address ahorow a wobɛyɛ wɔ w’adwenem
 
-Sɛ woresua Zcash ho ade nea edi kan a wubehu ntɛm ara sɛ [nkitahodi ahorow abien na ɛwɔ hɔ](https://zechub.wiki/using-zcash/transactions) a ebetumi aba: *transparent* ne *shielded*.
-Bio nso, sɛ woakɔ so ayɛ nea aba foforo wɔ Zcash abɔde a nkwa wom nhyehyɛe no mu a, ebia woasua [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), or UA's.
+Sɛ woresua Zcash ho ade nea edi kan a wubehu ntɛm ara sɛ ahorow abien na ɛwɔ hɔ [nkitahodi ahorow](https://zechub.wiki/using-zcash/transactions) a ebetumi aba: *transparent* ne *shielded*.
+Bio nso, sɛ woakɔ so ayɛ nea aba foforo wɔ Zcash abɔde a nkwa wom nhyehyɛe no mu a, ebia woasua ho ade [Address ahorow a Wɔaka abom](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), or UA's.
 Sɛ folks wɔ Zcash adwumayɛ mu ka *shielded * nkitahodi ho asɛm a, wɔkyerɛ nkitahodi a ɛfa address ahorow a wɔde encoded ama sapling anaa orchard protocols no ho. 
 Wɔayɛ UA's sɛ ɛbɛka *biara* ayɔnkofa a wɔabɔ ho ban anaa ɛda adi pefee abom ayɛ no address baako. Saa generalization yi ne ade titiriw a ɛbɛma UX a ɛkɔ n’anim no ayɛ mmerɛw. Akwankyerɛ yi botaeɛ ne sɛ ɛde nhwɛsoɔ a ɛyɛ nokware a wɔde aniwa hu bɛka UA ho nteaseɛ ho.
 
@@ -37,16 +37,16 @@ Adeɛ a ɛtɔ so mmienu a ɛsɛ sɛ yɛhyɛ no nsow ne address string biara pref
 
 Ɛho hia sɛ yɛhyɛ no nsow:
 
-#### "Orchard akatua address nni stand-alone string encoding. Mmom, yɛkyerɛkyerɛ "address a wɔaka abom" a ebetumi abɔ address ahorow a ɛsono emu biara abom, a Orchard ka ho. Address a wɔaka abom no wɔ "u" Fa a Onipa Akenkan wɔ Mainnet so, i.e. wobenya prefix "u1
+#### "Orchard akatua address nni stand-alone string encoding. Mmom, yɛkyerɛkyerɛ "address a wɔaka abom" a ebetumi abɔ address ahorow a ɛsono emu biara abom, a Orchard ka ho. Address a wɔaka abom wɔ "u" Ɔfã a Onipa Akenkan wɔ Mainnet so, i.e. wobenya prefix "u1
 
 ## Unified Address agyefo
 
-Sɛnea wɔaka ho asɛm [ha](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) obi betumi akyekye UA's ne receivers ahorow -- ebinom a wɔaka abom a ɛyɛ transparent,sapling, ne orchard address ahorow.
+Sɛnea yɛaka ho asɛm no [ha](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) obi betumi akyekye UA's ne receivers ahorow -- ebinom a wɔaka abom a ɛyɛ transparent,sapling, ne orchard address ahorow.
 Sɛ UA a edi mũ da nkyɛn a, nea ɛtaa ba a wubehu wɔ wuram no ni:
 
 * transparent + dua a ɛyɛ nnuadewa
 
-![img4 na ɛwɔ hɔ](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
+![img4](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
 
 * transparent + nnuaba turo
 

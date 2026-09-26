@@ -12,7 +12,7 @@ Ne míagblɔe bubui la, Testnet le abe **sandbox alo dodokpɔ ƒe nɔnɔme** si 
 
 ## Nukatae Testnet Li?
 
-Testnet le vevie ŋutɔ na blockchain ƒe ŋgɔyiyi elabena **blockchain ŋutɔŋutɔwo abe Zcash ene metrɔna o** - ne wonya ɖo kpe asitsatsa dzi le network gã la dzi ko la, womate ŋu agbugbɔ wo awɔ o. Testnet naa **safe replica** be woate, ado wo kpɔ, eye woaɖɔ nɔnɔmewo ɖo hafi woaɖo wo ɖe Mainnet.
+Testnet le vevie ŋutɔ na blockchain ƒe ŋgɔyiyi elabena **blockchain ŋutɔŋutɔwo abe Zcash ene metrɔna o** - ne wonya ɖo kpe asitsatsa dzi le network vevitɔ dzi ko la, womate ŋu agbugbɔ wo awɔ o. Testnet naa **safe replica** be woate, ado wo kpɔ, eye woaɖɔ nɔnɔmewo ɖo hafi woaɖo wo ɖe Mainnet.
 
 ### Testnet zazã
 
@@ -26,21 +26,21 @@ Dɔwɔla siwo le gakotokuwo, asitɔtrɔwo, tomenukuƒewo, alo ameŋunyatakakawo 
 - Dodokpɔ le asitsatsa ƒe adzamenyawo ƒe nɔnɔmewo ŋu (si me kɔ vs esi wokpɔ ta na) . 
 
 **Kpɔɖeŋu:** 
-Dɔwɔnu siwo le abe [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) zã Testnet tsɔ wɔ asitsatsa eye nàdo Zcash shielded asset functionalities kpɔ. 
+Dɔwɔnuwo abe [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) zã Testnet tsɔ wɔ asitsatsa eye nàdo Zcash shielded asset functionalities kpɔ. 
 
 **Xexeame ŋutɔŋutɔ ƒe nɔnɔme:** 
 Gakotoku wɔla ateŋu atsɔ kɔmpiuta dɔwɔɖoɖowo aƒo ƒu ɖe Testnet RPC ƒe nuwuƒe eye wòawɔ agbenɔƒe bliboa ƒe kpɔɖeŋu - adrɛswo wɔwɔ, asitsatsa siwo wokpɔ ta na la ɖoɖo, kple ga si susɔ ƒe kpeɖodzi - hafi ayi agbe le Mainnet dzi.
 
 #### 2. Dodokpɔ le Network ƒe Ŋgɔyiyiwo Ŋu
 
-Zcash doa eƒe ɖoɖowɔɖi vevitɔ ɖe ŋgɔ ɣeaɖewoɣi (e.g., Nu5, Nu6). Testnet wɔa tɔtrɔ yeyewo **do ŋgɔ na Mainnet**, si na be dɔwɔlawo kple nutoa me tɔwo te ŋu dea dzesi vodadawo eye woɖɔa wo ɖo.
+Zcash doa eƒe ɖoɖowɔɖi vevitɔ ɖe ŋgɔ ɣeaɖewoɣi (e.g., NU6.1, NU6.2 kple Ironwood). Testnet wɔa tɔtrɔ yeyewo **do ŋgɔ na Mainnet**, si na be dɔwɔlawo kple nutoa me tɔwo te ŋu dea dzesi vodadawo eye woɖɔa wo ɖo.
 
 **Kpɔɖeŋu:** 
 Wotutua se yeye si dzi woda asi ɖo alo asitsatsa ƒomevi aɖe ɖe Testnet dzi gbã. Ne wodoe kpɔ dzidzedze vɔ la, ewɔa dɔ le Mainnet dzi le block ƒe kɔkɔme si woɖo ɖi do ŋgɔ.
 
 #### 3. Node ƒe Dɔwɔwɔwo Dodokpɔ
 
-Zcash doa alɔ node kɔmpiuta dɔwɔɖoɖo geɖewo ƒe dɔwɔwɔ - . `zcashd` kple **Zebra** (Rust-based node si Zcash Foundation léa be na). Testnet na be woate ŋu ado nodes kpɔ le nɔnɔme ŋutɔŋutɔwo me ganyawo ƒe afɔku manɔmee. 
+Zcash ƒe node si wodzra ɖoe nye **Zebra** (node si wotu ɖe Rust dzi si Zcash Foundation léa be na) eye gakotoku si wodzra ɖo la nye [Zallet](https://github.com/zcash/zallet). `zcashd`, node ƒe dɔwɔwɔ gbãtɔ, ɖo eƒe kpekpeɖeŋunana ƒe nuwuwu le eɖokui si le 18 July 2026 dzi eye womegaléa be nɛ o - kpɔ [zcashd na Zebra kple Zallet ʋuʋu ƒe mɔfiame](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet na be woate ŋu ado nodes kpɔ le nɔnɔme ŋutɔŋutɔwo me ganyawo ƒe afɔku manɔmee.
 
 Node wɔlawo ate ŋu:
 
@@ -66,7 +66,7 @@ Nutoa me nufiamewo kple nuŋlɔɖiwo naa mɔnukpɔkpɔ be woakpɔ **Testnet fauc
 
 ZEC ŋutɔŋutɔ aɖeke mebuna ne vodadawo dzɔ gɔ̃ hã o.
 
-### 2. Trɔ asi le Ðekawɔwɔ Dodokpɔ
+### 2. Exchange ƒe Ðekawɔwɔ Dodokpɔ
 
 - Ƒu du Testnet node aɖe 
 - Zã Zebrad JSON-RPC ƒe nuwuƒewo nàtsɔ awɔ dɔ tso asitsatsa ŋu 
@@ -103,7 +103,7 @@ Zãla deŋgɔwo ateŋu awɔ **Testnets tɔxɛwo alo regtest nutowo** hã hena do
 
 - **Testnet gakuwo ƒe asixɔxɔ le nane** -> Aʋatso, TAZ ƒe asixɔxɔ nye zero. 
 - **Testnet gakuwo ƒe bu le vevie** -> Aʋatso, asixɔxɔ ŋutɔŋutɔ aɖeke mebu o. 
-- **Testnet kple Mainnet sɔ** -> Aʋatso, Testnet gbugbɔ ɖoa ​​anyi zi geɖe eye womele dedie le ganyawo gome abe Mainnet ene o.
+- **Testnet kple Mainnet sɔ** -> Aʋatso, Testnet gbugbɔ ɖoa anyi zi geɖe eye womele dedie le ganyawo gome abe Mainnet ene o.
 
 ---
 
@@ -113,7 +113,7 @@ Zãla deŋgɔwo ateŋu awɔ **Testnets tɔxɛwo alo regtest nutowo** hã hena do
 
 - Menye ga ŋutɔŋutɔ o; womate ŋu aɖɔli ZEC alo fiat o 
 - Wozãnɛ hena dodokpɔ, ŋgɔyiyi, kple nusɔsrɔ̃ 
-- Ewɔna ɖe Zcash ƒe sewo katã dzi: woate ŋu aɖoe, aku, eye woazãe le adrɛs siwo wokpɔ ta na me 
+- Ewɔna ɖe Zcash ƒe sewo katã dzi: woate ŋu aɖoe ɖa, aku, eye woazãe le adrɛs siwo wokpɔ ta na me 
 
 **Kpɔɖeŋu:** 
 Dɔwɔla ateŋu aɖo TAZ 100 tso Testnet adrɛs ɖeka dzi ayi bubu dzi atsɔ ado gakotoku ƒe nɔnɔme aɖe kpɔ evɔ matsɔ ZEC ŋutɔŋutɔ ade afɔku me o. 
@@ -130,7 +130,7 @@ Bu TAZ be enye **"fefe ga" na Zcash Testnet**.
 - Ƒo asa na alesi wòhiã be woaku TAZ kple asi 
 
 **Kpɔɖeŋu:** 
-1. Yi Testnet ƒe pɔmpi aɖe (e.g., [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com ƒe nyatakakadzraɖoƒea](https://fauzec.com/))  
+1. Tsa le Testnet ƒe pɔmpi aɖe (e.g., . [fauzec.com dzi](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz ƒe ƒuƒoƒo](https://zcashfaucet.jinolabs.xyz/))  
 2. Ŋlɔ wò Testnet adrɛs 
 3. Bia TAZ 
 4. Xɔ TAZ enumake be nàdze dodokpɔ gɔme 
@@ -144,7 +144,7 @@ Bu TAZ be enye **"fefe ga" na Zcash Testnet**.
 
 ## Zkool kple Zingo! Gakotokuwo
 
-### Zkool ƒe ŋkɔ
+### Zkool
 
 - Gakotoku si me akɔntabubu geɖe le na Zcash zãla deŋgɔwo 
 - Doa alɔ nuku ƒe nyagbewo, nukpɔkpɔ ƒe safuiwo, adrɛs siwo me kɔ eye wokpɔ ta na 
@@ -153,7 +153,7 @@ Bu TAZ be enye **"fefe ga" na Zcash Testnet**.
 ### Zingo!
 
 - Asitelefon dzi gakotoku si léa fɔ ɖe ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ kple nuwɔwɔ bɔbɔe ŋu 
-- Doa alɔ adrɛs siwo wokpɔ ta na eye wowɔ ɖeka 
+- Doa alɔ adrɛs siwo ŋu wokpɔ ta na eye wowɔ ɖeka 
 - Wotrɔ asi le eŋu be wòado alɔ Testnet ƒe ɖoɖowo (NU6 Testnet hã le eme)
 
 ## Testnet ƒe dɔwɔwɔ le Gakotokuwo me
@@ -166,7 +166,7 @@ Bu TAZ be enye **"fefe ga" na Zcash Testnet**.
     src="https://www.youtube.com/embed/XCGwwqLZILg"
     title="Zkool Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -184,7 +184,7 @@ Bu TAZ be enye **"fefe ga" na Zcash Testnet**.
     src="https://www.youtube.com/embed/To7WAkiBldA"
     title="Zingo Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

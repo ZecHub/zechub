@@ -30,22 +30,22 @@ O le beere lọwọ awọn oluranlọwọ Chatbot nigbagbogbo lati ṣe iranlọ
 
 ### Àwọn irinṣẹ́ ọ̀fẹ́:
 
-- [ì í ì ë¦¬ì](https://imgnai.com/) bot on Discord or Telegram - [Ẹ̀kọ́ Ìbẹ̀rẹ̀](https://imgnai.gitbook.io/imgnai/) àti 
+- [ImgnAI](https://imgnai.com/) bot on Discord or Telegram - [Ẹ̀kọ́ Ìbẹ̀rẹ̀](https://imgnai.gitbook.io/imgnai/) àti 
 tun bayi [Webapp ImgnAI](https://app.imgnai.com/home) pẹ̀lú àkọọ́lẹ̀ àkànṣe 
 wọlé pẹ̀lú X, Google, Discord, Telegram
 - [Bing Dalle3 ì ì ì 'í í ](https://www.bing.com/create) - free version le jẹ pẹ
 - [Adobe Firefly] [ì í ì ¤í ë ¤](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - ìwọ̀nba tí a fún lómìnira
-- [Àwòrán ara ẹni](https://ideogram.ai/login) - ó mọ bí wọ́n ṣe ń kọ àwọn ọ̀rọ̀ tó ṣeé kà dáadáa sórí àwòrán
+- [Ideogram](https://ideogram.ai/login) - ó mọ bí wọ́n ṣe ń kọ àwọn ọ̀rọ̀ tó ṣeé kà dáadáa sórí àwòrán
 - [Ibi eré ìdárayá AI](https://playgroundai.com/) - free mode, ìforúkọsílẹ̀ láti $15/osù
 - [Clipdrop nipasẹ iduroṣinṣin.ai](https://clipdrop.co/stable-diffusion)
-- [Ìràwọ̀ AI](https://www.starryai.com) - 5 iṣẹ́ ọnà/ọjọ́
+- [StarryAI](https://www.starryai.com) - 5 iṣẹ́ ọnà/ọjọ́
 - [Àlá tí wombo kọ](https://dream.ai/)
-- [Ilé-ìṣọ́](https://www.craiyon.com/) (DALL-E mini clone) - ìforúkọsílẹ̀ tí wọ́n sanwó fún láti $ 5 ń mú kí iyara pọ̀ sí i
+- [Craiyon](https://www.craiyon.com/) (DALL-E mini clone) - ìforúkọsílẹ̀ tí wọ́n sanwó fún láti $ 5 ń mú kí iyara pọ̀ sí i
 - [DALL-E mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) - ti atijọ ati ipilẹ
 
 ### Awọn irinṣẹ ti a sanwo:
 
-- [Bọtì Àárín Ọ̀nà](https://discord.com/invite/midjourney) nínú Discord - láti $ 10/osù - [Ìtọ́ni fún Ìbẹ̀rẹ̀](https://docs.midjourney.com/docs/quick-start)
+- [Midjourney Bot](https://discord.com/invite/midjourney) nínú Discord - láti $ 10/osù - [Ìtọ́ni fún Ìbẹ̀rẹ̀](https://docs.midjourney.com/docs/quick-start)
 le gba nipa 100 free iran nipa rating ọpọlọpọ awọn miran [awọn aworan ni nibi](https://www.midjourney.com/app/rank-pairs/)
 (ó yẹ kí wọ́n ṣe é fún àwọn tí ó gbajúmọ̀ jùlọ - nǹkan bí ìṣẹ́jú mẹ́ẹ̀ẹ́dógún ti fíìmù tí a fi ń díwọ̀n)
 - [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 ìran - (ìran 15 lómìnira/oṣù)
@@ -57,8 +57,8 @@ le gba nipa 100 free iran nipa rating ọpọlọpọ awọn miran [awọn awora
 ### Àwọn irinṣẹ́ (ìdánwò lọ́fẹ̀ẹ́):
 
 - [RunwayML GEN-2](https://runwayml.com/) (ìdánwò ọ̀fẹ́, ìforúkọsílẹ̀ láti $15/osù)
-- [Pika Labs Àríyànjiyàn Bot](https://www.pika.art/) (Ṣé ATM lómìnira ni?)
-- [ìyẹn ni](https://elai.io/) (ìforúkọsílẹ̀ láti $23/osù)
+- [Pika Labs Discord Bot](https://www.pika.art/) (Ṣé ATM lómìnira ni?)
+- [elai](https://elai.io/) (ìforúkọsílẹ̀ láti $23/osù)
 
 ### Àwọn irinṣẹ́ ìtumọ̀ fídíò/ohùn:
 
@@ -73,17 +73,17 @@ le gba nipa 100 free iran nipa rating ọpọlọpọ awọn miran [awọn awora
 
 ### Orin tí ó ń mú jáde
 
-- [Àwòrán ìró](https://soundraw.io/) - gbìyànjú fún free - (ìforúkọsílẹ̀ láti $16.99/osù)
+- [Soundraw](https://soundraw.io/) - gbìyànjú fún free - (ìforúkọsílẹ̀ láti $16.99/osù)
 - [ìjàpá.ai](https://www.beatoven.ai/) - gbiyanju fun free - (ìforúkọsílẹ lati $ 3 / osù tabi $ 1 / iṣẹju ti ipilẹṣẹ)
 - [ìkànnì soundful.com](https://soundful.com/) - gbìyànjú fún free - (ìforúkọsílẹ lati $59.99/osù tabi 29.99/m lododun)
-- [ìbúgbàù](https://boomy.com/) - gbìyànjú fún free - (ìforúkọsílẹ̀ láti $9.99/osù)
-- [Tó dún sókè](https://www.loudly.com/) - gbìyànjú fún free - (ìforúkọsílẹ̀ láti $7.99/osù)
+- [boomy](https://boomy.com/) - gbìyànjú fún free - (ìforúkọsílẹ̀ láti $9.99/osù)
+- [Loudly](https://www.loudly.com/) - gbìyànjú fún free - (ìforúkọsílẹ̀ láti $7.99/osù)
 - [Mubert](https://mubert.com/) - gbìyànjú fún free - (ìforúkọsílẹ̀ láti $14/osù)
 
 ### Ṣiṣẹda ohùn
 
 - [play.ht ì ì 'í ̧ë¦¬](https://play.ht/) - free - (ìforúkọsílẹ̀ láti $ 39/osù)
-- [ElevenLabs] [Ìdánilẹ́kọ̀ọ́](https://elevenlabs.io/) - free - (ìforúkọsílẹ̀ láti $5/osù)
+- [ElevenLabs](https://elevenlabs.io/) - free - (ìforúkọsílẹ̀ láti $5/osù)
 - [Murf](https://murf.ai/) - free - (ìforúkọsílẹ̀ láti $29/osù)
-- [Ó jọra](https://www.resemble.ai/) - gbìyànjú lọ́fẹ̀ẹ́ (lẹ́yìn $0.006 ní ìṣẹ́jú àáyá kan)
-- [Àdàkọ](https://www.synthesia.io/) - (ìforúkọsílẹ̀ láti $22.5/osù)
+- [Resemble](https://www.resemble.ai/) - gbìyànjú lọ́fẹ̀ẹ́ (lẹ́yìn $0.006 ní ìṣẹ́jú àáyá kan)
+- [Synthesia](https://www.synthesia.io/) - (ìforúkọsílẹ̀ láti $22.5/osù)

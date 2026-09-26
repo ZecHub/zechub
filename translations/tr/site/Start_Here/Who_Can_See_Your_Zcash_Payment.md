@@ -64,7 +64,7 @@ Sıralama önemlidir. Elinizde olan en geniş anahtarı değil, işi gören en d
 
 ## Bunu pratiğe dökün
 
-- Varsayılan olarak koruma sağlayan bir cüzdan kullanın; örneğin [Zodl](https://zodl.com) veya [Ywallet](https://ywallet.app/).
+- Varsayılan olarak koruma sağlayan bir cüzdan kullanın; örneğin [Zodl](https://zodl.com) veya [Zingo!](https://www.zingolabs.org/).
 - Bir borsadan gelen fonları, harcamadan önce ulaşır ulaşmaz korumalı hale getirin.
 - Alıcı destekliyorsa, korumalı adreslere ödeme yapın.
 - Bir viewing key paylaşmadan önce, sorulan soruyu yanıtlayan en küçük anahtarın hangisi olduğunu sorun.

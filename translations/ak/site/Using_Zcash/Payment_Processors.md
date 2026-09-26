@@ -12,11 +12,11 @@ Mmoa a wɔde ma wɔ kokoam agyapade ho no taa sesa, enti row biara kura n’anka
 
 | Processor a wɔde yɛ adwuma | Nhwɛsode | Wɔabɔ ho ban ZEC | Ɔno ankasa a ɔyɛ ahɔhoyɛfo | Aguadifo ho ka | Mpɔtam / KYC | Wɔagye atom |
 |:--|:--|:--|:--|:--|:--|:--|
-| [CipherPay a wɔde tua ho ka](https://www.cipherpay.app) | Nea ɛnyɛ afiase | Yiw, Orchard via Unified Addresses | Yiw, open source | 1% wɔ sikatua biara mu, sɛ obi ankasa gye ho a, wontua hwee | No KYC, mpɔtam a wɔankyerɛ | 2026-07-29 |
-| [BTCPay Server a wɔde di dwuma](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Ɛnyɛ custodial, hwɛ safoa nkutoo | Yiw, wɔabɔ ho ban nkutoo (Sapling, Orchard, UA) | Yiw, open source | Obiara nni hɔ, wotua network fees nkutoo | Wiase nyinaa, KYC biara nni hɔ | 2026-07-29 |
-| [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
+| [CipherPay](https://www.cipherpay.app) | Nea ɛnyɛ afiase | Yiw, Orchard via Unified Addresses | Yiw, open source | 1% wɔ sikatua biara mu, sɛ obi ankasa gye ho a, wontua hwee | No KYC, mpɔtam a wɔankyerɛ | 2026-07-29 |
+| [BTCPay Server a ɛwɔ hɔ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Ɛnyɛ custodial, hwɛ safoa nkutoo | Yiw, wɔabɔ ho ban nkutoo (Sapling, Orchard, UA) | Yiw, open source | Obiara nni hɔ, wotua network fees nkutoo | Wiase nyinaa, KYC biara nni hɔ | 2026-07-29 |
+| [ZGo](https://zgo.cash/) | Ɛnyɛ nea wɔde bɛto afiase | Yiw, Sapling ne Orchard | Dabi, ɔsom a wɔagye atom | Prepaid session, wɔantintim boɔ | KYC biara nni hɔ a wɔaka, mpɔtam a wɔanka | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Adetɔfo ankasa hwɛ, aguadifo si fiat | Customer sɛe sika shielded, gye afã a wɔankyerɛw | Dabi | 1% wɔ sikatua biara mu | US ne SEPA aman 37, ZEC a ɛwɔ EU no nsii so dua | 2026-07-29 |
-| [MPREMPRENNtua a wotua](https://nowpayments.io/supported-coins/zcash-payments) | Nea ɛnyɛ afiase de default | Dabi, address a ɛda adi pefee nkutoo | Dabi | 0.5%, anaa 1% ne nsakrae | Global gye baabi a wɔabara, KYC biara nni hɔ a wode befi ase | 2026-07-29 |
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Nea ɛnyɛ afiase de default | Dabi, address a ɛda adi pefee nkutoo | Dabi | 0.5%, anaa 1% ne nsakrae | Global gye baabi a wɔabara, KYC biara nni hɔ a wode befi ase | 2026-07-29 |
 | [Plisio na ɔkyerɛwee](https://plisio.net/accept-zcash) | Custodial, ɛmfa ho sɛ wɔtɔn | Wɔnkyerɛw nkyerɛwee | Dabi | 0.5% API, 1.5% fitaa nkyerɛwde | KYC biara nni hɔ a wobegye | 2026-07-29 |
 | [Binance Akatua](https://pay.binance.com/en) | Custodial, off-nkɔnsɔnkɔnsɔn | Dabi, wɔpow sika a wɔde asie a wɔabɔ ho ban | Dabi | Free sika kotoku kɔ sika kotoku, 0.8% payouts | Geo-restricted, ZEC a wɔayi afi ne din mu wɔ FR, ES, IT, PL | 2026-07-29 |
 
@@ -42,11 +42,11 @@ Sɛ wopɛ sɛ wogye sika wɔ sotɔɔ mu sen sɛ wobɛfa intanɛt so a, fa **Flex
 
 Sɛ wopɛ hosted gateway a wogye sikatua a ɛda adi pefee tom a, fa **NOWPayments** anaa **Plisio** di dwuma.
 
-Kɔkɔbɔ biako a ɛfata sɛ yɛsan yɛ bio: processor a ɛyɛ transparent-only tintim sika biara a wotua ne address wɔ blockchain no so. Na sɛ wowɔ hosted non-custodial processor biara a wode wo viewing key no ma, enti adwumakuw no betumi ahu wo sikatua ɛwom mpo sɛ wontumi nsɛe no de. Self-hosting ne ɔkwan biako pɛ a wobɛfa so akwati saa.
+Kɔkɔbɔ biako a ɛfata sɛ yɛsan yɛ bio: processor a ɛyɛ mmerɛw nkutoo tintim sika a wotua ne address biara wɔ blockchain no so. Na sɛ wowɔ hosted non-custodial processor biara a wode wo viewing key no ma, enti adwumakuw no betumi ahu wo sikatua ɛwom mpo sɛ wontumi nsɛe no de. Self-hosting ne ɔkwan biako pɛ a wobɛfa so akwati saa.
 
 <div class="processor-note">
 
-**ZGo dwumadie kɔkɔbɔ, 29 July 2026.** ZGo akyi a ɛwɔ api.zgo.cash no san de HTTP 503 baeɛ wɔ endpoint biara so berɛ a na wɔrehwɛ krataafa yi. Wɔnnyae adwuma no na nea ɔhwɛ so no yɛɛ nnam wɔ mpɔtam hɔ ɔsram yi, nanso si so dua sɛ ɔsom no rekɔ so ansa na wode wo ho ato so.
+**ZGo dwumadie kɔkɔbɔ, 29 July 2026.** ZGo akyigyina a ɛwɔ api.zgo.cash no san de HTTP 503 baeɛ wɔ endpoint biara so berɛ a na wɔrehwɛ krataafa yi. Wɔnnyae adwuma no na nea ɔhwɛ so no yɛɛ nnam wɔ mpɔtam hɔ ɔsram yi, nanso si so dua sɛ ɔsom no rekɔ so ansa na wode wo ho ato so.
 
 </div>
 
@@ -55,7 +55,7 @@ Kɔkɔbɔ biako a ɛfata sɛ yɛsan yɛ bio: processor a ɛyɛ transparent-only 
 ## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
 - **Mmoa Type**: Wɔabɔ ho ban (Orchard, denam Address ahorow a Wɔaka abom so)
 - **Nkyerɛkyerɛmu**: Gye Zcash tom wɔ simma mu, Ɛnyɛ custodial, Zero adetɔfo data, Mfinimfini biara nni hɔ.
-- **URL**: 1. [CipherPay a wɔde tua ho ka](https://www.cipherpay.app)
+- **URL**: 1. [CipherPay](https://www.cipherpay.app)
 <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
 
 Woma CipherPay safoa a wotumi hwɛ nkutoo, enti sikatua kɔ w’ankasa sika kotoku mu tẽẽ na enkura sika da. Ɛde address foforo di dwuma ma invoice biara.
@@ -75,14 +75,14 @@ Nneɛma abien a ɛsɛ sɛ wɔkari. Ɛhyɛɛ aseɛ wɔ Ɔpɛpɔn 2026 mu na ɛnni
 ## [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" class="processor-logo" />
 - **Mmoa Type**: Wɔabɔ ho ban nkutoo (Sapling, Orchard, Unified Address)
 - **Nkyerɛkyerɛmu**: BTCPay Server yɛ open-source, cryptocurrency sikatua dwumadie a ɛyɛ ne ho.
-- **URL**: 1. [BTCPay Server a wɔde di dwuma](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+- **URL**: 1. [BTCPay Server a ɛwɔ hɔ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" width="200" hidden />
 
 Ɔkwan a emu yɛ den sen biara a wobetumi afa so wɔ mmofra a wɔbɛhwɛ no ho. Ne wallet backend no yɛ view-only na enkura seed anaa secret key biara, enti server a wɔayɛ no basaa mpo ntumi nsɛe wo sika.
 
 Shielded nkutoo, ɛkata Sapling, Orchard ne Unified Addresses so. Fallback biara nni hɔ a ɛda adi pefee, enti nnyɛ nhyehyɛe ntwa biako ho nhyia.
 
-Sɛ wopɛ sɛ wode hyɛ mu a, wuhia btcpay-zcash Docker fork a ɛwɔ feat/zec baa dwumadibea no so, ne hwɛbea safoa a wɔde fi sika kotoku te sɛ Ywallet anaa Zingo mu kɔ amannɔne. Sɛnea wɔahyɛ no, ɛne akyirikyiri lightwalletd kasa, anaasɛ wo ankasa wubetumi ayɛ Zebra na woayɛ lightwalletd.
+Sɛ wopɛ sɛ wode hyɛ mu a, wuhia btcpay-zcash Docker fork a ɛwɔ feat/zec baa dwumadibea no so, ne viewing key a wɔde fi sika kotoku te sɛ Zkool anaa Zingo mu. Sɛnea wɔahyɛ no, ɛne akyirikyiri lightwalletd kasa, anaasɛ wo ankasa wubetumi ayɛ Zebra na woayɛ lightwalletd.
 
 Anohyeto biako a ɛsɛ sɛ wuhu ho asɛm: plugin no de Zcash sika kotoku biako di dwuma ma sotɔɔ biara a ɛwɔ instance bi so, enti nnyɛ no wɔ shared server so. Wɔreyɛ sika kotoku a wɔde di dwuma wɔ sotɔɔ biara mu ho adwuma.
 
@@ -102,11 +102,11 @@ A till wo run wɔ browser mu, enti laptop, tablet anaa fon bɛyɛ checkout. WooC
 
 Sika fi adetɔfo no hɔ kɔ wo sika kotoku mu tẽẽ, na obiara nni ntam.
 
-Shielded, covering Sapling and Orchard through Unified Addresses, and it follows ZIP 321. Mprempren fibea biara nni hɔ a ɛka sɛ ɛdi address a ɛda adi pefee ho dwuma, enti krataafa yi nkyerɛ bio sɛ ​​ɛyɛ saa.
+Shielded, covering Sapling and Orchard through Unified Addresses, and it follows ZIP 321. Mprempren fibea biara nni hɔ a ɛka sɛ edi address ahorow a ɛda adi pefee ho dwuma, enti krataafa yi nkyerɛ bio sɛ ​​ɛyɛ saa.
 
 Worentumi nyɛ wo ho ahɔho ankasa. ZGo di Zcash infrastructure no so ma wo na ɛntintim deployment guide biara. Fibea no yɛ ɔmanfoɔ wɔ ɔhwɛfoɔ no ankasa Git server so, ɛwom sɛ GitLab copy a nkurɔfoɔ taa hunu no yɛ 2022 ahwehwɛ a ayɛ dedaw.
 
-Ɛnyɛ nea wɔde ma kwa nso. ZGo tɔn prepaid sessions na ɛhia Pro session ma WooCommerce, nanso mprempren boɔ krataafa no yɛ nea wontumi nkɔ hɔ, enti wɔamfa akontabuo biara aka wɔ ha.
+Ɛnyɛ nea wɔde ma kwa nso. ZGo tɔn prepaid sessions na ɛhia Pro session ma WooCommerce, nanso mprempren boɔ krataafa no yɛ nea wontumi nkɔ hɔ, enti wɔamfa akontaabu biara amma wɔ ha.
 
 **Wɔagye atom nea etwa to:** 2026-07-29
 
@@ -135,7 +135,7 @@ Flexa ankasa dawurubɔ no ka Zcash nkabom no ho asɛm sɛ ɛde ZEC a wɔabɔ ho 
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
 - **Mmoa Type**: Ɛyɛ nea ɛda adi nkutoo
 - **Nkyerɛkyerɛmu**: NOWPayments yɛ crypto sikatua apon a ɛma aguadifo tumi gye Zcash sikatua ne ntoboa a ɛnyɛ den.
-- **URL**: 1. [MPREMPRENNtua a wotua](https://nowpayments.io/supported-coins/zcash-payments)
+- **URL**: 1. [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
 Nhyɛso biara nni hɔ a wɔabɔ ho ban. Wɔn nkrataa no ka kyerɛ wo sɛ hyehyɛ address a ɛda adi pefee ma Zcash, na ZEC nkutoo ne sika a wɔyi fi mu saa kwan no so. Ka biara a wubenya no yɛ baguam wɔ blockchain no so.
@@ -188,7 +188,7 @@ Hwɛ sɛ ɛwɔ baabi a wowɔ ansa na wode wo ho ato so. Wɔmfa Binance Pay mma w
 
 ### Ɛnyɛ ZEC a wonnye ntom bio
 
-Wɔabobɔ eyinom abien nyinaa din wɔ ha kan. Wɔhwɛɛ obiara a ɔde ma no ankasa live currency list wɔ 29 July 2026 na Zcash nni abien no nyinaa mu.
+Wɔabobɔ eyinom abien nyinaa din wɔ ha kan. Wɔhwɛɛ ɔdemafoɔ biara ankasa sika a ɛwɔ hɔ no wɔ 29 July 2026 na Zcash afiri mmienu no nyinaa mu.
 
 **CoinPayments** nkyerɛw ZEC wɔ ne v2 sika list, ne legacy list, anaa ne live currencies API, na ne Zcash asɛm no mprempren dan kɔ homepage no so.
 

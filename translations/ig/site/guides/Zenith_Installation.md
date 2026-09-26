@@ -8,7 +8,7 @@
     src="https://www.youtube.com/embed/zu8nvr4FlXE"
     title="Zenith Full Node Wallet Installation & Demo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -22,7 +22,7 @@
     src="https://www.youtube.com/embed/-gawirv0L_U"
     title="Using RPC's with Zebrad + Zenith"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -70,7 +70,7 @@ enable_cookie_auth = ụgha
 
 > rmdir zcash-haskell
 
-> git mmepụta oyiri https://git.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git mmepụta oyiri https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
 ### Wụnye Depedencies

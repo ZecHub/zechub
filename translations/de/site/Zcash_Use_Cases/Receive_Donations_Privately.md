@@ -52,7 +52,7 @@ Dadurch kannst du Gelder empfangen, **ohne deinen finanziellen Graphen offenzule
 
 - Eine Zcash Wallet, die shielded Adressen unterstützt:
   - Zodl
-  - YWallet
+  - Zingo!
   - Andere unterstützte Wallets
 
 <br/>

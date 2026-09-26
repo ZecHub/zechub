@@ -1,47 +1,49 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/tutorials/Wallet_Tutorials.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# دروس تعليمية لمحافظ Zcash
+# دروس محافظ Zcash
 
-فيما يلي قائمة بالدروس التعليمية الخاصة بالمحافظ التي يمكن أن تساعدك على البدء باستخدام ZEC.
+فيما يلي قائمة بدروس المحافظ التي يمكن أن تساعدك على البدء باستخدام ZEC.
 
 
-- محفظة ZODL
+- محفظة Zodl
 
-[![صورة مصغّرة للفيديو](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
+[![Video Thumbnail](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 
 ____
 
 
 - مقارنة محافظ Zcash
 
-[![صورة مصغّرة للفيديو](/content-images/hqdefault-02389a1b67.webp)](https://www.youtube.com/watch?v=ao4ORC_VNcY)
+[![Video Thumbnail](/content-images/hqdefault-02389a1b67.webp)](https://www.youtube.com/watch?v=ao4ORC_VNcY)
 
 ____ 
 
-- التخزين البارد في Ywallet
+> تُحفظ مقاطع فيديو Ywallet الثلاثة أدناه للرجوع إليها. لم تعد Ywallet تخضع للصيانة ولن تُحدَّث من أجل Ironwood، لذا لم يعد بإمكانها متابعة السلسلة. اختر محفظة تخضع للصيانة من صفحة [المحافظ](https://zechub.wiki/wallets).
 
-[![صورة مصغّرة للفيديو](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)
+- التخزين البارد لـ Ywallet
 
-____
-
-- النسخ الاحتياطي المجمع في YWallet
-
-[![صورة مصغّرة للفيديو](/content-images/hqdefault-a374a413ed.webp)](https://www.youtube.com/watch?v=0skM-RziBv8)
-
+[![Video Thumbnail](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)
 
 ____
 
-- ميزة الدفع المتعدد في YWallet
+- النسخ الاحتياطي الدفعي لـ Ywallet
 
-[![صورة مصغّرة للفيديو](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
+[![Video Thumbnail](/content-images/hqdefault-a374a413ed.webp)](https://www.youtube.com/watch?v=0skM-RziBv8)
 
 
 ____
 
-- درس تعليمي لمحفظة Unstoppable 
+- ميزة الدفع المتعدد في Ywallet
 
-[![صورة مصغّرة للفيديو](/content-images/hqdefault-8ecdd85617.webp)](https://www.youtube.com/watch?v=B9tpkgVRsq4)
+[![Video Thumbnail](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
+
+
+____
+
+- درس محفظة Unstoppable
+
+[![Video Thumbnail](/content-images/hqdefault-8ecdd85617.webp)](https://www.youtube.com/watch?v=B9tpkgVRsq4)
 
 ____

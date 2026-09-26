@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Canopy ƒe xɔmenuwo
+# Canopy
 
 > Canopy yi agbe le Zcash mainnet dzi le block 1,046,400 (November 18, 2020 UTC).
 
@@ -48,12 +48,12 @@ Tsɔ kpe ɖe gazazã ƒe tɔtrɔwo ŋu la, Canopy tsɔ mɔ̃ɖaŋu ZIP sue eve �
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Gɔmeɖolawo ɖoa eteƒe na | Gadodo ƒe kpɔɖeŋu gbãtɔ si xe fe ɖe Zcash ƒe ŋgɔyiyi gbãtɔ ta, si woɖo be wòawu enu le afã gbãtɔ |
-| Hlɔ̃nyawo Gbɔkpɔha | Block ƒe fetu ɖesiaɖe ƒe akpa 20 le alafa me si Canopy tsɔ yi ŋgɔyiyi gbɔ, si ƒu du yi afã evelia |
-| Block fetu (kpekpeɖeŋunana) | ZEC yeyea wɔ eye woxee esime wole block ɖesiaɖe kum |
-| Afã dzi ɖeɖe kpɔtɔ | Nudzɔdzɔ si woɖo ɖi si me wotso block ƒe fetu la ɖe afã me |
-| Gadodo ƒe tɔsisi | Mɔnu si dzi woda asi ɖo (ZIP 207) si fiaa mɔ block subsidy ƒe akpa aɖe yia xɔla ƒe adrɛs siwo woɖe fia gbɔ |
-| Sprout ƒe tadeaguƒe | Zcash ƒe gbãtɔ shielded pool, si Canopy dzudzɔ asixɔxɔ yeye xɔxɔ ɖe |
+| Founders reward | Gadodo ƒe kpɔɖeŋu gbãtɔ si xe fe ɖe Zcash ƒe ŋgɔyiyi gbãtɔ ta, si woɖo be wòawu enu le afã gbãtɔ |
+| Development Fund | Block ƒe fetu ɖesiaɖe ƒe akpa 20 le alafa me si Canopy tsɔ yi ŋgɔyiyi gbɔ, si ƒu du yi afã evelia |
+| Block reward (subsidy) | ZEC yeyea wɔ eye woxee esime wole block ɖesiaɖe kum |
+| Halving | Nudzɔdzɔ si woɖo ɖi si me wotso block ƒe fetu la ɖe afã me |
+| Funding stream | Mɔnu si dzi woda asi ɖo (ZIP 207) si fiaa mɔ block subsidy ƒe akpa aɖe yia xɔla ƒe adrɛs siwo woɖe fia gbɔ |
+| Sprout pool | Zcash ƒe gbãtɔ shielded pool, si Canopy dzudzɔ asixɔxɔ yeye xɔxɔ ɖe |
 
 ## Nyabiasewo ƒe Nyabiasewo
 
@@ -109,4 +109,4 @@ Woɖoe be gɔmeɖolawo ƒe fetu gbãtɔ nawu enu le afã gbãtɔ me. Canopy man�
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Do ŋgɔ: [Dzimeƒu ƒe ati](../zcash-tech/heartwood) · Esi kplᴐe ɖo: [NU5](../zcash-tech/nu5)
+Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Do ŋgɔ: [Heartwood](../zcash-tech/heartwood) · Esi kplᴐe ɖo: [NU5](../zcash-tech/nu5)

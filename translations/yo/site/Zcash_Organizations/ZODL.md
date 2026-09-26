@@ -4,99 +4,99 @@
 
 # <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL (Zcash Open Development Lab)
 
-[Ìkànnì](https://zodl.com/) - [GitHub](https://github.com/AgoraCyber) - [X/Twitter] - Àìmọ̀lé](https://x.com/zodl_app) - [Àìfohùnṣọ̀kan](https://discord.gg/zodl)
+[Oju opo wẹẹbu](https://zodl.com/) - [GitHub](https://github.com/AgoraCyber) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
-## Àlàyé Ìpolongo
+## Gbólóhùn Iṣẹ́ Àkànṣe
 
-ZODL n fojuinu aye kan laisi iṣakoso owo ti o pọju, nibiti awọn eniyan ti o faramọ ofin le ṣe iṣowo ni ominira ati ni ikọkọ. Ẹgbẹ naa gbagbọ pe ko si ijọba ti ko ni asiri, ati pe asiri owo yẹ ki o jẹ aiyipada ati iraye si ọja ẹtọ eniyan.
+ZODL fojú inú wo ayé kan tí kò ní ìṣọ́ra owó púpọ̀, níbi tí àwọn ènìyàn tí wọ́n ń tẹ̀lé òfin lè ṣe ìtajà láìsí ìkọ̀kọ̀ àti ní ìkọ̀kọ̀. Àjọ náà gbàgbọ́ pé kò sí ìjọba tí kò ní àṣírí, àti pé ìpamọ́ owó yẹ kí ó jẹ́ àṣírí àti àǹfààní láti ra ẹ̀tọ́ ènìyàn ní ọjà.
 
-## Ohun Tó Ṣẹlẹ̀ Sígbà Ìjímìjí
+## Ẹ̀yìn àti Ìtàn
 
-ZODL (Zcash Open Development Lab) was founded in early 2026 by Josh Swihart, the former CEO of the Electric Coin Company (ECC). In January 2026, the entire ECC engineering and product team resigned following a governance dispute with Bootstrap, the 501(c)(3) nonprofit board that oversees ECC. The core team that had originally designed, implemented, and maintained Zcash's most critical systems transitioned to ZODL to continue their work independently.
+Josh Swihart, Olórí Àgbà ti Ilé-iṣẹ́ Electric Coin Company (ECC) ni ó dá ZODL (Zcash Open Development Lab) sílẹ̀ ní ìbẹ̀rẹ̀ ọdún 2026. Ní oṣù kìíní ọdún 2026, gbogbo ẹgbẹ́ onímọ̀ ẹ̀rọ àti ọjà ECC fi iṣẹ́ sílẹ̀ lẹ́yìn àríyànjiyàn ìṣàkóso pẹ̀lú Bootstrap, ìgbìmọ̀ 501(c)(3) tí kìí ṣe ti èrè tí ó ń ṣe àkóso ECC. Ẹgbẹ́ pàtàkì tí ó ti ṣe àgbékalẹ̀, ṣe àgbékalẹ̀, àti ṣe àkóso àwọn ètò pàtàkì jùlọ ti Zcash yípadà sí ZODL láti tẹ̀síwájú iṣẹ́ wọn láìsí ìtakora.
 
-The Zashi wallet, previously developed and maintained under ECC, was rebranded to Zodl under the new organization. Users did not need to take any action, as the app rebranded automatically with the next update.
+Àpò owó Zashi, tí a ti ṣe àgbékalẹ̀ rẹ̀ tẹ́lẹ̀ lábẹ́ ECC, ni a tún ṣe àtúnṣe sí ZODL lábẹ́ àjọ tuntun náà. Àwọn olùlò kò nílò láti gbé ìgbésẹ̀ kankan, nítorí pé àpù náà tún ṣe àtúnṣe láìfọwọ́sí pẹ̀lú àtúnṣe tó tẹ̀lé e.
 
-## Ìpèsè owó
+## Ìnáwó
 
-Ni Oṣu Kẹta Ọdun 2026, ZODL gbe diẹ sii ju $ 25 milionu ni owo-owo irugbin lati ọdọ ẹgbẹ kan ti awọn oludokoowo olokiki, pẹlu:
+Ní oṣù kẹta ọdún 2026, ZODL gba owó ìfúnni tó lé ní $25 mílíọ̀nù láti ọ̀dọ̀ àwọn olùdókòwò pàtàkì kan, títí bí:
 
 - **Paradigm**
 - **a16z crypto**
-- Winklevoss Capital Ìlú ìbílẹ̀
-- **Coinbase Ventures** ì í ì ¤ë¥'ë©'
-- **Cypherpunk Technologies** ($5M investment)
+- **Winklevoss Capital**
+- **Coinbase Ventures**
+- **Cypherpunk Technologies** ($5M idoko-owo)
 - **Chapter One**
-- David Friedberg - Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:
-- ** Balaji Srinivasan ** Èmi náà sì ni.
-- Awọn oludokoowo angẹli afikun lati awọn ẹka crypto ati imọ-ẹrọ
+- **David Friedberg**
+- **Balaji Srinivasan**
+- Àwọn olùfowópamọ́ ańgẹ́lì míràn láti àwọn ẹ̀ka crypto àti ìmọ̀ ẹ̀rọ
 
-Owó-ìdílé náà ni a ń lò láti mú ìdàgbàsókè bá ètò Zcash àti àpò Zodl.
+A n lo olu-ilu naa lati faagun idagbasoke ti ilana Zcash ati apamọwọ ZODL.
 
-## Olórí
+## Ìdarí
 
 - **Josh Swihart** - CEO & Founder (former CEO of the Electric Coin Company)
 
-Ẹgbẹ ti o gbooro sii ni awọn ẹlẹda ati awọn oludagbasoke ilana Zcash atilẹba ti o kọ tẹlẹ ati ṣetọju Zcash ni ECC. Eyi pẹlu imọ-jinlẹ jinlẹ ni cryptography, awọn ẹri-imọ-nla, ati imọ-ẹrọ ilana.
+Àwọn tó gbòòrò jùlọ ni àwọn tó ṣẹ̀dá ìlànà Zcash àti àwọn olùgbékalẹ̀ tí wọ́n ti kọ́ àti tí wọ́n ń tọ́jú Zcash tẹ́lẹ̀ ní ECC. Èyí ní ìmọ̀ jíjinlẹ̀ nínú ìkọ̀kọ̀, ẹ̀rí àìmọ̀, àti ìmọ̀ ẹ̀rọ ìṣètò.
 
-## Àwọn ohun àmúṣọrọ̀
+## Àwọn ọjà
 
-### Zodl Wallet (tí a mọ̀ sí Zashi)
+### Àpò owó ZODL (tí a mọ̀ sí Zashi tẹ́lẹ̀)
 
-Zodl is a self-custodial mobile wallet designed for private Zcash transactions. It combines deep protocol-level knowledge with user-friendly design, hiding complexity while maintaining security.
+ZODL jẹ́ àpò ìpamọ́ ara-ẹni tí a ṣe fún àwọn ìṣòwò Zcash àdáni. Ó da ìmọ̀ jíjinlẹ̀ nípa ìlànà pọ̀ mọ́ àwòrán tí ó rọrùn láti lò, ó sì ń fi ìdààmú pamọ́ nígbà tí ó ń tọ́jú ààbò.
 
-**Àwọn pápákọ̀:**
-- [iOS (App Store) ](https://apps.apple.com/app/zodl/id6444974742)
-- [Àwòrán Android (Ilé Ìtajà Play) ](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
-- [F-Droid] Àtúnṣe ojúewé](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
+**Àwọn Pẹpẹ:**
+- [iOS (Ile itaja App)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
+- [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
+- [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)
 
-Àwọn Ànímọ́ Pàtàkì:
+**Awọn ẹya ara ẹrọ pataki:**
 
-- **Shielded by Default:** Gbogbo awọn idunadura lo awọn adagun-odo ti o ni aabo ti Zcash, fifipamọ oluranlowo, olugba, ati awọn iye idunowo nipa lilo cryptography-imọ-nla
-- ** One-Tap Shielding:** Yípadà ZEC tí ó ṣe kedere sí owó àdáni pẹ̀lú ìfọwọ́ kan ṣoṣo
-- **CrossPay:** Fi ZEC ti o ni aabo ranṣẹ lakoko ti awọn olugba gba awọn ohun-ini ayanfẹ wọn (BTC, awọn owo iduroṣinṣin, ati bẹbẹ lọ)
-- **Private Swaps:** Built-in swaps powered by NEAR Intents, avoiding centralized exchanges
-- **Ipamo Keystone:** Atilẹyin apamọwọ ohun elo fun ibi ipamọ tutu ti ZEC ti o ni aabo nipasẹ ibuwọlu iṣowo air-gapped
-- **Flexa Awọn sisanwo:** Lo ZEC ni awọn alatuta nla pẹlu GameStop, Chipotle, Sheetz, ati Barnes & Noble
-- **Coinbase Integration:** Ra ZEC ní tààràtà nínú àpamọ́ láìsí ìforúkọsílẹ̀ pàtó lórí àdàkọ
-- ** Ifiranṣẹ ti a fi pamọ:** Asiri ipele Zcash fun awọn akọsilẹ ti o ni aabo lẹgbẹẹ tabi ominira ti awọn iṣowo
-- **Awọn adirẹsi iṣọkan:** Iṣakoso adiresi ti o rọrun kọja awọn adagun Transparent, Sapling, ati Orchard
-- **Atilẹyin Tor:** Afikun aṣiri ti nẹtiwọọki fun igbohunsafefe iṣowo
+- **A ti daabobo nipasẹ aiyipada:** Gbogbo awọn iṣowo lo awọn adagun aabo ti Zcash, olufipamọ olupin, olugba, ati awọn iye iṣowo nipa lilo cryptography odo-imọ
+- **Ààbò Fọwọ́kan Kan:** Yi ZEC ti o han gbangba pada si awọn owo ikọkọ pẹlu titẹ kan ṣoṣo
+- **CrossPay:** Fi ZEC tí a dáàbò bo ránṣẹ́ nígbà tí àwọn olùgbà ń gba dúkìá tí wọ́n fẹ́ràn (BTC, stablecoins, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ)
+- **Àwọn Ìyípadà Àdáni:** Àwọn ìyípadà tí a ṣe sínú rẹ̀ tí NEAR Intents ń ṣiṣẹ́, tí ó ń yẹra fún àwọn ìyípadà àárín gbùngbùn
+- **Ìṣọ̀kan Keystone:** Àtìlẹ́yìn àpò ìpamọ́ ohun èlò fún ibi ìpamọ́ tútù ti ZEC tí a dáàbò bò nípasẹ̀ ìfọwọ́sowọ́pọ̀ ìṣòwò tí afẹ́fẹ́ kò ní sí.
+- **Awọn Isanwo Flexa:** Na ZEC ni awọn ile itaja pataki pẹlu GameStop, Chipotle, Sheetz, ati Barnes & Noble
+- **Ìṣọ̀kan Coinbase:** Ra ZEC taara ninu apamọwọ laisi iforukọsilẹ paṣipaarọ lọtọ
+- **Ìfiránṣẹ́ Àfọwọ́kọ:** Ìpamọ́ ìpele Zcash fún àwọn àkọsílẹ̀ tí a dáàbò bò lẹ́gbẹ̀ẹ́ tàbí láìsí àwọn ìṣòwò
+- **Àwọn Àdírẹ́sì Ìṣọ̀kan:** Ìṣàkóso àdírẹ́sì tí ó rọrùn ní gbogbo àwọn adágún Transparent, Sapling, àti Orchard
+- **Àtìlẹ́yìn Tor:** Ìpamọ́ ìpele nẹ́tíwọ́ọ̀kì tí a mú sunwọ̀n síi fún ìtajà ìpolówó
 
-** Ìpinnu Ìpamọ́:**
-- Kò sí ìtọpinpin ìgbòkègbodò àpò, ìtàn ìnáwó, tàbí ìwà oníṣe
-- Awọn iroyin ijamba ti a ko mọ nikan ni a gba, laisi agbara lati so data si awọn olumulo kan pato
+**Awọn ileri ikọkọ:**
+- Ko si ipasẹ iṣẹ apamọwọ, itan iṣowo, tabi ihuwasi olumulo
+- Àwọn ìròyìn ìjábá àìlórúkọ nìkan ni a ń kó jọ, láìsí agbára láti so dátà pọ̀ mọ́ àwọn olùlò pàtó kan
 
-### Iṣe & Ipa
+### Iṣẹ́ àti ipa rẹ̀
 
-Lati igba ifilọlẹ akọkọ rẹ bi Zashi ni ọdun 2024, apamọwọ naa ti ṣe awakọ idagbasoke pataki ninu ilolupo eda abemi Zcash:
+Láti ìgbà tí wọ́n ti ṣe ìfilọ́lẹ̀ rẹ̀ gẹ́gẹ́ bí Zashi ní ọdún 2024, àpò owó náà ti mú kí ìdàgbàsókè tó pọ̀ sí i nínú ètò Zcash:
 
-- Ti dagba adagun Orchard ti o ni idaabobo lati to 1M ZEC si 4 M ZEC lakoko 2025 (diẹ sii ju 400% ilosoke)
-- Ti ṣe ilana diẹ sii ju $600 million ni awọn paṣipaarọ ZEC lati Oṣu Kẹwa ọdun 2025
+- Adágún tí ó ní ààbò Orchard láti nǹkan bíi 1M ZEC sí 4M ZEC ní ọdún 2025 (ìbísí tó ju 400% lọ)
+- Mo ti ṣe ilana diẹ sii ju $600 milionu ni awọn paṣipaarọ ZEC lati Oṣu Kẹwa ọdun 2025
 
-## Ipa ninu Eto Ilẹ-aye Zcash
+## Ipa ninu Eto Eda-aye Zcash
 
-ZODL n ṣe ipa meji ninu ilolupo eda abemi Zcash:
+ZODL n ṣiṣẹ ipa meji ninu eto-ẹkọ Zcash:
 
-1. Idagbasoke Ilana: Ẹgbẹ naa tẹsiwaju ilọsiwaju sọfitiwia ilana Zcash ati awọn irinṣẹ, ṣiṣẹ papọ pẹlu awọn ẹgbẹ ilolupo eda abemi miiran bii Ile-iṣẹ Zcash Foundation ati Zingo Labs
-2. **User-Facing Products:** Building and maintaining the primary consumer wallet for Zcash, focused on making private digital payments accessible to mainstream users
-3. **Igbesoke Apamo:** Awọn imotuntun apamọwọ ZODL ni a ti ṣe apejuwe bi "ifosiwewe ti o tobi julọ ti o ni iduro fun fifi Zcash pada si maapu"
-4. ** Open Source:** Gbogbo iṣẹ jẹ orisun ṣiṣi, gbigba ẹnikẹni laaye lati ṣayẹwo koodu ilana, ṣe ayẹwo apamọwọ, ati ṣayẹyẹ awọn imuse
+1. **Ìdàgbàsókè Ìlànà:** Ẹgbẹ́ náà ń tẹ̀síwájú láti máa tẹ̀síwájú nínú sọ́fítíwè àti irinṣẹ́ ìṣètò Zcash, wọ́n ń ṣiṣẹ́ pẹ̀lú àwọn ẹgbẹ́ ìṣẹ̀dá àyíká mìíràn bíi Zcash Foundation àti Zingo Labs.
+2. **Àwọn Ọjà Tí Ó Ń Lo Owó:** Kíkọ́ àti ṣíṣe àtìlẹ́yìn àpò owó oníbàárà àkọ́kọ́ fún Zcash, tí ó dojúkọ ṣíṣe àwọn ìsanwó oní-nọ́ńbà àdáni tí ó wà fún àwọn olùlò gbogbogbòò.
+3. **Ìdàgbàsókè Adágún Ààbò:** A ti ṣàpèjúwe àwọn ìṣẹ̀dá àpò owó ZODL gẹ́gẹ́ bí "okùnfà pàtàkì kan ṣoṣo tó ń fa fífi Zcash padà sí orí máàpù"
+4. **Orísun Ṣíṣí:** Gbogbo iṣẹ́ jẹ́ orísun ṣíṣí, èyí tí ó fún ẹnikẹ́ni láyè láti ṣàyẹ̀wò kódì ìlànà, ṣàyẹ̀wò àpò owó náà, àti láti rí i dájú pé a ṣe é.
 
-## Ìmọ̀ Ọgbọ́n Orí: Olùdáàbòbò Ọba Aláṣẹ
+## Ìmọ̀ ọgbọ́n orí: Olùṣọ́ Ọba
 
-Ọ̀rọ̀ ọgbọ́n orí tí ZODL fi ń darí ilé-iṣẹ́ náà dá lórí èrò "Guardian of the Sovereign" - ìgbàgbọ́ pé àwọn ènìyàn gbọ́dọ̀ ní ìkáwọ́ àṣẹ lórí ìpamọ́ àti ipò ọba aláṣẹ wọn nínú ọ̀ràn ìnáwó.
+Ìmọ̀ ọgbọ́n ìtọ́sọ́nà ZODL dá lórí èrò "Olùṣọ́ Ààrẹ" -- ìgbàgbọ́ pé àwọn ènìyàn gbọ́dọ̀ máa ṣàkóso gbogbo ìpamọ́ owó wọn àti agbára wọn. Àjọ náà mọ̀ọ́mọ̀ fi agbára olùlò sí ipò àkọ́kọ́ ju ìṣàkóso ìpele lọ, ó ń kọ́ àwọn irinṣẹ́ tí yóò fún àwọn ènìyàn lágbára dípò àwọn alárinà.
 
-## Àwọn ohun àmúṣọrọ̀
+## Àwọn ohun àlùmọ́nì
 
-- [Ìkànnì ZODL](https://zodl.com/)
-- [ZODL Nípa ojúewé](https://zodl.com/about/)
-- [X/Twitter] Àkọlé àwòrán](https://x.com/zodl_app)
-- [Josh Swihart ní X](https://x.com/jswihart)
+- [Oju opo wẹẹbu ZODL](https://zodl.com/)
+- [Ojú ìwé ZODL Nípa](https://zodl.com/about/)
+- [X/Twitter](https://x.com/zodl_app)
+- [Josh Swihart lórí X](https://x.com/jswihart)
 
-## Wo Bákan náà
+## Wo Bakannaa
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)
-- [Àwọn Ilé Iṣẹ́ Zingo](Zingo_Labs.md)
-- [Àwọn Ilé Iṣẹ́ Ààbò](Shielded_Labs.md)
+- [Zingo Labs](Zingo_Labs.md)
+- [Àwọn Labs tí a dáàbò bò](Shielded_Labs.md)

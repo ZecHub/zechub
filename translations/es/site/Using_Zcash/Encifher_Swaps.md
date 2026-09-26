@@ -51,7 +51,7 @@ Ve a la sección **Wrap**. Elige **SOL** o **USDC**, introduce la cantidad y con
 ---
 
 ###  Paso 3: Prepara tu wallet Zodl  
-Descarga [**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), la wallet oficial de Zcash de Electric Coin Co. Copia tu **Unified Address** desde la pestaña Receive; admite tanto ZEC transparentes como blindados. Guarda tu frase semilla de forma segura antes de continuar.
+Descarga [**Zodl**](https://zodl.com), la wallet de Zcash mantenida por ZODL. Copia tu **Unified Address** desde la pestaña Receive; admite tanto ZEC transparentes como blindados. Guarda tu frase semilla de forma segura antes de continuar.
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)

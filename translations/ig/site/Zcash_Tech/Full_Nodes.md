@@ -10,7 +10,7 @@ Full Node bụ sọftụwia nke na-agbazi nnomi zuru oke nke ngọngọ cryptocu
 
 ## Zcashd
 
-> **Note:** zcashd is being deprecated. The Electric Coin Company has [formally announced](https://z.cash/support/zcashd-deprecation/) that zcashd is being retired, with its full-node role replaced by [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) na akpa ya site na [ Zallet](https://github.com/zcash/zallet). For new deployments, use Zebra (see below). If you already run a zcashd node, follow the [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **Note:** zcashd is being deprecated. The Electric Coin Company has [formally announced](https://z.cash/support/zcashd-deprecation/) that zcashd is being retired, with its full-node role replaced by [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) na akpa ya site na [Zallet](https://github.com/zcash/zallet). For new deployments, use Zebra (see below). If you already run a zcashd node, follow the [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd was the original Full Node implementation for Zcash, developed and maintained by the Electric Coin Company. The build instructions below are retained for reference and for operators migrating away from zcashd.
 
@@ -70,7 +70,7 @@ Jide n'aka na ị gụrụ akwụkwọ Zebra maka ntuziaka ntọala, ma sonyere 
 
 [Akwụkwọ Zebra](https://zebra.zfnd.org) 
 
-[Nkwekọrịta adịghị mma](https://discord.gg/uvEdHsrb)
+[Discord](https://discord.gg/uvEdHsrb)
 
 
 
@@ -90,7 +90,7 @@ Ndị a bụ ihe atụ nke nyiwe nke na-enye ohere ịnweta data Zcash Network:
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
 
-[Otu oche](https://blockchair.com/zcash)
+[Blockchair](https://blockchair.com/zcash)
 
 Ị nwekwara ike inye aka na mmepe nke netwọk site na-agba ọsọ ule ma ọ bụ na-atụ aro ọhụrụ ndozi & enye metrics. 
 

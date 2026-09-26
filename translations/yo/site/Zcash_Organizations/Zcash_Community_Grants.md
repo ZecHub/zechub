@@ -47,7 +47,7 @@ The Electric Coin Company gba 8% ti awọn [Zcash idagbasoke Fund](https://zips.
     src="https://www.youtube.com/embed/ItEwc1lzvzc"
     title="How to Submit a Grant Application via ZCG"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
