@@ -100,10 +100,11 @@
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Devices: Desktop
-- Operating System: Windows | Linux | macOS
+- Operating System: Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | Graphical Interface | Shielded Memo | Testnet Support
+- Pools: Transparent | Sapling
+- Features: Address Book | RPC Interface | Shielded Memo | Testnet Support
+- Ironwood: Not Ready
 
 ---
 
