@@ -219,12 +219,11 @@
 
 ---
 
-## [Keystone](https://shop.keyst.one)
+## [Keystone](https://keyst.one/zcash)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
-- Devices:
-- Operating System:
+- Devices: Hardware
 - Wallet Support: Hardware | Unified Address
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Ironwood
 - Features: Multi Coin
 - Ironwood: Ready
 
