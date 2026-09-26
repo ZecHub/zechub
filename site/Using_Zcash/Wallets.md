@@ -78,10 +78,10 @@
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Devices: Mobile | Desktop
-- Operating System: Android | iOS | Windows | Linux
+- Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Features: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet Support
+- Features: Address Rotation | Encrypted Backup | FROST Multisig | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
 - Ironwood: Ready
 
 ---
