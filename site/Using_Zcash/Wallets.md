@@ -294,13 +294,14 @@
 
 ---
 
-## [LeoDex](https://leodex.io/)
+## [LeoDex](https://leodex.io/download)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
-- Devices: Web | Desktop
-- Operating System: Browser | Windows | macOS
-- Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
-- Pools: Sapling | Transparent
-- Features: Multi Coin | NEAR Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Devices: Desktop | Web
+- Operating System: Windows | Linux | macOS | Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Ironwood
+- Features: Multi Coin | NEAR Intents | No KYC | Swaps
+- Stage: Beta
 - Ironwood: Ready
 
 ---
