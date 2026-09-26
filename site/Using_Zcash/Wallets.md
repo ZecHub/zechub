@@ -367,9 +367,9 @@
 ![logo](/content-images/argos.webp "Argos")
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Spending Key | Private Key | Wallet Backup / Key Export
-- Pools: Transparent | Sapling | Ironwood | Sprout
-- Features: Wallet Recovery | Command Line Interface | Shielded Memo | Testnet Support
+- Wallet Support: Seed Phrase | Spending Key | Private Key
+- Pools: Transparent | Sprout | Sapling | Ironwood
+- Features: Command Line Interface | Shielded Memo | Testnet Support | Wallet Recovery
 - Ironwood: Ready
 
 ---
