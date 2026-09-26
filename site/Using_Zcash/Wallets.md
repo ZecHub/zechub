@@ -287,8 +287,9 @@
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Devices: Web | Desktop
 - Operating System: Browser
-- Pools: Shielded | Transparent
-- Features: Browser Extension | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Rhea
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Ironwood
+- Features: DApp Connections | Lending & Borrowing | Swaps | ZNS Names
 - Ironwood: Ready
 
 ---
