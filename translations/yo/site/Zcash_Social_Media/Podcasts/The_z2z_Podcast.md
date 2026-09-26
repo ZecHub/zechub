@@ -41,4 +41,4 @@ Mọ̀ nípa àwọn ìṣẹ̀lẹ̀ tó ń bọ̀:
 
 + Apá 10 - Ìpamọ́ fún ire gbogbo ènìyàn pẹ̀lú Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
-Bí ẹ bá ní àbá kan nípa ẹni tí ẹ fẹ́ rí nínú ìtòlẹ́sẹẹsẹ wa, ẹ máà gbọ̀n jìnnà láti kàn sí wa!
+Tí o bá ní àbá èyíkéyìí nípa ẹni tí o fẹ́ rí lẹ́yìn náà lórí podcast náà, má ṣe lọ́ tìkọ̀ láti kàn sí wa! DM's to @zechub on Twitter

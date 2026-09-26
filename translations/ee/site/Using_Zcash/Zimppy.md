@@ -66,14 +66,14 @@ Le AI dɔwɔla siwo wɔa nu le dɔwɔɖoɖowo, senyawo me numekukuwo, atikewɔw�
 
 ### Ame Ŋuti Nyawo Gbɔ Kpɔkpɔ Ƒe Afɔɖeɖe ƒe Kpɔdzesi
 
-▪ Nunɔamesi ● Dukɔwo ƒe Kɔntabubu (USDC, ETH) • Zimppy Akpɔkplɔ̃e * Zimppy Dzadzɛ.
+| Nunᴐamesi | Dutoƒo Kɔsɔkɔsɔwo (USDC, ETH) | Zimppy ƒe Akpoxɔnu | Zimppy Transparent si me woɖea nu le |
 |---|---|---|---|
-** Amesi ɖo wo ɖa**. Edzena le gota me. Woŋlɔe ɖe agbalẽa me. Edze ƒãa be ame sia amee kpɔ nu si woŋlɔ la dze sii.
-** Amesi xɔe** Edzena. Wode dzesi eŋu. Ne wohe nya ɖe ame ŋu la, womate ŋu ada ka kplii o.
-** Amount** Dzena. Encrypted. dzena.
-** Memo**. Edzena le gota. Wodee ɖe nugbugbɔ me N/A.
-**Gbugbɔƒle Kpɔkpɔ** Naneke meli o. Memo dzi wɔwɔe. T-adrɛs ɖe gbetɔame nu
-**Subɔsubɔdɔ Zazã ƒe Mɔnu** Lɔ̃na be woado ka kplii. Ameŋkumemakpɔmakpɔe. Womate ŋu ado ka kpli o (fresh addr)
+| **Ame si ɖoe ɖa** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | Nukpɔkpɔ |
+| **Amexɔla** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | Kuxi ɖesiaɖe (si womate ŋu aƒo ka na o) |
+| **Home** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | Nukpɔkpɔ |
+| **Ŋkuɖodzinya** | Nukpɔkpɔ | Wotsɔ nya ɣaɣlawo ŋlɔe | N/A |
+| **Gbugbɔgaƒoƒo Takpɔkpɔ** | Ɖeke o | Memo ƒe babla | T-adrɛs si nye kuxi ɖesiaɖe |
+| **Subɔsubɔdɔ Zazã ƒe Kpɔɖeŋu** | Woate ŋu atsɔ kadodo aɖo wo nɔewo gbɔ | Ame ŋutᴐ ƒe | Womate ŋu aƒo ka na ame o (adr yeye) |
 
 ### Woɖe Nuwo Gbɔ Kpɔkpɔ ƒe Kuxia Ða To Ŋkuléle Ðe Eŋu Me
 
@@ -388,16 +388,16 @@ let resp = client
 
 ## CLI Ŋkɔwo
 
-Ŋkɔwo: Aƒenɔ. Kplɔ̃ɖonya: Nuŋlɔɖi.
+| Gbeɖeɖe | Nuɖᴐɖᴐ |
 |---|---|
-| `npx zimppy wallet create` ◯ Nya veviwo dodo kple nyagbe gbãtɔ ɖeɖe fia.
-| `npx zimppy wallet whoami` Ɖo adrɛs (UA + T-addr), ga home, network.
-| `npx zimppy wallet balance --all` Ŋutete le ga si woɖena ɖe ame ƒe gadzraɖoƒe dzi.
-| `npx zimppy wallet send <addr> <zat>` Ɖo ZEC si ŋu wotrɔ asi le alo esiwo me woɖea nu gɔme na ame ɖo ɖa.
-| `npx zimppy wallet transfer <from> <to> <zat>` Le gadzraɖoƒe vovovowo me la, woɖoa ga ɖe ame bubuwo dzi.
-| `npx zimppy wallet shield` Ʋu ga siwo me kɔ la yi Orchard (si ŋu wotrɔ asi le) dzi.
-| `npx zimppy wallet use <name>` Trɔ ga si le asiwò la ƒe ŋkɔ.
-| `npx zimppy request <url>` ◯ Auto 402 -> pay -> retry request (Gbɔ dzi nàdze agbagba ake)
+| `npx zimppy wallet create` | Wɔ safuiwo eye nàɖe nuku ƒe nyagbe afia |
+| `npx zimppy wallet whoami` | Fia adrɛs (UA + T-addr), dadasɔ, network |
+| `npx zimppy wallet balance --all` | Ga si susɔ ɖe gakɔnta ɖesiaɖe me ƒe mama |
+| `npx zimppy wallet send <addr> <zat>` | Ðo ZEC si ŋu akpoxɔnu le alo esi me kɔ la ɖa |
+| `npx zimppy wallet transfer <from> <to> <zat>` | Cross-account ememe ƒe asitɔtrɔ |
+| `npx zimppy wallet shield` | Tsɔ ga siwo me kɔ la yi Orchard (si wotsɔ akpoxɔnu wɔe) |
+| `npx zimppy wallet use <name>` | Trɔ gakotoku si le dɔ wɔm ƒe dzesidenu |
+| `npx zimppy request <url>` | Auto 402 -> fe -> gbugbɔ te biabia |
 
 ---
 
@@ -463,27 +463,27 @@ packages/
 
 ## Kpɔɖeŋuwo Kple Numedzodzrowo
 
-Kpɔɖeŋu. Ŋutinya:
+| Kpɔɖeŋu | Nuɖᴐɖᴐ |
 |---|---|
-| `examples/fortune-teller/` ◯ Charge, session, and streaming demos - Rust server + client. (Tsɔa ga ɖe nuƒolanɔƒe dzi)
-| `examples/llm-summarizer/` Ðee ɖe tokenyati ɖeka dzi ƒe LLM-videowo ŋu.
-| `examples/mcp-server/` MCP dɔwɔnu siwo wotsɔna xea fe na AI-dɔwɔƒewo.
-| `examples/ts-server/` TypeScript MPP server reference implementation. Mɔ̃ si dzi woato awɔ numekɔkɔ le Server ŋu
+| `examples/fortune-teller/` | Fexexe, ɣeyiɣi, kple sisi ƒe wɔwɔfiawo - Rust server + client |
+| `examples/llm-summarizer/` | Fexexe ɖe dzesi ɖesiaɖe LLM streaming demo |
+| `examples/mcp-server/` | MCP dɔwɔnu ƒe dɔwɔƒe si me AI dɔwɔnu siwo woxea fe na le |
+| `examples/ts-server/` | TypeScript MPP dɔdzikpɔla ƒe nufiame ƒe dɔwɔwɔ |
 
 ---
 
 ## Nu Siwo Le Eme - Eƒe Akpa Veviwo Ƒe Ŋutinya Kpuie
 
-Ŋutinyawo. Nuŋɔŋlɔ:
+| Ŋutinu | Nuɖᴐɖᴐ |
 |---|---|
-** Session** Deposit once, instant bearer requests, refund on close. Ðɔ ga zi ɖeka ko le nuƒlela ƒe asime eye nàxɔ gaa ne ètu ʋɔa vɔ megbe.
-** Streaming** Pay-per-token metered content over SSE (Ðeɖola ɖe sia ɖe ƒe fexexlẽ ŋuti nyatakakawo to internet dzi)
-eƒleƒe: Xexlẽdzesi si dzi wotona xea fe na ame alo woxlɔnɛ ɖe HTTP biabia (402 flow) ɖesiaɖe me.
-** Transparent Payments** T-adrɛs kple replay prevention + shield command ɖe kuxi ɖesiaɖe nu.
-** Akaɖui Geɖe le Asiwò. ZIP-32 ƒe akaɖiwo tɔtrɔ, ga siwo woxɔna tso asitsatsa vovovowo me kple esiwo susɔ ɖe akɔnta ɖekaɖeka dzi.
-CLI Wallet: Ɖoɖo, nuxexlẽ, ga tsɔtsɔ yi na ame bubuwo kple wo ŋuti kɔnta - katã le ɖoɖowɔɖi me.
-** SDK evee** TypeScript kple Rust.
-HMAC-SHA256 ƒe kuxiwo, RFC 9457 vodadawo, kple nya siwo le gbea me la dometɔ aɖewo. `/.well-known/payment` kpukpui sia.
+| **Kpekpewo** | Deposit zi ɖeka, enumake bearer biabia, refund le nuwuwu |
+| **Streaming** ƒe ʋuʋu** | Fexexe ɖe dzesi ɖesiaɖe ƒe mita me nyawo to SSE dzi |
+| **Febubu** | Fexexe si wokpɔ ta na alo si me kɔ le HTTP biabia ɖesiaɖe me (402 ƒe sisi) |
+| **Fexexe si Woxena le Gaglãgbe** | T-adrɛswo kple kuxi ɖesiaɖe gbugbɔgaƒoƒo mɔxexe + akpoxɔnu sedede |
+| **Akɔntabubu Geɖe** | ZIP-32 gakɔnta ƒe tɔtrɔ, gakɔnta ƒe asitɔtrɔ le gakɔnta dome, ga si susɔ ɖe gakɔnta ɖesiaɖe me |
+| **CLI ƒe Gakotoku** | Ðo ɖa, akpoxɔnu, tsɔtsɔ yi teƒe bubu, dadasɔ --wo katã, whoami, auto-pay |
+| **SDK eve** | TypeScript kple Rust |
+| **Spec-Sewɔtakpekpea** | HMAC-SHA256 ƒe kuxiwo, RFC 9457 ƒe vodadawo, `/.well-known/payment` nusi ŋu woke ɖo |
 
 ---
 

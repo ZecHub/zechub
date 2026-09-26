@@ -48,9 +48,9 @@ zallet rpc help '"<command>"'
 zallet rpc decoderawtransaction '"<hexstring>"'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter   | Irú   | Ti a nilo | Àpèjúwe              |
 |-------------|--------|----------|--------------------------|
-| hexstring   | string | yes      | Transaction hex string   |
+| hexstring   | string | bẹẹni      | Okùn ìṣòwò hex   |
 
 ---
 
@@ -60,9 +60,9 @@ zallet rpc decoderawtransaction '"<hexstring>"'
 zallet rpc decodescript '"<hexstring>"'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter   | Irú   | Ti a nilo | Àpèjúwe     |
 |-------------|--------|----------|-----------------|
-| hexstring   | string | yes      | Script hex      |
+| hexstring   | string | bẹẹni      | Ìwé ìkọ̀wé hex      |
 
 ---
 
@@ -72,11 +72,11 @@ zallet rpc decodescript '"<hexstring>"'
 zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter  | Irú   | Ti a nilo | Aiyipada | Àpèjúwe                          |
 |------------|--------|----------|---------|--------------------------------------|
-txid. string. yes. id ì¡°ì ¬í ̧ë ¤ê3μì í ë¦¬ì .
-n-númbọ̀: kò sí 0 `0` = hex, tí kò-nǹkan= JSON object.
-| blockhash  | string | no       |         | Restrict search to this block        |
+| txid       | string | bẹẹni      |         | ID Iṣowo                       |
+| verbose    | number | no       | 0       | `0` = hex, ti kii ṣe odo = ohun JSON    |
+| blockhash  | string | no       |         | Dín ìwákiri mọ́ sí bulọọki yìí        |
 
 ---
 
@@ -136,9 +136,9 @@ Kò sí àwọn ìlànà. (Regtest nìkan)
 zallet rpc validateaddress '"<address>"'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter | Irú   | Ti a nilo | Àpèjúwe             |
 |-----------|--------|----------|-------------------------|
-Adirẹsi. Àlàfo. Bẹẹni. Adiréṣì tí ó ṣe kedere.
+| address   | string | bẹẹni      | Àdírẹ́sì tí ó ṣe kedere     |
 
 ---
 
@@ -148,11 +148,11 @@ Adirẹsi. Àlàfo. Bẹẹni. Adiréṣì tí ó ṣe kedere.
 zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter  | Irú   | Ti a nilo | Àpèjúwe             |
 |------------|--------|----------|-------------------------|
-Adirẹsi. Àlàfo. Bẹẹni. Adiréṣì tí ó ṣe kedere.
- ìmúdàgba: ẹ̀rí-ìmúṣẹ. Òpó: bẹ́ẹ̀ ni, àmì base64:
-| message    | string | yes      | Original message        |
+| address    | string | bẹẹni      | Àdírẹ́sì tí ó ṣe kedere     |
+| signature  | string | bẹẹni      | Ìfọwọ́sowọ́pọ̀ Base64        |
+| message    | string | bẹẹni      | Ifiranṣẹ atilẹba        |
 
 ---
 
@@ -172,10 +172,10 @@ Kò sí àwọn ìlànà.
 zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter   | Irú   | Ti a nilo | Àpèjúwe                          |
 |-------------|--------|----------|--------------------------------------|
-ì ì í ̧ë¦¬í ¬: Yes ê° ë§¤ì ' êμ¬: Wallet passwordphrase
-| timeout     | number | yes      | Seconds to keep the wallet unlocked  |
+| passphrase  | string | bẹẹni      | Ọ̀rọ̀ ìpamọ́ àpò owó                    |
+| timeout     | number | bẹẹni      | Awọn aaya lati jẹ ki apamọwọ naa ṣii  |
 
 ---
 
@@ -185,9 +185,9 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 zallet rpc z_converttex '"<transparent_address>"'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter             | Irú   | Ti a nilo | Àpèjúwe                |
 |-----------------------|--------|----------|----------------------------|
- transparent_address  string  bẹ́ẹ̀ ni P2PKH adirẹsi láti yí padà
+| transparent_address   | string | bẹẹni      | Àdírẹ́sì P2PKH láti yípadà   |
 
 ---
 
@@ -197,9 +197,9 @@ zallet rpc z_converttex '"<transparent_address>"'
 zallet rpc z_exportkey '"<sapling_address>"'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter | Irú   | Ti a nilo | Àpèjúwe                                      |
 |-----------|--------|----------|--------------------------------------------------|
- address  string  yes  Sapling address tí ìnáwó kókó láti gbé jáde
+| address   | string | bẹẹni      | Àdírẹ́sì Sapling tí owó rẹ̀ jẹ́ pàtàkì láti kó jáde     |
 
 > Owó-ìpamọ́ náà gbọ́dọ̀ jẹ́ èyí tí a ṣí sílẹ̀. Ó ń gbé Sapling lọ sókè láti fi ṣe ìnájà nìkan ni.
 
@@ -211,9 +211,9 @@ zallet rpc z_exportkey '"<sapling_address>"'
 zallet rpc z_getaccount '"<account_uuid>"'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter     | Irú   | Ti a nilo | Àpèjúwe     |
 |---------------|--------|----------|-----------------|
-account_uuid.string: bẹ́ẹ̀ ni; UUID àkọọlẹ̀
+| account_uuid  | string | bẹẹni      | UUID Àkọọ́lẹ̀    |
 
 ---
 
@@ -223,11 +223,11 @@ account_uuid.string: bẹ́ẹ̀ ni; UUID àkọọlẹ̀
 zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<diversifier_index>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter          | Irú            | Ti a nilo | Àpèjúwe                              |
 |--------------------|-----------------|----------|------------------------------------------|
-íṣe àkọọ́lẹ̀. ìlà/nọ́mbà bẹ́ẹ̀ ni. UUID àkáǹtì tàbí ZIP-32 index account
- receiver_types  array of string  kò sí  àwọn oríṣi résepítò láti fi kún un 
- diversifier_index‬ nọmba. ko si. ìtọ́jú àkànṣe fún àwọn ohun tó ń pínpín nǹkan sí oríṣiríṣi.
+| account            | string / number | bẹẹni      | Àtòjọ àkọọ́lẹ̀ UUID tàbí ZIP-32 ti Àkọọ́lẹ̀     |
+| receiver_types     | orun okun | no       | Àwọn irú olugba láti ní                |
+| diversifier_index  | number          | no       | Àtọ́ka onípínsípà pàtó kan               |
 
 ---
 
@@ -237,10 +237,10 @@ zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<
 zallet rpc z_getbalanceforaccount <account> [<minconf>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter | Irú            | Ti a nilo | Aiyipada | Àpèjúwe                      |
 |-----------|-----------------|----------|---------|----------------------------------|
-| account   | string / number | yes      |         | Account UUID or ZIP-32 index     |
-minconf  nọmba no 1  ìmúdájú tí ó kéré jùlọ
+| account   | string / number | bẹẹni      |         | Àkọọ́lẹ̀ UUID tàbí àtọ́ka ZIP-32     |
+| minconf   | number          | no       | 1       | Àwọn ìdánilójú tó kéré jùlọ            |
 
 ---
 
@@ -250,9 +250,9 @@ minconf  nọmba no 1  ìmúdájú tí ó kéré jùlọ
 zallet rpc z_getbalances [<minconf>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter | Irú   | Ti a nilo | Aiyipada | Àpèjúwe               |
 |-----------|--------|----------|---------|---------------------------|
-minconf  nọmba no 1  ìmúdájú tí ó kéré jùlọ
+| minconf   | number | no       | 1       | Àwọn ìdánilójú tó kéré jùlọ     |
 
 ---
 
@@ -262,10 +262,10 @@ minconf  nọmba no 1  ìmúdájú tí ó kéré jùlọ
 zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter     | Irú   | Ti a nilo | Àpèjúwe                              |
 |---------------|--------|----------|------------------------------------------|
- account_name  ì 'ì í ¬í ̧ë ¤. Human-readable name
-seedfp: string no. A nílò rẹ̀ bí àpòòwé bá ní ọ̀pọ̀lọpọ̀ àwọn irugbin nínú rèé.
+| account_name  | string | bẹẹni      | Orúkọ tí ènìyàn lè kà                      |
+| seedfp        | string | no       | A gbọ́dọ̀ ṣe é tí àpò bá ní àwọn irugbin púpọ̀    |
 
 ---
 
@@ -275,10 +275,10 @@ seedfp: string no. A nílò rẹ̀ bí àpòòwé bá ní ọ̀pọ̀lọpọ̀ 
 zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter     | Irú   | Ti a nilo | Aiyipada | Àpèjúwe                          |
 |---------------|--------|----------|---------|--------------------------------------|
-minconf  nọmba no 1  ìmúdájú tí ó kéré jùlọ
- as_of_height number. no. Ìbéèrè nípa gíga yìí (`-1` = ìsọfúnni)
+| minconf       | number | no       | 1       | Àwọn ìdánilójú tó kéré jùlọ                |
+| as_of_height  | number | no       |         | Ìbéèrè nípa gíga yìí (`-1` = ìtọ́kasí) |
 
 ---
 
@@ -288,9 +288,9 @@ minconf  nọmba no 1  ìmúdájú tí ó kéré jùlọ
 zallet rpc z_getoperationresult ['["opid1","opid2"]']
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter    | Irú            | Ti a nilo | Àpèjúwe                              |
 |--------------|-----------------|----------|------------------------------------------|
- operationid  array of string  kò sí  ìdìfún iṣẹ́ (ṣá fún gbogbo parí) 
+| operationid  | orun okun | no       | Àwọn ID Iṣẹ́ (fi sílẹ̀ fún gbogbo àwọn tí a ti parí)    |
 
 ---
 
@@ -300,9 +300,9 @@ zallet rpc z_getoperationresult ['["opid1","opid2"]']
 zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter    | Irú            | Ti a nilo | Àpèjúwe                    |
 |--------------|-----------------|----------|--------------------------------|
- operationid  array of string  kò sí  idì àwọn iṣẹ́ (ṣá fún gbogbo) 
+| operationid  | orun okun | no       | Àwọn ID Iṣẹ́ (kò gbọdọ̀ jẹ́ gbogbo ènìyàn)   |
 
 ---
 
@@ -312,10 +312,10 @@ zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter          | Irú    | Ti a nilo | Aiyipada | Àpèjúwe                     |
 |--------------------|---------|----------|---------|---------------------------------|
-minconf  nọmba no 1  ìmúdájú tí ó kéré jùlọ
-| include_watchonly  | boolean | no       | false   | Include watch-only balances     |
+| minconf            | number  | no       | 1       | Àwọn ìdánilójú tó kéré jùlọ           |
+| include_watchonly  | boolean | no       | false   | Fi ìwọ̀n ìwọ́ntúnwọ̀nsí aago nìkan kún un     |
 
 ---
 
@@ -325,11 +325,11 @@ minconf  nọmba no 1  ìmúdájú tí ó kéré jùlọ
 zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter  | Irú    | Ti a nilo | Aiyipada | Àpèjúwe                          |
 |------------|---------|----------|---------|--------------------------------------|
-"ìwé" ìlà ohùn: bẹ́ẹ̀ ni. "Ìwé" UUID: béè, kò sí àlàyé kankan lórí orúkọ náà.
- hex_data  string  yes  Hex àkọsílẹ̀ tàbí àtúnṣe ìkọ́lé
-rescan: boolean no. true: rescan lẹ́yìn tí wọlé dé
+| account    | string  | bẹẹni      |         | UUID Àkọọ́lẹ̀                         |
+| hex_data   | string  | bẹẹni      |         | Kọ́kọ́rọ́ gbogbogbò Hex tàbí ìwé àfọwọ́kọ ràpadà      |
+| rescan     | boolean | no       | true    | Tun ṣe ayẹwo lẹhin gbigbe wọle                  |
 
 ---
 
@@ -339,11 +339,11 @@ rescan: boolean no. true: rescan lẹ́yìn tí wọlé dé
 zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter     | Irú   | Ti a nilo | Aiyipada        | Àpèjúwe                              |
 |---------------|--------|----------|----------------|------------------------------------------|
-| key           | string | yes      |                | Sapling extended spending key            |
-rescan ìsọ̀rí kò sí. `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
-| start_height  | number | no       | 0              | Rescan start height                      |
+| key           | string | bẹẹni      |                | Kọ́kọ́rọ́ ìnáwó gígùn Sapling            |
+| rescan        | string | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
+| start_height  | number | no       | 0              | Tún ṣe àyẹ̀wò gíga ìbẹ̀rẹ̀                      |
 
 ---
 
@@ -353,9 +353,9 @@ rescan ìsọ̀rí kò sí. `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew
 zallet rpc z_listaccounts [<include_addresses>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter          | Irú    | Ti a nilo | Aiyipada | Àpèjúwe                              |
 |--------------------|---------|----------|---------|------------------------------------------|
-include_addresses boolean ko si otitọ tun pada adirẹsi fun akọọlẹ kọọkan.
+| include_addresses  | boolean | no       | true    | Tun da awọn adirẹsi fun akọọlẹ kọọkan pada   |
 
 ---
 
@@ -365,9 +365,9 @@ include_addresses boolean ko si otitọ tun pada adirẹsi fun akọọlẹ kọ
 zallet rpc z_listoperationids ['"<status>"']
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter | Irú   | Ti a nilo | Àpèjúwe                          |
 |-----------|--------|----------|--------------------------------------|
- status.string: no. Filter by status (e.g. ì ë í ê° ì 'ì ¤í ¬ë¦¬) `"success"`)  |
+| status    | string | no       | Àlẹ̀mọ́ nípa ipò (fún àpẹẹrẹ) `"success"`)  |
 
 ---
 
@@ -377,13 +377,13 @@ zallet rpc z_listoperationids ['"<status>"']
 zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height>] [<offset>] [<limit>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter      | Irú   | Ti a nilo | Àpèjúwe                  |
 |----------------|--------|----------|------------------------------|
-account_uuid  string no. Àlàfo sí àkọọ́lẹ̀ kan ṣoṣo
-| start_height   | number | no       | Inclusive lower bound        |
-| end_height     | number | no       | Exclusive upper bound        |
-íṣáà: iye kò sí. Ṣẹ́rí èyí tó pọ̀ jù lọ nínú àwọn àbájáde náà.
- limit number. no. Ìyọrísí tí ó pọ̀ jù láti padà wá.
+| account_uuid   | string | no       | Ààlà sí àkọọ́lẹ̀ kan ṣoṣo         |
+| start_height   | number | no       | Ààlà ìsàlẹ̀ tó wà pẹ̀lú        |
+| end_height     | number | no       | Ààlà òkè aláìláfiwé        |
+| offset         | number | no       | Fo awọn abajade pupọ yii       |
+| limit          | number | no       | Àwọn àbájáde tó pọ̀ jùlọ láti dá padà    |
 
 ---
 
@@ -393,9 +393,9 @@ account_uuid  string no. Àlàfo sí àkọọ́lẹ̀ kan ṣoṣo
 zallet rpc z_listunifiedreceivers '"<unified_address>"'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter         | Irú   | Ti a nilo | Àpèjúwe                  |
 |-------------------|--------|----------|------------------------------|
-| unified_address   | string | yes      | Unified Address to inspect   |
+| unified_address   | string | bẹẹni      | Unified Address láti ṣe àyẹ̀wò   |
 
 ---
 
@@ -405,13 +405,13 @@ zallet rpc z_listunifiedreceivers '"<unified_address>"'
 zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1","addr2"]'] [<as_of_height>]
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter          | Irú            | Ti a nilo | Aiyipada | Àpèjúwe                          |
 |--------------------|-----------------|----------|---------|--------------------------------------|
-minconf  nọmba no 1  ìmúdájú tí ó kéré jùlọ
- maxconf  number no  ì ¬ì§ í ë ¤.
-include_watchonly boolean: kò sí false: included watch-only: ìmúṣẹ nínú àlàyé yìí.
-àwọn àdírẹ́sì. ìlà òpó tí ó ní àdàkọ kò sí fílífírì fún àwọn adirẹsi wọ̀nyí.
- as_of_height number  kò sí. Ìbéèrè nípa gíga yìí
+| minconf            | number          | no       | 1       | Àwọn ìdánilójú tó kéré jùlọ                |
+| maxconf            | number          | no       | ∞       | Àwọn ìdánilójú tó pọ̀ jùlọ                |
+| include_watchonly  | boolean         | no       | false   | Fi aago-nikan kun                   |
+| addresses          | orun okun | no       |         | Àlẹ̀mọ́ sí àwọn àdírẹ́sì wọ̀nyí            |
+| as_of_height       | number          | no       |         | Ìbéèrè nípa gíga yìí              |
 
 ---
 
@@ -421,9 +421,9 @@ include_watchonly boolean: kò sí false: included watch-only: ìmúṣẹ nín�
 zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index":0,"birthday_height":123456}]'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter | Irú  | Ti a nilo | Àpèjúwe                                                                 |
 |-----------|-------|----------|-----------------------------------------------------------------------------|
- ìfipamọ́  àlàfo  bẹ̀ẹ̀ ni  Àlàfo àwọn ohun: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| accounts  | array | bẹẹni      | Àkójọpọ̀ àwọn ohun kan: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
@@ -433,13 +433,13 @@ zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index
 zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":"..."}]' [<minconf>] [null] ['"<privacy_policy>"']
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà: Ó pọn dandan: Ìṣe-àkójọpẹrẹ: Àpèjúwe:
+| Parameter        | Irú            | Ti a nilo | Aiyipada         | Àpèjúwe                                      |
 |------------------|-----------------|----------|-----------------|--------------------------------------------------|
- fromaddress  ì ë¦¬ì í ¬í ̧ë ¤. source address or `"ANY_TADDR"`                  |
- iye  ìtòlẹ́sẹẹsẹ ohun tí ó wà nídìí rèé  àwọn tó gbà á (`address`, `amount`, kò pọn dandan `memo`)|
-minconf  nọmba kò sí  ìmúdájú tí ó kéré jùlọ
-í í ì ¬ì ©ë ë ¤. `null` (ZIP-317 only)                    |
-ìpamọ́_àṣẹ  òpópónà  kò sí `"FullPrivacy"` Àlàfo ìlànà ìpamọ́.
+| fromaddress      | string          | bẹẹni      |                 | Àdírẹ́sì orísun tàbí `"ANY_TADDR"`                  |
+| amounts          | onka ohun kan | bẹẹni      |                 | Àwọn Olùgbà (`address`, `amount`, àṣàyàn `memo`)|
+| minconf          | number          | no       |                 | Àwọn ìdánilójú tó kéré jùlọ                            |
+| fee              | null            | no       |                 | O ni lati je `null` (ZIP-317 nìkan)                    |
+| privacy_policy   | string          | no       | `"FullPrivacy"` | Ìlànà Ìpamọ́ Okùn                            |
 
 ---
 
@@ -449,14 +449,14 @@ minconf  nọmba kò sí  ìmúdájú tí ó kéré jùlọ
 zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [null] [<limit>] ['"<memo_hex>"'] ['"<privacy_policy>"']
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter        | Irú   | Ti a nilo | Àpèjúwe                                      |
 |------------------|--------|----------|--------------------------------------------------|
- fromaddress  string yes  Adirẹsi tabi UUID àkọọlẹ tí ó ṣe kedere
-láti fi adirẹsi ránṣẹ́ sí ìlà yes dídáàbò bo ibi tí wọ́n ń lọ
-í í ì ¬ì ©ë ë ¤. `null`                                   |
-☐ iye tí kò ní ju ti àwọn UTXO tó yẹ kí wọ́n dáàbò bò lọ.
-ìdìpò̩. ìlà: kò sí Hex-encoded memo
-ìpamọ́_àṣẹ  òpópónà  kò sí `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
+| fromaddress      | string | bẹẹni      | Àdírẹ́sì tàbí àkọọ́lẹ̀ tí ó hàn gbangba UUID              |
+| toaddress        | string | bẹẹni      | Ibùdó ààbò                             |
+| fee              | null   | no       | O ni lati je `null`                                   |
+| limit            | number | no       | Iye ti o pọ julọ ti awọn UTXO coinbase lati daabobo           |
+| memo             | string | no       | Àkọsílẹ̀ tí a fi àmì hex sí                                 |
+| privacy_policy   | string | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
 
 ---
 
@@ -466,9 +466,9 @@ láti fi adirẹsi ránṣẹ́ sí ìlà yes dídáàbò bo ibi tí wọ́n ń 
 zallet rpc z_viewtransaction '"<txid>"'
 ```
 
- Àmì ìtọ́jú: Ẹ̀yà-ìmọ̀ràn: Ìpèsè tí ó pọn dandan: Àpèjúwe:
+| Parameter | Irú   | Ti a nilo | Àpèjúwe     |
 |-----------|--------|----------|-----------------|
-txid. string. bẹ́ẹ̀ ni ID ìsòwò náà
+| txid      | string | bẹẹni      | ID Iṣowo  |
 
 ---
 

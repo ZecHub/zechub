@@ -60,7 +60,7 @@ FROST di eyi ho dwuma denam adwuma a ɛyɛ wɔ ɔtare a wɔabɔ ho ban no mu no 
 
 | | Multisign a ɛda adi pefee | FROST aboboano (a wɔabɔ ho ban) |
 |--|---------------------|--------------------------|
-| Pool | Transparent (public) | Orchard (shielded) |
+| Tadeɛ | Nneɛma a ɛda adi pefee (ɔmanfo) | Orchard (a wɔabɔ ho ban) |
 | Signers a wotumi hu wɔ nkɔnsɔnkɔnsɔn so | Yiw — ɔmanfo nsafe nyinaa ada adi | Dabi — wontumi nkyerɛ nsonsonoe a ɛda obiako a ɔde ne nsa hyɛ ase sɛe |
 | Sika dodow a wotumi hu | Yiw | Dabi |
 | Nkitahodi a wɔhwehwɛ | On-nkɔnsɔnkɔnsɔn nkyerɛwee | Off-chain round a ɛfa nkitahodi ho |

@@ -50,10 +50,10 @@ Além das alterações de financiamento, a Canopy trouxe duas ZIPs técnicas mai
 |---|---|
 | Founders reward | O modelo de financiamento original que pagou o desenvolvimento inicial da Zcash, programado para terminar na primeira redução para metade |
 | Development Fund | A percentagem de 20 por cento de cada recompensa por bloco que a Canopy direcionou para o desenvolvimento, até à segunda redução para metade |
-| Recompensa por bloco (subsídio) | O novo ZEC criado e pago à medida que cada bloco é minerado |
+| Block reward (subsidy) | O novo ZEC criado e pago à medida que cada bloco é minerado |
 | Halving | O evento programado em que a recompensa por bloco é reduzida para metade |
 | Funding stream | O mecanismo de consenso (ZIP 207) que direciona parte do subsídio por bloco para endereços de destinatários definidos |
-| Pool Sprout | O pool shielded original da Zcash, no qual a Canopy deixou de aceitar novo valor |
+| Sprout pool | O pool shielded original da Zcash, no qual a Canopy deixou de aceitar novo valor |
 
 ## FAQ
 

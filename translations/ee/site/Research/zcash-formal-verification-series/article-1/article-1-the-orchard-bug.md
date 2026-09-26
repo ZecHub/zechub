@@ -75,12 +75,12 @@ In plain terms, the circuit's checklist was missing the boxes that should have p
 
 Nu siwo sɔ kple nu si dzɔ le míaƒe nuŋlɔɖi me la de pɛpɛpɛ:
 
-| Checklist story | The Orchard bug |
+| Checklist ŋutinya | Atikutsetsebɔ ƒe nugbagbevi si Orchard |
 |---|---|
-"Mɔzɔgbalẽa ƒe ŋkeke mewu enu o" aɖaka si le ƒuƒlu. Elliptic-curve dzi toto ŋuti seɖoƒe aɖe mele ƒuƒlui o.
-Mɔzɔla si ƒe mɔzɔgbalẽa mexe mɔ o la toa eme godoo. Ne ame aɖe tsɔ nya siwo mesɔ o de dzesi nanewo le eƒe asitelefon dzi la, womate ŋu akpɔe ɖa be enye nyateƒe hã o.
-Ame bubu aɖeke mekpɔa kuxi sia o, eya ta naneke megblẽna le eŋu o. Nu siwo wowɔna edziedzi la wɔa dɔ nyuie ale gbegbe be womekpɔa vodada si wònye me dzea sii o.
-Ne ame aɖe di be yeakpɔ ʋe la, eya koe akpɔa ʋɔa. Ehiã na numekula si bua akɔnta le mɔ̃ɖaŋunuwo ŋu nyuie hafi ate ŋu ake ɖe eŋu.
+| "passport not expired" ƒe aɖaka si bu | Mɔxenu si bu le elliptic-curve ƒe dzidziɖedzi ŋu |
+| Mɔzɔla si ƒe mɔzɔgbalẽ ƒe ɣeyiɣia wu enu la toa eme to mɔ sia mɔ nu | Aʋatsonyawo tsɔtsɔ de eme le wo ɖokui si to dzidziɖedzi ƒe dodokpɔa me |
+| Ame bubu ɖesiaɖe mekpɔa ŋusẽ ɖe edzi o, eyata naneke medze abe ɖe wògblẽ o ene | Asitsatsa siwo sɔ wɔa dɔ bliboe, eye woɣla vodadaa |
+| Ame aɖe si le ade dam nɛ koe kpɔa doa | Ebia be eŋutinunyala aɖe naɖoe koŋ aku nutome suea ƒe akɔntabubuwo me |
 
 Be míase alesi gbegbe esia nye ŋkubiãnyae gɔme la, numekulaa tsɔ AI kpe ɖe eŋu ŋlɔ "dɔwɔwɔ ƒe nugbegblẽ blibo" eye wòɖo kpe edzi le nudzroƒe si wowɔna be egbea yewɔ ga siwo womate ŋu akpɔ o. Esia nye vodada ŋutɔŋutɔ aɖe si woate ŋu azã atsɔ awɔ dɔ na ame, menye nusi dzi woatsi dzimaɖi ɖo ko o.
 
@@ -111,13 +111,13 @@ Orchard bug la nye ƒome aɖe si me nuwo dzɔna edziedzi, eye esi wònye be ƒom
 
 Zcash ŋutɔ ƒe ŋutinya ɖe alesi nɔnɔmea le fia:
 
-❑ Bug (ƒe) ❖ Nyatakakadzraɖoƒe: Woke ɖe eŋua?
+| Bug (ƒe) | Dzᴐtsoƒe | Woate ŋu ade dzesii? |
 |---|---|---|
- Zerocash commitment flaw (2016, pre-launch)  Specification (truncated hash broke a binding property) ♀️ Womate ŋu akpɔe o.
-☐ Trusted-setup soundness flaw (2018) 📅 1 yea. (Nɔƒe le zk-SNARK ƒe agbalẽa me) 📅 2 yea.
-☐ Nudidi ƒe ʋeʋẽ le numekuku-mɔ̃a me (2025) ☐ Nya si wogblɔ (woƒe asi mele nudidia ŋu o)  Woateŋu akpɔ wo adze sii  Womewɔ nu sia be woaɖo kpe edzi na ame bubuwo ne womekpɔ nya siwo gblɔ la dzi o.
-Curve-subgroup validation bug (2016) Implementation (a missing subgroup check) Detectable Nɔviha ƒe mɔ̃ si me nu mele o
-Orchard ƒe agbɔsɔsɔ si ŋu seɖoƒe mele o (2026) **. (The Circuit) * .* Nyemekpɔa ame aɖeke o**.
+| Zerocash ƒe ɖokuitsɔtsɔna ƒe vodada (ƒe 2016, do ŋgɔ na eƒe dodo ɖe ŋgɔ) | Specification (hash si wotso la gbã binding property) | Womate ŋu ade dzesii o |
+| Kakaɖedzi-ɖoɖowɔwɔ ƒe gbeɖiɖi ƒe vodada (2018) | Nyatakaka (vodada aɖe le zk-SNARK pepa si le ete me) | Womate ŋu ade dzesii o |
+| Proving-system biabia ƒe ƒoƒo (2025) | Specification (check si bu le kpeɖodziɖoɖoa me) | Woate ŋu ade dzesii |
+| Curve-subgroup ƒe kpeɖodzi ƒe vodada (2016) | Dɔwɔwɔ (ƒuƒoƒo sue ƒe dodokpɔ si bu) | Woate ŋu ade dzesii |
+| **Orchard ƒe dzidziɖedzi si womexe mɔ na o (ƒe 2026)** | **Nyatakaka (nutome)** | **Womate ŋu ade dzesii o** |
 
 Nusiwo le eme la nye nya sesẽ: vodada siwo ate ŋu anɔ ɣaɣla ɖaa enye esiwo le akɔntabubu me. Esiae nye nusi tututu mɔ̃ ƒe dzidze si dzi woate ŋu ato akpɔ nyatakakaawo gbɔ ate ŋu aɖe ɖa, zi ɖeka ko. Dodokpɔ kple numekuku wɔwɔ; ɖeko xexlẽdzesi ɖeɖe fiaa nusiwo katã wotsɔna dea dɔwɔwɔ mee.
 
@@ -157,17 +157,17 @@ Míeɖe nu me le susu nyui aɖe ta. Nuƒomɔ ŋutɔŋutɔ la lɔ nuto alafa geɖ
 
 ## Nyagbewo ƒe hatsotsoa
 
-Nyagbe si gɔme woɖe le Eŋlisigbe me be "nuwɔwɔ".
+| Nya | Gɔmesese si le Eŋlisigbe me gbadzaa |
 |---|---|
-Zcash ƒe akpa si me woɣlaa ga homewo kple ame siwo le dɔ wɔm kpli wo la.
-** Nuŋɔŋlɔ siwo gɔme womenya o ƒe kpeɖodzi**. Enye kpeɖodzi be nya si le ɣaɣla la nye nyateƒe, eye meɖea nu bubu aɖeke ɖe go o.
-** Circuit**. Eʋevi si nye akɔntabubu ƒe nɔnɔme siwo wòle be nuwɔwɔ nyui aɖe naɖo wo gbɔ la le eme.
-**Constraint**. Nɔnɔme ɖeka (equation) le nutome sue la me.
-** Ðasefo**. Numeɖeɖe siwo me woazã nya siawo le la nye esiwo dzi woate ŋu aka ɖo be woaɖo kpe edzi na ame bubuwo ƒe susuwo.
-** Nyateƒenyawo ƒe nyateƒenyenye**: Enye kakaɖedzinya be nya siwo nye nyateƒe koe ate ŋu ana woaɖo kpe edzi.
-** Soundness gap** Aɖabaƒoƒo si megali o, si ɖea mɔ be nya siwo nye aʋatso la nu nayi.
-** Womeɖe mɔ ɖe eŋu o**. Mɔ̃ si me nɔnɔme aɖe le, Orchard-dɔlélea ƒe ke la mele eme o.
-▪ Ne ame aɖe ƒe nufitifitiwɔwɔ ana woaŋlɔ eƒe nuwɔnawo ɖe agbalẽ me la, ekema woagblẽe ɖi.
+| **Shielded pool** | Zcash ƒe private mode si me woɣla ga homewo kple akpawo le |
+| **Zero-knowledge proof** | Kpeɖodzi si fia be nya ɣaɣla aɖe sɔ, si meɖea nu bubu aɖeke fiana o |
+| **Circuit** | Akɔntabubu ƒe nɔnɔme siwo woɖo ɖi si dzi wòle be asitsatsa si sɔ nawɔ ɖo |
+| **Constraint** | Nɔnɔme ɖeka (equation) le nutome suea me |
+| **Witness** | Dzidzenu ɣaɣla siwo kpɔa mɔxenuwo gbɔ |
+| **Soundness** | Kakaɖedzi si nye be nya vavãwo koe ate ŋu ana kpeɖodzi si sɔ |
+| **Soundness gap** | Mɔxenu si bu si nana alakpanyawo toa eme |
+| **Under-constrained** | Nutome sue aɖe si to nɔnɔme aɖe si wòhiã, si nye Orchard nugbagbevi la ƒe ke |
+| **Detectable / undetectable** | Nenye be amewo zazã ɖe mɔ gbegblẽ nu agblẽ kpeɖodziwo ɖe ledger me |
 
 ---
 

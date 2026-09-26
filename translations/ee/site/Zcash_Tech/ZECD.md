@@ -288,8 +288,8 @@ zecd --datadir ./data init --restore --birthday 2500000
 | Akpa si wòwɔna | Node blibo + gakotoku | Indexer (exɔ ɖe lightwalletd teƒe) | Gakotoku ƒe dɔwɔƒe koe |
 | Gbegbɔgblɔ | C++ | Gbeɖuɖɔ | Gbeɖuɖɔ |
 | Nɔnɔme | Woɖe asi le eŋu | Dɔwɔwɔ | Dɔwɔwɔ (v0.5.0-rc3, Dzome 2026) |
-| Default pool | Transparent | N/A | Orchard (shielded) |
-| RPC dialect | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
+| Default pool | Si me kɔ | N/A | Orchard (si wotsɔ akpoxɔnu wɔe) |
+| RPC gbetagbe | zcashd-specific | gRPC (lightwalletd) | Bitcoin ƒe Nu vevi JSON-RPC |
 | Ebia be node blibo | Ẽ (ame ŋutɔ) | Zebra alo zcashd | Zebra |
 | Dukɔmanɔsitɔwo ƒe hayahaya | Ao | N/A | Ẽ (nuku ɖeɖeko) |
 | Nuŋlɔɖi siwo wotsɔ akpoxɔnu wɔe | Ɛ̃ (`z_sendmany`) | N/A | Ẽ (Bitcoin RPC ƒe anyigba) |

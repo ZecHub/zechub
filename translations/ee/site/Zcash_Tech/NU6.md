@@ -57,12 +57,12 @@ NU6 nye ta ɖeka le ŋutinya didi aɖe me ku ɖe alesi Zcash xea fe na eɖokui �
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Block ƒe kpekpeɖeŋunana | ZEC yeye si wowɔ kple block ɖesiaɖe si woɖe |
-| Coinbase ƒe asitsatsa | Asitsatsa tɔxɛ si xea block aɖe ƒe kpekpeɖeŋu kple fewo |
-| Deferred Dev Fund ƒe Ʋuʋudedi ƒe Aɖaka | Nudzraɖoƒe si le ɖoɖowɔɖi me si léa ga si woɖe ɖe go ƒe akpa aɖe ɖe asi hena etsɔme si nutoa me tɔwo tso nya me le be woazã |
-| Zcash Hadome Gakpekpeɖeŋunana (ZCG) | Kɔmiti si naa ga dɔwɔwɔ si Zcash nutoa me tɔwo wɔna eye wowɔa dɔ na wo |
-| Nubabla ƒe alɔdze id | Dzesidede nodes zãna tsɔ gblɔa upgrade ƒe se siwo dzi block zɔna ɖo |
-| Netwɔƒe ƒe ŋgɔyiyi (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Block subsidy | ZEC yeye si wowɔ kple block ɖesiaɖe si woɖe |
+| Coinbase transaction | Asitsatsa tɔxɛ si xea block aɖe ƒe kpekpeɖeŋu kple fewo |
+| Deferred Dev Fund Lockbox | Nudzraɖoƒe si le ɖoɖowɔɖi me si léa ga si woɖe ɖe go ƒe akpa aɖe ɖe asi hena etsɔme si nutoa me tɔwo tso nya me le be woazã |
+| Zcash Community Grants (ZCG) | Kɔmiti si naa ga dɔwɔwɔ si Zcash nutoa me tɔwo wɔna eye wowɔa dɔ na wo |
+| Consensus branch id | Dzesidede nodes zãna tsɔ gblɔa upgrade ƒe se siwo dzi block zɔna ɖo |
+| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
 
 ## Nyabiasewo ƒe Nyabiasewo
 

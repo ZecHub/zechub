@@ -39,7 +39,7 @@ Kpeɖodzi ƒe wɔwɔme gbugbɔgawɔ ɖea mɔ na kpeɖodzi ɖeka be wòaɖo kpe k
 
 Do ŋgɔ na Halo la, kpeɖodzi si wogbugbɔna ƒe wɔwɔme gbɔ ɖoɖo bia akɔntabubu ƒe gazazã gã kple ɖoɖo si dzi woka ɖo. Nu vevi siwo ŋu woke ɖo dometɔ ɖekae nye mɔnu aɖe si woyɔna be **nested amortization**. Mɔnu sia ɖea mɔ na nuwɔwɔ gbugbɔgawɔ to polynomial commitment scheme si wotu ɖe ememe nuwɔna ƒe nyaʋiʋli dzi zazã me, si naa dɔwɔwɔ nyona ɖe edzi ŋutɔ eye wòƒoa asa na ɖoɖo si dzi woka ɖo.
 
-Le ɣeyiɣi si me [Halo ƒe pepa](https://eprint.iacr.org/2019/1021.pdf), míeƒo nu tso polynomial commitment scheme sia ŋu bliboe eye míekpɔe be aggregation mɔnu yeye aɖe li le eme. Mɔnua na woate ŋu aɖo kpe kpeɖodzi gbogbo aɖewo siwo wowɔ le wo ɖokui si dzi kabakaba abe kpeɖodzi ɖeka dzi dada ene kloe. Esia ɖeɖe dzaa ana mɔnu nyuitɔ si woatsɔ aɖɔli zk-SNARK siwo wozãna tsã le Zcash me.
+Le ɣeyiɣi si me [Halo ƒe pepa](https://eprint.iacr.org/2019/1021.pdf), míeƒo nu tso polynomial commitment scheme sia ŋu bliboe eye míekpɔe be aggregation mɔnu yeye aɖe li le eme. Mɔnua na woate ŋu aɖo kpe kpeɖodzi gbogbo aɖewo siwo wowɔ le wo ɖokui si dzi kabakaba abe kpeɖodzi ɖeka dzi dada ene kloe. Esia ɖeɖe dzaa ana mɔnu nyuitɔ si woatsɔ aɖɔli zk-SNARKs siwo wozãna tsã le Zcash.
 
 
 ### Halo 2 lia

@@ -36,8 +36,8 @@ Sprout, sonraki her değişikliğin üzerine inşa edildiği temel çizgidir. Ov
 |---|---|
 | zk-SNARK | Göndereni, alıcıyı veya miktarı açıklamadan bir işlemin geçerli olduğunu gösteren bir sıfır bilgi ispatı |
 | Shielded pool | Zcash'in miktarların ve tarafların gizlendiği özel tarafı. Sprout pool ilk olandı |
-| z-address ve t-address | z-address shielded'dır ve ayrıntıları gizli tutar. t-address transparent'tır ve ayrıntıları herkese açık defterde gösterir |
-| Ceremony | Sprout'un herkese açık parametrelerini üreten ve ardından toxic waste'i ortadan kaldıran 2016 tarihli çok taraflı kurulum |
+| z-address and t-address | z-address shielded'dır ve ayrıntıları gizli tutar. t-address transparent'tır ve ayrıntıları herkese açık defterde gösterir |
+| The Ceremony | Sprout'un herkese açık parametrelerini üreten ve ardından toxic waste'i ortadan kaldıran 2016 tarihli çok taraflı kurulum |
 | Toxic waste | ZEC'in sahte şekilde üretilememesi için yok edilmesi gereken Ceremony'deki gizli anahtar parçaları |
 | Consensus branch id 0 | Sprout kurallarının etiketi; herhangi bir ağ yükseltmesinden önceki temel durumu ifade eder |
 

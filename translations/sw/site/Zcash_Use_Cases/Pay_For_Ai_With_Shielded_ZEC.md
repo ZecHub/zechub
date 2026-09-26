@@ -120,14 +120,14 @@ ZEC yako majani shielded. Huduma anaona kawaida USDC malipo kuwasili na kamwe an
 
 Hii ndiyo sehemu ambayo viongozi wengi hupuuza.
 
-Kinachotokea. Huduma inajifunza nini? Ni kitu gani kinachoendelea kwenye mlolongo wa vitu vilivyoandikwa?
+| Kinachotokea | Huduma inajifunza nini | Kinachoendelea kwenye mnyororo |
 |---|---|---|
-| Browsing and prompting | Nothing. No account, no email | Nothing |
-Anwani ya amana ni iliyotolewa. Hakuna kitu chochote.
-Wewe kulipa ** kutoka Sapling** anwani amana wewe kutumika - chochote. kulindwa kwa ulinzi-
-Wewe kulipa ** kutoka Ironwood**. Same. * Kiasi na block urefu ***
-Wewe kulipa ** kutoka anwani ya uwazi**. Same. kiasi na yako t-anwani.
-Yoyote ya hapo juu. IP yako, isipokuwa wewe kutumia Tor au VPN. Haihusiani.
+| Kuvinjari na kushawishi | Hakuna. Hakuna akaunti, hakuna barua pepe | Hakuna |
+| Anwani ya amana imetolewa | Hakuna | Hakuna |
+| Unalipa **kutoka Sapling** | Anwani ya amana uliyotumia | Hakuna. Imefunikwa kwa ngao |
+| Unalipa **kutoka Ironwood** | Vile vile | **Kiasi na urefu wa kitalu** |
+| Unalipa **kutoka kwa anwani ya uwazi** | Vile vile | Kiasi na anwani yako ya t |
+| Yoyote kati ya hayo hapo juu | IP yako, isipokuwa utumie Tor au VPN | Haitumiki |
 
 ### Kwa nini dimbwi ni muhimu?
 

@@ -39,14 +39,14 @@ Blossom was Zcash's third network upgrade. It followed Overwinter and Sapling, a
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
---Block lengo spacing-- muda mtandao inalenga kwa kati ya block moja na ijayo.
- Block malipo. ZEC mpya kuundwa na kulipwa nje kama kila block ni kuchimbwa.
-Kupunguza kwa nusu muda wa mapumziko. Ni vipande vingapi vinavyopita kati ya kila kupunguzwa kwa malipo ya kipengele cha pili?
-◯ Id ya tawi la makubaliano. Tag ambayo alama ni seti gani ya mtandao sheria node au shughuli inafuata.
-◯ Mabadiliko ya makubaliano baina ya pande mbili. Badiliko la sheria ambayo kila node lazima ipitishe ili kubaki kwenye mtandao.
- Network Upgrade (NU)  mabadiliko uratibu kwa Zcash ya makubaliano sheria, ulioamilishwa katika block kuweka urefu.
+| Block target spacing | Muda ambao mtandao unalenga kati ya kizuizi kimoja na kingine |
+| Block reward | ZEC mpya iliundwa na kulipwa kadri kila kitalu kinavyochimbwa |
+| Halving interval | Ni vitalu vingapi vinavyopita kati ya kila nusu ya zawadi ya vitalu |
+| Consensus branch id | Lebo inayoashiria ni seti gani ya sheria za mtandao ambazo nodi au muamala unafuata |
+| Bilateral consensus change | Mabadiliko ya sheria ambayo kila nodi lazima ipitishe ili kubaki kwenye mtandao |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 
 ## FAQs
 

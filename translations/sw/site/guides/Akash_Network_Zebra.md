@@ -441,5 +441,5 @@ Anza na Testnet kama wewe ni tu kupima mchakato wa kupelekwa. Angalia "Kubadilis
 
 ** Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash Mzozo**: [https://discord.akash.network](https://discord.akash.network) (kwa masuala ya mtoa huduma)
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (kwa masuala ya mtoa huduma)
 

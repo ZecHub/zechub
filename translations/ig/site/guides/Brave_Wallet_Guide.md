@@ -40,7 +40,7 @@ Ndị ọrụ nwere ike izipu / nata ZEC na-enweghị igosipụta nguzozi ma ọ
 4. Nweta akara ngosi crypto
 
 
-! [img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
+! ![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
 ## Nkebi nke 2: Na-agbakwụnye Zcash (ZEC) na Brave Wallet
@@ -54,7 +54,7 @@ Ndị ọrụ nwere ike izipu / nata ZEC na-enweghị igosipụta nguzozi ma ọ
 3. ZEC na-apụta ugbu a na obere akpa gị
 
 
-! [img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
+! ![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
 
 
 ## Part 3: Receiving Shielded ZEC (Unified Address)
@@ -73,7 +73,7 @@ Ndị ọrụ nwere ike izipu / nata ZEC na-enweghị igosipụta nguzozi ma ọ
 
 
 
-! [img3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
+! ![img3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
 
 
 
@@ -92,7 +92,7 @@ Ndị ọrụ nwere ike izipu / nata ZEC na-enweghị igosipụta nguzozi ma ọ
 5. Pịa Ziga - a na-ebufe ego ugbu a na nzuzo, na-eji ọdọ mmiri Orchard
 
 
-! [img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
+! ![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
 
 
 
@@ -129,7 +129,7 @@ Site na Brave Wallet na ZEC echekwara, nzuzo dị ugbu a maka onye ọ bụla - 
 
 Ezigbo maka ndị nta akụkọ, ndị na-eme ihe ike, ma ọ bụ ndị na - echebara nzuzo ha echiche.
 
-Gbalịa azụmahịa mbụ gị a na-echebe taa n'ime obi ike!
+Nwaa azụmahịa mbụ gị nke a na-echebe taa n'ime Brave!
 
 
 **Nọrọ onwe gị. Nọrọ n'efu. Ziga ZEC na nzuzo na Brave Wallet.**

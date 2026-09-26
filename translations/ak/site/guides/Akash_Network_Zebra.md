@@ -441,5 +441,5 @@ Fi ase wɔ Testnet sɛ woresɔ deployment nhyehyɛe no ahwɛ kɛkɛ a. Hwɛ "Swi
 
 **Zcash Nhwehwɛmufoɔ**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash Akasakasa**: [https://discord.akash.network](https://discord.akash.network) (ma nsɛm a ɛfa ɔdemafo ho) .
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (ma nsɛm a ɛfa ɔdemafo ho) .
 

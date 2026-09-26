@@ -177,12 +177,12 @@ Subject Alternative Name — это идентичность. Там указа�
 | Поле | Значение для v6.3.0 |
 |---|---|
 | OIDC issuer | `https://token.actions.githubusercontent.com` |
-| Исходный репозиторий | `https://github.com/ZcashFoundation/zebra` |
-| Коммит сборки | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| Среда runner | `github-hosted` |
-| Запуск workflow | `.../actions/runs/31424510487/attempts/1` |
-| Видимость репозитория | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Каждое из этих значений можно проверить. Хеш коммита должен соответствовать тегу в репозитории; запуск workflow должен существовать и быть публичным.
 
@@ -219,9 +219,9 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 | Поле | Значение |
 |---|---|
-| Индекс журнала Rekor | `2412071838` |
-| Тип записи | `hashedrekord v0.0.1` |
-| Время интеграции | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 Именно это делает обнаружимым скрытое злоупотребление ключом. Подпись, которая никогда не появлялась в журнале или появилась в неправдоподобное время, — это сигнал, на который стоит реагировать. Сравните время интеграции с объявлением о релизе.
 
@@ -427,10 +427,10 @@ sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
 
 | Project | Releases published at | Method | Where the key comes from |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + комплект Sigstore | Ключ не нужен — идентичность CI через GitHub OIDC |
-| **Zallet** | `github.com/zcash/zallet/releases` | Отделённая GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — основной `0338 34DD…58E2 6AB1`, подписывающий подключ `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Ключ не нужен — идентичность CI через GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — основной `0338 34DD…58E2 6AB1`, подписывающий подключ `1FE9 9324…23F0 617F` |
 | **zcashd** | *retired* | — | Остановлен на блоке 3,417,100 2026-07-18. Не устанавливайте. |
-| **Zodl** (ранее Zashi) | App Store / Google Play; `zodl-inc` на GitHub | Подпись магазина; отдельные бинарные файлы Android, подписанные GPG | Ключ ZODL согласно заявлению о переходе |
+| **Zodl** (ранее Zashi) | App Store / Google Play; `zodl-inc` на GitHub | Store signing; standalone Android binaries GPG-signed | Ключ ZODL согласно заявлению о переходе |
 
 > **Примечание по названию:** в 2026 году Zashi был переименован в **Zodl** — сначала в App Store, затем в Google Play. Более старые руководства, где упоминается «Zashi», описывают ту же линейку кошельков.
 

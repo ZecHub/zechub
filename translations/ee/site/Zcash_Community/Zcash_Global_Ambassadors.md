@@ -40,5 +40,5 @@ Nuwɔwɔ ƒe ablɔɖe le dutadɔnunɔlawo si le dɔwɔna siwo ŋu wowɔ ɖoɖo �
 
 Àte ŋu akpɔ gome le eme hã to:
 - Nudzɔdzɔ na... [ZEC ƒe Bounties](https://bounties.zechub.wiki/)
-- Woawɔ ɖeka kple... [Zcash Xexeame Katã ƒe Masɔmasɔ](https://discord.gg/zcash)
+- Woawɔ ɖeka kple... [Zcash Xexeame Katã ƒe Discord](https://discord.gg/zcash)
 

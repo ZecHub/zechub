@@ -51,11 +51,11 @@ Eŋkɔa nye nu gbagbewo ƒe ɖoɖowɔɖi me nya kpui  Zebra, Zaino, Zallet  togb
                         light wallets / explorers
 ```
 
-Nɔnɔmetɔ Dɔwɔƒe le Z3 me. Ehiãa?
+| Kpeɖeŋutɔ | Akpa si wòwɔna le Z3 | Si hiã? |
 | --- | --- | --- |
-** Zebra**. Ewɔa kadodo kple nyatakakawo, nyaselawo ƒe nyawo, JSON-RPC, lãmesẽnyawo ŋuti nuŋlɔɖiwo eye wòdzea wo ŋu hã. Ɛ̃.
-**Zallet**. Full-node wallet. Embeds Zaino libraries. Connects directly to Zebra JSON-RPC. Does not call the standalone Zaino container. Yes (Menye be eyɔ Zaino ƒe akpa si le eɖokui si o)
-Zaino. Standalone indexer. lightwalletd-compatible gRPC na gota kekeli clients, plus JSON-RPC proxy na explorers kple faucets No  `--profile indexer` |
+| **Zebra** | Syncs eye wòɖo kpe kɔsɔkɔsɔ, nyatoƒoetoto, JSON-RPC, lãmesẽ nuwuƒe dzi | Ɛ̃ |
+| **Zallet** | Gakotoku si me node blibo le. Embeds Zaino agbalẽdzraɖoƒewo. Doa ka kple Zebra JSON-RPC tẽ. Me **meyɔa** Zaino nugoe si le eɖokui si o | Ɛ̃ |
+| **Zaino** | Indexer si le eɖokui si. lightwalletd-compatible gRPC na gota kekeli asisiwo, tsɔ kpe ɖe JSON-RPC teƒenɔla na explorers kple faucets | No — `--profile indexer` |
 
 Z3 pin image versions le me `docker-compose.yml`. Ðɔ ɖe edzi kple `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` ne èhiã ŋkɔ bubu.
 
@@ -65,13 +65,13 @@ Z3 pin image versions le me `docker-compose.yml`. Ðɔ ɖe edzi kple `Z3_ZEBRA_I
 
 | | zcashd | Z3 |
 | --- | --- | --- |
-Gbewo C++ (Bitcoin ƒe akpa eve) Rust-dɔwɔƒewo, Docker Compose dzi wɔwɔ.
- Process model. One binary: node + wallet. Separate node and wallet containers. Ðekae nye nu eve siwo le ɖeka me, enyea gaƒoƒonu kple gakpɔtɔ ƒe akpa si to vovo tso wo nɔewo gbɔ la ŋu.
-◯ Agbenyuinɔnɔ (consensus) ❑ Eʋeʋu le dɔ me (EOS 18 July 2026) ❖ Zebra (alo teƒe bubu si sɔ na wo) ▸ Anyigbeƒonuwo ƒe ŋkɔ: "Agbegbe" (Consensus).
-Gaɖaka. Ewɔe ɖe eme `wallet.dat` Zallet, ƒe si me woŋlɔ nyatakakawo ɖo.
-evi klients. zi geɖe la lightwalletd si le vovo. Zaino profile tiatiawo.
-Ŋkɔa ƒe ɖoɖowɔɖi: Config. `zcash.conf` e-ƒaƒoʋuwo ƒe fayelwo le ete. `config/<network>/` plus compose env files. Ðe woazã ŋɔŋlɔdzesi sia
-❑ Xɔdzidɔwɔƒe ɖeka dzi nyatakakadzraɖoƒewo. ▪ Mɔ̃ siwo me ʋuwo le la ƒe nyaƒoɖeamenu sesẽwo. ● Ƒome Gbãtɔ: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
+| Gbegbᴐgblᴐ | C++ (Bitcoin ƒe fɔkpa) | Rust subɔsubɔdɔwo, si woɖo kple Docker Compose |
+| Dɔwɔwɔ ƒe kpɔɖeŋu | Binary ɖeka: node + gakotoku | Miɖe node kple gakotoku ƒe nugoewo ɖe vovo |
+| Nusiwo dzi woda asi ɖo | Exɔ dzudzɔ le dɔme (EOS 18 July 2026) | Zebra (alo node bubu si sɔ) |
+| Gakotoku | Wotue ɖe eme `wallet.dat` | Zallet, datadir si wotsɔ nya ɣaɣlawo ŋlɔ tso ƒexɔxɔ nu |
+| Kekeli ƒe asisiwo | Zi geɖe la, lightwalletd si woɖe ɖe vovo | Zaino nɔnɔmetata si woate ŋu atia |
+| Config | `zcash.conf` | Per-network faɛlwo le `config/<network>/` kpe ɖe Compose env faɛlwo ŋu |
+| Networks le host ɖeka dzi | Melidzeƒea ƒe dzrewɔwɔ siwo me vevesese le | Klass gbãtɔ: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
 Ne ègakpɔtɔ le dɔ sia wɔm la, ke: `zcashd` wallet, use ZecHub’s [ʋuʋu ŋuti mɔfiagbalẽa me.](/guides/migration-guide-zcashd-to-zebrad-zallet) and Zallet’s `migrate-zcashd-wallet` fia mɔe tsɔ wu be wòaŋlɔ nu ɖe eme `wallet.dat` le Z3 ƒe akpa si nye agbalẽdzraɖoƒea.
 
@@ -81,11 +81,11 @@ Ne ègakpɔtɔ le dɔ sia wɔm la, ke: `zcashd` wallet, use ZecHub’s [ʋuʋu �
 
 Z3 nye Compose ƒe dɔwɔna etɔ̃ siwo le wo ɖokui si. Womezãa woƒe ʋudzeƒewo alo agbalẽwo ɖekae o.
 
-Network Project name Use it for First sync Ga ŋutɔŋutɔ ƒe ɖoɖowo Etsɔ ɖe nu me le Internet dzi.
+| Kadodo | Dɔa ƒe ŋkɔ | Zãe na | Gbãtɔ ƒe sync | Ga ŋutɔŋutɔwo |
 | --- | --- | --- | --- | --- |
-Internet dzi nyatakakadzraɖoƒe. `z3-mainnet` Ewɔa dɔ gaƒoƒo 24 le ŋkeke ɖeka me. Ɛ̃, ewɔe nenema ke.
-Testnet (Tsɔdzidzenu) `z3-testnet` ▪ Wowɔe le dutoƒonuwo dzi kpɔƒe. ▪ Gaƒoƒo 2 ɖo 12 o (ZEC ƒe dodokpɔa)
-Ðeko míedi be míaɖo ŋku edzi na wò. `z3-regtest` Kpekpeɖeŋu: Wowɔe enumake, ame aɖeke mewɔa esia o. Ɣeyiɣi kpui aɖe koe woazã na kpekpeawo me nɔlawo le teƒe ɖeka.
+| **mainnet** ƒe | `z3-mainnet` | Nuwɔwɔ | gaƒoƒo 24–72 sɔŋ | Ɛ̃ |
+| **dodokpɔ ƒe nyatakakadzraɖoƒe** | `z3-testnet` | Staging le dutoƒo dodokpɔ network dzi | gaƒoƒo 2–12 sɔŋ | Ao (dodokpɔ ZEC) |
+| **regtest** | `z3-regtest` | Nutoa me nuwɔna: mɔxexe enumake, hati aɖeke meli o | Sɛkɛndwo | No |
 
 Ele be dɔwɔƒe yeyewo nadze egɔme kple "regtest", woana RPC-awo kple ga si le woƒe kotokuawo me la nanɔ eteƒe, eye emegbe woaʋu ayi testnet alo mainet dzi.
 
@@ -95,13 +95,13 @@ Ele be dɔwɔƒe yeyewo nadze egɔme kple "regtest", woana RPC-awo kple ga si le
 
 Wodi be kadodo etɔ̃awo katã nanɔ anyi le mɔ ɖeka dzi. Nusiwo woŋlɔ ɖi la nye esi wota; woate ŋu atrɔ asi le ɖesiaɖe ŋu to asitɔtrɔ si wowɔna ɖe eƒe nɔnɔmea ŋuti me. `Z3_*` env var. Ŋutinya ƒe nuŋlɔɖi enye: [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
 
-Service Mainnet Testnet Regtest Nuwo ƒe Numekuku Kpekpeɖeŋu Dzɔdzɔmeŋutinunyala Gã Ƒe Nyatakakadzraɖoƒea Xexlẽdzesiwo: 1 x.
+| Dɔ | Mainnet ƒe mɔ̃ | Dodokpɔ ƒe mɔ̃ | Regtest ƒe dodokpɔ |
 | --- | --- | --- | --- |
-Zebra JSON-RPC 8232 18232 29232
- Zebra P2P 8233 18233 (woaɖe wo ɖe go o)
-Zebra ƒe lãmesẽ (Zebra health)`/ready`) | 8080 | 18080 | 28080 |
-Zaino gRPC (nuŋlɔɖenuŋɔŋlɔ ƒe nyatakaka) 8137 18137 28137.
-Zaino JSON-RPC (nuŋlɔɖimeŋutinya) 8237 18237 28237
+| Zebra JSON-RPC ƒe ŋkɔ | 8232 | 18232 | 29232 |
+| Zebra P2P | 8233 | 18233 | (wometae o) |
+| Zebra ƒe lãmesẽ (`/ready`) | 8080 | 18080 | 28080 |
+| Zaino gRPC (indexer ƒe nɔnɔmetata) | 8137 | 18137 | 28137 |
+| Zaino JSON-RPC (indexer ƒe nɔnɔmetata) | 8237 | 18237 | 28237 |
 | Zallet RPC | 28232 | 40232 | 50232 |
 
 Le Compose-ƒa dzi la, ŋkɔwoe wotsɔna ɖoa dɔwo ŋu (`zebra`, `zaino`, `zallet`).
@@ -110,12 +110,12 @@ Le Compose-ƒa dzi la, ŋkɔwoe wotsɔna ɖoa dɔwo ŋu (`zebra`, `zaino`, `zall
 
 ## Data kple backupwo
 
-▪ Numeɖeɖe. ● Nu kae léa eme ɖe asi? □ Ðɔɖɔɖo le eŋu:
+| Ɣlidodo | Nusi wòlé ɖe asi | Ðe megbe nɛa? |
 | --- | --- | --- |
-| `z3-<network>-chain`  Zebra chain state (~300 GB mainnet)  Eɖanye le wo si o, woate ŋu atrɔ asi le eŋu.
-| `z3-<network>-zallet` │ Gaɖakawo ŋuti nyatakakadzraɖoƒe si ŋu wotrɔ asi le kple ƒexɔxɔ, siwo ʋua wo nu. ─── Ẽ! Esia koe nye agbalẽvi ɖeka kolia si wòle be woaɖo kpe edzi na.*
-| `z3-<network>-zaino`  Index state (ne index profile ko le eme)  Eɖanye eya ŋutɔ tɔ o  Woagate ŋu atrɔ asi le eŋu.
-| `z3-<network>-cookie`  Zebra RPC kuku. Womeɖɔe ɖo o.
+| `z3-<network>-chain` | Zebra kɔsɔkɔsɔ ƒe nɔnɔme (~ 300 GB mainnet) | Tiatia — woate ŋu agbugbɔ awɔ ɖeka |
+| `z3-<network>-zallet` | Gakotoku ƒe nyatakakadzraɖoƒe si wotsɔ nya ɣaɣlawo ŋlɔ **kple** ƒe si wòxɔ si ʋua enu | **Ẽ — esia koe nye volume si wòle be woawɔ backup** |
+| `z3-<network>-zaino` | Indexer ƒe nɔnɔme (kple indexer ƒe nɔnɔmetata ɖeɖeko) | Optional — woate ŋu agbugbɔ atu |
+| `z3-<network>-cookie` | Zebra RPC ƒe kuki | Ao — wogbugbɔ wo dzi |
 
 Be nàtsɔ chain state aɖo disk bubu dzi hafi adze egɔme:
 

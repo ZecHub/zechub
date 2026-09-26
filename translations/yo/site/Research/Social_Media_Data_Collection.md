@@ -20,9 +20,9 @@ Discord
 
 A ní láti bẹ̀rẹ̀ pẹ̀lú Discord nítorí pé òun ni ohun èlò ìbánisọ̀rọ̀ tí a máa ń lò "nílé".
 
-Àríyànjiyàn wúlò gan-an fún ìṣàkóso àwùjọ ńlá kan lórí oríṣiríṣi ọ̀rọ̀, ṣùgbọ́n ó jẹ̀bi bíi ti ọ̀pọ̀lọpọ̀ àwọn mìíràn láti jàǹfààní nínú ìwífún wa.
+Discord wúlò gan-an fún ṣíṣàkóso àwùjọ ńlá lórí ọ̀pọ̀lọpọ̀ kókó ọ̀rọ̀, ṣùgbọ́n ó jẹ́ ẹ̀bi kan náà fún jíjẹ àǹfààní láti inú ìwífún nípa ara ẹni wa.
 
-### Àwọn Ibi Ìpamọ́ Ìsọfúnni
+### Àwọn ilé ìtajà Dátà Discord
 
 Gegebi ilana aṣiri rẹ, Discord gba alaye wọnyi nipa wa:
 

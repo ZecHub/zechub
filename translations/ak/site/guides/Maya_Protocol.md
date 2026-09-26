@@ -17,7 +17,7 @@
 </div>
 
 
-## Dɛn ne Maya Nhyehyɛe no?
+## Dɛn ne Maya Protocol?
 
 Maya yɛ obi a ne ho nni asɛm. [nkitahodie a enni nnyinasoɔ](https://nym.com/blog/what-is-dex) (DEX) nhyehyɛeɛ a ɛma kwan ma wɔde cryptocurrency di dwa wɔ blockchain ahodoɔ so. Wobɛtumi, sɛ nhwɛsoɔ de Bitcoin (BTC) asesa Ethereum (ETH) wɔ Blockchain no mu ɔkwan tiawa bi so, bere a wonni sika anaa wɔnni tumi biara na afei nso wonnim wo kwampaefo akwan (KYC).
 

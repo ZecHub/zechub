@@ -10,7 +10,7 @@ Mfiridwuma ho nhyiamu a wɔyɛ no daa a ɛfa Zcash protocol, zero-knowledge proo
 
 Ntoatoaso no ka standalone deep-dives ne **Protocol Study** sub-series a ɛkɔ so (Zcash Protocol Specification no akenkan a wɔkyerɛ kwan) no nyinaa ho.
 
-[Zcash Engineering Office Nnɔnhwerew Playlist](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
+[Zcash Engineering Office Hours Playlist](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

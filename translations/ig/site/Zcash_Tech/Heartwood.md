@@ -38,15 +38,15 @@ Heartwood is one step in a run of Zcash upgrades, each adding a piece the next o
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
- Mgbasa ozi Coinbase  Ọ bụ azụmahịa pụrụ iche n'ime ngọngọ ọ bụla nke na-akwụ ụgwọ ọrụ ahụ.
-◯ Adreesị Sapling echedoro. Ụdị adreesị Zcash nke onwe ya site na nkwalite Sapling.
-◯ Ụlọ akụ ego e chebere echebe ❖ Mgbanwe nke Heartwood na-eme ka a kwụọ ụgwọ ọrụ ndị dị n'ime oghere ahụ gaa n'adres Sapling echekwara echebe.
- FlyClient  Usoro nke na-enye ndị ahịa ọkụ aka ịchọpụta ihe àmà ọrụ site n'iji obere ihe ngosi.
-◯ Merkle Mountain Range (MMR) A na-agba ọsọ nchịkọta nke blocks gara aga na block header commits to.
-◯ Consensus branch id. A mkpado na-akọwa nke nkwalite si iwu a azụmahịa eso, eji maka replay nchedo.
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Coinbase transaction | Azụmahịa pụrụ iche dị na ngọngọ ọ bụla nke na-akwụ ụgwọ ngọngọ ahụ |
+| Shielded Sapling address | Ụdị adreesị Zcash nkeonwe nke mmelite Sapling webatara |
+| Shielded coinbase | Mgbanwe Heartwood nke na-ekwe ka a kwụọ ụgwọ ọrụ ngọngọ n'ime adreesị Sapling echekwara |
+| FlyClient | Ụzọ nke na-enye ndị ahịa ìhè ohere iji obere ihe akaebe chọpụta ihe akaebe nke ọrụ |
+| Merkle Mountain Range (MMR) | Nchịkọta na-agba ọsọ nke blọk ndị gara aga nke isi blọk ahụ na-eme |
+| Consensus branch id | Akara ngosi nke na-akọwa iwu nkwalite azụmahịa na-eso, nke ejiri maka nchekwa replay |
 
 ## Ajụjụ ndị a na-ajụkarị
 

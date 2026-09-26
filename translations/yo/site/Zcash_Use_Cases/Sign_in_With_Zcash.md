@@ -71,12 +71,12 @@ This works with wallets that already support memos today, which is most of them.
 
 Ó yẹ kó o lóye rẹ̀ dáadáa kí o tó gbé e karí tàbí gbára lé e.
 
- Ìdánwò tí a fọwọ́ sí.  Ètò ìdìbò tó ń dáàbò bo owó náà.
+| | Ìpèníjà tí a fọwọ́ sí | Isanwo ti a daabobo |
 |---|---|---|
-ìṣòro: Free. Network fee per login. ìjápọ̀ àkànṣe fún gbogbo àwọn tí ó bá ń lo ẹ̀rọ yìí, níbí ni a ti máa rí i pé kò sí ìṣòro kankan.
-Ìyára kánkán. Lákòókò-kíkún. Ó ń dúró de ìmúṣẹ.
-Ìtìlẹyìn fún àpò. Àlàfo, ZIP 304 jẹ ìwé àkọsílẹ̀ kan. Gíga fíìfíìfín, kìkì àwọn ìránnilétí ló nílò.
-Ó fi àkọsílẹ̀ ìsínwọlé sílẹ̀. Rárá o, àdéhùn wà níhìn-ín.
+| Iye owo | Ọfẹ | Iye owo nẹtiwọọki fun iwọle kọọkan |
+| Iyara | Lẹ́sẹ̀kẹsẹ̀ | Nduro fun idaniloju |
+| Àtìlẹ́yìn àpò owó | Àkójọpọ̀ ZIP 304 jẹ́ àkójọpọ̀ ìwé àṣẹ | Gíga, àwọn àkọsílẹ̀ nìkan ló nílò |
+| Ó fi àkọsílẹ̀ ẹ̀wọ̀n sílẹ̀ | No | Bẹ́ẹ̀ni, ìṣòwò kan wà |
 
 Àwọn ààlà tí a pín:
 

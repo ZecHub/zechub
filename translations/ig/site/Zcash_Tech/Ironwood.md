@@ -72,14 +72,14 @@ Wallets and node software handle most of this automatically, but the practical s
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-❖ Ebe a na-edebe ego ndị e zoro ezo. A naghị eji ihe ọ bụla amata onye nwe ha ma ọ bụ otú o si dịrị ya.
-◯ Nrụpụta nke ezi uche. Njehie na-eme ka azụmahịa adịghị mma gafere nyocha nkwenye dị ka a ga - asị na ọ bụ ezigbo ya.
-◯ Turnstile ❑ Ebe a na-enyocha ihe n'ihu ọha nke na-agụpụta ego ndị e bufeere ha ka ọ bụrụzie onye ga-ahụ maka ya.
--Naanị-emefu: A ọdọ mmiri ị nwere ike imefu si, ma enweghị ike tinye ọhụrụ uru na...
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
- Quantum-recoverable note. Ụdị akwụkwọ ego e mere ka a na-enweta ego ma ọ bụrụ na kọmputa kọmpụta mebie ihe ndị dị n'akwụkwọ nzuzo taa.
+| Shielded pool | Nchịkọta ego nke ego na ndị nwe ya zoro ezo site na nzuzo efu |
+| Soundness bug | Njehie nke na-ekwe ka azụmahịa na-ezighi ezi gafere nyocha akaebe dị ka a ga-asị na ọ dị irè |
+| Turnstile | Ebe nlele ọha nke na-agụta uru na-agagharị n'etiti ọdọ mmiri ka ọkọnọ ahụ wee nọgide na-enyocha ya |
+| Spend-only | Ọdọ mmiri ị nwere ike iji, mana ị gaghị etinye uru ọhụrụ na ya |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
+| Quantum-recoverable note | E mere usoro ndetu ka e wee nweta ego ma ọ bụrụ na kọmputa quantum emebie ihe ndekọ ego nke oge a |
 
 ## Ajụjụ ndị a na-ajụkarị
 

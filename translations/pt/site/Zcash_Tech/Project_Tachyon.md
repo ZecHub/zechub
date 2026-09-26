@@ -95,13 +95,13 @@ O trabalho relacionado já é visível. [Zakura](https://zechub.wiki/zcash-tech/
 
 | Termo | Significado |
 |---|---|
-| Desencriptação por tentativa | Tentar desencriptar transações uma a uma para encontrar aquelas que lhe são endereçadas |
-| Distribuição de segredos em banda | Colocar o segredo de pagamento dentro da transação na blockchain, como Zcash faz atualmente |
-| Pagamento fora de banda | Transmitir os detalhes do pagamento diretamente entre remetente e destinatário, em vez de através da cadeia |
-| Sincronização oblivious | Obter os dados da cadeia de que uma wallet precisa sem revelar quais os dados solicitados |
-| Dados acompanhados de provas (PCD) | Dados que viajam com uma prova da sua própria correção, para que as provas possam ser combinadas e comprimidas |
-| Agregado de transações blindadas | A forma de Tachyon agrupar alterações de estado blindado, alterando como são comunicadas e assinadas |
-| indistinguibilidade do livro-razão | A propriedade de as transações blindadas não poderem ser distinguidas umas das outras |
+| Trial decryption | Tentar desencriptar transações uma a uma para encontrar aquelas que lhe são endereçadas |
+| In-band secret distribution | Colocar o segredo de pagamento dentro da transação na blockchain, como Zcash faz atualmente |
+| Out-of-band payment | Transmitir os detalhes do pagamento diretamente entre remetente e destinatário, em vez de através da cadeia |
+| Oblivious synchronization | Obter os dados da cadeia de que uma wallet precisa sem revelar quais os dados solicitados |
+| Proof-carrying data (PCD) | Dados que viajam com uma prova da sua própria correção, para que as provas possam ser combinadas e comprimidas |
+| Shielded transaction aggregate | A forma de Tachyon agrupar alterações de estado blindado, alterando como são comunicadas e assinadas |
+| ledger indistinguishability | A propriedade de as transações blindadas não poderem ser distinguidas umas das outras |
 
 <br/>
 

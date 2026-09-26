@@ -71,12 +71,12 @@ Ngwa anaghị echekwa adreesị gị iji mata gị. Ụfọdụ mmejuputa iwu na
 
 Ọ dị mkpa ka ị ghọta ya tupu i jiri ya mee ihe ma ọ bụ tụkwasị ya obi.
 
-◯ Ihe ịma aka e debanyere aha na ya ❑ Ịkwụ ụgwọ a gbachiri agbachi ❖ Onye ọ bụla nwere ike ịza ajụjụ ahụ .
+| | Ihe ịma aka ebinyere aka | Ịkwụ ụgwọ echebere |
 |---|---|---|
- Ọnụ ego: Free. Ụgwọ netwọk maka nbanye ọ bụla.
-Ngwa. Ozugbo. Na-echere nkwenye.
-◯ Nkwado obere akpa ego. Limited, ZIP 304 is a draft. Broad, only needs memos.
- Na-ahapụ ndekọ usoro. Mba, azụmahịa dị adị.
+| Ọnụ ego | N'efu | Ụgwọ netwọkụ kwa nbanye |
+| Ọsọ | Ozugbo | Na-eche nkwenye |
+| Nkwado obere akpa | N'ụzọ dị oke mma, ZIP 304 bụ ihe e dere ede | Obosara, naanị ihe achọrọ bụ ndetu |
+| Na-ahapụ ndekọ agbụ ígwè | No | Ee, azụmahịa dị |
 
 Ihe ndị a na-ejikọ ọnụ:
 

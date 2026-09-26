@@ -144,16 +144,16 @@ Ka gburugburu iwu na-eme ka ụwa sie ike, ebe mpaghara dịka EU na-enyocha mgb
 
 ## Nchịkọta nke ihe ndị a na-ekwu
 
- Ihe ndị dị na ya  Nkọwapụta 
+| atụmatụ | Nkọwa |
 |---|---|
-** Platform** ShapeShift DAO (nkewapụrụ, isi mmalite)
-** Gọọmenti** Ndị na-ejide akara ngosi FOX.
-| **Zcash Support** | Full ZEC trading with shielded transaction support |
-**KYC chọrọ** Ọ dịghị.
-** Nchebe** Non-nchekwa (ndị ọrụ na-edebe igodo ha)
-** Cross-Chain Swaps** BTC, ETH, Arbitrum, Cosmos na ndị ọzọ.
- ** Ihe owuwu ụlọ ọrụ** Powered by Liquify (90+ blockchain RPC support)
-**Zcash Community Grants Funding** $50,000 maka nkwado teknụzụ na ahịa.
+| **Ikpo okwu** | ShapeShift DAO (nke enweghị ike ịgbanwe agbanwe, nke mepere emepe) |
+| **Ọchịchị** | Ndị ji akara FOX |
+| **Zcash Support** | Azụmaahịa ZEC zuru oke na nkwado azụmahịa echekwara |
+| **Achọrọ KYC** | No |
+| **Nchedo** | Enweghị nchekwa (ndị ọrụ na-ejide igodo nke ha) |
+| **Mgbanwe Agbụ Ogbenye** | BTC, ETH, Arbitrum, Cosmos, na ndị ọzọ |
+| **Akụrụngwa** | Kwadoro site na Liquify (nkwado RPC blockchain 90+) |
+| **Zcash Community Grants Funding** | $50,000 maka nkwado teknụzụ na ahịa |
 
 The ShapeShift and Zcash integration represents a meaningful step forward for privacy in decentralized finance. By combining ShapeShift's non-custodial, multichain trading infrastructure with Zcash's zero-knowledge proof technology, users gain access to truly private, permissionless cryptocurrency trading. For anyone who values financial privacy and self-sovereignty, this integration provides a practical, accessible path to using ZEC without compromise.
 

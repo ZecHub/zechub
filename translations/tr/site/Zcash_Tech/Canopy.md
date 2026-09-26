@@ -48,12 +48,12 @@ Fonlama değişikliklerinin yanında Canopy, iki küçük teknik ZIP daha içeri
 
 | Terim | Sade anlamı |
 |---|---|
-| Kurucu ödülü | Zcash’in ilk geliştirme dönemini finanse eden, ilk yarılanmada sona ermesi planlanan orijinal finansman modeli |
+| Founders reward | Zcash’in ilk geliştirme dönemini finanse eden, ilk yarılanmada sona ermesi planlanan orijinal finansman modeli |
 | Development Fund | Canopy’nin geliştirmeye yönlendirdiği, her blok ödülünün yüzde 20’lik payı; ikinci yarılanmaya kadar sürer |
-| Blok ödülü (sübvansiyon) | Her blok çıkarıldığında oluşturulan ve dağıtılan yeni ZEC |
-| Yarılanma | Blok ödülünün yarıya indirildiği planlı olay |
+| Block reward (subsidy) | Her blok çıkarıldığında oluşturulan ve dağıtılan yeni ZEC |
+| Halving | Blok ödülünün yarıya indirildiği planlı olay |
 | Funding stream | Blok sübvansiyonunun bir kısmını tanımlı alıcı adreslerine yönlendiren konsensüs mekanizması (ZIP 207) |
-| Sprout havuzu | Canopy’nin yeni değer kabul etmeyi durdurduğu, Zcash’in orijinal shielded havuzu |
+| Sprout pool | Canopy’nin yeni değer kabul etmeyi durdurduğu, Zcash’in orijinal shielded havuzu |
 
 ## SSS
 

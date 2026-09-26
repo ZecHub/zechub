@@ -40,9 +40,9 @@ Heartwood, Zcash yükseltmeleri dizisindeki adımlardan biridir; her biri, sonra
 
 | Terim | Sade anlamı |
 |---|---|
-| Ağ yükseltmesi (NU) | Zcash'in konsensüs kurallarında, belirli bir blok yüksekliğinde etkinleşen koordineli bir değişiklik |
-| Coinbase işlemi | Her bloktaki blok ödülünü ödeyen özel işlem |
-| Shielded Sapling adresi | Sapling yükseltmesiyle tanıtılan özel bir Zcash adres türü |
+| Network upgrade (NU) | Zcash'in konsensüs kurallarında, belirli bir blok yüksekliğinde etkinleşen koordineli bir değişiklik |
+| Coinbase transaction | Her bloktaki blok ödülünü ödeyen özel işlem |
+| Shielded Sapling address | Sapling yükseltmesiyle tanıtılan özel bir Zcash adres türü |
 | Shielded coinbase | Blok ödüllerinin shielded Sapling adreslerine ödenmesini sağlayan Heartwood değişikliği |
 | FlyClient | Hafif istemcilerin proof-of-work'ü küçük ispatlarla doğrulamasını sağlayan bir yöntem |
 | Merkle Mountain Range (MMR) | Blok başlığının taahhütte bulunduğu, geçmiş blokların çalışan bir özeti |

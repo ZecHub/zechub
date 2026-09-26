@@ -57,12 +57,12 @@ A NU6 é um capítulo numa história mais longa sobre como a Zcash se financia.
 
 | Termo | Significado em linguagem simples |
 |---|---|
-| Subsídio de bloco | O novo ZEC criado com cada bloco minerado |
-| Transação coinbase | A transação especial que paga o subsídio e as taxas de um bloco |
+| Block subsidy | O novo ZEC criado com cada bloco minerado |
+| Coinbase transaction | A transação especial que paga o subsídio e as taxas de um bloco |
 | Deferred Dev Fund Lockbox | Uma reserva no próprio protocolo que mantém uma parte da emissão para uso futuro decidido pela comunidade |
 | Zcash Community Grants (ZCG) | Um comité que financia trabalho feito pela e para a comunidade Zcash |
-| Id do ramo de consenso | O identificador que os nós usam para indicar quais as regras de atualização que um bloco segue |
-| Atualização de rede (NU) | Uma alteração coordenada às regras de consenso da Zcash, ativada numa determinada altura de bloco |
+| Consensus branch id | O identificador que os nós usam para indicar quais as regras de atualização que um bloco segue |
+| Network upgrade (NU) | Uma alteração coordenada às regras de consenso da Zcash, ativada numa determinada altura de bloco |
 
 ## FAQ
 

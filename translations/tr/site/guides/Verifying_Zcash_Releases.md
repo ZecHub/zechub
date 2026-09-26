@@ -176,13 +176,13 @@ Subject Alternative Name kimliğin kendisidir. Depoyu, tam iş akışı dosyası
 
 | Alan | v6.3.0 için değer |
 |---|---|
-| OIDC sağlayıcısı | `https://token.actions.githubusercontent.com` |
-| Kaynak deposu | `https://github.com/ZcashFoundation/zebra` |
-| Derleme commit’i | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| Çalıştırıcı ortamı | `github-hosted` |
-| İş akışı çalıştırması | `.../actions/runs/31424510487/attempts/1` |
-| Depo görünürlüğü | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Bunların her biri kontrol edilebilir. Commit hash’i depodaki etiketle eşleşmelidir; iş akışı çalıştırması mevcut olmalı ve herkese açık olmalıdır.
 
@@ -219,9 +219,9 @@ Paket, imzanın herkese açık, yalnızca ekleme yapılan bir günlüğe yayıml
 
 | Alan | Değer |
 |---|---|
-| Rekor günlük indeksi | `2412071838` |
-| Girdi türü | `hashedrekord v0.0.1` |
-| Günlüğe eklenme zamanı | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 Sessiz anahtar kötüye kullanımını tespit edilebilir kılan şey budur. Günlükte hiç görünmeyen ya da makul olmayan bir zamanda görünen bir imza, dikkate alınması gereken bir sinyaldir. Günlüğe eklenme zamanını sürüm duyurusuyla karşılaştırın.
 
@@ -427,10 +427,10 @@ Bir imza başarısızlığı, sağlama toplamı başarısızlığından daha cid
 
 | Proje | Sürümlerin yayımlandığı yer | Yöntem | Anahtarın geldiği yer |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore paketi | Anahtar yok; GitHub OIDC üzerinden CI kimliği |
-| **Zallet** | `github.com/zcash/zallet/releases` | Ayrık GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — birincil `0338 34DD…58E2 6AB1`, imzalama alt anahtarı `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Anahtar yok; GitHub OIDC üzerinden CI kimliği |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — birincil `0338 34DD…58E2 6AB1`, imzalama alt anahtarı `1FE9 9324…23F0 617F` |
 | **zcashd** | *emekliye ayrıldı* | — | 2026-07-18 tarihinde 3,417,100. blokta durdu. Kurmayın. |
-| **Zodl** (eski adıyla Zashi) | App Store / Google Play; GitHub’da `zodl-inc` | Mağaza imzası; bağımsız Android ikili dosyaları GPG ile imzalı | Geçiş beyanına göre ZODL anahtarı |
+| **Zodl** (eski adıyla Zashi) | App Store / Google Play; GitHub’da `zodl-inc` | Store signing; standalone Android binaries GPG-signed | Geçiş beyanına göre ZODL anahtarı |
 
 > **Adlandırma notu:** Zashi, 2026’da önce App Store’da sonra Google Play’de **Zodl** olarak yeniden markalandı. “Zashi” diyen eski rehberler aynı cüzdan soyunu anlatır.
 

@@ -43,9 +43,9 @@ Bir Sapling ödeme açıklaması, bir gönderici adresini açığa çıkarmak zo
 
 | Yöntem | En iyi kullanım | Açığa çıkardıkları | Sürekli erişim? | Ödemeye kriptografik olarak bağlı mı? |
 | --- | --- | --- | --- | --- |
-| İşlem kimliği | Bir işlemin madenciliğinin yapıldığını kontrol etmek | Herkese açık işlem verileri ve onaylar | Hayır | Evet, ancak korumalı ödeme ayrıntıları gizli kalır |
-| Ekran görüntüsü veya makbuz | Gayriresmî kayıt tutma | Gönderenin göstermeyi seçtiği her şey | Hayır | Hayır; görüntü düzenlenebilir |
-| Ödeme açıklaması | Tek bir ödemenin seçilmiş ayrıntılarını kanıtlamak | Seçilmiş işlem çıktıları ve eklenmiş tüm gönderici veya meydan okuma kanıtları | Hayır, ancak paylaşılan kanıt kopyalanabilir | Evet |
+| Transaction ID | Bir işlemin madenciliğinin yapıldığını kontrol etmek | Herkese açık işlem verileri ve onaylar | Hayır | Evet, ancak korumalı ödeme ayrıntıları gizli kalır |
+| Screenshot or receipt | Gayriresmî kayıt tutma | Gönderenin göstermeyi seçtiği her şey | Hayır | Hayır; görüntü düzenlenebilir |
+| Payment disclosure | Tek bir ödemenin seçilmiş ayrıntılarını kanıtlamak | Seçilmiş işlem çıktıları ve eklenmiş tüm gönderici veya meydan okuma kanıtları | Hayır, ancak paylaşılan kanıt kopyalanabilir | Evet |
 | Incoming Viewing Key | Bir hesabın aldığı ödemeleri izlemek | Anahtarın kapsadığı gelen etkinlik | Evet | Eşleşen gelen ödemelerin şifresini çözer |
 | Full Viewing Key | Bir hesabın muhasebesi veya denetimi | Anahtarın kapsadığı gelen ve giden etkinlik, tutarlar, notlar ve bakiyeler | Evet | Eşleşen hesap etkinliğinin şifresini çözer |
 

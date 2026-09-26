@@ -92,7 +92,7 @@ Sɛ woyɛ foforo wɔ blockchains mu mpɛn pii a, . [Bitcoin a wobɛyɛ no yiye](
 
 ## Mpɔtam hɔ ne nsɛm a esisi
 
-No [Zcash R&D Nkitahodi](https://discord.gg/6AK7keWFaK) ne baabi a wɔka protocol ne wallet nkɔso ho asɛm, na [Zcash Mpɔtam Hɔ Nhyiam](https://forum.zcashcommunity.com/) kura nsusuwii atenten ne nhama a wɔde boa.
+No [Zcash R&D Discord](https://discord.gg/6AK7keWFaK) ne baabi a wɔka protocol ne wallet nkɔso ho asɛm, na [Zcash Mpɔtam Hɔ Nhyiam](https://forum.zcashcommunity.com/) kura nsusuwii atenten ne nhama a wɔde boa.
 
 Nnansa yi hackathon aba no yɛ nea nkurɔfo rekyekye ho mfonini pa: [ZecHub 2024 na ɔkyerɛwee](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025 na ɔkyerɛwee](https://x.com/ZecHub/status/1975565960661635283) ne nea [Zypherpunk Hackathon a wɔyɛe wɔ afe 2025 mu](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
 

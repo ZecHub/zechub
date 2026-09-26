@@ -4,7 +4,7 @@
 
 # Overwinter
 
-> Dzomeŋɔli yi agbe le Zcash mainnet dzi le block 347,500 (June 26, 2018 UTC).
+> Overwinter yi agbe le Zcash mainnet dzi le block 347,500 (June 26, 2018 UTC).
 
 Nusi nàtsɔ adzoe: alesi Zcash srɔ̃ alesi wòatrɔ eya ŋutɔ ƒe sewo dedie, kple nusita gɔmeɖoanyi ma na be ŋgɔyiyi ɖesiaɖe si woawɔ emegbe, si adze egɔme tso Sapling dzi, te ŋu dzɔ.
 
@@ -18,7 +18,7 @@ Nusitae esia le vevie ɖo. Blockchain si le agbe ƒe sewo tɔtrɔ nye afɔku. Ge
 
 Overwinter to Network Upgrade Mechanism vɛ, si gɔme woɖe le [ZIP 200 ƒe xexlẽme](https://zips.z.cash/zip-0200). Fifia ŋgɔyiyi ɖesiaɖe ɖea nu eve gɔme: alɔdze id si dzi woda asi ɖo si yɔa se siwo li fifia ƒe ŋkɔ, kple dɔwɔwɔ ƒe kɔkɔme, si nye mɔxenu si dzi se yeyeawo awɔ dɔ le. Esia naa fesre si me kɔ na amesiame si le Zcash kɔmpiuta dɔwɔɖoɖo zãm be wòawɔ yeye hafi atrɔ.
 
-Dzomeŋɔli ŋutɔ wɔ dɔ le mainnet dzi le block 347,500.
+Overwinter ŋutɔ wɔ dɔ le mainnet dzi le block 347,500 dzi.
 
 [ZIP 201 ƒe xexlẽdzesi](https://zips.z.cash/zip-0201) kpɔa alesi nodes wɔa nu ɖe ​​wo nɔewo ŋu ƒo xlã ŋgɔyiyi aɖe gbɔ. Hafi woawɔ dɔ la, nodes lɔ̃a kadodo kple hati siwo zãa version ɖeka. Le dɔwɔwɔ me la, node aɖe tsoa kadodo me kple hati siwo le alɔdze si dzi woda asi ɖo bubu dzi, eyata network la ma dzadzɛ le se yeyeawo nu le esi teƒe be wòatɔtɔ.
 
@@ -44,12 +44,12 @@ Overwinter nye Zcash network ƒe tɔtrɔ gbãtɔ le October 2016 mainnet ƒe dod
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Netwɔƒe ƒe ŋgɔyiyi (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
-| Nubabla ƒe alɔdze id | Dzesidenu kpui aɖe si yɔa se siwo dzi woda asi ɖo ƒe hatsotso si li fifia |
-| Dɔwɔwɔ ƒe kɔkɔme | Block si dzi network upgrade ƒe se yeyewo dze dɔwɔwɔ gɔme le |
-| Gbugbɔ ƒoƒo takpɔkpɔ | Se si xea mɔ na asitsatsa si sɔ le kɔsɔkɔsɔ ɖeka dzi be woagazãe le bubu dzi o |
-| Mempool ƒe ƒuƒoƒo | Asitsatsa siwo woɖe ɖe go gake womeɖe tome haɖe o ɖe block |
-| Asitsatsa ƒe nuwuwu | Exiration block height si megbe woɖe asi le asitsatsa si womeɖe o ŋu |
+| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Consensus branch id | Dzesidenu kpui aɖe si yɔa se siwo dzi woda asi ɖo ƒe hatsotso si li fifia |
+| Activation height | Block si dzi network upgrade ƒe se yeyewo dze dɔwɔwɔ gɔme le |
+| Replay protection | Se si xea mɔ na asitsatsa si sɔ le kɔsɔkɔsɔ ɖeka dzi be woagazãe le bubu dzi o |
+| Mempool | Asitsatsa siwo woɖe ɖe go gake womeɖe tome haɖe o ɖe block |
+| Transaction expiry | Exiration block height si megbe woɖe asi le asitsatsa si womeɖe o ŋu |
 
 ## Nyabiasewo ƒe Nyabiasewo
 
@@ -79,15 +79,15 @@ Elabena eyae tu mɔ̃ siwo dzi wotrɔ asi le emegbe ɖesiaɖe. Overwinter to Net
 
 [ZIP 200: Netwɔƒe ƒe Ðɔɖɔɖo ƒe Mɔnu](https://zips.z.cash/zip-0200)
 
-[ZIP 201: Network Hatiwo Dzikpɔkpɔ na Dzomeŋɔli](https://zips.z.cash/zip-0201)
+[ZIP 201: Network Hatiwo Dzikpɔkpɔ na Overwinter](https://zips.z.cash/zip-0201)
 
-[ZIP 202: Version 3 Asitsatsa ƒe Nɔnɔme na Dzomeŋɔli](https://zips.z.cash/zip-0202)
+[ZIP 202: Version 3 Asitsatsa ƒe Nɔnɔme na Overwinter](https://zips.z.cash/zip-0202)
 
 [ZIP 203: Asitsatsa ƒe Nuwuwu](https://zips.z.cash/zip-0203)
 
-[ZIP 143: Asitsatsa ƒe Asidede Asi ƒe Dzesidede na Dzomeŋɔli](https://zips.z.cash/zip-0143)
+[ZIP 143: Asitsatsa ƒe Asidede Asi ƒe Dzesidede na Overwinter](https://zips.z.cash/zip-0143)
 
-[Le Dzomeŋɔli me Network Upgrade](https://z.cash/upgrade/overwinter/)
+[Overwinter Network Upgrade](https://z.cash/upgrade/overwinter/)
 
 ### Kpɔe hã
 
