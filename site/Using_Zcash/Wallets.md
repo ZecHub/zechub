@@ -342,11 +342,11 @@
 
 ## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
-- Devices: Desktop | Browser
-- Operating System: Linux | iOS | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
-- Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | Tor Support | I2P Support | Zebra/zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
+- Devices: Desktop | Web
+- Operating System: Windows | Linux | macOS | Browser
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | Full Node
+- Pools: Ironwood
+- Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
 - Ironwood: Ready
 
 ---
