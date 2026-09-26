@@ -4,7 +4,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | CrossPay | NEAR Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting
 - Ironwood: Ready
 
 ---
