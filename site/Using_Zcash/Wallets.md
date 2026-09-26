@@ -265,8 +265,10 @@
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - Devices: Web | Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Wallet Support: MPC Vault
 - Pools: Transparent
-- Features: Multi Coin | Web App
+- Features: Multi Coin
+- Ironwood: Not Ready
 
 ---
 
