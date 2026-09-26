@@ -479,8 +479,14 @@ It also helps you **avoid the cost of renting a VPS**, which is ideal if cryptoc
 2. On your **home server**, install Cloudflare Tunnel:
 
 ```
+# Add Cloudflare's official package repo and GPG key, then install cloudflared
+# (cloudflared is not in Debian/Raspberry Pi OS default repos, and apt has no --legacy option)
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared bookworm main' \
+  | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
 ```
 
 3. Authenticate with Cloudflare:
