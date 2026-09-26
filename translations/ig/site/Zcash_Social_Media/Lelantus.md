@@ -6,7 +6,7 @@ Taa, anyị ga-eleba anya na **Lelantus**!
 
 Released in 2019, this protocol builds upon Zerocoin. It is used in the **Firo** currency (formerly Zcoin) to enable private on-chain transactions. It resembles Zcash in some ways but is distinctly different in most aspects.
 
-[Lelantus mmeghe](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
+![Lelantus mmeghe](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@ Released in 2019, this protocol builds upon Zerocoin. It is used in the **Firo**
 - **Zcash** - Na-ewulite na **Zerocash** protocol 
 - **Firo (Zcoin) ** - Wuru na **Zerocoin** protocol
 
-[Zerocash vs Zerocoin ntụnyere](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Zerocash vs Zerocoin ntụnyere](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Yiri Zcash, Firo na-eji adreesị echedoro iji nweta ịkwụ ụgwọ na-enwegh
 - ** Sigma ** - Atụmatụ ahaziri ahazi
 - **Lelantus 1.0** - Enweghị ihe akaebe nchekwa ziri ezi
 
-[Nkwekọrịta evolushọn](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![Nkwekọrịta evolushọn](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Isi uru:
 
 **Ibelata**: Oke setịpụrụ ugbu a na ** mkpụrụ ego 65,000 **.
 
-[Ihe ndị dị na Lenantus](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+![Ihe ndị dị na Lenantus](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Ndị a na-arụ ọrụ yiri ** Notes ** na Zcash.
 
 A na-ebipụta nkwekọrịta mkpụrụ ego ma chekwaa ya na akwụkwọ ndekọ mgbe e kere mkpụrụ ego ahụ (site na Mint ma ọ bụ Spend azụmahịa).
 
-[Ihe osise nke mkpụrụ ego](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![Ihe osise nke mkpụrụ ego](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus na-eji kpochapụwo **basecoin < - > ihe nlereanya zerocoin**.
 
 Dị ka Zcash, azụmahịa ndị doro anya ga-ahọrọ nke ọma site n'aka onye ọrụ.
 
-[Lelantus na-agafe](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+![Lelantus na-agafe](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus na-eji ** One-of-Many Proofs ** ewepụta ụkpụrụ ntinye dị mkpa
 
 A na-ejikwa ihe akaebe ndị a na **Triptych** (nke a kpọtụrụ aha na isiokwu CryptoNote anyị).
 
-[Otu n'ime ọtụtụ ihe akaebe](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![Otu n'ime ọtụtụ ihe akaebe](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Nke a na-eme ka o sie ike ịchọpụta mmalite nke azụmahịa site na nyocha
 
 Njirimara ndị a yiri Zcash Shielded Assets.
 
-[Mgbasa ozi nke Lelantus-Spark](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Mgbasa ozi nke Lelantus-Spark](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

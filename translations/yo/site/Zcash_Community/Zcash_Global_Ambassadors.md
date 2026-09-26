@@ -28,8 +28,8 @@
 | Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Àkóónú ẹ̀kọ́ Lárúbáwá, AMAs |
 | Yukrayn| [Zcask Ukraine](https://x.com/Zcash_ua) | Yukrayn |
 | Nàìjíríà | [Zcash Nàìjíríà](https://x.com/ZcashNigeria) | Ẹ̀kọ́ àwọn olùgbékalẹ̀, ìtẹ̀síwájú àwùjọ |
-| Ìlà Oòrùn Áfíríkà | [Zcash Ìlà Oòrùn Áfíríkà](https://x.com/ZcashEastAfrica) Ìdàgbàsókè àwùjọ ní ìlà-oòrùn Áfíríkà àti Uganda |
-| Gúúsù Áfíríkà [Zcash Gúúsù Áfíríkà](https://twitter.com/Zcash_SA) | Gúúsù Áfíríkà
+| Ìlà Oòrùn Áfíríkà | [Zcash Ìlà Oòrùn Áfíríkà](https://x.com/ZcashEastAfrica) | Ìdàgbàsókè àwùjọ ní ìlà-oòrùn Áfíríkà, Uganda |
+| gusu Afrika | [Zcash Gúúsù Áfíríkà](https://twitter.com/Zcash_SA) | gusu Afrika |
 | Gánà | [Zcash Ghana](https://x.com/ZcashGH) | Gánà |
 | Meksiko | [zcashqro](https://x.com/zcashqro) | Ìbánisọ̀rọ̀ àti ìdàgbàsókè Yunifásítì |
 | Rọ́síà | [ruZcash](https://x.com/ruZCASH) | Àkóónú àti àwùjọ èdè Rọ́síà |

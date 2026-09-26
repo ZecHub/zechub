@@ -74,12 +74,12 @@ Gakotokuwo kple node kɔmpiutadziɖoɖowo kpɔa esia ƒe akpa gãtɔ gbɔ le wo 
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Ta si wotsɔ akpoxɔnu wɔe | Ga siwo ƒe agbɔsɔsɔme kple aƒetɔwo ɣla to zero-knowledge cryptography |
-| Gbeɖiɖi ƒe nugbagbevi | Vodada si na be asitsatsa si mesɔ o to kpeɖodzi ƒe ɖaseɖigbalẽa me abe ɖe wòsɔ ene |
-| Turnstile ƒe ʋuƒo | Dutoƒokpɔƒe si xlẽa asixɔxɔ si le ʋuʋum le tadeaguƒewo dome ale be nuawo nanɔ anyi si woate ŋu adzro |
-| Gazazã ɖeɖeko | Ta si me nàte ŋu azã ga le, gake màte ŋu atsɔ asixɔxɔ yeye akpe ɖe | ŋu o
-| Netwɔƒe ƒe ŋgɔyiyi (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
-| Quantum-gbugbɔgaxɔ ƒe nuŋlɔɖi | Nuŋlɔɖi ƒe ɖoɖo si wowɔ ale be woate ŋu axɔ ga ne quantum kɔmpiutawo gblẽ egbegbe nya ɣaɣlawo me gbeɖeka |
+| Shielded pool | Ga siwo ƒe agbɔsɔsɔme kple aƒetɔwo ɣla to zero-knowledge cryptography |
+| Soundness bug | Vodada si na be asitsatsa si mesɔ o to kpeɖodzi ƒe ɖaseɖigbalẽa me abe ɖe wòsɔ ene |
+| Turnstile | Dutoƒokpɔƒe si xlẽa asixɔxɔ si le ʋuʋum le tadeaguƒewo dome ale be nuawo nanɔ anyi si woate ŋu adzro |
+| Spend-only | Ta si me nàte ŋu azã ga le, gake màte ŋu atsɔ asixɔxɔ yeye akpe ɖe | ŋu o
+| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Quantum-recoverable note | Nuŋlɔɖi ƒe ɖoɖo si wowɔ ale be woate ŋu axɔ ga ne quantum kɔmpiutawo gblẽ egbegbe nya ɣaɣlawo me gbeɖeka |
 
 ## Nyabiasewo ƒe Nyabiasewo
 

@@ -159,15 +159,15 @@ Wir haben bewusst vereinfacht. Der echte Schaltkreis umfasst Hunderte von Bereic
 
 | Begriff | Bedeutung in einfachem Deutsch |
 |---|---|
-| **Abgeschirmter Pool** | Der private Modus von Zcash, in dem Beträge und Beteiligte verborgen sind |
-| **Zero-Knowledge-Beweis** | Ein Beweis, dass eine verborgene Aussage gültig ist, ohne etwas anderes offenzulegen |
-| **Schaltkreis** | Die feste Menge arithmetischer Bedingungen, die eine gültige Transaktion erfüllen muss |
+| **Shielded pool** | Der private Modus von Zcash, in dem Beträge und Beteiligte verborgen sind |
+| **Zero-knowledge proof** | Ein Beweis, dass eine verborgene Aussage gültig ist, ohne etwas anderes offenzulegen |
+| **Circuit** | Die feste Menge arithmetischer Bedingungen, die eine gültige Transaktion erfüllen muss |
 | **Constraint** | Eine Bedingung (Gleichung) innerhalb des Schaltkreises |
 | **Witness** | Die geheimen Werte, welche die Constraints erfüllen |
 | **Soundness** | Die Garantie, dass nur wahre Aussagen einen gültigen Beweis erzeugen können |
-| **Soundness-Lücke** | Ein fehlender Constraint, der falsche Aussagen bestehen lässt |
-| **Nicht ausreichend eingeschränkt** | Ein Schaltkreis, dem eine benötigte Bedingung fehlt, die Ursache des Orchard-Bugs |
-| **Erkennbar / nicht erkennbar** | Ob eine Ausnutzung Belege im öffentlichen Ledger hinterlassen würde |
+| **Soundness gap** | Ein fehlender Constraint, der falsche Aussagen bestehen lässt |
+| **Under-constrained** | Ein Schaltkreis, dem eine benötigte Bedingung fehlt, die Ursache des Orchard-Bugs |
+| **Detectable / undetectable** | Ob eine Ausnutzung Belege im öffentlichen Ledger hinterlassen würde |
 
 ---
 

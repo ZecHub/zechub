@@ -45,7 +45,7 @@ wọlé pẹ̀lú X, Google, Discord, Telegram
 
 ### Awọn irinṣẹ ti a sanwo:
 
-- [Bọtì Àárín Ọ̀nà](https://discord.com/invite/midjourney) nínú Discord - láti $ 10/osù - [Ìtọ́ni fún Ìbẹ̀rẹ̀](https://docs.midjourney.com/docs/quick-start)
+- [Midjourney Bot](https://discord.com/invite/midjourney) nínú Discord - láti $ 10/osù - [Ìtọ́ni fún Ìbẹ̀rẹ̀](https://docs.midjourney.com/docs/quick-start)
 le gba nipa 100 free iran nipa rating ọpọlọpọ awọn miran [awọn aworan ni nibi](https://www.midjourney.com/app/rank-pairs/)
 (ó yẹ kí wọ́n ṣe é fún àwọn tí ó gbajúmọ̀ jùlọ - nǹkan bí ìṣẹ́jú mẹ́ẹ̀ẹ́dógún ti fíìmù tí a fi ń díwọ̀n)
 - [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 ìran - (ìran 15 lómìnira/oṣù)
@@ -57,7 +57,7 @@ le gba nipa 100 free iran nipa rating ọpọlọpọ awọn miran [awọn awora
 ### Àwọn irinṣẹ́ (ìdánwò lọ́fẹ̀ẹ́):
 
 - [RunwayML GEN-2](https://runwayml.com/) (ìdánwò ọ̀fẹ́, ìforúkọsílẹ̀ láti $15/osù)
-- [Pika Labs Àríyànjiyàn Bot](https://www.pika.art/) (Ṣé ATM lómìnira ni?)
+- [Pika Labs Discord Bot](https://www.pika.art/) (Ṣé ATM lómìnira ni?)
 - [elai](https://elai.io/) (ìforúkọsílẹ̀ láti $23/osù)
 
 ### Àwọn irinṣẹ́ ìtumọ̀ fídíò/ohùn:

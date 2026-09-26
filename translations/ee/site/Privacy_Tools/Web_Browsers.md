@@ -5,7 +5,7 @@
 
 # Nyatakakadzraɖoƒewo ƒe Nyatakakadzraɖoƒewo
 
-1. **Dzideƒo:** Browser xɔŋkɔ siwo le dedie wu le asi me egbea dometɔ ɖeka. Exea mɔ na boblododo & trackers siwo xɔa ame ŋutɔ ƒe nyawo me. Exea mɔ na ame bubuwo ƒe nyatakakawo dzraɖoƒe. 
+1. **Brave:** Browser xɔŋkɔ siwo le dedie wu le asi me egbea dometɔ ɖeka. Exea mɔ na boblododo & trackers siwo xɔa ame ŋutɔ ƒe nyawo me. Exea mɔ na ame bubuwo ƒe nyatakakawo dzraɖoƒe. 
 
 2. **Mulvad:** Nyatakakadzraɖoƒe si tsia dzi ɖe ame ŋutɔ ƒe nyawo ŋu si wowɔ le Mullvad VPN kple Tor Dɔwɔɖoɖoa ƒe nuwɔwɔ aduadu me. Wowɔe be woaɖe asibidɛwo yometiti kple asibidɛwo ƒe dzesiwo xɔxɔ dzi akpɔtɔ
 
@@ -24,7 +24,7 @@ Ne èle nyatakakadzraɖoƒe tiam la, nu ʋɛ aɖewo li siwo wòle be wòanɔ sus
 
 **Navigation Test**: Ne èle tsatsam tso nyatakakadzraɖoƒe ɖeka yi bubu dzi la, àva do go kadodo geɖewo (ɖewo nye kadodo ememetɔwo esime bubuwo le kadodo me kple nyatakakadzraɖoƒe bubu). Ne èzi kadodo siawo dzi la, browser API aɖewo ɖea mɔ na nyatakakadzraɖoƒe gbãtɔ be wòaɖo dze kple nyatakakadzraɖoƒe evelia. Be nàkpɔ esia gbɔ la, tia nyatakakadzraɖoƒe aɖe si xea mɔ na nyatakakadzraɖoƒewo be woagama nyatakaka siwo léa ŋku ɖe wo ŋu ne èzi kadodo aɖe dzi o. Ne èle web-browser ma si nèsusu be ate ŋu asɔ na wò tiam la, kpɔ egbɔ be ena ameŋunyatakakawo takpɔkpɔ ƒe mɔnu sesẽwo kple nu veviwo abe boblododo mɔxenu siwo wotu ɖe eme kple nusiwo mele eme o ene. Tsɔ kpe ɖe eŋu la, nyatakakadzraɖoƒe siawo dometɔ geɖe doa alɔ kekeɖenudɔwɔwɔwo kpe ɖe kpeɖeŋutɔ bubuwo ŋu eye ɣeaɖewoɣi la, kekeɖenudɔ siawo ate ŋu ahe dedienɔnɔ ƒe afɔkuwo vɛ, kpɔ egbɔ be yeda kekeɖenudɔ siawo ɖe wò kɔmpiuta dzi ɣesiaɣi tso lãwo ƒe agbenɔnɔ ƒe ɖoɖo si le dedie alo teƒe siwo dzi nèka ɖo.
  
-## Dzinɔameƒo Browser Zcash Gakotoku ƒe Ðekawɔwɔ
+## Brave Browser Zcash Wallet Ðekawɔwɔ
 
 Brave browser le mɔ ʋum na web3 ecosystem. Alekee? Woate ŋu azã domenyiŋusẽfianu siwo wu miliɔn 2 siwo womate ŋu atɔ te o fifia atsɔ aɖe nyatakakadzraɖoƒe siwo woɖe ɖe vovo la afia. Esi Brave Browsers ƒe dedienɔnɔ ƒe mɔnu sesẽwo li ta la, amewo ate ŋu adzro internet dzi evɔ womalé ŋku ɖe wo ŋu o. Brave kple Zcash le ɖeka wɔm be yewoatsɔ ameŋunyatakakawo ŋuti dɔwɔnu yeyewo ava Web3 ecosysem. Le viɖe geɖe wu ta la, Brave awɔ ɖeka kabakaba kple Zcash ɖoɖowɔɖi to Brave ƒe crypto gakotoku si wotu ɖe eme dzi be wòatrɔ asi le crypto asitsatsa ŋu - Ðekawɔwɔ sia ana ezãlawo nadzra ZEC ɖo dedie, aɖoe ɖa, eye woaxɔ ZEC bɔbɔe ŋutɔ kpe ɖe crypto ga bubuwo hã ŋu. Brave web browser kple Zcash ƒe nuwɔwɔ aduadu atrɔ fefea vavã elabena ezãlawo akpɔ ŋusẽ geɖe ɖe woƒe Web3 activiy dzi. 
 

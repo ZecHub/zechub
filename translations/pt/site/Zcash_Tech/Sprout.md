@@ -35,8 +35,8 @@ Sprout é a base sobre a qual todas as alterações posteriores assentam. Quando
 | Termo | Significado em linguagem simples |
 |---|---|
 | zk-SNARK | Uma prova de conhecimento zero que mostra que uma transação é válida sem revelar o remetente, o destinatário ou o montante |
-| Pool blindado | O lado privado de Zcash, onde os montantes e as partes ficam ocultos. O pool Sprout foi o primeiro |
-| z-address e t-address | Um z-address é blindado e mantém os detalhes privados. Um t-address é transparente e mostra os detalhes no registo público |
+| Shielded pool | O lado privado de Zcash, onde os montantes e as partes ficam ocultos. O pool Sprout foi o primeiro |
+| z-address and t-address | Um z-address é blindado e mantém os detalhes privados. Um t-address é transparente e mostra os detalhes no registo público |
 | The Ceremony | A configuração multipartidária de 2016 que gerou os parâmetros públicos de Sprout e depois descartou o toxic waste |
 | Toxic waste | As partes da chave secreta da Ceremony que tiveram de ser destruídas para que não fosse possível forjar ZEC |
 | Consensus branch id 0 | A designação das regras de Sprout, que significa a base antes de qualquer atualização de rede |

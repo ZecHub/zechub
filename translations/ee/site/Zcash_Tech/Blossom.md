@@ -41,12 +41,12 @@ Blossom nye Zcash ƒe network ƒe tɔtrɔ etɔ̃lia. Ekplɔ Overwinter kple Sapl
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Block taɖodzinu ƒe dometsotso | Ɣeyiɣi si network la ɖoe be yeawɔ le block ɖeka kple esi kplɔe ɖo dome |
-| Block teƒeɖoɖo | ZEC yeyea wɔ eye woxee esime wole block ɖesiaɖe kum |
-| Halving dometsotso | Block nenie toa block ƒe fetu ƒe afã ɖesiaɖe dome |
-| Nubabla ƒe alɔdze id | Tag si dea dzesi network sewo ƒe hatsotso si node alo asitsatsa le |
-| Dukɔ eve ƒe nukpɔsusu ɖeka ƒe tɔtrɔ | Se ƒe tɔtrɔ si wòle be node ɖesiaɖe naxɔ hafi anɔ network |
-| Netwɔƒe ƒe ŋgɔyiyi (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Block target spacing | Ɣeyiɣi si network la ɖoe be yeawɔ le block ɖeka kple esi kplɔe ɖo dome |
+| Block reward | ZEC yeyea wɔ eye woxee esime wole block ɖesiaɖe kum |
+| Halving interval | Block nenie toa block ƒe fetu ƒe afã ɖesiaɖe dome |
+| Consensus branch id | Tag si dea dzesi network sewo ƒe hatsotso si node alo asitsatsa le |
+| Bilateral consensus change | Se ƒe tɔtrɔ si wòle be node ɖesiaɖe naxɔ hafi anɔ network |
+| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
 
 ## Nyabiasewo ƒe Nyabiasewo
 

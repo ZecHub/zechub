@@ -185,13 +185,13 @@ Alcune semplificazioni hanno mantenuto questo testo leggibile. Abbiamo usato la 
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Curva ellittica** | Punti che soddisfano `y^2 = x^3 + ax + b`, con una speciale "addizione" di punti |
-| **Addizione di punti** | La regola della corda-e-tangente: retta per due punti, prendi la terza intersezione, rifletti |
-| **Punto all'infinito (`O`)** | Lo "zero" della curva; sommarlo non cambia nulla |
-| **Generatore (`G`)** | Un punto base i cui multipli alla fine coprono l'intero gruppo |
-| **Moltiplicazione scalare (`kG`)** | Sommare `G` a se stesso `k` volte; facile in avanti, difficile da invertire |
+| **Elliptic curve** | Punti che soddisfano `y^2 = x^3 + ax + b`, con una speciale "addizione" di punti |
+| **Point addition** | La regola della corda-e-tangente: retta per due punti, prendi la terza intersezione, rifletti |
+| **Point at infinity (`O`)** | Lo "zero" della curva; sommarlo non cambia nulla |
+| **Generator (`G`)** | Un punto base i cui multipli alla fine coprono l'intero gruppo |
+| **Scalar multiplication (`kG`)** | Sommare `G` a se stesso `k` volte; facile in avanti, difficile da invertire |
 | **ECDLP** | Il problema difficile di recuperare `k` da `kG`; il fondamento della sicurezza |
-| **Impegno di Pedersen** | `v.G + r.H`; una busta sigillata che nasconde, vincola e si somma |
+| **Pedersen commitment** | `v.G + r.H`; una busta sigillata che nasconde, vincola e si somma |
 
 ---
 

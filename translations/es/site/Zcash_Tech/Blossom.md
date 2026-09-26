@@ -41,12 +41,12 @@ Blossom fue la tercera actualización de red de Zcash. Siguió a Overwinter y Sa
 
 | Término | Significado en lenguaje sencillo |
 |---|---|
-| Espaciado objetivo entre bloques | El tiempo al que la red apunta entre un bloque y el siguiente |
-| Recompensa de bloque | Los nuevos ZEC creados y pagados cuando se mina cada bloque |
-| Intervalo de halving | Cuántos bloques transcurren entre cada halving de la recompensa de bloque |
+| Block target spacing | El tiempo al que la red apunta entre un bloque y el siguiente |
+| Block reward | Los nuevos ZEC creados y pagados cuando se mina cada bloque |
+| Halving interval | Cuántos bloques transcurren entre cada halving de la recompensa de bloque |
 | Consensus branch id | Una etiqueta que marca qué conjunto de reglas de red está siguiendo un nodo o una transacción |
-| Cambio de consenso bilateral | Un cambio de reglas que cada nodo debe adoptar para permanecer en la red |
-| Actualización de red (NU) | Un cambio coordinado en las reglas de consenso de Zcash, activado a una altura de bloque determinada |
+| Bilateral consensus change | Un cambio de reglas que cada nodo debe adoptar para permanecer en la red |
+| Network upgrade (NU) | Un cambio coordinado en las reglas de consenso de Zcash, activado a una altura de bloque determinada |
 
 ## Preguntas frecuentes
 

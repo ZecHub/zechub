@@ -71,12 +71,12 @@ Programu haina kuhifadhi anwani yako kutambua wewe. baadhi ya utekelezaji hash p
 
 Ni jambo la maana kuelewa kabla ya kutegemea au kujenga juu yake.
 
-∙ Ushawishi uliosainiwa ∙ Malipo yaliyolindwa ∙
+| | Changamoto iliyosainiwa | Malipo yaliyolindwa |
 |---|---|---|
-Gharama. Free. Network ada kwa ajili ya kuingia.
-Kasi. Mara moja. Inasubiri uthibitisho.
- msaada mkoba Limited, ZIP 304 ni rasimu. pana, tu mahitaji memos
- Inaacha rekodi ya mlolongo. No. Ndiyo, shughuli ipo.
+| Gharama | Bure | Ada ya mtandao kwa kila kuingia |
+| Kasi | Papo hapo | Inasubiri uthibitisho |
+| Usaidizi wa pochi | Limited, ZIP 304 ni rasimu | Pana, inahitaji memo pekee |
+| Huacha rekodi ya mnyororo | No | Ndiyo, kuna muamala |
 
 Mipaka ya pamoja:
 

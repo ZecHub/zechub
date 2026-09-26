@@ -291,7 +291,7 @@ Zcash-abinibi DEX ti o mu awọn aabo ZEC sinu Web3 DeFi nipasẹ WalletConnect.
 Decreds decentralized exchange tí ó ń ṣe àtìlẹ́yìn fún Zcash. 
 [Ìbẹ̀wò](https://dex.decred.org)
 
-### Owó Àkáǹtì Onígboyà
+### Brave Wallet
 Àkáǹtì àwòkẹ́kò́ó pẹlú ìfọwọ́sowọpọ Zcash. 
 [Ìbẹ̀wò](https://brave.com/wallet/)
 

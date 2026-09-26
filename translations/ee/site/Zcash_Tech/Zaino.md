@@ -16,12 +16,12 @@ Zaino nɔa Zebra kple client software dome. Zebra nye consensus node: eɖea Zcas
 
 Woƒe akpa vovovoawo me mama alea nana dɔdeasiwo nɔa bɔbɔe:
 
-Nu si me wòle la ƒe akpa aɖe. Eƒe dɔdeasiwo.
+| Kpeɖeŋutɔ | Wɔƒe |
 |:--|:--|
-Zebra. Nuŋlɔɖi kple nu si dzi woada asi ɖo bliboe le eƒe agbalẽ me.
-Zaino: Index kple client-facing API service.
-Zallet. Akplo ƒe dɔwɔwɔ.
-lightwalletd. Light wallet server xoxo si Zaino ɖo be wòatsɔ aɖo eteƒe alo akpe ɖe eŋu la le eme
+| Zebra | Node blibo kple validator |
+| Zaino | Indexer kple asisiwo-dze ŋgɔ API subɔsubɔdɔ |
+| Zallet | Gakotoku ƒe subɔsubɔdɔ |
+| lightwalletd | Kekeli gakotoku ƒe dɔwɔƒe xoxo si wowɔ Zaino be wòaɖɔli alo akpe ɖe eŋu |
 
 Zaino naa dɔwɔwɔ na light clients, full clients alo wallets kple block explorers. Ena mɔɖeɖe be woaɖo kpe edzi le kɔsɔkɔsɔ si ŋu wowɔ ɖoɖo ɖo la dzi, kɔsɔkpo nyuitɔ siwo womewɔe haɖe o kpakple mempool data siwo Zebra lé ɖe asi me.
 

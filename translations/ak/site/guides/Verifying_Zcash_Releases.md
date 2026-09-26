@@ -45,12 +45,12 @@ That last point is the one most guides skip. **Where you get the key matters as 
 
 Zebra de saa nneɛma yi to dwa wɔ ne nkyerɛase biara mu:
 
-Dwumadibea. Botae.
+| Agyapadeɛ | Botaeɛ |
 |---|---|
-| `zebrad-<version>-<arch>.tar.gz` Ԑyԑ binary archive no.
-| `zebrad-<version>-<arch>.tar.gz.sha256` Per-file checksum. (Nneɛma a ɛfa ɔfese biara ho)
-| `SHA256SUMS` Ԑyԑ nhwehwεmu a ԑfa akwankyerԑ nyinaa ho.
-| `SHA256SUMS.sigstore.json` Sigstore nnwumakuo a wɔhyɛ nsa hyɛ wɔn ho ase no mu. `SHA256SUMS` |
+| `zebrad-<version>-<arch>.tar.gz` | binary archive no mu |
+| `zebrad-<version>-<arch>.tar.gz.sha256` | fael biara checksum |
+| `SHA256SUMS` | checksums ma architectures nyinaa |
+| `SHA256SUMS.sigstore.json` | Sigstore bundle a wɔde wɔn nsa hyɛ ase `SHA256SUMS` |
 
 ### Nnyԑ ade a ԑkyerԑ sԑ wo yԑ obi.
 
@@ -174,15 +174,15 @@ X509v3 Subject Alternative Name: critical
 
 Subject Alternative Name no yɛ ne din. Ɛkyerɛ bea a wɔde nneɛma sie, adwuma fael pɔtee, ɛne tag no. Sigstore de metadata foforo hyɛ custom extensions mu:
 
-Ntam kwan no. Ɛho hia ma v6.3.0
+| Field | Botae a ɛwɔ v6.3.0 |
 |---|---|
-OIDC ne nea ɔde no mae. `https://token.actions.githubusercontent.com` |
-Nkyerεmabea korabea. `https://github.com/ZcashFoundation/zebra` |
-Siesie nsɛm a wode bɛhyɛ aseɛ. `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
-Ɔtemmufo no: `refs/tags/v6.3.0` |
-Runner mu asetena. `github-hosted` |
-Adwuma mu dwumadi. `.../actions/runs/31424510487/attempts/1` |
-Ahyehyɛdeɛ no anibue. `public` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| Ref | `refs/tags/v6.3.0` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Eyinom mu biara betumi asesa. Ɛsɛ sɛ hash a wɔde hyɛ adwuma ase no ne nea ɛwɔ akoraeɛ hɔ hyia; ɛsɛ sɛ dwumadi kwan no wɔ hɔ na ɛyɛ baguam de.
 
@@ -217,11 +217,11 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 Nkrataa a ɛwɔ nkrataa mu no kyerɛ sɛ wɔatintim nsaano nkyerɛwee no adi kan, na wɔde ato hɔ ama ɔmanfo:
 
-Ntam. Ɛho mfasoɔ.
+| Field | Boɔ |
 |---|---|
-Ԑwͻ sε w'aka wo ho asem anaa? Record log index. `2412071838` |
-Ɛwɔ ɔhyeɛ a wɔhyɛ mu. `hashedrekord v0.0.1` |
-wԑn Aban Ahyehyԑde wɔ 2026-08-10 19:43:09 UTC.
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 Eyi na ɛma silent key atwitwa a wɔtumi hu no. Nsaano nkyerɛwee bi a amma da, anaa ɛbaa bere a ɛnyɛ papa mu yɛ nsɛnkyerɛne a ɛsɛ sɛ yɛyɛ ho biribi. Fa faako berɛ ne deɛ wɔde rebɛyi afiri hɔ asɛm toto ho.
 
@@ -233,13 +233,13 @@ Eyi na ɛma silent key atwitwa a wɔtumi hu no. Nsaano nkyerɛwee bi a amma da, 
 
 Zallet de nneɛma foforo bi na ɛtaa to gua:
 
-Dwumadibea. Botae.
+| Agyapadeɛ | Botaeɛ |
 |---|---|
-| `zallet-<version>-<platform>.tar.gz` Ԑyԑ binary archive no.
-| `.tar.gz.asc` GPG nsaano nkyerɛwee a wɔayi no.
-| `.tar.gz.intoto.jsonl` SLSA ahoɔdzen ho adansedie nkrataa.
-| `.tar.gz.provenance.json` Ahɔhoyɛ ho metadata.
-| `.tar.gz.sbom.spdx` Nhyehyɛe a wɔde yɛ nneɛma ho nhyehyɛe.
+| `zallet-<version>-<platform>.tar.gz` | binary archive no mu |
+| `.tar.gz.asc` | GPG nsaano nkyerɛwee a wɔayi afi mu |
+| `.tar.gz.intoto.jsonl` | SLSA fibea ho adansedi krataa |
+| `.tar.gz.provenance.json` | metadata a ɛfa baabi a efi ho |
+| `.tar.gz.sbom.spdx` | software ho sika a wɔde kyerɛw nneɛma a wɔde yɛ adwuma |
 
 ### Anammɔn 1  Hu nsaano mfoni no ansa na woakɔhwehwɛ bi
 
@@ -330,14 +330,14 @@ Wobɛhu saa kɔkɔbɔ yi wɔ abɛɛfo akwankyerԑ biara mu gye sɛ woatwerɛ w'a
 
 Zcash release signing no tu fii Electric Coin Company hɔ kɔɔ Zcash Open Development Lab wɔ afe 2026 mu, bere a na wɔn a kan ECC engineering ne product kuo no de ZODL ahyehyɛ no January 2026.
 
-Ԑhyԑn dedaw no. Nkyerεma foforo no.
+| | Safoa dedaw bi | Safoa foforo |
 |---|---|---|
-Ɔkasa no mu nsɛnkyerɛne. `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
-UID Zcash Master Signing Key (ECC) Akwankyerɛ a wɔfa so de di dwuma ne akwantuo ho nsɛntitiriw. `<sysadmin@z.cash>` Zcash Open Development Lab (ZODL) wɔ hɔ. `<sysadmin@zodl.com>` |
-type: RSA 3072-bit, created 2023-06-19 RSA 4096-bit, created 2026-03-23, expires 2028-03-22 Ɔwɔ hɔ ma aberɛ biara a wobɛtumi de wo ho adi dwuma wɔ kasa ahodoɔ mu
-Wɔatintim wɔ: `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
+| Nsateaa nkyerɛwee | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
+| UID | Zcash Master Nsɛnkyerɛnne Safoa (ECC) `<sysadmin@z.cash>` | Zcash Nkɔso a Wɔabue (ZODL) `<sysadmin@zodl.com>` |
+| Korɔ | RSA 3072-bit, wɔbɔɔ no 2023-06-19 | RSA 4096-bit, a wɔbɔɔ no 2026-03-23, twam 2028-03-22 |
+| Wotintimii wɔ | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
-Nsɛm a wɔatintim: key foforɔ no bɛyɛ 2026-03-23, aka ho asɛm sɛ ɛbɛba so 2026.04.23.
+Bere nhyehyɛe a wɔatintim: safoa foforo a wɔyɛe 2026-03-23, wɔde too gua 2026-03-27, wɔde wɔn nsa hyɛɛ ase nkutoo fi 2026-04-23, wɔayɛ nhyehyɛe sɛ wɔbɛpopa ECC safoa dedaw 2026-06-23.
 
 Sɛ obi hyɛ da ka sɛ ɔresesa ne nsa wɔ intanɛt so a, ɛnneɛ ɔno ara na ɛsɛsɛ ɔde ahotoso di dwuma. Deɛ ɛfata paa yɛ asɛm bi **a wɔn mmienu nyinaa asi ano kwan pa** no, enti kane de no gyina hɔ ma foforo no. ZODL bɔ amanneɛ pɛpɛɛpɛ:
 
@@ -425,12 +425,12 @@ Nsaano nkyerɛwee a enni mu yɛ aniberesɛm sen nea ɛwɔ checksum. A-nso-mu no 
 
 ## Ɔfã 4  Twerԑtohɔ krataa
 
-Project  Releases a wɔtintim no Method so. Ɛhe na ɔfidie yi firi ba?
+| Dwumadie | Nsɛm a wɔayi no adi a wotintimii wɔ | Method | Baabi a safe no fi |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle.  no key  CI identity via GitHub OIDC
-*Zallet*: Ɔyɛ ɔbaa a ɔwɔ akuro no mu. `github.com/zcash/zallet/releases` GPG a wɔayi no afi hɔ. `.asc`, SLSA fibea, SBOM. `apt.z.cash/zodl.asc`  kan no mu nkyeresoɔ `0338 34DD…58E2 6AB1`, hyɛ nsahyɛ suapɔn no mu `1FE9 9324…23F0 617F` |
-**zcashd** . *retired*  . Gyae wɔ block 3,417,100 wɔ 2026-07-18. Nsi no bio.
- Zodl (a kan no na wɔfrɛ no Zashi) App Store / Google Play; `zodl-inc` on GitHub  Stor signing; standalone Android binaries GPG-signed ZODL key per transition statement Ɔyɛ a, yɛ bɛtumi ayɛ no wɔ aberɛ biara.
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Safoa biara nni hɔ — CI nipasu denam GitHub OIDC so |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` - mfiaseɛ `0338 34DD…58E2 6AB1`, nsaano nkyerɛwee subkey `1FE9 9324…23F0 617F` |
+| **zcashd** | *akɔ ahomegyeɛ mu* | — | Wogyinaa block 3,417,100 wɔ 2026-07-18. Mfa nhyɛ mu. |
+| **Zodl** (kan no na wɔfrɛ no Zashi) | App Store / Google Play a wɔde di dwuma; `zodl-inc` wɔ GitHub | Store signing; standalone Android binaries GPG-signed | ZODL safoa biara nsakrae asɛm |
 
 > **Nom a wɔde to:** Zashi no san too din foforo maa no sɛ *Zodl* wɔ 2026  kan App Store, afei Google Play. Akwankyerɛfoɔ dada bi a wɔnim "Zashi" kyerɛ sika kotoku koro yi ara ase.
 

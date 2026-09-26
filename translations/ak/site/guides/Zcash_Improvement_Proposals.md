@@ -54,7 +54,7 @@ Wɔhwɛɛ tebea ne asɛmti ahorow a ɛwɔ ase ha no de totoo ZIP index no ho wɔ
 
 > Atwerɛkan: [Wallet.dat kwan a wɔfa so yɛ no](https://zips.z.cash/zip-0400)
 
-## NU6.3 (Dade) ZIP ahorow
+## NU6.3 (Ironwood) ZIP ahorow
 
 Wɔakyerɛkyerɛ NU6.3 mu wɔ ZIP 258 mu, ne ZIP afoforo a wɔabobɔ din wɔ ha no. Wotintim candidate set a edi mũ no wɔ... [ZIP nkyerɛkyerɛmu](https://zips.z.cash/#nu6-3-candidate-zips).
 

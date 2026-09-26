@@ -66,14 +66,14 @@ Wͻ AI agyinatufoɔ a wͻyɛ adwuma wɔ dwumadie ahodoɔ mu no, mmara ho nhwehw�
 
 ### Ahintasɛm a wɔsesa no ho mpapahwekwa
 
- Property. Public Chains (USDC, ETH) Zimppy Shielded. Zimppy Transparent.
+| Agyapadeɛ | Ɔmanfo Nkɔnsɔnkɔnsɔn (USDC, ETH) | Zimppy a Ɔbɔ ne ho ban | Zimppy Transparent a ɛyɛ nea ɛda adi |
 |---|---|---|---|
-**Sender**: W'ahunu. Wɔakyekyere no mu. W'ahu.
-**Receiver** Visible. Encrypted. Per-challenge (unlinkable) *receive* Receiver: W'atumi ahu saa?
-** Amount** W'ahunu. Encrypted. w'ahu.
-**Memo**: W'ani tua. Wɔakyekyere no so N/A
-**Replay Protection** None. Memo binding. Per-challenge T-address. *Memorandum bindery: no copy, no copy*
-**Service Usage Pattern**: Wobetumi de aka ho. Private: Wontumi mfa nka (fresh addr)
+| **Ɔdemafo** | Nea wotumi hu | Wɔayɛ no encrypted | Nea wotumi hu |
+| **Ogyefo** | Nea wotumi hu | Wɔayɛ no encrypted | Per-challenge (wɔntumi nka ho) |
+| **Sika** | Nea wotumi hu | Wɔayɛ no encrypted | Nea wotumi hu |
+| **Nkaeɛbɔ** | Nea wotumi hu | Wɔayɛ no encrypted | N/A |
+| **Replay Ahobammɔ** | Ɛnyɛ ebiara | Memo a wɔkyekyere | Per-asɛnnennen T-address |
+| **Ɔsom a Wɔde Di Dwuma Nhwɛso** | Nea wotumi de bata ho | Kokoa mu | Ɛntumi nkɔ nkitahodi (addr foforo) |
 
 ### Ɔhaw a Ɛwɔ Akokoɔduro Ho, Agyinapɛn Ahorow Siesiee No
 
@@ -388,16 +388,16 @@ let resp = client
 
 ## CLI Nkyerԑkyerԑmu
 
-Ahyɛdeɛ. Nkyerɛkyerɛmu.
+| Hyɛ | Nkyerɛmu |
 |---|---|
-| `npx zimppy wallet create` Ԑde nkyerԑkyerԑ ne nsesaeԑ a' ԑwɔ hɔ ma wo no na yԑayi anim.
-| `npx zimppy wallet whoami`  Show address (UA + T-addr), balance, network.
-| `npx zimppy wallet balance --all` Dwumadi-nkontɔn mu nkontaabu a wɔhyehyɛ no.
-| `npx zimppy wallet send <addr> <zat>` Fa nneɛma a wɔde bɔ ho ban anaa nea ani tua to ZEC so.
-| `npx zimppy wallet transfer <from> <to> <zat>` Ntotoho a wɔfa so de ba fie.
-| `npx zimppy wallet shield` Fa sika a w'atumi de adi dwuma kɔ Orchard (a wɔabɔ ho ban) mu.
-| `npx zimppy wallet use <name>` Fa wo sika nkotoku no ho nimdeε sesa.
-| `npx zimppy request <url>`  Auto 402 -> pay -> retry request.
+| `npx zimppy wallet create` | Generate keys na kyerɛ aba kasasin |
+| `npx zimppy wallet whoami` | Kyerɛ address (UA + T-addr), kari pɛ, ntam nkitahodi |
+| `npx zimppy wallet balance --all` | Akontaabu biara mu sika a aka a wɔkyekyɛ |
+| `npx zimppy wallet send <addr> <zat>` | Send ZEC a wɔabɔ ho ban anaasɛ ɛda adi pefee |
+| `npx zimppy wallet transfer <from> <to> <zat>` | Cross-account mu a wɔde kɔ baabi foforo |
+| `npx zimppy wallet shield` | Fa sika a ɛda adi pefee kɔ Orchard (wɔabɔ ho ban) |
+| `npx zimppy wallet use <name>` | Sesa sika kotoku a ɛyɛ adwuma |
+| `npx zimppy request <url>` | Auto 402 -> tua -> san sɔ mmɔden sɛ wobɛbisa |
 
 ---
 
@@ -463,27 +463,27 @@ packages/
 
 ## Nhwɛsoɔ & Demos
 
-Ԑho nhwɛso. Nkyerԑaseɛ
+| Nhwɛsoɔ | Nkyerɛmu |
 |---|---|
-| `examples/fortune-teller/`  charge, session, and streaming demos - Rust server + client. (Ɛwɔ sɛ wode wo ho hyɛ mu na w'atumi adi dwuma a ɛnnyɛ den)
-| `examples/llm-summarizer/` -per-token LLM streaming demo no ho akatua.
-| `examples/mcp-server/` MCP afidie a wɔde di dwuma wɔ dwumadie mu, ɛne AI afidie ahorow a wotua ho ka.
-| `examples/ts-server/` TypeScript MPP server reference implementation. W'atumi de kasa ahodoɔ a ɛwɔ wo din mu no adi dwuma wɔ afidie yi so?
+| `examples/fortune-teller/` | Charge, session, ne streaming demos - Rust server + client |
+| `examples/llm-summarizer/` | LLM streaming demo a wotua ho ka |
+| `examples/mcp-server/` | MCP adwinnade server a AI nnwinnade a wotua ho ka |
+| `examples/ts-server/` | TypeScript MPP server nkyerɛkyerɛmu dwumadie |
 
 ---
 
 ## Nea Ɛka Ho - Nsɛm a Wɔahyehyɛ no Ntɛm
 
-Ԑho nhwɛso. Nkyerԑaseɛ:
+| Su | Nkyerɛmu |
 |---|---|
-**Sessions**. Deposit once, instant bearer requests, refund on close.
-**Streaming** Pay-per-token metered content wɔ SSE so.
-duro a w'atumi de adi dwuma anaa ne ho ada hɔ wɔ HTTP asrɛde biara mu (402 flow)
-**Transparent Payments** T-addresses with per-challenge replay prevention + shield command. (Nneɛma a wobɛyɛ de asiesie wo ho)
-**Multi-Account**. ZIP-32 kaade a wɔsakra, sika a wɔde kɔ akae ahorow mu, ɛka biara ho nsesaw no so.
-CLI Wallet. Sende, bɔ ho ban, fa wo sika ma obi a ne nsa aka no nyinaa - nea obiara pɛ biara, otomatiki tua ka.
-** Dual SDK** TypeScript ne Rust.
-**Spec-Compliant** HMAC-SHA256 nsɛnnennen, RFC 9457 mfomso ahorow no, `/.well-known/payment` nhwehwɛ mu.
+| **Nhyiam ahorow** | Deposit pɛnkoro, instant bearer adesrɛ, refund wɔ close |
+| **Abɔnten so** | Pay-per-token metered nsɛm a ɛwɔ SSE so |
+| **Kwaadu** | Akatua a wɔabɔ ho ban anaasɛ ɛda adi pefee wɔ HTTP abisade biara mu (402 flow) |
+| **Akatua a ɛda adi pefee** | T-addresses a ɛwɔ per-asɛnnennen replay siw ano + kyɛm ahyɛde |
+| **Akontaabuo pii** | ZIP-32 akontaabu mu nsakrae, akontaabu a wɔde kɔ amannɔne, akontaabu biara mu sika a aka |
+| **CLI Sikakorabea** | Send, kyɛm, transfer, balance --ne nyinaa, whoami, auto-pay |
+| **SDK abien** | TypeScript ne Rust na ɛyɛ adwuma |
+| **Spec-A ɛne ne ho hyia** | HMAC-SHA256 nsɛnnennen, RFC 9457 mfomso, `/.well-known/payment` ade a wɔahu |
 
 ---
 

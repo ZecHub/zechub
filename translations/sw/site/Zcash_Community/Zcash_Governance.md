@@ -9,11 +9,11 @@ Zcash ni uthibitisho wa kazi cryptocurrency. Kila block kuchimbwa inashiriki yak
 - **Mfano wa sasa (baada ya NU6 / Novemba 2024 na kuendelea)** 
   Kama ya Aprili 2026 usambazaji ni:
 
-Mpokeaji asilimia fedha/hali.
+| Mpokeaji                      | Asilimia | Kinachofadhili / hadhi yake                                      |
 |--------------------------------|------------|-------------------------------------------------------------|
-Wachimbaji. 80% Wauzaji wa moja kwa moja malipo ya kuzuia wachimbaji
-Zcash Community Grants (ZCG) 8% Msaada wa jamii (inaendelea hadi ~2028)
-Lockbox (protocol-controlled) 12% Fedha zinakusanyika; hakuna utaratibu wa matumizi bado, kura ya jamii inayohitajika baadaye.
+| Wachimbaji madini                         | 80%        | Zawadi ya kuzuia moja kwa moja kwa wachimbaji                               |
+| Ruzuku za Jumuiya Zcash (ZCG)   | 8%         | Ruzuku za jamii (inaendelea hadi ~ 2028)                  |
+| Kisanduku cha Kufuli (kinachodhibitiwa na itifaki)  | 12%        | Fedha hujilimbikiza; hakuna utaratibu wa matumizi bado; kura ya jamii ya baadaye inahitajika |
 
 - ** Pre-NU6 historia ya mfuko wa dev (2020 - Nov 2024)** 
   20% ya kila ruzuku ilienda moja kwa moja kwenye mashirika ya maendeleo:
@@ -117,11 +117,11 @@ Utawala wa Zcash ni mchanganyiko wa "sheria za itifaki ya on-chain" na "makubali
 
 ## 4. Quick Reference Table - Funding Evolution (Jalada la Haraka-Mageuzi ya Fedha)
 
-Kipindi cha muda Wachimbaji ECC/Bootstrap ZF,ZCG Lockbox Maelezo.
+| Kipindi           | Wachimbaji madini | ECC/Bootstrap | ZF   | ZCG  | Kisanduku cha Kufungia | Vidokezo                                      |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
-2020 - Novemba 2024 80% 7% 5% 8% Mfuko wa kawaida wa Dev.
-Novemba 2024 - sasa 80% 0% 0% 8% 12% NU6 mfano + ZCG ugani.
-Mapendekezo (ZIP 1016) 80% 0% 0% 8% 12% (Coinholder-Controlled) Hadi nusu ya tatu; mwenye sarafu anapiga kura.
+| 2020 - Novemba 2024  | 80%    | 7%            | 5%   | 8%   | -       | Mfuko wa maendeleo wa kawaida                           |
+| Novemba 2024 - sasa   | 80%    | 0%            | 0%   | 8%   | 12%     | Mfano wa NU6 + kiendelezi cha ZCG                  |
+| Imependekezwa (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Inadhibitiwa na Mwenye Sarafu) | Hadi nusu ya 3; upigaji kura wa mwenye sarafu |
 
 ## 5. Rasilimali Zinazohusiana na Hilo
 

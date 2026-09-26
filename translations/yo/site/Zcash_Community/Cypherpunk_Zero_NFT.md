@@ -63,6 +63,6 @@ Bẹ́ẹ̀ ni, àwọn èèyàn ya àkójọ ìwé náà lápá kan. Ọjọ́ iw�
 
 [Cypherpunk Zero DAO Twitter Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:](https://twitter.com/CypherpunkDAO)
 
-[Cypherpunk Zero DAO Ìdààmú](https://discord.com/invite/sjfgXys4Jf)
+[Discord Cypherpunk Zero DAO](https://discord.com/invite/sjfgXys4Jf)
 
 [Ìsọ̀rọ̀ Ọ̀hún Ńlá NFT Cypherpunk Zero](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

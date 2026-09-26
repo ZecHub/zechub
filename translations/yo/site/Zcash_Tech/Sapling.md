@@ -38,14 +38,14 @@ Sapling followed Overwinter, the June 2018 upgrade that prepared the network's u
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-ìṣàmúlò tí a fi ààbò bo. Ìṣàmú Zcash tó dá wàhálà sílẹ̀, èyí tí ó ń pa ẹni tí ó rán an pamọ́, olùgbà á sì kó owó náà sọnù.
-Sprout. Àkọsílẹ̀ ààbò tí Zcash ṣe, ó lọ́ra àti pé ó wúwo ju Sapling lọ.
-Spend ati Output Circuits Awọn tuntun meji Sapling ti o jẹri awọn iyipo ti o rọpo iyika kanṣoṣo Sprout's JoinSplit.
-Adirẹsi oniruuru. Ọkan ninu ọpọlọpọ awọn adirẹti isanwo ti ko le sopọ o le wa lati bọtini kan ṣoṣo.
-íwò kókó. Kókó tí ó jẹ́ kí ẹnìkan rí ìsọ̀rí owó kan láìṣe pé yóò náwó láti inú rẹ̀.
-◯ Idì ẹ̀ka ìfọwọ́sowọ́pọ̀. Kòódù kúkúrú tí ó sọ fún nẹtiwẹẹki èyí ti àtúnṣe òfin kan ṣe ìṣàdáláwọ̀ náà tẹ̀lé e.
+| Shielded transaction | Ìṣòwò Zcash ìkọ̀kọ̀ kan tí ó ń fi olùránṣẹ́, olùgbà, àti iye owó pamọ́. |
+| Sprout | Ilana aabo atilẹba Zcash bẹrẹ pẹlu, ti o lọra ati ti o wuwo ju Sapling. |
+| Spend and Output circuits | Àwọn ìṣàfihàn Sapling tuntun méjì tí ó rọ́pò ìṣàfihàn JoinSplit Sprout's kan ṣoṣo. |
+| Diversified address | Ọkan ninu ọpọlọpọ awọn adirẹsi isanwo ti ko ni asopọ ti o le gba lati inu bọtini kan. |
+| Viewing key | Kọ́kọ́rọ́ kan tí ó máa jẹ́ kí ẹnìkan rí àwọn ìṣòwò àpò owó láìsí pé ó lè náwó nínú rẹ̀. |
+| Consensus branch id | Kóòdù kúkúrú kan tó ń sọ fún nẹ́tíwọ́ọ̀kì àwọn òfin ìgbéga tí ìṣòwò kan ń tẹ̀lé. |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 

@@ -126,16 +126,16 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ### Akenkan a efi mu ba no
 
-Mframa mu. Nea ɛkyerɛ:
+| Field | Kyerɛ |
 |---|---|
-| `value` Net change to the account in ZEC, fee included. Negative for sends. (Ɔbra a wɔde kɔma obi wɔ ne ho no yɛ negative)
-| `fee` Fee in ZEC. wɔ sika a wo nsa aka no ho, nea ɔtwee so na wotuaa ka no nanso ɛnni mu `value`. |
-| `time` mfasoɔ a wͻde ma bere no wɔ UTC mu, na enni mmere nkyekyɛmu nsεso.
-| `notes`  Nea aka no nyaa wɔ saa dwumadie yi mu, a sika ka ho. Memos a wɔde kɔmaa wo no w'akyerɛw ha. Nkyerεwee biara nni hɔ a ɛnni address. 
-| `spends` Adaka no ankasa nkae a ɛfa saa dwumadie yi ho adi dwuma awie.
-| `outputs` Nea asɔnnuro no de kɔ: nea ɛfi mu biara a ani tua, ɛne akatua ahorow a wɔde sie wɔ adansedie afoforo so ne wɔn nkae krataa.
-| `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope`  0 external (a payment in), 1 internal (change)  no, yɛ bɛhwɛ sɛ wo de sika a w'agye afi obi hɔ.
+| `value` | Net nsakraeɛ wɔ akontaabuo a ɛwɔ ZEC, fee ka ho. Negative ma wɔde mena. |
+| `fee` | Fee wɔ ZEC. Wɔ payments a wo nsa kaa so no, nea ɔde kɔmaa no no tuaa na ɛnyɛ mu `value`. |
+| `time` | Siw bere ano wɔ UTC mu, a bere nhyehyɛe agyiraehyɛde biara nni mu |
+| `notes` | Nea akontaabu no nyae wɔ saa asɛm yi mu, a nsakrae ka ho. Memos a wɔde kɔmaa wo no wɔ ha. Nsɛm a wɔde hyɛ mu a ɛda adi pefee no nni address biara. |
+| `spends` | Akontaabu no ankasa hyɛ no nsow sɛ saa asɛm yi awie |
+| `outputs` | Nea asɛm no de kɔmaa: biribiara a ɛda adi pefee, ne sikatua a wɔabɔ ho ban a wɔde kɔ address afoforo a wɔn memos ka ho |
+| `pool` | 0 a ɛda adi, 1 Sapling, 2 Orchard, 3 Ironwood |
+| `scope` | 0 abɔnten (atua a wotua wɔ), 1 mu (nsesa) |
 
 Zkool app no nso wɔ Export Transactions, Memos ne Notes a ɛwɔ account menu mu, nanso saa nneɛma yi yɛ nkrataa ho ntotosoɔ dudu: sika dodow a w'akyerɛw ato zatoshis so, Unix timestamps, ɛne memo ahorow a ɛda ɔfã foforo bi.
 
@@ -200,13 +200,13 @@ Nneɛma kakra bi a ɛsɛ sɛ wuhu fa nea ɛfi mu ba ho:
 
 ## Nnwinnade afoforo a ɛwɔ hɔ
 
-Dwumadie. Nea wunya no a, fa yɛ adwuma.
+| Akadeɛ | Nea wunya |
 |---|---|
-ZODL Tax CSV with dates, amounts, fees and a tag. Previous calendar year only, skips shielding transactions, no txid, memo or address. (Ɛwɔ sɛ wode data ne sika dodow biara ka ho)
-Zkool app. Raw table exports from the account menu (Nneɛma a ɛwɔ wo ho so no)
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) Ԑde UFVK fa mu ne no di dwuma. `importvk`. `listreceived` RPC san de nkrataa a txid ne memo, nanso wɔn nsa nkaa na wɔantɔ bi.
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` ne ho nsɛm a emu da hɔ nanso ɛyɛ nhwehwɛmu, na Zallet de Sapling hwԑsofo nkutoo ba, ɛnyɛ UFVKs.
-| [zcash-devtool](https://github.com/zcash/zcash-devtool) Ԑde UFVK fa mu ne no di dwuma. `wallet init-fvk`, afei nso `wallet list-tx`Ne CSV mode no nni txid anaa address, na project no se mma wɔmfa nyɛ adwuma wɔ production mu.
+| ZODL | Tow CSV a ɛwɔ nna, sika dodow, sika a wɔbɔ ne tag. Kalenda afe a atwam nkutoo, skips shielding transactions, txid, memo anaa address biara nni hɔ. |
+| Zkool app a wɔde di dwuma | Raw table exports fi akontaabu menu no mu |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Imports a UFVK ne `importvk`. `listreceived` wɔ RPC sanba so nsa kaa nsɛm a wɔakyerɛw a txid ne memo wom, nanso wɔmfa nkɔma na wontua hwee. |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` yɛ nsɛm a ɛkɔ akyiri nanso wɔahyɛ no agyirae sɛ ɛyɛ sɔhwɛ, na Zallet de Sapling viewing keys nkutoo na ɛba, ɛnyɛ UFVKs |
+| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Imports a UFVK ne `wallet init-fvk`, enneɛ `wallet list-tx`. Ne CSV mode no nni txid anaa address biara, na adwuma no ka sɛ ɛnsɛ sɛ wɔde di dwuma wɔ production mu. |
 
 ## Nsɛm a ɛfa ho
 

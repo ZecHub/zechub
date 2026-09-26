@@ -95,13 +95,13 @@ Yazarın kendi çerçevesine göre bu, spekülatif araştırmadan ziyade uygulan
 
 | Terim | Anlamı |
 |---|---|
-| Deneme amaçlı şifre çözme | Size adreslenen işlemleri bulmak için işlemlerin şifresini tek tek çözmeye çalışmak |
-| Zincir içi gizli dağıtım | Zcash'in bugün yaptığı gibi, ödeme sırrını blok zincirindeki işlemin içine yerleştirmek |
-| Bant dışı ödeme | Ödeme ayrıntılarını zincir üzerinden değil, doğrudan gönderen ile alıcı arasında iletmek |
-| Gizli eşitleme | Bir cüzdanın ihtiyaç duyduğu zincir verisini, hangi verinin talep edildiğini açıklamadan getirmek |
-| Kanıt taşıyan veri (PCD) | Kendi doğruluğuna ilişkin bir kanıtla birlikte taşınan, böylece kanıtların birleştirilip sıkıştırılabildiği veri |
-| Korumalı işlem toplamı | Tachyon'un korumalı durum değişikliklerini paketleme yöntemi; bunların nasıl iletildiğini ve imzalandığını değiştirir |
-| defter ayırt edilemezliği | Korumalı işlemlerin birbirinden ayırt edilememesi özelliği |
+| Trial decryption | Size adreslenen işlemleri bulmak için işlemlerin şifresini tek tek çözmeye çalışmak |
+| In-band secret distribution | Zcash'in bugün yaptığı gibi, ödeme sırrını blok zincirindeki işlemin içine yerleştirmek |
+| Out-of-band payment | Ödeme ayrıntılarını zincir üzerinden değil, doğrudan gönderen ile alıcı arasında iletmek |
+| Oblivious synchronization | Bir cüzdanın ihtiyaç duyduğu zincir verisini, hangi verinin talep edildiğini açıklamadan getirmek |
+| Proof-carrying data (PCD) | Kendi doğruluğuna ilişkin bir kanıtla birlikte taşınan, böylece kanıtların birleştirilip sıkıştırılabildiği veri |
+| Shielded transaction aggregate | Tachyon'un korumalı durum değişikliklerini paketleme yöntemi; bunların nasıl iletildiğini ve imzalandığını değiştirir |
+| ledger indistinguishability | Korumalı işlemlerin birbirinden ayırt edilememesi özelliği |
 
 <br/>
 

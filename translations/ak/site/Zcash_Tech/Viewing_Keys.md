@@ -23,8 +23,8 @@ Safe bɛboro biako, na nsonsonoe no na ɛkyerɛ dodow a wode bɛma.
 | Safoa | Nsɛmfua a wɔde di kan | Ntoboa a wɔde ma |
 |---|---|---|
 | Unified full viewing key (UFVK) | `uview…` | Hwɛ nnwuma a ɛba **ne** a ɛkɔ ma pool biara a ɛwɔ akontaabu |
-| Safoa a wɔde hwɛ nneɛma a ɛba a wɔaka abom (UIVK) | `uivk…` | Hwɛ nnwuma a ɛba nkutoo, ma pool biara a ɛwɔ akontaabu |
-| Sapling trɛw mu nyinaa hwɛ safoa | `zxviews…` | Hwɛ Sapling dwumadi a ɛba ne nea ɛrekɔ ma safoa no address ahorow |
+| Unified incoming viewing key (UIVK) | `uivk…` | Hwɛ nnwuma a ɛba nkutoo, ma pool biara a ɛwɔ akontaabu |
+| Sapling extended full viewing key | `zxviews…` | Hwɛ Sapling dwumadi a ɛba ne nea ɛrekɔ ma safoa no address ahorow |
 
 Eyinom mu biara ntumi nsɛe sika. Wɔn nyinaa yɛ nea ɛtra hɔ daa wɔ ɔkwan a ɛho hia so: wontumi nkae safe bi a wode ama no, nea ɛtra hɔ kyɛ nkutoo, denam sika a wode bɛkɔ akontaabu bi a ɔfã foforo no nkura ne safe mu no so.
 

@@ -102,7 +102,7 @@ Nuɖoanyi yeyewo ɖea nudidi sia ɖa keŋkeŋ, si nye susu gãtɔ siwo ta Zcash 
 |---|---|---|---|
 | **Sprout** (gbãtɔ kekeake) | gbãtɔ zk-SNARK | Ẽ | kɔnu gbãtɔ |
 | **Sapling** | **Tsitsi16** | Ẽ (ame geɖewo ƒe "Powers of Tau" + Sapling ƒe kɔnu) | **BLS12-381** (Nyati 2 lia) |
-| **Orchard** (current) | **Halo 2** | **No trusted setup** | **Pallas / Vesta** (Article 2) |
+| **Orchard** (fifia) | **Halo 2** ƒe ɣeyiɣia | **Ðoɖo si dzi woka ɖo aɖeke meli o** | **Pallas / Vesta** (Nyati 2 lia) |
 
 Azɔlizɔzɔ tso Sprout yi Sapling yi Orchard ƒe akpa gãtɔ nye ŋutinya si ku ɖe kpeɖodziwo ƒe sue, kabakaba, kple ɖoɖo si dzi woka ɖo la ɖeɖeɖa ŋu. **Halo 2**, si Orchard zãna la, mehiã kɔnu aɖeke kura o eye wotue be wòado alɔ *recursion* (kpeɖodzi siwo ɖoa kpe kpeɖodzi bubuwo dzi), si tae Orchard zãa Pallas/Vesta **cycle** of curves tso Se 2 lia me: wotrɔa curve ɖesiaɖe tsɔ ɖoa ​​kpe kpeɖodzi siwo woŋlɔ ɖe evelia dzi la dzi.
 
@@ -131,16 +131,16 @@ Zero-sidzedze kpeɖodziwo nye gogloƒe eye míeɖoe koŋ nɔ intuition level. M�
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| **Zero-sidzedze ƒe kpeɖodzi** | Na ame aɖe ka ɖe edzi be nya aɖe nye nyateƒe esime mèle nu bubu aɖeke ɖem fia o |
-| **Dodokpɔ / Kpeɖodzila** | Ame si wɔa kpeɖodzia / amesi léa ŋku ɖe eŋu |
-| **Bliboenyenye** | Nyateƒenyawo xɔa ame dzi ɣesiaɣi (tso lodododzikpɔla anukwaretɔ gbɔ) |
-| **Gbeɖiɖi** | Wogbea alakpanyawo (ameflulawo mate ŋu aɖu dzi o negbe to dzɔgbenyui me ko) |
-| **Ðasefo** | Nya ɣaɣla siwo wotsɔ de eme siwo na nyagbɔgblɔa nye nyateƒe |
-| **Akɔntabubu ƒe nutome sue** | Nyagbɔgblɔ si wogbugbɔ ŋlɔ abe kpeɖeŋutɔ kple dzidziɖedzi le agble si seɖoƒe li na dzi |
-| **Menye nuwɔwɔ aduadu o (Fiat-Shamir)** | Kpeɖodzi si wotu zi ɖeka si mehiã be woanɔ agbe yi megbe kple ŋgɔ o |
-| **Kpuie ko** | Kpeɖodzia le sue eye woate ŋu aɖo kpe edzi kabakaba metsɔ le nyagbɔgblɔ ƒe lolome me o |
+| **Zero-knowledge proof** | Na ame aɖe ka ɖe edzi be nya aɖe nye nyateƒe esime mèle nu bubu aɖeke ɖem fia o |
+| **Prover / Verifier** | Ame si wɔa kpeɖodzia / amesi léa ŋku ɖe eŋu |
+| **Completeness** | Nyateƒenyawo xɔa ame dzi ɣesiaɣi (tso lodododzikpɔla anukwaretɔ gbɔ) |
+| **Soundness** | Wogbea alakpanyawo (ameflulawo mate ŋu aɖu dzi o negbe to dzɔgbenyui me ko) |
+| **Witness** | Nya ɣaɣla siwo wotsɔ de eme siwo na nyagbɔgblɔa nye nyateƒe |
+| **Arithmetic circuit** | Nyagbɔgblɔ si wogbugbɔ ŋlɔ abe kpeɖeŋutɔ kple dzidziɖedzi le agble si seɖoƒe li na dzi |
+| **Non-interactive (Fiat-Shamir)** | Kpeɖodzi si wotu zi ɖeka si mehiã be woanɔ agbe yi megbe kple ŋgɔ o |
+| **Succinct** | Kpeɖodzia le sue eye woate ŋu aɖo kpe edzi kabakaba metsɔ le nyagbɔgblɔ ƒe lolome me o |
 | **zk-SNARK** | Zero-knowledge Kpuie si Mewɔa nu ɖekae o ARgument of Knowledge |
-| **Ðoɖo si dzi woka ɖo / gbeɖuɖɔ si me aɖi le** | Zi ɖeka ƒe parameter dzidzime si ƒe nya ɣaɣla susɔea wòle be woatsrɔ̃ |
+| **Trusted setup / toxic waste** | Zi ɖeka ƒe parameter dzidzime si ƒe nya ɣaɣla susɔea wòle be woatsrɔ̃ |
 
 ---
 

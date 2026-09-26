@@ -20,9 +20,9 @@ Discord
 
 Ele be míadze egɔme kple Discord elabena enye kadodomɔnu si míezãna "le aƒeme."
 
-Masɔmasɔ ɖea vi ŋutɔ le nuto gã aɖe dzi kpɔkpɔ me le nyati vovovowo ŋu, gake eɖi fɔ abe ame bubu geɖewo ene be míaƒe nyatakakawo ɖe vi na mí.
+Discord ɖea vi ŋutɔ le nuto gã aɖe dzi kpɔkpɔ me le nyati vovovowo ŋu, gake eɖi fɔ abe ame bubu geɖewo ene be míekpɔ viɖe tso míaƒe nyatakakawo me.
 
-### Nyatakakawo ƒe Masɔmasɔwo Dzraɖoƒewo
+### Nyatakakawo Discord Dzraɖoƒewo
 
 Le eƒe ameŋunyatakakawo ŋuti ɖoɖoa nu la, Discord ƒoa nyatakaka siwo gbɔna nu ƒu tso mía ŋu:
 

@@ -24,7 +24,7 @@ Ojúewé Ìpilẹ̀ṣẹ̀ ni orísun òtítọ́ fún àwọn ìjápọ̀ ìfo
 
 - Àtòjọ àròyé àti àkọsílẹ̀ ìpàdé: [àwọn àlàyé nípa ọgbà arboretum](https://github.com/ZcashCommunityGrants/arboretum-notes)
 - Àwọn àkọsílẹ̀ tó ṣẹ̀ṣẹ̀ ṣe: [Zcash Arborist Call playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash R&D ìjíròrò: [Zcash R & D discord](https://discord.gg/xpzPR53xtU)
+- Zcash R&D ìjíròrò: [Discord R&D Zcash](https://discord.gg/xpzPR53xtU)
 - Ìjíròrò pẹ́ńpẹ́: [Àjọ Ìgbìmọ̀ Zcash](https://forum.zcashcommunity.com/)
 
 ## Àwọn Wo Ló Yẹ Kó Wá Síbi Ìpàdé Náà?

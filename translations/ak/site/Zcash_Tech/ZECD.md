@@ -288,9 +288,9 @@ zecd --datadir ./data init --restore --birthday 2500000
 | Dwuma a Di | Node + sika kotoku a ɛyɛ ma | Indexer (ɛsi lightwalletd ananmu) | Wallet server nkutoo |
 | Kasa | C++ | Rust | Rust |
 | Gyinabea | Wɔagyae | Active | Ɛyɛ adwuma (v0.5.0-rc3, Ɔpɛpɔn 2026) |
-| Default pool | Transparent | N/A | Orchard (shielded) |
-| RPC dialect | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
-| Requires full node | Yes (self) | Zebra or zcashd | Zebra |
+| Default pool a wɔde ahyɛ mu | Fann | N/A | Orchard (a wɔabɔ ho ban) |
+| RPC kasa a wɔka | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC na ɛyɛ adwuma |
+| Ɛhwehwɛ sɛ node a edi mũ | Yiw (ankasa) | Zebra anaa zcashd | Zebra |
 | Ɔman a wonni ahoɔden a wɔsan nya | Dabi | N/A | Yiw (aba nkutoo) |
 | Memos a wɔabɔ ho ban | Aane (`z_sendmany`) | N/A | Yiw (Bitcoin RPC ani) |
 | Watch-nko (UFVK) | Yiw | Yiw | Yiw |

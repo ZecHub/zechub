@@ -14,7 +14,7 @@
 
 ---
 
-## Kí ni Àtúnṣe-àbùdá?
+## Kí ni ShapeShift?
 
 [ShapeShift](https://shapeshift.com/) jẹ́ àkànṣe, ojúlé-ìmọ cryptocurrency pẹpẹ tí ó ń gba àwọn oníṣẹ̀ láti ṣòwò, tọpinlẹ̀ àti ṣàkóso dúkìá díjítálẹ̀ ní oríṣiríṣi blockchains láì dá àkọọ́sílẹ̀ kan sílẹ̀, fífi ìwé ìdánimọ̀ ránṣẹ́ tàbí gbígbé ìtọjú owó wọn lọ.
 
@@ -144,16 +144,16 @@ As regulatory environments tighten around the world, with regions like the EU ex
 
 ## Àkópọ̀ rèé:
 
-Àwọn Ànímọ́. Ìsọfúnni tó kún réèkéèrè.
+| Ẹ̀yà ara | Àwọn àlàyé |
 |---|---|
-ì ¤ì í ë¡ ê° ì ¬í ̈ë¦¬ê3μì ' (ShapeShift DAO)
-Àwọn tó ní owó ìdókòwò FOX.
-** Ìtìlẹyìn Zcash**. Iṣowo ZEC ni kikun pẹlu atilẹyin idunadura aabo.
-** KYC ti a beere** Kò sí.
-** Ìtọ́jú**. Kò sí ìtọ́ju (àwọn oníṣe máa ń fi kọ̀ọ̀kan kókó wọn pa mọ́)
-BTC, ETH, Arbitrum, Cosmos àti púpọ̀lọpọ̀.
-Àwọn ìhámọ́ra-iṣẹ́ tí Liquify ń ṣe (ìtìlẹyìn 90+ blockchain RPC)
-** Ìpèsè owó ìrànwọ́ fún àwùjọ Zcash** $50,000 fún ẹ̀rọ àti ìtìlẹyìn ọjà.
+| **Pẹpẹ** | ShapeShift DAO (a ti pín sí méjì, orísun ṣíṣí sílẹ̀) |
+| **Ìjọba** | Àwọn tó ni àmì ìdámọ̀ FOX |
+| **Zcash Support** | Iṣowo ZEC ni kikun pẹlu atilẹyin iṣowo aabo |
+| **A nilo KYC** | No |
+| **Ààbò** | Kì í ṣe àkóso (àwọn olùlò máa ń pa àwọn kọ́kọ́rọ́ tiwọn mọ́) |
+| **Àwọn Ìyípadà Ẹ̀wọ̀n Àgbélébùú** | BTC, ETH, Arbitrum, Cosmos, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ |
+| **Ilé-iṣẹ́ amúlétutù** | Agbara lati owo Liquify (atilẹyin RPC blockchain 90+) |
+| **Zcash Community Grants Funding** | $50,000 fun atilẹyin imọ-ẹrọ ati titaja |
 
 Awọn ShapeShift ati Zcash isopọmọ duro fun a significant igbese siwaju fun asiri ni decentralized owo. nipa apapo ti awọn non-custodial, multichain iṣowo amayederun pẹlu zero imo ẹri imọ ẹrọ zcash ká, olumulo gba wiwọle si gan ikọkọ, permissionless cryptocurrency isowo. fun ẹnikẹni ti o iye owo ìpamọ ati ara-aṣẹ ọba aláṣẹ, yi integration pese kan wulo, wọlé ipa ọna lati lilo ZEC lai adehunsofin .
 
@@ -161,7 +161,7 @@ Awọn ShapeShift ati Zcash isopọmọ duro fun a significant igbese siwaju fun
 
 ### Àwọn Owó-ìṣúnná owó
 
-[Àwòrán-ìyípòpadà Òpópónà](https://shapeshift.com/)
+[Pẹpẹ ShapeShift](https://shapeshift.com/)
 
 [Ojú-ìwé Ìkànnì Zcash](https://z.cash/)
 

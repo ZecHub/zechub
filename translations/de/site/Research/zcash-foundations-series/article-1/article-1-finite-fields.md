@@ -186,13 +186,13 @@ Damit der Text einsteigerfreundlich bleibt, haben wir einige wahre Dinge vereinf
 
 | Begriff | Bedeutung in einfachem Englisch |
 |---|---|
-| **Modulare Arithmetik** | Arithmetik, die nach Erreichen eines festen Werts wieder von vorne beginnt, wie bei einer Uhr |
+| **Modular arithmetic** | Arithmetik, die nach Erreichen eines festen Werts wieder von vorne beginnt, wie bei einer Uhr |
 | **mod p** | „Durch `p` teilen und den Rest behalten“ |
-| **Körper** | Ein Zahlensystem, in dem Addition, Subtraktion, Multiplikation und Division alle funktionieren |
-| **Endlicher Körper `F_p`** | Die Zahlen `0..p-1` mit Arithmetik mod einer Primzahl `p` |
-| **Inverses (Reziprokes)** | Das Element `a^(-1)` mit `a x a^(-1) = 1`; „durch `a` teilen“ bedeutet, mit ihm zu multiplizieren |
-| **Nullteiler** | Zwei von null verschiedene Werte, deren Produkt null ist; das ist das, was zusammengesetzte Moduli ruiniert |
-| **Primzahl** | Eine ganze Zahl größer als 1 ohne Teiler außer 1 und sich selbst |
+| **Field** | Ein Zahlensystem, in dem Addition, Subtraktion, Multiplikation und Division alle funktionieren |
+| **Finite field `F_p`** | Die Zahlen `0..p-1` mit Arithmetik mod einer Primzahl `p` |
+| **Inverse (reciprocal)** | Das Element `a^(-1)` mit `a x a^(-1) = 1`; „durch `a` teilen“ bedeutet, mit ihm zu multiplizieren |
+| **Zero divisor** | Zwei von null verschiedene Werte, deren Produkt null ist; das ist das, was zusammengesetzte Moduli ruiniert |
+| **Prime** | Eine ganze Zahl größer als 1 ohne Teiler außer 1 und sich selbst |
 
 ---
 

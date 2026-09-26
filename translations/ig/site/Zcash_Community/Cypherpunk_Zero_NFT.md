@@ -63,6 +63,6 @@ Ee, e mebiri ihe ndị mbụ dị n'akwụkwọ ahụ. Ọdịnihu adịghịzi 
 
 [Cypherpunk Zero DAO Twitter Nkọwapụta nke onwe onye:](https://twitter.com/CypherpunkDAO)
 
-[Cypherpunk Zero DAO Agha na-aga n'ihu](https://discord.com/invite/sjfgXys4Jf)
+[Discord Cypherpunk Zero DAO](https://discord.com/invite/sjfgXys4Jf)
 
 [Cypherpunk Zero NFT Mega Thread (Nkeji nke abụọ)](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

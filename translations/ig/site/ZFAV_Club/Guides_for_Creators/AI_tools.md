@@ -57,7 +57,7 @@ banye na X, Google, Discord, Telegram
 ### Ngwá ọrụ (nnwale n'efu na-abụkarị):
 
 - [RunwayML GEN-2](https://runwayml.com/) (nnwale n'efu, ndenye aha site na $ 15 / ọnwa)
-- [Pika labs esemokwu Bot](https://www.pika.art/) (Free ATM?)
+- [Pika labs Discord Bot](https://www.pika.art/) (Free ATM?)
 - [elai](https://elai.io/) (ndenye aha site na $23/ọnwa)
 
 ### Ngwá ọrụ ntụgharị vidiyo / ọdịyo:

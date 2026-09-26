@@ -40,5 +40,5 @@ Aban ananmusifo wɔ adebɔ mu ahofadi wɔ dwumadi ahorow a wɔayɛ ho nhyehyɛe 
 
 Wubetumi nso de wo ho ahyɛ mu denam:
 - Ntoboa a wɔde ma [ZEC Bounties na ɛyɛ adwuma](https://bounties.zechub.wiki/)
-- Ɔde ne ho hyɛ mu [Zcash Wiase Nyinaa Ntam Nkitahodi](https://discord.gg/zcash)
+- Ɔde ne ho hyɛ mu [Zcash Wiase Nyinaa Ntam Discord](https://discord.gg/zcash)
 

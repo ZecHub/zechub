@@ -10,15 +10,15 @@ Nkwado maka akụ nzuzo na-agbanwe mgbe niile, yabụ ahịrị ọ bụla nwere
 
 <div class="processor-table">
 
- Processor  Custody  Shielded ZEC  Self-host  Merchant fee  Regions / KYC  Verified  Onye na - eme ihe n'eziokwu  Nhazi oge: Ọ bụrụ na ị nwere ike ịchọta ozi gbasara onye ahịa gị, biko kpọtụrụ anyị.
+| Nhazi ihe nhazi | Ụlọ Nnọchi | ZEC echekwara | Onye na-anabata onwe ya | Ụgwọ onye ahịa | Mpaghara / KYC | Enyochala |
 |:--|:--|:--|:--|:--|:--|:--|
-| [CipherPay](https://www.cipherpay.app)  Non-custodial. Ee, Orchard site Unified Addresses. Ee open source 1% kwa ugwo, free ma ọ bụrụ na onwe kwadoro Ọ dịghị KYC, mpaghara adịghị kwuru 2026-07-29
-| [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) ❑ Enweghị njide, igodo nlele naanị. ● Ee, ọta nanị (Sapling, Orchard, UA) ▪ Ee, isi mmalite emeghe □ Mba, ị na-akwụ ụgwọ netwọkụ naanị Global, enweghị KYC 2026-07-29
-| [ZGo](https://zgo.cash/) ❑ N'enweghị onye na-elekọta ya. □ Ee, Sapling and Orchard. ● Mba, ọrụ a kwadoro. ◆ Oge ịkwụ ụgwọ tupu oge eruo, ọnụahịa e bipụtaghị. ▪ Ọ dịghị KYC kwuru, ógbè ndị ahụ ekwughị 2026-07-29
-| [Flexa](https://flexa.co/) ◯ Ndị ahịa na-echekwa onwe ha, ndị ọchụnta ego ji mkpụrụ ego nkịtị akwụ ụgwọ. Onye ahịa na emefu ihe n'ụzọ a ga-eji chebe ya, onye natara onyinye ahụ enweghị akwụkwọ e dere ede. Ọ dịghị otu pasent kwa ịkwụ ụgwọ US na mba 37 nke SEPA, ZEC EU ekwenyebeghị 2026-07-29
-| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)  Enweghị njide site na ndabara. Mba, naanị adreesị doro anya. Ọ dịghị 0.5%, ma ọ bụ 1% nwere ntụgharị. Global belụsọ ebe amachibidoro ya iwu, enweghị KYC ịmalite 2026-07-29
-| [Plisio](https://plisio.net/accept-zcash) ◯ Nchebe, n'agbanyeghị ahịa. A dịghị edeba aha ya na akwụkwọ ọ bụla. Mba 0.5% API, 1.5% akara ọcha. Ọ nweghị KYC ịnata 2026-07-29
-| [Binance Na-akwụ ụgwọ](https://pay.binance.com/en) ◯ Nchebe, n'èzí-mgbasa ozi. ❑ Mba, a jụrụ ego echekwara na nchekwa. ❖ Ee e. ● E nweghị ụgwọ ọ bụla maka obere akpa gị, ịkwụghachi ya bụ 0.8% ▪ Ebe i bi adịghị ekwe ka mmadụ bata ebe ahụ, ZEC ewepụla aha ha ná mba FR, ES, IT, PL 2026-07-29
+| [CipherPay](https://www.cipherpay.app) | Enweghị nchekwa | Ee, Orchard site na Adreesị Ndị Dị n'Otu | Ee, isi mmalite mepere emepe | 1% kwa ịkwụ ụgwọ, n'efu ma ọ bụrụ na ejiri aka gị kwado ya | Enweghị KYC, akọwapụtaghị mpaghara | 2026-07-29 |
+| [Ihe nkesa BTPay](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Enweghị nchekwa, naanị igodo lee | Ee, naanị ihe e ji kpuchie (Sapling, Orchard, UA) | Ee, isi mmalite mepere emepe | Ọ dịghị, ị na-akwụ ụgwọ netwọk naanị | Ụwa niile, enweghị KYC | 2026-07-29 |
+| [ZGo](https://zgo.cash/) | Enweghị nchekwa | Ee, Sapling na Orchard | Mba, ọrụ akwadoro | Oge akwụgoro ụgwọ tupu oge eruo, ebipụtaghị ọnụahịa | E kwubeghị KYC, e kwubeghịkwa mpaghara ndị ahụ | 2026-07-29 |
+| [Flexa](https://flexa.co/) | Onye ahịa na-elekọta onwe ya, onye ahịa na-akwụ ụgwọ na fiat | Emefu ego onye ahịa n'ihe gbasara nchekwa, a naghị ede akụkụ nnata akwụkwọ | No | 1% kwa ịkwụ ụgwọ | Mba US na mba 37 SEPA, ZEC na EU ekwenyeghị | 2026-07-29 |
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Enweghị nchekwa site na ndabara | Mba, naanị adreesị doro anya | No | 0.5%, ma ọ bụ 1% na mgbanwe | Mba ụwa niile ma e wezụga ebe amachibidoro iwu, enweghị KYC ịmalite | 2026-07-29 |
+| [Plisio](https://plisio.net/accept-zcash) | Nchekwa, n'agbanyeghị ahịa | Edebeghị ya ede | No | 0.5% API, akara ọcha 1.5% | Enweghị KYC ị ga-enweta | 2026-07-29 |
+| [Ụgwọ Binance](https://pay.binance.com/en) | Nchekwa, nke na-anọghị n'usoro | Mba, a jụrụ itinye ego echekwara | No | Akpa ego efu na obere akpa, 0.8% ịkwụ ụgwọ | E wepụrụ ZEC na mpaghara dị iche iche, FR, ES, IT, PL | 2026-07-29 |
 
 </div>
 

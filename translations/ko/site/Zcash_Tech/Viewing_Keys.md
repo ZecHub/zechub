@@ -22,9 +22,9 @@ Viewing Key는 선택적 공개를 위한 도구입니다. 누구에게 무엇�
 
 | 키 | 접두사 | 권한 |
 |---|---|---|
-| Unified Full Viewing Key (UFVK) | `uview…` | 계정의 모든 풀에서 발생한 수신 **및** 발신 거래를 확인 |
-| Unified Incoming Viewing Key (UIVK) | `uivk…` | 계정의 모든 풀에서 발생한 수신 거래만 확인 |
-| Sapling 확장 Full Viewing Key | `zxviews…` | 해당 키의 주소에 대한 수신 및 발신 Sapling 활동을 확인 |
+| Unified full viewing key (UFVK) | `uview…` | 계정의 모든 풀에서 발생한 수신 **및** 발신 거래를 확인 |
+| Unified incoming viewing key (UIVK) | `uivk…` | 계정의 모든 풀에서 발생한 수신 거래만 확인 |
+| Sapling extended full viewing key | `zxviews…` | 해당 키의 주소에 대한 수신 및 발신 Sapling 활동을 확인 |
 
 이들 중 어느 것도 지출할 수는 없습니다. 모두 중요한 의미에서 영구적입니다. 한 번 제공한 키는 회수할 수 없으며, 상대방이 키를 보유하지 않은 계정으로 자금을 옮겨야만 그 키의 효력이 더 이상 미치지 않게 됩니다.
 

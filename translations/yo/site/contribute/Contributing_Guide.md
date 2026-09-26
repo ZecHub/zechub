@@ -88,7 +88,7 @@ Bí o bá rí i pé ìjápọ̀ kan ti bàjẹ́, tàbí nǹkan pàtàkì tí a 
 
 #### Ìwé ìròyìn - 0.05 ZEC fún ìtẹ̀jáde kan
 
-A ṣe ìwé ìròyìn ọ̀sọ̀ọ̀sẹ̀ nípa àwọn ètò ìgbé ayé. Èyí jẹ́ ọ̀nà dídára láti kópa! Ìwé ìròyìn náà máa ń jáde ní gbogbo ọjọ́ Friday tàbí Saturday. Bí o bá fẹ́ kọ àkọsílẹ̀ kan, fi àtẹ @squirrel sínú abala #zecweekly ti Àìfohùnṣọ̀kan kí wọn lè mọ̀.
+A n ṣe iwe iroyin osẹ-ọsẹ ti eto-ẹda. Eyi jẹ ọna ti o rọrun lati kopa! Iwe iroyin naa n jade ni gbogbo ọjọ Jimọ tabi Satidee. Ti o ba fẹ kọ iwe iroyin kan, fi ifiranṣẹ ranṣẹ si @squirrel ni apakan #zecweekly ti Discord lati jẹ ki wọn mọ.
 
 Lẹ́yìn tó o bá ti ṣe èyí, wàá lè lọ sí ilé ìtura. [abala ìwé ìròyìn ti ibi ìpamọ́ yìí.](/newsletter/newsletterbasics.md) ati fi ohun ti o fa ibeere lati ṣẹda titun kan edition ti awọn iwe iroyin. Jọwọ tẹle ni ọna kika lo ninu yi [àdàkọ:](/newsletter/newslettertemplate.md).
 

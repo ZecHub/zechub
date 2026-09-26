@@ -132,7 +132,7 @@ Kama Zcash Labs walikuwa kufanya uwekezaji wa usawa katika siku zijazo, shirika 
 
 **[ZcashtoCash - Kiasi cha Fedha za Kimataifa.](https://zcashto.cash/)** ni moja ya miradi mapema hadharani inajulikana kuwa wamepokea msaada kutoka Zcash Labs. mradi iliundwa kusaidia watumiaji kubadilisha ZEC katika fedha za fiat kupitia shughuli peer-to-peer.
 
-zcashtocash inatumia miundombinu kutoka ** Peer. Mfumo huu hutumiwa kuthibitisha malipo ya fiat kabla ZEC haitolewa katika shughuli. Wakati Maabara za Zcash zilipoletwa kwa umma, huduma hiyo tayari iliunga mkono App Cash**, Chime**, Monzo**, Revolut**, Venmo** na Zelle** .
+zcashtocash hutumia miundombinu kutoka kwa **Peer**. Mfumo huu hutumika kuthibitisha malipo ya fiat kabla ya ZEC kutolewa katika muamala. Zcash Labs ilipoanzishwa kwa umma, huduma hiyo tayari iliunga mkono **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo**, na **Zelle**.
 
 Kulingana na taarifa zilizotolewa wakati mradi ilitangazwa, mchanganyiko huu wa huduma za malipo inatoa uwezo wa kufunika zaidi ya ** 100 kanda kijiografia. timu pia mipango ya kupanua idadi ya maombi mkono malipo na maeneo.
 

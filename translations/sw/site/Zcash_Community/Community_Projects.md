@@ -291,7 +291,7 @@ Zcash-asili DEX kwamba huleta shielded ZEC katika Web3 DeFi kupitia WalletConnec
 Decreds madaraka kubadilishana kwamba inasaidia Zcash. 
 [Kutembelea](https://dex.decred.org)
 
-### Mkoba Jasiri
+### Brave Wallet
 Browser mkoba na msaada Zcash. 
 [Kutembelea](https://brave.com/wallet/)
 

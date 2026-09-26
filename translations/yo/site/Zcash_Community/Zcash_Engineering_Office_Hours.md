@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Àkójọ àwọn àkọsílẹ̀ Ìṣẹ́jú Ilé Iṣẹ́ Ẹrọ Zcash.
+Àkójọ àwọn ìgbàsílẹ̀ Zcash Engineering Office Hours.
 
 # Zcash Engineering Office Hours
 
@@ -10,7 +10,7 @@ Awọn akoko imọ-ẹrọ deede ti o bo ilana Zcash, awọn ẹri ìmọ odo, i
 
 Awọn jara pẹlu awọn mejeeji iduroṣinṣin jinle-jinlẹ ati ** Protocol Study** sub-series ti nlọ lọwọ (igbọnsẹ kika ti alaye ilana Zcash).
 
-[Àtòjọ orin àwọn wákàtí ọ́fíìsì ẹ̀ka-ẹ̀rọ Zcash](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
+[Àkójọ Àkójọ Zcash Engineering Office Hours](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

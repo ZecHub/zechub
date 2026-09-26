@@ -57,12 +57,12 @@ Je, Interactive uthibitisho ufanisi kuthibitisha zaidi ya uthibitishaji NP?
 
 NP uthibitisho dhidi ya IP uthibitishaji:
 
-Taarifa ya NP IP
+|  Taarifa   |    NP     | IP    |
 |--------------|-----------|--------|
-NP: Ndiyo.
-CO-NP hapana ndiyo.
-#P: hapana. Ndiyo.
-PSPACE: hapana ndiyo.
+|    NP        |  ndiyo      |  ndiyo   |
+|    CO-NP     |  no       |  ndiyo   |
+|    #P        |  no       |  ndiyo   |
+|    PSPACE    |  no       |  ndiyo   |
 
 
 NP - Kuna ufumbuzi wa taarifa

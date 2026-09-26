@@ -58,12 +58,12 @@ Kwa marejeleo kamili ya uhamiaji, ikijumuisha njia za urejeshaji zilizo na maele
 
 | Una | Anza hapa |
 | --- | --- |
-| Kifunguo cha mbegu au ufunguo wa matumizi usio wa Chipukizi unaoungwa mkono** kutoka kwa pochi ya sasa au iliyohifadhiwa hivi karibuni, ikijumuisha nyenzo za zamani za YWallet Zcash | [Zkool](#fund-recovery-with-zkool) |
+| Kifunguo cha mbegu au ufunguo wa matumizi **non-Sprout unaoungwa mkono** kutoka kwa pochi ya sasa au iliyohifadhiwa hivi karibuni, ikijumuisha nyenzo za zamani YWallet Zcash | [Zkool](#fund-recovery-with-zkool) |
 | **Ufunguo wa kutazama pekee** | Zkool inaweza kuingiza funguo za kutazama zinazoungwa mkono kwa ufikiaji wa kusoma pekee, lakini ufunguo wa kutazama hauwezi kuidhinisha matumizi ya kurejesha. Tafuta ufunguo wa mbegu au matumizi unaolingana. |
 | Mbegu ya **ZecWallet Lite** yenye maneno 24 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
 | ZecWallet Lite au zcashd `wallet.dat`, or a standalone Sapling / Sprout spending key | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Kufikia Septemba 18, 2026, v1.3.0 ni ya sasa na inapendelewa; tumia v1.2.0 au baadaye kwa `wallet.dat` na kupona kwa Chipukizi. |
-| Nyenzo ya chipukizi ambayo Argos haiwezi kushughulikia, au urejeshaji ambapo unataka vipengele vya zamani viwe chini ya udhibiti wako mwenyewe | Tumia njia ya gari la pembeni la zamani katika [mwongozo kamili wa uwanja](/research/zec-pool-migration/view). |
-| Hakuna ufunguo wa pesa unaofanya kazi au wa matumizi, lakini kifaa kilichofungwa, nenosiri lililosahaulika, au diski iliyoshindwa | [Urejeshaji wa kitaalamu](#professional-recovery-when-you-do-not-have-the-seed)Usitumie kamwe mbegu ya kufanya kazi au ufunguo wa matumizi kwa mtu anayewasiliana nawe bila kuombwa.
+| Nyenzo Sprout ambayo Argos haiwezi kushughulikia, au urejeshaji ambapo unataka vipengele vya zamani viwe chini ya udhibiti wako mwenyewe | Tumia njia ya gari la pembeni la zamani katika [mwongozo kamili wa uwanja](/research/zec-pool-migration/view). |
+| Hakuna ufunguo wa pesa unaofanya kazi au ufunguo wa matumizi, lakini kifaa kilichofungwa, nenosiri lililosahaulika, au diski iliyoharibika | [Urejeshaji wa kitaalamu](#professional-recovery-when-you-do-not-have-the-seed)Usitumie kamwe mbegu ya kufanya kazi au ufunguo wa matumizi kwa mtu anayewasiliana nawe bila kuombwa. |
 
 ## Urejeshaji wa Fedha na Zkool
 
@@ -159,13 +159,13 @@ Argos husoma faili za mkoba bila kuzibadilisha. Ikiwa mkoba umesimbwa kwa njia f
 
 Funguo za kutazama hazikubaliki kwa ajili ya kufutwa kwa sababu haziwezi kuidhinisha matumizi.
 
-### Maelezo ya chipukizi
+### Maelezo ya Sprout
 
 Mbegu ya ZecWallet Lite haitoi funguo za Sprout. Funguo hizo zilizalishwa kando. Rejesha Sprout kutoka kwa zcashd `wallet.dat`, au kutoka kwa ufunguo wa matumizi wa kujitegemea katika CLI.
 
 Ikiwa faili tayari ina data ya noti inayoweza kutumika na shahidi aliyehifadhiwa, Argos inaweza kutoa **Sweep Sprout funds** bila skanisho la mnyororo. Vinginevyo inaweza kuendesha skanisho kamili inayoweza kuendelea tena kupitia mtandao wa P2P. Skanisho hilo ni kubwa na la polepole. Sehemu ya ukaguzi inayoandika ina uwezo wa kutumia, kwa hivyo ilinde kama pochi ya asili.
 
-Thamani ya chipukizi inaweza kutua kwenye Miche. Baada ya fedha za Miche kuthibitishwa na kutumika, zihamishe hadi **Ironwood** ukitumia pochi ya sasa inayounga mkono akaunti ya Miche iliyorejeshwa. Usisimame Sapling.
+Thamani Sprout inaweza kutua kwenye Sapling. Baada ya fedha za Sapling kuthibitishwa na kutumika, zihamishe hadi **Ironwood** ukitumia pochi ya sasa inayounga mkono akaunti Sapling iliyorejeshwa. Usisimame Sapling.
 
 ## Fedha zilizorejeshwa na bwawa la kuogelea la Ironwood
 

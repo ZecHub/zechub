@@ -39,20 +39,20 @@ Blossom je Zcash's third network upgrade. O tẹle Overwinter ati Sapling, o si 
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-ìkápá ìlà-oòrùn. Àsìkò tí nẹ́tàkì ń wá láti gba ààrin ibùdó kan sí òmíràn.
-ì£1⁄4ë¡ ì ¬í ©. ZEC tuntun ti a ṣẹda ati sanwo bi kọọkan bulọọki ni mined.
-ìdí ìdajì. Ìdìpọ̀ mélòó ló kọjá láàárín ìdálẹ́gbẹ̀é èrè dídádá ibùdó náà?
-☐ Ajọṣepọ ẹka id. O kan aami ti o ami eyi ti ṣeto ti nẹtiwọki ofin a node tabi iṣowo ni atẹle
-ìyípadà ìfohùnṣòfò méjì-láàárín. Ìyípadà òfin tí gbogbo àpòòdì gbọ́dọ̀ tẹ̀ lé láti wà nínú ẹ̀rọ náà.
- Network upgrade (NU)  Aṣayan iyipada ti a ṣepọ si awọn ofin ifọkanbalẹ Zcash, ti o ṣiṣẹ ni giga bulọọki ṣeto.
+| Block target spacing | Akoko ti nẹtiwọọki naa fẹ lati wa laarin bulọọki kan ati ekeji |
+| Block reward | ZEC tuntun naa ṣẹda ati sanwo jade bi a ṣe n wa gbogbo bulọọki kọọkan |
+| Halving interval | Iye awọn bulọọki melo lo kọja laarin idaji ere bulọọki kọọkan |
+| Consensus branch id | Àmì kan tí ó ń fi àmì sí àwọn ìlànà nẹ́tíwọ́ọ̀kì tí ó ń tẹ̀lé nọ́ńbà tàbí ìṣòwò kan |
+| Bilateral consensus change | Àyípadà òfin tí gbogbo nódù gbọ́dọ̀ gbà láti dúró lórí nẹ́tíwọ́ọ̀kì |
+| Network upgrade (NU) | Àyípadà tí a ṣètò sí àwọn òfin ìfohùnṣọ̀kan Zcash's, tí a mú ṣiṣẹ́ ní gíga bulọ́ọ̀kì tí a ṣètò |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 
 ṣé ọ̀rọ̀ Blossom yí iye ZEC tí ó wà padà tàbí ìgbà tí ìlàjì wáyé? rárá. owó èrè fún ààrá kan dín kù sí méjì àti àkókò tó fi ń díwọ́n ìlàjọ náà di ìlọ́po meji ní àsìkò yìí, nítorí èyí ni pé iye àwọn ZEC ti a dá sílẹ̀ nínú ẹyọ-akoko kò sì tún ṣe kíkọjúgbà ìlàjá ọjọ́ iwájú mọ́.
 
-ṣé blossom yí ZEC mi padà tàbí ìpamọ́ra mi? rárá. blossoms yí àkókò àlàfo àti ìṣirò èrè padà. kò fọwọ́ kan owó rẹ tàbí àwọn ìdánwò tí a fi dídákẹ́ jẹ̀rẹ́ rẹ o, ó ṣe tán ohun tó ń sọ ni pé kí n máa ṣètò bí mo bá fẹ́ láti gba ẹrù náà lọ síbi iṣẹ́ fún ọ ní gbogbo ìgbà.
+Ṣé Blossom yí ZEC mi tàbí ìpamọ́ mi padà? Rárá o. Blossom yí àkókò ìdènà àti ìṣirò ẹ̀bùn padà. Kò kan ìwọ̀n rẹ tàbí àwọn ìṣòwò rẹ tí a dáàbò bò.
 
 kí ni 75 ìṣẹ́júkôjì túmọ̀ sí gan-an? ó jẹ àfojúsùn, kìí ṣe ìdánilójú. àwọn ẹyọ kọ̀ǹpútà tí a rí nípa èrí iṣẹ́, nítorí náà ìyàtọ̀ gidi láàrin awọn ẹyẹkọ̀ọ̀kan yàtọ̀ si ara wọn. nẹtiwọki ńlépa fún ọ̀kan ní nǹkan bí gbogbo ọjọ́á márùndínlọ́gọ́ta dípò 150 lọ́dọọdún.
 

@@ -72,14 +72,14 @@ Wallets na node programu kushughulikia zaidi ya hii moja kwa moja, lakini mabadi
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
-Hifadhi ya fedha iliyohifadhiwa ambayo kiasi chake na wamiliki wake wamefichwa kwa kutumia mbinu za siri zisizojulikana.
-◯ Udanganyifu wa usahihi. Kosa ambalo huruhusu shughuli batili kupita ukaguzi uthibitisho kama kwamba ilikuwa halali.
-Turntile. checkpoint umma kwamba mahesabu thamani kusonga kati ya mabwawa hivyo ugavi anakaa auditable.
-"Tumia tu" - Hifadhi ambayo unaweza kutumia kutoka, lakini haiwezi kuongeza thamani mpya kwa.
- Network Upgrade (NU)  mabadiliko uratibu kwa Zcash ya makubaliano sheria, ulioamilishwa katika block kuweka urefu.
-Nakala ya Quantum-recoverable. Format noti iliyoundwa ili fedha inaweza kuwa kurejeshwa kama kompyuta quantum milele kuvunja cryptography leo.
+| Shielded pool | Seti ya fedha ambazo kiasi na wamiliki wake wamefichwa na usimbaji fiche usio na maarifa yoyote |
+| Soundness bug | Dosari inayoruhusu muamala batili kupitisha ukaguzi wa uthibitisho kana kwamba ni halali |
+| Turnstile | Kituo cha ukaguzi cha umma kinachohesabu thamani inayohamishwa kati ya mabwawa ili usambazaji uendelee kukaguliwa |
+| Spend-only | Bwawa la kuogelea unaloweza kutumia, lakini huwezi kuongeza thamani mpya |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Quantum-recoverable note | Muundo wa noti ulioundwa ili fedha ziweze kupatikana ikiwa kompyuta za kwantum zitavunja usimbaji fiche wa leo |
 
 ## FAQs
 

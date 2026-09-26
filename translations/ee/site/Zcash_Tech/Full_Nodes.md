@@ -118,7 +118,7 @@ Viɖe bubu aɖe le esia ŋu be wòana zãla bubuwo nado ka kple wò node .onion 
 
 Xlẽ [Kpekpeɖeŋunagbalẽwo](https://zcash.readthedocs.io/en/latest/)
 
-Wɔ ɖeka kple míaƒe [Masɔmasɔ Sever](https://discord.gg/zcash) alo nàdo asi ɖe mía gbɔ le [twitter](https://twitter.com/ZecHub)
+Wɔ ɖeka kple míaƒe [Discord Sever](https://discord.gg/zcash) alo nàdo asi ɖe mía gbɔ le [twitter](https://twitter.com/ZecHub)
 
 
 

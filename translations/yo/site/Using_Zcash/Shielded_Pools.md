@@ -98,13 +98,13 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Àwòrán 4: Ìtòlẹ́sẹẹsẹ tó fi àgbá ìrẹ̀ǹgbẹ hàn ní oṣù October, 2025
+Àwòrán 4: Àtẹ àwòrán tó fi adágún Sprout hàn ní oṣù kẹwàá ọdún 2025
 
 Sprout ni àkọ́kọ́ nínú àwọn ìlànà ìpamọ̀ tí kò ní àṣẹ, Zero Knowledge. Ó ti bẹ̀rẹ̀ láti 28 October 2016.
 
 Awọn adirẹsi Sprout ni a mọ nipasẹ awọn lẹta meji akọkọ wọn eyiti o jẹ "zc" nigbagbogbo. O ti pe orukọ rẹ ni "Sprout" fun idi pataki lati tẹnumọ pe sọfitiwia naa jẹ ọdọ, blockchain budding pẹlu agbara nla lati dagba ati ṣiṣi silẹ fun idagbasoke. 
 
-A lo ọ̀pọ̀lọpò gẹ́gẹ́ bí irinṣẹ́ fún ìmúlẹ̀síwájú. [Zcash ìbẹ̀rẹ̀ díẹ̀ Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) èyí tí ó mú kí ìfúnni ZEC àti èrè Block fún àwọn Miners. 
+A lo Sprout gẹ́gẹ́ bí ohun èlò ìṣáájú fún [Zcash ìbẹ̀rẹ̀ díẹ̀ Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) èyí tí ó mú kí ìfúnni ZEC àti èrè Block fún àwọn Miners. 
 
 Bi eto ilolupo Zcash ti n tẹsiwaju lati faagun pẹlu nọmba awọn iṣowo ideri, o ṣe akiyesi pe jara Sprout Series di opin ati ṣiṣe to kere si nigbati o ba de asiri olumulo, iṣiro owo-owo ati sisẹ. Eyi yori si atunṣe ti nẹtiwọọki ati Sapling Upgrade . 
 

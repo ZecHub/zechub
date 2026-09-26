@@ -27,12 +27,12 @@ Kwa blockchains, mfano muhimu zaidi ni cryptography ya ufunguo wa umma. Funguo z
 
 Blockchains kutumia cryptography kwa kazi kadhaa tofauti:
 
-Chombo cha cryptographic. Kinachofanya. Athari ya Quantum.
+| Zana ya kidijitali | Inafanya nini | Athari ya quantum |
 | --- | --- | --- |
-Mikataba ya digital kuthibitisha mmiliki mamlaka ya kutumia hatari kubwa kwa kawaida elliptic-curve mifumo
-Hash kazi. Kujenga anwani, ahadi, miti Merkle, na changamoto. Hatari ya chini, lakini usalama pembezoni jambo.
-Ushahidi zero-ujuzi kuthibitisha ulinzi shughuli ni halali bila kufunua maelezo inategemea mfumo wa ushahidi na dhana.
-Mkataba muhimu. Husaidia pochi encrypt maelezo data kwa wapokeaji. Inahitaji ukaguzi makini chini ya mfano quantum tishio.
+| Saini za kidijitali | Thibitisha kuwa mmiliki aliidhinisha matumizi | Hatari kubwa kwa mifumo ya kawaida ya mviringo |
+| Vitendakazi vya hash | Jenga anwani, ahadi, miti ya Merkle, na changamoto | Hatari ndogo, lakini faida za usalama ni muhimu |
+| Uthibitisho wa kutojua chochote | Thibitisha miamala iliyolindwa ni halali bila kufichua maelezo | Inategemea mfumo wa uthibitisho na mawazo |
+| Makubaliano muhimu | Husaidia pochi kusimba data ya noti kwa wapokeaji | Inahitaji mapitio ya makini chini ya mfumo wa tishio la quantum |
 
 Kompyuta ya quantum yenye nguvu ya kutosha inaweza kuhatarisha mifumo mingi ya saini inayotumiwa leo, kutia ndani saini za mviringo wa elliptic. Hii ni muhimu kwa sababu saini ndiyo inayojulisha mtandao kwamba shughuli iliidhinishwa na ufunguo sahihi.
 
@@ -88,14 +88,14 @@ Toleo fupi:
 
 ## Zcash Hatari Ramani
 
-Eneo. Ufafanuzi wa mwanzoni. Wasiwasi wa baada ya quantum.
+| Eneo | Maelezo ya wanaoanza | Wasiwasi wa baada ya kiasi |
 | --- | --- | --- |
-Anwani za uwazi anwani za umma na grafu ya manunuzi ya umma hatari sawa na blockchains nyingine uwazi.
-◯ Kutumia idhini ◯ Uthibitisho kwamba mtumiaji anaruhusiwa kutumia ◯ Mipango ya saini inaweza kuhitaji kubadilishwa au kuhamishwa
-❖ Maelezo yaliyohifadhiwa ❖ Rekodi za faragha za thamani ndani ya mabwawa yaliyohifadhi ❖ Baadhi ya vipengele vinaweza kuhitaji mawazo mapya au zana za kurejesha
-zk-SNARKs. uthibitisho kwamba shughuli shielded ni halali. ushahidi-mfumo dhana haja ya ukaguzi
-│ Wallets scanning │ Jinsi wallets kupata na decrypt noti kupokea │ makubaliano muhimu na noti encryption haja ya mapitio │
-Kuhamia. Kuhamisha fedha kwa cryptography salama. Lazima kuepuka wote kupoteza fedha na uvujaji faragha.
+| Anwani za uwazi | Anwani za umma na grafu ya miamala ya umma | Hatari zinazofanana na blockchain zingine zenye uwazi |
+| Idhini ya matumizi | Uthibitisho kwamba mtumiaji anaruhusiwa kutumia | Mipango ya sahihi inaweza kuhitaji kubadilishwa au kuhamishwa |
+| Maelezo yaliyolindwa | Kumbukumbu za kibinafsi za thamani ndani ya mabwawa yaliyolindwa | Baadhi ya vipengele vinaweza kuhitaji mawazo mapya au zana za kurejesha |
+| zk-SNARKs | Uthibitisho kwamba miamala iliyolindwa ni halali | Dhana za mfumo wa uthibitisho zinahitaji kupitiwa upya |
+| Kuchanganua pochi | Jinsi pochi zinavyopata na kusimbua noti zilizopokelewa | Makubaliano muhimu na usimbaji fiche wa noti unahitaji kukaguliwa |
+| Uhamiaji | Kuhamisha fedha kwenye usimbaji fiche salama zaidi | Lazima uepuke upotevu wa fedha na uvujaji wa faragha |
 
 ## Jinsi Zcash Inavyojitayarisha
 
