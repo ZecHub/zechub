@@ -278,7 +278,7 @@
 - Operating System: Windows | macOS | Linux | Android | iOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
+- Features: Gift Cards | NEAR Intents | Shielded Memo | Testnet Support | Voting
 - Ironwood: Ready
 
 ---
