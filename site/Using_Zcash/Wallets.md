@@ -142,13 +142,14 @@
 
 ---
 
-## [Brave](https://brave.com/web3-privacy/)
+## [Brave](https://brave.com/wallet/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Ironwood
-- Features: Shielded Memo | Spend before Sync | Testnet Support
+- Pools: Transparent
+- Features: Shielded Memo | Testnet Support
+- Ironwood: In Progress
 
 ---
 
