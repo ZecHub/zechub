@@ -309,10 +309,10 @@
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
 - Devices: Mobile
-- Operating System: Android
-- Wallet Support: Unified Address
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
+- Features: Fiat Off-ramp | Messenger | NEAR Intents | Voting
 - Ironwood: Ready
 
 ---
