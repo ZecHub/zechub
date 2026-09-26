@@ -186,13 +186,13 @@ Per rimanere amichevoli verso i principianti, abbiamo semplificato alcune cose v
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Aritmetica modulare** | Aritmetica che torna ciclicamente dopo aver raggiunto un valore fisso, come un orologio |
+| **Modular arithmetic** | Aritmetica che torna ciclicamente dopo aver raggiunto un valore fisso, come un orologio |
 | **mod p** | "Dividi per `p` e tieni il resto" |
-| **Campo** | Un sistema numerico in cui addizione, sottrazione, moltiplicazione e divisione funzionano tutte |
-| **Campo finito `F_p`** | I numeri `0..p-1` con l'aritmetica fatta mod un primo `p` |
-| **Inverso (reciproco)** | L'elemento `a^(-1)` con `a x a^(-1) = 1`; "dividere per `a`" significa moltiplicare per esso |
-| **Divisore dello zero** | Due valori non nulli il cui prodotto è zero; la cosa che rovina i moduli composti |
-| **Primo** | Un numero intero maggiore di 1 senza fattori tranne 1 e sé stesso |
+| **Field** | Un sistema numerico in cui addizione, sottrazione, moltiplicazione e divisione funzionano tutte |
+| **Finite field `F_p`** | I numeri `0..p-1` con l'aritmetica fatta mod un primo `p` |
+| **Inverse (reciprocal)** | L'elemento `a^(-1)` con `a x a^(-1) = 1`; "dividere per `a`" significa moltiplicare per esso |
+| **Zero divisor** | Due valori non nulli il cui prodotto è zero; la cosa che rovina i moduli composti |
+| **Prime** | Un numero intero maggiore di 1 senza fattori tranne 1 e sé stesso |
 
 ---
 

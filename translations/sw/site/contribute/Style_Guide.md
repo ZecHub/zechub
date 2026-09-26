@@ -34,10 +34,10 @@ Mtindo wa ZecHub ni rahisi na inapatikana. Tunakaribisha kila mtu na kuzingatia 
 
 - ** Epuka maneno yasiyo ya Kiingereza** kama vile de facto au ad hoc. epuka vifupisho vya Kilatini vya misemo ya kawaida ya Kifaransa.
 
-    Tumia hii badala ya hii.
+    | Tumia hii    | Badala ya hii |
     |-------------|-----------------|
-    Kwa mfano. kwa mfano.
-    Hiyo ni... yaani.
+    | kwa mfano | e.g.            |
+    | hiyo ni     | i.e.            |
 
 ## Tweets za Twitter
 

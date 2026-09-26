@@ -48,11 +48,11 @@ Wɔ sikasɛm mu nsakrae no akyi no, Canopy de mfiridwuma mu ZIP nketewa abien ku
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Founders akatua | Mfitiaseɛ sikasɛm nhwɛsoɔ a ɛtuaa Zcash nkɔsoɔ a ɛdi kan no ho ka, a wɔayɛ nhyehyɛeɛ sɛ ɛbɛba awieeɛ wɔ fã a ɛdi kan |
-| Nkɔsoɔ Fotoɔ | Ɔha biara mu nkyem 20 kyɛfa a ɛwɔ block biara akatua a Canopy de kɔɔ nkɔso mu, tuu mmirika kɔɔ fã a ɛto so abien |
-| Block akatua (mmoa a wɔde ma) | ZEC foforo no bɔɔ na wotuae bere a wɔtu block biara |
-| Nkyekyɛmu fã | Adeyɛ a wɔayɛ ho nhyehyɛe a wɔatwa block akatua no mu abien |
-| Sika a wɔde ma asubɔnten | Consensus mechanism (ZIP 207) a ɛkyerɛ block subsidy no fã bi kwan kɔ recipient address ahorow a wɔakyerɛkyerɛ mu |
+| Founders reward | Mfitiaseɛ sikasɛm nhwɛsoɔ a ɛtuaa Zcash nkɔsoɔ a ɛdi kan no ho ka, a wɔayɛ nhyehyɛeɛ sɛ ɛbɛba awieeɛ wɔ fã a ɛdi kan |
+| Development Fund | Ɔha biara mu nkyem 20 kyɛfa a ɛwɔ block biara akatua a Canopy de kɔɔ nkɔso mu, tuu mmirika kɔɔ fã a ɛto so abien |
+| Block reward (subsidy) | ZEC foforo no bɔɔ na wotuae bere a wɔtu block biara |
+| Halving | Adeyɛ a wɔayɛ ho nhyehyɛe a wɔatwa block akatua no mu abien |
+| Funding stream | Consensus mechanism (ZIP 207) a ɛkyerɛ block subsidy no fã bi kwan kɔ recipient address ahorow a wɔakyerɛkyerɛ mu |
 | Sprout pool | Zcash mfitiase shielded pool, a Canopy gyaee gye a wobegye bo foforo akɔ |
 
 ## FAQ

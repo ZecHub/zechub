@@ -40,10 +40,10 @@ Sapling a suivi Overwinter, la mise à niveau de juin 2018 qui a préparé le m�
 
 | Terme | Signification en langage courant |
 |---|---|
-| Transaction shielded | Une transaction Zcash privée qui masque l’expéditeur, le destinataire et le montant. |
+| Shielded transaction | Une transaction Zcash privée qui masque l’expéditeur, le destinataire et le montant. |
 | Sprout | Le protocole shielded d’origine avec lequel Zcash a été lancé, plus lent et plus lourd que Sapling. |
-| Circuits Spend et Output | Les deux nouveaux circuits de preuve de Sapling qui ont remplacé l’unique circuit JoinSplit de Sprout. |
-| Adresse diversifiée | L’une des nombreuses adresses de paiement non corrélables que vous pouvez dériver à partir d’une seule clé. |
+| Spend and Output circuits | Les deux nouveaux circuits de preuve de Sapling qui ont remplacé l’unique circuit JoinSplit de Sprout. |
+| Diversified address | L’une des nombreuses adresses de paiement non corrélables que vous pouvez dériver à partir d’une seule clé. |
 | Viewing key | Une clé qui permet à quelqu’un de voir les transactions d’un wallet sans pouvoir dépenser depuis celui-ci. |
 | Consensus branch id | Un code court qui indique au réseau quelles règles de mise à niveau une transaction suit. |
 

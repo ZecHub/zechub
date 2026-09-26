@@ -55,14 +55,14 @@ NU6 ni sura moja katika hadithi ndefu kuhusu jinsi Zcash inavyolipia yenyewe.
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
- Block ruzuku. ZEC mpya kuundwa kwa kila block kwamba ni kuchimbwa,
- Coinbase shughuli. The maalum ya manunuzi ambayo hulipa nje misaada block na ada.
-│ Deferred Dev Fund Lockbox. A katika-Itifaki akiba ambayo inashikilia sehemu ya utoaji kwa ajili ya matumizi baadaye jamii kuamua.
-Zcash Community Grants (ZCG) Kamati ambayo inafadhili kazi na kwa ajili ya jamii za Zcash.
-◯ id ya tawi la makubaliano. Nodes za kitambulisho hutumia kuambia ambayo sheria upgrades block anafuata.
- Network Upgrade (NU)  mabadiliko uratibu kwa Zcash ya makubaliano sheria, ulioamilishwa katika block kuweka urefu.
+| Block subsidy | ZEC mpya iliyoundwa na kila kitalu kinachochimbwa |
+| Coinbase transaction | Muamala maalum unaolipa ruzuku na ada za block |
+| Deferred Dev Fund Lockbox | Akiba ya ndani ya itifaki ambayo inashikilia sehemu ya kutolewa kwa matumizi ya baadaye yaliyoamuliwa na jamii |
+| Zcash Community Grants (ZCG) | Kamati inayofadhili kazi na na kwa ajili ya jumuiya Zcash |
+| Consensus branch id | Nodi za kitambulisho hutumia kubaini ni sheria gani za uboreshaji ambazo kizuizi hufuata |
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
 
 ## FAQs
 

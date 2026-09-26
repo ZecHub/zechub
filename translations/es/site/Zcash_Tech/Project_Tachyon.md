@@ -95,13 +95,13 @@ El trabajo relacionado ya es visible. [Zakura](https://zechub.wiki/zcash-tech/za
 
 | Término | Significado |
 |---|---|
-| Descifrado de prueba | Intentar descifrar las transacciones una por una para encontrar las que están dirigidas a ti |
-| Distribución de secretos en banda | Colocar el secreto de pago dentro de la transacción en la blockchain, como hace Zcash hoy |
-| Pago fuera de banda | Transmitir los detalles del pago directamente entre remitente y destinatario en vez de hacerlo a través de la cadena |
-| Sincronización oblivious | Obtener los datos de la cadena que necesita una wallet sin revelar qué datos se solicitaron |
-| Datos portadores de pruebas (PCD) | Datos que viajan con una prueba de su propia corrección, de modo que las pruebas pueden combinarse y comprimirse |
-| Agregado de transacciones protegidas | La forma de Tachyon de agrupar cambios de estado protegidos, cambiando cómo se comunican y firman |
-| indistinguibilidad del libro mayor | La propiedad de que las transacciones protegidas no pueden distinguirse entre sí |
+| Trial decryption | Intentar descifrar las transacciones una por una para encontrar las que están dirigidas a ti |
+| In-band secret distribution | Colocar el secreto de pago dentro de la transacción en la blockchain, como hace Zcash hoy |
+| Out-of-band payment | Transmitir los detalles del pago directamente entre remitente y destinatario en vez de hacerlo a través de la cadena |
+| Oblivious synchronization | Obtener los datos de la cadena que necesita una wallet sin revelar qué datos se solicitaron |
+| Proof-carrying data (PCD) | Datos que viajan con una prueba de su propia corrección, de modo que las pruebas pueden combinarse y comprimirse |
+| Shielded transaction aggregate | La forma de Tachyon de agrupar cambios de estado protegidos, cambiando cómo se comunican y firman |
+| ledger indistinguishability | La propiedad de que las transacciones protegidas no pueden distinguirse entre sí |
 
 <br/>
 

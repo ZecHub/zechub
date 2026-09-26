@@ -14,7 +14,7 @@ Mmoa a wɔde ma wɔ kokoam agyapade ho no taa sesa, enti row biara kura n’anka
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Nea ɛnyɛ afiase | Yiw, Orchard via Unified Addresses | Yiw, open source | 1% wɔ sikatua biara mu, sɛ obi ankasa gye ho a, wontua hwee | No KYC, mpɔtam a wɔankyerɛ | 2026-07-29 |
 | [BTCPay Server a ɛwɔ hɔ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Ɛnyɛ custodial, hwɛ safoa nkutoo | Yiw, wɔabɔ ho ban nkutoo (Sapling, Orchard, UA) | Yiw, open source | Obiara nni hɔ, wotua network fees nkutoo | Wiase nyinaa, KYC biara nni hɔ | 2026-07-29 |
-| [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
+| [ZGo](https://zgo.cash/) | Ɛnyɛ nea wɔde bɛto afiase | Yiw, Sapling ne Orchard | Dabi, ɔsom a wɔagye atom | Prepaid session, wɔantintim boɔ | KYC biara nni hɔ a wɔaka, mpɔtam a wɔanka | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Adetɔfo ankasa hwɛ, aguadifo si fiat | Customer sɛe sika shielded, gye afã a wɔankyerɛw | Dabi | 1% wɔ sikatua biara mu | US ne SEPA aman 37, ZEC a ɛwɔ EU no nsii so dua | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Nea ɛnyɛ afiase de default | Dabi, address a ɛda adi pefee nkutoo | Dabi | 0.5%, anaa 1% ne nsakrae | Global gye baabi a wɔabara, KYC biara nni hɔ a wode befi ase | 2026-07-29 |
 | [Plisio na ɔkyerɛwee](https://plisio.net/accept-zcash) | Custodial, ɛmfa ho sɛ wɔtɔn | Wɔnkyerɛw nkyerɛwee | Dabi | 0.5% API, 1.5% fitaa nkyerɛwde | KYC biara nni hɔ a wobegye | 2026-07-29 |

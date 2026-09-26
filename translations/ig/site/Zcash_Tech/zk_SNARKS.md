@@ -57,12 +57,12 @@ Enwere ike igosi ihe ngosi Interactive nke ọma karịa nkwenye NP?
 
 NP Proofs vs IP proofs:
 
-Nkwupụta NP IP
+|  Nkwupụta   |    NP     | IP    |
 |--------------|-----------|--------|
-NP: Ee. Ee.
-CO-NP Mba ee
-#P: Mba. Ee.
-PSPACE: Mba ee.
+|    NP        |  ee      |  ee   |
+|    CO-NP     |  no       |  ee   |
+|    #P        |  no       |  ee   |
+|    PSPACE    |  no       |  ee   |
 
 
 NP - Enwere ngwọta maka nkwupụta

@@ -17,7 +17,7 @@
 </div>
 
 
-## Nukae nye Maya ƒe Mɔfiame?
+## Nukae nye Maya Protocol?
 
 Maya nye ame si le nu ƒom na amewo. [gadzraɖoƒe si ŋu ŋusẽ mele o](https://nym.com/blog/what-is-dex) (DEX) si naa be woadzra gaƒlewo le blockchain vovovowo dzi. Le kpɔɖeŋu me, àte ŋu atsɔ Bitcoin (BTC) atrɔ asie kple Ethereum (ETH) le Ethereum ƒe blockchain la dzi bɔbɔe, evɔ màtsɔ nu siwo nèdzra ɖo alo alɔ̃ ɖe ame aɖe ƒe mɔfiafiawo dzi o loo alo nànya wò asisi nyuie hafi awɔ esia.
 

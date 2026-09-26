@@ -59,7 +59,7 @@ Mara baada ya akaunti ni hai, mfanyabiashara huo unaweza kutumia ZGo kwa ajili y
 
 ## ZGo na Xero
 
-[Xero](https://www.xero.com/) ni wingu uhasibu jukwaa kutumika na biashara nyingi ndogo na za kati. ushirikiano ZGoXero inaruhusu mfanyabiashara kutoa ankara katika Xero, kuwa mteja kulipa katika ZEC, na kuwa Xero moja kwa moja alama ankara kama kulipwa mara moja shughuli inathibitisha.
+[Xero](https://www.xero.com/) ni jukwaa la uhasibu la wingu linalotumiwa na biashara nyingi ndogo na za kati. Muunganisho wa ZGo–Xero humruhusu mfanyabiashara kutoa ankara katika Xero, kumfanya mteja alipe katika ZEC, na Xero aweke alama kiotomatiki kwenye ankara kama imelipwa mara tu muamala unapothibitisha.
 
 Jinsi inavyofanya kazi:
 

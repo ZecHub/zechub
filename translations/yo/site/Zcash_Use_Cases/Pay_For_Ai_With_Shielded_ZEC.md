@@ -120,14 +120,14 @@ ZEC rẹ fi ààbò sílẹ̀. Iṣẹ́ náà rí owó USDC tí ó wọlé dé 
 
 Èyí ni apá tí ọ̀pọ̀ jù lọ àwọn tó ń ṣamọ̀nà èèyàn kì í kà.
 
- Kí ló ṣẹlẹ̀? Ohun tí iṣẹ́ náà kọ́. Àwọn ohun tó ń lọ ní ẹ̀ka-ìmọ̀ràn (chain).
+| Ki ni o sele | Ohun tí iṣẹ́ ìsìn náà ń kọ́ | Kini o n lọ lori pq |
 |---|---|---|
-ì í ì ¬ë¦¬í ë ¤. No account, no email...nothing.
-A ti fi adirẹsi ìsọ̀rí sílẹ̀. Kò sí nǹkankan. kò sí ohunkóhun.
-O sanwó láti Sapling Adirẹsi ìsọ̀ǹpamọ́ tí o lò kò sí. A dí ààbò fún a dí àbòjú, ó ṣeé ṣe kí ẹ ti rí i pé àwọn oníbàárà yín ń lo owó náà ní tààràtà tàbí lódìlódì.
-O sanwó láti Ironwood, iye kan náà àti gíga ilé.
-O sanwó láti adirẹsi tí ó ṣe kedere. Ohun kan náà ni iye owó àti t-adiresi rẹ.
-☐ Ohunkan ninu ohun ti o wa loke. IP rẹ, ayafi bi o ba n lo Tor tabi VPN kan. Kò bá a mu.
+| Wiwa kiri ati titọkasi | Kò sí ohunkóhun. Kò sí àkọọ́lẹ̀, kò sí ìmeeli | Ko si nkankan |
+| A ti fi adirẹsi idogo kan silẹ | Ko si nkankan | Ko si nkankan |
+| O sanwo **lati Sapling** | Àdírẹ́sì ìdókòwò tí o lò | Kò sí ohunkóhun. A dáàbò bò ó |
+| O sanwo **lati Ironwood** | Bákan náà | **Iye ati giga bulọọki naa** |
+| O sanwo **lati adiresi ti o han gbangba** | Bákan náà | Iye ati adirẹsi T rẹ |
+| Èyíkéyìí nínú àwọn tí a sọ lókè yìí | IP rẹ, ayafi ti o ba lo Tor tabi VPN kan | Ko ṣiṣẹ fun |
 
 ### Ìdí tí odò náà fi ṣe pàtàkì
 

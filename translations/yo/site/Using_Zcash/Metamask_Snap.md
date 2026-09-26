@@ -59,7 +59,7 @@ Fun **BNB SmartChain**;
 -  Block Explorer URL: https://bscscan.com
 ```
 Eyi jẹ ki alaye nẹtiwọọki ati awọn ọna asopọ aṣawari.
-[Àfikún-àṣà-Nẹtiwọọki...](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Àfikún-àṣà-Nẹtiwọọki...](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Fun **Zcash Mainnet**;
 ```markdown
@@ -75,13 +75,13 @@ Fun **Zcash Mainnet**;
 1. Lọ sí [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Tẹ **Sopọ MetaMask Snap**. 
 
-[Ìwó orí ayélujára Zcash](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Ìwó orí ayélujára Zcash](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Ẹ fọwọ́ sí ìsopọ̀ náà. 
 4. Wo àkójọpọ̀ àkọsílẹ̀ Zcash rẹ, pẹlu:
    - Àwọn adirẹsi tí ó wà ní ọ̀kan àti Adirẹẹsi tí kò fi ojú síta
 
-[Ìsọfúnni-ní-ìdìpọ̀-ìdílé](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Ìsọfúnni-ní-ìdìpọ̀-ìdílé](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Dúró títí dìgbà tí ìṣọ̀kan yóò parí.
@@ -96,7 +96,7 @@ Fun **Zcash Mainnet**;
 > **Swap ETH -> ZEC** - Lo awọn iṣẹ bii **LeoDex** ki o firanṣẹ si adirẹsi aabo rẹ. 
 > **Iyípadà Ìsínwó** - Yí owó ZEC tí o rà padà sí àdírẹ́sì ìpamọ́ WebZjs rẹ. 
 
-[LEODEX-SWAP] Àtúnṣe ojúewé](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Lo àwọn àdírẹ́sì tí a fi ààbò (z) sí fún ìpamọ́ pátápátá.
@@ -111,7 +111,7 @@ Fun **Zcash Mainnet**;
    - Shielded recipient address  
    - Amount
 ```
-   [Ìṣírò-Ìmúpòsílẹ̀!](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Ìṣírò-Ìmúpòsílẹ̀!](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Fọwọsi idunadura ni MetaMask (fi ọwọ si idunṣe). 
 5. Awọn owo ti o gba yoo han ni WebZjs lẹhin ijẹrisi.
@@ -145,7 +145,7 @@ Fun **Zcash Mainnet**;
    Transparent Address
 ``` 
 
-[Àwọn ohun tó jẹ́ adirẹsi!](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Àwọn ohun tó jẹ́ adirẹsi!](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

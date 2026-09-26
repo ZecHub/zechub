@@ -8,7 +8,7 @@ Míate ŋu azã IPFS atsɔ ama nyadzɔdzɔgblɔmɔnuwo ƒe faɛl gãwo le mía d
 
 Eyata nukae nye kuxia: IPFS agbowo mewɔa dɔ na faɛl gãwo o, woawu enu.
 
-**Nudidiwo**: [IPFS Dɔwɔƒe](https://docs.ipfs.tech/install/ipfs-desktop/) + [Browser dzinɔameƒotɔ](https://brave.com/)
+**Nudidiwo**: [IPFS Dɔwɔƒe](https://docs.ipfs.tech/install/ipfs-desktop/) + [Browser Brave](https://brave.com/)
 
 tldr, Video la le eƒe nuwuwu.
 

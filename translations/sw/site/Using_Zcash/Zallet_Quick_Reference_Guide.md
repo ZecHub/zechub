@@ -48,9 +48,9 @@ zallet rpc help '"<command>"'
 zallet rpc decoderawtransaction '"<hexstring>"'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter   | Aina   | Inahitajika | Maelezo              |
 |-------------|--------|----------|--------------------------|
- hexstring  string ndiyo Transaction hex string
+| hexstring   | string | ndiyo      | Mfuatano wa heksaidi ya muamala   |
 
 ---
 
@@ -60,9 +60,9 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc decodescript '"<hexstring>"'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter   | Aina   | Inahitajika | Maelezo     |
 |-------------|--------|----------|-----------------|
- hexstring  string Ndiyo script hex.
+| hexstring   | string | ndiyo      | Heksadi ya hati      |
 
 ---
 
@@ -72,11 +72,11 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter  | Aina   | Inahitajika | Chaguo-msingi | Maelezo                          |
 |------------|--------|----------|---------|--------------------------------------|
-txid string ndiyo id ya shughuli.
-Namba ya neno sio 0. `0` = hex, si-sifuri = JSON kitu.
-blockhash string no. Kuzuia utafutaji kwenye kipande hiki cha data
+| txid       | string | ndiyo      |         | Kitambulisho cha muamala                       |
+| verbose    | number | no       | 0       | `0` = heksaidi, isiyo sifuri = kitu cha JSON    |
+| blockhash  | string | no       |         | Zuia utafutaji kwenye kizuizi hiki        |
 
 ---
 
@@ -136,9 +136,9 @@ Hakuna vigezo. (Regtest tu)
 zallet rpc validateaddress '"<address>"'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter | Aina   | Inahitajika | Maelezo             |
 |-----------|--------|----------|-------------------------|
-anwani. string. ndiyo. Anwani ya uwazi.
+| address   | string | ndiyo      | Anwani ya uwazi     |
 
 ---
 
@@ -148,11 +148,11 @@ anwani. string. ndiyo. Anwani ya uwazi.
 zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter  | Aina   | Inahitajika | Maelezo             |
 |------------|--------|----------|-------------------------|
-anwani. string. ndiyo. Anwani ya uwazi.
-Saini. Mlolongo. Ndiyo, saini ya Base64.
-ujumbe. string. ndiyo. Ujumbe wa awali.
+| address    | string | ndiyo      | Anwani ya uwazi     |
+| signature  | string | ndiyo      | Saini Base64        |
+| message    | string | ndiyo      | Ujumbe asili        |
 
 ---
 
@@ -172,10 +172,10 @@ Hakuna vigezo.
 zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter   | Aina   | Inahitajika | Maelezo                          |
 |-------------|--------|----------|--------------------------------------|
-Neno la siri. Mstari wa maneno ndiyo. Maneno ya siri ya mkoba.
-Wakati wa kumaliza. Nambari: ndiyo Sekunde ya kuweka mkoba unlocked.
+| passphrase  | string | ndiyo      | Nenosiri la pochi                    |
+| timeout     | number | ndiyo      | Sekunde ambazo pochi itabaki imefunguliwa  |
 
 ---
 
@@ -185,9 +185,9 @@ Wakati wa kumaliza. Nambari: ndiyo Sekunde ya kuweka mkoba unlocked.
 zallet rpc z_converttex '"<transparent_address>"'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter             | Aina   | Inahitajika | Maelezo                |
 |-----------------------|--------|----------|----------------------------|
-│ transparent_address│ string── yes─ P2PKH anwani ya kubadilisha.
+| transparent_address   | string | ndiyo      | Anwani ya P2PKH ili kubadilisha   |
 
 ---
 
@@ -197,9 +197,9 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc z_exportkey '"<sapling_address>"'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter | Aina   | Inahitajika | Maelezo                                      |
 |-----------|--------|----------|--------------------------------------------------|
- anwani  string  ndiyo  Sapling anwani ambaye matumizi muhimu kuuza nje 
+| address   | string | ndiyo      | Anwani Sapling ambayo matumizi yake ni muhimu kwa usafirishaji nje     |
 
 > Wallet lazima kufunguliwa. mauzo ya nje tu Sapling matumizi muhimu.
 
@@ -211,9 +211,9 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc z_getaccount '"<account_uuid>"'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter     | Aina   | Inahitajika | Maelezo     |
 |---------------|--------|----------|-----------------|
-akaunti_uuid. string Ndiyo Akaunti UUID.
+| account_uuid  | string | ndiyo      | Akaunti ya UUID    |
 
 ---
 
@@ -223,11 +223,11 @@ akaunti_uuid. string Ndiyo Akaunti UUID.
 zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<diversifier_index>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter          | Aina            | Inahitajika | Maelezo                              |
 |--------------------|-----------------|----------|------------------------------------------|
-☐ akaunti 📅 string/number yes.✔ UUID ya Akaunti au ZIP-32 orodha ya Akaundi
-│ receiver_types│ array of string│ no. Aina ya vipokezi vya kuingiza│
-│ diversifier_index│ idadi│ hakuna│ index ya kipekee kwa ajili ya kugawa.
+| account            | string / number | ndiyo      | Akaunti ya UUID au faharasa ya akaunti ZIP-32     |
+| receiver_types     | safu ya kamba | no       | Aina za wapokeaji za kujumuisha                |
+| diversifier_index  | number          | no       | Kielezo maalum cha mseto               |
 
 ---
 
@@ -237,10 +237,10 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc z_getbalanceforaccount <account> [<minconf>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter | Aina            | Inahitajika | Chaguo-msingi | Maelezo                      |
 |-----------|-----------------|----------|---------|----------------------------------|
-akaunti  mstari / namba ndiyo. UUID ya Akaunti au faharisi ZIP-32
-minconf namba no 1 kiwango cha chini uthibitisho.
+| account   | string / number | ndiyo      |         | Akaunti ya UUID au faharasa ZIP-32     |
+| minconf   | number          | no       | 1       | Uthibitisho wa chini kabisa            |
 
 ---
 
@@ -250,9 +250,9 @@ minconf namba no 1 kiwango cha chini uthibitisho.
 zallet rpc z_getbalances [<minconf>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter | Aina   | Inahitajika | Chaguo-msingi | Maelezo               |
 |-----------|--------|----------|---------|---------------------------|
-minconf namba no 1 kiwango cha chini uthibitisho.
+| minconf   | number | no       | 1       | Uthibitisho wa chini kabisa     |
 
 ---
 
@@ -262,10 +262,10 @@ minconf namba no 1 kiwango cha chini uthibitisho.
 zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter     | Aina   | Inahitajika | Maelezo                              |
 |---------------|--------|----------|------------------------------------------|
-jina la akaunti. string ndiyo. Jina linaloweza kusomwa na binadamu.
-seedfp string no. Inahitajika kama mkoba ina mbegu nyingi.
+| account_name  | string | ndiyo      | Jina linaloweza kusomwa na binadamu                      |
+| seedfp        | string | no       | Inahitajika ikiwa pochi ina mbegu nyingi    |
 
 ---
 
@@ -275,10 +275,10 @@ seedfp string no. Inahitajika kama mkoba ina mbegu nyingi.
 zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter     | Aina   | Inahitajika | Chaguo-msingi | Maelezo                          |
 |---------------|--------|----------|---------|--------------------------------------|
-minconf namba no 1 kiwango cha chini uthibitisho.
- as_of_height namba. no. swali kama ya urefu huu (`-1` = ncha) ➜
+| minconf       | number | no       | 1       | Uthibitisho wa chini kabisa                |
+| as_of_height  | number | no       |         | Swali la urefu huu (`-1` = ncha) |
 
 ---
 
@@ -288,9 +288,9 @@ minconf namba no 1 kiwango cha chini uthibitisho.
 zallet rpc z_getoperationresult ['["opid1","opid2"]']
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter    | Aina            | Inahitajika | Maelezo                              |
 |--------------|-----------------|----------|------------------------------------------|
-操作id.数列字符串的排序没有.OperationIDs (omit for all finished) kusahau kwa ajili ya yote kumaliza
+| operationid  | safu ya kamba | no       | Vitambulisho vya Uendeshaji (ondoa kwa vyote vilivyokamilika)    |
 
 ---
 
@@ -300,9 +300,9 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter    | Aina            | Inahitajika | Maelezo                    |
 |--------------|-----------------|----------|--------------------------------|
-操作id.数列字符串的排序没有.OperationIDs (omit for all) kusahau kwa wote
+| operationid  | safu ya kamba | no       | Vitambulisho vya Uendeshaji (ondoa vyote)   |
 
 ---
 
@@ -312,10 +312,10 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter          | Aina    | Inahitajika | Chaguo-msingi | Maelezo                     |
 |--------------------|---------|----------|---------|---------------------------------|
-minconf namba no 1 kiwango cha chini uthibitisho.
-include_watchonly boolean. no false. Include watch-only balances. (kujumuisha mizani ya kuangalia tu)
+| minconf            | number  | no       | 1       | Uthibitisho wa chini kabisa           |
+| include_watchonly  | boolean | no       | false   | Jumuisha salio la saa pekee     |
 
 ---
 
@@ -325,11 +325,11 @@ include_watchonly boolean. no false. Include watch-only balances. (kujumuisha mi
 zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter  | Aina    | Inahitajika | Chaguo-msingi | Maelezo                          |
 |------------|---------|----------|---------|--------------------------------------|
-akaunti. string. ndiyo. Akaunti UUID.
- hex_data  string  ndiyo  Hex ufunguo wa umma au redeem script 
-rescan. boolean no. true. Rescan baada ya kuingiza data.
+| account    | string  | ndiyo      |         | Akaunti ya UUID                         |
+| hex_data   | string  | ndiyo      |         | Ufunguo wa umma wa Hex au komboa hati      |
+| rescan     | boolean | no       | true    | Changanua upya baada ya kuingiza                  |
 
 ---
 
@@ -339,11 +339,11 @@ rescan. boolean no. true. Rescan baada ya kuingiza data.
 zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter     | Aina   | Inahitajika | Chaguo-msingi        | Maelezo                              |
 |---------------|--------|----------|----------------|------------------------------------------|
- key. string. yes. Sapling extended spending key. (Njia ya kutumia fedha)
-rescan kamba hakuna. `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
- start_height. namba: hapana 0 Rescan kuanza urefu
+| key           | string | ndiyo      |                | Ufunguo wa matumizi ya muda mrefu Sapling            |
+| rescan        | string | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
+| start_height  | number | no       | 0              | Changanua upya urefu wa kuanza                      |
 
 ---
 
@@ -353,9 +353,9 @@ rescan kamba hakuna. `"whenkeyisnew"` | `"yes"`, `"no"`, or `"whenkeyisnew"`   |
 zallet rpc z_listaccounts [<include_addresses>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter          | Aina    | Inahitajika | Chaguo-msingi | Maelezo                              |
 |--------------------|---------|----------|---------|------------------------------------------|
-include_addresses  boolean  no  true Pia anarudi anwani kwa kila akaunti.
+| include_addresses  | boolean | no       | true    | Pia rudisha anwani kwa kila akaunti   |
 
 ---
 
@@ -365,9 +365,9 @@ include_addresses  boolean  no  true Pia anarudi anwani kwa kila akaunti.
 zallet rpc z_listoperationids ['"<status>"']
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter | Aina   | Inahitajika | Maelezo                          |
 |-----------|--------|----------|--------------------------------------|
- hali ya. string  hakuna Filter by status (e.g. `"success"`)  |
+| status    | string | no       | Chuja kwa hali (km. `"success"`)  |
 
 ---
 
@@ -377,13 +377,13 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height>] [<offset>] [<limit>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter      | Aina   | Inahitajika | Maelezo                  |
 |----------------|--------|----------|------------------------------|
-akaunti_uuid string hakuna. Kikomo cha akaunti moja tu.
- kuanza_kilele  idadi  hakuna  pamoja na chini ya mpaka 
-│ end_height‬ namba. no. kipekee juu ya mpaka.
--- offset-- namba no. Kumbuka matokeo haya mengi.
--- limit-- idadi--- hapana --- matokeo ya juu kurudishwa.
+| account_uuid   | string | no       | Kikomo cha akaunti moja         |
+| start_height   | number | no       | Mpaka wa chini unaojumuisha        |
+| end_height     | number | no       | Mpaka wa juu wa kipekee        |
+| offset         | number | no       | Ruka matokeo haya mengi       |
+| limit          | number | no       | Matokeo ya juu zaidi ya kurudi    |
 
 ---
 
@@ -393,9 +393,9 @@ akaunti_uuid string hakuna. Kikomo cha akaunti moja tu.
 zallet rpc z_listunifiedreceivers '"<unified_address>"'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter         | Aina   | Inahitajika | Maelezo                  |
 |-------------------|--------|----------|------------------------------|
- unified_address string. yes  Unified Address to inspect. (Anwani ya umoja ili kukagua)
+| unified_address   | string | ndiyo      | Unified Address ya kukagua   |
 
 ---
 
@@ -405,13 +405,13 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1","addr2"]'] [<as_of_height>]
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter          | Aina            | Inahitajika | Chaguo-msingi | Maelezo                          |
 |--------------------|-----------------|----------|---------|--------------------------------------|
-minconf namba no 1 kiwango cha chini uthibitisho.
-∞ maxconf ∞ idadi ya no ∞ ∞ kiwango cha juu cha uthibitisho.
-include_watchonly boolean hakuna uongo ni pamoja na kuangalia tu.
- anwani  safu ya kamba  hakuna  Filter kwa hizi anwani.
- as_of_height namba. no. swali kama ya urefu huu.
+| minconf            | number          | no       | 1       | Uthibitisho wa chini kabisa                |
+| maxconf            | number          | no       | ∞       | Uthibitisho wa kiwango cha juu zaidi                |
+| include_watchonly  | boolean         | no       | false   | Jumuisha saa pekee                   |
+| addresses          | safu ya kamba | no       |         | Chuja hadi kwenye anwani hizi            |
+| as_of_height       | number          | no       |         | Hoja ya urefu huu              |
 
 ---
 
@@ -421,9 +421,9 @@ include_watchonly boolean hakuna uongo ni pamoja na kuangalia tu.
 zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index":0,"birthday_height":123456}]'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter | Aina  | Inahitajika | Maelezo                                                                 |
 |-----------|-------|----------|-----------------------------------------------------------------------------|
- akaunti  safu ya kurasa Yes Array of objects: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| accounts  | array | ndiyo      | Safu ya vitu: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
@@ -433,13 +433,13 @@ DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
 zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":"..."}]' [<minconf>] [null] ['"<privacy_policy>"']
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Chaguo-msingi. Maelezo.
+| Parameter        | Aina            | Inahitajika | Chaguo-msingi         | Maelezo                                      |
 |------------------|-----------------|----------|-----------------|--------------------------------------------------|
- kutoka anwani  string ndiyo  Anwani chanzo au `"ANY_TADDR"`                  |
-│ kiasi cha │ mchanganyiko wa kitu kwa. │ wapokeaji (`address`, `amount`, hiari `memo`)|
-minconf namba hakuna uthibitisho mdogo.
- ada. Null. Hapana. Lazima kuwa na `null` (ZIP-317 tu)
-faragha_ sera string hakuna `"FullPrivacy"` Sera ya faragha kamba.
+| fromaddress      | string          | ndiyo      |                 | Anwani ya chanzo au `"ANY_TADDR"`                  |
+| amounts          | safu ya kitu | ndiyo      |                 | Wapokeaji (`address`, `amount`, hiari `memo`)|
+| minconf          | number          | no       |                 | Uthibitisho wa chini kabisa                            |
+| fee              | null            | no       |                 | Lazima iwe `null` (ZIP-317 pekee)                    |
+| privacy_policy   | string          | no       | `"FullPrivacy"` | Mfuatano wa sera ya faragha                            |
 
 ---
 
@@ -449,14 +449,14 @@ faragha_ sera string hakuna `"FullPrivacy"` Sera ya faragha kamba.
 zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [null] [<limit>] ['"<memo_hex>"'] ['"<privacy_policy>"']
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter        | Aina   | Inahitajika | Maelezo                                      |
 |------------------|--------|----------|--------------------------------------------------|
- fromaddress  string yes  Transparent address au akaunti UUID  kutoka kwa anwani  mstari wa maneno ndiyo  URL ya wazi au kitambulisho cha akaunti.
- kwa anwani  kamba ndiyo  ulinzi marudio 
- ada. Null. Hapana. Lazima kuwa na `null`                                   |
-☐ kikomo cha idadi ya 📅 no. Namba kubwa zaidi ya UTXOs za msingi wa sarafu kulinda
-kumbukumbu. string. hakuna Hex-encoded kumbukumbu
-faragha_ sera string hakuna `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
+| fromaddress      | string | ndiyo      | Anwani au akaunti ya UUID inayoeleweka              |
+| toaddress        | string | ndiyo      | Sehemu ya mwisho iliyolindwa                             |
+| fee              | null   | no       | Lazima iwe `null`                                   |
+| limit            | number | no       | Idadi ya juu zaidi ya UTXO coinbase za kulinda           |
+| memo             | string | no       | Memo iliyosimbwa kwa heksaidi                                 |
+| privacy_policy   | string | no       | `AllowRevealedSenders` or `AllowLinkingAccountAddresses` |
 
 ---
 
@@ -466,9 +466,9 @@ faragha_ sera string hakuna `AllowRevealedSenders` or `AllowLinkingAccountAddres
 zallet rpc z_viewtransaction '"<txid>"'
 ```
 
-DATA: Kiwango cha data. Aina ya data. Inahitajika. Maelezo.
+| Parameter | Aina   | Inahitajika | Maelezo     |
 |-----------|--------|----------|-----------------|
-txid string ndiyo id ya shughuli.
+| txid      | string | ndiyo      | Kitambulisho cha muamala  |
 
 ---
 

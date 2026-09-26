@@ -36,8 +36,8 @@ Sprout वह baseline है जिस पर बाद के सभी बद
 |---|---|
 | zk-SNARK | एक zero-knowledge proof जो यह दिखाता है कि transaction वैध है, बिना प्रेषक, प्राप्तकर्ता, या राशि बताए |
 | Shielded pool | Zcash का निजी भाग जहाँ राशि और संबंधित पक्ष छिपे रहते हैं। Sprout pool पहला था |
-| z-address और t-address | z-address shielded होता है और विवरण निजी रखता है। t-address transparent होता है और public ledger पर विवरण दिखाता है |
-| Ceremony | 2016 का multi-party setup जिसने Sprout के public parameters तैयार किए और फिर toxic waste को नष्ट कर दिया |
+| z-address and t-address | z-address shielded होता है और विवरण निजी रखता है। t-address transparent होता है और public ledger पर विवरण दिखाता है |
+| The Ceremony | 2016 का multi-party setup जिसने Sprout के public parameters तैयार किए और फिर toxic waste को नष्ट कर दिया |
 | Toxic waste | Ceremony से जुड़े secret key pieces जिन्हें नष्ट करना आवश्यक था ताकि ZEC गढ़ा न जा सके |
 | Consensus branch id 0 | Sprout के नियमों का लेबल, जिसका अर्थ है किसी भी network upgrade से पहले की baseline |
 

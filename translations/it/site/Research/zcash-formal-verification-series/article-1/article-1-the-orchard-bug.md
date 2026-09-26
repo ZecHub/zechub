@@ -159,15 +159,15 @@ Abbiamo semplificato deliberatamente. Il circuito reale coinvolge centinaia di r
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Pool schermato** | La modalità privata di Zcash, nella quale importi e parti coinvolte sono nascosti |
-| **Prova a conoscenza zero** | Una prova che un'affermazione nascosta è valida, senza rivelare altro |
-| **Circuito** | L'insieme fisso di condizioni aritmetiche che una transazione valida deve soddisfare |
-| **Vincolo** | Una condizione (equazione) nel circuito |
-| **Testimone** | I valori segreti che soddisfano i vincoli |
+| **Shielded pool** | La modalità privata di Zcash, nella quale importi e parti coinvolte sono nascosti |
+| **Zero-knowledge proof** | Una prova che un'affermazione nascosta è valida, senza rivelare altro |
+| **Circuit** | L'insieme fisso di condizioni aritmetiche che una transazione valida deve soddisfare |
+| **Constraint** | Una condizione (equazione) nel circuito |
+| **Witness** | I valori segreti che soddisfano i vincoli |
 | **Soundness** | La garanzia che solo le affermazioni vere possano produrre una prova valida |
-| **Lacuna di soundness** | Un vincolo mancante che consente il passaggio di affermazioni false |
-| **Sotto-vincolato** | Un circuito a cui manca una condizione necessaria, alla radice del bug Orchard |
-| **Rilevabile / non rilevabile** | Se lo sfruttamento lascerebbe prove nel registro pubblico |
+| **Soundness gap** | Un vincolo mancante che consente il passaggio di affermazioni false |
+| **Under-constrained** | Un circuito a cui manca una condizione necessaria, alla radice del bug Orchard |
+| **Detectable / undetectable** | Se lo sfruttamento lascerebbe prove nel registro pubblico |
 
 ---
 

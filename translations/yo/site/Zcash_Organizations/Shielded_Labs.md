@@ -31,7 +31,7 @@ Shielded Labs ṣe àkọsílẹ̀ àwọn iṣẹ́ tí ó wà nídìí:
 - [Kò sí nǹkan kan.](https://shieldedlabs.net/zero/) - A supported suite of open-source Zcash infrastructure software for exchanges, mining pools, wallet providers, and other organizations that rely on Zcash infrastructure.
 - [Ironwood](https://shieldedlabs.net/ironwood/) - Àtúnṣe sí ẹ̀rọ Zcash àti ìsọ̀rí tí a dá ní ìdáhùn si àléébù òdì-dídi ti Orchard, èyí tí wọ́n ṣe láti mú kí àwọn ohun èlò tó ń tà káàkiri nínú Zcash padà wà bó ṣe yẹ.
 
-## Ìpín ti igi irin-iṣan
+## Àfikún Igi Ironwood
 
 Ni 2026, Shielded Labs ṣe ipa pataki ninu idahun ilolupo si ailagbara ti o jẹ aṣiṣe Orchard. Aṣayan naa ni a rii nipasẹ oluwadi aabo Awọn Labọ Iboju, Taylor Hornby ati ṣafihan fun Zcash Open Development Lab (ZODL), eyiti o ṣe atunṣe pajawiri pẹlu awọn alabapin miiran Zcash .
 

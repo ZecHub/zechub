@@ -148,15 +148,15 @@ Abbiamo semplificato per chiarezza. Il vero sviluppo Lean è molto più dettagli
 | Termine | Significato in parole semplici |
 |---|---|
 | **Ironwood** | Il nuovo pool schermato di Zcash (2026), che sostituisce il pool difettoso Orchard |
-| **Integrità del saldo** | Il pool non paga mai più valore di quanto vi sia entrato pubblicamente |
-| **Solidità della conoscenza** | Una prova valida richiede che il dimostratore detenga un testimone autentico |
-| **Estrattore** | Una procedura che estrae il testimone da qualunque dimostratore convincente |
+| **Balance integrity** | Il pool non paga mai più valore di quanto vi sia entrato pubblicamente |
+| **Knowledge soundness** | Una prova valida richiede che il dimostratore detenga un testimone autentico |
+| **Extractor** | Una procedura che estrae il testimone da qualunque dimostratore convincente |
 | **Lean** | L'assistente di prova utilizzato per verificare la verifica tramite macchina |
 | **ValidLedger** | Il modello formale delle regole di consenso su cui ragionano i teoremi |
-| **Impronta digitale** | Il confine tra la matematica dimostrata e il software Rust in esecuzione |
-| **Secondo le assunzioni dichiarate** | La prova vale a condizione che le assunzioni crittografiche nominate siano valide |
-| **Tornello** | Una regola che limita le uscite di un pool ai suoi depositi verificabili |
-| **Crittografia ad alta affidabilità** | Costruire crittografia con la verifica formale come passaggio standard |
+| **Fingerprint** | Il confine tra la matematica dimostrata e il software Rust in esecuzione |
+| **Under stated assumptions** | La prova vale a condizione che le assunzioni crittografiche nominate siano valide |
+| **Turnstile** | Una regola che limita le uscite di un pool ai suoi depositi verificabili |
+| **High-assurance cryptography** | Costruire crittografia con la verifica formale come passaggio standard |
 
 ---
 

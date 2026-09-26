@@ -29,7 +29,7 @@ Wɔ afe 2021 mu no, ShapeShift nyaa nsakraeɛ kɛseɛ. Adwumakuw no guu n’adwu
 - **Non-Custodial**: Wɔn a wɔde di dwuma no di gua tẽẽ fi wɔn ankasa sika kotoku mu. ShapeShift nkura wo sika da.
 - **No KYC Required**: Wɔnnyɛ identity verification, wɔnyɛ akontaabu, na wɔannye ankorankoro data.
 - **Multichain Support**: Akwan a wobɛfa so anya agyapade bɛboro 10,000 wɔ 15+ blockchains so, a Bitcoin, Ethereum, Cosmos, ne Zcash ka ho.
-- **DEX Aggregation**: ShapeShift akwan aguadi denam decentralized protocols te sɛ TORChain, 0x, ne afoforo so de hwehwɛ rates a eye sen biara.
+- **DEX Aggregation**: ShapeShift akwan aguadi denam decentralized protocols te sɛ THORChain, 0x, ne afoforo so de hwehwɛ rates a eye sen biara.
 - **Cross-Chain Swaps**: Sesa agyapade natively ntam blockchains ahorow a wɔmfa wrapped tokens anaasɛ centralized bridges nni dwuma.
 - **Fully Open-Source**: Platform no nyinaa, a mobile app no ​​ka ho, yɛ open-source a enni backend a ɛyɛ ne dea a ɛboro blockchain data so.
 

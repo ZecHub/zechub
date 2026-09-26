@@ -43,13 +43,13 @@ Zcash ina uwepo hai wa kimataifa kwenye X. Akaunti muhimu za kufuata:
 | [@Zcash](https://x.com/zcash) | Akaunti rasmi ya Zcash |
 | [@ZecHub](https://x.com/zechub) | ZecHub DAO - elimu ya jamii na zawadi |
 | [@zodl_app](https://x.com/zodl_app) | Pochi ya ZODL (zamani Zashi) |
-| [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash Foundation updates |
+| [@ZcashFoundation](https://x.com/zcashfoundation) | Masasisho Zcash Foundation |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Jumuiya ya Zcash Brazil |
-| [@ZcashTR](https://x.com/ZcashTR) Uturuki wa Zcash |
+| [@ZcashTR](https://x.com/ZcashTR) | Uturuki Zcash |
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nigeria |
 | [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - podikasti ya Zcash ya lugha ya Kihispania |
-| [@ZkAv_Club](https://x.com/ZkAv_Club) Klabu ya ZK ya Sauti na Picha |
+| [@ZkAv_Club](https://x.com/ZkAv_Club) | Klabu ya ZK ya Sauti na Picha |
 | [@cipherscan_app](https://x.com/cipherscan_app) | Kichunguzi cha blockchain cha CipherScan |
 | [@zerodartz](https://x.com/Zerodartz) | Meme na maoni ya jumuiya |
 

@@ -4,7 +4,7 @@
 
 # Overwinter
 
-> Awɔw bere no kɔɔ so traa ase wɔ Zcash mainnet so wɔ block 347,500 (June 26, 2018 UTC).
+> Overwinter kɔɔ so traa ase wɔ Zcash mainnet so wɔ block 347,500 (June 26, 2018 UTC).
 
 Nea wobɛfa: sɛnea Zcash suaa sɛ ɔbɛsesa n’ankasa mmara dwoodwoo, ne nea enti a saa fapem no maa akyiri yi nkɔso biara, a efi ase wɔ Sapling, tumi yɛɛ yiye.
 
@@ -44,12 +44,12 @@ Overwinter yɛ Zcash network upgrade a edi kan wɔ October 2016 mainnet a wɔde 
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Netwɛk no mu nkɔso (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
-| Nhyiamu baa dwumadibea id | Nkyerɛkyerɛmu tiawa a ɛbɔ mprempren mmara a wɔagye atom no din |
-| Activation sorokɔ | Block a network upgrade bi mmara foforo no di dwuma |
-| Replay ahobammɔ | Mmara a esiw asɛm a ɛyɛ adwuma wɔ nkɔnsɔnkɔnsɔn biako so kwan sɛ wɔbɛsan de adi dwuma wɔ foforo so |
+| Network upgrade (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
+| Consensus branch id | Nkyerɛkyerɛmu tiawa a ɛbɔ mprempren mmara a wɔagye atom no din |
+| Activation height | Block a network upgrade bi mmara foforo no di dwuma |
+| Replay protection | Mmara a esiw asɛm a ɛyɛ adwuma wɔ nkɔnsɔnkɔnsɔn biako so kwan sɛ wɔbɛsan de adi dwuma wɔ foforo so |
 | Mempool | Nkitahodi ahorow a wɔabɔ ho dawuru nanso wonnya ntutuu mu nkɔ block |
-| Aguadi no bere atwam | Expiration block height a ɛno akyi no wɔtow asɛm a wɔantow gu |
+| Transaction expiry | Expiration block height a ɛno akyi no wɔtow asɛm a wɔantow gu |
 
 ## FAQ
 
@@ -79,15 +79,15 @@ Efisɛ ɛno na ɛyɛɛ mfiri a akyiri yi nkɔso biara gyina so no. Overwinter de
 
 [ZIP 200: Ntrɛwmu a Wɔde Yɛ Ntrɛwmu](https://zips.z.cash/zip-0200)
 
-[ZIP 201: Network Peer Management ma Awɔw Bere](https://zips.z.cash/zip-0201)
+[ZIP 201: Network Peer Management ma Overwinter](https://zips.z.cash/zip-0201)
 
-[ZIP 202: Version 3 Nkitahodi Nhyehyɛe a Wɔde Ma Awɔw Bere](https://zips.z.cash/zip-0202)
+[ZIP 202: Version 3 Nkitahodi Nhyehyɛe a Wɔde Ma Overwinter](https://zips.z.cash/zip-0202)
 
 [ZIP 203: Aguadi no twam](https://zips.z.cash/zip-0203)
 
-[ZIP 143: Aguadi Nsaano Nkyerɛwee a Wɔde Di Dwuma ma Awɔw Bere](https://zips.z.cash/zip-0143)
+[ZIP 143: Aguadi Nsaano Nkyerɛwee a Wɔde Di Dwuma ma Overwinter](https://zips.z.cash/zip-0143)
 
-[Awɔw Bere mu Network Upgrade](https://z.cash/upgrade/overwinter/)
+[Overwinter Network Upgrade](https://z.cash/upgrade/overwinter/)
 
 ### Hwɛ nso
 

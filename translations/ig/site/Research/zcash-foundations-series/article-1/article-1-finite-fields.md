@@ -1,7 +1,7 @@
 # Ogige ndị nwere njedebe: Usoro ọnụọgụgụ nke Cryptography bi na ya
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-5-6e8a8950f8.webp)
+! ![Alt ederede](/content-images/image-5-6e8a8950f8.webp)
 
 ### Ihe mere "ịtụgharị" bụ ntọala nzuzo nke Zcash
 
@@ -38,7 +38,7 @@ Ndepụta ọchịchọ ahụ nwere aha. Ọ bụ ** ubi a na-ejedebe **. Ka any
 
 On a 12-hour clock, numbers *wrap around*. Start at 10 o'clock, add 5 hours, and you don't land on "15 o'clock," you land on **3 o'clock**. The clock has only twelve positions, and counting past the top simply loops back to the start.
 
-! [Alt ederede](/content-images/image-9-30b39f4cc5.webp)
+! ![Alt ederede](/content-images/image-9-30b39f4cc5.webp)
 
 Ihe atọ mere n'oge na-adịbeghị anya bụ isi ihe dị n'isiokwu a:
 
@@ -107,7 +107,7 @@ That second sentence is a catastrophe for arithmetic. Two nonzero things multipl
 
 A prime, by definition, has no such factors. So mod a prime, no zero divisors can appear, every nonzero element gets a clean reciprocal, and the structure is a proper field.
 
-! [Alt ederede](/content-images/image-8-573914db92.webp)
+! ![Alt ederede](/content-images/image-8-573914db92.webp)
 
 > ** Otu-liner reusable maka isiokwu gị: ** * prime modulus n'ime, ọcha nkewa si.*
 
@@ -139,13 +139,13 @@ Nnwale na `F_7` (`p = 7`, so `p - 2 = 5`): ihe inverse nke `2` kwesịrị ịb�
 
 N'ịchịkọta ihe ọmụma ahụ, lee ihe ndekọ ahụ dum n'otu peeji.
 
-Ihe onwunwe `F_p` ❑ Gịnị mere usoro nzuzo ji chọọ ya ❑ Olee ihe mere ị ga-eji chọọ ya?
+| Ihe onwunwe nke `F_p` | Ihe kpatara sistemụ nzuzo ji chọọ ya |
 |---|---|
-** Finite ** Kọmputa na-echekwa ihe ọ bụla n'ụzọ ziri ezi; enweghị mgbatị, enweghị overflow, enweghị ntụpọ na-ese n'elu mmiri.
-**Wrap-around**. Ehichapụ "size", yabụ uru anaghị agbapụta ihe ọ bụla gbasara etu esi mepụta ya.
-**Ọrụ anọ niile na-arụ ọrụ** Ntụziaka cryptographic (mkpịsị ugodi, nkwa, ihe akaebe) chọrọ ezigbo algebra, ọ bụghị naanị ịgụta ọnụ.
-∙∙∙ ** Nhọrọ nha ** ∙• Họrọ 255-bit ma ọ bụ 381-bit isi na ubi nwere ihe ndị ọzọ karịa e nwere atọm na observable eluigwe na ala; guessing bụ enweghị olileanya
-| **Exact and deterministic** | Two honest parties computing the same thing always get identical results, which proofs depend on |
+| **Ngwụcha** | Kọmputa na-echekwa ihe ọ bụla kpọmkwem; ọ dịghị agba gburugburu, ọ dịghị mmiri juru eju, ọ dịghịkwa ihe na-ese n'elu mmiri |
+| **Gbaa gburugburu** | Na-ehichapụ "nha," yabụ uru anaghị ekpughe ihe ọ bụla gbasara otu esi emepụta ya |
+| **Ọrụ anọ niile na-arụ ọrụ** | Ntụziaka maka ihe odide nzuzo (igodo, nkwa, ihe akaebe) chọrọ ezigbo algebra, ọ bụghị naanị ịgụta ọnụ |
+| **Nha a ga-ahọrọ** | Họrọ 255-bit ma ọ bụ 381-bit praịm, ebe ahụ nwere ọtụtụ ihe karịa atọm dị na mbara igwe a na-ahụ anya; ịkọ nkọ enweghị olileanya |
+| **Kpọmkwem na nke doro anya** | Ndị otu abụọ na-eme ihe n'eziokwu na-agbakọ otu ihe na-enweta otu nsonaazụ mgbe niile, nke ihe akaebe dabere na ya |
 
 A finite field is, in one phrase, **a perfectly closed, perfectly exact, perfectly huge playground for arithmetic.** Everything else in Zcash is built by playing inside it.
 
@@ -159,7 +159,7 @@ Ikwesighi iwere "Zcash na-eji ubi ndị nwere njedebe" na okwukwe. Nke a bụ ma
 - **Orchard** (the current shielded design) uses a pair of curves called **Pallas and Vesta** (the "Pasta" curves), whose fields use primes roughly **255 bits** long.
 - **not commitment**, the **nullifier**, and the numbers inside a **zero-knowledge proof** from Article 0 are all, at bottom, elements of one of these finite fields. Mgbe protocol kwuru "compute this commitment", ọ pụtara "mee nke a arithmetic mod that prime".
 
-! [Alt ederede](/content-images/image-7-c81fe982f0.webp)
+! ![Alt ederede](/content-images/image-7-c81fe982f0.webp)
 
 So the answer to Article 0's open question, *"where do the secret recipes come from?"*, begins here: **everything starts as arithmetic in a finite field.** In the next article we'll take that field and build the actual objects, points on an elliptic curve, that become keys and commitments.
 
@@ -184,15 +184,15 @@ Iji nọrọ ọhụrụ-enyi na enyi anyị simplified a ole na ole ezi ihe. `F
 
 ## Okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara.
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-**Modular arithmetic** Arithmetics nke na-agbanye gburugburu mgbe ọ ruru uru a kapịrị ọnụ, dị ka elekere.
-"Kekọrịta site na `p` ma debe ihe fọdụrụnụ".
-** Ubi ** Ọ bụ usoro ọnụọgụgụ ebe agbakwunye, wepụ, mụbaa, ma kewaa ọrụ niile.
-** Ala nwere njedebe `F_p`Ọnụ ọgụgụ ndị ahụ `0..p-1` na arithmetic mere mod a isi `p` |
-** Inverse (reciprocal) ** Ihe ahụ `a^(-1)` na `a x a^(-1) = 1`; "kewara site na `a`" pụtara ịba ụba ya.
-** Zero divisor**: Ihe abụọ na-abụghị efu nke ngwaahịa ha bụ zero; ihe na-emebi moduli mejupụtara.
- **Prime**  Ọnụ ọgụgụ zuru oke karịrị 1 na enweghị ihe ọ bụla ma e wezụga 1 na onwe ya
+| **Modular arithmetic** | Mgbakọ na mwepụ nke na-agbakọta mgbe o ruru uru a kapịrị ọnụ, dị ka elekere |
+| **mod p** | "Kewaa site na `p` ma debe ihe fọdụrụ" |
+| **Field** | Sistemụ ọnụọgụgụ ebe ịtinye, wepụ, mụbaa, ma kewaa ọrụ niile |
+| **Finite field `F_p`** | Ọnụọgụ ndị ahụ `0..p-1` na mgbakọ na mwepụ emee mod a praịm `p` |
+| **Inverse (reciprocal)** | Ihe ahụ `a^(-1)` na `a x a^(-1) = 1`"na-ekewa site na `a`"pụtara ịmụba site na ya |
+| **Zero divisor** | Uru abụọ na-abụghị efu nke ngwaahịa ha bụ efu; ihe na-emebi modulu mejupụtara |
+| **Prime** | Ọnụọgụgụ dum karịrị 1 na-enweghị ihe ọ bụla ma e wezụga 1 na onwe ya |
 
 ---
 

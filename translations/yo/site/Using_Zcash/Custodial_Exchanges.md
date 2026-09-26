@@ -18,7 +18,7 @@ Ironwood ni adágún ààbò tó dé pẹ̀lú àtúnṣe nẹ́tíwọ́ọ̀k�
 - Àwọn méjì: ZEC/USDC | ZEC-PERP
 - Àwọn Àtìlẹ́yìn: A ti fi owó ìdókòwò àti ìyọkúrò sílẹ̀. A kò sọ irú àdírẹ́sì náà
 - Àkókò Ìfipamọ́: Kò sọ
-- Igi irin: A ko sọ
+- Ironwood: A ko sọ
 ___
 
 ### [Binance](https://binance.com)
@@ -44,7 +44,7 @@ ___
 - Àwọn méjì-méjì: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
 - Àwọn Àtìlẹ́yìn: Àfihàn | Ààbò (Àdírẹ́sì z-ìfipamọ́ àti yíyọkúrò)
 - Àkókò Ìfipamọ́: Lẹ́sẹ̀kẹsẹ̀ (ìyípadà tí kìí ṣe ti àkóso)
-- Igi irin: A ko sọ
+- Ironwood: A ko sọ
 ___
 
 ### [Bitfinex](https://bitfinex.com)

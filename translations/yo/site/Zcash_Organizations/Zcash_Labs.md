@@ -18,7 +18,7 @@ Zcash Labs sọ pé àjọ náà jẹ́ aládàáni àti kò ní ìbáṣepọ̀
 
 Zcash Labs ti ṣafihan si gbogbo eniyan nipasẹ oju opo wẹẹbu osise rẹ ni ** Oṣu Kẹjọ Ọjọ 6, 2026**. Ni ** Ọsẹ 12, 2026, Awọn ile-iṣẹ Zcash lẹhinna ṣe afihan awọn iṣẹ rẹ fun agbegbe nipasẹ Forum Agbegbe Zcash ninu ikede kan ti o pe akọle naa ** Ikede Ile-iṣowo Zcash A Zcash Lọ Si Iṣẹ ọja ** .
 
-bó tilẹ̀ jẹ́ pé oṣù august ọdún 2026 ni wọ́n kéde ìfilọlẹ náà, zcash labs sọ wípé àwọn ìgbòkègbodò wọn ti bẹ̀rẹ̀ ṣáájú kí wọ́n tó ṣe ìfilò yìí. zcash Labs ń ṣiṣẹ pẹlú iṣẹ́ tí ó lo Zcash àti ìrànlọ́wọ́ nínú ètò ìtẹ̀síwájú kó to di ìgbà tí a fi orúkọ zcash labs síta ní àgbáyé. àpẹẹrẹ àkọkọ́ kan tí wọ́ n kéde rẹ̀ fún gbogbo ènìyàn lẹ́yìn èyí ni dídápá rẹ̀ nínú idagbasoke **zcashtocash** .
+Bó tilẹ̀ jẹ́ pé wọ́n kéde gbogbo ènìyàn ní oṣù kẹjọ ọdún 2026, Zcash Labs sọ pé àwọn iṣẹ́ wọn ti ń lọ lọ́wọ́ kí wọ́n tó kéde náà. Zcash Labs ti ń ṣiṣẹ́ pẹ̀lú àwọn iṣẹ́ àkànṣe tí wọ́n ń lo Zcash àti ìrànlọ́wọ́ nínú ìlànà ìdàgbàsókè kí wọ́n tó fi ìdámọ̀ Zcash Labs hàn gbangba. Àpẹẹrẹ àkọ́kọ́ kan tí wọ́n kéde fún gbogbo ènìyàn lẹ́yìn náà ni ipa rẹ̀ nínú ìdàgbàsókè **zcashtocash**.
 
 The emergence of Zcash Labs is related to the need to narrow the gap between available Zcash technology and the ability of businesses or developers to use it. A company may have needs that align with Zcash but not yet know the required technology, how to integrate, or the infrastructure to use. At the same time, a new project may have a promising concept but require technical assistance, product management, seed capital, or support to reach the production stage. Zcash Labs works in that space by providing support that connects business and developer needs with **Zcash** technology.
 
@@ -48,7 +48,7 @@ Gẹgẹbi ikede kan lati ọdọ **[Àjọ Ìgbìmọ̀ Zcash Forum](https://fo
 
 Zcash Labs explains a fairly simple workflow. The process begins by understanding the needs of those who approach them, then honestly assessing whether Zcash is indeed suitable for that use case. If it is, they help map out the usage flow, technical requirements, and various trade-offs or design implications that need to be considered. After that, they can assist in building the technical solution and, where relevant, help with funding and co-marketing activities.
 
-Ọna yii ṣe pataki nitoripe kii ṣe gbogbo iṣẹ ni o dara fun Zcash. Nipa fifi ipele ayẹwo si ibẹrẹ, awọn ile-iṣẹ zcash n tiraka lati jẹ alabaṣepọ imuse ti onigbọwọ kan, dipo ki o ma ṣe alagbawi gbigba nikan ti ko foju inu pẹlu ibamu pẹlu aini gidi agbaye.
+Ọ̀nà yìí ṣe pàtàkì nítorí pé kìí ṣe gbogbo iṣẹ́ ni ó yẹ fún Zcash. Nípa gbígbé ìpele ìṣàyẹ̀wò kalẹ̀ ní ìbẹ̀rẹ̀, Zcash Labs ń gbìyànjú láti jẹ́ alábàáṣiṣẹpọ̀ ìgbésẹ̀ tó ṣeé gbéṣẹ́, dípò kí ó jẹ́ agbẹjọ́rò ìgbàlọ́wọ́ tí kò fojú fo ìbáramu pẹ̀lú àwọn àìní gidi.
 
 ---
 
@@ -104,7 +104,7 @@ Niwon a ko ṣe idaniloju isanpada, Zcash Labs ṣiṣẹ bi ** underwriter owo.
 
 Awọn oludasile ti o gba atilẹyin ko ni lati gbe gbogbo ewu lakoko idaduro fun awọn esi ti owo-owo atunṣe. Wọn le gba awọn sisanwo da lori iṣẹ ti a ṣe adehun, nigba Zcash Labs n ronu eewu boya wọn yoo san iye owo naa pada nigbamii.
 
-ìtòlẹ́sẹẹsẹ yìí dá ìṣírí fún àwọn ilé iṣẹ́ àyẹ̀wò zcash láti ṣọra nígbà tí wọ́n bá ń yan àwọn ètò. ilé-iṣẹ́ àyẹ̀wò Zcash gbọdọ̀ ronú bóyá ohun èlò kan ní ọ̀nà lílo tó ṣe kedere, ó ṣeéṣe, o lè gbajúmọ̀ àti pé yóò pèsè àǹfààní ti a le gbé yẹ̀ wò nípa ọwọ́ àwọn olùkópa ẹ̀rí ìdánilójú owó ilẹ̀ òkèèrè (ZEC). bí ìdájọ́ náà kò ba tọ́ síi tí wọn sì kọ̀ láti sanwó padà, ilé-ìwádìí àjẹrẹ́ Zcash ni yóò ru ìyàléwo ọrọ̀ ajé ìpinnu yẹn.
+Ìṣètò yìí ń mú kí Zcash Labs ṣọ́ra nígbà tí wọ́n bá ń yan àwọn iṣẹ́ àkànṣe. Zcash Labs gbọ́dọ̀ ronú bóyá ọjà kan ní ọ̀nà lílò tó ṣe kedere, ó ṣeé ṣe, ó ní agbára láti gbà á, ó sì ń fúnni ní àǹfààní tí àwọn tó ní ZEC lè ṣe àyẹ̀wò rẹ̀. Tí ìṣàyẹ̀wò náà kò bá péye tí wọ́n sì kọ̀ láti san owó padà, Zcash Labs ní àbájáde ìnáwó ti ìpinnu náà.
 
 ---
 
@@ -132,7 +132,7 @@ Ti Zcash Labs ba ni lati ṣe idoko-owo inifura kan ni ọjọ iwaju, agbari naa
 
 **[ZcashtoCash (ì í ì ë§)](https://zcashto.cash/)** jẹ ọkan ninu awọn iṣẹ akanṣe akọkọ ti o mọ gbangba lati gba atilẹyin lati Zcash Labs. A ṣẹda ise agbese naa lati ṣe iranlọwọ fun awọn olumulo yipada ZEC sinu owo fiat nipasẹ awọn iṣowo ẹlẹgbẹ-si-ẹlẹgbẹ .
 
-zcashtocash nlo ohun elo lati ọdọ **Peer**. A lo eto yii lati ṣayẹwo awọn sisanwo fiat ṣaaju ki o to tu ZEC silẹ ni iṣowo kan. Nigbati a ṣe agbekalẹ Awọn ile-iṣẹ Zcash si gbogbo eniyan, iṣẹ naa ti tẹlẹ atilẹyin Cash App, Chime, Monzo, Revolut, Venmo ati Zelle.
+zcashtocash nlo awọn eto amayederun lati ọdọ **Peer**. Eto yii ni a lo lati jẹrisi awọn sisanwo fiat ṣaaju ki a to tu ZEC silẹ ninu iṣowo kan. Nigbati a ṣe afihan Zcash Labs si gbogbo eniyan, iṣẹ naa ti ṣe atilẹyin fun **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo**, ati **Zelle**.
 
 Gẹgẹbi alaye ti a pese nigbati wọn kede iṣẹ naa, apapo awọn iṣẹ isanwo yii nfunni ni agbara lati bo diẹ sii ju ** 100 agbegbe ilẹ-aye**. Ẹgbẹ naa tun ngbero lati faagun nọmba awọn ohun elo sisan ati awọn ẹkun to ṣe atilẹyin.
 
@@ -182,7 +182,7 @@ Zcash Labs therefore does not operate as a committee that allocates funds belong
 
 ---
 
-## Ìjẹ́pàtàkì àwọn ilé-ìwádìí Zcash nínú ètò ìsálú ayé.
+## Pàtàkì Àwọn Zcash Labs nínú Àyíká
 
 Zcash Labs' ipa le ni oye bi a afara laarin awọn imọ ẹrọ zcash ati awọn ti o wulo aini ti gbigba. ọpọlọpọ blockchain ise agbese ni robust ọna ṣugbọn ìja lati se aseyori gbaye gba nitori isopọmọ idena, kan lack of technical support, tabi uncertainty nipa ibẹrẹ owo. zcash labs aims to kún wipe aafo nipasẹ ẹbọ ohun diẹ agile apapo ti consulting, imuse, amayederun, ati inawo.
 
@@ -204,7 +204,7 @@ As of **[Oṣu Kẹjọ ọdun 2026](https://x.com/ZcashLabs/status/208756155725
 
 ## Ìpolongo fún Gbogbo Èèyàn
 
-Àwọn ilé-ìwádìí Zcash ń lo **[ìkànnì zcashlabs.org](https://zcashlabs.org/)** bi oju opo wẹẹbu akọkọ rẹ lati ṣalaye awọn iṣẹ, awoṣe igbeowo, awọn iṣẹ akanṣe ati idagbasoke agbari. Alaye alaye diẹ sii nipa ọna ifilọlẹ rẹ tun ti tẹjade lori iwe iyasọtọ kan nipa awoṣe ifowopamọ ati ninu awọn nkan ikede ajọṣepọ.
+Zcash Labs ń lo **[ìkànnì zcashlabs.org](https://zcashlabs.org/)** bi oju opo wẹẹbu akọkọ rẹ lati ṣalaye awọn iṣẹ, awoṣe igbeowo, awọn iṣẹ akanṣe ati idagbasoke agbari. Alaye alaye diẹ sii nipa ọna ifilọlẹ rẹ tun ti tẹjade lori iwe iyasọtọ kan nipa awoṣe ifowopamọ ati ninu awọn nkan ikede ajọṣepọ.
 
 Zcash Labs tun nlo awọn **[Àjọ Ìgbìmọ̀ Zcash Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)** to discuss with the community how the organization operates. Announcement threads provide additional explanations regarding the size of initial grants, financial underwriting, reimbursement risks, the approach to equity, and plans to scale up activities if the model gains support.
 
@@ -228,10 +228,10 @@ Nipasẹ ọna yii, Zcash Labs ni ifọkansi lati ṣẹda ipa-ọna taara diẹ
 
 [Zcash Labs](https://zcashlabs.org/)
 
-[A n kede Awọn Ile-iṣẹ Zcash: Iṣowo Ọja ti Owo-ọjà kan](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)
+[Kéde Zcash Labs: Ilé-iṣẹ́ Zcash Go-to-Market kan](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)
 
 [Zcash Labs lori X.](https://x.com/zcashlabs)
 
-[Àwọn ilé-ìwádìí Zcash lórí Github](https://github.com/zcashlabs)
+[Zcash Labs lórí Github](https://github.com/zcashlabs)
 
-[Àwọn ilé-ìwádìí Zcash lórí àwọn ìkànnì orí ayélujára (Weblogs)](https://zcashlabs.org/blog)
+[Zcash Labs lórí àwọn bulọọgi wẹ́ẹ̀bù](https://zcashlabs.org/blog)

@@ -40,13 +40,13 @@ Heartwood 是 Zcash 一系列升级中的一步，每次升级都会增加下一
 
 | 术语 | 通俗含义 |
 |---|---|
-| 网络升级（NU） | 对 Zcash 共识规则进行的协调性变更，在预设区块高度激活 |
-| Coinbase 交易 | 每个区块中用于支付区块奖励的特殊交易 |
-| 屏蔽的 Sapling 地址 | 由 Sapling 升级引入的一种私密 Zcash 地址类型 |
-| 屏蔽 coinbase | Heartwood 引入的变更，使区块奖励可以支付到屏蔽的 Sapling 地址 |
+| Network upgrade (NU) | 对 Zcash 共识规则进行的协调性变更，在预设区块高度激活 |
+| Coinbase transaction | 每个区块中用于支付区块奖励的特殊交易 |
+| Shielded Sapling address | 由 Sapling 升级引入的一种私密 Zcash 地址类型 |
+| Shielded coinbase | Heartwood 引入的变更，使区块奖励可以支付到屏蔽的 Sapling 地址 |
 | FlyClient | 一种让轻量客户端能够用小型证明验证工作量证明的方法 |
 | Merkle Mountain Range (MMR) | 对过去区块进行持续汇总的一种结构，区块头会对其作出承诺 |
-| 共识分支 id | 用于标识某笔交易遵循哪次升级规则的标签，用于重放保护 |
+| Consensus branch id | 用于标识某笔交易遵循哪次升级规则的标签，用于重放保护 |
 
 ## 常见问题
 

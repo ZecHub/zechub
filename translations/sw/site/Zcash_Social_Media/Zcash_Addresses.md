@@ -48,7 +48,7 @@ The raw encoding of a Unified Address is a combination of encodings (typecode, l
 - Sapling: `0x02`  
 - Uwazi: `0x01`  
 
-** Muhimu**: Kuna lazima kuwa na angalau moja walinzi malipo anwani katika kila UA. (Anwani za shina ni tena mkono baada ya kuboresha Canopy.)
+**Muhimu**: Lazima kuwe na **angalau anwani moja ya malipo iliyolindwa** katika kila UA. (Sprout hazitumiki tena baada ya uboreshaji wa Canopy.)
 
 ![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 

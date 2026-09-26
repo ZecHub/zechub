@@ -803,7 +803,7 @@ Muunganisho uliokomaa na unaotumika sana ni pamoja na **WordPress + WooCommerce*
 
 ---
 
-#### Biashara ya Woo (WordPress)
+#### WooCommerce (WordPress)
 
 Seva ya BTCPay inasaidia rasmi programu-jalizi ya WooCommerce.
 

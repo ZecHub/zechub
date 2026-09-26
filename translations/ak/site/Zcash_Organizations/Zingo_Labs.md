@@ -11,7 +11,7 @@ Zingo Lab Cyan yɛ adwuma sɛ Shielded DAO. Yɛkora yɛn sika so wɔ sikakorabea
 ### Zingo! Sikakorabea ([Github](https://github.com/zingolabs/zingo-mobile))
 Zingo Wallet yɛ Zcash sika kotoku a ɛwɔ nneɛma nyinaa a wɔayɛ ama wɔn a wɔde di dwuma no adamfofa su, ɛwom sɛ ɛde nneɛma bi a ɛkɔ akyiri ka ho ma wɔn a wɔakɔ anim kɛse de. Ɛboa transparent, Sapling ne Orchard pools, ɛwɔ address book a wɔde tua sika mpɛn pii na ɛwɔ kasa ahodoɔ mu. Ɛyɛ sika kotoku a edi kan a ɛboaa Orchard na ɛde NU5 format ahorow dii dwuma.
 
-Zingo no mu nneɛma atitiriw no mu biako! ne tumi a ɛwɔ sɛ ɛde Memo field no di dwuma de nhumu a ɛsom bo ma wɔ wo nnwuma ho.
+Zingo! ne tumi a ɛwɔ sɛ ɛde Memo field no di dwuma de nhumu a ɛsom bo ma wɔ wo nnwuma ho.
 
 Zingo! no wɔ hɔ ma mobile mfiri ne PC ahorow. Wubehu nea wɔatwe nyinaa [ha](https://zingolabs.org/)
 

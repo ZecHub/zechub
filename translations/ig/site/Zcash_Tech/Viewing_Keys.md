@@ -22,9 +22,9 @@ E nwere ihe karịrị otu ụdị isi, ọdịiche dị na ya na-ekpebi ego ole
 
 | Igodo | Ndozi Okwu | Onyinye |
 |---|---|---|
-| Igodo nlele zuru oke ejikọtara ọnụ (UFVK) | `uview…` | Na-ahụ azụmahịa **na** na-abata maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ |
-| Igodo nlele na-abata nke ejikọtara ọnụ (UIVK) | `uivk…` | Na-ahụ naanị azụmahịa na-abata, maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ |
-| Igodo nlele zuru oke nke Sapling | `zxviews…` | Na-ahụ ọrụ Sapling na-abata na nke na-apụ apụ maka adreesị igodo ahụ |
+| Unified full viewing key (UFVK) | `uview…` | Na-ahụ azụmahịa **na** na-abata maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ |
+| Unified incoming viewing key (UIVK) | `uivk…` | Na-ahụ naanị azụmahịa na-abata, maka ọdọ mmiri ọ bụla dị na akaụntụ ahụ |
+| Sapling extended full viewing key | `zxviews…` | Na-ahụ ọrụ Sapling na-abata na nke na-apụ apụ maka adreesị igodo ahụ |
 
 Ọ dịghị nke ọ bụla n'ime ihe ndị a nwere ike imefu ego. Ha niile na-adịgide adịgide n'ụzọ dị mkpa: a pụghị icheta igodo ị nyere, naanị ihe ị ga-eme bụ ịbufe ego gaa na akaụntụ nke igodo onye nke ọzọ na-ejideghị.
 

@@ -20,7 +20,7 @@ Discord
 
 Anyị kwesịrị ịmalite na Discord n'ihi na ọ bụ ngwa nkwurịta okwu anyị na-eji "n'ụlọ".
 
-Agha bụ nnọọ uru maka ijikwa a nnukwu obodo na a dịgasị iche iche nke isiokwu, ma ọ bụ nnọọ dị ka ikpe mara dị ka ọtụtụ ndị ọzọ nke na-erite uru site na anyị onwe onye ozi.
+Discord bara ezigbo uru maka ijikwa obodo buru ibu n'ọtụtụ isiokwu dị iche iche, mana ọ bụkwa ihe ọjọọ dịka ọtụtụ ndị ọzọ irite uru site na ozi nkeonwe anyị.
 
 ### Nchekwa data nke Discord
 

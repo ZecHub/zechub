@@ -20,7 +20,7 @@ Sprout wɔ adrɛs ƒomevi eve. Adrɛs siwo me kɔ (t-adrɛs) wɔa dɔ abe Bitcoi
 
 ## Kɔnua
 
-zk-SNARK siwo le Sprout hiã dutoƒo parameters ƒe hatsotso aɖe, eye wo wɔwɔ dedie bia be woawɔ ɖoɖo zi ɖeka si woyɔna be Ceremony. Gomenɔla ade siwo nɔ teƒe vovovowo, siwo le didiƒe, dometɔ ɖesiaɖe wɔ nu ɣaɣla aɖe, si woyɔna be gbeɖuɖɔ si me aɖi le. Ne ame aɖe gaƒo kakɛawo katã nu ƒu gbeɖeka la, ate ŋu awɔ ZEC tso naneke me o. Alesi wowɔe la trɔ afɔku ma wòzu se bɔbɔe aɖe: zi alesi gomekpɔla ɖeka ya teti tsrɔ̃ woƒe akpaa ko la, womate ŋu agbugbɔ nya ɣaɣla bliboa atu gbeɖe o, eyata aʋatsokaka gakpɔtɔ nye nusi mate ŋu adzɔ o. Gomenɔla siwo ƒe ŋkɔ woyɔ le dutoƒo dometɔ aɖewoe nye Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, kple Derek Hinch siwo le NCC Ƒuƒoƒoa me. Gomenɔla ɖeka tiae be yemaɖe yeƒe ŋkɔ o.
+zk-SNARKs siwo le Sprout hiã dutoƒo parameters ƒe hatsotso aɖe, eye wo wɔwɔ dedie bia be woawɔ ɖoɖo zi ɖeka si woyɔna be Ceremony. Gomenɔla ade siwo nɔ teƒe vovovowo, siwo le didiƒe, dometɔ ɖesiaɖe wɔ nu ɣaɣla aɖe, si woyɔna be gbeɖuɖɔ si me aɖi le. Ne ame aɖe gaƒo kakɛawo katã nu ƒu gbeɖeka la, ate ŋu awɔ ZEC tso naneke me. Alesi wowɔe la trɔ afɔku ma wòzu se bɔbɔe aɖe: zi alesi gomekpɔla ɖeka ya teti tsrɔ̃ woƒe akpaa ko la, womate ŋu agbugbɔ nya ɣaɣla bliboa atu gbeɖe o, eyata aʋatsokaka gakpɔtɔ nye nusi mate ŋu adzɔ o. Gomenɔla siwo ƒe ŋkɔ woyɔ le dutoƒo dometɔ aɖewoe nye Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, kple Derek Hinch siwo le NCC Ƒuƒoƒoa me. Gomenɔla ɖeka tiae be yemaɖe yeƒe ŋkɔ o.
 
 ![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
 
@@ -35,11 +35,11 @@ Sprout ye nye gɔmeɖoanyi si dzi tɔtrɔ ɖesiaɖe si ava emegbe tua ɖo. Esi n
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
 | zk-SNARK | Kpeɖodzi si me sidzedze zero le si ɖea asitsatsa aɖe fiana la sɔ evɔ meɖe amesi ɖoe ɖa, amesi xɔe, alo ga home |
-| Ta si wotsɔ akpoxɔnu wɔe | Zcash ƒe akpa si nye ame ŋutɔ tɔ si me woɣlaa ga homewo kple kplɔ̃ɖoƒewo le. Sprout ta lae nye gbãtɔ |
-| z-adrɛs kple t-adrɛs | Wokpɔa z-adrɛs ta eye wònaa nyatakakawo nɔa ɣaɣla. T-adrɛs aɖe me kɔ eye wòɖea nyatakakawo fiana le dutoƒo ledger |
-| Kɔnu la | Ƒe 2016 ƒe akpa geɖe ƒe ɖoɖo si na Sprout ƒe dutoƒo parameters eye emegbe wòtsɔ aɖi gbeɖuɖɔwo ƒu gbe |
-| Gbeɖuɖɔ siwo me aɖi le | Safui ɣaɣla siwo tso Kɔnu la me siwo wòle be woatsrɔ̃ ale be womate ŋu awɔ ZEC o |
-| Nubabla ƒe alɔdze id 0 | Sprout ƒe sewo ƒe dzeside, si gɔmee nye gɔmedzedze hafi network ƒe tɔtrɔ ɖesiaɖe |
+| Shielded pool | Zcash ƒe akpa si nye ame ŋutɔ tɔ si me woɣlaa ga homewo kple kplɔ̃ɖoƒewo le. Sprout ta lae nye gbãtɔ |
+| z-address and t-address | Wokpɔa z-adrɛs ta eye wònaa nyatakakawo nɔa ɣaɣla. T-adrɛs aɖe me kɔ eye wòɖea nyatakakawo fiana le dutoƒo ledger |
+| The Ceremony | Ƒe 2016 ƒe akpa geɖe ƒe ɖoɖo si na Sprout ƒe dutoƒo parameters eye emegbe wòtsɔ aɖi gbeɖuɖɔwo ƒu gbe |
+| Toxic waste | Safui ɣaɣla siwo tso Kɔnu la me siwo wòle be woatsrɔ̃ ale be womate ŋu awɔ ZEC o |
+| Consensus branch id 0 | Sprout ƒe sewo ƒe dzeside, si gɔmee nye gɔmedzedze hafi network ƒe tɔtrɔ ɖesiaɖe |
 
 ## Nyabiasewo ƒe Nyabiasewo
 

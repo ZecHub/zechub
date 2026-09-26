@@ -4,7 +4,7 @@
 
 
 # PGP* fún Crypto Podcast
-[ìdákò pgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
+![ìdákò pgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
 
 A kí yín káàbọ̀ sí PGP* (Pretty Good Policy) fún Crypto Podcast, "ìlànà kan ti Electric Coin Co.!
 

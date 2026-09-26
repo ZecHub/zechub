@@ -43,11 +43,11 @@ ZIP no Sapling nhyehyeɛ no de outgoing cipher key di dwuma de san nya output bi
 
 | Ɔkwan a Wɔfa so | Fa di dwuma yiye | Nea ɛda adi | Nkɔso a wɔde kɔ hɔ? | Cryptographically a wɔde kyekyere sika a wotua no ho? |
 | --- | --- | --- | --- | --- |
-| Nkitahodi ID | Hwɛ sɛ wɔatu asɛm bi | Ɔmanfoɔ nnwuma ho nsɛm ne nsɛm a wɔasi so dua | Dabi | Yiw, nanso sikatua ho nsɛm a wɔabɔ ho ban no da so ara sie |
-| Screenshot anaasɛ krataa a wɔde gye | Kyerɛwtohɔ a wɔyɛ no ɔkwan biara so | Biribiara a nea ɔde kɔma no bɛpaw sɛ ɔbɛda | Dabi | Daabi; wobetumi asiesie mfonini no |
-| Katua a wɔda no adi | Nsɛm a wɔapaw a ɛfa sikatua biako ho a wɔbɛda no adi | Nkitahodi mu nsunsuanso a wɔapaw ne nea ɛka ho biara a ɔde kɔma anaasɛ adanse a ɛkyerɛ sɛ ɛyɛ asɛnnennen | Dabi, nanso wobetumi ayɛ adanse a wɔakyɛ no ho mfonini | Yiw |
-| Incoming Viewing Key | Monitoring payments received by an account | Incoming activity covered by the key | Yes | It decrypts matching incoming payments |
-| Full Viewing Key | Accounting or auditing an account | Incoming and outgoing activity, amounts, memos, and balances covered by the key | Yes | It decrypts matching account activity |
+| Transaction ID | Hwɛ sɛ wɔatu asɛm bi | Ɔmanfoɔ nnwuma ho nsɛm ne nsɛm a wɔasi so dua | Dabi | Yiw, nanso sikatua ho nsɛm a wɔabɔ ho ban no da so ara sie |
+| Screenshot or receipt | Kyerɛwtohɔ a wɔyɛ no ɔkwan biara so | Biribiara a nea ɔde kɔma no bɛpaw sɛ ɔbɛda | Dabi | Daabi; wobetumi asiesie mfonini no |
+| Payment disclosure | Nsɛm a wɔapaw a ɛfa sikatua biako ho a wɔbɛda no adi | Nkitahodi mu nsunsuanso a wɔapaw ne nea ɛka ho biara a ɔde kɔma anaasɛ adanse a ɛkyerɛ sɛ ɛyɛ asɛnnennen | Dabi, nanso wobetumi ayɛ adanse a wɔakyɛ no ho mfonini | Yiw |
+| Incoming Viewing Key | Sikatua a akontaabu bi nya no sohwɛ | Dwumadi a ɛba a safoa no kata so | Aane | Ɛdecrypt sika a ɛba a ɛne no hyia |
+| Full Viewing Key | Akontaabu anaa akontaabu bi ho akontaabu | Dwumadie a ɛba ne nea ɛkɔ, sika dodoɔ, memos, ne sika a aka a safoa no kata so | Aane | Ɛdecrypt akontaabu dwumadi a ɛne no hyia |
 
 Fa nsɛm a wɔda no adi ketewaa bi a ɛma asɛmmisa no ho mmuae di dwuma. Mpɛn pii no, aguadifo ntam akasakasa a ɛfa sika biako a wotua ho no mma ɛnyɛ nea ɛfata sɛ wobetumi anya sika biara a wotua wɔ akontaabu bi mu. Ebia akontaabufo a ɛsɛ sɛ ɔhwɛ amanneɛbɔ bere a edi mũ mu no behia safe a ɔde hwɛ ade mmom.
 

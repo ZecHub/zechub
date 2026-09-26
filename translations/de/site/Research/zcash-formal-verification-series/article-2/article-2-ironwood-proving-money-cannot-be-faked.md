@@ -148,15 +148,15 @@ Zur Klarheit haben wir vereinfacht. Die tatsächliche Lean-Entwicklung ist weita
 | Begriff | Bedeutung in einfacher Sprache |
 |---|---|
 | **Ironwood** | Der neue abgeschirmte Pool von Zcash (2026), der den fehlerhaften Pool Orchard ersetzt |
-| **Bilanzintegrität** | Der Pool zahlt niemals mehr Wert aus, als öffentlich in ihn eingezahlt wurde |
-| **Wissens-Soundness** | Ein gültiger Beweis verlangt, dass der Beweiser einen echten Zeugen besitzt |
-| **Extraktor** | Ein Verfahren, das jedem überzeugenden Beweiser den Zeugen entzieht |
+| **Balance integrity** | Der Pool zahlt niemals mehr Wert aus, als öffentlich in ihn eingezahlt wurde |
+| **Knowledge soundness** | Ein gültiger Beweis verlangt, dass der Beweiser einen echten Zeugen besitzt |
+| **Extractor** | Ein Verfahren, das jedem überzeugenden Beweiser den Zeugen entzieht |
 | **Lean** | Der Beweisassistent zur maschinellen Überprüfung der Verifikation |
 | **ValidLedger** | Das formale Modell der Konsensregeln, über das die Theoreme argumentieren |
-| **Fingerabdruck** | Die Grenze zwischen der bewiesenen Mathematik und der laufenden Rust-Software |
-| **Unter den genannten Annahmen** | Der Beweis gilt, sofern die benannten kryptografischen Annahmen gelten |
-| **Drehkreuz** | Eine Regel, die Auszahlungen eines Pools auf seine nachweisbaren Einzahlungen begrenzt |
-| **Hochzuverlässige Kryptografie** | Kryptografie entwickeln, bei der formale Verifikation ein Standardschritt ist |
+| **Fingerprint** | Die Grenze zwischen der bewiesenen Mathematik und der laufenden Rust-Software |
+| **Under stated assumptions** | Der Beweis gilt, sofern die benannten kryptografischen Annahmen gelten |
+| **Turnstile** | Eine Regel, die Auszahlungen eines Pools auf seine nachweisbaren Einzahlungen begrenzt |
+| **High-assurance cryptography** | Kryptografie entwickeln, bei der formale Verifikation ein Standardschritt ist |
 
 ---
 

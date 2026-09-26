@@ -1,7 +1,7 @@
 # Usoro Nkwekọrịta E Chebere, Site ná Mmalite Ruo ná Ngwụsị
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-27-4094293ec0.webp)
+! ![Alt ederede](/content-images/image-27-4094293ec0.webp)
 
 ### Ịchịkọta iberibe niile n'otu azụmahịa Zcash nkeonwe
 
@@ -25,15 +25,15 @@ This article is the assembly. By the end, the sentence *"the network verifies a 
 
 Nke a bụ usoro ahụ dum n'otu peeji, nke e depụtara site n'akụkọ nke Nkeji edemede 0 ruo n'ezi ígwè ọrụ.
 
-Isiokwu 0 Akụkọ ihe mere eme. Akụkụ dị adị. E wuru site na...
+| Ihe akụkọ nke edemede 0 | Ezigbo akụkụ | E wuru ya site na |
 |---|---|---|
-Ego dị n'ime envelopu. ** Rịba ama ** (uru, onye nnata, randomness) encoded dị ka ubi ọcha (Art 1)
-Envelopu a na-ekpuchi ekpuchi. ** Nkwupụta ntinye aka ** Pedersen / Sinsemilla ntinye aka (Art 2, 3)
-| The public board | **Note commitment tree** (anchor = its root) | incremental Merkle tree (Art 4) |
- Token efu  ** Nullifier  ZK-enyi na enyi hash nke ndetu + igodo nzuzo (Art 2, 3)
-"Ego n'ime ya bụ ego na-apụ". ** Uru nkwa + itule ego** homomorphic Pedersen nkwa (Art 2, 3)
-| The behind-the-curtain magic | **Zero-knowledge proof** | zk-SNARK over an arithmetic circuit (Art 5) |
-◯ "Naanị gị nwere ike ịgụ envelopu gị". ◯ **Nkọwa ezoro ezo + igodo nlele** ◯ ezoro ezoro + usoro isi (isiokwu a) ◯
+| Ego dị n'ime envelopu | **Rịba ama** (uru, onye nnata, enweghị usoro) | e tinyere koodu dị ka ihe ubi (Art 1) |
+| Envelopu ahụ a na-anaghị ahụ anya nke e mechiri emechi | **Rịba ama nkwa** | Pedersen / Sinsemilla nkwa (Art 2, 3) |
+| Òtù ọha na eze | **Rịba ama osisi nkwa** (anchor = mgbọrọgwụ ya) | Osisi Merkle nke na-abawanye ụba (Nkeji nke 4) |
+| Ihe nrịbama efu | **Ihe na-emebi ihe** | ihe e ji edetu ihe nke ZK + igodo nzuzo (Art 2, 3) |
+| "Ego dị n'ime ya hà nhata ego" | **Nkwa uru + nlele nguzozi** | Nkwa Pedersen nke nwere ụdị onwe ya (Art 2, 3) |
+| Anwansi dị n'azụ ákwà mgbochi | **Ihe akaebe na-enweghị ihe ọmụma** | zk-SNARK n'elu sekit mgbakọ na mwepụ (Art 5) |
+| "Naanị gị nwere ike ịgụ akwụkwọ ozi gị" | **Ndetu ezoro ezo + igodo nlele** | nzuzo + usoro isi (isiokwu a) |
 
 ---
 
@@ -41,7 +41,7 @@ Envelopu a na-ekpuchi ekpuchi. ** Nkwupụta ntinye aka ** Pedersen / Sinsemilla
 
 Everything a user can do flows from a single secret, the **spending key**, through a one-way hierarchy (each arrow is an irreversible derivation, courtesy of the trapdoors in Articles 2 and 3):
 
-! [Alt ederede](/content-images/image-32-f443f9bb72.webp)
+! ![Alt ederede](/content-images/image-32-f443f9bb72.webp)
 
 Ihe abụọ kwesịrị ka a rịba ama, ha abụọ bụ ihe ndị si n'isiokwu ndị bu ụzọ pụta:
 
@@ -54,7 +54,7 @@ Ihe abụọ kwesịrị ka a rịba ama, ha abụọ bụ ihe ndị si n'isiokw
 
 To spend a note privately, you must convince the network of four things at once **without revealing the note, its value, its position, or your identity.** Each claim is satisfied by a component you already know.
 
-! [Alt ederede](/content-images/image-31-86309af194.webp)
+! ![Alt ederede](/content-images/image-31-86309af194.webp)
 
 The proof reveals **none** of the underlying facts (which note, whose key, what value). It reveals only that *all four claims hold.* That is the entire trick of shielded Zcash, stated in one diagram.
 
@@ -82,17 +82,17 @@ Ka anyị gbakọta Alice na-akwụ Bob. Anyị ga-eji Sapling's doro anya "na-e
 
 **A na-ekpuchi azụmahịa na-ejikọta ụdị nkọwa abụọ:**
 
-| Spend description (consumes a note) | Output description (creates a note) |
+| Nkọwa mmefu (na-eri ihe ndetu) | Nkọwapụta (na-emepụta ndetu) |
 |---|---|
-❖ Nkwekọrịta uru nke ntinye ❖ Nkwenye uru nke mmepụta ❖
-❖ ọ na-agba akaebe megide (mgbọrọgwụ osisi) ❖ nkwa ọhụrụ e kwere (akwụkwọ ọhụrụ)
-❖ ihe na-eme ka ego e mefuru ghara ịba uru ❖ igodo na-adịru nwa oge e ji ezochi ihe ❖
-◯ igodo ọha na eze a họpụtara ahọpụta ọzọ + mbinye aka inye ikike imefu ego ◯ ihe e dere n'usoro e ji ezoro ezo ◯
-| the **zk-SNARK** proving the four claims | a **zk-SNARK** proving the output is well-formed |
+| ntinye uru nke ntinye ahụ | ntinye uru nke mmepụta |
+| **ankros** ọ na-egosi megide (mgbọrọgwụ osisi) | nkwa ọhụrụ **ndetu** (akwụkwọ ọhụrụ) |
+| **ihe na-emebi ihe** nke akwụkwọ ego emefuru | igodo **ephemeral** maka izochi ihe |
+| igodo ọha emegharịrị agbanwere + mbinye aka ikike mmefu | ndetu **e zoro ezo** (ederede ederede maka onye nnata) |
+| **zk-SNARK** na-egosi nkwupụta anọ ahụ | a **zk-SNARK** na-egosi na mmepụta ahụ dị mma |
 
 Tụkwasị na otu ** mbinye aka na-ejikọta ihe niile, na-eme ka nguzozi uru (Nkebi nke 5).
 
-! [Alt ederede](/content-images/image-30-98511eb2d0.webp)
+! ![Alt ederede](/content-images/image-30-98511eb2d0.webp)
 
 Trace the privacy: the network checked the anchor, checked the nullifier was fresh, verified the proof, and verified balance. It accepted a valid payment **having learned no amount, no address, and not which note was spent.** Meanwhile the spent note's **nullifier** (its death) and Bob's new **commitment** (his note's birth) sit in two different public structures with no visible link between them, the severed link from Article 0.
 
@@ -102,15 +102,15 @@ Trace the privacy: the network checked the anchor, checked the nullifier was fre
 
 Nkeji edemede 0 kpachapụrụ anya mepee ajụjụ. Lee ha niile, mechiri emechi.
 
-❖ E meghere okirikiri na Nkeji edemede 0❖ E mechiri ya na ❖
+| Emepere oghere ahụ na Isiokwu 0 | Emechiri site na |
 |---|---|
-| How is a sealed-yet-unforgeable envelope possible? | Commitments: hiding from randomness, binding from collision resistance / the curve trapdoor (Art 3) |
-❑ Ebee ka igodo na usoro nzuzo si abịa? ❑ Ọgụgụ ubi na elliptic-curve scalar multiplication (Art 1, 2)
-❑ Gịnị kpọmkwem bụ "bọọdụ"? ❑ Osisi Merkle nke na-amụbawanye nke ihe ndị e dere ede; mgbọrọgwụ ya bụ arịlịka (Art 4) ❑ Ihe ndị a na-akpọ bọọdụ bụ ihe ndị dị n'ime bọọdụ.
-| Why can't the void token be linked to its envelope? | The nullifier is a keyed hash kept in a separate set from commitments (Art 2, 3, 4) |
-| How do you prove validity while revealing nothing? | A zk-SNARK over an arithmetic circuit encoding all four claims (Art 5) |
-| How does the recipient learn they were paid? | The note is encrypted to their address; they trial-decrypt with a viewing key (this article) |
-| How is "money in = money out" enforced privately? | Homomorphic value commitments + the binding signature (Sec 5) |
+| Kedu otu esi enwe ike itinye envelopu emechiri emechi mana nke a na-apụghị ịgbanwe agbanwe? | Nkwa: izopụ onwe gị n'enweghị ihe mberede, ijikọta onwe gị site na iguzogide ihe mberede / ụzọ ọnyà mgbagọ (Art 3) |
+| Ebee ka igodo na nri nzuzo si abịa? | Mmụba scalar mgbakọ na mwepụ ubi na elliptic-curve (Nkeji 1, 2) |
+| Gịnị kpọmkwem bụ "bọọdụ" ahụ? | Osisi Merkle nke nkwa ndị a na-eme n'oge gara aga; mgbọrọgwụ ya bụ ihe e ji aka rụọ (Art 4) |
+| Gịnị mere na enweghị ike ijikọ ihe ngosi efu na envelopu ya? | Ihe na-emebi ihe bụ ihe e ji aka dee nke dị iche na nkwa (Art 2, 3, 4) |
+| Kedu ka ị si egosi na ị bụ onye eziokwu ma ghara ikpughe ihe ọ bụla? | zk-SNARK n'elu sekit mgbakọ na mwepụ nke na-akọwapụta nkwupụta anọ niile (Art 5) |
+| Kedu ka onye nnata si amata na akwụọla ha ụgwọ? | E zoro ihe ndetu ahụ n'adres ha; ha na-anwale iji viewing key gbanwee ya (isiokwu a) |
+| Kedu otu esi etinye "ego dị n'ime = ego" n'ọrụ n'onwe ya? | Nkwa uru nke Homomorphic + mbinye aka njikọ (Nkebi nke 5) |
 
 Ihe mgbagwoju anya site na peeji nke mbụ, * nyochaa ihe ị na-apụghị ịhụ*, ugbu a ka etisasịwo kpamkpam. netwọk ahụ na-enyocha ** nkwupụta banyere data zoro ezo **, ọ dịghị mgbe data n'onwe ya.
 
@@ -120,12 +120,12 @@ Ihe mgbagwoju anya site na peeji nke mbụ, * nyochaa ihe ị na-apụghị ịh
 
 Anyị jiri usoro Sapling kụzie ihe n'ihi na nkewa ya doro anya. Ihe eji eme ihe ugbu a, **Orchard**, na-edozi echiche ndị a kama dochie ha:
 
-♬ Sapling ♬ Orchard ♬
+| | **Sapling** | **Orchard** |
 |---|---|---|
-◯ Nhazi azụmahịa ◯ nkọwa dị iche iche nke mmefu na mmepụta ◯ Omume e jikọtara ọnụ (nke ọ bụla na-emefu otu ihe + mmepụta otu ihe)
-◯ Usoro ihe akaebe ◯ Groth16 ◯ Halo 2 ◯
-◯ Curves ◯ BLS12-381 + Jubjub ◯ Pallas / Vesta (Pasta) ◯ Ihe ndị a na-eme n'oge okpomọkụ
-◯ Nkwekọrịta ◯ Pedersen ◯ Sinsemilla
+| Ngalaba azụmahịa | Nkọwa dị iche iche **Mefu** na **Mmepụta** | **Mmemme dị n'otu** (nke ọ bụla na-emefu + otu mmepụta) |
+| Sistemụ ihe akaebe | **Groth16** (ntọala a tụkwasịrị obi) | **Halo 2** (enweghị ntọala a tụkwasịrị obi) |
+| Usoro mgbagọ | BLS12-381 + Jubjub | Pallas / Vesta (Pasta) |
+| Ihe gbasara nkwa | Pedersen | Sinsemilla |
 
 Every concept in this article carries over directly; Orchard mainly bundles spend-and-output together and swaps in a proof system with no ceremony. The five pillars are unchanged.
 
@@ -150,17 +150,17 @@ This is the most complete picture in the series, but still a model. We compresse
 
 ## Okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara.
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-** Igodo na-emefu ego ** Otu ihe nzuzo mgbọrọgwụ nke isi ihe niile onye ọrụ na-enweta.
-** Igodo ngosi ** Na-ekpughe azụmahịa gị na onye nwe ya n'ekweghị ka ha jiri ya mee ihe.
-**Spend description** Akụkụ nke tx nke na-eri ihe edeturu (nullifier, anchor, proof)
-** Nkọwapụta mmepụta ** Akụkụ nke tx nke na-emepụta ihe edeturu (nkwekọrịta, ederede ederede, ihe akaebe)
-**Action (Orchard) ** A n'otu unit eme otu mmefu na otu mmepụta ọnụ.
-** Nkwekorita uru ** A homomorphic Pedersen nkwekorita na ego.
-** Mbinye aka na-ejikọta** Mbinya aka nke na-egosi nguzozi uru n'ekpugheghị ha.
-**Anchor** Osisi mgbọrọgwụ a na-emefu na-egosi ịbụ onye otu megide
-** Trial decryption ** A nnata ule ọhụrụ nkwa ịchọta ndetu pụtara maka ha.
+| **Spending key** | Ihe nzuzo otu mgbọrọgwụ nke igodo niile onye ọrụ si enweta |
+| **Viewing key** | Na-ekpughe azụmahịa gị nye onye nwere ya n'ekweghị ka ha mefuo ego |
+| **Spend description** | Akụkụ nke tx nke na-eri ihe ndetu (ihe na-emebi ihe, arịlịka, ihe akaebe) |
+| **Output description** | Akụkụ nke tx nke na-emepụta ndetu (nkwa, ederede nzuzo, ihe akaebe) |
+| **Action (Orchard)** | Otu n'otu na-emefu otu mmefu na otu mmepụta ọnụ |
+| **Value commitment** | Nkwa Pedersen nwere njikọ na ego |
+| **Binding signature** | Mbinye aka nke na-egosi na ụkpụrụ na-aga nke ọma n'ekpugheghị ha |
+| **Anchor** | Mgbọrọgwụ osisi a na-emefu ego na-egosi na ọ bụ onye otu megidere |
+| **Trial decryption** | Onye nnata na-anwale nkwa ọhụrụ iji chọta ndetu e mere maka ha |
 
 ---
 
@@ -198,7 +198,7 @@ The amounts are hidden, but each is wrapped in a homomorphic value commitment, a
 
 Ugbu a, i sila n'otu ihe dị mgbagwoju anya gaa n'ịkwụ ụgwọ zuru ezu:
 
-! [Alt ederede](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
+! ![Alt ederede](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
 From here, the natural next arc goes deeper: the inner workings of Groth16 and Halo 2, trusted-setup ceremonies, the Sapling and Orchard circuits in detail, key derivation and diversified addresses, and the protocol's evolution across network upgrades. But the foundation is now in place, and every one of those topics has a home to attach to.

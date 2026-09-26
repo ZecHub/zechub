@@ -43,11 +43,11 @@ Nkpughe ụgwọ Sapling agaghị ekpughe adreesị onye zitere ya. Ikike mmefu 
 
 | Usoro | Ojiji kacha mma | Ihe ọ na-ekpughe | Ịnweta na-aga n'ihu? | Ejikọtara ya na ịkwụ ụgwọ ahụ n'ụzọ nzuzo? |
 | --- | --- | --- | --- | --- |
-| NJ Azụmahịa | Ịlele na e gwupụtara azụmahịa | Data na nkwenye azụmahịa ọha | Mba | Ee, mana nkọwa ịkwụ ụgwọ echekwara ka zoro ezo |
-| Nseta ihuenyo ma ọ bụ nnata | Idebe ndekọ na-abụghị nke iwu | Ihe ọ bụla onye zitere ya họọrọ igosi | Mba | Mba; enwere ike dezie onyonyo ahụ |
-| Ngosipụta ịkwụ ụgwọ | Ịgosipụta nkọwa ahọpụtara nke otu ịkwụ ụgwọ | Nsonaazụ azụmahịa ahọpụtara na onye zitere ma ọ bụ ihe akaebe ịma aka ọ bụla gụnyere | Mba, mana enwere ike iṅomi ihe akaebe ekesara | Ee |
-| Incoming Viewing Key | Monitoring payments received by an account | Incoming activity covered by the key | Yes | It decrypts matching incoming payments |
-| Full Viewing Key | Accounting or auditing an account | Incoming and outgoing activity, amounts, memos, and balances covered by the key | Yes | It decrypts matching account activity |
+| Transaction ID | Ịlele na e gwupụtara azụmahịa | Data na nkwenye azụmahịa ọha | Mba | Ee, mana nkọwa ịkwụ ụgwọ echekwara ka zoro ezo |
+| Screenshot or receipt | Idebe ndekọ na-abụghị nke iwu | Ihe ọ bụla onye zitere ya họọrọ igosi | Mba | Mba; enwere ike dezie onyonyo ahụ |
+| Payment disclosure | Ịgosipụta nkọwa ahọpụtara nke otu ịkwụ ụgwọ | Nsonaazụ azụmahịa ahọpụtara na onye zitere ma ọ bụ ihe akaebe ịma aka ọ bụla gụnyere | Mba, mana enwere ike iṅomi ihe akaebe ekesara | Ee |
+| Incoming Viewing Key | Na-enyocha ụgwọ ndị a natara site na akaụntụ | Ọrụ na-abata nke igodo ahụ kpuchiri | Ee | Ọ na-akọwapụta ụgwọ ndị dakọtara na-abata |
+| Full Viewing Key | Ịgụta ego ma ọ bụ inyocha akaụntụ | Ọrụ na-abata na nke na-apụ apụ, ọnụọgụgụ, ndetu, na nguzozi nke igodo ahụ kpuchiri | Ee | Ọ na-akọwapụta ihe omume akaụntụ dakọtara |
 
 Jiri obere mkpughe nke na-aza ajụjụ a. Onye ahịa na-ese okwu gbasara otu ịkwụ ụgwọ anaghị emekarị ka mmadụ nweta ụgwọ ọ bụla dị na akaụntụ. Onye akaụntụ nke ga-enyocha oge akụkọ zuru oke nwere ike ịchọ igodo nlele kama.
 
@@ -62,7 +62,7 @@ Achọpụtaghị obere akpa ego dị ugbu a ebe a dị ka nke na-eme ka e mep�
 | Ngwa | Bara uru taa maka | Oke dị mkpa |
 | --- | --- | --- |
 | [Zkool](https://github.com/hhanh00/zkool2) | Ịlele metadata azụmahịa zuru ezu, ọnụọgụgụ, ntinye na mmepụta n'ime otu, na ndetu; ibubata igodo nlele Unified ma ọ bụ Sapling n'ime akaụntụ nlele naanị | Anaghị akpọsa mmepụta ma ọ bụ nkwenye nke ZIP 311 |
-| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Reviewing shielded transaction history and memos; importing a Unified Full Viewing Key in read-only mode | A wallet record or read-only account is not a selectively scoped payment disclosure |
+| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Nyochaa akụkọ ihe mere eme azụmahịa na ihe ncheta echekwara; ibubata Full Viewing Key oke n'ụdị ọgụgụ naanị | Ndekọ obere akpa ma ọ bụ akaụntụ ọgụgụ naanị abụghị mkpughe ịkwụ ụgwọ a na-ahọrọ nke ọma |
 | [Zallet](https://zcash.github.io/zallet/) | Usoro ọrụ nke onye ọrụ na-eji `z_viewtransaction`, `z_exportviewingkey`, na `z_importviewingkey` | Ngwanrọ Beta; igodo nlele ya na RPC azụmahịa ya bụ ndekọ sara mbara ma ọ bụ nke mpaghara, ọ bụghị ihe akaebe ZIP 311 |
 
 Jiri obere akpa ego ahụ zitere ma ọ bụ nata ụgwọ ahụ buru ụzọ. Lelee nkọwa azụmahịa ya, ihe edeturu, njirimara azụmahịa ya, na nkwenye ya, wee gwa onye nke ọzọ ka o jiri nkọwa ndị ahụ tụnyere ndekọ nke ya. Etinyela obere akpa ego ọhụrụ wee tinye mkpụrụ okwu naanị iji gosipụta ihe akaebe. Ọ bụrụ na onye na-enyocha ego chọrọ ịhụ ihe na-aga n'ihu, tụlee akaụntụ naanị echiche dakọtara ma ghọta oke nke igodo nlele tupu ịkekọrịta ya.

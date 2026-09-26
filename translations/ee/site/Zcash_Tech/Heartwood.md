@@ -40,13 +40,13 @@ Heartwood nye afɔɖeɖe ɖeka le Zcash ƒe ŋgɔyiyiwo ƒe duƒuƒu me, wo dome
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Netwɔƒe ƒe ŋgɔyiyi (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
-| Coinbase ƒe asitsatsa | Asitsatsa tɔxɛ si le block ɖesiaɖe me si xea block ƒe fetu |
-| Shielded Sapling ƒe adrɛs | Zcash adrɛs ƒomevi aɖe si nye ame ŋutɔ tɔ si Sapling ƒe ŋgɔyiyi |
-| Gaku si wotsɔ akpoxɔnu wɔe | Heartwood ƒe tɔtrɔ si na be woaxe block ƒe teƒeɖoɖowo ɖe Sapling adrɛs siwo wokpɔ ta na me |
-| FlyAsitsala | Mɔnu si na kekeli ƒe asisiwo tsɔ kpeɖodzi suewo ɖo kpe dɔwɔwɔ ƒe kpeɖodzi dzi |
-| Merkle Towo ƒe Towo (MMR) | Block siwo va yi ƒe kpukpui si le du dzi si block tanya tsɔ eɖokui na |
-| Nubabla ƒe alɔdze id | Tag si dea dzesi ŋgɔyiyi ƒe se siwo dzi asitsatsa zɔna ɖo, si wozãna hena gbugbɔgaƒoƒo takpɔkpɔ |
+| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
+| Coinbase transaction | Asitsatsa tɔxɛ si le block ɖesiaɖe me si xea block ƒe fetu |
+| Shielded Sapling address | Zcash adrɛs ƒomevi aɖe si nye ame ŋutɔ tɔ si Sapling ƒe ŋgɔyiyi |
+| Shielded coinbase | Heartwood ƒe tɔtrɔ si na be woaxe block ƒe teƒeɖoɖowo ɖe Sapling adrɛs siwo wokpɔ ta na me |
+| FlyClient | Mɔnu si na kekeli ƒe asisiwo tsɔ kpeɖodzi suewo ɖo kpe dɔwɔwɔ ƒe kpeɖodzi dzi |
+| Merkle Mountain Range (MMR) | Block siwo va yi ƒe kpukpui si le du dzi si block tanya tsɔ eɖokui na |
+| Consensus branch id | Tag si dea dzesi ŋgɔyiyi ƒe se siwo dzi asitsatsa zɔna ɖo, si wozãna hena gbugbɔgaƒoƒo takpɔkpɔ |
 
 ## Nyabiasewo ƒe Nyabiasewo
 
@@ -74,7 +74,7 @@ Ele be Coinbase ƒe nusiwo dona tso eme nadze le gaglãgbe, eyata tomenukulawo �
 
 [ZIP 250: Heartwood Network ƒe Dodoɖeŋgɔ ƒe Dɔwɔwɔ](https://zips.z.cash/zip-0250)
 
-[ZIP 213: Gaku si Wotsɔ Akpoxɔnu Wɔe](https://zips.z.cash/zip-0213)
+[ZIP 213: Coinbase si Wotsɔ Akpoxɔnu Wɔe](https://zips.z.cash/zip-0213)
 
 [ZIP 221: FlyClient - Nubabla-Akpa ƒe Tɔtrɔwo](https://zips.z.cash/zip-0221)
 

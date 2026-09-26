@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Tovuti: https://nativeswap.io/
-- Maelezo: Asili Cross-Chain Trading Bila Barriers kupitia Maya Itifaki. Biashara moja kwa moja kwenye mnyororo bila madaraja au vifuniko ishara - kufurahia sekta ya ada za chini na udhibiti kamili wa mali.
+- Maelezo: Biashara ya Minyororo ya Asili Bila Vikwazo kupitia Maya Protocol. Fanya biashara moja kwa moja kwenye mnyororo bila madaraja au tokeni zilizofungwa - furahia ada za chini za tasnia na udhibiti kamili wa mali.
 
 ___
 

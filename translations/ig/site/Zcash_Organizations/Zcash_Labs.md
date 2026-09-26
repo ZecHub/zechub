@@ -232,6 +232,6 @@ Site na usoro a, Zcash Labs chọrọ ịmepụta ụzọ dị mfe site n'ọch�
 
 [Zcash Labs na X.](https://x.com/zcashlabs)
 
-[Ụlọ nyocha Zcash na Github](https://github.com/zcashlabs)
+[Zcash Labs na Github](https://github.com/zcashlabs)
 
-[Ụlọ nyocha Zcash na Web Blogs](https://zcashlabs.org/blog)
+[Zcash Labs na blọọgụ weebụ](https://zcashlabs.org/blog)

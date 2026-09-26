@@ -74,12 +74,12 @@ Wallets und Knoten-Software erledigen das meiste davon automatisch, aber die pra
 
 | Begriff | Bedeutung in einfachem Deutsch |
 |---|---|
-| Shielded Pool | Die Gesamtheit der Gelder, deren Beträge und Eigentümer durch Zero-Knowledge-Kryptografie verborgen sind |
-| Soundness-Fehler | Ein Fehler, durch den eine ungültige Transaktion die Beweisprüfung besteht, als wäre sie gültig |
-| Schleuse | Ein öffentlicher Kontrollpunkt, der den zwischen Pools bewegten Wert zählt, damit das Angebot prüfbar bleibt |
-| Nur-Ausgabe | Ein Pool, aus dem man ausgeben kann, dem aber kein neuer Wert hinzugefügt werden kann |
-| Netzwerk-Upgrade (NU) | Eine koordinierte Änderung der Konsensregeln von Zcash, aktiviert bei einer festgelegten Blockhöhe |
-| Quantum-recoverable Note | Ein Note-Format, das so entworfen wurde, dass Gelder wiederhergestellt werden könnten, falls Quantencomputer eines Tages die heutige Kryptografie brechen |
+| Shielded pool | Die Gesamtheit der Gelder, deren Beträge und Eigentümer durch Zero-Knowledge-Kryptografie verborgen sind |
+| Soundness bug | Ein Fehler, durch den eine ungültige Transaktion die Beweisprüfung besteht, als wäre sie gültig |
+| Turnstile | Ein öffentlicher Kontrollpunkt, der den zwischen Pools bewegten Wert zählt, damit das Angebot prüfbar bleibt |
+| Spend-only | Ein Pool, aus dem man ausgeben kann, dem aber kein neuer Wert hinzugefügt werden kann |
+| Network upgrade (NU) | Eine koordinierte Änderung der Konsensregeln von Zcash, aktiviert bei einer festgelegten Blockhöhe |
+| Quantum-recoverable note | Ein Note-Format, das so entworfen wurde, dass Gelder wiederhergestellt werden könnten, falls Quantencomputer eines Tages die heutige Kryptografie brechen |
 
 ## FAQ
 

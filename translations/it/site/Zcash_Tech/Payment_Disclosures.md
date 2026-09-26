@@ -43,9 +43,9 @@ Una comunicazione di pagamento Sapling non deve necessariamente rivelare un indi
 
 | Metodo | Uso migliore | Cosa rivela | Accesso continuativo? | Legato crittograficamente al pagamento? |
 | --- | --- | --- | --- | --- |
-| ID transazione | Verificare che una transazione sia stata minata | Dati pubblici della transazione e conferme | No | Sì, ma i dettagli del pagamento schermato restano nascosti |
-| Screenshot o ricevuta | Conservazione informale dei documenti | Qualunque cosa il mittente scelga di mostrare | No | No; l'immagine può essere modificata |
-| Comunicazione di pagamento | Provare dettagli selezionati di un pagamento | Output selezionati della transazione ed eventuale prova del mittente o della sfida inclusa | No, ma la prova condivisa può essere copiata | Sì |
+| Transaction ID | Verificare che una transazione sia stata minata | Dati pubblici della transazione e conferme | No | Sì, ma i dettagli del pagamento schermato restano nascosti |
+| Screenshot or receipt | Conservazione informale dei documenti | Qualunque cosa il mittente scelga di mostrare | No | No; l'immagine può essere modificata |
+| Payment disclosure | Provare dettagli selezionati di un pagamento | Output selezionati della transazione ed eventuale prova del mittente o della sfida inclusa | No, ma la prova condivisa può essere copiata | Sì |
 | Incoming Viewing Key | Monitorare i pagamenti ricevuti da un account | Attività in entrata coperta dalla chiave | Sì | Decifra i pagamenti in entrata corrispondenti |
 | Full Viewing Key | Contabilità o audit di un account | Attività in entrata e in uscita, importi, memo e saldi coperti dalla chiave | Sì | Decifra l'attività dell'account corrispondente |
 

@@ -118,7 +118,7 @@ Eyi ni anfani afikun ti gbigba awọn olumulo miiran lati sopọ ni ikọkọ si
 
 Ka [Àwọn Àkọsílẹ̀ Ìtìlẹyìn](https://zcash.readthedocs.io/en/latest/)
 
-Ẹ darapọ̀ mọ́ wa [Apá Ìdàrúdàpò](https://discord.gg/zcash) tàbí kó o kàn sí wa lórí [twitter](https://twitter.com/ZecHub)
+Ẹ darapọ̀ mọ́ wa [Discord Sever](https://discord.gg/zcash) tàbí kó o kàn sí wa lórí [twitter](https://twitter.com/ZecHub)
 
 
 
