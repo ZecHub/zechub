@@ -6363,7 +6363,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate",
+      "tool": "gt-static+gloss-restore+prose-retranslate+handfix",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {
