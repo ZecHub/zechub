@@ -133,12 +133,12 @@
 
 ## [zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "zcashd")
+- Status: Deprecated | End-of-life on 18 July 2026: it halts before NU6.3 and cannot follow the network. Use Zallet with a Zebra node.
 - Devices: Desktop
-- Operating System: Windows | Linux | macOS
+- Operating System: Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Ironwood
-- Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
-- Ironwood: Not Ready
+- Pools: Transparent | Sapling
+- Features: Address Rotation | Command Line Interface | RPC Interface | Shielded Memo | Testnet Support
 
 ---
 
