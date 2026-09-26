@@ -193,6 +193,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
+- Ironwood: Not Ready
 
 ---
 
