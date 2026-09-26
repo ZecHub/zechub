@@ -37,7 +37,7 @@ Zcash が進化するにつれて、既存資金との互換性を維持しな�
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-図1: 2025年10月時点の現在の4つのプールを示すチャート
+図1: Ironwood 有効化前、2025年10月29日時点の3つのシールドプール（Sprout、Sapling、Orchard）を示すチャート
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-図2: 2025年10月時点の Orchard プールを示すチャート
+図2: Ironwood 有効化前、2025年10月29日時点の Orchard プールを示すチャート
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-図3: 2025年10月時点の Sapling プールを示すチャート
+図3: Ironwood 有効化前、2025年10月29日時点の Sapling プールを示すチャート
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-図4: 2025年10月時点の Sprout プールを示すチャート
+図4: Ironwood 有効化前、2025年10月29日時点の Sprout プールを示すチャート
 
 Sprout は、これまでにローンチされた最初のオープンかつパーミッションレスなゼロ知識プライバシープロトコルでした。2016年10月28日にローンチされました。
 
@@ -113,7 +113,7 @@ Zcash エコシステムが拡大を続け、シールド取引の数が増加�
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-図5: 2025年10月時点の Transparent プールを示すチャート
+図5: Ironwood 有効化前、2025年10月29日時点の Transparent プールを示すチャート
 
 <br/>
 
@@ -184,5 +184,5 @@ Zcash ネットワーク上で Transparent Address（T-address）から別の Tr
 - [Wallets](/using-zcash/wallets) — どのウォレットがメンテナンスされており、Ironwood に対応しているか
 - [Transactions](/using-zcash/transactions) — シールド取引の送信方法
 - [Buying ZEC](/using-zcash/buying-zec) — プールで使う前に ZEC を取得する方法
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — シールドプールの暗号学的基盤
+- [zk-SNARKs](/zcash-tech/zk-snarks) — シールドプールの暗号学的基盤
 - [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Zcash プライバシーの背景
