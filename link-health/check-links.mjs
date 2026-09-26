@@ -196,8 +196,12 @@ function routeExists(route, mdFiles, appRoutes) {
   if (!clean || clean === "/") return { ok: true, how: "site root" };
 
   // Pages rendered by the app itself have no markdown behind them.
+  // Match the complete discovered app route only. Prefix matching would let a
+  // valid page such as /wallets hide broken descendants like
+  // /wallets/does-not-exist. Legitimate nested app pages are added to
+  // appRoutes with their full path (for example developers/quick-start).
   const segs = clean.replace(/^\//, "");
-  if (appRoutes.has(segs) || appRoutes.has(segs.split("/")[0])) {
+  if (appRoutes.has(segs)) {
     return { ok: true, how: "app route" };
   }
 
