@@ -310,9 +310,9 @@
 ![logo](/content-images/zapp.webp "Zapp")
 - Devices: Mobile
 - Operating System: Android | iOS
-- Wallet Support: Seed Phrase | Unified Address
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Features: Fiat Off-ramp | Messenger | NEAR Intents | Voting
+- Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
 - Ironwood: Ready
 
 ---
