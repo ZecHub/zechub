@@ -102,7 +102,7 @@ Orchard, Halo 2 proving system पर आधारित है, जिसे tr
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 
