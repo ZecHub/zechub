@@ -24,7 +24,7 @@ Per saperne di più: [Scambi non custodial](https://zechub.wiki/using-zcash/non-
 
 #### Aggiornamenti di ECC e ZF
 
-- [Costruire sostenibilità e resilienza 🛡️ in 'Dev Fund 2'](https://zcashitalia.com/creare-sostenibilita-e-resilienza-nel-dev-fund-2/)
+- [Costruire sostenibilità e resilienza 🛡️ in 'Dev Fund 2'](https://web.archive.org/web/20240304104302/https://zcashitalia.com/creare-sostenibilita-e-resilienza-nel-dev-fund-2/)
 
 - [Candidature per la Task Force comunitaria entro il 15 settembre!](https://twitter.com/ElectricCoinCo/status/1699109741287387392)
 
@@ -108,4 +108,4 @@ Per saperne di più: [Scambi non custodial](https://zechub.wiki/using-zcash/non-
 
 #### Social Italiani
 
-[Blog](https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |
+[Blog](https://web.archive.org/web/20240419175552/https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |

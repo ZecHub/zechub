@@ -19,7 +19,7 @@ Imetengenezwa na [37 LAINES](https://www.37laines.com/) kwa ajili ya manufaa ya 
     src="https://www.youtube.com/embed/videoseries?si=e8-nsKxIHdk9YGY2&amp;list=PLCBF_Zq-SbAL19zav5LPfNzXNPNP9IOeb"
     title="Zcash Media Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

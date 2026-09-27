@@ -12,7 +12,7 @@ Nym is an evolving mix network (mixnet), a type of computer network infrastructu
     src="https://www.youtube.com/embed/gSeECj4ddYA"
     title="How to Buy NymVPN with Zcash (ZEC)"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

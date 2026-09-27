@@ -49,7 +49,7 @@ NU5 folgte auf die früheren Upgrades von Zcash: Overwinter, Sapling, Blossom, H
 
 | Begriff | Bedeutung in einfachem Englisch |
 |---|---|
-| Network Upgrade (NU) | Eine koordinierte Änderung der Konsensregeln von Zcash, aktiviert bei einer festgelegten Blockhöhe |
+| Network upgrade (NU) | Eine koordinierte Änderung der Konsensregeln von Zcash, aktiviert bei einer festgelegten Blockhöhe |
 | Orchard | Der Shielded Pool, den NU5 eingeführt hat und der auf dem Halo-2-Proving-System basiert |
 | Halo 2 | Das Proving-System hinter Orchard, das kein Trusted Setup benötigt |
 | Trusted setup | Eine einmalige Zeremonie, die die geheimen Parameter eines Pools erzeugt und darauf vertrauen muss, dass sie zerstört werden |

@@ -134,7 +134,7 @@ Nunca publique estes elementos em chats públicos, redes sociais ou num rastread
 
 - Frase-semente ou frase de recuperação
 - Chave de gastos, chave privada ou cópia de segurança da wallet
-- Chave de visualização completa
+- Full Viewing Key
 - Capturas de ecrã que mostrem saldos, endereços completos, memos, códigos QR ou detalhes de contas de exchange
 - Documentos de identificação pessoal ou registos de recuperação de conta
 
@@ -167,7 +167,7 @@ As equipas de apoio não precisam da sua frase-semente, chave de gastos, chave p
 
 ## Nota
 
-Tenha em conta que a forma mais segura de utilizar ZEC é através de transações blindadas sempre que o remetente, o destinatário, a wallet e o serviço as suportem. Algumas wallets e exchanges suportam [endereços unificados](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), que podem combinar vários tipos de recetor Zcash num único endereço.
+Tenha em conta que a forma mais segura de utilizar ZEC é através de transações blindadas sempre que o remetente, o destinatário, a wallet e o serviço as suportem. Algumas wallets e exchanges suportam [endereços unificados](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA), que podem combinar vários tipos de recetor Zcash num único endereço.
 
 ## Recursos
 
@@ -177,7 +177,8 @@ Tenha em conta que a forma mais segura de utilizar ZEC é através de transaçõ
 
 ## Páginas Relacionadas
 
-- [Wallets](/using-zcash/wallets) - que wallets suportam envio blindado e quais são apenas transparentes
+- [Carteiras](/using-zcash/wallets) - que carteiras suportam envio blindado e quais são apenas transparentes
+- [Divulgações de pagamento](/zcash-tech/payment-disclosures) - como um remetente pode provar detalhes selecionados de um pagamento blindado
 - [Pools Blindados](/using-zcash/shielded-pools) - Sapling e Orchard, os pools onde vivem os seus fundos blindados
 - [Memos](/using-zcash/memos) - mensagens encriptadas que podem acompanhar uma transação blindada
 - [Endereços Transparentes de Exchange](/using-zcash/transparent-exchange-addresses) - endereços TEX e porque as exchanges os utilizam

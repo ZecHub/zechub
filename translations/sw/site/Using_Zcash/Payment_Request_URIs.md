@@ -30,7 +30,7 @@ Jinsi ya kufanya Maombi ya Malipo na Zcash:
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
     title="How to make Payment Requests with Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -46,7 +46,7 @@ Kuongeza Zcash Donation Widget kwenye tovuti yako:
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
     title="Adding a Zcash Donation Widget to your Website"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

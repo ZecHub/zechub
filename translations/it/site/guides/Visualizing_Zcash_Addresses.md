@@ -6,7 +6,7 @@
 # Visualizzare gli indirizzi Zcash
 
 Se stai imparando a conoscere Zcash per la prima volta, ti renderai subito conto che esistono due tipi di [transazioni](https://zechub.wiki/using-zcash/transactions) che possono verificarsi: *trasparenti* e *schermate*.
-Inoltre, se hai seguito gli ultimi sviluppi nell'ecosistema Zcash, potresti aver appreso degli [Unified Address](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), o UA.
+Inoltre, se hai seguito gli ultimi sviluppi nell'ecosistema Zcash, potresti aver appreso degli [Unified Address](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), o UA.
 Quando le persone nel settore Zcash parlano di transazioni *schermate*, intendono transazioni che coinvolgono indirizzi codificati per i protocolli sapling o orchard. 
 Gli UA sono progettati per unificare *qualsiasi* tipo di transazione schermata o trasparente in un unico indirizzo. Questa generalizzazione è la chiave per semplificare la UX in futuro. Lo scopo di questa guida è integrare la comprensione degli UA con esempi visivi concreti.
 

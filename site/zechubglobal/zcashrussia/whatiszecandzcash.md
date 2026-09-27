@@ -16,7 +16,7 @@
 
 [О Zcash и конфиденциальности](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Защищенная экосистема](https://electriccoin.co/blog/shielded-ecosystem/)
+[Защищенная экосистема](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Рекомендации по конфиденциальности Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 

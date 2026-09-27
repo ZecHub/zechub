@@ -57,12 +57,12 @@ Wenn ein Unternehmen ZEC akzeptiert und noch nicht auf ZecMap ist, kann jedes Co
 
 | Feld | Was anzugeben ist |
 |-------|----------------|
-| Unternehmensname | Offizieller Name, wie er öffentlich erscheint |
-| Website oder Kontakt | URL oder Social-Media-Profil |
-| Standort | Adresse für physische Unternehmen; Region für Online-Angebote |
-| Kategorie | Café, Restaurant, Geschäft, Dienstleistung, Onlineshop usw. |
-| Nachweis | Öffentliche Zahlungsseite, Händlerankündigung oder direkte Bestätigung |
-| Zahlungsnotizen | Vor Ort, online oder beides; transparentes oder abgeschirmtes ZEC |
+| Business name | Offizieller Name, wie er öffentlich erscheint |
+| Website or contact | URL oder Social-Media-Profil |
+| Location | Adresse für physische Unternehmen; Region für Online-Angebote |
+| Category | Café, Restaurant, Geschäft, Dienstleistung, Onlineshop usw. |
+| Evidence | Öffentliche Zahlungsseite, Händlerankündigung oder direkte Bestätigung |
+| Payment notes | Vor Ort, online oder beides; transparentes oder abgeschirmtes ZEC |
 
 Einreichungen sollten keine privaten Kundendaten enthalten. Wenn du Transaktionsnachweise verwendest, entferne persönliche Details, Bestellnummern und Wohnadressen, bevor du sie teilst.
 

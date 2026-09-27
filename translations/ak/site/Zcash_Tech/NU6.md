@@ -57,12 +57,12 @@ NU6 yɛ ti biako wɔ asɛm tenten bi mu a ɛfa sɛnea Zcash tua ne ho ka ho.
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Block mmoa a wɔde ma | ZEC foforo a wɔabɔ no ne block biara a wɔtu |
-| Coinbase nkitahodi | Adwuma titiriw a etua block bi mmoa ne sika a wɔbɔ |
-| Deferred Dev Sikakorabea Lockbox | In-protocol reserve a ɛkura kyɛfa wɔ sika a wɔde ma mu ma daakye mpɔtam hɔfoɔ a wɔasi gyinaeɛ sɛ wɔde bedi dwuma |
-| Zcash Mpɔtam Hɔ Mmoa (ZCG) | Boayikuw a ɛde sika ma adwuma a Zcash mpɔtam hɔfo yɛ ne wɔn a wɔyɛ ma wɔn |
-| Nhyiamu baa dwumadibea id | Identifier nodes no de kyerɛ upgrade mmara a block bi di akyi |
-| Ntwamutam a wɔde yɛ adwuma (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
+| Block subsidy | ZEC foforo a wɔabɔ no ne block biara a wɔtu |
+| Coinbase transaction | Adwuma titiriw a etua block bi mmoa ne sika a wɔbɔ |
+| Deferred Dev Fund Lockbox | In-protocol reserve a ɛkura kyɛfa wɔ sika a wɔde ma mu ma daakye mpɔtam hɔfoɔ a wɔasi gyinaeɛ sɛ wɔde bedi dwuma |
+| Zcash Community Grants (ZCG) | Boayikuw a ɛde sika ma adwuma a Zcash mpɔtam hɔfo yɛ ne wɔn a wɔyɛ ma wɔn |
+| Consensus branch id | Identifier nodes no de kyerɛ upgrade mmara a block bi di akyi |
+| Network upgrade (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
 
 ## FAQ
 

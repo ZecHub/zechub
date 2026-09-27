@@ -112,13 +112,13 @@ sudo systemctl daemon-reload
 
 ## Ìlò Ojoojúmọ́ - Ọ̀nà Ìṣiṣẹ́ Ìpinnu-ìkan
 
-Ìṣe. Àṣẹ. Àkọlé.
+| Iṣe                  | Àṣẹ                                      | Àwọn Àkíyèsí |
 |-------------------------|----------------------------------------------|-------|
-Ṣíṣe ìfilọ̀. `sudo systemctl start zebrad` Àṣẹ kan.
-Ẹ dúró. `sudo systemctl stop zebrad` Àṣẹ kan.
-Àsìá ilẹ̀ `sudo systemctl status zebrad` Ó ń fi hàn bí ó bá ń ṣiṣẹ́
-Àwọn Àkọsílẹ̀ Ìgbésí Ayé `journalctl -u zebrad -f -o short-precise` Ó rọ́pò `screen -r` |
-"Ẹ rí i pé ẹ jẹ́ kí RPC cookie" `sudo cat /var/lib/zebrad/.cookie` Kìkì nígbà tí mo bá ń sáré ni.
+| **Bẹ̀rẹ̀**               | `sudo systemctl start zebrad`                | Àṣẹ kan |
+| **Duro**                | `sudo systemctl stop zebrad`                 | Àṣẹ kan |
+| **Ipo**              | `sudo systemctl status zebrad`               | Ó ń fi hàn bí ó bá ń ṣiṣẹ́ |
+| **Àwọn àkọsílẹ̀ láàyè**           | `journalctl -u zebrad -f -o short-precise`  | Rọpo `screen -r` |
+| **Gba kúkì RPC**      | `sudo cat /var/lib/zebrad/.cookie`           | Nígbà tí a bá ń ṣiṣẹ́ nìkan |
 
 ** Àwọn orúkọ àdàkọ tí ó rọrùn láti lò** (fi kún `~/.bashrc` or `~/.zshrc`):
 ```

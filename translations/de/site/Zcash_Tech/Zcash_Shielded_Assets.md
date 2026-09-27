@@ -80,7 +80,7 @@ Jedes Asset erhält einen eindeutigen **Asset Identifier**, der aus dem Ausgabes
 
 **Führe die Demo selbst aus!**
 
-Klone das zcash-tx-tool-Repository: <https://github.com/QED-it/zcash_tx_tool>
+Klone das zcash-tx-tool-Repository: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash Improvement Proposals (ZIPs)
 

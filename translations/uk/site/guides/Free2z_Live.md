@@ -185,9 +185,9 @@ Free2Z Live — це універсальний і потужний інстру
 
 [Free2z](https://free2z.cash/)  
 [Документація Free2z](https://free2z.cash/docs/)  
-[Огляд 2Z](https://free2z.cash/docs/2Zs/)  
-[Створення профілю](https://free2z.cash/docs/creators/creating-a-profile)  
-[Що таке Free2z Live?](https://free2z.cash/docs/creators/free2z-live)  
+[Огляд 2Z](https://free2z.cash/docs/getting-started/tuzis)  
+[Створення профілю](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[Що таке Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
 [Free2z для прихильників](https://free2z.cash/docs/category/for-supporters)
 
 ---

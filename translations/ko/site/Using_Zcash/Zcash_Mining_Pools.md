@@ -62,13 +62,13 @@ Zcash 채굴 풀은 개별 채굴자들이 자신의 컴퓨팅 파워(해시레�
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- 웹사이트: [Nanopool](https://zec.nanopool.org/login)
+- 웹사이트: [Nanopool](https://zec.nanopool.org/)
 - 비공개 지급: 아니오
 - 풀 유형: Pay Per Last N 
 - 풀 수수료: 1%

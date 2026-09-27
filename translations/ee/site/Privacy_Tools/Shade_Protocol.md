@@ -73,4 +73,4 @@ Shade Protocol ƒe gɔmeɖose siwo nye ɖekawɔwɔ kple asixɔxɔ léle naa gɔm
 
 [Altcoin ƒe Buzz.io](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
-[Nyatakakawo.io](https://messari.io/project/shade/profile)
+[Messari.io](https://messari.io/project/shade/profile)

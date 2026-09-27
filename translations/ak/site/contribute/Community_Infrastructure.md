@@ -1,51 +1,30 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/contribute/Build_on_Zcash.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/contribute/Community_Infrastructure.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub Mpɔtam Hɔ Nnwuma Nhyehyɛeɛ
+# ZecHub Community Infrastructure Framework (Akan Asɛdeɛ a Ɛwɔ Mpɔtam)
 
 
-### Mpɔtam Hɔ Nneɛma a Wɔde Yɛ Adwuma 
+### Amanaman mu Nkyekyem Mu Ahyehyԑde 
 
-Nodes, lightwalletd instances ne infrastructure afoforo nyinaa yɛ nea wotumi kɔ hɔ kwa na ɛwɔ hɔ sɛ ɛbɛma developer kwan a ɛkɔ Zcash network no so no akɔ soro. Wei ma ZecHub bounty nhyehyɛe no tumi di developers ho dwuma wɔ free & streamlined alternative a ɛyɛ ankorankoro nnwuma wɔ [Dework](https://dework.zechub.org). 
-
-
-## Abisadeɛ 
-
-- Tag @ZecHubDAOMember wɔ #zechub kwan no mu wɔ Zcash Global Discord no mu na bisa kwan. 
-
-- Yɛde wo bɛka channel bi a wobɛtumi anya mmoa na woakyɛ updates ho. 
-
-- https://discord.gg/zcash 
+ZecHub bounty program no ma developer nya kwan a w'atumi adi dwuma ne ɔkwan foforo bi so wɔ nnwuma biara ho: [ZEC bounties (Ɔman no mu akatua)](https://bounties.zechub.wiki/). 
 
 
+## Akwankyerɛ a Ɛboa 
 
-## Akwankyerɛ a Mfaso Wɔ So 
+- [ZecHub Developer Guide (Nkyerεkyerεfoɔ Nkyerɛkyerɛ)](https://zechub.wiki/developers)
 
-- [Zcash Kenkan akyerɛwfo](https://zcash.readthedocs.io/en/latest/)
+- [Zcash Kenkan nkrataafa no](https://zcash.readthedocs.io/en/latest/)
 
 - [The Zebra Book](https://zebra.zfnd.org)
 
-- [Akash Network ho Nsɛm a Wɔakyerɛw](https://akash.network/docs/)
+- [Akash Network Docs (Nneɛma a Ɛwɔ Akan mu)](https://akash.network/docs/)
 
-- [Wɔrehyehyɛ Zcashd wɔ Akash Network so](https://zechub.wiki/guides/how-to-run-zcashd-on-akash-network)
+- [Zebrad a wɔhyehyɛ no Akash Network so](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Wɔakyerɛkyerɛ Zcash Katua Ho Abisade Mu (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Zcash ka a wɔ srɛ sɛ wɔntua no ho nkyerɛkyerɛmu (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [ZIP-321 Nkyerɛkyerɛmu](https://zips.z.cash/zip-0321)
+- [ZIP-321 Nkyerεkyerεmu](https://zips.z.cash/zip-0321)
 
-Sɛ wo hia afotuo a emu dɔ firi Zcash developers hɔ a wobɛtumi ayɛ post wɔ [Community Forum](https://forum.zcashcommunity.com).
+Sɛ wohia afotuo a ɛkɔ akyiri firi Zcash developerfoɔ hɔ no, wobɛtumi atwerɛ krataa wɔ wɔn wɛbsaet. [Amanaman Nkabom Nhyiamu](https://forum.zcashcommunity.com).
 
-
-
-## Nnwuma a wɔyɛ 
-
-- Yɛn ani gye nea woyɛ no ho! ZecHub bɛma bounties a ɛwɔ 5-15 ZEC ntam ama wo app foforo no ho nkrataa. 
-
-- Adwenkyerɛ ahorow bi: 
-
-Shared Video Player wɛbsaet a URL input a ɛhia sɛ wotua ZEC.
-
-Fa Encrypted Memos kɔ Zcashd Node ne Farcaster akonta ntam.
-
-Shielded Exchange Service a ɛkyerɛw ZEC a wɔde asie ama agyapade a mmuae address wom, Hedged adetɔ a ɛfa agyapade afoforo a wɔayɛ wɔ Ethereum L2 so. 

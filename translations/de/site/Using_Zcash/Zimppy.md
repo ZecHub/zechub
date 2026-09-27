@@ -1,40 +1,40 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/zimppy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zimppy.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zimppy.xyz
 
 ## TL;DR
 
-- **Zimppy** ist eine datenschutzorientierte Zahlungsinfrastruktur für AI-Agenten, die das Machine Payment Protocol (MPP) von Zcash nutzt
-- **Einmal on-chain einzahlen** (~75 Sekunden), dann **unbegrenzt sofortige Anfragen** ohne Blockchain-Interaktion pro Anfrage stellen
+- **Zimppy** ist eine datenschutzorientierte Zahlungsinfrastruktur für KI-Agenten, die das Machine Payment Protocol (MPP) von Zcash verwendet
+- **Einmal einzahlen** on-chain (~75 Sekunden), dann **unbegrenzte sofortige Anfragen** ohne Blockchain-Interaktion pro Anfrage stellen
 - Unterstützt **vollständig abgeschirmte Zcash (Orchard)**-Zahlungen — Sender, Empfänger, Betrag und Memo sind alle verschlüsselt
-- Funktioniert mit **TypeScript- und Rust-SDKs** für eine einfache Integration in AI-Pipelines und API-Server
+- Funktioniert mit **TypeScript- und Rust-SDKs** für eine einfache Integration in KI-Pipelines und API-Server
 - Perfekt für **LLM-APIs, Datenmarktplätze, MCP-Tool-Server** und jeden M2M-Zahlungsanwendungsfall
 
 ---
 
-> **Zimppy** ist die Machine Payment Protocol (MPP)-Zahlungsmethode für Zcash und unterstützt sowohl abgeschirmte als auch transparente Zahlungen. Einmal on-chain einzahlen, dann unbegrenzt sofortige Bearer-Anfragen ohne Chain-Interaktion pro Anfrage ausführen.
+> **Zimppy** ist die Zahlungsmethode des Machine Payment Protocol (MPP) für Zcash und unterstützt sowohl abgeschirmte als auch transparente Zahlungen. Einmal on-chain einzahlen und anschließend unbegrenzte sofortige Inhaber-Anfragen ohne Chain-Interaktion pro Anfrage stellen.
 
 ---
 
 ## Inhaltsverzeichnis
 
 1. [Was ist Zimppy.xyz?](#what-is-zimppyxyz)
-2. [Warum abgeschirmte Zahlungen für AI-Agenten?](#why-shielded-payments-for-ai-agents)
+2. [Warum abgeschirmte Zahlungen für KI-Agenten?](#why-shielded-payments-for-ai-agents)
 3. [Machine Payment Protocol (MPP)](#machine-payment-protocol-mpp)
 4. [Wie Zimppy funktioniert](#how-zimppy-works)
-   - [Sessions (Empfohlen)](#sessions-recommended)
+   - [Sitzungen (empfohlen)](#sessions-recommended)
    - [Streaming](#streaming)
-   - [Charge](#charge)
+   - [Abrechnung](#charge)
 5. [Anwendungsfälle & Beispiele](#use-cases--examples)
 6. [Installation](#installation)
-7. [Einrichten der Zimppy Wallet](#setting-up-the-zimppy-wallet)
+7. [Einrichtung der Zimppy Wallet](#setting-up-the-zimppy-wallet)
 8. [Integration von Zimppy](#integrating-zimppy--typescript-sdk)
    - [Server (abgeschirmt)](#typescript-server--shielded)
    - [Server (transparent)](#typescript-server--transparent)
    - [Client](#typescript-client)
-9. [Integration von Zimppy - Rust SDK](#integrating-zimppy--rust-sdk)
+9. [Integration von Zimppy – Rust SDK](#integrating-zimppy--rust-sdk)
    - [Server (Axum)](#rust-server-axum)
    - [Client](#rust-client)
 10. [CLI-Referenz](#cli-reference)
@@ -46,40 +46,40 @@
 
 ## Was ist Zimppy.xyz?
 
-**Zimppy.xyz** ist eine datenschutzorientierte Zahlungsinfrastruktur, die speziell für AI-Agenten und automatisierte Machine-to-Machine-(M2M)-Workflows entwickelt wurde. Sie implementiert das **Machine Payment Protocol (MPP)** unter Verwendung von **Zcash** als zugrunde liegender Währung und ermöglicht sowohl abgeschirmte (vollständig private) als auch transparente Zahlungsmodi.
+**Zimppy.xyz** ist eine datenschutzorientierte Zahlungsinfrastruktur, die speziell für KI-Agenten und automatisierte Machine-to-Machine-(M2M)-Workflows entwickelt wurde. Es implementiert das **Machine Payment Protocol (MPP)** mit **Zcash** als zugrunde liegender Währung und ermöglicht sowohl abgeschirmte (vollständig private) als auch transparente Zahlungsmodi.
 
-Im Gegensatz zu traditionellen Blockchain-Zahlungssystemen, bei denen jede Transaktion öffentlich on-chain sichtbar ist, basiert Zimppy auf einer sitzungsbasierten Architektur, die die Latenz pro Anfrage eliminiert und gleichzeitig kryptografische Privatsphäre bewahrt. Dadurch eignet es sich besonders für AI-Agenten, die programmgesteuert für APIs, Daten, Rechenleistung oder AI-Tools bezahlen müssen, ohne Verhaltensmetadaten offenzulegen.
+Anders als bei herkömmlichen Blockchain-Zahlungssystemen, bei denen jede Transaktion on-chain öffentlich sichtbar ist, basiert Zimppy auf einer sitzungsbasierten Architektur, die Latenz pro Anfrage eliminiert und gleichzeitig kryptografische Privatsphäre bewahrt. Dadurch eignet es sich besonders für KI-Agenten, die programmgesteuert für APIs, Daten, Rechenleistung oder KI-Tools bezahlen müssen, ohne Verhaltensmetadaten preiszugeben.
 
 ### Kerneigenschaften
 
-- **Einmal on-chain einzahlen** (~75 Sekunden für die Zcash-Bestätigung)
-- **Unbegrenzte sofortige Anfragen** nach dem Öffnen einer Session, ohne Chain-Interaktion pro Anfrage
-- **Abgeschirmte Zahlungen** verschlüsseln Sender, Empfänger, Betrag und Memo mithilfe des Orchard-Protokolls von Zcash
+- **Einmal einzahlen** on-chain (~75 Sekunden für eine Zcash-Bestätigung)
+- **Unbegrenzte sofortige Anfragen** nach Sitzungsbeginn, keine Chain-Interaktion pro Anfrage
+- **Abgeschirmte Zahlungen** verschlüsseln Sender, Empfänger, Betrag und Memo mit dem Orchard-Protokoll von Zcash
 - **Transparente Zahlungen** verwenden T-Adressen pro Challenge zur Replay-Verhinderung ohne vollständige Privatsphäre
-- **Spezifikationskonform**, HMAC-SHA256-Challenges, RFC 9457-Fehler, `/.well-known/payment`-Discovery
+- **Spezifikationskonform**, HMAC-SHA256-Challenges, RFC-9457-Fehler, `/.well-known/payment`-Erkennung
 
 ---
 
-## Warum abgeschirmte Zahlungen für AI-Agenten?
+## Warum abgeschirmte Zahlungen für KI-Agenten?
 
-Für AI-Agenten, die sensible Workflows, juristische Recherchen, medizinische Anfragen, Finanzanalysen und Wettbewerbsaufklärung verarbeiten, ist **jede öffentliche Zahlung ein Metadatenleck**. Zimppy ist die einzige MPP-Zahlungsmethode, die **standardmäßig privat** ist.
+Für KI-Agenten, die sensible Workflows, Rechtsrecherchen, medizinische Anfragen oder Finanzanalysen bearbeiten, ist **jede öffentliche Zahlung ein Metadatenleck**. Zimppy ist die einzige MPP-Zahlungsmethode, die **standardmäßig privat** ist.
 
 ### Tabelle zum Datenschutzvergleich
 
-| Property | Öffentliche Chains (USDC, ETH) | Zimppy Shielded | Zimppy Transparent |
+| Eigenschaft | Öffentliche Chains (USDC, ETH) | Zimppy abgeschirmt | Zimppy transparent |
 |---|---|---|---|
 | **Sender** | Sichtbar | Verschlüsselt | Sichtbar |
-| **Receiver** | Sichtbar | Verschlüsselt | Pro Challenge (nicht verknüpfbar) |
-| **Amount** | Sichtbar | Verschlüsselt | Sichtbar |
-| **Memo** | Sichtbar | Verschlüsselt | N/A |
-| **Replay Protection** | Keine | Memo-Bindung | T-Adresse pro Challenge |
-| **Service Usage Pattern** | Verknüpfbar | Privat | Nicht verknüpfbar (frische Adresse) |
+| **Empfänger** | Sichtbar | Verschlüsselt | Pro Challenge (nicht verknüpfbar) |
+| **Betrag** | Sichtbar | Verschlüsselt | Sichtbar |
+| **Memo** | Sichtbar | Verschlüsselt | N/V |
+| **Replay-Schutz** | Keiner | Memo-Bindung | T-Adresse pro Challenge |
+| **Dienstnutzungsmuster** | Verknüpfbar | Privat | Nicht verknüpfbar (neue Adresse) |
 
-### Das Latenzproblem, gelöst durch Sessions
+### Das Latenzproblem, durch Sitzungen gelöst
 
-> *„Aber Zcash hat 75-Sekunden-Blockzeiten.“*
+> *„Aber Zcash hat Blockzeiten von 75 Sekunden.“*
 
-**Sessions lösen das.** Die On-Chain-Wartezeit fällt genau **einmal** bei der Einzahlung an. Jede nachfolgende Anfrage ist sofortig.
+**Sitzungen lösen das.** Das Warten on-chain geschieht bei der Einzahlung genau **einmal**. Jede nachfolgende Anfrage erfolgt sofort.
 
 ```
 Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
@@ -91,30 +91,31 @@ Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  close session                 (refund unused balance)
 ```
 
-**Einmal zahlen, sofort aufrufen, Wechselgeld zurückbekommen.** Die Latenz pro Anfrage ist null.
+**Einmal zahlen, sofort aufrufen, Wechselgeld zurückerhalten.** Die Latenz pro Anfrage beträgt null.
 
 ---
 
 ## Machine Payment Protocol (MPP)
 
-Das **Machine Payment Protocol (MPP)** ist ein standardisiertes Protokoll, das autonomen Software-Agenten (AI-Agenten, Bots, Skripten) ermöglicht, Zahlungsanforderungen für den API-Zugriff zu entdecken, auszuhandeln und zu erfüllen — und das alles ohne menschliches Eingreifen.
+Das **Machine Payment Protocol (MPP)** ist ein standardisiertes Protokoll, das autonomen Software-Agenten (KI-Agenten, Bots, Skripten) ermöglicht, Zahlungsanforderungen für API-Zugriff zu erkennen, auszuhandeln und zu erfüllen – ganz ohne menschliches Eingreifen.
 
-### Wie MPP in APIs integriert wird
+### Wie MPP mit APIs integriert wird
 
-MPP folgt dem HTTP-Flow **402 Payment Required**:
+MPP folgt dem HTTP-Ablauf **402 Payment Required**:
 
 1. **Der Agent fordert** eine Ressource von einem kostenpflichtigen API-Endpunkt an.
 2. **Der Server antwortet** mit `402 Payment Required` + einer signierten Challenge (Betrag, Empfänger, Memo).
-3. **Der Agent bezahlt** mit einer kompatiblen Zahlungsmethode (z. B. Zimppy shielded Zcash).
+3. **Der Agent bezahlt** mit einer kompatiblen Zahlungsmethode (z. B. abgeschirmtes Zcash über Zimppy).
 4. **Der Agent wiederholt** die Anfrage mit `Authorization: Payment {txid}`.
 5. **Der Server verifiziert** die Zahlung kryptografisch (Orchard-IVK-Entschlüsselung, Prüfung von Betrag + Memo).
 6. **Der Server antwortet** mit `200 OK` + einem `Payment-Receipt`-Header.
-### Einhaltung der Spezifikation
 
-- **HMAC-SHA256** Challenge-Signierung
+### Spezifikationskonformität
+
+- **HMAC-SHA256**-Signierung von Challenges
 - **RFC 9457** strukturierte Fehlerantworten
-- **`/.well-known/payment`**-Endpunkt für die automatische Erkennung von Zahlungsmethoden
-- **Orchard IVK** (Incoming Viewing Key) für die serverseitige Zahlungsüberprüfung, ohne Ausgabeschlüssel offenzulegen
+- **`/.well-known/payment`**-Endpunkt zur automatischen Erkennung von Zahlungsmethoden
+- **Orchard IVK** (Incoming Viewing Key) zur serverseitigen Zahlungsverifizierung ohne Offenlegung von Ausgabeschlüsseln
 
 ---
 
@@ -122,7 +123,7 @@ MPP folgt dem HTTP-Flow **402 Payment Required**:
 
 ### Sitzungen (empfohlen)
 
-Sitzungen sind das primäre Interaktionsmuster. Der Agent hinterlegt einmalig ein Guthaben On-Chain, erhält ein Bearer-Token und verwendet es für alle nachfolgenden Anfragen mit null Latenz.
+Sitzungen sind das primäre Interaktionsmuster. Der Agent zahlt einmal on-chain ein, erhält ein Inhaber-Token und verwendet es für alle nachfolgenden Anfragen ohne Latenz.
 
 ```
 Agent  ->  deposit 100,000 zat           (on-chain, ~75s one-time)
@@ -132,13 +133,13 @@ Agent  ->  GET /api/query + bearer       (instant, balance deducted)
 Agent  ->  close session                 (refund unused balance on-chain)
 ```
 
-**Am besten geeignet für:** Hochfrequente API-Aufrufe, LLM-Inferenz, wiederholte Datenabfragen.
+**Am besten geeignet für:** API-Aufrufe mit hoher Frequenz, LLM-Inferenz, wiederholte Datenabfragen.
 
 ---
 
 ### Streaming
 
-Pay-per-Token-abgerechnete Inhalte, die über **Server-Sent Events (SSE)** bereitgestellt werden. Der Server zieht für jedes gestreamte Wort oder Token vom Sitzungsguthaben ab.
+Nach Token abgerechnete Inhalte werden über **Server-Sent Events (SSE)** bereitgestellt. Der Server zieht pro gestreamtem Wort oder Token vom Sitzungsguthaben ab.
 
 ```
 Agent  ->  open session with deposit
@@ -147,13 +148,13 @@ Server ->  stream word by word, deducting per token
 Agent  ->  close session, refund remaining
 ```
 
-**Am besten geeignet für:** Gestreamte LLM-Antworten, Echtzeit-Datenfeeds, KI-Tools mit Abrechnung pro Token.
+**Am besten geeignet für:** Gestreamte LLM-Antworten, Echtzeitdatenfeeds, KI-Tools mit Abrechnung pro Token.
 
 ---
 
-### Charge
+### Abrechnung
 
-Eine einzelne abgeschirmte Zahlung pro Anfrage. Der vollständige HTTP-402-Ablauf wird pro Aufruf ausgeführt. Geeignet, wenn Anfragen selten oder hochwertig sind.
+Eine einzelne abgeschirmte Zahlung pro Anfrage. Der vollständige HTTP-402-Ablauf wird bei jedem Aufruf ausgeführt. Geeignet, wenn Anfragen selten oder hochwertig sind.
 
 ```
 Agent  ->  GET /api/resource
@@ -164,7 +165,7 @@ Server ->  decrypt with Orchard IVK, verify amount + memo
 Server ->  200 OK + Payment-Receipt
 ```
 
-**Am besten geeignet für:** Einmalige hochwertige Anfragen, seltene API-Aufrufe, Premium-Datenendpunkte.
+**Am besten geeignet für:** Hochwertige Einzelanfragen, seltene API-Aufrufe, Premium-Datenendpunkte.
 
 ---
 
@@ -172,7 +173,7 @@ Server ->  200 OK + Payment-Receipt
 
 ### 1. KI-Agent
 
-Ein juristischer KI-Agent fragt eine kostenpflichtige Datenbank für Rechtsprechung ab. Mit abgeschirmten Zimppy-Sitzungen sind weder die Identität der Kanzlei noch die konkreten Abfragen On-Chain sichtbar – so wird das Anwaltsgeheimnis auf Infrastrukturebene geschützt.
+Ein juristischer KI-Agent fragt eine kostenpflichtige Datenbank für Rechtsprechung ab. Mit abgeschirmten Zimppy-Sitzungen sind weder die Identität der Kanzlei noch die konkreten Anfragen on-chain sichtbar – das schützt das Anwaltsgeheimnis auf Infrastrukturebene.
 
 ```
 Agent opens session (100,000 zat deposit)
@@ -182,21 +183,21 @@ Agent opens session (100,000 zat deposit)
 Session closed, unused balance refunded
 ```
 
-### 2. KI-Agent für eine medizinische Abfrage-Pipeline
+### 2. KI-Agent für eine Pipeline medizinischer Anfragen
 
-Ein medizinischer Diagnose-Agent fragt mehrere klinische Datenbanken ab. Abgeschirmte Zahlungen stellen sicher, dass Patienten-Abfragemuster nicht über verschiedene Anbieter hinweg verknüpfbar sind.
+Ein medizinischer Diagnose-Agent fragt mehrere klinische Datenbanken ab. Abgeschirmte Zahlungen stellen sicher, dass Anfragemuster von Patienten nicht über verschiedene Anbieter hinweg verknüpft werden können.
 
-### 3. Agent für Finanzanalyse
+### 3. Finanzanalyse-Agent
 
-Ein algorithmischer Trading-Agent bezahlt für Echtzeit-Marktdaten-APIs. Transparente Zahlungen verwenden für jede Challenge neue T-Adressen, wodurch die Korrelation von Nutzungsmustern über verschiedene Datenanbieter hinweg verhindert wird.
+Ein algorithmischer Handels-Agent zahlt für APIs mit Echtzeit-Marktdaten. Transparente Zahlungen verwenden für jede Challenge neue T-Adressen und verhindern so die Korrelation von Nutzungsmustern zwischen Datenanbietern.
 
 ### 4. MCP-Tool-Server, kostenpflichtige KI-Tools
 
-Ein MCP-Server (Model Context Protocol) stellt kostenpflichtige KI-Tools bereit. Jede Tool-Ausführung löst eine Zimppy-Charge aus und ermöglicht so einen Marktplatz monetarisierter KI-Fähigkeiten.
+Ein MCP-(Model Context Protocol)-Server stellt kostenpflichtige KI-Tools bereit. Jeder Tool-Aufruf löst eine Zimppy-Abrechnung aus und ermöglicht einen Marktplatz monetarisierter KI-Fähigkeiten.
 
-### 5. LLM-Zusammenfasser, Pay-Per-Token
+### 5. LLM-Zusammenfasser, Abrechnung pro Token
 
-Ein LLM-Zusammenfassungsdienst berechnet Agenten pro Ausgabe-Token Gebühren über SSE-Streaming, mit automatischem Guthabenabzug und Rückerstattung des nicht genutzten vorausbezahlten Guthabens.
+Ein LLM-Zusammenfassungsdienst berechnet Agenten pro Ausgabetoken über SSE-Streaming, mit automatischem Abzug vom Guthaben und Rückerstattung ungenutzter vorausbezahlter Beträge.
 
 ---
 
@@ -219,9 +220,9 @@ zimppy-rs = "0.5"           # Rust SDK (charge, session, axum)
 
 ---
 
-## Einrichten der Zimppy Wallet
+## Einrichtung der Zimppy Wallet
 
-Die Zimppy-CLI bietet eine vollständige Wallet-Oberfläche. Alle Befehle sind über `npx zimppy` verfügbar.
+Die Zimppy CLI bietet eine vollständige Wallet-Oberfläche. Alle Befehle sind über `npx zimppy` verfügbar.
 
 ### Schritt 1 : Eine Wallet erstellen
 
@@ -229,9 +230,9 @@ Die Zimppy-CLI bietet eine vollständige Wallet-Oberfläche. Alle Befehle sind �
 npx zimppy wallet create
 ```
 
-Erzeugt kryptografische Schlüssel und zeigt deine **Seed-Phrase** an. Bewahre sie sicher auf – sie kann bei Verlust nicht wiederhergestellt werden.
+Erzeugt kryptografische Schlüssel und zeigt deine **Seed-Phrase** an. Bewahre diese sicher auf – sie kann bei Verlust nicht wiederhergestellt werden.
 
-### Schritt 2 : Deine Adresse und dein Guthaben prüfen
+### Schritt 2 : Adresse und Guthaben prüfen
 
 ```bash
 npx zimppy wallet whoami
@@ -243,13 +244,13 @@ Zeigt deine **Unified Address (UA)**, **T-Adresse**, das aktuelle Guthaben und d
 npx zimppy wallet balance --all
 ```
 
-Zeigt eine Guthabenaufschlüsselung pro Konto über alle ZIP-32-Konten hinweg.
+Zeigt eine Aufschlüsselung des Guthabens pro Konto über alle ZIP-32-Konten hinweg.
 
 ### Schritt 3 : Deine Wallet aufladen
 
 Sende ZEC von einer beliebigen Zcash-kompatiblen Wallet oder Börse an deine Unified Address. Abgeschirmte Einzahlungen gehen direkt auf dein Orchard-Konto.
 
-### Schritt 4 : Gelder senden und abschirmen
+### Schritt 4 : Geld senden und abschirmen
 
 ```bash
 # Send ZEC to any address (shielded or transparent)
@@ -271,13 +272,13 @@ npx zimppy wallet use work
 npx zimppy request <url>
 ```
 
-Verarbeitet automatisch den vollständigen Ablauf 402 -> pay -> retry. Sitzungen werden transparent geöffnet und verwaltet.
+Verarbeitet automatisch den vollständigen Ablauf 402 -> bezahlen -> erneut versuchen. Sitzungen werden transparent geöffnet und verwaltet.
 
 ---
 
-## Integration von Zimppy - TypeScript SDK
+## Integration von Zimppy – TypeScript SDK
 
-### TypeScript-Server - abgeschirmt
+### TypeScript-Server – abgeschirmt
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -301,11 +302,12 @@ return result.withReceipt(Response.json({ data }))
 
 **Wichtige Punkte:**
 - `zcash({ wallet: 'server' })` lädt die abgeschirmte Wallet des Servers
-- `mppx.charge()` verarbeitet den vollständigen 402-Challenge-/Verify-Lebenszyklus
-- `result.withReceipt()` hängt die kryptografische Zahlungsquittung an die Antwort an
+- `mppx.charge()` verarbeitet den vollständigen Lebenszyklus aus 402-Challenge und Verifizierung
+- `result.withReceipt()` fügt der Antwort den kryptografischen Zahlungsbeleg hinzu
 
 ---
-### TypeScript-Server - Transparent
+
+### TypeScript-Server – transparent
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -317,7 +319,7 @@ const mppx = Mppx.create({
 })
 ```
 
-Jede Challenge erzeugt eine **frische T-address**, wodurch Zahlungsanfragen sitzungsübergreifend nicht verknüpfbar sind.
+Jede Challenge erzeugt eine **neue T-Adresse**, wodurch Zahlungsanfragen über Sitzungen hinweg nicht verknüpfbar sind.
 
 ---
 
@@ -333,11 +335,11 @@ const mppx = Mppx.create({ methods: [zcash({ wallet: 'default' })] })
 const res = await mppx.fetch('https://api.example.com/resource')
 ```
 
-Der Client fängt `402`-Antworten ab, öffnet automatisch eine Session und wiederholt die Anfrage – der aufrufende Code benötigt keine zahlungsspezifische Logik.
+Der Client fängt `402`-Antworten ab, öffnet automatisch eine Sitzung und wiederholt die Anfrage – der aufrufende Code benötigt keine zahlungsspezifische Logik.
 
 ---
 
-## Integration von Zimppy - Rust SDK
+## Integration von Zimppy – Rust SDK
 
 ### Rust-Server (Axum)
 
@@ -361,7 +363,7 @@ async fn handler(charge: MppCharge<Price>) -> WithReceipt<Json<Value>> {
 
 **Wichtige Punkte:**
 - `MppCharge<Price>` ist ein Axum-Extractor, der die Zahlung verifiziert, bevor der Handler ausgeführt wird
-- `WithReceipt` verpackt die Antwort mit einem kryptografischen Zahlungsbeleg
+- `WithReceipt` umschließt die Antwort mit einem kryptografischen Zahlungsbeleg
 - `ChargeConfig` definiert die Preislogik – sie kann auf Basis von Anfrageparametern dynamisch sein
 
 ---
@@ -380,22 +382,22 @@ let resp = client
     .await?;
 ```
 
-`send_with_payment` erweitert jeden HTTP-Client um automatische 402-Behandlung, Session-Management und die Ausführung von Zcash-Zahlungen.
+`send_with_payment` erweitert jeden HTTP-Client um automatische 402-Verarbeitung, Sitzungsverwaltung und die Abwicklung von Zcash-Zahlungen.
 
 ---
 
 ## CLI-Referenz
 
-| Command | Description |
+| Befehl | Beschreibung |
 |---|---|
-| `npx zimppy wallet create` | Schlüssel generieren und Seed-Phrase anzeigen |
-| `npx zimppy wallet whoami` | Adresse (UA + T-addr), Guthaben und Netzwerk anzeigen |
+| `npx zimppy wallet create` | Schlüssel erzeugen und Seed-Phrase anzeigen |
+| `npx zimppy wallet whoami` | Adresse (UA + T-Adresse), Guthaben und Netzwerk anzeigen |
 | `npx zimppy wallet balance --all` | Aufschlüsselung des Guthabens pro Konto |
-| `npx zimppy wallet send <addr> <zat>` | Shielded oder transparente ZEC senden |
-| `npx zimppy wallet transfer <from> <to> <zat>` | Internen kontoübergreifenden Transfer ausführen |
-| `npx zimppy wallet shield` | Transparente Mittel nach Orchard verschieben (shielded) |
+| `npx zimppy wallet send <addr> <zat>` | Abgeschirmte oder transparente ZEC senden |
+| `npx zimppy wallet transfer <from> <to> <zat>` | Interne kontoübergreifende Übertragung |
+| `npx zimppy wallet shield` | Transparente Mittel nach Orchard verschieben (abgeschirmt) |
 | `npx zimppy wallet use <name>` | Aktive Wallet-Identität wechseln |
-| `npx zimppy request <url>` | Automatisch 402 -> bezahlen -> Anfrage wiederholen |
+| `npx zimppy request <url>` | Anfrage automatisch mit 402 -> bezahlen -> erneut versuchen |
 
 ---
 
@@ -403,29 +405,29 @@ let resp = client
 
 ### Agent-native Wallets
 
-Zimppy-Wallets sind für die programmatische Nutzung durch KI-Agenten konzipiert – nicht für von Menschen verwaltete Browser-Erweiterungen. Schlüssel werden über die CLI oder SDKs verwaltet, Konten können über **ZIP-32 account derivation** rotiert werden, und die Wallet unterstützt vollständig automatisierte Zahlungsabläufe ohne menschliche Freigabe pro Transaktion.
+Zimppy Wallets sind für die programmgesteuerte Nutzung durch KI-Agenten konzipiert – nicht für von Menschen verwaltete Browser-Erweiterungen. Schlüssel werden über die CLI oder SDKs verwaltet, Konten können über **ZIP-32-Kontoableitung** rotiert werden, und die Wallet unterstützt vollständig automatisierte Zahlungsabläufe ohne menschliche Genehmigung pro Transaktion.
 
 ### Unterstützung mehrerer Agenten
 
-Mehrere Agenten können dieselbe Wallet über **ZIP-32 account rotation** nutzen – jeder Agent erhält sein eigenes Konto mit isolierter Guthabenverfolgung, kontoübergreifender Transfermöglichkeit und Guthabenberichten pro Konto. Das ermöglicht das Flottenmanagement vieler Agenten auf einer einzigen Wallet-Infrastruktur.
+Mehrere Agenten können dieselbe Wallet über **ZIP-32-Kontorotation** verwenden – jeder Agent erhält ein eigenes Konto mit isolierter Guthabenverfolgung, kontoübergreifenden Übertragungsmöglichkeiten und Guthabenberichten pro Konto. Das ermöglicht die Verwaltung vieler Agenten über eine einzige Wallet-Infrastruktur.
 
-### Vollständig shielded Zcash-Transaktionen (Orchard)
+### Vollständig abgeschirmte Zcash-Transaktionen (Orchard)
 
-Shielded Zahlungen verwenden das **Orchard protocol** von Zcash – den neuesten und sichersten shielded Pool. Der Server verifiziert Zahlungen mithilfe eines **Incoming Viewing Key (IVK)**, der empfangene Notes entschlüsseln kann, ohne den Spending Key offenzulegen. Replay-Angriffe werden durch **memo binding** verhindert – jede Challenge bettet ein eindeutiges `zimppy:{challenge_id}`-Memo ein, das kryptografisch verifiziert wird.
+Abgeschirmte Zahlungen verwenden das **Orchard-Protokoll** von Zcash – den neuesten und sichersten abgeschirmten Pool. Der Server verifiziert Zahlungen mit einem **Incoming Viewing Key (IVK)**, der empfangene Notes entschlüsseln kann, ohne den Ausgabeschlüssel offenzulegen. Replay-Angriffe werden durch **Memo-Bindung** verhindert – jede Challenge enthält ein eindeutiges `zimppy:{challenge_id}`-Memo, das kryptografisch verifiziert wird.
 
-### Sessions , keine Latenz pro Anfrage
+### Sitzungen, keine Latenz pro Anfrage
 
-Die Session-Architektur entkoppelt die Wartezeit auf die On-Chain-Bestätigung von der Latenz pro Anfrage. Nach einer einzelnen Einzahlung (~75 Sekunden) werden alle nachfolgenden Bearer-Token-Anfragen bis zum Schließen der Session sofort bedient, ohne Blockchain-Interaktion.
+Die Sitzungsarchitektur entkoppelt das Warten auf die On-chain-Bestätigung von der Latenz pro Anfrage. Nach einer einzigen Einzahlung (~75 Sekunden) werden alle nachfolgenden Inhaber-Token-Anfragen sofort und ohne Blockchain-Interaktion bedient, bis die Sitzung geschlossen wird.
 
-### Streaming , Pay-Per-Token
+### Streaming, Abrechnung pro Token
 
-Native Unterstützung für **SSE (Server-Sent Events)** ermöglicht Pay-Per-Token-gemessene Inhalte. Ideal für LLM-Inferenz-APIs, bei denen die Ausgabelänge variabel ist und die Abrechnung den tatsächlichen Verbrauch widerspiegeln sollte.
+Native Unterstützung für **SSE (Server-Sent Events)** ermöglicht nach Token abgerechnete Inhalte. Ideal für LLM-Inferenz-APIs, bei denen die Ausgabelänge variabel ist und die Abrechnung den tatsächlichen Verbrauch widerspiegeln soll.
 
 ### Spezifikationskonformität
 
-- Mit **HMAC-SHA256** signierte Challenges verhindern Fälschungen
+- **HMAC-SHA256**-signierte Challenges verhindern Fälschungen
 - **RFC 9457** strukturiertes Fehlerformat für interoperable Fehlerbehandlung
-- **`/.well-known/payment`** für die automatische Erkennung von Zahlungsmethoden durch jeden MPP-konformen Agenten
+- **`/.well-known/payment`** zur automatischen Erkennung von Zahlungsmethoden durch jeden MPP-konformen Agenten
 
 ---
 
@@ -445,53 +447,54 @@ packages/
 
 ### Verantwortlichkeiten der Komponenten
 
-**`zimppy-core`** - Der kryptografische Kern. Behandelt die Entschlüsselung von Orchard-Notes mithilfe des IVK des Servers, Memo-Parsing, Replay-Schutzlogik und Challenge-Verifizierung. In Rust geschrieben für Leistung und Korrektheit.
+**`zimppy-core`** – Der kryptografische Kern. Verarbeitet die Entschlüsselung von Orchard-Notes mit dem IVK des Servers, Memo-Parsing, Replay-Schutzlogik und die Verifizierung von Challenges. Für Leistung und Korrektheit in Rust geschrieben.
 
-**`zimppy-wallet`** - Eine native Zcash-Wallet auf Basis von `zingolib`. Verwaltet Schlüssel, Konten, shielded/transparente Guthaben und die Übermittlung von Transaktionen.
+**`zimppy-wallet`** – Eine native Zcash Wallet auf Basis von `zingolib`. Verwaltet Schlüssel, Konten, abgeschirmte/transparente Guthaben und die Übermittlung von Transaktionen.
 
-**`zimppy-rs`** - Das Rust SDK. Stellt die Traits `ChargeMethod`, `SessionMethod` und `PaymentProvider` bereit sowie Axum-Extractors (`MppCharge`, `WithReceipt`) für eine ergonomische Server-Integration.
+**`zimppy-rs`** – Das Rust SDK. Stellt die Traits `ChargeMethod`, `SessionMethod` und `PaymentProvider` sowie Axum-Extractors (`MppCharge`, `WithReceipt`) für eine ergonomische Serverintegration bereit.
 
-**`zimppy-napi`** - NAPI-RS-Bindings, die den Rust-Kern für Node.js verfügbar machen, sodass das TypeScript SDK dieselbe kryptografische Engine nutzen kann, ohne Zcash-Primitiven in JavaScript neu implementieren zu müssen.
+**`zimppy-napi`** – NAPI-RS-Bindings, die den Rust-Kern für Node.js verfügbar machen und es dem TypeScript SDK ermöglichen, dieselbe kryptografische Engine zu verwenden, ohne Zcash-Primitiven in JavaScript neu zu implementieren.
 
-**`zimppy-ts`** - Das TypeScript SDK. Umschließt NAPI-Bindings mit idiomatischen async/await-APIs für Charge-, Session- und SSE-Streaming-Flows.
+**`zimppy-ts`** – Das TypeScript SDK. Umhüllt NAPI-Bindings mit idiomatischen async/await-APIs für Abrechnungs-, Sitzungs- und SSE-Streaming-Abläufe.
 
-**`zimppy-cli`** - Die Kommandozeilen-Wallet und das Anfragetool. Unterstützt Auto-Pay (402 -> bezahlen -> erneut anfragen), Session-Management und alle Wallet-Operationen.
+**`zimppy-cli`** – Das Kommandozeilen-Wallet- und Anfrage-Tool. Unterstützt Auto-Pay (402 -> bezahlen -> erneut versuchen), Sitzungsverwaltung und alle Wallet-Operationen.
 
 ---
+
 ## Beispiele & Demos
 
 | Beispiel | Beschreibung |
 |---|---|
-| `examples/fortune-teller/` | Demos für Gebühren, Sitzungen und Streaming – Rust-Server + Client |
-| `examples/llm-summarizer/` | Pay-per-Token-LLM-Streaming-Demo |
+| `examples/fortune-teller/` | Abrechnungs-, Sitzungs- und Streaming-Demos – Rust-Server + Client |
+| `examples/llm-summarizer/` | LLM-Streaming-Demo mit Abrechnung pro Token |
 | `examples/mcp-server/` | MCP-Tool-Server mit kostenpflichtigen KI-Tools |
 | `examples/ts-server/` | Referenzimplementierung eines TypeScript-MPP-Servers |
 
 ---
 
-## Was enthalten ist – Funktionsübersicht
+## Enthaltene Funktionen – Zusammenfassung
 
 | Funktion | Beschreibung |
 |---|---|
-| **Sessions** | Einmal einzahlen, sofortige Bearer-Anfragen, Rückerstattung beim Schließen |
+| **Sitzungen** | Einmal einzahlen, sofortige Inhaber-Anfragen, Rückerstattung beim Schließen |
 | **Streaming** | Nach Token abgerechnete Inhalte über SSE |
-| **Charge** | Shielded oder transparente Zahlung pro HTTP-Anfrage (402-Ablauf) |
-| **Transparent Payments** | T-Adressen mit Replay-Schutz pro Challenge + Shield-Befehl |
-| **Multi-Account** | ZIP-32-Kontorotation, kontoübergreifende Überweisungen, Guthaben pro Konto |
-| **CLI Wallet** | Senden, shield, transfer, balance --all, whoami, auto-pay |
-| **Dual SDK** | TypeScript und Rust |
-| **Spec-Compliant** | HMAC-SHA256-Challenges, RFC 9457-Fehler, `/.well-known/payment`-Discovery |
+| **Abrechnung** | Abgeschirmte oder transparente Zahlung pro HTTP-Anfrage (402-Ablauf) |
+| **Transparente Zahlungen** | T-Adressen mit Replay-Schutz pro Challenge + Shield-Befehl |
+| **Mehrere Konten** | ZIP-32-Kontorotation, kontoübergreifende Übertragungen, Guthaben pro Konto |
+| **CLI Wallet** | Senden, abschirmen, übertragen, Guthaben --all, whoami, Auto-Pay |
+| **Duales SDK** | TypeScript und Rust |
+| **Spezifikationskonform** | HMAC-SHA256-Challenges, RFC-9457-Fehler, `/.well-known/payment`-Erkennung |
 
 ---
 
-*Für weitere Informationen besuche [zimppy.xyz](https://zimppy.xyz).*
+*Weitere Informationen findest du auf [zimppy.xyz](https://zimppy.xyz)*
 
 ---
 
 ## Verwandte Seiten
 
-- [Wallets](/using-zcash/wallets) — Zcash-Wallets, die shielded Transaktionen unterstützen
-- [Shielded Pools](/using-zcash/shielded-pools) — Wie Orchard-shielded-Transaktionen Zahlungsdaten schützen
-- [Payment Processors](/using-zcash/payment-processors) — Weitere Möglichkeiten, Zcash-Zahlungen zu akzeptieren
+- [Wallets](/using-zcash/wallets) — Zcash Wallets, die abgeschirmte Transaktionen unterstützen
+- [Abgeschirmte Pools](/using-zcash/shielded-pools) — Wie abgeschirmte Orchard-Transaktionen Zahlungsdaten schützen
+- [Zahlungsabwickler](/using-zcash/payment-processors) — Weitere Möglichkeiten, Zcash-Zahlungen zu akzeptieren
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs und die Zukunft der Programmierbarkeit von Zcash
-- [Community Projects](/zcash-community/community-projects) — Weitere Projekte im Zcash-Ökosystem
+- [Community-Projekte](/zcash-community/community-projects) — Weitere Projekte des Zcash-Ökosystems

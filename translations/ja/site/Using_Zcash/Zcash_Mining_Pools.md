@@ -62,13 +62,13 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- ウェブサイト: [Nanopool](https://zec.nanopool.org/login)
+- ウェブサイト: [Nanopool](https://zec.nanopool.org/)
 - プライベート支払い: No
 - プールタイプ: Pay Per Last N 
 - プール手数料: 1%

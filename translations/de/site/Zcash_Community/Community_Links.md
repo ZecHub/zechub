@@ -75,4 +75,4 @@ Zcash ist auf X weltweit aktiv präsent. Wichtige Accounts, denen du folgen soll
 - [ZecHub-Wiki](https://zechub.wiki)
 - [Zcash Grants Hub](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcash Global Ambassadors](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - Programmübersicht in diesem Wiki (zcashambassadors.com ist offline)
-- [ZecHub DAO auf Dework](https://app.dework.xyz/zechub-2424)
+- [ZEC Belohnungen](https://bounties.zechub.wiki/)

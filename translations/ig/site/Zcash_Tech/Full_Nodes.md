@@ -70,7 +70,7 @@ Jide n'aka na ị gụrụ akwụkwọ Zebra maka ntuziaka ntọala, ma sonyere 
 
 [Akwụkwọ Zebra](https://zebra.zfnd.org) 
 
-[Nkwekọrịta adịghị mma](https://discord.gg/uvEdHsrb)
+[Discord](https://discord.gg/uvEdHsrb)
 
 
 
@@ -90,7 +90,7 @@ Ndị a bụ ihe atụ nke nyiwe nke na-enye ohere ịnweta data Zcash Network:
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
 
-[Otu oche](https://blockchair.com/zcash)
+[Blockchair](https://blockchair.com/zcash)
 
 Ị nwekwara ike inye aka na mmepe nke netwọk site na-agba ọsọ ule ma ọ bụ na-atụ aro ọhụrụ ndozi & enye metrics. 
 

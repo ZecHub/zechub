@@ -95,13 +95,13 @@ Il lavoro correlato è già visibile. [Zakura](https://zechub.wiki/zcash-tech/za
 
 | Termine | Significato |
 |---|---|
-| Decrittazione di prova | Tentare di decrittare le transazioni una per una per trovare quelle indirizzate a te |
-| Distribuzione di segreti in banda | Inserire il segreto di pagamento nella transazione sulla blockchain, come fa oggi Zcash |
-| Pagamento fuori banda | Passare i dettagli del pagamento direttamente tra mittente e destinatario invece che attraverso la catena |
-| Sincronizzazione oblivious | Recuperare i dati della catena di cui un wallet ha bisogno senza rivelare quali dati sono stati richiesti |
-| Dati accompagnati da prove (PCD) | Dati che viaggiano con una prova della propria correttezza, così che le prove possano essere combinate e compresse |
-| Aggregato di transazioni schermate | Il modo in cui Tachyon raggruppa i cambiamenti dello stato schermato, modificando come vengono comunicati e firmati |
-| indistinguibilità del registro | La proprietà per cui le transazioni schermate non possono essere distinte l'una dall'altra |
+| Trial decryption | Tentare di decrittare le transazioni una per una per trovare quelle indirizzate a te |
+| In-band secret distribution | Inserire il segreto di pagamento nella transazione sulla blockchain, come fa oggi Zcash |
+| Out-of-band payment | Passare i dettagli del pagamento direttamente tra mittente e destinatario invece che attraverso la catena |
+| Oblivious synchronization | Recuperare i dati della catena di cui un wallet ha bisogno senza rivelare quali dati sono stati richiesti |
+| Proof-carrying data (PCD) | Dati che viaggiano con una prova della propria correttezza, così che le prove possano essere combinate e compresse |
+| Shielded transaction aggregate | Il modo in cui Tachyon raggruppa i cambiamenti dello stato schermato, modificando come vengono comunicati e firmati |
+| ledger indistinguishability | La proprietà per cui le transazioni schermate non possono essere distinte l'una dall'altra |
 
 <br/>
 

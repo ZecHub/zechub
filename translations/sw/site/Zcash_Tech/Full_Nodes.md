@@ -70,7 +70,7 @@ Hakikisha kusoma kitabu Zebra kwa maelekezo ya kuanzisha, na kujiunga R & D Disc
 
 [Kitabu cha Zebra](https://zebra.zfnd.org) 
 
-[Kutoelewana](https://discord.gg/uvEdHsrb)
+[Discord](https://discord.gg/uvEdHsrb)
 
 
 
@@ -90,7 +90,7 @@ Hizi ni mifano ya majukwaa ambayo kuruhusu upatikanaji wa data Zcash Network:
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
 
-[Kiti cha kulala](https://blockchair.com/zcash)
+[Blockchair](https://blockchair.com/zcash)
 
 Unaweza pia kuchangia maendeleo ya mtandao kwa kuendesha vipimo au kupendekeza maboresho mapya & kutoa metrics. 
 

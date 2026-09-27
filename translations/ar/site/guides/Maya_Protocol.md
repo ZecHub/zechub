@@ -73,7 +73,7 @@ Maya هو تفرع من THORChain لكنه مزود ببعض الميزات وا
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-[DefiSpot](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet, and Rabby.
+DefiSpot: لم يعد متاحًا عبر الإنترنت، إذ إن نطاقه لم يعد يُحلّ.
 
 [XDEFI](https://www.xdefi.io/): محفظة حفظ ذاتي متعددة المنظومات البيئية تدعم أكثر من 30 سلسلة كتل أصلية، وجميع سلاسل EVM و Cosmos، بما في ذلك Bitcoin و Ethereum و Solana و THORChain و Maya Protocol و TRON وغيرها.
 

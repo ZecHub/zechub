@@ -75,7 +75,7 @@ Pretty Good Policy for Zcash (PGPZ) 的社区中心。PGPZ 是一项位于华盛
 
 ### Ezcash
 易于使用、功能完整的多平台 Zcash 钱包，支持 autoshielding。  
-[访问](https://blog.nerdbank.net/ezcash-app)
+[访问](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 专注于 Orchard 的 Zcash 钱包，为 Zebrad 构建，支持完全 shielded 的交易和安全密钥管理。  

@@ -150,8 +150,8 @@ zallet -d /mnt/zcash-data/zallet help
 
 ## موارد إضافية
 - [كتاب Zebra](https://zebra.zfnd.org) — الوثائق الرسمية لـ Zebra
-- [كتاب Zallet](https://zcash.github.io/wallet) — الوثائق الرسمية لـ Zallet
-- [إشعار نهاية دعم zcashd](https://z.cash/support/zcashd-deprecation)
+- [كتاب Zallet](https://zcash.github.io/zallet/) — الوثائق الرسمية لـ Zallet
+- [إشعار انتهاء الدعم zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---
 

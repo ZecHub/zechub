@@ -186,13 +186,13 @@ Sɛnea ɛbɛyɛ a yɛbɛkɔ so ayɛ adamfofa su ma wɔn a wɔaba foforo no yɛma
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Modular akontabuo** | Nkontaabu a ɛbɔ ho ban bere a adu bo a wɔahyɛ ato hɔ akyi, te sɛ dɔn |
-| **mod p** na ɛyɛ | "Kyekyɛ mu denam." `p` na fa nea aka no sie" |
-| **Afuw** | Nnɔmba nhyehyɛe a wɔde ka ho, yi fi mu, bɔ, na kyekyɛ adwuma nyinaa mu |
-| **Afuo a ɛwɔ anohyetoɔ `F_p`** ** | Nnɔmba ahorow no `0..p-1` ne akontaabu ayɛ mod a prime `p` |
-| **Inverse (wɔde ne ho hyɛ mu)** | Element no `a^(-1)` ne `a x a^(-1) = 1`; "a wɔkyekyɛ mu denam." `a`" kyerɛ sɛ wɔde bɛdɔɔso |
-| **Zero nkyekyɛmu** | Nneɛma abien a ɛnyɛ zero a nea efi mu ba yɛ zero; ade a ɛsɛe composite moduli |
-| **Prime ** Ɔde ne nsa kyerɛɛ ne so | Dodow mũ a ɛboro 1 a nneɛma biara nni mu gye 1 ne n’ankasa |
+| **Modular arithmetic** | Nkontaabu a ɛbɔ ho ban bere a adu bo a wɔahyɛ ato hɔ akyi, te sɛ dɔn |
+| **mod p** | "Kyekyɛ mu denam." `p` na fa nea aka no sie" |
+| **Field** | Nnɔmba nhyehyɛe a wɔde ka ho, yi fi mu, bɔ, na kyekyɛ adwuma nyinaa mu |
+| **Finite field `F_p`** | Nnɔmba ahorow no `0..p-1` ne akontaabu ayɛ mod a prime `p` |
+| **Inverse (reciprocal)** | Element no `a^(-1)` ne `a x a^(-1) = 1`; "a wɔkyekyɛ mu denam." `a`" kyerɛ sɛ wɔde bɛdɔɔso |
+| **Zero divisor** | Nneɛma abien a ɛnyɛ zero a nea efi mu ba yɛ zero; ade a ɛsɛe composite moduli |
+| **Prime** | Dodow mũ a ɛboro 1 a nneɛma biara nni mu gye 1 ne n’ankasa |
 
 ---
 

@@ -74,12 +74,12 @@ I wallet e il software dei nodi gestiscono automaticamente gran parte di questo 
 
 | Termine | Significato in parole semplici |
 |---|---|
-| Pool shielded | L’insieme dei fondi i cui importi e proprietari sono nascosti dalla crittografia a conoscenza zero |
-| Bug di soundness | Un difetto che permette a una transazione non valida di superare il controllo della prova come se fosse valida |
+| Shielded pool | L’insieme dei fondi i cui importi e proprietari sono nascosti dalla crittografia a conoscenza zero |
+| Soundness bug | Un difetto che permette a una transazione non valida di superare il controllo della prova come se fosse valida |
 | Turnstile | Un checkpoint pubblico che conta il valore che si sposta tra i pool affinché l’offerta resti verificabile |
-| Di sola spesa | Un pool da cui puoi spendere, ma a cui non puoi aggiungere nuovo valore |
-| Aggiornamento di rete (NU) | Una modifica coordinata alle regole di consenso di Zcash, attivata a un’altezza di blocco prestabilita |
-| Nota recuperabile in ambito quantistico | Un formato di nota progettato in modo che i fondi possano essere recuperati se i computer quantistici dovessero un giorno rompere la crittografia di oggi |
+| Spend-only | Un pool da cui puoi spendere, ma a cui non puoi aggiungere nuovo valore |
+| Network upgrade (NU) | Una modifica coordinata alle regole di consenso di Zcash, attivata a un’altezza di blocco prestabilita |
+| Quantum-recoverable note | Un formato di nota progettato in modo che i fondi possano essere recuperati se i computer quantistici dovessero un giorno rompere la crittografia di oggi |
 
 ## FAQ
 

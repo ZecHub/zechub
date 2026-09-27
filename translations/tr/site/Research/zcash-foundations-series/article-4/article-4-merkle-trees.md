@@ -176,4 +176,4 @@ Ağ, yakın tarihli root'ların (anchor'ların) bir penceresini hatırlar; bu y�
 
 **Makale 5 . Zero-knowledge proofs:** doruk noktası. Artık notları, commitment'ları ve ağacı kurduk ve sürekli "zero knowledge ile kanıtlanıyor" diyoruz. Makale 5, nihayet bir önermenin doğru olduğunu, notunuzun ağaçta bulunduğunu, nullifier'ınızın doğru olduğunu, paranın dengede olduğunu, bunların hiçbirini açığa vurmadan nasıl kanıtlayabildiğinizi açıklar.
 
-*ZecHub için hazırlanan* İlk Prensiplerden Zcash *serisinin bir parçası. Lisans: CC BY-SA 4.0.*
+*[ZecHub](https://zechub.org) için hazırlanan* İlk Prensiplerden Zcash *serisinin bir parçası. Lisans: CC BY-SA 4.0.*

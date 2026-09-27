@@ -80,7 +80,7 @@ ZIP 227 有意保持 **发行透明**，这样每种资产的流通供应量都�
 
 **亲自运行这个演示吧！**
 
-克隆 zcash-tx-tool 仓库：<https://github.com/QED-it/zcash_tx_tool>
+克隆 zcash-tx-tool 仓库：[https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash 改进提案（ZIPs）
 

@@ -40,12 +40,12 @@ Sapling kplɔ Overwinter, si nye June 2018 ƒe tɔtrɔ si dzra network la ƒe do
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| Adzɔnu si wotsɔ akpoxɔnu wɔe | Zcash ƒe asitsatsa si nye ame ŋutɔ tɔ si ɣlaa amesi ɖoe ɖa, amesi xɔe, kple ga home. |
+| Shielded transaction | Zcash ƒe asitsatsa si nye ame ŋutɔ tɔ si ɣlaa amesi ɖoe ɖa, amesi xɔe, kple ga home. |
 | Sprout | Gbãtɔ shielded protocol Zcash dze egɔme kple, blewu eye wòlolo wu Sapling. |
-| Gazazã kple Dɔwɔwɔ ƒe nutome suewo | Sapling ƒe kpeɖodzi nutome yeye eve siwo xɔ ɖe Sprout ƒe JoinSplit nutome ɖeka teƒe. |
-| Adrɛs vovovowo | Fexexe ƒe adrɛs geɖe siwo ŋu kadodo aɖeke mele o siwo nàte ŋu akpɔ tso safui ɖeka me la dometɔ ɖeka. |
-| Nukpɔkpɔ ƒe safui | Safui si nana ame aɖe kpɔa gakotoku ƒe asitsatsa evɔ mate ŋu azã ga tso eme o. |
-| Nubabla ƒe alɔdze id | Kɔda kpui aɖe si gblɔna na network la be upgrade ƒe se siwo dzi asitsatsa aɖe zɔna ɖo. |
+| Spend and Output circuits | Sapling ƒe kpeɖodzi nutome yeye eve siwo xɔ ɖe Sprout ƒe JoinSplit nutome ɖeka teƒe. |
+| Diversified address | Fexexe ƒe adrɛs geɖe siwo ŋu kadodo aɖeke mele o siwo nàte ŋu akpɔ tso safui ɖeka me la dometɔ ɖeka. |
+| Viewing key | Safui si nana ame aɖe kpɔa gakotoku ƒe asitsatsa evɔ mate ŋu azã ga tso eme o. |
+| Consensus branch id | Kɔda kpui aɖe si gblɔna na network la be upgrade ƒe se siwo dzi asitsatsa aɖe zɔna ɖo. |
 
 ## Nyabiasewo ƒe Nyabiasewo
 
@@ -89,4 +89,4 @@ Le Sprout te la, asitsatsa si ŋu wokpɔ ta na tutu xɔa aɖabaƒoƒo geɖe eye 
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Dzomeŋɔli](../zcash-tech/overwinter) · Esi kplᴐe ɖo: [Seƒoƒo ƒe ʋuʋu](../zcash-tech/blossom)
+Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [Overwinter](../zcash-tech/overwinter) · Esi kplᴐe ɖo: [Blossom](../zcash-tech/blossom)

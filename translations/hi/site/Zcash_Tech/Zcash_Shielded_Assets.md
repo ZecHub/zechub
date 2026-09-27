@@ -80,7 +80,7 @@ ZIP 227 जानबूझकर **issuance को transparent** रखता �
 
 **डेमो स्वयं चलाकर देखें!**
 
-zcash-tx-tool repository को clone करें: <https://github.com/QED-it/zcash_tx_tool>
+zcash-tx-tool repository को clone करें: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash Improvement Proposals (ZIPs)
 

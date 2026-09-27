@@ -36,7 +36,7 @@ The hybrid Proof-of-Stake (PoS) approach combines traditional Proof-of-Work (PoW
 
 The Crosslink protocol is a proposed design for Zcash's hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. It integrates PoW with a Byzantine Fault Tolerance (BFT) protocol, enabling assured finality as long as either PoW or PoS remains secure. The design aims to strengthen network security and decentralization by incorporating staked validation while maintaining miner participation. A key feature of the proposal, called Crosslink 2, simplifies the architecture by unifying BFT proposers and miners. This streamlined approach minimizes structural changes and allows the use of a "dummy" BFT layer, making it easier to prototype and deploy while maintaining high-security standards.
 
-The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward-looking solution to evolving blockchain challenges. For more details, refer to the [GitHub hifadhi ya kumbukumbu](https://github.com/ShieldedLabs/crosslink-deployment) na ya [Zcash Jamii Forum](https://forum.zcashcommunity.com).
+The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward-looking solution to evolving blockchain challenges. For more details, refer to the [GitHub hifadhi ya kumbukumbu](https://github.com/ShieldedLabs/zebra-crosslink) na ya [Zcash Jamii Forum](https://forum.zcashcommunity.com).
 
 ### Malengo na malengo ya Crosslink
 
@@ -61,7 +61,7 @@ Itifaki ya Crosslink imeundwa kushughulikia malengo kadhaa muhimu kwa siku zijaz
 
 Fikiria huduma ya pakiti ambayo inatoa hati mbili tofauti kwa utoaji huo. Ya kwanza ni skanning kufuatilia: inaonekana haraka, anakuambia ambapo mfuko uwezekano mkubwa zaidi ni, na mara nyingine kurekebishwa. Pili ni risiti kusainiwa uwasilishaji: hufika baadaye, lakini mara moja ipo hakuna mtu mgogoro yake.
 
-Kitabu cha chini-latency ni kufuatilia scan, na kitabu mwisho wa kuhitimisha ni risiti saini. Wote kuelezea mlolongo huo wa matukio; wao kutofautiana katika jinsi ya haraka wanaonekana na jinsi imara kushikilia yao.
+Kitabu cha chini-latency ni kufuatilia scan, na kitabu kukamilika ni risiti saini. Wote kuelezea mlolongo huo wa matukio; wao kutofautiana katika jinsi ya haraka wanaonekana na jinsi imara kushikilia yao.
 
 Hali ya usalama ni nini depo gani wakati saini risiti kuacha kuwasili wakati scans kuendelea stacking. vifurushi bado hoja kwa njia ya jengo  lakini ofisi ataacha kulipa nje dhidi ya skan tu mpaka ishara kukamata up.
 
@@ -90,7 +90,7 @@ Itifaki ya Crosslink inajengwa kikamilifu na kupelekwa kwa Shielded Labs katika 
 * Uanzishaji Mantiki: Kuanzisha Crosslink inahitaji mabadiliko ya Zcash makubaliano sheria, ikiwa ni pamoja na kufafanua mchakato wa usambazaji hisa na kusasisha mtandao itifaki kanuni kusaidia mseto makubaliana.
 * Phased Deployment: The protocol will roll out in stages to ensure network stability and community adaptation. Initial phases focus on technical implementation, followed by governance integration for selecting notaries.
 
-Unaweza kuchunguza maelezo ya kiufundi na kufuatilia maendeleo yake kupitia tovuti. [Crosslink kupelekwa Repository juu ya GitHub](https://github.com/ShieldedLabs/crosslink-deployment).
+Unaweza kuchunguza maelezo ya kiufundi na kufuatilia maendeleo yake kupitia tovuti. [zebra-crosslink hazina kwenye GitHub](https://github.com/ShieldedLabs/zebra-crosslink) na [Kitabu cha Zebra-Crosslink](https://shieldedlabs.github.io/zebra-crosslink/).
 
 ## Matokeo ya Kimatendo
 
@@ -140,7 +140,7 @@ Utaratibu huu wa makubaliano mawili unaimarisha ahadi ya Zcash kwa faragha, uend
        src="https://www.youtube.com/embed/O4wQi_i7k0I"
        title="Crosslink"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       ruhusuFullScreen
+       allowFullScreen
        loading="lazy"
      />
 </div>

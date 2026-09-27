@@ -44,5 +44,5 @@ https://www.youtube.com/watch?v=9WJSMxag2IQ
 
 ## Note
 
-Veuillez noter que le moyen le plus sûr d'utiliser ZEC consiste à utiliser uniquement des transactions protégées. Certains portefeuilles sont en train de mettre en place [adresses unifiées](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) qui permet aux utilisateurs et aux échanges de combiner des adresses transparentes et protégées.
+Veuillez noter que le moyen le plus sûr d'utiliser ZEC consiste à utiliser uniquement des transactions protégées. Certains portefeuilles sont en train de mettre en place [adresses unifiées](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) qui permet aux utilisateurs et aux échanges de combiner des adresses transparentes et protégées.
 

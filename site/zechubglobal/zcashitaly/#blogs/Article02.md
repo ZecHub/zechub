@@ -38,7 +38,7 @@ In conclusione, gli indirizzi e le transazioni sono elementi essenziali di quals
 
 ### Approfondimenti
 
-[Le transazioni ed indirizzi in Zcash](https://wiki.zechub.xyz/global/italiano/transazioni)
+[Le transazioni ed indirizzi in Zcash](https://zechub.wiki/global/italiano/transazioni)
 
 ### Social Italiani
 

@@ -13,7 +13,7 @@
 <aside>
   
 #### Kusoma wakati
-Dakika mbili.
+| Dakika 2 |
 
 </aside>
 
@@ -26,7 +26,7 @@ Dakika mbili.
 <aside>
   
 #### Kusoma wakati
-Dakika mbili.
+| Dakika 2 |
 
 </aside>
 
@@ -39,7 +39,7 @@ Dakika mbili.
 <aside>
   
 #### Kusoma wakati
-Dakika mbili.
+| Dakika 2 |
 
 </aside>
 
@@ -52,7 +52,7 @@ Dakika mbili.
 <aside>
   
 #### Kusoma wakati
-Dakika mbili.
+| Dakika 2 |
 
 </aside>
 
@@ -65,7 +65,7 @@ Dakika mbili.
 <aside>
   
 #### Kusoma wakati
-Dakika mbili.
+| Dakika 2 |
 
 </aside>
 
@@ -78,7 +78,7 @@ Dakika mbili.
 <aside>
   
 #### Kusoma wakati
-Dakika mbili.
+| Dakika 2 |
 
 </aside>
 
@@ -91,7 +91,7 @@ Dakika mbili.
 <aside>
   
 #### Kusoma wakati
-Dakika mbili.
+| Dakika 2 |
 
 </aside>
 
@@ -104,7 +104,7 @@ Dakika mbili.
 <aside>
   
 #### Kusoma wakati
-Dakika mbili.
+| Dakika 2 |
 
 </aside>
 
@@ -117,7 +117,7 @@ Dakika mbili.
 <aside>
   
 #### Kusoma wakati
-Dakika mbili.
+| Dakika 2 |
 
 </aside>
 

@@ -72,7 +72,7 @@ Takeaway: faragha inategemea kukaa ndani ya mabwawa ulinzi. Mara fedha kugusa a 
 
 - [Zcash Block Explorer (Mtafutaji wa Hifadhi)](https://mainnet.zcashexplorer.app/)
 
-- [Kiti cha magurudumu](https://blockchair.com)
+- [Blockchair](https://blockchair.com)
 
 - [3xpl](https://3xpl.com/zcash)
 

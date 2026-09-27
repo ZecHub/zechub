@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Community/Verifying_Zcash_Releases.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Verifying_Zcash_Releases.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
@@ -177,12 +177,12 @@ Subject Alternative Name がアイデンティティです。ここにはリポ�
 | Field | Value for v6.3.0 |
 |---|---|
 | OIDC issuer | `https://token.actions.githubusercontent.com` |
-| ソースリポジトリ | `https://github.com/ZcashFoundation/zebra` |
-| ビルドコミット | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| ランナー環境 | `github-hosted` |
-| ワークフロー実行 | `.../actions/runs/31424510487/attempts/1` |
-| リポジトリの可視性 | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 これらはすべて検証可能です。コミットハッシュはリポジトリ内のタグと一致するべきですし、ワークフロー実行は存在し、公開されているべきです。
 
@@ -219,9 +219,9 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 | Field | Value |
 |---|---|
-| Rekor ログインデックス | `2412071838` |
-| エントリ種別 | `hashedrekord v0.0.1` |
-| 統合日時 | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 これにより、鍵の不正使用を黙って行うことが発見可能になります。ログに一度も現れない署名や、あり得ない時刻に現れた署名は、対処する価値のあるシグナルです。統合時刻をリリース告知と照らし合わせてください。
 
@@ -427,10 +427,10 @@ sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
 
 | Project | Releases published at | Method | Where the key comes from |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore バンドル | 鍵は不要 — GitHub OIDC 経由の CI アイデンティティ |
-| **Zallet** | `github.com/zcash/zallet/releases` | 分離された GPG `.asc`、SLSA provenance、SBOM | `apt.z.cash/zodl.asc` — 主鍵 `0338 34DD…58E2 6AB1`、署名用サブキー `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | 鍵は不要 — GitHub OIDC 経由の CI アイデンティティ |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — 主鍵 `0338 34DD…58E2 6AB1`、署名用サブキー `1FE9 9324…23F0 617F` |
 | **zcashd** | *retired* | — | 2026-07-18 にブロック 3,417,100 で停止。インストールしないでください。 |
-| **Zodl** (formerly Zashi) | App Store / Google Play; `zodl-inc` on GitHub | ストア署名; スタンドアロン Android バイナリは GPG 署名付き | 移行声明に従った ZODL 鍵 |
+| **Zodl** (formerly Zashi) | App Store / Google Play; `zodl-inc` on GitHub | Store signing; standalone Android binaries GPG-signed | 移行声明に従った ZODL 鍵 |
 
 > **名称に関する注記:** Zashi は 2026 年に **Zodl** へリブランディングされました。最初は App Store、その後 Google Play です。古いガイドで "Zashi" と書かれているものは、同じウォレット系統を指しています。
 

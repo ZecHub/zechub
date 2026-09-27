@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Miti ya moyo
+# Heartwood
 
 > Heartwood iliingia moja kwa moja kwenye mtandao wa Zcash katika block 903,000 (Julai 16, 2020 UTC).
 
@@ -10,7 +10,7 @@ Nini wewe kuchukua mbali: jinsi Heartwood basi wachimbaji kupokea tuzo zao block
 
 Heartwood ni Zcash [kuboresha mtandao](../start-here/network-upgrades), makubaliano-sheria ngumu uma ambayo kupelekwa ni maalum katika [ZIP 250 - Ujumbe wa posta.](https://zips.z.cash/zip-0250). Ni bundled mabadiliko mbili kipengele: [ZIP 213 (Kifungo cha posta)](https://zips.z.cash/zip-0213) (Shielded Coinbase) na [ZIP 221 - Ujumbe wa posta.](https://zips.z.cash/zip-0221) (FlyClient). Heartwood ilikuwa ya nne kubwa mtandao Zcash upgrading, na ni pamoja mkono kwa njia ya mteja wa kimataifa. [Electric Coin Company](../zcash-organizations/electric-coin-company) na ya [Zcash Foundation](../zcash-organizations/zcash-foundation)Kama kila Zcash kuboresha, ni kuweka mpya makubaliano tawi id, tag ambayo inatoa mbili-njia ya ulinzi replay hivyo shughuli kujengwa chini ya sheria mpya haiwezi kuwa replayed juu ya mlolongo wa zamani, na kinyume chake.
 
-Mti wa moyo huanza kazi kwenye urefu uliowekwa (903,000), si wakati fulani hususa, kwa hiyo dakika halisi unayoona katika dashibodi inaweza kutofautiana kidogo kutoka mahali pamoja hadi pengine. Kipande hicho cha mti na muda huo ni sawa.
+Heartwood huamilishwa kwa urefu wa seti ya vitalu (903,000), si kwa wakati maalum wa saa, kwa hivyo dakika halisi unayoiona kwenye dashibodi inaweza kutofautiana kidogo kutoka sehemu moja hadi nyingine. Kitalu, na wakati, ni sawa.
 
 Kwa nini hii ni muhimu. wachimbaji kupata mpya minted ZEC kila wakati wao kuchimba block. Kabla ya Heartwood, mapato hayo alikuwa na nchi katika anwani uwazi, ambayo ni umma. Mtu yeyote anaweza kuangalia kiasi gani mchimbaji chuma na ambapo sarafu akaenda ijayo. Heartwood basi tuzo hiyo kwenda moja kwa moja kwenye anwani ulinzi badala yake, hivyo mshahara wa mchimbazi inaweza kukaa binafsi. Pia alifanya inawezekana kwa pochi nyepesi na minyororo nyingine ili kuangalia ushahidi-wa-kazi za Zcash bila kupakua mlolongo mzima.
 
@@ -30,7 +30,7 @@ Heartwood also changed what a block header commits to. The header field previous
 
 ![FlyClient flow: each block's header data is committed into a Merkle Mountain Range root (hashLightClientRoot), which lets a light client verify proof-of-work with a small logarithmic-size proof](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
 
-## Mahali ambapo Mti wa Moyo Unafaa
+## Mahali Heartwood inafaa
 
 Heartwood ni hatua moja katika mbio ya upgrades Zcash, kila kuongeza kipande cha pili hutegemea. Overwinter na Sapling aliwasili mwaka 2018, Blossom mwaka 2019, na moyo wa mbao 2020 saa block 903,000. Canopy ikifuatiwa baadaye mwaka 2020 kwenye block 1,046,400. sapling ni muhimu link katika mlolongo huu kwa ajili ya Moyo: ufanisi wake shielded-transaction mashine ilikuwa hali ya kiufundi kwamba alifanya walinzi coinbase inawezekana.
 
@@ -38,15 +38,15 @@ Heartwood ni hatua moja katika mbio ya upgrades Zcash, kila kuongeza kipande cha
 
 ## Orodha ya maneno
 
-Neno la Kiingereza lisilo na maana.
+| Muhula | Maana ya Kiingereza cha kawaida |
 |---|---|
- Network Upgrade (NU)  mabadiliko uratibu kwa Zcash ya makubaliano sheria, ulioamilishwa katika block kuweka urefu.
- Coinbase shughuli. The maalum ya manunuzi katika kila block kwamba hulipa nje blockchain tuzo.
-❖ Shielded Sapling address. aina binafsi ya anwani Zcash kuletwa na kuboresha Sapling.
-❖ Shielded coinbase. mabadiliko Heartwood kwamba lets block zawadi kulipwa katika salama Sapling anwani.
- FlyClient. Njia ambayo inaruhusu wateja mwanga kuthibitisha ushahidi wa kazi na uthibitisho ndogo.
-◯ Merkle Mountain Range (MMR) ▸ Muhtasari wa kazi ya vitalu vya zamani kwamba block header commits kwa.
-◯ Id ya tawi la makubaliano. Tag kutambua ambayo sheria kuboresha shughuli anafuata, kutumika kwa ajili ya ulinzi replay.
+| Network upgrade (NU) | Mabadiliko yaliyoratibiwa kwa sheria za makubaliano Zcash's, yaliyoamilishwa kwa urefu wa block uliowekwa |
+| Coinbase transaction | Muamala maalum katika kila kizuizi kinacholipa zawadi ya kizuizi |
+| Shielded Sapling address | Aina ya anwani ya Zcash ya kibinafsi iliyoletwa na uboreshaji wa Sapling |
+| Shielded coinbase | Mabadiliko Heartwood ambayo huruhusu zawadi za block kulipwa katika anwani za Sapling zilizolindwa |
+| FlyClient | Njia inayowaruhusu wateja wepesi kuthibitisha uthibitisho wa kazi kwa kutumia uthibitisho mdogo |
+| Merkle Mountain Range (MMR) | Muhtasari unaoendelea wa vitalu vilivyopita ambavyo kichwa cha vitalu kinajitolea |
+| Consensus branch id | Lebo inayobainisha sheria za uboreshaji ambazo muamala unafuata, inayotumika kwa ajili ya ulinzi wa marudio |
 
 ## FAQs
 
@@ -96,4 +96,4 @@ Coinbase matokeo alikuwa na kuwa uwazi, hivyo mchimbaji wa tuzo mpya minted daim
 
 ---
 
-Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Maua ya maua](../zcash-tech/blossom) · Kisha: [Kivuli cha juu](../zcash-tech/canopy)
+Mfululizo: [Kiwango cha Upgrades Network](../start-here/network-upgrades) · Zamani: [Blossom](../zcash-tech/blossom) · Kisha: [Canopy](../zcash-tech/canopy)

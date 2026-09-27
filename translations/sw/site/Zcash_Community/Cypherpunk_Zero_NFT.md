@@ -29,7 +29,7 @@ Tumeona miradi mingi sana ya ahadi nyingi na chini ya kutoa ramani zao za baraba
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
     title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -63,6 +63,6 @@ Ndiyo mkusanyiko wa awali got hacked, baadaye ni unwritten.
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 
-[Cypherpunk Zero DAO Mvutano](https://discord.com/invite/sjfgXys4Jf)
+[Discord Cypherpunk Zero DAO](https://discord.com/invite/sjfgXys4Jf)
 
 [Cypherpunk Zero NFT Mega Thread - Mchanganyiko wa picha za video na filamu.](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

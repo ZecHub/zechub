@@ -6,4 +6,4 @@
 
 ![Gobernanza](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-710a149234.webp)
 
-=> [La ZecHub DAO](https://zechub.wiki/dao)
+=> [La ZecHub DAO](https://zechub.wiki/governance-howto)

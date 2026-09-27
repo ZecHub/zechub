@@ -3,10 +3,10 @@
 </a>
 
 
-#  Kuona Network Zcash
+#  Kuona Mtandao wa Zcash
 
-Yafuatayo ni mwongozo juu ya jinsi ya kuendesha Ziggurat 3.0 Crawler kwa Zcash pamoja na programu zinazohusiana Crunchy na P2P-Viz kwenye Ubuntu 22.04 kwa ajili ya kukusanya na visualizing Zcash mtandao habari. 
-Video iliyounganishwa hapa chini inafuata mchakato huo.
+Ifuatayo ni mwongozo wa jinsi ya kuendesha Ziggurat 3.0 Crawler kwa Zcash pamoja na programu zinazohusiana Crunchy na P2P-Viz kwenye Ubuntu 22.04 kwa ajili ya kukusanya na kuibua taarifa za mtandao wa Zcash. 
+Video iliyounganishwa hapa chini inafuata mchakato huo huo.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -14,43 +14,43 @@ Video iliyounganishwa hapa chini inafuata mchakato huo.
     src="https://www.youtube.com/embed/Nq5cLiAHxPI"
     title="ziggurat 3.0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
     
 ----------------
-## Weka Mahitaji: 
+## Mahitaji ya Usakinishaji: 
 
 Kutu -> [https://rustup.rs/](https://rustup.rs/)
 
 ## Hiari:
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
-(kwa kuonyesha habari json katika terminal)
+(kwa kuonyesha taarifa za json kwenye terminal)
 
-curl -> [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
-(kwa kuuliza RPC crawler)
+mkunjo -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
+(kwa ajili ya kuuliza RPC ya kitambaa)
 
 npm (na nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
-(kwa kuonyesha P2P-Viz katika browser)
+(kwa kuonyesha P2P-Viz kwenye kivinjari)
 
 ----------------
 
 
 ----------------
-Ziggurat 3.0 Repository [https://github.com/runziggurat](https://github.com/runziggurat)
+Hifadhi ya Ziggurat 3.0 | [https://github.com/runziggurat](https://github.com/runziggurat)
 
-Crawler Repo [https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
+Repo ya Mtambaaji | [https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
 
-Crunchy Repo [https://github.com/runziggurat/crunchy.git](https://github.com/runziggurat/crunchy.git)
+Repo ya Kukasirika | [https://github.com/runziggurat/crunchy.git](https://github.com/runziggurat/crunchy.git)
 
-P2P-Viz Repo [https://github.com/runziggurat/p2p-viz.git](https://github.com/runziggurat/p2p-viz.git)
+Repo ya P2P-Viz | [https://github.com/runziggurat/p2p-viz.git](https://github.com/runziggurat/p2p-viz.git)
 
 ----------------
 
-Anza kwa kutumia updates kawaida.
+Anza kwa kutumia masasisho ya kawaida.
 
->  Tumia amri zifuatazo:
+>  Endesha amri zifuatazo:
 ```bash
 sudo apt update
 sudo apt upgrade
@@ -58,12 +58,12 @@ sudo apt upgrade
 
 ----------------
 
-## Zcash Mtandao Crawler
+## Kitambaa cha Mtandao cha Zcash
 
-Zcash Crawler anaishi ndani ya folda aitwaye 'zcash' hivyo inaweza kuwa vyema kuunda orodha mpya kabla ya cloning crawler (runziggurat / zcash repo).
+Kitambaa cha Zcash kinaishi ndani ya folda inayoitwa 'zcash' kwa hivyo inaweza kuwa vyema kuunda saraka mpya kabla ya kuunda kitambaa (runziggurat/zcash repo).
 
 
->  Kutoka / Home directory, Run amri zifuatazo:
+>  Kutoka kwa saraka ya /Nyumbani, endesha amri zifuatazo:
 ```bash
 mkdir runziggurat
 cd runziggurat
@@ -71,13 +71,13 @@ git clone https://github.com/runziggurat/zcash.git
 cd zcash
 ```
 
-Nenda kwenye kivinjari 
+Nenda kwenye kivinjari hadi 
 [https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md](https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md)
 
-Au kufungua readme katika 
-"/runziggurat/zcash/src/tools/crawler/README.md"
+Au fungua readme katika 
+'/runziggurat/zcash/src/tools/crawler/README.md'
 
-Ukurasa huu una habari kuhusu matumizi maalum. 
+Ukurasa huu una taarifa kuhusu matumizi maalum. 
 
 ----------------
 
@@ -105,109 +105,109 @@ OPTIONS:
             Print version information
 ```
 
-`--seed-addrs` \ `--dns-seed` ni hoja tu required na mahitaji ya anwani angalau moja maalum kwa ajili yake ya kukimbia.
+`--seed-addrs` \ `--dns-seed` ndiyo hoja pekee inayohitajika na inahitaji angalau anwani moja maalum ili iendeshwe.
 
 
 
 ----------------
 
-Amri 'cargo kukimbia --release --features crawler --bin crowler -- --help' ni amri ya kukimbia halisi na itachapisha menyu ya msaada iliyoonyeshwa.
+Amri 'cargo run --release --features crawler --bin crawler ---help' ni amri halisi ya run na itachapisha menyu ya usaidizi inayoonyeshwa.
 
 
->  Tumia amri
+>  Endesha amri
 ```bash
 cargo run --release --features crawler --bin crawler -- --help
 ```
 
 
-Hii itakuwa kukusanya programu na kuhakikisha kila kitu ni kazi vizuri.
+Hii itakusanya programu na kuhakikisha kila kitu kinafanya kazi vizuri.
 
-To run the Crawler, it is required to add a '--seed-addrs' flag to the start command, containing at least one, valid, Zcash node IP address. The crawler should be allowed to run for a reasonable amount of time to get an accurate result. Some sample node IP addresses can be found on  [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Ili kuendesha Kitambaa, inahitajika kuongeza bendera ya '--seed-addrs' kwenye amri ya kuanza, ikiwa na angalau anwani moja ya IP ya nodi ya Zcash, halali. Kitambaa kinapaswa kuruhusiwa kufanya kazi kwa muda unaofaa ili kupata matokeo sahihi. Baadhi ya anwani za IP za nodi za sampuli zinaweza kupatikana kwenye [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
 
-Ili kupata taarifa kutoka Crawler wakati wa kukimbia yake, ni required kuongeza '--rpc-addr' bendera kwa amri ya kuanza. Hii si required tu kuendesha Crawler yenyewe lakini vinginevyo itahitaji kuacha Crawler (ctrl + c au SIGKILL) kuonyesha taarifa yoyote wakati wote.
+Ili kupata taarifa kutoka kwa Kitambaa kinapoendeshwa, inahitajika kuongeza bendera ya '--rpc-addr' kwenye amri ya kuanza. Hii haihitajiki tu kuendesha kitambaa chenyewe lakini vinginevyo itahitaji kusimamisha kitambaa (ctrl+c au SIGKILL) ili kuonyesha taarifa yoyote kabisa.
 
 
->  Tumia amri
+>  Endesha amri
 ```bash
 cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
-Crawler itaanza kuwasiliana na mtandao (default kila sekunde 20) na kukusanya data ya mtandao. 
-Taarifa kutoka Crawler inaweza kuonyeshwa kwa kutumia curl kuuliza node (hii inahitaji jq kwa kuonyesha kwamba info). 
-Crawler RPC anwani katika mfano huu ni kuweka kwa '127.0.0.1:54321'
+Kitambaa kitaanza kuwasiliana na mtandao (chaguo-msingi kila baada ya sekunde 20) na kukusanya data ya mtandao. 
+Taarifa kutoka kwa Crawler zinaweza kuonyeshwa kwa kutumia curl kuuliza nodi (hii inahitaji jq kwa kuonyesha taarifa hiyo). 
+Anwani ya Crawler RPC katika mfano huu imewekwa kuwa '127.0.0.1:54321'
 
 
->  Katika Terminal nyingine, Run amri
+>  Katika Kituo kingine, endesha amri
 ```bash
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ | jq .result.protocol_versions
 ```
 
-Hii itaonyesha sasa zilizokusanywa data '.protocol_version' zilizomo ndani ya uwanja wa '.result'. uwanja '.results' ni kubwa sana hivyo ni muhimu kwa wito sehemu maalum ya badala yake. aina nyingine za data muhimu ni '.num_known_nodes', '. num_good_nods', '.user_agents' nk Angalia kipimo sehemu [Hapa](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
+Hii itaonyesha data ya sasa ya '.protocol_version' iliyokusanywa ndani ya sehemu ya '.result'. Sehemu ya '.result' ni kubwa sana kwa hivyo ni muhimu kuita sehemu maalum zake badala yake. Aina zingine muhimu za data ni '.num_known_nodes', '.num_good_nodes', '.user_agents' n.k. Tazama sehemu ya vipimo [Hapa](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
 
 ----------------
 
 
 ----------------
-Kuendesha Crunchy na P2P-Viz, ni required kwa bomba '. matokeo 'katika faili .json. 
+Ili kuendesha Crunchy na P2P-Viz, inahitajika kuingiza '.result' kwenye faili ya .json. 
 
 
->  Tumia amri
+>  Endesha amri
 ```bash
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ > latest.json
 ```
 
-Hii itaunda faili ya 'latest.json' katika saraka ya sasa. Hii faili ya "latest .json" itatumika na Crunchy. 
+Hii itaunda faili ya 'latest.json' katika saraka ya sasa. Faili hii ya 'latest.json' itatumika na Crunchy. 
 
-Katika hatua hii, Crawler inaweza kusimamishwa na 'ctrl + c' kama hakuna data zaidi inahitajika. Crawler itakuwa pato ripoti ya terminal ya habari muhimu.
+Katika hatua hii, Kitambaa kinaweza kusimamishwa kwa kutumia 'ctrl+c' ikiwa hakuna data zaidi inayohitajika. Kitambaa kitatoa ripoti kwa kituo cha taarifa muhimu.
 
 
 ----------------
 
-## Chumvi
+## Mbaya
 
-Crunchy inahitajika kukusanya faili ya json ya pato kwa matumizi na P2P-Viz.
+Crunchy inahitajika ili kukusanya faili ya json ya matokeo kwa matumizi na P2P-Viz.
 
 
-Kujenga Crunchy, navigate kwa '/ runziggurat' yako folder 
+Ili kuunda Crunchy, nenda kwenye folda yako ya '/runziggurat' 
 
->  Kwa clone katika Crunchy repo, Run amri zifuatazo
+>  Ili kuunganisha kwenye repo ya Crunchy, endesha amri zifuatazo
 ```bash
 git clone https://github.com/runziggurat/crunchy.git
 cd crunchy
 ```
-Nakili na kuweka faili 'latest.json' katika 'crunchy/testdata/' folda.
+Nakili na ubandike faili ya 'latest.json' kwenye folda ya 'crunchy/testdata/'.
 
->  Tumia amri zifuatazo 
+>  Endesha amri zifuatazo 
 ```bash
 cargo run --release -- -i testdata/latest.json -o testdata/state.json -g testdata/geoip-cache.json -f Zcash
 ```
 
-Hii itaunda Zcash node filtered 'state.json' faili katika 'crunchy/testdata/' folder kutumika na P2P-Viz.
+Hii itaunda faili ya 'state.json' iliyochujwa ya nodi ya Zcash kwenye folda ya 'crunchy/testdata/' itakayotumika na P2P-Viz.
 
 ----------------
 
 ## P2P-Viz
 
-Kujenga P2P-Viz, inahitajika kuwa na npm. 
+Ili kujenga P2P-Viz, inahitajika kuwa na npm. 
 
 
->  Kufunga npm na nvm, kukimbia amri zifuatazo:
+>  Ili kusakinisha npm na nvm, endesha amri zifuatazo:
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 
-Kufunga na kuanzisha upya terminal.
+Funga na uanze tena kituo.
 
 
->  Tumia amri:
+>  Endesha amri:
 ```bash
 nvm install --lts
 ```
 
-navigate to your '/runziggurat' folder [Nenda kwenye folda yako ya '/ runziggurat]
+nenda kwenye folda yako ya '/runziggurat'
 
 
->  Kwa clone katika P2P-Viz repo na kuanza, kukimbia amri zifuatazo
+>  Ili kuunganisha kwenye repo ya P2P-Viz na kuanza, Endesha amri zifuatazo
 ```bash
 git clone https://github.com/runziggurat/p2p-viz.git
 cd p2p-viz
@@ -220,30 +220,30 @@ npm run start http
 
 Fungua kivinjari katika [http://localhost:3000](http://localhost:3000). 
 
-Chagua 'Geolocation' na kisha chagua 'Chagua faili hali'.
+Chagua 'Jiografia' kisha uchague 'Chagua faili ya hali'.
 
-Kutoka faili Explorer pop-up, kuchagua 'state.json' faili. 
+Kutoka kwenye dirisha ibukizi la kichunguzi cha faili, chagua faili ya 'state.json'. 
 
-Node Explorer Dunia Ramani itakuwa populate na data faili. Angalia readme [Hapa](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) kwa maelezo zaidi juu ya chaguzi za matumizi na mipangilio.
+Ramani ya Dunia ya kichunguzi cha nodi itajazwa na data ya faili. Tazama readme [Hapa](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) kwa maelezo zaidi kuhusu chaguo na mipangilio ya matumizi.
 
 
 ----------------
-TIPI! 
+VIDOKEZO! 
 
-Unaweza kuweka Crawler juu ya kutambaa timed tu na 'timeout' amri ambayo itatoa maalum kill amri baada ya kuweka kiasi cha muda. Run 'time out --help' kwa maelezo zaidi.
-Amri ifuatayo itaanza na pia moja kwa moja kuacha crawler baada ya dakika 50.
+Unaweza kuweka Kitambaa kwenye utambazaji wa wakati kwa kutumia amri ya 'timeout' ambayo itatoa amri maalum ya kuua baada ya muda uliowekwa. Endesha 'timeout --help' kwa maelezo zaidi.
+Amri ifuatayo itaanza na pia itasimamisha kiotomatiki kitambaa baada ya dakika 50.
 
->  Tumia amri
+>  Endesha amri
 ```bash
 timeout --signal=2 50m cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
 ----------------
-TIPI! 
+VIDOKEZO! 
 
-'latest.json' inaweza kuitwa na kuandikwa katika '/ testdata' hivyo huna nakala na kuweka yake manually.
+'latest.json' inaweza kuitwa na kuandikwa kwenye '/testdata' kwa hivyo huna haja ya kunakili na kubandika mwenyewe.
 
 ----------------
-TIPI! 
+VIDOKEZO! 
 
-Anwani ya IP habari inaweza kukusanywa kutoka pato na kisha kutumika kwa reseed Crawler katika kuanza (--mbegu-addrs). Hii kupunguza muda required kufanya kutambaa kamili! 
+Taarifa za anwani ya IP zinaweza kukusanywa kutoka kwa matokeo na kisha kutumika kupanda tena Kitambaa mwanzoni (--seed-addrs). Hii itapunguza muda unaohitajika kufanya kutambaa kamili! 

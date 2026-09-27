@@ -157,7 +157,7 @@ Questo è il quadro più completo della serie, ma resta pur sempre un modello. A
 | **Spend description** | La parte di una tx che consuma una nota (nullifier, anchor, prova) |
 | **Output description** | La parte di una tx che crea una nota (commitment, testo cifrato, prova) |
 | **Action (Orchard)** | Un'unità unificata che esegue insieme una spesa e un output |
-| **Commitment di valore** | Un commitment di Pedersen omomorfico a un importo |
+| **Value commitment** | Un commitment di Pedersen omomorfico a un importo |
 | **Binding signature** | La firma che prova che i valori sono bilanciati senza rivelarli |
 | **Anchor** | La radice dell'albero contro cui una spesa prova l'appartenenza |
 | **Trial decryption** | Un destinatario che testa i nuovi commitment per trovare le note destinate a lui |

@@ -29,7 +29,7 @@ ZEC은 사람들이 데이터를 퍼미션리스하게 전송할 수 있는 기�
 
 [Zcash와 프라이버시의 중요성](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[보호된 생태계](https://electriccoin.co/blog/shielded-ecosystem/)
+[보호된 생태계](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcash 프라이버시 권장 사항](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -51,14 +51,12 @@ Zcash는 비트코인의 가장 큰 결함, 즉 데이터에 대한 사적인 �
 
 [작동 방식](https://z.cash/technology/)
 
-[블록체인의 HTTPS](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## 관련 페이지
 
-- [새로운 사용자 가이드](/start-here/new-user-guide) — ZEC 보유자의 단계별 온보딩
-- [지갑](/using-zcash/wallets) — ZEC을 저장하기 위한 보호된 지갑 선택
-- [ZEC 구매](/using-zcash/buying-zec) — 어디서, 어떻게 ZEC를 구할 수 있는가
-- [보호된 풀](/using-zcash/shielded-pools) — Zcash 풀이 거래를 비공개하게 유지하는 방법
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Zcash 프라이버시 뒤의 암호학
+- [신규 사용자 가이드](/start-here/new-user-guide) — 신규 ZEC 보유자를 위한 단계별 안내
+- [지갑](/using-zcash/wallets) — ZEC을 보관할 수 있는 실드 지갑 선택하기
+- [ZEC 구매](/using-zcash/buying-zec) — ZEC을 획득할 수 있는 장소와 방법
+- [실드 풀](/using-zcash/shielded-pools) — Zcash 풀이 거래를 비공개로 유지하는 방법
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Zcash 프라이버시를 뒷받침하는 암호학

@@ -15,7 +15,6 @@
 | Thumbs' Update             | नियमित ecosystem अपडेट और अंतर्दृष्टियाँ                   | [देखें ->](https://thumbsup.substack.com) |
 | roomatemusing              | विचार-लेख और समुदाय सामग्री                            | [देखें ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | Zcash development और tools पर केंद्रित तकनीकी ब्लॉग    | [देखें ->](https://blog.nerdbank.net/) |
-| Thor Likes                 | Zcash पर समाचार, राय, और टिप्पणी                  | [देखें ->](https://www.thorlikes.com/) |
 | ZecMec                     | Medium पर Zcash-केंद्रित लेख                         | [देखें ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter             | गहन लेख और newsletter                         | [देखें ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)     | privacy पर उच्च-प्रोफ़ाइल साक्षात्कार और सामग्री           | [देखें ->](https://naomibrockwell.com/highprofileinterviews) |

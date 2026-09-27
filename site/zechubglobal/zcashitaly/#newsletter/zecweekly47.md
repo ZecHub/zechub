@@ -24,7 +24,7 @@ In questa settimana di formazione, imparerete come è possibile eseguire un full
 
 Se siete alle prime armi con l'esecuzione di nodi su Zcash, allora non avete nulla di cui preoccuparvi, perché questo tutorial copre quasi tutte le cose importanti che dovete sapere quando si tratta di eseguire il vostro nodo su Zcashd. Visitate il link qui sotto per iniziare 
 
-[Guida a Zcashd Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md)
+[Guida a Zcashd Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md)
 
 ## Aggiornamenti su Zcash
 

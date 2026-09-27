@@ -56,7 +56,7 @@ Regardez-le [ici](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 
 [Inscrivez-vous ici pour participer virtuellement à Zcon4](https://whova.com/portal/registration/zcon_202307/cdjp6ynt)
 
-[Calendrier du ZF A/V Club](https://wiki.zechub.xyz/zfav/calendar)
+[Calendrier du ZF A/V Club](https://zechub.wiki/zfav/calendar)
 
 [Exploitation de l'explorateur de réseau Zcash Ziggurat - Tripleyouwu](https://www.youtube.com/watch?v=Nq5cLiAHxPI)
 

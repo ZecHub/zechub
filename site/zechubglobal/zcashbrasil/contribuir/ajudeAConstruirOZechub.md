@@ -16,7 +16,7 @@ Você pode:
 
 4. Elabore designs, como pôsteres/imagens/animações, sobre o ecossistema Zcash & assuntos relacionados a privacidade.
 
-5. Traduza quaisquer das páginas da wiki existentes por meio da [ZecHub Global](https://wiki.zechub.xyz/zechub-global).
+5. Traduza quaisquer das páginas da wiki existentes por meio da [ZecHub Global](https://zechub.wiki/zechub-global).
 
 💡 Para obter detalhes sobre os valores de recompensa, leia nossa página de contribuição.
 
@@ -24,7 +24,7 @@ Também postamos regularmente tarefas para as quais temos recompensas disponíve
 
 - [Problemas do Github](https://github.com/ZecHub/zechub/issues)
 - [Dework](https://app.dework.xyz/zechub-2424)
-- [CREW3](https://crew3.xyz/c/zechub)
+- [Zealy](https://zealy.io/cw/zechub)
 
 Se houver maneiras alternativas pelas quais você gostaria de contribuir, envie uma mensagem para [@ZecHub](https://twitter.com/zechub) no Twitter ou junte-se ao nosso [Discord](https://discord.gg/zcash).
 

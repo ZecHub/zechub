@@ -62,13 +62,13 @@ Zcash madencilik havuzları, bireysel madencilerin hesaplama güçlerini (hashra
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Web sitesi: [Nanopool](https://zec.nanopool.org/login)
+- Web sitesi: [Nanopool](https://zec.nanopool.org/)
 - Özel Ödemeler: Hayır
 - Havuz Türü: Pay Per Last N 
 - Havuz ücreti: %1

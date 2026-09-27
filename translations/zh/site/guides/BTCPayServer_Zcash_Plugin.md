@@ -442,7 +442,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 你可以使用：
 
-* **公共节点**，例如 `https://lightwalletd.zcash-infra.com`
+* **公共节点**，例如 `https://zec.rocks:443`
 * 你自己单独部署、与 BTCPay Server 分离的节点
 
 > 如果外部 `lightwalletd` 不可用或负载过高，屏蔽支付将会失败。

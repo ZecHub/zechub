@@ -75,7 +75,7 @@ Pagos privados para internet. Sin custodia, sin KYC. Los comerciantes reciben ZE
 
 ### Ezcash
 Wallet de Zcash multiplataforma, fácil de usar y con todas las funciones, con soporte para autoblindaje.  
-[Visitar](https://blog.nerdbank.net/ezcash-app)
+[Visitar](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Wallet de Zcash enfocada en Orchard y construida para Zebrad, con soporte para transacciones totalmente blindadas y gestión segura de claves.  

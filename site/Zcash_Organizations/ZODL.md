@@ -14,7 +14,7 @@ ZODL envisions a world without mass financial surveillance, where law-abiding pe
 
 ZODL (Zcash Open Development Lab) was founded in early 2026 by Josh Swihart, the former CEO of the Electric Coin Company (ECC). In January 2026, the entire ECC engineering and product team resigned following a governance dispute with Bootstrap, the 501(c)(3) nonprofit board that oversees ECC. The core team that had originally designed, implemented, and maintained Zcash's most critical systems transitioned to ZODL to continue their work independently.
 
-The Zashi wallet, previously developed and maintained under ECC, was rebranded to Zodl under the new organization. Users did not need to take any action, as the app rebranded automatically with the next update.
+The Zashi wallet, previously developed and maintained under ECC, was rebranded to ZODL under the new organization. Users did not need to take any action, as the app rebranded automatically with the next update.
 
 ## Funding
 
@@ -30,7 +30,7 @@ In March 2026, ZODL raised over $25 million in seed funding from a group of prom
 - **Balaji Srinivasan**
 - Additional angel investors from the crypto and technology sectors
 
-The capital is being used to expand development of both the Zcash protocol and the Zodl wallet.
+The capital is being used to expand development of both the Zcash protocol and the ZODL wallet.
 
 ## Leadership
 
@@ -40,12 +40,12 @@ The broader team is composed of the original Zcash protocol creators and develop
 
 ## Products
 
-### Zodl Wallet (formerly Zashi)
+### ZODL Wallet (formerly Zashi)
 
-Zodl is a self-custodial mobile wallet designed for private Zcash transactions. It combines deep protocol-level knowledge with user-friendly design, hiding complexity while maintaining security.
+ZODL is a self-custodial mobile wallet designed for private Zcash transactions. It combines deep protocol-level knowledge with user-friendly design, hiding complexity while maintaining security.
 
 **Platforms:**
-- [iOS (App Store)](https://apps.apple.com/app/zodl/id6444974742)
+- [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)

@@ -16,7 +16,7 @@
 
 ## Скомпилируйте бинарные файлы FROST
 
-[Ссылка на Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Ссылка на Github](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Используйте указанный выше репозиторий и следуйте инструкциям по компиляции: 
 
@@ -24,7 +24,7 @@
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 Бинарные файлы будут находиться в папке target.

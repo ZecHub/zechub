@@ -185,9 +185,9 @@ _(مثال على جلسة Free2z Live)_
 
 [Free2z](https://free2z.cash/)  
 [توثيق Free2z](https://free2z.cash/docs/)  
-[نظرة عامة على 2Z](https://free2z.cash/docs/2Zs/)  
-[إنشاء ملف شخصي](https://free2z.cash/docs/creators/creating-a-profile)  
-[ما هو Free2z Live؟](https://free2z.cash/docs/creators/free2z-live)  
+[نظرة عامة على 2Z](https://free2z.cash/docs/getting-started/tuzis)  
+[إنشاء ملف شخصي](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[ما هو Free2z Live؟](https://free2z.cash/docs/for-creators/free2z-live)  
 [Free2z للداعمين](https://free2z.cash/docs/category/for-supporters)
 
 ---

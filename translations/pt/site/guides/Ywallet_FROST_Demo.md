@@ -16,7 +16,7 @@
 
 ## Compilar os executáveis FROST
 
-[Link do Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Link do GitHub](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Use o repositório acima e siga as instruções de compilação: 
 
@@ -24,7 +24,7 @@ Use o repositório acima e siga as instruções de compilação:
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 Os executáveis estarão na pasta target.

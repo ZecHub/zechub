@@ -13,7 +13,7 @@
     src="https://www.youtube.com/embed/Wg_WtPdBig0"
     title="Zcash Explained: Namada-Zcash Strategic Alliance"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -42,7 +42,7 @@ Ne míeƒo nu tso shielded transfers ŋu la, eɖanye Ethereum non-fungible token
 
 ![Shielded Assets ƒe Asitsatsa ƒe Nɔnɔmetata](/content-images/image-1-512c639d56.webp)
 
-To ƒuƒoƒo si wotsɔ akpoxɔnuwo wɔ ɖekae le nunɔamesi vovovowo me la, Namada kpɔa egbɔ be wolé ame ŋutɔ ƒe nyawo me ɖe asi sɔsɔe, eɖanye nunɔamesi ƒomevi tɔxɛ si le ga si wotsɔ ɖo ame ŋu me o. Mɔnu sia doa ameŋunyatakakawo ŋuti ɖoɖo si wɔ ɖeka ɖe ŋgɔ le ɖoɖowɔɖia me eye wòdoa asitsatsa siwo ku ɖe Ethereum NFTs, ATOM, NAM, kple nunɔamesi bubu siwo wodo alɔe ŋu ƒe nya ɣaɣlawo ɖe ŋgɔ. Namada hã na be woate ŋu atsɔ dzesi siwo woate ŋu atrɔ kple esiwo womate ŋu atrɔ o ƒe ame ŋutɔ ƒe asitɔtrɔ to zk-SNARK yeyewo zazã me, si kpɔa egbɔ be nya ɣaɣlawo le native kple esiwo menye dukɔa me tɔ o ƒe dzesiwo abe alesi wowɔna le Zcash dzi ene.
+To ƒuƒoƒo si wotsɔ akpoxɔnuwo wɔ ɖekae le nunɔamesi vovovowo me la, Namada kpɔa egbɔ be wolé ame ŋutɔ ƒe nyawo me ɖe asi sɔsɔe, eɖanye nunɔamesi ƒomevi tɔxɛ si le ga si wotsɔ ɖo ame ŋu me o. Mɔnu sia doa ameŋunyatakakawo ŋuti ɖoɖo si wɔ ɖeka ɖe ŋgɔ le ɖoɖowɔɖia me eye wòdoa asitsatsa siwo ku ɖe Ethereum NFTs, ATOM, NAM, kple nunɔamesi bubu siwo wodo alɔe ŋu ƒe nya ɣaɣlawo ɖe ŋgɔ. Namada hã na be woate ŋu atsɔ dzesi siwo woate ŋu atrɔ kple esiwo womate ŋu atrɔ o ƒe asitɔtrɔ le ame ŋutɔ si to zk-SNARKs, si kpɔa egbɔ be nya ɣaɣlawo le native kple esiwo menye dukɔa me tɔ o ƒe dzesiwo abe alesi wowɔna le Zcash.
 
 ## Fetu Siwo Mesɔ O Kple Asitsatsa Kabakaba
 

@@ -86,7 +86,7 @@ O trabalho relacionado já é visível. [Zakura](https://zechub.wiki/zcash-tech/
 - **Tachyon não está ativo.** Nenhuma wallet o utiliza hoje, e nenhuma atualização o ativou.
 - **Tachyon não é o mesmo que Ironwood.** Ironwood foi ativado em julho de 2026 e tratou do conjunto Orchard e da catraca. Tachyon é uma proposta distinta e posterior sobre escalabilidade.
 - **Tachyon não reduz a privacidade.** O objetivo é manter a indistinguibilidade do livro-razão enquanto elimina o custo de escalabilidade, não trocar privacidade por velocidade.
-- **A verificação de ZK-SNARK nunca foi o estrangulamento.** A proposta deixa claro que a parte lenta é a forma como as wallets descobrem e coordenam o estado, e não o custo de verificar provas.
+- **A verificação de zk-SNARK nunca foi o estrangulamento.** A proposta deixa claro que a parte lenta é a forma como as wallets descobrem e coordenam o estado, e não o custo de verificar provas.
 - **"Destinado a NU7" não é um compromisso.** O que entra em NU7 é decidido por votação.
 
 <br/>
@@ -95,13 +95,13 @@ O trabalho relacionado já é visível. [Zakura](https://zechub.wiki/zcash-tech/
 
 | Termo | Significado |
 |---|---|
-| Desencriptação por tentativa | Tentar desencriptar transações uma a uma para encontrar aquelas que lhe são endereçadas |
-| Distribuição de segredos em banda | Colocar o segredo de pagamento dentro da transação na blockchain, como Zcash faz atualmente |
-| Pagamento fora de banda | Transmitir os detalhes do pagamento diretamente entre remetente e destinatário, em vez de através da cadeia |
-| Sincronização oblivious | Obter os dados da cadeia de que uma wallet precisa sem revelar quais os dados solicitados |
-| Dados acompanhados de provas (PCD) | Dados que viajam com uma prova da sua própria correção, para que as provas possam ser combinadas e comprimidas |
-| Agregado de transações blindadas | A forma de Tachyon agrupar alterações de estado blindado, alterando como são comunicadas e assinadas |
-| indistinguibilidade do livro-razão | A propriedade de as transações blindadas não poderem ser distinguidas umas das outras |
+| Trial decryption | Tentar desencriptar transações uma a uma para encontrar aquelas que lhe são endereçadas |
+| In-band secret distribution | Colocar o segredo de pagamento dentro da transação na blockchain, como Zcash faz atualmente |
+| Out-of-band payment | Transmitir os detalhes do pagamento diretamente entre remetente e destinatário, em vez de através da cadeia |
+| Oblivious synchronization | Obter os dados da cadeia de que uma wallet precisa sem revelar quais os dados solicitados |
+| Proof-carrying data (PCD) | Dados que viajam com uma prova da sua própria correção, para que as provas possam ser combinadas e comprimidas |
+| Shielded transaction aggregate | A forma de Tachyon agrupar alterações de estado blindado, alterando como são comunicadas e assinadas |
+| ledger indistinguishability | A propriedade de as transações blindadas não poderem ser distinguidas umas das outras |
 
 <br/>
 

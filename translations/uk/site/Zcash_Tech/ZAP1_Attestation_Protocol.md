@@ -45,4 +45,4 @@ Your app  -->  ZAP1 API  -->  Merkle tree  -->  Zcash anchor
 - Специфікація протоколу: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
 - Чернетка ZIP: [PR #1243](https://github.com/zcash/zips/pull/1243)
 - Живий API: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
-- Посібник для операторів: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+- Посібник для операторів: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

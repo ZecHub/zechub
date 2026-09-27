@@ -43,7 +43,7 @@ Nkyerɛkyerɛ a ɛkyerɛ sɛnea wobɛtwe ZEC afi exchange mu ni. Hyɛ no nsow s�
     src="https://www.youtube.com/embed/REUbkLzK7J4"
     title="Buy and withdraw ZEC to a shielded wallet from Gemini"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -58,7 +58,7 @@ Nkyerɛkyerɛ a ɛfa sɛnea wobɛbɔ wo ZEC ho ban afi address a ɛda adi so ak�
     src="https://www.youtube.com/embed/W2msuzrxr3s"
     title="Shield your ZEC from a transparent to shielded address"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -73,7 +73,7 @@ Nkyerɛkyerɛ a ɛkyerɛ sɛnea wobɛtɔ ZEC wɔ Coinbase na wode akɔ Zodl ni.
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

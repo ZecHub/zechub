@@ -21,7 +21,7 @@ Ezubere ya iji tinye ndị enyi na ezinụlọ n'ime Zcash na ịkwụ ụgwọ 
 A gbanwere aha obere akpa ahụ ** Zodl** na February 2026 mgbe ndị otu kwagara ZODL. Ndị ọrụ dị adị enweghị ihe ọ bụla ha ga-eme, dịka ngwa a gbanwere ya na mmelite ọzọ ya, nke mere njikọ ụlọ ahịa n'elu mepee Zod l Ọ bụ ugbu a ka echekwara ebe ahụ kama site ECC, yabụ lee [Peeji ZOD L](/zcash-organizations/zodl) maka ozi dị ugbu a.
 
 Mmekọrịta e wuru n'afọ ECC:
-- [Mkpụrụ ego:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) ndị ọhụrụ crypto nwere ike ịzụta ZEC ozugbo n'ime obere akpa ahụ na-agbafe nsogbu nke ndebanye aha akaụntụ, KYC, ma wepụ mkpụrụ ego site na mgbanwe.
+- [Coinbase:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) ndị ọhụrụ crypto nwere ike ịzụta ZEC ozugbo n'ime obere akpa ahụ na-agbafe nsogbu nke ndebanye aha akaụntụ, KYC, ma wepụ mkpụrụ ego site na mgbanwe.
 
 - [Flexa:](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) makes it simple to actually use ZEC, allowing new users to spend it at thousands of retail locations like Barnes & Noble, GameStop, and Chipotle.
 

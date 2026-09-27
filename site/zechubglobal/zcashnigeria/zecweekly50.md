@@ -52,7 +52,7 @@ A ṣe afihan iṣẹlẹ tuntun ti Zcash Ṣalaye: Namada<>Zcash Strategic Alli
 
 [Forukọsilẹ nibi lati kopa fere lori Zcon4](https://whova.com/portal/registration/zcon_202307/cdjp6ynt) 
 
-[Kalẹnda 📅  Egbe ZF A/V](https://wiki.zechub.xyz/zfav/calendar) 
+[Kalẹnda 📅  Egbe ZF A/V](https://zechub.wiki/zfav/calendar) 
 
 [Nṣiṣẹ Ziggurat Zcash oluwadi nẹtiwọki - Tripyouwu](https://www.youtube.com/watch?v=Nq5cLiAHxPI) 
 

@@ -73,7 +73,7 @@ Liquidity Auction була 21-денною подією, створеною дл
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-[DefiSpot](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet та Rabby.
+DefiSpot: більше не працює онлайн, його домен не розпізнається.
 
 [XDEFI](https://www.xdefi.io/): мультиекосистемний некастодіальний гаманець із підтримкою понад 30 нативних блокчейнів, а також усіх EVM- і Cosmos-мереж, включно з Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON та іншими.
 

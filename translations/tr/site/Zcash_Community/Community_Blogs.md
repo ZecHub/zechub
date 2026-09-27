@@ -15,7 +15,6 @@ Topluluk üyeleri, Zcash, gizlilik, kripto para ve ilgili konuları kapsayan bir
 | Thumbs' Update             | Düzenli ekosistem güncellemeleri ve içgörüler            | [Ziyaret et ->](https://thumbsup.substack.com) |
 | roomatemusing              | Düşünceler ve topluluk içeriği                           | [Ziyaret et ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | Zcash geliştirmesi ve araçlarına odaklanan teknik blog   | [Ziyaret et ->](https://blog.nerdbank.net/) |
-| Thor Likes                 | Zcash hakkında haberler, görüşler ve yorumlar            | [Ziyaret et ->](https://www.thorlikes.com/) |
 | ZecMec                     | Medium'da Zcash odaklı makaleler                         | [Ziyaret et ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter             | Derinlemesine makaleler ve bülten                        | [Ziyaret et ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)     | Gizlilik üzerine yüksek profilli röportajlar ve içerikler | [Ziyaret et ->](https://naomibrockwell.com/highprofileinterviews) |

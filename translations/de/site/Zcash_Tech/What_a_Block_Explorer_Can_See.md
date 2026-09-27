@@ -63,7 +63,7 @@ Wenn man die Rohdaten abfragt, bleiben die Felder für shielded Sender und Empf�
 ## Ressourcen
 
 - [Zcash: Empfehlungen zu Privatsphäre und Sicherheit](https://z.cash/support/security/privacy-security-recommendations/)
-- [Ein shielded Ökosystem (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Ein shielded Ökosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Wie die Zcash-Technologie funktioniert](https://z.cash/technology/)
 - [Blockchair Zcash-Explorer](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@ Wenn man die Rohdaten abfragt, bleiben die Felder für shielded Sender und Empf�
 - [Zcash-Grundlagen](/start-here/what-is-zec-and-zcash)
 - [Wallets](/using-zcash/wallets)
 - [Shielded Pools](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

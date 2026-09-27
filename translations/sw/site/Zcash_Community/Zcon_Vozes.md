@@ -20,7 +20,7 @@ It was held at the iconic Museum of Tomorrow, marking the continent as home to t
     src="https://www.youtube.com/embed/videoseries?si=9FVjor70RRnNKOSs&amp;list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf"
     title="Zcon  Vozes Brasil"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -40,7 +40,7 @@ The goal of Zcon Vozes is to bridge technical knowledge, market insights, and ac
     src="https://www.youtube.com/embed/videoseries?si=PYJQbHyhQCgHncp7&amp;list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz"
     title="Zcon2 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

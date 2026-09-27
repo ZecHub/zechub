@@ -16,7 +16,7 @@ TEX पतों के लिए technical proposal Zcash [ZIP 320](https://zip
 ## मुझे TEX पते की आवश्यकता कब होती है
 
 ### आपको TEX पते की **आवश्यकता** तब होती है जब आप किसी ऐसे wallet का उपयोग करके किसी Transparent पते पर funds भेज रहे हों जो सीधे Transparent पते पर भेजने का समर्थन नहीं करता। 
-कुछ wallets सीधे Transparent पते पर भेजने की अनुमति ही नहीं देते और **recipient TEX का समकक्ष पता उपलब्ध नहीं करा सकता**। इसलिए, कभी-कभी Transparent पते को TEX पते में **convert** करना आवश्यक हो सकता है। यह zip-320 में वर्णित reference implementation चलाकर manually किया जा सकता है। **Transparent-to-TEX-Converter** का एक hosted instance [यहाँ](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/) पाया जा सकता है।
+कुछ wallets सीधे Transparent पते पर भेजने की अनुमति ही नहीं देते और **recipient TEX का समकक्ष पता उपलब्ध नहीं करा सकता**। इसलिए, कभी-कभी Transparent पते को TEX पते में **convert** करना आवश्यक हो सकता है। यह [zip-320](https://zips.z.cash/zip-0320#reference-implementation) में वर्णित reference implementation चलाकर manually किया जा सकता है।
 
 ### आपको TEX पते की आवश्यकता तब होती है जब आप किसी centralized exchange को funds भेज रहे हों जो **यह REQUIRE करता हो कि वे funds किसी Transparent source से आए हों**। 
 वर्तमान में, [Binance](https://www.binance.com/) ही एकमात्र Centralized Exchange है जो TEX पतों का उपयोग करता है (और TEX बनने का मुख्य कारण भी वही है)। 

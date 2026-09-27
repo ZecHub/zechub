@@ -16,7 +16,7 @@
 
 ## FROST bins को कंपाइल करें
 
-[Github लिंक](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Github लिंक](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 ऊपर दिए गए repo का उपयोग करें और कंपाइल करने के निर्देशों का पालन करें: 
 
@@ -24,7 +24,7 @@
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 Bins target फोल्डर में होंगे।

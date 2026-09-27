@@ -16,7 +16,7 @@ TEX adresleri henüz yaygın olarak benimsenmemiş olsa da, Zcash kullanıcılar
 ## Ne Zaman Bir TEX Adresine İhtiyacım Var
 
 ### Doğrudan bir Transparent adrese göndermeyi desteklemeyen bir cüzdan kullanarak bir Transparent adrese fon gönderirken bir TEX adresine **ihtiyacınız vardır**. 
-Bazı cüzdanlar doğrudan bir Transparent adrese gönderime izin vermez ve **alıcı TEX eşdeğerini sağlamıyor olabilir**. Bu nedenle, zaman zaman bir Transparent adresten TEX adresine **dönüştürme** gerekebilir. Bu, zip-320'de açıklanan referans uygulama çalıştırılarak manuel olarak yapılabilir. **Transparent-to-TEX-Converter** için barındırılan bir örnek [BURADA](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/) bulunabilir.
+Bazı cüzdanlar doğrudan bir Transparent adrese gönderime izin vermez ve **alıcı TEX eşdeğerini sağlamıyor olabilir**. Bu nedenle, zaman zaman bir Transparent adresten TEX adresine **dönüştürme** gerekebilir. Bu, [zip-320](https://zips.z.cash/zip-0320#reference-implementation)'de açıklanan referans uygulama çalıştırılarak manuel olarak yapılabilir.
 
 ### Fonları, bu fonların **Transparent bir kaynaktan gelmesini GEREKTİREN** merkezi bir borsaya gönderirken bir TEX adresine ihtiyacınız vardır. 
 Şu anda TEX adreslerini kullanan tek merkezi borsa [Binance](https://www.binance.com/)'tir (ve TEX'in oluşturulmasının temel nedeni de budur). 

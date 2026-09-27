@@ -47,7 +47,7 @@ Electric Coin Company inapokea 8% ya [Zcash mfuko wa maendeleo](https://zips.z.c
     src="https://www.youtube.com/embed/ItEwc1lzvzc"
     title="How to Submit a Grant Application via ZCG"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -5,9 +5,9 @@
 
 # Zcash 주소 시각화하기
 
-Zcash를 처음 배우고 있다면, 곧바로 두 가지 유형의 [트랜잭션](https://zechub.wiki/using-zcash/transactions)이 존재한다는 것을 알게 될 것입니다: *transparent*와 *shielded*입니다.
-또한 Zcash 생태계의 최신 발전을 계속 따라왔다면, [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) 또는 UA에 대해서도 들어보셨을 수 있습니다.
-Zcash 업계에서 *shielded* 트랜잭션이라고 말할 때는, sapling 또는 orchard 프로토콜용으로 인코딩된 주소가 포함된 트랜잭션을 의미합니다. 
+Zcash를 처음 배우고 있다면, 곧바로 발생할 수 있는 [트랜잭션](https://zechub.wiki/using-zcash/transactions)에는 *transparent*와 *shielded*의 두 가지 유형이 있다는 것을 알게 될 것입니다.
+또한 Zcash 생태계의 최신 발전을 계속 따라왔다면, [통합 주소](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) 또는 UA에 대해서도 들어보셨을 수 있습니다.
+Zcash 업계에서 *shielded* 트랜잭션이라고 말할 때는 Sapling 또는 Orchard 프로토콜용으로 인코딩된 주소가 포함된 트랜잭션을 의미합니다. 
 UA는 *어떤* 유형의 shielded 또는 transparent 트랜잭션이든 하나의 주소로 통합하도록 설계되었습니다. 이러한 일반화는 앞으로 UX를 단순화하는 핵심입니다. 이 가이드의 목적은 UA에 대한 이해를 구체적인 시각적 예시로 보완하는 것입니다.
 
 ## Zcash 주소의 유형

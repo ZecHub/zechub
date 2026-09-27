@@ -1,7 +1,7 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/FROST.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
-# FROST [ìyẹn ìrì dídì]
+# FROST
 
 
 ## TL;DR
@@ -145,7 +145,7 @@ Nìkan nọmba ti o kere ju (t-out-of-n) ti awọn olukopa ti n ṣiṣẹ pap�
 
 ## Mímọ̀ Sí I
 
-[Àpilẹ̀kọ tó dá lórí owó ẹyọ - Àwọn Àkọsílẹ̀ Ẹ̀wọ̀n](https://www.coinbase.com/blog/threshold-digital-signatures)
+[Àpilẹ̀kọ Coinbase - Àwọn Ìbúwọ́lù Ààlà](https://www.coinbase.com/blog/threshold-digital-signatures)
 
 [Shamir Ìjìnlẹ̀ pínpín - Explainer & Àpẹẹrẹ](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
 

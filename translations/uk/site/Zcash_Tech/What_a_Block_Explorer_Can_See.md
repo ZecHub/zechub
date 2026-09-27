@@ -56,23 +56,23 @@
 
 ## Застосуйте це на практиці
 
-- Використовуйте гаманець, який за замовчуванням використовує захищені адреси, наприклад [Zodl](https://zodl.com) або [Zingo!](https://www.zingolabs.org/).
+- Використовуйте гаманець, який за замовчуванням використовує захищені адреси, наприклад [ZODL](https://zodl.com) або [Zingo!](https://www.zingolabs.org/).
 - Коли ви отримуєте ZEC на прозору адресу, переведіть їх на захищену адресу, перш ніж витрачати.
 - Платіть на захищені адреси там, де це можливо. Кожен прозорий платіж є повністю публічним; захищений — ні.
 
 ## Ресурси
 
 - [Zcash: рекомендації щодо приватності та безпеки](https://z.cash/support/security/privacy-security-recommendations/)
-- [Екосистема shielded (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Екосистема shielded (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Як працює технологія Zcash](https://z.cash/technology/)
 - [Експлорер Zcash на Blockchair](https://blockchair.com/zcash)
 
 ## Пов’язані сторінки
 
-- [Основи Zcash](/start-here/what-is-zec-and-zcash)
+- [Zcash основи](/start-here/what-is-zec-and-zcash)
 - [Гаманці](/using-zcash/wallets)
-- [Shielded pools](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [Екрановані пули](/using-zcash/shielded-pools)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

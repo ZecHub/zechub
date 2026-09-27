@@ -30,9 +30,9 @@
 
 ### 무료 도구:
 
-- [ImgnAI](https://imgnai.com/) 디스코드 또는 텔레그램의 봇 - [시작 가이드](https://imgnai.gitbook.io/imgnai/) 및 
+- [ImgnAI](https://imgnai.com/) Discord 또는 Telegram의 봇 - [시작 가이드](https://imgnai.gitbook.io/imgnai/) 및 
 이제는 [Webapp ImgnAI](https://app.imgnai.com/home)와 별도 계정 로그인
-X, Google, 디스코드, 텔레그램으로 로그인 가능
+X, Google, Discord, Telegram으로 로그인 가능
 - [Bing Dalle3](https://www.bing.com/create) - 무료 버전은 느릴 수 있음
 - [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - 무료로 제공되는 양 제한됨
 - [Ideogram](https://ideogram.ai/login) - 이미지에 현실적인 읽을 수 있는 텍스트 생성에 강함

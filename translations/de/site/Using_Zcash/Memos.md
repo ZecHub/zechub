@@ -22,6 +22,14 @@ Es gab eine Person, die ihrem Partner in einem der ersten Blöcke der Zcash-Bloc
 
 #### Fortgeschritten
 
+> **Historisch. Diese Demo funktioniert in der beschriebenen Form nicht mehr.**
+>
+> Die Demo unten verwendet zcashd, und ihr [Empfangsskript](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) liest Memos über `zcash-cli`. zcashd hat am 18. Juli 2026 seinen automatischen End-of-Support-Stopp erreicht, daher kann dieses Skript keinen laufenden Knoten mehr erreichen, und es wurde nicht portiert.
+>
+> Das Lesen geschützter Memos über die Kommandozeile funktioniert mit Zallet weiterhin: `zallet rpc z_listunspent` gibt jede empfangene geschützte Note mit demselben Feld `memoStr` zurück, das das Skript ausliest. Den Befehl findest du in der [Zallet-Kurzreferenz](/using-zcash/zallet-quick-reference-guide), und wie du einen Knoten von zcashd wegmigrierst, im [Migrationsleitfaden zu Zebra und Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet). Zallet befindet sich noch in der Beta-Phase.
+>
+> Dieser Abschnitt bleibt als historische Dokumentation der Magic-Wormhole-Demo erhalten.
+
 Hier erfährst du, wie du Zcash Shielded Memos mit der Magic-Wormhole-CLI und zcashd verwendest, um Dateien sicher von einem Computer zu einem anderen zu senden!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

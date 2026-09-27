@@ -39,5 +39,5 @@ Os embaixadores têm liberdade criativa sobre as atividades que planeiam, permit
 ## Candidate-se para se Tornar Embaixador
 
 Também pode envolver-se ao:
-- Contribuir para recompensas da [ZecHub DAO](https://app.dework.xyz/zechub-2424)
+- Contribuir para [ZEC Recompensas](https://bounties.zechub.wiki/)
 - Juntar-se ao [Discord Global da Zcash](https://discord.gg/zcash)

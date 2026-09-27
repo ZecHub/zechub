@@ -11,8 +11,6 @@ Los grifos son servicios que reparten pequeñas cantidades de criptomonedas de f
 
 Red principal: <a href="https://zecfaucet.com">zecfaucet</a>
 
-Red de pruebas: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
-
 Red de pruebas: <a href="https://fauzec.com/">fauzec.com</a>
 
 Red de pruebas: <a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>

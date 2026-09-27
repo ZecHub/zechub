@@ -17,7 +17,7 @@ Un'altra settimana entusiasmante per Zcash: la comunità ha raccolto un immenso 
 
 Le differenze tra le pool schermate a conoscenza zero e l'anonimato "Decoy-based" sono descritte nella recente aggiunta al wiki di ZecHub. Un'introduzione a pool schermate, prove a conoscenza zero, Ring Signatures e transazioni confidenziali. Vengono poi tracciati dei confronti che forniscono un chiaro ragionamento sul perché Zcash fornisca garanzie di privacy on-chain preferibili.
 
-[Leggi qui: 🛡️Shielded Pools vs ⭕Decoy-based systems](https://wiki.zechub.xyz/zk-shielded-pools-vs-decoy-based-privacy)\
+[Leggi qui: 🛡️Shielded Pools vs ⭕Decoy-based systems](https://zechub.wiki/zk-shielded-pools-vs-decoy-based-privacy)\
 **Aggiornamenti su Zcash**
 
 
@@ -29,7 +29,7 @@ Le differenze tra le pool schermate a conoscenza zero e l'anonimato "Decoy-based
 
 - [ECC si concentra sulle prestazioni del portafoglio](https://forum.zcashcommunity.com/t/opening-applications-for-the-second-round-of-zf-minor-grants/45463)
 
-- [Il Club ZFAV pubblica le 📚guide per i creatori di contenuti](https://wiki.zechub.xyz/zfav/guides)
+- [Il Club ZFAV pubblica le 📚guide per i creatori di contenuti](https://zechub.wiki/zfav/guides)
 
 ### **Aggiornamenti di Zcash Community Garants**
 
@@ -116,4 +116,4 @@ Le differenze tra le pool schermate a conoscenza zero e l'anonimato "Decoy-based
 
 #### Social Italiani
 
-[Blog](https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |
+[Blog](https://web.archive.org/web/20240419175552/https://zcashitalia.com/) | [Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Gruppo Facebook](https://www.facebook.com/groups/zecitalia) | [Twitter](https://twitter.com/InsideZcash) |

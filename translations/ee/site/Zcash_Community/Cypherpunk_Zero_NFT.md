@@ -29,7 +29,7 @@ Míekpɔ dɔ geɖe akpa siwo do ŋugbe wògbɔ eme eye womewɔa woƒe NFT mɔfia
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
     title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -63,6 +63,6 @@ Woaɖe asi le nusiwo woatsɔ ana ƒe 72% (7,200 NFTs) ŋu na dukɔa to whitelist
 
 [Cypherpunk Zero DAO ƒe Twitter dzi](https://twitter.com/CypherpunkDAO)
 
-[Cypherpunk Zero DAO ƒe Masɔmasɔ](https://discord.com/invite/sjfgXys4Jf)
+[Cypherpunk Zero DAO ƒe Discord](https://discord.com/invite/sjfgXys4Jf)
 
 [Cypherpunk Zero NFT Mega ka si wotsɔ ƒoa ƒui](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

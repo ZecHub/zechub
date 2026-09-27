@@ -102,13 +102,13 @@ Ushirikiano wa kifedha, wakati mmoja kivuli cha matumaini, unakabiliwa na vivuli
 Kwa wale wanaojitokeza katika eneo lisilojulikana la CBDC, rasilimali huwa dira yako.
 1. Benki ya Malipo ya Kimataifa ([BIS ya](https://www.bis.org/search?keywords=cbdc))
 2. Shirika la Kimataifa la Fedha ([IMF](https://www.imf.org/en/About))
-3. Maandishi ya utafiti ([karatasi ya kuandikia](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
+3. Maandishi ya utafiti ([karatasi ya kuandikia](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Majarida ya kitaaluma ([jarida la habari](https://www.bis.org/publ/work976.pdf))
 5. C.E.I Makala ([Makala ya](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
 
 Rasilimali hizi zinatoa mtazamo wa mazingira yanayobadilika, kutoa ufahamu, utafiti na sasisho juu ya odyssey digital.
 
-## Hitimisho: Kutembea kwa Hekima Katika Bahari Isiyojulikana
+## Hitimisho: Kutembea kwa Hekima Katika Bahari Zisizojulikana
 
 As we sail through the uncharted waters tainted by past financial flaws and government interference, our narrative takes unexpected turns. From the bustling streets of China to the serene landscapes of Sweden, the legislative battlegrounds of the United States, and the coordinated efforts of the European Union, the digital odyssey is a tapestry woven with innovation, challenges, and human narratives.
 

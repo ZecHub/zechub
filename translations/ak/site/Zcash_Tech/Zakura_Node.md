@@ -6,7 +6,7 @@
 
 > 🇧🇷 [Versão em Portugalfo na wɔwom](/zechubglobal/zcashbrasil/zcashtech/zakura)
 
-Zakura yɛ free, open-source full node implementation ma Zcash, wɔasi ama scale. Forked fi [Zebra](Zebra_Full_Node.md) na ɛnam **Valar Kuw** ne **Project Tachyon** ntam adwumayɛ so na ɛyɛɛ no, Zakura de synchronization a ɛyɛ ntɛmntɛm kɛse, native block pruning, ne compatibility layer ma agyapade ma `zcashd` nnwinnade a wɔde yɛ adwuma. Wɔyii Version 1.0.0 adi wɔ July 15, 2026.
+Zakura yɛ free, open-source full node implementation ma Zcash, wɔasi ama scale. Forked fi [Zebra](Zebra_Full_Node.md) na ɛnam **Valar Kuw** ne **Project Tachyon** ntam adwumayɛ so na ɛyɛɛ no, Zakura de synchronization a ɛyɛ ntɛm kɛse, native block pruning, ne compatibility layer ma agyapade ma `zcashd` nnwinnade a wɔde yɛ adwuma. Wɔyii Version 1.0.0 adi wɔ July 15, 2026.
 
 ---
 
@@ -18,6 +18,7 @@ Zakura yɛ free, open-source full node implementation ma Zcash, wɔasi ama scale
 - **zcashd RPC compatibility mode** ma sika kotokuo ne nkabom a ɛwɔ hɔ dada no yɛ adwuma a wɔnyɛ nsakraeɛ biara.
 - **sɔhwɛ P2P akwantuo layer** (a wɔagyae no default) de n’ani si sub-500ms block propagation so ne DoS-resistant gossip.
 - Ɛne **Ironwood (NU6.3)** hyia, Zcash ntwamutam nkɔsoɔ no yɛɛ adwuma wɔ afe 2026 mfimfini.
+- **Zakura Common** (v1.3.0, August 2026) ma cryptography sika kotoku a wɔde di dwuma de yɛ kokoam nkitahodi no yɛ ntɛmntɛm: efi bɛboro sikani 3 kosi nea ennu 200 ms wɔ nsɛm pii mu, sɛnea Zakura nsusuwii te.
 - **Sean Bowe** (Zcash a ɔka wɔn a wɔhyehyɛɛ, Project Tachyon) ne **Dev Ojha** (Valar Kuw) na wodi wɔn anim.
 
 ---
@@ -26,7 +27,7 @@ Zakura yɛ free, open-source full node implementation ma Zcash, wɔasi ama scale
 
 Zakura yɛ Zcash full node a wɔayɛ no fi fam sɛ ɛbɛyɛ production-ready wɔ scale. Bere a ɛne Zebra kyɛ adwene a ɛne ne ho hyia — a ɛkyerɛ sɛ ɛgye tom na ɛdi Zcash protocol mmara koro no ara akyi — Zakura de mfiridwuma mu nkɔsoɔ kɛseɛ ba a ne botaeɛ ne sɛ ɛbɛbrɛ akwansideɛ a ɛwɔ Zcash node a ɛyɛ ma a wɔde tu mmirika no ase.
 
-Dwumadie no yɛ mmɔdenbɔ a **Project Tachyon** (Sean Bowe, Zcash mfitiaseɛ cryptographic engineers no mu baako na ɔdi anim) ne **Valar Group** (Dev Ojha na ɔdi anim) abom. Wɔbom de wɔn adwene si awo ntoatoaso a edi hɔ Zcash protocol nkɔso so, na Zakura som sɛ reference node ma saa adwuma no.
+Dwumadie no yɛ mmɔdenbɔ a **Project Tachyon** (Sean Bowe, Zcash mfitiaseɛ cryptographic engineers no mu baako di anim) ne **Valar Group** (Dev Ojha di anim) abom. Wɔbom de wɔn adwene si awo ntoatoaso a edi hɔ Zcash protocol nkɔso so, na Zakura som sɛ reference node ma saa adwuma no.
 
 ---
 
@@ -43,14 +44,14 @@ Zakura tintim nkɔnsɔnkɔnsɔn mfonini ahorow a wɔadi kan ayɛ a ɛtew bere a 
 | Bootstrap Ɔkwan a Wɔfa so Yɛ | Bere |
 |-----------------|------|
 | Archive mfonini a wɔde asie | ~simma 37 |
-| Pruned snapshot a wɔatwa no | **Ase simma 2** |
+| Pruned snapshot a wɔatwa no | **Wɔ simma 2 ase** |
 | Zebra (a ɛyɛ pɛpɛɛpɛ) | ~ nnɔnhwerew 20 |
 
 Pruned snapshots yɛ bɛyɛ **11 GB**, ɛma **680× ntɛmntɛm** node bootstrap tumi sɛ wɔde toto syncing fi genesis ho a.
 
 ### Native Block Ntwitwiridii
 
-Zakura boa configurable block pruning, ma node adwumayɛfo tumi kyerɛkyerɛ nkɔnsɔnkɔnsɔn abakɔsɛm dodow a ɛsɛ sɛ wɔkora so. Wei ma ɛyɛ nea mfaso wɔ so sɛ wobɛma node a edi mũ ayɛ adwuma wɔ hardware a ɛwɔ adekorabea kakraa bi — mfaso wɔ so ma validators, developers, ne infrastructure providers a wonhia abakɔsɛm nkɔnsɔnkɔnsɔn a edi mũ no.
+Zakura boa configurable block pruning, ma node adwumayɛfo tumi kyerɛkyerɛ nkɔnsɔnkɔnsɔn abakɔsɛm dodow a ɛsɛ sɛ wɔkora so. Wei ma ɛyɛ nea mfaso wɔ so sɛ wobɛma node a edi mũ ayɛ adwuma wɔ hardware a ɛwɔ akorae kakraa bi — mfaso wɔ so ma validators, developers, ne infrastructure providers a wonhia abakɔsɛm nkɔnsɔnkɔnsɔn a edi mũ no.
 
 ### zcashd RPC Nkitahodi Mode
 
@@ -72,16 +73,36 @@ Zakura ne Ironwood ntwamutam nkɔsoɔ (NU6.3), a wɔde yɛɛ adwuma wɔ Zcash ma
 
 ---
 
+## Zakura Common: Sikakorabea a Wɔde Siesie Nsɛm a Ɛyɛ Ntɛmntɛm
+
+Wɔ August 2026 mu no Zakura kuw no yii Zakura Common adi, fork ahorow a ɛyɛ ntɛmntɛm a ɛwɔ cryptography nhomakorabea ahorow a Zcash sika kotoku ne nodes de wɔn ho to so no adi. Zakura dan kɔɔ stack foforo no so wɔ version 1.3.0 mu, na Vizor Wallet ka sika kotoku a edi kan a ɛkaa ho no ho.
+
+![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](/content-images/zakuracommonspeedups.webp)
+
+Sɛnea Zakura ankasa nsusuwii ahorow kyerɛ no:
+
+| Adwumayɛ | Ahoɔhare a wɔde yɛ adwuma |
+|--|--|
+| Adanse awo ntoatoaso wɔ mobile so | bɛboro 14× (desktop: bɛboro 5×) |
+| Sinsemilla hashing a wɔde hyɛ | bɛboro 21× |
+| zk-SNARK nokwaredi | 4–8× na ɛyɛ |
+| Sɔhwɛ decryption | bɛboro 1.5× |
+
+Wɔ wɔn a wɔde di dwuma no fam no, nsakrae a wotumi hu sen biara ne bere a wɔde twɛn. Ná kokoam asɛm a wobɛyɛ no gye sika kotoku bɛboro sikɔne abiɛsa. Zakura Common no tumi gye nea ennu 200 ms wɔ nsɛm pii mu. Eyi ne bere a wo mfiri no de siesie asɛm no, na ɛnyɛ bere a ɛsɛ sɛ netɛw no si so dua.
+
+
+---
+
 ## Sɛnea Zakura ne Zcash Nodes Afoforo Di Dwuma
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
-| Language | C++ (forked from Bitcoin) | Rust | Rust (forked from Zebra) |
+| Kasa | C++ (wɔabɔ no forked fi Bitcoin) | Rust | Rust (wɔde fork a efi Zebra) |
 | Gyinabea | Wɔagyae | Active | Ɛyɛ adwuma (v1.0.0, Ɔpɛpɔn 2026) |
 | Sync ahoɔhare | Mfitiaseɛ | ~1× | ~5× ntɛmntɛm |
 | Block a wɔde twitwa nneɛma | Dabi | Dabi | Yiw |
 | zcashd RPC a ɛne ne ho di nsɛ | Ɔmanfoɔ | Ɔfã bi | Yiw (compat mode) |
-| Snapshot bootstrap a wɔde yɛ adwuma | Dabi | Dabi | Yiw (<simma 2) |
+| Snapshot bootstrap a wɔde yɛ adwuma | Dabi | Dabi | Yiw (ennu simma 2) |
 | Nsɔhwɛ P2P | Dabi | Dabi | Yiw (opt-in) |
 
 ---
@@ -91,7 +112,7 @@ Zakura ne Ironwood ntwamutam nkɔsoɔ (NU6.3), a wɔde yɛɛ adwuma wɔ Zcash ma
 Download options, snapshots, ne nhyehyeɛ ho nkrataa wɔ:
 
 - **Twe & nhyehyɛe akwankyerɛ:** [zakura.com/twe kɔ so](https://zakura.com/download/)
-- **Nkɔnsɔnkɔnsɔn mfonini ahorow:** [zakura.com/mfonini ahorow a ɛwɔ hɔ](https://zakura.com/snapshots/)
+- **Nkɔnsɔnkɔnsɔn mfonini ahorow:** [zakura.com/mfonini ahorow](https://zakura.com/snapshots/)
 - **Fibea koodu:** [github.com/zakura-asɛmfua/zakura](https://github.com/zakura-core/zakura)
 
 ---
@@ -110,3 +131,4 @@ Download options, snapshots, ne nhyehyeɛ ho nkrataa wɔ:
 - [Zakura Wɛbsaet](https://zakura.com/)
 - [Zakura wɔ X/Twitter so](https://x.com/ZakuraZcash)
 - [Dwumadie Tachyon](https://electriccoin.co/blog/)
+- [Zakura Common dawurubɔ](https://zakura.com/announcements/zakura-common/)

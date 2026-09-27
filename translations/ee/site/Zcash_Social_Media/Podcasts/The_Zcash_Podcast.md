@@ -19,11 +19,11 @@ Tsɔ kpe ɖe eŋu la, alesi wowɔa nu le agbe me la naa kadodo ƒe seselelãme n
 [Fifi Haƒoƒo ƒe Ŋkɔwo](https://youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w)
 
 
-  * Zcash Podcast 1 kple Nathan Wilcox: Zcash ƒe Nɔnɔmetɔtrɔ Tso Vaseɖe Fifia | [YouTube dzi](https://youtu.be/tCrFmK-5Enc) | [Odysee ƒe agbalẽa](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) |
-  * Zcash Podcast 2 kple Aditya Bharadwaj: Zãla mamlɛtɔ ƒe Dɔwɔɖoɖowo kple Zcash Xɔxɔ | [YouTube dzi](https://youtu.be/sK13gwtTaCQ) | [Odysee ƒe agbalẽa](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) |
-  * Zcash Podcast 3 kple Ian Sagstetter: ZecHub kple Zcash ƒe Nutoa me ƒe Dɔwɔna siwo le dzidzim ɖe edzi | [YouTube dzi](https://www.youtube.com/watch?v=0tIK6vBM3-s) | [Odysee ƒe agbalẽa](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) |
-  * Zcash Podcast 4 kple Seth Na Adzamenyawo: Gome Nukpɔsusu le Zcash kple Adzamenyawo Ŋu | [YouTube dzi](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) | [Odysee ƒe agbalẽa](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
+  * Zcash Podcast 1 kple Nathan Wilcox: Zcash ƒe Nɔnɔmetɔtrɔ Tso Vaseɖe Fifia | [YouTube](https://youtu.be/tCrFmK-5Enc) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) |
+  * Zcash Podcast 2 kple Aditya Bharadwaj: Zãla mamlɛtɔ ƒe Dɔwɔɖoɖowo kple Zcash Xɔxɔ | [YouTube](https://youtu.be/sK13gwtTaCQ) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) |
+  * Zcash Podcast 3 kple Ian Sagstetter: ZecHub kple Zcash ƒe Nutoa me ƒe Dɔwɔna siwo le dzidzim ɖe edzi | [YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) |
+  * Zcash Podcast 4 kple Seth Na Adzamenyawo: Gome Nukpɔsusu le Zcash kple Adzamenyawo Ŋu | [YouTube](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
 
-  * Zcash Podcast 5 kple Naomi Brockwell: Alesi Nànɔ Egbegbe Agbenɔnɔ Si Me Wobua Ameŋunyatakakawo Ŋu | [YouTube dzi](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee ƒe agbalẽa](https://odysee.com/@DigitalCashNetwork:c?view=content) |
-  * Zcash Podcast 6 kple Zooko Wilcox: Dziɖuɖu kple Zcash ƒe Mɔ si le ŋgɔ | [YouTube dzi](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee ƒe agbalẽa](https://t.co/MDW7FoXgxm)|
-  * Zcash Podcast 7 kple Jake si le ZecSpends: Zcash Zazã Abe Digitál Ga Egbea | [YouTube dzi](https://www.youtube.com/live/yZ1Y1qMu3UE) | [Odysee ƒe agbalẽa](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|
+  * Zcash Podcast 5 kple Naomi Brockwell: Alesi Nànɔ Egbegbe Agbenɔnɔ Si Me Wobua Ameŋunyatakakawo Ŋu | [YouTube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |
+  * Zcash Podcast 6 kple Zooko Wilcox: Dziɖuɖu kple Zcash ƒe Mɔ si le ŋgɔ | [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
+  * Zcash Podcast 7 kple Jake si le ZecSpends: Zcash Zazã Abe Digitál Ga Egbea | [YouTube](https://www.youtube.com/live/yZ1Y1qMu3UE) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|

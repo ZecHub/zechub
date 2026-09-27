@@ -19,7 +19,7 @@ Confía en que tenemos algunas sorpresas increíbles y exclusivas en el camino p
 
 ## Gobierno
 
-  * [Snapshot](https://vote.cypherpunkzero.com/)
+  * [Snapshot](https://web.archive.org/web/20260116122729/https://vote.cypherpunkzero.com/)
 
   * [Guild](https://guild.xyz/cypherpunkzerodao)
 

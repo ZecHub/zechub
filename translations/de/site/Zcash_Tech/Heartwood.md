@@ -40,13 +40,13 @@ Heartwood ist ein Schritt in einer Reihe von Zcash-Upgrades, von denen jedes ein
 
 | Begriff | Bedeutung in einfachem Englisch |
 |---|---|
-| Network Upgrade (NU) | Eine koordinierte Änderung an Zcashs Konsensregeln, aktiviert bei einer festgelegten Blockhöhe |
-| Coinbase-Transaktion | Die spezielle Transaktion in jedem Block, die die Blockbelohnung auszahlt |
-| Shielded-Sapling-Adresse | Ein privater Zcash-Adresstyp, der mit dem Sapling-Upgrade eingeführt wurde |
-| Shielded Coinbase | Die Heartwood-Änderung, die es ermöglicht, Blockbelohnungen an Shielded-Sapling-Adressen auszuzahlen |
+| Network upgrade (NU) | Eine koordinierte Änderung an Zcashs Konsensregeln, aktiviert bei einer festgelegten Blockhöhe |
+| Coinbase transaction | Die spezielle Transaktion in jedem Block, die die Blockbelohnung auszahlt |
+| Shielded Sapling address | Ein privater Zcash-Adresstyp, der mit dem Sapling-Upgrade eingeführt wurde |
+| Shielded coinbase | Die Heartwood-Änderung, die es ermöglicht, Blockbelohnungen an Shielded-Sapling-Adressen auszuzahlen |
 | FlyClient | Eine Methode, die es Light Clients ermöglicht, Proof-of-Work mit kleinen Beweisen zu verifizieren |
 | Merkle Mountain Range (MMR) | Eine fortlaufende Zusammenfassung vergangener Blöcke, auf die sich der Block-Header festlegt |
-| Consensus-Branch-ID | Ein Kennzeichen, das identifiziert, welchen Upgrade-Regeln eine Transaktion folgt; verwendet für Replay-Schutz |
+| Consensus branch id | Ein Kennzeichen, das identifiziert, welchen Upgrade-Regeln eine Transaktion folgt; verwendet für Replay-Schutz |
 
 ## FAQ
 

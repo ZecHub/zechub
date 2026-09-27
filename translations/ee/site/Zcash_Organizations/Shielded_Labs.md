@@ -29,7 +29,7 @@ Shielded Labs yɔ dɔa ƒe akpa geɖe siwo le dɔ dzi le dutoƒo:
 - [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Wodo susua ɖa be woawɔ nuwo ƒe ɖɔɖɔɖo si nye hybrid consensus upgrade si aƒo Zcash ƒe proof-of-work block wɔwɔ nu ƒu kple proof-of-stake finality, ale be ZEC xɔlawo nate ŋu akpe asi ɖe network la ƒe dedienɔnɔ ŋu esime tomenukulawo yi edzi le blocks wɔm.
 - [Fetu Siwo Ŋu Ŋusẽ Le](https://shieldedlabs.net/fees/) - Numekuku kple dɔwɔnuwo wɔwɔ na Zcash ƒe asitsatsa ƒe fe siwo woate ŋu agblɔ ɖi wu, siwo zazã le bɔbɔe, eye woate ŋu anɔ te ɖe nɔnɔme sesẽwo nu ne network la le tɔtrɔm.
 - [Naneke o](https://shieldedlabs.net/zero/) - Zcash ƒe xɔtuɖoɖo ƒe kɔmpiuta dɔwɔɖoɖo siwo le ʋuʋu ɖi ƒe ƒuƒoƒo si wodo alɔe na asitɔtrɔwo, tomenukuƒewo, gakotoku nana dɔwɔƒewo, kple habɔbɔ bubu siwo ɖoa ŋu ɖe Zcash xɔtuɖoɖowo ŋu.
-- [Ironwood ƒe ati](https://shieldedlabs.net/ironwood/) - Zcash network ƒe ɖɔɖɔɖo kple shielded pool si wowɔ le Orchard ƒe aʋatsokaka ƒe afɔkua ŋuɖoɖo me, si wowɔ be wòagbugbɔ Zcash ƒe nusiwo le tsatsam ƒe gbeɖiɖi si ŋu woate ŋu aɖo kpee le wo ɖokui si la aɖo anyi.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Zcash network ƒe ɖɔɖɔɖo kple shielded pool si wowɔ le Orchard ƒe aʋatsokaka ƒe afɔkua ŋuɖoɖo me, si wowɔ be wòagbugbɔ Zcash ƒe nusiwo le tsatsam ƒe gbeɖiɖi si ŋu woate ŋu aɖo kpee le wo ɖokui si la aɖo anyi.
 
 ## Ironwood ƒe Nudzɔdzɔ
 
@@ -53,6 +53,6 @@ Zcash mezãa kɔsɔkɔsɔ dzi ɖuɖu le eɖokui si hena ɖoɖowɔɖi ƒe tɔtrɔ
 - [Crosslink ƒe Nyabiasewo](https://shieldedlabs.net/crosslink-faq/)
 - [Fetu Siwo Ŋu Ŋusẽ Le](https://shieldedlabs.net/fees/)
 - [Naneke o](https://shieldedlabs.net/zero/)
-- [Ironwood ƒe ati](https://shieldedlabs.net/ironwood/)
+- [Ironwood](https://shieldedlabs.net/ironwood/)
 - [Dziɖuɖu kple akɔdada](https://shieldedlabs.net/governance/)
 - [Akpoxɔnudzraɖoƒewo GitHub](https://github.com/ShieldedLabs)

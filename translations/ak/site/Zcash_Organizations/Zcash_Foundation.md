@@ -45,7 +45,7 @@ Saa nhyehyeɛ yi ma akuo a wɔde wɔn ho no sika ma wɔyɛ nkɔsoɔ akɛseɛ a �
     src="https://www.youtube.com/embed/videoseries?si=SZKFP5eAFDJ0MjJj&amp;list=PL40dyJ0UYTLI671cVldA_DhFSYxNwUJeQ"
     title="Zebrad for Linux Tutorials"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -58,7 +58,7 @@ Saa nhyehyeɛ yi ma akuo a wɔde wɔn ho no sika ma wɔyɛ nkɔsoɔ akɛseɛ a �
     src="https://www.youtube.com/embed/videoseries?si=fIbX-UP6HCMET0R2&amp;list=PL40dyJ0UYTLKyRbrz0sVLSWUh6bdVsQE1"
     title="How to Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -72,7 +72,7 @@ Saa nhyehyeɛ yi ma akuo a wɔde wɔn ho no sika ma wɔyɛ nkɔsoɔ akɛseɛ a �
     src="https://www.youtube.com/embed/videoseries?si=2h0YZZuRvayZ34Fb&amp;list=PL40dyJ0UYTLJm_hwYzpEPOOafwihL_mIu"
     title="Zcon Vozes: Brasil 2023"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -87,7 +87,7 @@ Saa nhyehyeɛ yi ma akuo a wɔde wɔn ho no sika ma wɔyɛ nkɔsoɔ akɛseɛ a �
     src="https://www.youtube.com/embed/videoseries?si=-WAPUBOExiYuQsVF&amp;list=PL40dyJ0UYTLI4cD6vfIZ8wt_8mUwPpXkH"
     title="Zcash Foundation Board of Directors Members: Marta Belcher & J.W. Verret"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -101,7 +101,7 @@ Saa nhyehyeɛ yi ma akuo a wɔde wɔn ho no sika ma wɔyɛ nkɔsoɔ akɛseɛ a �
     src="https://www.youtube.com/embed/videoseries?si=x7WXFi3JMGrYVY4l&amp;list=PL40dyJ0UYTLLA3t2bIBqorYsbtnX-kEyq"
     title="Arti: ZF + ZCG Call w/ the Tor Project"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -115,7 +115,7 @@ Saa nhyehyeɛ yi ma akuo a wɔde wɔn ho no sika ma wɔyɛ nkɔsoɔ akɛseɛ a �
     src="https://www.youtube.com/embed/videoseries?si=3_ccLKMzaNbBUxNm&amp;list=PL40dyJ0UYTLLcfeghHf_2u-2qc26k9GEA"
     title="Community Calls for ZCAP Votes"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -129,7 +129,7 @@ Saa nhyehyeɛ yi ma akuo a wɔde wɔn ho no sika ma wɔyɛ nkɔsoɔ akɛseɛ a �
     src="https://www.youtube.com/embed/S3uGdNEMymI"
     title="AMA with ZF Executive Director Jack Gavigan"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

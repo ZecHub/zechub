@@ -36,7 +36,7 @@ Crosslink 协议是 Zcash 演进过程中的一个里程碑式发展，推动其
 
 Crosslink 协议是为 Zcash 的混合工作量证明/权益证明（PoW/PoS）阶段提出的一种设计。它将 PoW 与拜占庭容错（BFT）协议集成，只要 PoW 或 PoS 其中之一仍然安全，就能实现有保障的终局性。该设计旨在通过引入基于质押的验证，同时保持矿工参与，来增强网络安全性与去中心化。该提案中的一个关键特性称为 Crosslink 2，它通过统一 BFT 提议者与矿工来简化架构。这种精简方法最大限度减少了结构性变更，并允许使用一个“dummy”BFT 层，从而更容易进行原型设计和部署，同时保持高安全标准。
 
-实施计划包含一份路线图，并估算了将 Crosslink 2* 集成到 Zcash 的 Zebra 客户端中的工程成本。该分阶段部署重点在于平衡各利益相关方的激励、减少扰动，并与 Zcash 在可扩展性、可用性和去中心化方面的目标保持一致。随着人们对该协议强大安全属性的信心不断增强，它作为 Zcash 演进关键一步的潜力也进一步得到巩固。通过解决能效问题并增强共识机制，Crosslink 为不断演化的 blockchain 挑战提供了一种面向未来的解决方案。更多细节请参阅 [GitHub repository](https://github.com/ShieldedLabs/crosslink-deployment) 和 [Zcash Community Forum](https://forum.zcashcommunity.com)。
+实施计划包含一份路线图，并估算了将 Crosslink 2* 集成到 Zcash 的 Zebra 客户端中的工程成本。该分阶段部署重点在于平衡各利益相关方的激励、减少扰动，并与 Zcash 在可扩展性、可用性和去中心化方面的目标保持一致。随着人们对该协议强大安全属性的信心不断增强，它作为 Zcash 演进关键一步的潜力也进一步得到巩固。通过解决能效问题并增强共识机制，Crosslink 为不断演化的 blockchain 挑战提供了一种面向未来的解决方案。更多细节请参阅 [GitHub repository](https://github.com/ShieldedLabs/zebra-crosslink) 和 [Zcash Community Forum](https://forum.zcashcommunity.com)。
 
 ### Crosslink 的目标与宗旨
 
@@ -90,7 +90,7 @@ Crosslink 协议目前正由 Shielded Labs 与 Zodl 等关键生态合作伙伴�
 * 激活逻辑：引入 Crosslink 需要修改 Zcash 共识规则，包括定义质押分配流程，以及更新网络协议规则以支持混合共识。
 * 分阶段部署：该协议将分阶段推出，以确保网络稳定性和社区适应。初始阶段聚焦于技术实现，随后整合用于选择公证人的治理机制。
 
-你可以通过 [Crosslink Deployment Repository on GitHub](https://github.com/ShieldedLabs/crosslink-deployment) 查看技术细节并跟踪其进展。
+你可以通过 [GitHub 上的 zebra-crosslink 仓库](https://github.com/ShieldedLabs/zebra-crosslink) 和 [zebra-crosslink 手册](https://shieldedlabs.github.io/zebra-crosslink/) 查看技术细节并跟踪其进展。
 
 ## 实际影响
 

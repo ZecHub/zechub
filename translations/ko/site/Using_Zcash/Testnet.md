@@ -33,14 +33,14 @@
 
 #### 2. 네트워크 업그레이드 테스트
 
-Zcash는 주기적으로 핵심 프로토콜을 업데이트(예: NU5, NU6). 테스트넷은 메인넷보다 먼저 새로운 업그레이드를 활성화하여 개발자와 커뮤니티가 버그를 식별하고 수정할 수 있도록 합니다.
+Zcash는 주기적으로 핵심 프로토콜을 업그레이드합니다(예: NU6.1, NU6.2 및 Ironwood). 테스트넷은 메인넷보다 먼저 새로운 업그레이드를 활성화하여 개발자와 커뮤니티가 버그를 식별하고 수정할 수 있도록 합니다.
 
 **예시:**  
 새로운 합의 규칙 또는 거래 유형이 처음으로 테스트넷에 푸시됩니다. 성공적인 테스트 후, 메인넷에서 특정 블록 높이에서 활성화됩니다.
 
 #### 3. 노드 구현 테스트
 
-Zcash는 여러 노드 소프트웨어 구현을 지원합니다 - `zcashd` 및 **Zebra**(Zcash Foundation이 유지하는 Rust 기반 노드). 테스트넷은 실제 조건에서 노드를 테스트할 수 있도록 하여 재정적 위험 없이 가능하게 합니다.
+Zcash에서 유지 관리되는 노드는 **Zebra**(Zcash Foundation이 유지 관리하는 Rust 기반 노드)이며 유지 관리되는 지갑은 [Zallet](https://github.com/zcash/zallet)입니다. 최초의 노드 구현인 `zcashd`는 2026년 7월 18일 자동 지원 종료 정지에 도달하여 더 이상 유지 관리되지 않습니다 - [zcashd에서 Zebra 및 Zallet으로의 마이그레이션 가이드](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)를 참조하세요. 테스트넷을 사용하면 재정적 위험 없이 실제 조건에서 노드를 테스트할 수 있습니다.
 
 노드 개발자는 다음과 같은 작업을 수행할 수 있습니다:
 
@@ -128,9 +128,9 @@ TAZ는 **"Zcash 테스트넷용 플레이 머니"**로 생각해보세요.
 - TAZ를 수동으로 채굴할 필요가 없습니다.
 
 **예시:**  
-1. [testnet.zecfaucet.com](https://testnet.zecfaucet.com) 또는 [fauzec.com](https://fauzec.com/) 같은 테스트넷 faucets에 방문합니다.
-2. 테스트넷 주소를 입력합니다.
-3. TAZ 요청을 합니다.
+1. [fauzec.com](https://fauzec.com/) 또는 [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/) 같은 테스트넷 faucet에 방문합니다.  
+2. 테스트넷 주소를 입력합니다.  
+3. TAZ를 요청합니다.  
 4. 즉시 TAZ를 받고 테스트를 시작합니다.
 
 **중요성:**  
