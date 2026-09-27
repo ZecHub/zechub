@@ -18345,7 +18345,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+termrepair",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
