@@ -46,8 +46,8 @@ Structured educational content for new Zcash users and developers.
 Interactive site featuring Zcash-themed games and live community events.  
 [Visit](https://zectastic.com/)
 
-### Zec App
-Mobile application that aggregates Zcash news, community activity, network information, wallets, exchanges, and ecosystem resources in one place.  
+### ZEC App
+Mobile application that aggregates ZEC news, community activity, network information, wallets, exchanges, and ecosystem resources in one place.  
 [Forum](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Community
@@ -66,16 +66,16 @@ Community-focused grants dashboard designed to simplify how Zcash grants are dis
 
 ## Wallets and Payment Tools
 
-### Cipherpay
+### CipherPay
 Private payments for the internet. Non-custodial, no KYC. Merchants receive ZEC directly to shielded addresses.  
 [Visit](https://www.cipherpay.app/en)
 
-### Ezcash
+### eZcash
 Easy-to-use, fully-featured multiplatform Zcash wallet with autoshielding support.  
 [Visit](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Orchard-focused Zcash wallet built for Zebrad, supporting fully shielded transactions and secure key management.  
+Orchard-focused Zcash wallet built for zebrad, supporting fully shielded transactions and secure key management.  
 [Visit](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
@@ -111,7 +111,7 @@ Goal-based savings wallet built on Zcash shielded transactions.
 [Forum](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Successor to Ywallet supporting the latest Zcash protocol features including Orchard.  
+Successor to YWallet supporting the latest Zcash protocol features including Orchard.  
 [Forum](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
@@ -163,7 +163,7 @@ Global map of businesses and locations that accept Zcash.
 [Visit](https://zecmap.com/)
 
 ### ZECping
-Tool to check gRPC response times of Zcash Lightwalletd nodes.  
+Tool to check gRPC response times of Zcash lightwalletd nodes.  
 [Visit](https://github.com/emersonian/zecping)
 
 ### ZecStats
@@ -243,7 +243,7 @@ Linux-first toolkit that brings up a Zebra regtest network with faucet, Unified 
 Systematic testing of Zebra's parsing, networking, and cryptographic components against malformed inputs.  
 [Forum](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-### Frost
+### FROST
 Threshold signature scheme (FROST) work being advanced for broader adoption in the Zcash ecosystem.  
 [Paper](https://eprint.iacr.org/2020/852)
 
@@ -263,7 +263,7 @@ Cooperative, bottom-up business organization model built on Zcash.
 Zcash-native credit and voting infrastructure for selective disclosure, settlement readiness, cross-border reputation, and shielded governance.  
 [Visit](https://voting.zkglobalcredit.tech/)
 
-### Free2z
+### Free2Z
 Tool for anonymous content creation and private donations powered by Zcash.  
 [Visit](https://free2z.cash)
 
