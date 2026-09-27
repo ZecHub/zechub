@@ -102,7 +102,7 @@ Orchard está construido sobre el sistema de pruebas Halo 2, que no necesita tru
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 
