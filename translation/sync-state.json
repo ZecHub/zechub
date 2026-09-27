@@ -1021,7 +1021,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+table-rebuild+verbatim-columns",
+      "tool": "gt-static+gloss-restore+table-rebuild+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -2775,7 +2775,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter",
+      "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -4529,7 +4529,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -6283,7 +6283,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+table-rebuild+verbatim-columns",
+      "tool": "gt-static+gloss-restore+table-rebuild+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -8037,7 +8037,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -9791,7 +9791,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -11545,7 +11545,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter",
+      "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -13299,7 +13299,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+prose-retranslate+table-rebuild+verbatim-columns",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+prose-retranslate+table-rebuild+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -15053,7 +15053,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter",
+      "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -16807,7 +16807,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter",
+      "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -18561,7 +18561,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -20315,7 +20315,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter",
+      "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -22069,7 +22069,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -23823,7 +23823,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild+verbatim-columns",
+      "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -25577,7 +25577,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter",
+      "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -27331,7 +27331,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter",
+      "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -29085,7 +29085,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild+verbatim-columns",
+      "tool": "nllb-200-3.3B+gloss-restore+table-rebuild+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -30839,7 +30839,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
