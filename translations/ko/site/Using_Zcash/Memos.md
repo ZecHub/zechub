@@ -22,6 +22,14 @@ Z2Z(보호된 주소 간) 거래를 보낼 때, 거래에 메모(메시지)를 �
 
 #### 고급
 
+> **역사적 자료입니다. 이 데모는 더 이상 설명대로 실행되지 않습니다.**
+>
+> 아래 데모는 zcashd를 사용하며, 함께 제공되는 [수신 스크립트](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh)는 `zcash-cli`를 통해 메모를 읽습니다. zcashd는 2026년 7월 18일 자동 지원 종료(End-of-Support) 중단에 도달했으므로 이 스크립트는 실행 중인 노드에 연결할 수 없으며, 이식되지도 않았습니다.
+>
+> 명령줄에서 보호된 메모를 읽는 기능은 Zallet에서 여전히 작동합니다. `zallet rpc z_listunspent`는 수신된 각 보호된 노트를 스크립트가 읽는 것과 동일한 `memoStr` 필드와 함께 반환합니다. 명령은 [Zallet 빠른 참조 가이드](/using-zcash/zallet-quick-reference-guide)를, 노드를 zcashd에서 옮기는 방법은 [Zebra 및 Zallet 마이그레이션 가이드](/guides/migration-guide-zcashd-to-zebrad-zallet)를 참고하세요. Zallet은 아직 베타 단계입니다.
+>
+> 이 섹션은 Magic-Wormhole 데모의 역사적 기록으로 보존됩니다.
+
 Magic-Wormhole CLI 및 zcashd를 사용하여 Zcash 보호된 메모를 통해 컴퓨터 간에 파일을 안전하게 전송하는 방법입니다:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

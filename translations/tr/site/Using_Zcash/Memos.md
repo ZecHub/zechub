@@ -22,6 +22,14 @@ Bir kişi, Zcash blockchain’inin ilk bloklarından birinde partnerine bir aşk
 
 #### İleri Düzey
 
+> **Tarihsel. Bu demo artık yazıldığı haliyle çalışmıyor.**
+>
+> Aşağıdaki demo zcashd kullanıyor ve [alıcı betiği](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) memoları `zcash-cli` üzerinden okuyor. zcashd, 18 Temmuz 2026'da otomatik Destek Sonu duruşuna ulaştı; bu yüzden bu betik çalışan bir düğüme erişemiyor ve taşınmadı.
+>
+> Korumalı memoları komut satırından okumak Zallet ile hâlâ mümkün: `zallet rpc z_listunspent`, alınan her korumalı notu betiğin okuduğu aynı `memoStr` alanıyla döndürür. Komut için [Zallet Hızlı Başvuru Kılavuzu](/using-zcash/zallet-quick-reference-guide) sayfasına, bir düğümü zcashd'den taşımak için [Zebra ve Zallet'e geçiş kılavuzu](/guides/migration-guide-zcashd-to-zebrad-zallet) sayfasına bakın. Zallet hâlâ beta aşamasında.
+>
+> Bu bölüm, Magic-Wormhole demosunun tarihsel kaydı olarak korunmaktadır.
+
 İşte Zcash Shielded Memos, Magic-Wormhole CLI ve zcashd kullanarak dosyaları bir bilgisayardan diğerine güvenli şekilde göndermenin yolu!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

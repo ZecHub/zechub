@@ -22,6 +22,14 @@ Na obi wɔ hɔ a ɔde ɔdɔ krataa kɔmaa wɔn hokafo wɔ block a edi kan wɔ Zc
 
 #### Kɔ anim
 
+> **Abakɔsɛm. Saa nhwɛsoɔ yi nyɛ adwuma bio sɛnea wɔakyerɛw no.**
+>
+> Nhwɛsoɔ a ɛwɔ aseɛ ha no de zcashd di dwuma, na ne [script a ɛgye nneɛma](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) no kenkan memo denam `zcash-cli` so. zcashd duruu ne automatic End-of-Support halt wɔ 18 July 2026, enti saa script no ntumi nnu node a ɛreyɛ adwuma ho, na wɔnnsakraa no mmaa nhyehyɛeɛ foforɔ so.
+>
+> Wobɛtumi akenkan shielded memo afi command line so wɔ Zallet so: `zallet rpc z_listunspent` de shielded note biara a wɔanya ma ne `memoStr` field koro no ara a script no kenkan no. Hwɛ [Zallet Quick Reference Guide](/using-zcash/zallet-quick-reference-guide) ma command no, ne [migration guide kɔ Zebra ne Zallet so](/guides/migration-guide-zcashd-to-zebrad-zallet) na woatu node afi zcashd so. Zallet da so wɔ beta mu.
+>
+> Wɔde saa ɔfã yi asie sɛ abakɔsɛm nkaeɛ ma Magic-Wormhole nhwɛsoɔ no.
+
 Sɛnea wode Zcash Shielded Memos ne Magic-Wormhole CLI ne zcashd bedi dwuma de fael ahorow afi kɔmputa biako so akɔ foforo so wɔ ahobammɔ mu ni!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
