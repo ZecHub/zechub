@@ -8,16 +8,12 @@ Coinmetrics
 Commonwealth
 Cypherpunk
 Dream
-Github
-GitHub
 Guild
 HuggingFace
 Medium
-Opensea
 Playground AI
 Proof Street
 RunwayML
-Rustup
 Snapshot
 Wired
 Zcash Block Explorer
