@@ -1017,8 +1017,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+gloss-restore+table-rebuild+verbatim-columns+brand-canon-cell",
@@ -2771,8 +2771,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
@@ -4525,8 +4525,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
@@ -6279,8 +6279,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+gloss-restore+table-rebuild+verbatim-columns+brand-canon-cell",
@@ -8033,8 +8033,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
@@ -9787,8 +9787,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
@@ -11541,8 +11541,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
@@ -13295,8 +13295,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B+brand-restore+gloss-restore+prose-retranslate+table-rebuild+verbatim-columns+brand-canon-cell",
@@ -15049,8 +15049,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
@@ -16803,8 +16803,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
@@ -18557,8 +18557,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
@@ -20311,8 +20311,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
@@ -22065,8 +22065,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
@@ -23819,8 +23819,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B+brand-restore+gloss-restore+table-rebuild+verbatim-columns+brand-canon-cell",
@@ -25573,8 +25573,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
@@ -27327,8 +27327,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+brand-canon-cell",
@@ -29081,8 +29081,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B+gloss-restore+table-rebuild+verbatim-columns+brand-canon-cell",
@@ -30835,8 +30835,8 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:5e3f90500e4a34beafca2d06c5a2d4ce6ff8669ba8f45d4c248a91565cfd9a8c",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:09a14d334350ec86b1e3e254ceea323950aac1179b99f4824988412160ac93a4",
+      "src_commit": "64d6aed3b37e1e0cb6dc4847e034e04825b21d25",
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+brand-canon-cell",
