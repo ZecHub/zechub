@@ -53,7 +53,7 @@ NU5, Zcash'in önceki yükseltmeleri olan Overwinter, Sapling, Blossom, Heartwoo
 | Orchard | NU5'in tanıttığı, Halo 2 ispat sistemi üzerine kurulu shielded havuz |
 | Halo 2 | Orchard'ın arkasındaki, güvenilir kurulum gerektirmeyen ispat sistemi |
 | Trusted setup | Bir havuzun gizli parametrelerini oluşturan ve bunların yok edildiğine güvenilmesi gereken bir defalık tören |
-| Unified address | Birden fazla havuz için alıcı bileşenlerini bir araya getirebilen tek bir adres (ZIP 316) |
+| Unified Address | Birden fazla havuz için alıcı bileşenlerini bir araya getirebilen tek bir adres (ZIP 316) |
 | Consensus branch id | Bir işlemin hangi kurallar kümesine ait olduğunu belirten tanımlayıcı |
 
 ## SSS
@@ -102,7 +102,7 @@ Orchard, güvenilir kurulum ve structured reference string gerektirmeyen Halo 2 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

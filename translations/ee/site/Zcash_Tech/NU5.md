@@ -53,7 +53,7 @@ NU5 kplɔ Zcash ƒe tɔtrɔ siwo wòwɔ do ŋgɔ ɖo: Overwinter, Sapling, Bloss
 | Orchard | Akpoxɔnu ta si NU5 to vɛ, si wotu ɖe Halo 2 kpeɖodziɖoɖoa dzi |
 | Halo 2 | Kpeɖodziɖoɖo si le megbe na Orchard si mehiã ɖoɖo si dzi woka ɖo o |
 | Trusted setup | Kɔnu si wowɔna zi ɖeka si wɔa ta aɖe ƒe nya ɣaɣlawo eye ele be woaka ɖe edzi be wòatsrɔ̃ wo |
-| Unified address | Adrɛs ɖeka si ateŋu aƒo xɔlawo nu ƒu na ta si wu ɖeka (ZIP 316) |
+| Unified Address | Adrɛs ɖeka si ateŋu aƒo xɔlawo nu ƒu na ta si wu ɖeka (ZIP 316) |
 | Consensus branch id | Dzesidenu si dea dzesi se siwo me asitsatsa aɖe le |
 
 ## Nyabiasewo ƒe Nyabiasewo
@@ -102,7 +102,7 @@ Wotu Orchard ɖe Halo 2 kpeɖodziɖoɖoa dzi, si mehiã ɖoɖo si dzi woka ɖo o
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
+[zk-SNARKs ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
 
 [Safuiwo Kpɔkpɔ](../zcash-tech/viewing-keys)
 

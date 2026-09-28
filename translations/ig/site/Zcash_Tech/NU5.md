@@ -53,7 +53,7 @@ NU5 followed Zcash's earlier upgrades: Overwinter, Sapling, Blossom, Heartwood, 
 | Orchard | E webatara ọdọ mmiri NU5 a na-echebe, nke e wuru na sistemụ nnwale Halo 2 |
 | Halo 2 | Sistemụ na-egosi ihe dị n'azụ Orchard nke na-achọghị ntọala a pụrụ ịtụkwasị obi |
 | Trusted setup | Ememe otu ugboro nke na-eme paramita nzuzo nke ọdọ mmiri ma a ga-atụkwasị ya obi ibibi ha |
-| Unified address | Otu adreesị nke nwere ike ijikọ ndị nnata maka ihe karịrị otu ọdọ mmiri (ZIP 316) |
+| Unified Address | Otu adreesị nke nwere ike ijikọ ndị nnata maka ihe karịrị otu ọdọ mmiri (ZIP 316) |
 | Consensus branch id | Ihe njirimara nke na-egosi usoro iwu azụmahịa bụ |
 
 ## Ajụjụ ndị a na-ajụkarị
@@ -102,7 +102,7 @@ Orchard is built on the Halo 2 proving system, which needs no trusted setup and 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Igodo Nlele](../zcash-tech/viewing-keys)
 

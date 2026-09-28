@@ -53,7 +53,7 @@ Orchard هو أحدث بروتوكول محمي في Zcash، كما هو معر�
 | Orchard | المجمع المحمي الذي قدّمه NU5، والمبني على نظام الإثبات Halo 2 |
 | Halo 2 | نظام الإثبات الذي يقف وراء Orchard ولا يحتاج إلى trusted setup |
 | Trusted setup | مراسم تُجرى مرة واحدة لإنشاء المعلمات السرية للمجمع، ويجب الوثوق بأنها ستُتلف |
-| Unified address | عنوان واحد يمكنه أن يضم مستقبلات لأكثر من مجمع واحد (ZIP 316) |
+| Unified Address | عنوان واحد يمكنه أن يضم مستقبلات لأكثر من مجمع واحد (ZIP 316) |
 | Consensus branch id | معرّف يحدّد مجموعة القواعد التي تنتمي إليها المعاملة |
 
 ## الأسئلة الشائعة
@@ -102,7 +102,7 @@ Orchard مبني على نظام الإثبات Halo 2، الذي لا يحتا�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [مفاتيح العرض](../zcash-tech/viewing-keys)
 
