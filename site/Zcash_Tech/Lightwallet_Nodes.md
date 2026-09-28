@@ -8,7 +8,7 @@
 ## TL;DR
 
 * Most people use Zcash through a light wallet, which does not download the whole blockchain. Instead, it talks to a server that has already done that work.
-* Two pieces of software serve light wallets today: **lightwalletd**, the original service written in Go, and **Zaino**, a newer indexer written in Rust.
+* Light wallet servers include **lightwalletd**, the original service written in Go, **Zaino**, a Rust indexer, and **Ztreamer**, which embeds a Zakura node. See the [Ztreamer guide](/zcash-tech/ztreamer) for its capabilities and setup.
 * Your keys never leave your device, and the server cannot spend your funds or read the amounts and memos inside fully shielded transactions.
 * What the server is well placed to learn is your IP address and the timing of your activity — shielded transactions protect what goes on the blockchain, not your connection to the server.
 * Tor removes the IP identifier; it is available in wallets built on `zcash_client_backend`, and in ZODL it is a setting in Advanced Settings.
@@ -18,7 +18,7 @@
 
 Most people use Zcash through a light wallet, which does not download the whole blockchain. Instead, it talks to a server that has already done that work. This page explains what those servers are, what they can and cannot see about you, how to route your connection over Tor, and how to change the server your wallet uses.
 
-Two pieces of software serve light wallets today. **lightwalletd** is the original service, written in Go. **Zaino** is a newer indexer written in Rust, built as part of the zcashd deprecation work.
+Light wallet servers include **lightwalletd**, the original service written in Go, and **Zaino**, a Rust indexer built as part of the zcashd deprecation work. **Ztreamer** is another Rust implementation, with a Zakura node embedded in the same process.
 
 ### What a light wallet server does
 
@@ -79,7 +79,7 @@ Two caveats. Tor hides your IP from the server, but it does not change what the 
 
 ### Zaino, the Rust indexer
 
-[Zaino](/zcash-tech/zaino) is an indexer written in Rust by the Zingo team, built to replace lightwalletd as part of the zcashd deprecation work. It serves light clients, full clients, and block explorers, reading chain data held by "either a Zebra or Zcashd full validator".
+[Zaino](/zcash-tech/zaino) is an indexer written in Rust by the Zingo team, built to replace lightwalletd as part of the zcashd deprecation work. It serves light clients, full clients, and block explorers, reading chain data held by "either a Zebra or zcashd full validator".
 
 It is under active development, with version 0.8.0 released in August 2026. It aims to stay backward compatible with lightwalletd where possible, so wallets can point at it without being rewritten.
 
@@ -87,7 +87,7 @@ Zaino has its own page with architecture diagrams, so this page only covers its 
 
 ### Running your own
 
-The strongest option is to be your own operator, which removes the trust question entirely. Both servers are open source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go and [Zaino](https://github.com/zingolabs/zaino) in Rust. Both read from a full validator, so you will also want [Zebra](/zcash-tech/zebra-full-node).
+The strongest option is to be your own operator, which removes the trust question entirely. Both servers are open source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go and [Zaino](https://github.com/zingolabs/zaino) in Rust. Both read from a full validator, so you will also want [Zebra](/zcash-tech/zebra-full-node). [Ztreamer](/zcash-tech/ztreamer) runs its Zakura node inside the indexer process; its guide covers installation, configuration and TLS.
 
 ## Practical Implications
 
@@ -117,11 +117,11 @@ The menu paths below were correct when this page was updated, but wallet interfa
 
 Formerly Zashi. The cog in the top right corner, then Advanced Settings. Tor lives in the same screen. ZODL also offers a Switch server shortcut when a sync failure is caused by the server being out of date.
 
-#### Ywallet
+#### YWallet
 
 The cog in the top right corner, then the Zcash tab.
 
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+![YWallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo
 
@@ -156,7 +156,8 @@ Light wallets give you the shielded pool without the disk space, which is a good
 - [Who Can See Your Zcash Payment](/start-here/who-can-see-your-zcash-payment) — the beginner-level view of the same question.
 - [What a Block Explorer Can See](/zcash-tech/what-a-block-explorer-can-see) — what is visible on-chain, as opposed to at the server.
 - [Zaino](/zcash-tech/zaino) — architecture diagrams and the wider role of the Rust indexer.
+- [Ztreamer](/zcash-tech/ztreamer), an indexer with an embedded Zakura node and peer-to-peer wallet transport.
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — the validator a light wallet server reads from.
 - [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — how the compact blocks a server sends are processed by your wallet.
 
-**Last updated:** August 2026
+**Last updated:** September 2026
