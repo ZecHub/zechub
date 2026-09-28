@@ -373,3 +373,21 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi-Chain Privacy Support | Encrypted Shielded Transaction | Seed Recovery | In-App Swaps | Light Wallet Sync
 - Ironwood: In Progress
+
+---
+
+## [Zecboat](https://zecboat.com)
+![logo](/content-images/zecboat-4f2c9a11d7.webp "Zecboat")
+- Devices: Desktop
+- Operating System: Linux
+- Wallet Support: Seed Phrase
+- Pools: Sapling | Ironwood
+- Features: Shielded Assets (ZSA) | Local Transaction Proving | Signed Packages
+
+---
+
+## [Nullmask](https://nullmask.io)
+![logo](/content-images/nullmask-83bd20e6f1.webp "Nullmask")
+- Devices: Web
+- Operating System: Any (runs inside existing wallets)
+- Features: Privacy Layer for Existing Wallets | Zero-Knowledge Proofs | Encrypted UTXO Notes | Wallet-Only Mode
