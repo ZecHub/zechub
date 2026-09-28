@@ -2,24 +2,33 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-## Ìfilọ̀ sí Zebra Node
+# Kún Node Àmì Zebra
 
-A ṣafihan Zebra: Ṣiṣatunṣe Awọn amayederun Nodu Zcash pẹlu Rust
+## TL;DR
 
-Meet Zebra, a groundbreaking achievement as the inaugural Zcash node crafted entirely in Rust. Seamlessly integrated into the Zcash peer-to-peer network, Zebra serves as a pivotal tool fortifying the network's resilience. Through its core functions of validating and broadcasting transactions, and meticulously maintaining the Zcash blockchain state, Zebra contributes to a more decentralized network infrastructure.
+- Zebra (`zebrad`) ni ojú-ìwé Zcash tí a kọ ní Rust tí Zcash Foundation.
+- Ó ń fọwọ́ sí àwọn ìdènà àti ìṣòwò, ó ń pa ipò ẹ̀wọ̀n mọ́, ó sì ń bá àwọn nódù mìíràn sọ̀rọ̀ lórí nẹ́tíwọ́ọ̀kì ẹgbẹ́-sí-ẹgbẹ́.
+- Zebra àti zcashd lo ìlànà kan náà, wọ́n sì lè ṣiṣẹ́ pọ̀. Láti ìgbà tí wọ́n ti fẹ̀yìntì zcashd, Zebra ni ó ń ṣe ipa ìfohùnṣọ̀kan.
+- Awọn ọna meji lati ṣiṣe rẹ: `zfnd/zebra` Àwòrán Docker, tàbí ìkọ́lé láti orísun.
+- Ohun èlò tí a gbani nímọ̀ràn ni àwọn kọ́ọ̀bù CPU mẹ́rin, RAM 16 GB, àti 300 GB ti dììsì. Ó kéré jù kí ó jẹ́ kọ́ọ̀bù méjì àti RAM 4 GB, pẹ̀lú 300 GB ti dììsì kan náà.
 
-## Awọn anfani lori imuse Node Zcashd
-In contrast to the original Zcash node, zcashd, which traces its lineage back to Bitcoin's foundational codebase and is developed by the Electric Coin Company, our implementation stands as an autonomous entity. Developed from scratch with a focus on security and efficiency, Zebra harnesses the power of the memory-safe Rust language.
+## Àlàyé Pàtàkì
 
-Pelu awọn ipilẹṣẹ wọn ti o yatọ, mejeeji zcashd ati Zebra faramọ si ilana kanna, ṣiṣe irọrun ibaraẹnisọrọ alailowaya ati ibaramu laarin wọn. Innovation yii kii ṣe faagun ilolupo eda abemi Zcash nikan ṣugbọn tun ṣeto boṣewa tuntun fun idagbasoke node blockchain.
+Zebra ni node Zcash àkọ́kọ́ tí a kọ ní Rust pátápátá. Ó wà lórí nẹ́tíwọ́ọ̀kì Zcash peer-to-peer, níbi tí ó ti ń fìdí àwọn ìṣòwò múlẹ̀ àti gbéjáde, tí ó sì ń pa ipò blockchain mọ́. Níní ìgbékalẹ̀ aláìdádúró kejì mú kí ètò ìṣiṣẹ́ nẹ́tíwọ́ọ̀kì náà má gbára lé èyíkéyìí kódì kan ṣoṣo.
 
-## Àwọn ìtọ́ni fún Zebra Launcher
+### Zebra ati zcashd
 
-O le lo Zebra nipa lilo aworan Docker wa tabi o le kọ ọ ni ọwọ. Jọwọ wo abala Awọn ibeere Eto.
+Ilé- Electric Coin Company ló ṣe àgbékalẹ̀ Zcash node àkọ́kọ́, zcashd, láti inú kódì Bitcoin. A kọ Zebra láti ìbẹ̀rẹ̀ pẹ̀lú Rust, èdè tí ó ṣeé fi ìrántí pamọ́, pẹ̀lú àfiyèsí lórí ààbò àti ìṣedéédé.
 
-### Ìlò Docker:
+Àwọn ìṣe méjèèjì tẹ̀lé ìlànà kan náà, kí wọ́n lè bá ara wọn sọ̀rọ̀ kí wọ́n sì bá ara wọn ṣiṣẹ́ pọ̀. zcashd dé ìdádúró End-of-Support rẹ̀ ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026, kò sì tún bẹ̀rẹ̀ mọ́, èyí tí ó fi Zebra àti Zakura sílẹ̀ gẹ́gẹ́ bí àwọn ìṣe nódù tí a ń lò. Wo [Àwọn Nódù Kíkún](/zcash-tech/full-nodes) fún àwòrán tó gbòòrò.
 
-Láti ṣe àtúnṣe tuntun wa láìṣe ìsapá àti láti ṣe àdàkọ rẹ̀ sí ìparí, ṣe àṣẹ yìí:
+## Zebra tí ń sáré
+
+O le lo aworan Docker lati ṣiṣẹ Zebra, tabi o le kọ ọ pẹlu ọwọ. Jọwọ wo apakan Awọn ibeere Eto.
+
+### Lilo Docker
+
+Láti ṣiṣẹ́ ìtújáde tuntun àti láti mú un ṣiṣẹpọ mọ́ ìparí, ṣe àṣẹ wọ̀nyí:
 
 ```
 
@@ -27,114 +36,128 @@ docker run zfnd/zebra:latest
 
 ```
 
-Fun diẹ alaye awọn itọnisọna ati ki o alaye ni oye, jọwọ tọka si wa [Docker iwe aṣẹ](https://zebra.zfnd.org/user/docker.html).
+Fun awọn itọnisọna kikun, wo [Àwọn ìwé Docker](https://zebra.zfnd.org/user/docker.html).
 
-### Ilé Zebra:
+### Kíkọ́ Zebra
 
-Ṣiṣẹda Zebra gba Rust, libclang, ati onkọwe C++.
+Kíkọ́ Zebra nílò Rust, libclang, àti C++ compiler.
 
-- Rii daju pe o ni ẹya Rust iduroṣinṣin tuntun ti a fi sori ẹrọ, bi a ṣe ṣe idanwo Zebra nikan pẹlu rẹ.
-- Àwọn ìfipínlẹ̀ tí ó yẹ láti kọ́ ni:
-  - libclang (tí a tún mọ̀ sí libcling-dev tàbí llvm-dev)
-  - clang tabi compiler C++ miiran (bii g++ fun gbogbo awọn iru ẹrọ tabi Xcode fun macOS)
-  - protoc (Protocol Buffers compiler) pẹ̀lú *--experimental_allow_proto3_optional* flag, tí wọ́n mú jáde nínú Protocol Buffers v3.12.0 (tí wọ̀n ṣe jáde ní May 16, 2020).
+- Rí i dájú pé o ti fi ẹ̀rọ Rust tuntun tó dúró ṣinṣin sí i, nítorí pé a fi dán Zebra wò nìkan.
+- Awọn igbẹkẹle ikole pataki pẹlu:
+  - libclang (tí a tún mọ̀ sí libclang-dev tàbí llvm-dev)
+  - clang tàbí ẹ̀rọ ìṣàkójọpọ̀ C++ mìíràn (bíi g++ fún gbogbo àwọn ìpèsè tàbí Xcode fún macOS)
+  - protoc (Protocol Buffers compiler) pẹ̀lú àsíá *--experimental_allow_proto3_optional*, tí a ṣe àgbékalẹ̀ rẹ̀ nínú Protocol Buffers v3.12.0 (tí a tú jáde ní May 16, 2020).
 
+### Fi sori ẹrọ ati Bẹrẹ
 
-
-### Àwọn ohun tó gbẹ́kẹ̀lé Arch:
-
-Lẹ́yìn tí o bá ti rí i dájú pé àwọn ohun tí ó ní ìfọ̀kànbalẹ̀ náà bá a mu, tẹ̀síwájú pẹ̀lú kíkó àti gbígbé Zebra kalẹ̀ nípa lílo àṣẹ yìí:
+Lórí x86_64 tàbí aarch64 Linux pẹ̀lú glibc 2.34 tàbí tuntun (Ubuntu 22.04+, Debian 12+, RHEL 9+, Amazon Linux 2023), o le fo àwọn ìgbẹ́kẹ̀lé ìkọ́lé kí o sì fi binary tí a ti kọ tẹ́lẹ̀ sílẹ̀:
 
 ```
-
-cargo install --locked zebrad
-
+cargo binstall zebrad
 ```
 
-Bẹrẹ Zebra nipa ṣiṣe:
+Àwọn oní-ẹ̀rọ-ìdámọ̀ kan náà ni a so mọ́ gbogbo ìtújáde GitHub gẹ́gẹ́ bí `zebrad-<version>-<target>.tar.gz`, ọ̀kọ̀ọ̀kan pẹ̀lú àyẹ̀wò SHA-256, ẹ̀rí ìkọ́lé Sigstore àti ìfọwọ́sowọ́pọ̀ Cosign. Lórí àwọn ìkànnì àtijọ́, lo àwòrán Docker tàbí kọ́ láti orísun.
+
+Láti kọ́ láti orísun, gba kóòdù náà kí o sì kọ́ ìtújáde onípele méjì:
 
 ```
-zebrad start
-
+git clone https://github.com/ZcashFoundation/zebra.git
+cd zebra
+cargo build --release --bin zebrad
 ```
 
+Bẹ̀rẹ̀ nódù náà pẹ̀lú:
 
-## Awọn iṣeto ati Awọn ẹya ara ẹrọ Aṣayan:
+```
+target/release/zebrad start
+```
 
+Itọsọna fifi sori ẹrọ: [zebra.zfnd.org/user/install.html](https://zebra.zfnd.org/user/install.html)
 
-### - Ṣíṣe ìpilẹ̀ṣẹ̀ Àkájọ Àtòjọ:
+## Àwọn Ìṣètò Àṣàyàn àti Àwọn Ẹ̀yà Ara
 
-  - Ṣẹda faili iṣeto nipa lilo aṣẹ:
-    
+### Bíbẹ̀rẹ̀ Fáìlì Ìṣètò
+
+  - Ṣẹda faili iṣeto kan nipa lilo aṣẹ naa:
+
   ```
   zebrad generate -o ~/.config/zebrad.toml
-  
+
   ```
 
-  - A ó fi *zebrad.toml* tí a dá sílẹ̀ sínú ìwé àkọọ́lẹ̀ àwọn ààyò ìpilẹ̀ṣẹ̀ Linux. fún àwọn àtúnṣe ibùdó ìpilẹ̀ṣẹ̀ OS, wo ìwé wa.
+  - A ó gbé *zebrad.toml* tí a ṣẹ̀dá sínú ìwé àkójọ àwọn ìfẹ́ràn àìyípadà ti Linux. Fún àwọn ibi àyípadà OS míràn, wo ìwé àkójọ náà.
 
+### Ṣíṣeto Àwọn Páàsì Ìlọsíwájú
 
+  - Ṣètò *tracing.progress_bar* nínú *zebrad.toml* rẹ láti fi àwọn ìwọ̀n pàtàkì hàn nínú terminaalka nípa lílo àwọn ọ̀pá ìlọsíwájú. Àkíyèsí: Ìṣòro kan wà tí a mọ̀ níbi tí ìṣirò ọ̀pá ìlọsíwájú lè pọ̀ sí i.
 
-### - Ṣiṣeto Àwọn Àlàkalẹ̀ Ìlọsíwájú:
+### Ṣíṣeto Iwakusa
 
-  - Ṣeto *tracing.progress_bar* ninu rẹ *zebrad.toml* lati fi awọn iṣiro pataki han ninu ebute nipa lilo awọn ọpa ilọsiwaju. Akọsilẹ: A mọ ọrọ kan ti o wa nibiti awọn iṣirò ọpa ilosiwaju le di nla pupọ.
+  - A le ṣe àtúnṣe Zebra fún iwakusa nípa ṣíṣe àpèjúwe *MINER_ADDRESS* àti àwòrán ibudo ní Docker. Àwọn àlàyé síi wà nínú [Àwọn ìwé àtìlẹ́yìn ìwakùsà](https://zebra.zfnd.org/user/mining-docker.html).
 
+### Àwọn Ẹ̀yà Ìkọ́lé Àṣà
 
+  - Mú kí iṣẹ́ Zebra's pọ̀ sí i pẹ̀lú àwọn ẹ̀yà ara Cargo afikún bíi Prometheus metrics, Sentry monitoring, àtìlẹ́yìn Elasticsearch àdánwò, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ.
 
-### - Ṣíṣètò Ìwakùsà:
+  - Darapọ awọn ẹya ara ẹrọ pupọ nipa kikojọ wọn gẹgẹbi awọn paramita ti `--features` àsíá nígbà tí a bá ń fi sori ẹ̀rọ.
 
-  - Zebra le wa ni ti adani fun iwakusa nipa sisọ a * MINER_ADDRESS * ati ibudo maapu ni Docker.](https://zebra.zfnd.org/user/mining-docker.html).
+  - Àwọn ẹ̀yà àṣìṣe àti ìṣàyẹ̀wò kan wà tí a ti parẹ́ nínú àwọn ìkọ́lé ìtújáde láti mú kí iṣẹ́ wọn sunwọ̀n síi. Fún àkójọ gbogbo àwọn ẹ̀yà ìdánwò àti olùgbékalẹ̀, wo àkójọpọ̀ wọn [Àwọn ìwé API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
 
+## Awọn ibeere Eto ati Iṣeto Nẹtiwọọki
 
-### - Àwọn Àṣejèrè Ṣíṣe:
+### Awọn ibeere ti a ṣeduro
 
-  - Faagun iṣẹ Zebra pẹlu awọn ẹya Cargo afikun gẹgẹbi awọn iṣiro Prometheus, ibojuwo Sentry, atilẹyin Elasticsearch idanwo, ati diẹ sii.
+- CPU: Awọn kooro CPU mẹrin
+- Ramu: 16 GB
+- Ààyè Díìsìkì: 300 GB ààyè díìsìkì tó wà fún ṣíṣàkójọ àwọn onípele méjì àti fífipamọ́ ipò ẹ̀wọ̀n tí a fipamọ́
+- Nẹ́tíwọ́ọ̀kì: Ìsopọ̀ nẹ́tíwọ́ọ̀kì 100 Mbps pẹ̀lú o kere ju 300 GB àwọn ìgbésókè àti ìgbàsókè fún oṣù kan
 
-  - Darapọ awọn ẹya ara ẹrọ pupọ nipa titẹ wọn gẹgẹbi awọn paramita ti awọn `--features` àmì nígbà tí wọ́n bá ń gbé e kalẹ̀.
+### Awọn ibeere to kere ju
 
+- CPU: Awọn kooro CPU meji
+- Ramu: 4 GB
+- Ààyè Díìsìkì: 300 GB ti ààyè díìsìkì tó wà
 
-### Àkíyèsí: Diẹ ninu awọn ẹya atunṣe ati ibojuwo ti wa ni idiwọ ni awọn iṣelọpọ igbasilẹ lati mu iṣẹ ṣiṣe dara julọ.
+Àkójọ ìdánwò Zebra's lè gba tó wákàtí kan láti parí ní ìbámu pẹ̀lú àwọn ìlànà ẹ̀rọ rẹ. Àwọn ètò tí ó lọ́ra lè kó Zebra. A kò tíì fi àwọn ààlà iṣẹ́ tí ó péye múlẹ̀ nípasẹ̀ ìdánwò.
 
-Fun akojọ okeerẹ ti awọn ẹya idanwo ati awọn olupilẹṣẹ, jọwọ ṣayẹwo wa [Awọn iwe aṣẹ API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
- 
+### Àwọn Ohun Tí A Nílò Láti Díìsì
 
-# Awọn ibeere eto ati iṣeto nẹtiwọọki fun Zebra
+- Zebra nlo to 300 GB fun data Mainnet ti a fipamọ ati 10 GB fun data Testnet ti a fipamọ. Reti pe lilo disk yoo pọ si ni akoko.
+- A máa ń pa ibi ìpamọ́ dátà mọ́ lẹ́ẹ̀kọ̀ọ̀kan, àti nígbà tí a bá ti pa tàbí tí a bá tún bẹ̀rẹ̀. A máa ń ṣe àwọn àyípadà nípa lílo àwọn ìṣòwò ibi ìpamọ́ dátà. Àwọn àyípadà tí kò pé tí ìfòpinsí tàbí ìpayà bá fà máa ń padà sípò nígbà tí Zebra bá bẹ̀rẹ̀.
 
-Lati rii daju iṣẹ ti o dara julọ ati igbẹkẹle, a ṣe iṣeduro awọn ibeere eto atẹle fun sisọ ati ṣiṣe zebrad, oju opo Zcash ti o ni iyika ti a kọ ni Rust:
+### Awọn ibeere ati Awọn ibudo Nẹtiwọọki
 
-### Awọn ibeere eto:
-- CPU: 4 àwọn ìkànì CPU
-- RAM: 16 GB
-- Àyè disk: 300 GB àyè disk tó wà fún àkójọpọ̀ àwọn ìdìpọ̀ méjì àti kíkó ipò ìsopọ̀ tí ó wà nípamọ́
-- Nẹtiwọọki: 100 Mbps asopọ nẹtiwo pẹlu o kere ju 300 GB awọn gbigbe ati awọn igbasilẹ fun oṣu kan
-
-
-Jọwọ ṣe akiyesi pe igbaradi idanwo ti Zebra le gba diẹ sii ju wakati kan lati pari da lori awọn alaye ẹrọ rẹ. Lakoko ti awọn ọna ṣiṣe ti o lọra le ni anfani lati ṣajọ ati ṣiṣe Zebra, a ko tii fi idiwọn iṣẹ gangan mulẹ nipasẹ idanwo.
-
-
-### Àwọn Ohun Tí ó Wà Lára Àwo:
-- Zebra nlo nipa 300 GB fun data Mainnet ti a fi pamọ ati 10 GB fun awọn data Testnet ti a ṣe pamọ. Ṣe ireti lilo disk lati pọ si ni akoko.
-- The database is regularly cleaned up, especially during shutdowns or restarts, ensuring data integrity. Incomplete changes due to forced terminations or panics are rolled back upon restarting Zebra.
-
-
-### Awọn ibeere Nẹtiwọọki ati Awọn ibudo:
-- Zebra n lo awọn ibudo TCP wọnyi fun awọn asopọ ti n wọle ati ti n jade:
+- Zebra nlo awọn ibudo TCP wọnyi fun awọn asopọ ti nwọle ati ti njade:
   - 8233 fún Mainnet
   - 18233 fún Testnet
-- Configuring Zebra with a specific listen_addr enables advertising this address for inbound connections. While outbound connections are essential for synchronization, inbound connections are optional.
-- Wiwọle si Zcash DNS seeders jẹ dandan nipasẹ OS DNS resolver (nigbagbogbo ibudo 53).
-- While Zebra can establish outbound connections on any port, zcashd prefers peers on default ports to mitigate DDoS attacks on other networks.
+- Ṣíṣeto Zebra pẹ̀lú listen_addr pàtó kan ń polówó àdírẹ́sì yìí fún àwọn ìsopọ̀ tí ń wọlé. Àwọn ìsopọ̀ tí ń jáde ni a nílò fún ìṣiṣẹ́pọ̀; àwọn ìsopọ̀ tí ń wọlé jẹ́ àṣàyàn.
+- Wíwọlé sí àwọn olùfúnni DNS Zcash jẹ́ pàtàkì nípasẹ̀ olùṣàtúnṣe DNS OS (nígbà gbogbo ibudo 53).
+- Zebra le ṣe awọn asopọ ti njade lori eyikeyi ibudo. zcashd fẹ awọn ẹlẹgbẹ lori awọn ibudo aiyipada lati yago fun lilo fun awọn ikọlu DDoS lori awọn nẹtiwọọki miiran.
 
+### Lilo Nẹtiwọọki Mainnet deede
 
-### Ìlò Nẹtiwọọki Mainnet títóbi:
-- Àkójọpọ̀ àkọ́kọ́: A nílò ìkápá 300 GB fún àkójọpọ̀ àkọ́bẹ̀rẹ̀, pẹ̀lú ìdàgbàsókè tí a retí nínú àwọn ìkákápá tó tẹ̀lé e.
-- Ongoing Updates: Expect daily uploads and downloads ranging from 10 MB to 10 GB, contingent on user transaction sizes and peer requests.
-- Zebra máa ń bẹ̀rẹ̀ ìṣàmúlò bákan náà pẹ̀lú gbogbo àtúnṣe ìtumọ̀ ibi ìpamọ́ tí ó wà nínú rẹ̀, èyí tí ó lè mú kí ó pọn dandan láti ṣe ìmúkúrò ẹ̀rọ-ìmọ̀ lákòókò tí àtúntò-ìmúlò ń wáyé.
-- Awọn ẹlẹgbẹ ti o ni idaduro irin-ajo ti 2 iṣẹju-aaya tabi kere si ni o fẹ. Ti idadoro ba kọja opin yii, jọwọ fi tikẹti kan silẹ fun iranlọwọ.
+- Ìṣiṣẹ́pọ̀ àkọ́kọ́: ìgbàsílẹ̀ 300 GB ni a nílò fún ìṣiṣẹ́pọ̀ àkọ́kọ́, a sì retí pé iye yìí yóò pọ̀ sí i.
+- Àwọn Ìmúdàgbàsókè Tó Ń Bá Iṣẹ́ Lọ: Àwọn ìgbéjáde àti ìgbàsílẹ̀ lójoojúmọ́ láti 10 MB sí 10 GB, ó da lórí ìwọ̀n ìṣòwò olùlò àti ìbéèrè àwọn ẹlẹgbẹ́.
+- Zebra bẹ̀rẹ̀ ìṣọ̀kan àkọ́kọ́ lórí gbogbo ìyípadà ẹ̀yà database inú, èyí tí ó lè túmọ̀ sí gbígbà gbogbo ẹ̀rọ ìgbàsílẹ̀ ní gbogbo ìgbà tí a bá ń ṣe àtúnṣe ẹ̀yà náà.
+- Àwọn ẹlẹgbẹ́ tí wọ́n ní ìdúró ìrìn àjò àtẹ̀lé tí ó jẹ́ ìṣẹ́jú-àáyá méjì tàbí díẹ̀ sí i ni a fẹ́ràn jù. Tí ìdúró bá kọjá ààlà yìí, ṣí tíkẹ́ẹ̀tì kan sí ibi ìkópamọ́ Zebra.
 
+## Àwọn Àṣìṣe Tó Wọ́pọ̀
 
-Nipa titẹle awọn iṣeduro ati awọn iṣeto wọnyi, o le mu ṣiṣe ati ipa ti Zebra pọ si laarin nẹtiwọọki Zcash. Ti o ba pade eyikeyi awọn iṣoro tabi nilo iranlọwọ siwaju sii, ẹgbẹ atilẹyin wa wa ni imurasilẹ lati pese itọsọna.
+- N ṣe iwọn disiki fun oni. Ipo Mainnet ti a fi pamọ ti fẹrẹ to 300 GB o si n dagba sii.
+- Mo n reti awọn RPC apamọwọ lati `zebrad`Àwọn kọ́kọ́rọ́ àti ìwọ̀ntúnwọ̀nsì wà nínú [Zallet](https://github.com/zcash/zallet), ètò kan tó yàtọ̀.
+- Sáré `zebrad` nìkan àti pé mo ń retí pé kí àwọn àpò owó fẹ́ẹ́rẹ́fẹ́ so pọ̀. Ọ̀nà yẹn nílò àkójọ àmì ìtọ́kasí, yálà tí lightwalletd tàbí [Zaino](/zcash-tech/zaino).
+- Ṣíṣe àtúnṣe àìròtẹ́lẹ̀ gẹ́gẹ́ bí àṣìṣe. Àyípadà ẹ̀yà ìpamọ́ dátà máa ń fa èyí nípa ṣíṣe àgbékalẹ̀ rẹ̀.
 
+## Àwọn ojú ìwé tó jọra
 
-Eyi ni ọna asopọ si itọnisọna fifi sori Zebra Node:
-https://zebra.zfnd.org/user/install.html?highlight=zebra%20launcher#installing-zebra 
+- [Àwọn Nódù Kíkún](/zcash-tech/full-nodes) - kini node kikun ṣe ati awọn imuse wo ni o wa
+- [Zakura Node](/zcash-tech/zakura-node) - ihò kan ti a fi orita lati Zebra pẹlu amuṣiṣẹpọ yiyara ati gige
+- [Zaino](/zcash-tech/zaino) - Atọka Rust ti o n ṣiṣẹ awọn apamọwọ ina
+- [Àwọn Nódù Àpò Ìmọ́lẹ̀](/zcash-tech/lightwallet-nodes) - ìbéèrè àwọn àpò owó ina fún àwọn olupin
+- [Itọsọna iwakusa Zcash](/using-zcash/zcash-mining-guide) - iwakusa lodi si ipade tirẹ
+
+## Ẹ̀kọ́ Síwájú
+
+- [Ìwé Zebra](https://zebra.zfnd.org)
+- [Zebra lórí GitHub](https://github.com/ZcashFoundation/zebra/)
+- [Awọn Ohun elo Eto](https://zebra.zfnd.org/user/requirements.html)

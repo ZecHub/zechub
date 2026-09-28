@@ -1,47 +1,87 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Non-Custodial_Exchanges.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Texto Alternativo" width="50"/>   Exchanges Non-Custodial
+# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Exchanges Não Custodiais
 
-[Exchanges Non-Custodial de Zcash](/dex)
+[Zcash Exchanges Não Custodiais](/dex)
 
-No mundo em constante evolução do trading de criptomoedas, o crescimento dos exchanges non-custodial, também conhecidos como Exchanges Descentralizados ou DEXs, está redefinindo a forma como os utilizadores interagem com ativos digitais. Estas plataformas oferecem uma abordagem revolucionária ao trading ao eliminar a necessidade de intermediários ou terceiros e devolver o controlo aos utilizadores.
+No mundo em constante evolução da negociação de criptomoedas, os exchanges não custodiais, também conhecidos como Exchanges Descentralizados ou DEXs, permitem que os utilizadores negoceiem sem entregarem os seus fundos a uma conta de exchange. Mantém as suas próprias chaves, mas isso não significa que mais ninguém esteja envolvido. Dependendo da rota, uma troca pode passar por um website ou aplicação de wallet, um serviço de encaminhamento, contratos inteligentes, solvers e bridges.
 
-Listados acima estão exchanges non-custodial que permitem obter e negociar Zcash de forma autónoma, sem necessidade de intermediários no processo de transação.
+Os exchanges listados acima permitem-lhe obter e negociar Zcash a partir da sua própria wallet. O grau de privacidade de uma troca depende do serviço, da rede a partir da qual paga e de a sua ZEC acabar num endereço blindado. As secções abaixo explicam a diferença.
 
-### **Compreendendo os Exchanges Non-Custodial**
+### **Compreender os Exchanges Não Custodiais**
 
-Exchanges non-custodial, também conhecidos como Exchanges Descentralizados (DEXs), são plataformas que facilitam o trading de criptomoedas sem exigir que os utilizadores depositem os seus fundos no próprio exchange. Em vez disso, os utilizadores mantêm o controlo das suas chaves privadas e negociam diretamente a partir das suas carteiras, sem necessidade de terceiros.
+Os exchanges não custodiais, também conhecidos como Exchanges Descentralizados (DEXs), são plataformas que facilitam a negociação de criptomoedas sem exigir que os utilizadores depositem os seus fundos no próprio exchange. Em vez disso, os utilizadores mantêm o controlo das suas chaves privadas e negoceiam a partir das suas próprias wallets. As trocas cross-chain continuam a depender de outras partes para cotar, encaminhar e liquidar a negociação (ver abaixo).
 
-Esta abordagem reforça a segurança e a privacidade, uma vez que os utilizadores não dependem do exchange para guardar os seus ativos, o que também reduz o risco de ataques informáticos ou má gestão. As transações em exchanges non-custodial recorrem frequentemente a smart contracts para garantir um trading sem confiança em intermediários e transparente.
+Isto pode melhorar a segurança, pois os utilizadores não dependem do exchange para guardar os seus ativos, o que reduz o risco de hacks ou má gestão. Não torna uma troca privada por si só. As transações em exchanges não custodiais utilizam frequentemente contratos inteligentes, que são públicos, e o serviço que utiliza ainda pode ver os seus endereços e detalhes de ligação.
 
-Uma vantagem fundamental dos exchanges de criptomoedas non-custodial está no maior controlo que proporcionam aos utilizadores sobre os seus ativos. Como estes exchanges não retêm os ativos, os utilizadores desfrutam de propriedade total e autoridade sobre as suas moedas digitais.
+Uma vantagem fundamental dos exchanges de criptomoedas não custodiais reside no maior controlo que proporcionam aos utilizadores sobre os seus ativos. Como estes exchanges não retêm os ativos, os utilizadores usufruem de propriedade e autoridade completas sobre as suas moedas digitais.
 
-### **Exchanges Non-Custodial vs Exchanges Custodial**
+### **Exchanges Não Custodiais Vs Exchanges Custodiais**
 
-**#1 Segurança**: Os exchanges non-custodial eliminam a necessidade de os utilizadores confiarem os seus fundos ou ativos a uma entidade central. Isto permite que os utilizadores mantenham e controlem as suas chaves privadas, reduzindo o risco de ataques informáticos, ataques internos e vulnerabilidades da plataforma que os exchanges custodial podem enfrentar.
+**#1 Segurança**: Os exchanges não custodiais eliminam a necessidade de manter fundos numa conta central de exchange. Os utilizadores mantêm o controlo das suas chaves privadas, reduzindo o risco de hacks, ataques internos e falhas de plataforma que os exchanges custodiais podem sofrer. As trocas cross-chain ainda podem reter fundos durante um curto período num endereço de depósito ou bridge enquanto a negociação é liquidada.
 
-**#2 Privacidade**: Os exchanges non-custodial oferecem frequentemente maior privacidade ao permitir que os utilizadores negociem diretamente a partir das suas carteiras sem necessidade de qualquer intermediário. As transações podem ser executadas com maior anonimato, já que informações sensíveis não são armazenadas, ao contrário do que acontece nos Exchanges Centralizados.
+**#2 Privacidade**: As trocas não custodiais normalmente não requerem uma conta de exchange, pelo que frequentemente não é necessário registar-se com um email ou documento de identificação. Isto não é o mesmo que anonimato. O depósito que envia na rede de origem (por exemplo, Solana ou Ethereum) é público nessa chain, e o serviço ainda pode ver os endereços da sua wallet, o endereço IP e os detalhes da troca. A privacidade no lado de Zcash depende de onde a sua ZEC chega (ver abaixo).
 
-**#3 Descentralização**: Os exchanges non-custodial alinham-se mais de perto com o ethos descentralizado das criptomoedas. Os utilizadores têm maior autonomia e controlo sobre as suas atividades de trading, em linha com os princípios mais amplos da tecnologia blockchain.
+**#3 Descentralização**: Os exchanges não custodiais alinham-se mais estreitamente com o espírito descentralizado das criptomoedas. Os utilizadores têm maior autonomia e controlo sobre as suas atividades de negociação, em linha com os princípios mais amplos da tecnologia blockchain.
 
-Quando se trata de Exchanges Custodial, o nível de descentralização é frequentemente bastante reduzido na maioria dos exchanges centralizados, o que leva a que a equipa do exchange ou os seus responsáveis façam a gestão dos dados ou informações dos utilizadores na plataforma.
+Quanto aos Exchanges Custodiais, o nível de Descentralização é frequentemente bastante reduzido na maioria dos exchanges centralizados, que permitem à equipa ou aos responsáveis do exchange gerir os dados ou informações dos utilizadores no exchange.
 
-**#4 Adaptabilidade a Regulamentações em Mudança**: Os exchanges non-custodial são frequentemente mais adaptáveis a ambientes regulatórios em mudança. Como não detêm os fundos dos utilizadores, podem enfrentar menos desafios de conformidade em comparação com exchanges custodial.
+**#4 Adaptabilidade a Regulamentações em Mudança**: Os exchanges não custodiais são frequentemente mais adaptáveis a ambientes regulatórios em mudança. Como não detêm fundos dos utilizadores, podem ter menos desafios de conformidade em comparação com exchanges custodiais.
 
-**#5 Inovação e Experimentação**: Os exchanges non-custodial impulsionam frequentemente a inovação no espaço cripto. Incentivam o desenvolvimento de tecnologias descentralizadas, como automated market makers (AMMs) e aplicações de finanças descentralizadas (DeFi).
+**#5 Inovação e Experimentação**: Os exchanges não custodiais impulsionam frequentemente a inovação no espaço cripto. Incentivam o desenvolvimento de tecnologias descentralizadas, como criadores de mercado automatizados (AMMs) e aplicações de finanças descentralizadas (DeFi).
 
-**#6 Acessibilidade Global**: Os exchanges non-custodial oferecem frequentemente acesso a criptomoedas a utilizadores de todo o mundo, incluindo regiões onde barreiras regulatórias podem limitar a disponibilidade dos serviços de exchanges custodial.
+**#6 Acessibilidade Global**: Os exchanges não custodiais proporcionam frequentemente acesso a criptomoedas para utilizadores em todo o mundo, incluindo em regiões onde obstáculos regulatórios podem limitar a disponibilidade de serviços de exchanges custodiais.
 
-**#7 Sem Requisitos de KYC**: Muitos exchanges non-custodial não exigem que os utilizadores passem por procedimentos extensivos de know-your-customer (KYC), oferecendo um nível de privacidade e inclusão que está ausente em algumas plataformas custodial.
+**#7 Sem Requisitos de KYC**: Muitos exchanges não custodiais não pedem documentos de identificação antecipadamente. A maioria continua a verificar endereços de wallet em bases de dados de conformidade, e uma troca pode ser atrasada, bloqueada ou recusada se algo for sinalizado. Consulte os termos do serviço antes de depender dele.
 
-Agora, vamos explorar alguns dos exchanges non-custodial acessíveis que facilitam o trading de Zcash. Utilizar estas plataformas proporcionar-lhe-á uma forma conveniente de adquirir mais moedas Zcash.
+### **O Que Zcash Protege e o Que Não Protege**
+
+A privacidade de Zcash provém de endereços blindados. Quando ZEC se move entre endereços blindados, o remetente, o destinatário, o montante e o memorando são encriptados na chain de Zcash. Consulte [Pools Blindadas](/using-zcash/shielded-pools) para saber como isto funciona.
+
+Uma troca tem componentes que Zcash não consegue ocultar:
+
+- **A rede de origem.** Os fundos que envia a partir de Solana, Ethereum ou outra chain pública são visíveis nessa chain, incluindo o seu endereço e o montante.
+- **O endereço de receção.** Algumas rotas de troca entregam ZEC a um endereço transparente. Por exemplo, Near Intents lista ZEC como suportado apenas para [endereços transparentes](https://docs.near-intents.org/resources/chain-support). ZEC enviado para um endereço transparente (t1 ou t3) é público, tal como Bitcoin. Blindá-lo posteriormente protege o que fizer a seguir, mas a transferência recebida e a transação de blindagem continuam visíveis.
+- **O serviço.** A aplicação e qualquer serviço de encaminhamento veem os endereços e montantes que lhes fornece, além de dados de ligação, como o seu endereço IP.
+
+Envie o ZEC para uma wallet que controla e blinde-o antes de o gastar. [Utilizar ZEC de Forma Privada](/guides/using-zec-privately) aborda os próximos passos.
+
+### **Quem Está Envolvido numa Troca**
+
+Tomemos como exemplo uma troca encaminhada através do serviço 1Click da Near Intents. Os seus [termos da API](https://docs.near-intents.org/security-compliance/terms-of-service) tratam estes elementos como partes separadas:
+
+- **A interface**: o website ou a wallet que utiliza. Pode ser operada pela Intents Technology ou por um terceiro com os seus próprios termos.
+- **1Click**: um serviço de encaminhamento e liquidação operado pela Intents Technology Limited. Envia fundos para um endereço de depósito criado para a sua cotação. A documentação diz que o 1Click não toma custódia, mas os termos indicam que os ativos podem ser retidos ou bloqueados na infraestrutura de bridge enquanto uma transferência está em curso.
+- **O protocolo**: os contratos inteligentes Near Intents.
+- **Solvers**: terceiros independentes que preenchem a cotação.
+- **Bridges**: ZEC nativo move-se através da PoA Bridge, operada pela Intents Technology.
+
+A Near Intents também [verifica fluxos de cotações integrados](https://docs.near-intents.org/security-compliance/risk-and-compliance) em várias bases de dados AML e afirma que a cobertura varia consoante o fluxo e a integração. Nos termos da plataforma, uma troca sinalizada pode ser atrasada, bloqueada, congelada ou rejeitada.
+
+### **O Que Partilha Durante uma Troca**
+
+- O endereço de ZEC que recebe a troca e um endereço de reembolso na rede de origem.
+- O ativo e o montante, bem como a transação de depósito que envia, que é pública na chain de origem.
+- Dados de ligação. Os termos do 1Click dizem que a Intents Technology pode recolher metadados de pedidos, endereços IP e endereços de wallet, e a política de privacidade em near.com enumera o endereço IP, a localização e informações sobre o navegador e o dispositivo.
+- Tudo o que a aplicação acrescenta, como outros endereços de wallet ligados. As aplicações também podem submeter a sua wallet às suas próprias verificações de conformidade.
+
+### **Onde Consultar Termos e Suporte**
+
+Os termos mudam, por isso leia as versões atuais antes de uma troca de grande valor.
+
+- **Comece pela aplicação que utiliza.** É o seu principal ponto de contacto. Os termos da API 1Click dizem que a Intents Technology não tem uma relação direta com os utilizadores de aplicações criadas com base nela.
+- **Near Intents:** os termos e a política de privacidade em near.com/terms e near.com/privacy, além dos [termos da API 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) e de [risco e conformidade](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+- **Acompanhamento e suporte:** procure uma troca no [Explorador Near Intents](https://explorer.near-intents.org) ou pergunte no [Near Intents Telegram](https://t.me/near_intents).
+- **Reembolsos:** uma troca falhada pode ser devolvida ao endereço de reembolso que forneceu, mas os termos de near.com dizem que um reembolso não é garantido. Os termos do 1Click também dizem que os pedidos de recuperação por erros do utilizador inferiores a USD 300 não são considerados.
+
+Agora, vamos explorar alguns dos exchanges não custodiais acessíveis que facilitam a negociação de Zcash. Utilizar estas plataformas proporcionar-lhe-á uma forma conveniente de adquirir mais moedas Zcash.
 
 ### **Resumo**
 
-Os exchanges non-custodial, ou DEXs, são plataformas descentralizadas que permitem o trading direto de criptomoedas a partir das carteiras dos utilizadores. Os utilizadores mantêm o controlo das suas chaves privadas, aumentando a segurança e a privacidade.
+Os exchanges não custodiais, ou DEXs, permitem-lhe negociar a partir da sua própria wallet enquanto mantém o controlo das suas chaves privadas. Isto ajuda a segurança, mas a privacidade depende da rota: a chain de origem é pública, o serviço vê os seus endereços e dados de ligação, e o seu ZEC só é privado quando se encontra num endereço blindado.
 
-Embora os exchanges non-custodial ofereçam vantagens convincentes, é importante reconhecer que também podem apresentar desvantagens, como potenciais problemas de liquidez e uma curva de aprendizagem mais acentuada para utilizadores menos experientes.
+Embora os exchanges não custodiais ofereçam vantagens convincentes, é importante reconhecer que podem apresentar desvantagens, tais como potenciais problemas de liquidez e uma curva de aprendizagem mais acentuada para utilizadores menos experientes.
 
-Como em qualquer decisão financeira, os traders devem avaliar cuidadosamente as suas prioridades, tolerância ao risco e familiaridade com a tecnologia antes de escolher entre opções de exchanges non-custodial e custodial.
+Tal como em qualquer decisão financeira, os traders devem avaliar cuidadosamente as suas prioridades, tolerância ao risco e familiaridade com a tecnologia antes de escolherem entre opções de exchanges não custodiais e custodiais.

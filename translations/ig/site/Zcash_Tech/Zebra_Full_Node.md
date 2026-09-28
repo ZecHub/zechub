@@ -2,24 +2,33 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-## Okwu Mmalite nke Zebra Node
+# Zebra zuru oke
 
-Na-ewebata Zebra: Mgbanwe nke Zcash Node Infrastructure na Rust
+## TL;DR
 
-Meet Zebra, a groundbreaking achievement as the inaugural Zcash node crafted entirely in Rust. Seamlessly integrated into the Zcash peer-to-peer network, Zebra serves as a pivotal tool fortifying the network's resilience. Through its core functions of validating and broadcasting transactions, and meticulously maintaining the Zcash blockchain state, Zebra contributes to a more decentralized network infrastructure.
+- Zebra (`zebrad`) bụ Zcash zuru oke nke e dere na Rust ma Zcash Foundation.
+- Ọ na-akwado ngọngọ na azụmahịa, na-edobe ọnọdụ nkesa ahụ, ma na-agwa ndị ọzọ okwu site na netwọk ndị ọgbọ-na-otu.
+- Zebra na zcashd tinyere otu usoro ahụ n'ọrụ ma nwee ike ịrụkọ ọrụ ọnụ. Kemgbe ezumike nká zcashd, Zebra na-arụ ọrụ nkwekọrịta.
+- Ụzọ abụọ iji mee ya: `zfnd/zebra` Foto Docker, ma ọ bụ ihe owuwu sitere na isi mmalite.
+- Akụrụngwa akwadoro bụ isi CPU anọ, RAM 16 GB, na diski 300 GB. Nke kacha nta bụ isi abụọ na RAM 4 GB, yana diski 300 GB otu ahụ.
 
-## Uru karịa mmejuputa Zcashd Node
-In contrast to the original Zcash node, zcashd, which traces its lineage back to Bitcoin's foundational codebase and is developed by the Electric Coin Company, our implementation stands as an autonomous entity. Developed from scratch with a focus on security and efficiency, Zebra harnesses the power of the memory-safe Rust language.
+## Nkọwa Isi
 
-Despite their distinct origins, both zcashd and Zebra adhere to the same protocol, facilitating seamless communication and interoperability between them. This innovation not only expands the Zcash ecosystem but also sets a new standard for blockchain node development.
+Zebra bụ Zcash node mbụ e dere kpamkpam na Rust. Ọ dị na netwọk Zcash peer-to-peer, ebe ọ na-akwado ma na-agbasa azụmahịa ma na-edobe ọnọdụ blockchain. Inwe mmejuputa nke abụọ n'onwe ya na-eme ka akụrụngwa netwọk ahụ ghara ịdabere na otu koodu ọ bụla.
 
-## Ntuziaka maka Zebra Launcher
+### Zebra na zcashd
 
-Ị nwere ike ịgba ọsọ Zebra site na iji onyinyo Docker anyị ma ọ bụ ị nwere ike ịmepụta ya aka. Biko lee ngalaba System Requirements.
+Ụlọ Electric Coin Company mepụtara Zcash node mbụ ahụ, zcashd, site na koodu Bitcoin. E dere Zebra site na mmalite na Rust, asụsụ nchekwa ebe nchekwa, nke lekwasịrị anya na nchekwa na arụmọrụ.
 
-### Docker ojiji:
+Mmejuputa abụọ a na-agbaso otu usoro ahụ, ka ha wee nwee ike ịkparịta ụka ma jikọọ aka. zcashd ruru nkwụsịtụ nke Nkwado ya na 18 Julaị 2026 ma ọ naghịzi amalite, nke na-ahapụ Zebra na Zakura dị ka mmejuputa node a na-eji. Lee [Ọnụ zuru ezu](/zcash-tech/full-nodes) maka foto sara mbara.
 
-Iji rụọ ọrụ kachasị ọhụrụ anyị n'enweghị nsogbu ma mekọrịta ya na njedebe, mepụta iwu na-esonụ:
+## Zebra na-agba ọsọ
+
+I nwere ike iji onyonyo Docker gbaa Zebra, ma ọ bụ jiri aka gị wuo ya. Biko lee ngalaba Ihe Sistemụ Chọrọ.
+
+### Ojiji Docker
+
+Iji mee ka mwepụta kachasị ọhụrụ ma mekọrịta ya na njedebe ahụ, mee iwu a:
 
 ```
 
@@ -27,114 +36,128 @@ docker run zfnd/zebra:latest
 
 ```
 
-Maka ntụziaka zuru ezu na nkọwa zuru ezu, biko rụtụ aka na anyị [Docker akwụkwọ](https://zebra.zfnd.org/user/docker.html).
+Maka ntuziaka zuru oke, gaa na [Akwụkwọ docker](https://zebra.zfnd.org/user/docker.html).
 
-### Ụlọ Zebra:
+### Iwuli Zebra
 
-Iwuli Zebra chọrọ Rust, libclang, na onye nchịkọta C ++.
+Iwuli Zebra chọrọ Rust, libclang, na C++ compiler.
 
-- Jide n'aka na ị wụnyela nsụgharị Rust kachasị ọhụrụ, ebe ọ bụ na a na-anwale Zebra naanị ya.
-- Ihe ndị dị mkpa na-adabere na ya gụnyere:
-  - libclang (nke a makwaara dị ka libclan-dev ma ọ bụ llvm-dev)
-  - clang ma ọ bụ onye nchịkọta C ++ ọzọ (dịka g ++ maka nyiwe niile ma ọ̄ bụ Xcode maka macOS)
-  - protoc (Protocol Buffers compiler) na *--experimental_allow_proto3_optional* ọkọlọtọ, ewebata na Protocol Buffers v3.12.0 (wepụtara na Mee 16, 2020).
+- Hụ na ị tinyere ụdị Rust kachasị ọhụrụ, ebe ọ bụ na a na-anwale Zebra naanị ya.
+- Ihe ndị dị mkpa maka owuwu gụnyere:
+  - libclang (a makwaara dị ka libclang-dev ma ọ bụ llvm-dev)
+  - clang ma ọ bụ ihe nchịkọta C++ ọzọ (dịka g++ maka nyiwe niile ma ọ bụ Xcode maka macOS)
+  - protoc (onye na-emepụta Protocol Buffers) nwere ọkọlọtọ *--experimental_allow_proto3_optional*, ewepụtara na Protocol Buffers v3.12.0 (ewepụtara na Mee 16, 2020).
 
+### Wụnye ma Malite
 
-
-### Ihe ndị na-adabere na Arch:
-
-After ensuring the dependencies are met, proceed with building and installing Zebra using the following command:
+Na x86_64 ma ọ bụ aarch64 Linux nwere glibc 2.34 ma ọ bụ nke ọhụrụ (Ubuntu 22.04+, Debian 12+, RHEL 9+, Amazon Linux 2023), ị nwere ike ịhapụ ihe ndị dabere na nrụpụta ahụ wee wụnye ọnụọgụ abụọ e wuru tupu oge eruo:
 
 ```
-
-cargo install --locked zebrad
-
+cargo binstall zebrad
 ```
 
-Malite Zebra site na ime:
+A na-ejikọ otu ọnụọgụ abụọ ahụ na ntọhapụ GitHub ọ bụla dịka `zebrad-<version>-<target>.tar.gz`, nke ọ bụla nwere checksum SHA-256, ihe akaebe nke nrụpụta na mmalite nke Sigstore na mbinye aka Cosign. Na nyiwe ochie, jiri onyonyo Docker ma ọ bụ wuo site na isi mmalite.
+
+Iji wuo site na isi mmalite, nweta koodu ahụ ma wuo binary ntọhapụ:
 
 ```
-zebrad start
-
+git clone https://github.com/ZcashFoundation/zebra.git
+cd zebra
+cargo build --release --bin zebrad
 ```
 
+Malite node ahụ na:
 
-## Nhọrọ Nhọrọ & Njirimara:
+```
+target/release/zebrad start
+```
 
+Nduzi nwụnye: [zebra.zfnd.org/user/install.html](https://zebra.zfnd.org/user/install.html)
 
-### - Ịmepụta faịlụ nhazi:
+## Nhazi na Atụmatụ Nhọrọ
 
-  - Mepụta faịlụ nhazi site na iji iwu:
-    
+### Mmalite Faịlụ Nhazi
+
+  - Mepụta faịlụ nhazi site na iji iwu a:
+
   ```
   zebrad generate -o ~/.config/zebrad.toml
-  
+
   ```
 
-  - The generated *zebrad.toml* will be placed in the default preferences directory of Linux. For alternative OS default locations, refer to our documentation.
+  - A ga-etinye *zebrad.toml* emepụtara na ndekọ nhọrọ ndabara nke Linux. Maka ebe ndabara OS ọzọ, lee akwụkwọ ndị ahụ.
 
+### Ịhazi Ogwe Ọganihu
 
+  - Hazie *tracing.progress_bar* na *zebrad.toml* gị iji gosipụta ihe ndị dị mkpa na njedebe site na iji ogwe ọganihu. Rịba ama: Enwere nsogbu a maara ebe atụmatụ ogwe ọganihu nwere ike ibu oke ibu.
 
-### - Ịhazi Ogwe Ọganihu:
+### Ịhazi Ngwuputa
 
-  - Hazie *tracing.progress_bar* na *zebrad.toml* gị iji gosipụta metrik dị mkpa na njedebe site na iji ogwe ọganihu. Rịba ama: Nsogbu a maara nke ọma ebe atụmatụ nke ogwe ihe ịga nke ọma nwere ike ibu oke.
+  - Enwere ike ịhazi Zebra maka igwu ala site na ịkọwapụta *MINER_ADDRESS* na nhazi ọdụ ụgbọ mmiri na Docker. Enwere ike ịchọta nkọwa ndị ọzọ na [Akwụkwọ nkwado maka igwu ala](https://zebra.zfnd.org/user/mining-docker.html).
 
+### Atụmatụ Nrụpụta Omenala
 
+  - Gbasaa ọrụ Zebra's site na iji atụmatụ Cargo ndị ọzọ dịka usoro Prometheus, nlekota Sentry, nkwado Elasticsearch nnwale, na ndị ọzọ.
 
-### - Ịhazi Ngwuputa:
+  - Jikọta ọtụtụ atụmatụ site na ịdepụta ha dị ka paramita nke `--features` ọkọlọtọ n'oge nrụnye.
 
-  - Zebra nwere ike ahaziri maka Ngwuputa site na-ezipụta a * MINER_ADDRESS * na ọdụ ụgbọ mmiri mapping na Docker.](https://zebra.zfnd.org/user/mining-docker.html).
+  - A na-agbanyụ ụfọdụ atụmatụ nrụgharị na nlekota na nrụpụta ntọhapụ iji mee ka arụmọrụ ka mma. Maka ndepụta zuru oke nke atụmatụ nnwale na nke onye nrụpụta, lelee anya na [Akwụkwọ API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
 
+## Ihe Sistemụ chọrọ na Nhazi Netwọk
 
-### - Njirimara Nrụpụta Omenala:
+### Ihe Ndị A Na-atụ aro
 
-  - Gbasaa ọrụ Zebra na atụmatụ ndị ọzọ nke Cargo dị ka Prometheus metrics, nlekota Sentry, nkwado nyocha Elasticsearch, na ndị ọzọ.
-
-  - Jikọta ọtụtụ atụmatụ site na-edepụta ha dị ka parameters nke `--features` flag n'oge echichi.
-
-
-### Note: Some debugging and monitoring features are disabled in release builds to optimize performance.
-
-Maka ndepụta zuru ezu nke atụmatụ nnwale na mmepe, biko lelee akwụkwọ anyị [API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
- 
-
-# Ihe ndị a chọrọ n'aka usoro na nhazi netwọk maka Zebra
-
-To ensure optimal performance and reliability, we recommend the following system requirements for compiling and running zebrad, the revolutionary Zcash node built entirely in Rust:
-
-### Ihe Ndị A Chọrọ n'Aka:
-- CPU: 4 CPU cores
+- CPU: Isi CPU anọ
 - RAM: 16 GB
-- Oghere diski: 300 GB ohere diski dị maka ịhazi ọnụọgụ abụọ na ịchekwa ọnọdụ agbụ echekwara
-- Network: 100 Mbps netwọk njikọ na a kacha nta nke 300 GB uploads na downloads kwa ọnwa
+- Oghere Diski: 300 GB dị maka ịchịkọta ọnụọgụ abụọ na ịchekwa ọnọdụ agbụ echekwara
+- Netwọk: Njikọ netwọk 100 Mbps yana opekempe nbudata na nbudata 300 GB kwa ọnwa
 
+### Ihe kacha nta achọrọ
 
-Please note that Zebra's test suite may take over an hour to complete depending on your machine specifications. While slower systems may be able to compile and run Zebra, we have yet to establish precise performance boundaries through testing.
+- CPU: 2 isi CPU
+- RAM: 4 GB
+- Oghere Diski: 300 GB nke oghere diski dị
 
+Usoro nnwale Zebra's nwere ike were ihe karịrị otu awa iji mezue dabere na nkọwapụta igwe gị. Sistemụ dị nwayọ nwere ike ịhazi ma rụọ ọrụ Zebra. E guzobebeghị ókè arụmọrụ kpọmkwem site na nnwale.
 
-### Ihe ndị a chọrọ maka diski:
-- Zebra utilizes approximately 300 GB for cached Mainnet data and 10 GB for cached Testnet data. Expect disk usage to increase over time.
-- The database is regularly cleaned up, especially during shutdowns or restarts, ensuring data integrity. Incomplete changes due to forced terminations or panics are rolled back upon restarting Zebra.
+### Ihe achọrọ na Diski
 
+- Zebra na-eji ihe dị ka 300 GB maka data Mainnet echekwara na 10 GB maka data Testnet echekwara. A na-atụ anya na ojiji diski ga-abawanye ka oge na-aga.
+- A na-ehicha nchekwa data ahụ mgbe ụfọdụ, nakwa mgbe emechiri ya ma ọ bụ malitegharịa ya. A na-eme mgbanwe site na iji azụmahịa nchekwa data. A na-agbanwe mgbanwe ndị na-ezughị ezu nke nkwụsị ma ọ bụ ụjọ kpatara na-alaghachi azụ oge ọzọ Zebra malitere.
 
-### Ihe Ndị A Chọrọ n'Aka Ntanetị na Ọdụ Ụgbọ Mmiri:
-- Zebra na-eji ọdụ ụgbọ mmiri TCP ndị a maka njikọ mbata na ọpụpụ:
+### Ihe achọrọ na ọdụ ụgbọ mmiri netwọk
+
+- Zebra na-eji ọdụ ụgbọ mmiri TCP ndị a maka njikọ na-abata na nke na-apụ apụ:
   - 8233 maka Mainnet
   - 18233 maka Testnet
-- Configuring Zebra with a specific listen_addr enables advertising this address for inbound connections. While outbound connections are essential for synchronization, inbound connections are optional.
-- Ịnweta Zcash DNS seeders dị mkpa site na OS DNS resolver (na-abụkarị ọdụ ụgbọ mmiri 53).
-- While Zebra can establish outbound connections on any port, zcashd prefers peers on default ports to mitigate DDoS attacks on other networks.
+- Ịhazi Zebra na listen_addr kpọmkwem na-akpọsa adreesị a maka njikọ na-abata. A chọrọ njikọ na-apụ apụ maka mmekọrịta; njikọ na-abata bụ nhọrọ.
+- Ọ dị mkpa ịnweta Zcash DNS seeders site na OS DNS resolver (nke na-abụkarị ọdụ ụgbọ mmiri 53).
+- Zebra nwere ike ime njikọ na-apụ apụ na ọdụ ụgbọ mmiri ọ bụla. zcashd na-ahọrọ ndị ọgbọ ya na ọdụ ụgbọ mmiri ndabara iji zere iji ya maka mwakpo DDoS na netwọk ndị ọzọ.
 
+### Ojiji Netwọk Mainnet nkịtị
 
-### Ụdị ojiji nke netwọkụ Mainnet:
-- Mmekọrịta mbụ: A chọrọ nbudata 300 GB maka nhazi mbụ, na-atụ anya uto na nbudatara ndị ọzọ.
-- Ongoing Updates: Expect daily uploads and downloads ranging from 10 MB to 10 GB, contingent on user transaction sizes and peer requests.
-- Zebra na-ebute mmekọrịta mbụ na mgbanwe ọ bụla nke nchekwa data dị n'ime, nwere ike ịchọ ka ebudata usoro zuru ezu n'oge nkwalite nsụgharị.
-- A na-ahọrọ ndị ọgbọ nwere oge njem nke 2 sekọnd ma ọ bụ obere. Ọ bụrụ na oge gafere oke a, biko nyefee tiketi maka enyemaka.
+- Mmekọrịta Mbụ: achọrọ nbudata 300 GB maka njikọta mbụ, a na-atụkwa anya na ọnụọgụgụ a ga-eto.
+- Mmelite Na-aga n'ihu: nbudata na nbudata kwa ụbọchị site na 10 MB ruo 10 GB, dabere na nha azụmahịa onye ọrụ na arịrịọ ndị ọgbọ.
+- Zebra na-amalite mmekọrịta mbụ na mgbanwe ọ bụla nke ụdị nchekwa data dị n'ime, nke nwere ike ịpụta nbudata agbụ zuru oke n'oge mmelite ụdị.
+- A na-ahọrọ ndị ọgbọ nwere oge ịgagharị nke sekọnd abụọ ma ọ bụ ihe na-erughị ya. Ọ bụrụ na oge agafeela oke a, mepee tiketi na ebe nchekwa Zebra.
 
+## Mmejọ Ndị A Na-emekarị
 
-Site n'ịgbaso ndụmọdụ na nhazi ndị a, ị nwere ike ịbawanye arụmọrụ na ịdị irè nke Zebra n'ime netwọk Zcash. Ọ bụrụ na ị zutere nsogbu ọ bụla ma ọ bụ chọọ enyemaka ọzọ, ndị ọrụ nkwado anyị dị njikere inye nduzi.
+- Nhazi diski ahụ maka taa. Ọnọdụ Mainnet echekwara adịlarị ihe fọrọ nke nta ka ọ bụrụ 300 GB ma na-eto eto.
+- A na-atụ anya RPCs obere akpa site na `zebrad`Igodo na nguzozi dị ndụ [Zallet](https://github.com/zcash/zallet), mmemme dị iche.
+- Ịgba ọsọ `zebrad` naanị m ma na-atụ anya ka obere akpa ego jikọọ. Ụzọ ahụ chọrọ ihe na-egosi ihe, ma ọ bụ lightwalletd ma ọ bụ nke nwere akpa ego [Zaino](/zcash-tech/zaino).
+- Ịna-ewere mgbanwe a na-atụghị anya ya dị ka ihe kpatara ya. Mgbanwe ụdị nchekwa data na-akpali otu site na imewe.
 
+## Peeji ndị metụtara ya
 
-Nke a bụ njikọ na Ntuziaka Ntuzi Zebra Node:
-https://zebra.zfnd.org/user/install.html?highlight=zebra%20launcher#installing-zebra 
+- [Ọnụ zuru ezu](/zcash-tech/full-nodes) - ihe otu node zuru oke na-eme na mmejuputa dị
+- [Zakura Node](/zcash-tech/zakura-node) - otu oghere e ji Zebra mee nke nwere mmekọrịta na nhazi ngwa ngwa
+- [Zaino](/zcash-tech/zaino) - ihe nrịbama Rust nke na-eje ozi obere obere akpa
+- [Ọnụọgụ obere akpa](/zcash-tech/lightwallet-nodes) - ajụjụ obere akpa ozi sava
+- [Nduzi Ngwuputa Zcash](/using-zcash/zcash-mining-guide) - igwu ala n'akụkụ nke gị
+
+## Mmụta Ọzọ
+
+- [Akwụkwọ Zebra](https://zebra.zfnd.org)
+- [Zebra na GitHub](https://github.com/ZcashFoundation/zebra/)
+- [Ihe Sistemụ Chọrọ](https://zebra.zfnd.org/user/requirements.html)

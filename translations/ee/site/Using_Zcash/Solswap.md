@@ -6,9 +6,25 @@
 
 ---
 
+## **Native ZEC alo ZEC ƒe dzesi aɖe?**
+
+"ZEC" le Phantom ateŋu afia nunɔamesi vovovo eve, eyata nya esi nèle fe xem.
+
+- **Phantom ƒe Swap ƒe abɔta si wotu ɖe eme** naa ZEC ƒe dzesi ƒe nɔnɔmetata si le Solana (alo network bubu si Phantom doa alɔe) la wò. Menye ZEC. Enɔa wò Phantom adrɛs dzi, Zcash shielded dɔwɔwɔ aɖeke mele esi o, eye Zcash gakotoku mateŋu akpɔe alo akpɔe ta o.
+- **Native ZEC** koe li le Zcash blockchain dzi eye woɖonɛ ɖe Zcash adrɛs. Be nàxɔe la, èhiã na subɔsubɔdɔ aɖe si abia wò Zcash adrɛs, abe swap le eme ene [ZODL](https://zodl.com), tiatia siwo le.. [DEX ƒe axa](/dex), alo solswap.org eye nàɖe ga le wò Zcash gakotoku me akplɔe ɖo (Afɔɖeɖe 8).
+
+### Kpɔe ɖa hafi nàxee
+
+- **Network:** ele be ZEC si nàxɔ la nanɔ **Zcash** network la dzi. Ne egblɔ be Solana, Ethereum alo Base la, ke enye dzesi.
+- **Nunɔamesi:** native ZEC mekpɔ token contract alo mint adrɛs o. Ne tɔwò ɖe ɖeka fia la, ke enye dzesi. "ZEC" dzesi siwo ɖi wo nɔewo hã sɔ gbɔ ɖe Solana dzi, eyata mègatsɔ ŋkɔa ɖeɖeko o.
+- **Adrɛs:** native ZEC yia Zcash adrɛs aɖe gbɔ, si dzea egɔme kple `t1`, `u1` or `zs`. Ne wole ZEC la ɖom ɖe wò Phantom adrɛs la, ke èle dzesi aɖe xɔm.
+
+---
+
 ##  **Afɔɖeɖe 1: Ʋu Swap Interface la** 
-Dze **Phantom app** la gɔme eye nàzi **Swap** ƒe dzesi dzi, . 
-alo yi **[solswap.org](https://solswap.org/)** tso wò Phantom web-browser dzi. 
+Dze **Phantom app** gɔme eye nàɖi tsa ayi **[solswap.org dzi](https://solswap.org/)** tso Phantom ƒe nyatakakadzraɖoƒea. Nyatakakadzraɖoƒea zɔna ɖe Near Intents dzi eye ateŋu aɖo ZEC ɖe Zcash adrɛs dzi. 
+
+Phantom ŋutɔ ƒe **Swap** ƒe abɔta hã ŋlɔ ZEC, gake ema na nèkpɔ dzesi si ŋu míeƒo nu tsoe le etame, ke menye ZEC. 
 
 
 ![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
@@ -16,7 +32,7 @@ alo yi **[solswap.org](https://solswap.org/)** tso wò Phantom web-browser dzi.
 ---
 
 ##  **Afɔɖeɖe 2: Tia Networks kple Tokens na Depositing** 
-- Tia wò **tsoƒe network** (e.g., *Ethereum* alo *Solana*) emegbe nàde ga eme hena asitɔtrɔ. 
+- Tia wò **tsoƒe network** (le kpɔɖeŋu me, *Ethereum* alo *Solana*) emegbe nàde ga eme hena asitɔtrɔ. 
 
 
 ![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
@@ -74,4 +90,17 @@ Zi **Trɔ Ðoɖowo** dzi be:
 
 ![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
-## Eyome àte ŋu adze wò [ZEC takpɔkpɔ gɔme kple mɔfiame sia](https://zechub.wiki/guides/using-zec-privately)
+---
+
+## **Afɔɖeɖe 8: Ðe Native ZEC ɖa le Wò Zcash Gakotoku me** 
+Le swap megbe la, wò ZEC adze le wò solswap.org **Account** ƒe ga si susɔ me. Megale Zcash network la dzi haɖe o, eye mele Phantom hã me o. Be nàʋui la: 
+- Ʋu Zcash gakotoku abe [ZODL](https://zodl.com) eye nàwɔ wò adrɛs si dzi nèxɔe ƒe kɔpi. Agbalẽvi si dzi woɖea ga le la xɔa (`t1`) alo ɖekawɔwɔ (`u1`) adrɛs. 
+- Le solswap.org la, yi **Account** eye nàzi **Withdraw** dzi. 
+- Tia **ZEC**, ɖo network la ɖe **Zcash**, tsɔ wò adrɛs de eme eye nàlé ŋku ɖe eŋu zi eve hafi nàɖo kpe edzi. 
+
+---
+
+## **Afɔɖeɖe siwo kplɔe ɖo** 
+Ne native ZEC nya le wò Zcash gakotoku me ko la, àte ŋu akpɔ eta kple [mɔfiame sia](/guides/using-zec-privately).  
+
+ZEC token si woƒle kple Phantom ƒe Swap button mateŋu akpɔ ta alea o, elabena mele Zcash network la dzi o. Ahiã be nàɖɔlie gbã kple ZEC gbãtɔ si woɖo ɖe Zcash adrɛs.

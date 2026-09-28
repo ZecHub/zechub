@@ -12,7 +12,7 @@ Cuaderno educativo creado por la comunidad global de Zcash.
 
 ### ZECPublish
 Red social resistente a la censura impulsada por la blockchain de Zcash. Incluye un directorio de usuarios de Zcash y un tablón de mensajes anónimo.  
-[Visitar](https://www.zecpublish.com)
+(El sitio está actualmente fuera de línea desde septiembre de 2026.)
 
 ### ZK Radio
 Estación de radio en línea para informar, educar y entretener a la comunidad de Zcash. Desarrollada por Zcash en Español y el ZKAV Club.  
@@ -46,39 +46,36 @@ Contenido educativo estructurado para nuevos usuarios y desarrolladores de Zcash
 Sitio interactivo con juegos temáticos de Zcash y eventos comunitarios en vivo.  
 [Visitar](https://zectastic.com/)
 
-### Zec App
-Aplicación móvil que reúne en un solo lugar noticias de Zcash, actividad comunitaria, información de la red, wallets, exchanges y recursos del ecosistema.  
+### ZEC App
+Aplicación móvil que reúne en un solo lugar noticias de ZEC, actividad comunitaria, información de la red, wallets, exchanges y recursos del ecosistema.  
 [Foro](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Community
 Centro comunitario para Pretty Good Policy for Zcash (PGPZ), una iniciativa de políticas públicas de Washington D.C. enfocada en efectivo digital que preserve la privacidad, cumplimiento práctico y el papel de Zcash en el interés público.  
 [Visitar](https://community.pgpz.org/)
 
-### Gleyo 
-Plataforma de participación comunitaria y recompensas diseñada para comunidades de Zcash, proyectos Web3 y organizaciones Web2. Ayuda a las comunidades a incorporar y activar miembros mediante misiones, chat y recompensas, al tiempo que permite a los usuarios ganar y retirar ZEC privados blindados.
-
+### Gleyo
+Plataforma de participación comunitaria y recompensas diseñada para comunidades de Zcash, proyectos Web3 y organizaciones Web2. Ayuda a las comunidades a incorporar y activar miembros mediante misiones, chat y recompensas, al tiempo que permite a los usuarios ganar y retirar ZEC privados blindados.  
 [Visitar](https://gleyo.app/)
 
-### Zcash Grants Hub
-Panel de subvenciones centrado en la comunidad diseñado para simplificar cómo se descubren, rastrean y revisan las subvenciones de Zcash. Reúne solicitudes de subvención, hitos, presupuestos, debates y analíticas en un solo lugar al extraer datos en vivo del repositorio de GitHub de Zcash Community Grants. La plataforma busca ofrecer una experiencia más clara y fácil de usar para solicitantes, miembros del comité y revisores de la comunidad.
-
+### Zcash Centro de subvenciones
+Panel de subvenciones centrado en la comunidad, diseñado para simplificar cómo se descubren, siguen y revisan las subvenciones de Zcash. Reúne en un solo lugar las solicitudes de subvenciones, los hitos, los presupuestos, los debates y los análisis al obtener datos en tiempo real del repositorio de Zcash Community Grants GitHub. La plataforma busca ofrecer una experiencia más clara y fácil de usar para solicitantes, miembros del comité y revisores de la comunidad.  
 [Visitar](https://staging.zgrantshub.com/)
-
 
 ---
 
 ## Wallets y Herramientas de Pago
 
-### Cipherpay
+### CipherPay
 Pagos privados para internet. Sin custodia, sin KYC. Los comerciantes reciben ZEC directamente en direcciones blindadas.  
 [Visitar](https://www.cipherpay.app/en)
 
-### Ezcash
-Wallet de Zcash multiplataforma, fácil de usar y con todas las funciones, con soporte para autoblindaje.  
-[Visitar](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
+### eZcash
+Cartera Zcash multiplataforma fácil de usar y con todas las funciones, compatible con el blindaje automático.  
+[Visita](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Wallet de Zcash enfocada en Orchard y construida para Zebrad, con soporte para transacciones totalmente blindadas y gestión segura de claves.  
+Cartera Zcash centrada en Orchard diseñada para zebrad, compatible con transacciones totalmente blindadas y gestión segura de claves.  
 [Visitar](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
@@ -114,7 +111,7 @@ Wallet de ahorro basada en objetivos construida sobre transacciones blindadas de
 [Foro](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Sucesor de Ywallet con soporte para las funciones más recientes del protocolo Zcash, incluido Orchard.  
+Sucesora de YWallet compatible con las últimas características del protocolo Zcash, incluidas Orchard.  
 [Foro](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
@@ -130,13 +127,11 @@ Plataforma de propinas en vivo sin custodia donde cada propina llega como ZEC bl
 [Visitar](https://tipz.cash/)
 
 ### CYZE
-Una wallet colaborativa y plataforma de coordinación que permite a varios miembros de un equipo gestionar juntos fondos blindados de Zcash. Usa firmas de umbral FROST, lo que permite a los grupos autorizar transacciones Orchard de forma colectiva sin dar a un solo participante el control total de la wallet.
-
+Una wallet colaborativa y plataforma de coordinación que permite a varios miembros de un equipo gestionar conjuntamente fondos protegidos de Zcash. Utiliza firmas de umbral FROST, lo que permite a los grupos autorizar colectivamente transacciones Orchard sin otorgar a un único participante el control total sobre la wallet.  
 [Visitar](https://github.com/USCMig/Cyze)
 
 ### Pendrake Watch
-Una wallet de escritorio de solo observación diseñada para personas y organizaciones que necesitan monitorear fondos blindados sin tener la capacidad de gastarlos. Soporta monitoreo de transacciones y balances, notas Orchard y Sapling, visualización de memos, valoración histórica en fiat, notificaciones de transacciones, cifrado de la wallet y funciones de pantalla compartida centradas en la privacidad.
-
+Una wallet de escritorio de solo visualización diseñada para personas y organizaciones que necesitan monitorear fondos blindados sin tener la capacidad de gastarlos. Permite el monitoreo de transacciones y saldos, Orchard y Sapling notas, visualización de memos, valoración histórica en moneda fiduciaria, notificaciones de transacciones, cifrado de la wallet y funciones para compartir pantalla centradas en la privacidad.  
 [Visitar](https://github.com/auzum197/pendrake-watch)
 
 ---
@@ -168,7 +163,7 @@ Mapa global de negocios y ubicaciones que aceptan Zcash.
 [Visitar](https://zecmap.com/)
 
 ### ZECping
-Herramienta para comprobar los tiempos de respuesta gRPC de los nodos Lightwalletd de Zcash.  
+Herramienta para comprobar los tiempos de respuesta gRPC de los nodos Zcash lightwalletd.  
 [Visitar](https://github.com/emersonian/zecping)
 
 ### ZecStats
@@ -184,20 +179,16 @@ Directorio para encontrar enlaces, herramientas e información sobre el ecosiste
 [Visitar](https://zlink.click)
 
 ### Zecmarket
-El marketplace con enfoque en la privacidad del ecosistema de Zcash. Los pagos se liquidan directamente y la plataforma nunca retiene tus fondos.
-
+El marketplace centrado en la privacidad del ecosistema Zcash. Los pagos se liquidan directamente y la plataforma nunca retiene tus fondos.  
 [Visitar](https://zecmarket.org/)
 
 ### Zecsite
-Un sitio web estático centrado en la privacidad que reúne noticias, estadísticas y contenido educativo de Zcash sin usar JavaScript.
-
-[Visitar](https://zecsite.org/netscape/en/index.html)
-
+Un sitio web estático centrado en la privacidad que recopila noticias, estadísticas y contenido educativo de Zcash sin usar JavaScript.  
+[Visitar](https://zecsite.org/netscape/en/index.html)  
 [Foro](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
 ### ZEC-OS
-Una interfaz de escritorio de estilo retro que combina varias herramientas e información del ecosistema de Zcash en una sola aplicación. Incluye un explorador de blockchain, visor de mempool, estadísticas de red, gráficos históricos, información del pool blindado, herramientas de minería, un decodificador de Unified Address, calculadora, juegos, terminal y otras utilidades.
-
+Una interfaz de escritorio de estilo retro que combina diversas herramientas e información del ecosistema de Zcash en una sola aplicación. Incluye un explorador de blockchain, visor de mempool, estadísticas de red, gráficos históricos, información sobre los pools blindados, herramientas de minería, un decodificador de Unified Address, calculadora, juegos, terminal y otras utilidades.  
 [Visitar](https://www.zec-os.com/)
 
 ---
@@ -225,18 +216,15 @@ Bandeja de entrada de correo electrónico desechable pagada con ZEC blindado.
 [Visitar](https://ztrash.com/)
 
 ### LiveZEC
-Una plataforma de propinas para streamers centrada en la privacidad que permite a los espectadores enviar ZEC blindado directamente a la wallet de autocustodia de un streamer.
-
+Una plataforma de propinas centrada en la privacidad para streamers que permite a los espectadores enviar ZEC blindado directamente a la wallet de autocustodia de un streamer.  
 [Visitar](https://zec.live/)
 
 ### ZecLedger
-Una herramienta de seguimiento financiero y contabilidad para Zcash que preserva la privacidad. Combina un panel público para datos transparentes de la red con contabilidad privada local que usa viewing keys sin exponerlas, ayudando a los usuarios a rastrear balances, historial de transacciones, precio de adquisición y, eventualmente, presupuestos y reportes listos para impuestos, mientras mantiene sus fondos seguros y privados.
-
+Una herramienta de seguimiento financiero y contabilidad que preserva la privacidad para Zcash. Combina un panel público con datos transparentes de la red y una contabilidad privada local que utiliza claves de visualización sin exponerlas, ayudando a los usuarios a seguir los saldos, el historial de transacciones, la base de coste y, eventualmente, la elaboración de presupuestos y reportes listos para impuestos, mientras mantiene sus fondos seguros y privados.  
 [Visitar](https://zecledger-web.vercel.app/)
 
-### Authentication with ZcashMe
-Un sistema de autenticación centrado en la privacidad que usa transacciones blindadas de Zcash como mecanismo de inicio de sesión. Los usuarios escanean un código QR y envían una pequeña transacción de autenticación.
-
+### Autenticación con ZcashMe
+Un sistema de autenticación centrado en la privacidad que utiliza transacciones blindadas Zcash como mecanismo de inicio de sesión. Los usuarios escanean un código QR y envían una pequeña transacción de autenticación.  
 [Visitar](https://github.com/zcashme/zns-login)
 
 ---
@@ -251,13 +239,13 @@ Suite de pruebas de red para desarrolladores de zcashd y Zebra. Incluye un rastr
 Toolkit con enfoque en Linux que levanta una red regtest de Zebra con faucet, fixtures de Unified Address y lightwalletd o Zaino, además de GitHub Actions reutilizables para flujos blindados de extremo a extremo.  
 [Visitar](https://github.com/zecdev)
 
-### Zebra Coverage-Guided Fuzzing Infrastructure
-Pruebas sistemáticas de los componentes de análisis, red y criptografía de Zebra frente a entradas malformadas.  
+### Zebra Infraestructura de fuzzing guiado por cobertura
+Pruebas sistemáticas de los componentes de análisis, red y criptográficos de Zebra frente a entradas malformadas.  
 [Foro](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-### Frost
-Esquema de firmas de umbral (FROST) cuyo trabajo está avanzando para una adopción más amplia en el ecosistema de Zcash.  
-[Artículo](https://eprint.iacr.org/2020/852)
+### FROST
+Trabajo en el esquema de firma de umbral (FROST) que se está impulsando para una adopción más amplia en el ecosistema de Zcash.  
+[Documento](https://eprint.iacr.org/2020/852)
 
 ### MonteZcret Benchmark
 Proyecto open-source de pruebas de rendimiento que evalúa distintos métodos para sincronizar datos de la blockchain de Zcash.  
@@ -275,8 +263,8 @@ Modelo cooperativo y ascendente de organización empresarial construido sobre Zc
 Infraestructura nativa de Zcash para crédito y votación enfocada en divulgación selectiva, preparación para liquidación, reputación transfronteriza y gobernanza blindada.  
 [Visitar](https://voting.zkglobalcredit.tech/)
 
-### Free2z
-Herramienta para creación de contenido anónimo y donaciones privadas impulsada por Zcash.  
+### Free2Z
+Herramienta para la creación de contenido anónimo y donaciones privadas impulsada por Zcash.  
 [Visitar](https://free2z.cash)
 
 ### Rhea Finance
@@ -288,7 +276,7 @@ DEX nativo de Zcash que lleva ZEC blindado a Web3 DeFi mediante WalletConnect.
 [Foro](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
 ### DCRDEX
-Exchange descentralizado de Decred que soporta Zcash.  
+El exchange descentralizado de Decred compatible con Zcash.  
 [Visitar](https://dex.decred.org)
 
 ### Brave Wallet
@@ -296,15 +284,12 @@ Wallet de navegador con soporte para Zcash.
 [Visitar](https://brave.com/wallet/)
 
 ### Nano-GPT
-Plataforma de IA que proporciona acceso a múltiples modelos líderes de IA mientras admite pagos con criptomonedas, incluido Zcash.
-
+Plataforma de IA que proporciona acceso a múltiples modelos líderes de IA y admite pagos con criptomonedas, incluido Zcash.  
 [Visitar](https://nano-gpt.com/conversation/new)
 
 ### zk.poker
-Una plataforma de póker peer-to-peer que combina cifrado de extremo a extremo, póker mental y tecnología de privacidad de Zcash. Está diseñada para que el operador no necesite conocer las cartas de los jugadores ni retener directamente los fondos de las apuestas.
-
+Una plataforma de póker peer-to-peer que combina cifrado de extremo a extremo, póker mental y tecnología de privacidad de Zcash. Está diseñada para que el operador no necesite conocer las cartas de los jugadores ni custodiar directamente los fondos de las apuestas.  
 [Visitar](https://zkbtc.org/)
-
 
 ---
 

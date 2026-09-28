@@ -13,6 +13,8 @@
 - Zcash nam nhwehwɛmu, ZIPs, ne nkɔsoɔ ho nsusuiɛ te sɛ ZIP 2005 ne Project Tachyon so reyɛ ahosiesie.
 - Ɛsɛ sɛ quantum akyi atutra a ahobammɔ wom bɔ sika, kokoam nsɛm, sika kotoku, nsakrae, ne mmara a wɔpene so ho ban bere koro mu.
 
+Sɛ wopɛ nea Ironwood sesaa ne date a ɛwɔ afã biara mu a, hwɛ [So Zcash yɛ nea ɛwɔ Quantum akyi?](/zcash-tech/is-zcash-post-quantum).
+
 ## Dɛn Ne Quantum Kɔmputa?
 
 Kɔmputa a ɛyɛ daa de nsɛm sie sɛ bits. Bit biara yɛ emu biara `0` or `1`.
@@ -29,10 +31,10 @@ Blockchains de cryptography di dwuma ma nnwuma ahorow pii:
 
 | Adwinnade a wɔde kyerɛw nsɛm a wɔde kyerɛw nsɛm | Nea ɛyɛ | Quantum nkɛntɛnso |
 | --- | --- | --- |
-| Digitals nsaano nkyerɛwee | Da no adi sɛ owura no ama kwan sɛ ɔsɛe sika | Asiane kɛse ma elliptic-curve nhyehyɛe a wɔtaa de di dwuma |
-| Hash dwumadie ahodoɔ | Si address, bɔhyɛ, Merkle nnua, ne nsɛnnennen | Asiane a ɛba fam, nanso ahobammɔ ho margins ho hia |
-| Zero-nimdeɛ adanseɛ | Da no adi sɛ shielded transactions yɛ nokware a wonda nsɛm a ɛkɔ akyiri adi | Egyina adanse nhyehyɛe ne nsusuwii ahorow so |
-| Key apam | Boa sika kotoku ma encrypt note data ma receivers | Ɛhia sɛ wɔhwɛ mu yie wɔ quantum threat model ase |
+| Digitals nsaano nkyerɛwee | Da no adi sɛ owura no maa kwan sɛ ɔsɛe sika | Asiane kɛse ma elliptic-curve nhyehyɛe ahorow a wɔtaa yɛ no |
+| Hash dwumadie ahodoɔ | Si address, bɔhyɛ, Merkle nnua, ne nsɛnnennen | Asiane a ɛba fam, nanso ahobammɔ ho mfaso ho hia |
+| Adanse a nimdeɛ nnim | Da no adi sɛ shielded transactions yɛ nokware a wonna nsɛm a ɛkɔ akyiri adi | Egyina adanse nhyehyɛe ne nsusuwii ahorow so |
+| Apam titiriw | Boa sika kotoku ma encrypt note data ma receivers | Ɛhia sɛ wɔsan hwɛ mu yiye wɔ quantum threat model ase |
 
 Quantum kɔmputa a ahoɔden wom sɛnea ɛsɛ betumi de nsaano nkyerɛwee nhyehyɛe pii a wɔde di dwuma nnɛ ato asiane mu, a elliptic-curve nsaano nkyerɛwee ka ho. Eyi ho hia efisɛ nsaano nkyerɛwee ne nea ɛma network no hu sɛ wɔde safe a ɛfata maa asɛm bi ho kwan.
 
@@ -65,13 +67,13 @@ Blockchains a ɛda adi pefee da nsɛm pii adi denam nhyehyɛe so. Address, sika 
 
 Eyi yɛ ade biako nti a address a wɔsan de di dwuma no pira. Sɛ wɔsan de di dwuma bio ma wɔn a wɔhwɛ nneɛma no nya data pii a wɔde bɛka ho nnɛ na ɛma daakye ntuafo nya abakɔsɛm mu nsɛm pii a wɔbɛhwehwɛ mu.
 
-## Dɛn na Ɛyɛ soronko wɔ Zcash ho?
+## Dɛn na Ɛyɛ soronko wɔ Zcash?
 
 Zcash boa nnwuma a ɛda adi pefee ne nea wɔabɔ ho ban nyinaa.
 
 Transparent Zcash yɛ adwuma kɛse te sɛ Bitcoin-style ɔmanfo blockchain dwumadie. Address ahorow, sika dodow, ne abusuabɔ a ɛda aguadi ntam no da adi.
 
-Shielded Zcash yɛ soronko. Shielded transactions de zero-knowledge proofs di dwuma enti network no betumi ahwɛ sɛ asɛm bi di mmara no akyi a ɛnkyerɛ nea ɔde kɔmaa, nea ogye, anaa sika dodow.
+Shielded Zcash yɛ soronko. Shielded transactions de zero-knowledge proofs di dwuma sɛnea ɛbɛyɛ a network no betumi ahwɛ sɛ asɛm bi di mmara no akyi a ɛnkyerɛ nea ɔde kɔmaa, nea ogye, anaa sika dodow.
 
 Wei ma Zcash nya kokoamsɛm mu mfasoɔ a ɛho hia:
 
@@ -88,34 +90,34 @@ Nkyerɛase tiawa no:
 
 ## Zcash Asiane Ho Mfonini
 
-| Mpɔtam hɔ | Beginner nkyerɛkyerɛmu | Post-quantum dadwen |
+| Beaeɛ | Nkyerɛkyerɛmu a wɔde ma wɔ mfiase | Quantum akyi dadwen |
 | --- | --- | --- |
-| Address ahorow a ɛda adi pefee | Ɔmanfoɔ address ne ɔmanfoɔ nkitahodiɛ graph | Asiane a ɛte saa ara a ɛwɔ blockchains afoforo a ɛda adi pefee so |
-| Sika a wɔde di dwuma ho tumi krataa | Adanse a ɛkyerɛ sɛ wɔma obi a ɔde di dwuma sɛ ɔsɛe | Ebia ɛho behia sɛ wɔde nsaano nkyerɛwee nhyehyɛe ahorow besi ananmu anaasɛ wotu kɔ baabi foforo |
-| Nsɛm a wɔakyerɛw a wɔabɔ ho ban | Ankorankoro kyerɛwtohɔ ahorow a ɛsom bo wɔ shielded pools mu | Ebia nneɛma bi behia nsusuwii foforo anaasɛ nnwinnade a wɔde san nya ahoɔden |
-| zk-SNARKs | Adanse a ɛkyerɛ sɛ nnwuma a wɔabɔ ho ban no yɛ nokware | Adanse-nhyehyɛe nsusuwii ahorow hia sɛ wɔsan hwɛ mu |
-| Wallet scanning a wɔde hwehwɛ nneɛma mu | Sɛnea sika kotoku hwehwɛ na decrypt nsɛm a wɔagye | Key apam ne note encryption hia sɛ wɔsan hwɛ mu |
-| Tukɔ foforo | Sika a wɔde bɛkɔ cryptography a ahobammɔ wom so | Ɛsɛ sɛ wokwati sika a wɔhwere ne kokoam nsɛm a ɛbɛtwetwe |
+| Address ahorow a ɛda adi pefee | Ɔmanfo address ne ɔmanfo nkitahodi ho mfonini | Asiane a ɛte saa ara a ɛwɔ blockchains afoforo a ɛda adi pefee so |
+| Fa tumi krataa di dwuma | Adanse a ɛkyerɛ sɛ wɔma obi a ɔde di dwuma sɛ ɔsɛe sika | Ebia ɛho behia sɛ wɔsesa nhyehyɛe ahorow a wɔde wɔn nsa hyɛ ase anaasɛ wotu kɔ baabi foforo |
+| Nsɛm a wɔakyerɛw a wɔabɔ ho ban | Ankorankoro kyerɛwtohɔ ahorow a ɛkyerɛ bo a ɛsom wɔ atare a wɔabɔ ho ban mu | Ebia nneɛma bi a ɛwom no behia nsusuwii foforo anaa nnwinnade a wɔde bɛsan anya ahoɔden |
+| zk-SNARKs | Adanse a ɛkyerɛ sɛ nnwuma a wɔabɔ ho ban no yɛ nokware | Adanse nhyehyɛe ho nsusuwii ahorow hia sɛ wɔsan hwɛ mu |
+| Wallet a wɔde hwehwɛ nneɛma mu | Sɛnea sika kotoku hwehwɛ na decrypt nsɛm a wɔagye | Key agreement ne note encryption hia sɛ wɔsan hwɛ mu |
+| Tukɔ a wotu kɔtra mmeae foforo | Sika a wɔde bɛkɔ cryptography a ahobammɔ wom so | Ɛsɛ sɛ wokwati sika a wɔhwere ne kokoam nsɛm a ɛbɛtwetwe nyinaa |
 
-## Sɛnea Zcash Resiesie ne ho
+## Sɛnea Zcash Resiesie Ne Ho
 
 ### Zcash Wɔ Network Upgrade Adeyɛ
 
-Zcash asesa ne cryptography pɛn. Sapling maa ɛyɛɛ mmerɛw sɛ wɔde bedi dwuma wɔ aguadi a wɔabɔ ho ban mu. NU5 de Orchard, Unified Addresses, ne Halo 2 bae.
+Zcash asesa ne cryptography pɛn. Sapling maa ɛyɛɛ mmerɛw sɛ wɔde bedi dwuma wɔ nnwuma a wɔabɔ ho ban mu. NU5 de Orchard, Unified Addresses, ne Halo 2 bae.
 
 Eyi ho hia efisɛ post-quantum ahoboa nyɛ software patch a ɛwɔ line biako. Ɛhwehwɛ sɛ wɔyɛ ntwamutam a wɔayɛ no biako, wɔsesa sika kotoku, wɔyɛ akontaabu, ne bere a wɔde bɛma wɔn a wɔde di dwuma no atu akɔtra baabi foforo.
 
 Zcash nkɔsoɔ a atwam no kyerɛ sɛ abɔdeɛ a nkwa wom no wɔ osuahu a ɛfiri cryptography dedaw mu kɔ nsusuiɛ foforɔ so.
 
-### Halo And Orchard Reduced Older Assumptions
+### Halo Ne Orchard Tew Nsusuwii Dedaw So
 
-Halo 2 no na Orchard, Zcash nnɛyi ɔtare a wɔabɔ ho ban no de di dwuma. Nkɔsoɔ baako a ɛho hia ne sɛ Halo yii hia a ɛhia sɛ wɔyɛ nhyehyɛeɛ a wɔgye di ma Orchard adanseɛ nhyehyɛeɛ no.
+Halo 2 no na Orchard, Zcash's nnɛyi ɔtare a wɔabɔ ho ban no de di dwuma. Nkɔsoɔ baako a ɛho hia ne sɛ Halo yii hia a ɛhia sɛ wɔyɛ nhyehyɛeɛ a wɔgye di ma Orchard adanseɛ nhyehyɛeɛ no.
 
 Ɛno ne ahobammɔ a ɛba wɔ quantum akyi no nyɛ ade koro. Ɛda so ara fata efisɛ ɛkyerɛ sɛ Zcash betumi asi cryptographic adansi nneɛma atitiriw ananmu bere a nsusuwii a eye kyɛn so wɔ hɔ no.
 
 ### ZIP 2005 Twe adwene si Quantum Recoverability so
 
-ZIP 2005 no asɛmti ne "Orchard Quantum Recoverability." Ɛhyɛ nsakraeɛ a wɔayɛ sɛ wɔde bɛboa Orchard dwumadiefoɔ ma wɔasan anya sika anaasɛ wɔatu akɔtena baabi foforɔ ho nyansa sɛ quantum ntua a wɔde tia nsusuiɛ dedaw no bɛyɛ nea mfasoɔ wɔ so a.
+ZIP 2005 no asɛmti ne "Orchard Quantum Recoverability." Ɛhyɛ nsakrae a wɔayɛ sɛ wɔde bɛboa Orchard dwumadiefoɔ ma wɔasan anya sika anaasɛ wɔatu akɔtena baabi foforɔ ho nyansa sɛ quantum ntua a wɔde tia nsusuiɛ dedaw no bɛyɛ nea mfasoɔ wɔ so a.
 
 Recoverability nyɛ ade koro ne post-quantum ahobammɔ a edi mũ. Ɛyɛ teateaa na ɛda so ara wɔ mfaso:
 
@@ -128,7 +130,7 @@ Wɔ wɔn a wɔrefi ase fam no, susuw eyi ho sɛ nhyehyɛe a wɔde fi mu ntɛm ar
 
 Project Tachyon yɛ Zcash nkɔsoɔ a wɔahyɛ ho nyansa a ɛtwe adwene si scale, sync, ne state nkɔsoɔ so. Ne baguam beae no ka sɛ nyansahyɛ no botae ne sɛ ɛbɛtew nkitahodi so, atew validator state nkɔso so, na wɔanya post-quantum kokoamsɛm a edi mũ sɛ nea efi mu ba.
 
-Esiane sɛ Tachyon yɛ nyansahyɛ nti, ɛda so ara gyina mfiridwuma adwuma, nhwehwɛmu, ne mpɔtam hɔfo pene so ansa na wɔayɛ adwuma. Wɔte ase yiye sɛ Zcash nhwehwɛmu a ɛyɛ nnam ne nkɔso akwankyerɛ no fã, ɛnyɛ sɛ ade a wɔn a wɔde di dwuma no wɔ dedaw nnɛ.
+Esiane sɛ Tachyon yɛ nyansahyɛ nti, ɛda so ara gyina mfiridwuma adwuma, nhwehwɛmu, ne mpɔtam hɔfo pene so ansa na wɔayɛ adwuma. Wɔte ase yiye sɛ Zcash's nhwehwɛmu a ɛyɛ nnam ne nkɔso akwankyerɛ no fã, ɛnyɛ sɛ ade a wɔn a wɔde di dwuma no wɔ dedaw nnɛ.
 
 ### Nhwehwɛmu Ne Gyinapɛn Rekɔ
 
@@ -144,7 +146,7 @@ Ebia awiei koraa no Zcash behia sika a wɔsɛe no ho tumi krataa a ɛnmfa ne ho 
 
 Eyi betumi de post-quantum signatures, hybrid signatures, anaa adwini foforo adi dwuma. Hybrid design de classical ne post-quantum checks nyinaa di dwuma wɔ nsakrae bere mu, enti nhyehyɛe no nnyina adwene biako pɛ so.
 
-Asɛnnennen no ne ne kɛse ne ɛka a wɔbɔ. Quantum akyi nsaano nkyerɛwee betumi ayɛ kɛse asen nnɛyi nsaano nkyerɛwee, a ɛka asɛm no kɛse, bandwidth, sika a wɔbɔ, mobile sika kotoku, ne hardware sika kotoku.
+Asɛnnennen no ne ne kɛse ne ɛka a wɔbɔ. Quantum akyi nsaano nkyerɛwee betumi ayɛ kɛse asen nnɛyi nsaano nkyerɛwee, a ɛka asɛm no kɛse, bandwidth, ɛka, mobile sika kotoku, ne hardware sika kotoku.
 
 ### Address Foforo Ne Key Formats
 
@@ -167,7 +169,7 @@ Migration yɛ nea ɛyɛ mmerɛw titiriw ma Zcash. Sɛ nnipa pii a wɔde di dwuma
 
 ### Post-Quantum Adanse Nhyehyɛe Nhwehwɛmu
 
-Nsaano nkyerɛwee a wɔde besi ananmu no nnɔɔso. Zcash shielded design nso gyina zero-nimdeɛ adanse ne bɔhyɛ ahorow so.
+Nsaano nkyerɛwee a wɔde besi ananmu no nnɔɔso. Zcash's shielded design nso gyina zero-nimdeɛ adanse ne bɔhyɛ ahorow so.
 
 Ebia ɛho behia sɛ wɔsan hwɛ adwuma a wɔbɛyɛ daakye mu anaasɛ wɔsesa:
 
@@ -191,7 +193,7 @@ Post-quantum cryptography te sɛ nea wɔde adwini bi a wɔnhwɛ kwan sɛ adwinna
 
 Wɔ blockchain fam no, ɛyɛ den sɛ wobɛsesa lock no efisɛ ɛsɛ sɛ wallet, node, exchange, ne hardware device biara te adwini foforo no ase.
 
-### Nhwɛso 2: Ɔmanfo Nkrataa Adaka
+### Nhwɛso 2: Ɔmanfo Krataa Adaka
 
 Blockchain data a ɛda adi pefee te sɛ nea wode krataa biara a wogye to ɔmanfo adaka mu daa. Sɛ obiara ntumi nkenkan nhwɛso biara nnɛ mpo a, ebia daakye nnwinnade besua pii akyiri yi.
 
@@ -234,7 +236,7 @@ Nsɛnnennen a ɛtaa ba no bi ne:
 - Privacy leaks bere a woretu akɔtra baabi foforo no
 - Mpɔtam hɔfo apam a ɛfa nsakrae a wɔpene so ho
 
-Wɔ Zcash fam no, ɛnyɛ nea ɛyɛ den sen biara ne sɛ wɔbɛma sika a wɔde asie no akɔ so ayɛ nea wobetumi asɛe no nko. Ɔfã a ɛyɛ den ne sɛ wobɛma sika akɔ so asɛe bere a wokora kokoamsɛm a ɛma Zcash yɛ soronko no so.
+Wɔ Zcash, ɛnyɛ nea ɛyɛ den sen biara ne sɛ wɔbɛma sika a wɔde asie no akɔ so ayɛ nea wobetumi asɛe no nko. Ɔfã a ɛyɛ den ne sɛ wobɛma sika akɔ so asɛe bere a wokora kokoamsɛm a ɛma Zcash yɛ soronko no so.
 
 ## Tɔfabɔ
 
@@ -242,14 +244,15 @@ Awiei koraa no, quantum kɔmputa ahorow betumi de cryptography ahorow bi a block
 
 Zcash nyɛ post-quantum koraa nnɛ. Nanso, Zcash wɔ ahoɔden a mfasoɔ wɔ so: nnwuma a wɔabɔ ho ban no brɛ ɔmanfoɔ a wɔda wɔn ho adi no ase, ntwamutam no wɔ abakɔsɛm a ɛfa cryptographic upgrades ho, na mprempren nhwehwɛmu te sɛ ZIP 2005 ne Project Tachyon de wɔn ani asi daakye quantum asiane so dedaw.
 
-Wɔ wɔn a wɔrefi ase no fam no, adwene titiriw no yɛ mmerɛw: kokoamsɛm nnɛ ma daakye data a wɔbɛda no adi no so tew, na sɛ wɔde ahwɛyiye yɛ no foforo a, ebetumi aboa Zcash ma wakɔ quantum-era ahobammɔ a emu yɛ den so a wɔmfa dwumadie mmɔ afɔre.
+Wɔ wɔn a wɔrefi ase no fam no, adwene titiriw no yɛ mmerɛw: kokoamsɛm nnɛ ma daakye data a wɔbɛda no adi no so tew, na ahwɛyiye a wɔde bɛma no betumi aboa Zcash ma wakɔ quantum-era ahobammɔ a emu yɛ den so a wɔmfa dwumadie mmɔ afɔre.
 
 ## Nkratafa a Ɛfa Ho
 
-- [Atare a Wɔabɔ ho Ban](/using-zcash/shielded-pools) - sedee Zcash shielded transactions bɔ nkitahodi ho nsɛm ho ban
-- [Halo](/zcash-tech/halo) - Zcash adanse nhyehyɛe a enni nhyehyɛe a wogye di
+- [So Zcash yɛ nea ɛwɔ Quantum akyi?](/zcash-tech/is-zcash-post-quantum) - dee Ironwood sesaa, nea ɛda so ara da adi, ne status table a wɔakyerɛw date
+- [Atare a Wɔabɔ Ho Ban](/using-zcash/shielded-pools) - sedee Zcash shielded transactions bɔ nkitahodi ho nsɛm ho ban
+- [Halo](/zcash-tech/halo) - Zcash's adanse nhyehyɛe a enni nhyehyɛe a wogye di
 - [ZKP & ZK-SNARKS NKYERƐKYERƐMU](/zcash-tech/zk-snarks) - sedee zero-nimdee adansedie ye adwuma wo Zcash mu
-- [Nsafe a Wɔde Hwɛ](/zcash-tech/viewing-keys) - sedee selective disclosure yɛ adwuma ma shielded Zcash
+- [Nneɛma a Wɔde Hwɛ Nneɛma](/zcash-tech/viewing-keys) - sedee selective disclosure yɛ adwuma ma shielded Zcash
 - [Zcash Shielded Agyapadeɛ](/zcash-tech/zcash-shielded-assets) - Daakye agyapadeɛ a wɔabɔ ho ban ne ankorankoro agyapadeɛ mmoa
 - [Kokoamsɛm sɛ Nnyinasosɛm Titiriw](/privacy/privacy-as-a-core-principle) - a enti a sikasm mu kokoamsɛm ho hia
 
@@ -258,6 +261,6 @@ Wɔ wɔn a wɔrefi ase no fam no, adwene titiriw no yɛ mmerɛw: kokoamsɛm nnɛ
 - [NIST: Wodii kan wiee post-quantum encryption gyinapɛn ahorow](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards)
 - [NIST Akyi Quantum Cryptography Dwumadie](https://csrc.nist.gov/projects/post-quantum-cryptography)
 - [ZIP 2005: Orchard Quantum Recoverability](https://zips.z.cash/zip-2005)
-- [Adwuma a Wɔyɛe Tachyon](https://tachyon.z.cash/)
+- [Dwumadie Tachyon](https://tachyon.z.cash/)
 - [Zcash Protocol no ho nkyerɛkyerɛmu](https://zips.z.cash/protocol/protocol.pdf)
 - [Halo 2 Nhoma no](https://zcash.github.io/halo2/)
