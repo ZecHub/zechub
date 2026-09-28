@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Website: https://flyp.me/en/#/
-- Description: The Flyp.me accountless exchanger and the FYP Token were born to protect privacy, promote decentralisation, support grassroot ownership and foster a community believing in consensus.
+- Description: The flyp.me accountless exchanger and the FYP Token were born to protect privacy, promote decentralisation, support grassroot ownership and foster a community believing in consensus.
 
 ___
 
