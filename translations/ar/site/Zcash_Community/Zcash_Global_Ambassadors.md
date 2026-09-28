@@ -39,5 +39,5 @@
 ## قدّم طلبًا لتصبح سفيرًا
 
 يمكنك أيضًا المشاركة من خلال:
-- المساهمة في مكافآت [ZecHub DAO](https://app.dework.xyz/zechub-2424)
+- المساهمة في مكافآت [ZEC](https://bounties.zechub.wiki/)
 - الانضمام إلى [Zcash Global Discord](https://discord.gg/zcash)

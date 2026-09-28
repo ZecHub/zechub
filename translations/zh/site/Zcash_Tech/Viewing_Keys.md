@@ -108,10 +108,11 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 
 请按需使用 viewing key，并优先选择能够回答所问问题的范围最窄的密钥。
 
-- [ZIP 326：NU6.3 对 Wallet 的影响](https://zips.z.cash/zip-0326) — viewing key 如何跨 Orchard 和 Ironwood 资金池运作
+- [支付披露](/zcash-tech/payment-disclosures) - 在不授予对账户持续访问权限的情况下，证明一笔付款的选定详情
+- [ZIP 326：NU6.3 对钱包的影响](https://zips.z.cash/zip-0326) — viewing key 如何跨 Orchard 和 Ironwood 资金池运作
 - [ZIP 229：版本 6 交易格式](https://zips.z.cash/zip-0229) — 定义 Orchard 和 Ironwood 资金池
 - [Zallet 更新日志](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — 哪个版本添加了哪个 RPC 方法
 - [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — 支持的账户和密钥类型
-- [ECC，Viewing Key 说明](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC，说明 Viewing Key](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC，选择性披露与 Viewing Key](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC，Zcash Viewing Key 视频演示](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+- [ECC，Zcash Viewing Key视频演示](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

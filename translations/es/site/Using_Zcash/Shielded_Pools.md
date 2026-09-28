@@ -37,7 +37,7 @@ A medida que Zcash evoluciona, pueden introducirse nuevos pools blindados para m
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Fig. 1: Un gráfico que muestra los 4 pools actuales a octubre de 2025
+Fig. 1: Un gráfico que muestra los tres pools blindados (Sprout, Sapling y Orchard) hasta el 29 de octubre de 2025, antes de la activación de Ironwood
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Fig. 2: Un gráfico que muestra el pool Orchard a octubre de 2025
+Fig. 2: Un gráfico que muestra el pool Orchard hasta el 29 de octubre de 2025, antes de la activación de Ironwood
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Fig. 3: Un gráfico que muestra el pool Sapling a octubre de 2025
+Fig. 3: Un gráfico que muestra el pool Sapling hasta el 29 de octubre de 2025, antes de la activación de Ironwood
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Fig. 4: Un gráfico que muestra el pool Sprout a octubre de 2025
+Fig. 4: Un gráfico que muestra el pool Sprout hasta el 29 de octubre de 2025, antes de la activación de Ironwood
 
 Sprout fue el primer protocolo de privacidad Zero Knowledge abierto y sin permisos que se lanzó. Fue lanzado el 28 de octubre de 2016.
 
@@ -113,7 +113,7 @@ A medida que el ecosistema de Zcash continuó expandiéndose con un número crec
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Fig. 5: Un gráfico que muestra el pool Transparent a octubre de 2025
+Fig. 5: Un gráfico que muestra el pool Transparent hasta el 29 de octubre de 2025, antes de la activación de Ironwood
 
 <br/>
 
@@ -184,5 +184,5 @@ Consulta [Ironwood](/zcash-tech/ironwood) para la actualización en sí, y [The 
 - [Wallets](/using-zcash/wallets) — Qué wallets se mantienen y están listas para Ironwood
 - [Transacciones](/using-zcash/transactions) — Cómo enviar transacciones blindadas
 - [Comprar ZEC](/using-zcash/buying-zec) — Adquirir ZEC antes de usarlo en pools
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — La base criptográfica de los pools blindados
+- [zk-SNARKs](/zcash-tech/zk-snarks) — La base criptográfica de los pools blindados
 - [Qué son ZEC y Zcash](/start-here/what-is-zec-and-zcash) — Contexto sobre la privacidad de Zcash

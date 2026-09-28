@@ -185,13 +185,13 @@ Quelques simplifications ont permis de garder cela lisible. Nous avons utilisé 
 
 | Terme | Signification en français courant |
 |---|---|
-| **Courbe elliptique** | Points satisfaisant `y^2 = x^3 + ax + b`, avec une « addition » spéciale des points |
-| **Addition de points** | La règle de la corde et de la tangente : droite passant par deux points, prendre la troisième intersection, réfléchir |
-| **Point à l'infini (`O`)** | Le « zéro » de la courbe ; l'ajouter ne change rien |
-| **Générateur (`G`)** | Un point de base dont les multiples finissent par couvrir tout le groupe |
-| **Multiplication scalaire (`kG`)** | Additionner `G` à lui-même `k` fois ; facile dans le sens direct, difficile à inverser |
+| **Elliptic curve** | Points satisfaisant `y^2 = x^3 + ax + b`, avec une « addition » spéciale des points |
+| **Point addition** | La règle de la corde et de la tangente : droite passant par deux points, prendre la troisième intersection, réfléchir |
+| **Point at infinity (`O`)** | Le « zéro » de la courbe ; l'ajouter ne change rien |
+| **Generator (`G`)** | Un point de base dont les multiples finissent par couvrir tout le groupe |
+| **Scalar multiplication (`kG`)** | Additionner `G` à lui-même `k` fois ; facile dans le sens direct, difficile à inverser |
 | **ECDLP** | Le problème difficile consistant à retrouver `k` à partir de `kG` ; le fondement de la sécurité |
-| **Engagement de Pedersen** | `v.G + r.H` ; une enveloppe scellée qui cache, lie et s'additionne |
+| **Pedersen commitment** | `v.G + r.H` ; une enveloppe scellée qui cache, lie et s'additionne |
 
 ---
 

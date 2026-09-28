@@ -10,7 +10,7 @@ Mɔ̃ɖaŋununya ƒe ɣeyiɣi siwo wowɔna edziedzi siwo ƒo nu tso Zcash ƒe ɖ
 
 Nusiwo kplɔ wo nɔewo ɖo la lɔ deep-dives siwo le wo ɖokui si kple **Protocol Study** sub-series si le edzi yim (Zcash Protocol Specification ƒe nuxexlẽ si wofia mɔe) siaa ɖe eme.
 
-[Zcash Engineering Office Gaƒoƒo ƒe Haƒoƒo ƒe xexlẽdzesi](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
+[Zcash Engineering Office Hours xexlẽdzesi](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

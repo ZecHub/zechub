@@ -121,7 +121,7 @@ The Zcash Foundation publicly welcomed the project, noting that Zebra was releas
 
 Eyi jẹ ipilẹ ti o gbẹkẹle Iboju iboji ati ohun elo fun UX apamọwọ ikọkọ to yara.
 
-### Igi irin ati Ẹ̀rọ NU7
+### Ironwood ati Imọ-ẹrọ NU7
 
 Valar Group je ara ti June 2026 apapọ ifaramọ to Ironwood ati ki o si fi ipa ninu awọn idajọ-igbimọ imuse ati onibara ise ni ayika titun pool. O tun ṣiṣẹ NU7 testnet amayederun, pẹlu darapo iwe afọwọkọ ati gbangba nodes gbalejo labẹ aarin ajo fun irufẹ kan bi ile igbimọ oludari lati ṣe iwadii ohun elo lori rẹ nlo nipa lilo ọna asopọ ayelujara (NAS) lati mu wọn jade kuro ninu awọn oniwe-aaye data. `nu7.valargroup.dev`.
 

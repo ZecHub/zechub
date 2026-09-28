@@ -1,4 +1,4 @@
-# Zcash Labs me dɔwɔƒewo
+# Zcash Labs
 
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/313788363?s=200&v=4" alt="Logo Zcash Labs" width="320" />
@@ -226,7 +226,7 @@ To mɔnu sia dzi la, Zcash Labs ƒe taɖodzinue nye be yeana mɔ si zɔ tẽ wu 
 
 ## Nuŋlɔɖiawo
 
-[Zcash Labs me dɔwɔƒewo](https://zcashlabs.org/)
+[Zcash Labs](https://zcashlabs.org/)
 
 [Míele gbeƒã ɖem Zcash Labs: A Zcash Go-to-Market Company](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)
 

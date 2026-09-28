@@ -5,7 +5,7 @@
 
 #  Zcash Network no a wobɛhwɛ wɔ w’adwenem
 
-Nea edidi so yi yɛ akwankyerɛ a ɛfa sɛnea wɔde Ziggurat 3.0 Crawler ma Zcash ne nhyehyɛe ahorow a ɛbata ho Crunchy ne P2P-Viz wɔ Ubuntu 22.04 a wɔde boaboa Zcash ntwamutam ho nsɛm ano na wɔyɛ ho mfonini wɔ w’adwenem. 
+Nea edidi so yi yɛ akwankyerɛ a ɛfa sɛnea wɔde Ziggurat 3.0 Crawler for Zcash ne nhyehyɛe ahorow a ɛbata ho Crunchy ne P2P-Viz wɔ Ubuntu 22.04 a wɔde boaboa Zcash ntwamutam ho nsɛm ano na wɔyɛ ho mfonini wɔ w’adwenem. 
 Video a ɛwɔ ase ha a wɔde link ahyɛ mu no di adeyɛ koro no ara akyi.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -28,10 +28,10 @@ Rust -> [https://rustup.rs/](https://rustup.rs/)
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 (ma json nsɛm a wɔda no adi wɔ terminal no mu)
 
-kurukuruwa -> [ .https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
+kurukuruwa -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
 (ma wobisabisa crawler RPC no)
 
-npm (ne nvm) -> [ .https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
+npm (ne nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
 (ma P2P-Viz a wobɛda no adi wɔ browser no mu)
 
 ----------------
@@ -48,7 +48,7 @@ P2P-Viz Repo a Wɔde Di Dwuma | [https://github.com/runziggurat/p2p-viz.git](htt
 
 ----------------
 
-Fi ase denam updates a ɛyɛ daa a wode bedi dwuma so.
+Fi ase denam updates a wɔtaa de di dwuma no so.
 
 >  Fa ahyɛde ahorow a edidi so yi di dwuma:
 ```bash
@@ -122,9 +122,9 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Eyi bɛboaboa dwumadi no ano na ahwɛ ahu sɛ biribiara reyɛ adwuma yiye.
 
-Sɛ wobɛtumi ayɛ Crawler no a, ɛhia sɛ wode '--seed-addrs' frankaa ka start ahyɛdeɛ no ho, a anyɛ yie koraa no, Zcash node IP address baako, a ɛfata, na ɛwɔ mu. Ɛsɛ sɛ wɔma crawler no kwan ma otu mmirika bere a ɛfata na ama wɔanya nea efi mu ba no pɛpɛɛpɛ. Wobetumi ahu nhwɛsode node IP address ahorow bi wɔ [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Sɛ wobɛtumi ayɛ Crawler no a, ɛhia sɛ wode '--seed-addrs' frankaa ka start ahyɛdeɛ no ho, a anyɛ yie koraa no, Zcash node IP address baako, a ɛfata, na ɛwɔ mu. Ɛsɛ sɛ wɔma crawler no kwan ma otu mmirika bere a ɛfata na ama wɔanya nea efi mu ba no pɛpɛɛpɛ. Wobetumi ahu nhwɛsode node IP address ahorow bi wɔ so [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
 
-Sɛ wopɛ sɛ wonya nsɛm fi Crawler no hɔ bere a ɛretu mmirika a, ɛho hia sɛ wode '--rpc-addr' frankaa ka start ahyɛde no ho. Eyi nhia sɛ wode krawler no ankasa nkutoo na ɛyɛ adwuma nanso sɛ ɛnte saa a, ɛbɛhwehwɛ sɛ wugyae krawla no (ctrl+c anaa SIGKILL) na ama woada nsɛm biara adi koraa.
+Sɛ wobɛnya nsɛm afiri Crawler no hɔ berɛ a ɛretu mmirika a, ɛhia sɛ wode '--rpc-addr' frankaa bɛka start ahyɛdeɛ no ho. Eyi nhia sɛ wode krawler no ankasa nkutoo na ɛyɛ adwuma nanso sɛ ɛnte saa a, ɛbɛhwehwɛ sɛ wugyae krawla no (ctrl+c anaa SIGKILL) na ama woada nsɛm biara adi koraa.
 
 
 >  Fa ahyɛde no tu mmirika
@@ -142,7 +142,7 @@ Wɔde Crawler RPC address a ɛwɔ nhwɛsoɔ yi mu no ato hɔ sɛ '127.0.0.1:5432
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ | jq .result.protocol_versions
 ```
 
-Wei bɛkyerɛ '.protocol_version' data a wɔaboaboa ano mprempren a ɛwɔ '.result' field no mu. '.result' field no yɛ kɛseɛ paa enti mfasoɔ wɔ so sɛ wobɛfrɛ ne fã pɔtee bi mmom. Data ahorow afoforo a mfaso wɔ so ne '.num_known_nodes', '.num_good_nodes', '.user_agents' ne nea ɛkeka ho Hwɛ metrics ɔfa [Ha](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
+Wei bɛkyerɛ '.protocol_version' data a wɔaboaboa ano mprempren a ɛwɔ '.result' field no mu. '.result' field no yɛ kɛseɛ paa enti mfasoɔ wɔ so sɛ wobɛfrɛ ne fã pɔtee bi mmom. Data ahorow afoforo a mfaso wɔ so ne '.num_known_nodes', '.num_good_nodes', '.user_agents' ne nea ɛkeka ho Hwɛ metrics ɔfa no [Ha](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
 
 ----------------
 
@@ -218,13 +218,13 @@ npm run start http
 
 ----------------
 
-Bue browser bi wɔ [ 1 ].http://localhost:3000](http://localhost:3000). 
+Bue browser bi wɔ [http://localhost:3000](http://localhost:3000). 
 
-Paw 'Geolocation' na afei paw 'Choose state file'.
+Paw 'Geolocation' na afei paw 'Paw ɔman fael'.
 
 Efi fael explorer pop-up no so, paw 'state.json' fael no. 
 
-Node explorer World Map no bɛhyɛ fael data no ma. Hwɛ readme [Ɛha](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) sɛ wopɛ nsɛm pii fa akwan a wɔfa so de di dwuma ne nhyehyɛe ahorow ho.
+Node explorer World Map no bɛhyɛ fael data no ma. Hwɛ readme no [Ha](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) sɛ wopɛ nsɛm pii fa akwan a wɔfa so de di dwuma ne nhyehyɛe ahorow ho.
 
 
 ----------------

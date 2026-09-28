@@ -114,7 +114,7 @@ Obscura Labs wɔa dɔ le wo ɖokui si eye wowɔa dɔ aduadu kple Zcash ƒe dɔw�
 
 ## Dɔ Siwo Wole Nu Wɔm Fifia
 
-Togbɔ be nufiaƒe sia le eƒe ŋgɔyiyi ƒe gɔmedzedze hã la, wodze dɔ geɖe wɔwɔ gɔme xoxo.
+Togbɔ be Obscura Labs le eƒe ŋgɔyiyi ƒe gɔmedzedze hã la, wodze ɖoɖo geɖe gɔme xoxo.
 
 ### Afrikatɔwo ƒe DNS Seeder Mɔ̃wo
 

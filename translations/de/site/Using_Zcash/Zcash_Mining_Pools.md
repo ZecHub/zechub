@@ -62,13 +62,13 @@ Zcash-Mining-Pools sind Dienste, die es einzelnen Minern ermöglichen, ihre Rech
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Website: [Nanopool](https://zec.nanopool.org/login)
+- Webseite: [Nanopool](https://zec.nanopool.org/)
 - Private Auszahlungen: Nein
 - Pool-Typ: Pay Per Last N 
 - Pool-Gebühr: 1%

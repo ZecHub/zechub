@@ -6,7 +6,7 @@
 #  Zcash Network la kpɔkpɔ le susu me
 
 Nusiwo gbɔna nye mɔfiame le alesi woawɔ Ziggurat 3.0 Crawler na Zcash kpakple ɖoɖowɔɖi siwo do ƒome kplii Crunchy kple P2P-Viz le Ubuntu 22.04 dzi hena Zcash network nyatakakawo nuƒoƒoƒu kple wo kpɔkpɔ le susu me. 
-Video si wotsɔ ka ɖe eŋu le ete la hã zɔna ɖe ɖoɖo ma ke dzi.
+Video si do ƒome kplii le ete la hã zɔna ɖe ɖoɖo ma ke dzi.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -28,7 +28,7 @@ Gbeɖuɖɔ -> [https://rustup.rs/](https://rustup.rs/)
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 (hena json nyatakakawo ɖeɖefia le terminal la me)
 
-ʋuʋudedi -> [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
+ʋuʋudedi -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
 (hena biabia tso crawler RPC ŋu)
 
 npm (kple nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
@@ -60,7 +60,7 @@ sudo apt upgrade
 
 ## Zcash Netwɔƒe ƒe Ʋuʋu
 
-Zcash Crawler nɔa agbalẽdzraɖoƒe si ŋkɔe nye 'zcash' me eyata ateŋu anyo be nàwɔ agbalẽdzraɖoƒe yeye hafi awɔ crawler la ƒe nɔnɔmetata (runziggurat/zcash repo).
+Zcash Crawler la le agbalẽdzraɖoƒe si ŋkɔe nye 'zcash' me eyata ateŋu anyo be nàwɔ agbalẽdzraɖoƒe yeye hafi awɔ crawler la ƒe nɔnɔmetata (runziggurat/zcash repo).
 
 
 >  Tso /Home ƒe agbalẽdzraɖoƒea, Wɔ sedede siwo gbɔna:
@@ -122,7 +122,7 @@ cargo run --release --features crawler --bin crawler -- --help
 
 Esia aƒo ɖoɖowɔɖia nu ƒu eye wòakpɔ egbɔ be nusianu le dɔ wɔm nyuie.
 
-Be woawɔ Crawler la, ele be woatsɔ '--seed-addrs' aflaga akpe ɖe gɔmedzedze ƒe sededea ŋu, si me Zcash node IP adrɛs ɖeka ya teti, si sɔ, anɔ. Ele be woaɖe mɔ na ʋuʋudedi la be wòaƒu du hena ɣeyiɣi si sɔ be woakpɔ emetsonu si sɔ. Woate ŋu akpɔ kpɔɖeŋu node IP adrɛs aɖewo le [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
+Be woawɔ Crawler la, ehiã be woatsɔ '--seed-addrs' aflaga akpe ɖe gɔmedzedze ƒe sededea ŋu, si me Zcash node IP adrɛs ɖeka ya teti, si sɔ, anɔ. Ele be woaɖe mɔ na crawler la be wòaƒu du hena ɣeyiɣi si sɔ be woakpɔ emetsonu si sɔ. Woateŋu akpɔ kpɔɖeŋu node IP adrɛs aɖewo le [https://zcashblockexplorer.com/nodes](https://zcashblockexplorer.com/nodes).
 
 Be nàxɔ nyatakaka tso Crawler gbɔ esime wòle dɔ wɔm la, ele be nàtsɔ '--rpc-addr' aflaga akpe ɖe gɔmedzedze ƒe sededea ŋu. Esia mehiã be woawɔ crawler la ŋutɔ ko o gake ne menye nenema o la, abia be woatɔ crawler (ctrl+c alo SIGKILL) be woaɖe nyatakaka aɖeke afia kura o.
 
@@ -133,7 +133,7 @@ cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172
 ```
 
 Crawler la adze kadodo kple network la gɔme (default every 20 secs) eye wòaƒo network data nu ƒu. 
-Woateŋu aɖe nyatakaka tso Crawler la afia to curl zazã me atsɔ abia nya tso node la ŋu (esia bia jq hena info ma ɖeɖefia). 
+Woateŋu aɖe nyatakaka tso Crawler la afia to curl zazã me atsɔ abia nya le node la ŋu (esia bia jq hena info ma ɖeɖefia). 
 Woɖo Crawler RPC adrɛs le kpɔɖeŋu sia me ɖe '127.0.0.1:54321'.
 
 
@@ -148,7 +148,7 @@ Esia aɖe '.protocol_version' nyatakaka siwo woƒo ƒu fifia siwo le '.result' �
 
 
 ----------------
-Be woawɔ Crunchy kple P2P-Viz la, ehiã be woatsɔ '.result' la aƒu gbe ɖe .json faɛl me. 
+Be woawɔ Crunchy kple P2P-Viz la, ele be woatsɔ '.result' la aƒu gbe ɖe .json faɛl me. 
 
 
 >  Ƒu du sededea
@@ -165,7 +165,7 @@ Le afisia la, woateŋu atɔ te Crawler la kple 'ctrl+c' nenye be nyatakaka bubu 
 
 ## Crunchy ƒe ʋuʋudedi
 
-Crunchy hiã be wòaƒo emetsonu json faɛl la nu ƒu hena zazã kple P2P-Viz.
+Wobia tso Crunchy si be wòaƒo emetsonu json faɛl la nu ƒu hena zazã kple P2P-Viz.
 
 
 Be nàtu Crunchy la, yi wò '/runziggurat' agbalẽdzraɖoƒe 
@@ -218,13 +218,13 @@ npm run start http
 
 ----------------
 
-Ʋu web-browser aɖe le [http://localhost:3000](http://localhost:3000). 
+Ʋu browser aɖe le [http://localhost:3000](http://localhost:3000). 
 
 Tia 'Geolocation' eye emegbe natia 'Choose state file'.
 
 Tso file explorer ƒe pop-up me la, tia 'state.json' faɛl la. 
 
-Node explorer World Map ayɔ faɛl ƒe nyatakakawo me fũ. Kpɔ readme [Afi sia](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) hena numeɖeɖe bubuwo tso zazã ƒe tiatia kple ɖoɖowo ŋu.
+Node explorer World Map ayɔ faɛl ƒe nyatakakawo me fũ. Kpɔ readme la ɖa [Afi sia](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) hena numeɖeɖe bubuwo tso zazã ƒe tiatia kple ɖoɖowo ŋu.
 
 
 ----------------

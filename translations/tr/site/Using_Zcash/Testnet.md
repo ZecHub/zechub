@@ -130,10 +130,10 @@ Bir **faucet**, test için ücretsiz TAZ coin veren bir hizmettir:
 - TAZ'ı manuel olarak kazma gerekliliğini ortadan kaldırır  
 
 **Örnek:**  
-1. Bir Testnet faucet'ini ziyaret edin (ör. [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. Bir Testnet faucet'ini ziyaret edin (ör. [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. Testnet adresinizi girin  
 3. TAZ talep edin  
-4. Teste başlamak için TAZ'ı anında alın  
+4. Teste başlamak için TAZ'ı anında alın
 
 **Neden önemlidir:**  
 - ZEC'i riske atmadan güvenli test  

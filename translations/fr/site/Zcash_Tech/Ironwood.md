@@ -74,12 +74,12 @@ Les wallets et les logiciels de nœud gèrent l’essentiel automatiquement, mai
 
 | Terme | Signification en langage clair |
 |---|---|
-| Pool shielded | L’ensemble des fonds dont les montants et les propriétaires sont cachés par la cryptographie à connaissance nulle |
-| Bug de solidité | Une faille qui permet à une transaction invalide de passer la vérification de preuve comme si elle était valide |
-| Tourniquet | Un point de contrôle public qui compte la valeur circulant entre les pools afin que l’offre reste auditable |
+| Shielded pool | L’ensemble des fonds dont les montants et les propriétaires sont cachés par la cryptographie à connaissance nulle |
+| Soundness bug | Une faille qui permet à une transaction invalide de passer la vérification de preuve comme si elle était valide |
+| Turnstile | Un point de contrôle public qui compte la valeur circulant entre les pools afin que l’offre reste auditable |
 | Spend-only | Un pool depuis lequel on peut dépenser, mais auquel on ne peut pas ajouter de nouvelle valeur |
-| Mise à niveau du réseau (NU) | Une modification coordonnée des règles de consensus de Zcash, activée à une hauteur de bloc donnée |
-| Note récupérable face au quantique | Un format de note conçu pour que les fonds puissent être récupérés si les ordinateurs quantiques finissent par casser la cryptographie actuelle |
+| Network upgrade (NU) | Une modification coordonnée des règles de consensus de Zcash, activée à une hauteur de bloc donnée |
+| Quantum-recoverable note | Un format de note conçu pour que les fonds puissent être récupérés si les ordinateurs quantiques finissent par casser la cryptographie actuelle |
 
 ## FAQ
 

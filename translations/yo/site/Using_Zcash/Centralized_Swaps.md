@@ -9,7 +9,7 @@ ZecHub kò fọwọ́ sí iṣẹ ìfọwọ̀sí pàtó kankan, jọ̀wọ́ �
 Kálukú wọn. `###` orí kan wà nísàlẹ̀ yìí tó ń sọ nípa àwọn ohun tí a lè ṣe. https://zechub.wiki/using-zcash/centralizedswaps.
 Fi àfikún, ṣàtúnyẹ̀wò tàbí yọ ìdì kan sílẹ̀ níbí; wiki yóò mú un láti inú fáìlì yìí.
 
-### Ẹ jẹ́ kí a pààrọ̀.
+### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
@@ -18,7 +18,7 @@ Fi àfikún, ṣàtúnyẹ̀wò tàbí yọ ìdì kan sílẹ̀ níbí; wiki yó
 
 ___
 
-### Àwọn ohun tó fẹ́rẹ̀ẹ́ jẹ́ àfojúsùn wọn
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -27,7 +27,7 @@ ___
 
 ___
 
-### ShapeShift (ì í ì)
+### ShapeShift
 
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
@@ -36,7 +36,7 @@ ___
 
 ___
 
-### Ìwà ìkọ̀kòsílẹ̀ EX
+### Stealth EX
 
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
@@ -45,7 +45,7 @@ ___
 
 ___
 
-### Changelly (ìyípadà)
+### Changelly
 
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
@@ -54,7 +54,7 @@ ___
 
 ___
 
-### flyp.me (ì í ì ë ¤)
+### flyp.me
 
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Exolix ì í ë ¤ì 'ë¥1⁄4 ê°
+### Exolix
 
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Àdàbà òdòdó
+### Trocodor
 
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### Owó-ìpamọ́ Bison Wallet
+### Bison Wallet
 
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
@@ -90,7 +90,7 @@ ___
 
 ___
 
-### Firo DEX (ìyẹn àwọn ohun èlò tó ń mú kí iná jó)
+### Firo DEX
 
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
@@ -99,7 +99,7 @@ ___
 
 ___
 
-### Changenow (ìyípadà)
+### Changenow
 
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
@@ -108,7 +108,7 @@ ___
 
 ___
 
-### Àlàfo tí ó dúró ṣinṣin
+### Fixed Float
 
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
@@ -117,7 +117,7 @@ ___
 
 ___
 
-### Xìyípadà
+### Xchange
 
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
@@ -126,7 +126,7 @@ ___
 
 ___
 
-### Bitcoin VN (ìyẹn owó orí)
+### Bitcoin VN
 
 <img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
 

@@ -95,7 +95,7 @@ Zcash **नहीं** करता:
 - transparent लेन-देनों के साथ सहसंबंधों से सुरक्षा प्रदान करना
 - IP पते छिपाना
 
-आगे पढ़ें: [एक Shielded इकोसिस्टम](https://electriccoin.co/blog/shielded-ecosystem)
+आगे पढ़ें: [एक शील्डेड पारिस्थितिकी तंत्र](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

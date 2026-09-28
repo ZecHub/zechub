@@ -159,15 +159,15 @@ Kasıtlı olarak basitleştirdik. Gerçek devre yüzlerce bölge ve binlerce kı
 
 | Terim | Sade Türkçe anlamı |
 |---|---|
-| **Korumalı havuz** | Zcash'in, tutarların ve tarafların gizlendiği özel modu |
-| **Sıfır bilgi kanıtı** | Gizli bir ifadenin geçerli olduğunu, başka hiçbir şeyi açığa çıkarmadan gösteren kanıt |
-| **Devre** | Geçerli bir işlemin sağlaması gereken sabit aritmetik koşullar kümesi |
-| **Kısıt** | Devre içindeki tek bir koşul (denklem) |
-| **Tanık** | Kısıtları sağlayan gizli değerler |
-| **Sağlamlık** | Yalnızca doğru ifadelerin geçerli bir kanıt üretebilmesi garantisi |
-| **Sağlamlık açığı** | Yanlış ifadelerin geçmesine izin veren eksik kısıt |
-| **Yetersiz kısıtlanmış** | İhtiyaç duyduğu bir koşulu eksik olan devre; Orchard hatasının kök nedeni |
-| **Tespit edilebilir / tespit edilemez** | İstismarın herkese açık defterde kanıt bırakıp bırakmayacağı |
+| **Shielded pool** | Zcash'in, tutarların ve tarafların gizlendiği özel modu |
+| **Zero-knowledge proof** | Gizli bir ifadenin geçerli olduğunu, başka hiçbir şeyi açığa çıkarmadan gösteren kanıt |
+| **Circuit** | Geçerli bir işlemin sağlaması gereken sabit aritmetik koşullar kümesi |
+| **Constraint** | Devre içindeki tek bir koşul (denklem) |
+| **Witness** | Kısıtları sağlayan gizli değerler |
+| **Soundness** | Yalnızca doğru ifadelerin geçerli bir kanıt üretebilmesi garantisi |
+| **Soundness gap** | Yanlış ifadelerin geçmesine izin veren eksik kısıt |
+| **Under-constrained** | İhtiyaç duyduğu bir koşulu eksik olan devre; Orchard hatasının kök nedeni |
+| **Detectable / undetectable** | İstismarın herkese açık defterde kanıt bırakıp bırakmayacağı |
 
 ---
 

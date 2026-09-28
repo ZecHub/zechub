@@ -108,6 +108,6 @@ Je, una pendekezo jingine? Tuambie katika #jumla kwenye Discord. Tunaweza kujadi
 
 ### Kukamilisha Kazi
 
-Tafadhali usisite kuanza kuchangia moja ya viwanda vya itifaki kuheshimiwa zaidi. Hii ni njia kubwa ya kushirikiana na Zcash. Kama una maswali yoyote kuhusu kuchangisha, tafadhali tujulishe juu ya [Uhasama](#join-the-conversation).
+Tafadhali usisite kuanza kuchangia moja ya viwanda vya itifaki kuheshimiwa zaidi. Hii ni njia kubwa ya kushirikiana na Zcash. Kama una maswali yoyote kuhusu kuchangisha, tafadhali tujulishe juu ya [Discord](#join-the-conversation).
 
 Asanteni!

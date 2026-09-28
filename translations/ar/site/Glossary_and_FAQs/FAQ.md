@@ -95,7 +95,7 @@ Zcash **لا** يقوم بما يلي:
 - الحماية من الارتباطات بالمعاملات الشفافة
 - إخفاء عناوين IP
 
-للقراءة الإضافية: [نظام بيئي محمي](https://electriccoin.co/blog/shielded-ecosystem)
+للقراءة الإضافية: [نظام بيئي محمي](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

@@ -28,11 +28,11 @@ Zallet wà ní báyìí nínú **beta**. A kò tíì ṣe àtúnyẹ̀wò rẹ́
 
 `zcashd` a ṣe àpòpọ̀ Bitcoin Core tí ó jẹ́ ìfẹnukò àti apamọwọ ní ìgbésẹ̀ kan. Àwòrán náà ti lọ tán.
 
- Ipa. Àkójọ àtẹ̀yìnwá. Àkọlé tó wà báyìí.
+| Ipa | Àkójọ àtijọ́ | Àkójọpọ̀ lọ́wọ́lọ́wọ́ |
 |------|-----------|---------------|
-ìfohùnmọ̀ / P2P. `zcashd` Zebra (ì í ì ë ¤)`zebrad`) tàbí Zakura.
- Àpótí / kókó/ìṣírò owó. `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
-Àkọsílẹ̀ oníṣe-ọkàn. `lightwalletd` Ṣé Zaino tàbí... `lightwalletd` |
+| Ìfohùnṣọ̀kan / P2P | `zcashd` | Zebra (`zebrad`) tabi Zakura |
+| Àpò owó / àwọn kọ́kọ́rọ́ / ìwọ̀n | `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
+| Atọka onibara ina | `lightwalletd` | Zaino tàbí `lightwalletd` |
 
 Pín apamọwọ náà kúrò nínú ìsopọ̀ túmọ̀ sí:
 
@@ -182,13 +182,13 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 
 ## Bawo ni Zallet ṣe jẹ ibatan si sọfitiwia miiran
 
-Zallet zecd Zashi / ZODL YWallet Zebra Zakura Zaino Àwọn ojúewé wọ̀nyí jápọ̀ mọ́ "Zac" àti "Zaino":
+| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
 |--|--------|------|------------------------|----------------|-------|
- Kí ni ó jẹ́? Full-node RPC wallet Shielded-first wallet server Awọn apamọwọ olumulo ipari Nọmba ifọkanbalẹ Indexer / lightwalletd rirọpo.
-Ó máa ń rọ́pò. `zcashd` àpò. Kì í ṣe ìsúná-in `zcashd` clone  Àwọn ohun èlò alágbèéká/òpó-ìwé. `zcashd` ìsọ̀rí náà: `lightwalletd` |
- Wọ́n nílò ìkànnì àdúgbò kan. Bẹẹni. Bẹ̀rẹ (ìwé Zebra nípasẹ̀ ìlànà) Kò sí (àṣáwọ̀ rírẹ̀lẹ̀). Ìkànnì náà ni *is* ìkànlì náà. BẸ̀rẹ
-zcashd RPC compat. Designed as the compat path. Small selected subset only. N/A. Partial / Zakura compat mode. Different API. Zcashd rpc compat: a ṣe apẹrẹ bi ipa ọna ti o ṣopọ, ṣugbọn kii ṣe fun awọn olumulo kekere nikan; ko si tabi rara ni gbogbo wọn jẹ aṣoju ati pe wọn le wa lati ọdọ rẹ nitori wọn yoo lo ohun elo naa pẹlu eyikeyi ipese miiran (fun apẹẹrẹ data).
- Àpẹẹrẹ ìtọ́jú. Olùṣiṣẹ̀ ń gbé kókó sínú `wallet.db` Server tí a lè rí lára rẹ̀ padà. Àwọn kókó ẹrọ oníṣe kò sí àpamọ́ owó, kò sí àwọn kọǹpútà-ìmọ̀ràn.
+| Kí ni ó jẹ́ | Àpò RPC tó ní gbogbo kókó | Olùpèsè àpò owó tí a dáàbò bo-akọkọ | Àwọn àpò owó olùlò ìkẹyìn | Nọ́ńbà ìfohùnṣọ̀kan | Rírọ́pò atọ́ka / lightwalletd |
+| Rọpo | `zcashd` àpò owó | Kì í ṣe ìforúkọsílẹ̀ `zcashd` ẹda oniye | Àwọn àpù fóònù/kọ̀ǹpútà alágbèéká | `zcashd` nodu | `lightwalletd` |
+| O nilo asopọ agbegbe kan | Bẹ́ẹ̀ni | Bẹ́ẹ̀ni (Zebra ní àdáni) | Rárá (oníbàárà tó rọrùn) | Ó *ni* nọ́ńbà náà | Bẹ́ẹ̀ni |
+| ibamu RPC zcashd | A ṣe apẹrẹ bi ipa ọna ibamu | Àwọn kékeré tí a yàn nìkan | N/A | Ipo ibamu apakan / Zakura | API oriṣiriṣi |
+| Àwòṣe àbò | Oniṣẹ naa di awọn bọtini mu ninu `wallet.db` | Olùpèsè tí a lè gbà irúgbìn padà | Awọn bọtini ẹrọ olumulo | Ko si apamọwọ | Ko si awọn bọtini |
 
 Zallet and **zecd** can both sit in front of Zebra. Pick Zallet when you need the `z_*` àpòòwé ojú àti ìyípadà ipa ọ̀nà láti inú `wallet.dat`. Yan zecd nigbati o ba fẹ olupin ti a fi bo-akọkọ ti o jẹ * ko* ni gbangba kan `zcashd` àdàkọ.
 

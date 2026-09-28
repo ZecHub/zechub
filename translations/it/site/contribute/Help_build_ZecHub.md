@@ -37,10 +37,6 @@ Pubblichiamo ogni lunedì issue per i task per cui al momento abbiamo bounty ape
 
 [Issue Github di ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
 
-[Issue Github di ZecHub-Namada](https://app.dework.xyz/zechub-2424)
-
-
-
 Se ci sono altri modi in cui vorresti contribuire, invia un messaggio a ZecHub ([@ZecHub](https://twitter.com/zechub)) su Twitter oppure unisciti al nostro [Discord](https://discord.gg/zcash).
 
 ____

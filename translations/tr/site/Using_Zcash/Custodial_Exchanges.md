@@ -125,13 +125,13 @@ ___
 - Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___
 
-## [OKEx](https://okex.com)
+## [OKX (eski adıyla OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logosu (eski OKEx markası altında gösterilmiştir)" width="200" height="100"/>
 </a>
 
-- Web sitesi: [OKEx](https://okex.com)
+- Web sitesi: [OKX](https://www.okx.com)
 - İşlem çiftleri: TÜMÜ/ZEC
 - Destekler: Şeffaf
 - Yatırma Süresi: 25 Dakika 

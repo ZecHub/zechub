@@ -79,7 +79,7 @@ Eyi gyina baabi a worekɔ baabi a worekɔ no so kɛse. Sɛ nhwɛso no, YouTube b
 - Audio so tew bere a wode OBS redi dwuma wɔ slow machine so ne bere a woreyɛ green-screening no
 
 Fa Hardware encoder di dwuma anaa fa stream yard di dwuma
-[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [Asubɔnten no ho.FM](http://riverside.fm/)
+[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [RiverSide.FM](http://riverside.fm/)
 
 ## Nneɛma a wɔde ma
 

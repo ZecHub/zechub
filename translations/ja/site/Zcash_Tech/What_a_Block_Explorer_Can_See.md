@@ -56,15 +56,15 @@ Zcashには2種類のアドレスがあります。
 
 ## 実践してみましょう
 
-- [Zodl](https://zodl.com) や [Zingo!](https://www.zingolabs.org/) のように、デフォルトでシールドアドレスを使うウォレットを使いましょう。
+- [ZODL](https://zodl.com) や [Zingo!](https://www.zingolabs.org/) のように、デフォルトでシールドアドレスを使うウォレットを使いましょう。
 - 透明アドレスでZECを受け取ったら、使う前にシールドアドレスへ移しましょう。
 - 可能な限り、シールドアドレスに支払いましょう。透明な支払いはすべて完全に公開されますが、シールドされた支払いはそうではありません。
 
 ## リソース
 
-- [Zcash: プライバシーとセキュリティの推奨事項](https://z.cash/support/security/privacy-security-recommendations/)
-- [シールドされたエコシステム（Electric Coin Company）](https://electriccoin.co/blog/shielded-ecosystem/)
-- [Zcashの技術の仕組み](https://z.cash/technology/)
+- [Zcash: プライバシーとセキュリティに関する推奨事項](https://z.cash/support/security/privacy-security-recommendations/)
+- [シールドされたエコシステム（Electric Coin Company）](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+- [Zcash技術の仕組み](https://z.cash/technology/)
 - [Blockchair Zcashエクスプローラー](https://blockchair.com/zcash)
 
 ## 関連ページ
@@ -72,7 +72,7 @@ Zcashには2種類のアドレスがあります。
 - [Zcashの基本](/start-here/what-is-zec-and-zcash)
 - [ウォレット](/using-zcash/wallets)
 - [シールドプール](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

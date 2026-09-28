@@ -131,16 +131,16 @@ Provas de conhecimento zero são um campo profundo, e ficamos no nível da intui
 
 | Termo | Significado em linguagem simples |
 |---|---|
-| **Prova de conhecimento zero** | Convencer alguém de que uma afirmação é verdadeira sem revelar mais nada |
-| **Proponente / Verificador** | Quem produz a prova / quem a verifica |
-| **Completude** | Afirmações verdadeiras sempre são aceitas (vindas de um proponente honesto) |
-| **Solidez** | Afirmações falsas são rejeitadas (trapaceiros não vencem exceto por sorte) |
-| **Testemunha** | As entradas secretas que tornam a afirmação verdadeira |
-| **Circuito aritmético** | Uma afirmação reescrita como somas e multiplicações sobre um campo finito |
-| **Não interativo (Fiat-Shamir)** | Uma prova de uma só vez que não precisa de ida e volta ao vivo |
-| **Sucinto** | A prova é minúscula e rápida de verificar, independentemente do tamanho da afirmação |
+| **Zero-knowledge proof** | Convencer alguém de que uma afirmação é verdadeira sem revelar mais nada |
+| **Prover / Verifier** | Quem produz a prova / quem a verifica |
+| **Completeness** | Afirmações verdadeiras sempre são aceitas (vindas de um proponente honesto) |
+| **Soundness** | Afirmações falsas são rejeitadas (trapaceiros não vencem exceto por sorte) |
+| **Witness** | As entradas secretas que tornam a afirmação verdadeira |
+| **Arithmetic circuit** | Uma afirmação reescrita como somas e multiplicações sobre um campo finito |
+| **Non-interactive (Fiat-Shamir)** | Uma prova de uma só vez que não precisa de ida e volta ao vivo |
+| **Succinct** | A prova é minúscula e rápida de verificar, independentemente do tamanho da afirmação |
 | **zk-SNARK** | Zero-knowledge Succinct Non-interactive ARgument of Knowledge |
-| **Configuração confiável / lixo tóxico** | Geração única de parâmetros cujo segredo residual deve ser destruído |
+| **Trusted setup / toxic waste** | Geração única de parâmetros cujo segredo residual deve ser destruído |
 
 ---
 

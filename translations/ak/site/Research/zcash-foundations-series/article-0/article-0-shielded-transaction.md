@@ -215,13 +215,13 @@ Seesei wokura asase mfonini no. Nsɛm a ɛtoatoa so no nkae no hyɛ mu ma.
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| **Hyɛ no nsow** | Ankorankoro unit a ɛsom bo, Zcash a ɛne sika anaa sika a wɔde tua ho ka yɛ pɛ |
-| **Hyɛ ahofama nsow** | Cryptographic seal a ɛkyerɛ sɛ krataa bi wɔ hɔ a ɛnda no adi |
-| **Hyɛ ahofama dua no nsow** | Baguam kyerɛwtohɔ a wɔde ka ho nkutoo a ɛfa nkyerɛwde bɔhyɛ ahorow nyinaa ho |
-| **Nnuruyɛfoɔ** | "Sent" agyiraehyɛde soronko a wotintim bere a wɔde nkyerɛwde bi di dwuma, a esiw sika a wɔsɛe no mmɔho abien |
-| **Zero-nimdeɛ adanseɛ** | Adanse a ɛkyerɛ sɛ asɛm bi yɛ nokware bere a ɛnna biribiara adi nsen ne nokware |
+| **Note** | Ankorankoro unit a ɛsom bo, Zcash a ɛne sika anaa sika a wɔde tua ho ka yɛ pɛ |
+| **Note commitment** | Cryptographic seal a ɛkyerɛ sɛ krataa bi wɔ hɔ a ɛnda no adi |
+| **Note commitment tree** | Baguam kyerɛwtohɔ a wɔde ka ho nkutoo a ɛfa nkyerɛwde bɔhyɛ ahorow nyinaa ho |
+| **Nullifier** | "Sent" agyiraehyɛde soronko a wotintim bere a wɔde nkyerɛwde bi di dwuma, a esiw sika a wɔsɛe no mmɔho abien |
+| **Zero-knowledge proof** | Adanse a ɛkyerɛ sɛ asɛm bi yɛ nokware bere a ɛnna biribiara adi nsen ne nokware |
 | **Shielding / deshielding** | Sika a wɔde kɔ / fi ankorankoro wiase a wɔabɔ ho ban no mu |
-| **Hwɛ safoa** | Safoa a ɛma owura no hu na ɔkenkan nsɛm a wɔakyerɛw a wɔde akɔma wɔn |
+| **Viewing key** | Safoa a ɛma owura no hu na ɔkenkan nsɛm a wɔakyerɛw a wɔde akɔma wɔn |
 
 ---
 

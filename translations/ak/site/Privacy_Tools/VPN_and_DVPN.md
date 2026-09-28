@@ -73,9 +73,9 @@ Zcash (ZEC) yɛ cryptocurrency a wɔayɛ ama kokoam nsɛm a ɛkɔ anim, na ɛma 
 
 ## VPN afoforo a ɛboa zcash sikatua:-
 
- 3. [__NkyerɛkyerɛmuVPN__ .](https://www.expressvpn.com/)
+ 3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__ na ɛyɛ adwuma.](https://nordvpn.com/)
- 5. [__CyberHonhom__ .](https://www.cyberghostvpn.com/en_US/)
+ 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
  6. [__Internet a Wɔde Di Dwuma (PIA)__](https://www.privateinternetaccess.com/)
 
 Ma ɛntena w’adwene mu sɛ cryptocurrency sikatua akwan a ɛwɔ hɔ no betumi asesa, enti ɛyɛ papa sɛ wobɛhwɛ VPN ɔdemafo no wɛbsaet anaasɛ wo ne wɔn adetɔfo mmoa di nkitaho na woanya nsɛm a ɛyɛ foforo sen biara a ɛfa akwan a wogye tom a wɔfa so tua sika ho, a Zcash ka ho.

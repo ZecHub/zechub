@@ -9,7 +9,7 @@ ZecHub nnye Decentralized Exchange dwumadie biara nni, yɛsrɛ sɛ yɛ w'ankasa 
 Obiara ne no `###` N'asɛmti a ɛwɔ ase ha no yɛ krataa biako wɔ so. https://zechub.wiki/dex.
 Twe, twe anaa yi ɔfã bi firi ha; wiki no bɛgye afiri saa fael yi mu.
 
-### Ɛnkyɛre-n'adwene mu
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -45,7 +45,7 @@ ___
 
 ___
 
-### Bison Akwanhorow nkrataa mu.
+### Bison Wallet
 
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Router Nkrataafa a Ɛwɔ hɔ
+### Router Protocol
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Abɔfra ne ɔyere ntam abusuabɔ
+### Peer
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
@@ -90,7 +90,7 @@ ___
 
 ___
 
-### THORChain (Ɔkwan a wɔfa so di dwuma)
+### THORChain
 
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 

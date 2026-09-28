@@ -2,7 +2,7 @@
 
 
 
-! [ì ì1 ](/content-images/SJOlnt-ceg-34468cfecd.webp)
+! ![ì ì1 ](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
 ---
 
@@ -11,7 +11,7 @@
 tàbí lọ sí **[solswap.org](https://solswap.org/)** láti inú aṣàwákiri Phantom rẹ. 
 
 
-! [ì ì ì2 ](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
+! ![ì ì ì2 ](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
 
 ---
 
@@ -19,7 +19,7 @@ tàbí lọ sí **[solswap.org](https://solswap.org/)** láti inú aṣàwákiri
 - Yan àgbékalẹ̀ ìsọfúnni rẹ (bí àpẹẹrẹ, Ethereum tàbí Solana) lẹ́yìn náà kó owó náà sínú àpò láti fi ṣe pàṣípààrọ̀. 
 
 
-! [ì ì ì3 ](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
+! ![ì ì ì3 ](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
 
 - Yan ami ipilẹ bi **SOL, USDT, tabi USDC**. 
 - Yan **ZEC** gẹgẹ bi àpapọ̀ ìlépa rẹ. 
@@ -27,7 +27,7 @@ tàbí lọ sí **[solswap.org](https://solswap.org/)** láti inú aṣàwákiri
 
 
 
-! [ì ì 1⁄4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+! ![ì ì 1⁄4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 
@@ -36,7 +36,7 @@ tàbí lọ sí **[solswap.org](https://solswap.org/)** láti inú aṣàwákiri
 - Phantom yóò fi iye tí a fojú díwọ̀n gba hàn lẹ́yìn tí owó bá ti wọlé. 
 
 
-! [ì í ì °5](/content-images/B1U1NYW5xe-58cf150668.webp)
+! ![ì í ì °5](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
@@ -63,7 +63,7 @@ Tẹ **Awọn eto paṣipaarọ** lati:
 - Tẹ **Swap Now** láti bẹ̀rẹ̀ ìsòwò náà. 
 
 
-! [ì ì °6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
+! ![ì ì °6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 

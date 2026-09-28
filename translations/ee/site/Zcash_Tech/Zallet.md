@@ -28,11 +28,11 @@ Zallet le **beta** fifia. Womeɖɔe kpɔ bliboe o. Tɔtrɔ siwo wowɔna la abia 
 
 `zcashd` Bitcoin Core ƒe nubabla si dzi wowɔ ɖoɖo ɖo kple gaɖaba le mɔnu ɖeka me. Mebua tame nenema azɔ o.
 
-Dɔwɔƒe. Kpakpɔnu xoxoa. Akpa si le edzi yim fifia.
+| Wɔƒe | Xoxoa ƒe ƒuƒoƒo | Fifia ƒe ƒuƒoƒo |
 |------|-----------|---------------|
-◯ Ðekawɔwɔ / P2P. `zcashd` Zebra (woƒe ŋkɔe nye "Agbegbe" le Eʋeawo me)`zebrad`) alo Zakura.
-Gaɖakawo / safuiwo / ga home. `zcashd` `wallet.dat` Zallet ƒe nuƒowo.`wallet.db`) |
-Light-client indexing. (Aʋatrɔdzesi si me nyatakakawo le) `lightwalletd` Zaino alo `lightwalletd` |
+| Nukpɔsusu ɖeka / P2P | `zcashd` | Zebra (`zebrad`) alo Zakura |
+| Gakotoku / safuiwo / ga si susɔ | `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
+| Kekeli-asitsalawo ƒe indexer | `lightwalletd` | Zaino alo `lightwalletd` |
 
 Ne èɖe ga si le kotokua me la ɖa tso eƒe akpa aɖe ŋu fia be:
 
@@ -182,13 +182,13 @@ Dɔwɔla ƒe nuŋlɔɖi siwo me nyawo le: [Mɔfiala: zcashd to Zebrad/Zallet](/g
 
 ## Alesi Zallet do ƒome kple kɔmpiutaɖoɖo bubuwoe
 
- Zallet. zecd Zashi / ZODL / YWallet Zebra / Zakura Zaino
+| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
 |--|--------|------|------------------------|----------------|-------|
-Nuka enye esia? RPC gaɖabaƒe si nye nuƒle blibo. Gaƒoɖi- gbãtɔ ƒe dɔwɔƒea (wallet server) Amesiwo zãa gaawo le eƒe nuwuwu la tɔ me. Nuƒle siwo dzi woɖoa asii kple susu ɖekaɖekae. Indexer / lightwalletd teƒeɖoɖo.
-Eɖɔa nu siwo gblẽ la ɖo. `zcashd` gaɖakavi. Menye nudomegbalẽ o `zcashd` clone  Mobile/desktop apps  Eʋeviwo ƒe kɔpiwo: `zcashd` nuɖoanyi la. `lightwalletd` |
-Ehiã be woaɖo teƒe aɖe si woate ŋu awɔ nu le. Ɛ̃ (Zebra to default) Ao (light client). Enyea *eƒe* ɖoɖoawo dometɔ ɖeka. Ẽ
- zcashd RPC compat. Wowɔe be wòanye mɔ si dzi woato awɔ dɔ le ɖoɖowo me la ƒe akpa sue aɖe ko N/A Partial / Zakura Compat mode API bubu
- Kplɔla ƒe kpɔɖeŋu. Xɔlɔ̃a léa safuiwo ɖe asi le ʋua me `wallet.db` Server si dzi woate ŋu akpɔ nu siwo wofɔ la le. Amesi ƒe mɔ̃a ŋuti safuiwo mele esi o, gaɖivɔsa meli nɛ o, eye eƒe safuiawo hã megali o.
+| Nusi wònye | RPC gakotoku si me node blibo le | Shielded-gbãtɔ gakotoku ƒe dɔwɔƒe | Gakotoku siwo wozãna mlɔeba | Nusiwo dzi woda asi ɖo ƒe node | Indexer / lightwalletd ƒe tɔtrɔ |
+| Exɔ ɖe eteƒe | `zcashd` gakotoku | Menye drop-in ye o `zcashd` clone ƒe nɔnɔmetata | Asitelefon/kplɔ̃ dzi dɔwɔɖoɖowo | `zcashd` node ƒe ƒuƒoƒo | `lightwalletd` |
+| Hiã na nutoa me node | Ɛ̃ | Ẽ (Zebra le gɔmedzedzea me) | Ao (kekeli ƒe asisi) | *Enye* node la | Ɛ̃ |
+| zcashd RPC ƒe kpeɖeŋutɔ | Wotrɔ asi le eŋu abe compat mɔ ene | Subset sue si wotia ɖeɖeko | N/A | Akpa / Zakura compat nɔnɔme | API vovovowo |
+| Vidzikpɔkpɔ ƒe kpɔɖeŋu | Dɔwɔla léa safuiwo ɖe eme `wallet.db` | Seed-recoverable server si woate ŋu axɔ | Zãla ƒe mɔ̃a ƒe safuiwo | Gakotoku aɖeke meli o | Safui aɖeke meli o |
 
 Zallet and **zecd** can both sit in front of Zebra. Pick Zallet when you need the `z_*` ga si woɖena ɖe asitelefon dzi kple ale si wòɖea vi na amewoe la me. `wallet.dat`Tia zecd ne èdi be yeakpɔ server si ŋu wotrɔ asi le koŋ la dzi, eye menye *a* o. `zcashd` ameƒomevi.
 

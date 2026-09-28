@@ -14,7 +14,7 @@ ZODL immagina un mondo senza sorveglianza finanziaria di massa, dove le persone 
 
 ZODL (Zcash Open Development Lab) è stata fondata all'inizio del 2026 da Josh Swihart, ex CEO della Electric Coin Company (ECC). Nel gennaio 2026, l'intero team di ingegneria e di prodotto di ECC si è dimesso a seguito di una controversia sulla governance con Bootstrap, il consiglio direttivo no profit 501(c)(3) che supervisiona ECC. Il team centrale che aveva originariamente progettato, implementato e mantenuto i sistemi più critici di Zcash è passato a ZODL per proseguire il proprio lavoro in modo indipendente.
 
-Il wallet Zashi, precedentemente sviluppato e mantenuto sotto ECC, è stato rinominato Zodl nell'ambito della nuova organizzazione. Gli utenti non hanno dovuto intraprendere alcuna azione, poiché l'app è stata rinominata automaticamente con l'aggiornamento successivo.
+Il wallet Zashi, precedentemente sviluppato e mantenuto sotto ECC, è stato rinominato ZODL nell'ambito della nuova organizzazione. Gli utenti non hanno dovuto intraprendere alcuna azione, poiché l'app è stata rinominata automaticamente con l'aggiornamento successivo.
 
 ## Finanziamenti
 
@@ -30,7 +30,7 @@ Nel marzo 2026, ZODL ha raccolto oltre 25 milioni di dollari in un round di seed
 - **Balaji Srinivasan**
 - Ulteriori angel investor provenienti dai settori crypto e tecnologico
 
-Il capitale viene utilizzato per espandere lo sviluppo sia del protocollo Zcash sia del wallet Zodl.
+Il capitale viene utilizzato per espandere lo sviluppo sia del protocollo Zcash sia del wallet ZODL.
 
 ## Leadership
 
@@ -40,12 +40,12 @@ Il team più ampio è composto dai creatori e sviluppatori originali del protoco
 
 ## Prodotti
 
-### Zodl Wallet (precedentemente Zashi)
+### ZODL Wallet (precedentemente Zashi)
 
-Zodl è un wallet mobile self-custodial progettato per transazioni Zcash private. Combina una profonda conoscenza a livello di protocollo con un design intuitivo, nascondendo la complessità pur mantenendo la sicurezza.
+ZODL è un wallet mobile self-custodial progettato per transazioni Zcash private. Combina una profonda conoscenza a livello di protocollo con un design intuitivo, nascondendo la complessità pur mantenendo la sicurezza.
 
 **Piattaforme:**
-- [iOS (App Store)](https://apps.apple.com/app/zodl/id6444974742)
+- [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)

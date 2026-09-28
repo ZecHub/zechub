@@ -108,6 +108,6 @@ Wowɔ nyansahyɛ foforo? Ka kyerɛ yɛn wɔ #general mu wɔ Discord so. Yebetumi
 
 ### Sɛ Wobɛwie
 
-Yɛsrɛ sɛ ntwentwɛn wo nan ase sɛ wubefi ase aboa nnwuma no protocol ahorow a wobu no kɛse no biako. Eyi yɛ ɔkwan pa a wobɛfa so de wo ho ahyɛ Zcash mu. Sɛ wowɔ nsɛmmisa bi fa ntoboa a wode bɛma ho a, yɛsrɛ sɛ ma yɛnhu wɔ [Akasakasa](#join-the-conversation).
+Yɛsrɛ sɛ ntwentwɛn wo nan ase sɛ wubefi ase aboa nnwuma no protocol ahorow a wobu no kɛse no biako. Eyi yɛ ɔkwan pa a wobɛfa so de wo ho ahyɛ Zcash mu. Sɛ wowɔ nsɛmmisa bi fa ntoboa a wode bɛma ho a, yɛsrɛ sɛ ma yɛnhu wɔ [Discord](#join-the-conversation).
 
 Aseda!

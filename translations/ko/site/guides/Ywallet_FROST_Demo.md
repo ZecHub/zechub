@@ -24,7 +24,7 @@
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 바이너리는 target 폴더에 생성됩니다.

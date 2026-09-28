@@ -134,7 +134,7 @@ Ne publiez jamais les éléments suivants dans un chat public, sur les réseaux 
 
 - Phrase de départ ou phrase de récupération
 - Clé de dépense, clé privée ou sauvegarde de wallet
-- Clé de visualisation complète
+- Full Viewing Key
 - Captures d’écran montrant les soldes, adresses complètes, mémos, codes QR ou détails de compte d’une plateforme d’échange
 - Documents d’identité personnels ou dossiers de récupération de compte
 
@@ -167,7 +167,7 @@ Les équipes de support n’ont pas besoin de votre phrase de départ, clé de d
 
 ## Remarque
 
-Veuillez noter que la manière la plus sûre d’utiliser ZEC consiste à utiliser des transactions protégées chaque fois que l’expéditeur, le destinataire, le wallet et le service les prennent tous en charge. Certains wallets et plateformes d’échange prennent en charge les [adresses unifiées](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), qui peuvent combiner plusieurs types de récepteurs Zcash dans une seule adresse.
+Veuillez noter que la manière la plus sûre d’utiliser ZEC consiste à utiliser des transactions protégées chaque fois que l’expéditeur, le destinataire, le wallet et le service les prennent tous en charge. Certains wallets et plateformes d’échange prennent en charge les [adresses unifiées](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), qui peuvent combiner plusieurs types de récepteurs Zcash dans une seule adresse.
 
 ## Ressources
 
@@ -178,6 +178,7 @@ Veuillez noter que la manière la plus sûre d’utiliser ZEC consiste à utilis
 ## Pages associées
 
 - [Wallets](/using-zcash/wallets) - quels wallets prennent en charge l’envoi protégé et lesquels sont uniquement transparents
+- [Divulgations de paiement](/zcash-tech/payment-disclosures) - comment un expéditeur peut prouver certains détails d’un paiement protégé
 - [Pools protégés](/using-zcash/shielded-pools) - Sapling et Orchard, les pools où résident vos fonds protégés
 - [Mémos](/using-zcash/memos) - messages chiffrés pouvant accompagner une transaction protégée
 - [Adresses d’échange transparentes](/using-zcash/transparent-exchange-addresses) - les adresses TEX et pourquoi les plateformes d’échange les utilisent

@@ -134,7 +134,7 @@ Zcash 不使用 Ethereum 风格的 gas 单位。Zcash 交易手续费以 ZEC 支
 
 - 助记词或恢复短语
 - 支出密钥、私钥或钱包备份
-- 完整查看密钥
+- Full Viewing Key
 - 显示余额、完整地址、备注、二维码或交易所账户详情的截图
 - 个人身份证明文件或账户恢复记录
 
@@ -167,7 +167,7 @@ Zcash 不使用 Ethereum 风格的 gas 单位。Zcash 交易手续费以 ZEC 支
 
 ## 注意
 
-请注意，当发送方、接收方、钱包和服务均支持时，使用 ZEC 最安全的方式是采用屏蔽交易。一些钱包和交易所支持[统一地址](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.)，它可以将多种 Zcash 接收方类型组合为一个地址。
+请注意，当发送方、接收方、钱包和服务均支持时，使用 ZEC 最安全的方式是采用屏蔽交易。一些钱包和交易所支持[统一地址](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)，它可以将多种 Zcash 接收方类型组合为一个地址。
 
 ## 资源
 
@@ -178,6 +178,7 @@ Zcash 不使用 Ethereum 风格的 gas 单位。Zcash 交易手续费以 ZEC 支
 ## 相关页面
 
 - [钱包](/using-zcash/wallets) - 哪些钱包支持屏蔽发送，哪些仅支持透明交易
+- [支付披露](/zcash-tech/payment-disclosures) - 发送方如何证明一笔屏蔽支付的选定细节
 - [屏蔽资金池](/using-zcash/shielded-pools) - Sapling 和 Orchard，即你的屏蔽资金所在的资金池
 - [备注](/using-zcash/memos) - 可随屏蔽交易传送的加密消息
 - [透明交易所地址](/using-zcash/transparent-exchange-addresses) - TEX 地址及交易所使用它们的原因

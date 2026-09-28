@@ -57,12 +57,12 @@ Lílo ìfọwọ́sowọ́pọ̀ àti àìròtẹ́lẹ̀ papọ̀ ó ṣeé ṣe
 
 Awọn ẹri NP vs awọn ẹri IP:
 
-ì§ ì ¬ì ©í ê ̧°ê±'ë©' NP IP
+|  Gbólóhùn   |    NP     | IP    |
 |--------------|-----------|--------|
-NP: Bẹ́ẹ̀ ni.
-CO-NP kò rí bẹ́ẹ̀.
-#P: kò sí.
-PSPACE kò bẹ́ẹ̀ ni
+|    NP        |  bẹẹni      |  bẹẹni   |
+|    CO-NP     |  no       |  bẹẹni   |
+|    #P        |  no       |  bẹẹni   |
+|    PSPACE    |  no       |  bẹẹni   |
 
 
 NP - Ìdáhùn sí àlàyé kan wà
@@ -167,11 +167,11 @@ Trusted but Universal Setup - Nikan ni lati ṣiṣe iṣeto ti o gbẹkẹle l�
 
 Awọn SNARKS wulo nigbati o ba nilo ọpọlọpọ awọn olutọtọ bii blockchain bi Zcash tabi zk-Rollup bii [Aztec](https://docs.aztec.network) nítorí náà, ọ̀pọ̀lọpọ̀ àwọn òpó ìmúṣẹ kò ní láti ṣe àjọṣepọ̀ pẹ̀lú ẹ̀rí kọ̀ọ̀kan fún ìgbà díẹ̀. 
 
-## Bawo ni Zk-SNARKs ṣe n ṣiṣẹ ni Zcash?
+## Báwo ni a ṣe ń lo zk-SNARK's ní Zcash?
 
 Ni gbogbogbo awọn ẹri-imọ-kukuru jẹ ọpa lati mu ihuwasi otitọ ni awọn ilana laisi fifihan eyikeyi alaye. 
 
-Zcash jẹ blockchain gbangba ti o dẹrọ awọn iṣowo ikọkọ. zk-SNARKs ni a lo lati fi idi rẹ mulẹ pe idunadura aladani jẹ wulo laarin awọn ofin ifọkanbalẹ nẹtiwọọki laisi fifihan eyikeyi awọn alaye miiran nipa idunwo naa. 
+Zcash jẹ́ ẹ̀rọ blockchain gbogbogbòò tí ó ń mú kí àwọn ìṣòwò àdáni rọrùn. A ń lo zk-SNARK's láti fi hàn pé ìṣòwò àdáni wúlò lábẹ́ àwọn òfin ìfọwọ́sowọ́pọ̀ nẹ́tíwọ́ọ̀kì láìsí ìfihàn àwọn kúlẹ̀kúlẹ̀ mìíràn nípa ìṣòwò náà. 
 
 [Àwòrán tó ṣàlàyé](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Ninu ẹkọ yii Ariel Gabizon pese awọn apejuwe ti Igi Iṣeduro Akọsilẹ Zcash, Iyẹwo Polynomial afọju & Awọn ipenija ti o farapamọ Homomorphically ati bi wọn ṣe ṣe imuse wọn lori nẹtiwọọki naa. 
 

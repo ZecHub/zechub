@@ -17,7 +17,7 @@
 </div>
 
 
-## Kí ni Àgbékalẹ̀ Maya?
+## Kí ni Maya Protocol?
 
 Maya jẹ́ ọmọbìnrin kan tó ń gbé nílùú New York. [àdàpọ̀ tí kò dáwọ́ lé](https://nym.com/blog/what-is-dex) (DEX) system that enables trading of cryptocurrencies across different blockchains. You can, for example, swap Bitcoin (BTC) on the Bitcoin blockchain with Ethereum (ETH) on the Ethereum blockchain in an easy way, without holding the assets or involving any centralized authorities or Know Your Customer (KYC) procedures.
 
@@ -69,7 +69,7 @@ Pẹlupẹlu, ibi-afẹde Maya ni lati di * backend * fun awọn iṣẹ miiran 
 
 [El Dorado (ìlú tó wà ní ìlà oòrùn)](https://www.eldorado.market/): XDEFI, Ilé-ìtajà Ìkóhunsókè
 
-[Àdàkọ:CocoaSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:
+[CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:
 
 [Asgardex (ì í ì ë°)](https://www.asgardex.com/): Keystore, Ledger ì í ë ¤ì 'ë¦¬í ¬ê° ê3μì§
 
@@ -77,4 +77,4 @@ DefiSpot: kò sí lórí ẹ̀rọ mọ́, àdúgbò rẹ ò yanjú.
 
 [XDEFI (ì í ì)](https://www.xdefi.io/): àpò owó tí ó ní ètò-ayé ìbílẹ̀ tó ń dáàbò bo ara rẹ pẹlú atilẹyin fún àwọn ẹyọ ọ̀pá ìdánilẹ́kọ̀ọ́ 30+ àti gbogbo EVM ati Cosmos, títí kan Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, àti púpọ̀lọpúpọ̀.
 
-[Fi kókó náà síbi tó yẹ. ](https://keepkey.com/): Àpò owó ẹ̀rọ fún ìpamọ́ àwọn ohun-ìní díjítálí ní ààbò.
+[KeepKey ](https://keepkey.com/): Àpò owó ẹ̀rọ fún ìpamọ́ àwọn ohun-ìní díjítálí ní ààbò.

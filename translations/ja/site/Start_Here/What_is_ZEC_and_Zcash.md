@@ -29,7 +29,7 @@ ZECは人々にデータを権限なしで転送する機会を与えます。�
 
 [Zcashとプライバシーのケース](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[暗号化されたエコシステム](https://electriccoin.co/blog/shielded-ecosystem/)
+[シールドされたエコシステム](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcashプライバシー推奨事項](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -51,14 +51,12 @@ Zcashはビットコインの最大の欠点である、データのプライバ
 
 [仕組み](https://z.cash/technology/)
 
-[ブロックチェーンのHTTPS](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## 関連ページ
 
-- [新規ユーザー向けガイド](/start-here/new-user-guide) — ZEC保有者向けのステップバイステップオンボーディング
-- [ウォレット](/using-zcash/wallets) — ZECを保管するための暗号化ウォレットを選択
-- [ZECの購入](/using-zcash/buying-zec) — どこで、どのようにZECを入手できるか
-- [暗号化プール](/using-zcash/shielded-pools) — Zcashプールが取引をプライベートに保つ方法
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Zcashプライバシーの背後にある暗号技術
+- [新規ユーザーガイド](/start-here/new-user-guide) — 新しいZEC保有者向けのステップごとの導入ガイド
+- [ウォレット](/using-zcash/wallets) — ZECを保有するためのシールドされたウォレットを選ぶ
+- [ZECの購入](/using-zcash/buying-zec) — ZECを入手する場所と方法
+- [シールドプール](/using-zcash/shielded-pools) — Zcashプールが取引のプライバシーを守る仕組み
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Zcashのプライバシーを支える暗号技術

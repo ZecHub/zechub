@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nhwiren a ɛyɛ fɛ
+# Blossom
 
 > Blossom kɔɔ so traa ase wɔ Zcash mainnet so wɔ block 653,600 (December 11, 2019 UTC).
 
@@ -41,12 +41,12 @@ Blossom yɛ Zcash network upgrade a ɛtɔ so mmiɛnsa. Ɛdii Overwinter ne Sapli
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Block botaeɛ ntam kwan | Bere a ntwamutam no de si n’ani so wɔ block biako ne nea edi hɔ ntam |
-| Block akatua | ZEC foforo no bɔɔ na wotuae bere a wɔtu block biara |
-| Halving ntamgyinafo | Block dodow ahe na ɛtwam wɔ block akatua no fã biara ntam |
-| Nhyiamu baa dwumadibea id | Tag a ɛhyɛ network mmara ahorow a node anaa asɛm bi di akyi agyirae |
-| Aman abien adwene a ɛwɔ hɔ no nsakrae | Mmara nsakrae a ɛsɛ sɛ node biara gye tom na ama atra netɛw |
-| Netwɛk no mu nkɔso (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
+| Block target spacing | Bere a ntwamutam no de si n’ani so wɔ block biako ne nea edi hɔ ntam |
+| Block reward | ZEC foforo no bɔɔ na wotuae bere a wɔtu block biara |
+| Halving interval | Block dodow ahe na ɛtwam wɔ block akatua no fã biara ntam |
+| Consensus branch id | Tag a ɛhyɛ network mmara ahorow a node anaa asɛm bi di akyi agyirae |
+| Bilateral consensus change | Mmara nsakrae a ɛsɛ sɛ node biara gye tom na ama atra netɛw |
+| Network upgrade (NU) | Nsakraeɛ a wɔayɛ no pɛpɛɛpɛ wɔ Zcash mmara a wɔpene so, a wɔayɛ adwuma wɔ block height a wɔahyɛ |
 
 ## FAQ
 
@@ -96,4 +96,4 @@ Efisɛ Blossom nso tew akatua a wotua wɔ block biara so no so fã na ɔmaa bere
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Sapling](../zcash-tech/sapling) · Deɛ ɛdi hɔ: [Koma Nnua](../zcash-tech/heartwood)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Sapling](../zcash-tech/sapling) · Deɛ ɛdi hɔ: [Heartwood](../zcash-tech/heartwood)

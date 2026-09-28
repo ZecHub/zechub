@@ -9,7 +9,7 @@ ZecHub anaghị akwado ọrụ mgbanwe ọ bụla, biko mee nyocha nke gị.
 Onye ọ bụla . `###` Isiokwu dị n'okpuru bụ otu kaadị na-egosi: https://zechub.wiki/using-zcash/centralizedswaps.
 Tinye, dezie ma ọ bụ wepu ihe mgbochi ebe a; wiki na-eburu ya site na faịlụ a.
 
-### Ka anyị Gbanwee .
+### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
@@ -18,7 +18,7 @@ Tinye, dezie ma ọ bụ wepu ihe mgbochi ebe a; wiki na-eburu ya site na faịl
 
 ___
 
-### Ihe fọrọ nke nta ka ọ bụrụ ebumnuche
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -27,7 +27,7 @@ ___
 
 ___
 
-### ShapeShift (Nkeji nke abụọ)
+### ShapeShift
 
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
@@ -36,7 +36,7 @@ ___
 
 ___
 
-### Ịgbachi ọsọ EX
+### Stealth EX
 
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
@@ -45,7 +45,7 @@ ___
 
 ___
 
-### Changelly (onye na-eme ihe nkiri)
+### Changelly
 
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
@@ -54,7 +54,7 @@ ___
 
 ___
 
-### flyp.me (ọ bụ m)
+### flyp.me
 
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Exolix Ọgwụ na- egbu mmadụ
+### Exolix
 
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Trocodor (ihe na-egbu egbu)
+### Trocodor
 
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### Bison Wallet (akpa ego nke bison)
+### Bison Wallet
 
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
@@ -99,7 +99,7 @@ ___
 
 ___
 
-### Changenow (mgbe a na-akpọ ya)
+### Changenow
 
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
@@ -108,7 +108,7 @@ ___
 
 ___
 
-### Nkwụnye ego na-akwụ ụgwọ.
+### Fixed Float
 
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
@@ -117,7 +117,7 @@ ___
 
 ___
 
-### Xchange (Nkeji nke abụọ)
+### Xchange
 
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
@@ -126,7 +126,7 @@ ___
 
 ___
 
-### Bitcoin VN na-ekwu okwu ya.
+### Bitcoin VN
 
 <img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
 

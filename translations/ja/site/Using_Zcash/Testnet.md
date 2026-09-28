@@ -126,10 +126,10 @@ TAZ を **「Zcash テストネット用の遊園地通貨」** と考えてく�
 - 手動でのマイニングを避けることができる  
 
 **例:**  
-1. [testnet.zecfaucet.com](https://testnet.zecfaucet.com) または [fauzec.com](https://fauzec.com/) のようなテストネット faucets を訪問  
+1. [fauzec.com](https://fauzec.com/) または [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/) のようなテストネット faucets を訪問  
 2. テストネットアドレスを入力  
 3. TAZ をリクエスト  
-4. 即座に TAZ を受け取り、テストを開始  
+4. 即座に TAZ を受け取り、テストを開始
 
 **なぜ重要なのか:**  
 - 実際の ZEC にリスクすることなく安全にテスト可能  

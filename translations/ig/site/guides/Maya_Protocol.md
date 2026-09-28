@@ -69,7 +69,7 @@ Nke a bụ ndepụta nke ụfọdụ ọrụ ndị na-akwado Maya:
 
 [El Dorado (Ụlọ Akụ)](https://www.eldorado.market/): XDEFI, Ụlọ Ahịa Keystore
 
-[Ihe ọ bụla na-adịghị mma.](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
+[CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 
 [Asgardex Ọgwụ ọjọọ a na- akpọ asgardex .](https://www.asgardex.com/): Keystore, Ledger
 
@@ -77,4 +77,4 @@ DefiSpot: ọ bụghịzi n'ịntanetị, ngalaba ya anaghị edozi.
 
 [XDEFI](https://www.xdefi.io/): obere akpa nchekwa onwe-nchekwa ọtụtụ usoro ihe omume nwere nkwado maka 30+ blockchains, na EVM niile na Cosmos chains, gụnyere Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, na ndị ọzọ.
 
-[JideKey ](https://keepkey.com/): Akpa ego ngwaike maka nchekwa echekwara dijitalụ.
+[KeepKey ](https://keepkey.com/): Akpa ego ngwaike maka nchekwa echekwara dijitalụ.

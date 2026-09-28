@@ -63,7 +63,7 @@ Se consultares os dados em bruto, os campos do remetente e do destinatário shie
 ## Recursos
 
 - [Zcash: recomendações de privacidade e segurança](https://z.cash/support/security/privacy-security-recommendations/)
-- [Um ecossistema shielded (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Um ecossistema shielded (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Como funciona a tecnologia da Zcash](https://z.cash/technology/)
 - [Explorador Zcash do Blockchair](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@ Se consultares os dados em bruto, os campos do remetente e do destinatário shie
 - [Noções básicas da Zcash](/start-here/what-is-zec-and-zcash)
 - [Wallets](/using-zcash/wallets)
 - [Pools shielded](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

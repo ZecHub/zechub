@@ -128,9 +128,9 @@ TAZ는 **"Zcash 테스트넷용 플레이 머니"**로 생각해보세요.
 - TAZ를 수동으로 채굴할 필요가 없습니다.
 
 **예시:**  
-1. [testnet.zecfaucet.com](https://testnet.zecfaucet.com) 또는 [fauzec.com](https://fauzec.com/) 같은 테스트넷 faucets에 방문합니다.
-2. 테스트넷 주소를 입력합니다.
-3. TAZ 요청을 합니다.
+1. [fauzec.com](https://fauzec.com/) 또는 [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/) 같은 테스트넷 faucet에 방문합니다.  
+2. 테스트넷 주소를 입력합니다.  
+3. TAZ를 요청합니다.  
 4. 즉시 TAZ를 받고 테스트를 시작합니다.
 
 **중요성:**  

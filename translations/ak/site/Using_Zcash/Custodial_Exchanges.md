@@ -4,21 +4,21 @@
 
 # <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Custodial Exchanges
 
-Ironwood is the shielded pool that arrived with the July 2026 network upgrade. Exchanges that only handle transparent t-addresses never touch it, so those are marked not applicable. Where an exchange does handle shielded addresses but has not said which pool it uses, the line says so rather than guessing.
+Ironwood yɛ shielded pool a ɛbaa hɔ ne July 2026 network upgrade no. Exchanges a ɛdi t-address a ɛda adi nkutoo ho dwuma no nka no da, enti wɔahyɛ no agyirae sɛ ɛnyɛ adwuma. Baabi a exchange bi di address ahorow a wɔabɔ ho ban ho dwuma nanso ɛnkaa pool ko a ɛde di dwuma no, line no ka saa sen sɛ ɛbɛsusuw.
 
 ---
 
-### [Kɔntire mu nneɛma](https://backpack.exchange)
+### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Kɔntire mu nneɛma](https://backpack.exchange)
-- Pairs: ZEC/USDC. ZEC-PERP
-- Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa ahodoɔ mu - Access to documents and databases in multiple languages (database)
-- Deposit Time: No stated. (Deposit time) no deε wכ agyinatufuo mu
-- Ironwood: Won't say no
+- Wɛbsaet: [Backpack](https://backpack.exchange)
+- Nnipa baanu: ZEC/USDC | ZEC-PERP na ɔkyerɛwee
+- Mmoa: Wɔama sika a wɔde sie ne nea woyi fi mu no ayɛ adwuma. Address ahorow a wɔankyerɛ
+- Bere a Wɔde Sika Siesie: Wɔankyerɛ
+- Ironwood: Wɔanka ho asɛm
 ___
 
 ### [Binance](https://binance.com)
@@ -27,11 +27,11 @@ ___
     <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Binance](https://binance.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkwadaa a w'ɔwɔ mu: Transparent (TEX Address Deposit)
-- Deposit Time: simma aduonu
-- Ironwood: Nfa ho, address a w'atumi ahu no nkutoo na ɛbɛboa wo.
+- Wɛbsaet: [Binance](https://binance.com)
+- Nnipa baanu: ALL/ZEC
+- Mmoa: Ɛyɛ nea ɛda adi pefee (TEX Address Deposit) .
+- Bere a Wɔde Sie: Simma 20
+- Ironwood: Ɛnfa ho, address ahorow a ɛda adi pefee nkutoo
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -40,11 +40,11 @@ ___
     <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [BitcoinVN](https://bitcoinvn.io)
-- Pairs: BTC/ZEC, ETH/ZCE, USDT/ZC, XMR/ZCC, LTC/ZCO, DASH/ZCA.
-- Nkwadaa: Transparent de ban (z-address Deposit & Withdrawal)
-- Deposit Time: Instant (non-custodial swap)
-- Ironwood: Won't say no
+- Wɛbsaet: [BitcoinVN](https://bitcoinvn.io)
+- Nnipa baanu: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- Nneɛma a wɔboa: Transparent | Shielded (z-address Sika a Wɔde Sie & Wɔde Sie) .
+- Bere a Wɔde Sie: Ntɛm ara (a ɛnyɛ nea wɔde sesa nneɛma a wɔde asie) .
+- Ironwood: Wɔanka ho asɛm
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -53,11 +53,11 @@ ___
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Bitfinex](https://bitfinex.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 25 Minutes (Ɔgyeɛ berɛ) 
-- Ironwood: Nfa ho, address a w'atumi ahu no nkutoo na ɛbɛboa wo.
+- Wɛbsaet: [Bitfinex](https://bitfinex.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 25 
+- Ironwood: Ɛnfa ho, address ahorow a ɛda adi pefee nkutoo
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -66,24 +66,24 @@ ___
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Coinbase](https://coinbase.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 150 minutes (Ɔbɛgye berɛ de asie)
-- Ironwood: Nfa ho, address a w'atumi ahu no nkutoo na ɛbɛboa wo.
+- Wɛbsaet: [Coinbase](https://coinbase.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 150
+- Ironwood: Ɛnfa ho, address ahorow a ɛda adi pefee nkutoo
 ___
 
- ### [Geminifo din mu no:](https://gemini.com)
+ ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Geminifo din mu no:](https://gemini.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔso: Transparent  Ɔde ne nyinaa to hɔ, Orchard fi November 2025
-- Deposit Time: 50 Minutes (Ɔbɛgye berɛ de asie) 
-- Ironwood: Shielded withdrawals supported, pool not stated (Ironwood: Ɔfasu a wɔkora so no yɛ mmoa, wɔn nka ho asɛm)
+- Wɛbsaet: [Gemini](https://gemini.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Transparent | Shielded ne nkabom a wɔayi afi mu, Orchard fi November 2025
+- Bere a Wɔde Siesie Nneɛma: Simma 50 
+- Ironwood: Wɔboa sika a wɔayi afi mu a wɔabɔ ho ban, wɔanka pool
 ___
 
 ### [Huobi](https://huobi.com)
@@ -92,24 +92,24 @@ ___
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Huobi](https://huobi.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 35 Minutes (Ɔgyeɛ berɛ) 
-- Ironwood: Nfa ho, address a w'atumi ahu no nkutoo na ɛbɛboa wo.
+- Wɛbsaet: [Huobi](https://huobi.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 35 
+- Ironwood: Ɛnfa ho, address ahorow a ɛda adi pefee nkutoo
 ___
 
-### [Krakenfo](https://kraken.com)
+### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Krakenfo](https://kraken.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 60 minutes (Ɔbɛgye bere adu hɔ)
-- Ironwood: Nfa ho, address a w'atumi ahu no nkutoo na ɛbɛboa wo.
+- Wɛbsaet: [Kraken](https://kraken.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 60
+- Ironwood: Ɛnfa ho, address ahorow a ɛda adi pefee nkutoo
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -118,35 +118,35 @@ ___
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [KuCoin](https://kucoin.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 20 Minutes (Ɔgyeɛ berɛ) 
-- Ironwood: Nfa ho, address a w'atumi ahu no nkutoo na ɛbɛboa wo.
+- Wɛbsaet: [KuCoin](https://kucoin.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Siesie Nneɛma: Simma 20 
+- Ironwood: Ɛnfa ho, address ahorow a ɛda adi pefee nkutoo
 ___
 
-## [OKEx (Ɔkwan a wɔfa so)](https://okex.com)
+## [OKX (kan no na wɔfrɛ no OKEx) .](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [OKEx (Ɔkwan a wɔfa so)](https://okex.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 25 Minutes (Ɔgyeɛ berɛ) 
-- Ironwood: Nfa ho, address a w'atumi ahu no nkutoo na ɛbɛboa wo.
+- Wɛbsaet: [OKX](https://www.okx.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 25 
+- Ironwood: Ɛnfa ho, address ahorow a ɛda adi pefee nkutoo
 ___
 
-### [Robinhood (Ɔbɔadeɛ)](https://robinhood.com)
+### [Robinhood](https://robinhood.com)
 
 <a href="https://robinhood.com">
     <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Robinhood (Ɔbɔadeɛ)](https://robinhood.com)
-- Pairs: USD/ZEC. EUR/ZCE
-- Nkwadaa a w'ɔwɔ banbɔ no, wɔn na wɔtua wo ka. Wɔmfa sika nkɔ ZEC nkontaabuo so
-- Deposit Time: deposits not supported (Deposito berɛ a wɔgye)
-- Ironwood: Nfa ho, address a w'atumi ahu no nkutoo na ɛbɛboa wo.
+- Wɛbsaet: [Robinhood](https://robinhood.com)
+- Nnua abien: USD/ZEC | EUR/ZEC na ɛwɔ hɔ
+- Mmoa: Wɔtwe sika kɔ t-address a ɛda adi nkutoo so. Wɔnboa ZEC sika a wɔde asie no
+- Bere a Wɔde Sie: Wɔnnye sika a wɔde sie no ntom
+- Ironwood: Ɛnfa ho, address ahorow a ɛda adi pefee nkutoo
 ___

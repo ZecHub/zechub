@@ -72,7 +72,7 @@ Nusi woatsɔ ayi teƒe bubu: ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ nɔ te ɖe ta si
 
 - [Zcash Block ƒe Ʋuʋudedi](https://mainnet.zcashexplorer.app/)
 
-- [Blockchair ƒe zikpui](https://blockchair.com)
+- [Blockchair](https://blockchair.com)
 
 - [3xpl](https://3xpl.com/zcash)
 
@@ -86,7 +86,7 @@ Blockchain explorer vovovowo ƒe kpɔɖeŋu nyui enee nye esi:
 * [Mempool.teƒe](https://mempool.space)
 * [Ethscan ƒe agbalẽ](https://etherscan.io/)
 * [Zcash Block ƒe Ʋuʋudedi](https://mainnet.zcashexplorer.app)
-* [Mintscan ƒe agbalẽ](https://hub.mintscan.io/chains/ibc-network)
+* [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
 ![bitcoinExlporer](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)

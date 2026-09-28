@@ -1,6 +1,6 @@
-# Zenith GUI Full Node Wallet ìfi sori ẹrọ 
+# Fifi sori ẹrọ apamọwọ Node kikun ti Zenith GUI 
 
-## Àwọn Fídíò Ẹ̀kọ́
+## Ìdánilẹ́kọ̀ọ́ fídíò
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -29,40 +29,40 @@
 
 ## Fi Haskell sori ẹrọ
 
-> curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+> ìyípadà --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 
-## Fi Rust sori ẹrọ
+## Fi Ipata sori ẹrọ
 
-> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+> ìyípadà --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
 ## Fi Zebra sori ẹrọ
 
-> sudo apt fi libclang-dev sori ẹrọ
+> sudo apt fi sori ẹrọ libclang-dev
 
-> fi ẹrù sori ẹrọ --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
+> fifi sori ẹrọ ẹru --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
 
-> zebrad ṣe -o ~/.config/zebrad.toml
+> zebrad ṣe ipilẹṣẹ -o ~/.config/zebrad.toml
 
 > nano ~/.config/zebrad.toml
 
 
-#### gbọ́ fún àwọn ìbéèrè RPC lórí localhost
+#### tẹ́tí sí àwọn ìbéèrè RPC lórí localhost
 
-> listen_addr = "127.0.0.1:8232" Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:
+> listen_addr = "127.0.0.1:8232"
 
-#### máa ń lo ọ̀pọ̀lọpọ̀ ìsọfúnni CPU
+#### lo ọpọlọpọ awọn okun CPU laifọwọyi
 
-parallel_cpu_threads = 0 àwọn ìsọfúnni
+parallel_cpu_threads = 0
 
-enable_cookie_auth = false
+enable_cookie_auth = èké
 
 ## Fi Zenith sori ẹrọ
 
-** Ṣe igbasilẹ tar.gz ati untar sinu itọsọna ile rẹ **
+**Ṣe igbasilẹ tar.gz ki o si ṣii sinu itọsọna ile rẹ**
 
-> wgetì https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
+> wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
 > tar -C ~ -xvzf 0.7.2.0-beta.tar.gz
 
@@ -70,94 +70,94 @@ enable_cookie_auth = false
 
 > rmdir zcash-haskell
 
-> ẹ̀dà git https://git.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### Ṣíṣàtúnṣe Àwọn Àlàfo
+### Awọn igbẹkẹle Fi sori ẹrọ
 
-> sudo apt install libssl-dev libgmp-dev Libsecp256k1-dev libtinfo-dev ligbsdl2-dev libfreetype-dev ibglew-dev gdk-pixbuf-tests raspi-config
+> sudo apt fi sori ẹrọ libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
-> ẹrù fi sori ẹrọ ẹrù-c
+> fifi sori ẹrọ ẹru-c
 
-> fi sori ẹrọ c2hs
+> fifi sori ẹrọ akopọ c2hs
 
-> àlẹmọ ìrọ́ ~/.bashrc
+> àpò ìtọ́sọ́nà ~/.bashrc
 
 > export PATH="/home/zebra5/.local/bin:$PATH"
 
 > orísun ~/.bashrc
 
 
-### Ṣatunṣe orísun fún aarch64
+### Ṣatunṣe orisun fun aarch64
 
-> ìtòlẹ́sẹẹsẹ nano
+> iṣeto nano
 
-**yí triple padà sí: "aarch64-unknown-linux-gnu" lórí ìlà méjèèjì.**
+**Yipo mẹta si: "aarch64-unknown-linux-gnu" lori awọn ila mejeeji.**
 
-> nano Setup.hs
+> Setup nano.hs
  
- **Ṣàtúnṣe Setup.hs nínú àwo zcash-haskell àti àwo zenith**
+ **Ṣe àtúnṣe Setup.hs nínú fódà zcash-haskell àti fódà zenith**
 
-### Ṣàtúnṣe 
+### Ṣe ìkójọpọ̀ 
 
-- ./ìṣàtúnṣe
+- ./configure
 
-- ìkórajọ
+- Ilé ọkọ̀ akérò
 
 - mkdir ~/Zenith
 
 - cd ~/Zenith
 
-- àwọn ohun ìní mkdir 
+- awọn ohun-ini mkdir 
 
-- cp ~/zenith/dist-newstyle/build/aarch64-linux/ghc-9.6.5/zenith-0.7.2.0/built/zenithi/zenithe ~/Zenith
+- cp ~/zenith/dist-newstyle/build/aarch64-linux/ghc-9.6.5/zenith-0.7.2.0/kọ́/zenith/zenith ~/Zenith
 
-- cp ~/zenith/zenithi.cfg ~/Zenith
+- cp ~/zenith/zenith.cfg ~/Zenith
 
-- cp -r ~/zenith/ assets ~/Zenith/assets
+- cp -r ~/zenith/dúkìá ~/Zenith/dúkìá
 
 
 ### Ṣe àtúnṣe zenith.cfg
 
-nodeUser = orúkọ oníṣe rẹ
+nodeUser = orúkọ olùlò rẹ
 
 nodePwd = superSecret
 
-nodePort = 8234
+ibudo node = 8234
 
-dbFileName = zenith.db
+dbFáìlìOrúkọ = zenith.db
 
-zebraHost = 127.0.0.1
+ZebraHost = 127.0.0.1
 
-zebraPort = 8232
+Àpótí zebra = 8232
 
 
 > cd ~/Zenith
 
-## Àdàkọ:Raspi-config
+## Ìṣètò Raspi
 
-> [wá ìtòlẹ́sẹẹsẹ ìdánwò gldriver tó ṣẹ̀ṣẹ̀ jáde](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [ṣe igbasilẹ idanwo gldriver tuntun](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
 > sudo dpkg - gldriver-test_0.15_all.deb
   
 > sudo raspi-config
 
-  **lọ si ilọsiwaju ki o si yan opengl => GL (Full KMS) **
+  **lọ sí advance kí o sì yan opengl => GL (KMS Kíkún)**
 
-  Àtúnṣe àtúnṣe
+  **atunbere**
 
 
 
-## Ẹ sáré lọ sí ibi gíga.
+## Sáré zenith
 
- ./Zenith gui
+ ./gui zenith
  or
- ./Zenith Tui
+ ./zenith tui
  or
- ./ìkànnì Zenith
+ ./zenithserver
 
 ## Àwọn RPC
 
-[báwo ni](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
+[báwo ni a ṣe le](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
 
 

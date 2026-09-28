@@ -148,15 +148,15 @@ Simplificamos para mayor claridad. El desarrollo real en Lean es mucho más deta
 | Término | Significado en lenguaje sencillo |
 |---|---|
 | **Ironwood** | El nuevo pool blindado de Zcash (2026), que reemplaza el pool defectuoso de Orchard |
-| **Integridad del balance** | El pool nunca paga más valor del que entró públicamente |
-| **Solidez del conocimiento** | Una prueba válida exige que el probador posea un testigo genuino |
+| **Balance integrity** | El pool nunca paga más valor del que entró públicamente |
+| **Knowledge soundness** | Una prueba válida exige que el probador posea un testigo genuino |
 | **Extractor** | Un procedimiento que extrae el testigo de cualquier probador convincente |
 | **Lean** | El asistente de pruebas utilizado para comprobar la verificación por máquina |
 | **ValidLedger** | El modelo formal de las reglas de consenso sobre el que razonan los teoremas |
-| **Huella** | El límite entre las matemáticas demostradas y el software Rust en ejecución |
-| **Bajo los supuestos declarados** | La prueba se cumple siempre que se cumplan los supuestos criptográficos nombrados |
-| **Torniquete** | Una regla que limita las salidas de un pool a sus depósitos verificables |
-| **Criptografía de alta garantía** | Crear criptografía con verificación formal como un paso estándar |
+| **Fingerprint** | El límite entre las matemáticas demostradas y el software Rust en ejecución |
+| **Under stated assumptions** | La prueba se cumple siempre que se cumplan los supuestos criptográficos nombrados |
+| **Turnstile** | Una regla que limita las salidas de un pool a sus depósitos verificables |
+| **High-assurance cryptography** | Crear criptografía con verificación formal como un paso estándar |
 
 ---
 

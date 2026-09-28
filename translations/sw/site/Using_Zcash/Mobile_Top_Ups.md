@@ -42,7 +42,7 @@ Hey... line yangu imekuwa sifa! Unaweza pia kuthibitisha barua pepe yako wakati 
 Njia hapo juu inahitaji kuunda akaunti ya Coinsbee. Kama wewe badala yake si, CardsRelay anauza simu za mkononi top-ups kwa ZEC bila usajili.
 
 ### 1. Chagua nchi yako na operator
-Kutembelea [KadiRelay](https://cardsrelay.com) na kufungua sehemu ya simu za juu Ups. Zaidi ya 750 waendeshaji ni mkono duniani kote.
+Kutembelea [CardsRelay](https://cardsrelay.com) na kufungua sehemu ya simu za juu Ups. Zaidi ya 750 waendeshaji ni mkono duniani kote.
 
 ### 2. Ingiza idadi na kiasi cha fedha.
 Jaza namba ya simu ambayo itakuwa sifa na kuchagua juu-up thamani. bei iliyoonyeshwa ni moja yote katika jumla, bila tofauti kubadilishana kiwango cha markup aliongeza baadaye.

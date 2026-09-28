@@ -95,7 +95,7 @@ Zcash **не**:
 - Защищает от корреляций с прозрачными транзакциями
 - Скрывает IP-адреса
 
-Дополнительная информация: [Защищённая экосистема](https://electriccoin.co/blog/shielded-ecosystem)
+Дополнительная информация: [Защищённая экосистема](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

@@ -11,8 +11,6 @@
 
 मेननेट: <a href="https://zecfaucet.com">zecfaucet</a>
 
-टेस्टनेट: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
-
 टेस्टनेट: <a href="https://fauzec.com/">fauzec.com</a>
 
 टेस्टनेट: <a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>

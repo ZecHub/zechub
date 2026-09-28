@@ -63,6 +63,6 @@ Woaɖe asi le nusiwo woatsɔ ana ƒe 72% (7,200 NFTs) ŋu na dukɔa to whitelist
 
 [Cypherpunk Zero DAO ƒe Twitter dzi](https://twitter.com/CypherpunkDAO)
 
-[Cypherpunk Zero DAO ƒe Masɔmasɔ](https://discord.com/invite/sjfgXys4Jf)
+[Cypherpunk Zero DAO ƒe Discord](https://discord.com/invite/sjfgXys4Jf)
 
 [Cypherpunk Zero NFT Mega ka si wotsɔ ƒoa ƒui](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

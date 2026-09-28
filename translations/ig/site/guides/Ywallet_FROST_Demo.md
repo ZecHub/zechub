@@ -24,7 +24,7 @@ Jiri repo dị n'elu wee soro ntuziaka maka nchịkọta:
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 Bin ga-abụ folda ebumnuche.

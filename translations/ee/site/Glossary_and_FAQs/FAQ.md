@@ -1,8 +1,8 @@
-# Nya Siwo Amewo Biana Edziedzi
+# Nya Siwo Wobia Enuenu
 
-Biabia siwo amewo biana tso Zcash ŋu ƒe ŋkɔwo. Ne èdi be yeakpɔ kuxi si le nuƒlelaa me la, taflatse kpɔ agbalẽvi sia: "Zcash - Nu Si Mehiã" (ele Eʋegbe). [kpukpui si dzi woato akpɔ kuxiwo gbɔ le mɔ̃a me.](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+Nyabiase siwo bɔ wu tso Zcash ŋu ƒe xexlẽdzesi. Ne èdi Zcash ƒe asitsaha la ƒe kuxiwo gbɔ kpɔkpɔ la, taflatse kpɔ [dziɖuɖua ƒe kuxiwo gbɔ kpɔkpɔ ƒe mɔfiame](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
-### Mɔzɔzɔnya Kpatawo
+### Mɔzɔzɔ Kabakaba
 
 <div className="flex flex-wrap gap-2 my-4">
   <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">What is Zcash?</a>
@@ -20,86 +20,86 @@ Biabia siwo amewo biana tso Zcash ŋu ƒe ŋkɔwo. Ne èdi be yeakpɔ kuxi si le
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash nye ga si le internet dzi, enye esi me wotrɔa asi kabakaba kple nu siwo ŋu wotea ŋu kpɔa mɔ ɖo eye eƒe fewo hã mede ame aɖeke tɔ o. Eɖe dzesi ŋutɔ be ewɔa dɔ tso adzame ŋuti nyatakakawo ɖeɖe ɖe go ŋu nyuie wu ale si wònɔna tsã la ta.
+Zcash nye dijitaal ga si ƒe asitsatsa kabakaba, nya ɣaɣlawo kple fetu suewo. Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔe nye Zcash ƒe akpa vevitɔ. Ewɔ mɔɖela be woazã kpeɖodzi siwo me sidzedze aɖeke mele o atsɔ aɣla asitsatsa ɖesiaɖe.
 
-Gaxɔ vovovo li siwo woate ŋu azã atsɔ axe fe enumake, to asitelefon dzi kple ga si woxe na ame bubuwo: [Gaɖakawo](/using-zcash/wallets)
+Gakotoku geɖewo li na fexexe enumake, asitelefon dzi, dedie kple ame ŋutɔ ƒe fexexe: [Gakotokuwo](/using-zcash/wallets)
 
 </div>
 
-## Aleke mawɔ akpɔ Zcash?
+## Aleke mawɔ axɔ Zcash?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Àte ŋu aƒle ZEC le: [asitsatsa ƒe ɖoɖowo](/using-zcash/custodial-exchanges), [DEXwo](/dex), or [trɔdzimɔnu siwo dzi woɖoa asi le la ƒe akpa aɖe.](/using-zcash/centralizedswaps).
+Àte ŋu aƒle ZEC le [vidzikpɔkpɔ ƒe asitɔtrɔwo](/using-zcash/custodial-exchanges), [DEX-wo](/dex), or [centralized swap platforms ƒe mɔnuwo](/using-zcash/centralizedswaps).
 
-Àte ŋu aƒle Zcash le ame kple ame dome alo nàƒlee to tomenuku me.
+Àte ŋu aƒle Zcash hatiwo hã alo axɔe to tomenukuƒewo me.
 
 </div>
 
-## Vovototo kae le Zcash kple ga bubu siwo wotsɔna wɔa adzɔnuwoe dome?
+## Vovototo kae le Zcash kple cryptocurrencies bubuwo dome?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash nye nu si le ɣaɣla wu Bitcoin alo Ethereum. Enaa ɣeyiɣi kpui aɖe (sekɛnd 75), fe suewo, kple tɔtrɔ yeye siwo yia edzi edziedzi la ame sia ame tɔe.
+Zcash nye ame ŋutɔ tɔ le gɔmedzedzea me wu Bitcoin alo Ethereum. Enaa block times kabakaba (sɛkɛnd 75), fe suewo, kple asitɔtrɔ edziedzi.
 
-Ame siwo zãa Internet la ate ŋu atiae be yewoawɔ nu kple ame si dzi ye wolɔ̃ ɖo alo amea ƒe susu nanɔ wo gbɔ. [Nu Gbagbewo Kple Aɖenu Si Me Nuto Le La Ƒe Ametakpɔkpɔ](https://electriccoin.co/blog/shielded-ecosystem).
+Zãlawo ateŋu atia **Transparent** alo **Shielded** ƒe asitsatsa. Ne èdi nyatakaka bubuwo la, kpɔ [Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo si ŋu wokpɔ akpoxɔnu le](https://electriccoin.co/blog/shielded-ecosystem).
 
 </div>
 
-## Aleke wowɔna kpɔa Zcash ƒe ɖoɖowo dzii?
+## Aleke wokpɔa Zcash ƒe ɖoɖowɔɖia dzii?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-ZIP ƒe ɖoɖowɔɖia le te ɖe **Zcash Improvement Proposal (ZIP)** dzi. Ame sia ame ate ŋu aɖo eƒe eŋlɔdzesiwo ɖa, eye dukɔ la me tɔwo ƒoa nu tso wo ŋuti hexɔa wo alo gbea wo xɔna:
+**Zcash Improvement Proposal (ZIP)** ƒe ɖoɖoae kpɔa ɖoɖowɔɖia dzi. Ame sia ame ate ŋu atsɔ ZIP si woŋlɔ ɖi la aɖo ɖa. Nutoa me tɔwo ʋlia nya le nuŋlɔɖiawo ŋu eye ZIP ƒe nuŋlɔlawo xɔa wo alo gbea wo:
 
-- [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company) Aɖaŋudɔwɔƒe Si Kpɔa Gakuwo Gbɔ
-- [Deirdre Connolly ƒe nyawoe nye esia.](https://twitter.com/durumcrustulum) (Zcash Foundation)
+- [Daira Hopwood ƒe agbalẽa](https://twitter.com/feministPLT) (Electric Coin Company)
+- [Deirdre Connolly ƒe agbalẽa](https://twitter.com/durumcrustulum) (Zcash Foundation)
 
-Woŋlɔa nyametsotsowo ɖe ɖoɖo si dzi wowɔ ɖo la me eye woɖoa kpe edzi le mɔ̃ɖaŋunu siwo ŋu dɔ wodze wɔwɔe ƒe kɔpi aɖe nu ne hahohaa va lɔ̃ be yewoawɔ nenema.
+Woŋlɔa nyametsotsowo ɖe nɔnɔmeawo me eye woda asi ɖe wo dzi le kɔsɔkɔsɔ me ne network la xɔ wo.
 
 </div>
 
-## Afikae nye Nuwɔna le?
+## Afikae nye Asitsatsa le?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Xlẽɣi Gbãtɔ [míaƒe mɔfianu si akpe ɖe mía ŋu be míatsi mɔzɔlawo nu la me.](/guides/blockchain-explorers)Ekema kpɔe ɖa be enyo hã. [Zcash Gadzraɖoƒe Ŋuti Numekukula](https://zcashblockexplorer.com).
+Xlẽe gbã [míaƒe mɔfiala si xea mɔ na anyigbayeyedilawo](/guides/blockchain-explorers). Emegbe nàlé ŋku ɖe eŋu [Zcash Block ƒe Ʋuʋudedi](https://zcashblockexplorer.com).
 
-Nuwɔnawo nu va yina le miniti 25 (20 blɔ̃) megbe eye ga siwo woxɔna la trɔna ɖe ame si xɔe.
+Asitsatsaawo wu enu le abe miniti 25 (blok 20) megbe eye wotrɔa ga la le wo ɖokui si.
 
-** Susu siwo ta nuwɔwɔ aɖe mevaa susu dzi o dometɔ aɖewoe nye:**
+**Susu siwo bɔ siwo tae asitsatsa aɖe mate ŋu adze o:**
 
-- Kadodo ƒe anyimanɔmanɔ
-- Dɔwɔgbalẽvi si dzi woazã ga ɖo la me ƒe home mede ame dzi o.
-- Ʋu ƒe agbɔsɔsɔ si gbɔ eme
-- Nu geɖe li si ŋu woate ŋu akpɔ nu le (nɔnɔme lolo akpa)
+- Kadodo ƒe bu
+- Asitsatsa ƒe fetu bɔbɔ akpa
+- Network ƒe agba si wu tsɔtsɔ
+- Nusiwo wotsɔ dea eme si me kɔ akpa (lolo akpa) .
 
-**Aɖaŋuɖoɖo siwo akpe ɖe ŋuwò nàkpɔ dzidzedze:**
+**Aɖaŋuɖoɖo siwo ana nàkpɔ dzidzedze:**
 
-- Zã kadodo si me sẽe
-- Xea fe si sɔ (alo esi de ŋgɔ wu) la na wo.
-- Lala eye nàdze agbagba emegbe.
-- Zã nuŋɔŋlɔ ʋɛ aɖewo nàtsɔ akpɔ egbɔ be dɔwɔnawo mesɔ gbɔ o
+- Zã kadodo si li ke
+- Xe fe si woɖo ɖi (alo esi lolo wu ne wotsɔe ɖo nɔƒe gbãtɔ) .
+- Lala eye nàgadze agbagba ake emegbe
+- Zã nusiwo wotsɔ de eme ʋɛ aɖewo be asitsatsa la nanɔ sue
 
 </div>
 
-## Ðe Zcash nye ga si ame aɖeke metsɔa ƒlea nua oa?
+## Ðe Zcash nye Ame ŋutɔ tɔ nyateƒea?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-** Ɛ̃.** Zcash dea dzesi ame si ɖo ga ɖe wo, woƒe home kple amesi xɔe la ƒe nyatakakawo le nu siwo me wodzraa mɔ ɖo ŋu.
+**Ẽ.** Zcash ɣlaa ame si ɖoe ɖa, ga home, kple amesi xɔe ƒe nyatakakawo hena asitsatsa siwo wokpɔ ta na.
 
-Zcash meƒlea ga o:
+Zcash mewɔa **me** o:
 
-- Xlẽ nu tso asitelefon ƒe dɔwɔƒe si le ame geɖe dzi la ŋu (FROST integration pending)
-- Kpɔ ame ta tso kadodo si le nuwɔwɔ kple amewo me la ŋu.
-- Ɣla IP Addresswo
+- Encrypt multisignature transactions (FROST ƒe ƒoƒo ɖekae le lalam)
+- Takpɔkpɔ tso kadodo siwo le asitsatsa siwo me kɔ la me
+- Ɣla IP adrɛswo
 
-Nuxexlẽ bubuwo: [Nu Gbagbewo Kple Aɖenu Si Me Nuto Le La Ƒe Ametakpɔkpɔ](https://electriccoin.co/blog/shielded-ecosystem)
+Nuxexlẽ bubuwo: [Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo si ŋu wokpɔ akpoxɔnu le](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 
-## Susu totro siwo amewo da ɖe edzi zi geɖe la dometɔ aɖewoe nye esiwo gbɔna:
+## Nukpɔsusu totro ʋɛ aɖewo siwo bɔ
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4 overflow-x-auto">
 
@@ -134,5 +134,5 @@ Nuxexlẽ bubuwo: [Nu Gbagbewo Kple Aɖenu Si Me Nuto Le La Ƒe Ametakpɔkpɔ](h
 
 ---
 
-** Wowɔ tɔtrɔ mamlɛtɔ le:** March 2026
-** Èdi be yeakpe asi ɖe dɔa ŋua?** [Trɔ axa sia le GitHub dzi](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)
+**Wotrɔ asi le eŋu zi mamlɛtɔ:** March 2026
+**Àdi be yeadzɔ nua?** [Trɔ asi le axa sia ŋu le GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

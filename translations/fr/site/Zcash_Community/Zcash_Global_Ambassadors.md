@@ -39,5 +39,5 @@ Les ambassadeurs disposent d’une liberté créative quant aux activités qu’
 ## Postuler pour devenir ambassadeur
 
 Vous pouvez également vous impliquer en :
-- Contribuant aux récompenses de [ZecHub DAO](https://app.dework.xyz/zechub-2424)
-- Rejoignant le [Discord mondial Zcash](https://discord.gg/zcash)
+- Contribuant aux [ZEC primes](https://bounties.zechub.wiki/)
+- Rejoignant le [Zcash Discord mondial](https://discord.gg/zcash)

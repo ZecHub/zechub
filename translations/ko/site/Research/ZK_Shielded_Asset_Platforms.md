@@ -11,8 +11,8 @@ published: 2024-01-12
 
 
 
-**[Firn Protocol](https://app.firn.cash/)**: Firn은 계정 기반 모델에서 최초의 영지식 프라이버시 플랫폼이며, Ethereum 기반 체인에 플러그형의 유연한 프라이버시를 도입합니다. 영지식 증명을 사용하여 Firn은 Ethereum 및 Ethereum 기반 L2 사용자에게 안전하고 효율적인 자금 프라이버시를 제공합니다. **어떻게 작동하나요?**
-Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 생기면 다른 Firn 사용자에게 자금을 비공개로 전송하거나 Uniswap 같은 다른 프로토콜과 상호작용할 수 있습니다. 또한 자금을 다시 네트워크로 비공개 출금할 수도 있습니다. Firn은 모든 ETH 출금에 대해 0.79%의 소액 수수료를 부과합니다. 이 수수료는 FIRN Token 보유자에게 비례하여 분배됩니다 - [백서](https://firn.cash/whitepaper.pdf) 
+**[Firn 프로토콜](https://app.firn.cash/)**: Firn은 계정 기반 모델에서 최초의 영지식 프라이버시 플랫폼이며, Ethereum 기반 체인에 플러그형의 유연한 프라이버시를 도입합니다. 영지식 증명을 사용하여 Firn은 Ethereum 및 Ethereum 기반 L2 사용자에게 안전하고 효율적인 자금 프라이버시를 제공합니다. **어떻게 작동하나요?**
+Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 생기면 다른 Firn 사용자에게 자금을 비공개로 전송하거나 Uniswap 같은 다른 프로토콜과 상호작용할 수 있습니다. 또한 자금을 다시 네트워크로 비공개 출금할 수도 있습니다. Firn은 모든 ETH 출금에 대해 0.79%의 소액 수수료를 부과합니다. 이 수수료는 Firn Token 보유자에게 비례하여 분배됩니다 - [백서](https://firn.cash/whitepaper.pdf)
 
 
 **[RAILGUN](https://railgun.org/):** 레이어 1 스마트 계약인 Railgun은 Ethereum, Polygon, Binance Smart Chain, Arbitrum 위에서 존재하는 프라이빗 전송 및 DeFi 인프라입니다.
@@ -32,11 +32,11 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 **[PantherProtocol](https://www.pantherprotocol.io/)**: 온체인 데이터를 보호하고 규정 준수형 DeFi 접근을 가능하게 하는 영지식, 크로스프로토콜 레이어입니다. **어떻게 작동하나요?** Panther에 자산을 예치하면 1:1 담보형 Shield 자산인 zAssets를 사용할 수 있습니다. Panther Pools에 여러 자산 유형을 저장하면서 영지식 증명으로 온체인 데이터를 보호할 수 있습니다. 서로 다른 가치, 아이디어, 메커니즘을 제안하는 많은 레이어 1 및 2 블록체인이 존재하는 가운데, Panther는 그중 하나가 모든 것을 장악하기를 기대하는 대신 이들을 비공개로 연결하는 인프라를 구축합니다. - [백서](https://docs.pantherprotocol.io/) 
 
 
-**[Sienna Network](https://sienna.network/)**: Sienna.network는 Secret Network 체인의 스왑 및 대출 계약과 상호작용할 수 있는 프라이버시 우선의 탈중앙화 오픈소스 프론트엔드입니다. 다른 사람이 빌릴 수 있도록 secret token을 제공해 수익을 얻거나, 담보를 제공하고 토큰을 빌릴 수 있습니다. 출시되는 마켓은 sBTC, sETH, sSCRT, sXMR, sLUNA, sUST, sUSDT, sUSDC 등입니다. Sienna Network(레이어 2 프로토콜)가 개발되었습니다. SiennaLend는 프라이버시를 유지하면서 여러 블록체인 생태계에 걸쳐 프라이빗 대출을 가능하게 하는 최초의 프라이빗 대출 프로토콜입니다. 이는 허가가 필요 없고 가입 요건이 없으며 예치 한도가 없고 계정을 동결할 중앙화 주체가 없으며, SIENNA 거버넌스 토큰에 의해 운영됩니다 - **자산 스왑**: 예 - [백서](https://sienna.network/whitepaper/) - ![Sienna Logo](/content-images/1-51y4R6V7JALmXtG_ZAsdcw-76d7d91c7a.webp)
+**[Sienna Network](https://sienna.network/)**: Sienna.network는 Secret Network 체인의 스왑 및 대출 계약과 상호작용할 수 있는 프라이버시 우선의 탈중앙화 오픈소스 프론트엔드입니다. 다른 사람이 빌릴 수 있도록 secret token을 제공해 수익을 얻거나, 담보를 제공하고 토큰을 빌릴 수 있습니다. 출시되는 마켓은 sBTC, sETH, sSCRT, sXMR, sLUNA, sUST, sUSDT, sUSDC 등입니다. Sienna Network(레이어 2 프로토콜)가 개발되었습니다. SiennaLend는 프라이버시를 유지하면서 여러 블록체인 생태계에 걸쳐 프라이빗 대출을 가능하게 하는 최초의 프라이빗 대출 프로토콜입니다. 이는 허가가 필요 없고 가입 요건이 없으며 예치 한도가 없고 계정을 동결할 중앙화 주체가 없으며, Sienna 거버넌스 토큰에 의해 운영됩니다 - **자산 스왑**: 예 - [백서](https://sienna.network/whitepaper/) - ![Sienna Logo](/content-images/1-51y4R6V7JALmXtG_ZAsdcw-76d7d91c7a.webp)
 ***
 
-**[Light Shield](https://shield.lightprotocol.com/)**: Light는 Solana를 위해 특별히 설계된, 비공개 프로그램 실행을 가능하게 하는 오픈소스 레이어 2 zkLayer입니다. Light Protocol은 온체인 상태를 암호화할 수 있게 합니다. 사용자는 자신의 프라이빗 상태를 직접 복호화할 수 있으므로 사실상 그것을 "소유"합니다. 프라이빗 상태는 단일 사용자가 소유할 수도 있고, 복호화 키를 공유하는 사용자 집합이 함께 소유할 수도 있습니다.
-예를 들어 Solana의 NFT 리스팅을 생각해보면, 공개 상태(예: 가격)는 판매 중이라는 사실을 포함해 모두에게 보입니다. 하지만 제안과 거래는 비공개로 유지되어야 합니다 - **자산 스왑**: 예 - [백서](https://shield.lightprotocol.com/) - ![Light Shield Logo](/content-images/1-C4Pe23afCwS05seCeZWBLA-d85910d03f.webp)
+**[Light Shield](https://web.archive.org/web/20250823165939/https://shield.lightprotocol.com/)**: Light는 Solana를 위해 특별히 설계된, 비공개 프로그램 실행을 가능하게 하는 오픈소스 레이어 2 zkLayer입니다. Light Protocol은 온체인 상태를 암호화할 수 있게 합니다. 사용자는 자신의 프라이빗 상태를 직접 복호화할 수 있으므로 사실상 그것을 "소유"합니다. 프라이빗 상태는 단일 사용자가 소유할 수도 있고, 복호화 키를 공유하는 사용자 집합이 함께 소유할 수도 있습니다.
+예를 들어 Solana의 NFT 리스팅을 생각해보면, 공개 상태(예: 가격)는 판매 중이라는 사실을 포함해 모두에게 보입니다. 하지만 제안과 거래는 비공개로 유지되어야 합니다 - **자산 스왑**: 예 - [백서](https://web.archive.org/web/20250823165939/https://shield.lightprotocol.com/) - ![Light Shield Logo](/content-images/1-C4Pe23afCwS05seCeZWBLA-d85910d03f.webp)
 ***
 
 **[Conceal Network](https://conceal.network/wiki/doku.php)**: Conceal Network는 개인들이 익명적이고 탈중앙화된 방식으로 서로 소통하고 금융적으로 상호작용할 수 있는 능력을 제공하기 위해 구축되었습니다. Conceal에서는 송신자와 수신자 사이의 거래를 연결할 수 없습니다. 또한 Conceal은 진정한 익명 결제를 위해 링 서명과 일회용 주소를 사용합니다 - **자산 스왑**: 예 - [백서](https://conceal.network/wiki/doku.php) - ![Conceal.png](/content-images/media_articles_01-ecae30ec1a.webp)
@@ -46,10 +46,10 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 ***
 
 
-**[FairySwap](https://fairyswap.finance/)**: Fairyswap은 무허가성과 탈중앙화를 지향하는 차세대 커뮤니티 주도형 프라이버시 DEX인 레이어 1입니다. Findora에 내장된 영지식 증명 기술을 활용하여, FairySwap과 같은 프라이버시 DEX 및 Dapp은 사용자가 공개 블록체인에서 어떤 정보를 보이게 할지, 어떤 정보를 차폐할지를 선택할 수 있게 합니다. 보이지 않게 하려는 정보도 세부 사항을 드러내지 않고 영지식 증명을 통해 공개적으로 검증될 수 있습니다 - **자산 스왑**: 예 - [백서](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+**[FairySwap](https://fairyswap.finance/)**: FairySwap은 무허가성과 탈중앙화를 지향하는 차세대 커뮤니티 주도형 프라이버시 DEX인 레이어 1입니다. Findora에 내장된 영지식 증명 기술을 활용하여, FairySwap과 같은 프라이버시 DEX 및 Dapp은 사용자가 공개 블록체인에서 어떤 정보를 보이게 할지, 어떤 정보를 차폐할지를 선택할 수 있게 합니다. 보이지 않게 하려는 정보도 세부 사항을 드러내지 않고 영지식 증명을 통해 공개적으로 검증될 수 있습니다 - **자산 스왑**: 예 - [백서](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
-**[ZKSync](https://zksync.io/)**: zkSync는 Ethereum 위의 레이어 2 확장 솔루션으로, 보안을 훼손하지 않으면서 낮은 가스 비용과 빠른 거래를 제공합니다. 사용자는 언제든지 자산을 레이어 1로 출금할 수 있습니다. 전체 zkSync 생태계에 접근하고 저렴하고 즉시 처리되는 거래의 이점을 누리려면 먼저 [Argent 같은 지갑](https://argent.link/zksync)이 필요합니다. 지갑이 없으면 Coinbase나 Binance 같은 거래소를 통해 zkSync에 접근할 수 없기 때문에 네트워크에 온보딩할 수 없습니다. 지갑은 암호화폐를 구매, 판매, 보관하고 DeFi, NFT 등 흥미로운 세계를 쉽게 경험할 수 있게 해줍니다 - **자산 스왑**: 예 - [백서](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
+**[ZKsync](https://zksync.io/)**: ZKsync는 Ethereum 위의 레이어 2 확장 솔루션으로, 보안을 훼손하지 않으면서 낮은 가스 비용과 빠른 거래를 제공합니다. 사용자는 언제든지 자산을 레이어 1로 출금할 수 있습니다. 전체 ZKsync 생태계에 접근하고 저렴하고 즉시 처리되는 거래의 이점을 누리려면 먼저 [Argent 같은 지갑](https://argent.link/zksync)이 필요합니다. 지갑이 없으면 Coinbase나 Binance 같은 거래소를 통해 ZKsync에 접근할 수 없기 때문에 네트워크에 온보딩할 수 없습니다. 지갑은 암호화폐를 구매, 판매, 보관하고 DeFi, NFT 등 흥미로운 세계를 쉽게 경험할 수 있게 해줍니다 - **자산 스왑**: 예 - [백서](https://docs.zksync.io/) - ![ZKsync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
 ***
 
 **[Penumbra](https://penumbra.zone/blog/valetudo-testnet/)**: Penumbra는 Cosmos 생태계 내의 완전 Shield 레이어 1 네트워크입니다. 이는 Shield된 크로스체인 네트워크로, 누구나 자신의 개인정보를 세상에 공개하지 않고도 안전하게 거래, 스테이킹, 스왑 또는 마켓메이킹을 할 수 있게 합니다. 완전 Shield 블록체인으로서 Penumbra는 모든 가치를 하나의 Shield 풀에 기록하며, 이 풀은 어떤 종류의 자산이든 기록할 수 있습니다. Penumbra는 기본적으로 프라이버시를 제공하며, 투명 거래나 투명 가치 풀이 없습니다 - **자산 스왑**: 예 - ![Penumbra.png](/content-images/CrNB0cKl_400x400-3bdcf7cfb9.webp)
@@ -60,7 +60,7 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 ***
 
 
-**[ZKBOB](https://zkbob.com/)**: zkBob 스마트 계약 지갑으로 프라이버시를 보호하세요. zkBob을 사용하면 지갑의 내용과 지출 및 수령 금액이 완전히 비공개가 됩니다. zkBob을 사용해 급여, 결제, 기부 등을 프라이버시와 내장된 규정 준수 기능과 함께 보내거나 받을 수 있습니다. 또한 영지식 증명 기술을 사용한 프라이빗 P2P 전송을 통해 수신자를 보호하고 금액을 익명화할 수 있습니다 - **자산 스왑**: 예 -  ![ZKBOB.png](/content-images/aalptltf_400x400-0fa94999b5.webp) - [백서](https://docs.zkbob.com/zkbob-overview/basic-concepts)
+**[zkBob](https://zkbob.com/)**: zkBob 스마트 계약 지갑으로 프라이버시를 보호하세요. zkBob을 사용하면 지갑의 내용과 지출 및 수령 금액이 완전히 비공개가 됩니다. zkBob을 사용해 급여, 결제, 기부 등을 프라이버시와 내장된 규정 준수 기능과 함께 보내거나 받을 수 있습니다. 또한 영지식 증명 기술을 사용한 프라이빗 P2P 전송을 통해 수신자를 보호하고 금액을 익명화할 수 있습니다 - **자산 스왑**: 예 -  ![zkBob.png](/content-images/aalptltf_400x400-0fa94999b5.webp) - [백서](https://docs.zkbob.com/zkbob-overview/basic-concepts)
 ***
 
 **[Firo](https://firo.org/)**: 이전에 Zcoin으로 알려졌던 Firo는 암호화폐 프라이버시와 채굴에 초점을 맞춘 레이어 1 프라이버시 블록체인입니다. Firo는 Lelantus와 Lelantus Spark를 통해 신뢰 불필요한 온체인 프라이버시와 높은 익명성 집합을 제공하며, 암호화폐 프라이버시의 최전선에 있습니다. Dandelion++ 기술 또한 네트워크 계층 프라이버시를 제공합니다. Firo는 Lelantus와 Lelantus Spark를 통해 신뢰 불필요한 온체인 프라이버시와 높은 익명성 집합을 제공하며, 암호화폐 프라이버시의 최전선에 있습니다. Dandelion++ 기술 또한 네트워크 계층 프라이버시를 제공합니다 - **자산 스왑**: 예 - ![Firo.png](/content-images/22083410-abd57747d1.webp)
@@ -69,10 +69,10 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 **[PIVX](https://pivx.org/)**: PIVX는 네트워크의 2계층을 활용하며, 거버넌스에 참여하도록 masternode를 배치합니다. PIVX는 고급 사용자 데이터 보호 기능, 커뮤니티 거버넌스 메커니즘, 지분증명 합의 알고리즘, 다목적 Masternode를 갖춘 오픈소스 탈중앙화 P2P 통화입니다. PIVX를 통해 사용자는 SHIELD 사용자 데이터 보호와 함께 글로벌 디지털 현금의 자유를 매끄럽게 경험할 수 있습니다. 디지털 자산을 완전히 통제하며 스스로의 은행이 되세요 - **자산 스왑**: 예 -[백서](https://pivx.org/whitepaper) - ![PIVX.png](/content-images/1169-c01a9208a4.webp)
 ***
 
-**[BEAM](https://beam.mw/)**: Beam은 거래를 완전히 은닉하는 최고의 Mimblewimble L1 프라이버시 블록체인입니다. 최고의 기밀 DeFi 경험을 위해 Beam Wallet을 다운로드하세요 - **자산 스왑**: 예 - [백서](https://beam.mw/en/docs) - ![BEAM.png](/content-images/diZpv5uB_400x400-80e644b1cf.webp)
+**[BEAM](https://beam.mw/)**: BEAM은 거래를 완전히 은닉하는 최고의 Mimblewimble L1 프라이버시 블록체인입니다. 최고의 기밀 DeFi 경험을 위해 BEAM Wallet을 다운로드하세요 - **자산 스왑**: 예 - [백서](https://beam.mw/en/docs) - ![BEAM.png](/content-images/diZpv5uB_400x400-80e644b1cf.webp)
 ***
 
-**[Oxen](https://oxen.io/)**: Oxen(이전 이름 LOKI)은 사명을 가진 프라이버시 기술 프로젝트입니다. 즉시 거래가 가능한 프라이빗 암호화폐입니다. 거대하고 강력한 PoS 네트워크이자 안전한 메시징 플랫폼입니다. 이 앱은 현재 레이어 1 Oxen 체인에서 EVM 호환 체인으로 전환하는 과정에 있으며, OXEN 코인은 대부분의 Web3 애플리케이션과 호환되는 레이어 2 체인에서 실행될 새로운 ERC-20 토큰인 Session Token이 될 예정입니다 - **자산 스왑**: 예 - [백서](https://docs.oxen.io/) - ![Oxen.png](/content-images/GJAsdyzF_400x400-bb04eed625.webp)
+**[Oxen](https://oxen.io/)**: Oxen(이전 이름 LOKI)은 사명을 가진 프라이버시 기술 프로젝트입니다. 즉시 거래가 가능한 프라이빗 암호화폐입니다. 거대하고 강력한 PoS 네트워크이자 안전한 메시징 플랫폼입니다. 이 앱은 현재 레이어 1 Oxen 체인에서 EVM 호환 체인으로 전환하는 과정에 있으며, Oxen 코인은 대부분의 Web3 애플리케이션과 호환되는 레이어 2 체인에서 실행될 새로운 ERC-20 토큰인 Session Token이 될 예정입니다 - **자산 스왑**: 예 - [백서](https://docs.oxen.io/) - ![Oxen.png](/content-images/GJAsdyzF_400x400-bb04eed625.webp)
 ***
 
 **[Particl](https://particl.io/coin)**: 중개자 없이, 제한 없이 개인이 돈을 비공개로 보내고 받을 수 있도록 설계된 레이어 1 솔루션인 Particl입니다. 쉽고, 빠르고, 안전합니다. 현금과 같지만 디지털입니다! 금융을 비공개로 유지하세요. PART를 사용하면 공개 거래를 할 수도 있고 완전히 추적 불가능한 비공개 거래를 할 수도 있습니다. 선택은 여러분의 몫이며, 어떤 필요가 있든 여러분을 위한 솔루션이 있습니다 - **자산 스왑**: 예 - [백서](https://raw.githubusercontent.com/particl/whitepaper/master/Particl%20Whitepaper%20Draft%20v0.3.pdf) - ![Particl.png](/content-images/WJ070Lrr_400x400-7b7a6ee533.webp)
@@ -93,5 +93,5 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO는 레이어 1 퍼블릭 블록체인입니다. Tomochain은 TomoChain 위에서 개발된 프라이버시 프로토콜로, 안전하고 추적 불가능한 거래를 만들도록 설계되었습니다 -**자산 스왑**: 예- [백서](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO는 레이어 1 퍼블릭 블록체인입니다. TomoChain은(는) TomoChain 위에서 개발된 프라이버시 프로토콜로, 안전하고 추적 불가능한 거래를 만들도록 설계되었습니다 -**자산 스왑**: 예- [백서](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

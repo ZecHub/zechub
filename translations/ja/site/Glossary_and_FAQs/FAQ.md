@@ -95,7 +95,7 @@ Zcashは**次のことを行いません**：
 - Transparent取引との相関から保護する
 - IPアドレスを隠す
 
-さらに読む：[Shieldedエコシステム](https://electriccoin.co/blog/shielded-ecosystem)
+さらに読む：[Shieldedエコシステム](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

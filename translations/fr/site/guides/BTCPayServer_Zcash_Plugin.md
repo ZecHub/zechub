@@ -441,7 +441,7 @@ Ajoutez la ligne suivante en remplaçant l’URL par le point d’accès de votr
 
 Vous pouvez utiliser :
 
-* Un **nœud public**, tel que `https://lightwalletd.zcash-infra.com`
+* Un **nœud public**, tel que `https://zec.rocks:443`
 * Votre propre nœud auto-hébergé, déployé séparément de BTCPay Server
 
 > Si le `lightwalletd` externe devient indisponible ou surchargé, les paiements blindés échoueront.

@@ -72,7 +72,7 @@ Ihe ị ga-amụta: nzuzo na-adabere n'ịnọgide n'ime ọdọ mmiri ndị a k
 
 - [Zcash Block Explorer (Nchịkọta nke ihe nchọgharị)](https://mainnet.zcashexplorer.app/)
 
-- [Oche oche akwa.](https://blockchair.com)
+- [Blockchair](https://blockchair.com)
 
 - [3xpl (ọ bụ naanị)](https://3xpl.com/zcash)
 
@@ -86,7 +86,7 @@ Lee ihe atụ anọ dị mma nke ndị na-enyocha blockchain:
 * [Mempool.space (Nkeji nke abụọ)](https://mempool.space)
 * [Ethscan (n'asụsụ Bekee)](https://etherscan.io/)
 * [Zcash Block Explorer (Nchịkọta nke ihe nchọgharị)](https://mainnet.zcashexplorer.app)
-* [Mintscan (n'asụsụ Bekee)](https://hub.mintscan.io/chains/ibc-network)
+* [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
 ![bitcoinExlporer](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)

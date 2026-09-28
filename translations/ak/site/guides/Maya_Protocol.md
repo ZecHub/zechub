@@ -17,7 +17,7 @@
 </div>
 
 
-## Dɛn ne Maya Nhyehyɛe no?
+## Dɛn ne Maya Protocol?
 
 Maya yɛ obi a ne ho nni asɛm. [nkitahodie a enni nnyinasoɔ](https://nym.com/blog/what-is-dex) (DEX) nhyehyɛeɛ a ɛma kwan ma wɔde cryptocurrency di dwa wɔ blockchain ahodoɔ so. Wobɛtumi, sɛ nhwɛsoɔ de Bitcoin (BTC) asesa Ethereum (ETH) wɔ Blockchain no mu ɔkwan tiawa bi so, bere a wonni sika anaa wɔnni tumi biara na afei nso wonnim wo kwampaefo akwan (KYC).
 
@@ -77,4 +77,4 @@ DefiSpot: ɛnni intanɛt so bio, ne domen no ntumi nsiesie.
 
 [XDEFI](https://www.xdefi.io/): sika kotoku a w'ankasa hwɛ so wɔ mu, na ɛboa ma wɔde blockchain ahorow bɛboro 30 ne EVM nyinaa di dwuma. Saa nkɔnsɔnkɔnsɔn no bi nso yɛ Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, ɛne afoforo pii.
 
-[Fa Kyerԑnkyerԑmu to hɔ ](https://keepkey.com/): Dwumadie a wɔde sie sika wɔ abɛɛfo mfiri so.
+[KeepKey ](https://keepkey.com/): Dwumadie a wɔde sie sika wɔ abɛɛfo mfiri so.

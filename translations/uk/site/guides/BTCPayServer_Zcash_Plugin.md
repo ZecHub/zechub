@@ -441,7 +441,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 Ви можете використовувати:
 
-* **Публічний вузол**, наприклад `https://lightwalletd.zcash-infra.com`
+* **Публічний вузол**, наприклад `https://zec.rocks:443`
 * Власний self-hosted вузол, розгорнутий окремо від BTCPay Server
 
 > Якщо зовнішній `lightwalletd` стане недоступним або перевантаженим, shielded-платежі перестануть працювати.

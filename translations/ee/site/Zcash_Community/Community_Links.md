@@ -51,7 +51,7 @@ Zcash le xexeame katã ƒe anyinɔnɔ vevie le X. Akɔntabubu vevi siwo akplɔe 
 | [@ZcastEsp ƒe nyawo](https://x.com/ZcastEsp) | Zcast - Spaingbe me Zcash podcast |
 | [@ZkAv_Klub ƒe ƒuƒoƒo](https://x.com/ZkAv_Club) | ZK Odio kple nukpɔkpɔ ƒe Habɔbɔ |
 | [@cipherscan_dɔdamɔnu](https://x.com/cipherscan_app) | CipherScan blockchain ƒe numekula |
-| [@zerodartz ye nye esia](https://x.com/Zerodartz) | Nutoa me memes kple numeɖeɖe |
+| [@zerodartz ƒe nyawo](https://x.com/Zerodartz) | Nutoa me memes kple numeɖeɖe |
 
 ----
 
@@ -63,7 +63,7 @@ Zcash le xexeame katã ƒe anyinɔnɔ vevie le X. Akɔntabubu vevi siwo akplɔe 
 - [Zcash Arabiatɔwo ƒe ŋkɔ](https://x.com/ZcashArabia) - Arabgbe dolawo ƒe nuto
 - [Zcash Nigeria ƒe nyawo](https://x.com/ZcashNigeria) - Nigeriatɔwo ƒe nuto
 - [ruZcash ƒe ga](https://x.com/ruZCASH) - Russiagbedolawo ƒe Zcash nuto
-- [Zcash Korea ƒe ŋkɔ](https://x.com/zcash_korea) - Koreatɔwo ƒe nutoa me tɔwo
+- [Zcash Korea ƒe ŋkɔ](https://x.com/zcash_korea) - Koreatɔwo ƒe nuto
 - [Zcash Ɣedzeƒe Afrika](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - South Africa kple Ɣedzeƒe Afrika
 - [genzcash ƒe ŋkɔ](https://x.com/genzcash) - Zcash nuto si me sɔhɛwo ƒe susu le
 
@@ -75,4 +75,4 @@ Zcash le xexeame katã ƒe anyinɔnɔ vevie le X. Akɔntabubu vevi siwo akplɔe 
 - [ZecHub ƒe Wiki](https://zechub.wiki)
 - [Zcash ƒe Gakpekpeɖeŋunana Dɔwɔƒe](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcash Xexeame Katã ƒe Dutanyanyuigblɔlawo](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - ɖoɖowɔɖi ƒe wɔwɔfia le wiki sia dzi (zcashambassadors.com mele internet dzi o)
-- [ZecHub DAO le Dework dzi](https://app.dework.xyz/zechub-2424)
+- [ZEC ƒe Bounties](https://bounties.zechub.wiki/)

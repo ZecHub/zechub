@@ -159,15 +159,15 @@ Simplificámos deliberadamente. O circuito real envolve centenas de regiões e m
 
 | Termo | Significado em linguagem simples |
 |---|---|
-| **Pool protegido** | O modo privado de Zcash em que os montantes e as partes estão ocultos |
-| **Prova de conhecimento zero** | Uma prova de que uma afirmação oculta é válida, sem revelar mais nada |
-| **Circuito** | O conjunto fixo de condições aritméticas que uma transação válida deve satisfazer |
-| **Restrição** | Uma condição (equação) dentro do circuito |
-| **Testemunha** | Os valores secretos que satisfazem as restrições |
-| **Solidez** | A garantia de que apenas afirmações verdadeiras podem produzir uma prova válida |
-| **Lacuna de solidez** | Uma restrição em falta que permite a passagem de afirmações falsas |
-| **Com restrições insuficientes** | Um circuito sem uma condição de que precisava, a origem do bug Orchard |
-| **Detetável / indetetável** | Se a exploração deixaria evidência no livro-razão público |
+| **Shielded pool** | O modo privado de Zcash em que os montantes e as partes estão ocultos |
+| **Zero-knowledge proof** | Uma prova de que uma afirmação oculta é válida, sem revelar mais nada |
+| **Circuit** | O conjunto fixo de condições aritméticas que uma transação válida deve satisfazer |
+| **Constraint** | Uma condição (equação) dentro do circuito |
+| **Witness** | Os valores secretos que satisfazem as restrições |
+| **Soundness** | A garantia de que apenas afirmações verdadeiras podem produzir uma prova válida |
+| **Soundness gap** | Uma restrição em falta que permite a passagem de afirmações falsas |
+| **Under-constrained** | Um circuito sem uma condição de que precisava, a origem do bug Orchard |
+| **Detectable / undetectable** | Se a exploração deixaria evidência no livro-razão público |
 
 ---
 

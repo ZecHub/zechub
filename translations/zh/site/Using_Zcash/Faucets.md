@@ -11,8 +11,6 @@
 
 主网：<a href="https://zecfaucet.com">zecfaucet</a>
 
-测试网：<a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
-
 测试网：<a href="https://fauzec.com/">fauzec.com</a>
 
 测试网：<a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>

@@ -102,7 +102,7 @@ Server siwo woŋlɔ ɖe dashboard ma dzi le nyati sia ŋɔŋlɔɣi:
 | zec.kpewo:443 | Woŋlɔ nutome ƒe nuwuƒewo ɖe eƒe axadzi le na.zec.rocks, eu.zec.rocks, ap.zec.rocks kple sa.zec.rocks |
 | zec-node.keke ƒe gakotoku.com: 443 | Le Cake Wallet ƒe domenyiŋusẽfianu dzi |
 | zec.0xrpc.io: 443 kple edzivɔ | 0xRPC ye le edzi kpɔm, si naa dutoƒo nuwuƒe femaxee na kɔsɔkɔsɔ geɖe eye wòbiaa nudzɔdzɔwo be woatsɔ axe ŋutete |
-| zaino.unsafe.zec.rocks:443 | A Zaino instance. Note the hostname, treat it as experimental |
+| zaino.unsafe.zec.rocks:443 | Zaino kpɔɖeŋu aɖe. De dzesi amedzroxɔla ƒe ŋkɔ, bu eŋu abe dodokpɔ ene |
 | testnet.zec.kpewo: 443 | Testnet, kple Zaino testnet ƒe kpɔɖeŋu si woŋlɔ ɖe zaino.testnet.unsafe.zec.rocks |
 
 Kpɔ dashboard la ɖa tsɔ wu be nàka ɖe xexlẽdzesi sia dzi. Dɔdzikpɔlawo vaa eye wodzona, eye axa si le abe esia ene tsina.

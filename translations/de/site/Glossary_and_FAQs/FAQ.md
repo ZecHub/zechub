@@ -95,7 +95,7 @@ Zcash verschlüsselt **nicht**:
 - Korrelationen mit transparenten Transaktionen
 - IP-Adressen
 
-Weiterführende Informationen: [Ein abgeschirmtes Ökosystem](https://electriccoin.co/blog/shielded-ecosystem)
+Weiterführende Informationen: [Ein abgeschirmtes Ökosystem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

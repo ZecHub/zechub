@@ -17,7 +17,7 @@
 </div>
 
 
-## Itikadi ya Maya ni nini?
+## Maya Protocol ni nini?
 
 Maya ni a [kubadilishana madaraka ya chini](https://nym.com/blog/what-is-dex) (DEX) mfumo ambao unawezesha biashara ya cryptocurrencies katika blockchains tofauti. Unaweza, kwa mfano, kubadilishana Bitcoin (BTC) kwenye blockchain Bitcoin na Ethereum (ETH) juu ya blockchain Ethereum kwa njia rahisi, bila kushikilia mali au kuhusisha mamlaka yoyote kuu au Ujue taratibu za Wateja wako (KYC).
 
@@ -77,4 +77,4 @@ DefiSpot: tena online, uwanja wake haina kutatua.
 
 [XDEFI](https://www.xdefi.io/): a multi-ecosystem self-custody wallet with support for 30+ native blockchains, and all EVM and Cosmos chains, including Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, and more.
 
-[WekaKey ](https://keepkey.com/): mkoba vifaa kwa ajili ya kuhifadhi salama mali digital.
+[KeepKey ](https://keepkey.com/): mkoba vifaa kwa ajili ya kuhifadhi salama mali digital.

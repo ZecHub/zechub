@@ -441,7 +441,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 Вы можете использовать:
 
-* **Публичный узел**, например `https://lightwalletd.zcash-infra.com`
+* **Публичный узел**, например `https://zec.rocks:443`
 * Собственный self-hosted-узел, развёрнутый отдельно от BTCPay Server
 
 > Если внешний `lightwalletd` станет недоступен или перегружен, защищённые платежи перестанут работать.

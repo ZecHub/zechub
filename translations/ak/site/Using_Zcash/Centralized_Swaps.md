@@ -9,7 +9,7 @@ ZecHub nnhyɛ da ɛnto nsa mma dwumadie pɔtee biara, yɛsrɛ sɛ yɛ w'ankasa n
 Obiara ne no `###` N'asɛmti a ɛwɔ ase ha no yɛ krataa biako wɔ so. https://zechub.wiki/using-zcash/centralizedswaps.
 Twe, twe anaa yi ɔfã bi firi ha; wiki no bɛgye afiri saa fael yi mu.
 
-### Ma wɔnsesa nsɛm no.
+### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
@@ -18,7 +18,7 @@ Twe, twe anaa yi ɔfã bi firi ha; wiki no bɛgye afiri saa fael yi mu.
 
 ___
 
-### Ɛnkyɛre-n'adwene mu
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -27,7 +27,7 @@ ___
 
 ___
 
-### Shapeshift (Nneɛma a woahyehyɛ no)
+### ShapeShift
 
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
@@ -36,7 +36,7 @@ ___
 
 ___
 
-### Stealth EX (Ɔkwammɔne a enni hɔ)
+### Stealth EX
 
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
@@ -54,7 +54,7 @@ ___
 
 ___
 
-### Flyp.me
+### flyp.me
 
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Exolix ԑnnԑnso
+### Exolix
 
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Trocodor ho nsɛm
+### Trocodor
 
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### Bison Akwanhorow nkrataa mu.
+### Bison Wallet
 
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
@@ -108,7 +108,7 @@ ___
 
 ___
 
-### Fixed Float (Ɔwɔ hɔ bere biara)
+### Fixed Float
 
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
@@ -117,7 +117,7 @@ ___
 
 ___
 
-### Xchange (sesaeɛ)
+### Xchange
 
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
@@ -126,7 +126,7 @@ ___
 
 ___
 
-### Bitcoin VN ne nea edi kan wɔ wiase nyinaa.
+### Bitcoin VN
 
 <img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
 

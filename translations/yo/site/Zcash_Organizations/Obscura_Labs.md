@@ -19,7 +19,7 @@ Before establishing Obscura Labs, Chidi contributed to the Zcash ecosystem throu
 
 Engagement with users, students, developers, businesses, and community members highlighted several barriers to broader Zcash adoption across Africa. These included limited infrastructure, difficulty accessing ZEC through local currencies, insufficient developer support, a shortage of localized educational resources, and limited integration with everyday payment systems.
 
-A dá àwọn ilé-ìwádìí Obscura sílẹ̀ láti dáhùn àwọn ìpèníjà wọ̀nyí.
+A ṣẹ̀dá Obscura Labs láti dáhùn sí àwọn ìpèníjà wọ̀nyí.
 
 The organization is based on the view that awareness alone is not sufficient for sustainable adoption. Communities also require reliable infrastructure, accessible products, developer tools, financial access, education, and long-term institutional support.
 
@@ -38,7 +38,7 @@ The organization is based on the view that awareness alone is not sufficient for
 
 ## Àwọn Àgbègbè Tó Ṣe Pàtàkì
 
-Awọn ile-iṣẹ Obscura lakọkọ ngbero lati dojukọ iṣẹ rẹ kọja awọn agbegbe ilana mẹrin.
+Ní àkọ́kọ́, Obscura Labs gbèrò láti gbájúmọ́ iṣẹ́ rẹ̀ káàkiri àwọn agbègbè pàtàkì mẹ́rin.
 
 ### Ìdàgbàsókè Ìpínlẹ̀
 
@@ -118,7 +118,7 @@ Bó tilẹ̀ jẹ́ pé ilé-ìwádìí Obscura Labs ṣì wà ní ìbẹ̀rẹ�
 
 ### Ohun-èlò Àgbékalẹ̀ DNS ti ilẹ̀ Áfríkà
 
-Àwọn yàrá ìwádìí Obscura ló ń ṣètò àwọn ohun èlò ìkórè DNS láti Áfíríkà.
+Obscura Labs n ṣiṣẹ eto amayederun irugbin DNS lati Afirika.
 
 DNS seeders ṣe iranlọwọ fun awọn nodes Zcash tuntun lati ṣe awari awọn ẹlẹgbẹ nigbati wọn ba sopọ si nẹtiwọọki naa. Nla pinpin agbegbe ti awọn olutọju n ṣe alabapin si aifọwọyi ati agbara ti nẹri peer-to-peer Zcash.
 
@@ -194,7 +194,7 @@ Ní ìfilọlẹ, Obscura Labs ni a nireti lati ni owo ni akọkọ nipasẹ:
 
 A ó lo owó àkọ́kọ́ láti fi ṣètìlẹyìn fún àwọn iṣẹ́ ìkọ́lé, ìdàgbàsókè ọjà, àwọn ìgbésẹ̀ àwùjọ, ìnáwó ètò àjọ, àti kíkó àwọn olùkópa.
 
-Pẹlu akoko, Awọn ile-iṣelọpọ Obscura pinnu lati ṣe agbekalẹ awoṣe igbeowosile alagbero ti o fun laaye laaye lati pese iye ti a le wiwọn nigbagbogbo si ilolupo eda abemi Zcash lakoko ti o n ṣetọju ominira rẹ.
+Bí àkókò ti ń lọ, Obscura Labs ní èrò láti ṣe àgbékalẹ̀ àpẹẹrẹ ìnáwó aládàáni tí yóò jẹ́ kí ó lè máa fi ìníyelórí tí a lè wọ̀n hàn sí ètò Zcash nígbà gbogbo, nígbà tí ó ń pa òmìnira rẹ̀ mọ́.
 
 ## Ipa ninu Eto Ilẹ-aye Zcash
 

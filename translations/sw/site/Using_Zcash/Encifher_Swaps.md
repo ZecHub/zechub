@@ -4,7 +4,7 @@
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Gateway yako binafsi, msalaba-mnyororo swaps powered na karibu nia.* 
+*Lango lako la kubadilishana kwa faragha, kwa mnyororo mtambuka kunakoendeshwa na NEAR Intents.* 
 
 ---
 
@@ -72,7 +72,7 @@ Kurudi kwenye ** encrypt.trade**, kwenda kwa ** Swap** Chagua ** eSOL / eUSDC ->
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-** NEAR Makusudi** injini moja kwa moja hushughulikia msalaba-mnyororo routing - kutoa ** ZEC ** moja kwa mmoja kwenye pochi yako ya Zodl ndani sekunde. 
+Injini ya **NEAR Intents** hushughulikia kiotomatiki uelekezaji wa mnyororo mtambuka - ikitoa **ZEC** moja kwa moja kwenye pochi yako Zodl ndani ya sekunde chache. 
 
 
 

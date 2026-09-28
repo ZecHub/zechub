@@ -42,7 +42,7 @@ Hey... Nye fli la xɔ kafukafu! Àte ŋu aɖo kpe wò e-mail hã dzi le fexexe �
 Mɔnu si le etame bia be nàwɔ Coinsbee ƒe akɔnta. Ne èdi be yemawɔe o la, CardsRelay dzraa asitelefon dzi gadodo na ZEC ŋkɔ ŋɔŋlɔ manɔmee.
 
 ### 1. Tia dukɔ si me nèle kple dɔwɔƒe si nèwɔa dɔ le
-Sasrã [KpekpeɖeŋugbalẽviwoRelay](https://cardsrelay.com) eye nàʋu Mobile Top Ups ƒe akpaa. Wodoa alɔ dɔwɔƒe siwo wu 750 le xexeame katã.
+Sasrã [CardsRelay](https://cardsrelay.com) eye nàʋu Mobile Top Ups ƒe akpaa. Wodoa alɔ dɔwɔƒe siwo wu 750 le xexeame katã.
 
 ### 2. Ŋlɔ xexlẽdzesia kple ga homea
 Kpe asitelefon xexlẽdzesi si woatsɔ axɔe la ɖo eye nàtia asixɔxɔ si woatsɔ akpe ɖe eŋu. Ga home si woɖe fia la nye ga home ɖeka si wotsɔ ƒo ƒui, eye wometsɔ ga si woatsɔ aɖɔli gae ƒe dzeside bubu aɖeke kpee emegbe o.

@@ -39,5 +39,5 @@
 ## 앰배서더 지원하기
 
 다음과 같은 방법으로도 참여할 수 있습니다:
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424) 바운티에 기여
+- [ZEC Bounties](https://bounties.zechub.wiki/)에 기여
 - [Zcash Global Discord](https://discord.gg/zcash)에 참여

@@ -209,7 +209,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 
 | Terim | Tanım |
 |------|-----------|
-| Cüzdan | Özel anahtarları saklayan ve ZEC gönderip almanızı sağlayan yazılım veya donanım. Aktif cüzdanlar arasında ZODL (iOS/Android), Zingo! (mobil/masaüstü), Nighthawk (Android), Zkool (mobil/masaüstü), Zallet (yakında) ve Keystone (donanım) bulunur. Tam liste için bkz. [Zcash Ekosistem Cüzdanları](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Özel anahtarları saklayan ve ZEC gönderip almanızı sağlayan yazılım veya donanım. Aktif cüzdanlar arasında ZODL (iOS/Android), Zingo! (mobil/masaüstü), Nighthawk (Android), Zkool (mobil/masaüstü), Zallet (yakında) ve Keystone (donanım) bulunur. Tam liste için bkz. [Zcash Ekosistem Cüzdanları](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Tarayıcı ortamları için ChainSafe tarafından geliştirilen, Zcash için ilk JavaScript SDK'sı. MetaMask'e shielded ZEC getiren Zcash Shielded Wallet snap'inin temelini oluşturur. |
 
 ## X

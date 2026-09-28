@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-* Pepper Sync ni injini ya usawazishaji iliyoletwa katika Zingo! 2.0, mkoba wa chanzo wazi cha Zcash uliojengwa na Maabara za Zingo.
+* Pepper Sync ni injini ya ulandanishi iliyoanzishwa katika Zingo! 2.0, pochi huria Zcash iliyojengwa na Zingo Labs.
 * Inatumia usawazishaji usio wa mstari badala ya kuchunguza mlolongo katika vipande vikubwa vya mfululizo, hivyo mizani yako na shughuli zinaonekana mapema zaidi.
 * Maendeleo ni kuokolewa kuendelea. Kama uhusiano drops au programu ya kufunga, syncing itaanza tena kutoka ambapo kusimamishwa badala ya kuanza upya.
 * Unaweza kutumia kabla ya usawazishaji kumalizika.
@@ -35,12 +35,12 @@ Pepper Sync huanzisha maboresho kadhaa:
 
 Toleo la zamani ya Zingo mara nyingi frustrated watumiaji na muda mrefu syncing, makosa wazi utunzaji, na matumizi makubwa rasilimali. Pepper Sync fixes masuala haya ya kawaida:
 
-Kipengele cha Zingo Toleo la awali,Zingo 2.0 na Pepper Sync.
+| Kipengele            | Matoleo ya Zingo ya Awali                | Zingo 2.0 yenye Usawazishaji wa Pepper                   |
 | ------------------ | -------------------------------------- | -------------------------------------------- |
-│Kusawazisha kasi. │Upole, hasa katika kuanzisha kwanza. ‭haraka sana awali na kuendelea kusawazisha.
-❖ Kushughulikia makosa✔️ Kuanguka mara kwa mara na kushindwa wazi. Kuboresha utulivu pamoja na kufufua moja kwa moja.
-◯ Uzoefu wa mtumiaji. Sync ilionekana "isiyo wazi" kwa wageni wapya. Kiwazi, na hali ya ufafanuzi zaidi na sasisho.
-❖ Utendaji wa kifaa. matumizi ya juu CPU/kumbukumbu optimized kwa ajili ya kutumia rasilimali laini.
+| Kasi ya Usawazishaji         | Polepole zaidi, hasa kwenye usanidi wa kwanza      | Usawazishaji wa awali na unaoendelea kwa kasi zaidi         |
+| Kushughulikia Hitilafu     | Kukwama mara kwa mara na kushindwa kusikoeleweka | Utulivu ulioboreshwa kwa kutumia urejeshaji otomatiki   |
+| Uzoefu wa Mtumiaji    | Usawazishaji ulihisi "hauonekani" kwa wageni        | Uwazi, pamoja na hali na masasisho yaliyo wazi zaidi |
+| Utendaji wa Kifaa | Matumizi ya juu ya CPU/kumbukumbu                  | Imeboreshwa kwa matumizi rahisi ya rasilimali            |
 
 Kwa kifupi: kusawazisha sasa ni kasi, zaidi ya kuaminika, na rahisi kuelewa.
 

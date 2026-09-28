@@ -57,12 +57,12 @@ Sɛ adwuma bi gye ZEC na ennya mmaa ZecMap so a, mpɔtam hɔni biara betumi de a
 
 | Afuo | Nea wɔde bɛma |
 |-------|----------------|
-| Adwuma din | Official din sɛnea ɛda adi wɔ baguam |
-| Wɛbsaet anaa nkitahodi | URL anaa sohyial profile |
-| Beae a ɛwɔ | Address a wɔde ma honam fam nnwuma; ɔmantam ma intanɛt so |
-| Ɔfa | Cafe, adidibea, sotɔɔ, ɔsom, intanɛt so sotɔɔ, ne nea ɛkeka ho |
-| Adanse a Ɛwɔ Hɔ | Ɔmanfoɔ sikatua krataafa, aguadifoɔ dawurubɔ, anaa nsɛm a wɔde si so dua tẽẽ |
-| Katua ho nsɛm a wɔakyerɛw | Ankasa, intanɛt so, anaa n’abien nyinaa; a ɛda adi anaasɛ wɔabɔ ho ban ZEC |
+| Business name | Official din sɛnea ɛda adi wɔ baguam |
+| Website or contact | URL anaa sohyial profile |
+| Location | Address a wɔde ma honam fam nnwuma; ɔmantam ma intanɛt so |
+| Category | Cafe, adidibea, sotɔɔ, ɔsom, intanɛt so sotɔɔ, ne nea ɛkeka ho |
+| Evidence | Ɔmanfoɔ sikatua krataafa, aguadifoɔ dawurubɔ, anaa nsɛm a wɔde si so dua tẽẽ |
+| Payment notes | Ankasa, intanɛt so, anaa n’abien nyinaa; a ɛda adi anaasɛ wɔabɔ ho ban ZEC |
 
 Ɛsɛ sɛ nsɛm a wɔde bɛmena no kwati ankorankoro adetɔfo data. Sɛ wode adanse a ɛkyerɛ sɛ woadi nneɛma redi dwuma a, yi w’ankasa ho nsɛm, nneɛma a wɔkra no nɔma, ne ofie address ansa na woakyɛ.
 

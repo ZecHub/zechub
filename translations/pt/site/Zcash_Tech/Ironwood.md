@@ -75,11 +75,11 @@ As wallets e o software de nó tratam da maior parte disto automaticamente, mas 
 | Termo | Significado em linguagem simples |
 |---|---|
 | Shielded pool | O conjunto de fundos cujos montantes e proprietários são ocultados por criptografia de conhecimento zero |
-| Bug de solidez | Uma falha que permite que uma transação inválida passe na verificação da prova como se fosse válida |
+| Soundness bug | Uma falha que permite que uma transação inválida passe na verificação da prova como se fosse válida |
 | Turnstile | Um ponto de controlo público que conta o valor em movimento entre pools para que a oferta continue auditável |
-| Apenas para gasto | Uma pool da qual podes gastar, mas à qual não podes adicionar novo valor |
-| Atualização de rede (NU) | Uma alteração coordenada às regras de consenso da Zcash, ativada numa determinada altura de bloco |
-| Nota recuperável face à computação quântica | Um formato de nota concebido para que os fundos possam ser recuperados se os computadores quânticos vierem a quebrar a criptografia atual |
+| Spend-only | Uma pool da qual podes gastar, mas à qual não podes adicionar novo valor |
+| Network upgrade (NU) | Uma alteração coordenada às regras de consenso da Zcash, ativada numa determinada altura de bloco |
+| Quantum-recoverable note | Um formato de nota concebido para que os fundos possam ser recuperados se os computadores quânticos vierem a quebrar a criptografia atual |
 
 ## FAQ
 

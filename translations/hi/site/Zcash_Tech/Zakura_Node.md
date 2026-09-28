@@ -1,32 +1,33 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Zakura_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zakura नोड
 
 > 🇧🇷 [पुर्तगाली संस्करण](/zechubglobal/zcashbrasil/zcashtech/zakura)
 
-Zakura, Zcash के लिए एक मुफ्त, ओपन-सोर्स फुल नोड इम्प्लीमेंटेशन है, जिसे स्केल के लिए बनाया गया है। [Zebra](Zebra_Full_Node.md) से फोर्क किया गया और **Valar Group** तथा **Project Tachyon** के सहयोग से विकसित, Zakura अत्यधिक तेज़ सिंक्रोनाइज़ेशन, नेटिव ब्लॉक प्रूनिंग, और पुराने `zcashd` टूलिंग के लिए एक compatibility layer प्रदान करता है। संस्करण 1.0.0, 15 जुलाई 2026 को जारी किया गया था।
+Zakura, Zcash के लिए स्केल के उद्देश्य से बनाया गया एक मुफ़्त, ओपन-सोर्स पूर्ण नोड कार्यान्वयन है। [Zebra](Zebra_Full_Node.md) से फोर्क किया गया और **Valar Group** तथा **Project Tachyon** के सहयोग से विकसित, Zakura अत्यधिक तेज़ सिंक्रोनाइज़ेशन, मूल ब्लॉक प्रूनिंग और पुराने `zcashd` टूलिंग के लिए एक संगतता परत प्रदान करता है। संस्करण 1.0.0 को 15 जुलाई, 2026 को जारी किया गया था।
 
 ---
 
 ## संक्षेप में
 
-- Zakura एक **consensus-compatible Zcash फुल नोड** है — Zebra और zcashd का एक विकल्प, जिसे Zebra से फोर्क किया गया है।
-- Blockchain sync, Zebra की तुलना में लगभग **5× तेज़** है; snapshot bootstrapping **2 मिनट से कम** में पूरा हो जाता है।
-- **नेटिव ब्लॉक प्रूनिंग** ऑपरेटरों को बहुत कम disk space के साथ फुल नोड चलाने की अनुमति देती है (~11 GB pruned snapshot बनाम 300 GB एक पूर्ण Zebra नोड के लिए)।
-- एक **zcashd RPC compatibility mode** मौजूदा wallets और integrations को बिना किसी बदलाव के काम करने देता है।
-- एक **experimental P2P transport layer** (डिफ़ॉल्ट रूप से disabled) sub-500ms block propagation को DoS-resistant gossip के साथ लक्षित करती है।
-- **Ironwood (NU6.3)** के साथ compatible, जो Zcash network upgrade है और 2026 के मध्य में सक्रिय हुआ था।
-- नेतृत्व **Sean Bowe** (Zcash के सह-संस्थापक, Project Tachyon) और **Dev Ojha** (Valar Group) द्वारा किया गया।
+- Zakura एक **सहमति-संगत Zcash पूर्ण नोड** है — Zebra और zcashd का विकल्प, जिसे Zebra से फोर्क किया गया है।
+- ब्लॉकचेन सिंक, Zebra की तुलना में लगभग **5× तेज़** है; स्नैपशॉट बूटस्ट्रैपिंग **2 मिनट से कम** में पूरी हो जाती है।
+- **मूल ब्लॉक प्रूनिंग** ऑपरेटरों को बहुत कम डिस्क स्थान के साथ पूर्ण नोड चलाने देती है (~11 GB प्रून किया गया स्नैपशॉट बनाम पूर्ण Zebra नोड के लिए 300 GB)।
+- एक **zcashd RPC संगतता मोड** मौजूदा वॉलेट और इंटीग्रेशन को बिना बदलाव के काम करने देता है।
+- एक **प्रायोगिक P2P ट्रांसपोर्ट परत** (डिफ़ॉल्ट रूप से अक्षम) DoS-प्रतिरोधी गॉसिप के साथ 500ms से कम ब्लॉक प्रसार का लक्ष्य रखती है।
+- मध्य-2026 में सक्रिय हुए Zcash नेटवर्क अपग्रेड, **Ironwood (NU6.3)** के साथ संगत।
+- **Zakura Common** (v1.3.0, अगस्त 2026) निजी लेनदेन बनाने के लिए वॉलेट द्वारा उपयोग की जाने वाली क्रिप्टोग्राफी को तेज़ करता है: Zakura के बेंचमार्क के अनुसार, कई मामलों में 3 सेकंड से अधिक से घटाकर 200 ms से कम।
+- नेतृत्व **Sean Bowe** (Zcash सह-संस्थापक, Project Tachyon) और **Dev Ojha** (Valar Group) द्वारा।
 
 ---
 
 ## Zakura क्या है?
 
-Zakura एक Zcash फुल नोड है जिसे शुरुआत से ही बड़े पैमाने पर production-ready बनने के लिए डिज़ाइन किया गया है। जबकि यह Zebra के साथ consensus compatibility साझा करता है — यानी यह वही Zcash protocol rules को validate करता है और उनका पालन करता है — Zakura महत्वपूर्ण engineering improvements लाता है, जिनका उद्देश्य Zcash फुल नोड चलाने की बाधा को कम करना है।
+Zakura एक Zcash पूर्ण नोड है, जिसे शुरू से ही बड़े पैमाने पर उत्पादन-तैयार होने के लिए डिज़ाइन किया गया है। हालाँकि यह Zebra के साथ सहमति-संगतता साझा करता है — अर्थात यह समान Zcash प्रोटोकॉल नियमों को मान्य करता है और उनका पालन करता है — Zakura, Zcash पूर्ण नोड चलाने की बाधा कम करने के उद्देश्य से महत्वपूर्ण इंजीनियरिंग सुधार प्रस्तुत करता है।
 
-यह परियोजना **Project Tachyon** (जिसका नेतृत्व Sean Bowe करते हैं, जो Zcash के मूल cryptographic engineers में से एक हैं) और **Valar Group** (जिसका नेतृत्व Dev Ojha करते हैं) का संयुक्त प्रयास है। वे मिलकर अगली पीढ़ी के Zcash protocol improvements पर ध्यान केंद्रित करते हैं, और Zakura इस काम के लिए reference नोड के रूप में कार्य करता है।
+यह परियोजना **Project Tachyon** (जिसका नेतृत्व Sean Bowe करते हैं, जो Zcash के मूल क्रिप्टोग्राफ़िक इंजीनियरों में से एक हैं) और **Valar Group** (जिसका नेतृत्व Dev Ojha करते हैं) का संयुक्त प्रयास है। साथ मिलकर वे अगली पीढ़ी के Zcash प्रोटोकॉल सुधारों पर ध्यान केंद्रित करते हैं, और Zakura उस कार्य के लिए संदर्भ नोड के रूप में काम करता है।
 
 ---
 
@@ -34,79 +35,100 @@ Zakura एक Zcash फुल नोड है जिसे शुरुआत �
 
 ### 5× तेज़ चेन सिंक्रोनाइज़ेशन
 
-Zakura, Zebra की तुलना में लगभग 5× तेज़ blockchain synchronization हासिल करता है। इससे उन ऑपरेटरों के लिए यह काफी अधिक व्यावहारिक हो जाता है जिन्हें जल्दी से नोड शुरू करना हो या downtime के बाद पुनर्प्राप्ति करनी हो।
+Zakura, Zebra की तुलना में लगभग 5× तेज़ ब्लॉकचेन सिंक्रोनाइज़ेशन प्राप्त करता है। इससे उन ऑपरेटरों के लिए यह काफी अधिक व्यावहारिक हो जाता है जिन्हें जल्दी से नोड शुरू करना हो या डाउनटाइम से उबरना हो।
 
-### Snapshot Bootstrapping
+### स्नैपशॉट बूटस्ट्रैपिंग
 
-Zakura पहले से तैयार chain snapshots प्रकाशित करता है, जो initial sync time को बहुत कम कर देते हैं:
+Zakura पहले से बने चेन स्नैपशॉट प्रकाशित करता है, जो प्रारंभिक सिंक समय को नाटकीय रूप से कम करते हैं:
 
-| Bootstrap Method | Time |
+| बूटस्ट्रैप विधि | समय |
 |-----------------|------|
-| Archive snapshot | ~37 मिनट |
-| Pruned snapshot | **2 मिनट से कम** |
-| Zebra (full sync) | ~20 घंटे |
+| आर्काइव स्नैपशॉट | ~37 मिनट |
+| प्रून किया गया स्नैपशॉट | **2 मिनट से कम** |
+| Zebra (पूर्ण सिंक) | ~20 घंटे |
 
-Pruned snapshots लगभग **11 GB** के होते हैं, जिससे genesis से sync करने की तुलना में **680× तेज़** नोड bootstrap संभव होता है।
+प्रून किए गए स्नैपशॉट लगभग **11 GB** के होते हैं, जो जेनेसिस से सिंक करने की तुलना में **680× तेज़** नोड बूटस्ट्रैपिंग सक्षम करते हैं।
 
-### Native Block Pruning
+### मूल ब्लॉक प्रूनिंग
 
-Zakura configurable block pruning को सपोर्ट करता है, जिससे नोड ऑपरेटर यह निर्धारित कर सकते हैं कि chain history का कितना हिस्सा रखना है। इससे सीमित storage वाले hardware पर फुल नोड चलाना व्यावहारिक बनता है — यह validators, developers, और infrastructure providers के लिए उपयोगी है जिन्हें पूरी historical chain की आवश्यकता नहीं होती।
+Zakura कॉन्फ़िगर की जा सकने वाली ब्लॉक प्रूनिंग का समर्थन करता है, जिससे नोड ऑपरेटर तय कर सकते हैं कि चेन इतिहास का कितना भाग रखना है। इससे सीमित स्टोरेज वाले हार्डवेयर पर पूर्ण नोड चलाना व्यावहारिक हो जाता है — यह उन वैलिडेटरों, डेवलपर्स और इन्फ्रास्ट्रक्चर प्रदाताओं के लिए उपयोगी है जिन्हें पूरी ऐतिहासिक चेन की आवश्यकता नहीं है।
 
-### zcashd RPC Compatibility Mode
+### zcashd RPC संगतता मोड
 
-Zakura में एक compatibility mode शामिल है जो पुराने `zcashd` JSON-RPC interface को पुन: प्रस्तुत करता है। मौजूदा wallets, exchanges, और integrations जो `zcashd` RPCs पर निर्भर हैं, वे बिना code changes के Zakura पर स्विच कर सकते हैं।
+Zakura में एक संगतता मोड शामिल है, जो पुराने `zcashd` JSON-RPC इंटरफ़ेस को पुनः प्रस्तुत करता है। मौजूदा वॉलेट, एक्सचेंज और इंटीग्रेशन जो `zcashd` RPC पर निर्भर हैं, कोड में बदलाव किए बिना Zakura पर स्विच कर सकते हैं।
 
-### Experimental P2P Transport Layer
+### प्रायोगिक P2P ट्रांसपोर्ट परत
 
-Zakura एक अगली पीढ़ी की peer-to-peer transport layer के साथ आता है, जो वर्तमान में **डिफ़ॉल्ट रूप से disabled** है। सक्षम किए जाने पर, इसका लक्ष्य है:
+Zakura एक अगली पीढ़ी की पीयर-टू-पीयर ट्रांसपोर्ट परत के साथ आता है, जो वर्तमान में **डिफ़ॉल्ट रूप से अक्षम** है। सक्षम होने पर, इसके लक्ष्य हैं:
 
-- पूरे नेटवर्क में sub-500ms worst-case block propagation
-- अधिक कुशल transaction relay के लिए mempool aggregation
-- network resilience सुधारने के लिए DoS-resistant gossip protocol
+- पूरे नेटवर्क में 500ms से कम का सबसे खराब स्थिति वाला ब्लॉक प्रसार
+- अधिक कुशल लेनदेन रिले के लिए मेमपूल एकत्रीकरण
+- नेटवर्क लचीलापन सुधारने के लिए DoS-प्रतिरोधी गॉसिप प्रोटोकॉल
 
-यह layer Project Tachyon के तहत विकसित किए जा रहे भविष्य के Zcash network-level improvements की एक झलक प्रस्तुत करती है।
+यह परत Project Tachyon के अंतर्गत विकसित किए जा रहे भविष्य के Zcash नेटवर्क-स्तरीय सुधारों की एक झलक प्रस्तुत करती है।
 
-### Ironwood (NU6.3) Compatible
+### Ironwood (NU6.3) संगत
 
-Zakura, Ironwood network upgrade (NU6.3) के साथ पूरी तरह compatible है, जो 2026 के मध्य में Zcash mainnet पर सक्रिय किया गया था।
+Zakura, मध्य-2026 में Zcash मेननेट पर सक्रिय हुए Ironwood नेटवर्क अपग्रेड (NU6.3) के साथ पूरी तरह संगत है।
 
 ---
 
-## Zakura का अन्य Zcash नोड्स से संबंध
+## Zakura Common: तेज़ वॉलेट क्रिप्टोग्राफी
+
+अगस्त 2026 में Zakura टीम ने Zakura Common जारी किया, जो उन क्रिप्टोग्राफी लाइब्रेरी के त्वरित फोर्क का एक सेट है, जिन पर Zcash वॉलेट और नोड निर्भर करते हैं। Zakura ने संस्करण 1.3.0 में नए स्टैक पर स्विच किया, और Vizor Wallet इसे एकीकृत करने वाले शुरुआती वॉलेटों में से है।
+
+![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](/content-images/zakuracommonspeedups.webp)
+
+Zakura के अपने बेंचमार्क के अनुसार:
+
+| क्रिया | गति वृद्धि |
+|--|--|
+| मोबाइल पर प्रूफ़ निर्माण | 14× से अधिक (डेस्कटॉप: 5× से अधिक) |
+| Sinsemilla हैशिंग | 21× से अधिक |
+| zk-SNARK सत्यापन | 4–8× |
+| ट्रायल डिक्रिप्शन | 1.5× से अधिक |
+
+उपयोगकर्ताओं के लिए सबसे स्पष्ट बदलाव प्रतीक्षा समय है। पहले एक निजी लेनदेन बनाने में वॉलेट को तीन सेकंड से अधिक लगते थे। Zakura Common के साथ, कई मामलों में इसमें 200 ms से कम समय लग सकता है। यह वह समय है जो आपका डिवाइस लेनदेन तैयार करने में लगाता है, न कि वह समय जो नेटवर्क को इसकी पुष्टि करने में चाहिए।
+
+
+---
+
+## Zakura का अन्य Zcash नोड से संबंध
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
 | भाषा | C++ (Bitcoin से फोर्क किया गया) | Rust | Rust (Zebra से फोर्क किया गया) |
-| स्थिति | Deprecated | Active | Active (v1.0.0, Jul 2026) |
-| Sync speed | आधाररेखा | ~1× | ~5× तेज़ |
-| Block pruning | नहीं | नहीं | हाँ |
-| zcashd RPC compat | नेटिव | आंशिक | हाँ (compat mode) |
-| Snapshot bootstrap | नहीं | नहीं | हाँ (2 मिनट से कम) |
-| Experimental P2P | नहीं | नहीं | हाँ (opt-in) |
+| स्थिति | अप्रचलित | सक्रिय | सक्रिय (v1.0.0, जुलाई 2026) |
+| सिंक गति | आधाररेखा | ~1× | ~5× तेज़ |
+| ब्लॉक प्रूनिंग | नहीं | नहीं | हाँ |
+| zcashd RPC संगतता | मूल | आंशिक | हाँ (संगतता मोड) |
+| स्नैपशॉट बूटस्ट्रैप | नहीं | नहीं | हाँ (2 मिनट से कम) |
+| प्रायोगिक P2P | नहीं | नहीं | हाँ (वैकल्पिक) |
 
 ---
 
-## शुरुआत करें
+## शुरुआत करना
 
-डाउनलोड विकल्प, snapshots, और configuration documentation यहाँ उपलब्ध हैं:
+डाउनलोड विकल्प, स्नैपशॉट और कॉन्फ़िगरेशन दस्तावेज़ यहाँ उपलब्ध हैं:
 
-- **डाउनलोड और setup guide:** [zakura.com/download](https://zakura.com/download/)
-- **Chain snapshots:** [zakura.com/snapshots](https://zakura.com/snapshots/)
-- **Source code:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **डाउनलोड और सेटअप गाइड:** [zakura.com/download](https://zakura.com/download/)
+- **चेन स्नैपशॉट:** [zakura.com/snapshots](https://zakura.com/snapshots/)
+- **स्रोत कोड:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
 
 ---
 
 ## संबंधित पृष्ठ
 
-- [Zebra फुल नोड](Zebra_Full_Node.md) — upstream Zcash फुल नोड जिससे Zakura को फोर्क किया गया था
-- [Zaino Indexer](Zaino.md) — Zebra और Zakura के साथ compatible एक Rust-आधारित indexer
-- [फुल नोड्स](Full_Nodes.md) — Zcash फुल नोड विकल्पों का अवलोकन
-- [Lightwallet नोड्स](Lightwallet_Nodes.md) — हल्के client alternatives
+- [Zebra पूर्ण नोड](Zebra_Full_Node.md) — अपस्ट्रीम Zcash पूर्ण नोड, जिससे Zakura को फोर्क किया गया था
+- [Zaino इंडेक्सर](Zaino.md) — Zebra और Zakura के साथ संगत Rust-आधारित इंडेक्सर
+- [पूर्ण नोड](Full_Nodes.md) — Zcash पूर्ण नोड विकल्पों का अवलोकन
+- [लाइटवॉलेट नोड](Lightwallet_Nodes.md) — हल्के क्लाइंट विकल्प
 
 ## संसाधन
 
-- [Introducing Zakura — घोषणा](https://zakura.com/announcements/introducing-zakura/)
+- [Zakura का परिचय — घोषणा](https://zakura.com/announcements/introducing-zakura/)
 - [Zakura GitHub](https://github.com/zakura-core/zakura)
 - [Zakura वेबसाइट](https://zakura.com/)
 - [X/Twitter पर Zakura](https://x.com/ZakuraZcash)
 - [Project Tachyon](https://electriccoin.co/blog/)
+- [Zakura Common घोषणा](https://zakura.com/announcements/zakura-common/)

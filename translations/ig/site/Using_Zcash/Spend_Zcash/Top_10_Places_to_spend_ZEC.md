@@ -138,7 +138,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 **Mgbasa mgbasa ozi:** 
 
-[Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Ihe nkedo ahụ.](https://twitter.com/EmpreDigiVE) | [Telegramm](https://t.me/emprendedorasdigitalesve) | [Njikọ LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Ihe nkedo ahụ.](https://twitter.com/EmpreDigiVE) | [Telegram](https://t.me/emprendedorasdigitalesve) | [Njikọ LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 **Unified Address:** Onye na-ahụ maka ọrụ ahụ bụ onye isi ụlọọrụ. 
 
@@ -163,7 +163,7 @@ Ebe a nke **Roosevelt Gordones na Aura Brito** chịrị, nwere ọrụ ndị me
 
 **Mgbasa Ozi Ọha na eze**
 
-[Telegramm](https://t.me/gorbritsm) | [Instagram](https://www.instagram.com/gorbritsm/) |  [X Ihe nkesa](https://twitter.com/GorBritSM) | 
+[Telegram](https://t.me/gorbritsm) | [Instagram](https://www.instagram.com/gorbritsm/) |  [X Ihe nkesa](https://twitter.com/GorBritSM) | 
 
 GorBrit na-anabata usoro ịkwụ ụgwọ dị iche, gụnyere Cryptocurrencies, n'etiti nke ahụ bụ ** Zcash. *
 
@@ -193,7 +193,7 @@ A maara ọrụ ya nke ọma na gburugburu ebe obibi Zcash n'ihi onyinye ya maka
 
 **Mgbasa mgbasa ozi:**
 
-[Telegramm](https://t.me/Robmarn) | [X Ikpo okwu](https://twitter.com/robmarn) | [Free2z (n'asụsụ Bekee)](https://free2z.cash/robmarn)
+[Telegram](https://t.me/Robmarn) | [X Ikpo okwu](https://twitter.com/robmarn) | [Free2z (n'asụsụ Bekee)](https://free2z.cash/robmarn)
 
 Barquisimeto - Venezuela 
 
@@ -261,7 +261,7 @@ Tecnopapapi bụ onye kwesịrị ekwesị ịkpọtụrụ!
 
 **Mgbasa mgbasa ozi** 
 
-Free2z. (ụda olu) [Telegramm](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Ikpo okwu](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook (ụda)](https://www.facebook.com/tecnopapapi) 
+Free2z. (ụda olu) [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecnopapapi) | [X Ikpo okwu](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram](https://www.instagram.com/tecnopapapi/) |  [Facebook (ụda)](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi na-anabata cryptocurrencies (gụnyere 3ZEC) yana usoro ịkwụ ụgwọ ndị ọzọ. 
 
@@ -349,7 +349,7 @@ Ego: **Allegrini Ristorante** 🇪. Ebe Pizza. Nri Ịtalian. **Nke na-adịgh�
 
 **Mgbasa mgbasa ozi** 
 
-[Instagram](https://instagram.com/allegriniristorante) | [X Ikpo okwu](https://twitter.com/AllegriniRisto) | [Telegramm](https://t.me/AllegriniRistorante) | [Pinterest (n'asụsụ Bekee)](https://pin.it/6z8hq6F)
+[Instagram](https://instagram.com/allegriniristorante) | [X Ikpo okwu](https://twitter.com/AllegriniRisto) | [Telegram](https://t.me/AllegriniRistorante) | [Pinterest (n'asụsụ Bekee)](https://pin.it/6z8hq6F)
 
 (N'oge na-adịghị anya n'ụlọ ọrụ) [free2z.cash (nkwụnye ego)](http://free2z.cash). )
 

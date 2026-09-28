@@ -9,7 +9,7 @@ ZecHub haina endorse yoyote maalum Decentralized Exchange huduma, tafadhali kufa
 Kila mmoja wao `###` kichwa chini ni kadi moja juu ya https://zechub.wiki/dex.
 Ongeza, hariri au kuondoa kizuizi hapa; wiki huchukua kutoka faili hii.
 
-### Makusudi ya karibu-karibu
+### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Tovuti: https://nativeswap.io/
-- Maelezo: Asili Cross-Chain Trading Bila Barriers kupitia Maya Itifaki. Biashara moja kwa moja kwenye mnyororo bila madaraja au vifuniko ishara - kufurahia sekta ya ada za chini na udhibiti kamili wa mali.
+- Maelezo: Biashara ya Minyororo ya Asili Bila Vikwazo kupitia Maya Protocol. Fanya biashara moja kwa moja kwenye mnyororo bila madaraja au tokeni zilizofungwa - furahia ada za chini za tasnia na udhibiti kamili wa mali.
 
 ___
 
@@ -41,11 +41,11 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Tovuti: https://leodex.io
-- Maelezo: Crosschain swaps ndani na nje ya ZEC, routed katika THORChain, Maya Protocol, Chainflip, karibu nia, Relay na Rango. Hakuna akaunti, hakuna KYC, na hakuna uhusiano mkoba required juu ya njia mkono.
+- Maelezo: Crosschain swaps ndani na nje ya ZEC, routed katika THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay na Rango. Hakuna akaunti, hakuna KYC, na hakuna uhusiano mkoba required juu ya njia mkono.
 
 ___
 
-### Kipaji cha Bison Wallet
+### Bison Wallet
 
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-### Itifaki ya Router
+### Router Protocol
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Mshirika wa rika moja
+### Peer
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
@@ -81,7 +81,7 @@ ___
 
 ___
 
-### RoketiX
+### RocketX
 
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 

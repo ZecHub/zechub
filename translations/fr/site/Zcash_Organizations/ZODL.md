@@ -14,7 +14,7 @@ ZODL imagine un monde sans surveillance financière de masse, où les personnes 
 
 ZODL (Zcash Open Development Lab) a été fondé au début de l’année 2026 par Josh Swihart, l’ancien PDG de l’Electric Coin Company (ECC). En janvier 2026, l’ensemble de l’équipe d’ingénierie et produit d’ECC a démissionné à la suite d’un différend de gouvernance avec Bootstrap, le conseil d’administration de l’organisation à but non lucratif 501(c)(3) qui supervise ECC. L’équipe principale qui avait initialement conçu, mis en œuvre et maintenu les systèmes les plus critiques de Zcash a rejoint ZODL afin de poursuivre son travail de manière indépendante.
 
-Le portefeuille Zashi, auparavant développé et maintenu au sein d’ECC, a été rebaptisé Zodl sous la nouvelle organisation. Les utilisateurs n’avaient aucune action à effectuer, puisque l’application a été automatiquement renommée lors de la mise à jour suivante.
+Le portefeuille Zashi, auparavant développé et maintenu au sein d’ECC, a été rebaptisé ZODL sous la nouvelle organisation. Les utilisateurs n’avaient aucune action à effectuer, puisque l’application a été automatiquement renommée lors de la mise à jour suivante.
 
 ## Financement
 
@@ -30,7 +30,7 @@ En mars 2026, ZODL a levé plus de 25 millions de dollars en financement d’amo
 - **Balaji Srinivasan**
 - Des investisseurs providentiels supplémentaires issus des secteurs de la crypto et de la technologie
 
-Ces capitaux sont utilisés pour développer davantage à la fois le protocole Zcash et le portefeuille Zodl.
+Ces capitaux sont utilisés pour développer davantage à la fois le protocole Zcash et le portefeuille ZODL.
 
 ## Direction
 
@@ -40,12 +40,12 @@ L’équipe au sens large est composée des créateurs et développeurs originel
 
 ## Produits
 
-### Portefeuille Zodl (anciennement Zashi)
+### Portefeuille ZODL (anciennement Zashi)
 
-Zodl est un portefeuille mobile en auto-garde conçu pour les transactions privées en Zcash. Il combine une connaissance approfondie du protocole avec une conception conviviale, en masquant la complexité tout en maintenant la sécurité.
+ZODL est un portefeuille mobile en auto-garde conçu pour les transactions privées en Zcash. Il combine une connaissance approfondie du protocole avec une conception conviviale, en masquant la complexité tout en maintenant la sécurité.
 
 **Plateformes :**
-- [iOS (App Store)](https://apps.apple.com/app/zodl/id6444974742)
+- [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)

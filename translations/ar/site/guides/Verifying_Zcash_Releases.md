@@ -176,13 +176,13 @@ Subject Alternative Name هو الهوية. فهو يسمّي المستودع �
 
 | الحقل | القيمة في v6.3.0 |
 |---|---|
-| موفّر OIDC | `https://token.actions.githubusercontent.com` |
-| مستودع المصدر | `https://github.com/ZcashFoundation/zebra` |
-| build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
 | Ref | `refs/tags/v6.3.0` |
-| بيئة runner | `github-hosted` |
-| تشغيل workflow | `.../actions/runs/31424510487/attempts/1` |
-| مستوى ظهور المستودع | `public` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 كل واحد من هذه العناصر قابل للتحقق. يجب أن يطابق hash الخاص بالـ commit الوسم tag في المستودع؛ كما يجب أن يكون تشغيل workflow موجوداً وعلنياً.
 
@@ -219,9 +219,9 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 | الحقل | القيمة |
 |---|---|
-| فهرس سجل Rekor | `2412071838` |
-| نوع الإدخال | `hashedrekord v0.0.1` |
-| وقت الدمج | 2026-08-10 19:43:09 UTC |
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 هذا ما يجعل إساءة استخدام المفتاح بصمت أمراً قابلاً للاكتشاف. توقيع لم يظهر أبداً في السجل، أو ظهر في وقت غير منطقي، هو إشارة تستحق التصرف بناءً عليها. قارِن وقت الدمج مع إعلان الإصدار.
 
@@ -427,10 +427,10 @@ sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
 
 | Project | أماكن نشر الإصدارات | الطريقة | من أين يأتي المفتاح |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + حزمة Sigstore | لا يوجد مفتاح، بل هوية CI عبر GitHub OIDC |
-| **Zallet** | `github.com/zcash/zallet/releases` | توقيع GPG منفصل `.asc`، وSLSA provenance، وSBOM | `apt.z.cash/zodl.asc` — المفتاح الأساسي `0338 34DD…58E2 6AB1`، والمفتاح الفرعي للتوقيع `1FE9 9324…23F0 617F` |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | لا يوجد مفتاح، بل هوية CI عبر GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — المفتاح الأساسي `0338 34DD…58E2 6AB1`، والمفتاح الفرعي للتوقيع `1FE9 9324…23F0 617F` |
 | **zcashd** | *متقاعد* | — | توقف عند الكتلة 3,417,100 بتاريخ 2026-07-18. لا تقم بتثبيته. |
-| **Zodl** (المعروف سابقاً باسم Zashi) | App Store / Google Play؛ و`zodl-inc` على GitHub | توقيع المتجر؛ والملفات الثنائية المستقلة الخاصة بـ Android موقّعة بـ GPG | مفتاح ZODL وفق بيان الانتقال |
+| **Zodl** (المعروف سابقاً باسم Zashi) | App Store / Google Play؛ و`zodl-inc` على GitHub | Store signing; standalone Android binaries GPG-signed | مفتاح ZODL وفق بيان الانتقال |
 
 > **ملاحظة تسمية:** أُعيدت تسمية Zashi إلى **Zodl** في عام 2026، أولاً على App Store ثم على Google Play. الأدلة الأقدم التي تشير إلى "Zashi" تصف السلالة نفسها من wallet.
 

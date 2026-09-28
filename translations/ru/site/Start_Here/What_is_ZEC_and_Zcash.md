@@ -30,7 +30,7 @@ ZEC дает людям возможность передавать данные
 
 [Аргументы в пользу Zcash и приватности](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Shielded-экосистема](https://electriccoin.co/blog/shielded-ecosystem/)
+[Защищённая экосистема](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Рекомендации по приватности в Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash решает крупнейший недостаток Bitcoin: прива
 
 [Как это работает](https://z.cash/technology/)
 
-[HTTPS для блокчейнов](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## Связанные страницы
 
 - [Руководство для новых пользователей](/start-here/new-user-guide) — Пошаговое введение для новых держателей ZEC
-- [Кошельки](/using-zcash/wallets) — Выберите shielded-кошелек для хранения ваших ZEC
+- [Кошельки](/using-zcash/wallets) — Выберите защищённый кошелёк для хранения ваших ZEC
 - [Покупка ZEC](/using-zcash/buying-zec) — Где и как приобрести ZEC
-- [Shielded Pools](/using-zcash/shielded-pools) — Как пулы Zcash сохраняют приватность транзакций
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Криптография, лежащая в основе приватности Zcash
+- [Защищённые пулы](/using-zcash/shielded-pools) — Как пулы Zcash сохраняют конфиденциальность транзакций
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Криптография, лежащая в основе конфиденциальности Zcash

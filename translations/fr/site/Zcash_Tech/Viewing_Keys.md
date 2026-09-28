@@ -22,9 +22,9 @@ Il existe plusieurs types de clés, et la différence détermine l'étendue de c
 
 | Clé | Préfixe | Autorise |
 |---|---|---|
-| Clé de visualisation complète unifiée (UFVK) | `uview…` | Voit les transactions entrantes **et** sortantes de chaque pool du compte |
-| Clé de visualisation entrante unifiée (UIVK) | `uivk…` | Voit uniquement les transactions entrantes, pour chaque pool du compte |
-| Clé de visualisation complète étendue Sapling | `zxviews…` | Voit l'activité entrante et sortante Sapling pour les adresses de la clé |
+| Unified full viewing key (UFVK) | `uview…` | Voit les transactions entrantes **et** sortantes de chaque pool du compte |
+| Unified incoming viewing key (UIVK) | `uivk…` | Voit uniquement les transactions entrantes, pour chaque pool du compte |
+| Sapling extended full viewing key | `zxviews…` | Voit l'activité entrante et sortante Sapling pour les adresses de la clé |
 
 Aucune de ces clés ne peut dépenser. Toutes sont permanentes dans le sens qui compte : une clé que vous avez communiquée ne peut pas être révoquée, seulement rendue obsolète en déplaçant les fonds vers un compte dont l'autre partie ne détient pas les clés.
 
@@ -108,10 +108,11 @@ Si vous avez suivi une ancienne version de cette page, ou sa traduction, trois m
 
 Utilisez les clés de visualisation selon les besoins, et privilégiez la clé la plus restreinte qui répond à la question posée.
 
+- [Divulgations de paiement](/zcash-tech/payment-disclosures) - prouver certains détails d'un paiement sans accorder un accès continu à un compte
 - [ZIP 326 : Conséquences de NU6.3 pour les wallets](https://zips.z.cash/zip-0326) — comment les clés de visualisation se comportent entre les pools Orchard et Ironwood
 - [ZIP 229 : Format de transaction version 6](https://zips.z.cash/zip-0229) — définit les pools Orchard et Ironwood
 - [Zallet journal des modifications](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — quelle version a ajouté quelle méthode RPC
 - [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — types de comptes et de clés pris en charge
 - [ECC, Explication des clés de visualisation](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Divulgation sélective et clés de visualisation](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, Zcash Présentation vidéo Viewing Key](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+- [ECC, Zcash Viewing Key Présentation vidéo](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

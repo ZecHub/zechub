@@ -24,7 +24,7 @@ Usa el repositorio anterior y sigue las instrucciones para compilar:
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 Los binarios estarán en la carpeta target.
