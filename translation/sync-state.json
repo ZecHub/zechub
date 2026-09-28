@@ -14385,11 +14385,11 @@
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
-      "src": "sha256:a0ea1690d70ab83e6c86651747091f95f81fa9f15ac4afe73de9b5179eabc37e",
-      "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
+      "src": "sha256:d89c5d48f7ca51be50f030ed6e85b5f9eba47078a604ca91eed83081e0223eda",
+      "src_commit": "6179be78a89837b95ac6e8840d638fe1381efaa9",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "swissborg-listing-diff",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {

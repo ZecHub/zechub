@@ -150,3 +150,19 @@ ___
 - Tempo di deposito: Depositi non supportati
 - Ironwood: Non applicabile, solo indirizzi trasparenti
 ___
+
+### [SwissBorg](https://swissborg.com)
+
+<a href="https://swissborg.com">
+    <img src="/content-images/swissborg-logo.png" alt="Logo SwissBorg" width="200" height="100"/>
+</a>
+
+<!-- Draft: transparent-only policy is from the bounty; a SwissBorg help-page source is required before merge. -->
+- Sito web: [SwissBorg](https://swissborg.com)
+- Coppie: Swap di ZEC con valute fiat e criptovalute supportate
+- Supporta: Solo indirizzi trasparenti
+- Tempo di deposito: Non indicato
+- Ironwood: Non applicabile, solo indirizzi trasparenti
+
+[Zcash su SwissBorg](https://swissborg.com/crypto-market/coins/zcash) | [Asset supportati](https://swissborg.com/supported-assets) | [Istruzioni per il deposito](https://help.swissborg.com/hc/en-gb/articles/360005866177-Crypto-Deposit)
+___
