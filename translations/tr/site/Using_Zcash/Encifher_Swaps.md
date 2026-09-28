@@ -1,23 +1,34 @@
-# **Encrypt.trade Kullanarak Özel SOL/USDC -> ZEC Takası**  
+# **SOL/USDC -> ZEC Encrypt.trade Kullanarak Takas**  
 
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*NEAR Intents tarafından desteklenen, özel ve zincirler arası takaslara açılan kapınız.*  
+*Solana'dan Zcash'a takas yapın; zincirler arası adım Near Intents üzerinden yönlendirilir.*  
 
 ---
 
 ###  Giriş  
-Günümüz blockchain dünyasında gizlilik isteğe bağlı değil - zorunludur. [**encrypt.trade**](https://app.encifher.io/zec) ile kullanıcılar, Solana üzerindeki **SOL veya USDC** varlıklarını işlemleri tamamen gizli tutarak sorunsuz bir şekilde **Zcash (ZEC)** ile takas edebilir. Merkezi borsalar yok, kimlik ifşası yok - sadece basit, şifrelenmiş takas.  
+[**encrypt.trade**](https://encrypt.trade/zec), JMD Labs Inc. tarafından işletilen bir Solana uygulamasıdır. Solana üzerindeki **SOL veya USDC** varlıklarınızı **Zcash (ZEC)** varlığına takas etmenizi sağlar. Tokenleriniz önce, tutarlar Solana üzerinde gizli kalacak şekilde şifrelenmiş sürümlere sarılır; ardından Near Intents aracılığıyla ZEC'a takas edilir.
+
+Takas bazı açılardan özeldir, ancak tümüyle değildir. Uygulamanın kendi [dokümantasyonu](https://docs.encifher.io/docs), zincirle etkileşiminizin anonim olmadığını belirtir: insanlar cüzdanınızın uygulamayı kullandığını görebilir, ancak ne kadar taşıdığınızı göremez. ZEC ayrıca şeffaf bir adrese ulaşır; dolayısıyla onu korumalı hale getirene kadar Zcash zincirinde görünür kalır.
 
 
 ![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
+###  Takas Yapmadan Önce Bilmeniz Gerekenler  
+- **Solana tarafı.** Sarmalama tutarları gizler, ancak cüzdan adresiniz ve uygulamayı kullanmanız herkese açıktır. [en iyi uygulamalar](https://docs.encifher.io/docs/best-practices) sayfası, basit bir sarma, takas ve sarmayı açma işleminin işleminizi ilişkilendirilebilir kıldığı konusunda uyarır.
+- **Şifreleme.** Şifrelenmiş bakiyeler, bir donanım korumalı alanı (TEE) içinde zincir dışında işlenir. Geliştiricilerin [makalesi](https://eprint.iacr.org/2026/1504), bunun yalnızca kriptografiye değil; TEE bütünlüğüne, dürüst eşikli anahtar yönetimine ve bulut tasdik köküne dayandığını söyler.
+- **Zincirler arası adım.** ZEC'a takas, bağımsız çözücülerin emri gerçekleştirdiği Near Intents üzerinden yönlendirilir.
+- **Zcash tarafı.** Near Intents, ZEC varlığını yalnızca [şeffaf adresler için](https://docs.near-intents.org/resources/chain-support) desteklenen olarak listeler ve encrypt.trade üzerindeki ZEC alanı, bu rehber Eylül 2026'da kontrol edildiğinde yalnızca şeffaf (t1 veya t3) adresleri kabul ediyordu. Şeffaf bir adres, siz korumalı hale getirene kadar bakiyesini ve gelen transferlerini herkese açık biçimde gösterir.
+- **Tarama.** Uygulama, bağlanan cüzdanları TRM ve Chainalysis gibi veritabanlarına karşı kontrol eder; [uyumluluk sayfası](https://docs.encifher.io/docs/compliance), meşru bir hukuki gerekçe varsa şifrelenmiş kayıtların incelenebileceğini belirtir. Near Intents da kendi [tarama işlemini](https://docs.near-intents.org/security-compliance/risk-and-compliance) yürütür.
+
+---
+
 ###  Adım 1: Solana Cüzdanınızı Bağlayın  
-[encrypt.trade](https://app.encifher.io/zec) sitesini **Chrome veya Firefox** kullanarak ziyaret edin ve **Phantom**, **Solflare** veya **Slope** cüzdanınızı bağlayın. Cüzdanınızda gas ücretleri ve takas etmek istediğiniz tokenlar için yeterli miktarda **SOL** bulunduğundan emin olun. Bağlandıktan sonra varlıklarınızı sarmaya hazırsınız.  
+[encrypt.trade](https://encrypt.trade/zec) adresini **Chrome veya Firefox** kullanarak ziyaret edin ve **Phantom**, **Solflare** veya **Slope** cüzdanınızı bağlayın. Cüzdanınızda gas ücretleri ve takas etmek istediğiniz tokenler için yeterli **SOL** bulunduğundan emin olun. Bağlandıktan sonra varlıklarınızı sarmaya hazırsınız.  
 
 
 ![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
@@ -33,8 +44,8 @@ Günümüz blockchain dünyasında gizlilik isteğe bağlı değil - zorunludur.
 
 ---
 
-###  Adım 2: Tokenlarınızı Sarın  
-**Wrap** bölümüne gidin. **SOL** veya **USDC** seçin, miktarı girin ve onaylayın. Uygulama varlıklarınızı kilitler ve **şifrelenmiş sürümlerini (eSOL veya eUSDC)** oluşturur. Gizliliği artırmak için takas etmeyi planladığınız miktardan biraz daha fazlasını sarın - bu, bire bir izlenebilirliği önler.  
+###  Adım 2: Tokenlerinizi Sarın  
+**Wrap** bölümüne gidin. **SOL** veya **USDC** seçin, tutarı girin ve onaylayın. Uygulama varlıklarınızı kilitler ve **şifrelenmiş sürümlerini (eSOL veya eUSDC)** oluşturur. Takas ettiğinizden farklı bir tutarı sarmalamak, ikisini tutara göre eşleştirmeyi zorlaştırır; ancak cüzdanınızın uygulamayı kullandığını gizlemez.  
 
 
 
@@ -50,8 +61,8 @@ Günümüz blockchain dünyasında gizlilik isteğe bağlı değil - zorunludur.
 
 ---
 
-###  Adım 3: Zodl Cüzdanınızı Hazırlayın  
-ZODL tarafından sürdürülen Zcash cüzdanı [**Zodl**](https://zodl.com) uygulamasını indirin. Receive sekmesinden **Unified Address** adresinizi kopyalayın - hem şeffaf hem de korumalı ZEC’i destekler. Devam etmeden önce seed phrase'inizi güvenli bir şekilde saklayın.
+###  Adım 3: ZODL Cüzdanınızı Hazırlayın  
+[**ZODL**](https://zodl.com) uygulamasını indirin; bu, ZODL tarafından sürdürülen bir Zcash cüzdanıdır. Alma ekranında **Zcash Şeffaf Adresinizi** kopyalayın (t1 ile başlar). encrypt.trade şu anda ZEC için korumalı veya birleşik adresleri kabul etmez. Devam etmeden önce kurtarma ifadenizi güvenli bir şekilde saklayın.  
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -59,8 +70,8 @@ ZODL tarafından sürdürülen Zcash cüzdanı [**Zodl**](https://zodl.com) uygu
 
 ---
 
-###  Adım 4: Özel Olarak Takas Edin  
-Tekrar **encrypt.trade** sitesine dönün ve **Swap** bölümüne gidin. **eSOL/eUSDC -> ZEC** seçeneğini seçin, Zodl adresinizi yapıştırın, ayrıntıları gözden geçirin ve onaylayın.
+###  Adım 4: Takas  
+**encrypt.trade** üzerinde **Swap** bölümüne geri dönün. **eSOL/eUSDC -> ZEC** seçin, ZODL şeffaf adresinizi yapıştırın, ayrıntıları gözden geçirin ve onaylayın.
 
 
 
@@ -72,7 +83,7 @@ Tekrar **encrypt.trade** sitesine dönün ve **Swap** bölümüne gidin. **eSOL/
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**NEAR Intents** altyapısı, zincirler arası yönlendirmeyi otomatik olarak gerçekleştirir - ve **ZEC**’i saniyeler içinde doğrudan Zodl cüzdanınıza teslim eder.
+**Near Intents**, zincirler arası yönlendirmeyi yönetir ve **ZEC** varlığını ZODL cüzdanınıza gönderir. Bu işlem birkaç dakika sürebilir. Near Intents, zincirler arası takaslar için 15 dakikaya kadar süre tanınmasını önerir.  
 
 
 
@@ -80,9 +91,17 @@ Tekrar **encrypt.trade** sitesine dönün ve **Swap** bölümüne gidin. **eSOL/
 
 ---
 
-###  Adım 5: Shield Edin ve Gizli Kalın  
-Varlıklar elinize ulaştığında, maksimum gizlilik için ZEC’inizi korumalı havuza taşımak amacıyla Zodl'un **Shield** seçeneğini kullanın. Bağlantıları her zaman doğrulayın, adresleri yeniden kullanmaktan kaçının ve önce küçük miktarlarla test yapın.
+###  Adım 5: ZEC Varlığınızı Korumalı Hale Getirin  
+ZEC ulaştığında, onu [korumalı havuza](/using-zcash/shielded-pools) taşımak için ZODL'ın **Shield** seçeneğini kullanın. O zamana kadar, herkesin bakiyeyi görebileceği şeffaf bir adreste bulunur. Korumalı hale getirmek sonraki işlemlerinizi korur; ancak gelen transfer ve korumalı hale getirme işlemi zincirde görünür kalır. Bağlantıları her zaman doğrulayın, adresleri yeniden kullanmaktan kaçının ve önce küçük tutarlarla test edin.  
 
 ---
 
-**Solana'nın hızı**, **Zcash'in gizliliği** ve **NEAR Intents'in otomasyonu** bir araya geldiğinde, **encrypt.trade** özel bir kripto takasının ne olabileceğini yeniden tanımlıyor - hızlı, sorunsuz ve gerçekten gizli.
+###  Kimler Dahil ve Nereden Yardım Alınır  
+- **encrypt.trade**, JMD Labs Inc. tarafından işletilen uygulamadır. [gizlilik politikası](https://encrypt.trade/privacy); IP, tarayıcı ve cihaz ayrıntıları gibi teknik verileri topladığını, bir takastan önce cüzdan adresinizi, yakın geçmişinizi ve bakiyelerinizi uyumluluk sağlayıcılarına gönderdiğini ve günlükleri ile AML tarama sonuçlarını beş yıla kadar saklayabileceğini belirtir. [koşulları](https://encrypt.trade/terms), konumunuzu gizlemek için VPN veya proxy kullanılmasını yasaklar. Destek: help@encifher.io veya uygulamadan bağlantı verilen [Telegram grubu](https://t.me/+ZWHGMW4ZHXQwYTZl).
+- **Near Intents**, zincirler arası adımı yönlendirir ve ZEC varlığını teslim eder. [1Click API koşullarına](https://docs.near-intents.org/security-compliance/terms-of-service) ve near.com/privacy adresindeki gizlilik politikasına bakın, takasları [Near Intents Explorer](https://explorer.near-intents.org) üzerinde takip edin ve [Near Intents Telegram](https://t.me/near_intents) içinde yardım isteyin.
+
+Koşullar ve desteklenen adresler değişebilir; bu nedenle büyük bir takastan önce güncel sürümleri kontrol edin. Daha geniş çerçeve hakkında bilgi için [Gözetimsiz Borsalar](/using-zcash/non-custodial-exchanges) sayfasına bakın.
+
+---
+
+**Solana**, **Zcash** ve **Near Intents**'i birleştiren **encrypt.trade**, SOL veya USDC'den ZEC'a hızlı bir yol sunar. Solana'da tutarları gizler, ancak uçtan uca özel değildir; bu nedenle ZEC varlığınız ulaştığında onu korumalı hale getirin.
