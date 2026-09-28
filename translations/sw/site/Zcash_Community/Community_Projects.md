@@ -1,319 +1,304 @@
-# Miradi ya Jumuiya
+# Miradi ya Jamii
 
-Gundua zana, pochi, programu, maktaba na mipango ya mazingira iliyojengwa na jamii ya Zcash na mfumo mpana wa maarifa sifuri.
+Gundua zana, pochi, programu, maktaba, na mipango ya mfumo ikolojia iliyojengwa na jumuiya ya Zcash na mfumo ikolojia mpana usio na maarifa.
 
 ---
 
-## Elimu, Vyombo vya Habari na Jamii
+## Elimu, Vyombo vya Habari, na Jamii
 
 ### Zcash Yangu ya Kwanza
-Kitabu cha kazi ya elimu iliyoundwa na jamii Zcash kimataifa. 
-[Kutembelea](https://github.com/massadoptionorg/My-First-Zcash)
+Kitabu cha mazoezi cha kielimu kilichoundwa na jumuiya ya kimataifa ya Zcash. 
+[Tembelea](https://github.com/massadoptionorg/My-First-Zcash)
 
 ### ZECPublish
-Upinzani-kubadilisha, Zcash blockchain powered kijamii vyombo vya habari. Ni pamoja na directory ya watumiaji wa Zcash na bila majina ujumbe bodi. 
-[Kutembelea](https://www.zecpublish.com)
+Mitandao ya kijamii inayoendeshwa na blockchain Zcash, inayostahimili udhibiti. Inajumuisha saraka ya watumiaji wa Zcash na ubao wa ujumbe usiojulikana. 
+(Tovuti kwa sasa haipo mtandaoni kufikia Septemba 2026.)
 
-### ZK Radio
-Online radio station to inform, educate and entertain the Zcash community. Iliyotengenezwa na Zcash en Español na Klabu ya ZKAV. 
-[Kutembelea](https://zcashesp.com/zk-radio/)
+### Redio ya ZK
+Kituo cha redio mtandaoni ili kuelimisha, kuelimisha, na kuburudisha jumuiya ya Zcash. Kilitengenezwa na Zcash en Español na Klabu ya ZKAV. 
+[Tembelea](https://zcashesp.com/zk-radio/)
 
 ### ZShieldHer
-Tovuti ya elimu Zcash kwa waathirika wa vurugu za nyumbani. 
-[Kutembelea](https://zshieldher.com/)
+Tovuti ya elimu Zcash kwa waathirika wa unyanyasaji wa majumbani. 
+[Tembelea](https://zshieldher.com/)
 
 ### ZecForge
-Muumba forge kwa Zcash mazingira ililenga onboarding, muundaji maendeleo na usambazaji wa maudhui. 
-[Kutembelea](https://x.com/zec_forge)
+Ubunifu wa Waumbaji kwa ajili ya mfumo ikolojia Zcash unaolenga ujumuishaji, ukuzaji wa waumbaji, na usambazaji wa maudhui. 
+[Tembelea](https://x.com/zec_forge)
 
-### Kujua Zcash Video Series
-Mfululizo wa elimu kamili unaofunika teknolojia ya Zcash, cryptography, uchumi na utawala. 
-[Kutembelea](https://www.youtube.com/watch?v=YWUzh_VtrR8)
+### Kufundisha Mfululizo wa Video Zcash
+Mfululizo kamili wa kielimu unaohusu teknolojia Zcash, usimbaji fiche, uchumi, na utawala. 
+[Tembelea](https://www.youtube.com/watch?v=YWUzh_VtrR8)
 
 ### Zcast
-Kihispania-lugha Zcash podcast na updates karibuni mazingira. 
-[Kutembelea](https://www.youtube.com/@ZcastEsp)
+Podikasti ya Zcash lugha ya Kihispania yenye masasisho ya hivi punde ya mfumo ikolojia. 
+[Tembelea](https://www.youtube.com/@ZcastEsp)
 
-### Zero-ujuzi Audiovisual Club (ZKAV)
-Faragha-kwanza audiovisual pamoja kwamba treni, co-creates, na hutoa kujitolea AV msaada kwa ajili ya chanzo wazi na madaraka tech jamii matukio. 
-[Kutembelea](https://zkav.club/)
+### Klabu ya Sauti na Picha ya Zero-knowledge (ZKAV)
+Kundi la kwanza la sauti na taswira la faragha linalofunza, kuunda, na kutoa usaidizi wa kujitolea wa AV kwa ajili ya matukio ya jumuiya ya teknolojia ya chanzo huria na iliyogatuliwa. 
+[Tembelea](https://zkav.club/)
 
-### Zcash Mtandao Shule
-Yaliyomo ya elimu kwa watumiaji wapya wa Zcash na watengenezaji. 
-[Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
+### Shule ya Mtandao wa Zcash
+Maudhui ya kielimu yaliyopangwa kwa watumiaji na watengenezaji wapya Zcash. 
+[Jukwaa](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
 ### Zectastic
-Tovuti ya maingiliano inayoonyesha michezo yenye mada za Zcash na hafla za jamii moja kwa moja. 
-[Kutembelea](https://zectastic.com/)
+Tovuti shirikishi inayoangazia michezo Zcash-themed na matukio ya moja kwa moja ya jamii. 
+[Tembelea](https://zectastic.com/)
 
-### Zec App
-Programu ya simu ambayo huunganisha habari za Zcash, shughuli za jamii, maelezo ya mtandao, pochi, kubadilishana na rasilimali za mazingira katika sehemu moja. 
-[Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
+### Programu ya ZEC
+Programu ya simu inayokusanya habari za ZEC, shughuli za jamii, taarifa za mtandao, pochi, kubadilishana, na rasilimali za mfumo ikolojia katika sehemu moja. 
+[Jukwaa](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
-### Jumuiya ya PGPZ
-Kituo cha jamii kwa Sera Nzuri ya Zcash (PGPZ), mpango wa sera Washington DC ililenga kuhifadhi faragha-kuhifadhi pesa taslimu za dijiti, kufuata vitendo na jukumu la masilahi ya umma ya Z Cash. 
-[Kutembelea](https://community.pgpz.org/)
+### Jumuiya PGPZ
+Kitovu cha jamii cha Sera Nzuri ya Zcash (PGPZ), mpango wa sera wa Washington DC unaolenga kuhifadhi faragha ya pesa taslimu, kufuata sheria kwa vitendo, na jukumu la Zcash. 
+[Tembelea](https://community.pgpz.org/)
 
-### Gleyo 
-Community engagement and rewards platform designed for Zcash communities, Web3 projects, and Web2 organizations. It helps communities onboard and engage members through quests, chat, and rewards, while allowing users to earn and withdraw private shielded ZEC.
+### Gleyo
+Jukwaa la ushirikishwaji wa jamii na zawadi lililoundwa kwa ajili ya jumuiya za Zcash, miradi ya Web3, na mashirika ya Web2. Husaidia jumuiya kuingia na kuwashirikisha wanachama kupitia michuano, gumzo, na zawadi, huku ikiruhusu watumiaji kupata na kutoa ZEC. 
+[Tembelea](https://gleyo.app/)
 
-[Kutembelea](https://gleyo.app/)
-
-### Zcash Grants Hub - Kiwanda cha Msaada wa Fedha za Kimataifa
-Community-focused grants dashboard designed to simplify how Zcash grants are discovered, tracked, and reviewed. It brings grant applications, milestones, budgets, discussions, and analytics into one place by pulling live data from the Zcash Community Grants GitHub repository. The platform aims to provide a clearer and more user-friendly experience for applicants, committee members, and community reviewers.
-
-[Kutembelea](https://staging.zgrantshub.com/)
-
+### Kitovu cha Ruzuku Zcash
+Dashibodi ya ruzuku inayolenga jamii iliyoundwa ili kurahisisha jinsi ruzuku za Zcash zinavyogunduliwa, kufuatiliwa, na kukaguliwa. Inaleta maombi ya ruzuku, hatua muhimu, bajeti, majadiliano, na uchanganuzi katika sehemu moja kwa kutoa data ya moja kwa moja kutoka kwenye hazina ya GitHub Ruzuku za Jumuiya Zcash. Jukwaa hili linalenga kutoa uzoefu ulio wazi na rahisi zaidi kwa waombaji, wajumbe wa kamati, na wakaguzi wa jamii. 
+[Tembelea](https://staging.zgrantshub.com/)
 
 ---
 
-## Pochi na Vifaa vya Malipo
+## Pochi na Zana za Malipo
 
-### Kupata pesa kwa kutumia kompyuta.
-Malipo binafsi kwa ajili ya mtandao. Non-matayarisho, hakuna KYC wafanyabiashara kupokea ZEC moja kwa moja anwani za ulinzi. 
-[Kutembelea](https://www.cipherpay.app/en)
+### CipherPay
+Malipo ya kibinafsi kwa ajili ya mtandao. Sio ya kufungwa, hakuna KYC. Wafanyabiashara hupokea ZEC moja kwa moja kwenye anwani zilizolindwa. 
+[Tembelea](https://www.cipherpay.app/en)
 
-### Ezcash
-Rahisi kutumia, kikamilifu featured multiplatform Zcash mkoba na msaada autoshielding. 
-[Kutembelea](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
+### eZcash
+Pochi ya Zcash yenye mifumo mingi na rahisi kutumia, yenye usaidizi wa kujikinga kiotomatiki. 
+[Tembelea](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
-### Kipaji Nozy
-Orchard-ililenga Zcash mkoba kujengwa kwa Zebrad, kusaidia shughuli kikamilifu ulinzi na usimamizi wa usalama muhimu. 
-[Kutembelea](https://github.com/LEONINE-DAO/Nozy-wallet)
+### Pochi ya Nozy
+Pochi Zcash Orchard-focused iliyojengwa kwa ajili ya zebrad, inayounga mkono miamala iliyolindwa kikamilifu na usimamizi salama wa funguo. 
+[Tembelea](https://github.com/LEONINE-DAO/Nozy-wallet)
 
-### Overpay.com - Malipo ya kupita kiasi
-Malipo gateway kwamba lets watumiaji kutumia shielded ZEC juu ya kununua halisi duniani (sasa katika alpha). 
-[Kutembelea](https://overpay.com)
+### Overpay.com
+Lango la malipo linalowaruhusu watumiaji kutumia ZEC iliyolindwa kwenye ununuzi wa ulimwengu halisi (kwa sasa katika alpha). 
+[Tembelea](https://overpay.com)
 
-### Zawadi ya Zafu
-Open-chanzo faragha mkoba kwa Zcash na Penumbra. Browser ugani pamoja na upande wa wateja kuthibitisha, alithibitisha mwanga-mteja usanifu, baridi kusaini, FROST multisig, na hakuna kuona ufunguo kuondoka kifaa. 
-[Kutembelea](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
+### Pochi ya Zafu
+Pochi ya faragha ya chanzo huria kwa Zcash na Penumbra. Kiendelezi cha kivinjari chenye uthibitishaji wa upande wa mteja, usanifu uliothibitishwa wa mwanga-mteja, utiaji sahihi kwa njia baridi, FROST multisig, na hakuna kitufe cha kutazama kinachoondoka kwenye kifaa. 
+[Tembelea](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo
-Zcash Register ambayo inawezesha wauzaji na wafanyabiashara kukubali malipo ya Zcash. 
-[Kutembelea](https://zgo.cash)
+Jisajili la Zcash linalowawezesha wachuuzi na wafanyabiashara kukubali malipo Zcash. 
+[Tembelea](https://zgo.cash)
 
-### Zimppy (mnyama)
-Mashine Malipo Itifaki (MPP) kwa Zcash. Iliyoundwa kwa ajili ya mawakala AI na automatiska mashine-kwa-mashine workflows. Inasaidia kikamilifu kulindwa Orchard malipo. 
-[Kutembelea](https://zimppy.xyz/)
+### Zimpy
+Itifaki ya Malipo ya Mashine (MPP) kwa Zcash. Imeundwa kwa ajili ya mawakala wa akili bandia na mtiririko wa kazi otomatiki kutoka kwa mashine hadi mashine. Inasaidia malipo Orchard yaliyolindwa kikamilifu. 
+[Tembelea](https://zimppy.xyz/)
 
-### Mkoba wa Dizzy
-Discord bot kutoa seamless na salama upatikanaji wa shughuli Zcash. 
-[Kutembelea](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
+### Pochi Dizzy
+Roboti Discord hutoa ufikiaji salama na usio na mshono wa miamala Zcash. 
+[Tembelea](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Flagship Zcash mkoba kutoka ZODL (zamani Zashi). Inapatikana kwenye iOS na Android. Inasaidia walled ZEC na NU7 coinholder kupiga kura. 
-[Kutembelea](https://zodl.app/)
+Pochi ya Flagship Zcash kutoka ZODL (zamani Zashi). Inapatikana kwenye iOS na Android. Inasaidia upigaji kura wa ZEC na NU7 wenye sarafu waliolindwa. 
+[Tembelea](https://zodl.app/)
 
-### Mkoba Noir
-faragha-umakini Zcash mkoba iliyoundwa kwa ajili ya shughuli rahisi na binafsi ZEC. 
-[Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
+### Pochi ya Noir
+Pochi Zcash inayolenga faragha iliyoundwa kwa miamala rahisi na ya faragha ZEC. 
+[Jukwaa](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
 
-### ZecVault (Hifadhi ya Kioo)
-Lengo makao akiba mkoba kujengwa juu ya Zcash ulinzi shughuli. 
-[Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
+### ZecVault
+Pochi ya akiba inayotegemea malengo iliyojengwa kwenye miamala iliyolindwa na Zcash. 
+[Jukwaa](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Mrithi wa Ywallet kusaidia karibuni Zcash itifaki makala ikiwa ni pamoja na Orchard. 
-[Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
+Mrithi wa YWallet anayeunga mkono vipengele vipya vya itifaki Zcash ikiwemo Orchard. 
+[Jukwaa](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
-Jaribio nyepesi desktop mkoba kwa Zcash imeandikwa katika kutu. 
-[Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
+Pochi nyepesi ya majaribio ya kompyuta ya mezani kwa ajili ya Zcash iliyoandikwa kwa Rust. 
+[Jukwaa](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
 ### Gem Wallet
-Multi-chain, wazi chanzo, binafsi custodial mkoba ambayo inasaidia kutuma, kupokea na kubadilishana ZEC. 
-[Kutembelea](https://gemwallet.com/)
+Pochi ya mnyororo mingi, chanzo huria, inayojihifadhi yenyewe ambayo inasaidia kutuma, kupokea, na kubadilishana ZEC. 
+[Tembelea](https://gemwallet.com/)
 
 ### TIPZ
-Kuishi yasiyo ya kizuizini tipping jukwaa ambapo kila ncha hufika kama ZEC ulinzi. Inasaidia msalaba-mnyororo juu ramps kupitia NEAR Intents. 
-[Kutembelea](https://tipz.cash/)
+Jukwaa la moja kwa moja la kutoa vidokezo visivyo vya ulinzi ambapo kila ncha hufika kama ZEC. Husaidia njia za mnyororo mtambuka kupitia NEAR Intents. 
+[Tembelea](https://tipz.cash/)
 
 ### CYZE
-Ushirikiano wa mkoba na uratibu jukwaa kwamba inaruhusu wanachama wengi timu kusimamia walled Zcash fedha pamoja. Inatumia FROST saini kizingiti, kuwezesha makundi ya kuidhinisha shughuli Orchard kwa pamoja bila kutoa moja washiriki udhibiti kamili juu ya mfuko wa pesa.
+Pochi shirikishi na jukwaa la uratibu linaloruhusu wanachama wengi wa timu kusimamia fedha za Zcash zilizolindwa pamoja. Inatumia sahihi za kizingiti cha FROST, na kuwezesha vikundi kuidhinisha miamala Orchard kwa pamoja bila kumpa mshiriki mmoja udhibiti kamili wa pochi. 
+[Tembelea](https://github.com/USCMig/Cyze)
 
-[Kutembelea](https://github.com/USCMig/Cyze)
-
-### Pendrake Watch
-A watch-only desktop wallet designed for individuals and organizations that need to monitor shielded funds without having the ability to spend them. It supports transaction and balance monitoring, Orchard and Sapling notes, memo viewing, historical fiat valuation, transaction notifications, wallet encryption, and privacy-focused screen-sharing features.
-
-[Kutembelea](https://github.com/auzum197/pendrake-watch)
+### Saa ya Pendrake
+Pochi ya saa pekee ya mezani iliyoundwa kwa ajili ya watu binafsi na mashirika ambayo yanahitaji kufuatilia fedha zilizolindwa bila kuwa na uwezo wa kuzitumia. Inasaidia ufuatiliaji wa miamala na salio, maelezo ya Orchard na Sapling, utazamaji wa memo, uthamini wa kihistoria wa fiat, arifa za miamala, usimbaji fiche wa pochi, na vipengele vya kushiriki skrini vinavyolenga faragha. 
+[Tembelea](https://github.com/auzum197/pendrake-watch)
 
 ---
 
-## Explorers, Data na Mtandao Dashboards
+## Dashibodi za Wachunguzi, Data, na Mtandao
 
-### Kupima CipherScan
-faragha-kwanza Zcash blockchain Explorer. kujengwa na Next.js 15, TypeScript, na kutu / WASM. Lookups wala kuvuja ombi metadata. 
-[Kutembelea](https://cipherscan.app/)
+### CipherScan
+Kichunguzi cha blockchain Zcash cha faragha kwanza. Kimeundwa na Next.js 15, TypeScript, na Rust/WASM. Utafutaji hauvuji metadata ya hoja. 
+[Tembelea](https://cipherscan.app/)
 
 ### Exblo
-Block Explorer iliyoundwa kwa ajili ya kupima shughuli juu ya Zcash Testnet. 
-[Kutembelea](https://testnet.exblo.app/)
+Kichunguzi cha block kilichoundwa kwa ajili ya kujaribu miamala kwenye Zcash Testnet. 
+[Tembelea](https://testnet.exblo.app/)
 
 ### OpenZcash
-Dashibodi ya uwazi wa umma kwa Mfuko wa Zcash Dev, pamoja na uhasibu wa ruzuku za ZCG na FPF, Sanduku la Kuzuia, utawala, na malipo. 
-[Kutembelea](https://openzcash.org/)
+Dashibodi ya uwazi wa umma kwa ajili ya Mfuko wa Zcash Dev, ikiwa ni pamoja na uhasibu wa ruzuku za ZCG na FPF, Lockbox, utawala, na malipo. 
+[Tembelea](https://openzcash.org/)
 
-### Zcash Block Explorer (Mtafutaji wa Hifadhi)
-Kamili Zcash block explorer kutoka Nighthawk Apps. 
-[Kutembelea](https://mainnet.zcashexplorer.app/)
+### Kichunguzi cha Kizuizi Zcash
+Kichunguzi kamili cha block Zcash kutoka Programu za Nighthawk. 
+[Tembelea](https://mainnet.zcashexplorer.app/)
 
-### Zcash.Usawa
-Browser-based Zcash Unified Address parser for inspecting Unified Addresses.  
-[Kutembelea](https://zcash.space/)
+### Zcash.Space
+Kichanganuzi cha Unified Address Zcash kinachotumia kivinjari kwa ajili ya kukagua Anwani Unified. 
+[Tembelea](https://zcash.space/)
 
 ### ZecMap
-Ramani ya kimataifa ya biashara na maeneo ambayo kukubali Zcash. 
-[Kutembelea](https://zecmap.com/)
+Ramani ya kimataifa ya biashara na maeneo yanayokubali Zcash. 
+[Tembelea](https://zecmap.com/)
 
 ### ZECping
-Chombo cha kuangalia nyakati za majibu ya gRPC ya nodes Zcash Lightwalletd. 
-[Kutembelea](https://github.com/emersonian/zecping)
+Zana ya kuangalia muda wa majibu ya gRPC ya nodi za Zcash lightwalletd. 
+[Tembelea](https://github.com/emersonian/zecping)
 
 ### ZecStats
-Dashibodi kwa ajili ya takwimu za mtandao wa Zcash na metrics kulinda katika muda halisi. 
-[Kutembelea](https://zecstats.com)
+Dashibodi ya takwimu za mtandao Zcash na vipimo vya ulinzi kwa wakati halisi. 
+[Tembelea](https://zecstats.com)
 
-### bei ya zec
-Kufuatilia na data metrics chombo kwa Zcash utendaji bei ya soko. 
-[Kutembelea](https://zecprice.com)
+### zecprice
+Zana ya ufuatiliaji na vipimo vya data kwa utendaji wa bei ya soko la Zcash. 
+[Tembelea](https://zecprice.com)
 
 ### Zlink
-Directory kwa ajili ya kutafuta viungo, zana na taarifa kuhusu mazingira Zcash. 
-[Kutembelea](https://zlink.click)
+Saraka ya kutafuta viungo, zana, na taarifa kuhusu mfumo ikolojia Zcash. 
+[Tembelea](https://zlink.click)
 
 ### Zecmarket
-Ulinzi wa faragha kwanza soko la mazingira Zcash. Malipo ya kukaa moja kwa moja na jukwaa kamwe ana fedha yako.
-
-[Kutembelea](https://zecmarket.org/)
+Soko la kwanza la faragha la mfumo ikolojia wa Zcash. Malipo hulipwa moja kwa moja na mfumo hauhifadhi pesa zako kamwe. 
+[Tembelea](https://zecmarket.org/)
 
 ### Zecsite
-Tovuti ya kijiografia inayolenga faragha ambayo inakusanya habari za Zcash, takwimu na yaliyomo kwenye elimu bila kutumia JavaScript.
-
-[Kutembelea](https://zecsite.org/netscape/en/index.html)
-
-[Mkutano wa Majadiliano](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
+Tovuti tuli inayozingatia faragha inayokusanya habari, takwimu, na maudhui ya kielimu Zcash bila kutumia JavaScript. 
+[Tembelea](https://zecsite.org/netscape/en/index.html)  
+[Jukwaa](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
 ### ZEC-OS
-Aretro-style desktop interface that combines various Zcash ecosystem tools and information into one application. It includes a blockchain explorer, mempool viewer, network statistics, historical charts, shielded pool information, mining tools, a Unified Address decoder, calculator, games, terminal, and other utilities.
-
-[Kutembelea](https://www.zec-os.com/)
+Kiolesura cha eneo-kazi cha mtindo wa zamani kinachochanganya zana mbalimbali za mfumo ikolojia Zcash na taarifa katika programu moja. Kinajumuisha kichunguzi cha blockchain, kitazamaji cha mempool, takwimu za mtandao, chati za kihistoria, taarifa za bwawa lililolindwa, zana za uchimbaji madini, kipokonyaji Unified Address, kikokotoo, michezo, kituo cha mawasiliano, na huduma zingine. 
+[Tembelea](https://www.zec-os.com/)
 
 ---
 
-## Utambulisho, Majina na Uzoefu wa Mtumiaji
+## Utambulisho, Majina, na Uzoefu wa Mtumiaji
 
-### ZcashNames (Jina la Kifedha)
-Majina ya binadamu-readable kwa anwani Zcash ulinzi (kwa mfano. `alice.zec` resolves to a Unified Address).  
-[Kutembelea](https://www.zcashnames.com/)
+### ZcashNames
+Majina yanayoweza kusomwa na binadamu kwa anwani zilizolindwa za Zcash (km. `alice.zec` anaamua kuwa na Unified Address). 
+[Tembelea](https://www.zcashnames.com/)
 
 ### Zapp / JustZappIt
-Faragha-kwanza mjumbe kwamba unajumuisha ZEC mazungumzo kwa malipo ya ulimwengu halisi. 
-[Kutembelea](https://www.justzappit.xyz/)
+Mjumbe wa kwanza wa faragha anayeunganisha gumzo za ZEC na malipo ya ulimwengu halisi. 
+[Tembelea](https://www.justzappit.xyz/)
 
 ### Zentat
-Browser ugani kwamba hubadilisha bei fiat fedha kwa ZEC katika muda halisi kama wewe kuvinjari mtandao. 
-[Kutembelea](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
+Kiendelezi cha kivinjari kinachobadilisha bei za sarafu ya fiat kuwa ZEC kwa wakati halisi unapovinjari wavuti. 
+[Tembelea](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
-### Ukuta Uliohifadhiwa kwa Kifaa cha Kuzuia
-Jukwaa la kukiri bila majina linalodhibitiwa na faragha ya Zcash. 
-[Kutembelea](https://shieldedwall.org/)
+### Ukuta Uliolindwa
+Jukwaa la kukiri bila majina linaloendeshwa na faragha Zcash. 
+[Tembelea](https://shieldedwall.org/)
 
 ### Ztrash
-Disposable barua pepe inbox kulipwa kwa ajili ya na ulinzi ZEC. 
-[Kutembelea](https://ztrash.com/)
+Kisanduku cha barua pepe kinachoweza kutupwa kimelipwa kwa kutumia ZEC. 
+[Tembelea](https://ztrash.com/)
 
 ### LiveZEC
-Jukwaa la kutoa kipande cha faragha kwa watangazaji ambao huwezesha watazamaji kutuma ZEC iliyohifadhiwa moja kwa moja kwenye mkoba wa mtangazaji.
-
-[Kutembelea](https://zec.live/)
+Jukwaa la kutoa vidokezo linalolenga faragha kwa watiririshaji linalowawezesha watazamaji kutuma ZEC iliyolindwa moja kwa moja kwenye pochi ya kujihifadhi ya mtiririshaji. 
+[Tembelea](https://zec.live/)
 
 ### ZecLedger
-A privacy-preserving financial tracking and accounting tool for Zcash. It combines a public dashboard for transparent network data with local private accounting that uses viewing keys without exposing them, helping users track balances, transaction history, cost basis, and eventually budgeting and tax-ready reports while keeping their funds secure and private.
+Zana ya ufuatiliaji wa fedha na uhasibu inayohifadhi faragha kwa Zcash. Inachanganya dashibodi ya umma kwa ajili ya data ya mtandao iliyo wazi na uhasibu wa kibinafsi wa ndani ambayo hutumia funguo za kutazama bila kuzifichua, kuwasaidia watumiaji kufuatilia salio, historia ya miamala, msingi wa gharama, na hatimaye utayarishaji wa bajeti na ripoti za kodi huku ikiweka fedha zao salama na za faragha. 
+[Tembelea](https://zecledger-web.vercel.app/)
 
-[Kutembelea](https://zecledger-web.vercel.app/)
-
-### Uthibitishaji na ZcashMe
-Mfumo wa uthibitishaji unaozingatia faragha ambao hutumia shughuli za Zcash zilizohifadhiwa kama utaratibu wa kuingia. Watumiaji huchanganua nambari ya QR na kutuma biashara ndogo ya uthibitisho.
-
-[Kutembelea](https://github.com/zcashme/zns-login)
+### Uthibitishaji kwa kutumia ZcashMe
+Mfumo wa uthibitishaji unaozingatia faragha unaotumia miamala Zcash iliyolindwa kama utaratibu wa kuingia. Watumiaji huchanganua msimbo wa QR na kutuma muamala mdogo wa uthibitishaji. 
+[Tembelea](https://github.com/zcashme/zns-login)
 
 ---
 
-## Developer, Upimaji na Miundombinu
+## Msanidi Programu, Majaribio, na Miundombinu
 
-### Ziggurat (mji wa kale)
-Mtandao mtihani Suite kwa zcashd na Zebra watengenezaji. Ni pamoja Zcash crawler . 
-[Kutembelea](https://github.com/runziggurat/zcash)
+### Ziggurat
+Kifaa cha majaribio cha mtandao kwa watengenezaji wa zcashd na Zebra. Kinajumuisha kifaa cha kutambaa Zcash. 
+[Tembelea](https://github.com/runziggurat/zcash)
 
 ### ZecDev
-Linux-kwanza kitanda kwamba huleta juu ya mtandao Zebra regtest na bomba, Unified Address fixtures, na lightwalletd au Zaino, pamoja reusable GitHub Vitendo kwa ulinzi mwisho hadi mwisho mtiririko. 
-[Kutembelea](https://github.com/zecdev)
+Zana ya kwanza ya Linux inayoleta mtandao wa majaribio ya Zebra wenye bomba, vifaa vya Unified Address, na lightwalletd au Zaino, pamoja na Vitendo GitHub vinavyoweza kutumika tena kwa mtiririko uliolindwa kutoka mwanzo hadi mwisho. 
+[Tembelea](https://github.com/zecdev)
 
-### Zebra Coverage-Guided Fuzzing Miundombinu
-Kupima utaratibu wa Zebra's parsing, mitandao na vipengele cryptographic dhidi ya pembejeo malformed. 
-[Mkutano wa Majadiliano](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
+### Miundombinu ya Kufua Inayoongozwa na Ufikiaji Zebra
+Upimaji wa kimfumo wa vipengele vya uchanganuzi, mtandao, na usimbaji fiche Zebra's dhidi ya ingizo zenye hitilafu. 
+[Jukwaa](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-### Kiwingu
-Kazi ya kuanzisha mfumo wa saini za kiwango cha chini (FROST) inaendelea kwa ajili ya kupitishwa zaidi katika mazingira ya Zcash. 
-[Karatasi ya karatasi](https://eprint.iacr.org/2020/852)
+### FROST
+Kazi ya mpango wa sahihi ya kizingiti (FROST) inaendelezwa kwa ajili ya kupitishwa kwa upana zaidi katika mfumo ikolojia Zcash. 
+[Karatasi](https://eprint.iacr.org/2020/852)
 
-### MonteZcret Benchmark Kiwango cha Kuonyesha
-Open-chanzo utendaji wa kupima mradi kwamba inachunguza mbinu mbalimbali za kusawazisha Zcash blockchain data. 
-[Kutembelea](https://github.com/openkoder/benchmarks_zcash/)
+### Kipimo cha MonteZcret
+Mradi wa majaribio ya utendaji huria unaotathmini mbinu tofauti za kusawazisha data ya blockchain ya Zcash. 
+[Tembelea](https://github.com/openkoder/benchmarks_zcash/)
 
 ---
 
-## Maombi pana kutumia Zcash
+## Maombi Pana Zaidi Yanayotumia Zcash
 
-### kuugua
-Ushirikiano, chini-up biashara shirika mfano kujengwa juu ya Zcash. 
-[Kutembelea](https://aftok.com)
+### baada ya
+Mfumo wa shirika la biashara la ushirika, kuanzia mwanzo hadi mwisho uliojengwa juu ya Zcash. 
+[Tembelea](https://aftok.com)
 
-### ZK Global Credit
-Zcash-asili ya mikopo na uchaguzi wa miundombinu kwa ajili ya ufunuo kuchagua, utayari makazi, sifa mpakani, na ulinzi utawala. 
-[Kutembelea](https://voting.zkglobalcredit.tech/)
+### Mikopo ya ZK Global
+Miundombinu ya mikopo na upigaji kura Zcash-native kwa ajili ya kutoa taarifa kwa njia teule, utayari wa suluhu, sifa ya kuvuka mipaka, na utawala uliolindwa. 
+[Tembelea](https://voting.zkglobalcredit.tech/)
 
-### Free2z
-Chombo kwa ajili ya uumbaji wa maudhui bila majina na michango binafsi powered by Zcash. 
-[Kutembelea](https://free2z.cash)
+### Free2Z
+Zana ya uundaji wa maudhui bila majina na michango ya kibinafsi inayoendeshwa na Zcash. 
+[Tembelea](https://free2z.cash)
 
-### Rhea Finance
-Zcash gateway kutoa browser mkoba na kuvuka-chain DeFi upatikanaji. 
-[Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
+### Fedha za Rhea
+Lango la Zcash hutoa pochi ya kivinjari na ufikiaji wa DeFi wa mnyororo mtambuka. 
+[Jukwaa](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
-### BazaarSwap
-Zcash-asili DEX kwamba huleta shielded ZEC katika Web3 DeFi kupitia WalletConnect. 
-[Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
+### Kubadilisha Bazaar
+DEX Zcash-native ambayo huleta ZEC iliyolindwa kwenye Web3 DeFi kupitia WalletConnect. 
+[Jukwaa](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
 ### DCRDEX
-Decreds madaraka kubadilishana kwamba inasaidia Zcash. 
-[Kutembelea](https://dex.decred.org)
+Ubadilishanaji wa Decred unaounga mkono Zcash. 
+[Tembelea](https://dex.decred.org)
 
-### Brave Wallet
-Browser mkoba na msaada Zcash. 
-[Kutembelea](https://brave.com/wallet/)
+### Pochi Brave
+Pochi ya kivinjari yenye usaidizi wa Zcash. 
+[Tembelea](https://brave.com/wallet/)
 
 ### Nano-GPT
-AI jukwaa ambayo hutoa upatikanaji wa mifano ya kuongoza nyingi za AI wakati inasaidia malipo ya cryptocurrency, pamoja na Zcash.
-
-[Kutembelea](https://nano-gpt.com/conversation/new)
+Jukwaa la AI linalotoa ufikiaji wa mifumo mingi inayoongoza ya AI huku likiunga mkono malipo ya sarafu za kidijitali, ikiwa ni pamoja na Zcash. 
+[Tembelea](https://nano-gpt.com/conversation/new)
 
 ### zk.poker
-Peer-to-peer poker jukwaa kwamba unachanganya mwisho na mwisho encryption, akili ya poker, na Zcash faragha teknolojia. Ni iliyoundwa ili operator hana haja ya kujua kadi wachezaji au moja kwa moja kushikilia betting fedha.
-
-[Kutembelea](https://zkbtc.org/)
-
+Jukwaa la poka la wenzao linalochanganya usimbaji fiche wa mwanzo hadi mwisho, poka ya akili, na teknolojia ya faragha Zcash. Limeundwa ili mwendeshaji asihitaji kujua kadi za wachezaji au kushikilia moja kwa moja fedha za kamari. 
+[Tembelea](https://zkbtc.org/)
 
 ---
 
-## Mashirika & Labs
+## Mashirika na Maabara
 
-### Maabara ya Kuhifadhiwa
-Independent, mchango unaofadhiliwa Zcash msaada shirika makao yake makuu katika Uswisi. Shirika la kwanza katika mazingira ambayo haijawahi kupokea Mfuko wa Maendeleo au kuzuia malipo ya fedha. 
-[Kutembelea](https://shieldedlabs.net/)
+### Maabara Zilizolindwa
+Shirika huru la usaidizi la Zcash linalofadhiliwa na michango lenye makao yake makuu Uswisi. Shirika la kwanza katika mfumo ikolojia ambalo halijawahi kupokea Mfuko wa Maendeleo au ufadhili wa zawadi za kuzuia. 
+[Tembelea](https://shieldedlabs.net/)
 
-### Mchanganyiko wa Kificho
-Kampuni iliyojitolea kwa faragha, uhuru wa kujitegemea na maadili ya cypherpunk. Hujenga zana za watu ambao wanahitaji kulinda maisha yao ya dijiti. 
-[Kutembelea](https://cypherpunk.com/)
+### Cypherpunk
+Kampuni iliyojitolea kwa faragha, uhuru wa kujitawala, na maadili ya cypherpunk. Hujenga zana kwa watu binafsi wanaohitaji kulinda maisha yao ya kidijitali. 
+[Tembelea](https://cypherpunk.com/)

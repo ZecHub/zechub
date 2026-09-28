@@ -12,7 +12,7 @@ Cahier d’exercices éducatif créé par la communauté mondiale Zcash.
 
 ### ZECPublish
 Réseau social résistant à la censure, propulsé par la blockchain Zcash. Comprend un annuaire d’utilisateurs Zcash et un forum de messages anonyme.  
-[Visiter](https://www.zecpublish.com)
+(Site actuellement hors ligne depuis septembre 2026.)
 
 ### ZK Radio
 Station de radio en ligne pour informer, éduquer et divertir la communauté Zcash. Développée par Zcash en Español et le ZKAV Club.  
@@ -46,39 +46,36 @@ Contenu éducatif structuré pour les nouveaux utilisateurs et développeurs Zca
 Site interactif proposant des jeux sur le thème de Zcash et des événements communautaires en direct.  
 [Visiter](https://zectastic.com/)
 
-### Zec App
-Application mobile qui regroupe en un seul endroit les actualités Zcash, l’activité communautaire, les informations sur le réseau, les wallets, les plateformes d’échange et les ressources de l’écosystème.  
+### ZEC App
+Application mobile qui regroupe en un seul endroit les actualités ZEC, l’activité communautaire, les informations sur le réseau, les wallets, les plateformes d’échange et les ressources de l’écosystème.  
 [Forum](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Community
 Centre communautaire pour Pretty Good Policy for Zcash (PGPZ), une initiative politique de Washington D.C. axée sur l’argent numérique préservant la confidentialité, la conformité pratique et le rôle d’intérêt public de Zcash.  
 [Visiter](https://community.pgpz.org/)
 
-### Gleyo 
-Plateforme d’engagement communautaire et de récompenses conçue pour les communautés Zcash, les projets Web3 et les organisations Web2. Elle aide les communautés à intégrer et mobiliser leurs membres via des quêtes, le chat et des récompenses, tout en permettant aux utilisateurs de gagner et de retirer des ZEC privés protégés.
+### Gleyo
+Plateforme d’engagement communautaire et de récompenses conçue pour les communautés Zcash, les projets Web3 et les organisations Web2. Elle aide les communautés à intégrer et mobiliser leurs membres via des quêtes, le chat et des récompenses, tout en permettant aux utilisateurs de gagner et de retirer des ZEC privés protégés.  
+[Visitez](https://gleyo.app/)
 
-[Visiter](https://gleyo.app/)
-
-### Zcash Grants Hub
-Tableau de bord des subventions axé sur la communauté, conçu pour simplifier la découverte, le suivi et l’examen des subventions Zcash. Il regroupe en un seul endroit les demandes de subvention, les jalons, les budgets, les discussions et les analyses en extrayant des données en direct du dépôt GitHub Zcash Community Grants. La plateforme vise à offrir une expérience plus claire et plus conviviale pour les candidats, les membres du comité et les examinateurs de la communauté.
-
+### Zcash Hub des subventions
+Tableau de bord des subventions axé sur la communauté, conçu pour simplifier la découverte, le suivi et l’évaluation des subventions Zcash. Il rassemble les demandes de subvention, les jalons, les budgets, les discussions et les analyses en un seul endroit en extrayant des données en direct du dépôt Community Grants Zcash GitHub. La plateforme vise à offrir une expérience plus claire et plus conviviale aux candidats, aux membres du comité et aux évaluateurs de la communauté.  
 [Visiter](https://staging.zgrantshub.com/)
-
 
 ---
 
 ## Wallets et outils de paiement
 
-### Cipherpay
-Paiements privés pour Internet. Non dépositaire, sans KYC. Les commerçants reçoivent le ZEC directement sur des adresses protégées.  
+### CipherPay
+Des paiements privés pour Internet. Non-custodial, sans KYC. Les commerçants reçoivent ZEC directement sur des adresses protégées.  
 [Visiter](https://www.cipherpay.app/en)
 
-### Ezcash
-Wallet Zcash multiplateforme, facile à utiliser et complet, avec prise en charge de l’autoshielding.  
+### eZcash
+Portefeuille Zcash multiplateforme, complet et facile à utiliser, prenant en charge l’autoblindage.  
 [Visiter](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Wallet Zcash centré sur Orchard, conçu pour Zebrad, prenant en charge les transactions entièrement protégées et la gestion sécurisée des clés.  
+Portefeuille Zcash axé sur Orchard conçu pour zebrad, prenant en charge des transactions entièrement protégées et une gestion sécurisée des clés.  
 [Visiter](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
@@ -114,7 +111,7 @@ Wallet d’épargne fondé sur des objectifs, construit sur les transactions pro
 [Forum](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Successeur de Ywallet prenant en charge les dernières fonctionnalités du protocole Zcash, y compris Orchard.  
+Successeur de YWallet prenant en charge les dernières fonctionnalités du protocole Zcash, notamment Orchard.  
 [Forum](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
@@ -130,13 +127,11 @@ Plateforme de pourboires en direct non dépositaire où chaque pourboire arrive 
 [Visiter](https://tipz.cash/)
 
 ### CYZE
-Wallet collaboratif et plateforme de coordination permettant à plusieurs membres d’une équipe de gérer ensemble des fonds Zcash protégés. Il utilise les signatures à seuil FROST, ce qui permet aux groupes d’autoriser collectivement des transactions Orchard sans donner à un seul participant le contrôle complet du wallet.
-
+Un wallet collaboratif et une plateforme de coordination permettant à plusieurs membres d’une équipe de gérer ensemble des fonds Zcash protégés. Il utilise des signatures à seuil FROST, permettant aux groupes d’autoriser collectivement des transactions Orchard sans qu’un seul participant ne dispose d’un contrôle total sur le wallet.  
 [Visiter](https://github.com/USCMig/Cyze)
 
 ### Pendrake Watch
-Wallet de bureau en mode watch-only conçu pour les particuliers et les organisations qui doivent surveiller des fonds protégés sans pouvoir les dépenser. Il prend en charge le suivi des transactions et des soldes, les notes Orchard et Sapling, l’affichage des mémos, l’évaluation historique en monnaie fiduciaire, les notifications de transaction, le chiffrement du wallet et des fonctionnalités de partage d’écran axées sur la confidentialité.
-
+Un wallet de bureau en lecture seule conçu pour les particuliers et les organisations qui doivent surveiller des fonds protégés sans pouvoir les dépenser. Il prend en charge le suivi des transactions et des soldes, les notes Orchard et Sapling, la consultation des mémos, l’évaluation historique en monnaie fiduciaire, les notifications de transaction, le chiffrement du wallet et des fonctionnalités de partage d’écran axées sur la confidentialité.  
 [Visiter](https://github.com/auzum197/pendrake-watch)
 
 ---
@@ -168,7 +163,7 @@ Carte mondiale des commerces et lieux qui acceptent Zcash.
 [Visiter](https://zecmap.com/)
 
 ### ZECping
-Outil pour vérifier les temps de réponse gRPC des nœuds Zcash Lightwalletd.  
+Outil permettant de vérifier les temps de réponse gRPC des nœuds Zcash lightwalletd.  
 [Visiter](https://github.com/emersonian/zecping)
 
 ### ZecStats
@@ -184,20 +179,16 @@ Annuaire pour trouver des liens, des outils et des informations sur l’écosyst
 [Visiter](https://zlink.click)
 
 ### Zecmarket
-La marketplace axée sur la confidentialité de l’écosystème Zcash. Les paiements sont réglés directement et la plateforme ne détient jamais vos fonds.
-
+La place de marché axée sur la confidentialité de l’écosystème Zcash. Les paiements sont réglés directement et la plateforme ne détient jamais vos fonds.  
 [Visiter](https://zecmarket.org/)
 
 ### Zecsite
-Site statique axé sur la confidentialité qui regroupe les actualités, statistiques et contenus éducatifs Zcash sans utiliser JavaScript.
-
-[Visiter](https://zecsite.org/netscape/en/index.html)
-
+Un site web statique axé sur la confidentialité qui regroupe des actualités, des statistiques et du contenu éducatif sur Zcash sans utiliser JavaScript.  
+[Visiter](https://zecsite.org/netscape/en/index.html)  
 [Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
 ### ZEC-OS
-Interface de bureau au style rétro qui combine divers outils et informations de l’écosystème Zcash dans une seule application. Elle comprend un explorateur de blockchain, une visionneuse de mempool, des statistiques réseau, des graphiques historiques, des informations sur les pools protégés, des outils de minage, un décodeur de Unified Address, une calculatrice, des jeux, un terminal et d’autres utilitaires.
-
+Une interface de bureau au style rétro qui regroupe divers outils et informations de l'écosystème Zcash dans une seule application. Elle comprend un explorateur de blockchain, une visionneuse de mempool, des statistiques réseau, des graphiques historiques, des informations sur les pools protégés, des outils de minage, un décodeur Unified Address, une calculatrice, des jeux, un terminal et d'autres utilitaires.  
 [Visiter](https://www.zec-os.com/)
 
 ---
@@ -225,18 +216,15 @@ Boîte de réception email jetable payée en ZEC protégé.
 [Visiter](https://ztrash.com/)
 
 ### LiveZEC
-Plateforme de pourboires axée sur la confidentialité pour les streamers, permettant aux spectateurs d’envoyer des ZEC protégés directement vers le wallet en auto-garde d’un streamer.
-
+Une plateforme de pourboires axée sur la confidentialité destinée aux streamers, qui permet aux spectateurs d'envoyer directement des ZEC protégés vers le portefeuille auto-détenu d'un streamer.  
 [Visiter](https://zec.live/)
 
 ### ZecLedger
-Outil de suivi financier et de comptabilité préservant la confidentialité pour Zcash. Il combine un tableau de bord public pour les données réseau transparentes avec une comptabilité privée locale qui utilise des viewing keys sans les exposer, aidant les utilisateurs à suivre les soldes, l’historique des transactions, le coût d’acquisition et, à terme, la budgétisation ainsi que des rapports prêts pour la fiscalité, tout en gardant leurs fonds sécurisés et privés.
-
+Un outil de suivi financier et de comptabilité préservant la confidentialité pour Zcash. Il combine un tableau de bord public offrant des données réseau transparentes avec une comptabilité privée locale qui utilise des clés de visualisation sans les exposer, aidant les utilisateurs à suivre leurs soldes, l’historique des transactions, le prix de revient et, à terme, la budgétisation ainsi que des rapports prêts pour la déclaration fiscale, tout en préservant la sécurité et la confidentialité de leurs fonds.  
 [Visiter](https://zecledger-web.vercel.app/)
 
-### Authentication with ZcashMe
-Système d’authentification axé sur la confidentialité qui utilise des transactions Zcash protégées comme mécanisme de connexion. Les utilisateurs scannent un code QR et envoient une petite transaction d’authentification.
-
+### Authentification avec ZcashMe
+Un système d’authentification axé sur la confidentialité qui utilise des transactions Zcash protégées comme mécanisme de connexion. Les utilisateurs scannent un code QR et envoient une petite transaction d’authentification.  
 [Visiter](https://github.com/zcashme/zns-login)
 
 ---
@@ -251,12 +239,12 @@ Suite de tests réseau pour les développeurs de zcashd et Zebra. Inclut un craw
 Boîte à outils prioritairement Linux qui met en place un réseau Zebra regtest avec faucet, fixtures Unified Address, et lightwalletd ou Zaino, ainsi que des GitHub Actions réutilisables pour des flux de bout en bout protégés.  
 [Visiter](https://github.com/zecdev)
 
-### Zebra Coverage-Guided Fuzzing Infrastructure
-Tests systématiques des composants de parsing, de réseau et cryptographiques de Zebra face à des entrées malformées.  
+### Zebra Infrastructure de fuzzing guidé par la couverture
+Tests systématiques des composants d’analyse syntaxique, réseau et cryptographiques de Zebra face à des entrées malformées.  
 [Forum](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-### Frost
-Travail sur le schéma de signature à seuil (FROST) en cours d’avancement pour une adoption plus large dans l’écosystème Zcash.  
+### FROST
+Travaux en cours sur le système de signature à seuil (FROST) afin d’en élargir l’adoption dans l’écosystème Zcash.  
 [Article](https://eprint.iacr.org/2020/852)
 
 ### MonteZcret Benchmark
@@ -275,7 +263,7 @@ Modèle d’organisation d’entreprise coopératif et ascendant construit sur Z
 Infrastructure de crédit et de vote native à Zcash pour la divulgation sélective, la préparation au règlement, la réputation transfrontalière et la gouvernance protégée.  
 [Visiter](https://voting.zkglobalcredit.tech/)
 
-### Free2z
+### Free2Z
 Outil de création de contenu anonyme et de dons privés propulsé par Zcash.  
 [Visiter](https://free2z.cash)
 
@@ -288,7 +276,7 @@ DEX natif à Zcash qui intègre le ZEC protégé dans la DeFi Web3 via WalletCon
 [Forum](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
 ### DCRDEX
-La plateforme d’échange décentralisée de Decred qui prend en charge Zcash.  
+L'échange décentralisé de Decred qui prend en charge Zcash.  
 [Visiter](https://dex.decred.org)
 
 ### Brave Wallet
@@ -296,15 +284,12 @@ Wallet de navigateur avec prise en charge de Zcash.
 [Visiter](https://brave.com/wallet/)
 
 ### Nano-GPT
-Plateforme d’IA qui donne accès à plusieurs modèles d’IA de premier plan tout en prenant en charge les paiements en cryptomonnaie, y compris Zcash.
-
+Plateforme d’IA donnant accès à plusieurs modèles d’IA de premier plan tout en prenant en charge les paiements en cryptomonnaies, y compris Zcash.  
 [Visiter](https://nano-gpt.com/conversation/new)
 
 ### zk.poker
-Plateforme de poker pair-à-pair qui combine chiffrement de bout en bout, mental poker et technologie de confidentialité Zcash. Elle est conçue pour que l’opérateur n’ait pas besoin de connaître les cartes des joueurs ni de détenir directement les fonds des mises.
-
+Une plateforme de poker pair à pair qui combine le chiffrement de bout en bout, le poker mental et la technologie de confidentialité Zcash. Elle est conçue pour que l’opérateur n’ait pas besoin de connaître les cartes des joueurs ni de détenir directement les fonds des mises.  
 [Visiter](https://zkbtc.org/)
-
 
 ---
 

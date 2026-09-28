@@ -2,123 +2,146 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nodes kamili
+# Nodi Kamili
 
-Full Node ni programu ambayo anaendesha nakala kamili ya blockchain yoyote cryptocurrency ya kutoa upatikanaji wa vipengele vya itifaki.
+## TL;DR
 
-Ina rekodi kamili ya kila shughuli ambayo imetokea tangu genesis na kwa hivyo ina uwezo wa kuthibitisha uhalali wa shughuli mpya na vitalu ambavyo vinaongezwa kwenye blockchain.
+- Nodi kamili huweka nakala kamili ya blockchain Zcash na huangalia kila kizuizi kipya na muamala dhidi ya sheria za makubaliano.
+- Zebra (`zebrad`) ndio nodi ya kusakinisha leo. Zakura ni utekelezaji wa pili, uliotengenezwa kwa uma kutoka kwa Zebra.
+- zcashd imesitishwa. Kizuizi chake cha Mwisho wa Usaidizi kilifikiwa mnamo 18 Julai 2026 katika urefu wa vitalu 3417100, na nodi hizo hazianzi tena.
+- Nodi na pochi sasa ni programu tofauti. [Zallet](https://github.com/zcash/zallet) hukimbia dhidi ya nodi na kushikilia funguo.
+- Kuendesha nodi yako mwenyewe hukupa uthibitishaji huru na huondoa hitaji la kuamini seva ya mtu mwingine.
 
-## Zcashd
+## Maelezo ya Msingi
 
-> ** Kumbuka: ** zcashd ni kuwa deprecated. Electric Coin Company ina [kwa rasmi alitangaza](https://z.cash/support/zcashd-deprecation/) kwamba zcashd ni kuwa kustaafu, na jukumu lake full-node kubadilishwa na [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) na mfuko wake jukumu na [Zallet](https://github.com/zcash/zallet). Kwa ajili ya kupelekwa mpya, kutumia Zebra (tazama hapa chini). Kama tayari kukimbia node zcashd, kufuata [Migration Guide: zcasd kwa Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+Nodi Kamili ni programu inayoendesha nakala kamili ya blockchain ya sarafu ya kidijitali, ikikupa ufikiaji wa vipengele vya itifaki.
 
-zcashd was the original Full Node implementation for Zcash, developed and maintained by the Electric Coin Company. The build instructions below are retained for reference and for operators migrating away from zcashd.
+Inashikilia rekodi kamili ya kila muamala ambao umetokea tangu mwanzo na kwa hivyo inaweza kuthibitisha uhalali wa miamala mipya na vizuizi vinavyoongezwa kwenye blockchain.
 
-Zcashd inaonyesha seti ya APIs kupitia interface yake ya RPC. API hizi hutoa kazi ambazo huruhusu programu za nje kuingiliana na node.
+## Utekelezaji wa Nodi
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) ni mfano wa maombi ambayo inatumia node kamili ili kuwezesha watengenezaji kujenga na kudumisha mkononi-kirafiki wallets mwanga ulinzi bila ya kuwa na kuingiliana moja kwa moja na Zcashd.
+### Zebra
 
-[Orodha kamili ya amri mkono RPC](https://zcash.github.io/rpc/)
+Zebra ni utekelezaji kamili wa nodi huru, tayari kwa uzalishaji wa itifaki ya Zcash, iliyoundwa na Zcash Foundation na kuandikwa kwa Rust. Kwa kuwa zcashd imestaafu, Zebra (`zebrad`) ni nodi kamili inayopendekezwa kwa ajili ya usanidi mpya.
 
-[Kitabu Zcashd](https://zcash.github.io/zcash/)
+Zebra huthibitisha vizuizi na miamala, hushiriki katika mtandao wa rika-kwa-rika, na hufichua kiolesura cha RPC kwa programu. Pochi sasa ni sehemu tofauti: [Zallet](https://github.com/zcash/zallet) huendeshwa dhidi ya nodi Zebra na hushughulikia funguo na mizani. Hii inachukua nafasi zcashd, ambayo iliunganisha nodi na pochi katika mchakato mmoja.
 
+Ili kuhudumia pochi nyepesi zilizolindwa, nodi hutembea kando ya kiashiria, iwe ni [lightwalletd](https://github.com/zcash/lightwalletd) au mpya zaidi [Zaino](https://zechub.wiki/zaino).
 
-### Kuanza Node (Linux)
+Hakikisha umesoma kitabu Zebra kwa maelekezo ya usanidi, na jiunge na seva ya R&D Discord kwa usaidizi.
 
-- Weka Mategemeo 
+[Github](https://github.com/ZcashFoundation/zebra/)
 
-      sudo apt update
+[Kitabu cha Zebra](https://zebra.zfnd.org)
 
-      sudo apt-get install \
-      kujenga-muhimu pkg-config libc6-dev m4 g++-multilib \
-      autoconf libtool ncurses-dev unzip git python3-zmq
+Tazama [Kifundo Kamili cha Zebra](/zcash-tech/zebra-full-node) kwa hatua za usakinishaji, usanidi, na mahitaji ya vifaa.
+
+### Zakura
+
+Zakura ni nodi kamili ya pili inayolingana na makubaliano, iliyotenganishwa kutoka Zebra na kutengenezwa na Valar Group pamoja na Project Tachyon. Inafuata sheria zile zile za itifaki na huongeza usawazishaji wa haraka, kupogoa kwa vizuizi, na safu ya utangamano wa zcashd RPC. Tazama [Njia ya Zakura](/zcash-tech/zakura-node).
+
+### zcashd (mstaafu)
+
+> **Kumbuka:** zcashd amestaafu. Electric Coin Company [ilitangaza kuachiliwa kwa](https://z.cash/support/zcashd-deprecation/), na kusimamishwa kiotomatiki kwa Mwisho wa Usaidizi kulifikiwa mnamo 18 Julai 2026 kwa urefu wa block 3417100. Kila nodi zcashd 6.20.0 ambayo haijabadilishwa huzima kwa urefu huo na kukataa kuanzisha upya, na programu haiungi mkono NU6.3. Tumia Zebra. Ukishikilia zcashd `wallet.dat`, fuata [Mwongozo wa Uhamiaji: zcashd hadi Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd ilikuwa utekelezaji wa awali wa Nodi Kamili kwa Zcash, uliotengenezwa na kudumishwa na Electric Coin Company. Maagizo ya ujenzi yaliyo hapa chini yamehifadhiwa kwa ajili ya marejeleo na kwa waendeshaji wanaohama kutoka zcashd.
+
+Zcashd hufichua seti ya API kupitia kiolesura chake cha RPC. API hizi hutoa vitendakazi vinavyoruhusu programu za nje kuingiliana na nodi.
+
+[Lightwalletd](https://github.com/zcash/lightwalletd) ni mfano wa programu inayotumia nodi kamili ili kuwawezesha wasanidi programu kujenga na kudumisha pochi nyepesi zinazoweza kulindwa kwa urahisi kwenye simu bila kulazimika kuingiliana moja kwa moja na Zcashd.
+
+[Orodha kamili ya amri za RPC zinazoungwa mkono](https://zcash.github.io/rpc/)
+
+[Kitabu cha Zcashd](https://zcash.github.io/zcash/)
+
+#### Anzisha Nodi (Linux)
+
+- Utegemezi wa Usakinishaji
+
+      sasisho la sudo apt
+
+      sudo apt-get kufunga \
+      jenga-muhimu pkg-config libc6-dev m4 g++-multilib \
+      autoconf libtool ncurses-dev unzip git python3 python3-zmq \
       zlib1g-dev curl bsdmainutils automake libtinfo5
 
-- Clone latest kutolewa, checkout, kuanzisha na kujenga:
+- Toleo jipya zaidi la nakala, malipo, usanidi na ujenge:
 
-      kit clone https://github.com/zcash/zcash.git
+      git kloni https://github.com/zcash/zcash.git
 
       cd zcash/
 
       git checkout v5.4.1
       ./zcutil/fetch-params.sh
       ./zcutil/clean.sh
-      ./zcutil/build.sh -j$ ((nproc)
+      ./zcutil/build.sh -j$(nproc)
 
-- Sync blockchain (inaweza kuchukua masaa kadhaa)
+- Sawazisha Blockchain (inaweza kuchukua saa kadhaa)
 
-    Kuanza node kukimbia:
+    Ili kuanza nodi, endesha:
 
       ./src/zcashd
 
-- Funguo binafsi ni kuhifadhiwa katika ~/.zcash/wallet.dat
+- Funguo za Kibinafsi huhifadhiwa katika ~/.zcash/wallet.dat
 
-[Mwongozo kwa Zcashd juu ya Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Mwongozo wa Zcashd kwenye Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
+## Matokeo ya Kivitendo
 
-## Zebra
+### Mtandao
 
-Zebra is an independent, production-ready full node implementation of the Zcash protocol, created by the Zcash Foundation and written in Rust. As zcashd is retired, Zebra (`zebrad`) ni full node ilipendekeza kwa ajili ya kupelekwa mpya.
+Kwa kuendesha nodi kamili, unasaidia kuimarisha mtandao wa zcash kwa kuunga mkono ugatuzi wake.
 
-Zebra inathibitisha vitalu na shughuli, inashiriki katika mtandao wa peer-to-peer, na inaonyesha interface ya RPC kwa programu. Mkoba ni sehemu tofauti sasa: [Zallet](https://github.com/zcash/zallet) runs against a Zebra node and handles keys and balances. This replaces zcashd, which bundled the node and wallet in a single process.
+Hii husaidia kuzuia udhibiti wa wapinzani na kuweka mtandao ukiwa imara kwa aina fulani za usumbufu.
 
-Kutumikia wallets mwanga ulinzi, node anaendesha pamoja indexer, ama imara [lightwalletd](https://github.com/zcash/lightwalletd) au mpya [Zaino](https://zechub.wiki/zaino).
-
-Hakikisha kusoma kitabu Zebra kwa maelekezo ya kuanzisha, na kujiunga R & D Discord server kwa msaada. 
-
-[Github](https://github.com/ZcashFoundation/zebra/)
-
-[Kitabu cha Zebra](https://zebra.zfnd.org) 
-
-[Discord](https://discord.gg/uvEdHsrb)
-
-
-
-## Mtandao
-
-Kwa kuendesha node kamili wewe ni kusaidia kuimarisha mtandao zcash kwa kusaidia utengamano wake. 
-
-Hii husaidia kuzuia udhibiti adui na kuweka mtandao sugu kwa baadhi ya aina ya usumbufu.
-
-Seeders DNS yatangaza orodha ya nodes nyingine ya kuaminika kupitia server kujengwa katika. Hii inaruhusu shughuli kuenea katika mtandao. 
+Vipandikizi vya DNS huonyesha orodha ya nodi zingine zinazoaminika kupitia seva iliyojengewa ndani. Hii inaruhusu miamala kusambaa katika mtandao mzima.
 
 ### Takwimu za Mtandao
 
-Hizi ni mifano ya majukwaa ambayo kuruhusu upatikanaji wa data Zcash Network:
+Hizi ni mifano ya mifumo inayoruhusu ufikiaji wa data ya Mtandao Zcash:
 
-[Zcash Block Explorer](https://zcashblockexplorer.com)
+[Kichunguzi cha Kizuizi Zcash](https://zcashblockexplorer.com)
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+[Sarafu za kielektroniki](https://docs.coinmetrics.io/info/assets/zec)
 
 [Blockchair](https://blockchair.com/zcash)
 
-Unaweza pia kuchangia maendeleo ya mtandao kwa kuendesha vipimo au kupendekeza maboresho mapya & kutoa metrics. 
+Unaweza pia kuchangia katika maendeleo ya mtandao kwa kufanya majaribio au kupendekeza maboresho mapya na kutoa vipimo.
 
+### Uchimbaji madini
 
+Wachimbaji wanahitaji nodi kamili ili kufikia RPC zote zinazohusiana na uchimbaji madini kama vile getblocktemplate na getmininginfo.
 
-### Uchimbaji
+Zcashd pia huwezesha uchimbaji madini hadi kwenye msingi wa sarafu uliolindwa. Wachimbaji madini na mabwawa ya uchimbaji madini wana chaguo la kuchimba moja kwa moja ili kukusanya ZEC iliyolindwa katika anwani ya z kwa chaguo-msingi.
 
-Wachimbaji wanahitaji full nodes kupata wote madini kuhusiana RPC ya kama vile getblock template & getmininginfo. 
+Soma [Mwongozo wa Uchimbaji Madini](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) au jiunge na ukurasa wa Jukwaa la Jumuiya kwa [Wachimbaji wa Zcash](https://forum.zcashcommunity.com/c/mining/13).
 
-Zcashd pia inaruhusu madini kwa walinzi coinbase. Wachimbaji na madini ya madini wana chaguo kuchimba moja kwa moja kukusanya walinzi ZEC katika z-anwani default. 
+### Faragha
 
-Soma [Mwongozo wa Uchimbaji](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) au Kujiunga na Jamii Forum ukurasa kwa ajili ya [Zcash Miners](https://forum.zcashcommunity.com/c/mining/13).
+Kuendesha nodi kamili hukuruhusu kuthibitisha kwa uhuru miamala na vizuizi vyote kwenye mtandao Zcash.
 
-### Faragha 
+Kuendesha nodi kamili huepuka hatari za faragha zinazohusiana na kutumia huduma za wahusika wengine kuthibitisha miamala kwa niaba yako.
 
-Kuendesha node kamili inaruhusu wewe kujitegemea kuthibitisha shughuli zote na vitalu juu ya mtandao Zcash.
+Kutumia nodi yako mwenyewe pia huruhusu kuunganisha kwenye mtandao kupitia [Tor](https://zcash.github.io/zcash/user/tor.html).
+Hii ina faida zaidi ya kuruhusu watumiaji wengine kuungana kwa faragha na anwani yako ya nodi .onion.
 
-Kuendesha full node kuepuka baadhi ya hatari ya faragha kuhusishwa na kutumia huduma za tatu-party kuthibitisha shughuli kwa niaba yako.
+## Makosa ya Kawaida
 
-Kutumia node yako mwenyewe pia inaruhusu kuunganisha na mtandao kupitia [Tor](https://zcash.github.io/zcash/user/tor.html).
-Hii ina faida ya ziada ya kuruhusu watumiaji wengine kuungana binafsi kwa node yako .onion anwani.
+- Kujenga zcashd kutoka kwa maagizo hapo juu na kutarajia nodi inayofanya kazi. Pacha hizo husimama kwenye urefu wa uondoaji.
+- Kuendesha nodi na kudhani pochi yako ya simu sasa inaitumia. Pochi nyepesi huendelea kuzungumza na seva yoyote iliyosanidiwa nayo hadi uielekeze kwako mwenyewe. Tazama [Nodi za Lightwallet](/zcash-tech/lightwallet-nodes).
+- Kukimbia pekee `zebrad` na kutarajia pochi nyepesi kuunganishwa. Nodi inahitaji kiashiria karibu nayo, iwe lightwalletd au [Zaino](/zcash-tech/zaino).
+- Ninatafuta RPC za pochi kwenye nodi. Funguo na salio zimehamishiwa Zallet.
 
+## Kurasa Zinazohusiana
 
-Unahitaji Msaada?
+- [Kifundo Kamili cha Zebra](/zcash-tech/zebra-full-node) - sakinisha, sanidi, na uendesha nodi iliyopendekezwa
+- [Njia ya Zakura](/zcash-tech/zakura-node) - utekelezaji wa nodi ya pili, iliyotenganishwa na Zebra
+- [Nodi za Lightwallet](/zcash-tech/lightwallet-nodes) - seva zinazowasha pochi
+- [Zaino](/zcash-tech/zaino) - Kiashiria cha Rust kinachohudumia pochi nyepesi
+- [Usawazishaji wa Pochi Zcash](/zcash-tech/zcash-wallet-syncing) - kwa nini usawazishaji hufanya kazi jinsi unavyofanya kazi
 
-Soma [Usaidizi wa Hati](https://zcash.readthedocs.io/en/latest/)
+## Kujifunza Zaidi
 
-Kujiunga yetu [Discord Sever](https://discord.gg/zcash) au wasiliana nasi kwenye [twitter](https://twitter.com/ZecHub)
+Soma [Nyaraka za Usaidizi](https://zcash.readthedocs.io/en/latest/)
 
-
-
+Jiunge nasi [Seva ya Discord](https://discord.gg/zcash) au tuwasiliane kwa [X](https://X.com/ZecHub)
