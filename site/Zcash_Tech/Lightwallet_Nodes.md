@@ -79,7 +79,7 @@ Two caveats. Tor hides your IP from the server, but it does not change what the 
 
 ### Zaino, the Rust indexer
 
-[Zaino](/zcash-tech/zaino) is an indexer written in Rust by the Zingo team, built to replace lightwalletd as part of the zcashd deprecation work. It serves light clients, full clients, and block explorers, reading chain data held by "either a Zebra or Zcashd full validator".
+[Zaino](/zcash-tech/zaino) is an indexer written in Rust by the Zingo team, built to replace lightwalletd as part of the zcashd deprecation work. It serves light clients, full clients, and block explorers, reading chain data held by "either a Zebra or zcashd full validator".
 
 It is under active development, with version 0.8.0 released in August 2026. It aims to stay backward compatible with lightwalletd where possible, so wallets can point at it without being rewritten.
 
@@ -117,11 +117,11 @@ The menu paths below were correct when this page was updated, but wallet interfa
 
 Formerly Zashi. The cog in the top right corner, then Advanced Settings. Tor lives in the same screen. ZODL also offers a Switch server shortcut when a sync failure is caused by the server being out of date.
 
-#### Ywallet
+#### YWallet
 
 The cog in the top right corner, then the Zcash tab.
 
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+![YWallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo
 
