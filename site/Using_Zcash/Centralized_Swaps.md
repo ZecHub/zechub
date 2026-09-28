@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Website: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - Description: Instant Bitcoin & Cryptocurrency Exchange in Vietnam. Buy, sell or swap between 80 assets including VND, BTC, XMR, USDT, ETH, BCH, SOL
