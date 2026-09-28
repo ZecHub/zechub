@@ -34,14 +34,14 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Commitment Scheme | Na-enye onye na-etinye aka ohere itinye aka na polynomial nwere obere eriri nke onye na-enyocha nwere ike iji kwado nyocha e kwuru na polynomial ahụ. Ọ bara uru maka ibelata ọnụ ahịa nkwukọrịta na usoro Zcash. |
 | Community | [Nzukọ Obodo Zcash nke Gọọmentị](https://forum.zcashcommunity.com) / [Discord obodo Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Atụmatụ nkwekọrịta nke a tụrụ aro nke ga-eme ka mmepụta ngọngọ ọrụ na-egosi ihe akaebe ma na-agbakwụnye ihe akaebe nke ihe akaebe n'elu, ka blọk ndị ahụ wee nweta njedebe siri ike na-enweghị ịhapụ igwu ala. O sitere na nyocha Trailing Finality Layer ma Shielded Labs na-ewu ya, nke ka na-arụ na testnet dịka nke afọ 2026. |
-| CrossPay | Ihe dị na obere akpa Zodl nke na-enye gị ohere imefu ZEC echekwara ebe a na-akwụ onye nnata ụgwọ n'ime akụ na agbụ ha họọrọ, nke a na-agafe site na NEAR Intents kama mgbanwe etiti. |
-| Cypherpunk Zero | Eluigwe na Ala Okike na mbọ mmekorita n'etiti ECC, onye na-ese ihe osise Stranger Wolf, Mighty Jaxx na ndị mmekọ gburugburu ebe obibi ahọpụtara. [Ebe nrụọrụ weebụ Zero Cypherpunk](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Nchịkọta Opensea](https://opensea.io/collection/cypherpunk-zero) |
+| CrossPay | Ihe dị na obere akpa ZODL nke na-enye gị ohere imefu ZEC echekwara ebe a na-akwụ onye nnata ụgwọ n'ime akụ na agbụ ha họọrọ, nke a na-agafe site na NEAR Intents kama mgbanwe etiti. |
+| Cypherpunk Zero | Eluigwe na Ala Okike na mbọ mmekorita n'etiti ECC, onye na-ese ihe osise Stranger Wolf, Mighty Jaxx na ndị mmekọ gburugburu ebe obibi ahọpụtara. [Ebe nrụọrụ weebụ Zero Cypherpunk](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Nchịkọta OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | Oge okwu | Nkọwa |
 |------|-----------|
-| DeFi | Ọrụ ndị na-ejikọta ZEC na DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | Ọrụ ndị na-ejikọta ZEC na DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | Na-ezo aka na azụmahịa a na-eziga site na zaddr (adreesị echekwara) gaa na taddr (adreesị doro anya). A naghị ahụ mmalite nke azụmahịa ahụ anya mana ego ahụ na-abanye n'ọkwa uru a na-ahụ anya n'ihu ọha. |
 | Developer Resources | [Akụrụngwa Ndị Mmepụta](https://www.zcashcommunity.com/developers/) |
 | Documentation | [Akwụkwọ ndị gọọmentị](https://zcash.readthedocs.io/en/latest/) |
@@ -65,7 +65,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Fiat-Shamir | Usoro maka iji ihe akaebe nke ihe ọmụma eme ihe ma mepụta mbinye aka dijitalụ dabere na ya. N'ụzọ dị otu a, enwere ike igosi eziokwu ụfọdụ (dịka ihe ọmụma nke ihe nzuzo) n'ihu ọha na-ekpugheghị ozi dị n'okpuru. |
 | Formal Verification | Na-egosi na sistemụ na-akpa àgwà kpọmkwem dịka akọwapụtara, kama ịdabere na nnwale naanị ya. Ndị nyere aka na zkSecurity na ZODL jiri usoro Lean theorem prover kwadoo sekit Ironwood Action n'ụzọ dị otu a, iji gosi na enweghị nsogbu ahụike. |
 | Founders Reward | Ụgwọ ọrụ nke onye guzobere na-anọchite anya pasentị iri abụọ nke ụgwọ ọrụ blọk niile, a na-ewepụkwa ya na uru blọk ọ bụla ma kesaa ya nke ọma iji kwalite mmepe na uto usoro. |
-| Free2z | Ngwaọrụ maka ọdịnaya na-amaghị aha na onyinye nkeonwe nke Zcash. [Free2z](https://free2z.com) |
+| Free2Z | Ngwaọrụ maka ọdịnaya na-amaghị aha na onyinye nkeonwe nke Zcash. [Free2Z](https://free2z.com) |
 | FROST | Atụmatụ mbinye aka Schnorr nke a haziri gburugburu nke na-agbanwe agbanwe. [Akwụkwọ Nnyocha](https://eprint.iacr.org/2020/852) |
 
 ## G
@@ -110,7 +110,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 |------|-----------|
 | Layer-1 | Na-ezo aka na netwọk ntọala na akụrụngwa ya dị n'okpuru. Blockchain Layer-1 nwere ike ịkwado ma mechaa azụmahịa na-enweghị mkpa maka netwọk ọzọ. Zcash bụ blockchain L1. |
 | librustzcash | Ebe ọrụ Rust nwere igbe na ihe niile dị mkpa maka ịrụ ọrụ na Zcash. [repo](https://github.com/zcash/librustzcash) |
-| Lightwalletd | Sava enweghị steeti nke na-ejere ndị ahịa dị mfe ozi site na blockchain. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | Sava enweghị steeti nke na-ejere ndị ahịa dị mfe ozi site na blockchain. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -118,7 +118,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 |------|-----------|
 | Metrics | E nwere usoro nhazi netwọk dị [Ebe a](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
 | Metadata | Data e mepụtara yana azụmahịa Zcash nke onye ọrụ. Nke a nwere ike ịgụnye elu blọk, ụdị azụmahịa ma ọ bụ ogologo njedebe wdg. |
-| Mobile SDK | SDK dị fechaa nke na-ejikọ Android na Zcash, na-enye ohere ka ngwa gam akporo nke ndị ọzọ zipu ma nata azụmahịa echekwara. [Github](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mobile SDK | SDK dị fechaa nke na-ejikọ Android na Zcash, na-enye ohere ka ngwa gam akporo nke ndị ọzọ zipu ma nata azụmahịa echekwara. [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
 | Mining | The process where for each block, nodes in the Zcash network compete by doing complex mathematical calculations to find a solution based on a self-adjusting difficulty. [Ihe Nduzi](https://z.cash/mining-zcash/) |
 | Multisignature | Adreesị nke chọrọ ọtụtụ mbinye aka igodo nkeonwe iji mefuo ego. Ugbu a, naanị adreesị doro anya na-akwado ọrụ multisig. |
 
@@ -239,7 +239,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Zebra | Mmejuputa n'imezu n'ime Zcash Foundation's Rust (nke a na-akpọ zcashd). Mmepụta dị njikere ma na-arụ ọrụ nke ọma. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Zcash mbụ ahụ, nke e si na Bitcoin Core wepụta. Ọ lara ezumike nka na Julaị 2026 mgbe ọ kwụsịrị ọrụ ya ogologo oge, ebe ọrụ ya kewara n'etiti Zebra maka nkwekọrịta na Zallet maka ọrụ obere akpa. |
 | ZIP | Atụmatụ Mmezi Zcash - usoro ọchịchị obodo eji atụ aro ma kwado mgbanwe usoro. [Ebe Nchekwa ZIP](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab. Ụlọ ọrụ ahụ nọọrọ onwe ya hiwere na mbido afọ 2026 site n'aka Josh Swihart na ndị otu injinia Electric Coin Company mbụ mgbe ha gbara arụkwaghịm n'ihi esemokwu ọchịchị na Bootstrap. Ha nwetara ihe karịrị nde dọla iri abụọ na ise na Machị 2026 ma na-elekọta obere akpa Zodl, nke aha ya bụ Zashi gbanwere na Febụwarị 2026. [zodl.com](https://zodl.com) |
+| ZODL | Zcash Open Development Lab. Ụlọ ọrụ ahụ nọọrọ onwe ya hiwere na mbido afọ 2026 site n'aka Josh Swihart na ndị otu injinia Electric Coin Company mbụ mgbe ha gbara arụkwaghịm n'ihi esemokwu ọchịchị na Bootstrap. Ha nwetara ihe karịrị nde dọla iri abụọ na ise na Machị 2026 ma na-elekọta obere akpa ZODL, nke aha ya bụ Zashi gbanwere na Febụwarị 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Ihe Ọmụma Ihe Na-abụghị Mmekọrịta nke Ihe Ọmụma — ihe odide nzuzo nke na-akwado azụmahịa Zcash nke e ji nchekwa kpuchie. Na-enye ohere igosi nkwupụta (dịka ọmụmaatụ, mmefu ego ziri ezi) na-ekpugheghị ozi nzuzo ọ bụla. |
 | ZSA (Zcash Shielded Assets) | Ihe nrịbama ndị onye ọrụ nyere nke na-eketa nzuzo Zcash's echekwara, na-ahapụ ihe onwunwe ndị ọzọ na-abụghị ZEC ka ha na-agagharị na netwọk ahụ n'onwe ha. E depụtara na [ZIP 226](https://zips.z.cash/zip-0226) na njirimara onye ga-azọ ọkwa maka NU7. |
 

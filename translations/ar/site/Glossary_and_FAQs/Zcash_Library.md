@@ -34,14 +34,14 @@
 | Commitment Scheme | يتيح للمُلتزِم أن يلتزم بكثير حدود باستخدام سلسلة قصيرة يمكن لجهة التحقق استعمالها لتأكيد التقييمات المزعومة لكثير الحدود الملتزَم به. وهذا مفيد في خفض تكاليف الاتصال في بروتوكول Zcash. |
 | Community | [المنتدى الرسمي لمجتمع Zcash](https://forum.zcashcommunity.com) / [Discord مجتمع Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord البحث والتطوير لـ Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | تصميم توافق هجيني مقترح يُبقي على إنتاج الكتل بإثبات العمل ويضيف فوقه طبقة نهائية بإثبات الحصة، بحيث تكتسب الكتل نهائية أقوى من دون التخلي عن التعدين. وقد نشأ من أبحاث Trailing Finality Layer، ويجري تطويره بواسطة Shielded Labs، ولا يزال قيد التطوير على testnet حتى عام 2026. |
-| CrossPay | ميزة في محفظة Zodl تتيح لك إنفاق ZEC المحمي بينما يُدفَع للمستلم بالأصل والسلسلة اللذين يفضلهما، مع التوجيه عبر NEAR Intents بدلًا من بورصة مركزية. |
-| Cypherpunk Zero | عالم إبداعي وجهد تعاوني بين ECC والرسام Stranger Wolf وMighty Jaxx وشركاء مختارين من المنظومة. [موقع Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [مجموعة Opensea](https://opensea.io/collection/cypherpunk-zero) |
+| CrossPay | ميزة في محفظة ZODL تتيح لك إنفاق ZEC المحمي بينما يُدفَع للمستلم بالأصل والسلسلة اللذين يفضلهما، مع التوجيه عبر NEAR Intents بدلًا من بورصة مركزية. |
+| Cypherpunk Zero | عالم إبداعي وجهد تعاوني بين ECC والرسام Stranger Wolf وMighty Jaxx وشركاء مختارين من المنظومة. [موقع Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [مجموعة OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | المصطلح | التعريف |
 |------|-----------|
-| DeFi | مشاريع تدمج ZEC مع DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | مشاريع تدمج ZEC مع DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | يشير إلى معاملة تُرسل من zaddr (عنوان محمي) إلى taddr (عنوان شفاف). لا يكون أصل المعاملة مرئيًا، لكن الأموال تدخل إلى مجمع قيمة مرئي علنًا. |
 | Developer Resources | [موارد المطورين](https://www.zcashcommunity.com/developers/) |
 | Documentation | [الوثائق الرسمية](https://zcash.readthedocs.io/en/latest/) |
@@ -65,7 +65,7 @@
 | Fiat-Shamir | تقنية لتحويل إثبات تفاعلي للمعرفة إلى توقيع رقمي قائم عليه. وبهذه الطريقة يمكن إثبات حقيقة ما علنًا (مثل معرفة سر) من دون كشف المعلومات الأساسية. |
 | Formal Verification | إثبات رياضي بأن النظام يتصرف تمامًا كما هو محدد، بدلًا من الاعتماد على الاختبار وحده. وقد جرى التحقق من دائرة Ironwood Action بهذه الطريقة من قبل مساهمين من zkSecurity و ZODL باستخدام مبرهن النظريات Lean، لإظهار غياب أخطاء السلامة المنطقية. |
 | Founders Reward | تمثل مكافأة المؤسسين 20 بالمئة من إجمالي مكافأة الكتلة، وتُقتطع من قيمة كل كتلة وتوزع بشفافية لدفع تطوير البروتوكول ونموه. |
-| Free2z | أداة للمحتوى المجهول والتبرعات الخاصة مدعومة بـ Zcash. [Free2z](https://free2z.com) |
+| Free2Z | أداة للمحتوى المجهول والتبرعات الخاصة مدعومة بـ Zcash. [Free2Z](https://free2z.com) |
 | FROST | مخطط توقيع Schnorr حدّي مرن ومحسّن من حيث عدد الجولات. [ورقة بحثية](https://eprint.iacr.org/2020/852) |
 
 ## G
@@ -110,7 +110,7 @@
 |------|-----------|
 | Layer-1 | يشير إلى شبكة أساسية وبنيتها التحتية الكامنة. تستطيع شبكات blockchain من الطبقة الأولى التحقق من المعاملات وإنهاءها من دون الحاجة إلى شبكة أخرى. Zcash هو blockchain من الطبقة الأولى. |
 | librustzcash | مساحة عمل Rust تحتوي على جميع crates والاعتماديات اللازمة للعمل مع Zcash. [المستودع](https://github.com/zcash/librustzcash) |
-| Lightwalletd | خادم عديم الحالة يزوّد العملاء الخفيفين بمعلومات blockchain. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | خادم عديم الحالة يزوّد العملاء الخفيفين بمعلومات blockchain. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -118,7 +118,7 @@
 |------|-----------|
 | Metrics | مقاييس الشبكة متاحة [هنا](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
 | Metadata | بيانات تُولَّد بالتزامن مع معاملة Zcash الخاصة بالمستخدم. ويمكن أن تشمل ارتفاع الكتلة أو إصدار المعاملة أو ارتفاع الانتهاء وغيرها. |
-| Mobile SDK | حزمة SDK خفيفة تربط Android بـ Zcash، ما يسمح لتطبيقات Android الخارجية بإرسال واستقبال المعاملات المحمية. [Github](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mobile SDK | حزمة SDK خفيفة تربط Android بـ Zcash، ما يسمح لتطبيقات Android الخارجية بإرسال واستقبال المعاملات المحمية. [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
 | Mining | العملية التي تتنافس فيها عُقد شبكة Zcash لكل كتلة عبر إجراء حسابات رياضية معقدة لإيجاد حل بناءً على صعوبة تتكيف ذاتيًا. [دليل](https://z.cash/mining-zcash/) |
 | Multisignature | عنوان يتطلب عدة تواقيع بمفاتيح خاصة لإنفاق الأموال. حاليًا، لا تُدعَم وظيفة multisig إلا بواسطة العناوين الشفافة. |
 
@@ -239,7 +239,7 @@
 | Zebra | تنفيذ عقدة كاملة لـ Zcash مبني بلغة Rust من Zcash Foundation (بديل لـ zcashd). جاهز للإنتاج ويجري الحفاظ عليه بنشاط. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | عقدة Zcash الكاملة الأصلية، والمتفرعة من Bitcoin Core. أُوقفت في يوليو 2026 بعد فترة طويلة من الإهمال التدريجي، مع تقسيم أدوارها بين Zebra للتوافق وZallet لوظائف المحفظة. |
 | ZIP | مقترح تحسين Zcash - عملية حوكمة المجتمع المستخدمة لاقتراح تغييرات البروتوكول والمصادقة عليها. [مستودع ZIP](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab. المنظمة المستقلة التي تأسست في أوائل 2026 على يد Josh Swihart وفريق الهندسة السابق في Electric Coin Company بعد استقالتهم بسبب نزاع حوكمة مع Bootstrap. وجمعت أكثر من 25 مليون دولار من التمويل التأسيسي في مارس 2026، وتتولى صيانة محفظة Zodl التي أُعيدت تسميتها من Zashi في فبراير 2026. [zodl.com](https://zodl.com) |
+| ZODL | Zcash Open Development Lab. المنظمة المستقلة التي تأسست في أوائل 2026 على يد Josh Swihart وفريق الهندسة السابق في Electric Coin Company بعد استقالتهم بسبب نزاع حوكمة مع Bootstrap. وجمعت أكثر من 25 مليون دولار من التمويل التأسيسي في مارس 2026، وتتولى صيانة محفظة ZODL التي أُعيدت تسميتها من Zashi في فبراير 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | حجج معرفة موجزة غير تفاعلية قائمة على انعدام المعرفة — وهي التشفير الذي يشغّل المعاملات المحمية في Zcash. وتسمح بإثبات عبارة ما (مثل إنفاق صحيح) من دون كشف أي معلومات سرية. |
 | ZSA (Zcash Shielded Assets) | رموز مميزة يصدرها المستخدمون وترث الخصوصية المحمية الخاصة بـ Zcash، مما يتيح لأصول غير ZEC أن تنتقل بخصوصية على الشبكة. ومواصفاتها محددة في [ZIP 226](https://zips.z.cash/zip-0226) وهي ميزة مرشحة لـ NU7. |
 

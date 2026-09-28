@@ -35,13 +35,13 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 | Community | [Resmî Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | İş ispatı blok üretimini koruyan ve bunun üzerine bir hisse ispatı kesinlik katmanı ekleyen, önerilmiş hibrit bir konsensüs tasarımıdır; böylece bloklar madencilikten vazgeçilmeden daha güçlü kesinlik kazanır. Trailing Finality Layer araştırmasından doğmuştur ve Shielded Labs tarafından geliştirilmektedir; 2026 itibarıyla hâlâ testnet geliştirme aşamasındadır. |
 | CrossPay | ZODL cüzdanındaki bir özelliktir; merkezi bir borsa yerine NEAR Intents üzerinden yönlendirilerek, alıcının tercih ettiği varlık ve zincirde ödeme almasını sağlarken sizin shielded ZEC harcamanıza olanak tanır. |
-| Cypherpunk Zero | ECC, illüstratör Stranger Wolf, Mighty Jaxx ve seçili ekosistem ortakları arasındaki yaratıcı bir evren ve iş birliği girişimi. [Cypherpunk Zero Sitesi](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Koleksiyonu](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | ECC, illüstratör Stranger Wolf, Mighty Jaxx ve seçili ekosistem ortakları arasındaki yaratıcı bir evren ve iş birliği girişimi. [Cypherpunk Zero Sitesi](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea Koleksiyonu](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | Term | Definition |
 |------|-----------|
-| DeFi | ZEC'i DeFi ile entegre eden projeler: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | ZEC'i DeFi ile entegre eden projeler: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | Bir işlemin zaddr'den (shielded address) taddr'ye (transparent address) gönderilmesini ifade eder. İşlemin kaynağı görünmez, ancak fonlar kamuya açık şekilde görülebilen bir değer havuzuna girer. |
 | Developer Resources | [Geliştirici Kaynakları](https://www.zcashcommunity.com/developers/) |
 | Documentation | [Resmî Dokümantasyon](https://zcash.readthedocs.io/en/latest/) |
@@ -65,7 +65,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 | Fiat-Shamir | Etkileşimli bir bilgi kanıtını alıp buna dayalı bir dijital imza oluşturma tekniğidir. Bu sayede bazı olgular (ör. bir sırrın bilgisi), altta yatan bilgiler ifşa edilmeden kamuya açık biçimde kanıtlanabilir. |
 | Formal Verification | Yalnızca testlere güvenmek yerine, bir sistemin tam olarak belirtildiği şekilde davrandığını matematiksel olarak kanıtlamaktır. Ironwood Action devresi, sağlamlık hatalarının bulunmadığını göstermek amacıyla zkSecurity ve ZODL katkıcıları tarafından Lean teorem ispatlayıcısı kullanılarak bu şekilde doğrulanmıştır. |
 | Founders Reward | Founders Reward, toplam blok ödülünün yüzde 20'sini temsil eder; her bloğun değerinden kesilir ve protokol geliştirmesi ile büyümeyi desteklemek için şeffaf biçimde dağıtılır. |
-| Free2z | Zcash destekli anonim içerik ve özel bağışlar için bir araç. [Free2z](https://free2z.com) |
+| Free2Z | Zcash destekli anonim içerik ve özel bağışlar için bir araç. [Free2Z](https://free2z.com) |
 | FROST | Flexible Round-Optimized Schnorr Threshold imza şeması. [Araştırma Makalesi](https://eprint.iacr.org/2020/852) |
 
 ## G
@@ -110,7 +110,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 |------|-----------|
 | Layer-1 | Bir temel ağı ve onun altyapısını ifade eder. Layer-1 blokzincirleri, başka bir ağa ihtiyaç duymadan işlemleri doğrulayabilir ve kesinleştirebilir. Zcash bir L1 blokzinciridir. |
 | librustzcash | Zcash ile çalışmak için gerekli tüm crate'leri ve bağımlılıkları içeren bir Rust çalışma alanı. [repo](https://github.com/zcash/librustzcash) |
-| Lightwalletd | Hafif istemcilere blokzincir bilgisi sunan stateless bir sunucu. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | Hafif istemcilere blokzincir bilgisi sunan stateless bir sunucu. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -118,7 +118,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 |------|-----------|
 | Metrics | Ağ metrikleri [burada](https://tokenterminal.com/explorer/projects/zcash/metrics/all) mevcuttur |
 | Metadata | Bir kullanıcının Zcash işlemiyle birlikte üretilen veriler. Buna blok yüksekliği, işlem sürümü veya sona erme yüksekliği vb. dahil olabilir. |
-| Mobile SDK | Android'i Zcash'e bağlayan hafif bir SDK'dır; üçüncü taraf Android uygulamalarının shielded işlemler göndermesine ve almasına olanak tanır. [Github](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mobile SDK | Android'i Zcash'e bağlayan hafif bir SDK'dır; üçüncü taraf Android uygulamalarının shielded işlemler göndermesine ve almasına olanak tanır. [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
 | Mining | Zcash ağındaki düğümlerin, her blok için, kendi kendini ayarlayan bir zorluk seviyesine dayalı bir çözüm bulmak amacıyla karmaşık matematiksel hesaplamalar yaparak yarıştığı süreçtir. [Rehber](https://z.cash/mining-zcash/) |
 | Multisignature | Fon harcamak için birden fazla özel anahtar imzası gerektiren bir adres. Şu anda multisig işlevi yalnızca transparent adresler tarafından desteklenmektedir. |
 
@@ -239,7 +239,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 | Zebra | Zcash Foundation'ın Rust tabanlı tam düğüm uygulaması (zcashd'ye alternatif). Üretime hazırdır ve aktif olarak sürdürülmektedir. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Bitcoin Core'dan fork'lanan özgün Zcash tam düğümü. Uzun süren bir kullanım dışı bırakma sürecinin ardından Temmuz 2026'da emekliye ayrıldı; rolleri, konsensüs için Zebra ile cüzdan işlevleri için Zallet arasında paylaştırıldı. |
 | ZIP | Zcash Improvement Proposal - protokol değişikliklerini önermek ve onaylamak için kullanılan topluluk yönetişim süreci. [ZIP Deposu](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab. Josh Swihart ve eski Electric Coin Company mühendislik ekibi tarafından, Bootstrap ile yaşanan bir yönetişim anlaşmazlığı nedeniyle istifa etmelerinin ardından 2026'nın başlarında kurulan bağımsız kuruluştur. Mart 2026'da başlangıç yatırımı olarak 25 milyon doların üzerinde fon topladı ve Şubat 2026'da Zashi'den yeniden adlandırılan Zodl cüzdanını sürdürmektedir. [zodl.com](https://zodl.com) |
+| ZODL | Zcash Open Development Lab. Josh Swihart ve eski Electric Coin Company mühendislik ekibi tarafından, Bootstrap ile yaşanan bir yönetişim anlaşmazlığı nedeniyle istifa etmelerinin ardından 2026'nın başlarında kurulan bağımsız kuruluştur. Mart 2026'da başlangıç yatırımı olarak 25 milyon doların üzerinde fon topladı ve Şubat 2026'da Zashi'den yeniden adlandırılan ZODL cüzdanını sürdürmektedir. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — Zcash shielded işlemlerini güçlendiren kriptografi. Herhangi bir gizli bilgiyi ifşa etmeden bir ifadenin (ör. geçerli harcama) kanıtlanmasına olanak tanır. |
 | ZSA (Zcash Shielded Assets) | Kullanıcı tarafından çıkarılan ve Zcash'in shielded gizliliğini devralan tokenlerdir; ZEC dışındaki varlıkların ağ üzerinde özel biçimde hareket etmesini sağlar. [ZIP 226](https://zips.z.cash/zip-0226) içinde tanımlanmıştır ve NU7 için aday bir özelliktir. |
 

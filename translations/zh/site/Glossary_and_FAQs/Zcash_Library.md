@@ -35,13 +35,13 @@
 | Community | [Zcash 官方社区论坛](https://forum.zcashcommunity.com) / [Zcash 社区 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | 一种提出中的混合共识设计，保留工作量证明的区块生产机制，并在其上增加一层权益证明终局性层，从而在不放弃挖矿的情况下，让区块获得更强的终局性。它源自 Trailing Finality Layer 研究，由 Shielded Labs 开发，截至 2026 年仍处于 testnet 开发阶段。 |
 | CrossPay | ZODL 钱包中的一项功能，可让你花费受屏蔽的 ZEC，同时收款人则以其偏好的资产和链收到付款；该过程通过 NEAR Intents 路由，而非通过中心化交易所。 |
-| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 以及部分生态合作伙伴共同打造的创意宇宙与协作项目。 [Cypherpunk Zero 网站](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea 收藏集](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 以及部分生态合作伙伴共同打造的创意宇宙与协作项目。 [Cypherpunk Zero 网站](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea 收藏集](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | 术语 | 定义 |
 |------|-----------|
-| DeFi | 将 ZEC 集成到 DeFi 中的项目： [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | 将 ZEC 集成到 DeFi 中的项目： [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | 指一笔交易从 zaddr（受保护地址）发送到 taddr（透明地址）。交易来源不可见，但资金会进入一个公开可见的价值池。 |
 | Developer Resources | [开发者资源](https://www.zcashcommunity.com/developers/) |
 | Documentation | [官方文档](https://zcash.readthedocs.io/en/latest/) |
@@ -65,7 +65,7 @@
 | Fiat-Shamir | 一种将交互式知识证明转换为基于其上的数字签名的技术。通过这种方式，可以在不泄露底层信息的前提下，公开证明某个事实（例如知晓某个秘密）。 |
 | Formal Verification | 通过数学方式证明一个系统的行为与规范完全一致，而不是仅仅依赖测试。zkSecurity 和 ZODL 的贡献者使用 Lean 定理证明器，以这种方式验证了 Ironwood Action 电路，以证明其不存在可靠性漏洞。 |
 | Founders Reward | Founders Reward 占区块总奖励的 20%，从每个区块的价值中扣除，并以透明方式分配，用于推动协议开发与成长。 |
-| Free2z | 由 Zcash 驱动的匿名内容与私密捐赠工具。 [Free2Z](https://free2z.com) |
+| Free2Z | 由 Zcash 驱动的匿名内容与私密捐赠工具。 [Free2Z](https://free2z.com) |
 | FROST | 灵活的轮次优化 Schnorr 门限签名方案。 [研究论文](https://eprint.iacr.org/2020/852) |
 
 ## G
@@ -110,7 +110,7 @@
 |------|-----------|
 | Layer-1 | 指基础网络及其底层基础设施。Layer-1 blockchain 无需依赖其他网络即可验证并最终确认交易。Zcash 是一条 L1 blockchain。 |
 | librustzcash | 一个 Rust workspace，包含用于处理 Zcash 的所有 crates 和依赖项。 [仓库](https://github.com/zcash/librustzcash) |
-| Lightwalletd | 一种无状态服务器，向轻客户端提供 blockchain 信息。 [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | 一种无状态服务器，向轻客户端提供 blockchain 信息。 [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -118,7 +118,7 @@
 |------|-----------|
 | Metrics | 网络指标可在[这里](https://tokenterminal.com/explorer/projects/zcash/metrics/all)查看 |
 | Metadata | 与用户的 Zcash 交易一同生成的数据。这可能包括区块高度、交易版本或过期高度等。 |
-| Mobile SDK | 一个轻量级 SDK，可将 Android 连接到 Zcash，使第三方 Android 应用能够发送和接收受保护交易。 [Github](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mobile SDK | 一个轻量级 SDK，可将 Android 连接到 Zcash，使第三方 Android 应用能够发送和接收受保护交易。 [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
 | Mining | 在该过程中，对于每个区块，Zcash 网络中的节点会基于自动调整的难度进行复杂数学计算竞争，以找到解。 [指南](https://z.cash/mining-zcash/) |
 | Multisignature | 一种地址，需要多个私钥签名才能花费其中资金。目前，多签功能仅支持透明地址。 |
 
@@ -239,7 +239,7 @@
 | Zebra | Zcash Foundation 基于 Rust 的全节点实现（zcashd 的替代方案）。已可用于生产环境，并在持续积极维护。 [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | 最初的 Zcash 全节点，分叉自 Bitcoin Core。经过长期弃用后于 2026 年 7 月退役，其职责拆分为由 Zebra 负责共识、由 Zallet 负责钱包功能。 |
 | ZIP | Zcash Improvement Proposal——社区用于提议和确认协议变更的治理流程。 [ZIP 仓库](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab。该独立组织由 Josh Swihart 与前 Electric Coin Company 工程团队于 2026 年初创立，他们因与 Bootstrap 的治理争议辞职后成立了该组织。其在 2026 年 3 月筹集了超过 2500 万美元的种子轮融资，并维护 Zodl 钱包；该钱包于 2026 年 2 月由 Zashi 更名而来。 [zodl.com](https://zodl.com) |
+| ZODL | Zcash Open Development Lab。该独立组织由 Josh Swihart 与前 Electric Coin Company 工程团队于 2026 年初创立，他们因与 Bootstrap 的治理争议辞职后成立了该组织。其在 2026 年 3 月筹集了超过 2500 万美元的种子轮融资，并维护 ZODL 钱包；该钱包于 2026 年 2 月由 Zashi 更名而来。 [zodl.com](https://zodl.com) |
 | zk-SNARKs | 零知识简洁非交互式知识论证——为 Zcash 受保护交易提供支持的密码学技术。它允许在不泄露任何秘密信息的情况下证明某个陈述（例如有效花费）。 |
 | ZSA (Zcash Shielded Assets) | 用户发行的代币，继承了 Zcash 的受保护隐私特性，使 ZEC 以外的资产也能在网络上私密流转。规范定义见 [ZIP 226](https://zips.z.cash/zip-0226)，并且是 NU7 的候选功能之一。 |
 
