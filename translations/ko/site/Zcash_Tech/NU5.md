@@ -53,7 +53,7 @@ NU5는 Zcash의 이전 업그레이드인 Overwinter, Sapling, Blossom, Heartwoo
 | Orchard | NU5가 도입한 실드 풀로, Halo 2 증명 시스템 위에 구축됨 |
 | Halo 2 | 신뢰할 수 있는 설정이 필요 없는 Orchard의 기반 증명 시스템 |
 | Trusted setup | 풀의 비밀 파라미터를 만드는 일회성 ceremony로, 그것들이 파기되었다고 신뢰해야 함 |
-| Unified address | 둘 이상의 풀에 대한 수신자를 함께 묶을 수 있는 단일 주소 (ZIP 316) |
+| Unified Address | 둘 이상의 풀에 대한 수신자를 함께 묶을 수 있는 단일 주소 (ZIP 316) |
 | Consensus branch id | 트랜잭션이 어느 규칙 집합에 속하는지를 표시하는 식별자 |
 
 ## FAQ
@@ -102,7 +102,7 @@ Orchard는 신뢰할 수 있는 설정도 구조화된 참조 문자열도 필�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

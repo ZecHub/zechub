@@ -53,7 +53,7 @@ NU5 紧随 Zcash 早期的升级之后：Overwinter、Sapling、Blossom、Heartw
 | Orchard | NU5 引入的屏蔽池，建立在 Halo 2 证明系统之上 |
 | Halo 2 | Orchard 背后的证明系统，不需要可信设置 |
 | Trusted setup | 一次性仪式，用于生成池的秘密参数，并且必须被信任会将其销毁 |
-| Unified address | 一种可打包多个池接收器的单一地址（ZIP 316） |
+| Unified Address | 一种可打包多个池接收器的单一地址（ZIP 316） |
 | Consensus branch id | 用于标识一笔交易属于哪一套规则的标识符 |
 
 ## 常见问题
@@ -102,7 +102,7 @@ Orchard 建立在 Halo 2 证明系统之上，而该系统不需要可信设置�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 
