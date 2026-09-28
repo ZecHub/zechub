@@ -34,14 +34,14 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 | Commitment Scheme | Enaa mɔ na committer be wòatsɔ eɖokui ana ɖe polynomial si me ka kpui aɖe le si verifier ateŋu azã atsɔ aɖo kpe committed ƒe dodokpɔ siwo wogblɔ dzi. Viɖe le eŋu na kadodo ƒe gazazãwo dzi ɖeɖe kpɔtɔ le Zcash ƒe ɖoɖowɔɖia me. |
 | Community | [Zcash Nutome Takpekpe si Dziɖuɖua le](https://forum.zcashcommunity.com) / [Zcash Nutome Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit dzi](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Aɖaŋu si wodo ɖa be woawɔ ɖeka kple wo nɔewo si ana kpeɖodzi-dɔwɔwɔ ƒe block wɔwɔ nanɔ anyi eye wòtsɔa kpeɖodzi-of-stake finality layer kpena ɖe etame, ale blocks kpɔa finality sesẽ wu evɔ womegblẽa tomenukuƒewo ɖi o. Etsi tso Trailing Finality Layer numekuku me eye Shielded Labs ye le etum, si gakpɔtɔ le testnet ƒe ŋgɔyiyi me tso ƒe 2026. |
-| CrossPay | Nɔnɔme aɖe le Zodl gakotokua me si na nèzãa ZEC si wokpɔ ta na esime woxea fe na amesi xɔe le nunɔamesi kple kɔsɔkɔsɔ si wodi me, si woɖona to NEAR Intents dzi tsɔ wu be woato asitɔtrɔ le teƒe ɖeka dzi. |
-| Cypherpunk Zero | Nuwɔwɔ ƒe Xexeame katã kple nuwɔwɔ aduadu ƒe agbagbadzedze le ECC, nɔnɔmetatawɔla Stranger Wolf, Mighty Jaxx kple lãwo ƒe agbenɔnɔ ƒe hadɔwɔla tiatia aɖewo dome. [Cypherpunk Zero Nyatakakadzraɖoƒe](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Nuƒoƒoƒu](https://opensea.io/collection/cypherpunk-zero) |
+| CrossPay | Nɔnɔme aɖe le ZODL gakotokua me si na nèzãa ZEC si wokpɔ ta na esime woxea fe na amesi xɔe le nunɔamesi kple kɔsɔkɔsɔ si wodi me, si woɖona to NEAR Intents dzi tsɔ wu be woato asitɔtrɔ le teƒe ɖeka dzi. |
+| Cypherpunk Zero | Nuwɔwɔ ƒe Xexeame katã kple nuwɔwɔ aduadu ƒe agbagbadzedze le ECC, nɔnɔmetatawɔla Stranger Wolf, Mighty Jaxx kple lãwo ƒe agbenɔnɔ ƒe hadɔwɔla tiatia aɖewo dome. [Cypherpunk Zero Nyatakakadzraɖoƒe](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea Nuƒoƒoƒu](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | Nyagbe | Gɔmeɖeɖe |
 |------|-----------|
-| DeFi | Dɔ siwo woawɔ atsɔ awɔ ɖeka kple ZEC kple DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | Dɔ siwo woawɔ atsɔ awɔ ɖeka kple ZEC kple DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | Fia asitsatsa si wole ɖoɖom tso zaddr (adrɛs si wokpɔ ta na) yi taddr (adrɛs si me kɔ). Afisi asitsatsa la dzɔ tso la medzena o ke hã gaawo gena ɖe asixɔxɔ ƒe ƒuƒoƒo si woate ŋu akpɔ le dutoƒo me. |
 | Developer Resources | [Dɔwɔlawo ƒe Dɔwɔnuwo](https://www.zcashcommunity.com/developers/) |
 | Documentation | [Dziɖuɖua ƒe Nuŋlɔɖiwo](https://zcash.readthedocs.io/en/latest/) |
@@ -65,7 +65,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 | Fiat-Shamir | Mɔnu si woatsɔ axɔ sidzedze ƒe kpeɖodzi si me wowɔa nu aduadu le eye woawɔ dijitaal asidede agbalẽ te si wotu ɖe edzi. To mɔ sia dzi la, woate ŋu aɖo kpe nyateƒenya aɖewo dzi (e.g. nya ɣaɣla aɖe nyanya) le dutoƒo evɔ womaɖe nyatakaka siwo le ete la afia o. |
 | Formal Verification | Eɖo kpe edzi le akɔntabubu me be ɖoɖo aɖe wɔa nu abe alesi wogblɔe ene pɛpɛpɛ, tsɔ wu be wòaɖo ŋu ɖe dodokpɔ ɖeɖeko ŋu. Woɖo kpe Ironwood Action nutome suea dzi to mɔ sia dzi to nudzɔla siwo tso zkSecurity kple ZODL me to Lean theorem prover zazã me, be woatsɔ aɖe gbeɖiɖi ƒe vodadawo ƒe anyimanɔmanɔ afia. |
 | Founders Reward | Founder ƒe fetu tsi tre ɖi na block ƒe fetu bliboa ƒe alafa memama 20 eye woɖenɛ le block ɖesiaɖe ƒe asixɔxɔ me eye womaae le gaglãgbe be woatsɔ aʋã protocol ƒe ŋgɔyiyi kple dzidziɖedzi. |
-| Free2z | Dɔwɔnu si wozãna na nyatakaka siwo womeyɔ o kple ame ŋutɔ ƒe nudzɔdzɔ siwo ŋu Zcash zãna. [Free2z](https://free2z.com) |
+| Free2Z | Dɔwɔnu si wozãna na nyatakaka siwo womeyɔ o kple ame ŋutɔ ƒe nudzɔdzɔ siwo ŋu Zcash zãna. [Free2Z](https://free2z.com) |
 | FROST | Schnorr Threshold ƒe asidede agbalẽ te ƒe ɖoɖo si te ŋu trɔna ɖe nɔnɔmewo ŋu le gogloeƒe. [Numekukugbalẽ](https://eprint.iacr.org/2020/852) |
 
 ## G
@@ -110,7 +110,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 |------|-----------|
 | Layer-1 | Fia gɔmeɖoanyi ƒe kadodo kple eƒe xɔtuɖoɖo siwo le ete. Layer-1 blockchains ateŋu aɖo kpe asitsatsa dzi ahawu enu evɔ mahiã be woawɔ network bubu o. Zcash nye L1 ƒe blockchain. |
 | librustzcash | Rust dɔwɔƒe si me crates kple dependencies katã le hena dɔwɔwɔ kple Zcash. [repo](https://github.com/zcash/librustzcash) |
-| Lightwalletd | A stateless server si subɔa kekeli asisiwo kple blockchain nyatakakawo. [Kekeli ƒe gakotoku](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | A stateless server si subɔa kekeli asisiwo kple blockchain nyatakakawo. [Kekeli ƒe gakotoku](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -118,7 +118,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 |------|-----------|
 | Metrics | Network metrics li [afi sia](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
 | Metadata | Nyatakaka siwo wowɔ kpe ɖe zãla ƒe Zcash asitsatsa ŋu. Esia ateŋu anye block height, transaction version alo expiry height etc. |
-| Mobile SDK | SDK si le bɔbɔe si doa ka kple Android kple Zcash, si na be ame etɔ̃lia ƒe Android dɔwɔɖoɖowo te ŋu ɖoa asitsatsa siwo ŋu wokpɔ ta na la ɖa hexɔa wo. [Github ƒe mɔnu](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mobile SDK | SDK si le bɔbɔe si doa ka kple Android kple Zcash, si na be ame etɔ̃lia ƒe Android dɔwɔɖoɖowo te ŋu ɖoa asitsatsa siwo ŋu wokpɔ ta na la ɖa hexɔa wo. [GitHub ƒe mɔnu](https://github.com/zcash/zcash-android-wallet-sdk) |
 | Mining | Dɔwɔwɔ si me le block ɖesiaɖe gome la, nodes siwo le Zcash network la me ʋlia ho to akɔntabubu ƒe akɔntabubu sesẽwo wɔwɔ me be woakpɔ egbɔkpɔnu si wotu ɖe ɖokuitɔdidi ƒe sesẽme dzi. [Fia afɔɖoƒe](https://z.cash/mining-zcash/) |
 | Multisignature | Adrɛs si hiã be woade asi ame ŋutɔ ƒe safui geɖe te hafi woate ŋu azã ga. Fifia la, adrɛs siwo me kɔ koe doa alɔ multisig dɔwɔwɔ. |
 
@@ -239,7 +239,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash ŋu ƒe nyagɔmeɖeg
 | Zebra | Zcash Foundation ƒe Rust-si wotu ɖe node blibo ƒe dɔwɔwɔ (si nye zcashd teƒe). Dzadzraɖo ɖe ewɔwɔ ŋu eye woléa be nɛ vevie. [GitHub ƒe ŋkɔ](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Zcash blibo node gbãtɔ, forked tso Bitcoin Core. Exɔ dzudzɔ le dɔme le July 2026 me le esi wòɖe asi le eŋu ɣeyiɣi didi aɖe megbe, eye eƒe akpawo ma ɖe Zebra hena nukpɔsusu ɖeka kple Zallet hena gakotoku ƒe dɔwɔwɔwo dome. |
 | ZIP | Zcash Improvement Proposal - nutoa me dziɖuɖu ƒe ɖoɖo si wozãna tsɔ doa susu ɖa heda asi ɖe ɖoɖowɔɖi ƒe tɔtrɔwo dzi. [ZIP Nudzraɖoƒe](https://github.com/zcash/zips) |
-| ZODL | Zcash Ʋuʋu ƒe Ŋgɔyiyi Dɔwɔƒe. Habɔbɔ si le eɖokui si si Josh Swihart kple Electric Coin Company ƒe mɔ̃ɖaŋudɔwɔlawo ƒe ƒuƒoƒo tsãtɔ ɖo le ƒe 2026 ƒe gɔmedzedze esi woɖe asi le dɔ ŋu le dziɖuɖu ŋuti nyaʋiʋli aɖe si nɔ wo kple Bootstrap dome ta. Efɔ ga si wu dɔlar miliɔn 25 le nukuwo ƒe ga me le March 2026 me eye wòléa be na Zodl gakotoku si wogbugbɔ ŋkɔ na tso Zashi le February 2026 me. [zodl.com dzi](https://zodl.com) |
+| ZODL | Zcash Ʋuʋu ƒe Ŋgɔyiyi Dɔwɔƒe. Habɔbɔ si le eɖokui si si Josh Swihart kple Electric Coin Company ƒe mɔ̃ɖaŋudɔwɔlawo ƒe ƒuƒoƒo tsãtɔ ɖo le ƒe 2026 ƒe gɔmedzedze esi woɖe asi le dɔ ŋu le dziɖuɖu ŋuti nyaʋiʋli aɖe si nɔ wo kple Bootstrap dome ta. Efɔ ga si wu dɔlar miliɔn 25 le nukuwo ƒe ga me le March 2026 me eye wòléa be na ZODL gakotoku si wogbugbɔ ŋkɔ na tso Zashi le February 2026 me. [zodl.com dzi](https://zodl.com) |
 | zk-SNARKs | Zero-Sidzedze Succinct Non-Interactive Arguments of Knowledge — nya ɣaɣlawo ƒe nuŋɔŋlɔ si naa ŋusẽ Zcash si kpɔa asitsatsa ta. Ðe mɔ be woaɖo kpe nya aɖe dzi (e.g., gazazã si sɔ) evɔ womaɖe nyatakaka ɣaɣla aɖeke afia o. |
 | ZSA (Zcash Shielded Assets) | Dzesi siwo zãla na siwo nyi Zcash ƒe adzamenyawo si wokpɔ ta na la dome, si naa nunɔamesi bubu siwo menye ZEC o la ʋuna le wo ɖokui si le network la dzi. Wogblɔe le [ZIP 226 ƒe xexlẽdzesi](https://zips.z.cash/zip-0226) kple ame si di be yeaxɔ NU7 ƒe akpa aɖe. |
 

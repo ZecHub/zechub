@@ -34,14 +34,14 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 | Commitment Scheme | Humruhusu mtoa huduma kujitolea kwa polinomiali yenye mfuatano mfupi ambao unaweza kutumiwa na mthibitishaji kuthibitisha tathmini zinazodaiwa za polinomiali iliyoahidiwa. Muhimu kwa kupunguza gharama za mawasiliano katika itifaki Zcash. |
 | Community | [Jukwaa Rasmi la Jumuiya Zcash](https://forum.zcashcommunity.com) / [Discord Jumuiya ya Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord R&D Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Muundo mseto uliopendekezwa wa makubaliano unaoweka uzalishaji wa vitalu vya uthibitisho wa kazi na kuongeza safu ya mwisho ya uthibitisho wa hisa juu, kwa hivyo vitalu hupata mwisho wenye nguvu bila kuacha uchimbaji. Ulitokana na utafiti wa Trailing Finality Layer na unajengwa na Shielded Labs, bado uko katika maendeleo ya testnet kufikia 2026. |
-| CrossPay | Kipengele katika pochi ya Zodl kinachokuruhusu kutumia ZEC iliyolindwa huku mpokeaji akilipwa katika mali na mnyororo anaoupendelea, unaopitishwa kupitia NEAR Intents badala ya soko la pamoja. |
-| Cypherpunk Zero | Ulimwengu wa Ubunifu na juhudi za ushirikiano kati ya ECC, mchoraji Stranger Wolf, Mighty Jaxx na washirika teule wa mfumo ikolojia. [Tovuti ya Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Mkusanyiko wa Opensea](https://opensea.io/collection/cypherpunk-zero) |
+| CrossPay | Kipengele katika pochi ya ZODL kinachokuruhusu kutumia ZEC iliyolindwa huku mpokeaji akilipwa katika mali na mnyororo anaoupendelea, unaopitishwa kupitia NEAR Intents badala ya soko la pamoja. |
+| Cypherpunk Zero | Ulimwengu wa Ubunifu na juhudi za ushirikiano kati ya ECC, mchoraji Stranger Wolf, Mighty Jaxx na washirika teule wa mfumo ikolojia. [Tovuti ya Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Mkusanyiko wa OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | Muhula | Ufafanuzi |
 |------|-----------|
-| DeFi | Miradi inayounganisha ZEC na DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | Miradi inayounganisha ZEC na DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | Inarejelea muamala unaotumwa kutoka kwa zaddr (anwani iliyolindwa) hadi taddr (anwani ya uwazi). Asili ya muamala haionekani hata hivyo fedha huingia kwenye kundi la thamani linaloonekana hadharani. |
 | Developer Resources | [Rasilimali za Wasanidi Programu](https://www.zcashcommunity.com/developers/) |
 | Documentation | [Hati Rasmi](https://zcash.readthedocs.io/en/latest/) |
@@ -65,7 +65,7 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 | Fiat-Shamir | Mbinu ya kuchukua uthibitisho shirikishi wa maarifa na kuunda sahihi ya kidijitali kulingana nayo. Kwa njia hii, baadhi ya ukweli (km ujuzi wa siri) unaweza kuthibitishwa hadharani bila kufichua taarifa za msingi. |
 | Formal Verification | Kuthibitisha kihisabati kwamba mfumo hufanya kazi kama ilivyoainishwa, badala ya kutegemea majaribio pekee. Safu ya Ironwood Action ilithibitishwa hivi na wachangiaji kutoka zkSecurity na ZODL kwa kutumia kipima nadharia cha Lean, ili kuonyesha kutokuwepo kwa hitilafu za utimamu. |
 | Founders Reward | Zawadi ya Mwanzilishi inawakilisha asilimia 20 ya jumla ya zawadi ya block na inatolewa kutoka kwa thamani ya kila block na kusambazwa kwa uwazi ili kuendesha maendeleo na ukuaji wa itifaki. |
-| Free2z | Zana ya maudhui yasiyojulikana na michango ya kibinafsi inayoendeshwa na Zcash. [Free2z](https://free2z.com) |
+| Free2Z | Zana ya maudhui yasiyojulikana na michango ya kibinafsi inayoendeshwa na Zcash. [Free2Z](https://free2z.com) |
 | FROST | Mpango wa sahihi wa kizingiti cha Schnorr chenye Ubora wa Mzunguko Unaonyumbulika. [Karatasi ya Utafiti](https://eprint.iacr.org/2020/852) |
 
 ## G
@@ -110,7 +110,7 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 |------|-----------|
 | Layer-1 | Inarejelea mtandao msingi na miundombinu yake ya msingi. Blockchain za Tabaka la 1 zinaweza kuthibitisha na kukamilisha miamala bila kuhitaji mtandao mwingine. Zcash ni blockchain L1. |
 | librustzcash | Nafasi ya kazi ya Rust yenye makreti na vitegemezi vyote vya kufanya kazi na Zcash. [repo](https://github.com/zcash/librustzcash) |
-| Lightwalletd | Seva isiyo na serikali inayowahudumia wateja wepesi na taarifa za blockchain. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | Seva isiyo na serikali inayowahudumia wateja wepesi na taarifa za blockchain. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -118,7 +118,7 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 |------|-----------|
 | Metrics | Vipimo vya mtandao vinapatikana [hapa](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
 | Metadata | Data inayozalishwa pamoja na muamala wa Zcash wa mtumiaji. Hii inaweza kujumuisha urefu wa kizuizi, toleo la muamala au urefu wa mwisho wa matumizi n.k. |
-| Mobile SDK | SDK nyepesi inayounganisha Android na Zcash, inayoruhusu programu za Android za watu wengine kutuma na kupokea miamala iliyolindwa. [Github](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mobile SDK | SDK nyepesi inayounganisha Android na Zcash, inayoruhusu programu za Android za watu wengine kutuma na kupokea miamala iliyolindwa. [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
 | Mining | Mchakato ambapo kwa kila kizuizi, nodi katika mtandao Zcash hushindana kwa kufanya hesabu changamano za hisabati ili kupata suluhisho kulingana na ugumu wa kujirekebisha. [Mwongozo](https://z.cash/mining-zcash/) |
 | Multisignature | Anwani inayohitaji sahihi nyingi za funguo za kibinafsi ili kutumia pesa. Kwa sasa, utendaji wa multisig unasaidiwa tu na anwani zinazoonekana wazi. |
 
@@ -239,7 +239,7 @@ Glossary ya kina ya maneno muhimu, dhana na rasilimali zinazohusiana na Zcash.
 | Zebra | Utekelezaji kamili wa nodi unaotegemea Rust Zcash Foundation's (mbadala wa zcashd). Uzalishaji uko tayari na unadumishwa kikamilifu. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Nodi kamili Zcash asilia, iliyotenganishwa na Bitcoin Core. Ilistaafu mnamo Julai 2026 baada ya kusitishwa kwa muda mrefu, huku majukumu yake yakigawanywa kati ya Zebra kwa makubaliano na Zallet kwa kazi za pochi. |
 | ZIP | Pendekezo la Uboreshaji wa Zcash - mchakato wa utawala wa jamii unaotumika kupendekeza na kuidhinisha mabadiliko ya itifaki. [Hifadhi ya ZIP](https://github.com/zcash/zips) |
-| ZODL | Maabara ya Maendeleo ya Zcash Open. Shirika huru lilianzishwa mapema mwaka wa 2026 na Josh Swihart na timu ya zamani ya uhandisi Electric Coin Company baada ya kujiuzulu kutokana na mzozo wa utawala na Bootstrap. Lilikusanya zaidi ya dola milioni 25 katika ufadhili wa mbegu mwezi Machi 2026 na linahifadhi pochi ya Zodl, ambayo ilibadilishwa jina kutoka Zashi mwezi Februari 2026. [zodl.com](https://zodl.com) |
+| ZODL | Maabara ya Maendeleo ya Zcash Open. Shirika huru lilianzishwa mapema mwaka wa 2026 na Josh Swihart na timu ya zamani ya uhandisi Electric Coin Company baada ya kujiuzulu kutokana na mzozo wa utawala na Bootstrap. Lilikusanya zaidi ya dola milioni 25 katika ufadhili wa mbegu mwezi Machi 2026 na linahifadhi pochi ya ZODL, ambayo ilibadilishwa jina kutoka Zashi mwezi Februari 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Hoja za Maarifa Zisizoingiliana — usimbaji fiche unaowezesha miamala iliyolindwa na Zcash. Huruhusu kuthibitisha taarifa (km, matumizi halali) bila kufichua taarifa yoyote ya siri. |
 | ZSA (Zcash Shielded Assets) | Tokeni zilizotolewa na mtumiaji zinazorithi faragha iliyolindwa Zcash's, na kuruhusu mali zingine isipokuwa ZEC kuhamia faraghani kwenye mtandao. Imebainishwa katika [ZIP 226](https://zips.z.cash/zip-0226) na kipengele kinachopendekezwa kwa NU7. |
 
