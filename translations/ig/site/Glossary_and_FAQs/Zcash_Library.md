@@ -1,8 +1,8 @@
-# Ọbá akwụkwọ Zcash
+# Ọbá Akwụkwọ Zcash
 
-Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
+Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara Zcash.
 
-### Nchọgharị Ngwa ngwa
+### Nsoroụzọ Ngwa Ngwa
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
 
 ---
@@ -34,7 +34,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Commitment Scheme | Na-enye onye na-etinye aka ohere itinye aka na polynomial nwere obere eriri nke onye na-enyocha nwere ike iji kwado nyocha e kwuru na polynomial ahụ. Ọ bara uru maka ibelata ọnụ ahịa nkwukọrịta na usoro Zcash. |
 | Community | [Nzukọ Obodo Zcash nke Gọọmentị](https://forum.zcashcommunity.com) / [Discord obodo Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Atụmatụ nkwekọrịta nke a tụrụ aro nke ga-eme ka mmepụta ngọngọ ọrụ na-egosi ihe akaebe ma na-agbakwụnye ihe akaebe nke ihe akaebe n'elu, ka blọk ndị ahụ wee nweta njedebe siri ike na-enweghị ịhapụ igwu ala. O sitere na nyocha Trailing Finality Layer ma Shielded Labs na-ewu ya, nke ka na-arụ na testnet dịka nke afọ 2026. |
-| CrossPay | Ihe dị na obere akpa ZODL nke na-enye gị ohere imefu ZEC echekwara ebe a na-akwụ onye nnata ụgwọ n'ime akụ na agbụ ha họọrọ, nke a na-agafe site na NEAR Intents kama mgbanwe etiti. |
+| CrossPay | Njirimara dị na obere akpa ZODL nke na-enye gị ohere imefu ZEC echekwara ebe a na-akwụ onye nnata ụgwọ n'ime akụ na agbụ ha họọrọ, nke a na-agafe site na NEAR Intents kama mgbanwe etiti. |
 | Cypherpunk Zero | Eluigwe na Ala Okike na mbọ mmekorita n'etiti ECC, onye na-ese ihe osise Stranger Wolf, Mighty Jaxx na ndị mmekọ gburugburu ebe obibi ahọpụtara. [Ebe nrụọrụ weebụ Zero Cypherpunk](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Nchịkọta OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
@@ -78,7 +78,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 
 | Oge okwu | Nkọwa |
 |------|-----------|
-| Halo | Enables circuit upgrades without the need for trusted setups, making the Zcash shielded protocol more agile for future improvements and extensions. [Nkọwapụta Ọkachamara](https://z.cash/learn/what-is-halo-for-zcash/) |
+| Halo | Na-eme ka mmelite sekit na-enweghị mkpa maka ntọala a pụrụ ịtụkwasị obi, na-eme ka usoro nchekwa Zcash dịkwuo mfe maka mmezi na ndọtị n'ọdịnihu. [Nkọwa teknụzụ](https://z.cash/learn/what-is-halo-for-zcash/) |
 | HD Wallet | Akpa ego nhazi nke usoro nhazi na-emepụta usoro nke ụzọ abụọ dị mkpa site na otu mkpụrụ, na-enye ohere maka ịdị mfe na njikwa yana nchekwa dị elu. |
 | Heartwood | Mmelite netwọkụ nke anọ kachasị elu nke Zcash. [Ozi Ndị Ọzọ](https://z.cash/upgrade/heartwood/) |
 
@@ -86,11 +86,11 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 
 | Oge okwu | Nkọwa |
 |------|-----------|
-| Index | Ndekọ ZCX CoinDesk's na-anọchite anya ọnụego ntụpọ nke oge a, nke nhata USD maka Zcash. [Ndepụta Ọnụahịa](https://www.coindesk.com/indices/zcx/) |
+| Index | Ndekọ ZCX nke CoinDesk na-anọchite anya ọnụego ntụpọ nke oge a, nke nhata USD maka Zcash. [Ndepụta Ọnụahịa](https://www.coindesk.com/indices/zcx/) |
 | Integrations | Ị nwere ike ịnabata ịkwụ ụgwọ Zcash site na ọtụtụ ndị na-enye ọrụ nke atọ. [Ndị Nhazi Ịkwụ Ụgwọ](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Igwe nkịtị nke na-eme ihe nlereanya mgbakọ na mwepụ dị ka mgbanwe ozi n'etiti ndị otu abụọ: Prover na Verifier. |
 | Investment | Enwere ọtụtụ nhọrọ ego maka ndị na-etinye ego n'ụlọ ọrụ ma ọ bụ ụlọ ọrụ ezinụlọ ndị chọrọ inweta ahụmịhe na Zcash. [Ndepụta zuru ezu](https://z.cash/investors/) |
-| Ironwood | The network upgrade (NU6.3) that activated on mainnet on 28 July 2026 at block 3,428,143. It introduced a new shielded pool, also called Ironwood, and made the Orchard pool spend-only so existing value migrates across the turnstile. [Ihe ndị ọzọ ị ga- ama:](/zcash-tech/ironwood) |
+| Ironwood | Mmelite netwọkụ (NU6.3) nke gbanyere na mainnet na 28 Julaị 2026 na ngọngọ 3,428,143. O webatara ọdọ mmiri ọhụrụ a na-echebe, nke a na-akpọkwa Ironwood, ma mee ka ọdọ mmiri Orchard na-efu ego naanị ka uru dị ugbu a wee na-agagharị n'ofe turnstile ahụ. [Ozi ndị ọzọ](/zcash-tech/ironwood) |
 
 ## J
 
@@ -119,7 +119,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Metrics | E nwere usoro nhazi netwọk dị [Ebe a](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
 | Metadata | Data e mepụtara yana azụmahịa Zcash nke onye ọrụ. Nke a nwere ike ịgụnye elu blọk, ụdị azụmahịa ma ọ bụ ogologo njedebe wdg. |
 | Mobile SDK | SDK dị fechaa nke na-ejikọ Android na Zcash, na-enye ohere ka ngwa gam akporo nke ndị ọzọ zipu ma nata azụmahịa echekwara. [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
-| Mining | The process where for each block, nodes in the Zcash network compete by doing complex mathematical calculations to find a solution based on a self-adjusting difficulty. [Ihe Nduzi](https://z.cash/mining-zcash/) |
+| Mining | Usoro ebe maka ngọngọ ọ bụla, nodes dị na netwọk Zcash na-asọmpi site n'ime mgbakọ na mwepụ dị mgbagwoju anya iji chọta ngwọta dabere na nsogbu nhazi onwe onye. [Nduzi](https://z.cash/mining-zcash/) |
 | Multisignature | Adreesị nke chọrọ ọtụtụ mbinye aka igodo nkeonwe iji mefuo ego. Ugbu a, naanị adreesị doro anya na-akwado ọrụ multisig. |
 
 ## N
@@ -137,7 +137,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 
 | Oge okwu | Nkọwa |
 |------|-----------|
-| Oblivious Synchronization | A method under development in Project Tachyon that lets a wallet request the data it needs from an untrusted server without revealing which notes it is asking about. The server never learns your nullifiers, because the protocol makes them evolve in an unlinkable way. [Dee ihe ndị ọzọ n'akwụkwọ .](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Oblivious Synchronization | Usoro a na-emepụta na Project Tachyon nke na-ekwe ka obere akpa rịọ data ọ chọrọ site na sava a na-atụkwasịghị obi na-ekpugheghị ihe ndetu ọ na-ajụ maka ya. Sava ahụ anaghị amụta ihe ndị na-emebi ihe gị, n'ihi na usoro ahụ na-eme ka ha gbanwee n'ụzọ na-enweghị njikọ. [Ide ihe](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 | Orchard Shielded Pool | Ọdọ mmiri nke atọ e ji ihe nchebe kpuchie maka Zcash ma na-anọchite anya mgbanwe na-aga n'ihu nke teknụzụ zk-SNARK anyị. [Nkọwa zuru ezu](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | Mmelite netwọkụ nke mbụ maka Zcash. [Ozi Ndị Ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
@@ -149,7 +149,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | PCD (Proof-Carrying Data) | Usoro dị mfe ebe data na-aga n'akụkụ ihe akaebe nke izi ezi nke ya, yabụ ijikọta data na-ejikọkwa ihe akaebe. Ọrụ Tachyon na-ewughachi usoro nchekwa gburugburu PCD, na-ahapụ obere akpa ọ bụla ka ọ buru ihe akaebe na-egosi na nguzozi nke ya ziri ezi kama inyochagharị yinye ahụ. Mmejuputa Zcash bụ [Ragu](https://github.com/tachyon-zcash/ragu), nke na-eso Halo ma ọ chọghị ntọala a pụrụ ịtụkwasị obi. |
 | Peer-to-Peer Network | Netwọk P2P dabere na echiche nke enweghị ike ịchịkwa. Nhazi ntọala nke teknụzụ blockchain. |
 | PIR (Private Information Retrieval) | Usoro ndị na-enye gị ohere ịchọta ndekọ site na sava na-enweghị ihe nkesa na-amụta ndekọ ị rịọrọ. N'okpuru nnyocha na-arụsi ọrụ ike maka Zcash dị ka ụzọ maka obere akpa ego iji weghachite ihe ha chọrọ n'enweghị iwepụ ihe ha na-achọ. |
-| Podcast | [Radiolab (Zcash)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast na Spanish](https://www.youtube.com/@ZcastEsp) |
+| Podcast | [Radiolab (Zcash)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [Ego RealVision](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [Podcast UpNaanị](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast na Spanish](https://www.youtube.com/@ZcastEsp) |
 
 ## Q
 
@@ -181,7 +181,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 
 | Oge okwu | Nkọwa |
 |------|-----------|
-| Tachyon | Zcash's scaling programme, targeted at NU7. It moves wallets away from scanning every block toward proof-carrying wallet state, oblivious synchronization and prunable node state, aiming for shielded throughput in the thousands of transactions per second. [Ebe a na-arụ ọrụ ahụ](https://tachyon.z.cash/overview/) |
+| Tachyon | Mmemme nhazi Zcash's, nke lekwasịrị anya na NU7. Ọ na-ewepụ obere akpa ego site na inyocha blọk ọ bụla gaa na ọnọdụ obere akpa ego na-ebu ihe akaebe, njikọta na-amaghị ihe na ọnọdụ node a na-apụghị ịcha, na-achọ ihe nchekwa na-aga n'ihu n'ime ọtụtụ puku azụmahịa kwa sekọnd. [Ebe ọrụ a ga-esi arụ ọrụ](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (ego nnwale na-abaghị uru). |
 | Testnet | Blockchain dị iche maka ịnwale mmelite na atụmatụ tupu mainnet. |
 | Trailing Finality Layer (TFL) | Mee nnyocha iji tinye ihe dị mkpa n'azụ usoro ihe akaebe nke ọrụ Zcash's ka e wee nwee ike imecha blọk ndị ọhụrụ na-enweghị dochie ọrụ igwu ala. Crosslink bụ imewe nke si na ya pụta. |
@@ -190,7 +190,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Transaction Fee | Ụgwọ ndabara bụ 0.0001 ZEC. Ụgwọ dị elu na-ebute ụzọ; ụgwọ dị ala nwere ike ibute igbu oge ma ọ bụ njedebe. |
 | Transparent Address | A na-akpọkwa ya taddr. Ọ na-amalite site na t. Ọha zuru oke (dịka Bitcoin). |
 | Transparent Transaction | Azụmahịa naanị n'etiti adreesị doro anya - ihe niile na-apụta ìhè n'ihu ọha. |
-| Turnstile | The accounting rule that tracks how much value enters and leaves each shielded pool, so no pool can release more than went into it. Used at every pool transition in Zcash's history, and currently guarding the migration from Orchard into Ironwood. [Ihe ndị ọzọ ị ga- ama:](/zcash-tech/the-turnstile) |
+| Turnstile | Iwu akaụntụ nke na-egosi etu uru si abanye ma na-apụ n'ọdọ mmiri ọ bụla e ji ihe nchebe mee, ka ọdọ mmiri ọ bụla ghara ịpụta ihe karịrị nke e tinyere n'ime ya. A na-eji ya eme ihe n'oge mgbanwe ọdọ mmiri ọ bụla n'akụkọ ihe mere eme Zcash's, ma na-echekwa mbugharị site na Orchard gaa Ironwood. [Ozi ndị ọzọ](/zcash-tech/the-turnstile) |
 
 ## U
 
@@ -210,7 +210,7 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Oge okwu | Nkọwa |
 |------|-----------|
 | Wallet | Ngwanrọ ma ọ bụ ngwaike nke na-echekwa igodo nkeonwe ma na-enye gị ohere izipu/nata ZEC. Obere akpa ndị na-arụ ọrụ gụnyere ZODL (iOS/Android), Zingo! (mkpanaka/desktọpụ), Nighthawk (Android), Zkool (mkpanaka/desktọpụ), Zallet (na-abịa), na Keystone (ngwaike). Maka ndepụta zuru ezu, lee [Obere akpa Zcash Ecosystem](https://z.cash/ecosystem/?wallets=#tag-wallets) |
-| WebZjs | JavaScript SDK mbụ maka Zcash, nke ChainSafe wuru maka gburugburu ihe nchọgharị. Ọ na-akwado Zcash Shielded Wallet snap nke wetara ZEC echebe na MetaMask. |
+| WebZjs | Javascript SDK mbụ maka Zcash, nke ChainSafe wuru maka gburugburu ihe nchọgharị. Ọ na-akwado Zcash Shielded Wallet snap nke wetara ZEC echebe na MetaMask. |
 
 ## X
 
@@ -239,11 +239,11 @@ Nkọwa okwu zuru ezu nke isi okwu, echiche na akụ ndị metụtara Zcash.
 | Zebra | Mmejuputa n'imezu n'ime Zcash Foundation's Rust (nke a na-akpọ zcashd). Mmepụta dị njikere ma na-arụ ọrụ nke ọma. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Zcash mbụ ahụ, nke e si na Bitcoin Core wepụta. Ọ lara ezumike nka na Julaị 2026 mgbe ọ kwụsịrị ọrụ ya ogologo oge, ebe ọrụ ya kewara n'etiti Zebra maka nkwekọrịta na Zallet maka ọrụ obere akpa. |
 | ZIP | Atụmatụ Mmezi Zcash - usoro ọchịchị obodo eji atụ aro ma kwado mgbanwe usoro. [Ebe Nchekwa ZIP](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab. Ụlọ ọrụ ahụ nọọrọ onwe ya hiwere na mbido afọ 2026 site n'aka Josh Swihart na ndị otu injinia Electric Coin Company mbụ mgbe ha gbara arụkwaghịm n'ihi esemokwu ọchịchị na Bootstrap. Ha nwetara ihe karịrị nde dọla iri abụọ na ise na Machị 2026 ma na-elekọta obere akpa ZODL, nke aha ya bụ Zashi gbanwere na Febụwarị 2026. [zodl.com](https://zodl.com) |
+| ZODL | Zcash Open Development Lab. Ụlọ ọrụ ahụ nọọrọ onwe ya hiwere na mbido afọ 2026 site n'aka Josh Swihart na ndị otu injinia Electric Coin Company mbụ mgbe ha gbara arụkwaghịm n'ihi esemokwu ọchịchị na Bootstrap. Ha nwetara ihe karịrị nde dọla iri abụọ na ise na Machị 2026 ma na-ejigide obere akpa ZODL, nke aha ya bụ Zashi gbanwere na Febụwarị 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Ihe Ọmụma Ihe Na-abụghị Mmekọrịta nke Ihe Ọmụma — ihe odide nzuzo nke na-akwado azụmahịa Zcash nke e ji nchekwa kpuchie. Na-enye ohere igosi nkwupụta (dịka ọmụmaatụ, mmefu ego ziri ezi) na-ekpugheghị ozi nzuzo ọ bụla. |
 | ZSA (Zcash Shielded Assets) | Ihe nrịbama ndị onye ọrụ nyere nke na-eketa nzuzo Zcash's echekwara, na-ahapụ ihe onwunwe ndị ọzọ na-abụghị ZEC ka ha na-agagharị na netwọk ahụ n'onwe ha. E depụtara na [ZIP 226](https://zips.z.cash/zip-0226) na njirimara onye ga-azọ ọkwa maka NU7. |
 
 ---
 
-**Emelitere ikpeazụ:** July 2026
-**Ị chọrọ inye aka?** [Dezie ibe a na GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)
+**Emelitere ikpeazụ:** Julaị 2026
+**Ị chọrọ itinye aka?** [Dezie ibe a na GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)

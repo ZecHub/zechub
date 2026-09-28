@@ -32,7 +32,7 @@
 |------|-----------|
 | Canopy | خامس ترقية رئيسية للشبكة في Zcash. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | يتيح للمُلتزِم أن يلتزم بكثير حدود باستخدام سلسلة قصيرة يمكن لجهة التحقق استعمالها لتأكيد التقييمات المزعومة لكثير الحدود الملتزَم به. وهذا مفيد في خفض تكاليف الاتصال في بروتوكول Zcash. |
-| Community | [المنتدى الرسمي لمجتمع Zcash](https://forum.zcashcommunity.com) / [Discord مجتمع Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord البحث والتطوير لـ Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
+| Community | [المنتدى الرسمي لمجتمع Zcash](https://forum.zcashcommunity.com) / [Zcash مجتمع Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash البحث والتطوير لـ Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | تصميم توافق هجيني مقترح يُبقي على إنتاج الكتل بإثبات العمل ويضيف فوقه طبقة نهائية بإثبات الحصة، بحيث تكتسب الكتل نهائية أقوى من دون التخلي عن التعدين. وقد نشأ من أبحاث Trailing Finality Layer، ويجري تطويره بواسطة Shielded Labs، ولا يزال قيد التطوير على testnet حتى عام 2026. |
 | CrossPay | ميزة في محفظة ZODL تتيح لك إنفاق ZEC المحمي بينما يُدفَع للمستلم بالأصل والسلسلة اللذين يفضلهما، مع التوجيه عبر NEAR Intents بدلًا من بورصة مركزية. |
 | Cypherpunk Zero | عالم إبداعي وجهد تعاوني بين ECC والرسام Stranger Wolf وMighty Jaxx وشركاء مختارين من المنظومة. [موقع Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [مجموعة OpenSea](https://opensea.io/collection/cypherpunk-zero) |
@@ -234,11 +234,11 @@
 | ZEC | رمز العملة الرسمي لـ Zcash (مع أن بعض منصات التداول ما زالت تعرض XZC). |
 | Zerocash | البروتوكول الأكاديمي (2014) الذي يستند إليه Zcash. |
 | Zaino | المفهرس من الجيل التالي لـ Zcash الذي يحل محل lightwalletd، وقد بنته Zcash Foundation. ويتيح للعملاء الخفيفين المزامنة بسرعة أكبر وبخصوصية أعلى. وهو جزء من ترقية البنية التحتية Z3 الخاصة بـ Zcash. |
-| Zakura | تنفيذ عقدة كاملة لـ Zcash صدر في يوليو 2026، ومبني كتفرع من Zebra بواسطة Valar Group وProject Tachyon. ويستهدف معدل الإنتاجية وسرعة المزامنة، مع التمهيد عبر اللقطات snapshot bootstrapping وهدف معلن للوصول إلى نطاق شبكات البطاقات، بحوالي 50,000 معاملة في الثانية. [zakura.com](https://zakura.com) |
+| Zakura | تنفيذ عقدة كاملة لـ Zcash صدر في يوليو 2026، ومبني كتفرع من Zebra بواسطة Valar Group وProject Tachyon. ويستهدف معدل الإنتاجية وسرعة المزامنة، مع التمهيد عبر اللقطات وهدف معلن للوصول إلى نطاق شبكات البطاقات، بحوالي 50,000 معاملة في الثانية. [zakura.com](https://zakura.com) |
 | Zallet | مكوّن المحفظة الذي تولّى وظائف محفظة zcashd بعد إيقافه، وهو مبني على Zaino كجزء من أعمال البنية التحتية Z3 الخاصة بـ Zcash. |
-| Zebra | تنفيذ عقدة كاملة لـ Zcash مبني بلغة Rust من Zcash Foundation (بديل لـ zcashd). جاهز للإنتاج ويجري الحفاظ عليه بنشاط. [GitHub](https://github.com/ZcashFoundation/zebra) |
-| zcashd | عقدة Zcash الكاملة الأصلية، والمتفرعة من Bitcoin Core. أُوقفت في يوليو 2026 بعد فترة طويلة من الإهمال التدريجي، مع تقسيم أدوارها بين Zebra للتوافق وZallet لوظائف المحفظة. |
-| ZIP | مقترح تحسين Zcash - عملية حوكمة المجتمع المستخدمة لاقتراح تغييرات البروتوكول والمصادقة عليها. [مستودع ZIP](https://github.com/zcash/zips) |
+| Zebra | تنفيذ العقدة الكاملة المبني بلغة Rust الخاص بـ Zcash Foundation (بديل لـ zcashd). جاهز للإنتاج ويجري الحفاظ عليه بنشاط. [GitHub](https://github.com/ZcashFoundation/zebra) |
+| zcashd | العقدة الكاملة الأصلية لـ Zcash، والمتفرعة من Bitcoin Core. أُوقفت في يوليو 2026 بعد فترة طويلة من الإهمال التدريجي، مع تقسيم أدوارها بين Zebra للتوافق وZallet لوظائف المحفظة. |
+| ZIP | مقترح تحسين Zcash - عملية حوكمة المجتمع المستخدمة لاقتراح تغييرات البروتوكول والمصادقة عليها. [ZIPالمستودع](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab. المنظمة المستقلة التي تأسست في أوائل 2026 على يد Josh Swihart وفريق الهندسة السابق في Electric Coin Company بعد استقالتهم بسبب نزاع حوكمة مع Bootstrap. وجمعت أكثر من 25 مليون دولار من التمويل التأسيسي في مارس 2026، وتتولى صيانة محفظة ZODL التي أُعيدت تسميتها من Zashi في فبراير 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | حجج معرفة موجزة غير تفاعلية قائمة على انعدام المعرفة — وهي التشفير الذي يشغّل المعاملات المحمية في Zcash. وتسمح بإثبات عبارة ما (مثل إنفاق صحيح) من دون كشف أي معلومات سرية. |
 | ZSA (Zcash Shielded Assets) | رموز مميزة يصدرها المستخدمون وترث الخصوصية المحمية الخاصة بـ Zcash، مما يتيح لأصول غير ZEC أن تنتقل بخصوصية على الشبكة. ومواصفاتها محددة في [ZIP 226](https://zips.z.cash/zip-0226) وهي ميزة مرشحة لـ NU7. |

@@ -28,7 +28,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## C
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
 | Canopy | Zcash의 다섯 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | 커미터가 짧은 문자열로 다항식에 커밋할 수 있게 하며, 검증자는 이를 사용해 커밋된 다항식의 주장된 평가값을 확인할 수 있습니다. Zcash 프로토콜의 통신 비용을 줄이는 데 유용합니다. |
@@ -66,7 +66,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Formal Verification | 테스트에만 의존하는 대신, 시스템이 명세된 대로 정확히 동작함을 수학적으로 증명하는 것입니다. Ironwood Action 회로는 건전성 버그가 없음을 입증하기 위해 zkSecurity와 ZODL의 기여자들이 Lean 정리 증명기를 사용하여 이러한 방식으로 검증했습니다. |
 | Founders Reward | Founder 보상은 전체 블록 보상의 20퍼센트를 차지하며, 각 블록의 가치에서 차감되어 프로토콜 개발과 성장을 촉진하기 위해 투명하게 분배됩니다. |
 | Free2Z | Zcash로 구동되는 익명 콘텐츠 및 비공개 기부 도구입니다. [Free2Z](https://free2z.com) |
-| FROST | Flexible Round-Optimized Schnorr 임계값 서명 체계입니다. [연구 논문](https://eprint.iacr.org/2020/852) |
+| FROST | 유연하고 라운드 최적화된 Schnorr 임계값 서명 체계입니다. [연구 논문](https://eprint.iacr.org/2020/852) |
 
 ## G
 
@@ -114,7 +114,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## M
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
 | Metrics | 네트워크 지표는 [여기](https://tokenterminal.com/explorer/projects/zcash/metrics/all)에서 확인할 수 있습니다 |
 | Metadata | 사용자의 Zcash 거래와 함께 생성되는 데이터입니다. 여기에는 블록 높이, 거래 버전, 만료 높이 등이 포함될 수 있습니다. |
@@ -226,7 +226,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## Z
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
 | Zcash | zk-SNARKs를 사용하는 프라이버시 중심 암호화폐입니다. transparent (Bitcoin 스타일) 결제와 완전한 shielded 결제를 연결합니다. |
 | Zcash Foundation | Zcash 생태계를 지원하고, 개발에 자금을 지원하며, 프라이버시를 촉진하는 독립 비영리 단체입니다. |
@@ -235,8 +235,8 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Zerocash | Zcash의 기반이 된 학술 프로토콜(2014)입니다. |
 | Zaino | lightwalletd를 대체하는 차세대 Zcash 인덱서로, Zcash Foundation이 구축했습니다. 라이트 클라이언트가 더 빠르고 더 프라이빗하게 동기화할 수 있게 합니다. Zcash Z3 인프라 업그레이드의 일부입니다. |
 | Zakura | 2026년 7월에 출시된 Zcash 풀 노드 구현으로, Valar Group과 Project Tachyon이 Zebra를 포크해 구축했습니다. 스냅샷 부트스트래핑을 갖추고 처리량과 동기화 속도를 목표로 하며, 초당 약 50,000건의 거래라는 카드 네트워크 규모를 지향한다고 밝혔습니다. [zakura.com](https://zakura.com) |
-| Zallet | Zcash Z3 인프라 작업의 일환으로 Zaino 기반 위에 구축되었으며, `zcashd`가 퇴역했을 때 그 지갑 기능을 넘겨받은 지갑 구성 요소입니다. |
-| Zebra | Zcash Foundation의 Rust 기반 풀 노드 구현입니다(`zcashd`의 대안). 프로덕션 준비가 완료되었고 활발히 유지보수되고 있습니다. [GitHub](https://github.com/ZcashFoundation/zebra) |
+| Zallet | Zcash Z3 인프라 작업의 일환으로 Zaino 기반 위에 구축되었으며, zcashd가 퇴역했을 때 그 지갑 기능을 넘겨받은 지갑 구성 요소입니다. |
+| Zebra | Zcash Foundation의 Rust 기반 풀 노드 구현입니다(zcashd의 대안). 프로덕션 준비가 완료되었고 활발히 유지보수되고 있습니다. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Bitcoin Core에서 포크된 원래의 Zcash 풀 노드입니다. 오랜 기간의 지원 중단 예고 끝에 2026년 7월에 퇴역했으며, 그 역할은 합의를 위한 Zebra와 지갑 기능을 위한 Zallet으로 나뉘었습니다. |
 | ZIP | Zcash Improvement Proposal - 프로토콜 변경을 제안하고 비준하는 데 사용되는 커뮤니티 거버넌스 프로세스입니다. [ZIP 저장소](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab입니다. 2026년 초 Josh Swihart와 전 Electric Coin Company 엔지니어링 팀이 Bootstrap과의 거버넌스 분쟁으로 사임한 뒤 설립한 독립 조직입니다. 2026년 3월에 2,500만 달러가 넘는 시드 투자를 유치했으며, 2026년 2월 Zashi에서 이름이 바뀐 ZODL 지갑을 유지보수하고 있습니다. [zodl.com](https://zodl.com) |

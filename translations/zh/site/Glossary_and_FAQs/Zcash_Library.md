@@ -30,12 +30,12 @@
 
 | 术语 | 定义 |
 |------|-----------|
-| Canopy | Zcash 的第 5 次重大网络升级。 [更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
+| Canopy | Zcash 的第 5 次重大网络升级。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | 允许承诺者用一个短字符串对某个多项式作出承诺，验证者可借此确认该已承诺多项式所声称的求值结果。这对于降低 Zcash 协议中的通信成本很有帮助。 |
-| Community | [Zcash 官方社区论坛](https://forum.zcashcommunity.com) / [Zcash 社区 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
+| Community | [官方 Zcash 社区论坛](https://forum.zcashcommunity.com) / [Zcash 社区 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | 一种提出中的混合共识设计，保留工作量证明的区块生产机制，并在其上增加一层权益证明终局性层，从而在不放弃挖矿的情况下，让区块获得更强的终局性。它源自 Trailing Finality Layer 研究，由 Shielded Labs 开发，截至 2026 年仍处于 testnet 开发阶段。 |
 | CrossPay | ZODL 钱包中的一项功能，可让你花费受屏蔽的 ZEC，同时收款人则以其偏好的资产和链收到付款；该过程通过 NEAR Intents 路由，而非通过中心化交易所。 |
-| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 以及部分生态合作伙伴共同打造的创意宇宙与协作项目。 [Cypherpunk Zero 网站](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea 收藏集](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 以及部分生态合作伙伴共同打造的创意宇宙与协作项目。[Cypherpunk Zero 网站](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea 收藏集](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -62,9 +62,9 @@
 
 | 术语 | 定义 |
 |------|-----------|
-| Fiat-Shamir | 一种将交互式知识证明转换为基于其上的数字签名的技术。通过这种方式，可以在不泄露底层信息的前提下，公开证明某个事实（例如知晓某个秘密）。 |
+| Fiat-Shamir | 一种将交互式知识证明转换为基于其的数字签名的技术。通过这种方式，可以在不泄露底层信息的前提下，公开证明某个事实（例如知晓某个秘密）。 |
 | Formal Verification | 通过数学方式证明一个系统的行为与规范完全一致，而不是仅仅依赖测试。zkSecurity 和 ZODL 的贡献者使用 Lean 定理证明器，以这种方式验证了 Ironwood Action 电路，以证明其不存在可靠性漏洞。 |
-| Founders Reward | Founders Reward 占区块总奖励的 20%，从每个区块的价值中扣除，并以透明方式分配，用于推动协议开发与成长。 |
+| Founders Reward | 创始人奖励占区块总奖励的 20%，从每个区块的价值中扣除，并以透明方式分配，用于推动协议开发与成长。 |
 | Free2Z | 由 Zcash 驱动的匿名内容与私密捐赠工具。 [Free2Z](https://free2z.com) |
 | FROST | 灵活的轮次优化 Schnorr 门限签名方案。 [研究论文](https://eprint.iacr.org/2020/852) |
 
@@ -109,8 +109,8 @@
 | 术语 | 定义 |
 |------|-----------|
 | Layer-1 | 指基础网络及其底层基础设施。Layer-1 blockchain 无需依赖其他网络即可验证并最终确认交易。Zcash 是一条 L1 blockchain。 |
-| librustzcash | 一个 Rust workspace，包含用于处理 Zcash 的所有 crates 和依赖项。 [仓库](https://github.com/zcash/librustzcash) |
-| lightwalletd | 一种无状态服务器，向轻客户端提供 blockchain 信息。 [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| librustzcash | 一个 Rust workspace，包含用于处理 Zcash 的所有 crates 和依赖项。[仓库](https://github.com/zcash/librustzcash) |
+| lightwalletd | 一种无状态服务器，向轻客户端提供 blockchain 信息。[lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -230,7 +230,7 @@
 |------|-----------|
 | Zcash | 以隐私为核心的加密货币，使用 zk-SNARKs。连接透明支付（Bitcoin 风格）与完全受保护支付。 |
 | Zcash Foundation | 支持 Zcash 生态系统、资助开发并推动隐私保护的独立非营利组织。 |
-| Zcash Network | 由节点组成的点对点网络，用于验证交易并维护 blockchain。 |
+| Zcash Network | 由节点组成的点对点网络，用于验证交易并维护区块链。 |
 | ZEC | Zcash 的官方货币代码（部分交易所仍显示 XZC）。 |
 | Zerocash | Zcash 所基于的学术协议（2014）。 |
 | Zaino | 下一代 Zcash 索引器，用于替代 lightwalletd，由 Zcash Foundation 构建。它使轻客户端能够以更快且更私密的方式同步。属于 Zcash Z3 基础设施升级的一部分。 |

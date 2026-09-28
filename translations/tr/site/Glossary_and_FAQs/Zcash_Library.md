@@ -28,18 +28,18 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 
 ## C
 
-| Term | Definition |
+| Terim | Tanım |
 |------|-----------|
 | Canopy | Zcash için 5. Büyük Ağ Yükseltmesi. [Daha Fazla Bilgi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | Bir taahhütte bulunan kişinin, doğrulayıcının taahhüt edilen polinomun iddia edilen değerlendirmelerini doğrulamak için kullanabileceği kısa bir dizeyle bir polinoma taahhütte bulunmasını sağlar. Zcash protokolündeki iletişim maliyetlerini azaltmak için faydalıdır. |
+| Commitment Scheme | Bir taahhütte bulunanın, doğrulayıcının taahhüt edilen polinomun iddia edilen değerlendirmelerini doğrulamak için kullanabileceği kısa bir dizeyle bir polinoma taahhütte bulunmasını sağlar. Zcash protokolündeki iletişim maliyetlerini azaltmak için faydalıdır. |
 | Community | [Resmî Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | İş ispatı blok üretimini koruyan ve bunun üzerine bir hisse ispatı kesinlik katmanı ekleyen, önerilmiş hibrit bir konsensüs tasarımıdır; böylece bloklar madencilikten vazgeçilmeden daha güçlü kesinlik kazanır. Trailing Finality Layer araştırmasından doğmuştur ve Shielded Labs tarafından geliştirilmektedir; 2026 itibarıyla hâlâ testnet geliştirme aşamasındadır. |
-| CrossPay | ZODL cüzdanındaki bir özelliktir; merkezi bir borsa yerine NEAR Intents üzerinden yönlendirilerek, alıcının tercih ettiği varlık ve zincirde ödeme almasını sağlarken sizin shielded ZEC harcamanıza olanak tanır. |
+| CrossPay | ZODL cüzdanındaki bir özelliktir; merkezi bir borsa yerine NEAR Intents üzerinden yönlendirilerek, alıcının tercih ettiği varlık ve zincirde ödeme almasını sağlarken shielded ZEC harcamanıza olanak tanır. |
 | Cypherpunk Zero | ECC, illüstratör Stranger Wolf, Mighty Jaxx ve seçili ekosistem ortakları arasındaki yaratıcı bir evren ve iş birliği girişimi. [Cypherpunk Zero Sitesi](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea Koleksiyonu](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
-| Term | Definition |
+| Terim | Tanım |
 |------|-----------|
 | DeFi | ZEC'i DeFi ile entegre eden projeler: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | Bir işlemin zaddr'den (shielded address) taddr'ye (transparent address) gönderilmesini ifade eder. İşlemin kaynağı görünmez, ancak fonlar kamuya açık şekilde görülebilen bir değer havuzuna girer. |
@@ -60,7 +60,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 
 ## F
 
-| Term | Definition |
+| Terim | Tanım |
 |------|-----------|
 | Fiat-Shamir | Etkileşimli bir bilgi kanıtını alıp buna dayalı bir dijital imza oluşturma tekniğidir. Bu sayede bazı olgular (ör. bir sırrın bilgisi), altta yatan bilgiler ifşa edilmeden kamuya açık biçimde kanıtlanabilir. |
 | Formal Verification | Yalnızca testlere güvenmek yerine, bir sistemin tam olarak belirtildiği şekilde davrandığını matematiksel olarak kanıtlamaktır. Ironwood Action devresi, sağlamlık hatalarının bulunmadığını göstermek amacıyla zkSecurity ve ZODL katkıcıları tarafından Lean teorem ispatlayıcısı kullanılarak bu şekilde doğrulanmıştır. |
@@ -110,7 +110,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 |------|-----------|
 | Layer-1 | Bir temel ağı ve onun altyapısını ifade eder. Layer-1 blokzincirleri, başka bir ağa ihtiyaç duymadan işlemleri doğrulayabilir ve kesinleştirebilir. Zcash bir L1 blokzinciridir. |
 | librustzcash | Zcash ile çalışmak için gerekli tüm crate'leri ve bağımlılıkları içeren bir Rust çalışma alanı. [repo](https://github.com/zcash/librustzcash) |
-| lightwalletd | Hafif istemcilere blokzincir bilgisi sunan stateless bir sunucu. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | Hafif istemcilere blokzincir bilgisi sunan durum tutmayan bir sunucu. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -226,22 +226,22 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 
 ## Z
 
-| Term | Definition |
+| Terim | Tanım |
 |------|-----------|
-| Zcash | zk-SNARKs kullanan gizlilik odaklı kripto para. Transparent (Bitcoin tarzı) ve tamamen shielded ödemeler arasında köprü kurar. |
+| Zcash | zk-SNARKs kullanan gizlilik odaklı kripto para. Şeffaf (Bitcoin tarzı) ve tamamen korumalı ödemeler arasında köprü kurar. |
 | Zcash Foundation | Zcash ekosistemini destekleyen, geliştirmeyi finanse eden ve gizliliği teşvik eden bağımsız bir kâr amacı gütmeyen kuruluş. |
-| Zcash Network | İşlemleri doğrulayan ve blokzinciri sürdüren eşten eşe düğüm ağı. |
+| Zcash Network | İşlemleri doğrulayan ve blokzincirini sürdüren eşten eşe düğüm ağı. |
 | ZEC | Zcash için resmî para birimi kodu (bazı borsalar hâlâ XZC gösterir). |
 | Zerocash | Zcash'in dayandığı akademik protokol (2014). |
 | Zaino | lightwalletd'nin yerini alan, Zcash Foundation tarafından geliştirilen yeni nesil Zcash indeksleyicisi. Hafif istemcilerin daha hızlı ve daha özel biçimde senkronize olmasını sağlar. Zcash Z3 altyapı yükseltmesinin bir parçasıdır. |
-| Zakura | Temmuz 2026'da yayınlanan, Valar Group ve Project Tachyon tarafından Zebra'nın bir fork'u olarak geliştirilen bir Zcash tam düğüm uygulaması. Snapshot ile önyüklemeyle birlikte işlem hacmi ve senkronizasyon hızını hedefler; ayrıca saniyede yaklaşık 50.000 işlemle kart ağı ölçeğine ulaşma hedefi olduğunu belirtir. [zakura.com](https://zakura.com) |
-| Zallet | zcashd'nin cüzdan işlevleri kullanımdan kaldırıldığında bunları devralan cüzdan bileşeni; Zcash Z3 altyapı çalışmasının bir parçası olarak Zaino üzerine inşa edilmiştir. |
+| Zakura | Temmuz 2026'da yayınlanan, Valar Group ve Project Tachyon tarafından Zebra'nın bir fork'u olarak geliştirilen bir Zcash tam düğüm uygulaması. Anlık görüntü ile önyüklemenin yanı sıra işlem hacmi ve senkronizasyon hızını hedefler; ayrıca saniyede yaklaşık 50.000 işlemle kart ağı ölçeğine ulaşma hedefi olduğunu belirtir. [zakura.com](https://zakura.com) |
+| Zallet | zcashd kullanımdan kaldırıldığında onun cüzdan işlevlerini devralan cüzdan bileşeni; Zcash Z3 altyapı çalışmasının bir parçası olarak Zaino üzerine inşa edilmiştir. |
 | Zebra | Zcash Foundation'ın Rust tabanlı tam düğüm uygulaması (zcashd'ye alternatif). Üretime hazırdır ve aktif olarak sürdürülmektedir. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Bitcoin Core'dan fork'lanan özgün Zcash tam düğümü. Uzun süren bir kullanım dışı bırakma sürecinin ardından Temmuz 2026'da emekliye ayrıldı; rolleri, konsensüs için Zebra ile cüzdan işlevleri için Zallet arasında paylaştırıldı. |
 | ZIP | Zcash Improvement Proposal - protokol değişikliklerini önermek ve onaylamak için kullanılan topluluk yönetişim süreci. [ZIP Deposu](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab. Josh Swihart ve eski Electric Coin Company mühendislik ekibi tarafından, Bootstrap ile yaşanan bir yönetişim anlaşmazlığı nedeniyle istifa etmelerinin ardından 2026'nın başlarında kurulan bağımsız kuruluştur. Mart 2026'da başlangıç yatırımı olarak 25 milyon doların üzerinde fon topladı ve Şubat 2026'da Zashi'den yeniden adlandırılan ZODL cüzdanını sürdürmektedir. [zodl.com](https://zodl.com) |
-| zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — Zcash shielded işlemlerini güçlendiren kriptografi. Herhangi bir gizli bilgiyi ifşa etmeden bir ifadenin (ör. geçerli harcama) kanıtlanmasına olanak tanır. |
-| ZSA (Zcash Shielded Assets) | Kullanıcı tarafından çıkarılan ve Zcash'in shielded gizliliğini devralan tokenlerdir; ZEC dışındaki varlıkların ağ üzerinde özel biçimde hareket etmesini sağlar. [ZIP 226](https://zips.z.cash/zip-0226) içinde tanımlanmıştır ve NU7 için aday bir özelliktir. |
+| zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — Zcash korumalı işlemlerini güçlendiren kriptografi. Herhangi bir gizli bilgiyi ifşa etmeden bir ifadenin (ör. geçerli harcama) kanıtlanmasına olanak tanır. |
+| ZSA (Zcash Shielded Assets) | Kullanıcı tarafından çıkarılan ve Zcash'in korumalı gizliliğini devralan tokenlerdir; ZEC dışındaki varlıkların ağ üzerinde özel biçimde hareket etmesini sağlar. [ZIP 226](https://zips.z.cash/zip-0226) içinde tanımlanmıştır ve NU7 için aday bir özelliktir. |
 
 ---
 

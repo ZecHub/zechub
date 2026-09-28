@@ -1,8 +1,8 @@
-# Ìkówèésí Zcash
+# Ilé ìkàwé Zcash
 
-Àkójọ àwọn ọ̀rọ̀ tó kún fún ìtumọ̀, èròjà àti ohun èlò tí ó ní í ṣe pẹlú Zcash.
+Ìwé àkójọpọ̀ ọ̀rọ̀ pàtàkì, àwọn èrò, àti àwọn ohun èlò tó ní í ṣe pẹ̀lú Zcash.
 
-### Ìrìn-àjò Rírìndìn
+### Lilọ kiri ni kiakia
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
 
 ---
@@ -34,7 +34,7 @@
 | Commitment Scheme | Ó fún olùdásílẹ̀ láyè láti fi ara mọ́ ìpìlẹ̀ onípele pẹ̀lú okùn kúkúrú kan tí olùdásílẹ̀ lè lò láti fi ẹ̀rí hàn pé àwọn àyẹ̀wò tí a sọ pé wọ́n ṣe ti ìpìlẹ̀ Zcash... |
 | Community | [Àpérò Àwùjọ Zcash](https://forum.zcashcommunity.com) / [Discord Àwùjọ Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord R&D Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Apẹrẹ ìfọwọ́sowọ́pọ̀ aládàpọ̀ tí a dámọ̀ràn tí ó máa ń mú kí iṣẹ́ ìṣẹ̀dá àwọn ohun èlò ìdánilójú ṣiṣẹ́ dúró, tí ó sì ń fi ìpele ìdánilójú àwọn ohun èlò kún orí wọn, kí àwọn ohun èlò náà lè lágbára sí i láìsí pé wọ́n ń fi iṣẹ́ ìwakùsà sílẹ̀. Ó dàgbà láti inú ìwádìí Trailing Finality Layer, Shielded Labs sì ń kọ́ ọ, ó sì ń ṣiṣẹ́ lórí ìdàgbàsókè testnet ní ọdún 2026. |
-| CrossPay | Ẹ̀yà kan wà nínú àpò ZODL tó máa jẹ́ kí o ná ZEC tí a dáàbò bò nígbà tí a bá san owó fún ẹni tí a gbà ní dúkìá àti ẹ̀wọ̀n tí wọ́n fẹ́, tí a máa fi NEAR Intents ṣe dípò pàṣípààrọ̀ àárín. |
+| CrossPay | Ẹ̀yà kan wà nínú àpò ZODL tí ó fún ọ láyè láti ná owó ZEC tí a dáàbò bò nígbà tí a bá san owó fún ẹni tí a gbà ní dúkìá àti ẹ̀wọ̀n tí wọ́n fẹ́, tí a gbé ka orí NEAR Intents dípò pàṣípààrọ̀ àárín. |
 | Cypherpunk Zero | Àgbáyé Ìṣẹ̀dá àti ìsapá ìfọwọ́sowọ́pọ̀ láàrín ECC, olùyàwòrán Stranger Wolf, Mighty Jaxx àti àwọn alábáṣiṣẹpọ̀ ètò ìṣẹ̀dá tí a yàn. [Aaye Odo Cypherpunk](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Àkójọ OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
@@ -86,7 +86,7 @@
 
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
-| Index | Àtòjọ ZCX CoinDesk's dúró fún iye owó pàtó kan tí ó dọ́gba pẹ̀lú USD fún Zcash. [Àtòjọ Owó](https://www.coindesk.com/indices/zcx/) |
+| Index | Àtòjọ ZCX ti CoinDesk dúró fún iye owó pàtó kan tí ó dọ́gba pẹ̀lú USD fún Zcash. [Àtòjọ Owó](https://www.coindesk.com/indices/zcx/) |
 | Integrations | O le gba awọn sisanwo Zcash nipasẹ ọpọlọpọ awọn olupese ẹgbẹ kẹta. [Àwọn Olùṣètò Ìsanwó](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Ẹ̀rọ àkójọpọ̀ kan tí ó ń ṣe àwòkọ́ṣe ìṣirò gẹ́gẹ́ bí ìpàṣípààrọ̀ àwọn ìránṣẹ́ láàrín àwọn ẹgbẹ́ méjì: Prover àti Verifier kan. |
 | Investment | Ọpọlọpọ awọn aṣayan inawo wa fun awọn oludokoowo ile-iṣẹ tabi awọn ọfiisi idile ti o fẹ lati ni ifihan si Zcash. [Àkójọ ni kikun](https://z.cash/investors/) |
@@ -109,7 +109,7 @@
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
 | Layer-1 | Ó tọ́ka sí nẹ́tíwọ́ọ̀kì ìpìlẹ̀ àti ètò ìṣiṣẹ́ rẹ̀. Àwọn ẹ̀rọ ìdènà Layer-1 lè jẹ́rìí sí àti parí àwọn ìṣòwò láìsí àìní nẹ́tíwọ́ọ̀kì mìíràn. Zcash jẹ́ ẹ̀rọ ìdènà L1. |
-| librustzcash | A Rust workspace containing all crates and dependencies for working with Zcash. [àtúnṣe owó-ìpamọ́](https://github.com/zcash/librustzcash) |
+| librustzcash | Ibi iṣẹ́ Rust kan tí ó ní gbogbo àpótí àti àwọn ohun tí ó gbára lé fún ṣíṣiṣẹ́ pẹ̀lú Zcash. [ibi ipamọ](https://github.com/zcash/librustzcash) |
 | lightwalletd | Ẹ̀rọ olupin aláìsí ìpínlẹ̀ kan tí ó ń ṣe ìránṣẹ́ fún àwọn oníbàárà díẹ̀ pẹ̀lú ìwífún nípa blockchain. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
@@ -137,9 +137,9 @@
 
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
-| Oblivious Synchronization | A method under development in Project Tachyon that lets a wallet request the data it needs from an untrusted server without revealing which notes it is asking about. The server never learns your nullifiers, because the protocol makes them evolve in an unlinkable way. [Ìkọsílẹ̀-sókè](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Oblivious Synchronization | Ọ̀nà kan tí a ń ṣe àgbékalẹ̀ rẹ̀ nínú Project Tachyon tí ó jẹ́ kí àpò owó béèrè fún ìwífún tí ó nílò láti ọ̀dọ̀ olupin tí a kò gbẹ́kẹ̀lé láìsí ìfihàn àwọn àkọsílẹ̀ tí ó ń béèrè nípa rẹ̀. Olùpèsè náà kò mọ àwọn ohun tí ó ń yọ ọ́ lẹ́nu, nítorí pé ìlànà náà ń mú kí wọ́n yí padà lọ́nà tí kò ṣeé sopọ̀ mọ́. [Ìkọsílẹ̀](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 | Orchard Shielded Pool | Adagun ààbò kẹta fún Zcash ó sì dúró fún ìdàgbàsókè tó ń bá a lọ ti àkójọ ìmọ̀-ẹ̀rọ zk-SNARK wa. [Awọn alaye ni kikun](https://electriccoin.co/blog/explaining-halo-2/) |
-| Overwinter | The 1st Network Upgrade for Zcash. [Àwọn Ìsọfúnni Míì Sí I](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+| Overwinter | Igbesoke Nẹtiwọọki 1 fun Zcash. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 
@@ -149,7 +149,7 @@
 | PCD (Proof-Carrying Data) | Ilẹ̀ ìpilẹ̀ṣẹ̀ kan níbi tí dátà ti ń rìn lọ pẹ̀lú ẹ̀rí pé ó péye, nítorí náà pípapọ̀ dátà náà tún ń so àwọn ẹ̀rí pọ̀. Iṣẹ́ àgbékalẹ̀ Tachyon tún ṣe àtúnṣe ìlànà ààbò ní àyíká PCD, ó jẹ́ kí àpò owó kọ̀ọ̀kan ní ẹ̀rí ìyípadà pé ìwọ̀n tirẹ̀ péye dípò àtúnyẹ̀wò ẹ̀wọ̀n náà. Ìmúṣe Zcash ni [Ragu](https://github.com/tachyon-zcash/ragu), èyí tí ó tẹ̀lé Halo tí kò sì nílò ètò tí a gbẹ́kẹ̀lé. |
 | Peer-to-Peer Network | Àwọn nẹ́tíwọ́ọ̀kì P2P dá lórí èrò ìpínkiri. Ìpìlẹ̀ ìpìlẹ̀ ìmọ̀ ẹ̀rọ blockchain. |
 | PIR (Private Information Retrieval) | Àwọn ọ̀nà ìwádìí tó ń jẹ́ kí o rí àkọsílẹ̀ láti ọ̀dọ̀ olupin láìsí kí o kọ́ nípa àkọsílẹ̀ tí o béèrè fún. Lábẹ́ ìwádìí tó ń lọ lọ́wọ́, Zcash jẹ́ ọ̀nà fún àwọn àpò owó tí ó rọrùn láti gbà ohun tí wọ́n nílò láìsí pé wọ́n ń tú ohun tí wọ́n ń wá jáde. |
-| Podcast | [Radiolab (Zcash)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast in Spanish](https://www.youtube.com/@ZcastEsp) |
+| Podcast | [Radiolab (Zcash)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [Ìnáwó RealVision](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [Podcast UpOnly](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast in Spanish](https://www.youtube.com/@ZcastEsp) |
 
 ## Q
 
@@ -209,7 +209,7 @@
 
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
-| Wallet | Software or hardware that stores private keys and lets you send/receive ZEC. Active wallets include ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (upcoming), and Keystone (hardware). For a full list, see [Àwọn Wàléètì Ìlànà Zcash Ecosystem](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Sọ́fítíwè tàbí ohun èlò tí ó ń kó àwọn kọ́kọ́rọ́ àdáni pamọ́ tí ó sì ń jẹ́ kí o fi ránṣẹ́/gba ZEC. Àwọn àpò owó tí ń ṣiṣẹ́ ní ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (uncoming), àti Keystone (hardware). Fún àkójọ gbogbo rẹ̀, wo àkójọ gbogbo rẹ̀, wo [Àwọn Àpò Ìṣẹ̀dá Èrò Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | SDK JavaScript àkọ́kọ́ fún Zcash, tí ChainSafe kọ́ fún àwọn àyíká ẹ̀rọ aṣàwákiri. Ó ń ṣe àtìlẹ́yìn fún Zcash Shielded Wallet tí ó mú ZEC tí a dáàbò bò wá sí MetaMask. |
 
 ## X
@@ -245,5 +245,5 @@
 
 ---
 
-** Àtúnṣe ìkẹyìn:** July 2026
-**Ṣé o fẹ́ kópa?** [Ṣàtúnṣe ojúewé yìí lórí GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)
+**Ìmúdàgba ìkẹyìn:** Oṣù Keje 2026
+**Ṣé o fẹ́ kópa?** [Ṣe àtúnṣe ojú ìwé yìí lórí GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)

@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Web sitesi: https://flyp.me/en/#/
-- Açıklama: Hesap gerektirmeyen Flyp.me borsası ve FYP Token, gizliliği korumak, merkeziyetsizliği teşvik etmek, tabandan sahipliği desteklemek ve uzlaşıya inanan bir topluluğu büyütmek için doğdu.
+- Açıklama: flyp.me hesap gerektirmeyen borsası ve FYP Token, gizliliği korumak, merkeziyetsizliği teşvik etmek, tabandan sahipliği desteklemek ve uzlaşıya inanan bir topluluğu büyütmek için doğdu.
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Web sitesi: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - Açıklama: Vietnam'da Anında Bitcoin ve Kripto Para Borsası. VND, BTC, XMR, USDT, ETH, BCH, SOL dahil 80 varlık arasında satın alın, satın veya swap yapın.
