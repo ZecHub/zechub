@@ -96,7 +96,27 @@ custodian under a structure designed for auditability. Whatever else that
 is, it is not the usage pattern the protocol was built for, and a meaningful
 share of the supply sitting in it is a fact about Zcash's distribution
 worth tracking.
+## The ZEC is held in the open
 
+There is a further irony in the structure, and it is the sharpest thing on
+this page. Coinbase Custody holds the Trust's ZEC in transparent addresses,
+not shielded ones. The fund's holdings are visible on-chain, traceable to the
+custodian, and observable in real time by anyone who cares to look.
+
+That is not an oversight. Regulated fund infrastructure is built around audit
+and attestation, and a shielded balance is precisely the thing an auditor
+cannot independently verify. Coinbase's own support reflects the same
+asymmetry: it will receive ZEC sent from a shielded address, but it does not
+send ZEC to one.
+
+So the largest institutional holder of a privacy asset holds it in the one
+form that has no privacy. What is bought through the wrapper is the price of
+ZEC; the property that makes ZEC distinctive is left on the table by the
+structure holding it.
+
+This point is sourced to reporting rather than to the filings — the S-3
+describes custody of the Trust's private keys but does not characterise
+address types — and is stated here with that caveat.
 ## How much ZEC is involved
 
 As of 30 September 2025, the Trust held approximately **2.4% of circulating
@@ -117,6 +137,6 @@ All primary, all on EDGAR under CIK 1720265 unless noted.
 - [Form 10-K for the year ended 31 December 2024](https://www.sec.gov/Archives/edgar/data/1720265/000095017025035469/zcsh-20241231.htm)
 - [The Zcash ETF begins trading on NYSE Arca, 25 August 2026](https://www.globenewswire.com/news-release/2026/8/25/3350404/0/en/the-zcash-etf-ticker-zcsh-built-by-grayscale-begins-trading-on-nyse-arca-expanding-investor-access-to-the-leading-privacy-focused-digital-currency.html)
 - [Grayscale Zcash Trust fund page](https://www.grayscale.com/funds/grayscale-zcash-trust) — inception dates, current holdings and fee
-
+- [The first privacy coin ETF: inside Grayscale's Zcash filing](https://crypto.news/the-first-privacy-coin-etf-inside-grayscales-zcash-filing/) — secondary source; the only one found stating that the Trust's ZEC is held in transparent addresses
 Checked 28 September 2026. Figures in filings carry their own "as of" dates
 and are quoted with them; nothing here is a live number.
