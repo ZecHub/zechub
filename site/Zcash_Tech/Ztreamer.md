@@ -1,43 +1,43 @@
 # Ztreamer
 
-Ztreamer is a Rust indexer that prepares Zcash blockchain data for light wallets. It runs a [Zakura node](/zcash-tech/zakura-node) inside the same process as its indexer and wallet server, so operators do not need a separate full-node daemon.
+Ztreamer is a Rust indexer that serves Zcash blockchain data to light wallets. It runs a [Zakura node](/zcash-tech/zakura-node), an indexer and a wallet server in one process, called `ztreamerd`. You don't need to run a separate full node alongside it.
 
-This page follows the [v0.1.0 README](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/README.md) and [release notes](https://github.com/distractedm1nd/ztreamer/releases/tag/v0.1.0), rather than the earlier launch announcement.
+This guide covers [v0.1.0](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/README.md).
 
 ## What it does
 
-The daemon, `ztreamerd`, synchronizes its embedded node, builds a compact-block index, and serves the `CompactTxStreamer` API used by light wallets. It also makes that service available over Zakura's v2 peer-to-peer protocol, enabling wallets that support this transport to request data from peers.
+Ztreamer syncs its node, builds an index of compact blocks, then serves the `CompactTxStreamer` API that light wallets use. Wallets can connect over gRPC. Those that support Zakura's v2 peer-to-peer protocol can also request this data from peers.
 
-The v0.1.0 release added `GetMempoolTx`, transparent scanning support and TLS for gRPC. The README says all lightwallet-protocol methods are implemented, with these qualifications:
+The [v0.1.0 release](https://github.com/distractedm1nd/ztreamer/releases/tag/v0.1.0) added `GetMempoolTx`, transparent scanning support and TLS for gRPC. The README lists all lightwallet-protocol methods as implemented, but there are a few limits:
 
 - `GetBlock` leaves out transparent data.
-- `GetBlockRange` accepts transparent filters, but those requests do not use the index. The project does not recommend transparent scanning as a use case.
-- `Ping` is disabled by default. The release reserves `--ping-very-insecure` for explicitly enabling it in tests.
+- `GetBlockRange` accepts transparent filters, but those requests don't use the index. The project doesn't recommend using it for transparent scanning.
+- `Ping` is off by default. The `--ping-very-insecure` flag enables it for testing.
 
-The README also reports support for 24 of the 27 JSON-RPC requests available in Zaino's direct mode. The missing requests are `getblockdeltas`, `getspentinfo` and `gettxoutsetinfo`.
+The README reports support for 24 of the 27 JSON-RPC requests available in Zaino's direct mode. It doesn't yet support `getblockdeltas`, `getspentinfo` or `gettxoutsetinfo`.
 
 ## How it compares
 
-| Software | Connection to the chain | Wallet-facing service |
+| Software | Where it gets chain data | What it serves |
 |:--|:--|:--|
-| [Ztreamer](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/README.md) | Embeds a Zakura node in the indexer process | Lightwallet-protocol over gRPC and v2 peer-to-peer transport, with the qualifications above |
-| [Zaino](https://github.com/zingolabs/zaino#readme) | Rust indexer using chain data from a Zebra validator | Lightwallet-compatible gRPC plus JSON-RPC for wallets, explorers and other clients |
-| [lightwalletd](https://github.com/zcash/lightwalletd#readme) | Separate Go service that queries a full node over JSON-RPC; its current setup guide uses Zebra | The original compact-block service for light wallets |
-| [Zinder](https://github.com/ZcashFoundation/zinder#readme) | Indexes data from Zebra, with separate ingest, projection and query services | Native `WalletQuery` and a separate `zinder-compat-lightwalletd` adapter for existing lightwallet-protocol clients |
+| [Ztreamer](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/README.md) | A Zakura node running inside the same process | Lightwallet-protocol over gRPC and Zakura v2 peer-to-peer connections |
+| [Zaino](https://github.com/zingolabs/zaino#readme) | A Zebra validator | Lightwallet-compatible gRPC and JSON-RPC for wallets, explorers and other clients |
+| [lightwalletd](https://github.com/zcash/lightwalletd#readme) | A separate full node over JSON-RPC; its setup guide uses Zebra | The original Go service for sending compact blocks to light wallets |
+| [Zinder](https://github.com/ZcashFoundation/zinder#readme) | Zebra, with separate services to ingest, prepare and query the data | Native `WalletQuery` plus a `zinder-compat-lightwalletd` adapter for lightwallet-protocol clients |
 
-Ztreamer's embedded node reduces the number of processes to manage. Zinder focuses on sharing a consistent view of chain data among several consumers; its README labels it alpha and distinguishes protocol compatibility from tested support for a particular wallet release. Check your wallet's requirements before changing its backend.
+Ztreamer keeps the node and indexer together, giving you fewer processes to manage. Zinder separates those jobs so several wallets or applications can share a consistent view of the chain. Zinder is still alpha, and protocol compatibility doesn't guarantee support for every wallet release.
 
 ## How to run it
 
-Install a current [Rust toolchain](https://www.rust-lang.org/tools/install) and the [Protocol Buffers compiler](https://protobuf.dev/installation/). The project's [build environment](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/flake.nix) also includes Git, CMake, pkg-config and Clang/libclang for native dependencies.
+You'll need a current [Rust toolchain](https://www.rust-lang.org/tools/install) and the [Protocol Buffers compiler](https://protobuf.dev/installation/). The project's [build environment](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/flake.nix) also uses Git, CMake, pkg-config and Clang/libclang.
 
-Install the documented release with its locked dependencies:
+Install v0.1.0 with the dependency versions recorded for that release:
 
 ```bash
 cargo install --git https://github.com/distractedm1nd/ztreamer --tag v0.1.0 --locked ztreamerd
 ```
 
-Create `zakura.toml` in your working directory. This mainnet example uses a separate chain-state directory and archive storage, following the project's [configuration example](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/scripts/benchmark-zaino-rpc.sh):
+Create a file named `zakura.toml` in your working directory. This example selects mainnet and stores the chain data in `./zakura-state`, using the archive setting from the project's [configuration example](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/scripts/benchmark-zaino-rpc.sh):
 
 ```toml
 [network]
@@ -48,15 +48,15 @@ cache_dir = "./zakura-state"
 storage_mode = "archive"
 ```
 
-Start the daemon from that directory:
+Start Ztreamer from the same directory:
 
 ```bash
 ztreamerd --zakura-config zakura.toml
 ```
 
-The [daemon defaults](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/bin/ztreamerd/src/main.rs) keep gRPC on `127.0.0.1:9067`, metrics on `127.0.0.1:9999`, and the compact index in `./ztreamer-index`. Allow space for both the node's chain state and the index. The gRPC server starts after the node approaches the chain tip and historical indexing finishes; the README's indexing benchmark is not a fresh blockchain download time.
+By [default](https://github.com/distractedm1nd/ztreamer/blob/v0.1.0/bin/ztreamerd/src/main.rs), gRPC listens on `127.0.0.1:9067`, metrics on `127.0.0.1:9999`, and the compact index is saved in `./ztreamer-index`. You'll need disk space for both the chain data and this index. The gRPC server starts once the node is close to the chain tip and historical indexing has finished.
 
-For remote clients, configure gRPC TLS with your own PEM certificate chain and matching private key:
+To serve remote wallets over TLS, provide a PEM certificate chain and its matching private key:
 
 ```bash
 ztreamerd --zakura-config zakura.toml \
@@ -65,7 +65,7 @@ ztreamerd --zakura-config zakura.toml \
   --tls-key /path/to/privkey.pem
 ```
 
-Without these flags, gRPC is plaintext. Replace both certificate paths before running the command, and restart after certificate changes. These TLS options do not protect the metrics listener; keep it private or secure it through a reverse proxy.
+Replace both paths with your certificate and key files. Without these flags, gRPC is unencrypted. Restart Ztreamer when you change the certificate. The TLS settings apply only to gRPC, so keep metrics private or protect them with a reverse proxy.
 
 ## Related Pages
 
