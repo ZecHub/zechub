@@ -63,7 +63,7 @@ Se interroghi i dati grezzi, i campi del mittente e del destinatario schermati r
 ## Risorse
 
 - [Zcash: raccomandazioni su privacy e sicurezza](https://z.cash/support/security/privacy-security-recommendations/)
-- [Un ecosistema schermato (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [Un ecosistema schermato (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Come funziona la tecnologia di Zcash](https://z.cash/technology/)
 - [Explorer Zcash di Blockchair](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@ Se interroghi i dati grezzi, i campi del mittente e del destinatario schermati r
 - [Nozioni di base su Zcash](/start-here/what-is-zec-and-zcash)
 - [Wallet](/using-zcash/wallets)
 - [Pool schermati](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

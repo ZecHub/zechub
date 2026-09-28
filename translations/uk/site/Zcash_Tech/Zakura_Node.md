@@ -18,6 +18,7 @@ Zakura — це безкоштовна повністю відкрита реа�
 - **Режим сумісності з RPC zcashd** дозволяє наявним гаманцям та інтеграціям працювати без змін.
 - **Експериментальний транспортний шар P2P** (вимкнений за замовчуванням) орієнтований на поширення блоків менш ніж за 500 мс із gossip-протоколом, стійким до DoS.
 - Сумісний з **Ironwood (NU6.3)**, оновленням мережі Zcash, активованим у середині 2026 року.
+- **Zakura Common** (v1.3.0, серпень 2026 року) пришвидшує криптографічні операції, які гаманці використовують для створення приватних транзакцій: у багатьох випадках — з понад 3 секунд до менш ніж 200 мс, згідно з бенчмарками Zakura.
 - Проєкт очолюють **Sean Bowe** (співзасновник Zcash, Project Tachyon) і **Dev Ojha** (Valar Group).
 
 ---
@@ -72,6 +73,25 @@ Zakura повністю сумісний з оновленням мережі Ir
 
 ---
 
+## Zakura Common: Швидша криптографія гаманця
+
+У серпні 2026 року команда Zakura випустила Zakura Common — набір прискорених форків криптографічних бібліотек, на які покладаються гаманці та вузли Zcash. Zakura перейшов на новий стек у версії 1.3.0, а Vizor Wallet є одним із перших гаманців, що його інтегрували.
+
+![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](/content-images/zakuracommonspeedups.webp)
+
+Згідно з власними показниками Zakura:
+
+| Операція | Прискорення |
+|--|--|
+| Генерація доказів на мобільному пристрої | понад 14× (настільний комп’ютер: понад 5×) |
+| Хешування Sinsemilla | понад 21× |
+| Перевірка zk-SNARK | 4–8× |
+| Пробне розшифрування | понад 1,5× |
+
+Для користувачів найпомітнішою зміною є час очікування. Раніше створення приватної транзакції займало в гаманці понад три секунди. З Zakura Common у багатьох випадках це може займати менш ніж 200 мс. Це час, який ваш пристрій витрачає на підготовку транзакції, а не час, потрібний мережі для її підтвердження.
+
+Будь ласка, надайте новий англійський блок для перекладу.
+
 ## Як Zakura співвідноситься з іншими вузлами Zcash
 
 | | zcashd | Zebra | Zakura |
@@ -81,7 +101,7 @@ Zakura повністю сумісний з оновленням мережі Ir
 | Швидкість синхронізації | Базова | ~1× | ~у 5 разів швидше |
 | Обрізання блоків | Ні | Ні | Так |
 | Сумісність з RPC zcashd | Вбудована | Часткова | Так (режим сумісності) |
-| Запуск зі знімка | Ні | Ні | Так (<2 хв) |
+| Запуск зі знімка | Ні | Ні | Так (менше ніж 2 хв) |
 | Експериментальний P2P | Ні | Ні | Так (за бажанням) |
 
 ---
@@ -105,8 +125,9 @@ Zakura повністю сумісний з оновленням мережі Ir
 
 ## Ресурси
 
-- [Оголошення Introducing Zakura](https://zakura.com/announcements/introducing-zakura/)
-- [GitHub Zakura](https://github.com/zakura-core/zakura)
-- [Вебсайт Zakura](https://zakura.com/)
-- [Zakura в X/Twitter](https://x.com/ZakuraZcash)
+- [Представляємо Zakura — оголошення](https://zakura.com/announcements/introducing-zakura/)
+- [Zakura GitHub](https://github.com/zakura-core/zakura)
+- [Zakura Вебсайт](https://zakura.com/)
+- [Zakura у X/Twitter](https://x.com/ZakuraZcash)
 - [Project Tachyon](https://electriccoin.co/blog/)
+- [Zakura Спільне оголошення](https://zakura.com/announcements/zakura-common/)

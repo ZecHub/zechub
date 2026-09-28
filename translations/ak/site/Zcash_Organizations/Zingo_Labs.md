@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Ɔmanfoɔ Wɛbsaet](https://zingolabs.org/) - [Github a woagye atom](https://github.com/zingolabs) - [X/Twitter so na woagye atom](https://x.com/ZingoLabs) - [Instagram so na woagye atom](https://www.instagram.com/zingolabesp/)
+[Ɔmanfoɔ Wɛbsaet](https://zingolabs.org/) - [Github a woagye atom](https://github.com/zingolabs) - [X/Twitter so na woagye atom](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs yɛ anisoadehunufoɔ kuo a wɔatu wɔn ho ama sɛ wɔbɛma nnipa suahunu akɔ anim. Yegye di sɛ ɛsɛ sɛ mfiridwuma so ba adesamma mfaso na yɛnam nkitahodi a yɛpene so so na edi yiye. Yɛrekyerɛ nhwɛso ahorow a ɛma eyi tumi yɛ yiye.
 
@@ -11,7 +11,7 @@ Zingo Lab Cyan yɛ adwuma sɛ Shielded DAO. Yɛkora yɛn sika so wɔ sikakorabea
 ### Zingo! Sikakorabea ([Github](https://github.com/zingolabs/zingo-mobile))
 Zingo Wallet yɛ Zcash sika kotoku a ɛwɔ nneɛma nyinaa a wɔayɛ ama wɔn a wɔde di dwuma no adamfofa su, ɛwom sɛ ɛde nneɛma bi a ɛkɔ akyiri ka ho ma wɔn a wɔakɔ anim kɛse de. Ɛboa transparent, Sapling ne Orchard pools, ɛwɔ address book a wɔde tua sika mpɛn pii na ɛwɔ kasa ahodoɔ mu. Ɛyɛ sika kotoku a edi kan a ɛboaa Orchard na ɛde NU5 format ahorow dii dwuma.
 
-Zingo no mu nneɛma atitiriw no mu biako! ne tumi a ɛwɔ sɛ ɛde Memo field no di dwuma de nhumu a ɛsom bo ma wɔ wo nnwuma ho.
+Zingo! ne tumi a ɛwɔ sɛ ɛde Memo field no di dwuma de nhumu a ɛsom bo ma wɔ wo nnwuma ho.
 
 Zingo! no wɔ hɔ ma mobile mfiri ne PC ahorow. Wubehu nea wɔatwe nyinaa [ha](https://zingolabs.org/)
 

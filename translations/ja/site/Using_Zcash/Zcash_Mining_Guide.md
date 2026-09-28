@@ -26,7 +26,7 @@ Zcash (ZEC) は、マイニングに Equihash プルーフ・オブ・ワーク�
   - ASIC 向け: メーカー内蔵のファームウェア/ダッシュボードを使用します（例: Bitmain の Web インターフェース）。
 - **ウォレット:** 支払いを受け取るための Zcash ウォレット。推奨:
   - Shielded（プライベート）: Zodl Wallet、Zingo (Mobile/Desktop)、Zkool (mobile/desktop)。
-  - Transparent（簡単だがプライバシーは低い）: Edge Wallet、ZecWallet Lite。
+  - Transparent（簡単だがプライバシーは低い）: Edge Wallet、Zecwallet Lite。
   - [wallets](https://zechub.wiki/wallets) からダウンロードしてください。プールが対応している場合は、プライバシー保護のため shielded アドレス（`zs` で始まる）を生成してください。
 
 ### その他

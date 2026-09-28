@@ -108,6 +108,7 @@ If you followed an older version of this page, or a translation of it, three rou
 
 Use viewing keys on an as-needed basis, and prefer the narrowest key that answers the question being asked.
 
+- [Payment disclosures](/zcash-tech/payment-disclosures) - proving selected details of one payment without granting ongoing access to an account
 - [ZIP 326: NU6.3 Consequences for Wallets](https://zips.z.cash/zip-0326) — how viewing keys behave across the Orchard and Ironwood pools
 - [ZIP 229: Version 6 Transaction Format](https://zips.z.cash/zip-0229) — defines the Orchard and Ironwood pools
 - [Zallet changelog](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — which release added which RPC method

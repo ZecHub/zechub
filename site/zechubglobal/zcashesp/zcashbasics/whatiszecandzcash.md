@@ -20,5 +20,5 @@ ZEC le da a las personas la oportunidad de transferir datos sin otorgar permisos
 
 ## Recursos (en inglés) ##
 [El Caso de Zcash y la Privacidad (en inglés)](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
-[Un Ecosistema Blindado](https://electriccoin.co/blog/shielded-ecosystem/)
+[Un Ecosistema Blindado](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 [Recomendaciones de Privacidad de Zcash](https://z.cash/support/security/privacy-security-recommendations/)

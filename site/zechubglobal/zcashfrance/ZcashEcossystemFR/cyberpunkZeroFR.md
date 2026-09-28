@@ -19,7 +19,7 @@ Croyez que nous avons des avantages incroyables et exclusifs dans le pipeline po
 
 ## Gouvernance
 
-  * [Instantané](https://vote.cypherpunkzero.com/)
+  * [Instantané](https://web.archive.org/web/20260116122729/https://vote.cypherpunkzero.com/)
 
   * [Guilde](https://guild.xyz/cypherpunkzerodao)
 

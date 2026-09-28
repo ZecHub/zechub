@@ -8,7 +8,7 @@ Yebetumi de IPFS adi dwuma de akyɛ media fael akɛse wɔ yɛn ntam wɔ Peer to-
 
 Enti dɛn ne ɔhaw no: IPFS apon no nyɛ adwuma mma fael akɛse, wɔbɛtwa mu.
 
-**Ahwehwɛde ahorow**: [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) + [Akokodurufo Browser](https://brave.com/)
+**Ahwehwɛde ahorow**: [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) + [Browser a Brave](https://brave.com/)
 
 tldr, Video no wɔ n’awiei.
 

@@ -21,7 +21,7 @@ Afei deɛ wɔn a wɔde di dwuma no bɛtumi de ZEC amena/agye a wɔrenna balances
     src="https://www.youtube.com/embed/TNcHY-GXFVo"
     title="How to use ZEC on Brave"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -117,7 +117,7 @@ Nkyerɛkyerɛmu a ɛfa Zcash address type biara ho ni:
     src="https://www.youtube.com/embed/AmTMa5HXa2w"
     title="Brave Wallet Tutorial : Defi with Near Intents and Shielded Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

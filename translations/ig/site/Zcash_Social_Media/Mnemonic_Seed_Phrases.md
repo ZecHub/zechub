@@ -13,7 +13,7 @@ A na-akọwa ahịrịokwu mgbake site na nkọwapụta ** BIP-39 **, ụdị �
 
 Eke nkebi ahịrịokwu mgbake na-amalite site na ịmepụta ** randomness **. More entropy pụtara nchebe dị elu. ** 128 bits ** nke enttropy ka a na-ewere dị ka ihe zuru ezu maka ọtụtụ ndị ọrụ.
 
-[Nkọwa okwu mkpụrụ](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Nkọwa okwu mkpụrụ](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
 Dabere na ogologo nke entropy mbụ, okwu mgbake ga-abụ **12 ruo 24 okwu ** ogologo.
 
@@ -28,7 +28,7 @@ Anyị na-amalite site na ịmepụta 128 bits nke entropy.
 Anyị na-eji **SHA256** mee ka entropy ahụ. Bit ole na ole mbụ nke hash a na-aghọ nchọpụta nchọpụta. 
 Nke a na-enye anyị akara mkpịsị aka pụrụ iche maka entropy anyị.
 
-[Entropy + Checksum eserese](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![Entropy + Checksum eserese](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
 
 ### 3. E kewara ya n'ime iberibe 11-bit
 A na-ekewa 132 bit (128 entropy + 4 checksum) n'ime iberibe nke 11 bits.
@@ -59,7 +59,7 @@ A na-enweta mkpụrụ nke obere akpa site na ahịrịokwu mnemonic site na iji
 
 Nke a na-emepụta mkpụrụ nke **64-byte (512-bit) **.
 
-[Mkpụrụ na isi igodo](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![Mkpụrụ na isi igodo](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
 ### Igodo ndị bụ isi
 A na-ekewa mkpụrụ ahụ n'ime usoro abụọ 32-byte:

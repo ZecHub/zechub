@@ -12,7 +12,7 @@ Pata maelekezo ya jinsi ya kufanya hivyo kwenye [@ZecWeekly Newsletter](https://
 *Kwa maelezo zaidi juu ya kiasi cha tuzo, tafadhali soma ukurasa wetu wa kuchangia [contributing page](https://github.com/ZecHub/zechub/blob/main/CONTRIBUTING.md).*
 
 Tunapakia masuala ya kazi ambazo tunayo tuzo wazi kwa sasa.
- Kwa kawaida hizi zinapatikana kama masuala ya [Github Iissues](https://github.com/ZecHub/zechub/issues). Unaweza pia kuzipata kwenye [Dework](https://app.dework.xyz/). ZecHub Quests huwekwa kwenye [Crew3](https://zealy.io/c/zechub/questboard).
+ Kwa kawaida hizi zinapatikana kama masuala ya [Github Iissues](https://github.com/ZecHub/zechub/issues). Unaweza pia kuzipata kwenye [Dework](https://app.dework.xyz/). ZecHub Quests huwekwa kwenye [Zealy](https://zealy.io/cw/zechub/questboard).
 
 Ikiwa kuna njia nyingine unayotaka kuchangia, tafadhali tuma ujumbe kwa ZecHub [(@ZecHub)](https://twitter.com/zechub) kwenye Twitter au Jiunge na [Discord](https://discord.com/invite/zcash) yetu.
 

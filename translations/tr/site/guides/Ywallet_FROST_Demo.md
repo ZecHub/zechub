@@ -16,7 +16,7 @@
 
 ## FROST ikililerini derleyin
 
-[Github bağlantısı](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[GitHub bağlantısı](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 Yukarıdaki depoyu kullanın ve derleme talimatlarını izleyin: 
 
@@ -24,7 +24,7 @@ Yukarıdaki depoyu kullanın ve derleme talimatlarını izleyin:
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 İkililer target klasöründe olacaktır.

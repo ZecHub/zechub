@@ -35,11 +35,11 @@ Sprout는 이후의 모든 변경이 그 위에 쌓이는 기준선입니다. Ov
 | 용어 | 쉬운 뜻 |
 |---|---|
 | zk-SNARK | 송신자, 수신자, 금액을 공개하지 않고도 거래가 유효하다는 것을 보여주는 영지식 증명 |
-| 차폐 풀 | 금액과 당사자가 숨겨지는 Zcash의 비공개 영역입니다. Sprout 풀은 그 첫 번째였습니다 |
-| z-address와 t-address | z-address는 차폐되어 세부 정보를 비공개로 유지합니다. t-address는 투명하며 세부 정보를 공개 원장에 드러냅니다 |
-| Ceremony | Sprout의 공개 파라미터를 생성한 뒤 toxic waste를 폐기한 2016년의 다자간 설정 |
+| Shielded pool | 금액과 당사자가 숨겨지는 Zcash의 비공개 영역입니다. Sprout 풀은 그 첫 번째였습니다 |
+| z-address and t-address | z-address는 차폐되어 세부 정보를 비공개로 유지합니다. t-address는 투명하며 세부 정보를 공개 원장에 드러냅니다 |
+| The Ceremony | Sprout의 공개 파라미터를 생성한 뒤 toxic waste를 폐기한 2016년의 다자간 설정 |
 | Toxic waste | ZEC가 위조되지 않도록 파기되어야 했던 Ceremony의 비밀 키 조각 |
-| 합의 브랜치 id 0 | 업그레이드 이전 기준선이라는 뜻의 Sprout 규칙 라벨 |
+| Consensus branch id 0 | 업그레이드 이전 기준선이라는 뜻의 Sprout 규칙 라벨 |
 
 ## FAQ
 

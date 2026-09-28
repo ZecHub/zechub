@@ -19,7 +19,7 @@ Ninu nkan eto ẹkọ ọsẹ yii, iwọ yoo kọ ẹkọ nipa bii o ṣe le ṣ
 
 Ti o ba jẹ tuntun si awọn apa ti nṣiṣẹ lori Zcash, lẹhinna o ko ni nkankan lati ṣe aniyan nipa bi ikẹkọ yii ṣe n bo fere gbogbo awọn nkan pataki ti o nilo lati mọ nigbati o ba de si ṣiṣe node tirẹ lori Zcasd. Ṣabẹwo ọna asopọ ni isalẹ lati bẹrẹ:
 
-[Itosona lori Zcasd rasipibẹri Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md) 
+[Itosona lori Zcasd rasipibẹri Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/Raspberry_Pi_4_Full_Node.md) 
 
 ## Awọn imudojuiwọn Zcash
 

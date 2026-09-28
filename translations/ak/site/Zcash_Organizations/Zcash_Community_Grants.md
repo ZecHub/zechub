@@ -47,7 +47,7 @@ Electric Coin Company no nya 8% wɔ [Zcash nkɔsoɔ sikakorabea](https://zips.z.
     src="https://www.youtube.com/embed/ItEwc1lzvzc"
     title="How to Submit a Grant Application via ZCG"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

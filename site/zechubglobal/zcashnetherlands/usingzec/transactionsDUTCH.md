@@ -32,6 +32,6 @@ Transparante transacties hebben in het verleden voor verwarring gezorgd rond ZEC
 
 #### Opmerking
 
-Houd er rekening mee dat de veiligste manier om ZEC te gebruiken, is door alleen afgeschermde transacties te gebruiken. Sommige portefeuilles zijn bezig met het implementeren van [unified addressen](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,binnen%20het%20bredere%20Zcash%20ecosysteem.) waarmee gebruikers en uitwisselingen transparante en afgeschermde adressen kunnen combineren.
+Houd er rekening mee dat de veiligste manier om ZEC te gebruiken, is door alleen afgeschermde transacties te gebruiken. Sommige portefeuilles zijn bezig met het implementeren van [unified addressen](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,binnen%20het%20bredere%20Zcash%20ecosysteem.) waarmee gebruikers en uitwisselingen transparante en afgeschermde adressen kunnen combineren.
 
 

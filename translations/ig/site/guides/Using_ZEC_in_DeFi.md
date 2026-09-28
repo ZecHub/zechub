@@ -15,14 +15,14 @@ Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) 
     src="https://www.youtube.com/embed/mKVvXY4yjjA"
     title="Crosschain Swaps with Zcash x NEAR Intents"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
 ---
 
-## Nkwekọrịta Maya 
+## Maya Protocol 
 
 Maya Protocol has integrated Zcash to enhance its decentralization, liquidity, and transaction privacy. This integration allows Zcash users to benefit from decentralized swaps, giving them greater flexibility and liquidity while preserving privacy. Learn More: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
 
@@ -33,7 +33,7 @@ Maya Protocol has integrated Zcash to enhance its decentralization, liquidity, a
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
     title="How to Swap Ethereum to Zcash on LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

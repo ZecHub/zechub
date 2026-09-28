@@ -1,4 +1,4 @@
-# Penumbra ƒe agbalẽ 
+# Penumbra 
 
 Penumbra li be wòanye layer-1 network si le ŋgɔ yim, si ŋu wokpɔ ta na bliboe, si le ho ʋlim le Cosmos ƒe lãwo ƒe agbenɔnɔ me. Enaa ezãlawo te ŋu wɔa asitsadɔ dedie, tsɔa dzesiwo dea afɔku me eye woɖɔlia wo, eye wowɔa asitsatsa evɔ womeɖea woƒe metadata ɖe go le kɔsɔkɔsɔa dzi o. Abe blockchain si wokpɔ ta na bliboe ene la, enaa asitsatsa siwo wokpɔ ta na hã le web dzi evɔ megblẽa nu le ame ŋutɔ ƒe nyawo alo decentralization ŋu o — Penumbra ƒe adzamenyawo le gɔmedzedzea me, eye asitsatsa siwo me kɔ alo asixɔxɔ ƒe ƒuƒoƒo si me kɔ mele o.
 

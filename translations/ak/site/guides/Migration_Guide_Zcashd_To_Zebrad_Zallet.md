@@ -141,7 +141,7 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 
 **Nea ɛnyɛ nea ɛba.** Wɔde akontaabu na ɛbɔ eyinom ho amanneɛ sen sɛ wɔde bɛba amannɔne:
 
-* **Sprout sika a wɔsɛe no safe ne sika.** Zallet ntumi mmoa Sprout pool no. Ɔkwan a wɔakyerɛw ato hɔ ne sɛ wɔde zcashd bɛtu Sprout sika afiri mu ansa na wɔakɔ pɛnhyen, na ɛno ntumi nyɛ yie bio. Sɛ eyi ka wo a, bisa wɔ... [Zcash R&D Nkitahodi](https://discord.gg/xpzPR53xtU) anaasɛ nea [mpɔtam hɔfo nhyiam](https://forum.zcashcommunity.com/) ansa na wayɛ biribi foforo biara.
+* **Sprout sika a wɔsɛe no safe ne sika.** Zallet ntumi mmoa Sprout pool no. Ɔkwan a wɔakyerɛw ato hɔ ne sɛ wɔde zcashd bɛtu Sprout sika afiri mu ansa na wɔakɔ pɛnhyen, na ɛno ntumi nyɛ yie bio. Sɛ eyi ka wo a, bisa wɔ... [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) anaasɛ nea [mpɔtam hɔfo nhyiam](https://forum.zcashcommunity.com/) ansa na wayɛ biribi foforo biara.
 * Address nhoma mu nsɛm a wɔakyerɛw
 * Watch-only entries a wɔde asie a public key anaa redeem script nni mu, ne nsɛm a wɔde public keys a wɔanhyɛ no den
 * Regtest sika kotoku ahorow

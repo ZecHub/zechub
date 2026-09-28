@@ -441,7 +441,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 다음 중 하나를 사용할 수 있습니다:
 
-* `https://lightwalletd.zcash-infra.com` 같은 **공개 노드**
+* `https://zec.rocks:443` 같은 **공개 노드**
 * BTCPay Server와 별도로 배포한 자체 호스팅 노드
 
 > 외부 `lightwalletd`가 사용할 수 없거나 과부하 상태가 되면 차폐 결제가 실패합니다.

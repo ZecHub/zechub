@@ -29,7 +29,7 @@ We have seen too many projects over-promise and under deliver on their NFT roadm
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
     title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -63,6 +63,6 @@ Bẹ́ẹ̀ ni, àwọn èèyàn ya àkójọ ìwé náà lápá kan. Ọjọ́ iw�
 
 [Cypherpunk Zero DAO Twitter Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:](https://twitter.com/CypherpunkDAO)
 
-[Cypherpunk Zero DAO Ìdààmú](https://discord.com/invite/sjfgXys4Jf)
+[Discord Cypherpunk Zero DAO](https://discord.com/invite/sjfgXys4Jf)
 
 [Ìsọ̀rọ̀ Ọ̀hún Ńlá NFT Cypherpunk Zero](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

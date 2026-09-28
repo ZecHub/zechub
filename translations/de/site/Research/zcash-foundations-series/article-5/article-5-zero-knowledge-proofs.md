@@ -131,14 +131,14 @@ Zero-Knowledge-Proofs sind ein tiefes Feld, und wir sind bewusst auf der Ebene d
 
 | Begriff | Bedeutung in einfachem Englisch |
 |---|---|
-| **Zero-Knowledge-Proof** | Jemanden davon überzeugen, dass eine Aussage wahr ist, ohne irgendetwas anderes preiszugeben |
+| **Zero-knowledge proof** | Jemanden davon überzeugen, dass eine Aussage wahr ist, ohne irgendetwas anderes preiszugeben |
 | **Prover / Verifier** | Derjenige, der den Beweis erstellt / derjenige, der ihn prüft |
-| **Vollständigkeit** | Wahre Aussagen werden immer akzeptiert (von einem ehrlichen Beweiser) |
-| **Korrektheit** | Falsche Aussagen werden abgelehnt (Betrüger können nur mit Glück gewinnen) |
+| **Completeness** | Wahre Aussagen werden immer akzeptiert (von einem ehrlichen Beweiser) |
+| **Soundness** | Falsche Aussagen werden abgelehnt (Betrüger können nur mit Glück gewinnen) |
 | **Witness** | Die geheimen Eingaben, die die Aussage wahr machen |
-| **Arithmetischer Schaltkreis** | Eine Aussage, umgeschrieben als Additionen und Multiplikationen über einem endlichen Körper |
-| **Nicht-interaktiv (Fiat-Shamir)** | Ein einmaliger Beweis ohne live Hin und Her |
-| **Knapp** | Der Beweis ist winzig und schnell verifizierbar, unabhängig von der Größe der Aussage |
+| **Arithmetic circuit** | Eine Aussage, umgeschrieben als Additionen und Multiplikationen über einem endlichen Körper |
+| **Non-interactive (Fiat-Shamir)** | Ein einmaliger Beweis ohne live Hin und Her |
+| **Succinct** | Der Beweis ist winzig und schnell verifizierbar, unabhängig von der Größe der Aussage |
 | **zk-SNARK** | Zero-Knowledge Succinct Non-interactive ARgument of Knowledge |
 | **Trusted setup / toxic waste** | Einmalige Parametererzeugung, deren verbleibendes Geheimnis vernichtet werden muss |
 

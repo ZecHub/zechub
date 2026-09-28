@@ -13,7 +13,7 @@ Awọn gbolohun isọdọtun ni a ṣalaye nipasẹ awọn alaye ** BIP-39 **, i
 
 Ṣiṣẹda awọn gbolohun ọrọ imularada bẹrẹ nipasẹ ipilẹṣẹ ** randomness **. Entropy diẹ sii tumọ si aabo ti o ga julọ. ** 128 bits ** ti entropy ni a kà pe o to fun ọpọlọpọ awọn olumulo.
 
-[Ìtumọ̀ ọ̀rọ̀ ìkókó](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Ìtumọ̀ ọ̀rọ̀ ìkókó](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
 Ti o da lori ipari ti entropy akọkọ, ọrọ imularada yoo jẹ ** 12 si 24 ọrọ ** gun.
 
@@ -39,7 +39,7 @@ Awọn akojọ ọrọ BIP-39 ni deede awọn ọrọ ** 2048 ** (Gẹẹsi, Spa
 
 A máa ń lo àwọn nọ́ńbà yìí láti wá ọ̀rọ̀ tó bá a mu nínú ìtòlẹ́sẹẹsẹ ọ̀rọ.
 
-[Àpẹẹrẹ àwòrán ọ̀rọ̀](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![Àpẹẹrẹ àwòrán ọ̀rọ̀](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
 
 Àbájáde: A ní ọ̀rọ̀ ìmúpadàbọ̀ tí ó ní ọ̀rọ̀ méjìlá tí ó ṣeé kà fún ènìyàn!
 
@@ -59,7 +59,7 @@ A ṣe àdàkọ àpò-ìpamọ́ láti inú gbólóhùn mnemonic náà nípa l�
 
 Eyi n ṣe agbejade irugbin ** 64-byte (512-bit) **.
 
-[Irú-ọmọ sí àwọn kókó pàtàkì](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![Irú-ọmọ sí àwọn kókó pàtàkì](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
 ### Àwọn Kọ́kọ́rọ́
 A pín àgbékalẹ̀ náà sí ìpele méjì tí ó jẹ́ 32 byte:

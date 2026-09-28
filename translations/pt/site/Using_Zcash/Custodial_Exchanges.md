@@ -125,13 +125,13 @@ ___
 - Ironwood: Não aplicável, apenas endereços transparentes
 ___
 
-## [OKEx](https://okex.com)
+## [OKX (anteriormente OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- Website: [OKEx](https://okex.com)
+- Website: [OKX](https://www.okx.com)
 - Pares: TODOS/ZEC
 - Suporta: Transparente
 - Tempo de depósito: 25 minutos 

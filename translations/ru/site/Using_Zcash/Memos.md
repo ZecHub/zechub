@@ -22,6 +22,14 @@ Memo в первую очередь используются для подпис
 
 #### Продвинутый уровень
 
+> **Историческая справка. Эта демонстрация в описанном виде больше не работает.**
+>
+> Демонстрация ниже использует zcashd, а её [скрипт получения](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) читает мемо через `zcash-cli`. zcashd достиг автоматической остановки End-of-Support 18 июля 2026 года, поэтому этот скрипт не может подключиться к работающему узлу, и он не был перенесён.
+>
+> Чтение защищённых мемо из командной строки по-прежнему работает в Zallet: `zallet rpc z_listunspent` возвращает каждую полученную защищённую ноту с тем же полем `memoStr`, которое читает скрипт. Команда описана в [кратком справочнике по Zallet](/using-zcash/zallet-quick-reference-guide), а о переводе узла с zcashd рассказано в [руководстве по миграции на Zebra и Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet). Zallet всё ещё находится в стадии бета-тестирования.
+>
+> Этот раздел сохранён как историческая запись демонстрации Magic-Wormhole.
+
 Вот как использовать Shielded Memo в Zcash вместе с Magic-Wormhole CLI и zcashd, чтобы безопасно отправлять файлы с одного компьютера на другой!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

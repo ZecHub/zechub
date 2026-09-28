@@ -16,12 +16,12 @@ Zaino joko laarin Zebra ati software onibara. Zebra ni awọn ifọkanbalẹ nod
 
 Ìyàtọ̀ yìí máa ń jẹ́ kí àwọn ojúṣe náà ṣe kedere:
 
-Àwọn ohun tó wà nínú rẹ̀. Ipa tí ó kó.
+| Ẹ̀yà ara | Ipa |
 |:--|:--|
-Zebra. Gbogbo ìsopọ̀ àti olùṣe ìdánilójú (validator)
-Zaino: Àkọsílẹ̀ àti iṣẹ́ API tí ó dojú kọ oníṣe.
-| Zallet | Wallet service |
- lightwalletd. Olùgbéejáde àpò owó tí ó ti pẹ́ tí Zaino ṣe láti rọpo tàbí ṣàfikún síi
+| Zebra | Kúndé àti olùfìdí múlẹ̀ |
+| Zaino | Iṣẹ́ API tí ń tọ́ka sí àtọ́ka àti ti olùbáṣepọ̀ |
+| Zallet | Iṣẹ́ àpò owó |
+| lightwalletd | olupin apamọwọ ina atijọ ti Zaino ṣe apẹrẹ lati rọpo tabi ṣe afikun |
 
 Zaino provides functionality for light clients, full clients or wallets, and block explorers. It gives access to the finalized chain, the non-finalized best chain, and mempool data held by Zebra.
 

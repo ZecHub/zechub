@@ -35,11 +35,11 @@ ZecHub is a community-driven project that aims to provide support and resources 
 
 These are the types of contribution that ZecHub currently accepts:
 
-### Zcash tutorials (video) - up to 1.5 ZEC per tutorial
+### Zcash tutorials (video) - up to 0.12 ZEC per tutorial
 
 Create and share tutorials on Zcash apps and get rewarded. Example tutorial [here](https://www.youtube.com/watch?v=Mgm_nK3gr7U&list=PL6_epn0lASLGc_YALzxbMH0-dNyhFufus&index=7). Submit PR to zechub/tutorials or send video to #video-content channel in Discord. If video meets our criteria, we’ll post it and tip you :smile:
 
-### ZecHub Wiki - up to 1 ZEC per new page published
+### ZecHub Wiki - up to 0.04 ZEC per new page published
 
 Our wiki-docs page provides Zcash education materials in an easy and digestible format. Zcash is a very advanced technology with a vibrant community, so there's still more documentation we need to build. Our goal is to build documentation on:
 

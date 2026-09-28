@@ -441,7 +441,7 @@ Add the following line, replacing the URL with your chosen endpoint:
 
 You can use:
 
-* A **public node**, such as `https://lightwalletd.zcash-infra.com`
+* A **public node**, such as `https://zec.rocks:443`
 * Your own self-hosted node, deployed separately from BTCPay Server
 
 > If the external `lightwalletd` becomes unavailable or overloaded, shielded payments will fail.

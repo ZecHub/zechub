@@ -11,14 +11,14 @@ The stack changed a great deal in 2026. zcashd, which ran the network for most o
 
 ## Mkusanyiko kwa mtazamo mmoja tu
 
- Tabaka  Nini cha kutumia  Anza na 
+| Safu | Cha kutumia | Anza na |
 |:--|:--|:--|
-Kondoo kamili. Zebra au Zakura. [Kitabu cha Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
-Zawadi ya kifungo kamili Zallet, katika beta. [Kitabu cha Zallet](https://zcash.github.io/zallet/) |
-Light wallet server Zaino au lightwalletd. [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Wallet libraries | The librustzcash crates | [librustzcash](https://github.com/zcash/librustzcash) |
-Simu ya mkononi. Android na iOS SDKs. [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
-☐ Ufafanuzi wa taratibu na ZIPs. [zip.z. fedha taslimu](https://zips.z.cash) |
+| Nodi kamili | Zebra au Zakura | [Kitabu cha Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
+| Pochi kamili ya nodi | Zallet, katika beta | [Kitabu Zallet](https://zcash.github.io/zallet/) |
+| Seva nyepesi ya pochi | Zaino au lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Maktaba za pochi | Masanduku librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
+| Simu ya Mkononi | SDK za Android na iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
+| Vipimo | Vipimo vya itifaki na ZIP | [zips.z.cash](https://zips.z.cash) |
 
 ## Nodes (viungo)
 
@@ -50,17 +50,17 @@ Makala ya kwanza. [Mwanga Client Itifaki](https://zcash.readthedocs.io/en/latest
 
 Kazi zaidi mkoba hutokea katika makontena Rust chini ya [librustzcash](https://github.com/zcash/librustzcash), ambayo SDKs mkononi na pochi kadhaa desktop kujenga juu. Kila crate ni kumbukumbu kwenye [docs.rs](https://docs.rs).
 
-Sanduku. Ni kwa ajili ya nini?
+| Kreti | Ni kwa ajili ya nini |
 |:--|:--|
- zcash_client_backend "APIs kwa ajili ya kujenga walinzi Zcash mwanga wateja", ikiwa ni pamoja na usawazishaji na shughuli ujenzi"
-zcash_client_sqlite. "msingi SQLite-Zcash mwanga mteja", kuhifadhi safu kwa ajili ya hapo juu".
- zcash_keys "Usimamizi wa ufunguo na anwani ya Zcash"
- zcash_primitives "Utekelezaji wa kutu ya Zcash primitives"
- zcash_protocol "Zcash itifaki mtandao constants na aina thamani"
-"Protocol ya shughuli iliyohifadhiwa na Orchard".
-"Maktaba ya Cryptographic kwa Zcash Sapling".
-│ pczt "Zana za kufanya kazi na shughuli Zcash sehemu-kuundwa", kutumika kwa ajili ya vifaa vya na multi-kifaa kusaini.
-DATA: zip321. Maombi ya malipo URI, kama ilivyoainishwa katika ZIP 321.
+| zcash_client_backend | "API za kuunda wateja wa mwanga Zcash waliolindwa", ikiwa ni pamoja na usawazishaji na ujenzi wa miamala |
+| zcash_client_sqlite | "Kiteja cha mwanga Zcash kinachotegemea SQLite", safu ya hifadhi ya hapo juu |
+| zcash_keys | "Zcash na anwani" |
+| zcash_primitives | "Utekelezaji wa kutu wa vifaa vya awali Zcash " |
+| zcash_protocol | "Zcash na aina za thamani" |
+| orchard | "Itifaki ya miamala iliyolindwa na Orchard " |
+| sapling-crypto | "Maktaba ya kriptografia kwa ajili ya Zcash Sapling" |
+| pczt | "Zana za kufanya kazi na miamala ya Zcash iliyotengenezwa kwa sehemu", inayotumika kwa ajili ya vifaa na utiaji saini wa vifaa vingi |
+| zip321 | URI za ombi la malipo, kama ilivyoainishwa katika ZIP 321 |
 
 Kwa simu, the [Android SDK](https://github.com/zcash/zcash-android-wallet-sdk) na ya [iOS SDK](https://github.com/zcash/zcash-swift-wallet-sdk) kumbukumbu iOS awali aliitwa ZcashLightClientKit, hivyo viungo zamani na makala kutumia jina hilo.
 

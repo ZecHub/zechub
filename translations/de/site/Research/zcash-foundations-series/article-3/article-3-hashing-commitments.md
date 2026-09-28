@@ -142,14 +142,14 @@ Wir haben vereinfacht, um die Dinge klar zu halten. Echte Commitment-Schemata le
 
 | Begriff | Bedeutung in einfachem Englisch |
 |---|---|
-| **Hash-Funktion** | Presst beliebige Daten in einen kurzen Fingerabdruck fester Größe (Digest) |
+| **Hash function** | Presst beliebige Daten in einen kurzen Fingerabdruck fester Größe (Digest) |
 | **Digest** | Der ausgegebene Fingerabdruck einer Hash-Funktion |
 | **Preimage resistance** | Man kann einen Digest nicht zurück zu seiner Eingabe umkehren (Einwegfunktion) |
-| **Kollisionsresistenz** | Man kann nicht zwei Eingaben mit demselben Digest finden |
-| **Avalanche-Effekt** | Eine winzige Änderung der Eingabe verändert den Digest vollständig |
+| **Collision resistance** | Man kann nicht zwei Eingaben mit demselben Digest finden |
+| **Avalanche effect** | Eine winzige Änderung der Eingabe verändert den Digest vollständig |
 | **Commitment** | Einen Wert jetzt festlegen, später offenlegen, ohne darüber lügen zu können |
-| **Blinding-Faktor (`r`)** | Die frische Zufallszahl, die ein Commitment verbergen lässt |
-| **ZK-freundlicher Hash** | Ein Hash, der aus Körperarithmetik aufgebaut ist und daher günstig zu beweisen ist |
+| **Blinding factor (`r`)** | Die frische Zufallszahl, die ein Commitment verbergen lässt |
+| **ZK-friendly hash** | Ein Hash, der aus Körperarithmetik aufgebaut ist und daher günstig zu beweisen ist |
 
 ---
 

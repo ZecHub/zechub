@@ -33,14 +33,14 @@ Bir cüzdan geliştiricisi, yazılımını bir Testnet RPC uç noktasına bağla
 
 #### 2. Ağ Yükseltmelerini Test Etme
 
-Zcash, temel protokolünü periyodik olarak yükseltir (ör. Nu5, Nu6). Testnet, yeni yükseltmeleri **Mainnet'ten önce** etkinleştirir; böylece geliştiriciler ve topluluk hataları tespit edip düzeltebilir.
+Zcash, temel protokolünü periyodik olarak yükseltir (ör. NU6.1, NU6.2 ve Ironwood). Testnet, yeni yükseltmeleri **Mainnet'ten önce** etkinleştirir; böylece geliştiriciler ve topluluk hataları tespit edip düzeltebilir.
 
 **Örnek:**  
 Yeni bir konsensüs kuralı veya işlem türü önce Testnet'e uygulanır. Başarılı testlerden sonra, önceden belirlenmiş bir blok yüksekliğinde Mainnet'te etkinleşir.
 
 #### 3. Node Uygulamalarını Test Etme
 
-Zcash, birden fazla node yazılımı uygulamasını destekler - `zcashd` ve **Zebra** (Zcash Foundation tarafından sürdürülen Rust tabanlı node). Testnet, finansal risk olmadan node'ların gerçek koşullarda test edilmesini sağlar.  
+Zcash'in bakımı yapılan düğümü **Zebra**'dır (Zcash Foundation tarafından sürdürülen Rust tabanlı düğüm) ve bakımı yapılan cüzdan [Zallet](https://github.com/zcash/zallet)'tir. Orijinal düğüm uygulaması `zcashd`, 18 Temmuz 2026'da otomatik destek sonu durmasına ulaştı ve artık bakımı yapılmamaktadır - [zcashd'den Zebra ve Zallet'e geçiş kılavuzuna](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) bakın. Testnet, finansal risk olmadan gerçek koşullarda düğümlerin test edilmesini sağlar.
 
 Node geliştiricileri şunları yapabilir:
 
@@ -130,10 +130,10 @@ Bir **faucet**, test için ücretsiz TAZ coin veren bir hizmettir:
 - TAZ'ı manuel olarak kazma gerekliliğini ortadan kaldırır  
 
 **Örnek:**  
-1. Bir Testnet faucet'ini ziyaret edin (ör. [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
+1. Bir Testnet faucet'ini ziyaret edin (ör. [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
 2. Testnet adresinizi girin  
 3. TAZ talep edin  
-4. Teste başlamak için TAZ'ı anında alın  
+4. Teste başlamak için TAZ'ı anında alın
 
 **Neden önemlidir:**  
 - ZEC'i riske atmadan güvenli test  

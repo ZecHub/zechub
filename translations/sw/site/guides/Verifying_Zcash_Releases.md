@@ -45,12 +45,12 @@ Hiyo hatua ya mwisho ni moja viongozi wengi ruka. ** Ambapo kupata muhimu mambo 
 
 Zebra kuchapisha mali hizi kwa kila kutolewa:
 
-Mali. Kusudi.
+| Mali | Kusudi |
 |---|---|
-| `zebrad-<version>-<arch>.tar.gz` -- faili ya binary.
-| `zebrad-<version>-<arch>.tar.gz.sha256` Jumla ya ukaguzi kwa kila faili.
-| `SHA256SUMS` Checksums kwa ajili ya usanifu wote.
-| `SHA256SUMS.sigstore.json` ◯ Sigstore mfuko wa kusaini `SHA256SUMS` |
+| `zebrad-<version>-<arch>.tar.gz` | kumbukumbu ya jozi |
+| `zebrad-<version>-<arch>.tar.gz.sha256` | ukaguzi wa kila faili |
+| `SHA256SUMS` | checksums kwa usanifu wote |
+| `SHA256SUMS.sigstore.json` | Usaini wa kifurushi cha Sigstore `SHA256SUMS` |
 
 ### Hatua ya 1  Pakua
 
@@ -174,15 +174,15 @@ X509v3 Subject Alternative Name: critical
 
 Subject jina mbadala ni utambulisho. Inaita hazina, faili halisi ya mtiririko wa kazi na tag. Sigstore inajumuisha zaidi kujenga metadata katika upanuzi desturi:
 
-Shamba. Thamani kwa ajili ya v6.3.0
+| Field | Thamani ya v6.3.0 |
 |---|---|
-Mtangazaji wa OIDC. `https://token.actions.githubusercontent.com` |
-Hifadhi ya chanzo. `https://github.com/ZcashFoundation/zebra` |
-Jenga ahadi. `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
-Hakimu. `refs/tags/v6.3.0` |
-Mazingira ya Runner. `github-hosted` |
-Mwendo wa kazi. `.../actions/runs/31424510487/attempts/1` |
-Uwazi wa hifadhi. `public` |
+| OIDC issuer | `https://token.actions.githubusercontent.com` |
+| Source repository | `https://github.com/ZcashFoundation/zebra` |
+| Build commit | `f5c5277fe41eba9c74f37098738f93f35dd70d60` |
+| Ref | `refs/tags/v6.3.0` |
+| Runner environment | `github-hosted` |
+| Workflow run | `.../actions/runs/31424510487/attempts/1` |
+| Repository visibility | `public` |
 
 Kila moja ya haya ni checkable. commit hash lazima mechi tag katika hazina; kazi mtiririko kukimbia lazima kuwepo na kuwa umma.
 
@@ -217,11 +217,11 @@ local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 
 kifungu hubeba Rekor kuingia kuthibitisha saini ilichapishwa kwa umma, kiambatisho tu logi:
 
-Shamba. Thamani.
+| Field | Thamani |
 |---|---|
-Rekodi ya kumbukumbu index. `2412071838` |
-Aina ya kuingia. `hashedrekord v0.0.1` |
-Imeunganishwa katika 2026-08-10 19:43:09 UTC.
+| Rekor log index | `2412071838` |
+| Entry type | `hashedrekord v0.0.1` |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
 Hii ni nini hufanya kimya muhimu matumizi mabaya detectable. saini kwamba kamwe alionekana katika kumbukumbu, au ilionekana wakati implausible, ni ishara ya thamani kutenda juu ya. kulinganisha muda wa ushirikiano dhidi kutolewa tangazo.
 
@@ -233,13 +233,13 @@ Hii ni nini hufanya kimya muhimu matumizi mabaya detectable. saini kwamba kamwe 
 
 Zallet kuchapisha seti tofauti ya mali:
 
-Mali. Kusudi.
+| Mali | Kusudi |
 |---|---|
-| `zallet-<version>-<platform>.tar.gz` -- faili ya binary.
-| `.tar.gz.asc` Saini ya GPG iliyojitenga.
-| `.tar.gz.intoto.jsonl` Uthibitisho wa asili ya SLSA.
-| `.tar.gz.provenance.json` Metadata ya chanzo.
-| `.tar.gz.sbom.spdx` Mpango wa vifaa vya programu.
+| `zallet-<version>-<platform>.tar.gz` | kumbukumbu ya jozi |
+| `.tar.gz.asc` | Saini ya GPG iliyotenganishwa |
+| `.tar.gz.intoto.jsonl` | Uthibitisho wa asili ya SLSA |
+| `.tar.gz.provenance.json` | metadata ya asili |
+| `.tar.gz.sbom.spdx` | bili ya vifaa vya programu |
 
 ### Hatua ya 1  Tambua ufunguo wa kutia sahihi kabla hujautafuta
 
@@ -330,12 +330,12 @@ Utaona onyo hili juu ya karibu kila uthibitisho isipokuwa wewe wazi saini muhimu
 
 Zcash release signing moved from Electric Coin Company to Zcash Open Development Lab in 2026, after ZODL was formed in January 2026 by the former ECC engineering and product team.
 
-Ufunguo wa zamani. Funguo mpya.
+| | Ufunguo wa zamani | Ufunguo mpya |
 |---|---|---|
-Ishara ya vidole. `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
-UID Zcash Master Saini muhimu (ECC) `<sysadmin@z.cash>` Zcash Open Maendeleo Lab (ZODL) `<sysadmin@zodl.com>` |
-Aina: RSA 3072-bit, iliyoundwa 2023-06-19 RSA 4096-bit, iliyoundwa 2026-03-23, itaisha tarehe 22/03/2028.
-Imechapishwa katika: `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
+| Alama ya vidole | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
+| UID | Ufunguo Mkuu wa Kusaini wa Zcash (ECC) `<sysadmin@z.cash>` | Maabara Huria ya Maendeleo ya Zcash (ZODL) `<sysadmin@zodl.com>` |
+| Aina | RSA 3072-bit, iliyoundwa 2023-06-19 | RSA 4096-bit, iliyoundwa 2026-03-23, inaisha 2028-03-22 |
+| Imechapishwa katika | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
 Imechapishwa ratiba ya muda: ufunguo mpya uliotengenezwa 2026-03-23, ilitangazwa 20 26-03-27, saini pekee kutoka 2026- 04-23, kufutwa kwa kifungo cha zamani cha ECC iliyopangwa 2026- 06-23.
 
@@ -425,12 +425,12 @@ Kushindwa kwa saini ni mbaya zaidi kuliko kushindwa kwa checksum. Ukosefu wa usa
 
 ## Sehemu ya 4  Jedwali la kumbukumbu
 
-Mradi  releases kuchapishwa katika Method ambapo ufunguo linatokana na
+| Mradi | Matoleo yaliyochapishwa katika | Method | Ufunguo unatoka wapi |
 |---|---|---|---|
-"Kikundi cha Zebra" `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore kifungu. Hakuna ufunguo  CI utambulisho kupitia GitHub OIDC
-"Zallet" katika Kiingereza. `github.com/zcash/zallet/releases` GPG iliyojitenga. `.asc`, SLSA asili, SBOM. `apt.z.cash/zodl.asc`  msingi `0338 34DD…58E2 6AB1`, kusaini subkey `1FE9 9324…23F0 617F` |
-** zcashd**  * retired* . Imesimamishwa katika block 3,417,100 tarehe 2026-07-18. Usiwekeze.
-♬ ** Zodl** (zamani Zashi) App Store / Google Play; `zodl-inc` kwenye GitHub  kuhifadhi saini; kujitegemea Android binaries GPG-saini ZODL ufunguo kwa taarifa ya mpito
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Hakuna ufunguo — utambulisho wa CI kupitia GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — msingi `0338 34DD…58E2 6AB1`, ufunguo mdogo wa kusaini `1FE9 9324…23F0 617F` |
+| **zcashd** | *mstaafu* | — | Imesimamishwa kwenye kitalu namba 3,417,100 mnamo 2026-07-18. Usisakinishe. |
+| **Zodl** (zamani Zashi) | Duka la Programu / Google Play; `zodl-inc` kwenye GitHub | Store signing; standalone Android binaries GPG-signed | Taarifa ya ufunguo wa ZODL kwa kila mpito |
 
 > ** Nukuu ya jina: Zashi ilibadilishwa kuwa *Zodl** mnamo 2026  kwanza kwenye Duka la App, kisha kwenye Google Play. Miongozo ya zamani inayotaja "Zashi" inaelezea nasaba sawa ya mkoba.
 

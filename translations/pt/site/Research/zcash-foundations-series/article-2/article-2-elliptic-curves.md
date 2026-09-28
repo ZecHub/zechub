@@ -185,13 +185,13 @@ Algumas simplificações mantiveram isto legível. Usamos a forma **short Weiers
 
 | Termo | Significado em linguagem simples |
 |---|---|
-| **Curva elíptica** | Pontos que satisfazem `y^2 = x^3 + ax + b`, com uma "soma" especial de pontos |
-| **Soma de pontos** | A regra da corda e tangente: linha através de dois pontos, pega a terceira interseção, reflete |
-| **Ponto no infinito (`O`)** | O "zero" da curva; somá-lo não muda nada |
-| **Gerador (`G`)** | Um ponto base cujos múltiplos acabam cobrindo o grupo inteiro |
-| **Multiplicação escalar (`kG`)** | Somar `G` a si mesmo `k` vezes; fácil para frente, difícil de reverter |
+| **Elliptic curve** | Pontos que satisfazem `y^2 = x^3 + ax + b`, com uma "soma" especial de pontos |
+| **Point addition** | A regra da corda e tangente: linha através de dois pontos, pega a terceira interseção, reflete |
+| **Point at infinity (`O`)** | O "zero" da curva; somá-lo não muda nada |
+| **Generator (`G`)** | Um ponto base cujos múltiplos acabam cobrindo o grupo inteiro |
+| **Scalar multiplication (`kG`)** | Somar `G` a si mesmo `k` vezes; fácil para frente, difícil de reverter |
 | **ECDLP** | O problema difícil de recuperar `k` a partir de `kG`; a base da segurança |
-| **Compromisso de Pedersen** | `v.G + r.H`; um envelope lacrado que oculta, vincula e se soma |
+| **Pedersen commitment** | `v.G + r.H`; um envelope lacrado que oculta, vincula e se soma |
 
 ---
 

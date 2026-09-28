@@ -20,7 +20,7 @@ Wɔyɛɛ no ​​wɔ Ɔkyena Tete Nneɛma Akorae a ɛyɛ nwonwa no, na ɛhyɛɛ
     src="https://www.youtube.com/embed/videoseries?si=9FVjor70RRnNKOSs&amp;list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf"
     title="Zcon  Vozes Brasil"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -40,7 +40,7 @@ Zcon Vozes botae ne sɛ ɛbɛma mfiridwuma ho nimdeɛ, gua so nhumu, ne nhomasua
     src="https://www.youtube.com/embed/videoseries?si=PYJQbHyhQCgHncp7&amp;list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz"
     title="Zcon2 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

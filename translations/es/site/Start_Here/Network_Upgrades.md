@@ -6,7 +6,7 @@ Para la historia visual de cómo ha evolucionado la privacidad de Zcash a lo lar
 
 | Actualización | Activación (UTC) | Bloque | Id de rama | Qué cambió |
 |---|---|---|---|---|
-| [Sprout](../zcash-tech/sprout) | 28 de octubre de 2016 | génesis | 00000000 | El lanzamiento: el primer pool blindado y las transacciones privadas con ZK-SNARK |
+| [Sprout](../zcash-tech/sprout) | 28 de octubre de 2016 | génesis | 00000000 | El lanzamiento: el primer pool blindado y las transacciones privadas con zk-SNARK |
 | [Overwinter](../zcash-tech/overwinter) | 26 de junio de 2018 | 347,500 | 5ba81b19 | Protección contra replay, versionado de transacciones y expiración, para que las actualizaciones seguras fueran posibles |
 | [Sapling](../zcash-tech/sapling) | 29 de octubre de 2018 | 419,200 | 76b809bb | Transacciones blindadas eficientes, lo bastante rápidas para teléfonos y hardware wallets |
 | [Blossom](../zcash-tech/blossom) | 11 de diciembre de 2019 | 653,600 | 2bb40e60 | Bloques más rápidos, de unos 75 segundos, y mayor rendimiento |

@@ -8,7 +8,7 @@ Sɛ wopɛ nantew a edi mũ ne nkyerɛkyerɛmu a wɔde aniwa hu a, hwɛ [**YouTub
     src="https://www.youtube.com/embed/UJh9Ilkohdw"
     title="How to use ZEC on Metamask"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -19,7 +19,7 @@ Abbiate fiducia che abbiamo in serbo alcuni vantaggi incredibili ed esclusivi pe
 
 ## Governance
 
-  * [Snapshot](https://vote.cypherpunkzero.com/)
+  * [Snapshot](https://web.archive.org/web/20260116122729/https://vote.cypherpunkzero.com/)
 
   * [Guild](https://guild.xyz/cypherpunkzerodao)
 

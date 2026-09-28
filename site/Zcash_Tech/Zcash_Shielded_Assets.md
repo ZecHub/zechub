@@ -81,7 +81,7 @@ Every asset gets a unique **Asset Identifier**, derived from the issuer's issuan
 
 **Run the demo for yourself!**
 
-Clone the zcash-tx-tool repository: <https://github.com/QED-it/zcash_tx_tool>
+Clone the zcash-tx-tool repository: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash Improvement Proposals (ZIPs)
 

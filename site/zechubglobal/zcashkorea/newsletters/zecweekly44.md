@@ -20,7 +20,7 @@ Zcash 생태계 내에서 발생한 최신 사건을 자세히 살펴보고 ECC�
 
 이번 주 교육 기사에서는 IPFS(InterPlanetary File System)라는 도구를 통해 인터넷에서 파일을 저장하고 공유하는 데 사용할 수 있는 분산형 시스템에 대해 배울 것입니다. 이 튜토리얼에서는 웹 사이트를 IPFS에 게시하여 웹 사이트에서 완전한 분산 프로세스를 활성화하는 방법에 대해서도 알아봅니다. 
 
-IPFS에 대해 자세히 알아보기 [here](https://wiki.zechub.xyz/zfav/guides/pub-a-site-on-ipfs)
+IPFS에 대해 자세히 알아보기 [here](https://zechub.wiki/zfav/guides/pub-a-site-on-ipfs)
 
 
 ## Zcash 업데이트

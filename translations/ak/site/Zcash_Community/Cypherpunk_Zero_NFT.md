@@ -29,7 +29,7 @@ Yɛahu sɛ nnwuma pii ahyɛ bɔ dodo na wɔmfa wɔn NFT akwan ho nhyehyɛe no mm
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
     title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -63,6 +63,6 @@ Yiw mfitiase collection no nyaa hacked, daakye no yɛ nea wɔankyerɛw.
 
 [Cypherpunk Zero DAO na ɛyɛ adwuma wɔ Twitter so](https://twitter.com/CypherpunkDAO)
 
-[Cypherpunk Zero DAO Nkitahodi](https://discord.com/invite/sjfgXys4Jf)
+[Cypherpunk Zero DAO Discord](https://discord.com/invite/sjfgXys4Jf)
 
 [Cypherpunk Zero NFT Mega Nhama a Wɔde Yɛ Adwuma](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

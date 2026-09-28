@@ -112,13 +112,13 @@ sudo systemctl daemon-reload
 
 ## Ojiji kwa ụbọchị - Single-Command Workflow
 
-Omume. Iwu. Ihe edeturu.
+| Ihe omume                  | Iwu                                      | Ihe ndetu |
 |-------------------------|----------------------------------------------|-------|
-** Malite ** `sudo systemctl start zebrad` Otu iwu.
-** Kwụsị ** `sudo systemctl stop zebrad` Otu iwu.
-** Ọnọdụ ** `sudo systemctl status zebrad` Na-egosi ma ọ na-agba ọsọ.
-** Ihe ndekọ ndụ ** `journalctl -u zebrad -f -o short-precise` Na-anọchi anya `screen -r` |
-**Nweta kuki RPC** `sudo cat /var/lib/zebrad/.cookie` Naanị mgbe ị na-agba ọsọ.
+| **Malite**               | `sudo systemctl start zebrad`                | Otu iwu |
+| **Kwụsị**                | `sudo systemctl stop zebrad`                 | Otu iwu |
+| **Ọnọdụ**              | `sudo systemctl status zebrad`               | Na-egosi ma ọ bụrụ na ọ na-agba ọsọ |
+| **Ndekọ ndụ**           | `journalctl -u zebrad -f -o short-precise`  | Na-anọchi `screen -r` |
+| **Nweta kuki RPC**      | `sudo cat /var/lib/zebrad/.cookie`           | Naanị mgbe ị na-agba ọsọ |
 
 **Ebe dị mma aha** (tinye na `~/.bashrc` or `~/.zshrc`):
 ```

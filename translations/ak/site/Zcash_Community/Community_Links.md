@@ -49,8 +49,8 @@ Zcash wɔ wiase nyinaa a ɛyɛ nnam wɔ X. Akontaabu atitiriw a ɛsɛ sɛ wudi a
 | [@ZcashArabia a ɛwɔ hɔ](https://x.com/ZcashArabia) | Zcash Arabiafoɔ |
 | [@ZcashNigeria na ɛwɔ hɔ](https://x.com/ZcashNigeria) | Zcash Nigeria |
 | [@ZcastEsp na ɔkyerɛwee](https://x.com/ZcastEsp) | Zcast - Spania kasa Zcash podcast |
-| [@ZkAv_Club na ɛwɔ hɔ](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
-| [@cipherscan_app no ​​so na ɛyɛ adwuma](https://x.com/cipherscan_app) | CipherScan blockchain nhwehwɛmufo |
+| [@ZkAv_Kuw no mu](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
+| [@cipherscan_app no so na ɛyɛ adwuma](https://x.com/cipherscan_app) | CipherScan blockchain nhwehwɛmufo |
 | [@zerodartz na ɔkyerɛwee](https://x.com/Zerodartz) | Community memes ne nkyerɛkyerɛmu |
 
 ----
@@ -75,4 +75,4 @@ Zcash wɔ wiase nyinaa a ɛyɛ nnam wɔ X. Akontaabu atitiriw a ɛsɛ sɛ wudi a
 - [ZecHub Wiki a ɛwɔ hɔ](https://zechub.wiki)
 - [Zcash Mmoa a Wɔde Ma Hub](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcash Wiase Nyinaa Aban Nnanmusini](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - dwumadie no ho nsusuiɛ wɔ wiki yi so (zcashambassadors.com yɛ offline)
-- [ZecHub DAO wɔ Dework so](https://app.dework.xyz/zechub-2424)
+- [ZEC Bounties na ɛyɛ adwuma](https://bounties.zechub.wiki/)

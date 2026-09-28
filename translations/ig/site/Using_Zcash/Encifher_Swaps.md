@@ -85,4 +85,4 @@ Ozugbo enwetara, jiri nhọrọ Zodl's **Shield** iji bufee gị ZEC n'ime ọd�
 
 ---
 
-Site na ijikọta ọsọ Solana, nzuzo Zcash, yana akpaaka Near Intents, encrypt.trade ga-akọwa ihe mgbanwe crypto nkeonwe nwere ike ịbụ - ngwa ngwa, enweghị nsogbu, ma bụrụkwa onye a tụkwasịrị obi n'ezie.
+Site na ijikọta ọsọ nke **Solana**, nzuzo **Zcash's**, na akpaaka **NEAR Intents'**, **encrypt.trade** na-akọwapụta ihe mgbanwe crypto nkeonwe nwere ike ịbụ - ngwa ngwa, enweghị nsogbu, na nzuzo n'ezie.

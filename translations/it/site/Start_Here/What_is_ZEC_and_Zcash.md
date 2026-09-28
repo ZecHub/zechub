@@ -30,7 +30,7 @@ ZEC offre alle persone la possibilità di trasferire dati senza bisogno di autor
 
 [Il caso di Zcash e la privacy](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[Un ecosistema Shielded](https://electriccoin.co/blog/shielded-ecosystem/)
+[Un ecosistema Shielded](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Raccomandazioni sulla privacy di Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,14 +52,12 @@ Zcash risolve il principale difetto di Bitcoin: la proprietà privata e il trasf
 
 [Come funziona](https://z.cash/technology/)
 
-[L'HTTPS delle blockchain](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## Pagine correlate
 
-- [Guida per i nuovi utenti](/start-here/new-user-guide) — Introduzione passo dopo passo per i nuovi possessori di ZEC
-- [Wallet](/using-zcash/wallets) — Scegli un wallet Shielded per custodire il tuo ZEC
-- [Acquistare ZEC](/using-zcash/buying-zec) — Dove e come acquistare ZEC
-- [Pool Shielded](/using-zcash/shielded-pools) — Come i pool di Zcash mantengono private le transazioni
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — La crittografia alla base della privacy di Zcash
+- [Guida per nuovi utenti](/start-here/new-user-guide) — Introduzione passo dopo passo per i nuovi possessori di ZEC
+- [Wallet](/using-zcash/wallets) — Scegli un wallet schermato per conservare i tuoi ZEC
+- [Acquistare ZEC](/using-zcash/buying-zec) — Dove e come acquisire ZEC
+- [Pool schermati](/using-zcash/shielded-pools) — Come i pool di Zcash mantengono private le transazioni
+- [zk-SNARKs](/zcash-tech/zk-snarks) — La crittografia alla base della privacy di Zcash

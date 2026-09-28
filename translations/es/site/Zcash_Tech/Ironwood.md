@@ -74,12 +74,12 @@ Las wallets y el software de nodos gestionan la mayor parte de esto automáticam
 
 | Término | Significado en lenguaje sencillo |
 |---|---|
-| Pool blindado | El conjunto de fondos cuyos importes y propietarios están ocultos mediante criptografía de conocimiento cero |
-| Error de solidez | Una falla que permite que una transacción inválida pase la comprobación de prueba como si fuera válida |
-| Torniquete | Un punto de control público que cuenta el valor que se mueve entre pools para que la oferta siga siendo auditable |
-| Solo de gasto | Un pool del que puedes gastar, pero al que no puedes añadir valor nuevo |
-| Actualización de red (NU) | Un cambio coordinado en las reglas de consenso de Zcash, activado a una altura de bloque determinada |
-| Note recuperable cuánticamente | Un formato de note diseñado para que los fondos puedan recuperarse si los ordenadores cuánticos llegan a romper la criptografía actual |
+| Shielded pool | El conjunto de fondos cuyos importes y propietarios están ocultos mediante criptografía de conocimiento cero |
+| Soundness bug | Una falla que permite que una transacción inválida pase la comprobación de prueba como si fuera válida |
+| Turnstile | Un punto de control público que cuenta el valor que se mueve entre pools para que la oferta siga siendo auditable |
+| Spend-only | Un pool del que puedes gastar, pero al que no puedes añadir valor nuevo |
+| Network upgrade (NU) | Un cambio coordinado en las reglas de consenso de Zcash, activado a una altura de bloque determinada |
+| Quantum-recoverable note | Un formato de note diseñado para que los fondos puedan recuperarse si los ordenadores cuánticos llegan a romper la criptografía actual |
 
 ## Preguntas frecuentes
 

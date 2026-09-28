@@ -4,7 +4,7 @@ Pochi za kivinjari cha wavuti ni nyongeza ambazo unapakua na zinakuruhusu kuunga
 
 
 
-Jifunze zaidi kuhusu aina kadhaa za mabwawa ya Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://wiki.zechub.xyz/zcash-value-pools)
+Jifunze zaidi kuhusu aina kadhaa za mabwawa ya Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://zechub.wiki/zcash-value-pools)
 
 ---
 

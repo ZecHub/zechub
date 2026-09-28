@@ -66,7 +66,7 @@ NU6.3 is described in ZIP 258, together with the additional ZIPs listed here. Th
 
 > Àkọlé: [NU6.3 Àwọn ìyọrísí fún Wallets](https://zips.z.cash/zip-0326)
 
-> A dábàá pé: [Àtúnṣe Ìwòye ti Igi Irin-igi](https://zips.z.cash/zip-2005)
+> A dábàá pé: [Àtúnṣe Kuatomu Ironwood](https://zips.z.cash/zip-2005)
 
 > A dáàbò bò ó: [Restricting Transfers into the Orchard Pool](https://zips.z.cash/zip-2006)
 

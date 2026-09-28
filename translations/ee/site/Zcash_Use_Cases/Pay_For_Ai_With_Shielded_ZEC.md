@@ -133,7 +133,7 @@ Esiae nye akpa si mɔfiala akpa gãtɔ tia.
 
 NanoGPT ƒe gadzraɖoƒe ƒe adrɛs nye adrɛs si wowɔ ɖekae. Decoding ɖeka si woɖe ɖe go le August 2026 me ɖea receiver eve pɛpɛpɛ fiana: **Sapling** kple **Orchard**.
 
-Esi wònye be ƒe... [Ironwood ƒe ati](/zcash-tech/ironwood) upgrade activated on 28 July 2026, Orchard nye gazazã ɖeɖeko eye asixɔxɔ yeye aɖeke mateŋu age ɖe eme o. Ema gblẽ **Sapling ɖi abe amesi ko xɔa fetu ate ŋu adze anyi ŋutɔŋutɔ** ene.
+Esi wònye be ƒe... [Ironwood](/zcash-tech/ironwood) upgrade activated on 28 July 2026, Orchard nye gazazã ɖeɖeko eye asixɔxɔ yeye aɖeke mateŋu age ɖe eme o. Ema gblẽ **Sapling ɖi abe amesi ko xɔa fetu ate ŋu adze anyi ŋutɔŋutɔ** ene.
 
 Eyata ne wò ZEC le Sapling xoxo la, fexexea nye Sapling na Sapling eye naneke tso eŋu mele dutoƒo o. Gake ne èʋu yi Ironwood la, fexexe ʋua asixɔxɔ le ta aɖe ƒe liƒo dzi, eye [ʋuƒo si wotsɔ trɔa asi le nu ŋu](/zcash-tech/the-turnstile) taa ga home kple kɔkɔme togbɔ be ame si ɖoe ɖa kple amesi xɔe la nɔa ɣaɣla hã.
 
@@ -163,7 +163,7 @@ Ate ŋu:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Ironwood ƒe ati](/zcash-tech/ironwood) - nusitae ta si me wò ga bɔbɔ nɔna la trɔ
+- [Ironwood](/zcash-tech/ironwood) - nusitae ta si me wò ga bɔbɔ nɔna la trɔ
 - [Turnstile ƒe ʋuƒoa](/zcash-tech/the-turnstile) - nusi va zua dutoƒo ne asixɔxɔ tso tadeaguƒewo
 - [Gakotokuwo](/using-zcash/wallets) - gakotoku siwo dzi wodzrana ɖo
 - [ZODL](/zcash-organizations/zodl) - gakotoku si le megbe na CrossPay

@@ -17,6 +17,6 @@
 
 Àwọn ọ̀nà wà láti rọ́pò díẹ̀ lára àwọn ohun èlò yìí pẹ̀lú àwọn ojútùú tó wà lárọ̀ọ́wọ́tó (bí lílo tẹlifóònù dípò kámẹ́rà) èyí tí a ó jíròrò nínú àpilẹ̀kọ wiki mìíràn.
 
-![Awọn apẹẹrẹ eto bi lati sopọ gbogbo awọn ẹrọ fun sisanwọle.](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
+![Example scheme how to connect all devices for streaming. Author: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
 
 Àpẹẹrẹ ìtòlẹ́sẹẹsẹ bi o ṣe le sopọ gbogbo awọn ẹrọ fun ṣiṣanwọle.](https://twitter.com/decentralistdan)

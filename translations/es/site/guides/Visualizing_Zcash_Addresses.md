@@ -6,7 +6,7 @@
 # Visualizando direcciones de Zcash
 
 Si estás aprendiendo sobre Zcash por primera vez, te darás cuenta de inmediato de que hay dos tipos de [transacciones](https://zechub.wiki/using-zcash/transactions) que pueden ocurrir: *transparentes* y *blindadas*.
-Además, si has estado al día con los últimos desarrollos en el ecosistema de Zcash, es posible que hayas aprendido sobre [Unified Addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), o UA's.
+Además, si has estado al día con los últimos desarrollos en el ecosistema de Zcash, es posible que hayas aprendido sobre [Direcciones unificadas](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), o UA's.
 Cuando la gente de la industria de Zcash habla de transacciones *blindadas*, se refiere a transacciones que involucran direcciones codificadas para los protocolos sapling u orchard. 
 Las UA's están diseñadas para unificar *cualquier* tipo de transacción blindada o transparente en una sola dirección. Esta generalización es la clave para simplificar la UX de cara al futuro. El propósito de esta guía es complementar la comprensión de las UA's con ejemplos visuales concretos.
 

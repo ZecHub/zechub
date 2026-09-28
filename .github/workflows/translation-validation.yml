@@ -55,6 +55,76 @@ jobs:
           BASE_REF_OUT: ${{ steps.base.outputs.ref }}
         run: node scripts/check-protected-terms.mjs --base "$BASE_REF_OUT"
 
+      # Brand spelling on the ENGLISH pages a PR changes. A spelling absent from
+      # preserveVerbatim is not protected, so the engines translate it — this is
+      # how "Free2z" became "Bure2z" in Swahili. Findings are annotations, so
+      # they land on the changed line in the diff rather than in a job log.
+      #
+      # Scoped to changed files, but each changed file is checked in FULL, so
+      # touching a page means bringing that page to canon. That is deliberate:
+      # it is what drains the backlog, one page at a time. site/zechubglobal/
+      # is excluded — 511 pages nothing routes, holding 73% of the backlog.
+      - name: Validate brand spelling on changed English pages
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node scripts/check-brand-spelling.mjs --base "$BASE_REF_OUT"
+
+      # The gate's own regression suite. Its failure mode is silent — the mask
+      # latches and findings vanish while the run still exits 0 — so it needs a
+      # test that fails loudly when that happens again.
+      - name: Brand spelling gate self-test
+        run: node scripts/check-brand-spelling.test.mjs
+
+      # Page hygiene on the pages a PR changes: link syntax the reader sees,
+      # anchors dropped while the heading still exists, and line endings
+      # flipped. All four rules exist because a defect of that shape merged
+      # with every check green — a literal ")" in a heading, a URL fragment
+      # duplicated into the prose, seven ToC anchors collapsed onto one page,
+      # and a CRLF file rewritten as LF. Offline: no URL is fetched here, that
+      # is link-health's weekly job.
+      #
+      # Same scope rule as brand spelling — a touched page is checked in full —
+      # but site/zechubglobal/ IS included: the whole corpus holds five
+      # findings, so there is no wall of failures, and link rot lives there.
+      - name: Validate page hygiene on changed pages
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node scripts/check-page-hygiene.mjs --base "$BASE_REF_OUT"
+
+      - name: Page hygiene gate self-test
+        run: node scripts/check-page-hygiene.test.mjs
+
+      # A glossary's Term column is vocabulary and a Parameter column holds
+      # identifiers: both stay English in every locale, only the explanation is
+      # translated. Engines glossed them (Arborist Call -> sw "Wito wa Mtaalamu
+      # wa Miti"). The whole corpus is checked: it is clean, and `--fix` repairs.
+      - name: Verbatim table columns
+        run: node scripts/check-verbatim-columns.mjs
+
+      - name: Verbatim table columns self-test
+        run: node scripts/check-verbatim-columns.test.mjs
+
+      # Every venue named on the exchange pages must be a protected term, or
+      # a machine engine will translate the BRAND. It did: LetsExchange became
+      # "Ẹ jẹ́ kí a pààrọ̀" ("let us exchange") in Yoruba, across 109 headings
+      # in five locales, and no gate saw it — a translated brand makes a page
+      # less English, not more, and these headings carry no links for the
+      # structure gate to miss. The only symptom was the wiki's exchange pages
+      # silently falling back to a hardcoded English list, because they build
+      # cards by matching `###` headings.
+      #
+      # Checks the DATA, not a diff, so it costs nothing and holds for pages no
+      # PR touched.
+      - name: Venue brands are protected
+        run: node scripts/check-venue-brands.test.mjs
+
+      # link-health itself is a weekly network sweep and cannot run here, but
+      # the part that decides which links get re-probed is pure string work and
+      # fails silently when wrong — a regex that matches nothing reports a
+      # clean corpus. Cheap to assert, so it is asserted on every PR.
+      - name: Link-health parser self-test
+        run: node link-health/check-links.test.mjs
+
   hash-lib-tests:
     runs-on: ubuntu-latest
     steps:

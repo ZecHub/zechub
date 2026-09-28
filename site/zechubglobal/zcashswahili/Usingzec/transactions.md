@@ -31,7 +31,7 @@ Miamala wazi zimesababisha utata kuhusu faragha ya ZEC hapo zamani. Njia bora ya
 
 #### Nota
 
-Tafadhali kumbuka kuwa njia salama zaidi ya kutumia ZEC ni kwa kutumia miamala iliyohifadhiwa tu. Baadhi ya mikoba ipo kwenye mchakato wa kutekeleza [anwani zilizounganishwa](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) ambayo inaruhusu watumiaji na kubadilishana kuchanganya anwani za wazi na zilizohifadhiwa pamoja.
+Tafadhali kumbuka kuwa njia salama zaidi ya kutumia ZEC ni kwa kutumia miamala iliyohifadhiwa tu. Baadhi ya mikoba ipo kwenye mchakato wa kutekeleza [anwani zilizounganishwa](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) ambayo inaruhusu watumiaji na kubadilishana kuchanganya anwani za wazi na zilizohifadhiwa pamoja.
 
 
 

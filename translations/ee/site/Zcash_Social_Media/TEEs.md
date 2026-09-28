@@ -111,7 +111,7 @@ Zcash le numekuku wɔm vevie le ʋuʋu yi Proof-of-Stake ŋu.
     src="https://www.youtube.com/embed/22a-ROcb3AQ"
     title="PoS designs"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

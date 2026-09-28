@@ -86,7 +86,7 @@ Des travaux connexes sont déjà visibles. [Zakura](https://zechub.wiki/zcash-te
 - **Tachyon n'est pas actif.** Aucun wallet ne l'utilise aujourd'hui, et aucune mise à niveau ne l'a activé.
 - **Tachyon n'est pas la même chose qu'Ironwood.** Ironwood a été activé en juillet 2026 et concernait le pool Orchard et le turnstile. Tachyon est une proposition distincte et ultérieure portant sur la mise à l'échelle.
 - **Tachyon ne réduit pas la confidentialité.** L'objectif est de préserver l'indistinguabilité du registre tout en supprimant le coût de mise à l'échelle, et non d'échanger la confidentialité contre la vitesse.
-- **La vérification des ZK-SNARK n'a jamais été le goulot d'étranglement.** La proposition précise que la partie lente est la façon dont les wallets découvrent et coordonnent l'état, et non le coût de vérification des preuves.
+- **La vérification des zk-SNARK n'a jamais été le goulot d'étranglement.** La proposition précise que la partie lente est la façon dont les wallets découvrent et coordonnent l'état, et non le coût de vérification des preuves.
 - **« Ciblé pour NU7 » n'est pas un engagement.** Ce qui entre dans NU7 est décidé par un vote.
 
 <br/>
@@ -95,13 +95,13 @@ Des travaux connexes sont déjà visibles. [Zakura](https://zechub.wiki/zcash-te
 
 | Terme | Signification |
 |---|---|
-| Déchiffrement par essai | Tenter de déchiffrer les transactions une par une afin de trouver celles qui vous sont adressées |
-| Distribution de secrets dans la bande | Placer le secret de paiement dans la transaction sur la blockchain, comme le fait Zcash aujourd'hui |
-| Paiement hors bande | Transmettre les détails du paiement directement entre l'expéditeur et le destinataire au lieu de passer par la chaîne |
-| Synchronisation aveugle | Récupérer les données de la chaîne dont un wallet a besoin sans révéler quelles données ont été demandées |
-| Données porteuses de preuves (PCD) | Données qui voyagent avec une preuve de leur propre validité, afin que les preuves puissent être combinées et compressées |
-| Agrégat de transactions protégées | La manière dont Tachyon regroupe les changements d'état protégés, modifiant leur communication et leur signature |
-| indistinguabilité du registre | La propriété selon laquelle les transactions protégées ne peuvent pas être distinguées les unes des autres |
+| Trial decryption | Tenter de déchiffrer les transactions une par une afin de trouver celles qui vous sont adressées |
+| In-band secret distribution | Placer le secret de paiement dans la transaction sur la blockchain, comme le fait Zcash aujourd'hui |
+| Out-of-band payment | Transmettre les détails du paiement directement entre l'expéditeur et le destinataire au lieu de passer par la chaîne |
+| Oblivious synchronization | Récupérer les données de la chaîne dont un wallet a besoin sans révéler quelles données ont été demandées |
+| Proof-carrying data (PCD) | Données qui voyagent avec une preuve de leur propre validité, afin que les preuves puissent être combinées et compressées |
+| Shielded transaction aggregate | La manière dont Tachyon regroupe les changements d'état protégés, modifiant leur communication et leur signature |
+| ledger indistinguishability | La propriété selon laquelle les transactions protégées ne peuvent pas être distinguées les unes des autres |
 
 <br/>
 

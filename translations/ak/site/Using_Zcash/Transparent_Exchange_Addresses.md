@@ -1,29 +1,29 @@
-# Dɛn Ne Zcash TEX Address ahorow?
+# Dɛn ne Zcash TEX Address?
 
-Zcash TEX address ahorow no gyina hɔ ma address soronko bi a wogye. "Transparent Exchange" address a wɔatwa no tiaa, ɛyɛ **Unique**, Unified-type (bech32m) encoding a ɛyɛ p2pkh Transparent address biako. 
+Zcash TEX address yɛ ɔbrafo adrɛs soronko bi. ɛyɛ abodin a ɛkyerɛ "Transparent Exchange" address, na ɛno ne Unified-type (bech32m) encoding of an single p2pkh Transparent address. 
 
-Ne botaeɛ baako pɛ ne sɛ ɛbɛbɔ sika kotokuo a ɛne no hyia amanneɛ ma wɔayɛ Transparent-Only (T -> T) asɛm. 
+Ne botae ne sɛ ɛbɛka akyerɛ wallet a ɛne no di nsɛ ama ayɛ Transparent-Only (T -> T) transaction. 
 
-Nteaseɛ no te sɛ nea ɛdidi soɔ yi: Sɛ wohu TEX Address bi a, sika kotokuo a ɛne no hyia decode no mu na ama wɔanya Transparent receiver a ɛwɔ mu no. Afei sika kotoku no de sika a wɔhwehwɛ ma tx no fi Shielded pool no mu kɔ address a ɛyɛ soronko, a nea ɔde di dwuma no di so, a ɛyɛ bere tiaa mu Transparent address (Z -> T). Afei ɛde saa sika no kɔma Transparent receiver a wɔabɔ no decoded a ɛwɔ TEX address (T -> T) no so. 
+The logic is as follows: Upon detecting a TEX Address, a compatible wallet decodes it to obtain the Transparent receiver it contains. The wallet then sends the required funds for the tx from the Shielded pool to a seperate, user-controlled, ephemeral Transparent address (Z -> T). It then sends those funds to the decoded Transparent receiver of the TEX address (T -> T).  
 
-Wɔakyerɛ mfiridwuma ho nyansahyɛ a ɛfa TEX address ho wɔ Zcash [ZIP 320](https://zips.z.cash/zip-0320), a ɛkyerɛkyerɛ address su bi a wɔde begye sika afi Transparent Addresses nkutoo mu.
+TEX address ho technical proposal no wɔ Zcash mu. [ZIP 320](https://zips.z.cash/zip-0320), a ɛkyerɛ address type de gye sika fi Transparent Addresses nko ara.
 
 ![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
 
-Ɛwom sɛ TEX address ahorow a ɛnyɛ no yɛ nea wogye tom kɛse de, nanso ebia wɔbɛhwehwɛ sɛ Zcash dwumadiefoɔ de di dwuma awiei koraa.
+Although TEX addresses not are broadly adopted, Zcash users may be required to use them eventually.
 
-## Bere Bɛn na Mehia TEX Address
+## Bere Bɛn na Mehia TEX Address?
 
-### Wo **hia** TEX address bere a wode sika rekɔ Transparent address so denam sika kotoku a ɛnboa sɛ wode bɛkɔ Transparent address so tẽẽ no so. 
-Wallet binom mma kwan kɛkɛ sɛ wɔde bɛkɔ Transparent address so tẽẽ na **ebia nea ogye no remfa TEX a ɛne no sɛ** mma. Enti, ebia ɛho behia sɛ wɔdane** fi Transparent so kɔ TEX address so wɔ mmere bi mu. Wobetumi de nsa ayɛ eyi denam reference implementation a wɔakyerɛ wɔ [zip-320](https://zips.z.cash/zip-0320#reference-implementation) no a wobɛtu mmirika no so.
+### Wo hia TEX address bere a wode sika resoma akɔ baabi wɔ Transparent no, na wore de wallet bi adi dwuma a ɛnni kwan sɛ wɔde fa adansedie biara kɔ hɔ. 
+Ebinom ntumi mfa nkrataa nkɔma obi wɔ address a w'atwe no afiri mu, na saa ara nso na wɔntumi mma nea ɔretwerɛ ne ho krataa biara nkyerɛ sɛ TEX. Enti ɛtɔ da bi a ɛbɛhia sε wobɛyɛ conversion afi Transparent akɔ TEX adiresi so. Wobɛtumi ayɛ eyi manually denam reference implementation a yɛakyerɛw wom yi akyi kwan so: [adansedie krataa-320](https://zips.z.cash/zip-0320#reference-implementation).
 
-### Wohia TEX address bere a wode sika rekɔ centralized exchange a **ƐHWƐ sɛ saa sika no fi Transparent fibea**. 
-Mprempren, [Binance](https://www.binance.com/) yɛ Centralized Exchange nko ara a ɛde TEX address di dwuma (na ɛno ne ade titiriw nti a wɔbɔ TEX). 
-TEX address ahorow no bɔ sika kotoku a ɛne no hyia amanneɛ sɛ ɛsɛ sɛ sika a wɔde kɔ saa address no so nyinaa yɛ nea ɛda adi pefee na ɛyi bo biara a wɔabɔ ho ban no fi mu na wɔmfa nkɔ address a wɔaka ho asɛm no so.
-Sɛ exchange te sɛ Binance pow bo a wɔde amena no a, ɛwɔ ɔkwan a ɛho hia a ɛbɛsan de saa bo no asan akɔ address a efi so bae no so. Ɛsan nso boa nnwumakuw te sɛ Binance ma wodi mmara ne nhyehyɛe ahorow a aban anaa atumfoɔ afoforo de ahyɛ wɔn so no so.
+### Wo hia TEX address bere a wo resoma sika akɔ central exchange so no. Ɛhwehwɛ sɛ saa sika yi fi baabi a w'atumi ahu mu ba**. 
+Seesei, [Binance](https://www.binance.com/) Ɛyɛ Centralised Exchange a ɛdi dwuma wɔ TEX address mu (na ɛno ne ade titiriw ntia wɔde bɔɔ TEX). 
+TEX address kyerɛ portfolios a ɛne no bɔ mu sɛ sika biara a wɔde kɔ saa adrɛs yi so no, ɛsɛsɛ wɔhwɛ ma emu da hɔ na ɛmma obiara ntumi mfa biribi a w'atumi de asie ho nto dwa.
+Sɛ exchange te sɛ Binance po akatua a wɔde asende no, ɛwɔ akwan pa de saa boɔ yi san kɔ address a ɛfi bae so. Ɛsan boa entities te sɛ binance ma wodi mmara ne nhyehyeɛ ahorow a aban anaa atumfoɔ afoforo ahyɛ ho dwuma no akyi.
 
 
-## Sika kotoku bɛn na ɛboa TEX Address ahorow?
+## Dwumadi krataa bɛn na ɛboa TEX Address?
 
-Wubetumi ahwɛ nsɛm a wɔahyehyɛ a ɛyɛ foforo sen biara wɔ yɛn [sika kotoku ahorow so](https://zechub.wiki/wallets) kratafa. Fa **TEX Address Filter no di dwuma.**
+Wobɛtumi ahu yɛn nsɛm a ɛresan aba wɔ wo din mu no so. [nkotoku no](https://zechub.wiki/wallets) Fa adrɛs Filter no di dwuma.

@@ -86,22 +86,22 @@ A na-ahụ ọrụ ndị metụtara ya. [Zakura](https://zechub.wiki/zcash-tech/
 - **Tachyon adịghị arụ ọrụ.** Ọ dịghị obere akpa ji ya taa, ọ nweghịkwa nkwalite emegharịrị.
 - **Tachyon abụghị otu ihe ahụ dị ka Ironwood.** A na-arụ ọrụ nke ígwè n'ọnwa Julaị 2026 ma jiri ọdọ mmiri Orchard na turnstile. Tachyon bụ atụmatụ ọzọ, mgbe e mesịrị banyere ịba ụba.
 - **Tachyon abụghị ihe nzuzo.** Ebumnuche bụ idobe akwụkwọ ndekọ ahụ na-enweghị ike ịkọwapụta ma wepụ ụgwọ ọnụ ọgụgụ, ọ bụghị ịzụ ahịa maka ọsọ.
-- ** nkwenye nke zK-SNARK abụghị ihe mgbochi.** Nkwupụta ahụ doro anya na akụkụ dị nwayọ bụ etu obere akpa si achọpụta ma hazie steeti, ọ bụghị ụgwọ ịlele akwụkwọ.
+- ** nkwenye nke zk-SNARK abụghị ihe mgbochi.** Nkwupụta ahụ doro anya na akụkụ dị nwayọ bụ etu obere akpa si achọpụta ma hazie steeti, ọ bụghị ụgwọ ịlele akwụkwọ.
 - **"A na-elekwasị anya na NU7" abụghị nkwa.** Ihe a ga-etinye n'ime NU7 bụ mkpebi site na ịtụ vootu.
 
 <br/>
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. Ihe ọ pụtara.
+| Oge okwu | Ihe ọ pụtara |
 |---|---|
-◯ Nnyocha nkewapụta. ▪ Ịgbalị ịwepụ ihe ndị ahụ e dere ede otu n'otu iji chọta ndị a gwara gị okwu ha.
- Nhazi nzuzo nke bandị. Ịdebe ihe omimi ịkwụ ụgwọ n'ime azụmahịa ahụ na blockchain, dịka Zcash si eme taa.
-◯ Nkwụ ụgwọ na-abụghị nke bandị. Ịgafe nkọwa ịkwụ ụgwọ kpọmkwem n'etiti onye zitere ya na onye natara ya kama ịga site na agbụ ígwè ahụ.
-◯ Oblivious synchronization. Ịnweta data nke usoro ihe eji eme ego na-achọ n'ekwughị ozi a rịọrọ ya.
-DATA nke na-ebu ihe akaebe (PCD) Data nke na -agagharị n'ihe akaebe maka izi ezi ya, ka enwere ike ijikọ ma jikọta ihe aka ebe a.
-◯ Nchịkọta azụmahịa echekwara echebe. Ụzọ Tachyon si ejikọta mgbanwe ọnọdụ e chebere, na-agbanwe ụzọ ha si ekwurịta okwu ma bịanye aka n'akwụkwọ.
-◯ akwụkwọ ndekọ enweghị ike ịmata ọdịiche. Ihe onwunwe nke kpuchiri azụmahịa apụghị ịkọwa n'etiti ibe ya.
+| Trial decryption | Ịnwa ịchọpụta azụmahịa otu otu iji chọta ndị e zigara gị |
+| In-band secret distribution | Itinye nzuzo ịkwụ ụgwọ n'ime azụmahịa ahụ na blockchain, dịka Zcash si eme taa |
+| Out-of-band payment | Ịnyefe nkọwa ịkwụ ụgwọ ozugbo n'etiti onye zitere na onye nnata kama site na yinye ahụ |
+| Oblivious synchronization | Ịchọta data yinye nke obere akpa chọrọ n'ekpugheghị data achọrọ |
+| Proof-carrying data (PCD) | Data nke na-agagharị na ihe akaebe nke izi ezi nke ya, ka e wee nwee ike ijikọta ma tinye ihe akaebe |
+| Shielded transaction aggregate | Ụzọ Tachyon si ejikọta mgbanwe steeti echekwara, na-agbanwe otu esi ekwurịta okwu ma bịanye aka na ha |
+| ledger indistinguishability | Enweghị ike ịkọwa ihe onwunwe nke kpuchiri azụmahịa dị iche na ibe ya |
 
 <br/>
 
@@ -121,7 +121,7 @@ Achọrọ m ime ihe ọ bụla ugbu a? Mba. Tachyon bụ atụmatụ, ma ọ b�
 
 - [Ịchọta Ozi nke Onwe Onye](https://zechub.wiki/zcash-tech/private-information-retrieval) - ụzọ ọzọ maka otu obere akpa nyocha windo.
 - [Zakura Node (Nọmba nke Zaku)](https://zechub.wiki/zcash-tech/zakura-node) - otu ọnụ wuru akụkụ nke Tachyon si engineering mgbalị
-- [Osisi ígwè](https://zechub.wiki/zcash-tech/ironwood) - nkwalite nke arụ ọrụ na July 2026, a na-ejikarị ya eme ihe Tachyon.
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - nkwalite nke arụ ọrụ na July 2026, a na-ejikarị ya eme ihe Tachyon.
 - [Ihe A Na-akpọ Turnstile](https://zechub.wiki/zcash-tech/the-turnstile) - usoro Tachyon nwere ike iji ma ọ bụrụ na etinyere ya dị ka ọdọ mmiri nke aka ya.
 - [Nchebe Mgbe E Mechara Ihe Ndị Dị n'Eluigwe na Ala](https://zechub.wiki/zcash-tech/post-quantum-security) - ebe Tachyon na-anọdụ n'akụkụ ọrụ usoro iheomume ogologo oge.
 - [Otú E Si Hazie Zcash](https://zechub.wiki/start-here/how-zcash-is-organized) - onye na-arụ ọrụ a nakwa otú usoro okike si adaba n'otu.

@@ -6,7 +6,7 @@
 
 [Visit website](https://valargroup.dev/)
 
-<<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
+<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
 
 
 ## Mission Statement

@@ -12,7 +12,7 @@ Nym yɛ mix network (mixnet) a ɛrenya nkɔsoɔ, kɔmputa ntwamutam nhyehyɛeɛ 
     src="https://www.youtube.com/embed/gSeECj4ddYA"
     title="How to Buy NymVPN with Zcash (ZEC)"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

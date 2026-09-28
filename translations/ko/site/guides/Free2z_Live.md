@@ -185,9 +185,9 @@ Free2z Live는 유연하고 강력합니다. 다음 섹션에서는 그 기능�
 
 [Free2z](https://free2z.cash/)  
 [Free2z 문서](https://free2z.cash/docs/)  
-[2Z 개요](https://free2z.cash/docs/2Zs/)  
-[프로필 생성](https://free2z.cash/docs/creators/creating-a-profile)  
-[Free2z Live란?](https://free2z.cash/docs/creators/free2z-live)  
+[2Z 개요](https://free2z.cash/docs/getting-started/tuzis)  
+[프로필 생성](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[Free2z Live란?](https://free2z.cash/docs/for-creators/free2z-live)  
 [Free2z 후원자용](https://free2z.cash/docs/category/for-supporters)
 
 ---

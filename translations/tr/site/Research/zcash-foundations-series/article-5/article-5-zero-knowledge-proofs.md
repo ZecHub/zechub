@@ -175,4 +175,4 @@ Doğrulayıcı tarafı önce söyleseydi, gizli sözü bilmeyen bir blöfçü en
 
 **Makale 6 . Shielded protokol, uçtan uca:** final. Her parçayı, note'ları, taahhütleri, note taahhüt ağacını, nullifier'ları, değer dengesini ve sıfır bilgi kanıtını alıp tam bir Zcash shielded işlemi oluşturacağız; böylece Makale 0'da açılan her döngüyü tek tek kapatacağız.
 
-*ZecHub için hazırlanan* İlk Prensiplerden Zcash *serisinin bir parçası. CC BY-SA 4.0 lisanslıdır.*
+*[ZecHub](https://zechub.org) için hazırlanan* İlk Prensiplerden Zcash *serisinin bir parçası. CC BY-SA 4.0 lisanslıdır.*

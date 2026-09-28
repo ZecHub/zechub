@@ -57,12 +57,12 @@ Se un'attività accetta ZEC e non è ancora su ZecMap, qualsiasi membro della co
 
 | Campo | Cosa fornire |
 |-------|----------------|
-| Nome dell'attività | Nome ufficiale così come appare pubblicamente |
-| Sito web o contatto | URL o profilo social |
-| Posizione | Indirizzo per le attività fisiche; regione per quelle online |
-| Categoria | Bar, ristorante, negozio, servizio, negozio online, ecc. |
-| Prove | Pagina pubblica dei pagamenti, annuncio del commerciante o conferma diretta |
-| Note di pagamento | Di persona, online o entrambi; ZEC trasparente o shielded |
+| Business name | Nome ufficiale così come appare pubblicamente |
+| Website or contact | URL o profilo social |
+| Location | Indirizzo per le attività fisiche; regione per quelle online |
+| Category | Bar, ristorante, negozio, servizio, negozio online, ecc. |
+| Evidence | Pagina pubblica dei pagamenti, annuncio del commerciante o conferma diretta |
+| Payment notes | Di persona, online o entrambi; ZEC trasparente o shielded |
 
 Gli invii dovrebbero evitare dati privati dei clienti. Se usi una prova di transazione, rimuovi i dettagli personali, i numeri d'ordine e gli indirizzi di casa prima di condividerla.
 

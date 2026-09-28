@@ -39,5 +39,5 @@ Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consen
 ## Candidati per diventare Ambasciatore
 
 Puoi anche partecipare:
-- Contribuendo alle ricompense di [ZecHub DAO](https://app.dework.xyz/zechub-2424)
-- Unendoti al [Discord globale di Zcash](https://discord.gg/zcash)
+- Contribuendo alle [ZEC ricompense](https://bounties.zechub.wiki/)
+- Unendoti al [Zcash Discord globale](https://discord.gg/zcash)

@@ -16,7 +16,7 @@
 
 ## تجميع ملفات FROST الثنائية
 
-[رابط Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[رابط GitHub](https://github.com/ZcashFoundation/frost-zcash-demo)
 
 استخدم المستودع أعلاه واتبع تعليمات التجميع: 
 
@@ -24,7 +24,7 @@
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
 ستكون الملفات الثنائية في مجلد target.

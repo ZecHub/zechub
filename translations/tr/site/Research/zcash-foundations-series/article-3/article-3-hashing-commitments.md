@@ -184,4 +184,4 @@ Yalnızca iki sonuç varsa arkadaşınız `H("kazanır")` ve `H("kaybeder")` de�
 
 **Makale 4 . Merkle ağaçları:** artık elimizde üst üste biriken milyonlarca taahhüt var. Makale 4, Zcash'in bunları, küçücük kök parmak izi tüm geçmişi temsil eden tek bir ağaçta nasıl düzenlediğini ve hangisi olduğunu açıklamadan note'unuzun o ağaçta olduğunu nasıl kanıtlayabildiğinizi gösteriyor. Makale 0'daki "halka açık pano"nun gerçek şekli budur.
 
-*ZecHub için hazırlanan* İlk İlkelerden Zcash *serisinin bir parçası. Lisans: CC BY-SA 4.0.*
+*[ZecHub](https://zechub.org) için hazırlanan* İlk İlkelerden Zcash *serisinin bir parçası. Lisans: CC BY-SA 4.0.*

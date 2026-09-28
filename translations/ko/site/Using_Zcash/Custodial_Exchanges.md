@@ -125,13 +125,13 @@ ___
 - Ironwood: 해당 없음, 투명 주소만 지원
 ___
 
-## [OKEx](https://okex.com)
+## [OKX (구 OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- 웹사이트: [OKEx](https://okex.com)
+- 웹사이트: [OKX](https://www.okx.com)
 - 거래쌍: ALL/ZEC
 - 지원: 투명
 - 입금 시간: 25분 

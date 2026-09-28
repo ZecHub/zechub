@@ -1,10 +1,10 @@
-[!Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Ntọala Akaụntụ + LiveStream nkuzi
+# Free2z: Ntọala akaụntụ + nkuzi Livestream
 
 ## Okwu Mmalite
 
-Free2Z is a platform for creators and supporters to connect and achieve their goals. Free2Z provides tools for creators to showcase their talents and raise funds for their projects without compromising privacy. Supporters can find and support causes they believe in.
+Free2Z bụ ikpo okwu maka ndị okike na ndị na-akwado ha iji jikọọ ma mezuo ihe mgbaru ọsọ ha. Free2Z na-enye ngwaọrụ maka ndị okike iji gosipụta talent ha ma chịkọta ego maka ọrụ ha n'emebighị nzuzo. Ndị na-akwado ha nwere ike ịchọta ma kwado ihe kpatara ha ji kwere na ya.
 
 ## Mepụta akaụntụ gị
 
@@ -12,184 +12,184 @@ Ugbu a, enwere ụzọ abụọ iji mepụta akaụntụ gị na Free2Z:
 1. Họrọ aha njirimara na paswọọdụ. 
 2. Jikọọ akaụntụ Twitter gị. 
 
-Iji mepụta akaụntụ ma ọ bụ banye, gaa na https://free2z.cash/ wee pịa bọtịnụ 'CREATE'.
+Iji mepụta akaụntụ ma ọ bụ banye, gaa na https://free2z.cash/ wee pịa bọtịnụ 'KWApụta'.
 
-[Nbanye/ntinye akwụkwọ](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+![Login/signup form](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
-The login/signup form will appear in your browser. Choose your username and a strong password - this will be your login information. Solve the captcha and click the 'Enter' button to create your account.
+Fọm nbanye/ndebanye aha ga-apụta na ihe nchọgharị gị. Họrọ aha njirimara gị na paswọọdụ siri ike - nke a ga-abụ ozi nbanye gị. Dozie captcha wee pịa bọtịnụ 'Tinye' iji mepụta akaụntụ gị.
 
-[Aha njirimara na paswọọdụ ntinye ụdị](/content-images/image-2023-11-19-133141052-0387984be1.webp)
+![Username and password entry form](/content-images/image-2023-11-19-133141052-0387984be1.webp)
 
-N'aka nke ọzọ, ị nwere ike ịmepụta akaụntụ Free2Z site na ijikọ akaụntụ Twitter gị. Iji mee nke a, pịa akara ngosi Twitter n'akụkụ 'Nbanye Na', a ga-ajụ gị ka ijikọta akaụntụ Twitter gi.
+Ma ọ bụghị ya, ị nwere ike ịmepụta akaụntụ Free2Z site na ijikọ akaụntụ Twitter gị. Iji mee nke a, pịa akara ngosi Twitter dị n'akụkụ 'Banye na', a ga-agwakwa gị ka ijikọ akaụntụ Twitter gị.
 
-[Nhọrọ nbanye Twitter](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
+![Twitter login option](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
 
-Pịa **Authorize app** iji jikọọ akaụntụ Twitter gị na Free2Z.
+Pịa **Nye ikike ngwa** iji jikọọ akaụntụ Twitter gị na Free2Z.
 
-## Mepụta profaịlụ gị
+## Mee ka profaịlụ gị hazie onwe gị
 
-After your account is created, you will be redirected to your Free2Z profile page. If you created your account by connecting your Twitter, most of the fields will be automatically filled. If you created an account by entering a username and password, you should input your information here. You can use a pseudonym instead of your real name.
+Mgbe e mepụtara akaụntụ gị, a ga-ebuga gị gaa na ibe profaịlụ Free2Z gị. Ọ bụrụ na i mepụtara akaụntụ gị site na ijikọ Twitter gị, ọtụtụ n'ime ubi ndị a ga-ejupụta na akpaghị aka. Ọ bụrụ na i mepụtara akaụntụ site na itinye aha njirimara na paswọọdụ, ị kwesịrị itinye ozi gị ebe a. Ị nwere ike iji aha njirimara kama aha ezigbo gị.
 
-[Nkọwapụta oghere profaịlụ efu](/content-images/default-header-a11eb8328f.webp)
+![Default empty profile header](/content-images/default-header-a11eb8328f.webp)
 
-It's quite boring right now, so let's make it more interesting by setting up an avatar and a banner. The Free2Z interface makes this step very easy using the upload button (the up arrow on the right).
+Ọ na-agwụ ike ugbu a, yabụ ka anyị mee ka ọ dịkwuo mma site n'ịtọlite avatar na ọkọlọtọ. Njikọ Free2Z na-eme ka nzọụkwụ a dị mfe site na iji bọtịnụ bulite (akụ elu dị n'aka nri).
 
-![Avatar na ọkọlọtọ bulite bọtịnụ](/content-images/avatar-and-banner-bd20d0bbfb.webp)
+![Avatar and banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
 
 Ị nwere ike ịhụ nsonaazụ ya n'elu peeji ahụ.
 
-[Peeji profaịlụ mgbe ịhazichara ya](/content-images/resultatpage-f4ddacb8b8.webp)
+![Profile page after customization](/content-images/resultatpage-f4ddacb8b8.webp)
 
-Ah, much better! If you have some artistic skills, you can make your Free2Z profile page look amazing! Write a nice description for your page. You can talk about yourself or describe the type of content that others can expect from you. (Tip: Use markdown syntax to personalize your description!)
+Ee, ọ ka mma! Ọ bụrụ na ị nwere nkà nka, ị nwere ike ime ka ibe profaịlụ Free2Z gị dị egwu! Dee nkọwa mara mma maka ibe gị. Ị nwere ike ikwu maka onwe gị ma ọ bụ kọwaa ụdị ọdịnaya ndị ọzọ nwere ike ịtụ anya n'aka gị. (Ndụmọdụ: Jiri usoro okwu markdown mee ka nkọwa gị dị mma!)
 
-[Ịdezi ubi nkọwa](/content-images/edit-description-b52afabec1.webp)
+![Editing the description field](/content-images/edit-description-b52afabec1.webp)
 
-Echefukwala inye anyị adres gị Zcash, ka ndị na-akwado gị nwee ike inye gị onyinye ozugbo!
+Echefula inye adreesị Zcash gị nke e ji ihe nchedo kpuchie, ka ndị na-akwado gị wee nwee ike inye gị onyinye ozugbo!
 
-[Zcash na-echebe adreesị ubi](/content-images/p2p-address-b89f035bd9.webp)
+![Zcash shielded address field](/content-images/p2p-address-b89f035bd9.webp)
 
-Nzọụkwụ ikpeazụ iji mezue nhazi peeji gị bụ ịtọ 'ọnụahịa ndị otu'. Nke a bụ ọnụahịa na 2Zs (Tuzies) nke ndị ọrụ ndị ọzọ ga-akwụ iji denye aha na ibe gị! (More na 2 Zs mgbe e mesịrị).
+Nzọụkwụ ikpeazụ iji mezue ntọala ibe gị bụ ịtọ 'Ọnụahịa Ndị otu'. Nke a bụ ọnụahịa dị na 2Z (Tuzies) nke ndị ọrụ ndị ọzọ ga-akwụ iji denye aha na ibe gị! (Ọzọ gbasara 2Z ma emechaa).
 
-[Onye otu ọnụahịa ntọala!](/content-images/member-price-2dafd7e399.webp)
+![Member price setting](/content-images/member-price-2dafd7e399.webp)
 
-N'ikpeazụ, pịa bọtịnụ 'Update Profile' iji mezue nhazi profaịlụ gị!
+N'ikpeazụ, pịa bọtịnụ 'Melite Profaịlụ' iji mezue nhazi profaịlụ gị!
 
 ## Ndebanye aha na 2Zs
 
-Free2Z na-enye ndị ọrụ ohere ịdenye aha na ndị okike kachasị amasị ha ma nweta ohere ịnweta njirimara pụrụ iche na ọdịnaya ndị otu naanị. Onye okike kwesịrị ịhazi ọnụọgụ nke 2Zs maka ndenye aha. 
+Free2Z na-enye ndị ọrụ ohere ịdenye aha na ndị okike ha kacha amasị ma nweta ohere ịnweta atụmatụ pụrụ iche na ọdịnaya naanị maka ndị otu. Onye okike kwesịrị ịhazi opekata mpe 2Z maka ndenye aha. 
 
-2Zs ma ọ bụ Tuzies bụ ihe ntinye ego dijitalụ na-eji na Free2Z maka ọtụtụ ebumnuche, gụnyere: 
-1. Ịdenye aha na ndị okike 
-2. Ịkwalite visibiliti nke ibe Free2Z 
+2Z ma ọ bụ Tuzies bụ kredit dijitalụ dị n'ime ngwa ejiri na Free2Z maka ọtụtụ ebumnuche, gụnyere: 
+1. Ịdenye aha nye ndị okike 
+2. Na-eme ka ihu peeji Free2Z dị mfe 
 3. Inye onyinye nye ndị okike 
 
-Ị nwere ike ịhụ nzere 2Zs gị n'isi peeji profaịlụ gị.
+Ị nwere ike ịhụ kredit 2Z gị n'isi nke ibe profaịlụ gị.
 
-![2Zs / Tuzies nguzozi n'isi](/content-images/tuzis-balance-9d6a9eff7f.webp)
+![2Zs / Tuzies balance in header](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
-You can buy more 2Zs with Zcash by clicking on your 2Zs balance. The minimum amount for buying is 0.05 ZEC, and the current conversion rate is 0.05 ZEC = 10 2Zs.
+Ị nwere ike ịzụta 2Z karịa site na iji Zcash site na ịpị na nguzozi 2Z gị. Ego kacha nta maka ịzụrụ bụ 0.05 ZEC, ọnụego mgbanwe ugbu a bụ 0.05 ZEC = 10 2Zs.
 
-[Ịzụta 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
+![Buying 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
 
 ## Inye onyinye na ịdenye aha
 
-Once you find a creator you like, you can show your appreciation by donating and subscribing to them. All donations go directly to the creator's wallet. As an example, let's subscribe to [Free2Z's own page](https://free2z.cash/free2z).
+Ozugbo ịchọtara onye okike ị hụrụ n'anya, ị nwere ike igosi ekele gị site n'inye onyinye na ịdenye aha ha. Onyinye niile na-aga ozugbo na akpa onye okike. Dịka ọmụmaatụ, ka anyị denye aha na [Peeji nke Free2Z](https://free2z.cash/free2z).
 
-[Peeji nke Free2Z](/content-images/free2z-page-94c5fd5f4f.webp)
+![Free2Z official page](/content-images/free2z-page-94c5fd5f4f.webp)
 
-Iji denye aha na ibe, naanị ihe ị ga-eme bụ pịa akara ngosi denye aka na nkụnye eji isi mee nke ibe.
+Iji denye aha na ibe, naanị ihe ị ga-eme bụ pịa akara ngosi ndenye aha dị na isi peeji ahụ.
 
-[Bọtịnụ ịdenye aha na peeji onye okike](/content-images/subscribe-to-creator-76c306d924.webp)
+![Subscribe button on creator page](/content-images/subscribe-to-creator-76c306d924.webp)
 
-Ị ga-ahụ ego kacha nta maka ịdenye aha. Lelee ma ị nwere tuzis zuru ezu wee pịa denye aha gị.
+Ị ga-ahụ ego kacha nta maka ịdenye aha. Lelee ma ị nwere ọtụtụ tuzi wee pịa debanye aha.
 
-[Kwenye ndenye aha mmapụta](/content-images/confirm-subscribe-7381923e36.webp)
+![Confirm subscription popup](/content-images/confirm-subscribe-7381923e36.webp)
 
-### Nye onyinye iji 2Zs ma ọ bụ Zcash
+### Jiri 2Z ma ọ bụ Zcash nye onyinye
 
-Ị nwere ike inye onyinye ozugbo na ibe ha, site na ịpị akara ngosi onye okike Fund.
+I nwere ike inye onyinye ozugbo na ibe ha, site na ịpị akara ngosi nke onye kere ego.
 
-[Bọtịnụ onye okike ego](/content-images/fund-creator-ac59aee7bf.webp)
+![Fund creator button](/content-images/fund-creator-ac59aee7bf.webp)
 
-Ma ọ bụ, site n'ime post, chọọ bọtịnụ gbakwunyere na-ese n'elu mmiri. Site ebe a, ị nwere ike inye onyinye nye onye okike ma ọ bụ kwalite post na Free2Z.
+Ma ọ bụ, site n'ime post, chọọ bọtịnụ floating plus. Site ebe a, ị nwere ike inye onyinye nye onye kere ihe ma ọ bụ kwalite post ahụ na Free2Z.
 
-![Mkpịsị aka na-ese n'elu mmiri n'ime post](/content-images/post-floating-buttons-a1e2ef1102.webp)
+![Floating action buttons inside a post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
-## Mgbasa Ozi Ndụ
+## Ngụgharị dị ndụ
 
-Free2z ikpo okwu na-enye ihe dị egwu a na-akpọ Free2Z Live. Site na ngwá ọrụ a, ndị okike nwere ike ịmalite ndụ iyi maka ndị debanyere aha. Ụfọdụ isi atụmatụ nke Free2 z Live gụnyere: 
-- Ihe ọdịyo na vidiyo 
-- Ekekọrịta ihuenyo 
-- Mmekọrịta koodu edezi 
-- Mkparịta ụka 
-- Ihe odide ọcha 
-- E nwekwara ọtụtụ ihe ndị ọzọ!
+Ikpo okwu Free2z na-enye atụmatụ dị egwu akpọrọ Free2z Live. Site na ngwa a, ndị okike nwere ike ịmalite mgbasa ozi ndụ maka ndị otu debanyere aha. Ụfọdụ atụmatụ dị mkpa nke Free2z Live gụnyere: 
+- Ọdịyo na vidiyo 
+- Nkesa ihuenyo 
+- Mmezi koodu mmekorita 
+- Nkata 
+- Ịcha ọcha 
+- Na ọtụtụ ihe ndị ọzọ!
 
-### Kedu ihe ị nwere ike ime na Free2z Live
+### Kedu ihe ị ga - eme na Free2z Live
 
-Free2z Live is a powerful tool, allowing creators to stream any type of content. Here are a few examples of the type of content you can stream with Free2z Live:  
+Free2z Live bụ ngwaọrụ dị ike, na-enye ndị okike ohere ịfesa ụdị ọdịnaya ọ bụla. Lee ihe atụ ole na ole nke ụdị ọdịnaya ị nwere ike ịfesa na Free2z Live: 
 - Nkuzi na ngosipụta 
-- Egwuregwu na ihe omume 
-- Ọrụ Mmekọrịta 
-- Akụkọ ndụ na akwụkwọ akụkọ 
-- Ihe okike gị bụ njedebe!
+- Ihe ngosi na ihe omume 
+- Ọrụ mmekorita 
+- Akụkọ na akụkọ ndụ 
+- Ihe okike gị bụ oke!
 
-### Etu esi aga ndụ
+### Otu esi ebi ndụ
 
-Ọ dị mfe ịmalite iyi ndụ na Free2z Live. Ma enwere ihe ole na ole achọrọ tupu ị nwee ike ịmalite iyi gị. 
-1. Onye okike ** ga ** nwere opekempe ** ọnụahịa onye otu ** nke 10 2Zs. 
-2. Onye okike ** ga-enwerịrị ọ dịkarịa ala 150 2Zs na akaụntụ ha. 
+Ọ dị mfe ịmalite mgbasa ozi ndụ site na Free2z Live. Mana enwere ihe ole na ole achọrọ tupu ịmalite mgbasa ozi gị. 
+1. Onye kere **ga-enwerịrị opekata mpe **ọnụ ahịa onye otu** nke 10 2Z. 
+2. Onye kere **aghaghị inwe nguzozi nke opekata mpe 150 2Z na akaụntụ ya. 
 
-Ọ bụrụ na onye okike zutere ** abụọ ** nke ọnọdụ dị n'elu, akara ngosi a na-akpọ ** Go Live ** ga-adịrị ha na ibe profaịlụ ha.
+Ọ bụrụ na onye kere ihe ahụ emee **ihe abụọ a** n'ime ihe ndị dị n'elu, akara ngosi aha ya bụ **Gaa Ndụ** ga-adị na ibe profaịlụ ha.
 
-[Gaa Live bọtịnụ](/content-images/go-live-4c8ac67505.webp)
+![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-To start a live stream, just click the **Go Live** button, and the Free2z app will ask for permission to use your microphone and webcam (if you have one). After you grant the necessary permissions, Free2z will ask you to enter a nickname that you want to use during the live stream. Once you have selected a nickname, click **Join** to start your live stream.
+Iji malite mgbasa ozi dị ndụ, pịa bọtịnụ **Gaa Ndụ**, ngwa Free2z ga-arịọ maka ikike iji igwe okwu na kamera weebụ gị (ọ bụrụ na ị nwere otu). Mgbe ị nyechara ikike dị mkpa, Free2z ga-arịọ gị ka ị tinye aha otutu ịchọrọ iji n'oge mgbasa ozi dị ndụ. Ozugbo ị họrọla aha otutu, pịa **Sonye** iji malite mgbasa ozi dị ndụ gị.
 
-[Họrọ aha otutu maka ndụ iyi](/content-images/select-nickname-414444b992.webp)
+![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
-Mgbe ị malitere ndụ iyi, profaịlụ gị ga-egosi akara ngosi na-egosi na ị dị ndụ, yabụ ndị debanyere aha gị nwere ike isonye na ndụ iyi.
+Emechaala! Mgbe ị malitere mgbasa ozi dị ndụ, profaịlụ gị ga-egosi akara ngosi na-egosi na ị nọ ndụ, ka ndị debanyere aha gị wee nwee ike isonye na mgbasa ozi dị ndụ.
 
-[Ịbanye na ndụ!](/content-images/join-livestream-679334ba53.webp)
+![Joining a livestream](/content-images/join-livestream-679334ba53.webp)
 
-Mgbe ndị mmadụ sonyere na ndụ iyi, ha nwere ike ikori, jụọ isonyere ogbo, emekọrịta site ịtụ vootu na ntuli aka, na ndị ọzọ.
+Mgbe ndị mmadụ sonyere na mgbasa ozi ahụ, ha nwere ike ịkparịta ụka, rịọ ka ha sonye na ikpo okwu, soro ndị mmadụ kparịta ụka site na ịtụ vootu na ntuli aka, na ihe ndị ọzọ.
 
-![Ihe atụ nke Free2z Live nnọkọ](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Ihe atụ nke Free2z Live nnọkọ)_
+_(Ihe atụ nke nnọkọ Free2z Live)_
 
-Free2z Live bụ ihe dị iche iche ma dị ike. Na ngalaba na-esote, m ga-enye nkọwa nke ọrụ ya na ngwaọrụ ya.
+Free2z Live nwere ọtụtụ ọrụ dị iche iche ma dịkwa ike. N'akụkụ na-esote, m ga-enye nkọwa zuru ezu gbasara ọrụ na ngwaọrụ ya.
 
 ### Na-enyocha Free2z Live
 
-Wiki-doc a abụghị maka nduzi zuru oke na Free2z ma ọ bụ Free2Z Live. Ma ebe a bụ nkọwa zuru ezu nke ngwaọrụ ya.
+E bughị n'obi ka wiki-doc a bụrụ ntuziaka miri emi maka Free2z ma ọ bụ Free2z Live. Mana lee nkọwa zuru oke nke ngwaọrụ ya.
 
-N'akụkụ aka ekpe nke ihuenyo ahụ, anyị na-ahụ bọtịnụ ole na ole.
+N'aka ekpe ala nke ihuenyo ahụ, anyị na-ahụ bọtịnụ ole na ole.
 
-[N'okpuru aka ekpe na-achịkwa!](/content-images/free2z-live-left-60b450b01c.webp)
+![Bottom left controls](/content-images/free2z-live-left-60b450b01c.webp)
 
-Ọrụ dị mma ebe a bụ ike ịkekọrịta ihuenyo gị ka ndị ọrụ ndị ọzọ nwee ike ịhụ ihe ị na-eme.
+Ọrụ dị mma ebe a bụ ike ịkekọrịta ihuenyo gị ka ndị ọrụ ndị ọzọ wee hụ ihe ị na-eme.
 
-N'ala ala anyị nwere ike ịchọta nhọrọ ndụ iyi.
+N'okpuru anyị nwere ike ịchọta nhọrọ mgbasa ozi dị ndụ.
 
-[Ogwe ngwaọrụ ala](/content-images/free2z-live-bottom-ae64a6960c.webp)
+![Bottom toolbar](/content-images/free2z-live-bottom-ae64a6960c.webp)
 
 Ụfọdụ n'ime nhọrọ ndị dị mkpa ebe a bụ: 
-- Igwe okwu / unmute igwe okwu 
-- Kwado / gbanyụọ kamera weebụ 
-- Sinụ n'elu ikpo okwu pụọ 
-- Gbanyụọ ndị ọkà okwu niile 
+- Mechie olu okwu / meghee olu okwu 
+- Gbanye / gbanyụọ kamera weebụ 
+- Hapụ ebe a na-eme ihe nkiri 
+- Mechie ndị ọkà okwu niile ọnụ 
 - Hapụ 
 
-Iji kwụsị ndụ iyi, ị kwesịrị ịpị bọtịnụ 'Leave', wee pịa 'End meeting for all' iji kwụsị nzukọ maka ndị niile sonyere.
+Iji kwụsị mgbasa ozi dị ndụ, ị kwesịrị ịpị bọtịnụ 'Hapụ', wee pịa 'Kwụsị nzukọ maka mmadụ niile' iji kwụsị nzukọ ahụ maka ndị niile sonyere.
 
-[N'okpuru aka nri panel mmekọrịta](/content-images/free2z-live-right-c83cb6d209.webp)
+![Bottom right interaction panel](/content-images/free2z-live-right-c83cb6d209.webp)
 
-Igodo aka nri dị n'okpuru nwere ọrụ metụtara mmekọrịta ndụ, dịka: 
-- **Nkwurịta okwu**: Nke a na-enye ndị sonyere ohere ikwurịta okwu n'etiti onwe ha na onye ọbịa n'oge iyi ndụ. 
-- **Nghoputa**: Nke a na-enye onye ọbịa ohere ịmepụta ntuli aka ma nakọta nzaghachi site n'aka ndị sonyere. 
-- **Ndepụta nke ndị sonyere**: Nke a na-egosi ndepụta nke ndị so na ndụ iyi. 
-- ** Plugins **: Nke a na-enye onye ọbịa ohere ịgbakwunye plugins na ndọtị iji melite ahụmịhe ndụ.
+Bọtịnụ aka nri dị n'ala nwere ọrụ ndị metụtara mmekọrịta mgbasa ozi dị ndụ, dịka: 
+- **Nkata**: Nke a na-enye ndị sonyere ohere ịkparịta ụka n'etiti onwe ha na onye na-akwado ha n'oge mgbasa ozi dị ndụ. 
+- **Ntuli Aka**: Nke a na-enye onye ọbịa ohere ịmepụta ntuli aka ma chịkọta nzaghachi sitere n'aka ndị sonyere. 
+- **Ndepụta ndị sonyere**: Nke a na-egosi ndepụta ndị sonyere na mgbasa ozi ndụ. 
+- **Plugins**: Nke a na-enye onye ọbịa ohere ịgbakwunye plugins na ndọtị iji melite ahụmịhe mgbasa ozi dị ndụ.
 
-[Ihe nkwụnye panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
+![Plugins panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
 
-It's not the purpose of this wiki-doc to explain all the plugins, but I really encourage you to try every one, as they all offer great interaction value between creators and viewers. To launch a plugin, simply click the 'rocket' button on the right.
+Ọ bụghị nzube nke wiki-doc a ịkọwa plugins niile, mana ana m agba gị ume ka ị nwalee ha niile, ebe ha niile na-enye ezigbo mmekọrịta n'etiti ndị okike na ndị na-ekiri ha. Iji malite plugin, pịa bọtịnụ 'rocket' n'aka nri.
 
 ## Mmechi
 
-In conclusion, Free2z is a versatile platform for creators to showcase their abilities, share knowledge and raise funds for their projects, and engage with their supporters through the powerful tool of Free2z Live.
+Na mmechi, Free2z bụ ikpo okwu dị iche iche maka ndị okike iji gosipụta ikike ha, kesaa ihe ọmụma ma chịkọta ego maka ọrụ ha, ma soro ndị na-akwado ha kparịta ụka site na ngwa dị ike nke Free2z Live.
 
 ----
 
-### Akụnụba
+### akụrụngwa
 
 [Free2z](https://free2z.cash/)  
-[Free2z akwụkwọ](https://free2z.cash/docs/)  
-[2Z Nchịkọta](https://free2z.cash/docs/2Zs/)  
-[Ịmepụta profaịlụ](https://free2z.cash/docs/creators/creating-a-profile)  
-[Gịnị bụ Free2z Live?](https://free2z.cash/docs/creators/free2z-live)  
-[Free2z maka ndị na-akwado](https://free2z.cash/docs/category/for-supporters)
+[Akwụkwọ Free2z](https://free2z.cash/docs/)  
+[Nchịkọta 2Z](https://free2z.cash/docs/getting-started/tuzis)  
+[Ịmepụta profaịlụ](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[Kedu ihe bụ Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2z maka ndị na-akwado ya](https://free2z.cash/docs/category/for-supporters)
 
 ---
 
-E dere site James Katz maka Zechub.
+_E dere ya site n'aka James Katz maka Zechub._

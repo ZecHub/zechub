@@ -66,14 +66,14 @@ Kwa mawakala wa AI kushughulikia mtiririko nyeti kazi, utafiti kisheria, maswali
 
 ### Kijitabu cha Kulinganisha Faragha
 
-Mali ya mtu Chains Umma (USDC, ETH) Zimppy Shielded Zimppy Transparent.
+| Mali | Minyororo ya Umma (USDC, ETH) | Zimpy Iliyolindwa | Zimpy Uwazi |
 |---|---|---|---|
-**Mpelekeshaji**. Inaonekana. Imefichwa. Inadhihirika.
-** Mpokeaji** inayoonekana. encrypted. kwa-changamoto (unlinkable)
-** Kiasi** Inaonekana. Imefichwa. Inayoonekana.
-** Memo**. inayoonekana. encrypted N/A.
-**Kinga ya Kucheza tena** Hakuna. Memo binding Per-changamoto T-anwani.
-** Service Usage Pattern**. Linkable  Private Unlinkable (fresh addr) * Kiwango cha matumizi ya huduma*: %s
+| **Mtumaji** | Inaonekana | Imesimbwa kwa njia fiche | Inaonekana |
+| **Mpokeaji** | Inaonekana | Imesimbwa kwa njia fiche | Kwa kila changamoto (haiwezi kuunganishwa) |
+| **Kiasi** | Inaonekana | Imesimbwa kwa njia fiche | Inaonekana |
+| **Kumbukumbu** | Inaonekana | Imesimbwa kwa njia fiche | N/A |
+| **Ulinzi wa Kurudia** | Hakuna | Kufunga kumbukumbu | Anwani ya T kwa kila changamoto |
+| **Mfumo wa Matumizi ya Huduma** | Inaweza kuunganishwa | Privat | Haiwezi kuunganishwa (anwani mpya) |
 
 ### Tatizo la Urefu wa Muda, Litatatuliwa na Vikao vya Mazungumzo
 
@@ -388,16 +388,16 @@ let resp = client
 
 ## CLI Marejeleo
 
-Amri Maelezo.
+| Amri | Maelezo |
 |---|---|
-| `npx zimppy wallet create` ◯ Kuzalisha funguo na kuonyesha maneno ya mbegu.
-| `npx zimppy wallet whoami` ☐ Kuonyesha anwani (UA + T-addr), usawa, mtandao.
-| `npx zimppy wallet balance --all` ◯ Kugawa kwa usawa wa akaunti.
-| `npx zimppy wallet send <addr> <zat>` Tuma ZEC iliyohifadhiwa au ya uwazi.
-| `npx zimppy wallet transfer <from> <to> <zat>` Kuhamisha fedha ndani ya akaunti.
-| `npx zimppy wallet shield` ◯ Kuhamisha fedha za wazi kwenye Orchard (zilizohifadhiwa) ▸
-| `npx zimppy wallet use <name>` Badilisha kitambulisho cha mkoba wa kazi.
-| `npx zimppy request <url>` ◯ Auto 402 -> kulipa -> ombi la jaribu tena.
+| `npx zimppy wallet create` | Tengeneza funguo na onyesha kifungu cha mbegu |
+| `npx zimppy wallet whoami` | Onyesha anwani (UA + T-addr), salio, mtandao |
+| `npx zimppy wallet balance --all` | Mchanganuo wa salio kwa kila akaunti |
+| `npx zimppy wallet send <addr> <zat>` | Tuma ZEC iliyolindwa au inayoonekana wazi |
+| `npx zimppy wallet transfer <from> <to> <zat>` | Uhamisho wa ndani wa akaunti tofauti |
+| `npx zimppy wallet shield` | Hamisha fedha zinazoonekana wazi hadi Orchard (zimefunikwa) |
+| `npx zimppy wallet use <name>` | Badilisha utambulisho wa pochi inayotumika |
+| `npx zimppy request <url>` | Otomatiki 402 -> lipa -> ombi la kujaribu tena |
 
 ---
 
@@ -463,27 +463,27 @@ packages/
 
 ## Mifano & Demos
 
-Mfano. Maelezo.
+| Mfano | Maelezo |
 |---|---|
-| `examples/fortune-teller/`  Malipo, kikao na Streaming demos - Rust server + mteja.
-| `examples/llm-summarizer/` ¢ TM pay-kwa ishara LLM Streaming demo.
-| `examples/mcp-server/` MCP chombo server na zana kulipwa AI.
-| `examples/ts-server/` DATA-REFERENCE TYPEScript MPP server utekelezaji.
+| `examples/fortune-teller/` | Chaji, kipindi, na maonyesho ya utiririshaji - Seva ya kutu + mteja |
+| `examples/llm-summarizer/` | Onyesho la utiririshaji la LLM la malipo kwa kila tokeni |
+| `examples/mcp-server/` | Seva ya zana ya MCP yenye zana za akili bandia zinazolipishwa |
+| `examples/ts-server/` | Utekelezaji wa marejeleo ya seva TypeScript MPP |
 
 ---
 
 ## Mambo Yaliyo Ndani - Muhtasari wa Sehemu za Kitabu hicho
 
- Sifa  Maelezo 
+| Kipengele | Maelezo |
 |---|---|
-**Sessions**. amana mara moja, ombi la mtoaji wa papo hapo, kurejesha juu ya kufunga.
-** Streaming** Pay-kwa ishara kipimo maudhui juu SSE.
-** Malipo**. Shielded au uwazi malipo kwa ombi HTTP (402 mtiririko)
-** Malipo ya Uwazi** T-anwani na kwa changamoto kuzuia replay + ngao amri.
-| **Multi-Account** | ZIP-32 account rotation, cross-account transfers, per-account balances |
-Tuma, kulinda, kuhamisha, usawa - wote, whoami, auto-kulipa.
-** Dual SDK** TypeScript na Rust.
-** Spec-Compliant** HMAC-SHA256 changamoto, RFC 9457 makosa, `/.well-known/payment` uvumbuzi.
+| **Vipindi** | Amana mara moja, maombi ya mtoa huduma papo hapo, marejesho ya pesa yanapofungwa |
+| **Inatiririsha** | Maudhui yaliyopimwa kwa kila tokeni kupitia SSE |
+| **Chaji** | Malipo yaliyolindwa au ya uwazi kwa kila ombi la HTTP (mtiririko wa 402) |
+| **Malipo ya Uwazi** | Anwani za T zenye amri ya kuzuia marudio kwa kila changamoto + ngao |
+| **Akaunti Nyingi** | Mzunguko wa akaunti ya ZIP-32, uhamisho wa akaunti mtambuka, salio kwa kila akaunti |
+| **Pochi ya CLI** | Tuma, ngao, uhamisho, salio --all, whoami, lipa kiotomatiki |
+| **SDK mbili** | TypeScript na Kutu |
+| **Inafuata Maalum** | Changamoto za HMAC-SHA256, makosa ya RFC 9457, `/.well-known/payment` ugunduzi |
 
 ---
 

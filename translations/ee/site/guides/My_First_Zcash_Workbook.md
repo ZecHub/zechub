@@ -147,7 +147,7 @@ Nɔnɔmetata siawo ɖenɛ fiana nuxlẽlawo be mɔ̃ɖaŋudɔwɔlawo, aɖaŋuwɔ
 
 Akpa mamlɛtɔ kpe nuxlẽlawo be woazu Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa ƒe akpa aɖe. Mɔnukpɔkpɔawo dometɔ aɖewoe nye:
 
-- Zcash Xexeame Katã ƒe Masɔmasɔ me nɔnɔ 
+- Zcash Xexeame Katã ƒe Discord me nɔnɔ 
 - Gomekpɔkpɔ le nutoa me yɔyɔwo kple dɔwɔhawo me 
 - Kpekpeɖeŋunana le dɔwɔgbalẽ gɔmeɖeɖe siwo ava va me 
 - Do alɔ hehenana si woate ŋu azã faa 
@@ -156,7 +156,7 @@ Akpa mamlɛtɔ kpe nuxlẽlawo be woazu Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖ
 
 Gbedasia me kɔ: amesiame ate ŋu akpɔ gome le eme, eye nutoa me tɔwo xɔa nudzɔla siwo tso teƒe vovovowo kple aɖaŋu vovovowo.
 
-[Zcash Xexeame Katã ƒe Masɔmasɔ](https://discord.gg/F6DCkCDK)
+[Zcash Xexeame Katã ƒe Discord](https://discord.gg/F6DCkCDK)
 
 ---
 

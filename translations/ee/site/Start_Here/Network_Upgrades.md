@@ -7,11 +7,11 @@ Ne èdi ŋutinya si wokpɔna le alesi Zcash ƒe adzamenyawo trɔ le ŋgɔyiyi si
 | Dodo ɖe ŋgɔ | Dɔwɔwɔ (UTC) | Block | Alɔdzedɔwɔƒe ƒe id | Nusi wòtrɔ |
 |---|---|---|---|---|
 | [Sprout](../zcash-tech/sprout) | Dzove 28, 2016 | ƒe gɔmedzedze | 00000000 | The launch: gbãtɔ si wokpɔ ta na kple zk-SNARK ame ŋutɔ ƒe asitsatsa |
-| [Dzomeŋɔli](../zcash-tech/overwinter) | Dzove 26, 2018 | 347,500 ƒe xexlẽme | 5ba81b19 ƒe xexlẽme | Gbugbɔ ƒoƒo takpɔkpɔ, asitsatsa ƒe tɔtrɔ, kple eƒe nuwuwu, eyata ŋgɔyiyi dedie va te ŋu dzɔ |
+| [Overwinter](../zcash-tech/overwinter) | Dzove 26, 2018 | 347,500 ƒe xexlẽme | 5ba81b19 ƒe xexlẽme | Gbugbɔ ƒoƒo takpɔkpɔ, asitsatsa ƒe tɔtrɔ, kple eƒe nuwuwu, eyata ŋgɔyiyi dedie va te ŋu dzɔ |
 | [Sapling](../zcash-tech/sapling) | Dzove 29, 2018 | 419,200 ƒe xexlẽme | 76b809bb ƒe xexlẽme | Asitsatsa siwo wokpɔ ta na nyuie, kabakaba ale gbegbe na telefonwo kple gakotoku siwo me wozãa xɔtunuwo le |
-| [Seƒoƒo ƒe ʋuʋu](../zcash-tech/blossom) | Dzove 11, 2019 | 653,600 ƒe xexlẽme | 2bb40e60 ƒe xexlẽme | Block siwo le kabakaba wu, abe sɛkɛnd 75 ene, kple throughput si lolo wu |
-| [Dzimeƒu ƒe ati](../zcash-tech/heartwood) | Dzove 16, 2020 | 903,000 ƒe xexlẽme | f5b9230b | Tomenukuƒe ƒe teƒeɖoɖo siwo wokpɔ ta na kple asisi siwo le bɔbɔe wu (FlyClient) |
-| [Canopy ƒe xɔmenuwo](../zcash-tech/canopy) | Dzove 18, 2020 | 1,046,400 ƒe xexlẽme | e9ff75a6 ƒe ƒuƒoƒo | Hlɔ̃nyawo Gbɔkpɔha, si nye afã gbãtɔ ɖeɖeɖa, kple Sprout-ta la ƒe ʋuʋu |
+| [Blossom](../zcash-tech/blossom) | Dzove 11, 2019 | 653,600 ƒe xexlẽme | 2bb40e60 ƒe xexlẽme | Block siwo le kabakaba wu, abe sɛkɛnd 75 ene, kple throughput si lolo wu |
+| [Heartwood](../zcash-tech/heartwood) | Dzove 16, 2020 | 903,000 ƒe xexlẽme | f5b9230b | Tomenukuƒe ƒe teƒeɖoɖo siwo wokpɔ ta na kple asisi siwo le bɔbɔe wu (FlyClient) |
+| [Canopy](../zcash-tech/canopy) | Dzove 18, 2020 | 1,046,400 ƒe xexlẽme | e9ff75a6 ƒe ƒuƒoƒo | Hlɔ̃nyawo Gbɔkpɔha, si nye afã gbãtɔ ɖeɖeɖa, kple Sprout-ta la ƒe ʋuʋu |
 | [NU5](../zcash-tech/nu5) | Dzove 31, 2022 | 1,687,104 ƒe xexlẽme | c2d6d0b4 ƒe ƒuƒoƒo | Orchard ƒe ta si le Halo 2 (ɖoɖo si dzi woka ɖo aɖeke meli o), adrɛs siwo wɔ ɖeka, kple v5 ƒe asitsatsa |
 | [NU6](../zcash-tech/nu6) | Dzove 23, 2024 | 2,726,400 ƒe xexlẽme | c8e71055 ƒe ƒuƒoƒo | Deferred Dev Fund Lockbox kple ŋgɔyiyi ƒe ga yeye si woma |
 | [NU6.1](../zcash-tech/nu6-1) | Dzove 24, 2025 | 3,146,400 ƒe xexlẽme | 4dec4df0 ƒe ɣleti gbãtɔ | Nutoa me kple gaku-xɔlawo ƒe dziɖuɖu le gadodo ma me |

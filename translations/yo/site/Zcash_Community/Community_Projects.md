@@ -10,7 +10,7 @@
 Ìwé iṣẹ́ ìkọ̀wé tí àwùjọ Zcash lágbàáyé dá. 
 [Ìbẹ̀wò](https://github.com/massadoptionorg/My-First-Zcash)
 
-### ZECÌwéjáde
+### ZECPublish
 Ojú-ìwòye, Zcash blockchain-powered social media. A ní ìwé atọ́ka àwọn oníṣe Zcash àti àtẹ ìsọfúnni tí kò mọ ẹni tó ń lò ó nínú rẹ̀. 
 [Ìbẹ̀wò](https://www.zecpublish.com)
 
@@ -42,7 +42,7 @@ Awọn lẹta ẹkọ ti o ni kikun nipa imọ-ẹrọ Zcash, cryptography, ọr
 Àwọn ohun èlò ìkọ́nilẹ̀kò tí a ṣe fún àwọn olùlo Zcash tuntun àti àwọn tó ń ṣètò rẹ. 
 [Àjọ Ìjùmọ̀sọ́nà](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
-### Ìṣòro ìṣẹ́jú kan ṣoṣo
+### Zectastic
 Ojú-ìwé alágbèéká tí ó ní àwọn eré orí ìtàgé Zcash àti àpéjọ àwùjọ. 
 [Ìbẹ̀wò](https://zectastic.com/)
 
@@ -121,7 +121,7 @@ Oludasile si Ywallet ti o ṣe atilẹyin awọn ẹya Zcash protocol tuntun p�
 Àdánwò àpò owó orí kọ̀ǹpútà tí ó rọrùn fún Zcash, èyí ti a kọ̀wé sí Rust. 
 [Àjọ Ìjùmọ̀sọ́nà](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
-### Àpò-ìpamọ́ Gem
+### Gem Wallet
 Àpò-ìpamọ́ alágbàtà, àtòjọ ìsọfúnni tí ó ṣí sílẹ̀ tó sì ń ṣe ìdánwò ara ẹni ti o nṣe atilẹyin fun fifiranṣẹ, gbigba àti pàṣípààrọ̀ ZEC. 
 [Ìbẹ̀wò](https://gemwallet.com/)
 
@@ -179,7 +179,7 @@ Dashboard for real-time Zcash network statistics and shielding metrics.
 Aṣayan iṣawari ati awọn metiriki data fun iṣẹ idiyele ọja Zcash. 
 [Ìbẹ̀wò](https://zecprice.com)
 
-### Zlink (ìmọ̀ràn)
+### Zlink
 Atọ́ka fún wíwá àwọn ìjápọ, irinṣẹ́ àti àlàyé nípa ètò ìṣèdá Zcash. 
 [Ìbẹ̀wò](https://zlink.click)
 
@@ -188,7 +188,7 @@ Atọ́ka fún wíwá àwọn ìjápọ, irinṣẹ́ àti àlàyé nípa ètò �
 
 [Ìbẹ̀wò](https://zecmarket.org/)
 
-### Ìkókó tí ó wà nínú ìwé yìí
+### Zecsite
 A privacy-focused static website that aggregates Zcash news, statistics, and educational content without using JavaScript.
 
 [Ìbẹ̀wò](https://zecsite.org/netscape/en/index.html)
@@ -220,7 +220,7 @@ Awọn orukọ ti eniyan le ka fun awọn adirẹsi Zcash ni aabo (fun apẹẹr
 Àwòrán ìbúra tí a kò dárúkọ ẹni tó ń lo owó Zcash láti dáàbò bo ẹ̀mí ara rẹ. 
 [Ìbẹ̀wò](https://shieldedwall.org/)
 
-### Ìdọ̀tí
+### Ztrash
 Àpótí ìfìwéránṣẹ́ oní-e-mail tí a lè fi pa dà lò, èyí tá a sanwó rẹ̀ pẹ̀lú ZEC. 
 [Ìbẹ̀wò](https://ztrash.com/)
 
@@ -291,7 +291,7 @@ Zcash-abinibi DEX ti o mu awọn aabo ZEC sinu Web3 DeFi nipasẹ WalletConnect.
 Decreds decentralized exchange tí ó ń ṣe àtìlẹ́yìn fún Zcash. 
 [Ìbẹ̀wò](https://dex.decred.org)
 
-### Owó Àkáǹtì Onígboyà
+### Brave Wallet
 Àkáǹtì àwòkẹ́kò́ó pẹlú ìfọwọ́sowọpọ Zcash. 
 [Ìbẹ̀wò](https://brave.com/wallet/)
 

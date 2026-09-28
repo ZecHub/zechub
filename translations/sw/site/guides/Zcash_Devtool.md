@@ -13,7 +13,7 @@ Kris Nuttycombe (@nuttycom) aliwasilisha zana hii wakati wa ZconVI.
     src="https://www.youtube.com/embed/5gvQF5oFT8E"
     title="zcash-devtool: the Zcash development multitool with Kris Nuttycombe - ZconVI"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

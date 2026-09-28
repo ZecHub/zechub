@@ -108,3 +108,4 @@ TipZ Payment Flow
 Fan -> tipz.cash Protocol -> Creator's Wallet (Shielded ZEC)
 
 Fan selects amount + message -> Protocol auto-converts -> Creator receives private shielded ZEC
+```

@@ -80,7 +80,7 @@ ZIP 227 навмисно зберігає **випуск прозорим**, щ�
 
 **Запустіть демо самостійно!**
 
-Клонуйте репозиторій zcash-tx-tool: <https://github.com/QED-it/zcash_tx_tool>
+Клонуйте репозиторій zcash-tx-tool: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Пропозиції щодо вдосконалення Zcash (ZIP)
 

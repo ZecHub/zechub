@@ -22,7 +22,7 @@ ZecHub nlo GitHub lati ṣakoso awọn ọrẹ agbegbe. Ti o ba jẹ tuntun si G
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -57,7 +57,7 @@ Eyi ni apẹẹrẹ ẹkọ-ẹkọ ti o wa ni isalẹ:
     src="https://www.youtube.com/embed/qz4KzDjkqu8"
     title="WSL Install + Zcashd Compile/Transaction Tutorial"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -88,7 +88,7 @@ Bí o bá rí i pé ìjápọ̀ kan ti bàjẹ́, tàbí nǹkan pàtàkì tí a 
 
 #### Ìwé ìròyìn - 0.05 ZEC fún ìtẹ̀jáde kan
 
-A ṣe ìwé ìròyìn ọ̀sọ̀ọ̀sẹ̀ nípa àwọn ètò ìgbé ayé. Èyí jẹ́ ọ̀nà dídára láti kópa! Ìwé ìròyìn náà máa ń jáde ní gbogbo ọjọ́ Friday tàbí Saturday. Bí o bá fẹ́ kọ àkọsílẹ̀ kan, fi àtẹ @squirrel sínú abala #zecweekly ti Àìfohùnṣọ̀kan kí wọn lè mọ̀.
+A n ṣe iwe iroyin osẹ-ọsẹ ti eto-ẹda. Eyi jẹ ọna ti o rọrun lati kopa! Iwe iroyin naa n jade ni gbogbo ọjọ Jimọ tabi Satidee. Ti o ba fẹ kọ iwe iroyin kan, fi ifiranṣẹ ranṣẹ si @squirrel ni apakan #zecweekly ti Discord lati jẹ ki wọn mọ.
 
 Lẹ́yìn tó o bá ti ṣe èyí, wàá lè lọ sí ilé ìtura. [abala ìwé ìròyìn ti ibi ìpamọ́ yìí.](/newsletter/newsletterbasics.md) ati fi ohun ti o fa ibeere lati ṣẹda titun kan edition ti awọn iwe iroyin. Jọwọ tẹle ni ọna kika lo ninu yi [àdàkọ:](/newsletter/newslettertemplate.md).
 
@@ -108,6 +108,6 @@ Awọn ẹsan fun iru akoonu yii jẹ diẹ ti o tobi, nitorinaa a nilo lati fi 
 
 ### Kí N Tó parí Ìkẹ́kọ̀ọ́ Mi
 
-Jọwọ ma ṣe ṣiyemeji lati bẹrẹ si ni idasi fun ọkan ninu awọn ile ise ká julọ bọwọ protocols. yi jẹ nla kan ona lati gba lowo pẹlu zcash. ti o ba ti o ni eyikeyi ibeere nipa didasilẹ, jọwọ fi wa mọ lori Zcash . [Ìjàǹbá ọkàn](#join-the-conversation).
+Jọwọ ma ṣe ṣiyemeji lati bẹrẹ si ni idasi fun ọkan ninu awọn ile ise ká julọ bọwọ protocols. yi jẹ nla kan ona lati gba lowo pẹlu zcash. ti o ba ti o ni eyikeyi ibeere nipa didasilẹ, jọwọ fi wa mọ lori Zcash . [Discord](#join-the-conversation).
 
 Ẹ ṣeun!

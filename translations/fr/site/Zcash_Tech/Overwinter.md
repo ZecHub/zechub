@@ -44,12 +44,12 @@ Overwinter a été la première mise à niveau du réseau Zcash après le lancem
 
 | Terme | Signification en langage simple |
 |---|---|
-| Mise à niveau du réseau (NU) | Un changement coordonné des règles de consensus de Zcash, activé à une hauteur de bloc donnée |
-| Identifiant de branche de consensus | Un identifiant court qui nomme l'ensemble actuel de règles de consensus |
-| Hauteur d'activation | Le bloc auquel les nouvelles règles d'une mise à niveau du réseau prennent effet |
-| Protection contre les replays | Une règle qui empêche qu'une transaction valide sur une chaîne soit réutilisée sur une autre |
+| Network upgrade (NU) | Un changement coordonné des règles de consensus de Zcash, activé à une hauteur de bloc donnée |
+| Consensus branch id | Un identifiant court qui nomme l'ensemble actuel de règles de consensus |
+| Activation height | Le bloc auquel les nouvelles règles d'une mise à niveau du réseau prennent effet |
+| Replay protection | Une règle qui empêche qu'une transaction valide sur une chaîne soit réutilisée sur une autre |
 | Mempool | L'ensemble des transactions qui ont été diffusées mais pas encore minées dans un bloc |
-| Expiration des transactions | Une hauteur de bloc d'expiration après laquelle une transaction non minée est abandonnée |
+| Transaction expiry | Une hauteur de bloc d'expiration après laquelle une transaction non minée est abandonnée |
 
 ## FAQ
 

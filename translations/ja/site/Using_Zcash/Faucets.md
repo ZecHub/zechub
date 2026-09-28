@@ -11,8 +11,6 @@
 
 メインネット: <a href="https://zecfaucet.com">zecfaucet</a>
 
-テストネット: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
-
 テストネット: <a href="https://fauzec.com/">fauzec.com</a>
 
 テストネット: <a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>

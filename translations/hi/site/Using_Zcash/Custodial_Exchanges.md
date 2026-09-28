@@ -125,13 +125,13 @@ ___
 - Ironwood: लागू नहीं, केवल पारदर्शी पते
 ___
 
-## [OKEx](https://okex.com)
+## [OKX (पूर्व में OKEx)](https://www.okx.com)
 
-<a href="https://okex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
+<a href="https://www.okx.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
-- वेबसाइट: [OKEx](https://okex.com)
+- वेबसाइट: [OKX](https://www.okx.com)
 - जोड़े: ALL/ZEC
 - समर्थित: पारदर्शी
 - जमा समय: 25 मिनट 

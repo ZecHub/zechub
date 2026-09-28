@@ -441,5 +441,5 @@ Dze egɔme kple Testnet nenye be ɖeko nèle dɔwɔwɔ ƒe ɖoɖoa dom kpɔ. Kp�
 
 **Zcash Nukulawo**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash ƒe Masɔmasɔ**: [https://discord.akash.network](https://discord.akash.network) (na dɔwɔƒe si naa kpekpeɖeŋu ƒe nyawo)
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (na dɔwɔƒe si naa kpekpeɖeŋu ƒe nyawo)
 

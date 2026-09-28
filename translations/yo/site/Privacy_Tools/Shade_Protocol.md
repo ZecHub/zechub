@@ -2,7 +2,7 @@
 
 # Àkọsílẹ̀ Òjìji
 
-[Àmì Àdéhùn Òjìji](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Àmì Àdéhùn Òjìji](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
 ## Kí ni Ìlànà Òjìji?
 
@@ -14,7 +14,7 @@ Shade Protocol is a privacy preserving DeFi (Decentralized Finance) ecosystem th
 
 Shade Protocol ti wa ni itumọ lori Secret Network, a ipele 1 blockchain ti o pese ìpamọ ifipamọ smati awọn adehun. Secret Network nlo encrypted inputs, outputs, ati ipinle lati rii daju idunadura ìpamó, idaabobo olumulo data lati jije farahan lori gbangba ledger.
 
-[Àwòrán Ìkànnì Àṣírí](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+![Àwòrán Ìkànnì Àṣírí](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
 Secret Network enables developers to build decentralized applications with encrypted data, both natively on Secret and on other blockchains through cross chain communication, unlocking powerful new use cases for Web3.
 
@@ -23,7 +23,7 @@ Secret Network enables developers to build decentralized applications with encry
 Cosmos was created to interconnect heterogeneous blockchains by defining better and more modern ways to build these blockchains using new tools like Tendermint and the Cosmos SDK.  
 Ilana naa nlo Cosmos SDK, ilana modulu kan fun ikole awọn ohun elo blockchain ti o le ṣe iwọn ati ti o ni ibaramu. Eyi ngbanilaaye Ilana Shade lati ni anfani lati agbara ati ibaramu ti ilolupo eda abemi Cosmos.
 
-[Cosmos SDK àti Tendermint Core Diagram](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+![Cosmos SDK àti Tendermint Core Diagram](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
 
 Fun ifọkanbalẹ ati aabo nẹtiwọọki, Shade Protocol nlo Tendermint Core, eyiti o pese ifọwọsowọpọ Byzantine Fault Tolerant (BFT), ni idaniloju aabo giga ati ipari iyara.
 
@@ -57,7 +57,7 @@ As a DeFi platform, Shade Protocol operates without central control, providing u
 
 Being part of the Cosmos ecosystem means that Shade Protocol can easily interact with other blockchains, enhancing liquidity and providing more opportunities for users to leverage their assets across different networks. By utilizing privacy preserving technologies from the Secret Network, Shade Protocol ensures that these cross chain activities maintain confidentiality and integrity. This interoperability not only enhances the flexibility and functionality of decentralized applications but also fosters a more interconnected and robust blockchain ecosystem, reducing reliance on isolated networks and promoting broader adoption of decentralized finance solutions.
 
-[Àwòrán Ìṣiṣẹ́pọ̀](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+![Àwòrán Ìṣiṣẹ́pọ̀](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
 
 ## Ìparí
 
