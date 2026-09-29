@@ -1,7 +1,8 @@
 # Image alt-text report
 
 The image alt-text checker scans English Markdown pages under `site/` and
-reports accessibility problems without failing CI.
+reports accessibility problems without failing CI. The translated corpus under
+`site/zechubglobal/` is excluded from the default scan.
 
 It recognizes:
 
@@ -44,10 +45,14 @@ adding `"photo"` will flag `alt="PHOTO"` and `alt="  photo  "`.
 A descriptive phrase containing a placeholder word is not flagged: for example,
 `"ZecHub logo on a dark background"` does not equal the placeholder `"logo"`.
 
+## Current English baseline
+
+The reviewed default corpus is 223 English pages and 762 images, with 60 missing/empty alt descriptions and 105 placeholder descriptions. These are acceptance baseline numbers rather than a permanent threshold.
+
 ## CI behavior
 
 `.github/workflows/image-alt-text-report.yml` runs the parser test and then
-scans the complete `site/` corpus on relevant pull requests and on manual
+scans the English `site/` corpus (excluding `site/zechubglobal/`) on relevant pull requests and on manual
 dispatch.
 
 The scan is intentionally **report-only**. Missing, empty, and placeholder alt
