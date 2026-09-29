@@ -41,7 +41,7 @@ You already hold ZEC. Moving it into a Zcash wallet gets you the part that makes
 ZecHub doesn't pick one for you. Choose from the [ZecHub wallet directory](/wallets), and check two labels on the wallet's card before you install it:
 
 - **Ironwood: Ready.** Ironwood is the pool new shielded ZEC goes into since the [Ironwood upgrade](/zcash-tech/ironwood) on 28 July 2026. The older Orchard pool no longer accepts new funds.
-- **Automatic Shielding.** A wallet with this feature moves transparent ZEC into the shielded pool for you. On 27 September 2026 the directory marks Cake, Edge, eZcash and Vizor with it. Most other wallets show a **Shield** button instead.
+- **Automatic Shielding.** Useful if a payment lands transparent: the wallet moves that ZEC into the shielded pool for you. Do not treat this label as a substitute for **Ironwood: Ready**. A wallet can have Automatic Shielding and still lack an Ironwood pool (Edge is in that state on the directory today). Most other wallets show a **Shield** button instead.
 
 Install the wallet from the link on its directory card, not from a search result or an ad. Write the seed phrase on paper and keep it offline.
 
@@ -54,9 +54,9 @@ Your wallet shows two kinds of address:
 | `u1` | Unified Address | Nothing about you, but only when the payment lands in a shielded pool |
 | `t1` | Transparent address | Your address and the amount, forever, like on Solana |
 
-Use a `u1` that your wallet labels as shielded. A `u1` is a bundle of receivers, and some wallets put a transparent receiver in it next to the shielded one. A sender that can only pay transparent addresses will use that one, and your payment lands public even though you pasted a `u1`. Our test wallet's shielded address has no transparent receiver, so that couldn't happen. [Shielded pools](/using-zcash/shielded-pools) covers receivers in more detail. Some wallets show a new `u1` every time you open Receive; that's normal, and they all belong to you.
+Use a `u1` that your wallet labels as shielded. A `u1` is a bundle of receivers, and some wallets put a transparent receiver in it next to the shielded one. A sender that can only pay transparent addresses will use that one, and your payment lands public even though you pasted a `u1`. Our test wallet's shielded address has no transparent receiver, so that couldn't happen. [Shielded pools](/using-zcash/shielded-pools) covers receivers in more detail. Some wallets show a new `u1` every time you open Receive; that's normal, and they all belong to you. The receive screenshot and the near.com recipient field on this page use different `u1` prefixes for that reason.
 
-We used ZODL for our test because it was the wallet we had set up. Any wallet in the directory works the same way.
+We used ZODL for our test because it was the wallet we had set up. Only wallets the directory marks **Ironwood: Ready** can receive new shielded value.
 
 ---
 
@@ -72,7 +72,7 @@ Keep a little SOL in Phantom for the Solana fee.
 2. Tap **Deposit**. Set **Asset** to **Zcash**, **Network** to **Solana** and the method to **Wallet**.
 3. Enter the amount (or tap **Max**) and approve the transaction in Phantom.
 
-   ![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
 
 Our deposit landed in the Solana block at 15:09:08 (UTC+1) and solswap showed it as **Completed** nine seconds later.
 
@@ -91,15 +91,15 @@ If that happens to you, your ZEC isn't stuck. The balance is tied to your wallet
 1. Go to `near.com` and sign in with the same Phantom wallet.
 2. Your solswap balance appears under **Move legacy assets** (near.com calls balances from older NEAR Intents apps "legacy"). Tap **Withdraw** on the ZEC row. You don't need **Move**.
 
-   ![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
 
 3. Set **Network** to **Zcash**, paste your wallet's `u1` address as the **Recipient** and check the first and last six characters against your wallet.
 
-   ![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
 
 4. Tap **Review withdrawal**, read the summary and tap **Send**.
 
-   ![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
 
 5. Phantom asks you to **Sign Message** for near.com. This signature is what authorizes NEAR Intents to move your balance. It costs no SOL, but that doesn't make it harmless: a look-alike site can show the same request and empty your NEAR Intents balance with it. Before you tap **Confirm**, check all of these, and tap **Cancel** if any one fails:
    - The site named on the request is `near.com`. (The deposit in step 1 was an ordinary Phantom transaction request from `solswap.org`; check that name there the same way.)
@@ -107,11 +107,11 @@ If that happens to you, your ZEC isn't stuck. The balance is tied to your wallet
    - The message is readable text like the screenshot. If it's an unreadable blob, or the site doesn't match the one in your address bar, reject it.
    - It never asks for your seed phrase. Signing never involves typing it.
 
-   ![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
 
 6. near.com shows **Processing send**, **Sending** and **Complete**. **View on explorer** opens the NEAR Intents record of the transfer.
 
-   ![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
 
 ![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
 
