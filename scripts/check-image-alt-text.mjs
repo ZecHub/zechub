@@ -135,19 +135,19 @@ export function classifyImage(image, placeholders) {
   return "ok";
 }
 
-async function walkMarkdown(dir, out = []) {
-  let entries;
-  try {
-    entries = await readdir(dir, { withFileTypes: true });
-  } catch (error) {
-    if (error?.code === "ENOENT") return out;
-    throw error;
-  }
+async function walkMarkdown(dir, out = [], excludedDirNames = new Set()) {
+  // Missing or unreadable roots are operational errors. Do not silently turn a
+  // broken invocation into an empty successful report.
+  const entries = await readdir(dir, { withFileTypes: true });
 
   for (const entry of entries) {
     const path = `${dir}/${entry.name}`;
-    if (entry.isDirectory()) await walkMarkdown(path, out);
-    else if (entry.isFile() && entry.name.toLowerCase().endsWith(".md")) out.push(path);
+    if (entry.isDirectory()) {
+      if (excludedDirNames.has(entry.name)) continue;
+      await walkMarkdown(path, out, excludedDirNames);
+    } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".md")) {
+      out.push(path);
+    }
   }
   return out;
 }
@@ -190,7 +190,9 @@ export async function scanRepository({
   }
   const placeholders = new Set(rawPlaceholders.map(normalizeAlt));
 
-  const files = (await walkMarkdown(root)).sort();
+  // `site/zechubglobal/` is the translated corpus. The default report is
+  // intentionally English-only, matching the documented bounty scope.
+  const files = (await walkMarkdown(root, [], new Set(["zechubglobal"]))).sort();
   const pages = [];
   let totalImages = 0;
   let missing = 0;
