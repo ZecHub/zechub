@@ -4,37 +4,45 @@
 
 # Arborist Calls
 
-Zcash Arborist Calls are recurring protocol development meetings focused on network upgrade planning, consensus node implementation work, wallet and infrastructure dependencies, and protocol research.
+Zcash Arborist Calls ni mikutano ya mara kwa mara ya ukuzaji wa itifaki inayolenga upangaji wa uboreshaji wa mtandao, kazi ya utekelezaji wa nodi za makubaliano, utegemezi wa pochi na miundombinu, na utafiti wa itifaki.
 
-The official Arborist Calls page is maintained by the Zcash Foundation:
+Ukurasa rasmi Arborist Calls unasimamiwa na Zcash Foundation:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    Tafuta kwenye kumbukumbu ya simu
+  </a>
+</p>
 
 ## Jinsi ya Kujiunga
 
-Maombi yanabadilishana kati ya vipindi viwili vya mara kwa mara ili wachangiaji katika mikoa tofauti waweze kushiriki. Tumia ukurasa rasmi wa Zcash Foundation kwa faili za kalenda ya sasa na viungo vya Zoom:
+Simu hizo hubadilishana kati ya nafasi mbili za muda zinazojirudia ili wachangiaji katika maeneo tofauti waweze kushiriki. Tumia ukurasa rasmi Zcash Foundation kwa faili za kalenda za sasa na viungo vya Zoom:
 
-- **15:00 UTC** muda
+- **15:00 UTC** muda uliopangwa
 
+Ukurasa wa Foundation ndio chanzo cha ukweli kwa viungo vya usajili, faili za kalenda, na ufikiaji wa mikutano kwa sababu viungo vya mikutano vinaweza kubadilika.
 
-Ukurasa wa Foundation ni chanzo cha ukweli kwa viungo vya usajili, faili za kalenda, na ufikiaji wa mkutano kwa sababu viungo vinavyohusiana na mkutano vinaweza kubadilika.
+## Madokezo, Ajenda, na Rekodi
 
-## Maelezo, Ratiba, na Rekodi
+- Ajenda na daftari kamili: [maelezo ya arboretum](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Kumbukumbu inayoweza kutafutwa kwenye wiki hii: [Kumbukumbu Arborist Calls](/arborist-calls)
+- Rekodi za hivi karibuni: [Orodha ya kucheza ya simu ya Zcash Arborist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Majadiliano ya Utafiti na Maendeleo Zcash: [Discord R&D Zcash](https://discord.gg/xpzPR53xtU)
+- Majadiliano ya muda mrefu: [Jukwaa la Jumuiya ya Zcash](https://forum.zcashcommunity.com/)
 
-- Agendas kamili na dakika: [arboretum-maelezo](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Kurekodi hivi karibuni: [Zcash Arborist wito orodha ya kucheza](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash R & D majadiliano: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
-- Majadiliano ya muda mrefu: [Zcash Jamii Forum](https://forum.zcashcommunity.com/)
+## Nani Anapaswa Kuhudhuria
 
-## Ni Nani Wanaopaswa Kuhudhuria
+Arborist Calls ni muhimu kwa:
 
-Arborist Calls are useful for:
-
-- Mhandisi wa itifaki na watafiti
-- Node, mkoba, SDK, na lightwallet miundombinu watengenezaji
-- Wapokeaji wa ruzuku ambao kazi yao huathiri makubaliano, uboreshaji wa mtandao, au utegemezi wa itifaki
-- Wanachama wa jumuiya ambao wanataka kufuatilia kufanya maamuzi ya kiufundi katika umma
+- Wahandisi na watafiti wa itifaki
+- Wasanidi programu wa miundombinu ya Node, pochi, SDK, na pochi nyepesi
+- Wapokeaji wa ruzuku ambao kazi yao inagusa makubaliano, uboreshaji wa mtandao, au utegemezi wa itifaki
+- Wanajamii wanaotaka kufuata maamuzi ya kiufundi hadharani
 
 ## Orodha ya kucheza
 

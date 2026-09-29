@@ -75,12 +75,17 @@ Zcash 그랜트의 발견, 추적 및 검토 과정을 간소화하도록 설계
 [방문하기](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Orchard 중심의 Zcash 지갑으로, zebrad용으로 제작되었으며 완전히 실드된 거래와 안전한 키 관리를 지원합니다.  
+Zebrad 및 lightwalletd용으로 구축된 Orchard 우선 Zcash 지갑입니다. 완전히 실드된 송금/수신, 안전한 로컬 키 관리, Ironwood(NU6.3) 노트 및 Orchard에서 Ironwood로의 마이그레이션을 지원합니다. 사용자 대상 결제 흐름에서는 투명 주소가 거부됩니다.
+
 [방문하기](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 사용자가 실제 구매에 실드 처리된 ZEC를 사용할 수 있게 해주는 결제 게이트웨이입니다(현재 알파 단계).  
 [방문하기](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — Peer를 통해 Cash App, Chime, Monzo, Revolut, Venmo 또는 Zelle로 ZEC. ZEC는 USDC (NEAR)로 전환된 후, 매수자가 법정화폐 결제를 증명하면 Base의 Peer 주문이 USDC를 지급합니다. 매수자는 결제 앱 사용자 이름을 확인합니다. CEX가 아니며, ZEC-in-escrow 방식도 아닙니다.  
+[방문하기](https://zcashto.cash/)
 
 ### Zafu Wallet
 Zcash와 Penumbra를 위한 오픈소스 프라이버시 지갑입니다. 클라이언트 측 증명, 검증된 라이트 클라이언트 아키텍처, 콜드 서명, FROST 멀티시그, 그리고 뷰 키가 기기를 벗어나지 않는 브라우저 확장 프로그램입니다.  

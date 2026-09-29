@@ -75,12 +75,17 @@ Portefeuille Zcash multiplateforme, complet et facile à utiliser, prenant en ch
 [Visiter](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Portefeuille Zcash axé sur Orchard conçu pour zebrad, prenant en charge des transactions entièrement protégées et une gestion sécurisée des clés.  
+Portefeuille Zcash donnant la priorité à Orchard, conçu pour Zebrad et lightwalletd. Prend en charge l’envoi/la réception entièrement protégés, la gestion sécurisée des clés locales, ainsi que les notes Ironwood (NU6.3) et la migration de Orchard vers Ironwood. Les adresses transparentes sont refusées pour les flux de paiement destinés aux utilisateurs.
+
 [Visiter](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Passerelle de paiement qui permet aux utilisateurs de dépenser des ZEC protégés pour des achats dans le monde réel (actuellement en alpha).  
 [Visiter](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — ZEC vers Cash App, Chime, Monzo, Revolut, Venmo ou Zelle via Peer. ZEC est converti en USDC (NEAR), puis un ordre Peer sur Base libère les USDC après que le preneur a prouvé le paiement en monnaie fiduciaire. Le preneur voit un nom d’utilisateur d’application de paiement. Ce n’est pas un CEX, ni ZEC sous séquestre.  
+[Visiter](https://zcashto.cash/)
 
 ### Zafu Wallet
 Wallet de confidentialité open source pour Zcash et Penumbra. Extension de navigateur avec preuves côté client, architecture light-client vérifiée, signature à froid, multisig FROST, et aucune clé de vue ne quitte l’appareil.  

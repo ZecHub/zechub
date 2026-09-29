@@ -75,12 +75,17 @@ Pretty Good Policy for Zcash (PGPZ) 的社区中心。PGPZ 是一项位于华盛
 [访问](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-专为 zebrad 打造、以 Orchard 为核心的 Zcash 钱包，支持完全 shielded 的交易和安全的密钥管理。  
+为 Zebrad 和 lightwalletd 打造、以 Orchard 为先的 Zcash 钱包。支持完全 shielded 的发送/接收、安全的本地密钥管理，以及 Ironwood（NU6.3）notes 和 Orchard 到 Ironwood 的迁移。面向用户的支付流程会拒绝 transparent 地址。
+
 [访问](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 支付网关，让用户可以在现实世界购物中花费 shielded ZEC（目前处于 alpha 阶段）。  
 [访问](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — 通过 Peer 将 ZEC 兑换为 Cash App、Chime、Monzo、Revolut、Venmo 或 Zelle。ZEC 会先兑换为 USDC (NEAR)，然后 Base 上的 Peer 订单会在接单方证明法币付款后释放 USDC。接单方可看到支付应用用户名。不是 CEX，也不是 ZEC 托管。  
+[访问](https://zcashto.cash/)
 
 ### Zafu Wallet
 面向 Zcash 和 Penumbra 的开源隐私钱包。浏览器扩展，具备客户端 proving、经验证的 light-client 架构、冷签名、FROST 多重签名，并且 view key 不会离开设备。  

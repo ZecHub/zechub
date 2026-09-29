@@ -75,12 +75,17 @@
 [Відвідати](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Orchard-орієнтований Zcash гаманець, створений для zebrad, що підтримує повністю shielded транзакції та безпечне керування ключами.  
+Orchard-орієнтований насамперед на Zcash гаманець, створений для Zebrad і lightwalletd. Підтримує повністю екрановане надсилання/отримання, безпечне локальне керування ключами, а також нотатки Ironwood (NU6.3) і міграцію з Orchard до Ironwood. Прозорі адреси відхиляються у платіжних сценаріях для користувачів.
+
 [Відвідати](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Платіжний шлюз, який дозволяє користувачам витрачати shielded ZEC на покупки в реальному світі (зараз у стадії alpha).  
 [Відвідати](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — ZEC у Cash App, Chime, Monzo, Revolut, Venmo або Zelle через Peer. ZEC конвертується в USDC (NEAR), після чого ордер Peer на Base вивільняє USDC, коли тейкер підтвердить фіатний платіж. Тейкер бачить ім’я користувача платіжного застосунку. Не CEX і не передбачає зберігання ZEC в ескроу.  
+[Відвідати](https://zcashto.cash/)
 
 ### Zafu Wallet
 Гаманець приватності з відкритим кодом для Zcash і Penumbra. Розширення для браузера з client-side proving, перевіреною архітектурою light-client, cold signing, FROST multisig і без передачі ключа перегляду за межі пристрою.  
