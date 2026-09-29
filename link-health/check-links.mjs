@@ -70,10 +70,21 @@ const SPECIAL_WORDS = {
   zkav: "ZKAV",
 };
 
+// Replace `word` only where it is a whole `_`/`/`-delimited segment, every
+// time it occurs. This mirrors the app's helper of the same name; a plain
+// substring `.replace` diverged from it — it rewrote a word inside a larger
+// segment (so `/guides/theme` lost its `Theme` casing) and only touched the
+// first occurrence — which made this checker look for a different file than
+// the app serves and flag live pages as broken on a case-sensitive CI.
+function replaceWholeSegments(input, word, replacement) {
+  const re = new RegExp(`(^|[_/])${word}(?=[_/]|$)`, "g");
+  return input.replace(re, (_m, boundary) => boundary + replacement);
+}
+
 function transformUri(uri) {
   let t = uri.replace(/\b\w/g, (l) => l.toUpperCase()).replace(/-/g, "_");
-  for (const w of LOWERCASE_WORDS) if (t.includes(w)) t = t.replace(w, w.toLowerCase());
-  for (const w of UPPERCASE_WORDS) if (t.includes(w)) t = t.replace(w, w.toUpperCase());
+  for (const w of LOWERCASE_WORDS) t = replaceWholeSegments(t, w, w.toLowerCase());
+  for (const w of UPPERCASE_WORDS) t = replaceWholeSegments(t, w, w.toUpperCase());
   for (const [w, target] of Object.entries(SPECIAL_WORDS)) if (t.includes(w)) t = t.replaceAll(w, target);
   return t;
 }

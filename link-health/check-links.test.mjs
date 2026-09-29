@@ -84,5 +84,22 @@ eq("the archive home page", originalOf("https://web.archive.org/"), null);
 eq("target without a host", originalOf(`${A}/2022/https://?`), null);
 eq("non-string input", originalOf(Symbol("x")), null);
 
-console.log(failed ? `${failed} failing` : "all 17 cases correct");
+// transformUri must map a route to the same content path the app serves, or
+// the checker probes the wrong file and reports a live page as broken. The
+// app replaces the lowercase/uppercase word lists per whole `_`/`/` segment
+// (every occurrence), not as a bare substring.
+const transformUri = new Function(
+  src.slice(src.indexOf("const LOWERCASE_WORDS"), src.indexOf("const normalize")) +
+  "; return transformUri;")();
+
+eq("lowercase word inside a larger segment is left alone (The in Theme)",
+   transformUri("/guides/theme"), "/guides/Theme");
+eq("uppercase word inside a larger segment is left alone (Zcap in Zcapital)",
+   transformUri("/zcapital"), "/Zcapital");
+eq("uppercase word replaced at every whole-segment occurrence",
+   transformUri("/dao/x/dao"), "/DAO/X/DAO");
+eq("a genuine whole-segment word is still replaced",
+   transformUri("/zec/wallet"), "/ZEC/Wallet");
+
+console.log(failed ? `${failed} failing` : "all cases correct");
 process.exit(failed ? 1 : 0);
