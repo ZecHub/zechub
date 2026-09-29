@@ -58,7 +58,7 @@
 
 - [RunwayML GEN-2](https://runwayml.com/) (تجربة مجانية، والاشتراك يبدأ من $15/شهريًا)
 - [بوت Pika labs على Discord](https://www.pika.art/) (مجاني حاليًا؟)
-- [elai](https://elai.io/) (الاشتراك يبدأ من $23/شهريًا)
+- [Elai](https://elai.io/) (الاشتراك يبدأ من $23/شهريًا)
 
 ### أدوات ترجمة الفيديو/الصوت:
 

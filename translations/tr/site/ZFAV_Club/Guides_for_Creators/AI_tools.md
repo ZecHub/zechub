@@ -58,7 +58,7 @@ buradaki [görselleri](https://www.midjourney.com/app/rank-pairs/) çok sayıda 
 
 - [RunwayML GEN-2](https://runwayml.com/) (ücretsiz deneme, abonelik aylık 15 ABD dolarından başlıyor)
 - [Pika labs Discord Bot](https://www.pika.art/) (şu anda ücretsiz mi?)
-- [elai](https://elai.io/) (abonelik aylık 23 ABD dolarından başlıyor)
+- [Elai](https://elai.io/) (abonelik aylık 23 ABD dolarından başlıyor)
 
 ### Video/ses çeviri araçları:
 
