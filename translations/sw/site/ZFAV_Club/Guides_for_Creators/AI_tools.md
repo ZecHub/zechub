@@ -2,88 +2,88 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# AI zana: Nakala, Picha, Video, Audio kuzalisha (online)
+# Zana za AI: Maandishi, Picha, Video, Uzalishaji wa Sauti (mtandaoni)
 
-Hapa kuna orodha ya kufanya maisha iwe rahisi. Jinsi ya kuzitumia ni jambo jingine.
+Hapa kuna orodha ya kurahisisha maisha. Jinsi ya kuzitumia ni jambo lingine.
 
-Kuandika bora prompts ina kujifunza curve. Inawezekana bwana misingi pretty haraka.
+Kuandika vidokezo bora kuna mkondo wa kujifunza. Inawezekana kufahamu misingi haraka sana.
 
-## Nakala kuzalisha / wasaidizi
+## Kutengeneza maandishi/Wasaidizi
 
-[Prompt analyzer](https://novelai.net/tokenizer) (tokenizer) kujifunza jinsi prompts kazi na jinsi wengi ishara wao kutumia.
+[Kichambuzi cha haraka](https://novelai.net/tokenizer) (tonizer) ili kujifunza jinsi vidokezo vinavyofanya kazi na ni tokeni ngapi zinatumia.
 
-Unaweza daima kuuliza wasaidizi Chatbot kusaidia kuzalisha mwongozo mzuri kwa ajili yenu.
+Unaweza kuwaomba wasaidizi wa Chatbot kukusaidia kupata ombi zuri.
 
-### Vifaa vya bure:
+### Zana za bure:
 
-- [Anthropic ya Claude](https://claude.ai/) - inaweza kuhitaji VPN kujiandikisha (US tu)
+- [Claude wa Anthropic](https://claude.ai/) - huenda ikahitaji VPN ili kujisajili (Marekani pekee)
 - [ChatGPT 3.5](https://chat.openai.com/) - anaomba namba ya simu
-- [Bing Chat (GPT4)](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - kuelekeza chache kwa siku
+- [Gumzo la Bing (GPT4)](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - vidokezo vichache kwa siku
 - [Llama 2 - 70B](https://www.llama2.ai/) - bure kwenye tovuti
 
-### Vifaa kulipwa:
+### Zana za kulipwa:
 
-- [Free2Z Chat2Z](https://free2z.com/ai) - Kulipa na ZEC / 2Zs kwa GPT-3.5 na GPT-4 senti / haraka
-- [Chat GPT-4](https://chat.openai.com/auth/login) - $20 kwa mwezi.
+- [Free2Z Chat2Z](https://free2z.com/ai) - Lipa kwa ZEC / 2Zs kwa GPT-3.5 na GPT-senti 4/awamu
+- [Gumzo la GPT-4](https://chat.openai.com/auth/login) - $20 kwa mwezi.
 
-## Kuzalisha picha
+## Kutengeneza picha
 
-### Vifaa vya bure:
+### Zana za bure:
 
-- [ImgnAI](https://imgnai.com/) bot juu ya Discord au Telegram - [Kuanza Guide](https://imgnai.gitbook.io/imgnai/) na 
-pia sasa [Webapp ImgnAI](https://app.imgnai.com/home) na akaunti tofauti ya kuingia 
-kuingia na X, Google, Discord, Telegram
-- [Bing Dalle3](https://www.bing.com/create) - toleo bure inaweza kuwa polepole
-- [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - kiasi kidogo kwa ajili ya bure
-- [Ideogram](https://ideogram.ai/login) - nzuri katika kuzalisha maandishi halisi kusoma juu ya picha
-- [Uwanja wa michezo AI](https://playgroundai.com/) - hali ya bure, usajili kutoka $ 15 / mwezi
-- [Clipdrop na utulivu.ai](https://clipdrop.co/stable-diffusion)
-- [StarryAI](https://www.starryai.com) - 5 kazi za sanaa/siku
-- [Dream na wombo](https://dream.ai/)
-- [Craiyon](https://www.craiyon.com/) (DALL-E mini clone) - kulipwa michango kuanzia saa $5 boosts kasi
-- [DALL-E mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) - zamani na msingi
+- [ImgnAI](https://imgnai.com/) roboti kwenye Discord au Telegram - [Mwongozo wa Kuanza](https://imgnai.gitbook.io/imgnai/) na 
+pia sasa [Programu ya Wavuti ImgnAI](https://app.imgnai.com/home) na kuingia kwa akaunti tofauti 
+ingia ukitumia X, Google, Discord, Telegram
+- [Bing Dalle3](https://www.bing.com/create) - toleo la bure linaweza kuwa polepole
+- [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - kiasi kidogo bure
+- [Ideogram](https://ideogram.ai/login) - mzuri katika kutengeneza maandishi yanayosomeka vizuri kwenye picha
+- [AI ya Uwanja wa Michezo](https://playgroundai.com/) - hali ya bure, usajili kuanzia $15/mwezi
+- [Clipdrop kutoka kwa stability.ai](https://clipdrop.co/stable-diffusion)
+- [StarryAI](https://www.starryai.com) - Kazi za sanaa 5 kwa siku
+- [Ndoto ya wombo](https://dream.ai/)
+- [Craiyon](https://www.craiyon.com/) (DALL-E mini clone) - usajili unaolipishwa kuanzia kwa kasi ya ongezeko la $5
+- [Kidogo cha DALL-E](https://huggingface.co/spaces/dalle-mini/dalle-mini) - ya zamani na ya msingi
 
-### Vifaa kulipwa:
+### Zana za kulipwa:
 
-- [Midjourney Bot](https://discord.com/invite/midjourney) katika Discord - kutoka $ 10 / mwezi - [Kuanza Mwongozo](https://docs.midjourney.com/docs/quick-start)
-unaweza kupata kuhusu 100 vizazi bure kwa rating wengine wengi [picha katika hapa](https://www.midjourney.com/app/rank-pairs/)
-(lazima kufanya hivyo kwa juu2000 raters - kuhusu 15 dakika ya picha rating)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 vizazi - (bure 15 vizazi / mwezi)
-- [DALL-E 3](https://openai.com/dall-e-3/) - ni pamoja na katika ChatGPT-4 - $ 20 / mwezi
-- [Nightcafe Muumba](https://creator.nightcafe.studio/) (4 vizazi bure, kulipwa huanza $ 6 / mwezi)
+- [Kiboti cha Midjourney](https://discord.com/invite/midjourney) katika Discord - kuanzia $10/mwezi - [Mwongozo wa Kuanza](https://docs.midjourney.com/docs/quick-start)
+inaweza kupata takriban vizazi 100 vya bure kwa kukadiria vingine vingi [picha hapa](https://www.midjourney.com/app/rank-pairs/)
+(lazima nifike kwenye orodha ya waliokadiria 2000 bora - takriban dakika 15 za picha za ukadiriaji)
+- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 vizazi - (vizazi 15 bila malipo kwa mwezi)
+- [DALL-E 3](https://openai.com/dall-e-3/) - imejumuishwa katika ChatGPT-4 - $20/mwezi
+- [Muumba wa Kahawa ya Usiku](https://creator.nightcafe.studio/) (Vizazi 4 bure, malipo huanza $6/mwezi)
 
-## Video kuzalisha
+## Uzalishaji wa video
 
-### Vifaa (kesi bure majaribio kwa kawaida):
+### Zana (jaribio la bure kwa kawaida):
 
-- [RunwayML GEN-2](https://runwayml.com/) (jaribio la bure, usajili kutoka $ 15 / mwezi)
-- [Pika maabara Discord Bot](https://www.pika.art/) (ATM bure?)
-- [elai](https://elai.io/) (msajili kutoka $23/mwezi)
+- [RunwayML GEN-2](https://runwayml.com/) (jaribio la bure, usajili kuanzia $15/mwezi)
+- [Boti ya Discord ya maabara ya Pika](https://www.pika.art/) (atm ya bure?)
+- [Elai](https://elai.io/) (usajili kuanzia $23/mwezi)
 
-### Vifaa vya kutafsiri video/sauti:
+### Zana za kutafsiri video/sauti:
 
-- [Labs HeyGen](https://labs.heygen.com/guest/video-translate) video tafsiri dubbing na mdomo syncing chombo
-- [Ezdubs Bot juu ya X](https://twitter.com/ezdubs_bot) video tafsiri dubbing na mdomo syncing chombo
+- [Maabara ya HeyGen](https://labs.heygen.com/guest/video-translate) zana ya utafsiri wa video na kusawazisha midomo
+- [Kidhibiti cha Ezdubs kwenye X](https://twitter.com/ezdubs_bot) zana ya utafsiri wa video na kusawazisha midomo
 
-## Mambo ya sauti
+## Vitu vya sauti
 
-### Audio fixing
+### Urekebishaji wa sauti
 
-- [Adobe AI Kusafisha sauti](https://podcast.adobe.com/enhance#): (bure na bure adobe akaunti)
+- [Adobe AI Safisha sauti](https://podcast.adobe.com/enhance#): (bila malipo ukitumia akaunti ya bure ya adobe)
 
-### Kuzalisha muziki
+### Uundaji wa muziki
 
-- [Soundraw](https://soundraw.io/) - jaribu kwa bure - (usajili kutoka $ 16.99 / mwezi)
-- [beatoven.ai](https://www.beatoven.ai/) - kujaribu kwa ajili ya bure - (usajili kutoka $ 3 / mwezi au $ 1 / dakika yanayotokana)
-- [Soundful.com](https://soundful.com/) - jaribu bure - (usajili kutoka $ 59.99 / mwezi au 29.99 / m mwaka)
-- [boomy](https://boomy.com/) - jaribu bure - (usajili kutoka $9.99/mwezi)
-- [Loudly](https://www.loudly.com/) - jaribu bure - (usajili kutoka $7.99/mwezi)
-- [Mubert](https://mubert.com/) - jaribu bure - (usajili kutoka $ 14 / mwezi)
+- [Soundraw](https://soundraw.io/) - jaribu bure - (usajili kuanzia $16.99/mwezi)
+- [beatoven.ai](https://www.beatoven.ai/) - jaribu bure - (usajili kuanzia $3/mwezi au $1/dakika iliyotengenezwa)
+- [soundful.com](https://soundful.com/) - jaribu bure - (usajili kuanzia $59.99/mwezi au 29.99/m kila mwaka)
+- [boomy](https://boomy.com/) - jaribu bure - (usajili kuanzia $9.99/mwezi)
+- [Loudly](https://www.loudly.com/) - jaribu bure - (usajili kuanzia $7.99/mwezi)
+- [Mubert](https://mubert.com/) - jaribu bure - (usajili kuanzia $14/mwezi)
 
-### Sauti kuzalisha
+### Kutengeneza sauti
 
-- [play.ht](https://play.ht/) - bure - (usajili kutoka $ 39 / mwezi)
-- [ElevenLabs](https://elevenlabs.io/) - bure - (usajili kutoka $ 5 / mwezi)
-- [Murf](https://murf.ai/) - bure - (usajili kutoka $ 29 / mwezi)
-- [Resemble](https://www.resemble.ai/) - jaribu bure (baada ya $ 0.006 kwa sekunde)
-- [Synthesia](https://www.synthesia.io/) - (msajili kutoka $22.5/mwezi)
+- [play.ht](https://play.ht/) - bila malipo - (usajili kuanzia $39/mwezi)
+- [ElevenLabs](https://elevenlabs.io/) - bila malipo - (usajili kuanzia $5/mwezi)
+- [Murf](https://murf.ai/) - bila malipo - (usajili kuanzia $29/mwezi)
+- [Resemble](https://www.resemble.ai/) - jaribu bure (baada ya $0.006 kwa sekunde)
+- [Synthesia](https://www.synthesia.io/) - (usajili kuanzia $22.5/mwezi)

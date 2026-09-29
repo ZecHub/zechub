@@ -5719,11 +5719,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:4d5d717ce94a73e94d9fe0bee847970c655caf58e6349fc65bd3590a75004367",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:76e2c7e427829c0e06eaa7fe2ab88ec2fadeaa3e1edea3627010f1cde8ce81e1",
+      "src_commit": "99646ec2fb4bd9bd308d77b4ce512ff5777802bb",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+gloss-restore+prose-retranslate",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
@@ -23019,11 +23019,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:4d5d717ce94a73e94d9fe0bee847970c655caf58e6349fc65bd3590a75004367",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
+      "src": "sha256:76e2c7e427829c0e06eaa7fe2ab88ec2fadeaa3e1edea3627010f1cde8ce81e1",
+      "src_commit": "99646ec2fb4bd9bd308d77b4ce512ff5777802bb",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
@@ -26367,11 +26367,11 @@
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
-      "src": "sha256:9c9a6773f7a7ca5072db5ae5950f9a352f79aff6335487108ec739a18b3027a3",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:950a56374b25ace602779835bacef9940c941e291890b8d8e2d2cbce6af1fd65",
+      "src_commit": "99646ec2fb4bd9bd308d77b4ce512ff5777802bb",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
