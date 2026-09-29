@@ -31,7 +31,7 @@ Ambassadors have creative freedom over the activities they plan, enabling them t
 | East Africa | [Zcash East Africa](https://x.com/ZcashEastAfrica) | East Africa, Uganda community growth |
 | South Africa | [Zcash South Africa](https://twitter.com/Zcash_SA) | South Africa |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
-| Mexico | [zcashqro](https://x.com/zcashqro) | University outreach and developer onboarding |
+| Mexico | [Zcash Mexico](https://x.com/ZcashMx) | University outreach and developer onboarding |
 | Russia | [ruZcash](https://x.com/ruZCASH) | Russian-language content and community |
 | India | [Zcash India](https://x.com/ZcashIND) | Developer education and community growth |
 | Korea | [Zcash Korea](https://x.com/zcashkorea) | Korean educational content |
@@ -41,4 +41,3 @@ Ambassadors have creative freedom over the activities they plan, enabling them t
 You can also get involved by:
 - Contributing to [ZEC Bounties](https://bounties.zechub.wiki/)
 - Joining the [Zcash Global Discord](https://discord.gg/zcash)
-
