@@ -13,6 +13,8 @@
 - Zcash, ZIP 2005 ve Project Tachyon gibi araştırmalar, ZIP'ler ve yükseltme önerileri aracılığıyla hazırlık yapmaktadır.
 - Güvenli bir post-quantum geçişi; fonları, gizliliği, cüzdanları, borsaları ve konsensüs kurallarını aynı anda korumalıdır.
 
+Nelerin Ironwood değiştiği ve her bir parçanın tarihli durumu için bkz. [Is Zcash Post-Quantum?](/zcash-tech/is-zcash-post-quantum).
+
 ## Kuantum Hesaplama Nedir?
 
 Normal bir bilgisayar bilgiyi bitler olarak depolar. Her bit ya `0` ya da `1` olur.
@@ -246,12 +248,13 @@ Yeni başlayanlar için ana fikir basittir: bugünkü gizlilik gelecekteki veri 
 
 ## İlgili Sayfalar
 
-- [Shielded Havuzlar](/using-zcash/shielded-pools) - Zcash shielded işlemleri işlem ayrıntılarını nasıl korur
-- [Halo](/zcash-tech/halo) - Trusted setup olmadan Zcash'in ispat sistemi
-- [ZKP ve ZK-SNARKS](/zcash-tech/zk-snarks) - Sıfır bilgi ispatları Zcash'te nasıl çalışır
-- [Viewing Keys](/zcash-tech/viewing-keys) - Seçmeli ifşa shielded Zcash'te nasıl çalışır
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - Gelecekteki shielded varlıklar ve özel varlık desteği
-- [Temel Bir İlke Olarak Gizlilik](/privacy/privacy-as-a-core-principle) - Finansal gizliliğin neden önemli olduğu
+- [Zcash kuantum sonrası güvenli mi?](/zcash-tech/is-zcash-post-quantum) - Ironwood'in neleri değiştirdiği, nelerin hâlâ açıkta olduğu ve tarihli bir durum tablosu
+- [Korumalı Havuzlar](/using-zcash/shielded-pools) - Zcash korumalı işlemlerinin işlem ayrıntılarını nasıl koruduğu
+- [Halo](/zcash-tech/halo) - Zcash'in güvenilir kurulum gerektirmeyen kanıt sistemi
+- [ZKP ve ZK-SNARKS](/zcash-tech/zk-snarks) - Sıfır bilgi kanıtlarının Zcash içinde nasıl çalıştığı
+- [Görüntüleme Anahtarları](/zcash-tech/viewing-keys) - Korumalı Zcash için seçici ifşanın nasıl çalıştığı
+- [Zcash Korumalı Varlıklar](/zcash-tech/zcash-shielded-assets) - Gelecekteki korumalı varlıklar ve özel varlık desteği
+- [Temel İlke Olarak Gizlilik](/privacy/privacy-as-a-core-principle) - Finansal gizliliğin neden önemli olduğu
 
 ## Referanslar
 

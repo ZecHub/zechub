@@ -13,6 +13,8 @@
 - Zcash bereitet sich durch Forschung, ZIPs und Upgrade-Vorschläge wie ZIP 2005 und Project Tachyon vor.
 - Eine sichere Post-Quantum-Migration muss gleichzeitig Guthaben, Privatsphäre, Wallets, Börsen und Konsensregeln schützen.
 
+Was sich bei Ironwood geändert hat und den datierten Status jedes einzelnen Teils finden Sie unter [Ist Zcash postquanten-sicher?](/zcash-tech/is-zcash-post-quantum).
+
 ## Was ist Quantencomputing?
 
 Ein normaler Computer speichert Informationen als Bits. Jedes Bit ist entweder `0` oder `1`.
@@ -246,12 +248,13 @@ Für Einsteiger ist die Hauptidee einfach: Privatsphäre heute verringert die zu
 
 ## Verwandte Seiten
 
-- [Shielded Pools](/using-zcash/shielded-pools) - Wie Zcash-Shielded-Transaktionen Transaktionsdetails schützen
-- [Halo](/zcash-tech/halo) - Das Proof-System von Zcash ohne Trusted Setup
+- [Ist Zcash quantensicher?](/zcash-tech/is-zcash-post-quantum) - Was Ironwood geändert hat, was weiterhin gefährdet ist und eine datierte Statustabelle
+- [Abgeschirmte Pools](/using-zcash/shielded-pools) - Wie Zcash abgeschirmte Transaktionen Transaktionsdetails schützen
+- [Halo](/zcash-tech/halo) - Das Proof-System von Zcash ohne vertrauenswürdiges Setup
 - [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Wie Zero-Knowledge-Proofs in Zcash funktionieren
-- [Viewing Keys](/zcash-tech/viewing-keys) - Wie selektive Offenlegung für Shielded Zcash funktioniert
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - Zukünftige Shielded Assets und Unterstützung für private Assets
-- [Privatsphäre als Kernprinzip](/privacy/privacy-as-a-core-principle) - Warum finanzielle Privatsphäre wichtig ist
+- [Viewing Keys](/zcash-tech/viewing-keys) - Wie selektive Offenlegung bei abgeschirmtem Zcash funktioniert
+- [Zcash Abgeschirmte Assets](/zcash-tech/zcash-shielded-assets) - Zukünftige abgeschirmte Assets und Unterstützung privater Assets
+- [Privatsphäre als Grundprinzip](/privacy/privacy-as-a-core-principle) - Warum finanzielle Privatsphäre wichtig ist
 
 ## Referenzen
 

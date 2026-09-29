@@ -6,12 +6,14 @@
 
 ## TL;DR
 
-- Quantum kɔmpiutawo nye afɔku le etsɔme elabena woate ŋu agbã dutoƒo-safui ƒe nya ɣaɣla aɖewo siwo blockchain zãna egbea.
+- Quantum kɔmpiutawo nye afɔku le etsɔme elabena woate ŋu agbã dutoƒo safui ƒe nya ɣaɣla aɖewo siwo blockchain zãna egbea.
 - "Post-quantum" gɔmee nye nya ɣaɣla siwo zɔna le kɔmpiuta dzrowo dzi gake wowɔe be wòatsi tre ɖe amedzidzedze siwo tso quantum kɔmpiuta siwo ava va gbɔ ŋu.
 - Zcash menye post-quantum bliboe egbea o.
 - Shielded Zcash ɖea dutoƒonuwɔna ŋuti nyatakaka siwo etsɔme amedzidzelawo ate ŋu asrɔ̃ nu tsoe dzi kpɔtɔna, gake shielded zazã mesɔ kple quantum resistance blibo o.
 - Zcash le dzadzram ɖo to numekuku, ZIP, kple ŋgɔyiyi ƒe aɖaŋuɖoɖowo abe ZIP 2005 kple Project Tachyon ene me.
 - Ele be ʋuʋu le quantum megbe si le dedie nakpɔ ga, ame ŋutɔ ƒe nyatakakawo, gakotokuwo, asitɔtrɔwo, kple se siwo dzi woda asi ɖo ta le ɣeyiɣi ɖeka me.
+
+Ne èdi nusi Ironwood trɔ kple ɣeyiɣi si woɖo ɖi na agbalẽ ɖesiaɖe ƒe nɔnɔme la, kpɔ [Ðe Zcash nye Post-Quantum?](/zcash-tech/is-zcash-post-quantum).
 
 ## Nukae Nye Quantum Kɔmpiuta?
 
@@ -21,18 +23,18 @@ Quantum kɔmpiuta zãa quantum bits, siwo woyɔna be qubits. Woate ŋu azã qubi
 
 Ema mefia be quantum kɔmpiuta wɔa dɔ kabakaba wu le nusianu me o. Afɔkua le tẽ. Nya ɣaɣla aɖewo nɔ te ɖe akɔntabubu ƒe kuxi siwo sesẽ ŋutɔ na kɔmpiuta dzɔdzɔewo gake wole bɔbɔe wu na quantum kɔmpiuta si lolo ale gbegbe.
 
-Le blockchains gome la, kpɔɖeŋu vevitɔ kekeakee nye dutoƒo-safui cryptography. Wozãa dutoƒo safuiwo kple asidede agbalẽ te tsɔ ɖoa ​​kpe edzi be woɖe mɔ na ezãla be wòazã gaku.
+Le blockchains gome la, kpɔɖeŋu vevitɔ kekeakee nye dutoƒo-safui cryptography. Wozãa dutoƒo safuiwo kple asidede agbalẽ te tsɔ ɖoa kpe edzi be woɖe mɔ na ezãla be wòazã gaku.
 
-## Nusita Blockchains Tsɔtsɔ Ðe Le Eme
+## Nusitae Blockchains tsɔ ɖe le eme
 
-Blockchains zãa nya ɣaɣlawo tsɔ wɔa dɔ vovovo geɖe:
+Blockchains zãa cryptography na dɔ vovovo geɖe:
 
 | Dɔwɔnu si wotsɔ ŋlɔa nyawoe | Nusi wòwɔna | Quantum ƒe ŋusẽkpɔɖeamedzi |
 | --- | --- | --- |
 | Digitál asidede agbalẽ te | Ðe kpe edzi be aƒetɔa ɖe mɔ ɖe gazazã ŋu | Afɔku gã aɖe na elliptic-curve ɖoɖo siwo bɔ |
 | Hash ƒe dɔwɔwɔwo | Tu adrɛswo, adzɔgbeɖeɖewo, Merkle-tiwo, kple kuxiwo | Afɔku dzi ɖe kpɔtɔ, gake dedienɔnɔ ƒe vovototowo le vevie |
-| Zero-sidzedze ƒe kpeɖodziwo | Ðe kpe edzi be asitsatsa siwo wotsɔ akpoxɔnu wɔe la sɔ evɔ màɖe nyatakakawo afia o | Enɔ te ɖe kpeɖodzi ƒe ɖoɖo kple susuwo dzi |
-| Nubabla vevi aɖe | Kpena ɖe gakotokuwo ŋu be woaɣla nuŋlɔɖiwo ŋuti nyatakakawo na amesiwo xɔa nyatakakawo | Hiahiã be woalé ŋku ɖe eŋu nyuie le quantum threat model te |
+| Kpeɖodzi siwo me sidzedze aɖeke mele o | Ðe kpe edzi be asitsatsa siwo ŋu wokpɔ akpoxɔnuwo le la sɔ evɔ màɖe nyatakaka tsitotsito afia o | Enɔ te ɖe kpeɖodzi ƒe ɖoɖoa kple susuwo dzi |
+| Nu vevi si dzi wolɔ̃ ɖo | Kpena ɖe gakotokuwo ŋu woɣlaa nuŋlɔɖiwo ŋuti nyatakakawo na amesiwo xɔa nyatakakawo | Ehiã be woalé ŋku ɖe eŋu nyuie le quantum threat model te |
 
 Quantum kɔmpiuta si ŋu ŋusẽ le ale gbegbe ate ŋu ade asidede agbalẽ te ƒe ɖoɖo geɖe siwo wozãna egbea, siwo dome elliptic-curve signatures hã le, afɔku me. Esia le vevie elabena asidede agbalẽ te nye nusi nana network la nya be woɖe mɔ ɖe asitsatsa aɖe ŋu to safui nyuitɔ dzi.
 
@@ -63,15 +65,15 @@ Mɔ bɔbɔe aɖe si dzi nàto abu afɔkua ŋue nye:
 
 Blockchains siwo me kɔ la ɖea nyatakaka geɖe ɖe go to aɖaŋu me. Adrɛswo, ga homewo, kple asitsatsa ƒe kadodowo le dutoƒo. Dutoƒo safuiwo hã ate ŋu adze ne wozã gakuwo.
 
-Esia nye susu siwo ta adrɛs gbugbɔgazã gblẽa nu le ame ŋu la dometɔ ɖeka. Gbugbɔgazã naa nyatakaka geɖe eteƒekpɔlawo be woatsɔ aɖo kadodo me egbea eye wònaa amedzidzelawo le etsɔme be woaku ŋutinya me nyatakaka geɖe me.
+Esia nye susu siwo ta adrɛs gbugbɔgazã gblẽa nu le ame ŋu la dometɔ ɖeka. Gbugbɔgazã naa nyatakaka geɖe eteƒekpɔlawo be woatsɔ aƒo ka egbea eye wònaa amedzidzela siwo ava va la ƒe ŋutinya me nyatakaka geɖe wu be woaku.
 
-## Nukae To Vovo le Zcash Ŋu?
+## Nukae To Vovo Zcash?
 
 Zcash doa alɔ asitsatsa siwo me kɔ kple esiwo wokpɔ ta na siaa.
 
 Transparent Zcash wɔa dɔ wu abe Bitcoin-style dutoƒo blockchain zazã ene. Adrɛswo, ga homewo, kple asitsatsa ƒe ƒomedodowo dzena.
 
-Shielded Zcash to vovo. Asitsatsa siwo wokpɔ ta na zãa kpeɖodzi siwo me sidzedze aɖeke mele o ale be network la ate ŋu akpɔe ɖa be asitsatsa aɖe wɔ ɖe seawo dzi evɔ maɖe amesi ɖoe ɖa, amesi xɔe, alo ga home afia o.
+Shielded Zcash to vovo. Asitsatsa siwo wokpɔ ta na la zãa kpeɖodzi siwo me sidzedze aɖeke mele o ale be network la nate ŋu akpɔe ɖa be asitsatsa aɖe wɔ ɖe seawo dzi evɔ maɖe amesi ɖoe ɖa, amesi xɔe, alo ga home afia o.
 
 Esia na Zcash kpɔa adzamenyawo ŋuti viɖe vevi aɖe:
 
@@ -84,38 +86,38 @@ Gake Zcash si wokpɔ ta na la menye le eɖokui si le quantum megbe o. Tadeaguƒe
 
 Kpuie la:
 
-> Shielded zazã ɖea dutoƒonukpɔkpɔ dzi kpɔtɔna, gake Zcash hiã kokoko be woaɖoe koŋ awɔ asitɔtrɔ le quantum megbe.
+> Zcash zazã si wokpɔ ta na ɖea dutoƒonukpɔkpɔ dzi kpɔtɔna, gake Zcash hiã kokoko be woaɖoe koŋ awɔ asitɔtrɔ le quantum megbe.
 
 ## Zcash Afɔku ƒe Nɔnɔmetata
 
-| Nutoa me | Gɔmedzelawo ƒe numeɖeɖe | quantum megbe dzitsitsi |
+| Teƒe | Gɔmedzelawo ƒe numeɖeɖe | Dzitsitsi le quantum megbe |
 | --- | --- | --- |
-| Adrɛs siwo me kɔ nyuie | Dutoƒo adrɛswo kple dutoƒo asitsatsa ƒe nɔnɔmetata | Afɔku mawo tɔgbe le blockchain bubu siwo me kɔ ŋu |
-| Gazazã ƒe mɔɖeɖe | Kpeɖodzi si fia be woɖe mɔ na zãla be wòazã | Asidede agbalẽ te ƒe ɖoɖowo ate ŋu ahiã be woaɖɔli wo alo woaʋu ayi teƒe bubu |
-| Nuŋlɔɖi siwo wotsɔ akpoxɔnu wɔe | Ame ŋutɔ ƒe nuŋlɔɖi siwo ku ɖe asixɔxɔ ŋu le tadeaguƒe siwo wotsɔ akpoxɔnu wɔe me | Akpa aɖewo ate ŋu ahiã susu yeyewo alo dɔwɔnu siwo woatsɔ agbugbɔ axɔ |
-| zk-SNARKs | Kpeɖodzi siwo ɖee fia be asitsatsa siwo wotsɔ akpoxɔnu wɔe la sɔ | Kpeɖodzi-ɖoɖo ƒe susuwo hiã be woagbugbɔ ŋku alé ɖe wo ŋu |
-| Gakotoku ƒe scanning | Alesi gakotokuwo dia nuŋlɔɖi siwo woxɔ eye woɖea wo gɔmee | Key agreement kple note encryption hiã be woagbugbɔ ŋku alé ɖe eŋu |
-| Ʋuʋu yi teƒe bubu | Gawo ʋuʋu yi nya ɣaɣlawo ƒe nuŋɔŋlɔ si le dedie wu gbɔ | Ele be woaƒo asa na ga ƒe bu kple ame ŋutɔ ƒe nyatakakawo ƒe dodo siaa |
+| Adrɛs siwo me kɔ | Dutoƒonuƒowo kple dutoƒo asitsatsa ƒe nɔnɔmetata | Afɔku mawo tɔgbe le blockchain bubu siwo me kɔ la ŋu |
+| Zã mɔɖeɖe ɖe ga ŋu | Kpeɖodzi si fia be woɖe mɔ na ezãla be wòazã ga | Ðewohĩ ahiã be woaɖɔli ɖoɖo siwo wowɔna tsɔ dea asi ete alo aʋu ayi teƒe bubu |
+| Nuŋlɔɖi siwo ŋu wokpɔ akpoxɔnu le | Asixɔxɔ ŋuti nuŋlɔɖi siwo nye ame ŋutɔ tɔ le tadeaguƒe siwo wokpɔ ta na me | Ðewohĩ akpa aɖewo ahiã susu yeyewo alo dɔwɔnu siwo woatsɔ agbugbɔ wo awɔ |
+| zk-SNARKs | Kpeɖodzi siwo ɖee fia be asitsatsa siwo wokpɔ ta na la sɔ | Ehiã be woagbugbɔ ŋku alé ɖe kpeɖodzi-ɖoɖo ƒe susuwo ŋu |
+| Gakotoku me scanning | Alesi gakotokuwo dia nuŋlɔɖi siwo woxɔ heɖea wo me | Key agreement kple note encryption hiã be woalé ŋku ɖe eŋu |
+| Ʋuʋu yi teƒe bubu | Gawo tsɔtsɔ yi nya ɣaɣlawo ƒe nuŋɔŋlɔ si le dedie wu gbɔ | Ele be woaƒo asa na ga si bu kple ame ŋutɔ ƒe nyatakakawo ƒe dodo siaa |
 
 ## Alesi Zcash Le Dzadzram Ðo
 
 ### Zcash Le Network Upgrade Dɔwɔɖoɖo aɖe si
 
-Zcash trɔ eƒe nya ɣaɣlawo do ŋgɔ. Sapling na be asitsatsa siwo ŋu wokpɔa akpoxɔnu le zazã nɔ bɔbɔe. NU5 to Orchard, Unified Addresses, kple Halo 2 vɛ.
+Zcash trɔ eƒe nya ɣaɣlawo do ŋgɔ. Sapling na be asitsatsa siwo ŋu wokpɔa akpoxɔnuwo le zazã nɔ bɔbɔe. NU5 to Orchard, Unified Addresses, kple Halo 2 vɛ.
 
-Esia le vevie elabena dzadzraɖo ɖe quantum megbe menye kɔmpiutadziɖoɖo ƒe akpa ɖeka ƒe akpa aɖe o. Ebia be woawɔ ɖoɖo ɖe network ƒe ɖɔɖɔɖowo ŋu, woatrɔ gakotokuwo, awɔ agbalẽdzikpɔkpɔdɔ, kple ɣeyiɣi hafi ezãlawo naʋu.
+Esia le vevie elabena dzadzraɖo ɖe quantum megbe menye kɔmpiutadziɖoɖo ƒe akpa ɖeka ƒe akpa aɖe o. Ebia be woawɔ ɖoɖo ɖe network ƒe ɖɔɖɔɖowo ŋu, woatrɔ gakotokua, awɔ agbalẽdzikpɔkpɔdɔ, kple ɣeyiɣi hafi ezãlawo naʋu.
 
-Zcash ƒe tɔtrɔ siwo va yi ɖee fia be nuteƒekpɔkpɔ le lãwo ƒe agbenɔnɔ ƒe ɖoɖoa si le ʋuʋu tso nya ɣaɣla xoxowo dzi yi aɖaŋu yeyewo dzi.
+Zcash tɔtrɔ siwo va yi ɖee fia be nuteƒekpɔkpɔ le lãwo ƒe agbenɔnɔ ƒe ɖoɖoa si le ʋuʋu tso nya ɣaɣla xoxowo dzi yi aɖaŋu yeyewo dzi.
 
-### Halo And Orchard Reduced Older Assumptions
+### Halo Orchard Atikutsetsebɔ Ðe Nukpɔsusu Xoxowo Dzi Ðe kpɔtɔ
 
-Halo 2 nye esi Orchard, Zcash ƒe egbegbe ta si ŋu wokpɔ akpoxɔnu le la zãna. Ŋgɔyiyi vevi ɖekae nye be Halo ɖe alesi wòhiã be woawɔ ɖoɖo si dzi woka ɖo na Orchard proof system la ɖa.
+Halo 2 nye esi Orchard, Zcash's egbegbe ta si ŋu wokpɔ akpoxɔnu le la zãna. Ŋgɔyiyi vevi ɖekae nye be Halo ɖe alesi wòhiã be woawɔ ɖoɖo si dzi woka ɖo na Orchard proof system la ɖa.
 
-Ema menye nu ɖeka kple dedienɔnɔ le quantum megbe o. Egasɔ kokoko elabena eɖee fia be Zcash ateŋu axɔ ɖe cryptographic xɔtunu gãwo teƒe ne aɖaŋu nyuitɔwo li.
+Ema menye nu ɖeka kple dedienɔnɔ le quantum megbe o. Egasɔ kokoko elabena eɖee fia be Zcash ateŋu aɖɔli cryptographic xɔtunu gãwo ne aɖaŋu nyuitɔwo li.
 
 ### ZIP 2005 He susu yi Quantum Recoverability Ŋu
 
-ZIP 2005 ƒe tanyae nye "Atikutsetsebɔwo ƒe Agbɔsɔsɔme Gbugbɔgaxɔ." Edo tɔtrɔ siwo woɖo be woakpe ɖe Orchard zãlawo ŋu woaxɔ ga alo aʋu ne quantum amedzidzedze ɖe susu xoxowo ŋu va zu nusi woate ŋu awɔ.
+ZIP 2005 ƒe tanyae nye "Orchard ƒe Agbɔsɔsɔme Gbugbɔgaxɔ." Edo tɔtrɔ siwo woɖo be woakpe ɖe Orchard zãlawo ŋu woaxɔ ga alo aʋu ne quantum amedzidzedze ɖe susu xoxowo ŋu va zu nusi woate ŋu awɔ.
 
 Recoverability mesɔ kple dedienɔnɔ blibo le quantum megbe o. Ele kpuie wu eye wògaɖea vi kokoko:
 
@@ -126,13 +128,13 @@ Le gɔmedzelawo gome la, bu esia be enye dodo kpata ƒe ɖoɖo. Meɖɔlia xɔ bl
 
 ### Dɔwɔɖoɖo Tachyon Le Kpɔkpɔm le Ðoɖowɔɖiwo ƒe Ŋgɔyiyi Gãwo Ŋu
 
-Project Tachyon nye Zcash ƒe dodoɖeŋgɔ si wodo ɖa si ƒe susu le lolome, sync, kple dukɔa ƒe dzidziɖedzi ŋu. Eƒe dutoƒo nyatakakadzraɖoƒe gblɔ be aɖaŋuɖoɖoa ƒe taɖodzinue nye be yeaɖe asitsatsa dzi akpɔtɔ, aɖe validator state ƒe dzidziɖedzi dzi akpɔtɔ, eye yeaxɔ adzamenyawo blibo le quantum megbe abe eƒe nugbegblẽ le ame ŋu ene.
+Project Tachyon nye Zcash dodoɖeŋgɔ si wodo ɖa si ƒe susu le lolome, sync, kple dukɔa ƒe dzidziɖedzi ŋu. Eƒe dutoƒo nyatakakadzraɖoƒe gblɔ be aɖaŋuɖoɖoa ƒe taɖodzinue nye be yeaɖe asitsatsa dzi akpɔtɔ, aɖe validator state ƒe dzidziɖedzi dzi akpɔtɔ, eye yeaxɔ adzamenyawo blibo le quantum megbe abe eƒe nugbegblẽ le ame ŋu ene.
 
-Esi wònye be Tachyon nye aɖaŋuɖoɖo ta la, eganɔa te ɖe mɔ̃ɖaŋudɔwɔwɔ, ŋkuléle ɖe eŋu, kple nutoa me tɔwo ƒe mɔɖeɖe hafi woawɔ dɔ dzi kokoko. Wose egɔme nyuie wu be enye Zcash ƒe numekuku veviedodo kple ŋgɔyiyi ƒe mɔfiame ƒe akpa aɖe, ke menye abe nɔnɔme si le ezãlawo si xoxo egbea ene o.
+Esi wònye be Tachyon nye aɖaŋuɖoɖo ta la, eganɔa te ɖe mɔ̃ɖaŋudɔwɔwɔ, ŋkuléle ɖe eŋu, kple nutoa me tɔwo ƒe mɔɖeɖe hafi woawɔ dɔ dzi kokoko. Wose egɔme nyuie wu be enye Zcash's numekuku veviedodo kple ŋgɔyiyi ƒe mɔfiame ƒe akpa aɖe, ke menye abe nɔnɔme si le ezãlawo si xoxo egbea ene o.
 
 ### Numekuku Kple Dzidzenuwo Le Ʋuʋum
 
-Nya ɣaɣlawo ŋɔŋlɔ ƒe xexe si keke ta wu hã le ʋuʋum. NIST ƒe dzidzenu siwo le quantum megbe naa xɔtuɖoɖo sesẽwo na dɔdzikpɔlawo hena asidede agbalẽ te kple veviwo ɖoɖo. Numekula siwo si sidzedze zero mele o yi edzi le nu srɔ̃m tso kpeɖodziɖoɖo siwo ate ŋu alé ɖe te le quantum susuwo te ŋu.
+Nya ɣaɣlawo ƒe xexe si keke ta wu hã le ʋuʋum. NIST ƒe dzidzenu siwo le quantum megbe naa xɔtuɖoɖo sesẽwo na dɔdzikpɔlawo hena asidede agbalẽ te kple nu veviwo ɖoɖo. Numekula siwo si sidzedze zero mele o yi edzi le nu srɔ̃m tso kpeɖodziɖoɖo siwo ate ŋu alé ɖe te le quantum susuwo te ŋu.
 
 Zcash ate ŋu akpɔ viɖe tso dɔ ma me, gake ele kokoko be wòatrɔ asi le eŋu wòasɔ ɖe blockchain si kpɔa ame ŋutɔ ƒe nyawo ta.
 
@@ -150,24 +152,24 @@ Kuxiae nye eƒe lolome kple gazazã. Asidede asi le quantum megbe ate ŋu alolo 
 
 Zi geɖe la, nya ɣaɣla yeyewo hiã safui kple adrɛs yeyewo. Zãlawo ahiã ʋuʋumɔ si me kɔ tso nɔnɔme xoxowo dzi yi nɔnɔme siwo le dedie wu dzi.
 
-Ele be ʋuʋua nanɔ bɔbɔe le gakotokuwo me. Mele be ezãla akpa gãtɔ nase nya ɣaɣlawo ƒe nyatakaka ɖesiaɖe gɔme tsitotsito hafi anɔ dedie o.
+Ele be ʋuʋua nanɔ bɔbɔe le gakotokuwo me. Mele be ezãla akpa gãtɔ nase nya ɣaɣla ɖesiaɖe gɔme tsitotsito hafi anɔ dedie o.
 
 ### Ameŋunyatakakawo Takpɔkpɔ ƒe Ʋuʋu
 
-Ʋuʋu nye nusi ŋu Zcash le vevie ŋutɔ. Ne ezãla geɖe tsɔ ga tso ta xoxowo me yi ta yeyewo me le nɔnɔme siwo dze ƒã me la, ʋuʋua ŋutɔ ate ŋu ana nyatakakawo nado go.
+Ʋuʋu nye nusi ŋu Zcash. Ne ezãla geɖe tsɔ ga tso ta xoxowo me yi ta yeyewo me le ɖoɖo siwo dze ƒã nu la, ʋuʋua ŋutɔ ate ŋu ana nyatakakawo nado go.
 
 Ele be ʋuʋu ƒe ɖoɖo nyui aɖe nakpɔ:
 
 - Zãlawo ƒe ga
 - Zãla ƒe nya ɣaɣlawo
 - Gakotoku ƒe ɖekawɔwɔ
-- Woɖɔli kpekpeɖeŋunana
+- Tsɔ kpekpeɖeŋu ɖɔli wo nɔewo
 - Hardware gakotoku ƒe kpekpeɖeŋu
 - Network ƒe nukpɔsusu ɖeka ƒe dedienɔnɔ
 
 ### Post-Quantum Kpeɖodzi Ðoɖo ƒe Totoɖeme
 
-Asidede agbalẽ te ɖɔliɖɔli mesɔ gbɔ o. Zcash ƒe shielded design hã nɔ te ɖe zero-sidzedze kpeɖodziwo kple ŋugbedodowo dzi.
+Asidede agbalẽ te ɖɔliɖɔli mesɔ gbɔ o. Zcash's shielded design hã nɔ te ɖe zero-sidzedze kpeɖodziwo kple ŋugbedodowo dzi.
 
 Ðewohĩ ahiã be woato dɔ siwo woawɔ le etsɔme me alo aɖɔli:
 
@@ -213,7 +215,7 @@ Numame nyuiwo gakpɔtɔ kpena ɖe ame ŋu:
 - Ƒo asa na adrɛswo gbugbɔgazã.
 - Na gakotokuwo nanɔ yeyee.
 - Dze Zcash network ƒe ŋgɔyiyi ƒe gbeƒãɖeɖewo yome.
-- Kpɔ ZIPwo kple gakotoku ƒe mɔfiame siwo ku ɖe gaxɔmenɔnɔ alo ʋuʋu ŋu.
+- Kpɔ ZIPwo kple gakotoku ƒe mɔfiamewo ku ɖe gaxɔmenɔnɔ alo ʋuʋu ŋu.
 - Mègasusu be dɔwɔna si me wowɔa nu le gaglãgbe nye ame ŋutɔ tɔ o.
 - Mèganɔ te ɖe nya siwo wogblɔna dzi aʋuʋu ga o; lala mɔfiame si me kɔ tso Zcash dɔwɔla siwo dzi woka ɖo kple gakotoku ƒe ƒuƒoƒowo gbɔ.
 
@@ -234,30 +236,31 @@ Kuxi siwo bɔ dometɔ aɖewoe nye:
 - Ameŋunyatakakawo ƒe nyatakakawo dona le ʋuʋuɣi
 - Nutoa me tɔwo ƒe nubabla le tɔtrɔ siwo dzi woda asi ɖo ŋu
 
-Le Zcash gome la, menye gaku siwo woate ŋu azã koe nye nusi sesẽ wu o. Akpa sesẽae nye be woana gakuwo nate ŋu azã esime wole ame ŋutɔ ƒe nyawo ta si na Zcash to vovo.
+Le Zcash, menye gaku siwo woate ŋu azã koe nye nusi sesẽ wu o. Akpa sesẽae nye be woana gakuwo nate ŋu azã esime wole ame ŋutɔ ƒe nyawo ta si na Zcash to vovo.
 
 ## Totoɖeme
 
 Quantum kɔmpiutawo ate ŋu ade ŋɔdzi na nya ɣaɣla aɖewo siwo blockchain zãna mlɔeba. Post-quantum cryptography nye ŋuɖoɖo si anɔ anyi ɣeyiɣi didi, gake ele be woazãe nyuie.
 
-Zcash menye post-quantum bliboe egbea o. Ke hã, ŋusẽ nyuiwo le Zcash ŋu: asitsatsa siwo ŋu wokpɔ ta na la ɖea dutoƒonukpɔkpɔ dzi kpɔtɔna, nya ɣaɣlawo ƒe tɔtrɔwo ƒe ŋutinya le network la si, eye numekuku siwo li fifia abe ZIP 2005 kple Project Tachyon ene la ɖoe xoxo ɖe etsɔme quantum afɔkuwo ŋu.
+Zcash menye post-quantum bliboe egbea o. Ke hã, ŋusẽ nyuiwo le Zcash ŋu: asitsatsa siwo wokpɔ ta na ɖea dutoƒonukpɔkpɔ dzi kpɔtɔna, nya ɣaɣlawo ƒe tɔtrɔwo ƒe ŋutinya le network la si, eye numekuku siwo li fifia abe ZIP 2005 kple Project Tachyon ene la ɖoe xoxo ɖe etsɔme quantum afɔkuwo ŋu.
 
 Le gɔmedzelawo gome la, susu vevitɔa le bɔbɔe: ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla egbea ɖea nyatakakawo ƒe ɖeɖefia le etsɔme dzi kpɔtɔna, eye asitɔtrɔ nyuie ate ŋu akpe ɖe Zcash ŋu wòaʋu ayi dedienɔnɔ sesẽtɔ gbɔ le quantum-ɣeyiɣia me evɔ womatsɔ zazã asa vɔe o.
 
 ## Axa Siwo Do Ƒome Kplii
 
+- [Ðe Zcash nye Post-Quantum?](/zcash-tech/is-zcash-post-quantum) - Nusi Ironwood trɔ, nusiwo wogaɖe ɖe go, kple nɔnɔme ƒe kplɔ̃ si woŋlɔ ŋkeke
 - [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) - Alesi Zcash shielded transactions kpɔa asitsatsa ŋuti nyatakakawo ta
-- [Halo](/zcash-tech/halo) - Zcash ƒe kpeɖodziɖoɖo si me ɖoɖo si dzi woka ɖo manɔmee
-- [ZKP & ZK-SNARKS ƒe agbalẽwo](/zcash-tech/zk-snarks) - Alesi zero-sidzedze kpeɖodziwo wɔa dɔ le Zcash me
-- [Nukpɔkpɔ ƒe Safuiwo](/zcash-tech/viewing-keys) - Alesi tiatiawɔblɔɖe ɖeɖefia wɔa dɔ na Zcash si wokpɔ ta na
-- [Zcash ƒe Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) - Etsɔme nunɔamesi siwo wokpɔ ta na kple ame ŋutɔ ƒe nunɔamesiwo ƒe kpekpeɖeŋu
+- [Halo](/zcash-tech/halo) - Zcash's kpeɖodziɖoɖo si me ɖoɖo si dzi woka ɖo manɔmee
+- [ZKP & ZK-SNARKS ƑE NUÐEÐEŊUTI](/zcash-tech/zk-snarks) - Alesi zero-sidzedze kpeɖodziwo wɔa dɔ le Zcash
+- [Safuiwo Kpɔkpɔ](/zcash-tech/viewing-keys) - Alesi tiatiawɔblɔɖe ɖeɖefia wɔa dɔ na Zcash si wokpɔ ta na
+- [Zcash Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) - Etsɔme nunɔamesi siwo wokpɔ ta na kple ame ŋutɔ ƒe nunɔamesiwo ƒe kpekpeɖeŋu
 - [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/privacy/privacy-as-a-core-principle) - Nusita ganyawo ƒe adzamenyawo le vevie
 
 ## Nusiwo ŋu woke ɖo
 
 - [NIST: Wowu quantum encryption megbe dzidzenuwo nu zi gbãtɔ](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards)
 - [NIST Post-Quantum Cryptography Dɔwɔɖoɖo](https://csrc.nist.gov/projects/post-quantum-cryptography)
-- [ZIP 2005: Orchard Quantum Recoverability](https://zips.z.cash/zip-2005)
-- [Dɔwɔwɔ si nye Tachyon](https://tachyon.z.cash/)
+- [ZIP 2005: Orchard ƒe Agbɔsɔsɔme Gbugbɔgaxɔ](https://zips.z.cash/zip-2005)
+- [Dɔwɔɖoɖo si nye Tachyon](https://tachyon.z.cash/)
 - [Zcash ƒe Ðoɖowɔɖi ƒe Nyatakaka](https://zips.z.cash/protocol/protocol.pdf)
 - [Halo 2 ƒe Agbalẽ](https://zcash.github.io/halo2/)

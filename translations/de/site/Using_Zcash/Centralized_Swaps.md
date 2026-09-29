@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Website: https://flyp.me/en/#/
-- Beschreibung: Der kontolose Exchange Flyp.me und der FYP Token wurden geschaffen, um Privatsphäre zu schützen, Dezentralisierung zu fördern, Basis-Eigentum zu unterstützen und eine Community zu stärken, die an Konsens glaubt.
+- Beschreibung: Der kontolose Exchange flyp.me und der FYP Token wurden geschaffen, um Privatsphäre zu schützen, Dezentralisierung zu fördern, Basis-Eigentum zu unterstützen und eine Community zu stärken, die an Konsens glaubt.
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Website: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - Beschreibung: Sofortiger Bitcoin- & Kryptowährungs-Exchange in Vietnam. Kaufe, verkaufe oder tausche zwischen 80 Assets, einschließlich VND, BTC, XMR, USDT, ETH, BCH und SOL.

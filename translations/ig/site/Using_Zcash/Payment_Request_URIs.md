@@ -2,27 +2,74 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Ịkwụ Ụgwọ Arịrịọ URI
+# Arịrịọ Ịkwụ Ụgwọ Zcash URIs
 
-## Nchịkọta nke Dynamic QR Codes
+Arịrịọ ịkwụ ụgwọ URI bụ `zcash:` njikọ akọwapụtara site na [ZIP 321](https://zips.z.cash/zip-0321). Obere akpa ego dakọtara na-agụ adreesị, ego, na ihe edeturu nhọrọ site na njikọ ma ọ bụ QR wee mejupụta azụmahịa tupu oge eruo. Enweghị akaụntụ ọzọ, enweghị ihe nhazi n'etiti.
 
-URI stands for Universal Resource Identifier. They are QR codes that act to prefill information about a transaction within a Zcash wallet. Wallets that recognize this format can construct transactions by either clicking links on web pages or scanning QR codes. Say you have an online coffee shop, your customers can make purchases by scanning these QR codes with their Zcash wallet with a prefilled price and order number.
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    Mepee wijetị ịkwụ ụgwọ
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    Wulite arịrịọ ịkwụ ụgwọ
+  </a>
+</div>
 
-## Jiri ikpe nke arịrịọ ịkwụ ụgwọ 
+Ngosipụta wijetị ahụ bụ usoro ZIP-321 dị ndụ: QR, adreesị detuo/URI, njikọ dị mkpirikpi, na Mepee na obere akpa ego. Ibe ngwaọrụ bụ ihe na-emepụta ihe ma ọ bụrụ na ịchọrọ ịtọ adreesị na ego nke gị mbụ.
 
+## Ọdịdị Ahụ́
 
-- Ịzụ ahịa n'Ịntanet. Ọ bụ ndị ahịa na-ebute arịrịọ ịkwụ ụgwọ n'oge ịzụrụ ihe n'ịntanetị.
-- Ntinye akwụkwọ ụlọ oriri na ọ hotelụ andụ na ebe obibi. Platformsdị ntinye akwụkwọ dị iche iche na-eji URL arịrịọ ịkwụ ụgwọ maka ndoputa ụlọ nkwari akụ.
-- Online Bill Payments.               Utility companies use payment request URLs to enable customers to offset their bills seamlessly. 
-- Ịzụta tiketi ihe omume. Ndị na-ahazi ihe omume gafee ókèala na-eji usoro a iji mee ka ịzụta tiketi dị mfe.
-- Ịkwụ ụgwọ P2P. Ndị mmadụ n'otu n' otu nwere ike izipu ndị ezinụlọ ha na ndị enyi ha arịrịọ ịkwụ ụgwọ site na ngwa izipu ozi, yana njikọ ịkwụ ego agbakwunyere na ozi.
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| Ubi | A chọrọ | Ihe ndetu |
+| --- | --- | --- |
+| address | ee | Họrọ Unified Address (`u1` / `utest1`) |
+| amount | no | ZEC nke iri abụọ |
+| memo | no | Naanị nnyefe echekwara |
+| label | no | Aha mmadụ na-agụ nke egosiri site n'ụfọdụ obere akpa ego |
 
-## Nkọwa
+Iwu zuru oke: [ZIP 321](https://zips.z.cash/zip-0321).
 
-[ZIP 321](https://zips.z.cash/zip-0321) na-akọwa otu esi ewu URI ịkwụ ụgwọ omenala gị. 
+## Ihe eji eme ihe
 
-Otu esi eme arịrịọ ịkwụ ụgwọ na Zcash: 
+- **Nlele** — ọnụahịa ejuputara tupu oge eruo na ihe edeturu iwu ka onye ahịa wee kwenye naanị na obere akpa ha
+- **Akwụkwọ ọnụahịa** — kesaa otu njikọ ma ọ bụ QR
+- **Onyinye** — tinye wijetị ahụ na saịtị
+- **P2P** — zipu a `zcash:` njikọ na nkata
+
+## Tinye na saịtị
+
+Tụnye edemede a n'adres nke gị echekwara. Nke a dị na ZecHub:
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+A chọrọ: `data-address`, `data-amount`, `data-target`.
+
+Nwaa bọtịnụ a kwadoro mbụ: [Mepee wijetị ịkwụ ụgwọ](/zcash-payment-uri).
+
+## Vidiyo
+
+Otu esi eme arịrịọ ịkwụ ụgwọ na Zcash:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -35,10 +82,7 @@ Otu esi eme arịrịọ ịkwụ ụgwọ na Zcash:
   />
 </div>
 
-    
-### Ihe Nlereanya Koodu
-
-Ịgbakwunye Ngwaọrụ Onyinye Zcash na Weebụsaịtị gị: 
+Ịtinye ngwaọrụ onyinye Zcash na weebụsaịtị gị:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

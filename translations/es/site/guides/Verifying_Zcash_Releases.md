@@ -384,6 +384,7 @@ La verificación solo es útil si sabes cómo se ve un fallo. Aquí tienes uno r
 
 ```bash
 cp zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
+sha256sum tampered.tar.gz > tampered.sha256
 printf '\x00' >> tampered.tar.gz
 sha256sum -c tampered.sha256
 ```

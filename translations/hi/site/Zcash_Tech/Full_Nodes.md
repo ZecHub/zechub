@@ -1,31 +1,62 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Full_Nodes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
 </a>
 
-# Full Nodes
+# पूर्ण नोड
 
-Full Node वह software है जो किसी भी cryptocurrency की blockchain की पूर्ण प्रति चलाता है, जिससे protocol की सुविधाओं तक पहुँच मिलती है।
+## संक्षेप में
 
-यह genesis से अब तक हुई हर transaction का पूरा रिकॉर्ड रखता है और इसलिए blockchain में जोड़ी जाने वाली नई transactions और blocks की वैधता सत्यापित कर सकता है।
+- एक पूर्ण नोड Zcash blockchain की पूरी प्रतिलिपि रखता है और प्रत्येक नए ब्लॉक व लेनदेन को सहमति नियमों के विरुद्ध जांचता है।
+- Zebra (`zebrad`) आज इंस्टॉल करने योग्य नोड है। Zakura, Zebra से fork किया गया दूसरा कार्यान्वयन है।
+- zcashd सेवानिवृत्त हो चुका है। इसका End-of-Support अवरोध 18 जुलाई 2026 को ब्लॉक ऊंचाई 3417100 पर पहुंचा, और वे नोड अब शुरू नहीं होते।
+- नोड और wallet अब अलग-अलग प्रोग्राम हैं। [Zallet](https://github.com/zcash/zallet) एक नोड के साथ चलता है और keys रखता है।
+- अपना नोड चलाने से आपको स्वतंत्र सत्यापन मिलता है और किसी अन्य के server पर भरोसा करने की आवश्यकता समाप्त होती है।
 
-## Zcashd
+## मूल व्याख्या
 
-> **नोट:** zcashd को चरणबद्ध रूप से हटाया जा रहा है। Electric Coin Company ने [औपचारिक रूप से घोषणा की है](https://z.cash/support/zcashd-deprecation/) कि zcashd को सेवानिवृत्त किया जा रहा है, और उसकी full-node भूमिका को [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) तथा उसकी wallet भूमिका को [Zallet](https://github.com/zcash/zallet) द्वारा प्रतिस्थापित किया जा रहा है। नई deployments के लिए Zebra का उपयोग करें (नीचे देखें)। यदि आप पहले से zcashd node चला रहे हैं, तो [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet) का पालन करें।
+पूर्ण नोड ऐसा सॉफ़्टवेयर है जो किसी cryptocurrency की blockchain की पूर्ण प्रतिलिपि चलाता है, जिससे आपको protocol की सुविधाओं तक पहुंच मिलती है।
 
-zcashd, Zcash के लिए मूल Full Node implementation था, जिसे Electric Coin Company ने विकसित और अनुरक्षित किया था। नीचे दिए गए build निर्देश संदर्भ के लिए और उन operators के लिए सुरक्षित रखे गए हैं जो zcashd से migrate कर रहे हैं।
+यह genesis से अब तक हुए प्रत्येक लेनदेन का पूर्ण रिकॉर्ड रखता है और इसलिए blockchain में जोड़े जाने वाले नए लेनदेन और ब्लॉकों की वैधता सत्यापित कर सकता है।
 
-Zcashd अपने RPC interface के माध्यम से API's का एक सेट उपलब्ध कराता है। ये API's ऐसे functions प्रदान करती हैं जो external applications को node के साथ interact करने की अनुमति देती हैं।
+## नोड कार्यान्वयन
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) एक ऐसे application का उदाहरण है जो full node का उपयोग करता है, ताकि developers सीधे Zcashd के साथ interact किए बिना mobile-friendly shielded light wallets बना और अनुरक्षित कर सकें।
+### Zebra
+
+Zebra, Zcash protocol का एक स्वतंत्र, production-ready पूर्ण नोड कार्यान्वयन है, जिसे Zcash Foundation ने बनाया है और Rust में लिखा गया है। चूंकि zcashd सेवानिवृत्त हो चुका है, Zebra (`zebrad`) नए deployments के लिए अनुशंसित पूर्ण नोड है।
+
+Zebra ब्लॉकों और लेनदेनों को सत्यापित करता है, peer-to-peer network में भाग लेता है, और applications के लिए RPC interface उपलब्ध कराता है। wallet अब एक अलग component है: [Zallet](https://github.com/zcash/zallet) एक Zebra नोड के साथ चलता है तथा keys और balances संभालता है। यह zcashd का स्थान लेता है, जिसमें नोड और wallet एक ही process में शामिल थे।
+
+shielded light wallets को सेवा देने के लिए, नोड एक indexer के साथ चलता है, जो स्थापित [lightwalletd](https://github.com/zcash/lightwalletd) या नया [Zaino](https://zechub.wiki/zaino) हो सकता है।
+
+सेट-अप निर्देशों के लिए Zebra book अवश्य पढ़ें, और सहायता के लिए R&D Discord server से जुड़ें।
+
+[Github](https://github.com/ZcashFoundation/zebra/)
+
+[Zebra Book](https://zebra.zfnd.org)
+
+इंस्टॉल चरणों, configuration और hardware आवश्यकताओं के लिए [Zebra पूर्ण नोड](/zcash-tech/zebra-full-node) देखें।
+
+### Zakura
+
+Zakura, Zebra से fork किया गया और Valar Group द्वारा Project Tachyon के साथ विकसित दूसरा consensus-compatible पूर्ण नोड है। यह समान protocol नियमों का पालन करता है और तेज synchronization, block pruning तथा zcashd RPC compatibility layer जोड़ता है। [Zakura नोड](/zcash-tech/zakura-node) देखें।
+
+### zcashd (सेवानिवृत्त)
+
+> **नोट:** zcashd सेवानिवृत्त हो चुका है। Electric Coin Company [ने अप्रचलन की घोषणा की](https://z.cash/support/zcashd-deprecation/), और स्वचालित End-of-Support अवरोध 18 जुलाई 2026 को ब्लॉक ऊंचाई 3417100 पर पहुंचा। प्रत्येक अपरिवर्तित zcashd 6.20.0 नोड उस ऊंचाई पर बंद हो गया और दोबारा शुरू होने से इनकार करता है, तथा सॉफ़्टवेयर NU6.3 को समर्थन नहीं देता। Zebra का उपयोग करें। यदि आपके पास zcashd `wallet.dat` है, तो [माइग्रेशन गाइड: zcashd से Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet) का पालन करें।
+
+zcashd, Zcash के लिए मूल पूर्ण नोड कार्यान्वयन था, जिसे Electric Coin Company ने विकसित और बनाए रखा। नीचे दिए गए build निर्देश संदर्भ हेतु तथा zcashd से दूर migrate करने वाले operators के लिए रखे गए हैं।
+
+Zcashd अपने RPC interface के माध्यम से API's का एक सेट उपलब्ध कराता है। ये API's ऐसे functions प्रदान करते हैं जो बाहरी applications को नोड के साथ interact करने देते हैं।
+
+[Lightwalletd](https://github.com/zcash/lightwalletd) ऐसे application का उदाहरण है जो developers को Zcashd के साथ सीधे interact किए बिना mobile-friendly shielded light wallets बनाने और बनाए रखने में सक्षम करने के लिए पूर्ण नोड का उपयोग करता है।
 
 [समर्थित RPC commands की पूरी सूची](https://zcash.github.io/rpc/)
 
-[The Zcashd book](https://zcash.github.io/zcash/)
+[Zcashd book](https://zcash.github.io/zcash/)
 
+#### नोड शुरू करें (Linux)
 
-### Node शुरू करना (Linux)
-
-- Dependencies इंस्टॉल करें 
+- Dependencies इंस्टॉल करें
 
       sudo apt update
 
@@ -47,75 +78,70 @@ Zcashd अपने RPC interface के माध्यम से API's का 
 
 - Blockchain sync करें (इसमें कई घंटे लग सकते हैं)
 
-    node शुरू करने के लिए चलाएँ:
+    नोड शुरू करने के लिए चलाएं:
 
       ./src/zcashd
 
-- Private Keys `~/.zcash/wallet.dat` में संग्रहीत होती हैं
+- Private Keys ~/.zcash/wallet.dat में संग्रहित होती हैं
 
-[Raspberry Pi पर Zcashd के लिए गाइड](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Raspberry Pi पर Zcashd की गाइड](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
+## व्यावहारिक निहितार्थ
 
-## Zebra
+### नेटवर्क
 
-Zebra, Zcash protocol का एक स्वतंत्र, production-ready full node implementation है, जिसे Zcash Foundation ने बनाया है और जो Rust में लिखा गया है। चूँकि zcashd सेवानिवृत्त हो रहा है, इसलिए नई deployments के लिए Zebra (`zebrad`) अनुशंसित full node है।
+पूर्ण नोड चलाकर आप zcash network के decentralization का समर्थन करके उसे मजबूत बनाने में सहायता करते हैं।
 
-Zebra blocks और transactions को validate करता है, peer-to-peer network में भाग लेता है, और applications के लिए एक RPC interface उपलब्ध कराता है। अब wallet एक अलग component है: [Zallet](https://github.com/zcash/zallet) Zebra node के साथ चलता है और keys तथा balances को संभालता है। यह zcashd का स्थान लेता है, जो node और wallet को एक ही process में bundled रखता था।
+यह विरोधी नियंत्रण को रोकने और network को कुछ प्रकार के व्यवधानों के प्रति resilient बनाए रखने में मदद करता है।
 
-shielded light wallets को सेवा देने के लिए, node एक indexer के साथ चलता है, या तो स्थापित [lightwalletd](https://github.com/zcash/lightwalletd) या नया [Zaino](https://zechub.wiki/zaino)।
+DNS seeders एक built-in server के माध्यम से अन्य विश्वसनीय नोड की सूची उपलब्ध कराते हैं। इससे लेनदेन पूरे network में प्रसारित हो पाते हैं।
 
-setup निर्देशों के लिए Zebra book अवश्य पढ़ें, और सहायता के लिए R&D Discord server से जुड़ें। 
+### नेटवर्क आँकड़े
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+ये उदाहरण platforms हैं जो Zcash Network data तक पहुंच प्रदान करते हैं:
 
-[The Zebra Book](https://zebra.zfnd.org) 
-
-[Discord](https://discord.gg/uvEdHsrb)
-
-
-
-## Network
-
-full node चलाकर आप zcash network के decentralization को समर्थन देकर उसे और मजबूत बनाने में मदद करते हैं। 
-
-यह विरोधी नियंत्रण को रोकने और network को कुछ प्रकार के व्यवधानों के प्रति लचीला बनाए रखने में मदद करता है।
-
-DNS seeders एक built-in server के माध्यम से अन्य भरोसेमंद nodes की सूची उपलब्ध कराते हैं। इससे transactions पूरे network में propagate हो पाती हैं। 
-
-### Network Stats
-
-ये कुछ उदाहरण platforms हैं जो Zcash Network data तक पहुँच प्रदान करते हैं:
-
-[Zcash Block Explorer](https://zcashblockexplorer.com)
+[Zcash ब्लॉक एक्सप्लोरर](https://zcashblockexplorer.com)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
 
 [Blockchair](https://blockchair.com/zcash)
 
-आप tests चलाकर, नए improvements प्रस्तावित करके और metrics प्रदान करके भी network के विकास में योगदान दे सकते हैं। 
-
-
+आप tests चलाकर या नए सुधार प्रस्तावित करके एवं metrics उपलब्ध कराकर भी network के विकास में योगदान दे सकते हैं।
 
 ### Mining
 
-Miners को mining से संबंधित सभी rpc's जैसे getblocktemplate और getmininginfo तक पहुँचने के लिए full nodes की आवश्यकता होती है। 
+Miners को getblocktemplate और getmininginfo जैसे सभी mining-संबंधित RPC's तक पहुंचने के लिए पूर्ण नोड की आवश्यकता होती है।
 
-Zcashd shielded coinbase के लिए mining भी सक्षम करता है। Miners और mining pools के पास यह विकल्प होता है कि वे सीधे mine करें ताकि default रूप से z-address में shielded ZEC संचित कर सकें। 
+Zcashd shielded coinbase में mining भी सक्षम करता है। Miners और mining pools के पास default रूप से z-address में shielded ZEC जमा करने के लिए सीधे mine करने का विकल्प होता है।
 
-[Mining Guide](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) पढ़ें या [Zcash Miners](https://forum.zcashcommunity.com/c/mining/13) के लिए Community Forum पेज से जुड़ें।
+[Mining Guide](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) पढ़ें या [Zcash Miners](https://forum.zcashcommunity.com/c/mining/13) के लिए Community Forum पृष्ठ से जुड़ें।
 
-### Privacy 
+### गोपनीयता
 
-full node चलाने से आप Zcash network पर सभी transactions और blocks को स्वतंत्र रूप से सत्यापित कर सकते हैं।
+पूर्ण नोड चलाने से आप Zcash network पर सभी लेनदेन और ब्लॉकों को स्वतंत्र रूप से सत्यापित कर सकते हैं।
 
-full node चलाने से उन privacy जोखिमों से बचाव होता है जो आपकी ओर से transactions सत्यापित करने के लिए third-party services का उपयोग करने से जुड़े होते हैं।
+पूर्ण नोड चलाने से आपकी ओर से लेनदेन सत्यापित करने के लिए third-party services का उपयोग करने से जुड़े कुछ गोपनीयता जोखिमों से बचा जा सकता है।
 
-अपना स्वयं का node उपयोग करने से [Tor](https://zcash.github.io/zcash/user/tor.html) के माध्यम से network से जुड़ना भी संभव होता है।
-इसका एक अतिरिक्त लाभ यह है कि अन्य users आपके node के .onion address से निजी रूप से जुड़ सकते हैं।
+अपना नोड उपयोग करने से [Tor](https://zcash.github.io/zcash/user/tor.html) के माध्यम से network से जुड़ना भी संभव होता है।
+इसका अतिरिक्त लाभ यह है कि अन्य users आपके नोड के .onion address से निजी रूप से जुड़ सकते हैं।
 
+## सामान्य गलतियाँ
 
-**मदद चाहिए?**
+- ऊपर दिए गए निर्देशों से zcashd build करना और एक कार्यशील नोड की अपेक्षा करना। वे binaries अप्रचलन ऊंचाई पर रुक जाते हैं।
+- नोड चलाना और यह मान लेना कि आपका mobile wallet अब इसका उपयोग करता है। जब तक आप उसे अपने नोड की ओर निर्देशित नहीं करते, light wallet उसी server से बात करता रहता है जिसके लिए वह configured है। [Lightwallet नोड](/zcash-tech/lightwallet-nodes) देखें।
+- केवल `zebrad` चलाना और light wallets के जुड़ने की अपेक्षा करना। नोड के साथ एक indexer होना आवश्यक है, lightwalletd या [Zaino](/zcash-tech/zaino) में से कोई एक।
+- नोड पर wallet RPCs ढूंढना। Keys और balances Zallet में स्थानांतरित हो गए हैं।
 
-[Support Documentation](https://zcash.readthedocs.io/en/latest/) पढ़ें
+## संबंधित पृष्ठ
 
-हमारे [Discord Sever](https://discord.gg/zcash) से जुड़ें या [twitter](https://twitter.com/ZecHub) पर हमसे संपर्क करें
+- [Zebra पूर्ण नोड](/zcash-tech/zebra-full-node) - अनुशंसित नोड इंस्टॉल, configure और चलाएं
+- [Zakura नोड](/zcash-tech/zakura-node) - Zebra से fork किया गया दूसरा नोड कार्यान्वयन
+- [Lightwallet नोड](/zcash-tech/lightwallet-nodes) - वे servers जिनसे light wallets query करते हैं
+- [Zaino](/zcash-tech/zaino) - light wallets को सेवा देने वाला Rust indexer
+- [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) - syncing इस तरह क्यों कार्य करता है
+
+## आगे सीखें
+
+[सहायता दस्तावेज़ीकरण](https://zcash.readthedocs.io/en/latest/) पढ़ें
+
+हमारे [Discord Server](https://discord.gg/zcash) से जुड़ें या [X](https://X.com/ZecHub) पर हमसे संपर्क करें

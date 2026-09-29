@@ -22,7 +22,7 @@ This section often contains hundreds of possible links. Try to update as many re
 
 The next section is Meme of the Week or Video of the Week. This should be a funny meme or video related to privacy, Zcash, or the wider ecosystem that makes sense and adds value to the newsletter.
 
-The final section is Jobs in the Ecosystem. There are many jobs available throughout the ecosystem. One of the most consistent opportunities is the [ZecHub task board](https://app.dework.xyz/zechub-2424) which is updated weekly on Dework.
+The final section is Jobs in the Ecosystem. There are many jobs available throughout the ecosystem. One of the most consistent opportunities is the [ZEC Bounties](https://bounties.zechub.wiki/) board.
 
 [ZODL](https://x.com/zodl_app?s=21) also posts job openings, and [ZkAv Club](https://x.com/zkav_club?s=21) occasionally shares opportunities as well. Make sure to check whether there are any additional job openings across the ecosystem before completing this section.
 
@@ -43,6 +43,6 @@ Commit your changes.
 Click Compare Changes.
 Create a Pull Request.
 Copy the Pull Request link.
-Finally, go to the ZecHub Dework newsletter task, submit your Pull Request link, and wait for the admins to review your work.
+Finally, go to the matching [ZEC Bounties](https://bounties.zechub.wiki/) newsletter task, submit your Pull Request link, and wait for review.
 
 

@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Sitio web: https://flyp.me/en/#/
-- Descripción: El intercambiador sin cuenta Flyp.me y el token FYP nacieron para proteger la privacidad, promover la descentralización, apoyar la propiedad de base y fomentar una comunidad que cree en el consenso.
+- Descripción: El intercambiador sin cuenta flyp.me y el token FYP nacieron para proteger la privacidad, promover la descentralización, apoyar la propiedad de base y fomentar una comunidad que cree en el consenso.
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Sitio web: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - Descripción: Intercambio instantáneo de Bitcoin y criptomonedas en Vietnam. Compra, vende o intercambia entre 80 activos, incluidos VND, BTC, XMR, USDT, ETH, BCH y SOL.

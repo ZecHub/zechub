@@ -384,6 +384,7 @@ Primary key fingerprint: 0338 34DD 49DE CF9D BB99  34BC 6C93 CA8E 58E2 6AB1
 
 ```bash
 cp zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
+sha256sum tampered.tar.gz > tampered.sha256
 printf '\x00' >> tampered.tar.gz
 sha256sum -c tampered.sha256
 ```
