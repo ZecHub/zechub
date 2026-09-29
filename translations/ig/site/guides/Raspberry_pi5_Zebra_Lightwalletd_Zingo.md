@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# RPi5 Zebra Lightwalletd na Zingo
+# A na-eji obere akpa Zebra RPi5 eme ihe na Zingo
 
 ## Nkuzi vidiyo
 
@@ -18,7 +18,7 @@
 </div>
 
 
-## Ndị na-adabere na ya
+## Ndabere
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -39,11 +39,11 @@ tinye:
 
 `cache_dir = "/media/zebra5/zebra/"`
 
-## Sync Zebra
+## Zebra Mmekọrịta
 
 * `zebrad start`
 
-## Kọwaa lightwalletd
+## Chịkọta lightwalletd
 
 * wụnye gaa
 
@@ -53,19 +53,19 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.ta
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-* tinye lightwalletd
+* wụnye lightwalletd
 
 ```bash
 git clone https://github.com/zcash/lightwalletd
 cd lightwalletd
 make
 make install
-export PATH=$PATH:~/go/bin/`
+export PATH=$PATH:~/go/bin
 ```
 
-## Sync lightwalletd
+## Mekọrịta lightwalletd
 
-* Chọpụta data-dir mgbanwe
+* chọpụta mgbanwe data-dir
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
@@ -78,9 +78,9 @@ export PATH=$PATH:~/go/bin/`
  sudo apt update
  sudo apt install nodejs
 ```
-Ọ bụrụ na ị hụ njehie ọ bụla, [ebe a](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) bụ ụfọdụ ụzọ ndị ọzọ iji wụnye NodeJS.
+Ọ bụrụ na ị nweta mmejọ ọ bụla, [Ebe a](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) bụ ụzọ ndị ọzọ isi wụnye NodeJS.
 
-## Wụnye Yarn
+## Wụnye eriri
 
 `corepack enable`
 
@@ -98,7 +98,7 @@ yarn dist:linux
 
 ## Malite Zingo-PC
 
-* Nwere ike iji appimage, ma ọ bụ ọnụọgụ abụọ na folda unpacked
+* Enwere ike iji appimage, ma ọ bụ binary na folda enweghị ngwugwu
 * Nwee obi ụtọ! :)
 
 # Isi mmalite

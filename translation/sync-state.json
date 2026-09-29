@@ -1273,19 +1273,19 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
-      "engine": "nllb",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+jsx-restore+gloss-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -1313,8 +1313,8 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -1353,11 +1353,11 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -1449,11 +1449,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -3003,10 +3003,10 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -3043,10 +3043,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -3083,8 +3083,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -3179,11 +3179,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+fencerepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -4733,10 +4733,10 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -4773,10 +4773,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -4813,8 +4813,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -4909,11 +4909,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+fencerepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -6463,19 +6463,19 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
-      "engine": "nllb",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+jsx-restore+gloss-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -6503,8 +6503,8 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -6543,11 +6543,11 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -6639,11 +6639,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -8193,18 +8193,18 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -8233,10 +8233,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -8273,8 +8273,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -8369,11 +8369,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+fencerepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -9923,10 +9923,10 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -9963,10 +9963,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -10003,8 +10003,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -10099,11 +10099,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+fencerepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -11653,18 +11653,18 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -11693,10 +11693,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -11733,8 +11733,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -11829,11 +11829,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -13383,19 +13383,19 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
-      "engine": "nllb",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -13423,11 +13423,11 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static",
       "edited": false
     },
     "footer.md": {
@@ -13463,8 +13463,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -13559,11 +13559,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -15113,18 +15113,18 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -15153,10 +15153,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -15193,8 +15193,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -15289,11 +15289,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -16843,18 +16843,18 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -16883,10 +16883,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -17019,11 +17019,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -18573,18 +18573,18 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -18613,10 +18613,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -18749,11 +18749,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -20303,10 +20303,10 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -20343,10 +20343,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -20383,8 +20383,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -20479,11 +20479,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+fencerepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -22033,18 +22033,18 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -22073,10 +22073,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -22113,8 +22113,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -22209,11 +22209,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -23763,19 +23763,19 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
-      "engine": "nllb",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -23803,11 +23803,11 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static",
       "edited": false
     },
     "footer.md": {
@@ -23843,11 +23843,11 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+prose-retranslate",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -23939,11 +23939,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -25493,18 +25493,18 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -25533,10 +25533,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -25573,8 +25573,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -25669,11 +25669,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -27223,18 +27223,18 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -27263,10 +27263,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -27303,8 +27303,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -27399,11 +27399,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -28953,19 +28953,19 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
-      "engine": "nllb",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate",
+      "tool": "gt-static",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -28993,11 +28993,11 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "gt-static",
       "edited": false
     },
     "footer.md": {
@@ -29033,8 +29033,8 @@
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
-      "src": "sha256:ddf556201aab0a5f246abcd4753052da8da4af3926c5d88000e67ed63093c76d",
-      "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
+      "src": "sha256:7a6f92ae27e998d2faa381971630912f4676c7dbb5f961551a2e07a09acb37ed",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -29129,11 +29129,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -30683,18 +30683,18 @@
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
-      "src": "sha256:2c736fe0802d3afe6d6baa460dbbb9025cbce21dfcb91b89a89f1eb6b843eec6",
-      "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:60c81eb9e56cf6938a4be77b850ac9d0f827b3148dc5ba80e5c03541517c0bdc",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -30723,10 +30723,10 @@
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
-      "src": "sha256:5f72506f808618480c2d5bd78021fae47a07020bea2e85e24cc06051c7b8e440",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:ba85f66e3d915fd93c0e7bfb49823b0e7a54d6e49cc9f13733dfd8ab26ba63f1",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -30859,11 +30859,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:1f0ca592944bddb88d97268b54587d2b3451ece65edbd412bbf0d06dc141835c",
+      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+fencerepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {

@@ -475,12 +475,29 @@ Também ajuda você a **evitar o custo de alugar uma VPS**, o que é ideal se pa
 
 ### Etapa 1: Instalar o Cloudflare Tunnel
 
-1. Crie uma conta em [cloudflare.com](https://www.cloudflare.com) e adicione seu domínio.
-2. No seu **servidor doméstico**, instale o Cloudflare Tunnel:
+1. Crie uma conta em [cloudflare.com](https://www.cloudflare.com) e adicione o seu domínio.
+2. No seu **servidor doméstico**, instale o Cloudflare Tunnel utilizando o repositório oficial de pacotes da Cloudflare:
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+Se `apt install cloudflared` falhar, instale antes o `.deb` correspondente:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Autentique-se com a Cloudflare:

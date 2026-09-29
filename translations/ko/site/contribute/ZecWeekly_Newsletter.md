@@ -14,8 +14,9 @@ ZecWeekly는 매주 일요일 아침에 발행되는 뉴스레터입니다. Zcas
 
 작성을 시작하기 전에:
 
-- 현재 뉴스레터 작업은 [ZEC Bounties ](https://bounties.zechub.wiki/)에서 확인하세요.
-- 배정될 때까지 기다리세요
+- 현재 뉴스레터 작업은 [ZEC Bounties](https://bounties.zechub.wiki/)에서 확인하세요.
+- 배정될 때까지 기다리세요.
+- 뉴스레터 에디션은 [바운티 금액 정책](https://bounties.zechub.wiki/docs/bounty-amounts)의 XS 구간에 해당합니다. 현재 진행 중인 바운티의 ZEC 수치가 금액이며, 기여 가이드의 이전 제목이 아닙니다.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 

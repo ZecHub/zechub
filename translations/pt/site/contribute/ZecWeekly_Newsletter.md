@@ -14,8 +14,9 @@ As contribuições para o boletim funcionam melhor quando um colaborador prepara
 
 Antes de começar a escrever:
 
-- Consulte [ZEC Bounties ](https://bounties.zechub.wiki/) para ver a tarefa atual do boletim.
-- Aguarde que lhe seja atribuída a tarefa
+- Consulte [ZEC Bounties](https://bounties.zechub.wiki/) para ver a tarefa atual do boletim.
+- Aguarde que lhe seja atribuída uma tarefa.
+- As edições do boletim situam-se na faixa XS da [política de valores das recompensas](https://bounties.zechub.wiki/docs/bounty-amounts). O valor ZEC na recompensa ativa é o montante, não qualquer título mais antigo nos guias de contribuição.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 

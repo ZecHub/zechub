@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# RPi5 Zebra Lightwalletd na Zingo
+# RPi5 Zebra Lightwalletd yenye Zingo
 
-## Video Tutorial
+## Mafunzo ya Video
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -25,13 +25,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 ```
 
-## Tengeneza Zebra
+## Kusanya Zebra
 
 [Zebra Github](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 
-## Configure zebrad.toml
+## Sanidi zebrad.toml
 
 ongeza:
 
@@ -39,13 +39,13 @@ ongeza:
 
 `cache_dir = "/media/zebra5/zebra/"`
 
-## Sync Zebra
+## Sawazisha Zebra
 
 * `zebrad start`
 
-## Kuandika lightwalletd
+## Kusanya lightwalletd
 
-* kusakinisha kwenda
+* sakinisha nenda
 
 ```bash
 wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
@@ -53,19 +53,19 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.ta
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-* kufunga lightwalletd
+* sakinisha lightwalletd
 
 ```bash
 git clone https://github.com/zcash/lightwalletd
 cd lightwalletd
 make
 make install
-export PATH=$PATH:~/go/bin/`
+export PATH=$PATH:~/go/bin
 ```
 
-## Sync lightwalletd
+## Sawazisha lightwalletd
 
-* taarifa data-dir mabadiliko
+* angalia mabadiliko ya data-dir
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
@@ -78,13 +78,13 @@ export PATH=$PATH:~/go/bin/`
  sudo apt update
  sudo apt install nodejs
 ```
-Kama uzoefu makosa yoyote, [hapa](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) ni baadhi ya njia mbadala ya kufunga NodeJS.
+Ukipata makosa yoyote, [hapa](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) Kuna njia mbadala za kusakinisha NodeJS.
 
-## Kuweka Yarn
+## Sakinisha Uzi
 
 `corepack enable`
 
-## Weka Zingo
+## Sakinisha Zingo
 
 ```bash
 git clone https://github.com/zingolabs/zingo-pc.git
@@ -96,10 +96,10 @@ sudo apt-get install ruby-dev build-essential && sudo gem i fpm -f
 yarn dist:linux
 ```
 
-## Kuanza Zingo-PC
+## Anza Zingo-PC
 
-* Unaweza kutumia appimage, au binary katika unpacked folder
-* Furahia!
+* Inaweza kutumia programu, au mfumo wa jozi kwenye folda isiyo na vifurushi
+* Furahia! :)
 
 # Vyanzo
 

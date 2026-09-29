@@ -14,8 +14,9 @@ I contributi alla newsletter funzionano meglio quando un collaboratore prepara l
 
 Prima di iniziare a scrivere:
 
-- Controlla [ZEC Bounties ](https://bounties.zechub.wiki/) per l'attività relativa alla newsletter attuale.
-- Attendi di ricevere l'assegnazione
+- Controlla [ZEC Bounties](https://bounties.zechub.wiki/) per l'attività relativa alla newsletter attuale.
+- Attendi di ricevere l'assegnazione.
+- Le edizioni della newsletter rientrano nella fascia XS della [politica degli importi delle bounty](https://bounties.zechub.wiki/docs/bounty-amounts). La cifra ZEC nella bounty attiva è l'importo, non un'intestazione meno recente nelle guide per i contributori.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
