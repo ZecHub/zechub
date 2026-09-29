@@ -12,7 +12,7 @@ We ran every step below with a real transfer on 27 September 2026, starting with
 
 ## What you actually hold
 
-The ZEC in your Solana wallet is a token on Solana, not coins on the Zcash network. The NEAR OmniBridge issues it and holds real ZEC on the Zcash chain to back it; the bridge has been live on Solana since October 2025. People call it "paper ZEC". It tracks the price of ZEC, but every balance and every transfer sits on Solana's public ledger under your wallet address, and it can't be shielded while it stays there.
+The ZEC in your Solana wallet is a token on Solana, not coins on the Zcash network. The NEAR OmniBridge issues it and holds real ZEC on the Zcash chain to back it; the bridge has been live on Solana since October 2025. Its Solana leg runs on Wormhole messages and NEAR Chain Signatures, not on a Zcash light client, so the Solana side is only as sound as those two systems. People call it "paper ZEC". It tracks the price of ZEC, but every balance and every transfer sits on Solana's public ledger under your wallet address, and it can't be shielded while it stays there.
 
 Check that yours is the real token. In Phantom, tap **ZEC** and scroll to **About Zcash**. The contract address must be:
 
@@ -51,10 +51,10 @@ Your wallet shows two kinds of address:
 
 | Starts with | Type | What the public sees |
 |---|---|---|
-| `u1` | Unified Address (shielded) | Nothing about you when the payment lands in a shielded pool |
+| `u1` | Unified Address | Nothing about you, but only when the payment lands in a shielded pool |
 | `t1` | Transparent address | Your address and the amount, forever, like on Solana |
 
-Use the `u1` one. Some wallets show a new `u1` every time you open Receive; that's normal, and they all belong to you.
+Use a `u1` that your wallet labels as shielded. A `u1` is a bundle of receivers, and some wallets put a transparent receiver in it next to the shielded one. A sender that can only pay transparent addresses will use that one, and your payment lands public even though you pasted a `u1`. Our test wallet's shielded address has no transparent receiver, so that couldn't happen. [Shielded pools](/using-zcash/shielded-pools) covers receivers in more detail. Some wallets show a new `u1` every time you open Receive; that's normal, and they all belong to you.
 
 We used ZODL for our test because it was the wallet we had set up. Any wallet in the directory works the same way.
 
@@ -78,7 +78,7 @@ Our deposit landed in the Solana block at 15:09:08 (UTC+1) and solswap showed it
 
 ![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
 
-Your ZEC now sits in your NEAR Intents balance, which only your Phantom key can move.
+Your ZEC now sits in your NEAR Intents balance. Your Phantom key authorizes every move out of it, NEAR Intents solvers carry out the delivery, and NEAR Intents can hold a balance for compliance review (see the trust notes below).
 
 ### 2. Send it to your Zcash address on near.com
 
@@ -86,7 +86,7 @@ solswap has a **Withdraw** page too, but it didn't work for us. The **Received a
 
 ![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
 
-If that happens to you, your ZEC isn't stuck. The balance belongs to your wallet, not to the website, so any NEAR Intents app can reach it. We finished on near.com:
+If that happens to you, your ZEC isn't stuck. The balance is tied to your wallet's key, not to the website, so any NEAR Intents app you sign in to with that wallet can reach it. We finished on near.com:
 
 1. Go to `near.com` and sign in with the same Phantom wallet.
 2. Your solswap balance appears under **Move legacy assets** (near.com calls balances from older NEAR Intents apps "legacy"). Tap **Withdraw** on the ZEC row. You don't need **Move**.
@@ -101,7 +101,11 @@ If that happens to you, your ZEC isn't stuck. The balance belongs to your wallet
 
    ![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
 
-5. Phantom asks you to **Sign Message** for near.com. This is a signature, not a Solana transaction, so it costs no SOL. Confirm it.
+5. Phantom asks you to **Sign Message** for near.com. This signature is what authorizes NEAR Intents to move your balance. It costs no SOL, but that doesn't make it harmless: a look-alike site can show the same request and empty your NEAR Intents balance with it. Before you tap **Confirm**, check all of these, and tap **Cancel** if any one fails:
+   - The site named on the request is `near.com`. (The deposit in step 1 was an ordinary Phantom transaction request from `solswap.org`; check that name there the same way.)
+   - Open **Message** and find `"verifying_contract": "intents.near"`.
+   - The message is readable text like the screenshot. If it's an unreadable blob, or the site doesn't match the one in your address bar, reject it.
+   - It never asks for your seed phrase. Signing never involves typing it.
 
    ![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
 
@@ -131,7 +135,7 @@ NEAR's bridge publishes a 0.01 ZEC minimum and a 0.00047 ZEC fee for its standar
 
 Every route out of Solana trusts the OmniBridge, because the bridge holds the ZEC that backs your token. On top of that:
 
-- **The route above** trusts NEAR Intents, whose solvers deliver the ZEC on the Zcash side. NEAR Intents can hold funds for compliance review; in 2026 a Zcash holder [reported a large swap held for weeks](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). You also connect your wallet to two websites, so check the address bar every time.
+- **The route above** trusts NEAR Intents. Your signature authorizes the transfer, solvers deliver the ZEC on the Zcash side, and NEAR Intents can hold funds for compliance review; in 2026 a Zcash holder [reported a large swap held for weeks](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). You also connect your wallet to two websites, so check the address bar every time.
 - **Wallets with NEAR Intents built in** (look for the NEAR Intents feature in the [directory](/wallets)) use the same system from inside the Zcash wallet. Same trust, fewer websites. We didn't test this with ZEC on Solana.
 - **An exchange**, only if it accepts deposits of this token on the Solana network, which most don't. You hand over custody and usually your identity, and many exchanges only send ZEC to `t1` addresses. See [custodial exchanges](/using-zcash/custodial-exchanges).
 
@@ -170,8 +174,9 @@ New holders get targeted. Almost every scam you'll see is one of these:
 - **Wrong address type.** A Zcash address starts with `u1`, `t1`, `zs` or `tex1`. A Solana address has none of those prefixes. Never send native ZEC to a Solana address, and never send the Solana token to a Zcash address.
 - **Transparent-only services.** Some bridges, swap sites and exchanges can only send to `t1` addresses. That's workable if you shield the ZEC as soon as it arrives. Just don't leave it there.
 - **Fake wallets.** Install only from the link on the [wallet directory](/wallets) card or the official app store listing it points to. Fake crypto wallet apps do slip into app stores, and they look exactly like the real thing.
-- **Seed phrase phishing.** No wallet, bridge, swap site, support agent, moderator or airdrop ever needs your seed phrase. Signing a message, as near.com asked us to, never involves typing it. Anyone who asks for it is trying to steal from you. [Recovering funds](/using-zcash/recovering-funds) covers the "we'll recover your wallet" version of this scam.
+- **Seed phrase phishing.** No wallet, bridge, swap site, support agent, moderator or airdrop ever needs your seed phrase. Signing a message never involves typing it. Anyone who asks for it is trying to steal from you. [Recovering funds](/using-zcash/recovering-funds) covers the "we'll recover your wallet" version of this scam.
 - **Scam tokens and "claim" sites.** Tokens called ZEC, Zcash or something close appear in Solana wallets unasked, often with a link to "claim" more. Connecting your wallet to that link can drain it. Check the contract address from the top of this page and ignore everything else.
+- **Malicious signature requests.** A "Sign Message" request can move your NEAR Intents balance without any SOL fee. Only sign on `near.com` or `solswap.org`, and only when the message names `intents.near` (step 5 above shows what to check).
 - **Look-alike sites.** Type `solswap.org` and `near.com` yourself or use bookmarks. Don't follow links from DMs, replies or ads.
 
 ---
