@@ -5719,11 +5719,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:76e2c7e427829c0e06eaa7fe2ab88ec2fadeaa3e1edea3627010f1cde8ce81e1",
-      "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
+      "src": "sha256:4d5d717ce94a73e94d9fe0bee847970c655caf58e6349fc65bd3590a75004367",
+      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
+      "mode": "seed",
+      "tool": "gt-static+gloss-restore+prose-retranslate",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
@@ -23019,11 +23019,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:76e2c7e427829c0e06eaa7fe2ab88ec2fadeaa3e1edea3627010f1cde8ce81e1",
-      "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
+      "src": "sha256:4d5d717ce94a73e94d9fe0bee847970c655caf58e6349fc65bd3590a75004367",
+      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "engine": "nllb",
+      "mode": "seed",
+      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
