@@ -12,6 +12,9 @@ privacy meter that tracks how the shielded pools evolved, see
 reference table of activation heights and branch ids, see
 [Network Upgrades](../start-here/network-upgrades).
 
+**Prefer to watch it?** [Ten Years of Zcash — 2016 to 2026](https://youtu.be/l8WtDytPdrg)
+covers the same ground in three minutes, one upgrade at a time.
+
 ## 2016: a chain that could keep a secret
 
 [Sprout](../zcash-tech/sprout) was not an upgrade. It was the launch — the
