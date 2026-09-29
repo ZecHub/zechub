@@ -1489,11 +1489,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+prose-retranslate+table-rebuild",
+      "tool": "nllb-200-3.3B+prose-retranslate+table-rebuild+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -3219,11 +3219,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -4949,11 +4949,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -6679,11 +6679,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B+table-rebuild+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -8409,11 +8409,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -10139,11 +10139,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -11869,11 +11869,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -13599,11 +13599,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B+table-rebuild+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -15329,11 +15329,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -17059,11 +17059,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -18789,11 +18789,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -20519,11 +20519,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -22249,11 +22249,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -23979,11 +23979,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B+table-rebuild+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -25709,11 +25709,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -27439,11 +27439,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -29169,11 +29169,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+table-rebuild",
+      "tool": "nllb-200-3.3B+table-rebuild+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -30899,11 +30899,11 @@
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
-      "src": "sha256:214fcd66bf70b87f02a65fe3bb45bf954819ae447386e4381564cfa8b05a986e",
-      "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
+      "src": "sha256:c76307ad7e3dbddfefb38fffc9b27f95e8083bc54d30c15cfc09f6ec5cee537b",
+      "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
