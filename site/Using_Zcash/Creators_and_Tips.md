@@ -15,7 +15,7 @@
 
 ## Zcash.me
 
-![Zcash.me Logo](/content-images/_unavailable.svg)
+![Zcash.me Logo](https://github.com/KenzyNuel/zechub/blob/main/assets/images/zcashme_placeholder-jpeg.jpg)
 
 ### Overview
 
@@ -59,7 +59,7 @@
 
 ## TipZ
 
-![TipZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![TipZ Logo](https://github.com/KenzyNuel/zechub/blob/main/assets/images/TIPZ_placeholder.png)
 
 ### Overview
 
