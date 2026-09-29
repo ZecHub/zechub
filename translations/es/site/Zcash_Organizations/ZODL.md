@@ -4,7 +4,7 @@
 
 # <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="Logotipo de ZODL" width="50"/> ZODL (Zcash Open Development Lab)
 
-[Sitio web](https://zodl.com/) - [GitHub](https://github.com/AgoraCyber) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
+[Sitio web](https://zodl.com/) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
 ## Declaración de misión
 
@@ -48,7 +48,7 @@ ZODL es una billetera móvil de autocustodia diseñada para transacciones privad
 - [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
-- [GitHub](https://github.com/AgoraCyber)
+- [GitHub](https://github.com/zodl-inc)
 
 **Características principales:**
 

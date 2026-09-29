@@ -39,7 +39,7 @@ Privacy-first audiovisual collective a ɛtete, bom bɔ, na ɛma atuhoamafo AV mm
 [Sra](https://zkav.club/)
 
 ### Zcash Network Sukuu a ɛwɔ hɔ
-Nhomasua mu nsɛm a wɔahyehyɛ ama Zcash dwumadiefoɔ foforɔ ne wɔn a wɔyɛ. 
+Nhomasua mu nsɛm a wɔahyehyɛ ama Zcash dwumadiefoɔ ne wɔn a wɔyɛ foforɔ. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
 ### Zectastic
@@ -59,7 +59,7 @@ Mpɔtam hɔfoɔ nkitahodi ne akatua atenaeɛ a wɔayɛ ama Zcash mpɔtam, Web3 n
 [Sra](https://gleyo.app/)
 
 ### Zcash Mmoa a Wɔde Ma Hub
-Community-focused grants dashboard a wɔayɛ sɛ ɛbɛma sɛdeɛ wɔhunu Zcash grants, di akyi, na wɔsan hwɛ mu no ayɛ mmerɛ. Ɛde mmoa akwammisa, nsɛntitiriw, sikasɛm nhyehyɛe, nkɔmmɔbɔ, ne nhwehwɛmu ba beae biako denam twetwe data a ɛte ase fi Zcash Community Grants GitHub akorae no so. Asɛnka agua no botae ne sɛ ɛbɛma osuahu a emu da hɔ na ɛyɛ mmerɛw sɛ wɔde bedi dwuma ama wɔn a wɔrehwehwɛ adwuma no, boayikuw no mufo, ne mpɔtam hɔfo a wɔhwɛ nneɛma mu. 
+Community-focused grants dashboard a wɔayɛ sɛ ɛbɛma sɛdeɛ wɔhunu Zcash grants, di akyi, na wɔsan hwɛ mu no ayɛ mmerɛ. Ɛde mmoa akwammisa, nsɛntitiriw, sikasɛm nhyehyɛe, nkɔmmɔbɔ, ne nhwehwɛmu ba beae biako denam twetwe data a ɛte ase fi Zcash Community Grants GitHub akorae no so. Asɛnka agua no botae ne sɛ ɛbɛma osuahu a emu da hɔ na ɛyɛ mmerɛw sɛ wɔde bedi dwuma ama wɔn a wɔrehwehwɛ adwuma, boayikuw no mufo, ne mpɔtam hɔfo a wɔhwɛ nneɛma mu. 
 [Sra](https://staging.zgrantshub.com/)
 
 ---
@@ -75,12 +75,18 @@ Ankorankoro sikatua a wɔde tua intanɛt so. Ɛnyɛ afiase, KYC biara nni hɔ. A
 [Sra](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Sikakorabea
-Zcash sika kotoku Orchard-focused a wɔasi ama zebrad, a ɛboa nnwuma a wɔabɔ ho ban koraa ne safoa sohwɛ a ahobammɔ wom. 
+Orchard-first Zcash sika kotoku a wɔasi maa Zebrad ne lightwalletd. Ɛboa send/receive a wɔabɔ ho ban koraa, mpɔtam hɔ safoa sohwɛ a ahobammɔ wom, ne Ironwood (NU6.3) nkyerɛwde ne Orchard-to-Ironwood atutra. Wɔpow address ahorow a ɛda adi pefee ma sikatua a ɛsen fa nea ɔde di dwuma no anim. 
+
 [Sra](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Katua pon a ɛma wɔn a wɔde di dwuma no sɛe ZEC a wɔabɔ ho ban wɔ wiase ankasa mu adetɔ ho (mprempren ɛwɔ alpha mu). 
 [Sra](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — ZEC kɔ Sika App, Chime, Monzo, Revolut, Venmo, anaa Zelle denam Peer so. Wɔdane ZEC kɔ USDC (NEAR), afei Peer order a ɛwɔ Base so no gyae USDC bere a nea ɔfa no no ada fiat sikatua no adi akyi. Taker hu payment-app dwumadie din. Ɛnyɛ CEX, ɛnyɛ ZEC-in-escrow. 
+[Sra](https://zcashto.cash/)
+
 
 ### Zafu Sikakorabea
 Open-source kokoam sika kotoku ma Zcash ne Penumbra. Browser ntrɛwmu a ɛwɔ client-side proving, verified light-client architecture, awɔw mu signing, FROST multisig, ne view key biara nni hɔ a efi afiri no mu. 

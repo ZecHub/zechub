@@ -15,7 +15,7 @@ Censorship-tsitretsitsi, Zcash blockchain-ŋusẽ hadomenyatakakadzraɖoƒewo. Z
 (Nyatakakadzraɖoƒe si mele Internet dzi fifia o tso September 2026 me.)
 
 ### ZK Radio dzi
-Radiodɔwɔƒe si le Internet dzi be woatsɔ ana nyanya Zcash nutoa me tɔwo, ana hehe wo, ahaɖe modzaka na wo. Zcash en Español kple ZKAV Club ye wɔe. 
+Radiodɔwɔƒe si le Internet dzi be woana nyanya, afia nu, ahaɖe modzaka na Zcash nutoa me tɔwo. Zcash en Español kple ZKAV Club ye wɔe. 
 [Sasrã](https://zcashesp.com/zk-radio/)
 
 ### ZShieldHer
@@ -59,7 +59,7 @@ Nutoa me ƒe nuwɔwɔ kple teƒeɖoɖo ƒe mɔnu si wowɔ na Zcash nutoawo, Web3
 [Sasrã](https://gleyo.app/)
 
 ### Zcash Gakpekpeɖeŋunana Dɔwɔƒe
-Nutoa me tɔwo ƒe kpekpeɖeŋunana ƒe dashboard si wowɔ be wòana alesi woake ɖe Zcash ƒe kpekpeɖeŋunana ŋu, akplɔ wo ɖo, ahalé ŋku ɖe wo ŋu bɔbɔe. Ehea kpekpeɖeŋunana ƒe dɔbiagbalẽviwo, nu veviwo, gazazãwo, numedzodzrowo, kple numekukuwo vaa teƒe ɖeka to nyatakaka siwo le agbe hehe tso Zcash Community Grants GitHub nudzraɖoƒea me. Nuƒolanɔƒea ƒe taɖodzinue nye be yeana nuteƒekpɔkpɔ si me kɔ wu eye wòle bɔbɔe wu nazãlawo, kɔmiti me tɔwo, kple nutoa me tɔwo ƒe ŋkuléleɖenuŋulawo. 
+Nutoa me tɔwo ƒe kpekpeɖeŋunana ƒe dashboard si wowɔ be wòana alesi woake ɖe Zcash ƒe kpekpeɖeŋunana ŋu, akplɔ wo ɖo, ahalé ŋku ɖe wo ŋu bɔbɔe. Ehea kpekpeɖeŋunana ƒe dɔbiagbalẽviwo, nu veviwo, gazazãwo, numedzodzrowo, kple numekukuwo vaa teƒe ɖeka to nyatakaka siwo le agbe hehe tso Zcash Community Grants GitHub nudzraɖoƒea me. Nuƒolanɔƒea ƒe taɖodzinue nye be yeana nuteƒekpɔkpɔ si me kɔ wu eye wòle bɔbɔe wu nazãla siwo di be yewoaxɔ dɔa, kɔmitia me tɔwo, kple nutoa me tɔwo ƒe numetola. 
 [Sasrã](https://staging.zgrantshub.com/)
 
 ---
@@ -75,15 +75,21 @@ Zcash gakotoku si zazã le bɔbɔe, si ƒe nɔnɔmewo katã le multiplatform kpl
 [Sasrã](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Gakotoku
-Zcash gakotoku si wotu Orchard-focused si wotu na zebrad, si doa alɔ asitsatsa siwo ŋu wokpɔ ta na bliboe kple safuiwo dzikpɔkpɔ dedie. 
+Orchard-first Zcash gakotoku si wotu na Zebrad kple lightwalletd. Doa alɔ dɔdɔ/xɔxlɔ̃ si wokpɔ ta na bliboe, nutoa me safuiwo dzikpɔkpɔ dedie, kple Ironwood (NU6.3) ƒe nuŋlɔɖiwo kple Orchard-to-Ironwood ʋuʋu. Wogbea adrɛs siwo me kɔ na fexexe ƒe sisi siwo dze ŋgɔ zãla. 
+
 [Sasrã](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Fexexe ƒe agbo si na zãlawo zãa ZEC si wokpɔ ta na ɖe xexeame ŋutɔŋutɔ ƒe nuƒlewo ŋu (fifia le alfa me). 
 [Sasrã](https://overpay.com)
 
+### ZcashToCash
+ZcashToCash (zcashto.cash) — ZEC na Ga App, Chime, Monzo, Revolut, Venmo, alo Zelle to Hati dzi. Wotrɔa ZEC wòzua USDC (NEAR), emegbe Peer order on Base ɖea USDC ɖe go ne amesi xɔe ɖo kpe fiat fexexe dzi vɔ. Taker kpɔa fexexe-dɔdamɔnu zazã ƒe ŋkɔ. Menye CEX o, menye ZEC-in-escrow. 
+[Sasrã](https://zcashto.cash/)
+
+
 ### Zafu ƒe Gakotoku
-Adzamegakotoku si woʋu ɖi na Zcash kple Penumbra. Browser ƒe kekeɖenudɔwɔwɔ kple asitsalawo ƒe akpa dzi kpeɖodzi, kekeli-asitsalawo ƒe xɔtuɖoɖo si ŋu woɖo kpee, asidede agbalẽ te fafɛ, FROST multisig, kple nukpɔkpɔ ƒe safui aɖeke si medzo le mɔ̃a me o. 
+Adzamegakotoku si woate ŋu aʋu ɖi na Zcash kple Penumbra. Browser ƒe kekeɖenudɔwɔwɔ kple asitsalawo ƒe akpa dzi kpeɖodzi, kekeli-asitsalawo ƒe xɔtuɖoɖo si ŋu woɖo kpee, asidede agbalẽ te fafɛ, FROST multisig, kple nukpɔkpɔ ƒe safui aɖeke si medzo le mɔ̃a me o. 
 [Sasrã](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo
@@ -107,7 +113,7 @@ Zcash gakotoku si wotu ɖe ame ŋutɔ ƒe nyawo dzi si wowɔ na ZEC asitsatsa b�
 [Nyamedzroƒe](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
 
 ### ZecVault ƒe agbalẽ
-Taɖodzinu-si wotu ɖe gadzadzraɖo gakotoku si wotu ɖe Zcash takpɔnu ƒe asitsatsa dzi. 
+Taɖodzinu si wotu ɖe gadzadzraɖo ƒe gakotoku si wotu ɖe Zcash takpɔnu ƒe asitsatsa dzi. 
 [Nyamedzroƒe](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
@@ -204,11 +210,11 @@ Ameŋunyatakakawo-gbãtɔ si tsɔa ZEC dzeɖoɖowo doa ka kple xexeame ŋutɔŋu
 [Sasrã](https://www.justzappit.xyz/)
 
 ### Zentat ƒe nya
-Browser ƒe kekeɖenudɔ si trɔa fiat ga ƒe asiwo ɖe ZEC me le ɣeyiɣi ŋutɔŋutɔ me ne èle web la me dzrom. 
+Browser ƒe kekeɖenudɔwɔwɔ si trɔa fiat ga ƒe asiwo ɖe ZEC me le ɣeyiɣi ŋutɔŋutɔ me ne èle web la me dzrom. 
 [Sasrã](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
 ### Gli si Wotsɔ Akpoxɔnu Kpɔ
-Nuvɔ̃meʋuʋu ƒe mɔnu si me Zcash adzamenyawo le ŋusẽ ɖo si ŋu ŋkɔ mele o. 
+Nuvɔ̃meʋuʋu ƒe mɔnu si me Zcash adzamenyawo le ŋusẽ ɖo. 
 [Sasrã](https://shieldedwall.org/)
 
 ### Ztrash
@@ -300,5 +306,5 @@ Zcash kpekpeɖeŋunahabɔbɔ si le eɖokui si, si dzɔa ga tso nudzɔdzɔwo me, 
 [Sasrã](https://shieldedlabs.net/)
 
 ### Cypherpunk ƒe haƒoƒo
-Dɔwɔƒe si tsɔ eɖokui na be yeakpɔ ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, ɖokuisinɔnɔ, kple cypherpunk dzidzenuwo. Tu dɔwɔnuwo na ame ɖekaɖeka siwo hiã be woakpɔ woƒe dijitaal agbe ta. 
+Dɔwɔƒe si tsɔ eɖokui na be yeakpɔ ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, ɖokuidziɖuɖu, kple cypherpunk dzidzenuwo. Tu dɔwɔnuwo na ame ɖekaɖeka siwo hiã be woakpɔ woƒe dijitaal agbe ta. 
 [Sasrã](https://cypherpunk.com/)

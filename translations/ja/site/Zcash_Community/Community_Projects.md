@@ -75,12 +75,17 @@ Zcash助成金の発見、追跡、レビューを簡素化するために設計
 [アクセス](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Orchard重視のZcashウォレットで、zebrad向けに構築されており、完全にシールドされたトランザクションと安全な鍵管理をサポートします。  
+Zebradおよびlightwalletd向けに構築された、Orchardを最優先にしたZcashウォレット。完全にシールドされた送受信、安全なローカル鍵管理、Ironwood（NU6.3）ノート、ならびにOrchardからIronwoodへの移行をサポートします。ユーザー向けの支払いフローでは、透明アドレスは拒否されます。
+
 [訪問](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 ユーザーが現実世界の購入にシールドされたZECを使えるようにする決済ゲートウェイ（現在アルファ版）。  
 [訪問](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — ZECを使って、Peer経由でCash App、Chime、Monzo、Revolut、Venmo、またはZelleに送金。ZECはUSDC（NEAR）に変換され、その後、テイカーが法定通貨での支払いを証明すると、Base上のPeer注文がUSDCを解放します。テイカーには決済アプリのユーザー名が表示されます。CEXでも、ZECをエスクローに入れる方式でもありません。  
+[訪問](https://zcashto.cash/)
 
 ### Zafu Wallet
 ZcashとPenumbraのためのオープンソースのプライバシーウォレット。クライアントサイド証明、検証済みライトクライアントアーキテクチャ、コールド署名、FROSTマルチシグ、そしてview keyがデバイス外に出ないブラウザ拡張です。  

@@ -51,7 +51,7 @@ Ohun elo alagbeka ti o ṣajọpọ awọn iroyin ZEC, iṣẹ agbegbe, alaye n�
 [Àpérò](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Community
-Ibudo agbegbe fun Eto imulo ti o dara fun Zcash (PGPZ), eto imulo Washington DC kan ti o dojukọ lori fifipamọ owo oni-nọmba oni-nọmba, ibamu pẹlu iṣe, ati ipa anfani gbogbo eniyan ti Zcash. 
+Ibudo agbegbe fun Eto imulo ti o dara fun Zcash (PGPZ), eto imulo Washington DC kan ti o dojukọ lori fifipamọ owo oni-nọmba oni-nọmba, ibamu iṣe, ati ipa anfani gbogbo eniyan ti Zcash. 
 [Ṣèbẹ̀wò](https://community.pgpz.org/)
 
 ### Gleyo
@@ -75,15 +75,21 @@ Apamọwọ Zcash ti o rọrun lati lo, ti o ni ifihan ni kikun pẹlu atilẹyi
 [Ṣèbẹ̀wò](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Àpò owó Nozy
-Àpò owó Zcash Orchard-focused tí a kọ́ fún zebrad, tí ó ń ṣe àtìlẹ́yìn fún àwọn ìṣòwò tí a dáàbò bò pátápátá àti ìṣàkóso pàtàkì tí ó ní ààbò. 
+Àpò owó Zcash Orchard-first ni a kọ́ fún Zebrad àti lightwalletd. Ó ń ṣètìlẹ́yìn fún ìfiránṣẹ́/gbígbà tí a dáàbò bò pátápátá, ìṣàkóso kọ́kọ́rọ́ agbègbè tí ó ní ààbò, àti àkọsílẹ̀ Ironwood (NU6.3) àti ìṣípòpadà Orchard-to-Ironwood. A kò gba àwọn àdírẹ́sì tí ó hàn gbangba fún ìsanwó tí ó dojúkọ olùlò. 
+
 [Ṣèbẹ̀wò](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Ẹnu ọ̀nà ìsanwó tí ó jẹ́ kí àwọn olùlò náwó ZEC tí a dáàbò bò lórí àwọn ohun tí wọ́n ń rà ní ayé gidi (lọ́wọ́lọ́wọ́ ní alpha). 
 [Ṣèbẹ̀wò](https://overpay.com)
 
+### ZcashToCash
+ZcashToCash (zcashto.cash) — ZEC sí Cash App, Chime, Monzo, Revolut, Venmo, tàbí Zelle nípasẹ̀ Peer. A yípadà ZEC sí USDC (NEAR), lẹ́yìn náà àṣẹ Peer on Base tú USDC sílẹ̀ lẹ́yìn tí ẹni tí ó gbà á fi hàn pé ó san owó fiat. Taker rí orúkọ ìsanwó-app. Kìí ṣe CEX, kìí ṣe ZEC-in-escrow. 
+[Ṣèbẹ̀wò](https://zcashto.cash/)
+
+
 ### Apamọwọ Zafu
-Àpò ìpamọ́ tó ṣí sílẹ̀ fún Zcash àti Penumbra. Àfikún ẹ̀rọ aṣàwárí pẹ̀lú ẹ̀rí tó fi hàn ní ẹ̀gbẹ́ oníbàárà, ìṣètò ìmọ́lẹ̀ oníbàárà tó jẹ́rìí sí, àmì ìfọwọ́sowọ́pọ̀ tó tutu, FROST multisig, àti kò sí kọ́kọ́rọ́ tó ń fi ẹ̀rọ náà sílẹ̀. 
+Àpò ìpamọ́ tó ṣí sílẹ̀ fún Zcash àti Penumbra. Àfikún ẹ̀rọ aṣàwárí pẹ̀lú ẹ̀rí tó fi hàn ní ẹ̀gbẹ́ oníbàárà, ìṣètò ìmọ́lẹ̀ oníbàárà tó jẹ́rìí sí, àmì ìfọwọ́sowọ́pọ̀ tó tutu, FROST multisig, àti kò sí àmì ìwòye tó ń fi ẹ̀rọ náà sílẹ̀. 
 [Ṣèbẹ̀wò](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo
@@ -288,7 +294,7 @@ Syeed AI ti o pese iwọle si ọpọlọpọ awọn awoṣe AI asiwaju lakoko t
 [Ṣèbẹ̀wò](https://nano-gpt.com/conversation/new)
 
 ### zk.poker
-Pẹpẹ-sí-ẹgbẹ́ pókà tí ó so ìfọwọ́sowọ́pọ̀ dé òpin, pókà ọpọlọ, àti ìmọ̀ ẹ̀rọ ìpamọ́ Zcash pọ̀. A ṣe é kí olùṣiṣẹ́ náà má baà nílò láti mọ káàdì àwọn olùṣeré tàbí kí ó gba owó tẹ́tẹ́ náà ní tààràtà. 
+Pẹpẹ pókà alájọ-sí-ẹgbẹ́ kan tí ó so ìfọwọ́sowọ́pọ̀ dé òpin, pókà onínú, àti ìmọ̀ ẹ̀rọ ìpamọ́ Zcash. A ṣe é kí olùṣiṣẹ́ náà má baà nílò láti mọ káàdì àwọn olùṣeré tàbí kí ó gba owó tẹ́tẹ́ náà ní tààràtà. 
 [Ṣèbẹ̀wò](https://zkbtc.org/)
 
 ---

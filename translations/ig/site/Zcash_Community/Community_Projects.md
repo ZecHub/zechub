@@ -23,7 +23,7 @@ Ebe mmụta Zcash maka ndị lanarịrị ime ihe ike n'ụlọ.
 [Gaa leta](https://zshieldher.com/)
 
 ### ZecForge
-Ihe okike maka usoro Zcash lekwasịrị anya na ntinye aka, mmepe ndị okike, na nkesa ọdịnaya. 
+Ihe okike maka usoro Zcash lekwasịrị anya na ntinye aka, mmepe nke ndị okike, na nkesa ọdịnaya. 
 [Gaa leta](https://x.com/zec_forge)
 
 ### Ịmụta usoro vidiyo Zcash nke ọma
@@ -75,12 +75,18 @@ Mfe iji, obere akpa Zcash dị ọtụtụ nke nwere njirimara zuru oke yana nkw
 [Gaa leta](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Obere akpa Nozy
-Akpa Zcash Orchard-focused nke e wuru maka zebrad, na-akwado azụmahịa echekwara nke ọma na njikwa isi dị nchebe. 
+Orchard-first obere akpa Zcash mbụ e wuru maka Zebrad na lightwalletd. Na-akwado izipu/nata nke ọma, njikwa igodo mpaghara echekwara, na ndetu Ironwood (NU6.3) na mbugharị Orchard-to-Ironwood. A naghị anabata adreesị doro anya maka usoro ịkwụ ụgwọ na-eche onye ọrụ ihu. 
+
 [Gaa leta](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Ọnụ ụzọ ịkwụ ụgwọ nke na-enye ndị ọrụ ohere imefu ZEC echekwara na nzụta ụwa n'ezie (ugbu a na alfa). 
 [Gaa leta](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — ZEC gaa na Cash App, Chime, Monzo, Revolut, Venmo, ma ọ bụ Zelle site na Peer. A na-agbanwe ZEC ka ọ bụrụ USDC (NEAR), mgbe ahụ, iwu Peer na Base na-ewepụta USDC mgbe onye na-anara ego gosipụtara ịkwụ ụgwọ fiat. Taker na-ahụ aha njirimara ngwa ịkwụ ụgwọ. Ọ bụghị CEX, ọ bụghị ZEC-in-escrow. 
+[Gaa leta](https://zcashto.cash/)
+
 
 ### Akpa Zafu
 Akpa nzuzo nke mepere emepe maka Zcash na Penumbra. Mgbatị ihe nchọgharị nwere ihe akaebe nke ndị ahịa, usoro nhazi ọkụ nke ndị ahịa, akara oyi, FROST multisig, na igodo enweghị echiche na-apụ na ngwaọrụ ahụ. 

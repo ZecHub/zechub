@@ -75,15 +75,21 @@ Pochi ya Zcash yenye mifumo mingi na rahisi kutumia, yenye usaidizi wa kujikinga
 [Tembelea](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Pochi ya Nozy
-Pochi Zcash Orchard-focused iliyojengwa kwa ajili ya zebrad, inayounga mkono miamala iliyolindwa kikamilifu na usimamizi salama wa funguo. 
+Pochi Zcash Orchard-first iliyojengwa kwa ajili ya Zebrad na lightwalletd. Inasaidia kutuma/kupokea kwa ulinzi kamili, usimamizi salama wa funguo za ndani, na noti za Ironwood (NU6.3) na uhamishaji wa Orchard-to-Ironwood. Anwani za uwazi zinakataliwa kwa mtiririko wa malipo unaowakabili watumiaji. 
+
 [Tembelea](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Lango la malipo linalowaruhusu watumiaji kutumia ZEC iliyolindwa kwenye ununuzi wa ulimwengu halisi (kwa sasa katika alpha). 
 [Tembelea](https://overpay.com)
 
+### ZcashToCash
+ZcashToCash (zcashto.cash) — ZEC kuwa Cash App, Chime, Monzo, Revolut, Venmo, au Zelle kupitia Peer. ZEC hubadilishwa kuwa USDC (NEAR), kisha agizo la Peer on Base hutoa USDC baada ya mpokeaji kuthibitisha malipo ya fiat. Taker huona jina la mtumiaji la programu ya malipo. Sio CEX, sio ZEC-in-escrow. 
+[Tembelea](https://zcashto.cash/)
+
+
 ### Pochi ya Zafu
-Pochi ya faragha ya chanzo huria kwa Zcash na Penumbra. Kiendelezi cha kivinjari chenye uthibitishaji wa upande wa mteja, usanifu uliothibitishwa wa mwanga-mteja, utiaji sahihi kwa njia baridi, FROST multisig, na hakuna kitufe cha kutazama kinachoondoka kwenye kifaa. 
+Pochi ya faragha ya chanzo huria kwa Zcash na Penumbra. Kiendelezi cha kivinjari chenye uthibitisho wa upande wa mteja, usanifu uliothibitishwa wa mwanga-mteja, utiaji sahihi kwa njia baridi, FROST multisig, na hakuna kitufe cha kutazama kinachoondoka kwenye kifaa. 
 [Tembelea](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo

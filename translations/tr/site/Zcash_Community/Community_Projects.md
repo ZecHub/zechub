@@ -75,12 +75,17 @@ Kullanımı kolay, tüm özelliklere sahip, çok platformlu ve otomatik korumal�
 [Ziyaret et](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Orchard odaklı, zebrad için geliştirilmiş Zcash cüzdanı; tamamen shielded işlemleri ve güvenli anahtar yönetimini destekler.  
-[Ziyaret edin](https://github.com/LEONINE-DAO/Nozy-wallet)
+Orchard-öncelikli Zcash cüzdanı, Zebrad ve lightwalletd için geliştirilmiştir. Tamamen shielded gönderim/alımı, güvenli yerel anahtar yönetimini, Ironwood (NU6.3) notlarını ve Orchard-den-Ironwood-e geçişi destekler. Kullanıcıya yönelik ödeme akışlarında transparent adresler reddedilir.
+
+[Ziyaret et](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Kullanıcıların gerçek dünyadaki satın alımlarda shielded ZEC harcamasını sağlayan ödeme ağ geçidi (şu anda alpha aşamasında).  
 [Ziyaret et](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — Peer aracılığıyla Cash App, Chime, Monzo, Revolut, Venmo veya Zelle'e ZEC. ZEC USDC (NEAR)'e dönüştürülür; ardından Base üzerindeki bir Peer emri, alıcı itibari para ödemesini kanıtladıktan sonra USDC'yi serbest bırakır. Alıcı, ödeme uygulamasındaki bir kullanıcı adını görür. CEX değildir, ZEC-in-escrow değildir.  
+[Ziyaret et](https://zcashto.cash/)
 
 ### Zafu Wallet
 Zcash ve Penumbra için açık kaynaklı gizlilik cüzdanı. İstemci tarafı proving, doğrulanmış light-client mimarisi, cold signing, FROST multisig ve görüntüleme anahtarının cihazdan çıkmaması özelliklerine sahip tarayıcı eklentisi.  
