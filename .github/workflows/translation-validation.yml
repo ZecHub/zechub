@@ -94,6 +94,16 @@ jobs:
       - name: Page hygiene gate self-test
         run: node scripts/check-page-hygiene.test.mjs
 
+      # A glossary's Term column is vocabulary and a Parameter column holds
+      # identifiers: both stay English in every locale, only the explanation is
+      # translated. Engines glossed them (Arborist Call -> sw "Wito wa Mtaalamu
+      # wa Miti"). The whole corpus is checked: it is clean, and `--fix` repairs.
+      - name: Verbatim table columns
+        run: node scripts/check-verbatim-columns.mjs
+
+      - name: Verbatim table columns self-test
+        run: node scripts/check-verbatim-columns.test.mjs
+
       # Every venue named on the exchange pages must be a protected term, or
       # a machine engine will translate the BRAND. It did: LetsExchange became
       # "Ẹ jẹ́ kí a pààrọ̀" ("let us exchange") in Yoruba, across 109 headings

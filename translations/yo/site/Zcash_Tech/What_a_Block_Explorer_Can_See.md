@@ -26,7 +26,7 @@ Nítorí pé oríṣi méjì ló wà, iye lè gbéra ní ọ̀nà mẹ́rin: à�
 
 ## Ohun tí olùṣàwárí lè rí
 
-Olùwádìí gbogbogbò bíi [Àga Búlásíkì](https://blockchair.com/zcash) le ka ni kedere:
+Olùwádìí gbogbogbò bíi [Blockchair](https://blockchair.com/zcash) le ka ni kedere:
 
 - Ìsanwó èyíkéyìí tí ó ṣe kedere (t sí t), láti òpin dé òpin.
 - Owó tí ó ń wọ inú adágún tí a dáàbò bò (ẹ̀gbẹ́ tí ó hàn gbangba àti iye náà).

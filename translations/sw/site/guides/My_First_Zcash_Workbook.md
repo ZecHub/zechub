@@ -156,7 +156,7 @@ Sehemu ya mwisho inakaribisha wasomaji kuwa sehemu ya mazingira ya Zcash. Fursa 
 
 Ujumbe ni wazi: mtu yeyote anaweza kushiriki, na jamii inakaribisha wachangiaji wa asili zote na viwango vya ustadi.
 
-[Zcash Global mvutano](https://discord.gg/F6DCkCDK)
+[Discord Zcash Global](https://discord.gg/F6DCkCDK)
 
 ---
 

@@ -34,14 +34,14 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados com 
 | Commitment Scheme | Permite a quem faz um compromisso comprometer-se com um polinómio através de uma cadeia curta que pode ser usada por um verificador para confirmar avaliações reivindicadas do polinómio comprometido. Útil para reduzir os custos de comunicação no protocolo Zcash. |
 | Community | [O Fórum Oficial da Comunidade Zcash](https://forum.zcashcommunity.com) / [Discord da Comunidade Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord de I&D Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Um modelo de consenso híbrido proposto que mantém a produção de blocos por proof-of-work e acrescenta por cima uma camada de finalidade por proof-of-stake, para que os blocos obtenham uma finalidade mais forte sem abandonar a mineração. Surgiu da investigação sobre a Trailing Finality Layer e está a ser desenvolvido pela Shielded Labs, encontrando-se ainda em desenvolvimento em testnet em 2026. |
-| CrossPay | Uma funcionalidade na wallet Zodl que permite gastar ZEC shielded enquanto o destinatário é pago no ativo e na chain que preferir, com encaminhamento através de NEAR Intents em vez de uma exchange centralizada. |
-| Cypherpunk Zero | Um universo criativo e esforço colaborativo entre a ECC, o ilustrador Stranger Wolf, a Mighty Jaxx e parceiros selecionados do ecossistema. [Site Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Coleção Opensea](https://opensea.io/collection/cypherpunk-zero) |
+| CrossPay | Uma funcionalidade na wallet ZODL que permite gastar ZEC shielded enquanto o destinatário é pago no ativo e na chain que preferir, com encaminhamento através de NEAR Intents em vez de uma exchange centralizada. |
+| Cypherpunk Zero | Um universo criativo e esforço colaborativo entre a ECC, o ilustrador Stranger Wolf, a Mighty Jaxx e parceiros selecionados do ecossistema. [Site Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Coleção OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | Termo | Definição |
 |------|-----------|
-| DeFi | Projetos que integram ZEC com DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | Projetos que integram ZEC com DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | Refere-se a uma transação enviada de um zaddr (endereço shielded) para um taddr (endereço transparente). A origem da transação não é visível, no entanto os fundos entram numa pool de valor publicamente visível. |
 | Developer Resources | [Recursos para Programadores](https://www.zcashcommunity.com/developers/) |
 | Documentation | [Documentação Oficial](https://zcash.readthedocs.io/en/latest/) |
@@ -63,9 +63,9 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados com 
 | Termo | Definição |
 |------|-----------|
 | Fiat-Shamir | Uma técnica para pegar numa prova interativa de conhecimento e criar com base nela uma assinatura digital. Desta forma, algum facto (por exemplo, o conhecimento de um segredo) pode ser provado publicamente sem revelar a informação subjacente. |
-| Verificação Formal | Provar matematicamente que um sistema se comporta exatamente como especificado, em vez de depender apenas de testes. O circuito Ironwood Action foi verificado desta forma por contribuidores da zkSecurity e da ZODL, usando o provador de teoremas Lean, para demonstrar a ausência de falhas de solidez. |
+| Formal Verification | Provar matematicamente que um sistema se comporta exatamente como especificado, em vez de depender apenas de testes. O circuito Ironwood Action foi verificado desta forma por contribuidores da zkSecurity e da ZODL, usando o provador de teoremas Lean, para demonstrar a ausência de falhas de solidez. |
 | Founders Reward | A recompensa dos fundadores representa 20 por cento da recompensa total por bloco e é deduzida do valor de cada bloco e distribuída de forma transparente para impulsionar o desenvolvimento e o crescimento do protocolo. |
-| Free2z | Uma ferramenta para conteúdo anónimo e donativos privados alimentada por Zcash. [Free2z](https://free2z.com) |
+| Free2Z | Uma ferramenta para conteúdo anónimo e donativos privados alimentada por Zcash. [Free2Z](https://free2z.com) |
 | FROST | Esquema de assinatura Schnorr threshold flexível e otimizado por rondas. [Artigo de Investigação](https://eprint.iacr.org/2020/852) |
 
 ## G
@@ -110,7 +110,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados com 
 |------|-----------|
 | Layer-1 | Refere-se a uma rede de base e à sua infraestrutura subjacente. As blockchains Layer-1 podem validar e finalizar transações sem necessidade de outra rede. O Zcash é uma blockchain L1. |
 | librustzcash | Um workspace em Rust que contém todos os crates e dependências para trabalhar com Zcash. [repo](https://github.com/zcash/librustzcash) |
-| Lightwalletd | Um servidor sem estado que fornece informação da blockchain a clientes leves. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | Um servidor sem estado que fornece informação da blockchain a clientes leves. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -118,7 +118,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados com 
 |------|-----------|
 | Metrics | As métricas da rede estão disponíveis [aqui](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
 | Metadata | Dados gerados em conjunto com a transação Zcash de um utilizador. Isto pode incluir altura do bloco, versão da transação ou altura de expiração, etc. |
-| Mobile SDK | Um SDK leve que liga o Android ao Zcash, permitindo que aplicações Android de terceiros enviem e recebam transações shielded. [Github](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mobile SDK | Um SDK leve que liga o Android ao Zcash, permitindo que aplicações Android de terceiros enviem e recebam transações shielded. [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
 | Mining | O processo em que, para cada bloco, os nós da rede Zcash competem realizando cálculos matemáticos complexos para encontrar uma solução com base numa dificuldade autoajustável. [Guia](https://z.cash/mining-zcash/) |
 | Multisignature | Um endereço que requer múltiplas assinaturas de chave privada para gastar fundos. Atualmente, a funcionalidade multisig é suportada apenas por endereços transparentes. |
 
@@ -239,7 +239,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados com 
 | Zebra | A implementação de nó completo em Rust da Zcash Foundation (alternativa ao zcashd). Pronta para produção e ativamente mantida. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | O nó completo original do Zcash, derivado do Bitcoin Core. Foi descontinuado em julho de 2026 após um longo processo de descontinuação, com as suas funções divididas entre o Zebra para consenso e o Zallet para funções de wallet. |
 | ZIP | Zcash Improvement Proposal - o processo de governação da comunidade usado para propor e ratificar alterações ao protocolo. [Repositório ZIP](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab. A organização independente fundada no início de 2026 por Josh Swihart e pela antiga equipa de engenharia da Electric Coin Company, após a sua demissão devido a um conflito de governação com a Bootstrap. Angariou mais de 25 milhões de dólares em financiamento seed em março de 2026 e mantém a wallet Zodl, que foi renomeada de Zashi em fevereiro de 2026. [zodl.com](https://zodl.com) |
+| ZODL | Zcash Open Development Lab. A organização independente fundada no início de 2026 por Josh Swihart e pela antiga equipa de engenharia da Electric Coin Company, após a sua demissão devido a um conflito de governação com a Bootstrap. Angariou mais de 25 milhões de dólares em financiamento seed em março de 2026 e mantém a wallet ZODL, que foi renomeada de Zashi em fevereiro de 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — a criptografia que alimenta as transações shielded do Zcash. Permite provar uma afirmação (por exemplo, um gasto válido) sem revelar qualquer informação secreta. |
 | ZSA (Zcash Shielded Assets) | Tokens emitidos por utilizadores que herdam a privacidade shielded do Zcash, permitindo que ativos além de ZEC se movam de forma privada na rede. Especificados na [ZIP 226](https://zips.z.cash/zip-0226) e uma funcionalidade candidata para a NU7. |
 

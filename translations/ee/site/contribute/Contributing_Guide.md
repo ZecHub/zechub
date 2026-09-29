@@ -108,6 +108,6 @@ Aɖaŋuɖoɖo bubu aɖe le asiwòa? Gblɔe na mí le #general me le Discord dzi.
 
 ### Be Woawu Enu
 
-Taflatse mègahe ɖe megbe le nudzɔdzɔ wɔwɔ gɔme le dɔwɔƒea ƒe ɖoɖo siwo ŋu wodea bubui wu la dometɔ ɖeka ŋu o. Esia nye mɔ nyui aɖe si dzi nàto aƒo ɖokuiwò ɖe Zcash me. Ne nya aɖe le asiwò ku ɖe nudzɔdzɔ ŋu la, taflatse na míanya le edzi [Masɔmasɔ](#join-the-conversation).
+Taflatse mègahe ɖe megbe le nudzɔdzɔ wɔwɔ gɔme le dɔwɔƒea ƒe ɖoɖo siwo ŋu wodea bubui wu la dometɔ ɖeka ŋu o. Esia nye mɔ nyui aɖe si dzi nàto aƒo ɖokuiwò ɖe Zcash me. Ne nya aɖe le asiwò ku ɖe nudzɔdzɔ ŋu la, taflatse na míanya le edzi [Discord](#join-the-conversation).
 
 Akpe!

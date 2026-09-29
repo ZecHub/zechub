@@ -39,7 +39,7 @@ Míeɖoa tatawo ɖe dɔ siwo míewɔna fifia be bounties ʋuna Memleɖa ɖesiaɖ
 
 
 
-Ne mɔ bubu aɖewo li siwo dzi nàto akpe asi ɖe eŋu la, taflatse ŋlɔ gbedasi ɖe ZecHub ([@ZecHub ƒe nyawo](https://twitter.com/zechub)) le Twitter alo Wɔ ɖeka kple míaƒe [Masɔmasɔ](https://discord.gg/zcash).
+Ne mɔ bubu aɖewo li siwo dzi nàto akpe asi ɖe eŋu la, taflatse ŋlɔ gbedasi ɖe ZecHub ([@ZecHub ƒe nyawo](https://twitter.com/zechub)) le Twitter alo Wɔ ɖeka kple míaƒe [Discord](https://discord.gg/zcash).
 
 ____
 

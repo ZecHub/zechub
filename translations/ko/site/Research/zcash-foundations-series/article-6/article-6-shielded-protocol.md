@@ -152,15 +152,15 @@ Sapling의 구조로 가르쳤습니다. 그 이유는 분리가 가장 명확�
 
 | 용어 | 평범한 영어 의미 |
 |---|---|
-| **소비자 키**(spending key) | 사용자의 모든 키가 유래하는 단일 루트 비밀 |
-| **보기 키**(viewing key) | 거래 내용을 보여주되 소비 권한은 부여하지 않는 것 |
-| **소비 설명**(spend description) | 거래의 노트를 소모하는 부분 (nullifier, 앵커, 증명) |
-| **출력 설명**(output description) | 거래에서 노트를 생성하는 부분 (약속, 암호문, 증명) |
-| **액션**(action)(Orchard) | 하나의 소비와 하나의 출력을 함께 수행하는 통합 단위 |
-| **가치 약속**(value commitment) | 금액에 대한 동형 Pedersen 약속 |
-| **바인딩 서명**(binding signature) | 가치 균형을 증명하지만 그 가치를 드러내지 않는 서명 |
-| **앵커**(anchor) | 소비가 멤버십을 증명하는 트리 루트 |
-| **시도 복호화**(trial decryption) | 수신자가 새로운 약속을 테스트하여 자신에게 의한 노트를 찾는 것 |
+| **Spending key** | 사용자의 모든 키가 유래하는 단일 루트 비밀 |
+| **Viewing key** | 거래 내용을 보여주되 소비 권한은 부여하지 않는 것 |
+| **Spend description** | 거래의 노트를 소모하는 부분 (nullifier, 앵커, 증명) |
+| **Output description** | 거래에서 노트를 생성하는 부분 (약속, 암호문, 증명) |
+| **Action (Orchard)** | 하나의 소비와 하나의 출력을 함께 수행하는 통합 단위 |
+| **Value commitment** | 금액에 대한 동형 Pedersen 약속 |
+| **Binding signature** | 가치 균형을 증명하지만 그 가치를 드러내지 않는 서명 |
+| **Anchor** | 소비가 멤버십을 증명하는 트리 루트 |
+| **Trial decryption** | 수신자가 새로운 약속을 테스트하여 자신에게 의한 노트를 찾는 것 |
 
 ---
 

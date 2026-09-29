@@ -60,7 +60,7 @@ FROST kpɔa esia gbɔ to dɔwɔwɔ le ta si wokpɔ ta na la me me:
 
 | | Multisign si me kɔ | FROST ƒe dzidzenu (si wotsɔ akpoxɔnu wɔe) |
 |--|---------------------|--------------------------|
-| Pool | Transparent (public) | Orchard (shielded) |
+| Tsi xaxa | Nusi le gaglãgbe (dutoƒo) | Orchard (si wotsɔ akpoxɔnu wɔe) |
 | Amesiwo de asi ete siwo wokpɔna le kɔsɔkɔsɔ me | Ẽ — dutoƒo safuiwo katã ɖe go | Ao — womate ŋu ade vovototo wo dome tso ame ɖeka ƒe asidede agbalẽ te ƒe gazazã |
 | Ga home siwo wokpɔna | Ẽ | Ao |
 | Nuwɔwɔ aduadu hiã | On-kɔsɔkɔsɔ ŋɔŋlɔdzesiwo | Off-kɔsɔkɔsɔ ƒoƒo ƒe kadodo |
@@ -104,7 +104,7 @@ FROST track lae nye esi me hoʋiʋli nɔ wu le ZecHub Hackathon 2026. Dɔ ɖedze
 - **ZecVault** — 2-of-3 akpoxɔnu escrow si woɖo ɖe mainnet (FROST dzidzenu)
 - **Steward** — threshold custody na shielded Zcash kple UX si léa fɔ ɖe hayahaya ŋu
 
-### Coinbase ƒe ƒuƒoƒo
+### Coinbase
 Coinbase tu ewɔwɔ FROST dɔwɔwɔ na woƒe threshold signing systems (na Bitcoin), kple tɔtrɔ siwo ɖea preprocessing stage ɖa eye woma aggregator ƒe akpaa le gomekpɔlawo katã dome. Woƒe nuteƒekpɔkpɔ ɖo kpe FROST ƒe dedienɔnɔ ƒe kpɔɖeŋu dzi le ewɔwɔ ƒe dzidzenu nu.
 
 ---

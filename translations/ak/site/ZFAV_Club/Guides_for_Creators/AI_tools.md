@@ -30,22 +30,22 @@ Wubetumi abisa Chatbot aboafo bere nyinaa sɛ wɔmmoa mma wɔmfa nkɔmmɔ pa mma
 
 ### Nnwinnade a wontua hwee:
 
-- [ImgnAI a ɛwɔ hɔ](https://imgnai.com/) bot wɔ Discord anaa Telegram so - [Fi ase Akwankyerɛ](https://imgnai.gitbook.io/imgnai/) ne 
+- [ImgnAI](https://imgnai.com/) bot wɔ Discord anaa Telegram so - [Fi ase Akwankyerɛ](https://imgnai.gitbook.io/imgnai/) ne 
 nso mprempren [Webapp ImgnAI](https://app.imgnai.com/home) ne akontaabu login a ɛyɛ soronko 
 fa X, Google, Discord, Telegram kɔ ​​mu
 - [Bing Dalle3 na ɔkyerɛwee](https://www.bing.com/create) - free version betumi ayɛ brɛoo
 - [Adobe Ogya Nwansena](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - a woahyehye no a wontua hwee
-- [Adwene ho mfonini](https://ideogram.ai/login) - a eye wo generating realistic readable text wo mfonini ahorow so
+- [Ideogram](https://ideogram.ai/login) - a eye wo generating realistic readable text wo mfonini ahorow so
 - [Agorudibea AI](https://playgroundai.com/) - free mode, nkrataahyɛ fi $15/ɔsram
 - [Clipdrop denam stability.ai so](https://clipdrop.co/stable-diffusion)
-- [NsorommaAI](https://www.starryai.com) - 5 adwini/da
+- [StarryAI](https://www.starryai.com) - 5 adwini/da
 - [Dae a wombo na ɛyɛe](https://dream.ai/)
-- [Craiyon na ɔkyerɛwee](https://www.craiyon.com/) (DALL-E mini clone) - a wotua ho ka a efi ase fi $5 ma ahoɔhare kɔ soro
+- [Craiyon](https://www.craiyon.com/) (DALL-E mini clone) - a wotua ho ka a efi ase fi $5 ma ahoɔhare kɔ soro
 - [DALL-E a ɛyɛ ketewaa bi](https://huggingface.co/spaces/dalle-mini/dalle-mini) - dedaw ne mfitiasede
 
 ### Nnwinnade a wotua ho ka:
 
-- [Mfinimfini Akwantuo Bot](https://discord.com/invite/midjourney) wɔ Discord mu - efi $10/ɔsram - [Fi ase Akwankyerɛ](https://docs.midjourney.com/docs/quick-start)
+- [Midjourney Bot](https://discord.com/invite/midjourney) wɔ Discord mu - efi $10/ɔsram - [Fi ase Akwankyerɛ](https://docs.midjourney.com/docs/quick-start)
 betumi anya awo ntoatoaso a wɔde wɔn ho bɛyɛ 100 denam afoforo pii a wɔde bɛto gua so [mfonini ahorow a ɛwɔ ha](https://www.midjourney.com/app/rank-pairs/)
 (ɛsɛ sɛ wokɔ top2000 raters - bɛyɛ simma 15 rating mfonini ahorow)
 - [DALL-E 2. Ɔde ne nsa kyerɛɛ ne so](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 awo ntoatoaso - (awo ntoatoaso 15/ɔsram a wontua hwee)
@@ -73,17 +73,17 @@ betumi anya awo ntoatoaso a wɔde wɔn ho bɛyɛ 100 denam afoforo pii a wɔde b
 
 ### Nnwom a ɛma wonya nkɔso
 
-- [Nnyigyei a wɔde twetwe](https://soundraw.io/) - sɔ hwɛ kwa - (nkrasɛm fi $16.99/ɔsram)
+- [Soundraw](https://soundraw.io/) - sɔ hwɛ kwa - (nkrasɛm fi $16.99/ɔsram)
 - [beatoven.ai, na ɛyɛ nea ɛyɛ nwonwa](https://www.beatoven.ai/) - sɔ hwɛ kwa - (nkrasɛm a wɔkra fi $3/ɔsram anaa $1/simma a wɔayɛ)
 - [nnyigyei.com](https://soundful.com/) - sɔ hwɛ kwa - (nkrasɛm firi $59.99/ɔsram anaa 29.99/m afe biara)
 - [boomy](https://boomy.com/) - sɔ hwɛ kwa - (nkrasɛm fi $9.99/ɔsram)
-- [Wɔde nne kɛse](https://www.loudly.com/) - sɔ hwɛ kwa - (nkrasɛm fi $7.99/ɔsram)
+- [Loudly](https://www.loudly.com/) - sɔ hwɛ kwa - (nkrasɛm fi $7.99/ɔsram)
 - [Mubert, na ɔkyerɛwee](https://mubert.com/) - sɔ hwɛ kwa - (nkrasɛm fi $14/ɔsram)
 
 ### Ɛnne a wɔde ma
 
 - [agoru.ht](https://play.ht/) - a wontua hwee - (nkrabea firi $39/bosome)
-- [ElevenLabs a ɛwɔ hɔ](https://elevenlabs.io/) - a wontua hwee - (nkrabea firi $5/bosome)
+- [ElevenLabs](https://elevenlabs.io/) - a wontua hwee - (nkrabea firi $5/bosome)
 - [Murf, na ɔde ne nsa kyerɛɛ ne so](https://murf.ai/) - a wontua hwee - (nkrabea firi $29/bosome)
-- [Sɛ](https://www.resemble.ai/) - bɔ mmɔden kwa (wɔ $0.006 akyi wɔ sekan biara mu)
-- [Nneɛma a wɔde yɛ nneɛma](https://www.synthesia.io/) - (nkrabea fi $22.5/ɔsram)
+- [Resemble](https://www.resemble.ai/) - bɔ mmɔden kwa (wɔ $0.006 akyi wɔ sekan biara mu)
+- [Synthesia](https://www.synthesia.io/) - (nkrabea fi $22.5/ɔsram)

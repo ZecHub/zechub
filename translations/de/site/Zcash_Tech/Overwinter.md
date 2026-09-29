@@ -44,12 +44,12 @@ Overwinter war das erste Zcash-Netzwerk-Upgrade nach dem Mainnet-Start im Oktobe
 
 | Begriff | Einfache Bedeutung |
 |---|---|
-| Netzwerk-Upgrade (NU) | Eine koordinierte Änderung der Konsensregeln von Zcash, aktiviert bei einer festgelegten Blockhöhe |
-| Consensus Branch ID | Eine kurze Kennung, die das aktuelle Set von Konsensregeln bezeichnet |
-| Aktivierungshöhe | Der Block, ab dem die neuen Regeln eines Netzwerk-Upgrades gelten |
-| Replay-Schutz | Eine Regel, die verhindert, dass eine auf einer Chain gültige Transaktion auf einer anderen wiederverwendet wird |
+| Network upgrade (NU) | Eine koordinierte Änderung der Konsensregeln von Zcash, aktiviert bei einer festgelegten Blockhöhe |
+| Consensus branch id | Eine kurze Kennung, die das aktuelle Set von Konsensregeln bezeichnet |
+| Activation height | Der Block, ab dem die neuen Regeln eines Netzwerk-Upgrades gelten |
+| Replay protection | Eine Regel, die verhindert, dass eine auf einer Chain gültige Transaktion auf einer anderen wiederverwendet wird |
 | Mempool | Der Pool von Transaktionen, die gesendet, aber noch nicht in einen Block gemined wurden |
-| Ablaufdatum von Transaktionen | Eine Ablauf-Blockhöhe, nach der eine nicht geminte Transaktion verworfen wird |
+| Transaction expiry | Eine Ablauf-Blockhöhe, nach der eine nicht geminte Transaktion verworfen wird |
 
 ## FAQ
 

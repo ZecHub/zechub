@@ -36,7 +36,7 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
+### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
@@ -49,7 +49,7 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 
 ---
 
-### [Wachimbaji 2](https://zec.2miners.com/)
+### [2Miners](https://zec.2miners.com/)
 
 <a href="https://zec.2miners.com/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/2Miners.png?raw=true" alt="2Miners Logo" width="200" height="100"/>
@@ -127,7 +127,7 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 
 ---
 
-### [Bwawa la Uchimbaji wa Zcash la Uchimbaji Madini](https://foundrydigital.com/foundry-zcash-pool/)
+### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Foundry.png?raw=true" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>

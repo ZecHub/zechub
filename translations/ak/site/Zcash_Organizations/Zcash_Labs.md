@@ -54,7 +54,7 @@ This approach is important because not every project is automatically a good fit
 
 ## Akwanhodoɔ a wɔfa so yɛ adwuma no, Zcash Labs na ɛyɛe.
 
-Sɛ ɛtaa ma nnipa nya kwan de wɔn ho hyɛ Zcash network mu a, ahyehyɛde no kaa sɛ ɛyɛ adwuma wɔ "Shielded Vote Validator" na ɔreyɛ nnwuma bi te sɛ "Zcash full node", "Lightwalletd" ne "RPC".
+Wɔ nnipa a wɔto so abiɛsa nkabom a ɛma ɛyɛ mmerɛw akyi no, Zcash Labs nso yɛ adwuma na ɛyɛ nhyehyɛe a ɛboa ma wotumi kɔ Zcash ntam nkitahodi no so. Bere a wɔde kyerɛɛ ɔmanfo no, ahyehyɛde no kae sɛ wɔyɛ **Shielded Vote Validator** na wɔreyɛ nnwuma a ɛka ho ne **Zcash full node**, **Lightwalletd**, ne **RPC** infrastructure.
 
 Wɔ fa kwan so no, wɔ di dwuma sɛ akwan a ɛkorɔn ma wɔde kɔ network na wɔn hwɛ blockchain data. Lightwalletd boa wallets ne lightweight application ahorow ma wonya ɛho hia ho nsɛm fi network mu bere a wonhia sɛ wɔyɛ blockchain nyinaa adwuma wɔ hɔ ara. RPC nso de ɔkwan bi ma external software ka blockchain node anaa services ho asɛm.
 

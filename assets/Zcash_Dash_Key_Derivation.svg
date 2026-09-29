@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" role="img" aria-label="Zcash roots shielded keys under ZIP 32 with purpose 32 and a separate master key per pool. Dash roots them under DIP-0009 with purpose 9 and coin type 5, in one tree partitioned by feature. Both converge on the same Orchard key tree, because the code is shared. Dash additionally carries a separate BLS key domain for masternode quorums, outside the BIP 32 tree, which is where its threshold signing lives.">
+  <title>Key derivation: two rootings, one shared Orchard subtree</title>
+  <desc>Zcash derives shielded keys under ZIP 32, status Final, giving each shielded pool its own master key with purpose 32 hardened and coin type from SLIP 44. Dash derives under DIP-0009 Feature Derivation Paths, purpose 9 hardened and coin type 5 hardened, in a single tree partitioned by product feature, and DIP-0014 extends BIP 32 index values to 256 bits for identity-derived paths. Both rootings lead to the same Orchard key tree: spending key, from which the spend authorizing key, nullifier key and rivk derive, then the full viewing key, then the incoming and outgoing viewing keys, then diversified addresses. Dash separately holds masternode operator, voting and quorum keys as BLS keys outside that tree, which is where LLMQ threshold signing operates and why it does not compose with Orchard spend authorization.</desc>
+
+  <style>
+    .panel { fill: #FFFFFF; }
+    .ink { fill: #15181D; }
+    .muted { fill: #656C7A; }
+    .rule { stroke: #E3E6EB; }
+    .card { fill: #F6F7F9; stroke: #E3E6EB; }
+    .chip { fill: #FFFFFF; stroke: #C6CCD6; }
+    .dashink { fill: #14537F; }
+    .dashsoft { fill: #E8F2FA; stroke: #9CC8E8; }
+    .zecsoft { fill: #FDF3DC; stroke: #E8C878; }
+    .zecink { fill: #7A5B0B; }
+    .zec { fill: #F4B728; }
+    .arrow { stroke: #8B93A1; fill: none; }
+    .head { fill: #8B93A1; }
+    .cut { stroke: #B4432F; }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .t-title { font-size: 24px; font-weight: 700; }
+    .t-sub { font-size: 13.5px; }
+    .t-head { font-size: 15px; font-weight: 700; }
+    .t-status { font-size: 11px; font-weight: 700; letter-spacing: 1.1px; }
+    .t-path { font-size: 13px; font-weight: 650; }
+    .t-note { font-size: 12px; }
+    .t-key { font-size: 12.5px; font-weight: 650; }
+    .t-small { font-size: 11.5px; }
+    .t-claim { font-size: 14px; font-weight: 650; }
+    @media (prefers-color-scheme: dark) {
+      .panel { fill: #14171C; }
+      .ink { fill: #E9ECF1; }
+      .muted { fill: #98A1B0; }
+      .rule { stroke: #2A2F38; }
+      .card { fill: #1B1F26; stroke: #2A2F38; }
+      .chip { fill: #22272F; stroke: #3C434F; }
+      .dashink { fill: #7FBDE8; }
+      .dashsoft { fill: #0F2A3D; stroke: #2A6390; }
+      .zecsoft { fill: #2A2313; stroke: #6B551C; }
+      .zecink { fill: #F4B728; }
+      .arrow { stroke: #6B7280; }
+      .head { fill: #6B7280; }
+      .cut { stroke: #D9705C; }
+    }
+  </style>
+
+  <defs>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="head"/>
+    </marker>
+  </defs>
+
+  <rect class="panel" x="0" y="0" width="1000" height="640" rx="10"/>
+
+  <text class="ink t-title" x="40" y="48">Two rootings, one shared subtree</text>
+  <text class="muted t-sub" x="40" y="74">Dash's shielded keys are Orchard keys. The difference is where each chain hangs that tree, and what else lives beside it.</text>
+  <line class="rule" x1="40" y1="94" x2="960" y2="94" stroke-width="1"/>
+
+  <!-- ===== ZCASH ROOTING ===== -->
+  <text class="ink t-head" x="40" y="128">Zcash</text>
+  <text class="zecink t-status" x="40" y="148">ZIP 32 — FINAL</text>
+
+  <g>
+    <rect class="chip" x="40" y="164" width="104" height="30" rx="6" stroke-width="1"/>
+    <text class="ink t-path" x="92" y="184" text-anchor="middle">m_Orchard</text>
+    <rect class="chip" x="156" y="164" width="52" height="30" rx="6" stroke-width="1"/>
+    <text class="ink t-path" x="182" y="184" text-anchor="middle">32'</text>
+    <rect class="chip" x="220" y="164" width="106" height="30" rx="6" stroke-width="1"/>
+    <text class="ink t-path" x="273" y="184" text-anchor="middle">coin_type'</text>
+    <rect class="chip" x="338" y="164" width="86" height="30" rx="6" stroke-width="1"/>
+    <text class="ink t-path" x="381" y="184" text-anchor="middle">account'</text>
+  </g>
+  <text class="muted t-note" x="40" y="216">purpose fixed at 32' (0x80000020) · coin_type per SLIP 44</text>
+  <text class="muted t-note" x="40" y="236">Each shielded pool gets its own master key — m_Orchard, m_Sapling.</text>
+  <text class="muted t-note" x="40" y="254">Separation is by cryptographic pool.</text>
+
+  <!-- ===== DASH ROOTING ===== -->
+  <text class="ink t-head" x="540" y="128">Dash</text>
+  <text class="dashink t-status" x="540" y="148">DIP-0009 · DIP-0014</text>
+
+  <g>
+    <rect class="chip" x="540" y="164" width="40" height="30" rx="6" stroke-width="1"/>
+    <text class="ink t-path" x="560" y="184" text-anchor="middle">m</text>
+    <rect class="chip" x="592" y="164" width="48" height="30" rx="6" stroke-width="1"/>
+    <text class="ink t-path" x="616" y="184" text-anchor="middle">9'</text>
+    <rect class="chip" x="652" y="164" width="48" height="30" rx="6" stroke-width="1"/>
+    <text class="ink t-path" x="676" y="184" text-anchor="middle">5'</text>
+    <rect class="chip" x="712" y="164" width="86" height="30" rx="6" stroke-width="1"/>
+    <text class="ink t-path" x="755" y="184" text-anchor="middle">feature'</text>
+    <rect class="chip" x="810" y="164" width="40" height="30" rx="6" stroke-width="1"/>
+    <text class="ink t-path" x="830" y="184" text-anchor="middle">*</text>
+  </g>
+  <text class="muted t-note" x="540" y="216">purpose 9' (0x80000009) · coin_type 5' (0x80000005)</text>
+  <text class="muted t-note" x="540" y="236">One tree, partitioned by product feature.</text>
+  <text class="muted t-note" x="540" y="254">DIP-0014 lifts BIP 32's 31-bit index limit to 256 bits, allowing</text>
+  <text class="muted t-note" x="540" y="272">identity-derived paths. Zcash has no analogue.</text>
+
+  <!-- converging arrows -->
+  <path class="arrow" d="M 232 286 L 232 316 L 360 316 L 360 344" stroke-width="1.5" marker-end="url(#a2)"/>
+  <path class="arrow" d="M 694 286 L 694 316 L 420 316 L 420 344" stroke-width="1.5" marker-end="url(#a2)"/>
+
+  <!-- ===== SHARED ORCHARD TREE ===== -->
+  <rect class="zecsoft" x="40" y="352" width="640" height="200" rx="8" stroke-width="1"/>
+  <text class="zecink t-head" x="64" y="382">The Orchard key tree — the same in both</text>
+  <text class="muted t-small" x="64" y="402">Dash's shielded pool is Orchard, so the key hierarchy came with the code.</text>
+
+  <g>
+    <rect class="zec" x="64" y="420" width="10" height="10" rx="2"/>
+    <text class="ink t-key" x="84" y="430">Spending key</text>
+    <text class="muted t-small" x="200" y="430">derives ask · nk · rivk</text>
+
+    <rect class="zec" x="80" y="450" width="10" height="10" rx="2"/>
+    <text class="ink t-key" x="100" y="460">Full Viewing Key</text>
+    <text class="muted t-small" x="220" y="460">sees incoming and outgoing</text>
+
+    <rect class="zec" x="96" y="480" width="10" height="10" rx="2"/>
+    <text class="ink t-key" x="116" y="490">Incoming VK · Outgoing VK</text>
+    <text class="muted t-small" x="300" y="490">incoming only · recover own sends</text>
+
+    <rect class="zec" x="112" y="510" width="10" height="10" rx="2"/>
+    <text class="ink t-key" x="132" y="520">Diversified addresses</text>
+    <text class="muted t-small" x="280" y="520">receive</text>
+  </g>
+  <text class="muted t-small" x="64" y="540">One-directional: each level derives everything below it and nothing above.</text>
+
+  <!-- ===== DASH-ONLY BLS DOMAIN ===== -->
+  <rect class="dashsoft" x="710" y="352" width="250" height="200" rx="8" stroke-width="1"/>
+  <text class="dashink t-head" x="732" y="382">Dash only</text>
+  <text class="dashink t-key" x="732" y="404">BLS key domain</text>
+  <text class="muted t-small" x="732" y="428">Masternode operator keys</text>
+  <text class="muted t-small" x="732" y="446">Voting keys</text>
+  <text class="muted t-small" x="732" y="464">Quorum keys (LLMQ)</text>
+  <line class="rule" x1="732" y1="482" x2="938" y2="482" stroke-width="1"/>
+  <text class="muted t-small" x="732" y="502">Outside the BIP 32 tree, and not</text>
+  <text class="muted t-small" x="732" y="520">Schnorr. This is where Dash's</text>
+  <text class="muted t-small" x="732" y="538">threshold signing already lives.</text>
+
+  <!-- no-composition marker -->
+  <line class="arrow" x1="684" y1="452" x2="706" y2="452" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line class="cut" x1="691" y1="444" x2="699" y2="460" stroke-width="2"/>
+  <line class="cut" x1="699" y1="444" x2="691" y2="460" stroke-width="2"/>
+
+  <!-- ===== CLAIM ===== -->
+  <line class="rule" x1="40" y1="576" x2="960" y2="576" stroke-width="1"/>
+  <text class="ink t-claim" x="40" y="602">The shielded subtree is shared. The rooting differs. The BLS domain has no Zcash counterpart — which is why LLMQ threshold signing does not reach Orchard spends.</text>
+  <text class="muted t-small" x="40" y="624">Sources: ZIP 32, ZIP 316, the Orchard Book, DIP-0009, DIP-0014, Dash Core masternode quorum documentation. Checked 27 September 2026.</text>
+</svg>

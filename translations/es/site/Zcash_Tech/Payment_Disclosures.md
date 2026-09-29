@@ -43,9 +43,9 @@ Una divulgación de pago de Sapling no tiene que revelar una dirección del remi
 
 | Método | Mejor uso | Qué revela | ¿Acceso continuo? | ¿Está vinculada criptográficamente al pago? |
 | --- | --- | --- | --- | --- |
-| ID de transacción | Comprobar que una transacción fue minada | Datos públicos de la transacción y confirmaciones | No | Sí, pero los detalles del pago blindado permanecen ocultos |
-| Captura de pantalla o recibo | Gestión informal de registros | Lo que el remitente elija mostrar | No | No; la imagen se puede editar |
-| Divulgación de pago | Probar detalles seleccionados de un pago | Salidas de transacción seleccionadas y cualquier prueba incluida de remitente o desafío | No, pero la prueba compartida se puede copiar | Sí |
+| Transaction ID | Comprobar que una transacción fue minada | Datos públicos de la transacción y confirmaciones | No | Sí, pero los detalles del pago blindado permanecen ocultos |
+| Screenshot or receipt | Gestión informal de registros | Lo que el remitente elija mostrar | No | No; la imagen se puede editar |
+| Payment disclosure | Probar detalles seleccionados de un pago | Salidas de transacción seleccionadas y cualquier prueba incluida de remitente o desafío | No, pero la prueba compartida se puede copiar | Sí |
 | Incoming Viewing Key | Supervisar los pagos recibidos por una cuenta | Actividad entrante cubierta por la clave | Sí | Descifra los pagos entrantes coincidentes |
 | Full Viewing Key | Contabilidad o auditoría de una cuenta | Actividad entrante y saliente, importes, memos y saldos cubiertos por la clave | Sí | Descifra la actividad coincidente de la cuenta |
 

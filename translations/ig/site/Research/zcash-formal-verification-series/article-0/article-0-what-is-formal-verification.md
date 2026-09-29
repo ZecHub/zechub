@@ -46,11 +46,11 @@ Ihe dị iche bụ n'etiti **ịtụle eziokwu** na **igosi ihe onwunwe nke imep
 
 Nnyocha ọ bụla e mere, n'agbanyeghị otú o si dị elu, na-esite kpọmkwem n'ihe atọ. Jide nke a n'ụzọ doro anya ma ndị ọzọ bụ nkọwa zuru ezu.
 
-◯ Ogidi. ❑ Ihe dị mfe nghọta. ❖ Ịrụpụta ihe yiri ya.
+| Ogidi | Nkọwa doro anya | Ihe atụ nke ụlọ |
 |---|---|---|
-** Nkọwapụta** Okwu doro anya nke ihe "ezi" pụtara. *Ekwesịrị imechi ọnụ ụzọ niile n'abalị.*
-**System**. Ihe a na-enyocha (usoro ihe omume, sekit, usoro) Ụlọ ahụ na ụzọ mkpọchi ya.
-Ihe akaebe siri ike na usoro ahụ ga-emezu ihe ndị akọwapụtara. Ngosipụta ezi uche dị na ya nke ịpị "mkpọchi" mechiri ọnụ ụzọ niile.
+| **Nkọwapụta** | Nkọwa zuru oke nke ihe "ezi" *pụtara* | "A ga-akpọchi ụzọ niile n'abalị" |
+| **Sistemụ** | Ihe a na-enyocha (mmemme, sekit, usoro) | Ụlọ ahụ na usoro mkpọchi ya |
+| **Ihe akaebe** | Esemokwu siri ike na sistemụ ahụ na-agbaso nkọwapụta mgbe niile | Ngosipụta ezi uche dị na ya na ịpị "mkpọchi" na-akpọchi ụzọ niile |
 
 Ihe nke anọ, bụ́ ihe na-adịchaghị akpali mmadụ ikwu okwu mere ka a tụkwasị ya obi:
 
@@ -85,11 +85,11 @@ Since it holds at the start (0) and each step carries it to the next number, it 
 
 Nyocha nyocha dị ike n'ihi na ọ bụ ihe doro anya banyere * ebe* njehie si abịa. Ọ bụla ntụpọ na usoro iwu-nyochaa usoro a ga - achọpụta otu n'ime ebe atọ:
 
-❑ Isi mmalite nke njehie. ▪ Ihe ọ pụtara. ● Ànyị nwere ike igosi na o nweghị ihe kpatara ya? □ Ọ bụrụ na anyị enwee nsogbu, olee otú a ga-esi gbochie ọrịa ahụ?
+| Isi mmalite nke njehie | Ihe ọ pụtara | Ànyị nwere ike igosi na ọ dị mma? |
 |---|---|---|
-** Nkọwapụta** Mgbakọ na mwepụ ma ọ bụ iwu n'onwe ha ezighi ezi (ọnọdụ efu, nkọwa ọjọọ) Ee, ozugbo nke a bụ ụlọ ọrụ nyocha.
-** Mmejuputa** Koodu ahụ anaghị emezu nkọwapụta ziri ezi. Nkebi; mgbe ụfọdụ, ọdịda ndị dị otú a na-ahapụ ihe akaebe nwere ike ịchọpụta ya.
-** A gbajiri echiche** Ihe dum usoro na-adabere na ya pụta bụ ụgha. Mba; assumptions ndị irreducible ntọala.
+| **Nkọwapụta ahụ** | Mgbakọ na mwepụ ma ọ bụ iwu ndị ahụ n'onwe ha ezighi ezi (ọnọdụ na-efu, nkọwa na-adịghị mma) | **Ee**, ozugbo, nke a bụ ebe obibi nke nkwenye iwu kwadoro |
+| **Mmejuputa ya** | Koodu ahụ anaghị eme ihe ziri ezi nke ọma | N'otu aka; ọtụtụ mgbe ọdịda ndị dị otú ahụ na-ahapụ ihe akaebe a na-ahụ anya |
+| **Echiche gbajiri agbaji** | Ihe usoro dum dabere na ya na-aghọ ụgha | Mba; echiche bụ ntọala a na-apụghị ịgbanwe agbanwe |
 
 This taxonomy matters more than it looks, and Parts 2 and 3 turn on it. The deepest, most dangerous bugs, the ones that can hide forever, tend to live in the **specification**: the mathematical description of what the system is supposed to do. And the specification is exactly what a machine-checked proof can examine directly, all cases at once. That is why serious formal-verification efforts aim there first.
 
@@ -135,16 +135,16 @@ To keep this readable we simplified. Real specifications are written in precise 
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-** Formal verification** Gosi, na mgbakọ na mwepụ, usoro ahụ zutere nkọwa maka ikpe niile.
-** Nkọwapụta** Okwu doro anya nke ihe "omume ziri ezi" pụtara.
-**System**. Ihe omume ahụ, sekit ma ọ bụ usoro a na-enyocha ya.
-Ihe akaebe bụ usoro nke nwere njedebe na-egosi ihe a ga-ekwu maka okwu niile.
-❖ Onye enyemaka ihe akaebe / onye nyocha usoro iwu. Software (Lean, Rocq, Isabelle) nke na-enyocha nzọụkwụ ọ bụla nke ngosipụta ahụ.
-**Machine-checked**. Verified nzọụkwụ site na a kọmputa, ọ bụghị naanị mmadụ ịgụ ihe.
-️ ** Induction** A proof technique: eziokwu na mbido, ma nzọụkwụ ọ bụla ga-ebu ya gaa n'ọzọ.
-** Nkwupụta** Ọnọdụ ihe akaebe ahụ dabere na ya; ọ bụrụ ụgha, nkwa nwere ike ghara ịdị.
+| **Formal verification** | Na-egosi, n'ụzọ mgbakọ na mwepụ, na sistemụ na-emezu nkọwapụta maka ikpe niile |
+| **Specification** | Nkọwa zuru oke nke ihe "omume ziri ezi" pụtara |
+| **System** | Mmemme, sekit, ma ọ bụ usoro a na-enyocha n'ezie |
+| **Proof** | Usoro dị oke mma nke usoro ezi uche dị na ya nke na-eme ka mkpesa maka ikpe niile dị |
+| **Proof assistant / theorem prover** | Ngwanrọ (Lean, Rocq, Isabelle) nke na-enyocha nzọụkwụ ọ bụla nke ihe akaebe |
+| **Machine-checked** | Kọmputa kwadoro ya site na nzọụkwụ site na nzọụkwụ, ọ bụghị naanị site na ọgụgụ mmadụ |
+| **Induction** | Usoro nnwale: eziokwu na mbido, nzọụkwụ ọ bụla na-ebuga ya na nke ọzọ |
+| **Assumption** | Ọnọdụ ihe akaebe ahụ dabere na ya; ọ bụrụ na ọ bụ ụgha, nkwa ahụ nwere ike ọ gaghị ejide ya |
 
 ---
 

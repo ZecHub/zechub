@@ -19,7 +19,7 @@ Bó tilẹ̀ jẹ́ pé àwọn adirẹsi TEX kò gbajúmọ, ó lè di dandan f
 Diẹ ninu awọn apamọwọ nìkan ko gba laaye fun fifiranṣẹ taara si adirẹsi Transparent ati ** olugba le ma pese deede TEX**. Nitorina, iyipada lati inu Adirẹsin Alaye kan si adiresi TEX le jẹ dandan ni igba diẹ. Eyi le ṣee ṣe pẹlu ọwọ nipa ṣiṣe imuse itọkasi ti a ṣalaye ninu [ì 'í í ê3μê°](https://zips.z.cash/zip-0320#reference-implementation).
 
 ### O Nilo adirẹsi TEX nigba ti o ba n fi owo ranṣẹ si paṣipaarọ aarin kan ** TI NI awọn owo wọnyẹn lati orisun Transparent**. 
-Ní báyìí, [Binance (ìyẹn Bitcoin)](https://www.binance.com/) jẹ ọkan nikan ti a ṣepọ Exchange lilo awọn adirẹsi TEX (ati pe wọn ni idi akọkọ fun ẹda TEX). 
+Ní báyìí, [Binance](https://www.binance.com/) jẹ ọkan nikan ti a ṣepọ Exchange lilo awọn adirẹsi TEX (ati pe wọn ni idi akọkọ fun ẹda TEX). 
 Adirẹsi TEX sọ fun apamọwọ ti o baamu pe gbogbo awọn owo ti a firanṣẹ si adirẹisi yẹn gbọdọ jẹ ṣiṣafihan ati yago fun eyikeyi iye aabo lati fifiranṣẹ si orukọ naa.
 If an exchange like Binance rejects the sent value, it has the necessary means to return that value back to the address it came from. It also helps entities like Binance to comply with the laws and regulations imposed by governments or other authorities.
 

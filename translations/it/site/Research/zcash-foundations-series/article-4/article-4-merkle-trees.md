@@ -135,13 +135,13 @@ Semplificazioni, come al solito. I veri alberi di Merkle incrementali tengono tr
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Albero di Merkle** | Un albero di hash; le foglie sono impronte di dati, i genitori applicano l'hash ai propri figli |
-| **Foglia** | Un nodo in fondo; in Zcash, un commitment di nota |
-| **Radice di Merkle** | L'unica impronta in cima che riassume l'intero albero |
-| **Percorso di autenticazione / prova di Merkle** | Gli hash dei fratelli necessari a provare che una foglia è nell'albero |
-| **Albero di Merkle incrementale** | Un albero di Merkle solo in aggiunta (le foglie vengono solo aggiunte) |
+| **Merkle tree** | Un albero di hash; le foglie sono impronte di dati, i genitori applicano l'hash ai propri figli |
+| **Leaf** | Un nodo in fondo; in Zcash, un commitment di nota |
+| **Merkle root** | L'unica impronta in cima che riassume l'intero albero |
+| **Authentication path / Merkle proof** | Gli hash dei fratelli necessari a provare che una foglia è nell'albero |
+| **Incremental Merkle tree** | Un albero di Merkle solo in aggiunta (le foglie vengono solo aggiunte) |
 | **Anchor** | Una radice di Merkle a cui una spesa fa riferimento come "lo stato dell'albero contro cui sto provando" |
-| **Insieme dei nullifier** | La collezione separata di marcatori-di-spesa che blocca le doppie spese |
+| **Nullifier set** | La collezione separata di marcatori-di-spesa che blocca le doppie spese |
 
 ---
 

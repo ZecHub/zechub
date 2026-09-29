@@ -9,7 +9,7 @@
 E guzobere ọrụ ndu nke nchekwa gburugburu ebe obibi Zcash site na onyinye ZCG iji nye injinia nchekwa raara onwe ya nye maka gburugburu ebe obibi Zcash sara mbara - ọkachasị ndị enyere onyinye ZCG - n'èzí ECC na ZF.
 
 - **2022–2023:** [ibi n'ụwa](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) jere ozi dị ka onye ndu nchekwa gburugburu ebe obibi mbụ. Mụtakwuo na [zecsec.com](https://zecsec.com).
-- **2024–2025:** Ahọpụtara ZCG [Ike Kachasị Ala](https://leastauthority.com) iji nọgide na-arụ ọrụ ahụ site na nke ọhụrụ [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723)Enwere ike ịchọta mmelite [Ebe a](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
+- **2024–2025:** Ahọpụtara ZCG [Least Authority](https://leastauthority.com) iji nọgide na-arụ ọrụ ahụ site na nke ọhụrụ [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723)Enwere ike ịchọta mmelite [Ebe a](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
 - **2026:** Ụlọ nyocha nchekwa [Taylor Hornby gbara akwụkwọ](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) dịka onye ndụmọdụ nchekwa iji mee ka ikike nchekwa Zcash sikwuo ike.
 
 ## Atụmatụ Mkpughe Nchekwa na Nkwarụ ZCG

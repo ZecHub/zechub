@@ -137,14 +137,14 @@ Per mantenere questo testo leggibile abbiamo semplificato. Le specifiche reali s
 
 | Termine | Significato in linguaggio semplice |
 |---|---|
-| **Verifica formale** | Dimostrare matematicamente che un sistema soddisfa una specifica in tutti i casi |
-| **Specifica** | Un'affermazione precisa di cosa significhi «comportamento corretto» |
-| **Sistema** | Il programma, circuito o protocollo effettivamente controllato |
-| **Dimostrazione** | Una catena finita di passaggi logici che stabilisce un'affermazione per tutti i casi |
-| **Assistente di dimostrazione / dimostratore di teoremi** | Software (Lean, Rocq, Isabelle) che controlla ogni passaggio di una dimostrazione |
-| **Verificato da una macchina** | Verificato passo dopo passo da un computer, non solo tramite lettura umana |
-| **Induzione** | Una tecnica di dimostrazione: vera all'inizio, e ogni passaggio la porta al successivo |
-| **Assunzione** | Una condizione su cui la dimostrazione si basa; se è falsa, la garanzia potrebbe non valere |
+| **Formal verification** | Dimostrare matematicamente che un sistema soddisfa una specifica in tutti i casi |
+| **Specification** | Un'affermazione precisa di cosa significhi «comportamento corretto» |
+| **System** | Il programma, circuito o protocollo effettivamente controllato |
+| **Proof** | Una catena finita di passaggi logici che stabilisce un'affermazione per tutti i casi |
+| **Proof assistant / theorem prover** | Software (Lean, Rocq, Isabelle) che controlla ogni passaggio di una dimostrazione |
+| **Machine-checked** | Verificato passo dopo passo da un computer, non solo tramite lettura umana |
+| **Induction** | Una tecnica di dimostrazione: vera all'inizio, e ogni passaggio la porta al successivo |
+| **Assumption** | Una condizione su cui la dimostrazione si basa; se è falsa, la garanzia potrebbe non valere |
 
 ---
 

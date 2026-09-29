@@ -159,15 +159,15 @@ Nous avons délibérément simplifié. Le circuit réel comporte des centaines d
 
 | Terme | Signification en termes simples |
 |---|---|
-| **Pool protégé** | Le mode privé de Zcash dans lequel les montants et les parties sont masqués |
-| **Preuve à divulgation nulle de connaissance** | Une preuve qu'un énoncé masqué est valide, sans rien révéler d'autre |
+| **Shielded pool** | Le mode privé de Zcash dans lequel les montants et les parties sont masqués |
+| **Zero-knowledge proof** | Une preuve qu'un énoncé masqué est valide, sans rien révéler d'autre |
 | **Circuit** | L'ensemble fixe de conditions arithmétiques qu'une transaction valide doit satisfaire |
-| **Contrainte** | Une condition (équation) dans le circuit |
-| **Témoin** | Les valeurs secrètes qui satisfont les contraintes |
-| **Solidité** | La garantie que seuls les énoncés vrais peuvent produire une preuve valide |
-| **Faille de solidité** | Une contrainte manquante qui permet à des énoncés faux de passer |
-| **Sous-contraint** | Un circuit auquel manque une condition nécessaire, à l'origine du bug Orchard |
-| **Détectable / indétectable** | La question de savoir si une exploitation laisserait des preuves dans le registre public |
+| **Constraint** | Une condition (équation) dans le circuit |
+| **Witness** | Les valeurs secrètes qui satisfont les contraintes |
+| **Soundness** | La garantie que seuls les énoncés vrais peuvent produire une preuve valide |
+| **Soundness gap** | Une contrainte manquante qui permet à des énoncés faux de passer |
+| **Under-constrained** | Un circuit auquel manque une condition nécessaire, à l'origine du bug Orchard |
+| **Detectable / undetectable** | La question de savoir si une exploitation laisserait des preuves dans le registre public |
 
 ---
 

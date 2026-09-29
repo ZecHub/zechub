@@ -64,12 +64,12 @@ ZECD inatumia Orchard Unified Anwani kama default aina ya anwani. Sapling na uwa
 
 Sera ya faragha ni configurable kwa wito au kimataifa katika `[spend] privacy_policy`:
 
-Sera. Tabia.
+| Sera | Tabia |
 |--------|----------|
-| `AllowRevealedRecipients` (default) ▸ Inaruhusu hutuma kwa wapokeaji wa uwazi; inaonyesha kiasi na mpokeaji kwenye mnyororo.
-| `AllowRevealedAmounts` | Permits cross-pool sends (Sapling↔Orchard) but rejects transparent recipients |
-| `FullPrivacy` ❖ Tu kikamilifu-kuhifadhiwa hutuma ndani ya kundi moja; inakataza wapokeaji uwazi na msalaba wa makundi.
-| `AllowFullyTransparent` Pia inaruhusu t→t hutuma fedha kutoka UTXOs uwazi.
+| `AllowRevealedRecipients` (chaguo-msingi) | Vibali hutumwa kwa wapokeaji wazi; huonyesha kiasi na mpokeaji kwenye mnyororo |
+| `AllowRevealedAmounts` | Huruhusu kutuma mbegu za mtambuka (Sapling↔Orchard) lakini hukataa wapokeaji wazi |
+| `FullPrivacy` | Hutuma ujumbe ulio na kinga kamili ndani ya bwawa moja pekee; hukataa wapokeaji wa uwazi na bwawa la kuvuka |
+| `AllowFullyTransparent` | Pia inaruhusu t→t kutuma kunakofadhiliwa kutoka kwa UTXO zenye uwazi |
 
 ### Bitcoin Core RPC Upatano
 
@@ -170,15 +170,15 @@ zecd init --datadir ./data-watch --ufvk "uview1..." --birthday <height>
 
 Fedha zinaweza kupatikana kutoka kwa mnemonic pekee. Kila kitu kingine ni cache.
 
- Artefact. Location. What it protects? Back up? (Kipengee)
+| Kifaa cha bandia | Mahali | Inalinda nini | Hifadhi nakala rudufu? |
 |----------|----------|-----------------|----------|
-** Maneno 24 ya kumbukumbu**. Imeonyeshwa mara moja katika `zecd init` Fedha  hasara = kupoteza kudumu. ** Ndiyo  offline (karatasi / HSM) **
-| `keys.toml` | `<wallet dir>/keys.toml`  Mbegu iliyofichwa + siku ya kuzaliwa + mtandao. ** Ndiyo  kama siri**
-| `identity.txt` | `[keys] age_identity` Kufafanua. `keys.toml` (kutumia mamlaka) ** Ndiyo  tofauti na `keys.toml`** |
-◯ Urefu wa siku ya kuzaliwa. `keys.toml` ◯ hufanya kurejesha haraka (kiasi chochote kabla ya kwanza tx) ▸ Rekodi na mnemonic ❖
-| `data.sqlite` | `<wallet dir>/data.sqlite`  Kifurushi cha mkoba  kujengwa upya kutoka mbegu juu ya kurejesha. No  disposable.
-| `blocks/` | `<wallet dir>/blocks/`  Compact block cache. No  kamwe meli; inaweza kukua kubwa.
-| `.cookie` | `<datadir>/.cookie`  RPC cookie ya muda mfupi. Hakuna  kuzaliwa upya wakati wa kuanza
+| **Mnemoniki ya maneno 24** | Imeonyeshwa mara moja katika `zecd init` | Fedha — hasara = hasara ya kudumu | **Ndiyo — nje ya mtandao (karatasi/HSM)** |
+| `keys.toml` | `<wallet dir>/keys.toml` | Mbegu iliyosimbwa kwa njia fiche + siku ya kuzaliwa + mtandao | **Ndiyo — kama Siri** |
+| `identity.txt` | `[keys] age_identity` | Huondoa maficho `keys.toml` (tumia mamlaka) | **Ndiyo — tofauti na `keys.toml`** |
+| Urefu wa siku ya kuzaliwa | Ndani `keys.toml` | Hurejesha haraka (urefu wowote kabla ya kipimo cha kwanza) | Rekodi kwa kutumia kumbukumbu |
+| `data.sqlite` | `<wallet dir>/data.sqlite` | Akiba ya pochi — imejengwa upya kutoka kwa mbegu wakati wa kurejesha | Hapana — inayoweza kutupwa |
+| `blocks/` | `<wallet dir>/blocks/` | Akiba ya kizuizi kidogo | Hapana — kamwe usisafirishe; inaweza kukua kubwa |
+| `.cookie` | `<datadir>/.cookie` | Kidakuzi cha RPC cha muda mfupi | Hapana — imetengenezwa upya wakati wa kuanza |
 
 > ** orodha ya data lazima kuwa mwenyeji-kwenye.** ZECD's single-instance lock (`<datadir>/.lock` ni OS ushauri lock haina span majeshi. Kamwe kushiriki data directory kusoma-kuandika katika mashine (NFS, Kubernetes `ReadWriteMany` mbili ZECD matukio ingekuwa uharibifu mkoba DB. Matumizi ya `ReadWriteOnce` kiasi katika Kubernetes.
 
@@ -201,17 +201,17 @@ Njia yoyote si katika orodha anarudi `-32601` (HTTP 404)  indistinguishable kuto
 
 Watengenezaji kuhamia kutoka Bitcoin au zcashd zana lazima kuwa na ufahamu wa hizi divergences makusudi:
 
-Mazoea Bitcoin Core ZECD
+| Tabia | Kiini cha Bitcoin | ZECD |
 |----------|-------------|------|
-Fomati ya anwani. `1...` / `bc1...` | `u1...` (Orchard Unified Address)  si parseable kama anwani Bitcoin na mteja string-parsing.
- Labels. Full kuhifadhi lebo. Si kutekelezwa  `setlabel`, `listlabels`, nk kurudi `-32601` |
- ada. user-settable; soko la ada ZIP-317 deterministic tu; `settxfee`, `fee_rate`, `subtractfeefromamount` kukataliwa na `-8` |
-Memo. Haikubaliwi. `sendtoaddress` anakubali hex memo; historia ina `memo` + `memoStr` mashamba.
-☐ Uthibitisho wa kutumia 1 ▸ 3 (badiliko mwenyewe) / 10 (mtu mwingine) ❑ Configurable kupitia `trusted_confirmations` / `untrusted_confirmations` |
-| `listsinceblock` kwenye reorg. Hurudi kwa uma. Inarudi `-5` (Block haipatikani) kama mshale ni reorganized mbali  tena msingi line na parameterless wito.
-◯ Kuwasilisha barua pepe kwa mpokeaji katika: `sendmany`  kosa. JSON parser collapses duplicates (last wins) kabla ZECD anaona yao  don't list the same address twice
- Usawa wakati wa awali ya kulandanisha. Blocks au joto-up. Hutumika usawa sehemu  gate automatisering juu ya `GET /readyz` (inarudi 503 mpaka kabisa kulandanishwa na kuboresha backlog ni drained)
-| `minconf 0` in `getbalance`  0-conf usawa. kutumika kama 1  ulinzi noti ni kamwe spendable unmined.
+| Muundo wa anwani | `1...` / `bc1...` | `u1...` (Orchard Unified Address) — haiwezi kutafsiriwa kama anwani ya Bitcoin kwa kutumia wateja wanaochanganua mfuatano |
+| Lebo | Duka kamili la lebo | Haijatekelezwa — `setlabel`, `listlabels`, n.k. kurudi `-32601` |
+| Ada | Inayoweza kutatuliwa na mtumiaji; soko la ada | ZIP-317 yenye uthabiti pekee; `settxfee`, `fee_rate`, `subtractfeefromamount` kukataliwa na `-8` |
+| Kumbukumbu | Haitumiki | `sendtoaddress` inakubali memo ya hex; historia ina `memo` + `memoStr` mashamba |
+| Uthibitisho wa matumizi | 1 | 3 (badiliko mwenyewe) / 10 (mhusika wa tatu) — inaweza kusanidiwa kupitia `trusted_confirmations` / `untrusted_confirmations` |
+| `listsinceblock` kwenye upangaji upya | Anarudi kwenye uma | Marejesho `-5` (Kizuizi hakipatikani) ikiwa kielekezi kimepangwa upya — rekebisha msingi kwa kutumia simu isiyo na vigezo |
+| Nakala za wapokeaji katika `sendmany` | Hitilafu | Kichanganuzi cha JSON hukunja nakala rudufu (ushindi wa mwisho) kabla ya ZECD kuziona — usiorodheshe anwani sawa mara mbili |
+| Salio la pochi wakati wa usawazishaji wa awali | Vitalu au kupasha joto | Huhudumia salio la sehemu — otomatiki ya lango imewashwa `GET /readyz` (hurejesha 503 hadi itakaposawazishwa kikamilifu na mzigo wa uboreshaji utakapoisha) |
+| `minconf 0` in `getbalance` | Salio la 0-conf | Imetumika kama 1 — noti iliyolindwa haiwezi kutumika bila kuchimbwa |
 
 ---
 
@@ -274,10 +274,10 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Bandari za chaguo-msingi
 
-Mtandao: ZECD RPC Zebra RPC (Backend) Afya.
+| Mtandao | RPC ZECD | Zebra RPC (nyuma) | Afya |
 |---------|----------|---------------------|--------|
-Mainnet 8232 8234 9233 Msaada wa simu za mkononi.
-Testnet 18232 18234 9233 - Mchoro wa mtihani.
+| Mtandao Mkuu | 8232 | 8234 | 9233 |
+| Mtandao wa Majaribio | 18232 | 18234 | 9233 |
 
 ---
 
@@ -285,17 +285,17 @@ Testnet 18232 18234 9233 - Mchoro wa mtihani.
 
 | | zcashd | Zaino | ZECD |
 |--|--------|-------|------|
- Jukumu: Full node + wallet. Indexer (huchukua nafasi ya lightwalletd)  Wallet server tu
-Lugha. C++. Rust. Rust
-Hali. Deprecated Active. Active (v0.5.0-rc3, Julai 2026)
-| Default pool | Transparent | N/A | Orchard (shielded) |
- RPC lugha zcashd-hususa gRPC (lightwalletd) Bitcoin Core JSON-RPC
-inahitaji node kamili. self Ndiyo Zebra au zcashd. zebra.
- Ufufuzi wa hali ya juu. No N/A Yes (mbegu tu)
-Memo za kulindwa. Ndiyo (`z_sendmany`(N/A) Ndiyo.
- Kutazama tu (UFVK) Ndiyo. Ndio, ndiyo.
-Wingu-asili. Hapana. Sehemu ya kweli, ndiyo.
- Install  Kujenga/binary  Jenga. `cargo install zecd` |
+| Jukumu | Nodi kamili + pochi | Kiashiria (kinachukua nafasi ya lightwalletd) | Seva ya pochi pekee |
+| Lugha | C++ | Kutu | Kutu |
+| Hali | Imeondolewa kwenye huduma | Inayotumika | Inayotumika (v0.5.0-rc3, Julai 2026) |
+| Bwawa chaguo-msingi | Uwazi | N/A | Orchard (iliyofunikwa) |
+| Lahaja ya RPC | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
+| Inahitaji nodi kamili | Ndiyo (mimi mwenyewe) | Zebra au zcashd | Zebra |
+| Urejeshaji usio na uraia | No | N/A | Ndiyo (ya mbegu pekee) |
+| Memo zilizolindwa | Ndiyo (`z_sendmany`) | N/A | Ndiyo (uso wa Bitcoin RPC) |
+| Saa pekee (UFVK) | Ndiyo | Ndiyo | Ndiyo |
+| Asili ya wingu | No | Sehemu | Ndiyo |
+| Sakinisha | Muundo/binary | Jenga | `cargo install zecd` |
 
 ---
 

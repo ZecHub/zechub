@@ -35,13 +35,13 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Community | [공식 Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com) / [Zcash 커뮤니티 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | 작업증명 기반 블록 생성은 유지하면서 그 위에 지분증명 기반 파이널리티 레이어를 추가하는 하이브리드 합의 설계 제안입니다. 이를 통해 채굴을 포기하지 않고도 블록이 더 강한 최종성을 확보할 수 있습니다. 이는 Trailing Finality Layer 연구에서 발전했으며, 2026년 기준으로 아직 테스트넷 개발 단계에서 Shielded Labs가 구축 중입니다. |
 | CrossPay | ZODL 지갑의 기능으로, 중앙화 거래소를 거치지 않고 NEAR Intents를 통해 라우팅되어 수신자가 선호하는 자산과 체인으로 지급받는 동안 사용자는 shielded ZEC를 사용할 수 있게 해줍니다. |
-| Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [Cypherpunk Zero 사이트](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [Cypherpunk Zero 사이트](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | Term | Definition |
 |------|-----------|
-| DeFi | ZEC를 DeFi와 통합하는 프로젝트: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | ZEC를 DeFi와 통합하는 프로젝트: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | zaddr (shielded 주소)에서 taddr (transparent 주소)로 거래가 전송되는 것을 의미합니다. 거래의 출처는 보이지 않지만 자금은 공개적으로 보이는 가치 풀로 들어갑니다. |
 | Developer Resources | [개발자 리소스](https://www.zcashcommunity.com/developers/) |
 | Documentation | [공식 문서](https://zcash.readthedocs.io/en/latest/) |
@@ -65,7 +65,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Fiat-Shamir | 상호작용형 지식 증명을 바탕으로 디지털 서명을 생성하는 기법입니다. 이를 통해 어떤 사실(예: 비밀에 대한 지식)을 기반 정보 공개 없이 공개적으로 증명할 수 있습니다. |
 | Formal Verification | 테스트에만 의존하는 대신, 시스템이 명세된 대로 정확히 동작함을 수학적으로 증명하는 것입니다. Ironwood Action 회로는 건전성 버그가 없음을 입증하기 위해 zkSecurity와 ZODL의 기여자들이 Lean 정리 증명기를 사용하여 이러한 방식으로 검증했습니다. |
 | Founders Reward | Founder 보상은 전체 블록 보상의 20퍼센트를 차지하며, 각 블록의 가치에서 차감되어 프로토콜 개발과 성장을 촉진하기 위해 투명하게 분배됩니다. |
-| Free2z | Zcash로 구동되는 익명 콘텐츠 및 비공개 기부 도구입니다. [Free2z](https://free2z.com) |
+| Free2Z | Zcash로 구동되는 익명 콘텐츠 및 비공개 기부 도구입니다. [Free2Z](https://free2z.com) |
 | FROST | Flexible Round-Optimized Schnorr 임계값 서명 체계입니다. [연구 논문](https://eprint.iacr.org/2020/852) |
 
 ## G
@@ -110,7 +110,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 |------|-----------|
 | Layer-1 | 기반 네트워크와 그 기저 인프라를 의미합니다. Layer-1 블록체인은 다른 네트워크 없이도 거래를 검증하고 최종 확정할 수 있습니다. Zcash는 L1 블록체인입니다. |
 | librustzcash | Zcash 작업에 필요한 모든 크레이트와 의존성을 포함하는 Rust 워크스페이스입니다. [repo](https://github.com/zcash/librustzcash) |
-| Lightwalletd | 라이트 클라이언트에 블록체인 정보를 제공하는 상태 비저장 서버입니다. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | 라이트 클라이언트에 블록체인 정보를 제공하는 상태 비저장 서버입니다. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -118,7 +118,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 |------|-----------|
 | Metrics | 네트워크 지표는 [여기](https://tokenterminal.com/explorer/projects/zcash/metrics/all)에서 확인할 수 있습니다 |
 | Metadata | 사용자의 Zcash 거래와 함께 생성되는 데이터입니다. 여기에는 블록 높이, 거래 버전, 만료 높이 등이 포함될 수 있습니다. |
-| Mobile SDK | Android를 Zcash에 연결해 서드파티 Android 앱이 shielded 거래를 송수신할 수 있게 하는 경량 SDK입니다. [Github](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mobile SDK | Android를 Zcash에 연결해 서드파티 Android 앱이 shielded 거래를 송수신할 수 있게 하는 경량 SDK입니다. [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
 | Mining | 각 블록마다 Zcash 네트워크의 노드들이 자동 조정되는 난이도에 기반해 복잡한 수학 계산을 수행하며 해답을 찾기 위해 경쟁하는 과정입니다. [가이드](https://z.cash/mining-zcash/) |
 | Multisignature | 자금을 사용하기 위해 여러 개의 개인 키 서명이 필요한 주소입니다. 현재 멀티시그 기능은 transparent 주소에서만 지원됩니다. |
 
@@ -209,7 +209,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 | 용어 | 정의 |
 |------|-----------|
-| 지갑 | 개인 키를 저장하고 ZEC를 송수신할 수 있게 해주는 소프트웨어 또는 하드웨어입니다. 현재 활성 지갑에는 ZODL (iOS/Android), Zingo! (모바일/데스크톱), Nighthawk (Android), Zkool (모바일/데스크톱), Zallet (출시 예정), Keystone (하드웨어)가 포함됩니다. 전체 목록은 [Zcash 생태계 지갑](https://z.cash/ecosystem/?wallets=#tag-wallets)에서 확인하세요 |
+| Wallet | 개인 키를 저장하고 ZEC를 송수신할 수 있게 해주는 소프트웨어 또는 하드웨어입니다. 현재 활성 지갑에는 ZODL (iOS/Android), Zingo! (모바일/데스크톱), Nighthawk (Android), Zkool (모바일/데스크톱), Zallet (출시 예정), Keystone (하드웨어)가 포함됩니다. 전체 목록은 [Zcash 생태계 지갑](https://z.cash/ecosystem/?wallets=#tag-wallets)에서 확인하세요 |
 | WebZjs | 브라우저 환경을 위해 ChainSafe가 구축한 Zcash용 최초의 JavaScript SDK입니다. 이 SDK는 MetaMask에 shielded ZEC를 도입한 Zcash Shielded Wallet 스냅의 기반이 됩니다. |
 
 ## X
@@ -239,7 +239,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Zebra | Zcash Foundation의 Rust 기반 풀 노드 구현입니다(`zcashd`의 대안). 프로덕션 준비가 완료되었고 활발히 유지보수되고 있습니다. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Bitcoin Core에서 포크된 원래의 Zcash 풀 노드입니다. 오랜 기간의 지원 중단 예고 끝에 2026년 7월에 퇴역했으며, 그 역할은 합의를 위한 Zebra와 지갑 기능을 위한 Zallet으로 나뉘었습니다. |
 | ZIP | Zcash Improvement Proposal - 프로토콜 변경을 제안하고 비준하는 데 사용되는 커뮤니티 거버넌스 프로세스입니다. [ZIP 저장소](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab입니다. 2026년 초 Josh Swihart와 전 Electric Coin Company 엔지니어링 팀이 Bootstrap과의 거버넌스 분쟁으로 사임한 뒤 설립한 독립 조직입니다. 2026년 3월에 2,500만 달러가 넘는 시드 투자를 유치했으며, 2026년 2월 Zashi에서 이름이 바뀐 Zodl 지갑을 유지보수하고 있습니다. [zodl.com](https://zodl.com) |
+| ZODL | Zcash Open Development Lab입니다. 2026년 초 Josh Swihart와 전 Electric Coin Company 엔지니어링 팀이 Bootstrap과의 거버넌스 분쟁으로 사임한 뒤 설립한 독립 조직입니다. 2026년 3월에 2,500만 달러가 넘는 시드 투자를 유치했으며, 2026년 2월 Zashi에서 이름이 바뀐 ZODL 지갑을 유지보수하고 있습니다. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — Zcash shielded 거래를 구동하는 암호 기술입니다. 어떤 진술(예: 유효한 지출)을 비밀 정보를 전혀 공개하지 않고도 증명할 수 있게 합니다. |
 | ZSA (Zcash Shielded Assets) | Zcash의 shielded 프라이버시를 상속하는 사용자 발행 토큰으로, ZEC 이외의 자산도 네트워크에서 프라이빗하게 이동할 수 있게 합니다. [ZIP 226](https://zips.z.cash/zip-0226)에 명시되어 있으며 NU7의 후보 기능입니다. |
 

@@ -50,14 +50,14 @@ Kuna jambo moja ambalo ni muhimu kukumbuka: ** malipo ya posta hulipwa kwa ZEC**
 
 ### Kile ambacho mtazamaji wa nje anaweza kuona
 
-Mtazamaji anaweza kuona ERC-20 kwenye Ethereum, ZSA katika Zcash.
+| Mtazamaji anaweza kuona... | ERC-20 kwenye Ethereum | ZSA kwenye Zcash |
 | --- | --- | --- |
-Ni nani aliyeituma? - Umma Ulinzi.
-Nani alipokea? Umma ulinzi.
-Kiasi gani kilihamishwa? Umma. Kililindwa?
-Usawa wa mtu binafsi. Umma. Ulinzi.
-│ Jumla ya usambazaji wa mali Public. │ **Public  makusudi**
-Fedha ada ni kulipwa katika ETH ZEC.
+| Nani aliituma | Umma | Imehifadhiwa |
+| Nani aliipokea | Umma | Imehifadhiwa |
+| Kiasi gani kilihamishwa | Umma | Imehifadhiwa |
+| Mizani ya mtu binafsi | Umma | Imehifadhiwa |
+| Jumla ya usambazaji wa mali | Umma | **Hadharani — kwa makusudi** |
+| Sarafu ambayo ada hulipwa | ETH | ZEC |
 
 ### Kwa nini safu ya usambazaji si mdudu
 
@@ -128,13 +128,13 @@ Mapendekezo haya ni kisheria wanaambatana na sheria ya EU juu ya usafiri wa umma
 
 ## Makosa ya Kawaida
 
-Imani ya kawaida. Nini hasa kesi?
+| Imani ya pamoja | Ni nini hasa? |
 | --- | --- |
-"ZSAs ni kuishi juu ya Zcash leo". Hawako. ZSA imepangwa kwa ajili ya kupelekwa katika Mtandao Upgrade 7 (NU7) na bado chini ya ukaguzi na kupima.
-"ZSA huleta mikataba smart kwa Zcash". ZSA inabainisha utoaji, kuhamishwa na kuchoma ya mali. Si mpango wa jumla- Madhumuni programu mkataba safu.
-"Unaweza kulipa ada za ZSA katika ishara ya ZSA yenyewe". Ada zinalipwa kwa ZEC.
-"Ikiwa ni kulindwa, ishara ya ugavi lazima pia kuwa siri". ZIP 227 hufanya utoaji wa wazi kwa makusudi, hivyo usambazaji wa kila mali inaweza kufuatiliwa hadharani. mizani na kuhamisha kubaki binafsi; Ugavi haina.
-"ZIP 230 ni toleo la sasa 6 shughuli format". ZIP 230 imeondolewa. Toleo 6 sasa hufafanuliwa na 229 ya posta.
+| "ZSA ziko moja kwa moja kwenye Zcash leo." | Hazijakamilika. ZSA imepangwa kutumika katika Network Upgrade 7 (NU7) na bado inakaguliwa na kupimwa. |
+| "ZSA yaleta mikataba mizuri kwa Zcash." | ZSA hubainisha utoaji, uhamisho na uchomaji wa mali. Sio safu ya mkataba inayoweza kupangwa kwa madhumuni ya jumla. |
+| "Unaweza kulipa ada za ZSA katika tokeni ya ZSA yenyewe." | Ada hulipwa katika ZEC. |
+| "Ikiwa imefunikwa, usambazaji wa tokeni lazima uwe siri pia." | ZIP 227 hufanya utoaji uwe wazi kwa makusudi, ili usambazaji wa kila mali uweze kufuatiliwa hadharani. Salio na uhamisho hubaki kuwa wa faragha; usambazaji haufanyi hivyo. |
+| "ZIP 230 ni umbizo la sasa la muamala wa toleo la 6." | ZIP 230 imeondolewa. Toleo la 6 sasa linafafanuliwa na ZIP 229. |
 
 ---
 

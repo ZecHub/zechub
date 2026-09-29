@@ -29,7 +29,7 @@ Shielded Labs bobɔ adwuma no mmeae pii a ɛyɛ nnam din wɔ baguam:
 - [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Hybrid consensus upgrade a wɔahyɛ ho nyansa a ɛbɛka Zcash proof-of-work block production ne proof-of-stake finality abom, sɛdeɛ ɛbɛyɛ a ZEC wuranom bɛtumi aboa ama wɔabɔ network no ho ban berɛ a miners kɔ so yɛ blocks.
 - [Dynamic Fees a Wɔbɔ](https://shieldedlabs.net/fees/) - nhwehwɛmu ne nnwinnade a ɛbɛma wɔatumi ahyɛ nkɔm, ɛyɛ mmerɛw sɛ wɔde bedi dwuma, na ɛyɛ den sɛ wobetua Zcash asɛmdi ho ka bere a ntwamutam no renya nkɔso no.
 - [Ohunu](https://shieldedlabs.net/zero/) - a woboa suite a open-source Zcash infrastructure software ma exchanges, mining pools, wallet providers, ne ahyehyɛdeɛ foforɔ a wɔde wɔn ho to Zcash infrastructure so.
-- [Dade a Wɔde Yɛ Nnua](https://shieldedlabs.net/ironwood/) - Zcash network upgrade ne shielded pool a wɔayɛ de abua Orchard atoro a ɛyɛ mmerɛw, a wɔayɛ sɛ wɔde bɛsan de ahofadi a wobetumi agye atom wɔ Zcash circulating supply no mu.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Zcash network upgrade ne shielded pool a wɔayɛ de abua Orchard atoro a ɛyɛ mmerɛw, a wɔayɛ sɛ wɔde bɛsan de ahofadi a wobetumi agye atom wɔ Zcash circulating supply no mu.
 
 ## Ironwood Ntoboa a Wɔde Ma
 
@@ -53,6 +53,6 @@ Zcash mfa automatic on-chain governance nni dwuma mma protocol nsakrae. Abatoɔ 
 - [Crosslink Nsɛm a Wɔtaa bisa](https://shieldedlabs.net/crosslink-faq/)
 - [Dynamic Fees a Wɔbɔ](https://shieldedlabs.net/fees/)
 - [Ohunu](https://shieldedlabs.net/zero/)
-- [Dade a Wɔde Yɛ Nnua](https://shieldedlabs.net/ironwood/)
+- [Ironwood](https://shieldedlabs.net/ironwood/)
 - [Aban ne abatow a wɔtow](https://shieldedlabs.net/governance/)
 - [Labs a Wɔabɔ ho ban GitHub](https://github.com/ShieldedLabs)

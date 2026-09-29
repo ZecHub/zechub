@@ -41,12 +41,12 @@ Blossom, Zcash'in üçüncü ağ yükseltmesiydi. Overwinter ve Sapling'den sonr
 
 | Terim | Sade anlamı |
 |---|---|
-| Hedef blok aralığı | Ağın bir blok ile sonraki blok arasında hedeflediği süre |
-| Blok ödülü | Her blok kazıldığında oluşturulan ve dağıtılan yeni ZEC |
-| Yarılanma aralığı | Blok ödülünün her yarılanması arasında geçen blok sayısı |
-| Uzlaşma dalı kimliği | Bir düğümün veya işlemin hangi ağ kuralları kümesini izlediğini gösteren etiket |
-| İki taraflı uzlaşma değişikliği | Ağda kalmak için her düğümün benimsemesi gereken kural değişikliği |
-| Ağ yükseltmesi (NU) | Belirli bir blok yüksekliğinde etkinleşen, Zcash'in uzlaşma kurallarındaki koordineli değişiklik |
+| Block target spacing | Ağın bir blok ile sonraki blok arasında hedeflediği süre |
+| Block reward | Her blok kazıldığında oluşturulan ve dağıtılan yeni ZEC |
+| Halving interval | Blok ödülünün her yarılanması arasında geçen blok sayısı |
+| Consensus branch id | Bir düğümün veya işlemin hangi ağ kuralları kümesini izlediğini gösteren etiket |
+| Bilateral consensus change | Ağda kalmak için her düğümün benimsemesi gereken kural değişikliği |
+| Network upgrade (NU) | Belirli bir blok yüksekliğinde etkinleşen, Zcash'in uzlaşma kurallarındaki koordineli değişiklik |
 
 ## SSS
 

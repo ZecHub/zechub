@@ -43,9 +43,9 @@ Une divulgation de paiement Sapling n'est pas obligée de révéler une adresse 
 
 | Méthode | Meilleure utilisation | Ce qu'elle révèle | Accès continu ? | Liée cryptographiquement au paiement ? |
 | --- | --- | --- | --- | --- |
-| Identifiant de transaction | Vérifier qu'une transaction a été minée | Données publiques de la transaction et confirmations | Non | Oui, mais les détails du paiement protégé restent cachés |
-| Capture d'écran ou reçu | Tenue de registres informelle | Tout ce que l'expéditeur choisit d'afficher | Non | Non ; l'image peut être modifiée |
-| Divulgation de paiement | Prouver des détails sélectionnés d'un paiement | Sorties de transaction sélectionnées et toute preuve incluse de l'expéditeur ou du défi | Non, mais la preuve partagée peut être copiée | Oui |
+| Transaction ID | Vérifier qu'une transaction a été minée | Données publiques de la transaction et confirmations | Non | Oui, mais les détails du paiement protégé restent cachés |
+| Screenshot or receipt | Tenue de registres informelle | Tout ce que l'expéditeur choisit d'afficher | Non | Non ; l'image peut être modifiée |
+| Payment disclosure | Prouver des détails sélectionnés d'un paiement | Sorties de transaction sélectionnées et toute preuve incluse de l'expéditeur ou du défi | Non, mais la preuve partagée peut être copiée | Oui |
 | Incoming Viewing Key | Surveiller les paiements reçus par un compte | Activité entrante couverte par la clé | Oui | Elle déchiffre les paiements entrants correspondants |
 | Full Viewing Key | Comptabilité ou audit d'un compte | Activité entrante et sortante, montants, mémos et soldes couverts par la clé | Oui | Elle déchiffre l'activité correspondante du compte |
 

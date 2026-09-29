@@ -93,15 +93,15 @@ Tachyon jẹ **awuye, kii ṣe ẹya ti a firanṣẹ**. O tẹjade ni Oṣu K�
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rò̀ náà... ìtumọ̀.
+| Àkókò ìgba | Ìtumọ̀ |
 |---|---|
-ìdánwò láti tú àdàkọ ìdìbò. Ìgbèrò láti tú àwọn àdírésì ọ̀kan-kò-jọ̀kan kí o lè rí èyí tí ó wà fún ẹ.
-ì pínpín àṣírí inú-àlàfo. Fífi ààbò ìsanwó sínú ìdánwò náà lórí ẹ̀rọ alágbèéká, bí Zcash ṣe ń ṣe lónìí.
-ísanwó láìsí ìsọfúnni. Fífi àlàyé owó sanwó ránṣẹ́ ní tààràtà láàárín ẹni tó ń fi nǹkan ranṣẹ àti onítọ̀hún dípò tí yóò fi máa gba gbogbo ẹ̀rọ lọ síbi kan náà.
-ìmúṣiṣẹ́pọ̀ tí kò ṣe é rántí. Gbígba ìsọfúnni ẹ̀ka ti àpamọ́ kan nílò láìfi hàn àwọn ìsọfa tó béèrè fún wọn.
-DATA tí ó ń gbé ẹ̀rí (PCD) Data tó máa ń rìnrìn àjò pẹlú èsì ti wípé òun tọ, nítorí náà àwọn ẹ̀jẹ́ lè di papọ̀ kí a sì kó wọn jọ.
-ìkójọpọ ìsòwò tí a fi ààbò ṣe. Ọ̀nà Tachyon láti kó àwọn ìyípadà ipò ti ó ní ààbò jọ, yí bí wọ́n ṣe ń bára wọn sọ̀rọ̀ àti wípé wọ́n fọwọsi padà.
-àwọn ohun ìní tí ó fi ààbò bo ìṣòwò kò lè ṣe ìdánimọ̀ láìsí ọ̀kan nínú wọn.
+| Trial decryption | Gbìyànjú láti kọ àwọn ìṣòwò náà sílẹ̀ ní ọ̀kọ̀ọ̀kan láti wá àwọn tí a kọ sí ọ |
+| In-band secret distribution | Fifi ikọkọ isanwo sinu iṣowo naa lori blockchain, bi Zcash ṣe loni |
+| Out-of-band payment | Ṣíṣe àwọn àlàyé ìsanwó taara láàrín olùránṣẹ́ àti olùgbà dípò nípasẹ̀ ẹ̀wọ̀n náà |
+| Oblivious synchronization | Gbigba data pq ti apamọwọ nilo laisi fifi alaye ti a beere fun han |
+| Proof-carrying data (PCD) | Dátà tí ó ń rìn pẹ̀lú ẹ̀rí pé ó péye, kí a lè so àwọn ẹ̀rí pọ̀ kí a sì fún wọn ní ìfúnpọ̀ |
+| Shielded transaction aggregate | Ọ̀nà tí Tachyon gbà ń kó àwọn ìyípadà ìpínlẹ̀ tí a dáàbò bò jọ, ó ń yí bí wọ́n ṣe ń bá wọn sọ̀rọ̀ àti bí wọ́n ṣe ń fọwọ́ sí i padà |
+| ledger indistinguishability | A kò le sọ ohun ìní tí ó dáàbò bo àwọn ìṣòwò yàtọ̀ sí ara wọn |
 
 <br/>
 
@@ -121,7 +121,7 @@ DATA tí ó ń gbé ẹ̀rí (PCD) Data tó máa ń rìnrìn àjò pẹlú èsì
 
 - [Gbígba Ìsọfúnni Àdáni Pa Dà](https://zechub.wiki/zcash-tech/private-information-retrieval) - ọ̀nà mìíràn láti yanjú ìṣòro ìwífún-àpò owó kan náà.
 - [Ìkànnì Zakura](https://zechub.wiki/zcash-tech/zakura-node) - ìsọ̀rí kan tí a ṣe lábẹ́ iṣẹ́ ẹ̀rọ Tachyon.
-- [Igi irin-igi](https://zechub.wiki/zcash-tech/ironwood) - ìyípadà tó bẹ̀rẹ̀ ní July 2026, tí àwọn èèyàn sábà máa ń dà á pọ̀ mọ́ Tachyon.
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - ìyípadà tó bẹ̀rẹ̀ ní July 2026, tí àwọn èèyàn sábà máa ń dà á pọ̀ mọ́ Tachyon.
 - [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](https://zechub.wiki/zcash-tech/the-turnstile) - ohun tí Tachyon lè lò bí wọ́n bá fi ṣe àgbájọ rẹ̀.
 - [Ààbò Lẹ́yìn Ìmúninímù-Ìwéko](https://zechub.wiki/zcash-tech/post-quantum-security) - níbi tí Tachyon ti ń jókòó pẹ̀lú iṣẹ́ àbáwọlé tó gùn-ún sí i.
 - [Bí Wọ́n Ṣe Ṣètò Zcash](https://zechub.wiki/start-here/how-zcash-is-organized) - ẹni tó ń ṣe iṣẹ́ yìí àti bí ètò àyíká náà ṣe bára mu

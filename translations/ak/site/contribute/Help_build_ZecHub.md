@@ -39,7 +39,7 @@ Yɛde nsɛmma nhoma to gua ma nnwuma a mprempren yɛwɔ bounties a wɔabue Memen
 
 
 
-Sɛ akwan foforo bi wɔ hɔ a wopɛ sɛ wofa so boa a, yɛsrɛ wo message ZecHub ([@ZecHub na ɔkyerɛwee](https://twitter.com/zechub)) wɔ Twitter anaa Kɔka yɛn [Akasakasa](https://discord.gg/zcash).
+Sɛ akwan foforo bi wɔ hɔ a wopɛ sɛ wofa so boa a, yɛsrɛ wo message ZecHub ([@ZecHub na ɔkyerɛwee](https://twitter.com/zechub)) wɔ Twitter anaa Kɔka yɛn [Discord](https://discord.gg/zcash).
 
 ____
 

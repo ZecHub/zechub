@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Kubadilishana Madaraka ya Usimamizi wa Fedha
+# Masoko Yaliyogatuliwa
 
-ZecHub haina endorse yoyote maalum Decentralized Exchange huduma, tafadhali kufanya utafiti wako mwenyewe.
+ZecHub haiungi mkono huduma yoyote maalum ya Ubadilishanaji wa Madaraka, tafadhali fanya utafiti wako mwenyewe.
 
-Kila mmoja wao `###` kichwa chini ni kadi moja juu ya https://zechub.wiki/dex.
-Ongeza, hariri au kuondoa kizuizi hapa; wiki huchukua kutoka faili hii.
+Kila moja `###` kichwa cha habari hapa chini kina kadi moja https://zechub.wiki/dex.
+Ongeza, hariri, au ondoa kizuizi hapa; wiki inakichukua kutoka kwenye faili hii.
 
 ### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
-- Tovuti: https://app.near-intents.org/
-- Maelezo: Fast kubadilishana kwa msaada wa karibu. Kufanya amana, kuuza, swap ikiwa ni pamoja na maarufu TRUMP, MELANIA, BERA na memes nyingine
+- Tovuti: https://near.com/
+- Maelezo: Kubadilishana haraka kwa usaidizi wa NEAR. Weka amana, uza, badilisha ikiwa ni pamoja na TRUMP maarufu, MELANIA, BERA na meme zingine
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Tovuti: https://nativeswap.io/
-- Maelezo: Asili Cross-Chain Trading Bila Barriers kupitia Maya Itifaki. Biashara moja kwa moja kwenye mnyororo bila madaraja au vifuniko ishara - kufurahia sekta ya ada za chini na udhibiti kamili wa mali.
+- Maelezo: Biashara ya Minyororo ya Asili Bila Vikwazo kupitia Maya Protocol. Fanya biashara moja kwa moja kwenye mnyororo bila madaraja au tokeni zilizofungwa - furahia ada za chini za tasnia na udhibiti kamili wa mali.
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Tovuti: https://github.com/firoorg/FiroDEX-Desktop
-- Maelezo: Trustless madaraka swaps kutumia atomic swaps na FiroDEX!.
+- Maelezo: Ubadilishaji usioaminika wa sehemu zilizotengwa kwa kutumia ubadilishaji wa atomiki na FiroDEX!.
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Tovuti: https://leodex.io
-- Maelezo: Crosschain swaps ndani na nje ya ZEC, routed katika THORChain, Maya Protocol, Chainflip, karibu nia, Relay na Rango. Hakuna akaunti, hakuna KYC, na hakuna uhusiano mkoba required juu ya njia mkono.
+- Maelezo: Crosschain hubadilishana na kuingia na kutoka kwa ZEC, hupitia THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay na Rango. Hakuna akaunti, hakuna KYC, na hakuna muunganisho wa pochi unaohitajika kwenye njia zinazoungwa mkono.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
 - Tovuti: https://dex.decred.org/
-- Maelezo: Biashara crypto peer-to-peer. Hakuna ada ya biashara, hakuna KYC.
+- Maelezo: Biashara ya sarafu ya kidijitali kwa rika. Hakuna ada za biashara. Hakuna KYC.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
 - Tovuti: https://app.thorswap.finance/
-- Maelezo: Msalaba-chain DEX powered by THORChain, kuwezesha asili swaps kati ya Bitcoin, Ethereum, na mali nyingine kubwa bila wrapped ishara.
+- Maelezo: DEX ya mnyororo mtambuka inayoendeshwa na THORChain, ikiwezesha ubadilishanaji asilia kati ya Bitcoin, Ethereum, na mali zingine kuu bila tokeni zilizofungwa.
 
 ___
 
@@ -68,16 +68,16 @@ ___
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
 - Tovuti: https://app.routerprotocol.com/
-- Maelezo: Msalaba wa usafirishaji wa fedha za mzunguko ambao unaruhusu uhamisho usio na waya wa mali na data kati ya blockchains nyingi.
+- Maelezo: Safu ya usafirishaji wa ukwasi wa mnyororo mtambuka ambayo inaruhusu uhamishaji wa mali na data usio na mshono kati ya blockchain nyingi.
 
 ___
 
-### Peer
+### Rika
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
 - Tovuti: https://peer.xyz/
-- Maelezo: Madaraka peer-to-peer kubadilishana kuwezesha moja kwa moja crypto shughuli na kuimarishwa faragha na udhibiti wa mtumiaji.
+- Maelezo: Ubadilishanaji wa rika-kwa-rika uliogatuliwa unaowezesha miamala ya moja kwa moja ya crypto pamoja na faragha iliyoimarishwa na udhibiti wa mtumiaji.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
 - Tovuti: https://rocketx.exchange/
-- Maelezo: Hybrid DEX aggregator kuwezesha cross-chain swaps katika blockchains nyingi na routing bora na viwango vya ushindani.
+- Maelezo: Kikusanyaji cha DEX mseto kinachowezesha ubadilishaji wa mnyororo mtambuka katika blockchain nyingi kwa uelekezaji bora na viwango vya ushindani.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Tovuti: https://swap.thorchain.org/
-- Maelezo: Decentralized Layer 1 msalaba-chain kubadilishana. Swap mali asili kama ZEC, BTC na ETH moja kwa moja bila madaraja, wrapped ishara au waamuzi.
+- Maelezo: Ubadilishanaji wa mnyororo mtambuka wa Tabaka la 1 uliogatuliwa. Badilisha mali asilia kama ZEC, BTC, na ETH moja kwa moja bila madaraja, tokeni zilizofungwa, au wapatanishi.
 
 ___
 
@@ -104,5 +104,18 @@ ___
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 
 - Tovuti: https://loofta.xyz/
-- Maelezo: Non-matayarisho binafsi malipo na kubadilishana jukwaa. Tuma na kupokea crypto faragha katika minyororo, kwa Zcash kama tabaka makazi ya kuimarishwa fedha za siri.
+- Maelezo: Jukwaa la malipo ya kibinafsi na ubadilishaji lisilo la ulinzi. Tuma na upokee crypto faraghani kupitia minyororo, huku Zcash ikiwa safu ya malipo kwa ajili ya faragha iliyoimarishwa ya kifedha.
+
+
+___
+
+
+### ZcashToCash
+
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+
+
+
+- Tovuti: https://zcashto.cash/
+- Maelezo: Pesa kutoka ZEC-to-fiat isiyo ya dhamana kupitia Peer. Tuma ZEC iliyolindwa na upokee malipo katika programu za malipo za kila siku kama vile Venmo, Cash App, Revolut, Zelle, Chime, na Monzo katika zaidi ya maeneo 100 ya kijiografia. Hakuna akaunti ya CEX inayohitajika; escrow hukamilika baada ya uthibitisho wa malipo ya fiat.
 

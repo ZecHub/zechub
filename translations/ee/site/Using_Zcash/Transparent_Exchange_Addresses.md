@@ -19,7 +19,7 @@ Togbɔ be womezãa TEX-adrɛswo le teƒe geɖe o hã la, ɖewohĩ ahiã be Zcash
 Gaxɔ aɖewo meɖea mɔ be woaɖo ga ɖe Transparent address tẽe o eye ame si le xɔm la mate ŋu ana TEX ƒe teƒe aɖeke hã o. Eyata, ateŋu ahiã ɣeaɖewoɣi be ** woatrɔ asi tso Transparent address na TEX adres.* Esia woateŋ awɔ kple asitelefon to ɖoɖowɔɖi siwo dze le afi sia dzi wɔwɔ me: [zip-320 me](https://zips.z.cash/zip-0320#reference-implementation).
 
 ### Èhiã TEX address ne èle ga ɖom ɖe gadzraɖoƒe si **BIANA be woana ga siawo tso teƒe aɖe si ŋu Kɔkɔ le**. 
-Fifia la, [Binance ƒe dɔlawo](https://www.binance.com/) enye Centralized Exchange si zãa TEX adrɛswo (eye woawoe nye susu vevitɔ siwo ta wowɔa TEx ɖo). 
+Fifia la, [Binance](https://www.binance.com/) enye Centralized Exchange si zãa TEX adrɛswo (eye woawoe nye susu vevitɔ siwo ta wowɔa TEx ɖo). 
 TEX adrɛswo gblɔna na ga si woazã atsɔ awɔ gadzraɖoƒe la be ele be woaʋu go ga siwo katã woɖo ɖe teƒe ma eye womagate ŋu aɖo nu sia nu si ƒe asixɔxɔ le dedie me ɖo ɖe afi ma o.
 If an exchange like Binance rejects the sent value, it has the necessary means to return that value back to the address it came from. It also helps entities like Binance to comply with the laws and regulations imposed by governments or other authorities.
 

@@ -70,7 +70,7 @@ enable_cookie_auth = ụgha
 
 > rmdir zcash-haskell
 
-> git mmepụta oyiri https://git.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git mmepụta oyiri https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
 ### Wụnye Depedencies

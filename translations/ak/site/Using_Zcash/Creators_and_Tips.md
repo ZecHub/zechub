@@ -24,7 +24,7 @@
 | Adeɛ a ɛwɔ | Nsɛm a ɛkɔ akyiri |
 |-------------------|---------|
 | **Wɛbsite** | [https://zcash.me/](https://zcash.me/) |
-| **Twitter ** Nsɛm a wɔka kyerɛ | [@zcashme na ɔwom](https://x.com/zcashme) |
+| **Twitter** | [@zcashme na ɔwom](https://x.com/zcashme) |
 | **Profael Nkyekyɛm**| `zcash.me/[username]` |
 | **Gyinabea** | Live (a features wɔ nkɔsoɔ mu) |
 
@@ -68,7 +68,7 @@
 | Adeɛ a ɛwɔ | Nsɛm a ɛkɔ akyiri |
 |-------------------|---------|
 | **Wɛbsite** | [https://tipz.cash/](https://tipz.cash/) |
-| **Twitter ** Nsɛm a wɔka kyerɛ | [@tipz_cash na ɛyɛ adwuma](https://x.com/tipz_cash) |
+| **Twitter** | [@tipz_cash na ɛyɛ adwuma](https://x.com/tipz_cash) |
 | **Profael Nkyekyɛm**| `tipz.cash/@[username]` |
 | **Gyinabea** | Live |
 

@@ -22,9 +22,9 @@ Viewing Key は選択的開示のためのツールです。誰に何を見せ�
 
 | キー | プレフィックス | 許可されること |
 |---|---|---|
-| Unified Full Viewing Key（UFVK） | `uview…` | アカウント内のすべてのプールについて、受信**および**送信トランザクションを閲覧できる |
-| Unified Incoming Viewing Key（UIVK） | `uivk…` | アカウント内のすべてのプールについて、受信トランザクションのみを閲覧できる |
-| Sapling Extended Full Viewing Key | `zxviews…` | キーのアドレスにおける受信および送信 Sapling アクティビティを閲覧できる |
+| Unified full viewing key (UFVK) | `uview…` | アカウント内のすべてのプールについて、受信**および**送信トランザクションを閲覧できる |
+| Unified incoming viewing key (UIVK) | `uivk…` | アカウント内のすべてのプールについて、受信トランザクションのみを閲覧できる |
+| Sapling extended full viewing key | `zxviews…` | キーのアドレスにおける受信および送信 Sapling アクティビティを閲覧できる |
 
 これらのいずれも支出はできません。また、重要な意味でいずれも永続的です。一度渡したキーは取り消せず、相手がキーを持たないアカウントへ資金を移すことでのみ無効化できます。
 

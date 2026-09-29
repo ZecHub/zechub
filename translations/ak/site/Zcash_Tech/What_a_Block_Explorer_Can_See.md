@@ -26,7 +26,7 @@ Esiane sɛ ɛsom bo abien nti, bo betumi akɔ akwan anan so: nea ɛda adi kɔ ne
 
 ## Nea obi a ɔhwehwɛ nneɛma mu betumi ahu
 
-Ɔmanfo nhwehwɛmufo te sɛ [Blockchair a wɔde si dan mu](https://blockchair.com/zcash) betumi akenkan pefee sɛ:
+Ɔmanfo nhwehwɛmufo te sɛ [Blockchair](https://blockchair.com/zcash) betumi akenkan pefee sɛ:
 
 - Tutua biara a ɛda adi koraa (t kosi t), awiei kosi awiei.
 - Sika a ɛhyɛn ɔtare a wɔabɔ ho ban no mu (ɔfã a ɛda adi pefee ne sika dodow no).

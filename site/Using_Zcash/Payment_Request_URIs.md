@@ -4,25 +4,72 @@
 
 # Zcash Payment Request URIs
 
-## Overview of Dynamic QR Codes
+A payment request URI is a `zcash:` link defined by [ZIP 321](https://zips.z.cash/zip-0321). Compatible wallets read the address, amount, and optional memo from the link or QR and prefill a transaction. No extra accounts, no processor in the middle.
 
-URI stands for Universal Resource Identifier. They are QR codes that act to prefill information about a transaction within a Zcash wallet. Wallets that recognize this format can construct transactions by either clicking links on web pages or scanning QR codes. Say you have an online coffee shop, your customers can make purchases by scanning these QR codes with their Zcash wallet with a prefilled price and order number.
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    Open payment widget
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    Build a payment request
+  </a>
+</div>
 
-## Use Cases of Payment Requests 
+The widget demo is a live ZIP-321 modal: QR, copy address/URI, short link, and Open in Wallet. The tools page is the generator if you want to set your own address and amount first.
 
+## Anatomy
 
-- Online Shopping.                    Checkout Payment requests are initiated by customers during online purchases.
-- Hotel and Accommodation Bookings.   Various booking platforms leverage payment request URLs for hotel reservations.
-- Online Bill Payments.               Utility companies use payment request URLs to enable customers to offset their bills seamlessly. 
-- Event Ticket Purchases.             Event organizers across borders use this mechanism to make ticket purchases easier.
-- P2P Payments.                       Individuals can easily send payment requests to family and friends via messaging apps, with payment links embedded in the messages.
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| Field | Required | Notes |
+| --- | --- | --- |
+| address | yes | Prefer a Unified Address (`u1` / `utest1`) |
+| amount | no | Decimal ZEC |
+| memo | no | Shielded transfers only |
+| label | no | Human-readable name shown by some wallets |
 
-## Details
+Full rules: [ZIP 321](https://zips.z.cash/zip-0321).
 
-[ZIP 321](https://zips.z.cash/zip-0321) defines how to construct your own custom payment URI. 
+## Use cases
 
-How to make Payment Requests with Zcash: 
+- **Checkout** — prefill price and an order memo so the customer only confirms in their wallet
+- **Invoices** — share one link or QR
+- **Donations** — embed the widget on a site
+- **P2P** — send a `zcash:` link in chat
+
+## Embed on a site
+
+Point this script at your own shielded address. Hosted copy lives on ZecHub:
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+Required: `data-address`, `data-amount`, `data-target`.
+
+Try the hosted button first: [Open payment widget](/zcash-payment-uri).
+
+## Videos
+
+How to make Payment Requests with Zcash:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -35,10 +82,7 @@ How to make Payment Requests with Zcash:
   />
 </div>
 
-    
-### Code Example
-
-Adding a Zcash Donation Widget to your Website: 
+Adding a Zcash Donation Widget to your Website:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

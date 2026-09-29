@@ -147,7 +147,7 @@ Saa nsɛm yi kyerɛ akenkanfoɔ sɛ mfiridwumayɛfoɔ, adwiniyɛfoɔ, nnwumayɛf
 
 Ɔfa a etwa to no to nsa frɛ akenkanfo sɛ wɔmmɛyɛ Zcash abɔde a nkwa wom nhyehyɛe no fã. Hokwan ahorow no bi ne:
 
-- Zcash Wiase Nyinaa Akasakasa no a wɔde wɔn ho bɛhyɛ mu 
+- Zcash Wiase Nyinaa Discord a wɔde wɔn ho bɛhyɛ mu 
 - Mpɔtam hɔ frɛ ne adwumayɛkuo a wɔde wɔn ho bɛhyɛ mu 
 - Boa a wɔde bɛma wɔ daakye adwuma nhoma nkyerɛase ahorow mu 
 - Nhomasua a wɔabue ano a wɔbɛboa 
@@ -156,7 +156,7 @@ Saa nsɛm yi kyerɛ akenkanfoɔ sɛ mfiridwumayɛfoɔ, adwiniyɛfoɔ, nnwumayɛf
 
 Nkrasɛm no mu da hɔ pefee: obiara betumi de ne ho ahyɛ mu, na mpɔtam hɔfo ma wɔn a wɔde mmoa ma a wofi mmusua ne ahokokwaw ahorow nyinaa mu no akwaaba.
 
-[Zcash Wiase Nyinaa Ntam Nkitahodi](https://discord.gg/F6DCkCDK)
+[Zcash Wiase Nyinaa Ntam Discord](https://discord.gg/F6DCkCDK)
 
 ---
 

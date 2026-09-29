@@ -4,44 +4,84 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Non-Custodial Exchanges
 
-[Zcash Non-Custodial Kubadilishana](/dex)
+[Mabadilishano ya Zcash Yasiyo ya Uhifadhi](/dex)
 
-Katika ulimwengu unaobadilika wa biashara ya cryptocurrency, kuongezeka kwa kubadilishana bila uhifadhi ambayo pia inajulikana kama Kubadilisha Kutokana au DEXs inabadilisha jinsi watumiaji wanavyojihusisha na mali za dijiti. Jukwaa hizi zinatoa njia mpya ya kufanya biashara kwa kuondoa hitaji la wapatanishi au watu wengine na kurudisha udhibiti kwa watumiaje.
+Katika ulimwengu unaobadilika kila mara wa biashara ya sarafu za kidijitali, ubadilishanaji usio wa dhamana, unaojulikana pia kama Ubadilishanaji Uliogatuliwa au DEX, huwaruhusu watumiaji kufanya biashara bila kukabidhi fedha zao kwenye akaunti ya ubadilishanaji. Unaweka funguo zako mwenyewe, lakini hiyo haimaanishi kwamba hakuna mtu mwingine anayehusika. Kulingana na njia, ubadilishanaji unaweza kupitia tovuti au programu ya pochi, huduma ya uelekezaji, mikataba mahiri, wasuluhishi na madaraja.
 
-Orodha hapo juu ni kubadilishana yasiyo ya uhifadhi ambayo itawawezesha kwa urahisi kupata na biashara Zcash kujitegemea, bila haja ya waamuzi katika mchakato shughuli.
+Mabadilishano yaliyoorodheshwa hapo juu hukuruhusu kupata na kubadilishana Zcash kutoka kwa pochi yako mwenyewe. Jinsi ubadilishaji ulivyo wa faragha inategemea huduma, mtandao unaotumia kulipa, na kama ZEC yako itaishia katika anwani iliyolindwa. Sehemu zilizo hapa chini zinaelezea tofauti.
 
-### ** Kuelewa Non-Custodial Kubadilishana**
+### **Kuelewa Mabadilishano Yasiyo ya Uhifadhi**
 
-Mabadilishano yasiyo ya uhifadhi, pia yanajulikana kama Kubadilishana kwa Kujitenga (DEXs) ni majukwaa ambayo husaidia biashara ya cryptocurrency bila kuhitaji watumiaji kuweka pesa zao kwenye ubadilishaji yenyewe. Badala yake, watumiaje wanadumisha udhibiti wa funguo zao za kibinafsi na kufanya biashara moja kwa moja kutoka mifuko yao bila uhitaji wa watu wengine.
+Masoko yasiyo ya dhamana, ambayo pia hujulikana kama Masoko ya Ugatuzi (DEXs) ni majukwaa yanayorahisisha biashara ya sarafu za kidijitali bila kuwataka watumiaji kuweka fedha zao kwenye soko lenyewe. Badala yake, watumiaji hudhibiti funguo zao za kibinafsi na kufanya biashara kutoka kwa pochi zao wenyewe. Masoko ya mnyororo mtambuka bado yanategemea wahusika wengine kunukuu, kuelekeza na kutatua biashara hiyo (tazama hapa chini).
 
-Njia hii huongeza usalama na faragha, kwani watumiaji hawategemei kubadilishana ili kushikilia mali zao ambazo pia hupunguza hatari ya utapeli au usimamizi mbaya. Shughuli kwenye ubadilishaji wa uhifadhi mara nyingi hutumia mikataba mahiri kuhakikisha biashara isiyoaminika na uwazi.
+Hii inaweza kuboresha usalama, kwani watumiaji hawategemei soko la hisa kushikilia mali zao, jambo ambalo hupunguza hatari ya udukuzi au usimamizi mbaya. Haifanyi soko la hisa kuwa la faragha lenyewe. Miamala kwenye soko la hisa lisilo la dhamana mara nyingi hutumia mikataba mahiri, ambayo ni ya umma, na huduma unayotumia bado inaweza kuona anwani zako na maelezo ya muunganisho.
 
-Faida kuu ya masoko yasiyo na uhifadhi wa cryptocurrency iko katika udhibiti ulioongezeka wanaowapa watumiaji juu ya mali zao. Kwa kuwa kubadilishana huku hakudumisha mali, watumiaje wanashiriki umiliki kamili na mamlaka juu ya sarafu zao za dijiti.
+Faida kuu ya ubadilishanaji wa sarafu za kidijitali usio wa dhamana iko katika udhibiti ulioongezeka wanaowapa watumiaji juu ya mali zao. Kwa kuwa ubadilishanaji huu hauhifadhi mali, watumiaji wanafurahia umiliki kamili na mamlaka juu ya sarafu zao za kidijitali.
 
-### **Non-Custodial Kubadilishana dhidi ya kubadilishani Custodial**
+### **Mabadilishano Yasiyo ya Utunzaji Dhidi ya Mabadilishano ya Utunzaji**
 
-**#1 Security**: Non-custodial exchanges eliminate the need for users to trust a central entity with their funds or assets. This enable users to maintain and have control of their private keys, reducing the risk of hacks, insider attacks and platform vulnerabilities that custodial exchanges may experience.
+**#1 Usalama**: Ubadilishanaji usio wa dhamana huondoa hitaji la kuweka fedha katika akaunti kuu ya ubadilishaji. Watumiaji hudhibiti funguo zao za kibinafsi, na kupunguza hatari ya udukuzi, mashambulizi ya ndani na hitilafu za mfumo ambazo ubadilishanaji wa dhamana unaweza kupata. Ubadilishanaji wa mnyororo mtambuka bado unaweza kushikilia fedha kwa muda mfupi katika anwani ya amana au daraja wakati biashara inapotulia.
 
-**#2 Faragha**: kubadilishana yasiyo ya uhifadhi mara nyingi kutoa faragha zaidi kwa kuruhusu watumiaji kufanya biashara moja kwa moja kutoka pochi zao bila haja yoyote ya mpatanishi. shughuli inaweza kutekelezwa na anonymity kubwa, kama habari nyeti si kuhifadhiwa tofauti Kubadilisha Centralized
+**#2 Faragha**: Ubadilishaji usio wa dhamana kwa kawaida hauhitaji akaunti ya ubadilishaji, kwa hivyo mara nyingi huacha kujisajili kwa barua pepe au kitambulisho. Hiyo si sawa na kutokujulikana. Amana unayotuma kwenye mtandao chanzo (kwa mfano Solana au Ethereum) ni ya umma kwenye mnyororo huo, na huduma bado inaweza kuona anwani zako za pochi, anwani ya IP na maelezo ya ubadilishaji. Faragha upande wa Zcash inategemea ZEC yako inapotua (tazama hapa chini).
 
-**#3 Decentralization**: Non-custodial exchanges align more closely with the decentralized ethos of cryptocurrencies. Users have greater autonomy and control over their trading activities, in line with the broader principles of blockchain technology.
+**#3 Ugatuaji**: Ubadilishanaji usio wa dhamana unaendana kwa karibu zaidi na maadili ya ugatuaji wa sarafu za kidijitali. Watumiaji wana uhuru na udhibiti mkubwa zaidi wa shughuli zao za biashara, sambamba na kanuni pana za teknolojia ya blockchain.
 
-Linapokuja suala la kubadilishana kuhifadhi, kiwango cha utengamano mara nyingi ni kidogo sana katika mabadilishano mengi ya kati ambayo husababisha timu ya ubadilishaji au maafisa wanaosimamia data za watumiaji au habari kwenye soko.
+Linapokuja suala la Ubadilishanaji wa Fedha kwa Wafanyakazi, kiwango cha Ugatuaji wa Fedha kwa Wafanyakazi mara nyingi huwa kidogo sana katika ubadilishanaji mwingi wa fedha wa kati ambao husababisha timu ya ubadilishanaji au maafisa kusimamia data au taarifa za watumiaji kwenye ubadilishanaji.
 
-**#4 Kuweza kubadilika na Mabadiliko ya Sheria**: Kubadilishana kwa wasiohifadhi mara nyingi kunafaa zaidi katika mazingira yanayobadilika ya udhibiti. Kwa kuwa hawafanyi fedha za watumiaji, wanaweza kuwa na changamoto chache za kufuata ikilinganishwa na ubadilishaji wa uhifadhi.
+**#4 Kubadilika kwa Kanuni Zinazobadilika**: Mabadilishano yasiyo ya uangalizi mara nyingi hubadilika zaidi kulingana na mazingira ya udhibiti yanayobadilika. Kwa kuwa hayashiki fedha za watumiaji, yanaweza kuwa na changamoto chache za kufuata sheria ikilinganishwa na mabadilishano ya uangalizi.
 
-**#5 Innovation and Experimentation**: Non-custodial exchanges frequently drive innovation in the crypto space. They encourage the development of decentralized technologies, such as automated market makers (AMMs) and decentralized finance (DeFi) applications.
+**#5 Ubunifu na Majaribio**: Mabadilishano yasiyo ya dhamana mara nyingi huendesha uvumbuzi katika nafasi ya crypto. Yanahimiza maendeleo ya teknolojia za ugatuzi, kama vile watengenezaji wa soko otomatiki (AMM) na matumizi ya ugatuzi wa fedha (DeFi).
 
-**#6 Global Accessibility**: Non-custodial exchanges often provide access to cryptocurrencies for users around the world, including regions where regulatory hurdles might limit the availability of custodial exchange services.
+**#6 Ufikiaji wa Kimataifa**: Mabadilishano yasiyo ya dhamana mara nyingi hutoa ufikiaji wa sarafu za kidijitali kwa watumiaji kote ulimwenguni, ikiwa ni pamoja na maeneo ambapo vikwazo vya kisheria vinaweza kupunguza upatikanaji wa huduma za kubadilishana dhamana.
 
-**#7 Hakuna Mahitaji ya KYC**: Mabadilishano mengi yasiyo na uhifadhi hayahitaji watumiaji kupitia taratibu za kina za kujua mteja wako (KYC), ikitoa kiwango cha faragha na ujumuishaji ambao haupo katika majukwaa mengine ya kuhifadhi.
+**#7 Hakuna Mahitaji ya KYC**: Mabadilishano mengi yasiyo ya ulinzi hayaombi hati za utambulisho mapema. Mengi bado huchunguza anwani za pochi dhidi ya hifadhidata za kufuata sheria, na ubadilishaji unaweza kucheleweshwa, kuzuiwa au kukataliwa ikiwa kitu kimeripotiwa. Angalia masharti ya huduma kabla ya kutegemea.
 
-Sasa, hebu tuchunguze baadhi ya kubadilishana kwa hifadhi ambayo husaidia biashara za Zcash. Kutumia majukwaa haya itakupa njia rahisi kupata sarafu zaidi za Z Cash.
+### **Kile Zcash Inacholinda na Kile Isichokilinda**
 
-### ** Kwa muhtasari**
+Faragha ya Zcash hutokana na anwani zilizolindwa. ZEC inaposogea kati ya anwani zilizolindwa, mtumaji, mpokeaji, kiasi na memo husimbwa kwa njia fiche kwenye mnyororo wa Zcash. Tazama [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools) kwa jinsi hii inavyofanya kazi.
 
-Mabadilishano yasiyo ya uhifadhi, au DEXs, ni majukwaa yaliyotengwa ambayo yanawezesha biashara ya moja kwa moja kutoka kwenye pochi za watumiaji. Watumiaji huhifadhi udhibiti wa funguo zao binafsi, kuimarisha usalama na faragha.
+Kubadilishana kuna sehemu ambazo Zcash haiwezi kuficha:
 
-Wakati kubadilishana yasiyo ya uhifadhi kutoa faida kubwa, ni muhimu kutambua kwamba wanaweza kuja na hasara, kama vile masuala uwezekano wa ukwasi na mduara kuongezeka kujifunza kwa watumiaji chini uzoefu.
+- **Mtandao chanzo.** Fedha unazotuma kutoka Solana, Ethereum au mnyororo mwingine wa umma zinaonekana kwenye mnyororo huo, ikiwa ni pamoja na anwani yako na kiasi.
+- **Anwani ya kupokea.** Baadhi ya njia za kubadilishana hupeleka ZEC kwenye anwani inayoonekana wazi. Kwa mfano, Near Intents huorodhesha ZEC kama inayoungwa mkono kwa [anwani zinazoonekana wazi pekee](https://docs.near-intents.org/resources/chain-support)ZEC inayotumwa kwa anwani inayoeleweka (t1 au t3) ni ya umma, kama Bitcoin. Kuilinda baadaye hulinda unachofanya baadaye, lakini uhamisho unaoingia na muamala wa kuilinda hubaki ukionekana.
+- **Huduma.** Programu na huduma yoyote ya uelekezaji hutazama anwani na kiasi unachowapa, pamoja na data ya muunganisho kama vile anwani yako ya IP.
 
-Kama ilivyo kwa uamuzi wowote wa kifedha, wafanyabiashara wanapaswa kuchunguza kwa makini vipaumbele vyao, uvumilivu wao wa hatari na ufahamu wao juu ya teknolojia kabla ya kuchagua kati ya chaguzi za ubadilishaji zisizo na uhifadhi na kuhifadhiwa.
+Tuma ZEC kwenye pochi unayoidhibiti na uilinde kabla ya kutumia. [Kutumia ZEC kwa Binafsi](/guides/using-zec-privately) inashughulikia hatua zinazofuata.
+
+### **Nani Anahusika Katika Mabadiliko**
+
+Chukua ubadilishaji unaopitia huduma ya Near Intents 1Click kama mfano [Masharti ya API](https://docs.near-intents.org/security-compliance/terms-of-service) Zichukulie hizi kama sehemu tofauti:
+
+- **Kiolesura**: tovuti au pochi unayotumia. Inaweza kuendeshwa na Intents Technology au na mtu wa tatu mwenye masharti yake.
+- **1Click**: huduma ya uelekezaji na ulipaji inayoendeshwa na Intents Technology Limited. Unatuma pesa kwa anwani ya amana iliyoundwa kwa ajili ya nukuu yako. Hati zinasema 1Click haichukui dhamana, lakini masharti yanabainisha kuwa mali zinaweza kushikiliwa au kufungwa kwenye miundombinu ya daraja wakati uhamisho unaendelea.
+- **Itifaki**: mikataba mahiri ya Nia ya Karibu.
+- **Watatuzi**: wahusika wengine huru wanaojaza nukuu.
+- **Madaraja**: ZEC asilia husogea juu ya Daraja la PoA, ambalo Intents Technology inafanya kazi.
+
+Madhumuni ya Karibu pia [mtiririko wa nukuu uliojumuishwa kwenye skrini](https://docs.near-intents.org/security-compliance/risk-and-compliance) dhidi ya hifadhidata kadhaa za AML, na inasema chanjo hutofautiana kulingana na mtiririko na ujumuishaji. Chini ya masharti yake, ubadilishaji uliotiwa alama unaweza kucheleweshwa, kuzuiwa, kugandishwa au kukataliwa.
+
+### **Unachoshiriki Wakati wa Kubadilishana**
+
+- Anwani ya ZEC inayopokea ubadilishaji, na anwani ya kurejeshewa pesa kwenye mtandao chanzo.
+- Mali na kiasi, na muamala wa amana unaotuma, ambao ni wa umma kwenye mnyororo wa chanzo.
+- Data ya muunganisho. Masharti ya 1Click yanasema Teknolojia ya Nia inaweza kukusanya metadata ya ombi, anwani za IP na anwani za pochi, na sera ya faragha kwenye near.com inaorodhesha anwani ya IP, eneo, kivinjari na taarifa za kifaa.
+- Chochote ambacho programu huongeza juu, kama vile anwani zingine za pochi zilizounganishwa. Programu zinaweza pia kuendesha pochi yako kupitia ukaguzi wao wa kufuata sheria.
+
+### **Wapi pa Kuangalia Masharti na Usaidizi**
+
+Masharti hubadilika, kwa hivyo soma matoleo ya sasa kabla ya kubadilishana kwa kiasi kikubwa.
+
+- **Anza na programu unayotumia.** Ni sehemu yako kuu ya mawasiliano. Masharti ya API ya 1Click yanasema Teknolojia ya Malengo haina uhusiano wa moja kwa moja na watumiaji wa programu zilizojengwa juu yake.
+- **Nia za Karibu:** sheria na sera ya faragha katika near.com/terms na near.com/privacy, pamoja na [Masharti ya API ya 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) na [hatari na kufuata sheria](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+- **Ufuatiliaji na usaidizi:** tafuta ubadilishaji kwenye [Karibu na Kichunguzi cha Makusudi](https://explorer.near-intents.org) au uliza katika [Telegram ya Madhumuni ya Karibu](https://t.me/near_intents).
+- **Marejesho:** ubadilishaji ulioshindwa unaweza kutumwa kwa anwani ya kurejeshewa pesa uliyotoa, lakini masharti ya near.com yanasema marejesho hayahakikishiwi. Masharti ya 1Click pia yanasema maombi ya kurejesha hitilafu za mtumiaji chini ya USD 300 hayazingatiwi.
+
+Sasa, hebu tuchunguze baadhi ya biashara zisizo za dhamana zinazopatikana ambazo hurahisisha biashara ya Zcash. Kutumia mifumo hii kutakupa njia rahisi ya kupata sarafu zaidi za Zcash.
+
+### **Muhtasari**
+
+Mabadilishano yasiyo ya ulinzi, au DEX, hukuruhusu kufanya biashara kutoka kwa pochi yako mwenyewe huku ukidhibiti funguo zako za kibinafsi. Hilo husaidia usalama, lakini faragha inategemea njia: mnyororo wa chanzo ni wa umma, huduma huona anwani zako na data ya muunganisho, na ZEC yako ni ya faragha tu mara tu inapowekwa katika anwani iliyolindwa.
+
+Ingawa kubadilishana bila dhamana hutoa faida za kuvutia, ni muhimu kutambua kwamba kunaweza kuwa na mapungufu, kama vile matatizo ya ukwasi na mkondo mkali wa kujifunza kwa watumiaji wasio na uzoefu.
+
+Kama ilivyo kwa uamuzi wowote wa kifedha, wafanyabiashara wanapaswa kutathmini kwa makini vipaumbele vyao, uvumilivu wa hatari, na uzoefu na teknolojia kabla ya kuchagua kati ya chaguzi za kubadilishana zisizo za uangalizi na za uangalizi.

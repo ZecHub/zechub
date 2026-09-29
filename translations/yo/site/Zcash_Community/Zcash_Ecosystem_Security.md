@@ -9,7 +9,7 @@
 Iṣẹ́ olórí Ààbò Ecsystem Zcash ni a dá sílẹ̀ nípasẹ̀ owó ìrànlọ́wọ́ ZCG láti pèsè ìmọ̀ ẹ̀rọ ààbò tó ṣe pàtàkì fún ètò ìṣẹ̀dá Zcash tó gbòòrò — pàápàá jùlọ àwọn tó ní ẹ̀bùn ZCG — lẹ́yìn ECC àti ZF.
 
 - **2022–2023:** [ìbísí ilẹ̀](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) ṣiṣẹ́ gẹ́gẹ́ bí Aṣáájú Ààbò Ecosystem àkọ́kọ́. Kọ́ ẹ̀kọ́ síi ní [zecsec.com](https://zecsec.com).
-- **2024–2025:** A ti yan ZCG [Aṣẹ Tó Kéré Jùlọ](https://leastauthority.com) lati tẹsiwaju ipa naa nipasẹ tuntun kan [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723)A le rii awọn imudojuiwọn [Nibi](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
+- **2024–2025:** A ti yan ZCG [Least Authority](https://leastauthority.com) lati tẹsiwaju ipa naa nipasẹ tuntun kan [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723)A le rii awọn imudojuiwọn [Nibi](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
 - **2026:** Àwọn Ilé Ìwádìí Ààbò [Taylor Hornby ti ṣe adehun igbeyawo](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) gẹ́gẹ́ bí olùdámọ̀ràn ààbò láti mú kí agbára ààbò Zcash lágbára sí i.
 
 ## Ìgbékalẹ̀ Ìṣípayá Ààbò àti Ìpalára ZCG

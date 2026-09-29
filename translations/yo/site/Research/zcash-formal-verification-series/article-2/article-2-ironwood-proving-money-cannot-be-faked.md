@@ -1,5 +1,5 @@
 ![alt text](image-1.png)
-# Igi Irin: Ó Fi Hàn Pé Kò Ṣeé Ṣàdàkàdekè Owó Náà
+# Ironwood: Ṣíṣe àfihàn pé a kò le ṣe àgbélébùú owó
 
 ### Bi Zcash ṣe dahun si aṣiṣe pẹlu ẹri ti a ṣayẹwo ẹrọ kan
 
@@ -145,24 +145,24 @@ We simplified for clarity. The real Lean development is far more detailed than t
 
 ## Àkójọ àwọn ọ̀rọ̀
 
-Ọ̀rọ̀-ìtumọ̀ èdè Gẹ̀ẹ́sì tó rọrùn.
+| Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
-| **Ironwood** | Zcash's new shielded pool (2026), replacing the flawed Orchard pool |
-** Ìṣirò ìdúróṣinṣin** Àjọ náà kò ní san iye tó ju èyí tí wọ́n fi sínú rẹ̀ lọ.
-**ìmọ̀ tó péye** Àrídájú tí ó bá jẹ́ ojúlówó ní láti mú kí ẹni tí ń fi ẹ̀rí hàn rí i dájú wípé ẹlẹ́rìí kan wà.
-** Extractor**: Ìtòlẹ́sẹẹsẹ tí ó ń fa ẹlẹ́rìí jáde kúrò nínú àwọn ẹ̀rí tó lè múni gbàgbọ́.
-**Lean** Olùrànlọ́wọ́ tó ń ṣàyẹ̀wò ẹ̀rí náà ló fi ṣe é.
-**ValidLedger** Àpẹẹrẹ ìfọwọ́sowọ́pọ̀ ló ń darí àwọn èrò orí.
-Àlàfo tó wà láàárín àwọn ìṣirò tí wọ́n ti fi hàn pé ó wúlò àti ètò Rust tá à ń lò.
-** Lábẹ́ àwọn àbá tí a sọ** Àrídájú náà bá wípé orúkọ àwọn àgbéjáde ìdìbò-ìmọ̀ ṣe.
-** Turnstile** Òfin tó ń dí àwọn ibi tí omi ti jáde nínú adágún sí níbi táwọn nǹkan wà.
-**-ìfipamọ́ tí ó ní ìdánilójú gíga**. Ṣíṣe ìfípamọ̀ pẹlú àyẹwò tó ṣe é fọwọ́ sí gẹ́gẹ́ bí ìgbésẹ̀ ọ̀nà kan.
+| **Ironwood** | Adagun tuntun ti a fi aabo bo Zcash's (2026), ti o rọpo adagun Orchard ti ko ni abawọn |
+| **Balance integrity** | Adágún omi náà kò san owó tó ju èyí tí wọ́n fi síta ní gbangba lọ |
+| **Knowledge soundness** | Ẹ̀rí tó wúlò gbọ́dọ̀ jẹ́ kí olùjẹ́rìí jẹ́ ẹlẹ́rìí tòótọ́ |
+| **Extractor** | Ìlànà kan tí ó ń fa ẹlẹ́rìí kúrò nínú ẹnikẹ́ni tí ó lè jẹ́rìí tí ó lè yí i lérò padà |
+| **Lean** | Olùrànlọ́wọ́ ẹ̀rí tí a lò láti ṣàyẹ̀wò ìjẹ́rìí náà pẹ̀lú ẹ̀rọ |
+| **ValidLedger** | Àwòṣe ìfọwọ́sowọ́pọ̀ tí a gbé kalẹ̀ ló ń darí àwọn ìlànà ìdí tí a fi ń ṣe é |
+| **Fingerprint** | Ààlà láàárín ìṣirò tí a ti fi hàn àti software Rust tí ń ṣiṣẹ́ |
+| **Under stated assumptions** | Ẹ̀rí náà dúró fún àwọn àbá ìkọ̀kọ̀ tí a dárúkọ tí a sì fi orúkọ wọn sí i |
+| **Turnstile** | Òfin kan tó ń dí àwọn ọ̀nà àbájáde adágún kan ní ibi tí wọ́n lè fìdí rẹ̀ múlẹ̀ |
+| **High-assurance cryptography** | Kíkọ́ crypto pẹ̀lú ìjẹ́rìísí tó péye gẹ́gẹ́ bí ìgbésẹ̀ tó wọ́pọ̀ |
 
 ---
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
 
-**Ṣé ẹ̀rí náà túmọ̀ sí pé igi irin kò ní àwọn kòkòrò?**
+**Ṣé ẹ̀rí náà túmọ̀ sí pé Ironwood kò ní kòkòrò?**
 Rárá o, kò sì sọ pé òun ni. Ó fi hàn pé ohun kan wà tó ṣe gúnmọ́ gan-an, ìyẹn ìwà títọ́ nínú ìsòye owó orí lábẹ́ àwọn àbá tá a ti gbé kalẹ̀ yìí. Èyí ò ní jẹ́ kí wọ́n lè rí ẹrù èké téèyàn bá ń díbọ́n láìmọ̀ rárá, kì í kàn án ṣe gbogbo nǹkan burúkú táwọn èèyàn rò pé ó ṣeé ṣe kó jẹ yọ ló máa mú kéèyàn gbà á gbọ́ nìyẹn.
 
 **Ṣé ẹ̀rí náà mú un dá mi lójú pé àwọn ìnáwó tí mo ṣe kì í jẹ́ kí ẹnikẹ́ni mọ?**

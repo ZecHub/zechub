@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ugboro abụọ
+# Canopy
 
 > Canopy gara ndụ na Zcash mainnet na ngọngọ 1,046,400 (November 18, 2020 UTC).
 
@@ -46,14 +46,14 @@ N'akụkụ mgbanwe ego, Canopy nwere obere ZIP abụọ. [ZIP 212 (Ụlọ ọr
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
- Ndị guzobere ụgwọ ọrụ  Ụdị ego mbụ nke kwụrụ maka mmepe Zcash na mbido, a ga-agwụcha ya n'ọkara mbụ.
-Development Fund. The 20 percent òkè nke ọ bụla ngọngọ ụgwọ ọrụ na Canopy routed ka mmepe, agba ọsọ n'ime abụọ halving.
- Nkwụghachi ụgwọ nke ngọngọ (onyinye) ZEC ọhụrụ mepụtara ma kwụọ ya ka a na-egwupụta oghere ọ bụla.
- Ịgbaji. Ihe omume a na-eme atụmatụ ebe ụgwọ ọrụ nke ngọngọ ahụ ga-ebelata n'etiti ọkara.
- Nkwado ego  Usoro nkwekọrịta (ZIP 207) nke na-eduzi akụkụ nke nkwado ngọngọ gaa adreesị ndị nnata akọwapụtara.
- Sprout ọdọ mmiri Zcash mbụ echekwara ọdọ mmiri, nke Canopy kwụsịrị ịnakwere ọhụrụ uru n'ime.
+| Founders reward | Ụdị ego mbụ nke kwụrụ ụgwọ maka mmepe Zcash n'oge mbụ, nke a na-eme atụmatụ ịkwụsị na ọkara mbụ |
+| Development Fund | Pasentị iri abụọ nke ụgwọ ọrụ ngọngọ ọ bụla nke Canopy butere na mmepe, na-agba ọsọ ruo ọkara nke abụọ |
+| Block reward (subsidy) | ZEC ọhụrụ ahụ mepụtara ma kwụọ ụgwọ ka a na-egwupụta blọk ọ bụla |
+| Halving | Mmemme a haziri ebe a ga-ebelata ụgwọ ọrụ blọk ahụ n'ime ọkara |
+| Funding stream | Usoro nkwekọrịta (ZIP 207) nke na-eduzi akụkụ nke enyemaka ngọngọ gaa na adreesị onye nnata akọwapụtara |
+| Sprout pool | Ọdọ mmiri mbụ Zcash's e ji ihe nchebe kpuchie, nke Canopy kwụsịrị ịnakwere uru ọhụrụ |
 
 ## Ajụjụ ndị a na-ajụkarị
 
@@ -109,4 +109,4 @@ E mere atụmatụ na ụgwọ ọrụ ndị guzobere mbụ ga-akwụsị n'oge 
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Osisi nkwụ](../zcash-tech/heartwood) · Nke ọzọ: [NU5](../zcash-tech/nu5)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Heartwood](../zcash-tech/heartwood) · Nke ọzọ: [NU5](../zcash-tech/nu5)

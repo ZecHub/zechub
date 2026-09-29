@@ -95,13 +95,13 @@ Dɔ siwo do ƒome kplii la dzena xoxo. [Zakura](https://zechub.wiki/zcash-tech/z
 
 | Nyagbe | Gɔmesese |
 |---|---|
-| Dodokpɔ ƒe nya ɣaɣlawo ɖeɖeɖa | Agbagbadzedze be woaɖe asitsatsa ƒe nya ɣaɣlawo me ɖekaɖeka be nàke ɖe esiwo woɖo ɖe wò ŋu |
-| In-band adzame mama | Fexexe ƒe nya ɣaɣla la dede asitsatsa la me le blockchain la dzi, abe alesi Zcash wɔnɛ egbea ene |
-| Fexexe le haƒohaa godo | Fexexe ŋuti nyatakakawo tsɔtsɔ yi ame si ɖoe ɖa kple amesi xɔe dome tẽ tsɔ wu be woato kɔsɔkɔsɔ |
+| Trial decryption | Agbagbadzedze be woaɖe asitsatsa ƒe nya ɣaɣlawo me ɖekaɖeka be nàke ɖe esiwo woɖo ɖe wò ŋu |
+| In-band secret distribution | Fexexe ƒe nya ɣaɣla la dede asitsatsa la me le blockchain la dzi, abe alesi Zcash wɔnɛ egbea ene |
+| Out-of-band payment | Fexexe ŋuti nyatakakawo tsɔtsɔ yi ame si ɖoe ɖa kple amesi xɔe dome tẽ tsɔ wu be woato kɔsɔkɔsɔ |
 | Oblivious synchronization | Kɔsɔkɔsɔ ŋuti nyatakaka siwo gakotoku hiã la xɔxɔ evɔ womaɖe nyatakaka siwo wobia la afia o |
-| Kpeɖodzi-siwo tsɔa nyatakakawo (PCD) | Nyatakaka siwo zɔa mɔ kple kpeɖodzi si ɖee fia be eya ŋutɔ ƒe dzɔdzɔenyenye, ale be woate ŋu aƒo kpeɖodziwo nu ƒu ahaƒo wo nu ƒu |
-| Shielded asitsatsa ƒe ƒuƒoƒo | Tachyon ƒe mɔ si dzi wòtona blaa shielded state trɔna, trɔa alesi woɖoa dze kple woe eye wodea asi ete |
-| ledger vovototodedeameme ƒe ŋutete | Womate ŋu agblɔ nunɔamesi siwo kpɔ asitsatsa ta la ɖe vovo tso wo nɔewo gbɔ o |
+| Proof-carrying data (PCD) | Nyatakaka siwo zɔa mɔ kple kpeɖodzi si ɖee fia be eya ŋutɔ ƒe dzɔdzɔenyenye, ale be woate ŋu aƒo kpeɖodziwo nu ƒu ahaƒo wo nu ƒu |
+| Shielded transaction aggregate | Tachyon ƒe mɔ si dzi wòtona blaa shielded state trɔna, trɔa alesi woɖoa dze kple woe eye wodea asi ete |
+| ledger indistinguishability | Womate ŋu agblɔ nunɔamesi siwo kpɔ asitsatsa ta la ɖe vovo tso wo nɔewo gbɔ o |
 
 <br/>
 
@@ -121,7 +121,7 @@ Dɔ siwo do ƒome kplii la dzena xoxo. [Zakura](https://zechub.wiki/zcash-tech/z
 
 - [Ame ŋutɔ ƒe Nyatakakawo Xɔxɔ](https://zechub.wiki/zcash-tech/private-information-retrieval) - mɔnu bubu si dzi woato awɔ gakotoku ƒe scanning bottleneck ma ke
 - [Zakura Node ƒe ŋkɔ](https://zechub.wiki/zcash-tech/zakura-node) - node si wotu ƒe akpa aɖe tso Tachyon ƒe mɔ̃ɖaŋudɔwɔwɔ ƒe agbagbadzedze me
-- [Ironwood ƒe ati](https://zechub.wiki/zcash-tech/ironwood) - ɖɔɖɔɖo si wɔ dɔ le July 2026 me, si wotɔtɔna zi geɖe kple Tachyon
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - ɖɔɖɔɖo si wɔ dɔ le July 2026 me, si wotɔtɔna zi geɖe kple Tachyon
 - [Turnstile ƒe ʋuƒoa](https://zechub.wiki/zcash-tech/the-turnstile) - mɔ̃ si Tachyon ateŋu azã ne woɖoe abe eya ŋutɔ ƒe ta ene
 - [Dedienɔnɔ le Quantum megbe](https://zechub.wiki/zcash-tech/post-quantum-security) - afisi Tachyon nɔa anyi ɖe ɖoɖowɔɖi ƒe dɔwɔwɔ si xɔa ɣeyiɣi didi wu xa
 - [Alesi Wowɔ Ðoɖo Ðe Zcash Ŋui](https://zechub.wiki/start-here/how-zcash-is-organized) - ame si le dɔ sia wɔm kple alesi lãwo ƒe agbenɔnɔ ƒe ɖoɖoa wɔ ɖeka

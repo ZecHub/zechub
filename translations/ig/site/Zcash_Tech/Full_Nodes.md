@@ -2,123 +2,146 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nọmba zuru ezu
+# Ọnụ zuru ezu
 
-Full Node bụ sọftụwia nke na-agbazi nnomi zuru oke nke ngọngọ cryptocurrency ọ bụla na-enye ohere ịnweta atụmatụ protocol.
+## TL;DR
 
-Ọ na-ejide ihe ndekọ zuru ezu nke azụmahịa ọ bụla nke mere kemgbe mmalite ma nwee ike nyochaa izi ezi nke azụmahịa ọhụrụ na ngọngọ ndị agbakwunyere na blockchain.
+- Nọdụ zuru oke na-edobe otu zuru oke nke blockchain Zcash ma na-enyocha ngọngọ na azụmahịa ọhụrụ ọ bụla megide iwu nkwekọrịta.
+- Zebra (`zebrad`) bụ node a ga-etinye taa. Zakura bụ nke abụọ e ji Zebra.
+- zcashd alaala ezumike nká. E ruru nkwụsị ya na 18 Julaị 2026 na elu blọk 3417100, ebe nodes ndị ahụ anaghịzi amalite.
+- Nọdụ na obere akpa bụzi mmemme dị iche iche. [Zallet](https://github.com/zcash/zallet) na-agba ọsọ megide node ma jide igodo ahụ.
+- Ịgba ọsọ nke gị na-enye gị nkwenye onwe onye ma na-ewepụ mkpa ọ dị ịtụkwasị sava onye ọzọ obi.
 
-## Zcashd
+## Nkọwa Isi
 
-> **Note:** zcashd is being deprecated. The Electric Coin Company has [formally announced](https://z.cash/support/zcashd-deprecation/) that zcashd is being retired, with its full-node role replaced by [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) na akpa ya site na [Zallet](https://github.com/zcash/zallet). For new deployments, use Zebra (see below). If you already run a zcashd node, follow the [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+Full Node bụ ngwanrọ nke na-agba otu zuru oke nke blockchain nke cryptocurrency, na-enye gị ohere ịnweta atụmatụ nke protocol ahụ.
 
-zcashd was the original Full Node implementation for Zcash, developed and maintained by the Electric Coin Company. The build instructions below are retained for reference and for operators migrating away from zcashd.
+Ọ na-ejide ndekọ zuru oke nke azụmahịa ọ bụla mere kemgbe mmalite ya, ya mere o nwere ike ịchọpụta izi ezi nke azụmahịa na ngọngọ ọhụrụ ndị agbakwunyere na blockchain.
 
-Zcashd exposes a set of API's via its RPC interface. These API's provide functions that allow external applications to interact with the node.
+## Mmejuputa Node
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) bụ ihe atụ nke ngwa nke na-eji ọnụ zuru ezu iji mee ka ndị mmepe nwee ike ịmepụta ma debe obere akpa ego mkpuchi mkpuchi na-enweghị mkparịta ụka na Zcashd.
+### Zebra
 
-[Nchịkọta zuru ezu nke iwu RPC akwadoro](https://zcash.github.io/rpc/)
+Zebra bụ mmejuputa usoro Zcash nke nwere onwe ya, nke dị njikere imepụta, nke Zcash Foundation mepụtara ma dee ya na Rust. Ebe ọ bụ na zcashd lara ezumike nká, Zebra (`zebrad`) bụ node zuru oke akwadoro maka ntinye ọhụrụ.
+
+Zebra na-akwado ngọngọ na azụmahịa, na-esonye na netwọk peer-to-peer, ma na-ekpughe njikọ RPC maka ngwa. Akpa ego ahụ bụ ihe dị iche ugbu a: [Zallet](https://github.com/zcash/zallet) Ọ na-agba ọsọ megide oghere Zebra ma na-ejikwa igodo na nhazi. Nke a na-anọchi zcashd, nke jikọtara oghere na obere akpa n'otu usoro.
+
+Iji jee ozi obere akpa ọkụ echekwara, node ahụ na-agba ọsọ n'akụkụ ihe ngosi indexer, ma ọ bụ nke edobere [lightwalletd](https://github.com/zcash/lightwalletd) ma ọ bụ nke ọhụrụ [Zaino](https://zechub.wiki/zaino).
+
+Jide n'aka na ị gụrụ akwụkwọ Zebra maka ntuziaka nhazi, ma sonye na sava R&D Discord maka nkwado.
+
+[Github](https://github.com/ZcashFoundation/zebra/)
+
+[Akwụkwọ Zebra](https://zebra.zfnd.org)
+
+Lee [Zebra zuru oke](/zcash-tech/zebra-full-node) maka usoro nrụnye, nhazi, na ihe achọrọ maka ngwaike.
+
+### Zakura
+
+Zakura bụ otu n'ime ihe abụọ a na-akpọ "full node" nke kwekọrọ na nkwekọrịta, nke e si na Zebra mepụta ma Valar Group na Project Tachyon mepụta. Ọ na-agbaso otu iwu usoro ahụ ma na-agbakwụnye nhazi ngwa ngwa, ịkpụcha ngọngọ, na oyi akwa ndakọrịta zcashd RPC [Zakura Node](/zcash-tech/zakura-node).
+
+### zcashd (ezumike nká)
+
+> **Rịba ama:** zcashd alaala ezumike nka. Electric Coin Company [kwupụtara mbelata ahụ](https://z.cash/support/zcashd-deprecation/), e wee ruo nkwụsị End-of-Support ozugbo na 18 Julaị 2026 na elu blọk 3417100. Ọ bụla zcashd 6.20.0 nke a na-agbanwebeghị na-emechi n'ogo ahụ ma jụ ịmalitegharịa, ngwanrọ ahụ anaghịkwa akwado NU6.3. Jiri Zebra. Ọ bụrụ na ị nwere zcashd `wallet.dat`, soro [Nduzi Mbugharị: zcashd gaa Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd bụ ọrụ mbụ e ji mee ihe maka Zcash, nke Electric Coin Company. Ntuziaka owuwu dị n'okpuru ka edobere maka ntụaka na maka ndị ọrụ si na zcashd.
+
+Zcashd na-ekpughe otu API site na njikọ RPC ya. API ndị a na-enye ọrụ ndị na-enye ohere ka ngwa mpụga na-akpakọrịta na node ahụ.
+
+[Mpempe akwụkwọ ọkụ](https://github.com/zcash/lightwalletd) bụ ihe atụ nke ngwa nke na-eji node zuru oke iji mee ka ndị mmepe nwee ike iwulite ma jikwaa obere akpa nchekwa dị mfe maka ekwentị na-enweghị ịkparịta ụka ozugbo na Zcashd.
+
+[Ndepụta zuru oke nke iwu RPC akwadoro](https://zcash.github.io/rpc/)
 
 [Akwụkwọ Zcashd](https://zcash.github.io/zcash/)
 
+#### Malite Node (Linux)
 
-### Malite otu Node (Linux)
+- Wụnye Ndabere
 
-- Wụnye Dependencies 
+      mmelite sudo apt
 
-      sudo apt melite
-
-      sudo apt-get install \
+      sudo apt-nweta nrụnye \
       build-essential pkg-config libc6-dev m4 g++-multilib \
       autoconf libtool ncurses-dev unzip git python3 python3-zmq \
-      zlib1g-dev curl bsdmainutils automake libtinfo5
+      zlib1g-dev curl bsdmainutils akpaaka libtinfo5
 
-- Klọọ ikpeazụ wepụtara, nlele, nhazi na iwulite:
+- Mbipụta kachasị ọhụrụ, ndenye ọpụpụ, ntọala na nrụpụta:
 
-      git mmepụta oyiri https://github.com/zcash/zcash.git
+      git klọn https://github.com/zcash/zcash.git
 
       cd zcash/
 
       git checkout v5.4.1
       ./zcutil/fetch-params.sh
       ./zcutil/clean.sh
-      ./zcutil/build.sh -j$ ((nproc)
+      ./zcutil/build.sh -j$(nproc)
 
-- Sync Blockchain (nwere ike iwe ọtụtụ awa)
+- Mekọrịta Blockchain (nwere ike were ọtụtụ awa)
 
-    Iji malite ogwe ọsọ:
+    Iji malite node ahụ, gbaa ọsọ:
 
       ./src/zcashd
 
-- A na-echekwa igodo nzuzo na ~/.zcash/wallet.dat
+- A na-echekwa igodo nkeonwe na ~/.zcash/wallet.dat
 
-[Nduzi maka Zcashd na Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Ntuziaka maka Zcashd na Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
+## Mmetụta Bara Uru
 
-## Zebra
+### Netwọk ahụ
 
-Zebra is an independent, production-ready full node implementation of the Zcash protocol, created by the Zcash Foundation and written in Rust. As zcashd is retired, Zebra (`zebrad`) bụ ebe a na-atụ aro maka ntinye ọhụrụ.
+Site n'ịgba ọsọ zuru oke, ị na-enyere aka ime ka netwọk zcash sie ike site n'ịkwado nhazi ya.
 
-Zebra validates blocks and transactions, participates in the peer-to-peer network, and exposes an RPC interface for applications. The wallet is a separate component now: [Zallet](https://github.com/zcash/zallet) runs against a Zebra node and handles keys and balances. This replaces zcashd, which bundled the node and wallet in a single process.
+Nke a na-enyere aka igbochi njikwa mmegide ma mee ka netwọk ahụ ghara inwe nsogbu ọ bụla.
 
-Iji jee ozi na obere akpa ọkụ, ọnụ ahụ na-agba ọsọ n'akụkụ onye na-edepụta aha, ma ọ bụ [lightwalletd](https://github.com/zcash/lightwalletd) ma ọ bụ nke ọhụrụ [Zaino](https://zechub.wiki/zaino).
+Ndị na-emepụta DNS na-ekpughe ndepụta nke nodes ndị ọzọ a pụrụ ịtụkwasị obi site na sava arụnyere n'ime. Nke a na-enye ohere ka azụmahịa gbasaa n'ofe netwọk ahụ.
 
-Jide n'aka na ị gụrụ akwụkwọ Zebra maka ntuziaka ntọala, ma sonyere R&D Discord server maka nkwado. 
+### Ọnụọgụgụ netwọkụ
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+Ndị a bụ ihe atụ nke ikpo okwu ndị na-enye ohere ịnweta data Zcash Network:
 
-[Akwụkwọ Zebra](https://zebra.zfnd.org) 
+[Ihe Nchọgharị Zcash Block](https://zcashblockexplorer.com)
 
-[Nkwekọrịta adịghị mma](https://discord.gg/uvEdHsrb)
+[Ọnụ ego](https://docs.coinmetrics.io/info/assets/zec)
 
+[Blockchair](https://blockchair.com/zcash)
 
+I nwekwara ike itinye aka na mmepe nke netwọk ahụ site na ịme ule ma ọ bụ ịtụ aro mmezi ọhụrụ na inye usoro.
 
-## Ihe Ndị E Kwuru na Ya
+### Ịgwuputa ihe
 
-Site n'ịgba ọsọ zuru oke ị na-enyere aka iwusi netwọk zcash ike site n'ikwado ya decentralization. 
+Ndị na-egwuputa ihe chọrọ n'akara zuru oke iji nweta RPC niile metụtara igwuputa ihe dịka getblocktemplate & getmininginfo.
 
-Nke a na-enyere aka igbochi njikwa mmegide ma mee ka netwọk ahụ nwee ike iguzogide ụfọdụ ụdị nkwụsị.
+Zcashd na-enyekwa aka igwu ala ruo na ntọala ego echekwara. Ndị na-egwu ala na ọdọ mmiri igwu ala nwere nhọrọ igwu ala ozugbo iji chịkọta ZEC echekwara na adreesị z site na ndabara.
 
-DNS seeders expose a list of other reliable nodes via a built-in server. This allows transactions to propagate throughout the network. 
+Gụọ [Nduzi Ngwuputa](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) ma ọ bụ sonye na ibe Mgbakọ Obodo maka [Ndị na-egwupụta Zcash](https://forum.zcashcommunity.com/c/mining/13).
 
-### Nkọwapụta Ntanetị
+### Nzuzo
 
-Ndị a bụ ihe atụ nke nyiwe nke na-enye ohere ịnweta data Zcash Network:
+Ịgba ọsọ nke zuru oke na-enye gị ohere inyocha azụmahịa na ngọngọ niile dị na netwọk Zcash n'adabereghị onwe ha.
 
-[Zcash Block Explorer](https://zcashblockexplorer.com)
+Ịgba ọsọ zuru oke na-ezere ụfọdụ ihe egwu nzuzo metụtara iji ọrụ ndị ọzọ iji nyochaa azụmahịa n'aha gị.
 
-[Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
+Iji node nke gị na-enyekwa ohere ijikọ na netwọk site na [Tor](https://zcash.github.io/zcash/user/tor.html).
+Nke a nwere uru ọzọ nke ikwe ka ndị ọrụ ndị ọzọ jikọọ na adreesị node .onion gị.
 
-[Otu oche](https://blockchair.com/zcash)
+## Mmejọ Ndị A Na-emekarị
 
-Ị nwekwara ike inye aka na mmepe nke netwọk site na-agba ọsọ ule ma ọ bụ na-atụ aro ọhụrụ ndozi & enye metrics. 
+- Ịrụ zcashd site na ntuziaka dị n'elu ma na-atụ anya na ọ ga-arụ ọrụ. Ihe abụọ ndị ahụ na-akwụsị n'ogo mbelata.
+- Ịgba ọsọ na-eche na obere akpa ekwentị gị na-eji ya ugbu a. Obere akpa ego na-aga n'ihu na-agwa sava ọ bụla e ji hazie ya okwu ruo mgbe ị tụrụ aka na nke gị. Lee ya [Ọnụọgụ obere akpa](/zcash-tech/lightwallet-nodes).
+- Naanị ịgba ọsọ `zebrad` ma na-atụ anya ka obere akpa ego jikọọ. Nọdụ ahụ chọrọ ihe ntinye aka n'akụkụ ya, ma ọ bụ lightwalletd ma ọ bụ nke nwere akpa ego [Zaino](/zcash-tech/zaino).
+- Na-achọ RPCs obere akpa na node ahụ. Igodo na nhazi ahụ kwagara Zallet.
 
+## Peeji ndị metụtara ya
 
+- [Zebra zuru oke](/zcash-tech/zebra-full-node) - wụnye, hazie, ma gbaa node akwadoro
+- [Zakura Node](/zcash-tech/zakura-node) - mmejuputa node nke abụọ, nke Zebra gbapụrụ
+- [Ọnụọgụ obere akpa](/zcash-tech/lightwallet-nodes) - sava ndị na-ajụ obere akpa ajụjụ
+- [Zaino](/zcash-tech/zaino) - ihe nrịbama Rust nke na-eje ozi obere obere akpa
+- [Mmekọrịta obere akpa Zcash](/zcash-tech/zcash-wallet-syncing) - ihe kpatara syncing ji arụ ọrụ otu o si arụ ọrụ
 
-### Igwe na-egwu ala
+## Mmụta Ọzọ
 
-Ndị na-egwupụta akụ na-achọ ọnụ zuru ezu iji nweta RPC niile metụtara igwupụta dị ka getblocktemplate & getmininginfo. 
+Gụọ [Akwụkwọ Nkwado](https://zcash.readthedocs.io/en/latest/)
 
-Zcashd also enables mining to shielded coinbase. Miners and mining pools have the option to mine directly to accumulate shielded ZEC in a z-address by default. 
-
-Gụọ [Ntuziaka Mgbapụta](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) ma ọ bụ Jikọọ na Community Forum page maka [Zcash Miners](https://forum.zcashcommunity.com/c/mining/13).
-
-### Nzuzo nzuzo 
-
-Running a full node allows you to independently verify all transactions and blocks on the Zcash network.
-
-Na-agba ọsọ zuru ezu na-ezere ụfọdụ ihe ize ndụ nzuzo metụtara iji ọrụ ndị ọzọ iji nyochaa azụmahịa maka gị.
-
-Iji ọnụ gị na-enyekwa ohere ijikọ na netwọk site na [Tor](https://zcash.github.io/zcash/user/tor.html).
-Nke a nwere uru ọzọ nke ikwe ka ndị ọrụ ndị ọzọ jikọọ na nzuzo na adreesị node .onion gị.
-
-
-Enyemaka ọ dị gị mkpa?
-
-Gụọ [Ihe Ndị E Dere Iji Kwado Ya](https://zcash.readthedocs.io/en/latest/)
-
-Jikọọ anyị [Discord Sever](https://discord.gg/zcash) maọbụ kpọtụrụ anyị na [twitter](https://twitter.com/ZecHub)
-
-
-
+Sonyere anyị [Ihe nkesa Discord](https://discord.gg/zcash) ma ọ bụ kpọtụrụ anyị na [X](https://X.com/ZecHub)

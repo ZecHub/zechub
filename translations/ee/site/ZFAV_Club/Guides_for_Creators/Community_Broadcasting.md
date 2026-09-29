@@ -79,7 +79,7 @@ Esia nɔ te ɖe teƒe si yim nèle yi afisi nèle streaming wɔm le dzi koŋ. Le
 - Odio dzi ɖena kpɔtɔna ne èle OBS zãm le slow machine dzi kple ne èle green-screening wɔm
 
 Zã Hardware encoder alo zã stream yard
-[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [Tɔsisi ƒe Akpa.FM](http://riverside.fm/)
+[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [RiverSide.FM](http://riverside.fm/)
 
 ## Kafukafunyawo
 

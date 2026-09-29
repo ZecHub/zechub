@@ -37,7 +37,7 @@
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-الشكل 1: مخطط يوضح المجمعات الأربعة الحالية اعتبارًا من أكتوبر 2025
+الشكل 1: مخطط يوضح مجمعات الحماية الثلاثة (Sprout وSapling وOrchard) حتى 29 أكتوبر 2025، قبل تفعيل Ironwood
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-الشكل 2: مخطط يوضح مجمع Orchard اعتبارًا من أكتوبر 2025
+الشكل 2: مخطط يوضح مجمع Orchard حتى 29 أكتوبر 2025، قبل تفعيل Ironwood
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-الشكل 3: مخطط يوضح مجمع Sapling اعتبارًا من أكتوبر 2025
+الشكل 3: مخطط يوضح مجمع Sapling حتى 29 أكتوبر 2025، قبل تفعيل Ironwood
 
 <br/>
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-الشكل 4: مخطط يوضح مجمع Sprout اعتبارًا من أكتوبر 2025
+الشكل 4: مخطط يوضح مجمع Sprout حتى 29 أكتوبر 2025، قبل تفعيل Ironwood
 
 كان Sprout أول بروتوكول خصوصية Zero Knowledge مفتوحًا وبدون إذن يُطلق على الإطلاق. وقد أُطلق في 28 أكتوبر 2016.
 
@@ -113,7 +113,7 @@ ____
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-الشكل 5: مخطط يوضح مجمع Transparent اعتبارًا من أكتوبر 2025
+الشكل 5: مخطط يوضح مجمع Transparent حتى 29 أكتوبر 2025، قبل تفعيل Ironwood
 
 <br/>
 
@@ -184,5 +184,5 @@ ____
 - [المحافظ](/using-zcash/wallets) — أي المحافظ تتم صيانتها وجاهزة لـ Ironwood
 - [المعاملات](/using-zcash/transactions) — كيفية إرسال معاملات محمية
 - [شراء ZEC](/using-zcash/buying-zec) — الحصول على ZEC قبل استخدامه في المجمعات
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — الأساس التشفيري للمجمعات المحمية
+- [zk-SNARKs](/zcash-tech/zk-snarks) — الأساس التشفيري للمجمعات المحمية
 - [ما هو ZEC وZcash](/start-here/what-is-zec-and-zcash) — خلفية عن خصوصية Zcash

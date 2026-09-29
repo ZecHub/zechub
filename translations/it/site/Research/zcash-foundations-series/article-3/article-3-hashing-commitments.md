@@ -142,14 +142,14 @@ Abbiamo semplificato per mantenere le cose chiare. I veri schemi di commitment s
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Funzione hash** | Comprime qualsiasi dato in una breve impronta digitale di dimensione fissa (digest) |
+| **Hash function** | Comprime qualsiasi dato in una breve impronta digitale di dimensione fissa (digest) |
 | **Digest** | L'impronta digitale in uscita di una funzione hash |
-| **Resistenza alla preimmagine** | Non si può invertire un digest per risalire al suo input (unidirezionale) |
-| **Resistenza alle collisioni** | Non si possono trovare due input con lo stesso digest |
-| **Effetto valanga** | Una minima modifica all'input cambia completamente il digest |
+| **Preimage resistance** | Non si può invertire un digest per risalire al suo input (unidirezionale) |
+| **Collision resistance** | Non si possono trovare due input con lo stesso digest |
+| **Avalanche effect** | Una minima modifica all'input cambia completamente il digest |
 | **Commitment** | Bloccare un valore ora, rivelarlo dopo, senza poter mentire al riguardo |
-| **Fattore di accecamento (`r`)** | Il numero casuale fresco che fa sì che un commitment nasconda |
-| **Hash ZK-friendly** | Un hash costruito a partire da aritmetica su campi così da essere economico da provare |
+| **Blinding factor (`r`)** | Il numero casuale fresco che fa sì che un commitment nasconda |
+| **ZK-friendly hash** | Un hash costruito a partire da aritmetica su campi così da essere economico da provare |
 
 ---
 

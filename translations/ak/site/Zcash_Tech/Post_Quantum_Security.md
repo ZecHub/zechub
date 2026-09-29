@@ -93,7 +93,7 @@ Nkyerɛase tiawa no:
 | Address ahorow a ɛda adi pefee | Ɔmanfoɔ address ne ɔmanfoɔ nkitahodiɛ graph | Asiane a ɛte saa ara a ɛwɔ blockchains afoforo a ɛda adi pefee so |
 | Sika a wɔde di dwuma ho tumi krataa | Adanse a ɛkyerɛ sɛ wɔma obi a ɔde di dwuma sɛ ɔsɛe | Ebia ɛho behia sɛ wɔde nsaano nkyerɛwee nhyehyɛe ahorow besi ananmu anaasɛ wotu kɔ baabi foforo |
 | Nsɛm a wɔakyerɛw a wɔabɔ ho ban | Ankorankoro kyerɛwtohɔ ahorow a ɛsom bo wɔ shielded pools mu | Ebia nneɛma bi behia nsusuwii foforo anaasɛ nnwinnade a wɔde san nya ahoɔden |
-| zk-SNARKs a wɔyɛ | Adanse a ɛkyerɛ sɛ nnwuma a wɔabɔ ho ban no yɛ nokware | Adanse-nhyehyɛe nsusuwii ahorow hia sɛ wɔsan hwɛ mu |
+| zk-SNARKs | Adanse a ɛkyerɛ sɛ nnwuma a wɔabɔ ho ban no yɛ nokware | Adanse-nhyehyɛe nsusuwii ahorow hia sɛ wɔsan hwɛ mu |
 | Wallet scanning a wɔde hwehwɛ nneɛma mu | Sɛnea sika kotoku hwehwɛ na decrypt nsɛm a wɔagye | Key apam ne note encryption hia sɛ wɔsan hwɛ mu |
 | Tukɔ foforo | Sika a wɔde bɛkɔ cryptography a ahobammɔ wom so | Ɛsɛ sɛ wokwati sika a wɔhwere ne kokoam nsɛm a ɛbɛtwetwe |
 

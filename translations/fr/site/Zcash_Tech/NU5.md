@@ -49,12 +49,12 @@ NU5 a suivi les précédentes mises à niveau de Zcash : Overwinter, Sapling, Bl
 
 | Terme | Signification en clair |
 |---|---|
-| Mise à niveau du réseau (NU) | Un changement coordonné des règles de consensus de Zcash, activé à une hauteur de bloc définie |
+| Network upgrade (NU) | Un changement coordonné des règles de consensus de Zcash, activé à une hauteur de bloc définie |
 | Orchard | La pool protégée introduite par NU5, construite sur le système de preuve Halo 2 |
 | Halo 2 | Le système de preuve derrière Orchard qui ne nécessite aucune configuration de confiance |
-| Configuration de confiance | Une cérémonie unique qui crée les paramètres secrets d’une pool et qui doit être digne de confiance pour les détruire |
-| Adresse unifiée | Une adresse unique qui peut regrouper des récepteurs pour plus d’une pool (ZIP 316) |
-| Identifiant de branche de consensus | Un identifiant marquant à quel ensemble de règles une transaction appartient |
+| Trusted setup | Une cérémonie unique qui crée les paramètres secrets d’une pool et qui doit être digne de confiance pour les détruire |
+| Unified address | Une adresse unique qui peut regrouper des récepteurs pour plus d’une pool (ZIP 316) |
+| Consensus branch id | Un identifiant marquant à quel ensemble de règles une transaction appartient |
 
 ## FAQ
 

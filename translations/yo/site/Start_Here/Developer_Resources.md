@@ -11,14 +11,14 @@ The stack changed a great deal in 2026. zcashd, which ran the network for most o
 
 ## Àwòrán ìdìpọ̀ náà ní ṣókí kan ṣoṣo
 
- Layer. Kí ni kí n lò? Bẹrẹ pẹ̀lú:
+| Fẹlẹfẹlẹ | Kí ni a lè lò | Bẹ̀rẹ̀ pẹ̀lú |
 |:--|:--|:--|
-nódù tó kún. Zebra tàbí Zakura. [Ìwé Zebra náà](https://zebra.zfnd.org/), [zakura.com (ìkànnì)](https://zakura.com/) |
-ípò owó gbogbo-nódì. Zallet, ní ìmúṣẹ ìdánwò (beta) [Ìwé Zallet](https://zcash.github.io/zallet/) |
-| Light wallet server | Zaino or lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Wallet libraries | The librustzcash crates | [librustzcash](https://github.com/zcash/librustzcash) |
-Mobile: Android àti iOS SDKs. [Androidì í ì ë ¤ë¥1⁄4](https://github.com/zcash/zcash-android-wallet-sdk), [iOS (ìkànnì)](https://github.com/zcash/zcash-swift-wallet-sdk) |
-Àkọsílẹ̀ Ìlànà àti àwọn ìdìpọ̀-ìpamọ́. [ìdìpọ̀ owó. z. cash](https://zips.z.cash) |
+| Odidi kikun | Zebra tàbí Zakura | [Ìwé Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
+| Àpò owó nódù kíkún | Zallet, ní beta | [Ìwé Zallet](https://zcash.github.io/zallet/) |
+| Olupin apamọwọ ina | Zaino tabi lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Àwọn ilé ìkàwé àpò owó | Àwọn àpótí librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
+| Foonu alagbeka | Awọn SDK Android ati iOS | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
+| Ìlànà ìpele | Àlàyé ìlànà àti àwọn ZIP | [zips.z.cash](https://zips.z.cash) |
 
 ## Àwọn ìsọ̀rí
 
@@ -50,17 +50,17 @@ Ti o ba ti wa ni gbigbe ohun tẹlẹ iṣeto kọja, ZecHub ní a [itọsọna 
 
 Pupọ ninu iṣẹ apamọwọ naa waye ni awọn apoti Rust labẹ [librustzcash](https://github.com/zcash/librustzcash), ti awọn SDK alagbeka ati ọpọlọpọ awọn apamọwọ tabili kọ lori. Kọọkan apoti ni a ṣe akọsilẹ lori [àwọn ìwé ìwádìí.rs](https://docs.rs).
 
-Àpótí. Kí ni ó wà fún?
+| Àpótí | Kí ni ó jẹ́ fún |
 |:--|:--|
-zcash_client_backend "API fún ṣiṣẹ́da àwọn oníṣe Zcash tí ó ní ìpamọ̀", pẹlu ìṣàdákẹgbẹ àti ètò ìdánwò.
-zcash_client_sqlite "A SQLite-orisun Zcash ina onibara", awọn ibi ipamọ Layer fun loke.
- zcash_keys "Ìdarí kókó àti àdírésì Zcash"
- zcash_primitives "Ìmúṣẹ Rust ti àwọn àkójọ Zcash"
-| zcash_protocol | "Zcash protocol network constants and value types" |
- orchard. "ìlànà ìsòwò tí a fi ààbò pa" Orchard".
-sapling-crypto "Ìwé ìkówèésí fún Zcash Sapling"
-☐ PCZT: "Àwọn irinṣẹ́ fún ṣiṣẹ́ pẹ̀lú àwọn ìnáwó Zcash tí a dá ní apá kan", èyí ti wọ́n ń lò láti ṣe ìdásílẹ̀ ohun èlò àti oríṣiríṣi ẹrọ.
- zip321  Awọn URI ibeere isanwo, bi a ti ṣalaye ninu ZIP 321 
+| zcash_client_backend | "Awọn API fun ṣiṣẹda awọn alabara ina Zcash ti a daabobo", pẹlu amuṣiṣẹpọ ati ikole iṣowo |
+| zcash_client_sqlite | "Oníbàárà ìmọ́lẹ̀ Zcash tí ó dá lórí SQLite", ìpele ìpamọ́ fún ohun tí a sọ lókè yìí |
+| zcash_keys | "Zcash àti ìṣàkóso àdírẹ́sì" |
+| zcash_primitives | "Àwọn ìṣẹ̀dá ipata ti àwọn ìpìlẹ̀ Zcash " |
+| zcash_protocol | "Zcash àti àwọn irú iye" |
+| orchard | "Ìlànà ìṣòwò tí a dáàbò bo Orchard " |
+| sapling-crypto | "Ìkàwé Cryptographic fún Zcash Sapling" |
+| pczt | "Àwọn irinṣẹ́ fún ṣíṣiṣẹ́ pẹ̀lú àwọn ìṣòwò Zcash tí a ṣẹ̀dá díẹ̀", tí a lò fún ìfọwọ́sowọ́pọ̀ ẹ̀rọ àti ìfọwọ́sowọ́pọ̀ ẹ̀rọ púpọ̀ |
+| zip321 | Àwọn URI ìbéèrè ìsanwó, gẹ́gẹ́ bí a ti sọ nínú ZIP 321 |
 
 Fun alagbeka, awọn ti o ni agbara. [Android SDK (ìpèsè ìmúṣẹ)](https://github.com/zcash/zcash-android-wallet-sdk) àti àwọn [iOS SDK (ì í ì ë°)](https://github.com/zcash/zcash-swift-wallet-sdk) wọ́n máa ń pe ibi ìpamọ̀ iOS ní ZcashLightClientKit, nítorí náà àwọn ojúewé àti àpilẹ̀kọ tí ó ti pẹ́ lo orúkọ yẹn.
 

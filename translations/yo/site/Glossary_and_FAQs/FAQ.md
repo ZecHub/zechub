@@ -95,7 +95,7 @@ Zcash kò ní:
 - Ààbò kúrò nínú ìfipábánilòpọ̀ pẹlú àwọn ìdásílẹ̀ tí ó ṣe kedere.
 - Fi àwọn àdírẹ́ẹ̀sì IP pamọ́
 
-Àwọn àfikún ìwé: [Àwọn Ohun Abẹ̀mí Tó Ń Dáàbò Bò Wọ́n](https://electriccoin.co/blog/shielded-ecosystem)
+Àwọn àfikún ìwé: [Àwọn Ohun Abẹ̀mí Tó Ń Dáàbò Bò Wọ́n](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 

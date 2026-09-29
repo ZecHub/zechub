@@ -43,7 +43,7 @@ ZecMap ṣe àkójọ àwọn ilé-iṣẹ́ orí ayélujára pẹ̀lú. Ṣàw�
 
 ### Ṣètò Ìrìn Àjò Kárí ZEC
 
-Ṣiṣawari awọn agbegbe ti o ni aabo ṣaaju ki o to de, nitorina o le gbero iduro si ZEC-ọfẹ onjewiwa, ile itaja ati iṣẹ.
+Ṣíṣe ìrìnàjò lọ sí ìlú tàbí orílẹ̀-èdè tuntun? ZecMap jẹ́ kí o wo bí àwọn oníṣòwò ṣe ń ṣiṣẹ́ kí o tó dé, kí o lè ṣètò àwọn ibi ìdúró sí ní àwọn ilé oúnjẹ, àwọn ilé ìtajà, àti àwọn iṣẹ́ ZEC-friendly.
 
 ### Atilẹyin fun Awọn Olumulo Zcash Tuntun
 
@@ -55,14 +55,14 @@ ZecMap ṣe àkójọ àwọn ilé-iṣẹ́ orí ayélujára pẹ̀lú. Ṣàw�
 
 Bí iléeṣẹ́ kan bá gbà láti gba ZEC tí kò sì sí lórí ZecMap, ẹnikẹ́ni nínú àwùjọ lè fi ránṣẹ́. Ìránṣẹ̀ tó dára ní:
 
-Àgbègbè. Kí ni kí n pèsè?
+| Field | Kini lati pese |
 |-------|----------------|
-☐ Orúkọ iléeṣẹ́ náà. orúkọ tó wà ní àkọsílẹ̀ fún gbogbo èèyàn ni orúko rẹ̀.
- Ìkànnì tàbí àwọn ẹni tí a lè bá sọ̀rọ̀ URL tabi ìsọfúnni lórí ẹ̀ka àjọlò.
-ìpínlẹ̀: Adirẹsi fún àwọn ilé-iṣẹ́ tí ó wà ní ìpamọ́; ẹkùn ìpínlẹ̀ fún orí ayélujára.
-Ẹ̀ka: Kafe, ilé oúnjẹ, ìtajà, iṣẹ́-ṣiṣe, ọjà orí ayélujára àti bẹ́ẹ̀bẹ́ẹ̀ lọ.
-Èrí: ojúewé ìsanwó fún gbogbo ènìyàn, àtẹ̀jáde oníṣòwò tàbí ìdánilójú tààrà.
-íṣe ìsanwó ní ojú-ẹni, lórí ayélujára tàbí méjèèjì; ZEC tí ó ṣe kedere tabi ti a fi ààbò bo.
+| Business name | Orúkọ ìjọba gẹ́gẹ́ bí ó ṣe hàn gbangba |
+| Website or contact | URL tàbí ìwífún àwùjọ |
+| Location | Àdírẹ́sì fún àwọn iṣẹ́ ti ara; agbègbè fún orí ayélujára |
+| Category | Kafe, ile ounjẹ, ile itaja, iṣẹ, ile itaja ori ayelujara, ati bẹbẹ lọ. |
+| Evidence | Ojú ìwé ìsanwó gbogbogbò, ìkéde oníṣòwò, tàbí ìjẹ́rìí tààrà |
+| Payment notes | Lójúkojú, lórí ayélujára, tàbí méjèèjì; ZEC tí ó ṣe kedere tàbí tí a dáàbò bò |
 
 Àwọn ìfilọ́lẹ̀ kò gbọdọ ní àwọn àlàyé nípa oníbàárà. Bí o bá lo ẹrí ìṣòwò, yọ gbogbo àlàyé ara ẹni kúrò, nóńbà àṣẹ àti àdírésì ilé kí ó tó pínpín wọn.
 

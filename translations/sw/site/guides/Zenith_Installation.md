@@ -70,7 +70,7 @@ enable_cookie_auth = uongo
 
 > rmdir zcash-haskell
 
-> kit clone https://git.vergara.tech/Vergara_Tech/zcash-haskell.git
+> kit clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
 ### Weka Depedencies

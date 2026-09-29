@@ -148,15 +148,15 @@ Açıklık için sadeleştirdik. Gerçek Lean geliştirmesi, burada sunulan tasl
 | Terim | Sade Türkçe anlamı |
 |---|---|
 | **Ironwood** | Zcash'ün kusurlu Orchard havuzunun yerini alan yeni korumalı havuzu (2026) |
-| **Bakiye bütünlüğü** | Havuz, kamuya açık olarak kendisine giren değerden daha fazlasını asla ödemez |
-| **Bilgi sağlamlığı** | Geçerli bir kanıt, kanıtlayıcının gerçek bir tanığa sahip olmasını gerektirir |
-| **Çıkarıcı** | Herhangi bir ikna edici kanıtlayıcıdan tanığı çıkaran prosedür |
+| **Balance integrity** | Havuz, kamuya açık olarak kendisine giren değerden daha fazlasını asla ödemez |
+| **Knowledge soundness** | Geçerli bir kanıt, kanıtlayıcının gerçek bir tanığa sahip olmasını gerektirir |
+| **Extractor** | Herhangi bir ikna edici kanıtlayıcıdan tanığı çıkaran prosedür |
 | **Lean** | Doğrulamayı makineyle kontrol etmek için kullanılan kanıt asistanı |
 | **ValidLedger** | Teoremlerin üzerinde akıl yürüttüğü konsensüs kurallarının biçimsel modeli |
-| **Parmak izi** | Kanıtlanmış matematik ile çalışan Rust yazılımı arasındaki sınır |
-| **Belirtilen varsayımlar altında** | Kanıt, belirtilen kriptografik varsayımlar geçerli olduğu sürece geçerlidir |
-| **Turnike** | Bir havuzun çıkışlarını doğrulanabilir yatırımlarıyla sınırlayan kural |
-| **Yüksek güvenceli kriptografi** | Biçimsel doğrulamayla standart bir adım olarak kripto inşa etmek |
+| **Fingerprint** | Kanıtlanmış matematik ile çalışan Rust yazılımı arasındaki sınır |
+| **Under stated assumptions** | Kanıt, belirtilen kriptografik varsayımlar geçerli olduğu sürece geçerlidir |
+| **Turnstile** | Bir havuzun çıkışlarını doğrulanabilir yatırımlarıyla sınırlayan kural |
+| **High-assurance cryptography** | Biçimsel doğrulamayla standart bir adım olarak kripto inşa etmek |
 
 ---
 

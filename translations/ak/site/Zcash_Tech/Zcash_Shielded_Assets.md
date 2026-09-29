@@ -50,14 +50,14 @@ Ade biako a ɛsɛ sɛ yɛkae: ** wɔtua ZEC mu daa, ɛmfa ho nea ɛwɔ envelope 
 
 ### Nea obi a ɔwɔ abɔnten betumi ahu
 
-Obi a ɔhwɛ no bɛtumi ahu... ERC-20 wɔ Ethereum so, ZSA wɔ Zcash so.
+| Obi a ɔhwɛ ade betumi ahu... | ERC-20 wɔ Ethereum so | ZSA wɔ Zcash |
 | --- | --- | --- |
-Ԑhefo na wɔsomaa no? Aban abɔ wɔn ho ban.
-Ԑhefo na wɔgyee no? Aban abɔ wɔn ho ban.
-Ԑhe na wɔsesaa no? Yԑde ato dwa. Yɛbɔ ho ban.
-Ankorankoro nkaeԑbɔ. Aban no mu nnipa a wɔabɔ wɔn ho ban.
-de no nyinaa ma w'ade mu wɔ baguam. (Ɔmanfo) **Abanfoɔ a wɔn ani da so**
-Dwetɛ a wɔtua ka no ETH ZEC.
+| Nea ɔde kɔmaa no | Dwam | Wɔabɔ ho ban |
+| Nea onyaa no | Dwam | Wɔabɔ ho ban |
+| Hwɛ dodow a wɔkanyan no | Dwam | Wɔabɔ ho ban |
+| Ankorankoro a wɔkari pɛ | Dwam | Wɔabɔ ho ban |
+| Agyapade no nyinaa a wɔde ma | Dwam | **Ɔmanfoɔ — wɔahyɛ da** |
+| Sika a wɔde tua sika no | ETH na ɔkyerɛwee | ZEC |
 
 ### Deɛn nti na supply row no nyɛ bug?
 
@@ -128,13 +128,13 @@ Saa nsusuwa yi di nhyehyeɛ a wɔadi so no akyi. [Zcash Ntɔsoɔ a wɔhyɛ ho b�
 
 ## Mfomso a Wɔtaa Di
 
-Ԑyԑ adwene a obiara kura. Deɛ ԑne no ankasa ne dɛn?
+| Gyidi a wɔtaa nya | Nea ɛte ankasa |
 | --- | --- |
-ZSAs yɛ adwuma wɔ Zcash nnɛ. "Ɛnyɛ saa, ɛyɛ a na ɛreyɛ ayɛ sɛ wɔbɛfa no adi dwuma wɔ Network Upgrade 7 (NU7) mu, na ɛda so ara wɔ nhwehwԑmu ne nsɔhwɛ ase".
-| "ZSA brings smart contracts to Zcash." | ZSA specifies the issuance, transfer and burn of assets. It is not a general-purpose programmable contract layer. |
-"Wobɛtumi atua ZSA ka wɔ sika a wode yɛ adwuma no mu". Wɔtua ɛka no wɔ ZEC.
-"Sɛ wɔabɔ ho ban a, ɛsɛ sɛ ahyɛnsode no nso yɛ kokoam". ZIP 227 ma sikasɛm mu da hɔ pefee. Enti wobetumi adi dwuma biara so mfasoɔ bi ano atoom ama ɔmanfo ahu. Ntua ne ntransem gyina nkonim; nanso ɛnyɛ ɛno na ɛyɛ kyɛfa no.
-"ZIP 230 yɛ mprenpren nsesaeԑ a ԑwɔ 6 mu no. Wɔayi ZIP 230 afi hɔ, afei nso wɔama nsesaeɛ a ɛwɔ 6 ne 229 adi dwuma".
+| "ZSAs no wɔ Zcash so nnɛ." | Wɔnnyɛ saa. Wɔayɛ nhyehyɛe sɛ wɔde ZSA bedi dwuma wɔ Network Upgrade 7 (NU7) mu na wɔda so ara wɔ nhwehwɛmu ne sɔhwɛ mu. |
+| "ZSA de smart contracts brɛ Zcash." | ZSA kyerɛ sɛnea wɔde agyapade bɛma, wɔde bɛma ne sɛnea wɔhyew. Ɛnyɛ apam a wɔde yɛ nhyehyɛe a wɔde di dwuma wɔ ɔkwan a ɛkɔ akyiri so. |
+| "Wobɛtumi atua ZSA ka wɔ ZSA token no ankasa mu." | Wɔtua sika no wɔ ZEC. |
+| "Sɛ wɔabɔ ho ban a, ɛsɛ sɛ token supply no nso yɛ kokoam." | ZIP 227 ma wɔhyɛ da ma nneɛma a wɔde ma no da adi pefee, enti wobetumi adi agyapade biara a wɔde ma no akyi wɔ baguam. Sika a aka ne sika a wɔde kɔma afoforo no tra hɔ kokoam; nea wɔde ma no nyɛ saa. |
+| "ZIP 230 yɛ mprempren version 6 asɛmdi nhyehyɛe." | Wɔayi ZIP 230 no afi hɔ. Mprempren wɔde ZIP 229 na ɛkyerɛkyerɛ Version 6 no mu. |
 
 ---
 

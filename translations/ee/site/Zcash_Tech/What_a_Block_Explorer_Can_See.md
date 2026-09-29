@@ -26,7 +26,7 @@ Esi wònye be ƒomevi eve li ta la, asixɔxɔ ate ŋu azɔ le mɔ ene nu: esi me
 
 ## Nusi anyigbayeyedila ate ŋu akpɔ
 
-Dutoƒonudila aɖe abe [Blockchair ƒe zikpui](https://blockchair.com/zcash) ate ŋu axlẽe kɔte be:
+Dutoƒonudila aɖe abe [Blockchair](https://blockchair.com/zcash) ate ŋu axlẽe kɔte be:
 
 - Fexexe ɖesiaɖe si me kɔ bliboe (t vaseɖe t), tso nuwuwu vaseɖe nuwuwu.
 - Ga si gena ɖe ta si wotsɔ akpoxɔnu wɔe la me (afã si me kɔ kple ga home si woaxe).

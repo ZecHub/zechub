@@ -13,7 +13,7 @@ Add, edit, or remove a block here; the wiki picks it up from this file.
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
-- Website: https://app.near-intents.org/
+- Website: https://near.com/
 - Description: Fast exchange with the support of NEAR. Make deposits, sell, swap including popular TRUMP, MELANIA, BERA and other memes
 
 ___
@@ -105,4 +105,17 @@ ___
 
 - Website: https://loofta.xyz/
 - Description: Non-custodial private payment and swap platform. Send and receive crypto privately across chains, with Zcash as the settlement layer for enhanced financial privacy.
+
+
+___
+
+
+### ZcashToCash
+
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+
+
+
+- Website: https://zcashto.cash/
+- Description: Non-custodial ZEC-to-fiat cash out via Peer. Send shielded ZEC and receive payouts in everyday payment apps such as Venmo, Cash App, Revolut, Zelle, Chime, and Monzo across 100+ geographies. No CEX account required; escrow completes after proof of fiat payment.
 

@@ -1,25 +1,34 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Zebra_Full_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-## Introduction au nœud Zebra
+# Zebra Nœud complet
 
-Présentation de Zebra : révolutionner l'infrastructure des nœuds Zcash avec Rust
+## TL;DR
 
-Découvrez Zebra, une réalisation majeure en tant que premier nœud Zcash conçu entièrement en Rust. Intégré de manière fluide au réseau pair-à-pair Zcash, Zebra constitue un outil essentiel qui renforce la résilience du réseau. Grâce à ses fonctions fondamentales de validation et de diffusion des transactions, ainsi qu'au maintien rigoureux de l'état de la blockchain Zcash, Zebra contribue à une infrastructure réseau plus décentralisée.
+- Zebra (`zebrad`) est le nœud complet Zcash écrit en Rust et maintenu par la Zcash Foundation.
+- Il valide les blocs et les transactions, conserve l’état de la chaîne et communique avec d’autres nœuds sur le réseau pair à pair.
+- Zebra et zcashd implémentaient le même protocole et pouvaient interopérer. Depuis le retrait de zcashd, Zebra assure le rôle de consensus.
+- Deux façons de l’exécuter : l’image Docker `zfnd/zebra`, ou une compilation depuis les sources.
+- La configuration matérielle recommandée est de 4 cœurs CPU, 16 Go de RAM et 300 Go d’espace disque. Le minimum est de 2 cœurs et 4 Go de RAM, avec les mêmes 300 Go d’espace disque.
 
-## Avantages par rapport à l'implémentation du nœud Zcashd
-Contrairement au nœud Zcash d'origine, zcashd, qui tire ses origines de la base de code fondatrice de Bitcoin et qui est développé par Electric Coin Company, notre implémentation se présente comme une entité autonome. Développé à partir de zéro avec un accent sur la sécurité et l'efficacité, Zebra exploite la puissance du langage Rust, sûr pour la mémoire.
+## Explication générale
 
-Malgré leurs origines distinctes, zcashd et Zebra respectent tous deux le même protocole, ce qui facilite une communication fluide et l'interopérabilité entre eux. Cette innovation ne se contente pas d'élargir l'écosystème Zcash, elle établit également une nouvelle norme pour le développement des nœuds blockchain.
+Zebra est le premier nœud Zcash entièrement écrit en Rust. Il fonctionne sur le réseau pair à pair Zcash, où il valide et diffuse les transactions tout en conservant l’état de la blockchain. Disposer d’une deuxième implémentation indépendante rend l’infrastructure du réseau moins dépendante d’une seule base de code.
 
-## Instructions pour Zebra Launcher
+### Zebra et zcashd
 
-Vous pouvez exécuter Zebra en utilisant notre image Docker ou le compiler manuellement. Veuillez consulter la section Configuration requise du système.
+Le nœud Zcash original, zcashd, a été développé par la Electric Coin Company à partir de la base de code de Bitcoin. Zebra a été écrit de zéro en Rust, un langage sûr pour la mémoire, en mettant l’accent sur la sécurité et l’efficacité.
 
-### Utilisation de Docker :
+Les deux implémentations suivent le même protocole et pouvaient donc communiquer et interopérer. zcashd a atteint son arrêt de fin de support le 18 juillet 2026 et ne démarre plus, ce qui laisse Zebra et Zakura comme implémentations de nœuds utilisées. Consultez [Nœuds complets](/zcash-tech/full-nodes) pour une vue d’ensemble plus large.
 
-Pour exécuter facilement notre dernière version et la synchroniser jusqu'à la pointe de la chaîne, lancez la commande suivante :
+## Exécuter Zebra
+
+Vous pouvez exécuter Zebra à l’aide de l’image Docker, ou le compiler manuellement. Veuillez consulter la section Configuration système requise.
+
+### Utilisation de Docker
+
+Pour exécuter la dernière version et la synchroniser avec la pointe de la chaîne, lancez la commande suivante :
 
 ```
 
@@ -27,114 +36,128 @@ docker run zfnd/zebra:latest
 
 ```
 
-Pour des instructions plus complètes et des informations détaillées, veuillez consulter notre [documentation Docker](https://zebra.zfnd.org/user/docker.html).
+Pour des instructions complètes, consultez la [documentation Docker](https://zebra.zfnd.org/user/docker.html).
 
-### Compiler Zebra :
+### Compiler Zebra
 
-La compilation de Zebra nécessite Rust, libclang et un compilateur C++.
+La compilation de Zebra requiert Rust, libclang et un compilateur C++.
 
-- Assurez-vous d'avoir installé la dernière version stable de Rust, car Zebra est testé exclusivement avec celle-ci.
-- Les dépendances de compilation nécessaires incluent :
-  - libclang (également connu sous le nom de libclang-dev ou llvm-dev)
+- Assurez-vous d’avoir installé la dernière version stable de Rust, car Zebra est exclusivement testé avec celle-ci.
+- Les dépendances de compilation nécessaires comprennent :
+  - libclang (également appelé libclang-dev ou llvm-dev)
   - clang ou un autre compilateur C++ (tel que g++ pour toutes les plateformes ou Xcode pour macOS)
-  - protoc (compilateur Protocol Buffers) avec l'option *--experimental_allow_proto3_optional*, introduite dans Protocol Buffers v3.12.0 (publiée le 16 mai 2020).
+  - protoc (compilateur Protocol Buffers) avec le drapeau *--experimental_allow_proto3_optional*, introduit dans Protocol Buffers v3.12.0 (publié le 16 mai 2020).
 
+### Installer et démarrer
 
-
-### Dépendances sur Arch :
-
-Après vous être assuré que les dépendances sont satisfaites, procédez à la compilation et à l'installation de Zebra à l'aide de la commande suivante :
+Sous Linux x86_64 ou aarch64 avec glibc 2.34 ou une version plus récente (Ubuntu 22.04+, Debian 12+, RHEL 9+, Amazon Linux 2023), vous pouvez ignorer les dépendances de compilation et installer un binaire précompilé signé :
 
 ```
-
-cargo install --locked zebrad
-
+cargo binstall zebrad
 ```
 
-Démarrez Zebra en exécutant :
+Les mêmes binaires sont joints à chaque version de GitHub sous le nom de `zebrad-<version>-<target>.tar.gz`, chacun avec une somme de contrôle SHA-256, une attestation de provenance de compilation Sigstore et une signature Cosign. Sur les plateformes plus anciennes, utilisez l’image Docker ou compilez depuis les sources.
+
+Pour compiler depuis les sources, récupérez le code et compilez le binaire de publication :
 
 ```
-zebrad start
-
+git clone https://github.com/ZcashFoundation/zebra.git
+cd zebra
+cargo build --release --bin zebrad
 ```
 
+Démarrez le nœud avec :
 
-## Configurations et fonctionnalités optionnelles :
+```
+target/release/zebrad start
+```
 
+Guide d’installation : [zebra.zfnd.org/user/install.html](https://zebra.zfnd.org/user/install.html)
 
-### - Initialisation du fichier de configuration :
+## Configurations et fonctionnalités optionnelles
 
-  - Générez un fichier de configuration à l'aide de la commande :
-    
+### Initialisation du fichier de configuration
+
+  - Générez un fichier de configuration à l’aide de la commande :
+
   ```
   zebrad generate -o ~/.config/zebrad.toml
-  
+
   ```
 
-  - Le fichier *zebrad.toml* généré sera placé dans le répertoire de préférences par défaut de Linux. Pour les emplacements par défaut des autres systèmes d'exploitation, consultez notre documentation.
+  - Le fichier *zebrad.toml* généré sera placé dans le répertoire de préférences par défaut de Linux. Pour connaître les emplacements par défaut des autres systèmes d’exploitation, consultez la documentation.
 
+### Configuration des barres de progression
 
+  - Configurez *tracing.progress_bar* dans votre fichier *zebrad.toml* pour afficher des métriques clés dans le terminal à l’aide de barres de progression. Remarque : un problème connu peut faire devenir les estimations des barres de progression extrêmement élevées.
 
-### - Configuration des barres de progression :
+### Configuration du minage
 
-  - Configurez *tracing.progress_bar* dans votre *zebrad.toml* pour afficher des métriques cruciales dans le terminal à l'aide de barres de progression. Remarque : un problème connu existe, selon lequel les estimations des barres de progression peuvent devenir excessivement grandes.
+  - Zebra peut être configuré pour le minage en spécifiant une *MINER_ADDRESS* et un mappage de ports dans Docker. Vous trouverez plus de détails dans la [documentation sur la prise en charge du minage](https://zebra.zfnd.org/user/mining-docker.html).
 
+### Fonctionnalités de compilation personnalisées
 
+  - Étendez les fonctionnalités de Zebra avec des fonctionnalités Cargo supplémentaires, telles que les métriques Prometheus, la surveillance Sentry, la prise en charge expérimentale d’Elasticsearch, et bien plus.
 
-### - Configuration du minage :
+  - Combinez plusieurs fonctionnalités en les indiquant comme paramètres du drapeau `--features` lors de l’installation.
 
-  - Zebra peut être adapté au minage en spécifiant une *MINER_ADDRESS* et un mappage de port dans Docker. Vous trouverez davantage de détails dans notre [documentation sur la prise en charge du minage](https://zebra.zfnd.org/user/mining-docker.html).
+  - Certaines fonctionnalités de débogage et de surveillance sont désactivées dans les compilations de publication afin d’optimiser les performances. Pour consulter la liste complète des fonctionnalités expérimentales et destinées aux développeurs, consultez la [documentation de l’API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
 
+## Configuration système requise et configuration réseau
 
-### - Fonctionnalités de compilation personnalisées :
+### Configuration recommandée
 
-  - Étendez les fonctionnalités de Zebra avec des options Cargo supplémentaires telles que les métriques Prometheus, la surveillance Sentry, la prise en charge expérimentale d'Elasticsearch, et bien plus encore.
-
-  - Combinez plusieurs fonctionnalités en les indiquant comme paramètres de l'option `--features` lors de l'installation.
-
-
-### Remarque : certaines fonctionnalités de débogage et de surveillance sont désactivées dans les builds de publication afin d'optimiser les performances.
-
-Pour une liste complète des fonctionnalités expérimentales et destinées aux développeurs, veuillez consulter notre [documentation API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
- 
-
-# Configuration requise du système et configuration réseau pour Zebra
-
-Pour garantir des performances et une fiabilité optimales, nous recommandons la configuration système suivante pour compiler et exécuter zebrad, le nœud Zcash révolutionnaire entièrement conçu en Rust :
-
-### Configuration requise du système :
 - CPU : 4 cœurs CPU
 - RAM : 16 Go
-- Espace disque : 300 Go d'espace disque disponible pour compiler les binaires et stocker l'état mis en cache de la chaîne
-- Réseau : connexion réseau de 100 Mbps avec un minimum de 300 Go de téléversements et téléchargements par mois
+- Espace disque : 300 Go d’espace disque disponible pour compiler les binaires et stocker l’état mis en cache de la chaîne
+- Réseau : connexion réseau de 100 Mbps avec un minimum de 300 Go de téléversements et de téléchargements par mois
 
+### Configuration minimale
 
-Veuillez noter que la suite de tests de Zebra peut prendre plus d'une heure à se terminer selon les caractéristiques de votre machine. Bien que des systèmes plus lents puissent être capables de compiler et d'exécuter Zebra, nous n'avons pas encore établi de limites de performance précises par le biais de tests.
+- CPU : 2 cœurs CPU
+- RAM : 4 Go
+- Espace disque : 300 Go d’espace disque disponible
 
+La suite de tests de Zebra peut prendre plus d’une heure selon les caractéristiques de votre machine. Les systèmes plus lents peuvent compiler et exécuter Zebra. Les limites précises de performances n’ont pas été établies par des tests.
 
-### Exigences de stockage :
-- Zebra utilise environ 300 Go pour les données Mainnet en cache et 10 Go pour les données Testnet en cache. Attendez-vous à ce que l'utilisation du disque augmente au fil du temps.
-- La base de données est régulièrement nettoyée, en particulier lors des arrêts ou des redémarrages, afin de garantir l'intégrité des données. Les modifications incomplètes dues à des arrêts forcés ou à des paniques sont annulées au redémarrage de Zebra.
+### Exigences en matière de disque
 
+- Zebra utilise environ 300 Go pour les données Mainnet mises en cache et 10 Go pour les données Testnet mises en cache. Prévoyez une augmentation de l’utilisation du disque au fil du temps.
+- La base de données est nettoyée périodiquement, ainsi qu’à l’arrêt ou au redémarrage. Les modifications sont validées à l’aide de transactions de base de données. Les modifications incomplètes causées par un arrêt forcé ou une panique sont annulées lors du prochain démarrage de Zebra.
 
-### Exigences réseau et ports :
+### Exigences réseau et ports
+
 - Zebra utilise les ports TCP suivants pour les connexions entrantes et sortantes :
   - 8233 pour Mainnet
   - 18233 pour Testnet
-- Configurer Zebra avec une valeur listen_addr spécifique permet d'annoncer cette adresse pour les connexions entrantes. Bien que les connexions sortantes soient essentielles pour la synchronisation, les connexions entrantes sont facultatives.
-- L'accès aux seeders DNS de Zcash est nécessaire via le résolveur DNS du système d'exploitation (généralement le port 53).
-- Bien que Zebra puisse établir des connexions sortantes sur n'importe quel port, zcashd préfère des pairs sur les ports par défaut afin d'atténuer les attaques DDoS sur d'autres réseaux.
+- Configurer Zebra avec une adresse listen_addr spécifique annonce cette adresse pour les connexions entrantes. Les connexions sortantes sont requises pour la synchronisation ; les connexions entrantes sont facultatives.
+- L’accès aux serveurs DNS seeders de Zcash est nécessaire via le résolveur DNS du système d’exploitation (généralement le port 53).
+- Zebra peut établir des connexions sortantes sur n’importe quel port. zcashd préfère les pairs utilisant les ports par défaut afin d’éviter d’être utilisé pour des attaques DDoS contre d’autres réseaux.
 
+### Utilisation réseau Mainnet typique
 
-### Utilisation réseau typique sur Mainnet :
-- Synchronisation initiale : un téléchargement de 300 Go est nécessaire pour la synchronisation initiale, avec une croissance attendue des téléchargements ultérieurs.
-- Mises à jour continues : attendez-vous à des téléversements et téléchargements quotidiens allant de 10 Mo à 10 Go, selon la taille des transactions des utilisateurs et les requêtes des pairs.
-- Zebra lance une synchronisation initiale à chaque changement de version interne de la base de données, ce qui peut potentiellement nécessiter des téléchargements complets de la chaîne lors des mises à niveau de version.
-- Les pairs ayant une latence aller-retour de 2 secondes ou moins sont préférés. Si la latence dépasse ce seuil, veuillez soumettre un ticket pour obtenir de l'aide.
+- Synchronisation initiale : un téléchargement de 300 Go est requis pour la synchronisation initiale, et ce chiffre devrait augmenter.
+- Mises à jour continues : téléversements et téléchargements quotidiens allant de 10 Mo à 10 Go, selon la taille des transactions des utilisateurs et les requêtes des pairs.
+- Zebra lance une synchronisation initiale à chaque changement de version de la base de données interne, ce qui peut impliquer un téléchargement complet de la chaîne lors des mises à niveau de version.
+- Les pairs ayant une latence aller-retour de 2 secondes ou moins sont privilégiés. Si la latence dépasse ce seuil, ouvrez un ticket dans le dépôt Zebra.
 
+## Erreurs courantes
 
-En suivant ces recommandations et configurations, vous pouvez maximiser l'efficacité et l'efficience de Zebra au sein du réseau Zcash. Si vous rencontrez des problèmes ou avez besoin d'une assistance supplémentaire, notre équipe d'assistance est prête à vous guider.
+- Dimensionner le disque pour aujourd’hui. L’état Mainnet mis en cache approche déjà les 300 Go et continue de croître.
+- Attendre des RPC de wallet de `zebrad`. Les clés et les soldes se trouvent dans [Zallet](https://github.com/zcash/zallet), un programme distinct.
+- Exécuter `zebrad` seul et s’attendre à ce que les wallets légers se connectent. Ce chemin requiert un indexeur, soit lightwalletd, soit [Zaino](/zcash-tech/zaino).
+- Considérer une resynchronisation inattendue comme une anomalie. Un changement de version de la base de données en déclenche une par conception.
 
+## Pages connexes
 
-Voici le lien vers le guide d'installation du nœud Zebra :
-https://zebra.zfnd.org/user/install.html?highlight=zebra%20launcher#installing-zebra
+- [Nœuds complets](/zcash-tech/full-nodes) - ce que fait un nœud complet et quelles implémentations existent
+- [Zakura Nœud](/zcash-tech/zakura-node) - un nœud dérivé de Zebra avec une synchronisation plus rapide et l’élagage
+- [Zaino](/zcash-tech/zaino) - l’indexeur Rust qui sert les wallets légers
+- [Nœuds Lightwallet](/zcash-tech/lightwallet-nodes) - les serveurs interrogés par les wallets légers
+- [Zcash Guide de minage](/using-zcash/zcash-mining-guide) - miner avec votre propre nœud
+
+## Pour aller plus loin
+
+- [Le livre Zebra](https://zebra.zfnd.org)
+- [Zebra sur GitHub](https://github.com/ZcashFoundation/zebra/)
+- [Configuration système requise](https://zebra.zfnd.org/user/requirements.html)

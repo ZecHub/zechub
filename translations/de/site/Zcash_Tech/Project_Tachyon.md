@@ -95,13 +95,13 @@ Verwandte Arbeiten sind bereits sichtbar. [Zakura](https://zechub.wiki/zcash-tec
 
 | Begriff | Bedeutung |
 |---|---|
-| Probeentschlüsselung | Der Versuch, Transaktionen einzeln zu entschlüsseln, um die an dich gerichteten zu finden |
-| In-Band-Verteilung von Geheimnissen | Das Zahlungsgeheimnis innerhalb der Transaktion auf der blockchain zu platzieren, wie Zcash es heute tut |
-| Out-of-Band-Zahlung | Die Zahlungsdetails direkt zwischen Absender und Empfänger zu übermitteln, statt über die chain |
+| Trial decryption | Der Versuch, Transaktionen einzeln zu entschlüsseln, um die an dich gerichteten zu finden |
+| In-band secret distribution | Das Zahlungsgeheimnis innerhalb der Transaktion auf der blockchain zu platzieren, wie Zcash es heute tut |
+| Out-of-band payment | Die Zahlungsdetails direkt zwischen Absender und Empfänger zu übermitteln, statt über die chain |
 | Oblivious synchronization | Die chain-Daten abzurufen, die eine Wallet benötigt, ohne offenzulegen, welche Daten angefordert wurden |
-| Beweistragende Daten (PCD) | Daten, die mit einem Beweis ihrer eigenen Korrektheit übertragen werden, sodass Beweise kombiniert und komprimiert werden können |
-| Aggregat abgeschirmter Transaktionen | Tacyons Methode, Änderungen des abgeschirmten Zustands zu bündeln, wodurch sich ihre Kommunikation und Signierung verändern |
-| Ledger-Ununterscheidbarkeit | Die Eigenschaft, dass abgeschirmte Transaktionen nicht voneinander unterschieden werden können |
+| Proof-carrying data (PCD) | Daten, die mit einem Beweis ihrer eigenen Korrektheit übertragen werden, sodass Beweise kombiniert und komprimiert werden können |
+| Shielded transaction aggregate | Tacyons Methode, Änderungen des abgeschirmten Zustands zu bündeln, wodurch sich ihre Kommunikation und Signierung verändern |
+| ledger indistinguishability | Die Eigenschaft, dass abgeschirmte Transaktionen nicht voneinander unterschieden werden können |
 
 <br/>
 

@@ -49,7 +49,7 @@ Zcash nwere ọnụnọ zuru ụwa ọnụ na X. Isi ihe dị mkpa ị ga-eso:
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Naịjirịa |
 | [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - Asụsụ Spanish Podcast Zcash |
-| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
+| [@ZkAv_Club](https://x.com/ZkAv_Club) | Klọb ọdịyo ZK |
 | [@cipherscan_app](https://x.com/cipherscan_app) | Onye na-eme nchọpụta blockchain CipherScan |
 | [@zerodartz](https://x.com/Zerodartz) | Ihe nkiri obodo na nkọwa |
 

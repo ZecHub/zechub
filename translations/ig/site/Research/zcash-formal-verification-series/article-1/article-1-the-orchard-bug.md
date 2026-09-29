@@ -75,12 +75,12 @@ In plain terms, the circuit's checklist was missing the boxes that should have p
 
 Ihe yiri akụkọ anyị na-ekwu banyere ndepụta ndị a bụ eziokwu:
 
-◯ Akụkọ banyere ndepụta ndị a na-enyocha ihe e dere ede. ❑ Nsogbu nke osisi Orchard (ọka mkpụrụ) ❖
+| Akụkọ ndepụta ihe nlele | Ahụhụ Orchard |
 |---|---|
-◯ Igbe "paspọtụ emebibeghị" na-efu efu. ❑ Ihe mgbochi a na-enweghị n'ihe gbasara ịba ụba nke usoro elliptic curve.
-❑ Onye njem paspọtụ ya na-agwụla agwụ gafere n'agbanyeghị ihe ọ bụla. ● Ihe ndị e dere ede bụ́ ụgha agafeela ule ịba ụba ahụ.
-❑ Onye ọ bụla ọzọ adịghị emetụta ya, n'ihi ya o nweghị ihe dị njọ. ▪ Azụmahịa ndị a na-emebu rụrụ ọrụ nke ọma ma zoo ntụpọ ahụ.
-Ọ bụ naanị onye na-achọ ya ga-ahụ oghere ahụ. O were ọkachamara iji ụma nyochaa mgbakọ na mwepụ nke sekit ahụ.
+| Igbe "paspọtụ ahụ agwụbeghị" furu efu | Mmachi na-efu na mmụba nke usoro elliptic-curve |
+| Onye njem paspọtụ ochie gafere | Ntinye ụgha na-enweghị aka na-agafe nyocha mmụba |
+| Mmadụ niile enweghị mmetụta ọ bụla, yabụ ọ dịghị ihe dị njọ | Azụmahịa nkịtị rụrụ ọrụ nke ọma, na-ezochi ntụpọ ahụ |
+| Naanị onye na-achọ ya na-achọta oghere ahụ | Ọ chọrọ ọkachamara inyocha mgbakọ na mwepụ nke sekit ahụ nke ọma |
 
 Iji mee ka o doo anya etu nke a siri dị njọ: onye nyocha ahụ, site na enyemaka AI, dere * ọrụ zuru oke* ma kwado ya n'ime netwọkụ nnwale mpaghara ọ mepụtara mkpụrụ ego adịgboroja enweghị njedebe. Nke a bụ ezigbo ntụpọ nwere ike ịkpafu, ọ bụghị nchegbu echiche.
 
@@ -111,13 +111,13 @@ The Orchard bug belongs to a recurring family, and seeing that family is what ma
 
 Akụkọ nke Zcash n'onwe ya na-egosi usoro a:
 
-❑ Bug (afọ) ▪ Isi Iyi ● A pụrụ ịchọpụta ya?
+| Ahụhụ (afọ) | Isi mmalite | A na-achọpụta ya? |
 |---|---|---|
- Zerocash commitment flaw (2016, pre-launch)  Nkọwapụta (a truncated hash mebiri ihe nkekọ njirimara) 👉 Enweghi ike ịchọpụta ya.
-◯ Nkwado-mwube nkwenye siri ike (2018) ❖ nkọwapụta (njehie dị na akwụkwọ zk-SNARK) ❖ A pụghị ịchọpụta ya.
-◯ Nnyocha usoro ajụjụ mgbagwoju anya (2025) ▸ nkọwapụta (nlele na-efu n'ime sistemụ nyocha) ❖ Ihe a pụrụ ịchọpụta.
-◯ Nkwado usoro-subgroup validation bug (2016) ▸ Mmejuputa (nyocha subgroups na-efu) ❖ Ịchọpụta ya:
- Orchard n'okpuru-machibidoro ịba ụba (2026)  nkọwapụta (na circuit)  Undetectable 
+| Enweghị ntụpọ nkwa efu (2016, tupu mmalite) | Nkọwapụta (hash e gbubiri agbajiela ihe onwunwe njikọ) | Apụghị ịchọpụta |
+| Nkwụsị ịdị mma nke ntọala a tụkwasịrị obi (2018) | Nkọwapụta (mmejọ dị na akwụkwọ zk-SNARK dị n'okpuru) | Apụghị ịchọpụta |
+| Nsogbu ajụjụ sistemụ na-egosi (2025) | Nkọwapụta (nlele na-efu na sistemụ nnwale) | A pụrụ ịchọpụta |
+| Nsogbu nkwenye nke otu obere-uwe (2016) | Mmejuputa (nlele obere otu na-efu) | A pụrụ ịchọpụta |
+| **Orchard anaghị achịkwa (2026)** | **Nkọwapụta (sekit ahụ)** | **Achọpụtaghị** |
 
 The through-line is stark: the flaws that could hide forever are the ones in the math. That is precisely the class a machine-checked proof of the specification can eliminate, all cases at once. Testing and auditing sample; only proving the math covers every input.
 
@@ -157,17 +157,17 @@ We simplified deliberately. The real circuit involves hundreds of regions and ma
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-**Shielded pool** Ụdị nzuzo nke Zcash ebe ego na ndị ọzọ zoro ezo.
-** Zero-knowledge proof** Ihe akaebe na nkwupụta zoro ezo bụ ihe ziri ezi, ekpugheghị ihe ọ bụla ọzọ.
-** Circuit**. The ofu set nke mgbakọ na mwepụ ọnọdụ a nti azụmahịa ga-eju afọ.
-**Constraint** Otu ọnọdụ (equation) n'ime sekit ahụ.
-Ihe nzuzo ndị na-emeju ihe mgbochi.
-**Soundness**: Nkwenye na ọ bụ naanị ezi okwu nwere ike imepụta ezigbo ihe akaebe.
- ** Soundness gap** A na-efu ihe mgbochi nke na - eme ka nkwupụta ụgha gafere.
-** Under-constrained** A circuit efu a ọnọdụ ọ chọrọ, mgbọrọgwụ nke Orchard ahụhụ.
-** A na-achọpụta / enweghị ike ịchọpụta**. Ma ọ bụrụ na ojiji ga-ahapụ ihe akaebe n'akwụkwọ ndekọ ọha mmadụ.
+| **Shielded pool** | Ụdị Zcash nkeonwe ebe a na-ezobe ego na oriri |
+| **Zero-knowledge proof** | Ihe akaebe na nkwupụta zoro ezo dị irè, na-ekpughe ihe ọ bụla ọzọ |
+| **Circuit** | Ntọala ọnọdụ mgbakọ na mwepụ edobere nke azụmahịa ziri ezi ga-emezurịrị |
+| **Constraint** | Otu ọnọdụ (nha nhata) n'ime sekit ahụ |
+| **Witness** | Ụkpụrụ nzuzo ndị na-emezu ihe mgbochi ndị ahụ |
+| **Soundness** | Nkwa na naanị eziokwu nwere ike imepụta ihe akaebe ziri ezi |
+| **Soundness gap** | Mmachi na-efu efu nke na-ekwe ka okwu ụgha gafere |
+| **Under-constrained** | Sekit na-efu ọnọdụ ọ chọrọ, mgbọrọgwụ nke ahụhụ Orchard |
+| **Detectable / undetectable** | Ma mmegbu ọ ga-ahapụ ihe akaebe ledger ọha |
 
 ---
 

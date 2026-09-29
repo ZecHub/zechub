@@ -428,9 +428,9 @@ sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
 | 项目 | 发布位置 | 方法 | 密钥来源 |
 |---|---|---|---|
 | **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | 无需密钥，通过 GitHub OIDC 的 CI 身份 |
-| **Zallet** | `github.com/zcash/zallet/releases` | 分离式 GPG `.asc`、SLSA provenance、SBOM | `apt.z.cash/zodl.asc` — 主密钥 `0338 34DD…58E2 6AB1`，签名 subkey `1FE9 9324…23F0 617F` |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — 主密钥 `0338 34DD…58E2 6AB1`，签名 subkey `1FE9 9324…23F0 617F` |
 | **zcashd** | *已退役* | — | 已于 2026-07-18 在区块 3,417,100 停止。不要安装。 |
-| **Zodl**（原名 Zashi） | App Store / Google Play；GitHub 上的 `zodl-inc` | 商店签名；独立 Android 二进制文件采用 GPG 签名 | 根据迁移声明使用 ZODL 密钥 |
+| **Zodl**（原名 Zashi） | App Store / Google Play；GitHub 上的 `zodl-inc` | Store signing; standalone Android binaries GPG-signed | 根据迁移声明使用 ZODL 密钥 |
 
 > **命名说明：** Zashi 在 2026 年更名为 **Zodl**，先发生在 App Store，之后是 Google Play。较旧指南中提到的 “Zashi” 指的是同一条钱包产品线。
 

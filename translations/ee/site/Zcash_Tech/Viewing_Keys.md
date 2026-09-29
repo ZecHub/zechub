@@ -22,9 +22,9 @@ Safui ƒomevi siwo wu ɖeka koe li, eye vovototoae tsoa nya me le agbɔsɔsɔ si
 
 | Safui | Gbãtɔ ƒe ŋgɔdonya | Gakpekpeɖeŋunana |
 |---|---|---|
-| Nukpɔkpɔ blibo ƒe safui si wowɔ ɖekae (UFVK) | `uview…` | Ekpɔa **kple** asitsatsa siwo va yina na ta ɖesiaɖe si le akɔnta |
-| Nukpɔkpɔ ƒe safui ɖeka si va (UIVK) | `uivk…` | Ekpɔa asitsatsa siwo va ɖeɖeko, na ta ɖesiaɖe si le akɔnta |
-| Sapling keke blibo kpɔkpɔ safui | `zxviews…` | Ekpɔa Sapling ƒe dɔwɔna si va kple esi dona na safuia ƒe adrɛswo |
+| Unified full viewing key (UFVK) | `uview…` | Ekpɔa **kple** asitsatsa siwo va yina na ta ɖesiaɖe si le akɔnta |
+| Unified incoming viewing key (UIVK) | `uivk…` | Ekpɔa asitsatsa siwo va ɖeɖeko, na ta ɖesiaɖe si le akɔnta |
+| Sapling extended full viewing key | `zxviews…` | Ekpɔa Sapling ƒe dɔwɔna si va kple esi dona na safuia ƒe adrɛswo |
 
 Amesiawo dometɔ aɖeke mate ŋu azã ga o. Wo katã wonɔa anyi ɖaa le mɔ si le vevie nu: womate ŋu aɖo ŋku safui aɖe si nèna dzi o, ɖeko wòanɔ agbe didi wu, to ga tsɔtsɔ yi akɔnta si ƒe safuiwo mele akpa kemɛa si o me.
 
@@ -36,7 +36,7 @@ Edze be nànya mɔ̃ eve siwo dzi nàto aɖe nyatakakawo afia hafi nàma nane.
 
 ## Safuiwo kpɔkpɔ le Ironwood megbe
 
-NU6.3 to Ironwood ta si wotsɔ akpoxɔnu wɔe vɛ eye wòna Orchard ta la nye gazazã ɖeɖeko, eyata ga ʋuna tso ɖeka me yia bubu me le ɣeyiɣi aɖe megbe. Kpɔ [Ironwood ƒe ati](/zcash-tech/ironwood) kple [Trɔtrɔmɔ̃a](/zcash-tech/the-turnstile) na ŋgɔyiyia ŋutɔ.
+NU6.3 to Ironwood ta si wotsɔ akpoxɔnu wɔe vɛ eye wòna Orchard ta la nye gazazã ɖeɖeko, eyata ga ʋuna tso ɖeka me yia bubu me le ɣeyiɣi aɖe megbe. Kpɔ [Ironwood](/zcash-tech/ironwood) kple [Trɔtrɔmɔ̃a](/zcash-tech/the-turnstile) na ŋgɔyiyia ŋutɔ.
 
 **Nukpɔkpɔ ƒe safui si woɖe ɖe go hafi Ironwood yi edzi le dɔ wɔm le ʋuʋua megbe.** ZIP 326 gblɔ be wotsɔ xɔla, kple eƒe nukpɔkpɔ ƒe safui si gbɔna si sɔ kplii, ƒe kekeme ɖo ɖe Orchard *protocol* tsɔ wu be woatsɔe ayi ta aɖe gbɔ: nukpɔkpɔ safui ɖeka ma ke si vaa dodokpɔ-ɖea Orchard-pool kple Ironwood-pool note ciphertexts siaa me. Zallet wɔa eŋudɔ nenema, eye wòɖɔa Ironwood nuŋlɔɖiwo be wole abe Orchard ene eye wodoe kpɔ be woɖe wo gɔme kple akɔnta la ƒe Orchard kpɔkpɔ ƒe safuiwo le Ironwood nuŋlɔɖiwo ƒe nya ɣaɣlawo ƒe domenyinyi te.
 

@@ -1,20 +1,20 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/DEX.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Dezentrale Börsen
 
-ZecHub empfiehlt keinen bestimmten Dienst für dezentrale Börsen; bitte recherchieren Sie selbst.
+ZecHub unterstützt keinen bestimmten dezentralen Börsendienst. Bitte recherchiere selbst.
 
 Jede `###`-Überschrift unten ist eine Karte auf https://zechub.wiki/dex.
-Fügen Sie hier einen Block hinzu, bearbeiten oder entfernen Sie ihn; das Wiki übernimmt ihn aus dieser Datei.
+Füge hier einen Block hinzu, bearbeite oder entferne ihn; das Wiki übernimmt ihn aus dieser Datei.
 
 ### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
-- Website: https://app.near-intents.org/
-- Beschreibung: Schneller Austausch mit Unterstützung von NEAR. Tätigen Sie Einzahlungen, verkaufen und tauschen Sie, einschließlich der beliebten Memes TRUMP, MELANIA, BERA und anderer.
+- Website: https://near.com/
+- Beschreibung: Schnelle Börse mit Unterstützung von NEAR. Tätige Einzahlungen, verkaufe und tausche, einschließlich beliebter TRUMP-, MELANIA-, BERA- und anderer Memes.
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Website: https://nativeswap.io/
-- Beschreibung: Grenzenloser nativer Cross-Chain-Handel über Maya Protocol. Handeln Sie direkt on-chain ohne Bridges oder Wrapped Tokens – profitieren Sie von branchenweit niedrigen Gebühren und vollständiger Kontrolle über Ihre Assets.
+- Beschreibung: Nativer Cross-Chain-Handel ohne Einschränkungen über Maya Protocol. Handle direkt on-chain ohne Bridges oder Wrapped Tokens – profitiere von branchenweit niedrigen Gebühren und vollständiger Kontrolle über deine Vermögenswerte.
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Website: https://leodex.io
-- Beschreibung: Crosschain-Swaps zu und von ZEC, geleitet über THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay und Rango. Auf unterstützten Routen sind weder Konto, KYC noch eine Wallet-Verbindung erforderlich.
+- Beschreibung: Crosschain-Swaps in und aus ZEC, geleitet über THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay und Rango. Auf unterstützten Routen sind weder Konto noch KYC oder Wallet-Verbindung erforderlich.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
 - Website: https://dex.decred.org/
-- Beschreibung: Handeln Sie Krypto peer-to-peer. Keine Handelsgebühren. Kein KYC.
+- Beschreibung: Handle Kryptowährungen Peer-to-Peer. Keine Handelsgebühren. Kein KYC.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
 - Website: https://app.thorswap.finance/
-- Beschreibung: Cross-Chain-DEX, betrieben von THORChain, die native Swaps zwischen Bitcoin, Ethereum und anderen wichtigen Assets ohne Wrapped Tokens ermöglicht.
+- Beschreibung: Cross-Chain-DEX, betrieben von THORChain, die native Swaps zwischen Bitcoin, Ethereum und anderen wichtigen Vermögenswerten ohne Wrapped Tokens ermöglicht.
 
 ___
 
@@ -68,7 +68,7 @@ ___
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
 - Website: https://app.routerprotocol.com/
-- Beschreibung: Cross-Chain-Liquiditätstransportschicht, die den nahtlosen Transfer von Assets und Daten zwischen mehreren Blockchains ermöglicht.
+- Beschreibung: Cross-Chain-Liquiditätstransportschicht, die einen nahtlosen Transfer von Vermögenswerten und Daten zwischen mehreren Blockchains ermöglicht.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
 - Website: https://rocketx.exchange/
-- Beschreibung: Hybrider DEX-Aggregator, der Cross-Chain-Swaps über mehrere Blockchains mit optimaler Weiterleitung und wettbewerbsfähigen Kursen ermöglicht.
+- Beschreibung: Hybrider DEX-Aggregator, der Cross-Chain-Swaps über mehrere Blockchains hinweg mit optimalem Routing und wettbewerbsfähigen Kursen ermöglicht.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Website: https://swap.thorchain.org/
-- Beschreibung: Dezentrale Layer-1-Cross-Chain-Börse. Tauschen Sie native Assets wie ZEC, BTC und ETH direkt ohne Bridges, Wrapped Tokens oder Vermittler.
+- Beschreibung: Dezentrale Layer-1-Cross-Chain-Börse. Tausche native Vermögenswerte wie ZEC, BTC und ETH direkt ohne Bridges, Wrapped Tokens oder Vermittler.
 
 ___
 
@@ -104,4 +104,17 @@ ___
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 
 - Website: https://loofta.xyz/
-- Beschreibung: Nicht-verwahrende Plattform für private Zahlungen und Swaps. Senden und empfangen Sie Krypto privat über verschiedene Chains hinweg, mit Zcash als Abwicklungsschicht für verbesserte finanzielle Privatsphäre.
+- Beschreibung: Nicht-verwahrende private Zahlungs- und Swap-Plattform. Sende und empfange Kryptowährungen privat über verschiedene Chains hinweg, wobei Zcash als Abwicklungsschicht für verbesserte finanzielle Privatsphäre dient.
+
+
+___
+
+
+### ZcashToCash
+
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+
+
+
+- Website: https://zcashto.cash/
+- Beschreibung: Nicht-verwahrender ZEC-zu-Fiat-Auszahlungsservice über Peer. Sende abgeschirmte ZEC und erhalte Auszahlungen in alltäglichen Zahlungs-Apps wie Venmo, Cash App, Revolut, Zelle, Chime und Monzo in mehr als 100 Regionen. Kein CEX-Konto erforderlich; die Treuhand wird nach Nachweis der Fiat-Zahlung abgeschlossen.

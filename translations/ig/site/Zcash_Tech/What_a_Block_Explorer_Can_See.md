@@ -26,7 +26,7 @@ Ebe ọ bụ na e nwere ụdị abụọ, uru nwere ike ịkwaga n'ụzọ anọ
 
 ## Ihe onye na-eme nchọpụta nwere ike ịhụ
 
-Onye na-eme nchọpụta ọha na eze dịka [Oche ngọngọ](https://blockchair.com/zcash) nwere ike ịgụ nke ọma:
+Onye na-eme nchọpụta ọha na eze dịka [Blockchair](https://blockchair.com/zcash) nwere ike ịgụ nke ọma:
 
 - Ụgwọ ọ bụla doro anya (t ruo t), site na njedebe ruo na njedebe.
 - Ego na-abanye n'ọdọ mmiri ahụ a na-echebe (akụkụ doro anya na ego ahụ).

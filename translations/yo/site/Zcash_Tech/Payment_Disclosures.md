@@ -43,11 +43,11 @@ Apẹẹrẹ Sapling ti ZIP naa lo bọtini sifisi ti njade lati gba gbogbo abaj
 
 | Ọ̀nà | Lilo ti o dara julọ | Kini o ṣafihan | Iwọle ti nlọ lọwọ? | Ti a so mọ isanwo naa pẹlu cryptographic? |
 | --- | --- | --- | --- | --- |
-| ID Iṣowo | Ṣiṣayẹwo pe a ti wakọ iṣowo kan | Awọn data iṣowo gbogbogbo ati awọn ijẹrisi | Bẹẹkọ | Bẹẹni, ṣugbọn awọn alaye isanwo ti a daabobo wa ni pamọ |
-| Àwòrán ìfàmọ́ra tàbí ìwé ẹ̀rí ìsanwó | Ìtọ́jú àkọsílẹ̀ àìṣedéédé | Ohunkóhun tí olùránṣẹ́ bá yàn láti fi hàn | Rárá | Rárá; a lè ṣàtúnṣe àwòrán náà |
-| Ìfihàn ìsanwó | Ṣíṣe àfihàn àwọn kúlẹ̀kúlẹ̀ tí a yàn nípa ìsanwó kan | Àwọn àbájáde ìṣòwò tí a yàn àti èyíkéyìí olùránṣẹ́ tàbí ẹ̀rí ìpèníjà tí ó wà nínú rẹ̀ | Rárá, ṣùgbọ́n a lè da ẹ̀rí tí a pín kọ | Bẹ́ẹ̀ni |
-| Incoming Viewing Key | Monitoring payments received by an account | Incoming activity covered by the key | Yes | It decrypts matching incoming payments |
-| Full Viewing Key | Accounting or auditing an account | Incoming and outgoing activity, amounts, memos, and balances covered by the key | Yes | It decrypts matching account activity |
+| Transaction ID | Ṣiṣayẹwo pe a ti wakọ iṣowo kan | Awọn data iṣowo gbogbogbo ati awọn ijẹrisi | Bẹẹkọ | Bẹẹni, ṣugbọn awọn alaye isanwo ti a daabobo wa ni pamọ |
+| Screenshot or receipt | Ìtọ́jú àkọsílẹ̀ àìṣedéédé | Ohunkóhun tí olùránṣẹ́ bá yàn láti fi hàn | Rárá | Rárá; a lè ṣàtúnṣe àwòrán náà |
+| Payment disclosure | Ṣíṣe àfihàn àwọn kúlẹ̀kúlẹ̀ tí a yàn nípa ìsanwó kan | Àwọn àbájáde ìṣòwò tí a yàn àti èyíkéyìí olùránṣẹ́ tàbí ẹ̀rí ìpèníjà tí ó wà nínú rẹ̀ | Rárá, ṣùgbọ́n a lè da ẹ̀rí tí a pín kọ | Bẹ́ẹ̀ni |
+| Incoming Viewing Key | Abojuto awọn sisanwo ti a gba nipasẹ akọọlẹ kan | Iṣẹ́ tí ń wọlé tí kọ́kọ́rọ́ náà bo | Bẹ́ẹ̀ni | Ó ń ṣe àtúnṣe àwọn ìsanwó tí ó báramu |
+| Full Viewing Key | Iṣiro tabi iṣatunwo akọọlẹ kan | Iṣẹ́ tí ń wọlé àti èyí tí ń jáde, iye owó, àkọsílẹ̀, àti ìwọ̀n tí kọ́kọ́rọ́ náà bo | Bẹ́ẹ̀ni | Ó ń dín ìṣiṣẹ́ àkọọ́lẹ̀ tí ó báramu kù |
 
 Lo ìṣípayá tó kéré jùlọ tó dáhùn ìbéèrè náà. Àríyànjiyàn oníṣòwò nípa ìsanwó kan kìí sábà jẹ́ kí ó ṣeé ṣe láti wọlé sí gbogbo ìsanwó nínú àkọọ́lẹ̀ kan. Akọ́ọ́lù tí ó gbọ́dọ̀ ṣe àtúnyẹ̀wò àkókò ìròyìn kíkún lè nílò kọ́kọ́rọ́ wíwo dípò.
 
@@ -62,7 +62,7 @@ A kò rí àpò owó lọ́wọ́lọ́wọ́ kankan níbí tí a ti dámọ̀ p
 | Àpù | Wúlò lónìí fún | Ààlà pàtàkì |
 | --- | --- | --- |
 | [Zkool](https://github.com/hhanh00/zkool2) | Wiwo alaye metadata iṣowo, iye owo, awọn titẹ sii ati awọn abajade akojọpọ, ati awọn akọsilẹ; gbigbe awọn bọtini wiwo Unified tabi Sapling sinu awọn akọọlẹ wiwo nikan | Ko ṣe ipolowo ṣiṣẹda tabi ijẹrisi ifihan ZIP 311 |
-| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Reviewing shielded transaction history and memos; importing a Unified Full Viewing Key in read-only mode | A wallet record or read-only account is not a selectively scoped payment disclosure |
+| [Zingo PC](https://github.com/zingolabs/zingo-pc) | Ṣíṣe àtúnyẹ̀wò ìtàn ìṣòwò àti àwọn àkọsílẹ̀ tí a dáàbò bò; gbígbé Full Viewing Key Pípé kan wọlé ní ipò kíkà-nìkan | Àkọsílẹ̀ àpò owó tàbí àkọọ́lẹ̀ kíkà-nìkan kìí ṣe ìfihàn ìsanwó tí a yan ní pàtó |
 | [Zallet](https://zcash.github.io/zallet/) | Awọn iṣiṣẹ iṣẹ oniṣẹ nipa lilo `z_viewtransaction`, `z_exportviewingkey`, àti `z_importviewingkey` | Sọ́fítíwètì Beta; àwọn RPC tí ó ń wo àti ìṣòwò rẹ̀ jẹ́ àkọsílẹ̀ gbígbòòrò tàbí ti agbègbè, kìí ṣe àwọn ẹ̀rí ZIP 311 |
 
 Lo àpò owó tí ó fi ránṣẹ́ tàbí tí ó gba owó náà ní àkọ́kọ́. Ṣàyẹ̀wò àwọn kúlẹ̀kúlẹ̀ ìṣòwò rẹ̀, àkọsílẹ̀, ìdánimọ̀ ìṣòwò, àti àwọn ìjẹ́rìí, lẹ́yìn náà béèrè lọ́wọ́ ẹgbẹ́ kejì láti fi àwọn kúlẹ̀kúlẹ̀ wọ̀nyẹn wé àwọn àkọsílẹ̀ tirẹ̀. Má ṣe fi àpò owó tuntun sínú rẹ̀ kí o sì fi gbólóhùn ìrúwé kún un láti fi ẹ̀rí hàn nìkan. Tí olùṣàyẹ̀wò bá nílò ìrísí tí ń bá a lọ, ronú nípa àkọọ́lẹ̀ ìwòran nìkan tí ó báramu kí o sì lóye ìwọ̀n kọ́kọ́rọ́ ìwòran náà kí o tó pín in.

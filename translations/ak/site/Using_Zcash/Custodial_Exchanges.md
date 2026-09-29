@@ -14,7 +14,7 @@ Ironwood yɛ shielded pool a ɛbaa hɔ ne July 2026 network upgrade no. Exchange
     <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Akyi bag](https://backpack.exchange)
+- Wɛbsaet: [Backpack](https://backpack.exchange)
 - Nnipa baanu: ZEC/USDC | ZEC-PERP na ɔkyerɛwee
 - Mmoa: Wɔama sika a wɔde sie ne nea woyi fi mu no ayɛ adwuma. Address ahorow a wɔankyerɛ
 - Bere a Wɔde Sika Siesie: Wɔankyerɛ
@@ -27,7 +27,7 @@ ___
     <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Binance a wɔde yɛ nneɛma](https://binance.com)
+- Wɛbsaet: [Binance](https://binance.com)
 - Nnipa baanu: ALL/ZEC
 - Mmoa: Ɛyɛ nea ɛda adi pefee (TEX Address Deposit) .
 - Bere a Wɔde Sie: Simma 20
@@ -53,7 +53,7 @@ ___
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Bitfinex a ɛwɔ hɔ](https://bitfinex.com)
+- Wɛbsaet: [Bitfinex](https://bitfinex.com)
 - Nnipa baanu: ALL/ZEC
 - Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
 - Bere a Wɔde Sie: Simma 25 
@@ -66,7 +66,7 @@ ___
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Coinbase a wɔde yɛ adwuma](https://coinbase.com)
+- Wɛbsaet: [Coinbase](https://coinbase.com)
 - Nnipa baanu: ALL/ZEC
 - Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
 - Bere a Wɔde Sie: Simma 150
@@ -79,7 +79,7 @@ ___
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Gemini a ɛyɛ fɛ](https://gemini.com)
+- Wɛbsaet: [Gemini](https://gemini.com)
 - Nnipa baanu: ALL/ZEC
 - Nneɛma a wɔboa: Transparent | Shielded ne nkabom a wɔayi afi mu, Orchard fi November 2025
 - Bere a Wɔde Siesie Nneɛma: Simma 50 
@@ -92,7 +92,7 @@ ___
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Huobi na ɔkyerɛwee](https://huobi.com)
+- Wɛbsaet: [Huobi](https://huobi.com)
 - Nnipa baanu: ALL/ZEC
 - Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
 - Bere a Wɔde Sie: Simma 35 
@@ -105,7 +105,7 @@ ___
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Kraken na ɔkyerɛwee](https://kraken.com)
+- Wɛbsaet: [Kraken](https://kraken.com)
 - Nnipa baanu: ALL/ZEC
 - Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
 - Bere a Wɔde Sie: Simma 60
@@ -118,7 +118,7 @@ ___
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [KuCoin na ɛwɔ hɔ](https://kucoin.com)
+- Wɛbsaet: [KuCoin](https://kucoin.com)
 - Nnipa baanu: ALL/ZEC
 - Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
 - Bere a Wɔde Siesie Nneɛma: Simma 20 
@@ -144,7 +144,7 @@ ___
     <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Robinhood a wɔyɛ](https://robinhood.com)
+- Wɛbsaet: [Robinhood](https://robinhood.com)
 - Nnua abien: USD/ZEC | EUR/ZEC na ɛwɔ hɔ
 - Mmoa: Wɔtwe sika kɔ t-address a ɛda adi nkutoo so. Wɔnboa ZEC sika a wɔde asie no
 - Bere a Wɔde Sie: Wɔnnye sika a wɔde sie no ntom

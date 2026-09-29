@@ -24,7 +24,7 @@ Gɔmeɖoanyi ƒe axaae nye nyateƒetsoƒe na ŋkɔ ŋɔŋlɔ ƒe kadodowo, ɣlet
 
 - Ðoɖowɔɖi blibowo kple aɖabaƒoƒowo: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
 - Nusiwo wolé ɖe mɔ̃ dzi nyitsɔ laa: [Zcash Arborist Call ƒe haƒoƒo ƒe xexlẽdzesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash Numekuku Kple Dɔwɔnawo Ŋuti Numedzodzro: [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.gg/xpzPR53xtU)
+- Zcash Numekuku Kple Dɔwɔnawo Ŋuti Numedzodzro: [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.gg/xpzPR53xtU)
 - Numedzodzro didi: [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/)
 
 ## Ame Siwo Wòle Be Woade

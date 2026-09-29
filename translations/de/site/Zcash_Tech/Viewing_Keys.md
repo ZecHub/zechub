@@ -22,9 +22,9 @@ Es gibt mehr als eine Art von Key, und der Unterschied bestimmt, wie viel du pre
 
 | Key | Präfix | Gewährt |
 |---|---|---|
-| Unified Full Viewing Key (UFVK) | `uview…` | Sieht eingehende **und** ausgehende Transaktionen für jeden Pool im Konto |
-| Unified Incoming Viewing Key (UIVK) | `uivk…` | Sieht nur eingehende Transaktionen für jeden Pool im Konto |
-| Sapling Extended Full Viewing Key | `zxviews…` | Sieht eingehende und ausgehende Sapling-Aktivitäten für die Adressen des Keys |
+| Unified full viewing key (UFVK) | `uview…` | Sieht eingehende **und** ausgehende Transaktionen für jeden Pool im Konto |
+| Unified incoming viewing key (UIVK) | `uivk…` | Sieht nur eingehende Transaktionen für jeden Pool im Konto |
+| Sapling extended full viewing key | `zxviews…` | Sieht eingehende und ausgehende Sapling-Aktivitäten für die Adressen des Keys |
 
 Keiner davon kann Mittel ausgeben. Alle sind in der entscheidenden Hinsicht dauerhaft: Einen weitergegebenen Key kannst du nicht zurückrufen, sondern nur dadurch überdauern, dass du Mittel auf ein Konto verschiebst, dessen Keys die andere Partei nicht besitzt.
 
