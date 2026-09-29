@@ -55,14 +55,14 @@ NU6 bụ otu isiakwụkwọ n'akụkọ toro ogologo banyere etu Zcash si akwụ
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
- Nkwado ego nke mgbochi ZEC ọhụrụ e kere eke na ngọngọ ọ bụla a gwuru.
- Mgbasa ozi Coinbase. Ihe pụrụ iche nke na-akwụ ụgwọ ego a ga-eji kwụọ ụtụ isi maka otu ngọngọ nakwa ụgwọ ndị ọzọ ọ ga-akwụ.
-◯ Deferred Dev Fund Lockbox. Ihe nchekwa dị na protocol nke nwere oke nkesa maka ọdịnihu obodo kpebiri iji ya mee ihe.
-Zcash Community Grants (ZCG) Kọmitii na-enye ego ọrụ site n'aka ndị obodo Zcash.
-◯ ID ngalaba nkwekọrịta ❖ Nọmba njirimara na-eji agwa nke iwu mmelite a ga-agbaso.
-◯ Nwelite netwọk (NU) ▸ Mgbanwe a haziri ahazi na iwu nkwekọrịta Zcash, nke arụ ọrụ n'ogo ngọngọ setịpụrụ.
+| Block subsidy | ZEC ọhụrụ e mepụtara site na ngọngọ ọ bụla e gwupụtara n'ala |
+| Coinbase transaction | Azụmahịa pụrụ iche nke na-akwụ ụgwọ enyemaka na ụgwọ nke otu ngọngọ |
+| Deferred Dev Fund Lockbox | Nchekwa dị n'ime usoro nke nwere òkè nke mwepụta maka ojiji obodo kpebiri n'ọdịnihu |
+| Zcash Community Grants (ZCG) | Kọmitii nke na-akwado ọrụ nke obodo Zcash na-arụ na maka obodo Zcash |
+| Consensus branch id | Ihe njirimara na-eji akọwa iwu mmelite nke ngọngọ na-eso |
+| Network upgrade (NU) | Mgbanwe nhazi na iwu nkwekọrịta Zcash's, nke a na-arụ ọrụ na elu blọk edobere |
 
 ## Ajụjụ ndị a na-ajụkarị
 

@@ -37,10 +37,6 @@ Zcash とプライバシーのエコシステム向けに、ポスター／グ�
 
 [ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues)
 
-[ZecHub-Namada Github Issues](https://app.dework.xyz/zechub-2424)
-
-
-
 ほかにも貢献したい方法があれば、Twitter で ZecHub ([@ZecHub](https://twitter.com/zechub)) にメッセージを送るか、[Discord](https://discord.gg/zcash) に参加してください。
 
 ____

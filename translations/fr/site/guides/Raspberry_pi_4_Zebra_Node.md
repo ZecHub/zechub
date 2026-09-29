@@ -71,7 +71,7 @@ Exécuter le logiciel de nœud Zebra sur un Raspberry Pi 4 vous permet de partic
 
 ## Dépannage
 
-Si vous rencontrez des problèmes lors de la compilation ou de l'exécution de Zebra, consultez la [documentation Zebra](https://doc.zebra.zfnd.org/docs/intro.html) pour des conseils de dépannage et des informations supplémentaires.
+Si vous rencontrez des problèmes lors de la compilation ou de l'exécution de Zebra, consultez la [documentation Zebra](https://zebra.zfnd.org/user/troubleshooting.html) pour des conseils de dépannage et des informations supplémentaires.
 
 Assurez-vous de garder votre Raspberry Pi au frais, car l'exécution d'un nœud peut générer de la chaleur. Vous pourriez vouloir utiliser une solution de refroidissement, comme un ventilateur ou un dissipateur thermique.
 

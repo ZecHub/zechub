@@ -14,7 +14,7 @@ Zcash Shielded Assets (ZSA) ni upanuzi wa itifaki uliopendekezwa ambao unaruhusu
 
 - ** Ni nini:** ERC-20-style mali desturi, lakini kulindwa kwa default.
 - ** Nani anajenga:** [QEDIT](https://qed-it.com/), chini ya ruzuku kutoka Zcash Foundation, kwa kushirikiana na Electric Coin Company.
-- ** Jinsi ilivyoainishwa:** [ZIP 226](https://zips.z.cash/zip-0226) (kuhamisha na kuchoma) pamoja na [ZIP 227](https://zips.z.cash/zip-0227) (kutolewa).
+- ** Jinsi ilivyoainishwa:** [ZIP 226 (Kifungo cha posta)](https://zips.z.cash/zip-0226) (kuhamisha na kuchoma) pamoja na [ZIP 227 (Kifungo cha posta)](https://zips.z.cash/zip-0227) (kutolewa).
 - ** Hali:** si kuishi juu ya mainnet. itifaki ZSA imepangwa kwa ajili ya kupelekwa katika Mtandao Upgrade 7 (NU7).
 - ** Ada:** daima kulipwa katika ZEC, bila kujali mali ni wakiongozwa.
 
@@ -24,15 +24,15 @@ Zcash Shielded Assets (ZSA) ni upanuzi wa itifaki uliopendekezwa ambao unaruhusu
 
 Zcash Shielded Assets (ZSA) ni mapendekezo ya kuboresha itifaki za Zcash ambazo zingewezesha uundaji, uhamishaji na kuchoma mali maalum kwenye mlolongo wa Zcash.
 
-Kama unafahamu [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) ishara ya kiwango juu Ethereum blockchain, ZSAs ni kwa Zcash kama ERC-20 ishara ni kwa Ethereum.
+Ikiwa unafahamu kuhusu dawa za kulevya, unaweza kutumia: [ERC-20 - Kiwango cha juu zaidi.](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) ishara ya kiwango juu Ethereum blockchain, ZSAs ni kwa Zcash kama ERC-20 ishara ni kwa Ethereum.
 
-Zcash Shielded Assets itawezesha uundaji wa ishara maalum kwenye blockchain ya Zcash, na hivyo kuruhusu alama zingine isipokuwa [ZEC](/guides/using-zec-privately) kufaidika na kutokujulikana na faragha ya shughuli za ulinzi kwenye blockchain Zcash.
+Zcash Shielded Mali itawezesha uundaji wa ishara desturi juu ya blockchain Zcash, hivyo kuruhusu tokens nyingine zaidi kuliko [ZEC](/guides/using-zec-privately) kufaidika na kutokujulikana na faragha ya shughuli za ulinzi kwenye blockchain Zcash.
 
-A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC](https://www.circle.com/en/usdc) na [Dai](https://docs.makerdao.com/).
+A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC](https://www.circle.com/en/usdc) na [Dai (mwanamke)](https://docs.makerdao.com/).
 
 Another potential use of ZSAs would be for the issuing of governance tokens. For example, Zechub (the publisher of this wiki) is a Decentralized Autonomous Organization (DAO) and could create and issue to its members a ZSA for voting on proposals and governance decisions.
 
-ZSAs ni kuwa maendeleo na [QEDIT](https://qed-it.com/), chini ya ruzuku kubwa kutoka [Zcash Foundation](/zcash-organizations/zcash-foundation) kwa kushirikiana na [Electric Coin Company](/zcash-organizations/electric-coin-company)Kama mradi huu bado ni kuwa kikamilifu maendeleo, updates posted juu ya [ thread hii ](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) of the Zcash forum. The [ZSA grant application](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) na QEDIT inapatikana kutoka kwa Zcash Foundation misaada tovuti.
+ZSAs ni kuwa maendeleo na [QEDIT](https://qed-it.com/), chini ya ruzuku kubwa kutoka kwa [Zcash Foundation](/zcash-organizations/zcash-foundation) katika ushirikiano na [Electric Coin Company](/zcash-organizations/electric-coin-company)Kama mradi huu bado ni kuwa kikamilifu maendeleo, updates posted juu ya [uzi huu](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) ya Zcash jukwaa. The [ZSA ruzuku maombi](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) na QEDIT inapatikana kutoka kwa Zcash Foundation misaada tovuti.
 
 ---
 
@@ -50,14 +50,14 @@ Kuna jambo moja ambalo ni muhimu kukumbuka: ** malipo ya posta hulipwa kwa ZEC**
 
 ### Kile ambacho mtazamaji wa nje anaweza kuona
 
-Mtazamaji anaweza kuona ERC-20 kwenye Ethereum, ZSA katika Zcash.
+| Mtazamaji anaweza kuona... | ERC-20 kwenye Ethereum | ZSA kwenye Zcash |
 | --- | --- | --- |
-Ni nani aliyeituma? - Umma Ulinzi.
-Nani alipokea? Umma ulinzi.
-Kiasi gani kilihamishwa? Umma. Kililindwa?
-Usawa wa mtu binafsi. Umma. Ulinzi.
-│ Jumla ya usambazaji wa mali Public. │ **Public  makusudi**
-Fedha ada ni kulipwa katika ETH ZEC.
+| Nani aliituma | Umma | Imehifadhiwa |
+| Nani aliipokea | Umma | Imehifadhiwa |
+| Kiasi gani kilihamishwa | Umma | Imehifadhiwa |
+| Mizani ya mtu binafsi | Umma | Imehifadhiwa |
+| Jumla ya usambazaji wa mali | Umma | **Hadharani — kwa makusudi** |
+| Sarafu ambayo ada hulipwa | ETH | ZEC |
 
 ### Kwa nini safu ya usambazaji si mdudu
 
@@ -81,28 +81,28 @@ Every asset gets a unique **Asset Identifier**, derived from the issuer's issuan
 
 ** Run demo kwa ajili yako mwenyewe!**
 
-Clone kuhifadhi zcash-tx-tool: <https://github.com/QED-it/zcash_tx_tool>
+Clone kuhifadhi zcash-tx-tool: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Mapendekezo ya Uboreshaji wa Zcash (ZIPs)
 
-- [ZIP 226](https://zips.z.cash/zip-0226): Uhamisho na Kuungua kwa Zcash Shielded Mali
-- [ZIP 227](https://zips.z.cash/zip-0227): Utoaji wa Zcash Shielded Mali
-- [ZIP 230](https://zips.z.cash/zip-0230): Toleo 6 Transaction Format
+- [ZIP 226 (Kifungo cha posta)](https://zips.z.cash/zip-0226): Uhamisho na Kuungua kwa Zcash Shielded Mali
+- [ZIP 227 (Kifungo cha posta)](https://zips.z.cash/zip-0227): Utoaji wa Zcash Shielded Mali
+- [ZIP 230 - Ujumbe wa posta.](https://zips.z.cash/zip-0230): Toleo 6 Transaction Format
 
-> ** Kumbuka juu ya ZIP 230:** ZIP 230, tangu wakati huo imekuwa kuondolewa na si kupelekwa. toleo la shughuli 6 sasa ni inajulikana kwa [ZIP 229](https://zips.z.cash/zip-0229). Ona taarifa juu ya [ZIP 230](https://zips.z.cash/zip-0230) ukurasa.
+> ** Kumbuka juu ya ZIP 230:** ZIP 230, tangu wakati huo imekuwa kuondolewa na si kupelekwa. toleo la shughuli 6 sasa ni inajulikana kwa njia ya [ZIP 229 (Kifungo cha posta)](https://zips.z.cash/zip-0229). Angalia taarifa juu ya [ZIP 230 - Ujumbe wa posta.](https://zips.z.cash/zip-0230) ukurasa.
 
 ZIP 226 defines the OrchardZSA protocol — an extension of the Orchard protocol that carries the transfer and burn of custom assets. ZIP 227 defines how those assets are created in the first place, and must only be implemented alongside ZIP 226.
 
 ### ZSA Grant Pendekezo
 
-pendekezo ZSA kwa ajili ya kulindwa Mali (ZSA / UDA) iliwasilishwa na [QEDIT](https://qed-it.com/) Timu ya kujenga mali generic ulinzi juu Zcash blockchain. Hizi ni kawaida inajulikana kama User Defined Mali (UDA) au kama Zcash Shielded Mali, (ZSA).
+ZSA pendekezo kwa ajili ya kulindwa Mali (ZSA / UDA) iliwasilishwa na Msaidizi wa Serikali. [QEDIT](https://qed-it.com/) Timu ya kujenga mali generic ulinzi juu Zcash blockchain. Hizi ni kawaida inajulikana kama User Defined Mali (UDA) au kama Zcash Shielded Mali, (ZSA).
 
-Kwa pendekezo hili, timu katika [QEDIT] iliamua kuanzisha programu ya utafiti wa hali ya juu.](https://qed-it.com/) mipango ya kuleta DeFi kwa mazingira Zcash na, wakati huo huo kuwezesha matumizi ya teknolojia bora faragha ndani ya mfumo wa ikolojia zilizopo za DeFi. Katika utafiti uchaguzi, timu aliuliza, na jamii akajibu kwamba [generic walinzi mali (ZSA / UDA) ni kipengele zaidi ombi katika sasa](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
+Kwa pendekezo hili, timu katika [QEDIT](https://qed-it.com/) mipango ya kuleta DeFi kwa mazingira Zcash na, wakati huo huo kuwezesha matumizi ya teknolojia bora faragha ndani ya mfumo wa sasa wa ikolojia DeFi. Katika utafiti uchaguzi, timu aliuliza, na jamii akajibu kwamba [mali generic shielded (ZSA/UDA) ni kipengele zaidi aliomba kwa sasa.](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
-Mapendekezo haya ni kiufundi wanaambatana na [Zcash Uboreshaji Pendekezo (ZIP) ](https://zips.z.cash/zip-0000) vipimo na ni ilivyoelezwa katika ZIP 226 & ZIP227.
+Mapendekezo haya ni kisheria wanaambatana na sheria ya EU juu ya usafiri wa umma. [Zcash Uboreshaji Pendekezo (ZIP)](https://zips.z.cash/zip-0000) vipimo na ni ilivyoelezwa katika ZIP 226 & ZIP227.
 
-1. [ZIP 226](https://zips.z.cash/zip-0226): Uhamisho na Kuungua kwa Zcash Shielded Mali
-2. [ZIP 227](https://zips.z.cash/zip-0227): Utoaji wa Zcash Shielded Mali
+1. [ZIP 226 (Kifungo cha posta)](https://zips.z.cash/zip-0226): Uhamisho na Kuungua kwa Zcash Shielded Mali
+2. [ZIP 227 (Kifungo cha posta)](https://zips.z.cash/zip-0227): Utoaji wa Zcash Shielded Mali
 
 ---
 
@@ -128,13 +128,13 @@ Mapendekezo haya ni kiufundi wanaambatana na [Zcash Uboreshaji Pendekezo (ZIP) ]
 
 ## Makosa ya Kawaida
 
-Imani ya kawaida. Nini hasa kesi?
+| Imani ya pamoja | Ni nini hasa? |
 | --- | --- |
-"ZSAs ni kuishi juu ya Zcash leo". Hawako. ZSA imepangwa kwa ajili ya kupelekwa katika Mtandao Upgrade 7 (NU7) na bado chini ya ukaguzi na kupima.
-"ZSA huleta mikataba smart kwa Zcash". ZSA inabainisha utoaji, kuhamishwa na kuchoma ya mali. Si mpango wa jumla- Madhumuni programu mkataba safu.
-"Unaweza kulipa ada za ZSA katika ishara ya ZSA yenyewe". Ada zinalipwa kwa ZEC.
-"Ikiwa ni kulindwa, ishara ya ugavi lazima pia kuwa siri". ZIP 227 hufanya utoaji wa wazi kwa makusudi, hivyo usambazaji wa kila mali inaweza kufuatiliwa hadharani. mizani na kuhamisha kubaki binafsi; Ugavi haina.
-"ZIP 230 ni toleo la sasa 6 shughuli format". ZIP 230 imeondolewa. Toleo 6 sasa hufafanuliwa na 229 ya posta.
+| "ZSA ziko moja kwa moja kwenye Zcash leo." | Hazijakamilika. ZSA imepangwa kutumika katika Network Upgrade 7 (NU7) na bado inakaguliwa na kupimwa. |
+| "ZSA yaleta mikataba mizuri kwa Zcash." | ZSA hubainisha utoaji, uhamisho na uchomaji wa mali. Sio safu ya mkataba inayoweza kupangwa kwa madhumuni ya jumla. |
+| "Unaweza kulipa ada za ZSA katika tokeni ya ZSA yenyewe." | Ada hulipwa katika ZEC. |
+| "Ikiwa imefunikwa, usambazaji wa tokeni lazima uwe siri pia." | ZIP 227 hufanya utoaji uwe wazi kwa makusudi, ili usambazaji wa kila mali uweze kufuatiliwa hadharani. Salio na uhamisho hubaki kuwa wa faragha; usambazaji haufanyi hivyo. |
+| "ZIP 230 ni umbizo la sasa la muamala wa toleo la 6." | ZIP 230 imeondolewa. Toleo la 6 sasa linafafanuliwa na ZIP 229. |
 
 ---
 
@@ -142,6 +142,6 @@ Imani ya kawaida. Nini hasa kesi?
 
 - [Halo](/zcash-tech/halo)  kuthibitisha mfumo nyuma Orchard, itifaki ZSA huongeza
 - [Zk-SNARKs](/zcash-tech/zk-snarks)  ushahidi zero-ujuzi kwamba basi uhamisho shielded kuthibitishwa bila kuwa wazi
-- [Bwawa za Kuhifadhi](/using-zcash/shielded-pools)  ambapo ZSAs kuishi kando na ZEC
-- [Mashirika ya biashara](/using-zcash/transactions)  jinsi ya Zcash shughuli ni kuweka pamoja
-- [Zebra Full Node](/zcash-tech/zebra-full-node)  uanzishwaji node kutumika katika ZSA demo juu ya
+- [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](/using-zcash/shielded-pools)  ambapo ZSAs kuishi kando na ZEC
+- [Shughuli za biashara](/using-zcash/transactions)  jinsi ya Zcash shughuli ni kuweka pamoja
+- [Zebra Full Node (Njia ya Kuunganisha)](/zcash-tech/zebra-full-node)  uanzishwaji node kutumika katika ZSA demo juu ya

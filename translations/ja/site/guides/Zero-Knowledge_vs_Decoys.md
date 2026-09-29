@@ -41,13 +41,13 @@ ZcashとMoneroはどちらもプライバシーに重点を置いた暗号通貨
 
 2) **選択的な可視性**: Zcashは、ユーザーが透明（非プライベート）な取引とシールド（プライベート）な取引のどちらかを選択できるようにしています。これは、Zcashがユーザーに金融情報をプライベート（シールド）に保つか、または他のブロックチェーンのように公開して利用可能にする柔軟性を提供していることを意味します[公式サイト](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/)。このオプインプライバシーにより、一部の取引では公的な検査のためにプライバシーが少なめにされる一方で、他の取引では強化されたプライバシーが得られるため、ビジネスや組織に関連するユースケースにも適しています。
 
-3) **匿名セット**: 零知識シールドプールの[匿名セット](https://blog.wasabiwallet.io/what-is-the-difference-between-an-anonymity-set-and-an-anonymity-score/)は、*これまでに発生したすべての取引*を含みます。これは、他のオンチェーン技術による取引の非関連性達成においてはるかに大きいです。注: これは同じシールドプール内の取引のみに適用されます。
+3) **匿名セット**: 零知識シールドプールの[匿名セット](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score)は、*これまでに発生したすべての取引*を含みます。これは、他のオンチェーン技術による取引の非関連性達成においてはるかに大きいです。注: これは同じシールドプール内の取引のみに適用されます。
 
 デコイの使用により匿名セットが増加します。ただし、このアプローチはネットワーク上の*実際のユーザー数*に完全に依存しています。
 
 4) **信頼設定不要**: ZcashのSprout & Sapling設定では、「信頼された設定セレモニー」として知られるマルチパーティ計算を使用していました。最近のNU5アップグレードは、ゼロ知識回路の設定の整合性への信頼を必要としませんでした。[ECCブログでNU5を読む](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/)。
 
-5) **データプライバシー**: Zcashのシールドプールに使用されている[zk-SNARK技術](https://wiki.zechub.xyz/zcash-technology)は、ユーザーにとって非常に強化されたセキュリティを提供します。オンチェーンでのメタデータ漏洩の削減により、ユーザーは潜在的なハッカーまたは抑圧的な国家機関などの敵対者から守られます。
+5) **データプライバシー**: Zcashのシールドプールに使用されている[zk-SNARK技術](https://zechub.wiki/zcash-technology)は、ユーザーにとって非常に強化されたセキュリティを提供します。オンチェーンでのメタデータ漏洩の削減により、ユーザーは潜在的なハッカーまたは抑圧的な国家機関などの敵対者から守られます。
 
 Moneroのデコイ選択アルゴリズムにいくつかのバグが見つかった事例があります。[Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero)からの報告によると、これらのバグはユーザーの支出を明らかにする可能性がありました。
 

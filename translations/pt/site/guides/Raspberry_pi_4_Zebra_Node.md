@@ -71,7 +71,7 @@ Executar o software de nó Zebra em um Raspberry Pi 4 permite que você particip
 
 ## Solução de Problemas
 
-Se você encontrar qualquer problema ao compilar ou executar o Zebra, consulte a [documentação do Zebra](https://doc.zebra.zfnd.org/docs/intro.html) para dicas de solução de problemas e informações adicionais.
+Se você encontrar qualquer problema ao compilar ou executar o Zebra, consulte a [documentação do Zebra](https://zebra.zfnd.org/user/troubleshooting.html) para dicas de solução de problemas e informações adicionais.
 
 Certifique-se de manter seu Raspberry Pi resfriado, pois executar um nó pode gerar calor. Você pode querer usar uma solução de resfriamento, como uma ventoinha ou um dissipador de calor.
 

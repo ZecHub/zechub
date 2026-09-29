@@ -68,7 +68,7 @@ ZeroBridge è un client decentralizzato del protocollo Zero DAO, che consente di
 
 ### Primo passaggio: Converti ZEC schermato ad ETH
 
-Visita [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH) 
+Visita [ZeroDAO](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH) 
 
 Collegati al tuo portafoglio preferito.
 

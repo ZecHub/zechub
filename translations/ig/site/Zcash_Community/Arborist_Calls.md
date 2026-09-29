@@ -4,37 +4,45 @@
 
 # Arborist Calls
 
-Zcash Arborist Calls are recurring protocol development meetings focused on network upgrade planning, consensus node implementation work, wallet and infrastructure dependencies, and protocol research.
+Zcash Arborist Calls bụ nzukọ mmepe protocol ugboro ugboro lekwasịrị anya na atụmatụ nkwalite netwọkụ, ọrụ mmejuputa node nkwekọrịta, ịdabere na obere akpa na akụrụngwa, yana nyocha protocol.
 
-The official Arborist Calls page is maintained by the Zcash Foundation:
+Zcash Foundation na-elekọta Arborist Calls Zcash Foundation:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    Chọọ ebe nchekwa oku ahụ
+  </a>
+</p>
 
-## Otú Ị Ga-esi Debanye Aha
+## Otu esi esonye
 
-The calls alternate between two recurring time slots so that contributors in different regions can participate. Use the official Zcash Foundation page for the current calendar files and Zoom links:
+Oku ndị a na-agbanwe n'etiti oge abụọ na-emegharị ugboro ugboro ka ndị na-enye aka na mpaghara dị iche iche wee nwee ike isonye. Jiri ibe Zcash Foundation gọọmentị maka faịlụ kalenda dị ugbu a na njikọ Zoom:
 
-- **15:00 UTC** oge oge
+- Oge oge **15:00 UTC**
 
+Ibe Ntọala bụ isi iyi nke eziokwu maka njikọ ndebanye aha, faịlụ kalenda, na ohere nzukọ n'ihi na njikọ nzukọ nwere ike ịgbanwe.
 
-Peeji nke Foundation bụ isi iyi nke eziokwu maka njikọ ndebanye aha, faịlụ kalịnda, na ịnweta nzukọ n'ihi na njikọ nzukọ nwere ike ịgbanwe.
+## Ihe ndetu, Agenda, na Ndekọ
 
-## Ihe Ndekọ, Usoro Ihe Omume, na Ihe Ndị E Dekọrọ
+- Atumatu na nkeji zuru ezu: [ihe ndetu osisi arboretum](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Ebe nchekwa enwere ike ịchọgharị na wiki a: [Arborist Calls ebe nchekwa ihe ochie](/arborist-calls)
+- Ndekọ ndị ọhụrụ: [Ndepụta egwu Zcash Arborist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Mkparịta ụka gbasara nyocha na mmepe Zcash: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- Mkparịta ụka ogologo oge: [Ọgbakọ Obodo Zcash](https://forum.zcashcommunity.com/)
 
-- Usoro ihe omume na nkeji zuru ezu: [ihe edeturu osisi osisi](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Ndekọ ndị na-adịbeghị anya: [Zcash Arborist Call playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Mkparịta ụka Zcash R&D: [Zcash R & D Discord](https://discord.gg/xpzPR53xtU)
-- Mkparịta ụka ogologo oge: [Zcash Community Forum](https://forum.zcashcommunity.com/)
-
-## Ndị Kwesịrị Ịga Ya
+## Ònye Kwesịrị Ịga
 
 Arborist Calls bara uru maka:
 
-- Ndị injinia protocol na ndị nchọpụta
-- Ndị na-emepe emepe, obere akpa, SDK, na lightwallet
-- Ndị na-anata onyinye nke ọrụ ha metụtara nkwekọrịta, nkwalite netwọk, ma ọ bụ ịdabere na protocol
-- Ndị otu obodo chọrọ ịgbaso usoro mkpebi teknụzụ n'ihu ọha
+- Ndị injinia na ndị nchọpụta protocol
+- Ndị mmepe akụrụngwa Node, obere akpa, SDK, na lightwallet
+- Ndị nnata onyinye nke ọrụ ha metụtara nkwekọrịta, mmelite netwọkụ, ma ọ bụ ndabere usoro
+- Ndị otu obodo chọrọ ịgbaso mkpebi teknụzụ n'ihu ọha
 
 ## Ndepụta egwu
 
@@ -44,7 +52,7 @@ Arborist Calls bara uru maka:
     src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G"
     title="Zcash Arborist Call Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

@@ -59,7 +59,7 @@ Zcash의 새로운 에피소드를 게시했습니다. NAMADA<->Zcash 전략 동
 
 [Zcon4을 컴퓨터로 참여하려면 여기에 등록하십시오.](https://whova.com/portal/registration/zcon_202307/cdjp6ynt)
 
-[ZFA/V 클럽 캘린더](https://wiki.zechub.xyz/zfav/calendar)
+[ZFA/V 클럽 캘린더](https://zechub.wiki/zfav/calendar)
 
 [Ziggurat Zcash 네트워크 익스플로러 실행하기 - Tripleyouwu](https://www.youtube.com/watch?v=Nq5cLiAHxPI)
 

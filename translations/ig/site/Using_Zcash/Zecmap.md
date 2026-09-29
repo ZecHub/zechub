@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecMap (n'asụsụ Bekee)
+# ZecMap
 
 ZecMap bụ akwụkwọ ndekọ aha zuru ụwa ọnụ, nke obodo na-eme maka ịchọpụta azụmahịa na ọrụ ndị nabatara Zcash (ZEC). E wuru gburugburu interface map mmekọrịta, ọ na - enyere ndị nwere ZEC aka ịza ajụjụ bara uru: ** "Ebee ka m ga - eji zụọ ego ZEC?"**
 
@@ -55,14 +55,14 @@ Ndị ọrụ ọhụrụ na-amụta otu esi azụta ma chekwaa ZEC tupu ha ach�
 
 Ọ bụrụ na azụmahịa anabata ZEC ma ọ bụghị ka dị na ZecMap, onye ọbụla nọ n'obodo nwere ike itinye ya. Ezi ntinye gụnyere:
 
-Ubi. Ihe ị ga-enye ya.
+| Field | Ihe a ga-enye |
 |-------|----------------|
-Aha ụlọọrụ aha gọọmenti dịka ọ na-apụta n'ihu ọha.
-❑ Ebe nrụọrụ weebụ ma ọ bụ kọntaktị ▪ URL ma ọ bụkwanụ profaịlụ mmekọrịta mmadụ na ibe ya.
-Ebe. Adreesị maka ụlọ ọrụ nkịtị; mpaghara maka ịntanetị.
- Category: Cafe, ụlọ oriri na ọṅụṅụ, ahịa, ọrụ, online shop wdg.
-Ihe akaebe: peeji nke ịkwụ ụgwọ ọha, ọkwa onye ahịa ma ọ bụ nkwenye ozugbo.
- Nkwupụta ịkwụ ụgwọ  Na mmadụ, online ma ọ bụ ha abụọ; ZEC na-egosipụta ihe doro anya maọbụ nke a kpuchiri ekpuchi.
+| Business name | Aha gọọmentị dịka ọ pụtara n'ihu ọha |
+| Website or contact | URL ma ọ bụ profaịlụ mmekọrịta |
+| Location | Adreesị maka azụmaahịa anụ ahụ; mpaghara maka ịntanetị |
+| Category | Kafe, ụlọ oriri na ọṅụṅụ, ụlọ ahịa, ọrụ, ụlọ ahịa dị n'ịntanetị, wdg. |
+| Evidence | Ibe ịkwụ ụgwọ ọha, ọkwa onye ahịa, ma ọ bụ nkwenye ozugbo |
+| Payment notes | N'onwe gị, n'ịntanetị, ma ọ bụ ha abụọ; doro anya ma ọ bụ chebere ZEC |
 
 Ntinye kwesịrị izere data ndị ahịa nkeonwe. Ọ bụrụ na iji ihe akaebe azụmahịa, wepu nkọwa onwe onye, nọmba iwu, yana adreesị ụlọ tupu ịkekọrịta.
 
@@ -145,7 +145,7 @@ Mmezi ndị a na-eme atụmatụ gụnyere:
 
 ## Akụnụba
 
-- [ZecMap (n'asụsụ Bekee)](https://zecmap.com/)
+- [ZecMap](https://zecmap.com/)
 - [ZecMap na X/Twitter](https://x.com/ZecMap)
 - [Nkwupụta mmekọrịta nke ZecMap × CipherPay](https://x.com/ZecMap/status/2059622324958093616)
 - [ZecMap Flexa na-ere ahịa gụnyere ọkwa.](https://x.com/ZecMap/status/2060453501063594002)

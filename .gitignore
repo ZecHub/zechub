@@ -131,3 +131,8 @@ dist
 
 # macOS
 .DS_Store
+
+# The sync worktree's ownership marker: written by run-sync-ci.sh in the
+# worktree it owns, never part of a change. A hand-repair that ran `git add -A`
+# swept it into a commit.
+.sync-ci-owned

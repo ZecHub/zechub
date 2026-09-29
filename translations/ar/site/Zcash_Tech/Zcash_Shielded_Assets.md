@@ -80,7 +80,7 @@
 
 **شغّل العرض التوضيحي بنفسك!**
 
-استنسخ مستودع zcash-tx-tool: <https://github.com/QED-it/zcash_tx_tool>
+استنسخ مستودع zcash-tx-tool: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### مقترحات تحسين Zcash (ZIPs)
 

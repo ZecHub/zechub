@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àwòrán ZecMap
+# ZecMap
 
 ZecMap jẹ́ àgbáyé, ìwé-ìmọ̀ràn tí àwùjọ ń darí fún wíwá àwọn ilé iṣẹ́ àti ètò tó gba Zcash (ZEC). Ó dá lórí ìjápọ̀ àwòrán ojú òpó kan. O ṣe iranlọwọ fun awọn onímòye ti wọn ní ZEC láti dáhùn ìbéèrè: **"Ibo ni mo le lo owó mi?"**
 
@@ -16,7 +16,7 @@ Ojú-ìwé: [ojúewé zecmap.com](https://zecmap.com/)
 - Ṣàwákiri àwòrán ojú-ọ̀nà ìjápọ́ láti rí àwọn oníṣòwò tó bá ZEC lò nítòsí rẹ tàbí níbikíbi lágbàáyé.
 - Ẹnikẹni le fi** ile-iṣẹ kan silẹ; awọn akojọ n lọ nipasẹ atunyẹwo agbegbe ṣaaju ki o to han gbangba.
 - Àtòjọ àsanfún àwọn olùkópa** ń fúnni níṣìírí láti fi kún àti ṣàyẹ̀wò ìsọfúnni oníṣòwò.
-- ZecMap ṣe ajọṣepọ pẹ̀lú àwọn olùdásílẹ̀-èdè. [CipherPay (ìdásílẹ̀)](https://x.com/ZecMap/status/2059622324958093616) láti mú kí àwọn oníṣòwò pọ̀ sí i.
+- ZecMap ṣe ajọṣepọ pẹ̀lú àwọn olùdásílẹ̀-èdè. [CipherPay](https://x.com/ZecMap/status/2059622324958093616) láti mú kí àwọn oníṣòwò pọ̀ sí i.
 
 ---
 
@@ -43,7 +43,7 @@ ZecMap ṣe àkójọ àwọn ilé-iṣẹ́ orí ayélujára pẹ̀lú. Ṣàw�
 
 ### Ṣètò Ìrìn Àjò Kárí ZEC
 
-Ṣiṣawari awọn agbegbe ti o ni aabo ṣaaju ki o to de, nitorina o le gbero iduro si ZEC-ọfẹ onjewiwa, ile itaja ati iṣẹ.
+Ṣíṣe ìrìnàjò lọ sí ìlú tàbí orílẹ̀-èdè tuntun? ZecMap jẹ́ kí o wo bí àwọn oníṣòwò ṣe ń ṣiṣẹ́ kí o tó dé, kí o lè ṣètò àwọn ibi ìdúró sí ní àwọn ilé oúnjẹ, àwọn ilé ìtajà, àti àwọn iṣẹ́ ZEC-friendly.
 
 ### Atilẹyin fun Awọn Olumulo Zcash Tuntun
 
@@ -55,14 +55,14 @@ ZecMap ṣe àkójọ àwọn ilé-iṣẹ́ orí ayélujára pẹ̀lú. Ṣàw�
 
 Bí iléeṣẹ́ kan bá gbà láti gba ZEC tí kò sì sí lórí ZecMap, ẹnikẹ́ni nínú àwùjọ lè fi ránṣẹ́. Ìránṣẹ̀ tó dára ní:
 
-Àgbègbè. Kí ni kí n pèsè?
+| Field | Kini lati pese |
 |-------|----------------|
-☐ Orúkọ iléeṣẹ́ náà. orúkọ tó wà ní àkọsílẹ̀ fún gbogbo èèyàn ni orúko rẹ̀.
- Ìkànnì tàbí àwọn ẹni tí a lè bá sọ̀rọ̀ URL tabi ìsọfúnni lórí ẹ̀ka àjọlò.
-ìpínlẹ̀: Adirẹsi fún àwọn ilé-iṣẹ́ tí ó wà ní ìpamọ́; ẹkùn ìpínlẹ̀ fún orí ayélujára.
-Ẹ̀ka: Kafe, ilé oúnjẹ, ìtajà, iṣẹ́-ṣiṣe, ọjà orí ayélujára àti bẹ́ẹ̀bẹ́ẹ̀ lọ.
-Èrí: ojúewé ìsanwó fún gbogbo ènìyàn, àtẹ̀jáde oníṣòwò tàbí ìdánilójú tààrà.
-íṣe ìsanwó ní ojú-ẹni, lórí ayélujára tàbí méjèèjì; ZEC tí ó ṣe kedere tabi ti a fi ààbò bo.
+| Business name | Orúkọ ìjọba gẹ́gẹ́ bí ó ṣe hàn gbangba |
+| Website or contact | URL tàbí ìwífún àwùjọ |
+| Location | Àdírẹ́sì fún àwọn iṣẹ́ ti ara; agbègbè fún orí ayélujára |
+| Category | Kafe, ile ounjẹ, ile itaja, iṣẹ, ile itaja ori ayelujara, ati bẹbẹ lọ. |
+| Evidence | Ojú ìwé ìsanwó gbogbogbò, ìkéde oníṣòwò, tàbí ìjẹ́rìí tààrà |
+| Payment notes | Lójúkojú, lórí ayélujára, tàbí méjèèjì; ZEC tí ó ṣe kedere tàbí tí a dáàbò bò |
 
 Àwọn ìfilọ́lẹ̀ kò gbọdọ ní àwọn àlàyé nípa oníbàárà. Bí o bá lo ẹrí ìṣòwò, yọ gbogbo àlàyé ara ẹni kúrò, nóńbà àṣẹ àti àdírésì ilé kí ó tó pínpín wọn.
 
@@ -109,7 +109,7 @@ Fun awọn ofin ẹbun lọwọlọwọ ati bi o ṣe le beere, lọ si ibẹ. [
 
 ZecMap accepts merchants that accept Zcash payments via **Flexa**, a payment network used by a growing number of retail locations. This expands the number of real-world merchants listed on the map beyond those that accept Zcash natively.
 
-ZecMap tún ti kéde àjọṣepọ̀ pẹlú àwọn olùdásílẹ̀-ìmọ́lé. [CipherPay (ìdásílẹ̀)](https://cipherpay.app) láti túbọ̀ mú àwọn ètò ìsopọmọ-ìpèsè owó sisan fún àwọn oníṣòwò nínú ìwé atọ́ka náà jinlẹ.
+ZecMap tún ti kéde àjọṣepọ̀ pẹlú àwọn olùdásílẹ̀-ìmọ́lé. [CipherPay](https://cipherpay.app) láti túbọ̀ mú àwọn ètò ìsopọmọ-ìpèsè owó sisan fún àwọn oníṣòwò nínú ìwé atọ́ka náà jinlẹ.
 
 ---
 
@@ -145,7 +145,7 @@ Lára àwọn àtúnṣe tí wọ́n ń gbèrò rèé:
 
 ## Àwọn Owó-ìṣúnná owó
 
-- [Àwòrán ZecMap](https://zecmap.com/)
+- [ZecMap](https://zecmap.com/)
 - [ZecMap lórí X/Twitter](https://x.com/ZecMap)
 - [Ìkéde àjọṣepọ̀ ZecMap × CipherPay](https://x.com/ZecMap/status/2059622324958093616)
 - [Ìkéde nípa gbígbé àwọn oníṣòwò ZecMap Flexa sínú ètò náà.](https://x.com/ZecMap/status/2060453501063594002)

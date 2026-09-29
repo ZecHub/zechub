@@ -2,7 +2,7 @@
 
 "Node kamili hutoa mfano bora wa faragha. Iwapo unatumia pochi iliyosimbiwa kwa njia ya kati, huna faragha yoyote - mtoaji wa pochi anajua shughuli zako zote na anwani zako. Kwa kutumia node kamili, unapakua data yote ya blockchain na kuuliza tu kwa ajili ya anwani/ shughuli za kienyeji. Unapokuwa na nakala ya madaftari ambayo umeithibitisha mwenyewe, hutalazimika tena kumwamini mtu wa tatu kuwa mkweli kuhusu hali ya madaftari." - Jameson Lopp
 
-Jifunze zaidi kuhusu aina tofauti za mabwawa ya Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://wiki.zechub.xyz/zcash-value-pools)
+Jifunze zaidi kuhusu aina tofauti za mabwawa ya Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://zechub.wiki/zcash-value-pools)
 
 ---
 

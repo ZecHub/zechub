@@ -1,164 +1,164 @@
-# Ìdánwò Zcash
+# Zcash Testnet
 
-## Kí Ni Àwòkẹ́kọ̀ọ́ Zcash?
+## Kí ni Zcash Testnet?
 
-**Zcash Testnet** jẹ blockchain ti o jọra si nẹtiwọọki akọkọ Zcash gidi (Mainnet) ti o ṣe atunṣe ilana gangan, awọn ofin, ati imọran iṣowo - ṣugbọn pẹlu awọn iyatọ pataki meji:
+**Zcash Testnet** jẹ́ blockchain tó jọra sí nẹ́tíwọ́ọ̀kì àkọ́kọ́ Zcash (Mainnet) gidi tó ń ṣe àtúnṣe ìlànà, òfin, àti ìlànà ìṣòwò náà - ṣùgbọ́n pẹ̀lú ìyàtọ̀ pàtàkì méjì:
 
-1. ** Awọn owó ko ni iye owo gidi ** - wọn pe wọn ni ** TAZ **, kii ṣe ZEC, ati pe wọn lo nikan fun idanwo. 
-2. **Awọn igbesoke nẹtiwọọki, awọn irinṣẹ, ati sọfitiwia ni a ṣe idanwo nibi akọkọ** ṣaaju ki o to gbejade lori blockchain Zcash gidi. 
+1. **Àwọn owó òṣùwọ̀n kò ní iye owó gidi** - wọ́n ń pè wọ́n ní **TAZ**, kìí ṣe ZEC, a sì ń lò wọ́n fún ìdánwò nìkan. 
+2. **A ti dán àwọn àtúnṣe nẹ́tíwọ́ọ̀kì, irinṣẹ́, àti sọ́fítíwètì wò níbí kí a tó fi wọ́n sí orí blockchain Zcash gidi. 
 
-In other words, the Testnet is like a **sandbox or experimental environment** where developers, auditors, and builders can try ideas without risking real money.
-
-
-## Kí Nìdí Tí Wọ́n Fi Ṣe Àwòkẹ́kọ̀ọ́?
-
-Testnet jẹ pataki fun idagbasoke blockchain nitori ** awọn blockchains gidi bi Zcash jẹ alailagbara ** - ni kete ti awọn iṣowo ba jẹrisi lori nẹtiwọọki akọkọ, wọn ko le ṣe atunṣe. Testnet pese ** ẹda ailewu ** lati ṣe idanwo, idanwo ati awọn ẹya aiṣedede ṣaaju ki o to gbejade si Mainnet.
-
-### Àwọn Ọ̀nà Tí Wọ́n Ń Gbà Lo Ìwòwò
-
-#### Ìdàgbàsókè àti Àjọpọ̀ Sọfitiwia
-
-Developers building wallets, exchanges, mining software, or privacy tools can safely test them on Testnet. Capabilities include:
-
-- Fífi àti gbígba àwọn ìnáwó 
-- Ṣiṣawari awọn bulọọki tuntun pẹlu awọn owó TAZ ti o ni iye odo 
-- Ṣiṣẹda awọn wiwo olumulo ati awọn API 
-- Àdánwò àwọn ohun ìní ìpamọ́ ìṣòwò (ìmọ́lẹ̀ vs. ààbò) 
-
-Àpẹẹrẹ: 
-Àwọn irinṣẹ́ bíi [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) lo Testnet lati ṣe awọn iṣowo ati idanwo awọn iṣẹ-ṣiṣe ohun-ini aabo Zcash. 
-
-** Àkọsílẹ̀ ayé gidi:** 
-Olùgbéejáde àpò-ìpamọ́ lè so sọfitiwia pọ̀ pẹ̀lú ìparí RPC Testnet kí ó sì ṣe àfarawé gbogbo ìgbésẹ̀ ìgbésí ayé rẹ̀ - tító àwọn àdírẹ́sì, rírán àwọn ìnáwó tí a fi ààbò pamọ́, àti fífi ìdánilójú hàn àwọn ìdìpọ̀ - kí ó tó lọ gbé lórí Mainnet.
-
-#### 2. Ìdánwò Àwọn Àtúnṣe Orí-Èdè
-
-Zcash n ṣe igbesoke ilana ipilẹ rẹ ni igbagbogbo (fun apẹẹrẹ, Nu5, Nu6). Testnet n mu awọn igbegasoke tuntun ṣiṣẹ ** ṣaaju Mainnet **, gbigba awọn olupilẹṣẹ ati agbegbe laaye lati ṣe idanimọ ati ṣatunṣe awọn aṣiṣe.
-
-Àpẹẹrẹ: 
-Awon ofin ti o ni oye tuntun tabi iru idunadura ni a kọkọ gbe lọ si Testnet. Lẹhin idanwo aṣeyọri, o ṣiṣẹ lori Mainnet ni giga bulọọki ti a ti pinnu tẹlẹ.
-
-#### 3. Àdánwò Ìmúṣẹ Ìkànnì
-
-Zcash ṣe atilẹyin awọn imuse sọfitiwia node pupọ - `zcashd` and **Zebra** (Rust-based node maintained by the Zcash Foundation). Testnet enables testing of nodes in real conditions without financial risk.  
-
-Awọn oludasile Node le:
-
-- Ṣíṣe àyẹ̀wò ìdìpọ̀ ìsọfúnni 
-- Àwọn àlàfo RPC ìdánwò 
-- Ṣíṣe àyẹ̀wò ìhùwàsí ìsopọ̀ lábẹ́ ẹrù 
-- Ìdánwò ìfọ̀rọ̀wérọ̀ pẹ̀lú software ìwakùsà 
-
-#### 4. Ẹ̀kọ́ kíkọ́ àti ètò ẹ̀kọ́
-
-Beginners can learn Zcash features such as mining, creating shielded transactions, and using Unified Addresses.  
-Community tutorials and documentation provide access to **Testnet faucets, explorers, and guides**.
+Ní ọ̀rọ̀ mìíràn, Testnet dà bí **àpótí ìsanwó tàbí àyíká ìdánwò** níbi tí àwọn olùgbékalẹ̀, àwọn olùṣàyẹ̀wò, àti àwọn olùkọ́lé lè dán àwọn èrò wò láìsí ewu owó gidi.
 
 
-## Àwọn Àpẹẹrẹ Ìlò Nẹtiwọọ́ọ̀sì Ìdánwò Tòótọ́
+## Kílódé tí Testnet fi wà?
 
-### 1. Àdánwò Olùgbéejáde (Wollet / App)
+Testnet ṣe pàtàkì fún ìdàgbàsókè blockchain nítorí pé **àwọn blockchain gidi bíi Zcash kò ṣeé yípadà** - ní kete tí a bá ti fìdí àwọn ìṣòwò múlẹ̀ lórí nẹ́tíwọ́ọ̀kì àkọ́kọ́, a kò le ṣe àtúnṣe wọn. Testnet pèsè àwòkọ tó dájú** láti dánwò, dán wò, àti láti ṣàtúnṣe àwọn ẹ̀yà ara ẹ̀rọ kí a tó gbé e lọ sí Mainnet.
 
-- So pọ̀ mọ́ Zcash Testnet 
-- Wíwá TAZ láti inú kànga 
-- Firanṣẹ àwọn ìnáwó tí a fi ààbò bo 
-- Ṣayẹwo ìpamọ́ àti ìdúróṣinṣin UI 
+### Àwọn lílo Testnet
 
-Kò sí ZEC gidi kan tí a pàdánù, kódà bí àṣìṣe bá wáyé.
+#### 1. Ìdàgbàsókè àti Ìṣọ̀kan Sọ́fítíwèèjì
 
-### 2. Ìdánwò Àjọṣepọ Exchange
+Àwọn olùgbékalẹ̀ tí wọ́n ń kọ́ àpò owó, pàṣípààrọ̀, sọ́fítíwọ́ọ̀mù ìwakùsà, tàbí àwọn irinṣẹ́ ìpamọ́ lè dán wọn wò láìléwu lórí Testnet. Àwọn agbára náà ni:
 
-- Ṣiṣẹ ìsopọ̀ Ìdánwò 
-- Lo àwọn ìparí Zebrad JSON-RPC láti ṣe àdàkọ àwọn ìsòwò 
-- Àdánwò ìlànà ìsọ̀rí/ìmújáde tí a ṣe lóòtọ́ 
+- Fífiranṣẹ ati gbigba awọn iṣowo 
+- Iwakusa awọn bulọọki tuntun pẹlu awọn owó TAZ ti ko ni iye odo 
+- Kíkọ́ àwọn ojú-ọ̀nà olùlò àti àwọn API 
+- Ṣíṣe àyẹ̀wò àwọn ẹ̀yà ìpamọ́ ìṣòwò (tí ó ṣe kedere tàbí tí a dáàbò bò) 
 
-Ó ń mú kókó ìṣẹ̀dá tí ó dáàbò bò ó sì ń dènà àdánù owó.
+**Àpẹẹrẹ:** 
+Àwọn irinṣẹ́ bíi [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) lo Testnet lati ṣe awọn iṣowo ati idanwo awọn iṣẹ-ṣiṣe dukia ti a daabobo Zcash. 
 
-### 3. Ìdánwò Ìmúrasílẹ̀ Iṣẹ́ Ìwakùsà
+**Iṣẹlẹ aye gidi:** 
+Olùgbékalẹ̀ àpò owó kan lè so sọ́fítíwà pọ̀ mọ́ ibi ìparí Testnet RPC kan kí ó sì ṣe àfarawé gbogbo ìgbésí ayé rẹ̀ - ṣíṣẹ̀dá àdírẹ́sì, fífi àwọn ìṣòwò tí a dáàbò bò ránṣẹ́, àti fífúnni ní ìwọ́ntúnwọ̀nsì - kí ó tó bẹ̀rẹ̀ sí í lo Mainnet.
+
+#### 2. Idanwo Awọn igbesoke Nẹtiwọọki
+
+Zcash n ṣe àtúnṣe ìlànà pàtàkì rẹ̀ lẹ́ẹ̀kọ̀ọ̀kan (fún àpẹẹrẹ, NU6.1, NU6.2 àti Ironwood). Testnet ń mú àwọn àtúnṣe tuntun ṣiṣẹ́ **kí ó tó di Mainnet**, èyí tí ó ń jẹ́ kí àwọn olùgbékalẹ̀ àti àwùjọ lè dá àwọn àṣìṣe mọ̀ kí wọ́n sì tún wọn ṣe.
+
+**Àpẹẹrẹ:** 
+A kọ́kọ́ gbé òfin ìfohùnṣọ̀kan tàbí irú ìṣòwò tuntun sí Testnet. Lẹ́yìn ìdánwò àṣeyọrí, ó máa ń ṣiṣẹ́ lórí Mainnet ní gíga bulọ́ọ̀kì tí a ti pinnu tẹ́lẹ̀.
+
+#### 3. Idanwo Awọn Iṣeto Node
+
+Nọ́mbà tí Zcash ń tọ́jú ni **Zebra** (nọ́mbà tí Zcash Foundation ń tọ́jú) àti pé àpò tí a ń tọ́jú náà ni [Zallet](https://github.com/zcash/zallet). `zcashd`, ìṣe ìpilẹ̀ṣẹ̀ nódù náà, dé ìdádúró ìdúró-àtìlẹ́yìn rẹ̀ láìfọwọ́kàn ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026, kò sì sí lábẹ́ àkóso mọ́ - wo [Ìtọ́sọ́nà ìrìnàjò zcashd sí Zebra àti Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)Testnet n gba laaye lati ṣe idanwo awọn nodules ni awọn ipo gidi laisi ewu inawo.
+
+Àwọn olùgbékalẹ̀ nódù lè:
+
+- Ṣe àyẹ̀wò ìdàgbàsókè bulọọki 
+- Ṣe ìdánwò àwọn ìfọwọ́sowọ́pọ̀ RPC 
+- Ṣe akiyesi ihuwasi nodule labẹ ẹru 
+- Ṣe idanwo awọn ibaraenisepo sọfitiwia iwakusa 
+
+#### 4. Ẹ̀kọ́ àti Ẹ̀kọ́
+
+Àwọn olùbẹ̀rẹ̀ lè kọ́ àwọn ẹ̀yà Zcash bíi iwakusa, ṣíṣẹ̀dá àwọn ìṣòwò tí a dáàbò bò, àti lílo àwọn Àdírẹ́sì Ìṣọ̀kan. 
+Àwọn ìdánilẹ́kọ̀ọ́ àti ìwé àkójọpọ̀ àwùjọ ń fúnni ní àǹfààní láti lo àwọn faucets, àwọn olùṣàwárí, àti àwọn ìtọ́sọ́nà **Testnet.
+
+
+## Àwọn Àpò Ìlò Testnet Tòótọ́
+
+### 1. Ìdánwò Olùgbékalẹ̀ (Àpò owó / Àpù)
+
+- Sopọ̀ mọ́ Zcash Testnet 
+- Beere fun TAZ lati inu faucet kan 
+- Fi awọn iṣowo ti a daabobo ranṣẹ 
+- Ṣe àyẹ̀wò ìpamọ́ àti ìdúróṣinṣin UI 
+
+Ko si ZEC gidi ti o sọnu paapaa ti awọn aṣiṣe ba waye.
+
+### 2. Idanwo Ìṣọ̀kan Paṣipaarọ
+
+- Ṣiṣẹ nọ́mbà Testnet kan 
+- Lo awọn opin Zebrad JSON-RPC lati ṣe ilana awọn iṣowo 
+- Ṣe ìdánwò ìlànà ìsanwó/ìyọkúrò aládàáṣe 
+
+Ó ń rí i dájú pé kòòdù ìṣelọ́pọ́ wà ní ààbò, ó sì ń dènà àdánù owó.
+
+### 3. Àwọn Ìdánwò Ìṣètò Ìwakùsà
 
 - Lo awọn awoṣe iwakusa 
-- Ìdánwò ìdìpọ̀ ìdánwò 
-- Ṣàkíyèsí àwọn èrè ìwakùsà (TAZ nìkan) 
-- Iṣẹ́-ìwakùsà Tune 
+- Ìfọwọ́sowọ́pọ̀ àwọn bulọ́ọ̀kì ìdánwò 
+- Ṣe akiyesi awọn ere iwakusa (TAZ nikan) 
+- Ṣe àtúnṣe iṣẹ́ iwakusa 
 
-Ó ń dènà àkókò ìsinmi tàbí owó tí a pàdánù nígbà tí a bá ṣí lọ sí Mainnet.
+Ó ń dènà àkókò ìdádúró tàbí èrè tí a pàdánù nígbà tí a bá ń kó lọ sí Mainnet.
 
-### 4. Ìwádìí nínú ẹ̀kọ́/ìwádìí nípa ìlànà
+### 4. Ìwádìí Ẹ̀kọ́/Ìlànà
 
-Àwọn olùṣèwádìí lè dán àwọn àtúnṣe tuntun wò bíi ìwádìí tí kò ní ipò, ìwífún-ọ̀rọ̀-ìmọ̀-ò-nǹkan, tàbí àwọn àdánwò ìlànà mìíràn nípa lílo Testnet. 
-Advanced users can also run **custom Testnets or regtest environments** for specialized experiments.
+Àwọn olùwádìí lè dán àwọn àtúnṣe tuntun wò bíi **ìjẹ́rìí àìní ìpínlẹ̀**, **ìmúdájú ẹ̀rí ìmọ̀ òdo**, tàbí àwọn àdánwò ìlànà mìíràn nípa lílo Testnet. 
+Àwọn olùlò tó ti ní ìmọ̀ le ṣiṣẹ́ **Àṣà Testnets tàbí àwọn àyíká regtest** fún àwọn àdánwò pàtàkì.
 
 
-## Awọn iyatọ pataki laarin Mainnet ati Testnet
+## Awọn Iyatọ Pataki Laarin Mainnet ati Testnet
 
-Àṣejèrè: Ẹ̀yà ara. Mainnet. Testnet.
+| Ẹ̀yà ara | Mainnet | Testnet |
 |-----------------------|-----------------|--------------------------|
- Iye owó ẹyọ  Real ZEC  TAZ (kò sí iye owó) 
-Àdánwò. Àdànwò ìṣúnná owó. Kò léwu fún àyẹ̀wò.
-Àtúnṣe ìlànà Ìpèsè Ìdánilójú Ìmúṣẹ ìbẹ̀rẹ̀
-☐ Èrè ìwakùsà ☐ Ẹ̀dà gidi ☐ Ìdánwò èrè nìkan
-☐ Ètò-iṣẹ́-ayárabíàṣá. ☐ Ìṣirò àti ìdàgbàsókè.
+| Iye owó | ZEC gidi | TAZ (kò sí iye owó) |
+| Ewu | Ewu inawo | Ailewu fun idanwo |
+| Àwọn àtúnṣe ìlànà | Ìṣẹ̀dá | Ìmúṣiṣẹ́ ní ìbẹ̀rẹ̀ |
+| Èrè iwakusa | Ìfilọ́lẹ̀ gidi | Èrè ìdánwò nìkan |
+| Iṣẹ́ àmúlò nẹ́tíwọ́ọ̀kì | Àwọn ìṣòwò láyè | Ìdánwò àti ìdàgbàsókè |
 
-## Àwọn Èrò Tí Kò Tọ́
+## Àwọn Èrò Àṣìṣe Tó Wọ́pọ̀
 
-- **Àwọn owó ẹyọ Testnet ní iye kan** -> Èké, TAZ kò ní iye kankan. 
-- **Láti pàdánù owó ẹyọ Testnet ṣe kókó** -> Èké, kò sí iye gidi tí a pàdánu. 
-- ** Testnet ati Mainnet jẹ kanna** -> False, Testnet resets nigbagbogbo ati pe ko ni aabo ni ọrọ-aje bi Mainnete.
+- **Àwọn owó Testnet jẹ́ ohun tó níye lórí** -> Èké, TAZ kò níye lórí. 
+- **Pípàdánù owó Testnet ṣe pàtàkì** -> Èké, kò sí ìníyelórí gidi tí a pàdánù. 
+- **Testnet àti Mainnet jọra** -> Èké, Testnet máa ń tún ara rẹ̀ ṣe nígbà gbogbo, kò sì ní ààbò tó péye bíi Mainnet.
 
 ---
 
-## Kí Ni TAZ?
+## Kí ni TAZ?
 
-**TAZ** jẹ ẹya Testnet ti awọn owó Zcash: 
+**TAZ** ni ẹya Testnet ti awọn owó Zcash: 
 
-- Kì í ṣe owó gidi; kò ṣeé pààrọ̀ fún ZEC tàbí owó fiat 
-- A máa ń lò ó fún ìdánwò, ìdàgbàsókè àti kíkọ́ni 
-- Tẹle gbogbo awọn ofin Zcash: le firanṣẹ, mined, ati lilo ni awọn adirẹsi ti o ni aabo 
+- Kìí ṣe owó gidi; a kò le pàṣípààrọ̀ rẹ̀ fún ZEC tàbí fiat 
+- A lo fun idanwo, idagbasoke, ati ẹkọ 
+- Tẹ̀lé gbogbo òfin Zcash: a lè fi ránṣẹ́, wọ́ ọ jáde, àti lò ó nínú àwọn àdírẹ́sì ààbò 
 
-Àpẹẹrẹ: 
-Olùgbéejáde lè fi 100 TAZ ránṣẹ́ láti àdírẹ́sì Testnet kan sí òmíràn láti ṣe àyẹ̀wò àpapọ̀ owó tí kò léwu fún ZEC gidi. 
+**Àpẹẹrẹ:** 
+Olùgbékalẹ̀ kan lè fi 100 TAZ ránṣẹ́ láti àdírẹ́sì Testnet kan sí òmíràn láti dán iṣẹ́ àpò owó wò láìsí ewu ZEC gidi. 
 
-Ronu TAZ gẹgẹ bi "owo ere" fun Zcash Testnet.
+Ronú nípa TAZ gẹ́gẹ́ bí **"ìdánwò owó" fún Zcash Testnet**.
 
 
-## Kí Làwọn Pásítọ̀?
+## Kí Ni Àwọn Fọ́ọ̀mù?
 
-A **faucet** jẹ iṣẹ ti o funni ni awọn owó TAZ ọfẹ fun idanwo:
+Iṣẹ́ ìfọṣọ ** jẹ́ iṣẹ́ kan tí ó ń fúnni ní owó TAZ ọ̀fẹ́ fún ìdánwò:
 
 - Nigbagbogbo awọn oju opo wẹẹbu tabi awọn API 
-- Awọn olumulo pese a Testnet adirẹsi; awọn faucet rán kan kekere iye ti TAZ 
-- Yẹra fun iwulo lati mina TAZ ni ọwọ 
+- Àwọn olùlò máa ń pèsè àdírẹ́sì Testnet; fáìpù náà máa ń fi ìwọ̀n TAZ díẹ̀ ránṣẹ́ 
+- Yẹra fun iwulo lati wa TAZ pẹlu ọwọ 
 
-Àpẹẹrẹ: 
-1. Ṣabẹwo si faucet Testnet kan (fun apẹẹrẹ, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) [fauzec.com](https://fauzec.com/))  
-2. Tẹ adirẹsi Ìdánwò rẹ 
-3. Ìbéèrè TAZ 
+**Àpẹẹrẹ:** 
+1. Ṣèbẹ̀wò sí páápù Testnet kan (fún àpẹẹrẹ, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
+2. Tẹ adirẹsi Testnet rẹ sii 
+3. Beere fun TAZ 
 4. Gba TAZ lẹsẹkẹsẹ lati bẹrẹ idanwo 
 
-** Ìdí tó fi ṣe pàtàkì:** 
-- Ìdánwò tí kò léwu láìsí ewu ZEC 
-- Ìwúlò fún àwọn tó ṣẹ̀ṣẹ̀ bẹ̀rẹ̀ àti àwọn olùdásílẹ̀ 
-- Àkọ́ṣe kíákíá fún àwọn àpamọ́ owó, àwọn pàṣípààrọ̀, àti àwọn ohun èlò
+**Kí ló dé tí ó fi ṣe pàtàkì:** 
+- Idanwo ailewu laisi ewu ZEC 
+- Wiwọle fun awọn olubere ati awọn olupilẹṣẹ 
+- Ṣíṣe àgbékalẹ̀ kíákíá fún àwọn àpò owó, pàṣípààrọ̀, àti àwọn àpù
 
 
 
-## Zkool àti Zingo!
+## Àwọn àpò Zkool àti Zingo!
 
 ### Zkool
 
-- Àpò-ìpamọ́-ọ̀pọ̀ fún àwọn olùṣàmúlò Zcash tó ti gòkè àgbà 
-- Atilẹyin fun awọn gbolohun ọrọ irugbin, awọn bọtini wiwo, awọn adirẹsi ti o ni imọlẹ ati ti a bo 
-- O le sopọ si Mainnet, Testnet, tabi Regtest nipasẹ awọn akopọ kikun tabi awọn olupin lightwallet
+- Àpò àkọọ́lẹ̀ oní-pupọ fún àwọn olùlò Zcash tó ti ní ìlọsíwájú 
+- Ṣe atilẹyin awọn gbolohun irugbin, awọn bọtini wiwo, awọn adirẹsi ti o han gbangba ati aabo 
+- Le sopọ mọ Mainnet, Testnet, tabi Regtest nipasẹ awọn nodes kikun tabi awọn olupin apamọwọ ina
 
-### Zingo! Èmi náà ni!
+### Zingo!
 
-- Wọ́ọ̀lì alágbèéká tó dá lórí ìpamọ́ra àti ìmúrasílẹ̀ 
-- Atilẹyin fun awọn adirẹsi ti o ni aabo ati ti iṣọkan 
-- A ṣe imudojuiwọn lati ṣe atilẹyin awọn ilana Testnet (pẹlu NU6 Testnet)
+- Apamọwọ alagbeka dojukọ lori aṣiri ati irọrun 
+- Ṣe atilẹyin fun awọn adirẹsi ti a daabobo ati ti iṣọkan 
+- A ṣe àtúnṣe láti ṣe àtìlẹ́yìn fún àwọn ìlànà Testnet (pẹ̀lú NU6 Testnet)
 
-## Mímú Àyèwò Nẹtiwọọki Wọléètì ṣiṣẹ
+## Ṣiṣẹ́ Testnet nínú àwọn àpò owó
 
-### Zkool Wọ́ọ̀lì
+### Apamọwọ Zkool
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -166,17 +166,17 @@ A **faucet** jẹ iṣẹ ti o funni ni awọn owó TAZ ọfẹ fun idanwo:
     src="https://www.youtube.com/embed/XCGwwqLZILg"
     title="Zkool Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
-Ìmọ̀ràn: 
-- Owó-ìpamọ́ lè tún bèèrè nígbà tí o bá yí àgbékalẹ̀ padà 
-- Awọn iroyin Mainnet ZEC ko ni ipa 
-- Lo ohun èlò Testnet lightwallet bí ó bá ní kí o ṣe é
+**Àwọn ìmọ̀ràn:** 
+- Àpò owó lè tún bẹ̀rẹ̀ nígbà tí ó bá ń yí àwọn nẹ́tíwọ́ọ̀kì padà 
+- Kò ní ipa lórí àkọọ́lẹ̀ Mainnet ZEC 
+- Lo olupin Testnet lightwallet ti o ba beere lọwọ rẹ
 
-### Zingo, àpamọ́wọ́
+### Àpò owó Zingo!
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -184,25 +184,25 @@ A **faucet** jẹ iṣẹ ti o funni ni awọn owó TAZ ọfẹ fun idanwo:
     src="https://www.youtube.com/embed/To7WAkiBldA"
     title="Zingo Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
 
-Nígbà tí wọ́n bá ti jẹ́ kó ṣiṣẹ́, àwọn àpamọ́wọ́ lè fi TAZ ránṣẹ́ kí wọ̀n sì gbà á, wọn lè dán àwọn ìnáwó tí a fi ààbò ṣe wò, kí wọ́ n sì ṣe ìdánwò láìséwu.
+Nígbà tí a bá ti ṣiṣẹ́, àwọn àpò owó lè fi TAZ ránṣẹ́ kí wọ́n sì gbà á, kí wọ́n dán àwọn ìṣòwò tí a dáàbò bò wò, kí wọ́n sì ṣe àyẹ̀wò láìsí ewu.
 
 
-## Lẹ́yìn tí a bá ti jẹ́ kí àyèwò net ṣiṣẹ́
+## Lẹ́yìn Tí Ó Ti Mu Testnet Ṣiṣẹ́
 
-- Awọn iṣowo n ṣe bi Mainnet ṣugbọn pẹlu ** nilokulo TAZ ** 
-- Awọn iṣowo ti o ni aabo, awọn adirẹsi pupọ, ati awọn ẹya aṣiri le ni idanwo 
-- Awọn Difelopa le ṣe atunṣe ati idanwo awọn ẹya ara ẹrọ laisi ewu ZEC gidi
+- Àwọn ìṣòwò ń hùwà bí Mainnet ṣùgbọ́n pẹ̀lú **ìníyelórí TAZ òdo** 
+- Awọn iṣowo ti a daabobo, awọn adirẹsi pupọ, ati awọn ẹya aṣiri le ni idanwo 
+- Àwọn Olùgbékalẹ̀ lè ṣàtúnṣe àti dán àwọn ẹ̀yà ara wọn wò láìsí ewu gidi ZEC
 
 
-## Àkópọ̀ Ìsọfúnni
+## Àkótán Kíákíá
 
-- **Zcash Testnet** jẹ ayika sandbox ailewu fun ikole, idanwo, ati idanwo 
-- Awọn ọran lilo: idanwo olupilẹṣẹ, idanwo node, iṣọpọ paṣipaarọ, iwadi, ati ẹkọ 
-- **Awọn owó TAZ** ni a lo dipo ZEC ati pe ko ni iye gidi 
-- Testnet jẹ pataki ṣaaju ki o to deploying ẹya-ara gbe lori Mainnet
+- **Zcash Testnet** jẹ́ àyíká àpótí àpò ìyanrìn tó ní ààbò fún kíkọ́lé, ìdánwò, àti ṣíṣe àdánwò 
+- Àwọn ọ̀ràn lílo: ìdánwò olùgbékalẹ̀, ìdánwò nódù, ìṣọ̀kan pàṣípààrọ̀, ìwádìí, àti ẹ̀kọ́ 
+- Wọ́n ń lo owó TAZ** dípò ZEC, wọn kò sì ní ìníyelórí gidi kankan. 
+- Testnet ṣe pàtàkì kí a tó fi àwọn ẹ̀yà ara rẹ̀ sí orí Mainnet

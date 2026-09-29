@@ -57,12 +57,12 @@ Si une entreprise accepte les ZEC et ne figure pas encore sur ZecMap, n’import
 
 | Champ | Ce qu’il faut fournir |
 |-------|----------------|
-| Nom de l’entreprise | Nom officiel tel qu’il apparaît publiquement |
-| Site web ou contact | URL ou profil social |
-| Emplacement | Adresse pour les entreprises physiques ; région pour les activités en ligne |
-| Catégorie | Café, restaurant, magasin, service, boutique en ligne, etc. |
-| Preuve | Page publique de paiement, annonce du commerçant ou confirmation directe |
-| Notes de paiement | En personne, en ligne ou les deux ; ZEC transparent ou shielded |
+| Business name | Nom officiel tel qu’il apparaît publiquement |
+| Website or contact | URL ou profil social |
+| Location | Adresse pour les entreprises physiques ; région pour les activités en ligne |
+| Category | Café, restaurant, magasin, service, boutique en ligne, etc. |
+| Evidence | Page publique de paiement, annonce du commerçant ou confirmation directe |
+| Payment notes | En personne, en ligne ou les deux ; ZEC transparent ou shielded |
 
 Les soumissions doivent éviter les données privées des clients. Si vous utilisez une preuve de transaction, supprimez les informations personnelles, les numéros de commande et les adresses domiciliaires avant de la partager.
 

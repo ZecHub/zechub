@@ -64,7 +64,7 @@ Funguo iliyo nyembamba zaidi ndiyo inayohitajika, si ile pana unayoweza kutumia.
 
 ## Tumia shauri hilo maishani mwako.
 
-- Tumia mkoba kwamba shields default, kama vile [Zodl](https://zodl.com) or [Kipaji cha Ywallet](https://ywallet.app/).
+- Tumia mkoba kwamba shields default, kama vile [Zodl](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Kuhifadhi fedha mara tu wanapowasili kutoka kubadilishana, kabla ya matumizi.
 - Kulipa kwa anwani ulinzi wakati wowote mpokeaji inasaidia moja.
 - Kabla ya kushiriki ufunguo wa kutazama, uliza ni ipi iliyo ndogo zaidi inayojibu swali linaloulizwa.

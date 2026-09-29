@@ -129,7 +129,7 @@ La gouvernance de Zcash est un mélange de « règles de protocole on-chain » e
 - ZIP 1015 (changement de financement NU6) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
 - ZIP 1016 (modèle proposé pour les détenteurs de coins) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
-- Portail Zcash Community Grants -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com) (ou le site FPF actuel)
+- Portail Zcash Community Grants -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 
 ## 6. Tableau de bord du Lockbox
 

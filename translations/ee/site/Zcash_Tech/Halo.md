@@ -39,7 +39,7 @@ Kpeɖodzi ƒe wɔwɔme gbugbɔgawɔ ɖea mɔ na kpeɖodzi ɖeka be wòaɖo kpe k
 
 Do ŋgɔ na Halo la, kpeɖodzi si wogbugbɔna ƒe wɔwɔme gbɔ ɖoɖo bia akɔntabubu ƒe gazazã gã kple ɖoɖo si dzi woka ɖo. Nu vevi siwo ŋu woke ɖo dometɔ ɖekae nye mɔnu aɖe si woyɔna be **nested amortization**. Mɔnu sia ɖea mɔ na nuwɔwɔ gbugbɔgawɔ to polynomial commitment scheme si wotu ɖe ememe nuwɔna ƒe nyaʋiʋli dzi zazã me, si naa dɔwɔwɔ nyona ɖe edzi ŋutɔ eye wòƒoa asa na ɖoɖo si dzi woka ɖo.
 
-Le ɣeyiɣi si me [Halo ƒe pepa](https://eprint.iacr.org/2019/1021.pdf), míeƒo nu tso polynomial commitment scheme sia ŋu bliboe eye míekpɔe be aggregation mɔnu yeye aɖe li le eme. Mɔnua na woate ŋu aɖo kpe kpeɖodzi gbogbo aɖewo siwo wowɔ le wo ɖokui si dzi kabakaba abe kpeɖodzi ɖeka dzi dada ene kloe. Esia ɖeɖe dzaa ana mɔnu nyuitɔ si woatsɔ aɖɔli zk-SNARK siwo wozãna tsã le Zcash me.
+Le ɣeyiɣi si me [Halo ƒe pepa](https://eprint.iacr.org/2019/1021.pdf), míeƒo nu tso polynomial commitment scheme sia ŋu bliboe eye míekpɔe be aggregation mɔnu yeye aɖe li le eme. Mɔnua na woate ŋu aɖo kpe kpeɖodzi gbogbo aɖewo siwo wowɔ le wo ɖokui si dzi kabakaba abe kpeɖodzi ɖeka dzi dada ene kloe. Esia ɖeɖe dzaa ana mɔnu nyuitɔ si woatsɔ aɖɔli zk-SNARKs siwo wozãna tsã le Zcash.
 
 
 ### Halo 2 lia
@@ -96,17 +96,17 @@ Halo 2 ƒe kpeɖodzi ƒe dɔwɔwɔ na Verifiable Delay Function (VDF) si wɔa d�
 
 Woate ŋu azãe abe dzɔtsoƒe na taɖodzinu gbadzaa randomness si me zazã le smart contract dɔbiagbalẽviwo kpakple kplɔla tiatia le Kpeɖodzi le Stake le Ethereum & bubuwo protocols.
 
-ECC, Filecoin Foundation, Protocol Labs, kple Ethereum Foundation hã awɔ dɔ kplii [Dukɔa si De ŋgɔ wu](https://www.supranational.net/), si nye nudzrala si bi ɖe nya ɣaɣla siwo wotsɔa xɔtunuwo ƒoa ƒui kabakaba me, hena GPU kple ASIC ƒe ɖoɖowɔwɔ kple VDF ƒe ŋgɔyiyi si ate ŋu adzɔ.
+ECC, Filecoin Foundation, Protocol Labs, kple Ethereum Foundation hã awɔ dɔ kplii [SupraNational](https://www.supranational.net/), si nye nudzrala si bi ɖe nya ɣaɣla siwo wotsɔa xɔtunuwo ƒoa ƒui kabakaba me, hena GPU kple ASIC ƒe ɖoɖowɔwɔ kple VDF ƒe ŋgɔyiyi si ate ŋu adzɔ.
 
 The [Ame ŋutɔ ƒe nyawo kple Scaling Exploration ƒuƒoƒo](https://appliedzkp.org/) le numekuku wɔm tso mɔ vovovo siwo dzi Halo 2 ƒe kpeɖodziwo ate ŋu ato ana ame ŋutɔ ƒe nyawo kple woƒe lolome nanyo ɖe edzi na Ethereum ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa hã ŋu. Ƒuƒoƒo sia ƒoa ƒu ɖe Ethereum gɔmeɖoanyia dzi, eye woƒe susu le zero-sidzedze kpeɖodziwo kple nya ɣaɣlawo ƒe gɔmedzenuwo ŋu le mɔ gbadza nu. 
 
 ## Dɔ bubu siwo wowɔ to Halo zazã me
 
-+ [Anoma, si nye atɔmik ɖɔliɖɔli ƒe ɖoɖo si me kɔsɔkɔsɔ geɖe le si kpɔa ame ŋutɔ ƒe nyawo ta](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, si nye atɔmik ɖɔliɖɔli ƒe ɖoɖo si me kɔsɔkɔsɔ geɖe le si kpɔa ame ŋutɔ ƒe nyawo ta](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, si nye L2 zkRollup si le Cardano dzi](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, si nye ame ŋutɔ ƒe L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, si nye ame ŋutɔ ƒe L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, si nye L2 zkRollup le Ethereum dzi](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ The [Ame ŋutɔ ƒe nyawo kple Scaling Exploration ƒuƒoƒo](https://appliedzkp
 
 **Nuŋlɔɖiwo**
 
-[Halo 2 ƒe nunɔamesiwo](https://github.com/adria0/awesome-halo2)
+[Halo 2 ƒe nunɔamesiwo](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2 ƒe nuŋlɔɖiwo](https://zcash.github.io/halo2/)
 

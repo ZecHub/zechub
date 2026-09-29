@@ -56,14 +56,14 @@
 
 ## طبّق ذلك عمليًا
 
-- استخدم محفظة تعتمد افتراضيًا على العناوين المحمية، مثل [ZODL](https://zodl.com) أو [Ywallet](https://ywallet.app/).
+- استخدم محفظة تعتمد افتراضيًا على العناوين المحمية، مثل [ZODL](https://zodl.com) أو [Zingo!](https://www.zingolabs.org/).
 - عندما تستلم ZEC على عنوان شفاف، انقله إلى عنوان محمي قبل أن تنفقه.
 - ادفع إلى العناوين المحمية حيثما أمكن. فكل دفعة شفافة تكون علنية بالكامل؛ أما الدفعة المحمية فلا تكون كذلك.
 
 ## الموارد
 
 - [Zcash: توصيات الخصوصية والأمان](https://z.cash/support/security/privacy-security-recommendations/)
-- [نظام بيئي محمي (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [نظام بيئي محمي (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [كيف تعمل تقنية Zcash](https://z.cash/technology/)
 - [مستكشف Zcash من Blockchair](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@
 - [أساسيات Zcash](/start-here/what-is-zec-and-zcash)
 - [المحافظ](/using-zcash/wallets)
 - [المجمّعات المحمية](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

@@ -100,11 +100,11 @@ ECC, Фонд Filecoin, Protocol Labs и Ethereum Foundation также буду
 
 ## Другие проекты, использующие Halo
 
-+ [Anoma, протокол мультичейн атомарного обмена с сохранением приватности](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, протокол мультичейн атомарного обмена с сохранением приватности](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, L2 zkRollup на Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, приватный L1 zkEVM блокчейн](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, приватный L1 zkEVM блокчейн](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, L2 zkRollup на Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -121,7 +121,7 @@ ECC, Фонд Filecoin, Protocol Labs и Ethereum Foundation также буду
 
 **Документация**
 
-[Ресурсы Halo 2](https://github.com/adria0/awesome-halo2)
+[Ресурсы Halo 2](https://github.com/mhchia/awesome-halo2)
 
 [Документация Halo 2](https://zcash.github.io/halo2/)
 

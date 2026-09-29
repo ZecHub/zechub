@@ -33,9 +33,9 @@ Zcash è una criptovaluta relativamente giovane, ma molto interessante ed innova
 
 ### Approfondimenti
 
-[Nozioni di base su Zcash](https://wiki.zechub.xyz/global/italiano/nozioni-di-base-su-zcash)
+[Nozioni di base su Zcash](https://zechub.wiki/global/italiano/nozioni-di-base-su-zcash)
 
-[Utilizzare ZEC in modo privato](https://wiki.zechub.xyz/global/italiano/utilizzare-zec-in-modo-privato)
+[Utilizzare ZEC in modo privato](https://zechub.wiki/global/italiano/utilizzare-zec-in-modo-privato)
 
 [Tutto ciò che devi sapere su ZKP e ZK-SNARKS](../zcashtech/zksnarks.md)
 

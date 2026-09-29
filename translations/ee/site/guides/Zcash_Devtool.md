@@ -13,7 +13,7 @@ Kris Nuttycombe (@nuttycom) tsɔ dɔwɔnu sia ɖo ŋkume le ZconVI ƒe ɣeyiɣia
     src="https://www.youtube.com/embed/5gvQF5oFT8E"
     title="zcash-devtool: the Zcash development multitool with Kris Nuttycombe - ZconVI"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

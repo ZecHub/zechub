@@ -30,7 +30,7 @@ ZEC gives people the opportunity to transfer data permissionlessly. Having a pee
 
 [The Case of Zcash and Privacy](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
-[A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem/)
+[A Shielded Ecosystem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Zcash Privacy Recommendations](https://z.cash/support/security/privacy-security-recommendations/)
 
@@ -52,8 +52,6 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In 
 
 [How It Works](https://z.cash/technology/)
 
-[The HTTPS of Blockchains](https://nakamoto.com/zcash-the-https-of-blockchains/)
-
 ---
 
 ## Related Pages
@@ -62,4 +60,4 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In 
 - [Wallets](/using-zcash/wallets) — Choose a shielded wallet to hold your ZEC
 - [Buying ZEC](/using-zcash/buying-zec) — Where and how to acquire ZEC
 - [Shielded Pools](/using-zcash/shielded-pools) — How Zcash pools keep transactions private
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — The cryptography behind Zcash privacy
+- [zk-SNARKs](/zcash-tech/zk-snarks) — The cryptography behind Zcash privacy

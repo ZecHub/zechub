@@ -71,7 +71,7 @@ Raspberry Pi 4 上で Zebra ノードソフトウェアを実行することで�
 
 ## トラブルシューティング
 
-Zebra の構築または実行中に問題が発生した場合は、[Zebra ドキュメント](https://doc.zebra.zfnd.org/docs/intro.html)でトラブルシューティングのヒントや追加情報を見つけてください。
+Zebra の構築または実行中に問題が発生した場合は、[Zebra ドキュメント](https://zebra.zfnd.org/user/troubleshooting.html)でトラブルシューティングのヒントや追加情報を見つけてください。
 
 Raspberry Pi が熱を発生する可能性があるため、ノードを実行している間は冷却対策を講じてください。ファンやヒートシンクなどの冷却ソリューションを使用することをお勧めします。
 

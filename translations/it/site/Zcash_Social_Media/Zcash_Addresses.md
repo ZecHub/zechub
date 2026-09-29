@@ -105,8 +105,7 @@ Il team ECC sta lavorando a nuovi metodi RPC in `zcashd` (che sostituiranno `z_s
 
 ## Raccomandazione
 
-Prova l'ultima versione di **YWallet**!  
-Mostra già un "Transaction Plan" sullo schermo prima di premere invio, aiutandoti a fare scelte più private.
+Questa discussione rimandava originariamente a **Ywallet**, per il piano di transazione che mostrava prima di premere invio. Ywallet non è più mantenuto e non verrà aggiornato per Ironwood, quindi non può più seguire la blockchain. Scegli invece un wallet mantenuto dalla pagina [Wallet](https://zechub.wiki/wallets) e preferiscine uno che ti dica cosa rivelerà una transazione prima di essere inviata.
 
 Ottimo articolo sulla privacy delle transazioni: https://medium.com/@hanh.huynh/
 

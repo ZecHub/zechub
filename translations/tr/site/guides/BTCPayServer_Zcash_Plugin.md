@@ -124,7 +124,7 @@ Tüm fonlar **doğrudan** satıcının cüzdanına gider. Güvenlik, **viewing k
 ### Nasıl Çalışır
 
 - **Cüzdan önceden oluşturulur.**  
-  Satıcı, [YWallet](https://ywallet.app/installation) veya [Zingo! Wallet](https://zingolabs.org/) gibi viewing key destekleyen bir Zcash cüzdanı kullanır.  
+  Satıcı, [Zkool](https://github.com/hhanh00/zkool2/) veya [Zingo! Wallet](https://zingolabs.org/) gibi viewing key destekleyen bir Zcash cüzdanı kullanır.  
   Tam listeye [ZecHub.wiki](https://zechub.wiki/wallets) üzerinden ulaşabilirsiniz.
 
 - **BTCPay Server bir viewing key aracılığıyla bağlanır.**  
@@ -441,7 +441,7 @@ Seçtiğiniz uç noktayla URL’yi değiştirerek aşağıdaki satırı ekleyin:
 
 Şunlardan birini kullanabilirsiniz:
 
-* `https://lightwalletd.zcash-infra.com` gibi **herkese açık bir düğüm**
+* `https://zec.rocks:443` gibi **herkese açık bir düğüm**
 * BTCPay Server’dan ayrı olarak dağıtılmış, kendi barındırdığınız düğümünüz
 
 > Harici `lightwalletd` kullanılamaz hale gelir veya aşırı yüklenirse, shielded ödemeler başarısız olur.
@@ -660,7 +660,7 @@ Eklentiyi kurduktan sonra ayarlar menüsünde yeni bir **Zcash** bölümü gör�
 
 > Henüz tüm cüzdanlar **Unified Full Viewing Key (UFVK)** dışa aktarmayı desteklemiyor.  
 > Önerilen seçenekler:  
-> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (PC sürümü)**](https://zingolabs.org/)  
 > Her iki uygulamada da UFVK dışa aktarma seçeneğini yedekleme/dışa aktarma bölümünde arayın.
 

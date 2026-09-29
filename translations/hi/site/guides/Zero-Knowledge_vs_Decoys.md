@@ -46,13 +46,13 @@ Zcash और Monero दोनों privacy-केंद्रित cryptocurre
 2) **Optional Visibility**: Zcash users को transparent (non-private) और shielded (private) transactions के बीच चुनने की अनुमति देता है। इसका अर्थ है कि Zcash users को यह लचीलापन देता है कि वे अपनी financial information को private (shielded) रखें या अधिकांश अन्य blockchains की तरह उसे transparent और publicly available बनाएँ, जैसा कि [Zcash official website](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/) पर समझाया गया है। यह opt-in privacy अधिक लचीलापन और business/organisational से संबंधित use cases की अनुमति देती है, क्योंकि कुछ transactions को public scrutiny के लिए कम privacy की आवश्यकता हो सकती है, जबकि अन्य को enhanced privacy से लाभ होता है।
 
 
-3) **Anonymity Set**: zero knowledge shielded pools का [anonymity set](https://blog.wasabiwallet.io/what-is-the-difference-between-an-anonymity-set-and-an-anonymity-score/) उन सभी transactions से मिलकर बना होता है जो *कभी भी* हुई हैं। यह transaction unlinkability प्राप्त करने के लिए उपयोग की जाने वाली अधिकांश अन्य on-chain techniques की तुलना में काफी बड़ा है। नोट: यह केवल उसी shielded pool के भीतर होने वाले transactions पर लागू होता है।
+3) **Anonymity Set**: zero knowledge shielded pools का [anonymity set](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) उन सभी transactions से मिलकर बना होता है जो *कभी भी* हुई हैं। यह transaction unlinkability प्राप्त करने के लिए उपयोग की जाने वाली अधिकांश अन्य on-chain techniques की तुलना में काफी बड़ा है। नोट: यह केवल उसी shielded pool के भीतर होने वाले transactions पर लागू होता है।
 
 Decoys का उपयोग anonymity set को बढ़ाता तो है। हालांकि, यह दृष्टिकोण पूरी तरह network पर मौजूद *वास्तविक* users की संख्या पर निर्भर करता है। 
 
 4) **No Trusted Setup**: Zcash के Sprout और Sapling setup ने "trusted setup ceremony" के रूप में ज्ञात multi-party computation का उपयोग किया था। हाल का NU5 upgrade zero knowledge circuit के setup की integrity पर किसी Trust की आवश्यकता नहीं रखता था। [NU5 पर ECC Blog पढ़ें](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Data Privacy**: Zcash के shielded pools में उपयोग की जाने वाली [zk-SNARK technology](https://wiki.zechub.xyz/zcash-technology) users के लिए काफी अधिक security प्रदान करती है। on-chain metadata leakage में कमी का मतलब है कि users संभावित hackers या दमनकारी राज्य संस्थाओं जैसे adversaries से सुरक्षित रहते हैं। 
+5) **Data Privacy**: Zcash के shielded pools में उपयोग की जाने वाली [zk-SNARK technology](https://zechub.wiki/zcash-technology) users के लिए काफी अधिक security प्रदान करती है। on-chain metadata leakage में कमी का मतलब है कि users संभावित hackers या दमनकारी राज्य संस्थाओं जैसे adversaries से सुरक्षित रहते हैं। 
 
 ऐसे कई उदाहरण रहे हैं जहाँ Monero के decoy selection algorithm में bugs की पहचान की गई। [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) की एक report के अनुसार, इन bugs में user spends को उजागर करने की क्षमता थी। 
 

@@ -7,7 +7,7 @@
 ## TL;DR
 
 * The Crosslink protocol is a proposed design for Zcash's hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. It integrates PoW with a Byzantine Fault Tolerance (BFT) protocol, enabling assured finality as long as either PoW or PoS remains secure.
-* PoS ngwakọ na-ewebata ndị notari bụ ndị kwadoro ngọngọ dabere na ZEC  nke mbụ, emesịa họrọ ya dabere na zed.
+* Ngwakọta PoS na-ewebata ndị notari bụ ndị kwadoro ngọngọ dabere na ZEC  nke mbụ, emesịa họrọ ya dabere na zed.
 * Crosslink na-achọ inye akwụkwọ ndekọ abụọ: **akwụkwọ ndekọ emechara (LOG_fin)** maka nchekwa rollback, yana ** obere oge ledger (LO G ba) ** nke gbatịrị ya site n'ihe karịrị * L* blocks.
 * A ** Ọnọdụ Nchedo** na-arụ ọrụ ma ọ bụrụ na akwụkwọ ndekọ aha ikpeazụ ahụ dị n'azụ karịa * L* blocks: PoW gara n'ihu, mana ihe omume akụ na ụba kwụsịrị ruo mgbe edozi nsogbu a.
 * Ka oge na-aga, ndị nyocha PoS ga-enweta oke ụgwọ ọrụ nke ọma, belata ego ndị miners PoW; usoro ahụ ji nwayọọ nwayọọ ewebata mgbanwe.
@@ -36,7 +36,7 @@ Usoro ihe ngosi nke ngwakọ (PoS) jikọtara ngosipụta ọrụ ọdịnala na
 
 The Crosslink protocol is a proposed design for Zcash's hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. It integrates PoW with a Byzantine Fault Tolerance (BFT) protocol, enabling assured finality as long as either PoW or PoS remains secure. The design aims to strengthen network security and decentralization by incorporating staked validation while maintaining miner participation. A key feature of the proposal, called Crosslink 2, simplifies the architecture by unifying BFT proposers and miners. This streamlined approach minimizes structural changes and allows the use of a "dummy" BFT layer, making it easier to prototype and deploy while maintaining high-security standards.
 
-The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward-looking solution to evolving blockchain challenges. For more details, refer to the [Ebe nchekwa GitHub](https://github.com/ShieldedLabs/crosslink-deployment) na ndị ọzọ. [Nzukọ Obodo Zcash Forum](https://forum.zcashcommunity.com).
+The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward-looking solution to evolving blockchain challenges. For more details, refer to the [Ebe nchekwa GitHub](https://github.com/ShieldedLabs/zebra-crosslink) na ndị ọzọ. [Nzukọ Obodo Zcash Forum](https://forum.zcashcommunity.com).
 
 ### Nzube na Ihe Mgbaru Ọsọ nke Crosslink
 
@@ -55,7 +55,7 @@ Ejiri Usoro Crosslink mee ihe iji dozie ọtụtụ ebumnuche dị mkpa maka ọ
    * Staking na-ewebata usoro ụgwọ ọrụ a pụrụ ịkọwapụta maka ndị sonyere, na -emepụta atụmatụ mara mma maka ndị ọchụnta ego ogologo oge.
 5. **Enwekwu Nchedo**: Crosslink na-achọ ime ka ike nke netwọk megide mwakpo mgbagha agbụ site n'ịmekọrịta PoS tinyere PoW.
 
-## Ihe Anya / Ntụle
+## Ihe Anya / Nkọwapụta
 
 ![image](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
 
@@ -90,7 +90,7 @@ Usoro Crosslink na-arụsi ọrụ ike ma tinye ya site n'aka Shielded Labs na m
 * Logic nke ọrụ: Mwepụta Crosslink chọrọ mgbanwe na iwu nkwekọrịta Zcash, gụnyere ịkọwa usoro nkesa stake ma melite ụkpụrụ protocol netwọk iji kwado nkwado ngwakọ.
 * Ntinye nke usoro: Usoro a ga-agbasa na ọkwa iji hụ nkwụsi ike netwọkụ yana mmegharị obodo. Oge mbụ lekwasịrị anya na mmejuputa teknụzụ, sochiri ijikọ ọchịchị maka ịhọrọ ndị notari.
 
-Ị nwere ike ịchọpụta nkọwa ndị dị na ya ma soro ọganihu ya site n'aka onye ọrụ. [Ebe nchekwa ntinye Crosslink na GitHub](https://github.com/ShieldedLabs/crosslink-deployment).
+Ị nwere ike ịchọpụta nkọwa ndị dị na ya ma soro ọganihu ya site n'aka onye ọrụ. [zebra-crosslink nchekwa na GitHub](https://github.com/ShieldedLabs/zebra-crosslink) na nke a: [Akwụkwọ Zebra-Crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/).
 
 ## Ihe Ndị A Pụrụ Ime n'Ọrụ Ahụ
 
@@ -140,7 +140,7 @@ Usoro nkwekọrịta abụọ a na-eme ka nkwa Zcash dịkwuo ike maka nzuzo, nk
        src="https://www.youtube.com/embed/O4wQi_i7k0I"
        title="Crosslink"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       kweeFullScreen
+       allowFullScreen
        loading="lazy"
      />
 </div>

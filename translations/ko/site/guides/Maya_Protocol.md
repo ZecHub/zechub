@@ -73,7 +73,7 @@ Maya Protocol의 제네시스 시점에 사용 가능한 CACAO 준비금은 총 
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-[DefiSpot](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet, and Rabby.
+DefiSpot: 더 이상 온라인 상태가 아니며, 해당 도메인은 확인되지 않습니다.
 
 [XDEFI](https://www.xdefi.io/): Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON 등을 포함해 30개 이상의 네이티브 블록체인과 모든 EVM 및 Cosmos 체인을 지원하는 멀티 생태계 셀프 커스터디 지갑입니다.
 

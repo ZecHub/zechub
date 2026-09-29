@@ -40,12 +40,12 @@ Sapling dii Overwinter akyi, June 2018 nkɔsoɔ a ɛsiesiee ntwamutam no nkɔso�
 
 | Asɛmfua | Plain-English asekyerɛ |
 |---|---|
-| Adwuma a wɔabɔ ho ban | Zcash kokoam asɛm a ɛde nea ɔde kɔmaa, nea ogye, ne sika dodow no sie. |
+| Shielded transaction | Zcash kokoam asɛm a ɛde nea ɔde kɔmaa, nea ogye, ne sika dodow no sie. |
 | Sprout | Mfitiaseɛ shielded protocol Zcash de sii hɔ, brɛoo na emu yɛ duru sene Sapling. |
-| Spend ne Output amansin | Sapling proving circuits foforo abien a esii Sprout JoinSplit circuit biako no ananmu. |
-| Address a ɛwɔ ahorow ahorow | Address pii a entumi nkɔ so tua ka a wubetumi anya afi safe biako mu no mu biako. |
-| Hwɛ safoa | Safoa a ɛma obi hu sika kotoku mu nnwuma a ontumi nsɛe sika mfi mu. |
-| Nhyiamu baa dwumadibea id | Code tiawa a ɛkyerɛ network no upgrade mmara a asɛm bi di akyi. |
+| Spend and Output circuits | Sapling proving circuits foforo abien a esii Sprout JoinSplit circuit biako no ananmu. |
+| Diversified address | Address pii a entumi nkɔ so tua ka a wubetumi anya afi safe biako mu no mu biako. |
+| Viewing key | Safoa a ɛma obi hu sika kotoku mu nnwuma a ontumi nsɛe sika mfi mu. |
+| Consensus branch id | Code tiawa a ɛkyerɛ network no upgrade mmara a asɛm bi di akyi. |
 
 ## FAQ
 
@@ -89,4 +89,4 @@ Wɔ Sprout ase no, na sɛ wɔbɛkyekyere asɛm a wɔabɔ ho ban no gye simma kak
 
 ---
 
-Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Awɔw bere mu](../zcash-tech/overwinter) · Deɛ ɛdi hɔ: [Nhwiren a ɛyɛ fɛ](../zcash-tech/blossom)
+Ntoatoasoɔ: [Network Upgrades ho nkyerɛkyerɛmu](../start-here/network-upgrades) · Dada: [Overwinter](../zcash-tech/overwinter) · Deɛ ɛdi hɔ: [Blossom](../zcash-tech/blossom)

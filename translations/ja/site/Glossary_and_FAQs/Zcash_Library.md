@@ -30,18 +30,18 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 
 | Term | Definition |
 |------|-----------|
-| Canopy | Zcash の 5 回目の主要ネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | コミッターが短い文字列で多項式にコミットでき、その文字列を使って検証者がコミット済み多項式の主張された評価値を確認できるようにする仕組みです。Zcash プロトコルにおける通信コスト削減に役立ちます。 |
-| Community | [公式 Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | プルーフ・オブ・ワークによるブロック生成を維持しつつ、その上にプルーフ・オブ・ステークのファイナリティ層を追加することで、マイニングを放棄せずにブロックにより強いファイナリティを与える、提案中のハイブリッド・コンセンサス設計です。これは Trailing Finality Layer の研究から生まれたもので、Shielded Labs によって開発が進められており、2026年時点ではまだ testnet 開発段階にあります。 |
-| CrossPay | ZODL ウォレットの機能で、中央集権型取引所ではなく NEAR Intents を経由して、受取人が希望する資産とチェーンで支払いを受け取れる一方、送信者は shielded ZEC を使用できます。 |
-| Cypherpunk Zero | ECC、イラストレーターの Stranger Wolf、Mighty Jaxx、および選ばれたエコシステムパートナーによるクリエイティブユニバースと共同プロジェクトです。[Cypherpunk Zero サイト](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea コレクション](https://opensea.io/collection/cypherpunk-zero) |
+| Canopy | Zcash の5回目の主要ネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
+| Commitment Scheme | コミッターが短い文字列で多項式にコミットでき、その文字列を使って検証者がコミット済み多項式の主張された評価値を確認できるようにする仕組みです。Zcashプロトコルにおける通信コスト削減に役立ちます。 |
+| Community | [公式 Zcash コミュニティフォーラム](https://forum.zcashcommunity.com) / [Zcash コミュニティ Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
+| Crosslink | プルーフ・オブ・ワークによるブロック生成を維持しつつ、その上にプルーフ・オブ・ステークのファイナリティ層を追加することで、マイニングを放棄せずにブロックにより強いファイナリティを与える、提案中のハイブリッド・コンセンサス設計です。これは Trailing Finality Layer の研究から生まれたもので、Shielded Labs によって開発が進められており、2026年時点ではまだtestnet開発段階にあります。 |
+| CrossPay | ZODLウォレットの機能で、中央集権型取引所ではなくNEAR Intentsを経由して、受取人が希望する資産とチェーンで支払いを受け取れる一方、送信者はシールドされたZECを使用できます。 |
+| Cypherpunk Zero | ECC、イラストレーターのStranger Wolf、Mighty Jaxx、および選ばれたエコシステムパートナーによるクリエイティブユニバースと共同プロジェクトです。[Cypherpunk Zero サイト](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSeaコレクション](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
 | Term | Definition |
 |------|-----------|
-| DeFi | ZEC を DeFi と統合するプロジェクト: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/) |
+| DeFi | ZEC を DeFi と統合するプロジェクト: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
 | Deshielding | zaddr（Shielded アドレス）から taddr（Transparent アドレス）へ送信されるトランザクションを指します。トランザクションの送信元は見えませんが、資金は公開可視の value pool に入ります。 |
 | Developer Resources | [開発者向けリソース](https://www.zcashcommunity.com/developers/) |
 | Documentation | [公式ドキュメント](https://zcash.readthedocs.io/en/latest/) |
@@ -65,7 +65,7 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 | Fiat-Shamir | 対話型知識証明を基にデジタル署名を作成するための技法です。これにより、ある事実（たとえば秘密を知っていること）を、その基礎となる情報を明かさずに公に証明できます。 |
 | Formal Verification | テストのみに頼るのではなく、システムが仕様どおりに正確に振る舞うことを数学的に証明することです。Ironwood Action circuit は、健全性に関するバグが存在しないことを示すために、zkSecurity と ZODL の貢献者によって Lean 定理証明支援系を用いてこの方法で検証されました。 |
 | Founders Reward | Founders Reward はブロック報酬総額の 20 パーセントを占め、各ブロックの価値から差し引かれ、プロトコルの開発と成長を推進するために透明性をもって分配されます。 |
-| Free2z | Zcash を活用した、匿名コンテンツ公開とプライベート寄付のためのツールです。[Free2z](https://free2z.com) |
+| Free2Z | Zcash を活用した、匿名コンテンツ公開とプライベート寄付のためのツールです。[Free2Z](https://free2z.com) |
 | FROST | Flexible Round-Optimized Schnorr Threshold 署名方式です。[研究論文](https://eprint.iacr.org/2020/852) |
 
 ## G
@@ -110,17 +110,17 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 |------|-----------|
 | Layer-1 | ベースネットワークとその基盤インフラを指します。Layer-1 ブロックチェーンは、別のネットワークを必要とせずにトランザクションを検証・確定できます。Zcash は L1 ブロックチェーンです。 |
 | librustzcash | Zcash を扱うためのすべての crate と依存関係を含む Rust ワークスペースです。[repo](https://github.com/zcash/librustzcash) |
-| Lightwalletd | ライトクライアントにブロックチェーン情報を提供するステートレスサーバーです。[Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | ライトクライアントにブロックチェーン情報を提供するステートレスサーバーです。[lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
 | Term | Definition |
 |------|-----------|
 | Metrics | ネットワーク指標は[こちら](https://tokenterminal.com/explorer/projects/zcash/metrics/all)で確認できます |
-| Metadata | ユーザーの Zcash トランザクションに付随して生成されるデータです。これには、ブロック高、トランザクションのバージョン、expiry height などが含まれます。 |
-| Mobile SDK | Android を Zcash に接続し、サードパーティ製 Android アプリで Shielded トランザクションの送受信を可能にする軽量 SDK です。[Github](https://github.com/zcash/zcash-android-wallet-sdk) |
-| Mining | Zcash ネットワーク内のノードが、各ブロックについて自己調整される難易度に基づく複雑な数学計算を行い、解を見つけることで競い合うプロセスです。[ガイド](https://z.cash/mining-zcash/) |
-| Multisignature | 資金を使うために複数の秘密鍵署名を必要とするアドレスです。現在、マルチシグ機能は Transparent アドレスでのみサポートされています。 |
+| Metadata | ユーザーのZcashトランザクションに付随して生成されるデータです。これには、ブロック高、トランザクションのバージョン、expiry height などが含まれます。 |
+| Mobile SDK | Android をZcashに接続し、サードパーティ製 Android アプリでシールドされたトランザクションの送受信を可能にする軽量 SDK です。[GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
+| Mining | Zcashネットワーク内のノードが、各ブロックについて自己調整される難易度に基づく複雑な数学計算を行い、解を見つけることで競い合うプロセスです。[ガイド](https://z.cash/mining-zcash/) |
+| Multisignature | 資金を使うために複数の秘密鍵署名を必要とするアドレスです。現在、マルチシグ機能は透明アドレスでのみサポートされています。 |
 
 ## N
 
@@ -207,9 +207,9 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 
 ## W
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|-----------|
-| Wallet | 秘密鍵を保存し、ZEC の送受信を可能にするソフトウェアまたはハードウェアです。アクティブなウォレットには、ZODL（iOS/Android）、Zingo!（モバイル/デスクトップ）、Nighthawk（Android）、YWallet、Zallet（今後登場予定）、Keystone（ハードウェア）があります。完全な一覧は [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) を参照してください |
+| Wallet | 秘密鍵を保存し、ZEC の送受信を可能にするソフトウェアまたはハードウェアです。アクティブなウォレットには、ZODL（iOS/Android）、Zingo!（モバイル/デスクトップ）、Nighthawk（Android）、Zkool（モバイル/デスクトップ）、Zallet（今後登場予定）、Keystone（ハードウェア）があります。完全な一覧は [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) を参照してください |
 | WebZjs | ブラウザ環境向けにChainSafeが構築した、Zcash 初のJavaScript SDKです。これは、シールド化された ZEC を MetaMask にもたらした Zcash Shielded Wallet snap の基盤となっています。 |
 
 ## X
@@ -226,7 +226,7 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 
 ## Z
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|-----------|
 | Zcash | zk-SNARKs を使用する、プライバシー重視の暗号通貨です。transparent（Bitcoin 風）支払いと完全な shielded 支払いを橋渡しします。 |
 | Zcash Foundation | Zcash エコシステムを支援し、開発に資金を提供し、プライバシーを推進する独立系非営利組織です。 |
@@ -239,7 +239,7 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 | Zebra | Zcash Foundation による Rust ベースのフルノード実装です（zcashd の代替）。本番利用可能で、活発に保守されています。[GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Bitcoin Core からフォークされた、元祖 Zcash フルノードです。長期間の非推奨化を経て 2026 年 7 月に廃止され、その役割はコンセンサス用の Zebra とウォレット機能用の Zallet に分割されました。 |
 | ZIP | Zcash Improvement Proposal — プロトコル変更を提案し承認するために使われる、コミュニティのガバナンスプロセスです。[ZIP Repository](https://github.com/zcash/zips) |
-| ZODL | Zcash Open Development Lab の略です。2026 年初頭に、Bootstrap とのガバナンス上の対立を受けて辞任した Josh Swihart と元 Electric Coin Company のエンジニアリングチームによって設立された独立組織です。2026 年 3 月に 2,500 万ドル超のシード資金を調達し、2026 年 2 月に Zashi から改名された Zodl ウォレットを維持しています。[zodl.com](https://zodl.com) |
+| ZODL | Zcash Open Development Lab。2026 年初頭に、Bootstrap とのガバナンス上の対立を受けて辞任した Josh Swihart と元 Electric Coin Company のエンジニアリングチームによって設立された独立組織です。2026 年 3 月に 2,500 万ドル超のシード資金を調達し、2026 年 2 月に Zashi から改名された ZODL ウォレットを維持しています。[zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — Zcash の shielded トランザクションを支える暗号技術です。秘密情報を一切明かさずに、ある主張（たとえば有効な支出）を証明できます。 |
 | ZSA (Zcash Shielded Assets) | Zcash の shielded プライバシーを継承するユーザー発行トークンで、ZEC 以外の資産もネットワーク上でプライベートに移転できるようにします。[ZIP 226](https://zips.z.cash/zip-0226) で仕様化されており、NU7 の候補機能です。 |
 

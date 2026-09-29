@@ -1,31 +1,62 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Full_Nodes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Full Nodes
+# Vollständige Knoten
 
-Ein Full Node ist Software, die eine vollständige Kopie der Blockchain einer beliebigen Kryptowährung ausführt und damit Zugang zu den Funktionen des Protokolls bietet.
+## TL;DR
 
-Er enthält eine vollständige Aufzeichnung jeder Transaktion, die seit dem Genesis-Block stattgefunden hat, und ist daher in der Lage, die Gültigkeit neuer Transaktionen und Blöcke zu verifizieren, die der Blockchain hinzugefügt werden.
+- Ein vollständiger Knoten hält eine vollständige Kopie der Zcash-Blockchain und prüft jeden neuen Block und jede Transaktion anhand der Konsensregeln.
+- Zebra (`zebrad`) ist der Knoten, den man heute installieren sollte. Zakura ist eine zweite Implementierung, die von Zebra geforkt wurde.
+- zcashd wurde eingestellt. Der End-of-Support-Stopp wurde am 18. Juli 2026 bei Blockhöhe 3417100 erreicht, und diese Knoten starten nicht mehr.
+- Knoten und Wallet sind nun getrennte Programme. [Zallet](https://github.com/zcash/zallet) läuft mit einem Knoten und verwaltet die Schlüssel.
+- Der Betrieb eines eigenen Knotens ermöglicht unabhängige Verifizierung und macht es unnötig, dem Server einer anderen Person zu vertrauen.
 
-## Zcashd
+## Grunderklärung
 
-> **Hinweis:** zcashd wird eingestellt. Die Electric Coin Company hat [offiziell angekündigt](https://z.cash/support/zcashd-deprecation/), dass zcashd außer Betrieb genommen wird; seine Rolle als Full Node wird durch [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) ersetzt und seine Wallet-Rolle durch [Zallet](https://github.com/zcash/zallet). Für neue Deployments verwende Zebra (siehe unten). Wenn du bereits einen zcashd-Node betreibst, folge dem [Migrationsleitfaden: zcashd zu Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+Ein vollständiger Knoten ist Software, die eine vollständige Kopie der Blockchain einer Kryptowährung ausführt und dir Zugriff auf die Funktionen des Protokolls gibt.
 
-zcashd war die ursprüngliche Full-Node-Implementierung für Zcash, entwickelt und gepflegt von der Electric Coin Company. Die unten stehenden Build-Anweisungen bleiben als Referenz und für Betreiber erhalten, die von zcashd weg migrieren.
+Er enthält eine vollständige Aufzeichnung jeder seit der Entstehung erfolgten Transaktion und kann daher die Gültigkeit neuer Transaktionen und Blöcke prüfen, die zur Blockchain hinzugefügt werden.
 
-Zcashd stellt über seine RPC-Schnittstelle eine Reihe von APIs bereit. Diese APIs bieten Funktionen, die es externen Anwendungen ermöglichen, mit dem Node zu interagieren.
+## Knotenimplementierungen
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) ist ein Beispiel für eine Anwendung, die einen Full Node verwendet, um es Entwicklern zu ermöglichen, mobile-freundliche shielded Light Wallets zu erstellen und zu pflegen, ohne direkt mit Zcashd interagieren zu müssen.
+### Zebra
 
-[Vollständige Liste der unterstützten RPC-Befehle](https://zcash.github.io/rpc/)
+Zebra ist eine unabhängige, produktionsreife Implementierung eines vollständigen Knotens des Zcash-Protokolls, die von der Zcash Foundation erstellt und in Rust geschrieben wurde. Da zcashd eingestellt wurde, ist Zebra (`zebrad`) der empfohlene vollständige Knoten für neue Bereitstellungen.
+
+Zebra validiert Blöcke und Transaktionen, nimmt am Peer-to-Peer-Netzwerk teil und stellt eine RPC-Schnittstelle für Anwendungen bereit. Die Wallet ist jetzt eine separate Komponente: [Zallet](https://github.com/zcash/zallet) läuft mit einem Zebra-Knoten und verwaltet Schlüssel und Guthaben. Dies ersetzt zcashd, das Knoten und Wallet in einem einzigen Prozess bündelte.
+
+Um abgeschirmte Light Wallets bereitzustellen, läuft der Knoten neben einem Indexer, entweder dem etablierten [lightwalletd](https://github.com/zcash/lightwalletd) oder dem neueren [Zaino](https://zechub.wiki/zaino).
+
+Lies unbedingt das Zebra-Buch für Einrichtungsanleitungen und tritt dem R&D-Discord-Server bei, um Unterstützung zu erhalten.
+
+[Github](https://github.com/ZcashFoundation/zebra/)
+
+[Das Zebra-Buch](https://zebra.zfnd.org)
+
+Siehe [Zebra Vollständiger Knoten](/zcash-tech/zebra-full-node) für Installationsschritte, Konfiguration und Hardwareanforderungen.
+
+### Zakura
+
+Zakura ist ein zweiter konsenskompatibler vollständiger Knoten, der von Zebra geforkt und von Valar Group zusammen mit Project Tachyon entwickelt wurde. Er folgt denselben Protokollregeln und ergänzt schnellere Synchronisierung, Blockbereinigung und eine zcashd-RPC-Kompatibilitätsschicht. Siehe [Zakura Knoten](/zcash-tech/zakura-node).
+
+### zcashd (eingestellt)
+
+> **Hinweis:** zcashd wurde eingestellt. Die Electric Coin Company [kündigte die Einstellung an](https://z.cash/support/zcashd-deprecation/), und der automatische End-of-Support-Stopp wurde am 18. Juli 2026 bei Blockhöhe 3417100 erreicht. Jeder unveränderte zcashd-6.20.0-Knoten wurde bei dieser Höhe heruntergefahren und verweigert einen Neustart; außerdem unterstützt die Software NU6.3 nicht. Verwende Zebra. Wenn du eine zcashd `wallet.dat` besitzt, folge dem [Migrationsleitfaden: zcashd zu Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd war die ursprüngliche Implementierung eines vollständigen Knotens für Zcash, entwickelt und gepflegt von der Electric Coin Company. Die folgenden Build-Anweisungen werden als Referenz und für Betreiber beibehalten, die von zcashd migrieren.
+
+Zcashd stellt über seine RPC-Schnittstelle eine Reihe von APIs bereit. Diese APIs bieten Funktionen, die externen Anwendungen die Interaktion mit dem Knoten ermöglichen.
+
+[Lightwalletd](https://github.com/zcash/lightwalletd) ist ein Beispiel für eine Anwendung, die einen vollständigen Knoten nutzt, damit Entwickler mobilfreundliche abgeschirmte Light Wallets erstellen und pflegen können, ohne direkt mit Zcashd interagieren zu müssen.
+
+[Vollständige Liste unterstützter RPC-Befehle](https://zcash.github.io/rpc/)
 
 [Das Zcashd-Buch](https://zcash.github.io/zcash/)
 
+#### Einen Knoten starten (Linux)
 
-### Einen Node starten (Linux)
-
-- Abhängigkeiten installieren 
+- Abhängigkeiten installieren
 
       sudo apt update
 
@@ -34,7 +65,7 @@ Zcashd stellt über seine RPC-Schnittstelle eine Reihe von APIs bereit. Diese AP
       autoconf libtool ncurses-dev unzip git python3 python3-zmq \
       zlib1g-dev curl bsdmainutils automake libtinfo5
 
-- Neueste Version klonen, auschecken, einrichten und bauen:
+- Neueste Veröffentlichung klonen, auschecken, einrichten und erstellen:
 
       git clone https://github.com/zcash/zcash.git
 
@@ -47,44 +78,27 @@ Zcashd stellt über seine RPC-Schnittstelle eine Reihe von APIs bereit. Diese AP
 
 - Blockchain synchronisieren (kann mehrere Stunden dauern)
 
-    Um den Node zu starten, führe aus:
+    Um den Knoten zu starten, führe Folgendes aus:
 
       ./src/zcashd
 
-- Private Keys werden in ~/.zcash/wallet.dat gespeichert
+- Private Schlüssel werden in ~/.zcash/wallet.dat gespeichert
 
 [Anleitung für Zcashd auf Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
+## Praktische Auswirkungen
 
-## Zebra
+### Das Netzwerk
 
-Zebra ist eine unabhängige, produktionsreife Full-Node-Implementierung des Zcash-Protokolls, erstellt von der Zcash Foundation und in Rust geschrieben. Da zcashd eingestellt wird, ist Zebra (`zebrad`) der empfohlene Full Node für neue Deployments.
+Durch den Betrieb eines vollständigen Knotens hilfst du, das zcash-Netzwerk zu stärken, indem du seine Dezentralisierung unterstützt.
 
-Zebra validiert Blöcke und Transaktionen, nimmt am Peer-to-Peer-Netzwerk teil und stellt eine RPC-Schnittstelle für Anwendungen bereit. Die Wallet ist jetzt eine separate Komponente: [Zallet](https://github.com/zcash/zallet) läuft gegen einen Zebra-Node und verwaltet Keys und Guthaben. Dies ersetzt zcashd, das Node und Wallet in einem einzigen Prozess gebündelt hat.
+Dies hilft, gegnerische Kontrolle zu verhindern und das Netzwerk gegen einige Arten von Störungen widerstandsfähig zu halten.
 
-Um shielded Light Wallets zu bedienen, läuft der Node zusammen mit einem Indexer, entweder dem etablierten [lightwalletd](https://github.com/zcash/lightwalletd) oder dem neueren [Zaino](https://zechub.wiki/zaino).
-
-Lies unbedingt das Zebra-Buch für Einrichtungsanweisungen und tritt dem R&D-Discord-Server für Support bei. 
-
-[Github](https://github.com/ZcashFoundation/zebra/)
-
-[Das Zebra-Buch](https://zebra.zfnd.org) 
-
-[Discord](https://discord.gg/uvEdHsrb)
-
-
-
-## Das Netzwerk
-
-Indem du einen Full Node betreibst, hilfst du dabei, das zcash-Netzwerk zu stärken, indem du seine Dezentralisierung unterstützt. 
-
-Dies hilft dabei, gegnerische Kontrolle zu verhindern und das Netzwerk widerstandsfähig gegenüber einigen Formen von Störungen zu halten.
-
-DNS-Seeders stellen über einen eingebauten Server eine Liste anderer zuverlässiger Nodes bereit. Dadurch können sich Transaktionen im gesamten Netzwerk verbreiten. 
+DNS-Seeder stellen über einen integrierten Server eine Liste anderer zuverlässiger Knoten bereit. Dadurch können sich Transaktionen im gesamten Netzwerk verbreiten.
 
 ### Netzwerkstatistiken
 
-Dies sind Beispielplattformen, die Zugang zu Zcash-Netzwerkdaten bieten:
+Dies sind Beispielplattformen, die Zugriff auf Zcash-Netzwerkdaten ermöglichen:
 
 [Zcash Block Explorer](https://zcashblockexplorer.com)
 
@@ -92,30 +106,42 @@ Dies sind Beispielplattformen, die Zugang zu Zcash-Netzwerkdaten bieten:
 
 [Blockchair](https://blockchair.com/zcash)
 
-Du kannst auch zur Entwicklung des Netzwerks beitragen, indem du Tests ausführst oder neue Verbesserungen vorschlägst und Metriken bereitstellst. 
-
-
+Du kannst außerdem zur Entwicklung des Netzwerks beitragen, indem du Tests ausführst, neue Verbesserungen vorschlägst und Metriken bereitstellst.
 
 ### Mining
 
-Miner benötigen Full Nodes, um auf alle miningbezogenen RPCs wie getblocktemplate und getmininginfo zuzugreifen. 
+Miner benötigen vollständige Knoten, um auf alle Mining-bezogenen RPCs wie getblocktemplate und getmininginfo zuzugreifen.
 
-Zcashd ermöglicht außerdem Mining auf shielded Coinbase. Miner und Mining-Pools haben die Möglichkeit, direkt zu minen, um standardmäßig shielded ZEC in einer z-address anzusammeln. 
+Zcashd ermöglicht außerdem Mining zu abgeschirmter Coinbase. Miner und Mining-Pools können standardmäßig direkt minen, um abgeschirmte ZEC in einer z-Adresse anzusammeln.
 
-Lies den [Mining-Leitfaden](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) oder besuche die Community-Forum-Seite für [Zcash-Miner](https://forum.zcashcommunity.com/c/mining/13).
+Lies [Den Mining-Leitfaden](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) oder tritt der Community-Forumseite für [Zcash Miner](https://forum.zcashcommunity.com/c/mining/13) bei.
 
-### Privatsphäre 
+### Privatsphäre
 
-Das Betreiben eines Full Node ermöglicht es dir, alle Transaktionen und Blöcke im Zcash-Netzwerk unabhängig zu verifizieren.
+Der Betrieb eines vollständigen Knotens ermöglicht dir, alle Transaktionen und Blöcke im Zcash-Netzwerk unabhängig zu verifizieren.
 
-Das Betreiben eines Full Node vermeidet einige Datenschutzrisiken, die mit der Nutzung von Drittanbieterdiensten verbunden sind, die Transaktionen in deinem Namen verifizieren.
+Der Betrieb eines vollständigen Knotens vermeidet einige Datenschutzrisiken, die mit der Nutzung von Diensten Dritter zur Überprüfung von Transaktionen in deinem Namen verbunden sind.
 
-Die Nutzung deines eigenen Node erlaubt außerdem die Verbindung zum Netzwerk über [Tor](https://zcash.github.io/zcash/user/tor.html).
-Das hat den zusätzlichen Vorteil, dass andere Nutzer sich privat mit der .onion-Adresse deines Node verbinden können.
+Die Nutzung deines eigenen Knotens ermöglicht außerdem die Verbindung zum Netzwerk über [Tor](https://zcash.github.io/zcash/user/tor.html).
+Dies bietet den zusätzlichen Vorteil, dass andere Nutzer sich privat mit der .onion-Adresse deines Knotens verbinden können.
 
+## Häufige Fehler
 
-**Brauchst du Hilfe?**
+- zcashd anhand der obigen Anweisungen erstellen und einen funktionierenden Knoten erwarten. Diese Binärdateien halten bei der Einstellungshöhe an.
+- Einen Knoten betreiben und annehmen, dass deine mobile Wallet ihn nun verwendet. Eine Light Wallet kommuniziert weiterhin mit dem Server, mit dem sie konfiguriert ist, bis du sie auf deinen eigenen verweist. Siehe [Lightwallet-Knoten](/zcash-tech/lightwallet-nodes).
+- Nur `zebrad` betreiben und erwarten, dass sich Light Wallets verbinden. Der Knoten benötigt einen Indexer daneben, entweder lightwalletd oder [Zaino](/zcash-tech/zaino).
+- Nach Wallet-RPCs auf dem Knoten suchen. Schlüssel und Guthaben wurden zu Zallet verschoben.
 
-Lies die [Support-Dokumentation](https://zcash.readthedocs.io/en/latest/)
+## Verwandte Seiten
 
-Tritt unserem [Discord-Server](https://discord.gg/zcash) bei oder kontaktiere uns auf [twitter](https://twitter.com/ZecHub)
+- [Zebra Vollständiger Knoten](/zcash-tech/zebra-full-node) - den empfohlenen Knoten installieren, konfigurieren und betreiben
+- [Zakura Knoten](/zcash-tech/zakura-node) - die zweite Knotenimplementierung, geforkt von Zebra
+- [Lightwallet-Knoten](/zcash-tech/lightwallet-nodes) - die Server, die Light Wallets abfragen
+- [Zaino](/zcash-tech/zaino) - der Rust-Indexer, der Light Wallets bereitstellt
+- [Zcash Wallet-Synchronisierung](/zcash-tech/zcash-wallet-syncing) - warum die Synchronisierung so funktioniert
+
+## Weiterführendes Lernen
+
+Lies [Support-Dokumentation](https://zcash.readthedocs.io/en/latest/)
+
+Tritt unserem [Discord-Server](https://discord.gg/zcash) bei oder kontaktiere uns auf [X](https://X.com/ZecHub)

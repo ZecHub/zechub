@@ -80,7 +80,7 @@ Her varlık, ihraççının issuance key'i ile varlığın metinsel açıklamas�
 
 **Demoyu kendiniz çalıştırın!**
 
-zcash-tx-tool deposunu klonlayın: <https://github.com/QED-it/zcash_tx_tool>
+zcash-tx-tool deposunu klonlayın: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash Improvement Proposal'lar (ZIP'ler)
 

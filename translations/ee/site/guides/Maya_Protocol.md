@@ -1,8 +1,8 @@
-# Mayatɔwo ƒe Asitsatsa le Dɔwɔƒewo
+# Maya Ƒe Dede Siwo Woɖe Ðe Aga Me
 
 ---
 
-## Nufiame
+## Nufiagbalẽvi
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -11,70 +11,70 @@
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
     title="How to Swap Ethereum to Zcash on LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
 
-## Nukae nye Mayatɔwo ƒe Ðoɖowɔɖi?
+## Nukae nye Maya Protocol?
 
-Maya nye [nu ɖɔliɖɔli si woɖe ɖe vovo](https://nym.com/blog/what-is-dex) (DEX) ɖoɖo si na be woate ŋu adzra cryptocurrencies le blockchain vovovowo me. Le kpɔɖeŋu me, àte ŋu aɖɔli Bitcoin (BTC) le Bitcoin blockchain dzi kple Ethereum (ETH) le Ethereum blockchain dzi le mɔ bɔbɔe aɖe nu, evɔ màlé nunɔamesiawo ɖe asi alo alɔ dziɖuɖumegã aɖeke si le titina alo Nya Wò Asitsalawo (KYC) ƒe ɖoɖowo ɖe eme o.
+Maya nye ame si le nu ƒom na amewo. [gadzraɖoƒe si ŋu ŋusẽ mele o](https://nym.com/blog/what-is-dex) (DEX) si naa be woadzra gaƒlewo le blockchain vovovowo dzi. Le kpɔɖeŋu me, àte ŋu atsɔ Bitcoin (BTC) atrɔ asie kple Ethereum (ETH) le Ethereum ƒe blockchain la dzi bɔbɔe, evɔ màtsɔ nu siwo nèdzra ɖo alo alɔ̃ ɖe ame aɖe ƒe mɔfiafiawo dzi o loo alo nànya wò asisi nyuie hafi awɔ esia.
 
-Wozã Cosmos Software Development Kit (Cosmos SDK) tsɔ wɔ Maya Protocol eye wòwɔa dɔ le Proof of Bond (PoB) ƒe nukpɔsusu ɖeka ƒe mɔnu dzi. "Node Operators" ye léa ɖoɖowɔɖia me ɖe asi, amesiwo tsɔa ga dea ɖoɖoa me eye wokpɔa gakpɔkpɔ abe fetu ene ɖe woƒe nudzɔdzɔ kple agbagbadzedzewo ta. Le nyateƒe me la, nodes nye kɔmpiuta siwo zãa kɔmpiutadziɖoɖo siwo ɖoa kpe zãlawo ƒe asitɔtrɔ dzi eye wokpɔa nunɔamesiwo dzi le adrɛs siwo woɖo ɖi me le blockchain vovovowo me.
+Wotsɔ Cosmos Software Development Kit (Cosmos SDK) wɔ Maya Protocol eye ewɔa dɔ le Proof of Bond (PoB) nu. "Node Operators" siwo tsɔa ga dea ɖoɖo sia me hexɔa fetu ɖe woƒe agbagbadzedzewo ta la kpɔa edzi. Le nyateƒe me, kɔmpiutawoe nye nodes si wɔa dɔwɔɖoɖo aɖe si naa amewo ƒe asitsatsa kple nuwo dzi kpɔkpɔ nɔa adrɛs aɖewo ŋu le mɔ vovovowo dzi.
 
-Be woawu swap nu la, ele be woaxɔ cryptocurrency si wodo alɔe la le Maya ƒe adrɛswo dometɔ ɖeka me, si zãla aɖe aɖoe ɖa, eye emegbe woaɖo ga home si sɔ kplii tso Maya ƒe adrɛs bubu dzi le blockchain bubu dzi. Nodeawo ƒe akpa eve le etɔ̃ me ya teti kpɔa ɖoɖo sia dzi hedaa asi ɖe edzi, vevietɔ wokpɔa egbɔ be woxɔ ga la nyuie.
+Be woawu trɔa asi me nu la, ele be woxɔ ga si le Maya ƒe adrɛs ɖeka dzi eye ame aɖe naɖo ɖe amea. Emegbe woɖo eƒe home ma ke ɖa tso Maya ƒe dɔdrɔ̃ bubu gbɔ to blockchain bubuwo dzi. Nu etɔ̃liawo dometɔ eve ya teti kpɔa ɖoɖo sia ŋu heɖonɛ fianae, vevietɔ ne wokpɔ egbɔ be woda ga siawo katã ɖi nyuie hafi.
 
-To mɔ sia dzi la, ezãlawo ateŋu aɖo dzesi ƒomevi ɖeka ɖe blockchain ɖeka dzi eye woaxɔ ƒomevi bubu ɖe blockchain bubu dzi, wo katã le wo ɖokui si eye womezãa dzesi siwo woxatsa o.
+Le mɔ sia nu la, amesiwo zãa mɔnu siawo ate ŋu aɖo tokenyati aɖe ɖe blockchain ɖeka dzi eye woxɔ bubu le Blockchain evelia me. Wo katã wowɔna tẽe evɔ womegatsɔa token siwo wotsɔ bla akpa na o.
 
-## Nukae Nye Kpeɖodzi Be Wobla Ðekae?
+## Nukae Nye Kpeɖodzi Si Le Ðekawɔwɔ Me?
 
-Proof of Bond (PoB) nye nukpɔsusu ɖeka ƒe mɔnu si me ele be node dɔwɔlawo natsɔ bond (zi geɖe la, le network ƒe native token ƒe nɔnɔme me) be woakpɔ gome le network la me. Kadodo sia wɔa dɔ abe ganyawo ƒe dedienɔnɔ ƒomevi aɖe ene, si kpɔa egbɔ be nodes wɔa nu anukwaretɔe eye woléa network la ƒe blibonyenye me ɖe asi2. Ne node aɖe dze agbagba be yeawɔ nu vɔ̃ɖi alo do kpo eƒe dɔwo wɔwɔ la, woate ŋu aɖe eƒe kadodoa dzi akpɔtɔ, si fia be woxɔa eƒe akpa aɖe le esi abe tohehe ene.
+Proof of Bond (PoB) nye ɖoɖo si dzi wotona wɔa nu le ɖekawɔwɔ me, afisi wòle be nugbɔdɔwɔlawo nawɔ dɔ atsɔ awɔ adzɔgbeɖeɖe aɖe (siwo zi geɖe anye nyatakakadzraɖoƒea ƒe dzesi ŋutɔŋutɔ) bene woate ŋu akpɔ gome le kadodoa me. Dzesi sia zua ganyawo ta kpɔkpɔ mɔ̃ na nudɔdɔwo eye wònana wokpɔa egbɔ be wodɔa anukwareɖiɖi kple adede blibo ɖe edzi.2 Ne nubla dze agbagba wɔ nusi menyo o alo mewɔ eƒe agbanɔamedziwo nyuie o la, woagblẽe ɖi, si fia be woaxɔ akpa sue aɖe le esi abe tohehe ene.
 
-Le Maya ƒe Nubabla me la, mɔnu sia kpena ɖe ame ŋu be woakpɔ ganyawo ƒe asixɔxɔ tso node dɔwɔlawo ƒe nunɔamesi siwo wotsɔ de afɔku me me, si wɔnɛ be gazazã nyuie dzina ɖe edzi. Nenema ke le Thorchain me la, node dɔwɔlawo blaa RUNE (si nye native token) be woatsɔ akpɔ network la ta eye woakpɔ egbɔ be gomekpɔlawo wɔ nu aduadu.
+Le Maya Protocol me la, mɔnu sia kpena ɖe ga ŋu le nu siwo dzi nodɔ dɔwɔlawo ɖo be woazã na yewo ta. Nenema ke le Thorchain hã me la , nudɔ wɔlawo tsɔa RUNE (dzigbe ƒe dzesi) dea kadodo kple amewo tsɔ kpɔa woƒe nutoa me tɔwo tae.
 
-## Vovototo siwo le Maya kple TORChain dome
+## Vovototo si le Mayawo kple THORChain dome
 
-Maya nye TORChain ƒe fɔklɔ gake wotsɔ nu yeye ʋee aɖewo kple dɔwɔwɔ si subɔna abe mɔnu gã aɖe ene la le eme. Wo dometɔ siwo le vevie wue nye
+Maya nye THORChain ƒe akpa aɖe gake eƒe nu yeyewo kple dɔwɔna aɖewo li siwo wɔae be enye mɔnu bubu. Wo dometɔ vevitɔwoe nye:
 
-### Liquidity Nodes (Nuwo ƒe Ʋuʋu).
+### Gadzikɔntawo ƒe Mɔ̃tiwo
 
-Le esi teƒe be Maya nawɔ ɖe Pure Bond Model dzi la, ele ŋugble dem le tɔtrɔ yi Liquidity Nodes model ŋu. Le ɖoɖo sia me la, wonana nodewo te ŋu dzɔa ga tẽ, eye woblanɛ ɖe network la ŋu. Mɔnu sia fia be afɔku gã aɖe dzea ŋgɔ node dɔwɔlawo: ne wozã ga le mɔ gbegblẽ nu la, wobua ga, si wɔa dɔ abe mɔxenu sẽŋu aɖe ene. Esia wɔe be node dɔwɔlawo zãa Liquidity Units tso Liquidity Pools, siwo naa liquidity le ɣeyiɣi ɖeka me eye wodoa ŋusẽ network ƒe dedienɔnɔ.
+Le esi teƒe be woazã Pure Bond Model la, Maya le nu kpɔm na tɔtrɔ ayi Liquidity Nodes model dzi. Le ɖoɖo sia me la, nodwo tea ŋu naa ga tẽe to eƒe kadodo kple internet-ʋɔdzikpɔƒea me. Mɔnu sia fia be node operators doa go afɔku gã aɖe: ne wozãa ga ɖe mɔ gbegblẽ nu la, wogblẽna eye wòɖea ŋusẽ si wotsɔ xea alakpa ɖa ŋutɔ fiana. Esia ta, node operatorwo zãa liquidity Units tso Liquidities Pools siwo nana ga nɔa anyi heɖoa network security te sesĩe.
 
-### Nusiwo Bu Takpɔkpɔ Mavɔ Mavɔ
+### Ametakpɔkpɔ Tso Nu Gblẽ Wɔwɔ Siwo Meva Nɔ O Ŋu
 
-Nuɖoanyi si kpɔa gazazã ƒe dɔwɔƒewo ta tso ɣeyiɣi kpui aɖe ƒe nusiwo bu (LP) siwo woate ŋu ato ne wole gazazã nam me, le crypto nunɔamesiwo ƒe asiwo ƒe tɔtrɔ ɣesiaɣi ta.
-ILP xɔ $CACAO ƒe nuzazãwo ƒe 10% ($CACAO miliɔn 10) eye wotsɔa ɖoɖowɔɖi ƒe fewo ƒe 10% yɔa wo ɣesiaɣi. ILP va nɔa dɔ wɔm le ŋkeke 50 megbe le ga si woda ɖe ga me megbe, eye woɖoa ga si woatsɔ axe fe ɖe eta la ƒe seɖoƒe na 100%.
+Enye ɖoɖo si kpɔa ga siwo woana amewo ta tso ɣeyiɣi kpui aɖe ƒe nubuɖeame (LPs) si ate ŋu ava ame dzi ne wole ga nam la me, le esi woƒe asiwo nɔa tɔtrɔm ɣesiaɣi ɖe crypto-dzinɔamesiwo teƒe ta.
+ILP kpɔa $CACAO ƒe 10% (miliɔn 10 le CACAo) eye woxɔa ga tso ɖoɖowɔɖi ŋuti fewo me zi geɖe. ILP va wɔa dɔ ŋkeke 50 megbe, si dzi wotsi asi ɖo be eƒe akpa aɖe naɖo 100%.
 
-Ɣeyiɣi didi si ILP ƒe kpekpeɖeŋunana anɔ te ɖe ASSET kple $CACAO ƒe dɔwɔwɔ dzi. Wokpɔa kpekpeɖeŋu blibo le ŋkeke 150 megbe ne ASSET wɔ dɔ nyuie wu, eye le ŋkeke 450 megbe ne $CACAO wɔ dɔ nyuie wu. Woxea fe na ILP eye wogbugbɔa ɖoɖo ɖe eŋu ne woɖe ga le eme keŋkeŋ gake gaɖeɖe ƒe akpa aɖe mekpɔa ŋusẽ ɖe edzi o. Le top-ups gome la, wogbugbɔ ɖoa ​​ILP gake womexea fe ɖe eta o.
+ILP ƒe ɣeyiɣi didi nɔa te ɖe ASSET kple $CACAO dzi. Ne ASSETS wɔ dɔ nyuie wu la, wotea ŋu kpɔa eƒe akpa sia akpa le ŋkeke 150 megbe eye ne CACAOs hã wɔa dɔ nyuie wua 450 megbe. Woxea ga na ILP-tɔ siwo katã dzoe gake womekpɔ ŋusẽ aɖeke ɖe edzi o. Le ame bubuwo gome la, wogate ŋu axega nu si wotsɔ yi aƒe me hafi va ɖo afi aɖe ya teti ko.
 
-### Mamã ƒe kpɔɖeŋu si to vovo
+### Ðoɖo bubu si dzi woato amae na amewoe nye esi.
 
-Liquidity Auction nye ŋkeke 21 ƒe wɔna si wowɔ be woama $CACAO ƒe dzesiwo ɖe gomekpɔlawo dome. Le wɔnaa me la, ezãlawo tsɔ nunɔamesi siwo ŋu wodo alɔe la de adrɛs aɖe koŋ dzi. Le nudzadzra la ƒe nuwuwu la, wotsɔ $CACAO ƒe dzesiwo ƒe 90% na gomekpɔlawo le woƒe gazazã ƒe nudzɔdzɔwo nu, esime wotsɔ 10% susɔea na ILP ƒe ga si wodzra ɖo ɖi. Gomenɔlawo va zu gazazã ƒe dɔwɔƒewo, eye wotsɔa woƒe nunɔamesi siwo woda ɖe eme kple $CACAO ƒe dzesiwo dea Maya ƒe tadeaguƒewo, si wɔnɛ be wokpɔa ga si wokpɔ la ƒe akpa aɖe.
+Liquidity Auction nye ŋkeke 21 ƒe wɔna si wowɔ be woatsɔ ama $CACAO tokens le amesiwo kpɔ gome. Le azã la me, ame siwo zãa wo da woƒe ga ɖe adrɛs aɖe dzi. Ne adzodada sia wu enu la, wodzɔa $CCAO token 90% na amesiame wòsɔna kple alesi wonana eƒe gakpɔkpɔe eye wotsɔa 10% susɔea naa ILP gadzraɖoƒe. Ameawo va zu nuɖuɖumamawo, wotsɔ woƒe kesinɔnuwo kpakple $Cacao tokens de Maya's poolwo me, si wɔe be wote ŋu kpɔa fetu aɖewo tso fe siwo wokpɔ ta.
 
-### Mɔ bubu si dzi woato akpɔ nusiwo wodzra ɖo ɖi gbɔ
+### Mɔ bubu si dzi woato awɔ nu kple ga siwo le eme la
 
-Le Maya ƒe Nubabla ƒe gɔmedzedze la, CACAO ƒe nudzraɖoƒe siwo li la nye 10% ko le nusiwo katã wotsɔ vɛ me, ne wotsɔe sɔ kple 44% na THORChain, eye woɖoe koŋ na Imermanent Loss Protection (ILP). Block emissions mele Maya me o; eye ne wowɔ Protocol Owned Liquidity kple Lending ŋudɔ la, woaɖe aɖaŋu bubu afia, abe alesi wòle le THORChain me ene la, akpa siawo wɔ ɖeka kplikplikpli kple Reserves.
+Le Maya Protocol ƒe dzɔtsoƒe la, CACAO ga siwo nɔ anyi nyea nuɖuɖumɔnu blibowo katã ƒe 10% ko le esi wotsɔ wo sɔ kple THORChain tɔ si nye 44% ta. Eye wole ɖoɖo wɔm koŋ ɖe Gbegblẽ Siwo Nu Mava Nɔna o (ILP) ŋu. Maya meɖea nugbagbevi aɖeke tsoa eme o; eye ne woɖo Ŋutiɖoɖo Ðe Mɔ̃ɖaŋunuawo Ŋu Kple Nudzraɖoƒewo gɔme la, woƒe wɔwɔme ato vovo abe alesi wòle le THORCHIN ene, elabena akpa siawo wɔ ɖeka kplikplikpli kple Ga Aɖewoe.
 
-Ke hã, togbɔ be vovototo le eme hã la, Maya hã nyea egbɔkpɔnu si kpe ɖe THORChain ŋu, si naa dɔmawɔmawɔ nyuie, kekeɖenudɔwɔwɔ kple kpeɖodzinana, eye wòtsɔa kadodo yeye siwo meli le THORChain ƒe dɔwɔwɔ fifia me o la ƒoa ƒui.
+Togbɔ be vovototowo le wo dome hã la, Maya nye mɔ̃ si de nu THORChain ŋu. Eɖea dɔ geɖe wɔwɔ ɖe edzi eye wòkpena ɖe eŋu hedoa ŋusẽe hewɔa ɖoɖo bubuwo siwo mele fifia o la ƒe dɔwɔwɔ ɖekae kple Internet dzi ha yeyewo.
 
-Azɔ hã, Maya ƒe taɖodzinu enye be yeazu *backend* na subɔsubɔdɔ bubuwo be woatu ɖe edzi, le mɔkpɔkpɔ me be yeakpɔ *frontends* yeye geɖe, alo DEX subɔsubɔdɔ siwo wotu ɖe Maya ƒe xɔtuɖoɖowo dzi.
+Azɔ hã, Maya ƒe taɖodzinu enye be yeava zu *backend* na dɔ bubuwo siwo dzi woatu ɖo le mɔkpɔkpɔ me be yewoakpɔ nu yeye geɖe tso *frontends*, alo DEX-dɔwɔƒe si wotu ɖe Maya ƒe mɔ̃ɖaŋunuwo ŋu.
 
-## Maya protocol gakotoku ƒe ƒoƒo ɖekae
+## Maya ƒe ɖoɖowɔɖi gaɖakawo ƒokpli
 
-Le dɔwɔwɔ abe *backend* ene la, ehiã be Maya nado alɔe to UI vovovowo kple gakotoku siwo woazã me. 
-Subɔsubɔha siwo doa alɔ Maya xoxo la dometɔ aɖewo ƒe ŋkɔwoe nye esi:
+Esi wònye be Maya nye *backend* la, ele be UI kple gaɖaba vovovo nanɔ eŋu hafi woate ŋu azãe. 
+Esia nye ŋkɔ siwo le Maya dzi xoxo la dometɔ aɖewo ƒe kɔpi:
 
-[Thorwallet ƒe DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX ƒe akpa aɖe](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
 
-[El Dorado ƒe nya](https://www.eldorado.market/): XDEFI, Safuidzraƒe
+[El Dorado (Dɔ̃evi)](https://www.eldorado.market/): XDEFI, Keystore
 
-[Kakao ƒe Trɔtrɔ](https://cacaoswap.app/): Safuidzraƒe, MetaMask, XDEFI, Keplr, Titri
+[CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 
-[Asgardex ƒe ŋkɔ](https://www.asgardex.com/): Safuidzraƒe, Ledger
+[Asgardex ƒe akpa aɖe](https://www.asgardex.com/): Keystore, Ledger
 
-[DefiSpot ƒe nyawo](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Gakotoku ƒe Kadodo, Titri Gakotoku, Argeentx, Braavos, Kakaɖedzigakotoku, kple Rabby.
+DefiSpot: meganɔ Internet dzi o, eƒe domen la megale dɔ wɔm nyuie o.
 
-[XDEFI ƒe ŋkɔ](https://www.xdefi.io/): a multi-ecosystem ɖokuidzikpɔkpɔ gakotoku si me wodoa alɔ 30+ native blockchains, kple EVM kple Cosmos kɔsɔkɔsɔwo katã, siwo dometɔ aɖewoe nye Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, kple bubuwo.
+[XDEFI](https://www.xdefi.io/): enye ga si woɖuna le eɖokui dzi kple nu gbagbe vovovo siwo me wotrɔ asi le, eye wòkpena ɖe gadzraɖoƒe 30+ ŋu kpakple EVM-wo katã kple Cosmos ƒe mɔ̃ɖaŋunu vovovowo abe Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, kple bubuwo.
 
-[KeepKey ƒe nyawo ](https://keepkey.com/): Hardware wallet si wotsɔ dzraa dijitaal nunɔamesiwo ɖo dedie.
+[KeepKey ](https://keepkey.com/): Ga si wotsɔna dzraa gawoe be woatsɔ adzra kɔmpiuta dzi nuwo ɖo.

@@ -185,9 +185,9 @@ Free2z Live 灵活且强大。在下一节中，我将概述它的功能和工�
 
 [Free2z](https://free2z.cash/)  
 [Free2z 文档](https://free2z.cash/docs/)  
-[2Z 概览](https://free2z.cash/docs/2Zs/)  
-[创建资料页](https://free2z.cash/docs/creators/creating-a-profile)  
-[什么是 Free2z Live？](https://free2z.cash/docs/creators/free2z-live)  
+[2Z 概览](https://free2z.cash/docs/getting-started/tuzis)  
+[创建资料页](https://free2z.cash/docs/for-creators/creating-a-profile)  
+[什么是 Free2z Live？](https://free2z.cash/docs/for-creators/free2z-live)  
 [面向支持者的 Free2z](https://free2z.cash/docs/category/for-supporters)
 
 ---

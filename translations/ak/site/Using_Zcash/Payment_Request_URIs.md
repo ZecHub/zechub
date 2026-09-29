@@ -30,7 +30,7 @@ Sɛnea wode Zcash bɛyɛ Katua Abisade:
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
     title="How to make Payment Requests with Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -46,7 +46,7 @@ Zcash Donation Widget a wode bɛka wo Wɛbsaet no ho:
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
     title="Adding a Zcash Donation Widget to your Website"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

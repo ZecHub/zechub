@@ -16,7 +16,7 @@ Itọsọna fun deploying a zcashd Zcash kikun node (Electric Coin Co imuse) lil
     src="https://www.youtube.com/embed/SVekeNU6_-g"
     title="Zcash Full Node setup on Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -128,7 +128,7 @@ Tẹ "Fọwọsi" ki o si buwọlu awọn idunadura ni Keplr.
 
 ## Ìgbésẹ̀ Kẹrin: Yan Ẹni Tó Máa Bójú Tó O Ní Nǹkan Rẹ
 
-Lẹ́yìn ~ 30 ìṣẹ̀lẹ̀, ẹ ó rí àwọn owó tí wọ́n fi ń ra ọjà. Ẹnìkan ní:
+Lẹ́yìn ~ 30 ìṣẹ̀lẹ̀, ẹ óo rí àwọn owó tí wọ́n fi ń ra ọjà. Ẹnìkan ní:
 
 -> **Iye owo fun bulọọki** (ni AKT tabi USDC)
 
@@ -512,7 +512,7 @@ Nígbà tí owó rẹ bá tán, Akash yóò pa ìmúṣẹ ọ̀rọ̀ náà tì
 
 Akash Docs: Ìtàn tí ó ṣe pàtàkì jùlọ nínú ìtàn náà. [https://akash.network/docs/](https://akash.network/docs/)
 
-Àwọn olùwádìí Zcash: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+Àwọn olùwádìí Zcash: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 Akash Discord: Ìjàǹbá fún àwọn ọmọdé. [https://discord.akash.network](https://discord.akash.network) (nípa àwọn ọ̀ràn olùpèsè)
 

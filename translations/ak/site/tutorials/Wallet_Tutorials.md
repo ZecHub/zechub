@@ -20,6 +20,8 @@ ____
 
 ____ 
 
+> Wɔde Ywallet video abiɛsa a ɛwɔ ase ha no asie sɛnea ɛbɛyɛ a wobetumi ahwɛ mu. Wɔnhwɛ Ywallet so bio na wɔrennyɛ no foforo mma Ironwood, enti entumi nni nkɔnsɔnkɔnsɔn no akyi bio. Paw sika kotoku a wɔahwɛ so yiye fi... [Sika kotoku](https://zechub.wiki/wallets) kratafa.
+
 - Ywallet Nwini a Wɔde Sie
 
 [![Video Thumbnail](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)

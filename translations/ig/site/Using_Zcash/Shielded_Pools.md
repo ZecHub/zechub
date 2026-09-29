@@ -37,7 +37,7 @@ Ka Zcash na-agbanwe, enwere ike iwebata ọdọ mmiri ọhụrụ echedoro iji m
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Fig 1: Ihe osise na-egosi ọdọ mmiri 4 dị ugbu a ka ọ bụrụ Ọktọba, 2025
+Fig 1: Ihe osise na-egosi ọdọ mmiri atọ a na-echebe (Sprout, Sapling na Orchard) ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Fig 2: Ihe osise na-egosi ọdọ mmiri Orchard dị ka nke Ọktọba, 2025
+Fig 2: Ihe osise na-egosi ọdọ mmiri Orchard ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
 
 <br/>
 
@@ -70,7 +70,7 @@ Orchard emeela ka o nwekwuo ike, arụmọrụ na nzuzo site n'ibelata mgbapụt
 
 Since the Ironwood upgrade activated on 28 July 2026, **Orchard is spend-only**. No new value can enter the pool. Funds already held there can still be spent, and are migrating out into Ironwood through the turnstile. Wallets handle this for you, though most give you some control over the pace.
 
-Ọ bụrụ na i nwere ego Orchard, lee: [Osisi ígwè](/zcash-tech/ironwood) maka ihe ọpụpụ pụtara n'omume.
+Ọ bụrụ na i nwere ego Orchard, lee: [Ironwood](/zcash-tech/ironwood) maka ihe ọpụpụ pụtara n'omume.
 
 ____
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Fig 3: Ihe osise na-egosi ọdọ mmiri Sapling dị ka nke Ọktoba, 2025
+Fig 3: Ihe osise na-egosi ọdọ mmiri Sapling ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
 
 <br/>
 
@@ -90,7 +90,7 @@ Zcash Sapling na-enyere ndị ọrụ aka ịme azụmahịa nkeonwe n'ime sek�
 
 Nchedo azụmahịa na-eme ka nzuzo dịkwuo elu, nke mere na ọ gaghị ekwe omume maka ndị ọzọ ijikọ azụmahịa ma chọpụta ego ZEC a ga-ebufe. Sapling na-emekwa ka ojiji rụọ ọrụ site n'ibelata ihe nchọpụta kọmputa iji mepụta azụmahịa onwe onye site n"ịme ya ka ọ dịrị ndị ọrụ mfe ịnweta.
 
-Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (YWallet, Zingo Wallet Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
+Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
 
 ____
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Fig 4: Ihe osise na-egosi ọdọ mmiri Sprout dị ka nke Ọktọba, 2025
+Fig 4: Ihe osise na-egosi ọdọ mmiri Sprout ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
 
 Sprout bụ nke mbụ na-enweghị ikike, Zero Knowledge nzuzo protocol mgbe ọ bụla. Ọ malitere n'ụbọchị 28th October 2016.
 
@@ -113,7 +113,7 @@ As the Zcash ecosystem continued  to expand with increasing number of shielded t
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Fig 5: Ihe osise na-egosi Transparent pool dị ka nke Ọktọba, 2025
+Fig 5: Ihe osise na-egosi Transparent pool ruo 29 Ọktọba, 2025, tupu Ironwood amalite ọrụ
 
 <br/>
 
@@ -162,7 +162,7 @@ Ihe nke a pụtara na-adabere n'ebe ego gị dị:
 
 > **One privacy caveat worth knowing.** The turnstile publishes the *amount* that crosses between pools, along with the block height. Sender and receiver stay hidden as always, but a distinctive amount can be linked back to you. This is why wallets migrate in stages using standard denominations instead of moving your balance in one recognisable lump. Let your wallet pace itself, and consider using Tor or a VPN so your IP is not tied to the amounts you move.
 
-Lee ya ebe a . [Osisi ígwè](/zcash-tech/ironwood) maka nkwalite ahụ n'onwe ya, na [Ihe A Na-akpọ Turnstile](/zcash-tech/the-turnstile) maka etu akwụkwọ ndekọ ego si arụ ọrụ.
+Lee ya ebe a . [Ironwood](/zcash-tech/ironwood) maka nkwalite ahụ n'onwe ya, na [Ihe A Na-akpọ Turnstile](/zcash-tech/the-turnstile) maka etu akwụkwọ ndekọ ego si arụ ọrụ.
 
 <br/>
 
@@ -179,10 +179,10 @@ Lee ya ebe a . [Osisi ígwè](/zcash-tech/ironwood) maka nkwalite ahụ n'onwe y
 
 ## Peeji ndị metụtara ya
 
-- [Osisi ígwè](/zcash-tech/ironwood)  Nwelite nke mepụtara ọdọ mmiri ugbu a
+- [Ironwood](/zcash-tech/ironwood)  Nwelite nke mepụtara ọdọ mmiri ugbu a
 - [Ihe A Na-akpọ Turnstile](/zcash-tech/the-turnstile)  Olee otú uru na-aga n'etiti ọdọ mmiri a audited
 - [Akpa ego](/using-zcash/wallets)  Kedu obere akpa ego a na-echekwa ma Ironwood dị njikere
 - [Ihe ndị e mere eme](/using-zcash/transactions)  Otu esi eziga azụmahịa echekwara
 - [Ịzụta ZEC](/using-zcash/buying-zec)  Ịzụta ZEC tupu iji ya na ọdọ mmiri.
-- [ZK-SNARKs](/zcash-tech/zk-snarks)  Ntọala nzuzo nke ọdọ mmiri ndị e chebere
+- [zk-SNARKs](/zcash-tech/zk-snarks)  Ntọala nzuzo nke ọdọ mmiri ndị e chebere
 - [Gịnị bụ ZEC na Zcash?](/start-here/what-is-zec-and-zcash)  Ndabere na nzuzo Zcash

@@ -512,7 +512,7 @@ When your balance runs low, Akash will auto-close your deployment. **Top up your
 
 **Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash Explorers**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (for provider issues)
 

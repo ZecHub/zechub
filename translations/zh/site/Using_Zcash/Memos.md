@@ -22,6 +22,14 @@ memo 主要用于给付款署名。由于 shielded 交易会加密你的数据�
 
 #### 进阶
 
+> **历史资料。本演示已无法按原样运行。**
+>
+> 下方演示使用 zcashd，其[接收脚本](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh)通过 `zcash-cli` 读取备注。zcashd 已于 2026 年 7 月 18 日到达自动终止支持（End-of-Support）停机，因此该脚本无法连接到正在运行的节点，且尚未被移植。
+>
+> 通过命令行读取屏蔽备注在 Zallet 上仍然可行：`zallet rpc z_listunspent` 会返回每条收到的屏蔽票据，并附带与脚本读取的相同的 `memoStr` 字段。命令用法见 [Zallet 快速参考指南](/using-zcash/zallet-quick-reference-guide)，将节点从 zcashd 迁移出来见 [迁移到 Zebra 和 Zallet 的指南](/guides/migration-guide-zcashd-to-zebrad-zallet)。Zallet 仍处于测试版阶段。
+>
+> 本节作为 Magic-Wormhole 演示的历史记录予以保留。
+
 以下演示了如何将 Zcash Shielded Memos 与 Magic-Wormhole CLI 和 zcashd 配合使用，以便安全地把文件从一台电脑发送到另一台电脑！：
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

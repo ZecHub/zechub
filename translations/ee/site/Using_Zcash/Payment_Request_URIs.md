@@ -30,7 +30,7 @@ Alesi nàwɔ Fexexe ƒe Biabia kple Zcash:
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
     title="How to make Payment Requests with Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -46,7 +46,7 @@ Zcash Donation Widget tsɔtsɔ kpe ɖe wò Nyatakakadzraɖoƒea ŋu:
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
     title="Adding a Zcash Donation Widget to your Website"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ɖe mɔ ɖeFullScreen ŋu
+    allowFullScreen
     loading="lazy"
   />
 </div>

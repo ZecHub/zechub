@@ -2,7 +2,7 @@
 
 Un portafoglio hardware è un tipo speciale di portafoglio che memorizza le chiavi private dell'utente in un dispositivo hardware sicuro. Le chiavi private non lasciano mai il dispositivo, assicurando che non ci sia il rischio di perdere i fondi anche se il dispositivo è esposto a un computer potenzialmente infetto. I portafogli hardware offrono la sicurezza di un coldwallet o cartaceo, ma con il vantaggio di un'accessibilità simile a quella dei hot wallet.
 
-Per saperne di più sui diversi tipi di pool Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://wiki.zechub.xyz/zcash-value-pools)
+Per saperne di più sui diversi tipi di pool Zcash [<img src="/content-images/square-arrow-up-right-bb992d84b8.svg" width="18" height="18">](https://zechub.wiki/zcash-value-pools)
 
 ---
 

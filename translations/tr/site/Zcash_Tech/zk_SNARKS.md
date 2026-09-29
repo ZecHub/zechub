@@ -161,7 +161,7 @@ Güvenilir ama Evrensel Kurulum - Güvenilir kurulumu yalnızca bir kez çalış
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Güvenilir Kurulum gerektirir ancak çok kısa kanıtlara sahiptir ve hızlı doğrulanabilir.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK): Evrensel Güvenilir Kurulum.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Evrensel Güvenilir Kurulum.
 
 [DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Güvenilir Kurulum gerektirmez ancak biraz daha uzun kanıtlar üretir veya ispatlayıcının çalışması daha uzun sürebilir. 
 

@@ -14,7 +14,7 @@
     src="https://www.youtube.com/embed/b5dIuGstMvI"
     title="An introduction to Zingolib + Zaino"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -38,7 +38,7 @@ O yoo nilo lati intall 3 ohun fun yi lati ṣiṣẹ daradara. Mo tun so iboju t
 
 `sudo apt install screen`
 
-### ẹyẹ zebrad
+### zebrad
 
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
@@ -76,7 +76,7 @@ zainod --config zindexer.toml
 ```
 
 
-### ẹ̀rọ-ìmọ̀ràn
+### zingo-cli
 
 ```
 git clone https://github.com/zingolabs/zingolib.git

@@ -62,7 +62,7 @@ Deliverable 6.2 audited source code को एक public Github repo में �
 * Deliverables: 
 Q1 2025 में, टीम ने [red·bridge demo website](https://redbridge-demo.red.dev/index.html) के लॉन्च की घोषणा की, जहाँ कोई भी user experience को आज़मा सकता है, feedback दे सकता है, और सुधार सुझा सकता है। यह गैर-तकनीकी लोगों को project से परिचित कराने का एक आसान तरीका भी है।
 
-* टीम ने red·bridge के अंतिम संस्करण के लिए Zebra का उपयोग किया। इसका परीक्षण करने के लिए, उन्होंने अपने test blockchain, ZavaX Oracle, के तीन में से दो nodes को upgrade किया, जो Avalanche के Fuji testnet पर चलता है। अंतिम node भी सफलतापूर्वक upgrade किया गया, और अब [Zavax Oracle](https://zavax-oracle.red.dev/) अब ZEBRA पर चल रहा है!
+* टीम ने red·bridge के अंतिम संस्करण के लिए Zebra का उपयोग किया। इसका परीक्षण करने के लिए, उन्होंने अपने परीक्षण blockchain, ZavaX Oracle, के तीन में से दो नोड को upgrade किया, जो Avalanche के Fuji testnet पर चलता है। अंतिम नोड भी सफलतापूर्वक upgrade किया गया, और अब [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) अब Zebra पर चल रहा है!
 
 * 2025 की Q1 में, red.bridge website को इस तरह code किया गया कि वह प्रारंभिक version, जो केवल red था, की तुलना में red, Dark, Light, और Zebra — ये चार views प्रदान करे।
 

@@ -11,4 +11,4 @@ Lista dei portafogli trasparenti
 - [Exodus](https://www.exodus.com/)
 - [Metal](https://metalpay.com/)
 - [Ownbit](https://ownbit.io/en/)
-- [Safepay](https://safepay.safecoin.org/)
+- [Safepay](https://web.archive.org/web/20220819045153/https://safepay.safecoin.org/)

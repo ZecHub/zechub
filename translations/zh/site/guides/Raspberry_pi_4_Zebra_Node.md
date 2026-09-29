@@ -71,7 +71,7 @@
 
 ## 故障排查
 
-如果你在构建或运行 Zebra 时遇到任何问题，请查看 [Zebra 文档](https://doc.zebra.zfnd.org/docs/intro.html) 获取故障排查建议和更多信息。
+如果你在构建或运行 Zebra 时遇到任何问题，请查看 [Zebra 文档](https://zebra.zfnd.org/user/troubleshooting.html) 获取故障排查建议和更多信息。
 
 请务必让你的 Raspberry Pi 保持凉爽，因为运行节点会产生热量。你可能需要使用散热方案，例如风扇或散热片。
 

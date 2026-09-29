@@ -4,7 +4,7 @@
 
 # Zcash Gakotoku ƒe Nufiamewo
 
-Gakotoku ŋuti nufiame siwo ate ŋu akpe ɖe ŋuwò nàdze ZEC gɔme la le ete.
+Gakotoku ŋuti nufiame siwo ate ŋu akpe ɖe ŋuwò nàdze ZEC gɔme la ƒe xexlẽdzesiwo le ete.
 
 
 - Zodl ƒe Gakotoku 
@@ -20,6 +20,8 @@ ____
 
 ____ 
 
+> Wodzra Ywallet video etɔ̃ siwo le ete ɖo be woate ŋu akpɔ wo. Womegaléa be na Ywallet o eye womawɔe yeyee na Ironwood o, eyata magate ŋu adze kɔsɔkɔsɔa yome o. Tia gakotoku si dzi wodzra ɖo tso... [Gakotokuwo](https://zechub.wiki/wallets) axa 10.
+
 - Ywallet Nudzraɖoƒe Fafɛ
 
 [![Video Thumbnail](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)
@@ -33,7 +35,7 @@ ____
 
 ____
 
-- Ywallet Fetu Geɖe ƒe Nɔnɔme
+- Ywallet Fexexe Geɖe ƒe Nɔnɔme
 
 [![Video Thumbnail](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
 

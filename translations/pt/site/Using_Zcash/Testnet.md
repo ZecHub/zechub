@@ -33,14 +33,14 @@ Um desenvolvedor de carteira pode conectar o software a um endpoint RPC da Testn
 
 #### 2. Teste de atualizações de rede
 
-A Zcash atualiza periodicamente seu protocolo principal (por exemplo, Nu5, Nu6). A Testnet ativa novas atualizações **antes da Mainnet**, permitindo que os desenvolvedores e a comunidade identifiquem e corrijam bugs.
+A Zcash atualiza periodicamente seu protocolo principal (por exemplo, NU6.1, NU6.2 e Ironwood). A Testnet ativa novas atualizações **antes da Mainnet**, permitindo que os desenvolvedores e a comunidade identifiquem e corrijam bugs.
 
 **Exemplo:**  
 Uma nova regra de consenso ou tipo de transação é primeiro enviada para a Testnet. Após testes bem-sucedidos, ela é ativada na Mainnet em uma altura de bloco predeterminada.
 
 #### 3. Teste de implementações de nós
 
-A Zcash suporta múltiplas implementações de software de nó — `zcashd` e **Zebra** (nó baseado em Rust mantido pela Zcash Foundation). A Testnet permite testar nós em condições reais sem risco financeiro.  
+O nó Zcash mantido é o **Zebra** (o nó baseado em Rust mantido pela Zcash Foundation) e a carteira mantida é a [Zallet](https://github.com/zcash/zallet). O `zcashd`, a implementação de nó original, atingiu sua parada automática de fim de suporte em 18 de julho de 2026 e não é mais mantido - veja o [guia de migração de zcashd para Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). A testnet permite testar nós em condições reais sem risco financeiro.
 
 Os desenvolvedores de nós podem:
 
@@ -130,10 +130,10 @@ Um **faucet** é um serviço que fornece moedas TAZ gratuitas para testes:
 - Evita a necessidade de minerar TAZ manualmente  
 
 **Exemplo:**  
-1. Visite um faucet da Testnet (por exemplo, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) | [fauzec.com](https://fauzec.com/))  
-2. Digite seu endereço da Testnet  
+1. Visite um faucet da Testnet (por exemplo, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
+2. Digite o seu endereço da Testnet  
 3. Solicite TAZ  
-4. Receba TAZ instantaneamente para começar a testar  
+4. Receba TAZ instantaneamente para começar a testar
 
 **Por que isso importa:**  
 - Testes seguros sem arriscar ZEC  

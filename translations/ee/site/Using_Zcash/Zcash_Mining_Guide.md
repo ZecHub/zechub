@@ -1,10 +1,10 @@
-# Zcash Tomenukuƒe Mɔfiame: Tomenukuƒe ƒe Ƒuƒoƒo kple Ame ŋutɔ ƒe Dɔwɔnuwo
+# Zcash Mining Guide: Tomenukuƒe ƒe Ƒuƒoƒo kple Ame ŋutɔ ƒe Hardware
 
 ## Kpɔkplɔyiɖeme
 
 Zcash (ZEC) nye cryptocurrency si léa ŋku ɖe adzamenyawo ŋu si zãa Equihash proof-of-work algorithm hena tomenukuƒe. Zcash tomenukuƒe bia be woazã akɔntabubu ƒe ŋusẽ atsɔ akpɔ akɔntabubu ƒe kuxi sesẽwo gbɔ, aɖo kpe asitsatsa dzi, eye woakpɔ network la ta ɖe ZEC ƒe teƒeɖoɖowo teƒe. Le network la ƒe sesẽ ta la, womekafu solo mining na ezãla akpa gãtɔ o. Tomenukuƒe aɖe me nɔnɔ nye mɔ nyuitɔ si dzi nàto akpɔ teƒeɖoɖo ɣesiaɣi to wò hash ŋusẽ tsɔtsɔ ƒo ƒu kple ame bubuwo me.
 
-Mɔfiame sia ku ɖe Zcash kuku ŋu to ame ŋutɔ ƒe xɔtunuwo zazã me (e.g., aƒeme PC si me GPUwo alo ASIC siwo le gɔmedzedzea me le). De dzesii be togbɔ be GPUwo ateŋu aku Zcash kokoko hã la, ASICwo wɔa dɔ nyuie wu eye wokpɔa viɖe le ƒe 2026 me le network ƒe sesẽ ta. Kpɔ viɖe si li fifia ɖa ɣesiaɣi to dɔwɔnuwo abe WhatToMine.com zazã me, elabena nusiwo abe elektrikŋusẽ ƒe asi, xɔtunuwo ƒe asiwo, kple ZEC ƒe asixɔxɔ kpɔa ŋusẽ ɖe alesi woate ŋu awɔ dɔe dzi. Ðewohĩ tomenukuƒewo maɖe vi na amesiame o; numekuku le nutoa me ƒe sededewo kple ŋusẽ ƒe agbɔsɔsɔme ŋu (ɖoe be yeaxɔ < $0.08/kWh).
+Mɔfiame sia ku ɖe Zcash kuku ŋu to ame ŋutɔ ƒe xɔtunuwo zazã me (e.g., aƒeme PC si me GPUwo alo ASIC siwo le gɔmedzedzea me le). De dzesii be togbɔ be GPUwo ateŋu aku Zcash kokoko hã la, ASICwo wɔa dɔ nyuie wu eye wokpɔa viɖe le ƒe 2026 me le network ƒe sesẽ ta. Kpɔ viɖe si li fifia ɖa ɣesiaɣi to dɔwɔnuwo abe WhatToMine.com zazã me, elabena nusiwo abe elektrikŋusẽ ƒe asi, xɔtunuwo ƒe asiwo, kple ZEC ƒe asixɔxɔ kpɔa ŋusẽ ɖe alesi woate ŋu awɔ dɔe dzi. Ðewohĩ tomenukuƒewo maɖe vi na amesiame o; numekuku le nutoa me ƒe sewo kple ŋusẽ ƒe agbɔsɔsɔme ŋu (ɖoe be yeaxɔ < $0.08/kWh).
 
 
 ## Nudidiwo
@@ -17,17 +17,17 @@ Mɔfiame sia ku ɖe Zcash kuku ŋu to ame ŋutɔ ƒe xɔtunuwo zazã me (e.g., a
 - **ASIC Tomenukuƒe (Ewɔa dɔ nyuie wu gake eƒe asi lolo wu):**
   - ASIC siwo sɔ kple Equihash abe Bitmain Antminer Z15 (420 kSol/s) alo Innosilicon A9 (50 kSol/s) ene.
   - Esiawo sesẽna wu, woxɔa dzo wu, eye woxɔa ŋusẽ geɖe wu (e.g., 1500W+); si sɔ na teƒe siwo woɖo ɖi koŋ. Ƒle nu tso teƒe siwo ŋu ŋkɔ le abe Bitmain.com alo nudzralawo (Blockware Mining).
-- **General:** Internet si li ke, kɔmpiuta si wotsɔ ɖoa ​​ɖoɖowɔwɔ/dzikpɔkpɔ. ASICs ɖua network la dzi (~13 GSol/s total hashrate le ƒe 2026 me), si wɔe be GPU tomenukuƒewo megaʋlia ho boo o gake egate ŋu dzɔna na modzakaɖelawo.
+- **General:** Internet si li ke, kɔmpiuta si wotsɔ ɖoa ​​ɖoɖowɔwɔ/dzikpɔkpɔ. ASICs ɖua network la dzi (~13 GSol/s total hashrate le ƒe 2026 me), si wɔe be GPU tomenukuku meganye hoʋiʋli boo o gake egate ŋu dzɔna na modzakaɖelawo.
 
 ### Sɔƒtwɛ
 - **Dɔwɔɖoɖo:** Windows 10/11, Linux (Ubuntu kafui be wòali ke).
 - **Tomenukuƒe ƒe Kɔmpiutadziɖoɖo:**
-  - Le GPUwo gome la: lolMiner (doa alɔ AMD/NVIDIA), GMiner, alo miniZ (NVIDIA-si ƒe susu nɔa eŋu). Wɔ kɔpi tso GitHub ƒe teƒe siwo dziɖuɖua ɖo (e.g., github.com/Lolliedieb/lolMiner-releases).
-  - Le ASICwo gome la: Zã adzɔnuwɔƒea ƒe firmware/dashboard si wotu ɖe eme (e.g., Bitmain ƒe web interface).
+  - Le GPUwo gome la: lolMiner (doa alɔ AMD/NVIDIA), GMiner, alo miniZ (si ƒe susu nɔa NVIDIA ŋu). Wɔ kɔpi tso GitHub ƒe teƒe siwo dziɖuɖua ɖo (e.g., github.com/Lolliedieb/lolMiner-releases).
+  - Le ASICwo gome: Zã adzɔnuwɔƒea ƒe firmware/dashboard si wotu ɖe eme (e.g., Bitmain ƒe web interface).
 - **Gakotoku:** Zcash gakotoku si woatsɔ axɔ fetu. Doe ɖa:
-  - Wokpɔ ta (ame ŋutɔ tɔ): Zodl Gakotoku, Zingo (Asitelefon/Dɔwɔƒe) YWallet (asitelefon/kplɔ̃).
+  - Wokpɔ ta (ame ŋutɔ tɔ): Zodl Gakotoku, Zingo (Asitelefon/Dɔwɔƒe), Zkool (asitelefon/kplɔ̃).
   - Nusi me kɔ (ele bɔbɔe wu gake menye ame ŋutɔ tɔ o): Edge Wallet, Zecwallet Lite.
-  - Wɔ eƒe kɔpi tso [gakotokuwo](https://zechub.wiki/wallets). Wɔ adrɛs si wokpɔ ta na (dze egɔme kple 'zs') hena adzamenyawo ne ta la do alɔe.
+  - Wɔ eƒe kɔpi tso [gakotokuwo](https://zechub.wiki/wallets). Wɔ adrɛs si wokpɔ ta na (edzea egɔme kple 'zs') hena adzamenyawo ne ta la do alɔe.
 
 ### Bubu
 - Elektrikŋusẽ: Bu gazazãwo ƒe akɔnta. GPUwo zãa 150-300W le kaɖi ɖeka dzi; ASIC-wo ƒe 1000W+.
@@ -46,25 +46,25 @@ Mɔfiame sia ku ɖe Zcash kuku ŋu to ame ŋutɔ ƒe xɔtunuwo zazã me (e.g., a
   1. De GPUwo wò PC me eye nàwɔ ʋukulawo yeyee (NVIDIA: GeForce Experience; AMD: Radeon Software).
   2. Overclock ne nuteƒekpɔkpɔ (zã MSI Afterburner hena liƒo; taɖodzinu na +100-200 core clock, -500 memory hena dɔwɔwɔ nyuie).
 - Le ASIC-wo gome la:
-  1. Do ka kple ASIC la ɖe ŋusẽ kple Ethernet ŋu.
+  1. Do ka kple ASIC la ɖe elektrikŋusẽ kple Ethernet ŋu.
   2. Di eƒe IP adrɛs to dɔwɔnu abe Advanced IP Scanner alo ewɔla ƒe dɔwɔnu ene zazã me.
   3. Ge ɖe web dashboard la me (e.g., ŋlɔ IP ɖe browser me, gege ɖe eme gbã: root/root na Bitmain).
 
 **Nuxlɔ̃ame:** Kpɔ egbɔ be ya nyui le eme; tomenukuƒewo naa dzoxɔxɔ dona. Dze egɔme tso sue dzi be nàdoe kpɔ.
 
 ### Afɔɖeɖe 3: Tia Tomenukuƒe aɖe eye nàwɔ ɖeka kplii
-Tomenukuƒewo maa dɔwɔwɔ eye woama teƒeɖoɖowo ɖe wò hashrate si nèdzɔ nu. Tiae le fe siwo woxena (0-2%), fexexe suetɔ kekeake (0.01-0.1 ZEC), teƒe si nèle (ping si le sue), kple kakaɖedzi nu.
+Tomenukuƒewo maa dɔwɔwɔ eye woama teƒeɖoɖowo ɖe wò hashrate si nèdzɔ nu. Tiae ɖe fetu (0-2%), fexexe suetɔ kekeake (0.01-0.1 ZEC), teƒe si nèle (ping si le sue), kple kakaɖedzi nu.
 
 **Tadeaguƒe Siwo Wokafu (Wotue Ðe Hashrate, Fewo, Kple Numetotowo Dzi):**
 - **2Miners (zec.2miners.com)**: 1% fetu, PPLNS fexexe, doa alɔ GPU / ASIC / NiceHash. Hashrate si kɔkɔ (~1.17 GSol/s), dɔwɔƒe siwo ŋu kakaɖedzi le.
-- **F2Pool (zec.f2pool.com)**: 2% fetu, PPS + fexexe, gaku geɖe ƒe kpekpeɖeŋu. Ta gã aɖe (~ 2.57 GSol/s).
+- **F2Pool (zec.f2pool.com)**: 2% fetu, PPS + fexexe, ga geɖe ƒe kpekpeɖeŋu. Ta gã aɖe (~ 2.57 GSol/s).
 - **ViaBTC (zec.viabtc.com)**: 2% fetu (PPS +), zãla-xɔlɔ̃wɔwɔ dashboard, xexeame katã ƒe dɔwɔƒewo.
 - **AntPool (zec.antpool.com)**: 1% ƒe fetu, tso Bitmain gbɔ, enyo na ASICwo (~494 MSol/s).
 - **Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool/)**: Zcash tomenukuƒe si nye dɔnyala bibi si Foundry Digital wɔ. Ezãa PPLNS ƒe fexexe, naa teƒeɖoɖowo yometiti le gaglãgbe kple dɔwɔƒe ƒe ɖoƒe ƒe kpekpeɖeŋu. Esɔ nyuie wu na ASIC tomenukulawo le dɔwɔƒewo kple gãwo; bia be woaɖo kpe akɔntabubua dzi.
 - **Sovright (mining.sovright.com)**: Zcash ta si wotu ɖe Stratum V2 dzi, si le dɔ wɔm fifia abe dutoƒo dodokpɔmɔ̃ ene. ZEC fexexe aɖeke mele agbe haɖe o, eyata bu eŋu be enye mɔnu si dzi nàto ado wò ɖoɖoa kpɔ tsɔ wu be wòanye gakpɔkpɔtsoƒe. Kpɔ akpa si woɖo ɖi le ete hena numeɖeɖe bubuwo.
 - Bubuwo: Kryptex Pool, Luxor (kpɔ poolwatch.io/coin/zcash hena ɣeyiɣi ŋutɔŋutɔ ƒe akɔntabubuwo).
 
-1. Yi ta la ƒe nyatakakadzraɖoƒe eye nàwɔ akɔnta (email alo ame aɖewo abe 2Miners ene ƒe ŋkɔ ŋɔŋlɔ aɖeke meli o).
+1. Yi ta la ƒe nyatakakadzraɖoƒea eye nàwɔ akɔnta (email alo ame aɖewo abe 2Miners ene ƒe ŋkɔ ŋɔŋlɔ aɖeke meli o).
 2. Tsɔ wò Zcash gakotoku ƒe adrɛs kpe ɖe fexexe ƒe ɖoɖowo ŋu.
 3. De dzesi ta la ƒe stratum server (e.g., zec.2miners.com:1010) kple port.
 
@@ -99,7 +99,7 @@ Tomenukuƒewo maa dɔwɔwɔ eye woama teƒeɖoɖowo ɖe wò hashrate si nèdzɔ 
 1. Dze tomenukuƒea gɔme: ado ka kple ta la eye wòadze gomekpɔkpɔwo ɖoɖo ɖa gɔme.
 2. Kpɔ egbɔ to:
    - Pool dashboard: Ŋlɔ wò gakotoku ƒe adrɛs be nàkpɔ hashrate, ga si womexe o, kple akɔntabubuwo.
-   - Kɔmpiutadziɖoɖo ƒe mɔ̃: Kpɔ vodadawo ɖa, dzoxɔxɔ (na wòanɔ < 80 degrees C).
+   - Kɔmpiutadziɖoɖo ƒe mɔ̃: Kpɔ vodadawo ɖa, dzoxɔxɔ (na < 80 degrees C).
    - Dɔwɔnuwo: Zã HiveOS alo SimpleMining OS hena adzɔge rig dzikpɔkpɔ.
 3. Fexexe: Ta akpa gãtɔ xea fe le wo ɖokui si ne èɖo suetɔ gbɔ (e.g., 0.05 ZEC). Kpɔ tadeaguƒea ƒe sewo ɖa.
 
@@ -115,7 +115,7 @@ Sovright (sovright.com) wɔa Stratum V2 tomenukuƒe kple block relay network si 
 
 Sovright ƒe ta la zɔna le dutoƒo Zcash testnet (NU6, Stratum V2) dzi, ke menye mainnet dzi o. Testnet la mexea ZEC ŋutɔŋutɔ o. Zãe nàtsɔ ado wò tomenukulawo ƒe ɖoɖoa kpɔ, ke menye be nàkpɔ ga o.
 
-- Womehiã akɔntabubu aɖeke hafi woadze egɔme o. Fia asi CPU alo ASIC Equihash tomenukula aɖe le ta la gbɔ eye wò gomekpɔkpɔwo adze le dashboard si le agbe dzi.
+- Womehiã akɔntabubu aɖeke hafi woadze egɔme o. Fia asi CPU alo ASIC Equihash tomenukula aɖe le ta la gbɔ eye wò gomekpɔkpɔwo adze le live dashboard dzi.
 - Sovright ta Stratum V2 proxy si le ʋuʋu ɖi hã na tomenukulawo siwo di be yewoatia yewo ŋutɔ yewoƒe block templates tsɔ wu be yewoaxɔ ta la ƒe dɔwo ko:
 
 ### Kpɔkpɔ Foundry Zcash Pool
@@ -130,7 +130,7 @@ Le Foundry Zcash Pool zãlawo gome la:
   - Teƒeɖoɖo siwo wobu be woakpɔ
   - Fexexe ƒe nɔnɔme
 
-Esi Foundry zãa PPLNS ƒe teƒeɖoɖo ƒe kpɔɖeŋu ta la, tomenukuƒewo ƒe teƒeɖoɖowo nɔ te ɖe gome siwo wodzɔ le ta la ƒe fetu fesre dzi tsɔ wu be woanɔ te ɖe hashrate si wowɔ enumake dzi ɖeɖeko dzi.
+Esi Foundry zãa PPLNS ƒe teƒeɖoɖo ƒe kpɔɖeŋu ta la, tomenukuƒewo ƒe teƒeɖoɖowo nɔ te ɖe gome siwo wodzɔ le ta la ƒe teƒeɖoɖo fesre dzi tsɔ wu be woanɔ te ɖe hashrate si wowɔ enumake dzi ɖeɖeko dzi.
 
 Mɔnu siwo wokafu be woalé ŋku ɖe nu ŋu:
 - Tsɔ ASIC dashboard hashrate sɔ kple hashrate si Foundry ka nya ta.
@@ -164,6 +164,6 @@ Esia nye xɔtuɖaŋu na tadeagulawo, ke menye tomenukulawo ɖekaɖeka o. Sovrigh
 - **Adzamenyawo:** Zã tadeaguƒe siwo wokpɔ ta na ne woli; ƒo asa na adrɛswo gbugbɔgazã.
 - **Dedienɔnɔ:** Zã nyagbe sesẽwo; na 2FA nawɔ dɔ le tadeaguƒewo/gakotokuwo dzi. Mègatsɔ ame ŋutɔ ƒe safuiwo ma gbeɖe o.
 - **Kuxiwo gbɔkpɔkpɔ:** Ne gome aɖeke mele eme o la, kpɔ dzodoƒe, antivirus, alo config si mesɔ o. Wɔ ɖeka kple nyamedzroƒewo abe forum.zcashcommunity.com alo Reddit r/zec.
-- **Nu bubu siwo woate ŋu azã:** Ne viɖe aɖeke mele eŋu o la, bu alilikpo me tomenukuku alo gaku bubuwo tsɔtsɔ de afɔku me ŋu.
+- **Nu bubu siwo woate ŋu azã:** Ne viɖe aɖeke mele eŋu o la, bu alilikpo me tomenukuku alo gaku bubuwo dede afɔku me ŋu.
 - **Nutoa Me De dzesii:** Tomenukuƒewo xɔa ŋusẽ; zã nu yeyewo tsoƒe ne anya wɔ.
 - **Nu yeyewo:** Zcash ateŋu atrɔ (e.g., PoS ƒe tɔtrɔ si ateŋu adzɔ); kpɔ z.cash hena nyadzɔdzɔwo.

@@ -1,23 +1,34 @@
-# **Encrypt.trade का उपयोग करके निजी SOL/USDC -> ZEC स्वैप**  
+# **SOL/USDC -> ZEC स्वैप Encrypt.trade का उपयोग करके**  
 
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*NEAR Intents द्वारा संचालित निजी, cross-chain swaps के लिए आपका प्रवेशद्वार।*  
+*Solana से Zcash में स्वैप करें, जिसमें क्रॉस-चेन चरण Near Intents के माध्यम से रूट किया जाता है।*  
 
 ---
 
 ###  परिचय  
-आज की blockchain दुनिया में, privacy वैकल्पिक नहीं है - यह आवश्यक है। [**encrypt.trade**](https://app.encifher.io/zec) के साथ, उपयोगकर्ता Solana पर **SOL या USDC** को **Zcash (ZEC)** में सहजता से स्वैप कर सकते हैं, जबकि लेनदेन पूरी तरह निजी बने रहते हैं। कोई centralized exchange नहीं, कोई पहचान उजागर नहीं - बस सरल, encrypted swapping।  
+[**encrypt.trade**](https://encrypt.trade/zec), JMD Labs Inc. द्वारा संचालित एक Solana ऐप है। यह आपको Solana पर **SOL या USDC** को **Zcash (ZEC)** में स्वैप करने देता है। आपके टोकन को पहले एन्क्रिप्टेड संस्करणों में रैप किया जाता है ताकि Solana पर राशियाँ छिपी रहें, फिर Near Intents के माध्यम से उन्हें ZEC में स्वैप किया जाता है।
+
+यह स्वैप कुछ मायनों में निजी है, लेकिन पूरी तरह नहीं। ऐप के अपने [docs](https://docs.encifher.io/docs) में कहा गया है कि चेन के साथ आपकी इंटरैक्शन गुमनाम नहीं होती: लोग देख सकते हैं कि आपके वॉलेट ने ऐप का उपयोग किया, लेकिन यह नहीं कि आपने कितनी राशि स्थानांतरित की। ZEC भी एक पारदर्शी पते पर आता है, इसलिए जब तक आप उसे शील्ड नहीं करते, वह Zcash चेन पर दिखाई देता रहता है।
 
 
 ![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
-###  चरण 1: अपना Solana Wallet कनेक्ट करें  
-[encrypt.trade](https://app.encifher.io/zec) पर **Chrome या Firefox** का उपयोग करके जाएँ, और अपना **Phantom**, **Solflare**, या **Slope** wallet कनेक्ट करें। सुनिश्चित करें कि आपके wallet में gas fees के लिए पर्याप्त **SOL** और वे tokens मौजूद हों जिनका आप trade करना चाहते हैं। कनेक्ट हो जाने के बाद, आप अपनी assets को wrap करने के लिए तैयार हैं।  
+###  स्वैप करने से पहले जानने योग्य बातें  
+- **Solana पक्ष।** रैपिंग राशियाँ छिपाती है, लेकिन आपके वॉलेट का पता और ऐप का उसका उपयोग सार्वजनिक होते हैं। इसके [best practices](https://docs.encifher.io/docs/best-practices) चेतावनी देते हैं कि साधारण रैप, स्वैप और अनरैप से आपका लेनदेन लिंक किया जा सकता है।
+- **एन्क्रिप्शन।** एन्क्रिप्टेड बैलेंस को हार्डवेयर एन्क्लेव (TEE) के भीतर ऑफ-चेन प्रोसेस किया जाता है। डेवलपर्स के [paper](https://eprint.iacr.org/2026/1504) में कहा गया है कि यह केवल क्रिप्टोग्राफी पर नहीं, बल्कि TEE की अखंडता, ईमानदार थ्रेशोल्ड कुंजी प्रबंधन और क्लाउड अटेस्टेशन रूट पर निर्भर करता है।
+- **क्रॉस-चेन चरण।** ZEC का स्वैप Near Intents के माध्यम से रूट किया जाता है, जहाँ स्वतंत्र सॉल्वर ऑर्डर पूरा करते हैं।
+- **Zcash पक्ष।** Near Intents, ZEC को केवल [पारदर्शी पतों](https://docs.near-intents.org/resources/chain-support) के लिए समर्थित बताता है, और encrypt.trade पर ZEC फ़ील्ड ने सितंबर 2026 में इस गाइड की जाँच के समय केवल पारदर्शी (t1 या t3) पते स्वीकार किए थे। पारदर्शी पता अपना बैलेंस और आने वाले ट्रांसफर सार्वजनिक रूप से दिखाता है, जब तक आप उसे शील्ड नहीं करते।
+- **स्क्रीनिंग।** ऐप कनेक्ट होने वाले वॉलेट को TRM और Chainalysis जैसे डेटाबेस के विरुद्ध जाँचता है, और इसके [compliance page](https://docs.encifher.io/docs/compliance) में कहा गया है कि वैध कानूनी कारण होने पर एन्क्रिप्टेड रिकॉर्ड की समीक्षा की जा सकती है। Near Intents भी अपनी [screening](https://docs.near-intents.org/security-compliance/risk-and-compliance) चलाता है।
+
+---
+
+###  चरण 1: अपना Solana वॉलेट कनेक्ट करें  
+**Chrome या Firefox** का उपयोग करके [encrypt.trade](https://encrypt.trade/zec) पर जाएँ, और अपना **Phantom**, **Solflare**, या **Slope** वॉलेट कनेक्ट करें। सुनिश्चित करें कि आपके वॉलेट में गैस शुल्क के लिए पर्याप्त **SOL** और वे टोकन मौजूद हैं जिनका आप व्यापार करना चाहते हैं। कनेक्ट हो जाने पर, आप अपनी एसेट्स रैप करने के लिए तैयार हैं।  
 
 
 ![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
@@ -33,8 +44,8 @@
 
 ---
 
-###  चरण 2: अपने Tokens को Wrap करें  
-**Wrap** सेक्शन में जाएँ। **SOL** या **USDC** चुनें, राशि दर्ज करें, और पुष्टि करें। ऐप आपकी assets को lock करता है और **encrypted versions (eSOL या eUSDC)** जारी करता है। privacy बढ़ाने के लिए, जितना आप स्वैप करने की योजना बना रहे हैं उससे थोड़ा अधिक wrap करें - इससे one-to-one traceability रुकती है।  
+###  चरण 2: अपने टोकन रैप करें  
+**Wrap** सेक्शन पर जाएँ। **SOL** या **USDC** चुनें, राशि दर्ज करें और पुष्टि करें। ऐप आपकी एसेट्स को लॉक करता है और **एन्क्रिप्टेड संस्करण (eSOL या eUSDC)** जारी करता है। स्वैप की जाने वाली राशि से अलग राशि रैप करना, दोनों को राशि के आधार पर मिलाना कठिन बनाता है, लेकिन यह नहीं छिपाता कि आपके वॉलेट ने ऐप का उपयोग किया।  
 
 
 
@@ -50,8 +61,8 @@
 
 ---
 
-###  चरण 3: अपना Zodl Wallet तैयार करें  
-[**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn) डाउनलोड करें, जो Electric Coin Co. का आधिकारिक Zcash wallet है। Receive tab से अपना **Unified Address** कॉपी करें - यह transparent और shielded दोनों प्रकार के ZEC का समर्थन करता है। आगे बढ़ने से पहले अपनी seed phrase को सुरक्षित रूप से सहेज लें।
+###  चरण 3: अपना ZODL वॉलेट तैयार करें  
+[**ZODL**](https://zodl.com) डाउनलोड करें, जो Zcash द्वारा संचालित ZODL वॉलेट है। Receive स्क्रीन पर, अपना **Zcash पारदर्शी पता** कॉपी करें (यह t1 से शुरू होता है)। encrypt.trade फिलहाल ZEC के लिए शील्डेड या यूनिफाइड पते स्वीकार नहीं करता। आगे बढ़ने से पहले अपने सीड फ्रेज़ को सुरक्षित रूप से सहेज लें।  
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -59,8 +70,8 @@
 
 ---
 
-###  चरण 4: निजी रूप से स्वैप करें  
-फिर से **encrypt.trade** पर लौटें और **Swap** पर जाएँ। **eSOL/eUSDC -> ZEC** चुनें, अपना Zodl address पेस्ट करें, विवरण की समीक्षा करें, और पुष्टि करें।
+###  चरण 4: स्वैप करें  
+**encrypt.trade** पर वापस जाकर **Swap** पर जाएँ। **eSOL/eUSDC -> ZEC** चुनें, अपना ZODL पारदर्शी पता पेस्ट करें, विवरणों की समीक्षा करें और पुष्टि करें।
 
 
 
@@ -72,7 +83,7 @@
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**NEAR Intents** engine स्वचालित रूप से cross-chain routing संभालता है - और कुछ ही सेकंड में **ZEC** सीधे आपके Zodl wallet में पहुँचा देता है।
+**Near Intents** क्रॉस-चेन रूटिंग संभालता है और **ZEC** को आपके ZODL वॉलेट में भेजता है। इसमें कुछ मिनट लग सकते हैं। Near Intents क्रॉस-चेन स्वैप के लिए 15 मिनट तक का समय देने का सुझाव देता है।  
 
 
 
@@ -80,9 +91,17 @@
 
 ---
 
-###  चरण 5: Shield करें और निजी बने रहें  
-राशि प्राप्त होने के बाद, अधिकतम privacy के लिए अपने ZEC को shielded pool में ले जाने हेतु ZODL का **Shield** विकल्प उपयोग करें। हमेशा links सत्यापित करें, addresses का पुन: उपयोग करने से बचें, और पहले छोटी राशि से परीक्षण करें।
+###  चरण 5: अपने ZEC को शील्ड करें  
+ZEC के पहुँचने पर, उसे ZODL के **Shield** विकल्प से [शील्डेड पूल](/using-zcash/shielded-pools) में ले जाएँ। तब तक यह एक पारदर्शी पते पर रहता है, जहाँ कोई भी बैलेंस देख सकता है। शील्डिंग आपके अगले कार्यों की सुरक्षा करती है, लेकिन आने वाला ट्रांसफर और शील्डिंग लेनदेन चेन पर दिखाई देते रहते हैं। हमेशा लिंक सत्यापित करें, पतों का दोबारा उपयोग न करें और पहले छोटी राशियों से परीक्षण करें।  
 
 ---
 
-**Solana की गति**, **Zcash की privacy**, और **NEAR Intents की automation** को मिलाकर, **encrypt.trade** यह परिभाषित करता है कि एक निजी crypto swap कैसा हो सकता है - तेज़, सहज, और वास्तव में गोपनीय।
+###  कौन शामिल है और सहायता कहाँ प्राप्त करें  
+- **encrypt.trade** JMD Labs Inc. द्वारा संचालित ऐप है। इसकी [privacy policy](https://encrypt.trade/privacy) में कहा गया है कि यह IP, ब्राउज़र और डिवाइस विवरण जैसे तकनीकी डेटा एकत्र करता है, स्वैप से पहले आपके वॉलेट का पता, हाल का इतिहास और बैलेंस अनुपालन प्रदाताओं को भेजता है, और पाँच वर्ष तक लॉग तथा AML स्क्रीनिंग परिणाम रख सकता है। इसके [terms](https://encrypt.trade/terms) आपके स्थान को छिपाने के लिए VPN या प्रॉक्सी के उपयोग को प्रतिबंधित करते हैं। सहायता: help@encifher.io या ऐप से लिंक किया गया [Telegram समूह](https://t.me/+ZWHGMW4ZHXQwYTZl)।
+- **Near Intents** क्रॉस-चेन चरण को रूट करता है और ZEC पहुँचाता है। इसके [1Click API terms](https://docs.near-intents.org/security-compliance/terms-of-service) और near.com/privacy पर गोपनीयता नीति देखें, [Near Intents Explorer](https://explorer.near-intents.org) पर स्वैप ट्रैक करें, और [Near Intents Telegram](https://t.me/near_intents) में सहायता माँगें।
+
+नियम और समर्थित पते बदल सकते हैं, इसलिए बड़े स्वैप से पहले वर्तमान संस्करण जाँचें। व्यापक संदर्भ के लिए, [नॉन-कस्टोडियल एक्सचेंज](/using-zcash/non-custodial-exchanges) देखें।
+
+---
+
+**Solana**, **Zcash** और **Near Intents** को मिलाकर, **encrypt.trade** आपको SOL या USDC से ZEC तक का तेज़ मार्ग देता है। यह Solana पर राशियाँ छिपाता है, लेकिन शुरू से अंत तक निजी नहीं है, इसलिए पहुँचने के बाद अपने ZEC को शील्ड करें।

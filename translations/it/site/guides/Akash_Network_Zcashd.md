@@ -512,7 +512,7 @@ Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribu
 
 **Documentazione Akash**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Explorer di Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Explorer di Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Discord di Akash**: [https://discord.akash.network](https://discord.akash.network) (per problemi con i provider)
 

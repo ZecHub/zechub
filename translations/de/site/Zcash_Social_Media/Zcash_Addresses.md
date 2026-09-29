@@ -105,8 +105,7 @@ Das ECC-Team arbeitet an neuen RPC-Methoden in `zcashd` (als Ersatz für `z_send
 
 ## Empfehlung
 
-Probiere die neueste Version von **YWallet** aus!  
-Sie zeigt bereits einen „Transaction Plan“ auf dem Bildschirm an, bevor du auf Senden drückst, und hilft dir so, privatere Entscheidungen zu treffen.
+Dieser Thread verwies ursprünglich auf **Ywallet** wegen des Transaction Plans, den es vor dem Absenden anzeigte. Ywallet wird nicht mehr gepflegt und nicht für Ironwood aktualisiert, sodass es der Blockchain nicht mehr folgen kann. Wähle stattdessen auf der Seite [Wallets](https://zechub.wiki/wallets) eine gepflegte wallet und bevorzuge eine, die dir mitteilt, was eine Transaktion preisgeben wird, bevor sie gesendet wird.
 
 Großartiger Artikel über die Privatsphäre von Transaktionen: https://medium.com/@hanh.huynh/
 

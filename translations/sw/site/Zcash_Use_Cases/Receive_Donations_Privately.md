@@ -52,7 +52,7 @@ Hii inaruhusu kupokea fedha **bila ya kufichua grafu yako kifedha**.
 
 - Zcash mkoba kwamba inasaidia anwani shielded:
   - Zodl
-  - YWallet
+  - Zingo!
   - Mkoba mwingine ulioungwa mkono
 
 <br/>

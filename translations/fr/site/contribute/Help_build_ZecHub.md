@@ -37,10 +37,6 @@ Nous publions chaque lundi des issues pour les tâches pour lesquelles nous avon
 
 [Issues Github du wiki ZecHub](https://github.com/ZecHub/zechub-wiki/issues)
 
-[Issues Github de ZecHub-Namada](https://app.dework.xyz/zechub-2424)
-
-
-
 S'il existe d'autres façons dont vous aimeriez contribuer, veuillez envoyer un message à ZecHub ([@ZecHub](https://twitter.com/zechub)) sur Twitter ou rejoignez notre [Discord](https://discord.gg/zcash).
 
 ____

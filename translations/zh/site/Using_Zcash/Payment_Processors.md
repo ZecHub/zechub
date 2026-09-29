@@ -82,7 +82,7 @@
 
 仅支持 shielded，覆盖 Sapling、Orchard 和 Unified Addresses。没有透明地址回退，因此不要围绕它做这方面规划。
 
-安装时你需要使用 feat/zec 分支上的 btcpay-zcash Docker fork，以及从 Ywallet 或 Zingo 等钱包导出的 viewing key。默认情况下，它会连接远程 lightwalletd，或者你也可以自己运行 Zebra 和 lightwalletd。
+安装时你需要使用 feat/zec 分支上的 btcpay-zcash Docker fork，以及从 Zkool 或 Zingo 等钱包导出的 viewing key。默认情况下，它会连接远程 lightwalletd，或者你也可以自己运行 Zebra 和 lightwalletd。
 
 有一个限制需要了解：该插件在单个实例上为所有商店共用同一个 Zcash 钱包，因此不要把它运行在共享服务器上。按商店分配钱包的功能正在开发中。
 

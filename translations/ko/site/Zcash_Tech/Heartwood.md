@@ -40,10 +40,10 @@ Heartwood는 Zcash 업그레이드 연속선상에 있는 한 단계이며, 각 
 
 | 용어 | 쉬운 의미 |
 |---|---|
-| 네트워크 업그레이드(NU) | 정해진 블록 높이에서 활성화되는, Zcash 합의 규칙의 조정된 변경 |
-| 코인베이스 트랜잭션 | 각 블록에서 블록 보상을 지급하는 특별한 트랜잭션 |
-| 실드된 Sapling 주소 | Sapling 업그레이드에서 도입된 비공개 Zcash 주소 유형 |
-| 실드 코인베이스 | 블록 보상이 실드된 Sapling 주소로 지급될 수 있게 한 Heartwood의 변경 |
+| Network upgrade (NU) | 정해진 블록 높이에서 활성화되는, Zcash 합의 규칙의 조정된 변경 |
+| Coinbase transaction | 각 블록에서 블록 보상을 지급하는 특별한 트랜잭션 |
+| Shielded Sapling address | Sapling 업그레이드에서 도입된 비공개 Zcash 주소 유형 |
+| Shielded coinbase | 블록 보상이 실드된 Sapling 주소로 지급될 수 있게 한 Heartwood의 변경 |
 | FlyClient | 경량 클라이언트가 작은 증명으로 작업증명을 검증할 수 있게 하는 방법 |
 | Merkle Mountain Range (MMR) | 블록 헤더가 커밋하는 과거 블록들의 누적 요약 |
 | Consensus branch id | 트랜잭션이 어느 업그레이드의 규칙을 따르는지 식별하는 태그로, 재생 공격 방지에 사용됨 |

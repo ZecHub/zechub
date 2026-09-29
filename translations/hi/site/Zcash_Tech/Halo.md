@@ -102,11 +102,11 @@ ECC, Filecoin Foundation, Protocol Labs, और Ethereum Foundation [SupraNation
 
 ## Halo के अन्य परियोजनाएं
 
-+ [Anoma, एक गोपनीयता सुरक्षित multichain atomic swap प्रोटोकॉल](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, एक गोपनीयता सुरक्षित multichain atomic swap प्रोटोकॉल](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, Cardano पर एक L2 zkRollup](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, एक गोपनीयता L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, एक गोपनीयता L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, Ethereum पर एक L2 zkRollup](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ ECC, Filecoin Foundation, Protocol Labs, और Ethereum Foundation [SupraNation
 
 **संचालन**
 
-[Halo 2 संसाधन](https://github.com/adria0/awesome-halo2)
+[Halo 2 संसाधन](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2 दस्तावेज़ी](https://zcash.github.io/halo2/)
 

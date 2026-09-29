@@ -1,4 +1,6 @@
-# Àkọlé àwòrán Ywallet FROST
+# Àfihàn Ywallet FROST
+
+> **A kò ṣe ìtọ́jú Ywallet mọ́.** Olùgbékalẹ̀ rẹ̀ ti jẹ́rìí sí i pé a kò ní ṣe àtúnṣe rẹ̀ fún Ironwood (NU6.3), nítorí náà kò le tẹ̀lé ẹ̀wọ̀n mọ́, a kò sì le parí àwọn ìgbésẹ̀ ìsàlẹ̀ yìí lórí mainnet. Ojú ìwé yìí wà fún ìtọ́kasí. Zkool, láti ọ̀dọ̀ olùgbékalẹ̀ kan náà, ni arọ́pò tí a ń tọ́jú, ó sì ń ṣe àtìlẹ́yìn fún FROST multisig.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -6,70 +8,70 @@
     src="https://www.youtube.com/embed/3IZgxDqQNbw"
     title="FROST + Ywallet Transaction Demo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
 
-## Ṣàkójọ àwọn àwo FROST
+## Ṣe àkójọ àwọn àpótí FROST
 
-[ìjápọ̀ Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Ìjápọ̀ Github](https://github.com/ZcashFoundation/frost-zcash-demo)
 
-Lo repo ti o wa loke ki o tẹle awọn itọnisọna lori ikojọpọ: 
+Lo ibi ipamọ ti o wa loke ki o tẹle awọn itọnisọna lori kikọ: 
 
 ```bash
 cargo build --bin trusted-dealer
 cargo build --bin dkg
 cargo build --bin coordinator
-cargo build --bin participants
+cargo build --bin participant
 ```
 
-Àwọn ìdìpọ̀ náà ni yóò jẹ́ àpamọ́ tí a ó fi ṣe àfojúsùn.
+Àwọn àpótí ni yóò jẹ́ àkójọpọ̀ ibi tí a fẹ́ kó o dé.
 
-## Ṣẹda Ẹgbẹ́ Ọ̀rọ̀-ìmọ̀ FROST
+## Ṣẹ̀dá FROST UA
 
 `./generateFROST_UA.sh`
 
 
 
-## Ṣe àtúnṣe sí UFVK sínú Ywallet
+## Gbe UFVK wọle sinu Ywallet
 
-Awọn iroyin -> Tẹ + ki o si lẹẹ ufvk lati igbesẹ loke
+Àkọọ́lẹ̀ -> Tẹ + kí o sì lẹẹ mọ́ ufvk láti ìgbésẹ̀ òkè
 
-## Ṣẹda ìnáwó kan pẹ̀lú Ywallet
+## Ṣẹ̀dá ìṣòwò pẹ̀lú Ywallet
 
-Fi UA kankan sínú rẹ kí o sì fi tx ránṣẹ́. Pa fáìlì náà mọ́.
+Lẹ́ẹ̀mọ́ UA èyíkéyìí kí o sì fi tx ránṣẹ́. Fi fáìlì náà pamọ́.
 
-## Bẹrẹ ilana iforukọsilẹ FROST 
+## Bẹ̀rẹ̀ iṣẹ́ ìfọwọ́sowọ́pọ̀ FROST 
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-akọkọ titẹsi ni awọn ipo ti awọn aise tx lati awọn igbese loke
-keji titẹsi ni awọn ipo ati orukọ ti awọn wole tx ti o fẹ lati igbohunsafefe
-Eyi ni apa ti o sọ fun FROST eyi ti transction ti o fẹ gbogbo eniyan lati wole
+Àkọ́kọ́ ìtẹ̀síwájú ni ibi tí tx tí a kò rí tẹ́lẹ̀ wà láti ìgbésẹ̀ òkè yìí
+ìtẹ̀síwájú kejì ni ibi àti orúkọ tx tí a fọwọ́ sí tí o fẹ́ gbé jáde
+Apá yìí ni ibi tí o ti lè sọ fún FROST irú ìyípadà tí o fẹ́ kí gbogbo ènìyàn fọwọ́ sí.
 
-## Bẹrẹ Olùdarí
+## Olùṣàkóso Bẹ̀rẹ̀
 
 `./runCoordinator.sh`
 
-Eyi ṣe ifọkanbalẹ ibuwọlu olukopa kọọkan ati ṣẹda ibuwọlẹ ẹgbẹ kan
+Èyí ń ṣe àkóso ìfọwọ́sowọ́pọ̀ àwọn olùkópa kọ̀ọ̀kan, ó sì ń ṣẹ̀dá ìfọwọ́sowọ́pọ̀ ẹgbẹ́ kan
 
-## Jẹ ki Olùkópa kọ̀ọ̀kan fọwọ́ sí ìnáwó yìí
+## Jẹ́ kí olúkúlùkù olùkópa fọwọ́ sí ìṣòwò yìí
 
 ```bash
 ./participantSign.sh key-package-1.json
 ./participantSign.sh key-package-2.json
 ```
 
-## Ṣíṣe Àdéhùn Ìṣèlú tí a fọwọ́ sí
+## Pari Iṣowo ti a fowo si
 
-Ninu window alárinà, ṣe ẹ̀dà ìforúkọsílẹ̀ ẹgbẹ́ tí ó jẹ́ ìjade kí o sì lẹ ẹ sínú window ìforukọsílẹ̣ FROST.
-Eleyi yoo pari awọn FROST ami ati ki o jade "mysingedtx"
+Nínú fèrèsé olùṣàkóso, da ìfọwọ́sowọ́pọ̀ ẹgbẹ́ tí ó jáde kí o sì lẹẹ mọ́ inú fèrèsé ìfọwọ́sowọ́pọ̀ FROST.
+Èyí yóò parí ìfọwọ́sowọ́pọ̀ FROST àti láti mú 'mysingedtx' jáde
 
 
-## Firanṣẹ Iṣowo rẹ pẹlu Ywallet
+## Ṣe ikede Iṣowo rẹ pẹlu Ywallet
 
-Tẹ 'More' ní apá ọ̀tún ìsàlẹ̀ Ywallet kí o wá 'Broadcast'. wá 'mysignedtx' kí o sì tẹ ok.
+Tẹ 'More' ní ìsàlẹ̀ apá ọ̀tún Ywallet kí o sì wá 'Broadcast'. Wa 'mysignedtx' kí o sì tẹ OK.
 
-Ti ohun gbogbo ba ṣiṣẹ iwọ yoo gba ID idunadura :)
+Ti ohun gbogbo ba ṣiṣẹ iwọ yoo gba ID iṣowo kan :)

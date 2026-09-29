@@ -71,7 +71,7 @@ Eseguire il software del nodo Zebra su un Raspberry Pi 4 ti permette di partecip
 
 ## Risoluzione dei problemi
 
-Se incontri problemi nella compilazione o nell'esecuzione di Zebra, consulta la [documentazione di Zebra](https://doc.zebra.zfnd.org/docs/intro.html) per suggerimenti sulla risoluzione dei problemi e informazioni aggiuntive.
+Se incontri problemi nella compilazione o nell'esecuzione di Zebra, consulta la [documentazione di Zebra](https://zebra.zfnd.org/user/troubleshooting.html) per suggerimenti sulla risoluzione dei problemi e informazioni aggiuntive.
 
 Assicurati di mantenere il tuo Raspberry Pi fresco, poiché eseguire un nodo può generare calore. Potresti voler usare una soluzione di raffreddamento, come una ventola o un dissipatore di calore.
 

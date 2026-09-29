@@ -16,7 +16,7 @@ Nyati sia ɖe nusi ShapeShift nye, alesi Zcash wɔa dɔe, alesi nàte ŋu aɖɔl
 
 ## Nukae nye ShapeShift?
 
-[Nɔnɔme ƒe Tɔtrɔ](https://shapeshift.com/) nye cryptocurrency mɔnu si woɖe ɖe vovo, si woate ŋu azã faa, si na be ezãlawo te ŋu dzraa dijitaal nunɔamesiwo, léa ŋku ɖe wo ŋu, eye wokpɔa wo dzi le blockchain geɖe me evɔ womewɔa akɔnta, tsɔa dzesidegbalẽviwo ɖona ɖa, alo tsɔa woƒe ga dzi kpɔkpɔ de asi na wo o.
+[ShapeShift](https://shapeshift.com/) nye cryptocurrency mɔnu si woɖe ɖe vovo, si woate ŋu azã faa, si na be ezãlawo te ŋu dzraa dijitaal nunɔamesiwo, léa ŋku ɖe wo ŋu, eye wokpɔa wo dzi le blockchain geɖe me evɔ womewɔa akɔnta, tsɔa dzesidegbalẽviwo ɖona ɖa, alo tsɔa woƒe ga dzi kpɔkpɔ de asi na wo o.
 
 ### Ŋutinya Kpuie aɖe
 
@@ -37,7 +37,7 @@ Le ƒe 2021 me la, tɔtrɔ gã aɖe va le ShapeShift me. Dɔwɔƒea ɖe eƒe dɔ
 
 ## Alesi Zcash Wɔa Dɔe
 
-[Zcash ƒe ŋkɔ](https://z.cash/) (ZEC) nye cryptocurrency si wotu ɖe cryptographic gɔmeɖoanyi sesẽ siwo naa ŋutete ezãlawo be woawɔ asitsadɔ le wo ɖokui si. Wodze egɔme le ƒe 2016 me, Zcash nye Bitcoin ƒe fɔkpa si tsɔa ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya deŋgɔ kpena ɖe eŋu esime wòlé Bitcoin ƒe gaku miliɔn 21 ƒe ɖoɖo si woɖo ɖi kple dɔwɔwɔ ƒe kpeɖodzi ƒe nukpɔsusu ɖeka me ɖe asi.
+[Zcash](https://z.cash/) (ZEC) nye cryptocurrency si wotu ɖe cryptographic gɔmeɖoanyi sesẽ siwo naa ŋutete ezãlawo be woawɔ asitsadɔ le wo ɖokui si. Wodze egɔme le ƒe 2016 me, Zcash nye Bitcoin ƒe fɔkpa si tsɔa ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya deŋgɔ kpena ɖe eŋu esime wòlé Bitcoin ƒe gaku miliɔn 21 ƒe ɖoɖo si woɖo ɖi kple dɔwɔwɔ ƒe kpeɖodzi ƒe nukpɔsusu ɖeka me ɖe asi.
 
 ### Asitsatsa Siwo Wokpɔ Ta Kpekpeɖeŋunana Kple Sidzedze Zero-Kpeɖodziwo
 

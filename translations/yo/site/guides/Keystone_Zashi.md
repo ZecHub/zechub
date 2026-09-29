@@ -12,7 +12,7 @@ This integration marks a significant evolution in Zcash usability by enabling co
     src="https://www.youtube.com/embed/ktYf7josJKM"
     title="Keystone X Zashi Tutorial"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -82,7 +82,7 @@ Wiwọle si oju opo wẹẹbu osise Keystones fun Ijẹrisi ati Imudojuiwọn Fi
     src="https://www.youtube.com/embed/Jr6LqtD1W0s"
     title="Connect Keystone Hardware Wallet to Zashi"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -94,7 +94,7 @@ Wiwọle si oju opo wẹẹbu osise Keystones fun Ijẹrisi ati Imudojuiwọn Fi
     src="https://www.youtube.com/embed/t_OHb1KqrRg"
     title="Sign an Outgoing Transaction with Keystone"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

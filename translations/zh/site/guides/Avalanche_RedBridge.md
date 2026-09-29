@@ -62,7 +62,7 @@ RedBridge 支持广泛的用例，包括跨链去中心化金融（DeFi）、私
 * 交付成果：
 2025 年第一季度，团队宣布推出 [red·bridge 演示网站](https://redbridge-demo.red.dev/index.html)，任何人都可以在那里体验用户界面、提供反馈并提出改进建议。它也是向非技术人士介绍该项目的一种简便方式。
 
-* 团队在 red·bridge 的最终版本中使用了 Zebra。为进行测试，他们升级了测试区块链 ZavaX Oracle 中三个节点里的两个，该链运行在 Avalanche 的 Fuji 测试网上。最后一个节点也已成功升级，现在 [Zavax Oracle](https://zavax-oracle.red.dev/) 已经运行在 ZEBRA 上！
+* 团队在 red·bridge 的最终版本中使用了 Zebra。为进行测试，他们升级了测试区块链 ZavaX Oracle 中三个节点里的两个，该链运行在 Avalanche 的 Fuji 测试网上。最后一个节点也已成功升级，现在 [Zavax Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) 已运行在 Zebra 上！
 
 * 在 2025 年第一季度，red.bridge 网站被编码为提供四种视图：red、Dark、Light 和 Zebra，而最初版本只有 red。
 

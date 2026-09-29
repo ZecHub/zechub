@@ -50,7 +50,7 @@ You can configure the YubiKey as a second U2F factor without any problems by fol
 
 **Thetis Fido U2F Àkọlé Ààbò**
 
-[Ìkóhun Ààbò Fido U2F](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+![Ìkóhun Ààbò Fido U2F](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard so there is no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux.  
 Ọ̀nà tó rọrùn láti lò ni pé, kọ́kọ́rọ́ aláàbò yìí kò wọ́n, ó sì ṣeé ká, ó ní àpò onírin tí ń yí padà, èyí tí kì í jẹ́ kí ìsopọ̣ náà lè bà jẹ́ nígbà tí wọ́ n gbé e lọ. 
@@ -58,7 +58,7 @@ If you are looking for the best bang-for-buck in a security key, this model from
 
 **CryptoTrust OnlyKey**
 
-[CryptoTrust OnlyKey] Àkọsílẹ̀ ìpamọ́](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
+![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 As its name suggests, OnlyKey has some nifty features its rivals lack. Thanks to an onboard keypad that can bypass keyloggers that find their way onto computers, it can keep online accounts safe if a computer or website is compromised. It supports multiple methods of 2FA, including FIDO 2 U2F, Yubico OTP, and TOTP.  
 Bó tilẹ̀ jẹ́ pé kì í ṣe olùṣakoso ọ̀rọ̀-ìfiwọlé tó dára jùlọ fún àwọn ìdí pàtàkì, OnlyKey lè tọ́jú 24 àkọọ́lẹ̀ OTP, 24 òǹkọ̀láà, àti 24 orúkọ oníṣe/URLs, lórí kókó kan ṣoṣo. Àṣejèrè yìí wúlò gan-an bí o kò bá fẹ́ kí o máa rántí ọ̀pọ̀lọpọ̀ òǹkàláàdì, tí o sì fẹ kí kókó náà ṣe àbójútó rẹ. 
@@ -71,17 +71,17 @@ Ní báyìí tí o ti mọ ohun tí 2FA Hardware keys jẹ́ àti bí wọ́n �
 Ìgbésè 1 
 Wọlé sínú àkọọ́lẹ̀ Gmail rẹ kí o sì tẹ **Ṣakoso Àkọọ́ṣe Google Rẹ**
 
-[Ìwé Google - Ṣakoso Àkọsílẹ̀](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
+![Ìwé Google - Ṣakoso Àkọsílẹ̀](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
 Ìgbésè 2 
 Tẹ lori ** Ààbò**
 
-[Àwọn Àtúnṣe Ààbò Google](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
+![Àwọn Àtúnṣe Ààbò Google](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
 Ìgbésè 3 
 Tẹ lori **Ṣíṣayẹwo Ìgbésẹ̀ Méjì**
 
-Àwòrán Ìmúdájú Ìgbésẹ̀-méjì](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
+![2-Step Verification Screen](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
 Ìgbésẹ̀ Kẹrin 
 Yan **Fihan Awọn Aṣayan diẹ sii**

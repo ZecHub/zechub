@@ -37,10 +37,6 @@ Publicamos issues para las tareas que actualmente tienen recompensas abiertas to
 
 [Issues de Github de ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
 
-[Issues de Github de ZecHub-Namada](https://app.dework.xyz/zechub-2424)
-
-
-
 Si hay otras maneras en las que te gustaría contribuir, por favor envía un mensaje a ZecHub ([@ZecHub](https://twitter.com/zechub)) en Twitter o únete a nuestro [Discord](https://discord.gg/zcash).
 
 ____

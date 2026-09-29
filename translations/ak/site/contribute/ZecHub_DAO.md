@@ -6,4 +6,4 @@
 
 ![Aban a wɔde di dwuma](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-710a149234.webp)
 
-=> [ZecHub DAO no na ɔyɛ](https://zechub.wiki/dao)
+=> [ZecHub DAO no na ɔyɛ](https://zechub.wiki/governance-howto)

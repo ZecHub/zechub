@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-* Pepper Sync ni ẹrọ isọdọkan ti a ṣe afihan ninu Zingo! 2.0, apamọwọ orisun ṣiṣi-orisun Zcash ti o kọ nipasẹ Awọn ile -iṣẹ Zingo.
+* Pepper Sync ni ẹ̀rọ ìṣiṣẹ́pọ̀ tí a ṣe àgbékalẹ̀ rẹ̀ ní Zingo! 2.0, àpò Zcash tí Zingo Labs.
 * Ó ń lo ìsopọ̀ tí kò bára mu dípò kí ó máa ṣàyẹwò ẹrù náà ní àwọn àlàfo ńláńlá, nítorí náà owó rẹ àti ìṣòfò rẹ̀ á tètè fara hàn.
 * Ìlọsíwájú ni a fi pamọ ní pẹrẹu. Bí ìjápọ̀ bá já tàbí tí app náà ba pa, àfijọpọ yóò tún padà bẹ́ sílẹ̀ láti ibi tó ti dúró dípò kí ó máa dáwọ́lé.
 * O lè náwó kí ìfọwọ́sowọ̀pọ̀ náà tó parí.
@@ -35,12 +35,12 @@ Pepper Sync ṣe àtúnṣe sí àwọn ohun tó wà nínú rẹ̀:
 
 Awọn ẹya atijọ ti Zingo nigbagbogbo ṣe ibanujẹ awọn olumulo pẹlu akoko isọdọkan pipẹ, mimu aṣiṣe ṣiṣanwo ko han gbangba, ati lilo orisun agbara. Pepper Sync ṣatunṣe awọn iṣoro wọpọ wọnyi:
 
-Àwọn Àṣejèrè Ẹ̀dà Zingo ti tẹlẹ. Zingo 2.0 pẹlú Pepper Sync
+| Ẹ̀yà ara            | Àwọn ẹ̀yà Zingo tí ó ti kọjá                | Zingo 2.0 pẹ̀lú Pepper Sync                   |
 | ------------------ | -------------------------------------- | -------------------------------------------- |
-ìmúṣiṣẹ́pọ̀ ìyára. Ó máa ń lọra, pàápàá nígbà tí a bá kọ́kọ́ ṣe é. Ìmúlùmọ̀ tó yára gan-an ni ó wà níbẹ̀rẹ̀ àti bí wọ́n ti ń tẹ̀ síwájú sí i.
- Ìtọjú àṣìṣe. Àìdáa àti àwọn ìkùdíẹ̀-káàtó tí kò ṣe kedere. Ó mú kí ìdánilójú pọ̀ sí i pẹlú igbala aládàáṣiṣẹ́.
-ìmúlò oníṣe. Ṣíṣàmúṣẹ̀ rí "bí òkùnkùn" fún àwọn tí ó ṣẹ̀ṣẹ̀ dé. Ó ṣe kedere, pẹlú ipò àti àtúntò tó hàn gbangba jùlọ.
- Ìṣiṣẹ́ Ẹ̀rọ  Gbigba CPU/ìrántí lọpọlọpọ  Ti a ṣe ààyò fún lílo àwọn ohun àmúṣe ní rọra.
+| Iyara Ìmúṣiṣẹ́pọ̀         | Díẹ̀díẹ̀, pàápàá jùlọ nígbà tí a bá ṣe ètò àkọ́kọ́      | Ìmúṣiṣẹ́pọ̀ àkọ́kọ́ àti ìṣiṣẹ́pọ̀ tó ń lọ lọ́wọ́ yára púpọ̀ sí i         |
+| Ṣíṣe Àṣìṣe     | Àwọn ìdúró lẹ́ẹ̀kọ̀ọ̀kan àti àwọn ìkùnà tí kò ṣe kedere | Iduroṣinṣin ti o dara si pẹlu imularada laifọwọyi   |
+| Ìrírí Olùlò    | Ìṣiṣẹ́pọ̀ náà nímọ̀lára “àìlópin” sí àwọn tuntun        | Sihin, pẹlu ipo ti o han gbangba ati awọn imudojuiwọn |
+| Iṣẹ́ Ẹ̀rọ | Lilo giga CPU/iranti                  | Iṣapeye fun lilo awọn orisun ti o rọrun            |
 
 Ní ṣókí: ìfiwéra-ìṣiṣẹ́pọ̀ ti wá yára báyìí, ó ṣeé gbára lé jù àti pé kò ṣòro láti lóye.
 
@@ -141,7 +141,7 @@ Zingo 2.0 pẹlu Pepper Sync kì í ṣe àtúnṣe lásán; ó jẹ ìyípadà 
 
 - [Ìṣètò Ìpínwó Zcash](/zcash-tech/zcash-wallet-syncing)  bí ìfiwéra àpò ṣe ń ṣiṣẹ́ ní gbogbo ètò ìṣẹ̀dá Zcash.
 - [Àwọn Ìpín Lightwallet](/zcash-tech/lightwallet-nodes)  ìlé-iṣẹ́ tí àpò owó tó rọrùn bíi Zingo ń bá lò.
-- [Zaino] Èmi náà sì ni.](/zcash-tech/zaino)  àtòjọ ìsọfúnni tí ẹgbẹ́ Zingo ṣe.
+- [Zaino](/zcash-tech/zaino)  àtòjọ ìsọfúnni tí ẹgbẹ́ Zingo ṣe.
 - [Àwọn àpamọ́wọ́n](/wallets)  gbogbo ìwé ìsọfúnni nípa àwọn àpò Zcash àti ohun tí wọ́n ní.
 
 ## Mímọ Sí I

@@ -155,7 +155,7 @@ Asibidɛawo nye kɔnkrit eye woate ŋu alé ŋku ɖe wo ŋu.
 
 | Zcash ƒe nɔnɔme | Curves siwo wòzãna | Akpa si wòwɔna |
 |---|---|---|
-| **Sapling** (older) | **BLS12-381** plus an embedded curve called **Jubjub** | BLS12-381 carries the proof system; Jubjub is built over BLS12-381's scalar field so that key and commitment operations are cheap to perform *inside* a zero-knowledge proof |
+| **Sapling** (xoxotɔ) | **BLS12-381** kpe ɖe curve si wotsɔ de eme si woyɔna be **Jubjub** ŋu | BLS12-381 tsɔa kpeɖodziɖoɖoa; Wotu Jubjub ɖe BLS12-381's scalar field dzi ale be safui kple ɖokuitsɔtsɔna dɔwɔwɔwo naxɔ asi be woawɔ *le* zero-sidzedze kpeɖodzi |
 | **Atikutsetsebɔ** (fifia) | **Pallas** kple **Vesta** ("Pasta" ƒe tsatsam) | Pallas tsɔa Orchard ƒe safuiwo kple adzɔgbeɖeɖewo; wowɔ ɖoɖo ɖe Pallas/Vesta ƒe ƒoƒo ɖekae ŋu etɔxɛe be kpeɖodzi deŋgɔwo nawɔ dɔ nyuie |
 
 Susu siwo tae ʋuʋudedi ɖeka "gena ɖe" bubu ƒe agble me, kple nusitae *tsatsa* si me ʋuʋudedi eve le la ɖea vi, nye nu ŋutɔŋutɔwo eye wole vevie, gake wole kpeɖodzi-ɖoɖo ƒe nyatiwo me. Fifia la, takeaway la sesẽ: **Zcash safui ɖesiaɖe nye scalar zi gbɔ zi generator, eye Zcash ƒe ɖokuitsɔtsɔna ɖesiaɖe nye curve points ƒe ƒuƒoƒo**, si nɔa agbe ɖe curve siawo siwo ŋkɔ wo dometɔ ɖeka dzi.
@@ -185,13 +185,13 @@ Nu ʋɛ aɖewo siwo wowɔ wòle bɔbɔe na esia na wote ŋu xlẽa esia. Míezã
 
 | Nyagbe | Plain-Eŋlisigbe me gɔmesese |
 |---|---|
-| **Elliptic ƒe ʋuʋudedi** | Nya siwo naa dzidzeme ame `y^2 = x^3 + ax + b`, kple "tsɔtsɔ kpe ɖe" nya veviwo ŋu tɔxɛ aɖe |
-| **Nya si wotsɔ kpe ɖe eŋu** | Chord-and-tangent ƒe se: fli to teƒe eve, xɔ etɔ̃lia ƒoƒo, ɖe |
-| **Fia asi seɖoƒemanɔsitɔ (`O`)** | Curve la ƒe "zero"; etsɔtsɔ kpee metrɔa naneke o |
-| **Dzɔdzɔmeŋusẽŋununya (`G`)** | Gɔmeɖoanyi si ƒe xexlẽdzesiwo xɔa ƒuƒoƒo bliboa mlɔeba |
-| **Scalar dzidziɖedzi (`kG`)** | Tsɔ kpe ɖe eŋu `G` na eɖokui `k` ɣeyiɣiwo; ŋgɔgbe bɔbɔe, megbedede sesẽ |
-| **ECDLP** ƒe ƒuƒoƒo | Kuxi sesẽ si nye hayahaya `k` tso `kG`; dedienɔnɔ ƒe gɔmeɖoanyia |
-| **Pedersen ƒe ɖokuitsɔtsɔna** | `v.G + r.H`; agbalẽkotoku si wotu nu ɖo si ɣlaa, blaa nu, eye wòtsɔa |
+| **Elliptic curve** | Nya siwo naa dzidzeme ame `y^2 = x^3 + ax + b`, kple "tsɔtsɔ kpe ɖe" nya veviwo ŋu tɔxɛ aɖe |
+| **Point addition** | Chord-and-tangent ƒe se: fli to teƒe eve, xɔ etɔ̃lia ƒoƒo, ɖe |
+| **Point at infinity (`O`)** | Curve la ƒe "zero"; etsɔtsɔ kpee metrɔa naneke o |
+| **Generator (`G`)** | Gɔmeɖoanyi si ƒe xexlẽdzesiwo xɔa ƒuƒoƒo bliboa mlɔeba |
+| **Scalar multiplication (`kG`)** | Tsɔ kpe ɖe eŋu `G` na eɖokui `k` ɣeyiɣiwo; ŋgɔgbe bɔbɔe, megbedede sesẽ |
+| **ECDLP** | Kuxi sesẽ si nye hayahaya `k` tso `kG`; dedienɔnɔ ƒe gɔmeɖoanyia |
+| **Pedersen commitment** | `v.G + r.H`; agbalẽkotoku si wotu nu ɖo si ɣlaa, blaa nu, eye wòtsɔa |
 
 ---
 

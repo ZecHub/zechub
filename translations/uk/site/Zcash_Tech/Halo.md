@@ -102,11 +102,11 @@ ECC, Filecoin Foundation, Protocol Labs і Ethereum Foundation також спі
 
 ## Інші проєкти, що використовують Halo
 
-+ [Anoma, протокол атомарних мультичейн-обмінів із захистом конфіденційності](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, протокол атомарних мультичейн-обмінів із захистом конфіденційності](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, L2 zkRollup на Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, приватний блокчейн L1 zkEVM](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, приватний блокчейн L1 zkEVM](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, L2 zkRollup на Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ ECC, Filecoin Foundation, Protocol Labs і Ethereum Foundation також спі
 
 **Документація**
 
-[Ресурси Halo 2](https://github.com/adria0/awesome-halo2)
+[Ресурси Halo 2](https://github.com/mhchia/awesome-halo2)
 
 [Документація Halo 2](https://zcash.github.io/halo2/)
 

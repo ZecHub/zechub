@@ -61,7 +61,7 @@
 
 ## Mastodon <img src="/content-images/mastodon-d5e5cbfab3.svg" width="20" height="20"> 
 
-1. [Zeal Center](https://zeal.center/) - Register to join [here](https://blog.zeal.center/registration.html)
+1. [Zeal Center](https://web.archive.org/web/20260312101334/https://zeal.center/) - Register to join [here](https://blog.zeal.center/registration.html)
 
 ## Reddit <img src="/content-images/reddit-5d9fdb65fe.svg" width="20" height="20"> 
 

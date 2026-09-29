@@ -12,7 +12,7 @@ Saa nkabom yi hyɛ nkɔsoɔ kɛseɛ agyiraeɛ wɔ Zcash dwumadie mu denam ZEC a 
     src="https://www.youtube.com/embed/ktYf7josJKM"
     title="Keystone X Zashi Tutorial"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -82,7 +82,7 @@ Zashi app nhyehyɛe wɔ wo mobile device so.
     src="https://www.youtube.com/embed/Jr6LqtD1W0s"
     title="Connect Keystone Hardware Wallet to Zashi"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -94,7 +94,7 @@ Zashi app nhyehyɛe wɔ wo mobile device so.
     src="https://www.youtube.com/embed/t_OHb1KqrRg"
     title="Sign an Outgoing Transaction with Keystone"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>

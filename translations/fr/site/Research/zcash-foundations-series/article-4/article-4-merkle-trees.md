@@ -135,13 +135,13 @@ Des simplifications, comme d'habitude. Les vrais arbres de Merkle incrémentaux 
 
 | Terme | Signification en langage courant |
 |---|---|
-| **Arbre de Merkle** | Un arbre de hachages ; les feuilles sont des empreintes de données, les parents hachent leurs enfants |
-| **Feuille** | Un nœud du bas ; dans Zcash, un engagement de note |
-| **Racine de Merkle** | L'unique empreinte au sommet qui résume tout l'arbre |
-| **Chemin d'authentification / preuve de Merkle** | Les hachages frères nécessaires pour prouver qu'une feuille est dans l'arbre |
-| **Arbre de Merkle incrémental** | Un arbre de Merkle en ajout uniquement (les feuilles ne font qu'être ajoutées) |
+| **Merkle tree** | Un arbre de hachages ; les feuilles sont des empreintes de données, les parents hachent leurs enfants |
+| **Leaf** | Un nœud du bas ; dans Zcash, un engagement de note |
+| **Merkle root** | L'unique empreinte au sommet qui résume tout l'arbre |
+| **Authentication path / Merkle proof** | Les hachages frères nécessaires pour prouver qu'une feuille est dans l'arbre |
+| **Incremental Merkle tree** | Un arbre de Merkle en ajout uniquement (les feuilles ne font qu'être ajoutées) |
 | **Anchor** | Une racine de Merkle qu'une dépense référence comme « l'état de l'arbre contre lequel je prouve » |
-| **Ensemble des nullifiers** | La collection séparée de marqueurs de dépense qui bloque les doubles dépenses |
+| **Nullifier set** | La collection séparée de marqueurs de dépense qui bloque les doubles dépenses |
 
 ---
 

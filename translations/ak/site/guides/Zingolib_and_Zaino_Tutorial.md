@@ -14,7 +14,7 @@
     src="https://www.youtube.com/embed/b5dIuGstMvI"
     title="An introduction to Zingolib + Zaino"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -38,7 +38,7 @@
 
 `sudo apt install screen`
 
-### ɔsebɔ a wɔfrɛ no zebrad
+### zebrad
 
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
@@ -76,7 +76,7 @@ zainod --config zindexer.toml
 ```
 
 
-### zingo-cli na ɛwɔ hɔ
+### zingo-cli
 
 ```
 git clone https://github.com/zingolabs/zingolib.git

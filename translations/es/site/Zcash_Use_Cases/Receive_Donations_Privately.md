@@ -52,7 +52,7 @@ Esto te permite recibir fondos **sin exponer tu grafo financiero**.
 
 - Una billetera de Zcash que admita direcciones blindadas:
   - Zodl
-  - YWallet
+  - Zingo!
   - Otras billeteras compatibles
 
 <br/>

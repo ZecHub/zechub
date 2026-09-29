@@ -25,9 +25,9 @@ Dieser Leitfaden konzentriert sich auf das Mining von Zcash mit eigener Hardware
   - Für GPUs: lolMiner (unterstützt AMD/NVIDIA), GMiner oder miniZ (fokussiert auf NVIDIA). Laden Sie diese aus den offiziellen GitHub-Repos herunter (z. B. github.com/Lolliedieb/lolMiner-releases).
   - Für ASICs: Verwenden Sie die integrierte Firmware/das Dashboard des Herstellers (z. B. Bitmains Weboberfläche).
 - **Wallet:** Eine Zcash-Wallet, um Auszahlungen zu erhalten. Empfohlen:
-  - Shielded (privat): Zodl Wallet, Zingo (Mobile/Desktop) YWallet (mobil/desktop).
+  - Shielded (privat): ZODL Wallet, Zingo (Mobil/Desktop), Zkool (mobil/desktop).
   - Transparent (einfacher, aber weniger privat): Edge Wallet, Zecwallet Lite.
-  - Herunterladen unter [Wallets](https://zechub.wiki/wallets). Erzeugen Sie für mehr Privatsphäre eine shielded Adresse (beginnt mit `zs`), falls die Pool dies unterstützt.
+  - Herunterladen unter [Wallets](https://zechub.wiki/wallets). Erzeugen Sie für mehr Privatsphäre eine shielded Adresse (beginnt mit 'zs'), falls der Pool dies unterstützt.
 
 ### Sonstiges
 - Strom: Berechnen Sie die Kosten. GPUs verbrauchen 150-300 W pro Karte; ASICs 1000 W+.

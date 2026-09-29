@@ -19,7 +19,7 @@
 - Nuwɔlawo le nudzɔdzɔwo xɔm
 - Nudzɔla siwo le ʋuʋu ɖi
 - Nutoa me tɔwo ƒe gadodo
-- Ame sia ame si di be ye ŋutɔ yeƒe gakpekpeɖeŋu
+- Ame sia ame si di be woana gakpekpeɖeŋu ye ŋutɔ
 
 <br/>
 
@@ -52,7 +52,7 @@ Esia na be nàte ŋu axɔ ga **evɔ màɖe wò ganyawo ƒe nɔnɔmetata ɖe go o
 
 - Zcash gakotoku si doa alɔ adrɛs siwo wokpɔ ta na:
   - Zodl
-  - YWallet
+  - Zingo!
   - Gakotoku bubu siwo wodo alɔe
 
 <br/>
@@ -76,8 +76,8 @@ Zi geɖe la, esia dzea egɔme tso: `zs...`
 ### Afɔɖeɖe 3: Mɔfiame Nunalawo (Woate ŋu atiae gake wokafui) .
 
 De dzi ƒo na nunala be:
-- Zã gakotoku siwo doa alɔ asitsatsa siwo wokpɔ ta na
-- Ðoe ɖa tso ta siwo ŋu wokpɔ ta na (menye esiwo me kɔ o) .
+- Zã gakotoku siwo doa alɔ asitsatsa siwo ŋu wokpɔ ta na
+- Ðoe ɖa tso ta siwo ŋu wokpɔ akpoxɔnuwo le (menye esiwo me kɔ o) .
 
 ### Afɔɖeɖe 4: Lé Adzamenyawo Ŋuti Dzadzɛnyenye Veviwo Me Ðe Asi
 

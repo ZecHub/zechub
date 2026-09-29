@@ -68,13 +68,24 @@ The explorer can also see when funds cross between the transparent and shielded 
 The takeaway: privacy depends on staying inside the shielded pools. Once funds touch a `t` address, that part of their history is as public as Bitcoin. To prove your own shielded activity to someone you choose, such as an accountant, share a viewing key instead of making it public. See the [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content) page.
 
 
+### List of Zcash Block Explorers
+
+- [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
+
+- [Blockchair](https://blockchair.com)
+
+- [3xpl](https://3xpl.com/zcash)
+
+- [Bitquery](https://explorer.bitquery.io/zcash)
+
+
 ### Visual Guide
 
 Here are four good examples of different blockchain explorers:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
-* [Zcash Block Explorer](https://mainnet.zcashexplorer.com)
+* [Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 

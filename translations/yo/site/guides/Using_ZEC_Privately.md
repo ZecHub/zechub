@@ -43,7 +43,7 @@ Eyi ni ẹkọ fun bi o ṣe le yọ ZEC kuro ninu paṣipaarọ kan. Akiyesi pe
     src="https://www.youtube.com/embed/REUbkLzK7J4"
     title="Buy and withdraw ZEC to a shielded wallet from Gemini"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -58,7 +58,7 @@ Eyi ni ẹkọ fun bi o ṣe le daabobo ZEC rẹ lati adirẹsi ti ko ṣii si a
     src="https://www.youtube.com/embed/W2msuzrxr3s"
     title="Shield your ZEC from a transparent to shielded address"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -73,7 +73,7 @@ Eyi ni ẹkọ fun bi o ṣe le ra ZEC lori Coinbase ki o firanṣẹ si Zodl.
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
+    allowFullScreen
     loading="lazy"
   />
 </div>

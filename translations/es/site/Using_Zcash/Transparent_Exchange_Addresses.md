@@ -16,7 +16,7 @@ Aunque las direcciones TEX aún no están ampliamente adoptadas, es posible que 
 ## Cuándo necesito una dirección TEX
 
 ### **Necesitas** una dirección TEX cuando envías fondos a una dirección Transparent usando una billetera que no admite el envío directo a una dirección Transparent. 
-Ciertas billeteras simplemente no permiten enviar directamente a una dirección Transparent y **puede que el destinatario no proporcione un equivalente TEX**. Por lo tanto, **convertir** de una dirección Transparent a una dirección TEX puede ser necesario en ocasiones. Esto puede lograrse manualmente ejecutando la implementación de referencia descrita en zip-320. Se puede encontrar una instancia alojada de un **Convertidor de Transparent a TEX** [AQUÍ](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/).
+Ciertas billeteras simplemente no permiten enviar directamente a una dirección Transparent y **puede que el destinatario no proporcione un equivalente TEX**. Por lo tanto, **convertir** de una dirección Transparent a una dirección TEX puede ser necesario en ocasiones. Esto puede lograrse manualmente ejecutando la implementación de referencia descrita en [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
 
 ### Necesitas una dirección TEX cuando envías fondos a un exchange centralizado que **REQUIERE que esos fondos provengan de una fuente Transparent**. 
 Actualmente, [Binance](https://www.binance.com/) es el único exchange centralizado que utiliza direcciones TEX (y son la razón principal de la creación de TEX). 

@@ -15,7 +15,7 @@ We have seen too many projects over-promise and under deliver on their NFT roadm
 
 ## Governance
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — the DAO's custom portal at vote.cypherpunkzero.com was retired and its domain no longer resolves; this is the surviving Snapshot space.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

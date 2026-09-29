@@ -58,7 +58,7 @@
 
 ## Mastodon <img src="/content-images/mastodon-d5e5cbfab3.svg" width="20" height="20"> 
 
-1. [Zeal Center](https://zeal.center/) - Registrati [qui](https://blog.zeal.center/registration.html) per unirti
+1. [Zeal Center](https://web.archive.org/web/20260312101334/https://zeal.center/) - Registrati [qui](https://blog.zeal.center/registration.html) per unirti
 
 ## Reddit <img src="/content-images/reddit-5d9fdb65fe.svg" width="20" height="20"> 
 

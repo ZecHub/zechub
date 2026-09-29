@@ -59,7 +59,7 @@ Dɔa kaka ɖe habɔbɔ siwo le wo ɖokui si me egbea, eye akpa si me kɔ le wo d
 ### Habɔbɔ eve siwo tso ƒe 2026 me la ma
 
 1. ZODL, Zcash Open Development Lab, nye esi Electric Coin Company ƒe ƒuƒoƒo si nɔ anyi tsã la ɖo eye Josh Swihart ye nɔ ŋgɔ na wo. Efɔ ga si wu dɔlar miliɔn blaeve vɔ atɔ̃ tso egodo gadelawo gbɔ eye wòwɔa dɔ tso ɖoɖowɔɖi veviwo wɔwɔ ŋu, si me Halo 2 kpeɖodziɖoɖo si naa ŋusẽ Zcash ƒe asitsatsa yeyetɔ siwo ŋu wokpɔa ta ɖo, kple le ZODL gakotokua dzi, si nye asitelefon dzi gakotoku si wokpɔ ta na le gɔmedzedzea me si woyɔna tsã be Zashi. Kpɔ [ZODL](https://zechub.wiki/zcash-organizations/zodl).
-2. Sovright nye habɔbɔ si mekpɔa viɖe aɖeke tso eme o si Bootstrap ƒe habɔbɔa me tɔ etɔ̃ siwo nɔ anyi tsã ɖo. Eléa fɔ ɖe dɔwɔnuwo kple kpekpeɖeŋunana lãwo ƒe agbenɔnɔ ŋu, eye wòtu Argos, si nye dɔwɔnu si akpe ɖe ezãla gbãtɔwo ŋu woaxɔ ga siwo tsi gakotoku xoxo aɖe si womelé be na o me. Kpɔ [Sovright ƒe nyawo](https://zechub.wiki/zcash-organizations/sovright).
+2. Sovright nye habɔbɔ si mekpɔa viɖe aɖeke tso eme o si Bootstrap ƒe habɔbɔa me tɔ etɔ̃ siwo nɔ anyi tsã ɖo. Eléa fɔ ɖe dɔwɔnuwo kple kpekpeɖeŋunana lãwo ƒe agbenɔnɔ ŋu, eye wòtu Argos, si nye dɔwɔnu si akpe ɖe ezãla gbãtɔwo ŋu woaxɔ ga siwo tsi gakotoku xoxo aɖe si womelé be na o me. Kpɔ [Sovright](https://zechub.wiki/zcash-organizations/sovright).
 
 ### Protocol dzikpɔkpɔ, numekuku, kple node software
 
@@ -108,9 +108,9 @@ Wiki sia li be wòakpe ɖe ŋuwò nàge ɖe eme, eyata afɔɖeɖe nyuitɔ si kpl
 - [Zãla ƒe Mɔfiame Yeye](https://zechub.wiki/start-here/new-user-guide) na azɔlizɔzɔ gbãtɔ to Zcash zazã me
 - [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](https://zechub.wiki/using-zcash/shielded-pools) na alesi Zcash naa asitsatsa nɔa ɣaɣla
 - [Trɔtrɔmɔ̃a](https://zechub.wiki/zcash-tech/the-turnstile) le alesi gaku ƒe agbɔsɔsɔme nɔa anyi si ŋu woate ŋu aɖo kpee ta
-- [Ironwood ƒe ati](https://zechub.wiki/zcash-tech/ironwood) na shielded pool si network la le ʋuʋum yi
+- [Ironwood](https://zechub.wiki/zcash-tech/ironwood) na shielded pool si network la le ʋuʋum yi
 - [Netwɔƒea ƒe Ðɔɖɔɖowo](https://zechub.wiki/start-here/network-upgrades) na alesi Zcash trɔna le ɣeyiɣi aɖe megbe
-- [zk-SNARKs ƒe nyawo](https://zechub.wiki/zcash-tech/zk-snarks) na nya ɣaɣla siwo le megbe na ame ŋutɔ ƒe nyatakakawo
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) na nya ɣaɣla siwo le megbe na ame ŋutɔ ƒe nyatakakawo
 
 Axa ɖesiaɖe doa ka kple bubuwo, eyata àte ŋu akplɔ ka la ɖo alesi nèdi.
 
@@ -129,7 +129,7 @@ Axa ɖesiaɖe doa ka kple bubuwo, eyata àte ŋu akplɔ ka la ɖo alesi nèdi.
 ## Axa siwo do ƒome kplii
 
 - [ZODL](https://zechub.wiki/zcash-organizations/zodl) - ŋgɔyiyidɔwɔƒe si Electric Coin Company ƒe ƒuƒoƒo si nɔ anyi tsã ɖo
-- [Sovright ƒe nyawo](https://zechub.wiki/zcash-organizations/sovright) - habɔbɔ si mekpɔa viɖe aɖeke tso eme o si Bootstrap ƒe habɔbɔ me tɔ tsãtɔwo ɖo
+- [Sovright](https://zechub.wiki/zcash-organizations/sovright) - habɔbɔ si mekpɔa viɖe aɖeke tso eme o si Bootstrap ƒe habɔbɔ me tɔ tsãtɔwo ɖo
 - [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation) - aƒedzikpɔla le ɖoɖowɔɖia kple Zebra node la me
 - [Labs Siwo Wotsɔ Akpoxɔnu Wɔe](https://zechub.wiki/zcash-organizations/shielded-labs) - numekuku kple ɖoɖowɔɖi ƒe ŋgɔyiyi
 - [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company) - dɔwɔƒe si dze Zcash gɔme le ƒe 2016 me

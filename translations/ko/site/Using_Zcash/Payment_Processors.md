@@ -82,7 +82,7 @@ Orchard만 지원합니다. 저장소 README에는 Sapling이 언급되어 있�
 
 Shielded 전용이며 Sapling, Orchard, Unified Address를 지원합니다. 투명 주소로의 대체 경로는 없으니, 그것을 전제로 계획해서는 안 됩니다.
 
-설치하려면 feat/zec 브랜치의 btcpay-zcash Docker 포크와, Ywallet 또는 Zingo 같은 지갑에서 내보낸 viewing key가 필요합니다. 기본적으로는 원격 lightwalletd와 통신하지만, Zebra와 lightwalletd를 직접 실행할 수도 있습니다.
+설치하려면 feat/zec 브랜치의 btcpay-zcash Docker 포크와, Zkool 또는 Zingo 같은 지갑에서 내보낸 viewing key가 필요합니다. 기본적으로는 원격 lightwalletd와 통신하지만, Zebra와 lightwalletd를 직접 실행할 수도 있습니다.
 
 알아둘 제한 사항이 하나 있습니다. 이 플러그인은 인스턴스의 모든 스토어에 대해 단일 Zcash 지갑을 사용하므로 공유 서버에서 실행하면 안 됩니다. 스토어별 지갑 기능은 현재 개발 중입니다.
 

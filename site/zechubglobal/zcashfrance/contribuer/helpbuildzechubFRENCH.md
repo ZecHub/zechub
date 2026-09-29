@@ -11,7 +11,7 @@ Si vous êtes membre de la communauté Zcash et que vous souhaitez contribuer à
 
 *Pour plus de détails sur les montants des primes, veuillez lire notre [page de contribution](https://github.com/ZecHub/zechub/blob/main/CONTRIBUTING.md)*.
 
-Nous publions des problèmes pour les tâches pour lesquelles nous avons actuellement des primes ouvertes. Ceux-ci se trouvent principalement sous [Problèmes Github](https://github.com/ZecHub/zechub/issues). Vous pouvez également les trouver sur [Dework](https://app.dework.xyz/zechub-2424). Les quêtes ZecHub sont publiées sur [Crew3](https://crew3.xyz/c/zechub/)
+Nous publions des problèmes pour les tâches pour lesquelles nous avons actuellement des primes ouvertes. Ceux-ci se trouvent principalement sous [Problèmes Github](https://github.com/ZecHub/zechub/issues). Vous pouvez également les trouver sur [Dework](https://app.dework.xyz/zechub-2424). Les quêtes ZecHub sont publiées sur [Zealy](https://zealy.io/cw/zechub)
 
 Si vous souhaitez contribuer d'autres manières, veuillez envoyer un message à ZecHub ([@ZecHub](https://twitter.com/zechub)) sur Twitter ou rejoignez notre [Discord](https://discord.gg/zcash ).
 

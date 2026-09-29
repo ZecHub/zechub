@@ -10,19 +10,18 @@ Hier sind einige der aktiven Blogs:
 |---------------------------|------------------------------------------------------------------|------|
 | How Zcash works           | Erstelle ein funktionierendes Modell von Zcash                   | [Besuchen ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
 | Max Desalle               | Zcash meistern                                                   | [Besuchen ->](https://maxdesalle.com/mastering-zcash/) |
-| Mike Rosulek              | The Joy of Cryptography                                          | [Besuchen ->](https://joyofcryptography.com/) |
+| Mike Rosulek              | Die Freude an der Kryptografie                                   | [Besuchen ->](https://joyofcryptography.com/) |
 | James Katz                | Persönliche Texte und Gedanken zu Zcash und Privatsphäre         | [Besuchen ->](https://free2z.cash/James_Katz/) |
 | Thumbs' Update            | Regelmäßige Ökosystem-Updates und Einblicke                      | [Besuchen ->](https://thumbsup.substack.com) |
 | roomatemusing             | Gedanken und Community-Inhalte                                   | [Besuchen ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog             | Technischer Blog mit Fokus auf Zcash-Entwicklung und Tools       | [Besuchen ->](https://blog.nerdbank.net/) |
-| Thor Likes                | Nachrichten, Meinungen und Kommentare zu Zcash                   | [Besuchen ->](https://www.thorlikes.com/) |
 | ZecMec                    | Auf Zcash fokussierte Artikel auf Medium                         | [Besuchen ->](https://zecmec21.medium.com/) |
 | Ian Sagstetter            | Ausführliche Artikel und Newsletter                              | [Besuchen ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)    | Hochkarätige Interviews und Inhalte zum Thema Privatsphäre       | [Besuchen ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                 | Kreative und Community-getriebene Zcash-Inhalte                  | [Besuchen ->](https://free2z.cash/sqribbles) |
 | Str4d                     | Technische Texte vom Zcash-Core-Entwickler                       | [Besuchen ->](https://words.str4d.xyz/) |
 | CipherScan Weekly         | Wöchentliche Blogbeiträge zur Zcash-Blockchain-Analyse           | [Besuchen ->](https://cipherscan.app/) |
-| Zcash Shielded News       | Wöchentliche Zusammenfassung von Neuigkeiten zu Privatsphäre und Ökosystem | [Besuchen ->](https://zechub.wiki) |
+| Zcash Shielded News       | Wöchentliche Zusammenfassung von Neuigkeiten zu Privatsphäre und Ökosystem | [Besuchen ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog           | Artikel und Bildungsinhalte aus der ZecHub DAO-Community         | [Besuchen ->](https://zechub.wiki) |
 
 ---

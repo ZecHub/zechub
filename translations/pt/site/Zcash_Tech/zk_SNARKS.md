@@ -161,7 +161,7 @@ Transparent Setup (No Trusted Setup)- O algoritmo de pré-processamento não usa
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Requer Trusted Setup, mas tem provas muito curtas que podem ser verificadas rapidamente.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK): Universally Trusted Setup.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universally Trusted Setup.
 
 [DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup, mas produzem provas um pouco mais longas ou podem levar mais tempo para o provador executar. 
 

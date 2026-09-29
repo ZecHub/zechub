@@ -56,14 +56,14 @@ Zcash에는 두 종류의 주소가 있습니다.
 
 ## 실제로 활용하기
 
-- 기본적으로 실드 주소를 사용하는 지갑을 사용하세요. 예: [Zodl](https://zodl.com) 또는 [Ywallet](https://ywallet.app/).
+- 기본적으로 실드 주소를 사용하는 지갑을 사용하세요. 예: [ZODL](https://zodl.com) 또는 [Zingo!](https://www.zingolabs.org/).
 - 투명 주소로 ZEC를 받았다면, 사용하기 전에 실드 주소로 옮기세요.
 - 가능한 경우 실드 주소로 결제하세요. 모든 투명 결제는 완전히 공개되지만, 실드 결제는 그렇지 않습니다.
 
 ## 자료
 
 - [Zcash: 프라이버시 및 보안 권장 사항](https://z.cash/support/security/privacy-security-recommendations/)
-- [실드 생태계 (Electric Coin Company)](https://electriccoin.co/blog/shielded-ecosystem/)
+- [실드 생태계 (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Zcash 기술의 작동 방식](https://z.cash/technology/)
 - [Blockchair Zcash 탐색기](https://blockchair.com/zcash)
 
@@ -72,7 +72,7 @@ Zcash에는 두 종류의 주소가 있습니다.
 - [Zcash 기초](/start-here/what-is-zec-and-zcash)
 - [지갑](/using-zcash/wallets)
 - [실드 풀](/using-zcash/shielded-pools)
-- [ZK-SNARKs](/zcash-tech/zk-snarks)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

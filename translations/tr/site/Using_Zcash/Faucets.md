@@ -11,8 +11,6 @@ Faucet'ler, ücretsiz olarak küçük miktarlarda kripto para dağıtan hizmetle
 
 Ana ağ: <a href="https://zecfaucet.com">zecfaucet</a>
 
-Test ağı: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
-
 Test ağı: <a href="https://fauzec.com/">fauzec.com</a>
 
 Test ağı: <a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>

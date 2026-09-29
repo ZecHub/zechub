@@ -25,23 +25,21 @@ Mfomso ahorow a wɔbɔ ho amanneɛ
 
 #### Sɛ wopɛ bounty amounts ho nsɛm a, yɛsrɛ wo kenkan yɛn ntoboa krataafa -> [ha](https://zechub.wiki/contribute/contributing-guide#content).
 
-Yɛde nsɛmma nhoma to gua ma nnwuma a mprempren yɛwɔ bounties a wɔabue Memeneda biara. Wubetumi ahyɛ bounties nso ho nyansa! Eyinom titiriw na wohu wɔ ZEC Bounties.
+Yɛde nsɛmma nhoma to gua ma nnwuma a mprempren yɛwɔ bounties a wɔabue Memeneda biara. Wubetumi nso ahyɛ nyansa sɛ wɔmfa bounties mma! Eyinom titiriw na wohu wɔ ZEC Bounties.
 
-![zecbounties a ɛwɔ hɔ](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
+![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 
-[ZEC Bounties a wɔde ma](https://bounties.zechub.wiki/)
+[ZEC Bounties na ɛyɛ adwuma](https://bounties.zechub.wiki/)
 
 [ZecHub Github Nsɛmpɔw](https://github.com/ZecHub/zechub/issues)
 
 [ZecHub-Wiki Github Nsɛmpɔw](https://github.com/ZecHub/zechub-wiki/issues)
 
-[ZecHub-Namada Github Nsɛmpɔw](https://app.dework.xyz/zechub-2424)
 
 
-
-Sɛ akwan foforo bi wɔ hɔ a wopɛ sɛ wofa so boa a, yɛsrɛ wo, fa nkra mena ZecHub ([@ZecHub](https://twitter.com/zechub)) wɔ Twitter anaa Kɔka yɛn [Discord](https://discord.gg/zcash).
+Sɛ akwan foforo bi wɔ hɔ a wopɛ sɛ wofa so boa a, yɛsrɛ wo message ZecHub ([@ZecHub na ɔkyerɛwee](https://twitter.com/zechub)) wɔ Twitter anaa Kɔka yɛn [Discord](https://discord.gg/zcash).
 
 ____
 

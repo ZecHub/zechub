@@ -15,7 +15,7 @@ Cypherpunk Zero — это серия повествований, сосредо
 
 ## Governance
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — пользовательский портал DAO на vote.cypherpunkzero.com был закрыт, и его домен больше не разрешается; это сохранившееся пространство Snapshot.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

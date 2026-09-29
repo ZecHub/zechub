@@ -52,7 +52,7 @@ This allows you to receive funds **without exposing your financial graph**.
 
 - A Zcash wallet that supports shielded addresses:
   - Zodl
-  - YWallet
+  - Zingo!
   - Other supported wallets
 
 <br/>

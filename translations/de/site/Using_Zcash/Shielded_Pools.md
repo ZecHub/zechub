@@ -37,7 +37,7 @@ Während sich Zcash weiterentwickelt, können neue Shielded Pools eingeführt we
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Abb. 1: Ein Diagramm, das die aktuellen 4 Pools im Oktober 2025 zeigt
+Abb. 1: Ein Diagramm, das die drei Shielded Pools (Sprout, Sapling und Orchard) bis zum 29. Oktober 2025 zeigt, vor der Aktivierung von Ironwood
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Abb. 2: Ein Diagramm, das den Orchard-Pool im Oktober 2025 zeigt
+Abb. 2: Ein Diagramm, das den Orchard-Pool bis zum 29. Oktober 2025 zeigt, vor der Aktivierung von Ironwood
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Abb. 3: Ein Diagramm, das den Sapling-Pool im Oktober 2025 zeigt
+Abb. 3: Ein Diagramm, das den Sapling-Pool bis zum 29. Oktober 2025 zeigt, vor der Aktivierung von Ironwood
 
 <br/>
 
@@ -90,7 +90,7 @@ Zcash Sapling ermöglicht es Nutzern, private Transaktionen in nur wenigen Sekun
 
 Das Shielding von Transaktionen verbessert die Privatsphäre, sodass es für Dritte unmöglich ist, Transaktionen zu verknüpfen und die Menge an übertragenem ZEC zu bestimmen. Sapling verbessert außerdem die Benutzerfreundlichkeit, indem die Rechenanforderungen für die Erstellung privater Transaktionen gesenkt werden und sie dadurch für Nutzer zugänglicher werden.
 
-Sapling-Wallet-Adressen beginnen mit „zs“, und das lässt sich in allen unterstützten Zcash Shielded Wallets beobachten (YWallet, Zingo Wallet, Nighthawk usw.), die integrierte Sapling-Adressen haben. Zcash Sapling stellt einen bedeutenden technologischen Fortschritt dar, wenn es um die Privatsphäre und Effizienz von Transaktionen geht, was Zcash zu einer praktischen und effektiven Kryptowährung für Nutzer macht, die Privatsphäre und Sicherheit schätzen.
+Sapling-Wallet-Adressen beginnen mit „zs“, und das lässt sich in allen unterstützten Zcash Shielded Wallets beobachten (Zkool, Zingo Wallet, Nighthawk usw.), die integrierte Sapling-Adressen haben. Zcash Sapling stellt einen bedeutenden technologischen Fortschritt dar, wenn es um die Privatsphäre und Effizienz von Transaktionen geht, was Zcash zu einer praktischen und effektiven Kryptowährung für Nutzer macht, die Privatsphäre und Sicherheit schätzen.
 
 ____
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Abb. 4: Ein Diagramm, das den Sprout-Pool im Oktober 2025 zeigt
+Abb. 4: Ein Diagramm, das den Sprout-Pool bis zum 29. Oktober 2025 zeigt, vor der Aktivierung von Ironwood
 
 Sprout war das allererste offene, erlaubnisfreie Zero-Knowledge-Privatsphäre-Protokoll, das jemals eingeführt wurde. Es wurde am 28. Oktober 2016 gestartet.
 
@@ -113,7 +113,7 @@ Als das Zcash-Ökosystem mit einer steigenden Anzahl shielded Transaktionen weit
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Abb. 5: Ein Diagramm, das den Transparent-Pool im Oktober 2025 zeigt
+Abb. 5: Ein Diagramm, das den Transparent-Pool bis zum 29. Oktober 2025 zeigt, vor der Aktivierung von Ironwood
 
 <br/>
 
@@ -184,5 +184,5 @@ Siehe [Ironwood](/zcash-tech/ironwood) für das Upgrade selbst und [The Turnstil
 - [Wallets](/using-zcash/wallets) — Welche Wallets gepflegt werden und für Ironwood bereit sind
 - [Transaktionen](/using-zcash/transactions) — Wie man shielded Transaktionen sendet
 - [ZEC kaufen](/using-zcash/buying-zec) — ZEC erwerben, bevor man es in Pools verwendet
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — Die kryptografische Grundlage von Shielded Pools
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Die kryptografische Grundlage von Shielded Pools
 - [Was sind ZEC und Zcash](/start-here/what-is-zec-and-zcash) — Hintergrund zur Privatsphäre von Zcash

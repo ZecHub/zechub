@@ -125,11 +125,11 @@ ZIP 1016 (предложен в феврале 2025 года, статус: Prop
 
 ## 5. Связанные ресурсы
 
-- Официальное объяснение финансирования -> [раздел funding на z.cash/network](https://z.cash/network/?funding=#funding)  
+- Официальное объяснение финансирования -> [раздел финансирования z.cash/network](https://z.cash/network/?funding=#funding)  
 - ZIP 1015 (изменение финансирования в NU6) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
 - ZIP 1016 (предлагаемая модель держателей монет) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
-- Портал Zcash Community Grants -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com) (или текущий сайт FPF)
+- Портал Zcash Community Grants -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 
 ## 6. Панель Lockbox
 

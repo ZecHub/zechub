@@ -61,7 +61,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **DeFi**:  |  Progetti che integrano ZEC con DeFi:  [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH)  |
+|  **DeFi**:  |  Progetti che integrano ZEC con DeFi:  [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZeroDAO](https://web.archive.org/web/20260122164455/https://bridge.zerodao.com/#/transfer/ETH)  |
 |   **Deshielding**:   |    Si riferisce a una transazione inviata da un indirizzo zaddr (indirizzo schermato) a un indirizzo taddr (indirizzo trasparente). L'origine della transazione non è visibile, tuttavia i fondi entrano in un pool di valore pubblicamente visibile. [Anatomia della transazione](https://electriccoin.co/blog/anatomy-of-zcash/)       |  
 |    **Developer Resources**:  |    [Risorse per gli sviluppatori](https://www.zcashcommunity.com/developers/)   |  
 |  **Documentazione**:  |   [Documentazioni ufficiali](https://zcash.readthedocs.io/en/latest/)|  
@@ -293,7 +293,7 @@ ___
 |          |            | 
 |--------------|-----------|
 |  **Upgrade Activation**:  | L'attivazione di un aggiornamento è un'altezza specifica del blocco che attiva un aggiornamento della rete.        |  
-| **Unified Addresses**: |   Il formato di indirizzo standardizzato generato da un insieme di tipi di indirizzi Zcash multipli (ad esempio, trasparente, Sapling e Orchard). [Ulteriori informazioni](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) |  
+| **Unified Addresses**: |   Il formato di indirizzo standardizzato generato da un insieme di tipi di indirizzi Zcash multipli (ad esempio, trasparente, Sapling e Orchard). [Ulteriori informazioni](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/) |  
 |  **Units**: |  L'unità per le monete Zcash è 'ZEC'. L'unità più piccola è 0,00000001 o Zatoshi / Zat. |  
 | **User Defined Assets**:  | Estensione del Protocollo Orchard per consentire gli Asset nativi protetti o (ZSA). [Video spiegazione in inglese](https://www.youtube.com/watch?v=hJMWE3zLIcs)|  
 |  **UTXO**:  |  Un output di transazione non speso è il risultato di una transazione che un utente riceve e può spendere in futuro. Si noti che ogni UTXO può essere speso solo una volta. Questo differisce dai sistemi basati su account. |  

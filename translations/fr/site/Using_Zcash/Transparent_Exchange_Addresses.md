@@ -16,7 +16,7 @@ Bien que les adresses TEX ne soient pas largement adoptées, les utilisateurs de
 ## Quand ai-je besoin d’une adresse TEX
 
 ### Vous avez **besoin** d’une adresse TEX lorsque vous envoyez des fonds vers une adresse Transparente à l’aide d’un portefeuille qui ne prend pas en charge l’envoi direct vers une adresse Transparente.
-Certains portefeuilles ne permettent tout simplement pas d’envoyer directement vers une adresse Transparente et **le destinataire peut ne pas fournir d’équivalent TEX**. Ainsi, la **conversion** d’une adresse Transparente en adresse TEX peut parfois être nécessaire. Cela peut être réalisé manuellement en exécutant l’implémentation de référence décrite dans zip-320. Une instance hébergée d’un **convertisseur Transparent-vers-TEX** est disponible [ICI](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/).
+Certains portefeuilles ne permettent tout simplement pas d’envoyer directement vers une adresse Transparente et **le destinataire peut ne pas fournir d’équivalent TEX**. Ainsi, la **conversion** d’une adresse Transparente en adresse TEX peut parfois être nécessaire. Cela peut être réalisé manuellement en exécutant l’implémentation de référence décrite dans [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
 
 ### Vous avez besoin d’une adresse TEX lorsque vous envoyez des fonds à une plateforme d’échange centralisée qui **EXIGE que ces fonds proviennent d’une source Transparente**.
 Actuellement, [Binance](https://www.binance.com/) est la seule plateforme d’échange centralisée à utiliser des adresses TEX (et elles constituent la principale raison de la création de TEX).

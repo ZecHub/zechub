@@ -25,7 +25,7 @@ Ce guide se concentre sur le minage de Zcash à l'aide de matériel personnel (p
   - Pour les GPU : lolMiner (prend en charge AMD/NVIDIA), GMiner ou miniZ (axé NVIDIA). Téléchargez-les depuis les dépôts GitHub officiels (par ex. github.com/Lolliedieb/lolMiner-releases).
   - Pour les ASIC : utilisez le firmware/tableau de bord intégré du fabricant (par ex. l'interface web de Bitmain).
 - **Wallet :** Un wallet Zcash pour recevoir les paiements. Recommandés :
-  - Shielded (privé) : Zodl Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
+  - Shielded (privé) : Zodl Wallet, Zingo (Mobile/Desktop), Zkool (mobile/desktop).
   - Transparent (plus simple mais moins privé) : Edge Wallet, Zecwallet Lite.
   - Téléchargez-les depuis [wallets](https://zechub.wiki/wallets). Générez une adresse shielded (commence par « zs ») pour plus de confidentialité si le pool la prend en charge.
 

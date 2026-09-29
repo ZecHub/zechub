@@ -64,7 +64,7 @@ Fún àlàyé tó jinlẹ̀ síi nípa ohun tí olùwádìí kan kà, wo: [Ohun 
 
 ## Máa fi ohun tó o kọ́ sílò.
 
-- Lo apamọwọ ti o ni aabo nipasẹ aiyipada, gẹgẹ bi: [Zodl (ì í ì)](https://zodl.com) or [Ywallet](https://ywallet.app/).
+- Lo apamọwọ ti o ni aabo nipasẹ aiyipada, gẹgẹ bi: [Zodl (ì í ì)](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Ṣọ́ àwọn owó tó bá ti dé láti ibi ìnáwó, kí wọ́n tó ná an.
 - Sanwó sí àwọn àdírésì tí a fi ààbò bo nígbàkigbà tí olùgbágbà bá ti gba ọ̀kan.
 - Ṣaaju ki o to pin bọtini wiwo kan, beere eyi ti awọn bọtini jẹ kekere ọkan pe dahun ibeere ti a npe ni.

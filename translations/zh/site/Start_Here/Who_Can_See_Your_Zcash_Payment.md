@@ -64,7 +64,7 @@
 
 ## 付诸实践
 
-- 使用默认启用屏蔽的 wallet，例如 [Zodl](https://zodl.com) 或 [Ywallet](https://ywallet.app/)。
+- 使用默认启用屏蔽的 wallet，例如 [Zodl](https://zodl.com) 或 [Zingo!](https://www.zingolabs.org/)。
 - 资金从交易所到账后，在花费之前尽快先转入屏蔽地址。
 - 当收款方支持屏蔽地址时，尽量支付到屏蔽地址。
 - 在分享 viewing key 之前，先问清楚：哪一种密钥才是足以回答当前问题的最小权限密钥。

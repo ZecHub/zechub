@@ -47,7 +47,7 @@ Zcash Community Grants bụ nzukọ nọọrọ onwe ya site na Electric Coin Co
     src="https://www.youtube.com/embed/ItEwc1lzvzc"
     title="How to Submit a Grant Application via ZCG"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

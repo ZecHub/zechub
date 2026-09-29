@@ -125,11 +125,11 @@ Zcash 거버넌스는 “온체인 프로토콜 규칙”과 “오프체인 사
 
 ## 5. 관련 자료
 
-- 공식 자금 조달 설명 -> [z.cash/network funding section](https://z.cash/network/?funding=#funding)  
+- 공식 자금 조달 설명 -> [z.cash/network 자금 조달 섹션](https://z.cash/network/?funding=#funding)  
 - ZIP 1015 (NU6 자금 조달 변경) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
 - ZIP 1016 (제안된 코인 보유자 모델) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
-- Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
-- Zcash Community Grants 포털 -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com) (또는 현재 FPF 사이트)
+- Zcash 개선 제안 -> [zips.z.cash](https://zips.z.cash)  
+- Zcash Community Grants 포털 -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 
 ## 6. Lockbox 대시보드
 

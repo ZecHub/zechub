@@ -62,14 +62,14 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/login)
+### [Nanopool](https://zec.nanopool.org/)
 
-<a href="https://zec.nanopool.org/login">
+<a href="https://zec.nanopool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- वेबसाइट: [Nanopool](https://zec.nanopool.org/login)
-- Private Payouts: नहीं
+- वेबसाइट: [Nanopool](https://zec.nanopool.org/)
+- निजी भुगतान: नहीं
 - पूल प्रकार: Pay Per Last N 
 - पूल शुल्क: 1%
 

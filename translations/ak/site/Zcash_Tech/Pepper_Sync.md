@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-* Pepper Sync yɛ synchronization engine a wɔde aba Zingo mu! 2.0, Zcash sika kotoku a wɔabue ano a Zingo Labs ayɛ.
+* Pepper Sync yɛ synchronization engine a wɔde aba Zingo! 2.0, Zcash sika kotoku a wɔabue ano a Zingo Labs.
 * Ɛde non-linear synchronization di dwuma sen sɛ ɛbɛhwehwɛ nkɔnsɔnkɔnsɔn no mu wɔ asinasin akɛse a ɛtoatoa so, enti wo sika a aka ne nkitahodi ahorow no da adi ntɛm koraa.
 * Wɔkora nkɔso so bere nyinaa. Sɛ nkitahodi no gyae anaasɛ app no ​​to mu a, syncing no san fi ase fi baabi a egyinae sen sɛ ɛbɛsan afi ase bio.
 * Wubetumi asɛe sika ansa na synchronization no awie.
@@ -14,7 +14,7 @@
 
 ## Nkyerɛkyerɛmu Titiriw
 
-Zingo 2.0 yɛ Zingo no fã a aba foforo! wallet, sika kotoku a emu yɛ hare, a wɔabue ano a wɔasi ama Zcash mpɔtam hɔfo. Nsoromma a ɛwɔ saa yi a wɔayi no adi yi mu ne Pepper Sync, nkɔso kɛse a ɛsan susuw sɛnea sika kotoku ne blockchain no di nkitaho no ho koraa.
+Zingo 2.0 yɛ Zingo! wallet, sika kotoku a emu yɛ hare, a wɔabue ano a wɔasi ama Zcash mpɔtam hɔfo. Nsoromma a ɛwɔ saa yi a wɔayi no adi yi mu ne Pepper Sync, nkɔso kɛse a ɛsan susuw sɛnea sika kotoku ne blockchain no di nkitaho no ho koraa.
 
 Bere bi a atwam no, na syncing betumi ate nka sɛ ɛyɛ brɛoo wɔ ɔkwan a ɛyɛ yaw so, ɛyɛ nea mfomso taa yɛ, na ɛyɛ nea ɛho hia kɛse, na ɛtɔ mmere bi a ɛhyɛ wɔn a wɔde di dwuma no ma wɔsan fi ase fi mfiase. Pepper Sync sesa saa nneɛma no nyinaa. Ɛma syncing yɛ ntɛmntɛm, ɛyɛ mmerɛw, wotumi de ho to so, na ɛnyɛ den pii wɔ wo device no so, bere a ɛkora kokoam nsɛm a wɔabɔ ho ban no so koraa.
 
@@ -101,7 +101,7 @@ Pepper Sync boa denam:
 
 ## Mfomso a Ɛtaa Tu
 
-**Pepper Sync a wɔde bedi dwuma sɛ sika kotoku wɔ n'ankasa mu**. Pepper Sync yɛ synchronization engine a ɛwɔ Zingo no mu! sika kotoku, ɛnyɛ application a ɛyɛ soronko. Wode Zingo ahyɛ mu; Pepper Sync ne nea ɛkɔ n’ase.
+**Pepper Sync a wɔde bedi dwuma sɛ sika kotoku wɔ n'ankasa mu**. Pepper Sync yɛ synchronization engine a ɛwɔ Zingo! sika kotoku, ɛnyɛ application a ɛyɛ soronko. Wode Zingo; Pepper Sync ne nea ɛkɔ n’ase.
 
 **Sɛ yɛfa no sɛ syncing ntɛmntɛm kyerɛ sɛ kokoamsɛm yɛ mmerɛw**. Ahoɔhare no fi sɛnea wɔfa block data, hyehyɛ, na wɔde sie, na ɛnyɛ sɛ wɔda nsɛm pii adi. Nkitahodi a wɔabɔ ho ban no tra kokoam wɔ bere nyinaa mu.
 
@@ -141,7 +141,7 @@ Zingo 2.0 a ɛwɔ Pepper Sync no nyɛ nkɔsoɔ kɛkɛ; ɛyɛ ahurututu a ɛkɔ a
 
 - [Zcash Sikakorabea Syncing](/zcash-tech/zcash-wallet-syncing) — sɛnea wallet synchronization yɛ adwuma wɔ Zcash ecosystem no nyinaa mu.
 - [Lightwallet Nodes a Wɔde Di Dwuma](/zcash-tech/lightwallet-nodes) — infrastructure a hann sika kotoku te sɛ Zingo syncs tia.
-- [Zaino na ɔkyerɛwee](/zcash-tech/zaino) — indexer a Zingo kuw no na ɛyɛe.
+- [Zaino](/zcash-tech/zaino) — indexer a Zingo kuw no na ɛyɛe.
 - [Sika kotoku](/wallets) — Zcash sika kotoku ne ne nneɛma ho kyerɛwtohɔ a edi mũ.
 
 ## Adesua a Ɛkɔ Akyiri

@@ -37,7 +37,7 @@ Zcash가 발전함에 따라 기존 자금과의 호환성을 유지하면서 �
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-그림 1: 2025년 10월 기준 현재 4개 풀을 보여주는 차트
+그림 1: Ironwood 활성화 이전인 2025년 10월 29일 기준 3개의 실드 풀(Sprout, Sapling, Orchard)을 보여주는 차트
 
 <br/>
 
@@ -60,7 +60,7 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-그림 2: 2025년 10월 기준 Orchard 풀을 보여주는 차트
+그림 2: Ironwood 활성화 이전인 2025년 10월 29일 기준 Orchard 풀을 보여주는 차트
 
 <br/>
 
@@ -78,7 +78,7 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-그림 3: 2025년 10월 기준 Sapling 풀을 보여주는 차트
+그림 3: Ironwood 활성화 이전인 2025년 10월 29일 기준 Sapling 풀을 보여주는 차트
 
 <br/>
 
@@ -90,7 +90,7 @@ Zcash Sapling은 사용자가 Sprout 시리즈에서 더 오래 걸리던 것과
 
 거래 실드는 프라이버시를 강화하여 제3자가 거래를 연결하거나 전송되는 ZEC의 양을 파악할 수 없게 만듭니다. Sapling은 또한 비공개 거래 생성에 필요한 계산 요구량을 줄여 사용자 접근성을 높임으로써 사용성을 개선합니다.
 
-Sapling 지갑 주소는 "zs"로 시작하며, 이는 Sapling 주소가 내장된 지원되는 모든 Zcash 실드 지갑(YWallet, Zingo Wallet, Nighthawk 등)에서 확인할 수 있습니다. Zcash Sapling은 거래의 프라이버시와 효율성 측면에서 중요한 기술 발전을 나타내며, 이는 Zcash를 프라이버시와 보안을 중시하는 사용자에게 실용적이고 효과적인 암호화폐로 만들어 줍니다.
+Sapling 지갑 주소는 "zs"로 시작하며, 이는 Sapling 주소가 내장된 지원되는 모든 Zcash 실드 지갑(Zkool, Zingo Wallet, Nighthawk 등)에서 확인할 수 있습니다. Zcash Sapling은 거래의 프라이버시와 효율성 측면에서 중요한 기술 발전을 나타내며, 이는 Zcash를 프라이버시와 보안을 중시하는 사용자에게 실용적이고 효과적인 암호화폐로 만들어 줍니다.
 
 ____
 
@@ -98,7 +98,7 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-그림 4: 2025년 10월 기준 Sprout 풀을 보여주는 차트
+그림 4: Ironwood 활성화 이전인 2025년 10월 29일 기준 Sprout 풀을 보여주는 차트
 
 Sprout는 최초로 출시된 개방형 무허가 Zero Knowledge 프라이버시 프로토콜이었습니다. 2016년 10월 28일에 출시되었습니다.
 
@@ -113,7 +113,7 @@ Sprout는 [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-그림 5: 2025년 10월 기준 Transparent 풀을 보여주는 차트
+그림 5: Ironwood 활성화 이전인 2025년 10월 29일 기준 Transparent 풀을 보여주는 차트
 
 <br/>
 
@@ -184,5 +184,5 @@ Zcash 네트워크에서 Transparent 주소(T-address)에서 또 다른 Transpar
 - [지갑](/using-zcash/wallets) — 어떤 지갑이 유지 관리되고 있으며 Ironwood를 지원하는지
 - [거래](/using-zcash/transactions) — 실드 거래를 보내는 방법
 - [ZEC 구매하기](/using-zcash/buying-zec) — 풀에서 사용하기 전에 ZEC를 확보하는 방법
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — 실드 풀의 암호학적 기반
+- [zk-SNARKs](/zcash-tech/zk-snarks) — 실드 풀의 암호학적 기반
 - [ZEC와 Zcash란 무엇인가](/start-here/what-is-zec-and-zcash) — Zcash 프라이버시에 대한 배경

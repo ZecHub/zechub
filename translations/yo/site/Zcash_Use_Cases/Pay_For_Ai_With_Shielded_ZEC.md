@@ -103,7 +103,7 @@ Owó tó ṣẹ́ kù á wá yọjú, wàá sì lè ná an lójú ẹsẹ̀.
 
 Pupọ awọn iṣẹ AI ko gba ZEC. ** Venice.ai** ati ** OpenRouter ** mejeeji mu USDC dipo, ati pe OpenRooter jẹ ki o yan eyiti ẹwọn ti iṣayẹwo naa ba wa lori rẹ.
 
-Fun awọn ti, lo ** CrossPay** ni [Zodl (ì í ì)](/zcash-organizations/zodl)O lo ZEC ti o ni aabo ati pe a san owo fun olugba ninu dukia wọn beere, ṣe nipasẹ Awọn ero NEAR laisi paṣipaarọ aringbungbun ati laisi KYC.
+Fun awọn ti, lo ** CrossPay** ni [Zodl (ì í ì)](/zcash-organizations/zodl)O lo ZEC ti o ni aabo ati pe a san owo fun olugba ninu dukia wọn beere, ṣe nipasẹ NEAR Intents laisi paṣipaarọ aringbungbun ati laisi KYC.
 
 1. Gba adirẹsi isanwo iṣẹ ati dukia ati pq ti o reti, fun apẹẹrẹ USDC lori Base
 2. Ṣii Zodl ki o si yan ** CrossPay**
@@ -120,20 +120,20 @@ ZEC rẹ fi ààbò sílẹ̀. Iṣẹ́ náà rí owó USDC tí ó wọlé dé 
 
 Èyí ni apá tí ọ̀pọ̀ jù lọ àwọn tó ń ṣamọ̀nà èèyàn kì í kà.
 
- Kí ló ṣẹlẹ̀? Ohun tí iṣẹ́ náà kọ́. Àwọn ohun tó ń lọ ní ẹ̀ka-ìmọ̀ràn (chain).
+| Ki ni o sele | Ohun tí iṣẹ́ ìsìn náà ń kọ́ | Kini o n lọ lori pq |
 |---|---|---|
-ì í ì ¬ë¦¬í ë ¤. No account, no email...nothing.
-A ti fi adirẹsi ìsọ̀rí sílẹ̀. Kò sí nǹkankan. kò sí ohunkóhun.
-O sanwó láti Sapling Adirẹsi ìsọ̀ǹpamọ́ tí o lò kò sí. A dí ààbò fún a dí àbòjú, ó ṣeé ṣe kí ẹ ti rí i pé àwọn oníbàárà yín ń lo owó náà ní tààràtà tàbí lódìlódì.
-O sanwó láti Ironwood, iye kan náà àti gíga ilé.
-O sanwó láti adirẹsi tí ó ṣe kedere. Ohun kan náà ni iye owó àti t-adiresi rẹ.
-☐ Ohunkan ninu ohun ti o wa loke. IP rẹ, ayafi bi o ba n lo Tor tabi VPN kan. Kò bá a mu.
+| Wiwa kiri ati titọkasi | Kò sí ohunkóhun. Kò sí àkọọ́lẹ̀, kò sí ìmeeli | Ko si nkankan |
+| A ti fi adirẹsi idogo kan silẹ | Ko si nkankan | Ko si nkankan |
+| O sanwo **lati Sapling** | Àdírẹ́sì ìdókòwò tí o lò | Kò sí ohunkóhun. A dáàbò bò ó |
+| O sanwo **lati Ironwood** | Bákan náà | **Iye ati giga bulọọki naa** |
+| O sanwo **lati adiresi ti o han gbangba** | Bákan náà | Iye ati adirẹsi T rẹ |
+| Èyíkéyìí nínú àwọn tí a sọ lókè yìí | IP rẹ, ayafi ti o ba lo Tor tabi VPN kan | Ko ṣiṣẹ fun |
 
 ### Ìdí tí odò náà fi ṣe pàtàkì
 
 Adirẹsi ìpamọ́ NanoGPT jẹ adirẹti iṣọkan. Ṣiṣatunkọ ọkan ti a fun ni Oṣu Kẹjọ ọdun 2026 fihan awọn olugba meji gangan: **Sapling** ati **Orchard**.
 
-Láti ìgbà tí àwọn [Igi irin-igi](/zcash-tech/ironwood) àtúnṣe tí a ṣe ní 28 July 2026, Orchard jẹ́ ìnáwó nìkan àti pé kò sí iye tuntun tó lè wọlé. Èyí fi **Sapling sílẹ̀ gẹ́gẹ́ bí ẹni kan ṣoṣo tí owó-ìsanti le dé inú rẹ**.
+Láti ìgbà tí àwọn [Ironwood](/zcash-tech/ironwood) àtúnṣe tí a ṣe ní 28 July 2026, Orchard jẹ́ ìnáwó nìkan àti pé kò sí iye tuntun tó lè wọlé. Èyí fi **Sapling sílẹ̀ gẹ́gẹ́ bí ẹni kan ṣoṣo tí owó-ìsanti le dé inú rẹ**.
 
 Nitorina ti ZEC rẹ ba wa ni Sapling, owo sisan jẹ Sapling si Sapling ati pe ko si nkankan nipa rẹ. Ṣugbọn bi o ba ti lọ si Ironwood, sanwo n gbe iye kọja aala adagun kan, ati [àgbá yípo náà](/zcash-tech/the-turnstile) ó máa ń tẹ iye àti gíga rẹ̀ jáde bó tilẹ̀ jẹ́ pé ẹni tó rán an àtẹni tí ó gbà á kò ní mọ.
 
@@ -163,10 +163,10 @@ O lè:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Igi irin-igi](/zcash-tech/ironwood) - ìdí tí àpò owó rẹ fi yí padà.
+- [Ironwood](/zcash-tech/ironwood) - ìdí tí àpò owó rẹ fi yí padà.
 - [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile) - ohun tó di ti gbogbo ènìyàn nígbà tí iye bá kọjá àwọn ìsọ̀rí-ìpínlẹ̀ (pool)
 - [Àwọn àpamọ́ owó](/using-zcash/wallets) - àwọn pọ́ọ̀sì wo ni wọ́n ń lò?
-- [ZODL (ì í ì ë ¤)](/zcash-organizations/zodl) - àpò owó tó wà lẹ́yìn CrossPay.
+- [ZODL](/zcash-organizations/zodl) - àpò owó tó wà lẹ́yìn CrossPay.
 
 <br/>
 

@@ -161,7 +161,7 @@ SHA-256은 커밋먼트 스키마에서 사용할 수 있는 해시 함수의 �
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): 신뢰 설정이 필요하지만, 검증이 매우 빠르게 이루어지는 짧은 증명을 제공합니다.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK): 보편적인 신뢰 설정.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): 보편적인 신뢰 설정.
 
 [DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): 신뢰 설정이 필요하지 않지만, 증명이 약간 더 길거나 증명자가 실행하는 데 시간이 더 오래 걸릴 수 있습니다.
 

@@ -186,13 +186,13 @@ Para manter o texto amigável para iniciantes, simplificamos algumas coisas verd
 
 | Termo | Significado em linguagem simples |
 |---|---|
-| **Aritmética modular** | Aritmética que dá a volta ao atingir um valor fixo, como um relógio |
+| **Modular arithmetic** | Aritmética que dá a volta ao atingir um valor fixo, como um relógio |
 | **mod p** | "Divida por `p` e mantenha o resto" |
-| **Corpo** | Um sistema numérico em que somar, subtrair, multiplicar e dividir funcionam |
-| **Corpo finito `F_p`** | Os números `0..p-1` com aritmética feita mod um primo `p` |
-| **Inverso (recíproco)** | O elemento `a^(-1)` tal que `a x a^(-1) = 1`; "dividir por `a`" significa multiplicar por ele |
-| **Divisor de zero** | Dois valores não nulos cujo produto é zero; a coisa que arruína módulos compostos |
-| **Primo** | Um número inteiro maior que 1 sem fatores além de 1 e dele mesmo |
+| **Field** | Um sistema numérico em que somar, subtrair, multiplicar e dividir funcionam |
+| **Finite field `F_p`** | Os números `0..p-1` com aritmética feita mod um primo `p` |
+| **Inverse (reciprocal)** | O elemento `a^(-1)` tal que `a x a^(-1) = 1`; "dividir por `a`" significa multiplicar por ele |
+| **Zero divisor** | Dois valores não nulos cujo produto é zero; a coisa que arruína módulos compostos |
+| **Prime** | Um número inteiro maior que 1 sem fatores além de 1 e dele mesmo |
 
 ---
 

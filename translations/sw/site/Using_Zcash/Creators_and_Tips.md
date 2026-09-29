@@ -21,12 +21,12 @@
 
 **Zcash.me** is a profile directory and discovery platform that makes it easy for anyone to find and send ZEC to Zcash users. It serves as the "Linktree for Zcash" - a simple way to share your shielded address and social presence with a single link.
 
-Kitu. Maelezo.
+| Bidhaa              | Maelezo |
 |-------------------|---------|
-** Tovuti** [https://zcash.me/](https://zcash.me/) |
- Twitter  [@zcashme](https://x.com/zcashme) |
- * Profile Format ** ya juu. `zcash.me/[username]` |
- ** Hali ya sasa**. Live (na vipengele katika maendeleo)
+| **Tovuti**       | [https://zcash.me/](https://zcash.me/) |
+| **Twitter**       | [@zcashme](https://x.com/zcashme) |
+| **Muundo wa Wasifu**| `zcash.me/[username]` |
+| **Hali**        | Ipo moja kwa moja (na vipengele vinavyoendelea kutengenezwa) |
 
 ### Sifa Muhimu za Mfano wa Yesu
 
@@ -39,14 +39,14 @@ Kitu. Maelezo.
 - ** Hali ya shughuli** - Inaonyesha muda wa mwisho kazi
 
 #### Karibuni
- Sifa  Maelezo 
+| Kipengele            | Maelezo |
 |--------------------|-------------|
- Ramani ya eneo. Pata watumiaji wa Zcash walio karibu zaidi.
-Jukwaa. Takwimu za kuona ukuaji wa metrics.
-Kura za maoni ya jamii. kupiga kura juu ya mada mazingira.
-Habari na Matangazo. Updates rasmi.
-Mkutano. Majadiliano ya jumuiya.
-Programu ya simu. Uzoefu kamili wa rununu.
+| Ramani ya Eneo       | Tafuta watumiaji wa Zcash walio karibu |
+| Takwimu za Jukwaa| Tazama vipimo vya ukuaji |
+| Kura za Jumuiya    | Piga kura kuhusu mada za mfumo ikolojia |
+| Habari na Matangazo | Masasisho rasmi |
+| Jukwaa              | Majadiliano ya jamii |
+| Programu ya Simu ya Mkononi         | Uzoefu kamili wa simu |
 
 ### Kuanza Kazi
 1. Kutembelea [https://zcash.me/](https://zcash.me/) na bonyeza ** Jiunge**
@@ -65,12 +65,12 @@ Programu ya simu. Uzoefu kamili wa rununu.
 
 **TipZ** ni **protokol ya kibinafsi inayojenga kusudi la watengenezaji na cypherpunks. Mashabiki wanaweka katika cryptocurrency yoyote kuu; inageuzwa moja kwa moja na kutolewa kama ZEC iliyohifadhiwa.
 
-Kitu. Maelezo.
+| Bidhaa              | Maelezo |
 |-------------------|---------|
-** Tovuti** [https://tipz.cash/](https://tipz.cash/) |
- Twitter  [@tipz_cash](https://x.com/tipz_cash) |
- * Profile Format ** ya juu. `tipz.cash/@[username]` |
-** Hali ya sasa**. Live.
+| **Tovuti**       | [https://tipz.cash/](https://tipz.cash/) |
+| **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
+| **Muundo wa Wasifu**| `tipz.cash/@[username]` |
+| **Hali**        | Moja kwa Moja |
 
 > "tipz.cash ni itifaki ya kibinafsi kwa watengenezaji na waandishi".*
 
@@ -88,12 +88,12 @@ Kitu. Maelezo.
 - Full muumbaji kutojulikana chaguo
 
 #### Malipo ya Msalaba-Mnyororo
-Fedha. Mtandao.
+| Sarafu | Mtandao |
 |----------|---------|
-ETH. Ethereum. Kwa mfano, kwa kutumia Bitcoin na Fedha za Kimataifa (Ethereum).
-USDC. Minyororo mingi.
-SOL. Solana. Ni kweli?
-ZEC: Moja kwa moja ya Zcash.
+| ETH      | Ethereum |
+| USDC     | Minyororo mingi |
+| SOL      | Solana |
+| ZEC      | Zcash ya moja kwa moja |
 
 #### Ulinzi wa Muumba
 - Hakuna hatari ya kuondoa platforming

@@ -512,7 +512,7 @@ zcash-cli getinfo
 
 **Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Обозреватели Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Обозреватели Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (по вопросам провайдеров)
 

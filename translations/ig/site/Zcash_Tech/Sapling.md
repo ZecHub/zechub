@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Osisi osisi Sapling
+# Sapling
 
 > Sapling gara ndụ na Zcash mainnet na ngọngọ 419,200 (Ọktoba 29, 2018, 02:15 UTC).
 
@@ -38,14 +38,14 @@ Sapling followed Overwinter, the June 2018 upgrade that prepared the network's u
 
 ## Akwụkwọ ọkọwa okwu
 
-Okwu. N'asụsụ Bekee nkịtị pụtara:
+| Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
-❖ Nkwekọrịta a na-echekwa echebe. Ihe azụmahịa Zcash nke onwe ya nke na-ezo onye zitere, onye natara ihe, na ego ahụ.
-Sprout. Usoro mbụ echekwara nke Zcash bidoro, dị nwayọ ma sie ike karịa Sapling.
-◯ Spend na Output circuits. Ihe ọhụrụ abụọ Sapling egosi sekit nke dochie Sprout si otu Jikọọ-Kewaa circuit.
-Adreesị dịgasị iche. Otu n'ime ọtụtụ adreesị ịkwụ ụgwọ na-enweghị ike ijikọ ọnụ nke i nwere ike isi na otu igodo nweta.
-◯ Igodo nlele ❑ Igodo nke na-eme ka mmadụ hụ azụmahịa dị n'akpa ego ma ghara iji ya emefu ihe.
-◯ Consensus branch id. A obere koodu na-agwa netwọk nke nwelite iwu a azụmahịa esote.
+| Shielded transaction | Azụmahịa Zcash nkeonwe nke na-ezochi onye zitere ya, onye nnata, na ego ole ọ na-enweta. |
+| Sprout | Usoro nchekwa mbụ nke Zcash malitere site na, nwayọ ma dị arọ karịa Sapling. |
+| Spend and Output circuits | Sekit abụọ ọhụrụ Sapling proof nke nọchiri sekit JoinSplit Sprout's. |
+| Diversified address | Otu n'ime ọtụtụ adreesị ịkwụ ụgwọ na-enweghị njikọ ị nwere ike nweta site na otu igodo. |
+| Viewing key | Mkpịsị ugodi nke na-eme ka mmadụ hụ azụmahịa obere akpa ego n'enweghị ike imefu ego na ya. |
+| Consensus branch id | Koodu dị mkpirikpi nke na-agwa netwọk iwu nkwalite azụmahịa na-eso. |
 
 ## Ajụjụ ndị a na-ajụkarị
 
@@ -85,8 +85,8 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 - [zk-SNARKS](../zcash-tech/zk-snarks)
 - [Nwelite netwọk Zcash](../start-here/network-upgrades)
 - [Akpa ego](../using-zcash/wallets)
-- [Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company)
+- [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Oge oyi na-agafe.](../zcash-tech/overwinter) · Nke ọzọ: [Osisi okooko osisi Blossom](../zcash-tech/blossom)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Overwinter](../zcash-tech/overwinter) · Nke ọzọ: [Blossom](../zcash-tech/blossom)

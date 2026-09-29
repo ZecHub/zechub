@@ -102,11 +102,11 @@ ECC, Filecoin Foundation, Protocol Labs, Ethereum Foundation은 또한 GPU 및 A
 
 ## Halo를 사용하는 다른 프로젝트
 
-+ [Anoma, 프라이버시를 보존하는 멀티체인 원자적 스왑 프로토콜](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, 프라이버시를 보존하는 멀티체인 원자적 스왑 프로토콜](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, Cardano의 L2 zkRollup](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, 프라이빗 L1 zkEVM 블록체인](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, 프라이빗 L1 zkEVM 블록체인](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, Ethereum의 L2 zkRollup](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ ECC, Filecoin Foundation, Protocol Labs, Ethereum Foundation은 또한 GPU 및 A
 
 **문서**
 
-[Halo 2 리소스](https://github.com/adria0/awesome-halo2)
+[Halo 2 리소스](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2 문서](https://zcash.github.io/halo2/)
 

@@ -12,7 +12,7 @@ Zcash küresel topluluğu tarafından oluşturulmuş eğitici çalışma kitabı
 
 ### ZECPublish
 Sansüre dayanıklı, Zcash blokzinciri destekli sosyal medya. Zcash kullanıcıları dizini ve anonim mesaj panosu içerir.  
-[Ziyaret et](https://www.zecpublish.com)
+(Site, Eylül 2026 itibarıyla şu anda çevrim dışıdır.)
 
 ### ZK Radio
 Zcash topluluğunu bilgilendirmek, eğitmek ve eğlendirmek için çevrimiçi radyo istasyonu. Zcash en Español ve ZKAV Club tarafından geliştirildi.  
@@ -46,44 +46,46 @@ Yeni Zcash kullanıcıları ve geliştiricileri için yapılandırılmış eğit
 Zcash temalı oyunlar ve canlı topluluk etkinlikleri sunan etkileşimli site.  
 [Ziyaret et](https://zectastic.com/)
 
-### Zec App
-Zcash haberlerini, topluluk etkinliğini, ağ bilgilerini, cüzdanları, borsaları ve ekosistem kaynaklarını tek bir yerde toplayan mobil uygulama.  
+### ZEC App
+ZEC haberlerini, topluluk etkinliğini, ağ bilgilerini, cüzdanları, borsaları ve ekosistem kaynaklarını tek bir yerde toplayan mobil uygulama.  
 [Forum](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Community
 Gizliliği koruyan dijital nakit, pratik uyumluluk ve Zcash'in kamu yararına rolüne odaklanan Washington D.C. politika girişimi Pretty Good Policy for Zcash (PGPZ) için topluluk merkezi.  
 [Ziyaret et](https://community.pgpz.org/)
 
-### Gleyo 
-Zcash toplulukları, Web3 projeleri ve Web2 organizasyonları için tasarlanmış topluluk etkileşimi ve ödül platformu. Toplulukların görevler, sohbet ve ödüller aracılığıyla üyeleri sisteme dahil etmesine ve etkileşim kurmasına yardımcı olurken, kullanıcıların özel shielded ZEC kazanmasına ve çekmesine olanak tanır.
+### Gleyo
+Zcash toplulukları, Web3 projeleri ve Web2 organizasyonları için tasarlanmış topluluk etkileşimi ve ödül platformu. Toplulukların görevler, sohbet ve ödüller aracılığıyla üyeleri sisteme dahil etmesine ve etkileşim kurmasına yardımcı olurken, kullanıcıların özel korumalı ZEC kazanmasına ve çekmesine olanak tanır.  
+[Ziyaret edin](https://gleyo.app/)
 
-[Ziyaret et](https://gleyo.app/)
-
-### Zcash Grants Hub
-Zcash hibelerinin keşfedilmesini, takip edilmesini ve incelenmesini basitleştirmek için tasarlanmış, topluluk odaklı hibe panosu. Zcash Community Grants GitHub deposundan canlı verileri çekerek hibe başvurularını, kilometre taşlarını, bütçeleri, tartışmaları ve analizleri tek bir yerde toplar. Platform, başvuru sahipleri, komite üyeleri ve topluluk inceleyicileri için daha açık ve kullanıcı dostu bir deneyim sunmayı amaçlar.
-
+### Zcash Hibe Merkezi
+Zcash hibelerinin keşfedilmesini, takip edilmesini ve incelenmesini kolaylaştırmak için tasarlanmış, topluluk odaklı hibe panosu. Zcash Community Grants GitHub deposundan canlı veriler çekerek hibe başvurularını, kilometre taşlarını, bütçeleri, tartışmaları ve analizleri tek bir yerde bir araya getirir. Platform, başvuru sahipleri, komite üyeleri ve topluluk değerlendiricileri için daha açık ve kullanıcı dostu bir deneyim sunmayı amaçlar.  
 [Ziyaret et](https://staging.zgrantshub.com/)
-
 
 ---
 
 ## Cüzdanlar ve Ödeme Araçları
 
-### Cipherpay
-İnternet için özel ödemeler. Saklamasız, KYC yok. Tüccarlar ZEC'i doğrudan shielded adreslere alır.  
-[Ziyaret et](https://www.cipherpay.app/en)
+### CipherPay
+İnternet için özel ödemeler. Saklama hizmeti sunmayan, KYC gerektirmeyen. Satıcılar ZEC'i doğrudan korumalı adreslere alır.  
+[Ziyaret edin](https://www.cipherpay.app/en)
 
-### Ezcash
-Kullanımı kolay, tam özellikli, çok platformlu ve autoshielding destekli Zcash cüzdanı.  
-[Ziyaret et](https://blog.nerdbank.net/ezcash-app)
+### eZcash
+Kullanımı kolay, tüm özelliklere sahip, çok platformlu ve otomatik korumalı işlem desteği sunan Zcash cüzdanı.  
+[Ziyaret et](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Tamamen shielded işlemleri ve güvenli anahtar yönetimini destekleyen, Zebrad için geliştirilmiş Orchard odaklı Zcash cüzdanı.  
+Orchard-öncelikli Zcash cüzdanı, Zebrad ve lightwalletd için geliştirilmiştir. Tamamen shielded gönderim/alımı, güvenli yerel anahtar yönetimini, Ironwood (NU6.3) notlarını ve Orchard-den-Ironwood-e geçişi destekler. Kullanıcıya yönelik ödeme akışlarında transparent adresler reddedilir.
+
 [Ziyaret et](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Kullanıcıların gerçek dünyadaki satın alımlarda shielded ZEC harcamasını sağlayan ödeme ağ geçidi (şu anda alpha aşamasında).  
 [Ziyaret et](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — Peer aracılığıyla Cash App, Chime, Monzo, Revolut, Venmo veya Zelle'e ZEC. ZEC USDC (NEAR)'e dönüştürülür; ardından Base üzerindeki bir Peer emri, alıcı itibari para ödemesini kanıtladıktan sonra USDC'yi serbest bırakır. Alıcı, ödeme uygulamasındaki bir kullanıcı adını görür. CEX değildir, ZEC-in-escrow değildir.  
+[Ziyaret et](https://zcashto.cash/)
 
 ### Zafu Wallet
 Zcash ve Penumbra için açık kaynaklı gizlilik cüzdanı. İstemci tarafı proving, doğrulanmış light-client mimarisi, cold signing, FROST multisig ve görüntüleme anahtarının cihazdan çıkmaması özelliklerine sahip tarayıcı eklentisi.  
@@ -114,7 +116,7 @@ Zcash shielded işlemleri üzerine kurulmuş hedef odaklı tasarruf cüzdanı.
 [Forum](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Orchard dahil en son Zcash protokol özelliklerini destekleyen, Ywallet'in halefi.  
+YWallet’in halefi olup, Orchard dahil en yeni Zcash protokol özelliklerini destekler.  
 [Forum](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
@@ -130,13 +132,11 @@ Her bahşişin shielded ZEC olarak ulaştığı canlı, saklamasız bahşiş pla
 [Ziyaret et](https://tipz.cash/)
 
 ### CYZE
-Birden fazla ekip üyesinin shielded Zcash fonlarını birlikte yönetmesine olanak tanıyan iş birliğine dayalı bir cüzdan ve koordinasyon platformu. FROST threshold imzalarını kullanır; böylece gruplar, tek bir katılımcıya cüzdan üzerinde tam kontrol vermeden Orchard işlemlerini birlikte yetkilendirebilir.
-
+Birden çok ekip üyesinin korumalı Zcash fonlarını birlikte yönetmesine olanak tanıyan işbirlikçi bir cüzdan ve koordinasyon platformu. Cüzdan üzerinde tek bir katılımcıya tam kontrol vermeden grupların Orchard işlemlerini topluca yetkilendirmesini sağlayan FROST eşik imzalarını kullanır.  
 [Ziyaret et](https://github.com/USCMig/Cyze)
 
 ### Pendrake Watch
-Harcama yetkisine sahip olmadan shielded fonları izlemeye ihtiyaç duyan bireyler ve kuruluşlar için tasarlanmış watch-only masaüstü cüzdanı. İşlem ve bakiye izleme, Orchard ve Sapling notları, memo görüntüleme, geçmiş itibari para değerlemesi, işlem bildirimleri, cüzdan şifreleme ve gizlilik odaklı ekran paylaşımı özelliklerini destekler.
-
+Korumalı fonları harcama yetkisi olmadan izlemek isteyen bireyler ve kuruluşlar için tasarlanmış, yalnızca izleme amaçlı bir masaüstü cüzdanı. İşlem ve bakiye izlemeyi, Orchard ve Sapling notlarını, memo görüntülemeyi, geçmiş itibari para değerlemesini, işlem bildirimlerini, cüzdan şifrelemeyi ve gizlilik odaklı ekran paylaşımı özelliklerini destekler.  
 [Ziyaret et](https://github.com/auzum197/pendrake-watch)
 
 ---
@@ -168,7 +168,7 @@ Zcash kabul eden işletmelerin ve konumların küresel haritası.
 [Ziyaret et](https://zecmap.com/)
 
 ### ZECping
-Zcash Lightwalletd düğümlerinin gRPC yanıt sürelerini kontrol etme aracı.  
+Zcash lightwalletd düğümlerinin gRPC yanıt sürelerini kontrol etmeye yönelik araç.  
 [Ziyaret et](https://github.com/emersonian/zecping)
 
 ### ZecStats
@@ -184,20 +184,16 @@ Zcash ekosistemi hakkında bağlantılar, araçlar ve bilgiler bulmak için dizi
 [Ziyaret et](https://zlink.click)
 
 ### Zecmarket
-Zcash ekosisteminin gizlilik öncelikli pazaryeri. Ödemeler doğrudan sonuçlanır ve platform fonlarınızı asla elinde tutmaz.
-
+Zcash ekosisteminin gizlilik öncelikli pazar yeri. Ödemeler doğrudan gerçekleşir ve platform fonlarınızı asla elinde tutmaz.  
 [Ziyaret et](https://zecmarket.org/)
 
 ### Zecsite
-JavaScript kullanmadan Zcash haberlerini, istatistiklerini ve eğitim içeriklerini bir araya getiren gizlilik odaklı statik web sitesi.
-
-[Ziyaret et](https://zecsite/org)
-
+JavaScript kullanmadan Zcash haberlerini, istatistiklerini ve eğitsel içeriklerini bir araya getiren, gizlilik odaklı statik bir web sitesi.  
+[Ziyaret et](https://zecsite.org/netscape/en/index.html)  
 [Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
 ### ZEC-OS
-Çeşitli Zcash ekosistemi araçlarını ve bilgilerini tek bir uygulamada birleştiren retro tarzı masaüstü arayüzü. Bir blokzinciri explorer'ı, mempool görüntüleyici, ağ istatistikleri, geçmiş grafikler, shielded havuz bilgileri, madencilik araçları, Unified Address çözücüsü, hesap makinesi, oyunlar, terminal ve diğer yardımcı araçları içerir.
-
+Çeşitli Zcash ekosistem araçlarını ve bilgilerini tek bir uygulamada bir araya getiren retro tarzı masaüstü arayüzü. Bir blok zinciri gezgini, mempool görüntüleyicisi, ağ istatistikleri, geçmiş grafikler, shielded havuz bilgileri, madencilik araçları, bir Unified Address kod çözücü, hesap makinesi, oyunlar, terminal ve diğer yardımcı programları içerir.  
 [Ziyaret et](https://www.zec-os.com/)
 
 ---
@@ -225,19 +221,16 @@ Shielded ZEC ile ödenen tek kullanımlık e-posta gelen kutusu.
 [Ziyaret et](https://ztrash.com/)
 
 ### LiveZEC
-İzleyicilerin bir yayıncının self-custodial cüzdanına doğrudan shielded ZEC göndermesini sağlayan, yayıncılar için gizlilik odaklı bahşiş platformu.
-
+Yayıncılar için gizlilik odaklı bir bahşiş platformu; izleyicilerin korumalı ZEC'yi doğrudan yayıncının kendi saklama cüzdanına göndermesini sağlar.  
 [Ziyaret et](https://zec.live/)
 
 ### ZecLedger
-Zcash için gizliliği koruyan finansal takip ve muhasebe aracı. Şeffaf ağ verileri için herkese açık bir pano ile viewing key'leri açığa çıkarmadan kullanan yerel özel muhasebeyi birleştirir; böylece kullanıcıların bakiyeleri, işlem geçmişini, maliyet esasını ve gelecekte bütçeleme ile vergiye hazır raporları takip etmelerine yardımcı olurken fonlarını güvenli ve özel tutar.
-
+Zcash için gizliliği koruyan bir finansal takip ve muhasebe aracı. Şeffaf ağ verileri için herkese açık bir gösterge panelini, görüntüleme anahtarlarını ifşa etmeden kullanan yerel özel muhasebeyle birleştirir; kullanıcıların fonlarını güvende ve gizli tutarken bakiyeleri, işlem geçmişini, maliyet esasını ve zamanla bütçeleme ile vergiye hazır raporları takip etmelerine yardımcı olur.  
 [Ziyaret et](https://zecledger-web.vercel.app/)
 
-### Authentication with ZcashMe
-Giriş mekanizması olarak shielded Zcash işlemlerini kullanan gizlilik odaklı kimlik doğrulama sistemi. Kullanıcılar bir QR kodu tarar ve küçük bir kimlik doğrulama işlemi gönderir.
-
-[Ziyaret et](https://github.com/zcashme/zns-login)
+### ZcashMe ile Kimlik Doğrulama
+Korumalı Zcash işlemlerini giriş mekanizması olarak kullanan, gizlilik odaklı bir kimlik doğrulama sistemi. Kullanıcılar bir QR kodunu tarar ve küçük bir kimlik doğrulama işlemi gönderir.  
+[Ziyaret edin](https://github.com/zcashme/zns-login)
 
 ---
 
@@ -251,12 +244,12 @@ zcashd ve Zebra geliştiricileri için ağ test paketi. Bir Zcash crawler da iç
 Faucet, Unified Address fixture'ları ve lightwalletd veya Zaino ile birlikte bir Zebra regtest ağı ayağa kaldıran; ayrıca shielded uçtan uca akışlar için yeniden kullanılabilir GitHub Actions sunan, Linux öncelikli araç takımı.  
 [Ziyaret et](https://github.com/zecdev)
 
-### Zebra Coverage-Guided Fuzzing Infrastructure
-Zebra'nın ayrıştırma, ağ iletişimi ve kriptografik bileşenlerinin bozuk girdilere karşı sistematik testi.  
+### Zebra Kapsam Yönlendirmeli Fuzzing Altyapısı
+Zebra'in ayrıştırma, ağ oluşturma ve kriptografik bileşenlerinin hatalı biçimlendirilmiş girdilere karşı sistematik olarak test edilmesi.  
 [Forum](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-### Frost
-Zcash ekosisteminde daha geniş benimsenme için ilerletilen threshold imza şeması (FROST) çalışması.  
+### FROST
+Zcash ekosisteminde daha geniş benimsenme için ilerletilmekte olan eşik imza şeması (FROST).  
 [Makale](https://eprint.iacr.org/2020/852)
 
 ### MonteZcret Benchmark
@@ -275,9 +268,9 @@ Zcash üzerine kurulu, kooperatif ve tabandan gelen iş organizasyonu modeli.
 Seçimli açıklama, mutabakat hazırlığı, sınır ötesi itibar ve shielded yönetişim için Zcash'e özgü kredi ve oylama altyapısı.  
 [Ziyaret et](https://voting.zkglobalcredit.tech/)
 
-### Free2z
-Zcash destekli anonim içerik üretimi ve özel bağışlar için araç.  
-[Ziyaret et](https://free2z.cash)
+### Free2Z
+Zcash destekli, anonim içerik oluşturma ve özel bağışlar için araç.  
+[Ziyaret Et](https://free2z.cash)
 
 ### Rhea Finance
 Tarayıcı cüzdanı ve zincirler arası DeFi erişimi sağlayan Zcash ağ geçidi.  
@@ -288,7 +281,7 @@ WalletConnect aracılığıyla shielded ZEC'i Web3 DeFi'ye taşıyan, Zcash'e ö
 [Forum](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
 ### DCRDEX
-Zcash'i destekleyen Decred merkeziyetsiz borsası.  
+Decred'in Zcash destekleyen merkeziyetsiz borsası.  
 [Ziyaret et](https://dex.decred.org)
 
 ### Brave Wallet
@@ -296,15 +289,12 @@ Zcash destekli tarayıcı cüzdanı.
 [Ziyaret et](https://brave.com/wallet/)
 
 ### Nano-GPT
-Zcash dahil olmak üzere kripto para ödemelerini desteklerken birden fazla önde gelen AI modeline erişim sağlayan AI platformu.
-
-[Ziyaret et](https://nano-gpt.com/conversation/new)
+Zcash dahil olmak üzere kripto para ödemelerini desteklerken birden fazla önde gelen AI modeline erişim sağlayan AI platformu.  
+[Ziyaret edin](https://nano-gpt.com/conversation/new)
 
 ### zk.poker
-Uçtan uca şifrelemeyi, mental pokeri ve Zcash gizlilik teknolojisini birleştiren eşler arası poker platformu. Operatörün oyuncuların kartlarını bilmesine veya bahis fonlarını doğrudan elinde tutmasına gerek kalmayacak şekilde tasarlanmıştır.
-
+Uçtan uca şifreleme, mental poker ve Zcash gizlilik teknolojisini birleştiren eşler arası bir poker platformu. İşletmecinin oyuncuların kartlarını bilmesine veya bahis fonlarını doğrudan elinde tutmasına gerek kalmayacak şekilde tasarlanmıştır.  
 [Ziyaret et](https://zkbtc.org/)
-
 
 ---
 

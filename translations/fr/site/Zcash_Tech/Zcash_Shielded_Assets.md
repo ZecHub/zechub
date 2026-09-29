@@ -80,7 +80,7 @@ Chaque actif reçoit un **identifiant d’actif** unique, dérivé de la clé d�
 
 **Exécutez la démo vous-même !**
 
-Clonez le dépôt zcash-tx-tool : <https://github.com/QED-it/zcash_tx_tool>
+Clonez le dépôt zcash-tx-tool : [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
 ### Zcash Improvement Proposals (ZIPs)
 

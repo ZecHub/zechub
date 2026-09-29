@@ -6,7 +6,7 @@
 
 > 🇧🇷 [Versão em Portugaltɔwo ƒe agbalẽwo](/zechubglobal/zcashbrasil/zcashtech/zecd)
 
-ZECD nye shielded-first wallet server na Zcash, si wotu ɖe edzi [librustzcash ƒe ŋkɔ](https://github.com/zcash/librustzcash) eye woɖee ɖe go to Bitcoin Core ƒe JSON-RPC gbetagbe dzi. Enaa dɔwɔlawo kple fexexe ƒe ƒuƒoƒowɔlawo API nyanyɛ, si sɔ kple Bitcoin hena nuwɔwɔ kple Zcash — esime wòle Orchard (si nye ame ŋutɔ tɔ wu) wɔm wònye nusi woɖo ɖi. Woto esia vɛ to [zec.rocks](https://zec.rocks), wowɔ ZECD be wòaxɔ ɖe eteƒe `zcashd`’s gakotoku ƒe dɔwɔwɔ le egbegbe, alilikpo me tɔwo ƒe dɔwɔwɔwo me.
+ZECD nye shielded-first wallet server na Zcash, si wotu ɖe edzi [librustzcash](https://github.com/zcash/librustzcash) eye woɖee ɖe go to Bitcoin Core ƒe JSON-RPC gbetagbe dzi. Enaa dɔwɔlawo kple fexexe ƒe ƒuƒoƒowɔlawo API nyanyɛ, si sɔ kple Bitcoin hena nuwɔwɔ kple Zcash — esime wòle Orchard (si nye ame ŋutɔ tɔ wu) wɔm wònye nusi woɖo ɖi. Woto esia vɛ to [zec.rocks](https://zec.rocks), wowɔ ZECD be wòaxɔ ɖe eteƒe `zcashd`’s gakotoku ƒe dɔwɔwɔ le egbegbe, alilikpo me tɔwo ƒe dɔwɔwɔwo me.
 
 **Fifia ƒe tɔtrɔ:** 0.5.0-rc3 (July 13, 2026) — kple Ironwood (NU6.3) ƒe kpekpeɖeŋu. Install via `cargo install zecd` alo nàzã Docker ƒe nɔnɔmetata si dziɖuɖua da asi ɖo.
 
@@ -283,13 +283,13 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## ZECD kple zcashd kple Zaino dome
 
-| | zcashd ƒe nyawo | Zaino | ZECD |
+| | zcashd | Zaino | ZECD |
 |--|--------|-------|------|
 | Akpa si wòwɔna | Node blibo + gakotoku | Indexer (exɔ ɖe lightwalletd teƒe) | Gakotoku ƒe dɔwɔƒe koe |
 | Gbegbɔgblɔ | C++ | Gbeɖuɖɔ | Gbeɖuɖɔ |
 | Nɔnɔme | Woɖe asi le eŋu | Dɔwɔwɔ | Dɔwɔwɔ (v0.5.0-rc3, Dzome 2026) |
-| Default pool | Transparent | N/A | Orchard (shielded) |
-| RPC dialect | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
+| Default pool | Si me kɔ | N/A | Orchard (si wotsɔ akpoxɔnu wɔe) |
+| RPC gbetagbe | zcashd-specific | gRPC (lightwalletd) | Bitcoin ƒe Nu vevi JSON-RPC |
 | Ebia be node blibo | Ẽ (ame ŋutɔ) | Zebra alo zcashd | Zebra |
 | Dukɔmanɔsitɔwo ƒe hayahaya | Ao | N/A | Ẽ (nuku ɖeɖeko) |
 | Nuŋlɔɖi siwo wotsɔ akpoxɔnu wɔe | Ɛ̃ (`z_sendmany`) | N/A | Ẽ (Bitcoin RPC ƒe anyigba) |

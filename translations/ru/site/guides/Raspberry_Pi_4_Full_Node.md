@@ -149,9 +149,9 @@ zallet -d /mnt/zcash-data/zallet help
 Zebra и Zallet в целом менее требовательны к CPU на этапе настройки, чем была компиляция zcashd, поскольку вы запускаете готовые бинарные файлы/контейнеры. 4 ГБ ОЗУ — разумная отправная точка; следите за системой с помощью `htop` и рассмотрите вариант Pi 4 с 8 ГБ, если видите активное использование swap.
 
 ## Дополнительные ресурсы
-- [Книга Zebra](https://zebra.zfnd.org) — официальная документация Zebra
-- [Книга Zallet](https://zcash.github.io/wallet) — официальная документация Zallet
-- [Уведомление о завершении поддержки zcashd](https://z.cash/support/zcashd-deprecation)
+- [ZebraКнига](https://zebra.zfnd.org) — официальная документация Zebra
+- [ZalletКнига](https://zcash.github.io/zallet/) — официальная документация Zallet
+- [zcashdУведомление о завершении поддержки](https://z.cash/support/zcashd-deprecation)
 
 ---
 

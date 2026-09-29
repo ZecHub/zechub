@@ -71,7 +71,7 @@ Running the Zebra node software on a Raspberry Pi 4 allows you to participate in
 
 ## Troubleshooting
 
-If you encounter any issues with building or running Zebra, check the [Zebra documentation](https://doc.zebra.zfnd.org/docs/intro.html) for troubleshooting tips and additional information.
+If you encounter any issues with building or running Zebra, check the [Zebra documentation](https://zebra.zfnd.org/user/troubleshooting.html) for troubleshooting tips and additional information.
 
 Make sure to keep your Raspberry Pi cool, as running a node can generate heat. You might want to use a cooling solution, such as a fan or a heat sink.
 

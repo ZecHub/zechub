@@ -66,7 +66,7 @@ Ndiyo, Zcash inawezesha faragha kamili kwa watumiaji kwa kusimbua taarifa za mtu
 
 Zcash haifanyi yafuatayo: kuweka data kwa ajili ya muunganiko wa mikono mingi (kwa sasa bado inasubiri kuunganishwa kwa FROST) au kulinda dhidi ya uhusiano wa miamala wazi ya umma (kwa mfano, wakati Zcash inanunuliwa/kuuzwa kwa sarafu nyingine ya sarafu ya sarafu) wala haijifichi anwani za IP.
 
-Soma zaidi hapa: [Mazingira ya Kinga](https://electriccoin.co/blog/shielded-ecosystem)
+Soma zaidi hapa: [Mazingira ya Kinga](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 ___
 

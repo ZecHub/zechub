@@ -20,7 +20,7 @@ Unaweza pia madini ZEC, lakini kwamba ni kawaida haiwezekani kwa watumiaji wa wa
 
 ## Kubadilishana kwamba msaada kuondolewa shielded
 
-**[Jamani](https://www.gemini.com)**
+**[Gemini](https://www.gemini.com)**
 
 Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes it simple and secure to buy ZEC, Ether, and other cryptocurrencies. You can buy ZEC with fiat or other cryptocurrencies.
 
@@ -45,7 +45,7 @@ Wengi wa kubadilishana kubwa msaada Zcash. Angalia hapa kwa orodha ya kina: [hap
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zodl: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
@@ -55,12 +55,12 @@ Wengi wa kubadilishana kubwa msaada Zcash. Angalia hapa kwa orodha ya kina: [hap
 Mabadilishano haya inasaidia uondoaji wa uwazi. Hii ina maana wakati wewe kuondoa ZEC kwa mkoba wako, unahitaji kutuma kwa anwani yako uwazi, anwani ya umma ZEC yako. 
 Bonyeza [hapa](https://zechub.wiki/using-zcash/non-custodial-exchanges) kwa ajili yangu maelezo.
 
-[dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
+![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 Wakati wa kufanya hivyo, tunapendekeza kutumia moja ya yafuatayo [pochi](https://zechub.wiki/wallets). 
 
-[Simu ya mkononi](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
+![Simu ya mkononi](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -69,7 +69,7 @@ Wakati wa kufanya hivyo, tunapendekeza kutumia moja ya yafuatayo [pochi](https:/
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Reviewing all Zcash Shielded Wallets"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ruhusuFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>

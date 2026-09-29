@@ -16,7 +16,7 @@ Saa asɛm yi kyerɛkyerɛ deɛ ShapeShift yɛ, sɛdeɛ Zcash yɛ adwuma, sɛdeɛ
 
 ## Dɛn ne ShapeShift?
 
-[ShapeShift a Wɔde Yɛ Nneɛma](https://shapeshift.com/) yɛ decentralized, open-source cryptocurrency platform a ɛma wɔn a wɔde di dwuma no tumi di gua, di akyi, na wɔhwɛ dijitaal agyapade so wɔ blockchains pii so a wɔnyɛ akontaabu, mfa nkrataa a ɛkyerɛ sɛ wɔyɛ nnipa, anaasɛ wɔmfa wɔn sika sohwɛ mma.
+[ShapeShift](https://shapeshift.com/) yɛ decentralized, open-source cryptocurrency platform a ɛma wɔn a wɔde di dwuma no tumi di gua, di akyi, na wɔhwɛ dijitaal agyapade so wɔ blockchains pii so a wɔnyɛ akontaabu, mfa nkrataa a ɛkyerɛ sɛ wɔyɛ nnipa, anaasɛ wɔmfa wɔn sika sohwɛ mma.
 
 ### Abakɔsɛm Tiatiaa
 
@@ -29,7 +29,7 @@ Wɔ afe 2021 mu no, ShapeShift nyaa nsakraeɛ kɛseɛ. Adwumakuw no guu n’adwu
 - **Non-Custodial**: Wɔn a wɔde di dwuma no di gua tẽẽ fi wɔn ankasa sika kotoku mu. ShapeShift nkura wo sika da.
 - **No KYC Required**: Wɔnnyɛ identity verification, wɔnyɛ akontaabu, na wɔannye ankorankoro data.
 - **Multichain Support**: Akwan a wobɛfa so anya agyapade bɛboro 10,000 wɔ 15+ blockchains so, a Bitcoin, Ethereum, Cosmos, ne Zcash ka ho.
-- **DEX Aggregation**: ShapeShift akwan aguadi denam decentralized protocols te sɛ TORChain, 0x, ne afoforo so de hwehwɛ rates a eye sen biara.
+- **DEX Aggregation**: ShapeShift akwan aguadi denam decentralized protocols te sɛ THORChain, 0x, ne afoforo so de hwehwɛ rates a eye sen biara.
 - **Cross-Chain Swaps**: Sesa agyapade natively ntam blockchains ahorow a wɔmfa wrapped tokens anaasɛ centralized bridges nni dwuma.
 - **Fully Open-Source**: Platform no nyinaa, a mobile app no ​​ka ho, yɛ open-source a enni backend a ɛyɛ ne dea a ɛboro blockchain data so.
 
@@ -37,7 +37,7 @@ Wɔ afe 2021 mu no, ShapeShift nyaa nsakraeɛ kɛseɛ. Adwumakuw no guu n’adwu
 
 ## Sɛnea Zcash Yɛ Adwuma
 
-[Zcash na ɛyɛ](https://z.cash/) (ZEC) yɛ cryptocurrency a wɔasi wɔ cryptographic fapem a ɛyɛ den a ɛma wɔn a wɔde di dwuma no tumi di nkitaho wɔ kokoam. Wɔde sii hɔ wɔ afe 2016 mu, Zcash yɛ Bitcoin fork a ɛde kokoamsɛm mfiridwuma a ɛkɔ anim ka ho bere a ɛkora Bitcoin’s fixed supply a ɛyɛ sika ɔpepem 21 ne adanse a ɛkyerɛ sɛ ɛyɛ adwuma no so.
+[Zcash](https://z.cash/) (ZEC) yɛ cryptocurrency a wɔasi wɔ cryptographic fapem a ɛyɛ den a ɛma wɔn a wɔde di dwuma no tumi di nkitaho wɔ kokoam. Wɔde sii hɔ wɔ afe 2016 mu, Zcash yɛ Bitcoin fork a ɛde kokoamsɛm mfiridwuma a ɛkɔ anim ka ho bere a ɛkora Bitcoin’s fixed supply a ɛyɛ sika ɔpepem 21 ne adanse a ɛkyerɛ sɛ ɛyɛ adwuma no so.
 
 ### Nkitahodi a Wɔabɔ ho Ban ne Adanse a Nimdeɛ a Ɛnyɛ Den
 

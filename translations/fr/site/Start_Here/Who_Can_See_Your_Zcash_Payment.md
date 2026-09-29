@@ -64,7 +64,7 @@ L’ordre a son importance. Donnez la clé la plus restreinte qui permet d’acc
 
 ## Passez à la pratique
 
-- Utilisez un wallet qui protège par défaut, comme [Zodl](https://zodl.com) ou [Ywallet](https://ywallet.app/).
+- Utilisez un wallet qui protège par défaut, comme [Zodl](https://zodl.com) ou [Zingo!](https://www.zingolabs.org/).
 - Protégez les fonds dès leur arrivée depuis un exchange, avant de les dépenser.
 - Payez vers des adresses protégées chaque fois que le destinataire en prend en charge une.
 - Avant de partager une viewing key, demandez quelle est la plus petite clé qui permet de répondre à la question posée.

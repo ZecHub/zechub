@@ -51,8 +51,8 @@ Zcashのシールド取引では、以下が隠されます：
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> 必要なもの
 
 - シールドアドレスをサポートするZcashウォレット：
-  - Zodl
-  - YWallet
+  - ZODL
+  - Zingo!
   - その他の対応ウォレット
 
 <br/>

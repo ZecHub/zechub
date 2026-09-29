@@ -22,6 +22,14 @@ Hubo una persona que le envió a su pareja una nota de amor en uno de los primer
 
 #### Avanzado
 
+> **Histórico. Esta demostración ya no funciona tal como está escrita.**
+>
+> La demostración de abajo usa zcashd, y su [script de recepción](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) lee los memos mediante `zcash-cli`. zcashd alcanzó su detención automática de fin de soporte el 18 de julio de 2026, por lo que ese script no puede conectarse a un nodo en funcionamiento, y no se ha portado.
+>
+> Leer memos protegidos desde la línea de comandos sigue funcionando con Zallet: `zallet rpc z_listunspent` devuelve cada nota protegida recibida con el mismo campo `memoStr` que lee el script. Consulta la [guía de referencia rápida de Zallet](/using-zcash/zallet-quick-reference-guide) para el comando y la [guía de migración a Zebra y Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) para sacar un nodo de zcashd. Zallet sigue en fase beta.
+>
+> Esta sección se conserva como registro histórico de la demostración de Magic-Wormhole.
+
 Así es como se usan los Shielded Memos de Zcash con la CLI de Magic-Wormhole y zcashd para enviar archivos de forma segura de una computadora a otra!: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
