@@ -1,50 +1,94 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Payment_Request_URIs.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Редагувати сторінку"/>
 </a>
 
-# URI запиту платежу Zcash
+# Zcash URI запитів на оплату
 
-## Огляд динамічних QR-кодів
+URI запиту на оплату — це посилання `zcash:`, визначене [ZIP 321](https://zips.z.cash/zip-0321). Сумісні гаманці зчитують із посилання або QR адресу, суму та необов’язкове повідомлення й попередньо заповнюють транзакцію. Жодних додаткових облікових записів чи посередників.
 
-URI означає Universal Resource Identifier. Це QR-коди, які слугують для попереднього заповнення інформації про транзакцію в гаманці Zcash. Гаманці, які розпізнають цей формат, можуть формувати транзакції або натисканням на посилання на вебсторінках, або шляхом сканування QR-кодів. Скажімо, у вас є онлайн-кав’ярня — ваші клієнти можуть здійснювати покупки, скануючи ці QR-коди своїм гаманцем Zcash із попередньо заповненими ціною та номером замовлення.
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    Відкрити віджет оплати
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    Створити запит на оплату
+  </a>
+</div>
 
-## Випадки використання платіжних запитів 
+Демонстрація віджета — це активне модальне вікно ZIP-321: QR, копіювання адреси/URI, коротке посилання та відкриття в гаманці. Сторінка інструментів містить генератор, якщо ви спершу хочете вказати власну адресу та суму.
 
+## Будова
 
-- Онлайн-шопінг.                    Платіжні запити під час оформлення замовлення ініціюються клієнтами під час онлайн-покупок.
-- Бронювання готелів і житла.   Різні платформи бронювання використовують URL платіжних запитів для резервування готелів.
-- Онлайн-оплата рахунків.               Комунальні компанії використовують URL платіжних запитів, щоб дати клієнтам змогу безперешкодно оплачувати рахунки. 
-- Купівля квитків на події.             Організатори подій у різних країнах використовують цей механізм, щоб полегшити придбання квитків.
-- P2P-платежі.                       Люди можуть легко надсилати платіжні запити родині та друзям через застосунки для обміну повідомленнями, вбудовуючи платіжні посилання в повідомлення.
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| Поле | Обов’язкове | Примітки |
+| --- | --- | --- |
+| address | так | Надавайте перевагу Unified Address (`u1` / `utest1`) |
+| amount | ні | Десяткове значення ZEC |
+| memo | ні | Лише для захищених переказів |
+| label | ні | Зрозуміла людині назва, яку показують деякі гаманці |
 
-## Деталі
+Повні правила: [ZIP 321](https://zips.z.cash/zip-0321).
 
-[ZIP 321](https://zips.z.cash/zip-0321) визначає, як створити власний кастомний платіжний URI. 
+## Випадки використання
 
-Як створювати платіжні запити за допомогою Zcash: 
+- **Оплата** — попередньо заповніть ціну та повідомлення замовлення, щоб клієнту залишилося лише підтвердити операцію у своєму гаманці
+- **Рахунки** — поділіться одним посиланням або QR
+- **Пожертви** — вбудуйте віджет на сайт
+- **P2P** — надішліть посилання `zcash:` у чаті
+
+## Вбудовування на сайт
+
+Спрямуйте цей скрипт на власну захищену адресу. Розміщена копія доступна на ZecHub:
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+Потрібні: `data-address`, `data-amount`, `data-target`.
+
+Спочатку спробуйте розміщену кнопку: [Відкрити віджет оплати](/zcash-payment-uri).
+
+## Відео
+
+Як створювати запити на оплату за допомогою Zcash:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
-    title="How to make Payment Requests with Zcash"
+    title="Як створювати запити на оплату за допомогою Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-    
-### Приклад коду
-
-Додавання віджета пожертв Zcash на ваш вебсайт: 
+Додавання віджета пожертв Zcash на ваш вебсайт:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
-    title="Adding a Zcash Donation Widget to your Website"
+    title="Додавання віджета пожертв Zcash на ваш вебсайт"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
