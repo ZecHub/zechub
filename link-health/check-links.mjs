@@ -197,7 +197,7 @@ function routeExists(route, mdFiles, appRoutes) {
 
   // Pages rendered by the app itself have no markdown behind them.
   const segs = clean.replace(/^\//, "");
-  if (appRoutes.has(segs) || appRoutes.has(segs.split("/")[0])) {
+  if (appRoutes.has(segs)) {
     return { ok: true, how: "app route" };
   }
 
