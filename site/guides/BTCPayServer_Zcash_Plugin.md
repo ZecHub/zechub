@@ -479,14 +479,9 @@ It also helps you **avoid the cost of renting a VPS**, which is ideal if cryptoc
 2. On your **home server**, install Cloudflare Tunnel using Cloudflare's official package repository:
 
 ```bash
-# Add Cloudflare's GPG key
-sudo mkdir -p --mode=0755 /etc/apt/keyrings
-curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /etc/apt/keyrings/cloudflare-main.gpg >/dev/null
-
-# Add Cloudflare repository to APT sources
-echo "deb [signed-by=/etc/apt/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
-
-# Update package cache and install cloudflared
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
 sudo apt install cloudflared
 ```
