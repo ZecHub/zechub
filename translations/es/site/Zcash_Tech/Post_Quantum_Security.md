@@ -13,6 +13,8 @@
 - Zcash se está preparando mediante investigación, ZIP y propuestas de actualización como ZIP 2005 y Project Tachyon.
 - Una migración poscuántica segura tiene que proteger al mismo tiempo los fondos, la privacidad, las billeteras, los exchanges y las reglas de consenso.
 
+Para saber qué ha cambiado en Ironwood y el estado con fecha de cada elemento, consulta [¿Es Zcash poscuántico?](/zcash-tech/is-zcash-post-quantum).
+
 ## ¿Qué es la computación cuántica?
 
 Una computadora normal almacena información como bits. Cada bit es `0` o `1`.
@@ -246,12 +248,13 @@ Para principiantes, la idea principal es simple: la privacidad hoy reduce la exp
 
 ## Páginas relacionadas
 
+- [¿Es Zcash poscuántico?](/zcash-tech/is-zcash-post-quantum) - Qué cambió en Ironwood, qué sigue expuesto y una tabla de estado con fechas
 - [Pools blindados](/using-zcash/shielded-pools) - Cómo las transacciones blindadas de Zcash protegen los detalles de las transacciones
-- [Halo](/zcash-tech/halo) - El sistema de pruebas de Zcash sin una configuración confiable
+- [Halo](/zcash-tech/halo) - El sistema de pruebas de Zcash sin una configuración de confianza
 - [ZKP y ZK-SNARKS](/zcash-tech/zk-snarks) - Cómo funcionan las pruebas de conocimiento cero en Zcash
-- [Viewing Keys](/zcash-tech/viewing-keys) - Cómo funciona la divulgación selectiva para el Zcash blindado
-- [Activos blindados de Zcash](/zcash-tech/zcash-shielded-assets) - Futuros activos blindados y soporte para activos privados
-- [La privacidad como principio central](/privacy/privacy-as-a-core-principle) - Por qué importa la privacidad financiera
+- [Claves de visualización](/zcash-tech/viewing-keys) - Cómo funciona la divulgación selectiva para los Zcash blindados
+- [Zcash Activos blindados](/zcash-tech/zcash-shielded-assets) - Futuros activos blindados y soporte para activos privados
+- [La privacidad como principio fundamental](/privacy/privacy-as-a-core-principle) - Por qué importa la privacidad financiera
 
 ## Referencias
 

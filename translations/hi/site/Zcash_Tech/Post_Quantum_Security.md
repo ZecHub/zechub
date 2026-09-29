@@ -13,6 +13,8 @@
 - Zcash शोध, ZIPs और ZIP 2005 व Project Tachyon जैसे अपग्रेड प्रस्तावों के माध्यम से तैयारी कर रहा है।
 - एक सुरक्षित पोस्ट-क्वांटम माइग्रेशन को एक साथ फंड, गोपनीयता, वॉलेट, एक्सचेंज और कंसेंसस नियमों की रक्षा करनी होती है।
 
+Ironwood में क्या बदलाव हुआ और प्रत्येक भाग की दिनांकित स्थिति के लिए, [क्या Zcash पोस्ट-क्वांटम है?](/zcash-tech/is-zcash-post-quantum) देखें।
+
 ## क्वांटम कंप्यूटिंग क्या है?
 
 एक सामान्य कंप्यूटर जानकारी को बिट्स के रूप में संग्रहीत करता है। प्रत्येक बिट या तो `0` होता है या `1`।
@@ -246,12 +248,13 @@ Zcash आज पूरी तरह पोस्ट-क्वांटम नह
 
 ## संबंधित पृष्ठ
 
-- [Shielded Pools](/using-zcash/shielded-pools) - Zcash shielded लेन-देन लेन-देन विवरणों की रक्षा कैसे करते हैं
-- [Halo](/zcash-tech/halo) - trusted setup के बिना Zcash की प्रूफ प्रणाली
-- [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Zcash में ज़ीरो-नॉलेज प्रूफ कैसे काम करते हैं
-- [Viewing Keys](/zcash-tech/viewing-keys) - shielded Zcash के लिए चयनात्मक प्रकटीकरण कैसे काम करता है
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - भविष्य के shielded एसेट और निजी एसेट समर्थन
-- [गोपनीयता एक मूल सिद्धांत के रूप में](/privacy/privacy-as-a-core-principle) - वित्तीय गोपनीयता क्यों महत्वपूर्ण है
+- [क्या Zcash पोस्ट-क्वांटम है?](/zcash-tech/is-zcash-post-quantum) - Ironwood में क्या बदला, क्या अब भी उजागर है, और तारीख सहित स्थिति तालिका
+- [शील्डेड पूल](/using-zcash/shielded-pools) - Zcash शील्डेड लेनदेन लेनदेन विवरणों की सुरक्षा कैसे करते हैं
+- [Halo](/zcash-tech/halo) - Zcash की विश्वसनीय सेटअप रहित प्रूफ प्रणाली
+- [ZKP और ZK-SNARKS](/zcash-tech/zk-snarks) - Zcash में शून्य-ज्ञान प्रमाण कैसे काम करते हैं
+- [व्यूइंग कीज़](/zcash-tech/viewing-keys) - शील्डेड Zcash के लिए चयनात्मक प्रकटीकरण कैसे काम करता है
+- [Zcash शील्डेड एसेट्स](/zcash-tech/zcash-shielded-assets) - भविष्य के शील्डेड एसेट्स और निजी एसेट समर्थन
+- [मूल सिद्धांत के रूप में गोपनीयता](/privacy/privacy-as-a-core-principle) - वित्तीय गोपनीयता क्यों महत्वपूर्ण है
 
 ## संदर्भ
 

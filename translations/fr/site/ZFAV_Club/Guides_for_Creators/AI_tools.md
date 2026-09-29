@@ -57,8 +57,8 @@ il est possible d’obtenir environ 100 générations gratuites en évaluant bea
 ### Outils (généralement avec essai gratuit) :
 
 - [RunwayML GEN-2](https://runwayml.com/) (essai gratuit, abonnement à partir de 15 $/mois)
-- [Bot Discord Pika labs](https://www.pika.art/) (gratuit pour le moment ?)
-- [elai](https://elai.io/) (abonnement à partir de 23 $/mois)
+- [Pika labs DiscordBot](https://www.pika.art/) (gratuit pour le moment ?)
+- [Elai](https://elai.io/) (abonnement à partir de 23 $/mois)
 
 ### Outils de traduction vidéo/audio :
 

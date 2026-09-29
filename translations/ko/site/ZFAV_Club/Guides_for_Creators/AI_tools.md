@@ -56,9 +56,9 @@ X, Google, Discord, Telegram으로 로그인 가능
 
 ### 도구 (보통 무료 체험 제공):
 
-- [RunwayML GEN-2](https://runwayml.com/) (무료 체험, 월 $15 구독 요금제)
-- [Pika labs 디스코드 봇](https://www.pika.art/) (현재 무료?)
-- [elai](https://elai.io/) (월 $23 구독 요금제)
+- [RunwayML GEN-2](https://runwayml.com/) (무료 체험, 월 $15부터 구독)
+- [Pika labs Discord 봇](https://www.pika.art/) (현재 무료?)
+- [Elai](https://elai.io/) (월 $23부터 구독)
 
 ### 영상/오디오 번역 도구:
 
