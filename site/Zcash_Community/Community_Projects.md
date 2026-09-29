@@ -75,12 +75,18 @@ Easy-to-use, fully-featured multiplatform Zcash wallet with autoshielding suppor
 [Visit](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Orchard-focused Zcash wallet built for zebrad, supporting fully shielded transactions and secure key management.  
+Orchard-first Zcash wallet built for Zebrad and lightwalletd. Supports fully shielded send/receive, secure local key management, and Ironwood (NU6.3) notes and Orchard-to-Ironwood migration. Transparent addresses are rejected for user-facing payment flows.  
+
 [Visit](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 Payment gateway that lets users spend shielded ZEC on real-world purchases (currently in alpha).  
 [Visit](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — ZEC to Cash App, Chime, Monzo, Revolut, Venmo, or Zelle via Peer. ZEC is converted to USDC (NEAR), then a Peer order on Base releases USDC after the taker proves the fiat payment. Taker sees a payment-app username. Not a CEX, not ZEC-in-escrow.  
+[Visit](https://zcashto.cash/)
+
 
 ### Zafu Wallet
 Open-source privacy wallet for Zcash and Penumbra. Browser extension with client-side proving, verified light-client architecture, cold signing, FROST multisig, and no view key leaving the device.  
