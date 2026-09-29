@@ -1576,30 +1576,6 @@
       "tool": "gt-static+jsx-restore",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+brand-restore",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -3324,30 +3300,6 @@
     },
     "guides/Zkool_Multisig.md": {
       "src": "sha256:924829de3c311692a4ab76081a3e21991793f3d8b852f2ec4963609e8c4f20e8",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -5084,30 +5036,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -6838,30 +6766,6 @@
       "tool": "gt-static+jsx-restore",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+brand-restore",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -8586,30 +8490,6 @@
     },
     "guides/Zkool_Multisig.md": {
       "src": "sha256:924829de3c311692a4ab76081a3e21991793f3d8b852f2ec4963609e8c4f20e8",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -10346,30 +10226,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -12094,30 +11950,6 @@
     },
     "guides/Zkool_Multisig.md": {
       "src": "sha256:924829de3c311692a4ab76081a3e21991793f3d8b852f2ec4963609e8c4f20e8",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -13854,30 +13686,6 @@
       "tool": "nllb-200-3.3B+jsx-restore+image-restore",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
-      "mode": "full",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -15602,30 +15410,6 @@
     },
     "guides/Zkool_Multisig.md": {
       "src": "sha256:924829de3c311692a4ab76081a3e21991793f3d8b852f2ec4963609e8c4f20e8",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -17362,30 +17146,6 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -19110,30 +18870,6 @@
     },
     "guides/Zkool_Multisig.md": {
       "src": "sha256:924829de3c311692a4ab76081a3e21991793f3d8b852f2ec4963609e8c4f20e8",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
-      "edited": false
-    },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -20870,30 +20606,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -22618,30 +22330,6 @@
     },
     "guides/Zkool_Multisig.md": {
       "src": "sha256:924829de3c311692a4ab76081a3e21991793f3d8b852f2ec4963609e8c4f20e8",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -24378,30 +24066,6 @@
       "tool": "nllb-200-3.3B+jsx-restore+image-restore",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
-      "mode": "full",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -26126,30 +25790,6 @@
     },
     "guides/Zkool_Multisig.md": {
       "src": "sha256:924829de3c311692a4ab76081a3e21991793f3d8b852f2ec4963609e8c4f20e8",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
@@ -27886,30 +27526,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -29640,30 +29256,6 @@
       "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
       "edited": false
     },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
-      "engine": "nllb",
-      "mode": "full",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
     "tutorials/Exchanges.md": {
       "src": "sha256:a55f74acd2c8faceeeb65b5ea6dc4480bedbdae67d3cea8c28ceee58cd46101e",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -31388,30 +30980,6 @@
     },
     "guides/Zkool_Multisig.md": {
       "src": "sha256:924829de3c311692a4ab76081a3e21991793f3d8b852f2ec4963609e8c4f20e8",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/coinholder_log_parser/help.md": {
-      "src": "sha256:78a17e2c4fe4a3d355e445a3b6115570e84f764a99194fabc77e3f052725adfc",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "guides/multisigdemo/MultiSigDemo.md": {
-      "src": "sha256:05e364a0af1e3fa0b25cfde891fa06e406b0fd4f0b5d0bbdaae38847fb540de6",
-      "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "guides/workshops/zcashContributorWorkshopDay3.md": {
-      "src": "sha256:85c992cd7f3dd9742fe6480d709835275ab9a876c4f8c3ca23f7774a5c1b6028",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
