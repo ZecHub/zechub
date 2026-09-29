@@ -108,9 +108,9 @@ Ein umfassendes Glossar zentraler Begriffe, Konzepte und Ressourcen rund um Zcas
 
 | Begriff | Definition |
 |------|-----------|
-| Layer-1 | Bezieht sich auf ein Basisnetzwerk und seine zugrunde liegende Infrastruktur. Layer-1-blockchains können Transaktionen validieren und finalisieren, ohne dass ein anderes Netzwerk benötigt wird. Zcash ist eine L1-blockchain. |
+| Layer-1 | Bezieht sich auf ein Basisnetzwerk und seine zugrunde liegende Infrastruktur. Layer-1-Blockchains können Transaktionen validieren und finalisieren, ohne dass ein anderes Netzwerk benötigt wird. Zcash ist eine L1-Blockchain. |
 | librustzcash | Ein Rust-Workspace, der alle Crates und Abhängigkeiten für die Arbeit mit Zcash enthält. [repo](https://github.com/zcash/librustzcash) |
-| lightwalletd | Ein zustandsloser Server, der Light Clients mit blockchain-Informationen versorgt. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | Ein zustandsloser Server, der Light Clients mit Blockchain-Informationen versorgt. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -228,7 +228,7 @@ Ein umfassendes Glossar zentraler Begriffe, Konzepte und Ressourcen rund um Zcas
 
 | Begriff | Definition |
 |------|-----------|
-| Zcash | Auf Privatsphäre fokussierte Kryptowährung mit zk-SNARKs. Verbindet transparente Zahlungen (im Bitcoin-Stil) und vollständig shielded Zahlungen. |
+| Zcash | Auf Privatsphäre fokussierte Kryptowährung mit zk-SNARKs. Verbindet transparente Zahlungen (im Bitcoin-Stil) und vollständig abgeschirmte Zahlungen. |
 | Zcash Foundation | Unabhängige gemeinnützige Organisation, die das Zcash-Ökosystem unterstützt, Entwicklung finanziert und Privatsphäre fördert. |
 | Zcash Network | Peer-to-Peer-Netzwerk aus Knoten, das Transaktionen validiert und die Blockchain pflegt. |
 | ZEC | Der offizielle Währungscode für Zcash (einige Börsen zeigen noch XZC an). |
@@ -240,8 +240,8 @@ Ein umfassendes Glossar zentraler Begriffe, Konzepte und Ressourcen rund um Zcas
 | zcashd | Der ursprüngliche Zcash-Full-Knoten, ein Fork von Bitcoin Core. Wurde im Juli 2026 nach langer Abkündigung ausgemustert, wobei seine Rollen zwischen Zebra für den Konsens und Zallet für Wallet-Funktionen aufgeteilt wurden. |
 | ZIP | Zcash Improvement Proposal – der Community-Governance-Prozess, mit dem Protokolländerungen vorgeschlagen und ratifiziert werden. [ZIP-Repository](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab. Die unabhängige Organisation, die Anfang 2026 von Josh Swihart und dem ehemaligen Engineering-Team der Electric Coin Company gegründet wurde, nachdem sie wegen eines Governance-Streits mit Bootstrap zurückgetreten waren. Sie sammelte im März 2026 über 25 Millionen US-Dollar an Seed-Finanzierung ein und betreut die ZODL wallet, die im Februar 2026 von Zashi umbenannt wurde. [zodl.com](https://zodl.com) |
-| zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — die Kryptografie hinter den shielded Transaktionen von Zcash. Ermöglicht es, eine Aussage (z. B. eine gültige Ausgabe) zu beweisen, ohne geheime Informationen offenzulegen. |
-| ZSA (Zcash Shielded Assets) | Von Nutzern ausgegebene Token, die die shielded Privatsphäre von Zcash erben und es ermöglichen, andere Assets als ZEC privat über das Netzwerk zu bewegen. Spezifiziert in [ZIP 226](https://zips.z.cash/zip-0226) und eine Kandidatenfunktion für NU7. |
+| zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — die Kryptografie hinter den abgeschirmten Transaktionen von Zcash. Ermöglicht es, eine Aussage (z. B. eine gültige Ausgabe) zu beweisen, ohne geheime Informationen offenzulegen. |
+| ZSA (Zcash Shielded Assets) | Von Nutzern ausgegebene Token, die die abgeschirmte Privatsphäre von Zcash erben und es ermöglichen, andere Assets als ZEC privat über das Netzwerk zu bewegen. Spezifiziert in [ZIP 226](https://zips.z.cash/zip-0226) und eine Kandidatenfunktion für NU7. |
 
 ---
 
