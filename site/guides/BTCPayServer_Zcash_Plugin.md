@@ -486,7 +486,19 @@ sudo apt update
 sudo apt install cloudflared
 ```
 
-*(Alternatively, install the release package directly with `curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb && sudo dpkg -i cloudflared.deb` on Raspberry Pi/ARM64, or `cloudflared-linux-amd64.deb` on x86_64).*
+If `apt install cloudflared` fails, install the matching `.deb` instead:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
+```
 
 3. Authenticate with Cloudflare:
 
