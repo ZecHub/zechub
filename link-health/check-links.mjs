@@ -241,6 +241,12 @@ function routeExists(route, mdFiles, appRoutes) {
   // GitHub content paths are case-sensitive even when this checkout is not.
   if (mdFiles.includes(target)) return { ok: true, how: "exact" };
 
+  // A folder that directly holds articles is a section page: the app lists its
+  // markdown files (/privacy-tools browses site/Privacy_Tools/). A folder with
+  // only subfolders has nothing to list, and the app returns its 404 page.
+  const folderPath = target.slice(0, -".md".length);
+  if (mdFiles.some((f) => dirname(f) === folderPath)) return { ok: true, how: "folder index" };
+
   // The app falls back to a loose match inside the same folder, so a report that
   // ignored this would flag links that actually resolve in production.
   const wanted = normalize(basename(clean));
