@@ -18,9 +18,9 @@ ZecHub لا يوصي بأي خدمة تبادل بعينها، يُرجى إجر
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - الموقع الإلكتروني: https://app.near-intents.org/
 - الوصف: تبادل سريع بدعم من NEAR. أجرِ الإيداعات والبيع والمبادلة، بما يشمل عملات الميم الشائعة TRUMP وMELANIA وBERA وغيرها.

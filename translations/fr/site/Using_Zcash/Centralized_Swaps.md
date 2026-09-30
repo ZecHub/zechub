@@ -18,9 +18,9 @@ Ajoutez, modifiez ou supprimez un bloc ici ; le wiki le récupère depuis ce fic
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Site web : https://app.near-intents.org/
 - Description : Échange rapide avec le soutien de NEAR. Effectuez des dépôts, vendez, échangez notamment les populaires TRUMP, MELANIA, BERA et d’autres memes.

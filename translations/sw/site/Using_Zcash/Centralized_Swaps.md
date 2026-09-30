@@ -18,9 +18,9 @@ Ongeza, hariri, au ondoa kizuizi hapa; wiki inakichukua kutoka kwenye faili hii.
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Tovuti: https://app.near-intents.org/
 - Maelezo: Kubadilishana haraka kwa usaidizi wa NEAR. Weka amana, uza, badilisha ikiwa ni pamoja na TRUMP maarufu, MELANIA, BERA na meme zingine

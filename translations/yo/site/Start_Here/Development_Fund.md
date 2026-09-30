@@ -2,50 +2,50 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ìpèsè fún ìdàgbàsókè Zcash
+# Owó Ìdàgbàsókè Zcash
 
-Zcash jẹ ilana blockchain alailẹgbẹ nitori pe o jẹ owo-ara ẹni. Eyi tumọ si pe awọn ẹgbẹ ti n ṣiṣẹ lori Zcash ko nilo lati gba owo lati ọdọ awọn oludokoowo ita, ati pe o le ni idojukọ lori iwakọ gbigba lakoko ti o tun wa ni ibamu pẹlu ẹda ati iṣẹ-ṣiṣe ti Zcash.
+Zcash jẹ́ ìlànà blockchain àrà ọ̀tọ̀ nítorí pé ó jẹ́ ti ara rẹ̀. Èyí túmọ̀ sí wípé àwọn ẹgbẹ́ tí ń ṣiṣẹ́ lórí Zcash kò nílò láti gba owó lọ́wọ́ àwọn olùdókòwò láti òde, wọ́n sì lè máa dojúkọ ìdàgbàsókè ìgbanisíṣẹ́ nígbàtí wọ́n tún ń bá ìlànà àti iṣẹ́ Zcash's mu.
 
-## Àwọn Èrè Ìdìpọ̀
+## Àwọn Èrè Dídínà
 
-Ninu blockchains, nkankan wa ti a npe ni [block](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), èyí tí a ṣe láti ṣàkọsílẹ̀ àwọn ìsòwò tí a kò tíì fìdí rẹ̀ múlẹ̀ nínú nẹ́ẹ̀tì.
+Nínú àwọn blockchain, ohun kan wà tí a ń pè ní a [bulọọki](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), èyí tí a ṣe láti ṣàkọsílẹ̀ àwọn ìṣòwò tí a kò tí ì fìdí rẹ̀ múlẹ̀ nínú nẹ́tíwọ́ọ̀kì náà. Nígbà tí a bá ti fọwọ́ sí àwọn ìṣòwò náà, a ó ti ìdènà náà pa.
 
-Block producers (aka miners) are tasked with validating transactions in a network and producing new blocks. When producing these blocks, block producers are rewarded with a block reward. In Zcash, roughly every 75 seconds a new block is produced, and a block reward of 3.125 ZEC comes into circulation. Block rewards in Zcash will produce new coins until Zcash reaches its 21 million max supply. After reaching max supply, block rewards will be paid for by transaction fees.
+Àwọn olùṣe búlọ́ọ̀kì (tí a tún mọ̀ sí àwọn awakùsà) ni a yàn láti jẹ́rìí sí àwọn ìṣòwò nínú nẹ́tíwọ́ọ̀kì àti láti ṣe àwọn búlọ́ọ̀kì tuntun. Nígbà tí wọ́n bá ń ṣe àwọn búlọ́ọ̀kì wọ̀nyí, a máa ń san èrè búlọ́ọ̀kì kan fún àwọn olùṣe búlọ́ọ̀kì. Nínú Zcash, ní nǹkan bí ìṣẹ́jú-àáyá 75, a máa ń ṣe búlọ́ọ̀kì tuntun, a sì máa ń san èrè búlọ́ọ̀kì 1.5625 ZEC. Àwọn ẹ̀bùn búlọ́ọ̀kì ní Zcash yóò máa ṣe àwọn owó tuntun títí tí Zcash yóò fi dé ibi tí ó pọ̀ jùlọ tó mílíọ̀nù 21. Lẹ́yìn tí ó bá dé ibi tí ó pọ̀ jùlọ, a ó san èrè búlọ́ọ̀kì nípa owó ìṣòwò.
 
-## Ẹ̀rọ ìnáwó Zcash (ṣaaju NU6)
+## Eto inawo Zcash's (ṣaaju NU6)
 
-In Bitcoin and other cryptocurrencies, all of the block rewards go to block producers. Zcash is unique in the fact that 20% of the block reward is transferred to the [Zcash development fund](https://zips.z.cash/zip-1014). Àkójọ owó yìí ni ó ń ṣètìlẹ́yìn fún àwọn ẹgbẹ́ tí ó ń ṣiṣẹ́ lórí ìlànà Zcash.
+Nínú Bitcoin àti àwọn owó ìnáwó míràn, gbogbo àwọn ẹ̀bùn ìnáwó náà lọ sí ọ̀dọ̀ àwọn olùpèsè ìnáwó. Zcash jẹ́ àrà ọ̀tọ̀ nítorí pé 20% ti ẹ̀bùn ìnáwó ìnáwó náà ni a gbé lọ sí ọ̀dọ̀ àwọn olùpèsè ìnáwó ìnáwó ìnáwó ìnáwó ìnáwó [Àjọ ìdàgbàsókè Zcash](https://zips.z.cash/zip-1014). Ajo yii n ṣe inawo fun awọn ẹgbẹ ti n ṣiṣẹ lori ilana Zcash.
 
-Lọwọlọwọ, [Awọn Ifunni Agbegbe Zcash](https://zcashcommunitygrants.org/) gba 8% ti block èrè, Electric Coin Co. gba 7%, ati awọn Zcash Foundation gba 5%. yi ṣiṣẹ soke to 40%, 35%, ati 25% ti awọn idagbasoke owo lẹsẹsẹ.
+Lọ́wọ́lọ́wọ́, [Zcash Community Grants](https://zcashcommunitygrants.org/) gba 8% ti awọn ẹbun bulọọki, Electric Coin Co. gba 7%, ati Zcash Foundation gba 5%. Eyi jẹ deede si 40%, 35%, ati 25% ti owo idagbasoke ni ọkọọkan.
 ![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
-Ní ọdún 2020, àwùjọ Zcash dìbò lórí owó ìdàgbàsókè àti àwọn ẹgbẹ tí wọ́n ń tì lẹ́yìn rẹ̀. ní ọdún 2024, àwùjọ yóò dìbò padà láti mọ ẹni tí ó gba owó láti inú owó ìtẹ̀síwájú.
+Ní ọdún 2020, àwùjọ Zcash dìbò lórí owó ìdàgbàsókè àti àwọn ẹgbẹ́ tí ó ń ṣe àtìlẹ́yìn fún. Ní ọdún 2024, àwùjọ náà yóò tún dìbò láti mọ ẹni tí ó ń gba owó láti ọ̀dọ̀ owó ìdàgbàsókè.
 
 
-# Zcash Hybrid Deferred Dev Fund Lockbox (NU6) Àwọn ìkápá tí ó wà ní ìpamọ́
+# Àpótí Ìpamọ́ Owó Ìdásílẹ̀ Zcash Hybrid Deferred Dev (NU6)
 
-The Hybrid Deferred Dev Fund Lockbox is the funding mechanism chosen for the next generation of the Zcash development fund. This option allocates the 20% total Zcash block rewards, 60% to the Zcash Grants Committee and 40% to a protocol lockbox, guaranteeing that resources are available to support the Zcash ecosystem's future while continuing development and upkeep.
+Lockbox Hybrid Deferred Dev Fund ni eto inawo ti a yan fun iran ti nbo ti owo idagbasoke Zcash. Aṣayan yii pin awọn ere bulọọki Zcash 20% lapapọ, 60% si Igbimọ Awọn ifunni Zcash ati 40% si apoti titiipa ilana kan, ni idaniloju pe awọn orisun wa lati ṣe atilẹyin fun ọjọ iwaju eto-aye Zcash lakoko ti o n tẹsiwaju idagbasoke ati itọju.
 
-## Bí Wọ́n Ṣe Ń Ṣe Ìpinnu
+## Ilana Ṣiṣe Ipinnu
 
-The decision to implement the 20% Dev Fund Lockbox was reached through a comprehensive community-driven process. This included two rounds of Zcash Community Advisory Panel (ZCAP) polls, as well as several ecosystem-wide polls. These polls allowed a broad spectrum of stakeholders to voice their opinions and contribute to the decision-making process.
+Ìpinnu láti ṣe àgbékalẹ̀ 20% Dev Fund Lockbox ni a ṣe nípasẹ̀ ìlànà tó péye tí àwùjọ ń darí. Èyí ní ìpele méjì ti ìdìbò Zcash Community Advisory Panel (ZCAP), àti ọ̀pọ̀lọpọ̀ ìdìbò gbogbogbòò. Àwọn ìdìbò wọ̀nyí gba àwọn olùníláárí láyè láti sọ èrò wọn jáde kí wọ́n sì kópa nínú ìlànà ṣíṣe ìpinnu.
 
 ![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
 
-As the dev fund lockbox is deferred (meaning funds will be unlocked via network upgrade at a later date), the Zcash Community will soon decide on a distribution mechanism for funds. One proposed option being the 'Zbloc' decentralised governance mechanism. 
+Bí a bá ti dá àpótí ìdènà owó dev náà dúró (èyí túmọ̀ sí wípé a ó ṣí owó náà sílẹ̀ nípasẹ̀ àtúnṣe nẹ́tíwọ́ọ̀kì ní ọjọ́ iwájú), Zcash Community yóò pinnu lórí ètò ìpínkiri owó náà láìpẹ́. Ọ̀nà kan tí a dábàá ni ètò ìṣàkóso tí a pín sí ìpele-ìpínlẹ̀ 'Zbloc'. 
 
-![Ohun tuntun ti o ṣeeṣe ti iṣakoso ti ko ni idapo](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Potential new form of decentralised governance](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
-## Àwọn ohun àmúṣọrọ̀
+## Àwọn ohun àlùmọ́nì
 
-[Àpótí Àpamọ́ Ètò Ìdàgbàsókè](https://forum.zcashcommunity.com/t/important-deadline-for-zips-likely-dev-fund-related-that-want-to-be-activated-next-halvening/48004/)
+[Àpótí Ìdènà fún Dev Fund - Ìjíròrò Àpérò](https://forum.zcashcommunity.com/t/important-deadline-for-zips-likely-dev-fund-related-that-want-to-be-activated-next-halvening/48004/)
 
-[Ìwádìí ZCAP lórí Lockbox](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
+[Ìdìbò ZCAP lórí Lockbox](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
 
-[Ìdásílẹ̀ Ìpamọ́ fún ECC, ZF, àti Àwọn Ìpínlẹ̀ Olórí](https://zips.z.cash/zip-1014)
+[Ṣíṣeto Owó Dev kan fún ECC, ZF, àti Àwọn Ìrànlọ́wọ́ Pàtàkì](https://zips.z.cash/zip-1014)
 
-[Ìdàgbàsókè àti ìṣàkóso Zcash](https://z.cash/zcash-development-and-governance/)
+[Idagbasoke ati iṣakoso Zcash](https://z.cash/zcash-development-and-governance/)
 
-[Ìdìbò ìtìlẹyìn Zcash](https://www.coindesk.com/tech/2020/02/01/zcashs-funding-vote-and-the-woes-of-decentralized-governance/)
+[Idibo fun inawo Zcash's](https://www.coindesk.com/tech/2020/02/01/zcashs-funding-vote-and-the-woes-of-decentralized-governance/)
 
-[Ìpínlẹ̀ Àjọ Zcash](https://zcashcommunitygrants.org/)
+[Zcash Community Grants](https://zcashcommunitygrants.org/)

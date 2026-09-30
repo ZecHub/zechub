@@ -10,7 +10,7 @@ Zcash è un protocollo blockchain unico perché si autofinanzia. Ciò significa 
 
 Nelle blockchain, esiste qualcosa chiamato [blocco](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), che viene prodotto per registrare le transazioni non ancora confermate nella rete. Una volta che le transazioni sono validate, il blocco viene chiuso.
 
-I produttori di blocchi (noti anche come miner) hanno il compito di convalidare le transazioni in una rete e produrre nuovi blocchi. Quando producono questi blocchi, i produttori di blocchi vengono ricompensati con una ricompensa di blocco. In Zcash, circa ogni 75 secondi viene prodotto un nuovo blocco e una ricompensa di blocco di 3.125 ZEC entra in circolazione. Le ricompense di blocco in Zcash produrranno nuove monete fino a quando Zcash raggiungerà la sua fornitura massima di 21 milioni. Dopo aver raggiunto la fornitura massima, le ricompense di blocco saranno pagate dalle commissioni di transazione.
+I produttori di blocchi (noti anche come miner) hanno il compito di convalidare le transazioni in una rete e produrre nuovi blocchi. Quando producono questi blocchi, i produttori di blocchi vengono ricompensati con una ricompensa di blocco. In Zcash, circa ogni 75 secondi viene prodotto un nuovo blocco e una ricompensa di blocco di 1.5625 ZEC entra in circolazione. Le ricompense di blocco in Zcash produrranno nuove monete fino a quando Zcash raggiungerà la sua fornitura massima di 21 milioni. Dopo aver raggiunto la fornitura massima, le ricompense di blocco saranno pagate dalle commissioni di transazione.
 
 ## Meccanismo di finanziamento di Zcash (pre NU6)
 

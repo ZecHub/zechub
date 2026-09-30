@@ -18,9 +18,9 @@ Buradan bir blok ekleyin, düzenleyin veya kaldırın; wiki bunu bu dosyadan al�
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Web sitesi: https://app.near-intents.org/
 - Açıklama: NEAR desteğiyle hızlı borsa. Para yatırın, satın, popüler TRUMP, MELANIA, BERA ve diğer meme coinler dahil swap yapın.
