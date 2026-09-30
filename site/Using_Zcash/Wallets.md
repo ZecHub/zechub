@@ -126,17 +126,6 @@
 
 ---
 
-## [zcashd](https://github.com/zcash/zcash)
-![logo](/content-images/zcashd-92df3291ad.webp "zcashd")
-- Devices: Desktop
-- Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
-- Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
-- Ironwood: Not Ready
-
----
-
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Devices: Web
