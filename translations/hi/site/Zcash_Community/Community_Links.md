@@ -38,13 +38,14 @@ Zcash समुदाय अपने समुदाय <span translate="no" cl
 
 X पर Zcash की वैश्विक उपस्थिति सक्रिय है। फ़ॉलो करने योग्य प्रमुख अकाउंट्स:
 
-| Account | विवरण |
+| अकाउंट | विवरण |
 |---------|-------------|
 | [@Zcash](https://x.com/zcash) | आधिकारिक Zcash अकाउंट |
 | [@ZecHub](https://x.com/zechub) | ZecHub DAO - समुदाय शिक्षा और bounties |
 | [@zodl_app](https://x.com/zodl_app) | ZODL wallet (पूर्व में Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash Foundation अपडेट्स |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Zcash Brazil समुदाय |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash Mexico |
 | [@ZcashTR](https://x.com/ZcashTR) | Zcash Turkey |
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nigeria |
@@ -59,6 +60,7 @@ X पर Zcash की वैश्विक उपस्थिति सक्�
 
 - [Zcash en Espanol](https://zcashesp.com) - स्पेनिश-भाषी समुदाय (X suspension के बाद Bluesky पर भी)
 - [Zcash Brazil](https://x.com/zcashbrazil) - ब्राज़ीलियाई समुदाय
+- [Zcash Mexico](https://x.com/ZcashMx) - मैक्सिकन समुदाय
 - [Zcash Turkey](https://x.com/ZcashTR) - तुर्की समुदाय
 - [Zcash Arabia](https://x.com/ZcashArabia) - अरबी-भाषी समुदाय
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - नाइजीरियाई समुदाय
@@ -75,4 +77,4 @@ X पर Zcash की वैश्विक उपस्थिति सक्�
 - [ZecHub विकि](https://zechub.wiki)
 - [Zcash अनुदान केंद्र](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcash वैश्विक राजदूत](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - इस विकि पर कार्यक्रम का अवलोकन (zcashambassadors.com ऑफ़लाइन है)
-- [ZEC इनाम](https://bounties.zechub.wiki/)
+- [ZEC Bounties](https://bounties.zechub.wiki/)

@@ -38,15 +38,16 @@
 
 Zcash має активну глобальну присутність у X. Основні акаунти, за якими варто стежити:
 
-| Account | Description |
+| Акаунт | Опис |
 |---------|-------------|
 | [@Zcash](https://x.com/zcash) | Офіційний акаунт Zcash |
 | [@ZecHub](https://x.com/zechub) | ZecHub DAO — освіта для спільноти та баунті |
 | [@zodl_app](https://x.com/zodl_app) | Гаманець ZODL (раніше Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Оновлення від Zcash Foundation |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Бразильська спільнота Zcash |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash Мексика |
 | [@ZcashTR](https://x.com/ZcashTR) | Zcash Туреччина |
-| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
+| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Аравія |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Нігерія |
 | [@ZcastEsp](https://x.com/ZcastEsp) | Zcast — іспаномовний подкаст про Zcash |
 | [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
@@ -57,22 +58,23 @@ Zcash має активну глобальну присутність у X. Ос
 
 ## Регіональні центри спільноти
 
-- [Zcash en Espanol](https://zcashesp.com) - Іспаномовна спільнота (також у Bluesky після блокування в X)
-- [Zcash Brazil](https://x.com/zcashbrazil) - Бразильська спільнота
-- [Zcash Turkey](https://x.com/ZcashTR) - Турецька спільнота
-- [Zcash Arabia](https://x.com/ZcashArabia) - Арабомовна спільнота
-- [Zcash Nigeria](https://x.com/ZcashNigeria) - Нігерійська спільнота
-- [ruZcash](https://x.com/ruZCASH) - Російськомовна спільнота Zcash
-- [Zcash Korea](https://x.com/zcash_korea) - Корейська спільнота
-- [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - Південна Африка та Східна Африка
-- [genzcash](https://x.com/genzcash) - Молодіжна спільнота Zcash
+- [Zcash іспанською](https://zcashesp.com) - Іспаномовна спільнота (також у Bluesky після призупинення X)
+- [Zcash Бразилія](https://x.com/zcashbrazil) - Бразильська спільнота
+- [Zcash Мексика](https://x.com/ZcashMx) - Мексиканська спільнота
+- [Zcash Туреччина](https://x.com/ZcashTR) - Турецька спільнота
+- [Zcash Аравія](https://x.com/ZcashArabia) - Арабомовна спільнота
+- [Zcash Нігерія](https://x.com/ZcashNigeria) - Нігерійська спільнота
+- [ruZcash](https://x.com/ruZCASH) - Російськомовна Zcash спільнота
+- [Zcash Корея](https://x.com/zcash_korea) - Корейська спільнота
+- [Zcash Східна Африка](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - Південна Африка та Східна Африка
+- [genzcash](https://x.com/genzcash) - Молодіжна Zcash спільнота
 
 ----
 
 ## Ресурси
 
-- [Вебсайт спільноти Zcash](https://www.zcashcommunity.com/)
-- [Вікі ZecHub](https://zechub.wiki)
-- [Хаб грантів Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Глобальні амбасадори Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - огляд програми в цій вікі (zcashambassadors.com не працює)
-- [ZEC Винагороди](https://bounties.zechub.wiki/)
+- [Zcash Вебсайт спільноти](https://www.zcashcommunity.com/)
+- [ZecHub Вікі](https://zechub.wiki)
+- [Zcash Хаб грантів](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Zcash Глобальні амбасадори](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - огляд програми в цій вікі (zcashambassadors.com не працює)
+- [ZEC Bounties](https://bounties.zechub.wiki/)
