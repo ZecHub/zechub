@@ -34,7 +34,7 @@ The FPF X FPF grant application process includes several processes. First, appli
 
 Wubetumi ahu nsɛm pii afa FPF X FPF ho wɔ Financial Privacy Fun (FPF) wɛbsaet hɔ. [ha yi ara](https://www.financialprivacyfoundation.org/grants) Sɛ w'ani da so ara gye ho sɛ wobɛte FPF X FPF program no ase a, wobɛtumi akɔhwɛ FAQs document wɔ ha: [Ntaaho nsɛm a wɔbisa no pii](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-If you are interested in becoming a Volunteer Reviewer for this round of the FPF X FPF program, please visit this [nkitahodi](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Sɛ wopɛ nsɛmmisa foforɔ a ɛfa FPF X FPF Grant Program ho a, wobɛtumi abisa tẽẽ denam e-mail so. [FPF (Federal) nkyeresoɔ](info@financialprivacyfoundation.org).
+If you are interested in becoming a Volunteer Reviewer for this round of the FPF X FPF program, please visit this [nkitahodi](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Sɛ wopɛ nsɛmmisa foforɔ a ɛfa FPF X FPF Grant Program ho a, wobɛtumi abisa tẽẽ denam e-mail so. [FPF (Federal) nkyeresoɔ](mailto:info@financialprivacyfoundation.org).
 
 ## Nneɛma a wɔde bɔ afɔre 
 [Sika ho ahofadi boayikuw no](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

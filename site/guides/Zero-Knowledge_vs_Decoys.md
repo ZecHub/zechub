@@ -52,7 +52,7 @@ The use of decoys does increase the anonymity set. However this approach is depe
 
 4) **No Trusted Setup**: Zcash's Sprout & Sapling setup utilized a multi-party computation known as the "trusted setup ceremony". The recent NU5 upgrade did not require any Trust in the integrity of the zero knowledge circuit's setup. [Read ECC Blog on NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Data Privacy**: The [zk-SNARK technology](https://zechub.wiki/zcash-technology) used in Zcash's shielded pools allows for significantly enhanced security for users. The reduction of metadata leakage on-chain means that users are safe from adversaries such as potential hackers or oppressive state bodies. 
+5) **Data Privacy**: The [zk-SNARK technology](https://zechub.wiki/zcash-tech/zk-snarks) used in Zcash's shielded pools allows for significantly enhanced security for users. The reduction of metadata leakage on-chain means that users are safe from adversaries such as potential hackers or oppressive state bodies. 
 
 There are a number of instances in which bugs have been identified in Monero's decoy selection algorithm. These bugs had the potential to reveal user spends according to a report from [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 

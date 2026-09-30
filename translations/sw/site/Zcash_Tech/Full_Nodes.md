@@ -26,7 +26,7 @@ Zebra ni utekelezaji kamili wa nodi huru, tayari kwa uzalishaji wa itifaki ya Zc
 
 Zebra huthibitisha vizuizi na miamala, hushiriki katika mtandao wa rika-kwa-rika, na hufichua kiolesura cha RPC kwa programu. Pochi sasa ni sehemu tofauti: [Zallet](https://github.com/zcash/zallet) huendeshwa dhidi ya nodi Zebra na hushughulikia funguo na mizani. Hii inachukua nafasi zcashd, ambayo iliunganisha nodi na pochi katika mchakato mmoja.
 
-Ili kuhudumia pochi nyepesi zilizolindwa, nodi hutembea kando ya kiashiria, iwe ni [lightwalletd](https://github.com/zcash/lightwalletd) au mpya zaidi [Zaino](https://zechub.wiki/zaino).
+Ili kuhudumia pochi nyepesi zilizolindwa, nodi hutembea kando ya kiashiria, iwe ni [lightwalletd](https://github.com/zcash/lightwalletd) au mpya zaidi [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
 Hakikisha umesoma kitabu Zebra kwa maelekezo ya usanidi, na jiunge na seva ya R&D Discord kwa usaidizi.
 
@@ -42,7 +42,7 @@ Zakura ni nodi kamili ya pili inayolingana na makubaliano, iliyotenganishwa kuto
 
 ### zcashd (mstaafu)
 
-> **Kumbuka:** zcashd amestaafu. Electric Coin Company [ilitangaza kuachiliwa kwa](https://z.cash/support/zcashd-deprecation/), na kusimamishwa kiotomatiki kwa Mwisho wa Usaidizi kulifikiwa mnamo 18 Julai 2026 kwa urefu wa block 3417100. Kila nodi zcashd 6.20.0 ambayo haijabadilishwa huzima kwa urefu huo na kukataa kuanzisha upya, na programu haiungi mkono NU6.3. Tumia Zebra. Ukishikilia zcashd `wallet.dat`, fuata [Mwongozo wa Uhamiaji: zcashd hadi Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **Kumbuka:** zcashd amestaafu. Electric Coin Company [ilitangaza kuachiliwa kwa](https://z.cash/support/zcashd-deprecation/), na kusimamishwa kiotomatiki kwa Mwisho wa Usaidizi kulifikiwa mnamo 18 Julai 2026 kwa urefu wa block 3417100. Kila nodi zcashd 6.20.0 ambayo haijabadilishwa huzima kwa urefu huo na kukataa kuanzisha upya, na programu haiungi mkono NU6.3. Tumia Zebra. Ukishikilia zcashd `wallet.dat`, fuata [Mwongozo wa Uhamiaji: zcashd hadi Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd ilikuwa utekelezaji wa awali wa Nodi Kamili kwa Zcash, uliotengenezwa na kudumishwa na Electric Coin Company. Maagizo ya ujenzi yaliyo hapa chini yamehifadhiwa kwa ajili ya marejeleo na kwa waendeshaji wanaohama kutoka zcashd.
 

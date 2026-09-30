@@ -23,7 +23,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash.
 | Benchmarking | Tomenukulawo te ŋu tsɔa metriks siwo ku ɖe xɔtunu vovovo siwo wozãna tsɔ kua Zcash. [Kpɔe le afisia](https://zcashbenchmarks.info) |
 | Block | Block nye nuŋlɔɖi le Zcash blockchain me si me asitsatsa ƒe hatsotso aɖe si woɖo ɖe network la le. Le sɛkɛnd 75 ɖesiaɖe kloe me la, le mamã dedie nu la, wotsɔa block yeye aɖe kpena ɖe blockchain la ŋu. |
 | Block Explorer | Dɔwɔnu si le Internet dzi be nàkpɔ asitsatsa siwo katã wowɔ, siwo va yi kple esiwo li fifia, le blockchain la dzi. [Zcash Block ƒe Ʋuʋudedi](https://zcashexplorer.app/) |
-| Blogs | [ZODL Blog (si woyɔna tsã be Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.wiki/zechub-dao) |
+| Blogs | [ZODL Blog (si woyɔna tsã be Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.substack.com/) |
 | Blossom | 3rd Major Network Upgrade na Zcash. [Nyatakaka Bubuwo](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

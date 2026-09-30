@@ -33,7 +33,7 @@ FPF X FPF 장학금 신청 절차는 여러 단계를 포함합니다. 먼저, �
 
 FPF X FPF에 대한 추가 정보는 재정 프라이버시 펀데이션(FPF) 웹사이트 [여기](https://www.financialprivacyfoundation.org/grants)에서 볼 수 있습니다. 또한, FPF X FPF 프로그램에 대해 여전히 궁금하다면 FAQ 문서를 여기서 확인할 수 있습니다: [FAQs](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf).
 
-이번 FPF X FPF 프로그램의 자원 봉사 심사자로 참여하고 싶다면, 이 [링크](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)를 방문해 주세요. FPF X FPF 장학금 프로그램에 대한 추가 질문이 있다면, 이메일로 직접 문의할 수 있습니다: [FPF](info@financialprivacyfoundation.org).
+이번 FPF X FPF 프로그램의 자원 봉사 심사자로 참여하고 싶다면, 이 [링크](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)를 방문해 주세요. FPF X FPF 장학금 프로그램에 대한 추가 질문이 있다면, 이메일로 직접 문의할 수 있습니다: [FPF](mailto:info@financialprivacyfoundation.org).
 
 ## 자료
 [재정 프라이버시 펀데이션](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

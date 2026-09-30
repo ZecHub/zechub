@@ -23,7 +23,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Benchmarking | Wɔn a wotu fam no tumi de metrics a ɛfa sɛnea hardware ahorow a wɔde tu Zcash. [Hwɛ wɔ ha](https://zcashbenchmarks.info) |
 | Block | Block yɛ kyerɛwtohɔ a ɛwɔ Zcash blockchain mu a ɛwɔ nkitahodi ahorow a wɔde amena wɔ ntwamutam no so. Bɛyɛ sɛ wɔ sikɔne 75 biara mu no, sɛ wɔkyekyem pɛpɛɛpɛ a, wɔde block foforo bi ka blockchain no ho. |
 | Block Explorer | Intanɛt so adwinnade a wode hwɛ nnwuma nyinaa, bere a atwam ne mprempren, wɔ blockchain no so. [Zcash Block Nhwehwɛmufoɔ](https://zcashexplorer.app/) |
-| Blogs | [ZODL Blog (kan no na wɔfrɛ no Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog a ɛwɔ hɔ](https://zechub.wiki/zechub-dao) |
+| Blogs | [ZODL Blog (kan no na wɔfrɛ no Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog a ɛwɔ hɔ](https://zechub.substack.com/) |
 | Blossom | 3rd Major Network Upgrade a ɛwɔ hɔ ma Zcash. [Nsɛm pii](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
