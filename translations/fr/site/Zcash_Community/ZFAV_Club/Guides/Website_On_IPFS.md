@@ -73,7 +73,7 @@ Si vous utilisez le terminal, exécutez la commande : Si vous utilisez le termin
 "hash" = CID du dossier que vous avez ajouté à l’étape précédente.
 
 
-Sinon, vous pouvez également épingler des répertoires en utilisant des services tels que [Pinata](https://pinata.cloud) ou [Dolpin](https://dolpin.io)
+Sinon, vous pouvez également épingler des répertoires en utilisant des services tels que [Pinata](https://pinata.cloud) ou [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Cela fait gagner beaucoup de temps !
 

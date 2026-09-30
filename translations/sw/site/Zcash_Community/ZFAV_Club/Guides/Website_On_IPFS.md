@@ -73,7 +73,7 @@ Kama kwa kutumia Terminal, Run amri: Kama kwa matumizi ya Terminal, Kuendesha am
 "hash" = CID ya folda umeongeza katika hatua ya awali.
 
 
-Vinginevyo, unaweza pia kuwa na uwezo wa pini directories kutumia huduma kama vile [Pinata](https://pinata.cloud) au [Dolpin](https://dolpin.io)
+Vinginevyo, unaweza pia kuwa na uwezo wa pini directories kutumia huduma kama vile [Pinata](https://pinata.cloud) au [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Inaokoa wakati mwingi! 
 

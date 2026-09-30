@@ -48,7 +48,7 @@ X, Google, Discord, Telegram के साथ लॉगिन
 - [Midjourney Bot](https://discord.com/invite/midjourney) Discord में $10/महीना से - [शुरुआत के लिए गाइड](https://docs.midjourney.com/docs/quick-start)
 कई अन्य छवि के रैंकिंग करके लगभग 100 मुफ़्त उत्पन्न हो सकता है [यहाँ छवि](https://www.midjourney.com/app/rank-pairs/)
 (शीर्ष 2000 रेटर बने - लगभग 15 मिनट के चित्रों का रेटिंग)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 उत्पन्न - (महीने में मुफ़्त 15 उत्पन्न)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 उत्पन्न - (महीने में मुफ़्त 15 उत्पन्न)
 - [DALL-E 3](https://openai.com/dall-e-3/) - ChatGPT-4 में समावेशित - $20/महीना
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 उत्पन्न मुफ़्त, भुगतान $6/महीना से शुरू होता है)
 
@@ -62,7 +62,7 @@ X, Google, Discord, Telegram के साथ लॉगिन
 
 ### वीडियो / ऑडियो अनुवाद उपकरण:
 
-- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) वीडियो अनुवाद, डबिंग और लिप सिंकिंग टूल
+- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) वीडियो अनुवाद, डबिंग और लिप सिंकिंग टूल
 - [Ezdubs Bot on X](https://twitter.com/ezdubs_bot) वीडियो अनुवाद, डबिंग और लिप सिंकिंग टूल
 
 ## ऑडियो के बारे में
@@ -82,7 +82,7 @@ X, Google, Discord, Telegram के साथ लॉगिन
 
 ### आवाज उत्पन्न करना
 
-- [play.ht](https://play.ht/) - मुफ़्त - ($39/महीना से सब्सक्रिप्शन)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - मुफ़्त - ($39/महीना से सब्सक्रिप्शन)
 - [ElevenLabs](https://elevenlabs.io/) - मुफ़्त - ($5/महीना से सब्सक्रिप्शन)
 - [Murf](https://murf.ai/) - मुफ़्त - ($29/महीना से सब्सक्रिप्शन)
 - [Resemble](https://www.resemble.ai/) - मुफ़्त प्रयोग करें (0.006 डॉलर प्रति सेकंड के बाद)

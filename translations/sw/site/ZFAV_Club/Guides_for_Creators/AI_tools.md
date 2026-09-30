@@ -48,7 +48,7 @@ ingia ukitumia X, Google, Discord, Telegram
 - [Kiboti cha Midjourney](https://discord.com/invite/midjourney) katika Discord - kuanzia $10/mwezi - [Mwongozo wa Kuanza](https://docs.midjourney.com/docs/quick-start)
 inaweza kupata takriban vizazi 100 vya bure kwa kukadiria vingine vingi [picha hapa](https://www.midjourney.com/app/rank-pairs/)
 (lazima nifike kwenye orodha ya waliokadiria 2000 bora - takriban dakika 15 za picha za ukadiriaji)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 vizazi - (vizazi 15 bila malipo kwa mwezi)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 vizazi - (vizazi 15 bila malipo kwa mwezi)
 - [DALL-E 3](https://openai.com/dall-e-3/) - imejumuishwa katika ChatGPT-4 - $20/mwezi
 - [Muumba wa Kahawa ya Usiku](https://creator.nightcafe.studio/) (Vizazi 4 bure, malipo huanza $6/mwezi)
 
@@ -62,7 +62,7 @@ inaweza kupata takriban vizazi 100 vya bure kwa kukadiria vingine vingi [picha h
 
 ### Zana za kutafsiri video/sauti:
 
-- [Maabara ya HeyGen](https://labs.heygen.com/guest/video-translate) zana ya utafsiri wa video na kusawazisha midomo
+- [Maabara ya HeyGen](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) zana ya utafsiri wa video na kusawazisha midomo
 - [Kidhibiti cha Ezdubs kwenye X](https://twitter.com/ezdubs_bot) zana ya utafsiri wa video na kusawazisha midomo
 
 ## Vitu vya sauti
@@ -82,7 +82,7 @@ inaweza kupata takriban vizazi 100 vya bure kwa kukadiria vingine vingi [picha h
 
 ### Kutengeneza sauti
 
-- [play.ht](https://play.ht/) - bila malipo - (usajili kuanzia $39/mwezi)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - bila malipo - (usajili kuanzia $39/mwezi)
 - [ElevenLabs](https://elevenlabs.io/) - bila malipo - (usajili kuanzia $5/mwezi)
 - [Murf](https://murf.ai/) - bila malipo - (usajili kuanzia $29/mwezi)
 - [Resemble](https://www.resemble.ai/) - jaribu bure (baada ya $0.006 kwa sekunde)

@@ -68,7 +68,7 @@ IPFS (InterPlanetary File System) — это протокол и сеть peer-t
 
 **hash** = CID папки, добавленной на предыдущем шаге.
 
-В качестве альтернативы вы также можете закреплять директории с помощью таких сервисов, как [Pinata](https://pinata.cloud/) или [Dolpin](https://dolpin.io/)
+В качестве альтернативы вы также можете закреплять директории с помощью таких сервисов, как [Pinata](https://pinata.cloud/) или [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Это экономит много времени!
 

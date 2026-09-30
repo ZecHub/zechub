@@ -11,7 +11,7 @@ published: 2024-01-12
 
 
 
-**[Firn Protocol](https://app.firn.cash/)**: Firn is the first-ever zero-knowledge privacy platform in the account-based model, and introduces pluggable, flexible privacy to Ethereum-based chains.Using zero-knowledge proofs, Firn delivers secure, efficient funds privacy for users of Ethereum and Ethereum-based L2s. **HOW IT WORKS?**
+**[Firn Protocol](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn is the first-ever zero-knowledge privacy platform in the account-based model, and introduces pluggable, flexible privacy to Ethereum-based chains.Using zero-knowledge proofs, Firn delivers secure, efficient funds privacy for users of Ethereum and Ethereum-based L2s. **HOW IT WORKS?**
 To use Firn, deposit ETH into the protocol. Once you have a Firn balance, you can privately transfer funds to other Firn users, or engage with other protocols, like Uniswap. You can also privately withdraw funds back to the network. Firn charges a small fee, of 0.79%, on all ETH with drawals. These fees are disbursed proportionally to holders of Firn Token - [Whitepaper](https://firn.cash/whitepaper.pdf) 
 
 
@@ -24,7 +24,7 @@ Setup your non-custodial RAILGUN Wallet, Shield any ERC-20 token into a 0zk addr
 
 **[Manta Network](https://www.manta.network/):** On-Chain Privacy for Web 3, DeFi and more.  Manta Atlantic, the fastest ZK L1 chain, brings programmable privacy to web3 through compliant on-chain privacy and identity. $MANTA has a fixed supply of 1,000,000,000 with no inflation schedule. The $MANTA tokens will be burned automatically as soon as they are redeemed - [Whitepaper](https://docs.manta.network/) 
 
-**[Boltz](https://boltz.exchange/):**  Boltz is a Layer 2 solution. Boltz is a privacy-first, non-custodial bitcoin exchange built to bridge different layers of Bitcoin like the liquid and lightning network. With Boltz, users can seamlessly swap their bitcoin between layers. Boltz Swaps are non-custodial, which means users can always rest assured to be in full control of their bitcoin throughout the entire flow of a swap  [Whitepaper](https://docs.boltz.exchange/en/latest/) 
+**[Boltz](https://web.archive.org/web/20260820131421/https://boltz.exchange/):**  Boltz is a Layer 2 solution. Boltz is a privacy-first, non-custodial bitcoin exchange built to bridge different layers of Bitcoin like the liquid and lightning network. With Boltz, users can seamlessly swap their bitcoin between layers. Boltz Swaps are non-custodial, which means users can always rest assured to be in full control of their bitcoin throughout the entire flow of a swap  [Whitepaper](https://docs.boltz.exchange/en/latest/) 
 
 
 **[ShadeProtocol](https://shadeprotocol.io/)**: Shade Protocol is a layer-2 array of connected privacy-preserving DeFi applications built on Secret Network. These key applications are stablecoins, governance, bonds, staking derivatives, insurance, synthetics, lending, DEXs, and more  - [Whitepaper]
@@ -48,7 +48,7 @@ For example, consider an NFT listing on Solana; its public state (e.g., price) i
 ***
 
 
- **[FairySwap](https://fairyswap.finance/)**: FairySwap is a Layer 1 next-generation, community-driven privacy DEX that is committed to being permissionless and decentralized. By leveraging the zero-knowledge proof technology built into Findora, privacy DEXs, and Dapps like FairySwap give users the ability to choose what information they want to be visible on a public blockchain, and what they would rather shield. The information they want to be invisible can still be publicly verified with zero-knowledge proofs without revealing any details - **Asset Swap**: Yes - [Whitepaper](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+ **[FairySwap](https://web.archive.org/web/20240810094007/https://fairyswap.finance/)**: FairySwap is a Layer 1 next-generation, community-driven privacy DEX that is committed to being permissionless and decentralized. By leveraging the zero-knowledge proof technology built into Findora, privacy DEXs, and Dapps like FairySwap give users the ability to choose what information they want to be visible on a public blockchain, and what they would rather shield. The information they want to be invisible can still be publicly verified with zero-knowledge proofs without revealing any details - **Asset Swap**: Yes - [Whitepaper](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKsync](https://zksync.io/)**: ZKsync is a Layer 2 scaling solution on Ethereum that offers low gas and fast transactions, without compromising on security. People can withdraw assets to Layer 1 at any time. To access the entire ZKsync ecosystem and to benefit from cheap and instant transactions, you first need a [wallet like Argent](https://argent.link/zksync). Without a wallet, you are unable to onboard to the network as it's not possible to access ZKsync through an exchange like Coinbase or Binance. Wallets give you an easy way to buy, sell, and store crypto and experience the exciting world of DeFi, NFTs, and much more - **Asset Swap**: Yes - [Whitepaper](https://docs.zksync.io/) - ![ZKsync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
