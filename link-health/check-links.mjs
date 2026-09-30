@@ -157,8 +157,9 @@ function extractLinks(text, file) {
 }
 
 function classify(url) {
-  if (/^https?:\/\//i.test(url)) return "external";
+  if (/^https?:\/\//i.test(url)) return wikiPath(url) === null ? "external" : "wiki";
   if (/^(mailto|tel|ftp|ipfs|magnet):/i.test(url)) return "scheme";
+  if (/^[^\s/:@]+@[^\s/:@]+\.[a-z]{2,}$/i.test(url)) return "bare-email";
   if (url.startsWith("#")) return "anchor";
   if (url.startsWith("//")) return "protocol-relative";
   if (url.startsWith("/content-images/") || url.startsWith("/content-banners/")) return "asset";
@@ -178,7 +179,7 @@ async function loadAppRoutes(offline) {
   const fallback = [
     "wallets", "mobile-wallets", "desktop-wallets", "web-wallets", "hardware-wallets",
     "dashboard", "visualizer", "hackathon", "explore", "tools", "map", "dex", "privacy",
-    "proposals", "dao", "newsletter", "tutorials", "developers", "zips", "zips-grants",
+    "proposals", "dao", "newsletter", "developers", "zips-grants", "payment-processors",
     "gallery", "welcome", "sitemap", "donation", "zebra", "zcash-projects",
     "protocol-parameters", "zcash-evolution", "visual-identity", "governance-howto",
     "zcash-global-ambassadors", "zcash-payment-uri", "zcash-pool-visualizer",
@@ -258,6 +259,24 @@ function routeExists(route, mdFiles, appRoutes) {
 
   // Some routes are app pages rather than markdown (for example /wallets).
   return { ok: false, how: `no file at ${target}` };
+}
+
+/**
+ * The wiki path an absolute zechub.wiki link names, without its locale prefix,
+ * or null for any other host. The wiki serves its 404 page with status 200, so
+ * these links must be resolved like routes instead of fetched.
+ */
+const WIKI_LOCALES = "en|it|fr|es|de|pt|ar|zh|hi|ru|ja|ko|tr|uk|sw|yo|ig|ak|ee";
+function wikiPath(url) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return null;
+  }
+  if (!/^(www\.)?zechub\.wiki$/i.test(parsed.hostname)) return null;
+  const path = decodeURIComponent(parsed.pathname).replace(new RegExp(`^/(${WIKI_LOCALES})(?=/|$)`), "");
+  return path || "/";
 }
 
 // ── external checking ────────────────────────────────────────────────────────
@@ -466,6 +485,19 @@ async function main() {
 
       // Files the wiki serves straight from its public/ folder are not pages.
       if (kind === "route" && isAppPublicFile(link.url, assetSet)) continue;
+
+      if (kind === "bare-email") {
+        findings.push({ kind: "invalid", url: link.url, file: link.file, line: link.line, detail: "email address without mailto:" });
+        continue;
+      }
+
+      if (kind === "wiki") {
+        const path = wikiPath(link.url);
+        if (/^\/(content-images|content-banners|_next|api)\//.test(path) || /\.[a-z0-9]{2,5}$/i.test(path)) continue;
+        const r = routeExists(path, routeFiles, appRoutes);
+        if (!r.ok) findings.push({ kind: "route", url: link.url, file: link.file, line: link.line, detail: r.how });
+        continue;
+      }
 
       if (kind === "route") {
         const r = routeExists(link.url, routeFiles, appRoutes);
