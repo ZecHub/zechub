@@ -26,6 +26,10 @@ const routeExists = new Function(
     "; return routeExists;",
 )(basename, dirname, () => false, join);
 
+const wikiPath = new Function(
+  src.slice(src.indexOf("const WIKI_LOCALES"), src.indexOf("// ── external checking")) +
+  "; return wikiPath;")();
+
 let failed = 0;
 const eq = (name, got, want) => {
   const g = JSON.stringify(got), w = JSON.stringify(want);
@@ -88,6 +92,15 @@ eq("nested folder index",
 eq("folder with only subfolders",
    routeExists("/zcash-tech/assets", ["site/Zcash_Tech/Assets/Sub/Page.md"], appRoutes),
    { ok: false, how: "no file at site/Zcash_Tech/Assets.md" });
+
+// Absolute zechub.wiki links are wiki paths, locale prefix dropped.
+eq("absolute wiki link", wikiPath("https://zechub.wiki/zcash-tech/zaino"), "/zcash-tech/zaino");
+eq("www and locale prefix", wikiPath("https://www.zechub.wiki/de/guides/x?y=1#z"), "/guides/x");
+eq("bare locale root", wikiPath("https://zechub.wiki/ja"), "/");
+eq("other host", wikiPath("https://zechub.substack.com/"), null);
+eq("dead absolute wiki link",
+   routeExists(wikiPath("https://zechub.wiki/zcash-technology"), [], appRoutes),
+   { ok: false, how: "no file at site/Zcash_Technology.md" });
 
 // must NOT match: these are ordinary links and re-probing them is meaningless
 eq("not an archive host", originalOf("https://example.org/web/20250611203406/https://x.test/"), null);
