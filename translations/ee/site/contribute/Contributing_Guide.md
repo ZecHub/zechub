@@ -135,7 +135,7 @@ Ne èkpɔ be kadodo aɖe gblẽ, alo woŋlɔ nu vevi aɖe vodadatɔe la, taflats
 
 Míewɔa lãwo ƒe agbenɔnɔ ŋuti nyadzɔdzɔgbalẽ kwasiɖa sia kwasiɖa. Esia nye super low lift / mɔ bɔbɔe si dzi nàto akpɔ gome le eme! Nyadzɔdzɔgbalẽa dona le Dzoɖa alo Memleɖa ɖesiaɖe. Ne èdi be yeaŋlɔ nyadzɔdzɔgbalẽ la, ɖo gbedasi ɖe @squirrel ɖe #zecweekly ƒe akpa si le Discord la me be nàna woanya.
 
-Ne èwɔ ema vɔ la, àte ŋu ayi.. [nyadzɔdzɔgbalẽ ƒe akpa si le nudzraɖoƒe sia](/newsletter/newsletterbasics.md) eye nàtsɔ hehe ƒe biabiawo aɖo ɖa be woawɔ nyadzɔdzɔgbalẽa ƒe tata yeye. Taflatse wɔ ɖe ɖoɖo si wozã le esia me dzi [template ƒe nɔnɔmetata](/newsletter/newslettertemplate.md).
+Ne èwɔ ema vɔ la, àte ŋu ayi.. [nyadzɔdzɔgbalẽ ƒe akpa si le nudzraɖoƒe sia](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) eye nàtsɔ hehe ƒe biabiawo aɖo ɖa be woawɔ nyadzɔdzɔgbalẽa ƒe tata yeye. Taflatse wɔ ɖe ɖoɖo si wozã le esia me dzi [template ƒe nɔnɔmetata](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Ne èwɔ esia vɔ la @squirrel alo (le Discord) akpɔe be wò nyadzɔdzɔgbalẽa ƒe tata yeyea li, eye woalé ŋku ɖe eŋu eye emegbe woatsɔe aƒo ƒu ɖe nudzraɖoƒea. Ne wotsɔe ƒo ƒu vɔ la, woaxɔ emenyawo eye woatsɔe aɖo ɖe amewo to Substack dzi.
 

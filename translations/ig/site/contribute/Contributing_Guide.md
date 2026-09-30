@@ -135,7 +135,7 @@ Mgbe ụfọdụ, ozi anyị dị na akwụkwọ ndị ahụ adịghị mma. Ọ
 
 Anyị na-emepụta akwụkwọ ozi kwa izu gbasara gburugburu ebe obibi. Nke a bụ ụzọ dị mfe iji tinye aka! Akwụkwọ ozi a na-apụta kwa Fraịdee ma ọ bụ Satọdee. Ọ bụrụ na ịchọrọ ide akwụkwọ ozi, ziga ozi na @squirrel na ngalaba #zecweekly nke Discord ka ha mara.
 
-Mgbe nke ahụ gasịrị, ị nwere ike ịga na [ngalaba akwụkwọ ozi nke ebe nchekwa a](/newsletter/newsletterbasics.md) ma tinye arịrịọ ịdọrọ iji mepụta mbipụta ọhụrụ nke akwụkwọ ozi ahụ. Biko soro usoro ejiri mee ihe na nke a [ndebiri](/newsletter/newslettertemplate.md).
+Mgbe nke ahụ gasịrị, ị nwere ike ịga na [ngalaba akwụkwọ ozi nke ebe nchekwa a](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) ma tinye arịrịọ ịdọrọ iji mepụta mbipụta ọhụrụ nke akwụkwọ ozi ahụ. Biko soro usoro ejiri mee ihe na nke a [ndebiri](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Mgbe i mechara nke a, @squirrel ma ọ bụ (na Discord) ga-ahụ na mbipụta ọhụrụ nke akwụkwọ ozi gị dị, ha ga-enyocha ma jikọta ya na ebe nchekwa. Mgbe ejikọtara ya, ha ga-ewere ọdịnaya ahụ wee bipụta ya site na Substack.
 

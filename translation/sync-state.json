@@ -1281,7 +1281,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -3015,7 +3015,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -4745,7 +4745,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -6471,7 +6471,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -8201,7 +8201,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -9935,7 +9935,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -11661,7 +11661,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -13391,7 +13391,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -15121,7 +15121,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -16851,7 +16851,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -18581,7 +18581,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -20315,7 +20315,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -22041,7 +22041,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -23771,7 +23771,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -25501,7 +25501,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -27231,7 +27231,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
@@ -28961,7 +28961,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
@@ -30691,7 +30691,7 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:dae3fbc1bc31d8db52ad2cfae90016d4ddc6869a192cd8fc6d01e04c057d3541",
+      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",

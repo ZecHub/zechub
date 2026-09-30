@@ -135,7 +135,7 @@ Bir bağlantının bozuk olduğunu veya önemli bir şeyin yanlış yazıldığ�
 
 Ekosistemin haftalık bültenini hazırlıyoruz. Bu, dahil olmanın çok kolay bir yoludur! Bülten her cuma veya cumartesi yayımlanır. Bir bülten yazmak istiyorsanız, haber vermek için Discord içindeki #zecweekly bölümünde @squirrel'a mesaj gönderin.
 
-Bunu yaptıktan sonra [bu deponun bülten bölümüne](/newsletter/newsletterbasics.md) giderek bültenin yeni bir sayısını oluşturmak için pull request gönderebilirsiniz. Lütfen bu [şablonda](/newsletter/newslettertemplate.md) kullanılan biçimi izleyin.
+Bunu yaptıktan sonra [bu deponun bülten bölümüne](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) giderek bültenin yeni bir sayısını oluşturmak için pull request gönderebilirsiniz. Lütfen bu [şablonda](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) kullanılan biçimi izleyin.
 
 Bunu yaptıktan sonra @squirrel veya (Discord içinde) bültenin yeni sayısının hazır olduğunu görecek, inceleyecek ve ardından depoya birleştirecektir. Birleştirildikten sonra içeriği alıp Substack üzerinden paylaşacaklardır.
 
