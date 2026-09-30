@@ -2,35 +2,36 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecWeekly jarida la habari
+# Jarida la ZecWeekly
 
-ZecWeekly ni jarida ambalo hutoka kila Jumapili asubuhi. Inajumuisha habari zote ambazo zilifanyika wakati wa wiki katika mazingira ya Zcash. Habari hiyo inatunzwa kwa wiki na wanachama wa jamii na viungo vyote muhimu vinaongezwa kwenye jarida hilo. Tafadhali jiandikishe kupata jarida hili la habari [hapa](https://zechub.substack.com/).
+ZecWeekly ni jarida linalotoka kila Jumapili asubuhi. Linajumuisha habari zote zilizotokea wakati wa wiki katika mfumo ikolojia Zcash. Habari hupangwa kila wiki na wanajamii na viungo vyote muhimu vinaongezwa kwenye jarida. Tafadhali jiandikishe kwa jarida [hapa](https://zechub.substack.com/).
 
-## Kuchangia
+## Changia
 
-Newsletter contributions work best when one contributor prepares the edition for the correct week, follows the current bounty or coordination thread, and submits the pull request after the weekly links are ready. Please do not submit a future edition before ZecHub has posted or confirmed the date for that edition. Early pull requests often miss late-week updates, conflict with an assigned curator, or use the wrong deadline.
+Michango ya jarida hufanya kazi vizuri zaidi wakati mchangiaji mmoja anapoandaa toleo kwa wiki sahihi, anafuata uzi wa sasa wa zawadi au uratibu, na anapowasilisha ombi la kuvuta baada ya viungo vya kila wiki kuwa tayari. Tafadhali usiwasilishe toleo lijalo kabla ya ZecHub kuchapisha au kuthibitisha tarehe ya toleo hilo. Maombi ya kuvuta mapema mara nyingi hukosa masasisho ya mwishoni mwa wiki, yanakinzana na mratibu aliyepewa, au hutumia tarehe ya mwisho isiyo sahihi.
 
 ### 1. Thibitisha toleo la sasa
 
 Kabla ya kuanza kuandika:
 
-- Angalia [ZEC Bounties (Zaka za Mkoa wa Kijijini) ](https://bounties.zechub.wiki/) kwa ajili ya kazi sasa jarida.
-- Subiri ili kupewa mgawo
+- Hundi [ZEC Bounties](https://bounties.zechub.wiki/) kwa kazi ya sasa ya jarida.
+- Subiri kupangiwa kazi.
+- Matoleo ya jarida yapo katika bendi ya XS ya [sera ya kiasi cha fadhila](https://bounties.zechub.wiki/docs/bounty-amounts)Takwimu ya ZEC kwenye fadhila ya moja kwa moja ni kiasi, si kichwa chochote cha zamani katika miongozo inayochangia.
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
-### 2. Fork hifadhi ya kumbukumbu
+### 2. Funga hazina
 
-Kama wewe ni mpya kwa GitHub, kutumia mtiririko huu wa kazi:
+Ikiwa wewe ni mgeni kwenye GitHub, tumia mtiririko huu wa kazi:
 
-1. Fungua [ZecHub kuhifadhi](https://github.com/ZecHub/zechub).
-2. Bonyeza **Fork** na kuunda uma chini ya akaunti yako GitHub.
-3. Katika uma, kuunda tawi mpya kwa ajili ya toleo. jina wazi la tawi ni muhimu kama vile `digest-may-30-2026`.
-4. Hakikisha kuvuta ombi lako itakuwa lengo `ZecHub/zechub` kama kumbukumbu ya msingi na `main` kama tawi msingi.
+1. Fungua [Hifadhi ya ZecHub](https://github.com/ZecHub/zechub).
+2. Bonyeza **Uma** na unda uma chini ya akaunti yako GitHub.
+3. Katika sehemu yako, unda tawi jipya kwa ajili ya toleo. Jina la tawi lililo wazi ni muhimu, kama vile `digest-may-30-2026`.
+4. Hakikisha ombi lako la kuvuta litalenga `ZecHub/zechub` kama hazina ya msingi na `main` kama tawi la msingi.
 
-Kama wewe kutumia mstari wa amri, huo kazi ya kufurika inaonekana kama hii:
+Ukitumia mstari wa amri, mtiririko huo wa kazi unaonekana kama hii:
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/zechub.git
@@ -38,42 +39,42 @@ cd zechub
 git checkout -b digest-month-day-year
 ```
 
-Badilisha `YOUR-USERNAME` na yako mwenyewe GitHub jina la mtumiaji. URL juu ni placeholder na si kuamua kama ilivyoandikwa.
+Badilisha `YOUR-USERNAME` ukitumia jina lako la mtumiaji GitHub. URL iliyo hapo juu ni kishikilia nafasi na haitatatuliwa kama ilivyoandikwa.
 
-### 3. Kujenga faili jarida
+### 3. Unda faili ya jarida
 
-Tumia [kiolezo cha jarida la habari](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) kama hatua yako ya kuanzia. matoleo jarida ni sehemu katika jamii, na kwa sababu hiyo wao kuamua nini cha kufanya ili kupata habari bora zaidi juu yao. [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) folda.
+Tumia [kiolezo cha jarida](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) kama sehemu yako ya kuanzia. Matoleo ya jarida yanafaa katika [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) folda.
 
 Wakati wa kuunda faili:
 
-- Mechi ya umbizo faili jina aliomba na suala au kutumika kwa matoleo hivi karibuni kukubalika.
-- Weka utaratibu sehemu sawa na template isipokuwa kazi anauliza kwa ajili ya muundo tofauti.
-- Ongeza viungo kutoka wiki husika tu.
-- Andika maelezo mafupi, ya wazi kwa kila kiungo ili wasomaji waelewe ni kwanini ina umuhimu.
-- Tafsiri au muhtasari vyanzo vya Kiingereza katika lugha ya kiingereza wakati inahitajika.
-- Angalia kila kiungo kabla ya kufungua ombi kuvuta.
+- Linganisha umbizo la jina la faili lililoombwa na toleo au lililotumiwa na matoleo yaliyokubaliwa hivi karibuni.
+- Weka mpangilio sawa wa sehemu na kiolezo isipokuwa kazi iombe umbizo tofauti.
+- Ongeza viungo kutoka wiki husika pekee.
+- Andika maelezo mafupi na wazi kwa kila kiungo ili wasomaji waelewe kwa nini ni muhimu.
+- Tafsiri au fupisha vyanzo visivyo vya Kiingereza kwa Kiingereza inapohitajika.
+- Angalia kila kiungo kabla ya kufungua ombi la kuvuta.
 
-### 4. Kukusanya viungo kwa wakati unaofaa
+### 4. Kusanya viungo kwa wakati unaofaa
 
-ZecWeekly kawaida inashughulikia shughuli za mazingira ya Zcash kwa wiki inayotumika na inachapishwa karibu mwisho wa juma. Wakati salama ni:
+ZecWeekly kwa kawaida hushughulikia shughuli za mfumo ikolojia Zcash kwa wiki hii na huchapishwa karibu na mwisho wa wiki. Muda salama zaidi ni:
 
-- Kuanza kukusanya viungo baada ya sasa toleo jarida au kazi ni posted.
-- Weka mkusanyiko wa maji wakati juma likiwa bado lenye shughuli nyingi.
-- Tuma ombi la kuondoa karibu na tarehe ya kuwasilisha iliyoombwa, baada ya kuangalia ikiwa kuna sasisho za mwisho wa wiki.
-- Je, si kuwasilisha jarida la wiki ijayo kabla ya kazi kwa tarehe hiyo ipo au kabla ZecHub inathibitisha kwamba unapaswa kuandaa ni.
+- Anza kukusanya viungo baada ya toleo au kazi ya sasa ya jarida kuchapishwa.
+- Weka rasimu wakati wiki bado inaendelea.
+- Tuma ombi la kuvuta karibu na tarehe ya uwasilishaji iliyoombwa, baada ya kuangalia masasisho ya mwishoni mwa wiki.
+- Usitume jarida la wiki ijayo kabla ya kazi ya tarehe hiyo kuwepo au kabla ya ZecHub kuthibitisha kwamba unapaswa kuiandaa.
 
-Ikiwa toleo linasema kuwasilisha kwa tarehe maalum, fuata hiyo. Kama kuna mgogoro kati ya ukurasa huu na suala la sasa, kufuata suala la hivi karibuni.
+Ikiwa suala linasema liwasilishwe kabla ya tarehe maalum, fuata tarehe hiyo. Ikiwa kuna mgongano kati ya ukurasa huu na suala la sasa, fuata toleo la sasa.
 
-### 5. Fungua ombi kuvuta
+### 5. Fungua ombi la kuvuta
 
-Wakati faili yako jarida ni tayari:
+Faili yako ya jarida itakapokuwa tayari:
 
-1. Kufanya mabadiliko yako kwa uma wako.
-2. Fungua ombi la kuvuta katika `ZecHub/zechub` juu ya `main` tawi.
-3. Tumia kichwa kinachofanana na chapa hiyo, kama vile: `Zcash Ecosystem Digest | May 30th`.
-4. Kuunganisha suala katika mwili kuvuta ombi hivyo wakaguzi wanaweza kuungana kazi ya kazi.
+1. Weka mabadiliko yako kwenye uma wako.
+2. Fungua ombi la kuvuta ndani `ZecHub/zechub` kwenye `main` tawi.
+3. Tumia kichwa kinacholingana na toleo, kama vile `Zcash Ecosystem Digest | May 30th`.
+4. Unganisha tatizo katika sehemu ya ombi la kuvuta ili wakaguzi waweze kuunganisha kazi na kazi hiyo.
 
-Mfano wa kuvuta ombi mwili:
+Mfano wa mwili wa ombi la kuvuta:
 
 ```md
 Closes #ISSUE_NUMBER
@@ -84,44 +85,44 @@ Summary:
 - Checks links and descriptions for the requested week.
 ```
 
-Baada ya ombi kuvuta ni wazi, kuangalia kwa ajili ya maoni mapitio. Kama ZecHub anauliza mabadiliko, update tawi sawa badala ya kufungua pili kuondoa ombi la toleo moja.
+Baada ya ombi la kuvuta kufunguliwa, angalia maoni ya ukaguzi. Ikiwa ZecHub itaomba marekebisho, sasisha tawi lile lile badala ya kufungua ombi la pili la kuvuta kwa toleo lile lile.
 
-### Mifano halisi ya mambo yaliyotukia
+### Mifano halisi
 
-Tumia maombi haya ya kuunganishwa kwa jarida kama mifano ya uwasilishaji uliokubaliwa:
+Tumia maombi haya ya jarida lililounganishwa kama mifano ya mawasilisho yaliyokubaliwa:
 
-- [Zcash Ecosystem Digest Aprili 11th.](https://github.com/ZecHub/zechub/pull/1551)
-- [Zcash Ecosystem Digest Machi 28th.](https://github.com/ZecHub/zechub/pull/1544)
-- [Zcash Ecosystem Digest Februari 14th.](https://github.com/ZecHub/zechub/pull/1474)
+- [Mchoro wa Mfumo Ekolojia Zcash | Aprili 11](https://github.com/ZecHub/zechub/pull/1551)
+- [Mchoro wa Mfumo Ekolojia Zcash | Machi 28](https://github.com/ZecHub/zechub/pull/1544)
+- [Mchoro wa Mfumo Ekolojia Zcash | Februari 14](https://github.com/ZecHub/zechub/pull/1474)
 
 
 ![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
-Wakati kulinganisha kazi yako na mfano, kuzingatia faili eneo la, kichwa format, sehemu ya utaratibu, viungo maelezo, na kama kuvuta ombi unajumuisha nyuma kwa sahihi kazi.
+Unapolinganisha kazi yako na mfano, zingatia eneo la faili, umbizo la kichwa, mpangilio wa sehemu, maelezo ya viungo, na kama ombi la kuvuta linaunganishwa tena na kazi sahihi.
 
-### Makosa ya kawaida kuepuka
+### Makosa ya kawaida ya kuepuka
 
-- Kufungua ombi kuvuta kabla ya toleo tarehe au kazi ni kuthibitishwa.
-- Kufanya kazi juu ya suala ambalo tayari ina uhusiano kuvuta ombi.
-- Kuwasilisha ombi kuvuta kwa uma yako mwenyewe badala ya `ZecHub/zechub`.
-- Kutumia jina la faili vibaya au kuweka faili nje ya `newsletter` folda.
-- Kunakili toleo la zamani bila kurekebisha tarehe, viungo na maelezo.
-- Kuongeza viungo kutoka wiki mbaya.
-- Kuacha viungo kuvunjwa, duplicate viungo, au mahali-holder maandishi kutoka template.
-- Kufungua ombi jipya la kuvuta baada ya kupitia maoni badala ya kusasisha tawi asili.
+- Kufungua ombi la kuvuta kabla ya tarehe au kazi ya toleo kuthibitishwa.
+- Kufanyia kazi suala ambalo tayari lina ombi la kuvuta lililounganishwa.
+- Kuwasilisha ombi la kuvuta kwenye uma wako mwenyewe badala ya `ZecHub/zechub`.
+- Kutumia jina lisilo sahihi la faili au kuweka faili nje ya `newsletter` folda.
+- Kunakili toleo la zamani bila kusasisha kila tarehe, kiungo, na maelezo.
+- Kuongeza viungo kutoka wiki isiyofaa.
+- Kuacha viungo vilivyovunjika, viungo vinavyorudiwa, au maandishi ya kishikilia nafasi kutoka kwa kiolezo.
+- Kufungua ombi jipya la kuvuta baada ya maoni ya ukaguzi badala ya kusasisha tawi la asili.
 
-### Orodha ya mwisho ya kuangalia
+### Orodha ya mwisho ya ukaguzi
 
-Kabla ya kuomba marekebisho, kuthibitisha kwamba:
+Kabla ya kuomba ukaguzi, thibitisha kwamba:
 
-- Toleo au kazi tarehe mechi yako jarida faili.
-- Hakuna ombi lingine la kuvuta tayari linashughulikia suala au toleo moja.
-- faili ni katika `newsletter` folda.
-- Sehemu template ni kamili.
-- Kila kiungo kazi na ina maelezo muhimu.
-- Kuvuta mwili ombi viungo suala sahihi.
-- Wewe ni inapatikana kwa kufanya mabadiliko kama wakaguzi ombi mabadiliko.
+- Tarehe ya toleo au kazi inalingana na faili yako ya jarida.
+- Hakuna ombi lingine la kufungua ambalo tayari linashughulikia toleo au toleo lile lile.
+- Faili iko katika `newsletter` folda.
+- Sehemu za kiolezo zimekamilika.
+- Kila kiungo hufanya kazi na kina maelezo muhimu.
+- Mwili wa ombi la kuvuta unaunganisha suala sahihi.
+- Uko tayari kufanya marekebisho ikiwa wakaguzi wataomba mabadiliko.
 
-## Matoleo ya zamani
+## Matoleo ya awali
 
-[ZecWeekly Archive - Maandishi ya Ziki za Kila Juma](https://zechub.substack.com/p/archive)
+[Kumbukumbu ZecWeekly](https://zechub.substack.com/p/archive)

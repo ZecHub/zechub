@@ -27,7 +27,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Boaboa Zebra ano
 
-[Zebra Github na ɔkyerɛwee](https://github.com/ZcashFoundation/zebra)
+[Zebra Github](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 
@@ -43,7 +43,7 @@ fa ka ho:
 
 * `zebrad start`
 
-## Boaboa lightwalletd ano
+## Boaboa lightwalletd
 
 * install kɔ
 
@@ -60,7 +60,7 @@ git clone https://github.com/zcash/lightwalletd
 cd lightwalletd
 make
 make install
-export PATH=$PATH:~/go/bin/`
+export PATH=$PATH:~/go/bin
 ```
 
 ## Sync lightwalletd
@@ -70,7 +70,7 @@ export PATH=$PATH:~/go/bin/`
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
 
-## Fa NodeJS hyɛ mu
+## Fa NodeJS no hyɛ mu
 
 ```bash
  curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
@@ -78,7 +78,7 @@ export PATH=$PATH:~/go/bin/`
  sudo apt update
  sudo apt install nodejs
 ```
-Sɛ wuhyia mfomso biara a, [ha](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) yɛ akwan foforo bi a wobɛfa so ahyɛ NodeJS.
+Sɛ wuhyia mfomso bi a, [ha](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) yɛ akwan foforo bi a wobɛfa so ahyɛ NodeJS.
 
 ## Fa Yarn hyɛ mu
 
@@ -96,9 +96,9 @@ sudo apt-get install ruby-dev build-essential && sudo gem i fpm -f
 yarn dist:linux
 ```
 
-## Fi ase Zingo-PC no
+## Fi ase Zingo-PC
 
-* Wobetumi de appimage, anaa binary adi dwuma wɔ unpacked folder mu
+* Wobetumi de appimage, anaa binary adi dwuma wɔ unpacked folda mu
 * Di dɛ! :)
 
 # Nneɛma a wonya fi mu

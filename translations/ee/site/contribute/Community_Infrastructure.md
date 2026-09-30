@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub Community Infrastructure Framework (Azɔdzikpɔkpɔ ƒe dɔwɔƒe si le nutoa me)
+# ZecHub Nutome Dɔwɔƒewo ƒe Dɔwɔɖoɖo
 
 
-### Dukɔ Ƒoƒuawo ƒe Mɔ̃ɖaŋunuwo 
+### Nutoa me Dɔwɔƒewo ƒe Dɔwɔɖoɖowo 
 
-ZecHub bounty program la le nu wɔm na dɔwɔlawo be woana ablɔɖe geɖe wu eye wòade ŋgɔ ɖoɖowo wɔwɔ ɖe dɔ siwo ame ɖekaɖekawo wɔna ŋu: [ZEC ƒe Nunanawo](https://bounties.zechub.wiki/). 
+ZecHub bounty program ye nye mɔ si woxea fe na na dɔ sia: [ZEC Bounties](https://bounties.zechub.wiki/). Ale si nàtia ZEC xexlẽdzesi: [bounty amounts ƒe ɖoɖo](https://bounties.zechub.wiki/docs/bounty-amounts). Nudzɔla ƒe dɔwɔwɔ ƒe ɖoɖo: [Nudzɔdzɔ na ZecHub](https://zechub.wiki/contribute/contributing-guide). 
 
 
-## Mɔfiagbalẽ Siwo Ŋu Viɖe Le 
+## Mɔfiame Siwo Ŋu Viɖe Le 
 
-- [ZecHub Ŋgɔdonyala ƒe Mɔfiagbalẽvi](https://zechub.wiki/developers)
+- [ZecHub Dɔwɔlawo ƒe Mɔfiame](https://zechub.wiki/developers)
 
-- [Zcash Xlẽ agbalẽawo xlx.](https://zcash.readthedocs.io/en/latest/)
+- [Zcash Xlẽ agbalẽwo](https://zcash.readthedocs.io/en/latest/)
 
-- [Zebra-gbalẽa](https://zebra.zfnd.org)
+- [Zebra ƒe Agbalẽa](https://zebra.zfnd.org)
 
-- [Akash Network Docs (Akasha Ƒoƒonu Ƒe Agbalẽwo)](https://akash.network/docs/)
+- [Akash Network ƒe Nuŋlɔɖiwo](https://akash.network/docs/)
 
 - [Zebrad ɖoɖo ɖe Akash Network dzi](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Woɖe Zcash Fetu Biabiawo me (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Woɖe Zcash Fexexe ƒe Biabiawo Me (video)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [ZIP-321 Ŋutetewo](https://zips.z.cash/zip-0321)
+- [ZIP-321 nɔnɔmetatawo](https://zips.z.cash/zip-0321)
 
-Ne èdi aɖaŋuɖoɖo tso Zcash-dɔwɔlawo gbɔ la, àte ŋu aŋlɔe ɖe internet dzi. [Ƒuƒoƒowo ƒe Takpewɔƒe](https://forum.zcashcommunity.com).
+Ne èhiã aɖaŋuɖoɖo deto tso Zcash dɔwɔlawo gbɔ la, àte ŋu awɔ nya aɖe tso.. [Nutoa me Nyamedzroƒe](https://forum.zcashcommunity.com).
 
