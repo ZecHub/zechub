@@ -10,7 +10,7 @@ Zcash ist ein einzigartiges Blockchain-Protokoll, weil es selbstfinanziert ist. 
 
 In Blockchains gibt es etwas, das als [Block](https://www.investopedia.com/terms/b/block-bitcoin-block.asp) bezeichnet wird und erzeugt wird, um Transaktionen aufzuzeichnen, die im Netzwerk noch nicht bestätigt sind. Sobald Transaktionen validiert sind, wird der Block geschlossen.
 
-Blockproduzenten (auch Miner genannt) sind dafür zuständig, Transaktionen in einem Netzwerk zu validieren und neue Blöcke zu erzeugen. Für die Erzeugung dieser Blöcke erhalten Blockproduzenten eine Blockbelohnung. In Zcash wird ungefähr alle 75 Sekunden ein neuer Block erzeugt, und eine Blockbelohnung von 3.125 ZEC kommt in Umlauf. Blockbelohnungen in Zcash werden neue Coins erzeugen, bis Zcash seine maximale Versorgung von 21 Millionen erreicht. Nach Erreichen der maximalen Versorgung werden Blockbelohnungen durch Transaktionsgebühren bezahlt.
+Blockproduzenten (auch Miner genannt) sind dafür zuständig, Transaktionen in einem Netzwerk zu validieren und neue Blöcke zu erzeugen. Für die Erzeugung dieser Blöcke erhalten Blockproduzenten eine Blockbelohnung. In Zcash wird ungefähr alle 75 Sekunden ein neuer Block erzeugt, und eine Blockbelohnung von 1.5625 ZEC kommt in Umlauf. Blockbelohnungen in Zcash werden neue Coins erzeugen, bis Zcash seine maximale Versorgung von 21 Millionen erreicht. Nach Erreichen der maximalen Versorgung werden Blockbelohnungen durch Transaktionsgebühren bezahlt.
 
 ## Der Finanzierungsmechanismus von Zcash (vor NU6)
 

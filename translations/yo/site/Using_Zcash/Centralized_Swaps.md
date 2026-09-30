@@ -18,9 +18,9 @@ Fi kún, ṣàtúnṣe, tàbí yọ ìdènà kan kúrò níbí; wiki náà gbé 
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Oju opo wẹẹbu: https://app.near-intents.org/
 - Àpèjúwe: Pààrọ̀ kíákíá pẹ̀lú ìrànlọ́wọ́ NEAR. Ṣe ìfowópamọ́, tà, pààrọ̀ pẹ̀lú TRUMP, MELANIA, BERA àti àwọn àwòrán míràn tó gbajúmọ̀

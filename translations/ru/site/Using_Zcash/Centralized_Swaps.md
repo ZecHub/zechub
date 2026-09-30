@@ -18,9 +18,9 @@ ZecHub не рекомендует какие-либо конкретные се
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Веб-сайт: https://app.near-intents.org/
 - Описание: Быстрый обмен при поддержке NEAR. Вносите депозиты, продавайте и обменивайте, включая популярные мемы TRUMP, MELANIA, BERA и другие.
