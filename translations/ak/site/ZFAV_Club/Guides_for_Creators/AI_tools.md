@@ -48,7 +48,7 @@ fa X, Google, Discord, Telegram kɔ mu
 - [Midjourney Bot](https://discord.com/invite/midjourney) wɔ Discord mu - efi $10/ɔsram - [Fi ase Akwankyerɛ](https://docs.midjourney.com/docs/quick-start)
 betumi anya awo ntoatoaso a wɔde wɔn ho bɛyɛ 100 denam afoforo pii a wɔde bɛma wɔn no so [mfonini ahorow a ɛwɔ ha](https://www.midjourney.com/app/rank-pairs/)
 (ɛsɛ sɛ wokɔ top2000 raters - bɛyɛ simma 15 rating mfonini ahorow)
-- [DALL-E 2. Ɔde ne nsa kyerɛɛ ne so](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 awo ntoatoaso - (awo ntoatoaso 15/ɔsram a wontua hwee)
+- [DALL-E 2. Ɔde ne nsa kyerɛɛ ne so](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 awo ntoatoaso - (awo ntoatoaso 15/ɔsram a wontua hwee)
 - [DALL-E 3. Ɔde ne nsa kyerɛɛ ne so](https://openai.com/dall-e-3/) - a wode ka ChatGPT-4 ho - $20/bosome
 - [Nightcafe Ɔbɔadeɛ](https://creator.nightcafe.studio/) (Awo ntoatoaso 4 kwa, wotua ho ka fi ase $6/ɔsram)
 
@@ -62,7 +62,7 @@ betumi anya awo ntoatoaso a wɔde wɔn ho bɛyɛ 100 denam afoforo pii a wɔde b
 
 ### Video/adio nkyerɛase nnwinnade:
 
-- [HeyGen Labs na ɔkyerɛwee](https://labs.heygen.com/guest/video-translate) video nkyerɛase dubbing ne anofafa syncing adwinnade
+- [HeyGen Labs na ɔkyerɛwee](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) video nkyerɛase dubbing ne anofafa syncing adwinnade
 - [Ezdubs Bot wɔ X so](https://twitter.com/ezdubs_bot) video nkyerɛase dubbing ne anofafa syncing adwinnade
 
 ## Nneɛma a wɔde tie asɛm
@@ -82,7 +82,7 @@ betumi anya awo ntoatoaso a wɔde wɔn ho bɛyɛ 100 denam afoforo pii a wɔde b
 
 ### Ɛnne a wɔde ma
 
-- [play.ht](https://play.ht/) - a wontua hwee - (nkrabea firi $39/bosome)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - a wontua hwee - (nkrabea firi $39/bosome)
 - [ElevenLabs](https://elevenlabs.io/) - a wontua hwee - (nkrabea firi $5/bosome)
 - [Murf na ɔkyerɛwee](https://murf.ai/) - a wontua hwee - (nkrabea firi $29/bosome)
 - [Resemble](https://www.resemble.ai/) - bɔ mmɔden kwa (wɔ $0.006 akyi wɔ sekan biara mu)

@@ -69,7 +69,7 @@ Se estiver a usar o Terminal, execute o comando: If using Terminal, Run command:
 
 **hash** = CID da pasta que adicionou no passo anterior.
 
-Em alternativa, também pode fixar diretórios usando serviços como [Pinata](https://pinata.cloud/) ou [Dolpin](https://dolpin.io/)
+Em alternativa, também pode fixar diretórios usando serviços como [Pinata](https://pinata.cloud/) ou [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Poupa muito tempo!
 

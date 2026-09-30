@@ -69,7 +69,7 @@ IPFS 中的文件使用*内容寻址*来标识，这意味着每个文件都会�
 
 **hash** = 你在上一步添加的文件夹的 CID。
 
-或者，你也可以使用 [Pinata](https://pinata.cloud/) 或 [Dolpin](https://dolpin.io/) 等服务来固定目录
+或者，你也可以使用 [Pinata](https://pinata.cloud/) 或 [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/) 等服务来固定目录
 
 这会节省大量时间！
 

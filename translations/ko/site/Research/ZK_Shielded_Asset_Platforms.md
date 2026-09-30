@@ -11,7 +11,7 @@ published: 2024-01-12
 
 
 
-**[Firn 프로토콜](https://app.firn.cash/)**: Firn은 계정 기반 모델에서 최초의 영지식 프라이버시 플랫폼이며, Ethereum 기반 체인에 플러그형의 유연한 프라이버시를 도입합니다. 영지식 증명을 사용하여 Firn은 Ethereum 및 Ethereum 기반 L2 사용자에게 안전하고 효율적인 자금 프라이버시를 제공합니다. **어떻게 작동하나요?**
+**[Firn 프로토콜](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn은 계정 기반 모델에서 최초의 영지식 프라이버시 플랫폼이며, Ethereum 기반 체인에 플러그형의 유연한 프라이버시를 도입합니다. 영지식 증명을 사용하여 Firn은 Ethereum 및 Ethereum 기반 L2 사용자에게 안전하고 효율적인 자금 프라이버시를 제공합니다. **어떻게 작동하나요?**
 Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 생기면 다른 Firn 사용자에게 자금을 비공개로 전송하거나 Uniswap 같은 다른 프로토콜과 상호작용할 수 있습니다. 또한 자금을 다시 네트워크로 비공개 출금할 수도 있습니다. Firn은 모든 ETH 출금에 대해 0.79%의 소액 수수료를 부과합니다. 이 수수료는 Firn Token 보유자에게 비례하여 분배됩니다 - [백서](https://firn.cash/whitepaper.pdf)
 
 
@@ -24,7 +24,7 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 
 **[Manta Network](https://www.manta.network/):** Web 3, DeFi 등을 위한 온체인 프라이버시. 가장 빠른 ZK L1 체인인 Manta Atlantic은 규정을 준수하는 온체인 프라이버시와 신원을 통해 web3에 프로그래머블 프라이버시를 제공합니다. $MANTA는 1,000,000,000개의 고정 공급량을 가지며 인플레이션 일정이 없습니다. $MANTA 토큰은 상환되는 즉시 자동으로 소각됩니다 - [백서](https://docs.manta.network/) 
 
-**[Boltz](https://boltz.exchange/):** Boltz는 레이어 2 솔루션입니다. Boltz는 Liquid 및 Lightning Network와 같은 Bitcoin의 서로 다른 레이어를 연결하도록 설계된 프라이버시 우선, 비수탁형 bitcoin 거래소입니다. Boltz를 사용하면 사용자는 자신의 bitcoin을 레이어 간에 원활하게 스왑할 수 있습니다. Boltz 스왑은 비수탁형이므로 사용자는 스왑의 전체 과정 동안 언제나 자신의 bitcoin을 완전히 통제하고 있다는 점을 안심할 수 있습니다 [백서](https://docs.boltz.exchange/en/latest/) 
+**[Boltz](https://web.archive.org/web/20260820131421/https://boltz.exchange/):** Boltz는 레이어 2 솔루션입니다. Boltz는 Liquid 및 Lightning Network와 같은 Bitcoin의 서로 다른 레이어를 연결하도록 설계된 프라이버시 우선, 비수탁형 bitcoin 거래소입니다. Boltz를 사용하면 사용자는 자신의 bitcoin을 레이어 간에 원활하게 스왑할 수 있습니다. Boltz 스왑은 비수탁형이므로 사용자는 스왑의 전체 과정 동안 언제나 자신의 bitcoin을 완전히 통제하고 있다는 점을 안심할 수 있습니다 [백서](https://docs.boltz.exchange/en/latest/) 
 
 
 **[ShadeProtocol](https://shadeprotocol.io/)**: Shade Protocol은 Secret Network 위에 구축된, 서로 연결된 프라이버시 보존형 DeFi 애플리케이션들의 레이어 2 집합입니다. 이러한 핵심 애플리케이션에는 스테이블코인, 거버넌스, 채권, 스테이킹 파생상품, 보험, 합성자산, 대출, DEX 등이 포함됩니다 - [백서]
@@ -46,7 +46,7 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 ***
 
 
-**[FairySwap](https://fairyswap.finance/)**: FairySwap은 무허가성과 탈중앙화를 지향하는 차세대 커뮤니티 주도형 프라이버시 DEX인 레이어 1입니다. Findora에 내장된 영지식 증명 기술을 활용하여, FairySwap과 같은 프라이버시 DEX 및 Dapp은 사용자가 공개 블록체인에서 어떤 정보를 보이게 할지, 어떤 정보를 차폐할지를 선택할 수 있게 합니다. 보이지 않게 하려는 정보도 세부 사항을 드러내지 않고 영지식 증명을 통해 공개적으로 검증될 수 있습니다 - **자산 스왑**: 예 - [백서](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+**[FairySwap](https://web.archive.org/web/20240810094007/https://fairyswap.finance/)**: FairySwap은 무허가성과 탈중앙화를 지향하는 차세대 커뮤니티 주도형 프라이버시 DEX인 레이어 1입니다. Findora에 내장된 영지식 증명 기술을 활용하여, FairySwap과 같은 프라이버시 DEX 및 Dapp은 사용자가 공개 블록체인에서 어떤 정보를 보이게 할지, 어떤 정보를 차폐할지를 선택할 수 있게 합니다. 보이지 않게 하려는 정보도 세부 사항을 드러내지 않고 영지식 증명을 통해 공개적으로 검증될 수 있습니다 - **자산 스왑**: 예 - [백서](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKsync](https://zksync.io/)**: ZKsync는 Ethereum 위의 레이어 2 확장 솔루션으로, 보안을 훼손하지 않으면서 낮은 가스 비용과 빠른 거래를 제공합니다. 사용자는 언제든지 자산을 레이어 1로 출금할 수 있습니다. 전체 ZKsync 생태계에 접근하고 저렴하고 즉시 처리되는 거래의 이점을 누리려면 먼저 [Argent 같은 지갑](https://argent.link/zksync)이 필요합니다. 지갑이 없으면 Coinbase나 Binance 같은 거래소를 통해 ZKsync에 접근할 수 없기 때문에 네트워크에 온보딩할 수 없습니다. 지갑은 암호화폐를 구매, 판매, 보관하고 DeFi, NFT 등 흥미로운 세계를 쉽게 경험할 수 있게 해줍니다 - **자산 스왑**: 예 - [백서](https://docs.zksync.io/) - ![ZKsync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)

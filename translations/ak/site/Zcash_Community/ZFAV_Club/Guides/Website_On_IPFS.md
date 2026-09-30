@@ -73,7 +73,7 @@ Sɛ wode Terminal redi dwuma a, Run ahyɛde: Sɛ wode Terminal redi dwuma a, Run
 "hash" = CID a ɛwɔ folda a wode kaa ho wɔ anammɔn a atwam no mu.
 
 
-Sɛnea ɛbɛyɛ a, wo nso wotumi de nnwuma te sɛ [Pinata](https://pinata.cloud) anaasɛ [Dolpin](https://dolpin.io)
+Sɛnea ɛbɛyɛ a, wo nso wotumi de nnwuma te sɛ [Pinata](https://pinata.cloud) anaasɛ [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Ɛmma bere pii nsɛe! 
 

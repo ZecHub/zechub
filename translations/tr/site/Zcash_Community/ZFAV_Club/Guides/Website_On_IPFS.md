@@ -73,7 +73,7 @@ Terminal kullanıyorsanız, şu komutu çalıştırın: If using Terminal, Run c
 "hash" = önceki adımda eklediğiniz klasörün CID'si.
 
 
-Alternatif olarak, [Pinata](https://pinata.cloud) veya [Dolpin](https://dolpin.io) gibi hizmetleri kullanarak dizinleri de pinleyebilirsiniz.
+Alternatif olarak, [Pinata](https://pinata.cloud) veya [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/) gibi hizmetleri kullanarak dizinleri de pinleyebilirsiniz.
 
 Bu, çok zaman kazandırır!
 

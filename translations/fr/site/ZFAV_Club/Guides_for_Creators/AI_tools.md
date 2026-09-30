@@ -48,7 +48,7 @@ connexion avec X, Google, Discord, Telegram
 - [Bot Midjourney](https://discord.com/invite/midjourney) sur Discord - à partir de 10 $/mois - [Guide de démarrage](https://docs.midjourney.com/docs/quick-start)
 il est possible d’obtenir environ 100 générations gratuites en évaluant beaucoup d’autres [images ici](https://www.midjourney.com/app/rank-pairs/)
 (il faut atteindre le top 2000 des évaluateurs - environ 15 minutes à noter des images)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- 15 $/115 générations - (15 générations gratuites/mois)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- 15 $/115 générations - (15 générations gratuites/mois)
 - [DALL-E 3](https://openai.com/dall-e-3/) - inclus dans ChatGPT-4 - 20 $/mois
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 générations gratuites, forfait payant à partir de 6 $/mois)
 
@@ -62,7 +62,7 @@ il est possible d’obtenir environ 100 générations gratuites en évaluant bea
 
 ### Outils de traduction vidéo/audio :
 
-- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) outil de traduction vidéo avec doublage et synchronisation labiale
+- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) outil de traduction vidéo avec doublage et synchronisation labiale
 - [Bot Ezdubs sur X](https://twitter.com/ezdubs_bot) outil de traduction vidéo avec doublage et synchronisation labiale
 
 ## Audio
@@ -82,7 +82,7 @@ il est possible d’obtenir environ 100 générations gratuites en évaluant bea
 
 ### Génération de voix
 
-- [play.ht](https://play.ht/) - gratuit - (abonnement à partir de 39 $/mois)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - gratuit - (abonnement à partir de 39 $/mois)
 - [ElevenLabs](https://elevenlabs.io/) - gratuit - (abonnement à partir de 5 $/mois)
 - [Murf](https://murf.ai/) - gratuit - (abonnement à partir de 29 $/mois)
 - [Resemble](https://www.resemble.ai/) - essai gratuit (puis 0.006 $ par seconde)

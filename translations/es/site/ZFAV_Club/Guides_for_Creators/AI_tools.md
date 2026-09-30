@@ -48,7 +48,7 @@ inicia sesión con X, Google, Discord, Telegram
 - [Bot de Midjourney](https://discord.com/invite/midjourney) en Discord - desde $10/mes - [Guía para empezar](https://docs.midjourney.com/docs/quick-start)
 puedes conseguir unas 100 generaciones gratis calificando muchas [imágenes aquí](https://www.midjourney.com/app/rank-pairs/)
 (tienes que llegar al top 2000 de evaluadores - unos 15 minutos calificando imágenes)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 generaciones - (15 generaciones gratis/mes)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 generaciones - (15 generaciones gratis/mes)
 - [DALL-E 3](https://openai.com/dall-e-3/) - incluido en ChatGPT-4 - $20/mes
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 generaciones gratis, el plan de pago empieza en $6/mes)
 
@@ -62,7 +62,7 @@ puedes conseguir unas 100 generaciones gratis calificando muchas [imágenes aqu�
 
 ### Herramientas de traducción de video/audio:
 
-- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) herramienta de traducción de video, doblaje y sincronización labial
+- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) herramienta de traducción de video, doblaje y sincronización labial
 - [Bot de Ezdubs en X](https://twitter.com/ezdubs_bot) herramienta de traducción de video, doblaje y sincronización labial
 
 ## Cosas de audio
@@ -82,7 +82,7 @@ puedes conseguir unas 100 generaciones gratis calificando muchas [imágenes aqu�
 
 ### Generación de voz
 
-- [play.ht](https://play.ht/) - gratis - (suscripción desde $39/mes)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - gratis - (suscripción desde $39/mes)
 - [ElevenLabs](https://elevenlabs.io/) - gratis - (suscripción desde $5/mes)
 - [Murf](https://murf.ai/) - gratis - (suscripción desde $29/mes)
 - [Resemble](https://www.resemble.ai/) - pruébalo gratis (después $0.006 por segundo)

@@ -48,7 +48,7 @@ faça login com X, Google, Discord, Telegram
 - [Bot do Midjourney](https://discord.com/invite/midjourney) no Discord - a partir de $10/mês - [Guia de introdução](https://docs.midjourney.com/docs/quick-start)
 você pode conseguir cerca de 100 gerações gratuitas avaliando muitas [imagens aqui](https://www.midjourney.com/app/rank-pairs/)
 (é preciso entrar no top 2000 dos avaliadores - cerca de 15 minutos avaliando imagens)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 gerações - (15 gerações gratuitas/mês)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 gerações - (15 gerações gratuitas/mês)
 - [DALL-E 3](https://openai.com/dall-e-3/) - incluído no ChatGPT-4 - $20/mês
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 gerações gratuitas, pago a partir de $6/mês)
 
@@ -62,7 +62,7 @@ você pode conseguir cerca de 100 gerações gratuitas avaliando muitas [imagens
 
 ### Ferramentas de tradução de vídeo/áudio:
 
-- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) ferramenta de tradução de vídeo com dublagem e sincronização labial
+- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) ferramenta de tradução de vídeo com dublagem e sincronização labial
 - [Bot Ezdubs no X](https://twitter.com/ezdubs_bot) ferramenta de tradução de vídeo com dublagem e sincronização labial
 
 ## Recursos de áudio
@@ -82,7 +82,7 @@ você pode conseguir cerca de 100 gerações gratuitas avaliando muitas [imagens
 
 ### Geração de voz
 
-- [play.ht](https://play.ht/) - gratuito - (assinatura a partir de $39/mês)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - gratuito - (assinatura a partir de $39/mês)
 - [ElevenLabs](https://elevenlabs.io/) - gratuito - (assinatura a partir de $5/mês)
 - [Murf](https://murf.ai/) - gratuito - (assinatura a partir de $29/mês)
 - [Resemble](https://www.resemble.ai/) - experimente gratuitamente (depois $0.006 por segundo)

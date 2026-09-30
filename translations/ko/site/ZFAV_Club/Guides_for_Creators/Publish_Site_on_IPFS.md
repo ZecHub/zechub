@@ -69,7 +69,7 @@ IPFS의 파일은 *콘텐츠 주소 지정* 방식으로 참조됩니다. 이는
 
 **hash** = 이전 단계에서 추가한 폴더의 CID입니다.
 
-또는 [Pinata](https://pinata.cloud/) 또는 [Dolpin](https://dolpin.io/)과 같은 서비스를 사용하여 디렉토리를 고정할 수도 있습니다.
+또는 [Pinata](https://pinata.cloud/) 또는 [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)과 같은 서비스를 사용하여 디렉토리를 고정할 수도 있습니다.
 
 시간을 많이 절약할 수 있습니다!
 
