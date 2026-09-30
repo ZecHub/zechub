@@ -1,12 +1,12 @@
-# Unified Address (ZIP-316) validation
+# Unified Address (ZIP-316) Validation
 
-*This is a learning guide, not a packaged decoder or copy-paste payment library. It explains how a unified address is structured so you can understand what maintained libraries do under the hood. For anything that handles real funds, defer to the [ZIP-316 specification](https://zips.z.cash/zip-0316) and the official implementations linked below.*
+*This is a learning guide, not a packaged decoder or copy-paste payment library. It explains how a Unified Address is structured so you can understand what maintained libraries do under the hood. For anything that handles real funds, defer to the [ZIP-316 specification](https://zips.z.cash/zip-0316) and the official implementations linked below.*
 
 ---
 
 ## The big picture
 
-A unified address (UA) is a single address string that carries multiple receiver types: **Transparent**, **Sapling**, **Orchard**, or a combination. The paying wallet automatically selects the best receiver pool it supports.
+A Unified Address (UA) is a single address string that carries multiple receiver types: **Transparent**, **Sapling**, **Orchard**, or a combination. The paying wallet automatically selects the best receiver pool it supports.
 
 Think of a UA as a sealed envelope containing several labelled cards. Each card represents a different way to reach you. To check an address, an application must:
 
@@ -49,12 +49,12 @@ Before scrambling, the encoder appends 16 bytes containing the HRP, padded with 
 ### Step 4: Extract receivers
 The remaining payload consists of `(typecode, length, content)` entries, where the typecode and length are stored as compact-size integers (a single byte for small values). Known receiver typecodes:
 
-| Typecode | Receiver type | Content length |
-| :--- | :--- | :--- |
-| `0x00` | Transparent (P2PKH) | 20 bytes |
-| `0x01` | Transparent (P2SH) | 20 bytes |
-| `0x02` | Sapling | 43 bytes |
-| `0x03` | Orchard | 43 bytes |
+| Typecode | Receiver type       | Content length |
+| :------- | :------------------ | :------------- |
+| `0x00`   | Transparent (P2PKH) | 20 bytes       |
+| `0x01`   | Transparent (P2SH)  | 20 bytes       |
+| `0x02`   | Sapling             | 43 bytes       |
+| `0x03`   | Orchard             | 43 bytes       |
 
 Beyond these, ZIP-316 reserves two further ranges for forward compatibility:
 
@@ -70,7 +70,7 @@ For known receiver types, verify that the encoded length matches the type's spec
 
 ## Mandatory ZIP-316 rejection rules
 
-⚠️ **Decoding successfully does not make an address valid.** Official Zcash wallets strictly reject addresses that violate the following rules. Web tools must reject them as well to prevent payment failures:
+**Decoding successfully does not make an address valid.** Official Zcash wallets strictly reject addresses that violate the following rules. Web tools must reject them as well to prevent payment failures:
 
 - **Missing shielded receivers:** The address **must** contain at least one Sapling or Orchard receiver. A UA with only transparent receivers is invalid under ZIP-316.
 - **Duplicate typecodes:** Each receiver type may appear at most once.
@@ -96,14 +96,14 @@ For known receiver types, verify that the encoded length matches the type's spec
 - **[f4jumble crate (librustzcash)](https://github.com/zcash/librustzcash/tree/main/components/f4jumble)**
 - **Official test vectors:**
   - [F4Jumble test vectors](https://github.com/zcash/librustzcash/blob/main/components/f4jumble/src/test_vectors.rs)
-  - [Unified address test vectors](https://github.com/zcash/librustzcash/blob/main/components/zcash_address/src/kind/unified/address/test_vectors.rs)
+  - [Unified Address test vectors](https://github.com/zcash/librustzcash/blob/main/components/zcash_address/src/kind/unified/address/test_vectors.rs)
 
 ---
 
 ## Glossary
 
 | Term | Meaning |
-| :--- | :--- |
+| :----------------------- | :-------------------------------------------------------------------- |
 | **Unified Address (UA)** | Single address string bundling multiple receiver pools. |
 | **Receiver** | Specific payment destination type (transparent, Sapling, or Orchard). |
 | **Bech32m** | Text encoding scheme used for UA strings. |
