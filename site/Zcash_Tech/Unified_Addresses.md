@@ -1,4 +1,4 @@
-# Understanding unified address (ZIP-316) validation in the browser
+# Understanding unified address (ZIP-316) validation
 
 *This is a learning guide, not a packaged decoder or copy-paste payment library. It explains how a unified address is structured so you can understand what maintained libraries do under the hood. For anything that handles real funds, defer to the [ZIP-316 specification](https://zips.z.cash/zip-0316) and the official implementations linked below.*
 
@@ -13,7 +13,7 @@ Think of a UA as a sealed envelope containing several labelled cards. Each card 
 1. **Open the envelope:** Decode the text string.
 2. **Un-shuffle the contents:** Undo the protective scramble (**F4Jumble**).
 3. **Read each card:** Extract individual receivers.
-4. **Enforce protocol rules:** Reject any malformed or illegal combinations.
+4. **Enforce protocol rules:** Ignore or reject entries according to their typecode range.
 
 ---
 
@@ -47,7 +47,7 @@ Before scrambling, the encoder appends 16 bytes containing the HRP, padded with 
 - Confirm the embedded HRP matches the expected network (`u` or `utest`). This prevents testnet addresses from being accidentally accepted on mainnet.
 
 ### Step 4: Extract receivers
-The remaining payload consists of `(typecode, length, content)` entries, where the typecode and length are stored as compact-size integers (a single byte for small values):
+The remaining payload consists of `(typecode, length, content)` entries, where the typecode and length are stored as compact-size integers (a single byte for small values). Known receiver typecodes:
 
 | Typecode | Receiver type | Content length |
 | :--- | :--- | :--- |
@@ -56,7 +56,14 @@ The remaining payload consists of `(typecode, length, content)` entries, where t
 | `0x02` | Sapling | 43 bytes |
 | `0x03` | Orchard | 43 bytes |
 
+Beyond these, ZIP-316 reserves two further ranges for forward compatibility:
+
+- **`0xC0`–`0xDF` (ignorable metadata):** safe to skip if the parser doesn't recognize the specific typecode.
+- **`0xE0`–`0xFC` (MUST-understand metadata):** if the parser doesn't recognize the specific typecode here, it must reject the whole address.
+
 Verify that each entry's length matches its expected typecode and that no trailing bytes remain.
+
+**Preferred receiver order.** Once an address parses successfully, a wallet or payment tool should pick the best receiver in this order: Orchard, then Sapling, then transparent.
 
 ---
 
@@ -66,10 +73,10 @@ Verify that each entry's length matches its expected typecode and that no traili
 
 - **Missing shielded receivers:** The address **must** contain at least one Sapling or Orchard receiver. A UA with only transparent receivers is invalid under ZIP-316.
 - **Duplicate typecodes:** Each receiver type may appear at most once.
-- **Unsorted typecodes:** Receivers must appear in strictly ascending typecode order (`0x00` → `0x01` → `0x02` → `0x03`).
+- **Unsorted typecodes:** Receivers must appear in strictly ascending typecode order.
 - **Conflicting transparent receivers:** A UA may carry either P2PKH or P2SH, but **never both**.
 - **Malformed entries or padding:** Mismatched network prefixes, truncated payloads, or length mismatches must trigger immediate rejection.
-- **Unknown typecodes:** Make a deliberate choice rather than an accidental one. A payment tool should generally reject what it does not understand, unless you have read the spec and intentionally support forward compatibility.
+- **Unrecognized typecodes:** Ignore unrecognized typecodes outside `0xE0`–`0xFC` and use the best known receiver instead. Reject the address only if no usable receiver remains, or if an unrecognized typecode falls in the `0xE0`–`0xFC` MUST-understand range.
 
 ---
 
@@ -78,7 +85,6 @@ Verify that each entry's length matches its expected typecode and that no traili
 - **Compare parsed receivers, not raw strings.** Decode addresses first before checking equality.
 - **Use maintained libraries for anything that handles funds.** Compile official Rust crates (like `zcash_address`) to WebAssembly rather than deploying custom JavaScript decoders.
 - **Be cautious with hand-written parsers.** If you write one to learn, treat it as a study project and test it against the official vectors below before trusting it with anything.
-- **Treat viewing keys securely.** Never pass raw unified viewing keys (UVKs) to untrusted client code.
 
 ---
 
@@ -104,3 +110,5 @@ Verify that each entry's length matches its expected typecode and that no traili
 | **F4Jumble** | Reversible obfuscation algorithm ensuring address integrity. |
 | **Typecode** | Number in each entry defining the receiver type in the payload. |
 | **Malleability** | Unauthorized modification of address bytes without detection. |
+
+See also: [Viewing Keys](./Viewing_Keys.md)

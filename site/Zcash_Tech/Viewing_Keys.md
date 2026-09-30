@@ -115,3 +115,5 @@ Use viewing keys on an as-needed basis, and prefer the narrowest key that answer
 - [ECC, Explaining Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Selective Disclosure and Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+See also: [Unified Addresses](./Unified_Addresses.md)
