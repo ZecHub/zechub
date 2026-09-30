@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
 </a>
 
 # Route Zcash Wallet Traffic Over the Nym Mixnet
@@ -74,8 +74,8 @@ NozyWallet also has Nym-aware transport paths. Its current implementation suppor
 Sources:
 
 - https://github.com/LEONINE-DAO/Nozy-wallet
-- https://github.com/LEONINE-DAO/Nozy-wallet/blob/main/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
-- https://github.com/LEONINE-DAO/Nozy-wallet/blob/main/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
+- https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
+- https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
 ### Zodl
 
