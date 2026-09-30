@@ -183,7 +183,7 @@ async function loadAppRoutes(offline) {
     "protocol-parameters", "zcash-evolution", "visual-identity", "governance-howto",
     "zcash-global-ambassadors", "zcash-payment-uri", "zcash-pool-visualizer",
     "zksnark-proof-visualizer", "zcash-infrastructure-visualizer", "omniflix",
-    "aborist-calls", "zechub-tutorial", "zechub-tutorials", "using-zcash",
+    "arborist-calls", "zechub-tutorial", "zechub-tutorials", "using-zcash",
   ];
   if (offline) return new Set(fallback);
   try {
