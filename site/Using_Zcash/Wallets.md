@@ -14,7 +14,7 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
 - Ironwood: Not Ready
 
@@ -109,7 +109,7 @@
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard
 - Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
 - Ironwood: In Progress
 
@@ -131,7 +131,7 @@
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard
 - Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
 - Ironwood: Not Ready
 
@@ -338,7 +338,7 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard
 - Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
 - Ironwood: In Progress
 
