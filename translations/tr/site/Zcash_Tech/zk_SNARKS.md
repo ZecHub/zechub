@@ -227,4 +227,4 @@ ____
 - [Zcash’te Post-Quantum Güvenlik](/zcash-tech/post-quantum-security) - Gelecekteki kuantum risklerinin Zcash kriptografisiyle ilişkisi
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZK-SNARK teknolojisi üzerine inşa edilmiş ZSA’lar
 - [ZEC ve Zcash nedir](/start-here/what-is-zec-and-zcash) — Zcash ve onun mahremiyet modeline giriş
-- [Temel Bir İlke Olarak Mahremiyet](/privacy/privacy-as-a-core-principle) — Finansal mahremiyet neden önemlidir
+- [Temel Bir İlke Olarak Mahremiyet](/start-here/who-can-see-your-zcash-payment) — Finansal mahremiyet neden önemlidir

@@ -227,4 +227,4 @@ ____
 - [Zcash में Post-Quantum Security](/zcash-tech/post-quantum-security) - भविष्य के quantum risks का Zcash cryptography से क्या संबंध है
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZK-SNARK technology पर निर्मित ZSAs
 - [ZEC और Zcash क्या हैं](/start-here/what-is-zec-and-zcash) — Zcash और उसके privacy model का परिचय
-- [एक मूल सिद्धांत के रूप में Privacy](/privacy/privacy-as-a-core-principle) — वित्तीय privacy क्यों महत्वपूर्ण है
+- [एक मूल सिद्धांत के रूप में Privacy](/start-here/who-can-see-your-zcash-payment) — वित्तीय privacy क्यों महत्वपूर्ण है

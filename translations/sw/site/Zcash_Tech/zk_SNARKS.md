@@ -227,4 +227,4 @@ Kujifunza Zaidi:
 - [Post Quantum Usalama katika Zcash](/zcash-tech/post-quantum-security) - Jinsi ya baadaye quantum hatari kuhusiana na Zcash cryptography
 - [Zcash Shielded Mali](/zcash-tech/zcash-shielded-assets)  ZSAs kujengwa juu ya teknolojia ZK-SNARK
 - [Ni nini ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Utangulizi wa Zcash na mfano wake wa faragha
-- [Usiri kama Kanuni ya Msingi](/privacy/privacy-as-a-core-principle)  Kwa nini faragha ya kifedha ni muhimu
+- [Usiri kama Kanuni ya Msingi](/start-here/who-can-see-your-zcash-payment)  Kwa nini faragha ya kifedha ni muhimu

@@ -254,7 +254,7 @@ Per i principianti, l'idea principale è semplice: la privacy odierna riduce l'e
 - [ZKP e ZK-SNARKS](/zcash-tech/zk-snarks) - Come funzionano le prove a conoscenza zero in Zcash
 - [Viewing Keys](/zcash-tech/viewing-keys) - Come funziona la divulgazione selettiva per Zcash schermato
 - [Asset schermati di Zcash](/zcash-tech/zcash-shielded-assets) - Futuri asset schermati e supporto per asset privati
-- [La privacy come principio fondamentale](/privacy/privacy-as-a-core-principle) - Perché la privacy finanziaria è importante
+- [La privacy come principio fondamentale](/start-here/who-can-see-your-zcash-payment) - Perché la privacy finanziaria è importante
 
 ## Riferimenti
 

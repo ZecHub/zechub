@@ -254,7 +254,7 @@ ZIP 2005 对 Orchard notes 就符合这个思路。
 - [ZKP 与 ZK-SNARKS](/zcash-tech/zk-snarks) - 零知识证明如何在Zcash中运作
 - [Viewing Key](/zcash-tech/viewing-keys) - 屏蔽Zcash的选择性披露如何运作
 - [Zcash屏蔽资产](/zcash-tech/zcash-shielded-assets) - 未来的屏蔽资产和私有资产支持
-- [隐私作为核心原则](/privacy/privacy-as-a-core-principle) - 财务隐私为何重要
+- [隐私作为核心原则](/start-here/who-can-see-your-zcash-payment) - 财务隐私为何重要
 
 ## 参考资料
 

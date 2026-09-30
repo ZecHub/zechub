@@ -96,7 +96,7 @@ I nwere ike:
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-- [Nzuzo - E Chebere Ya Ka Ọ̀ Bụ nke A Na-ahụ Anya?](/privacy/shielded-vs-transparent)
+- [Nzuzo - E Chebere Ya Ka Ọ̀ Bụ nke A Na-ahụ Anya?](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

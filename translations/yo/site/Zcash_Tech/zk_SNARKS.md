@@ -227,4 +227,4 @@ ____
 - [Awọn Post-Quantum Aabo ni Zcash](/zcash-tech/post-quantum-security) - Bawo ni awọn eewu quantum ọjọ iwaju ṣe ni ibatan si crypto Zcash
 - [Awọn ohun-ini ti o ni aabo Zcash](/zcash-tech/zcash-shielded-assets)  Awọn ZSA ti a kọ lori imọ-ẹrọ ZK-SNARK
 - [Kí ni ZEC àti Zcash?](/start-here/what-is-zec-and-zcash)  Ìfilọ́lẹ̀ sí Zcash àti àwòṣe ìpamọ́ rẹ̀
-- [Ìfọ̀kànbalẹ̀ gẹ́gẹ́ bí Ìlànà Pàtàkì](/privacy/privacy-as-a-core-principle)  Ìdí tó fi ṣe pàtàkì láti pa ọ̀rọ̀ ìnáwó mọ́
+- [Ìfọ̀kànbalẹ̀ gẹ́gẹ́ bí Ìlànà Pàtàkì](/start-here/who-can-see-your-zcash-payment)  Ìdí tó fi ṣe pàtàkì láti pa ọ̀rọ̀ ìnáwó mọ́

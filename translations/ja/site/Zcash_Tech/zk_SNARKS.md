@@ -229,4 +229,4 @@ zk-SNARKは、さまざまな異なる用途において複数の利点を提供
 - [Zcashにおけるポスト量子セキュリティ](/zcash-tech/post-quantum-security) - 将来の量子リスクがZcash暗号とどう関係するか
 - [Zcash シールド資産](/zcash-tech/zcash-shielded-assets) — ZK-SNARK技術に基づいて構築されたZSA
 - [ZECとZcashとは何か](/start-here/what-is-zec-and-zcash) — Zcashとそのプライバシーモデルの紹介
-- [中核原則としてのプライバシー](/privacy/privacy-as-a-core-principle) — なぜ金融プライバシーが重要なのか
+- [中核原則としてのプライバシー](/start-here/who-can-see-your-zcash-payment) — なぜ金融プライバシーが重要なのか

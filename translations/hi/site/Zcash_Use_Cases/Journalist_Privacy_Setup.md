@@ -111,7 +111,7 @@ Zcash प्रदान करता है:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> संबंधित
 
-- [गोपनीयता - श्रेष्ठ प्रथाएँ](/privacy/best-practices)
+- [गोपनीयता - श्रेष्ठ प्रथाएँ](/privacy-tools)
 - [पहचान से जोड़े बिना पैसे भेजें](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>

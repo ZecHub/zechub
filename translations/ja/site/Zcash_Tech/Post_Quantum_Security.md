@@ -254,7 +254,7 @@ Zcashは現在完全にポスト量子ではありませんが、いくつかの
 - [ZKPとZK-SNARKS](/zcash-tech/zk-snarks) - Zcashにおけるゼロ知識証明の仕組み
 - [閲覧キー](/zcash-tech/viewing-keys) - シールドされたZcashにおける選択的開示の仕組み
 - [Zcashのシールド資産](/zcash-tech/zcash-shielded-assets) - 将来のシールド資産とプライベート資産のサポート
-- [中核原則としてのプライバシー](/privacy/privacy-as-a-core-principle) - 金融プライバシーが重要である理由
+- [中核原則としてのプライバシー](/start-here/who-can-see-your-zcash-payment) - 金融プライバシーが重要である理由
 
 ## 参考文献
 

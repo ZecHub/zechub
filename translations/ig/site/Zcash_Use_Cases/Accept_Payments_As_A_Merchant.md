@@ -121,7 +121,7 @@ I nwere ike:
 
 
 - [Akpa ego](/wallets)
-- [Nzuzo - Ụzọ Ndị Kasị Mma Isi Mee Ya](/privacy/best-practices)
+- [Nzuzo - Ụzọ Ndị Kasị Mma Isi Mee Ya](/privacy-tools)
 
 <br/>
 

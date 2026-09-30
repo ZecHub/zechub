@@ -227,4 +227,4 @@ Further Learning:
 - [Post-Quantum Security in Zcash](/zcash-tech/post-quantum-security) - How future quantum risks relate to Zcash cryptography
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs built on ZK-SNARK technology
 - [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to Zcash and its privacy model
-- [Privacy as a Core Principle](/privacy/privacy-as-a-core-principle) — Why financial privacy matters
+- [Who Can See Your Zcash Payment?](/start-here/who-can-see-your-zcash-payment) — What stays public, and what shielding hides

@@ -254,7 +254,7 @@ Yeni başlayanlar için ana fikir basittir: bugünkü gizlilik gelecekteki veri 
 - [ZKP ve ZK-SNARKS](/zcash-tech/zk-snarks) - Sıfır bilgi kanıtlarının Zcash içinde nasıl çalıştığı
 - [Görüntüleme Anahtarları](/zcash-tech/viewing-keys) - Korumalı Zcash için seçici ifşanın nasıl çalıştığı
 - [Zcash Korumalı Varlıklar](/zcash-tech/zcash-shielded-assets) - Gelecekteki korumalı varlıklar ve özel varlık desteği
-- [Temel İlke Olarak Gizlilik](/privacy/privacy-as-a-core-principle) - Finansal gizliliğin neden önemli olduğu
+- [Temel İlke Olarak Gizlilik](/start-here/who-can-see-your-zcash-payment) - Finansal gizliliğin neden önemli olduğu
 
 ## Referanslar
 

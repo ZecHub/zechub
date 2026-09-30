@@ -113,7 +113,7 @@ Zcashは次のものを提供します:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 関連
 
-- [プライバシー - ベストプラクティス](/privacy/best-practices)
+- [プライバシー - ベストプラクティス](/privacy-tools)
 - [身元を結び付けずに送金する](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>

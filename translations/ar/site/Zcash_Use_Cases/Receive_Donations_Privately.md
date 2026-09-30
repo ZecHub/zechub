@@ -106,7 +106,7 @@
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة الروابط"/> ذو صلة
 
-- [الخصوصية - المحمي مقابل الشفاف](/privacy/shielded-vs-transparent)
+- [الخصوصية - المحمي مقابل الشفاف](/start-here/who-can-see-your-zcash-payment)
 - [المحافظ](/wallets)
 
 <br/>

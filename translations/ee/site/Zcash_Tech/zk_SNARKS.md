@@ -227,4 +227,4 @@ Nusɔsrɔ̃ Bubuwo:
 - [Dedienɔnɔ le Quantum megbe le Zcash me](/zcash-tech/post-quantum-security) - Alesi etsɔme quantum afɔkuwo do ƒome kple Zcash cryptography
 - [Zcash ƒe Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) — ZSA siwo wotu ɖe ZK-SNARK mɔ̃ɖaŋununya dzi
 - [Nukae nye ZEC kple Zcash](/start-here/what-is-zec-and-zcash) — Zcash kple eƒe ameŋunyatakakawo ŋuti kpɔɖeŋu ƒe ŋgɔdonya
-- [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/privacy/privacy-as-a-core-principle) — Nusita ganyawo ŋuti nyatakakawo tsɔtsɔ aɣla le vevie
+- [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/start-here/who-can-see-your-zcash-payment) — Nusita ganyawo ŋuti nyatakakawo tsɔtsɔ aɣla le vevie

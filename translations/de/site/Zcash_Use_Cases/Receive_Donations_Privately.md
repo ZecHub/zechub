@@ -106,7 +106,7 @@ Du kannst:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglied-Symbol"/> Verwandt
 
-- [Privatsphäre - Shielded vs Transparent](/privacy/shielded-vs-transparent)
+- [Privatsphäre - Shielded vs Transparent](/start-here/who-can-see-your-zcash-payment)
 - [Wallets](/wallets)
 
 <br/>

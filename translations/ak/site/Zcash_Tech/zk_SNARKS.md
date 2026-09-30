@@ -227,4 +227,4 @@ Adesua Foforo:
 - [Post-Quantum Ahobammɔ wɔ Zcash mu](/zcash-tech/post-quantum-security) - sedee daakye quantum asiane fa Zcash cryptography ho
 - [Zcash Shielded Agyapadeɛ](/zcash-tech/zcash-shielded-assets) — ZSA ahorow a wɔasi wɔ ZK-SNARK mfiridwuma so
 - [Dɛn ne ZEC ne Zcash](/start-here/what-is-zec-and-zcash) — Zcash ne ne kokoam nsɛm ho nnianim asɛm
-- [Kokoamsɛm sɛ Nnyinasosɛm Titiriw](/privacy/privacy-as-a-core-principle) — Nea enti a sikasɛm mu kokoamsɛm ho hia
+- [Kokoamsɛm sɛ Nnyinasosɛm Titiriw](/start-here/who-can-see-your-zcash-payment) — Nea enti a sikasɛm mu kokoamsɛm ho hia

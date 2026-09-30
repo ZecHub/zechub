@@ -254,7 +254,7 @@ Project Tachyon هو ترقية مقترحة لـ Zcash تركّز على الت
 - [ZKP وZK-SNARKS](/zcash-tech/zk-snarks) - كيف تعمل براهين المعرفة الصفرية في Zcash
 - [مفاتيح العرض](/zcash-tech/viewing-keys) - كيف يعمل الإفصاح الانتقائي للمعاملات المحمية في Zcash
 - [Zcash الأصول المحمية](/zcash-tech/zcash-shielded-assets) - الأصول المحمية المستقبلية ودعم الأصول الخاصة
-- [الخصوصية كمبدأ أساسي](/privacy/privacy-as-a-core-principle) - لماذا تهم الخصوصية المالية
+- [الخصوصية كمبدأ أساسي](/start-here/who-can-see-your-zcash-payment) - لماذا تهم الخصوصية المالية
 
 ## المراجع
 

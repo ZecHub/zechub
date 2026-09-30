@@ -254,7 +254,7 @@ For beginners, the main idea is simple: privacy today reduces future data exposu
 - [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - How zero-knowledge proofs work in Zcash
 - [Viewing Keys](/zcash-tech/viewing-keys) - How selective disclosure works for shielded Zcash
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - Future shielded assets and private asset support
-- [Privacy as a Core Principle](/privacy/privacy-as-a-core-principle) - Why financial privacy matters
+- [Who Can See Your Zcash Payment?](/start-here/who-can-see-your-zcash-payment) - What stays public, and what shielding hides
 
 ## References
 

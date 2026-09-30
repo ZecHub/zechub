@@ -254,7 +254,7 @@ Kwa wanaoanza, wazo kuu ni rahisi: faragha leo hupunguza udhihirisho wa data kat
 - [ZKP na ZK-SNARKS](/zcash-tech/zk-snarks) - Jinsi uthibitisho wa maarifa yasiyo na msingi unavyofanya kazi katika Zcash
 - [Funguo za Kutazama](/zcash-tech/viewing-keys) - Jinsi ufichuzi wa kuchagua unavyofanya kazi kwa Zcash iliyolindwa
 - [Mali Zilizolindwa za Zcash](/zcash-tech/zcash-shielded-assets) - Mali zilizolindwa za baadaye na usaidizi wa mali binafsi
-- [Faragha kama Kanuni Kuu](/privacy/privacy-as-a-core-principle) - Kwa nini faragha ya kifedha ni muhimu
+- [Faragha kama Kanuni Kuu](/start-here/who-can-see-your-zcash-payment) - Kwa nini faragha ya kifedha ni muhimu
 
 ## Marejeleo
 

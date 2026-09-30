@@ -254,7 +254,7 @@ Le gɔmedzelawo gome la, susu vevitɔa le bɔbɔe: ame ŋutɔ ƒe nyawo tsɔtsɔ
 - [ZKP & ZK-SNARKS ƑE NUÐEÐEŊUTI](/zcash-tech/zk-snarks) - Alesi zero-sidzedze kpeɖodziwo wɔa dɔ le Zcash
 - [Safuiwo Kpɔkpɔ](/zcash-tech/viewing-keys) - Alesi tiatiawɔblɔɖe ɖeɖefia wɔa dɔ na Zcash si wokpɔ ta na
 - [Zcash Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) - Etsɔme nunɔamesi siwo wokpɔ ta na kple ame ŋutɔ ƒe nunɔamesiwo ƒe kpekpeɖeŋu
-- [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/privacy/privacy-as-a-core-principle) - Nusita ganyawo ƒe adzamenyawo le vevie
+- [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/start-here/who-can-see-your-zcash-payment) - Nusita ganyawo ƒe adzamenyawo le vevie
 
 ## Nusiwo ŋu woke ɖo
 

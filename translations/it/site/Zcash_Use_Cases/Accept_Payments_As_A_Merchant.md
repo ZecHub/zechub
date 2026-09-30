@@ -121,7 +121,7 @@ Puoi:
 
 
 - [Wallet](/wallets)
-- [Privacy - Best Practice](/privacy/best-practices)
+- [Privacy - Best Practice](/privacy-tools)
 
 <br/>
 

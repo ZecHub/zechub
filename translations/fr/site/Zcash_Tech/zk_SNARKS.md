@@ -227,4 +227,4 @@ Pour aller plus loin :
 - [Sécurité post-quantique dans Zcash](/zcash-tech/post-quantum-security) - Comment les futurs risques quantiques sont liés à la cryptographie de Zcash
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Les ZSAs construites sur la technologie ZK-SNARK
 - [Qu’est-ce que ZEC et Zcash](/start-here/what-is-zec-and-zcash) — Introduction à Zcash et à son modèle de confidentialité
-- [La confidentialité comme principe fondamental](/privacy/privacy-as-a-core-principle) — Pourquoi la confidentialité financière est importante
+- [La confidentialité comme principe fondamental](/start-here/who-can-see-your-zcash-payment) — Pourquoi la confidentialité financière est importante

@@ -254,7 +254,7 @@ Wɔ wɔn a wɔrefi ase no fam no, adwene titiriw no yɛ mmerɛw: kokoamsɛm nnɛ
 - [ZKP & ZK-SNARKS NKYERƐKYERƐMU](/zcash-tech/zk-snarks) - sedee zero-nimdee adansedie ye adwuma wo Zcash mu
 - [Nneɛma a Wɔde Hwɛ Nneɛma](/zcash-tech/viewing-keys) - sedee selective disclosure yɛ adwuma ma shielded Zcash
 - [Zcash Shielded Agyapadeɛ](/zcash-tech/zcash-shielded-assets) - Daakye agyapadeɛ a wɔabɔ ho ban ne ankorankoro agyapadeɛ mmoa
-- [Kokoamsɛm sɛ Nnyinasosɛm Titiriw](/privacy/privacy-as-a-core-principle) - a enti a sikasm mu kokoamsɛm ho hia
+- [Kokoamsɛm sɛ Nnyinasosɛm Titiriw](/start-here/who-can-see-your-zcash-payment) - a enti a sikasm mu kokoamsɛm ho hia
 
 ## Nsɛm a wɔde gyinaa so
 

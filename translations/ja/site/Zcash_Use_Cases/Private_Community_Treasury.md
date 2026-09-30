@@ -111,7 +111,7 @@ Zcashはコミュニティに以下を可能にします：
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 関連情報
 
-- [プライバシー - 最適な実践](/privacy/best-practices)
+- [プライバシー - 最適な実践](/privacy-tools)
 - [アイデンティティをリンクせずに送金する](/zcash-use-cases/send-money-without-linking-identity)
 
 <br/>

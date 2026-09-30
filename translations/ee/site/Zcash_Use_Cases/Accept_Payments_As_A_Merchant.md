@@ -121,7 +121,7 @@ Ate ŋu:
 
 
 - [Gakotokuwo](/wallets)
-- [Ameŋunyatakakawo - Nuwɔna Nyuitɔwo](/privacy/best-practices)
+- [Ameŋunyatakakawo - Nuwɔna Nyuitɔwo](/privacy-tools)
 
 <br/>
 
