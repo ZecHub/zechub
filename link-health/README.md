@@ -34,6 +34,10 @@ app falls back on, so a link that works in production is not reported as broken.
 If the rules in the app's `src/lib/helpers.ts` change, update `transformUri` here
 to match.
 
+Path comparisons are case-sensitive on every operating system, matching the
+GitHub content paths used by the wiki. `--root` limits the pages scanned; links
+can still resolve to other pages under `site/`.
+
 Two things are deliberately not treated as broken routes:
 
 - Pages served by the app rather than by markdown, such as `/wallets` and
@@ -61,6 +65,9 @@ node link-health/check-links.mjs --concurrency 20   # more parallel requests
 ```
 
 Outputs `link-health.json` for machines and `link-health.md` for the issue body.
+
+Run the offline route regression tests with
+`node --test link-health/check-links.test.mjs`.
 
 The workflow runs on Mondays and can be started by hand from the Actions tab.
 Because a GitHub issue body is capped, the dashboard shows the first 40 rows per
