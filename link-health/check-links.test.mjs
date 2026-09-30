@@ -77,6 +77,18 @@ eq("legitimate nested app route",
    routeExists("/developers/quick-start", [], appRoutes),
    { ok: true, how: "app route" });
 
+// A folder that directly holds articles renders as a section page; one that
+// only holds subfolders does not (the app 404s it).
+eq("folder index",
+   routeExists("/privacy-tools", ["site/Privacy_Tools/Tor_and_I2P.md"], appRoutes),
+   { ok: true, how: "folder index" });
+eq("nested folder index",
+   routeExists("/using-zcash/spend-zcash", ["site/Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md"], appRoutes),
+   { ok: true, how: "folder index" });
+eq("folder with only subfolders",
+   routeExists("/zcash-tech/assets", ["site/Zcash_Tech/Assets/Sub/Page.md"], appRoutes),
+   { ok: false, how: "no file at site/Zcash_Tech/Assets.md" });
+
 // must NOT match: these are ordinary links and re-probing them is meaningless
 eq("not an archive host", originalOf("https://example.org/web/20250611203406/https://x.test/"), null);
 eq("archive without a target", originalOf(`${A}/20250611203406/`), null);
