@@ -26,7 +26,7 @@ Zebra ist eine unabhängige, produktionsreife Implementierung eines vollständig
 
 Zebra validiert Blöcke und Transaktionen, nimmt am Peer-to-Peer-Netzwerk teil und stellt eine RPC-Schnittstelle für Anwendungen bereit. Die Wallet ist jetzt eine separate Komponente: [Zallet](https://github.com/zcash/zallet) läuft mit einem Zebra-Knoten und verwaltet Schlüssel und Guthaben. Dies ersetzt zcashd, das Knoten und Wallet in einem einzigen Prozess bündelte.
 
-Um abgeschirmte Light Wallets bereitzustellen, läuft der Knoten neben einem Indexer, entweder dem etablierten [lightwalletd](https://github.com/zcash/lightwalletd) oder dem neueren [Zaino](https://zechub.wiki/zaino).
+Um abgeschirmte Light Wallets bereitzustellen, läuft der Knoten neben einem Indexer, entweder dem etablierten [lightwalletd](https://github.com/zcash/lightwalletd) oder dem neueren [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
 Lies unbedingt das Zebra-Buch für Einrichtungsanleitungen und tritt dem R&D-Discord-Server bei, um Unterstützung zu erhalten.
 
@@ -42,7 +42,7 @@ Zakura ist ein zweiter konsenskompatibler vollständiger Knoten, der von Zebra g
 
 ### zcashd (eingestellt)
 
-> **Hinweis:** zcashd wurde eingestellt. Die Electric Coin Company [kündigte die Einstellung an](https://z.cash/support/zcashd-deprecation/), und der automatische End-of-Support-Stopp wurde am 18. Juli 2026 bei Blockhöhe 3417100 erreicht. Jeder unveränderte zcashd-6.20.0-Knoten wurde bei dieser Höhe heruntergefahren und verweigert einen Neustart; außerdem unterstützt die Software NU6.3 nicht. Verwende Zebra. Wenn du eine zcashd `wallet.dat` besitzt, folge dem [Migrationsleitfaden: zcashd zu Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **Hinweis:** zcashd wurde eingestellt. Die Electric Coin Company [kündigte die Einstellung an](https://z.cash/support/zcashd-deprecation/), und der automatische End-of-Support-Stopp wurde am 18. Juli 2026 bei Blockhöhe 3417100 erreicht. Jeder unveränderte zcashd-6.20.0-Knoten wurde bei dieser Höhe heruntergefahren und verweigert einen Neustart; außerdem unterstützt die Software NU6.3 nicht. Verwende Zebra. Wenn du eine zcashd `wallet.dat` besitzt, folge dem [Migrationsleitfaden: zcashd zu Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd war die ursprüngliche Implementierung eines vollständigen Knotens für Zcash, entwickelt und gepflegt von der Electric Coin Company. Die folgenden Build-Anweisungen werden als Referenz und für Betreiber beibehalten, die von zcashd migrieren.
 

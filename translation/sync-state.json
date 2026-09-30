@@ -29,7 +29,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -749,7 +749,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -981,7 +981,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -1549,7 +1549,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+deadlink-repair",
+      "tool": "gt-static+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -1759,7 +1759,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -2479,7 +2479,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -2711,7 +2711,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -3279,7 +3279,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -3489,7 +3489,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -4209,7 +4209,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -4441,7 +4441,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -5009,7 +5009,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -5219,7 +5219,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -5939,7 +5939,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -6171,7 +6171,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -6739,7 +6739,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+deadlink-repair",
+      "tool": "gt-static+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -6949,7 +6949,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -7669,7 +7669,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -7901,7 +7901,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -8469,7 +8469,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -8679,7 +8679,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -9399,7 +9399,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -9631,7 +9631,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -10199,7 +10199,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -10409,7 +10409,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -11129,7 +11129,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -11361,7 +11361,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -11929,7 +11929,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -12139,7 +12139,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -12859,7 +12859,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -13091,7 +13091,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -13659,7 +13659,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+deadlink-repair",
+      "tool": "nllb-200-3.3B+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -13869,7 +13869,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -14589,7 +14589,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -14821,7 +14821,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -15389,7 +15389,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -15599,7 +15599,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -16319,7 +16319,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -16551,7 +16551,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -17119,7 +17119,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+deadlink-repair",
+      "tool": "qwen3-14b+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -17329,7 +17329,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -18049,7 +18049,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -18281,7 +18281,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -18849,7 +18849,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+deadlink-repair",
+      "tool": "qwen3-14b+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -19059,7 +19059,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -19779,7 +19779,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -20011,7 +20011,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -20579,7 +20579,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -20789,7 +20789,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -21509,7 +21509,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -21741,7 +21741,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -22309,7 +22309,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -22519,7 +22519,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -23239,7 +23239,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -23471,7 +23471,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -24039,7 +24039,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -24249,7 +24249,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -24969,7 +24969,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -25201,7 +25201,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -25769,7 +25769,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -25979,7 +25979,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -26699,7 +26699,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -26931,7 +26931,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -27499,7 +27499,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -27709,7 +27709,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -28429,7 +28429,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -28661,7 +28661,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -29229,7 +29229,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -29439,7 +29439,7 @@
       "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -30159,7 +30159,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -30391,7 +30391,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -30959,7 +30959,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {

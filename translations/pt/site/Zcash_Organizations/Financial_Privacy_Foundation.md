@@ -34,7 +34,7 @@ O processo de solicitação de bolsa do FPF X FPF inclui várias etapas. Primeir
 
 Mais informações sobre o FPF X FPF podem ser vistas no site do Financial Privacy Fun (FPF) [aqui](https://www.financialprivacyfoundation.org/grants) e, se você ainda estiver curioso sobre o programa FPF X FPF, pode visitar o documento de perguntas frequentes aqui: [Perguntas frequentes](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Se você tiver interesse em se tornar um Revisor Voluntário para esta rodada do programa FPF X FPF, visite este [link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Para mais perguntas sobre o Programa de Bolsas FPF X FPF, você pode perguntar diretamente enviando um e-mail para [FPF](info@financialprivacyfoundation.org).
+Se você tiver interesse em se tornar um Revisor Voluntário para esta rodada do programa FPF X FPF, visite este [link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Para mais perguntas sobre o Programa de Bolsas FPF X FPF, você pode perguntar diretamente enviando um e-mail para [FPF](mailto:info@financialprivacyfoundation.org).
 
 ## Recursos 
 [Financial Privacy Fund](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

@@ -34,7 +34,7 @@ FPF X FPF अनुदान आवेदन प्रक्रिया कई 
 
 FPF X FPF के बारे में अधिक जानकारी वित्तीय गोपनीयता फंड (FPF) वेबसाइट [यहाँ](https://www.financialprivacyfoundation.org/grants) पर देख सकते हैं, और यदि आप FPF X FPF कार्यक्रम के बारे में अभी भी जानना चाहते हैं, तो आप इस प्रश्नोत्तर सुविधा दस्तावेज़ को [यहाँ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf) देख सकते हैं। 
 
-यदि आप FPF X FPF कार्यक्रम के इस चरण में एक स्वयंसेवी समीक्षा परिषद के सदस्य बनने के लिए रुचि रखते हैं, तो कृपया [इस लिंक](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf) के माध्यम से जाएं। FPF X FPF अनुदान कार्यक्रम के बारे में आगे के प्रश्नों के लिए, आप [FPF](info@financialprivacyfoundation.org) पर ई-मेल भेजकर सीधे पूछ सकते हैं।
+यदि आप FPF X FPF कार्यक्रम के इस चरण में एक स्वयंसेवी समीक्षा परिषद के सदस्य बनने के लिए रुचि रखते हैं, तो कृपया [इस लिंक](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf) के माध्यम से जाएं। FPF X FPF अनुदान कार्यक्रम के बारे में आगे के प्रश्नों के लिए, आप [FPF](mailto:info@financialprivacyfoundation.org) पर ई-मेल भेजकर सीधे पूछ सकते हैं।
 
 ## संसाधन 
 [वित्तीय गोपनीयता की फंड](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

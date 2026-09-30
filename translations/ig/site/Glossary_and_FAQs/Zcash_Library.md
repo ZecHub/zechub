@@ -23,7 +23,7 @@ Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara 
 | Benchmarking | Ndị na-egwuputa ihe nwere ike izipu ihe nha maka arụmọrụ nke ngwaike dị iche iche eji egwuputa Zcash. [Lee ebe a](https://zcashbenchmarks.info) |
 | Block | Ngọngọ bụ ndekọ dị na Zcash blockchain nke nwere otu azụmahịa ezitere na netwọk ahụ. Ihe dị ka sekọnd 75 ọ bụla, na nkezi, a na-agbakwunye ngọngọ ọhụrụ na blockchain ahụ. |
 | Block Explorer | Ngwa dị n'ịntanetị iji lelee azụmahịa niile, nke gara aga na nke ugbu a, na blockchain. [Ihe Nchọgharị Zcash Block](https://zcashexplorer.app/) |
-| Blogs | [Blọọgụ ZODL (nke bụbu Electric Coin Co)](https://zodl.com/blog/) / [Blọọgụ Zcash Foundation](https://zfnd.org/blog/) / [Blọọgụ ZecHub](https://zechub.wiki/zechub-dao) |
+| Blogs | [Blọọgụ ZODL (nke bụbu Electric Coin Co)](https://zodl.com/blog/) / [Blọọgụ Zcash Foundation](https://zfnd.org/blog/) / [Blọọgụ ZecHub](https://zechub.substack.com/) |
 | Blossom | Mmelite netwọkụ nke atọ kachasị elu maka Zcash. [Ozi Ndị Ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

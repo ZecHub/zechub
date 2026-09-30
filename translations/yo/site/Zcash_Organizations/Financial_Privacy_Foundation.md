@@ -34,7 +34,7 @@ The FPF X FPF grant application process includes several processes. First, appli
 
 Alaye siwaju sii nipa FPF X FPF le ri lori oju opo wẹẹbu ti Financial Privacy Fun (FPF) [níhìn-ín ni](https://www.financialprivacyfoundation.org/grants) àti bí o bá ṣì ń fẹ́ mọ̀ nípa ètò FPF X FPF, ẹ lè lọ sí ojúewé FAQs níbí: [Àwọn ìbéèrè tí a sábà máa ń béèrè](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Ti o ba nifẹ lati di Olutọju Onigbọwọ fun iyipo yii ti eto FPF X FPF, jọwọ lọ si eyi: [ìjápọ̀](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Fun awọn ibeere siwaju sii nipa FPF X FPF Grant Program, o le beere taara nipasẹ fifiranṣẹ imeeli kan. [FPF (ìmọ̀ ọ̀nà)](info@financialprivacyfoundation.org).
+Ti o ba nifẹ lati di Olutọju Onigbọwọ fun iyipo yii ti eto FPF X FPF, jọwọ lọ si eyi: [ìjápọ̀](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Fun awọn ibeere siwaju sii nipa FPF X FPF Grant Program, o le beere taara nipasẹ fifiranṣẹ imeeli kan. [FPF (ìmọ̀ ọ̀nà)](mailto:info@financialprivacyfoundation.org).
 
 ## Àwọn Owó-ìṣúnná owó 
 [Ìpèsè fún Ààbò Nípa Owó Ọ̀fẹ́](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

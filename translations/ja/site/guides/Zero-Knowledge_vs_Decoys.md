@@ -47,7 +47,7 @@ ZcashとMoneroはどちらもプライバシーに重点を置いた暗号通貨
 
 4) **信頼設定不要**: ZcashのSprout & Sapling設定では、「信頼された設定セレモニー」として知られるマルチパーティ計算を使用していました。最近のNU5アップグレードは、ゼロ知識回路の設定の整合性への信頼を必要としませんでした。[ECCブログでNU5を読む](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/)。
 
-5) **データプライバシー**: Zcashのシールドプールに使用されている[zk-SNARK技術](https://zechub.wiki/zcash-technology)は、ユーザーにとって非常に強化されたセキュリティを提供します。オンチェーンでのメタデータ漏洩の削減により、ユーザーは潜在的なハッカーまたは抑圧的な国家機関などの敵対者から守られます。
+5) **データプライバシー**: Zcashのシールドプールに使用されている[zk-SNARK技術](https://zechub.wiki/zcash-tech/zk-snarks)は、ユーザーにとって非常に強化されたセキュリティを提供します。オンチェーンでのメタデータ漏洩の削減により、ユーザーは潜在的なハッカーまたは抑圧的な国家機関などの敵対者から守られます。
 
 Moneroのデコイ選択アルゴリズムにいくつかのバグが見つかった事例があります。[Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero)からの報告によると、これらのバグはユーザーの支出を明らかにする可能性がありました。
 

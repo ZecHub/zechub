@@ -26,7 +26,7 @@ Zebra, Zcash protocol का एक स्वतंत्र, production-ready �
 
 Zebra ब्लॉकों और लेनदेनों को सत्यापित करता है, peer-to-peer network में भाग लेता है, और applications के लिए RPC interface उपलब्ध कराता है। wallet अब एक अलग component है: [Zallet](https://github.com/zcash/zallet) एक Zebra नोड के साथ चलता है तथा keys और balances संभालता है। यह zcashd का स्थान लेता है, जिसमें नोड और wallet एक ही process में शामिल थे।
 
-shielded light wallets को सेवा देने के लिए, नोड एक indexer के साथ चलता है, जो स्थापित [lightwalletd](https://github.com/zcash/lightwalletd) या नया [Zaino](https://zechub.wiki/zaino) हो सकता है।
+shielded light wallets को सेवा देने के लिए, नोड एक indexer के साथ चलता है, जो स्थापित [lightwalletd](https://github.com/zcash/lightwalletd) या नया [Zaino](https://zechub.wiki/zcash-tech/zaino) हो सकता है।
 
 सेट-अप निर्देशों के लिए Zebra book अवश्य पढ़ें, और सहायता के लिए R&D Discord server से जुड़ें।
 
@@ -42,7 +42,7 @@ Zakura, Zebra से fork किया गया और Valar Group द्वा
 
 ### zcashd (सेवानिवृत्त)
 
-> **नोट:** zcashd सेवानिवृत्त हो चुका है। Electric Coin Company [ने अप्रचलन की घोषणा की](https://z.cash/support/zcashd-deprecation/), और स्वचालित End-of-Support अवरोध 18 जुलाई 2026 को ब्लॉक ऊंचाई 3417100 पर पहुंचा। प्रत्येक अपरिवर्तित zcashd 6.20.0 नोड उस ऊंचाई पर बंद हो गया और दोबारा शुरू होने से इनकार करता है, तथा सॉफ़्टवेयर NU6.3 को समर्थन नहीं देता। Zebra का उपयोग करें। यदि आपके पास zcashd `wallet.dat` है, तो [माइग्रेशन गाइड: zcashd से Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet) का पालन करें।
+> **नोट:** zcashd सेवानिवृत्त हो चुका है। Electric Coin Company [ने अप्रचलन की घोषणा की](https://z.cash/support/zcashd-deprecation/), और स्वचालित End-of-Support अवरोध 18 जुलाई 2026 को ब्लॉक ऊंचाई 3417100 पर पहुंचा। प्रत्येक अपरिवर्तित zcashd 6.20.0 नोड उस ऊंचाई पर बंद हो गया और दोबारा शुरू होने से इनकार करता है, तथा सॉफ़्टवेयर NU6.3 को समर्थन नहीं देता। Zebra का उपयोग करें। यदि आपके पास zcashd `wallet.dat` है, तो [माइग्रेशन गाइड: zcashd से Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) का पालन करें।
 
 zcashd, Zcash के लिए मूल पूर्ण नोड कार्यान्वयन था, जिसे Electric Coin Company ने विकसित और बनाए रखा। नीचे दिए गए build निर्देश संदर्भ हेतु तथा zcashd से दूर migrate करने वाले operators के लिए रखे गए हैं।
 

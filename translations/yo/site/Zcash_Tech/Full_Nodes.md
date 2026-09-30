@@ -26,7 +26,7 @@ Zebra jẹ́ ìgbékalẹ̀ ìṣiṣẹ́ Zcash tí ó dá dúró, tí ó sì t
 
 Zebra jẹ́rìí sí àwọn ìdènà àti ìṣòwò, ó kópa nínú nẹ́tíwọ́ọ̀kì peer-to-peer, ó sì fi ìfọwọ́sowọ́pọ̀ RPC hàn fún àwọn ohun èlò. Àpò owó náà jẹ́ apá kan tí ó yàtọ̀ báyìí: [Zallet](https://github.com/zcash/zallet) Ó ń ṣiṣẹ́ lòdì sí nódù Zebra kan, ó sì ń lo àwọn kọ́kọ́rọ́ àti ìwọ̀n. Èyí rọ́pò zcashd, èyí tí ó so nódù àti àpò owó pọ̀ nínú iṣẹ́ kan ṣoṣo.
 
-Láti sin àwọn àpò ìpamọ́ tí a dáàbò bo, nọ́ńbà náà ń ṣiṣẹ́ pẹ̀lú olùtọ́kasí kan, yálà èyí tí a ti dá sílẹ̀ [lightwalletd](https://github.com/zcash/lightwalletd) tabi tuntun [Zaino](https://zechub.wiki/zaino).
+Láti sin àwọn àpò ìpamọ́ tí a dáàbò bo, nọ́ńbà náà ń ṣiṣẹ́ pẹ̀lú olùtọ́kasí kan, yálà èyí tí a ti dá sílẹ̀ [lightwalletd](https://github.com/zcash/lightwalletd) tabi tuntun [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
 Rí i dájú pé o ka ìwé Zebra fún àwọn ìtọ́ni ìṣètò, kí o sì dara pọ̀ mọ́ olupin R&D Discord fún ìrànlọ́wọ́.
 
@@ -42,7 +42,7 @@ Zakura jẹ́ nódù kejì tó bá ìfohùnṣọ̀kan mu, tí a fi Zebra ṣe, 
 
 ### zcashd (fẹ̀yìntì)
 
-> **Àkíyèsí:** zcashd ti fẹ̀yìntì. Electric Coin Company [kede idinku naa](https://z.cash/support/zcashd-deprecation/), a sì dé ìdádúró End-of-Support laifọwọyi ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026 ní gíga block 3417100. Gbogbo node zcashd 6.20.0 tí a kò yípadà a máa pa ní gíga yẹn a sì kọ̀ láti tún bẹ̀rẹ̀, software náà kò sì ní ìtìlẹ́yìn fún NU6.3. Lo Zebra. Tí o bá ní zcashd `wallet.dat`, tẹ̀lé [Ìtọ́sọ́nà Ìṣípòpadà: zcashd sí Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **Àkíyèsí:** zcashd ti fẹ̀yìntì. Electric Coin Company [kede idinku naa](https://z.cash/support/zcashd-deprecation/), a sì dé ìdádúró End-of-Support laifọwọyi ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026 ní gíga block 3417100. Gbogbo node zcashd 6.20.0 tí a kò yípadà a máa pa ní gíga yẹn a sì kọ̀ láti tún bẹ̀rẹ̀, software náà kò sì ní ìtìlẹ́yìn fún NU6.3. Lo Zebra. Tí o bá ní zcashd `wallet.dat`, tẹ̀lé [Ìtọ́sọ́nà Ìṣípòpadà: zcashd sí Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd ni ìṣètò Full Node àkọ́kọ́ fún Zcash, tí Electric Coin Company. Àwọn ìlànà ìkọ́lé tí ó wà ní ìsàlẹ̀ yìí wà fún ìtọ́kasí àti fún àwọn olùṣiṣẹ́ tí wọ́n ń ṣí lọ kúrò ní zcashd.
 

@@ -26,7 +26,7 @@ Zebra은 Zcash Foundation이 만들고 Rust로 작성한 Zcash 프로토콜의 �
 
 Zebra은 블록과 트랜잭션을 검증하고, 피어 투 피어 네트워크에 참여하며, 애플리케이션을 위한 RPC 인터페이스를 제공합니다. 이제 지갑은 별도 구성 요소입니다. [Zallet](https://github.com/zcash/zallet)은 Zebra 노드와 함께 실행되며 키와 잔액을 처리합니다. 이는 노드와 지갑을 단일 프로세스에 묶었던 zcashd을 대체합니다.
 
-차폐 라이트 지갑에 서비스를 제공하기 위해 노드는 기존의 [lightwalletd](https://github.com/zcash/lightwalletd) 또는 더 새로운 [Zaino](https://zechub.wiki/zaino) 인덱서와 함께 실행됩니다.
+차폐 라이트 지갑에 서비스를 제공하기 위해 노드는 기존의 [lightwalletd](https://github.com/zcash/lightwalletd) 또는 더 새로운 [Zaino](https://zechub.wiki/zcash-tech/zaino) 인덱서와 함께 실행됩니다.
 
 설정 방법은 반드시 Zebra 책을 읽어 보고, 지원이 필요하면 R&D Discord 서버에 참여하세요.
 
@@ -42,7 +42,7 @@ Zakura은 Zebra에서 포크되어 Valar Group과 Project Tachyon이 함께 개�
 
 ### zcashd (은퇴)
 
-> **참고:** zcashd은 은퇴했습니다. Electric Coin Company [지원 종료를 발표했으며](https://z.cash/support/zcashd-deprecation/), 자동 지원 종료 중단 시점은 2026년 7월 18일 블록 높이 3417100에서 도달했습니다. 수정되지 않은 모든 zcashd 6.20.0 노드는 해당 높이에서 종료되며 재시작을 거부하고, 소프트웨어는 NU6.3을 지원하지 않습니다. Zebra을 사용하세요. zcashd `wallet.dat`을 보유하고 있다면 [마이그레이션 가이드: zcashd에서 Zebrad/Zallet로](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet)를 따르세요.
+> **참고:** zcashd은 은퇴했습니다. Electric Coin Company [지원 종료를 발표했으며](https://z.cash/support/zcashd-deprecation/), 자동 지원 종료 중단 시점은 2026년 7월 18일 블록 높이 3417100에서 도달했습니다. 수정되지 않은 모든 zcashd 6.20.0 노드는 해당 높이에서 종료되며 재시작을 거부하고, 소프트웨어는 NU6.3을 지원하지 않습니다. Zebra을 사용하세요. zcashd `wallet.dat`을 보유하고 있다면 [마이그레이션 가이드: zcashd에서 Zebrad/Zallet로](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)를 따르세요.
 
 zcashd은 Zcash의 원래 풀 노드 구현체로, Electric Coin Company이 개발하고 유지 관리했습니다. 아래 빌드 지침은 참고용 및 zcashd에서 마이그레이션하는 운영자를 위해 유지됩니다.
 

@@ -26,7 +26,7 @@ Zebraは、Zcash Foundationによって作成され、Rustで記述された、Z
 
 Zebraはブロックとトランザクションを検証し、ピアツーピアネットワークに参加し、アプリケーション向けにRPCインターフェースを公開します。ウォレットは現在では別コンポーネントです。[Zallet](https://github.com/zcash/zallet)はZebraノードに対して動作し、鍵と残高を処理します。これは、ノードとウォレットを単一プロセスにまとめていたzcashdに置き換わるものです。
 
-シールドされたライトウォレットにサービスを提供するため、ノードは、既存の[lightwalletd](https://github.com/zcash/lightwalletd)または新しい[Zaino](https://zechub.wiki/zaino)のいずれかのインデクサーとともに実行されます。
+シールドされたライトウォレットにサービスを提供するため、ノードは、既存の[lightwalletd](https://github.com/zcash/lightwalletd)または新しい[Zaino](https://zechub.wiki/zcash-tech/zaino)のいずれかのインデクサーとともに実行されます。
 
 セットアップ手順については必ずZebraのブックを読み、サポートについてはR&D Discordサーバーに参加してください。
 
@@ -42,7 +42,7 @@ Zakuraは、Zebraからフォークされ、Valar GroupとProject Tachyonが共�
 
 ### zcashd（廃止）
 
-> **注記：** zcashdは廃止されました。Electric Coin Company [は](https://z.cash/support/zcashd-deprecation/)廃止を発表し、サポート終了による自動停止はブロック高3417100で2026年7月18日に到達しました。変更されていないすべてのzcashd 6.20.0ノードはそのブロック高で停止し、再起動を拒否します。また、このソフトウェアはNU6.3をサポートしていません。Zebraを使用してください。zcashd `wallet.dat`を保有している場合は、[移行ガイド：zcashdからZebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet)に従ってください。
+> **注記：** zcashdは廃止されました。Electric Coin Company [は](https://z.cash/support/zcashd-deprecation/)廃止を発表し、サポート終了による自動停止はブロック高3417100で2026年7月18日に到達しました。変更されていないすべてのzcashd 6.20.0ノードはそのブロック高で停止し、再起動を拒否します。また、このソフトウェアはNU6.3をサポートしていません。Zebraを使用してください。zcashd `wallet.dat`を保有している場合は、[移行ガイド：zcashdからZebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)に従ってください。
 
 zcashdは、Electric Coin Companyによって開発・保守された、Zcash向けの元々のフルノード実装でした。以下のビルド手順は、参照用およびzcashdから移行する運用者向けに残されています。
 

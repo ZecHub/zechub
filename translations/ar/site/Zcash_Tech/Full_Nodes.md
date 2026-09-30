@@ -26,7 +26,7 @@ Zebra هو تطبيق مستقل وجاهز للإنتاج لعقدة كاملة
 
 يتحقق Zebra من الكتل والمعاملات، ويشارك في شبكة الند للند، ويوفر واجهة RPC للتطبيقات. أصبحت المحفظة مكوناً منفصلاً الآن: يعمل [Zallet](https://github.com/zcash/zallet) مع عقدة Zebra ويتعامل مع المفاتيح والأرصدة. وهذا يحل محل zcashd، الذي كان يجمع العقدة والمحفظة في عملية واحدة.
 
-ولخدمة المحافظ الخفيفة المحمية، تعمل العقدة إلى جانب مفهرس، إما [lightwalletd](https://github.com/zcash/lightwalletd) الراسخ أو [Zaino](https://zechub.wiki/zaino) الأحدث.
+ولخدمة المحافظ الخفيفة المحمية، تعمل العقدة إلى جانب مفهرس، إما [lightwalletd](https://github.com/zcash/lightwalletd) الراسخ أو [Zaino](https://zechub.wiki/zcash-tech/zaino) الأحدث.
 
 احرص على قراءة كتاب Zebra للحصول على تعليمات الإعداد، وانضم إلى خادم البحث والتطوير Discord للحصول على الدعم.
 
@@ -42,7 +42,7 @@ Zakura هو عقدة كاملة ثانية متوافقة مع الإجماع، 
 
 ### zcashd (مُوقَف)
 
-> **ملاحظة:** تم إيقاف zcashd. أعلنت Electric Coin Company [إيقاف الدعم](https://z.cash/support/zcashd-deprecation/)، ووصل التوقف التلقائي عند نهاية الدعم في 18 يوليو 2026 عند ارتفاع الكتلة 3417100. توقفت كل عقدة zcashd 6.20.0 غير معدلة عند ذلك الارتفاع وترفض إعادة التشغيل، ولا يدعم البرنامج NU6.3. استخدم Zebra. إذا كنت تحتفظ بـ zcashd `wallet.dat`، فاتبع [دليل الترحيل: zcashd إلى Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **ملاحظة:** تم إيقاف zcashd. أعلنت Electric Coin Company [إيقاف الدعم](https://z.cash/support/zcashd-deprecation/)، ووصل التوقف التلقائي عند نهاية الدعم في 18 يوليو 2026 عند ارتفاع الكتلة 3417100. توقفت كل عقدة zcashd 6.20.0 غير معدلة عند ذلك الارتفاع وترفض إعادة التشغيل، ولا يدعم البرنامج NU6.3. استخدم Zebra. إذا كنت تحتفظ بـ zcashd `wallet.dat`، فاتبع [دليل الترحيل: zcashd إلى Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 كانت zcashd هي تطبيق العقدة الكاملة الأصلي لـ Zcash، وقد طورتها وصانتها Electric Coin Company. يُحتفظ بتعليمات البناء أدناه كمرجع ولمشغلي العقد الذين ينتقلون بعيداً عن zcashd.
 

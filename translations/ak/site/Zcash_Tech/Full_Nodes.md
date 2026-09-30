@@ -26,7 +26,7 @@ Zebra yɛ Zcash protocol no a ɛde ne ho, ayɛ krado sɛ ɛyɛ node a edi mũ a 
 
 Zebra di blocks ne transactions ho adanseɛ, ɛde ne ho hyɛ peer-to-peer network no mu, na ɛda RPC interface bi adi ma applications. Sika kotoku no yɛ ade a ɛyɛ soronko mprempren: [Zallet](https://github.com/zcash/zallet) tu mmirika tia Zebra node na ɛdi safe ne kari pɛ ho dwuma. Wei besi zcashd, a ɛboaboaa node ne sika kotoku no ano wɔ adeyɛ biako mu.
 
-Sɛnea ɛbɛyɛ na wɔasom sika kotoku a kanea a wɔabɔ ho ban no, node no tu mmirika kɔ indexer bi nkyɛn, anaasɛ nea wɔde asi hɔ no [lightwalletd](https://github.com/zcash/lightwalletd) anaa nea ɛyɛ foforo no [Zaino](https://zechub.wiki/zaino).
+Sɛnea ɛbɛyɛ na wɔasom sika kotoku a kanea a wɔabɔ ho ban no, node no tu mmirika kɔ indexer bi nkyɛn, anaasɛ nea wɔde asi hɔ no [lightwalletd](https://github.com/zcash/lightwalletd) anaa nea ɛyɛ foforo no [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
 Hwɛ sɛ wobɛkenkan Zebra nwoma no ama nhyehyeɛ akwankyerɛ, na kɔka R&D Discord server no ho na woanya mmoa.
 
@@ -42,7 +42,7 @@ Zakura yɛ node a ɛtɔ so mmienu a ɛne adwene hyia a ɛne ne ho hyia, a wɔde 
 
 ### zcashd (wɔakɔ pɛnhyen)
 
-> **Hyɛ no nsow:** zcashd akɔ pɛnhyen. Electric Coin Company [de too gua sɛ wɔabu no animtiaa](https://z.cash/support/zcashd-deprecation/), na wɔduruu automatic End-of-Support halt no so wɔ 18 July 2026 wɔ block height 3417100. zcashd 6.20.0 node biara a wɔansakra no no to mu wɔ saa sorokɔ no so na ɛpow sɛ ɛbɛsan ahyɛ aseɛ, na software no ntumi mmoa NU6.3. Fa Zebra. Sɛ wokura zcashd `wallet.dat`, di akyi [Akwankyerɛ a ɛfa atutra ho: zcashd kɔ Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **Hyɛ no nsow:** zcashd akɔ pɛnhyen. Electric Coin Company [de too gua sɛ wɔabu no animtiaa](https://z.cash/support/zcashd-deprecation/), na wɔduruu automatic End-of-Support halt no so wɔ 18 July 2026 wɔ block height 3417100. zcashd 6.20.0 node biara a wɔansakra no no to mu wɔ saa sorokɔ no so na ɛpow sɛ ɛbɛsan ahyɛ aseɛ, na software no ntumi mmoa NU6.3. Fa Zebra. Sɛ wokura zcashd `wallet.dat`, di akyi [Akwankyerɛ a ɛfa atutra ho: zcashd kɔ Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd yɛ mfitiaseɛ Full Node dwumadie ma Zcash, a Electric Coin Company. Wɔakora adansi akwankyerɛ a ɛwɔ aseɛ ha no so ama nhwɛsoɔ ne ama adwumayɛfoɔ a wɔretu afiri zcashd.
 

@@ -26,7 +26,7 @@ Zebra 是由 Zcash Foundation 创建、使用 Rust 编写的 Zcash 协议独立�
 
 Zebra 验证区块和交易、参与点对点网络，并为应用程序提供 RPC 接口。钱包现在是一个独立组件：[Zallet](https://github.com/zcash/zallet) 与 Zebra 节点配合运行，负责处理密钥和余额。这取代了将节点和钱包捆绑在单一进程中的 zcashd。
 
-要为屏蔽轻钱包提供服务，节点需与索引器一同运行，可以使用已成熟的 [lightwalletd](https://github.com/zcash/lightwalletd)，或较新的 [Zaino](https://zechub.wiki/zaino)。
+要为屏蔽轻钱包提供服务，节点需与索引器一同运行，可以使用已成熟的 [lightwalletd](https://github.com/zcash/lightwalletd)，或较新的 [Zaino](https://zechub.wiki/zcash-tech/zaino)。
 
 请务必阅读 Zebra 手册以获取设置说明，并加入 R&D Discord 服务器寻求支持。
 
@@ -42,7 +42,7 @@ Zakura 是第二种兼容共识的全节点，从 Zebra 分叉而来，由 Valar
 
 ### zcashd（已退役）
 
-> **注意：**zcashd 已退役。Electric Coin Company [宣布弃用](https://z.cash/support/zcashd-deprecation/)，支持终止自动停机于 2026 年 7 月 18 日在区块高度 3417100 时生效。所有未经修改的 zcashd 6.20.0 节点均在该高度关闭并拒绝重新启动，该软件也不支持 NU6.3。请使用 Zebra。如果你持有 zcashd `wallet.dat`，请遵循 [迁移指南：从 zcashd 迁移至 Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet)。
+> **注意：**zcashd 已退役。Electric Coin Company [宣布弃用](https://z.cash/support/zcashd-deprecation/)，支持终止自动停机于 2026 年 7 月 18 日在区块高度 3417100 时生效。所有未经修改的 zcashd 6.20.0 节点均在该高度关闭并拒绝重新启动，该软件也不支持 NU6.3。请使用 Zebra。如果你持有 zcashd `wallet.dat`，请遵循 [迁移指南：从 zcashd 迁移至 Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)。
 
 zcashd 是 Zcash 的原始全节点实现，由 Electric Coin Company 开发和维护。下方保留构建说明，供参考以及供从 zcashd 迁出的运营者使用。
 

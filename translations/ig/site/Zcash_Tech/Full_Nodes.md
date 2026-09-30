@@ -26,7 +26,7 @@ Zebra bụ mmejuputa usoro Zcash nke nwere onwe ya, nke dị njikere imepụta, 
 
 Zebra na-akwado ngọngọ na azụmahịa, na-esonye na netwọk peer-to-peer, ma na-ekpughe njikọ RPC maka ngwa. Akpa ego ahụ bụ ihe dị iche ugbu a: [Zallet](https://github.com/zcash/zallet) Ọ na-agba ọsọ megide oghere Zebra ma na-ejikwa igodo na nhazi. Nke a na-anọchi zcashd, nke jikọtara oghere na obere akpa n'otu usoro.
 
-Iji jee ozi obere akpa ọkụ echekwara, node ahụ na-agba ọsọ n'akụkụ ihe ngosi indexer, ma ọ bụ nke edobere [lightwalletd](https://github.com/zcash/lightwalletd) ma ọ bụ nke ọhụrụ [Zaino](https://zechub.wiki/zaino).
+Iji jee ozi obere akpa ọkụ echekwara, node ahụ na-agba ọsọ n'akụkụ ihe ngosi indexer, ma ọ bụ nke edobere [lightwalletd](https://github.com/zcash/lightwalletd) ma ọ bụ nke ọhụrụ [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
 Jide n'aka na ị gụrụ akwụkwọ Zebra maka ntuziaka nhazi, ma sonye na sava R&D Discord maka nkwado.
 
@@ -42,7 +42,7 @@ Zakura bụ otu n'ime ihe abụọ a na-akpọ "full node" nke kwekọrọ na nk
 
 ### zcashd (ezumike nká)
 
-> **Rịba ama:** zcashd alaala ezumike nka. Electric Coin Company [kwupụtara mbelata ahụ](https://z.cash/support/zcashd-deprecation/), e wee ruo nkwụsị End-of-Support ozugbo na 18 Julaị 2026 na elu blọk 3417100. Ọ bụla zcashd 6.20.0 nke a na-agbanwebeghị na-emechi n'ogo ahụ ma jụ ịmalitegharịa, ngwanrọ ahụ anaghịkwa akwado NU6.3. Jiri Zebra. Ọ bụrụ na ị nwere zcashd `wallet.dat`, soro [Nduzi Mbugharị: zcashd gaa Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **Rịba ama:** zcashd alaala ezumike nka. Electric Coin Company [kwupụtara mbelata ahụ](https://z.cash/support/zcashd-deprecation/), e wee ruo nkwụsị End-of-Support ozugbo na 18 Julaị 2026 na elu blọk 3417100. Ọ bụla zcashd 6.20.0 nke a na-agbanwebeghị na-emechi n'ogo ahụ ma jụ ịmalitegharịa, ngwanrọ ahụ anaghịkwa akwado NU6.3. Jiri Zebra. Ọ bụrụ na ị nwere zcashd `wallet.dat`, soro [Nduzi Mbugharị: zcashd gaa Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd bụ ọrụ mbụ e ji mee ihe maka Zcash, nke Electric Coin Company. Ntuziaka owuwu dị n'okpuru ka edobere maka ntụaka na maka ndị ọrụ si na zcashd.
 

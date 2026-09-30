@@ -26,7 +26,7 @@ Zebra es una implementación independiente de nodo completo, lista para producci
 
 Zebra valida bloques y transacciones, participa en la red peer-to-peer y expone una interfaz RPC para aplicaciones. La wallet ahora es un componente independiente: [Zallet](https://github.com/zcash/zallet) se ejecuta con un nodo Zebra y gestiona las claves y los saldos. Esto sustituye a zcashd, que agrupaba el nodo y la wallet en un único proceso.
 
-Para servir wallets ligeras blindadas, el nodo se ejecuta junto a un indexador, ya sea el consolidado [lightwalletd](https://github.com/zcash/lightwalletd) o el más reciente [Zaino](https://zechub.wiki/zaino).
+Para servir wallets ligeras blindadas, el nodo se ejecuta junto a un indexador, ya sea el consolidado [lightwalletd](https://github.com/zcash/lightwalletd) o el más reciente [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
 Asegúrate de leer el libro de Zebra para obtener instrucciones de instalación, y únete al servidor de I+D de Discord para recibir ayuda.
 
@@ -42,7 +42,7 @@ Zakura es un segundo nodo completo compatible con el consenso, bifurcado de Zebr
 
 ### zcashd (retirado)
 
-> **Nota:** zcashd ha sido retirado. Electric Coin Company [anunció la retirada](https://z.cash/support/zcashd-deprecation/), y la detención automática de fin de soporte se alcanzó el 18 de julio de 2026, a la altura de bloque 3417100. Cada nodo zcashd 6.20.0 sin modificar se apagó a esa altura y se niega a reiniciarse, y el software no es compatible con NU6.3. Usa Zebra. Si tienes una zcashd `wallet.dat`, sigue la [Guía de migración: zcashd a Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **Nota:** zcashd ha sido retirado. Electric Coin Company [anunció la retirada](https://z.cash/support/zcashd-deprecation/), y la detención automática de fin de soporte se alcanzó el 18 de julio de 2026, a la altura de bloque 3417100. Cada nodo zcashd 6.20.0 sin modificar se apagó a esa altura y se niega a reiniciarse, y el software no es compatible con NU6.3. Usa Zebra. Si tienes una zcashd `wallet.dat`, sigue la [Guía de migración: zcashd a Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd fue la implementación original de nodo completo para Zcash, desarrollada y mantenida por Electric Coin Company. Las instrucciones de compilación a continuación se conservan como referencia y para los operadores que migran desde zcashd.
 
