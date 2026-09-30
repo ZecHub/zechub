@@ -12,7 +12,7 @@ Canopy, Zcash’in beşinci ağ yükseltmesidir ve Ağ Yükseltmesi 4 (NU4) olar
 
 Bu neden önemli? Zcash’in arkasında bir şirket olmadığı için kendi geliştirmesini blok ödüllerinden finanse eder. İlk yıllarını finanse eden kurucu ödülünün, ilk yarılanmada sona ermesi planlanmıştı. Canopy bunun yerine geçti: her blok ödülünün sabit bir payını bir Development Fund’a yönlendirdi ve bunu kimin alacağını belirledi. Bu model, [NU6.1](../zcash-tech/nu6-1) dahil olmak üzere sonraki yükseltmelerle daha da geliştirildi.
 
-![Canopy’den önce kurucu ödülü geliştirmeyi finanse ediyordu ve ilk yarılanmada sona ermesi planlanmıştı. Canopy’den sonra Development Fund, her blok ödülünün yüzde 20’sini alır ve 2024’teki ikinci yarılanmaya kadar devam eder](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![Canopy’den önce kurucu ödülü geliştirmeyi finanse ediyordu ve ilk yarılanmada sona ermesi planlanmıştı. Canopy’den sonra Development Fund, her blok ödülünün yüzde 20’sini alır ve 2024’teki ikinci yarılanmaya kadar devam eder](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## Geliştirme fonu
 
@@ -30,7 +30,7 @@ Development Fund, her blok ödülünün yüzde 20’sini alır. Madenciler diğe
 
 Sadece fon yerine toplam blok ödülüne göre ölçüldüğünde, bu paylar Electric Coin Company için yüzde 7, Zcash Foundation için yüzde 5 ve Major Grants için yüzde 8 eder. Bunları anlatmanın iki yolu da aynı sayıları ifade eder.
 
-![Development Fund, her blok ödülünün yüzde 20’sidir; bunun yüzde 35’i Bootstrap ve Electric Coin Company’ye, yüzde 25’i Zcash Foundation’a ve yüzde 40’ı Major Grants’e bölünür](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![Development Fund, her blok ödülünün yüzde 20’sidir; bunun yüzde 35’i Bootstrap ve Electric Coin Company’ye, yüzde 25’i Zcash Foundation’a ve yüzde 40’ı Major Grants’e bölünür](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## Sprout havuzu değişikliği
 
@@ -38,7 +38,7 @@ Canopy ayrıca en eski shielded havuzun emekliye ayrılmasını da başlattı. S
 
 Canopy etkinleştiği andan itibaren Sprout havuzuna yeni değer eklenemez. Teknik olarak, her JoinSplit’in vpub_old alanı sıfır olmak zorundadır. Sprout’ta zaten bulunan fonlar hâlâ çekilebilir, yani kimse erişim dışında kalmaz; ancak havuz artık yalnızca küçülebilir. Bu, eski Sprout havuzunun zamanla daha yeni shielded havuzlar lehine kullanımdan kaldırılmasına yönelik ilk adımdır.
 
-![Canopy’den önce değer Sprout havuzuna hem girebilir hem de çıkabilirdi. Canopy’den sonra yeni değer giremez ama çekimlere hâlâ izin verilir](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![Canopy’den önce değer Sprout havuzuna hem girebilir hem de çıkabilirdi. Canopy’den sonra yeni değer giremez ama çekimlere hâlâ izin verilir](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## Teknik ekler
 

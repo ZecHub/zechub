@@ -18,7 +18,7 @@ Orchard é o protocolo blindado mais recente da Zcash, definido na [ZIP 224](htt
 
 Tanto Sprout como Sapling dependiam de um trusted setup. Um grupo de pessoas realizou uma cerimónia para construir os parâmetros de cada pool, e todos tinham de confiar que pelo menos uma delas destruiu a sua parte do segredo. Orchard remove essa suposição. As pools mais antigas continuam a existir após a NU5, por isso a garantia de ausência de setup aplica-se aos fundos que detém na pool Orchard.
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## O que a NU5 mudou
 
@@ -37,7 +37,7 @@ A NU5 também atualizou várias ZIPs existentes (32, 203, 209, 212, 213, 221 e 4
 
 Antes da NU5, cada pool tinha o seu próprio tipo de endereço, e um remetente tinha de saber qual o tipo que queria. Os endereços unificados, definidos na [ZIP 316](https://zips.z.cash/zip-0316), mudam isso. Um único endereço unificado pode agrupar receivers para mais de uma pool, por isso a wallet do remetente escolhe simplesmente o melhor que suporta.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 As unified viewing keys funcionam da mesma forma para visualização. Dão visibilidade só de leitura entre as pools abrangidas por um endereço. Para saber mais sobre isso, consulte a página [Viewing Keys](../zcash-tech/viewing-keys).
 

@@ -22,7 +22,7 @@ Zcash ma wo kwan a wobɛpaw mmom. Wɔyɛ saa paw no mprenu: **pɛnkoro bere a wo
 
 Mfonini a ɛwɔ ase ha no ka abien no nyinaa ho asɛm.
 
-![Zcash key types and what a block explorer can see for each of the four transaction paths](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash key types and what a block explorer can see for each of the four transaction paths](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

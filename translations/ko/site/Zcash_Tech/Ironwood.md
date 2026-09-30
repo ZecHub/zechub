@@ -14,7 +14,7 @@ Ironwood는 Zcash의 [네트워크 업그레이드](../start-here/network-upgrad
 
 Zcash가 처음이신가요? 먼저 [ZEC와 Zcash란 무엇인가](../start-here/what-is-zec-and-zcash)와 [Shielded Pools](../using-zcash/shielded-pools)를 읽고, 다시 이 문서로 돌아오세요.
 
-![Ironwood 가치 마이그레이션 흐름: 가치가 Orchard 풀을 떠나 턴스타일 점검 지점을 통과한 뒤 새로운 Ironwood 풀로 들어갑니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood 가치 마이그레이션 흐름: 가치가 Orchard 풀을 떠나 턴스타일 점검 지점을 통과한 뒤 새로운 Ironwood 풀로 들어갑니다](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Ironwood가 필요했던 이유
 
@@ -24,7 +24,7 @@ Zcash가 처음이신가요? 먼저 [ZEC와 Zcash란 무엇인가](../start-here
 2. 이론적으로 공격자는 이 결함을 이용해 Orchard 풀 내부에서 유효하지 않은 가치를 위조하고, 실제로 자기 것이 아닌 자금을 써버릴 수 있었으며, 일반 노드가 잡아낼 흔적도 남기지 않을 수 있었습니다.
 3. Zcash의 턴스타일은 여전히 Orchard에서 빠져나갈 수 있는 가치의 총량에 상한을 두었기 때문에 총공급량이 부풀려질 수는 없었지만, 풀 자체의 암호학은 더 이상 그 안에 숨겨진 모든 코인이 진짜임을 보장하지 못했습니다.
 
-![버그 설명: 거래에 5 ZEC를 넣었지만, 결함 있는 증명은 7 ZEC가 나와도 통과되어 아무것도 없는 곳에서 2 ZEC를 만들어냅니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![버그 설명: 거래에 5 ZEC를 넣었지만, 결함 있는 증명은 7 ZEC가 나와도 통과되어 아무것도 없는 곳에서 2 ZEC를 만들어냅니다](/content-images/ironwood-bug-8f689d6f61.webp)
 
 위 숫자는 단순화된 예시입니다. 실제 결함은 코인이 들어오고 나가는 개수를 문자 그대로 세는 문제가 아니라, 회로 수학의 특정 부분에 있었습니다. 여기서 핵심은 soundness bug가 탐지되지 않은 채 풀 내부에서 가치가 생성되게 할 수 있다는 점입니다.
 
@@ -34,13 +34,13 @@ Zcash가 처음이신가요? 먼저 [ZEC와 Zcash란 무엇인가](../start-here
 
 Zcash 커뮤니티는 모든 것을 한 번에 처리하기보다 단계적으로 수정 사항을 배포했습니다.
 
-![Ironwood 대응 타임라인: Orchard 버그는 2026년 5월에 발견되고, 풀은 2026년 6월에 일시 중지되며, 회로는 NU6.2에서 수정되고, Ironwood는 2026년 7월 28일 블록 3,428,143에서 활성화되었습니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood 대응 타임라인: Orchard 버그는 2026년 5월에 발견되고, 풀은 2026년 6월에 일시 중지되며, 회로는 NU6.2에서 수정되고, Ironwood는 2026년 7월 28일 블록 3,428,143에서 활성화되었습니다](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. 2026년 6월 초, 전체 수정이 준비되는 동안 임시 조치로 Orchard 풀이 비활성화되었습니다.
 2. NU6.2 업그레이드는 Orchard 회로 자체를 수정하여, 근본적인 soundness 취약점을 막았습니다.
 3. NU6.3 업그레이드인 Ironwood는 새로운 shielded 풀과 공개 점검 지점을 도입하여, 가치가 완전한 감사 아래 기존 Orchard 풀에서 빠져나올 수 있게 합니다.
 
-![NU6.2의 수정: 수정된 증명은 입력과 출력이 같아야 하므로, 올바른 5 ZEC 출력은 통과하고 7 ZEC를 출력하려는 시도는 거부됩니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![NU6.2의 수정: 수정된 증명은 입력과 출력이 같아야 하므로, 올바른 5 ZEC 출력은 통과하고 7 ZEC를 출력하려는 시도는 거부됩니다](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ironwood 풀이 하는 일
 

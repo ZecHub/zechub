@@ -22,7 +22,7 @@ Zcash fún ọ ní àyè láti yan. Ààyè yìí ni a ṣe lẹ́ẹ̀mejì: **
 
 Àwòrán tó wà nísàlẹ̀ yìí ṣàpèjúwe méjèèjì.
 
-![Zcash key types and what a block explorer can see for each of the four transaction paths](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash key types and what a block explorer can see for each of the four transaction paths](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

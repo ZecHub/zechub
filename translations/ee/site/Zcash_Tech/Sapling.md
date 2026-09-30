@@ -16,7 +16,7 @@ Nusitae esia le vevie ɖo. Do ŋgɔ na Sapling la, ame ŋutɔ ƒe fexexe ŋutɔ�
 
 Sapling ƒe dzi nye mɔnu si le kabakaba wu si dzi woato atu sidzedze zero-sidzedze ƒe kpeɖodzi si naa asitsatsa si wokpɔ ta na la nɔa ɣaɣla. Sprout ƒe nɔnɔme gbãtɔ zã kpeɖodzi nutome sue ɖeka (JoinSplit nutome) si nɔa blewu eye ŋkuɖodzinyawo ƒe dɔ nɔa eŋu. Sapling tsɔ nutome eve siwo wotu ɖe taɖodzinu aɖe ta, Spend nutome kple Output nutome, si ŋu woƒo nu tsoe le Zcash Protocol Specification me, ɖɔ li. Nusi dona tso emee nye gazazã ƒe ɖiɖi gã aɖe. Le Electric Coin Company ƒe nya nu la, woate ŋu atu asitsatsa si ŋu wokpɔ ta na le sɛkɛnd ʋɛ aɖewo ko me to ŋkuɖodzinu si ade megabyte 40 zazã me. Gɔmedzedze si nɔ anyi do ŋgɔ na Sapling Sprout la kpekpe wu sã, le aɖabaƒoƒo kple ŋkuɖodzinu gigabyte geɖe ƒe ɖoɖo nu (Sprout ƒe akpa dzi xexlẽdzesi siawoe nye gɔmedzedze si gogo si woyɔ le afisiafi).
 
-![Sprout versus Sapling shielded transaction cost](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Sprout versus Sapling shielded transaction cost](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## Safui yeyewo
 
@@ -24,7 +24,7 @@ Sapling to adrɛs kple safui yeye aɖe hã vɛ. Safui ɖeka ate ŋu akpɔ adrɛs
 
 Tɔtrɔ si do ƒome kplii enye be Sapling ma kpeɖodzia tutudɔa kple asidede asitsatsa la te ƒe dɔa dome. Mehiã be mɔ̃ si wɔa zero-sidzedze ƒe kpeɖodzia nanye mɔ̃ si lé gazazã ƒe ŋusẽ ɖe asi o. Decoupling siae nye nusi naa hardware gakotoku nana wò gazazã ƒe safuia ɖea eɖokui ɖe aga esime mɔ̃ si le eɖokui si wɔa kpeɖodzidɔ si kpekpe wu.
 
-![Proving device hands the proof to a separate signing device](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![Proving device hands the proof to a separate signing device](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## Ðoɖo si dzi woka ɖo
 
@@ -34,7 +34,7 @@ Sapling ƒe nutome suewo ɖoa ŋu ɖe dutoƒo parameters ƒe hatsotso aɖe si w�
 
 Sapling kplɔ Overwinter, si nye June 2018 ƒe tɔtrɔ si dzra network la ƒe dodoɖeŋgɔ ƒe mɔnu ɖo. Electric Coin Company ɖo mainnet ƒe dɔwɔwɔ ƒe kɔkɔme le zcashd 2.0.0 me, si woɖe ɖe go le August 2018 me, eye network la trɔ ɖe Sapling ƒe sewo ŋu esime woɖe block 419,200. Le kɔsɔkɔsɔ dzi la, wotsɔa Sapling ƒe nukpɔsusu ɖeka ƒe alɔdze id dea dzesi ɣeyiɣi ma.
 
-![Timeline from Zcash launch to Sapling activation](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## Nyagɔmeɖegbalẽ
 

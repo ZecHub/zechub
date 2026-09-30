@@ -14,7 +14,7 @@ Ironwood 是 Zcash 的一次[网络升级](../start-here/network-upgrades)，正
 
 刚接触 Zcash？先阅读[什么是 ZEC 和 Zcash](../start-here/what-is-zec-and-zcash)以及[屏蔽池](../using-zcash/shielded-pools)，然后再回到这里。
 
-![Ironwood 价值迁移流程：价值离开 Orchard 池，经过 turnstile 检查点，并进入新的 Ironwood 池](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood 价值迁移流程：价值离开 Orchard 池，经过 turnstile 检查点，并进入新的 Ironwood 池](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## 为什么需要 Ironwood
 
@@ -24,7 +24,7 @@ Ironwood 是 Zcash 的一次[网络升级](../start-here/network-upgrades)，正
 2. 理论上，攻击者可能利用这一缺陷在 Orchard 池内部伪造无效价值，并花费实际上并不属于他们的资金，而且不会留下任何普通节点能够捕捉到的痕迹。
 3. Zcash 的 turnstile 仍然限制了 Orchard 最多能够流出多少价值，因此总供应量不可能被膨胀，但该池自身的密码学已不再能够保证其中每一枚隐藏币都是真实的。
 
-![漏洞说明：一笔交易放入 5 ZEC，但存在缺陷的证明在输出 7 ZEC 时仍然会通过，从而凭空创造出 2 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![漏洞说明：一笔交易放入 5 ZEC，但存在缺陷的证明在输出 7 ZEC 时仍然会通过，从而凭空创造出 2 ZEC](/content-images/ironwood-bug-8f689d6f61.webp)
 
 上面的数字只是一个简化示意。真正的缺陷存在于电路数学中的一个特定部分，而不是字面意义上的币进出数量统计。这里要理解的重点只是：可靠性漏洞可能让价值在池内被创造出来而无法被发现。
 
@@ -34,13 +34,13 @@ Ironwood 是 Zcash 的一次[网络升级](../start-here/network-upgrades)，正
 
 Zcash 社区分阶段推出修复，而不是一次性全部完成。
 
-![Ironwood 响应时间线：Orchard 漏洞于 2026 年 5 月被发现，池子于 2026 年 6 月暂停，电路在 NU6.2 中被修复，而 Ironwood 于 2026 年 7 月 28 日在区块 3,428,143 激活](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood 响应时间线：Orchard 漏洞于 2026 年 5 月被发现，池子于 2026 年 6 月暂停，电路在 NU6.2 中被修复，而 Ironwood 于 2026 年 7 月 28 日在区块 3,428,143 激活](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. 2026 年 6 月上旬，一项临时措施禁用了 Orchard 池，以便为完整修复争取时间。
 2. NU6.2 升级修正了 Orchard 电路本身，堵上了底层的可靠性漏洞。
 3. NU6.3 升级，也就是 Ironwood，引入了一个全新的屏蔽池和一个公开检查点，使价值能够在完全审计下从旧的 Orchard 池迁移出去。
 
-![NU6.2 中的修复：修正后的证明要求输入等于输出，因此合法的 5 ZEC 输出会通过，而试图输出 7 ZEC 的行为会被拒绝](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![NU6.2 中的修复：修正后的证明要求输入等于输出，因此合法的 5 ZEC 输出会通过，而试图输出 7 ZEC 的行为会被拒绝](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ironwood 池的作用
 

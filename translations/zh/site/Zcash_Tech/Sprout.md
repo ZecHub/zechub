@@ -16,19 +16,19 @@ Sprout 是 Zcash 网络最初的发布版本，而不是后来的[网络升级](
 
 Sprout 创建了两种地址。透明地址（t-address）像 Bitcoin 一样，细节会显示在公开账本上。屏蔽地址（z-address）则将资金发送到 Sprout 的[屏蔽池](../using-zcash/shielded-pools)中，在那里发送方、接收方和金额都会被隐藏。其关键技术是[zk-SNARKs](../zcash-tech/zk-snarks)，也就是零知识证明，它能让一笔交易在不泄露任何细节的前提下，证明其有效、没有双花且收支平衡。Sprout 是这项技术首次在真实运行的加密货币生产环境中落地。
 
-![透明交易会暴露发送方、接收方和金额，而 Sprout 屏蔽交易会隐藏这三者，同时仍然可验证](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![透明交易会暴露发送方、接收方和金额，而 Sprout 屏蔽交易会隐藏这三者，同时仍然可验证](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Ceremony
 
 Sprout 中的 zk-SNARKs 需要一组公共参数，而安全生成这些参数需要一次性的初始化过程，这就是 Ceremony。六位位于不同且相距遥远地点的参与者各自生成了一部分秘密，被称为 toxic waste。如果有人将所有这些部分重新拼合起来，他们就可能凭空伪造出 ZEC。这个设计把风险转化为一条简单规则：只要至少有一位参与者销毁了自己的那一部分，完整的秘密就永远无法被重建，因此伪造就不可能发生。已公开身份的参与者包括 Zooko Wilcox、Andrew Miller、Peter Van Valkenburgh、Peter Todd，以及 NCC Group 的 Derek Hinch。还有一位参与者选择保持匿名。
 
-![Ceremony：六位参与者生成私密碎片，然后销毁 toxic waste，最终只留下公开的 Sprout 参数](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![Ceremony：六位参与者生成私密碎片，然后销毁 toxic waste，最终只留下公开的 Sprout 参数](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## 起源
 
 Sprout 是之后所有变更所建立的基线。当网络升级机制随着 Overwinter 一起到来时，它将原始规则标记为共识分支 id 0，这只是表示尚未应用任何升级。此后的一切（Overwinter、Sapling、Blossom、Heartwood、Canopy、NU5、NU6，以及后续版本）都建立在由 Sprout 启动的这条链之上。该发布于 2016 年 8 月宣布，创世时间定于 10 月 28 日；Ceremony 在此前几周进行；而创世区块中硬编码的时间戳显示为 2016 年 10 月 28 日 07:56 UTC。
 
-![从 2016 年 8 月的发布公告，到参数 Ceremony，再到 2016 年 10 月 28 日的 Sprout 上线时间线](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![从 2016 年 8 月的发布公告，到参数 Ceremony，再到 2016 年 10 月 28 日的 Sprout 上线时间线](/content-images/sprout-timeline-348766352a.webp)
 
 ## 术语表
 

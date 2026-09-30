@@ -18,7 +18,7 @@ Heartwood 在预先设定的区块高度（903,000）激活，而不是在固定
 
 coinbase 交易是用于支付区块奖励的特殊交易。Heartwood 之前，它的输出必须是透明的，因此矿工新铸造的 ZEC 总是从一个公开地址开始其生命周期。Heartwood 修改了共识规则，因此用 ZIP 213 的原话来说，coinbase 交易可以包含 Sapling 输出。通俗地说，矿工现在可以直接将奖励领取到屏蔽的 Sapling 地址。透明的 coinbase 输出仍然受支持，因此这是一项新选择，而不是强制变更。
 
-![在 Heartwood 之前，矿工的区块奖励必须发送到一个透明的公开地址。Heartwood 之后，coinbase 交易可以包含 Sapling 输出，因此奖励可以直接发送到屏蔽地址](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![在 Heartwood 之前，矿工的区块奖励必须发送到一个透明的公开地址。Heartwood 之后，coinbase 交易可以包含 Sapling 输出，因此奖励可以直接发送到屏蔽地址](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## 为什么先是 Sapling
 
@@ -28,13 +28,13 @@ coinbase 交易是用于支付区块奖励的特殊交易。Heartwood 之前，�
 
 Heartwood 还改变了区块头所承诺的内容。此前名为 hashFinalSaplingRoot 的区块头字段被重新利用并重命名为 hashLightClientRoot。它现在承诺的是一个 Merkle Mountain Range（MMR）的根，这是一个基于先前区块的区块头数据和元数据（如时间戳、难度目标、Sapling 根、累计工作量和交易数量）构建的持续运行结构。这个承诺使轻量客户端或外部链能够使用一个很小的证明来验证 Zcash 的工作量证明，而该证明的大小只会随着链长度按对数方式增长。其好处是更好的轻量客户端钱包，以及更容易进行第三方和跨链集成，因为客户端不再需要下载每一个区块，才能信任这条链背后的工作量。
 
-![FlyClient 流程：每个区块的区块头数据都会被承诺进一个 Merkle Mountain Range 根（hashLightClientRoot）中，这让轻量客户端能够使用一个小型、对数大小的证明来验证工作量证明](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![FlyClient 流程：每个区块的区块头数据都会被承诺进一个 Merkle Mountain Range 根（hashLightClientRoot）中，这让轻量客户端能够使用一个小型、对数大小的证明来验证工作量证明](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Heartwood 的位置
 
 Heartwood 是 Zcash 一系列升级中的一步，每次升级都会增加下一次升级所依赖的一部分能力。Overwinter 和 Sapling 于 2018 年推出，Blossom 于 2019 年推出，而 Heartwood 于 2020 年在区块 903,000 处激活。Canopy 随后于 2020 年晚些时候在区块 1,046,400 处激活。对 Heartwood 而言，Sapling 是这条链中的关键环节：它高效的屏蔽交易机制，是屏蔽 coinbase 成为可能的技术前提。
 
-![Zcash 升级时间线：2018 年的 Overwinter 和 Sapling，2019 年的 Blossom，以及 2020 年的 Heartwood](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Zcash 升级时间线：2018 年的 Overwinter 和 Sapling，2019 年的 Blossom，以及 2020 年的 Heartwood](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## 术语表
 

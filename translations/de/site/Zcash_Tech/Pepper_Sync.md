@@ -52,9 +52,9 @@ Das Lesezeichen ist der wichtige Teil. Jede frühere Version behandelte eine unt
 
 ### Visuelle Anleitungen
 
-- Detaillierter Ablauf - Zeigt den vollständigen Prozess. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Detaillierter Ablauf - Zeigt den vollständigen Prozess. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Vereinfachter Ablauf - Schnelle Übersicht für alltägliche Nutzer. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Vereinfachter Ablauf - Schnelle Übersicht für alltägliche Nutzer. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## Detaillierter Einblick
 

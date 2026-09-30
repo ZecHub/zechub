@@ -18,7 +18,7 @@ Pourquoi c’est important. Les mineurs gagnent des ZEC nouvellement créés cha
 
 La transaction coinbase est la transaction spéciale qui verse la récompense de bloc. Avant Heartwood, ses sorties devaient être transparentes, de sorte que les ZEC nouvellement créés d’un mineur commençaient toujours leur existence dans une adresse publique. Heartwood a modifié les règles de consensus pour que, selon les termes de la ZIP 213, les transactions coinbase puissent contenir des sorties Sapling. En termes simples, les mineurs peuvent désormais recevoir leurs récompenses directement dans des adresses Sapling blindées. Les sorties coinbase transparentes sont toujours prises en charge, il s’agit donc d’une nouvelle option, pas d’un changement imposé.
 
-![Avant Heartwood, la récompense de bloc d’un mineur devait aller vers une adresse publique transparente. Après Heartwood, les transactions coinbase peuvent contenir des sorties Sapling, donc la récompense peut aller directement vers une adresse blindée](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![Avant Heartwood, la récompense de bloc d’un mineur devait aller vers une adresse publique transparente. Après Heartwood, les transactions coinbase peuvent contenir des sorties Sapling, donc la récompense peut aller directement vers une adresse blindée](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## Pourquoi Sapling d’abord
 
@@ -28,13 +28,13 @@ Le coinbase blindé cible spécifiquement les sorties Sapling, et il y a une rai
 
 Heartwood a également modifié ce à quoi un en-tête de bloc s’engage. Le champ de l’en-tête auparavant nommé hashFinalSaplingRoot a été réaffecté et renommé hashLightClientRoot. Il s’engage désormais sur la racine d’un Merkle Mountain Range (MMR), une structure évolutive construite à partir des données d’en-tête et des métadonnées des blocs précédents, comme les horodatages, les cibles de difficulté, les racines Sapling, le travail accumulé et le nombre de transactions. Cet engagement permet à un client léger, ou à une chaîne externe, de vérifier la preuve de travail de Zcash à l’aide d’une petite preuve dont la taille n’augmente que logarithmiquement avec la longueur de la chaîne. Le bénéfice est de meilleurs wallets de clients légers et une intégration tierce et cross-chain plus facile, parce qu’un client n’a plus besoin de télécharger chaque bloc pour faire confiance au travail derrière la chaîne.
 
-![Flux FlyClient : les données d’en-tête de chaque bloc sont engagées dans une racine de Merkle Mountain Range (hashLightClientRoot), ce qui permet à un client léger de vérifier la preuve de travail avec une petite preuve de taille logarithmique](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![Flux FlyClient : les données d’en-tête de chaque bloc sont engagées dans une racine de Merkle Mountain Range (hashLightClientRoot), ce qui permet à un client léger de vérifier la preuve de travail avec une petite preuve de taille logarithmique](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Où se situe Heartwood
 
 Heartwood est une étape dans une série de mises à niveau de Zcash, chacune ajoutant un élément sur lequel la suivante s’appuie. Overwinter et Sapling sont arrivées en 2018, Blossom en 2019, et Heartwood en 2020 au bloc 903 000. Canopy a suivi plus tard en 2020 au bloc 1 046 400. Sapling est le maillon clé de cette chaîne pour Heartwood : son mécanisme efficace de transactions blindées était la condition technique préalable qui a rendu possible le coinbase blindé.
 
-![Chronologie des mises à niveau de Zcash : Overwinter et Sapling en 2018, Blossom en 2019, et Heartwood en 2020](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Chronologie des mises à niveau de Zcash : Overwinter et Sapling en 2018, Blossom en 2019, et Heartwood en 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## Glossaire
 

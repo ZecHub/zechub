@@ -52,9 +52,9 @@ Zingo 2.0 هو أحدث إصدار من محفظة Zingo!، وهي محفظة خ
 
 ### أدلة مرئية
 
-- التدفق التفصيلي - يوضح العملية الكاملة. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- التدفق التفصيلي - يوضح العملية الكاملة. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- التدفق المبسّط - نظرة سريعة للمستخدمين اليوميين. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- التدفق المبسّط - نظرة سريعة للمستخدمين اليوميين. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## تعمّق أكثر
 

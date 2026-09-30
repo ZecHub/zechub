@@ -21,13 +21,13 @@ Daraus folgen zwei Dinge:
 1. Blöcke treffen etwa doppelt so häufig ein, sodass die Kette ungefähr doppelt so viele Transaktionen pro Zeiteinheit tragen kann.
 2. Deine Transaktion erhält ihre erste Bestätigung früher, weil du nicht so lange auf den nächsten Block warten musst.
 
-![Vor Blossom betrug das Blockziel 150 Sekunden, mit langsameren Bestätigungen und geringerem Durchsatz. Nach Blossom beträgt das Ziel 75 Sekunden, mit schnelleren Bestätigungen und ungefähr doppelt so hohem Durchsatz](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Vor Blossom betrug das Blockziel 150 Sekunden, mit langsameren Bestätigungen und geringerem Durchsatz. Nach Blossom beträgt das Ziel 75 Sekunden, mit schnelleren Bestätigungen und ungefähr doppelt so hohem Durchsatz](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Gleichbleibende Emission
 
 Schnellere Blöcke werfen eine Frage auf. Wenn Zcash doppelt so viele Blöcke erzeugen würde und jeder Block weiterhin dieselbe Belohnung zahlen würde, dann würde das Netzwerk ZEC doppelt so schnell erzeugen. Blossom verhindert das. Es halbierte die pro Block gezahlte Belohnung und verdoppelte das Halving-Intervall der Blockbelohnung von 840.000 auf 1.680.000 Blöcke ([ZIP 208](https://zips.z.cash/zip-0208)). Doppelt so viele Blöcke, von denen jeder nur halb so viel zahlt, ergeben dieselbe Menge an ZEC pro Zeiteinheit. Der gesamte Angebotsplan und der Zeitpunkt zukünftiger Halvings, gemessen in Echtzeit, änderten sich nicht.
 
-![Wie Blossom die Emission konstant hält: 75-Sekunden-Blöcke treffen doppelt so häufig ein, die Belohnung pro Block wird halbiert, das Halving-Intervall wird verdoppelt, sodass die Gesamtemission im Zeitverlauf gleich bleibt](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Wie Blossom die Emission konstant hält: 75-Sekunden-Blöcke treffen doppelt so häufig ein, die Belohnung pro Block wird halbiert, das Halving-Intervall wird verdoppelt, sodass die Gesamtemission im Zeitverlauf gleich bleibt](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Ein verpflichtendes Upgrade
 

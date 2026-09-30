@@ -22,7 +22,7 @@ Cela crée un problème pratique. Un client peut devoir résoudre un litige avec
 
 [ZIP 311 : Zcash Divulgations de paiement](https://zips.z.cash/zip-0311) propose une réponse plus ciblée : divulguer et authentifier des informations sélectionnées provenant d'une seule transaction.
 
-![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-proof-flow.png)
+![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](/content-images/payment-disclosure-proof-flow-208c033e06.webp)
 
 ## Fonctionnement d'une divulgation de paiement
 
@@ -53,7 +53,7 @@ Utilisez la divulgation la plus restreinte qui répond à la question. Un litige
 
 Aucune de ces méthodes n'accorde l'autorisation de dépenser. Ne partagez jamais une phrase de récupération, une clé de dépense, une clé privée ou une sauvegarde de wallet comme preuve de paiement.
 
-![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-scope.png)
+![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](/content-images/payment-disclosure-scope-0585cdc075.webp)
 
 ## Que puis-je utiliser aujourd'hui ?
 

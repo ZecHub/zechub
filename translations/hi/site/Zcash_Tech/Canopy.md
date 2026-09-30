@@ -12,7 +12,7 @@ Canopy, Zcash का पाँचवाँ network upgrade है, जिसे 
 
 यह क्यों महत्वपूर्ण है। Zcash अपने विकास के लिए block rewards से खुद वित्तपोषण करता है, क्योंकि इसके पीछे कोई company नहीं है। founders reward, जिसने शुरुआती वर्षों का खर्च उठाया, पहले halving पर समाप्त होने वाला था। Canopy उसका replacement था: इसने हर block reward का एक निश्चित हिस्सा Development Fund में भेजा और तय किया कि उसे कौन प्राप्त करेगा। बाद के upgrades ने इस model को और परिष्कृत किया, यहाँ तक कि [NU6.1](../zcash-tech/nu6-1) तक।
 
-![Canopy से पहले founders reward विकास को वित्तपोषित करता था और पहला halving आते ही समाप्त होने वाला था। Canopy के बाद Development Fund हर block reward का 20 प्रतिशत लेता है और 2024 में दूसरे halving तक चलता है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![Canopy से पहले founders reward विकास को वित्तपोषित करता था और पहला halving आते ही समाप्त होने वाला था। Canopy के बाद Development Fund हर block reward का 20 प्रतिशत लेता है और 2024 में दूसरे halving तक चलता है](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## Development Fund
 
@@ -30,7 +30,7 @@ Development Fund हर block reward का 20 प्रतिशत लेत�
 
 अगर इन्हें केवल fund की बजाय पूरे block reward के अनुपात में मापा जाए, तो ये हिस्से Electric Coin Company के लिए 7 प्रतिशत, Zcash Foundation के लिए 5 प्रतिशत, और Major Grants के लिए 8 प्रतिशत बनते हैं। इसे बताने के दोनों तरीके एक ही संख्याएँ दर्शाते हैं।
 
-![Development Fund हर block reward का 20 प्रतिशत है, जिसमें 35 प्रतिशत Bootstrap और Electric Coin Company को, 25 प्रतिशत Zcash Foundation को, और 40 प्रतिशत Major Grants को जाता है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![Development Fund हर block reward का 20 प्रतिशत है, जिसमें 35 प्रतिशत Bootstrap और Electric Coin Company को, 25 प्रतिशत Zcash Foundation को, और 40 प्रतिशत Major Grants को जाता है](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## Sprout pool में बदलाव
 
@@ -38,7 +38,7 @@ Canopy ने सबसे पुराने shielded pool को retire कर
 
 Canopy के सक्रिय होते ही, Sprout pool में कोई नया value नहीं जोड़ा जा सकता। तकनीकी रूप से, हर JoinSplit का `vpub_old` field शून्य होना चाहिए। जो funds पहले से Sprout में हैं उन्हें अब भी निकाला जा सकता है, इसलिए कोई भी locked out नहीं होता, लेकिन अब यह pool केवल छोटा ही हो सकता है। यह legacy Sprout pool को eventually deprecate करके नए shielded pools के पक्ष में जाने की दिशा में पहला कदम है।
 
-![Canopy से पहले value Sprout pool में जा भी सकता था और बाहर भी आ सकता था। Canopy के बाद कोई नया value अंदर नहीं जा सकता, लेकिन withdrawals अभी भी अनुमति हैं](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![Canopy से पहले value Sprout pool में जा भी सकता था और बाहर भी आ सकता था। Canopy के बाद कोई नया value अंदर नहीं जा सकता, लेकिन withdrawals अभी भी अनुमति हैं](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## तकनीकी अतिरिक्त बातें
 

@@ -22,7 +22,7 @@
 
 الصورة أدناه تغطي الأمرين معًا.
 
-![أنواع مفاتيح Zcash وما الذي يمكن لمستكشف الكتل رؤيته في كل واحد من مسارات المعاملات الأربعة](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![أنواع مفاتيح Zcash وما الذي يمكن لمستكشف الكتل رؤيته في كل واحد من مسارات المعاملات الأربعة](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

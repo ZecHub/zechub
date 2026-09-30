@@ -22,7 +22,7 @@
 
 下图同时涵盖了这两个方面。
 
-![Zcash 密钥类型以及区块浏览器在四种交易路径中各能看到什么](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash 密钥类型以及区块浏览器在四种交易路径中各能看到什么](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

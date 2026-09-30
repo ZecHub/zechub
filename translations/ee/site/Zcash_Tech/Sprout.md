@@ -16,19 +16,19 @@ Nusitae esia le vevie ɖo. Dutoƒo blockchain ɖesiaɖe si do ŋgɔ na Sprout ts
 
 Sprout wɔ adrɛs ƒomevi eve. Adrɛs siwo me kɔ (t-adrɛs) wɔa dɔ abe Bitcoin ene, eye nyatakakaawo dzena le dutoƒo agbalẽ gã la dzi. Adrɛs siwo wokpɔ ta na (z-adrɛs) ɖoa ga ɖe Sprout la me [ta si ŋu wokpɔ akpoxɔnu le](../using-zcash/shielded-pools), afisi ame si ɖoe ɖa, amesi xɔe, kple ga homea nɔa ɣaɣla le. Aɖaŋuae nye be [zk-SNARKs](../zcash-tech/zk-snarks), sidzedze zero ƒe kpeɖodzi siwo naa asitsatsa aɖe ɖenɛ fiana be esɔ, eye gazazã zi gbɔ zi eve kple ga si susɔ siwo ƒo ƒu, evɔ womeɖea nyatakakaawo dometɔ aɖeke ɖe go o. Sprout nye zi gbãtɔ si esia ƒu du le ewɔwɔ me le cryptocurrency si le agbe dzi.
 
-![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Kɔnua
 
 zk-SNARKs siwo le Sprout hiã dutoƒo parameters ƒe hatsotso aɖe, eye wo wɔwɔ dedie bia be woawɔ ɖoɖo zi ɖeka si woyɔna be Ceremony. Gomenɔla ade siwo nɔ teƒe vovovowo, siwo le didiƒe, dometɔ ɖesiaɖe wɔ nu ɣaɣla aɖe, si woyɔna be gbeɖuɖɔ si me aɖi le. Ne ame aɖe gaƒo kakɛawo katã nu ƒu gbeɖeka la, ate ŋu awɔ ZEC tso naneke me. Alesi wowɔe la trɔ afɔku ma wòzu se bɔbɔe aɖe: zi alesi gomekpɔla ɖeka ya teti tsrɔ̃ woƒe akpaa ko la, womate ŋu agbugbɔ nya ɣaɣla bliboa atu gbeɖe o, eyata aʋatsokaka gakpɔtɔ nye nusi mate ŋu adzɔ o. Gomenɔla siwo ƒe ŋkɔ woyɔ le dutoƒo dometɔ aɖewoe nye Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, kple Derek Hinch siwo le NCC Ƒuƒoƒoa me. Gomenɔla ɖeka tiae be yemaɖe yeƒe ŋkɔ o.
 
-![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Afisi wòdzɔ tso
 
 Sprout ye nye gɔmeɖoanyi si dzi tɔtrɔ ɖesiaɖe si ava emegbe tua ɖo. Esi network-upgrade mechanism va ɖo kple Overwinter la, etsɔ ŋkɔ na se gbãtɔawo be consensus branch id 0, si fia ko be womewɔ upgrade aɖeke ŋudɔ haɖe o. Nusianu tso ɣemaɣi (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, kple edziyiyi) bɔbɔ nɔ kɔsɔkɔsɔ si Sprout dze egɔme la dzi. Woɖe gbeƒã dodo ɖe ŋgɔ le August 2016 me na October 28 ƒe gɔmedzedze, Kɔnu la ƒu du le kwasiɖa siwo do ŋgɔ me, eye gɔmedzedze ƒe block ƒe ɣeyiɣi ƒe dzesi si woŋlɔ sesĩe la xlẽ October 28, 2016, le 07:56 UTC.
 
-![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
 ## Nyagɔmeɖegbalẽ
 

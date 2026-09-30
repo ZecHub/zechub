@@ -14,7 +14,7 @@ Ironwood は、正式には NU6.3 と呼ばれる Zcash の[ネットワーク�
 
 Zcash が初めてですか？ まずは [ZEC と Zcash とは](../start-here/what-is-zec-and-zcash) と [シールドプール](../using-zcash/shielded-pools) を読み、そのあとでここに戻ってきてください。
 
-![Ironwood への価値移行フロー: 価値が Orchard プールを離れ、turnstile のチェックポイントを通過し、新しい Ironwood プールに入る](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood への価値移行フロー: 価値が Orchard プールを離れ、turnstile のチェックポイントを通過し、新しい Ironwood プールに入る](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## なぜ Ironwood が必要だったのか
 
@@ -24,7 +24,7 @@ Zcash が初めてですか？ まずは [ZEC と Zcash とは](../start-here/wh
 2. 理論上、攻撃者はこの欠陥を使って Orchard プール内で無効な価値を不正生成し、本来は自分のものでない資金を使うことができた可能性があり、その痕跡は通常のノードでは検知できませんでした。
 3. それでも Zcash の turnstile は Orchard から出ていける価値の総量に上限を設けていたため、総供給量が水増しされることはありませんでしたが、プール自身の暗号技術はもはや内部のすべての隠されたコインが本物であることを保証していませんでした。
 
-![バグの説明: トランザクションは 5 ZEC を入れるが、欠陥のある証明では 7 ZEC が出てきても通ってしまい、何もないところから 2 ZEC が作られる](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![バグの説明: トランザクションは 5 ZEC を入れるが、欠陥のある証明では 7 ZEC が出てきても通ってしまい、何もないところから 2 ZEC が作られる](/content-images/ironwood-bug-8f689d6f61.webp)
 
 上の数字は単純化したイメージです。実際の欠陥は、コインの出入りを文字どおり数え間違えるものではなく、回路の数学の特定の部分にありました。ここで理解すべき点は、soundness バグによってプール内で価値が検知されずに生成されうる、ということだけです。
 
@@ -34,13 +34,13 @@ Zcash が初めてですか？ まずは [ZEC と Zcash とは](../start-here/wh
 
 Zcash コミュニティは、すべてを一度に行うのではなく、段階的に修正を展開しました。
 
-![Ironwood 対応のタイムライン: Orchard のバグは 2026年5月に発見され、プールは 2026年6月に一時停止され、回路は NU6.2 で修正され、Ironwood は 2026年7月28日にブロック 3,428,143 で有効化された](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood 対応のタイムライン: Orchard のバグは 2026年5月に発見され、プールは 2026年6月に一時停止され、回路は NU6.2 で修正され、Ironwood は 2026年7月28日にブロック 3,428,143 で有効化された](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. 2026年6月初旬、完全な修正の準備が整うまでの暫定措置として Orchard プールが無効化されました。
 2. NU6.2 アップグレードにより Orchard 回路そのものが修正され、根本的な soundness 脆弱性が解消されました。
 3. NU6.3 アップグレードである Ironwood は、新しいシールドプールと公開チェックポイントを導入し、古い Orchard プールから価値を完全な監査のもとで移動できるようにします。
 
-![NU6.2 での修正: 修正後の証明では入力と出力が等しいことが必要となるため、有効な 5 ZEC の出力は通るが、7 ZEC を出力しようとする試みは拒否される](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![NU6.2 での修正: 修正後の証明では入力と出力が等しいことが必要となるため、有効な 5 ZEC の出力は通るが、7 ZEC を出力しようとする試みは拒否される](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ironwood プールは何をするのか
 

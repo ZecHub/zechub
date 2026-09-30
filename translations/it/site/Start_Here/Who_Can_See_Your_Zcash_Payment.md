@@ -22,7 +22,7 @@ Zcash invece ti offre una scelta. Questa scelta viene fatta due volte: **una vol
 
 L'immagine qui sotto copre entrambi gli aspetti.
 
-![Tipi di chiavi Zcash e cosa può vedere un block explorer per ciascuno dei quattro percorsi di transazione](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Tipi di chiavi Zcash e cosa può vedere un block explorer per ciascuno dei quattro percorsi di transazione](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

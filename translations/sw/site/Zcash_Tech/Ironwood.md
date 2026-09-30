@@ -14,7 +14,7 @@ Why this matters. With transparent money like Bitcoin, anyone can check that no 
 
 Mpya kwa Zcash? Kuanza na [ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash) na [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools), kisha kurudi hapa.
 
-![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Kwa nini mti wa Ironwood ulihitajika?
 
@@ -24,7 +24,7 @@ Mwishoni mwa Mei 2026, mtafiti wa usalama huru Taylor Hornby, wakati wa ukaguzi 
 2. Kwa nadharia, mshambuliaji angeweza kutumia kasoro hiyo kuunda thamani isiyo halali ndani ya bwawa la Orchard na kutumia pesa ambazo hazikuwa zao kweli, bila kuacha alama ambayo node kawaida ingeambukizwa.
 3. Zcash's turnstile bado capped kiasi gani thamani inaweza milele kuondoka Orchard, hivyo jumla ya ugavi hakuweza inflated, lakini pool mwenyewe cryptography tena uhakika kwamba kila sarafu siri ndani yake ilikuwa halisi.
 
-![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](/content-images/ironwood-bug-8f689d6f61.webp)
 
 Nambari hapo juu ni picha rahisi. kasoro halisi ilikuwa katika kipande maalum ya hisabati mzunguko wa, si hesabu halisi ya sarafu kwenda ndani na nje. hatua kuchukua mbali tu kwamba soundness mdudu unaweza basi thamani kuundwa ndani ya bwawa bila kugundua.
 
@@ -34,13 +34,13 @@ Muhimu, hakuna ushahidi mdudu alikuwa milele kutumika, hakuna uthibitisho wa ath
 
 Jumuiya ya Zcash ilitoa marekebisho kwa hatua badala ya yote mara moja.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. Mapema Juni 2026, hatua ya muda ililemaza bwawa la Orchard wakati marekebisho kamili yalikuwa yakiandaliwa.
 2. Upgrading ya NU6.2 ilirekebisha mzunguko wa Orchard yenyewe, ikifunga udhaifu uliokuwa msingi.
 3. kuboresha NU6.3, Ironwood, kuanzisha mpya kulindwa pool na checkpoint umma hivyo thamani inaweza hoja nje ya zamani Orchard bwawa chini ukaguzi kamili.
 
-![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Kile ambacho dimbwi la Ironwood hufanya
 

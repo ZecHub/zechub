@@ -18,7 +18,7 @@ Nusitae esia le vevie ɖo. Tomenukulawo kpɔa ZEC si woɖe yeyee ɣesiaɣi si wo
 
 Coinbase ƒe asitsatsa nye asitsatsa tɔxɛ si xea block ƒe fetu. Do ŋgɔ na Heartwood la, ele be eƒe nusiwo dona tso eme nadze ƒã, eyata tomenukulawo ƒe ZEC si wowɔ yeyee la dzea agbe gɔme ɣesiaɣi le dutoƒonuƒo me. Heartwood trɔ se siwo dzi woda asi ɖo ale be, le ZIP 213 ƒe nya nu la, coinbase ƒe asitsatsa ateŋu anye Sapling ƒe emetsonuwo. Ne míagblɔe kɔte la, tomenukulawo ate ŋu axɔ teƒeɖoɖowo tẽ azɔ ɖe Sapling adrɛs siwo ŋu wokpɔ ta na la dzi. Wogakpɔtɔ doa alɔ coinbase ƒe emetsonu siwo me kɔ, eyata esia nye tiatia yeye, ke menye tɔtrɔ si wozi ɖe ame dzi o.
 
-![Before Heartwood a miner's block reward had to go to a transparent public address. After Heartwood coinbase transactions may contain Sapling outputs, so the reward can go straight to a shielded address](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![Before Heartwood a miner's block reward had to go to a transparent public address. After Heartwood coinbase transactions may contain Sapling outputs, so the reward can go straight to a shielded address](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## Nukatae Sapling gbã
 
@@ -28,13 +28,13 @@ Shielded coinbase tɔa ŋku Sapling ƒe emetsonuwo koŋ, eye susu aɖe li si tae
 
 Heartwood hã trɔ nusi block header tsɔ eɖokui na. Wogbugbɔ ɖo tanya ƒe akpa si ŋkɔe nye hashFinalSaplingRoot tsã eye wotrɔ ŋkɔ nɛ be hashLightClientRoot. Fifia etsɔ eɖokui na Merkle Towo (MMR) ƒe ke, si nye xɔtuɖoɖo si le du dzi si wotu ɖe tanya nyatakakawo kple metadata siwo le block siwo do ŋgɔ dzi, abe ɣeyiɣi ƒe dzesiwo, kuxi sesẽwo ƒe taɖodzinuwo, Sapling kewo, dɔ siwo woƒo ƒu, kple asitsatsa ƒe xexlẽmewo ene. Ðokuitsɔtsɔna ma na be asisi si me kɔ, alo kɔsɔkɔsɔ si le egodo, tsɔa kpeɖodzi sue aɖe si ƒe lolome tsina le logarithmically ko kple kɔsɔkɔsɔa ƒe didime tsɔ ɖoa ​​kpe Zcash ƒe dɔwɔwɔ ƒe kpeɖodzi dzi. Fetu si dona tso emee nye gakotoku siwo me kɔ nyuie wu kple ame etɔ̃lia kple kɔsɔkɔsɔ vovovowo ƒe ƒoƒo ɖekae bɔbɔe wu, elabena megahiã be asisi naɖe block ɖesiaɖe be wòaka ɖe dɔ si le kɔsɔkɔsɔa megbe dzi o.
 
-![FlyClient flow: each block's header data is committed into a Merkle Mountain Range root (hashLightClientRoot), which lets a light client verify proof-of-work with a small logarithmic-size proof](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![FlyClient flow: each block's header data is committed into a Merkle Mountain Range root (hashLightClientRoot), which lets a light client verify proof-of-work with a small logarithmic-size proof](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Afisi Heartwood sɔ le
 
 Heartwood nye afɔɖeɖe ɖeka le Zcash ƒe ŋgɔyiyiwo ƒe duƒuƒu me, wo dometɔ ɖesiaɖe tsɔa akpa aɖe kpena ɖe eŋu si dzi esi kplɔe ɖo ɖoa ŋu ɖo. Overwinter kple Sapling va ɖo le ƒe 2018 me, Blossom va ɖo le ƒe 2019 me, eye Heartwood va ɖo le ƒe 2020 me le block 903,000. Canopy kplɔe ɖo emegbe le ƒe 2020 me le block 1,046,400. Sapling nye kadodo vevitɔ le kɔsɔkɔsɔ sia me na Heartwood: eƒe shielded-transaction mɔ̃ siwo wɔa dɔ nyuie lae nye mɔ̃ɖaŋununya ƒe nɔnɔme si wowɔ do ŋgɔ si na shielded coinbase te ŋu dzɔ.
 
-![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## Nyagɔmeɖegbalẽ
 
