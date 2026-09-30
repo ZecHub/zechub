@@ -8,6 +8,7 @@ HuggingFace
 Playground AI
 Snapshot
 Wired
+Zcash Block Explorer
 Zcash Community
 Zcash Readthedocs
 Zecmarket
