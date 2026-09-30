@@ -205,10 +205,6 @@
   "guides/Zgo_Payment_Processor.md": "ZGo 결제 처리기: 보관 없이 Zcash 수락하기",
   "guides/Zingolib_and_Zaino_Tutorial.md": "Z3: (zebrad)(zaino)(zingo-cli)",
   "guides/Zkool_Multisig.md": "Zkool 멀티시그 가이드",
-  "tutorials/Exchanges.md": "Zcash 거래소",
-  "tutorials/Full_Node_Tutorials.md": "풀 노드 튜토리얼",
-  "tutorials/Using_Zcash.md": "Zcash 사용법 튜토리얼",
-  "tutorials/Wallet_Tutorials.md": "Zcash 지갑 튜토리얼",
   "tutorials/shieldedNewsletter/readme.md": "Shielded 뉴스레터",
   "tutorials/zenithserver/zenithBeta.md": "Zenith 0.10 베타"
 }

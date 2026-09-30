@@ -206,10 +206,6 @@ guides/Zero-Knowledge_vs_Decoys.md
 guides/Zgo_Payment_Processor.md
 guides/Zingolib_and_Zaino_Tutorial.md
 guides/Zkool_Multisig.md
-tutorials/Exchanges.md
-tutorials/Full_Node_Tutorials.md
-tutorials/Using_Zcash.md
-tutorials/Wallet_Tutorials.md
 tutorials/shieldedNewsletter/daoAddresses.md
 tutorials/shieldedNewsletter/mynewsletter.md
 tutorials/shieldedNewsletter/readme.md
