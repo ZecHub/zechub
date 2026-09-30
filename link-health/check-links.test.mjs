@@ -9,7 +9,7 @@
 //
 // Run: node link-health/check-links.test.mjs
 import { readFileSync } from "node:fs";
-import { basename, dirname } from "node:path";
+import { basename, dirname, join } from "node:path";
 
 const src = readFileSync(new URL("./check-links.mjs", import.meta.url), "utf8");
 const originalOf = new Function(
@@ -20,10 +20,11 @@ const routeExists = new Function(
   "basename",
   "dirname",
   "existsSync",
+  "join",
   src.slice(src.indexOf("const LOWERCASE_WORDS"), src.indexOf("// ── file walking")) +
     src.slice(src.indexOf("function routeExists"), src.indexOf("// ── external checking")) +
     "; return routeExists;",
-)(basename, dirname, () => false);
+)(basename, dirname, () => false, join);
 
 let failed = 0;
 const eq = (name, got, want) => {
