@@ -118,6 +118,11 @@ jobs:
       - name: Venue brands are protected
         run: node scripts/check-venue-brands.test.mjs
 
+      # Route lookups must respect folder case the way the live wiki does, even
+      # on the case-insensitive filesystems contributors run the scan on.
+      - name: Link-health route case self-test
+        run: node --test link-health/route-case.test.mjs
+
       # link-health itself is a weekly network sweep and cannot run here, but
       # the part that decides which links get re-probed is pure string work and
       # fails silently when wrong — a regex that matches nothing reports a
