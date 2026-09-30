@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - 网站：https://flyp.me/en/#/
-- 描述：免账户兑换平台 Flyp.me 和 FYP Token 的诞生旨在保护隐私、促进去中心化、支持草根所有权，并培育相信共识的社区。
+- 描述：免账户兑换平台 flyp.me 和 FYP Token 的诞生旨在保护隐私、促进去中心化、支持草根所有权，并培育相信共识的社区。
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - 网站：https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - 描述：越南即时 Bitcoin 与加密货币交易服务。可在包括 VND、BTC、XMR、USDT、ETH、BCH、SOL 在内的 80 种资产之间买入、卖出或兑换。

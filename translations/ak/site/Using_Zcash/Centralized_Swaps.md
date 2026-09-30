@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Central Swap Platforms (Nneɛma a wɔde sesa no faako)
+# Nneɛma a Wɔde Sesa Nneɛma a Ɛwɔ Mfinimfini
 
-ZecHub nnhyɛ da ɛnto nsa mma dwumadie pɔtee biara, yɛsrɛ sɛ yɛ w'ankasa nhwehwɛmu.
+ZecHub nnye nsakraeɛ dwumadie pɔtee biara ntom, yɛsrɛ wo yɛ w’ankasa nhwehwɛmu.
 
-Obiara ne no `###` N'asɛmti a ɛwɔ ase ha no yɛ krataa biako wɔ so. https://zechub.wiki/using-zcash/centralizedswaps.
-Twe, twe anaa yi ɔfã bi firi ha; wiki no bɛgye afiri saa fael yi mu.
+Ebiara `###` asɛmti a ɛwɔ ase ha no yɛ kaad biako wɔ so https://zechub.wiki/using-zcash/centralizedswaps.
+Fa block bi ka ho, sesa, anaa yi fi hɔ wɔ ha; wiki no fa no firi fael yi mu.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
-- Intanɛt so: https://letsexchange.io/
-- Description: A crypto exchange hub with 4,500+ cryptocurrencies, deep liquidity, cross-chain swaps, on & off-ramp, DEX, swift and secure transactions.
+- Wɛbsaet: https://letsexchange.io/
+- Nkyerɛkyerɛmu: Crypto exchange hub a ɛwɔ 4,500 + cryptocurrencies, deep liquidity, cross-chain swaps, on- & off-ramp, DEX, ntɛm ne ahobammɔ nkitahodi.
 
 ___
 
@@ -22,8 +22,8 @@ ___
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
-- Intanɛt so: https://app.near-intents.org/
-- Description: Nsakrae a ɛyɛ ntɛm wɔ NEAR mmoa so. Fa sika, tɔn, sesa ka Trump, MELANIA, BERA ne memes afoforo no ho
+- Wɛbsaet: https://app.near-intents.org/
+- Nkyerɛkyerɛmu: Fast exchange a NEAR mmoa. Yɛ deposits, tɔn, swap a TRUMP, MELANIA, BERA ne memes afoforo a agye din ka ho
 
 ___
 
@@ -31,8 +31,8 @@ ___
 
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
-- Intanɛt so: https://private.shapeshift.com/
-- Description: Wo Kuro. App baako no ara mu Ԑkwan a enni awiei · Dɔn Bitcoin, Ethereum ne nea ɛboro saa wɔ akatua pa ho wɔ DEXs ne agregators nyinaa so
+- Wɛbsaet: https://private.shapeshift.com/
+- Nkyerɛkyerɛmu: Wo Sikakorabea. App Baako. Hokwan a Enni Awiei · Di gua Bitcoin, Ethereum ne nea ɛkeka ho a ɛwɔ rates a eye sen biara wɔ DEXs ne aggregators a edi kan no nyinaa mu
 
 ___
 
@@ -40,8 +40,8 @@ ___
 
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
-- Intanɛt so: https://stealthex.io/
-- Description: StealthEX yɛ instant cryptocurrency exchange ma no nsesae a enni ano, ne dwumadie yi nni registration na ɛnkora users sika wɔ n'afedie so. stealthEX yε bea pa a wobɛtumi atɔ cryptocurrency.
+- Wɛbsaet: https://stealthex.io/
+- Nkyerɛkyerɛmu: StealthEX yɛ cryptocurrency exchange ntɛm ara ma swaps a anohyeto nni mu a ne som no yɛ nea wontua hwee wɔ dinkyerɛw mu na ɛnkora nea ɔde di dwuma no sika so wɔ platform no so. StealthEX yɛ beae a eye sen biara a wobɛtɔ cryptocurrency.
 
 ___
 
@@ -49,8 +49,8 @@ ___
 
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
-- Intanɛt so: https://changelly.com/
-- Description: Changelly yɛ sika a wɔde di dwuma ntɛm wɔ cryptocurrency exchange so, na wonim no yiye sɛ ne fees ka ho te sε 0.25%. Ɛsan nso hyia definition of the most versatile crypto exchange.
+- Wɛbsaet: https://changelly.com/
+- Nkyerɛkyerɛmu: Changelly yɛ instant-kum crypto sika exchange a anuonyam mu nim sɛ ne nnwuma-ba fam fees a ɛkɔ 0.25% wɔ crypto exchanges. Ɛsan nso hyia nkyerɛase a ɛfa crypto exchange a ɛyɛ adwuma pii sen biara ho.
 
 ___
 
@@ -58,8 +58,8 @@ ___
 
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
-- Intanɛt so: https://flyp.me/en/#/
-- Description: Flyp.me accountless exchanger ne FYP Token no wɔwoo de bɔɔ ahobanbɔ ho ban, maa ntotosoɔ dudu a ɛwɔ hɔ so nyaa nkɔso, boaa nnipa nketenkete na ɔhyɛɛ fekuw bi nkuran sɛ wɔn gye tom.
+- Wɛbsaet: https://flyp.me/en/#/
+- Nkyerɛkyerɛmu: Wɔwoo flyp.me accountless exchanger ne FYP Token no sɛ wɔde bɛbɔ kokoamsɛm ho ban, ahyɛ decentralisation ho nkuran, aboa grassroot ownership na ama ɔmanfoɔ a wɔgye di sɛ adwene hyia.
 
 ___
 
@@ -67,8 +67,8 @@ ___
 
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
-- Intanɛt so: https://exolix.com
-- Description: 1311+ crypto exchange ntɛmntɛm, wɔ bo a eye paa mu na ɛnni registry ho.
+- Wɛbsaet: https://exolix.com
+- Nkyerɛkyerɛmu: Sesa 1311 + crypto ntɛm ara, ne rate a eye sen biara na enni registration
 
 ___
 
@@ -76,8 +76,8 @@ ___
 
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
-- Intanɛt so: https://trocador.app/
-- Description: Dodow a wonhu wo din no, di Cryptocurrency ho gua. Ɛnkyɛre yiye. Ɛyɛ ahobammɔ. Wonni aban mu nhyehyɛe biara wɔ hɔ. Wobetumi de kaade aka ho (debit cards) adi dwuma bere ano ansa na wode ato obi so.
+- Wɛbsaet: https://trocador.app/
+- Nkyerɛkyerɛmu: Di gua Cryptocurrency a Wonnim. Ntɛm. Ɔhaw nni ho. Bureaucracy biara nni hɔ. Prepaid Debit Cards a ɛwɔ hɔ.
 
 ___
 
@@ -85,8 +85,8 @@ ___
 
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
-- Intanɛt so: https://dex.decred.org/
-- Description: Trade crypto peer to peer. No trading fees. No KYC. Decentralized Exchange built by Decred Project.
+- Wɛbsaet: https://dex.decred.org/
+- Nkyerɛkyerɛmu: Di gua crypto atipɛnfo. Aguadi ho ka biara nni hɔ. KYC biara nni hɔ. Decentralized Exchange a Decred Project na ɛkyekyee.
 
 ___
 
@@ -94,8 +94,8 @@ ___
 
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
-- Intanɛt so: https://github.com/firoorg/FiroDEX-Desktop
-- Description: Trustless decentralized swaps using atomic swaps with FiroDEX!.
+- Wɛbsaet: https://github.com/firoorg/FiroDEX-Desktop
+- Nkyerɛkyerɛmu: Decentralized swaps a ahotoso nni mu a wɔde atom swaps di dwuma ne FiroDEX!.
 
 ___
 
@@ -103,8 +103,8 @@ ___
 
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
-- Intanɛt so: https://changenow.io/?from=usdterc20&to=zec
-- Description: Limitless WEB 3 Crypto Exchange  Simple, Fast, Custody-free.
+- Wɛbsaet: https://changenow.io/?from=usdterc20&to=zec
+- Nkyerɛkyerɛmu: Anohyeto biara nni WEB 3 Crypto Exchange – Ɛnyɛ den, Ɛyɛ Ntɛmntɛm, Ɛnyɛ nea Wɔhwɛ so.
 
 ___
 
@@ -112,8 +112,8 @@ ___
 
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
-- Intanɛt so: https://ff.io
-- Description: Ɛntɛm ara, wɔ yɛ cryptocurrency exchange a ne ho nni dwuma koraa no fa Lightning Network so.
+- Wɛbsaet: https://ff.io
+- Nkyerɛkyerɛmu: Ntɛm ara, koraa automatic cryptocurrency nsakrae ne Lightning Network.
 
 ___
 
@@ -121,17 +121,17 @@ ___
 
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
-- Intanɛt so: https://xchange.me/
-- Description: Anonymous Cryptocurrency Exchange, a ɛnnye sika pii na wɔtumi de to so bere nyinaa. Ɛwɔ Tor mirror soronko bi ma wo.
+- Wɛbsaet: https://xchange.me/
+- Nkyerɛkyerɛmu: Anonymous Cryptocurrency Exchange, ne bo nyɛ den, wotumi de ho to so, AlwaysOnTime na enni din biara. Tor ahwehwɛ a wɔahyira so wɔ hɔ.
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
-- Intanɛt so: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Description: Bitcoin & Cryptocurrency Exchange wɔ Vietnam. Totɔ, tɔ anaa sesa nneɛma 80 a ebi ne VND, BTC, XMR, USDT, ETH, BCH, SOL
+- Wɛbsaet: https://bitcoinvn.io/?deposit=xmr&settle=zec/
+- Nkyerɛkyerɛmu: Ntɛm ara Bitcoin & Cryptocurrency Exchange wɔ Vietnam. Tɔ, tɔn anaa sesa agyapadeɛ 80 a VND, BTC, XMR, USDT, ETH, BCH, SOL ka ho
 
 ___
 
@@ -139,6 +139,6 @@ ___
 
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
-- Intanɛt so: https://leodex.io/
-- Description: Crosschain swaps a wonnya account na no KYC. Send BTC, ETH and more from any wallet, exchange or cold storage to a one-time deposit address and receive ZEC  no wallet connection required. Wo de wo ho hyɛ mu aa, ma w'afiri nyinaa mfa nsie wɔ abɛɛfo fonkɔn so anaa fa di dwuma ntɛm ara (cold storage) kɔ baabiara a wobɛtumi ayi sika bi adi ne bere koro pɛ ano adansedie krataafa hɔ na nya ZEC - ɛnhia sɛ wode ka
+- Wɛbsaet: https://leodex.io/
+- Nkyerɛkyerɛmu: Crosschain swaps a enni akontaabu na enni KYC. Fa BTC, ETH ne nea ɛkeka ho fi sika kotoku, exchange anaa cold storage biara mu kɔ address a wode sie pɛnkoro so na gye ZEC — sika kotoku nkitahodi biara ho nhia.
 

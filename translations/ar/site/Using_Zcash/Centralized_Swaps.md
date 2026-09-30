@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - الموقع الإلكتروني: https://flyp.me/en/#/
-- الوصف: وُلدت منصة التبادل Flyp.me بلا حساب ورمز FYP Token لحماية الخصوصية، وتعزيز اللامركزية، ودعم الملكية الشعبية، وبناء مجتمع يؤمن بالتوافق.
+- الوصف: وُلدت منصة التبادل flyp.me بلا حساب ورمز FYP Token لحماية الخصوصية، وتعزيز اللامركزية، ودعم الملكية الشعبية، وبناء مجتمع يؤمن بالتوافق.
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - الموقع الإلكتروني: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - الوصف: منصة فورية لتبادل Bitcoin والعملات المشفرة في فيتنام. اشترِ أو بِع أو بادل بين 80 أصلًا، بما في ذلك VND وBTC وXMR وUSDT وETH وBCH وSOL.

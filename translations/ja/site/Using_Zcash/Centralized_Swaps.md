@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - ウェブサイト: https://flyp.me/en/#/
-- 説明: アカウント不要の交換所Flyp.meとFYP Tokenは、プライバシーを守り、分散化を推進し、草の根の所有を支援し、合意形成を信じるコミュニティを育むために生まれました。
+- 説明: アカウント不要の交換所flyp.meとFYP Tokenは、プライバシーを守り、分散化を推進し、草の根の所有を支援し、合意形成を信じるコミュニティを育むために生まれました。
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - ウェブサイト: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - 説明: ベトナムの即時Bitcoin・暗号資産取引所。VND、BTC、XMR、USDT、ETH、BCH、SOLを含む80種類の資産の購入、売却、またはスワップが可能です。

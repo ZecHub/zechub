@@ -4,7 +4,7 @@
 
 # <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL (Zcash Open Development Lab)
 
-[웹사이트](https://zodl.com/) - [GitHub](https://github.com/AgoraCyber) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
+[웹사이트](https://zodl.com/) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
 ## 미션 선언문
 
@@ -48,7 +48,7 @@ ZODL은 사적인 Zcash 거래를 위한 자체 보관 모바일 지갑입니다
 - [iOS (앱 스토어)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (플레이 스토어)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
-- [GitHub](https://github.com/AgoraCyber)
+- [GitHub](https://github.com/zodl-inc)
 
 **주요 기능:**
 

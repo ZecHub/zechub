@@ -13,6 +13,8 @@
 - Zcash 正通过研究、ZIP 以及诸如 ZIP 2005 和 Project Tachyon 的升级提案进行准备。
 - 安全的后量子迁移必须同时保护资金、隐私、钱包、交易所和共识规则。
 
+有关 Ironwood 的变更内容及各部分的截至日期状态，请参阅 [Zcash 是否具备后量子能力？](/zcash-tech/is-zcash-post-quantum)。
+
 ## 什么是量子计算？
 
 普通计算机以比特存储信息。每个比特要么是 `0`，要么是 `1`。
@@ -246,12 +248,13 @@ ZIP 2005 对 Orchard notes 就符合这个思路。
 
 ## 相关页面
 
-- [Shielded Pools](/using-zcash/shielded-pools) - Zcash 的 shielded 交易如何保护交易细节
-- [Halo](/zcash-tech/halo) - Zcash 无需可信设置的证明系统
-- [ZKP 与 ZK-SNARKS](/zcash-tech/zk-snarks) - 零知识证明如何在 Zcash 中发挥作用
-- [Viewing Keys](/zcash-tech/viewing-keys) - 选择性披露如何在 shielded Zcash 中运作
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - 未来的 shielded 资产与私密资产支持
-- [隐私作为核心原则](/privacy/privacy-as-a-core-principle) - 为什么金融隐私很重要
+- [Zcash是后量子安全的吗？](/zcash-tech/is-zcash-post-quantum) - Ironwood发生了哪些变化、仍面临哪些风险，以及一份带日期的状态表
+- [屏蔽池](/using-zcash/shielded-pools) - Zcash屏蔽交易如何保护交易细节
+- [Halo](/zcash-tech/halo) - Zcash无需可信设置的证明系统
+- [ZKP 与 ZK-SNARKS](/zcash-tech/zk-snarks) - 零知识证明如何在Zcash中运作
+- [Viewing Key](/zcash-tech/viewing-keys) - 屏蔽Zcash的选择性披露如何运作
+- [Zcash屏蔽资产](/zcash-tech/zcash-shielded-assets) - 未来的屏蔽资产和私有资产支持
+- [隐私作为核心原则](/privacy/privacy-as-a-core-principle) - 财务隐私为何重要
 
 ## 参考资料
 

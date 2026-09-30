@@ -4,17 +4,17 @@
 
 # Exchange decentralizzati
 
-ZecHub non sostiene alcun servizio specifico di Exchange decentralizzato; effettua le tue ricerche.
+ZecHub non sostiene alcun particolare servizio di exchange decentralizzato; fai le tue ricerche.
 
-Ogni intestazione `###` qui sotto è una scheda su https://zechub.wiki/dex.
-Aggiungi, modifica o rimuovi qui un blocco; la wiki lo rileva da questo file.
+Ciascuna intestazione `###` qui sotto corrisponde a una scheda su https://zechub.wiki/dex.
+Aggiungi, modifica o rimuovi un blocco qui; il wiki lo rileva da questo file.
 
 ### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
-- Sito web: https://app.near-intents.org/
-- Descrizione: Exchange veloce con il supporto di NEAR. Effettua depositi, vendi, scambia inclusi i popolari meme TRUMP, MELANIA, BERA e altri
+- Sito web: https://near.com/
+- Descrizione: Exchange veloce con il supporto di NEAR. Effettua depositi, vendi, scambia anche i popolari meme TRUMP, MELANIA, BERA e altri.
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Sito web: https://nativeswap.io/
-- Descrizione: Trading Cross-Chain nativo senza barriere tramite Maya Protocol. Fai trading direttamente on-chain senza bridge o token wrapped: approfitta di commissioni basse nel settore e del controllo completo degli asset.
+- Descrizione: Trading cross-chain nativo senza barriere tramite Maya Protocol. Opera direttamente on-chain senza bridge o token wrapped: usufruisci di commissioni tra le più basse del settore e del pieno controllo degli asset.
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Sito web: https://leodex.io
-- Descrizione: Swap crosschain in entrata e in uscita da ZEC, instradati attraverso THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay e Rango. Nessun account, nessun KYC e nessuna connessione del wallet necessaria sulle rotte supportate.
+- Descrizione: Swap cross-chain in entrata e in uscita da ZEC, instradati attraverso THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay e Rango. Nessun account, nessun KYC e nessuna connessione del wallet richiesta sulle rotte supportate.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
 - Sito web: https://dex.decred.org/
-- Descrizione: Fai trading di crypto peer-to-peer. Nessuna commissione di trading. Nessun KYC.
+- Descrizione: Scambia crypto peer-to-peer. Nessuna commissione di trading. Nessun KYC.
 
 ___
 
@@ -77,7 +77,7 @@ ___
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
 - Sito web: https://peer.xyz/
-- Descrizione: Exchange decentralizzato peer-to-peer che consente transazioni crypto dirette con maggiore privacy e controllo dell'utente.
+- Descrizione: Exchange decentralizzato peer-to-peer che consente transazioni crypto dirette con maggiore privacy e controllo da parte dell'utente.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Sito web: https://swap.thorchain.org/
-- Descrizione: Exchange cross-chain decentralizzato di livello 1. Scambia direttamente asset nativi come ZEC, BTC ed ETH senza bridge, token wrapped o intermediari.
+- Descrizione: Exchange cross-chain decentralizzato Layer 1. Scambia direttamente asset nativi come ZEC, BTC ed ETH senza bridge, token wrapped o intermediari.
 
 ___
 
@@ -104,4 +104,17 @@ ___
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 
 - Sito web: https://loofta.xyz/
-- Descrizione: Piattaforma non-custodial per pagamenti privati e swap. Invia e ricevi crypto privatamente tra le chain, con Zcash come livello di regolamento per una maggiore privacy finanziaria.
+- Descrizione: Piattaforma privata non-custodial per pagamenti e swap. Invia e ricevi crypto privatamente tra catene, con Zcash come livello di regolamento per una maggiore privacy finanziaria.
+
+
+___
+
+
+### ZcashToCash
+
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+
+
+
+- Sito web: https://zcashto.cash/
+- Descrizione: Conversione non-custodial da ZEC a valuta fiat tramite Peer. Invia ZEC schermati e ricevi pagamenti in app di pagamento quotidiane come Venmo, Cash App, Revolut, Zelle, Chime e Monzo in oltre 100 aree geografiche. Non è richiesto alcun account CEX; l'escrow si completa dopo la prova del pagamento in valuta fiat.

@@ -58,7 +58,7 @@ man kann etwa 100 kostenlose Generierungen bekommen, wenn man viele andere [Bild
 
 - [RunwayML GEN-2](https://runwayml.com/) (kostenlose Testphase, Abo ab $15/Monat)
 - [Pika labs Discord Bot](https://www.pika.art/) (derzeit kostenlos?)
-- [elai](https://elai.io/) (Abo ab $23/Monat)
+- [Elai](https://elai.io/) (Abo ab $23/Monat)
 
 ### Tools zur Video-/Audioübersetzung:
 

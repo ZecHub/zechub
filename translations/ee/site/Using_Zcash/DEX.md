@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Gadzraɖoƒe siwo dzi nuwo le yiyim ɖo la me tɔwo
+# Asitɔtrɔ le Dɔwɔƒewo ƒe Dɔwɔnawo Ŋu
 
-ZecHub meda asi ɖe Decentralized Exchange ƒe dɔwɔna aɖeke dzi o, taflatse wɔ wò ŋutɔ tɔwòwo.
+ZecHub meda asi ɖe Decentralized Exchange subɔsubɔdɔ aɖeke koŋ dzi o, taflatse wɔ wò ŋutɔ wò numekuku.
 
-Wo dometɔ ɖesiaɖe: `###` agbalẽvi ɖeka le ete. https://zechub.wiki/dex.
-De dzesi, trɔ asi le eŋu alo ɖe mɔxenu aɖe ɖa; wiki la xɔae tso axa sia.
+Ɖe sia ɖe `###` tanya si le ete la nye agbalẽvi ɖeka le https://zechub.wiki/dex.
+Tsɔ mɔxenu aɖe kpee, trɔ asi le eŋu, alo ɖee ɖa le afisia; wiki la fɔe tso faɛl sia me.
 
 ### Near-intents
 
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://app.near-intents.org/
-- Ŋutinya: Trɔ asi kaba kple NEAR ƒe kpekpeɖeŋu. Wɔ ga, dzra, trɔ asi le ame ŋu tsɔ kpe ɖe TRUMP, MELANIA, BERA kpakple meme bubuwo ŋuti
+- Nyatakakadzraɖoƒe: https://near.com/
+- Numeɖeɖe: Nuwo ɖɔliɖɔli kabakaba kple NEAR ƒe kpekpeɖeŋu. Wɔ deposits, dzra, swap siwo dometɔ aɖewoe nye TRUMP, MELANIA, BERA kple meme xɔŋkɔwo
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://nativeswap.io/
-- Ŋutinya: Native Cross-Chain Trading Without Barriers via Maya Protocol. Trade directly on-chain without bridges or wrapped tokens - enjoy industry low fees and complete asset control. Dzadzraɖowɔƒe si me wotrɔ asi le adzɔnu siwo ŋu wowɔa dɔ ɖo la ŋuti to mɔ ɖeka dzi, eye woɖea vi na ame sia ame ne eƒle eƒe adzɔnuwo alo wòzãe ɖe nu bubuwo ta ko.
+- Numeɖeɖe: Native Cross-Chain Trading Mɔxenuwo Manɔmee to Maya Protocol. Asitsatsa tẽ le kɔsɔkɔsɔ me tɔdzisasrãwo alo dzesi siwo woxatsa manɔmee - se vivi na dɔwɔƒewo ƒe fe suewo kple nunɔamesiwo dzi kpɔkpɔ bliboe.
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://github.com/firoorg/FiroDEX-Desktop
-- Ŋutinya: Trustless decentralized swaps using atomic swaps with FiroDEX!. Eʋevi siwo ŋu kakaɖedzi mele o le atɔmik-dziname si wozãna kple FiroDex! la.
+- Numeɖeɖe: Decentralized swaps siwo ŋu kakaɖedzi mele o siwo zãa atɔm swaps kple FiroDEX!.
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://leodex.io
-- Numeɖeɖe: Crosschain swaps yi kple do tso ZEC, wozɔ to THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay and Rango dzi. Womehiã asitelefon alo KYC o eye womegana gaɖabawo ƒe kadodo le mɔ siwo ŋu wowɔa ɖoɖo ɖo la me o.
+- Numeɖeɖe: Crosschain trɔna yia ZEC, woɖoa mɔ to THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay kple Rango dzi. Akɔnta aɖeke meli o, KYC aɖeke meli o, eye gakotoku ƒe kadodo aɖeke mehiã le mɔ siwo dzi wodo alɔe dzi o.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://dex.decred.org/
-- Ŋutinya: Dzadzraɖoƒe ƒe ga ŋuti dɔdada le ame nɔewo dome. Medzraa fe aɖeke o. KYC mele eme o.
+- Numeɖeɖe: Asitsatsa crypto hati-ɖe-hati. Asitsafe aɖeke meli o. KYC aɖeke meli o.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://app.thorswap.finance/
-- Numeɖeɖe: Cross-chain DEX si dzi THORChain le, eye wònana Bitcoin, Ethereum kple nu bubu siwo li la dome dzedzemewo nɔa te ɖe wo nɔewo ŋu evɔ wometsɔa woƒe ga dea akpa ɖeka me o.
+- Numeɖeɖe: Cross-chain DEX si ŋu THORChain, si na be woate ŋu awɔ native swaps le Bitcoin, Ethereum, kple nunɔamesi gã bubuwo dome dzesi siwo woxatsa manɔmee.
 
 ___
 
@@ -68,16 +68,16 @@ ___
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://app.routerprotocol.com/
-- Nu si wòfia: Numeɖeɖewo ƒe kɔpi siwo le mɔ̃ dzi, eye wo dometɔ aɖewo nye esiwo ŋu wotrɔ asi le be woate ŋu awɔ dɔ tso asitelefon kple kɔmpiuta dzi.
+- Numeɖeɖe: Cross-kɔsɔkɔsɔ liquidity transport layer si ɖea mɔ na seamless nunɔamesi kple nyatakakawo ƒe asitɔtrɔ le blockchains geɖe dome.
 
 ___
 
-### Peer
+### Hati
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://peer.xyz/
-- Ŋutinya: Eʋevi-to-ʋeviwo ƒe asitsatsa si me nuwo le, eye wònana be wotea ŋu wɔa ga ŋuti dɔ tẽ kple ame bubuwo dome nya ɣaɣla kpakple mɔ̃ siwo dzi wozãa woƒe nyawo ɖo.
+- Numeɖeɖe: Hatiwo ƒe asitɔtrɔ si woɖe ɖe vovo si na be woate ŋu awɔ crypto asitsatsa tẽ kple adzamenyawo kple zãla ƒe dziɖuɖu si nyo wu.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://rocketx.exchange/
-- Ŋutinya: DEX-dɔwɔƒe si wɔa dɔ le mɔ vovovo nu, eye wòtea ŋu trɔa asi le nuwo me to blockchain vovovowo dzi kple ɖoɖo nyuitɔ kpakple hoʋiʋli ƒe fewo.
+- Numeɖeɖe: Hybrid DEX aggregator si naa cross-chain swaps le blockchains geɖe me kple mɔfiame nyuitɔ kekeake kple hoʋiʋli ƒe agbɔsɔsɔme.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://swap.thorchain.org/
-- Numeɖeɖe: Decentralized Layer 1 cross-chain exchange. Trɔ asi le native assets abe ZEC, BTC kple ETH tẽe to bridgewo alo wrapped tokens dzi o.
+- Numeɖeɖe: Decentralized Layer 1 atitsoga-kɔsɔkɔsɔ ƒe asitɔtrɔ. Trɔ asi le dzɔdzɔme nunɔamesiwo abe ZEC, BTC, kple ETH ene tẽ tɔdzisasrãwo, dzesi siwo woxatsa, alo domenɔlawo manɔmee.
 
 ___
 
@@ -104,5 +104,18 @@ ___
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://loofta.xyz/
-- Numeɖeɖe: Eʋevi si me ame aɖeke mele o kple teƒeɖoɖo ƒe mɔnu. Zcash nye ɖoɖowɔƒe na ga ŋuti nyatakakawo ɖeɖe ɖe ŋgɔ le adzame, eye woɖoa asii hexɔa eƒe agbalẽviwo to kɔmpiuta dzi hã.
+- Numeɖeɖe: Non-custodial ame ŋutɔ ƒe fexexe kple swap platform. Ðo crypto ɖa eye nàxɔe le adzame le kɔsɔkɔsɔwo katã me, eye Zcash nye nyaa gbɔ kpɔkpɔ ƒe ƒuƒoƒo na ganyawo ƒe adzamenyawo si wodo ɖe ŋgɔ.
+
+
+___
+
+
+### ZcashToCash
+
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+
+
+
+- Nyatakakadzraɖoƒe: https://zcashto.cash/
+- Numeɖeɖe: Non-custodial ZEC-to-fiat ga doa go to Peer dzi. Ðo ZEC si wokpɔ ta na eye nàxɔ fexexe le gbesiagbe fexexe ƒe dɔwɔɖoɖowo abe Venmo, Cash App, Revolut, Zelle, Chime, kple Monzo le anyigba 100+ me. CEX ƒe akɔntabubu aɖeke mehiã o; escrow wu enu le fiat fexexe ƒe kpeɖodzi megbe.
 

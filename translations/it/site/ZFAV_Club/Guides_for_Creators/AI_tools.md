@@ -58,7 +58,7 @@ puoi ottenere circa 100 generazioni gratuite valutando molte immagini di altri [
 
 - [RunwayML GEN-2](https://runwayml.com/) (prova gratuita, abbonamento da 15 $/mese)
 - [Pika labs Discord Bot](https://www.pika.art/) (gratuito al momento?)
-- [elai](https://elai.io/) (abbonamento da 23 $/mese)
+- [Elai](https://elai.io/) (abbonamento da 23 $/mese)
 
 ### Strumenti di traduzione video/audio:
 

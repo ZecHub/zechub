@@ -4,7 +4,7 @@
 
 # <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="شعار ZODL" width="50"/> ZODL (مختبر Zcash للتطوير المفتوح)
 
-[الموقع الإلكتروني](https://zodl.com/) - [GitHub](https://github.com/AgoraCyber) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
+[الموقع الإلكتروني](https://zodl.com/) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
 ## بيان المهمة
 
@@ -48,7 +48,7 @@ ZODL هي محفظة جوال ذاتية الحفظ صُممت لإجراء مع
 - [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (Play Store)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
-- [GitHub](https://github.com/AgoraCyber)
+- [GitHub](https://github.com/zodl-inc)
 
 **الميزات الرئيسية:**
 

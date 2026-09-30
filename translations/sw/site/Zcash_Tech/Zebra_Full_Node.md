@@ -2,24 +2,33 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-## Utangulizi wa Zebra Node
+# Kifundo Kamili cha Zebra
 
-Kuanzisha Zebra: Mapinduzi Zcash Node Miundombinu na kutu
+## TL;DR
 
-Meet Zebra, a groundbreaking achievement as the inaugural Zcash node crafted entirely in Rust. Seamlessly integrated into the Zcash peer-to-peer network, Zebra serves as a pivotal tool fortifying the network's resilience. Through its core functions of validating and broadcasting transactions, and meticulously maintaining the Zcash blockchain state, Zebra contributes to a more decentralized network infrastructure.
+- Zebra (`zebrad`) ni nodi kamili Zcash iliyoandikwa katika Rust na kudumishwa na Zcash Foundation.
+- Inathibitisha vizuizi na miamala, huweka hali ya mnyororo, na huzungumza na nodi zingine kupitia mtandao wa rika-kwa-rika.
+- Zebra na zcashd walitekeleza itifaki hiyo hiyo na wangeweza kushirikiana. Tangu zcashd ilipostaafu, Zebra ina jukumu la makubaliano.
+- Njia mbili za kuiendesha: `zfnd/zebra` Picha ya Docker, au muundo kutoka chanzo.
+- Vifaa vinavyopendekezwa ni viini 4 vya CPU, RAM ya GB 16, na diski ya GB 300. Kiwango cha chini ni viini 2 na RAM ya GB 4, pamoja na diski ya GB 300 sawa.
 
-## Faida juu ya Zcashd Node Utekelezaji
-In contrast to the original Zcash node, zcashd, which traces its lineage back to Bitcoin's foundational codebase and is developed by the Electric Coin Company, our implementation stands as an autonomous entity. Developed from scratch with a focus on security and efficiency, Zebra harnesses the power of the memory-safe Rust language.
+## Maelezo ya Msingi
 
-Licha ya asili yao tofauti, wote zcashd na Zebra kuambatana na itifaki sawa, kuwezesha mawasiliano seamless na interoperability kati yao. uvumbuzi huu si tu kupanua mazingira Zcash lakini pia huweka kiwango kipya kwa blockchain node maendeleo.
+Zebra ni nodi ya kwanza Zcash iliyoandikwa kikamilifu katika Rust. Inapatikana kwenye mtandao wa Zcash wa rika-kwa-rika, ambapo inathibitisha na kutangaza miamala na kudumisha hali ya blockchain. Kuwa na utekelezaji wa pili huru huacha miundombinu ya mtandao ikiwa haitegemei sana msimbo wowote mmoja.
 
-## Maelekezo kwa ajili ya Zebra Launcher
+### Zebra na zcashd
 
-Unaweza kuendesha Zebra kutumia Docker picha yetu au unaweza kujenga kwa mikono. Tafadhali angalia System Mahitaji sehemu.
+Nodi asilia Zcash, zcashd, ilitengenezwa na Electric Coin Company kutoka kwa msimbo wa Bitcoin. Zebra iliandikwa kuanzia mwanzo katika Rust, lugha salama kwa kumbukumbu, ikilenga usalama na ufanisi.
 
-### Docker Matumizi:
+Utekelezaji wote wawili hufuata itifaki ile ile, ili waweze kuwasiliana na kushirikiana. zcashd ilifikia kikomo chake cha Mwisho wa Usaidizi mnamo 18 Julai 2026 na haianzi tena, jambo ambalo linaacha Zebra na Zakura kama utekelezaji wa nodi unaotumika. Tazama [Nodi Kamili](/zcash-tech/full-nodes) kwa picha pana zaidi.
 
-Kwa effortlessly kukimbia kutolewa yetu ya karibuni na kusawazisha kwa ncha, kutekeleza amri ifuatayo:
+## Zebra Anayekimbia
+
+Unaweza kuendesha Zebra kwa kutumia picha ya Docker, au unaweza kuijenga mwenyewe. Tafadhali tazama sehemu ya Mahitaji ya Mfumo.
+
+### Matumizi ya Docker
+
+Ili kuendesha toleo jipya zaidi na kulisawazisha kwa ncha, tekeleza amri ifuatayo:
 
 ```
 
@@ -27,114 +36,128 @@ docker run zfnd/zebra:latest
 
 ```
 
-Kwa maelekezo zaidi ya kina na ufahamu wa kina, tafadhali rejea yetu [Docker nyaraka](https://zebra.zfnd.org/user/docker.html).
+Kwa maelekezo kamili, rejelea [Nyaraka za Docker](https://zebra.zfnd.org/user/docker.html).
 
-### Kujenga Zebra:
+### Kujenga Zebra
 
-Kujenga Zebra amri Rust, libclang, na C ++ compiler.
+Kujenga Zebra kunahitaji Rust, libclang, na kikusanyaji cha C++.
 
-- Kuhakikisha una latest imara Rust toleo imewekwa, kama Zebra ni kipekee majaribio na hayo.
-- Mahitaji kujenga dependencies ni pamoja na:
-  - libclang (pia inajulikana kama libclan-dev au llvm-dev)
-  - clang au mwingine C ++ compiler (kama vile g ++ kwa majukwaa yote au Xcode kwa macOS)
-  - protoc (Protocol Buffers compiler) na *--experimental_allow_proto3_optional* bendera, iliyoletwa katika Protocol Buffers v3.12.0 (iliyotolewa Mei 16, 2020).
+- Hakikisha una toleo jipya zaidi la Rust thabiti lililosakinishwa, kwani Zebra hujaribiwa nayo pekee.
+- Vigezo muhimu vya ujenzi ni pamoja na:
+  - libclang (pia inajulikana kama libclang-dev au llvm-dev)
+  - clang au mkusanyiko mwingine wa C++ (kama vile g++ kwa mifumo yote au Xcode kwa macOS)
+  - itifaki (kikusanyaji cha Protocol Buffers) chenye bendera ya *--experimental_allow_proto3_optional*, iliyoletwa katika Protocol Buffers v3.12.0 (iliyotolewa Mei 16, 2020).
 
+### Sakinisha na Anza
 
-
-### Utegemezi juu ya Arch:
-
-Baada ya kuhakikisha utegemezi ni alikutana, kuendelea na kujenga na kufunga Zebra kutumia amri ifuatayo:
+Kwenye x86_64 au aarch64 Linux yenye glibc 2.34 au mpya zaidi (Ubuntu 22.04+, Debian 12+, RHEL 9+, Amazon Linux 2023), unaweza kuruka utegemezi wa ujenzi na kusakinisha jozi iliyosainiwa iliyojengwa tayari:
 
 ```
-
-cargo install --locked zebrad
-
+cargo binstall zebrad
 ```
 
-Kuanzisha Zebra kwa kutekeleza:
+Vijisehemu hivyo hivyo vimeunganishwa kwenye kila toleo GitHub kama `zebrad-<version>-<target>.tar.gz`, kila moja ikiwa na cheki za SHA-256, uthibitisho wa uundaji wa Sigstore na sahihi ya Cosign. Kwenye mifumo ya zamani, tumia picha ya Docker au jenga kutoka chanzo.
+
+Ili kujenga kutoka chanzo, pata msimbo na ujenge toleo la binary:
 
 ```
-zebrad start
-
+git clone https://github.com/ZcashFoundation/zebra.git
+cd zebra
+cargo build --release --bin zebrad
 ```
 
+Anza nodi na:
 
-## Hiari Configurations & Features:
+```
+target/release/zebrad start
+```
 
+Mwongozo wa usakinishaji: [zebra.zfnd.org/user/install.html](https://zebra.zfnd.org/user/install.html)
 
-### - Initializing Configuration File:
+## Mipangilio na Vipengele vya Hiari
 
-  - Kuzalisha faili ya usanidi kwa kutumia amri:
-    
+### Inaanzisha Faili ya Usanidi
+
+  - Tengeneza faili ya usanidi kwa kutumia amri:
+
   ```
   zebrad generate -o ~/.config/zebrad.toml
-  
+
   ```
 
-  - Kuzalishwa *zebrad.toml* itakuwa kuwekwa katika default mapendekezo directory ya Linux. Kwa mbadala OS default maeneo, rejea nyaraka zetu.
+  - *zebrad.toml* iliyotengenezwa itawekwa kwenye saraka ya mapendeleo chaguo-msingi ya Linux. Kwa maeneo mbadala chaguo-msingi ya Mfumo wa Uendeshaji, rejelea hati.
 
+### Kusanidi Baa za Maendeleo
 
+  - Sanidi *tracing.progress_bar* katika *zebrad.toml* yako ili kuonyesha vipimo muhimu katika sehemu ya mwisho kwa kutumia upau wa maendeleo. Kumbuka: Kuna tatizo linalojulikana ambapo makadirio ya upau wa maendeleo yanaweza kuwa makubwa sana.
 
-### - Configuring Maendeleo Bars:
+### Kusanidi Uchimbaji Madini
 
-  - Configure * tracing.progress_bar* katika yako *zebrad.toml* kuonyesha metrics muhimu katika terminal kutumia maendeleo bar. Kumbuka: suala inayojulikana ipo ambapo maendeleo bar makadirio inaweza kuwa mno kubwa.
+  - Zebra inaweza kusanidiwa kwa ajili ya uchimbaji madini kwa kubainisha *MINER_ADDRESS* na ramani ya lango katika Docker. Maelezo zaidi yanaweza kupatikana katika [Nyaraka za usaidizi wa uchimbaji madini](https://zebra.zfnd.org/user/mining-docker.html).
 
+### Vipengele Maalum vya Uundaji
 
+  - Panua utendaji Zebra's kwa kutumia vipengele vya ziada vya Cargo kama vile vipimo vya Prometheus, ufuatiliaji wa Sentry, usaidizi wa majaribio wa Elasticsearch, na zaidi.
 
-### - Configuring Uchimbaji:
+  - Unganisha vipengele vingi kwa kuviorodhesha kama vigezo vya `--features` bendera wakati wa usakinishaji.
 
-  - Zebra inaweza kuwa tailored kwa madini kwa kutaja * MINER_ADDRESS * na bandari ramani katika Docker. Maelezo zaidi yanaweza kupatikana katika yetu [Madini msaada nyaraka](https://zebra.zfnd.org/user/mining-docker.html).
+  - Baadhi ya vipengele vya utatuzi na ufuatiliaji vimezimwa katika miundo ya kutolewa ili kuboresha utendaji. Kwa orodha kamili ya vipengele vya majaribio na vya msanidi programu, wasiliana na [Nyaraka za API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
 
+## Mahitaji ya Mfumo na Usanidi wa Mtandao
 
-### - Custom Kujenga Features:
+### Mahitaji Yanayopendekezwa
 
-  - Kupanua utendaji wa Zebra na vipengele vya ziada vya Cargo kama vile metrics ya Prometheus, ufuatiliaji wa Sentry, msaada wa majaribio ya Elasticsearch, na zaidi.
+- CPU: Viini 4 vya CPU
+- RAM: GB 16
+- Nafasi ya Diski: Nafasi ya diski ya GB 300 inapatikana kwa ajili ya kukusanya jozi na kuhifadhi hali ya mnyororo uliohifadhiwa
+- Mtandao: Muunganisho wa mtandao wa 100 Mbps wenye angalau upakiaji na upakuaji wa 300 GB kwa mwezi
 
-  - Kuchanganya makala nyingi kwa orodha yao kama vigezo ya `--features` bendera wakati wa ufungaji.
+### Mahitaji ya Chini
 
+- CPU: Viini 2 vya CPU
+- RAM: GB 4
+- Nafasi ya Diski: GB 300 ya nafasi ya diski inayopatikana
 
-### Kumbuka: Baadhi debugging na ufuatiliaji makala ni walemavu katika kutolewa kujenga ili kuongeza utendaji.
+Seti ya majaribio Zebra's inaweza kuchukua zaidi ya saa moja kukamilika kulingana na vipimo vya mashine yako. Mifumo ya polepole inaweza kukusanya na kuendesha Zebra. Mipaka sahihi ya utendaji haijawekwa kupitia majaribio.
 
-Kwa orodha ya kina ya vipengele majaribio na developer, tafadhali wasiliana na yetu [API nyaraka](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
- 
+### Mahitaji ya Diski
 
-# Mahitaji ya Mfumo na Configuration Network kwa Zebra
+- Zebra hutumia takriban GB 300 kwa data ya Mainnet iliyohifadhiwa na GB 10 kwa data ya Testnet iliyohifadhiwa. Tarajia matumizi ya diski kuongezeka baada ya muda.
+- Hifadhidata husafishwa mara kwa mara, na pia wakati wa kuzima au kuanzisha upya. Mabadiliko hufanywa kwa kutumia miamala ya hifadhidata. Mabadiliko ambayo hayajakamilika yanayosababishwa na kusitishwa kwa kulazimishwa au hofu hurejeshwa nyuma wakati mwingine Zebra inapoanza.
 
-Ili kuhakikisha utendaji bora na kuegemea, tunapendekeza yafuatayo mahitaji ya mfumo kwa ajili ya kukusanya na kuendesha zebrad, mapinduzi Zcash node kujengwa kabisa katika kutu:
+### Mahitaji na Milango ya Mtandao
 
-### Mahitaji ya mfumo:
-- CPU: 4 cores CPU
-- RAM: 16 GB
-- Disk Space: 300 GB inapatikana disk nafasi kwa ajili ya kuandaa binaries na kuhifadhi cached mlolongo hali
-- Mtandao: 100 Mbps mtandao uhusiano na kiwango cha chini cha 300 GB uploads na downloads kwa mwezi
-
-
-Please note that Zebra's test suite may take over an hour to complete depending on your machine specifications. While slower systems may be able to compile and run Zebra, we have yet to establish precise performance boundaries through testing.
-
-
-### Mahitaji ya Disk:
-- Zebra inatumia takriban 300 GB kwa data cached Mainnet na 10 GB kwa ajili ya data Testnet cached.
-- Hifadhidata ni mara kwa mara kusafishwa, hasa wakati shutdowns au restarts, kuhakikisha uadilifu data. mabadiliko incomplete kutokana na kukomeshwa kulazimishwa au hofu ni akageuka nyuma juu ya restarting Zebra.
-
-
-### Mahitaji ya mtandao na bandari:
-- Zebra inatumia bandari zifuatazo za TCP kwa uhusiano wa ndani na nje:
+- Zebra hutumia milango ifuatayo ya TCP kwa miunganisho inayoingia na inayotoka:
   - 8233 kwa Mainnet
-  - 18233 kwa Testnet
-- Configuring Zebra na maalum kusikiliza_addr itawezesha matangazo anwani hii kwa ajili ya uhusiano inbound. Wakati uhusiano outbound ni muhimu kwa ajili synchronization, uhusiano incoming ni hiari.
-- Upatikanaji wa Zcash DNS seeders ni muhimu kupitia OS DNS resolver (kawaida bandari 53).
-- Wakati Zebra inaweza kuanzisha uhusiano wa nje kwenye bandari yoyote, zcashd anapendelea wenzao kwenye bandara chaguomsingi ili kupunguza mashambulizi ya DDoS kwenye mitandao mingine.
+  - 18233 kwa ajili ya Testnet
+- Kusanidi Zebra kwa kutumia listen_addr maalum hutangaza anwani hii kwa miunganisho inayoingia. Miunganisho inayotoka inahitajika kwa ajili ya usawazishaji; miunganisho inayoingia ni ya hiari.
+- Ufikiaji wa vipandizi vya DNS Zcash ni muhimu kupitia kitatuzi cha DNS cha OS (kawaida huwekwa kwenye lango 53).
+- Zebra inaweza kutengeneza miunganisho ya nje kwenye mlango wowote. zcashd hupendelea rika kwenye milango chaguo-msingi ili kuepuka kutumika kwa mashambulizi ya DDoS kwenye mitandao mingine.
 
+### Matumizi ya Kawaida ya Mtandao wa Mainnet
 
-### Kawaida Mainnet Network Matumizi:
-- Initial Sync: 300 GB download inahitajika kwa ajili ya ushirikiano wa awali, na ukuaji wa inatarajiwa katika downloads baadaye.
-- Kuendelea Updates: Kutarajia upakiaji kila siku na downloads kuanzia 10 MB kwa 10 GB, masharti ya watumiaji manunuzi ukubwa na peer maombi.
-- Zebra huanzisha usawazishaji wa awali na kila mabadiliko ya toleo la hifadhidata ya ndani, ikihitaji kupakuliwa kwa mnyororo kamili wakati wa sasisho la toleo.
-- Wenzake na ziara ya pande zote latency ya sekunde 2 au chini ni preferred. Kama latency unazidi kizingiti hiki, tafadhali kuwasilisha tiketi kwa ajili ya msaada.
+- Usawazishaji wa Awali: upakuaji wa GB 300 unahitajika kwa usawazishaji wa awali, na takwimu hii inatarajiwa kuongezeka.
+- Masasisho Yanayoendelea: upakiaji na upakuaji wa kila siku kuanzia 10 MB hadi 10 GB, kulingana na ukubwa wa miamala ya mtumiaji na maombi ya wenzao.
+- Zebra huanza usawazishaji wa awali kwenye kila mabadiliko ya toleo la ndani la hifadhidata, ambayo inaweza kumaanisha upakuaji kamili wa mnyororo wakati wa uboreshaji wa toleo.
+- Wenzako walio na muda wa kurudi nyuma wa sekunde 2 au chini ya hapo wanapendelewa. Ikiwa muda wa kurudi nyuma unazidi kizingiti hiki, fungua tiketi katika hazina Zebra.
 
+## Makosa ya Kawaida
 
-Kwa kuzingatia mapendekezo haya na mipangilio, unaweza kuongeza ufanisi na ufanisi wa Zebra ndani ya mtandao wa Zcash. Kama unakabiliwa na masuala yoyote au unahitaji msaada zaidi, timu yetu ya msaada inapatikana kwa urahisi kutoa mwongozo.
+- Kupima ukubwa wa diski kwa leo. Hali ya Mainnet iliyohifadhiwa tayari iko karibu GB 300 na inaendelea kukua.
+- Natarajia RPC za pochi kutoka `zebrad`Funguo na mizani huishi ndani [Zallet](https://github.com/zcash/zallet), programu tofauti.
+- Kukimbia `zebrad` peke yangu na kutarajia pochi nyepesi kuunganishwa. Njia hiyo inahitaji kiashiria, iwe lightwalletd au [Zaino](/zcash-tech/zaino).
+- Kushughulikia kusawazisha tena bila kutarajiwa kama hitilafu. Mabadiliko ya toleo la hifadhidata husababisha moja kwa muundo.
 
+## Kurasa Zinazohusiana
 
-Hapa ni kiungo kwa Zebra Node Installation mwongozo:
-https://zebra.zfnd.org/user/install.html?highlight=zebra%20launcher#installing-zebra 
+- [Nodi Kamili](/zcash-tech/full-nodes) - nodi kamili hufanya nini na ni utekelezaji gani uliopo
+- [Njia ya Zakura](/zcash-tech/zakura-node) - nodi iliyotenganishwa kutoka kwa Zebra yenye usawazishaji na upogoaji wa haraka zaidi
+- [Zaino](/zcash-tech/zaino) - Kiashiria cha Rust kinachohudumia pochi nyepesi
+- [Nodi za Lightwallet](/zcash-tech/lightwallet-nodes) - swala la pochi nyepesi za seva
+- [Mwongozo wa Uchimbaji wa Zcash](/using-zcash/zcash-mining-guide) - uchimbaji dhidi ya nodi yako mwenyewe
+
+## Kujifunza Zaidi
+
+- [Kitabu cha Zebra](https://zebra.zfnd.org)
+- [Zebra kwenye GitHub](https://github.com/ZcashFoundation/zebra/)
+- [Mahitaji ya Mfumo](https://zebra.zfnd.org/user/requirements.html)

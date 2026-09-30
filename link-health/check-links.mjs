@@ -113,14 +113,24 @@ function extractLinks(text, file) {
   const found = [];
   const seenPerFile = new Map();
 
-  // Fenced code blocks are examples, not live links.
-  let inFence = false;
+  // Fenced code blocks are examples, not live links. Keep the existing
+  // whitespace tolerance (including indented list content), not full CommonMark.
+  let fence = null;
   lines.forEach((line, idx) => {
-    if (/^\s*```/.test(line)) {
-      inFence = !inFence;
+    const delimiter = /^\s*(`{3,}|~{3,})([^\n]*)$/.exec(line);
+    if (fence) {
+      if (delimiter &&
+          delimiter[1][0] === fence.char &&
+          delimiter[1].length >= fence.length &&
+          /^\s*$/.test(delimiter[2])) {
+        fence = null;
+      }
       return;
     }
-    if (inFence) return;
+    if (delimiter && (delimiter[1][0] === "~" || !delimiter[2].includes("`"))) {
+      fence = { char: delimiter[1][0], length: delimiter[1].length };
+      return;
+    }
 
     for (const { re, group } of PATTERNS) {
       re.lastIndex = 0;
@@ -197,7 +207,7 @@ function routeExists(route, mdFiles, appRoutes) {
 
   // Pages rendered by the app itself have no markdown behind them.
   const segs = clean.replace(/^\//, "");
-  if (appRoutes.has(segs) || appRoutes.has(segs.split("/")[0])) {
+  if (appRoutes.has(segs)) {
     return { ok: true, how: "app route" };
   }
 

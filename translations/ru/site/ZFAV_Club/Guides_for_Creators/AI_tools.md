@@ -57,7 +57,7 @@
 
 - [RunwayML GEN-2](https://runwayml.com/) (бесплатный пробный период, подписка от $15 в месяц)
 - [Pika labs Discord Bot](https://www.pika.art/) (сейчас бесплатен?)
-- [elai](https://elai.io/) (подписка от $23 в месяц)
+- [Elai](https://elai.io/) (подписка от $23 в месяц)
 
 ### Инструменты для перевода видео/аудио:
 

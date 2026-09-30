@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Vipengele vya Swap vilivyopangwa kwa uangalifu
+# Majukwaa ya Kubadilishana ya Kati
 
-ZecHub haina kuidhinisha huduma yoyote ya kubadilishana, tafadhali fanya utafiti wako mwenyewe.
+ZecHub haiungi mkono huduma yoyote maalum ya kubadilishana, tafadhali fanya utafiti wako mwenyewe.
 
-Kila mmoja wao `###` kichwa chini ni kadi moja juu ya https://zechub.wiki/using-zcash/centralizedswaps.
-Ongeza, hariri au kuondoa kizuizi hapa; wiki huchukua kutoka faili hii.
+Kila moja `###` kichwa cha habari hapa chini kina kadi moja https://zechub.wiki/using-zcash/centralizedswaps.
+Ongeza, hariri, au ondoa kizuizi hapa; wiki inakichukua kutoka kwenye faili hii.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
 - Tovuti: https://letsexchange.io/
-- Maelezo: kubadilishana crypto kitovu na 4,500+ cryptocurrencies, kina liquidity, msalaba-mnyororo swaps, juu ya & off-ramp, DEX, haraka na salama shughuli.
+- Maelezo: Kitovu cha ubadilishaji wa sarafu ya kidijitali chenye sarafu za kidijitali zaidi ya 4,500, ukwasi wa kina, ubadilishaji wa mnyororo mtambuka, njia ya ndani na nje ya njia, DEX, miamala ya haraka na salama.
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
 
 - Tovuti: https://app.near-intents.org/
-- Maelezo: Fast kubadilishana kwa msaada wa karibu. Kufanya amana, kuuza, swap ikiwa ni pamoja na maarufu TRUMP, MELANIA, BERA na memes nyingine
+- Maelezo: Kubadilishana haraka kwa usaidizi wa NEAR. Weka amana, uza, badilisha ikiwa ni pamoja na TRUMP maarufu, MELANIA, BERA na meme zingine
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - Tovuti: https://private.shapeshift.com/
-- Maelezo: Mkoba wako. Programu moja. Fursa zisizo na mwisho · Biashara Bitcoin, Ethereum na zaidi kwa viwango bora katika DEXs kuongoza na aggregators
+- Maelezo: Pochi Yako. Programu Moja. Fursa Isiyo na Mwisho · Badilisha Bitcoin, Ethereum na zaidi kwa viwango bora zaidi katika DEX na wakusanyaji wanaoongoza
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
 - Tovuti: https://stealthex.io/
-- Maelezo: StealthEX ni kubadilishana cryptocurrency papo kwa swaps ukomo ambao huduma yake ni bure kutoka usajili na haina kuhifadhi fedha user's kwenye jukwaa. stealthEX Ni mahali pazuri kununua cryptocurrency.
+- Maelezo: StealthEX ni ubadilishanaji wa sarafu ya kidijitali wa papo hapo kwa ubadilishaji usio na kikomo ambao huduma yake haina usajili na haihifadhi pesa za watumiaji kwenye mfumo. StealthEX ndio mahali pazuri pa kununua sarafu ya kidijitali.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
 - Tovuti: https://changelly.com/
-- Maelezo: Changelly ni moja ya utekelezaji wa papo crypto sarafu kubadilishana ambayo utukufu inajulikana kwa ajili yake sekta-chini ada hadi 0.25% juu ya kubadilisha crypto. Pia hukutana na ufafanuzi wa zaidi hodari kubadilishi crypto.
+- Maelezo: Changelly ni soko la sarafu ya crypto linalofanya kazi papo hapo ambalo linajulikana sana kwa ada zake za chini za sekta ya hadi 0.25% kwenye soko la sarafu ya crypto. Pia linakidhi ufafanuzi wa soko la sarafu ya crypto linaloweza kutumika kwa urahisi zaidi.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Tovuti: https://flyp.me/en/#/
-- Maelezo: Flyp.me exchanger bila akaunti na FYP Token walizaliwa kulinda faragha, kukuza utengamano wa mamlaka ya serikali, kusaidia umiliki kutoka chini na kuimarisha jamii inayoamini katika makubaliano.
+- Maelezo: Kibadilishaji akaunti kisicho na akaunti cha flyp.me na Tokeni ya FYP vilizaliwa ili kulinda faragha, kukuza ugatuzi, kuunga mkono umiliki wa msingi na kukuza jamii inayoamini katika makubaliano.
 
 ___
 
@@ -68,7 +68,7 @@ ___
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
 - Tovuti: https://exolix.com
-- Maelezo: Kubadilishana 1311+ crypto papo hapo, na kiwango bora na bila usajili.
+- Maelezo: Badilisha crypto 1311+ mara moja, kwa bei bora na bila usajili
 
 ___
 
@@ -77,7 +77,7 @@ ___
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
 - Tovuti: https://trocador.app/
-- Maelezo: Biashara Cryptocurrency Anonymously. Fast. Salama. Hakuna Bureaucracy. kadi ya malipo kabla inapatikana.
+- Maelezo: Badilisha sarafu ya Dijitali kwa Kujitambulisha. Haraka. Salama. Hakuna Urasimu. Kadi za Debit za Kulipia Kabla zinapatikana.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
 - Tovuti: https://dex.decred.org/
-- Maelezo: Biashara crypto peer kwa Peer. Hakuna ada ya biashara. No KYC. Decentralized Exchange kujengwa na Decred Project.
+- Maelezo: Badilishana sarafu ya kidijitali kati ya sarafu nyingine. Hakuna ada za biashara. Hakuna KYC. Soko la Fedha Lililogatuliwa lililojengwa na Decred Project.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Tovuti: https://github.com/firoorg/FiroDEX-Desktop
-- Maelezo: Trustless madaraka swaps kutumia atomic swaps na FiroDEX!.
+- Maelezo: Ubadilishaji usioaminika wa sehemu zilizotengwa kwa kutumia ubadilishaji wa atomiki na FiroDEX!.
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
 - Tovuti: https://changenow.io/?from=usdterc20&to=zec
-- Maelezo: Unlimited WEB 3 Crypto Exchange  Rahisi, Haraka, Ulinzi-free.
+- Maelezo: Ubadilishanaji wa Fedha wa WEB 3 usio na kikomo – Rahisi, Haraka, Bila Udhamini.
 
 ___
 
@@ -113,7 +113,7 @@ ___
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
 - Tovuti: https://ff.io
-- Maelezo: Instant, kikamilifu automatiska cryptocurrency kubadilishana na umeme Network.
+- Maelezo: Ubadilishaji wa sarafu za kidijitali wa papo hapo, otomatiki kikamilifu na Mtandao wa Umeme.
 
 ___
 
@@ -122,16 +122,16 @@ ___
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
 - Tovuti: https://xchange.me/
-- Maelezo: Anonymous Cryptocurrency Exchange, nafuu, kuaminika, AlwaysOnTime na bila usajili yoyote. kujitolea kioo Tor inapatikana.
+- Maelezo: Soko la Fedha za Dijitali Lisilojulikana, la bei nafuu, la kuaminika, AlwaysOnTime na bila usajili wowote. Kioo maalum cha Tor kinapatikana.
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Tovuti: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Maelezo: Instant Bitcoin & Cryptocurrency Exchange katika Vietnam. Kununua, kuuza au kubadilishana kati ya mali 80 ikiwa ni pamoja na VND, BTC, XMR, USDT, ETH, BCH, SOL
+- Maelezo: Ubadilishaji wa Bitcoin na Fedha za Dijitali Papo Hapo nchini Vietnam. Nunua, uza au ubadilishe kati ya mali 80 ikiwa ni pamoja na VND, BTC, XMR, USDT, ETH, BCH, SOL
 
 ___
 
@@ -140,5 +140,5 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Tovuti: https://leodex.io/
-- Maelezo: Crosschain swaps bila akaunti na hakuna KYC. Tuma BTC, ETH na zaidi kutoka kwa mkoba wowote, kubadilishana au kuhifadhi baridi kwenye anwani ya amana moja na kupokea ZEC  Hakuna unganisho la mkoba linalohitajika.
+- Maelezo: Crosschain hubadilishana bila akaunti na bila KYC. Tuma BTC, ETH na zaidi kutoka kwa pochi yoyote, ubadilishaji au hifadhi baridi hadi anwani ya amana ya mara moja na upokee ZEC — hakuna muunganisho wa pochi unaohitajika.
 
