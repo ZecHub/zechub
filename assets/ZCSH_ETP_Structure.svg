@@ -4,42 +4,42 @@
 
   <defs>
     <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#7A8794" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#555555" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
     <marker id="arwGold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#C98A08" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#F5B92D" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
 
   <style>
-    text { font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #16212E; }
+    text { font-family: Montserrat, "Segoe UI", Helvetica, Arial, sans-serif; fill: #181818; }
     .h1     { font-size: 35px; font-weight: 650; letter-spacing: -0.5px; }
-    .sub    { font-size: 15px; fill: #7A8794; }
+    .sub    { font-size: 15px; fill: #555555; }
     .heroA  { font-size: 27px; font-weight: 650; letter-spacing: -0.3px; }
-    .heroB  { font-size: 27px; font-weight: 400; fill: #46586B; letter-spacing: -0.3px; }
-    .heroS  { font-size: 14.5px; fill: #46586B; }
+    .heroB  { font-size: 27px; font-weight: 400; fill: #39516C; letter-spacing: -0.3px; }
+    .heroS  { font-size: 14.5px; fill: #39516C; }
     .sect   { font-size: 18px; font-weight: 650; }
-    .date   { font-size: 13px; font-weight: 650; fill: #35688F; }
-    .body   { font-size: 13.5px; fill: #46586B; }
-    .role   { font-size: 12.5px; font-weight: 650; fill: #35688F; }
-    .ent    { font-size: 14px; fill: #16212E; }
-    .entsm  { font-size: 12.5px; fill: #7A8794; }
+    .date   { font-size: 13px; font-weight: 650; fill: #39516C; }
+    .body   { font-size: 13.5px; fill: #39516C; }
+    .role   { font-size: 12.5px; font-weight: 650; fill: #39516C; }
+    .ent    { font-size: 14px; fill: #181818; }
+    .entsm  { font-size: 12.5px; fill: #555555; }
     .boxh   { font-size: 19px; font-weight: 650; }
-    .boxs   { font-size: 13.5px; fill: #46586B; }
+    .boxs   { font-size: 13.5px; fill: #39516C; }
     .num    { font-size: 26px; font-weight: 650; }
-    .numl   { font-size: 12.5px; fill: #7A8794; }
-    .flowl  { font-size: 13px; fill: #46586B; }
-    .note   { font-size: 14px; fill: #16212E; }
-    .foot   { font-size: 11.5px; fill: #7A8794; }
-    .card   { fill: #FFFFFF; stroke: #DFE4E8; stroke-width: 1; }
+    .numl   { font-size: 12.5px; fill: #555555; }
+    .flowl  { font-size: 13px; fill: #39516C; }
+    .note   { font-size: 14px; fill: #181818; }
+    .foot   { font-size: 11.5px; fill: #555555; }
+    .card   { fill: #FFFFFF; stroke: #CDCDCD; stroke-width: 1; }
   </style>
 
-  <rect width="960" height="1430" fill="#FCFCFA"/>
+  <rect width="960" height="1430" fill="#FFFFFF"/>
 
   <!-- ─────────── Header ─────────── -->
-  <text class="h1" x="56" y="92">How the Grayscale Zcash ETF (ZCSH) actually works</text>
+  <text class="h1" x="56" y="92" style="font-size:30px">How the Grayscale Zcash ETF actually works</text>
   <text class="sub" x="56" y="121">Structure as of the NYSE Arca listing, 25 August 2026</text>
-  <line x1="56" y1="148" x2="904" y2="148" stroke="#DFE4E8" stroke-width="1"/>
+  <line x1="56" y1="148" x2="904" y2="148" stroke="#CDCDCD" stroke-width="1"/>
 
   <!-- ─────────── Hero statement ─────────── -->
   <text class="heroA" x="56" y="207">Zcash did not launch an ETF.</text>
@@ -47,7 +47,7 @@
   <text class="heroS" x="56" y="279">Zcash is a protocol. It has no company, treasury or board that could issue a fund. Grayscale is an</text>
   <text class="heroS" x="56" y="299">independent asset manager that buys ZEC on the open market like anyone else.</text>
 
-  <line x1="56" y1="332" x2="904" y2="332" stroke="#DFE4E8" stroke-width="1"/>
+  <line x1="56" y1="332" x2="904" y2="332" stroke="#CDCDCD" stroke-width="1"/>
 
   <!-- ─────────── Conversion timeline ─────────── -->
   <text class="sect" x="56" y="378">The same fund, three stages</text>
@@ -58,7 +58,7 @@
   <text class="body" x="76"  y="475">placement. Accredited</text>
   <text class="body" x="76"  y="494">investors only.</text>
 
-  <line x1="325" y1="454" x2="341" y2="454" stroke="#7A8794" stroke-width="1.4" marker-end="url(#arw)"/>
+  <line x1="325" y1="454" x2="341" y2="454" stroke="#555555" stroke-width="1.4" marker-end="url(#arw)"/>
 
   <rect class="card" x="349" y="400" width="261" height="108" rx="6"/>
   <text class="date" x="369" y="430">October 2021</text>
@@ -66,7 +66,7 @@
   <text class="body" x="369" y="475">under the ticker ZCSH.</text>
   <text class="body" x="369" y="494">Traded at a discount to NAV.</text>
 
-  <line x1="618" y1="454" x2="634" y2="454" stroke="#7A8794" stroke-width="1.4" marker-end="url(#arw)"/>
+  <line x1="618" y1="454" x2="634" y2="454" stroke="#555555" stroke-width="1.4" marker-end="url(#arw)"/>
 
   <rect class="card" x="642" y="400" width="262" height="108" rx="6"/>
   <text class="date" x="662" y="430">25 August 2026</text>
@@ -77,7 +77,7 @@
   <!-- ─────────── Who does what ─────────── -->
   <text class="sect" x="56" y="566">Who does what</text>
 
-  <rect x="56" y="588" width="848" height="82" rx="6" fill="#F2F5F8" stroke="#D3DCE4" stroke-width="1"/>
+  <rect x="56" y="588" width="848" height="82" rx="6" fill="#E2E2E2" stroke="#CDCDCD" stroke-width="1"/>
   <text class="boxh" x="80" y="622">Zcash ETF (ZCSH)</text>
   <text class="boxs" x="80" y="646">A trust that owns ZEC. Investors own shares in the trust, not the ZEC itself.</text>
 
@@ -113,9 +113,9 @@
   <text class="ent"  x="656" y="848">Foreside Fund Services</text>
 
   <!-- custody band — the only place real ZEC sits -->
-  <rect x="56" y="908" width="848" height="104" rx="6" fill="#FFFBF0" stroke="#EBD9A8" stroke-width="1"/>
-  <rect x="56" y="908" width="5" height="104" rx="2.5" fill="#F4B728"/>
-  <text class="role" x="80" y="940" style="fill:#9A6B05">Custodian — the only place actual ZEC exists</text>
+  <rect x="56" y="908" width="848" height="104" rx="6" fill="#E2E2E2" stroke="#F5B92D" stroke-width="1"/>
+  <rect x="56" y="908" width="5" height="104" rx="2.5" fill="#F5B92D"/>
+  <text class="role" x="80" y="940" style="fill:#181818">Custodian — the only place actual ZEC exists</text>
   <text class="ent"  x="80" y="966">Coinbase Custody Trust Company, LLC</text>
   <text class="entsm" x="80" y="990">Holds roughly 387,000 ZEC in transparent wallets. Nothing in this fund uses a shielded address.</text>
 
@@ -126,27 +126,27 @@
   <text class="ent" x="76" y="1122">You</text>
   <text class="entsm" x="76" y="1142">Ordinary brokerage account</text>
 
-  <line x1="254" y1="1123" x2="278" y2="1123" stroke="#7A8794" stroke-width="1.4" marker-end="url(#arw)"/>
+  <line x1="254" y1="1123" x2="278" y2="1123" stroke="#555555" stroke-width="1.4" marker-end="url(#arw)"/>
 
   <rect class="card" x="286" y="1090" width="190" height="66" rx="6"/>
   <text class="ent" x="306" y="1122">ZCSH shares</text>
   <text class="entsm" x="306" y="1142">Bought on NYSE Arca</text>
 
-  <line x1="484" y1="1123" x2="508" y2="1123" stroke="#7A8794" stroke-width="1.4" marker-end="url(#arw)"/>
+  <line x1="480" y1="1123" x2="500" y2="1123" stroke="#555555" stroke-width="1.4" marker-end="url(#arw)"/>
 
-  <rect x="516" y="1090" width="190" height="66" rx="6" fill="#F2F5F8" stroke="#D3DCE4" stroke-width="1"/>
-  <text class="ent" x="536" y="1122">Price exposure to ZEC</text>
-  <text class="entsm" x="536" y="1142">Minus a 2.5% annual fee</text>
+  <rect x="508" y="1090" width="192" height="66" rx="6" fill="#E2E2E2" stroke="#CDCDCD" stroke-width="1"/>
+  <text class="ent" x="528" y="1122">Price exposure to ZEC</text>
+  <text class="entsm" x="528" y="1142">Minus a 2.5% annual fee</text>
 
-  <line x1="714" y1="1123" x2="738" y2="1123" stroke="#C98A08" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arwGold)"/>
+  <line x1="706" y1="1123" x2="720" y2="1123" stroke="#F5B92D" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arwGold)"/>
 
-  <rect x="746" y="1090" width="158" height="66" rx="6" fill="#FFFBF0" stroke="#EBD9A8" stroke-width="1"/>
-  <text class="ent" x="766" y="1116" style="fill:#9A6B05">The chain stops here</text>
-  <text class="entsm" x="766" y="1136">No ZEC, no keys,</text>
-  <text class="entsm" x="766" y="1150">no shielded addresses</text>
+  <rect x="726" y="1090" width="178" height="66" rx="6" fill="#E2E2E2" stroke="#F5B92D" stroke-width="1"/>
+  <text class="ent" x="744" y="1116" style="fill:#181818">Chain stops here</text>
+  <text class="entsm" x="744" y="1136">No ZEC, no keys,</text>
+  <text class="entsm" x="744" y="1150">no shielded addresses</text>
 
   <!-- ─────────── Key numbers ─────────── -->
-  <line x1="56" y1="1200" x2="904" y2="1200" stroke="#DFE4E8" stroke-width="1"/>
+  <line x1="56" y1="1200" x2="904" y2="1200" stroke="#CDCDCD" stroke-width="1"/>
 
   <text class="num"  x="56"  y="1248">387,000</text>
   <text class="numl" x="56"  y="1270">ZEC held at launch</text>
@@ -157,7 +157,7 @@
   <text class="num"  x="650" y="1248">2.5%</text>
   <text class="numl" x="650" y="1270">Annual sponsor fee</text>
 
-  <line x1="56" y1="1300" x2="904" y2="1300" stroke="#DFE4E8" stroke-width="1"/>
+  <line x1="56" y1="1300" x2="904" y2="1300" stroke="#CDCDCD" stroke-width="1"/>
 
   <!-- ─────────── Closing note ─────────── -->
   <text class="note" x="56" y="1336">Grayscale has said early revenue from the sponsor fee will be directed back into Zcash ecosystem</text>
