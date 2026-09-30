@@ -9,9 +9,9 @@ ZecHub nnye Decentralized Exchange dwumadie pɔtee biara ntom, yɛsrɛ wo yɛ w�
 Ebiara `###` asɛmti a ɛwɔ ase ha no yɛ kaad biako wɔ so https://zechub.wiki/dex.
 Fa block bi ka ho, sesa, anaa yi fi hɔ wɔ ha; wiki no fa no firi fael yi mu.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Wɛbsaet: https://near.com/
 - Nkyerɛkyerɛmu: Fast exchange a NEAR mmoa. Yɛ deposits, tɔn, swap a TRUMP, MELANIA, BERA ne memes afoforo a agye din ka ho

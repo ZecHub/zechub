@@ -9,9 +9,9 @@ ZecHub किसी विशेष विकेंद्रीकृत एक�
 नीचे दिया गया प्रत्येक `###` शीर्षक https://zechub.wiki/dex. पर एक कार्ड है।
 यहाँ एक ब्लॉक जोड़ें, संपादित करें या हटाएँ; विकी इसे इस फ़ाइल से ले लेता है।
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - वेबसाइट: https://near.com/
 - विवरण: NEAR के समर्थन के साथ तेज़ एक्सचेंज। लोकप्रिय TRUMP, MELANIA, BERA और अन्य मीम्स सहित जमा करें, बेचें और स्वैप करें

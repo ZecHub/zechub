@@ -9,9 +9,9 @@ ZecHub kò fọwọ́ sí iṣẹ́ ìyípadà owó pàtó kan, jọ̀wọ́ ṣ
 Olúkúlùkù `###` Àkọlé ìsàlẹ̀ yìí jẹ́ káàdì kan lórí https://zechub.wiki/dex.
 Fi kún, ṣàtúnṣe, tàbí yọ ìdènà kan kúrò níbí; wiki náà gbé e láti inú fáìlì yìí.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Oju opo wẹẹbu: https://near.com/
 - Àpèjúwe: Pààrọ̀ kíákíá pẹ̀lú ìrànlọ́wọ́ NEAR. Ṣe ìfowópamọ́, tà, pààrọ̀ pẹ̀lú TRUMP, MELANIA, BERA àti àwọn àwòrán míràn tó gbajúmọ̀

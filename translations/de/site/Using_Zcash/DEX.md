@@ -9,9 +9,9 @@ ZecHub unterstützt keinen bestimmten dezentralen Börsendienst. Bitte recherchi
 Jede `###`-Überschrift unten ist eine Karte auf https://zechub.wiki/dex.
 Füge hier einen Block hinzu, bearbeite oder entferne ihn; das Wiki übernimmt ihn aus dieser Datei.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Website: https://near.com/
 - Beschreibung: Schnelle Börse mit Unterstützung von NEAR. Tätige Einzahlungen, verkaufe und tausche, einschließlich beliebter TRUMP-, MELANIA-, BERA- und anderer Memes.

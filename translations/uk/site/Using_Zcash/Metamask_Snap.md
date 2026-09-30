@@ -64,9 +64,10 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
 Для **Zcash Mainnet**;
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks` — це сумісний із WebZjs (gRPC-web) сервер lightwalletd, яким керує [zec.rocks](https://zec.rocks) (@emersonian). Для testnet використовуйте `https://zjs.zec.rocks/testnet`. Якщо ви самостійно запускаєте вебгаманець WebZjs, це значення слід установити як `LIGHTWALLETD_PROXY`.
 
 ---
 
