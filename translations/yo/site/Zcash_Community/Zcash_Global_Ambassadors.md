@@ -16,7 +16,7 @@
 
 Àwọn aṣojú ní òmìnira láti ṣe àwọn iṣẹ́ tí wọ́n ń gbèrò, èyí sì ń jẹ́ kí wọ́n lè ṣe àtúnṣe sí bí wọ́n ṣe ń ṣe sí àdúgbò wọn.
 
-## [Oju opo wẹẹbu Aṣoju Agbaye](https://zcashambassadors.com)
+## [Oju opo wẹẹbu Aṣoju Agbaye](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Àwọn Àwùjọ Aṣojú Tó Ń Ṣiṣẹ́ (2026)
 

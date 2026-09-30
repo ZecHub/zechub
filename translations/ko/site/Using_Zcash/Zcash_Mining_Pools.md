@@ -114,19 +114,6 @@ Zcash 채굴 풀은 개별 채굴자들이 자신의 컴퓨팅 파워(해시레�
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- 웹사이트: [Zhash](https://zcash.zhash.pro/stats)
-- 비공개 지급: 아니오
-- 풀 유형: Pay Per Last N Shares
-- 풀 수수료: 0%
-
----
-
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">

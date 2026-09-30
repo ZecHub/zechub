@@ -12,7 +12,7 @@ published: 2024-01-12
 
 
 **[Firn Protocol](https://app.firn.cash/)**: Firn ni pẹpẹ ìpamọ́ òdo tí ó kọ́kọ́ ní ìmọ̀ nínú àwòṣe tí ó dá lórí àkọọ́lẹ̀, ó sì ṣe àgbékalẹ̀ ìpamọ́ tí ó ṣeé so mọ́ra, tí ó sì rọrùn sí àwọn ẹ̀wọ̀n tí ó dá lórí Ethereum. Nípa lílo ẹ̀rí òdo, Firn ń pèsè ìpamọ́ owó tí ó ní ààbò, tí ó sì gbéṣẹ́ fún àwọn olùlò ti Ethereum àti Ethereum L2s. **BÁWO NI Ó ṢE Ń ṢIṢẸ́?**
-Láti lo Firn, fi ETH sínú ìlànà náà. Nígbà tí o bá ní ìwọ̀n owó Firn, o lè gbé owó lọ sí àwọn olùlò Firn mìíràn ní ìkọ̀kọ̀, tàbí kí o bá àwọn ìlànà mìíràn mu, bíi Uniswap. O tún lè yọ owó padà sí nẹ́tíwọ́ọ̀kì ní ìkọ̀kọ̀. Firn gba owó díẹ̀, ti 0.79%, lórí gbogbo ETH pẹ̀lú ìfàsẹ́yìn. A máa ń san owó wọ̀nyí ní ìbámu pẹ̀lú iye tí ó wà fún àwọn tí ó ni Firn Token - [Ìwé funfun](https://firn.cash/whitepaper.pdf) 
+Láti lo Firn, fi ETH sínú ìlànà náà. Nígbà tí o bá ní ìwọ̀n owó Firn, o lè gbé owó lọ sí àwọn olùlò Firn mìíràn ní ìkọ̀kọ̀, tàbí kí o bá àwọn ìlànà mìíràn mu, bíi Uniswap. O tún lè yọ owó padà sí nẹ́tíwọ́ọ̀kì ní ìkọ̀kọ̀. Firn gba owó díẹ̀, ti 0.79%, lórí gbogbo ETH pẹ̀lú ìfàsẹ́yìn. A máa ń san owó wọ̀nyí ní ìbámu pẹ̀lú iye tí ó wà fún àwọn tí ó ni Firn Token - [Ìwé funfun](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
 **[Ìbọn RÍLÍŃTÌ](https://railgun.org/):** Gẹ́gẹ́ bí àdéhùn ọlọ́gbọ́n onípele-1, Railgun wà láti jẹ́ ìyípadà àdáni àti ètò DeFi nítorí wíwà rẹ̀ láti ọwọ́ Ethereum, Polygon, Binance Smart Chain, àti Arbitrum.

@@ -114,19 +114,6 @@ I pool di mining di Zcash sono servizi che consentono ai miner individuali di co
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- Sito web: [Zhash](https://zcash.zhash.pro/stats)
-- Pagamenti privati: No
-- Tipo di pool: Pay Per Last N Shares
-- Commissione del pool: 0%
-
----
-
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">

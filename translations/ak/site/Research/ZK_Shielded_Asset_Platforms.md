@@ -12,7 +12,7 @@ published: 2024-01-12
 
 
 **[Firn Protocol a Wɔde Di Dwuma](https://app.firn.cash/)**: Firn yɛ nea edi kan koraa a nimdeɛ nnim kokoamsɛm kwan wɔ akontaabu-gyinabea nhwɛso no mu, na ɛde kokoamsɛm a wotumi de plug, a ɛyɛ mmerɛw ba Ethereum-gyina nkɔnsɔnkɔnsɔn so.Wɔde zero-nimdeɛ adanse di dwuma, Firn de sika kokoamsɛm a ahobammɔ wom, etu mpɔn ma wɔn a wɔde Ethereum ne Ethereum-gyina L2s di dwuma. **SƐNEA ƐYƐ ADWUMA?**
-Sɛ wode Firn bedi dwuma a, fa ETH gu protocol no mu. Sɛ wonya Firn balance wie a, wobɛtumi de sika akɔma Firn dwumadiefoɔ foforɔ wɔ kokoam, anaasɛ wo ne protocol foforɔ, te sɛ Uniswap, adi nkitaho. Wubetumi nso ayi sika afi kokoam asan akɔ netɛw no mu. Firn gye sika ketewaa bi, a ɛyɛ 0.79%, wɔ ETH nyinaa a wɔtwetwe no ho. Wɔde saa sika yi ma wɔn a wɔwɔ Firn Token - . [Krataa fitaa](https://firn.cash/whitepaper.pdf) 
+Sɛ wode Firn bedi dwuma a, fa ETH gu protocol no mu. Sɛ wonya Firn balance wie a, wobɛtumi de sika akɔma Firn dwumadiefoɔ foforɔ wɔ kokoam, anaasɛ wo ne protocol foforɔ, te sɛ Uniswap, adi nkitaho. Wubetumi nso ayi sika afi kokoam asan akɔ netɛw no mu. Firn gye sika ketewaa bi, a ɛyɛ 0.79%, wɔ ETH nyinaa a wɔtwetwe no ho. Wɔde saa sika yi ma wɔn a wɔwɔ Firn Token - . [Krataa fitaa](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
 **[RAILGUN AKWANKYERƐ](https://railgun.org/):** Sɛ́ layer-1 nyansa apam,Railgun wɔ hɔ sɛ ɛbɛyɛ Private transfers ne DeFi infrastructure esiane ne ba a ɛwɔ hɔ no ma Ethereum, Polygon, Binance Smart Chain, ne Arbitrum.

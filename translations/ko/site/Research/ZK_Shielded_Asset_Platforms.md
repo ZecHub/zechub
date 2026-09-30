@@ -12,7 +12,7 @@ published: 2024-01-12
 
 
 **[Firn 프로토콜](https://app.firn.cash/)**: Firn은 계정 기반 모델에서 최초의 영지식 프라이버시 플랫폼이며, Ethereum 기반 체인에 플러그형의 유연한 프라이버시를 도입합니다. 영지식 증명을 사용하여 Firn은 Ethereum 및 Ethereum 기반 L2 사용자에게 안전하고 효율적인 자금 프라이버시를 제공합니다. **어떻게 작동하나요?**
-Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 생기면 다른 Firn 사용자에게 자금을 비공개로 전송하거나 Uniswap 같은 다른 프로토콜과 상호작용할 수 있습니다. 또한 자금을 다시 네트워크로 비공개 출금할 수도 있습니다. Firn은 모든 ETH 출금에 대해 0.79%의 소액 수수료를 부과합니다. 이 수수료는 Firn Token 보유자에게 비례하여 분배됩니다 - [백서](https://firn.cash/whitepaper.pdf)
+Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 생기면 다른 Firn 사용자에게 자금을 비공개로 전송하거나 Uniswap 같은 다른 프로토콜과 상호작용할 수 있습니다. 또한 자금을 다시 네트워크로 비공개 출금할 수도 있습니다. Firn은 모든 ETH 출금에 대해 0.79%의 소액 수수료를 부과합니다. 이 수수료는 Firn Token 보유자에게 비례하여 분배됩니다 - [백서](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
 **[RAILGUN](https://railgun.org/):** 레이어 1 스마트 계약인 Railgun은 Ethereum, Polygon, Binance Smart Chain, Arbitrum 위에서 존재하는 프라이빗 전송 및 DeFi 인프라입니다.

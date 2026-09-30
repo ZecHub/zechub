@@ -16,7 +16,7 @@ Il Programma degli Ambasciatori Globali identifica i membri della comunità che 
 
 Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consentendo loro di adattare le iniziative di sensibilizzazione al proprio contesto locale.
 
-## [Sito web degli Ambasciatori Globali](https://zcashambassadors.com)
+## [Sito web degli Ambasciatori Globali](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Comunità di Ambasciatori attive (2026)
 

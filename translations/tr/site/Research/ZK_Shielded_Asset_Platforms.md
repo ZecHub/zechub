@@ -12,7 +12,7 @@ published: 2024-01-12
 
 
 **[Firn Protokol](https://app.firn.cash/)**: Firn, hesap tabanlı modeldeki ilk sıfır bilgi gizlilik platformudur ve Ethereum tabanlı zincirlere takılabilir, esnek gizlilik sunar.Sıfır bilgi kanıtlarını kullanarak Firn, Ethereum ve Ethereum tabanlı L2 kullanıcıları için güvenli ve verimli fon gizliliği sağlar. **NASIL ÇALIŞIR?**
-Firn kullanmak için protokole ETH yatırın. Bir Firn bakiyeniz olduğunda, diğer Firn kullanıcılarına özel olarak fon transfer edebilir veya Uniswap gibi diğer protokollerle etkileşime geçebilirsiniz. Ayrıca fonları ağa özel olarak geri çekebilirsiniz. Firn, tüm ETH çekimlerinden %0,79 oranında küçük bir ücret alır. Bu ücretler, Firn Token sahiplerine orantılı olarak dağıtılır - [Beyaz Kitap](https://firn.cash/whitepaper.pdf)
+Firn kullanmak için protokole ETH yatırın. Bir Firn bakiyeniz olduğunda, diğer Firn kullanıcılarına özel olarak fon transfer edebilir veya Uniswap gibi diğer protokollerle etkileşime geçebilirsiniz. Ayrıca fonları ağa özel olarak geri çekebilirsiniz. Firn, tüm ETH çekimlerinden %0,79 oranında küçük bir ücret alır. Bu ücretler, Firn Token sahiplerine orantılı olarak dağıtılır - [Beyaz Kitap](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
 **[RAILGUN](https://railgun.org/):** Bir katman-1 akıllı sözleşmesi olarak Railgun, Ethereum, Polygon, Binance Smart Chain ve Arbitrum sayesinde var olan bir özel transferler ve DeFi altyapısıdır.
