@@ -26,15 +26,15 @@ The widget demo is a live ZIP-321 modal: QR, copy address/URI, short link, and O
 ## Anatomy
 
 ```
-zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+zcash:<address>?amount=<zec>&memo=<base64url>&label=<text>
 ```
 
 | Field | Required | Notes |
 | --- | --- | --- |
 | address | yes | Prefer a Unified Address (`u1` / `utest1`) |
-| amount | no | Decimal ZEC |
-| memo | no | Shielded transfers only |
-| label | no | Human-readable name shown by some wallets |
+| amount | no | Decimal ZEC with `.` as the separator and at most 8 decimal places (`0.5`, not `0,5`) |
+| memo | no | Shielded addresses only. The memo's UTF-8 bytes (at most 512), base64url-encoded without `=` padding: `Thanks!` becomes `VGhhbmtzIQ`, not the plain text |
+| label | no | Human-readable name shown by some wallets. Percent-encode spaces and reserved characters (`Coffee%20shop`); a `+` is a literal plus, not a space |
 
 Full rules: [ZIP 321](https://zips.z.cash/zip-0321).
 
