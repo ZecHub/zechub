@@ -62,7 +62,7 @@ Les actifs protégés Zcash / actifs définis par l'utilisateur sont en cours de
 
 ### Ressources :
 
-[Transferts privés cross-chain du Zcon3](https://youtu.be/vCvMk2-CJN8)
+Transferts privés cross-chain du Zcon3
 
 [Présentation QEDIT sur la Defi au Zcon3](https://youtu.be/EGjcYhovty0) / [Tableau de travail](https://miro.com/app/board/uXjVOhuveHo=/)
 

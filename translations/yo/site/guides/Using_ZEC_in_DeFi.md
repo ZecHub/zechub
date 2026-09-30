@@ -62,7 +62,7 @@ Zcash Shielded Assets/User Defined Asset ti wà ní ìdàgbàsókè pẹ̀lú ì
 
 ### Àwọn ohun àmúṣọrọ̀:
 
-[Zcon3 Awọn gbigbe Aarin-Awọn ẹwọn Aladani](https://youtu.be/vCvMk2-CJN8)
+Zcon3 Awọn gbigbe Aarin-Awọn ẹwọn Aladani
 
 [Zcon3 QEDIT Àfihàn lórí Defi](https://youtu.be/EGjcYhovty0) / [Àpótí Àwòrán](https://miro.com/app/board/uXjVOhuveHo=/)
 

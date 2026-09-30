@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets разрабатываются пр�
 
 ### Ресурсы:
 
-[Приватные кроссчейн-переводы на Zcon3](https://youtu.be/vCvMk2-CJN8)
+Приватные кроссчейн-переводы на Zcon3
 
 [Презентация QEDIT о Defi на Zcon3](https://youtu.be/EGjcYhovty0) / [Доска со схемами](https://miro.com/app/board/uXjVOhuveHo=/)
 

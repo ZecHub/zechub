@@ -159,11 +159,11 @@ Sha256 是可用于承诺方案的一种哈希函数示例。
 
 **SNARK 证明构造的类型**：
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ)：需要可信设置，但证明非常短，且可快速验证。
+[Groth16](https://eprint.iacr.org/2016/260)：需要可信设置，但证明非常短，且可快速验证。
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953)：通用可信设置。
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o)：无需可信设置，但生成的证明会稍长，或者证明者运行时间可能更久。 
+[DARK](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o)：无需可信设置，但生成的证明会稍长，或者证明者运行时间可能更久。 
 
 当需要多个验证者时，SNARKS 非常有用，例如像 Zcash 这样的区块链，或像 [Aztec](https://docs.aztec.network) 这样的 zk-Rollup，这样多个验证节点就不必围绕每个证明进行多轮交互。 
 

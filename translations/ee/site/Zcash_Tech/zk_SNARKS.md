@@ -159,11 +159,11 @@ Transparent Setup (No Trusted Setup)- Preprocessing algorithm mezãa adzame rand
 
 **SNARK kpeɖodzi xɔtutu ƒomeviwo**:
 
-[Tsitsi16](https://www.youtube.com/watch?v=QDplVkyncYQ): Ebia Setup si Dzi Woka Ðo gake kpeɖodzi kpui ŋutɔ siwo woate ŋu aɖo kpee kaba le esi.
+[Tsitsi16](https://eprint.iacr.org/2016/260): Ebia Setup si Dzi Woka Ðo gake kpeɖodzi kpui ŋutɔ siwo woate ŋu aɖo kpee kaba le esi.
 
 [Sonic ƒe gbeɖiɖi](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin ƒe ŋkɔ](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk ƒe dɔwɔwɔ](https://eprint.iacr.org/2019/953): Ðoɖo si Dzi Woka Ðo Le Xexeame Katã.
 
-[NYRƆ](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK ƑE NUÐEÐEŊUTI](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup gake ewɔa kpeɖodzi siwo didi vie alo ate ŋu axɔ ɣeyiɣi didi hafi prover naƒu du. 
+[NYRƆ](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK ƑE NUÐEÐEŊUTI](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup gake ewɔa kpeɖodzi siwo didi vie alo ate ŋu axɔ ɣeyiɣi didi hafi prover naƒu du. 
 
 SNARKS ɖea vi ne wohiã kpeɖodzinu geɖewo abe blockchain abe Zcash alo zk-Rollup abe [Aztec ene](https://docs.aztec.network) ale be mehiã be node geɖewo nawɔ nu aduadu le ƒoƒo geɖe me kple kpeɖodzi ɖesiaɖe o. 
 
