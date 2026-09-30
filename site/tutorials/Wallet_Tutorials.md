@@ -18,7 +18,7 @@ ____
 
 
 
-- Zodl Wallet
+- ZODL Wallet
 
 [![Video Thumbnail](https://img.youtube.com/vi/G92zBIr-Wms/hqdefault.jpg)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 
@@ -33,9 +33,9 @@ ____
 
 ____ 
 
-> The three Ywallet videos below are kept for reference. Ywallet is no longer maintained and will not be updated for Ironwood, so it can no longer follow the chain. Pick a maintained wallet from the [Wallets](https://zechub.wiki/wallets) page.
+> The three Ywallet videos below are kept for reference. YWallet is no longer maintained and will not be updated for Ironwood, so it can no longer follow the chain. Pick a maintained wallet from the [Wallets](https://zechub.wiki/wallets) page.
 
-- Ywallet Cold Storage
+- YWallet Cold Storage
 
 [![Video Thumbnail](https://img.youtube.com/vi/hJaAccp-77k/hqdefault.jpg)](https://www.youtube.com/watch?v=hJaAccp-77k)
 
@@ -43,7 +43,7 @@ ____
 
 ____
 
-- Ywallet Batch Backup
+- YWallet Batch Backup
 
 [![Video Thumbnail](https://img.youtube.com/vi/0skM-RziBv8/hqdefault.jpg)](https://www.youtube.com/watch?v=0skM-RziBv8)
 
@@ -51,7 +51,7 @@ ____
 
 ____
 
-- Ywallet Multipay Feature
+- YWallet Multipay Feature
 
 [![Video Thumbnail](https://img.youtube.com/vi/ovlNktpxURI/hqdefault.jpg)](https://www.youtube.com/watch?v=ovlNktpxURI)
 
