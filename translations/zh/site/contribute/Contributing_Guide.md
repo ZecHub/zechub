@@ -135,7 +135,7 @@ ZecHub 的目标是提供一个开源教育中心，让 Zcash 社区中的任何
 
 我们制作生态系统的每周新闻通讯。这是一种参与门槛极低且非常简单的方式！新闻通讯会在每周五或周六发布。如果你想撰写新闻通讯，请在 Discord 的 #zecweekly 分区联系 @squirrel 告知他们。
 
-完成后，你可以前往本仓库的 [新闻通讯分区](/newsletter/newsletterbasics.md)，并提交拉取请求以创建新一期新闻通讯。请遵循此 [模板](/newsletter/newslettertemplate.md) 中使用的格式。
+完成后，你可以前往本仓库的 [新闻通讯分区](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md)，并提交拉取请求以创建新一期新闻通讯。请遵循此 [模板](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) 中使用的格式。
 
 完成后，@squirrel 或（在 Discord 中）会看到你的新闻通讯新一期已可用，并会审查后将其合并到仓库。合并后，他们会提取内容并通过 Substack 发布。
 

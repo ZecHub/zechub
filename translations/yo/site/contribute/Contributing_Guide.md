@@ -135,7 +135,7 @@ Tí o bá rí i pé ìjápọ̀ kan ti bàjẹ́, tàbí ohun pàtàkì kan ti �
 
 A n ṣe iwe iroyin osẹ-ọsẹ ti eto-ẹda. Eyi jẹ ọna ti o rọrun lati kopa! Iwe iroyin naa n jade ni gbogbo ọjọ Jimọ tabi Satidee. Ti o ba fẹ kọ iwe iroyin kan, fi ifiranṣẹ ranṣẹ si @squirrel ni apakan #zecweekly ti Discord lati jẹ ki wọn mọ.
 
-Lẹ́yìn tí o bá ti ṣe èyí tán, o lè lọ sí [apakan iwe iroyin ti ibi ipamọ yii](/newsletter/newsletterbasics.md) kí o sì fi ìbéèrè ìfàsẹ́yìn ránṣẹ́ láti ṣẹ̀dá àtúnse tuntun ti ìwé ìròyìn náà. Jọ̀wọ́ tẹ̀lé ìlànà tí a lò nínú èyí [awoṣe](/newsletter/newslettertemplate.md).
+Lẹ́yìn tí o bá ti ṣe èyí tán, o lè lọ sí [apakan iwe iroyin ti ibi ipamọ yii](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) kí o sì fi ìbéèrè ìfàsẹ́yìn ránṣẹ́ láti ṣẹ̀dá àtúnse tuntun ti ìwé ìròyìn náà. Jọ̀wọ́ tẹ̀lé ìlànà tí a lò nínú èyí [awoṣe](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Lẹ́yìn tí o bá ṣe èyí, @squirrel tàbí (nínú Discord) yóò rí i pé àtúnṣe tuntun ìwé ìròyìn rẹ wà, wọn yóò sì ṣe àtúnyẹ̀wò rẹ̀, lẹ́yìn náà wọn yóò dapọ̀ mọ́ ibi ìkópamọ́ náà. Lẹ́yìn tí wọ́n bá ti dapọ̀ mọ́ ọn, wọn yóò gba àkóónú náà, wọn yóò sì fi ránṣẹ́ nípasẹ̀ Substack.
 
