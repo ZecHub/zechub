@@ -113,11 +113,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -1843,11 +1843,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -3573,11 +3573,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -5303,11 +5303,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -7033,11 +7033,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -8763,11 +8763,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -10493,11 +10493,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -12223,11 +12223,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+image-restore",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -13953,11 +13953,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -15683,11 +15683,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -17413,11 +17413,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -19143,11 +19143,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -20873,11 +20873,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -22603,11 +22603,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+image-restore",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -24333,11 +24333,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -26063,11 +26063,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -27793,11 +27793,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+image-restore",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -29523,11 +29523,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:55b111329c4256726b0f1694baf25fa2bd9e5846d72abff90457be147d849257",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
