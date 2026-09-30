@@ -191,6 +191,22 @@ async function loadAppRoutes(offline) {
 
 // ── internal route resolution ────────────────────────────────────────────────
 
+/**
+ * Whether an internal link points at a static file the app serves from
+ * zechub-wiki/public, such as /nearintents.png or /DCRDEX.jpg. Such links are
+ * classified as routes because they sit at the site root, but they are files,
+ * not pages, and have no markdown behind them.
+ */
+function isAppPublicFile(url, publicFiles) {
+  if (!publicFiles) return false;
+  const path = url.split(/[?#]/)[0];
+  try {
+    return publicFiles.has(path) || publicFiles.has(decodeURIComponent(path));
+  } catch {
+    return publicFiles.has(path);
+  }
+}
+
 function routeExists(route, mdFiles, appRoutes) {
   const clean = route.split("#")[0].split("?")[0].replace(/\/+$/, "");
   if (!clean || clean === "/") return { ok: true, how: "site root" };
@@ -373,6 +389,9 @@ async function main() {
         findings.push({ kind: "invalid", url: link.url, file: link.file, line: link.line, detail: "protocol-relative URL" });
         continue;
       }
+
+      // Files the wiki serves straight from its public/ folder are not pages.
+      if (kind === "route" && isAppPublicFile(link.url, assetSet)) continue;
 
       if (kind === "route") {
         const r = routeExists(link.url, mdFiles, appRoutes);

@@ -104,6 +104,11 @@ jobs:
       - name: Verbatim table columns self-test
         run: node scripts/check-verbatim-columns.test.mjs
 
+      # Root-level files such as /nearintents.png are served from
+      # zechub-wiki/public; link-health must not report them as broken routes.
+      - name: Link-health public-file self-test
+        run: node link-health/public-files.test.mjs
+
       # Every venue named on the exchange pages must be a protected term, or
       # a machine engine will translate the BRAND. It did: LetsExchange became
       # "Ẹ jẹ́ kí a pààrọ̀" ("let us exchange") in Yoruba, across 109 headings
