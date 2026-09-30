@@ -3,39 +3,42 @@
   <desc>A comparison of Zcash block timing before and after ZIP 218. Today, blocks arrive every 75 seconds, 1,152 per day, each paying 1.5625 ZEC. After NU7, blocks arrive every 25 seconds, 3,456 per day, each paying 0.52083333 ZEC. Both multiply out to 1,800 ZEC issued per day. The halving interval stretches from 1,680,000 to 5,040,000 blocks, which is 126,000,000 seconds in both cases, so halving dates do not move.</desc>
 
   <style>
+    /* Colours are ZecHub Visual Identity Guidelines v2.0, June 2026.
+       Base: ZH Black Blue #06192f, ZH Slate Blue #39516c, Eerie Black #181818.
+       Greyscale: Light Grey I #e2e2e2, Light Grey II #cdcdcd, Mid #b9b9b9, Dark #555555.
+       Accent: ZH Ice Blue #7dafeb. Secondary: ZH Golden Yellow #f5b92d.
+       No gradients, per the brand shapes guidance. */
     :root { color-scheme: light dark; }
     .panel { fill: #FFFFFF; }
-    .ink { fill: #15181D; }
-    .muted { fill: #656C7A; }
-    .rule { stroke: #E3E6EB; }
-    .axis { stroke: #B9C0CB; }
-    .block { fill: #47607D; }
-    .card { fill: #F6F7F9; stroke: #E3E6EB; }
-    .zec { fill: #F4B728; }
-    .zecink { fill: #7A5B0B; }
-    .chip { fill: #FDF3DC; stroke: #E8C878; }
-    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .ink { fill: #181818; }
+    .muted { fill: #555555; }
+    .rule { stroke: #CDCDCD; }
+    .axis { stroke: #B9B9B9; }
+    .block { fill: #39516C; }
+    .card { fill: #E2E2E2; stroke: #CDCDCD; }
+    .zec { fill: #F5B92D; }
+    .zecink { fill: #181818; }
+    .chip { fill: #F5B92D; stroke: #F5B92D; }
+    text { font-family: Montserrat, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
     .t-title { font-size: 26px; font-weight: 700; }
-    .t-sub { font-size: 14px; }
+    .t-sub { font-size: 14px; font-weight: 400; }
     .t-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 1.4px; }
-    .t-lead { font-size: 18px; font-weight: 650; }
-    .t-stat { font-size: 13px; }
-    .t-chip { font-size: 13px; font-weight: 650; }
+    .t-lead { font-size: 18px; font-weight: 600; }
+    .t-stat { font-size: 13px; font-weight: 400; }
+    .t-chip { font-size: 13px; font-weight: 600; }
     .t-card-h { font-size: 12px; font-weight: 700; letter-spacing: 0.8px; }
-    .t-card-v { font-size: 17px; font-weight: 650; }
-    .t-card-n { font-size: 12px; }
-    .t-tick { font-size: 11px; }
-    .t-foot { font-size: 11.5px; }
+    .t-card-v { font-size: 17px; font-weight: 600; }
+    .t-card-n { font-size: 12px; font-weight: 400; }
+    .t-tick { font-size: 11px; font-weight: 400; }
+    .t-foot { font-size: 11.5px; font-weight: 400; }
     @media (prefers-color-scheme: dark) {
-      .panel { fill: #14171C; }
-      .ink { fill: #E9ECF1; }
-      .muted { fill: #98A1B0; }
-      .rule { stroke: #2A2F38; }
-      .axis { stroke: #3C434F; }
-      .block { fill: #7FA3C6; }
-      .card { fill: #1B1F26; stroke: #2A2F38; }
-      .zecink { fill: #F4B728; }
-      .chip { fill: #2A2313; stroke: #6B551C; }
+      .panel { fill: #06192F; }
+      .ink { fill: #FFFFFF; }
+      .muted { fill: #CDCDCD; }
+      .rule { stroke: #39516C; }
+      .axis { stroke: #39516C; }
+      .block { fill: #7DAFEB; }
+      .card { fill: #39516C; stroke: #39516C; }
     }
   </style>
 
