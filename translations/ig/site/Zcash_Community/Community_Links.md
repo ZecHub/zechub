@@ -23,7 +23,7 @@ The Zcash community is very active in its community <span translate="no" class="
 
 ### <span translate="no" class="notranslate">Mastodon / Decentralized Social</span>
 
-- [ZecHub.Njikọ Mmadụ](https://zechub.social/public/local) - Ihe atụ Mastodon maka obodo Zcash
+- [ZecHub.Social](https://zechub.social/public/local) - Ihe atụ Mastodon maka obodo Zcash
 - [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Zcash en Spanish na Bluesky (esi na X kwaga mgbe kwụsịtụ akaụntụ)
 
 ### <span translate="no" class="notranslate">Matrix</span>
@@ -32,7 +32,7 @@ The Zcash community is very active in its community <span translate="no" class="
 
 ### Ọgbakọ Obodo Zcash
 
-Ihe [Ọgbakọ Obodo Zcash](https://forum.zcashcommunity.com/) bụ isi ebe a na-enwe mkparịta ụka ogologo oge gbasara ọchịchị Zcash - ọchịchị, atụmatụ onyinye, arụmụka teknụzụ, na ọkwa gburugburu ebe obibi. Ugbu a, nlekọta enyefela Zcash Foundation mgbe mgbanwe ECC na ZODL gasịrị.
+Ihe [Ọgbakọ Obodo Zcash](https://forum.zcashcommunity.com/) bụ isi ebe a na-enwe mkparịta ụka ogologo oge gbasara ọchịchị Zcash - ọchịchị, atụmatụ onyinye, arụmụka teknụzụ, na ọkwa gburugburu ebe obibi. Ugbu a, nlekọta enyefela Zcash Foundation mgbe mgbanwe ECC's na ZODL.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
@@ -41,14 +41,15 @@ Zcash nwere ọnụnọ zuru ụwa ọnụ na X. Isi ihe dị mkpa ị ga-eso:
 | Akaụntụ | Nkọwa |
 |---------|-------------|
 | [@Zcash](https://x.com/zcash) | Akaụntụ Zcash gọọmentị |
-| [@ZecHub](https://x.com/zechub) | ZecHub DAO - agụmakwụkwọ obodo na ihe nrite |
+| [@ZecHub](https://x.com/zechub) | ZecHub DAO - agụmakwụkwọ obodo na onyinye |
 | [@zodl_app](https://x.com/zodl_app) | Akpa ZODL (nke bụbu Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Mmelite Zcash Foundation |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Obodo Zcash Brazil |
-| [@ZcashTR](https://x.com/ZcashTR) | Zcash Tọki |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash Meksiko |
+| [@ZcashTR](https://x.com/ZcashTR) | Zcash Toki |
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Naịjirịa |
-| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - Asụsụ Spanish Podcast Zcash |
+| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - Asụsụ Spanish Zcash podcast |
 | [@ZkAv_Club](https://x.com/ZkAv_Club) | Klọb ọdịyo ZK |
 | [@cipherscan_app](https://x.com/cipherscan_app) | Onye na-eme nchọpụta blockchain CipherScan |
 | [@zerodartz](https://x.com/Zerodartz) | Ihe nkiri obodo na nkọwa |
@@ -59,6 +60,7 @@ Zcash nwere ọnụnọ zuru ụwa ọnụ na X. Isi ihe dị mkpa ị ga-eso:
 
 - [Zcash na Spanish](https://zcashesp.com) - Obodo na-asụ Spanish (nakwa na Bluesky mgbe a kwụsịtụrụ X)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Obodo Brazil
+- [Zcash Meksiko](https://x.com/ZcashMx) - Obodo Mexico
 - [Zcash Toki](https://x.com/ZcashTR) - Obodo Turkey
 - [Zcash Arabia](https://x.com/ZcashArabia) - Obodo ndị na-asụ Arabic
 - [Zcash Naịjirịa](https://x.com/ZcashNigeria) - Obodo Naịjirịa

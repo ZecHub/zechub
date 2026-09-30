@@ -17,13 +17,13 @@ The Zcash community is very active in its community <span translate="no" class="
 ### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Àgbáyé Zcash](https://discord.gg/zcash) - Olupin agbegbe akọkọ
-- [Ìwádìí àti D lórí Zcash](https://discord.gg/xpzPR53xtU) - Awọn ijiroro Ilana ati awọn olupilẹṣẹ
+- [Ìwádìí àti D Zcash](https://discord.gg/xpzPR53xtU) - Awọn ijiroro Ilana ati awọn olupilẹṣẹ
 - [Zcash Foundation](https://discord.gg/na6QZNd) - Awọn imudojuiwọn ipilẹ ati iṣakoso
 - [ZecHub DAO](https://discord.gg/zcash) - Àwọn olùkópa DAO ti agbègbè
 
 ### <span translate="no" class="notranslate">Mastodon / Decentralized Social</span>
 
-- [ZecHub.Àwùjọ](https://zechub.social/public/local) - Àpẹẹrẹ Mastodon fún àwùjọ Zcash
+- [ZecHub.Social](https://zechub.social/public/local) - Àpẹẹrẹ Mastodon fún àwùjọ Zcash
 - [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Zcash en Espanol lori Bluesky (gbe lati X lẹhin idaduro akọọlẹ)
 
 ### <span translate="no" class="notranslate">Matrix</span>
@@ -32,7 +32,7 @@ The Zcash community is very active in its community <span translate="no" class="
 
 ### Àpérò Àwùjọ Zcash
 
-Àwọn [Àpérò Àwùjọ Zcash](https://forum.zcashcommunity.com/) ni ibi tí a ti lè jíròrò àwọn ìjíròrò gígùn lórí ìjọ́ba Zcash - ìṣàkóso, àwọn ìdámọ̀ràn owó ìrànlọ́wọ́, ìjíròrò ìmọ̀-ẹ̀rọ, àti àwọn ìkéde nípa ètò-ẹ̀dá. Nísinsìnyí, ìtọ́jú ti yípadà sí Zcash Foundation lẹ́yìn ìyípadà ECC sí ZODL.
+Àwọn [Àpérò Àwùjọ Zcash](https://forum.zcashcommunity.com/) ni ibi tí a ti lè jíròrò àwọn ìjíròrò gígùn lórí ìjọ́ba Zcash - ìṣàkóso, àwọn ìdámọ̀ràn owó ìrànlọ́wọ́, ìjíròrò ìmọ̀-ẹ̀rọ, àti àwọn ìkéde nípa ètò-ẹ̀dá. Nísinsìnyí, ìtọ́jú ti yípadà sí Zcash Foundation lẹ́yìn ìyípadà ECC's sí ZODL.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
@@ -43,15 +43,16 @@ Zcash ní ìfarahàn kárí ayé tó ń ṣiṣẹ́ lórí X. Àwọn àkọọ
 | [@Zcash](https://x.com/zcash) | Àkọọ́lẹ̀ Zcash ti ìjọba |
 | [@ZecHub](https://x.com/zechub) | ZecHub DAO - ẹ̀kọ́ àti ẹ̀bùn àwùjọ |
 | [@zodl_app](https://x.com/zodl_app) | Àpò owó ZODL (tí a mọ̀ sí Zashi tẹ́lẹ̀) |
-| [@ZcashFoundation](https://x.com/zcashfoundation) | Àwọn àtúnṣe Zcash Foundation |
+| [@ZcashFoundation](https://x.com/zcashfoundation) | Awọn imudojuiwọn Zcash Foundation |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Àwùjọ Zcash Brazil |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash Meksiko |
 | [@ZcashTR](https://x.com/ZcashTR) | Zcash Tọki |
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nàìjíríà |
-| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - èdè Sípáníìṣì Podcast Zcash |
+| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - èdè Sípáníìṣì podcast Zcash |
 | [@Ẹgbẹ́_Ẹgbẹ́_ZkAv](https://x.com/ZkAv_Club) | Ẹgbẹ́ Ohùn-àwòrán ZK |
 | [@cipherscan_app](https://x.com/cipherscan_app) | Olùṣàwárí blockchain CipherScan |
-| [@zerodartz](https://x.com/Zerodartz) | Àwọn àwòrán àti àkíyèsí àwùjọ |
+| [@zerodartz](https://x.com/Zerodartz) | Àwọn àwòrán àdúgbò àti àkíyèsí |
 
 ----
 
@@ -59,6 +60,7 @@ Zcash ní ìfarahàn kárí ayé tó ń ṣiṣẹ́ lórí X. Àwọn àkọọ
 
 - [Zcash in Español](https://zcashesp.com) - Àwùjọ tí wọ́n ń sọ èdè Sípéènì (bákan náà lórí Bluesky lẹ́yìn ìdádúró X)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Àwùjọ Brazil
+- [Zcash Meksiko](https://x.com/ZcashMx) - Àwùjọ Mexico
 - [Zcash Tọki](https://x.com/ZcashTR) - Àwùjọ ará Tọ́kì
 - [Zcash Arabia](https://x.com/ZcashArabia) - Àwùjọ àwọn tí ń sọ èdè Lárúbáwá
 - [Zcash Nàìjíríà](https://x.com/ZcashNigeria) - Àwùjọ àwọn ará Nàìjíríà
@@ -72,7 +74,7 @@ Zcash ní ìfarahàn kárí ayé tó ń ṣiṣẹ́ lórí X. Àwọn àkọọ
 ## Àwọn ohun àlùmọ́nì
 
 - [Oju opo wẹẹbu Agbegbe Zcash](https://www.zcashcommunity.com/)
-- [Ìwé ìròyìn ZecHub Wiki](https://zechub.wiki)
+- [ZecHub Wiki](https://zechub.wiki)
 - [Ibùdó Ìrànlọ́wọ́ Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Àwọn Aṣojú Àgbáyé Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - Àkótán ètò lórí wiki yìí (zcashambassadors.com kò sí lórí ayélujára)
-- [Àwọn ẹ̀bùn ZEC](https://bounties.zechub.wiki/)
+- [ZEC Bounties](https://bounties.zechub.wiki/)
