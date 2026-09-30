@@ -1,6 +1,6 @@
-# Ntuziaka MetaMask Zcash Snap Integration
+# Ntuziaka Mgbakwunye MetaMask Zcash Snap
 
-Maka njem zuru ezu na nkọwapụta anya, lelee nke a [** nduzi YouTube **](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
+Maka nkọwa zuru ezu na nkọwa anya, lelee nke a [**YouTube guide**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -14,41 +14,41 @@ Maka njem zuru ezu na nkọwapụta anya, lelee nke a [** nduzi YouTube **](http
 </div>
      
 
-MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zcash Snap**, allowing you to send, receive, and manage private ZEC directly in your browser wallet. Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, it requires **no separate Zcash software** - only MetaMask and the Snap.
+MetaMask na-akwado **Zcash echekwara (ZEC)** site na **ChainSafe-mepụtara Zcash Snap**, na-enye gị ohere izipu, nata, na ijikwa ZEC nkeonwe ozugbo na obere akpa ihe nchọgharị gị. Ejiri **Hacken** nyochaa ya ma depụta ya na **MetaMask Snaps Directory**, ọ chọghị **ngwaọrụ Zcash dị iche** - naanị MetaMask na Snap.
 
 ---
 
-## ** Ihe ndị dị mkpa **
+## **Ihe ndị dị mkpa**
 
 
-> [**MetaMask Mgbatị**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (desktop naanị) - Chrome, Edge, ma ọ bụ Firefox.
-> Akaụntụ MetaMask - mkpụrụ okwu echekwara; Snap na-enweta igodo Zcash site na ya. 
-> Njikọ Ịntanetị kwụsiri ike - Maka mmekọrịta na netwọk Zcash. 
-> Ego - ETH iji gbanwee maka ZEC ma ọ bụ ZEC site na mgbanwe.
+> [**MetaMask Extension**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (naanị na desktọpụ) - Chrome, Edge, ma ọ bụ Firefox.
+> Akaụntụ MetaMask - Mkpụrụ okwu echekwara; Snap na-enweta igodo Zcash site na ya. 
+> Njikọ Ịntanetị Na-adịgide Adịgide - Maka ịmekọrịta na netwọk Zcash. 
+> Ego - ETH iji gbanwee ZEC ma ọ bụ ZEC site na mgbanwe.
 
-> ** Ndụmọdụ:** Chebe okwu mgbake MetaMask gị - ọ na-achịkwa ma ETH na ZEC.
+> **Ndụmọdụ:** Chebe okwu mgbake MetaMask gị - ọ na-achịkwa ma ETH na ZEC.
 
 ---
 
-## ** 1. Wụnye Zcash Snap**
+## **1. Wụnye Zcash Snap**
 
-1. Gaa na [**MetaMask Snaps Directory**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-2. Chọọ maka [**"Zcash Shielded Wallet"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) ma ọ bụ [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
+1. Gaa na [**MetaMask Snaps**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
+2. Chọọ maka [**"Zcash Shielded Wallet"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) or [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
 3. Pịa **Wụnye/Tinye na MetaMask**.
-4. Kwado ikikere dịka:
+4. Kwado ikike dịka:
    ```
       Manage Zcash accounts 
       Store data on your device
    ```
 
-![Zcash-snap-wụnye](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
 
 ## **2. (Nhọrọ) Tinye Zcash Network**
 
-Na MetaMask, họrọ **Tinye Network** ma tinye:
+Na MetaMask, họrọ **Tinye Netwọk** wee tinye:
 
 Maka **BNB SmartChain**;
 ```markdown
@@ -58,69 +58,70 @@ Maka **BNB SmartChain**;
 -  Symbol: BNB
 -  Block Explorer URL: https://bscscan.com
 ```
-Nke a na-eme ka ozi netwọk na njikọ nchọpụta.
-![Tinye-a-ahaziri-Net...](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+Nke a na-enye ohere ka ozi netwọk na njikọ ndị na-eme nchọgharị rụọ ọrụ.
+![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
-Maka ** Zcash Mainnet **;
+Maka **Zcash Mainnet**;
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks` bụ sava lightwalletd nke WebZjs dakọtara (gRPC-web) nke onye ọrụ ya na-arụ [zec.rocks](https://zec.rocks) (@emersonian). Maka testnet, jiri `https://zjs.zec.rocks/testnet`Ọ bụrụ na ị na-agba obere akpa weebụ WebZjs n'onwe gị, nke a bụ uru ị ga-edobe dị ka `LIGHTWALLETD_PROXY`.
 
 ---
 
-## ** 3. Jikọọ na ChainSafe WebZjs Wallet **
+## **3. Jikọọ na obere akpa ChainSafe WebZjs**
 
-1. Gaa na [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
-2. Pịa ** Jikọọ MetaMask Snap **. 
+1. Gaa Leta [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
+2. Pịa **Jikọọ MetaMask Snap**. 
 
 ![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Kwado njikọ ahụ. 
-4. Lelee nchịkọta akaụntụ Zcash gị, gụnyere:
-   - Unified adreesị na Transparent address
+4. Lee nchịkọta akaụntụ Zcash gị, gụnyere:
+   - Adreesị ejikọtara ọnụ na adreesị doro anya
 
-![Nchịkọta-akụkọ-na-otu...](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
-5. Chere maka nhazi oge iji mezue.
+5. Chere ka mmekọrịta mechaa.
 
 
 
 
 ---
 
-## **4. Nweta Ego I Ji n'Ụlọnga Gị**
+## **4. Tinye ego n'akpa ego gị**
 
-> ** Gbanwee ETH -> ZEC ** - Jiri ọrụ dịka ** LeoDex ** ma zipụ na adreesị gị echedoro. 
-> ** Mgbanwe Mwepu ** - Wepụ ZEC zụrụ azụ na adreesị gị echedoro WebZjs. 
+> **Gbanwee ETH -> ZEC** - Jiri ọrụ dịka **LeoDex** ziga ya na adreesị echekwara gị. 
+> **Mwepụ Mgbanwe** - Wepụ ZEC azụrụ na adreesị nchekwa WebZjs gị. 
 
-![ LEODEX-SWAP ](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
-> => Jiri adreesị ezoro ezo maka **nzuzo zuru oke**.
+> => Jiri adreesị echekwara (z) maka **nzuzo zuru oke**.
 
 ---
 
-## ** 5. zipu / nata ZEC**
+## **5. Zipu / Nata ZEC**
 
-1. Na **WebZjs**, gaa na **Nnyefe Balance**. 
+1. Na **WebZjs**, gaa na **Ntuziaka Nnyefe**. 
 2. Tinye:
 ```
    - Shielded recipient address  
    - Amount
 ```
-   ![Nkwụnyefe-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
-4. Kwado azụmahịa na MetaMask (banye azụmahịa ahụ). 
-5. Ego natara ga-apụta na WebZjs mgbe nkwenye.
+4. Kwenye azụmahịa ahụ na MetaMask (binye aka na azụmahịa ahụ). 
+5. Ego enwetara ga-apụta na WebZjs mgbe emechara nkwenye.
 
 ---
 
-## **6. Nyochaa / Nchọpụta nsogbu**
+## **6. Nyochaa / Chọpụta nsogbu**
 
-> Lelee **WebZjs** maka nguzozi emelitere **(MetaMask edepụtaghị ZEC ozugbo) **. 
+> Lelee **WebZjs** maka nhazi emelitere **(MetaMask edepụtaghị ZEC ozugbo)**. 
 > Ọ bụrụ na nsogbu emee:
   ```
   - Confirm you have the official ChainSafe Snap.  
@@ -129,34 +130,34 @@ Maka ** Zcash Mainnet **;
   - Reconnect via **Connect Snap** if needed.
   ``` 
 
-> ** Ndụmọdụ Nchedo:** Naanị wụnye ** ChainSafe Snap a na-enyocha; nyochaa ikikere tupu nkwenye.
+> **Ndụmọdụ Nchekwa:** Wụnye naanị **Ngwaọrụ ChainSafe Snap** e nyochachara; lelee ikike tupu nkwenye.
 
 ---
 
-## ** 7. Lelee Adreesị Components **
+## **7. Lelee ihe mejupụtara adreesị**
 
-1. Go to the **Receive** section - your Unified Address will be displayed by default.  
-2. Copy the Unified Address and visit the [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
-3. Paste your Unified Address into the search bar.  
-4. Ị ga-ahụzi ihe niile dị na Unified Address, nke gụnyere:
+1. Gaa na ngalaba **Receive** - a ga-egosi Unified Address gị na ndabara. 
+2. Detuo Unified Address wee gaa na [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
+3. Mado Unified Address n'ime ogwe ọchụchọ. 
+4. Ugbu a, ị ga-ahụ ihe niile dị na Unified Address, nke gụnyere:
 ``` 
    Orchard Address  
    Sapling Address  
    Transparent Address
 ``` 
 
-![Adreesị-akụkụ](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 
 ---
 
-## **Ihe ndetu ndị ọzọ**
+## **Ihe Ndị Ọzọ**
 
-> Jiri [**ọhụrụ MetaMask mbipute**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - ntọhapụ ọha na eze na-akwado Snaps. 
-> Ihe akaebe echedoro nwere ike iwe oge, WebAssembly na-ejikwa ngụkọta na ihe nchọgharị. 
+> Jiri ya [**ụdị MetaMask kachasị ọhụrụ**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - mwepụta ọha na eze na-akwado Snaps. 
+> Ihe akaebe echekwara nwere ike were oge, WebAssembly na-ejikwa mgbakọ na mwepụ n'ime ihe nchọgharị. 
 > Iweghachite dị mfe, wụnye MetaMask na Snap, wee bubata mkpụrụ gị dị ugbu a. 
-> Snap na-agbanye na ZEC echekwara, adreesị doro anya abụghị ihe a na-elekwasị anya. 
+> Snap na-agbanwe agbanwe gaa na **ZEC**, adreesị doro anya abụghị **ihe a na-elekwasị anya na ya**. 
 > Jiri [zcashblockexplorer.com](https://zcashblockexplorer.com) maka nkwenye azụmahịa.
 
 

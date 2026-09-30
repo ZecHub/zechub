@@ -4,6 +4,8 @@
 
 ![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
+Solana üzerinde hâlihazırda ZEC mı tutuyorsunuz (örneğin, sahiplerine ZEC ile ödeme yapan bir tokenden)? Takas etmeyin. Bu tokeni [ ile korumalı bir Zcash cüzdanına taşıyınSolana üzerinde ZEC mı var? Onu korumalı Zcash](/using-zcash/solana-zec-to-shielded)'e taşıyın.
+
 ---
 
 ## **Yerel ZEC mi, yoksa bir ZEC tokenı mı?**
@@ -15,14 +17,14 @@ Phantom'daki "ZEC" iki farklı varlığı ifade edebilir; bu nedenle ne için ö
 
 ### Ödeme yapmadan önce kontrol edin
 
-- **Ağ:** Aldığınız ZEC, **Zcash** ağında olmalıdır. Solana, Ethereum veya Base yazıyorsa bu bir tokendır.
-- **Varlık:** Yerel ZEC için token sözleşmesi ya da mint adresi bulunmaz. Sizinkinde böyle bir adres görünüyorsa, bu bir tokendır. Solana'da benzer görünümlü pek çok "ZEC" tokenı da vardır; bu nedenle yalnızca adına bakmayın.
-- **Adres:** Yerel ZEC, `t1`, `u1` veya `zs` ile başlayan bir Zcash adresine gider. ZEC Phantom adresinize gönderiliyorsa, bir token alıyorsunuz demektir.
+- **Ağ:** aldığınız ZEC, **Zcash** ağında olmalıdır. Solana, Ethereum veya Base yazıyorsa bu bir tokendır.
+- **Varlık:** yerel ZEC için token sözleşmesi veya mint adresi bulunmaz. Sizinkinde bunlardan biri görünüyorsa bu bir tokendır. Solana’da benzer görünümlü birçok "ZEC" tokenı da vardır; bu nedenle yalnızca isme güvenmeyin. Solana’daki OmniBridge tokenı `A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS`’dir; bu hâlâ bir tokendır, yerel ZEC değildir.
+- **Adres:** yerel ZEC, `t1`, `u1` veya `zs` ile başlayan bir Zcash adresine gönderilir. ZEC, Phantom adresinize gönderiliyorsa bir token alıyorsunuz.
 
 ---
 
-##  **1. Adım: Takas Arayüzünü Açın**  
-**Phantom uygulamasını** açın ve Phantom tarayıcısından **[solswap.org](https://solswap.org/)** adresini ziyaret edin. Site Near Intents üzerinde çalışır ve ZEC varlığını bir Zcash adresine gönderebilir.  
+##  **Adım 1: Swap Arayüzünü Açın**
+**Phantom uygulamasını** başlatın ve Phantom tarayıcısından **[solswap.org](https://solswap.org/)** adresini ziyaret edin. Adresi kendiniz yazın. Site NEAR Intents üzerinde çalışır ve ZEC varlıklarını bir Zcash adresine gönderebilir.
 
 Phantom'un kendi **Swap** düğmesinde de ZEC listelenir, ancak bu size yukarıda açıklanan tokenı verir; yerel ZEC vermez.  
 
@@ -43,64 +45,57 @@ Phantom'un kendi **Swap** düğmesinde de ZEC listelenir, ancak bu size yukarıd
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 
-##  **3. Adım: Tutarı Girin ve Teklifi İnceleyin**  
-- Takas etmek istediğiniz tutarı girin.  
-- Phantom, ücretlerden sonra **tahmini alınacak tutarı** gösterecektir.  
-
+##  **Adım 3: Tutarı Girin ve Teklifi İnceleyin**
+- Takas etmek istediğiniz tutarı girin.
+- **solswap.org** üzerinde gösterilen alınacak tutarı kullanın. Bu rotada geçerli olan teklif budur.
 
 ![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
-##  **4. Adım: Gas ve Ücretleri Kontrol Edin**  
-- **Aynı zincirdeki takaslar** için yeterli yerel gas tokenına sahip olduğunuzdan emin olun (*Ethereum için ETH, Solana için SOL*).  
-- **Zincirler arası takaslar**, hem kaynak hem de hedef zincirde gas gerektirir.  
-- Ücret dökümünü inceleyin:  
-  - Phantom Ücreti: **%0,85**  
-  - Ağ Gas Ücreti  
-  - Köprü Sağlayıcısı Ücretleri (~**%0,3**)  
-  
-  
----
-
-##  **5. Adım: Ayarları Yapın (İsteğe Bağlı)**  
-Şunları yapmak için **Swap Settings** seçeneğine dokunun:  
-- **Slippage** değerini ayarlamak (varsayılan **%0,3**, %30'a kadar ayarlanabilir).  
-- Yoğun ağlarda **öncelik ücretlerini** artırmak.  
+##  **Adım 4: Gas ve Ücretleri Kontrol Edin**
+- Yatırma işlemini onaylamak için Phantom içinde kaynak zincirin gas tokeninden yeterli miktarda bulundurun (Solana'da *SOL*, Ethereum'da *ETH*).
+- Onaylamadan önce solswap teklifindeki ücret satırını okuyun. Phantom'ın yerleşik Swap özelliği kendi ücret tarifesini kullanır (geçmişte ağ gası ve köprüleme ücretine ek olarak %0,85 Phantom ücreti). Bu rakamlar solswap.org yatırma işlemi için geçerli değildir.
 
 ---
 
-##  **6. Adım: Takası Onaylayın**  
-- Tüm takas ayrıntılarını inceleyin.  
-- İşlemi başlatmak için **Swap Now** seçeneğine dokunun.  
+##  **Adım 5: Ayarları Düzenleyin (İsteğe Bağlı)**
+solswap.org'da, yatırma işlemi yapmadan önce kaymayı ve ekranda belirtilen minimum alım miktarını inceleyin.
 
+Bunun yerine Phantom'ın kendi **Swap** sayfasına bakıyorsanız, bu sayfanın üst kısmındaki token rotasındasınız. Kapatın ve Phantom tarayıcısında `solswap.org` öğesini açın.
+
+---
+
+##  **Adım 6: Takası Onaylayın**
+- solswap.org üzerindeki tüm takas ayrıntılarını gözden geçirin.
+- Para yatırma işlemini Phantom içinde onaylayın.
 
 ![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 
-## **7. Adım: Durumu Takip Edin**  
-- Takasınızı **Recent Activity** sekmesinden takip edin.  
-- Zincirler arası takaslarda, gerçek zamanlı güncellemeler için **işlem kimliğinizi** **Li.Fi Scanner** ile kullanın. 
-
+## **Adım 7: Durumu İzleyin**
+- Para yatırma işlemini **Tamamlandı** olarak görünene kadar solswap.org etkinliğinden takip edin.
+- Solana veya kaynak zincir işlem kimliği, bu etkinlik satırında ve ilgili ağın zincir gezgininde yer alır.
 
 ![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
 ---
 
-## **8. Adım: Yerel ZEC Varlığını Zcash Cüzdanınıza Çekin**  
-Takastan sonra ZEC varlığınız solswap.org **Account** bakiyenizde görünür. Henüz Zcash ağında değildir ve Phantom'da da bulunmaz. Taşımak için:  
-- Zcash gibi bir [ZODL](https://zodl.com) cüzdanı açın ve alım adresinizi kopyalayın. Çekim formu şeffaf (`t1`) veya birleşik (`u1`) bir adresi kabul eder.  
-- solswap.org'da **Account** bölümüne gidin ve **Withdraw** seçeneğine dokunun.  
-- **ZEC** seçeneğini belirleyin, ağı **Zcash** olarak ayarlayın, adresinizi yapıştırın ve onaylamadan önce iki kez kontrol edin.  
+## **8. Adım: Yerel ZEC'i Zcash Cüzdanınıza Çekin**
+Swap işleminden sonra ZEC, solswap.org **Hesap** bakiyenizde görünür. Henüz Zcash ağında değildir ve Phantom içinde de değildir.
+
+1. [directory](/wallets) tarafından **Ironwood: Hazır** olarak işaretlenen bir Zcash cüzdanını açın. Cüzdanınızın korumalı olarak etiketlediği bir `u1` kopyalayın. `t1` de kullanılabilir, ancak bu yatırma işlemi siz koruyana kadar herkese açıktır.
+2. solswap.org'da **Hesap** bölümüne gidin ve **Çek** seçeneğine dokunun. **ZEC** seçeneğini belirleyin, ağı **Zcash** olarak ayarlayın, adresi yapıştırın ve onaylamadan önce ilk ve son karakterleri kontrol edin.
+3. **Alınan tutar** ve **Ücret** "–" olarak kalır ve düğme hiçbir şey yapmazsa bakiye kaybolmamıştır. NEAR Intents içinde, Phantom anahtarınız altında bulunur. [near.com](https://near.com) üzerinde işlemi tamamlayın: aynı Phantom cüzdanıyla oturum açın, **Eski varlıkları taşı** bölümünü açın, ZEC satırında (**Taşı** değil) **Çek** seçeneğine dokunun, ağı **Zcash** olarak ayarlayın ve aynı `u1` adresini yapıştırın. Phantom sizden **Mesajı İmzala** işlemini isteyecektir. Yalnızca istek `near.com` kaynaklıysa ve mesajda `"verifying_contract": "intents.near"` adı geçiyorsa onaylayın. Bu geçici çözümün tüm ekranları [Solana'da ZEC mi var? Korunaklı Zcash konumuna taşıyın](/using-zcash/solana-zec-to-shielded).
 
 ---
 
-## **Sonraki Adımlar**  
-Yerel ZEC, Zcash cüzdanınıza ulaştığında [bu rehberle](/guides/using-zec-privately) koruyabilirsiniz.  
+## **Sonraki Adımlar**
+Yerel ZEC, Zcash cüzdanınıza ulaştığında [ kullanarak gizli tutun ZEC'ü özel olarak kullanma](/guides/using-zec-privately).
 
-Phantom'un Swap düğmesiyle satın alınan bir ZEC tokenı, Zcash ağında olmadığı için bu şekilde korunamaz. Öncelikle bunu bir Zcash adresine gönderilen yerel ZEC ile takas etmeniz gerekir.
+Phantom'nin Swap düğmesiyle satın alınan bir ZEC tokenı, Phantom'den shielded hâle getirilemez. Bu token, Solana üzerindeki OmniBridge varlığıdır. Onu [ ile taşıyın. Solana'da ZEC mi var? Onu shielded Zcash](/using-zcash/solana-zec-to-shielded)'ye taşıyın.

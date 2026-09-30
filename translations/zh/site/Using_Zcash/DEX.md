@@ -9,9 +9,9 @@ ZecHub 不认可任何特定的去中心化交易所服务，请自行研究。
 以下每个 `###` 标题都是 https://zechub.wiki/dex. 上的一张卡片
 在此添加、编辑或删除一个区块；wiki 会从此文件中获取它。
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - 网站：https://near.com/
 - 描述：在 NEAR 的支持下快速交易。可充值、出售、兑换热门的 TRUMP、MELANIA、BERA 及其他 meme 币
