@@ -45,11 +45,12 @@ Zcash 在 X 上拥有活跃的全球影响力。值得关注的主要账号包�
 | [@zodl_app](https://x.com/zodl_app) | ZODL 钱包（原 Zashi） |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash Foundation 更新 |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Zcash 巴西社区 |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash 墨西哥 |
 | [@ZcashTR](https://x.com/ZcashTR) | Zcash 土耳其 |
-| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
-| [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nigeria |
+| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash 阿拉伯地区 |
+| [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash 尼日利亚 |
 | [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - 西班牙语 Zcash 播客 |
-| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
+| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK 视听俱乐部 |
 | [@cipherscan_app](https://x.com/cipherscan_app) | CipherScan 区块链浏览器 |
 | [@zerodartz](https://x.com/Zerodartz) | 社区梗图与评论 |
 
@@ -59,6 +60,7 @@ Zcash 在 X 上拥有活跃的全球影响力。值得关注的主要账号包�
 
 - [Zcash en Espanol](https://zcashesp.com) - 西班牙语社区（X 封号后也转至 Bluesky）
 - [Zcash Brazil](https://x.com/zcashbrazil) - 巴西社区
+- [Zcash Mexico](https://x.com/ZcashMx) - 墨西哥社区
 - [Zcash Turkey](https://x.com/ZcashTR) - 土耳其社区
 - [Zcash Arabia](https://x.com/ZcashArabia) - 阿拉伯语社区
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - 尼日利亚社区
@@ -75,4 +77,4 @@ Zcash 在 X 上拥有活跃的全球影响力。值得关注的主要账号包�
 - [ZecHub Wiki](https://zechub.wiki)
 - [Zcash Grants Hub](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcash 全球大使](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - 本 Wiki 上的项目概述（zcashambassadors.com 已下线）
-- [ZEC 赏金](https://bounties.zechub.wiki/)
+- [ZEC Bounties](https://bounties.zechub.wiki/)

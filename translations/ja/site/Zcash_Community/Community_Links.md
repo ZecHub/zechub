@@ -42,16 +42,17 @@ Zcashは、X上でも活発なグローバル存在を持っています。フ�
 |---------|-------------|
 | [@Zcash](https://x.com/zcash) | 公式のZcashアカウント |
 | [@ZecHub](https://x.com/zechub) | ZecHub DAO - コミュニティ教育およびバウンティ |
-| [@zodl_app](https://x.com/zodl_app) | ZODLウォレット（かつてはZashi） |
+| [@zodl_app](https://x.com/zodl_app) | ZODLウォレット（旧Zashi） |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash Foundationのアップデート |
-| [@zcashbrazil](https://x.com/zcashbrazil) | ブラジルのZcashコミュニティ |
-| [@ZcashTR](https://x.com/ZcashTR) | トルコのZcashコミュニティ |
-| [@ZcashArabia](https://x.com/ZcashArabia) | アラビア語話者のZcashコミュニティ |
-| [@ZcashNigeria](https://x.com/ZcashNigeria) | ニジェリアのZcashコミュニティ |
-| [@ZcastEsp](https://x.com/ZcastEsp) | スペイン語で放送されるZcashポッドキャスト、Zcast |
+| [@zcashbrazil](https://x.com/zcashbrazil) | Zcashのブラジルコミュニティ |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcashメキシコ |
+| [@ZcashTR](https://x.com/ZcashTR) | Zcashトルコ |
+| [@ZcashArabia](https://x.com/ZcashArabia) | Zcashアラビア |
+| [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcashナイジェリア |
+| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - スペイン語のZcashポッドキャスト |
 | [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
 | [@cipherscan_app](https://x.com/cipherscan_app) | CipherScanブロックチェーンエクスプローラー |
-| [@zerodartz](https://x.com/Zerodartz) | コミュニティのジョークとコメント |
+| [@zerodartz](https://x.com/Zerodartz) | コミュニティのミームとコメント |
 
 ----
 
@@ -59,6 +60,7 @@ Zcashは、X上でも活発なグローバル存在を持っています。フ�
 
 - [Zcash en Espanol](https://zcashesp.com) - スペイン語話者のコミュニティ（Xでのアカウントの一時停止後、Bluesky上でも活動中）
 - [Zcash Brazil](https://x.com/zcashbrazil) - ブラジルのコミュニティ
+- [Zcash Mexico](https://x.com/ZcashMx) - メキシコのコミュニティ
 - [Zcash Turkey](https://x.com/ZcashTR) - トルコのコミュニティ
 - [Zcash Arabia](https://x.com/ZcashArabia) - アラビア語話者のコミュニティ
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - ニジェリアのコミュニティ
@@ -73,6 +75,6 @@ Zcashは、X上でも活発なグローバル存在を持っています。フ�
 
 - [Zcash コミュニティウェブサイト](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
-- [Zcash助成金ハブ](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcashグローバルアンバサダー](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - このWiki上のプログラム概要（zcashambassadors.com はオフラインです）
-- [ZEC バウンティ](https://bounties.zechub.wiki/)
+- [Zcash 助成金ハブ](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Zcash グローバルアンバサダー](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - このWiki上のプログラム概要（zcashambassadors.com はオフラインです）
+- [ZEC Bounties](https://bounties.zechub.wiki/)
