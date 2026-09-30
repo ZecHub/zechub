@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets розробляються за пі
 
 ### Ресурси:
 
-[Приватні міжланцюгові перекази на Zcon3](https://youtu.be/vCvMk2-CJN8)
+Приватні міжланцюгові перекази на Zcon3
 
 [Презентація QEDIT про Defi на Zcon3](https://youtu.be/EGjcYhovty0) / [Дошка](https://miro.com/app/board/uXjVOhuveHo=/)
 

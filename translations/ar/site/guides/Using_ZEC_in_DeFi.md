@@ -62,7 +62,7 @@
 
 ### الموارد:
 
-[عمليات نقل خاصة عبر السلاسل في Zcon3](https://youtu.be/vCvMk2-CJN8)
+عمليات نقل خاصة عبر السلاسل في Zcon3
 
 [عرض QEDIT حول Defi في Zcon3](https://youtu.be/EGjcYhovty0) / [لوحة الرسم](https://miro.com/app/board/uXjVOhuveHo=/)
 

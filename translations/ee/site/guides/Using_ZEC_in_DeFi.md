@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets le ŋgɔyiyi me kple ƒuƒoƒo aɖe 
 
 ### Nunɔamesiwo:
 
-[Zcon3 Ame ŋutɔ ƒe Cross-Chain Transfers](https://youtu.be/vCvMk2-CJN8)
+Zcon3 Ame ŋutɔ ƒe Cross-Chain Transfers
 
 [Zcon3 QEDIT Nuƒoƒo tso Defi ŋu](https://youtu.be/EGjcYhovty0) / [Nutata ƒe Dɔwɔƒe](https://miro.com/app/board/uXjVOhuveHo=/)
 

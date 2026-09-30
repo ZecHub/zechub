@@ -869,7 +869,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -1189,7 +1189,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+deadlink-repair",
+      "tool": "gt-static+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -1485,7 +1485,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+jsx-restore+gloss-restore",
+      "tool": "gt-static+jsx-restore+gloss-restore+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -2615,7 +2615,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -2935,7 +2935,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -3231,7 +3231,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -4361,7 +4361,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -4681,7 +4681,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -4977,7 +4977,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -6107,7 +6107,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -6427,7 +6427,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+deadlink-repair",
+      "tool": "gt-static+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -6723,7 +6723,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+jsx-restore+gloss-restore",
+      "tool": "gt-static+jsx-restore+gloss-restore+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -7853,7 +7853,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -8173,7 +8173,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -8469,7 +8469,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -9599,7 +9599,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -9919,7 +9919,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -10215,7 +10215,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -11345,7 +11345,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -11665,7 +11665,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -11961,7 +11961,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -13083,7 +13083,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+videorepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -13403,7 +13403,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -13699,7 +13699,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+gloss-restore+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -14829,7 +14829,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -15149,7 +15149,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair+deadlink-repair+jsx-restore",
+      "tool": "gpt-5.4+linkrepair+deadlink-repair+jsx-restore+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -15445,7 +15445,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -16575,7 +16575,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -16895,7 +16895,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+deadlink-repair",
+      "tool": "qwen3-14b+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -17191,7 +17191,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -18321,7 +18321,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -18641,7 +18641,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+deadlink-repair",
+      "tool": "qwen3-14b+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -18937,7 +18937,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -20067,7 +20067,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -20387,7 +20387,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -20683,7 +20683,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -21813,7 +21813,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -22133,7 +22133,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -22429,7 +22429,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -23559,7 +23559,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -23879,7 +23879,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -24175,7 +24175,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore+defi-brand-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+defi-brand-restore+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -25305,7 +25305,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -25625,7 +25625,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -25921,7 +25921,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -27051,7 +27051,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -27371,7 +27371,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -27667,7 +27667,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -28797,7 +28797,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+videorepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -29117,7 +29117,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+prose-retranslate+table-rebuild",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+prose-retranslate+table-rebuild+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -29413,7 +29413,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -30543,7 +30543,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -30863,7 +30863,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -31159,7 +31159,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {

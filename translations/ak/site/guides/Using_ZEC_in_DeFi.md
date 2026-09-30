@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets ayɛ nkɔsoɔ denam kuw bi a wɔatu 
 
 ### Akadeɛ:
 
-[Zcon3 Ankorankoro Cross-Chain Transfers](https://youtu.be/vCvMk2-CJN8)
+Zcon3 Ankorankoro Cross-Chain Transfers
 
 [Zcon3 QEDIT Nkyerɛkyerɛmu a ɛfa Defi](https://youtu.be/EGjcYhovty0) / [Mfoniniyɛ Board](https://miro.com/app/board/uXjVOhuveHo=/)
 

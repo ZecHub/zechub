@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets have been in development with the as
 
 ### Malipo:
 
-[Zcon3 Binafsi Msalaba-Mnyororo Uhamisho](https://youtu.be/vCvMk2-CJN8)
+Zcon3 Binafsi Msalaba-Mnyororo Uhamisho
 
 [Zcon3 QEDIT Mawasilisho juu ya Defi](https://youtu.be/EGjcYhovty0) / [Daratasi ya kuchora](https://miro.com/app/board/uXjVOhuveHo=/)
 

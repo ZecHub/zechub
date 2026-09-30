@@ -159,11 +159,11 @@ Trusted but Universal Setup - Nikan ni lati ṣiṣe iṣeto ti o gbẹkẹle l�
 
 **Àwọn oríṣi àwọn ìkópa tí kò ní í ṣe pẹ̀lú SNARK**:
 
-[Grọ́ọ̀sì 16](https://www.youtube.com/watch?v=QDplVkyncYQ): Nilo Iṣeto Igbẹkẹle ṣugbọn o ni awọn ẹri kukuru pupọ ti o le ṣayẹwo ni kiakia.
+[Grọ́ọ̀sì 16](https://eprint.iacr.org/2016/260): Nilo Iṣeto Igbẹkẹle ṣugbọn o ni awọn ẹri kukuru pupọ ti o le ṣayẹwo ni kiakia.
 
 [Ìró tó ń dún](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953)Ìdásílẹ̀ Tí Gbogbo Èèyàn Gbára Lé.
 
-[ÌDÍLÉ](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Kò sí ìmúrasílẹ̀ tí a gbẹ́kẹ̀lé ṣùgbọ́n ó máa ń mú àwọn ẹ̀rí tó gùn díẹ̀ jáde tàbí ó lè gba àkókò púpọ̀ sí i kí ẹ̀jẹ̀ náà tó ṣiṣẹ́. 
+[ÌDÍLÉ](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Kò sí ìmúrasílẹ̀ tí a gbẹ́kẹ̀lé ṣùgbọ́n ó máa ń mú àwọn ẹ̀rí tó gùn díẹ̀ jáde tàbí ó lè gba àkókò púpọ̀ sí i kí ẹ̀jẹ̀ náà tó ṣiṣẹ́. 
 
 Awọn SNARKS wulo nigbati o ba nilo ọpọlọpọ awọn olutọtọ bii blockchain bi Zcash tabi zk-Rollup bii [Aztec](https://docs.aztec.network) nítorí náà, ọ̀pọ̀lọpọ̀ àwọn òpó ìmúṣẹ kò ní láti ṣe àjọṣepọ̀ pẹ̀lú ẹ̀rí kọ̀ọ̀kan fún ìgbà díẹ̀. 
 

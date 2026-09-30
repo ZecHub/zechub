@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets, bu işe adanmış bir ekibin deste�
 
 ### Kaynaklar:
 
-[Zcon3 Özel Zincirler Arası Transferler](https://youtu.be/vCvMk2-CJN8)
+Zcon3 Özel Zincirler Arası Transferler
 
 [DeFi üzerine Zcon3 QEDIT Sunumu](https://youtu.be/EGjcYhovty0) / [Çizim Tahtası](https://miro.com/app/board/uXjVOhuveHo=/)
 
