@@ -1,4 +1,4 @@
-# Understanding unified address (ZIP-316) validation
+# Unified Address (ZIP-316) validation
 
 *This is a learning guide, not a packaged decoder or copy-paste payment library. It explains how a unified address is structured so you can understand what maintained libraries do under the hood. For anything that handles real funds, defer to the [ZIP-316 specification](https://zips.z.cash/zip-0316) and the official implementations linked below.*
 
@@ -58,10 +58,11 @@ The remaining payload consists of `(typecode, length, content)` entries, where t
 
 Beyond these, ZIP-316 reserves two further ranges for forward compatibility:
 
-- **`0xC0`–`0xDF` (ignorable metadata):** safe to skip if the parser doesn't recognize the specific typecode.
-- **`0xE0`–`0xFC` (MUST-understand metadata):** if the parser doesn't recognize the specific typecode here, it must reject the whole address.
+- **`0xC0`–`0xDF` (non-MUST-understand metadata):** consumers must ignore metadata items they don't recognize in this range.
+- **`0xE0` and `0xE1` (assigned MUST-understand expiry metadata):** the current ZIP-316 registry assigns these to address expiry height and time. Consumers must understand these items or reject the address.
+- **`0xE2`–`0xFC` (unassigned MUST-understand metadata):** consumers must reject the address if they encounter an unrecognized item in this range.
 
-Verify that each entry's length matches its expected typecode and that no trailing bytes remain.
+For known receiver types, verify that the encoded length matches the type's specified content length. For metadata items, use their encoded compact-size length to determine the content length. Reject truncated entries or any trailing bytes.
 
 **Preferred receiver order.** Once an address parses successfully, a wallet or payment tool should pick the best receiver in this order: Orchard, then Sapling, then transparent.
 
@@ -76,7 +77,7 @@ Verify that each entry's length matches its expected typecode and that no traili
 - **Unsorted typecodes:** Receivers must appear in strictly ascending typecode order.
 - **Conflicting transparent receivers:** A UA may carry either P2PKH or P2SH, but **never both**.
 - **Malformed entries or padding:** Mismatched network prefixes, truncated payloads, or length mismatches must trigger immediate rejection.
-- **Unrecognized typecodes:** Ignore unrecognized typecodes outside `0xE0`–`0xFC` and use the best known receiver instead. Reject the address only if no usable receiver remains, or if an unrecognized typecode falls in the `0xE0`–`0xFC` MUST-understand range.
+- **Unrecognized typecodes:** Consumers must ignore unrecognized items except items in the MUST-understand metadata range (`0xE0`–`0xFC`), which they must reject when unrecognized. In the current registry, `0xE0` and `0xE1` are assigned expiry types, while `0xE2`–`0xFC` are unassigned. Independently, reject any address that fails the mandatory validity rules above, including the requirement for a Sapling or Orchard receiver.
 
 ---
 
@@ -103,7 +104,7 @@ Verify that each entry's length matches its expected typecode and that no traili
 
 | Term | Meaning |
 | :--- | :--- |
-| **Unified address (UA)** | Single address string bundling multiple receiver pools. |
+| **Unified Address (UA)** | Single address string bundling multiple receiver pools. |
 | **Receiver** | Specific payment destination type (transparent, Sapling, or Orchard). |
 | **Bech32m** | Text encoding scheme used for UA strings. |
 | **HRP** | Human-readable part or network prefix (`u` or `utest`). |
