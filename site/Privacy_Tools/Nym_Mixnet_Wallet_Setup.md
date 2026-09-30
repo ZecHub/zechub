@@ -4,16 +4,16 @@
 
 # Route Zcash Wallet Traffic Over the Nym Mixnet
 
-> Last verified: September 25, 2026
+> Last verified: September 29, 2026
 
 Zcash shielded transactions protect transaction data on-chain, but wallets still communicate over the internet. Network observers can potentially learn metadata such as your IP address, when your wallet connects, and which infrastructure it contacts.
 
 Nym adds a separate network-privacy layer. As of September 2026, the best approach depends on the wallet:
 
 1. **Prefer a wallet's native Nym integration when it exists.**
-2. Otherwise, use **system-level NymVPN Mixnet/Anonymous mode** so the wallet's network traffic is routed through Nym without depending on wallet-specific proxy support.
+2. Otherwise, use **system-level NymVPN Mixnet mode** so the wallet's network traffic is routed through Nym without depending on wallet-specific proxy support.
 
-The bounty text referenced `site/Privacy_Tools/Nym_VPN.md`, but that file does not exist on current ZecHub main. The current related ZecHub page is [VPN & dVPN](./VPN_and_DVPN.md).
+For general VPN and dVPN background, see [VPN & dVPN](./VPN_and_DVPN.md).
 
 ## What Nym adds — and what it does not
 
@@ -31,9 +31,9 @@ Nym does **not** protect against a compromised device, malicious wallet software
 
 Nym announced on September 24, 2026 that its Zcash Community Grant work is complete and native mixnet support is shipping in real Zcash wallets.
 
-### Zingo! Wallet / Zingo PC
+### Zingo! Wallet
 
-Zingo PC includes a native Nym transport.
+Zingo PC includes a native Nym transport. Zingo Mobile also ships Mixnet Mode on iOS and Android using an in-app Nym proxy.
 
 Current behavior documented by Zingo:
 
@@ -50,7 +50,8 @@ If your threat model also requires hiding sync traffic from the server, use a sy
 
 Sources:
 
-- https://github.com/zingolabs/zingo-pc
+- https://github.com/zingolabs/zingo-pc#the-nym-mixnet
+- https://github.com/zingolabs/zingo-mobile
 - https://nym.com/blog/nym-mixnet-zcash-wallets
 
 ### Zkool
@@ -64,11 +65,21 @@ Prefer Zkool's native Nym option over trying to force an older YWallet build thr
 Sources:
 
 - https://nym.com/blog/nym-mixnet-zcash-wallets
-- https://github.com/mladenmarkov/zkool
+- https://github.com/hhanh00/zkool2
+
+### Nozy
+
+NozyWallet also has Nym-aware transport paths. Its current implementation supports routing outgoing transaction submission over the Nym mixnet and a separate Nym dVPN path for compact-block synchronization. Treat these as distinct protections rather than assuming every wallet request automatically uses the mixnet.
+
+Sources:
+
+- https://github.com/LEONINE-DAO/Nozy-wallet
+- https://github.com/LEONINE-DAO/Nozy-wallet/blob/main/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
+- https://github.com/LEONINE-DAO/Nozy-wallet/blob/main/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
 ### Zodl
 
-Zodl currently has built-in **Tor Protection**, not the same native Nym integration described above for Zingo and Zkool.
+Zodl currently has built-in **Tor Protection**, not the same native Nym integration described above for Zingo, Zkool, and Nozy.
 
 Zodl's Tor feature can route transaction submission, transaction-data retrieval, exchange-rate requests, and third-party API calls over Tor. Nym stated on September 24, 2026 that it is still in active conversation with the Zodl team about broader mixnet integration.
 
@@ -101,9 +112,9 @@ Download NymVPN only from Nym's official website or an official platform store:
 
 NymVPN supports Android, iOS, Linux, Windows, and macOS.
 
-### 2. Select Anonymous / Mixnet mode
+### 2. Select Mixnet mode
 
-NymVPN has a lower-latency mode and a stronger anonymous/mixnet route. For the strongest network-metadata protection, use the Anonymous/Mixnet option and wait until the client reports that the connection is established before opening or refreshing the wallet.
+NymVPN exposes **Fast mode**, a 2-hop dVPN path optimized for lower latency, and **Mixnet mode**, a 5-hop mixnet path optimized for stronger network-metadata protection. For sensitive wallet activity, select Mixnet mode and wait until the client reports that the connection is established before opening or refreshing the wallet.
 
 ### 3. Leave the wallet on normal network settings
 
@@ -125,7 +136,7 @@ A simple system-level check:
    ```
 
 3. Record the visible IP.
-4. Connect NymVPN in Anonymous/Mixnet mode.
+4. Connect NymVPN in Mixnet mode.
 5. Repeat the check.
 
 The visible public IP should change.
@@ -196,7 +207,9 @@ Before relying on the setup, ask:
 ## Sources
 
 - Nym: Nym mixnet now live in Zcash wallets, September 24, 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
-- Zingo PC repository and Nym behavior: https://github.com/zingolabs/zingo-pc
-- Zkool repository: https://github.com/mladenmarkov/zkool
+- Zingo PC Nym behavior: https://github.com/zingolabs/zingo-pc#the-nym-mixnet
+- Zingo Mobile Nym transport: https://github.com/zingolabs/zingo-mobile
+- Zkool repository: https://github.com/hhanh00/zkool2
+- NozyWallet Nym transport work: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
 - Zodl Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection
