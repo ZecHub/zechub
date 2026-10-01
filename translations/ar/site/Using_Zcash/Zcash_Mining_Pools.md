@@ -117,7 +117,7 @@
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://zcash.zhash.pro/stats">
-    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash Logo" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
 - الموقع الإلكتروني: [Zhash](https://zcash.zhash.pro/stats)

@@ -117,7 +117,7 @@ Zcash 채굴 풀은 개별 채굴자들이 자신의 컴퓨팅 파워(해시레�
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://zcash.zhash.pro/stats">
-    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash Logo" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
 - 웹사이트: [Zhash](https://zcash.zhash.pro/stats)

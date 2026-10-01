@@ -117,7 +117,7 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://zcash.zhash.pro/stats">
-    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash Logo" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
 - 网站：[Zhash](https://zcash.zhash.pro/stats)
