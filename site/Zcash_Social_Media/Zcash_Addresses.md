@@ -93,7 +93,7 @@ Daira explains Anchor positions (zcon3):
 
 In some cases (e.g. cross-pool transactions) amounts may be visible to an outside observer. However, `valueBalanceSapling` and `valueBalanceOrchard` use **homomorphic commitments** to prove the total ZEC in shielded pools and prevent counterfeiting.
 
-Read more: [Defense Against Counterfeiting in Shielded Pools](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Read more: [Zcash Counterfeiting Vulnerability Successfully Remediated](https://electriccoin.co/blog/zcash-counterfeiting-vulnerability-successfully-remediated/) and [ZIP 209: Prohibit Out-of-Range Chain Value Pool Balances](https://zips.z.cash/zip-0209)
 
 ---
 
