@@ -4,12 +4,21 @@
 
 # Arborist Calls
 
-تُعدّ Arborist Calls اجتماعات دورية لتطوير البروتوكول تركز على التخطيط لترقيات الشبكة، وأعمال تنفيذ عقد الإجماع، واعتماديات المحافظ والبنية التحتية، وأبحاث البروتوكول.
+Zcash Arborist Calls هما اجتماعات دورية لتطوير البروتوكول تركز على التخطيط لترقيات الشبكة، وأعمال تنفيذ عقد الإجماع، واعتماديات المحافظ والبنية التحتية، وأبحاث البروتوكول.
 
 تتم صيانة الصفحة الرسمية لـ Arborist Calls بواسطة Zcash Foundation:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
+
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    ابحث في أرشيف المكالمات
+  </a>
+</p>
 
 ## كيفية الانضمام
 
@@ -22,10 +31,11 @@
 
 ## الملاحظات، وجداول الأعمال، والتسجيلات
 
-- جداول الأعمال والمحاضر الكاملة: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- التسجيلات الحديثة: [قائمة تشغيل Zcash Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- نقاشات البحث والتطوير الخاصة بـ Zcash: [Discord الخاص ببحث وتطوير Zcash](https://discord.gg/xpzPR53xtU)
-- النقاشات المطولة: [منتدى مجتمع Zcash](https://forum.zcashcommunity.com/)
+- جداول الأعمال الكاملة والمحاضر: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- أرشيف قابل للبحث في هذه الويكي: [Arborist Calls أرشيف ](/arborist-calls)
+- تسجيلات حديثة: [Zcash قائمة تشغيل Arborist Calls ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Zcash مناقشة البحث والتطوير: [Zcash البحث والتطوير Discord](https://discord.gg/xpzPR53xtU)
+- نقاش مطوّل: [Zcash منتدى المجتمع](https://forum.zcashcommunity.com/)
 
 ## من ينبغي أن يحضر
 

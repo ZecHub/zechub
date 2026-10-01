@@ -4,25 +4,72 @@
 
 # Zcash Katua Abisade URI ahorow
 
-## Dynamic QR Codes ho nsɛm a wɔaka abom
+URI a wɔde tua ho ka ne a `zcash:` link a wɔakyerɛkyerɛ mu denam [ZIP 321 na ɛwɔ hɔ](https://zips.z.cash/zip-0321). Sika kotoku a ɛne no hyia kenkan address, sika dodow, ne memo a wopɛ fi link anaa QR no so na edi kan hyɛ asɛm bi ma. Akontaabu foforo biara nni hɔ, processor biara nni mfinimfini.
 
-URI gyina hɔ ma Amansan Nneɛma a Wɔde Kyerɛkyerɛ. Wɔyɛ QR code ahorow a ɛyɛ adwuma de hyɛ nsɛm a ɛfa asɛm bi ho ma wɔ Zcash sika kotoku mu. Sika kotoku a ehu saa nhyehyɛe yi betumi ayɛ nkitahodi denam link ahorow a wɔbɛkyere wɔ wɛbsaet nkratafa so anaasɛ QR code ahorow a wɔbɛhwehwɛ so. Ka sɛ wowɔ intanɛt so kɔfetɔnbea, w’atɔfoɔ bɛtumi atɔ nneɛma denam QR codes yi a wɔde wɔn Zcash sika kotokuo a wɔadi kan ahyɛ boɔ ne order nɔma ahyɛ mu no scan so.
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    Bue sikatua widget
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    Yɛ sikatua ho abisade
+  </a>
+</div>
 
-## Fa Nsɛm a Wɔde Tua Ka Ho Abisade Di Dwuma 
+Widget demo no yɛ ZIP-321 modal a ɛte ase: QR, copy address/URI, link tiawa, ne Open in Wallet. Nnwinnade krataafa no ne generator no sɛ wopɛ sɛ wodi kan hyehyɛ w’ankasa address ne sika dodow a.
 
+## Anatomy ho adesua
 
-- Intanɛt so Adetɔ.                    Checkout Katua abisadeɛ no, adetɔfoɔ na wɔhyɛ aseɛ berɛ a wɔretɔ nneɛma wɔ intanɛt so.
-- Ahɔhodan ne Dabere Ho Nsɛm a Wɔakyerɛw.   Nneɛma ahorow a wɔde kyerɛw nsɛm no de URL ahorow a wɔde hwehwɛ sika a wɔde tua ho ka di dwuma de yɛ ahɔhodan mu nhyehyɛe ahorow.
-- Intanɛt so Katua a Wotua.               Nnwumakuw a wɔde nneɛma di dwuma de URL ahorow a wɔde bisa sika di dwuma de ma adetɔfo tumi tua wɔn ka a ɛnyɛ den. 
-- Adeyɛ Tekete a Wɔtɔ.             Wɔn a wɔyɛ nhyiam ahorow ho nhyehyɛe wɔ ahye so no de saa kwan yi di dwuma ma ɛyɛ mmerɛw sɛ wɔbɛtɔ tekiti.
-- P2P Katua a Wɔde Tua Ka.                       Ɛnyɛ den sɛ ankorankoro betumi de sikatua ho adesrɛ akɔma abusuafo ne nnamfo denam nkrasɛm app ahorow so, a wɔde sikatua ho nkitahodi ahorow ahyɛ nkrasɛm no mu.
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| Prama | Ɛhia | Nsɛm a Wɔahyɛ no Nsow |
+| --- | --- | --- |
+| address | Aane | Fa Unified Address (`u1` / `utest1`) |
+| amount | no | Decimal ZEC a wɔde kyerɛw nsɛm |
+| memo | no | Shielded transfers nkutoo |
+| label | no | Edin a nnipa betumi akenkan a sika kotoku bi kyerɛ |
 
-## Nkyerɛmu
+Mmara a edi mũ: [ZIP 321 na ɛwɔ hɔ](https://zips.z.cash/zip-0321).
 
-[ZIP 321 na ɛwɔ hɔ](https://zips.z.cash/zip-0321) kyerɛkyerɛ sɛnea wobɛhyehyɛ w’ankasa wo amanne kwan so sikatua URI. 
+## Fa nsɛm a wɔde di dwuma
 
-Sɛnea wode Zcash bɛyɛ Katua Abisade: 
+- **Checkout** — prefill bo ne order memo enti adetɔfoɔ no si so dua wɔ wɔn sika kotokuo mu nko ara
+- **Invoices** — kyɛ link anaa QR biako
+- **Ntoboa** — fa widget no hyɛ sait bi so
+- **P2P** — soma a `zcash:` link wɔ nkɔmmɔbɔ mu
+
+## Fa hyɛ wɛbsaet bi so
+
+Twe adwene si saa script yi so wɔ w’ankasa address a wɔabɔ ho ban no so. Hosted copy no te ase wɔ ZecHub:
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+Ɛhia: `data-address`, `data-amount`, `data-target`.
+
+Sɔ hosted button no hwɛ kan: [Bue sikatua widget](/zcash-payment-uri).
+
+## Video ahorow
+
+Sɛnea wode Zcash:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -35,10 +82,7 @@ Sɛnea wode Zcash bɛyɛ Katua Abisade:
   />
 </div>
 
-    
-### Mmara Nhwɛso
-
-Zcash Donation Widget a wode bɛka wo Wɛbsaet no ho: 
+Zcash Donation Widget a wode bɛka wo Wɛbsaet no ho:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

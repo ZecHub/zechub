@@ -23,9 +23,26 @@
 
 报告 bug
 
-#### 有关赏金金额的详细信息，请阅读我们的贡献页面 -> [这里](https://zechub.wiki/contribute/contributing-guide#content)。
+### 奖励
 
-我们每周一都会发布当前开放赏金任务的 issues。你也可以提议赏金任务！这些任务主要发布在 ZEC Bounties。
+ZEC中的金额并非固定。请遵循[赏金金额政策](https://bounties.zechub.wiki/docs/bounty-amounts)：为相应类别的工作选定一个美元区间，按现货价格换算，然后在看板上填写ZEC。该政策是唯一权威依据。
+
+贡献者工作流程和工作类型：[为 ZecHub](https://zechub.wiki/contribute/contributing-guide) 做贡献。
+
+平台使用指南：
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+我们会在 [ZEC Bounties](https://bounties.zechub.wiki/) 上发布开放任务。你也可以在那里建议悬赏任务。已合并的 PR 并不等同于已批准或已支付的奖励。
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

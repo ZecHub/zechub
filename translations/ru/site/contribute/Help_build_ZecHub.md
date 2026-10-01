@@ -23,9 +23,26 @@
 
 Сообщайте об ошибках
 
-#### Подробную информацию о размерах вознаграждений читайте на нашей странице для участников -> [здесь](https://zechub.wiki/contribute/contributing-guide#content).
+### Вознаграждения
 
-Каждый понедельник мы публикуем задачи, по которым в настоящее время открыты вознаграждения. Вы также можете предлагать свои bounty! В основном они размещаются на ZEC Bounties.
+Суммы не фиксируются в ZEC. Используйте [политику определения размеров вознаграждений](https://bounties.zechub.wiki/docs/bounty-amounts): выберите диапазон в USD для соответствующего вида работ, конвертируйте по спотовому курсу и укажите ZEC на доске. Эта политика является источником истины.
+
+Рабочий процесс участников и виды работ: [Участие в ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Обзор платформы:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="Объяснение ZecBounties | Зарабатывайте ZEC, внося вклад"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Мы публикуем открытые задачи в [ZEC Bounties](https://bounties.zechub.wiki/). Там же можно предлагать вознаграждения. Слияние PR не означает, что вознаграждение одобрено или выплачено.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

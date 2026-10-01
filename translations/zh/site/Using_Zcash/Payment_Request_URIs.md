@@ -1,50 +1,94 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Payment_Request_URIs.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash 支付请求 URI
 
-## 动态二维码概述
+支付请求 URI 是由 `zcash:`[ZIP 321](https://zips.z.cash/zip-0321) 定义的链接。兼容的钱包会从链接或二维码中读取地址、金额和可选备注，并预填一笔交易。无需额外账户，也没有中间处理商。
 
-URI 是 Universal Resource Identifier（统一资源标识符）的缩写。它们是一种二维码，可在 Zcash 钱包中预填交易信息。能够识别这种格式的钱包，可以通过点击网页上的链接或扫描二维码来构建交易。比如你经营一家线上咖啡店，顾客就可以使用他们的 Zcash 钱包扫描这些二维码完成购买，其中价格和订单号都已预先填好。
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    打开支付小组件
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    创建支付请求
+  </a>
+</div>
 
-## 支付请求的使用场景
+该小组件演示是一个实时的 ZIP-321 弹窗：二维码、复制地址/URI、短链接和在钱包中打开。如果你想先设置自己的地址和金额，工具页面提供生成器。
 
+## 构成
 
-- 在线购物。                    结账支付请求由客户在在线购买过程中发起。
-- 酒店和住宿预订。   各类预订平台利用支付请求 URL 进行酒店预订。
-- 在线账单支付。               公用事业公司使用支付请求 URL，使客户能够顺畅地支付账单。 
-- 活动门票购买。             跨境活动组织者使用这种机制，让购票更加便捷。
-- P2P 支付。                       个人可以通过消息应用轻松向家人和朋友发送支付请求，消息中可嵌入支付链接。
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| 字段 | 必填 | 说明 |
+| --- | --- | --- |
+| address | 是 | 建议使用 Unified Address（`u1` / `utest1`） |
+| amount | 否 | 十进制 ZEC |
+| memo | 否 | 仅限屏蔽转账 |
+| label | 否 | 某些钱包会显示的人类可读名称 |
 
-## 详细信息
+完整规则：[ZIP 321](https://zips.z.cash/zip-0321)。
 
-[ZIP 321](https://zips.z.cash/zip-0321) 定义了如何构建你自己的自定义支付 URI。 
+## 使用场景
 
-如何使用 Zcash 创建支付请求： 
+- **结账** — 预填价格和订单备注，让客户只需在钱包中确认
+- **发票** — 分享一个链接或二维码
+- **捐赠** — 在网站上嵌入该小组件
+- **P2P** — 在聊天中发送 `zcash:` 链接
+
+## 在网站上嵌入
+
+将此脚本指向你自己的屏蔽地址。托管版本位于 ZecHub：
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+必需项：`data-address`、`data-amount`、`data-target`。
+
+先试试托管按钮：[打开支付小组件](/zcash-payment-uri)。
+
+## 视频
+
+如何使用 Zcash 创建支付请求：
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
-    title="如何使用 Zcash 创建支付请求"
+    title="How to make Payment Requests with Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-    
-### 代码示例
-
-向你的网站添加 Zcash 捐赠组件： 
+将 Zcash 捐赠小组件添加到你的网站：
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
-    title="向你的网站添加 Zcash 捐赠组件"
+    title="Adding a Zcash Donation Widget to your Website"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

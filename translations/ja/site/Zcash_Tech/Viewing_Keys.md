@@ -116,3 +116,5 @@ Viewing Key は必要な場合にのみ使用し、質問への回答に必要�
 - [ECC, Explaining Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Selective Disclosure and Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+関連項目：[Unified Address](./Unified_Addresses.md)

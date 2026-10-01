@@ -1,47 +1,94 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Payment_Request_URIs.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash支払いリクエストURI
+# Zcash 支払いリクエストURI
 
-## 動的QRコードの概要
+支払いリクエストURIは、`zcash:` によって定義された [ZIP 321](https://zips.z.cash/zip-0321) リンクです。対応ウォレットはリンクまたはQRからアドレス、金額、任意のメモを読み取り、取引内容を事前入力します。追加のアカウントも、仲介する決済処理業者も必要ありません。
 
-URIはユニバーサルリソース識別子（Universal Resource Identifier）の略です。これは、Zcashウォレット内で取引に関する情報を事前に埋め込むためのQRコードとして機能します。このフォーマットを認識するウォレットでは、ウェブページ上のリンクをクリックしたり、QRコードをスキャンすることで取引を作成できます。例えばオンラインカフェを運営している場合、顧客はZcashウォレットでこれらのQRコードをスキャンし、事前に設定された価格と注文番号で購入が可能です。
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    支払いウィジェットを開く
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    支払いリクエストを作成する
+  </a>
+</div>
 
-## 支払いリクエストのユースケース
+ウィジェットのデモはライブのZIP-321モーダルです。QR、アドレス／URIのコピー、短縮リンク、ウォレットで開く機能を備えています。まず自分でアドレスと金額を設定したい場合は、ツールページのジェネレーターを使用してください。
 
-- オンラインショッピング。チェックアウト時の支払いリクエストは、顧客がオンライン購入中に発行します。
-- ホテルおよび宿泊予約。さまざまな予約プラットフォームでは、ホテル予約のために支払いリクエストURLを活用しています。
-- オンライン請求書の支払い。公共事業会社は、支払いリクエストURLを使用して顧客が請求書を簡単に支払えるようにします。
-- イベントチケット購入。国境を超えたイベント主催者は、このメカニズムを使ってチケット購入をより簡単に行えます。
-- P2P支払い。個人はメッセージアプリ経由で家族や友人に支払いリクエストを簡単に送信でき、メッセージ内に埋め込まれた支払いリンクを使用します。
+## 構成
 
-## 詳細
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
-[ZIP 321](https://zips.z.cash/zip-0321)では、独自のカスタム支払いURIを作成する方法が定義されています。
+| フィールド | 必須 | 注記 |
+| --- | --- | --- |
+| address | はい | Unified Address（`u1` / `utest1`）を推奨 |
+| amount | いいえ | 十進数のZEC |
+| memo | いいえ | シールドされた送金のみ |
+| label | いいえ | 一部のウォレットで表示される人間が読める名前 |
 
-Zcashで支払いリクエストを生成する方法:
+完全なルール: [ZIP 321](https://zips.z.cash/zip-0321)。
+
+## 使用例
+
+- **チェックアウト** — 顧客がウォレットで確認するだけで済むよう、価格と注文メモを事前入力
+- **請求書** — 1つのリンクまたはQRを共有
+- **寄付** — サイトにウィジェットを埋め込む
+- **P2P** — チャットで`zcash:`リンクを送信
+
+## サイトへの埋め込み
+
+このスクリプトを自分のシールドされたアドレスに指定してください。ホスト版のコピーはZecHubにあります。
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+必要: `data-address`、`data-amount`、`data-target`。
+
+まずホスト版ボタンを試してください: [支払いウィジェットを開く](/zcash-payment-uri)。
+
+## 動画
+
+Zcashで支払いリクエストを作成する方法:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
-    title="How to make Payment Requests with Zcash"
+    title="Zcashで支払いリクエストを作成する方法"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-### コード例
-
-ウェブサイトにZcash寄付ウィジェットを追加する方法:
+ウェブサイトにZcash寄付ウィジェットを追加する:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
-    title="Adding a Zcash Donation Widget to your Website"
+    title="ウェブサイトにZcash寄付ウィジェットを追加する"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
