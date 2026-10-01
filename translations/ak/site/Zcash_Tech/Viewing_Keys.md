@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nneɛma a Wɔde Hwɛ Nneɛma
+# Nneɛma a Wɔde Hwɛ
 
 Address a wɔabɔ ho ban ma wo di gua bere a ɛda kakraa bi adi sɛnea wubetumi wɔ Zcash blockchain no so. Enti dɛn na ɛba bere a *yɛ* hia sɛ wokyerɛ apontow pɔtee bi nea wokura, anaa nea wode kɔe no? Address biara a wɔabɔ ho ban no wɔ safoa a wɔde hwɛ a ɛma wotumi kenkan a ɛmma wotumi sɛe sika. Wɔde safe a wɔde hwɛ nneɛma bae wɔ [ZIP 310 na ɛwɔ hɔ](https://zips.z.cash/zip-0310) na wɔde kaa protocol no ho wɔ Sapling network upgrade no mu.
 
@@ -10,7 +10,7 @@ Safoa a wɔde hwɛ ade ne adwinnade a wɔde paw nneɛma a wɔda no adi: wopaw ne
 
 ## Dɛn nti na wode safe a wɔde hwɛ nneɛma di dwuma?
 
-Electric Coin Company's nkyerɛwee a ɛfa asɛm no ho no kyerɛ tebea horow a ɛtaa ba, na ɛda so ara yɛ nea abu so nnɛ:
+Electric Coin Company nkyerɛwee a ɛfa asɛm no ho no kyerɛ tebea horow a ɛtaa ba, na ɛda so ara yɛ nea abu so nnɛ:
 
 - **An exchange watching for deposits.** Exchange no de viewing key a ɛba no gu internet-facing detection node so sɛnea ɛbɛyɛ a ebetumi ahyɛ adetɔfo sika a wɔde asie no nsow wɔ shielded address so, bere a spending key no tra hardware a ɛnka network no da so.
 - **Ɔhwɛfoɔ a ɔrekyerɛ sɛ ɔwɔ nneɛma.** Ɔhwɛfoɔ no de address biara a wɔabɔ ho ban no safe a ɛwie pɛyɛ ma akontabufoɔ bi. Akontaabufoɔ no bɛtumi ahwɛ saa sika a aka no na wahwɛ dwumadie a atwam a ɛkɔ saa address ahodoɔ no so na ɔsan ba, na ɔrentumi nyɛ biribi foforɔ biara.
@@ -22,8 +22,8 @@ Safe bɛboro biako, na nsonsonoe no na ɛkyerɛ dodow a wode bɛma.
 
 | Safoa | Nsɛmfua a wɔde di kan | Ntoboa a wɔde ma |
 |---|---|---|
-| Unified full viewing key (UFVK) | `uview…` | Hwɛ nnwuma a ɛba **ne** a ɛkɔ ma pool biara a ɛwɔ akontaabu no mu |
-| Unified incoming viewing key (UIVK) | `uivk…` | Hwɛ nnwuma a ɛba nkutoo, ma pool biara a ɛwɔ akontaabu no mu |
+| Unified full viewing key (UFVK) | `uview…` | Hwɛ nnwuma a ɛba **ne** a ɛkɔ ma pool biara a ɛwɔ akontaabu |
+| Unified incoming viewing key (UIVK) | `uivk…` | Hwɛ nnwuma a ɛba nkutoo, ma pool biara a ɛwɔ akontaabu |
 | Sapling extended full viewing key | `zxviews…` | Hwɛ Sapling dwumadi a ɛba ne nea ɛrekɔ ma safoa no address ahorow |
 
 Eyinom mu biara ntumi nsɛe sika. Wɔn nyinaa yɛ nea ɛtra hɔ daa wɔ ɔkwan a ɛho hia so: wontumi nkae safe bi a wode ama no, nea ɛtra hɔ kyɛ nkutoo, denam sika a wode bɛkɔ akontaabu bi a ɔfã foforo no nkura ne safe mu no so.
@@ -50,7 +50,7 @@ Nneɛma abiɛsa a efi mu ba ma obiara a okura safe anaa ɔde ma:
 
 ### Zallet
 
-[Zallet](https://github.com/zcash/zallet) yɛ full-node sika kotoku a ɛde sika kotoku a ɛwɔ zcashd. Viewing-key export ne import duu **v0.1.0-beta.2 (28 July 2026)**, enti di kan hwɛ wo version no; adan a wɔadi kan asi no nni akwan yi. Ɛsɛ sɛ akyinnyegye biara a ɛwɔ ɔkwan din no akyi no yɛ JSON a ɛfata, a ɛkyerɛ sɛ ahama botae ahorow no sie wɔn ankasa nsɛm a wɔafa aka abien. No [Zallet Ntɛmntɛm Nhwehwɛmu Akwankyerɛ](/using-zcash/zallet-quick-reference-guide) kata ahyɛde a wɔde di dwuma wɔ ɔkwan a ɛkɔ akyiri so no so.
+[Zallet](https://github.com/zcash/zallet) yɛ full-node sika kotoku a ɛde sika kotoku a ɛwɔ zcashd mu no sii ananmu. Viewing-key export ne import duu **v0.1.0-beta.2 (28 July 2026)**, enti di kan hwɛ wo version no; adan a wɔadi kan asi no nni akwan yi. Ɛsɛ sɛ akyinnyegye biara a ɛwɔ ɔkwan din no akyi no yɛ JSON a ɛfata, a ɛkyerɛ sɛ ahama botae ahorow no sie wɔn ankasa nsɛm a wɔafa aka abien. No [Zallet Ntɛmntɛm Nhwehwɛmu Akwankyerɛ](/using-zcash/zallet-quick-reference-guide) kata ahyɛde a wɔde di dwuma wɔ ɔkwan a ɛkɔ akyiri so no so.
 
 Kyerɛw nea sika kotoku no kura:
 
@@ -70,7 +70,7 @@ Fa akontaabu no mu biakoyɛ a ɛba hwɛ safoa no kɔ amannɔne mmom, fa nea wop�
 zallet rpc z_exportviewingkey '"<unified address>"' true
 ```
 
-Sɛ wode Sapling address bi fa so a, ɛma saa akontaabu no Sapling a wɔatrɛw mu a wɔde hwɛ ade nyinaa (`zxviews…`), a ɛne zcashd suban dedaw no hyia. Anohyeto abien a wɔakyerɛw: Wɔpow Sprout address ahorow, na wontumi mfa Sapling extended full viewing key mfi akontaabu a na ɛno ankasa de bae sɛ view-only no nkɔ, efisɛ sika kotoku no ntumi nsan nsiesie. No `ivk` fom no yɛ adwuma ma akontaabu a wɔde hwɛ nkutoo a wɔde aba.
+Sɛ wode Sapling address bi fa mu a, ɛma saa akontaabu no Sapling a wɔatrɛw mu no nyinaa hwɛ safoa no ba (`zxviews…`), a ɛne zcashd suban dedaw no hyia. Anohyeto abien a wɔakyerɛw: Wɔpow Sprout address ahorow, na wontumi mfa Sapling extended full viewing key mfi akontaabu a na ɛno ankasa de bae sɛ view-only no nkɔ, efisɛ sika kotoku no ntumi nsan nsiesie. No `ivk` fom no yɛ adwuma ma akontaabu a wɔde hwɛ nkutoo a wɔde aba.
 
 ### Walets a ɛde viewing keys fi wɔn ankasa interface so kɔ amannɔne
 
@@ -80,7 +80,7 @@ No [Sika kotoku](/using-zcash/wallets) krataafa no di viewing-key mmoa ne Ironwo
 
 ### Zkool
 
-[Zkool](https://github.com/hhanh00/zkool2) yɛ ɔkwan a ɛyɛ mmerɛw sen biara wɔ ha, efisɛ egye safe a wɔaka abom ne nea ɛyɛ agyapade nso. Ne README kyerɛw akontaabu a wɔhwɛ nkutoo a wɔayɛ afi **hwɛ safoa a wɔaka abom** anaa **Sapling hwɛ safoa a wɔatrɛw mu**, a ɛka safoa a wɔatrɛw mu a wɔabɔ ho ban a ɛyɛ agyapade a wɔde afi zcashd. Fa akontaabu foforo ka ho, paw ɔkwan a wobɛfa so ahwɛ nkutoo, na fa.. `uview…` or `zxviews…` safoa; afei akontaabu no yɛ sync na ɛbɔ sika a aka ne abakɔsɛm ho amanneɛ a enni tumi a wɔde di dwuma wɔ sika a wɔsɛe no mu.
+[Zkool](https://github.com/hhanh00/zkool2) yɛ ɔkwan a ɛyɛ mmerɛw sen biara wɔ ha, efisɛ egye safe a wɔaka abom ne nea ɛyɛ agyapade nso. Ne README kyerɛw akontaabu a wɔhwɛ nkutoo a wɔayɛ afi **hwɛ safoa a wɔaka abom** anaa **Sapling hwɛ safoa a wɔatrɛw mu**, a ɛka safoa a wɔatrɛw mu a wɔabɔ ho ban a ɛyɛ agyapade a wɔde afi zcashd akɔ amannɔne no nkyɛn. Fa akontaabu foforo ka ho, paw ɔkwan a wobɛfa so ahwɛ nkutoo, na fa... `uview…` or `zxviews…` safoa; afei akontaabu no yɛ sync na ɛbɔ sika a aka ne abakɔsɛm ho amanneɛ a enni tumi a wɔde di dwuma wɔ sika a wɔsɛe no mu.
 
 Ironwood protocol mmoa ne Orchard-to-Ironwood atutra no sii fam wɔ Zkool 6.24.0 (20 Ɔpɛpɔn 2026), na 6.26.1 (2 Ɔpɛpɔn 2026) siesiee Ironwood ayɔnkofa a wɔhunu wɔ mempool no mu. Tu mmirika 6.26.1 anaa nea ɛba akyiri yi.
 
@@ -90,31 +90,31 @@ Ironwood protocol mmoa ne Orchard-to-Ironwood atutra no sii fam wɔ Zkool 6.24.0
 zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 ```
 
-Akyinnyegye a ɛto so abien ne rescan nhyehyɛe no: `"whenkeyisnew"` (default no), `"yes"` or `"no"`. Nea ɛto so abiɛsa ne block no sorokɔ a ɛsɛ sɛ wosan scan fi so. Zallet de safoa no ba sɛ akontaabu a wɔde hwɛ nkutoo na ɛhwɛ nnwuma a ɛba ne nea efi mu ba no akyi ma ne address ahorow a enni sika a wɔsɛe no ho tumi.
+Akyinnyegye a ɛto so abien ne rescan nhyehyɛe no: `"whenkeyisnew"` (default no), . `"yes"` or `"no"`. Nea ɛto so abiɛsa ne block no sorokɔ a ɛsɛ sɛ wosan scan fi so. Zallet de safoa no ba sɛ akontaabu a wɔhwɛ nkutoo na ɛhwɛ nnwuma a ɛba ne nea efi mu ba no akyi ma ne address ahorow a enni sika a wɔsɛe no ho tumi.
 
-**Zallet Sapling extended full viewing keys nkutoo ba.** Ɛremfa a `uview…` unified full viewing key, ɛwom mpo sɛ ebetumi de biako akɔ amannɔne de. Sɛ wopɛ sɛ wode akenkan kwan kɔ akonta a wɔaka abom nyinaa mu a, fa UFVK no fi Zallet na fa kɔ sika kotoku a egye safe a wɔaka abom, te sɛ Zkool.
+**Zallet de Sapling extended full viewing keys nkutoo ba.** Ɛremfa a `uview…` unified full viewing key, ɛwom mpo sɛ ebetumi de biako akɔ amannɔne de. Sɛ wopɛ sɛ wode akenkan kwan kɔ akonta a wɔaka abom nyinaa mu a, fa UFVK no fi Zallet na fa kɔ sika kotoku a egye safe a wɔaka abom, te sɛ Zkool mu.
 
-Sɛ wopɛ sɛ wodan safoa a wɔde aba no kɔ atɔfoɔ abakɔsɛm fael a ɛdi mũ, a txids, fees ne memos ka ho a, hwɛ [Nkitahodi Abakɔsɛm a Wɔde Kɔ Amannɔne Fi Viewing Key](/guides/viewing-key-transaction-export).
+Sɛ wopɛ sɛ wodan safoa a wɔde aba no kɔ atɔfoɔ abakɔsɛm fael a ɛdi mũ, a txids, fees ne memos ka ho a, hwɛ [Nkitahodi Abakɔsɛm a Wɔde Kɔ Amannɔne Fi Viewing Key mu](/guides/viewing-key-transaction-export).
 
 ## Nea ɛsakrae, ne nea ɛsɛ sɛ wogyae hwehwɛ
 
 Sɛ wudii kratafa yi dedaw bi akyi, anaasɛ ne nkyerɛase bi akyi a, akwan abiɛsa ntumi nyɛ adwuma bio.
 
-- **`zcash-cli z_exportviewingkey` ne `z_importviewingkey`.** zcashd duu ne mmoa awiei wɔ 18 July 2026 na ɛnkɔ so bio. Zallet's akwan a wɔato din saa ara ne nea wɔde besi ananmu; hwɛ [atutra ho akwankyerɛ](/guides/migration-guide-zcashd-to-zebrad-zallet).
-- **Ywallet nantew no.** Walets krataafa no hyɛ Ywallet agyirae **Ironwood: Not Ready**, enti ɛnyɛ sika kotoku a wobɛtwe adwene asi so ama Ironwood-era nsafe a wɔde hwɛ nneɛma. Zkool, a efi developer koro no ara mu, gye keys ahorow koro no ara na wɔahyɛ no agyirae sɛ Ready.
+- **`zcash-cli z_exportviewingkey` ne `z_importviewingkey`.** zcashd duu ne mmoa awiei wɔ 18 July 2026 na ɛnkɔ so bio. Zallet akwan a wɔato din saa ara ne nea wɔde besi ananmu; hwɛ [atutra ho akwankyerɛ](/guides/migration-guide-zcashd-to-zebrad-zallet).
+- **Ywallet nantew no.** Walets krataafa no hyɛ Ywallet agyirae **Ironwood: Not Ready**, enti ɛnyɛ sika kotoku a wobɛtwe adwene asi so ama Ironwood bere so nsafe a wɔde hwɛ nneɛma. Zkool, a efi developer koro no ara mu, gye keys ahorow koro no ara na wɔahyɛ no agyirae sɛ Ready.
 - **zcashblockexplorer.com/vk.** Ɔsom no san de HTTP 503 a ɛwɔ abodin krataa a enni mu ba, na wɔatow agu sen sɛ wɔde besi ananmu. Sɛ wode hwɛ safoa bi hyɛ wɛbsaet bi mu a, ɛde w’adwuma ho abakɔsɛm nyinaa ma obiara a ɔhwɛ saa wɛbsaet no so, a na ɛyɛ mmerɛw sen biara wɔ akwan abiɛsa a ɛwɔ kratafa dedaw no so bere nyinaa. Fa safoa no kɔ sika kotoku a wode di dwuma mmom mu.
 
 ## Akadeɛ
 
 Fa safe a wɔde hwɛ nneɛma di dwuma sɛnea ɛho hia, na pɛ safe a ɛyɛ teateaa sen biara a ebua asɛmmisa a wɔrebisa no.
 
-- [Katua ho nsɛm a wɔda no adi](/zcash-tech/payment-disclosures) - a wodi adansee a woapaw no ho nsem a woapaw wo sikatua baako ho a womma kwan mma wonnya kwan nkɔ akonta bi mu
+- [Katua ho nsɛm a wɔda no adi](/zcash-tech/payment-disclosures) - a wodi adansee a woapaw no ho nsem a efa akatua baako ho a womma kwan mma wonnya kwan nkɔ akonta bi mu
 - [ZIP 326: NU6.3 Nea efi mu ba ma Sikakorabea](https://zips.z.cash/zip-0326) — sɛnea safe a wɔde hwɛ ade yɛ wɔn ade wɔ Orchard ne Ironwood atare no atifi
 - [ZIP 229: Nkyerɛase 6 Nkitahodi Nhyehyɛe](https://zips.z.cash/zip-0229) — kyerɛkyerɛ Orchard ne Ironwood atare no mu
 - [Zallet nsakraeɛ ho kyerɛwtohɔ](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — a release de kaa ho sɛ RPC kwan bɛn na
 - [Zkool KENKAN NKYERƐKYERƐMU](https://github.com/hhanh00/zkool2/blob/main/README.md) — akontaabu a wɔboa ne key types
 - [ECC, Nkyerɛkyerɛmu a Wɔde Hwɛ Nneɛma a Wɔde Hwɛ Nneɛma Mu](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, Nneɛma a Wɔda no Adi ne Nneɛma a Wɔde Hwɛ Nneɛma a Wɔpaw](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ECC, Nneɛma a Wɔda no Adi ne Nsafo a Wɔpaw](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Nkyerɛkyerɛmu](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
 
 Hwɛ nso: [Address ahorow a Wɔaka abom](./Unified_Addresses.md)

@@ -421,7 +421,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
@@ -605,7 +605,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
@@ -1117,7 +1117,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -1293,7 +1293,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -2335,7 +2335,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
@@ -5611,7 +5611,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
@@ -5795,7 +5795,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
@@ -6307,7 +6307,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -6483,7 +6483,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -9255,7 +9255,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
@@ -10801,7 +10801,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
@@ -13227,7 +13227,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -13403,7 +13403,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -15991,7 +15991,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
@@ -19635,7 +19635,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
@@ -23607,7 +23607,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -23783,7 +23783,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -28797,7 +28797,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -28973,7 +28973,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "contribute/Style_Guide.md": {
@@ -29831,7 +29831,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {

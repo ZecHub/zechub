@@ -4,7 +4,7 @@
 
 # Arborist Calls
 
-Zcash Arborist Calls هما اجتماعات دورية لتطوير البروتوكول تركز على التخطيط لترقيات الشبكة، وأعمال تنفيذ عقد الإجماع، واعتماديات المحافظ والبنية التحتية، وأبحاث البروتوكول.
+تُعدّ Zcash Arborist Calls اجتماعات دورية لتطوير البروتوكول تركز على التخطيط لترقيات الشبكة، وأعمال تنفيذ عقد الإجماع، واعتماديات المحافظ والبنية التحتية، وأبحاث البروتوكول.
 
 تتم صيانة الصفحة الرسمية لـ Arborist Calls بواسطة Zcash Foundation:
 
@@ -32,8 +32,8 @@ Zcash Arborist Calls هما اجتماعات دورية لتطوير البرو�
 ## الملاحظات، وجداول الأعمال، والتسجيلات
 
 - جداول الأعمال الكاملة والمحاضر: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- أرشيف قابل للبحث في هذه الويكي: [Arborist Calls أرشيف ](/arborist-calls)
-- تسجيلات حديثة: [Zcash قائمة تشغيل Arborist Calls ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- أرشيف قابل للبحث في هذه الويكي: [أرشيف Arborist Calls](/arborist-calls)
+- تسجيلات حديثة: [قائمة تشغيل Zcash Arborist Calls](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
 - Zcash مناقشة البحث والتطوير: [Zcash البحث والتطوير Discord](https://discord.gg/xpzPR53xtU)
 - نقاش مطوّل: [Zcash منتدى المجتمع](https://forum.zcashcommunity.com/)
 

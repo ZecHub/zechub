@@ -4,7 +4,7 @@
 
 # Boa ma Wɔkyekye ZecHub 
 
-Sɛ woyɛ Zcash mpɔtam hɔni, na wopɛ sɛ woboa ma wɔkyekye ZecHub, nneɛma kakraa bi wɔ hɔ a ɛyɛ super mmoa.
+Sɛ woyɛ Zcash mpɔtam hɔni, na wopɛ sɛ woboa ma wɔkyekye ZecHub a, nneɛma kakraa bi wɔ hɔ a ɛyɛ super mmoa.
 
 Curate links ma nsɛmma nhoma no na fa ka nsɛmma nhoma no GitHub krataafa no ho: -> [Klik ha na woanya akwankyerɛ](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
@@ -48,7 +48,7 @@ Yɛde nnwuma a wɔabue gu so [ZEC Bounties](https://bounties.zechub.wiki/). Wube
 
 
 
-[ZEC Bounties](https://bounties.zechub.wiki/)
+[ZEC Bounties na ɛyɛ adwuma](https://bounties.zechub.wiki/)
 
 [ZecHub Github Nsɛmpɔw](https://github.com/ZecHub/zechub/issues)
 
@@ -56,13 +56,13 @@ Yɛde nnwuma a wɔabue gu so [ZEC Bounties](https://bounties.zechub.wiki/). Wube
 
 
 
-Sɛ akwan foforo bi wɔ hɔ a wopɛ sɛ wofa so boa a, yɛsrɛ wo message ZecHub ([@ZecHub](https://twitter.com/zechub)) wɔ Twitter anaa Kɔka yɛn [Discord](https://discord.gg/zcash).
+Sɛ akwan foforo bi wɔ hɔ a wopɛ sɛ wofa so boa a, yɛsrɛ wo message ZecHub ([@ZecHub na ɔkyerɛwee](https://twitter.com/zechub)) wɔ Twitter anaa Kɔka yɛn [Discord](https://discord.gg/zcash).
 
 ____
 
 **Sɛnea ɛbɛyɛ a wobetumi atua sika no ZecHub hwehwɛ sɛ wɔn a wɔde mmoa ma nyinaa hyehyɛ mpaemuka kratasin a wɔn Name & Shielded:**
 
-**(Zcash | Namada | Penumbra | Ycash ) address**
+**( Zcash | Namada | Penumbra | Ycash ) address** Ɔde ne nsa kyerɛɛ ne so, na ɔde ne nsa kyerɛɛ ne so bio.
 
 ____
 

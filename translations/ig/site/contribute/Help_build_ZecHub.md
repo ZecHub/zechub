@@ -17,7 +17,7 @@ Mepụta ọdịnaya vidiyo n'ime edemede ndị a:
 * Third-party application demos
 ```
 
-Mepụta atụmatụ dịka akwụkwọ mmado/eserese/ihe ngosi maka usoro Zcash & Nzuzo 
+Mepụta atụmatụ dịka akwụkwọ mmado/eserese/ihe ngosi maka usoro Zcash & Nzuzo. 
 
 Tụgharịa peeji wiki ọ bụla dị adị.
 
@@ -42,7 +42,7 @@ Usoro ikpo okwu:
   />
 </div>
 
-Anyị na-etinye ọrụ mepere emepe na [ZEC Bounties](https://bounties.zechub.wiki/)I nwekwara ike ịtụ aro ihe nrite n'ebe ahụ. Njikọta PR abụghị otu ihe ahụ dị ka ụgwọ ọrụ akwadoro ma ọ bụ nke a kwụrụ.
+Anyị na-etinye ọrụ mepere emepe na [ZEC Bounties](https://bounties.zechub.wiki/). I nwekwara ike ịtụ aro ihe nrite n'ebe ahụ. Njikọta PR abụghị otu ihe ahụ dị ka ụgwọ ọrụ akwadoro ma ọ bụ nke a kwụrụ.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
@@ -62,7 +62,7 @@ ____
 
 **Iji kwụọ ụgwọ, ZecHub chọrọ ka ndị niile nyere aka dejupụta fọm nkwupụta na Aha & Nchedo ha:**
 
-**(Zcash | Namada | Penumbra | Adreesị Ycash)**
+**( Zcash | Namada | Penumbra | Ycash ) adreesị**
 
 ____
 

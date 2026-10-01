@@ -4,7 +4,7 @@
 
 # Kpe asi ɖe ZecHub Tutu Ŋu 
 
-Ne ènye Zcash habɔbɔa me tɔ, eye nèdi be yeawɔ akpa aɖe le ZecHub, nu ʋee aɖewo li siwo kpena ɖe ame ŋu ŋutɔ.
+Ne ènye Zcash habɔbɔa me tɔ, eye nèdi be yeawɔ akpa aɖe le ZecHub tutu me la, nu ʋee aɖewo li siwo kpena ɖe ame ŋu ŋutɔ.
 
 Dzra kadodowo ɖo na nyadzɔdzɔgbalẽa eye nàtsɔ wo akpe ɖe nyadzɔdzɔgbalẽa ƒe GitHub axa ŋu: -> [Zi afisia dzi be nàkpɔ mɔfiamewo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
@@ -48,7 +48,7 @@ Míeɖoa dɔ siwo woʋu ɖi la ɖe [ZEC Bounties](https://bounties.zechub.wiki/)
 
 
 
-[ZEC Bounties](https://bounties.zechub.wiki/)
+[ZEC ƒe Bounties](https://bounties.zechub.wiki/)
 
 [ZecHub Github Nyawo](https://github.com/ZecHub/zechub/issues)
 
@@ -56,13 +56,13 @@ Míeɖoa dɔ siwo woʋu ɖi la ɖe [ZEC Bounties](https://bounties.zechub.wiki/)
 
 
 
-Ne mɔ bubu aɖewo li siwo dzi nàto akpe asi ɖe eŋu la, taflatse ŋlɔ gbedasi ɖe ZecHub ([@ZecHub](https://twitter.com/zechub)) le Twitter alo Wɔ ɖeka kple míaƒe [Discord](https://discord.gg/zcash).
+Ne mɔ bubu aɖewo li siwo dzi nàto akpe asi ɖe eŋu la, taflatse ŋlɔ gbedasi ɖe ZecHub ([@ZecHub ƒe nyawo](https://twitter.com/zechub)) le Twitter alo Wɔ ɖeka kple míaƒe [Discord](https://discord.gg/zcash).
 
 ____
 
 **Be woateŋu axe fewo la, ZecHub bia tso nudzɔlawo katã si be woakpe gbeƒãɖeɖe ƒe agbalẽvi ɖo kple woƒe Name & Shielded:**
 
-**(Zcash | Namada | Penumbra | Ycash ) adrɛs**
+**( Zcash | Namada | Penumbra | Ycash ) ƒe adrɛs**
 
 ____
 

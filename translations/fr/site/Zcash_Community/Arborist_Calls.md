@@ -34,7 +34,7 @@ La page de la Foundation est la source de référence pour les liens d’inscrip
 - Ordres du jour complets et comptes rendus : [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
 - Archive consultable par recherche sur ce wiki : [Arborist Calls archive](/arborist-calls)
 - Enregistrements récents : [Zcash playlist Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Discussion R&D : Zcash [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- Discussion R&D : [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
 - Discussion approfondie : [Zcash Forum communautaire](https://forum.zcashcommunity.com/)
 
 ## Qui devrait participer

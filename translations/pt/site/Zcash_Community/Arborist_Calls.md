@@ -34,7 +34,7 @@ A página da Foundation é a fonte de verdade para links de registo, ficheiros d
 - Agendas completas e atas: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
 - Arquivo pesquisável nesta wiki: [Arborist Calls arquivo](/arborist-calls)
 - Gravações recentes: [Zcash lista de reprodução de Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Discussão de I&D: Zcash [Zcash I&D Discord](https://discord.gg/xpzPR53xtU)
+- Discussão de I&D: [Zcash I&D Discord](https://discord.gg/xpzPR53xtU)
 - Discussão aprofundada: [Zcash Fórum da Comunidade](https://forum.zcashcommunity.com/)
 
 ## Quem Deve Participar

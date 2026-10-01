@@ -42,27 +42,27 @@ Muhtasari wa jukwaa:
   />
 </div>
 
-Tunachapisha kazi zilizo wazi kwenye [ZEC Bounties](https://bounties.zechub.wiki/)Unaweza kupendekeza zawadi hapo pia. PR iliyounganishwa si sawa na zawadi iliyoidhinishwa au kulipwa.
+Tunachapisha kazi zilizo wazi kwenye [ZEC Bounties](https://bounties.zechub.wiki/). Unaweza kupendekeza zawadi hapo pia. PR iliyounganishwa si sawa na zawadi iliyoidhinishwa au kulipwa.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 
-[ZEC Bounties](https://bounties.zechub.wiki/)
+[Zawadi za ZEC](https://bounties.zechub.wiki/)
 
-[Masuala ya Github ZecHub](https://github.com/ZecHub/zechub/issues)
+[Masuala ya Github ya ZecHub](https://github.com/ZecHub/zechub/issues)
 
 [Masuala ya Github ya ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 
-Ikiwa kuna njia zingine ambazo ungependa kuchangia, tafadhali tuma ujumbe ZecHub ([@ZecHub](https://twitter.com/zechub)) kwenye Twitter au Jiunge nasi [Discord](https://discord.gg/zcash).
+Ikiwa kuna njia zingine ambazo ungependa kuchangia, tafadhali tuma ujumbe kwa ZecHub ([@ZecHub](https://twitter.com/zechub)) kwenye Twitter au Jiunge nasi [Discord](https://discord.gg/zcash).
 
 ____
 
 **Ili kufanya malipo, ZecHub inawataka wachangiaji wote kujaza fomu ya tamko yenye Jina lao na Lindwa:**
 
-**(Zcash | Namada | Penumbra | Anwani ya Ycash**
+**( Zcash | Namada | Penumbra | Ycash ) anwani**
 
 ____
 

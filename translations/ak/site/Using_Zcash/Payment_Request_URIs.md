@@ -32,9 +32,9 @@ zcash:<address>?amount=<zec>&memo=<text>&label=<text>
 | Prama | Ɛhia | Nsɛm a Wɔahyɛ no Nsow |
 | --- | --- | --- |
 | address | Aane | Fa Unified Address (`u1` / `utest1`) |
-| amount | no | Decimal ZEC a wɔde kyerɛw nsɛm |
-| memo | no | Shielded transfers nkutoo |
-| label | no | Edin a nnipa betumi akenkan a sika kotoku bi kyerɛ |
+| amount | Daabi | Decimal ZEC a wɔde kyerɛw nsɛm |
+| memo | Daabi | Shielded transfers nkutoo |
+| label | Daabi | Edin a nnipa betumi akenkan a sika kotoku bi kyerɛ |
 
 Mmara a edi mũ: [ZIP 321 na ɛwɔ hɔ](https://zips.z.cash/zip-0321).
 
@@ -69,7 +69,7 @@ Sɔ hosted button no hwɛ kan: [Bue sikatua widget](/zcash-payment-uri).
 
 ## Video ahorow
 
-Sɛnea wode Zcash:
+Sɛnea wode Zcash bɛyɛ Katua Abisade: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -82,7 +82,7 @@ Sɛnea wode Zcash:
   />
 </div>
 
-Zcash Donation Widget a wode bɛka wo Wɛbsaet no ho:
+Zcash Donation Widget a wode bɛka wo Wɛbsaet no ho: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

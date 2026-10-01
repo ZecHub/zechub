@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Payment_Request_URIs.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
 </a>
 
 # Zcash 支付请求 URI
 
-支付请求 URI 是由 `zcash:`[ZIP 321](https://zips.z.cash/zip-0321) 定义的链接。兼容的钱包会从链接或二维码中读取地址、金额和可选备注，并预填一笔交易。无需额外账户，也没有中间处理商。
+支付请求 URI 是由 [ZIP 321](https://zips.z.cash/zip-0321) 定义的 `zcash:` 链接。兼容的钱包会从链接或二维码中读取地址、金额和可选备注，并预填一笔交易。无需额外账户，也没有中间处理商。
 
 <div className="my-6 flex flex-wrap items-center gap-3">
   <a
@@ -75,7 +75,7 @@ zcash:<address>?amount=<zec>&memo=<text>&label=<text>
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
-    title="How to make Payment Requests with Zcash"
+    title="如何使用 Zcash 创建支付请求"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -88,7 +88,7 @@ zcash:<address>?amount=<zec>&memo=<text>&label=<text>
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
-    title="Adding a Zcash Donation Widget to your Website"
+    title="向你的网站添加 Zcash 捐赠组件"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

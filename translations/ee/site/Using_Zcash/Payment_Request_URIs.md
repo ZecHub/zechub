@@ -31,10 +31,10 @@ zcash:<address>?amount=<zec>&memo=<text>&label=<text>
 
 | Gbadzaƒe | Si hiã | De dzesii |
 | --- | --- | --- |
-| address | Ɛ̃ | Prefer a Unified Address (`u1` / `utest1`) |
-| amount | no | ZEC ƒe xexlẽdzesi ewolia |
-| memo | no | Shielded transfers ɖeɖeko |
-| label | no | Ŋkɔ si amegbetɔ ate ŋu axlẽ si gakotoku aɖewo ɖe fia |
+| address | Ɛ̃ | Tsɔ Unified Address (`u1` / `utest1`) |
+| amount | Ao | ZEC ƒe xexlẽdzesi ewolia |
+| memo | Ao | Shielded transfers ɖeɖeko |
+| label | Ao | Ŋkɔ si amegbetɔ ate ŋu axlẽ si gakotoku aɖewo ɖe fia |
 
 Se blibowo: [ZIP 321 ƒe xexlẽdzesi](https://zips.z.cash/zip-0321).
 
@@ -69,7 +69,7 @@ Te hosted ƒe dzesi la kpɔ gbã: [Ʋu fexexe ƒe dɔwɔnu](/zcash-payment-uri).
 
 ## Videowo
 
-Alesi woawɔ Fexexe ƒe Biabia kple Zcash:
+Alesi nàwɔ Fexexe ƒe Biabia kple Zcash: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -82,7 +82,7 @@ Alesi woawɔ Fexexe ƒe Biabia kple Zcash:
   />
 </div>
 
-Zcash Donation Widget tsɔtsɔ kpe ɖe wò Nyatakakadzraɖoƒea ŋu:
+Zcash Donation Widget tsɔtsɔ kpe ɖe wò Nyatakakadzraɖoƒea ŋu: 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

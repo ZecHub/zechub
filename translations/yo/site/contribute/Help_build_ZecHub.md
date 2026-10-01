@@ -48,7 +48,7 @@ A n fi awọn iṣẹ-ṣiṣe ṣiṣi silẹ sori [ZEC Bounties](https://bount
 
 
 
-[ZEC Bounties](https://bounties.zechub.wiki/)
+[Àwọn ẹ̀bùn ZEC](https://bounties.zechub.wiki/)
 
 [Àwọn Ìṣòro ZecHub Github](https://github.com/ZecHub/zechub/issues)
 
@@ -62,7 +62,7 @@ ____
 
 **Láti lè san owó, ZecHub nílò kí gbogbo àwọn olùkópa kún fọ́ọ̀mù ìkéde pẹ̀lú Orúkọ àti Ààbò wọn:**
 
-**(Zcash | Namada | Penumbra | Àdírẹ́sì Ycash)**
+**( Zcash | Namada | Penumbra | Ycash ) àdírẹ́sì**
 
 ____
 

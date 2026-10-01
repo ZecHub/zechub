@@ -6,7 +6,7 @@
 
 Zcash Arborist Calls nye ɖoɖowɔɖi ƒe ŋgɔyiyi ƒe kpekpe siwo yia edzi enuenu siwo ku ɖe network upgrade planning, consensus node implementation dɔwɔwɔ, gakotoku kple xɔtuɖoɖowo ƒe ŋuɖoɖo ɖe eŋu, kple protocol numekuku ŋu.
 
-Zcash Foundation ye léa be na Arborist Calls axa si dziɖuɖua da asi ɖo Zcash Foundation:
+Zcash Foundation ye léa be na Arborist Calls ƒe axa si dziɖuɖua da asi ɖo:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
@@ -21,13 +21,13 @@ Zcash Foundation ye léa be na Arborist Calls axa si dziɖuɖua da asi ɖo Zcash
 
 ## Ale Si Nàwɔ Awɔ Ðeka
 
-Kaƒoƒoawo ɖɔlia ɣeyiɣi eve siwo gbugbɔna yia edzi ale be nudzɔla siwo le nuto vovovowo me nate ŋu akpɔ gome le eme. Zã Zcash Foundation axa si dziɖuɖua da asi ɖo na ɣletigbalẽ ƒe faɛl siwo li fifia kple Zoom ƒe kadodowo:
+Kaƒoƒoawo ɖɔlia ɣeyiɣi eve siwo gbugbɔna yia edzi ale be nudzɔla siwo le nuto vovovowo me nate ŋu akpɔ gome le eme. Zã Zcash Foundation ƒe axa si dziɖuɖua da asi ɖo na ɣletigbalẽ ƒe faɛl siwo li fifia kple Zoom ƒe kadodowo:
 
 - **15:00 UTC** ɣeyiɣi ƒe didime
 
 Gɔmeɖoanyi ƒe axaae nye nyateƒetsoƒe na ŋkɔ ŋɔŋlɔ ƒe kadodowo, ɣletigbalẽ ƒe faɛlwo, kple kpekpewo ƒe mɔɖeɖe elabena kpekpewo ƒe kadodowo ateŋu atrɔ.
 
-## Nuŋlɔɖiwo, Ðoɖowɔɖiwo, Kple Nya Siwo Wolé Ðe Nya Dzi
+## Nuŋlɔɖiwo, Ðoɖowɔɖiwo, Kple Nya Siwo Wolé Ðe Nyatakakadzraɖoƒe
 
 - Ðoɖowɔɖi bliboa kple aɖabaƒoƒoawo: [arboretum-nuŋlɔɖiwo](https://github.com/ZcashCommunityGrants/arboretum-notes)
 - Nudzraɖoƒe si woateŋu adi le wiki sia dzi: [Arborist Calls nudzraɖoƒe](/arborist-calls)
@@ -35,13 +35,13 @@ Gɔmeɖoanyi ƒe axaae nye nyateƒetsoƒe na ŋkɔ ŋɔŋlɔ ƒe kadodowo, ɣlet
 - Zcash R&D ƒe numedzodzro: [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.gg/xpzPR53xtU)
 - Numedzodzro didi: [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/)
 
-## Amekae Wòle Be Woade
+## Ame Siwo Wòle Be Woade
 
 Arborist Calls ɖea vi na:
 
 - Protocol ƒe mɔ̃ɖaŋudɔwɔlawo kple numekulawo
 - Node, gakotoku, SDK, kple lightwallet ƒe xɔtuɖoɖowo wɔlawo
-- Na kpekpeɖeŋunala siwo ƒe dɔwɔwɔ ka nu ɖekawɔwɔ, network ƒe ɖɔɖɔɖo, alo ɖoɖowɔɖi ƒe nusiwo dzi woanɔ te ɖo
+- Na kpekpeɖeŋunala siwo ƒe dɔa ka nusiwo dzi woda asi ɖo, network ƒe ɖɔɖɔɖo, alo ɖoɖowɔɖi ƒe nusiwo dzi woanɔ te ɖo
 - Nutoa me tɔ siwo di be yewoawɔ ɖe mɔ̃ɖaŋu ŋuti nyametsotsowɔwɔ dzi le dutoƒo
 
 ## Haƒoƒo ƒe xexlẽdzesi

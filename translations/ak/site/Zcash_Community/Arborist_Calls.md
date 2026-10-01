@@ -6,7 +6,7 @@
 
 Zcash Arborist Calls yɛ protocol nkɔso nhyiamu a wɔsan yɛ a ɛtwe adwene si network upgrade nhyehyɛeɛ, consensus node implementation adwuma, wallet ne infrastructure dependencies, ne protocol nhwehwɛmu so.
 
-Zcash Foundation na ɛhwɛ Arborist Calls krataafa a ɛyɛ aban de no so Zcash Foundation:
+Zcash Foundation na ɛhwɛ Arborist Calls krataafa a ɛyɛ aban de no so:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
@@ -25,7 +25,7 @@ Zcash Foundation na ɛhwɛ Arborist Calls krataafa a ɛyɛ aban de no so Zcash F
 
 - **15:00 UTC** bere a wɔde yɛ adwuma
 
-Fapem krataafa no ne nokware fibea ma dinkyerɛw nkitahodi, kalenda fael, ne nhyiam kwan a wɔfa so kɔ efisɛ nhyiam nkitahodi betumi asesa.
+Fapem krataafa no ne nokware fibea ma dinkyerɛw nkitahodi, kalenda fael, ne nhyiamu kwan a wɔfa so kɔ ɛfiri sɛ nhyiamu nkitahodiɛ tumi sesa.
 
 ## Nsɛm a Wɔahyɛ no Nsow, Agendas, ne Recordings
 
@@ -41,7 +41,7 @@ Arborist Calls ho wɔ mfaso ma:
 
 - Protocol mfiridwumayɛfo ne nhwehwɛmufo
 - Node, sika kotoku, SDK, ne lightwallet nhyehyɛe a wɔyɛ
-- Ma wɔn a wogye a wɔn adwuma ka adwene a wɔahyia, network upgrades, anaa protocol dependencies
+- Grant wɔn a wɔgye a wɔn adwuma ka adwene a wɔhyia, network upgrades, anaa protocol dependencies
 - Mpɔtam hɔfo a wɔpɛ sɛ wodi mfiridwuma ho gyinaesi akyi wɔ baguam
 
 ## Nnwom a wɔbɔ

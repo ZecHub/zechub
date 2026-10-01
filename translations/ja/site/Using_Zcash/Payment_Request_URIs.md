@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Payment_Request_URIs.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
 </a>
 
 # Zcash 支払いリクエストURI
