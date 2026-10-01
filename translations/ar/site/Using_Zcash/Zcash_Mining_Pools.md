@@ -114,19 +114,6 @@
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- الموقع الإلكتروني: [Zhash](https://zcash.zhash.pro/stats)
-- المدفوعات الخاصة: لا
-- نوع المجمع: الدفع لكل آخر N من الحصص
-- رسوم المجمع: 0%
-
----
-
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">

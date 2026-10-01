@@ -12,7 +12,7 @@ published: 2024-01-12
 
 
 **[Itifaki ya Firn](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn ni jukwaa la kwanza kabisa la faragha lisilo na maarifa katika mfumo unaotegemea akaunti, na huanzisha faragha inayoweza kuunganishwa na kunyumbulika kwa minyororo inayotegemea Ethereum. Kwa kutumia uthibitisho usio na maarifa, Firn hutoa faragha salama na yenye ufanisi ya fedha kwa watumiaji wa Ethereum na L2 zinazotegemea Ethereum. **INAFANYAJE KAZI?**
-Ili kutumia Firn, weka ETH kwenye itifaki. Ukishapata salio la Firn, unaweza kuhamisha pesa kwa faragha kwa watumiaji wengine wa Firn, au kutumia itifaki zingine, kama vile Uniswap. Unaweza pia kutoa pesa kwa faragha kwenye mtandao. Firn hutoza ada ndogo, ya 0.79%, kwa ETH zote zenye droo. Ada hizi hulipwa kwa uwiano kwa wamiliki wa Firn Token - [Karatasi Nyeupe](https://firn.cash/whitepaper.pdf) 
+Ili kutumia Firn, weka ETH kwenye itifaki. Ukishapata salio la Firn, unaweza kuhamisha pesa kwa faragha kwa watumiaji wengine wa Firn, au kutumia itifaki zingine, kama vile Uniswap. Unaweza pia kutoa pesa kwa faragha kwenye mtandao. Firn hutoza ada ndogo, ya 0.79%, kwa ETH zote zenye droo. Ada hizi hulipwa kwa uwiano kwa wamiliki wa Firn Token - [Karatasi Nyeupe](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
 **[RAILGUN](https://railgun.org/):** Kama mkataba mahiri wa safu ya 1, Railgun ipo ili iwe uhamishaji wa kibinafsi na miundombinu ya DeFi kutokana na uwepo wake kwa Ethereum, Polygon, Binance Smart Chain, na Arbitrum.

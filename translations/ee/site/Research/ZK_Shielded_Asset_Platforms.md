@@ -12,7 +12,7 @@ published: 2024-01-12
 
 
 **[Firn ƒe Ðoɖowɔɖi](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn nye gbãtɔ-sidzedze zero-sidzedze adzamenyawo ƒe mɔnu le akɔntabubu-si wotu ɖe kpɔɖeŋua me, eye wòto pluggable, flexible adzamenyawo na Ethereum-si wotu ɖe kɔsɔkɔsɔwo.Using zero-sidzedze kpeɖodziwo, Firn tsɔ dedienɔnɔ, nyuie ga ƒe adzamenyawo na Ethereum kple Ethereum-si wotu ɖe L2s zãlawo. **ALEKE WÒWƆNA?**
-Be nàzã Firn la, tsɔ ETH de ɖoɖowɔɖia me. Ne Firn ƒe ga si susɔ la nya su asiwò ko la, àte ŋu atsɔ ga aɖo ɖe Firn zãla bubuwo le ɖokuiwò si, alo awɔ nu kple ɖoɖo bubuwo, abe Uniswap ene. Àte ŋu aɖe ga le ɖokuiwò si hã atrɔ ayi network la dzi. Firn xɔa fe sue aɖe, si nye 0.79%, le ETH siwo katã me woɖea ga le la dzi. Woxea fe siawo ɖe amesiwo si Firn Token - 100 le nu. [Agbalẽ ɣi](https://firn.cash/whitepaper.pdf) 
+Be nàzã Firn la, tsɔ ETH de ɖoɖowɔɖia me. Ne Firn ƒe ga si susɔ la nya su asiwò ko la, àte ŋu atsɔ ga aɖo ɖe Firn zãla bubuwo le ɖokuiwò si, alo awɔ nu kple ɖoɖo bubuwo, abe Uniswap ene. Àte ŋu aɖe ga le ɖokuiwò si hã atrɔ ayi network la dzi. Firn xɔa fe sue aɖe, si nye 0.79%, le ETH siwo katã me woɖea ga le la dzi. Woxea fe siawo ɖe amesiwo si Firn Token - 100 le nu. [Agbalẽ ɣi](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
 **[KPEKPEÐEŊU ƑE TU](https://railgun.org/):** Abe layer-1 smart contract,Railgun li be wòanye Private transfers kple DeFi infrastructure fe eƒe anyinɔnɔ tso Ethereum, Polygon, Binance Smart Chain, kple Arbitrum.

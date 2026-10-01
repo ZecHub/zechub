@@ -12,7 +12,7 @@ published: 2024-01-12
 
 
 **[Firn Protocol](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn は、アカウントベースモデルにおける史上初のゼロ知識プライバシープラットフォームであり、Ethereum ベースのチェーンにプラグイン可能で柔軟なプライバシーを導入します。ゼロ知識証明を用いることで、Firn は Ethereum および Ethereum ベースの L2 のユーザーに対し、安全で効率的な資金プライバシーを提供します。**どのように機能するのか？**
-Firn を利用するには、プロトコルに ETH を入金します。Firn の残高を持つと、他の Firn ユーザーへ資金をプライベートに送金したり、Uniswap のような他のプロトコルを利用したりできます。また、資金をネットワークへプライベートに引き出すこともできます。Firn は、すべての ETH 出金に対して 0.79% の少額手数料を課します。これらの手数料は、Firn Token の保有者に比例配分されます - [ホワイトペーパー](https://firn.cash/whitepaper.pdf)
+Firn を利用するには、プロトコルに ETH を入金します。Firn の残高を持つと、他の Firn ユーザーへ資金をプライベートに送金したり、Uniswap のような他のプロトコルを利用したりできます。また、資金をネットワークへプライベートに引き出すこともできます。Firn は、すべての ETH 出金に対して 0.79% の少額手数料を課します。これらの手数料は、Firn Token の保有者に比例配分されます - [ホワイトペーパー](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
 **[RAILGUN](https://railgun.org/):** レイヤー1スマートコントラクトとして、Railgun は Ethereum、Polygon、Binance Smart Chain、Arbitrum 上に存在する、プライベート送金および DeFi インフラです。

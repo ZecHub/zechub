@@ -16,7 +16,7 @@ Xexeame Katã ƒe Dutanyanyuigblɔlawo ƒe Ðoɖowɔha dea dzesi nutoa me tɔ si
 
 Nuwɔwɔ ƒe ablɔɖe le dutadɔnunɔlawo si le dɔwɔna siwo ŋu wowɔ ɖoɖo ɖo me, si wɔnɛ be woate ŋu atrɔ asi le amewo gbɔ yiyi ŋu wòasɔ ɖe woƒe nutoa me nɔnɔme nu.
 
-## [Xexeame Katã ƒe Dutanyanyuigblɔlawo ƒe Nyatakakadzraɖoƒe](https://zcashambassadors.com)
+## [Xexeame Katã ƒe Dutanyanyuigblɔlawo ƒe Nyatakakadzraɖoƒe](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Dutanyanyuigblɔlawo ƒe Nutowo (ƒe 2026) .
 
