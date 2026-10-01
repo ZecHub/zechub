@@ -7,3 +7,10 @@
 # Ironwood status). Translating it only broke the page: empty Features lists and
 # grey Ironwood badges in all 18 locales.
 Using_Zcash/Wallets.md
+#
+# archive/ (2026-10-01): three guides #2259 moved out of the live wiki and #2263
+# removed from curation. Archived material is kept for reference, not maintained
+# in 18 locales.
+archive/coinholder_log_parser/help.md
+archive/multisigdemo/MultiSigDemo.md
+archive/workshops/zcashContributorWorkshopDay3.md
