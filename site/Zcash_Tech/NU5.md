@@ -14,7 +14,7 @@ Why this matters. A shielded pool is only as trustworthy as the setup that creat
 
 ## The trusted setup
 
-Orchard is Zcash's newest shielded protocol, defined in [ZIP 224](https://zips.z.cash/zip-0224). It is built on the Halo 2 proving system, which uses a technique called PLONKish arithmetization on the Pallas and Vesta curve cycle. The practical payoff is simple: Halo 2 needs no trusted setup and no structured reference string, so there is no secret parameter that could ever be misused.
+Orchard is the shielded protocol introduced by NU5, defined in [ZIP 224](https://zips.z.cash/zip-0224). It is built on the Halo 2 proving system, which uses a technique called PLONKish arithmetization on the Pallas and Vesta curve cycle. The practical payoff is simple: Halo 2 needs no trusted setup and no structured reference string, so there is no secret parameter that could ever be misused.
 
 Sprout and Sapling both depended on a trusted setup. A group of people ran a ceremony to build each pool's parameters, and everyone had to trust that at least one of them destroyed their piece of the secret. Orchard removes that assumption. The older pools still exist after NU5, so the no-setup guarantee applies to funds you hold in the Orchard pool.
 

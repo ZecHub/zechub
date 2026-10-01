@@ -413,7 +413,7 @@ Multiple agents can operate from the same wallet using **ZIP-32 account rotation
 
 ### Fully Shielded Zcash Transactions (Orchard)
 
-Shielded payments use Zcash's **Orchard protocol** - the latest and most secure shielded pool. The server verifies payments using an **Incoming Viewing Key (IVK)**, which can decrypt received notes without exposing the spending key. Replay attacks are prevented via **memo binding** - each challenge embeds a unique `zimppy:{challenge_id}` memo that is cryptographically verified.
+Shielded payments use Zcash's **Orchard protocol**, the shielded pool introduced by NU5. The server verifies payments using an **Incoming Viewing Key (IVK)**, which can decrypt received notes without exposing the spending key. Replay attacks are prevented via **memo binding** - each challenge embeds a unique `zimppy:{challenge_id}` memo that is cryptographically verified.
 
 ### Sessions , Zero Per-Request Latency
 
