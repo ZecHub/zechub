@@ -1,50 +1,94 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Payment_Request_URIs.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
 </a>
 
-# معرّفات URI لطلب الدفع في Zcash
+# طلبات الدفع عبر URI في Zcash
 
-## نظرة عامة على رموز QR الديناميكية
+URI لطلب الدفع هو رابط `zcash:` محدد بواسطة [ZIP 321](https://zips.z.cash/zip-0321). تقرأ المحافظ المتوافقة العنوان والمبلغ والمذكرة الاختيارية من الرابط أو رمز QR وتملأ المعاملة مسبقًا. لا حسابات إضافية ولا معالج وسيط.
 
-URI اختصار لـ Universal Resource Identifier. وهي رموز QR تعمل على تعبئة معلومات المعاملة مسبقًا داخل محفظة Zcash. يمكن للمحافظ التي تتعرّف على هذا التنسيق إنشاء المعاملات إما بالنقر على الروابط في صفحات الويب أو عبر مسح رموز QR. لنفترض أن لديك متجر قهوة عبر الإنترنت، فيمكن لعملائك إجراء عمليات الشراء من خلال مسح رموز QR هذه باستخدام محفظة Zcash الخاصة بهم مع سعر ورقم طلب مُعبّأين مسبقًا.
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    فتح أداة الدفع
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    إنشاء طلب دفع
+  </a>
+</div>
 
-## حالات استخدام طلبات الدفع 
+العرض التوضيحي للأداة هو نافذة ZIP-321 مباشرة: رمز QR، ونسخ العنوان/URI، ورابط قصير، وخيار الفتح في المحفظة. صفحة الأدوات هي المُولِّد إذا أردت تعيين عنوانك ومبلغك أولًا.
 
+## البنية
 
-- التسوق عبر الإنترنت.                    يبدأ العملاء طلبات الدفع عند إتمام عمليات الشراء عبر الإنترنت.
-- حجوزات الفنادق وأماكن الإقامة.   تستفيد منصات الحجز المختلفة من روابط طلب الدفع لإجراء حجوزات الفنادق.
-- سداد الفواتير عبر الإنترنت.               تستخدم شركات المرافق روابط طلب الدفع لتمكين العملاء من تسوية فواتيرهم بسلاسة. 
-- شراء تذاكر الفعاليات.             يستخدم منظمو الفعاليات عبر الحدود هذه الآلية لتسهيل شراء التذاكر.
-- مدفوعات P2P.                       يمكن للأفراد بسهولة إرسال طلبات دفع إلى العائلة والأصدقاء عبر تطبيقات المراسلة، مع تضمين روابط الدفع داخل الرسائل.
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| الحقل | مطلوب | ملاحظات |
+| --- | --- | --- |
+| address | نعم | يُفضّل استخدام Unified Address (`u1` / `utest1`) |
+| amount | لا | ZEC عشري |
+| memo | لا | للتحويلات المحمية فقط |
+| label | لا | اسم قابل للقراءة البشرية تعرضه بعض المحافظ |
 
-## التفاصيل
+القواعد الكاملة: [ZIP 321](https://zips.z.cash/zip-0321).
 
-يحدّد [ZIP 321](https://zips.z.cash/zip-0321) كيفية إنشاء URI دفع مخصّص خاص بك. 
+## حالات الاستخدام
 
-كيفية إنشاء طلبات دفع باستخدام Zcash: 
+- **إتمام الشراء** — املأ السعر ومذكرة الطلب مسبقًا لكي يؤكد العميل فقط في محفظته
+- **الفواتير** — شارك رابطًا واحدًا أو رمز QR
+- **التبرعات** — ضمّن الأداة في موقع
+- **P2P** — أرسل رابط `zcash:` في الدردشة
+
+## التضمين في موقع
+
+وجّه هذا السكربت إلى عنوانك المحمي. النسخة المستضافة موجودة على ZecHub:
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+المطلوب: `data-address`، `data-amount`، `data-target`.
+
+جرّب الزر المستضاف أولًا: [فتح أداة الدفع](/zcash-payment-uri).
+
+## الفيديوهات
+
+كيفية إنشاء طلبات الدفع باستخدام Zcash:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
-    title="كيفية إنشاء طلبات دفع باستخدام Zcash"
+    title="كيفية إنشاء طلبات الدفع باستخدام Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-    
-### مثال برمجي
-
-إضافة أداة تبرع Zcash إلى موقعك الإلكتروني: 
+إضافة أداة تبرعات Zcash إلى موقعك الإلكتروني:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
-    title="إضافة أداة تبرع Zcash إلى موقعك الإلكتروني"
+    title="إضافة أداة تبرعات Zcash إلى موقعك الإلكتروني"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

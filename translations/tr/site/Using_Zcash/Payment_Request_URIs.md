@@ -4,47 +4,91 @@
 
 # Zcash Ödeme Talebi URI'leri
 
-## Dinamik QR Kodlarına Genel Bakış
+Ödeme talebi URI'si, [ZIP 321](https://zips.z.cash/zip-0321) tarafından tanımlanan bir `zcash:` bağlantısıdır. Uyumlu cüzdanlar bağlantıdan veya QR'dan adresi, tutarı ve isteğe bağlı notu okur ve bir işlemi önceden doldurur. Ek hesap yok, arada işlemci yok.
 
-URI, Universal Resource Identifier anlamına gelir. Bunlar, bir Zcash cüzdanında işlemle ilgili bilgileri önceden doldurmak için kullanılan QR kodlardır. Bu biçimi tanıyan cüzdanlar, web sayfalarındaki bağlantılara tıklayarak veya QR kodlarını tarayarak işlemler oluşturabilir. Diyelim ki çevrimiçi bir kahve dükkânınız var; müşterileriniz, fiyat ve sipariş numarası önceden doldurulmuş bu QR kodlarını Zcash cüzdanlarıyla tarayarak alışveriş yapabilir.
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    Ödeme widget'ını aç
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    Ödeme talebi oluştur
+  </a>
+</div>
 
-## Ödeme Taleplerinin Kullanım Alanları 
+Widget demosu canlı bir ZIP-321 penceresidir: QR, adresi/URI'yi kopyalama, kısa bağlantı ve Cüzdanda Aç. Önce kendi adresinizi ve tutarınızı belirlemek istiyorsanız araçlar sayfası oluşturucudur.
 
+## Yapısı
 
-- Çevrimiçi Alışveriş.                    Ödeme talebi işlemleri, çevrimiçi satın alımlar sırasında müşteriler tarafından başlatılır.
-- Otel ve Konaklama Rezervasyonları.   Çeşitli rezervasyon platformları, otel rezervasyonları için ödeme talebi URL'lerinden yararlanır.
-- Çevrimiçi Fatura Ödemeleri.               Hizmet şirketleri, müşterilerin faturalarını sorunsuz şekilde ödeyebilmesi için ödeme talebi URL'lerini kullanır. 
-- Etkinlik Bileti Satın Alımları.             Farklı ülkelerdeki etkinlik organizatörleri, bilet satın almayı kolaylaştırmak için bu mekanizmayı kullanır.
-- P2P Ödemeler.                       Bireyler, mesajların içine gömülü ödeme bağlantılarıyla mesajlaşma uygulamaları üzerinden ailelerine ve arkadaşlarına kolayca ödeme talebi gönderebilir.
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| Alan | Gerekli | Notlar |
+| --- | --- | --- |
+| address | evet | Bir Unified Address (`u1` / `utest1`) tercih edin |
+| amount | hayır | Ondalık ZEC |
+| memo | hayır | Yalnızca korumalı transferler |
+| label | hayır | Bazı cüzdanlar tarafından gösterilen, insan tarafından okunabilir ad |
 
-## Ayrıntılar
+Tüm kurallar: [ZIP 321](https://zips.z.cash/zip-0321).
 
-[ZIP 321](https://zips.z.cash/zip-0321), kendi özel ödeme URI'nizi nasıl oluşturacağınızı tanımlar. 
+## Kullanım alanları
 
-Zcash ile Ödeme Talepleri nasıl yapılır: 
+- **Ödeme sayfası** — fiyatı ve sipariş notunu önceden doldurun; böylece müşteri yalnızca cüzdanında onay verir
+- **Faturalar** — tek bir bağlantı veya QR paylaşın
+- **Bağışlar** — widget'ı bir siteye gömün
+- **P2P** — sohbette bir `zcash:` bağlantısı gönderin
+
+## Bir siteye gömme
+
+Bu betiği kendi korumalı adresinize yönlendirin. Barındırılan kopya ZecHub üzerinde bulunur:
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+Gerekli: `data-address`, `data-amount`, `data-target`.
+
+Önce barındırılan düğmeyi deneyin: [Ödeme widget'ını aç](/zcash-payment-uri).
+
+## Videolar
+
+Zcash ile Ödeme Talepleri nasıl oluşturulur:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
-    title="Zcash ile Ödeme Talepleri nasıl yapılır"
+    title="Zcash ile Ödeme Talepleri nasıl oluşturulur"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-    
-### Kod Örneği
-
-Web Sitenize bir Zcash Bağış Bileşeni Eklemek: 
+Web sitenize bir Zcash Bağış Widget'ı eklemek:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
-    title="Web Sitenize bir Zcash Bağış Bileşeni Eklemek"
+    title="Web sitenize bir Zcash Bağış Widget'ı eklemek"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

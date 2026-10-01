@@ -23,9 +23,26 @@ Túmọ̀ èyíkéyìí nínú àwọn ojú ìwé wiki tó wà tẹ́lẹ̀.
 
 Ṣe ijabọ awọn aṣiṣe
 
-#### Fun alaye lori iye owo ẹbun, jọwọ ka oju-iwe ilowosi wa -> [Nibi](https://zechub.wiki/contribute/contributing-guide#content).
+### Àwọn èrè
 
-A máa ń fi àwọn ọ̀ràn ránṣẹ́ sí àwọn iṣẹ́ tí a ní ẹ̀bùn tí ó ṣí sílẹ̀ ní gbogbo ọjọ́ Ajé. O lè dábàá ẹ̀bùn náà pẹ̀lú! Ní pàtàkì, àwọn wọ̀nyí wà ní ZEC Bounties.
+Àwọn iye náà kò dúró ní ZEC. Lo iye náà [eto imulo iye ẹbun](https://bounties.zechub.wiki/docs/bounty-amounts): yan akoko USD kan fun kilasi iṣẹ naa, yipada ni aaye kan, tẹ ZEC sii lori igbimọ naa. Eto imulo yẹn ni orisun otitọ.
+
+Iṣẹ́ olùkópa àti àwọn irú iṣẹ́: [Ṣe àfikún sí ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Ìtọ́sọ́nà lórí pẹpẹ:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+A n fi awọn iṣẹ-ṣiṣe ṣiṣi silẹ sori [ZEC Bounties](https://bounties.zechub.wiki/). O le daba awọn ẹbun nibẹ paapaa. PR ti a dapọ ko jẹ kanna bi ẹbun ti a fọwọsi tabi ti a sanwo.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

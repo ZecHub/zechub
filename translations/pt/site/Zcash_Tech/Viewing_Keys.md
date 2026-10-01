@@ -116,3 +116,5 @@ Use viewing keys quando necessário e prefira a chave mais restrita que responda
 - [ECC, Explicação das Chaves de Visualização](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Divulgação Seletiva e Chaves de Visualização](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Apresentação em Vídeo](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Ver também: [Endereços Unificados](./Unified_Addresses.md)

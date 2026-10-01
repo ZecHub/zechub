@@ -10,6 +10,14 @@ Zcash Foundation ye léa be na Arborist Calls ƒe axa si dziɖuɖua da asi ɖo:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    Di kaƒoƒo ƒe nudzraɖoƒea
+  </a>
+</p>
 
 ## Ale Si Nàwɔ Awɔ Ðeka
 
@@ -17,14 +25,14 @@ Kaƒoƒoawo ɖɔlia ɣeyiɣi eve siwo gbugbɔna yia edzi ale be nudzɔla siwo le
 
 - **15:00 UTC** ɣeyiɣi ƒe didime
 
-
 Gɔmeɖoanyi ƒe axaae nye nyateƒetsoƒe na ŋkɔ ŋɔŋlɔ ƒe kadodowo, ɣletigbalẽ ƒe faɛlwo, kple kpekpewo ƒe mɔɖeɖe elabena kpekpewo ƒe kadodowo ateŋu atrɔ.
 
 ## Nuŋlɔɖiwo, Ðoɖowɔɖiwo, Kple Nya Siwo Wolé Ðe Nyatakakadzraɖoƒe
 
-- Ðoɖowɔɖi blibowo kple aɖabaƒoƒowo: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Ðoɖowɔɖi bliboa kple aɖabaƒoƒoawo: [arboretum-nuŋlɔɖiwo](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Nudzraɖoƒe si woateŋu adi le wiki sia dzi: [Arborist Calls nudzraɖoƒe](/arborist-calls)
 - Nusiwo wolé ɖe mɔ̃ dzi nyitsɔ laa: [Zcash Arborist Call ƒe haƒoƒo ƒe xexlẽdzesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash Numekuku Kple Dɔwɔnawo Ŋuti Numedzodzro: [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.gg/xpzPR53xtU)
+- Zcash R&D ƒe numedzodzro: [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.gg/xpzPR53xtU)
 - Numedzodzro didi: [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/)
 
 ## Ame Siwo Wòle Be Woade

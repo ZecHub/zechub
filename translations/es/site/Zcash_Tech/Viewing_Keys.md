@@ -116,3 +116,5 @@ Usa viewing keys según sea necesario y prefiere la clave más limitada que resp
 - [ECC, Explicación de las Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Divulgación selectiva y Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Presentación de video](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Véase también: [Direcciones unificadas](./Unified_Addresses.md)

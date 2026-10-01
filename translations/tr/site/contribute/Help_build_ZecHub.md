@@ -23,9 +23,26 @@ Mevcut wiki sayfalarından herhangi birini çevirin.
 
 Hata bildirin
 
-#### Ödül miktarlarıyla ilgili ayrıntılar için lütfen katkı sayfamızı okuyun -> [buradan](https://zechub.wiki/contribute/contributing-guide#content).
+### Ödüller
 
-Şu anda ödülü açık olan görevler için issue’ları her Pazartesi paylaşıyoruz. Siz de ödül önerebilirsiniz! Bunlar ağırlıklı olarak ZEC Bounties üzerinde bulunur.
+Tutarlar ZEC üzerinde sabit değildir. [ödül tutarları politikasını](https://bounties.zechub.wiki/docs/bounty-amounts) kullanın: iş sınıfı için bir USD aralığı seçin, spot fiyattan dönüştürün ve ZEC tutarını panoya girin. Bu politika asıl referanstır.
+
+Katkıda bulunanların iş akışı ve çalışma türleri: [ZecHub'e katkıda bulunma](https://zechub.wiki/contribute/contributing-guide).
+
+Platform tanıtımı:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Açıklaması | Katkıda Bulunarak ZEC Kazanın"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Açık görevleri [ZEC Bounties](https://bounties.zechub.wiki/) üzerinde yayınlıyoruz. Orada ödül de önerebilirsiniz. Birleştirilmiş bir PR, onaylanmış veya ödenmiş bir ödülle aynı şey değildir.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

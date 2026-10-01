@@ -477,11 +477,28 @@ BTCPay Server 将应用你的自定义配置，并连接到指定的 `lightwalle
 ### 第 1 步：安装 Cloudflare Tunnel
 
 1. 在 [cloudflare.com](https://www.cloudflare.com) 注册账号并添加你的域名。
-2. 在你的**家庭服务器**上安装 Cloudflare Tunnel：
+2. 在你的**家庭服务器**上使用 Cloudflare 官方软件包仓库安装 Cloudflare Tunnel：
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+如果 `apt install cloudflared` 失败，请改为安装匹配的 `.deb`：
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. 使用 Cloudflare 完成认证：

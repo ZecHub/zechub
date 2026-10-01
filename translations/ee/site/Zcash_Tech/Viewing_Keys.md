@@ -116,3 +116,5 @@ Zã nukpɔkpɔ ƒe safuiwo le alesi wòhiã nu, eye nàdi safui si le kpuie wu s
 - [ECC, Nukpɔkpɔ ƒe Safuiwo me ɖeɖe](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Nyaɖeɖefia Tiatia kple Nukpɔkpɔ ƒe Safuiwo](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Kpɔ hã: [Adrɛs Siwo Wowɔ Ðekae](./Unified_Addresses.md)
