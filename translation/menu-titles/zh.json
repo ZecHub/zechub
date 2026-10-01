@@ -205,10 +205,6 @@
   "guides/Zgo_Payment_Processor.md": "ZGo Payment Processor：在不托管资金的情况下接受 Zcash",
   "guides/Zingolib_and_Zaino_Tutorial.md": "Z3: (zebrad)(zaino)(zingo-cli)",
   "guides/Zkool_Multisig.md": "Zkool 多重签名指南",
-  "tutorials/Exchanges.md": "Zcash 交易所",
-  "tutorials/Full_Node_Tutorials.md": "Full Node 教程",
-  "tutorials/Using_Zcash.md": "使用 Zcash 的教程",
-  "tutorials/Wallet_Tutorials.md": "Zcash Wallet 教程",
   "tutorials/shieldedNewsletter/readme.md": "屏蔽新闻简报",
   "tutorials/zenithserver/zenithBeta.md": "Zenith 0.10 测试版"
 }

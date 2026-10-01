@@ -205,10 +205,6 @@
   "guides/Zgo_Payment_Processor.md": "ZGo決済処理：Zcashを預金なしで受け取る",
   "guides/Zingolib_and_Zaino_Tutorial.md": "Z3: (zebrad)(zaino)(zingo-cli)",
   "guides/Zkool_Multisig.md": "Zkool Multisig ガイド",
-  "tutorials/Exchanges.md": "Zcash取引所",
-  "tutorials/Full_Node_Tutorials.md": "フルノードのチュートリアル",
-  "tutorials/Using_Zcash.md": "Zcashの使用に関するチュートリアル",
-  "tutorials/Wallet_Tutorials.md": "Zcash ウォレットチュートリアル",
   "tutorials/shieldedNewsletter/readme.md": "シールドされたニュースレター",
   "tutorials/zenithserver/zenithBeta.md": "Zenith 0.10 ベータ版"
 }
