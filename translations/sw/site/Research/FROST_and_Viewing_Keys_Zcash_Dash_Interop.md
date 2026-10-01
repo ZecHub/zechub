@@ -177,7 +177,7 @@ Dash kuwa na sahihi za kizingiti cha BLS haimaanishi kuwa ina, au inahitaji, FRO
 - [hifadhi ya dashpay/dips](https://github.com/dashpay/dips)
 
 **Kuripoti kwa wakati mmoja**
-- [Dash yazindua teknolojia Zcash's Orchard katika kuboresha faragha](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Kidijitali
+- [Dash yazindua teknolojia Zcash's Orchard katika kuboresha faragha](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Cryptopolitan
 - [Dash Yaleta Faragha ya Zcash Orchard kwa Mnyororo wa Mageuzi kwa Miamala Iliyolindwa](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions) — HackerNoon
 
 *Vyanzo vilikaguliwa tarehe 27 Septemba 2026. Dash Platform na ZIP 312 zote zinahama; takwimu na hadhi zinapaswa kuthibitishwa tena kabla ya kuchapishwa upya.*

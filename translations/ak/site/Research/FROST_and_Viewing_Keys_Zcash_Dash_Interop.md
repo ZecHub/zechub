@@ -177,7 +177,7 @@ Dash a ɛwɔ BLS threshold signatures no **ɛnyɛ** kyerɛ sɛ ɛwɔ, anaasɛ ɛ
 - [dashpay/dips adekorabea](https://github.com/dashpay/dips)
 
 **Nnɛyi amanneɛbɔ**
-- [Dash Zcash's Orchard mfiridwuma no reba wɔ kokoam nsɛm a wɔbɛma ayɛ yiye mu](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Nsɛm a wɔka kyerɛ
-- [Dash De Zcash Orchard Kokoamsɛm Ba Evolution Chain ma Shielded Nkitahodi](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions) — HackerAnawiabere
+- [Dash Zcash's Orchard mfiridwuma no reba wɔ kokoam nsɛm a wɔbɛma ayɛ yiye mu](https://www.cryptopolitan.com/dash-launch-zcash-orchard-technology/) — Cryptopolitan
+- [Dash De Zcash Orchard Kokoamsɛm Ba Evolution Chain ma Shielded Nkitahodi](https://hackernoon.com/dash-brings-zcash-orchard-privacy-to-evolution-chain-for-shielded-transactions) — HackerNoon
 
 *Wɔhwɛɛ Sources 27 September 2026. Dash Platform ne ZIP 312 nyinaa rekɔ; ɛsɛ sɛ wɔsan hwɛ akontaabu ne gyinabea ahorow mu ansa na wɔasan atintim.*
