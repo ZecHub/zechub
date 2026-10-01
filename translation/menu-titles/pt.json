@@ -205,10 +205,6 @@
   "guides/Zgo_Payment_Processor.md": "Processador de Pagamentos ZGo: Aceitando Zcash Sem Custódia",
   "guides/Zingolib_and_Zaino_Tutorial.md": "Z3: (zebrad)(zaino)(zingo-cli)",
   "guides/Zkool_Multisig.md": "Guia de Multisig do Zkool",
-  "tutorials/Exchanges.md": "Corretoras de Zcash",
-  "tutorials/Full_Node_Tutorials.md": "Tutoriais de Nós Completos",
-  "tutorials/Using_Zcash.md": "Tutoriais para Usar Zcash",
-  "tutorials/Wallet_Tutorials.md": "Tutoriais de Wallets Zcash",
   "tutorials/shieldedNewsletter/readme.md": "Newsletters Blindadas",
   "tutorials/zenithserver/zenithBeta.md": "Zenith 0.10 Beta"
 }
