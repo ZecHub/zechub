@@ -255,7 +255,11 @@ async function checkExternal(url) {
           accept: "*/*",
         },
       });
-      return { status: res.status, location: res.headers.get("location") };
+      return {
+        status: res.status,
+        location: res.headers.get("location"),
+        retryAfter: res.headers.get("retry-after"),
+      };
     } finally {
       clearTimeout(timer);
     }
@@ -267,6 +271,10 @@ async function checkExternal(url) {
     if (r.status === 405 || r.status === 403 || r.status === 501) r = await attempt("GET");
 
     if (r.status >= 200 && r.status < 300) return { state: "ok", status: r.status };
+    // 429 says the checker is sending too fast, not that the page is gone. The
+    // forum answers most of a weekly sweep's requests this way, which buried the
+    // real 404s among "broken" links.
+    if (r.status === 429) return { state: "ratelimited", status: 429, retryAfter: r.retryAfter };
     if (r.status >= 300 && r.status < 400) return { state: "redirect", status: r.status, to: r.location };
     return { state: "broken", status: r.status };
   } catch (err) {
@@ -277,6 +285,24 @@ async function checkExternal(url) {
     return { state: "error", detail: msg };
   }
 }
+
+/**
+ * Milliseconds to wait before asking a rate-limited host again: the Retry-After
+ * header (seconds or an HTTP date) when present, else a default, clamped so one
+ * host cannot stall the whole sweep.
+ */
+function retryAfterMs(header, now = Date.now()) {
+  const DEFAULT_MS = 5000;
+  const MIN_MS = 1000;
+  const MAX_MS = 30000;
+  let ms = DEFAULT_MS;
+  const v = typeof header === "string" ? header.trim() : "";
+  if (/^\d+$/.test(v)) ms = Number(v) * 1000;
+  else if (v && !Number.isNaN(Date.parse(v))) ms = Date.parse(v) - now;
+  return Math.min(MAX_MS, Math.max(MIN_MS, ms));
+}
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function pool(items, limit, worker) {
   const out = new Array(items.length);
@@ -315,6 +341,7 @@ const ACTIONS = {
   broken: "Confirm the page moved or was removed, then update or drop the link.",
   dns: "Domain does not resolve. The site is likely gone; replace or remove the link.",
   timeout: "No response in time. Recheck manually; add to the allowlist if the host is simply slow.",
+  ratelimited: "The host throttled the checker (HTTP 429), so the link was not verified. Recheck later; allowlist the host if it keeps happening.",
   tls: "Certificate problem. Verify the host before trusting the link.",
   error: "Request failed. Recheck manually.",
   redirect: "Point the link at its final destination so readers skip the hop.",
@@ -468,6 +495,20 @@ async function main() {
       });
     }
 
+    // Rate-limited URLs get one more try each, one at a time and only after the
+    // wait the host asked for, within an overall budget. Whatever is still
+    // throttled is reported as unverified rather than broken.
+    const RATE_LIMIT_BUDGET_MS = 5 * 60 * 1000;
+    let waited = 0;
+    for (let i = 0; i < results.length; i++) {
+      if (results[i].state !== "ratelimited") continue;
+      const wait = retryAfterMs(results[i].retryAfter);
+      if (waited + wait > RATE_LIMIT_BUDGET_MS) break;
+      await sleep(wait);
+      waited += wait;
+      results[i] = await checkExternal(urls[i]);
+    }
+
     results.forEach((r, i) => {
       const url = urls[i];
       const where = externalTargets.get(url);
@@ -509,7 +550,7 @@ async function main() {
     }
   }
 
-  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "error", "invalid", "redirect", "duplicate", "revived"];
+  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "ratelimited", "error", "invalid", "redirect", "duplicate", "revived"];
   findings.sort((a, b) => order.indexOf(a.kind) - order.indexOf(b.kind) || a.file.localeCompare(b.file));
 
   const totals = Object.fromEntries(order.map((k) => [k, findings.filter((f) => f.kind === k).length]));
@@ -545,6 +586,7 @@ const LABELS = {
   asset: "Missing assets",
   tls: "Certificate problems",
   timeout: "Timeouts",
+  ratelimited: "Rate limited (not verified)",
   error: "Request errors",
   invalid: "Invalid URLs",
   redirect: "Redirects",
