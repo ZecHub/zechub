@@ -1,0 +1,189 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Solana_ZEC_to_Shielded.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Редагувати сторінку"/>
+</a>
+
+# Маєте ZEC у Solana? Перемістіть його до захищеного Zcash
+
+Ця сторінка для вас, якщо ZEC з’явився у вашому гаманці Solana, бо ви володієте ZCAT або іншим токеном Solana, який виплачує власникам ZEC. Щоб скористатися цим, вам не потрібно нічого продавати. Ви перемістите наявні у вас ZEC із Solana до гаманця Zcash і зрештою отримаєте їх захищеними.
+
+Ми виконали кожен крок нижче з реальною транзакцією 27 вересня 2026 року, почавши з 0.00266336 ZEC у Phantom. Комісії, час і екрани на цій сторінці — це те, що побачили ми.
+
+---
+
+## Що саме у вас є
+
+ZEC у вашому гаманці Solana — це токен у Solana, а не монети в мережі Zcash. NEAR OmniBridge випускає його та утримує справжні ZEC у ланцюгу Zcash як забезпечення; міст працює в Solana з жовтня 2025 року. Його частина в Solana працює на повідомленнях Wormhole і NEAR Chain Signatures, а не на легкому клієнті Zcash, тому сторона Solana настільки надійна, наскільки надійні ці дві системи. Люди називають це «паперовим ZEC». Він відстежує ціну ZEC, але кожен баланс і кожен переказ перебувають у публічному реєстрі Solana під адресою вашого гаманця, і його неможливо захистити, поки він залишається там.
+
+Перевірте, що у вас справжній токен. У Phantom натисніть **ZEC** і прокрутіть до **Про Zcash**. Адреса контракту має бути такою:
+
+```
+A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
+```
+
+![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/01-phantom-zec-mint.png)
+
+Phantom скорочує її до `A7bd…QXaS`, тож порівняйте перші та останні символи або перегляньте повну адресу на [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS). Будь-який інший токен «ZEC» у вашому гаманці, незалежно від назви чи логотипа, не є цим токеном. Не чіпайте його.
+
+---
+
+## Навіщо його переміщати
+
+Захищений ZEC — це сенс Zcash. Коли ваш ZEC перебуває в захищеному пулі, відправник, одержувач і сума кожного платежу зашифровані в ланцюгу Zcash. Ніхто, хто переглядає оглядач, не може побачити ваш баланс.
+
+У вас уже є ZEC. Переміщення його до гаманця Zcash дає вам ту частину, яка робить його Zcash, і прибирає міст із рівняння: нативний ZEC у вашому власному гаманці не залежить від того, чи хтось виконає погашення.
+
+[Хто може бачити ваш платіж Zcash?](/start-here/who-can-see-your-zcash-payment) точно пояснює, що залишається прихованим.
+
+---
+
+## Виберіть гаманець Zcash
+
+ZecHub не обирає його за вас. Виберіть із [ZecHub каталогу гаманців](/wallets) та перевірте дві позначки на картці гаманця перед встановленням:
+
+- **Ironwood: Готово.** Ironwood — це пул, до якого надходять нові захищені ZEC після оновлення [Ironwood](/zcash-tech/ironwood) 28 липня 2026 року. Старіший пул Orchard більше не приймає нові кошти.
+- **Автоматичне захистування.** Корисно, якщо платіж надходить прозоро: гаманець переміщує цей ZEC до захищеного пулу за вас. Не вважайте цю позначку заміною **Ironwood: Готово**. Гаманець може мати автоматичне захистування й водночас не мати пулу Ironwood (сьогодні Edge має саме такий статус у каталозі). Більшість інших гаманців натомість показують кнопку **Захистити**.
+
+Встановлюйте гаманець за посиланням на його картці в каталозі, а не з результату пошуку чи реклами. Запишіть фразу відновлення на папері та зберігайте її офлайн.
+
+Ваш гаманець показує два типи адрес:
+
+![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/02-zodl-receive.png)
+
+| Починається з | Тип | Що бачить публіка |
+|---|---|---|
+| `u1` | Unified Address | Нічого про вас, але лише коли платіж надходить до захищеного пулу |
+| `t1` | Прозора адреса | Ваша адреса та сума — назавжди, як у Solana |
+
+Використовуйте `u1`, який ваш гаманець позначає як захищений. `u1` — це набір одержувачів, і деякі гаманці додають до нього прозорого одержувача поруч із захищеним. Відправник, який може платити лише на прозорі адреси, використає його, і ваш платіж стане публічним, навіть якщо ви вставили `u1`. Захищена адреса нашого тестового гаманця не має прозорого одержувача, тож цього не могло статися. [Захищені пули](/using-zcash/shielded-pools) докладніше описує одержувачів. Деякі гаманці показують нову `u1` щоразу, коли ви відкриваєте «Отримати»; це нормально, і всі вони належать вам. На знімку екрана отримання та в полі одержувача near.com на цій сторінці з цієї причини використано різні префікси `u1`.
+
+Для нашого тесту ми використали ZODL, оскільки це був гаманець, який ми вже налаштували. Лише гаманці, які каталог позначає як **Ironwood: Готово**, можуть отримувати нову захищену вартість.
+
+---
+
+## Перемістіть його
+
+Маршрут складається з двох частин: внесіть свій ZEC до NEAR Intents із Phantom, а потім надішліть його на свою адресу Zcash. Для першої частини ми використали [solswap.org](https://solswap.org), сайт, створений NEAR для користувачів Solana, а для другої — [near.com](https://near.com), власний застосунок NEAR. Посібник ZecHub [Як обміняти ZEC у гаманці Phantom](/using-zcash/solswap) докладніше охоплює екрани solswap. Не використовуйте для цього власну кнопку **Swap** у Phantom: токен у вас уже є, і його обмін нічого вам не дасть.
+
+Тримайте трохи SOL у Phantom для комісії Solana.
+
+### 1. Внесіть свій ZEC на solswap.org
+
+1. Відкрийте Phantom, перейдіть на вкладку браузера, самостійно введіть `solswap.org` і підключіть гаманець.
+2. Натисніть **Deposit**. Встановіть **Asset** на **Zcash**, **Network** на **Solana**, а метод — на **Wallet**.
+3. Введіть суму (або натисніть **Max**) і підтвердьте транзакцію в Phantom.
+
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+
+Наш депозит потрапив до блоку Solana о 15:09:08 (UTC+1), а solswap показав його як **Completed** через дев’ять секунд.
+
+![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
+
+Тепер ваш ZEC перебуває на балансі NEAR Intents. Ваш ключ Phantom авторизує кожне виведення з нього, розв’язувачі NEAR Intents виконують доставку, а NEAR Intents може утримувати баланс для перевірки відповідності вимогам (дивіться примітки про довіру нижче).
+
+### 2. Надішліть його на вашу адресу Zcash на near.com
+
+solswap також має сторінку **Withdraw**, але для нас вона не спрацювала. Поля **Received amount** і **Fee** залишалися на «–», а кнопка нічого не робила, незалежно від того, чи ми вибирали Zcash або Solana як мережу.
+
+![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
+
+Якщо це станеться з вами, ваш ZEC не застряг. Баланс прив’язаний до ключа вашого гаманця, а не до вебсайту, тому будь-який застосунок NEAR Intents, до якого ви входите з цим гаманцем, може отримати до нього доступ. Ми завершили на near.com:
+
+1. Перейдіть на `near.com` і ввійдіть за допомогою того самого гаманця Phantom.
+2. Ваш баланс solswap з’явиться в розділі **Move legacy assets** (near.com називає баланси зі старіших застосунків NEAR Intents «legacy»). Натисніть **Withdraw** у рядку ZEC. Вам не потрібна кнопка **Move**.
+
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+
+3. Встановіть **Network** на **Zcash**, вставте адресу `u1` вашого гаманця як **Recipient** і звірте перші та останні шість символів із гаманцем.
+
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+
+4. Натисніть **Review withdrawal**, прочитайте підсумок і натисніть **Send**.
+
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+
+5. Phantom попросить вас **Sign Message** для near.com. Саме цей підпис авторизує NEAR Intents перемістити ваш баланс. Він не коштує SOL, але це не робить його безпечним: сайт-двійник може показати такий самий запит і спустошити ваш баланс NEAR Intents. Перед натисканням **Confirm** перевірте все нижчезазначене та натисніть **Cancel**, якщо хоча б один пункт не виконується:
+   - Сайт, указаний у запиті, — це `near.com`. (Депозит на кроці 1 був звичайним запитом транзакції Phantom від `solswap.org`; так само перевірте там цю назву.)
+   - Відкрийте **Message** і знайдіть `"verifying_contract": "intents.near"`.
+   - Повідомлення є читабельним текстом, як на знімку екрана. Якщо це нечитабельний набір даних або сайт не збігається з тим, що в адресному рядку, відхиліть його.
+   - Він ніколи не просить вашу фразу відновлення. Підписання ніколи не передбачає її введення.
+
+![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+
+6. near.com показує **Processing send**, **Sending** і **Complete**. **View on explorer** відкриває запис NEAR Intents про переказ.
+
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+
+![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
+
+### Скільки коштував наш тест і скільки він тривав
+
+| | Наш тест |
+|---|---|
+| ZEC внесено з Phantom | 0.00266336 ZEC |
+| ZEC отримано в гаманці Zcash | 0.00241336 ZEC, захищено |
+| Вартість зі сторони ZEC | 0.00025 ZEC (near.com показав «Fee 0 ZEC»; вартість закладена в котирування) |
+| SOL, витрачений на депозит | 0.00156844 SOL, з яких 0.00008 SOL становила мережева комісія |
+| Мінімум | Не досягнуто. solswap вказував мінімальний депозит 0.00000001 ZEC, а near.com прийняв 0.0026 ZEC |
+| Депозит, із Phantom до solswap | 9 секунд |
+| Виведення, від підписання на near.com до ZEC у гаманці Zcash | Близько 8 хвилин (near.com оцінював приблизно у 2) |
+
+Записи: депозит Solana [5ijsgRrh…AjLkx](https://solscan.io/tx/5ijsgRrhViNTtFMmnsfJDSo3HhRmt3Ri7WB513oBoQLxfGNswDxvHnakwW1yyqXznTTCSxnUkooAHDKowz9AjLkx), NEAR Intents [79c23cfd…a405a9](https://explorer.near-intents.org/transactions/79c23cfd43928de5522c182e26f8f052dc9c43d53430ca497b40e016a6a405a9), Zcash [28d6da27…481034](https://mainnet.zcashexplorer.app/transactions/28d6da27d74dc91e45175a7aff6023bc85578603dd77f1b49782a28f8f481034) у блоці 3,498,141. Комісії та час змінюються залежно від навантаження мережі, тому екран перевірки є остаточним джерелом, коли ви це робите.
+
+Міст NEAR публікує мінімум 0.01 ZEC і комісію 0.00047 ZEC для стандартних виведень Zcash. near.com не застосував жодного з них до наших 0.0026 ZEC. Якщо застосунок відхиляє малу суму, спробуйте near.com перед тим, як поповнювати баланс.
+
+### Інші маршрути та кому довіряє кожен із них
+
+Кожен маршрут із Solana довіряє OmniBridge, оскільки міст утримує ZEC, що забезпечує ваш токен. Крім того:
+
+- **Описаний вище маршрут** довіряє NEAR Intents. Ваш підпис авторизує переказ, розв’язувачі доставляють ZEC на стороні Zcash, а NEAR Intents може утримувати кошти для перевірки відповідності вимогам; у 2026 році власник Zcash [повідомив про великий обмін, утримуваний тижнями](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). Ви також підключаєте гаманець до двох вебсайтів, тож щоразу перевіряйте адресний рядок.
+- **Гаманці з вбудованим NEAR Intents** (шукайте функцію NEAR Intents у [каталозі](/wallets)) використовують ту саму систему зсередини гаманця Zcash. Та сама довіра, менше вебсайтів. Ми не тестували це з ZEC у Solana.
+- **Біржа**, лише якщо вона приймає депозити цього токена в мережі Solana, а більшість не приймає. Ви передаєте зберігання й зазвичай свою особу, а багато бірж надсилають ZEC лише на адреси `t1`. Дивіться [кастодіальні біржі](/using-zcash/custodial-exchanges).
+
+---
+
+## Захистіть і перевірте
+
+Він надійшов захищеним. Наш ZEC пішов на адресу `u1` і потрапив прямо до захищеного пулу Ironwood. Прозорого кроку не було й нічого не потрібно було захищати вручну. Гаманець показував його як **Receiving…** зі значком щита о 16:07 (UTC+1), поки збирав підтвердження.
+
+![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/12-zodl-receiving.png)
+
+Щоб перевірити це самостійно, відкрийте транзакцію у своєму гаманці та скопіюйте ідентифікатор транзакції.
+
+![Zcash wallet transaction details with the transaction ID and timestamp](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/13-zodl-tx-details.png)
+
+Вставте його в [оглядач блоків Zcash](https://mainnet.zcashexplorer.app). Не дивуйтеся підсумку. У нас написано **Shielded Inputs / Outputs 0 / 0** та **Transferred from/to shielded pool 0.0 ZEC**, тому що підсумок оглядача ще не враховує Ironwood. Адреси `t1`, які ви бачите, належать стороні відправлення (ZEC, який він витратив, і решта, яку залишив), а не вам.
+
+![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/14-explorer-summary.png)
+
+Натисніть **Raw TX: JSON** і знайдіть `ironwood`. Від’ємне значення `valueBalance` там означає, що ZEC входить до пулу Ironwood. У нас це було `-0.00241336` — саме стільки надійшло, і в транзакції ніщо не показує, хто його отримав.
+
+![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/15-explorer-raw-ironwood.png)
+
+[Що може бачити оглядач блоків](/zcash-tech/what-a-block-explorer-can-see) пояснює решту полів.
+
+### Якщо ви вставите адресу `t1`
+
+Ми не надсилали на таку адресу, але результат передбачуваний. ZEC надійде до прозорого балансу вашого гаманця, а оглядач назавжди покаже будь-кому вашу адресу `t1` і суму. Гаманець з автоматичним захистуванням потім перемістить його до захищеного пулу; інакше натисніть **Shield**, що коштує невеликої мережевої комісії. Транзакція захистування також є публічною, оскільки вона витрачає кошти з вашої адреси `t1`. Нічого не втрачається, але зв’язок між цим депозитом і вашим гаманцем залишається в ланцюгу. Вставляйте `u1`.
+
+---
+
+## Будьте в безпеці
+
+Нових власників цілеспрямовано атакують. Майже кожне шахрайство, яке ви побачите, належить до одного з цих видів:
+
+- **Неправильний тип адреси.** Адреса Zcash починається з `u1`, `t1`, `zs` або `tex1`. Адреса Solana не має жодного з цих префіксів. Ніколи не надсилайте нативний ZEC на адресу Solana і ніколи не надсилайте токен Solana на адресу Zcash.
+- **Сервіси лише для прозорих адрес.** Деякі мости, сайти обміну та біржі можуть надсилати лише на адреси `t1`. Це можливо, якщо ви захистите ZEC одразу після надходження. Просто не залишайте його там.
+- **Фальшиві гаманці.** Встановлюйте лише за посиланням на картці [каталогу гаманців](/wallets) або в офіційному списку магазину застосунків, на який вона веде. Фальшиві застосунки криптогаманців справді потрапляють до магазинів застосунків і виглядають точно як справжні.
+- **Фішинг фрази відновлення.** Жоден гаманець, міст, сайт обміну, агент підтримки, модератор чи аірдроп ніколи не потребує вашої фрази відновлення. Підписання повідомлення ніколи не передбачає її введення. Будь-хто, хто просить її, намагається вас обікрасти. [Відновлення коштів](/using-zcash/recovering-funds) охоплює варіант цього шахрайства «ми відновимо ваш гаманець».
+- **Шахрайські токени та сайти «claim».** Токени з назвою ZEC, Zcash або подібною з’являються в гаманцях Solana без вашого запиту, часто з посиланням на «claim» більшої кількості. Підключення гаманця за таким посиланням може його спустошити. Перевірте адресу контракту на початку цієї сторінки та ігноруйте все інше.
+- **Шкідливі запити на підпис.** Запит «Sign Message» може перемістити ваш баланс NEAR Intents без комісії SOL. Підписуйте лише на `near.com` або `solswap.org` і лише коли в повідомленні вказано `intents.near` (у кроці 5 вище показано, що перевіряти).
+- **Сайти-двійники.** Самостійно введіть `solswap.org` і `near.com` або використовуйте закладки. Не переходьте за посиланнями з особистих повідомлень, відповідей чи реклами.
+
+---
+
+## Що робити із захищеним ZEC
+
+- Зберігайте приватність, коли витрачаєте його: [Приватне використання ZEC](/guides/using-zec-privately)
+- Знайдіть місця, де його приймають: [Місця, де можна витратити ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
+- Надішліть його з прикріпленим приватним повідомленням: [Нотатки](/using-zcash/memos)
+- Заплатіть комусь, не пов’язуючи зі своєю особою: [Надсилайте гроші без прив’язки до особи](/zcash-use-cases/send-money-without-linking-identity)
