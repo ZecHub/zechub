@@ -2,49 +2,50 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash開発基金
+# Zcash 開発基金
 
-Zcashは、独自のブロックチェーンプロトコルであり、自己資金で運営されている点が特徴です。これは、Zcashに取り組むチームが外部投資家からお金を借りる必要がないことを意味し、採用を推進しながらも、Zcashのより広い理念と使命と一致した姿勢を維持できるようにします。
+Zcash は自己資金で運営されるため、ユニークなブロックチェーンプロトコルです。これは、Zcash に取り組むチームが外部投資家から資金を得る必要がなく、Zcash のより広範な理念と使命に沿い続けながら、普及の促進に注力できることを意味します。
 
 ## ブロック報酬
 
-ブロックチェーンでは、「[ブロック](https://www.investopedia.com/terms/b/block-bitcoin-block.asp)」というものが存在し、ネットワーク内でまだ確認されていない取引を記録するために作成されます。取引が検証されると、ブロックは閉じられます。
+ブロックチェーンには、ネットワーク内でまだ確認されていない取引を記録するために生成される、[block](https://www.investopedia.com/terms/b/block-bitcoin-block.asp) と呼ばれるものがあります。取引が検証されると、ブロックは閉じられます。
 
-ブロック製造者（通称：マイナー）は、ネットワーク内のトランザクションを検証し、新しいブロックを作成するという役割を持っています。これらのブロックを作成する際、ブロック製造者はブロック報酬として報酬を受け取ります。Zcashでは、約75秒ごとに新しいブロックが生成され、3.125 ZECのブロック報酬が流通します。Zcashは最大で2,100万枚のZECを発行するまで、ブロック報酬によって新たなコインが作成されます。最大供給量に達した後は、トランザクション手数料によってブロック報酬が支払われます。
+ブロック生成者（別名マイナー）は、ネットワーク内の取引を検証し、新しいブロックを生成する役割を担います。これらのブロックを生成すると、ブロック生成者にはブロック報酬が与えられます。Zcash では、およそ75秒ごとに新しいブロックが生成され、1.5625 ZEC のブロック報酬が流通に加わります。Zcash のブロック報酬は、Zcash が最大供給量である2,100万に達するまで新しいコインを生み出します。最大供給量に達した後、ブロック報酬は取引手数料によって支払われます。
 
-## Zcashの資金調達メカニズム（NU6以前）
+## Zcash の資金調達メカニズム（NU6 以前）
 
-ビットコインや他の暗号資産では、すべてのブロック報酬がブロック製造者に渡されます。Zcashは、ブロック報酬の20％が[Zcash開発基金](https://zips.z.cash/zip-1014)に移転されるという点でユニークです。この基金は、Zcashプロトコルに取り組むチームを支援します。
+Bitcoin やその他の暗号資産では、ブロック報酬のすべてがブロック生成者に支払われます。Zcash は、ブロック報酬の20%が[Zcash 開発基金](https://zips.z.cash/zip-1014)へ移転される点でユニークです。この基金は、Zcash プロトコルに取り組むチームへ資金を提供します。
 
-現在では、[Zcashコミュニティグランツ](https://zcashcommunitygrants.org/)がブロック報酬の8％を受け取り、Electric Coin Co.が7％、Zcash Foundationが5％受け取っています。これは開発基金全体の40％、35％、25％にそれぞれ該当します。
+現在、[Zcash Community Grants](https://zcashcommunitygrants.org/) はブロック報酬の8%を受け取り、Electric Coin Co. は7%、Zcash Foundation は5%を受け取ります。これは開発基金のそれぞれ40%、35%、25%に相当します。
 ![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
-2020年、Zcashコミュニティは開発基金とその支援するチームについて投票しました。2024年には、コミュニティが再び開発基金から資金を受け取る対象を決めるための投票が行われます。
+2020年、Zcash コミュニティは開発基金と、その支援対象となるチームについて投票しました。2024年には、コミュニティが再び投票し、開発基金から誰が資金を受け取るかを決定します。
 
-# Zcashハイブリッドディレイド開発基金ロックボックス（NU6）
 
-ハイブリッドディレイド開発基金ロックボックスは、Zcash開発基金の次の世代に向けた資金調達メカニズムとして選ばれました。このオプションでは、Zcashのブロック報酬の合計20％を、60％がZcashグランツ委員会に、40％がプロトコルロックボックスに配分され、Zcashエコシステムの将来を支援するためのリソースが確保される一方で、開発およびメンテナンスも継続されます。
+# Zcash ハイブリッド繰延開発基金ロックボックス（NU6）
 
-##意思決定プロセス
+ハイブリッド繰延開発基金ロックボックスは、次世代のZcash 開発基金として選ばれた資金調達メカニズムです。この選択肢では、Zcash のブロック報酬全体の20%を、Zcash Grants Committee に60%、プロトコルのロックボックスに40%配分し、継続的な開発と維持を行いつつ、Zcash エコシステムの将来を支えるためのリソースが確保されるようにします。
 
-20%の開発基金ロックボックスの実装に関する決定は、包括的なコミュニティ主導のプロセスを通じて行われました。これは、Zcashコミュニティアドバイザリーパネル（ZCAP）による二回の投票と、エコシステム全体にわたるいくつかの投票を含んでいます。これらの投票により、幅広いステークホルダーが意見を表明し、意思決定プロセスに貢献することができました。
+## 意思決定プロセス
+
+20%の開発基金ロックボックスを実装する決定は、包括的でコミュニティ主導のプロセスを通じて下されました。これには、Zcash Community Advisory Panel（ZCAP）による2回の投票に加え、エコシステム全体を対象とした複数の投票が含まれます。これらの投票により、幅広い利害関係者が意見を表明し、意思決定プロセスに貢献できました。
 
 ![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
 
-開発基金ロックボックスはディレイド（資金が後日ネットワークアップグレードによって解除される）であるため、Zcashコミュニティは間もなく資金の配分メカニズムを決定する必要があります。提案されているオプションの一つとして、「Zbloc」分散型ガバナンスメカニズムがあります。
+開発基金ロックボックスは繰延方式であるため（資金は後日のネットワークアップグレードを通じてロック解除されることを意味します）、Zcash コミュニティはまもなく資金の分配メカニズムを決定します。提案されている選択肢の一つは、「Zbloc」と呼ばれる分散型ガバナンスメカニズムです。 
 
-![潜在的な新しい形の分散型ガバナンス](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Potential new form of decentralised governance](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
-##リソース
+## リソース
 
 [開発基金ロックボックス - フォーラムスレッド](https://forum.zcashcommunity.com/t/important-deadline-for-zips-likely-dev-fund-related-that-want-to-be-activated-next-halvening/48004/)
 
-[ZCAPロックボックスに関する投票](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
+[ZCAP ロックボックスに関する投票](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
 
-[ECC、ZF、主要グランツ向けの開発基金の設立](https://zips.z.cash/zip-1014)
+[ECC、ZF、およびMajor Grantsのための開発基金の設立](https://zips.z.cash/zip-1014)
 
-[Zcash開発とガバナンス](https://z.cash/zcash-development-and-governance/)
+[Zcash の開発とガバナンス](https://z.cash/zcash-development-and-governance/)
 
-[Zcash資金投票](https://www.coindesk.com/tech/2020/02/01/zcashs-funding-vote-and-the-woes-of-decentralized-governance/)
+[Zcash の資金調達に関する投票](https://www.coindesk.com/tech/2020/02/01/zcashs-funding-vote-and-the-woes-of-decentralized-governance/)
 
-[Zcashコミュニティグランツ](https://zcashcommunitygrants.org/)
+[Zcash Community Grants](https://zcashcommunitygrants.org/)
