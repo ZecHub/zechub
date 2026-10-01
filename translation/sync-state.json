@@ -15531,11 +15531,11 @@
       "edited": false
     },
     "Start_Here/Development_Fund.md": {
-      "src": "sha256:1f0d5dc61cbc1790d8aaff6f3fdae48407ad1f1be547431c2b9c1dccc667dd91",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:dae10eeeab9edfaaa4270ca4ba8b9c255380ba5c5f34a7b8e1bc3ae166527d94",
+      "src_commit": "6d6c24f1beaa751fc009565bbbcfdac7a13061f1",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Start_Here/How_Zcash_Is_Organized.md": {
