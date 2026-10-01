@@ -114,19 +114,6 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- Site web : [Zhash](https://zcash.zhash.pro/stats)
-- Paiements privés : Non
-- Type de pool : Pay Per Last N Shares
-- Frais du pool : 0 %
-
----
-
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">

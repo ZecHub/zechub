@@ -114,19 +114,6 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- वेबसाइट: [Zhash](https://zcash.zhash.pro/stats)
-- Private Payouts: नहीं
-- पूल प्रकार: Pay Per Last N Shares
-- पूल शुल्क: 0%
-
----
-
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">

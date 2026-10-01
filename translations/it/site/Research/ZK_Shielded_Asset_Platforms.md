@@ -12,7 +12,7 @@ published: 2024-01-12
 
 
 **[Firn Protocol](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn è la prima piattaforma privacy a conoscenza zero in assoluto nel modello basato su account e introduce una privacy flessibile e modulare per le chain basate su Ethereum. Usando prove a conoscenza zero, Firn offre una privacy dei fondi sicura ed efficiente per gli utenti di Ethereum e delle L2 basate su Ethereum. **COME FUNZIONA?**
-Per usare Firn, deposita ETH nel protocollo. Una volta che hai un saldo Firn, puoi trasferire fondi privatamente ad altri utenti Firn oppure interagire con altri protocolli, come Uniswap. Puoi anche prelevare privatamente i fondi di nuovo sulla rete. Firn applica una piccola commissione dello 0,79% su tutti i prelievi di ETH. Queste commissioni vengono distribuite proporzionalmente ai detentori del token Firn - [Whitepaper](https://firn.cash/whitepaper.pdf)
+Per usare Firn, deposita ETH nel protocollo. Una volta che hai un saldo Firn, puoi trasferire fondi privatamente ad altri utenti Firn oppure interagire con altri protocolli, come Uniswap. Puoi anche prelevare privatamente i fondi di nuovo sulla rete. Firn applica una piccola commissione dello 0,79% su tutti i prelievi di ETH. Queste commissioni vengono distribuite proporzionalmente ai detentori del token Firn - [Whitepaper](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
 **[RAILGUN](https://railgun.org/):** Come smart contract layer-1, Railgun esiste come infrastruttura per trasferimenti privati e DeFi, e deve la sua esistenza a Ethereum, Polygon, Binance Smart Chain e Arbitrum.
