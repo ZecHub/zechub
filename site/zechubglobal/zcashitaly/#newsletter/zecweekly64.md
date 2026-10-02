@@ -55,7 +55,7 @@ Il pezzo didattico di questa settimana ci guiderà attraverso il processo di ins
 
 - [Nuovo episodio del podcast Zcast 11🎙️](https://www.youtube.com/watch?v=0khy47f0xp4)
 
-- [Le NFT non sono morte, stanno solo riposando 😴 - Cointelegraph](https://cointelegraph.com/news/nfts-arent-dead-just-resting)
+- [Le NFT non sono morte, stanno solo riposando 😴 - Cointelegraph](https://web.archive.org/web/20250827105413/https://cointelegraph.com/news/nfts-arent-dead-just-resting)
 
 - [I legami di Hamas con le criptovalute possono aggiungere slancio alla legge anti-cripto della senatrice Warren - CryptoNews](https://cryptonews.com/news/hamas-cryptocurrency-ties-may-add-momentum-to-senator-warrens-anti-crypto-bill.htm)
 

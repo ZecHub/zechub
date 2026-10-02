@@ -77,7 +77,7 @@ Vale sicuramente la pena di leggerlo 👇
 
 [656 milioni di dollari persi per cause di hacking, truffe e truffe di criptovalute nel primo semestre del 2023](https://cointelegraph.com/news/656m-lost-from-crypto-hacks-scams-and-rug-pulls-in-h12023-report) 
 
-[Il prezzo di Bitcoin non ha mai perso più del 10% a luglio](https://cointelegraph.com/news/bitcoin-price-never-lost-july-2023-different) 
+[Il prezzo di Bitcoin non ha mai perso più del 10% a luglio](https://web.archive.org/web/20250827165749/https://cointelegraph.com/news/bitcoin-price-never-lost-july-2023-different) 
 
 [La nuova legge britannica riconosce le criptovalute come attività finanziaria regolamentata](https://decrypt.co/146857/new-uk-law-recognizes-crypto-trading-as-regulated-financial-activity)
 

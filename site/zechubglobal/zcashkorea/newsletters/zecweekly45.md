@@ -62,7 +62,7 @@ EU서 블록체인 프라이버시 위기, 위안화 스테이블코인 팀 체�
 
 #### 뉴스 & 미디어
 
-[비트코인 ATM, 글로벌 하락장 4개월 만에 증가세 기록](https://cointelegraph.com/news/net-Bitcoin-ATMs-record-an-increase-after-4-months-of-global-downtrend) 
+[비트코인 ATM, 글로벌 하락장 4개월 만에 증가세 기록](https://web.archive.org/web/20260418195753/https://cointelegraph.com/news/net-bitcoin-atms-record-an-increase-after-4-months-of-global-downtrend) 
 
 [EU에서 블록체인 프라이버시가 위험에 처해 있습니다](https://www.coindesk.com/consensus-magazine/2023/02/09/blockchain-privacy-is-at-risk-in-the-eu/) 
 

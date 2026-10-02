@@ -66,7 +66,7 @@ Lisez le guide complet [ici](https://free2z.cash/James_Katz/zpage/compiling-zecw
 
 [Les Canadiens s'intéressent aux cryptomonnaies privées](https://www.crypto-news-flash.com/canadians-unfazed-by-cbdc-millions-opt-for-privacy-coins-monero-dash-and-zcash-over-central-bank-digital-currency/)👛
 
-[Zcash est sur la bonne voie](https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen)
+[Zcash est sur la bonne voie](https://web.archive.org/web/20250827115931/https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen)
 
 ## Quelques tweets sur Zcash
 

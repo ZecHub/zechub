@@ -62,7 +62,7 @@ Dans la pièce éducative de cette semaine, nous plongerons dans le monde de Zca
 
 #### Actualités et médias
 
-[Les guichets automatiques Bitcoin nets enregistrent une augmentation après 4 mois de tendance à la baisse mondiale](https://cointelegraph.com/news/net-Bitcoin-ATMs-record-an-increase-after-4-months-of-global-downtrend) 
+[Les guichets automatiques Bitcoin nets enregistrent une augmentation après 4 mois de tendance à la baisse mondiale](https://web.archive.org/web/20260418195753/https://cointelegraph.com/news/net-bitcoin-atms-record-an-increase-after-4-months-of-global-downtrend) 
 
 [La confidentialité de la blockchain est en danger dans l'UE](https://www.coindesk.com/consensus-magazine/2023/02/09/blockchain-privacy-is-at-risk-in-the-eu/) 
 

@@ -70,7 +70,7 @@ Guardatelo [qui](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 
 #### Notizie e media
 
-[Binance cede segnando una vittoria per la privacy](https://cointelegraph.com/news/privacy-advocates-win-binance-buckles-under-pressure)
+[Binance cede segnando una vittoria per la privacy](https://web.archive.org/web/20250818170509/https://cointelegraph.com/news/privacy-advocates-win-binance-buckles-under-pressure)
 
 [La Namibia approva una legge per regolamentare le criptovalute e gli asset digitali](https://cointelegraph.com/news/crypto-namibia-passes-bill-to-regulate-crypto-and-virtual-assets)
 

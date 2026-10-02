@@ -62,7 +62,7 @@ Puoi approfondire CoinJoin tramite il seguente link tutorial creato da ZecHub Ze
 
 [La nuova blockchain per la privacy Namada propone il primo Airdrop schermato in assoluto per ZCash](https://www.coindesk.com/tech/2023/04/12/new-privacy-blockchain-namada-proposes-first-ever-shielded-airdrop-to-zcash/?utm_content=editorial&utm_campaign=coindesk_main&utm_term=organic&utm_source=twitter&utm_medium=social) 
 
-[Gli obiettivi di prezzo di BTC vedono $33 mila dollari come prossimo obiettivo, mentre il Bitcoin guarda al ribaltone della resistenza chiave](https://cointelegraph-com.cdn.ampproject.org/v/s/cointelegraph.com/news/btc-price-targets-see-33k-next-as-bitcoin-eyes-key-resistance-flip/amp?amp_gsa=1&amp_js_v=a9&usqp=mq331AQIUAKwASCAAgM%3D#amp_tf=From%20%251%24s&aoh=16815049145617&csi=1&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fcointelegraph.com%2Fnews%2Fbtc-price-targets-see-33k-next-as-bitcoin-eyes-key-resistance-flip) 
+[Gli obiettivi di prezzo di BTC vedono $33 mila dollari come prossimo obiettivo, mentre il Bitcoin guarda al ribaltone della resistenza chiave](https://cointelegraph.com/news/btc-price-targets-see-33k-next-as-bitcoin-eyes-key-resistance-flip) 
 
 [Il provider di terze parti MetaMask è stato violato, esponendo gli indirizzi email](https://cointelegraph.com/news/metamask-third-party-provider-was-hacked-exposing-email-addresses)
 

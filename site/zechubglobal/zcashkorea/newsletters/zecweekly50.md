@@ -67,7 +67,7 @@ Zcash의 새로운 에피소드를 게시했습니다. NAMADA<->Zcash 전략 동
 
 #### 뉴스 & 미디어
 
-[privacy 승리를 거둔 바이낸스](https://cointelegraph.com/news/privacy-advocates-win-binance-buckles-under-pressure)(☆)
+[privacy 승리를 거둔 바이낸스](https://web.archive.org/web/20250818170509/https://cointelegraph.com/news/privacy-advocates-win-binance-buckles-under-pressure)(☆)
 
 [나미비아(남아프리카 공화국), 암호화폐·디지털 자산 규제 법안 통과](https://cointelegraph.com/news/crypto-namibia-passes-bill-to-regulate-crypto-and-virtual-assets)
 

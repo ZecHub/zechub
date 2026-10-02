@@ -42,7 +42,7 @@ En savoir plus : [Échanges Non Dépositaires](https://zechub.wiki/using-zcash/n
 
 #### Actualités et médias
 
-[10 ans plus tard, toujours pas de Bitcoin ETF — Cointelegraph](https://cointelegraph.com/news/10-years-later-no-bitcoin-etf)
+[10 ans plus tard, toujours pas de Bitcoin ETF — Cointelegraph](https://web.archive.org/web/20260202174906/https://cointelegraph.com/news/10-years-later-no-bitcoin-etf)
 
 [Une nouvelle arnaque crypto montre les dangers du Twitter d'Elon Musk - Coindesk](https://www.coindesk.com/business/2023/09/08/a-new-crypto-scam-shows-perils-of-elon-musks-twitter/)
 

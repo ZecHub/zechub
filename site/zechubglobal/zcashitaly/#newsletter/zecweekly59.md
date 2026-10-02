@@ -51,7 +51,7 @@ Per saperne di più: [Scambi non custodial](https://zechub.wiki/using-zcash/non-
 
  #### Notizie e media
 
-- [10 anni dopo, ancora nessun ETF sul Bitcoin --- Cointelegraph](https://cointelegraph.com/news/10-years-later-no-bitcoin-etf)
+- [10 anni dopo, ancora nessun ETF sul Bitcoin --- Cointelegraph](https://web.archive.org/web/20260202174906/https://cointelegraph.com/news/10-years-later-no-bitcoin-etf)
 
 - [Una nuova truffa crypto mostra i pericoli del Twitter di Elon Musk - Coindesk](https://www.coindesk.com/business/2023/09/08/a-new-crypto-scam-shows-perils-of-elon-musks-twitter/)
 
