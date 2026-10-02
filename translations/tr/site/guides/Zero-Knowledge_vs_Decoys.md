@@ -52,7 +52,7 @@ Yemlerin kullanılması anonimlik kümesini artırır. Ancak bu yaklaşım tamam
 
 4) **Güvenilir Kurulum Yok**: Zcash'in Sprout ve Sapling kurulumu, "güvenilir kurulum töreni" olarak bilinen çok taraflı bir hesaplama kullanıyordu. Yakın tarihli NU5 yükseltmesi, sıfır bilgi devresinin kurulumunun bütünlüğüne herhangi bir güven gerektirmedi. [NU5 hakkında ECC Blogunu okuyun](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Veri Gizliliği**: Zcash'in shielded havuzlarında kullanılan [zk-SNARK teknolojisi](https://zechub.wiki/zcash-technology), kullanıcılar için önemli ölçüde artırılmış güvenlik sağlar. Zincir üzerinde meta veri sızıntısının azaltılması, kullanıcıların potansiyel bilgisayar korsanları veya baskıcı devlet kurumları gibi hasımlara karşı güvende olması anlamına gelir. 
+5) **Veri Gizliliği**: Zcash'in shielded havuzlarında kullanılan [zk-SNARK teknolojisi](https://zechub.wiki/zcash-tech/zk-snarks), kullanıcılar için önemli ölçüde artırılmış güvenlik sağlar. Zincir üzerinde meta veri sızıntısının azaltılması, kullanıcıların potansiyel bilgisayar korsanları veya baskıcı devlet kurumları gibi hasımlara karşı güvende olması anlamına gelir. 
 
 Monero'nun yem seçim algoritmasında hataların tespit edildiği çeşitli durumlar olmuştur. [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) tarafından hazırlanan bir rapora göre bu hatalar, kullanıcı harcamalarını ortaya çıkarma potansiyeline sahipti. 
 

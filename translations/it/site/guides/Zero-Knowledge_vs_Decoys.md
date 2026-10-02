@@ -52,7 +52,7 @@ L'uso dei decoy aumenta effettivamente l'anonymity set. Tuttavia, questo approcc
 
 4) **Nessun trusted setup**: il setup Sprout e Sapling di Zcash utilizzava un calcolo multipartitico noto come "trusted setup ceremony". Il recente upgrade NU5 non ha richiesto alcun Trust (fiducia) nell'integrità del setup del circuito a conoscenza zero. [Leggi il blog di ECC su NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Privacy dei dati**: la [tecnologia zk-SNARK](https://zechub.wiki/zcash-technology) usata nelle shielded pool di Zcash consente una sicurezza notevolmente potenziata per gli utenti. La riduzione della fuga di metadati on-chain significa che gli utenti sono al sicuro da avversari come potenziali hacker o organismi statali oppressivi. 
+5) **Privacy dei dati**: la [tecnologia zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) usata nelle shielded pool di Zcash consente una sicurezza notevolmente potenziata per gli utenti. La riduzione della fuga di metadati on-chain significa che gli utenti sono al sicuro da avversari come potenziali hacker o organismi statali oppressivi. 
 
 Ci sono stati diversi casi in cui sono stati identificati bug nell'algoritmo di selezione dei decoy di Monero. Questi bug avevano il potenziale di rivelare le spese degli utenti, secondo un report di [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 

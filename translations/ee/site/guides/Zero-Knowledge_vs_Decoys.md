@@ -52,7 +52,7 @@ Ameflunu zazã dzia ŋkɔmaɖemaɖe ƒe ɖoɖoa ɖe edzi nyateƒe. Ke hã mɔnu 
 
 4) **No Trusted Setup**: Zcash ƒe Sprout & Sapling ɖoɖoa zã akɔntabubu si me ame geɖe le si woyɔna be "ɖoɖowɔwɔ ƒe kɔnu si dzi woka ɖo". NU5 ƒe dodoɖeŋgɔ nyitsɔ laa mehiã Kakaɖedzi aɖeke le zero sidzedze nutome ƒe ɖoɖoa ƒe blibonyenye ŋu o. [Xlẽ ECC Blog le NU5 dzi](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Nyatakakawo ƒe Adzamenyawo**: [zk-SNARK mɔ̃ɖaŋununya](https://zechub.wiki/zcash-technology) si wozãna le Zcash ƒe tadeaguƒe siwo wotsɔ akpoxɔnu wɔe me ɖea mɔ na dedienɔnɔ si dzi ɖe edzi ŋutɔ na ezãlawo. Metadata ƒe sisi le kɔsɔkɔsɔ dzi dzi ɖeɖe kpɔtɔ fia be ezãlawo le dedie tso futɔwo abe amesiwo ate ŋu anye kɔmpiutadzidzelawo alo dziɖuɖuha siwo tea ame ɖe anyi ene gbɔ. 
+5) **Nyatakakawo ƒe Adzamenyawo**: [zk-SNARK mɔ̃ɖaŋununya](https://zechub.wiki/zcash-tech/zk-snarks) si wozãna le Zcash ƒe tadeaguƒe siwo wotsɔ akpoxɔnu wɔe me ɖea mɔ na dedienɔnɔ si dzi ɖe edzi ŋutɔ na ezãlawo. Metadata ƒe sisi le kɔsɔkɔsɔ dzi dzi ɖeɖe kpɔtɔ fia be ezãlawo le dedie tso futɔwo abe amesiwo ate ŋu anye kɔmpiutadzidzelawo alo dziɖuɖuha siwo tea ame ɖe anyi ene gbɔ. 
 
 Nudzɔdzɔ geɖewo li siwo me wode dzesi nudzodzoewo le Monero ƒe decoy selection algorithm me. Ŋutete nɔ vodada siawo ŋu be woaɖe gazazã siwo zãlawo zãna afia le nyatakaka aɖe si tso [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 

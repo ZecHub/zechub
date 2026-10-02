@@ -34,7 +34,7 @@ FPF X FPF ƒe ɖoɖowo le nu vovovowo me. Gbã la, ele be amesiwo di kpekpeɖeŋ
 
 Àte ŋu akpɔ nyatakaka bubuwo ku ɖe FPF X FPF la ŋuti le Financial Privacy Fun (FPF) ƒe internet dzi. [le afisia.](https://www.financialprivacyfoundation.org/grants) eye ne ègale nu dim le FPF X FPF ɖoɖowɔɖia ŋu la, àte ŋu akpɔ FAQ ƒe agbalẽa: [Nya Siwo Amewo Biana Edziedzi](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Ne èdi be yeanye Volunteer Reviewer le FPF X FPF ƒe ɖoɖo sia me la, taflatse yi afii: www.fpfx-reviewers.org/en/ [kadodo si le wo dome](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Ne nya bubu le asiwò ku ɖe FPF X FPF Grant Program ŋu la, àteŋu abia tẽ to e-mail dzi. [FPF (Fɔkpa)](info@financialprivacyfoundation.org).
+Ne èdi be yeanye Volunteer Reviewer le FPF X FPF ƒe ɖoɖo sia me la, taflatse yi afii: www.fpfx-reviewers.org/en/ [kadodo si le wo dome](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Ne nya bubu le asiwò ku ɖe FPF X FPF Grant Program ŋu la, àteŋu abia tẽ to e-mail dzi. [FPF (Fɔkpa)](mailto:info@financialprivacyfoundation.org).
 
 ## Ganyawo ƒe Kpekpeɖeŋu 
 [Ganyawo Ŋuti Nyatakakawo Gbɔkpɔla](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

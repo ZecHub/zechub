@@ -34,7 +34,7 @@ Il processo di candidatura per le sovvenzioni FPF X FPF comprende diverse fasi. 
 
 Maggiori informazioni su FPF X FPF sono disponibili sul sito web del Financial Privacy Fun (FPF) [qui](https://www.financialprivacyfoundation.org/grants) e, se sei ancora curioso riguardo al programma FPF X FPF, puoi consultare il documento delle FAQ qui: [FAQ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Se sei interessato a diventare un Revisore Volontario per questo round del programma FPF X FPF, visita questo [link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Per ulteriori domande riguardanti il Programma di Sovvenzioni FPF X FPF, puoi chiedere direttamente inviando un'email a [FPF](info@financialprivacyfoundation.org).
+Se sei interessato a diventare un Revisore Volontario per questo round del programma FPF X FPF, visita questo [link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Per ulteriori domande riguardanti il Programma di Sovvenzioni FPF X FPF, puoi chiedere direttamente inviando un'email a [FPF](mailto:info@financialprivacyfoundation.org).
 
 ## Risorse 
 [Financial Privacy Fund](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

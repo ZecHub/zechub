@@ -26,7 +26,7 @@ Zebra nye Zcash ɖoɖowɔɖi ƒe node blibo si le eɖokui si, si le klalo na ew�
 
 Zebra ɖoa kpe mɔxenuwo kple asitsatsa dzi, kpɔa gome le hatiwo ƒe kadodo me, eye wòɖea RPC ƒe ŋgɔdonya ɖe go na dɔwɔɖoɖowo. Gakotokua nye akpa aɖe si to vovo fifia: [Zallet](https://github.com/zcash/zallet) ƒua du ɖe Zebra node ŋu eye wòkpɔa safuiwo kple dadasɔwo gbɔ. Esia xɔ ɖe zcashd, si ƒo node kple gakotoku nu ƒu ɖe dɔwɔwɔ ɖeka me.
 
-Be woasubɔ gakotoku siwo me kekeli le siwo ŋu wokpɔ ta na la, node la zɔna ɖe indexer aɖe xa, si nye esi woɖo anyi [lightwalletd](https://github.com/zcash/lightwalletd) alo yeyetɔ kekeake [Zaino](https://zechub.wiki/zaino).
+Be woasubɔ gakotoku siwo me kekeli le siwo ŋu wokpɔ ta na la, node la zɔna ɖe indexer aɖe xa, si nye esi woɖo anyi [lightwalletd](https://github.com/zcash/lightwalletd) alo yeyetɔ kekeake [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
 Kpɔ egbɔ be yexlẽ Zebra agbalẽa hena ɖoɖowɔwɔ ŋuti mɔfiamewo, eye nàwɔ ɖeka kple R&D Discord server hena kpekpeɖeŋu.
 
@@ -42,7 +42,7 @@ Zakura nye node blibo evelia si sɔ kple nukpɔsusu ɖeka, si woɖe tso Zebra me
 
 ### zcashd (xɔ dzudzɔ le dɔme)
 
-> **De dzesii:** zcashd xɔ dzudzɔ le dɔme. Electric Coin Company [ɖe gbeƒãe be woɖe asi le eŋu](https://z.cash/support/zcashd-deprecation/)zcashd NU6.3. Zã Zebra. Ne èlé zcashd ɖe asi `wallet.dat`, dze eyome [Ʋuʋu ƒe Mɔfiame: zcashd yi Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **De dzesii:** zcashd xɔ dzudzɔ le dɔme. Electric Coin Company [ɖe gbeƒãe be woɖe asi le eŋu](https://z.cash/support/zcashd-deprecation/)zcashd NU6.3. Zã Zebra. Ne èlé zcashd ɖe asi `wallet.dat`, dze eyome [Ʋuʋu ƒe Mɔfiame: zcashd yi Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd nye Full Node ƒe dɔwɔwɔ gbãtɔ na Zcash, si Electric Coin Company. Wodzra xɔtutu ƒe mɔfiame siwo le ete ɖo hena numekuku kple na dɔwɔla siwo le ʋuʋum tso zcashd.
 

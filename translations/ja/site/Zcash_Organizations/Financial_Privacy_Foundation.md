@@ -33,7 +33,7 @@ FPF X FPF助成金申請プロセスにはいくつかのステップがあり�
 
 FPF X FPFに関するさらに詳しい情報は、財務プライバシーファンド（Financial Privacy Fund）のウェブサイト[こちら](https://www.financialprivacyfoundation.org/grants)で確認できます。また、FPF X FPFプログラムについてまだ疑問がある場合は、FAQドキュメントを[こちら](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf)で確認してください。
 
-このラウンドのFPF X FPFプログラムのボランティアレビュアーになりたい場合は、[こちら](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)のリンクをクリックしてください。FPF X FPF助成金プログラムに関するさらなる質問がある場合は、直接メールで問い合わせてください：[FPF](info@financialprivacyfoundation.org)
+このラウンドのFPF X FPFプログラムのボランティアレビュアーになりたい場合は、[こちら](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)のリンクをクリックしてください。FPF X FPF助成金プログラムに関するさらなる質問がある場合は、直接メールで問い合わせてください：[FPF](mailto:info@financialprivacyfoundation.org)
 
 ## リソース
 [財務プライバシーファンド](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
