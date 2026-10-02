@@ -36,15 +36,13 @@ Zcash mining pools are services that allow individual miners to combine their co
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### FlyPool (offline)
 
-<a href="https://zcash.flypool.org/">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
-</a>
+**Status:** Origin unreachable as of 18 Sep 2026. `zcash.flypool.org` times out (`TimeoutError`). Do not treat this as a live mining pool.
 
-- Website: [FlyPool](https://zcash.flypool.org/)
-- Private Payouts: YES
-- Pool Type: Pay Per Last N 
+- Last listed website: `https://zcash.flypool.org/`
+- Private Payouts: YES (historical listing)
+- Pool Type: Pay Per Last N Shares
 - Pool fee: 1%
 
 ---
