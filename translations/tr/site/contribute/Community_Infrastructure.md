@@ -7,7 +7,7 @@
 
 ### Topluluk Altyapısı 
 
-ZecHub ödül programı, geliştiricilere bireysel görevlere kıyasla daha özgür ve sadeleştirilmiş bir alternatif sunar: [ZEC Ödülleri](https://bounties.zechub.wiki/). 
+ZecHub ödül programı, bu çalışma için ücretli yoldur: [ZEC Bounties](https://bounties.zechub.wiki/). Bir ZEC numarasının nasıl seçileceği: [ödül tutarları politikası](https://bounties.zechub.wiki/docs/bounty-amounts). Katkıda bulunanların iş akışı: [ZecHub'e katkıda bulunma](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## Yararlı Rehberler 

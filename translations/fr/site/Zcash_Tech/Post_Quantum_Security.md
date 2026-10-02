@@ -13,6 +13,8 @@
 - Zcash se prépare par la recherche, les ZIP et des propositions de mise à niveau comme ZIP 2005 et Project Tachyon.
 - Une migration post-quantique sûre doit protéger en même temps les fonds, la vie privée, les portefeuilles, les exchanges et les règles de consensus.
 
+Pour connaître les changements apportés par Ironwood et l’état daté de chaque élément, consultez [Zcash est-il post-quantique ?](/zcash-tech/is-zcash-post-quantum).
+
 ## Qu’est-ce que l’informatique quantique ?
 
 Un ordinateur normal stocke l’information sous forme de bits. Chaque bit vaut soit `0`, soit `1`.
@@ -246,11 +248,12 @@ Pour les débutants, l’idée principale est simple : la confidentialité aujou
 
 ## Pages liées
 
-- [Pools protégés](/using-zcash/shielded-pools) - Comment les transactions protégées de Zcash protègent les détails des transactions
-- [Halo](/zcash-tech/halo) - Le système de preuve de Zcash sans trusted setup
-- [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Comment fonctionnent les preuves à divulgation nulle de connaissance dans Zcash
-- [Viewing Keys](/zcash-tech/viewing-keys) - Comment fonctionne la divulgation sélective pour le Zcash protégé
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - Actifs protégés futurs et support des actifs privés
+- [Zcash est-il post-quantique ?](/zcash-tech/is-zcash-post-quantum) - Ce que Ironwood a changé, ce qui reste exposé et un tableau d’état daté
+- [Pools blindés](/using-zcash/shielded-pools) - Comment les transactions blindées de Zcash protègent les détails des transactions
+- [Halo](/zcash-tech/halo) - Le système de preuves de Zcash sans configuration de confiance
+- [ZKP et ZK-SNARKS](/zcash-tech/zk-snarks) - Comment fonctionnent les preuves à divulgation nulle de connaissance dans Zcash
+- [Clés de visualisation](/zcash-tech/viewing-keys) - Comment fonctionne la divulgation sélective pour les Zcash blindés
+- [Zcash Actifs blindés](/zcash-tech/zcash-shielded-assets) - Futurs actifs blindés et prise en charge des actifs privés
 - [La confidentialité comme principe fondamental](/privacy/privacy-as-a-core-principle) - Pourquoi la confidentialité financière est importante
 
 ## Références

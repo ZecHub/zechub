@@ -3,80 +3,82 @@
 </a>
 
 
-# VPN & dVPN
+# VPN na dVPN
 
-In the digital age, maintaining online privacy and security is of paramount importance. Virtual Private Networks (VPNs) and decentralized VPNs (dVPNs) play a crucial role in safeguarding your online activities and data. This wiki page explores the key differences between traditional VPNs and emerging dVPNs, security considerations when selecting a VPN, and a list of VPN services that accept the privacy-centric cryptocurrency, Zcash.
+N'oge dijitalụ, idobe nzuzo na nchekwa n'ịntanetị dị oke mkpa. Netwọk Onwe Mebere (VPN) na VPN ndị na-enweghị usoro (dVPNs) na-arụ ọrụ dị oke mkpa n'ichekwa ihe omume na data gị n'ịntanetị. Ibe wiki a na-enyocha ihe dị iche iche dị n'etiti VPN ọdịnala na dVPN ndị na-apụta, ihe gbasara nchekwa mgbe ị na-ahọrọ VPN, na ndepụta nke ọrụ VPN ndị na-anabata cryptocurrency nke lekwasịrị anya na nzuzo, Zcash.
 
-# Olee Ihe Dị Iche na Ha?
+# Gịnị Bụ Ihe Dị Iche?
 
-__Virtual Private Networks (VPNs)__: Traditional VPNs create a secure, encrypted tunnel between your device and a remote server controlled by the VPN provider. This tunnel conceals your online activities from prying eyes, such as hackers, ISPs, or government agencies. VPNs are widely used for purposes like anonymous browsing, accessing geo-restricted content, and protecting against cyber threats.
+__Netwọk Nkeonwe Mebere (VPNs)__: VPN ọdịnala na-emepụta ọwara nchekwa, nke ezoro ezo n'etiti ngwaọrụ gị na sava dịpụrụ adịpụ nke onye na-enye VPN na-achịkwa. Ọwara a na-ezochi ihe omume ịntanetị gị pụọ n'anya ndị na-amaghị ama, dị ka ndị na-awakpo, ndị na-enye ọrụ ntanetị, ma ọ bụ ụlọ ọrụ gọọmentị. A na-eji VPN eme ihe nke ukwuu maka ebumnuche dịka ịchọgharị aha onye a na-amaghị, ịnweta ọdịnaya ejiri mpaghara mee ihe, na ichebe megide iyi egwu ịntanetị.
 
-![Foto nke 223](/content-images/image-223-399e3015e7.webp)
-
-
-__Decentralized VPNs (dVPNs)__: In contrast, dVPNs leverage blockchain and peer-to-peer technology to create a decentralized network of nodes. Users' traffic is routed through these nodes, making it difficult for any single entity to monitor or control the entire network. dVPNs are typically more resistant to censorship, as there is no centralized authority overseeing the network. They are well-suited for users seeking enhanced privacy and security.
-
-! ![dvpn](/content-images/dvpn-89698d4cb9.webp)
+![image223](/content-images/image-223-399e3015e7.webp)
 
 
-# Nchekwa Nchekwa Mgbe Ịhọrọ VPN
+__VPN ndị a na-anaghị ahazi (dVPNs)__: N'ụzọ dị iche, dVPN na-eji teknụzụ blockchain na teknụzụ ndị ọgbọ-na-ọgbọ eme ihe iji mepụta netwọk nke nodes. A na-agafe okporo ụzọ ndị ọrụ site na nodes ndị a, na-eme ka ọ siere otu onye ọ bụla ike inyocha ma ọ bụ ijikwa netwọk ahụ dum ike. dVPN na-adịkarị ike iguzogide nnyocha, ebe ọ bụ na enweghị ikike etiti na-elekọta netwọk ahụ. Ha dabara nke ọma maka ndị ọrụ na-achọ nchekwa na nzuzo ka mma.
 
-Mgbe ị na-ahọrọ ọrụ VPN, ọ dị mkpa ịtụle ihe nchebe ndị a:
+![dvpn](/content-images/dvpn-89698d4cb9.webp)
 
-1. __Encryption__: Gbaa mbọ hụ na VPN na-eji usoro nzuzo siri ike dị ka OpenVPN ma ọ bụ WireGuard iji chebe data gị site na interception.
 
-2. __No-Logs Policy__: Chọọ ndị na-enye ọrụ nwere iwu siri ike na-enweghị ndekọ, nke pụtara na ha anaghị edebe ndekọ nke ọrụ ịntanetị gị.
+# Ihe Ndị A Ga-atụle Banyere Nchekwa Mgbe Ị Na-ahọrọ VPN
 
-3. __Server Locations__: Tụlee nkesa mpaghara nke ebe sava iji nweta ọdịnaya site na mpaghara dị iche iche ma belata oge.
+Mgbe ị na-ahọrọ ọrụ VPN, ọ dị mkpa ịtụle ihe ndị a gbasara nchekwa:
 
-4. __Kill Switch__: Mgbanwe igbu ga-eme ka ịntanetị gị kwụsị ma ọ bụrụ na njikọ VPN adaala, na-egbochi data gị ka a ghara ikpughe ya.
+1. __Encryption__: Hụ na VPN na-eji usoro nzuzo siri ike dịka OpenVPN ma ọ bụ WireGuard iji chebe data gị pụọ na njide.
 
-5. __Privacy and Jurisdiction__: Nyochaa omume nzuzo nke onye na-eweta VPN na ikike ya, dịka mba dị iche iche nwere iwu nchekwa data dị iche.
+2. __Atụmatụ Enweghị Ndekọ__: Chọọ ndị na-enye ọrụ nwere iwu siri ike nke enweghị ndekọ, nke pụtara na ha anaghị edebe ndekọ nke ihe omume ịntanetị gị.
 
-6. __Leak Protection__: Gbaa mbọ hụ na VPN na-egbochi DNS na WebRTC leaks iji chekwaa amaghị aha gị.
+3. __Ebe Ndị Na-eje Ozi__: Tụlee nkesa mpaghara nke ebe ndị na-eje ozi iji nweta ọdịnaya sitere na mpaghara dị iche iche ma belata oge.
 
-7. __Price and Features__: Evaluate the cost and features offered by different providers to find one that matches your needs and budget.
+4. __Kill Switch__: Mgbanyụ ọkụ ga-akwụsị ịntanetị gị ma ọ bụrụ na njikọ VPN ada, na-egbochi data gị ikpughe.
 
-# VPNs nke Na-anabata Zcash
+5. __Nzuzo na Ikike Ikpe__: Chọpụta omume nzuzo nke onye na-enye VPN na ikike ya, ebe mba dị iche iche nwere iwu nchekwa data dị iche iche.
 
-Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favored choice for individuals seeking anonymity in their financial transactions. While not all VPN services accept Zcash directly, some may accept cryptocurrency payments through intermediary services. However, it's essential to check with the VPN provider directly for the most up-to-date payment options. Here are a few VPN services known to accept cryptocurrency payments:
+6. Nchedo Ntapụ: Hụ na VPN na-egbochi ntapụ DNS na WebRTC iji mee ka a ghara ịkọwa gị aha.
+
+7. __Ọnụahịa na Atụmatụ__: Nyochaa ọnụ ahịa na atụmatụ ndị ọrụ dị iche iche na-enye iji chọta nke dabara na mkpa na mmefu ego gị.
+
+# VPN ndị na-anabata Zcash
+
+Zcash (ZEC) bụ ego dijitalụ e mere maka nchekwa nzuzo ka mma, nke na-eme ka ọ bụrụ nhọrọ kachasị mma maka ndị na-achọ ka a ghara ịkọwa ha na azụmahịa ego ha. Ọ bụ ezie na ọ bụghị ọrụ VPN niile na-anabata Zcash ozugbo, ụfọdụ nwere ike ịnakwere ịkwụ ụgwọ ego dijitalụ site na ọrụ ndị na-elekọta mmadụ. Agbanyeghị, ọ dị mkpa ịkpọtụrụ onye na-enye VPN ozugbo maka nhọrọ ịkwụ ụgwọ kachasị ọhụrụ. Lee ọrụ VPN ole na ole a maara na ha na-anabata ịkwụ ụgwọ ego dijitalụ:
 
 1. [__Mullvad VPN__](https://mullvad.net/en)
    
-   Mullvad VPN is a highly regarded VPN service known for its strong commitment to user privacy and security. It is one of the few VPN providers that accepts cryptocurrency, including 
-   Zcash, dị ka usoro ịkwụ ụgwọ. Ihe ndị bụ isi nke Mullvad gụnyere:
+   Mullvad VPN bụ ọrụ VPN a ma ama maka nraranye siri ike ya na nzuzo na nchekwa onye ọrụ. Ọ bụ otu n'ime ndị na-enye VPN ole na ole na-anabata ego dijitalụ, gụnyere 
+   Zcash, dịka ụzọ ịkwụ ụgwọ. Isi ihe Mullvad nwere gụnyere:
 
-   __No-Logs Policy__: Mullvad na-agbaso iwu siri ike na-enweghị ndekọ, nke pụtara na ọ naghị echekwa data ọ bụla metụtara ọrụ ịntanetị gị.
+   __Amụma Enweghị Ndekọ__: Mullvad na-agbaso iwu siri ike nke enweghị ndekọ, nke pụtara na ọ naghị echekwa data ọ bụla metụtara ọrụ ịntanetị gị.
 
-   __ Strong Encryption__: Ọrụ ahụ na-eji usoro nzuzo siri ike, gụnyere WireGuard, iji chebe data gị.
+   __Nzochi siri ike__: Ọrụ a na-eji usoro nzuzo siri ike, gụnyere WireGuard, iji chebe data gị.
 
-   __Multi-Hop VPN__: Mullvad offers the option for multi-hop connections, which route your traffic through multiple servers to enhance privacy and security.
+   __Multi-Hop VPN__: Mullvad na-enye nhọrọ maka njikọ multi-hop, nke na-eduga okporo ụzọ gị site na ọtụtụ sava iji melite nzuzo na nchekwa.
 
-   __Bridge Mode__: O nwere ọnọdụ mmiri nke nwere ike inyere aka ịhapụ ụfọdụ ihe nyocha.
+   Ụdị Akwa__: O nwere ụdị akwa nke nwere ike inyere aka ịgafe ụfọdụ usoro mmanye iwu.
 
-   __Anonymous Account Creation__: A na-ekenye ndị ọrụ nọmba akaụntụ na-enweghị usoro, na-ewepụ mkpa maka ozi nkeonwe n'oge ndebanye aha.
+   __Ịmepụta Akaụntụ Amaghị Aha__: A na-enye ndị ọrụ nọmba akaụntụ emepụtara na-enweghị usoro, na-ewepụ mkpa maka ozi nkeonwe n'oge ndebanye aha.
 
-   __Zcash Payment__: Mullvad na-anabata Zcash dị ka nhọrọ ịkwụ ụgwọ, na-ekwe ka ndị ọrụ kwụọ ụgwọ maka ndenye aha ha na nzuzo dị elu.Mullvad VPN.
+   Ịkwụ Ụgwọ __Zcash: Mullvad na-anabata Zcash dị ka nhọrọ ịkwụ ụgwọ, na-enye ndị ọrụ ohere ịkwụ ụgwọ maka ndenye aha ha na nzuzo emelitere. Mullvad VPN.
 
-3. [__Nym VPN (dVPN) ](https://nymtech.net/)
+3. [__Nym VPN (dVPN)__](https://nymtech.net/)
    
-   Nym VPN bụ decentralized VPN (dVPN) nke na-elekwasị anya n'ịkwalite nzuzo onye ọrụ na nchekwa site na netwọkụ nzuzo-centric. 
-   iji mixnet, ebe a na-eduzi okporo ụzọ onye ọrụ site na netwọk nke ọnụ. Isi atụmatụ nke Nym VPN gụnyere:
+   Nym VPN bụ VPN nke na-agbasaghị ekewa (dVPN) nke na-elekwasị anya n'ịkwalite nzuzo na nchekwa onye ọrụ site na netwọk nke lekwasịrị anya na nzuzo. Nym VPN na-arụ ọrụ dị iche na VPN ọdịnala site na 
+   site na iji mixnet, ebe a na-agafe okporo ụzọ ndị ọrụ site na netwọk nke nodes. Isi ihe dị na Nym VPN gụnyere:
 
-   __Decentralization__: Nym VPN bụ decentralized na-emeghe-isi iyi, mbenata ihe ize ndụ nke Central akara na nnyocha.
+   __Njikọwapụta__: Nym VPN bụ nke a na-ekewaghị ekewa ma na-emeghe isi mmalite, na-ebelata ihe egwu nke njikwa etiti na nnyocha.
 
-   __Privacy Mixnet__: Ọrụ ahụ na-eme ka okporo ụzọ onye ọrụ site na mixnet, na-emekwa ka ọ bụrụ ihe ịma aka maka otu onye ọ bụla iji nyochaa ma ọ bụ nyochaa okporo ụzọ netwọk.
+   __Nzuzo Mixnet__: Ọrụ a na-eduzi ndị ọrụ site na mixnet, na-eme ka ọ sie ike maka otu ụlọ ọrụ ọ bụla inyocha ma ọ bụ nyochaa okporo ụzọ netwọk.
 
-   __Node Operation__: Ndị ọrụ nwere ike ijikwa ọnụ iji nye aka na netwọkụ ma nweta ụgwọ ọrụ, na-eme ka ihe owuwu ahụ dịkwuo ala.
+   __Ọrụ Ọrụ Nọdụ__: Ndị ọrụ nwere ike ịrụ ọrụ nọdụ iji nye aka na netwọk ahụ ma nweta ụgwọ ọrụ, na-eme ka akụrụngwa ahụ kewaa nke ọma.
 
-   __Strong Privacy__: Ejiri Nym VPN na nzuzo n'uche, ọ chọghị ka ndị ọrụ nye ozi nkeonwe n'oge ịmepụta akaụntụ.
+   __Ikike Nzuzo__: Emebere Nym VPN ka ọ bụrụ ihe nzuzo, ọ chọghịkwa ka ndị ọrụ nye ozi nkeonwe n'oge a na-emepụta akaụntụ.
+
+   Maka ụzọ kpọmkwem maka Zcash obere akpa, lee [Ụzọ Zcash Wallet Traffic Gafee Nym Mixnet](./Nym_Mixnet_Wallet_Setup.md).
 
 ## VPN ndị ọzọ na-akwado ịkwụ ụgwọ zcash:-
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)
  5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
- 6. [__Private Internet Access (PIA) ]__](https://www.privateinternetaccess.com/)
+ 6. [__Nnweta Ịntanetị nkeonwe (PIA)__](https://www.privateinternetaccess.com/)
 
-Keep in mind that the availability of cryptocurrency payment options may change, so it's advisable to check the VPN provider's website or contact their customer support for the most current information on accepted payment methods, including Zcash.
+Cheta na ohere ịkwụ ụgwọ ego dijitalụ nwere ike ịgbanwe, yabụ ọ dị mma ịlele weebụsaịtị nke onye na-enye VPN ma ọ bụ kpọtụrụ ndị ahịa ha maka ozi kachasị ọhụrụ gbasara ụzọ ịkwụ ụgwọ a nabatara, gụnyere Zcash.
 

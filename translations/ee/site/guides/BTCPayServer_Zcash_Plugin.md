@@ -2,8 +2,8 @@
 
 BTCPay Server ɖea mɔ na asitsaha siwo le Internet dzi be woaxɔ cryptocurrency fexexe tẽ, domenɔlawo alo gadzikpɔlawo manɔmee. Mɔfiame sia kplɔa wò toa ɖoɖo bliboa si nye be nàɖo BTCPay Server kple native support na Zcash shielded payments.
 
-> Nuŋlɔɖi sia ku ɖe Zcash tsɔtsɔ de wò BTCPay Server ƒe kpɔɖeŋu me ŋu. 
-> Edoa alɔ **full node (Zebra)** kple **lightwalletd-dzi ɖoɖowo** siaa.
+> Nuŋlɔɖi sia ku ɖe Zcash tsɔtsɔ de wò BTCPay Server kpɔɖeŋu me ŋu. 
+> Edoa alɔ **full node (Zebra)** kple **lightwalletd-based ɖoɖowo** siaa.
 
 ---
 
@@ -14,8 +14,8 @@ BTCPay Server ɖea mɔ na asitsaha siwo le Internet dzi be woaxɔ cryptocurrency
 - [Afikae Wodzraa Gawo ɖo? Amekae Kpɔa Safui Siwo Nye Ame ŋutɔ ƒe Safuiwo Dzi?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Alesi Nàɖo BTCPay Server na Zcash Xɔxɔ](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [BTCPay Server ƒe dɔwɔwɔ kple Zcash Kpekpeɖeŋu](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Wò ŋutɔ Wò Zcash Full Node (Zebra + Lightwalletd) ƒe Duƒuƒu .](#Running-Your-Own-Zcash-Full-Node)
-  - [Kadodo kple External lightwalletd Node (Tɔtrɔ Ðe Ðoɖo Nu) .](#Connecting-to-an-External-Lightwalletd-Node)
+  - [Wò ŋutɔ Wò Zcash Full Node (Zebra + Lightwalletd) ƒe Duƒuƒu](#Running-Your-Own-Zcash-Full-Node)
+  - [Kadodo kple External lightwalletd Node (Tɔtrɔ Ðe Ðoɖo Nu)](#Connecting-to-an-External-Lightwalletd-Node)
   - [BTCPay Server ƒe amedzrowɔwɔ le Aƒeme kple Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Zcash Plugin ƒe ɖoɖowɔwɔ le BTCPay Server Web Interface me](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
 - [BTCPay Server ƒe Ðekawɔwɔ Kple Wò Nyatakakadzraɖoƒea](#Integrating-BTCPay-Server-with-Your-Website)
@@ -79,7 +79,7 @@ Nyatakakadzraɖoƒea wɔa fexexe ƒe adrɛs eye wòɖea ga homea fiana.
 Ne woxe fe vɔ la, wodzraa adrɛs sia ɖo ɖe blockchain la dzi eye wòzua dutoƒo. 
 Ðeko wòle be amedzidzela natsɔ nudɔdɔ ɖeka aƒo ka na adrɛs la be wòate ŋu akpɔ eƒe asitsatsa ŋutinya bliboa ɣeyiɣi didi.
 
-Azɔ bu nɔnɔme ma ke si le Zcash hã ŋu kpɔ. 
+Azɔ bu nɔnɔme ma ke si le Zcash. 
 BTCPay Server wɔa adrɛs si wokpɔ ta na. Nuƒlela la ɖoa ga si woxe la ɖa. 
 Le blockchain ƒe nukpɔsusu nu la, naneke medzɔna o. Dutoƒonyatakaka aɖeke meli si ŋu woaku nu me le o. 
 Server la xɔa kpeɖodzi, doa ka kple nudɔdɔa, eye wòwua dɔa nu.
@@ -96,12 +96,12 @@ Nusianu wɔa dɔ abe alesi wòle le cryptocurrencies bubuwo gome ene, ɖeko afɔ
 
 BTCPay Server wɔa dɔ abe fexexe ŋuti dɔwɔwɔ ƒe tɔdzisasrã ene le wò e-asitsatsa ƒe mɔnu kple blockchain dome. Alesi tsi si sina la wɔa dɔe nye esi:
 
-1. **Asisi la wɔa nudɔdɔ** le wò nyatakakadzraɖoƒe (e.g. WooCommerce, Magento, alo mɔ̃ ɖesiaɖe si me BTCPay ƒe ɖekawɔwɔ le).
+1. **Asisi la wɔa nudɔdɔ** le wò nyatakakadzraɖoƒe (le kpɔɖeŋu me, WooCommerce, Magento, alo mɔ̃ ɖesiaɖe si me BTCPay ƒe ɖekawɔwɔ le).
 
-2. **Fiasea bia fexexe ƒe agbalẽvi** tso BTCPay Server gbɔ. Server la wɔa adzɔxegbalẽvi tɔxɛ aɖe si me:
+2. **Fiasea bia fexexe ƒe agbalẽvi** tso BTCPay Server. Server la wɔa adzɔxegbalẽvi tɔxɛ aɖe si me:
    - Ga home si wobia
    - Ɣeyiɣidzidzenu si wotsɔ xlẽa ɣeyiɣi yi megbe
-   - A Zcash Unified Address (UA) - e.g., `u1...` - si me Orchard (shielded) receiver le le gɔmedzedzea me.
+   - Zcash Unified Address (UA) - le kpɔɖeŋu me, `u1...` - si me Orchard (shielded) receiver le le gɔmedzedzea me.
 
 3. **Asisi la kpɔa fexexe ƒe axa** eye wòɖoa ZEC ɖe adrɛs si wona.
 
@@ -125,17 +125,17 @@ Gaawo katã yia **tẽe** ɖe asitsala la ƒe gakotoku me. Wokpɔa dedienɔnɔ t
 
 - **Wowɔa gakotokua do ŋgɔ.** 
   Asitsala zãa Zcash gakotoku si doa alɔ safuiwo kpɔkpɔ - abe [Zkool](https://github.com/hhanh00/zkool2/) or [Zingo! Gakotoku](https://zingolabs.org/).  
-  Woate ŋu akpɔ xexlẽdzesi bliboa le [ZecHub.wiki dzi](https://zechub.wiki/wallets).
+  Woate ŋu akpɔ xexlẽdzesi bliboa le [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - **BTCPay Server doa ka to nukpɔkpɔ ƒe safui dzi.** 
-  Nukpɔkpɔ ƒe safui nye **nuxexlẽ ɖeɖeko ƒe safui**: ate ŋu ade dzesi ga si woxena eye wòawɔ adrɛs yeye siwo woxɔna, . 
+  Nukpɔkpɔ ƒe safui nye **nuxexlẽ ɖeɖeko ƒe safui**: ate ŋu ade dzesi ga si woxena eye wòawɔ adrɛs yeye siwo woxɔna, 
   gake mate ŋu azã ga o. Server la medzraa nuku ƒe nyagbewo alo ame ŋutɔ ƒe safuiwo ɖo o.
 
 - **Wokpɔa blockchain nyatakakawo to a `lightwalletd` server.** 
   Àte ŋu azã dutoƒo node abe `https://zec.rocks`, alo ƒu du wò ŋutɔ tɔwò `Zebra + lightwalletd` stack hena dziɖulanyenye blibo.
 
 - **Nudɔdɔ ɖesiaɖe xɔa adrɛs tɔxɛ aɖe.** 
-  Nukpɔkpɔ ƒe safuiwo ɖea mɔ na dɔwɔƒea be wòakpɔ Zcash ƒe adrɛs yeye siwo wokpɔ ta na na adzɔxegbalẽvi ɖesiaɖe, . 
+  Nukpɔkpɔ ƒe safuiwo ɖea mɔ na dɔwɔƒea be wòakpɔ Zcash adrɛs yeye siwo wokpɔ ta na na adzɔxegbalẽvi ɖesiaɖe, 
   si ana woate ŋu alé ŋku ɖe fexexe ŋu dedie eye woaxe mɔ ɖe adrɛs gbugbɔgazã nu.
 
 - **Èkpɔa ŋusẽ blibo ɖe ga la dzi.** 
@@ -150,7 +150,7 @@ Le akpa siwo do ŋgɔ me la, míeɖe alesi BTCPay Server wɔa dɔ kple Zcash kpl
 
 Wò ɖoɖo tututu anɔ te ɖe nu geɖe dzi:
 
-- Ðe BTCPay Server ƒe kpɔɖeŋu aɖe le asiwò xoxoa?
+- Ðe BTCPay Server kpɔɖeŋu aɖe le asiwò xoxoa?
 - Èdi be yeazã dutoƒo lightwalletd alo yeawɔ ye ŋutɔ yeƒe node bliboaa?
 - Ðe server la awɔ dɔ le VPS dzi loo alo le aƒemea?
 
@@ -158,17 +158,17 @@ Ta sia ƒo nu tso ɖoɖowɔɖi ƒe nɔnɔme siwo katã li fifia ŋu - tso ɖoɖo
 
 Míazɔ to nusiwo gbɔna me:
 
-- Alesi woawɔ nusianu tso gɔmedzedzea me ke ɖe VPS dzi, si me node bliboa (Zebra) hã le .
-- Alesi nàwɔ BTCPay Server le aƒeme esime nèle wò IP ɣlam to **Cloudflare Tunnel** zazã me.
-- Alesi woawɔ Zcash ƒe kpekpeɖeŋu nawɔ dɔ eye woawɔ ɖoɖo ɖe eŋu le BTCPay Server ƒe nyatakakadzraɖoƒe ƒe ŋgɔdonya me
+- Alesi woawɔ nusianu tso gɔmedzedzea me ke ɖe VPS dzi, si me node bliboa (Zebra) hã le
+- Alesi nàwɔ BTCPay Server le aƒeme esime nèle wò IP ɣlam to **Cloudflare Tunnel** zazã me
+- Alesi woawɔ Zcash kpekpeɖeŋu nawɔ dɔ eye woawɔ ɖoɖo ɖe eŋu le BTCPay Server nyatakakadzraɖoƒe ƒe ŋgɔdonya me
 - Alesi nàwɔ atsɔ BTCPay awɔ ɖeka kple wò nyatakakadzraɖoƒe alo Internet dzi fiase
 
 
 ## BTCPay Server ƒe dɔwɔwɔ kple Zcash Kpekpeɖeŋu
 
-Mina míayi ɖoɖo ŋutɔŋutɔa dzi. Le akpa sia me la, míade BTCPay Server kple Zcash ƒe kpekpeɖeŋu - le VPS yeye dzi alo to ZEC ƒe kpekpeɖeŋu tsɔtsɔ kpe ɖe kpɔɖeŋu si li ŋu me.
+Mina míayi ɖoɖo ŋutɔŋutɔa dzi. Le akpa sia me la, míade BTCPay Server kple Zcash ƒe kpekpeɖeŋu - le VPS yeye dzi alo to ZEC kpekpeɖeŋu tsɔtsɔ kpe ɖe kpɔɖeŋu si li ŋu me.
 
-Ne BTCPay Server le dɔ wɔm xoxo (e.g. na BTC alo Lightning), mehiã be nàgbugbɔ nusianu aɖoe o - ɖeko nàwɔ ZEC ƒe kpeɖeŋutɔa ŋudɔ.
+Ne BTCPay Server le dɔ wɔm xoxo (le kpɔɖeŋu me, na BTC alo Lightning), mehiã be nàgbugbɔ nusianu aɖoe o - ɖeko nàwɔ ZEC kpeɖeŋutɔa ŋudɔ.
 
 Míazɔ to ɖoɖo vovovowo me, tso ɖoɖo suetɔ kekeake siwo zãa dutoƒo `lightwalletd` node na bliboe sovereign installations kple wò ŋutɔ wò blibo node. 
 Tiatia nyuitɔ nɔ te ɖe afisi wò server le kple ɖokuisinɔnɔ agbɔsɔsɔme si nèdi tso gotagome xɔtuɖoɖowo gbɔ dzi.
@@ -187,19 +187,19 @@ Tiatia nyuitɔ nɔ te ɖe afisi wò server le kple ɖokuisinɔnɔ agbɔsɔsɔme 
 
 Hafi nàdae ɖe wò kɔmpiuta dzi la, kpɔ egbɔ be:
 
-- VPS si me **Ubuntu 22.04+** le.
-- Domain ŋkɔ si fia asi wò server ƒe IP adrɛs (to DNS dzi) .
+- VPS si me **Ubuntu 22.04+** le
+- Domain ŋkɔ si fia asi wò server ƒe IP adrɛs (to DNS dzi)
 - `git`, `docker`, kple `docker-compose` wotsɔe de eme
 - SSH ƒe mɔɖeɖe ɖe dɔdzikpɔla ŋu
 
 ---
 
-## Wò Server Dzadzraɖo (afã ɣaɣla) .
+## Wò Server Dzadzraɖo (afã ɣaɣla)
 
 <details>
   <summary>Click to expand</summary>
 
-Be nàɖo BTCPay Server kple Zcash ƒe kpekpeɖeŋu la, àhiã nusiwo gbɔna:
+Be nàɖo BTCPay Server kple Zcash kpekpeɖeŋu la, àhiã nusiwo gbɔna:
 
 ### 1. VPS si me Ubuntu 22.04 alo yeyetɔ le
 
@@ -208,7 +208,7 @@ VPS dɔwɔƒe ɖesiaɖe si ana IP adrɛs tɔxɛ aɖe la awɔ dɔ.
 
 **Nudidi suetɔ kekeake**: 
 - 2 CPU ƒe nu veviwo 
-- 4 GB ƒe RAM 
+- 4 GB RAM ƒe RAM 
 - 40 GB ƒe disk ƒe teƒe 
 
 Ðoɖo sia sɔ gbɔ ne èle lightwalletd zãm na Zcash. 
@@ -221,14 +221,14 @@ Ne èɖoe be yeawɔ **Zcash node blibo** la, àhiã **300 GB** ya teti ƒe disk 
 Le wò DNS dɔwɔƒea ƒe dashboard me la, wɔ `A` nuŋlɔɖi na subdomain aɖe 
 (e.g. `btcpay.example.com`) si fia asi wò VPS IP adrɛs. 
 
-Woazã domenyinyi sia atsɔ age ɖe BTCPay Server me tso web-browser la dzi 
+Woazã domenyinyi sia atsɔ age ɖe BTCPay Server tso web-browser la dzi 
 eye be woawɔ **SSL ɖaseɖigbalẽ femaxee** le eɖokui si to Let's Encrypt dzi.
 
 ---
 
 ### 3. SSH ƒe mɔɖeɖe ɖe dɔdzikpɔla ŋu
 
-Be nàde BTCPay Server la, ele be nàdo ka kple wò VPS to SSH dzi. 
+Be nàde BTCPay Server, ele be nàdo ka kple wò VPS to SSH dzi. 
 Tso wò terminal dzi la, ƒu du:
 
 `ssh root@YOUR_SERVER_IP`
@@ -248,10 +248,10 @@ sudo apt install git curl docker.io docker-compose-plugin -y
 sudo systemctl enable docker
 ```
 
-> Le Ubuntu 22.04 kple yeyetɔ dzi la, . `docker-compose` tso APT me la, woɖe asi le eŋu.
-> Nusi wokafu be woatsɔ ablaee nye `docker-compose-plugin`, si naa... `docker compose` sedede (de dzesi teƒea le esi teƒe be nàde dzesi fli).
+> Le Ubuntu 22.04 kple yeyetɔ dzi la, `docker-compose` tso APT me la, woɖe asi le eŋu.
+> Nusi wokafu be woatsɔ ablaee nye `docker-compose-plugin`, si naa.. `docker compose` sedede (de dzesi teƒea le esi teƒe be nàde dzesi fli).
 
-Wò server ƒe nɔnɔme sɔ azɔ na BTCPay Server ɖoɖo.
+Wò server ƒe nɔnɔme sɔ azɔ na BTCPay Server.
 
 </details>
 
@@ -307,11 +307,11 @@ Le mɔfiame sia ta la, míalé fɔ ɖe **Zcash ɖeɖeko** ŋu.
 Script la aɖo nusiwo dzi woanɔ te ɖo, awɔ `docker-compose.yml`, dze subɔsubɔdɔwo gɔme, eye nàwɔ ɖoɖo ɖe eŋu `systemd`.
 Esia xɔa abe miniti 5 ene.
 
-Ne èwu enu vɔ la, wò BTCPay Server ƒe kpɔɖeŋua anɔ anyi le:
+Ne èwu enu vɔ la, wò BTCPay Server kpɔɖeŋua anɔ anyi le:
 
 `https://btcpay.example.com`
 
-> Ne èle asi trɔm le ɖoɖo si li xoxo ŋu (e.g. ZEC tsɔ kpe ɖe eŋu) la, kpɔ egbɔ be yetɔ eye yegbugbɔ dze dɔdzikpɔla la gɔme kple ɖoɖo yeyewo:
+> Ne èle asi trɔm le ɖoɖo aɖe si li xoxo ŋu (le kpɔɖeŋu me, ZEC), kpɔ egbɔ be yetɔ te dɔdzikpɔla la eye yegbugbɔ dze dɔa gɔme kple ɖoɖo yeyewo:
 
 ```
 cd ~/BTCPayServer/btcpayserver-docker
@@ -357,7 +357,7 @@ export BTCPAYGEN_EXCLUDE_FRAGMENTS="zcash"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 ```
 
-Esia alɔ... `zcash-fullnode` kakɛ, si daa evea siaa ɖe yame `zebrad` kple `lightwalletd` le BTCPay Server me.
+Esia alɔ.. `zcash-fullnode` kakɛ, si daa evea siaa ɖe yame `zebrad` kple `lightwalletd` le BTCPay Server.
 
 ---
 
@@ -369,7 +369,7 @@ Nuŋɔŋlɔa awɔe be:
 
 * Wɔ Docker ƒe nɔnɔmetatawo ƒe kɔpi na Zebra kple Lightwalletd
 * Ðo subɔsubɔdɔawo ɖe BTCPay ƒe ƒuƒoƒoa me
-* Do ƒome Zcash ƒe kpeɖeŋutɔa kple **nutoa me ** . `lightwalletd` ɣeyiɣi
+* Do ƒome Zcash ƒe kpeɖeŋutɔa kple **nutoa me** `lightwalletd` ɣeyiɣi
 
 > **Blockchain ƒe wɔwɔ ɖekae blibo ate ŋu axɔ ŋkeke geɖe**, vevietɔ le VPS dɔdzikpɔla siwo ƒe nunɔamesiwo mesɔ gbɔ o dzi.
 > Vaseɖe esime ɖekawɔwɔa wu enu la, fexexe siwo ŋu wokpɔ ta na la manɔ anyi o.
@@ -448,7 +448,7 @@ Tsɔ fli si gbɔna kpee, tsɔ nuwuƒe si nètia ɖɔ li URL la:
 > Le subɔsubɔdɔ veviwo gome la, tia **nuwuƒe si li ke eye woɖo kpe edzi** (abe esi woɖo ɖi ene `zec.rocks`).
 
 > Di be yeawɔ amedzro na ye ɖokui `lightwalletd`?
-> Àte ŋu azã... `docker-compose.lwd.yml` tso ƒe [Zebra ƒe nudzraɖoƒe](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml).
+> Àte ŋu azã.. `docker-compose.lwd.yml` tso ƒe [Zebra nudzraɖoƒe](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml).
 > **Nuxlɔ̃ame:** Womeŋlɔ ɖoɖo sia ɖe agbalẽ me le se nu o eye ebia TLS ɖoɖo kple asi, melidzeƒea ɖoɖo ɖe ŋgɔ, kple dzodoƒe ƒe ɖoɖowɔwɔ - wokafui na zãla deŋgɔwo ɖeɖeko.
 
 ---
@@ -464,7 +464,7 @@ Tso fifia dzi la, Zcash ƒe kpeɖeŋutɔa azã gotagome nuwuƒe ma hena asitsats
 
 ## BTCPay Server ƒe amedzrowɔwɔ le Aƒeme kple Cloudflare Tunnel
 
-Àdi be yeaxɔ Zcash fexexe esime nèle BTCPay Server xɔm ɖe aƒeme mɔ̃ dzi - abe Raspberry Pi 5 alo teƒea ƒe server ɖesiaɖe **si me IP si meʋãna o**? 
+Àdi be yeaxɔ Zcash fexexe esime nèle BTCPay Server xɔm ɖe aƒeme mɔ̃ dzi - abe Raspberry Pi 5 alo nutoa me server ɖesiaɖe **si me IP si meʋãna o**? 
 Àteŋu atsɔ wò kpɔɖeŋua ɖe go dedie le internet dzi to **Cloudflare Tunnel** zazã me.
 
 Mɔnu sia ƒoa asa na port forwarding eye wòɣlaa wò IP adrɛs ŋutɔŋutɔ ɖe dutoƒo - esime wòle wò server dzi kpɔm to HTTPS dzi.
@@ -476,11 +476,28 @@ Ekpena ɖe ŋuwò hã be **aƒo asa na ga si nàzã ɖe VPS haya ŋu**, si nyo �
 ### Afɔɖeɖe 1: De Cloudflare Mɔdodo
 
 1. Wɔ akɔnta le [alilikpo ƒe ʋuʋu.com](https://www.cloudflare.com) eye nàtsɔ wò domenyiŋusẽfianu akpe ɖe eŋu.
-2. Le wò **aƒeme server** dzi la, de Cloudflare Tunnel:
+2. Le wò **aƒeme server** dzi la, de Cloudflare Tunnel to Cloudflare ƒe package nudzraɖoƒe si dziɖuɖua da asi ɖo zazã me:
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+If `apt install cloudflared` do kpo nu la, da nusi sɔ la ɖe wò kɔmpiuta dzi `.deb` ɖe eteƒe:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Tsɔ Cloudflare ɖo kpe edzi:
@@ -523,8 +540,8 @@ ingress:
 
 * `tunnel` - ŋkɔ na mɔ̃ si nèwɔ va yi
 * `credentials-file` - mɔ si yi dzesi faɛl si wowɔ le `cloudflared tunnel login`
-* `hostname` - wò domenyiŋusẽfianu si woŋlɔ ŋkɔ na le Cloudflare (e.g. `btcpay.example.com`)
-* `service` - wò BTCPay Server ƒe teƒea ƒe adrɛs (zi geɖe `http://127.0.0.1:80` na Nginx) .
+* `hostname` - wò domenyiŋusẽfianu si woŋlɔ ŋkɔ na le Cloudflare (le kpɔɖeŋu me `btcpay.example.com`)
+* `service` - wò BTCPay Server ƒe teƒea ƒe adrɛs (zi geɖe `http://127.0.0.1:80` na Nginx)
 
 > Cloudflare awɔ ʋuɖoɖo ƒe teƒenɔla dedie ɖe wò nutoa me server dzi, evɔ maɖe wò aƒeme IP ɖe go o.
 
@@ -542,13 +559,13 @@ Ne medze le eɖokui si o la, tsɔe kpee kple asi:
 3. Tsɔ CNAME ƒe nuŋlɔɖi yeye kpee:
    - **Ŋkɔ**: `btcpay`
    - **Taɖodzinu**: `<UUID>.cfargotunnel.com`  
-     Àte ŋu akpɔ asixɔxɔ si tututu le wò... `btcpay.json` file alo to duƒuƒu me:
+     Àte ŋu akpɔ asixɔxɔ si tututu le wò.. `btcpay.json` file alo to duƒuƒu me:
      
      `cloudflared tunnel list`
      
    - **Teƒenɔla ƒe nɔnɔme**: Wowɔe (alilikpo si ƒe amadede nye aŋutiɖiɖi)
 
-> Nuŋlɔɖi sia kpɔa egbɔ be nusiwo katã wobia be... `btcpay.example.com` woɖoa mɔ to Cloudflare Tunnel dzi, si ɣlaa wò IP adrɛs ŋutɔŋutɔ ɖe dukɔa.
+> Nuŋlɔɖi sia kpɔa egbɔ be nusiwo katã wobia be.. `btcpay.example.com` woɖoa mɔ to Cloudflare Tunnel dzi, si ɣlaa wò IP adrɛs ŋutɔŋutɔ ɖe dukɔa.
 
 ---
 
@@ -571,7 +588,7 @@ Kpɔ nɔnɔmea ɖa:
 
 Ele be nàkpɔ gbedasi aɖe abe `Active: active (running)` kple kpeɖodzi be `btcpay.example.com` le Internet dzi.
 
-> Tso fifia dzi la, mɔ̃a adze egɔme le eɖokui si le gbugbɔgadzedze ɖesiaɖe me, eye wò BTCPay Server la anye esi ŋu dutoƒo ate ŋu age ɖo - melidzeƒea ƒe dɔdɔ manɔmee eye wò IP ŋutɔŋutɔ maɖe ɖe go o.
+> Tso fifia dzi la, mɔ̃a adze egɔme le eɖokui si le gbugbɔgadzedze ɖesiaɖe me, eye wò BTCPay Server anye esi ŋu dutoƒo ate ŋu age ɖo - melidzeƒea ƒe dɔdɔ manɔmee eye wò IP ŋutɔŋutɔ maɖe ɖe go o.
 
 ---
 
@@ -604,8 +621,8 @@ Ele be nàte ŋu age ɖe wò server la me azɔ le:
 > **Ele vevie na fiase geɖe ƒe ɖoɖowo:** 
 > Zcash gakotoku si woɖo ɖe afisia nye **global** na kpɔɖeŋua. Fiasewo katã azã gakotoku sia negbe ɖe nèwɔ BTCPay ƒe kpɔɖeŋu vovovowo ko hafi.
 
-Ne ètsɔ wò BTCPay Server ƒe kpɔɖeŋua de dɔwɔwɔ me dzidzedzetɔe vɔ la, ahiã be nàwɔ ɖoɖo vevi aɖewo to admin web interface dzi. 
-Nuŋlɔɖi siwo dziɖuɖua ɖo la naa mɔfiame blibowo le Eŋlisigbe me - le afisia la, míazɔ to afɔɖeɖe veviawo me eye míalé fɔ ɖe Zcash ƒe kpeɖeŋutɔ ƒe ɖoɖowɔwɔ ŋu koŋ.
+Ne ètsɔ wò BTCPay Server kpɔɖeŋua de dɔwɔwɔ me dzidzedzetɔe vɔ la, ahiã be nàwɔ ɖoɖo vevi aɖewo to admin web interface dzi. 
+Nuŋlɔɖi siwo dziɖuɖua ɖo la naa mɔfiame blibowo le Eŋlisigbe me - le afisia la, míazɔ to afɔɖeɖe veviawo me eye míalé fɔ ɖe Zcash kpeɖeŋutɔ ƒe ɖoɖowɔwɔ ŋu koŋ.
 
 ---
 
@@ -676,7 +693,7 @@ Ne wonya kpe agbleawo katã ɖo ko la, zi **Dzra Ðo** dzi.
 
 ### Do Wò ZEC Fexexe ƒe Sisi Kpɔ
 
-Míele kafuwòm - wò Zcash gakotokua do ƒome kple BTCPay Server fifia.
+Míele kafuwòm - wò Zcash gakotokua do ƒome kple BTCPay Server.
 
 Mina míaƒu du dodokpɔ aɖe:
 
@@ -684,18 +701,18 @@ Mina míaƒu du dodokpɔ aɖe:
 
 `Invoices -> Create New`
 
-2. Wɔ dodokpɔ ƒe adzɔxegbalẽvi na ga sue aɖe le ZEC me.
+2. Wɔ dodokpɔ ƒe adzɔxegbalẽvi na ga sue aɖe le ZEC.
 3. Ðo ga ɖa tso **gakotoku bubu** (menye esi do ƒome kple BTCPay o).
 4. Ne wonya de dzesi asitsatsa la ko la, adzɔxegbalẽvi ƒe axaa aɖe azãɖuɖu si wokpɔna afia.
-5. Kpɔe ɖa be adzɔxegbalẽvi ƒe nɔnɔme trɔ zu **Woxee**.
+5. Kpɔe ɖa be adzɔxegbalẽvi ƒe nɔnɔme trɔna zua **Woxee**.
 
-Ne nusianu wɔ dɔ - èle klalo be yeatsɔ ZEC ƒe fexexewo ade yeƒe nyatakakadzraɖoƒe to API alo CMS ƒe kpeɖeŋutɔ zazã me.
+Ne nusianu wɔ dɔ - èle klalo be yeatsɔ ZEC fexexewo ade yeƒe nyatakakadzraɖoƒe to API alo CMS ƒe kpeɖeŋutɔ zazã me.
 
 
 
 ## BTCPay Server ƒe Ðekawɔwɔ Kple Wò Nyatakakadzraɖoƒea
 
-Ne wonya tsɔ wò Zcash gakotokua do ka kple BTCPay Server ko la, àte ŋu atsɔ fexexe ƒe ɖoɖoa awɔ ɖeka kple wò nyatakakadzraɖoƒea. 
+Ne wonya tsɔ wò Zcash gakotokua do ka kple BTCPay Server, àte ŋu atsɔ fexexe ƒe ɖoɖoa awɔ ɖeka kple wò nyatakakadzraɖoƒea. 
 Mɔ geɖewo li siwo dzi woato awɔ esia - tso API ƒe mɔɖeɖe tẽ dzi va ɖo plugins siwo sɔ na zazã na CMS ƒe mɔ̃ xɔŋkɔwo dzi.
 
 ---
@@ -722,7 +739,7 @@ Mɔ geɖewo li siwo dzi woato awɔ esia - tso API ƒe mɔɖeɖe tẽ dzi va ɖo 
 Ne èle mɔ̃ si wowɔ ɖe ɖoɖo nu zãm (alo CMS aɖeke mele asiwò kura o) la, API lae nye tiatia nyuitɔ. 
 Enaa nète ŋu trɔna ɖe nɔnɔmewo ŋu bliboe: àte ŋu awɔ adzɔxegbalẽviwo, akpɔ woƒe nɔnɔme, axɔ nyatakakawo, eye nàkpɔ ŋusẽ ɖe zãla ƒe nuteƒekpɔkpɔ dzi bliboe.
 
-> De dzesii: CMS ƒe kpeɖeŋutɔ aɖewo gɔ̃ hã zãa API le ʋuƒoa te, eyata zi geɖe la, API safui wɔwɔ nyea **afɔɖeɖe gbãtɔ si wobia**, metsɔ le wò ƒoƒo ɖekae ƒe mɔnu me o.
+> De dzesii: CMS ƒe kpeɖeŋutɔ aɖewo gɔ̃ hã zãa API le ʋuƒoa te, eyata API safui wɔwɔ nyea **afɔɖeɖe gbãtɔ si hiã** zi geɖe, metsɔ le wò ƒoƒo ɖekae ƒe mɔnu me o.
 
 Afɔɖeɖe si kplɔe ɖo: wɔ API safui na wò fiasea eye nàdze zazã gɔme [Greenfield ƒe API](https://docs.btcpayserver.org/API/Greenfield/v1/) be nàtu wò ɖekawɔwɔ ɖo.
 
@@ -732,8 +749,8 @@ Afɔɖeɖe si kplɔe ɖo: wɔ API safui na wò fiasea eye nàdze zazã gɔme [Gr
 Be nàtsɔ BTCPay Server awɔ ɖeka kple wò nyatakakadzraɖoƒe alo dɔwɔnua la, ahiã be nàwɔ API safui.
 
 1. Ge ɖe BTCPay Server me eye nàʋu **zãla ƒe menu** (dzigbe-ɖusime dzogoe)
-2. Yi **API Safuiwo** gbɔ.
-3. Zi **Wɔ API safui yeye** dzi.
+2. Yi **API Safuiwo** gbɔ
+3. Zi **Wɔ API safui yeye** dzi
 4. Ŋlɔ ŋkɔ na wò safuia
 5. Le **Mɔɖeɖewo** ƒe akpaa dzi la, na:
    - `Can create invoice`
@@ -743,7 +760,7 @@ Be nàtsɔ BTCPay Server awɔ ɖeka kple wò nyatakakadzraɖoƒe alo dɔwɔnua l
 6. Zi **Dzra** dzi. Wò ŋutɔ wò API safui adze - kɔpi eye nàdzrae ɖo dedie.
 
 > Safui sia naa mɔnukpɔkpɔ ame be wòakpɔ wò fiasea ƒe gaxɔgbalẽviwo. 
-> Mèga **mae** le dutoƒo alo ɖee ɖe go le client-side code me o.
+> Mèga **ma** mae le dutoƒo alo ɖee ɖe go le asitsalawo ƒe akpa ƒe kɔpi me o.
 
 ---
 
@@ -782,9 +799,9 @@ Kpɔ nuŋlɔɖi bliboa:
 
 ---
 
-### Nyatakakadzraɖoƒe ƒe Ðoɖowɔwɔ (Ne èdi) .
+### Nyatakakadzraɖoƒe ƒe Ðoɖowɔwɔ (Ne èdi)
 
-Be nàxɔ nyatakakawo le ɣeyiɣi ŋutɔŋutɔ me ne adzɔxegbalẽvi ƒe nɔnɔmewo trɔ (e.g. ne woxɔ fetu aɖe):
+Be nàxɔ nyatakakawo le ɣeyiɣi ŋutɔŋutɔ me ne adzɔxegbalẽvi ƒe nɔnɔmewo trɔ (le kpɔɖeŋu me, ne woxɔ fetu aɖe):
 
 1. Yi wò fiase ƒe ɖoɖowo gbɔ -> **Webhooks**
 2. Tsɔ wò megbenyawo ƒe nuwuƒe si akpɔ egbɔ la ƒe URL kpee `POST` biabia tso BTCPay Server gbɔ
@@ -799,13 +816,13 @@ Woɖe Webhook payloads kple retry logic me le [webhook ŋuti nuŋlɔɖi siwo dzi
 ### CMS ƒe Ðekawɔwɔ
 
 BTCPay Server doa alɔ plugins na nyatakakawo dzikpɔkpɔ ƒe ɖoɖo xɔŋkɔwo (CMS). 
-Ðekawɔwɔ si tsi wu eye wozãnɛ le afisiafi enye **WordPress + WooCommerce**, si wɔe be wònɔa bɔbɔe be woaxɔ ZEC ƒe fexexe **maŋlɔ kɔpi o**.
+Ðekawɔwɔ si tsi wu eye wozãnɛ le afisiafi enye **WordPress + WooCommerce**, si wɔe be wònɔa bɔbɔe be woaxɔ ZEC fexexe **maŋlɔ kɔpi o**.
 
 ---
 
-#### WooCommerce (Nyawo ƒe Nyadzɔdzɔdɔwɔƒe) .
+#### WooCommerce (Nyawo ƒe Nyadzɔdzɔdɔwɔƒe)
 
-BTCPay Server doa alɔ WooCommerce ƒe kpeɖeŋutɔ aɖe le se nu.
+BTCPay Server doa alɔ WooCommerce.
 
 Afɔɖeɖe siwo woawɔ atsɔ awɔ ɖeka:
 
@@ -814,7 +831,7 @@ Afɔɖeɖe siwo woawɔ atsɔ awɔ ɖeka:
 
 `WooCommerce -> Settings -> Payments`
 
-3. Di **BTCPay** le xexlẽdzesiawo me eye nàzi **Set up** dzi.
+3. Di **BTCPay** le xexlẽdzesiawo me eye nàzi **Set up** dzi
 4. Ŋlɔ wò BTCPay Server URL eye nàwɔ ɖe mɔɖeɖe ƒe mɔfiamewo dzi 
    (wokafui be woawɔ API safui ƒe dzidzime le wo ɖokui si)
 5. Na fexexemɔnua nawɔ dɔ eye nàdzra wò ɖoɖowo ɖo
@@ -827,7 +844,7 @@ Afɔɖeɖe siwo woawɔ atsɔ awɔ ɖeka:
 
 ### Fexexe ƒe Abɔta alo Iframe (CMS alo API Mehiã o)
 
-Ne mèzãa CMS o eye mèdi be yeawɔ dɔ kple APIwo o la, mɔ bɔbɔetɔ si dzi nàto axɔ ZEC ƒe fexexe enye be **de fexexe ƒe kadodo alo widget** ɖe wò nyatakakadzraɖoƒea tẽ.
+Ne mèzãa CMS o eye mèdi be yeawɔ dɔ kple APIwo o la, mɔ bɔbɔetɔ si dzi nàto axɔ ZEC fexexe enye be **de fexexe ƒe kadodo alo widget** ɖe wò nyatakakadzraɖoƒea tẽ.
 
 Mɔnu sia sɔ nyuie na:
 
@@ -838,10 +855,10 @@ Mɔnu sia sɔ nyuie na:
 
 ---
 
-#### Tiatia 1: Fexexe ƒe Abɔta (Kadodo) .
+#### Tiatia 1: Fexexe ƒe Abɔta (Kadodo)
 
-1. Le BTCPay Server me la, wɔ adzɔxegbalẽvi kple asi le **Adzɔxegbalẽviwo** ƒe akpaa dzi
-2. Kpɔ fexexe ƒe kadodoa ƒe kɔpi, e.g.:
+1. Le BTCPay Server, wɔ adzɔxegbalẽvi kple asi le **Adzɔxegbalẽviwo** ƒe akpaa dzi
+2. Kpɔ fexexe ƒe kadodoa ƒe kɔpi, le kpɔɖeŋu me:
 
 `[https://btcpay.example.com/i/abc123](https://btcpay.example.com/i/abc123)`
 
@@ -855,7 +872,7 @@ Mɔnu sia sɔ nyuie na:
 
 ---
 
-#### Tiatia 2: Adzɔxegbalẽvi si Wotsɔ De Eme (Iframe) .
+#### Tiatia 2: Adzɔxegbalẽvi si Wotsɔ De Eme (Iframe)
 
 Ne èdi be yeaɖe gaxɔgbalẽvia afia le wò nyatakakadzraɖoƒea tẽ la, zã iframe:
 
@@ -865,9 +882,9 @@ Ne èdi be yeaɖe gaxɔgbalẽvia afia le wò nyatakakadzraɖoƒea tẽ la, zã 
 
 ## Nyanuwuwuw
 
-Mɔfiame sia didi - gake gɔmeɖoanyi ƒe akpa siwo le Zcash fexexe ƒe ƒoƒo ɖekae kple BTCPay Server koe wòƒo nu tsoe.
+Mɔfiame sia didi - gake gɔmeɖoanyi ƒe akpa siwo le Zcash fexexe ƒe ƒoƒo ɖekae kple BTCPay Server.
 
-BTCPay Server ƒe ŋgɔdonya naa dɔwɔwɔ geɖe wu esiwo míeɖe fia le afisia. Dzɔgbenyuietɔe la, UI la le gbegbɔgblɔ geɖe me (Russiagbe hã le eme), si wɔe be wòle bɔbɔe be woaku nu me ahadoe kpɔ ayi ŋgɔe.
+BTCPay Server ŋgɔdonya naa dɔwɔwɔ geɖe wu esiwo míeɖe fia le afisia. Dzɔgbenyuietɔe la, UI la le gbegbɔgblɔ geɖe me (Russiagbe hã le eme), si wɔe be wòle bɔbɔe be woaku nu me ahadoe kpɔ ayi ŋgɔe.
 
 BTCPay nye dɔwɔnu si te ŋu trɔna bɔbɔe ŋutɔ. Ate ŋu:
 
@@ -877,21 +894,21 @@ BTCPay nye dɔwɔnu si te ŋu trɔna bɔbɔe ŋutɔ. Ate ŋu:
 * Ðo webhooks, fallback gakotokuwo, kple Tor ƒe mɔɖeɖe gɔ̃ hã
 * Trɔ asi le ɖoɖo deŋgɔwo abe adzɔxexe ƒe sewo, asiɖeɖe le nu ŋu ƒe kɔdawo, gaxɔgbalẽviwo ƒe axawo ƒe tɔtrɔ, fexexemɔnu ƒe mɔxexeɖedɔa nu, kple bubuwo ŋu
 
-Wotu BTCPay abe mɔnu si woate ŋu azã le mɔ gbadza nu ɖe fexexe ƒe dɔwɔƒe siwo le titina teƒe ene. Ne èle didim be yeaxɔ ZEC ƒe fexexe na ame ŋutɔ evɔ domenɔla aɖeke mele ye si o la, ke mɔnu sia sɔ na wò ŋutɔ wò susu.
+Wotu BTCPay abe mɔnu si woate ŋu azã le mɔ gbadza nu ɖe fexexe ƒe dɔwɔƒe siwo le titina teƒe ene. Ne èle didim be yeaxɔ ZEC fexexe na ame ŋutɔ evɔ domenɔla aɖeke mele ye si o la, ke mɔnu sia sɔ na wò ŋutɔ wò susu.
 
 Míele didim be nàkpɔ dzidzedze le BTCPay ƒe lãwo ƒe agbenɔnɔ me dzodzro me eye nàna wò fexexe nazu tɔwò vavã.
 
 ## Nunɔamesiwo
 
-* [BTCPay Server ƒe Nyatakakadzraɖoƒe](https://btcpayserver.org/)
+* [BTCPay Server Nyatakakadzraɖoƒe](https://btcpayserver.org/)
 * [BTCPay ƒe Nyabiasewo](https://docs.btcpayserver.org/FAQ/)
 * [BTCPay Server GitHub Nudzraɖoƒe](https://github.com/btcpayserver/btcpayserver)
-* [BTCPay Dɔwɔƒe ƒe Mainnet Demo](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
-* [Zcash ƒe Dɔwɔnu na BTCPay (GitHub) .](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+* [BTCPay Server Mainnet Demo](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
+* [Zcash Dɔwɔnu na BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Zcash Plugin ƒe Ðoɖowɔwɔ Ŋuti Mɔfiame](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
-* [Trɔ asi le zcash-lightwalletd.custom.yml Kpɔɖeŋu](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker Kpa Faɛl (Zebra) .](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
-* [BTCPay API ƒe Nuŋlɔɖi Veviwo (Greenfield API) .](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
+* [Trɔ asi zcash-lightwalletd.custom.yml Kpɔɖeŋu](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
+* [Lightwalletd Docker Kpa Faɛl (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [BTCPay API ƒe Nuŋlɔɖi Veviwo (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Wɔ Cloudflare Mɔdodo aɖe](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-* [Zcash Gakotoku ƒe Ðoɖowɔɖi (ZecHub) .](https://zechub.wiki/wallets)
-* [Zebra + Kekeli ƒe gakotoku le Raspberry Pi 5 (ZecHub) dzi .](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Zcash Gakotoku ƒe Ðoɖowɔɖi (ZecHub)](https://zechub.wiki/wallets)
+* [Zebra + Kekeli ƒe gakotoku le Raspberry Pi 5 (ZecHub) dzi](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

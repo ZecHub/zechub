@@ -45,8 +45,9 @@ Zcash, X üzerinde aktif bir küresel varlığa sahiptir. Takip edilebilecek ön
 | [@zodl_app](https://x.com/zodl_app) | ZODL cüzdanı (eski adıyla Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash Foundation güncellemeleri |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Zcash Brezilya topluluğu |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash Meksika |
 | [@ZcashTR](https://x.com/ZcashTR) | Zcash Türkiye |
-| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
+| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabistan |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nijerya |
 | [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - İspanyolca Zcash podcasti |
 | [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
@@ -59,6 +60,7 @@ Zcash, X üzerinde aktif bir küresel varlığa sahiptir. Takip edilebilecek ön
 
 - [Zcash en Espanol](https://zcashesp.com) - İspanyolca konuşan topluluk (X askıya alınmasından sonra artık Bluesky’de de)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Brezilya topluluğu
+- [Zcash Mexico](https://x.com/ZcashMx) - Meksika topluluğu
 - [Zcash Turkey](https://x.com/ZcashTR) - Türk topluluğu
 - [Zcash Arabia](https://x.com/ZcashArabia) - Arapça konuşan topluluk
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - Nijerya topluluğu
@@ -75,4 +77,4 @@ Zcash, X üzerinde aktif bir küresel varlığa sahiptir. Takip edilebilecek ön
 - [ZecHub Wiki](https://zechub.wiki)
 - [Zcash Hibeler Merkezi](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcash Global Ambassadors](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - bu wiki'de program genel bakışı (zcashambassadors.com çevrimdışı)
-- [ZEC Ödüller](https://bounties.zechub.wiki/)
+- [ZEC Bounties](https://bounties.zechub.wiki/)

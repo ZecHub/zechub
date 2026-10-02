@@ -2,28 +2,28 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Trɔdzimɔnu Siwo Dzi Wowɔa Dɔ le Le Teƒe Ðekae
+# Nuwo Trɔtrɔ ƒe Nuƒolanɔƒe Siwo Woɖo Ðe Titina
 
-ZecHub meda asi ɖe asitsatsa ƒe dɔwɔna aɖeke dzi o, taflatse wɔ wò ŋutɔ tɔwòwo.
+ZecHub meda asi ɖe asitɔtrɔ ƒe dɔwɔƒe aɖeke koŋ dzi o, taflatse wɔ wò ŋutɔ wò numekuku.
 
-Wo dometɔ ɖesiaɖe: `###` agbalẽvi ɖeka le ete. https://zechub.wiki/using-zcash/centralizedswaps.
-De dzesi, trɔ asi le eŋu alo ɖe mɔxenu aɖe ɖa; wiki la xɔae tso axa sia.
+Ɖe sia ɖe `###` tanya si le ete la nye agbalẽvi ɖeka le https://zechub.wiki/using-zcash/centralizedswaps.
+Tsɔ mɔxenu aɖe kpee, trɔ asi le eŋu, alo ɖee ɖa le afisia; wiki la fɔe tso faɛl sia me.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://letsexchange.io/
-- Ŋutinya: Aʋadzesi si me ga le, eye ame 4,500 kple edzivɔe nɔa eme. Eɖea mɔ na wo be woaƒle nu siwo wotsɔ ɖe adzame la to asitelefon dzi alo Internet dzi ne wole dɔ wɔm kpli wo ko. Wowɔa esia tsɔ ɖea gbeƒãa woƒe gbedeasia kaba.
+- Numeɖeɖe: A crypto exchange hub kple 4,500 + cryptocurrencies, goglo liquidity, cross-kɔsɔkɔsɔ swaps, le- & off-ramp, DEX, kabakaba kple dedienɔnɔ ƒe asitsatsa.
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://app.near-intents.org/
-- Ŋutinya: Trɔ asi kaba kple NEAR ƒe kpekpeɖeŋu. Wɔ ga, dzra, trɔ asi le ame ŋu tsɔ kpe ɖe TRUMP, MELANIA, BERA kpakple meme bubuwo ŋuti
+- Numeɖeɖe: Nuwo ɖɔliɖɔli kabakaba kple NEAR ƒe kpekpeɖeŋu. Wɔ deposits, dzra, swap siwo dometɔ aɖewoe nye TRUMP, MELANIA, BERA kple meme xɔŋkɔwo
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://private.shapeshift.com/
-- Ŋutinya: Wò Gaku. App Ðeka. Mɔnukpɔkpɔ Siwo Nuyi Manɔ O · Dzra Bitcoin, Ethereum kple bubuwo le asiɖoɖoƒe nyuitɔ kekeake siwo li na DEX-dɔdzikpɔlawo kpakple dɔdadaƒewo dzi
+- Numeɖeɖe: Wò Gakotoku. App Ðeka. Mɔnukpɔkpɔ si nuwuwu meli na o · Asitsatsa Bitcoin, Ethereum kple bubuwo kple asixɔxɔ nyuitɔwo kekeake le ŋgɔdonyawo DEXs kple aggregators
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://stealthex.io/
-- Description: StealthEX nye cryptocurrency exchange si me woɖoa asi le ame ŋu enumake hena swap siwo ƒe seɖoƒe meli o eye eƒe dɔwɔwɔa mele ŋkɔŋlɔɖi aɖeke dzi o, eye medzraa asitsalawo ƒe gawo ɖo ɖe edzi o. StealthEx ye nye teƒe nyuitɔ kekeake be woaƒle crypto-currency.
+- Numeɖeɖe: StealthEX nye cryptocurrency exchange enumake na swaps seɖoƒemanɔsitɔ siwo ƒe subɔsubɔdɔa nye femaxee tso ŋkɔ ŋɔŋlɔ me eye medzraa zãla ƒe ga ɖo ɖe mɔ̃a dzi o. StealthEX nye teƒe nyuitɔ si nàƒle cryptocurrency le.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://changelly.com/
-- Description: Changelly nye gaɖɔli si wɔa dɔ kpata eye wonya nyuie le eƒe fe siwo dzi wotua nu ɖo be woagbɔ 0.25% la ta. Ewɔa akpa vevi aɖe hã le crypto exchange me.
+- Numeɖeɖe: Changelly nye enumake-wuwu crypto gaku ɖɔliɖɔli si wonya ŋutikɔkɔetɔe ɖe eƒe dɔwɔƒe-fetu sue siwo ade 0.25% le crypto ɖɔliɖɔli. Ewɔ ɖeka kple gɔmesese si nye crypto exchange si woate ŋu azã le mɔ vovovowo nu wu hã.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://flyp.me/en/#/
-- Numeɖeɖe: Wowɔ Flyp.me accountless exchanger kple FYP Token be woatsɔ akpɔ ame ƒe nuŋɔŋlɔwo ta, ade dzi ƒo na amewo le nuwo me ɖeɖe ɖe wo nɔewo ŋu, akpe asi ɖe amesiwo nye dukɔmenɔlawo la ŋuti eye wòado ƒome si xɔ ɖoɖowɔwɔ dzi se la ɖe ŋgɔ.
+- Numeɖeɖe: Wodzi flyp.me accountless exchanger kple FYP Token be woatsɔ akpɔ ame ŋutɔ ƒe nyawo ta, ado decentralisation ɖe ŋgɔ, ado alɔ grassroot ownership eye woado nuto si xɔe se be nukpɔsusu ɖeka nawɔ ɖeka.
 
 ___
 
@@ -68,7 +68,7 @@ ___
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://exolix.com
-- Ŋutinya: Trɔ asi le 1311+ crypto ŋu enumake, kple fe si sɔ wu eye womeŋlɔe ɖe agbalẽ me o.
+- Numeɖeɖe: Trɔ 1311+ crypto enumake, kple asi nyuitɔ kekeake eye ŋkɔ ŋɔŋlɔ manɔmee
 
 ___
 
@@ -77,7 +77,7 @@ ___
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://trocador.app/
-- Numeɖeɖe: Dzra Cryptocurrency le Ŋutɔŋutɔ. Ewɔwɔ kabakaba. Enyo ŋutɔ. Aʋɔnudɔdrɔ̃ mele eme o. Wozãa ga si woxe ɖe ŋgɔ ƒe kaɖidodowo.
+- Numeɖeɖe: Asitsa Cryptocurrency Le Ŋkɔmaɖemaɖee. Kabakaba. Le dedie. Dɔdzikpɔha aɖeke meli o. Debit Card siwo Woxe Do Ŋgɔ Na li.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://dex.decred.org/
-- Description: Trade crypto peer to peer. No trading fees. No KYC. Decentralized Exchange built by Decred Project. Eʋevi si le dɔ wɔm kple ame bubuwo la ƒe ŋkɔwo nye "Democracy".
+- Numeɖeɖe: Asi crypto hati kple hati. Asitsafe aɖeke meli o. KYC aɖeke meli o. Decentralized Exchange si Decred Project tu.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://github.com/firoorg/FiroDEX-Desktop
-- Ŋutinya: Trustless decentralized swaps using atomic swaps with FiroDEX!. Eʋevi siwo ŋu kakaɖedzi mele o le atɔmik-dziname si wozãna kple FiroDex! la.
+- Numeɖeɖe: Kakaɖedzimanɔmee decentralized swaps zãa atɔm swaps kple FiroDEX!.
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://changenow.io/?from=usdterc20&to=zec
-- Ŋutinya: WEB 3 Crypto Exchange si me seɖoƒe meli na o  Emenyawo le bɔbɔe, wo gbɔ nɔnɔ sesẽ eye ame aɖeke mekpɔa dɔ siwo wowɔna la dzi ɖe edzi o.
+- Numeɖeɖe: Seɖoƒemanɔsitɔ WEB 3 Crypto Exchange – Blewu, Kabakaba, Vidzikpɔkpɔ-maɖemaɖe.
 
 ___
 
@@ -113,7 +113,7 @@ ___
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://ff.io
-- Ŋutinya: Eʋevi si le kpata, eye wòdzena ɖe ame ɖokui dzi bliboe kple Lightning Network.
+- Numeɖeɖe: Enumake, bliboe le eɖokui si cryptocurrency asitɔtrɔ kple Lightning Network.
 
 ___
 
@@ -122,16 +122,16 @@ ___
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://xchange.me/
-- Ŋutinya: Anonymous Cryptocurrency Exchange, si me xɔ asi o, enye nu siwo dzi woate ŋu aka ɖo eye womeŋlɔa wo ɖi gbeɖe o. Etsɔ ɖe le Tor ƒe nukpɔmɔ̃wo hã mee.
+- Numeɖeɖe: Anonymous Cryptocurrency Exchange, si ƒe asi bɔbɔ, kakaɖedzi le eŋu, AlwaysOnTime eye ŋkɔ aɖeke manɔmee. Tor ahuhɔ̃e si wotsɔ ɖe adzɔgbee li.
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Numeɖeɖe: Bitcoin kple Cryptocurrency ƒe asitsatsa le Vietnam. Ƒle, dzra alo trɔ asi le nu 80 siwo dometɔ aɖewoe nye VND, BTC, XMR, USDT, ETH, BCH, SOL ŋu
+- Numeɖeɖe: Enumake Bitcoin & Cryptocurrency Exchange le Vietnam. Ƒle, dzra alo trɔ asi le nunɔamesi 80 dome siwo dometɔ aɖewoe nye VND, BTC, XMR, USDT, ETH, BCH, SOL
 
 ___
 
@@ -140,5 +140,5 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://leodex.io/
-- Description: Crosschain swaps si me account kple KYC mele o. Send BTC, ETH and more from any wallet, exchange or cold storage to a one-time deposit address and receive ZEC  no wallet connection required. Ɖe Bitcoin (BTC) ɖo ɖe ame aɖe le gaƒoƒe alo asitsanuɖoƒe be wòaɖo wo na amea eye woaxɔ ZEC la tso egbɔ - womebia gaƒlegbalẽvi aɖeke hafi axɔ ZEC o.
+- Numeɖeɖe: Crosschain swaps siwo me akɔntabubu aɖeke mele o eye KYC aɖeke mele wo ŋu o. Ðo BTC, ETH kple bubuwo tso gakotoku, asitɔtrɔ alo nudzraɖoƒe ɖesiaɖe me ɖe adrɛs si dzi nàde ga ɖo zi ɖeka eye nàxɔ ZEC — gakotoku ƒe kadodo aɖeke mehiã o.
 

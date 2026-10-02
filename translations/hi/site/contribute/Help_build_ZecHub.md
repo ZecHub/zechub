@@ -23,9 +23,26 @@ Zcash और Privacy ecosystem के लिए पोस्टर/ग्रा�
 
 बग रिपोर्ट करना
 
-#### बाउंटी राशि के विवरण के लिए, कृपया हमारा योगदान पृष्ठ पढ़ें -> [यहाँ](https://zechub.wiki/contribute/contributing-guide#content).
+### पुरस्कार
 
-हम हर सोमवार उन कार्यों के लिए issues पोस्ट करते हैं जिन पर वर्तमान में बाउंटी खुली होती है। आप भी बाउंटी सुझा सकते हैं! मुख्य रूप से ये ZEC Bounties पर मिलती हैं।
+राशियाँ ZEC में निश्चित नहीं हैं। [बाउंटी राशि नीति](https://bounties.zechub.wiki/docs/bounty-amounts) का उपयोग करें: कार्य की श्रेणी के लिए USD अंतराल चुनें, स्पॉट दर पर रूपांतरित करें, बोर्ड पर ZEC दर्ज करें। वही नीति एकमात्र विश्वसनीय स्रोत है।
+
+योगदानकर्ता कार्यप्रवाह और कार्य के प्रकार: [ZecHub में योगदान करना](https://zechub.wiki/contribute/contributing-guide)।
+
+प्लेटफ़ॉर्म का परिचय:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+हम खुले कार्य [ZEC Bounties](https://bounties.zechub.wiki/) पर पोस्ट करते हैं। आप वहाँ बाउंटी का सुझाव भी दे सकते हैं। मर्ज किया गया PR स्वीकृत या भुगतान किए गए पुरस्कार के समान नहीं है।
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

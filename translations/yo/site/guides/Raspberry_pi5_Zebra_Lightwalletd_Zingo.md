@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# RPi5 Zebra Lightwalletd pẹlu Zingo
+# Aṣọ ìbòjú RPi5 Zebra pẹ̀lú Zingo
 
-## Àwọn Fídíò Ẹ̀kọ́
+## Ìdánilẹ́kọ̀ọ́ fídíò
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -18,32 +18,32 @@
 </div>
 
 
-## Àwọn ohun tó wà ní ìkáwọ́
+## Àwọn ìgbẹ́kẹ̀lé
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 ```
 
-## Ṣàkójọ Zebra
+## Kó Zebra kékeré jọ
 
 [Zebra Github](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 
-## Ṣeto zebrad.toml
+## Ṣe atunto zebrad.toml
 
-fi kún un pé:
+fi kun:
 
 `listen_addr = '127.0.0.1:8232'`
 
 `cache_dir = "/media/zebra5/zebra/"`
 
-## Sync Zebra
+## Àmì-ìṣiṣẹ́ Zebra
 
 * `zebrad start`
 
-## Ṣàtúnṣe lightwalletd
+## Ṣe àkójọ lightwalletd
 
 * fi sori ẹrọ lọ
 
@@ -60,12 +60,12 @@ git clone https://github.com/zcash/lightwalletd
 cd lightwalletd
 make
 make install
-export PATH=$PATH:~/go/bin/`
+export PATH=$PATH:~/go/bin
 ```
 
-## Ṣiṣẹpọ lightwalletd
+## Ṣíṣe àpò lightwalletd
 
-* ṣàkíyèsí ìyípadà data-dir
+* ṣe akiyesi iyipada data-dir
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
@@ -78,9 +78,9 @@ export PATH=$PATH:~/go/bin/`
  sudo apt update
  sudo apt install nodejs
 ```
-Bí o bá rí àṣìṣe kankan, [bíi](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) ni awọn ọna miiran lati fi NodeJS sori ẹrọ.
+Ti o ba ni iriri eyikeyi awọn aṣiṣe, [Nibi](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) Àwọn ọ̀nà míràn ni láti fi NodeJS sílẹ̀.
 
-## Ṣíṣe àtúnṣe sí Yarn
+## Fi Owú sori ẹrọ
 
 `corepack enable`
 
@@ -96,12 +96,12 @@ sudo apt-get install ruby-dev build-essential && sudo gem i fpm -f
 yarn dist:linux
 ```
 
-## Bẹrẹ Zingo-PC
+## Bẹ̀rẹ̀ Zingo-PC
 
-* O le lo appimage, tàbí ìkejì nínú àpamọ́ tí a kò fi sí ní ìdìpò
-* Ẹ gbádùn ara yín!
+* Ó lè lo appimage, tàbí binary nínú fódà tí a kò kó àwọn ohun èlò tí a kò kó jọ
+* Gbadun! :)
 
-# Àwọn orísun
+# Àwọn Orísun
 
 ```markdown
 https://github.com/ZcashFoundation/zebra

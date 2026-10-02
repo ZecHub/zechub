@@ -11,6 +11,15 @@ Zcash Arborist Calls は、ネットワークアップグレードの計画、�
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    通話アーカイブを検索
+  </a>
+</p>
+
 ## 参加方法
 
 この通話は、異なる地域のコントリビューターが参加できるように、2つの定期的な時間帯を交互に開催しています。最新のカレンダーファイルと Zoom リンクについては、公式の Zcash Foundation ページを利用してください。
@@ -22,10 +31,11 @@ Zcash Arborist Calls は、ネットワークアップグレードの計画、�
 
 ## ノート、議題、録画
 
-- 完全な議題と議事録: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- 最近の録画: [Zcash Arborist Call プレイリスト](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash の研究開発に関する議論: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
-- 長文での議論: [Zcash Community Forum](https://forum.zcashcommunity.com/)
+- 完全な議題と議事録：[arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- このwikiで検索可能なアーカイブ：[Arborist Calls アーカイブ](/arborist-calls)
+- 最近の録画：[Zcash Arborist Call プレイリスト](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Zcash R&Dに関する議論：[Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- 長文での議論：[Zcash コミュニティフォーラム](https://forum.zcashcommunity.com/)
 
 ## どのような人に適しているか
 

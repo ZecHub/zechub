@@ -116,3 +116,5 @@ Viewing key'leri gerektiği kadar kullanın ve sorulan soruyu yanıtlayan en dar
 - [ECC, Viewing Keys'i Açıklamak](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Seçici Açıklama ve Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Sunumu](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Ayrıca bkz.: [Unified Addresses](./Unified_Addresses.md)

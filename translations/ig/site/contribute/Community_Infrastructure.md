@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ihe owuwu ihe eji eme obodo nke ZecHub Community Infrastructure Framework
+# Usoro Akụrụngwa Obodo ZecHub
 
 
-### Ihe owuwu nke Community 
+### Akụrụngwa Obodo 
 
-Ihe omume ZecHub na-enye ndị mmepe ohere n'efu & usoro dị mfe karịa ọrụ ọ bụla: [Ihe ndị ZEC na-akwụ ụgwọ ha.](https://bounties.zechub.wiki/). 
+Mmemme ego ZecHub bụ ụzọ a na-akwụ ụgwọ maka ọrụ a: [ZEC Bounties](https://bounties.zechub.wiki/)Otu esi ahọrọ nọmba ZEC: [amụma ego onyinye](https://bounties.zechub.wiki/docs/bounty-amounts)Usoro ọrụ onye na-enye onyinye: [Inye aka na ZecHub](https://zechub.wiki/contribute/contributing-guide). 
 
 
-## Ihe Nduzi Ndị Bara Uru 
+## Nduzi Bara Uru 
 
-- [Ntuziaka Onye Mmepụta ZecHub](https://zechub.wiki/developers)
+- [Nduzi Onye Mmepụta ZecHub](https://zechub.wiki/developers)
 
-- [Zcash Gụọ akwụkwọ ndị ahụ.](https://zcash.readthedocs.io/en/latest/)
+- [Zcash Readthedocs](https://zcash.readthedocs.io/en/latest/)
 
-- [Akwụkwọ Zebra ahụ](https://zebra.zfnd.org)
+- [Akwụkwọ Zebra](https://zebra.zfnd.org)
 
-- [Akash Network Docs (Nke dị na peeji nke 2)](https://akash.network/docs/)
+- [Akwụkwọ Akash Network](https://akash.network/docs/)
 
 - [Ịtọlite Zebrad na Akash Network](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [A kọwara arịrịọ ịkwụ ụgwọ Zcash (vidiyo)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Nkọwa Arịrịọ Ịkwụ Ụgwọ Zcash (vidiyo)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
 - [Nkọwapụta ZIP-321](https://zips.z.cash/zip-0321)
 
-Ọ bụrụ na ịchọrọ ndụmọdụ miri emi site n'aka ndị mmepe Zcash ị nwere ike ịme ọkwa na saịtị ahụ. [Nzukọ Ndị Isi Obodo](https://forum.zcashcommunity.com).
+Ọ bụrụ na ịchọrọ ndụmọdụ miri emi site n'aka ndị mmepe Zcash ị nwere ike ide post na [Ọgbakọ Obodo](https://forum.zcashcommunity.com).
 

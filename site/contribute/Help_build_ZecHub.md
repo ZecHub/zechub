@@ -23,9 +23,26 @@ Translate any of the existing wiki pages.
 
 Reporting bugs
 
-#### For details on bounty amounts, please read our contributing page -> [here](https://zechub.wiki/contribute/contributing-guide#content).
+### Rewards
 
-We post issues for tasks that we currently have bounties open every Monday. You can suggest bounties too! Primarily these are found at ZEC Bounties.
+Amounts are not fixed in ZEC. Use the [bounty amounts policy](https://bounties.zechub.wiki/docs/bounty-amounts): pick a USD interval for the class of work, convert at spot, enter ZEC on the board. That policy is the source of truth.
+
+Contributor workflow and types of work: [Contributing to ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Platform walkthrough:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+We post open tasks on [ZEC Bounties](https://bounties.zechub.wiki/). You can suggest bounties there too. A merged PR is not the same as an approved or paid reward.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

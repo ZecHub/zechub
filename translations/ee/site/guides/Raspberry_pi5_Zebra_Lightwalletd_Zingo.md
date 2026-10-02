@@ -39,7 +39,7 @@ kpee ɖe eŋu:
 
 `cache_dir = "/media/zebra5/zebra/"`
 
-## Sync Zebra ƒe ɖekawɔwɔ
+## Sync Zebra ɖekawɔwɔ
 
 * `zebrad start`
 
@@ -60,10 +60,10 @@ git clone https://github.com/zcash/lightwalletd
 cd lightwalletd
 make
 make install
-export PATH=$PATH:~/go/bin/`
+export PATH=$PATH:~/go/bin
 ```
 
-## Sync lightwalletd ƒe ɖekawɔwɔ
+## Sync lightwalletd ɖekawɔwɔ
 
 * de dzesi data-dir ƒe tɔtrɔ
 
@@ -78,7 +78,7 @@ export PATH=$PATH:~/go/bin/`
  sudo apt update
  sudo apt install nodejs
 ```
-Ne èdo go vodada aɖewo la, [le afisia](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) nye mɔ bubu aɖewo siwo dzi nàto aɖo NodeJS ɖe wò kɔmpiuta dzi.
+Ne èdo go vodada aɖewo la, [afi sia](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) nye mɔ bubu aɖewo siwo dzi nàto aɖo NodeJS ɖe wò kɔmpiuta dzi.
 
 ## De Yarn eme
 

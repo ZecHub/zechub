@@ -58,7 +58,7 @@
 
 - [RunwayML GEN-2](https://runwayml.com/)（免费试用，订阅 $15/月起）
 - [Pika labs Discord Bot](https://www.pika.art/)（目前免费？）
-- [elai](https://elai.io/)（订阅 $23/月起）
+- [Elai](https://elai.io/)（订阅 $23/月起）
 
 ### 视频/音频翻译工具：
 

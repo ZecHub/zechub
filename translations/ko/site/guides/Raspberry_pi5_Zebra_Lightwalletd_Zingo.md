@@ -59,7 +59,7 @@ git clone https://github.com/zcash/lightwalletd
 cd lightwalletd
 make
 make install
-export PATH=$PATH:~/go/bin/`
+export PATH=$PATH:~/go/bin
 ```
 
 ## lightwalletd 동기화

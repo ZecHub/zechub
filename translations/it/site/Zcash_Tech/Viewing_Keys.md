@@ -94,7 +94,7 @@ Il secondo argomento è la politica di riesecuzione della scansione: `"whenkeyis
 
 **Zallet importa solo Sapling extended full viewing key.** Non importerà una unified full viewing key `uview…`, anche se può esportarne una. Per concedere accesso in lettura a un intero account unificato, esporta la UFVK da Zallet e importala in un wallet che accetta chiavi unificate, come Zkool.
 
-Per trasformare una chiave importata in un file completo della cronologia delle transazioni, con txid, commissioni e memo, vedi [Esportare la cronologia delle transazioni da una viewing key](/guides/viewing-key-transaction-export).
+Per trasformare una chiave importata in un file completo della cronologia delle transazioni, con txid, commissioni e memo, vedi [Esportare la cronologia delle transazioni da una Viewing Key](/guides/viewing-key-transaction-export).
 
 ## Cosa è cambiato e cosa smettere di cercare
 
@@ -109,10 +109,12 @@ Se hai seguito una versione precedente di questa pagina, o una sua traduzione, t
 Usa le viewing key quando necessario e preferisci la chiave più limitata che risponda alla domanda posta.
 
 - [Divulgazioni relative ai pagamenti](/zcash-tech/payment-disclosures) - dimostrare dettagli selezionati di un pagamento senza concedere accesso continuativo a un account
-- [ZIP 326: conseguenze di NU6.3 per i wallet](https://zips.z.cash/zip-0326) — come si comportano le viewing key tra i pool Orchard e Ironwood
-- [ZIP 229: formato delle transazioni versione 6](https://zips.z.cash/zip-0229) — definisce i pool Orchard e Ironwood
+- [ZIP 326: NU6.3 Conseguenze per i wallet](https://zips.z.cash/zip-0326) — come si comportano le Viewing Key tra i pool Orchard e Ironwood
+- [ZIP 229: Formato delle transazioni versione 6](https://zips.z.cash/zip-0229) — definisce i pool Orchard e Ironwood
 - [Registro delle modifiche di Zallet](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — quale release ha aggiunto quale metodo RPC
 - [README di Zkool](https://github.com/hhanh00/zkool2/blob/main/README.md) — tipi di account e chiavi supportati
-- [ECC, spiegazione delle Viewing Key](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, divulgazione selettiva e Viewing Key](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, presentazione video sulle Viewing Key di ZcashViewing Key](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+- [ECC, Spiegazione delle Viewing Key](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC, Divulgazione selettiva e Viewing Key](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ECC, Zcash Viewing Key Presentazione video](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Vedi anche: [Indirizzi unificati](./Unified_Addresses.md)

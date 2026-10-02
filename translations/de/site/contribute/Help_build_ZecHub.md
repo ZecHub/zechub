@@ -23,9 +23,26 @@ Erstelle Designs wie Poster/Grafiken/Animationen für das Zcash- & Privacy-Ökos
 
 Bugs melden
 
-#### Für Details zu den Höhe der Bounties lies bitte unsere Beitragsseite -> [hier](https://zechub.wiki/contribute/contributing-guide#content).
+### Belohnungen
 
-Jeden Montag veröffentlichen wir Issues für Aufgaben, für die derzeit Bounties offen sind. Du kannst auch selbst Bounties vorschlagen! In erster Linie findest du diese bei ZEC Bounties.
+Beträge sind in ZEC nicht festgelegt. Nutze die [Richtlinie zu den Bounty-Beträgen](https://bounties.zechub.wiki/docs/bounty-amounts): Wähle ein USD-Intervall für die Arbeitskategorie, rechne zum aktuellen Kassakurs um und trage ZEC auf dem Board ein. Diese Richtlinie ist maßgeblich.
+
+Arbeitsablauf für Beitragende und Arten der Mitarbeit: [Mitarbeit bei ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Plattform-Anleitung:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Wir veröffentlichen offene Aufgaben auf [ZEC Bounties](https://bounties.zechub.wiki/). Dort kannst du auch Bounties vorschlagen. Ein zusammengeführter PR ist nicht gleichbedeutend mit einer genehmigten oder ausgezahlten Belohnung.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

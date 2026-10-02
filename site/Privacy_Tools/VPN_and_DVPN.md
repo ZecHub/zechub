@@ -71,6 +71,8 @@ Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favor
 
    __Strong Privacy__: Nym VPN is designed with privacy in mind, and it does not require users to provide personal information during account creation.
 
+   For Zcash wallet-specific routing, see [Route Zcash Wallet Traffic Over the Nym Mixnet](./Nym_Mixnet_Wallet_Setup.md).
+
 ## Other VPN's supporting zcash payment:-
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)

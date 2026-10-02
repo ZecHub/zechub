@@ -18,9 +18,9 @@ Aggiungi, modifica o rimuovi qui un blocco; il wiki lo rileva da questo file.
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Sito web: https://app.near-intents.org/
 - Descrizione: Exchange veloce con il supporto di NEAR. Effettua depositi, vendi e scambia, inclusi i popolari TRUMP, MELANIA, BERA e altri meme
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Sito web: https://flyp.me/en/#/
-- Descrizione: L'exchange Flyp.me senza account e il token FYP sono nati per proteggere la privacy, promuovere la decentralizzazione, sostenere la proprietà dal basso e favorire una comunità che crede nel consenso.
+- Descrizione: L'exchange flyp.me senza account e il token FYP sono nati per proteggere la privacy, promuovere la decentralizzazione, sostenere la proprietà dal basso e favorire una comunità che crede nel consenso.
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Sito web: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - Descrizione: Exchange istantaneo di Bitcoin e criptovalute in Vietnam. Acquista, vendi o scambia tra 80 asset, inclusi VND, BTC, XMR, USDT, ETH, BCH, SOL

@@ -476,11 +476,28 @@ Ayrıca bir VPS kiralama maliyetinden **kaçınmanıza** yardımcı olur; bu da 
 ### Adım 1: Cloudflare Tunnel Kurulumu
 
 1. [cloudflare.com](https://www.cloudflare.com) üzerinden bir hesap oluşturun ve alan adınızı ekleyin.
-2. **Ev sunucunuzda** Cloudflare Tunnel’ı kurun:
+2. **Ev sunucunuzda**, Cloudflare'ın resmî paket deposunu kullanarak Cloudflare Tunnel’ı kurun:
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+`apt install cloudflared` başarısız olursa, bunun yerine eşleşen `.deb` sürümünü yükleyin:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Cloudflare ile kimlik doğrulaması yapın:

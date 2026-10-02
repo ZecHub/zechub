@@ -13,6 +13,8 @@
 - ZcashはZIPやプロジェクトタチヨンなどの研究およびアップグレード案を通じて準備しています。
 - 安全なポスト量子への移行には、資金、プライバシー、ウォレット、取引所、コンセンサスルールを同時に保護する必要があります。
 
+Ironwoodで変更された内容と各要素の日時付きステータスについては、[Zcashはポスト量子対応ですか？](/zcash-tech/is-zcash-post-quantum)を参照してください。
+
 ## 量子コンピュータとは？
 
 通常のコンピュータは情報をビットとして保存します。各ビットは`0`か`1`です。
@@ -246,12 +248,13 @@ Zcashは現在完全にポスト量子ではありませんが、いくつかの
 
 ## 関連ページ
 
-- [シールドプール](/using-zcash/shielded-pools) - Zcashシールド付き取引による取引詳細の保護方法
-- [Halo](/zcash-tech/halo) - 信頼設定不要なZcash証明システム
-- [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Zcashにおけるゼロ知識証明の仕組み
-- [視認鍵](/zcash-tech/viewing-keys) - シールド付きZcashにおける選択的開示の方法
-- [Zcashシールド資産](/zcash-tech/zcash-shielded-assets) - 未来のシールド資産とプライベート資産サポート
-- [プライバシーはコア原則](/privacy/privacy-as-a-core-principle) - 財務プライバシーがなぜ重要か
+- [Zcashは耐量子計算機対応か？](/zcash-tech/is-zcash-post-quantum) - Ironwoodで変更された点、依然として露出している点、および日付付きのステータス表
+- [シールドプール](/using-zcash/shielded-pools) - Zcashのシールド取引が取引の詳細を保護する仕組み
+- [Halo](/zcash-tech/halo) - 信頼できるセットアップを必要としないZcashの証明システム
+- [ZKPとZK-SNARKS](/zcash-tech/zk-snarks) - Zcashにおけるゼロ知識証明の仕組み
+- [閲覧キー](/zcash-tech/viewing-keys) - シールドされたZcashにおける選択的開示の仕組み
+- [Zcashのシールド資産](/zcash-tech/zcash-shielded-assets) - 将来のシールド資産とプライベート資産のサポート
+- [中核原則としてのプライバシー](/privacy/privacy-as-a-core-principle) - 金融プライバシーが重要である理由
 
 ## 参考文献
 

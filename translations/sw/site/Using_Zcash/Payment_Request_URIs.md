@@ -2,27 +2,74 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Malipo ya Ombi URI
+# URI za Ombi la Malipo Zcash
 
-## Maelezo ya jumla ya Dynamic QR Codes
+URI ya ombi la malipo ni `zcash:` kiungo kilichofafanuliwa na [ZIP 321](https://zips.z.cash/zip-0321)Pochi zinazolingana husoma anwani, kiasi, na memo ya hiari kutoka kwa kiungo au QR na kujaza muamala mapema. Hakuna akaunti za ziada, hakuna kichakataji katikati.
 
-URI stands for Universal Resource Identifier. They are QR codes that act to prefill information about a transaction within a Zcash wallet. Wallets that recognize this format can construct transactions by either clicking links on web pages or scanning QR codes. Say you have an online coffee shop, your customers can make purchases by scanning these QR codes with their Zcash wallet with a prefilled price and order number.
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    Fungua wijeti ya malipo
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    Tengeneza ombi la malipo
+  </a>
+</div>
 
-## Matumizi Matukio ya Maombi ya Malipo 
+Onyesho la wijeti ni mfumo wa moja kwa moja wa ZIP-321: QR, anwani ya kunakili/URI, kiungo kifupi, na Fungua kwenye Pochi. Ukurasa wa zana ndio jenereta ikiwa unataka kuweka anwani yako mwenyewe na kiasi kwanza.
 
+## Anatomia
 
-- Online Shopping. Checkout malipo maombi ni kuanzishwa na wateja wakati wa ununuzi online.
-- Hoteli na malazi Bookings. mbalimbali booking majukwaa leverage malipo ombi URL kwa ajili ya hoteli reservations.
-- Online Bill Payments. makampuni ya huduma ya kutumia malipo ya ombi URLs kuwezesha wateja wa kufuta bili zao seamlessly. 
-- Ununuzi wa tiketi ya Tukio. Waandaaji wa hafla za mipaka hutumia utaratibu huu ili kufanya ununuji wa tikiti iwe rahisi.
-- Malipo ya P2P. Watu wanaweza kutuma maombi ya malipo kwa urahisi kwa familia na marafiki kupitia programu za ujumbe, na viungo vya malipo vilivyowekwa kwenye ujumbe.
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| Uwanja | Inahitajika | Vidokezo |
+| --- | --- | --- |
+| address | ndiyo | Pendelea Unified Address (`u1` / `utest1`) |
+| amount | no | ZEC ya desimali |
+| memo | no | Uhamisho uliolindwa pekee |
+| label | no | Jina linaloweza kusomwa na binadamu linaloonyeshwa na baadhi ya pochi |
 
-## Maelezo
+Sheria kamili: [ZIP 321](https://zips.z.cash/zip-0321).
 
-[ZIP 321](https://zips.z.cash/zip-0321) inafafanua jinsi ya kujenga yako mwenyewe desturi malipo URI. 
+## Kesi za matumizi
 
-Jinsi ya kufanya Maombi ya Malipo na Zcash: 
+- **Malipo** — bei ya kujaza mapema na memo ya oda ili mteja athibitishe tu kwenye pochi yake
+- **Ankara** — shiriki kiungo kimoja au QR
+- **Michango** — pachika wijeti kwenye tovuti
+- **P2P** — tuma `zcash:` kiungo kwenye gumzo
+
+## Imewekwa kwenye tovuti
+
+Elekeza hati hii kwenye anwani yako iliyolindwa. Nakala iliyoandaliwa ipo kwenye ZecHub:
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+Inahitajika: `data-address`, `data-amount`, `data-target`.
+
+Jaribu kitufe cha mwenyeji kwanza: [Fungua wijeti ya malipo](/zcash-payment-uri).
+
+## Video
+
+Jinsi ya Kutuma Maombi ya Malipo kwa kutumia Zcash:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -35,10 +82,7 @@ Jinsi ya kufanya Maombi ya Malipo na Zcash:
   />
 </div>
 
-    
-### Mfano wa Nambari
-
-Kuongeza Zcash Donation Widget kwenye tovuti yako: 
+Kuongeza Wijeti ya Mchango wa Zcash kwenye Tovuti yako:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

@@ -56,9 +56,9 @@ X, Google, Discord, Telegram के साथ लॉगिन
 
 ### उपकरण (आमतौर पर मुफ़्त परीक्षण):
 
-- [RunwayML GEN-2](https://runwayml.com/) (मुफ़्त परीक्षण, $15/महीना सब्सक्रिप्शन)
+- [RunwayML GEN-2](https://runwayml.com/) (मुफ़्त परीक्षण, $15/महीना से सब्सक्रिप्शन)
 - [Pika labs Discord Bot](https://www.pika.art/) (अभी मुफ़्त?)
-- [elai](https://elai.io/) ($23/महीना से सब्सक्रिप्शन)
+- [Elai](https://elai.io/) ($23/महीना से सब्सक्रिप्शन)
 
 ### वीडियो / ऑडियो अनुवाद उपकरण:
 

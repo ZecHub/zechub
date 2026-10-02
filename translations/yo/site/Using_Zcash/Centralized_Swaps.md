@@ -2,28 +2,28 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àwọn Àpérò Ètò Ìpàdánù tí a pín sí orí-ọ̀nà.
+# Àwọn Pẹpẹ Ìyípadà Àárín Gbùngbùn
 
-ZecHub kò fọwọ́ sí iṣẹ ìfọwọ̀sí pàtó kankan, jọ̀wọ́ ṣe àyèwò tìrẹ.
+ZecHub kò fọwọ́ sí iṣẹ́ pàṣípààrọ̀ pàtó kan, jọ̀wọ́ ṣe ìwádìí tìrẹ.
 
-Kálukú wọn. `###` orí kan wà nísàlẹ̀ yìí tó ń sọ nípa àwọn ohun tí a lè ṣe. https://zechub.wiki/using-zcash/centralizedswaps.
-Fi àfikún, ṣàtúnyẹ̀wò tàbí yọ ìdì kan sílẹ̀ níbí; wiki yóò mú un láti inú fáìlì yìí.
+Olúkúlùkù `###` Àkọlé ìsàlẹ̀ yìí jẹ́ káàdì kan lórí https://zechub.wiki/using-zcash/centralizedswaps.
+Fi kún, ṣàtúnṣe, tàbí yọ ìdènà kan kúrò níbí; wiki náà gbé e láti inú fáìlì yìí.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
-- Ojú-ìwé: https://letsexchange.io/
-- Àpèjúwe: Aarin paṣipaarọ crypto pẹlu awọn owo-iworo 4,500+, oloomi ti o jinlẹ, awọn iyipada agbelebu ẹwọn, lori & pipa ramu, DEX, awọn iṣowo iyara ati ailewu.
+- Oju opo wẹẹbu: https://letsexchange.io/
+- Àpèjúwe: Ibùdó ìpàṣípààrọ̀ owó crypto pẹ̀lú àwọn owó crypto tó ju 4,500 lọ, owó tó jinlẹ̀, àwọn ìyípadà onípele-ẹ̀yà, lórí àti síta, DEX, àwọn ìṣòwò tó yára àti tó ní ààbò.
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
-- Ojú-ìwé: https://app.near-intents.org/
-- Àlàyé: Ìpàdé ìyípadà pẹ̀lú ìrànlọ́wọ́ NEAR. Ṣẹda owó, ta, pààrọ̀ títí kan àwọn gbajúmọ TRUMP, MELANIA, BERA àti àwọn àdàkọ mìíràn
+- Oju opo wẹẹbu: https://app.near-intents.org/
+- Àpèjúwe: Pààrọ̀ kíákíá pẹ̀lú ìrànlọ́wọ́ NEAR. Ṣe ìfowópamọ́, tà, pààrọ̀ pẹ̀lú TRUMP, MELANIA, BERA àti àwọn àwòrán míràn tó gbajúmọ̀
 
 ___
 
@@ -31,8 +31,8 @@ ___
 
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
-- Ojú-ìwé: https://private.shapeshift.com/
-- Àpèjúwe: Wọ́léètì rẹ. Ètò kan. Àwọn àyè tí kò lópin · Ṣòwò Bitcoin, Ethereum àti púpọ̀lọpọ̀ pẹlú àwọn iye owó tó dára jù lọ ní gbogbo ibi ìsàmúlò DEX ati àwọn agbójọpín-àdàgbà
+- Oju opo wẹẹbu: https://private.shapeshift.com/
+- Àpèjúwe: Àpò owó rẹ. Ohun èlò kan. Àǹfààní Àìlópin · Ṣòwò Bitcoin, Ethereum àti àwọn mìíràn pẹ̀lú àwọn owó tó dára jùlọ láàrín àwọn DEX àti àwọn olùkójọpọ̀ tó ga jùlọ
 
 ___
 
@@ -40,8 +40,8 @@ ___
 
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
-- Ojú-ìwé: https://stealthex.io/
-- Àpèjúwe: StealthEX jẹ́ ìyípadà cryptocurrency ojú-akoko fún àwọn àdàkọ tí kò ní ìdámẹ̀rì, iṣẹ rẹ̀ ni ó lómìnira láti forúkọsílẹ̀ àti pé kì í fi owó oníṣe pamọ sí orí pẹpẹ.
+- Oju opo wẹẹbu: https://stealthex.io/
+- Àpèjúwe: StealthEX jẹ́ pàṣípààrọ̀ owó ìtanràn lẹ́sẹ̀kẹsẹ̀ fún àwọn pàṣípààrọ̀ owó tí iṣẹ́ wọn kò ní àkọsílẹ̀, tí kò sì ní tọ́jú owó àwọn olùlò sí orí ìtàkùn náà. StealthEX ni ibi tí ó dára jùlọ láti ra owó ìtanràn ...
 
 ___
 
@@ -49,8 +49,8 @@ ___
 
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
-- Ojú-ìwé: https://changelly.com/
-- Àlàyé: Changelly jẹ́ ilé-ìtàkùn owó ẹyọ tí wọ́n ń ṣe ní ìṣẹ̀lẹ̀ ojúmọ́, èyí tó gbajúgbajà fún àwọn iṣẹ́ rẹ̀ ti ó kéré jùlọ nínú ọ̀ràn náà títí dé 0.25% lórí àwọn ilé-iṣẹ́ ìdánwò. Ó tún kún àlàfo bí ẹni pé òun ni ibi pàṣípààrọ̀ oníṣiròpọ̀jùlọ.
+- Oju opo wẹẹbu: https://changelly.com/
+- Àpèjúwe: Changelly jẹ́ pàṣípààrọ̀ owó crypto tí a mọ̀ dáadáa fún owó tí ó kéré sí i ní ilé-iṣẹ́ náà, tí ó tó 0.25% lórí àwọn pàṣípààrọ̀ owó crypto. Ó tún bá ìtumọ̀ pàṣípààrọ̀ owó crypto tí ó wọ́pọ̀ jùlọ mu.
 
 ___
 
@@ -58,8 +58,8 @@ ___
 
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
-- Ojú-ìwé: https://flyp.me/en/#/
-- Àpèjúwe: Flyp.me tí kò ní àkọọ́lẹ̀ àti FYP Token ni a bí láti dáàbò bo ìpamọ́ra, kí ó gbé ètò dídásí-àkóso lárugẹ, ṣètìléyìn fún ohun ini àdúgbò àti gbígbénirò àwùjọ kan tó gbagbọ nínú àdéhùn.
+- Oju opo wẹẹbu: https://flyp.me/en/#/
+- Àpèjúwe: A bí flyp.me accountless parchment àti FYP Token láti dáàbò bo ìpamọ́, láti gbé ìpínkiri lárugẹ, láti ṣètìlẹ́yìn fún nini ilẹ̀ àti láti gbé àwùjọ tí ó gbàgbọ́ nínú ìfohùnṣọ̀kan lárugẹ.
 
 ___
 
@@ -67,8 +67,8 @@ ___
 
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
-- Ojú-ìwé: https://exolix.com
-- Àpèjúwe: Ṣiṣowo 1311+ crypto lẹsẹkẹsẹ, pẹlu oṣuwọn ti o dara julọ ati laisi iforukọsilẹ
+- Oju opo wẹẹbu: https://exolix.com
+- Apejuwe: Ṣe paṣipaarọ 1311+ crypto lẹsẹkẹsẹ, pẹlu oṣuwọn ti o dara julọ ati laisi iforukọsilẹ
 
 ___
 
@@ -76,8 +76,8 @@ ___
 
 <img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
 
-- Ojú-ìwé: https://trocador.app/
-- Àpèjúwe: Ṣiṣowo Cryptocurrency ni Ailorukọ. Yara. Lailewu. Ko si Ijọba-aṣẹ. Awọn kaadi debiti ti a san tẹlẹ wa. O le ra awọn owo sisan rẹ pẹlu Bitcoin, Ethereum tabi BTC (BTC).
+- Oju opo wẹẹbu: https://trocador.app/
+- Àpèjúwe: Ṣíṣòwò owó Krypto láìsí orúkọ. Kíákíá. Ààbò. Kò sí iṣẹ́ ìjọba. Àwọn káàdì Débíìtì tí a ti san tẹ́lẹ̀ wà.
 
 ___
 
@@ -85,8 +85,8 @@ ___
 
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
-- Ojú-ìwé: https://dex.decred.org/
-- Àpèjúwe: Ṣiṣowo crypto peer to peer. Ko si awọn idiyele iṣowo. Kò sí KYC. Aladani Exchange ti a kọ nipasẹ Decred Project .
+- Oju opo wẹẹbu: https://dex.decred.org/
+- Àpèjúwe: Ṣíṣòwò owó crypto peer si peer. Kò sí owó ìṣòwò. Kò sí KYC. Decentralized Exchange tí Decred Project kọ́.
 
 ___
 
@@ -94,8 +94,8 @@ ___
 
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
-- Ojú-ìwé: https://github.com/firoorg/FiroDEX-Desktop
-- Àpèjúwe: Àwọn àdàkọ tí kò ní ìfọkànsí, èyí tó ń lo àwọn àdàkàdekè atomiki pẹ̀lú FiroDEX!.
+- Oju opo wẹẹbu: https://github.com/firoorg/FiroDEX-Desktop
+- Àpèjúwe: Àwọn ìyípadà tí kò ṣeé gbẹ́kẹ̀lé nípa lílo àwọn ìyípadà atomiki pẹ̀lú FiroDEX!.
 
 ___
 
@@ -103,8 +103,8 @@ ___
 
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
-- Ojú-ìwé: https://changenow.io/?from=usdterc20&to=zec
-- Àpèjúwe: Awon ti ko ni idiwọn WEB 3 Crypto Exchange  Simple, Fast, Custody-free.
+- Oju opo wẹẹbu: https://changenow.io/?from=usdterc20&to=zec
+- Àpèjúwe: Pàṣípààrọ̀ Kríktórì WEB 3 Láìlópin – Rọrùn, Yára, Láìsí Ààbò.
 
 ___
 
@@ -112,8 +112,8 @@ ___
 
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
-- Ojú-ìwé: https://ff.io
-- Àpèjúwe: Ìgbésẹ̀ ìyípadà owó-ìpamọ́ tí ó wà ní ojú ẹsẹ, tó sì jẹ ti ara ẹni pẹlú Lightning Network.
+- Oju opo wẹẹbu: https://ff.io
+- Àpèjúwe: Ìpàṣípààrọ̀ owó aládàáni lẹ́sẹ̀kẹsẹ̀ pẹ̀lú Lightning Network.
 
 ___
 
@@ -121,17 +121,17 @@ ___
 
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
-- Ojú-ìwé: https://xchange.me/
-- Àpèjúwe: Oríṣun àwòrán, Anonymous Cryptocurrency Exchange, ó ní owó tí kò pọ̀ tó, a lè gbẹ́kẹ̀lé e. AlwaysOnTime àti láìsí ìforúkọsílẹ̀ kankan. Ẹrọ-ìmọ̀ràn Tor dídánilẹgbẹ wà fún un.
+- Oju opo wẹẹbu: https://xchange.me/
+- Àpèjúwe: Pàṣípààrọ̀ owó ìforúkọsílẹ̀ aláìlórúkọ, ó rọrùn, ó ṣeé gbẹ́kẹ̀lé, AlwaysOnTime àti láìsí ìforúkọsílẹ̀ kankan. Dígí Tor tí a yà sọ́tọ̀ wà.
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
-- Ojú-ìwé: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Àpèjúwe: Bitcoin & Cryptocurrency Exchange ni Vietnam. Ra, ta tabi paṣipaarọ laarin awọn ohun-ini 80 pẹlu VND, BTC, XMR, USDT, ETH, BCH, SOL
+- Oju opo wẹẹbu: https://bitcoinvn.io/?deposit=xmr&settle=zec/
+- Àpèjúwe: Ìpàṣípààrọ̀ Bitcoin àti Cryptocurrency lẹ́sẹ̀kẹsẹ̀ ní Vietnam. Ra, ta tàbí pààrọ̀ láàrín dúkìá 80 pẹ̀lú VND, BTC, XMR, USDT, ETH, BCH, SOL
 
 ___
 
@@ -139,6 +139,6 @@ ___
 
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
-- Ojú-ìwé: https://leodex.io/
-- Àpèjúwe: Crosschain swaps láìsí àkọọ́lẹ̀ àti KYC. Fi BTC, ETH ati púpọ̀ síi láti inú àpò-ìpamọ́ èyíkéyìí, pàṣípààrò tàbí ibi ìpamọ òtútù lọ sínú adirẹsi tí a fi ń ṣe èlé owó ẹyọ kan kí o sì gba ZEC  kò nílò asopọ àpò ìṣúra kankan.
+- Oju opo wẹẹbu: https://leodex.io/
+- Àpèjúwe: Àwọn ìyípadà Crosschain láìsí àkọọ́lẹ̀ àti KYC. Fi BTC, ETH àti àwọn mìíràn ránṣẹ́ láti inú àpò owó, pàṣípààrọ̀ tàbí ibi ìpamọ́ tútù sí àdírẹ́sì ìdókòwò lẹ́ẹ̀kan ṣoṣo kí o sì gba ZEC — kò sí ìsopọ̀ àpò owó tí a nílò.
 

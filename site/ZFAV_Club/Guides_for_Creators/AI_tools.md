@@ -58,7 +58,7 @@ can get about 100 free generations by rating a lot of others [images in here](ht
 
 - [RunwayML GEN-2](https://runwayml.com/) (free trial, subscription from $15/month)
 - [Pika labs Discord Bot](https://www.pika.art/) (free atm?)
-- [elai](https://elai.io/) (subscription from $23/month)
+- [Elai](https://elai.io/) (subscription from $23/month)
 
 ### Video/audio translation tools:
 

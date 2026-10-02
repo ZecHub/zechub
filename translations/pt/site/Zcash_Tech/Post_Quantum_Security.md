@@ -13,6 +13,8 @@
 - Zcash está se preparando por meio de pesquisa, ZIPs e propostas de atualização como ZIP 2005 e Project Tachyon.
 - Uma migração pós-quântica segura precisa proteger fundos, privacidade, carteiras, exchanges e regras de consenso ao mesmo tempo.
 
+Para saber o que Ironwood mudou e o estado datado de cada parte, consulte [O Zcash é pós-quântico?](/zcash-tech/is-zcash-post-quantum).
+
 ## O Que É Computação Quântica?
 
 Um computador normal armazena informações como bits. Cada bit é `0` ou `1`.
@@ -246,12 +248,13 @@ Para iniciantes, a ideia principal é simples: privacidade hoje reduz a exposiç
 
 ## Páginas Relacionadas
 
-- [Pools Blindados](/using-zcash/shielded-pools) - Como as transações blindadas do Zcash protegem os detalhes das transações
-- [Halo](/zcash-tech/halo) - O sistema de prova do Zcash sem trusted setup
-- [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Como as provas de conhecimento zero funcionam no Zcash
-- [Viewing Keys](/zcash-tech/viewing-keys) - Como a divulgação seletiva funciona no Zcash blindado
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - Futuros ativos blindados e suporte a ativos privados
-- [Privacidade como um Princípio Fundamental](/privacy/privacy-as-a-core-principle) - Por que a privacidade financeira importa
+- [O Zcash é pós-quântico?](/zcash-tech/is-zcash-post-quantum) - O que Ironwood mudou, o que continua exposto e uma tabela de estado com data
+- [Pools Blindadas](/using-zcash/shielded-pools) - Como as transações blindadas de Zcash protegem os detalhes das transações
+- [Halo](/zcash-tech/halo) - O sistema de provas de Zcash sem uma configuração de confiança
+- [ZKP e ZK-SNARKS](/zcash-tech/zk-snarks) - Como funcionam as provas de conhecimento zero em Zcash
+- [Chaves de Visualização](/zcash-tech/viewing-keys) - Como funciona a divulgação seletiva para Zcash blindados
+- [Zcash Ativos Blindados](/zcash-tech/zcash-shielded-assets) - Futuros ativos blindados e suporte a ativos privados
+- [Privacidade como Princípio Fundamental](/privacy/privacy-as-a-core-principle) - Porque é que a privacidade financeira é importante
 
 ## Referências
 

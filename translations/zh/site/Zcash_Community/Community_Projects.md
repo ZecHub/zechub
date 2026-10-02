@@ -12,7 +12,7 @@
 
 ### ZECPublish
 抗审查、由 Zcash blockchain 驱动的社交媒体。包含 Zcash 用户目录和匿名留言板。  
-[访问](https://www.zecpublish.com)
+（截至 2026 年 9 月，网站目前已下线。）
 
 ### ZK Radio
 一个旨在为 Zcash 社区提供信息、教育和娱乐的在线电台。由 Zcash en Español 和 ZKAV Club 开发。  
@@ -46,44 +46,46 @@
 一个互动网站，提供 Zcash 主题游戏和实时社区活动。  
 [访问](https://zectastic.com/)
 
-### Zec App
-移动应用程序，将 Zcash 新闻、社区动态、网络信息、钱包、交易所和生态资源聚合到一个地方。  
+### ZEC App
+移动应用程序，将 ZEC 新闻、社区动态、网络信息、钱包、交易所和生态资源聚合到一个地方。  
 [论坛](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Community
 Pretty Good Policy for Zcash (PGPZ) 的社区中心。PGPZ 是一项位于华盛顿特区的政策倡议，专注于保护隐私的数字现金、务实合规，以及 Zcash 的公共利益角色。  
 [访问](https://community.pgpz.org/)
 
-### Gleyo 
-为 Zcash 社区、Web3 项目和 Web2 组织设计的社区参与和奖励平台。它通过任务、聊天和奖励帮助社区引导并激活成员，同时允许用户赚取并提取私密的 shielded ZEC。
-
+### Gleyo
+为 Zcash 社区、Web3 项目和 Web2 组织设计的社区参与和奖励平台。它通过任务、聊天和奖励帮助社区引导并激活成员，同时允许用户赚取并提取私密的受保护 ZEC。  
 [访问](https://gleyo.app/)
 
-### Zcash Grants Hub
-一个以社区为中心的资助仪表盘，旨在简化 Zcash 资助项目的发现、追踪和审查方式。它通过从 Zcash Community Grants GitHub 仓库拉取实时数据，将资助申请、里程碑、预算、讨论和分析整合到一个地方。该平台旨在为申请者、委员会成员和社区审查者提供更清晰、更友好的使用体验。
-
+### Zcash 资助中心
+面向社区的资助仪表板，旨在简化 Zcash 资助项目的发现、跟踪和审查流程。它通过从 Zcash Community Grants GitHub 仓库获取实时数据，将资助申请、里程碑、预算、讨论和分析整合到一处。该平台旨在为申请者、委员会成员和社区审查者提供更清晰、更友好的体验。  
 [访问](https://staging.zgrantshub.com/)
-
 
 ---
 
 ## 钱包与支付工具
 
-### Cipherpay
-面向互联网的私密支付。非托管，无需 KYC。商家直接将 ZEC 接收到 shielded 地址。  
+### CipherPay
+面向互联网的私密支付。非托管，无需 KYC。商家直接在屏蔽地址接收 ZEC。  
 [访问](https://www.cipherpay.app/en)
 
-### Ezcash
-易于使用、功能完整的多平台 Zcash 钱包，支持 autoshielding。  
+### eZcash
+易于使用、功能齐全的多平台 Zcash 钱包，支持自动屏蔽功能。  
 [访问](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-专注于 Orchard 的 Zcash 钱包，为 Zebrad 构建，支持完全 shielded 的交易和安全密钥管理。  
+为 Zebrad 和 lightwalletd 打造、以 Orchard 为先的 Zcash 钱包。支持完全 shielded 的发送/接收、安全的本地密钥管理，以及 Ironwood（NU6.3）notes 和 Orchard 到 Ironwood 的迁移。面向用户的支付流程会拒绝 transparent 地址。
+
 [访问](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
 支付网关，让用户可以在现实世界购物中花费 shielded ZEC（目前处于 alpha 阶段）。  
 [访问](https://overpay.com)
+
+### ZcashToCash
+ZcashToCash (zcashto.cash) — 通过 Peer 将 ZEC 兑换为 Cash App、Chime、Monzo、Revolut、Venmo 或 Zelle。ZEC 会先兑换为 USDC (NEAR)，然后 Base 上的 Peer 订单会在接单方证明法币付款后释放 USDC。接单方可看到支付应用用户名。不是 CEX，也不是 ZEC 托管。  
+[访问](https://zcashto.cash/)
 
 ### Zafu Wallet
 面向 Zcash 和 Penumbra 的开源隐私钱包。浏览器扩展，具备客户端 proving、经验证的 light-client 架构、冷签名、FROST 多重签名，并且 view key 不会离开设备。  
@@ -114,7 +116,7 @@ Zcash 收银系统，使供应商和商家能够接受 Zcash 支付。
 [论坛](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Ywallet 的继任者，支持最新的 Zcash 协议功能，包括 Orchard。  
+YWallet 的继任者，支持最新的 Zcash 协议功能，包括 Orchard。  
 [论坛](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
@@ -130,13 +132,11 @@ Ywallet 的继任者，支持最新的 Zcash 协议功能，包括 Orchard。
 [访问](https://tipz.cash/)
 
 ### CYZE
-一个协作钱包和协调平台，允许多个团队成员共同管理 shielded 的 Zcash 资金。它使用 FROST 门限签名，使群组能够集体授权 Orchard 交易，而无需让单一参与者完全控制钱包。
-
+一款协作式钱包和协调平台，允许多个团队成员共同管理屏蔽的 Zcash 资金。它采用 FROST 门限签名，使团队无需让任何单一参与者完全控制钱包，即可共同授权 Orchard 交易。  
 [访问](https://github.com/USCMig/Cyze)
 
 ### Pendrake Watch
-一个仅观察的桌面钱包，专为需要监控 shielded 资金但不具备支出能力的个人和组织设计。它支持交易与余额监控、Orchard 和 Sapling notes、memo 查看、历史法币估值、交易通知、钱包加密，以及以隐私为重点的屏幕共享功能。
-
+一款仅观察的桌面钱包，专为需要监控 shielded 资金但无权支出的个人和组织设计。它支持交易和余额监控、Orchard以及Sapling notes、查看备注、历史法币估值、交易通知、钱包加密和注重隐私的屏幕共享功能。  
 [访问](https://github.com/auzum197/pendrake-watch)
 
 ---
@@ -168,7 +168,7 @@ Ywallet 的继任者，支持最新的 Zcash 协议功能，包括 Orchard。
 [访问](https://zecmap.com/)
 
 ### ZECping
-用于检查 Zcash Lightwalletd 节点 gRPC 响应时间的工具。  
+用于检查 Zcash lightwalletd 节点的 gRPC 响应时间的工具。  
 [访问](https://github.com/emersonian/zecping)
 
 ### ZecStats
@@ -184,20 +184,16 @@ Ywallet 的继任者，支持最新的 Zcash 协议功能，包括 Orchard。
 [访问](https://zlink.click)
 
 ### Zecmarket
-Zcash 生态系统中以隐私优先的市场。支付直接结算，平台绝不会持有你的资金。
-
+Zcash 生态系统中隐私优先的市场。付款直接结算，平台绝不会持有您的资金。  
 [访问](https://zecmarket.org/)
 
 ### Zecsite
-一个以隐私为重点的静态网站，在不使用 JavaScript 的情况下聚合 Zcash 新闻、统计数据和教育内容。
-
-[访问](https://zecsite.org/netscape/en/index.html)
-
+一个注重隐私的静态网站，在不使用 JavaScript 的情况下汇总 Zcash 新闻、统计数据和教育内容。  
+[访问](https://zecsite.org/netscape/en/index.html)  
 [论坛](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
 ### ZEC-OS
-一个复古风格的桌面界面，将各种 Zcash 生态工具和信息整合到一个应用中。它包含 blockchain 浏览器、mempool 查看器、网络统计、历史图表、shielded 池信息、挖矿工具、Unified Address 解码器、计算器、游戏、终端和其他实用工具。
-
+一款复古风格的桌面界面，将各种 Zcash 生态系统工具和信息整合到一个应用程序中。它包含区块链浏览器、mempool 查看器、网络统计数据、历史图表、屏蔽资金池信息、挖矿工具、Unified Address 解码器、计算器、游戏、终端和其他实用工具。  
 [访问](https://www.zec-os.com/)
 
 ---
@@ -225,18 +221,15 @@ Zcash 生态系统中以隐私优先的市场。支付直接结算，平台绝�
 [访问](https://ztrash.com/)
 
 ### LiveZEC
-一个以隐私为重点的主播打赏平台，使观众能够将 shielded ZEC 直接发送到主播的自托管钱包。
-
+一个面向主播、注重隐私的打赏平台，让观众能够将受保护的 ZEC 直接发送到主播的自托管钱包。  
 [访问](https://zec.live/)
 
 ### ZecLedger
-一个面向 Zcash 的隐私保护型财务跟踪和会计工具。它将用于透明网络数据的公共仪表盘与本地私密记账结合起来，后者使用 viewing keys 而不会暴露它们，帮助用户追踪余额、交易历史、成本基础，并最终支持预算和可用于报税的报告，同时确保资金安全和隐私。
-
+一款面向 Zcash 的隐私保护型财务追踪与会计工具。它将用于展示透明网络数据的公开仪表板，与使用 viewing keys 且不暴露这些密钥的本地私密会计功能相结合，帮助用户追踪余额、交易历史、成本基础，并最终实现预算和可用于报税的报告，同时保障资金安全与隐私。  
 [访问](https://zecledger-web.vercel.app/)
 
-### Authentication with ZcashMe
-一个以隐私为重点的认证系统，使用 shielded Zcash 交易作为登录机制。用户扫描二维码并发送一笔小额认证交易。
-
+### 使用 ZcashMe 进行身份验证
+一个以隐私为核心的身份验证系统，使用屏蔽的 Zcash 交易作为登录机制。用户扫描二维码并发送一笔小额身份验证交易。  
 [访问](https://github.com/zcashme/zns-login)
 
 ---
@@ -251,12 +244,12 @@ Zcash 生态系统中以隐私优先的市场。支付直接结算，平台绝�
 一个以 Linux 为主的工具集，可启动一个 Zebra regtest 网络，配备 faucet、Unified Address fixtures，以及 lightwalletd 或 Zaino，并提供可复用的 GitHub Actions 用于 shielded 端到端流程。  
 [访问](https://github.com/zecdev)
 
-### Zebra Coverage-Guided Fuzzing Infrastructure
-对 Zebra 的解析、网络和密码学组件进行系统化测试，以对抗格式错误的输入。  
+### Zebra 覆盖率引导的模糊测试基础设施
+针对格式错误的输入，系统性测试 Zebra 的解析、网络和密码学组件。  
 [论坛](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-### Frost
-门限签名方案（FROST）相关工作正在推进，以便在 Zcash 生态系统中获得更广泛采用。  
+### FROST
+正在推进阈值签名方案（FROST）相关工作，以促进其在 Zcash 生态系统中的更广泛采用。  
 [论文](https://eprint.iacr.org/2020/852)
 
 ### MonteZcret Benchmark
@@ -275,8 +268,8 @@ Zcash 生态系统中以隐私优先的市场。支付直接结算，平台绝�
 原生于 Zcash 的信用和投票基础设施，用于选择性披露、结算就绪、跨境声誉和 shielded 治理。  
 [访问](https://voting.zkglobalcredit.tech/)
 
-### Free2z
-由 Zcash 驱动的匿名内容创作和私密捐赠工具。  
+### Free2Z
+由 Zcash 驱动的匿名内容创作与私密捐赠工具。  
 [访问](https://free2z.cash)
 
 ### Rhea Finance
@@ -296,15 +289,12 @@ Decred 的去中心化交易所，支持 Zcash。
 [访问](https://brave.com/wallet/)
 
 ### Nano-GPT
-AI 平台，提供对多个领先 AI 模型的访问，同时支持包括 Zcash 在内的加密货币支付。
-
+提供多种领先 AI 模型访问权限并支持加密货币支付（包括 Zcash）的 AI 平台。  
 [访问](https://nano-gpt.com/conversation/new)
 
 ### zk.poker
-一个点对点扑克平台，结合了端到端加密、mental poker 和 Zcash 隐私技术。其设计目标是使运营方无需知道玩家手牌，也无需直接持有投注资金。
-
+一个点对点扑克平台，结合了端到端加密、心理扑克和 Zcash 隐私技术。其设计使运营方无需知晓玩家的牌，也无需直接持有投注资金。  
 [访问](https://zkbtc.org/)
-
 
 ---
 

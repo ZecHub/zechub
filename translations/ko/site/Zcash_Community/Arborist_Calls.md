@@ -11,6 +11,15 @@ Zcash Arborist Calls는 네트워크 업그레이드 계획, 합의 노드 구�
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    통화 기록 검색
+  </a>
+</p>
+
 ## 참여 방법
 
 이 회의는 서로 다른 지역의 기여자들이 참여할 수 있도록 두 개의 정기 시간대로 번갈아 진행됩니다. 현재 캘린더 파일과 Zoom 링크는 공식 Zcash Foundation 페이지를 이용하세요:
@@ -23,9 +32,10 @@ Zcash Arborist Calls는 네트워크 업그레이드 계획, 합의 노드 구�
 ## 노트, 안건 및 녹화본
 
 - 전체 안건 및 회의록: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- 이 위키의 검색 가능한 아카이브: [Arborist Calls 아카이브](/arborist-calls)
 - 최근 녹화본: [Zcash Arborist Call 재생목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
 - Zcash R&D 토론: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
-- 장문의 토론: [Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com/)
+- 장문의 토론: [Zcash Community Forum](https://forum.zcashcommunity.com/)
 
 ## 누가 참여하면 좋은가
 

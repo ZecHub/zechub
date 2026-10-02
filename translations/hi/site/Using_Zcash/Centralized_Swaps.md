@@ -18,9 +18,9 @@ ZecHub किसी विशेष एक्सचेंज सेवा का
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - वेबसाइट: https://app.near-intents.org/
 - विवरण: NEAR के समर्थन वाला तेज़ एक्सचेंज। जमा करें, बेचें, स्वैप करें, जिनमें लोकप्रिय TRUMP, MELANIA, BERA और अन्य मीम्स शामिल हैं।
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - वेबसाइट: https://flyp.me/en/#/
-- विवरण: Flyp.me अकाउंटलेस एक्सचेंजर और FYP Token का जन्म गोपनीयता की रक्षा करने, विकेंद्रीकरण को बढ़ावा देने, जमीनी स्तर के स्वामित्व का समर्थन करने और सहमति में विश्वास रखने वाले समुदाय को प्रोत्साहित करने के लिए हुआ था।
+- विवरण: flyp.me अकाउंटलेस एक्सचेंजर और FYP Token का जन्म गोपनीयता की रक्षा करने, विकेंद्रीकरण को बढ़ावा देने, जमीनी स्तर के स्वामित्व का समर्थन करने और सहमति में विश्वास रखने वाले समुदाय को प्रोत्साहित करने के लिए हुआ था।
 
 ___
 
@@ -126,9 +126,9 @@ ___
 
 ___
 
-### Bitcoin VN
+### BitcoinVN
 
-<img src="/Bitcoinvn.png" alt="Bitcoin VN" width="200" height="100"/>
+<img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - वेबसाइट: https://bitcoinvn.io/?deposit=xmr&settle=zec/
 - विवरण: वियतनाम में त्वरित Bitcoin एवं क्रिप्टोकरेंसी एक्सचेंज। VND, BTC, XMR, USDT, ETH, BCH, SOL सहित 80 एसेट्स के बीच खरीदें, बेचें या स्वैप करें।

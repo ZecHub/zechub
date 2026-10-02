@@ -9,9 +9,9 @@ ZecHub does not endorse any particular Decentralised Exchange service, please do
 Each `###` heading below is one card on https://zechub.wiki/dex.
 Add, edit, or remove a block here; the wiki picks it up from this file.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Website: https://near.com/
 - Description: Fast exchange with the support of NEAR. Make deposits, sell, swap including popular TRUMP, MELANIA, BERA and other memes

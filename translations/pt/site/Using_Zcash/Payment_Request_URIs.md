@@ -2,49 +2,93 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>
 
-# URIs de Solicitação de Pagamento Zcash
+# Zcash URIs de Pedido de Pagamento
 
-## Visão geral dos códigos QR dinâmicos
+Um URI de pedido de pagamento é uma ligação `zcash:` definida pela [ZIP 321](https://zips.z.cash/zip-0321). As wallets compatíveis leem o endereço, o montante e a nota opcional a partir da ligação ou do QR e preenchem previamente uma transação. Sem contas adicionais, sem processador intermediário.
 
-URI significa Universal Resource Identifier. São códigos QR que servem para preencher previamente informações sobre uma transação dentro de uma carteira Zcash. Carteiras que reconhecem esse formato podem construir transações clicando em links em páginas da web ou escaneando códigos QR. Digamos que você tenha uma cafeteria online; seus clientes podem fazer compras escaneando esses códigos QR com sua carteira Zcash, com um preço e número de pedido já preenchidos.
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    Abrir widget de pagamento
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    Criar um pedido de pagamento
+  </a>
+</div>
 
-## Casos de uso de solicitações de pagamento 
+A demonstração do widget é um modal ZIP-321 em direto: QR, copiar endereço/URI, ligação curta e Abrir na Wallet. A página de ferramentas é o gerador, caso pretenda definir primeiro o seu próprio endereço e montante.
 
+## Anatomia
 
-- Compras online.                    As solicitações de pagamento no checkout são iniciadas pelos clientes durante compras online.
-- Reservas de hotéis e acomodações.   Várias plataformas de reservas utilizam URLs de solicitação de pagamento para reservas de hotel.
-- Pagamento de contas online.               Empresas de serviços públicos usam URLs de solicitação de pagamento para permitir que os clientes quitem suas contas sem dificuldades. 
-- Compra de ingressos para eventos.             Organizadores de eventos em diferentes países usam esse mecanismo para facilitar a compra de ingressos.
-- Pagamentos P2P.                       As pessoas podem enviar solicitações de pagamento facilmente para familiares e amigos por aplicativos de mensagens, com links de pagamento incorporados nas mensagens.
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| Campo | Obrigatório | Notas |
+| --- | --- | --- |
+| address | sim | Prefira um Unified Address (`u1` / `utest1`) |
+| amount | não | ZEC decimal |
+| memo | não | Apenas transferências blindadas |
+| label | não | Nome legível por humanos apresentado por algumas wallets |
 
-## Detalhes
+Regras completas: [ZIP 321](https://zips.z.cash/zip-0321).
 
-[ZIP 321](https://zips.z.cash/zip-0321) define como construir sua própria URI de pagamento personalizada. 
+## Casos de utilização
 
-Como fazer solicitações de pagamento com Zcash: 
+- **Checkout** — preencha previamente o preço e uma nota da encomenda para que o cliente apenas confirme na sua wallet
+- **Faturas** — partilhe uma ligação ou QR
+- **Donativos** — incorpore o widget num site
+- **P2P** — envie uma ligação `zcash:` no chat
+
+## Incorporar num site
+
+Aponte este script para o seu próprio endereço blindado. A cópia alojada encontra-se em ZecHub:
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+Obrigatório: `data-address`, `data-amount`, `data-target`.
+
+Experimente primeiro o botão alojado: [Abrir widget de pagamento](/zcash-payment-uri).
+
+## Vídeos
+
+Como criar Pedidos de Pagamento com Zcash:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/l5auYQIzYsQ"
-    title="Como fazer solicitações de pagamento com Zcash"
+    title="Como criar Pedidos de Pagamento com Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-    
-### Exemplo de código
-
-Adicionando um widget de doação Zcash ao seu site: 
+Adicionar um Widget de Donativos Zcash ao seu Website:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/NbP4BcHC0uM"
-    title="Adicionando um widget de doação Zcash ao seu site"
+    title="Adicionar um Widget de Donativos Zcash ao seu Website"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

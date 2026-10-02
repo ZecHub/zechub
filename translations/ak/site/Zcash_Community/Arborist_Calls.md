@@ -10,6 +10,14 @@ Zcash Foundation na ɛhwɛ Arborist Calls krataafa a ɛyɛ aban de no so:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    Hwehwɛ frɛ akorae no mu
+  </a>
+</p>
 
 ## Sɛnea Wobɛka Ho
 
@@ -17,15 +25,15 @@ Zcash Foundation na ɛhwɛ Arborist Calls krataafa a ɛyɛ aban de no so:
 
 - **15:00 UTC** bere a wɔde yɛ adwuma
 
-
 Fapem krataafa no ne nokware fibea ma dinkyerɛw nkitahodi, kalenda fael, ne nhyiamu kwan a wɔfa so kɔ ɛfiri sɛ nhyiamu nkitahodiɛ tumi sesa.
 
 ## Nsɛm a Wɔahyɛ no Nsow, Agendas, ne Recordings
 
-- Dwumadi ahorow ne simma a edi mũ: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Nnansa yi ara a wɔakyere agu hama so: [Zcash Arborist Call nnwom a wɔahyehyɛ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Dwumadi ahorow ne simma a edi mũ: [arboretum-nsɛm a wɔakyerɛw](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Archive a wotumi hwehwɛ wɔ wiki yi so: [Arborist Calls akoraeɛ](/arborist-calls)
+- Nsɛm a wɔakyere agu hama so nnansa yi: [Zcash Arborist Frɛ nnwom a wɔahyehyɛ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
 - Zcash R&D nkɔmmɔbɔ: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
-- Nkɔmmɔbɔ a ɛkɔ akyiri: [Zcash Community Forum](https://forum.zcashcommunity.com/)
+- Nkɔmmɔbɔ a ɛkɔ akyiri: [Zcash Mpɔtam Hɔ Nhyiam](https://forum.zcashcommunity.com/)
 
 ## Hena na Ɛsɛ sɛ Wɔkɔ
 

@@ -4,7 +4,7 @@
 
 # <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL (Zcash Open Development Lab)
 
-[Weebụsaịtị](https://zodl.com/) - [GitHub](https://github.com/AgoraCyber) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
+[Weebụsaịtị](https://zodl.com/) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
 ## Nkwupụta Ozi
 
@@ -12,7 +12,7 @@ ZODL na-ahụ ụwa nke na-enweghị nnukwu nlekota ego, ebe ndị na-edebe iwu 
 
 ## Ihe ndabere na Akụkọ Ihe Mere Eme
 
-Josh Swihart, onye bụbu onye isi oche nke Electric Coin Company (ECC) hiwere ZODL (Zcash Open Development Lab) na mbido afọ 2026. Na Jenụwarị 2026, ndị otu injinia na ngwaahịa ECC niile gbara arụkwaghịm mgbe esemokwu ọchịchị na Bootstrap, bọọdụ 501(c)(3) nke na-ahụ maka ECC. Ndị otu bụ isi nke chepụtara, tinye n'ọrụ, ma lekọta sistemụ kachasị mkpa nke Zcash gbanwere gaa na ZODL iji gaa n'ihu na-arụ ọrụ ha n'adabereghị onwe ha.
+Josh Swihart, onye bụbu onye isi oche nke Electric Coin Company (ECC). hiwere ZODL (Zcash Open Development Lab) na mbido afọ 2026. Na Jenụwarị 2026, ndị otu injinia na ngwaahịa ECC niile gbara arụkwaghịm mgbe esemokwu ọchịchị na Bootstrap, bọọdụ 501(c)(3) nke na-ahụ maka ECC. Ndị otu bụ isi nke chepụtara, tinye n'ọrụ, ma lekọta sistemụ kachasị mkpa Zcash's gbanwere gaa na ZODL iji gaa n'ihu na-arụ ọrụ ha n'adabereghị onwe ha.
 
 E weghachiri obere akpa Zashi, nke e mepụtara ma na-elekọta n'okpuru ECC, ka ọ bụrụ ZODL n'okpuru nzukọ ọhụrụ ahụ. Ndị ọrụ achọghị ime ihe ọ bụla, ebe ọ bụ na ngwa ahụ gbanwere aha ya na akpaghị aka na mmelite ọzọ.
 
@@ -34,7 +34,7 @@ A na-eji isi obodo ahụ agbasa mmepe nke usoro Zcash na obere akpa ZODL.
 
 ## Ọchịchị
 
-- **Josh Swihart** - Onye isi ụlọ ọrụ na onye hiwere (onye bụbu onye isi ụlọ ọrụ Electric Coin Company)
+- **Josh Swihart** - Onye isi ụlọ ọrụ na onye hiwere (onye bụbu onye isi Electric Coin Company)
 
 Ndị otu ahụ sara mbara bụ ndị mepụtara usoro Zcash mbụ na ndị mmepe bụ ndị wuru ma lekọta Zcash na ECC. Nke a gụnyere ahụmịhe miri emi na cryptography, ihe akaebe enweghị ihe ọmụma, na injinia usoro.
 
@@ -48,18 +48,18 @@ ZODL bụ obere akpa ekwentị nkeonwe nke e mere maka azụmahịa Zcash nkeonw
 - [iOS (Ụlọ Ahịa Ngwa)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
 - [Android (Ụlọ Ahịa Play)](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
-- [GitHub](https://github.com/AgoraCyber)
+- [GitHub](https://github.com/zodl-inc)
 
 **Isi Atụmatụ:**
 
-- **Ekpuchiri ya site na ndabara:** Azụmahịa niile na-eji ọdọ mmiri ndị e ji echebe Zcash, onye na-eziga ozi zoro ezo, onye nnata, na ego azụmahịa site na iji cryptography efu.
+- **Ekpuchiri ya site na ndabara:** Azụmahịa niile na-eji ọdọ mmiri ndị e ji echebe Zcash's, onye na-eziga ozi zoro ezo, onye nnata, na ego azụmahịa site na iji cryptography efu
 - **Nchedo Otu Pịa:** Gbanwee ZEC doro anya ka ọ bụrụ ego nkeonwe site na iji otu mgbata
 - **CrossPay:** Zipu ZEC echekwara ebe ndị nnata na-enweta ihe onwunwe ha kacha amasị (BTC, stablecoins, wdg.)
-- **Mgbanwe nkeonwe:** Mgbanwe arụnyere n'ime ya nke NEAR Intents na-arụ ọrụ, na-ezere mgbanwe etiti
-- **Njikọ Keystone:** Nkwado obere akpa ngwaike maka nchekwa oyi nke ZEC echekwara site na mbinye aka azụmahịa nke nwere oghere ikuku
-- **Ụgwọ Flexa:** Mefuo ZEC n'ụlọ ahịa ndị a ma ama dịka GameStop, Chipotle, Sheetz, na Barnes & Noble
-- **Njikọ Coinbase:** Zụta ZEC ozugbo n'ime obere akpa ahụ na-enweghị ndebanye aha mgbanwe dị iche
-- **Izi ozi ezoro ezo:** Nzuzo ọkwa Zcash maka ndetu echekwara yana ma ọ bụ na-adabereghị na azụmahịa
+- **Mgbanwe nkeonwe:** Mgbanwe arụnyere n'ime ya nke NEAR Intents, na-ezere mgbanwe etiti
+- **Keystone:** Nkwado obere akpa ngwaike maka nchekwa oyi nke ZEC echekwara site na mbinye aka azụmahịa nke nwere oghere ikuku
+- **Flexa:** Mefuo ZEC n'ụlọ ahịa ndị a ma ama dịka GameStop, Chipotle, Sheetz, na Barnes & Noble
+- **Coinbase:** Zụta ZEC ozugbo n'ime obere akpa ahụ na-enweghị ndebanye aha mgbanwe dị iche
+- **Izi ozi ezoro ezo:** Nzuzo Zcash-level maka ndetu echekwara yana ma ọ bụ na-adabereghị na azụmahịa
 - **Adreesị Ndị E Jikọtara Ọnụ:** Njikwa adreesị dị mfe n'ofe ọdọ mmiri Transparent, Sapling, na Orchard
 - **Nkwado Tor:** Emelitere nzuzo dị na netwọk maka mgbasa ozi azụmahịa
 
@@ -79,13 +79,13 @@ Kemgbe mmalite ya dịka Zashi na 2024, obere akpa ahụ emeela ka ọ too nke u
 ZODL na-arụ ọrụ abụọ na usoro Zcash:
 
 1. **Mmepe Usoro:** Ndị otu ahụ na-aga n'ihu na-akwalite ngwanrọ na ngwaọrụ usoro Zcash dị mkpa, na-arụkọ ọrụ na ndị otu gburugburu ebe obibi ndị ọzọ dịka Zcash Foundation na Zingo Labs
-2. **Ngwaahịa Na-eche Ndị Ọrụ:** Iwuli ma na-edobe obere akpa ego ndị ahịa maka Zcash, lekwasịrị anya n'ime ka ịkwụ ụgwọ dijitalụ nkeonwe dịrị ndị ọrụ nkịtị mfe inweta.
-3. **Uto ọdọ mmiri echekwara:** Akọwala ihe ọhụrụ ZODL mepụtara dịka "ihe kacha mkpa mere Zcash ji laghachi na map ahụ".
-4. **Ebe E Si Emepe:** Ọrụ niile bụ isi mmalite mepere emepe, na-enye onye ọ bụla ohere inyocha koodu protocol, nyochaa obere akpa ahụ, ma nyochaa mmejuputa ya.
+2. **Ngwaahịa Na-eche Ndị Ọrụ:** Iwuli ma na-edobe obere akpa ego ndị ahịa maka Zcash, lekwasịrị anya n'ime ka ịkwụ ụgwọ dijitalụ nkeonwe dịrị ndị ọrụ nkịtị mfe inweta
+3. **Uto ọdọ mmiri echekwara:** Akọwala ihe ọhụrụ ZODL's mepụtara dịka "ihe kacha mkpa mere Zcash ji laghachi na map ahụ"
+4. **Ebe E Si Emepe:** Ọrụ niile bụ isi mmalite mepere emepe, na-enye onye ọ bụla ohere inyocha koodu protocol, nyochaa obere akpa ahụ, ma nyochaa mmejuputa ya
 
 ## Nkà Ihe Ọmụma: Onye Nche nke Eze
 
-Echiche nduzi nke ZODL lekwasịrị anya n'echiche nke "Onye Nche nke Onye Ọchịchị" - nkwenye na ndị mmadụ kwesịrị ịnọgide na-achịkwa nzuzo ego ha na ọbụbụeze ha. Òtù ahụ na-ebute ikike onye ọrụ ụzọ karịa njikwa ikpo okwu, na-ewu ngwaọrụ ndị na-enye ndị mmadụ ike karịa ndị ogbugbo.
+Echiche nduzi ZODL's lekwasịrị anya n'echiche nke "Onye Nche nke Onye Ọchịchị" - nkwenye na ndị mmadụ kwesịrị ịnọgide na-achịkwa nzuzo ego ha na ọbụbụeze ha. Òtù ahụ na-ebute ikike onye ọrụ ụzọ karịa njikwa ikpo okwu, na-ewu ngwaọrụ ndị na-enye ndị mmadụ ike karịa ndị ogbugbo.
 
 ## akụrụngwa
 

@@ -32,7 +32,7 @@ Zcash 커뮤니티는 매우 활발한 <span translate="no" class="notranslate">
 
 ### Zcash 커뮤니티 포럼
 
-[Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com/)은 Zcash에 대한 장문의 토론을 위한 중심지입니다 - 거버넌스, 보조금 제안, 기술적 논쟁 및 생태계 공고. ECC가 ZODL로 전환한 후 현재 관리권이 Zcash 재단으로 이전되었습니다.
+[Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com/)은 Zcash에 관한 장문의 논의를 위한 중심지입니다 - 거버넌스, 보조금 제안, 기술적 토론 및 생태계 공지. ECC가 ZODL로 전환됨에 따라 관리 책임은 이제 Zcash Foundation로 이전되었습니다.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
@@ -41,17 +41,18 @@ Zcash는 X에서 활발한 글로벌 존재를 가지고 있습니다. 주요로
 | 계정 | 설명 |
 |---------|-------------|
 | [@Zcash](https://x.com/zcash) | 공식 Zcash 계정 |
-| [@ZecHub](https://x.com/zechub) | ZecHub DAO - 커뮤니티 교육 및 보상 프로그램 |
-| [@zodl_app](https://x.com/zodl_app) | ZODL 지갑 (전에 Zashi로 알려짐) |
-| [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash 재단 업데이트 |
-| [@zcashbrazil](https://x.com/zcashbrazil) | 브라질 Zcash 커뮤니티 |
-| [@ZcashTR](https://x.com/ZcashTR) | 터키 Zcash |
-| [@ZcashArabia](https://x.com/ZcashArabia) | 중동 Zcash |
-| [@ZcashNigeria](https://x.com/ZcashNigeria) | 나이지리아 Zcash |
-| [@ZcastEsp](https://x.com/ZcastEsp) | 스페인어로 운영되는 Zcash 팟캐스트 |
-| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual 클럽 |
+| [@ZecHub](https://x.com/zechub) | ZecHub DAO - 커뮤니티 교육 및 보상 |
+| [@zodl_app](https://x.com/zodl_app) | ZODL 지갑 (이전 명칭: Zashi) |
+| [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash Foundation 업데이트 |
+| [@zcashbrazil](https://x.com/zcashbrazil) | Zcash 브라질 커뮤니티 |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash 멕시코 |
+| [@ZcashTR](https://x.com/ZcashTR) | Zcash 터키 |
+| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash 아라비아 |
+| [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash 나이지리아 |
+| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - 스페인어 Zcash 팟캐스트 |
+| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
 | [@cipherscan_app](https://x.com/cipherscan_app) | CipherScan 블록체인 탐색기 |
-| [@zerodartz](https://x.com/Zerodartz) | 커뮤니티 모에와 코멘터리 |
+| [@zerodartz](https://x.com/Zerodartz) | 커뮤니티 밈 및 논평 |
 
 ----
 
@@ -59,6 +60,7 @@ Zcash는 X에서 활발한 글로벌 존재를 가지고 있습니다. 주요로
 
 - [Zcash en Espanol](https://zcashesp.com) - 스페인어 사용자 커뮤니티 (X 계정 정지 후 Bluesky에도 있음)
 - [Zcash Brazil](https://x.com/zcashbrazil) - 브라질 커뮤니티
+- [Zcash Mexico](https://x.com/ZcashMx) - 멕시코 커뮤니티
 - [Zcash Turkey](https://x.com/ZcashTR) - 터키 커뮤니티
 - [Zcash Arabia](https://x.com/ZcashArabia) - 아랍어 사용자 커뮤니티
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - 나이지리아 커뮤니티
@@ -75,4 +77,4 @@ Zcash는 X에서 활발한 글로벌 존재를 가지고 있습니다. 주요로
 - [ZecHub 위키](https://zechub.wiki)
 - [Zcash 보조금 허브](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcash 글로벌 대사](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - 이 위키의 프로그램 개요 (zcashambassadors.com은 오프라인)
-- [ZEC 바운티](https://bounties.zechub.wiki/)
+- [ZEC Bounties](https://bounties.zechub.wiki/)

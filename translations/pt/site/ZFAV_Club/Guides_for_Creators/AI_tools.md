@@ -57,8 +57,8 @@ você pode conseguir cerca de 100 gerações gratuitas avaliando muitas [imagens
 ### Ferramentas (geralmente com teste gratuito):
 
 - [RunwayML GEN-2](https://runwayml.com/) (teste gratuito, assinatura a partir de $15/mês)
-- [Bot do Pika labs no Discord](https://www.pika.art/) (gratuito no momento?)
-- [elai](https://elai.io/) (assinatura a partir de $23/mês)
+- [Pika labs Discord Bot](https://www.pika.art/) (gratuito neste momento?)
+- [Elai](https://elai.io/) (assinatura a partir de $23/mês)
 
 ### Ferramentas de tradução de vídeo/áudio:
 

@@ -57,7 +57,7 @@ X, Google, Discord, Telegramでログイン可能です。
 
 - [RunwayML GEN-2](https://runwayml.com/) （無料トライアルあり、サブスクリプションは月額$15から）
 - [Pika labs Discord Bot](https://www.pika.art/) (現在無料？)
-- [elai](https://elai.io/) (サブスクリプションは月額$23から)
+- [Elai](https://elai.io/) (サブスクリプションは月額$23から)
 
 ### 動画/音声翻訳ツール:
 

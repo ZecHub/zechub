@@ -9,11 +9,11 @@ ZecHub belirli bir merkeziyetsiz borsa hizmetini desteklemez; lütfen kendi ara�
 Aşağıdaki her `###` başlığı, https://zechub.wiki/dex üzerinde bir karttır.
 Buradan bir blok ekleyin, düzenleyin veya kaldırın; wiki bunu bu dosyadan alır.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
-- Web sitesi: https://app.near-intents.org/
+- Web sitesi: https://near.com/
 - Açıklama: NEAR desteği sunan hızlı bir borsa. Para yatırın, satış yapın ve popüler TRUMP, MELANIA, BERA ile diğer meme coinler dâhil olmak üzere takas yapın.
 
 ___
@@ -105,3 +105,12 @@ ___
 
 - Web sitesi: https://loofta.xyz/
 - Açıklama: Saklama hizmeti sunmayan özel ödeme ve swap platformu. Daha güçlü finansal gizlilik için mutabakat katmanı olarak Zcash'i kullanarak zincirler arasında gizli şekilde kripto gönderip alın.
+
+Yeni İngilizce blok boş görünüyor. Lütfen çevrilecek metni gönderin.
+
+### ZcashToCash
+
+<img width="1774" height="887" alt="ChatGPT Görseli 22 Eyl 2026, 20_27_53" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+
+- Web sitesi: https://zcashto.cash/
+- Açıklama: Peer aracılığıyla saklamasız ZEC-fiat çıkışı. Korumalı ZEC gönderin ve 100'den fazla bölgede Venmo, Cash App, Revolut, Zelle, Chime ve Monzo gibi günlük ödeme uygulamalarında ödeme alın. CEX hesabı gerekmez; emanet işlemi, fiat ödeme kanıtının ardından tamamlanır.

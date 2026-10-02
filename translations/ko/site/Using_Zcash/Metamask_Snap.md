@@ -64,9 +64,10 @@ MetaMask에서 **Add Network**를 선택하고 다음을 입력합니다:
 **Zcash Mainnet**의 경우;
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks`는 [zec.rocks](https://zec.rocks) (@emersonian)가 운영하는 WebZjs 호환(gRPC-web) lightwalletd 서버입니다. 테스트넷에는 `https://zjs.zec.rocks/testnet`을 사용하세요. WebZjs 웹 지갑을 직접 실행하는 경우, 이는 `LIGHTWALLETD_PROXY`로 설정할 값입니다.
 
 ---
 

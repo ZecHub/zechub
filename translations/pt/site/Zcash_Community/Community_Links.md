@@ -45,8 +45,9 @@ Zcash tem uma presença global ativa no X. Principais contas para acompanhar:
 | [@zodl_app](https://x.com/zodl_app) | Carteira ZODL (anteriormente Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Atualizações da Zcash Foundation |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Comunidade Zcash Brasil |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash México |
 | [@ZcashTR](https://x.com/ZcashTR) | Zcash Turquia |
-| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
+| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arábia |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nigéria |
 | [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - podcast de Zcash em espanhol |
 | [@ZkAv_Club](https://x.com/ZkAv_Club) | Clube Audiovisual ZK |
@@ -59,6 +60,7 @@ Zcash tem uma presença global ativa no X. Principais contas para acompanhar:
 
 - [Zcash en Espanol](https://zcashesp.com) - Comunidade de língua espanhola (também no Bluesky após a suspensão no X)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Comunidade brasileira
+- [Zcash Mexico](https://x.com/ZcashMx) - Comunidade mexicana
 - [Zcash Turkey](https://x.com/ZcashTR) - Comunidade turca
 - [Zcash Arabia](https://x.com/ZcashArabia) - Comunidade de língua árabe
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - Comunidade nigeriana
@@ -71,8 +73,8 @@ Zcash tem uma presença global ativa no X. Principais contas para acompanhar:
 
 ## Recursos
 
-- [ZcashSite da Comunidade](https://www.zcashcommunity.com/)
-- [ZecHubWiki](https://zechub.wiki)
-- [ZcashHub de Grants](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [ZcashEmbaixadores Globais](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - visão geral do programa nesta wiki (zcashambassadors.com está offline)
-- [ZECRecompensas](https://bounties.zechub.wiki/)
+- [Zcash Site da Comunidade](https://www.zcashcommunity.com/)
+- [ZecHub Wiki](https://zechub.wiki)
+- [Zcash Hub de Grants](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Zcash Embaixadores Globais](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - visão geral do programa nesta wiki (zcashambassadors.com está offline)
+- [ZEC Bounties](https://bounties.zechub.wiki/)

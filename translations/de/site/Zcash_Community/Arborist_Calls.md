@@ -6,10 +6,19 @@
 
 Zcash Arborist Calls sind regelmäßige Treffen zur Protokollentwicklung mit Fokus auf der Planung von Netzwerk-Upgrades, der Arbeit an Konsens-Node-Implementierungen, Wallet- und Infrastruktur-Abhängigkeiten sowie Protokollforschung.
 
-Die offizielle Arborist-Calls-Seite wird von der Zcash Foundation gepflegt:
+Die offizielle Arborist Calls-Seite wird von der Zcash Foundation gepflegt:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
+
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    Durchsuche das Anrufarchiv
+  </a>
+</p>
 
 ## So nimmst du teil
 
@@ -23,9 +32,10 @@ Die Seite der Foundation ist die maßgebliche Quelle für Registrierungslinks, K
 ## Notizen, Tagesordnungen und Aufzeichnungen
 
 - Vollständige Tagesordnungen und Protokolle: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Durchsuchbares Archiv in diesem Wiki: [Arborist Calls Archiv](/arborist-calls)
 - Aktuelle Aufzeichnungen: [Zcash Arborist Call-Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash Forschung & Entwicklung Diskussion: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
-- Ausführliche Diskussionen: [Zcash Community Forum](https://forum.zcashcommunity.com/)
+- Zcash R&D-Diskussion: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- Ausführliche Diskussion: [Zcash Community Forum](https://forum.zcashcommunity.com/)
 
 ## Wer sollte teilnehmen
 

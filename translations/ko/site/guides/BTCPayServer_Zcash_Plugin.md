@@ -476,11 +476,28 @@ BTCPay Server가 사용자 정의 구성을 적용하고 지정한 `lightwalletd
 ### 1단계: Cloudflare Tunnel 설치하기
 
 1. [cloudflare.com](https://www.cloudflare.com)에서 계정을 만들고 도메인을 추가하세요.
-2. **홈 서버**에 Cloudflare Tunnel을 설치하세요:
+2. **홈 서버**에 Cloudflare의 공식 패키지 저장소를 사용하여 Cloudflare Tunnel을 설치하세요:
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+`apt install cloudflared`가 실패하면 대신 해당하는 `.deb`을(를) 설치하세요:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Cloudflare로 인증하세요:

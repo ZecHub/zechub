@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àwọn Àjọ tí kò ní àkóso ti ara wọn
+# Àwọn Pàṣípààrọ̀ Tí A Ṣẹ̀dá Kò sí Ààlà
 
-ZecHub kò fọwọ́ sí iṣẹ́ Àjọpín-ìṣàmúlò tí a pín fúnni, jọ̀ọ́ ṣe ìwádìí tìrẹ.
+ZecHub kò fọwọ́ sí iṣẹ́ ìyípadà owó pàtó kan, jọ̀wọ́ ṣe ìwádìí tìrẹ.
 
-Kálukú wọn. `###` orí kan wà nísàlẹ̀ yìí tó ń sọ nípa àwọn ohun tí a lè ṣe. https://zechub.wiki/dex.
-Fi àfikún, ṣàtúnyẹ̀wò tàbí yọ ìdì kan sílẹ̀ níbí; wiki yóò mú un láti inú fáìlì yìí.
+Olúkúlùkù `###` Àkọlé ìsàlẹ̀ yìí jẹ́ káàdì kan lórí https://zechub.wiki/dex.
+Fi kún, ṣàtúnṣe, tàbí yọ ìdènà kan kúrò níbí; wiki náà gbé e láti inú fáìlì yìí.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
-- Ojú-ìwé: https://app.near-intents.org/
-- Àlàyé: Ìpàdé ìyípadà pẹ̀lú ìrànlọ́wọ́ NEAR. Ṣẹda owó, ta, pààrọ̀ títí kan àwọn gbajúmọ TRUMP, MELANIA, BERA àti àwọn àdàkọ mìíràn
+- Oju opo wẹẹbu: https://near.com/
+- Àpèjúwe: Pààrọ̀ kíákíá pẹ̀lú ìrànlọ́wọ́ NEAR. Ṣe ìfowópamọ́, tà, pààrọ̀ pẹ̀lú TRUMP, MELANIA, BERA àti àwọn àwòrán míràn tó gbajúmọ̀
 
 ___
 
@@ -22,8 +22,8 @@ ___
 
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
-- Ojú-ìwé: https://nativeswap.io/
-- Àpèjúwe: Native Cross-Chain Trading Without Barriers via Maya Protocol. Ṣiṣowo taara lori pq lai awọn afara tabi ti a fi pamọ - gbadun owo ile ise kekere ati iṣakoso ohun ini pipe.
+- Oju opo wẹẹbu: https://nativeswap.io/
+- Àpèjúwe: Ìṣòwò Àgbélébùú Ìbílẹ̀ Láìsí Ìdènà nípasẹ̀ Maya Protocol. Ṣòwò taara lórí ẹ̀wọ̀n láìsí àwọn afárá tàbí àwọn àmì tí a fi wé - gbádùn owó ìnáwó kékeré ilé iṣẹ́ àti ìṣàkóso dúkìá pípé.
 
 ___
 
@@ -31,8 +31,8 @@ ___
 
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
-- Ojú-ìwé: https://github.com/firoorg/FiroDEX-Desktop
-- Àpèjúwe: Àwọn àdàkọ tí kò ní ìfọkànsí, èyí tó ń lo àwọn àdàkàdekè atomiki pẹ̀lú FiroDEX!.
+- Oju opo wẹẹbu: https://github.com/firoorg/FiroDEX-Desktop
+- Àpèjúwe: Àwọn ìyípadà tí kò ṣeé gbẹ́kẹ̀lé nípa lílo àwọn ìyípadà atomiki pẹ̀lú FiroDEX!.
 
 ___
 
@@ -40,8 +40,8 @@ ___
 
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
-- Ojú-ìwé: https://leodex.io
-- Àpèjúwe: Crosschain swaps wọlé àti jáde ZEC, tí a darí nípasẹ̀ THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay and Rango. Kò sí àkọọ́lẹ̀ kankan, kò sí KYC kan tàbí ìsopọ wallet tó nílò lórí àwọn ojú ọ̀nà tí ó wà lábẹ́ àtìgbàdégbà.
+- Oju opo wẹẹbu: https://leodex.io
+- Àpèjúwe: Crosschain ń yípadà sínú àti jáde láti ZEC, tí a ń yípadà kọjá THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay àti Rango. Kò sí àkọọ́lẹ̀, kò sí KYC, àti pé kò sí ìsopọ̀ àpò owó tí a nílò lórí àwọn ipa ọ̀nà tí a ń ṣe àtìlẹ́yìn.
 
 ___
 
@@ -49,8 +49,8 @@ ___
 
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
-- Ojú-ìwé: https://dex.decred.org/
-- Àpèjúwe: Ṣiṣowo crypto peer-to-peer. Ko si awọn idiyele iṣowo, ko si KYC.
+- Oju opo wẹẹbu: https://dex.decred.org/
+- Àpèjúwe: Ṣíṣòwò crypto peer-to-peer. Kò sí owó ìtajà. Kò sí KYC.
 
 ___
 
@@ -58,8 +58,8 @@ ___
 
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
-- Ojú-ìwé: https://app.thorswap.finance/
-- Àpèjúwe: DEX Cross-chain ti o ni agbara nipasẹ THORChain, n jẹ ki awọn paṣipaarọ abinibi laarin Bitcoin, Ethereum, ati awọn ohun elo pataki miiran laisi awọn ami ifọwọkan.
+- Oju opo wẹẹbu: https://app.thorswap.finance/
+- Àpèjúwe: DEX oní-ẹ̀rọ agbélébùú tí THORChain, èyí tí ó ń jẹ́ kí àwọn ìyípadà ìbílẹ̀ láàrín Bitcoin, Ethereum, àti àwọn dúkìá pàtàkì mìíràn láìsí àwọn àmì tí a fi wé.
 
 ___
 
@@ -67,17 +67,17 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Ojú-ìwé: https://app.routerprotocol.com/
-- Àpèjúwe: Ojú-ìwòye ìkápá owó tí ó gba ààyè láti gbé àwọn ohun èlò àti data lọ láìṣòro láàrin ọ̀pọ̀lọpọ̀ ẹka.
+- Oju opo wẹẹbu: https://app.routerprotocol.com/
+- Àpèjúwe: Ìpele gbigbe omi onípele-ẹ̀yà tí ó gba ààyè láti gbé ohun ìní àti ìgbesẹ̀ dátà láìsí ìṣòro láàrín ọ̀pọ̀lọpọ̀ blockchain.
 
 ___
 
-### Peer
+### Ẹgbẹ́
 
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
-- Ojú-ìwé: https://peer.xyz/
-- Àpèjúwe: Aṣayan paati-to-paati ti a ko ni idojukọ n jẹ ki awọn iṣowo crypto taara pẹlu aṣiri ati iṣakoso olumulo to dara.
+- Oju opo wẹẹbu: https://peer.xyz/
+- Àpèjúwe: Pààrọ̀-ọ̀rẹ́-sí-ẹgbẹ́ tí a pín sípò tí ó ń jẹ́ kí àwọn ìṣòwò crypto tààrà pẹ̀lú ìpamọ́ àti ìṣàkóso olùlò tí a mú sunwọ̀n síi.
 
 ___
 
@@ -85,8 +85,8 @@ ___
 
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
-- Ojú-ìwé: https://rocketx.exchange/
-- Àpèjúwe: Ẹrọ-ìkójọpọ DEX ti o jẹ ki awọn paṣipaarọ agbelebu kọja ọpọlọpọ blockchains pẹlu ọna opopona ati awọn oṣuwọn ifigagbaga.
+- Oju opo wẹẹbu: https://rocketx.exchange/
+- Àpèjúwe: Aládàpọ̀ DEX tó ń mú kí àwọn ìyípadà onípele-ẹ̀gbẹ́ kọjá oríṣiríṣi blockchain pẹ̀lú ọ̀nà ìdarí tó dára jùlọ àti àwọn owó ìdíje.
 
 ___
 
@@ -94,8 +94,8 @@ ___
 
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
-- Ojú-ìwé: https://swap.thorchain.org/
-- Àpèjúwe: Aṣayan ti a ko ni idapọ Layer 1 Cross-chain Exchange. Ṣipada awọn ohun elo abinibi bi ZEC, BTC ati ETH taara laisi afara, awọn ami ifibọ tabi alagbata.
+- Oju opo wẹẹbu: https://swap.thorchain.org/
+- Àpèjúwe: Pípàṣípààrọ̀ ẹ̀wọ̀n ìpele 1 tí a pín sí méjì. Pa dúkìá ìbílẹ̀ bíi ZEC, BTC, àti ETH tààrà láìsí àwọn afárá, àwọn àmì tí a fi wé, tàbí àwọn alárinà.
 
 ___
 
@@ -103,6 +103,19 @@ ___
 
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 
-- Ojú-ìwé: https://loofta.xyz/
-- Àpèjúwe: Owo-aje ti ko ni aabo ati pẹpẹ paṣipaarọ. Firanṣẹ ki o si gba crypto laibikita kọja awọn pq, pẹlu Zcash bi ipele idoko fun aṣiri owo to dara julọ.
+- Oju opo wẹẹbu: https://loofta.xyz/
+- Àpèjúwe: Ìsanwó àdáni tí kìí ṣe ti ilé ìpamọ́ àti ìyípadà. Fi kọ̀ǹpútà ránṣẹ́ kí o sì gba owó ìpamọ́ ní ìkọ̀kọ̀ ní gbogbo ẹ̀wọ̀n, pẹ̀lú Zcash gẹ́gẹ́ bí ìpele ìforúkọsílẹ̀ fún ìpamọ́ ìnáwó tí ó dára síi.
+
+
+___
+
+
+### ZcashToCash
+
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+
+
+
+- Oju opo wẹẹbu: https://zcashto.cash/
+- Àpèjúwe: Owó tí kìí ṣe ti ZEC-to-fiat láti ọwọ́ Peer. Fi ZEC tí a dáàbò bo ránṣẹ́ kí o sì gba owó ìsanwó nínú àwọn àpù ìsanwó ojoojúmọ́ bíi Venmo, Cash App, Revolut, Zelle, Chime, àti Monzo káàkiri àwọn agbègbè tó lé ní 100+. Kò sí àkọọ́lẹ̀ CEX tí a nílò; escrow parí lẹ́yìn ẹ̀rí ìsanwó fiat.
 
