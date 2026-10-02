@@ -67,7 +67,7 @@ Here's a list with some of the services already supporting Maya:
 
 [Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
 
-[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
+[El Dorado](https://web.archive.org/web/20240926211552/https://www.eldorado.market/): XDEFI, Keystore
 
 [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 

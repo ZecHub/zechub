@@ -22,7 +22,7 @@ When a user adds a file to IPFS, the file is broken up into small pieces called 
 
 This ensures redundancy and fault-tolerance while also making it difficult for any one node to become a single point of failure or control.
 
-**Read: [An Introduction to IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
+**Read: [An Introduction to IPFS](https://medium.com/@Consensys/an-introduction-to-ipfs-9bba4860abd0)**
 
 ## Creating your Site
 

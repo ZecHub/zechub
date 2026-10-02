@@ -36,13 +36,13 @@ Zcash mining pools are services that allow individual miners to combine their co
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [FlyPool](https://web.archive.org/web/20240304114538/https://zcash.flypool.org/)
 
-<a href="https://zcash.flypool.org/">
+<a href="https://web.archive.org/web/20240304114538/https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Website: [FlyPool](https://zcash.flypool.org/)
+- Website: [FlyPool](https://web.archive.org/web/20240304114538/https://zcash.flypool.org/)
 - Private Payouts: YES
 - Pool Type: Pay Per Last N 
 - Pool fee: 1%
@@ -114,13 +114,13 @@ Zcash mining pools are services that allow individual miners to combine their co
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
+### [Zhash](https://web.archive.org/web/20260420181428/https://zcash.zhash.pro/stats)
 
-<a href="https://zcash.zhash.pro/stats">
+<a href="https://web.archive.org/web/20260420181428/https://zcash.zhash.pro/stats">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
-- Website: [Zhash](https://zcash.zhash.pro/stats)
+- Website: [Zhash](https://web.archive.org/web/20260420181428/https://zcash.zhash.pro/stats)
 - Private Payouts: No
 - Pool Type: Pay Per Last N Shares
 - Pool fee: 0%
