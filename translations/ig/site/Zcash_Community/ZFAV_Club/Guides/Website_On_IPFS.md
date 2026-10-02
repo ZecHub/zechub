@@ -73,7 +73,7 @@ Ozugbo agbakwunyere faịlụ weebụsaịtị gị na IPFS, ịkwesịrị ** p
 "hash" = CID nke nchekwa ị gbakwunyere na nzọụkwụ gara aga.
 
 
-N'aka nke ọzọ, ị nwekwara ike itinye akwụkwọ ndekọ aha site na iji ọrụ dịka [Pinata](https://pinata.cloud) ma ọ bụ [Dolpin](https://dolpin.io)
+N'aka nke ọzọ, ị nwekwara ike itinye akwụkwọ ndekọ aha site na iji ọrụ dịka [Pinata](https://pinata.cloud) ma ọ bụ [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Ọ na-azọpụta anyị oge! 
 

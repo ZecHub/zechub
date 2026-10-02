@@ -11,8 +11,8 @@ published: 2024-01-12
 
 
 
-**[Firn Protocol](https://app.firn.cash/)**: Firn bụ ikpo okwu nzuzo efu nke mbụ na ụdị akaụntụ, ma webata nzuzo a na-ejikọta na ya, nke na-agbanwe agbanwe na usoro Ethereum. Site na iji ihe akaebe efu, Firn na-enye nzuzo ego nchekwa na nke dị irè maka ndị ọrụ nke Ethereum na L2s dabere na Ethereum. **OTÚ O SI Arụ Ọrụ?**
-Iji jiri Firn, tinye ETH n'ime usoro a. Ozugbo ị nwere ego Firn, ị nwere ike ibufe ego na ndị ọrụ Firn ndị ọzọ n'onwe gị, ma ọ bụ soro usoro ndị ọzọ, dị ka Uniswap. Ị nwekwara ike iwepụ ego na netwọk ahụ n'onwe gị. Firn na-ana obere ego, nke 0.79%, na ETH niile yana ndọta. A na-akwụ ụgwọ ndị a n'ụzọ kwekọrọ na ndị ji Firn Token - [Akwụkwọ ọcha](https://firn.cash/whitepaper.pdf) 
+**[Firn Protocol](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn bụ ikpo okwu nzuzo efu nke mbụ na ụdị akaụntụ, ma webata nzuzo a na-ejikọta na ya, nke na-agbanwe agbanwe na usoro Ethereum. Site na iji ihe akaebe efu, Firn na-enye nzuzo ego nchekwa na nke dị irè maka ndị ọrụ nke Ethereum na L2s dabere na Ethereum. **OTÚ O SI Arụ Ọrụ?**
+Iji jiri Firn, tinye ETH n'ime usoro a. Ozugbo ị nwere ego Firn, ị nwere ike ibufe ego na ndị ọrụ Firn ndị ọzọ n'onwe gị, ma ọ bụ soro usoro ndị ọzọ, dị ka Uniswap. Ị nwekwara ike iwepụ ego na netwọk ahụ n'onwe gị. Firn na-ana obere ego, nke 0.79%, na ETH niile yana ndọta. A na-akwụ ụgwọ ndị a n'ụzọ kwekọrọ na ndị ji Firn Token - [Akwụkwọ ọcha](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
 **[EGBÙ IGWE](https://railgun.org/):** Dịka nkwekọrịta smart nke oyi akwa-1, Railgun dị ka nnyefe nkeonwe na akụrụngwa DeFi n'ihi na Ethereum, Polygon, Binance Smart Chain, na Arbitrum dị.
@@ -24,7 +24,7 @@ Hazie obere akpa RAILGUN gị nke na-abụghị nke nchekwa, chebe ihe nrịbama
 
 **[Netwọk Manta](https://www.manta.network/):** Nzuzo N'elu Chain maka Web 3, DeFi na ndị ọzọ. Manta Atlantic, nke bụ usoro ZK L1 kachasị ọsọ, na-eweta nzuzo enwere ike ime na web3 site na nzuzo na njirimara dị n'elu chain. $MANTA nwere 1,000,000,000 nke na-enweghị usoro onu oriri. A ga-agba ihe nrịbama $MANTA ọkụ na akpaghị aka ozugbo agbapụtara ha - [Akwụkwọ ọcha](https://docs.manta.network/) 
 
-**[Boltz](https://boltz.exchange/):** Boltz bụ ngwọta Layer 2. Boltz bụ mgbanwe bitcoin nke mbụ, nke na-abụghị nke nchekwa nke e wuru iji jikọta akwa Bitcoin dị iche iche dịka netwọk mmiri mmiri na àmụ̀mà. Site na Boltz, ndị ọrụ nwere ike ịgbanwe bitcoin ha n'etiti akwa n'enweghị nsogbu. Boltz Swaps abụghị nke nchekwa, nke pụtara na ndị ọrụ nwere ike ijide n'aka na ha ga-enwe njikwa zuru oke nke bitcoin ha n'oge mgbanwe ahụ dum. [Akwụkwọ ọcha](https://docs.boltz.exchange/en/latest/) 
+**[Boltz](https://web.archive.org/web/20260820131421/https://boltz.exchange/):** Boltz bụ ngwọta Layer 2. Boltz bụ mgbanwe bitcoin nke mbụ, nke na-abụghị nke nchekwa nke e wuru iji jikọta akwa Bitcoin dị iche iche dịka netwọk mmiri mmiri na àmụ̀mà. Site na Boltz, ndị ọrụ nwere ike ịgbanwe bitcoin ha n'etiti akwa n'enweghị nsogbu. Boltz Swaps abụghị nke nchekwa, nke pụtara na ndị ọrụ nwere ike ijide n'aka na ha ga-enwe njikwa zuru oke nke bitcoin ha n'oge mgbanwe ahụ dum. [Akwụkwọ ọcha](https://docs.boltz.exchange/en/latest/) 
 
 
 **[ShadeProtocol](https://shadeprotocol.io/)**: Usoro Shade bụ usoro nke ngwa DeFi nke na-echekwa nzuzo nke ejirikọrọ na Secret Network. Ngwa ndị a bụ stablecoins, ọchịchị, bonds, staking derivatives, inshọransị, sịntetik, mbinye ego, DEXs, na ndị ọzọ - [Akwụkwọ ọcha]
@@ -48,7 +48,7 @@ Dịka ọmụmaatụ, tụlee ndepụta NFT na Solana; ọnọdụ ọha ya (d�
 ***
 
 
- **[FairySwap](https://fairyswap.finance/)**: FairySwap bụ DEX nzuzo nke ọgbọ ọhụrụ nke na-esote, nke obodo na-achịkwa nke na-agba mbọ ịbụ onye na-enweghị ikike na onye na-ekewapụ onwe ya. Site n'iji teknụzụ ihe akaebe efu nke e wuru na Findora, DEXs nzuzo, na Dapps dị ka FairySwap na-enye ndị ọrụ ohere ịhọrọ ozi ha chọrọ ka a hụ na blockchain ọha, na ihe ha ga-achọ ichebe. Enwere ike iji ihe akaebe efu nke ozi ha chọrọ ka a ghara ịhụ anya kwado ya n'ihu ọha na-ekpugheghị nkọwa ọ bụla - **Mgbanwe Akụrụngwa**: Ee - [Akwụkwọ ọcha](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+ **[FairySwap](https://web.archive.org/web/20240810094007/https://fairyswap.finance/)**: FairySwap bụ DEX nzuzo nke ọgbọ ọhụrụ nke na-esote, nke obodo na-achịkwa nke na-agba mbọ ịbụ onye na-enweghị ikike na onye na-ekewapụ onwe ya. Site n'iji teknụzụ ihe akaebe efu nke e wuru na Findora, DEXs nzuzo, na Dapps dị ka FairySwap na-enye ndị ọrụ ohere ịhọrọ ozi ha chọrọ ka a hụ na blockchain ọha, na ihe ha ga-achọ ichebe. Enwere ike iji ihe akaebe efu nke ozi ha chọrọ ka a ghara ịhụ anya kwado ya n'ihu ọha na-ekpugheghị nkọwa ọ bụla - **Mgbanwe Akụrụngwa**: Ee - [Akwụkwọ ọcha](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKsync](https://zksync.io/)**: ZKsync bụ ngwọta nhazi nke Layer 2 na Ethereum nke na-enye obere gas na azụmahịa ngwa ngwa, na-enweghị imebi nchekwa. Ndị mmadụ nwere ike ịdọrọ akụ na Layer 1 n'oge ọ bụla. Iji nweta usoro ZKsync dum ma rite uru na azụmahịa dị ọnụ ala na ozugbo, ị ga-ebu ụzọ chọọ [obere akpa dị ka Argent](https://argent.link/zksync). Na-enweghị obere akpa ego, ị gaghị enwe ike ịbanye na netwọk ahụ n'ihi na ọ gaghị ekwe omume ịnweta ZKsync site na mgbanwe dịka Coinbase ma ọ bụ Binance. Obere akpa ego na-enye gị ụzọ dị mfe iji zụta, ree, na chekwaa crypto ma nweta ahụmịhe ụwa na-atọ ụtọ nke DeFi, NFTs, na ọtụtụ ihe ndị ọzọ - **Mgbanwe Akụrụngwa**: Ee - [Akwụkwọ ọcha](https://docs.zksync.io/) - ![ZKsync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)

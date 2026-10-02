@@ -69,7 +69,7 @@ Se si usa il terminale, eseguire il comando: Se si usa il Terminale, eseguire il
 "hash" = CID della cartella aggiunta nel passaggio precedente.
 
 
-In alternativa, è anche possibile eseguire il pin delle directory utilizzando servizi come [Pinata](https://pinata.cloud) o [Dolpin](https://dolpin.io).
+In alternativa, è anche possibile eseguire il pin delle directory utilizzando servizi come [Pinata](https://pinata.cloud) o [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/).
 
 Si risparmia un sacco di tempo! 
 

@@ -69,7 +69,7 @@ If using Terminal, Run command: If using Terminal, Run command: ipfs pin add **h
 
 **hash** = CID of the folder you added in the previous step.
 
-Alternatively, you are also able to pin directories using services such as [Pinata](https://pinata.cloud/) or [Dolpin](https://dolpin.io/)
+Alternatively, you are also able to pin directories using services such as [Pinata](https://pinata.cloud/) or [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 It saves a lot of time!
 

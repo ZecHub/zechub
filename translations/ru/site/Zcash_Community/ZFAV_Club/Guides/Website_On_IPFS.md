@@ -73,7 +73,7 @@ IPFS (InterPlanetary File System) — это одноранговый прото
 "hash" = CID папки, которую вы добавили на предыдущем шаге.
 
 
-Кроме того, вы также можете закреплять директории с помощью таких сервисов, как [Pinata](https://pinata.cloud) или [Dolpin](https://dolpin.io)
+Кроме того, вы также можете закреплять директории с помощью таких сервисов, как [Pinata](https://pinata.cloud) или [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Это экономит много времени!
 

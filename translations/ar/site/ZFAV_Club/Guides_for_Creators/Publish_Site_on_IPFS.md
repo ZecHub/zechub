@@ -69,7 +69,7 @@
 
 **hash** = CID الخاص بالمجلد الذي أضفته في الخطوة السابقة.
 
-بدلًا من ذلك، يمكنك أيضًا تثبيت الأدلة باستخدام خدمات مثل [Pinata](https://pinata.cloud/) أو [Dolpin](https://dolpin.io/)
+بدلًا من ذلك، يمكنك أيضًا تثبيت الأدلة باستخدام خدمات مثل [Pinata](https://pinata.cloud/) أو [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 فهذا يوفر الكثير من الوقت!
 

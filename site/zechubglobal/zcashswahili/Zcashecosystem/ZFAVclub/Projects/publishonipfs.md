@@ -59,7 +59,7 @@ Ikiwa unatumia Kielelezo cha Amri, Chalaza amri: <mark>ipfs pin add "hash"</mark
 
 "hash" = CID  ya saraka uliyoongeza katika hatua iliyotangulia.
 
-Kwa kuongezea, unaweza pia kuzifunga saraka kwa kutumia huduma kama vile [Pinata](https://pinata.cloud) au [Dolpin](https://dolpin.io)
+Kwa kuongezea, unaweza pia kuzifunga saraka kwa kutumia huduma kama vile [Pinata](https://pinata.cloud) au [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Ita okoa muda mwingi! 
 

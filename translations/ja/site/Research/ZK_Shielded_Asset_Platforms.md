@@ -11,8 +11,8 @@ published: 2024-01-12
 
 
 
-**[Firn Protocol](https://app.firn.cash/)**: Firn は、アカウントベースモデルにおける史上初のゼロ知識プライバシープラットフォームであり、Ethereum ベースのチェーンにプラグイン可能で柔軟なプライバシーを導入します。ゼロ知識証明を用いることで、Firn は Ethereum および Ethereum ベースの L2 のユーザーに対し、安全で効率的な資金プライバシーを提供します。**どのように機能するのか？**
-Firn を利用するには、プロトコルに ETH を入金します。Firn の残高を持つと、他の Firn ユーザーへ資金をプライベートに送金したり、Uniswap のような他のプロトコルを利用したりできます。また、資金をネットワークへプライベートに引き出すこともできます。Firn は、すべての ETH 出金に対して 0.79% の少額手数料を課します。これらの手数料は、Firn Token の保有者に比例配分されます - [ホワイトペーパー](https://firn.cash/whitepaper.pdf)
+**[Firn Protocol](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn は、アカウントベースモデルにおける史上初のゼロ知識プライバシープラットフォームであり、Ethereum ベースのチェーンにプラグイン可能で柔軟なプライバシーを導入します。ゼロ知識証明を用いることで、Firn は Ethereum および Ethereum ベースの L2 のユーザーに対し、安全で効率的な資金プライバシーを提供します。**どのように機能するのか？**
+Firn を利用するには、プロトコルに ETH を入金します。Firn の残高を持つと、他の Firn ユーザーへ資金をプライベートに送金したり、Uniswap のような他のプロトコルを利用したりできます。また、資金をネットワークへプライベートに引き出すこともできます。Firn は、すべての ETH 出金に対して 0.79% の少額手数料を課します。これらの手数料は、Firn Token の保有者に比例配分されます - [ホワイトペーパー](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
 **[RAILGUN](https://railgun.org/):** レイヤー1スマートコントラクトとして、Railgun は Ethereum、Polygon、Binance Smart Chain、Arbitrum 上に存在する、プライベート送金および DeFi インフラです。
@@ -24,7 +24,7 @@ Firn を利用するには、プロトコルに ETH を入金します。Firn �
 
 **[Manta Network](https://www.manta.network/):** Web 3、DeFi などのためのオンチェーンプライバシー。最速の ZK L1 チェーンである Manta Atlantic は、コンプライアンス対応のオンチェーンプライバシーとアイデンティティを通じて、web3 にプログラム可能なプライバシーをもたらします。$MANTA の供給量は 1,000,000,000 で固定されており、インフレのスケジュールはありません。$MANTA トークンは償還されるとすぐに自動的にバーンされます - [ホワイトペーパー](https://docs.manta.network/) 
 
-**[Boltz](https://boltz.exchange/):**  Boltz はレイヤー2ソリューションです。Boltz は、Liquid や Lightning Network のような Bitcoin の異なるレイヤーを橋渡しするために構築された、プライバシー重視のノンカストディアル Bitcoin 取引所です。Boltz を使うことで、ユーザーは Bitcoin をレイヤー間でシームレスに交換できます。Boltz Swaps はノンカストディアルであるため、ユーザーはスワップの全過程を通じて常に自分の Bitcoin を完全に管理できるという安心感を持てます  [ホワイトペーパー](https://docs.boltz.exchange/en/latest/) 
+**[Boltz](https://web.archive.org/web/20260820131421/https://boltz.exchange/):**  Boltz はレイヤー2ソリューションです。Boltz は、Liquid や Lightning Network のような Bitcoin の異なるレイヤーを橋渡しするために構築された、プライバシー重視のノンカストディアル Bitcoin 取引所です。Boltz を使うことで、ユーザーは Bitcoin をレイヤー間でシームレスに交換できます。Boltz Swaps はノンカストディアルであるため、ユーザーはスワップの全過程を通じて常に自分の Bitcoin を完全に管理できるという安心感を持てます  [ホワイトペーパー](https://docs.boltz.exchange/en/latest/) 
 
 
 **[ShadeProtocol](https://shadeprotocol.io/)**: Shade Protocol は Secret Network 上に構築された、相互接続されたプライバシー保護型 DeFi アプリケーション群からなるレイヤー2です。主なアプリケーションには、ステーブルコイン、ガバナンス、債券、ステーキング派生資産、保険、シンセティクス、レンディング、DEX などがあります  - [ホワイトペーパー]
@@ -48,7 +48,7 @@ Firn を利用するには、プロトコルに ETH を入金します。Firn �
 ***
 
 
-**[FairySwap](https://fairyswap.finance/)**: FairySwap は、パーミッションレスかつ分散型であることに取り組む、次世代のコミュニティ主導型プライバシー DEX のレイヤー1です。Findora に組み込まれたゼロ知識証明技術を活用することで、FairySwap のようなプライバシー DEX や Dapps は、公開ブロックチェーン上でどの情報を可視化し、どの情報をシールドしたいかをユーザー自身が選べるようにします。見えないようにしたい情報も、詳細を明かすことなくゼロ知識証明で公開検証できます - **資産スワップ**: はい - [ホワイトペーパー](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+**[FairySwap](https://web.archive.org/web/20240810094007/https://fairyswap.finance/)**: FairySwap は、パーミッションレスかつ分散型であることに取り組む、次世代のコミュニティ主導型プライバシー DEX のレイヤー1です。Findora に組み込まれたゼロ知識証明技術を活用することで、FairySwap のようなプライバシー DEX や Dapps は、公開ブロックチェーン上でどの情報を可視化し、どの情報をシールドしたいかをユーザー自身が選べるようにします。見えないようにしたい情報も、詳細を明かすことなくゼロ知識証明で公開検証できます - **資産スワップ**: はい - [ホワイトペーパー](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKsync](https://zksync.io/)**: ZKsync は Ethereum 上のレイヤー2スケーリングソリューションであり、安全性を損なうことなく低ガス代と高速トランザクションを提供します。ユーザーはいつでも資産をレイヤー1へ引き出すことができます。ZKsync エコシステム全体にアクセスし、安価で即時のトランザクションの恩恵を受けるには、まず [Argent のようなウォレット](https://argent.link/zksync) が必要です。ウォレットがなければ、Coinbase や Binance のような取引所経由では ZKsync にアクセスできないため、ネットワークに参加することはできません。ウォレットは、暗号資産の購入、売却、保管を簡単にし、DeFi、NFT などの刺激的な世界を体験するための手軽な手段を提供します - **資産スワップ**: はい - [ホワイトペーパー](https://docs.zksync.io/) - ![ZKsync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)

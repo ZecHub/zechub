@@ -69,7 +69,7 @@ Ti o ba nlo Terminal, Ṣiṣẹ aṣẹ: Ti o bá nlo terminal, Ṣiṣe aṣ�
 
 **hash** = CID ti àpamọ́ tí o fi kún un ní ìgbésẹ̀ tó ṣáájú.
 
-Ni omiiran, o tun ni anfani lati pin awọn itọnisọna lilo awọn iṣẹ bii [Pinata](https://pinata.cloud/) tàbí [Dolpin](https://dolpin.io/)
+Ni omiiran, o tun ni anfani lati pin awọn itọnisọna lilo awọn iṣẹ bii [Pinata](https://pinata.cloud/) tàbí [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Ó máa ń dín àkókò kù gan-an!
 

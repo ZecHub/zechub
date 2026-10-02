@@ -69,7 +69,7 @@ Wenn du das Terminal verwendest, führe den Befehl aus: Wenn du das Terminal ver
 
 **hash** = CID des Ordners, den du im vorherigen Schritt hinzugefügt hast.
 
-Alternativ kannst du Verzeichnisse auch mit Diensten wie [Pinata](https://pinata.cloud/) oder [Dolpin](https://dolpin.io/) anheften.
+Alternativ kannst du Verzeichnisse auch mit Diensten wie [Pinata](https://pinata.cloud/) oder [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/) anheften.
 
 Das spart viel Zeit!
 

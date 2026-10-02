@@ -73,7 +73,7 @@ Ne èle Terminal zãm la, Run sedede: Ne èle Terminal zãm la, Run sedede: <mar
 "hash" = CID na agbalẽdzraɖoƒe si nètsɔ kpe ɖe eŋu le afɔɖeɖe si do ŋgɔ me.
 
 
-Alo, àte ŋu atsɔ dɔwɔƒewo abe [Pinata](https://pinata.cloud) alo [Dolpin](https://dolpin.io)
+Alo, àte ŋu atsɔ dɔwɔƒewo abe [Pinata](https://pinata.cloud) alo [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Eɖea ɣeyiɣi geɖe dzi kpɔtɔna! 
 
