@@ -135,7 +135,7 @@ ZecHub का लक्ष्य एक open-source शिक्षा कें
 
 हम ecosystem का साप्ताहिक न्यूज़लेटर तैयार करते हैं। यह जुड़ने का बहुत आसान तरीका है! न्यूज़लेटर हर शुक्रवार या शनिवार को भेजा जाता है। यदि आप न्यूज़लेटर लिखना चाहते हैं, तो उन्हें बताने के लिए Discord के #zecweekly सेक्शन में @squirrel को संदेश भेजें।
 
-ऐसा करने के बाद, आप इस repository के [न्यूज़लेटर सेक्शन](/newsletter/newsletterbasics.md) में जाकर न्यूज़लेटर का नया संस्करण बनाने के लिए pull request सबमिट कर सकते हैं। कृपया इस [टेम्पलेट](/newsletter/newslettertemplate.md) में उपयोग किए गए प्रारूप का पालन करें।
+ऐसा करने के बाद, आप इस repository के [न्यूज़लेटर सेक्शन](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) में जाकर न्यूज़लेटर का नया संस्करण बनाने के लिए pull request सबमिट कर सकते हैं। कृपया इस [टेम्पलेट](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) में उपयोग किए गए प्रारूप का पालन करें।
 
 ऐसा करने के बाद @squirrel या (Discord में) देखेंगे कि आपके न्यूज़लेटर का नया संस्करण उपलब्ध है, और वे उसकी समीक्षा करके उसे repository में मर्ज करेंगे। मर्ज होने के बाद, वे सामग्री लेंगे और उसे Substack के माध्यम से पोस्ट करेंगे।
 

@@ -135,7 +135,7 @@ Si descubres que un enlace está roto o que algo importante está mal escrito, v
 
 Producimos el boletín semanal del ecosistema. ¡Esta es una forma muy sencilla de involucrarte! El boletín se publica cada viernes o sábado. Si quieres escribir un boletín, escribe a @squirrel en la sección #zecweekly de Discord para avisarle.
 
-Después de hacerlo, puedes ir a la [sección del boletín de este repositorio](/newsletter/newsletterbasics.md) y enviar un pull request para crear una nueva edición del boletín. Sigue el formato utilizado en esta [plantilla](/newsletter/newslettertemplate.md).
+Después de hacerlo, puedes ir a la [sección del boletín de este repositorio](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) y enviar un pull request para crear una nueva edición del boletín. Sigue el formato utilizado en esta [plantilla](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Después de hacerlo, @squirrel o (en Discord) verá que tu nueva edición del boletín está disponible, la revisará y luego la fusionará con el repositorio. Después de que se haya fusionado, tomará el contenido y lo publicará a través de Substack.
 

@@ -135,7 +135,7 @@ Sɛ wuhu sɛ link bi asɛe, anaasɛ wɔakyerɛw biribi a ɛho hia wɔ ɔkwan a �
 
 Yɛyɛ abɔde a nkwa wom ho nsɛmma nhoma dapɛn biara. Eyi yɛ super low lift / ɔkwan a ɛyɛ mmerɛw a wobɛfa so de wo ho ahyɛ mu! Nsɛmma nhoma no pue Fida anaa Kwasida biara. Sɛ wopɛ sɛ wokyerɛw nsɛmma nhoma a, message @squirrel wɔ #zecweekly fã a ɛwɔ Discord no mu na ma wɔnhu.
 
-Sɛ woyɛ saa wie a, wubetumi akɔ [nsɛmma nhoma fã a ɛwɔ saa adekorabea yi mu](/newsletter/newsletterbasics.md) na fa twe adesrɛ bɛmena sɛ wɔmfa nyɛ nsɛmma nhoma no foforo. Yɛsrɛ sɛ di ɔkwan a wɔfa so yɛ adwuma wɔ eyi mu no akyi [nsusuwso](/newsletter/newslettertemplate.md).
+Sɛ woyɛ saa wie a, wubetumi akɔ [nsɛmma nhoma fã a ɛwɔ saa adekorabea yi mu](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) na fa twe adesrɛ bɛmena sɛ wɔmfa nyɛ nsɛmma nhoma no foforo. Yɛsrɛ sɛ di ɔkwan a wɔfa so yɛ adwuma wɔ eyi mu no akyi [nsusuwso](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Sɛ woyɛ eyi wie a @squirrel anaa (wɔ Discord) bɛhunu sɛ wo nsɛmma nwoma foforɔ no wɔ hɔ, na wɔbɛhwɛ mu na afei wɔaka abom akɔ akoraeɛ no mu. Sɛ wɔka bom wie a, wɔbɛfa emu nsɛm no na wɔde afa Substack so akɔ.
 

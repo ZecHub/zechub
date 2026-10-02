@@ -135,7 +135,7 @@ ZecHub의 목표는 Zcash 커뮤니티의 누구나 기여할 수 있는 오픈 
 
 우리는 생태계의 주간 뉴스레터를 제작합니다. 이는 매우 부담이 적고 쉽게 참여할 수 있는 방법입니다! 뉴스레터는 매주 금요일 또는 토요일에 발송됩니다. 뉴스레터를 작성하고 싶다면 Discord의 #zecweekly 섹션에서 @squirrel에게 메시지를 보내 알려주세요.
 
-그런 다음 [이 저장소의 뉴스레터 섹션](/newsletter/newsletterbasics.md)으로 이동하여 새 뉴스레터 호를 만드는 풀 리퀘스트를 제출할 수 있습니다. 이 [템플릿](/newsletter/newslettertemplate.md)에서 사용된 형식을 따라주세요.
+그런 다음 [이 저장소의 뉴스레터 섹션](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md)으로 이동하여 새 뉴스레터 호를 만드는 풀 리퀘스트를 제출할 수 있습니다. 이 [템플릿](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md)에서 사용된 형식을 따라주세요.
 
 이 작업을 마치면 @squirrel 또는 (Discord에서) 새 뉴스레터 호가 준비된 것을 확인하고, 검토한 뒤 저장소에 병합할 것입니다. 병합된 후에는 콘텐츠를 가져와 Substack을 통해 게시합니다.
 
