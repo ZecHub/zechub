@@ -9,9 +9,9 @@ ZecHub meda asi ɖe Decentralized Exchange subɔsubɔdɔ aɖeke koŋ dzi o, tafl
 Ɖe sia ɖe `###` tanya si le ete la nye agbalẽvi ɖeka le https://zechub.wiki/dex.
 Tsɔ mɔxenu aɖe kpee, trɔ asi le eŋu, alo ɖee ɖa le afisia; wiki la fɔe tso faɛl sia me.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://near.com/
 - Numeɖeɖe: Nuwo ɖɔliɖɔli kabakaba kple NEAR ƒe kpekpeɖeŋu. Wɔ deposits, dzra, swap siwo dometɔ aɖewoe nye TRUMP, MELANIA, BERA kple meme xɔŋkɔwo
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://github.com/firoorg/FiroDEX-Desktop
-- Numeɖeɖe: Decentralized swaps siwo ŋu kakaɖedzi mele o siwo zãa atɔm swaps kple FiroDEX!.
+- Numeɖeɖe: Kakaɖedzimanɔmee decentralized swaps zãa atɔm swaps kple FiroDEX!.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://swap.thorchain.org/
-- Numeɖeɖe: Decentralized Layer 1 atitsoga-kɔsɔkɔsɔ ƒe asitɔtrɔ. Trɔ asi le dzɔdzɔme nunɔamesiwo abe ZEC, BTC, kple ETH ene tẽ tɔdzisasrãwo, dzesi siwo woxatsa, alo domenɔlawo manɔmee.
+- Numeɖeɖe: Decentralized Layer 1 atitsoga-kɔsɔkɔsɔ ƒe asitɔtrɔ. Trɔ asi le dukɔa me nunɔamesiwo abe ZEC, BTC, kple ETH ene tẽ tɔdzisasrãwo, dzesi siwo woxatsa, alo domenɔlawo manɔmee.
 
 ___
 

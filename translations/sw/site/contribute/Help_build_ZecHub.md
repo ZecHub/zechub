@@ -23,9 +23,26 @@ Tafsiri yoyote kati ya kurasa zilizopo za wiki.
 
 Kuripoti hitilafu
 
-#### Kwa maelezo zaidi kuhusu kiasi cha fadhila, tafadhali soma ukurasa wetu wa kuchangia -> [hapa](https://zechub.wiki/contribute/contributing-guide#content).
+### Zawadi
 
-Tunachapisha matoleo ya kazi ambazo kwa sasa tuna zawadi zinazofunguliwa kila Jumatatu. Unaweza kupendekeza zawadi pia! Kimsingi hizi zinapatikana katika ZEC Bounties.
+Kiasi hakijawekwa katika ZEC. Tumia [sera ya kiasi cha fadhila](https://bounties.zechub.wiki/docs/bounty-amounts): chagua muda wa USD kwa darasa la kazi, badilisha papo hapo, ingiza ZEC ubaoni. Sera hiyo ndiyo chanzo cha ukweli.
+
+Mtiririko wa kazi wa wachangiaji na aina za kazi: [Kuchangia ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Muhtasari wa jukwaa:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Tunachapisha kazi zilizo wazi kwenye [ZEC Bounties](https://bounties.zechub.wiki/). Unaweza kupendekeza zawadi hapo pia. PR iliyounganishwa si sawa na zawadi iliyoidhinishwa au kulipwa.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

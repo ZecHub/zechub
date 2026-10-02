@@ -23,15 +23,32 @@ Traduce cualquiera de las páginas existentes de la wiki.
 
 Reportar errores
 
-#### Para conocer los detalles sobre los montos de las recompensas, por favor lee nuestra página de contribuciones -> [aquí](https://zechub.wiki/contribute/contributing-guide#content).
+### Recompensas
 
-Publicamos issues para las tareas que actualmente tienen recompensas abiertas todos los lunes. ¡También puedes sugerir recompensas! Principalmente, estas se encuentran en ZEC Bounties.
+Los importes no son fijos en ZEC. Usa la [política de importes de recompensas](https://bounties.zechub.wiki/docs/bounty-amounts): elige un intervalo en USD para la categoría de trabajo, conviértelo al precio spot e ingresa ZEC en el tablero. Esa política es la fuente de referencia.
+
+Flujo de trabajo de los colaboradores y tipos de trabajo: [Contribuir a ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Guía de la plataforma:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Publicamos tareas abiertas en [ZEC Bounties](https://bounties.zechub.wiki/). También puedes sugerir recompensas allí. Que un PR se fusione no significa que se apruebe o pague una recompensa.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 
-[Recompensas de ZEC](https://bounties.zechub.wiki/)
+[ZEC Bounties](https://bounties.zechub.wiki/)
 
 [Issues de Github de ZecHub](https://github.com/ZecHub/zechub/issues)
 

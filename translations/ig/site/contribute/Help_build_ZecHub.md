@@ -23,9 +23,26 @@ Tụgharịa peeji wiki ọ bụla dị adị.
 
 Ịkọpụta nsogbu
 
-#### Maka nkọwa gbasara ego onyinye, biko gụọ ibe onyinye anyị -> [Ebe a](https://zechub.wiki/contribute/contributing-guide#content).
+### Ụgwọ ọrụ
 
-Anyị na-etinye okwu maka ọrụ ndị anyị nwere ugbu a onyinye amara kwa Mọnde. Ị nwekwara ike ịtụ aro onyinye amara! Nke kachasị bụ na ZEC Bounties.
+A naghị edozi ego na ZEC. Jiri ya [amụma ego onyinye](https://bounties.zechub.wiki/docs/bounty-amounts): họrọ oge USD maka klaasị ọrụ ahụ, tụgharịa n'ebe ahụ, tinye ZEC na bọọdụ ahụ. Amụma ahụ bụ isi iyi nke eziokwu.
+
+Usoro ọrụ nke onye na-enye onyinye na ụdị ọrụ ya: [Inye aka na ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Usoro ikpo okwu:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Anyị na-etinye ọrụ mepere emepe na [ZEC Bounties](https://bounties.zechub.wiki/). I nwekwara ike ịtụ aro ihe nrite n'ebe ahụ. Njikọta PR abụghị otu ihe ahụ dị ka ụgwọ ọrụ akwadoro ma ọ bụ nke a kwụrụ.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

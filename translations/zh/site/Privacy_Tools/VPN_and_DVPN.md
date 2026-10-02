@@ -71,6 +71,8 @@ Zcash (ZEC) 是一种为增强隐私而设计的加密货币，因此受到希�
 
    __强隐私__：Nym VPN 在设计时充分考虑了隐私，且不要求用户在创建账户时提供个人信息。
 
+有关 Zcash 钱包专用路由，请参阅 [通过 Nym Mixnet 路由 Zcash 钱包流量](./Nym_Mixnet_Wallet_Setup.md)。
+
 ## 其他支持 zcash 支付的 VPN：-
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)

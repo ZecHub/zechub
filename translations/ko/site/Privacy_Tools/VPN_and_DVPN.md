@@ -66,6 +66,8 @@ Zcash(ZEC)는 금융 거래에서 향상된 프라이버시를 제공하도록 �
 
    __강력한 프라이버시__: Nym VPN은 프라이버시에 중점을 두고 있으며, 계정 생성 시 개인 정보 제공이 필요하지 않습니다.
 
+Zcash 지갑별 라우팅에 대해서는 [Nym 믹스넷을 통해 Zcash 지갑 트래픽 라우팅하기](./Nym_Mixnet_Wallet_Setup.md)을(를) 참조하세요.
+
 ## Zcash 결제를 지원하는 다른 VPN:
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)

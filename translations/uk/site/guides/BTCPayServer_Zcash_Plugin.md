@@ -476,11 +476,28 @@ BTCPay Server застосує вашу спеціальну конфігура�
 ### Крок 1: Встановіть Cloudflare Tunnel
 
 1. Створіть обліковий запис на [cloudflare.com](https://www.cloudflare.com) і додайте свій домен.
-2. На вашому **домашньому сервері** встановіть Cloudflare Tunnel:
+2. На вашому **домашньому сервері** встановіть Cloudflare Tunnel за допомогою офіційного репозиторію пакетів Cloudflare:
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+Якщо `apt install cloudflared` не спрацьовує, натомість установіть відповідний `.deb`:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Пройдіть автентифікацію в Cloudflare:

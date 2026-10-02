@@ -9,9 +9,9 @@ ZecHub anaghị akwado ọrụ mgbanwe Decentralized ọ bụla, biko mee nyocha
 Nke ọ bụla `###` isi okwu dị n'okpuru bụ otu kaadị dị na ya https://zechub.wiki/dex.
 Tinye, dezie, ma ọ bụ wepụ ngọngọ ebe a; wiki ahụ na-ewepụta ya na faịlụ a.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Weebụsaịtị: https://near.com/
 - Nkọwa: Mgbanwe ngwa ngwa site na nkwado nke NEAR. Mee ego, ree, gbanwee, tinyere TRUMP, MELANIA, BERA na memes ndị ọzọ ama ama

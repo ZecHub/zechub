@@ -23,9 +23,26 @@ Kyerɛ wiki nkratafa a ɛwɔ hɔ dedaw no mu biara ase.
 
 Mfomso ahorow a wɔbɔ ho amanneɛ
 
-#### Sɛ wopɛ bounty amounts ho nsɛm a, yɛsrɛ wo kenkan yɛn ntoboa krataafa -> [ha](https://zechub.wiki/contribute/contributing-guide#content).
+### Akatua a wɔde ma
 
-Yɛde nsɛmma nhoma to gua ma nnwuma a mprempren yɛwɔ bounties a wɔabue Memeneda biara. Wubetumi nso ahyɛ nyansa sɛ wɔmfa bounties mma! Eyinom titiriw na wohu wɔ ZEC Bounties.
+Wɔnhyɛ sika dodow wɔ ZEC. Fa no di dwuma [bounty sika a wɔde ma ho nhyehyɛe](https://bounties.zechub.wiki/docs/bounty-amounts): paw USD ntamgyinafo ma adwuma adesuakuw no, dannan no wɔ beae hɔ, hyɛ ZEC wɔ board no so. Saa nhyehyɛe no ne nokware fibea.
+
+Contributor adwumayɛ ne adwuma ahorow: [Ɔreboa ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Asɛnka agua so nantew:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Yɛde nnwuma a wɔabue gu so [ZEC Bounties](https://bounties.zechub.wiki/). Wubetumi ahyɛ bounties ho nyansa wɔ hɔ nso. PR a wɔaka abom ne akatua a wɔapene so anaa wɔatua no nyɛ ade koro.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

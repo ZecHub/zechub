@@ -64,9 +64,10 @@ Isso habilita informações da rede e links do explorador.
 Para a **Zcash Mainnet**;
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks` é um servidor lightwalletd compatível com WebZjs (gRPC-web), operado por [zec.rocks](https://zec.rocks) (@emersonian). Para a testnet, use `https://zjs.zec.rocks/testnet`. Se executar você mesmo a carteira web WebZjs, este é o valor a definir como `LIGHTWALLETD_PROXY`.
 
 ---
 

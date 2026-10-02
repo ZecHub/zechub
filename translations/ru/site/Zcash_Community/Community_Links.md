@@ -45,11 +45,12 @@ Zcash имеет активное глобальное присутствие в
 | [@zodl_app](https://x.com/zodl_app) | Кошелёк ZODL (ранее Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Обновления Zcash Foundation |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Бразильское сообщество Zcash |
-| [@ZcashTR](https://x.com/ZcashTR) | Zcash Turkey |
-| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
-| [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nigeria |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash Мексики |
+| [@ZcashTR](https://x.com/ZcashTR) | Zcash Турции |
+| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Аравии |
+| [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Нигерии |
 | [@ZcastEsp](https://x.com/ZcastEsp) | Zcast — испаноязычный подкаст о Zcash |
-| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
+| [@ZkAv_Club](https://x.com/ZkAv_Club) | Аудиовизуальный клуб ZK |
 | [@cipherscan_app](https://x.com/cipherscan_app) | Блокчейн-обозреватель CipherScan |
 | [@zerodartz](https://x.com/Zerodartz) | Мемы и комментарии сообщества |
 
@@ -59,6 +60,7 @@ Zcash имеет активное глобальное присутствие в
 
 - [Zcash en Espanol](https://zcashesp.com) - Испаноязычное сообщество (также в Bluesky после блокировки в X)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Бразильское сообщество
+- [Zcash Mexico](https://x.com/ZcashMx) - Мексиканское сообщество
 - [Zcash Turkey](https://x.com/ZcashTR) - Турецкое сообщество
 - [Zcash Arabia](https://x.com/ZcashArabia) - Арабоязычное сообщество
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - Нигерийское сообщество
@@ -71,8 +73,8 @@ Zcash имеет активное глобальное присутствие в
 
 ## Ресурсы
 
-- [Сайт сообщества Zcash](https://www.zcashcommunity.com/)
-- [Вики ZecHub](https://zechub.wiki)
-- [Центр грантов Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Глобальные амбассадоры Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors) — обзор программы в этой вики (zcashambassadors.com недоступен)
-- [ZEC Вознаграждения](https://bounties.zechub.wiki/)
+- [ZcashСайт сообщества](https://www.zcashcommunity.com/)
+- [ZecHubВики](https://zechub.wiki)
+- [ZcashЦентр грантов](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [ZcashГлобальные амбассадоры](https://zechub.wiki/zcash-community/zcash-global-ambassadors) — обзор программы в этой вики (zcashambassadors.com недоступен)
+- [ZEC Bounties](https://bounties.zechub.wiki/)

@@ -9,9 +9,9 @@ ZecHub не поддерживает какую-либо конкретную д
 Каждый заголовок `###` ниже представляет собой карточку на https://zechub.wiki/dex.
 Добавьте, отредактируйте или удалите здесь блок; вики автоматически подхватит его из этого файла.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Веб-сайт: https://near.com/
 - Описание: Быстрый обмен при поддержке NEAR. Вносите депозиты, продавайте, обменивайте, включая популярные TRUMP, MELANIA, BERA и другие мем-токены

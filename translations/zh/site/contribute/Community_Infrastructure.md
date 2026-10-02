@@ -7,7 +7,7 @@
 
 ### 社区基础设施
 
-ZecHub 悬赏计划为开发者提供了一种比单项任务更自由、更流畅的替代方案：[ZEC 悬赏](https://bounties.zechub.wiki/)。
+ZecHub 悬赏计划是开展这项工作的有偿途径：[ZEC Bounties](https://bounties.zechub.wiki/)。如何选择 ZEC 数额：[悬赏金额政策](https://bounties.zechub.wiki/docs/bounty-amounts)。贡献者工作流程：[为 ZecHub 做贡献](https://zechub.wiki/contribute/contributing-guide)。
 
 
 ## 实用指南

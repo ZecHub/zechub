@@ -18,9 +18,9 @@ Tsɔ mɔxenu aɖe kpee, trɔ asi le eŋu, alo ɖee ɖa le afisia; wiki la fɔe t
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://app.near-intents.org/
 - Numeɖeɖe: Nuwo ɖɔliɖɔli kabakaba kple NEAR ƒe kpekpeɖeŋu. Wɔ deposits, dzra, swap siwo dometɔ aɖewoe nye TRUMP, MELANIA, BERA kple meme xɔŋkɔwo

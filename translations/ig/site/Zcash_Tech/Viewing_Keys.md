@@ -116,3 +116,5 @@ Jiri igodo nlele dịka ọ dị mkpa, họrọkwa igodo kacha dị warara nke n
 - [ECC, Nkọwa Igodo Ilele](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Mkpughe na Igodo Nlele Nhọrọ](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Lee kwa: [Adreesị Ndị Ejikọtara Ọnụ](./Unified_Addresses.md)

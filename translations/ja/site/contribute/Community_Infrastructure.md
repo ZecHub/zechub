@@ -7,7 +7,7 @@
 
 ### コミュニティインフラストラクチャ 
 
-ZecHubのバウンティプログラムは、個別のタスクよりも自由で効率的な代替手段として、開発者向けに提供されています：[ZEC Bounties](https://bounties.zechub.wiki/)。 
+ZecHubのバウンティプログラムは、この作業に対して報酬を得るための手段です：[ZEC Bounties](https://bounties.zechub.wiki/)。ZECの番号の選び方：[バウンティ金額の方針](https://bounties.zechub.wiki/docs/bounty-amounts)。貢献者のワークフロー：[ZecHubへの貢献](https://zechub.wiki/contribute/contributing-guide)。
 
 
 ## 役立つガイド 

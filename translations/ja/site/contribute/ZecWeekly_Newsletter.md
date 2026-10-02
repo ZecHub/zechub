@@ -14,8 +14,9 @@ ZecWeekly は毎週日曜日の朝に配信されるニュースレターです�
 
 執筆を始める前に：
 
-- 現在のニュースレタータスクについては、[ZEC Bounties ](https://bounties.zechub.wiki/)を確認してください。
-- 割り当てを待ってください
+- 現在のニュースレタータスクについては、[ZEC Bounties](https://bounties.zechub.wiki/)を確認してください。
+- 割り当てを待ってください。
+- ニュースレターの各号は、[バウンティ金額ポリシー](https://bounties.zechub.wiki/docs/bounty-amounts)のXS帯に該当します。公開中のバウンティに記載されたZECの数値が金額であり、貢献ガイド内の古い見出しではありません。
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 

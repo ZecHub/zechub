@@ -7,7 +7,7 @@
 
 ### Community-Infrastruktur 
 
-Das ZecHub-Bounty-Programm bietet Entwicklern eine freiere und schlankere Alternative zu individuellen Aufgaben: [ZEC Bounties](https://bounties.zechub.wiki/). 
+Das ZecHub-Bounty-Programm ist der vergütete Weg für diese Arbeit: [ZEC Bounties](https://bounties.zechub.wiki/). So wählen Sie eine ZEC-Nummer aus: [Richtlinie zu Bounty-Beträgen](https://bounties.zechub.wiki/docs/bounty-amounts). Arbeitsablauf für Mitwirkende: [Beitragen zu ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
 
 ## Nützliche Leitfäden 

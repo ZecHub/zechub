@@ -61,12 +61,13 @@
 يؤدي ذلك إلى تفعيل معلومات الشبكة وروابط المستكشف.
 ![إضافة-شبكة-مخصصة....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
-لـ **Zcash Mainnet**;
+لـ **Zcash الشبكة الرئيسية**؛  
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks` هو خادم lightwalletd متوافق مع WebZjs ‏(gRPC-web) تديره [zec.rocks](https://zec.rocks) (@emersonian). للشبكة التجريبية، استخدم `https://zjs.zec.rocks/testnet`. إذا كنت تشغّل محفظة الويب WebZjs بنفسك، فهذه هي القيمة التي يجب ضبطها لتكون `LIGHTWALLETD_PROXY`.
 
 ---
 

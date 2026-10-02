@@ -9,9 +9,9 @@ ZecHub não recomenda nenhum serviço específico de Exchange Descentralizada; f
 Cada título `###` abaixo corresponde a um cartão em https://zechub.wiki/dex.
 Adicione, edite ou remova um bloco aqui; a wiki recolhe-o deste ficheiro.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Website: https://near.com/
 - Descrição: Exchange rápida com o apoio da NEAR. Faça depósitos, venda, troque, incluindo os populares TRUMP, MELANIA, BERA e outros memes

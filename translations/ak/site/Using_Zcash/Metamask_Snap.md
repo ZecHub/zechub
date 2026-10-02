@@ -1,6 +1,6 @@
 # MetaMask Zcash Snap Nkabom Akwankyerɛ
 
-Sɛ wopɛ nantew a edi mũ ne nkyerɛkyerɛmu a wɔde aniwa hu a, hwɛ [**YouTube akwankyerɛ** yi .](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
+Sɛ wopɛ nantew a edi mũ ne nkyerɛkyerɛmu a wɔde aniwa hu a, hwɛ eyi [**YouTube akwankyerɛ**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -26,29 +26,29 @@ MetaMask seesei boa **shielded Zcash (ZEC)** denam **ChainSafe-developed Zcash S
 > Intanɛt Nkitahodi a Egyina pintinn - Sɛnea ɛbɛyɛ a ɛne Zcash ntwamutam no bɛyɛ biako. 
 > Sika - ETH a wode bɛsesa ZEC anaa ZEC afiri exchange bi mu.
 
-> **Afotuo:** Bɔ wo MetaMask sanba kasasin no ho ban - ɛhwɛ ETH ne ZEC nyinaa so.
+> **Afotuo:** Bɔ wo MetaMask sanba kasasin no ho ban - ɛhwɛ ETH ne ZEC.
 
 ---
 
-## **1.1. Fa Zcash Snap** no hyɛ mu.
+## **1.1. Fa Zcash Snap** no hyɛ mu
 
-1. Kɔ [**MetaMask Snaps Directory** no so.](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-2. Hwehwɛ [**"Zcash Shielded Sikakorabea"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) anaasɛ [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-3. Klik **Install/Fa ka MetaMask ho**.
+1. Kɔ [**MetaMask Snaps Nsɛmma Nhoma**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
+2. Hwehwɛ mu [**"Zcash Sikakorabea a Wɔabɔ ho ban"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) or [**"WebZjs Zcash Nsɛm a Wɔahyehyɛ"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
+3. Klik **Install/Fa ka MetaMask**.
 4. Pene tumi krataa te sɛ:
    ```
       Manage Zcash accounts 
       Store data on your device
    ```
 
-![Zcash-snap-a wɔde hyɛ mu](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
 
-## **2.1. (Wɔpɛ) Fa Zcash Network** ka ho.
+## **2.1. (Wɔpɛ) Fa Zcash Network** ka ho
 
-Wɔ MetaMask mu no, paw **Add Network** na hyɛ mu:
+Wɔ MetaMask, paw **Add Network** na hyɛ mu:
 
 Sɛ wopɛ **BNB SmartChain** a;
 ```markdown
@@ -59,29 +59,30 @@ Sɛ wopɛ **BNB SmartChain** a;
 -  Block Explorer URL: https://bscscan.com
 ```
 Wei ma network info ne explorer links tumi yɛ adwuma.
-![Fa-a-asɛm-Net-ka ho....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
-Na **Zcash Mainnet** na ɛyɛ adwuma;
+Sɛ wopɛ sɛ wohu **Zcash Mainnet** a;
 ```markdown
 - Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
+- RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
+`https://zjs.zec.rocks` yɛ WebZjs-compatible (gRPC-web) lightwalletd server a ɛnam so di dwuma [zec.rocks](https://zec.rocks) (@emersonian) na ɔkyerɛwee. Sɛ wopɛ testnet a, fa di dwuma `https://zjs.zec.rocks/testnet`. Sɛ w’ankasa wo de WebZjs wɛb sika kotoku no di dwuma a, eyi ne bo a ɛsɛ sɛ wode si hɔ sɛ `LIGHTWALLETD_PROXY`.
 
 ---
 
-## **3.1. Fa wo ho to ChainSafe WebZjs Wallet** so.
+## **3.1. Fa wo ho to ChainSafe WebZjs Wallet** so
 
-1. Kɔ [webzjs.nkɔnsɔnkɔnsɔn.dev](https://webzjs.chainsafe.dev).  
-2. Klik **Fa MetaMask Snap no bata ho**. 
+1. Sra [webzjs.nkɔnsɔnkɔnsɔn ahobammɔ.dev](https://webzjs.chainsafe.dev).  
+2. Klik **Fa MetaMask Snap**. 
 
-![Zcash-wɛb-sikasɛm](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Pene nkitahodi no so. 
 4. Hwɛ wo Zcash akontaabu no mu nsɛm tiawa, a nea ɛka ho ne:
    - Address ahorow a wɔaka abom ne Address a ɛda adi pefee
 
-![Akontaabu-nsɛmti-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Twɛn ma synchronization no nwie.
@@ -96,14 +97,14 @@ Na **Zcash Mainnet** na ɛyɛ adwuma;
 > **Swap ETH -> ZEC** - Fa nnwuma te sɛ **LeoDex** di dwuma na fa kɔ wo shielded address no so. 
 > **Exchange Withdrawal** - Twe ZEC a woatɔ no kɔ wo WebZjs address a wɔabɔ ho ban no so. 
 
-![LEODEX-NKYERƐKYERƐMU](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Fa address ahorow a wɔabɔ ho ban (z) di dwuma ma **kokoamsɛm a edi mũ**.
 
 ---
 
-## **5.1. Send / Gye ZEC** .
+## **5.1. Send / Gye ZEC**
 
 1. Wɔ **WebZjs** mu no, kɔ **Transfer Balance**. 
 2. Wuram:
@@ -111,14 +112,14 @@ Na **Zcash Mainnet** na ɛyɛ adwuma;
    - Shielded recipient address  
    - Amount
 ```
-   ![Nneɛma a Wɔde Kɔma-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Si ayɔnkofa no so dua wɔ MetaMask (fa wo nsa hyɛ asɛm no ase). 
 5. Sika a wɔanya no bɛda adi wɔ WebZjs mu bere a wɔahyɛ no den akyi.
 
 ---
 
-## **6. Hwɛ yiye / Ɔhaw ahorow ho dwuma** .
+## **6. Hwɛ yiye / Ɔhaw ahorow ho dwuma**
 
 > Hwɛ **WebZjs** ma balances a wɔayɛ no foforo **(MetaMask nkyerɛw ZEC tẽẽ)** . 
 > Sɛ nsɛmnsɛm sisi a:
@@ -136,16 +137,16 @@ Na **Zcash Mainnet** na ɛyɛ adwuma;
 ## **7. Hwɛ Address Nneɛma a Wɔde Yɛ Adwuma**
 
 1. Kɔ **Gye** ɔfa no so - wo Unified Address no bɛda adi default so. 
-2. Kɔpi Unified Address no na kɔ [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
-3. Fa wo Unified Address no hyɛ search bar no mu. 
-4. Afei wubehu Unified Address no afã horow nyinaa, a nea ɛka ho ne:
+2. Kɔpi Unified Address no na kɔ.. [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
+3. Fa wo Unified Address hyɛ search bar no mu. 
+4. Afei wubehu Unified Address, a nea ɛka ho ne:
 ``` 
    Orchard Address  
    Sapling Address  
    Transparent Address
 ``` 
 
-![Address-nneɛma](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 
@@ -153,11 +154,11 @@ Na **Zcash Mainnet** na ɛyɛ adwuma;
 
 ## **Nsɛm a Wɔahyɛ no Nsow**
 
-> Fa [**MetaMask nkyerɛase a aba foforo** di dwuma.](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - baguam a woayi no adi no boa Snaps. 
+> Fa no di dwuma [**MetaMask nkyerɛase a aba foforo**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - baguam a woayi no adi no boa Snaps. 
 > Adanse a wɔabɔ ho ban betumi agye bere, WebAssembly di akontaabu ho dwuma wɔ browser mu. 
 > Recovery yɛ mmerɛw,install MetaMask ne Snap, afei import wo dedaw aba. 
 > Snap no defaults yɛ **shielded ZEC**, address a ɛda adi pefee no yɛ **ɛnyɛ focus**. 
-> Fa [zcashblockexplorer.com di dwuma](https://zcashblockexplorer.com) ama asɛm no ho adansedi krataa.
+> Fa di dwuma [zcashblockexplorer.com na ɛwɔ hɔ](https://zcashblockexplorer.com) ama asɛm no ho adansedi krataa.
 
 
 

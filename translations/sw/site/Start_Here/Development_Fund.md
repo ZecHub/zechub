@@ -2,50 +2,50 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Mfuko wa Maendeleo
+# Mfuko wa Maendeleo Zcash
 
-Zcash is a unique blockchain protocol because it is self-funded. This means that teams working on Zcash do not need to take money from outside investors, and can remain focused on driving adoption while also staying aligned with Zcash's broader ethos and mission.
+Zcash ni itifaki ya kipekee ya blockchain kwa sababu inajifadhili yenyewe. Hii ina maana kwamba timu zinazofanya kazi kwenye Zcash hazihitaji kuchukua pesa kutoka kwa wawekezaji wa nje, na zinaweza kuendelea kuzingatia kuchochea utumiaji huku pia zikiendelea kuendana na maadili na dhamira pana Zcash's.
 
-## Block Tuzo
+## Zawadi za Kuzuia
 
-Katika blockchains, kuna kitu kinachoitwa [block](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), ambayo ni zinazozalishwa kwa kurekodi shughuli ambazo bado si kuthibitishwa katika mtandao. Mara baada ya shughuli ni kuthibitika, block imefungwa.
+Katika blockchain, kuna kitu kinachoitwa [kizuizi](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), ambayo huzalishwa ili kurekodi miamala ambayo bado haijathibitishwa kwenye mtandao. Mara tu miamala inapothibitishwa, kizuizi hufungwa.
 
-Block producers (aka miners) are tasked with validating transactions in a network and producing new blocks. When producing these blocks, block producers are rewarded with a block reward. In Zcash, roughly every 75 seconds a new block is produced, and a block reward of 3.125 ZEC comes into circulation. Block rewards in Zcash will produce new coins until Zcash reaches its 21 million max supply. After reaching max supply, block rewards will be paid for by transaction fees.
+Wazalishaji wa vitalu (pia inajulikana kama wachimbaji) wana jukumu la kuthibitisha miamala katika mtandao na kutengeneza vitalu vipya. Wakati wa kutengeneza vitalu hivi, wazalishaji wa vitalu hupewa zawadi ya vitalu. Katika Zcash, takriban kila baada ya sekunde 75, vitalu vipya huzalishwa, na zawadi ya vitalu ya ZEC 1.5625 huanza kutumika. Zawadi za vitalu katika Zcash zitazalisha sarafu mpya hadi Zcash ifikie usambazaji wake wa juu zaidi wa milioni 21. Baada ya kufikia usambazaji wa juu zaidi, zawadi za vitalu zitalipwa kwa ada za miamala.
 
-## Utaratibu wa ufadhili wa Zcash (kabla ya NU6)
+## Utaratibu wa ufadhili Zcash's (kabla ya NU6)
 
-Katika Bitcoin na cryptocurrencies nyingine, tuzo zote za kuzuia kwenda kwa wazalishaji block. Zcash ni ya kipekee katika ukweli kwamba 20% ya malipo ya kuzuia ni kuhamishiwa [Zcash mfuko wa maendeleo](https://zips.z.cash/zip-1014)Mfuko huu fedha timu kazi juu ya itifaki Zcash.
+Katika Bitcoin na sarafu zingine za kidijitali, zawadi zote za block huenda kwa wazalishaji wa block. Zcash ni ya kipekee kwa ukweli kwamba 20% ya zawadi ya block huhamishiwa kwa [Mfuko wa maendeleo Zcash](https://zips.z.cash/zip-1014)Mfuko huu unafadhili timu zinazofanya kazi kwenye itifaki ya Zcash.
 
-Kwa sasa, [Zcash Community Grants](https://zcashcommunitygrants.org/) anapata 8% ya tuzo block, Electric Coin Co anapata 7%, na Zcash Foundation anapata 5%. Hii kazi nje ya 40%, 35% na 25% ya mfuko wa maendeleo kwa mtiririko huo.
-![Dev Mfuko Wapokeaji ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
+Hivi sasa, [Zcash Community Grants](https://zcashcommunitygrants.org/) inapokea 8% ya zawadi za vitalu, Electric Coin Co. inapokea 7%, na Zcash Foundation inapokea 5%. Hii inafikia 40%, 35%, na 25% ya mfuko wa maendeleo mtawalia.
+![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
-Mwaka 2020, jamii ya Zcash ilipiga kura juu ya mfuko wa maendeleo na timu zinazoungwa mkono na hiyo. Mnamo 2024, jamii itapiga kura tena kuamua ni nani anayepata ufadhili kutoka kwa mfuko huo wa maendeleo.
+Mnamo 2020, jumuiya Zcash ilipiga kura kuhusu mfuko wa maendeleo na timu zilizoungwa mkono nao. Mnamo 2024, jumuiya hiyo itapiga kura tena ili kubaini ni nani anayepata ufadhili kutoka kwa mfuko wa maendeleo.
 
 
-# Zcash Hybrid Deferred Dev Mfuko Lockbox (NU6)
+# Kisanduku cha Kufungia cha Mfuko wa Waendelezaji Zcash Hybrid (NU6)
 
-Mchanganyiko wa Deferred Dev Mfuko Lockbox ni utaratibu wa ufadhili kuchaguliwa kwa kizazi kijacho cha mfuko wa maendeleo Zcash. chaguo hili hutoa 20% ya jumla Zcash block tuzo, 60% kwa Zcash misaada Kamati na 40% kwa itifaki lockbox, kuhakikisha kwamba rasilimali zinapatikana ili kusaidia Zcash mazingira ya baadaye wakati kuendelea na maendeleo na matengenezo.
+Kisanduku cha Kufuli cha Mfuko wa Maendeleo wa Mseto Kilichoahirishwa ni utaratibu wa ufadhili uliochaguliwa kwa kizazi kijacho cha mfuko wa maendeleo Zcash. Chaguo hili hugawa jumla ya zawadi za 20% za Zcash, 60% kwa Kamati ya Ruzuku Zcash na 40% kwa kisanduku cha kufuli cha itifaki, kuhakikisha kuwa rasilimali zinapatikana ili kusaidia mustakabali wa mfumo ikolojia wa Zcash huku ikiendelea na maendeleo na matengenezo.
 
-## Utaratibu wa Kufanya Maamuzi
+## Mchakato wa Kufanya Maamuzi
 
-The decision to implement the 20% Dev Fund Lockbox was reached through a comprehensive community-driven process. This included two rounds of Zcash Community Advisory Panel (ZCAP) polls, as well as several ecosystem-wide polls. These polls allowed a broad spectrum of stakeholders to voice their opinions and contribute to the decision-making process.
+Uamuzi wa kutekeleza Kisanduku cha Kufungia cha Mfuko wa Waendelezaji cha 20% ulifikiwa kupitia mchakato kamili unaoendeshwa na jamii. Hii ilijumuisha raundi mbili za kura za maoni za Jopo la Ushauri la Jumuiya Zcash (ZCAP), pamoja na kura kadhaa za maoni katika mfumo ikolojia. Kura hizi za maoni ziliruhusu wigo mpana wa wadau kutoa maoni yao na kuchangia katika mchakato wa kufanya maamuzi.
 
 ![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
 
-Kama dev mfuko lockbox ni kuahirishwa (maana fedha itakuwa wazi kupitia kuboresha mtandao katika tarehe ya baadaye), Zcash Jumuiya hivi karibuni kuamua juu ya utaratibu wa usambazaji wa fedha. 
+Kwa kuwa kisanduku cha kufuli cha mfuko wa maendeleo kinaahirishwa (kumaanisha fedha zitafunguliwa kupitia uboreshaji wa mtandao baadaye), Jumuiya ya Zcash hivi karibuni itaamua kuhusu utaratibu wa usambazaji wa fedha. Chaguo moja lililopendekezwa ni utaratibu wa utawala uliogatuliwa wa 'Zbloc'. 
 
-![Uwezekano wa aina mpya ya utawala madaraka](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Potential new form of decentralised governance](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
 ## Rasilimali
 
-[Dev Mfuko Lockbox - Forum Thread](https://forum.zcashcommunity.com/t/important-deadline-for-zips-likely-dev-fund-related-that-want-to-be-activated-next-halvening/48004/)
+[Kisanduku cha Kufuli cha Mfuko wa Wasanidi Programu - Uzi wa Jukwaa](https://forum.zcashcommunity.com/t/important-deadline-for-zips-likely-dev-fund-related-that-want-to-be-activated-next-halvening/48004/)
 
-[ZCAP Poll juu ya Lockbox](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
+[Kura ya ZCAP kwenye Lockbox](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
 
-[Kuanzisha Mfuko wa Dev kwa ECC, ZF, na Major Grants](https://zips.z.cash/zip-1014)
+[Kuanzisha Mfuko wa Maendeleo kwa ajili ya ECC, ZF, na Misaada Mikubwa](https://zips.z.cash/zip-1014)
 
-[Zcash maendeleo na utawala](https://z.cash/zcash-development-and-governance/)
+[Maendeleo na utawala wa Zcash](https://z.cash/zcash-development-and-governance/)
 
-[Zcash ya ufadhili kura](https://www.coindesk.com/tech/2020/02/01/zcashs-funding-vote-and-the-woes-of-decentralized-governance/)
+[Kura ya ufadhili Zcash's](https://www.coindesk.com/tech/2020/02/01/zcashs-funding-vote-and-the-woes-of-decentralized-governance/)
 
-[Zcash Misaada ya Jumuiya](https://zcashcommunitygrants.org/)
+[Zcash Community Grants](https://zcashcommunitygrants.org/)

@@ -23,9 +23,26 @@ Gblɔ wiki ƒe axa siwo li la dometɔ ɖesiaɖe.
 
 Nyatakaka tso vodadawo ŋu
 
-#### Ne èdi nyatakaka tsitotsito tso bounty ga homewo ŋu la, taflatse xlẽ míaƒe nudzɔdzɔ ƒe axa -> [afi sia](https://zechub.wiki/contribute/contributing-guide#content).
+### Teƒeɖoɖowo
 
-Míeɖoa tatawo ɖe dɔ siwo míewɔna fifia be bounties ʋuna Memleɖa ɖesiaɖe. Àte ŋu aɖo aɖaŋu le nunanawo hã ŋu! Esiawo koŋue wokpɔna le ZEC Bounties.
+Womeɖoa ga homewo ɖe ZEC. Zã nya sia [bounty amounts ƒe ɖoɖo](https://bounties.zechub.wiki/docs/bounty-amounts): tia USD dometsotso na dɔwɔwɔ ƒe hatsotso, trɔ le teƒea, ŋlɔ ZEC ɖe board la dzi. Ðoɖo ma gbɔe nyateƒea tso.
+
+Nudzɔla ƒe dɔwɔwɔ ƒe ɖoɖo kple dɔ ƒomeviwo: [Nudzɔdzɔ na ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Nuƒolanɔƒea ƒe azɔlizɔzɔ:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Míeɖoa dɔ siwo woʋu ɖi la ɖe [ZEC Bounties](https://bounties.zechub.wiki/). Àte ŋu aɖo aɖaŋu le nunanawo ŋu le afima hã. PR si wotsɔ ƒo ƒui mesɔ kple fetu si dzi woda asi ɖo alo si woxe o.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

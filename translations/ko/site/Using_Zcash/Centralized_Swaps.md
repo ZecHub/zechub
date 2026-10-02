@@ -18,9 +18,9 @@ ZecHub는 특정 거래소 서비스를 보증하지 않습니다. 직접 조사
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - 웹사이트: https://app.near-intents.org/
 - 설명: NEAR를 기반으로 하는 빠른 거래 서비스입니다. 입금, 매도, 스왑을 지원하며 TRUMP, MELANIA, BERA 등 인기 밈 코인도 이용할 수 있습니다.

@@ -116,3 +116,5 @@ Utilisez les clés de visualisation selon les besoins, et privilégiez la clé l
 - [ECC, Explication des clés de visualisation](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Divulgation sélective et clés de visualisation](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Présentation vidéo](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Voir aussi : [Adresses unifiées](./Unified_Addresses.md)
