@@ -73,7 +73,7 @@ Free2Z James Katz의 새로운 Zcash 사용자 가이드가 등장했습니다.
 
 [private 코인에 관심 있는 캐나다인](https://www.crypto-news-flash.com/canadians-unfazed-by-cbdc-millions-opt-for-privacy-coins-monero-dash-and-zcash-over-central-bank-digital-currency/)👛
 
-[Zcash는 올바른 방향으로 가고 있습니다](https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen)
+[Zcash는 올바른 방향으로 가고 있습니다](https://web.archive.org/web/20250827115931/https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen)
 
 
 ## 일부 Zcash 트윗

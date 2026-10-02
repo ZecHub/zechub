@@ -50,7 +50,7 @@ ZecWeekly의 또 다른 흥미진진한 에피소드에 오신 것을 환영합�
 
 ## 뉴스&미디어
 
-[10년이 지난 지금, 여전히 없는 비트코인 ETF — 코인텔레그래프](https://cointelegraph.com/news/10-years-later-no-bitcoin-etf)
+[10년이 지난 지금, 여전히 없는 비트코인 ETF — 코인텔레그래프](https://web.archive.org/web/20260202174906/https://cointelegraph.com/news/10-years-later-no-bitcoin-etf)
 
 [트위터의 위험을 보여주는 새로운 암호화폐 사기극 - 코인데스크](https://www.coindesk.com/business/2023/09/08/a-new-crypto-scam-shows-perils-of-elon-musks-twitter/) ($2000 에어드랍 스팸이 트위터 피드에 계속 뜹니다 ㅡㅡ;)
 

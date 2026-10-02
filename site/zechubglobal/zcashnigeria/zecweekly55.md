@@ -71,7 +71,7 @@ Ka ni kikun  [níbi yìí](https://free2z.cash/James_Katz/zpage/compiling-zecwal
 
 [Awọn ara ilu Kanada nifẹ si awọn owo nẹtiwoki ikọkọ - Flash News News Flash](https://www.crypto-news-flash.com/canadians-unfazed-by-cbdc-millions-opt-for-privacy-coins-monero-dash-and-zcash-over-central-bank-digital-currency) 
 
-[Awọn nkan Marun ti crypto gbọdọ mọ ni ẹtọ ☑️ - Cointelegraph](https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen) 
+[Awọn nkan Marun ti crypto gbọdọ mọ ni ẹtọ ☑️ - Cointelegraph](https://web.archive.org/web/20250827115931/https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen) 
 
 
 

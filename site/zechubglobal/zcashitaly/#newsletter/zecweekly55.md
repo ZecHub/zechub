@@ -68,7 +68,7 @@ Leggete [qui](https://free2z.cash/James_Katz/zpage/compiling-zecwallet-lite-with
 
 [I canadesi sono interessati alle criptovalute private - Crypto News Flash](https://www.crypto-news-flash.com/canadians-unfazed-by-cbdc-millions-opt-for-privacy-coins-monero-dash-and-zcash-over-central-bank-digital-currency)
 
-[5 cose che le criptovalute devono fare bene ☑ - Cointelegraph](https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen)
+[5 cose che le criptovalute devono fare bene ☑ - Cointelegraph](https://web.archive.org/web/20250827115931/https://cointelegraph.com/innovation-circle/5-things-crypto-must-get-right-for-mainstream-adoption-to-happen)
 
 
 ## Alcuni tweet su Zcash

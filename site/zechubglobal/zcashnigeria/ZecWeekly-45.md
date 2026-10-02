@@ -54,7 +54,7 @@ Wo [Ifihan kan si ZCash](https://twitter.com/ZecHub/status/1663592938113204236?t
 [Imudojuiwọn tuntun wa fun 📲 Zingo! apamọwọ](https://twitter.com/ZingoLabs/status/1664768705023168516) 
 
 #### Iroyin ati Media 
-[Erọ ATM ti Bitcoin ṣe igbasilẹ ilosoke lẹhin awọn oṣu 4 ti isale agbaye](https://cointelegraph.com/news/net-Bitcoin-ATMs-record-an-increase-after-4-months-of-global-downtrend) 
+[Erọ ATM ti Bitcoin ṣe igbasilẹ ilosoke lẹhin awọn oṣu 4 ti isale agbaye](https://web.archive.org/web/20260418195753/https://cointelegraph.com/news/net-bitcoin-atms-record-an-increase-after-4-months-of-global-downtrend) 
 
 [Awon Blockchain Alashiri ti di ewu ni awon ilu EU](https://www.coindesk.com/consensus-magazine/2023/02/09/blockchain-privacy-is-at-risk-in-the-eu/) 
 

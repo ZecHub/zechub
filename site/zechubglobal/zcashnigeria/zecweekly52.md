@@ -68,7 +68,7 @@ A yoo kọ ẹkọ diẹ sii nipa Ilana ikọkọ kan eyiti o nlo Imudaniloju-ti
 
 #### Iroyin ati Media 
 
-[Ile-ẹjọ UK funni ni afilọ lati ọdọ Craig Wright Lori ẹjọ Bitcoin - Cointelegraph](https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit) 
+[Ile-ẹjọ UK funni ni afilọ lati ọdọ Craig Wright Lori ẹjọ Bitcoin - Cointelegraph](https://web.archive.org/web/20250827103632/https://cointelegraph.com/news/uk-courts-grants-appeal-craig-wright-bitcoin-rights-lawsuit) 
 
 [DOJ ngbero lati jeki iwadii Crypto po si 🕵️ -The Block](https://www.theblock.co/post/240967/doj-looks-to-increase-crypto-investigations-with-move-to-merge-teams) 
 

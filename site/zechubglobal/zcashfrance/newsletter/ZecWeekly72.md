@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=We5PchoKADw
 
 ### Actualités et médias
 
-[Comment la blockchain transforme les dons de Noël - Cointelegraph](https://cointelegraph.com/explained/how-blockchain-transforms-christmas-giving)
+[Comment la blockchain transforme les dons de Noël - Cointelegraph](https://web.archive.org/web/20250720154311/https://cointelegraph.com/explained/how-blockchain-transforms-christmas-giving)
 
 [Un juge américain interdit à Changpeng ‘CZ’ Zhao de quitter le pays - Decrypt](https://decrypt.co/209060?p=209060)
 

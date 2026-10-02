@@ -49,7 +49,7 @@ Kọ ẹkọ diẹ sii: [Awọn paṣipaarọ ti kii ṣe Adani](https://zechub.
 
 
 #### Iroyin ati Media 
-[Ọdun mẹwa sì ìgbà yìí, si tun ko si Bitcoin ETF - Cointelegraph](https://cointelegraph.com/news/10-years-later-no-bitcoin-etf) 
+[Ọdun mẹwa sì ìgbà yìí, si tun ko si Bitcoin ETF - Cointelegraph](https://web.archive.org/web/20260202174906/https://cointelegraph.com/news/10-years-later-no-bitcoin-etf) 
 
 [Itanjẹ Crypto Tuntun Ṣe afihan Awọn ewu ti Elon Musk's Twitter - Coindesk](https://www.coindesk.com/business/2023/09/08/a-new-crypto-scam-shows-perils-of-elon-musks-twitter/) 
 
