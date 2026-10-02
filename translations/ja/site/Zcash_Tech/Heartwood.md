@@ -18,7 +18,7 @@ Heartwood は固定された時刻ではなく、決められたブロック高�
 
 coinbase トランザクションは、ブロック報酬を支払う特別なトランザクションです。Heartwood 以前、その出力は透明でなければならなかったため、新規発行されたマイナーの ZEC は常に公開アドレスから始まっていました。Heartwood はコンセンサスルールを変更し、ZIP 213 の言葉を使えば、coinbase トランザクションに Sapling 出力を含められるようにしました。平たく言えば、マイナーは報酬を直接シールドされた Sapling アドレスで受け取れるようになったのです。透明な coinbase 出力も引き続きサポートされているため、これは強制的な変更ではなく、新しい選択肢です。
 
-![Heartwood 以前、マイナーのブロック報酬は透明な公開アドレスに送られる必要がありました。Heartwood 後は coinbase トランザクションに Sapling 出力を含められるため、報酬を直接シールドアドレスへ送ることができます](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![Heartwood 以前、マイナーのブロック報酬は透明な公開アドレスに送られる必要がありました。Heartwood 後は coinbase トランザクションに Sapling 出力を含められるため、報酬を直接シールドアドレスへ送ることができます](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## なぜまず Sapling なのか
 
@@ -28,13 +28,13 @@ Shielded coinbase は特に Sapling 出力を対象としており、そこに�
 
 Heartwood はまた、ブロックヘッダーが何にコミットするかも変更しました。以前 `hashFinalSaplingRoot` と呼ばれていたヘッダーフィールドは、用途変更されて `hashLightClientRoot` に改名されました。現在これは Merkle Mountain Range（MMR）のルートにコミットします。MMR は、タイムスタンプ、難易度ターゲット、Sapling ルート、累積作業量、トランザクション数など、過去のブロックのヘッダーデータとメタデータをもとに構築される継続的な構造です。このコミットメントにより、ライトクライアントや外部チェーンは、サイズがチェーン長に対して対数的にしか増えない小さな証明を使って、Zcash のプルーフ・オブ・ワークを検証できます。その利点は、より優れたライトクライアントウォレットと、より容易なサードパーティおよびクロスチェーン統合です。クライアントはもはや、チェーンの背後にある作業を信頼するためにすべてのブロックをダウンロードする必要がありません。
 
-![FlyClient の流れ：各ブロックのヘッダーデータは Merkle Mountain Range ルート（hashLightClientRoot）にコミットされ、これによってライトクライアントは小さな対数サイズの証明でプルーフ・オブ・ワークを検証できます](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![FlyClient の流れ：各ブロックのヘッダーデータは Merkle Mountain Range ルート（hashLightClientRoot）にコミットされ、これによってライトクライアントは小さな対数サイズの証明でプルーフ・オブ・ワークを検証できます](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Heartwood の位置づけ
 
 Heartwood は、次のアップグレードが依存する要素をそれぞれ追加していく一連の Zcash アップグレードの中の 1 段階です。Overwinter と Sapling は 2018 年に、Blossom は 2019 年に、そして Heartwood は 2020 年にブロック 903,000 で導入されました。Canopy はその後、2020 年後半にブロック 1,046,400 で続きました。Heartwood にとって、この連なりの中での重要な結節点は Sapling です。Sapling の効率的なシールドトランザクション機構こそが、Shielded coinbase を可能にした技術的前提条件でした。
 
-![Zcash アップグレードのタイムライン：2018 年に Overwinter と Sapling、2019 年に Blossom、2020 年に Heartwood](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Zcash アップグレードのタイムライン：2018 年に Overwinter と Sapling、2019 年に Blossom、2020 年に Heartwood](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## 用語集
 

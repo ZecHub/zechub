@@ -18,7 +18,7 @@
 
 معاملة coinbase هي المعاملة الخاصة التي تدفع مكافأة الكتلة. قبل Heartwood، كان يجب أن تكون مخرجاتها شفافة، لذا كانت عملات ZEC المُصدَرة حديثًا للمُعدّن تبدأ دائمًا في عنوان عام شفاف. غيّر Heartwood قواعد الإجماع بحيث إنه، وفقًا لعبارة ZIP 213، يجوز أن تحتوي معاملات coinbase على مخرجات Sapling. وبصياغة أبسط، يمكن للمعدّنين الآن تلقي المكافآت مباشرةً إلى عناوين Sapling المحمية. وما زالت مخرجات coinbase الشفافة مدعومة، لذا فهذا خيار جديد وليس تغييرًا مفروضًا.
 
-![قبل Heartwood كان يجب أن تذهب مكافأة كتلة المُعدّن إلى عنوان عام شفاف. بعد Heartwood يمكن أن تحتوي معاملات coinbase على مخرجات Sapling، لذا يمكن أن تذهب المكافأة مباشرةً إلى عنوان محمي](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![قبل Heartwood كان يجب أن تذهب مكافأة كتلة المُعدّن إلى عنوان عام شفاف. بعد Heartwood يمكن أن تحتوي معاملات coinbase على مخرجات Sapling، لذا يمكن أن تذهب المكافأة مباشرةً إلى عنوان محمي](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## لماذا Sapling أولًا
 
@@ -28,13 +28,13 @@
 
 غيّر Heartwood أيضًا ما يلتزم به رأس الكتلة. فقد أُعيد توظيف حقل الرأس الذي كان يُسمى سابقًا hashFinalSaplingRoot وأُعيدت تسميته إلى hashLightClientRoot. وهو الآن يلتزم بجذر Merkle Mountain Range (MMR)، وهي بنية تراكمية تُبنى فوق بيانات رؤوس الكتل والبيانات الوصفية للكتل السابقة، مثل الطوابع الزمنية، وأهداف الصعوبة، وجذور Sapling، والعمل التراكمي، وأعداد المعاملات. يتيح هذا الالتزام لعميل خفيف، أو لسلسلة خارجية، التحقق من إثبات العمل في Zcash باستخدام إثبات صغير لا ينمو حجمه إلا لوغاريتميًا مع طول السلسلة. والنتيجة هي محافظ عملاء خفيفة أفضل وتكامل أسهل مع الأطراف الثالثة وعبر السلاسل، لأن العميل لم يعد بحاجة إلى تنزيل كل كتلة حتى يثق بالعمل الكامن وراء السلسلة.
 
-![تدفّق FlyClient: تُلتزم بيانات رأس كل كتلة داخل جذر Merkle Mountain Range ‏(hashLightClientRoot)، مما يتيح لعميل خفيف التحقق من إثبات العمل بإثبات صغير ذي حجم لوغاريتمي](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![تدفّق FlyClient: تُلتزم بيانات رأس كل كتلة داخل جذر Merkle Mountain Range ‏(hashLightClientRoot)، مما يتيح لعميل خفيف التحقق من إثبات العمل بإثبات صغير ذي حجم لوغاريتمي](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## أين يندرج Heartwood
 
 يُعد Heartwood خطوة ضمن سلسلة من ترقيات Zcash، تضيف كل واحدة منها جزءًا تعتمد عليه الترقية التالية. وصلت Overwinter وSapling في عام 2018، ثم Blossom في 2019، وHeartwood في 2020 عند الكتلة 903,000. ثم تبعتها Canopy لاحقًا في عام 2020 عند الكتلة 1,046,400. وتُعد Sapling الحلقة الأساسية في هذه السلسلة بالنسبة إلى Heartwood: إذ كانت آلية المعاملات المحمية الفعّالة الخاصة بها هي الشرط التقني المسبق الذي جعل coinbase المحمي ممكنًا.
 
-![الخط الزمني لترقيات Zcash: Overwinter وSapling في 2018، وBlossom في 2019، وHeartwood في 2020](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![الخط الزمني لترقيات Zcash: Overwinter وSapling في 2018، وBlossom في 2019، وHeartwood في 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## مسرد المصطلحات
 

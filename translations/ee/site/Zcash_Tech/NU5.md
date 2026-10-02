@@ -18,7 +18,7 @@ Orchard nye Zcash ƒe shielded protocol yeyetɔ kekeake, si woɖe fia le [ZIP 22
 
 Sprout kple Sapling siaa nɔ te ɖe ɖoɖo si dzi woka ɖo dzi. Amewo ƒe ƒuƒoƒo aɖe wɔ kɔnu aɖe tsɔ tu ta ɖesiaɖe ƒe parameterwo ɖo, eye ele be amesiame naka ɖe edzi be yewo dometɔ ɖeka ya teti tsrɔ̃ yewoƒe nya ɣaɣla la ƒe akpa aɖe. Orchard ɖea susu ma ɖa. Ta xoxoawo gakpɔtɔ li le NU5 megbe, eyata ɖoɖo aɖeke mawɔmawɔ ƒe kakaɖedzia ku ɖe ga siwo nèlé ɖe Orchard ta la me ŋu.
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Nusi NU5 trɔ
 
@@ -37,7 +37,7 @@ NU5 hã trɔ asi le ZIP geɖe siwo li xoxo ŋu (32, 203, 209, 212, 213, 221, kpl
 
 Do ŋgɔ na NU5 la, adrɛs ƒomevi nɔa ta ɖesiaɖe si, eye ele be amesi ɖoe ɖa nanya ƒomevi si nèdi. Adrɛs siwo wowɔ ɖekae, siwo gɔme woɖe le [ZIP 316 ƒe xexlẽdzesi](https://zips.z.cash/zip-0316), trɔ ema. Adrɛs ɖeka si wowɔ ɖekae ate ŋu aƒo xɔla siwo wu ta ɖeka nu ƒu, eyata ɖeko amesi ɖoe ɖa ƒe gakotokua tiaa nyuitɔ kekeake si wòdo alɔe.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Nukpɔkpɔ ƒe safui siwo wowɔ ɖekae wɔa dɔ nenema ke na nukpɔkpɔ. Wonana nuxexlẽ ɖeɖeko kpɔa nu le ta siwo ŋu adrɛs aɖe ƒo nu tsoe la dzi. Ne èdi nyatakaka bubuwo tso ema ŋu la, kpɔ... [Safuiwo Kpɔkpɔ](../zcash-tech/viewing-keys) axa 10.
 

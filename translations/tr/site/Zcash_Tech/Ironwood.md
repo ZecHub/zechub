@@ -14,7 +14,7 @@ Bunun neden önemli olduğu. Bitcoin gibi şeffaf paralarda, kamuya açık defte
 
 Zcash'e yeni misiniz? Önce [ZEC ve Zcash nedir](../start-here/what-is-zec-and-zcash) ve [Shielded Pools](../using-zcash/shielded-pools) sayfalarını okuyun, sonra buraya geri dönün.
 
-![Ironwood değer taşıma akışı: değer Orchard havuzundan çıkar, turnike kontrol noktasından geçer ve yeni Ironwood havuzuna girer](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood değer taşıma akışı: değer Orchard havuzundan çıkar, turnike kontrol noktasından geçer ve yeni Ironwood havuzuna girer](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Ironwood neden gerekliydi
 
@@ -24,7 +24,7 @@ Mayıs 2026'nın sonlarında, bağımsız güvenlik araştırmacısı Taylor Hor
 2. Teorik olarak bir saldırgan, kusuru kullanarak Orchard havuzu içinde geçersiz değer üretebilir ve gerçekte kendisine ait olmayan fonları harcayabilirdi; normal bir düğümün yakalayacağı hiçbir iz bırakmazdı.
 3. Zcash'in turnikesi yine de Orchard'dan çıkabilecek toplam değere üst sınır koyuyordu, bu nedenle toplam arz şişirilemezdi; ancak havuzun kendi kriptografisi artık içindeki her gizli coin'in gerçek olduğunu garanti etmiyordu.
 
-![Hatanın açıklaması: bir işlem 5 ZEC koyuyor, ancak kusurlu ispat 7 ZEC çıktığında da geçiyor ve yoktan 2 ZEC yaratıyor](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![Hatanın açıklaması: bir işlem 5 ZEC koyuyor, ancak kusurlu ispat 7 ZEC çıktığında da geçiyor ve yoktan 2 ZEC yaratıyor](/content-images/ironwood-bug-8f689d6f61.webp)
 
 Yukarıdaki sayılar basitleştirilmiş bir tablodur. Gerçek kusur, devrenin matematiğindeki belirli bir parçadaydı; içeri giren ve çıkan coin'lerin birebir sayımı değildi. Buradan çıkarılması gereken tek nokta, bir soundness bug'ının havuz içinde tespit edilmeden değer yaratılmasına izin verebilmesidir.
 
@@ -34,13 +34,13 @@ Yukarıdaki sayılar basitleştirilmiş bir tablodur. Gerçek kusur, devrenin ma
 
 Zcash topluluğu tüm düzeltmeleri tek seferde yapmak yerine aşamalı olarak yayımladı.
 
-![Ironwood yanıt zaman çizelgesi: Orchard hatası Mayıs 2026'da bulunuyor, havuz Haziran 2026'da duraklatılıyor, devre NU6.2'de düzeltiliyor ve Ironwood 28 Temmuz 2026'da 3.428.143. blokta etkinleşti](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood yanıt zaman çizelgesi: Orchard hatası Mayıs 2026'da bulunuyor, havuz Haziran 2026'da duraklatılıyor, devre NU6.2'de düzeltiliyor ve Ironwood 28 Temmuz 2026'da 3.428.143. blokta etkinleşti](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. Haziran 2026'nın başlarında, tam düzeltme hazırlanırken geçici bir önlem olarak Orchard havuzu devre dışı bırakıldı.
 2. NU6.2 yükseltmesi Orchard devresinin kendisini düzelterek alttaki soundness açığını kapattı.
 3. NU6.3 yükseltmesi olan Ironwood, yeni bir shielded pool ve eski Orchard havuzundan değerin tam denetim altında çıkmasını sağlayan kamusal bir kontrol noktası sunar.
 
-![NU6.2'deki düzeltme: düzeltilmiş ispat girdilerin çıktılara eşit olmasını gerektirir; böylece geçerli bir 5 ZEC çıktısı kabul edilirken 7 ZEC çıkarma girişimi reddedilir](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![NU6.2'deki düzeltme: düzeltilmiş ispat girdilerin çıktılara eşit olmasını gerektirir; böylece geçerli bir 5 ZEC çıktısı kabul edilirken 7 ZEC çıkarma girişimi reddedilir](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ironwood havuzu ne yapar
 

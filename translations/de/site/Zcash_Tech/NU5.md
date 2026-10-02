@@ -18,7 +18,7 @@ Orchard ist das neueste shielded Protokoll von Zcash, definiert in [ZIP 224](htt
 
 Sowohl Sprout als auch Sapling hingen von einem Trusted Setup ab. Eine Gruppe von Personen führte eine Zeremonie durch, um die Parameter jedes Pools zu erzeugen, und alle mussten darauf vertrauen, dass mindestens eine davon ihren Teil des Geheimnisses zerstörte. Orchard beseitigt diese Annahme. Die älteren Pools existieren nach NU5 weiterhin, daher gilt die No-Setup-Garantie für Guthaben, die du im Orchard-Pool hältst.
 
-![Vor NU5 benötigten Sprout und Sapling eine Trusted-Setup-Zeremonie. Nach NU5 verwendet der Orchard-Pool das Halo-2-System und benötigt kein Trusted Setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Vor NU5 benötigten Sprout und Sapling eine Trusted-Setup-Zeremonie. Nach NU5 verwendet der Orchard-Pool das Halo-2-System und benötigt kein Trusted Setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Was NU5 verändert hat
 
@@ -37,7 +37,7 @@ NU5 aktualisierte außerdem eine Reihe bestehender ZIPs (32, 203, 209, 212, 213,
 
 Vor NU5 hatte jeder Pool seinen eigenen Adresstyp, und ein Sender musste wissen, welche Art du wolltest. Unified Addresses, definiert in [ZIP 316](https://zips.z.cash/zip-0316), ändern das. Eine einzige Unified Address kann Receiver für mehr als einen Pool bündeln, sodass das Wallet des Senders einfach den besten auswählt, den es unterstützt.
 
-![Eine Unified Address bündelt Receiver für mehrere Pools: einen transparenten Receiver, einen Sapling-Receiver und einen neuen Orchard-Receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![Eine Unified Address bündelt Receiver für mehrere Pools: einen transparenten Receiver, einen Sapling-Receiver und einen neuen Orchard-Receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Unified Viewing Keys funktionieren für die Einsicht auf dieselbe Weise. Sie geben schreibgeschützte Sichtbarkeit über die Pools hinweg, die eine Adresse abdeckt. Mehr dazu findest du auf der Seite [Viewing Keys](../zcash-tech/viewing-keys).
 

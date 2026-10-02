@@ -14,7 +14,7 @@ Kí ló dé tí èyí fi ṣe pàtàkì? Pẹ̀lú owó tí ó hàn gbangba bíi
 
 Ṣé o ṣẹ̀ṣẹ̀ ń lo Zcash? Bẹrẹ pẹlú: [Kí ni ZEC àti Zcash?](../start-here/what-is-zec-and-zcash) àti pé, [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](../using-zcash/shielded-pools), wá padà wálé.
 
-![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Idi ti a fi nilo Ironwood
 
@@ -24,7 +24,7 @@ Ní òpin oṣù karùn-ún ọdún 2026, olùwádìí ààbò tí ó dá wà Ta
 2. Ní èrò, aṣekúpani lè lo àléébù náà láti fi ṣe iye tí kò bá tọ́ nínú Orchard pool kí ó sì ná owó tó jẹ́ pé kì í ṣe tiwọn gan-an, láìfi àmì kankan sílẹ̀ èyí tí òpó ìsọ̀rí kan yóò mú.
 3. Ìyípadà owó Zcash ṣì ń dí iye tí ó lè kúrò ní Orchard, nítorí náà gbogbo ìtòlé́sẹẹsẹ kò le di èyí tó pọ̀ jù lọ. ṣùgbọ́n ìlànà àdììtú ti pool yìí ò tún fi dá a lójú pé ẹyọ owó kọ̀ọ̀kan tí wọ́n bá pa mọ́ nínú rẹ̀ jẹ gidi mọ́.
 
-![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](/content-images/ironwood-bug-8f689d6f61.webp)
 
 àwọn iye tí ó wà lókè yìí jẹ́ àwòrán tó rọrùn. àléébù gidi náà ni nínú apá kan pàtó ti ìṣirò ẹ̀ka, kì í ṣe ìsókè owó-ayéwálé tí ń wọlé àti jáde ní ọ̀nà òótọ́. ohun tá a fẹ́ mú kúrò níbẹ̀ nìkan ni pé kòkòrò àìlálàá lè jẹ́ kí èrè di èyí tí a dá sínú adágún láìṣe àwárí rẹ̀. bí àpẹẹrẹ: nígbàtí o bá rí i pé ẹnìkan fi nǹkan díẹ̀ pa mọ́ fún àkókò gígùn ju ẹni mìíràn lọ, ńṣe lo máa dà bíi pé òun fúnra rẹ̀ kó
 
@@ -34,13 +34,13 @@ O ṣe pataki, ko si ẹri pe a lo bug naa lailai, ko ni ẹri ti ipa lori awọ
 
 Àwọn aráàlú Zcash fi àwọn àtúnṣe ránṣẹ́ ní ìpele dípò gbogbo wọn lẹ̀ẹ̀kan.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. Ní ìbẹ̀rẹ̀ oṣù June 2026, ètò àbòjúṣe kan dá omi-ìmọ́ Orchard dúró nígbà tí wọ́n ń múra bí wọn yóò ṣe tún un mọ.
 2. Àtúnṣe NU6.2 ṣe àtúnse sí ẹ̀ka Orchard fúnra rẹ̀, tí ó sì pa ibi ìjìnlẹ̀ tó wà nídìí.
 3. Àtúnṣe NU6.3, Ironwood, ṣafihan adágún tuntun tí a fi ààbò ṣe àti ibùdó ìwádìí fún gbogbo ènìyàn kí iye lè kúrò nínú adágùn Orchard ti ó wà lábẹ́ ètò ìdánwò.
 
-![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ohun tí adágún Ironwood ń ṣe
 

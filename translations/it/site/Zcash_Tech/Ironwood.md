@@ -14,7 +14,7 @@ Perché è importante. Con denaro trasparente come Bitcoin, chiunque può contro
 
 Nuovo su Zcash? Inizia da [Cos’è ZEC e Zcash](../start-here/what-is-zec-and-zcash) e [Pool Shielded](../using-zcash/shielded-pools), poi torna qui.
 
-![Flusso di migrazione del valore di Ironwood: il valore esce dal pool Orchard, passa attraverso il checkpoint del turnstile ed entra nel nuovo pool Ironwood](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Flusso di migrazione del valore di Ironwood: il valore esce dal pool Orchard, passa attraverso il checkpoint del turnstile ed entra nel nuovo pool Ironwood](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Perché Ironwood era necessario
 
@@ -24,7 +24,7 @@ Alla fine di maggio 2026, il ricercatore indipendente di sicurezza Taylor Hornby
 2. In teoria, un attaccante avrebbe potuto usare il difetto per creare valore non valido all’interno del pool Orchard e spendere fondi che non erano davvero suoi, senza lasciare tracce che un normale nodo potesse rilevare.
 3. Il turnstile di Zcash limitava comunque la quantità di valore che avrebbe mai potuto uscire da Orchard, quindi l’offerta totale non poteva essere gonfiata, ma la crittografia del pool non garantiva più che ogni moneta nascosta al suo interno fosse reale.
 
-![Il bug spiegato: una transazione inserisce 5 ZEC, ma la prova difettosa passa comunque quando ne escono 7 ZEC, creando 2 ZEC dal nulla](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![Il bug spiegato: una transazione inserisce 5 ZEC, ma la prova difettosa passa comunque quando ne escono 7 ZEC, creando 2 ZEC dal nulla](/content-images/ironwood-bug-8f689d6f61.webp)
 
 I numeri sopra sono una rappresentazione semplificata. Il vero difetto si trovava in una parte specifica della matematica del circuito, non in un conteggio letterale delle monete in entrata e in uscita. Il punto fondamentale è solo che un bug di soundness può permettere la creazione di valore all’interno del pool senza essere rilevato.
 
@@ -34,13 +34,13 @@ I numeri sopra sono una rappresentazione semplificata. Il vero difetto si trovav
 
 La comunità Zcash ha distribuito le correzioni in più fasi invece che tutte in una volta.
 
-![Cronologia della risposta di Ironwood: il bug di Orchard viene trovato a maggio 2026, il pool viene messo in pausa a giugno 2026, il circuito viene corretto in NU6.2 e Ironwood si è attivato al blocco 3.428.143 il 28 luglio 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Cronologia della risposta di Ironwood: il bug di Orchard viene trovato a maggio 2026, il pool viene messo in pausa a giugno 2026, il circuito viene corretto in NU6.2 e Ironwood si è attivato al blocco 3.428.143 il 28 luglio 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. All’inizio di giugno 2026, una misura temporanea ha disabilitato il pool Orchard mentre veniva preparata una correzione completa.
 2. L’aggiornamento NU6.2 ha corretto il circuito Orchard stesso, chiudendo la vulnerabilità di soundness alla radice.
 3. L’aggiornamento NU6.3, Ironwood, introduce un nuovo pool shielded e un checkpoint pubblico, così che il valore possa uscire dal vecchio pool Orchard sotto piena verifica.
 
-![La correzione in NU6.2: la prova corretta richiede che gli input siano uguali agli output, quindi un output valido di 5 ZEC passa mentre un tentativo di produrre 7 ZEC viene rifiutato](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![La correzione in NU6.2: la prova corretta richiede che gli input siano uguali agli output, quindi un output valido di 5 ZEC passa mentre un tentativo di produrre 7 ZEC viene rifiutato](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Cosa fa il pool Ironwood
 

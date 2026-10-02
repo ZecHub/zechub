@@ -16,7 +16,7 @@ Sapling 是 Zcash 的第二次重大网络升级，于 Zcash 二周年之际激�
 
 Sapling 的核心，是一种更快的零知识证明构建方式，用来保护 shielded 交易的隐私。最初的 Sprout 设计使用单一证明电路（JoinSplit 电路），速度慢且占用大量内存。Sapling 用两个专门构建的电路取而代之：Spend 电路和 Output 电路，详见 Zcash Protocol Specification。结果是成本大幅下降。根据 Electric Coin Company 的说法，一笔 shielded 交易最快只需几秒钟即可构建完成，且仅需约 40 MB 内存。Sapling 之前的 Sprout 基线则要沉重得多，大致需要数分钟和数 GB 内存（这些 Sprout 侧数据是被广泛引用的近似基线）。
 
-![Sprout 与 Sapling 的 shielded 交易成本对比](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Sprout 与 Sapling 的 shielded 交易成本对比](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## 新密钥
 
@@ -24,7 +24,7 @@ Sapling 还引入了一组新的 shielded 地址和密钥。一个密钥可以�
 
 另一项相关变化是，Sapling 将“构建证明”和“签署交易”这两项工作分离开来。构造零知识证明的设备，不再必须是持有花费授权的那台设备。这种解耦使硬件钱包能够将你的 spending key 隔离保存，同时由另一台设备完成更重的证明生成工作。
 
-![证明设备将证明交给独立的签名设备](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![证明设备将证明交给独立的签名设备](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## 可信设置
 
@@ -34,7 +34,7 @@ Sapling 的电路依赖一组必须被谨慎生成的公共参数。如果这些
 
 Sapling 紧随 Overwinter 之后，后者是 2018 年 6 月的一次升级，为网络升级机制做好了准备。Electric Coin Company 在 2018 年 8 月发布的 zcashd 2.0.0 中设定了主网激活高度，当区块 419,200 被挖出时，网络切换到了 Sapling 规则。在链上，这一时刻以 Sapling 共识分支 id 标记。
 
-![从 Zcash 发布到 Sapling 激活的时间线](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![从 Zcash 发布到 Sapling 激活的时间线](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## 术语表
 

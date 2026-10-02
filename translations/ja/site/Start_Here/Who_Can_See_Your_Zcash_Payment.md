@@ -22,7 +22,7 @@
 
 下の図はその両方を示しています。
 
-![Zcash のキーの種類と、4つのトランザクション経路ごとにブロックエクスプローラーが見られる内容](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash のキーの種類と、4つのトランザクション経路ごとにブロックエクスプローラーが見られる内容](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

@@ -22,7 +22,7 @@ Zcash vous donne au contraire le choix. Ce choix se fait deux fois : **une premi
 
 L’illustration ci-dessous couvre les deux.
 
-![Types de clés Zcash et ce qu’un explorateur de blocs peut voir pour chacun des quatre chemins de transaction](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Types de clés Zcash et ce qu’un explorateur de blocs peut voir pour chacun des quatre chemins de transaction](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

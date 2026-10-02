@@ -18,7 +18,7 @@ Orchard هو أحدث بروتوكول محمي في Zcash، كما هو معر�
 
 كان كلٌّ من Sprout وSapling يعتمد على trusted setup. فقد قامت مجموعة من الأشخاص بإجراء مراسم لإنشاء معلمات كل مجمع، وكان على الجميع أن يثقوا بأن شخصًا واحدًا على الأقل منهم قد أتلف الجزء الذي بحوزته من السر. يزيل Orchard هذا الافتراض. ولا تزال المجمعات الأقدم موجودة بعد NU5، لذا فإن ضمان عدم الحاجة إلى إعداد ينطبق على الأموال التي تحتفظ بها في مجمع Orchard.
 
-![قبل NU5، كان كلٌّ من Sprout وSapling يحتاج إلى مراسم trusted setup. بعد NU5، يستخدم مجمع Orchard نظام Halo 2 ولا يحتاج إلى trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![قبل NU5، كان كلٌّ من Sprout وSapling يحتاج إلى مراسم trusted setup. بعد NU5، يستخدم مجمع Orchard نظام Halo 2 ولا يحتاج إلى trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## ما الذي غيّره NU5
 
@@ -37,7 +37,7 @@ Orchard هو أحدث بروتوكول محمي في Zcash، كما هو معر�
 
 قبل NU5، كان لكل مجمع نوع عنوان خاص به، وكان على المُرسِل أن يعرف النوع الذي تريده. العناوين الموحدة، كما هي معرّفة في [ZIP 316](https://zips.z.cash/zip-0316)، تغيّر ذلك. إذ يمكن لعنوان موحد واحد أن يضم مستقبلات لأكثر من مجمع واحد، بحيث تختار محفظة المُرسِل ببساطة أفضل مستقبل تدعمه.
 
-![يجمع العنوان الموحد مستقبلات لعدة مجمعات: مستقبل شفاف، ومستقبل Sapling، ومستقبل Orchard جديد](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![يجمع العنوان الموحد مستقبلات لعدة مجمعات: مستقبل شفاف، ومستقبل Sapling، ومستقبل Orchard جديد](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 وتعمل مفاتيح العرض الموحدة بالطريقة نفسها فيما يخص العرض. فهي تمنح إمكانية اطلاع للقراءة فقط عبر المجمعات التي يغطيها العنوان. ولمعرفة المزيد عن ذلك، راجع صفحة [Viewing Keys](../zcash-tech/viewing-keys).
 

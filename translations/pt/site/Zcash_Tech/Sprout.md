@@ -16,19 +16,19 @@ Porque isto importa. Todas as blockchains públicas antes de Sprout expunham os 
 
 Sprout criou dois tipos de endereços. Os endereços transparentes (t-addresses) funcionam como no Bitcoin, com os detalhes visíveis no registo público. Os endereços blindados (z-addresses) enviam fundos para o [pool blindado](../using-zcash/shielded-pools) de Sprout, onde o remetente, o destinatário e o montante permanecem ocultos. O truque são os [zk-SNARKs](../zcash-tech/zk-snarks), provas de conhecimento zero que permitem a uma transação mostrar que é válida, sem gasto duplo e com saldos que batem certo, sem revelar nenhum dos detalhes. Sprout foi a primeira vez que isto funcionou em produção numa criptomoeda ativa.
 
-![As transações transparentes expõem remetente, destinatário e montante, enquanto as transações blindadas de Sprout ocultam os três e continuam a ser verificáveis](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![As transações transparentes expõem remetente, destinatário e montante, enquanto as transações blindadas de Sprout ocultam os três e continuam a ser verificáveis](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## A Ceremony
 
 Os zk-SNARKs em Sprout precisavam de um conjunto de parâmetros públicos, e gerá-los em segurança exigiu uma configuração única chamada Ceremony. Seis participantes, em locais separados e distantes, geraram cada um uma parte secreta, chamada toxic waste. Se alguém alguma vez reunisse todas as partes, poderia forjar ZEC do nada. O desenho transformou esse risco numa regra simples: desde que pelo menos um participante destruísse a sua parte, o segredo completo nunca poderia ser reconstruído, pelo que a falsificação permaneceria impossível. Os participantes cujos nomes foram divulgados publicamente incluem Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd e Derek Hinch da NCC Group. Um participante escolheu manter-se anónimo.
 
-![A Ceremony: seis participantes geram fragmentos privados e depois destroem o toxic waste, deixando apenas os parâmetros públicos de Sprout](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![A Ceremony: seis participantes geram fragmentos privados e depois destroem o toxic waste, deixando apenas os parâmetros públicos de Sprout](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## A origem
 
 Sprout é a base sobre a qual todas as alterações posteriores assentam. Quando o mecanismo de atualização de rede chegou com Overwinter, passou a identificar as regras originais como consensus branch id 0, o que significa simplesmente que ainda não foi aplicada nenhuma atualização. Tudo o que veio depois (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 e seguintes) assenta na cadeia que Sprout iniciou. O lançamento foi anunciado em agosto de 2016 para um génese a 28 de outubro, a Ceremony decorreu nas semanas anteriores, e o timestamp codificado no bloco génese indica 28 de outubro de 2016, às 07:56 UTC.
 
-![Linha temporal desde o anúncio de agosto de 2016, passando pela Ceremony dos parâmetros, até ao lançamento de Sprout em 28 de outubro de 2016](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![Linha temporal desde o anúncio de agosto de 2016, passando pela Ceremony dos parâmetros, até ao lançamento de Sprout em 28 de outubro de 2016](/content-images/sprout-timeline-348766352a.webp)
 
 ## Glossário
 

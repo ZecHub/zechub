@@ -21,13 +21,13 @@ Bundan iki sonuç çıkar:
 1. Bloklar yaklaşık iki kat daha sık gelir, bu yüzden zincir zaman birimi başına kabaca iki kat daha fazla işlem taşıyabilir.
 2. İşleminiz ilk onayını daha erken alır, çünkü bir sonraki blok için o kadar uzun beklemezsiniz.
 
-![Blossom'dan önce blok hedefi 150 saniyeydi; onaylar daha yavaştı ve işlem kapasitesi daha düşüktü. Blossom'dan sonra hedef 75 saniyedir; onaylar daha hızlıdır ve kapasite kabaca iki katına çıkar](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Blossom'dan önce blok hedefi 150 saniyeydi; onaylar daha yavaştı ve işlem kapasitesi daha düşüktü. Blossom'dan sonra hedef 75 saniyedir; onaylar daha hızlıdır ve kapasite kabaca iki katına çıkar](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## İhracı sabit tutmak
 
 Daha hızlı bloklar bir soruyu gündeme getirir. Eğer Zcash iki kat fazla blok üretse ve her blok hâlâ aynı ödülü verseydi, ağ ZEC'i iki kat daha hızlı üretirdi. Blossom bunu önler. Blok başına ödenen ödülü yarıya indirdi ve blok ödülü yarılanma aralığını 840,000 bloktan 1,680,000 bloğa çıkardı ([ZIP 208](https://zips.z.cash/zip-0208)). İki kat fazla blok ve her birinin yarı miktarda ödeme yapması, zaman birimi başına üretilen ZEC miktarını aynı tutar. Toplam arz takvimi ve gelecekteki yarılanmaların gerçek zamana göre zamanlaması değişmedi.
 
-![Blossom'un ihracı nasıl sabit tuttuğu: 75 saniyelik bloklar iki kat daha sık gelir, blok başına ödül yarıya iner, yarılanma aralığı iki katına çıkar; böylece zaman içindeki toplam emisyon aynı kalır](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Blossom'un ihracı nasıl sabit tuttuğu: 75 saniyelik bloklar iki kat daha sık gelir, blok başına ödül yarıya iner, yarılanma aralığı iki katına çıkar; böylece zaman içindeki toplam emisyon aynı kalır](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Zorunlu bir yükseltme
 

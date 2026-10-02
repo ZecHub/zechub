@@ -12,7 +12,7 @@ Overwinter 是一次 Zcash [网络升级](../start-here/network-upgrades)，也�
 
 这为什么重要。改变一条正在运行中的 blockchain 的规则是有风险的。如果处理错误，网络的两个版本可能会产生分歧，或者原本只打算用于一条链上的交易会被复制到另一条链上。在 Overwinter 之前，Zcash 没有一种标准化、具备重放安全性的方式来协调规则变更。Overwinter 解决了这个问题。它为 Zcash 提供了正式的升级流程，而且同样重要的是，它带来了双向重放保护，因此在一套规则下有效的交易，无法在另一套规则下被重放。正是这项基础工作，才让 Sapling 以及之后的每一次升级都能够顺利激活。
 
-![Overwinter 前后对比：此前没有标准升级路径，也没有重放保护。此后有了网络升级机制、双向重放保护以及安全的未来升级](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Overwinter 前后对比：此前没有标准升级路径，也没有重放保护。此后有了网络升级机制、双向重放保护以及安全的未来升级](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## 升级机制
 
@@ -28,7 +28,7 @@ Overwinter 本身是在主网区块 347,500 激活的。
 
 这一机制与 [ZIP 202](https://zips.z.cash/zip-0202) 中新的 version 3 交易格式协同工作，这种格式有时也被称为 Overwintered 格式。它加入了 `fOverwintered` 标志和 version group id，用来明确一笔交易属于哪一套共识规则。作为附带收益，这种新的签名方案也提升了透明交易的验证速度。
 
-![重放保护如何工作：wallet 对交易签名时会绑定当前共识分支 id，因此该交易无法在任何其他分支上被重放](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![重放保护如何工作：wallet 对交易签名时会绑定当前共识分支 id，因此该交易无法在任何其他分支上被重放](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## 交易过期
 
@@ -38,7 +38,7 @@ Overwinter 本身是在主网区块 347,500 激活的。
 
 Overwinter 是 2016 年 10 月主网上线后，Zcash 的第一次网络升级，而且它是刻意先于 Sapling 发布的。它的任务是基础设施，而不是功能特性。通过先安装升级机制和重放保护这套“机械装置”，它为之后的每一次升级（Sapling、Blossom、Heartwood、Canopy、NU5，以及后续升级）都提供了一条安全的激活路径。
 
-![时间线：从 2016 年 10 月的 Sprout 上线，到 2016 至 2018 年间缺乏升级框架的阶段，再到 2018 年 6 月的 Overwinter](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![时间线：从 2016 年 10 月的 Sprout 上线，到 2016 至 2018 年间缺乏升级框架的阶段，再到 2018 年 6 月的 Overwinter](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## 术语表
 

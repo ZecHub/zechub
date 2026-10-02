@@ -16,7 +16,7 @@ Nea enti a eyi ho hia. Ansa na Sapling reba no, na kokoam sika a wotua ankasa no
 
 Sapling koma yɛ ɔkwan a ɛyɛ ntɛm a wɔfa so kyekye adanse a nimdeɛ nnim a ɛma asɛm a wɔabɔ ho ban no yɛ kokoam. Mfitiase Sprout nhyehyɛe no de proving circuit biako (JoinSplit circuit) a ɛyɛ brɛoo na ɛkɔm de nkae dii dwuma. Sapling de amansin abien a wɔde atirimpɔw ayɛ, Spend amansin ne Output amansin, a wɔaka ho asɛm wɔ Zcash Protocol Specification mu no sii ananmu. Nea afi mu aba ne ɛka a wɔbɔ no so tew kɛse. Sɛnea Electric Coin Company kyerɛ no, wobetumi ayɛ asɛm a wɔabɔ ho ban wɔ sikani kakraa bi mu denam bɛyɛ megabytes 40 memory so. Na mfitiaseɛ a ɛwɔ hɔ ansa na Sapling Sprout reba no mu yɛ duru koraa, ɛyɛ simma ne gigabyte pii a wɔde kae (saa Sprout afã akontabuo yi ne mfitiaseɛ bɛyɛ a wɔatwe adwene asi so kɛseɛ).
 
-![Sprout versus Sapling shielded transaction cost](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Sprout versus Sapling shielded transaction cost](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## Safe foforo
 
@@ -24,7 +24,7 @@ Sapling nso de address ne nsafe foforo a wɔabɔ ho ban bae. Safoa biako betumi 
 
 Nsakrae a ɛfa ho ne sɛ Sapling tetew adwuma a ɛne sɛ wɔbɛkyekye adanse no ne adwuma a ɛne sɛ wɔde wɔn nsa bɛhyɛ asɛm no ase no mu. Ɛnsɛ sɛ mfiri a ɛyɛ zero-nimdeɛ adanse no yɛ mfiri a ɛkura tumi a wɔde di dwuma no bio. Saa decoupling yi ne nea ɛma hardware wallet ma wo spending key no tew ne ho bere a device a ɛyɛ soronko yɛ proving adwuma a emu yɛ duru no.
 
-![Proving device hands the proof to a separate signing device](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![Proving device hands the proof to a separate signing device](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## Nhyehyɛe a wotumi de ho to so no
 
@@ -34,7 +34,7 @@ Sapling amansin ahorow no de ne ho to ɔmanfo nsusuwii ahorow bi a na ɛsɛ sɛ 
 
 Sapling dii Overwinter akyi, June 2018 nkɔsoɔ a ɛsiesiee ntwamutam no nkɔsoɔ kwan no. Electric Coin Company de mainnet activation height sii hɔ wɔ zcashd 2.0.0 mu, a wɔyii no adi wɔ August 2018 mu, na network no dan kɔɔ Sapling mmara so berɛ a wɔtu block 419,200. Wɔ nkɔnsɔnkɔnsɔn so no, wɔde Sapling consensus branch id na ɛhyɛ saa bere no agyirae.
 
-![Timeline from Zcash launch to Sapling activation](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## Nsɛmfua Nkyerɛase
 

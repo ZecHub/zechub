@@ -22,7 +22,7 @@ Zcash gibt dir stattdessen eine Wahl. Diese Wahl wird zweimal getroffen: **einma
 
 Das Bild unten deckt beides ab.
 
-![Zcash-Schlüsseltypen und was ein Block-Explorer bei jedem der vier Transaktionspfade sehen kann](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash-Schlüsseltypen und was ein Block-Explorer bei jedem der vier Transaktionspfade sehen kann](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

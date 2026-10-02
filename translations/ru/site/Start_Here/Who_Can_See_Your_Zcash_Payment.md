@@ -22,7 +22,7 @@ Zcash вместо этого даёт вам выбор. Этот выбор д
 
 Иллюстрация ниже охватывает оба случая.
 
-![Типы ключей Zcash и что обозреватель блокчейна может видеть для каждого из четырёх путей транзакции](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Типы ключей Zcash и что обозреватель блокчейна может видеть для каждого из четырёх путей транзакции](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

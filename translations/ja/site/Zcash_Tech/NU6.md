@@ -21,7 +21,7 @@ NU6 は、[ZIP 1015](https://zips.z.cash/zip-1015) で定義されたルール�
 
 ブロック補助金の残りとトランザクション手数料は、ネットワークを保護するマイナーに渡ります。NU6 はまた、既存の funding stream と dev fund のルール（ZIP 207 と ZIP 214）をこの新しい構造に合うよう更新しました。
 
-![NU6 の開発資金の配分：ブロック補助金の 20 パーセントが開発に回され、そのうち 8 パーセントが Zcash Community Grants に、12 パーセントが Deferred Dev Fund Lockbox に入る](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![NU6 の開発資金の配分：ブロック補助金の 20 パーセントが開発に回され、そのうち 8 パーセントが Zcash Community Grants に、12 パーセントが Deferred Dev Fund Lockbox に入る](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## Deferred Dev Fund Lockbox
 
@@ -41,7 +41,7 @@ NU6 はまた、新しい ZEC がどのように生成されるかに関する�
 2. NU6 以後は、coinbase transaction は厳密にバランスしなければなりません。出力値の合計は、マイナー補助金と手数料の合計と完全に一致する必要があり、多すぎても少なすぎてもいけません。
 3. マイナーが少なめに請求して誤って ZEC をバーンすることができなくなったため、将来存在する ZEC の総量を正確に予測できるようになりました。
 
-![NU6 前後の Coinbase の収支：以前は coinbase が少なめに請求して ZEC をバーンできたため、供給量は正確に予測できなかった。その後は coinbase が厳密に収支一致しなければならないため、発行量は正確に予測可能になった](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![NU6 前後の Coinbase の収支：以前は coinbase が少なめに請求して ZEC をバーンできたため、供給量は正確に予測できなかった。その後は coinbase が厳密に収支一致しなければならないため、発行量は正確に予測可能になった](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## 資金調達はどのように進化したか
 
@@ -51,7 +51,7 @@ NU6 は、Zcash がどのように自らの維持費を賄ってきたかとい�
 2. NU6（2024年11月）は、2回目の半減期後にその資金供給を再編し、Deferred Dev Fund Lockbox を設け、将来コミュニティが決定する助成のために発行量の一部を留保しました。
 3. NU6.1（2025年）は、NU6 が未解決のまま残した「誰がその留保資金を管理するのか」という問いに答え、ブロック補助金の 8% を Zcash Community Grants に継続し、12% をロックボックスを元手とする coin-holder-controlled fund に向けました。
 
-![Zcash の資金調達の進化：Canopy が開発基金を作り、NU6 がロックボックスを設け、NU6.1 が誰がそれを管理するかのルールを定めた](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![Zcash の資金調達の進化：Canopy が開発基金を作り、NU6 がロックボックスを設け、NU6.1 が誰がそれを管理するかのルールを定めた](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## 用語集
 

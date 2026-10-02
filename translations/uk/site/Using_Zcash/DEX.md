@@ -110,7 +110,7 @@ ___
 
 ### ZcashToCash
 
-<img width="1774" height="887" alt="Зображення ChatGPT 22 вер. 2026 р., 20_27_53" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+<img width="1774" height="887" alt="Зображення ChatGPT 22 вер. 2026 р., 20_27_53" src="/content-images/3f7aa1a6-3646-442b-8f66-1ef8988051ba-3ddc295461.webp" />
 
 - Вебсайт: https://zcashto.cash/
 - Опис: Некостодіальне виведення ZEC у фіат через Peer. Надсилайте екрановані ZEC та отримуйте виплати в повсякденних платіжних застосунках, таких як Venmo, Cash App, Revolut, Zelle, Chime і Monzo, у понад 100 регіонах. Обліковий запис CEX не потрібен; ескроу завершується після підтвердження фіатної оплати.

@@ -16,7 +16,7 @@ Pourquoi c’est important. Avant Sapling, effectuer un paiement réellement pri
 
 Au cœur de Sapling se trouve une méthode plus rapide pour construire la preuve à divulgation nulle de connaissance qui préserve la confidentialité d’une transaction shielded. Le design Sprout d’origine utilisait un seul circuit de preuve (le circuit JoinSplit), lent et gourmand en mémoire. Sapling l’a remplacé par deux circuits conçus pour cet usage, un circuit Spend et un circuit Output, décrits dans la Spécification du protocole Zcash. Le résultat est une forte baisse du coût. Selon Electric Coin Company, une transaction shielded peut être construite en seulement quelques secondes en utilisant environ 40 mégaoctets de mémoire. La référence Sprout avant Sapling était bien plus lourde, de l’ordre de plusieurs minutes et de plusieurs gigaoctets de mémoire (ces chiffres côté Sprout sont la référence approximative la plus couramment citée).
 
-![Coût d’une transaction shielded Sprout par rapport à Sapling](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Coût d’une transaction shielded Sprout par rapport à Sapling](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## Nouvelles clés
 
@@ -24,7 +24,7 @@ Sapling a également introduit un nouvel ensemble d’adresses et de clés shiel
 
 Un changement lié est que Sapling a séparé la tâche de construction de la preuve de celle de signature de la transaction. L’appareil qui construit la preuve à divulgation nulle de connaissance n’a plus besoin d’être l’appareil qui détient l’autorité de dépense. Ce découplage permet à un hardware wallet de garder votre clé de dépense isolée pendant qu’un autre appareil effectue le travail de preuve plus lourd.
 
-![L’appareil de preuve transmet la preuve à un appareil de signature distinct](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![L’appareil de preuve transmet la preuve à un appareil de signature distinct](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## Le trusted setup
 
@@ -34,7 +34,7 @@ Les circuits de Sapling reposent sur un ensemble de paramètres publics qui deva
 
 Sapling a suivi Overwinter, la mise à niveau de juin 2018 qui a préparé le mécanisme de mise à niveau du réseau. Electric Coin Company a fixé la hauteur d’activation du mainnet dans zcashd 2.0.0, publié en août 2018, et le réseau est passé aux règles de Sapling lorsque le bloc 419 200 a été miné. On-chain, ce moment est marqué par le consensus branch id de Sapling.
 
-![Chronologie du lancement de Zcash jusqu’à l’activation de Sapling](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![Chronologie du lancement de Zcash jusqu’à l’activation de Sapling](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## Glossaire
 

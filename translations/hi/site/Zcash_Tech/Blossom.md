@@ -21,13 +21,13 @@ Blossom का मुख्य बदलाव सरल है। Zcash का 
 1. ब्लॉक लगभग दोगुनी बार आते हैं, इसलिए chain समय की प्रति इकाई में लगभग दोगुने लेनदेन संभाल सकती है।
 2. आपके लेनदेन को उसकी पहली पुष्टि जल्दी मिलती है, क्योंकि आपको अगले ब्लॉक के लिए उतना लंबा इंतज़ार नहीं करना पड़ता।
 
-![Blossom से पहले ब्लॉक लक्ष्य 150 सेकंड था, जिससे पुष्टि धीमी और throughput कम था। Blossom के बाद लक्ष्य 75 सेकंड है, जिससे पुष्टि तेज़ और throughput लगभग दोगुना है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Blossom से पहले ब्लॉक लक्ष्य 150 सेकंड था, जिससे पुष्टि धीमी और throughput कम था। Blossom के बाद लक्ष्य 75 सेकंड है, जिससे पुष्टि तेज़ और throughput लगभग दोगुना है](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## जारीकरण को स्थिर रखना
 
 तेज़ ब्लॉक एक सवाल उठाते हैं। यदि Zcash दोगुने ब्लॉक बनाता और हर ब्लॉक पर वही reward देता रहता, तो नेटवर्क ZEC को दोगुनी तेजी से बनाता। Blossom ऐसा होने से रोकता है। इसने प्रति ब्लॉक दिए जाने वाले reward को आधा कर दिया, और block-reward halving interval को 840,000 से बढ़ाकर 1,680,000 ब्लॉक कर दिया ([ZIP 208](https://zips.z.cash/zip-0208))। दोगुने ब्लॉक, जिनमें प्रत्येक आधा भुगतान करता है, मिलकर समय की प्रति इकाई उतना ही ZEC बनाते हैं। कुल supply schedule और भविष्य की halving का समय, वास्तविक समय में मापा जाए तो, नहीं बदला।
 
-![Blossom जारीकरण को कैसे स्थिर रखता है: 75 सेकंड के ब्लॉक दोगुनी बार आते हैं, प्रति-ब्लॉक reward आधा कर दिया जाता है, halving interval दोगुना कर दिया जाता है, इसलिए समय के साथ कुल emission समान रहती है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Blossom जारीकरण को कैसे स्थिर रखता है: 75 सेकंड के ब्लॉक दोगुनी बार आते हैं, प्रति-ब्लॉक reward आधा कर दिया जाता है, halving interval दोगुना कर दिया जाता है, इसलिए समय के साथ कुल emission समान रहती है](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## एक अनिवार्य upgrade
 

@@ -112,7 +112,7 @@ ___
 
 ### ZcashToCash
 
-<img width="1774" height="887" alt="Изображение ChatGPT, 22 сентября 2026 г., 20:27:53" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+<img width="1774" height="887" alt="Изображение ChatGPT, 22 сентября 2026 г., 20:27:53" src="/content-images/3f7aa1a6-3646-442b-8f66-1ef8988051ba-3ddc295461.webp" />
 
 
 

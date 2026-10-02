@@ -18,7 +18,7 @@ Orchard è il protocollo schermato più recente di Zcash, definito in [ZIP 224](
 
 Sia Sprout sia Sapling dipendevano da un trusted setup. Un gruppo di persone eseguiva una cerimonia per costruire i parametri di ciascun pool, e tutti dovevano fidarsi che almeno uno di loro distruggesse la propria parte del segreto. Orchard elimina questa assunzione. I pool più vecchi esistono ancora dopo NU5, quindi la garanzia di assenza di setup si applica ai fondi che detieni nel pool Orchard.
 
-![Prima di NU5, Sprout e Sapling richiedevano una cerimonia di trusted setup. Dopo NU5, il pool Orchard usa il sistema Halo 2 e non richiede trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Prima di NU5, Sprout e Sapling richiedevano una cerimonia di trusted setup. Dopo NU5, il pool Orchard usa il sistema Halo 2 e non richiede trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Cosa ha cambiato NU5
 
@@ -37,7 +37,7 @@ NU5 ha anche aggiornato diversi ZIP esistenti (32, 203, 209, 212, 213, 221 e 401
 
 Prima di NU5, ogni pool aveva il proprio tipo di indirizzo, e un mittente doveva sapere quale tipo desideravi. Gli indirizzi unificati, definiti in [ZIP 316](https://zips.z.cash/zip-0316), cambiano questa situazione. Un singolo indirizzo unificato può raggruppare receiver per più di un pool, così il wallet del mittente sceglie semplicemente il migliore che supporta.
 
-![Un indirizzo unificato raggruppa receiver per diversi pool: un receiver trasparente, un receiver Sapling e un nuovo receiver Orchard](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![Un indirizzo unificato raggruppa receiver per diversi pool: un receiver trasparente, un receiver Sapling e un nuovo receiver Orchard](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Le unified viewing key funzionano allo stesso modo per la visualizzazione. Offrono visibilità in sola lettura attraverso i pool coperti da un indirizzo. Per saperne di più, consulta la pagina [Viewing Keys](../zcash-tech/viewing-keys).
 

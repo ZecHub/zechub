@@ -22,7 +22,7 @@ Zcash bunun yerine size bir seçim sunar. Bu seçim iki kez yapılır: **bir kez
 
 Aşağıdaki görsel her ikisini de kapsar.
 
-![Dört işlem yolunun her biri için Zcash anahtar türleri ve bir blok gezgininin görebilecekleri](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Dört işlem yolunun her biri için Zcash anahtar türleri ve bir blok gezgininin görebilecekleri](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

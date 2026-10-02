@@ -18,7 +18,7 @@ Orchard jẹ ilana aabo tuntun ti Zcash, eyiti a ṣalaye ninu [ZIP 224](https:/
 
 Sprout ati Sapling mejeeji da lori iṣeto igbẹkẹle. Ẹgbẹ eniyan kan ṣe ayẹyẹ lati kọ awọn iwọn didun ti adagun kọọkan, gbogbo wọn ni lati gbẹkẹle pe o kere ju ọkan ninu wọn ba apakan aṣiri rẹ jẹ. Orchard yọ ero yẹn kuro. Awọn adagun agbalagba tun wa lẹhin NU5, nitorinaa iṣeduro ko si-iṣeto waye fun owo ti o mu sinu adagun Orchard .
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Àwọn ohun tí NU5 yí padà
 
@@ -37,7 +37,7 @@ NU5 tun ṣe imudojuiwọn nọmba kan ti ZIP tẹlẹ (32, 203, 209, 212, 213, 
 
 Ṣaaju ki o to NU5, kọọkan pool ní awọn oniwe-ara adirẹsi iru, ati a sender ni lati mọ eyi ti irú ti o fẹ. unified ìsọfúnni, apejuwe ninu [ZIP 316 ìyẹn àwọn tó ń gbé nílùú](https://zips.z.cash/zip-0316)Adirẹsi kan ṣoṣo le ṣajọ awọn olugba fun ju apapọ lọ, nitorinaa apamọwọ oluranlowo nikan yan eyi ti o dara julọ ti o ṣe atilẹyin.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Awọn bọtini wiwo iṣọkan ṣiṣẹ ni ọna kanna fun wiwo. Wọn fi han kika nikan kọja awọn adagun adirẹsi kan bo. Fun diẹ sii lori iyẹn, wo awọn ohun elo ti o wa ninu rẹ lati ṣafihan wọn si gbogbo eniyan miiran ati pe yoo jẹ ki a mọ bi a ṣe le rii wọn daradara pẹlu lilo data naa. [Àwọn Kókó Ìwòran](../zcash-tech/viewing-keys) ojú ìwé.
 

@@ -22,7 +22,7 @@ A Zcash dá-lhe uma escolha. Essa escolha é feita duas vezes: **uma vez quando 
 
 A imagem abaixo cobre ambas.
 
-![Tipos de chaves Zcash e o que um explorador de blocos pode ver em cada um dos quatro percursos de transação](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Tipos de chaves Zcash e o que um explorador de blocos pode ver em cada um dos quatro percursos de transação](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 

@@ -16,19 +16,19 @@ Sprout, Zcash नेटवर्क का मूल लॉन्च है, क
 
 Sprout ने दो प्रकार के addresses बनाए। Transparent addresses (t-addresses) Bitcoin की तरह काम करते हैं, जहाँ विवरण public ledger पर दिखाई देते हैं। Shielded addresses (z-addresses) फंड्स को Sprout [shielded pool](../using-zcash/shielded-pools) में भेजते हैं, जहाँ प्रेषक, प्राप्तकर्ता, और राशि छिपी रहती है। इसका तरीका [zk-SNARKs](../zcash-tech/zk-snarks) है, यानी zero-knowledge proofs, जो किसी transaction को यह दिखाने देते हैं कि वह वैध है — बिना double spend के और सही जोड़ते हुए balances के साथ — लेकिन कोई भी विवरण उजागर किए बिना। यह पहली बार था जब यह किसी live cryptocurrency में production में चला।
 
-![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Ceremony
 
 Sprout में zk-SNARKs को public parameters के एक सेट की आवश्यकता थी, और उन्हें सुरक्षित रूप से तैयार करने के लिए एक one-time setup चाहिए था जिसे Ceremony कहा गया। अलग-अलग, दूरस्थ स्थानों पर मौजूद छह प्रतिभागियों ने एक-एक secret piece बनाया, जिसे toxic waste कहा गया। यदि कोई कभी उन सभी pieces को फिर से जोड़ देता, तो वह शून्य से ZEC गढ़ सकता था। इस design ने उस जोखिम को एक सरल नियम में बदल दिया: जब तक कम से कम एक प्रतिभागी अपने piece को नष्ट कर दे, पूरा secret फिर कभी पुनर्निर्मित नहीं किया जा सकता, इसलिए counterfeit करना असंभव बना रहता। जिन प्रतिभागियों के नाम सार्वजनिक रूप से बताए गए हैं, उनमें Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, और NCC Group के Derek Hinch शामिल हैं। एक प्रतिभागी ने गुमनाम रहने का विकल्प चुना।
 
-![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## उत्पत्ति
 
 Sprout वह baseline है जिस पर बाद के सभी बदलाव निर्मित हुए। जब Overwinter के साथ network-upgrade mechanism आया, तो उसने मूल नियमों को consensus branch id 0 के रूप में लेबल किया, जिसका सीधा अर्थ है कि अभी तक कोई upgrade लागू नहीं हुआ है। उसके बाद से सब कुछ (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, और आगे भी) उसी chain पर आधारित है जिसकी शुरुआत Sprout ने की। लॉन्च की घोषणा अगस्त 2016 में 28 अक्टूबर genesis के लिए की गई थी, Ceremony उससे पहले के हफ्तों में हुई, और genesis block का hardcoded timestamp 28 अक्टूबर 2016, 07:56 UTC दर्ज है।
 
-![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
 ## शब्दावली
 
