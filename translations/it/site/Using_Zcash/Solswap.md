@@ -4,6 +4,8 @@
 
 ![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
+Hai già ZEC su Solana (ad esempio da un token che remunera i titolari in ZEC)? Non scambiarlo. Sposta quel token in un wallet Zcash schermato con [Hai ZEC su Solana? Spostalo in Zcash schermato](/using-zcash/solana-zec-to-shielded).
+
 ---
 
 ## **ZEC nativo o un token ZEC?**
@@ -15,14 +17,14 @@
 
 ### Controlla prima di pagare
 
-- **Rete:** il ZEC che ricevi dovrebbe essere sulla rete **Zcash**. Se indica Solana, Ethereum o Base, è un token.
-- **Asset:** ZEC nativo non ha un contratto token né un indirizzo mint. Se il tuo ne mostra uno, è un token. Esistono anche molti token "ZEC" simili su Solana, quindi non basarti solo sul nome.
-- **Indirizzo:** ZEC nativo viene inviato a un indirizzo Zcash, che inizia con `t1`, `u1` o `zs`. Se il ZEC viene inviato al tuo indirizzo Phantom, stai ricevendo un token.
+- **Rete:** lo ZEC che ricevi dovrebbe essere sulla rete **Zcash**. Se indica Solana, Ethereum o Base, è un token.
+- **Asset:** lo ZEC nativo non ha un contratto token né un indirizzo mint. Se il tuo ne mostra uno, è un token. Su Solana esistono anche molti token "ZEC" simili, quindi non basarti solo sul nome. Il token OmniBridge su Solana è `A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS`; è comunque un token, non ZEC nativo.
+- **Indirizzo:** lo ZEC nativo va a un indirizzo Zcash, che inizia con `t1`, `u1` o `zs`. Se lo ZEC viene inviato al tuo indirizzo Phantom, stai ricevendo un token.
 
 ---
 
-##  **Passaggio 1: Apri l'interfaccia Swap**  
-Avvia l'**app Phantom** e visita **[solswap.org](https://solswap.org/)** dal browser Phantom. Il sito utilizza Near Intents e può inviare ZEC a un indirizzo Zcash.  
+##  **Passaggio 1: Apri l'interfaccia Swap**
+Avvia l'app **Phantom** e visita **[solswap.org](https://solswap.org/)** dal browser Phantom. Digita tu stesso l'indirizzo. Il sito funziona su NEAR Intents e può inviare ZEC a un indirizzo Zcash.
 
 Anche il pulsante **Swap** di Phantom elenca ZEC, ma così ottieni il token descritto sopra, non ZEC nativo.  
 
@@ -43,64 +45,57 @@ Anche il pulsante **Swap** di Phantom elenca ZEC, ma così ottieni il token desc
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 
-##  **Passaggio 3: Inserisci l'importo e controlla il preventivo**  
-- Inserisci l'importo che desideri scambiare.  
-- Phantom mostrerà un **importo stimato da ricevere** al netto delle commissioni.  
-
+##  **Passaggio 3: Inserisci l'importo e controlla la quotazione**
+- Inserisci l'importo che desideri scambiare.
+- Usa l'importo da ricevere mostrato su **solswap.org**. È la quotazione applicabile a questo percorso.
 
 ![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
-##  **Passaggio 4: Controlla gas e commissioni**  
-- Per gli **swap sulla stessa chain**, assicurati di avere abbastanza token gas nativi (*ETH per Ethereum, SOL per Solana*).  
-- Gli **swap cross-chain** richiedono gas sia sulle chain di origine sia su quelle di destinazione.  
-- Controlla il dettaglio delle commissioni:  
-  - Commissione Phantom: **0.85%**  
-  - Gas di rete  
-  - Commissioni del fornitore di bridge (~**0.3%**)  
-  
-  
----
-
-##  **Passaggio 5: Modifica le impostazioni (facoltativo)**  
-Tocca **Impostazioni Swap** per:  
-- Regolare lo **slippage** (predefinito **0.3%**, regolabile fino al 30%).  
-- Aumentare le **commissioni di priorità** sulle reti congestionate.  
+##  **Passaggio 4: Verifica gas e commissioni**
+- Conserva in Phantom una quantità sufficiente del token gas della catena di origine per approvare il deposito (*SOL* su Solana, *ETH* su Ethereum).
+- Leggi la riga delle commissioni nel preventivo di solswap prima di confermare. Lo Swap integrato di Phantom utilizza una propria struttura commissionale (storicamente una commissione Phantom dello 0,85%, più il gas di rete e una commissione di bridging). Questi valori non si applicano a un deposito su solswap.org.
 
 ---
 
-##  **Passaggio 6: Conferma lo swap**  
-- Controlla tutti i dettagli dello swap.  
-- Tocca **Swap Now** per avviare la transazione.  
+##  **Passaggio 5: Regola le impostazioni (facoltativo)**
+Su solswap.org, verifica lo slippage e il minimo quotato da ricevere in quella schermata prima di effettuare il deposito.
 
+Se invece stai visualizzando la schermata **Swap** di Phantom, ti trovi nel percorso dei token indicato nella parte superiore di questa pagina. Chiudila e apri `solswap.org` nel browser Phantom.
+
+---
+
+##  **Passaggio 6: Conferma lo swap**
+- Controlla tutti i dettagli dello swap su solswap.org.
+- Conferma il deposito in Phantom.
 
 ![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 
-## **Passaggio 7: Monitora lo stato**  
-- Monitora lo swap nella scheda **Attività recenti**.  
-- Per gli swap cross-chain, utilizza il tuo **ID transazione** con **Li.Fi Scanner** per aggiornamenti in tempo reale. 
-
+## **Passaggio 7: Monitora lo stato**
+- Tieni traccia del deposito nell'attività di solswap.org finché non risulta **Completato**.
+- L'ID della transazione Solana o della chain di origine si trova in quella riga dell'attività e nell'explorer della chain di quella rete.
 
 ![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
 ---
 
-## **Passaggio 8: Preleva ZEC nativo nel tuo wallet Zcash**  
-Dopo lo swap, il tuo ZEC appare nel saldo **Account** di solswap.org. Non è ancora sulla rete Zcash e non è nemmeno in Phantom. Per spostarlo:  
-- Apri un wallet Zcash come [ZODL](https://zodl.com) e copia il tuo indirizzo di ricezione. Il modulo di prelievo accetta un indirizzo trasparente (`t1`) o unificato (`u1`).  
-- Su solswap.org, vai su **Account** e tocca **Withdraw**.  
-- Scegli **ZEC**, imposta la rete su **Zcash**, incolla il tuo indirizzo e ricontrollalo prima di confermare.  
+## **Passaggio 8: Preleva ZEC nativo nel tuo wallet Zcash**
+Dopo lo swap, il tuo ZEC compare nel saldo dell'**Account** di solswap.org. Non è ancora sulla rete Zcash, né si trova in Phantom.
+
+1. Apri un wallet Zcash che la [directory](/wallets) contrassegna come **Ironwood: Ready**. Copia un `u1` che il tuo wallet etichetta come schermato. Anche un `t1` funziona, ma quel deposito è pubblico finché non lo scherma.
+2. Su solswap.org, vai su **Account** e tocca **Withdraw**. Seleziona **ZEC**, imposta la rete su **Zcash**, incolla l'indirizzo e controlla il primo e l'ultimo carattere prima di confermare.
+3. Se **Received amount** e **Fee** rimangono su "–" e il pulsante non fa nulla, il saldo non è perso. Si trova in NEAR Intents sotto la tua chiave Phantom. Completa l'operazione su [near.com](https://near.com): accedi con lo stesso wallet Phantom, apri **Move legacy assets**, tocca **Withdraw** nella riga ZEC (non **Move**), imposta la rete su **Zcash** e incolla lo stesso `u1`. Phantom ti chiederà di **Sign Message**. Conferma solo se la richiesta proviene da `near.com` e il messaggio menziona `"verifying_contract": "intents.near"`. Le schermate complete per questa soluzione alternativa sono in [Got ZEC su Solana? Spostalo su Zcash schermato](/using-zcash/solana-zec-to-shielded).
 
 ---
 
-## **Passaggi successivi**  
-Quando ZEC nativo sarà nel tuo wallet Zcash, potrai schermarlo con [questa guida](/guides/using-zec-privately).  
+## **Passaggi successivi**
+Una volta che ZEC nativo è nel tuo wallet Zcash, mantienilo schermato usando [Usare ZEC privatamente](/guides/using-zec-privately).
 
-Un token ZEC acquistato con il pulsante Swap di Phantom non può essere schermato in questo modo, perché non è sulla rete Zcash. Dovrai prima scambiarlo con ZEC nativo inviato a un indirizzo Zcash.
+Un token ZEC acquistato con il pulsante Swap di Phantom non può essere schermato da Phantom. Quel token è l'asset OmniBridge su Solana. Spostalo con [Hai ZEC su Solana? Spostalo in Zcash schermati](/using-zcash/solana-zec-to-shielded).

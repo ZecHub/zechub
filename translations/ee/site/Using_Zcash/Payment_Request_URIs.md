@@ -4,23 +4,70 @@
 
 # Zcash Fexexe Biabia URIwo
 
-## Dynamic QR Codes ƒe Kpɔɖeŋu
+Fexexe ƒe biabiawo ƒe URI nye a `zcash:` kadodo si gɔme woɖe to [ZIP 321 ƒe xexlẽdzesi](https://zips.z.cash/zip-0321). Gakotoku siwo sɔ xlẽa adrɛs, ga home, kple nuŋlɔɖi si woate ŋu awɔ le wo ɖokui si tso kadodoa alo QR dzi eye wokpea asitsatsa aɖe ɖo do ŋgɔ. Akɔntabubu bubu aɖeke meli o, processor aɖeke mele titina o.
 
-URI tsi tre ɖi na Universal Resource Identifier. Wonye QR-kɔda siwo wɔa dɔ tsɔ kpea nyatakaka siwo ku ɖe asitsatsa aɖe ŋu ɖo do ŋgɔ le Zcash gakotoku me. Gakotoku siwo dea dzesi nɔnɔme sia ate ŋu awɔ asitsatsa to kadodo siwo le nyatakakadzraɖoƒewo dzi zizi alo QR-kɔdawo skan me. Gblɔ be kɔfidzraƒe aɖe le asiwò le Internet dzi, wò asisiwo ate ŋu aƒle nu to QR-kɔda siawo scan kple woƒe Zcash gakotoku si me woŋlɔ asi kple nudɔdɔ ƒe xexlẽdzesi ɖo do ŋgɔ.
+<div className="my-6 flex flex-wrap items-center gap-3">
+  <a
+    href="/zcash-payment-uri"
+    className="inline-flex items-center justify-center rounded-xl bg-[#F4B728] px-5 py-3 text-sm font-semibold text-zinc-900 no-underline shadow-sm hover:bg-[#e5a420]"
+  >
+    Ʋu fexexe ƒe dɔwɔnu
+  </a>
+  <a
+    href="/tools"
+    className="inline-flex items-center justify-center rounded-xl border border-slate-300 dark:border-zinc-600 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-zinc-100 no-underline hover:bg-slate-50 dark:hover:bg-zinc-800"
+  >
+    Tu fexexe ƒe biabiawo ɖo
+  </a>
+</div>
 
-## Zã Fexexe ƒe Biabiawo ƒe Nyawo 
+Widget ƒe wɔwɔfia nye ZIP-321 ƒe nɔnɔme si le agbe: QR, kɔpi adrɛs/URI, kadodo kpui, kple Ʋu le Gakotoku me. Dɔwɔnuwo ƒe axae nye generator ne èdi be yeaɖo ye ŋutɔ yeƒe adrɛs kple ga home gbã.
 
+## Ŋutilã ƒe wɔwɔme
 
-- Nuƒleƒe le Internet dzi.                    Gaxɔgbalẽvi Asisiwoe dzea fexexe ƒe biabiawo gɔme le nuƒle le Internet dzi me.
-- Amedzrodzeƒe Kple Dzeƒe ƒe Agbalẽŋɔŋlɔ.   Agbalẽŋɔŋlɔ ƒe mɔnu vovovowo zãa fexexe ƒe biabiawo ƒe URLwo tsɔ wɔa amedzrodzeƒewo ƒe ɖoɖowɔwɔ.
-- Fexexe le Internet Dzi.               Dɔwɔƒe siwo kpɔa nuzazãwo gbɔ zãa fexexe ƒe biabiawo ƒe URLwo tsɔ naa asisiwo te ŋu xea woƒe fewo nyuie. 
-- Nudzɔdzɔ ƒe Tiketiwo Ƒle.             Nudzɔdzɔwo dzikpɔla siwo le liƒowo dzi zãa mɔnu sia tsɔ naa tikitiwo ƒle nɔa bɔbɔe.
-- P2P Fexexewo.                       Ame ɖekaɖekawo ate ŋu aɖo fexexe ƒe biabiawo ɖe ƒometɔwo kple xɔlɔ̃wo bɔbɔe to gbedasiwo ɖoɖoɖa dɔwɔɖoɖowo dzi, eye woatsɔ fexexe ƒe kadodowo ade gbedasiawo me.
+```
+zcash:<address>?amount=<zec>&memo=<text>&label=<text>
+```
 
+| Gbadzaƒe | Si hiã | De dzesii |
+| --- | --- | --- |
+| address | Ɛ̃ | Tsɔ Unified Address (`u1` / `utest1`) |
+| amount | Ao | ZEC ƒe xexlẽdzesi ewolia |
+| memo | Ao | Shielded transfers ɖeɖeko |
+| label | Ao | Ŋkɔ si amegbetɔ ate ŋu axlẽ si gakotoku aɖewo ɖe fia |
 
-## Emenuwo
+Se blibowo: [ZIP 321 ƒe xexlẽdzesi](https://zips.z.cash/zip-0321).
 
-[ZIP 321 ƒe xexlẽdzesi](https://zips.z.cash/zip-0321) ɖe alesi nàwɔ wò ŋutɔ wò fexexe ƒe URI si nèdi la gɔme. 
+## Zã nyawo
+
+- **Checkout** — prefill price kple order memo ale be asisi la ɖo kpe edzi le woƒe gakotoku me ko
+- **Invoices** — ma kadodo ɖeka alo QR
+- **Nudzɔdzɔwo** — tsɔ widget la de nyatakakadzraɖoƒe aɖe
+- **P2P** — ɖo a `zcash:` kadodo le dzeɖoɖo me
+
+## Tsɔe de nyatakakadzraɖoƒe aɖe
+
+Fia asi ŋɔŋlɔdzesi sia ɖe wò ŋutɔ wò adrɛs si wokpɔ ta na la dzi. Kɔpi si woxɔ la nɔa agbe le ZecHub:
+
+```html
+<div id="zcash-pay"></div>
+<script
+  src="https://zechub.wiki/zcash-payment-request-widget.embed.v2.js"
+  data-target="#zcash-pay"
+  data-address="u1..."
+  data-amount="0.01"
+  data-label="Pay with Zcash"
+  data-memo="order-42"
+  data-theme="dark"
+  data-api-base="https://zechub.wiki/api"
+></script>
+```
+
+Si hiã: `data-address`, `data-amount`, `data-target`.
+
+Te hosted ƒe dzesi la kpɔ gbã: [Ʋu fexexe ƒe dɔwɔnu](/zcash-payment-uri).
+
+## Videowo
 
 Alesi nàwɔ Fexexe ƒe Biabia kple Zcash: 
 
@@ -34,9 +81,6 @@ Alesi nàwɔ Fexexe ƒe Biabia kple Zcash:
     loading="lazy"
   />
 </div>
-
-    
-### Kɔda ƒe Kpɔɖeŋu
 
 Zcash Donation Widget tsɔtsɔ kpe ɖe wò Nyatakakadzraɖoƒea ŋu: 
 

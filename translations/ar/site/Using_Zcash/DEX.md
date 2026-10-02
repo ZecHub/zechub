@@ -9,9 +9,9 @@ ZecHub لا تؤيد أي خدمة محددة لمنصات التداول الل
 يمثل كل عنوان `###` أدناه بطاقة واحدة على https://zechub.wiki/dex.
 أضف كتلة هنا أو حررها أو أزلها؛ تلتقطها الويكي من هذا الملف.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - الموقع الإلكتروني: https://near.com/
 - الوصف: منصة تداول سريعة بدعم من NEAR. أجرِ الإيداعات والبيع والمبادلات، بما في ذلك TRUMP وMELANIA وBERA الشائعة وغيرها من الميمات

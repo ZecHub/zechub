@@ -4,6 +4,8 @@
 
 ![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
+Hältst du bereits ZEC auf Solana (zum Beispiel aus einem Token, der Inhabern in ZEC auszahlt)? Tausche ihn nicht. Verschiebe diesen Token mit [ in eine abgeschirmte Zcash-Wallet. Hast du ZEC auf Solana? Verschiebe es in abgeschirmte Zcash](/using-zcash/solana-zec-to-shielded).
+
 ---
 
 ## **Natives ZEC oder ein ZEC-Token?**
@@ -15,14 +17,14 @@
 
 ### Prüfe dies vor der Zahlung
 
-- **Netzwerk:** Das ZEC, das du erhältst, sollte sich im **Zcash**-Netzwerk befinden. Wenn dort Solana, Ethereum oder Base steht, ist es ein Token.
-- **Asset:** Natives ZEC hat keine Token-Contract- oder Mint-Adresse. Wenn deines eine solche anzeigt, ist es ein Token. Auf Solana gibt es außerdem viele ähnlich aussehende „ZEC“-Token – verlasse dich also nicht allein auf den Namen.
+- **Netzwerk:** Das ZEC, das du erhältst, sollte sich im **Zcash**-Netzwerk befinden. Wenn dort Solana, Ethereum oder Base steht, handelt es sich um einen Token.
+- **Asset:** Natives ZEC hat keinen Token-Vertrag und keine Mint-Adresse. Wenn deines einen solchen Eintrag aufweist, handelt es sich um einen Token. Auf Solana gibt es außerdem viele ähnlich aussehende „ZEC“-Token, also verlasse dich nicht allein auf den Namen. Der OmniBridge-Token auf Solana ist `A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS`; auch das ist ein Token, kein natives ZEC.
 - **Adresse:** Natives ZEC wird an eine Zcash-Adresse gesendet, die mit `t1`, `u1` oder `zs` beginnt. Wenn das ZEC an deine Phantom-Adresse gesendet wird, erhältst du einen Token.
 
 ---
 
-##  **Schritt 1: Öffne die Swap-Oberfläche**  
-Starte die **Phantom-App** und besuche **[solswap.org](https://solswap.org/)** im Phantom-Browser. Die Website läuft auf Near Intents und kann ZEC an eine Zcash-Adresse senden.  
+##  **Schritt 1: Öffne die Swap-Oberfläche**
+Starte die **Phantom-App** und rufe **[solswap.org](https://solswap.org/)** im Browser von Phantom auf. Gib die Adresse selbst ein. Die Website läuft auf NEAR Intents und kann ZEC an eine Zcash-Adresse senden.
 
 Die eigene **Swap**-Schaltfläche von Phantom listet ebenfalls ZEC auf, aber damit erhältst du den oben beschriebenen Token, nicht natives ZEC.  
 
@@ -43,64 +45,57 @@ Die eigene **Swap**-Schaltfläche von Phantom listet ebenfalls ZEC auf, aber dam
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 
-##  **Schritt 3: Betrag eingeben und Angebot prüfen**  
-- Gib den Betrag ein, den du tauschen möchtest.  
-- Phantom zeigt dir nach Abzug der Gebühren einen **voraussichtlichen Empfangsbetrag** an.  
-
+##  **Schritt 3: Betrag eingeben & Angebot prüfen**
+- Gib den Betrag ein, den du tauschen möchtest.
+- Verwende den auf **solswap.org** angezeigten Empfangsbetrag. Dieses Angebot gilt für diese Route.
 
 ![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
-##  **Schritt 4: Gas und Gebühren prüfen**  
-- Bei **Swaps innerhalb derselben Chain** musst du sicherstellen, dass du genügend des nativen Gas-Tokens hast (*ETH für Ethereum, SOL für Solana*).  
-- **Chain-übergreifende Swaps** erfordern Gas auf der Quell- und der Ziel-Chain.  
-- Prüfe die Gebührenaufschlüsselung:  
-  - Phantom-Gebühr: **0,85 %**  
-  - Netzwerk-Gas  
-  - Gebühren des Bridge-Anbieters (~**0,3 %**)  
-  
-  
----
-
-##  **Schritt 5: Einstellungen anpassen (optional)**  
-Tippe auf **Swap-Einstellungen**, um:  
-- den **Slippage-Wert** anzupassen (standardmäßig **0,3 %**, bis zu 30 % anpassbar).  
-- die **Prioritätsgebühren** in ausgelasteten Netzwerken zu erhöhen.  
+##  **Schritt 4: Gas & Gebühren prüfen**
+- Halte genügend Gas-Token der Ausgangskette in Phantom, um die Einzahlung zu genehmigen (*SOL* auf Solana, *ETH* auf Ethereum).
+- Lies die Gebührenzeile im solswap-Angebot, bevor du bestätigst. Der integrierte Swap von Phantom verwendet einen eigenen Gebührenplan (historisch eine Phantom-Gebühr von 0,85 % zuzüglich Netzwerk-Gas und einer Bridge-Gebühr). Diese Zahlen gelten nicht für eine Einzahlung auf solswap.org.
 
 ---
 
-##  **Schritt 6: Swap bestätigen**  
-- Prüfe alle Swap-Details.  
-- Tippe auf **Jetzt tauschen**, um die Transaktion zu starten.  
+##  **Schritt 5: Einstellungen anpassen (optional)**
+Überprüfe auf solswap.org vor der Einzahlung die Slippage und den auf diesem Bildschirm angegebenen Mindestbetrag, den du erhältst.
 
+Wenn du stattdessen das eigene **Swap**-Fenster von Phantom siehst, befindest du dich auf der Token-Route vom Anfang dieser Seite. Schließe es und öffne `solswap.org` im Phantom-Browser.
+
+---
+
+##  **Schritt 6: Swap bestätigen**
+- Überprüfe alle Swap-Details auf solswap.org.
+- Bestätige die Einzahlung in Phantom.
 
 ![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 
-## **Schritt 7: Status überwachen**  
-- Verfolge deinen Swap im Tab **Letzte Aktivitäten**.  
-- Verwende bei Chain-übergreifenden Swaps deine **Transaktions-ID** mit **Li.Fi Scanner** für Echtzeit-Updates. 
-
+## **Schritt 7: Status überwachen**
+- Verfolge die Einzahlung in der Aktivität von solswap.org, bis sie als **Abgeschlossen** angezeigt wird.
+- Die Solana- oder Quell-Chain-Transaktions-ID befindet sich in dieser Aktivitätszeile und im Chain-Explorer dieses Netzwerks.
 
 ![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
 ---
 
-## **Schritt 8: Natives ZEC an deine Zcash-Wallet auszahlen**  
-Nach dem Swap erscheint dein ZEC in deinem solswap.org-**Account**-Guthaben. Es befindet sich noch nicht im Zcash-Netzwerk und auch nicht in Phantom. So verschiebst du es:  
-- Öffne eine Zcash-Wallet wie [ZODL](https://zodl.com) und kopiere deine Empfangsadresse. Das Auszahlungsformular akzeptiert eine transparente (`t1`) oder vereinheitlichte (`u1`) Adresse.  
-- Gehe auf solswap.org zu **Account** und tippe auf **Auszahlen**.  
-- Wähle **ZEC**, stelle das Netzwerk auf **Zcash** ein, füge deine Adresse ein und prüfe sie vor dem Bestätigen noch einmal.  
+## **Schritt 8: Natives ZEC auf deine Zcash-Wallet auszahlen**
+Nach dem Swap erscheint dein ZEC in deinem solswap.org-**Kontoguthaben**. Es befindet sich noch nicht im Zcash-Netzwerk und auch nicht in Phantom.
+
+1. Öffne eine Zcash-Wallet, die im [Verzeichnis](/wallets) als **Ironwood: Bereit** markiert ist. Kopiere eine `u1`, die deine Wallet als abgeschirmt kennzeichnet. Auch eine `t1` funktioniert, aber diese Einzahlung ist öffentlich, bis du sie abschirmst.
+2. Gehe auf solswap.org zu **Account** und tippe auf **Withdraw**. Wähle **ZEC**, setze das Netzwerk auf **Zcash**, füge die Adresse ein und prüfe vor dem Bestätigen das erste und letzte Zeichen.
+3. Wenn **Received amount** und **Fee** bei „–“ bleiben und die Schaltfläche nichts tut, ist das Guthaben nicht verloren. Es befindet sich in NEAR Intents unter deinem Phantom-Schlüssel. Schließe den Vorgang auf [near.com](https://near.com) ab: Melde dich mit derselben Phantom-Wallet an, öffne **Move legacy assets**, tippe in der Zeile ZEC auf **Withdraw** (nicht auf **Move**), setze das Netzwerk auf **Zcash** und füge dieselbe `u1` ein. Phantom wird dich auffordern, die **Sign Message** auszuführen. Bestätige nur, wenn die Anfrage von `near.com` stammt und die Nachricht `"verifying_contract": "intents.near"` nennt. Die vollständigen Bildschirme für diesen Workaround findest du in [Hast du ZEC auf Solana? Verschiebe es in abgeschirmtes Zcash](/using-zcash/solana-zec-to-shielded).
 
 ---
 
-## **Nächste Schritte**  
-Sobald sich natives ZEC in deiner Zcash-Wallet befindet, kannst du es mit [dieser Anleitung](/guides/using-zec-privately) abschirmen.  
+## **Nächste Schritte**
+Sobald sich natives ZEC in deiner Zcash Wallet befindet, halte es abgeschirmt, indem du [ verwendest ZEC privat](/guides/using-zec-privately).
 
-Ein ZEC-Token, den du über die Swap-Schaltfläche von Phantom gekauft hast, kann auf diese Weise nicht abgeschirmt werden, weil er sich nicht im Zcash-Netzwerk befindet. Du müsstest ihn zunächst gegen natives ZEC tauschen, das an eine Zcash-Adresse gesendet wird.
+Ein mit der Swap-Schaltfläche von Phantom gekaufter ZEC-Token kann nicht von Phantom abgeschirmt werden. Dieser Token ist das OmniBridge-Asset auf Solana. Verschiebe ihn mit [Hast du ZEC auf Solana? Verschiebe ihn in abgeschirmtes Zcash](/using-zcash/solana-zec-to-shielded).

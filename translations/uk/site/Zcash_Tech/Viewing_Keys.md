@@ -116,3 +116,5 @@ zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
 - [ECC, пояснення ключів перегляду](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, вибіркове розкриття та ключі перегляду](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key відеопрезентація](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Дивіться також: [Уніфіковані адреси](./Unified_Addresses.md)

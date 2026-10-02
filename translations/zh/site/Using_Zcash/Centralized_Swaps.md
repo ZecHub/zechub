@@ -18,9 +18,9 @@ ZecHub 不认可任何特定的交易服务，请自行研究。
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - 网站：https://app.near-intents.org/
 - 描述：由 NEAR 支持的快速交易服务。可进行充值、出售和兑换，包括热门的 TRUMP、MELANIA、BERA 及其他 meme 币。

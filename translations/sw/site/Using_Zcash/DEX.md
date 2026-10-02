@@ -9,9 +9,9 @@ ZecHub haiungi mkono huduma yoyote maalum ya Ubadilishanaji wa Madaraka, tafadha
 Kila moja `###` kichwa cha habari hapa chini kina kadi moja https://zechub.wiki/dex.
 Ongeza, hariri, au ondoa kizuizi hapa; wiki inakichukua kutoka kwenye faili hii.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Tovuti: https://near.com/
 - Maelezo: Kubadilishana haraka kwa usaidizi wa NEAR. Weka amana, uza, badilisha ikiwa ni pamoja na TRUMP maarufu, MELANIA, BERA na meme zingine

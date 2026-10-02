@@ -2,50 +2,50 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ego mmepe Zcash
+# Ego Mmepe Zcash
 
-Zcash is a unique blockchain protocol because it is self-funded. This means that teams working on Zcash do not need to take money from outside investors, and can remain focused on driving adoption while also staying aligned with Zcash's broader ethos and mission.
+Zcash bụ usoro blockchain pụrụ iche n'ihi na ọ bụ nke aka ya na-akwụ ụgwọ. Nke a pụtara na ndị otu na-arụ ọrụ na Zcash achọghị ịnara ego n'aka ndị na-etinye ego n'èzí, ha nwekwara ike ilekwasị anya n'ịkwado nnabata ma na-agbaso ụkpụrụ na ebumnuche sara mbara Zcash's.
 
-## Ụgwọ Ọrụ Mkpokọta
+## Ngọngọ Ụgwọ Ọrụ
 
-Na blockchains, enwere ihe akpọrọ [ngọngọ](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), nke e mepụtara iji dekọọ azụmahịa ndị a na-ekwenyebeghị na netwọk ahụ. Ozugbo azụmahịa kwadoro, a mechiri ngọngọ ahụ.
+Na blockchains, e nwere ihe a na-akpọ a [ngọngọ](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), nke a na-emepụta iji dekọọ azụmahịa ndị a na-anaghị ekwenye na netwọk ahụ. Ozugbo emere ka azụmahịa ahụ dị mma, a ga-emechi ngọngọ ahụ.
 
-Block producers (aka miners) are tasked with validating transactions in a network and producing new blocks. When producing these blocks, block producers are rewarded with a block reward. In Zcash, roughly every 75 seconds a new block is produced, and a block reward of 3.125 ZEC comes into circulation. Block rewards in Zcash will produce new coins until Zcash reaches its 21 million max supply. After reaching max supply, block rewards will be paid for by transaction fees.
+Ndị na-emepụta blọk (aka ndị na-egwupụta ihe) nwere ọrụ ịkwado azụmahịa na netwọk na imepụta blọk ọhụrụ. Mgbe ha na-emepụta blọk ndị a, a na-akwụghachi ndị na-emepụta blọk ụgwọ ọrụ. Na Zcash, ihe dị ka sekọnd 75 ọ bụla, a na-emepụta blọk ọhụrụ, a na-enyekwa ụgwọ ọrụ blọk nke 1.5625 ZEC. Ụgwọ ọrụ blọk na Zcash ga-emepụta mkpụrụ ego ọhụrụ ruo mgbe Zcash ruru ihe kachasị elu nke nde 21 ya. Mgbe ha ruru ihe kachasị elu, a ga-akwụ ụgwọ ọrụ blọk site na ụgwọ azụmahịa.
 
-## Usoro ego nke Zcash (tupu NU6)
+## Usoro ego Zcash's (tupu NU6)
 
-In Bitcoin and other cryptocurrencies, all of the block rewards go to block producers. Zcash is unique in the fact that 20% of the block reward is transferred to the [Zcash development fund](https://zips.z.cash/zip-1014)Ego a na-akwado ndị otu na-arụ ọrụ na usoro Zcash.
+Na Bitcoin na ego dijitalụ ndị ọzọ, ụgwọ ọrụ niile nke ngọngọ na-agara ndị na-emepụta ngọngọ. Zcash pụrụ iche n'eziokwu ahụ bụ na 20% nke ụgwọ ọrụ ngọngọ na-ebufe na [Ego mmepe Zcash](https://zips.z.cash/zip-1014)Ego a na-enye ndị otu na-arụ ọrụ na usoro Zcash.
 
-Ugbu a, [Zcash Community Grants](https://zcashcommunitygrants.org/) receives 8% of block rewards, Electric Coin Co. receives 7%, and the Zcash Foundation receives 5%. This works out to 40%, 35%, and 25% of the development fund respectively.
+Ugbu a, [Zcash Community Grants](https://zcashcommunitygrants.org/) na-enweta 8% nke ụgwọ ọrụ blọk, Electric Coin Co. na-enweta 7%, ebe Zcash Foundation na-enweta 5%. Nke a na-arụ ọrụ ruo 40%, 35%, na 25% nke ego mmepe n'otu n'otu.
 ![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
-In 2020, the Zcash community voted on the development fund and the teams supported by it. In 2024, the community will vote again to determine who gets funding from the development fund.
+Na 2020, ndị obodo Zcash mere ntuli aka na ego mmepe na ndị otu ha kwadoro. Na 2024, obodo ahụ ga-eme ntuli aka ọzọ iji chọpụta onye ga-enweta ego site na ego mmepe.
 
 
-# Zcash ngwakọ Deferred Dev Fund Lockbox (NU6)
+# Zcash Hybrid Deferred Dev Fund Lockbox (NU6)
 
-The Hybrid Deferred Dev Fund Lockbox is the funding mechanism chosen for the next generation of the Zcash development fund. This option allocates the 20% total Zcash block rewards, 60% to the Zcash Grants Committee and 40% to a protocol lockbox, guaranteeing that resources are available to support the Zcash ecosystem's future while continuing development and upkeep.
+Ngwakọta Hybrid Deferred Dev Fund Lockbox bụ usoro ego ahọpụtara maka ọgbọ na-abịa nke ego mmepe Zcash. Nhọrọ a na-ekenye 20% ngụkọta ụgwọ ọrụ ngọngọ Zcash, 60% nye Kọmitii Onyinye Zcash na 40% na igbe mkpọchi protocol, na-ekwe nkwa na akụrụngwa dị iji kwado ọdịnihu nke usoro gburugburu Zcash ma na-aga n'ihu na mmepe na nlekọta.
 
-## Otú E Si Eme Mkpebi
+## Usoro Ime Mkpebi
 
-Mkpebi imejuputa 20% Dev Fund Lockbox ruru site na usoro zuru oke nke obodo. Nke a gụnyere ntuli aka abụọ nke Zcash Community Advisory Panel (ZCAP), yana ọtụtụ ntuliaka gburugburu ebe obibi. Ntuliaka ndị a nyere ohere ka ọtụtụ ndị nwere mmasị kwupụta echiche ha ma nye aka na usoro mkpebi.
+E mere mkpebi iji tinye 20% Dev Fund Lockbox n'ọrụ site na usoro zuru oke nke obodo na-eduzi. Nke a gụnyere agba abụọ nke ntuli aka Zcash Community Advisory Panel (ZCAP), yana ọtụtụ ntuli aka gburugburu ebe obibi. Ntuli aka ndị a nyere ọtụtụ ndị nwere mmasị ohere ikwupụta echiche ha ma tinye aka na usoro mkpebi.
 
 ![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
 
-As the dev fund lockbox is deferred (meaning funds will be unlocked via network upgrade at a later date), the Zcash Community will soon decide on a distribution mechanism for funds. One proposed option being the 'Zbloc' decentralised governance mechanism. 
+Ebe ọ bụ na a na-enyefe igbe mkpọchi ego dev (nke pụtara na a ga-emepe ego site na mmelite netwọk n'oge na-adịghị anya), Zcash Community ga-ekpebi usoro nkesa maka ego n'oge na-adịghị anya. Otu nhọrọ a tụrụ aro bụ usoro ọchịchị 'Zbloc' nke a na-ekewaghị ekewa. 
 
-![Ọdịdị ọhụrụ nke ọchịchị na-enweghị isi](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Potential new form of decentralised governance](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
-## Akụrụngwa
+## akụrụngwa
 
-[Dev Fund Lockbox - Forum Okwu](https://forum.zcashcommunity.com/t/important-deadline-for-zips-likely-dev-fund-related-that-want-to-be-activated-next-halvening/48004/)
+[Igbe Mkpọchi Ego Dev - Isiokwu Mkparịta ụka](https://forum.zcashcommunity.com/t/important-deadline-for-zips-likely-dev-fund-related-that-want-to-be-activated-next-halvening/48004/)
 
-[ZCAP ntuli aka na Lockbox](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
+[Ntụli Aka ZCAP na Igbe Mkpọchi](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
 
-[Imepụta a Dev Fund maka ECC, ZF, na isi Grants](https://zips.z.cash/zip-1014)
+[Ịmepụta Ego Mmepụta maka ECC, ZF, na Ego Ndị Kachasị Elu](https://zips.z.cash/zip-1014)
 
-[Zcash mmepe na ọchịchị](https://z.cash/zcash-development-and-governance/)
+[Mmepe na ọchịchị Zcash](https://z.cash/zcash-development-and-governance/)
 
-[Zcash si ego votu](https://www.coindesk.com/tech/2020/02/01/zcashs-funding-vote-and-the-woes-of-decentralized-governance/)
+[Ntuli aka ego Zcash's](https://www.coindesk.com/tech/2020/02/01/zcashs-funding-vote-and-the-woes-of-decentralized-governance/)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)

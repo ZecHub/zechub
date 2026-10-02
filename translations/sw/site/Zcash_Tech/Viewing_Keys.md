@@ -10,7 +10,7 @@ Ufunguo wa kutazama ni kifaa cha kutoa taarifa kwa njia teule: unachagua nani an
 
 ## Kwa nini utumie ufunguo wa kutazama?
 
-Electric Coin Company's writing on the subject sets out the situations that come up most often, and they are still the common ones today:
+Maandishi ya Electric Coin Company kuhusu mada hii yanaelezea hali zinazojitokeza mara nyingi, na bado ni zile za kawaida leo:
 
 - **Bandari inayoangalia amana.** Bandari hiyo hupakia kitufe cha kutazama kinachoingia kwenye nodi ya kugundua inayoangalia intaneti ili iweze kugundua amana za wateja kwenye anwani iliyolindwa, huku ufunguo wa matumizi ukibaki kwenye vifaa ambavyo havigusi mtandao.
 - **Mlinzi anayethibitisha umiliki wake.** Mlinzi humpa mkaguzi ufunguo kamili wa kutazama kwa kila anwani iliyolindwa. Mkaguzi anaweza kuangalia salio hilo na kukagua shughuli zilizopita kwenda na kutoka kwa anwani hizo, na hawezi kufanya kingine chochote.
@@ -116,3 +116,5 @@ Tumia vitufe vya kutazama kwa msingi unaohitajika, na unapendelea kitufe chembam
 - [ECC, Kuelezea Funguo za Kutazama](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Ufichuzi Teule na Funguo za Kutazama](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Tazama pia: [Anwani Zilizounganishwa](./Unified_Addresses.md)

@@ -10,7 +10,7 @@ Zcash, kendi kendini finanse ettiği için benzersiz bir blockchain protokolüd�
 
 Blockchain'lerde, ağda henüz onaylanmamış işlemleri kaydetmek için üretilen bir [blok](https://www.investopedia.com/terms/b/block-bitcoin-block.asp) adı verilen bir şey vardır. İşlemler doğrulandıktan sonra blok kapanır.
 
-Blok üreticileri (diğer adıyla madenciler), bir ağdaki işlemleri doğrulamak ve yeni bloklar üretmekle görevlidir. Bu blokları üretirken, blok üreticileri bir blok ödülü alır. Zcash'te yaklaşık her 75 saniyede bir yeni bir blok üretilir ve 3.125 ZEC tutarında bir blok ödülü dolaşıma girer. Zcash'teki blok ödülleri, Zcash 21 milyonluk maksimum arzına ulaşana kadar yeni coin'ler üretmeye devam edecektir. Maksimum arza ulaşıldıktan sonra blok ödülleri işlem ücretleri tarafından karşılanacaktır.
+Blok üreticileri (diğer adıyla madenciler), bir ağdaki işlemleri doğrulamak ve yeni bloklar üretmekle görevlidir. Bu blokları üretirken, blok üreticileri bir blok ödülü alır. Zcash'te yaklaşık her 75 saniyede bir yeni bir blok üretilir ve 1.5625 ZEC tutarında bir blok ödülü dolaşıma girer. Zcash'teki blok ödülleri, Zcash 21 milyonluk maksimum arzına ulaşana kadar yeni coin'ler üretmeye devam edecektir. Maksimum arza ulaşıldıktan sonra blok ödülleri işlem ücretleri tarafından karşılanacaktır.
 
 ## Zcash'in finansman mekanizması (NU6 öncesi)
 

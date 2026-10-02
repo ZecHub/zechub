@@ -330,6 +330,24 @@ async function main() {
   }
   const allowed = (url) => allowlist.some((p) => url.includes(p));
 
+  // Missing --root used to walk() into ENOENT, return [], and exit 0 with a
+  // clean report. Treat a missing or non-directory root as an operational error.
+  // Origin: openkoder, https://github.com/ZecHub/zechub/pull/2045
+  try {
+    const rootStat = await stat(ROOT);
+    if (!rootStat.isDirectory()) {
+      console.error(`Error: --root "${ROOT}" is a file, not a directory.`);
+      process.exit(1);
+    }
+  } catch (err) {
+    if (err && err.code === "ENOENT") {
+      console.error(`Error: --root "${ROOT}" does not exist.`);
+    } else {
+      console.error(`Error: --root "${ROOT}" cannot be accessed.`);
+    }
+    process.exit(1);
+  }
+
   const mdFiles = await walk(ROOT);
   const appRoutes = await loadAppRoutes(OFFLINE);
 

@@ -18,9 +18,9 @@ ZecHub не підтримує жоден конкретний сервіс об
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Вебсайт: https://app.near-intents.org/
 - Опис: Швидкий обмін за підтримки NEAR. Робіть депозити, продавайте, обмінюйте, зокрема популярні TRUMP, MELANIA, BERA та інші мемкоїни

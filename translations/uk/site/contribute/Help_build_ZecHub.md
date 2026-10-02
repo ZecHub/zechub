@@ -23,9 +23,26 @@
 
 Повідомлення про помилки
 
-#### Щоб дізнатися подробиці про суми винагород, будь ласка, прочитайте нашу сторінку для учасників -> [тут](https://zechub.wiki/contribute/contributing-guide#content).
+### Винагороди
 
-Щопонеділка ми публікуємо задачі, за які наразі відкриті винагороди. Ви також можете пропонувати винагороди! Переважно їх можна знайти на ZEC Bounties.
+Суми не є фіксованими в ZEC. Користуйтеся [політикою щодо сум винагород](https://bounties.zechub.wiki/docs/bounty-amounts): оберіть діапазон у доларах США для відповідного класу робіт, конвертуйте за спотовим курсом, внесіть ZEC на дошку. Ця політика є джерелом істини.
+
+Робочий процес для учасників і типи робіт: [Участь у ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+Огляд платформи:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+Ми публікуємо відкриті завдання на [ZEC Bounties](https://bounties.zechub.wiki/). Там ви також можете пропонувати винагороди. Об’єднаний PR не означає, що винагороду схвалено або виплачено.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

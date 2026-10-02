@@ -69,6 +69,8 @@ Zcash（ZEC）は、金融取引における匿名性を強化するために設
 
    __強力なプライバシー__: Nym VPNはプライバシーを重視しており、アカウント作成時にユーザーに個人情報を提供する必要はありません。
 
+Zcashウォレット固有のルーティングについては、[Nym Mixnet経由でZcashウォレットのトラフィックをルーティングする](./Nym_Mixnet_Wallet_Setup.md)を参照してください。
+
 ## Zcash支払いをサポートしている他のVPN:
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)

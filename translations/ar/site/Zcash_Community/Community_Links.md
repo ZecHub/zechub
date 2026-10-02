@@ -38,20 +38,21 @@
 
 لدى Zcash حضور عالمي نشط على X. فيما يلي أبرز الحسابات التي يُنصح بمتابعتها:
 
-| Account | Description |
+| الحساب | الوصف |
 |---------|-------------|
 | [@Zcash](https://x.com/zcash) | الحساب الرسمي لـ Zcash |
 | [@ZecHub](https://x.com/zechub) | ZecHub DAO - التثقيف المجتمعي والمكافآت |
 | [@zodl_app](https://x.com/zodl_app) | محفظة ZODL (كانت تُعرف سابقًا باسم Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | تحديثات Zcash Foundation |
-| [@zcashbrazil](https://x.com/zcashbrazil) | مجتمع Zcash Brazil |
-| [@ZcashTR](https://x.com/ZcashTR) | Zcash Turkey |
-| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
-| [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nigeria |
+| [@zcashbrazil](https://x.com/zcashbrazil) | مجتمع Zcash في البرازيل |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash في المكسيك |
+| [@ZcashTR](https://x.com/ZcashTR) | Zcash في تركيا |
+| [@ZcashArabia](https://x.com/ZcashArabia) | Zcash في الجزيرة العربية |
+| [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash في نيجيريا |
 | [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - بودكاست Zcash باللغة الإسبانية |
 | [@ZkAv_Club](https://x.com/ZkAv_Club) | نادي ZK السمعي البصري |
 | [@cipherscan_app](https://x.com/cipherscan_app) | مستكشف البلوكشين CipherScan |
-| [@zerodartz](https://x.com/Zerodartz) | ميمز المجتمع وتعليقاته |
+| [@zerodartz](https://x.com/Zerodartz) | ميمات المجتمع وتعليقاته |
 
 ----
 
@@ -59,6 +60,7 @@
 
 - [Zcash en Espanol](https://zcashesp.com) - المجتمع الناطق بالإسبانية (موجود أيضًا على Bluesky بعد تعليق X)
 - [Zcash Brazil](https://x.com/zcashbrazil) - المجتمع البرازيلي
+- [Zcash Mexico](https://x.com/ZcashMx) - المجتمع المكسيكي
 - [Zcash Turkey](https://x.com/ZcashTR) - المجتمع التركي
 - [Zcash Arabia](https://x.com/ZcashArabia) - المجتمع الناطق بالعربية
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - المجتمع النيجيري
@@ -75,4 +77,4 @@
 - [ZecHubويكي](https://zechub.wiki)
 - [Zcashمركز المنح](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Zcashالسفراء العالميون](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - نظرة عامة على البرنامج في هذه الويكي (الموقع zcashambassadors.com غير متاح)
-- [ZECالمكافآت](https://bounties.zechub.wiki/)
+- [ZEC Bounties](https://bounties.zechub.wiki/)

@@ -18,9 +18,9 @@ ZecHub は特定の取引サービスを推奨していません。ご自身で�
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - ウェブサイト: https://app.near-intents.org/
 - 説明: NEARのサポートを受けた高速取引所。入金、売却、人気のTRUMP、MELANIA、BERAなどのミームを含むスワップが可能です。

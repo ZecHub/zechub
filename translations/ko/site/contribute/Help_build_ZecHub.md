@@ -23,9 +23,26 @@ Zcash 및 Privacy 생태계를 위한 포스터/그래픽/애니메이션 등의
 
 버그 신고
 
-#### 바운티 금액에 대한 자세한 내용은 기여 페이지를 읽어 주세요 -> [여기](https://zechub.wiki/contribute/contributing-guide#content).
+### 보상
 
-현재 바운티가 열려 있는 작업에 대한 이슈는 매주 월요일에 게시합니다. 바운티를 제안할 수도 있습니다! 주로 ZEC Bounties에서 확인할 수 있습니다.
+금액은 ZEC에서 고정되어 있지 않습니다. [바운티 금액 정책](https://bounties.zechub.wiki/docs/bounty-amounts)을 따르세요. 작업 분류에 맞는 USD 구간을 선택하고, 현물가로 환산한 뒤, 게시판에 ZEC을 입력하세요. 해당 정책이 기준입니다.
+
+기여자 워크플로 및 작업 유형: [ZecHub에 기여하기](https://zechub.wiki/contribute/contributing-guide).
+
+플랫폼 안내:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+공개 작업을 [ZEC Bounties](https://bounties.zechub.wiki/)에 게시합니다. 그곳에서 바운티를 제안할 수도 있습니다. 병합된 PR이 승인되었거나 지급된 보상을 의미하는 것은 아닙니다.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

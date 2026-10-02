@@ -6,7 +6,7 @@
 
 ## Quais são os aspectos econômicos de Zcash?
 
-A base monetária de Zcash é a mesma do fornecimento fixo de 21 milhões de unidades monetárias ZEC do Bitcoin. A cada 75 segundos, um novo [bloco](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) é minerado para a blockchain de Zcash e uma recompensa de bloco de 3.125 ZEC entra em circulação. Essa recompensa de bloco é distribuída aos mineradores e ao [fundo de desenvolvimento de Zcash](https://zips.z.cash/zip-1014).
+A base monetária de Zcash é a mesma do fornecimento fixo de 21 milhões de unidades monetárias ZEC do Bitcoin. A cada 75 segundos, um novo [bloco](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) é minerado para a blockchain de Zcash e uma recompensa de bloco de 1.5625 ZEC entra em circulação. Essa recompensa de bloco é distribuída aos mineradores e ao [fundo de desenvolvimento de Zcash](https://zips.z.cash/zip-1014).
 
 O valor da recompensa de bloco é reduzido pela metade aproximadamente a cada quatro anos até que todos os 21 milhões de ZEC estejam em circulação. A inflação de Zcash imita quase precisamente a do Bitcoin. É importante observar que, à medida que novas moedas são criadas, a inflação diminui, e em cada halving a taxa cai significativamente.
 

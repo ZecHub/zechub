@@ -23,9 +23,26 @@ Zcash とプライバシーのエコシステム向けに、ポスター／グ�
 
 バグを報告する
 
-#### 報奨金額の詳細については、コントリビューションページをお読みください -> [こちら](https://zechub.wiki/contribute/contributing-guide#content)。
+### 報酬
 
-現在報奨金が公開されているタスクの issue は、毎週月曜日に投稿しています。報奨金の提案も歓迎です！ 主に ZEC Bounties で見つけることができます。
+ZECの金額は固定されていません。[報奨金額ポリシー](https://bounties.zechub.wiki/docs/bounty-amounts)に従ってください。作業の分類に応じた米ドルの範囲を選び、スポット価格で換算し、ボードにZECを入力します。このポリシーが唯一の正しい情報源です。
+
+貢献者のワークフローと作業の種類：[ZecHubへの貢献](https://zechub.wiki/contribute/contributing-guide)。
+
+プラットフォームの使い方：
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBountiesの解説 | 貢献してZECを獲得"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+[ZEC Bounties](https://bounties.zechub.wiki/)に公開タスクを掲載しています。そこで報奨金を提案することもできます。マージされたPRは、承認済みまたは支払い済みの報酬と同じではありません。
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 

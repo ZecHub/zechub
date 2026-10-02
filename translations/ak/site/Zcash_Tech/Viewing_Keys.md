@@ -116,3 +116,5 @@ Fa safe a wɔde hwɛ nneɛma di dwuma sɛnea ɛho hia, na pɛ safe a ɛyɛ teate
 - [ECC, Nkyerɛkyerɛmu a Wɔde Hwɛ Nneɛma a Wɔde Hwɛ Nneɛma Mu](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Nneɛma a Wɔda no Adi ne Nsafo a Wɔpaw](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Nkyerɛkyerɛmu](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Hwɛ nso: [Address ahorow a Wɔaka abom](./Unified_Addresses.md)

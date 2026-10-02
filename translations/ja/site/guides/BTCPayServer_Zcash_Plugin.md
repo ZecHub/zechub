@@ -476,11 +476,28 @@ Raspberry Pi 5 やその他のローカルサーバーなど、**固定 IP を�
 ### ステップ 1: Cloudflare Tunnel をインストールする
 
 1. [cloudflare.com](https://www.cloudflare.com) でアカウントを作成し、ドメインを追加します。
-2. **自宅サーバー**に Cloudflare Tunnel をインストールします。
+2. **自宅サーバー**に、Cloudflare公式パッケージリポジトリを使用して Cloudflare Tunnel をインストールします。
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+`apt install cloudflared` が失敗した場合は、代わりに対応する `.deb` をインストールしてください。
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Cloudflare で認証します。

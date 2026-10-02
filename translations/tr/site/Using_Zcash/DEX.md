@@ -9,9 +9,9 @@ ZecHub belirli bir merkeziyetsiz borsa hizmetini desteklemez; lütfen kendi ara�
 Aşağıdaki her `###` başlığı, https://zechub.wiki/dex üzerinde bir karttır.
 Buradan bir blok ekleyin, düzenleyin veya kaldırın; wiki bunu bu dosyadan alır.
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Web sitesi: https://near.com/
 - Açıklama: NEAR desteği sunan hızlı bir borsa. Para yatırın, satış yapın ve popüler TRUMP, MELANIA, BERA ile diğer meme coinler dâhil olmak üzere takas yapın.

@@ -116,3 +116,5 @@ Lo awọn bọtini wiwo bi o ṣe nilo, ki o si yan bọtini ti o kere julọ ti
 - [ECC, Ṣàlàyé Àwọn Kọ́kọ́rọ́ Wiwo](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Àfihàn Àṣàyàn àti Àwọn Kọ́kọ́rọ́ Wíwo](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+
+Wo tun: [Àwọn Àdírẹ́sì Ìṣọ̀kan](./Unified_Addresses.md)

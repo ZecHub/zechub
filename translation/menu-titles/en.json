@@ -7,6 +7,7 @@
   "Privacy_Tools/Arti_Tor.md": "Arti: The Next-Generation Tor Client in Rust",
   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
   "Privacy_Tools/Namada_Protocol.md": "Namada Protocol",
+  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Route Zcash Wallet Traffic Over the Nym Mixnet",
   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
   "Privacy_Tools/Penumbra.md": "Penumbra",
   "Privacy_Tools/Secure_Messengers.md": "Secure Messengers",
@@ -152,6 +153,7 @@
   "Zcash_Tech/Sapling.md": "Sapling",
   "Zcash_Tech/Sprout.md": "Sprout",
   "Zcash_Tech/The_Turnstile.md": "The turnstile",
+  "Zcash_Tech/Unified_Addresses.md": "Unified Address (ZIP-316) Validation",
   "Zcash_Tech/Viewing_Keys.md": "Viewing Keys",
   "Zcash_Tech/What_a_Block_Explorer_Can_See.md": "What a block explorer can see on Zcash",
   "Zcash_Tech/Z3_Stack.md": "Z3 Stack",
@@ -215,10 +217,6 @@
   "guides/Zgo_Payment_Processor.md": "ZGo Payment Processor: Accepting Zcash Without Custody",
   "guides/Zingolib_and_Zaino_Tutorial.md": "Z3: (zebrad)(zaino)(zingo-cli)",
   "guides/Zkool_Multisig.md": "Zkool Multisig Guide",
-  "tutorials/Exchanges.md": "Zcash Exchanges",
-  "tutorials/Full_Node_Tutorials.md": "Full Node Tutorials",
-  "tutorials/Using_Zcash.md": "Tutorials for Using Zcash",
-  "tutorials/Wallet_Tutorials.md": "Zcash Wallet Tutorials",
   "tutorials/shieldedNewsletter/readme.md": "Shielded Newsletters",
   "tutorials/zenithserver/zenithBeta.md": "Zenith 0.10 Beta"
 }

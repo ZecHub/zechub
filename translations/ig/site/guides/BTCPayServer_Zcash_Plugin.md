@@ -1,24 +1,24 @@
-# Sava BTPay nwere Nkwado Zcash: Nduzi Nwụnye na Njikọta zuru oke
+# BTCPay Server nwere Nkwado Zcash: Nduzi Nwụnye na Njikọta zuru oke
 
 BTCPay Server na-enye ndị azụmaahịa n'ịntanetị ohere ịnakwere ịkwụ ụgwọ ego dijitalụ ozugbo, na-enweghị ndị nnọchi anya ma ọ bụ ndị nlekọta. Nduzi a na-eduzi gị site na usoro zuru oke nke ịtọlite BTCPay Server site na nkwado obodo maka ịkwụ ụgwọ Zcash echebere.
 
-> Akwụkwọ a lekwasịrị anya n'itinye Zcash n'ime ihe nlereanya BTPay Server gị. 
-> Ọ na-akwado ma **nha zuru oke (Zebra)** na **nhazi dabere na lightwalletd**.
+> Akwụkwọ a lekwasịrị anya n'itinye Zcash n'ime ihe nlereanya BTCPay Server gị. 
+> Ọ na-akwado ma **nha zuru oke (Zebra)** na **lightwalletd-based**.
 
 ---
 
 ## Tebulu ọdịnaya
 
-- [Gịnị kpatara eji BTPay Server na Zcash?](#Why-Use-BTCPay-Server-with-Zcash)
-- [Otu sava BTPay si arụ ọrụ](#How-BTCPay-Server-Works)
+- [Gịnị kpatara eji BTCPay Server na Zcash](#Why-Use-BTCPay-Server-with-Zcash)
+- [Otu BTCPay Server si arụ ọrụ](#How-BTCPay-Server-Works)
 - [Ebee ka a na-echekwa ego? Ònye na-achịkwa igodo nkeonwe?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
-- [Otu esi ahazi sava BTPay maka ịnabata Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
-  - [Iji Zcash akwado sava BTPay](#Deploying-BTCPay-Server-with-Zcash-Support)
+- [Otu esi ahazi BTCPay Server maka ịnabata Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
+  - [Iji Zcash akwado BTCPay Server](#Deploying-BTCPay-Server-with-Zcash-Support)
   - [Na-agba ọsọ Zcash nke gị (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
-  - [Connecting to an External lightwalletd Node (Custom Configuration)](#Connecting-to-an-External-Lightwalletd-Node)
-  - [Ịkwado sava BTPay n'ụlọ site na iji Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
+  - [Ijikọ na Node lightwalletd n'èzí (Nhazi omenala)](#Connecting-to-an-External-Lightwalletd-Node)
+  - [Ịkwado BTCPay Server n'ụlọ site na iji Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Ịhazi Plugin Zcash na BTCPay Server Web Interface](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
-- [Ijikọta sava BTPay na weebụsaịtị gị](#Integrating-BTCPay-Server-with-Your-Website)
+- [Ijikọta BTCPay Server na weebụsaịtị gị](#Integrating-BTCPay-Server-with-Your-Website)
   - [Njikọ API](#API-Integration)
     - [Ịmepụta Igodo API](#Generating-an-API-Key)
     - [Ihe atụ: Ịmepụta akwụkwọ ọnụahịa site na API](#Example-Creating-an-Invoice-via-API)
@@ -31,7 +31,7 @@ BTCPay Server na-enye ndị azụmaahịa n'ịntanetị ohere ịnakwere ịkw�
 
 ---
 
-## Gịnị kpatara eji BTPay Server na Zcash?
+## Gịnị kpatara eji BTCPay Server na Zcash
 
 Azụmaahịa n'ịntanetị na-anabata ego dijitalụ nke ukwuu. Ọ dị ngwa ngwa, zuru ụwa ọnụ, ma na-arụ ọrụ na-enweghị ụlọ akụ. Nke a na-abara ma ndị ahịa ma ndị ahịa uru. Mana enwere nkọwa dị mkpa nke ọtụtụ mmadụ na-eleghara anya.
 
@@ -45,9 +45,9 @@ Onye ọ bụla, ọbụlagodi na-amaghị ihe e nyere iwu, nwere ike:
 
 Nke a pụtara na otu ịzụrụ ihe nwere ike ikpughe akụkọ ego onye ahịa dum.
 
-Ọ na-arụkwa ọrụ n'ụzọ ọzọ. Ọ bụrụ na adreesị onye ahịa apụtala n'usoro, ha na-apụta ìhè. Ndị asọmpi na ndị na-ekiri ihe ndị ọzọ nwere ike ịchọpụta ọnụọgụ ụgwọ, ọrụ ndị na-ebubata ngwaahịa, na usoro usoro azụmahịa.
+Ọ na-arụkwa ọrụ n'ụzọ ọzọ. Ọ bụrụ na adreesị onye ahịa apụtala n'usoro, ha na-apụta ìhè. Ndị asọmpi na ndị na-ekiri ihe ndị ọzọ nwere ike ịchọpụta ọnụọgụ ụgwọ, ọrụ ndị na-ebubata ngwaahịa, na usoro usoro azụmaahịa.
 
-### Njikọta nke BTPay Server na Zcash nwere ike idozi nke a.
+### Njikọta nke BTCPay Server na Zcash nwere ike idozi nke a.
 
 
 BTCPay Server bụ sistemụ n'efu na nke a na-ahazighị ahazi maka ịnata ịkwụ ụgwọ ego dijitalụ. 
@@ -92,20 +92,20 @@ Ihe niile na-arụ ọrụ otu ihe ahụ dịka ọ dị na ego dijitalụ ndị
 
 
 
-## Otu sava BTPay si arụ ọrụ
+## Otu BTCPay Server si arụ ọrụ
 
 BTCPay Server na-arụ ọrụ dị ka àkwà nhazi ịkwụ ụgwọ n'etiti ikpo okwu azụmaahịa e-commerce gị na blockchain. Lee otu usoro ahụ si arụ ọrụ:
 
 1. **Onye ahịa na-etinye iwu** na weebụsaịtị gị (dịka ọmụmaatụ WooCommerce, Magento, ma ọ bụ ikpo okwu ọ bụla nwere njikọta BTCPay).
 
-2. **Ụlọ ahịa ahụ na-arịọ akwụkwọ ọnụahịa ịkwụ ụgwọ** site na sava BTPay. Sava ahụ na-emepụta akwụkwọ ọnụahịa pụrụ iche yana:
+2. **Ụlọ ahịa ahụ na-arịọ akwụkwọ ọnụahịa ịkwụ ụgwọ** site na BTCPay Server. Sava ahụ na-emepụta akwụkwọ ọnụahịa pụrụ iche yana:
    - Ọnụ ego iwu ahụ
    - Ihe eji agụta oge
-   - A Zcash Unified Address (UA) - e.g., `u1...` - nke gụnyere onye nnata Orchard (nke nwere ihe nchebe) site na ndabara.
+   - Adreesị Zcash Unified Address (UA) - dịka ọmụmaatụ, `u1...` - nke gụnyere onye nnata Orchard (nke nwere ihe nchebe) site na ndabara.
 
 3. **Onye ahịa ahụ hụrụ ibe ịkwụ ụgwọ** wee ziga ZEC na adreesị enyere.
 
-4. **Onye nkesa BTCPay na-enyocha blockchain**, na-enyocha ịkwụ ụgwọ ahụ megide:
+4. **BTCPay Server na-enyocha blockchain**, na-enyocha ịkwụ ụgwọ ahụ megide:
    - Ọnụ ego a tụrụ anya ya
    - Adreesị nnata
    - Akara oge akwụkwọ ọnụahịa ahụ
@@ -118,7 +118,7 @@ Usoro a dum na-eme **na-akpaghị aka**, na-enweghị onye ogbugbo ma ọ bụ o
 BTCPay Server anaghị ejide ego ọ bụla** - ọ na-ejikọ sistemụ ịtụ ihe na blockchain ahụ nke ọma ma dịkwa n'ime ya.
 ## Ebee ka a na-echekwa ego? Ònye na-achịkwa igodo nkeonwe?
 
-BTPay Server abụghị **akpa ego, ọ naghịkwa achọ igodo nkeonwe**. 
+BTCPay Server abụghị **akpa ego, ọ naghịkwa achọ igodo nkeonwe**. 
 Ego niile na-aga **kpọmkwem** n'akpa ego onye ahịa. A na-ahụ na nchekwa na-aga site na iji **ihe owuwu dabere na igodo**.
 
 ### Otu O Si Arụ Ọrụ
@@ -127,7 +127,7 @@ Ego niile na-aga **kpọmkwem** n'akpa ego onye ahịa. A na-ahụ na nchekwa na
   Onye ahịa ahụ na-eji obere akpa Zcash nke na-akwado igodo nlele - dịka ọmụmaatụ [Zkool](https://github.com/hhanh00/zkool2/) or [Akpa Zingo!](https://zingolabs.org/).  
   Ndepụta zuru ezu dị na [ZecHub.wiki](https://zechub.wiki/wallets).
 
-- **Ihe nkesa BTCPay na-ejikọ site na igodo nlele.** 
+- **BTCPay Server na-ejikọ site na igodo nlele.** 
   Igodo nlele bụ **igodo ọgụgụ naanị**: ọ nwere ike ịchọpụta ụgwọ na-abata ma mepụta adreesị nnata ọhụrụ, 
   mana ọ gaghị emefu ego. Ihe nkesa ahụ anaghị echekwa mkpụrụ okwu ma ọ bụ igodo nkeonwe.
 
@@ -142,16 +142,16 @@ Ego niile na-aga **kpọmkwem** n'akpa ego onye ahịa. A na-ahụ na nchekwa na
   Ọ bụrụgodị na e mebisiri sava ahụ, ọ dịghị onye nwere ike izuru ego gị - naanị metadata ịkwụ ụgwọ ka a ga-ekpughe.
 
 Nhazi a na-ekewa **ihe owuwu** na **njikwa ihe onwunwe**. 
-Ị nwere ike imelite, ịkwaga, ma ọ bụ tinyegharịa BTPay Server n'etinyeghị ego ọ bụla n'ihe egwu.
+Ị nwere ike imelite, ịkwaga, ma ọ bụ tinyegharịa BTCPay Server n'etinyeghị ego ọ bụla n'ihe egwu.
 
-## Otu esi ahazi sava BTPay maka ịnabata Zcash
+## Otu esi ahazi BTCPay Server maka ịnabata Zcash
 
 N'akụkụ ndị gara aga, anyị kọwara otu BTCPay Server si arụ ọrụ na Zcash na ihe kpatara o ji dị mkpa maka ịkwụ ụgwọ nchekwa nzuzo. Ugbu a oge eruola ka anyị leba anya n'ihe anyị na-ekwu.
 
 Nhazi gị kpọmkwem ga-adabere n'ọtụtụ ihe:
 
 - Ị nwere ihe atụ BTCPay Server?
-- Do you want to use a public lightwalletd or run your own full node?
+- Ị chọrọ iji lightwalletd ọha ma ọ bụ jiri otu n'ime ha rụọ ọrụ nke gị?
 - Ihe nkesa ahụ ọ ga-agba ọsọ na VPS ma ọ bụ n'ụlọ?
 
 Isiakwụkwọ a na-ekpuchi ọnọdụ nhazi niile dị ugbu a - site na ntọala pere mpe ruo na ntinye zuru oke.
@@ -159,14 +159,14 @@ Isiakwụkwọ a na-ekpuchi ọnọdụ nhazi niile dị ugbu a - site na ntọa
 Anyị ga-atụle ihe ndị a:
 
 - Otu esi etinye ihe niile site na mmalite na VPS, gụnyere node zuru oke (Zebra)
-- Otu esi agba ọsọ BTPay Server n'ụlọ ebe ị na-ezobe IP gị site na iji **Cloudflare Tunnel**
+- Otu esi agba ọsọ BTCPay Server n'ụlọ ebe ị na-ezobe IP gị site na iji **Cloudflare Tunnel**
 - Otu esi eme ka nkwado Zcash rụọ ọrụ ma hazie ya n'ime interface weebụ BTCPay Server
 - Otu esi ejikọta BTPay na weebụsaịtị gị ma ọ bụ ụlọ ahịa dị n'ịntanetị
 
 
-## Iji Zcash akwado sava BTPay
+## Iji Zcash akwado BTCPay Server
 
-Ka anyị gaa n'ihu na ntọala ahụ. Na ngalaba a, anyị ga-etinye BTPay Server na nkwado Zcash - ma na VPS ọhụrụ ma ọ bụ site na itinye nkwado ZEC na ihe atụ dị adị.
+Ka anyị gaa n'ihu na ntọala ahụ. Na ngalaba a, anyị ga-etinye BTCPay Server na nkwado Zcash - ma na VPS ọhụrụ ma ọ bụ site na itinye nkwado ZEC na ihe atụ dị adị.
 
 Ọ bụrụ na BTCPay Server na-arụ ọrụ (dịka ọmụmaatụ maka BTC ma ọ bụ Lightning), ịkwesighi itinyeghachi ihe niile - naanị mee ka ngwa mgbakwunye ZEC rụọ ọrụ.
 
@@ -178,7 +178,7 @@ Nhọrọ kacha mma dabere na ebe sava gị dị na oke nnwere onwe ịchọrọ
 >
 > **Ịdọ aka ná ntị - otu obere akpa maka ihe atụ:** 
 > Ngwa mgbakwunye Zcash na-eji **otu obere akpa ekekọrịtara** n'ofe **ụlọ ahịa niile** na ihe atụ BTPay. 
-> Ọ bụrụ na ị na-akwado ọtụtụ ụlọ ahịa nọọrọ onwe ha n'otu oge, ha ga-ekerịta otu obere akpa Zcash ahụ. 
+> Ọ bụrụ na ị na-akwado ọtụtụ ụlọ ahịa nọọrọ onwe ha n'otu oge, ha ga-ekerịta otu obere akpa Zcash. 
 > Jiri ihe atụ dị iche iche ma ọ bụrụ na ịchọrọ ịpụpụ obere akpa ego.
 
 ---
@@ -199,7 +199,7 @@ Tupu ịwụnye ya, jide n'aka na ị nwere:
 <details>
   <summary>Click to expand</summary>
 
-Iji tinye BTPay Server na nkwado Zcash, ị ga-achọ ihe ndị a:
+Iji tinye BTCPay Server na nkwado Zcash, ị ga-achọ ihe ndị a:
 
 ### 1. VPS na Ubuntu 22.04 ma ọ bụ nke ọhụrụ
 
@@ -218,7 +218,7 @@ Ntọala a zuru oke ma ọ bụrụ na ị na-eji lightwalletd maka Zcash.
 
 ### 2. Aha ngalaba na-egosi sava gị
 
-Na dashboard nke onye na-enye DNS gị, mepụta otu `A` ndekọ maka subdomain 
+Na dashboard nke onye na-enye DNS gị, mepụta otu `A` dekọọ maka subdomain 
 (e.g. `btcpay.example.com`) nke na-ezo aka na adreesị IP VPS gị. 
 
 A ga-eji ngalaba a nweta BTCPay Server site na ihe nchọgharị ahụ 
@@ -228,7 +228,7 @@ na iji mepụta **asambodo SSL n'efu** na akpaghị aka site na Ka anyị zoo ya
 
 ### 3. Ịnweta SSH na sava ahụ
 
-Iji wụnye BTPay Server, ị ga-ejikọrịrị na VPS gị site na SSH. 
+Iji wụnye BTCPay Server, ị ga-ejikọrịrị na VPS gị site na SSH. 
 Site na ọdụ gị, gbaa ọsọ:
 
 `ssh root@YOUR_SERVER_IP`
@@ -251,7 +251,7 @@ sudo systemctl enable docker
 > Na Ubuntu 22.04 na nke ọhụrụ, `docker-compose` A kwụsịtụrụ APT.
 > Ngwugwu akwadoro bụ `docker-compose-plugin`, nke na-enye `docker compose` iwu (rịba ama oghere ahụ kama akara ngosi).
 
-Gburugburu sava gị dị njikere ugbu a maka ịwụnye BTPay Server.
+Gburugburu sava gị dị njikere ugbu a maka ịwụnye BTCPay Server.
 
 </details>
 
@@ -259,7 +259,7 @@ Gburugburu sava gị dị njikere ugbu a maka ịwụnye BTPay Server.
 
 ### Nzọụkwụ 1: Mechie Ebe Nchekwa Ahụ
 
-Mepụta ndekọ ọrụ wee budata ntinye BTPay Server Docker:
+Mepụta ndekọ ọrụ wee budata ntinye BTCPay Server Docker:
 
 ```
 mkdir BTCPayServer
@@ -307,7 +307,7 @@ Gbaa edemede ntọala iji wuo ma malite sava ahụ:
 Ederede ahụ ga-etinye ihe ndị dabere na ya, mepụta ihe ndị dabere na ya `docker-compose.yml`, malite ọrụ, ma hazie `systemd`.
 Nke a na-ewe ihe dị ka nkeji ise.
 
-Ozugbo emechara ya, ihe atụ BTPay Server gị ga-adị na:
+Ozugbo emechara ya, ihe atụ BTCPay Server gị ga-adị na:
 
 `https://btcpay.example.com`
 
@@ -357,7 +357,7 @@ export BTCPAYGEN_EXCLUDE_FRAGMENTS="zcash"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 ```
 
-Nke a ga-agụnye `zcash-fullnode` nkebi, nke na-ewepụta ha abụọ `zebrad` na `lightwalletd` n'ime sava BTPay.
+Nke a ga-agụnye `zcash-fullnode` nkebi, nke na-ewepụta ha abụọ `zebrad` na `lightwalletd` n'ime BTCPay Server.
 
 ---
 
@@ -378,13 +378,13 @@ Ederede ahụ ga-:
 ## Ijikọ na Nọdụ Lightwalletd Mpụga
 
 N'ọtụtụ oge, ọ dịghị mkpa inwe nnwere onwe zuru oke - ndị ahịa nwere ike ọ gaghị achọ itinye oge na ohere diski na-agba ọsọ Zcash zuru oke. 
-Site na ndabara, BTPay Server na-ejikọ na ọha `lightwalletd` node iji jikwaa ịkwụ ụgwọ echekwara na-enweghị nbudata blockchain niile.
+Site na ndabara, BTCPay Server na-ejikọ na ọha `lightwalletd` node iji jikwaa ịkwụ ụgwọ echekwara na-enweghị nbudata blockchain niile.
 
 Isi njedebe ndabara bụ:
 
 `https://zec.rocks:443`
 
-Agbanyeghị, ị nwere ike hazie BTPay Server ka ọ jikọọ na ** ihe ọ bụla dị n'èzí `lightwalletd` node**, dịka:
+Agbanyeghị, ị nwere ike hazie BTCPay Server ka ọ jikọọ na ** ihe ọ bụla dị n'èzí `lightwalletd` node**, dịka:
 
 `https://lightwalletd.example:443`
 
@@ -414,7 +414,7 @@ exclusive:
 
 Ihe `exclusive` ntuziaka ahụ na-ahụ na naanị otu iberibe nwere otu akara ahụ (`zcash` n'okwu a) nwere ike ịrụ ọrụ n'otu oge.
 Nke a na-egbochi esemokwu nhazi - dịka ọmụmaatụ, ịnweghị ike ịgba ọsọ abụọ ahụ `zcash-fullnode` iberibe na mpụga omenala a `lightwalletd` iberibe n'otu oge.
-Site n'ịkanye ya akara dị ka `exclusive: zcash`, BTPay Server ga-agbanyụ ndabara ahụ na akpaghị aka `zcash-fullnode` na nke dị n'ime `lightwalletd` akpa, na-enye gị ohere ijikọ na node mpụga nke gị kama.
+Site n'ịkanye ya akara dị ka `exclusive: zcash`, BTCPay Server ga-agbanyụ ndabara ahụ na akpaghị aka `zcash-fullnode` na nke dị n'ime `lightwalletd` akpa, na-enye gị ohere ijikọ na node mpụga nke gị kama.
 
 ---
 
@@ -442,7 +442,7 @@ Tinye ahịrị a, dochie URL ahụ na njedebe ị họọrọ:
 Ị nwere ike iji:
 
 * **ebe ọha**, dịka `https://zec.rocks:443`
-* Nọdụ nke gị nke na-akwado onwe ya, nke e tinyere iche na sava BTPay
+* Nọdụ nke gị nke na-akwado onwe ya, nke e tinyere iche na BTCPay Server
 
 > Ọ bụrụ na mpụga `lightwalletd` ọ bụrụ na ọ dịghị ma ọ bụ buru ibu, ụgwọ e chebere ga-ada ada.
 > Maka ọrụ dị oke mkpa, họrọ **nkwụsị siri ike ma gosipụta ya** (dịka ndabara `zec.rocks`).
@@ -462,9 +462,9 @@ BTCPay Server ga-etinye nhazi omenala gị ma jikọọ na nke akọwapụtara `
 Site ugbu a gaa n'ihu, ngwa mgbakwunye Zcash ga-eji njedebe mpụga ahụ maka ijikwa azụmahịa echekwara.
 
 
-## Ịkwado sava BTPay n'ụlọ site na iji Cloudflare Tunnel
+## Ịkwado BTCPay Server n'ụlọ site na iji Cloudflare Tunnel
 
-Ị chọrọ ịnakwere ịkwụ ụgwọ Zcash mgbe ị na-akwado BTPay Server na ngwaọrụ ụlọ - dị ka Raspberry Pi 5 ma ọ bụ sava mpaghara ọ bụla **na-enweghị IP kwụ ọtọ**? 
+Ị chọrọ ịnakwere ịkwụ ụgwọ Zcash mgbe ị na-akwado BTCPay Server na ngwaọrụ ụlọ - dị ka Raspberry Pi 5 ma ọ bụ sava mpaghara ọ bụla **na-enweghị IP kwụ ọtọ**? 
 I nwere ike ikpughe ihe atụ gị na ịntanetị n'enweghị nsogbu site na iji **Cloudflare Tunnel**.
 
 Usoro a na-ezere mbugharị ọdụ ụgbọ mmiri ma na-ezochi ezigbo adreesị IP gị n'ihu ọha - ebe ọ na-eme ka sava gị dị mfe ịnweta site na HTTPS.
@@ -476,11 +476,28 @@ Usoro a na-ezere mbugharị ọdụ ụgbọ mmiri ma na-ezochi ezigbo adreesị
 ### Nzọụkwụ 1: Wụnye Ọwara Cloudflare
 
 1. Mepụta akaụntụ na [cloudflare.com](https://www.cloudflare.com) ma tinye ngalaba gị.
-2. Na **sava ụlọ gị**, wụnye Ọwara Cloudflare:
+2. Na **sava ụlọ gị**, wụnye Cloudflare Tunnel site na iji ebe nchekwa ngwugwu Cloudflare:
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+If `apt install cloudflared` ada ada, wụnye ihe dakọtara `.deb` kama:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Iji Cloudflare nyochaa njirimara gị:
@@ -524,7 +541,7 @@ ingress:
 * `tunnel` - aha ọwara ị mepụtara na mbụ
 * `credentials-file` - ụzọ gaa na faịlụ token emepụtara n'oge `cloudflared tunnel login`
 * `hostname` - edebanyere aha ngalaba gị na Cloudflare (dịka ọmụmaatụ `btcpay.example.com`)
-* `service` - adreesị mpaghara nke sava BTPay gị (na-abụkarị adreesị mpaghara) `http://127.0.0.1:80` maka Nginx)
+* `service` - adreesị mpaghara nke BTCPay Server gị (na-abụkarị adreesị mpaghara) `http://127.0.0.1:80` maka Nginx)
 
 > Cloudflare ga-anọchi anya okporo ụzọ na sava mpaghara gị nke ọma, na-ekpugheghị adreesị IP gị.
 
@@ -575,15 +592,15 @@ I kwesịrị ịhụ ozi dị ka `Active: active (running)` na nkwenye na `btcp
 
 ---
 
-### Nzọụkwụ nke 5: Mezue Ntọala Sava BTPay
+### Nzọụkwụ nke 5: Mezue BTCPay Server
 
-Ọ bụrụ na ị chọrọ ịwụnye BTPay Server maka oge mbụ, tọọ ngalaba gị tupu ị gbaa edemede ntọala:
+Ọ bụrụ na ị chọrọ ịwụnye BTCPay Server maka oge mbụ, tọọ ngalaba gị tupu ị gbaa edemede ntọala:
 
 `export BTCPAY_HOST="btcpay.example.com"`
 
 Nke a na-ahụ na ejiri ngalaba ziri ezi mee ihe mgbe ị na-emepụta nhazi **Nginx** na asambodo **SSL**.
 
-Ọ bụrụ na etinyere BTPay Server ma ị na-agbakwunye ọwara ahụ:
+Ọ bụrụ na etinyere BTCPay Server ma ị na-agbakwunye ọwara ahụ:
 
 ```
 cd ~/BTCPayServer/btcpayserver-docker
@@ -604,7 +621,7 @@ Ugbu a, ị kwesịrị ịnweta sava gị na:
 > **Dị mkpa maka ntọala ụlọ ahịa dị iche iche:** 
 > Akpa Zcash nke e mere ebe a bụ **zuru ụwa ọnụ** dịka ọmụmaatụ. Ụlọ ahịa niile ga-eji obere akpa a belụsọ ma ị na-agba usoro BTPay dị iche.
 
-Mgbe ị tinyere ihe atụ BTPay Server gị nke ọma, ị ga-achọ ime ụfọdụ nhazi dị mkpa site na interface weebụ admin. 
+Mgbe ị tinyere ihe atụ BTCPay Server gị nke ọma, ị ga-achọ ime ụfọdụ nhazi dị mkpa site na interface weebụ admin. 
 Akwụkwọ gọọmentị ahụ na-enye ntuziaka zuru oke na Bekee - ebe a, anyị ga-agafe usoro ndị dị mkpa ma lekwasị anya kpọmkwem na ịhazi ngwa mgbakwunye Zcash.
 
 ---
@@ -635,7 +652,7 @@ Gaa leta ihe atụ gị na:
 Mgbe etinyere ya, pịa **Malitegharịa sava** iji bugharịa ihe nchọgharị ahụ na plugins ndị na-arụ ọrụ.
 
 
-### Step 3: Connect Your Wallet via Viewing Key
+### Nzọụkwụ nke 3: Jikọọ obere akpa gị site na Viewing Key
 
 Mgbe etinyere ngwa mgbakwunye ahụ, ngalaba **Zcash** ọhụrụ ga-apụta na menu ntọala.
 
@@ -643,7 +660,7 @@ Mgbe etinyere ngwa mgbakwunye ahụ, ngalaba **Zcash** ọhụrụ ga-apụta na
 
 `Zcash -> Settings`
 
-2. Paste your **Unified Full Viewing Key (UFVK)** - BTCPay will derive a Unified Address for each invoice and detect incoming shielded payments.
+2. Mado **Full Viewing Key oke (UFVK)** gị - BTPay ga-enweta Unified Address maka akwụkwọ ọnụahịa ọ bụla ma chọpụta ụgwọ ndị a na-echekwa echekwa na-abata.
 
 > **Rịba ama:** A na-akwado igodo nlele Legacy Sapling, mana iji Orchard/Unified Adreesị, ị kwesịrị inye **UFVK**.
 
@@ -655,13 +672,13 @@ Mgbe etinyere ngwa mgbakwunye ahụ, ngalaba **Zcash** ọhụrụ ga-apụta na
 3. Tinye uru n'ọhịa elu Block
 
 * **Ntọlite mbụ ya na obere akpa ọhụrụ (okwu mkpụrụ ọhụrụ):** tinye ogologo ngọngọ Zcash dị ugbu a (ị nwere ike ịlele ya na 3xpl.com/zcash) - nke a na-eme ka nyocha mbụ dị ngwa.
-* **Ịkwaga na otu sava ahụ site na ntọala Sapling-naanị gaa na Unified Adreesị / Orchard:** hapụ ubi a ka ọ tọgbọ chakoo.
+* **Ịkwaga na otu sava ahụ site na ntọala Sapling-only gaa na Unified Adreesị / Orchard:** hapụ ubi a ka ọ tọgbọ chakoo.
 * **Ịkwaga ụlọ ahịa gị gaa na sava ọhụrụ nwere otu obere akpa/UFVK:** ma ọ bụrụ na ịchọrọ, tinye ogologo ọmụmụ - ihe dị ka ogologo nke iwu mbụ ụlọ ahịa gị kwụrụ ụgwọ (dakọtara ụbọchị iwu ahụ na 3xpl iji belata nyocha ahụ). Ọ bụrụ na ị maghị nke ọma, hapụ ya ka ọ tọgbọ chakoo.
 
 > Ọ bụghị obere akpa ego niile na-akwado **UFVK Unified Full Viewing Key (UFVK)** mbupụ ugbua. 
 > Nhọrọ ndị a tụrụ aro: 
 > – [**Zkool**](https://github.com/hhanh00/zkool2/)  
-> – [**Akpa obere akpa Zingo! (ụdị maka PC)**](https://zingolabs.org/)  
+> – [**Zingo! (ụdị maka PC)**](https://zingolabs.org/)  
 > Na ngwa abụọ ahụ, chọọ maka mbupu UFVK na ngalaba nkwado ndabere/mbupụ.
 
 Igodo ndị a na-akwado **mgbanwe adreesị akpaka**, nke pụtara:
@@ -676,7 +693,7 @@ Ozugbo e dejupụtara ubi niile, pịa **Chekwa**.
 
 ### Nwalee usoro ịkwụ ụgwọ ZEC gị
 
-Ekele dịrị gị - ejikọla obere akpa Zcash gị na sava BTPay ugbu a.
+Ekele dịrị gị - ejikọla obere akpa Zcash gị na BTCPay Server.
 
 Ka anyị mee ule:
 
@@ -685,7 +702,7 @@ Ka anyị mee ule:
 `Invoices -> Create New`
 
 2. Mepụta akwụkwọ ọnụahịa nnwale maka obere ego na ZEC.
-3. Zipu ego site na ** obere akpa dị iche** (ọ bụghị nke ejikọtara na BTPay).
+3. Zipu ego site na **obere akpa dị iche** (ọ bụghị nke ejikọtara na BTPay).
 4. Ozugbo achọpụtara azụmahịa ahụ, ibe akwụkwọ ọnụahịa ga-egosi emume anya.
 5. Kwenye na ọnọdụ akwụkwọ ọnụahịa ahụ agbanweela ka ọ bụrụ **Akwụọla ụgwọ**.
 
@@ -693,7 +710,7 @@ Ka anyị mee ule:
 
 
 
-## Ijikọta sava BTPay na weebụsaịtị gị
+## Ijikọta BTCPay Server na weebụsaịtị gị
 
 Ozugbo ejikọtara obere akpa Zcash gị na BTCPay Server, ị nwere ike itinye sistemụ ịkwụ ụgwọ na weebụsaịtị gị. 
 E nwere ọtụtụ ụzọ isi mee nke a - site na ịnweta API ozugbo ruo na plugins dị njikere iji maka nyiwe CMS ama ama.
@@ -729,7 +746,7 @@ Nzọụkwụ ọzọ: mepụta igodo API maka ụlọ ahịa gị wee malite ij
 
 ### Ịmepụta Igodo API
 
-Iji tinye BTPay Server na weebụsaịtị ma ọ bụ ngwa gị, ị ga-achọ ịmepụta igodo API.
+Iji tinye BTCPay Server na weebụsaịtị ma ọ bụ ngwa gị, ị ga-achọ ịmepụta igodo API.
 
 1. Banye na BTCPay Server wee mepee menu onye ọrụ **(nkuku aka nri elu)
 2. Gaa na **Igodo API**
@@ -787,7 +804,7 @@ Lee akwụkwọ zuru ezu:
 Iji nata ọkwa ozugbo mgbe ọnọdụ akwụkwọ ọnụahịa gbanwere (dịka ọmụmaatụ mgbe a natara ụgwọ):
 
 1. Gaa na ntọala ụlọ ahịa gị -> **Webhooks**
-2. Tinye URL nke njedebe azụ gị nke ga-ejikwa `POST` arịrịọ sitere na sava BTPay
+2. Tinye URL nke njedebe azụ gị nke ga-ejikwa `POST` arịrịọ sitere na BTCPay Server
 3. BTPay ga-ezipụ ọkwa ozugbo mgbe akwụchara ụgwọ akwụkwọ ọnụahịa ma ọ bụ gwụchara
 
 A kọwara ibu ọrụ Webhook na usoro nnwale ọzọ na [akwụkwọ webhook gọọmentị](https://docs.btcpayserver.org/FAQ/General/#how-to-create-a-webhook-).
@@ -798,14 +815,14 @@ A kọwara ibu ọrụ Webhook na usoro nnwale ọzọ na [akwụkwọ webhook g
 
 ### Njikọ CMS
 
-BTPay Server na-akwado plugins maka sistemụ njikwa ọdịnaya ama ama (CMS). 
+BTCPay Server na-akwado plugins maka sistemụ njikwa ọdịnaya ama ama (CMS). 
 Njikọ kachasị ochie ma dị irè bụ na **WordPress + WooCommerce**, na-eme ka ọ dị mfe ịnakwere ịkwụ ụgwọ ZEC **na-edeghị koodu**.
 
 ---
 
 #### WooCommerce (WordPress)
 
-BTCPay Server na-akwado ngwa mgbakwunye maka WooCommerce n'ụzọ iwu kwadoro.
+BTCPay Server na-akwado ngwa mgbakwunye maka WooCommerce.
 
 Nzọụkwụ iji jikọta:
 
@@ -815,7 +832,7 @@ Nzọụkwụ iji jikọta:
 `WooCommerce -> Settings -> Payments`
 
 3. Chọta **BTCPay** na ndepụta ahụ wee pịa **Setup**
-4. Tinye URL nke sava BTPay gị wee soro ntuziaka ikike 
+4. Tinye URL BTCPay Server gị wee soro ntuziaka ikike 
    (a na-atụ aro ka ịmepụta igodo API akpaka)
 5. Mee ka usoro ịkwụ ụgwọ ahụ rụọ ọrụ ma chekwaa ntọala gị
 
@@ -861,7 +878,7 @@ Iji gosipụta akwụkwọ ọnụahịa ahụ ozugbo na saịtị gị, jiri if
 
 `<iframe src="https://btcpay.example.com/i/abc123" width="600" height="350" frameborder="0"></iframe>`
 
-> I nwere ike ime ka bọtịnụ ma ọ bụ akpa iframe dị ka o kwesịrị ka e mee ya - BTCPay Server na-enye ohere ka ibe akwụkwọ ọnụahịa ahụ dị iche iche.
+> I nwere ike ime ka bọtịnụ ma ọ bụ akpa iframe dị ka o kwesịrị ka e mee ya - BTCPay Server na-enye ohere ka ibe akwụkwọ ọnụahịa ahụ dị mfe.
 
 ## Mmechi
 
@@ -883,10 +900,10 @@ Anyị na-achọ ka ị nwee ihe ịga nke ọma n'ịchọpụta usoro BTCPay m
 
 ## akụrụngwa
 
-* [Weebụsaịtị BTCPay nke sava gọọmentị](https://btcpayserver.org/)
+* [Weebụsaịtị BTCPay Server gọọmentị](https://btcpayserver.org/)
 * [Ajụjụ Ndị A Na-ajụkarị Banyere BTCPay](https://docs.btcpayserver.org/FAQ/)
-* [Ebe Nchekwa GitHub nke sava BTPay](https://github.com/btcpayserver/btcpayserver)
-* [Ngosipụta Mainnet nke sava BTCPay](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
+* [Ebe Nchekwa GitHub BTCPay Server](https://github.com/btcpayserver/btcpayserver)
+* [Ngosipụta Mainnet BTCPay Server](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
 * [Zcash Plugin maka BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Ntuziaka Nwụnye Zcash Plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Ihe atụ zcash-lightwalletd.custom.yml ahaziri iche](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)

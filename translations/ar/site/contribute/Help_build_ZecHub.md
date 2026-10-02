@@ -23,15 +23,32 @@
 
 الإبلاغ عن الأخطاء
 
-#### للاطلاع على تفاصيل مبالغ المكافآت، يرجى قراءة صفحة المساهمة الخاصة بنا -> [هنا](https://zechub.wiki/contribute/contributing-guide#content).
+### المكافآت
 
-ننشر المشكلات الخاصة بالمهام التي لدينا حاليًا مكافآت مفتوحة لها كل يوم اثنين. يمكنك أيضًا اقتراح مكافآت! توجد هذه بشكل أساسي في ZEC Bounties.
+المبالغ ليست ثابتة في ZEC. استخدم [سياسة مبالغ المكافآت](https://bounties.zechub.wiki/docs/bounty-amounts): اختر نطاقًا بالدولار الأمريكي لفئة العمل، وحوِّله وفق السعر الفوري، وأدخل ZEC في اللوحة. تلك السياسة هي المصدر المعتمد.
+
+سير عمل المساهمين وأنواع العمل: [المساهمة في ZecHub](https://zechub.wiki/contribute/contributing-guide).
+
+شرح المنصة:
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Lb5Bvl1GkRQ"
+    title="ZecBounties Explained | Earn ZEC by Contributing"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
+ننشر المهام المفتوحة على [ZEC Bounties](https://bounties.zechub.wiki/). يمكنك أيضًا اقتراح مكافآت هناك. لا يعني دمج طلب سحب أن المكافأة تمت الموافقة عليها أو دُفعت.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 
-[مكافآت ZEC](https://bounties.zechub.wiki/)
+[ZEC Bounties](https://bounties.zechub.wiki/)
 
 [مشكلات ZecHub على Github](https://github.com/ZecHub/zechub/issues)
 

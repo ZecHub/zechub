@@ -7,6 +7,7 @@ Privacy_Tools/2FA_Hardware_Devices.md
 Privacy_Tools/Arti_Tor.md
 Privacy_Tools/GrapheneOS.md
 Privacy_Tools/Namada_Protocol.md
+Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
 Privacy_Tools/PGP_Encryption.md
 Privacy_Tools/Penumbra.md
 Privacy_Tools/Secure_Messengers.md
@@ -15,10 +16,12 @@ Privacy_Tools/Tor_and_I2P.md
 Privacy_Tools/VPN_and_DVPN.md
 Privacy_Tools/Web_Browsers.md
 Research/Dash_Zcash_Orchard_Integration.md
+Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md
 Research/Namada_Privacy_and_Best_Practices.md
 Research/Navigating_the_Central_Bank_Digital_Currency.md
 Research/Social_Media_Data_Collection.md
 Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md
+Research/What_25_Second_Blocks_Actually_Change.md
 Research/ZK_Shielded_Asset_Platforms.md
 Research/confidentiality-compared.md
 Research/selective-disclosure-zcash.md
@@ -59,6 +62,7 @@ Using_Zcash/Payment_Processors.md
 Using_Zcash/Payment_Request_URIs.md
 Using_Zcash/Recovering_Funds.md
 Using_Zcash/Shielded_Pools.md
+Using_Zcash/Solana_ZEC_to_Shielded.md
 Using_Zcash/Solswap.md
 Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md
 Using_Zcash/Testnet.md
@@ -131,6 +135,7 @@ Zcash_Tech/Full_Nodes.md
 Zcash_Tech/Halo.md
 Zcash_Tech/Heartwood.md
 Zcash_Tech/Ironwood.md
+Zcash_Tech/Is_Zcash_Post_Quantum.md
 Zcash_Tech/Lightwallet_Nodes.md
 Zcash_Tech/NU5.md
 Zcash_Tech/NU6.md
@@ -145,6 +150,7 @@ Zcash_Tech/Project_Tachyon.md
 Zcash_Tech/Sapling.md
 Zcash_Tech/Sprout.md
 Zcash_Tech/The_Turnstile.md
+Zcash_Tech/Unified_Addresses.md
 Zcash_Tech/Viewing_Keys.md
 Zcash_Tech/What_a_Block_Explorer_Can_See.md
 Zcash_Tech/Z3_Stack.md
@@ -206,10 +212,6 @@ guides/Zero-Knowledge_vs_Decoys.md
 guides/Zgo_Payment_Processor.md
 guides/Zingolib_and_Zaino_Tutorial.md
 guides/Zkool_Multisig.md
-tutorials/Exchanges.md
-tutorials/Full_Node_Tutorials.md
-tutorials/Using_Zcash.md
-tutorials/Wallet_Tutorials.md
 tutorials/shieldedNewsletter/daoAddresses.md
 tutorials/shieldedNewsletter/mynewsletter.md
 tutorials/shieldedNewsletter/readme.md

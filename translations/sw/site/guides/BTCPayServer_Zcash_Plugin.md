@@ -1,24 +1,24 @@
-# Seva ya BTCPay yenye Usaidizi wa Zcash: Mwongozo Kamili wa Usakinishaji na Ujumuishaji
+# BTCPay Server yenye Usaidizi wa Zcash: Mwongozo Kamili wa Usakinishaji na Ujumuishaji
 
-Seva ya BTCPay inaruhusu biashara za mtandaoni kukubali malipo ya sarafu za kidijitali moja kwa moja, bila wapatanishi au walinzi. Mwongozo huu unakuongoza katika mchakato mzima wa kuanzisha Seva ya BTCPay kwa usaidizi asilia wa malipo yaliyolindwa na Zcash.
+BTCPay Server inaruhusu biashara za mtandaoni kukubali malipo ya sarafu za kidijitali moja kwa moja, bila wapatanishi au walinzi. Mwongozo huu unakuongoza katika mchakato mzima wa kuanzisha BTCPay Server kwa usaidizi asilia wa malipo yaliyolindwa na Zcash.
 
-> Nyaraka hii inalenga kuunganisha Zcash katika mfano wako wa Seva ya BTCPay. 
+> Nyaraka hii inalenga kuunganisha Zcash katika mfano wako BTCPay Server. 
 > Inasaidia mipangilio ya **nodi kamili (Zebra)** na **lightwalletd-based setups**.
 
 ---
 
 ## Orodha ya Yaliyomo
 
-- [Kwa Nini Utumie Seva ya BTCPay na Zcash](#Why-Use-BTCPay-Server-with-Zcash)
-- [Jinsi Seva ya BTCPay Inavyofanya Kazi](#How-BTCPay-Server-Works)
+- [Kwa Nini Utumie BTCPay Server na Zcash](#Why-Use-BTCPay-Server-with-Zcash)
+- [Jinsi BTCPay Server Inavyofanya Kazi](#How-BTCPay-Server-Works)
 - [Fedha Huhifadhiwa Wapi? Nani Anayedhibiti Funguo za Kibinafsi?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
-- [Jinsi ya Kuweka Seva ya BTCPay kwa ajili ya Kukubali Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
-  - [Kutuma Seva ya BTCPay kwa kutumia Usaidizi wa Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Kuendesha Nodi Yako Kamili ya Zcash (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
-  - [Connecting to an External lightwalletd Node (Custom Configuration)](#Connecting-to-an-External-Lightwalletd-Node)
-  - [Kuhifadhi Seva ya BTCPay Nyumbani kwa kutumia Cloudflare Handle](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
-- [Kusanidi Programu-jalizi ya Zcash katika Kiolesura cha Wavuti cha Seva ya BTCPay](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
-- [Kuunganisha Seva ya BTCPay na Tovuti Yako](#Integrating-BTCPay-Server-with-Your-Website)
+- [Jinsi ya Kuweka BTCPay Server kwa ajili ya Kukubali Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
+  - [Kutuma BTCPay Server kwa kutumia Usaidizi wa Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
+  - [Kuendesha Nodi Yako Kamili Zcash (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [Kuunganisha kwenye Nodi ya Nje lightwalletd (Usanidi Maalum)](#Connecting-to-an-External-Lightwalletd-Node)
+  - [Kuhifadhi BTCPay Server Nyumbani kwa kutumia Cloudflare Handle](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
+- [Kusanidi Programu-jalizi Zcash katika Kiolesura cha Wavuti BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
+- [Kuunganisha BTCPay Server na Tovuti Yako](#Integrating-BTCPay-Server-with-Your-Website)
   - [Ujumuishaji wa API](#API-Integration)
     - [Kuzalisha Ufunguo wa API](#Generating-an-API-Key)
     - [Mfano: Kuunda Ankara kupitia API](#Example-Creating-an-Invoice-via-API)
@@ -31,7 +31,7 @@ Seva ya BTCPay inaruhusu biashara za mtandaoni kukubali malipo ya sarafu za kidi
 
 ---
 
-## Kwa Nini Utumie Seva ya BTCPay na Zcash
+## Kwa Nini Utumie BTCPay Server na Zcash
 
 Biashara ya mtandaoni inazidi kukubali sarafu ya kidijitali. Ni ya haraka, ya kimataifa, na inafanya kazi bila benki. Hii inawanufaisha wafanyabiashara na wateja. Lakini kuna maelezo muhimu ambayo wengi hupuuza.
 
@@ -50,7 +50,7 @@ Na inafanya kazi kwa njia nyingine pia. Ikiwa anwani ya mfanyabiashara imewahi k
 ### Mchanganyiko wa BTCPay Server na Zcash unaweza kutatua hili.
 
 
-Seva ya BTCPay ni mfumo wa bure na uliogatuliwa kwa ajili ya kupokea malipo ya sarafu za kidijitali. 
+BTCPay Server ni mfumo wa bure na uliogatuliwa kwa ajili ya kupokea malipo ya sarafu za kidijitali. 
 Sio mpatanishi wa malipo na haina pesa zozote. Malipo yote huenda moja kwa moja kwenye pochi ya mfanyabiashara. 
 Hii inaweza kuwa pochi ya kibinafsi au mpangilio wa multisig ndani ya shirika.
 
@@ -80,7 +80,7 @@ Baada ya malipo kufanywa, anwani hii huhifadhiwa kwenye blockchain na kuwa ya um
 Mshambuliaji anahitaji tu kuunganisha agizo moja na anwani ili kupata mwonekano wa muda mrefu katika historia yake yote ya miamala.
 
 Sasa fikiria hali kama hiyo na Zcash. 
-Seva ya BTCPay hutoa anwani iliyolindwa. Mnunuzi hutuma malipo. 
+BTCPay Server hutoa anwani iliyolindwa. Mnunuzi hutuma malipo. 
 Kwa mtazamo wa blockchain, hakuna kinachotokea. Hakuna data ya umma ya kuchanganua. 
 Seva hupokea uthibitisho, huunganisha na agizo, na kukamilisha mchakato.
 
@@ -92,20 +92,20 @@ Kila kitu hufanya kazi sawa na sarafu zingine za kidijitali, bila hatari ya uvuj
 
 
 
-## Jinsi Seva ya BTCPay Inavyofanya Kazi
+## Jinsi BTCPay Server Inavyofanya Kazi
 
-Seva ya BTCPay hufanya kazi kama daraja la usindikaji wa malipo kati ya jukwaa lako la biashara ya mtandaoni na blockchain. Hivi ndivyo mtiririko unavyofanya kazi:
+BTCPay Server hufanya kazi kama daraja la usindikaji wa malipo kati ya jukwaa lako la biashara ya mtandaoni na blockchain. Hivi ndivyo mtiririko unavyofanya kazi:
 
-1. **Mteja anaweka oda** kwenye tovuti yako (k.m. WooCommerce, Magento, au mfumo wowote wenye ujumuishaji wa BTCPay).
+1. **Mteja anaweka oda** kwenye tovuti yako (km WooCommerce, Magento, au mfumo wowote wenye muunganisho wa BTCPay).
 
-2. **Duka linaomba ankara ya malipo** kutoka kwa Seva ya BTCPay. Seva hutoa ankara ya kipekee yenye:
+2. **Duka linaomba ankara ya malipo** kutoka kwa BTCPay Server. Seva hutoa ankara ya kipekee yenye:
    - Kiasi cha agizo
    - Kipima muda cha kuhesabu muda
-   - A Zcash Unified Address (UA) - e.g., `u1...` - ambayo inajumuisha kipokezi cha Orchard (kilichofunikwa) kwa chaguo-msingi.
+   - Anwani Zcash Unified Address (UA) - k.m., `u1...` - ambayo inajumuisha kipokezi cha Orchard (kilichofunikwa) kwa chaguo-msingi.
 
 3. **Mteja huona ukurasa wa malipo** na kutuma ZEC kwa anwani iliyotolewa.
 
-4. **Seva ya BTCPay hufuatilia blockchain**, ikiangalia malipo dhidi ya:
+4. **BTCPay Server hufuatilia blockchain**, ikiangalia malipo dhidi ya:
    - Kiasi kinachotarajiwa
    - Anwani ya kupokea
    - Muhuri wa muda wa ankara
@@ -115,42 +115,42 @@ Seva ya BTCPay hufanya kazi kama daraja la usindikaji wa malipo kati ya jukwaa l
 6. **Mteja anapokea uthibitisho wa malipo.** Kwa hiari, seva inaweza kutuma risiti kupitia barua pepe.
 
 Mchakato huu wote hutokea **kiotomatiki**, bila wapatanishi au walinzi. 
-Seva ya BTCPay **haihifadhi pesa zozote** - inaunganisha tu mfumo wa kuagiza kwenye blockchain kwa usalama na faragha.
+BTCPay Server **haihifadhi pesa zozote** - inaunganisha tu mfumo wa kuagiza kwenye blockchain kwa usalama na faragha.
 ## Fedha Huhifadhiwa Wapi? Nani Anayedhibiti Funguo za Kibinafsi?
 
-Seva ya BTCPay si pochi na haihitaji funguo za kibinafsi**. 
+BTCPay Server si pochi na haihitaji funguo za kibinafsi**. 
 Fedha zote huenda **moja kwa moja** kwenye pochi ya mfanyabiashara. Usalama unahakikishwa kwa kutumia usanifu wa **ufunguo wa kutazama**.
 
 ### Jinsi Inavyofanya Kazi
 
-- **Pochi imeundwa mapema.**. 
-  Mfanyabiashara anatumia pochi ya Zcash inayounga mkono funguo za kutazama - kama vile [Zkool](https://github.com/hhanh00/zkool2/) or [Pochi ya Zingo!](https://zingolabs.org/).  
+- **Pochi imeundwa mapema.** 
+  Mfanyabiashara anatumia pochi Zcash inayounga mkono funguo za kutazama - kama vile [Zkool](https://github.com/hhanh00/zkool2/) or [Pochi Zingo!](https://zingolabs.org/).  
   Orodha kamili inapatikana katika [ZecHub.wiki](https://zechub.wiki/wallets).
 
-- **Seva ya BTCPay huunganisha kupitia kitufe cha kutazama.** 
+- **BTCPay Server huunganisha kupitia kitufe cha kutazama.** 
   Ufunguo wa kutazama ni **ufunguo wa kusoma pekee**: unaweza kugundua malipo yanayoingia na kutoa anwani mpya za kupokea, 
   lakini haiwezi kutumia pesa. Seva haihifadhi misemo ya mbegu au funguo za kibinafsi.
 
 - **Data ya Blockchain inapatikana kupitia `lightwalletd` seva.** 
   Unaweza kutumia nodi ya umma kama `https://zec.rocks`, au endesha yako mwenyewe `Zebra + lightwalletd` rafu kwa ajili ya uhuru kamili.
 
-- **Kila agizo hupata anwani ya kipekee.**. 
-  Funguo za kutazama huruhusu seva kupata anwani mpya za Zcash zilizolindwa kwa kila ankara, 
+- **Kila agizo hupata anwani ya kipekee.** 
+  Funguo za kutazama huruhusu seva kupata anwani mpya Zcash zilizolindwa kwa kila ankara, 
   kuwezesha ufuatiliaji salama wa malipo na kuzuia utumiaji tena wa anwani.
 
-- **Una udhibiti kamili wa fedha.**. 
+- **Una udhibiti kamili wa fedha.** 
   Hata kama seva imeathiriwa, hakuna mtu anayeweza kuiba pesa zako - ni metadata ya malipo pekee ndiyo inaweza kufichuliwa.
 
 Muundo huu hutenganisha **miundombinu** na **udhibiti wa mali**. 
-Unaweza kusasisha, kuhamisha, au kusakinisha upya Seva ya BTCPay bila kuweka pesa zozote hatarini.
+Unaweza kusasisha, kuhamisha, au kusakinisha upya BTCPay Server bila kuweka pesa zozote hatarini.
 
-## Jinsi ya Kuweka Seva ya BTCPay kwa ajili ya Kukubali Zcash
+## Jinsi ya Kuweka BTCPay Server kwa ajili ya Kukubali Zcash
 
 Katika sehemu zilizopita, tulielezea jinsi BTCPay Server inavyofanya kazi na Zcash na kwa nini ni muhimu kwa malipo ya kuhifadhi faragha. Sasa ni wakati wa kufanya kazi kwa vitendo.
 
 Mpangilio wako halisi utategemea mambo kadhaa:
 
-- Je, tayari una mfano wa Seva ya BTCPay?
+- Je, tayari una mfano BTCPay Server?
 - Je, unataka kutumia public lightwalletd au kuendesha nodi yako kamili?
 - Je, seva itaendeshwa kwenye VPS au nyumbani?
 
@@ -159,16 +159,16 @@ Sura hii inashughulikia hali zote za usanidi wa sasa - kuanzia mipangilio midogo
 Tutapitia yafuatayo:
 
 - Jinsi ya kusambaza kila kitu kuanzia mwanzo kwenye VPS, ikiwa ni pamoja na nodi kamili (Zebra)
-- Jinsi ya kuendesha Seva ya BTCPay nyumbani huku ukificha IP yako kwa kutumia **Cloudflare Tunnel**
-- Jinsi ya kuwezesha na kusanidi usaidizi wa Zcash ndani ya kiolesura cha wavuti cha BTCPay Server
+- Jinsi ya kuendesha BTCPay Server nyumbani huku ukificha IP yako kwa kutumia **Cloudflare Tunnel**
+- Jinsi ya kuwezesha na kusanidi usaidizi wa Zcash ndani ya kiolesura cha wavuti BTCPay Server
 - Jinsi ya kuunganisha BTCPay na tovuti yako au duka lako la mtandaoni
 
 
-## Kutuma Seva ya BTCPay kwa kutumia Usaidizi wa Zcash
+## Kutuma BTCPay Server kwa kutumia Usaidizi wa Zcash
 
-Tuendelee kwenye usanidi halisi. Katika sehemu hii, tutasakinisha Seva ya BTCPay kwa usaidizi wa Zcash - iwe kwenye VPS mpya au kwa kuongeza usaidizi wa ZEC kwenye mfano uliopo.
+Tuendelee kwenye usanidi halisi. Katika sehemu hii, tutasakinisha BTCPay Server kwa usaidizi wa Zcash - iwe kwenye VPS mpya au kwa kuongeza usaidizi wa ZEC kwenye mfano uliopo.
 
-Ikiwa tayari una BTCPay Server inayofanya kazi (k.m. kwa BTC au Lightning), huhitaji kusakinisha tena kila kitu - washa tu programu-jalizi ya ZEC.
+Ikiwa tayari una BTCPay Server inayofanya kazi (km kwa BTC au Lightning), huhitaji kusakinisha tena kila kitu - washa tu programu-jalizi ZEC.
 
 Tutapitia mipangilio mbalimbali, kuanzia mipangilio midogo kwa kutumia programu ya umma `lightwalletd` nodi hadi usakinishaji kamili wa uhuru ukitumia nodi yako kamili. 
 Chaguo bora inategemea eneo la seva yako na kiasi gani cha uhuru unachotaka kutoka kwa miundombinu ya nje.
@@ -177,8 +177,8 @@ Chaguo bora inategemea eneo la seva yako na kiasi gani cha uhuru unachotaka kuto
 > [https://github.com/btcpay-zcash/btcpayserver-zcash-plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 >
 > **Onyo - pochi moja kwa kila mfano:** 
-> Programu-jalizi ya Zcash hutumia **pochi moja inayoshirikiwa** katika **maduka yote** katika mfano wa BTCPay. 
-> Ukihifadhi maduka mengi huru kwa wakati mmoja, yatashiriki pochi moja ya Zcash. 
+> Programu-jalizi Zcash hutumia **pochi moja inayoshirikiwa** katika **maduka yote** katika mfano wa BTCPay. 
+> Ukihifadhi maduka mengi huru kwa wakati mmoja, yatashiriki pochi moja Zcash. 
 > Tumia mifano tofauti ikiwa unahitaji kutenganisha pochi kwa ukali.
 
 ---
@@ -199,7 +199,7 @@ Kabla ya kusakinisha, hakikisha una:
 <details>
   <summary>Click to expand</summary>
 
-Ili kusambaza Seva ya BTCPay kwa usaidizi wa Zcash, utahitaji yafuatayo:
+Ili kusambaza BTCPay Server kwa usaidizi wa Zcash, utahitaji yafuatayo:
 
 ### 1. VPS yenye Ubuntu 22.04 au mpya zaidi
 
@@ -212,7 +212,7 @@ Mtoa huduma yeyote wa VPS anayetoa anwani maalum ya IP atafanya kazi.
 - Nafasi ya diski ya GB 40 
 
 Mpangilio huu unatosha ikiwa unatumia lightwalletd kwa Zcash. 
-Ukipanga kuendesha **nodi kamili ya Zcash**, utahitaji **angalau GB 300** ya nafasi ya bure ya diski.
+Ukipanga kuendesha **nodi kamili Zcash**, utahitaji **angalau GB 300** ya nafasi ya bure ya diski.
 
 ---
 
@@ -221,14 +221,14 @@ Ukipanga kuendesha **nodi kamili ya Zcash**, utahitaji **angalau GB 300** ya naf
 Katika dashibodi ya mtoa huduma wako wa DNS, tengeneza `A` rekodi ya kikoa kidogo 
 (e.g. `btcpay.example.com`) ambayo inaelekeza kwenye anwani yako ya IP ya VPS. 
 
-Kikoa hiki kitatumika kufikia Seva ya BTCPay kutoka kwa kivinjari 
+Kikoa hiki kitatumika kufikia BTCPay Server kutoka kwa kivinjari 
 na kutengeneza kiotomatiki cheti cha **SSL cha bure** kupitia Let's Encrypt.
 
 ---
 
 ### 3. Ufikiaji wa SSH kwenye seva
 
-Ili kusakinisha Seva ya BTCPay, lazima uunganishe kwenye VPS yako kupitia SSH. 
+Ili kusakinisha BTCPay Server, lazima uunganishe kwenye VPS yako kupitia SSH. 
 Kutoka kwa terminal yako, endesha:
 
 `ssh root@YOUR_SERVER_IP`
@@ -251,7 +251,7 @@ sudo systemctl enable docker
 > Kwenye Ubuntu 22.04 na mpya zaidi, `docker-compose` kutoka APT imeondolewa kwenye huduma.
 > Kifurushi kinachopendekezwa ni `docker-compose-plugin`, ambayo hutoa `docker compose` amri (andika nafasi badala ya dashibodi).
 
-Mazingira ya seva yako sasa yako tayari kwa kusakinisha Seva ya BTCPay.
+Mazingira ya seva yako sasa yako tayari kwa kusakinisha BTCPay Server.
 
 </details>
 
@@ -259,7 +259,7 @@ Mazingira ya seva yako sasa yako tayari kwa kusakinisha Seva ya BTCPay.
 
 ### Hatua ya 1: Kuiga Hifadhi
 
-Unda saraka inayofanya kazi na upakue usanidi wa Kifaa cha Kuweka Data cha BTCPay:
+Unda saraka inayofanya kazi na upakue usanidi wa Kifaa BTCPay Server:
 
 ```
 mkdir BTCPayServer
@@ -307,11 +307,11 @@ Endesha hati ya usanidi ili kujenga na kuzindua seva:
 Hati itasakinisha vitegemezi, na kutoa `docker-compose.yml`, anza huduma, na usanidi `systemd`.
 Hii inachukua kama dakika 5.
 
-Mara tu baada ya kukamilika, mfano wako wa Seva ya BTCPay utapatikana katika:
+Mara tu baada ya kukamilika, mfano wako BTCPay Server utapatikana katika:
 
 `https://btcpay.example.com`
 
-> Ikiwa unabadilisha usakinishaji uliopo (k.m. kuongeza ZEC), hakikisha unasimamisha na kuanzisha upya seva kwa mipangilio mipya:
+> Ikiwa unarekebisha usakinishaji uliopo (km kuongeza ZEC), hakikisha umesimamisha na kuanzisha upya seva kwa mipangilio mipya:
 
 ```
 cd ~/BTCPayServer/btcpayserver-docker
@@ -319,30 +319,30 @@ btcpay-down.sh
 . ./btcpay-setup.sh -i
 ```
 
-Kisha endelea hadi sehemu inayofuata ili kusanidi Zcash katika kiolesura cha wavuti cha BTCPay Server.
+Kisha endelea hadi sehemu inayofuata ili kusanidi Zcash katika kiolesura cha wavuti BTCPay Server.
 
 
 
-## Kuendesha Nodi Yako Kamili ya Zcash
+## Kuendesha Nodi Yako Kamili Zcash
 
-Ukitaka **si** kutegemea umma `lightwalletd` nodi, unaweza kusambaza nodi yako kamili ya Zcash pamoja na Lightwalletd kwenye seva hiyo hiyo. 
+Ukipendelea **si** kutegemea umma `lightwalletd` nodi, unaweza kusambaza nodi yako kamili Zcash pamoja na Lightwalletd kwenye seva hiyo hiyo. 
 Hii inakupa **uhuru kamili** - hakuna utegemezi wa nje, hakuna uaminifu unaohitajika.
 
 ---
 
 ### Hatua ya 1: Hakikisha Nafasi ya Kutosha ya Diski
 
-Nodi kamili ya Zcash (Zebra + Lightwalletd) kwa sasa inahitaji nafasi ya diski ya **300+ GB**, na inaendelea kukua.
+Nodi kamili Zcash (Zebra + Lightwalletd) kwa sasa inahitaji nafasi ya diski ya **300+ GB**, na inaendelea kukua.
 
 Uchanganuzi:
 
-- Hifadhidata ya blockchain ya Zebra: ~260-270 GB
+- Hifadhidata ya blockchain Zebra: ~260-270 GB
 - Uorodheshaji wa Lightwalletd: ~15-20 GB
 
 #### Hifadhi iliyopendekezwa:
 
 - **400 GB+** ikiwa seva inatumika **pekee** kwa malipo ya Zcash
-- **800 GB+** ikiwa seva pia inaendesha Seva ya BTCPay, PostgreSQL, Nginx, n.k.
+- **800 GB+** ikiwa seva pia inaendesha BTCPay Server, PostgreSQL, Nginx, n.k.
 
 > Ni vyema kutumia diski ya SSD/NVMe yenye uwezo wa **TB 1**, hasa ikiwa huna mpango wa kupunguza data mara kwa mara.
 
@@ -357,7 +357,7 @@ export BTCPAYGEN_EXCLUDE_FRAGMENTS="zcash"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 ```
 
-Hii itajumuisha `zcash-fullnode` kipande, ambacho huzindua zote mbili `zebrad` na `lightwalletd` ndani ya Seva ya BTCPay.
+Hii itajumuisha `zcash-fullnode` kipande, ambacho huzindua zote mbili `zebrad` na `lightwalletd` ndani ya BTCPay Server.
 
 ---
 
@@ -377,14 +377,14 @@ Hati hiyo ita:
 
 ## Kuunganisha kwenye Nodi ya Nje ya Lightwalletd
 
-Mara nyingi, uhuru kamili hauhitajiki - na wafanyabiashara huenda wasingependa kutumia muda na nafasi ya diski kuendesha nodi kamili ya Zcash. 
-Kwa chaguo-msingi, Seva ya BTCPay huunganisha kwenye huduma ya umma `lightwalletd` nodi ya kushughulikia malipo yaliyolindwa bila kupakua blockchain nzima.
+Mara nyingi, uhuru kamili hauhitajiki - na wafanyabiashara huenda wasingependa kutumia muda na nafasi ya diski kuendesha nodi kamili Zcash. 
+Kwa chaguo-msingi, BTCPay Server huunganisha kwenye huduma ya umma `lightwalletd` nodi ya kushughulikia malipo yaliyolindwa bila kupakua blockchain nzima.
 
 Mwisho chaguo-msingi ni:
 
 `https://zec.rocks:443`
 
-Hata hivyo, unaweza kusanidi Seva ya BTCPay ili iunganishwe na **sehemu yoyote ya nje `lightwalletd` nodi**, kama vile:
+Hata hivyo, unaweza kusanidi BTCPay Server ili iunganishwe na **sehemu yoyote ya nje `lightwalletd` nodi**, kama vile:
 
 `https://lightwalletd.example:443`
 
@@ -414,7 +414,7 @@ exclusive:
 
 Ya `exclusive` maelekezo yanahakikisha kwamba kipande kimoja tu chenye lebo sawa (`zcash` katika hali hii) inaweza kuwa hai kwa wakati mmoja.
 Hii huzuia migogoro ya usanidi - kwa mfano, huwezi kuendesha zote mbili `zcash-fullnode` kipande na kipande hiki maalum cha nje `lightwalletd` kipande kwa wakati mmoja.
-Kwa kuiweka alama kama `exclusive: zcash`, Seva ya BTCPay itazima kiotomatiki chaguo-msingi `zcash-fullnode` na ya ndani `lightwalletd` vyombo, vinavyokuruhusu kuungana na nodi yako ya nje badala yake.
+Kwa kuiweka alama kama `exclusive: zcash`, BTCPay Server itazima kiotomatiki chaguo-msingi `zcash-fullnode` na ya ndani `lightwalletd` vyombo, vinavyokuruhusu kuungana na nodi yako ya nje badala yake.
 
 ---
 
@@ -442,13 +442,13 @@ Ongeza mstari ufuatao, ukibadilisha URL na sehemu ya mwisho uliyochagua:
 Unaweza kutumia:
 
 * **Nodi ya umma**, kama vile `https://zec.rocks:443`
-* Nodi yako mwenyewe inayojiendesha, iliyosambazwa kando na Seva ya BTCPay
+* Nodi yako mwenyewe inayojiendesha, iliyosambazwa kando na BTCPay Server
 
 > Ikiwa sehemu ya nje `lightwalletd` Inaposhindwa kupatikana au kuzidiwa kupita kiasi, malipo yaliyolindwa yatashindwa.
 > Kwa huduma muhimu, chagua **kituo cha mwisho thabiti na kilichothibitishwa** (kama chaguo-msingi `zec.rocks`).
 
 > Unataka kujipangia mwenyewe `lightwalletd`?
-> Unaweza kutumia `docker-compose.lwd.yml` kutoka kwa [Zebra repository](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml).
+> Unaweza kutumia `docker-compose.lwd.yml` kutoka kwa [Hifadhi ya Zebra](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml).
 > **Onyo:** Usanidi huu haujarekodiwa rasmi na unahitaji usanidi wa TLS mwenyewe, usambazaji wa mlango, na usanidi wa ngome - unapendekezwa kwa watumiaji wa hali ya juu pekee.
 
 ---
@@ -457,12 +457,12 @@ Unaweza kutumia:
 
 `. ./btcpay-setup.sh -i`
 
-Seva ya BTCPay itatumia usanidi wako maalum na kuunganisha kwenye kifaa kilichobainishwa `lightwalletd` nodi.
+BTCPay Server itatumia usanidi wako maalum na kuunganisha kwenye kifaa kilichobainishwa `lightwalletd` nodi.
 
-Kuanzia sasa, programu-jalizi ya Zcash itatumia sehemu hiyo ya nje ya kushughulikia miamala iliyolindwa.
+Kuanzia sasa, programu-jalizi Zcash itatumia sehemu hiyo ya nje ya kushughulikia miamala iliyolindwa.
 
 
-## Kuhifadhi Seva ya BTCPay Nyumbani kwa kutumia Cloudflare Handle
+## Kuhifadhi BTCPay Server Nyumbani kwa kutumia Cloudflare Handle
 
 Unataka kukubali malipo ya Zcash unapohifadhi BTCPay Server kwenye kifaa cha nyumbani - kama vile Raspberry Pi 5 au seva yoyote ya ndani **bila IP tuli**? 
 Unaweza kufichua kifaa chako kwenye mtandao kwa usalama kwa kutumia **Cloudflare Tunnel**.
@@ -476,11 +476,28 @@ Pia inakusaidia **kuepuka gharama ya kukodisha VPS**, ambayo ni bora ikiwa malip
 ### Hatua ya 1: Sakinisha Handaki ya Cloudflare
 
 1. Fungua akaunti katika [cloudflare.com](https://www.cloudflare.com) na ongeza kikoa chako.
-2. Kwenye seva yako ya nyumbani**, sakinisha Handaki ya Cloudflare:
+2. Kwenye seva yako ya nyumbani**, sakinisha Handaki ya Cloudflare kwa kutumia hazina rasmi ya kifurushi cha Cloudflare:
 
-```
+```bash
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
 sudo apt update
-sudo apt install cloudflared --legacy
+sudo apt install cloudflared
+```
+
+If `apt install cloudflared` inashindwa, sakinisha ulinganishaji `.deb` badala yake:
+
+```bash
+# Raspberry Pi / ARM64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb
+sudo dpkg -i cloudflared.deb
+```
+
+```bash
+# x86_64
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
 ```
 
 3. Thibitisha ukitumia Cloudflare:
@@ -523,8 +540,8 @@ ingress:
 
 * `tunnel` - jina la handaki ulilounda mapema
 * `credentials-file` - njia ya faili ya ishara iliyotengenezwa wakati wa `cloudflared tunnel login`
-* `hostname` - kikoa chako kilichosajiliwa na Cloudflare (k.m. `btcpay.example.com`)
-* `service` - anwani ya karibu ya Seva yako ya BTCPay (kawaida `http://127.0.0.1:80` kwa Nginx)
+* `hostname` - kikoa chako kimesajiliwa na Cloudflare (km. `btcpay.example.com`)
+* `service` - anwani ya karibu ya BTCPay Server (kawaida `http://127.0.0.1:80` kwa Nginx)
 
 > Cloudflare itasambaza data kwa seva yako ya karibu kwa njia mbadala kwa usalama, bila kufichua anwani yako ya IP ya nyumbani.
 
@@ -571,19 +588,19 @@ Angalia hali:
 
 Unapaswa kuona ujumbe kama `Active: active (running)` na uthibitisho kwamba `btcpay.example.com` iko mtandaoni.
 
-> Kuanzia sasa, handaki litaanza kiotomatiki kila inapowashwa upya, na Seva yako ya BTCPay itakuwa rahisi kufikiwa na umma - bila kusambaza mlango na bila kufichua IP yako halisi.
+> Kuanzia sasa, handaki litaanza kiotomatiki kila inapowashwa upya, na BTCPay Server itakuwa rahisi kufikiwa na umma - bila kusambaza mlango na bila kufichua IP yako halisi.
 
 ---
 
-### Hatua ya 5: Maliza Usanidi wa Seva ya BTCPay
+### Hatua ya 5: Maliza Usanidi wa BTCPay Server
 
-Ikiwa unakaribia kusakinisha Seva ya BTCPay kwa mara ya kwanza, weka kikoa chako kabla ya kuendesha hati ya usanidi:
+Ikiwa unakaribia kusakinisha BTCPay Server kwa mara ya kwanza, weka kikoa chako kabla ya kuendesha hati ya usanidi:
 
 `export BTCPAY_HOST="btcpay.example.com"`
 
 Hii inahakikisha kikoa sahihi kinatumika wakati wa kutengeneza usanidi wa **Nginx** na vyeti vya **SSL**.
 
-Ikiwa Seva ya BTCPay tayari imesakinishwa na unaongeza tu handaki:
+Ikiwa BTCPay Server tayari imesakinishwa na unaongeza tu handaki:
 
 ```
 cd ~/BTCPayServer/btcpayserver-docker
@@ -596,16 +613,16 @@ Sasa unapaswa kuweza kufikia seva yako katika:
 `https://btcpay.example.com`
 
 > Ikiwa unatumia huduma ya umma `lightwalletd` au nodi yako kamili, hii haiathiri handaki.
-> Kinachojalisha ni kwamba Seva ya BTCPay inasikiliza `127.0.0.1:80` ndani ya nchi.
+> Kinachojalisha ni kwamba BTCPay Server inasikiliza `127.0.0.1:80` ndani ya nchi.
 
 
-## Kusanidi Programu-jalizi ya Zcash katika Kiolesura cha Wavuti cha Seva ya BTCPay
+## Kusanidi Programu-jalizi Zcash katika Kiolesura cha Wavuti BTCPay Server
 
 > **Muhimu kwa mipangilio ya maduka mengi:** 
-> Pochi ya Zcash iliyosanidiwa hapa ni ya kimataifa kwa mfano. Maduka yote yatatumia pochi hii isipokuwa utumie mifano tofauti ya BTCPay.
+> Pochi Zcash iliyosanidiwa hapa ni ya kimataifa kwa mfano. Maduka yote yatatumia pochi hii isipokuwa utumie mifano tofauti ya BTCPay.
 
-Baada ya kufanikiwa kutumia mfano wako wa Seva ya BTCPay, utahitaji kufanya usanidi wa msingi kupitia kiolesura cha wavuti cha msimamizi. 
-Nyaraka rasmi hutoa maelekezo kamili kwa Kiingereza - hapa, tutapitia hatua muhimu na kuzingatia hasa usanidi wa programu-jalizi ya Zcash.
+Baada ya kufanikiwa kutumia mfano wako BTCPay Server, utahitaji kufanya usanidi wa msingi kupitia kiolesura cha wavuti cha msimamizi. 
+Nyaraka rasmi hutoa maelekezo kamili kwa Kiingereza - hapa, tutapitia hatua muhimu na kuzingatia hasa usanidi wa programu-jalizi Zcash.
 
 ---
 
@@ -621,7 +638,7 @@ Tembelea mfano wako katika:
 
 ---
 
-### Hatua ya 2: Sakinisha programu-jalizi ya Zcash
+### Hatua ya 2: Sakinisha programu-jalizi Zcash
 
 1. Kwenye menyu kuu, nenda kwa:
 
@@ -635,7 +652,7 @@ Tembelea mfano wako katika:
 Baada ya usakinishaji, bofya **Anzisha Seva** ili kupakia upya kiolesura na programu-jalizi zinazotumika.
 
 
-### Step 3: Connect Your Wallet via Viewing Key
+### Hatua ya 3: Unganisha Pochi Yako kupitia Viewing Key
 
 Baada ya kusakinisha programu-jalizi, sehemu mpya ya **Zcash** itaonekana kwenye menyu ya mipangilio.
 
@@ -643,9 +660,9 @@ Baada ya kusakinisha programu-jalizi, sehemu mpya ya **Zcash** itaonekana kwenye
 
 `Zcash -> Settings`
 
-2. Paste your **Unified Full Viewing Key (UFVK)** - BTCPay will derive a Unified Address for each invoice and detect incoming shielded payments.
+2. Bandika **Full Viewing Key Uliounganishwa (UFVK)** - BTCPay itapata Unified Address kwa kila ankara na kugundua malipo yanayoingia yaliyolindwa.
 
-> **Note:** Legacy Sapling viewing keys are supported, but to use Orchard/Unified Addresses you should provide a **UFVK**.
+> **Kumbuka:** Funguo za kutazama Sapling ya Kale zinaungwa mkono, lakini ili kutumia Anwani za Orchard/Unified unapaswa kutoa **UFVK**.
 
 
    Mfano wa muundo:
@@ -655,13 +672,13 @@ Baada ya kusakinisha programu-jalizi, sehemu mpya ya **Zcash** itaonekana kwenye
 3. Ingiza thamani katika sehemu ya urefu wa Block
 
 * **Usanidi wa mara ya kwanza na pochi mpya (kifungu kipya cha mbegu):** ingiza urefu wa sasa wa kizuizi cha Zcash (unaweza kukiangalia kwa 3xpl.com/zcash) - hii huongeza kasi ya uchanganuzi wa awali.
-* **Kuhamia kwenye seva moja kutoka kwa usanidi wa zamani wa Sapling-only hadi Unified Addresses / Orchard:** acha sehemu hii ikiwa tupu.
+* **Kuhamia kwenye seva moja kutoka kwa usanidi wa zamani Sapling-only hadi Unified Addresses / Orchard:** acha sehemu hii ikiwa tupu.
 * **Kuhamisha duka lako hadi kwenye seva mpya yenye pochi/UFVK sawa:** kwa hiari ingiza urefu wa kuzaliwa - urefu wa takriban wa oda ya kwanza ya duka lako iliyolipwa (linganisha tarehe ya oda kwenye 3xpl ili kupunguza uchanganuzi). Ikiwa huna uhakika, liache tupu.
 
 > Sio pochi zote zinazounga mkono **Unified Full Viewing Key (UFVK)** kuhamisha bado. 
 > Chaguzi zilizopendekezwa: 
 > – [**Zkool**](https://github.com/hhanh00/zkool2/)  
-> – [**Mkoba wa Zingo! (toleo la Kompyuta)**](https://zingolabs.org/)  
+> – [**Zingo! Pochi (toleo la Kompyuta)**](https://zingolabs.org/)  
 > Katika programu zote mbili, tafuta UFVK export katika sehemu ya chelezo/usafirishaji.
 
 Funguo hizi zinaunga mkono **mzunguko wa anwani kiotomatiki**, ikimaanisha:
@@ -674,9 +691,9 @@ Mara tu sehemu zote zitakapojazwa, bofya **Hifadhi**.
 
 ---
 
-### Jaribu Mtiririko Wako wa Malipo wa ZEC
+### Jaribu Mtiririko Wako wa Malipo ZEC
 
-Hongera - pochi yako ya Zcash sasa imeunganishwa na Seva ya BTCPay.
+Hongera - pochi yako Zcash sasa imeunganishwa na BTCPay Server.
 
 Hebu tufanye jaribio:
 
@@ -693,9 +710,9 @@ Ikiwa kila kitu kitafanya kazi - uko tayari kuunganisha malipo ya ZEC kwenye tov
 
 
 
-## Kuunganisha Seva ya BTCPay na Tovuti Yako
+## Kuunganisha BTCPay Server na Tovuti Yako
 
-Mara tu pochi yako ya Zcash ikiwa imeunganishwa na Seva ya BTCPay, unaweza kuunganisha mfumo wa malipo kwenye tovuti yako. 
+Mara tu pochi yako Zcash ikiwa imeunganishwa na BTCPay Server, unaweza kuunganisha mfumo wa malipo kwenye tovuti yako. 
 Kuna njia kadhaa za kufanya hivi - kuanzia ufikiaji wa moja kwa moja wa API hadi programu-jalizi zilizo tayari kutumika kwa mifumo maarufu ya CMS.
 
 ---
@@ -729,9 +746,9 @@ Hatua inayofuata: tengeneza ufunguo wa API kwa duka lako na uanze kutumia [API y
 
 ### Kuzalisha Ufunguo wa API
 
-Ili kuunganisha Seva ya BTCPay na tovuti au programu yako, utahitaji kutoa ufunguo wa API.
+Ili kuunganisha BTCPay Server na tovuti au programu yako, utahitaji kutoa ufunguo wa API.
 
-1. Ingia kwenye Seva ya BTCPay na ufungue menyu ya **mtumiaji** (kona ya juu kulia)
+1. Ingia kwenye BTCPay Server na ufungue menyu ya **mtumiaji** (kona ya juu kulia)
 2. Nenda kwenye **Funguo za API**
 3. Bofya **Unda ufunguo mpya wa API**
 4. Ingiza jina la ufunguo wako
@@ -784,10 +801,10 @@ Tazama hati kamili:
 
 ### Kuweka Mtandao (Si lazima)
 
-Ili kupokea arifa za wakati halisi wakati hali za ankara zinabadilika (k.m. wakati malipo yanapokelewa):
+Kupokea arifa za wakati halisi wakati hali za ankara zinabadilika (km wakati malipo yanapokelewa):
 
 1. Nenda kwenye mipangilio ya duka lako -> **Vifaa vya wavuti**
-2. Ongeza URL ya sehemu yako ya mwisho ya nyuma ambayo itashughulikia `POST` maombi kutoka kwa Seva ya BTCPay
+2. Ongeza URL ya sehemu yako ya mwisho ya nyuma ambayo itashughulikia `POST` maombi kutoka kwa BTCPay Server
 3. BTCPay itatuma arifa kiotomatiki wakati ankara inalipwa au inaisha muda wake
 
 Mizigo ya malipo ya wavuti na mantiki ya kujaribu tena imeelezwa katika [hati rasmi za wavuti](https://docs.btcpayserver.org/FAQ/General/#how-to-create-a-webhook-).
@@ -798,14 +815,14 @@ Mizigo ya malipo ya wavuti na mantiki ya kujaribu tena imeelezwa katika [hati ra
 
 ### Ujumuishaji wa CMS
 
-Seva ya BTCPay inasaidia programu-jalizi za mifumo maarufu ya usimamizi wa maudhui (CMS). 
-Muunganisho uliokomaa na unaotumika sana ni pamoja na **WordPress + WooCommerce**, na hivyo kurahisisha kukubali malipo ya ZEC **bila kuandika msimbo**.
+BTCPay Server inasaidia programu-jalizi za mifumo maarufu ya usimamizi wa maudhui (CMS). 
+Muunganisho uliokomaa na unaotumika sana ni pamoja na **WordPress + WooCommerce**, na hivyo kurahisisha kukubali malipo ZEC **bila kuandika msimbo**.
 
 ---
 
 #### WooCommerce (WordPress)
 
-Seva ya BTCPay inasaidia rasmi programu-jalizi ya WooCommerce.
+BTCPay Server inasaidia rasmi programu-jalizi ya WooCommerce.
 
 Hatua za kuunganisha:
 
@@ -815,7 +832,7 @@ Hatua za kuunganisha:
 `WooCommerce -> Settings -> Payments`
 
 3. Tafuta **BTCPay** kwenye orodha na ubofye **Weka mipangilio**
-4. Ingiza URL yako ya Seva ya BTCPay na ufuate maagizo ya uidhinishaji 
+4. Ingiza URL yako BTCPay Server na ufuate maagizo ya uidhinishaji 
    (Uzalishaji wa ufunguo wa API kiotomatiki unapendekezwa)
 5. Washa njia ya malipo na uhifadhi mipangilio yako
 
@@ -827,7 +844,7 @@ Pia utapata chaguo zingine za ujumuishaji wa CMS katika sehemu hiyo hiyo ya hati
 
 ### Kitufe cha Malipo au Iframe (Hakuna CMS au API Inahitajika)
 
-Kama hutumii CMS na hutaki kufanya kazi na API, njia rahisi zaidi ya kukubali malipo ya ZEC ni kupachika kiungo cha malipo au wijeti** moja kwa moja kwenye tovuti yako.
+Kama hutumii CMS na hutaki kufanya kazi na API, njia rahisi zaidi ya kukubali malipo ZEC ni kupachika kiungo cha malipo au wijeti** moja kwa moja kwenye tovuti yako.
 
 Njia hii inafaa kwa:
 
@@ -840,7 +857,7 @@ Njia hii inafaa kwa:
 
 #### Chaguo 1: Kitufe cha Malipo (Kiungo)
 
-1. Katika Seva ya BTCPay, tengeneza ankara mwenyewe katika sehemu ya **Ankara**
+1. Katika BTCPay Server, tengeneza ankara mwenyewe katika sehemu ya **Ankara**
 2. Nakili kiungo cha malipo, k.m.:
 
 `[https://btcpay.example.com/i/abc123](https://btcpay.example.com/i/abc123)`
@@ -861,13 +878,13 @@ Ili kuonyesha ankara moja kwa moja kwenye tovuti yako, tumia iframe:
 
 `<iframe src="https://btcpay.example.com/i/abc123" width="600" height="350" frameborder="0"></iframe>`
 
-> Unaweza kubadilisha muundo wa kitufe au chombo cha iframe ili kilingane na muundo wa tovuti yako - Seva ya BTCPay inaruhusu uundaji wa mandhari unaobadilika wa ukurasa wa ankara.
+> Unaweza kubadilisha muundo wa kitufe au chombo cha iframe ili kilingane na muundo wa tovuti yako - BTCPay Server inaruhusu uundaji wa mandhari unaobadilika wa ukurasa wa ankara.
 
 ## Hitimisho
 
-Mwongozo huu ulikuwa mrefu - lakini unashughulikia tu vipengele vya msingi vya kuunganisha malipo ya Zcash na Seva ya BTCPay.
+Mwongozo huu ulikuwa mrefu - lakini unashughulikia tu vipengele vya msingi vya kuunganisha malipo ya Zcash na BTCPay Server.
 
-Kiolesura cha Seva ya BTCPay hutoa utendaji kazi zaidi kuliko tulivyoonyesha hapa. Kwa bahati nzuri, kiolesura cha mtumiaji kinapatikana katika lugha nyingi (ikiwa ni pamoja na Kirusi), na hivyo kurahisisha kuchunguza na kujaribu zaidi.
+Kiolesura cha BTCPay Server hutoa utendaji kazi zaidi kuliko tulivyoonyesha hapa. Kwa bahati nzuri, kiolesura cha mtumiaji kinapatikana katika lugha nyingi (ikiwa ni pamoja na Kirusi), na hivyo kurahisisha kuchunguza na kujaribu zaidi.
 
 BTCPay ni kifaa kinachoweza kubadilika sana. Unaweza:
 
@@ -883,15 +900,15 @@ Tunakutakia mafanikio katika kuchunguza mfumo wa BTCPay na kufanya malipo yako y
 
 ## Rasilimali
 
-* [Tovuti Rasmi ya Seva ya BTCPay](https://btcpayserver.org/)
+* [Tovuti Rasmi BTCPay Server](https://btcpayserver.org/)
 * [Maswali Yanayoulizwa Mara kwa Mara kuhusu BTCPay](https://docs.btcpayserver.org/FAQ/)
-* [Hifadhi ya GitHub ya Seva ya BTCPay](https://github.com/btcpayserver/btcpayserver)
-* [Onyesho la Mtandao Kuu la Seva ya BTCPay](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
-* [Programu-jalizi ya Zcash kwa BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
-* [Mwongozo wa Usakinishaji wa Programu-jalizi ya Zcash](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
+* [Hifadhi ya GitHub BTCPay Server](https://github.com/btcpayserver/btcpayserver)
+* [Onyesho la Mtandao Kuu BTCPay Server](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
+* [Programu-jalizi Zcash kwa BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+* [Mwongozo wa Usakinishaji wa Programu-jalizi Zcash](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Mfano maalum wa zcash-lightwalletd.custom.yml](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
 * [Faili ya Kutunga ya Lightwalletd Docker (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [Hati Muhimu za API ya BTCPay (API ya Greenfield)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Unda Handaki la Cloudflare](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-* [Orodha ya Utangamano wa Pochi ya Zcash (ZecHub)](https://zechub.wiki/wallets)
+* [Orodha ya Utangamano wa Pochi Zcash (ZecHub)](https://zechub.wiki/wallets)
 * [Zebra + Lightwalletd kwenye Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

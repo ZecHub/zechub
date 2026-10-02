@@ -11,6 +11,15 @@ Arborist Calls Zcash — це регулярні зустрічі з розро�
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
 
+<p>
+  <a
+    href="/arborist-calls"
+    className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
+  >
+    Шукати в архіві дзвінків
+  </a>
+</p>
+
 ## Як долучитися
 
 Дзвінки чергуються між двома регулярними часовими слотами, щоб учасники з різних регіонів могли брати участь. Використовуйте офіційну сторінку Zcash Foundation для актуальних календарних файлів і Zoom-посилань:
@@ -23,9 +32,10 @@ Arborist Calls Zcash — це регулярні зустрічі з розро�
 ## Нотатки, порядки денні та записи
 
 - Повні порядки денні та протоколи: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Нещодавні записи: [плейлист Zcash Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Обговорення досліджень і розробки Zcash: [Discord Zcash R&D](https://discord.gg/xpzPR53xtU)
-- Розгорнуті обговорення: [Форум спільноти Zcash](https://forum.zcashcommunity.com/)
+- Архів із можливістю пошуку на цій вікі: [Arborist Calls архів](/arborist-calls)
+- Останні записи: [Zcash плейлист Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Zcash Обговорення досліджень і розробок: [Zcash дослідження й розробки Discord](https://discord.gg/xpzPR53xtU)
+- Розгорнуте обговорення: [Zcash Форум спільноти](https://forum.zcashcommunity.com/)
 
 ## Хто має бути присутнім
 

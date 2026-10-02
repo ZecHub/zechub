@@ -45,6 +45,7 @@ Zcash ha una presenza globale attiva su X. Account principali da seguire:
 | [@zodl_app](https://x.com/zodl_app) | Wallet ZODL (ex Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Aggiornamenti della Zcash Foundation |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Community di Zcash in Brasile |
+| [@ZcashMx](https://x.com/ZcashMx) | Zcash Messico |
 | [@ZcashTR](https://x.com/ZcashTR) | Zcash Turchia |
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabia |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nigeria |
@@ -59,6 +60,7 @@ Zcash ha una presenza globale attiva su X. Account principali da seguire:
 
 - [Zcash en Espanol](https://zcashesp.com) - Community di lingua spagnola (anche su Bluesky dopo la sospensione su X)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Community brasiliana
+- [Zcash Mexico](https://x.com/ZcashMx) - Community messicana
 - [Zcash Turkey](https://x.com/ZcashTR) - Community turca
 - [Zcash Arabia](https://x.com/ZcashArabia) - Community di lingua araba
 - [Zcash Nigeria](https://x.com/ZcashNigeria) - Community nigeriana
@@ -75,4 +77,4 @@ Zcash ha una presenza globale attiva su X. Account principali da seguire:
 - [Wiki di ZecHub](https://zechub.wiki)
 - [Hub delle Sovvenzioni di Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
 - [Ambasciatori Globali di Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - panoramica del programma su questa wiki (zcashambassadors.com è offline)
-- [ZEC Ricompense](https://bounties.zechub.wiki/)
+- [ZEC Bounties](https://bounties.zechub.wiki/)

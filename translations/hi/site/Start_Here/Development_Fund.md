@@ -10,7 +10,7 @@ Zcash एक विशिष्ट blockchain प्रोटोकॉल है
 
 blockchains में [block](https://www.investopedia.com/terms/b/block-bitcoin-block.asp) नाम की एक चीज़ होती है, जिसे उन लेनदेन को दर्ज करने के लिए बनाया जाता है जो अभी तक network में पुष्टि नहीं हुए हैं। जब लेनदेन सत्यापित हो जाते हैं, तो block बंद कर दिया जाता है।
 
-Block producers (जिन्हें miners भी कहा जाता है) का काम network में लेनदेन को सत्यापित करना और नए blocks बनाना होता है। इन blocks को बनाने पर block producers को block reward मिलता है। Zcash में लगभग हर 75 सेकंड में एक नया block बनता है, और 3.125 ZEC का block reward circulation में आता है। Zcash में block rewards नए coins तब तक बनाते रहेंगे जब तक Zcash अपनी 21 million की अधिकतम आपूर्ति तक नहीं पहुँच जाता। अधिकतम आपूर्ति तक पहुँचने के बाद, block rewards का भुगतान transaction fees द्वारा किया जाएगा।
+Block producers (जिन्हें miners भी कहा जाता है) का काम network में लेनदेन को सत्यापित करना और नए blocks बनाना होता है। इन blocks को बनाने पर block producers को block reward मिलता है। Zcash में लगभग हर 75 सेकंड में एक नया block बनता है, और 1.5625 ZEC का block reward circulation में आता है। Zcash में block rewards नए coins तब तक बनाते रहेंगे जब तक Zcash अपनी 21 million की अधिकतम आपूर्ति तक नहीं पहुँच जाता। अधिकतम आपूर्ति तक पहुँचने के बाद, block rewards का भुगतान transaction fees द्वारा किया जाएगा।
 
 ## Zcash की फंडिंग व्यवस्था (NU6 से पहले)
 

@@ -18,9 +18,9 @@ ZecHub किसी विशेष एक्सचेंज सेवा का
 
 ___
 
-### Near-intents
+### NEAR Intents
 
-<img src="/nearintents.png" alt="Near-intents" width="200" height="100"/>
+<img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - वेबसाइट: https://app.near-intents.org/
 - विवरण: NEAR के समर्थन वाला तेज़ एक्सचेंज। जमा करें, बेचें, स्वैप करें, जिनमें लोकप्रिय TRUMP, MELANIA, BERA और अन्य मीम्स शामिल हैं।
