@@ -227,4 +227,4 @@ zkSNARK'и с Hanh Huynh Huu](https://www.youtube.com/watch?v=zXF-BDohZjk)
 - [Постквантовая безопасность в Zcash](/zcash-tech/post-quantum-security) - Как будущие квантовые риски соотносятся с криптографией Zcash
 - [Экранированные активы Zcash](/zcash-tech/zcash-shielded-assets) — ZSA, построенные на технологии ZK-SNARK
 - [Что такое ZEC и Zcash](/start-here/what-is-zec-and-zcash) — Введение в Zcash и его модель конфиденциальности
-- [Конфиденциальность как основной принцип](/privacy/privacy-as-a-core-principle) — Почему финансовая конфиденциальность важна
+- [Конфиденциальность как основной принцип](/start-here/who-can-see-your-zcash-payment) — Почему финансовая конфиденциальность важна

@@ -254,7 +254,7 @@ Maka ndị mbido, isi echiche dị mfe: nzuzo taa na-ebelata ikpughe data n'ọd
 - [ZKP na ZK-SNARKS](/zcash-tech/zk-snarks) - Otu esi egosi ihe akaebe efu na-arụ ọrụ na Zcash
 - [Igodo Ilele](/zcash-tech/viewing-keys) - Otu mkpughe nhọrọ si arụ ọrụ maka Zcash echekwara
 - [Akụ Zcash Chebere](/zcash-tech/zcash-shielded-assets) - Akụ echekwara n'ọdịnihu na nkwado akụ nkeonwe
-- [Nzuzo dị ka Ụkpụrụ Isi](/privacy/privacy-as-a-core-principle) - Gịnị mere nzuzo ego ji dị mkpa
+- [Nzuzo dị ka Ụkpụrụ Isi](/start-here/who-can-see-your-zcash-payment) - Gịnị mere nzuzo ego ji dị mkpa
 
 ## Ntụaka
 

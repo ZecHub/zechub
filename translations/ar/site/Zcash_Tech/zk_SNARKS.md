@@ -227,4 +227,4 @@ ____
 - [الأمان ما بعد الكمي في Zcash](/zcash-tech/post-quantum-security) - كيف ترتبط المخاطر الكمية المستقبلية بتشفير Zcash
 - [أصول Zcash المحمية](/zcash-tech/zcash-shielded-assets) — ZSAs المبنية على تقنية ZK-SNARK
 - [ما هو ZEC و Zcash](/start-here/what-is-zec-and-zcash) — مقدمة إلى Zcash ونموذج الخصوصية الخاص به
-- [الخصوصية كمبدأ أساسي](/privacy/privacy-as-a-core-principle) — لماذا تهم الخصوصية المالية
+- [الخصوصية كمبدأ أساسي](/start-here/who-can-see-your-zcash-payment) — لماذا تهم الخصوصية المالية

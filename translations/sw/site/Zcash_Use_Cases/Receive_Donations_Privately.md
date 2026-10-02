@@ -106,7 +106,7 @@ Unaweza:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Faragha - Kulindwa dhidi ya Uwazi](/privacy/shielded-vs-transparent)
+- [Faragha - Kulindwa dhidi ya Uwazi](/start-here/who-can-see-your-zcash-payment)
 - [Mkoba](/wallets)
 
 <br/>

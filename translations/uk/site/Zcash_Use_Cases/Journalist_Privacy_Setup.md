@@ -113,7 +113,7 @@ Zcash забезпечує:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Пов’язане
 
-- [Приватність — найкращі практики](/privacy/best-practices)
+- [Приватність — найкращі практики](/privacy-tools)
 - [Надсилайте гроші без прив’язки до особи](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>

@@ -95,7 +95,7 @@ Zcash позволяет осуществлять **полностью прив�
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка цепочки"/> Связанные статьи
-- [Приватность - Защищённые vs Прозрачные](/privacy/shielded-vs-transparent)
+- [Приватность - Защищённые vs Прозрачные](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

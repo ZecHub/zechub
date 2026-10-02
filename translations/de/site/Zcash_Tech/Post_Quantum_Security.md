@@ -254,7 +254,7 @@ Für Einsteiger ist die Hauptidee einfach: Privatsphäre heute verringert die zu
 - [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Wie Zero-Knowledge-Proofs in Zcash funktionieren
 - [Viewing Keys](/zcash-tech/viewing-keys) - Wie selektive Offenlegung bei abgeschirmtem Zcash funktioniert
 - [Zcash Abgeschirmte Assets](/zcash-tech/zcash-shielded-assets) - Zukünftige abgeschirmte Assets und Unterstützung privater Assets
-- [Privatsphäre als Grundprinzip](/privacy/privacy-as-a-core-principle) - Warum finanzielle Privatsphäre wichtig ist
+- [Privatsphäre als Grundprinzip](/start-here/who-can-see-your-zcash-payment) - Warum finanzielle Privatsphäre wichtig ist
 
 ## Referenzen
 

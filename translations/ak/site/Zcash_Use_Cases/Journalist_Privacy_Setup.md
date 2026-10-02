@@ -113,7 +113,7 @@ Wobɛtumi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Privacy - Nneyɛe a eye sen biara](/privacy/best-practices)
+- [Privacy - Nneyɛe a eye sen biara](/privacy-tools)
 - [Fa sika mena a womfa wo ho nhyɛ wo ho](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>

@@ -121,7 +121,7 @@ Zcash 可实现：
 
 
 - [钱包](/wallets)
-- [隐私 - 最佳实践](/privacy/best-practices)
+- [隐私 - 最佳实践](/privacy-tools)
 
 <br/>
 

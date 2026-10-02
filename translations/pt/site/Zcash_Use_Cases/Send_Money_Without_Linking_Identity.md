@@ -96,7 +96,7 @@ Você pode:
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de links em cadeia"/> Relacionado
-- [Privacidade - Blindado vs Transparente](/privacy/shielded-vs-transparent)
+- [Privacidade - Blindado vs Transparente](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

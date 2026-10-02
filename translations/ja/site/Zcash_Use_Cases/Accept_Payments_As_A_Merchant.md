@@ -112,7 +112,7 @@ Zcashは以下を可能にする：
 
 
 - [ウォレット](/wallets)
-- [プライバシー - 最適な実践](/privacy/best-practices)
+- [プライバシー - 最適な実践](/privacy-tools)
 
 <br/>
 

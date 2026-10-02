@@ -254,7 +254,7 @@ Zcash는 오늘날 완전히 양자내성이 아닙니다. 하지만 Zcash에는
 - [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Zcash에서 영지식 증명이 작동하는 방식
 - [뷰잉 키](/zcash-tech/viewing-keys) - 차폐된 Zcash에서 선택적 공개가 작동하는 방식
 - [Zcash 차폐 자산](/zcash-tech/zcash-shielded-assets) - 미래의 차폐 자산 및 비공개 자산 지원
-- [핵심 원칙으로서의 프라이버시](/privacy/privacy-as-a-core-principle) - 금융 프라이버시가 중요한 이유
+- [핵심 원칙으로서의 프라이버시](/start-here/who-can-see-your-zcash-payment) - 금융 프라이버시가 중요한 이유
 
 ## 참고 자료
 

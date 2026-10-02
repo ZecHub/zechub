@@ -227,4 +227,4 @@ ____
 - [Post-Quantum Security na Zcash](/zcash-tech/post-quantum-security) - Olee otú ihe ize ndụ quantum n'ọdịnihu si metụta Zcash cryptography
 - [Zcash echebe akụ](/zcash-tech/zcash-shielded-assets)  ZSAs wuru na teknụzụ ZK-SNARK
 - [Gịnị bụ ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Okwu Mmalite na Zcash na ụdị nzuzo ya
-- [Nchekwa nzuzo dị ka ụkpụrụ bụ isi](/privacy/privacy-as-a-core-principle)  Ihe mere o ji dị mkpa ka e chebe ihe nzuzo ego
+- [Nchekwa nzuzo dị ka ụkpụrụ bụ isi](/start-here/who-can-see-your-zcash-payment)  Ihe mere o ji dị mkpa ka e chebe ihe nzuzo ego

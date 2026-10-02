@@ -227,4 +227,4 @@ ____
 - [Постквантова безпека в Zcash](/zcash-tech/post-quantum-security) - Як майбутні квантові ризики пов’язані з криптографією Zcash
 - [Shielded Assets у Zcash](/zcash-tech/zcash-shielded-assets) — ZSA, побудовані на технології ZK-SNARK
 - [Що таке ZEC і Zcash](/start-here/what-is-zec-and-zcash) — Вступ до Zcash та його моделі приватності
-- [Приватність як основний принцип](/privacy/privacy-as-a-core-principle) — Чому фінансова приватність має значення
+- [Приватність як основний принцип](/start-here/who-can-see-your-zcash-payment) — Чому фінансова приватність має значення

@@ -254,7 +254,7 @@ Zcash आज पूरी तरह पोस्ट-क्वांटम नह
 - [ZKP और ZK-SNARKS](/zcash-tech/zk-snarks) - Zcash में शून्य-ज्ञान प्रमाण कैसे काम करते हैं
 - [व्यूइंग कीज़](/zcash-tech/viewing-keys) - शील्डेड Zcash के लिए चयनात्मक प्रकटीकरण कैसे काम करता है
 - [Zcash शील्डेड एसेट्स](/zcash-tech/zcash-shielded-assets) - भविष्य के शील्डेड एसेट्स और निजी एसेट समर्थन
-- [मूल सिद्धांत के रूप में गोपनीयता](/privacy/privacy-as-a-core-principle) - वित्तीय गोपनीयता क्यों महत्वपूर्ण है
+- [मूल सिद्धांत के रूप में गोपनीयता](/start-here/who-can-see-your-zcash-payment) - वित्तीय गोपनीयता क्यों महत्वपूर्ण है
 
 ## संदर्भ
 

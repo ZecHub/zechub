@@ -204,4 +204,4 @@ Ulteriori apprendimenti:
 - [Sicurezza post-quantistica in Zcash](/zcash-tech/post-quantum-security) — Come i rischi quantistici futuri si relazionano con la crittografia di Zcash
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Gli ZSA costruiti sulla tecnologia ZK-SNARK
 - [Cos'è ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Introduzione a Zcash e al suo modello di privacy
-- [La privacy come principio fondamentale](/privacy/privacy-as-a-core-principle) — Perché la privacy finanziaria è importante
+- [La privacy come principio fondamentale](/start-here/who-can-see-your-zcash-payment) — Perché la privacy finanziaria è importante

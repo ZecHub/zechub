@@ -121,7 +121,7 @@ Her işlem için:
 
 
 - [Cüzdanlar](/wallets)
-- [Gizlilik - En İyi Uygulamalar](/privacy/best-practices)
+- [Gizlilik - En İyi Uygulamalar](/privacy-tools)
 
 <br/>
 

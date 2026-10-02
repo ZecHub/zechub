@@ -254,7 +254,7 @@ Fún àwọn olùbẹ̀rẹ̀, èrò pàtàkì náà rọrùn: ìpamọ́ lónì
 - [Àwọn ZKP àti ZK-SNARKS](/zcash-tech/zk-snarks) - Bawo ni awọn ẹri imọ-odo ṣe n ṣiṣẹ ni Zcash
 - [Àwọn Kọ́kọ́rọ́ Wíwo](/zcash-tech/viewing-keys) - Bawo ni ifihan yiyan ṣe n ṣiṣẹ fun Zcash ti a daabobo
 - [Àwọn Ohun Ìní tí a fi ààbò Zcash ṣe](/zcash-tech/zcash-shielded-assets) - Awọn ohun-ini aabo ọjọ iwaju ati atilẹyin dukia ikọkọ
-- [Ìpamọ́ gẹ́gẹ́ bí Ìlànà Pàtàkì](/privacy/privacy-as-a-core-principle) - Idi ti asiri eto-owo fi ṣe pataki
+- [Ìpamọ́ gẹ́gẹ́ bí Ìlànà Pàtàkì](/start-here/who-can-see-your-zcash-payment) - Idi ti asiri eto-owo fi ṣe pataki
 
 ## Àwọn ìtọ́kasí
 

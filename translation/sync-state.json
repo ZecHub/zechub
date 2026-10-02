@@ -1069,7 +1069,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -1189,7 +1189,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+deadlink-repair",
+      "tool": "gt-static+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -1205,7 +1205,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -1221,7 +1221,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -1245,7 +1245,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -1253,7 +1253,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -1261,7 +1261,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -2815,7 +2815,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -2935,7 +2935,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -2951,7 +2951,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -2967,7 +2967,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -2991,7 +2991,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -2999,7 +2999,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -3007,7 +3007,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -4561,7 +4561,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -4681,7 +4681,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -4697,7 +4697,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -4713,7 +4713,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -4737,7 +4737,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -4745,7 +4745,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -4753,7 +4753,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -6307,7 +6307,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -6427,7 +6427,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+deadlink-repair",
+      "tool": "gt-static+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -6443,7 +6443,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -6459,7 +6459,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -6483,7 +6483,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -6491,7 +6491,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -6499,7 +6499,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -8053,7 +8053,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -8173,7 +8173,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -8189,7 +8189,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -8205,7 +8205,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -8229,7 +8229,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -8237,7 +8237,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -8245,7 +8245,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -9799,7 +9799,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -9919,7 +9919,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -9935,7 +9935,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -9951,7 +9951,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -9975,7 +9975,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -9983,7 +9983,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -9991,7 +9991,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -11545,7 +11545,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -11665,7 +11665,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -11681,7 +11681,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -11697,7 +11697,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -11721,7 +11721,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -11729,7 +11729,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -11737,7 +11737,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -13283,7 +13283,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -13403,7 +13403,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -13419,7 +13419,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -13435,7 +13435,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -13459,7 +13459,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -13467,7 +13467,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -13475,7 +13475,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -15029,7 +15029,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -15149,7 +15149,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair+deadlink-repair+jsx-restore",
+      "tool": "gpt-5.4+linkrepair+deadlink-repair+jsx-restore+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -15165,7 +15165,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -15181,7 +15181,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -15205,7 +15205,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -15213,7 +15213,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -15221,7 +15221,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -16775,7 +16775,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -16895,7 +16895,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+deadlink-repair",
+      "tool": "qwen3-14b+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -16911,7 +16911,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -16927,7 +16927,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -16951,7 +16951,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -16959,7 +16959,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -16967,7 +16967,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -18521,7 +18521,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -18641,7 +18641,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+deadlink-repair",
+      "tool": "qwen3-14b+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -18657,7 +18657,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -18673,7 +18673,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -18697,7 +18697,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -18705,7 +18705,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -18713,7 +18713,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -20267,7 +20267,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -20387,7 +20387,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -20403,7 +20403,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -20419,7 +20419,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -20443,7 +20443,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -20451,7 +20451,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -20459,7 +20459,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -22013,7 +22013,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -22133,7 +22133,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -22149,7 +22149,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -22165,7 +22165,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -22189,7 +22189,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -22197,7 +22197,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -22205,7 +22205,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -23759,7 +23759,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -23879,7 +23879,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -23895,7 +23895,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -23911,7 +23911,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -23935,7 +23935,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -23943,7 +23943,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -23951,7 +23951,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -25505,7 +25505,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -25625,7 +25625,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -25641,7 +25641,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -25657,7 +25657,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -25681,7 +25681,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -25689,7 +25689,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -25697,7 +25697,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -27251,7 +27251,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -27371,7 +27371,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -27387,7 +27387,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -27403,7 +27403,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -27427,7 +27427,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -27435,7 +27435,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -27443,7 +27443,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -28997,7 +28997,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -29117,7 +29117,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+prose-retranslate+table-rebuild",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+prose-retranslate+table-rebuild+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -29133,7 +29133,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -29149,7 +29149,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -29173,7 +29173,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -29181,7 +29181,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+brand-restore",
+      "tool": "nllb-200-3.3B+brand-restore+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -29189,7 +29189,7 @@
       "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -30743,7 +30743,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -30863,7 +30863,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+deadlink-repair",
+      "tool": "gpt-5.4+deadlink-repair+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -30879,7 +30879,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
@@ -30895,7 +30895,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -30919,7 +30919,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -30927,7 +30927,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
@@ -30935,7 +30935,7 @@
       "src_commit": "9cbb2f69dded83ff44aa3c34141b983c028629f4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {

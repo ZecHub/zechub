@@ -121,7 +121,7 @@
 
 
 - [المحافظ](/wallets)
-- [الخصوصية - أفضل الممارسات](/privacy/best-practices)
+- [الخصوصية - أفضل الممارسات](/privacy-tools)
 
 <br/>
 
