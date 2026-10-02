@@ -159,11 +159,11 @@ Setup transparente (sans trusted setup)- L’algorithme de prétraitement n’ut
 
 **Types de constructions de preuves SNARK** :
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Nécessite une trusted setup mais possède des preuves très courtes qui peuvent être vérifiées rapidement.
+[Groth16](https://eprint.iacr.org/2016/260): Nécessite une trusted setup mais possède des preuves très courtes qui peuvent être vérifiées rapidement.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted Setup universelle.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Pas de trusted setup, mais produisent des preuves légèrement plus longues ou peuvent demander plus de temps d’exécution au prouveur. 
+[DARK](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Pas de trusted setup, mais produisent des preuves légèrement plus longues ou peuvent demander plus de temps d’exécution au prouveur. 
 
 Les SNARKS sont utiles lorsque plusieurs vérificateurs sont nécessaires, comme sur une blockchain telle que Zcash ou un zk-Rollup tel que [Aztec](https://docs.aztec.network), afin que plusieurs nœuds de validation n’aient pas à interagir pendant plusieurs tours avec chaque preuve. 
 

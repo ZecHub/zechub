@@ -60,7 +60,7 @@ Zcash Shielded Assets / User Defined Assets は専門チームの支援によっ
 
 ### リソース:
 
-[Zcon3 秘密のクロスチェーン転送](https://youtu.be/vCvMk2-CJN8)
+Zcon3 秘密のクロスチェーン転送
 
 [Zcon3 Defi に関する QEDIT プレゼンテーション](https://youtu.be/EGjcYhovty0) / [Drawing Board](https://miro.com/app/board/uXjVOhuveHo=/)
 

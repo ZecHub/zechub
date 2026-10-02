@@ -159,11 +159,11 @@ Transparent Setup（信頼されたセットアップ不要）- 前処理アル�
 
 **SNARK証明構成の種類**:
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): 信頼できるセットアップが必要ですが、非常に短い証明であり、迅速に検証できます。
+[Groth16](https://eprint.iacr.org/2016/260): 信頼できるセットアップが必要ですが、非常に短い証明であり、迅速に検証できます。
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): 汎用的なトラステッド・セットアップ.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): 信頼できるセットアップは不要ですが、証明はやや長くなるか、プロバーの実行により長い時間がかかる場合があります。
+[DARK](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): 信頼できるセットアップは不要ですが、証明はやや長くなるか、プロバーの実行により長い時間がかかる場合があります。
 
 SNARKは、Zcashのようなブロックチェーンや [Aztec](https://docs.aztec.network) のような zk-Rollup など、複数の検証者が必要な場合に有用です。なぜなら、複数の検証ノードが各証明について何ラウンドにもわたって相互にやり取りする必要がなくなるからです。
 

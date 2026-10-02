@@ -159,11 +159,11 @@ Transparent Setup (No Trusted Setup)- لا تستخدم خوارزمية الم�
 
 **أنواع بُنى إثبات SNARK**:
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): يتطلب Trusted Setup لكنه يوفّر إثباتات قصيرة جدًا يمكن التحقق منها بسرعة.
+[Groth16](https://eprint.iacr.org/2016/260): يتطلب Trusted Setup لكنه يوفّر إثباتات قصيرة جدًا يمكن التحقق منها بسرعة.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted Setup عام.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): لا تتطلب Trusted Setup لكنها تنتج إثباتات أطول قليلًا أو قد تستغرق وقتًا أطول لدى المُثبِت. 
+[DARK](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): لا تتطلب Trusted Setup لكنها تنتج إثباتات أطول قليلًا أو قد تستغرق وقتًا أطول لدى المُثبِت. 
 
 تكون SNARKS مفيدة عندما تكون هناك حاجة إلى عدة مُدقّقين، كما في blockchain مثل Zcash أو zk-Rollup مثل [Aztec](https://docs.aztec.network)، بحيث لا تضطر عقد التحقق المتعددة إلى التفاعل عبر عدة جولات مع كل إثبات. 
 

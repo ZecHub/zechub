@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets 一直在一个专门团队的协助
 
 ### 资源：
 
-[Zcon3 私密跨链转账](https://youtu.be/vCvMk2-CJN8)
+Zcon3 私密跨链转账
 
 [Zcon3 上关于 Defi 的 QEDIT 演讲](https://youtu.be/EGjcYhovty0) / [绘图板](https://miro.com/app/board/uXjVOhuveHo=/)
 

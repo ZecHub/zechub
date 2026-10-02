@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets एक समर्पित टी�
 
 ### Resources:
 
-[Zcon3 Private Cross-Chain Transfers](https://youtu.be/vCvMk2-CJN8)
+Zcon3 Private Cross-Chain Transfers
 
 [DeFi पर Zcon3 QEDIT प्रस्तुति](https://youtu.be/EGjcYhovty0) / [Drawing Board](https://miro.com/app/board/uXjVOhuveHo=/)
 

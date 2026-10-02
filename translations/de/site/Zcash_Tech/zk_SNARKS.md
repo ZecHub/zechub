@@ -159,11 +159,11 @@ Transparentes Setup (Kein Trusted Setup) – Der Vorverarbeitungsalgorithmus ver
 
 **Arten von SNARK-Beweiskonstruktionen**:
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Erfordert ein Trusted Setup, hat aber sehr kurze Beweise, die schnell verifiziert werden können.
+[Groth16](https://eprint.iacr.org/2016/260): Erfordert ein Trusted Setup, hat aber sehr kurze Beweise, die schnell verifiziert werden können.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universelles Trusted Setup.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Kein Trusted Setup, erzeugen aber etwas längere Beweise oder benötigen möglicherweise mehr Zeit für den Prover. 
+[DARK](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Kein Trusted Setup, erzeugen aber etwas längere Beweise oder benötigen möglicherweise mehr Zeit für den Prover. 
 
 SNARKS sind nützlich, wenn mehrere Verifier benötigt werden, etwa in einer Blockchain wie Zcash oder in einem zk-Rollup wie [Aztec](https://docs.aztec.network), damit mehrere validierende Nodes nicht über mehrere Runden mit jedem Beweis interagieren müssen. 
 

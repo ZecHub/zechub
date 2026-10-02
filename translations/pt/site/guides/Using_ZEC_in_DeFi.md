@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets têm estado em desenvolvimento com a
 
 ### Recursos:
 
-[Transferências Privadas Cross-Chain na Zcon3](https://youtu.be/vCvMk2-CJN8)
+Transferências Privadas Cross-Chain na Zcon3
 
 [Apresentação da QEDIT sobre Defi na Zcon3](https://youtu.be/EGjcYhovty0) / [Quadro de Desenho](https://miro.com/app/board/uXjVOhuveHo=/)
 
