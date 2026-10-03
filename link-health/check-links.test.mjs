@@ -26,9 +26,9 @@ const routeExists = new Function(
     "; return routeExists;",
 )(basename, dirname, () => false, join);
 
-const wikiPath = new Function(
+const { wikiPath, wikiLinkAction } = new Function(
   src.slice(src.indexOf("const WIKI_LOCALES"), src.indexOf("// ── external checking")) +
-  "; return wikiPath;")();
+  "; return { wikiPath, wikiLinkAction };")();
 
 let failed = 0;
 const eq = (name, got, want) => {
@@ -98,6 +98,19 @@ eq("absolute wiki link", wikiPath("https://zechub.wiki/zcash-tech/zaino"), "/zca
 eq("www and locale prefix", wikiPath("https://www.zechub.wiki/de/guides/x?y=1#z"), "/guides/x");
 eq("bare locale root", wikiPath("https://zechub.wiki/ja"), "/");
 eq("other host", wikiPath("https://zechub.substack.com/"), null);
+// A malformed escape must not abort the scan; it stays encoded and resolves as a route.
+eq("malformed escape stays encoded", wikiPath("https://zechub.wiki/%ZZ"), "/%ZZ");
+eq("malformed escape is a broken route",
+   routeExists(wikiPath("https://zechub.wiki/%ZZ"), [], appRoutes).ok, false);
+
+// Absolute links to wiki files are checked, not skipped.
+const publicFiles = new Set(["/content-images/present.webp", "/nearintents.png"]);
+eq("absolute link to a missing content image", wikiLinkAction("/content-images/missing.svg", publicFiles), "asset-missing");
+eq("absolute link to a missing root file", wikiLinkAction("/definitely-missing.png", publicFiles), "asset-missing");
+eq("absolute link to a present file", wikiLinkAction("/content-images/present.webp", publicFiles), "asset-ok");
+eq("file without the public listing is fetched", wikiLinkAction("/content-images/present.webp", null), "external");
+eq("dynamic paths are fetched", wikiLinkAction("/_next/static/chunk.js", publicFiles), "external");
+eq("pages are routes", wikiLinkAction("/zcash-tech/zaino", publicFiles), "route");
 eq("dead absolute wiki link",
    routeExists(wikiPath("https://zechub.wiki/zcash-technology"), [], appRoutes),
    { ok: false, how: "no file at site/Zcash_Technology.md" });

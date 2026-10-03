@@ -275,8 +275,30 @@ function wikiPath(url) {
     return null;
   }
   if (!/^(www\.)?zechub\.wiki$/i.test(parsed.hostname)) return null;
-  const path = decodeURIComponent(parsed.pathname).replace(new RegExp(`^/(${WIKI_LOCALES})(?=/|$)`), "");
+  let pathname = parsed.pathname;
+  try {
+    pathname = decodeURIComponent(pathname);
+  } catch {
+    // A malformed escape (e.g. %ZZ) stays encoded and is reported as a broken route.
+  }
+  const path = pathname.replace(new RegExp(`^/(${WIKI_LOCALES})(?=/|$)`), "");
   return path || "/";
+}
+
+/**
+ * How to check an absolute zechub.wiki link, given its wiki path and the set of
+ * files in zechub-wiki/public (null when that list is unavailable):
+ * "route" for pages, "asset-ok" / "asset-missing" for files we can look up, and
+ * "external" for files we cannot look up or for dynamic paths (_next, api),
+ * which are then fetched like any other external URL.
+ */
+function wikiLinkAction(path, publicFiles) {
+  if (/^\/(_next|api)\//.test(path)) return "external";
+  if (/^\/(content-images|content-banners)\//.test(path) || /\.[a-z0-9]{2,5}$/i.test(path)) {
+    if (!publicFiles) return "external";
+    return publicFiles.has(path) ? "asset-ok" : "asset-missing";
+  }
+  return "route";
 }
 
 // ── external checking ────────────────────────────────────────────────────────
@@ -493,10 +515,18 @@ async function main() {
 
       if (kind === "wiki") {
         const path = wikiPath(link.url);
-        if (/^\/(content-images|content-banners|_next|api)\//.test(path) || /\.[a-z0-9]{2,5}$/i.test(path)) continue;
-        const r = routeExists(path, routeFiles, appRoutes);
-        if (!r.ok) findings.push({ kind: "route", url: link.url, file: link.file, line: link.line, detail: r.how });
-        continue;
+        const action = wikiLinkAction(path, assetSet);
+        if (action === "asset-missing") {
+          findings.push({ kind: "asset", url: link.url, file: link.file, line: link.line, detail: "not found in zechub-wiki/public" });
+          continue;
+        }
+        if (action === "asset-ok") continue;
+        if (action === "route") {
+          const r = routeExists(path, routeFiles, appRoutes);
+          if (!r.ok) findings.push({ kind: "route", url: link.url, file: link.file, line: link.line, detail: r.how });
+          continue;
+        }
+        // "external": fall through and fetch it like any other absolute URL.
       }
 
       if (kind === "route") {
@@ -512,7 +542,7 @@ async function main() {
         continue;
       }
 
-      if (kind === "external") {
+      if (kind === "external" || kind === "wiki") {
         let parsed;
         try {
           parsed = new URL(link.url);
