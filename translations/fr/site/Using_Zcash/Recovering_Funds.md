@@ -191,7 +191,7 @@ Si le seed ou la clé est perdu, une restauration auto-hébergée ne peut pas co
 
 Ce parcours n’est pas la même chose que restaurer un seed que vous avez encore. Ne remettez pas un seed fonctionnel à quelqu’un qui propose de le « récupérer » pour vous. La version frauduleuse de ce service est courante.
 
-[Unciphered](https://unciphered.com) est une entreprise qui réalise ce travail en interne et a été présentée dans des médias tels que [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Il s’agit d’un service général de récupération de cryptomonnaies, et non d’un outil spécifique à Zcash, et il facture ce travail. ZecHub ne recommande aucune entreprise de récupération. Si vous suivez cette voie, confirmez vous-même le domaine officiel et considérez toute personne qui vous envoie d’abord un message privé comme un escroc.
+[Unciphered](https://unciphered.com) est une entreprise qui réalise ce travail en interne et a été présentée dans des médias tels que [Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/). Il s’agit d’un service général de récupération de cryptomonnaies, et non d’un outil spécifique à Zcash, et il facture ce travail. ZecHub ne recommande aucune entreprise de récupération. Si vous suivez cette voie, confirmez vous-même le domaine officiel et considérez toute personne qui vous envoie d’abord un message privé comme un escroc.
 
 Si vous avez encore un seed ou une clé de dépense fonctionnel, commencez plutôt par un parcours de récupération auto-hébergé tel que Zkool ou Argos sur votre propre machine.
 

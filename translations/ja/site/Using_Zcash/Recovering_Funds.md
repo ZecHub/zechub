@@ -191,7 +191,7 @@ Zkool 6.30.0は2026年9月18日時点で最新であり、Ironwoodをサポー�
 
 この経路は、まだ持っているシードを復元することとは異なります。「復旧してあげる」と申し出る相手に、動作するシードを渡さないでください。このサービスの詐欺版はよくあります。
 
-[Unciphered](https://unciphered.com)は、社内でこの作業を行う企業の一つであり、[Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/)などでも紹介されています。同社は一般的な暗号資産復旧サービスであり、Zcash固有のツールではなく、作業料金を請求します。ZecHubはいかなる復旧会社も推奨しません。この経路を選ぶ場合は、公式ドメインを自分で確認し、最初にDMを送ってくる相手は詐欺師だと考えてください。
+[Unciphered](https://unciphered.com)は、社内でこの作業を行う企業の一つであり、[Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/)などでも紹介されています。同社は一般的な暗号資産復旧サービスであり、Zcash固有のツールではなく、作業料金を請求します。ZecHubはいかなる復旧会社も推奨しません。この経路を選ぶ場合は、公式ドメインを自分で確認し、最初にDMを送ってくる相手は詐欺師だと考えてください。
 
 動作するシードまたは支出鍵がまだある場合は、代わりに自分のマシンでZkoolやArgosなどのセルフホスト型復旧経路から始めてください。
 

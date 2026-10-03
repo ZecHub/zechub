@@ -191,7 +191,7 @@ If the seed or key is gone, a self-hosted restore cannot start. Some people in t
 
 That path is not the same as restoring a seed you still have. Do not hand a working seed to anyone who offers to "recover" it for you. The scam version of this service is common.
 
-[Unciphered](https://unciphered.com) is one firm that does this work in-house and has been covered in places such as [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). They are a general crypto recovery service, not a Zcash-specific tool, and they charge for the work. ZecHub does not endorse any recovery firm. If you go this route, confirm the official domain yourself and assume anyone who DMs you first is a scammer.
+[Unciphered](https://unciphered.com) is one firm that does this work in-house and has been covered in places such as [Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/). They are a general crypto recovery service, not a Zcash-specific tool, and they charge for the work. ZecHub does not endorse any recovery firm. If you go this route, confirm the official domain yourself and assume anyone who DMs you first is a scammer.
 
 If you still have a working seed or spending key, start with a self-hosted recovery path such as Zkool or Argos on your own machine instead.
 

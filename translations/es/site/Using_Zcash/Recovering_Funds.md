@@ -191,7 +191,7 @@ Si la semilla o la clave se ha perdido, no se puede iniciar una restauración au
 
 Esa ruta no es lo mismo que restaurar una semilla que aún conservas. No entregues una semilla funcional a nadie que se ofrezca a «recuperarla» por ti. La versión fraudulenta de este servicio es común.
 
-[Unciphered](https://unciphered.com) es una empresa que realiza este trabajo internamente y ha aparecido en medios como [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Es un servicio general de recuperación de criptomonedas, no una herramienta específica de Zcash, y cobra por el trabajo. ZecHub no respalda a ninguna empresa de recuperación. Si eliges esta ruta, confirma tú mismo el dominio oficial y asume que cualquiera que te envíe primero un mensaje directo es un estafador.
+[Unciphered](https://unciphered.com) es una empresa que realiza este trabajo internamente y ha aparecido en medios como [Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/). Es un servicio general de recuperación de criptomonedas, no una herramienta específica de Zcash, y cobra por el trabajo. ZecHub no respalda a ninguna empresa de recuperación. Si eliges esta ruta, confirma tú mismo el dominio oficial y asume que cualquiera que te envíe primero un mensaje directo es un estafador.
 
 Si todavía tienes una semilla o clave de gasto funcional, comienza en su lugar con una ruta de recuperación autoalojada como Zkool o Argos en tu propia máquina.
 
