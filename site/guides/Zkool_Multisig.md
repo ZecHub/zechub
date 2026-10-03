@@ -8,7 +8,7 @@ This guide provides a step by step walkthrough on how to perform multisig transa
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/eagkCIv3BlQ"
-    title="Zkool Demo | The Successor to Ywallet"
+    title="Zkool Demo | The Successor to YWallet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -22,12 +22,12 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 1. Open the **Zkool app** and go to **New Account**.
 
 
-![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
+![Screenshot of the Zkool app's New Account screen](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
 
 3. Enter an **Account Name** (eg Anabelle).  
    
 
-![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
+![Screenshot of entering an account name in Zkool](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
 
 
 4. Optionally toggle **Use Internal Change** or **Restore Account** if needed.
@@ -36,7 +36,7 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 5. After creation, the account will appear in your **Account List**.  
 
 
-![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
+![Screenshot of the new account listed in the Zkool account list](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
 
 
 ## 2. Receiving Funds
@@ -55,7 +55,7 @@ Each account generates multiple address types:
 Select the type you want to use and share it to receive funds.  
 
 
-![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
+![Screenshot of the Zkool receive screen and its available address types](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
 
 
 
@@ -66,7 +66,7 @@ Select the type you want to use and share it to receive funds.
 1. Go to the **Recipient** section.  
 
 
-![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
+![Screenshot of the Recipient section of the Zkool send form](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
 
 
 3. Enter the **recipients address**.  
@@ -79,7 +79,7 @@ Select the type you want to use and share it to receive funds.
 Once complete, the balance updates in your account list.  
 
 
-![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
+![Screenshot of the updated balance in the Zkool account list](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
 
 
 ## 4. Performing Multisig Transactions: Setting Up Distributed Key Generation (Multisig)
@@ -100,7 +100,7 @@ Define the **Number of Signers Required (Threshold)**.
 Select the **Funding Account**.
   
 
-![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
+![Screenshot of selecting the funding account in Zkool](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
 
 
 
@@ -117,7 +117,7 @@ For maximum compatibility and flexibility, always use **Unified Addresses**.
 Wait for all participants to exchange **round 1** and **round 2** packages.  
 
 
-![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
+![Screenshot of participants exchanging DKG round 1 and round 2 packages in Zkool](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
 
 
 
@@ -125,7 +125,7 @@ Wait for all participants to exchange **round 1** and **round 2** packages.
 Once complete, a **shared address** is generated.  
 
 
-![img9](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
+![Screenshot of the generated shared multisig address in Zkool](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
 
 
 
