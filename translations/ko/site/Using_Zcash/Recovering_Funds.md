@@ -191,7 +191,7 @@ Zkool 6.30.0은 2026년 9월 18일 기준 최신 버전이며 Ironwood를 지원
 
 이 경로는 여전히 보유한 시드를 복원하는 것과 다릅니다. 복구해 주겠다고 제안하는 사람에게 작동하는 시드를 넘기지 마세요. 이 서비스의 사기 버전은 흔합니다.
 
-[Unciphered](https://unciphered.com)는 이러한 작업을 사내에서 수행하는 업체 중 하나이며 [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/) 등의 매체에서 소개된 바 있습니다. 이들은 일반 암호화폐 복구 서비스이며 Zcash 전용 도구가 아니고, 작업에 비용을 청구합니다. ZecHub는 어떠한 복구 업체도 보증하지 않습니다. 이 경로를 선택한다면 공식 도메인을 직접 확인하고, 먼저 DM을 보내는 사람은 사기꾼이라고 가정하세요.
+[Unciphered](https://unciphered.com)는 이러한 작업을 사내에서 수행하는 업체 중 하나이며 [Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/) 등의 매체에서 소개된 바 있습니다. 이들은 일반 암호화폐 복구 서비스이며 Zcash 전용 도구가 아니고, 작업에 비용을 청구합니다. ZecHub는 어떠한 복구 업체도 보증하지 않습니다. 이 경로를 선택한다면 공식 도메인을 직접 확인하고, 먼저 DM을 보내는 사람은 사기꾼이라고 가정하세요.
 
 여전히 작동하는 시드나 지출 키가 있다면, 대신 자신의 컴퓨터에서 Zkool 또는 Argos 같은 자체 호스팅 복구 경로로 시작하세요.
 

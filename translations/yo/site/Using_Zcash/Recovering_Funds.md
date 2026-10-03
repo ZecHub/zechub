@@ -191,7 +191,7 @@ Tí irúgbìn tàbí kọ́kọ́rọ́ náà bá lọ, àtúnṣe tí a ti gbà
 
 Ọ̀nà yẹn kò jọ ti ìgbà tí a bá tún mú irúgbìn kan tí ó ṣì wà lọ́wọ́ rẹ padà. Má ṣe fi irúgbìn tí ó ń ṣiṣẹ́ fún ẹnikẹ́ni tí ó bá fẹ́ “gbà á padà” fún ọ. Ẹ̀yà jìbìtì ti iṣẹ́ yìí wọ́pọ̀.
 
-[Unciphered](https://unciphered.com) jẹ́ ilé-iṣẹ́ kan tí ó ń ṣe iṣẹ́ yìí nílé àti pé a ti bo àwọn ibi bíi [Fóònù onífóònù](https://www.wired.com/story/unciphered-crypto-wallet-recovery/)Wọ́n jẹ́ iṣẹ́ ìtúnṣe owó kirikiri gbogbogbòò, kìí ṣe irinṣẹ́ pàtó fún Zcash, wọ́n sì ń gba owó fún iṣẹ́ náà. ZecHub kò fọwọ́ sí ilé-iṣẹ́ ìtúnṣe èyíkéyìí. Tí o bá lọ sí ọ̀nà yìí, jẹ́rìí sí ìkànnì ìjọba fúnra rẹ kí o sì gbà pé ẹnikẹ́ni tí ó bá kọ́kọ́ fi DM ránṣẹ́ sí ọ jẹ́ ajìjàǹbá.
+[Unciphered](https://unciphered.com) jẹ́ ilé-iṣẹ́ kan tí ó ń ṣe iṣẹ́ yìí nílé àti pé a ti bo àwọn ibi bíi [Fóònù onífóònù](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/)Wọ́n jẹ́ iṣẹ́ ìtúnṣe owó kirikiri gbogbogbòò, kìí ṣe irinṣẹ́ pàtó fún Zcash, wọ́n sì ń gba owó fún iṣẹ́ náà. ZecHub kò fọwọ́ sí ilé-iṣẹ́ ìtúnṣe èyíkéyìí. Tí o bá lọ sí ọ̀nà yìí, jẹ́rìí sí ìkànnì ìjọba fúnra rẹ kí o sì gbà pé ẹnikẹ́ni tí ó bá kọ́kọ́ fi DM ránṣẹ́ sí ọ jẹ́ ajìjàǹbá.
 
 Tí o bá ṣì ní irúgbìn iṣẹ́ tàbí owó tí o ń ná, bẹ̀rẹ̀ pẹ̀lú ọ̀nà ìgbàpadà ara-ẹni bíi Zkool tàbí Argos lórí ẹ̀rọ rẹ dípò.
 

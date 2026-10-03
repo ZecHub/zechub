@@ -191,7 +191,7 @@ Se a seed ou chave desapareceu, não é possível iniciar um restauro autoalojad
 
 Esse caminho não é o mesmo que restaurar uma seed que ainda tem. Não entregue uma seed funcional a alguém que se ofereça para a "recuperar" por si. A versão fraudulenta deste serviço é comum.
 
-[Unciphered](https://unciphered.com) é uma empresa que realiza este trabalho internamente e foi mencionada em publicações como a [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). É um serviço geral de recuperação de criptomoedas, não uma ferramenta específica de Zcash, e cobra pelo trabalho. ZecHub não recomenda nenhuma empresa de recuperação. Se seguir este caminho, confirme pessoalmente o domínio oficial e assuma que qualquer pessoa que lhe envie primeiro uma mensagem privada é um burlão.
+[Unciphered](https://unciphered.com) é uma empresa que realiza este trabalho internamente e foi mencionada em publicações como a [Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/). É um serviço geral de recuperação de criptomoedas, não uma ferramenta específica de Zcash, e cobra pelo trabalho. ZecHub não recomenda nenhuma empresa de recuperação. Se seguir este caminho, confirme pessoalmente o domínio oficial e assuma que qualquer pessoa que lhe envie primeiro uma mensagem privada é um burlão.
 
 Se ainda tiver uma seed ou chave de gasto funcional, comece antes por um caminho de recuperação autoalojado, como Zkool ou Argos, na sua própria máquina.
 

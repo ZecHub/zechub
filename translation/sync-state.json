@@ -429,7 +429,7 @@
       "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+handfix+gloss-restore",
+      "tool": "gt-static+handfix+gloss-restore+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -1701,7 +1701,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -2231,7 +2231,7 @@
       "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -4049,7 +4049,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -5867,7 +5867,7 @@
       "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+handfix+gloss-restore",
+      "tool": "gt-static+handfix+gloss-restore+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -7139,7 +7139,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -7677,7 +7677,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -9495,7 +9495,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -11313,7 +11313,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -12585,7 +12585,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/What_25_Second_Blocks_Actually_Change.md": {
@@ -14949,7 +14949,7 @@
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -16221,7 +16221,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -16767,7 +16767,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -18585,7 +18585,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -19857,7 +19857,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -20403,7 +20403,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -22221,7 +22221,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -24039,7 +24039,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -25311,7 +25311,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -25857,7 +25857,7 @@
       "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+handfix+gloss-restore+prose-retranslate+table-rebuild",
+      "tool": "gt-static+handfix+gloss-restore+prose-retranslate+table-rebuild+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -27129,7 +27129,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -27667,7 +27667,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -28939,7 +28939,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -29485,7 +29485,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -31303,7 +31303,7 @@
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -32575,7 +32575,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -33081,7 +33081,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {

@@ -191,7 +191,7 @@ Ikiwa ufunguo au mbegu imepotea, urejeshaji unaojiendesha wenyewe hauwezi kuanza
 
 Njia hiyo si sawa na kurejesha mbegu uliyonayo bado. Usimpe mtu yeyote mbegu inayofanya kazi anayejitolea "kuirejesha" kwa ajili yako. Toleo la ulaghai la huduma hii ni la kawaida.
 
-[Unciphered](https://unciphered.com) ni kampuni moja inayofanya kazi hii ndani na imeshughulikiwa katika maeneo kama vile [Imeunganishwa kwa waya](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Ni huduma ya jumla ya kurejesha data ya kidijitali, si kifaa maalum cha Zcash, na hutoza ada kwa kazi hiyo. ZecHub haiungi mkono kampuni yoyote ya kurejesha data. Ukifuata njia hii, thibitisha kikoa rasmi mwenyewe na udhani mtu yeyote anayekutumia DM kwanza ni mlaghai.
+[Unciphered](https://unciphered.com) ni kampuni moja inayofanya kazi hii ndani na imeshughulikiwa katika maeneo kama vile [Imeunganishwa kwa waya](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/). Ni huduma ya jumla ya kurejesha data ya kidijitali, si kifaa maalum cha Zcash, na hutoza ada kwa kazi hiyo. ZecHub haiungi mkono kampuni yoyote ya kurejesha data. Ukifuata njia hii, thibitisha kikoa rasmi mwenyewe na udhani mtu yeyote anayekutumia DM kwanza ni mlaghai.
 
 Ikiwa bado una ufunguo wa mbegu au matumizi unaofanya kazi, anza na njia ya kurejesha data inayojiendesha kama vile Zkool au Argos kwenye mashine yako mwenyewe badala yake.
 

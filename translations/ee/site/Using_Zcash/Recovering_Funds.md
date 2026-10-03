@@ -191,7 +191,7 @@ Ne nuku alo safuia megali o la, gbugbɔgaɖoanyi si ame ŋutɔ xɔ mate ŋu adze
 
 Mɔ ma mesɔ kple nuku aɖe si gakpɔtɔ le asiwò la gbugbɔgaɖo o. Mègatsɔ nuku si le dɔ wɔm la ade asi na amesiame si gblɔ be "yeaxɔe" na wò o. Subɔsubɔdɔ sia ƒe ametafatafa ƒe mɔnu bɔ.
 
-[Unciphered](https://unciphered.com) nye dɔwɔƒe ɖeka si wɔa dɔ sia le wo ɖokui si eye woƒo nu tso eŋu le teƒewo abe [Wotsɔ ka blae](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Wonye crypto gbugbɔgaxɔ ƒe dɔwɔƒe si wozãna le mɔ gbadza nu, menye dɔwɔnu si wozãna na Zcash koŋ o, eye woxɔa ga ɖe dɔa ta. ZecHub meda asi ɖe dɔwɔƒe aɖeke si xɔa ga le amewo si dzi o. Ne èto mɔ sia dzi la, wò ŋutɔ ɖo kpe domenyiŋusẽfianu si dziɖuɖua ɖo dzi eye nàtsɔe be amesiame si awɔ DM na wò gbã la nye ametafakala.
+[Unciphered](https://unciphered.com) nye dɔwɔƒe ɖeka si wɔa dɔ sia le wo ɖokui si eye woƒo nu tso eŋu le teƒewo abe [Wotsɔ ka blae](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/). Wonye crypto gbugbɔgaxɔ ƒe dɔwɔƒe si wozãna le mɔ gbadza nu, menye dɔwɔnu si wozãna na Zcash koŋ o, eye woxɔa ga ɖe dɔa ta. ZecHub meda asi ɖe dɔwɔƒe aɖeke si xɔa ga le amewo si dzi o. Ne èto mɔ sia dzi la, wò ŋutɔ ɖo kpe domenyiŋusẽfianu si dziɖuɖua ɖo dzi eye nàtsɔe be amesiame si awɔ DM na wò gbã la nye ametafakala.
 
 Ne nuku si le dɔ wɔm alo gazazã ƒe safui gakpɔtɔ le asiwò la, dze egɔme kple mɔ si dzi nàto axɔ wò ŋutɔ abe Zkool alo Argos ene le wò ŋutɔ wò mɔ̃ dzi boŋ.
 
