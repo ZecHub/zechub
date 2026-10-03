@@ -9,7 +9,7 @@
 //
 // Run: node link-health/check-links.test.mjs
 import { readFileSync } from "node:fs";
-import { basename, dirname } from "node:path";
+import { basename, dirname, join } from "node:path";
 
 const src = readFileSync(new URL("./check-links.mjs", import.meta.url), "utf8");
 const originalOf = new Function(
@@ -20,10 +20,15 @@ const routeExists = new Function(
   "basename",
   "dirname",
   "existsSync",
+  "join",
   src.slice(src.indexOf("const LOWERCASE_WORDS"), src.indexOf("// ── file walking")) +
     src.slice(src.indexOf("function routeExists"), src.indexOf("// ── external checking")) +
     "; return routeExists;",
-)(basename, dirname, () => false);
+)(basename, dirname, () => false, join);
+
+const { wikiPath, wikiLinkAction } = new Function(
+  src.slice(src.indexOf("const WIKI_LOCALES"), src.indexOf("// ── external checking")) +
+  "; return { wikiPath, wikiLinkAction };")();
 
 let failed = 0;
 const eq = (name, got, want) => {
@@ -76,6 +81,40 @@ eq("legitimate nested app route",
    routeExists("/developers/quick-start", [], appRoutes),
    { ok: true, how: "app route" });
 
+// A folder that directly holds articles renders as a section page; one that
+// only holds subfolders does not (the app 404s it).
+eq("folder index",
+   routeExists("/privacy-tools", ["site/Privacy_Tools/Tor_and_I2P.md"], appRoutes),
+   { ok: true, how: "folder index" });
+eq("nested folder index",
+   routeExists("/using-zcash/spend-zcash", ["site/Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md"], appRoutes),
+   { ok: true, how: "folder index" });
+eq("folder with only subfolders",
+   routeExists("/zcash-tech/assets", ["site/Zcash_Tech/Assets/Sub/Page.md"], appRoutes),
+   { ok: false, how: "no file at site/Zcash_Tech/Assets.md" });
+
+// Absolute zechub.wiki links are wiki paths, locale prefix dropped.
+eq("absolute wiki link", wikiPath("https://zechub.wiki/zcash-tech/zaino"), "/zcash-tech/zaino");
+eq("www and locale prefix", wikiPath("https://www.zechub.wiki/de/guides/x?y=1#z"), "/guides/x");
+eq("bare locale root", wikiPath("https://zechub.wiki/ja"), "/");
+eq("other host", wikiPath("https://zechub.substack.com/"), null);
+// A malformed escape must not abort the scan; it stays encoded and resolves as a route.
+eq("malformed escape stays encoded", wikiPath("https://zechub.wiki/%ZZ"), "/%ZZ");
+eq("malformed escape is a broken route",
+   routeExists(wikiPath("https://zechub.wiki/%ZZ"), [], appRoutes).ok, false);
+
+// Absolute links to wiki files are checked, not skipped.
+const publicFiles = new Set(["/content-images/present.webp", "/nearintents.png"]);
+eq("absolute link to a missing content image", wikiLinkAction("/content-images/missing.svg", publicFiles), "asset-missing");
+eq("absolute link to a missing root file", wikiLinkAction("/definitely-missing.png", publicFiles), "asset-missing");
+eq("absolute link to a present file", wikiLinkAction("/content-images/present.webp", publicFiles), "asset-ok");
+eq("file without the public listing is fetched", wikiLinkAction("/content-images/present.webp", null), "external");
+eq("dynamic paths are fetched", wikiLinkAction("/_next/static/chunk.js", publicFiles), "external");
+eq("pages are routes", wikiLinkAction("/zcash-tech/zaino", publicFiles), "route");
+eq("dead absolute wiki link",
+   routeExists(wikiPath("https://zechub.wiki/zcash-technology"), [], appRoutes),
+   { ok: false, how: "no file at site/Zcash_Technology.md" });
+
 // must NOT match: these are ordinary links and re-probing them is meaningless
 eq("not an archive host", originalOf("https://example.org/web/20250611203406/https://x.test/"), null);
 eq("archive without a target", originalOf(`${A}/20250611203406/`), null);
@@ -84,5 +123,22 @@ eq("the archive home page", originalOf("https://web.archive.org/"), null);
 eq("target without a host", originalOf(`${A}/2022/https://?`), null);
 eq("non-string input", originalOf(Symbol("x")), null);
 
-console.log(failed ? `${failed} failing` : "all 17 cases correct");
+// transformUri must map a route to the same content path the app serves, or
+// the checker probes the wrong file and reports a live page as broken. The
+// app replaces the lowercase/uppercase word lists per whole `_`/`/` segment
+// (every occurrence), not as a bare substring.
+const transformUri = new Function(
+  src.slice(src.indexOf("const LOWERCASE_WORDS"), src.indexOf("const normalize")) +
+  "; return transformUri;")();
+
+eq("lowercase word inside a larger segment is left alone (The in Theme)",
+   transformUri("/guides/theme"), "/guides/Theme");
+eq("uppercase word inside a larger segment is left alone (Zcap in Zcapital)",
+   transformUri("/zcapital"), "/Zcapital");
+eq("uppercase word replaced at every whole-segment occurrence",
+   transformUri("/dao/x/dao"), "/DAO/X/DAO");
+eq("a genuine whole-segment word is still replaced",
+   transformUri("/zec/wallet"), "/ZEC/Wallet");
+
+console.log(failed ? `${failed} failing` : "all cases correct");
 process.exit(failed ? 1 : 0);

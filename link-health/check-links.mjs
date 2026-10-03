@@ -15,7 +15,6 @@
 //   --concurrency <n>   parallel external requests (default 12)
 
 import { readFile, writeFile, readdir, stat } from "node:fs/promises";
-import { existsSync } from "node:fs";
 import { join, dirname, basename, relative } from "node:path";
 
 // ── args ─────────────────────────────────────────────────────────────────────
@@ -70,10 +69,21 @@ const SPECIAL_WORDS = {
   zkav: "ZKAV",
 };
 
+// Replace `word` only where it is a whole `_`/`/`-delimited segment, every
+// time it occurs. This mirrors the app's helper of the same name; a plain
+// substring `.replace` diverged from it — it rewrote a word inside a larger
+// segment (so `/guides/theme` lost its `Theme` casing) and only touched the
+// first occurrence — which made this checker look for a different file than
+// the app serves and flag live pages as broken on a case-sensitive CI.
+function replaceWholeSegments(input, word, replacement) {
+  const re = new RegExp(`(^|[_/])${word}(?=[_/]|$)`, "g");
+  return input.replace(re, (_m, boundary) => boundary + replacement);
+}
+
 function transformUri(uri) {
   let t = uri.replace(/\b\w/g, (l) => l.toUpperCase()).replace(/-/g, "_");
-  for (const w of LOWERCASE_WORDS) if (t.includes(w)) t = t.replace(w, w.toLowerCase());
-  for (const w of UPPERCASE_WORDS) if (t.includes(w)) t = t.replace(w, w.toUpperCase());
+  for (const w of LOWERCASE_WORDS) t = replaceWholeSegments(t, w, w.toLowerCase());
+  for (const w of UPPERCASE_WORDS) t = replaceWholeSegments(t, w, w.toUpperCase());
   for (const [w, target] of Object.entries(SPECIAL_WORDS)) if (t.includes(w)) t = t.replaceAll(w, target);
   return t;
 }
@@ -147,8 +157,9 @@ function extractLinks(text, file) {
 }
 
 function classify(url) {
-  if (/^https?:\/\//i.test(url)) return "external";
+  if (/^https?:\/\//i.test(url)) return wikiPath(url) === null ? "external" : "wiki";
   if (/^(mailto|tel|ftp|ipfs|magnet):/i.test(url)) return "scheme";
+  if (/^[^\s/:@]+@[^\s/:@]+\.[a-z]{2,}$/i.test(url)) return "bare-email";
   if (url.startsWith("#")) return "anchor";
   if (url.startsWith("//")) return "protocol-relative";
   if (url.startsWith("/content-images/") || url.startsWith("/content-banners/")) return "asset";
@@ -168,12 +179,12 @@ async function loadAppRoutes(offline) {
   const fallback = [
     "wallets", "mobile-wallets", "desktop-wallets", "web-wallets", "hardware-wallets",
     "dashboard", "visualizer", "hackathon", "explore", "tools", "map", "dex", "privacy",
-    "proposals", "dao", "newsletter", "tutorials", "developers", "zips", "zips-grants",
+    "proposals", "dao", "newsletter", "developers", "zips-grants", "payment-processors",
     "gallery", "welcome", "sitemap", "donation", "zebra", "zcash-projects",
     "protocol-parameters", "zcash-evolution", "visual-identity", "governance-howto",
     "zcash-global-ambassadors", "zcash-payment-uri", "zcash-pool-visualizer",
     "zksnark-proof-visualizer", "zcash-infrastructure-visualizer", "omniflix",
-    "aborist-calls", "zechub-tutorial", "zechub-tutorials", "using-zcash",
+    "arborist-calls", "zechub-tutorial", "zechub-tutorials", "using-zcash",
   ];
   if (offline) return new Set(fallback);
   try {
@@ -201,6 +212,22 @@ async function loadAppRoutes(offline) {
 
 // ── internal route resolution ────────────────────────────────────────────────
 
+/**
+ * Whether an internal link points at a static file the app serves from
+ * zechub-wiki/public, such as /nearintents.png or /DCRDEX.jpg. Such links are
+ * classified as routes because they sit at the site root, but they are files,
+ * not pages, and have no markdown behind them.
+ */
+function isAppPublicFile(url, publicFiles) {
+  if (!publicFiles) return false;
+  const path = url.split(/[?#]/)[0];
+  try {
+    return publicFiles.has(path) || publicFiles.has(decodeURIComponent(path));
+  } catch {
+    return publicFiles.has(path);
+  }
+}
+
 function routeExists(route, mdFiles, appRoutes) {
   const clean = route.split("#")[0].split("?")[0].replace(/\/+$/, "");
   if (!clean || clean === "/") return { ok: true, how: "site root" };
@@ -211,8 +238,15 @@ function routeExists(route, mdFiles, appRoutes) {
     return { ok: true, how: "app route" };
   }
 
-  const target = `site${transformUri(clean)}.md`;
-  if (existsSync(target)) return { ok: true, how: "exact" };
+  const target = join("site", `${transformUri(clean)}.md`);
+  // GitHub content paths are case-sensitive even when this checkout is not.
+  if (mdFiles.includes(target)) return { ok: true, how: "exact" };
+
+  // A folder that directly holds articles is a section page: the app lists its
+  // markdown files (/privacy-tools browses site/Privacy_Tools/). A folder with
+  // only subfolders has nothing to list, and the app returns its 404 page.
+  const folderPath = target.slice(0, -".md".length);
+  if (mdFiles.some((f) => dirname(f) === folderPath)) return { ok: true, how: "folder index" };
 
   // The app falls back to a loose match inside the same folder, so a report that
   // ignored this would flag links that actually resolve in production.
@@ -225,6 +259,46 @@ function routeExists(route, mdFiles, appRoutes) {
 
   // Some routes are app pages rather than markdown (for example /wallets).
   return { ok: false, how: `no file at ${target}` };
+}
+
+/**
+ * The wiki path an absolute zechub.wiki link names, without its locale prefix,
+ * or null for any other host. The wiki serves its 404 page with status 200, so
+ * these links must be resolved like routes instead of fetched.
+ */
+const WIKI_LOCALES = "en|it|fr|es|de|pt|ar|zh|hi|ru|ja|ko|tr|uk|sw|yo|ig|ak|ee";
+function wikiPath(url) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return null;
+  }
+  if (!/^(www\.)?zechub\.wiki$/i.test(parsed.hostname)) return null;
+  let pathname = parsed.pathname;
+  try {
+    pathname = decodeURIComponent(pathname);
+  } catch {
+    // A malformed escape (e.g. %ZZ) stays encoded and is reported as a broken route.
+  }
+  const path = pathname.replace(new RegExp(`^/(${WIKI_LOCALES})(?=/|$)`), "");
+  return path || "/";
+}
+
+/**
+ * How to check an absolute zechub.wiki link, given its wiki path and the set of
+ * files in zechub-wiki/public (null when that list is unavailable):
+ * "route" for pages, "asset-ok" / "asset-missing" for files we can look up, and
+ * "external" for files we cannot look up or for dynamic paths (_next, api),
+ * which are then fetched like any other external URL.
+ */
+function wikiLinkAction(path, publicFiles) {
+  if (/^\/(_next|api)\//.test(path)) return "external";
+  if (/^\/(content-images|content-banners)\//.test(path) || /\.[a-z0-9]{2,5}$/i.test(path)) {
+    if (!publicFiles) return "external";
+    return publicFiles.has(path) ? "asset-ok" : "asset-missing";
+  }
+  return "route";
 }
 
 // ── external checking ────────────────────────────────────────────────────────
@@ -244,7 +318,11 @@ async function checkExternal(url) {
           accept: "*/*",
         },
       });
-      return { status: res.status, location: res.headers.get("location") };
+      return {
+        status: res.status,
+        location: res.headers.get("location"),
+        retryAfter: res.headers.get("retry-after"),
+      };
     } finally {
       clearTimeout(timer);
     }
@@ -256,6 +334,10 @@ async function checkExternal(url) {
     if (r.status === 405 || r.status === 403 || r.status === 501) r = await attempt("GET");
 
     if (r.status >= 200 && r.status < 300) return { state: "ok", status: r.status };
+    // 429 says the checker is sending too fast, not that the page is gone. The
+    // forum answers most of a weekly sweep's requests this way, which buried the
+    // real 404s among "broken" links.
+    if (r.status === 429) return { state: "ratelimited", status: 429, retryAfter: r.retryAfter };
     if (r.status >= 300 && r.status < 400) return { state: "redirect", status: r.status, to: r.location };
     return { state: "broken", status: r.status };
   } catch (err) {
@@ -266,6 +348,24 @@ async function checkExternal(url) {
     return { state: "error", detail: msg };
   }
 }
+
+/**
+ * Milliseconds to wait before asking a rate-limited host again: the Retry-After
+ * header (seconds or an HTTP date) when present, else a default, clamped so one
+ * host cannot stall the whole sweep.
+ */
+function retryAfterMs(header, now = Date.now()) {
+  const DEFAULT_MS = 5000;
+  const MIN_MS = 1000;
+  const MAX_MS = 30000;
+  let ms = DEFAULT_MS;
+  const v = typeof header === "string" ? header.trim() : "";
+  if (/^\d+$/.test(v)) ms = Number(v) * 1000;
+  else if (v && !Number.isNaN(Date.parse(v))) ms = Date.parse(v) - now;
+  return Math.min(MAX_MS, Math.max(MIN_MS, ms));
+}
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function pool(items, limit, worker) {
   const out = new Array(items.length);
@@ -304,6 +404,7 @@ const ACTIONS = {
   broken: "Confirm the page moved or was removed, then update or drop the link.",
   dns: "Domain does not resolve. The site is likely gone; replace or remove the link.",
   timeout: "No response in time. Recheck manually; add to the allowlist if the host is simply slow.",
+  ratelimited: "The host throttled the checker (HTTP 429), so the link was not verified. Recheck later; allowlist the host if it keeps happening.",
   tls: "Certificate problem. Verify the host before trusting the link.",
   error: "Request failed. Recheck manually.",
   redirect: "Point the link at its final destination so readers skip the hop.",
@@ -349,6 +450,8 @@ async function main() {
   }
 
   const mdFiles = await walk(ROOT);
+  // --root limits which pages are scanned, not which site pages can be linked.
+  const routeFiles = ROOT === "site" ? mdFiles : await walk("site");
   const appRoutes = await loadAppRoutes(OFFLINE);
 
   // Assets live in the wiki app repo, so confirm them over the API when we can.
@@ -402,8 +505,32 @@ async function main() {
         continue;
       }
 
+      // Files the wiki serves straight from its public/ folder are not pages.
+      if (kind === "route" && isAppPublicFile(link.url, assetSet)) continue;
+
+      if (kind === "bare-email") {
+        findings.push({ kind: "invalid", url: link.url, file: link.file, line: link.line, detail: "email address without mailto:" });
+        continue;
+      }
+
+      if (kind === "wiki") {
+        const path = wikiPath(link.url);
+        const action = wikiLinkAction(path, assetSet);
+        if (action === "asset-missing") {
+          findings.push({ kind: "asset", url: link.url, file: link.file, line: link.line, detail: "not found in zechub-wiki/public" });
+          continue;
+        }
+        if (action === "asset-ok") continue;
+        if (action === "route") {
+          const r = routeExists(path, routeFiles, appRoutes);
+          if (!r.ok) findings.push({ kind: "route", url: link.url, file: link.file, line: link.line, detail: r.how });
+          continue;
+        }
+        // "external": fall through and fetch it like any other absolute URL.
+      }
+
       if (kind === "route") {
-        const r = routeExists(link.url, mdFiles, appRoutes);
+        const r = routeExists(link.url, routeFiles, appRoutes);
         if (!r.ok) findings.push({ kind: "route", url: link.url, file: link.file, line: link.line, detail: r.how });
         continue;
       }
@@ -415,7 +542,7 @@ async function main() {
         continue;
       }
 
-      if (kind === "external") {
+      if (kind === "external" || kind === "wiki") {
         let parsed;
         try {
           parsed = new URL(link.url);
@@ -453,6 +580,20 @@ async function main() {
       suspects.forEach((idx, k) => {
         results[idx] = second[k];
       });
+    }
+
+    // Rate-limited URLs get one more try each, one at a time and only after the
+    // wait the host asked for, within an overall budget. Whatever is still
+    // throttled is reported as unverified rather than broken.
+    const RATE_LIMIT_BUDGET_MS = 5 * 60 * 1000;
+    let waited = 0;
+    for (let i = 0; i < results.length; i++) {
+      if (results[i].state !== "ratelimited") continue;
+      const wait = retryAfterMs(results[i].retryAfter);
+      if (waited + wait > RATE_LIMIT_BUDGET_MS) break;
+      await sleep(wait);
+      waited += wait;
+      results[i] = await checkExternal(urls[i]);
     }
 
     results.forEach((r, i) => {
@@ -496,7 +637,7 @@ async function main() {
     }
   }
 
-  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "error", "invalid", "redirect", "duplicate", "revived"];
+  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "ratelimited", "error", "invalid", "redirect", "duplicate", "revived"];
   findings.sort((a, b) => order.indexOf(a.kind) - order.indexOf(b.kind) || a.file.localeCompare(b.file));
 
   const totals = Object.fromEntries(order.map((k) => [k, findings.filter((f) => f.kind === k).length]));
@@ -532,6 +673,7 @@ const LABELS = {
   asset: "Missing assets",
   tls: "Certificate problems",
   timeout: "Timeouts",
+  ratelimited: "Rate limited (not verified)",
   error: "Request errors",
   invalid: "Invalid URLs",
   redirect: "Redirects",
