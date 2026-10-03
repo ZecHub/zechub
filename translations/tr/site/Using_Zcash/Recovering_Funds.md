@@ -191,7 +191,7 @@ Tohum veya anahtar kayıpsa, kendi barındırdığınız bir geri yükleme başl
 
 Bu yol, hâlâ sahip olduğunuz bir tohumu geri yüklemekle aynı değildir. Sizin için “kurtarmayı” teklif eden hiç kimseye çalışan bir tohum vermeyin. Bu hizmetin dolandırıcılık sürümü yaygındır.
 
-[Unciphered](https://unciphered.com), bu işi kurum içinde yapan ve [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/) gibi yerlerde ele alınmış şirketlerden biridir. Genel bir kripto kurtarma hizmetidir, Zcash'a özgü bir araç değildir ve çalışma için ücret alır. ZecHub herhangi bir kurtarma şirketini onaylamaz. Bu yolu seçerseniz resmî alan adını kendiniz doğrulayın ve size ilk olarak doğrudan mesaj atan herkesin dolandırıcı olduğunu varsayın.
+[Unciphered](https://unciphered.com), bu işi kurum içinde yapan ve [Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/) gibi yerlerde ele alınmış şirketlerden biridir. Genel bir kripto kurtarma hizmetidir, Zcash'a özgü bir araç değildir ve çalışma için ücret alır. ZecHub herhangi bir kurtarma şirketini onaylamaz. Bu yolu seçerseniz resmî alan adını kendiniz doğrulayın ve size ilk olarak doğrudan mesaj atan herkesin dolandırıcı olduğunu varsayın.
 
 Hâlâ çalışan bir tohum veya harcama anahtarınız varsa, bunun yerine kendi makinenizde Zkool veya Argos gibi kendi barındırdığınız bir kurtarma yoluyla başlayın.
 

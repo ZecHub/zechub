@@ -191,7 +191,7 @@ Wenn der Seed oder Schlüssel verloren ist, kann keine selbst gehostete Wiederhe
 
 Dieser Weg ist nicht dasselbe wie die Wiederherstellung eines noch vorhandenen Seeds. Geben Sie niemals einen funktionierenden Seed an jemanden weiter, der anbietet, ihn für Sie „wiederherzustellen“. Die Betrugsvariante dieses Dienstes ist verbreitet.
 
-[Unciphered](https://unciphered.com) ist eine Firma, die diese Arbeit intern durchführt und über die unter anderem [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/) berichtet hat. Sie ist ein allgemeiner Dienst für Krypto-Wiederherstellung, kein Zcash-spezifisches Werkzeug, und berechnet Gebühren für die Arbeit. ZecHub empfiehlt keine Wiederherstellungsfirma. Wenn Sie diesen Weg wählen, bestätigen Sie die offizielle Domain selbst und gehen Sie davon aus, dass jeder, der Ihnen zuerst eine Direktnachricht sendet, ein Betrüger ist.
+[Unciphered](https://unciphered.com) ist eine Firma, die diese Arbeit intern durchführt und über die unter anderem [Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/) berichtet hat. Sie ist ein allgemeiner Dienst für Krypto-Wiederherstellung, kein Zcash-spezifisches Werkzeug, und berechnet Gebühren für die Arbeit. ZecHub empfiehlt keine Wiederherstellungsfirma. Wenn Sie diesen Weg wählen, bestätigen Sie die offizielle Domain selbst und gehen Sie davon aus, dass jeder, der Ihnen zuerst eine Direktnachricht sendet, ein Betrüger ist.
 
 Wenn Sie noch einen funktionierenden Seed oder Spending Key haben, beginnen Sie stattdessen mit einem selbst gehosteten Wiederherstellungsweg wie Zkool oder Argos auf Ihrem eigenen Computer.
 

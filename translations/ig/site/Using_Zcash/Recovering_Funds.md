@@ -191,7 +191,7 @@ Were ya dị ka ngwaọrụ dị elu/ihe eji eme ihe kama ụzọ mgbake ndabara
 
 Ụzọ ahụ abụghị otu ihe ahụ dị ka iweghachi mkpụrụ ị ka nwere. Enyela onye ọ bụla kwere nkwa "iweghachite" ya maka gị mkpụrụ na-arụ ọrụ. Ụdị aghụghọ nke ọrụ a bụ ihe a na-ahụkarị.
 
-[Unciphered](https://unciphered.com) bụ otu ụlọ ọrụ na-arụ ọrụ a n'ime ụlọ ma ekpuchila ya n'ebe dịka [Waya nwere waya](https://www.wired.com/story/unciphered-crypto-wallet-recovery/)Ha bụ ọrụ mgbake crypto nkịtị, ọ bụghị ngwaọrụ Zcash kpọmkwem, ha na-anakwa ụgwọ maka ọrụ ahụ. ZecHub anaghị akwado ụlọ ọrụ mgbake ọ bụla. Ọ bụrụ na ị gaa n'ụzọ a, kwado ngalaba gọọmentị n'onwe gị ma chee na onye ọ bụla nke na-akpọ gị DM mbụ bụ onye wayo.
+[Unciphered](https://unciphered.com) bụ otu ụlọ ọrụ na-arụ ọrụ a n'ime ụlọ ma ekpuchila ya n'ebe dịka [Waya nwere waya](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/)Ha bụ ọrụ mgbake crypto nkịtị, ọ bụghị ngwaọrụ Zcash kpọmkwem, ha na-anakwa ụgwọ maka ọrụ ahụ. ZecHub anaghị akwado ụlọ ọrụ mgbake ọ bụla. Ọ bụrụ na ị gaa n'ụzọ a, kwado ngalaba gọọmentị n'onwe gị ma chee na onye ọ bụla nke na-akpọ gị DM mbụ bụ onye wayo.
 
 Ọ bụrụ na ị ka nwere mkpụrụ ọrụ ma ọ bụ igodo mmefu, malite site na ụzọ mgbake nkeonwe dịka Zkool ma ọ bụ Argos na igwe nke gị kama.
 

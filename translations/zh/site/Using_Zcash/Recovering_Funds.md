@@ -191,7 +191,7 @@ Sprout 价值只能转入Sapling。在Sapling资金确认且可支出后，请�
 
 这条路径不同于恢复你仍持有的助记词。不要将可用助记词交给任何声称可以为你“恢复”它的人。这类服务的诈骗版本很常见。
 
-[Unciphered](https://unciphered.com)是一家在内部开展此类工作的公司，曾获[Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/)等媒体报道。他们提供的是通用加密货币恢复服务，不是Zcash专用工具，并会收取服务费用。ZecHub不认可任何恢复公司。如果你选择此途径，请自行确认官方网站域名，并假定任何先向你发送私信的人都是骗子。
+[Unciphered](https://unciphered.com)是一家在内部开展此类工作的公司，曾获[Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/)等媒体报道。他们提供的是通用加密货币恢复服务，不是Zcash专用工具，并会收取服务费用。ZecHub不认可任何恢复公司。如果你选择此途径，请自行确认官方网站域名，并假定任何先向你发送私信的人都是骗子。
 
 如果你仍有可用助记词或支出密钥，请改为先在自己的设备上使用Zkool或Argos等自托管恢复路径。
 

@@ -191,7 +191,7 @@ Sɛ aba anaa safoa no ayera a, sanba a obi ankasa agye no ntumi mfi ase. Nnipa b
 
 Saa kwan no ne aba a woda so ara wɔ a wobɛsan de aba no nyɛ ade koro. Mfa aba a ɛyɛ adwuma nhyɛ obiara a ɔka sɛ "ɔbɛsan anya" ama wo no nsa. Saa ɔsom yi mu nsisi no abu so.
 
-[Unciphered](https://unciphered.com) yɛ adwumakuw biako a ɛyɛ adwuma yi wɔ wɔn fie na wɔaka ho asɛm wɔ mmeae te sɛ [Wɔde nhama ayɛ](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Wɔyɛ general crypto recovery service, ɛnyɛ Zcash-specific adwinnade, na wɔbɔ adwuma no ho ka. ZecHub nnye adwumakuw biara a ɛsan nya ahoɔden ntom. Sɛ wofa saa kwan yi so a, w’ankasa si official domain no so dua na fa no sɛ obiara a odi kan DM wo no yɛ scammer.
+[Unciphered](https://unciphered.com) yɛ adwumakuw biako a ɛyɛ adwuma yi wɔ wɔn fie na wɔaka ho asɛm wɔ mmeae te sɛ [Wɔde nhama ayɛ](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/). Wɔyɛ general crypto recovery service, ɛnyɛ Zcash-specific adwinnade, na wɔbɔ adwuma no ho ka. ZecHub nnye adwumakuw biara a ɛsan nya ahoɔden ntom. Sɛ wofa saa kwan yi so a, w’ankasa si official domain no so dua na fa no sɛ obiara a odi kan DM wo no yɛ scammer.
 
 Sɛ woda so ara wɔ aba a ɛyɛ adwuma anaa sika a wode di dwuma safe a, fi ase fa ɔkwan a wo ankasa wobɛfa so asan agye te sɛ Zkool anaa Argos wɔ w’ankasa mfiri so mmom.
 
