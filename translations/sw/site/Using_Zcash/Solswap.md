@@ -39,7 +39,7 @@ Kitufe Phantom's mwenyewe cha **Swap** pia kinaorodhesha ZEC, lakini hiyo inakup
 - Chagua **ZEC** kama tokeni yako ya **marudio**.
 - Hakikisha kwamba Zcash inapatikana kupitia kiolesura cha kubadilishana.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

@@ -45,7 +45,7 @@ Phantom का अपना **Swap** बटन भी ZEC सूचीबद्�
 
 
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

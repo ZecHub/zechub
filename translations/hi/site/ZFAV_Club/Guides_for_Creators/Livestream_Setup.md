@@ -17,6 +17,4 @@
 
 इस उपकरणों के कुछ को अधिक सुलभ समाधान (जैसे फ़ोन के बजाय कैमरा का उपयोग) से प्रतिस्थापित करने के तरीके हैं, जिनके बारे में अन्य विकि पोस्ट में चर्चा की गई है।
 
-![लाइव स्ट्रीमिंग के लिए सभी डिवाइस को कनेक्ट करने का उदाहरण स्कीम। लेखक: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
-
 लाइव स्ट्रीमिंग के लिए सभी डिवाइस को कनेक्ट करने का उदाहरण स्कीम। लेखक: [decentralistdan](https://twitter.com/decentralistdan)

@@ -39,7 +39,7 @@ Bọtịnụ **Swap** Phantom's depụtara ZEC, mana nke ahụ na-eme ka ị nwe
 - Họrọ **ZEC** dị ka ihe ngosi ebe ị ga-aga**.
 - Hụ na Zcash dị site na mgbanwe interface.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

@@ -445,7 +445,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -573,7 +573,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -2191,7 +2191,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -2319,7 +2319,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -3937,7 +3937,7 @@
       "src_commit": "5af2d71ddf210b6397ff9a8dd3c9504fb0595b31",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -4065,7 +4065,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -5683,7 +5683,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -5811,7 +5811,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -7429,7 +7429,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -7557,7 +7557,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -9175,7 +9175,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -9303,7 +9303,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -10921,7 +10921,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -11049,7 +11049,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -12659,7 +12659,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -12787,7 +12787,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+image-restore",
+      "tool": "nllb-200-3.3B+image-restore+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -14405,7 +14405,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -14533,7 +14533,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -16151,7 +16151,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -16279,7 +16279,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -17897,7 +17897,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -18025,7 +18025,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -19643,7 +19643,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -19771,7 +19771,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -21389,7 +21389,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -21517,7 +21517,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -23135,7 +23135,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -23263,7 +23263,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -24881,7 +24881,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -25009,7 +25009,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -26627,7 +26627,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -26755,7 +26755,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -28373,7 +28373,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -28501,7 +28501,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+image-restore",
+      "tool": "nllb-200-3.3B+image-restore+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -30119,7 +30119,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -30247,7 +30247,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+linkrepair",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
