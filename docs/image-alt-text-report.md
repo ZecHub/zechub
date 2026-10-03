@@ -36,18 +36,49 @@ node scripts/check-image-alt-text.test.mjs
 ## Placeholder alt text
 
 The configurable placeholder list is stored in
-`scripts/image-alt-placeholders.json`.
+`scripts/image-alt-placeholders.json`. It accepts two shapes:
 
-To add another placeholder, append the normalized phrase to that JSON array. The
-comparison is case-insensitive and collapses repeated whitespace. For example,
-adding `"photo"` will flag `alt="PHOTO"` and `alt="  photo  "`.
+```json
+["logo", "img1"]
+```
+
+```json
+{
+  "exact": ["logo", "img1", "image", "alt text"],
+  "patterns": ["^img\\s*\\d+$", "^https?://\\S+$"]
+}
+```
+
+A bare array is still valid and means the same thing it always did, so an
+existing configuration keeps working unchanged.
+
+**To add a fixed phrase**, append it to `exact`. The comparison is
+case-insensitive and collapses repeated whitespace, so adding `"photo"` flags
+`alt="PHOTO"` and `alt="  photo  "`.
+
+**To add a family of placeholders**, append a JavaScript regular expression
+(as a JSON string) to `patterns`. Patterns are tested against the same
+normalized form as `exact` entries, so they do not need to account for casing
+or repeated spaces. A pattern that does not compile is a configuration error
+and fails the job rather than silently matching nothing.
+
+Patterns exist because some placeholder alt text cannot be enumerated. `img1`
+was listed while `img2` through `img10` were not, so a bare sequence number was
+reported as an acceptable description; `^img\s*\d+$` expresses the whole family
+once, and keeps covering `img11` when a page adds one. `^https?://\S+$` catches
+an image URL pasted into the alt attribute.
 
 A descriptive phrase containing a placeholder word is not flagged: for example,
-`"ZecHub logo on a dark background"` does not equal the placeholder `"logo"`.
+`"ZecHub logo on a dark background"` does not equal the placeholder `"logo"`,
+and `"Figure 2 of the shielded pool"` is not matched by the numbered-image
+pattern.
 
 ## Current English baseline
 
-The reviewed default corpus is 223 English pages and 762 images, with 60 missing/empty alt descriptions and 105 placeholder descriptions. These are acceptance baseline numbers rather than a permanent threshold.
+The default corpus is 222 English pages and 755 images, with 60 missing or
+empty alt descriptions and 146 placeholder descriptions. These are observations
+rather than a threshold: the report never fails on them, and the counts move as
+pages are added and edited.
 
 ## CI behavior
 
