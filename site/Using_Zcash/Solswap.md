@@ -39,7 +39,7 @@ Phantom's own **Swap** button also lists ZEC, but that gets you the token descri
 - Choose **ZEC** as your **destination token**.
 - Ensure that Zcash is available through the swap interface.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

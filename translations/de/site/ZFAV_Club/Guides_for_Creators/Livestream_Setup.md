@@ -17,6 +17,4 @@
 
 Es gibt Möglichkeiten, einen Teil dieser Ausrüstung durch leichter verfügbare Lösungen zu ersetzen (z. B. ein Telefon statt einer Kamera), was in einem anderen Wiki-Beitrag besprochen wird.
 
-![Beispielschema, wie alle Geräte für das Streaming verbunden werden. Autor: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
-
 Beispielschema, wie alle Geräte für das Streaming verbunden werden. Autor: [decentralistdan](https://twitter.com/decentralistdan)

@@ -39,7 +39,7 @@ Phantom's **Swap** ƒe abɔta hã ŋlɔ ZEC, gake ema na nèkpɔ dzesi si ŋu m�
 - Tia **ZEC** abe wò **destination token** ene.
 - Kpɔ egbɔ be Zcash li to swap interface dzi.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

@@ -17,6 +17,4 @@
 
 Akwan bi wɔ hɔ a wobɛfa so de ano aduru a ɛyɛ mmerɛw a wobetumi anya (te sɛ telefon a wode bedi dwuma sen sɛ wode mfoninitwa afiri bedi dwuma) a wɔbɛka ho asɛm wɔ wiki post foforo mu besi saa nnwinnade yi bi ananmu.
 
-![Nhwɛso nhyehyɛe sɛnea wɔde mfiri nyinaa bɛka ho ama streaming. Ɔkyerɛwfo: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
-
 Nhwɛsoɔ nhyehyɛeɛ sɛdeɛ wɔbɛka mfiri nyinaa abɔ mu ama streaming. Ɔkyerɛwfo: [decentralistdan](https://twitter.com/decentralistdan)

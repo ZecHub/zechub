@@ -17,6 +17,4 @@
 
 Hay formas de sustituir parte de este equipo por soluciones más fáciles de conseguir (como usar un teléfono en lugar de una cámara), lo cual se tratará en otra publicación de la wiki.
 
-![Esquema de ejemplo de cómo conectar todos los dispositivos para la transmisión. Autor: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
-
 Esquema de ejemplo de cómo conectar todos los dispositivos para la transmisión. Autor: [decentralistdan](https://twitter.com/decentralistdan)

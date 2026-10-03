@@ -17,6 +17,4 @@
 
 Bu ekipmanların bir kısmını daha kolay erişilebilir çözümlerle değiştirebileceğiniz yollar vardır (örneğin kamera yerine telefon kullanmak gibi); bunlar başka bir wiki yazısında ele alınacaktır.
 
-![Yayın için tüm cihazların nasıl bağlanacağını gösteren örnek şema. Hazırlayan: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
-
 Yayın için tüm cihazların nasıl bağlanacağını gösteren örnek şema. Hazırlayan: [decentralistdan](https://twitter.com/decentralistdan)

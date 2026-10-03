@@ -17,6 +17,4 @@
 
 일부 장비는 더 쉽게 구할 수 있는 솔루션(예: 카메라 대신 스마트폰 사용)으로 교체할 수도 있으며, 이에 대해서는 다른 위키 게시물에서 다룰 예정입니다.
 
-![라이브 스트리밍을 위해 모든 장치를 연결하는 방법의 예시. 작성자: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
-
 라이브 스트리밍을 위해 모든 장치를 연결하는 방법의 예시. 작성자: [decentralistdan](https://twitter.com/decentralistdan)
