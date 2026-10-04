@@ -121,7 +121,7 @@ Sɛ wɔde ZEC a ɛwɔ atare a wɔabɔ ho ban mu no asie a, ɛbɛyɛ dɛn na obi 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
+[zk-SNARKs NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
 
 [Post Quantum Ahobammɔ](../zcash-tech/post-quantum-security)
 

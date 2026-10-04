@@ -88,7 +88,7 @@ Las salidas coinbase tenían que ser transparentes, por lo que la recompensa rec
 
 [Wallets](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

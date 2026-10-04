@@ -44,9 +44,9 @@ Una privacy che non puoi mai rimuovere non è utile. A volte devi dimostrare qua
 
 **Spending key.** Vede tutto e sposta i fondi. Questo è il denaro. Rimane con te e non viene mai condivisa con nessuno, per nessun motivo.
 
-**Full viewing key.** Sola lettura. Mostra attività e saldi in entrata e in uscita, ma non può spendere nemmeno un singolo zatoshi. Questa è ciò che consegni a un revisore o a un commercialista.
+**Full Viewing Key.** Sola lettura. Mostra attività e saldi in entrata e in uscita, ma non può spendere nemmeno un singolo zatoshi. Questa è ciò che consegni a un revisore o a un commercialista.
 
-**Incoming viewing key.** Ancora più limitata: mostra solo i pagamenti in arrivo. Un exchange o un commerciante può usarla per confermare che il tuo deposito è arrivato, mentre la spending key rimane su hardware che non tocca mai internet.
+**Incoming Viewing Key.** Ancora più limitata: mostra solo i pagamenti in arrivo. Un exchange o un commerciante può usarla per confermare che il tuo deposito è arrivato, mentre la spending key rimane su hardware che non tocca mai internet.
 
 L'ordine conta. Condividi la chiave più limitata che svolge il compito, non la più ampia che ti capita di avere.
 
@@ -64,7 +64,7 @@ L'ordine conta. Condividi la chiave più limitata che svolge il compito, non la 
 
 ## Mettilo in pratica
 
-- Usa un wallet che scherma per impostazione predefinita, come [Zodl](https://zodl.com) o [Zingo!](https://www.zingolabs.org/).
+- Usa un wallet che scherma per impostazione predefinita, come [ZODL](https://zodl.com) o [Zingo!](https://www.zingolabs.org/).
 - Scherma i fondi non appena arrivano da un exchange, prima di spenderli.
 - Paga verso indirizzi schermati ogni volta che il destinatario ne supporta uno.
 - Prima di condividere una viewing key, chiediti quale sia la chiave più piccola che risponde alla domanda che ti viene posta.

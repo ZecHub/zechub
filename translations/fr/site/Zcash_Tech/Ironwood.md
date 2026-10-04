@@ -121,7 +121,7 @@ Grâce au tourniquet. Chaque pièce quittant l’ancien pool Orchard est compté
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Sécurité post-quantique](../zcash-tech/post-quantum-security)
 

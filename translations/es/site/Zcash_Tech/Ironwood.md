@@ -121,7 +121,7 @@ A través del torniquete. Cada moneda que sale del antiguo pool Orchard se cuent
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Seguridad post-cuántica](../zcash-tech/post-quantum-security)
 

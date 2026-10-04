@@ -77,7 +77,7 @@ Sprout bụ mmalite nke Zcash, ọ bụghị nkwalite n'oge na-adịghị anya. 
 
 [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Nwelite netwọk Zcash](../start-here/network-upgrades)
 

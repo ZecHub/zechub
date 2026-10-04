@@ -44,7 +44,7 @@ Sapling followed Overwinter, the June 2018 upgrade that prepared the network's u
 | Sprout | Ilana aabo atilẹba Zcash bẹrẹ pẹlu, ti o lọra ati ti o wuwo ju Sapling. |
 | Spend and Output circuits | Àwọn ìṣàfihàn Sapling tuntun méjì tí ó rọ́pò ìṣàfihàn JoinSplit Sprout's kan ṣoṣo. |
 | Diversified address | Ọkan ninu ọpọlọpọ awọn adirẹsi isanwo ti ko ni asopọ ti o le gba lati inu bọtini kan. |
-| Viewing key | Kọ́kọ́rọ́ kan tí ó máa jẹ́ kí ẹnìkan rí àwọn ìṣòwò àpò owó láìsí pé ó lè náwó nínú rẹ̀. |
+| Viewing Key | Kọ́kọ́rọ́ kan tí ó máa jẹ́ kí ẹnìkan rí àwọn ìṣòwò àpò owó láìsí pé ó lè náwó nínú rẹ̀. |
 | Consensus branch id | Kóòdù kúkúrú kan tó ń sọ fún nẹ́tíwọ́ọ̀kì àwọn òfin ìgbéga tí ìṣòwò kan ń tẹ̀lé. |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
@@ -82,7 +82,7 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 
 - [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](../using-zcash/shielded-pools)
 - [Àwọn Kókó Ìwòran](../zcash-tech/viewing-keys)
-- [àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKS](../zcash-tech/zk-snarks)
+- [àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKs](../zcash-tech/zk-snarks)
 - [Àwọn Àtúnṣe sí Ìpínlẹ̀ Zcash](../start-here/network-upgrades)
 - [Àwọn àpamọ́ owó](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

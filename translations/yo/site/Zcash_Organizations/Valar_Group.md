@@ -171,7 +171,7 @@ Awọn alaye ti gbangba lati arin 2026 ṣe apejuwe Valar Group ati Ise agbese T
 - ** Project Tachyon** n tẹnu mọ́ àtúnṣe, ìwádìí tí ó ṣe é fọwọ́ sí àti agbára láti yípò ní pẹ̀lú.
 - ** Valar Group** n fojusi lori idibo ti awọn oniwun owo aladani, iṣẹ node, PIR, ati imọ-ẹrọ ti o nilo lati ṣiṣẹ awọn ọna ṣiṣe wọnyẹn ni iṣelọpọ.
 
-Ìpín tirẹ̀ tó ṣe pàtàkì ni ṣíṣe ìṣàkóso tí a fi ààbò bo iṣẹ́. Odibo NU7 jẹ lilo akọkọ ti o tobi julọ ti iṣiro yẹn: awọn oniwun fihan idaduro Ironwood, apamọwọ bii Zodl ati Vizor le ṣajọpọ ṣiṣan naa, ẹnikẹni si le ṣayẹwo iye laisi imọ bi oluwa kan pato ṣe dibo.
+Ìpín tirẹ̀ tó ṣe pàtàkì ni ṣíṣe ìṣàkóso tí a fi ààbò bo iṣẹ́. Odibo NU7 jẹ lilo akọkọ ti o tobi julọ ti iṣiro yẹn: awọn oniwun fihan idaduro Ironwood, apamọwọ bii ZODL ati Vizor le ṣajọpọ ṣiṣan naa, ẹnikẹni si le ṣayẹwo iye laisi imọ bi oluwa kan pato ṣe dibo.
 
 Awọn ẹgbẹ kanna ti n ṣe akopọ ati iṣẹ iṣọkan ni a pinnu lati ṣakoso idaji keji ti aworan yẹn. Odibo ikọkọ jẹ diẹ wulo bi awọn apamọwọ ko ba le muuṣiṣẹpọ, awọn isẹpo ko le tọju, tabi igbesoke ko le ṣee lo yarayara. Ẹgbẹ Valar wo ilana ijọba, sọfitiwia node, ati amayederun apo-owo gẹgẹbi iṣoro kan: mu Zcash aladani ṣiṣẹ lori iwọn laisi idojukọ agbara ṣiṣe ninu agbari kan ṣoṣo.
 

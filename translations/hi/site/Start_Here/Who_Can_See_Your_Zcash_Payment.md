@@ -44,9 +44,9 @@ explorer वास्तव में क्या पढ़ता है, इ�
 
 **Spending key.** सब कुछ देखती है और funds को move करती है। यही पैसा है। यह आपके पास रहती है और किसी भी कारण से, किसी के साथ साझा नहीं की जाती।
 
-**Full viewing key.** केवल-पढ़ने योग्य। incoming और outgoing activity तथा balances दिखाती है, लेकिन एक भी zatoshi खर्च नहीं कर सकती। यही वह चीज़ है जो आप auditor या accountant को देते हैं।
+**Full Viewing Key.** केवल-पढ़ने योग्य। incoming और outgoing activity तथा balances दिखाती है, लेकिन एक भी zatoshi खर्च नहीं कर सकती। यही वह चीज़ है जो आप auditor या accountant को देते हैं।
 
-**Incoming viewing key.** इससे भी सीमित: यह केवल आने वाले भुगतानों को दिखाती है। कोई exchange या merchant इसका उपयोग यह पुष्टि करने के लिए कर सकता है कि आपकी deposit पहुंच गई, जबकि spending key ऐसे hardware पर रहती है जो कभी internet को छूता नहीं।
+**Incoming Viewing Key.** इससे भी सीमित: यह केवल आने वाले भुगतानों को दिखाती है। कोई exchange या merchant इसका उपयोग यह पुष्टि करने के लिए कर सकता है कि आपकी deposit पहुंच गई, जबकि spending key ऐसे hardware पर रहती है जो कभी internet को छूता नहीं।
 
 क्रम महत्वपूर्ण है। जो काम के लिए पर्याप्त हो, वही सबसे सीमित key दें, न कि आपके पास मौजूद सबसे व्यापक key।
 
@@ -64,7 +64,7 @@ explorer वास्तव में क्या पढ़ता है, इ�
 
 ## इसे व्यवहार में लागू करें
 
-- ऐसा wallet उपयोग करें जो default रूप से shield करे, जैसे [Zodl](https://zodl.com) या [Zingo!](https://www.zingolabs.org/)।
+- ऐसा wallet उपयोग करें जो default रूप से shield करे, जैसे [ZODL](https://zodl.com) या [Zingo!](https://www.zingolabs.org/)।
 - exchange से funds आते ही, उन्हें खर्च करने से पहले shield करें।
 - जब भी प्राप्तकर्ता support करता हो, shielded addresses पर भुगतान करें।
 - viewing key साझा करने से पहले, पूछें कि कौन सी key सबसे छोटी है जो पूछे गए प्रश्न का उत्तर दे सकती है।

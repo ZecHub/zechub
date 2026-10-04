@@ -121,7 +121,7 @@ NU6.2 обеспечил безопасность схемы Orchard для вс
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Постквантовая безопасность](../zcash-tech/post-quantum-security)
 

@@ -44,7 +44,7 @@
 | Sprout | البروتوكول المحمي الأصلي الذي أُطلقت به Zcash، وكان أبطأ وأثقل من Sapling. |
 | Spend and Output circuits | دائرتا الإثبات الجديدتان في Sapling اللتان حلّتا محل دائرة JoinSplit الوحيدة في Sprout. |
 | Diversified address | واحد من عناوين دفع متعددة غير قابلة للربط يمكنك اشتقاقها من مفتاح واحد. |
-| Viewing key | مفتاح يتيح لشخص ما رؤية معاملات المحفظة من دون أن يتمكن من الإنفاق منها. |
+| Viewing Key | مفتاح يتيح لشخص ما رؤية معاملات المحفظة من دون أن يتمكن من الإنفاق منها. |
 | Consensus branch id | رمز قصير يخبر الشبكة بقواعد أي ترقية تتبعها المعاملة. |
 
 ## الأسئلة الشائعة
@@ -82,7 +82,7 @@
 
 - [المجمّعات المحمية](../using-zcash/shielded-pools)
 - [مفاتيح العرض](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [ترقيات شبكة Zcash](../start-here/network-upgrades)
 - [المحافظ](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

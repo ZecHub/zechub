@@ -121,7 +121,7 @@ Zcash 还保持隐私吗？是的。Ironwood 保留了相同的屏蔽隐私特�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [后量子安全](../zcash-tech/post-quantum-security)
 

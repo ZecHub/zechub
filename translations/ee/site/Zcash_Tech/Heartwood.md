@@ -88,7 +88,7 @@ Ele be Coinbase ƒe nusiwo dona tso eme nadze le gaglãgbe, eyata tomenukulawo �
 
 [Gakotokuwo](../using-zcash/wallets)
 
-[zk-SNARKS ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
+[zk-SNARKs ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

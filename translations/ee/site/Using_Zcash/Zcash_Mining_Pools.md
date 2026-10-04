@@ -36,13 +36,13 @@ Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo dometɔ ɖesiaɖe te ŋu 
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [FlyPool ƒe ƒuƒoƒo](https://zcash.flypool.org/)
+- Nyatakakadzraɖoƒe: [Flypool ƒe ƒuƒoƒo](https://zcash.flypool.org/)
 - Ame ŋutɔ ƒe Fexexe: Ẽ
 - Ta Ƒomevi: Fetu Ðeka Mamlɛtɔ N 
 - Tadeaguƒe ƒe fetu: 1%

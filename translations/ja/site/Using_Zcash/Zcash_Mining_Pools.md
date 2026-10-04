@@ -36,13 +36,13 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- ウェブサイト: [FlyPool](https://zcash.flypool.org/)
+- ウェブサイト: [Flypool](https://zcash.flypool.org/)
 - プライベート支払い: YES
 - プールタイプ: Pay Per Last N 
 - プール手数料: 1%

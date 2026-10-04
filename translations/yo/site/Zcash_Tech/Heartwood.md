@@ -88,7 +88,7 @@ Coinbase outputs had to be transparent, so a miner's newly minted reward always 
 
 [Àwọn àpamọ́ owó](../using-zcash/wallets)
 
-[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKS](../zcash-tech/zk-snarks)
+[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

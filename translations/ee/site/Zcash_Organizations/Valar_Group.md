@@ -171,7 +171,7 @@ Valar Group nye ɖoɖowɔha siwo le wo ɖokui si la dometɔ ɖeka, eye wowɔa d�
 - **Project Tachyon** ƒe susu le nu siwo woagate ŋu awɔ atsɔ adzro nuwo me, ale si woawɔ akpɔe be wole eteƒe la kple alesi woate ŋu aɖo nɔnɔmeawo gbɔ didi.
 - **Valar Group** ƒe susu katã le gadzraɖoƒe siwo me ga nɔa ame si la ŋu, woƒe dɔwɔwɔ nyuie, PIR kple mɔ̃ɖaŋununya si hiã be woatsɔ awɔ ɖoɖo mawo dzii.
 
-Its distinctive contribution is making shielded governance operational. The NU7 vote is the first major use of that stack: holders prove Ironwood balances, wallets such as Zodl and Vizor can integrate the flow, and anyone can audit the tally without learning how a particular holder voted.
+Its distinctive contribution is making shielded governance operational. The NU7 vote is the first major use of that stack: holders prove Ironwood balances, wallets such as ZODL and Vizor can integrate the flow, and anyone can audit the tally without learning how a particular holder voted.
 
 Valar Group bua dziɖuɖumɔnu, nugbɔdɔwɔɖoɖowo kple gaɖaka ƒe ɖoɖo abe kuxi ɖeka ene: be woana Zcash nanɔ bɔbɔe na amewo le teƒe geɖe evɔ womagatsɔ dɔwɔŋusẽ ade habɔbɔ ɖeka me o.
 

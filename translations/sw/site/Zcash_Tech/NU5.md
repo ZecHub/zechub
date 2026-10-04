@@ -53,7 +53,7 @@ NU5 ilifuatia upgrades Zcash ya awali: Overwinter, Sapling, Blossom, Heartwood n
 | Orchard | Bwawa la kuogelea lenye ulinzi NU5 lilianzishwa, limejengwa kwenye mfumo wa kuthibitisha Halo 2 |
 | Halo 2 | Mfumo wa kuthibitisha nyuma ya Orchard ambao hauhitaji usanidi unaoaminika |
 | Trusted setup | Sherehe ya mara moja ambayo hufanya vigezo vya siri vya bwawa la kuogelea na lazima viaminiwe kuviharibu |
-| Unified address | Anwani moja inayoweza kuunganisha vipokezi kwa zaidi ya kundi moja (ZIP 316) |
+| Unified Address | Anwani moja inayoweza kuunganisha vipokezi kwa zaidi ya kundi moja (ZIP 316) |
 | Consensus branch id | Kitambulisho kinachoashiria ni seti gani ya sheria ambazo muamala unamiliki |
 
 ## FAQs
@@ -102,7 +102,7 @@ Orchard imejengwa kwenye mfumo wa kuthibitisha Halo 2, ambayo haihitaji usanidi 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Kuangalia funguo za kuvinjari](../zcash-tech/viewing-keys)
 

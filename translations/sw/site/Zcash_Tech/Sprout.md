@@ -77,7 +77,7 @@ Sprout ni uzinduzi wa awali ya Zcash, si baadaye kuboresha. Imekuwa kazi tangu g
 
 [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash Network Upgrades (Ubadilishaji wa Mtandao)](../start-here/network-upgrades)
 

@@ -77,7 +77,7 @@ Sprout ni ipilẹṣẹ akọkọ ti Zcash, kii ṣe igbesoke nigbamii. O ti n �
 
 [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](../using-zcash/shielded-pools)
 
-[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKS](../zcash-tech/zk-snarks)
+[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Àwọn Àtúnṣe sí Ìpínlẹ̀ Zcash](../start-here/network-upgrades)
 

@@ -44,7 +44,7 @@ Sapling kplɔ Overwinter, si nye June 2018 ƒe tɔtrɔ si dzra network la ƒe do
 | Sprout | Gbãtɔ shielded protocol Zcash dze egɔme kple, blewu eye wòlolo wu Sapling. |
 | Spend and Output circuits | Sapling ƒe kpeɖodzi nutome yeye eve siwo xɔ ɖe Sprout ƒe JoinSplit nutome ɖeka teƒe. |
 | Diversified address | Fexexe ƒe adrɛs geɖe siwo ŋu kadodo aɖeke mele o siwo nàte ŋu akpɔ tso safui ɖeka me la dometɔ ɖeka. |
-| Viewing key | Safui si nana ame aɖe kpɔa gakotoku ƒe asitsatsa evɔ mate ŋu azã ga tso eme o. |
+| Viewing Key | Safui si nana ame aɖe kpɔa gakotoku ƒe asitsatsa evɔ mate ŋu azã ga tso eme o. |
 | Consensus branch id | Kɔda kpui aɖe si gblɔna na network la be upgrade ƒe se siwo dzi asitsatsa aɖe zɔna ɖo. |
 
 ## Nyabiasewo ƒe Nyabiasewo
@@ -82,7 +82,7 @@ Le Sprout te la, asitsatsa si ŋu wokpɔ ta na tutu xɔa aɖabaƒoƒo geɖe eye 
 
 - [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools)
 - [Safuiwo Kpɔkpɔ](../zcash-tech/viewing-keys)
-- [zk-SNARKS ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
+- [zk-SNARKs ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
 - [Zcash Network ƒe Ðɔɖɔɖowo](../start-here/network-upgrades)
 - [Gakotokuwo](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

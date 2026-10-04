@@ -121,7 +121,7 @@ shielded 풀 안의 ZEC는 숨겨져 있는데, 어떻게 누구나 Orchard 버�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [포스트 양자 보안](../zcash-tech/post-quantum-security)
 

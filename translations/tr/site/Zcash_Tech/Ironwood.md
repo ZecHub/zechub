@@ -121,7 +121,7 @@ Turnike sayesinde. Eski Orchard havuzundan çıkan her coin, Ironwood'a girerken
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Kuantum Sonrası Güvenlik](../zcash-tech/post-quantum-security)
 

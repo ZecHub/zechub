@@ -44,9 +44,9 @@ Kokoamsɛm a wuntumi mma so da no ho nni mfaso. Ɛtɔ mmere bi a, ɛsɛ sɛ woky
 
 **Spending key.** Ohu biribiara na ɔde sika kɔ baabi foforo. Eyi ne sika no. Ɛtra wo nkyɛn na wɔmfa nkyɛ obiara da, esiane biribiara nti.
 
-**Full viewing key.** Akenkan nkutoo. Kyerɛ dwumadi a ɛba ne nea ɛkɔ ne nea ɛkari pɛ, nanso entumi nsɛe zatoshi biako mpo. Eyi ne nea wode ma akontaabufo anaa akontaabufo.
+**Full Viewing Key.** Akenkan nkutoo. Kyerɛ dwumadi a ɛba ne nea ɛkɔ ne nea ɛkari pɛ, nanso entumi nsɛe zatoshi biako mpo. Eyi ne nea wode ma akontaabufo anaa akontaabufo.
 
-**Incoming viewing key.** Narrower still: ɛkyerɛ sikatua a ɛreba nkutoo. Exchange anaa aguadifoɔ bi bɛtumi ayɛ yei de ahyɛ wo sika a wode asie no asi fam, berɛ a sika a wɔsɛe no safoa no tra hardware a ɛnka intanɛt da so.
+**Incoming Viewing Key.** Narrower still: ɛkyerɛ sikatua a ɛreba nkutoo. Exchange anaa aguadifoɔ bi bɛtumi ayɛ yei de ahyɛ wo sika a wode asie no asi fam, berɛ a sika a wɔsɛe no safoa no tra hardware a ɛnka intanɛt da so.
 
 Nhyehyɛe no ho hia. Fa safe a ɛyɛ teateaa sen biara a ɛyɛ adwuma no ma, na ɛnyɛ nea ɛtrɛw sen biara a ɛba sɛ wowɔ no.
 
@@ -64,7 +64,7 @@ Nhyehyɛe no ho hia. Fa safe a ɛyɛ teateaa sen biara a ɛyɛ adwuma no ma, na 
 
 ## Fa di dwuma
 
-- Fa sika kotoku a ɛbɔ ho ban default, te sɛ [Zodl](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
+- Fa sika kotoku a ɛbɔ ho ban default, te sɛ [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Shield sika bere a efi exchange bi ba ara pɛ, ansa na woasɛe sika.
 - Tua address ahorow a wɔabɔ ho ban bere biara a nea ogye no bɛboa bi no.
 - Ansa na wobɛkyɛ safoa a wode hwɛ ade no, bisa safoa bɛn na ɛyɛ ketewaa a ɛbua asɛmmisa a wɔrebisa no.

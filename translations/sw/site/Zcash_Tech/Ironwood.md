@@ -121,7 +121,7 @@ Kila sarafu kuondoka zamani Orchard pool ni kuhesabiwa katika checkpoint umma ka
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Usalama Baada ya Quantum](../zcash-tech/post-quantum-security)
 

@@ -88,7 +88,7 @@ Heartwood 이전에는 왜 채굴자에게 지급된 블록 보상이 공개적�
 
 [지갑](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

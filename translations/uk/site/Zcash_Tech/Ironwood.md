@@ -121,7 +121,7 @@ Turnstile не є новими для Zcash. Мережа вже викорис�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Постквантова безпека](../zcash-tech/post-quantum-security)
 

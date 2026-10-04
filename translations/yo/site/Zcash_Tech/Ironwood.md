@@ -121,7 +121,7 @@ Through the turnstile. Every coin leaving the old Orchard pool is counted at a p
 
 [Halo](../zcash-tech/halo)
 
-[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKS](../zcash-tech/zk-snarks)
+[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Ààbò Lẹ́yìn Ìwòye-ìmọ̀dá](../zcash-tech/post-quantum-security)
 

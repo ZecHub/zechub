@@ -121,7 +121,7 @@ Attraverso il turnstile. Ogni moneta che esce dal vecchio pool Orchard viene con
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Sicurezza post-quantistica](../zcash-tech/post-quantum-security)
 

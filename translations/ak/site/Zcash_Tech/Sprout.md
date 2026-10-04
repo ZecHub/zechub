@@ -77,7 +77,7 @@ Sprout yɛ Zcash mfitiaseɛ a wɔde sii hɔ, ɛnyɛ akyiri yi upgrade. Ɛyɛ adw
 
 [Atare a Wɔabɔ ho Ban](../using-zcash/shielded-pools)
 
-[zk-SNARKS NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
+[zk-SNARKs NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
 
 [Zcash Network Nkɔsoɔ a Wɔayɛ](../start-here/network-upgrades)
 

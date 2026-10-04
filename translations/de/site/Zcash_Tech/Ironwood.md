@@ -121,7 +121,7 @@ Durch die Schleuse. Jede Coin, die den alten Orchard Pool verlässt, wird an ein
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Post-Quantum-Sicherheit](../zcash-tech/post-quantum-security)
 

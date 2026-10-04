@@ -77,7 +77,7 @@ Sprout, daha sonraki bir yükseltme değil, Zcash'in orijinal başlangıcıdır.
 
 [Shielded Pools](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash Ağ Yükseltmeleri](../start-here/network-upgrades)
 

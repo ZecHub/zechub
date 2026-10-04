@@ -44,7 +44,7 @@ Sapling dii Overwinter akyi, June 2018 nkɔsoɔ a ɛsiesiee ntwamutam no nkɔso�
 | Sprout | Mfitiaseɛ shielded protocol Zcash de sii hɔ, brɛoo na emu yɛ duru sene Sapling. |
 | Spend and Output circuits | Sapling proving circuits foforo abien a esii Sprout JoinSplit circuit biako no ananmu. |
 | Diversified address | Address pii a entumi nkɔ so tua ka a wubetumi anya afi safe biako mu no mu biako. |
-| Viewing key | Safoa a ɛma obi hu sika kotoku mu nnwuma a ontumi nsɛe sika mfi mu. |
+| Viewing Key | Safoa a ɛma obi hu sika kotoku mu nnwuma a ontumi nsɛe sika mfi mu. |
 | Consensus branch id | Code tiawa a ɛkyerɛ network no upgrade mmara a asɛm bi di akyi. |
 
 ## FAQ
@@ -59,7 +59,7 @@ Nsonsonoe bɛn na ɛda Sprout ne Sapling ntam? Sprout ne protocol a edi kan a w�
 
 Dɛn nti na nsɛm bi ka sɛ October 28 na afoforo ka sɛ October 29? Wɔdii kan de activation height no sii hɔ sɛ wɔde bɛto October 28, 2018. Wɔtu block a ɛkanyan nsakraeɛ no ankasa, block 419,200, wɔ October 29 UTC anɔpatutuutu. Wɔ mpɔtam hɔ bere nhyehyɛe pii mu a na ɛda so ara yɛ October 28. Ɛyɛ block koro no ara ne bere koro no ara ɔkwan biara so.
 
-Dɛn ne safe a wɔde hwɛ nneɛma? Viewing key ma wo kyɛ akenkan kwan kɔ sika kotoku a wɔabɔ ho ban so. Obi a ɔwɔ safe a ɛhwɛ ade a ɛyɛ ma anaasɛ ɛreba no betumi ahu sika kotoku no mu aguadi ho nsɛm nanso ontumi mfa ne sika nni dwuma. Hwɛ [Nneɛma a Wɔde Hwɛ](../zcash-tech/viewing-keys) sɛ wopɛ pii a.
+Dɛn ne safe a wɔde hwɛ nneɛma? Viewing Key ma wo kyɛ akenkan kwan kɔ sika kotoku a wɔabɔ ho ban so. Obi a ɔwɔ safe a ɛhwɛ ade a ɛyɛ ma anaasɛ ɛreba no betumi ahu sika kotoku no mu aguadi ho nsɛm nanso ontumi mfa ne sika nni dwuma. Hwɛ [Nneɛma a Wɔde Hwɛ](../zcash-tech/viewing-keys) sɛ wopɛ pii a.
 
 ## Sɔ wo ntease hwɛ
 
@@ -82,7 +82,7 @@ Wɔ Sprout ase no, na sɛ wɔbɛkyekyere asɛm a wɔabɔ ho ban no gye simma kak
 
 - [Atare a Wɔabɔ ho Ban](../using-zcash/shielded-pools)
 - [Nneɛma a Wɔde Hwɛ](../zcash-tech/viewing-keys)
-- [zk-SNARKS NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
+- [zk-SNARKs NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
 - [Zcash Network Nkɔsoɔ a Wɔayɛ](../start-here/network-upgrades)
 - [Sika kotoku](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

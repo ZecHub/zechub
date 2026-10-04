@@ -77,7 +77,7 @@ Sproutは後のアップグレードではなく、Zcashの最初のローンチ
 
 [シールドプール](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcashネットワークアップグレード](../start-here/network-upgrades)
 

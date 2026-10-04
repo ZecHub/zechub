@@ -36,7 +36,7 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>

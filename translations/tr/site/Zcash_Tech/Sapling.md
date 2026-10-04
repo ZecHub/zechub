@@ -44,7 +44,7 @@ Sapling, ağın yükseltme mekanizmasını hazırlayan Haziran 2018 yükseltmesi
 | Sprout | Zcash’in birlikte piyasaya çıktığı, Sapling’e göre daha yavaş ve daha ağır olan ilk korumalı protokol. |
 | Spend and Output circuits | Sprout’un tek JoinSplit devresinin yerini alan iki yeni Sapling ispat devresi. |
 | Diversified address | Tek bir anahtardan türetebileceğiniz, birbiriyle ilişkilendirilemeyen çok sayıdaki ödeme adresinden biri. |
-| Viewing key | Birinin, bir cüzdanın işlemlerini ondan harcama yapamadan görmesini sağlayan anahtar. |
+| Viewing Key | Birinin, bir cüzdanın işlemlerini ondan harcama yapamadan görmesini sağlayan anahtar. |
 | Consensus branch id | Ağa, bir işlemin hangi yükseltmenin kurallarını izlediğini söyleyen kısa kod. |
 
 ## SSS
@@ -82,7 +82,7 @@ Sprout döneminde korumalı bir işlem oluşturmak dakikalar sürüyor ve gigaba
 
 - [Shielded Pools](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Zcash Network Upgrades](../start-here/network-upgrades)
 - [Wallets](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

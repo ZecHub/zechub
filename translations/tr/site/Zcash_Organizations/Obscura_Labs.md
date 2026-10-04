@@ -51,7 +51,7 @@ Altyapı girişimleri şunları içerebilir:
 * Herkese açık Zcash ana ağ RPC uç noktaları.
 * Herkese açık Zcash test ağı RPC uç noktaları.
 * Zebra tam düğümleri.
-* Lightwalletd hizmetleri.
+* lightwalletd hizmetleri.
 * DNS seeder’ları.
 * Herkese açık altyapı izleme.
 * Geliştirici odaklı API’ler.
@@ -128,11 +128,11 @@ Kuruluş, Afrika içinde Zebra düğümleri işletmektedir.
 
 Zebra, Zcash mutabakat protokolünün bağımsız bir uygulamasıdır. Zebra altyapısının işletilmesi, ağ erişilebilirliğine, uygulama çeşitliliğine ve Zcash düğümlerinin coğrafi dağılımına katkıda bulunur.
 
-### Lightwalletd Hizmetleri
+### lightwalletd Hizmetleri
 
-Obscura Labs, Zcash cüzdan bağlantısını desteklemek için Lightwalletd altyapısı işletmektedir.
+Obscura Labs, Zcash cüzdan bağlantısını desteklemek için lightwalletd altyapısı işletmektedir.
 
-Lightwalletd, hafif istemci cüzdanlarına blokzincir verisi sağlar; böylece her cüzdan kullanıcısının tam bir Zcash düğümü işletmesi gerekmez. Bu nedenle güvenilir Lightwalletd hizmetleri, mobil cüzdanlar ve diğer hafif Zcash uygulamaları için önemlidir.
+lightwalletd, hafif istemci cüzdanlarına blokzincir verisi sağlar; böylece her cüzdan kullanıcısının tam bir Zcash düğümü işletmesi gerekmez. Bu nedenle güvenilir lightwalletd hizmetleri, mobil cüzdanlar ve diğer hafif Zcash uygulamaları için önemlidir.
 
 ### Altyapı İzleme
 

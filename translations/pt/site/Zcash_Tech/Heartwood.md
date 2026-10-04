@@ -88,7 +88,7 @@ As saídas coinbase tinham de ser transparentes, por isso a recompensa recém-cr
 
 [Wallets](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

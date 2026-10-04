@@ -121,7 +121,7 @@ Através do turnstile. Cada moeda que sai da antiga pool Orchard é contada num 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Segurança Pós-Quântica](../zcash-tech/post-quantum-security)
 

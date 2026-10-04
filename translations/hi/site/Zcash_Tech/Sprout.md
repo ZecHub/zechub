@@ -77,7 +77,7 @@ Sprout, Zcash का मूल लॉन्च है, कोई बाद क�
 
 [Shielded Pools](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash Network Upgrades](../start-here/network-upgrades)
 

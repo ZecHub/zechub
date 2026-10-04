@@ -121,7 +121,7 @@ turnstile के माध्यम से। पुराने Orchard pool �
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Post Quantum Security](../zcash-tech/post-quantum-security)
 

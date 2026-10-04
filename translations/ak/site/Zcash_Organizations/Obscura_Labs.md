@@ -51,7 +51,7 @@ Ahyeaseԑ akwankyerԑ a' edidisoɔ yi bi ne:
 * Aban Zcash mainnet RPC awiei nkyea.
 * Public Zcash testnet RPC endpoints.
 * Zebra full nodes.
-* Lightwalletd dwumadie.
+* lightwalletd dwumadie.
 * DNS aguadifo.
 * Aban amammerɛ akwanhwɛ.
 * Developer-focused APIs.
@@ -128,11 +128,11 @@ Ahyehyɛde no yɛ Zebra node ahorow wɔ Afrika mu.
 
 Zebra yɛ nhyehyɛeɛ a ɛgyina hɔ ma Zcash consensus protocol.
 
-### Lightwalletd Asɛdeɛ
+### lightwalletd Asɛdeɛ
 
-Obscura Labs na ɛhwɛ Lightwalletd mfidie so de boa Zcash sika nkotoku.
+Obscura Labs na ɛhwɛ lightwalletd mfidie so de boa Zcash sika nkotoku.
 
-Lightwalletd de blockchain data ma light-client wallets a ɛnhia sɛ wallet biara di dwuma wɔ Zcash node mu.
+lightwalletd de blockchain data ma light-client wallets a ɛnhia sɛ wallet biara di dwuma wɔ Zcash node mu.
 
 ### Akwanhosan a wɔhwɛ so
 

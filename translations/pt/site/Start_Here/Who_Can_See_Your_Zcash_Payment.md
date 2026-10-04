@@ -44,9 +44,9 @@ Privacidade que nunca pode ser levantada não é útil. Por vezes precisa de pro
 
 **Spending key.** Vê tudo e move fundos. Este é o dinheiro. Fica consigo e nunca é partilhada com ninguém, por qualquer motivo.
 
-**Full viewing key.** Só de leitura. Mostra atividade de entrada e saída e saldos, mas não pode gastar um único zatoshi. É isto que entrega a um auditor ou contabilista.
+**Full Viewing Key.** Só de leitura. Mostra atividade de entrada e saída e saldos, mas não pode gastar um único zatoshi. É isto que entrega a um auditor ou contabilista.
 
-**Incoming viewing key.** Ainda mais restrita: mostra apenas os pagamentos que entram. Uma exchange ou um comerciante pode utilizá-la para confirmar que o seu depósito chegou, enquanto a spending key permanece em hardware que nunca toca na internet.
+**Incoming Viewing Key.** Ainda mais restrita: mostra apenas os pagamentos que entram. Uma exchange ou um comerciante pode utilizá-la para confirmar que o seu depósito chegou, enquanto a spending key permanece em hardware que nunca toca na internet.
 
 A ordem importa. Dê a chave mais restrita que faça o trabalho, não a mais ampla que por acaso tenha.
 
@@ -64,7 +64,7 @@ A ordem importa. Dê a chave mais restrita que faça o trabalho, não a mais amp
 
 ## Coloque isto em prática
 
-- Use uma wallet que blinde por defeito, como a [Zodl](https://zodl.com) ou a [Zingo!](https://www.zingolabs.org/).
+- Use uma wallet que blinde por defeito, como a [ZODL](https://zodl.com) ou a [Zingo!](https://www.zingolabs.org/).
 - Blinde os fundos assim que chegarem de uma exchange, antes de os gastar.
 - Pague para endereços blindados sempre que o destinatário suportar um.
 - Antes de partilhar uma viewing key, pergunte qual é a menor chave que responde à questão que está a ser colocada.

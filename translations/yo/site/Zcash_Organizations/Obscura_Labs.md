@@ -51,7 +51,7 @@ Obscura Labs operates and develops Zcash infrastructure within Africa to improve
 * Awọn opin opin RPC ti Zcash mainnet ti gbogbo eniyan.
 * Awọn opin opin RPC ti nẹtiwọọki idanwo Zcash gbangba.
 * Zebra kún fún àwọn kókó.
-* Awọn iṣẹ Lightwalletd.
+* Awọn iṣẹ lightwalletd.
 * Àwọn olùgbìn DNS.
 * Ìtójútó àwọn ohun èlò ìkọ́lé.
 * Awọn API ti o ni idojukọ Olùgbéejáde.
@@ -128,11 +128,11 @@ DNS seeders ṣe iranlọwọ fun awọn nodes Zcash tuntun lati ṣe awari aw�
 
 Zebra jẹ ohun ominira imuse ti awọn Zcash consensus protocol. Ṣiṣẹ Zebra amayederun ṣe alabapin si nẹtiwọki wiwọle, imuse oniruuru, ati awọn agbegbe pinpin ti Zcash nodes.
 
-### Awọn Iṣẹ Lightwalletd
+### Awọn Iṣẹ lightwalletd
 
-Obscura Labs nṣiṣẹ Lightwalletd amayederun lati ṣe atilẹyin asopọ apamọwọ Zcash.
+Obscura Labs nṣiṣẹ lightwalletd amayederun lati ṣe atilẹyin asopọ apamọwọ Zcash.
 
-Lightwalletd provides blockchain data to light-client wallets without requiring each wallet user to operate a complete Zcash node. Reliable Lightwalletd services are therefore important for mobile wallets and other lightweight Zcash applications.
+lightwalletd provides blockchain data to light-client wallets without requiring each wallet user to operate a complete Zcash node. Reliable lightwalletd services are therefore important for mobile wallets and other lightweight Zcash applications.
 
 ### Àbójútó Ètò Ìkọ́lé
 

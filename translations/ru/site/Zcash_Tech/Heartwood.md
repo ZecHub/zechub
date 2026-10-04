@@ -88,7 +88,7 @@ Heartwood — это один шаг в серии обновлений Zcash, �
 
 [Кошельки](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

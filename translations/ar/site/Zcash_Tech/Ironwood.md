@@ -121,7 +121,7 @@ Ironwood هو [ترقية للشبكة](../start-here/network-upgrades) في Zca
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [الأمان ما بعد الكمّي](../zcash-tech/post-quantum-security)
 

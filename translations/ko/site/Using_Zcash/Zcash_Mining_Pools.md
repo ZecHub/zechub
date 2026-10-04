@@ -36,13 +36,13 @@ Zcash 채굴 풀은 개별 채굴자들이 자신의 컴퓨팅 파워(해시레�
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- 웹사이트: [FlyPool](https://zcash.flypool.org/)
+- 웹사이트: [Flypool](https://zcash.flypool.org/)
 - 비공개 지급: 예
 - 풀 유형: Pay Per Last N 
 - 풀 수수료: 1%

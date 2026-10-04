@@ -36,13 +36,13 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- वेबसाइट: [FlyPool](https://zcash.flypool.org/)
+- वेबसाइट: [Flypool](https://zcash.flypool.org/)
 - Private Payouts: हाँ
 - पूल प्रकार: Pay Per Last N 
 - पूल शुल्क: 1%

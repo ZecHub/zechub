@@ -88,7 +88,7 @@ coinbase 输出必须是透明的，因此矿工新铸造的奖励总是会进�
 
 [钱包](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

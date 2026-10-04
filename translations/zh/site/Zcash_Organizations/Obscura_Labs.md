@@ -51,7 +51,7 @@ Obscura Labs 在非洲运营和开发 Zcash 基础设施，以提高网络的可
 * 公共 Zcash 主网 RPC 端点。
 * 公共 Zcash 测试网 RPC 端点。
 * Zebra 全节点。
-* Lightwalletd 服务。
+* lightwalletd 服务。
 * DNS seeder。
 * 公共基础设施监控。
 * 面向开发者的 API。
@@ -128,11 +128,11 @@ DNS seeder 可帮助新的 Zcash 节点在连接网络时发现对等节点。�
 
 Zebra 是 Zcash 共识协议的一个独立实现。运营 Zebra 基础设施有助于提升网络可访问性、实现多样性以及 Zcash 节点的地域分布。
 
-### Lightwalletd 服务
+### lightwalletd 服务
 
-Obscura Labs 运营 Lightwalletd 基础设施，以支持 Zcash wallet 的连接能力。
+Obscura Labs 运营 lightwalletd 基础设施，以支持 Zcash wallet 的连接能力。
 
-Lightwalletd 为轻客户端 wallet 提供 blockchain 数据，而无需每个 wallet 用户都运行完整的 Zcash 节点。因此，可靠的 Lightwalletd 服务对于移动 wallet 和其他轻量级 Zcash 应用非常重要。
+lightwalletd 为轻客户端 wallet 提供 blockchain 数据，而无需每个 wallet 用户都运行完整的 Zcash 节点。因此，可靠的 lightwalletd 服务对于移动 wallet 和其他轻量级 Zcash 应用非常重要。
 
 ### 基础设施监控
 

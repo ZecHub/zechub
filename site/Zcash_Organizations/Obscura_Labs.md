@@ -51,7 +51,7 @@ Infrastructure initiatives may include:
 * Public Zcash mainnet RPC endpoints.
 * Public Zcash testnet RPC endpoints.
 * Zebra full nodes.
-* Lightwalletd services.
+* lightwalletd services.
 * DNS seeders.
 * Public infrastructure monitoring.
 * Developer-focused APIs.
@@ -128,11 +128,11 @@ The organization operates Zebra nodes within Africa.
 
 Zebra is an independent implementation of the Zcash consensus protocol. Operating Zebra infrastructure contributes to network accessibility, implementation diversity, and the geographic distribution of Zcash nodes.
 
-### Lightwalletd Services
+### lightwalletd Services
 
-Obscura Labs operates Lightwalletd infrastructure to support Zcash wallet connectivity.
+Obscura Labs operates lightwalletd infrastructure to support Zcash wallet connectivity.
 
-Lightwalletd provides blockchain data to light-client wallets without requiring each wallet user to operate a complete Zcash node. Reliable Lightwalletd services are therefore important for mobile wallets and other lightweight Zcash applications.
+lightwalletd provides blockchain data to light-client wallets without requiring each wallet user to operate a complete Zcash node. Reliable lightwalletd services are therefore important for mobile wallets and other lightweight Zcash applications.
 
 ### Infrastructure Monitoring
 

@@ -44,7 +44,7 @@ Sapling siguió a Overwinter, la actualización de junio de 2018 que preparó el
 | Sprout | El protocolo shielded original con el que se lanzó Zcash, más lento y pesado que Sapling. |
 | Spend and Output circuits | Los dos nuevos circuitos de prueba de Sapling que reemplazaron el único circuito JoinSplit de Sprout. |
 | Diversified address | Una de muchas direcciones de pago no vinculables que puedes derivar de una sola clave. |
-| Viewing key | Una clave que permite a alguien ver las transacciones de una wallet sin poder gastar desde ella. |
+| Viewing Key | Una clave que permite a alguien ver las transacciones de una wallet sin poder gastar desde ella. |
 | Consensus branch id | Un código corto que indica a la red qué reglas de actualización sigue una transacción. |
 
 ## Preguntas frecuentes
@@ -82,7 +82,7 @@ En Sprout, construir una transacción shielded tomaba minutos y usaba gigabytes 
 
 - [Pools shielded](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Actualizaciones de red de Zcash](../start-here/network-upgrades)
 - [Wallets](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

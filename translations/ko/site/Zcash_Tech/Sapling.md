@@ -44,7 +44,7 @@ Sapling은 2018년 6월 업그레이드인 Overwinter를 뒤따랐으며, Overwi
 | Sprout | Zcash가 처음 출시할 때 사용한 최초의 실드된 프로토콜로, Sapling보다 느리고 무거웠습니다. |
 | Spend and Output circuits | Sprout의 단일 JoinSplit 회로를 대체한 Sapling의 두 가지 새로운 증명 회로입니다. |
 | Diversified address | 하나의 키에서 파생할 수 있는, 서로 연결되지 않는 여러 결제 주소 중 하나입니다. |
-| Viewing key | 누군가가 지갑의 트랜잭션을 볼 수 있게 하되, 그 지갑에서 자금을 지출할 수는 없게 하는 키입니다. |
+| Viewing Key | 누군가가 지갑의 트랜잭션을 볼 수 있게 하되, 그 지갑에서 자금을 지출할 수는 없게 하는 키입니다. |
 | Consensus branch id | 트랜잭션이 어떤 업그레이드 규칙을 따르는지 네트워크에 알려주는 짧은 코드입니다. |
 
 ## FAQ
@@ -82,7 +82,7 @@ Sprout에서는 실드된 트랜잭션을 생성하는 데 몇 분이 걸리고 
 
 - [Shielded Pools](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Zcash 네트워크 업그레이드](../start-here/network-upgrades)
 - [지갑](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

@@ -53,7 +53,7 @@ NU5 は、Zcash のそれ以前のアップグレードである Overwinter、Sa
 | Orchard | NU5 が導入したシールドプールで、Halo 2 証明システム上に構築されているもの |
 | Halo 2 | Orchard の背後にある、トラステッドセットアップを必要としない証明システム |
 | Trusted setup | プールの秘密パラメータを生成する一度限りのセレモニーで、それらが破棄されたと信頼されなければならないもの |
-| Unified address | 複数のプール向け受信先をまとめられる単一のアドレス（ZIP 316） |
+| Unified Address | 複数のプール向け受信先をまとめられる単一のアドレス（ZIP 316） |
 | Consensus branch id | トランザクションがどのルールセットに属するかを示す識別子 |
 
 ## FAQ
@@ -102,7 +102,7 @@ Orchard は Halo 2 証明システム上に構築されており、トラステ�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

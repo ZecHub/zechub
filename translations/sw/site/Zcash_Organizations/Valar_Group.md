@@ -171,7 +171,7 @@ Valar Group ni moja ya mashirika huru itifaki kwamba sumu kuzunguka Zcash 2026 m
 - ** Mradi Tachyon** unazingatia kurudia, uthibitisho rasmi na uwezo wa kupanuka kwa muda mrefu.
 - ** Valar Group** inalenga katika binafsi coinholder kupiga kura, node utendaji, PIR, na uhandisi required kuendesha mifumo hiyo katika uzalishaji.
 
-mchango wake wa kipekee ni kufanya ulinzi utawala kazi. NU7 kura ni matumizi ya kwanza kubwa ya kwamba stack: wamiliki kuthibitisha Ironwood mizani, pochi kama vile Zodl na Vizor unaweza kuunganisha mtiririko, na mtu yeyote anaweza kukagua tally bila kujifunza jinsi mmiliki fulani alipiga kura.
+mchango wake wa kipekee ni kufanya ulinzi utawala kazi. NU7 kura ni matumizi ya kwanza kubwa ya kwamba stack: wamiliki kuthibitisha Ironwood mizani, pochi kama vile ZODL na Vizor unaweza kuunganisha mtiririko, na mtu yeyote anaweza kukagua tally bila kujifunza jinsi mmiliki fulani alipiga kura.
 
 Timu hiyohiyo ya node na kazi sync ni nia ya kusaidia nusu nyingine ya picha kwamba. binafsi kupiga kura ni chini muhimu kama pochi hawezi kulandanisha, nodes hawawezi kuendelea juu, au upgrades haiwezi kutekelezwa haraka. Valar Group kutibu utawala wa serikali, Node programu, na mkoba miundombinu kama tatizo moja: kufanya Zcash kibinafsi usable katika kiwango bila kuelekeza nguvu za uendeshaji katika shirika moja.
 

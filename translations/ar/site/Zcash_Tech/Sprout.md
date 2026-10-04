@@ -77,7 +77,7 @@ Sprout هو الإطلاق الأصلي لـ Zcash، وليس ترقية لاح�
 
 [المجمّعات المحمية](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [ترقيات شبكة Zcash](../start-here/network-upgrades)
 

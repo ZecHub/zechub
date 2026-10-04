@@ -44,9 +44,9 @@ Privacy that you can never lift is not useful. Sometimes you need to prove somet
 
 **Spending key.** Sees everything and moves funds. This is the money. It stays with you and is never shared with anyone, for any reason.
 
-**Full viewing key.** Read-only. Shows incoming and outgoing activity and balances, but cannot spend a single zatoshi. This is what you hand to an auditor or accountant.
+**Full Viewing Key.** Read-only. Shows incoming and outgoing activity and balances, but cannot spend a single zatoshi. This is what you hand to an auditor or accountant.
 
-**Incoming viewing key.** Narrower still: it shows only payments arriving. An exchange or a merchant can run this to confirm your deposit landed, while the spending key stays on hardware that never touches the internet.
+**Incoming Viewing Key.** Narrower still: it shows only payments arriving. An exchange or a merchant can run this to confirm your deposit landed, while the spending key stays on hardware that never touches the internet.
 
 The order matters. Give the narrowest key that does the job, not the widest one you happen to have.
 
@@ -64,7 +64,7 @@ The order matters. Give the narrowest key that does the job, not the widest one 
 
 ## Put it into practice
 
-- Use a wallet that shields by default, such as [Zodl](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
+- Use a wallet that shields by default, such as [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Shield funds as soon as they arrive from an exchange, before spending.
 - Pay to shielded addresses whenever the receiver supports one.
 - Before sharing a viewing key, ask which key is the smallest one that answers the question being asked.

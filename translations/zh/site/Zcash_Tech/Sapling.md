@@ -44,7 +44,7 @@ Sapling 紧随 Overwinter 之后，后者是 2018 年 6 月的一次升级，为
 | Sprout | Zcash 最初发布时采用的 shielded 协议，比 Sapling 更慢、更重。 |
 | Spend and Output circuits | Sapling 的两个新证明电路，取代了 Sprout 原先单一的 JoinSplit 电路。 |
 | Diversified address | 可由单一密钥派生出的多个不可关联收款地址之一。 |
-| Viewing key | 一种允许他人查看钱包交易、但不能花费其中资金的密钥。 |
+| Viewing Key | 一种允许他人查看钱包交易、但不能花费其中资金的密钥。 |
 | Consensus branch id | 一个简短代码，用于告诉网络某笔交易遵循的是哪次升级的规则。 |
 
 ## 常见问题
@@ -82,7 +82,7 @@ Sprout 和 Sapling 有什么区别？Sprout 是第一代 shielded 协议，使�
 
 - [Shielded Pools](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Zcash 网络升级](../start-here/network-upgrades)
 - [钱包](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

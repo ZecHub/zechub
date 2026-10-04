@@ -36,13 +36,13 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- 网站：[FlyPool](https://zcash.flypool.org/)
+- 网站：[Flypool](https://zcash.flypool.org/)
 - 隐私支付：是
 - 矿池类型：按最近 N 份额支付 
 - 矿池手续费：1%

@@ -88,7 +88,7 @@ Coinbase çıktılarının şeffaf olması gerekiyordu; bu yüzden bir madencini
 
 [Cüzdanlar](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

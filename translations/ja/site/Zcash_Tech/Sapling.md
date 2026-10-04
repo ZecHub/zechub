@@ -44,7 +44,7 @@ Sapling は、ネットワークのアップグレード機構を準備した201
 | Sprout | Zcash が最初に導入したシールド化プロトコルで、Sapling より遅く重い。 |
 | Spend and Output circuits | Sprout の単一の JoinSplit 回路を置き換えた、Sapling の2つの新しい証明回路。 |
 | Diversified address | 1つの鍵から導出できる、多数の相互にリンク不可能な支払い用アドレスの1つ。 |
-| Viewing key | ウォレットから資金を使うことなく、そのトランザクションを見られるようにする鍵。 |
+| Viewing Key | ウォレットから資金を使うことなく、そのトランザクションを見られるようにする鍵。 |
 | Consensus branch id | トランザクションがどのアップグレードのルールに従っているかをネットワークに伝える短いコード。 |
 
 ## FAQ
@@ -82,7 +82,7 @@ Sprout では、シールド化トランザクションの生成に数分と数�
 
 - [Shielded Pools](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Zcash ネットワークアップグレード](../start-here/network-upgrades)
 - [ウォレット](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

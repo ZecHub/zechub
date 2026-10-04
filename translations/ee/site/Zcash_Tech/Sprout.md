@@ -77,7 +77,7 @@ Sprout nye Zcash ƒe dodo gbãtɔ, ke menye emegbe ƒe tɔtrɔ o. Ewɔa dɔ tso 
 
 [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools)
 
-[zk-SNARKS ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
+[zk-SNARKs ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
 
 [Zcash Network ƒe Ðɔɖɔɖowo](../start-here/network-upgrades)
 

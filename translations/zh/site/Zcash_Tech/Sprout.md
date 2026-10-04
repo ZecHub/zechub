@@ -77,7 +77,7 @@ Sprout 是 Zcash 的最初发布，而不是后来的升级。它自 2016 年 10
 
 [屏蔽池](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash 网络升级](../start-here/network-upgrades)
 

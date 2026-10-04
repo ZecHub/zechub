@@ -121,7 +121,7 @@ turnstile を通じてです。古い Orchard プールを離れるすべての�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [ポスト量子セキュリティ](../zcash-tech/post-quantum-security)
 

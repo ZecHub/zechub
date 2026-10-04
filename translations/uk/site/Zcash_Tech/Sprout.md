@@ -77,7 +77,7 @@ Sprout — це оригінальний запуск Zcash, а не пізні�
 
 [Екрановані пули](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Оновлення мережі Zcash](../start-here/network-upgrades)
 

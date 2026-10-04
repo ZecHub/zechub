@@ -44,9 +44,9 @@ Une confidentialité qu’on ne peut jamais lever n’est pas utile. Il arrive q
 
 **Clé de dépense.** Voit tout et déplace les fonds. C’est l’argent. Elle reste avec vous et n’est jamais partagée avec qui que ce soit, pour aucune raison.
 
-**Full viewing key.** Lecture seule. Elle montre l’activité entrante et sortante ainsi que les soldes, mais ne permet pas de dépenser un seul zatoshi. C’est ce que vous remettez à un auditeur ou à un comptable.
+**Full Viewing Key.** Lecture seule. Elle montre l’activité entrante et sortante ainsi que les soldes, mais ne permet pas de dépenser un seul zatoshi. C’est ce que vous remettez à un auditeur ou à un comptable.
 
-**Incoming viewing key.** Encore plus restreinte : elle ne montre que les paiements entrants. Un exchange ou un commerçant peut l’utiliser pour confirmer que votre dépôt est bien arrivé, tandis que la clé de dépense reste sur un matériel qui ne touche jamais Internet.
+**Incoming Viewing Key.** Encore plus restreinte : elle ne montre que les paiements entrants. Un exchange ou un commerçant peut l’utiliser pour confirmer que votre dépôt est bien arrivé, tandis que la clé de dépense reste sur un matériel qui ne touche jamais Internet.
 
 L’ordre a son importance. Donnez la clé la plus restreinte qui permet d’accomplir la tâche, pas la plus large que vous avez sous la main.
 
@@ -64,7 +64,7 @@ L’ordre a son importance. Donnez la clé la plus restreinte qui permet d’acc
 
 ## Passez à la pratique
 
-- Utilisez un wallet qui protège par défaut, comme [Zodl](https://zodl.com) ou [Zingo!](https://www.zingolabs.org/).
+- Utilisez un wallet qui protège par défaut, comme [ZODL](https://zodl.com) ou [Zingo!](https://www.zingolabs.org/).
 - Protégez les fonds dès leur arrivée depuis un exchange, avant de les dépenser.
 - Payez vers des adresses protégées chaque fois que le destinataire en prend en charge une.
 - Avant de partager une viewing key, demandez quelle est la plus petite clé qui permet de répondre à la question posée.

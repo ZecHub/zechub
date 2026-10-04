@@ -88,7 +88,7 @@ Na ɛsɛ sɛ Coinbase outputs yɛ nea ɛda adi pefee, enti bere nyinaa na obi a 
 
 [Sika kotoku](../using-zcash/wallets)
 
-[zk-SNARKS NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
+[zk-SNARKs NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

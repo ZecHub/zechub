@@ -77,7 +77,7 @@ Sprout는 나중에 이루어진 업그레이드가 아니라 Zcash의 원래 �
 
 [차폐 풀](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash 네트워크 업그레이드](../start-here/network-upgrades)
 

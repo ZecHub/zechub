@@ -36,13 +36,13 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Site web : [FlyPool](https://zcash.flypool.org/)
+- Site web : [Flypool](https://zcash.flypool.org/)
 - Paiements privés : OUI
 - Type de pool : Pay Per Last N 
 - Frais du pool : 1 %

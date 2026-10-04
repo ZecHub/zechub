@@ -44,7 +44,7 @@ Sapling followed Overwinter, the June 2018 upgrade that prepared the network's u
 | Sprout | Itifaki ya awali iliyolindwa Zcash ilizinduliwa na, polepole na nzito kuliko Sapling. |
 | Spend and Output circuits | Saketi mbili mpya zinazothibitisha Sapling zilizochukua nafasi ya saketi moja Sprout's JoinSplit. |
 | Diversified address | Mojawapo ya anwani nyingi za malipo ambazo haziwezi kuunganishwa unazoweza kupata kutoka kwa ufunguo mmoja. |
-| Viewing key | Ufunguo unaomruhusu mtu kuona miamala ya pochi bila kuweza kutumia pesa kutoka kwayo. |
+| Viewing Key | Ufunguo unaomruhusu mtu kuona miamala ya pochi bila kuweza kutumia pesa kutoka kwayo. |
 | Consensus branch id | Nambari fupi inayoelezea mtandao sheria za uboreshaji ambazo muamala unafuata. |
 
 ## FAQs
@@ -82,7 +82,7 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 
 - [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
 - [Kuangalia funguo za kuvinjari](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Zcash Network Upgrades (Ubadilishaji wa Mtandao)](../start-here/network-upgrades)
 - [Mkoba](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

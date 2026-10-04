@@ -88,7 +88,7 @@ Coinbase-Outputs mussten transparent sein, daher landete die neu erzeugte Belohn
 
 [Wallets](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

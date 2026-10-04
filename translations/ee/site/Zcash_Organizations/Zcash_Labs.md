@@ -54,9 +54,9 @@ Mɔnu sia le vevie elabena menye ɖoɖo ɖesiaɖe ye sɔna na Zcash o. Ne wotia 
 
 ## Dɔwɔƒe si nye Zcash Labs ƒe Mɔ̃ɖaŋudɔwɔwɔwo
 
-Hekpe ɖe nuwɔwɔ be ame etɔ̃ ƒe akpawo nawɔ ɖeka ŋu la, Zcash Labs wɔa dɔ eye wotua ɖoɖo si kpena ɖe amewo ŋu wotea ŋu ɖoa Zcash-a me. Esi wova doe ɖe dukɔmeviwo gbɔ la, habɔbɔa gblɔ be ele **Shielded Vote Validator** zãm hele subɔsubɔwo wɔm siwo dometɔ aɖewo nye **Zcash full node**, **Lightwalletd** kple **RPC** gɔmeɖoanyiwo.
+Hekpe ɖe nuwɔwɔ be ame etɔ̃ ƒe akpawo nawɔ ɖeka ŋu la, Zcash Labs wɔa dɔ eye wotua ɖoɖo si kpena ɖe amewo ŋu wotea ŋu ɖoa Zcash-a me. Esi wova doe ɖe dukɔmeviwo gbɔ la, habɔbɔa gblɔ be ele **Shielded Vote Validator** zãm hele subɔsubɔwo wɔm siwo dometɔ aɖewo nye **Zcash full node**, **lightwalletd** kple **RPC** gɔmeɖoanyiwo.
 
-Wozãa Full Nodes tsɔ ƒoa ka kple kadodo si le network la me tẽe eye woɖoa blockchain ŋuti nyatakakawo ɖi. Lightwalletd kpena ɖe gaɖigbalẽviwo ŋu be woaxɔ nyatakaka siwo hiã tso network dzi evɔ womegazãa blockchain bliboa o. Le ɣeyiɣi ma ke me, RPC naa mɔ aɖe li na kɔmpiuta bubuwo ƒe dɔwɔɖoɖowo be woate ŋu aƒo nu kple Blockchain nodes alo services.
+Wozãa Full Nodes tsɔ ƒoa ka kple kadodo si le network la me tẽe eye woɖoa blockchain ŋuti nyatakakawo ɖi. lightwalletd kpena ɖe gaɖigbalẽviwo ŋu be woaxɔ nyatakaka siwo hiã tso network dzi evɔ womegazãa blockchain bliboa o. Le ɣeyiɣi ma ke me, RPC naa mɔ aɖe li na kɔmpiuta bubuwo ƒe dɔwɔɖoɖowo be woate ŋu aƒo nu kple Blockchain nodes alo services.
 
 Dɔwɔwɔ kple nuɖoanyi sia do ƒome tẽe kple Zcash Labs ƒe ɖekawɔwɔ. dɔwɔƒewo kple dɔwɔla siwo le zcash dɔwɔnuwo tum la hiã mɔɖeɖe na internet dzi dɔwɔwɔ nyuie. to wo zazã ɖeɖeko me, Zcash Lab ate ŋu akeke woƒe ɖoɖowɔɖi si li be yewoazã ne wole nuwo dome nɔm ɖekae ŋuti nuteƒekpɔkpɔ tso ŋgɔgbedɔwo gbɔ kpɔkpɔ me.
 
@@ -128,9 +128,9 @@ Ne Zcash Labs awɔ asitsatsa le gadzraɖoƒe aɖe me la, habɔbɔa gblɔ be woma
 
 ---
 
-## ZcashtoCash (Gazigba ɖe Ga)
+## ZcashToCash (Gazigba ɖe Ga)
 
-**[ZcashtoCash (Gazigba ɖe Ga)](https://zcashto.cash/)** enye dɔdeasi gbãtɔ siwo dzi ame geɖe nya nu tsoe be Zcash Labs da asi ɖe edzi. Wowɔ dɔa tsɔ kpe ɖe amesiwo zãa ZEC ŋu wotrɔna zua ga si wotsɔ ɖo wo ɖokui ŋkume to asitsatsa me kple amewo domee (peer-to-peer).
+**[ZcashToCash (Gazigba ɖe Ga)](https://zcashto.cash/)** enye dɔdeasi gbãtɔ siwo dzi ame geɖe nya nu tsoe be Zcash Labs da asi ɖe edzi. Wowɔ dɔa tsɔ kpe ɖe amesiwo zãa ZEC ŋu wotrɔna zua ga si wotsɔ ɖo wo ɖokui ŋkume to asitsatsa me kple amewo domee (peer-to-peer).
 
 zcashtocash zãa nuɖoanyi tso **Peer**. Wozãa ɖoɖo sia tsɔ dea dzesi ga siwo wotsɔna xea fe na ame le adzame hafi ɖea ZEC ɖe go le asitsatsa me. Esi wova do Zcash Labs ɖe amewo gbɔ la, woxɔ Cash App*, Chime* Monzo,* Revolut * Venmo kple Zelle*.
 
@@ -232,6 +232,6 @@ To mɔnu sia dzi la, Zcash Labs ƒe taɖodzinue nye be yeana mɔ si zɔ tẽ wu 
 
 [Zcash Labs le X dzi](https://x.com/zcashlabs)
 
-[Zcash Labs le Github dzi](https://github.com/zcashlabs)
+[Zcash Labs le GitHub dzi](https://github.com/zcashlabs)
 
 [Zcash Labs le Internet dzi Blogwo me](https://zcashlabs.org/blog)

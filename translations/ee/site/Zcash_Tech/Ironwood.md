@@ -121,7 +121,7 @@ To ʋuƒoa dzi. Woxlẽa gaku ɖesiaɖe si dona le Orchard-ta xoxoa me le dutoƒ
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
+[zk-SNARKs ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
 
 [Post Quantum Dedienɔnɔ](../zcash-tech/post-quantum-security)
 

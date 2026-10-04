@@ -54,9 +54,9 @@ Zcash Labs 说明了一套相当简单的工作流程。流程始于了解接洽
 
 ## Zcash Labs 的基础设施运营
 
-除了推动第三方集成外，Zcash Labs 还运营和开发支持访问 Zcash 网络的基础设施。在向公众亮相时，该组织表示其运营着一项 **Shielded Vote Validator**，并正在开发包括 **Zcash 全节点**、**Lightwalletd** 和 **RPC** 基础设施在内的服务。
+除了推动第三方集成外，Zcash Labs 还运营和开发支持访问 Zcash 网络的基础设施。在向公众亮相时，该组织表示其运营着一项 **Shielded Vote Validator**，并正在开发包括 **Zcash 全节点**、**lightwalletd** 和 **RPC** 基础设施在内的服务。
 
-全节点用于直接连接网络并验证 blockchain 数据。Lightwalletd 可帮助钱包和轻量级应用程序从网络获取所需数据，而无需在本地运行整个 blockchain。同时，RPC 为外部软件与 blockchain 节点或服务通信提供了一种方式。
+全节点用于直接连接网络并验证 blockchain 数据。lightwalletd 可帮助钱包和轻量级应用程序从网络获取所需数据，而无需在本地运行整个 blockchain。同时，RPC 为外部软件与 blockchain 节点或服务通信提供了一种方式。
 
 运营这类基础设施与 Zcash Labs 的集成工作直接相关。构建 Zcash 应用程序的企业和开发者需要可靠的网络访问。通过独立运营这些服务，Zcash Labs 能够扩展可用基础设施选项的范围，同时获得有关其所推动集成的技术要求的一手经验。
 
@@ -128,9 +128,9 @@ Zcash Labs 的初始模式不同于传统风险投资公司。在 **[Zcash 社�
 
 ---
 
-## ZcashtoCash
+## ZcashToCash
 
-**[ZcashtoCash](https://zcashto.cash/)** 是最早被公开知晓获得 Zcash Labs 支持的项目之一。该项目旨在帮助用户通过点对点交易将 ZEC 兑换为法定货币。
+**[ZcashToCash](https://zcashto.cash/)** 是最早被公开知晓获得 Zcash Labs 支持的项目之一。该项目旨在帮助用户通过点对点交易将 ZEC 兑换为法定货币。
 
 zcashtocash 使用来自 **Peer** 的基础设施。该系统用于在交易中释放 ZEC 前验证法定货币付款。在 Zcash Labs 向公众亮相时，该服务已经支持 **Cash App**、**Chime**、**Monzo**、**Revolut**、**Venmo** 和 **Zelle**。
 
@@ -232,6 +232,6 @@ Zcash Labs 的模式将技术专长与资金相结合。该组织可以协助设
 
 [Zcash Labs on X](https://x.com/zcashlabs)
 
-[Zcash Labs on Github](https://github.com/zcashlabs)
+[Zcash Labs on GitHub](https://github.com/zcashlabs)
 
 [Zcash Labs on Web Blogs](https://zcashlabs.org/blog)

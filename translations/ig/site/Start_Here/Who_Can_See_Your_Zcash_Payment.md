@@ -44,9 +44,9 @@ Privacy that you can never lift is not useful. Sometimes you need to prove somet
 
 **Mkpịsị ugodi mmefu.** Na-ahụ ihe niile ma na-ebugharị ego. Nke a bụ ego ahụ. Ọ ga-anọnyere gị, ọ dịghịkwa onye ọzọ e keere ya n'ihi ihe ọ bụla.
 
-** Igodo nlele zuru oke.** Ọ bụ naanị ịgụ. Na-egosi ọrụ na ihe ndị ọzọ, mana enweghị ike imefu otu zatoshi ọ bụla. Nke a ka ị ga - enye onye nyocha maọbụ akaụntụ gị.
+** Igodo nlele zuru oke (Full Viewing Key).** Ọ bụ naanị ịgụ. Na-egosi ọrụ na ihe ndị ọzọ, mana enweghị ike imefu otu zatoshi ọ bụla. Nke a ka ị ga - enye onye nyocha maọbụ akaụntụ gị.
 
-** Igodo nlele na-abata. * Nke ka dị warara: ọ na - egosi naanị ịkwụ ụgwọ ndị rutere. Exchange ma ọ bụ onye ahịa nwere ike ịgba ọsọ a iji kwado nkwụnye ego gị, ebe igodo mmefu ahụ nọgidere na ngwaike nke anaghị emetụ ịntanetị aka.
+** Igodo nlele na-abata (Incoming Viewing Key). * Nke ka dị warara: ọ na - egosi naanị ịkwụ ụgwọ ndị rutere. Exchange ma ọ bụ onye ahịa nwere ike ịgba ọsọ a iji kwado nkwụnye ego gị, ebe igodo mmefu ahụ nọgidere na ngwaike nke anaghị emetụ ịntanetị aka.
 
 Ihe dị mkpa bụ otú e si hazie ya. Nye mkpịsị ugodi nke kasị dịrị gị nso, ọ bụghị nke kachasị gị obosara.
 
@@ -64,7 +64,7 @@ Ihe dị mkpa bụ otú e si hazie ya. Nye mkpịsị ugodi nke kasị dịrị 
 
 ## Mee ihe ị mụtara eme .
 
-- Jiri obere akpa ego nke na-echebe site na ndabara, dị ka [Zodl .](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
+- Jiri obere akpa ego nke na-echebe site na ndabara, dị ka [ZODL .](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Chekwa ego ozugbo ha si n'ụlọ ahịa ahụ rute, tupu a na-emefu ya.
 - Na-akwụ ụgwọ na adreesị echedoro mgbe ọ bụla onye natara ya kwadoro otu.
 - Tupu i nye onye ọzọ igodo e ji ele ihe anya, jụọ ya nke kacha obere ma zaa ajụjụ ahụ a jụrụ.

@@ -121,7 +121,7 @@ Site na turnstile. A na-agụta mkpụrụ ego ọ bụla nke si n'ọdọ mmiri
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Nchebe nke Post Quantum](../zcash-tech/post-quantum-security)
 

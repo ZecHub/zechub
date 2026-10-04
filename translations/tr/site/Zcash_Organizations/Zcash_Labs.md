@@ -54,9 +54,9 @@ Bu yaklaşım önemlidir; çünkü her proje otomatik olarak Zcash için uygun d
 
 ## Zcash Labs Tarafından Altyapı Operasyonları
 
-Üçüncü taraf entegrasyonlarını kolaylaştırmanın yanı sıra Zcash Labs, Zcash ağına erişimi destekleyen altyapıyı da işletir ve geliştirir. Kuruluş kamuoyuna tanıtıldığında, bir **Shielded Vote Validator** işlettiğini ve **Zcash full node**, **Lightwalletd** ve **RPC** altyapısını içeren hizmetler geliştirdiğini belirtti.
+Üçüncü taraf entegrasyonlarını kolaylaştırmanın yanı sıra Zcash Labs, Zcash ağına erişimi destekleyen altyapıyı da işletir ve geliştirir. Kuruluş kamuoyuna tanıtıldığında, bir **Shielded Vote Validator** işlettiğini ve **Zcash full node**, **lightwalletd** ve **RPC** altyapısını içeren hizmetler geliştirdiğini belirtti.
 
-Tam düğümler, ağa doğrudan bağlanmak ve blokzincir verilerini doğrulamak için kullanılır. Lightwalletd, cüzdanların ve hafif uygulamaların tüm blokzinciri yerel olarak çalıştırmadan ağdan gerekli verileri almasına yardımcı olur. RPC ise harici yazılımların blokzincir düğümleri veya hizmetleriyle iletişim kurmasını sağlar.
+Tam düğümler, ağa doğrudan bağlanmak ve blokzincir verilerini doğrulamak için kullanılır. lightwalletd, cüzdanların ve hafif uygulamaların tüm blokzinciri yerel olarak çalıştırmadan ağdan gerekli verileri almasına yardımcı olur. RPC ise harici yazılımların blokzincir düğümleri veya hizmetleriyle iletişim kurmasını sağlar.
 
 Bu altyapının işletilmesi, Zcash Labs'in entegrasyon çalışmalarıyla doğrudan bağlantılıdır. Zcash uygulamaları geliştiren işletmeler ve geliştiriciler, ağa güvenilir erişim gerektirir. Zcash Labs bu hizmetleri bağımsız biçimde çalıştırarak, kolaylaştırdığı entegrasyonların teknik gereksinimleri hakkında doğrudan deneyim edinirken mevcut altyapı seçeneklerinin kapsamını genişletebilir.
 
@@ -128,9 +128,9 @@ Zcash Labs gelecekte bir hisse yatırımı yaparsa, kuruluş bu hisseyi edinmeni
 
 ---
 
-## ZcashtoCash
+## ZcashToCash
 
-**[ZcashtoCash](https://zcashto.cash/)**, Zcash Labs'ten destek aldığı kamuoyunca bilinen en erken projelerden biridir. Proje, kullanıcıların eşler arası işlemler aracılığıyla ZEC'i itibari para birimine dönüştürmesine yardımcı olmak için oluşturuldu.
+**[ZcashToCash](https://zcashto.cash/)**, Zcash Labs'ten destek aldığı kamuoyunca bilinen en erken projelerden biridir. Proje, kullanıcıların eşler arası işlemler aracılığıyla ZEC'i itibari para birimine dönüştürmesine yardımcı olmak için oluşturuldu.
 
 zcashtocash, **Peer** altyapısını kullanır. Bu sistem, bir işlemde ZEC serbest bırakılmadan önce itibari para ödemelerini doğrulamak için kullanılır. Zcash Labs kamuoyuna tanıtıldığında hizmet hâlihazırda **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo** ve **Zelle**'yi destekliyordu.
 
@@ -232,6 +232,6 @@ Bu yaklaşımla Zcash Labs, bir ihtiyaçtan veya fikirden tamamen işlevsel ve k
 
 [Zcash Labs on X](https://x.com/zcashlabs)
 
-[Zcash Labs on Github](https://github.com/zcashlabs)
+[Zcash Labs on GitHub](https://github.com/zcashlabs)
 
 [Zcash Labs on Web Blogs](https://zcashlabs.org/blog)

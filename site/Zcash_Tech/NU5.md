@@ -53,7 +53,7 @@ NU5 followed Zcash's earlier upgrades: Overwinter, Sapling, Blossom, Heartwood, 
 | Orchard | The shielded pool NU5 introduced, built on the Halo 2 proving system |
 | Halo 2 | The proving system behind Orchard that needs no trusted setup |
 | Trusted setup | A one-time ceremony that makes a pool's secret parameters and must be trusted to destroy them |
-| Unified address | A single address that can bundle receivers for more than one pool (ZIP 316) |
+| Unified Address | A single address that can bundle receivers for more than one pool (ZIP 316) |
 | Consensus branch id | An identifier marking which set of rules a transaction belongs to |
 
 ## FAQ
@@ -102,7 +102,7 @@ Orchard is built on the Halo 2 proving system, which needs no trusted setup and 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

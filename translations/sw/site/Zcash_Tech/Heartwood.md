@@ -88,7 +88,7 @@ Coinbase matokeo alikuwa na kuwa uwazi, hivyo mchimbaji wa tuzo mpya minted daim
 
 [Mkoba](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

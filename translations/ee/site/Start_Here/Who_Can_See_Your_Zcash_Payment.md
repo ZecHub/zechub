@@ -44,9 +44,9 @@ Adzamenyawo si màte ŋu akɔ gbeɖe o la meɖea vi o. Ɣeaɖewoɣi la, ehiãna 
 
 **Gazazã ƒe safui.** Ekpɔa nusianu eye wòʋua ga. Esiae nye ga la. Enɔa gbɔwò eye womegblɔnɛ na ame aɖeke gbeɖe o, le susu aɖeke ta.
 
-**Full viewing key.** Nuxexlẽ ɖeɖeko. Fia dɔwɔna si va kple esi dona kple dadasɔ, gake mate ŋu azã zatoshi ɖeka pɛ hã o. Esiae nye nusi nètsɔ dea asi na agbalẽdzikpɔla alo akɔntanyala.
+**Full Viewing Key.** Nuxexlẽ ɖeɖeko. Fia dɔwɔna si va kple esi dona kple dadasɔ, gake mate ŋu azã zatoshi ɖeka pɛ hã o. Esiae nye nusi nètsɔ dea asi na agbalẽdzikpɔla alo akɔntanyala.
 
-**Incoming viewing key.** Narrower still: fexexe siwo va ɖo koe wòɖena fiana. Exchange alo asitsala ate ŋu awɔ esia atsɔ aɖo kpe edzi be wò ga si nède la ɖi, evɔ gazazã ƒe safuia ya nɔa xɔtunu siwo meka asi internet ŋu gbeɖe o dzi.
+**Incoming Viewing Key.** Narrower still: fexexe siwo va ɖo koe wòɖena fiana. Exchange alo asitsala ate ŋu awɔ esia atsɔ aɖo kpe edzi be wò ga si nède la ɖi, evɔ gazazã ƒe safuia ya nɔa xɔtunu siwo meka asi internet ŋu gbeɖe o dzi.
 
 Sededea le vevie. Na safui si le gbadzaa wu si wɔa dɔa, ke menye esi keke wu si le asiwò le vome o.
 
@@ -64,7 +64,7 @@ Sededea le vevie. Na safui si le gbadzaa wu si wɔa dɔa, ke menye esi keke wu s
 
 ## Tsɔe de dɔwɔwɔ me
 
-- Zã gakotoku si kpɔa ame ta le gɔmedzedzea me, abe [Zodl](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
+- Zã gakotoku si kpɔa ame ta le gɔmedzedzea me, abe [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Akpoxɔnu gawo ne wonya tso gaɖɔliƒe aɖe ko, hafi nàzãe.
 - Fe na adrɛs siwo wokpɔ ta na ɣesiaɣi si amesi xɔe la do alɔ ɖeka.
 - Hafi nàma nukpɔkpɔ ƒe safui la, bia be safui kae nye suetɔ kekeake si ɖoa nya si wobia la ŋu.

@@ -36,13 +36,13 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Sitio web: [FlyPool](https://zcash.flypool.org/)
+- Sitio web: [Flypool](https://zcash.flypool.org/)
 - Pagos privados: SÍ
 - Tipo de pool: Pago por las últimas N 
 - Comisión del pool: 1%

@@ -44,7 +44,7 @@ Sapling followed Overwinter, the June 2018 upgrade that prepared the network's u
 | Sprout | Usoro nchekwa mbụ nke Zcash malitere site na, nwayọ ma dị arọ karịa Sapling. |
 | Spend and Output circuits | Sekit abụọ ọhụrụ Sapling proof nke nọchiri sekit JoinSplit Sprout's. |
 | Diversified address | Otu n'ime ọtụtụ adreesị ịkwụ ụgwọ na-enweghị njikọ ị nwere ike nweta site na otu igodo. |
-| Viewing key | Mkpịsị ugodi nke na-eme ka mmadụ hụ azụmahịa obere akpa ego n'enweghị ike imefu ego na ya. |
+| Viewing Key | Mkpịsị ugodi nke na-eme ka mmadụ hụ azụmahịa obere akpa ego n'enweghị ike imefu ego na ya. |
 | Consensus branch id | Koodu dị mkpirikpi nke na-agwa netwọk iwu nkwalite azụmahịa na-eso. |
 
 ## Ajụjụ ndị a na-ajụkarị
@@ -82,7 +82,7 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 
 - [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools)
 - [Igodo Nlele](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Nwelite netwọk Zcash](../start-here/network-upgrades)
 - [Akpa ego](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

@@ -171,7 +171,7 @@ Valar Group is one of the independent protocol organizations that formed around 
 - **Project Tachyon** na-elekwasị anya n'ịgbanwegharị, nyocha nke ọma, yana ike ịba ụba ogologo oge.
 - ** Valar Group** na-elekwasị anya na votu nke ndị nwe ego, arụmọrụ ọnụ, PIR, yana injinịa achọrọ iji rụọ ọrụ sistemụ ndị ahụ n'ime mmepụta.
 
-Onyinye ya pụrụ iche na-eme ka ọchịchị a kpuchiri ekpuchi rụọ ọrụ. Ntuli aka NU7 bụ isi ihe mbụ nke nchịkọta ahụ: ndị nwe ha gosipụtara nguzozi Ironwood, obere akpa dị ka Zodl na Vizor nwere ike ijikọta usoro ahụ, onye ọ bụla nwekwara ike nyochaa ngụkọta n'amaghị otu onye nwe obodo si votu.
+Onyinye ya pụrụ iche na-eme ka ọchịchị a kpuchiri ekpuchi rụọ ọrụ. Ntuli aka NU7 bụ isi ihe mbụ nke nchịkọta ahụ: ndị nwe ha gosipụtara nguzozi Ironwood, obere akpa dị ka ZODL na Vizor nwere ike ijikọta usoro ahụ, onye ọ bụla nwekwara ike nyochaa ngụkọta n'amaghị otu onye nwe obodo si votu.
 
 The same team’s node and sync work is intended to support the other half of that picture. Private voting is less useful if wallets cannot sync, nodes cannot keep up, or upgrades cannot be implemented quickly. Valar Group treats governance, node software, and wallet infrastructure as one problem: make private Zcash usable at scale without concentrating operational power in a single organization.
 

@@ -54,9 +54,9 @@ This approach is important because not every project is automatically a good fit
 
 ## Miundombinu Operations na Zcash Labs
 
-In addition to facilitating third-party integrations, Zcash Labs also operates and develops the infrastructure that supports access to the Zcash network. When it was introduced to the public, the organization stated that it operates a **Shielded Vote Validator** and is developing services that include a **Zcash full node**, **Lightwalletd**, and **RPC** infrastructure.
+In addition to facilitating third-party integrations, Zcash Labs also operates and develops the infrastructure that supports access to the Zcash network. When it was introduced to the public, the organization stated that it operates a **Shielded Vote Validator** and is developing services that include a **Zcash full node**, **lightwalletd**, and **RPC** infrastructure.
 
-Nodes kamili hutumiwa kuungana moja kwa moja kwenye mtandao na kuthibitisha data blockchain. Lightwalletd husaidia pochi na maombi nyepesi kupata data muhimu kutoka kwa mtandao bila ya kukimbia nzima blockchain ndani yake. Wakati huo huo, RPC inatoa njia kwa programu za nje kuwasiliana na nodes au huduma za blockchain.
+Nodes kamili hutumiwa kuungana moja kwa moja kwenye mtandao na kuthibitisha data blockchain. lightwalletd husaidia pochi na maombi nyepesi kupata data muhimu kutoka kwa mtandao bila ya kukimbia nzima blockchain ndani yake. Wakati huo huo, RPC inatoa njia kwa programu za nje kuwasiliana na nodes au huduma za blockchain.
 
 Operating this infrastructure is directly tied to Zcash Labs’ integration efforts. Businesses and developers building Zcash applications require reliable access to the network. By running these services independently, Zcash Labs can expand the range of available infrastructure options while gaining firsthand experience with the technical requirements of the integrations it facilitates.
 
@@ -128,9 +128,9 @@ Kama Zcash Labs walikuwa kufanya uwekezaji wa usawa katika siku zijazo, shirika 
 
 ---
 
-## ZcashtoCash - Kiasi cha Fedha za Kimataifa.
+## ZcashToCash - Kiasi cha Fedha za Kimataifa.
 
-**[ZcashtoCash - Kiasi cha Fedha za Kimataifa.](https://zcashto.cash/)** ni moja ya miradi mapema hadharani inajulikana kuwa wamepokea msaada kutoka Zcash Labs. mradi iliundwa kusaidia watumiaji kubadilisha ZEC katika fedha za fiat kupitia shughuli peer-to-peer.
+**[ZcashToCash - Kiasi cha Fedha za Kimataifa.](https://zcashto.cash/)** ni moja ya miradi mapema hadharani inajulikana kuwa wamepokea msaada kutoka Zcash Labs. mradi iliundwa kusaidia watumiaji kubadilisha ZEC katika fedha za fiat kupitia shughuli peer-to-peer.
 
 zcashtocash hutumia miundombinu kutoka kwa **Peer**. Mfumo huu hutumika kuthibitisha malipo ya fiat kabla ya ZEC kutolewa katika muamala. Zcash Labs ilipoanzishwa kwa umma, huduma hiyo tayari iliunga mkono **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo**, na **Zelle**.
 
@@ -232,6 +232,6 @@ Kupitia njia hii, Zcash Labs inakusudia kuunda njia ya moja kwa moja kutoka kwa 
 
 [Zcash Labs juu ya X](https://x.com/zcashlabs)
 
-[Zcash Labs kwenye Github](https://github.com/zcashlabs)
+[Zcash Labs kwenye GitHub](https://github.com/zcashlabs)
 
 [Zcash Labs kwenye Blogu za Mtandao](https://zcashlabs.org/blog)
