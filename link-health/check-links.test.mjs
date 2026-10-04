@@ -97,16 +97,23 @@ eq("folder with only subfolders",
 eq("absolute wiki link", wikiPath("https://zechub.wiki/zcash-tech/zaino"), "/zcash-tech/zaino");
 eq("www and locale prefix", wikiPath("https://www.zechub.wiki/de/guides/x?y=1#z"), "/guides/x");
 eq("bare locale root", wikiPath("https://zechub.wiki/ja"), "/");
+eq("trailing slash on a page", wikiPath("https://zechub.wiki/zcash-tech/zaino/"), "/zcash-tech/zaino");
+eq("trailing slash on a file", wikiPath("https://zechub.wiki/nearintents.png/"), "/nearintents.png");
+eq("bare root keeps its slash", wikiPath("https://zechub.wiki/"), "/");
+eq("locale root with a slash", wikiPath("https://zechub.wiki/ja/"), "/");
 eq("other host", wikiPath("https://zechub.substack.com/"), null);
 // A malformed escape must not abort the scan; it stays encoded and resolves as a route.
 eq("malformed escape stays encoded", wikiPath("https://zechub.wiki/%ZZ"), "/%ZZ");
 eq("malformed escape is a broken route",
    routeExists(wikiPath("https://zechub.wiki/%ZZ"), [], appRoutes).ok, false);
 
-// Absolute links to wiki files are checked, not skipped.
+// Absolute links to wiki files are checked, not skipped. A file missing from the
+// public/ listing is fetched, since the site also serves files from elsewhere.
 const publicFiles = new Set(["/content-images/present.webp", "/nearintents.png"]);
-eq("absolute link to a missing content image", wikiLinkAction("/content-images/missing.svg", publicFiles), "asset-missing");
-eq("absolute link to a missing root file", wikiLinkAction("/definitely-missing.png", publicFiles), "asset-missing");
+eq("absolute link to a missing content image is fetched", wikiLinkAction("/content-images/missing.svg", publicFiles), "external");
+eq("absolute link to a missing root file is fetched", wikiLinkAction("/definitely-missing.png", publicFiles), "external");
+eq("build output outside public/ is fetched", wikiLinkAction("/llms.txt", publicFiles), "external");
+eq("raw markdown rewrite is fetched", wikiLinkAction("/using-zcash/wallets.md", publicFiles), "external");
 eq("absolute link to a present file", wikiLinkAction("/content-images/present.webp", publicFiles), "asset-ok");
 eq("file without the public listing is fetched", wikiLinkAction("/content-images/present.webp", null), "external");
 eq("dynamic paths are fetched", wikiLinkAction("/_next/static/chunk.js", publicFiles), "external");
