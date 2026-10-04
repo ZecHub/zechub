@@ -36,13 +36,13 @@ Zcash mining pools are services that allow individual miners to combine their co
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
+### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Ojú-ìwé: [Flypool (ìdánwò)](https://zcash.flypool.org/)
+- Ojú-ìwé: [FlyPool (ìdánwò)](https://zcash.flypool.org/)
 - Àwọn Ìsanwó Àdáni: BẸNÌ
 - Irú Àkójọ: Sanwo Nípa N Ìkẹyìn 
 - Owó ìsúná: 1%
@@ -111,6 +111,19 @@ Zcash mining pools are services that allow individual miners to combine their co
 - Àwọn Ìsanwó Àdáni: Kò sí.
 - Irú Àkójọ: Sanwó fún Ìpín +
 - Owó ìsúná: 4%
+
+---
+
+### [Zhash](https://zcash.zhash.pro/stats)
+
+<a href="https://zcash.zhash.pro/stats">
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
+</a>
+
+- Ojú-ìwé: [Zhash (ìyẹn àwọn ọmọ)](https://zcash.zhash.pro/stats)
+- Àwọn Ìsanwó Àdáni: Kò sí.
+- Irú Àkójọ: Sanwó fún Àwọn Ìpín N Tẹ́yìn
+- Owó ìsúná: 0%
 
 ---
 

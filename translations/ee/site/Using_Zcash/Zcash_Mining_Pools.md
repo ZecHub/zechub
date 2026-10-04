@@ -36,13 +36,13 @@ Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo dometɔ ɖesiaɖe te ŋu 
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
+### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Flypool ƒe ƒuƒoƒo](https://zcash.flypool.org/)
+- Nyatakakadzraɖoƒe: [FlyPool ƒe ƒuƒoƒo](https://zcash.flypool.org/)
 - Ame ŋutɔ ƒe Fexexe: Ẽ
 - Ta Ƒomevi: Fetu Ðeka Mamlɛtɔ N 
 - Tadeaguƒe ƒe fetu: 1%
@@ -111,6 +111,19 @@ Zcash tomenukuƒewo nye dɔwɔna siwo naa tomenukulawo dometɔ ɖesiaɖe te ŋu 
 - Ame ŋutɔ ƒe Fexexe: Ao
 - Ta ƒe Ƒomevi: Fetu Ðe Go Ðe Ame Ŋu+
 - Tadeaguƒe ƒe fetu: 4%
+
+---
+
+### [Zhash](https://zcash.zhash.pro/stats)
+
+<a href="https://zcash.zhash.pro/stats">
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
+</a>
+
+- Nyatakakadzraɖoƒe: [Zhash ƒe nya](https://zcash.zhash.pro/stats)
+- Ame ŋutɔ ƒe Fexexe: Ao
+- Pool Ƒomevi: Fetu Ðe Mamlɛtɔ N Gakpɔkpɔwo Me
+- Tadeaguƒe ƒe fetu: 0%
 
 ---
 

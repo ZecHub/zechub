@@ -36,13 +36,13 @@ Zcash madencilik havuzları, bireysel madencilerin hesaplama güçlerini (hashra
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
+### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Web sitesi: [Flypool](https://zcash.flypool.org/)
+- Web sitesi: [FlyPool](https://zcash.flypool.org/)
 - Özel Ödemeler: EVET
 - Havuz Türü: Pay Per Last N 
 - Havuz ücreti: %1
@@ -111,6 +111,19 @@ Zcash madencilik havuzları, bireysel madencilerin hesaplama güçlerini (hashra
 - Özel Ödemeler: Hayır
 - Havuz Türü: Pay Per Share+
 - Havuz ücreti: %4
+
+---
+
+### [Zhash](https://zcash.zhash.pro/stats)
+
+<a href="https://zcash.zhash.pro/stats">
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
+</a>
+
+- Web sitesi: [Zhash](https://zcash.zhash.pro/stats)
+- Özel Ödemeler: Hayır
+- Havuz Türü: Pay Per Last N Shares
+- Havuz ücreti: %0
 
 ---
 

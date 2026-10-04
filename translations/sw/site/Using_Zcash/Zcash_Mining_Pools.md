@@ -36,7 +36,7 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
+### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
@@ -111,6 +111,19 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 - Malipo ya Kibinafsi: Hapana
 - Aina ya Bwawa la Kuogelea: Lipa kwa Kila Hisa+
 - Ada ya bwawa la kuogelea: 4%
+
+---
+
+### [Zhash](https://zcash.zhash.pro/stats)
+
+<a href="https://zcash.zhash.pro/stats">
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
+</a>
+
+- Tovuti: [Zhash](https://zcash.zhash.pro/stats)
+- Malipo ya Kibinafsi: Hapana
+- Aina ya Bwawa: Lipa kwa Hisa N za Mwisho
+- Ada ya bwawa la kuogelea: 0%
 
 ---
 

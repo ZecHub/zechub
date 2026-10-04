@@ -36,13 +36,13 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
+### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Flypool na ɛwɔ hɔ](https://zcash.flypool.org/)
+- Wɛbsaet: [FlyPool na ɛwɔ hɔ](https://zcash.flypool.org/)
 - Ankorankoro Katua: YIW
 - Pool Type: Tua Ka Wɔ Nea Etwa To N 
 - Pool ho ka: 1% .
@@ -111,6 +111,19 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
 - Ankorankoro Katua: Dabi
 - Pool Type: Tua Kyɛfa Biara +
 - Pool ho ka: 4% .
+
+---
+
+### [Zhash](https://zcash.zhash.pro/stats)
+
+<a href="https://zcash.zhash.pro/stats">
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
+</a>
+
+- Wɛbsaet: [Zhash na ɔkyerɛwee](https://zcash.zhash.pro/stats)
+- Ankorankoro Katua: Dabi
+- Pool Type: Pay Per Last N Kyɛfa
+- Pool ho ka: 0% .
 
 ---
 

@@ -36,13 +36,13 @@ Zcash 채굴 풀은 개별 채굴자들이 자신의 컴퓨팅 파워(해시레�
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
+### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- 웹사이트: [Flypool](https://zcash.flypool.org/)
+- 웹사이트: [FlyPool](https://zcash.flypool.org/)
 - 비공개 지급: 예
 - 풀 유형: Pay Per Last N 
 - 풀 수수료: 1%
@@ -111,6 +111,19 @@ Zcash 채굴 풀은 개별 채굴자들이 자신의 컴퓨팅 파워(해시레�
 - 비공개 지급: 아니오
 - 풀 유형: Pay Per Share+
 - 풀 수수료: 4%
+
+---
+
+### [Zhash](https://zcash.zhash.pro/stats)
+
+<a href="https://zcash.zhash.pro/stats">
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
+</a>
+
+- 웹사이트: [Zhash](https://zcash.zhash.pro/stats)
+- 비공개 지급: 아니오
+- 풀 유형: Pay Per Last N Shares
+- 풀 수수료: 0%
 
 ---
 

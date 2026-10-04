@@ -36,13 +36,13 @@ I pool di mining di Zcash sono servizi che consentono ai miner individuali di co
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
+### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Sito web: [Flypool](https://zcash.flypool.org/)
+- Sito web: [FlyPool](https://zcash.flypool.org/)
 - Pagamenti privati: SÌ
 - Tipo di pool: Pay Per Last N 
 - Commissione del pool: 1%
@@ -111,6 +111,19 @@ I pool di mining di Zcash sono servizi che consentono ai miner individuali di co
 - Pagamenti privati: No
 - Tipo di pool: Pay Per Share+
 - Commissione del pool: 4%
+
+---
+
+### [Zhash](https://zcash.zhash.pro/stats)
+
+<a href="https://zcash.zhash.pro/stats">
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
+</a>
+
+- Sito web: [Zhash](https://zcash.zhash.pro/stats)
+- Pagamenti privati: No
+- Tipo di pool: Pay Per Last N Shares
+- Commissione del pool: 0%
 
 ---
 

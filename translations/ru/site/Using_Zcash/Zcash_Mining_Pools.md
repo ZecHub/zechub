@@ -36,13 +36,13 @@
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
+### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Сайт: [Flypool](https://zcash.flypool.org/)
+- Сайт: [FlyPool](https://zcash.flypool.org/)
 - Приватные выплаты: ДА
 - Тип пула: Оплата за последние N долей 
 - Комиссия пула: 1%
@@ -111,6 +111,19 @@
 - Приватные выплаты: Нет
 - Тип пула: Оплата за долю+
 - Комиссия пула: 4%
+
+---
+
+### [Zhash](https://zcash.zhash.pro/stats)
+
+<a href="https://zcash.zhash.pro/stats">
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
+</a>
+
+- Сайт: [Zhash](https://zcash.zhash.pro/stats)
+- Приватные выплаты: Нет
+- Тип пула: Оплата за последние N долей
+- Комиссия пула: 0%
 
 ---
 
