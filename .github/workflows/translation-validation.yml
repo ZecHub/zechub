@@ -138,6 +138,11 @@ jobs:
       - name: Link-health rate-limit self-test
         run: node link-health/rate-limit.test.mjs
 
+      # Absolute zechub.wiki links through the whole CLI, with fetch stubbed:
+      # pages resolved locally, listed files accepted, everything else fetched.
+      - name: Link-health wiki-link self-test
+        run: node --test link-health/wiki-links.test.mjs
+
   hash-lib-tests:
     runs-on: ubuntu-latest
     steps:

@@ -15,9 +15,10 @@ are skipped, since those are examples rather than live links.
 | Domain does not resolve | DNS failure, the site is likely gone |
 | Broken links | 4xx or 5xx response |
 | Broken internal routes | An in-site link that resolves to no page |
-| Missing assets | `/content-images/...` not present in the app repo |
+| Missing assets | `/content-images/...` or `/content-banners/...` not present in the app repo |
 | Certificate problems | TLS failure |
 | Timeouts | No response within 15 seconds |
+| Rate limited (not verified) | 429 after retrying; the host throttled the scan, so the link was not checked |
 | Invalid URLs | Malformed or protocol-relative |
 | Redirects | 3xx, worth pointing at the final destination |
 | Duplicate URLs | The same external link repeated within one page |
@@ -37,6 +38,20 @@ to match.
 Path comparisons are case-sensitive on every operating system, matching the
 GitHub content paths used by the wiki. `--root` limits the pages scanned; links
 can still resolve to other pages under `site/`.
+
+Absolute links to the wiki itself (`https://zechub.wiki/...`, with or without
+`www.`, a locale prefix or a trailing slash) are checked the same way rather than
+fetched:
+
+- pages are resolved against `site/` like any in-site link, so a dead one is a
+  broken internal route;
+- files listed in the app's `public/` folder are accepted without a request;
+- other files, and `/_next/` and `/api/` paths, are fetched like external links,
+  because the site also serves files that are not in `public/` (raw markdown,
+  `/llms.txt`, `/robots.txt`, `/sitemap.xml`). A missing one shows up as a 404.
+
+Because they are not fetched, wiki pages get no redirect advisories (for
+`http://` or `www.` links, say) and are not counted as duplicate URLs.
 
 Two things are deliberately not treated as broken routes:
 
@@ -66,8 +81,8 @@ node link-health/check-links.mjs --concurrency 20   # more parallel requests
 
 Outputs `link-health.json` for machines and `link-health.md` for the issue body.
 
-Run the offline route regression tests with
-`node --test link-health/check-links.test.mjs`.
+Run the tests, none of which touch the network, with
+`node --test link-health/*.test.mjs`.
 
 The workflow runs on Mondays and can be started by hand from the Actions tab.
 Because a GitHub issue body is capped, the dashboard shows the first 40 rows per

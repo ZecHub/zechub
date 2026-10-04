@@ -281,22 +281,28 @@ function wikiPath(url) {
   } catch {
     // A malformed escape (e.g. %ZZ) stays encoded and is reported as a broken route.
   }
-  const path = pathname.replace(new RegExp(`^/(${WIKI_LOCALES})(?=/|$)`), "");
+  // The site redirects /x/ to /x, so a trailing slash names the same page or file.
+  const path = pathname
+    .replace(new RegExp(`^/(${WIKI_LOCALES})(?=/|$)`), "")
+    .replace(/(.)\/+$/, "$1");
   return path || "/";
 }
 
 /**
  * How to check an absolute zechub.wiki link, given its wiki path and the set of
  * files in zechub-wiki/public (null when that list is unavailable):
- * "route" for pages, "asset-ok" / "asset-missing" for files we can look up, and
- * "external" for files we cannot look up or for dynamic paths (_next, api),
- * which are then fetched like any other external URL.
+ * "route" for pages, "asset-ok" for files listed in public/, and "external"
+ * for everything else, which is then fetched like any other external URL.
+ * A file missing from the listing is fetched rather than reported straight
+ * away, because the site also serves files that are not in public/: raw
+ * markdown (/using-zcash/wallets.md), build output (/llms.txt) and Next
+ * metadata routes (/robots.txt, /sitemap.xml). A genuinely missing file still
+ * shows up, as a 404.
  */
 function wikiLinkAction(path, publicFiles) {
   if (/^\/(_next|api)\//.test(path)) return "external";
   if (/^\/(content-images|content-banners)\//.test(path) || /\.[a-z0-9]{2,5}$/i.test(path)) {
-    if (!publicFiles) return "external";
-    return publicFiles.has(path) ? "asset-ok" : "asset-missing";
+    return publicFiles?.has(path) ? "asset-ok" : "external";
   }
   return "route";
 }
@@ -516,10 +522,6 @@ async function main() {
       if (kind === "wiki") {
         const path = wikiPath(link.url);
         const action = wikiLinkAction(path, assetSet);
-        if (action === "asset-missing") {
-          findings.push({ kind: "asset", url: link.url, file: link.file, line: link.line, detail: "not found in zechub-wiki/public" });
-          continue;
-        }
         if (action === "asset-ok") continue;
         if (action === "route") {
           const r = routeExists(path, routeFiles, appRoutes);
