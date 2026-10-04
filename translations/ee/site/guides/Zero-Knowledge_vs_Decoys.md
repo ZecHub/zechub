@@ -54,7 +54,7 @@ Ameflunu zazã dzia ŋkɔmaɖemaɖe ƒe ɖoɖoa ɖe edzi nyateƒe. Ke hã mɔnu 
 
 5) **Nyatakakawo ƒe Adzamenyawo**: [zk-SNARK mɔ̃ɖaŋununya](https://zechub.wiki/zcash-tech/zk-snarks) si wozãna le Zcash ƒe tadeaguƒe siwo wotsɔ akpoxɔnu wɔe me ɖea mɔ na dedienɔnɔ si dzi ɖe edzi ŋutɔ na ezãlawo. Metadata ƒe sisi le kɔsɔkɔsɔ dzi dzi ɖeɖe kpɔtɔ fia be ezãlawo le dedie tso futɔwo abe amesiwo ate ŋu anye kɔmpiutadzidzelawo alo dziɖuɖuha siwo tea ame ɖe anyi ene gbɔ. 
 
-Nudzɔdzɔ geɖewo li siwo me wode dzesi nudzodzoewo le Monero ƒe decoy selection algorithm me. Ŋutete nɔ vodada siawo ŋu be woaɖe gazazã siwo zãlawo zãna afia le nyatakaka aɖe si tso [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+Nudzɔdzɔ geɖewo li siwo me wode dzesi nudzodzoewo le Monero ƒe decoy selection algorithm me. Ŋutete nɔ vodada siawo ŋu be woaɖe gazazã siwo zãlawo zãna afia le nyatakaka aɖe si tso [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 
 
 Kpuie ko la, nusi le vevie wu ŋutɔŋutɔe nye be woaɖe zãlawo ƒe nyatakakawo kple nyatakakawo ƒe dodo dzi akpɔtɔ alo aɖe wo ɖa abe alesi Zooko ɖe eme le [Orchid (priv8) AMA ƒe live session me ene](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 

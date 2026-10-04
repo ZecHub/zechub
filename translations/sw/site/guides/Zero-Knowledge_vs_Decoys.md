@@ -54,7 +54,7 @@ Matumizi ya decoys haina kuongeza anonymity kuweka. Hata hivyo mbinu hii ni tege
 
 5) **Data Privacy**: Teknolojia ya [zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) matumizi katika mabwawa Zcash ya ulinzi inaruhusu kwa kiasi kikubwa kuimarishwa usalama kwa watumiaji. Kupunguza uvujaji metadata on-chain ina maana kwamba watumizi ni salama kutoka kwa wapinzani kama vile walaghai uwezo au vyombo vya serikali ya ukandamizaji. 
 
-Kuna idadi ya matukio ambayo mende wamekuwa kutambuliwa katika Monero ya decoy uteuzi algorithm. mende hizi walikuwa na uwezo wa kufunua matumizi ya mtumiaji kulingana na ripoti kutoka [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+Kuna idadi ya matukio ambayo mende wamekuwa kutambuliwa katika Monero ya decoy uteuzi algorithm. mende hizi walikuwa na uwezo wa kufunua matumizi ya mtumiaji kulingana na ripoti kutoka [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 
 
 Kwa muhtasari kile ambacho ni muhimu zaidi ni kupunguza au kuondoa uvujaji wa habari ya mtumiaji na data kama ilivyoelezwa na Zooko katika [Orchid (priv8) AMA live kikao](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 

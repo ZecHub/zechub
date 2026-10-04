@@ -54,7 +54,7 @@ Lilo awọn decoys ṣe mu ki a mọ ẹni ti a ṣeto. Sibẹsibẹ ọna yii d
 
 5) ** Ìpamọ́ Ìsọfúnni**: Ẹ̀rọ [zk-SNARK technology](https://zechub.wiki/zcash-tech/zk-snarks) used in Zcash's shielded pools allows for significantly enhanced security for users. The reduction of metadata leakage on-chain means that users are safe from adversaries such as potential hackers or oppressive state bodies. 
 
-There are a number of instances in which bugs have been identified in Monero's decoy selection algorithm. These bugs had the potential to reveal user spends according to a report from [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+There are a number of instances in which bugs have been identified in Monero's decoy selection algorithm. These bugs had the potential to reveal user spends according to a report from [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 
 
 Ni akojọpọ ohun ti o ṣe pataki julọ ni lati dinku tabi yọkuro didasilẹ ti alaye olumulo ati data bi a ti ṣalaye nipasẹ Zooko ni [Orchid (priv8) AMA live session](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 

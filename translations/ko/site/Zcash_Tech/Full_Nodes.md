@@ -30,7 +30,7 @@ Zebra은 블록과 트랜잭션을 검증하고, 피어 투 피어 네트워크�
 
 설정 방법은 반드시 Zebra 책을 읽어 보고, 지원이 필요하면 R&D Discord 서버에 참여하세요.
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+[GitHub](https://github.com/ZcashFoundation/zebra/)
 
 [Zebra 책](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura은 Zebra에서 포크되어 Valar Group과 Project Tachyon이 함께 개�
 
 ### zcashd (은퇴)
 
-> **참고:** zcashd은 은퇴했습니다. Electric Coin Company [지원 종료를 발표했으며](https://z.cash/support/zcashd-deprecation/), 자동 지원 종료 중단 시점은 2026년 7월 18일 블록 높이 3417100에서 도달했습니다. 수정되지 않은 모든 zcashd 6.20.0 노드는 해당 높이에서 종료되며 재시작을 거부하고, 소프트웨어는 NU6.3을 지원하지 않습니다. Zebra을 사용하세요. zcashd `wallet.dat`을 보유하고 있다면 [마이그레이션 가이드: zcashd에서 Zebrad/Zallet로](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)를 따르세요.
+> **참고:** zcashd은 은퇴했습니다. Electric Coin Company [지원 종료를 발표했으며](https://z.cash/support/zcashd-deprecation/), 자동 지원 종료 중단 시점은 2026년 7월 18일 블록 높이 3417100에서 도달했습니다. 수정되지 않은 모든 zcashd 6.20.0 노드는 해당 높이에서 종료되며 재시작을 거부하고, 소프트웨어는 NU6.3을 지원하지 않습니다. Zebra을 사용하세요. zcashd `wallet.dat`을 보유하고 있다면 [마이그레이션 가이드: zcashd에서 zebrad/Zallet로](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)를 따르세요.
 
 zcashd은 Zcash의 원래 풀 노드 구현체로, Electric Coin Company이 개발하고 유지 관리했습니다. 아래 빌드 지침은 참고용 및 zcashd에서 마이그레이션하는 운영자를 위해 유지됩니다.
 
-Zcashd는 RPC 인터페이스를 통해 API 세트를 제공합니다. 이러한 API는 외부 애플리케이션이 노드와 상호 작용할 수 있도록 하는 기능을 제공합니다.
+zcashd는 RPC 인터페이스를 통해 API 세트를 제공합니다. 이러한 API는 외부 애플리케이션이 노드와 상호 작용할 수 있도록 하는 기능을 제공합니다.
 
-[Lightwalletd](https://github.com/zcash/lightwalletd)는 개발자가 Zcashd와 직접 상호 작용하지 않고도 모바일 친화적인 차폐 라이트 지갑을 구축하고 유지 관리할 수 있도록, 풀 노드를 사용하는 애플리케이션의 예입니다.
+[lightwalletd](https://github.com/zcash/lightwalletd)는 개발자가 zcashd와 직접 상호 작용하지 않고도 모바일 친화적인 차폐 라이트 지갑을 구축하고 유지 관리할 수 있도록, 풀 노드를 사용하는 애플리케이션의 예입니다.
 
 [지원되는 RPC 명령 전체 목록](https://zcash.github.io/rpc/)
 
-[Zcashd 책](https://zcash.github.io/zcash/)
+[zcashd 책](https://zcash.github.io/zcash/)
 
 #### 노드 시작하기 (Linux)
 
@@ -84,7 +84,7 @@ Zcashd는 RPC 인터페이스를 통해 API 세트를 제공합니다. 이러한
 
 - 개인 키는 ~/.zcash/wallet.dat에 저장됩니다
 
-[Raspberry Pi에서 Zcashd 사용 가이드](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Raspberry Pi에서 zcashd 사용 가이드](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## 실질적 영향
 
@@ -112,7 +112,7 @@ DNS 시더는 내장 서버를 통해 신뢰할 수 있는 다른 노드 목록�
 
 채굴자는 getblocktemplate 및 getmininginfo 같은 모든 채굴 관련 RPC에 접근하기 위해 풀 노드가 필요합니다.
 
-Zcashd는 차폐된 코인베이스로의 채굴도 지원합니다. 채굴자와 채굴 풀은 기본적으로 z-주소에서 차폐된 ZEC을 축적하도록 직접 채굴할 수 있습니다.
+zcashd는 차폐된 코인베이스로의 채굴도 지원합니다. 채굴자와 채굴 풀은 기본적으로 z-주소에서 차폐된 ZEC을 축적하도록 직접 채굴할 수 있습니다.
 
 [채굴 가이드](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html)를 읽거나 [Zcash 채굴자](https://forum.zcashcommunity.com/c/mining/13)를 위한 커뮤니티 포럼 페이지에 참여하세요.
 

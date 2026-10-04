@@ -54,7 +54,7 @@ O uso de iscas realmente aumenta o conjunto de anonimato. No entanto, essa abord
 
 5) **Privacidade de Dados**: A [tecnologia zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) usada nos pools shielded da Zcash permite segurança significativamente aprimorada para os usuários. A redução do vazamento de metadados on-chain significa que os usuários estão protegidos contra adversários como hackers em potencial ou órgãos estatais opressores. 
 
-Há vários casos em que bugs foram identificados no algoritmo de seleção de iscas da Monero. Esses bugs tinham o potencial de revelar os gastos dos usuários, de acordo com uma reportagem da [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+Há vários casos em que bugs foram identificados no algoritmo de seleção de iscas da Monero. Esses bugs tinham o potencial de revelar os gastos dos usuários, de acordo com uma reportagem da [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 
 
 Em resumo, o que realmente mais importa é reduzir ou eliminar o vazamento de informações e dados dos usuários, como explicado por Zooko na [sessão AMA ao vivo da Orchid (priv8)](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 

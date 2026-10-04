@@ -30,7 +30,7 @@ Iji jee ozi obere akpa ọkụ echekwara, node ahụ na-agba ọsọ n'akụkụ
 
 Jide n'aka na ị gụrụ akwụkwọ Zebra maka ntuziaka nhazi, ma sonye na sava R&D Discord maka nkwado.
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+[GitHub](https://github.com/ZcashFoundation/zebra/)
 
 [Akwụkwọ Zebra](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura bụ otu n'ime ihe abụọ a na-akpọ "full node" nke kwekọrọ na nk
 
 ### zcashd (ezumike nká)
 
-> **Rịba ama:** zcashd alaala ezumike nka. Electric Coin Company [kwupụtara mbelata ahụ](https://z.cash/support/zcashd-deprecation/), e wee ruo nkwụsị End-of-Support ozugbo na 18 Julaị 2026 na elu blọk 3417100. Ọ bụla zcashd 6.20.0 nke a na-agbanwebeghị na-emechi n'ogo ahụ ma jụ ịmalitegharịa, ngwanrọ ahụ anaghịkwa akwado NU6.3. Jiri Zebra. Ọ bụrụ na ị nwere zcashd `wallet.dat`, soro [Nduzi Mbugharị: zcashd gaa Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **Rịba ama:** zcashd alaala ezumike nka. Electric Coin Company [kwupụtara mbelata ahụ](https://z.cash/support/zcashd-deprecation/), e wee ruo nkwụsị End-of-Support ozugbo na 18 Julaị 2026 na elu blọk 3417100. Ọ bụla zcashd 6.20.0 nke a na-agbanwebeghị na-emechi n'ogo ahụ ma jụ ịmalitegharịa, ngwanrọ ahụ anaghịkwa akwado NU6.3. Jiri Zebra. Ọ bụrụ na ị nwere zcashd `wallet.dat`, soro [Nduzi Mbugharị: zcashd gaa zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd bụ ọrụ mbụ e ji mee ihe maka Zcash, nke Electric Coin Company. Ntuziaka owuwu dị n'okpuru ka edobere maka ntụaka na maka ndị ọrụ si na zcashd.
 
-Zcashd na-ekpughe otu API site na njikọ RPC ya. API ndị a na-enye ọrụ ndị na-enye ohere ka ngwa mpụga na-akpakọrịta na node ahụ.
+zcashd na-ekpughe otu API site na njikọ RPC ya. API ndị a na-enye ọrụ ndị na-enye ohere ka ngwa mpụga na-akpakọrịta na node ahụ.
 
-[Mpempe akwụkwọ ọkụ](https://github.com/zcash/lightwalletd) bụ ihe atụ nke ngwa nke na-eji node zuru oke iji mee ka ndị mmepe nwee ike iwulite ma jikwaa obere akpa nchekwa dị mfe maka ekwentị na-enweghị ịkparịta ụka ozugbo na Zcashd.
+[Mpempe akwụkwọ ọkụ](https://github.com/zcash/lightwalletd) bụ ihe atụ nke ngwa nke na-eji node zuru oke iji mee ka ndị mmepe nwee ike iwulite ma jikwaa obere akpa nchekwa dị mfe maka ekwentị na-enweghị ịkparịta ụka ozugbo na zcashd.
 
 [Ndepụta zuru oke nke iwu RPC akwadoro](https://zcash.github.io/rpc/)
 
-[Akwụkwọ Zcashd](https://zcash.github.io/zcash/)
+[Akwụkwọ zcashd](https://zcash.github.io/zcash/)
 
 #### Malite Node (Linux)
 
@@ -84,7 +84,7 @@ Zcashd na-ekpughe otu API site na njikọ RPC ya. API ndị a na-enye ọrụ nd
 
 - A na-echekwa igodo nkeonwe na ~/.zcash/wallet.dat
 
-[Ntuziaka maka Zcashd na Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Ntuziaka maka zcashd na Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Mmetụta Bara Uru
 
@@ -112,7 +112,7 @@ I nwekwara ike itinye aka na mmepe nke netwọk ahụ site na ịme ule ma ọ b
 
 Ndị na-egwuputa ihe chọrọ n'akara zuru oke iji nweta RPC niile metụtara igwuputa ihe dịka getblocktemplate & getmininginfo.
 
-Zcashd na-enyekwa aka igwu ala ruo na ntọala ego echekwara. Ndị na-egwu ala na ọdọ mmiri igwu ala nwere nhọrọ igwu ala ozugbo iji chịkọta ZEC echekwara na adreesị z site na ndabara.
+zcashd na-enyekwa aka igwu ala ruo na ntọala ego echekwara. Ndị na-egwu ala na ọdọ mmiri igwu ala nwere nhọrọ igwu ala ozugbo iji chịkọta ZEC echekwara na adreesị z site na ndabara.
 
 Gụọ [Nduzi Ngwuputa](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) ma ọ bụ sonye na ibe Mgbakọ Obodo maka [Ndị na-egwupụta Zcash](https://forum.zcashcommunity.com/c/mining/13).
 

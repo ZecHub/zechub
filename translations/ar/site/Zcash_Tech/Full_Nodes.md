@@ -30,7 +30,7 @@ Zebra هو تطبيق مستقل وجاهز للإنتاج لعقدة كاملة
 
 احرص على قراءة كتاب Zebra للحصول على تعليمات الإعداد، وانضم إلى خادم البحث والتطوير Discord للحصول على الدعم.
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+[GitHub](https://github.com/ZcashFoundation/zebra/)
 
 [كتاب Zebra](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura هو عقدة كاملة ثانية متوافقة مع الإجماع، 
 
 ### zcashd (مُوقَف)
 
-> **ملاحظة:** تم إيقاف zcashd. أعلنت Electric Coin Company [إيقاف الدعم](https://z.cash/support/zcashd-deprecation/)، ووصل التوقف التلقائي عند نهاية الدعم في 18 يوليو 2026 عند ارتفاع الكتلة 3417100. توقفت كل عقدة zcashd 6.20.0 غير معدلة عند ذلك الارتفاع وترفض إعادة التشغيل، ولا يدعم البرنامج NU6.3. استخدم Zebra. إذا كنت تحتفظ بـ zcashd `wallet.dat`، فاتبع [دليل الترحيل: zcashd إلى Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **ملاحظة:** تم إيقاف zcashd. أعلنت Electric Coin Company [إيقاف الدعم](https://z.cash/support/zcashd-deprecation/)، ووصل التوقف التلقائي عند نهاية الدعم في 18 يوليو 2026 عند ارتفاع الكتلة 3417100. توقفت كل عقدة zcashd 6.20.0 غير معدلة عند ذلك الارتفاع وترفض إعادة التشغيل، ولا يدعم البرنامج NU6.3. استخدم Zebra. إذا كنت تحتفظ بـ zcashd `wallet.dat`، فاتبع [دليل الترحيل: zcashd إلى zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 كانت zcashd هي تطبيق العقدة الكاملة الأصلي لـ Zcash، وقد طورتها وصانتها Electric Coin Company. يُحتفظ بتعليمات البناء أدناه كمرجع ولمشغلي العقد الذين ينتقلون بعيداً عن zcashd.
 
-يوفر Zcashd مجموعة من واجهات API عبر واجهة RPC الخاصة به. وتوفر واجهات API هذه وظائف تسمح للتطبيقات الخارجية بالتفاعل مع العقدة.
+يوفر zcashd مجموعة من واجهات API عبر واجهة RPC الخاصة به. وتوفر واجهات API هذه وظائف تسمح للتطبيقات الخارجية بالتفاعل مع العقدة.
 
-يُعد [Lightwalletd](https://github.com/zcash/lightwalletd) مثالاً على تطبيق يستخدم عقدة كاملة لتمكين المطورين من بناء محافظ خفيفة محمية ومتوافقة مع الأجهزة المحمولة وصيانتها دون الحاجة إلى التفاعل مباشرةً مع Zcashd.
+يُعد [lightwalletd](https://github.com/zcash/lightwalletd) مثالاً على تطبيق يستخدم عقدة كاملة لتمكين المطورين من بناء محافظ خفيفة محمية ومتوافقة مع الأجهزة المحمولة وصيانتها دون الحاجة إلى التفاعل مباشرةً مع zcashd.
 
 [القائمة الكاملة لأوامر RPC المدعومة](https://zcash.github.io/rpc/)
 
-[كتاب Zcashd](https://zcash.github.io/zcash/)
+[كتاب zcashd](https://zcash.github.io/zcash/)
 
 #### تشغيل عقدة (Linux)
 
@@ -84,7 +84,7 @@ Zakura هو عقدة كاملة ثانية متوافقة مع الإجماع، 
 
 - تُخزَّن المفاتيح الخاصة في ~/.zcash/wallet.dat
 
-[دليل Zcashd على Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[دليل zcashd على Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## الآثار العملية
 
@@ -112,7 +112,7 @@ Zakura هو عقدة كاملة ثانية متوافقة مع الإجماع، 
 
 يحتاج المعدنون إلى عقد كاملة للوصول إلى جميع أوامر RPC المتعلقة بالتعدين، مثل getblocktemplate وgetmininginfo.
 
-يتيح Zcashd أيضاً التعدين إلى coinbase محمي. ولدى المعدنين ومجمعات التعدين خيار التعدين مباشرةً لتجميع ZEC محمية في عنوان z افتراضياً.
+يتيح zcashd أيضاً التعدين إلى coinbase محمي. ولدى المعدنين ومجمعات التعدين خيار التعدين مباشرةً لتجميع ZEC محمية في عنوان z افتراضياً.
 
 اقرأ [دليل التعدين](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) أو انضم إلى صفحة منتدى المجتمع الخاصة بـ [Zcash المعدنين](https://forum.zcashcommunity.com/c/mining/13).
 

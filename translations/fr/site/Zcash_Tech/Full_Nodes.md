@@ -30,7 +30,7 @@ Pour servir les wallets légers protégés, le nœud s’exécute avec un indexe
 
 Veillez à lire le livre Zebra pour les instructions d’installation et rejoignez le serveur R&D Discord pour obtenir de l’aide.
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+[GitHub](https://github.com/ZcashFoundation/zebra/)
 
 [Le livre Zebra](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura est un second nœud complet compatible avec le consensus, dérivé de Zeb
 
 ### zcashd (retiré)
 
-> **Remarque :** zcashd a été retiré. La Electric Coin Company a [annoncé la dépréciation](https://z.cash/support/zcashd-deprecation/), et l’arrêt automatique de fin de support a été atteint le 18 juillet 2026 à la hauteur de bloc 3417100. Chaque nœud zcashd 6.20.0 non modifié s’est arrêté à cette hauteur et refuse de redémarrer, et le logiciel ne prend pas en charge NU6.3. Utilisez Zebra. Si vous détenez un zcashd `wallet.dat`, suivez le [Guide de migration : zcashd vers Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **Remarque :** zcashd a été retiré. La Electric Coin Company a [annoncé la dépréciation](https://z.cash/support/zcashd-deprecation/), et l’arrêt automatique de fin de support a été atteint le 18 juillet 2026 à la hauteur de bloc 3417100. Chaque nœud zcashd 6.20.0 non modifié s’est arrêté à cette hauteur et refuse de redémarrer, et le logiciel ne prend pas en charge NU6.3. Utilisez Zebra. Si vous détenez un zcashd `wallet.dat`, suivez le [Guide de migration : zcashd vers zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd était l’implémentation originale de nœud complet pour Zcash, développée et maintenue par la Electric Coin Company. Les instructions de compilation ci-dessous sont conservées à titre de référence et pour les opérateurs migrant depuis zcashd.
 
-Zcashd expose un ensemble d’API via son interface RPC. Ces API fournissent des fonctions permettant aux applications externes d’interagir avec le nœud.
+zcashd expose un ensemble d’API via son interface RPC. Ces API fournissent des fonctions permettant aux applications externes d’interagir avec le nœud.
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) est un exemple d’application qui utilise un nœud complet afin de permettre aux développeurs de créer et de maintenir des wallets légers protégés adaptés aux appareils mobiles sans avoir à interagir directement avec Zcashd.
+[lightwalletd](https://github.com/zcash/lightwalletd) est un exemple d’application qui utilise un nœud complet afin de permettre aux développeurs de créer et de maintenir des wallets légers protégés adaptés aux appareils mobiles sans avoir à interagir directement avec zcashd.
 
 [Liste complète des commandes RPC prises en charge](https://zcash.github.io/rpc/)
 
-[Le livre Zcashd](https://zcash.github.io/zcash/)
+[Le livre zcashd](https://zcash.github.io/zcash/)
 
 #### Démarrer un nœud (Linux)
 
@@ -84,7 +84,7 @@ Zcashd expose un ensemble d’API via son interface RPC. Ces API fournissent des
 
 - Les clés privées sont stockées dans ~/.zcash/wallet.dat
 
-[Guide pour Zcashd sur Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Guide pour zcashd sur Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Implications pratiques
 
@@ -112,7 +112,7 @@ Vous pouvez également contribuer au développement du réseau en exécutant des
 
 Les mineurs ont besoin de nœuds complets pour accéder à toutes les RPC liées au minage, telles que getblocktemplate et getmininginfo.
 
-Zcashd permet également le minage vers des coinbases protégées. Les mineurs et les pools de minage peuvent miner directement afin d’accumuler par défaut des ZEC protégés dans une z-address.
+zcashd permet également le minage vers des coinbases protégées. Les mineurs et les pools de minage peuvent miner directement afin d’accumuler par défaut des ZEC protégés dans une z-address.
 
 Lisez [Le guide de minage](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) ou rejoignez la page du forum communautaire consacrée aux [Zcash Mineurs](https://forum.zcashcommunity.com/c/mining/13).
 

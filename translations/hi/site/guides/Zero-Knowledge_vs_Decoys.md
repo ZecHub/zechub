@@ -54,7 +54,7 @@ Decoys का उपयोग anonymity set को बढ़ाता तो ह
 
 5) **Data Privacy**: Zcash के shielded pools में उपयोग की जाने वाली [zk-SNARK technology](https://zechub.wiki/zcash-tech/zk-snarks) users के लिए काफी अधिक security प्रदान करती है। on-chain metadata leakage में कमी का मतलब है कि users संभावित hackers या दमनकारी राज्य संस्थाओं जैसे adversaries से सुरक्षित रहते हैं। 
 
-ऐसे कई उदाहरण रहे हैं जहाँ Monero के decoy selection algorithm में bugs की पहचान की गई। [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) की एक report के अनुसार, इन bugs में user spends को उजागर करने की क्षमता थी। 
+ऐसे कई उदाहरण रहे हैं जहाँ Monero के decoy selection algorithm में bugs की पहचान की गई। [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) की एक report के अनुसार, इन bugs में user spends को उजागर करने की क्षमता थी। 
 
 
 संक्षेप में, वास्तव में सबसे महत्वपूर्ण बात यह है कि user information और data के leak को कम किया जाए या समाप्त किया जाए, जैसा कि Zooko ने [Orchid (priv8) AMA live session](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) में समझाया। 

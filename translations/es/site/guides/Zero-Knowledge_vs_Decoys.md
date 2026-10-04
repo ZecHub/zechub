@@ -54,7 +54,7 @@ El uso de señuelos sí aumenta el conjunto de anonimato. Sin embargo, este enfo
 
 5) **Privacidad de los datos**: La [tecnología zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) utilizada en los pools blindados de Zcash permite una seguridad significativamente mejorada para los usuarios. La reducción de la filtración de metadatos en cadena significa que los usuarios están a salvo de adversarios como posibles hackers o aparatos estatales opresivos. 
 
-Existen varios casos en los que se han identificado errores en el algoritmo de selección de señuelos de Monero. Estos errores tenían el potencial de revelar gastos de los usuarios, según un informe de [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+Existen varios casos en los que se han identificado errores en el algoritmo de selección de señuelos de Monero. Estos errores tenían el potencial de revelar gastos de los usuarios, según un informe de [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 
 
 En resumen, lo que realmente importa más es reducir o eliminar la filtración de información y datos de los usuarios, como explicó Zooko en la [sesión en vivo AMA de Orchid (priv8)](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 

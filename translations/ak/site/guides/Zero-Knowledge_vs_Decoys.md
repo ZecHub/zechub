@@ -54,7 +54,7 @@ Decoys a wɔde di dwuma no ma anonymity set no yɛ kɛse ampa. Nanso saa kwan yi
 
 5) **Data Privacy**: [zk-SNARK mfiridwuma no](https://zechub.wiki/zcash-tech/zk-snarks) wɔde di dwuma wɔ Zcash shielded pools mu no ma kwan ma ahobammɔ kɔ soro kɛse ma wɔn a wɔde di dwuma no. Metadata leakage on-chain a wɔatew so no kyerɛ sɛ wɔn a wɔde di dwuma no wɔ ahobammɔ fi atamfo te sɛ hackerfo a wobetumi ayɛ hackers anaa ɔman ahyehyɛde ahorow a wɔhyɛ nkurɔfo so no ho. 
 
-Nsɛm bi wɔ hɔ a wɔahu mfomsoɔ wɔ Monero decoy selection algorithm no mu. Na saa mfomso ahorow yi wɔ tumi a ɛbɛma wɔada sika a wɔde di dwuma no adi sɛnea amanneɛbɔ bi a efi [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+Nsɛm bi wɔ hɔ a wɔahu mfomsoɔ wɔ Monero decoy selection algorithm no mu. Na saa mfomso ahorow yi wɔ tumi a ɛbɛma wɔada sika a wɔde di dwuma no adi sɛnea amanneɛbɔ bi a efi [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 
 
 Sɛ yɛbɛbɔ no mua a deɛ ɛho hia paa ankasa ne sɛ yɛbɛtew anaasɛ yɛbɛyi afiri a wɔde di dwuma no ho nsɛm ne data a ɛretu no afiri hɔ sɛdeɛ Zooko kyerɛkyerɛɛ mu wɔ [Orchid (priv8) AMA live session no mu no](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 

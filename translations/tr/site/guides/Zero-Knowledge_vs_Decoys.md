@@ -54,7 +54,7 @@ Yemlerin kullanılması anonimlik kümesini artırır. Ancak bu yaklaşım tamam
 
 5) **Veri Gizliliği**: Zcash'in shielded havuzlarında kullanılan [zk-SNARK teknolojisi](https://zechub.wiki/zcash-tech/zk-snarks), kullanıcılar için önemli ölçüde artırılmış güvenlik sağlar. Zincir üzerinde meta veri sızıntısının azaltılması, kullanıcıların potansiyel bilgisayar korsanları veya baskıcı devlet kurumları gibi hasımlara karşı güvende olması anlamına gelir. 
 
-Monero'nun yem seçim algoritmasında hataların tespit edildiği çeşitli durumlar olmuştur. [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) tarafından hazırlanan bir rapora göre bu hatalar, kullanıcı harcamalarını ortaya çıkarma potansiyeline sahipti. 
+Monero'nun yem seçim algoritmasında hataların tespit edildiği çeşitli durumlar olmuştur. [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) tarafından hazırlanan bir rapora göre bu hatalar, kullanıcı harcamalarını ortaya çıkarma potansiyeline sahipti. 
 
 
 Özetle, gerçekten en önemli olan şey, Zooko'nun [Orchid (priv8) AMA canlı oturumunda](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) açıkladığı gibi, kullanıcı bilgileri ve verilerinin sızmasını azaltmak veya ortadan kaldırmaktır. 

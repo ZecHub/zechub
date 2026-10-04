@@ -30,7 +30,7 @@ Zebraはブロックとトランザクションを検証し、ピアツーピア
 
 セットアップ手順については必ずZebraのブックを読み、サポートについてはR&D Discordサーバーに参加してください。
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+[GitHub](https://github.com/ZcashFoundation/zebra/)
 
 [Zebraブック](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakuraは、Zebraからフォークされ、Valar GroupとProject Tachyonが共�
 
 ### zcashd（廃止）
 
-> **注記：** zcashdは廃止されました。Electric Coin Company [は](https://z.cash/support/zcashd-deprecation/)廃止を発表し、サポート終了による自動停止はブロック高3417100で2026年7月18日に到達しました。変更されていないすべてのzcashd 6.20.0ノードはそのブロック高で停止し、再起動を拒否します。また、このソフトウェアはNU6.3をサポートしていません。Zebraを使用してください。zcashd `wallet.dat`を保有している場合は、[移行ガイド：zcashdからZebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)に従ってください。
+> **注記：** zcashdは廃止されました。Electric Coin Company [は](https://z.cash/support/zcashd-deprecation/)廃止を発表し、サポート終了による自動停止はブロック高3417100で2026年7月18日に到達しました。変更されていないすべてのzcashd 6.20.0ノードはそのブロック高で停止し、再起動を拒否します。また、このソフトウェアはNU6.3をサポートしていません。Zebraを使用してください。zcashd `wallet.dat`を保有している場合は、[移行ガイド：zcashdからzebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)に従ってください。
 
 zcashdは、Electric Coin Companyによって開発・保守された、Zcash向けの元々のフルノード実装でした。以下のビルド手順は、参照用およびzcashdから移行する運用者向けに残されています。
 
-ZcashdはRPCインターフェースを通じて一連のAPIを公開しています。これらのAPIは、外部アプリケーションがノードとやり取りできる機能を提供します。
+zcashdはRPCインターフェースを通じて一連のAPIを公開しています。これらのAPIは、外部アプリケーションがノードとやり取りできる機能を提供します。
 
-[Lightwalletd](https://github.com/zcash/lightwalletd)は、開発者がZcashdと直接やり取りすることなく、モバイル向けのシールドされたライトウォレットを構築・保守できるよう、フルノードを使用するアプリケーションの一例です。
+[lightwalletd](https://github.com/zcash/lightwalletd)は、開発者がzcashdと直接やり取りすることなく、モバイル向けのシールドされたライトウォレットを構築・保守できるよう、フルノードを使用するアプリケーションの一例です。
 
 [サポートされているRPCコマンドの完全な一覧](https://zcash.github.io/rpc/)
 
-[Zcashdのブック](https://zcash.github.io/zcash/)
+[zcashdのブック](https://zcash.github.io/zcash/)
 
 #### ノードを起動する（Linux）
 
@@ -84,7 +84,7 @@ ZcashdはRPCインターフェースを通じて一連のAPIを公開してい�
 
 - 秘密鍵は~/.zcash/wallet.datに保存されます
 
-[Raspberry PiでのZcashdガイド](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Raspberry Piでのzcashdガイド](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## 実践的な影響
 
@@ -112,7 +112,7 @@ DNSシーダーは、組み込みサーバーを通じて、信頼できる他�
 
 マイナーは、getblocktemplateやgetmininginfoなど、マイニング関連のすべてのRPCにアクセスするためにフルノードを必要とします。
 
-Zcashdではシールドされたcoinbaseへのマイニングも可能です。マイナーおよびマイニングプールは、デフォルトでz-addressにシールドされたZECを蓄積するために直接マイニングする選択肢があります。
+zcashdではシールドされたcoinbaseへのマイニングも可能です。マイナーおよびマイニングプールは、デフォルトでz-addressにシールドされたZECを蓄積するために直接マイニングする選択肢があります。
 
 [マイニングガイド](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html)を読むか、[Zcash マイナー](https://forum.zcashcommunity.com/c/mining/13)のコミュニティフォーラムページに参加してください。
 

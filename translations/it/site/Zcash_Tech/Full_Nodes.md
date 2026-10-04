@@ -30,7 +30,7 @@ Per servire i light wallet schermati, il nodo viene eseguito insieme a un indici
 
 Assicurati di leggere il libro di Zebra per le istruzioni di configurazione e unisciti al server R&D Discord per ricevere supporto.
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+[GitHub](https://github.com/ZcashFoundation/zebra/)
 
 [Il libro di Zebra](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura è un secondo nodo completo compatibile con il consenso, fork di Zebra e 
 
 ### zcashd (ritirato)
 
-> **Nota:** zcashd è stato ritirato. La Electric Coin Company [ha annunciato la deprecazione](https://z.cash/support/zcashd-deprecation/) e l'arresto automatico di fine supporto è stato raggiunto il 18 luglio 2026 all'altezza del blocco 3417100. Ogni nodo zcashd 6.20.0 non modificato si è arrestato a tale altezza e rifiuta di riavviarsi, e il software non supporta NU6.3. Usa Zebra. Se possiedi un zcashd `wallet.dat`, segui la [Guida alla migrazione: zcashd a Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **Nota:** zcashd è stato ritirato. La Electric Coin Company [ha annunciato la deprecazione](https://z.cash/support/zcashd-deprecation/) e l'arresto automatico di fine supporto è stato raggiunto il 18 luglio 2026 all'altezza del blocco 3417100. Ogni nodo zcashd 6.20.0 non modificato si è arrestato a tale altezza e rifiuta di riavviarsi, e il software non supporta NU6.3. Usa Zebra. Se possiedi un zcashd `wallet.dat`, segui la [Guida alla migrazione: zcashd a zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd era l'implementazione originale di nodo completo per Zcash, sviluppata e mantenuta dalla Electric Coin Company. Le istruzioni di compilazione riportate sotto sono conservate come riferimento e per gli operatori che migrano da zcashd.
 
-Zcashd espone un insieme di API tramite la sua interfaccia RPC. Queste API forniscono funzioni che consentono alle applicazioni esterne di interagire con il nodo.
+zcashd espone un insieme di API tramite la sua interfaccia RPC. Queste API forniscono funzioni che consentono alle applicazioni esterne di interagire con il nodo.
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) è un esempio di applicazione che utilizza un nodo completo per consentire agli sviluppatori di creare e mantenere light wallet schermati adatti ai dispositivi mobili senza dover interagire direttamente con Zcashd.
+[lightwalletd](https://github.com/zcash/lightwalletd) è un esempio di applicazione che utilizza un nodo completo per consentire agli sviluppatori di creare e mantenere light wallet schermati adatti ai dispositivi mobili senza dover interagire direttamente con zcashd.
 
 [Elenco completo dei comandi RPC supportati](https://zcash.github.io/rpc/)
 
-[Il libro di Zcashd](https://zcash.github.io/zcash/)
+[Il libro di zcashd](https://zcash.github.io/zcash/)
 
 #### Avviare un nodo (Linux)
 
@@ -84,7 +84,7 @@ Zcashd espone un insieme di API tramite la sua interfaccia RPC. Queste API forni
 
 - Le chiavi private sono memorizzate in ~/.zcash/wallet.dat
 
-[Guida a Zcashd su Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Guida a zcashd su Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Implicazioni pratiche
 
@@ -112,7 +112,7 @@ Puoi anche contribuire allo sviluppo della rete eseguendo test o proponendo nuov
 
 I miner richiedono nodi completi per accedere a tutte le RPC relative al mining, come getblocktemplate e getmininginfo.
 
-Zcashd abilita anche il mining verso coinbase schermati. I miner e i pool di mining hanno la possibilità di minare direttamente per accumulare ZEC schermati in un indirizzo z per impostazione predefinita.
+zcashd abilita anche il mining verso coinbase schermati. I miner e i pool di mining hanno la possibilità di minare direttamente per accumulare ZEC schermati in un indirizzo z per impostazione predefinita.
 
 Leggi [La guida al mining](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) oppure unisciti alla pagina del Community Forum per i [Zcash miner](https://forum.zcashcommunity.com/c/mining/13).
 

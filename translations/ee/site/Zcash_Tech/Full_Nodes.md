@@ -30,7 +30,7 @@ Be woasubɔ gakotoku siwo me kekeli le siwo ŋu wokpɔ ta na la, node la zɔna �
 
 Kpɔ egbɔ be yexlẽ Zebra agbalẽa hena ɖoɖowɔwɔ ŋuti mɔfiamewo, eye nàwɔ ɖeka kple R&D Discord server hena kpekpeɖeŋu.
 
-[Github ƒe mɔnu](https://github.com/ZcashFoundation/zebra/)
+[GitHub ƒe mɔnu](https://github.com/ZcashFoundation/zebra/)
 
 [Zebra ƒe Agbalẽa](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura nye node blibo evelia si sɔ kple nukpɔsusu ɖeka, si woɖe tso Zebra me
 
 ### zcashd (xɔ dzudzɔ le dɔme)
 
-> **De dzesii:** zcashd xɔ dzudzɔ le dɔme. Electric Coin Company [ɖe gbeƒãe be woɖe asi le eŋu](https://z.cash/support/zcashd-deprecation/)zcashd NU6.3. Zã Zebra. Ne èlé zcashd ɖe asi `wallet.dat`, dze eyome [Ʋuʋu ƒe Mɔfiame: zcashd yi Zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **De dzesii:** zcashd xɔ dzudzɔ le dɔme. Electric Coin Company [ɖe gbeƒãe be woɖe asi le eŋu](https://z.cash/support/zcashd-deprecation/)zcashd NU6.3. Zã Zebra. Ne èlé zcashd ɖe asi `wallet.dat`, dze eyome [Ʋuʋu ƒe Mɔfiame: zcashd yi zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd nye Full Node ƒe dɔwɔwɔ gbãtɔ na Zcash, si Electric Coin Company. Wodzra xɔtutu ƒe mɔfiame siwo le ete ɖo hena numekuku kple na dɔwɔla siwo le ʋuʋum tso zcashd.
 
-Zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo naa dɔwɔwɔ siwo ɖea mɔ na gotagome dɔwɔɖoɖowo be woawɔ nu kple node la.
+zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo naa dɔwɔwɔ siwo ɖea mɔ na gotagome dɔwɔɖoɖowo be woawɔ nu kple node la.
 
-[Kekeli ƒe gakotoku](https://github.com/zcash/lightwalletd) nye dɔwɔɖoɖo si zãa node blibo tsɔ naa dɔwɔlawo te ŋu tua gakotoku siwo me kekeli le siwo ŋu wokpɔa akpoxɔnu le siwo sɔ na asitelefon xɔlɔ̃wɔwɔtɔe eye mahiã be woawɔ nu kple Zcashd tẽ o ƒe kpɔɖeŋu.
+[Kekeli ƒe gakotoku](https://github.com/zcash/lightwalletd) nye dɔwɔɖoɖo si zãa node blibo tsɔ naa dɔwɔlawo te ŋu tua gakotoku siwo me kekeli le siwo ŋu wokpɔa akpoxɔnu le siwo sɔ na asitelefon xɔlɔ̃wɔwɔtɔe eye mahiã be woawɔ nu kple zcashd tẽ o ƒe kpɔɖeŋu.
 
 [RPC sedede siwo wodo alɔe ƒe xexlẽdzesi bliboa](https://zcash.github.io/rpc/)
 
-[Zcashd ƒe agbalẽa](https://zcash.github.io/zcash/)
+[zcashd ƒe agbalẽa](https://zcash.github.io/zcash/)
 
 #### Dze Node (Linux) aɖe gɔme
 
@@ -84,7 +84,7 @@ Zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo n
 
 - Wodzraa Private Keys ɖo ɖe ~/.zcash/wallet.dat me
 
-[Mɔfiame na Zcashd le Raspberry Pi dzi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Mɔfiame na zcashd le Raspberry Pi dzi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Nusiwo wòfia ŋutɔŋutɔ
 
@@ -112,7 +112,7 @@ Esiawo nye kpɔɖeŋu mɔnu siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakaka
 
 Tomenukulawo hiã node blibowo be woakpɔ RPC siwo katã do ƒome kple tomenukulawo abe getblocktemplate & getmininginfo ene.
 
-Zcashd hã naa tomenukuƒewo te ŋu yia gakudzraɖoƒe si wokpɔ ta na. Tiatia le tomenukulawo kple tomenukuƒewo si be woaku tome tẽ be woaƒo ZEC si wokpɔ ta na nu ƒu ɖe z-adrɛs me le gɔmedzedzea me.
+zcashd hã naa tomenukuƒewo te ŋu yia gakudzraɖoƒe si wokpɔ ta na. Tiatia le tomenukulawo kple tomenukuƒewo si be woaku tome tẽ be woaƒo ZEC si wokpɔ ta na nu ƒu ɖe z-adrɛs me le gɔmedzedzea me.
 
 Xlẽ [Tomenukulawo ƒe Mɔfiamegbalẽa](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) alo nàwɔ ɖeka kple Nutoa me Nyamedzroƒe ƒe axaa na [Zcash Tomenukulawo](https://forum.zcashcommunity.com/c/mining/13).
 

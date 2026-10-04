@@ -49,7 +49,7 @@ ZcashとMoneroはどちらもプライバシーに重点を置いた暗号通貨
 
 5) **データプライバシー**: Zcashのシールドプールに使用されている[zk-SNARK技術](https://zechub.wiki/zcash-tech/zk-snarks)は、ユーザーにとって非常に強化されたセキュリティを提供します。オンチェーンでのメタデータ漏洩の削減により、ユーザーは潜在的なハッカーまたは抑圧的な国家機関などの敵対者から守られます。
 
-Moneroのデコイ選択アルゴリズムにいくつかのバグが見つかった事例があります。[Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero)からの報告によると、これらのバグはユーザーの支出を明らかにする可能性がありました。
+Moneroのデコイ選択アルゴリズムにいくつかのバグが見つかった事例があります。[CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero)からの報告によると、これらのバグはユーザーの支出を明らかにする可能性がありました。
 
 要するに、最も重要なのは、Zookoが[Orchid (priv8) AMAライブセッション](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9)で説明したように、ユーザー情報とデータの漏洩を減らすか完全に排除することです。
 
