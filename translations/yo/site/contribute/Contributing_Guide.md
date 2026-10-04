@@ -125,11 +125,11 @@ Ojú òpó wẹ́ẹ̀bù wiki wa n pese àwọn ohun èlò ẹ̀kọ́ Zcash n�
 
 #### ZecHub Wiki - ṣe àtúnṣe sí ìwé àkọsílẹ̀ tó wà tẹ́lẹ̀
 
-Nígbà míìrán, àwọn ìwífún wa nínú àwọn ìwé náà kì í ṣe òótọ́. Ó dára. Ìdí nìyẹn tí a fi ń ṣí wọn sílẹ̀! Tí o bá rí ohun kan tí ó nílò àtúnṣe nínú ìwé ìròyìn wiki, jọ̀wọ́ lọ sí ìsàlẹ̀ ìwé ìròyìn náà (tí ó so mọ́ ojú ìwé Github rẹ̀) kí o sì dábàá àtúnṣe nípasẹ̀ PR.
+Nígbà míìrán, àwọn ìwífún wa nínú àwọn ìwé náà kì í ṣe òótọ́. Ó dára. Ìdí nìyẹn tí a fi ń ṣí wọn sílẹ̀! Tí o bá rí ohun kan tí ó nílò àtúnṣe nínú ìwé ìròyìn wiki, jọ̀wọ́ lọ sí ìsàlẹ̀ ìwé ìròyìn náà (tí ó so mọ́ ojú ìwé GitHub rẹ̀) kí o sì dábàá àtúnṣe nípasẹ̀ PR.
 
 #### ZecHub Wiki - ìjápọ̀ tí ó ti fọ́ tí a ti ṣe àtúnṣe
 
-Tí o bá rí i pé ìjápọ̀ kan ti bàjẹ́, tàbí ohun pàtàkì kan ti ṣì kọ, jọ̀wọ́ lọ sí ìsàlẹ̀ ìwé náà (èyí tí ó so mọ́ ojú ìwé Github rẹ̀) kí o sì dábàá ìyípadà náà nípasẹ̀ PR.
+Tí o bá rí i pé ìjápọ̀ kan ti bàjẹ́, tàbí ohun pàtàkì kan ti ṣì kọ, jọ̀wọ́ lọ sí ìsàlẹ̀ ìwé náà (èyí tí ó so mọ́ ojú ìwé GitHub rẹ̀) kí o sì dábàá ìyípadà náà nípasẹ̀ PR.
 
 #### Ìwé Ìròyìn - àtúnse tuntun
 

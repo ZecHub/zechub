@@ -80,11 +80,11 @@ Estas são áreas bastante amplas, por isso há muito por onde trabalhar. Se qui
 
 #### Wiki do ZecHub - 0.015 ZEC por edição aceita na documentação
 
-Às vezes, as informações em nossa documentação não estão totalmente corretas. Tudo bem. É por isso que elas são open source! Se você encontrar algo que precise ser alterado em um wiki-doc, vá até o rodapé do documento (que contém o link para sua página no Github) e sugira uma mudança por meio de um PR.
+Às vezes, as informações em nossa documentação não estão totalmente corretas. Tudo bem. É por isso que elas são open source! Se você encontrar algo que precise ser alterado em um wiki-doc, vá até o rodapé do documento (que contém o link para sua página no GitHub) e sugira uma mudança por meio de um PR.
 
 #### Wiki do ZecHub - 0.005 ZEC por link quebrado corrigido
 
-Se você encontrar um link quebrado, ou algo importante escrito errado, vá até o rodapé do documento (que contém o link para sua página no Github) e sugira a mudança por meio de um PR.
+Se você encontrar um link quebrado, ou algo importante escrito errado, vá até o rodapé do documento (que contém o link para sua página no GitHub) e sugira a mudança por meio de um PR.
 
 #### Newsletter - 0.05 ZEC por edição
 

@@ -125,11 +125,11 @@ Curated locale nkratafa a ɛwɔ ase `translations/<locale>/site/` wɔde source-h
 
 #### ZecHub Wiki - sesa kɔ doc a ɛwɔ hɔ dedaw mu
 
-Ɛtɔ da bi a yɛn nsɛm a ɛwɔ docs no mu no nyɛ spot on. Ɛno yɛ okay. Ɛno nti na yɛbue-source wɔn! Sɛ wohu biribi a ɛhia nsakraeɛ wɔ wiki-doc mu a, yɛsrɛ wo kɔ doc no ase (a ɛkɔ ne Github krataafa no so) na fa PR ho nyansahyɛ ma nsakraeɛ.
+Ɛtɔ da bi a yɛn nsɛm a ɛwɔ docs no mu no nyɛ spot on. Ɛno yɛ okay. Ɛno nti na yɛbue-source wɔn! Sɛ wohu biribi a ɛhia nsakraeɛ wɔ wiki-doc mu a, yɛsrɛ wo kɔ doc no ase (a ɛkɔ ne GitHub krataafa no so) na fa PR ho nyansahyɛ ma nsakraeɛ.
 
 #### ZecHub Wiki - wɔasiesie link a abubu
 
-Sɛ wuhu sɛ link bi asɛe, anaasɛ wɔakyerɛw biribi a ɛho hia wɔ ɔkwan a ɛnteɛ so a, yɛsrɛ wo kɔ doc no ase (a ɛkɔ ne Github krataafa no so) na fa PR so hyɛ nsakrae no ho nyansa.
+Sɛ wuhu sɛ link bi asɛe, anaasɛ wɔakyerɛw biribi a ɛho hia wɔ ɔkwan a ɛnteɛ so a, yɛsrɛ wo kɔ doc no ase (a ɛkɔ ne GitHub krataafa no so) na fa PR so hyɛ nsakrae no ho nyansa.
 
 #### Newsletter - a woagye no foforo
 

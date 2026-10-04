@@ -125,11 +125,11 @@ Ibe mpaghara ahọpụtara n'okpuru `translations/<locale>/site/` a na-esochi ha
 
 #### ZecHub Wiki - dezie gaa na akwụkwọ dị adị
 
-Mgbe ụfọdụ, ozi anyị dị na akwụkwọ ndị ahụ adịghị mma. Ọ dị mma. Ọ bụ ya mere anyị ji emepe ha! Ọ bụrụ na ịchọta ihe chọrọ mgbanwe na wiki-doc, biko gaa na ala nke akwụkwọ ahụ (nke na-ejikọ na ibe Github ya) ma tụọ aro mgbanwe site na PR.
+Mgbe ụfọdụ, ozi anyị dị na akwụkwọ ndị ahụ adịghị mma. Ọ dị mma. Ọ bụ ya mere anyị ji emepe ha! Ọ bụrụ na ịchọta ihe chọrọ mgbanwe na wiki-doc, biko gaa na ala nke akwụkwọ ahụ (nke na-ejikọ na ibe GitHub ya) ma tụọ aro mgbanwe site na PR.
 
 #### ZecHub Wiki - emezigharịrị njikọ agbajiela
 
-Ọ bụrụ na ịchọta na njikọ ahụ agbajiela, ma ọ bụ na e dehiere ihe dị mkpa, biko gaa na ala nke akwụkwọ ahụ (nke na-ejikọ na ibe Github ya) wee tụọ aro mgbanwe ahụ site na PR.
+Ọ bụrụ na ịchọta na njikọ ahụ agbajiela, ma ọ bụ na e dehiere ihe dị mkpa, biko gaa na ala nke akwụkwọ ahụ (nke na-ejikọ na ibe GitHub ya) wee tụọ aro mgbanwe ahụ site na PR.
 
 #### Akwụkwọ Ozi - mbipụta ọhụrụ
 

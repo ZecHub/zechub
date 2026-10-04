@@ -80,11 +80,11 @@ Das sind ziemlich breite Themenbereiche, daher gibt es viel, woran man arbeiten 
 
 #### ZecHub Wiki - 0.015 ZEC pro angenommener Bearbeitung der Dokumentation
 
-Manchmal sind unsere Informationen in der Dokumentation nicht ganz korrekt. Das ist okay. Genau deshalb haben wir sie als Open Source veröffentlicht! Wenn du etwas findest, das in einem Wiki-Dokument geändert werden muss, gehe bitte in den Footer des Dokuments (der auf die zugehörige Github-Seite verlinkt) und schlage die Änderung über einen PR vor.
+Manchmal sind unsere Informationen in der Dokumentation nicht ganz korrekt. Das ist okay. Genau deshalb haben wir sie als Open Source veröffentlicht! Wenn du etwas findest, das in einem Wiki-Dokument geändert werden muss, gehe bitte in den Footer des Dokuments (der auf die zugehörige GitHub-Seite verlinkt) und schlage die Änderung über einen PR vor.
 
 #### ZecHub Wiki - 0.005 ZEC pro behobenem defekten Link
 
-Wenn du feststellst, dass ein Link defekt ist oder etwas Wichtiges falsch geschrieben wurde, gehe bitte in den Footer des Dokuments (der auf die zugehörige Github-Seite verlinkt) und schlage die Änderung über einen PR vor.
+Wenn du feststellst, dass ein Link defekt ist oder etwas Wichtiges falsch geschrieben wurde, gehe bitte in den Footer des Dokuments (der auf die zugehörige GitHub-Seite verlinkt) und schlage die Änderung über einen PR vor.
 
 #### Newsletter - 0.05 ZEC pro Ausgabe
 

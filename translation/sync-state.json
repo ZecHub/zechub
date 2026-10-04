@@ -1281,11 +1281,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -6519,11 +6519,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -8265,11 +8265,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -11757,11 +11757,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -13495,11 +13495,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -15241,11 +15241,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -16987,11 +16987,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -18733,11 +18733,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -22225,11 +22225,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -23971,11 +23971,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -25717,11 +25717,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -27463,11 +27463,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -29209,11 +29209,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -30955,11 +30955,11 @@
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
-      "src": "sha256:50b4d2a31f73f47b7ad6d9dbbf60b5adc908e46e40f82b0028bad243749261ed",
+      "src": "sha256:8601edf885f6f53472c211e4fb5df9354386cb3b5c87467d5e3a06a62531340a",
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
