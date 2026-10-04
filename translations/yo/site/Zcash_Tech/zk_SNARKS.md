@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP àti zk-SNARKs
+# ZKP àti ZK-SNARKS
 
 ## TL;DR
 
-- **zk-SNARKs** = Ìmòye-kò-Mọ Àwọn Àríyànjiyàn tí kò ní Ìfọ̀rọ̀wérọ̀ ti Ìmọ̀
+- **ZK-SNARKs** = Ìmòye-kò-Mọ Àwọn Àríyànjiyàn tí kò ní Ìfọ̀rọ̀wérọ̀ ti Ìmọ̀
 - Wọ́n jẹ́ kí ẹnì kan fi hàn pé òun mọ nǹkan kan láìjẹ́ pé ó sọ ohun tó wà nínú rẹ̀ fún wọn
-- Zcash nlo zk-SNARKs lati fi idi rẹ mulẹ pe idunadura kan wulo (awọn iye to tọ, awọn ohun elo ti a ko lo) **laisi fifihan oluranlowo, olugba, tabi iye**
+- Zcash nlo ZK-SNARKs lati fi idi rẹ mulẹ pe idunadura kan wulo (awọn iye to tọ, awọn ohun elo ti a ko lo) **laisi fifihan oluranlowo, olugba, tabi iye**
 - "Succinct" túmọ̀ sí pé ẹ̀rí náà kéré gan-an, ó sì tètè ṣeé ṣètẹ́wọ̀n kódà fún àwọn gbólóhùn tó díjú pàápàá
-- The Orchard pool uses Halo 2, a zk-SNARK system with **no trusted setup required**
+- The Orchard pool uses Halo 2, a ZK-SNARK system with **no trusted setup required**
 
 ---
 
@@ -163,7 +163,7 @@ Trusted but Universal Setup - Nikan ni lati ṣiṣe iṣeto ti o gbẹkẹle l�
 
 [Ìró tó ń dún](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953)Ìdásílẹ̀ Tí Gbogbo Èèyàn Gbára Lé.
 
-[ÌDÍLÉ](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Kò sí ìmúrasílẹ̀ tí a gbẹ́kẹ̀lé ṣùgbọ́n ó máa ń mú àwọn ẹ̀rí tó gùn díẹ̀ jáde tàbí ó lè gba àkókò púpọ̀ sí i kí ẹ̀jẹ̀ náà tó ṣiṣẹ́. 
+[ÌDÍLÉ](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Kò sí ìmúrasílẹ̀ tí a gbẹ́kẹ̀lé ṣùgbọ́n ó máa ń mú àwọn ẹ̀rí tó gùn díẹ̀ jáde tàbí ó lè gba àkókò púpọ̀ sí i kí ẹ̀jẹ̀ náà tó ṣiṣẹ́. 
 
 Awọn SNARKS wulo nigbati o ba nilo ọpọlọpọ awọn olutọtọ bii blockchain bi Zcash tabi zk-Rollup bii [Aztec](https://docs.aztec.network) nítorí náà, ọ̀pọ̀lọpọ̀ àwọn òpó ìmúṣẹ kò ní láti ṣe àjọṣepọ̀ pẹ̀lú ẹ̀rí kọ̀ọ̀kan fún ìgbà díẹ̀. 
 
@@ -179,7 +179,7 @@ Ka ìwé [Halo2 book](https://zcash.github.io/halo2/index.html) fún ìsọfúnn
 
 ## Awọn ohun elo Imọ-Imọ-Ohun miiran 
 
-zk-SNARKs pese orisirisi awọn anfani ni orisii ti o yatọ si awọn ohun elo. Jẹ ki a wo diẹ ninu awọn apẹẹrẹ.
+zk-SNARKS pese orisirisi awọn anfani ni orisii ti o yatọ si awọn ohun elo. Jẹ ki a wo diẹ ninu awọn apẹẹrẹ.
 
 **Scalability**: Eleyi ti wa ni aseyori nipa 'Outsourcing Computation'. nibẹ ni ko si to muna nilo fun odo-imọ fun a L1 pq lati ṣayẹwo awọn iṣẹ ti ohun ita-pq iṣẹ. awọn iṣowo ni o wa ko dandan ikọkọ lori a zk-EVM.
 
@@ -222,9 +222,9 @@ ____
 
 ## Àwọn ojúewé tó tan mọ́ ọn
 
-- [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Ṣe](/using-zcash/shielded-pools)  Bawo ni a ṣe nlo zk-SNARKs ninu awọn iṣupọ iye Zcash
-- [Halo](/zcash-tech/halo)  Eto zk-SNARK ti Zcash ti o yọ awọn iṣeto igbẹkẹle kuro
+- [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Ṣe](/using-zcash/shielded-pools)  Bawo ni a ṣe nlo ZK-SNARKs ninu awọn iṣupọ iye Zcash
+- [Halo](/zcash-tech/halo)  Eto ZK-SNARK ti Zcash ti o yọ awọn iṣeto igbẹkẹle kuro
 - [Awọn Post-Quantum Aabo ni Zcash](/zcash-tech/post-quantum-security) - Bawo ni awọn eewu quantum ọjọ iwaju ṣe ni ibatan si crypto Zcash
-- [Awọn ohun-ini ti o ni aabo Zcash](/zcash-tech/zcash-shielded-assets)  Awọn ZSA ti a kọ lori imọ-ẹrọ zk-SNARK
+- [Awọn ohun-ini ti o ni aabo Zcash](/zcash-tech/zcash-shielded-assets)  Awọn ZSA ti a kọ lori imọ-ẹrọ ZK-SNARK
 - [Kí ni ZEC àti Zcash?](/start-here/what-is-zec-and-zcash)  Ìfilọ́lẹ̀ sí Zcash àti àwòṣe ìpamọ́ rẹ̀
-- [Ìfọ̀kànbalẹ̀ gẹ́gẹ́ bí Ìlànà Pàtàkì](/start-here/who-can-see-your-zcash-payment)  Ìdí tó fi ṣe pàtàkì láti pa ọ̀rọ̀ ìnáwó mọ́
+- [Ìfọ̀kànbalẹ̀ gẹ́gẹ́ bí Ìlànà Pàtàkì](/privacy/privacy-as-a-core-principle)  Ìdí tó fi ṣe pàtàkì láti pa ọ̀rọ̀ ìnáwó mọ́

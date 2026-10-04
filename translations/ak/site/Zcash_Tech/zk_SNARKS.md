@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & zk-SNARKs NKYERƐKYERƐMU
+# ZKP & ZK-SNARKS NKYERƐKYERƐMU
 
 ## TL;DR
 
-- **zk-SNARKs** = Zero-Knowledge Nimdeɛ ho akyinnyegye a ɛyɛ tiawa a ɛnyɛ nkitahodi
+- **ZK-SNARKs** = Zero-Knowledge Nimdeɛ ho akyinnyegye a ɛyɛ tiawa a ɛnyɛ nkitahodi
 - Wɔma ɔfã biako **da no adi sɛ wonim biribi** a wɔanna nsɛm no ankasa adi
-- Zcash de zk-SNARKs di dwuma de kyerɛ sɛ asɛm bi yɛ nokware (sika dodow a ɛteɛ, nsɛm a wɔansɛe no) **a ɛnna nea ɔde kɔmaa, nea ogye, anaa sika dodow adi**
+- Zcash de ZK-SNARKs di dwuma de kyerɛ sɛ asɛm bi yɛ nokware (sika dodow a ɛteɛ, nsɛm a wɔansɛe no) **a ɛnna nea ɔde kɔmaa, nea ogye, anaa sika dodow adi**
 - "Tiatiaa" kyerɛ sɛ adanse no sua na ɛyɛ ntɛm sɛ wobetumi adi ho adanse mpo wɔ nsɛm a ɛyɛ den ho
-- Orchard pool no de Halo 2, zk-SNARK nhyehyɛe a **ɛho nhia sɛ wɔyɛ nhyehyɛe a wotumi de ho to so** na edi dwuma.
+- Orchard pool no de Halo 2, ZK-SNARK nhyehyɛe a **ɛho nhia sɛ wɔyɛ nhyehyɛe a wotumi de ho to so** na edi dwuma.
 
 ---
 
@@ -163,7 +163,7 @@ Transparent Setup (No Trusted Setup)- Preprocessing algorithm no mfa kokoam rand
 
 [Sonic a ɛyɛ dɛ](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin na ɔkyerɛwee](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk a ɔyɛ](https://eprint.iacr.org/2019/953): Nhyehyɛe a Wogye Di wɔ Amansan Nyinaa Mu.
 
-[SUM](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK, NKWASƐM](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup nanso ɛma adanse a ɛware kakra anaasɛ ebetumi agye bere tenten ansa na prover atu mmirika. 
+[SUM](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK, NKWASƐM](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup nanso ɛma adanse a ɛware kakra anaasɛ ebetumi agye bere tenten ansa na prover atu mmirika. 
 
 SNARKS ho wɔ mfaso bere a wohia verifiers pii te sɛ blockchain te sɛ Zcash anaa zk-Rollup te sɛ [Aztec](https://docs.aztec.network) sɛnea ɛbɛyɛ a ɛho renhia sɛ validating nodes pii di nkitaho wɔ rounds pii mu ne adanse biara. 
 
@@ -179,7 +179,7 @@ Kenkan [Halo2 nhoma no](https://zcash.github.io/halo2/index.html) sɛ wopɛ nsɛ
 
 ## Zero-Knowledge Dwumadi Afoforo 
 
-zk-SNARKs ma mfasoɔ ahodoɔ bi wɔ dwumadie ahodoɔ mu. Ma yɛnhwɛ nhwɛso ahorow bi.
+zk-SNARKS ma mfasoɔ ahodoɔ bi wɔ dwumadie ahodoɔ mu. Ma yɛnhwɛ nhwɛso ahorow bi.
 
 **Scalability**: Eyi nam 'Outsourcing Computation' so na ɛba. Ɛho nhia koraa sɛ nimdeɛ a ɛyɛ zero ma L1 nkɔnsɔnkɔnsɔn bi de hwɛ sɛ ɔsom adwuma bi a ɛnyɛ nkɔnsɔnkɔnsɔn no yɛ adwuma. Ɛnyɛ nea ɛkyerɛ sɛ nkitahodi yɛ kokoam wɔ zk-EVM so.
 
@@ -222,9 +222,9 @@ Adesua Foforo:
 
 ## Nkratafa a Ɛfa Ho
 
-- [Atare a Wɔabɔ ho Ban](/using-zcash/shielded-pools) — Sɛnea wɔde zk-SNARKs di dwuma wɔ Zcash botae ahorow mu
-- [Halo](/zcash-tech/halo) — Zcash zk-SNARK nhyehyɛe a eyi nhyehyɛe a wogye di fi hɔ
+- [Atare a Wɔabɔ ho Ban](/using-zcash/shielded-pools) — Sɛnea wɔde ZK-SNARKs di dwuma wɔ Zcash botae ahorow mu
+- [Halo](/zcash-tech/halo) — Zcash ZK-SNARK nhyehyɛe a eyi nhyehyɛe a wogye di fi hɔ
 - [Post-Quantum Ahobammɔ wɔ Zcash mu](/zcash-tech/post-quantum-security) - sedee daakye quantum asiane fa Zcash cryptography ho
-- [Zcash Shielded Agyapadeɛ](/zcash-tech/zcash-shielded-assets) — ZSA ahorow a wɔasi wɔ zk-SNARK mfiridwuma so
+- [Zcash Shielded Agyapadeɛ](/zcash-tech/zcash-shielded-assets) — ZSA ahorow a wɔasi wɔ ZK-SNARK mfiridwuma so
 - [Dɛn ne ZEC ne Zcash](/start-here/what-is-zec-and-zcash) — Zcash ne ne kokoam nsɛm ho nnianim asɛm
-- [Kokoamsɛm sɛ Nnyinasosɛm Titiriw](/start-here/who-can-see-your-zcash-payment) — Nea enti a sikasɛm mu kokoamsɛm ho hia
+- [Kokoamsɛm sɛ Nnyinasosɛm Titiriw](/privacy/privacy-as-a-core-principle) — Nea enti a sikasɛm mu kokoamsɛm ho hia

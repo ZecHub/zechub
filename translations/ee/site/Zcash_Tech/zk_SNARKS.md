@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & zk-SNARKs ƑE NUÐEÐEŊUTI
+# ZKP & ZK-SNARKS ƑE NUÐEÐEŊUTI
 
 ## TL;DR
 
-- **zk-SNARKs** = Zero-Sidzedze Sidzedze ƒe Nyaʋiʋli Kpuie Siwo Mewɔa Nu Ðekae O
+- **ZK-SNARKs** = Zero-Sidzedze Sidzedze ƒe Nyaʋiʋli Kpuie Siwo Mewɔa Nu Ðekae O
 - Wona akpa ɖeka **ɖo kpe edzi be yewonya nane** evɔ womeɖea nyatakakaa ŋutɔ ɖe go o
-- Zcash zãa zk-SNARKs tsɔ ɖoa ​​kpe edzi be asitsatsa aɖe sɔ (ga home siwo sɔ, nyatakaka siwo womezã o) **evɔ meɖea amesi ɖoe ɖa, amesi xɔe, alo ga home fiana o**
+- Zcash zãa ZK-SNARKs tsɔ ɖoa ​​kpe edzi be asitsatsa aɖe sɔ (ga home siwo sɔ, nyatakaka siwo womezã o) **evɔ meɖea amesi ɖoe ɖa, amesi xɔe, alo ga home fiana o**
 - "Kpuie" fia be kpeɖodzia le sue eye woate ŋu aɖo kpe edzi kabakaba le nya sesẽwo gɔ̃ hã gome
-- Orchard ƒe ta la zãa Halo 2, si nye zk-SNARK ɖoɖo si me **mehiã be woawɔ ɖoɖo si dzi woka ɖo o** .
+- Orchard ƒe ta la zãa Halo 2, si nye ZK-SNARK ɖoɖo si me **mehiã be woawɔ ɖoɖo si dzi woka ɖo o** .
 
 ---
 
@@ -163,7 +163,7 @@ Transparent Setup (No Trusted Setup)- Preprocessing algorithm mezãa adzame rand
 
 [Sonic ƒe gbeɖiɖi](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin ƒe ŋkɔ](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk ƒe dɔwɔwɔ](https://eprint.iacr.org/2019/953): Ðoɖo si Dzi Woka Ðo Le Xexeame Katã.
 
-[NYRƆ](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK ƑE NUÐEÐEŊUTI](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup gake ewɔa kpeɖodzi siwo didi vie alo ate ŋu axɔ ɣeyiɣi didi hafi prover naƒu du. 
+[NYRƆ](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK ƑE NUÐEÐEŊUTI](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup gake ewɔa kpeɖodzi siwo didi vie alo ate ŋu axɔ ɣeyiɣi didi hafi prover naƒu du. 
 
 SNARKS ɖea vi ne wohiã kpeɖodzinu geɖewo abe blockchain abe Zcash alo zk-Rollup abe [Aztec ene](https://docs.aztec.network) ale be mehiã be node geɖewo nawɔ nu aduadu le ƒoƒo geɖe me kple kpeɖodzi ɖesiaɖe o. 
 
@@ -179,7 +179,7 @@ Xlẽ [Halo2 ƒe agbalẽa](https://zcash.github.io/halo2/index.html) hena nyata
 
 ## Zero-Sidzedze Dɔwɔnu Bubuwo 
 
-zk-SNARKs naa viɖe geɖe le dɔwɔwɔ vovovo vovovowo me. Na míalé ŋku ɖe eƒe kpɔɖeŋu aɖewo ŋu.
+zk-SNARKS naa viɖe geɖe le dɔwɔwɔ vovovo vovovowo me. Na míalé ŋku ɖe eƒe kpɔɖeŋu aɖewo ŋu.
 
 **Scalability**: Esia nye nusi wowɔna to 'Akɔntabubu si wotsɔna naa ame bubuwo' me. Mehiã vevie be woanya zero-sidzedze na L1 kɔsɔkɔsɔ be woatsɔ aɖo kpe dɔwɔwɔ si mele kɔsɔkɔsɔ me o ƒe dɔwɔwɔ dzi o. Adzɔnuwo menye ame ŋutɔ tɔ kokoko le zk-EVM dzi o.
 
@@ -222,9 +222,9 @@ Nusɔsrɔ̃ Bubuwo:
 
 ## Axa Siwo Do Ƒome Kplii
 
-- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — Alesi wozãa zk-SNARKs le Zcash ƒe asixɔxɔ ƒe ƒuƒoƒo me
-- [Halo](/zcash-tech/halo) — Zcash ƒe zk-SNARK ɖoɖo si ɖea ɖoɖo siwo dzi woka ɖo ɖa
+- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — Alesi wozãa ZK-SNARKs le Zcash ƒe asixɔxɔ ƒe ƒuƒoƒo me
+- [Halo](/zcash-tech/halo) — Zcash ƒe ZK-SNARK ɖoɖo si ɖea ɖoɖo siwo dzi woka ɖo ɖa
 - [Dedienɔnɔ le Quantum megbe le Zcash me](/zcash-tech/post-quantum-security) - Alesi etsɔme quantum afɔkuwo do ƒome kple Zcash cryptography
-- [Zcash ƒe Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) — ZSA siwo wotu ɖe zk-SNARK mɔ̃ɖaŋununya dzi
+- [Zcash ƒe Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) — ZSA siwo wotu ɖe ZK-SNARK mɔ̃ɖaŋununya dzi
 - [Nukae nye ZEC kple Zcash](/start-here/what-is-zec-and-zcash) — Zcash kple eƒe ameŋunyatakakawo ŋuti kpɔɖeŋu ƒe ŋgɔdonya
-- [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/start-here/who-can-see-your-zcash-payment) — Nusita ganyawo ŋuti nyatakakawo tsɔtsɔ aɣla le vevie
+- [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/privacy/privacy-as-a-core-principle) — Nusita ganyawo ŋuti nyatakakawo tsɔtsɔ aɣla le vevie

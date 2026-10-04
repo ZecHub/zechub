@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKPとzk-SNARKs
+# ZKPとZK-SNARKS
 
 ## 要点
 
-- **zk-SNARKs** = ゼロ知識簡潔非対話型知識証明
+- **ZK-SNARKs** = ゼロ知識簡潔非対話型知識証明
 - これにより、一方の当事者は情報そのものを明かさずに、**自分が何かを知っていること**を証明できます
-- Zcash は zk-SNARKs を使って、**送信者、受信者、または金額を明かすことなく**、トランザクションが有効であること（正しい金額、未使用の入力）を証明します
+- Zcash は ZK-SNARKs を使って、**送信者、受信者、または金額を明かすことなく**、トランザクションが有効であること（正しい金額、未使用の入力）を証明します
 - 「Succinct」は、複雑な命題であっても、その証明が非常に小さく、素早く検証できることを意味します
-- Orchard プールは、**信頼できるセットアップを必要としない** zk-SNARK システムである Halo 2 を使用しています
+- Orchard プールは、**信頼できるセットアップを必要としない** ZK-SNARK システムである Halo 2 を使用しています
 
 翻訳するMarkdown断片が見当たりません。原文を貼り付けてください。
 
@@ -163,7 +163,7 @@ Transparent Setup（信頼されたセットアップ不要）- 前処理アル�
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): 汎用的なトラステッド・セットアップ.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): 信頼できるセットアップは不要ですが、証明はやや長くなるか、プロバーの実行により長い時間がかかる場合があります。
+[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): 信頼できるセットアップは不要ですが、証明はやや長くなるか、プロバーの実行により長い時間がかかる場合があります。
 
 SNARKは、Zcashのようなブロックチェーンや [Aztec](https://docs.aztec.network) のような zk-Rollup など、複数の検証者が必要な場合に有用です。なぜなら、複数の検証ノードが各証明について何ラウンドにもわたって相互にやり取りする必要がなくなるからです。
 
@@ -224,9 +224,9 @@ zk-SNARKは、さまざまな異なる用途において複数の利点を提供
 
 ## 関連ページ
 
-- [シールドプール](/using-zcash/shielded-pools) — zk-SNARKsがZcashの価値プールでどのように使われるか
-- [Halo](/zcash-tech/halo) — 信頼できるセットアップを不要にするZcashのzk-SNARKシステム
+- [シールドプール](/using-zcash/shielded-pools) — ZK-SNARKsがZcashの価値プールでどのように使われるか
+- [Halo](/zcash-tech/halo) — 信頼できるセットアップを不要にするZcashのZK-SNARKシステム
 - [Zcashにおけるポスト量子セキュリティ](/zcash-tech/post-quantum-security) - 将来の量子リスクがZcash暗号とどう関係するか
-- [Zcash シールド資産](/zcash-tech/zcash-shielded-assets) — zk-SNARK技術に基づいて構築されたZSA
+- [Zcash シールド資産](/zcash-tech/zcash-shielded-assets) — ZK-SNARK技術に基づいて構築されたZSA
 - [ZECとZcashとは何か](/start-here/what-is-zec-and-zcash) — Zcashとそのプライバシーモデルの紹介
-- [中核原則としてのプライバシー](/start-here/who-can-see-your-zcash-payment) — なぜ金融プライバシーが重要なのか
+- [中核原則としてのプライバシー](/privacy/privacy-as-a-core-principle) — なぜ金融プライバシーが重要なのか

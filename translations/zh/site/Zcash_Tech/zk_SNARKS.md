@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
 </a>
 
-# ZKP 与 zk-SNARKs
+# ZKP 与 ZK-SNARKs
 
 ## TL;DR
 
-- **zk-SNARKs** = 零知识简洁非交互式知识论证
+- **ZK-SNARKs** = 零知识简洁非交互式知识论证
 - 它们允许一方向另一方**证明自己知道某些信息**，而无需泄露信息本身
-- Zcash 使用 zk-SNARKs 来证明一笔交易是有效的（金额正确、输入未被花费），**同时不泄露发送方、接收方或金额**
+- Zcash 使用 ZK-SNARKs 来证明一笔交易是有效的（金额正确、输入未被花费），**同时不泄露发送方、接收方或金额**
 - “Succinct（简洁）”表示即使面对复杂陈述，证明也很小且验证速度很快
-- Orchard 池使用 Halo 2，这是一种**无需可信设置**的 zk-SNARK 系统
+- Orchard 池使用 Halo 2，这是一种**无需可信设置**的 ZK-SNARK 系统
 
 ---
 
@@ -163,7 +163,7 @@ Sha256 是可用于承诺方案的一种哈希函数示例。
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953)：通用可信设置。
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o)：无需可信设置，但生成的证明会稍长，或者证明者运行时间可能更久。 
+[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o)：无需可信设置，但生成的证明会稍长，或者证明者运行时间可能更久。 
 
 当需要多个验证者时，SNARKS 非常有用，例如像 Zcash 这样的区块链，或像 [Aztec](https://docs.aztec.network) 这样的 zk-Rollup，这样多个验证节点就不必围绕每个证明进行多轮交互。 
 
@@ -179,7 +179,7 @@ Zcash 是一条支持私密交易的公有区块链。zk-SNARK's 用于证明一
 
 ## 其他零知识应用 
 
-zk-SNARKs 在各种不同应用中都提供了若干优势。下面来看一些例子。
+zk-SNARKS 在各种不同应用中都提供了若干优势。下面来看一些例子。
 
 **可扩展性**：这是通过“外包计算”实现的。L1 链在验证链下服务的工作时，并不严格要求必须使用零知识。在 zk-EVM 上，交易也不一定是私密的。
 
@@ -222,9 +222,9 @@ ____
 
 ## 相关页面
 
-- [Shielded Pools](/using-zcash/shielded-pools) — zk-SNARKs 如何用于 Zcash 的价值池
-- [Halo](/zcash-tech/halo) — Zcash 的 zk-SNARK 系统，可消除可信设置
+- [Shielded Pools](/using-zcash/shielded-pools) — ZK-SNARKs 如何用于 Zcash 的价值池
+- [Halo](/zcash-tech/halo) — Zcash 的 ZK-SNARK 系统，可消除可信设置
 - [Zcash 中的后量子安全](/zcash-tech/post-quantum-security) - 未来量子风险如何关联到 Zcash 密码学
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — 基于 zk-SNARK 技术构建的 ZSAs
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — 基于 ZK-SNARK 技术构建的 ZSAs
 - [什么是 ZEC 和 Zcash](/start-here/what-is-zec-and-zcash) — Zcash 及其隐私模型简介
-- [作为核心原则的隐私](/start-here/who-can-see-your-zcash-payment) — 为什么金融隐私很重要
+- [作为核心原则的隐私](/privacy/privacy-as-a-core-principle) — 为什么金融隐私很重要
