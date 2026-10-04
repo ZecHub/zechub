@@ -100,3 +100,27 @@ test("_next and api paths are always fetched", async () => {
   assert.deepEqual(findingsFor(report, api), ["broken"]);
   assert.deepEqual(fetched.sort(), [api, chunk].sort());
 });
+
+test("other spellings of a wiki file link are fetched at their canonical address", async () => {
+  // The site answers http://, www. and a trailing slash with a 308 to the
+  // canonical URL, which would hide a missing file behind a redirect.
+  const forms = [
+    "https://zechub.wiki/content-images/gone.png/",
+    "http://zechub.wiki/content-images/gone.png",
+    "https://www.zechub.wiki/content-images/gone.png",
+  ];
+  const canonical = "https://zechub.wiki/content-images/gone.png";
+  const { report, fetched } = await scan(forms);
+  // One request, and one finding on the canonical URL that points at the first
+  // citing line and counts the others, as for any URL cited more than once.
+  assert.deepEqual(fetched, [canonical]);
+  const broken = report.findings.filter((f) => f.url === canonical);
+  assert.deepEqual(broken.map((f) => [f.kind, f.line, f.alsoIn]), [["broken", 1, 2]]);
+});
+
+test("a locale prefix is kept when fetching a wiki file", async () => {
+  const feed = "https://zechub.wiki/en/rss.xml";
+  const { report, fetched } = await scan([feed], { live: [feed] });
+  assert.deepEqual(findingsFor(report, feed), []);
+  assert.deepEqual(fetched, [feed]);
+});
