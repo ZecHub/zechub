@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Website: https://app.routerprotocol.com/
+- Website: https://www.routerprotocol.com/
 - Description: Cross-chain liquidity transport layer that allows seamless asset and data transfer between multiple blockchains.
 
 ___
