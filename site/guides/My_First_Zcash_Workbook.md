@@ -150,7 +150,7 @@ The final section invites readers to become part of the Zcash ecosystem. Opportu
 - Contributing to future workbook translations  
 - Supporting open-source education  
 - Creating content, code contributions, artwork, or feedback  
-- Exploring Zcash community grants  
+- Exploring Zcash Community Grants  
 
 The message is clear: anyone can participate, and the community welcomes contributors of all backgrounds and skill levels.
 
