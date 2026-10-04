@@ -251,7 +251,7 @@ ZIP 2005 відповідає цій ідеї для нотаток Orchard.
 - [Чи є Zcash постквантовим?](/zcash-tech/is-zcash-post-quantum) - Що змінилося в Ironwood, що досі залишається вразливим і таблиця стану з датами
 - [Захищені пули](/using-zcash/shielded-pools) - Як захищені транзакції Zcash захищають деталі транзакцій
 - [Halo](/zcash-tech/halo) - Система доказів Zcash без довіреної початкової установки
-- [ZKP і ZK-SNARKS](/zcash-tech/zk-snarks) - Як докази з нульовим розголошенням працюють у Zcash
+- [ZKP і zk-SNARKs](/zcash-tech/zk-snarks) - Як докази з нульовим розголошенням працюють у Zcash
 - [Ключі перегляду](/zcash-tech/viewing-keys) - Як вибіркове розкриття інформації працює для захищених Zcash
 - [Zcash Захищені активи](/zcash-tech/zcash-shielded-assets) - Майбутні захищені активи та підтримка приватних активів
 - [Конфіденційність як основний принцип](/start-here/who-can-see-your-zcash-payment) - Чому фінансова конфіденційність важлива

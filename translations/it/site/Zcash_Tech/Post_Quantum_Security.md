@@ -251,7 +251,7 @@ Per i principianti, l'idea principale è semplice: la privacy odierna riduce l'e
 - [Zcash è post-quantum?](/zcash-tech/is-zcash-post-quantum) - Cosa ha modificato Ironwood, cosa è ancora esposto e una tabella di stato datata
 - [Pool schermati](/using-zcash/shielded-pools) - Come le transazioni schermate di Zcash proteggono i dettagli delle transazioni
 - [Halo](/zcash-tech/halo) - Il sistema di prova di Zcash senza una configurazione fidata
-- [ZKP e ZK-SNARKS](/zcash-tech/zk-snarks) - Come funzionano le prove a conoscenza zero in Zcash
+- [ZKP e zk-SNARKs](/zcash-tech/zk-snarks) - Come funzionano le prove a conoscenza zero in Zcash
 - [Viewing Keys](/zcash-tech/viewing-keys) - Come funziona la divulgazione selettiva per Zcash schermato
 - [Asset schermati di Zcash](/zcash-tech/zcash-shielded-assets) - Futuri asset schermati e supporto per asset privati
 - [La privacy come principio fondamentale](/start-here/who-can-see-your-zcash-payment) - Perché la privacy finanziaria è importante

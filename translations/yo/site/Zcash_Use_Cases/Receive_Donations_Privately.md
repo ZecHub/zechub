@@ -51,7 +51,7 @@ Eyi jẹ ki o gba owo **laisi fi aworan iṣowo rẹ han**.
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Iwe apamọwọ Zcash ti o ṣe atilẹyin awọn adirẹsi ipamọ:
-  - Zodl (ì í ì)
+  - ZODL (ì í ì)
   - Zingo!
   - Àwọn àpò owó mìíràn tí a gbà níyànjú
 

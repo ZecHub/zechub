@@ -50,7 +50,7 @@ Zcash छिपे हुए लेनदेन छिपाता है:
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> आपको क्या चाहिए
 
 - शील्डेड पतों का समर्थन करने वाला Zcash वॉलेट:
-  - Zodl
+  - ZODL
   - Zingo!
   - अन्य समर्थित वॉलेट
 

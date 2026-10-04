@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
 </a>
 
-# ZKP و ZK-SNARKs
+# ZKP و zk-SNARKs
 
 ## الخلاصة
 
-- **ZK-SNARKs** = حجج معرفة موجزة وغير تفاعلية قائمة على انعدام المعرفة
+- **zk-SNARKs** = حجج معرفة موجزة وغير تفاعلية قائمة على انعدام المعرفة
 - تتيح لطرفٍ ما **إثبات أنه يعرف شيئًا** دون الكشف عن المعلومة نفسها
-- يستخدم Zcash تقنيات ZK-SNARKs لإثبات أن المعاملة صالحة (المبالغ صحيحة، والمدخلات غير منفقة) **من دون الكشف عن المُرسِل أو المُستقبِل أو المبلغ**
+- يستخدم Zcash تقنيات zk-SNARKs لإثبات أن المعاملة صالحة (المبالغ صحيحة، والمدخلات غير منفقة) **من دون الكشف عن المُرسِل أو المُستقبِل أو المبلغ**
 - تعني كلمة "موجزة" أن الإثبات صغير جدًا وسريع التحقق حتى بالنسبة إلى العبارات المعقدة
-- تستخدم مجموعة Orchard نظام Halo 2، وهو نظام ZK-SNARKs **لا يتطلب trusted setup**
+- تستخدم مجموعة Orchard نظام Halo 2، وهو نظام zk-SNARKs **لا يتطلب trusted setup**
 
 ---
 
@@ -163,7 +163,7 @@ Transparent Setup (No Trusted Setup)- لا تستخدم خوارزمية الم�
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted Setup عام.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): لا تتطلب Trusted Setup لكنها تنتج إثباتات أطول قليلًا أو قد تستغرق وقتًا أطول لدى المُثبِت. 
+[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): لا تتطلب Trusted Setup لكنها تنتج إثباتات أطول قليلًا أو قد تستغرق وقتًا أطول لدى المُثبِت. 
 
 تكون SNARKS مفيدة عندما تكون هناك حاجة إلى عدة مُدقّقين، كما في blockchain مثل Zcash أو zk-Rollup مثل [Aztec](https://docs.aztec.network)، بحيث لا تضطر عقد التحقق المتعددة إلى التفاعل عبر عدة جولات مع كل إثبات. 
 
@@ -179,7 +179,7 @@ Zcash هو blockchain عام يسهّل المعاملات الخاصة. وتُ�
 
 ## تطبيقات أخرى لانعدام المعرفة 
 
-توفر zk-SNARKS عدة مزايا في مجموعة متنوعة من التطبيقات المختلفة. لنلقِ نظرة على بعض الأمثلة.
+توفر zk-SNARKs عدة مزايا في مجموعة متنوعة من التطبيقات المختلفة. لنلقِ نظرة على بعض الأمثلة.
 
 **قابلية التوسع**: يتحقق ذلك من خلال "الاستعانة بالحوسبة الخارجية". ليست هناك حاجة صارمة إلى انعدام المعرفة لكي تتمكن سلسلة L1 من التحقق من عمل خدمة خارج السلسلة. كما أن المعاملات ليست بالضرورة خاصة على zk-EVM.
 
@@ -222,9 +222,9 @@ ____
 
 ## صفحات ذات صلة
 
-- [المجموعات المحمية](/using-zcash/shielded-pools) — كيف تُستخدم ZK-SNARKs في مجموعات القيمة في Zcash
-- [Halo](/zcash-tech/halo) — نظام ZK-SNARKs في Zcash الذي يلغي trusted setups
+- [المجموعات المحمية](/using-zcash/shielded-pools) — كيف تُستخدم zk-SNARKs في مجموعات القيمة في Zcash
+- [Halo](/zcash-tech/halo) — نظام zk-SNARKs في Zcash الذي يلغي trusted setups
 - [الأمان ما بعد الكمي في Zcash](/zcash-tech/post-quantum-security) - كيف ترتبط المخاطر الكمية المستقبلية بتشفير Zcash
-- [أصول Zcash المحمية](/zcash-tech/zcash-shielded-assets) — ZSAs المبنية على تقنية ZK-SNARK
+- [أصول Zcash المحمية](/zcash-tech/zcash-shielded-assets) — ZSAs المبنية على تقنية zk-SNARK
 - [ما هو ZEC و Zcash](/start-here/what-is-zec-and-zcash) — مقدمة إلى Zcash ونموذج الخصوصية الخاص به
 - [الخصوصية كمبدأ أساسي](/start-here/who-can-see-your-zcash-payment) — لماذا تهم الخصوصية المالية

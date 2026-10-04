@@ -251,7 +251,7 @@ Project Tachyon هو ترقية مقترحة لـ Zcash تركّز على الت
 - [هل Zcash مقاوم للحوسبة الكمّية؟](/zcash-tech/is-zcash-post-quantum) - ما الذي تغيّر في Ironwood، وما الذي لا يزال مكشوفًا، وجدول حالة مؤرّخ
 - [المجمعات المحمية](/using-zcash/shielded-pools) - كيف تحمي المعاملات المحمية في Zcash تفاصيل المعاملات
 - [Halo](/zcash-tech/halo) - نظام الإثبات الخاص بـ Zcash دون إعداد موثوق
-- [ZKP وZK-SNARKS](/zcash-tech/zk-snarks) - كيف تعمل براهين المعرفة الصفرية في Zcash
+- [ZKP وzk-SNARKs](/zcash-tech/zk-snarks) - كيف تعمل براهين المعرفة الصفرية في Zcash
 - [مفاتيح العرض](/zcash-tech/viewing-keys) - كيف يعمل الإفصاح الانتقائي للمعاملات المحمية في Zcash
 - [Zcash الأصول المحمية](/zcash-tech/zcash-shielded-assets) - الأصول المحمية المستقبلية ودعم الأصول الخاصة
 - [الخصوصية كمبدأ أساسي](/start-here/who-can-see-your-zcash-payment) - لماذا تهم الخصوصية المالية

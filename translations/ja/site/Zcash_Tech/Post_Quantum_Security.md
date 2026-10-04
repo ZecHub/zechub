@@ -251,7 +251,7 @@ Zcashは現在完全にポスト量子ではありませんが、いくつかの
 - [Zcashは耐量子計算機対応か？](/zcash-tech/is-zcash-post-quantum) - Ironwoodで変更された点、依然として露出している点、および日付付きのステータス表
 - [シールドプール](/using-zcash/shielded-pools) - Zcashのシールド取引が取引の詳細を保護する仕組み
 - [Halo](/zcash-tech/halo) - 信頼できるセットアップを必要としないZcashの証明システム
-- [ZKPとZK-SNARKS](/zcash-tech/zk-snarks) - Zcashにおけるゼロ知識証明の仕組み
+- [ZKPとzk-SNARKs](/zcash-tech/zk-snarks) - Zcashにおけるゼロ知識証明の仕組み
 - [閲覧キー](/zcash-tech/viewing-keys) - シールドされたZcashにおける選択的開示の仕組み
 - [Zcashのシールド資産](/zcash-tech/zcash-shielded-assets) - 将来のシールド資産とプライベート資産のサポート
 - [中核原則としてのプライバシー](/start-here/who-can-see-your-zcash-payment) - 金融プライバシーが重要である理由

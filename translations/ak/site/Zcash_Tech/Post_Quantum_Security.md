@@ -251,7 +251,7 @@ Wɔ wɔn a wɔrefi ase no fam no, adwene titiriw no yɛ mmerɛw: kokoamsɛm nnɛ
 - [So Zcash yɛ nea ɛwɔ Quantum akyi?](/zcash-tech/is-zcash-post-quantum) - dee Ironwood sesaa, nea ɛda so ara da adi, ne status table a wɔakyerɛw date
 - [Atare a Wɔabɔ Ho Ban](/using-zcash/shielded-pools) - sedee Zcash shielded transactions bɔ nkitahodi ho nsɛm ho ban
 - [Halo](/zcash-tech/halo) - Zcash's adanse nhyehyɛe a enni nhyehyɛe a wogye di
-- [ZKP & ZK-SNARKS NKYERƐKYERƐMU](/zcash-tech/zk-snarks) - sedee zero-nimdee adansedie ye adwuma wo Zcash mu
+- [ZKP & zk-SNARKs NKYERƐKYERƐMU](/zcash-tech/zk-snarks) - sedee zero-nimdee adansedie ye adwuma wo Zcash mu
 - [Nneɛma a Wɔde Hwɛ Nneɛma](/zcash-tech/viewing-keys) - sedee selective disclosure yɛ adwuma ma shielded Zcash
 - [Zcash Shielded Agyapadeɛ](/zcash-tech/zcash-shielded-assets) - Daakye agyapadeɛ a wɔabɔ ho ban ne ankorankoro agyapadeɛ mmoa
 - [Kokoamsɛm sɛ Nnyinasosɛm Titiriw](/start-here/who-can-see-your-zcash-payment) - a enti a sikasm mu kokoamsɛm ho hia

@@ -251,7 +251,7 @@ Fún àwọn olùbẹ̀rẹ̀, èrò pàtàkì náà rọrùn: ìpamọ́ lónì
 - [Ṣé Zcash Post-Quantum ni?](/zcash-tech/is-zcash-post-quantum) - Ohun ti Ironwood yipada, ohun ti o tun han, ati tabili ipo ọjọ kan
 - [Àwọn Adágún Tí A Dáàbò Bo](/using-zcash/shielded-pools) - Báwo ni àwọn ìṣòwò tí a fi ààbò Zcash ṣe ń dáàbò bo àwọn àlàyé ìṣòwò náà
 - [Halo](/zcash-tech/halo) - Eto ẹri Zcash's laisi eto ti o gbẹkẹle
-- [Àwọn ZKP àti ZK-SNARKS](/zcash-tech/zk-snarks) - Bawo ni awọn ẹri imọ-odo ṣe n ṣiṣẹ ni Zcash
+- [Àwọn ZKP àti zk-SNARKs](/zcash-tech/zk-snarks) - Bawo ni awọn ẹri imọ-odo ṣe n ṣiṣẹ ni Zcash
 - [Àwọn Kọ́kọ́rọ́ Wíwo](/zcash-tech/viewing-keys) - Bawo ni ifihan yiyan ṣe n ṣiṣẹ fun Zcash ti a daabobo
 - [Àwọn Ohun Ìní tí a fi ààbò Zcash ṣe](/zcash-tech/zcash-shielded-assets) - Awọn ohun-ini aabo ọjọ iwaju ati atilẹyin dukia ikọkọ
 - [Ìpamọ́ gẹ́gẹ́ bí Ìlànà Pàtàkì](/start-here/who-can-see-your-zcash-payment) - Idi ti asiri eto-owo fi ṣe pataki

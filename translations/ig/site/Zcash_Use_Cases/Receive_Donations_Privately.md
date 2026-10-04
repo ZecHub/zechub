@@ -51,7 +51,7 @@ Nke a na-enye gị ohere ịnata ego **na-enweghị ikpughe eserese akụnụba 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Akpa ego Zcash nke na-akwado adreesị echedoro:
-  - Zodl .
+  - ZODL .
   - Zingo!
   - Akpa ego ndị ọzọ a kwadoro
 

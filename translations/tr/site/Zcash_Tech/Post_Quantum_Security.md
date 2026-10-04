@@ -251,7 +251,7 @@ Yeni başlayanlar için ana fikir basittir: bugünkü gizlilik gelecekteki veri 
 - [Zcash kuantum sonrası güvenli mi?](/zcash-tech/is-zcash-post-quantum) - Ironwood'in neleri değiştirdiği, nelerin hâlâ açıkta olduğu ve tarihli bir durum tablosu
 - [Korumalı Havuzlar](/using-zcash/shielded-pools) - Zcash korumalı işlemlerinin işlem ayrıntılarını nasıl koruduğu
 - [Halo](/zcash-tech/halo) - Zcash'in güvenilir kurulum gerektirmeyen kanıt sistemi
-- [ZKP ve ZK-SNARKS](/zcash-tech/zk-snarks) - Sıfır bilgi kanıtlarının Zcash içinde nasıl çalıştığı
+- [ZKP ve zk-SNARKs](/zcash-tech/zk-snarks) - Sıfır bilgi kanıtlarının Zcash içinde nasıl çalıştığı
 - [Görüntüleme Anahtarları](/zcash-tech/viewing-keys) - Korumalı Zcash için seçici ifşanın nasıl çalıştığı
 - [Zcash Korumalı Varlıklar](/zcash-tech/zcash-shielded-assets) - Gelecekteki korumalı varlıklar ve özel varlık desteği
 - [Temel İlke Olarak Gizlilik](/start-here/who-can-see-your-zcash-payment) - Finansal gizliliğin neden önemli olduğu

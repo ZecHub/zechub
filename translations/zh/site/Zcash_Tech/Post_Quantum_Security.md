@@ -251,7 +251,7 @@ ZIP 2005 对 Orchard notes 就符合这个思路。
 - [Zcash是后量子安全的吗？](/zcash-tech/is-zcash-post-quantum) - Ironwood发生了哪些变化、仍面临哪些风险，以及一份带日期的状态表
 - [屏蔽池](/using-zcash/shielded-pools) - Zcash屏蔽交易如何保护交易细节
 - [Halo](/zcash-tech/halo) - Zcash无需可信设置的证明系统
-- [ZKP 与 ZK-SNARKS](/zcash-tech/zk-snarks) - 零知识证明如何在Zcash中运作
+- [ZKP 与 zk-SNARKs](/zcash-tech/zk-snarks) - 零知识证明如何在Zcash中运作
 - [Viewing Key](/zcash-tech/viewing-keys) - 屏蔽Zcash的选择性披露如何运作
 - [Zcash屏蔽资产](/zcash-tech/zcash-shielded-assets) - 未来的屏蔽资产和私有资产支持
 - [隐私作为核心原则](/start-here/who-can-see-your-zcash-payment) - 财务隐私为何重要
