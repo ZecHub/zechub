@@ -77,20 +77,20 @@ Vyanzo:
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Kwa sasa Zodl ina **Tor Protection** iliyojengewa ndani, si muunganisho wa asili wa Nym ulioelezwa hapo juu kwa Zingo, Zkool, na Nozy.
+Kwa sasa ZODL ina **Tor Protection** iliyojengewa ndani, si muunganisho wa asili wa Nym ulioelezwa hapo juu kwa Zingo, Zkool, na Nozy.
 
-Kipengele cha Zodl cha Tor kinaweza kuhamisha uwasilishaji wa miamala, urejeshaji wa data ya miamala, maombi ya kiwango cha ubadilishaji, na simu za API za wahusika wengine kupitia Tor. Nym alisema mnamo Septemba 24, 2026 kwamba bado iko kwenye mazungumzo hai na timu ya Zodl kuhusu ujumuishaji mpana wa mixnet.
+Kipengele cha ZODL cha Tor kinaweza kuhamisha uwasilishaji wa miamala, urejeshaji wa data ya miamala, maombi ya kiwango cha ubadilishaji, na simu za API za wahusika wengine kupitia Tor. Nym alisema mnamo Septemba 24, 2026 kwamba bado iko kwenye mazungumzo hai na timu ya ZODL kuhusu ujumuishaji mpana wa mixnet.
 
-Kwa Zodl leo, tumia mojawapo ya:
+Kwa ZODL leo, tumia mojawapo ya:
 
-- Ulinzi wa Tor ulioandikwa na Zodl, au
+- Ulinzi wa Tor ulioandikwa na ZODL, au
 - NymVPN ya kiwango cha mfumo ikiwa lengo lako ni kuelekeza trafiki ya jumla ya kifaa cha pochi kupitia Nym.
 
 Usidhani Tor na Nym ni usafiri unaoweza kubadilishwa ndani ya pochi kwa sababu tu zote mbili ni mitandao ya faragha.
 
-Mipangilio ya Zodl Tor:
+Mipangilio ya ZODL Tor:
 
 **Zaidi → Vipengele vya Kina → Beta: Ulinzi wa Tor → Wezesha → Hifadhi mabadiliko**
 
@@ -212,4 +212,4 @@ Kabla ya kutegemea mpangilio, uliza:
 - Hifadhi ya Zkool: https://github.com/hhanh00/zkool2
 - Kazi ya usafiri ya NozyWallet Nym: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Ulinzi wa Zodl Tor: https://support.zodl.com/article/17-enabling-tor-protection
+- Ulinzi wa ZODL Tor: https://support.zodl.com/article/17-enabling-tor-protection

@@ -77,20 +77,20 @@ NozyWallet также имеет пути транспорта с поддерж
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-В Zodl сейчас встроена **Tor Protection**, а не такая же нативная интеграция Nym, как описанная выше для Zingo, Zkool и Nozy.
+В ZODL сейчас встроена **Tor Protection**, а не такая же нативная интеграция Nym, как описанная выше для Zingo, Zkool и Nozy.
 
-Функция Tor в Zodl может направлять через Tor отправку транзакций, получение данных транзакций, запросы обменных курсов и вызовы сторонних API. 24 сентября 2026 года Nym заявил, что всё ещё активно обсуждает с командой Zodl более широкую интеграцию микснета.
+Функция Tor в ZODL может направлять через Tor отправку транзакций, получение данных транзакций, запросы обменных курсов и вызовы сторонних API. 24 сентября 2026 года Nym заявил, что всё ещё активно обсуждает с командой ZODL более широкую интеграцию микснета.
 
-Для Zodl сегодня используйте:
+Для ZODL сегодня используйте:
 
-- документированную Tor Protection в Zodl; или
+- документированную Tor Protection в ZODL; или
 - системный NymVPN, если ваша цель — направить общий трафик устройства кошелька через Nym.
 
 Не считайте Tor и Nym взаимозаменяемыми транспортами внутри кошелька только потому, что оба являются сетями конфиденциальности.
 
-Настройки Tor в Zodl:
+Настройки Tor в ZODL:
 
 **More → Advanced Features → Beta: Tor Protection → Enable → Save changes**
 
@@ -212,4 +212,4 @@ NymVPN также предоставляет режим прокси для пр
 - Репозиторий Zkool: https://github.com/hhanh00/zkool2
 - Работа над транспортом Nym в NozyWallet: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Tor Protection в Zodl: https://support.zodl.com/article/17-enabling-tor-protection
+- Tor Protection в ZODL: https://support.zodl.com/article/17-enabling-tor-protection

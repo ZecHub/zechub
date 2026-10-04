@@ -48,11 +48,11 @@
 
 [ZECプール移行フィールドガイド完全版をZecHubで読む](/research/zec-pool-migration/view)
 
-> **始める前に：** まず、**何を復旧し、どの復旧用データがまだあるのか**を確認してください。現在のウォレットのシードまたはサポートされている非Sprout支出鍵なら、通常の復元だけで済む場合があります。ZecWallet Liteのシード、レガシー`wallet.dat`、単体のSaplingまたはSprout支出鍵などの古いデータには、専用の復旧経路が必要になる場合があります。
+> **始める前に：** まず、**何を復旧し、どの復旧用データがまだあるのか**を確認してください。現在のウォレットのシードまたはサポートされている非Sprout支出鍵なら、通常の復元だけで済む場合があります。Zecwallet Liteのシード、レガシー`wallet.dat`、単体のSaplingまたはSprout支出鍵などの古いデータには、専用の復旧経路が必要になる場合があります。
 >
 > 資金が**Sprout**にあると思う場合は、復旧に時間を費やす前に、まだ支出権限があることを確認してください。`zc...`アドレスまたは閲覧用データだけでは、資金を移動できません。
 >
-> **YWalletはIronwood後、Zcashをサポートしなくなりました。** サポートされているシードと鍵からの通常の非Sprout復元には**Zkool**を使用してください。ZecWallet Liteの復旧、レガシーウォレットファイル、単体のSapling/Sprout支出鍵には**Argos**を使用してください。Sproutでは、まずArgosを試す経路とし、完全なフィールドガイドではレガシーサイドカーへのフォールバックを扱います。
+> **YWalletはIronwood後、Zcashをサポートしなくなりました。** サポートされているシードと鍵からの通常の非Sprout復元には**Zkool**を使用してください。Zecwallet Liteの復旧、レガシーウォレットファイル、単体のSapling/Sprout支出鍵には**Argos**を使用してください。Sproutでは、まずArgosを試す経路とし、完全なフィールドガイドではレガシーサイドカーへのフォールバックを扱います。
 >
 > 下の表は、記憶している復旧ツールではなく、**実際に持っているもの**に基づいて使用してください。
 
@@ -60,8 +60,8 @@
 | --- | --- |
 | 現在または最近まで保守されていたウォレットのシードフレーズ、またはサポートされている**非Sprout支出鍵**。古いYWallet Zcashデータを含む | [Zkool](#fund-recovery-with-zkool) |
 | **閲覧鍵のみ** | Zkoolはサポートされている閲覧鍵を読み取り専用アクセス用にインポートできますが、閲覧鍵では復旧のための支出を承認できません。対応するシードまたは支出鍵を見つけてください。 |
-| 24語の**ZecWallet Lite**シード | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Liteまたはzcashd `wallet.dat`、あるいは単体のSapling / Sprout支出鍵 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)。2026年9月18日時点でv1.3.0が最新かつ推奨です。`wallet.dat`およびSproutの復旧にはv1.2.0以降を使用してください。 |
+| 24語の**Zecwallet Lite**シード | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Zecwallet Liteまたはzcashd `wallet.dat`、あるいは単体のSapling / Sprout支出鍵 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)。2026年9月18日時点でv1.3.0が最新かつ推奨です。`wallet.dat`およびSproutの復旧にはv1.2.0以降を使用してください。 |
 | Argosで扱えないSproutデータ、またはレガシーコンポーネントを自分で管理したい復旧 | [完全版フィールドガイド](/research/zec-pool-migration/view)のレガシーサイドカー経路を使用してください。 |
 | 動作するシードや支出鍵はないが、ロックされたデバイス、忘れたパスワード、または故障したディスクがある | [専門的な復旧](#professional-recovery-when-you-do-not-have-the-seed)。頼んでもいないのに連絡してきた相手に、動作するシードや支出鍵を決して送らないでください。 |
 
@@ -119,11 +119,11 @@ ZIP 316では、内部／おつり用の別アドレスを使用します。**Us
 
 Unshield Allは、トランスペアレントアドレスしか受け付けない取引所へ出金する際に便利です。シールドボタンは、アカウントにシールドアドレスがある場合にのみ表示され、Unshield Allはトランスペアレントアドレスがある場合にのみ表示されます。
 
-## ArgosによるZecWallet Liteおよびレガシーウォレットの復旧
+## ArgosによるZecwallet Liteおよびレガシーウォレットの復旧
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite)はすでに保守されておらず、そのリポジトリはアーカイブされています。そのシード導出は現在のウォレットが使用する構成とは異なるため、同じフレーズを現代的なウォレットにインポートすると、ZecWallet Liteの追加導出アドレスに保有された資金を見逃す可能性があります。[Argos](https://argos.sovright.com)は、Sovrightによる、このケースやその他のレガシー復旧ケース向けに作られたデスクトップ復旧ワークスペースです。
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite)はすでに保守されておらず、そのリポジトリはアーカイブされています。そのシード導出は現在のウォレットが使用する構成とは異なるため、同じフレーズを現代的なウォレットにインポートすると、Zecwallet Liteの追加導出アドレスに保有された資金を見逃す可能性があります。[Argos](https://argos.sovright.com)は、Sovrightによる、このケースやその他のレガシー復旧ケース向けに作られたデスクトップ復旧ワークスペースです。
 
-ArgosはZecWallet Liteのシードとウォレットファイル、zcashd `wallet.dat`、単体のSapling拡張支出鍵、およびSproutの支出用データを読み取ります。Sproutでは、これらの鍵は別途生成されたため、ZecWallet Liteのシードだけでは不十分です。Argosは日常的なウォレットではなく復旧ツールです。ソースデータをローカルで検査・スキャンしてから、自分が管理する保守済みウォレットへスイープしてください。
+ArgosはZecwallet Liteのシードとウォレットファイル、zcashd `wallet.dat`、単体のSapling拡張支出鍵、およびSproutの支出用データを読み取ります。Sproutでは、これらの鍵は別途生成されたため、Zecwallet Liteのシードだけでは不十分です。Argosは日常的なウォレットではなく復旧ツールです。ソースデータをローカルで検査・スキャンしてから、自分が管理する保守済みウォレットへスイープしてください。
 
 Least Authorityはこのツールを[監査しました](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf)。復旧自体は無料です。スイープ中にSovrightへの任意の寄付が表示される場合があります。
 
@@ -153,7 +153,7 @@ Least Authorityはこのツールを[監査しました](https://argos.sovright.
 
 ### ウォレットファイルと単体鍵
 
-ウェルカム画面の**I have a wallet file**は、ZecWallet Liteファイル、zcashd `wallet.dat`、または単体のSapling拡張支出鍵を対象とします。単体のSprout支出鍵の復旧は、ArgosのSprout復旧経路/CLIで処理されます。
+ウェルカム画面の**I have a wallet file**は、Zecwallet Liteファイル、zcashd `wallet.dat`、または単体のSapling拡張支出鍵を対象とします。単体のSprout支出鍵の復旧は、ArgosのSprout復旧経路/CLIで処理されます。
 
 Argosはウォレットファイルを変更せずに読み取ります。ウォレットが暗号化されている場合は、要求されたときにパスフレーズを入力してください。これはメモリ内で使用され、ディスクには書き込まれません。スキャンを開始する前に、トランスペアレント、Sapling、Sproutの鍵数を確認してください。
 
@@ -161,7 +161,7 @@ Argosはウォレットファイルを変更せずに読み取ります。ウォ
 
 ### Sproutに関する注意
 
-ZecWallet LiteのシードからSprout鍵は導出されません。これらの鍵は別途生成されました。Sproutはzcashd `wallet.dat`から、またはCLIの単体支出鍵から復旧してください。
+Zecwallet LiteのシードからSprout鍵は導出されません。これらの鍵は別途生成されました。Sproutはzcashd `wallet.dat`から、またはCLIの単体支出鍵から復旧してください。
 
 ファイルにすでに支出可能なノートデータとキャッシュされたwitnessがある場合、Argosはチェーンスキャンなしで**Sweep Sprout funds**を提供できます。それ以外の場合、P2Pネットワークを介した再開可能な完全ブロックスキャンを実行できます。このスキャンは大規模で時間がかかります。書き込まれるチェックポイントは支出可能なものなので、元のウォレットと同様に保護してください。
 
@@ -181,9 +181,9 @@ Zkool 6.30.0は2026年9月18日時点で最新であり、Ironwoodをサポー�
 
 ## ZExCavatorによる詳細復旧
 
-[ZExCavator](https://github.com/zingolabs/zexcavator)は、現在ZecWallet Liteのウォレットファイルとウォレット形式の移行に焦点を当てている、**開発中**のZingo Labs復旧プロジェクトです。そのREADMEは、より完全なZeWIFサポートが引き続き開発中である間、資金復旧ユーザーを**Zingolib**のエクスポートオプションへ案内しています。
+[ZExCavator](https://github.com/zingolabs/zexcavator)は、現在Zecwallet Liteのウォレットファイルとウォレット形式の移行に焦点を当てている、**開発中**のZingo Labs復旧プロジェクトです。そのREADMEは、より完全なZeWIFサポートが引き続き開発中である間、資金復旧ユーザーを**zingolib**のエクスポートオプションへ案内しています。
 
-標準の復旧経路ではなく、高度な／例外的ケース向けのツールとして扱ってください。通常のZecWallet Liteシード、ウォレットファイル、zcashd `wallet.dat`、およびサポートされている単体支出鍵については、まずArgosを試してください。ZExCavatorで復旧したものは、依存する前に保守済みウォレットで検証してください。
+標準の復旧経路ではなく、高度な／例外的ケース向けのツールとして扱ってください。通常のZecwallet Liteシード、ウォレットファイル、zcashd `wallet.dat`、およびサポートされている単体支出鍵については、まずArgosを試してください。ZExCavatorで復旧したものは、依存する前に保守済みウォレットで検証してください。
 
 ## シードがない場合の専門的な復旧
 

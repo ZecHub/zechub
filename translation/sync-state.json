@@ -425,11 +425,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+handfix+gloss-restore+linkrepair",
+      "tool": "gt-static+handfix+gloss-restore+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -1697,11 +1697,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -2227,11 +2227,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -3499,11 +3499,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -4045,11 +4045,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -5317,11 +5317,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -5863,11 +5863,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+handfix+gloss-restore+linkrepair",
+      "tool": "gt-static+handfix+gloss-restore+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -7135,11 +7135,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -7673,11 +7673,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -8945,11 +8945,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -9491,11 +9491,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -10763,11 +10763,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -11309,11 +11309,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -12581,11 +12581,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/What_25_Second_Blocks_Actually_Change.md": {
@@ -14945,11 +14945,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+linkrepair",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -16217,11 +16217,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -16763,11 +16763,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+linkrepair",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -18035,11 +18035,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -18581,11 +18581,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -19853,11 +19853,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -20399,11 +20399,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -21671,11 +21671,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -22217,11 +22217,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -23489,11 +23489,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -24035,11 +24035,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -25307,11 +25307,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -25853,11 +25853,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "a3c7bbd1e0442c7b09e49a167c712f6387fa62b4",
       "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static+handfix+gloss-restore+prose-retranslate+table-rebuild+linkrepair",
+      "tool": "gt-static+handfix+gloss-restore+prose-retranslate+table-rebuild+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -27125,11 +27125,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -27663,11 +27663,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -28935,11 +28935,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -29481,11 +29481,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -30753,11 +30753,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -31299,11 +31299,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+linkrepair",
+      "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -32571,11 +32571,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -33077,11 +33077,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -34349,11 +34349,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+linkrepair+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {

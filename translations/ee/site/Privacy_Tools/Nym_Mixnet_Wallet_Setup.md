@@ -77,20 +77,20 @@ Dzɔtsoƒewo:
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl fifia la, wotu **Tor Protection** ɖe eme, menye native Nym integration si ŋu míeƒo nu tsoe le etame na Zingo, Zkool, kple Nozy o.
+ZODL fifia la, wotu **Tor Protection** ɖe eme, menye native Nym integration si ŋu míeƒo nu tsoe le etame na Zingo, Zkool, kple Nozy o.
 
-Zodl ƒe Tor ƒe nɔnɔme ateŋu aɖo adzɔnuwo ɖoɖo ɖa, asitsatsa-nyatakakawo xɔxɔ, asitɔtrɔ ƒe asi ƒe biabiawo, kple ame etɔ̃lia ƒe API yɔyɔwo to Tor dzi. Nym gblɔ le September 24, 2026 dzi be yegakpɔtɔ le dze ɖom vevie kple Zodl ƒe ƒuƒoƒoa tso mixnet ƒe ƒoƒo ɖekae si keke ta wu ŋu.
+ZODL ƒe Tor ƒe nɔnɔme ateŋu aɖo adzɔnuwo ɖoɖo ɖa, asitsatsa-nyatakakawo xɔxɔ, asitɔtrɔ ƒe asi ƒe biabiawo, kple ame etɔ̃lia ƒe API yɔyɔwo to Tor dzi. Nym gblɔ le September 24, 2026 dzi be yegakpɔtɔ le dze ɖom vevie kple ZODL ƒe ƒuƒoƒoa tso mixnet ƒe ƒoƒo ɖekae si keke ta wu ŋu.
 
-Le Zodl egbea gome la, zã wo dometɔ ɖesiaɖe:
+Le ZODL egbea gome la, zã wo dometɔ ɖesiaɖe:
 
-- Zodl ƒe Tor Takpɔkpɔ si woŋlɔ ɖi, alo
+- ZODL ƒe Tor Takpɔkpɔ si woŋlɔ ɖi, alo
 - system-level NymVPN ne wò taɖodzinue nye be yeaɖo gakotokua ƒe mɔ̃ ƒe ʋuɖoɖo le mɔ gbadza nu to Nym.
 
 Mègatsɔe be Tor kple Nym nye ʋu siwo woate ŋu atrɔ ɖe wo nɔewo ŋu le gakotokua me le esi wo ame evea siaa nye ame ŋutɔ ƒe nyatakakawo ƒe kadodowo ta ko o.
 
-Zodl Tor ƒe ɖoɖowo:
+ZODL Tor ƒe ɖoɖowo:
 
 **Nu Geɖe → Nɔnɔme Deŋgɔwo → Beta: Tor Takpɔkpɔ → Wɔe → Dzra tɔtrɔwo ɖo**
 
@@ -212,4 +212,4 @@ Hafi nàɖo ŋu ɖe ɖoɖoa ŋu la, bia be:
 - Zkool nudzraɖoƒe: https://github.com/hhanh00/zkool2
 - NozyWallet Nym ʋuɖoɖodɔ: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12 ƒe ƒuƒoƒo: https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Takpɔkpɔ: https://support.zodl.com/article/17-enabling-tor-protection
+- ZODL Tor Takpɔkpɔ: https://support.zodl.com/article/17-enabling-tor-protection

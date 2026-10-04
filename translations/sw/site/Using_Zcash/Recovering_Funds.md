@@ -48,11 +48,11 @@ Kwa marejeleo kamili ya uhamiaji, ikijumuisha njia za urejeshaji zilizo na maele
 
 [Soma Mwongozo kamili wa Uhamiaji wa Mabwawa ya ZEC katika ZecHub](/research/zec-pool-migration/view)
 
-> **Kabla ya kuanza:** kwanza tambua **unachorejesha na nyenzo gani za kurejesha ulizonazo**. Mbegu ya pochi ya sasa au ufunguo wa matumizi usio wa Sprout unaoungwa mkono unaweza kuhitaji tu urejeshaji wa kawaida. Nyenzo za zamani — kama vile mbegu ya ZecWallet Lite, urithi `wallet.dat`, or a standalone Sapling or Sprout spending key — may need a dedicated recovery path.
+> **Kabla ya kuanza:** kwanza tambua **unachorejesha na nyenzo gani za kurejesha ulizonazo**. Mbegu ya pochi ya sasa au ufunguo wa matumizi usio wa Sprout unaoungwa mkono unaweza kuhitaji tu urejeshaji wa kawaida. Nyenzo za zamani — kama vile mbegu ya Zecwallet Lite, urithi `wallet.dat`, or a standalone Sapling or Sprout spending key — may need a dedicated recovery path.
 >
 > Ukifikiri fedha ziko **Sprout**, thibitisha kwamba bado una mamlaka ya matumizi kabla ya kutenga muda wa kurejesha pesa. `zc...` anwani au nyenzo za kutazama pekee hazitoshi kuhamisha fedha.
 >
-> **YWallet haitumii tena Zcash baada ya Ironwood.** Tumia **Zkool** kwa urejeshaji wa kawaida usio wa Sprout kutoka kwa mbegu na funguo zinazoungwa mkono. Tumia **Argos** kwa urejeshaji wa ZecWallet Lite, faili za pochi ya zamani, na funguo za matumizi za Sapling/Sprout zinazojitegemea. Kwa Sprout, Argos ndiyo njia ya kwanza kujaribu; mwongozo kamili wa sehemu unashughulikia sehemu ya nyuma ya gari la pembeni la zamani.
+> **YWallet haitumii tena Zcash baada ya Ironwood.** Tumia **Zkool** kwa urejeshaji wa kawaida usio wa Sprout kutoka kwa mbegu na funguo zinazoungwa mkono. Tumia **Argos** kwa urejeshaji wa Zecwallet Lite, faili za pochi ya zamani, na funguo za matumizi za Sapling/Sprout zinazojitegemea. Kwa Sprout, Argos ndiyo njia ya kwanza kujaribu; mwongozo kamili wa sehemu unashughulikia sehemu ya nyuma ya gari la pembeni la zamani.
 >
 > Tumia jedwali lililo hapa chini kulingana na **kile ulicho nacho**, si kifaa cha kurejesha unachokumbuka kutumia.
 
@@ -60,8 +60,8 @@ Kwa marejeleo kamili ya uhamiaji, ikijumuisha njia za urejeshaji zilizo na maele
 | --- | --- |
 | Kifunguo cha mbegu au ufunguo wa matumizi **non-Sprout unaoungwa mkono** kutoka kwa pochi ya sasa au iliyohifadhiwa hivi karibuni, ikijumuisha nyenzo za zamani YWallet Zcash | [Zkool](#fund-recovery-with-zkool) |
 | **Ufunguo wa kutazama pekee** | Zkool inaweza kuingiza funguo za kutazama zinazoungwa mkono kwa ufikiaji wa kusoma pekee, lakini ufunguo wa kutazama hauwezi kuidhinisha matumizi ya kurejesha. Tafuta ufunguo wa mbegu au matumizi unaolingana. |
-| Mbegu ya **ZecWallet Lite** yenye maneno 24 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Lite au zcashd `wallet.dat`, or a standalone Sapling / Sprout spending key | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Kufikia Septemba 18, 2026, v1.3.0 ni ya sasa na inapendelewa; tumia v1.2.0 au baadaye kwa `wallet.dat` na kupona kwa Chipukizi. |
+| Mbegu ya **Zecwallet Lite** yenye maneno 24 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Zecwallet Lite au zcashd `wallet.dat`, or a standalone Sapling / Sprout spending key | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Kufikia Septemba 18, 2026, v1.3.0 ni ya sasa na inapendelewa; tumia v1.2.0 au baadaye kwa `wallet.dat` na kupona kwa Chipukizi. |
 | Nyenzo Sprout ambayo Argos haiwezi kushughulikia, au urejeshaji ambapo unataka vipengele vya zamani viwe chini ya udhibiti wako mwenyewe | Tumia njia ya gari la pembeni la zamani katika [mwongozo kamili wa uwanja](/research/zec-pool-migration/view). |
 | Hakuna ufunguo wa pesa unaofanya kazi au ufunguo wa matumizi, lakini kifaa kilichofungwa, nenosiri lililosahaulika, au diski iliyoharibika | [Urejeshaji wa kitaalamu](#professional-recovery-when-you-do-not-have-the-seed)Usitumie kamwe mbegu ya kufanya kazi au ufunguo wa matumizi kwa mtu anayewasiliana nawe bila kuombwa. |
 
@@ -119,11 +119,11 @@ Ikiwa pochi au akaunti ya zamani ilikuwa na **uwazi wa ZEC pekee**, rejesha akau
 
 Unshield All ni muhimu wakati wa kujiondoa kwenye soko la kubadilishana ambalo linakubali anwani zinazoonekana wazi pekee. Vitufe vya kujikinga huonekana tu ikiwa akaunti ina anwani iliyolindwa, na Unshield All ikiwa tu ina anwani inayoonekana wazi.
 
-## ZecWallet Lite na urejeshaji wa pochi ya zamani na Argos
+## Zecwallet Lite na urejeshaji wa pochi ya zamani na Argos
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite) haitumiki tena na hifadhi yake imehifadhiwa. Utoaji wake wa mbegu hutofautiana na mpangilio unaotumiwa na pochi za sasa, kwa hivyo kuingiza kifungu hicho hicho kwenye pochi ya kisasa kunaweza kukosa pesa zilizohifadhiwa katika anwani za ziada za ZecWallet Lite. [Argos](https://argos.sovright.com), kutoka Sovright, ni nafasi ya kazi ya kurejesha data kwenye kompyuta iliyojengwa kwa ajili ya kesi hii na nyingine za kurejesha data zilizopitwa na wakati.
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite) haitumiki tena na hifadhi yake imehifadhiwa. Utoaji wake wa mbegu hutofautiana na mpangilio unaotumiwa na pochi za sasa, kwa hivyo kuingiza kifungu hicho hicho kwenye pochi ya kisasa kunaweza kukosa pesa zilizohifadhiwa katika anwani za ziada za Zecwallet Lite. [Argos](https://argos.sovright.com), kutoka Sovright, ni nafasi ya kazi ya kurejesha data kwenye kompyuta iliyojengwa kwa ajili ya kesi hii na nyingine za kurejesha data zilizopitwa na wakati.
 
-Argos inasoma faili za mbegu na pochi za ZecWallet Lite, zcashd `wallet.dat`, standalone Sapling extended spending keys, and Sprout spending material. For Sprout, a ZecWallet Lite seed alone is not enough because those keys were generated separately. Argos is a recovery tool, not a day-to-day wallet: inspect the source material locally, scan, then sweep into a maintained wallet you control.
+Argos inasoma faili za mbegu na pochi za Zecwallet Lite, zcashd `wallet.dat`, standalone Sapling extended spending keys, and Sprout spending material. For Sprout, a Zecwallet Lite seed alone is not enough because those keys were generated separately. Argos is a recovery tool, not a day-to-day wallet: inspect the source material locally, scan, then sweep into a maintained wallet you control.
 
 Least Authority [imekaguliwa](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) chombo. Urejeshaji wenyewe ni bure. Mchango wa hiari kwa Sovright unaweza kuonekana wakati wa uporaji.
 
@@ -153,7 +153,7 @@ Kutangaza mrejesho wa pesa hakuwezi kurekebishwa. Weka faili asili ya mkoba hadi
 
 ### Faili za pochi na funguo zinazojitegemea
 
-Kwenye skrini ya kukaribisha, **Nina faili ya pochi** inashughulikia faili ya ZecWallet Lite, zcashd `wallet.dat`, or standalone Sapling extended spending keys. Standalone Sprout spending-key recovery is handled by Argos's Sprout recovery path/CLI.
+Kwenye skrini ya kukaribisha, **Nina faili ya pochi** inashughulikia faili ya Zecwallet Lite, zcashd `wallet.dat`, or standalone Sapling extended spending keys. Standalone Sprout spending-key recovery is handled by Argos's Sprout recovery path/CLI.
 
 Argos husoma faili za mkoba bila kuzibadilisha. Ikiwa mkoba umesimbwa kwa njia fiche, weka neno-siri unapoombwa; hutumika kwenye kumbukumbu na haihifadhiwi kwenye diski. Kagua idadi ya funguo za aina ya uwazi, Sapling, na Sprout kabla ya kuanza uchanganuzi.
 
@@ -161,7 +161,7 @@ Funguo za kutazama hazikubaliki kwa ajili ya kufutwa kwa sababu haziwezi kuidhin
 
 ### Maelezo ya Sprout
 
-Mbegu ya ZecWallet Lite haitoi funguo za Sprout. Funguo hizo zilizalishwa kando. Rejesha Sprout kutoka kwa zcashd `wallet.dat`, au kutoka kwa ufunguo wa matumizi wa kujitegemea katika CLI.
+Mbegu ya Zecwallet Lite haitoi funguo za Sprout. Funguo hizo zilizalishwa kando. Rejesha Sprout kutoka kwa zcashd `wallet.dat`, au kutoka kwa ufunguo wa matumizi wa kujitegemea katika CLI.
 
 Ikiwa faili tayari ina data ya noti inayoweza kutumika na shahidi aliyehifadhiwa, Argos inaweza kutoa **Sweep Sprout funds** bila skanisho la mnyororo. Vinginevyo inaweza kuendesha skanisho kamili inayoweza kuendelea tena kupitia mtandao wa P2P. Skanisho hilo ni kubwa na la polepole. Sehemu ya ukaguzi inayoandika ina uwezo wa kutumia, kwa hivyo ilinde kama pochi ya asili.
 
@@ -181,9 +181,9 @@ Uhamishaji wa hatua kwa hatua unaweza kutumia miamala mingi, kwa hivyo ada ya ju
 
 ## Urejeshaji wa Kina kwa kutumia ZExCavator
 
-[ZExCavator](https://github.com/zingolabs/zexcavator) ni **kazi inayoendelea** Mradi wa kurejesha wa Zingo Labs unaolenga faili za pochi za ZecWallet Lite na uhamishaji wa umbizo la pochi. README yake kwa sasa inaelekeza watumiaji wa kurejesha fedha kwenye chaguo la **Zingolib** la kuuza nje huku usaidizi kamili wa ZeWIF bado ukitengenezwa.
+[ZExCavator](https://github.com/zingolabs/zexcavator) ni **kazi inayoendelea** Mradi wa kurejesha wa Zingo Labs unaolenga faili za pochi za Zecwallet Lite na uhamishaji wa umbizo la pochi. README yake kwa sasa inaelekeza watumiaji wa kurejesha fedha kwenye chaguo la **zingolib** la kuuza nje huku usaidizi kamili wa ZeWIF bado ukitengenezwa.
 
-Ichukulie kama kifaa cha hali ya juu/kingo badala ya njia chaguo-msingi ya kurejesha. Kwa mbegu za kawaida za ZecWallet Lite, faili za pochi, zcashd `wallet.dat`, na funguo za matumizi zinazotumika peke yake, jaribu Argos kwanza. Thibitisha chochote kilichorejeshwa na ZExCavator kwenye pochi iliyohifadhiwa kabla ya kutegemea.
+Ichukulie kama kifaa cha hali ya juu/kingo badala ya njia chaguo-msingi ya kurejesha. Kwa mbegu za kawaida za Zecwallet Lite, faili za pochi, zcashd `wallet.dat`, na funguo za matumizi zinazotumika peke yake, jaribu Argos kwanza. Thibitisha chochote kilichorejeshwa na ZExCavator kwenye pochi iliyohifadhiwa kabla ya kutegemea.
 
 ## Urejeshaji wa kitaalamu wakati huna mbegu
 

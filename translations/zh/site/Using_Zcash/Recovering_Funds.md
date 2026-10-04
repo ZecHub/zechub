@@ -48,11 +48,11 @@
 
 [阅读完整的ZEC资金池迁移实战指南（ZecHub](/research/zec-pool-migration/view)）
 
-> **开始前：**先确认**你要恢复的是什么，以及你还拥有哪种恢复资料**。当前钱包的助记词或受支持的非 Sprout 支出密钥可能只需常规恢复。较旧的资料——例如 ZecWallet Lite 助记词、旧版`wallet.dat`或独立的Sapling或 Sprout 支出密钥——可能需要专用恢复路径。
+> **开始前：**先确认**你要恢复的是什么，以及你还拥有哪种恢复资料**。当前钱包的助记词或受支持的非 Sprout 支出密钥可能只需常规恢复。较旧的资料——例如 Zecwallet Lite 助记词、旧版`wallet.dat`或独立的Sapling或 Sprout 支出密钥——可能需要专用恢复路径。
 >
 > 如果你认为资金位于 **Sprout**，请在投入时间恢复前确认你仍拥有支出权限。仅有`zc...`地址或查看资料不足以转移资金。
 >
-> **YWallet在 Ironwood 后不再支持Zcash。**对于受支持助记词和密钥的常规非 Sprout 恢复，请使用 **Zkool**。对于 ZecWallet Lite 恢复、旧版钱包文件和独立的Sapling/Sprout 支出密钥，请使用 **Argos**。对于 Sprout，Argos是应首先尝试的路径；完整实战指南涵盖旧版边车备选方案。
+> **YWallet在 Ironwood 后不再支持Zcash。**对于受支持助记词和密钥的常规非 Sprout 恢复，请使用 **Zkool**。对于 Zecwallet Lite 恢复、旧版钱包文件和独立的Sapling/Sprout 支出密钥，请使用 **Argos**。对于 Sprout，Argos是应首先尝试的路径；完整实战指南涵盖旧版边车备选方案。
 >
 > 请根据**你实际拥有的资料**而非你记得曾使用的恢复工具，使用下表。
 
@@ -60,8 +60,8 @@
 | --- | --- |
 | 当前或近期维护的钱包所提供的助记词或受支持的**非 Sprout 支出密钥**，包括旧版YWalletZcash资料 | [Zkool](#fund-recovery-with-zkool) |
 | 仅有**查看密钥** | Zkool可以导入受支持的查看密钥以进行只读访问，但查看密钥不能授权恢复支出。请寻找相应的助记词或支出密钥。 |
-| 一个 24 词 **ZecWallet Lite** 助记词 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| 一个 ZecWallet Lite 或zcashd`wallet.dat`，或独立的Sapling/Sprout 支出密钥 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)。截至 2026 年 9 月 18 日，v1.3.0 为当前首选版本；恢复`wallet.dat`和 Sprout 时请使用 v1.2.0 或更高版本。 |
+| 一个 24 词 **Zecwallet Lite** 助记词 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| 一个 Zecwallet Lite 或zcashd`wallet.dat`，或独立的Sapling/Sprout 支出密钥 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)。截至 2026 年 9 月 18 日，v1.3.0 为当前首选版本；恢复`wallet.dat`和 Sprout 时请使用 v1.2.0 或更高版本。 |
 | Argos无法处理的 Sprout 资料，或希望自行掌控旧版组件的恢复 | 使用[完整实战指南](/research/zec-pool-migration/view)中的旧版边车路径。 |
 | 没有可用助记词或支出密钥，但有被锁定的设备、遗忘的密码或故障硬盘 | [专业恢复](#professional-recovery-when-you-do-not-have-the-seed)。绝不要把可用助记词或支出密钥发送给主动联系你的人。 |
 
@@ -119,11 +119,11 @@ ZIP 316 使用单独的内部/找零地址。恢复这类账户时若未启用**
 
 当向只接受透明地址的交易所提现时，Unshield All 很有用。只有账户拥有屏蔽地址时才会显示屏蔽按钮，只有账户拥有透明地址时才会显示 Unshield All。
 
-## 使用Argos恢复 ZecWallet Lite 和旧版钱包
+## 使用Argos恢复 Zecwallet Lite 和旧版钱包
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite)已不再维护，其代码库也已归档。它的助记词派生方式与当前钱包使用的布局不同，因此将相同短语导入现代钱包可能会遗漏存放在 ZecWallet Lite 额外派生地址中的资金。来自Sovright的[Argos](https://argos.sovright.com)是专为此类及其他旧版恢复情形打造的桌面恢复工作区。
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite)已不再维护，其代码库也已归档。它的助记词派生方式与当前钱包使用的布局不同，因此将相同短语导入现代钱包可能会遗漏存放在 Zecwallet Lite 额外派生地址中的资金。来自Sovright的[Argos](https://argos.sovright.com)是专为此类及其他旧版恢复情形打造的桌面恢复工作区。
 
-Argos可读取 ZecWallet Lite 助记词和钱包文件、zcashd`wallet.dat`、独立的Sapling扩展支出密钥，以及 Sprout 支出资料。对于 Sprout，仅有 ZecWallet Lite 助记词不足以恢复，因为这些密钥是单独生成的。Argos是恢复工具，而非日常钱包：请在本地检查源资料、扫描，然后归集转入你控制的受维护钱包。
+Argos可读取 Zecwallet Lite 助记词和钱包文件、zcashd`wallet.dat`、独立的Sapling扩展支出密钥，以及 Sprout 支出资料。对于 Sprout，仅有 Zecwallet Lite 助记词不足以恢复，因为这些密钥是单独生成的。Argos是恢复工具，而非日常钱包：请在本地检查源资料、扫描，然后归集转入你控制的受维护钱包。
 
 Least Authority 已[审计](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf)该工具。恢复本身免费。归集过程中可能会出现向Sovright捐款的可选项。
 
@@ -153,7 +153,7 @@ Least Authority 已[审计](https://argos.sovright.com/assets/least-authority-ar
 
 ### 钱包文件和独立密钥
 
-在欢迎页面中，**我有钱包文件**涵盖 ZecWallet Lite 文件、zcashd`wallet.dat`或独立的Sapling扩展支出密钥。独立 Sprout 支出密钥的恢复由Argos的 Sprout 恢复路径/CLI 处理。
+在欢迎页面中，**我有钱包文件**涵盖 Zecwallet Lite 文件、zcashd`wallet.dat`或独立的Sapling扩展支出密钥。独立 Sprout 支出密钥的恢复由Argos的 Sprout 恢复路径/CLI 处理。
 
 Argos读取钱包文件时不会修改它们。如果钱包已加密，请在提示时输入密码短语；它仅在内存中使用，不会写入磁盘。开始扫描前，请检查透明、Sapling和 Sprout 密钥数量。
 
@@ -161,7 +161,7 @@ Argos读取钱包文件时不会修改它们。如果钱包已加密，请在提
 
 ### Sprout 说明
 
-ZecWallet Lite 助记词不会派生 Sprout 密钥。这些密钥是单独生成的。请从zcashd`wallet.dat`，或 CLI 中的独立支出密钥恢复 Sprout。
+Zecwallet Lite 助记词不会派生 Sprout 密钥。这些密钥是单独生成的。请从zcashd`wallet.dat`，或 CLI 中的独立支出密钥恢复 Sprout。
 
 如果文件已经具有可支出的票据数据和缓存见证，Argos可以在无需链扫描的情况下提供**归集 Sprout 资金**。否则，它可以通过 P2P 网络运行可恢复的全区块扫描。该扫描规模大且速度慢。它写入的检查点具备支出能力，因此应像保护原始钱包一样保护它。
 
@@ -181,9 +181,9 @@ Sprout 价值只能转入Sapling。在Sapling资金确认且可支出后，请�
 
 ## 使用 ZExCavator 进行深度恢复
 
-[ZExCavator](https://github.com/zingolabs/zexcavator)是一个**仍在开发中**的Zingo Labs恢复项目，目前专注于 ZecWallet Lite 钱包文件和钱包格式迁移。其 README 目前将资金恢复用户引导至 **Zingolib** 导出选项，而更完整的 ZeWIF 支持仍在开发中。
+[ZExCavator](https://github.com/zingolabs/zexcavator)是一个**仍在开发中**的Zingo Labs恢复项目，目前专注于 Zecwallet Lite 钱包文件和钱包格式迁移。其 README 目前将资金恢复用户引导至 **zingolib** 导出选项，而更完整的 ZeWIF 支持仍在开发中。
 
-请将其视为高级/边缘情形工具，而非默认恢复路径。对于普通 ZecWallet Lite 助记词、钱包文件、zcashd`wallet.dat`和受支持的独立支出密钥，请先尝试Argos。依赖前，请在受维护钱包中验证 ZExCavator 恢复的任何内容。
+请将其视为高级/边缘情形工具，而非默认恢复路径。对于普通 Zecwallet Lite 助记词、钱包文件、zcashd`wallet.dat`和受支持的独立支出密钥，请先尝试Argos。依赖前，请在受维护钱包中验证 ZExCavator 恢复的任何内容。
 
 ## 没有助记词时的专业恢复
 

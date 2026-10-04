@@ -77,20 +77,20 @@ NozyWallet tun ni awọn ipa ọna gbigbe ti o mọ nipa Nym. Iṣe rẹ lọw�
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl ní **Tor Protection** nínú rẹ̀ lọ́wọ́lọ́wọ́, kì í ṣe ìṣọ̀kan Nym ìbílẹ̀ kan náà tí a ṣàlàyé lókè fún Zingo, Zkool, àti Nozy.
+ZODL ní **Tor Protection** nínú rẹ̀ lọ́wọ́lọ́wọ́, kì í ṣe ìṣọ̀kan Nym ìbílẹ̀ kan náà tí a ṣàlàyé lókè fún Zingo, Zkool, àti Nozy.
 
-Ẹ̀yà ara Tor ti Zodl le darí ìfiránṣẹ́ ìṣòwò, ìgbàpadà ìṣòwò-dátà, ìbéèrè fún owó pàṣípààrọ̀, àti àwọn ìpè API ẹni-kẹta lórí Tor. Nym sọ ní ọjọ́ kẹrìnlélógún oṣù kẹsàn-án ọdún 2026 pé ó ṣì wà ní ìjíròrò pẹ̀lú ẹgbẹ́ Zodl nípa ìṣọ̀kan mixnet gbígbòòrò.
+Ẹ̀yà ara Tor ti ZODL le darí ìfiránṣẹ́ ìṣòwò, ìgbàpadà ìṣòwò-dátà, ìbéèrè fún owó pàṣípààrọ̀, àti àwọn ìpè API ẹni-kẹta lórí Tor. Nym sọ ní ọjọ́ kẹrìnlélógún oṣù kẹsàn-án ọdún 2026 pé ó ṣì wà ní ìjíròrò pẹ̀lú ẹgbẹ́ ZODL nípa ìṣọ̀kan mixnet gbígbòòrò.
 
-Fún Zodl lónìí, lo èyíkéyí:
+Fún ZODL lónìí, lo èyíkéyí:
 
-- Ààbò Tor ti Zodl ti kọ sílẹ̀, tàbí
+- Ààbò Tor ti ZODL ti kọ sílẹ̀, tàbí
 - NymVPN ipele-sisẹmu ti ibi-afẹde rẹ ba jẹ lati dari ijabọ ẹrọ gbogbogbo ti apamọwọ nipasẹ Nym.
 
 Má ṣe rò pé Tor àti Nym jẹ́ àwọn ohun èlò tí a lè fi ṣe àyípadà nínú àpò owó nítorí pé àwọn méjèèjì jẹ́ àwọn nẹ́tíwọ́ọ̀kì ìpamọ́.
 
-Àwọn ètò Zodl Tor:
+Àwọn ètò ZODL Tor:
 
 **Diẹ sii → Awọn ẹya ara ẹrọ to ti ni ilọsiwaju → Beta: Idaabobo Tor → Mu ṣiṣẹ → Fipamọ awọn iyipada**
 
@@ -212,4 +212,4 @@ Tí VPN mìíràn, firewall, tàbí ad blocker VPN agbègbè bá ti wà ní ojú
 - Ibi ipamọ Zkool: https://github.com/hhanh00/zkool2
 - NozyWallet Nym iṣẹ irinna: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Ààbò Zodl Tor: https://support.zodl.com/article/17-enabling-tor-protection
+- Ààbò ZODL Tor: https://support.zodl.com/article/17-enabling-tor-protection

@@ -48,11 +48,11 @@ Maka ntụaka mbugharị zuru oke, gụnyere ụzọ mgbake zuru ezu, iwu, ụgw
 
 [Gụọ ntuziaka zuru oke nke ZEC Pool Migration Field na ZecHub](/research/zec-pool-migration/view)
 
-> **Tupu ịmalite:** buru ụzọ chọpụta **ihe ị na-agbake na ihe mgbake ị ka nwere**. Mkpụrụ obere akpa ego dị ugbu a ma ọ bụ igodo mmefu Sprout na-abụghị nke Sprout nwere ike ịchọ naanị ihe ndozi nkịtị. Ihe ochie — dị ka mkpụrụ ZecWallet Lite, ihe nketa `wallet.dat`, ma ọ bụ igodo mmefu Sapling ma ọ bụ Sprout nke na-anọghị ya - nwere ike ịchọ ụzọ mgbake pụrụ iche.
+> **Tupu ịmalite:** buru ụzọ chọpụta **ihe ị na-agbake na ihe mgbake ị ka nwere**. Mkpụrụ obere akpa ego dị ugbu a ma ọ bụ igodo mmefu Sprout na-abụghị nke Sprout nwere ike ịchọ naanị ihe ndozi nkịtị. Ihe ochie — dị ka mkpụrụ Zecwallet Lite, ihe nketa `wallet.dat`, ma ọ bụ igodo mmefu Sapling ma ọ bụ Sprout nke na-anọghị ya - nwere ike ịchọ ụzọ mgbake pụrụ iche.
 >
 > Ọ bụrụ na i chere na ego ahụ dị na **Sprout**, gosi na ị ka nwere ikike imefu ego tupu itinye oge iji nwetaghachi ya. `zc...` naanị ihe e dere n'adreesị maọbụ ihe e ji ele ihe anya ezughi oke iji bufee ego ahụ.
 >
-> **YWallet anaghịzi akwado Zcash mgbe Ironwood gasịrị.** Jiri **Zkool** maka mweghachi nkịtị na-abụghị Sprout site na mkpụrụ na igodo akwadoro. Jiri **Argos** maka mgbake ZecWallet Lite, faịlụ obere akpa ochie, na igodo mmefu Sapling/Sprout nkeonwe. Maka Sprout, Argos bụ ụzọ mbụ ị ga-anwale; ntuziaka ubi zuru oke na-ekpuchi mgbanwe sidecar nke ochie.
+> **YWallet anaghịzi akwado Zcash mgbe Ironwood gasịrị.** Jiri **Zkool** maka mweghachi nkịtị na-abụghị Sprout site na mkpụrụ na igodo akwadoro. Jiri **Argos** maka mgbake Zecwallet Lite, faịlụ obere akpa ochie, na igodo mmefu Sapling/Sprout nkeonwe. Maka Sprout, Argos bụ ụzọ mbụ ị ga-anwale; ntuziaka ubi zuru oke na-ekpuchi mgbanwe sidecar nke ochie.
 >
 > Jiri tebụl dị n'okpuru dabere na **ihe ị nwere n'ezie**, ọ bụghị ngwaọrụ mgbake ị chetara iji.
 
@@ -60,8 +60,8 @@ Maka ntụaka mbugharị zuru oke, gụnyere ụzọ mgbake zuru ezu, iwu, ụgw
 | --- | --- |
 | Okwu mkpụrụ ma ọ bụ **mkpụrụ ego mmefu nke na-abụghị nke Sprout** sitere na obere akpa ego dị ugbu a ma ọ bụ nke a na-elekọta n'oge na-adịbeghị anya, gụnyere ihe ochie YWallet Zcash | [Zkool](#fund-recovery-with-zkool) |
 | Naanị **viewing key** | Zkool nwere ike ibubata igodo nlele akwadoro maka ohere ịgụ naanị, mana viewing key enweghị ike inye ikike maka mmefu mgbake. Chọta mkpụrụ ma ọ bụ igodo mmefu kwekọrọ. |
-| Mkpụrụ nke mkpụrụ okwu iri abụọ na anọ nke **ZecWallet Lite** | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Lite ma ọ bụ zcashd `wallet.dat`, ma ọ bụ isi ihe eji emefu Sapling / Sprout | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Dịka ọ dị na Septemba 18, 2026, v1.3.0 dị ugbu a ma bụrụ nke a na-ahọrọ; jiri v1.2.0 ma ọ bụ karịa maka `wallet.dat` na mgbake Sprout. |
+| Mkpụrụ nke mkpụrụ okwu iri abụọ na anọ nke **Zecwallet Lite** | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Zecwallet Lite ma ọ bụ zcashd `wallet.dat`, ma ọ bụ isi ihe eji emefu Sapling / Sprout | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Dịka ọ dị na Septemba 18, 2026, v1.3.0 dị ugbu a ma bụrụ nke a na-ahọrọ; jiri v1.2.0 ma ọ bụ karịa maka `wallet.dat` na mgbake Sprout. |
 | Ihe Sprout nke Argos na-enweghị ike ijikwa, ma ọ bụ mgbake ebe ịchọrọ ka ihe ndị dị na ya dị n'okpuru njikwa nke gị | Jiri ụzọ sidecar ochie dị na [ntuziaka ubi zuru oke](/research/zec-pool-migration/view). |
 | Enweghị mkpụrụ ọrụ ma ọ bụ igodo mmefu, mana ngwaọrụ akpọchiri akpọchi, paswọọdụ echefuru echefu, ma ọ bụ diski dara ada | [Mgbake ọkachamara](#professional-recovery-when-you-do-not-have-the-seed)E zigarala onye kpọtụrụ gị n'amaghị gị ma ọ bụ onye na-arịọ gị ka i tinye ego n'ọrụ. |
 
@@ -119,11 +119,11 @@ Ubi abụọ ọzọ dị n'okpuru **Nhọrọ Dị Elu**:
 
 Unshield All bara uru mgbe ị na-apụ na mgbanwe nke na-anabata naanị adreesị doro anya. Bọtịnụ nchekwa na-apụta naanị ma ọ bụrụ na akaụntụ ahụ nwere adreesị echekwara, na Unshield All naanị ma ọ bụrụ na o nwere adreesị doro anya.
 
-## ZecWallet Lite na mgbake obere akpa ochie na Argos
+## Zecwallet Lite na mgbake obere akpa ochie na Argos
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite) A naghịzi elekọta ya, a na-echekwakwa ebe nchekwa ya. Nha mkpụrụ ya dị iche na nhazi nke obere akpa ego dị ugbu a na-eji, yabụ iwebata otu ahịrịokwu ahụ n'ime obere akpa ego ọgbara ọhụrụ nwere ike imefu ego echekwara na adreesị ndị ọzọ ZecWallet Lite nwetara. [Argos](https://argos.sovright.com), nke Sovright, bụ ebe ọrụ mgbake desktọpụ e wuru maka nke a na ikpe mgbake ndị ọzọ.
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite) A naghịzi elekọta ya, a na-echekwakwa ebe nchekwa ya. Nha mkpụrụ ya dị iche na nhazi nke obere akpa ego dị ugbu a na-eji, yabụ iwebata otu ahịrịokwu ahụ n'ime obere akpa ego ọgbara ọhụrụ nwere ike imefu ego echekwara na adreesị ndị ọzọ Zecwallet Lite nwetara. [Argos](https://argos.sovright.com), nke Sovright, bụ ebe ọrụ mgbake desktọpụ e wuru maka nke a na ikpe mgbake ndị ọzọ.
 
-Argos na-agụ faịlụ mkpụrụ na obere akpa ZecWallet Lite, zcashd `wallet.dat`, Sapling nke na-anaghị etinye ego n'otu ebe, yana ihe eji emefu Sprout. Maka Sprout, naanị mkpụrụ ZecWallet Lite ezughị ezu n'ihi na e mepụtara igodo ndị ahụ iche iche. Argos bụ ngwaọrụ mgbake, ọ bụghị obere akpa kwa ụbọchị: lelee ihe sitere na ya n'ógbè gị, nyochaa ya, wee jiri obere akpa ị na-achịkwa.
+Argos na-agụ faịlụ mkpụrụ na obere akpa Zecwallet Lite, zcashd `wallet.dat`, Sapling nke na-anaghị etinye ego n'otu ebe, yana ihe eji emefu Sprout. Maka Sprout, naanị mkpụrụ Zecwallet Lite ezughị ezu n'ihi na e mepụtara igodo ndị ahụ iche iche. Argos bụ ngwaọrụ mgbake, ọ bụghị obere akpa kwa ụbọchị: lelee ihe sitere na ya n'ógbè gị, nyochaa ya, wee jiri obere akpa ị na-achịkwa.
 
 Least Authority [enyochaala](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) ngwaọrụ ahụ. Mgbake n'onwe ya bụ n'efu. Onyinye nhọrọ nye Sovright nwere ike ịpụta n'oge nyocha ahụ.
 
@@ -153,7 +153,7 @@ Mgbasa ozi nyocha agaghị agbanwe agbanwe. Debe faịlụ akpa ego mbụ ahụ 
 
 ### Faịlụ obere akpa na igodo ndị nọọrọ onwe ha
 
-N'ihuenyo nnabata, **Enwere m faịlụ obere akpa** na-ekpuchi faịlụ ZecWallet Lite, zcashd `wallet.dat`, ma ọ bụ Sapling nke na-anaghị etinye ego n'otu ebe. Usoro mgbake/CLI nke Argos na-ejikwa mgbake mmefu Sprout nke na-anaghị etinye ego n'otu ebe.
+N'ihuenyo nnabata, **Enwere m faịlụ obere akpa** na-ekpuchi faịlụ Zecwallet Lite, zcashd `wallet.dat`, ma ọ bụ Sapling nke na-anaghị etinye ego n'otu ebe. Usoro mgbake/CLI nke Argos na-ejikwa mgbake mmefu Sprout nke na-anaghị etinye ego n'otu ebe.
 
 Argos na-agụ faịlụ obere akpa na-agbanweghị ha. Ọ bụrụ na e zoro akpa ahụ ezoro ezo, tinye okwuntughe mgbe a jụrụ ya; a na-eji ya na ebe nchekwa ma edeghị ya na diski. Lelee ọnụọgụ igodo doro anya, Sapling, na Sprout tupu ịmalite nyocha.
 
@@ -161,7 +161,7 @@ A naghị anabata igodo nlele maka nyocha n'ihi na ha enweghị ike inye ikike i
 
 ### Ihe ndetu Sprout
 
-Mkpụrụ ZecWallet Lite anaghị enweta igodo Sprout. E mepụtara igodo ndị ahụ iche iche. Weghachite Sprout site na zcashd `wallet.dat`, ma ọ bụ site na isi ego ejiri aka ya mee na CLI.
+Mkpụrụ Zecwallet Lite anaghị enweta igodo Sprout. E mepụtara igodo ndị ahụ iche iche. Weghachite Sprout site na zcashd `wallet.dat`, ma ọ bụ site na isi ego ejiri aka ya mee na CLI.
 
 Ọ bụrụ na faịlụ ahụ nwere data ndetu a ga-emefu na onye akaebe echekwara, Argos nwere ike inye **Sweep Sprout ego** na-enweghị nyocha yinye. Ma ọ bụghị ya, ọ nwere ike ịgba ọsọ nyocha zuru oke nke enwere ike ịmegharị na netwọk P2P. Nyocha ahụ buru ibu ma dị nwayọ. Ebe nlele ọ na-ede nwere ike imefu ego, yabụ chebe ya dị ka obere akpa mbụ.
 
@@ -181,9 +181,9 @@ Mbugharị a na-ahazi nwere ike iji ọtụtụ azụmahịa, yabụ mkpokọta 
 
 ## Mgbake miri emi site na iji ZExCavator
 
-[ZExCavator](https://github.com/zingolabs/zexcavator) bụ **ọrụ na-aga n'ihu** Ọrụ mgbake Zingo Labs lekwasịrị anya ugbu a na faịlụ obere akpa ZecWallet Lite na mbugharị usoro obere akpa. README ya na-eduzi ndị ọrụ mgbake ego ugbu a na nhọrọ mbupụ **Zingolib** ebe a ka na-emepụta nkwado ZeWIF zuru oke.
+[ZExCavator](https://github.com/zingolabs/zexcavator) bụ **ọrụ na-aga n'ihu** Ọrụ mgbake Zingo Labs lekwasịrị anya ugbu a na faịlụ obere akpa Zecwallet Lite na mbugharị usoro obere akpa. README ya na-eduzi ndị ọrụ mgbake ego ugbu a na nhọrọ mbupụ **zingolib** ebe a ka na-emepụta nkwado ZeWIF zuru oke.
 
-Were ya dị ka ngwaọrụ dị elu/ihe eji eme ihe kama ụzọ mgbake ndabara. Maka mkpụrụ ZecWallet Lite nkịtị, faịlụ obere akpa, zcashd `wallet.dat`, ma kwado igodo mmefu nkeonwe, nwaa Argos mbụ. Lelee ihe ọ bụla ZExCavator weghachitere na obere akpa ego echekwara tupu ị dabere na ya.
+Were ya dị ka ngwaọrụ dị elu/ihe eji eme ihe kama ụzọ mgbake ndabara. Maka mkpụrụ Zecwallet Lite nkịtị, faịlụ obere akpa, zcashd `wallet.dat`, ma kwado igodo mmefu nkeonwe, nwaa Argos mbụ. Lelee ihe ọ bụla ZExCavator weghachitere na obere akpa ego echekwara tupu ị dabere na ya.
 
 ## Mgbake ọkachamara mgbe ị na-enweghị mkpụrụ
 

@@ -77,20 +77,20 @@ NozyWallet में भी Nym-सचेत ट्रांसपोर्ट �
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl में वर्तमान में अंतर्निहित **Tor Protection** है, न कि Zingo, Zkool और Nozy के लिए ऊपर वर्णित समान मूल Nym एकीकरण।
+ZODL में वर्तमान में अंतर्निहित **Tor Protection** है, न कि Zingo, Zkool और Nozy के लिए ऊपर वर्णित समान मूल Nym एकीकरण।
 
-Zodl की Tor सुविधा लेनदेन सबमिशन, लेनदेन-डेटा प्राप्ति, विनिमय-दर अनुरोधों और तृतीय-पक्ष API कॉल को Tor के माध्यम से रूट कर सकती है। Nym ने 24 सितंबर, 2026 को कहा कि व्यापक mixnet एकीकरण के बारे में Zodl टीम के साथ बातचीत अभी भी सक्रिय है।
+ZODL की Tor सुविधा लेनदेन सबमिशन, लेनदेन-डेटा प्राप्ति, विनिमय-दर अनुरोधों और तृतीय-पक्ष API कॉल को Tor के माध्यम से रूट कर सकती है। Nym ने 24 सितंबर, 2026 को कहा कि व्यापक mixnet एकीकरण के बारे में ZODL टीम के साथ बातचीत अभी भी सक्रिय है।
 
-आज Zodl के लिए इनमें से किसी एक का उपयोग करें:
+आज ZODL के लिए इनमें से किसी एक का उपयोग करें:
 
-- Zodl का प्रलेखित Tor Protection, या
+- ZODL का प्रलेखित Tor Protection, या
 - सिस्टम-स्तरीय NymVPN, यदि आपका लक्ष्य वॉलेट के सामान्य डिवाइस ट्रैफ़िक को Nym के माध्यम से रूट करना है।
 
 केवल इसलिए कि दोनों गोपनीयता नेटवर्क हैं, यह न मानें कि वॉलेट के भीतर Tor और Nym परस्पर विनिमेय ट्रांसपोर्ट हैं।
 
-Zodl Tor सेटिंग्स:
+ZODL Tor सेटिंग्स:
 
 **More → Advanced Features → Beta: Tor Protection → Enable → Save changes**
 
@@ -212,4 +212,4 @@ Android और iOS पर, सामान्य वॉलेट ट्रैफ
 - Zkool रिपॉज़िटरी: https://github.com/hhanh00/zkool2
 - NozyWallet Nym ट्रांसपोर्ट कार्य: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection
+- ZODL Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection

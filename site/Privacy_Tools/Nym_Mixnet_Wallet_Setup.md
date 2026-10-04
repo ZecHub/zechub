@@ -77,20 +77,20 @@ Sources:
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl currently has built-in **Tor Protection**, not the same native Nym integration described above for Zingo, Zkool, and Nozy.
+ZODL currently has built-in **Tor Protection**, not the same native Nym integration described above for Zingo, Zkool, and Nozy.
 
-Zodl's Tor feature can route transaction submission, transaction-data retrieval, exchange-rate requests, and third-party API calls over Tor. Nym stated on September 24, 2026 that it is still in active conversation with the Zodl team about broader mixnet integration.
+ZODL's Tor feature can route transaction submission, transaction-data retrieval, exchange-rate requests, and third-party API calls over Tor. Nym stated on September 24, 2026 that it is still in active conversation with the ZODL team about broader mixnet integration.
 
-For Zodl today, use either:
+For ZODL today, use either:
 
-- Zodl's documented Tor Protection, or
+- ZODL's documented Tor Protection, or
 - system-level NymVPN if your goal is to route the wallet's general device traffic through Nym.
 
 Do not assume Tor and Nym are interchangeable transports inside the wallet simply because both are privacy networks.
 
-Zodl Tor settings:
+ZODL Tor settings:
 
 **More → Advanced Features → Beta: Tor Protection → Enable → Save changes**
 
@@ -212,4 +212,4 @@ Before relying on the setup, ask:
 - Zkool repository: https://github.com/hhanh00/zkool2
 - NozyWallet Nym transport work: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection
+- ZODL Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection
