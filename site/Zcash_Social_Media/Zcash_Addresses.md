@@ -93,7 +93,7 @@ Daira explains Anchor positions (zcon3):
 
 In some cases (e.g. cross-pool transactions) amounts may be visible to an outside observer. However, `valueBalanceSapling` and `valueBalanceOrchard` use **homomorphic commitments** to prove the total ZEC in shielded pools and prevent counterfeiting.
 
-Read more: [Defense Against Counterfeiting in Shielded Pools](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Read more: [ZIP 209: Prohibit Out-of-Range Chain Value Pool Balances](https://zips.z.cash/zip-0209)
 
 ---
 
@@ -105,7 +105,7 @@ The ECC team is working on new RPC methods in `zcashd` (replacing `z_sendmany`) 
 
 ## Recommendation
 
-This thread originally pointed at **Ywallet**, for the transaction plan it showed before you hit send. Ywallet is no longer maintained and will not be updated for Ironwood, so it can no longer follow the chain. Pick a maintained wallet from the [Wallets](https://zechub.wiki/wallets) page instead, and prefer one that tells you what a transaction will reveal before it goes out.
+This thread originally pointed at **YWallet**, for the transaction plan it showed before you hit send. YWallet is no longer maintained and will not be updated for Ironwood, so it can no longer follow the chain. Pick a maintained wallet from the [Wallets](https://zechub.wiki/wallets) page instead, and prefer one that tells you what a transaction will reveal before it goes out.
 
 Great article on transaction privacy: https://medium.com/@hanh.huynh/
 
