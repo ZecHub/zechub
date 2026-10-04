@@ -48,11 +48,11 @@ Sɛ wopɛ migration reference a edi mũ, a akwan a ɛkɔ akyiri a wɔfa so san n
 
 [Kenkan ZEC Pool Migration Field Guide no nyinaa wɔ ZecHub mu](/research/zec-pool-migration/view)
 
-> **Ansa na wobɛhyɛ aseɛ:** di kan si **deɛ woresan agye ne nneɛma a wode bɛsan agye wo ho a woda so ara wɔ**. Mprempren sika kotoku aba anaa sika a ɛnyɛ Sprout sikasɛm safoa a wɔboa no betumi ahia sɛ wɔsan de ba sɛnea ɛte daa nkutoo. Nneɛma dedaw — te sɛ ZecWallet Lite aba, agyapade `wallet.dat`, anaasɛ Sapling anaa Sprout sikasɛm safoa a egyina hɔ ma — ebia ebehia ɔkwan a wɔatu ho ama a wɔfa so san nya ahoɔden.
+> **Ansa na wobɛhyɛ aseɛ:** di kan si **deɛ woresan agye ne nneɛma a wode bɛsan agye wo ho a woda so ara wɔ**. Mprempren sika kotoku aba anaa sika a ɛnyɛ Sprout sikasɛm safoa a wɔboa no betumi ahia sɛ wɔsan de ba sɛnea ɛte daa nkutoo. Nneɛma dedaw — te sɛ Zecwallet Lite aba, agyapade `wallet.dat`, anaasɛ Sapling anaa Sprout sikasɛm safoa a egyina hɔ ma — ebia ebehia ɔkwan a wɔatu ho ama a wɔfa so san nya ahoɔden.
 >
 > Sɛ wosusu sɛ sika no wɔ **Sprout** mu a, si so dua sɛ woda so ara wɔ tumi a wode bɛsɛe sika ansa na wode bere ahyɛ wo nsa sɛ wobɛsan anya ahoɔden. BI `zc...` address anaa nsɛm a wɔbɛhwɛ nkutoo nnɔɔso sɛ wɔde sika no bɛkɔ baabi foforo.
 >
-> **YWallet ntumi mmoa Zcash bio wɔ Ironwood akyi.** Fa **Zkool** di dwuma ma sanba a ɛnyɛ Sprout a ɛyɛ mpapahwekwa a efi aba ne nsafe a wɔboa mu. Fa **Argos** di dwuma ma ZecWallet Lite sanba, agyapadeɛ sika kotokuo fael, ne Sapling/Sprout sikasɛm safoa a egyina hɔ ma. Wɔ Sprout fam no, Argos ne ɔkwan a edi kan a ɛsɛ sɛ wɔfa so sɔ hwɛ; afuw akwankyerɛ a edi mũ no kata agyapade sidecar fallback no so.
+> **YWallet ntumi mmoa Zcash bio wɔ Ironwood akyi.** Fa **Zkool** di dwuma ma sanba a ɛnyɛ Sprout a ɛyɛ mpapahwekwa a efi aba ne nsafe a wɔboa mu. Fa **Argos** di dwuma ma Zecwallet Lite sanba, agyapadeɛ sika kotokuo fael, ne Sapling/Sprout sikasɛm safoa a egyina hɔ ma. Wɔ Sprout fam no, Argos ne ɔkwan a edi kan a ɛsɛ sɛ wɔfa so sɔ hwɛ; afuw akwankyerɛ a edi mũ no kata agyapade sidecar fallback no so.
 >
 > Fa table a ɛwɔ aseɛ ha no di dwuma a egyina **deɛ wowɔ ankasa** so, ɛnyɛ adwinnadeɛ a wode bɛsan agye a wokae sɛ wode dii dwuma no.
 
@@ -60,8 +60,8 @@ Sɛ wopɛ migration reference a edi mũ, a akwan a ɛkɔ akyiri a wɔfa so san n
 | --- | --- |
 | Aba kasasin anaa **non-Sprout spending key** a wɔboa a efi sika kotoku a wɔahwɛ so mprempren anaa nnansa yi ara, a YWallet Zcash nneɛma dedaw | [Zkool](#fund-recovery-with-zkool) |
 | A **hwɛ safoa nkutoo** | Zkool betumi de viewing keys a wɔboa aba ama akenkan nkutoo kwan, nanso viewing key ntumi mma kwan mma wɔmfa sika a wɔsɛe no bio. Hwehwɛ aba anaa sika a wɔsɛe no safe a ɛne no hyia. |
-| Nsɛmfua 24 **ZecWallet Lite** aba | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Lite anaa zcashd bi na ɛyɛ adwuma `wallet.dat`, anaasɛ Sapling / Sprout sikasɛm safoa a egyina hɔ ma | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Ɛde besi September 18, 2026 no, v1.3.0 yɛ mprempren na wɔpɛ; fa v1.2.0 anaa nea ɛba akyiri yi di dwuma ma `wallet.dat` ne Sprout a ɛsan nya ahoɔden. |
+| Nsɛmfua 24 **Zecwallet Lite** aba | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Zecwallet Lite anaa zcashd bi na ɛyɛ adwuma `wallet.dat`, anaasɛ Sapling / Sprout sikasɛm safoa a egyina hɔ ma | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Ɛde besi September 18, 2026 no, v1.3.0 yɛ mprempren na wɔpɛ; fa v1.2.0 anaa nea ɛba akyiri yi di dwuma ma `wallet.dat` ne Sprout a ɛsan nya ahoɔden. |
 | Sprout material a Argos ntumi nni ho dwuma, anaasɛ recovery a wopɛ sɛ legacy components no wɔ w’ankasa wo tumi ase | Fa agyapade sidecar kwan a ɛwɔ... [afuw mu akwankyerɛfo a edi mũ](/research/zec-pool-migration/view). |
 | Aba a ɛyɛ adwuma anaasɛ sika a wɔsɛe no safe biara nni hɔ, na mmom mfiri a wɔatoto mu, password a werɛ afi, anaasɛ disk a adi nkogu | [Adwumayɛfo a wɔn ho tɔ wɔn](#professional-recovery-when-you-do-not-have-the-seed). Mfa aba a ɛyɛ adwuma anaa sika a wɔsɛe no safe nkɔma obi a ɔne wo di nkitaho a wɔmmisa wo da. |
 
@@ -119,11 +119,11 @@ Sɛ sika kotoku anaa akontaabu dedaw no kura **transparent ZEC nkutoo** a, san f
 
 Unshield All ho wɔ mfaso bere a woretwe wo ho akɔ exchange a egye address a ɛda adi nkutoo nkutoo no. Sɛ akontaabu no wɔ address a wɔabɔ ho ban nkutoo a, shielding buttons no bɛda adi, na Unshield All no pue sɛ ɛwɔ nea ɛda adi pefee nkutoo a.
 
-## ZecWallet Lite ne agyapadeɛ sika kotokuo a wɔsan nya ne Argos
+## Zecwallet Lite ne agyapadeɛ sika kotokuo a wɔsan nya ne Argos
 
-[ZecWallet Lite a ɛwɔ hɔ](https://github.com/adityapk00/zecwallet-lite) no nhwɛ so bio na wɔde ne akorae no asie. N’aba a wonya fi mu no yɛ soronko wɔ nhyehyɛe a mprempren sika kotoku de di dwuma no ho, enti sɛ wode kasasin koro no ara ba nnɛyi sika kotoku mu a, ebetumi ayera sika a ɛwɔ ZecWallet Lite address afoforo a wonya fi mu no. [Argos](https://argos.sovright.com), a efi Sovright, yɛ desktop recovery adwumayɛbea a wɔasi ama eyi ne agyapade recovery nsɛm afoforo.
+[Zecwallet Lite a ɛwɔ hɔ](https://github.com/adityapk00/zecwallet-lite) no nhwɛ so bio na wɔde ne akorae no asie. N’aba a wonya fi mu no yɛ soronko wɔ nhyehyɛe a mprempren sika kotoku de di dwuma no ho, enti sɛ wode kasasin koro no ara ba nnɛyi sika kotoku mu a, ebetumi ayera sika a ɛwɔ Zecwallet Lite address afoforo a wonya fi mu no. [Argos](https://argos.sovright.com), a efi Sovright, yɛ desktop recovery adwumayɛbea a wɔasi ama eyi ne agyapade recovery nsɛm afoforo.
 
-Argos kenkan ZecWallet Lite aba ne sika kotoku fael, zcashd `wallet.dat`, standalone Sapling extended sika a wɔsɛe no safe, ne Sprout sikasɛm ho nneɛma. Sprout deɛ, ZecWallet Lite aba nko ara nnɔɔso ɛfiri sɛ wɔyɛɛ saa safoa no wɔ ɔkwan soronko so. Argos yɛ adwinnade a wɔde san nya nneɛma, ɛnyɛ da biara da sika kotoku: hwehwɛ nneɛma a wonya fi mu no wɔ wo mpɔtam hɔ, scan, afei popa kɔ sika kotoku a wɔahwɛ so yiye a wudi so mu.
+Argos kenkan Zecwallet Lite aba ne sika kotoku fael, zcashd `wallet.dat`, standalone Sapling extended sika a wɔsɛe no safe, ne Sprout sikasɛm ho nneɛma. Sprout deɛ, Zecwallet Lite aba nko ara nnɔɔso ɛfiri sɛ wɔyɛɛ saa safoa no wɔ ɔkwan soronko so. Argos yɛ adwinnade a wɔde san nya nneɛma, ɛnyɛ da biara da sika kotoku: hwehwɛ nneɛma a wonya fi mu no wɔ wo mpɔtam hɔ, scan, afei popa kɔ sika kotoku a wɔahwɛ so yiye a wudi so mu.
 
 Least Authority [wɔayɛ ho akontaabu](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) adwinnade no. Sɛ obi ho tɔ no ankasa a, wontua hwee. Ntoboa a wobetumi de ama Sovright betumi ada adi bere a wɔreprapra mu no.
 
@@ -153,7 +153,7 @@ Broadcasting a sweep yɛ nea wontumi nsakra. Fa mfitiase sika kotoku fael no sie
 
 ### Wallet fael ne safe a egyina hɔ ma ne ho
 
-Wɔ akwaaba screen no so no, **Mewɔ sika kotokuo fael** kata ZecWallet Lite fael bi so, zcashd `wallet.dat`, anaasɛ standalone Sapling extended sika a wɔsɛe no safe. Standalone Sprout spending-key sanba no, Argos Sprout sanba kwan/CLI na ɛdi ho dwuma.
+Wɔ akwaaba screen no so no, **Mewɔ sika kotokuo fael** kata Zecwallet Lite fael bi so, zcashd `wallet.dat`, anaasɛ standalone Sapling extended sika a wɔsɛe no safe. Standalone Sprout spending-key sanba no, Argos Sprout sanba kwan/CLI na ɛdi ho dwuma.
 
 Argos kenkan sika kotoku fael ahorow a ɛnsakra mu. Sɛ wɔakora sika kotoku no so a, hyɛ passphrase no mu bere a woabisa no; wɔde di dwuma wɔ memory mu na wɔankyerɛw no wɔ disk so. Hwɛ transparent, Sapling, ne Sprout key counts no mu ansa na woafi ase ayɛ scan.
 
@@ -161,7 +161,7 @@ Wɔnnye safe a wɔde hwɛ nneɛma ntom mma sweep efisɛ wontumi mma kwan sɛ wɔ
 
 ### Sprout nsɛm a wɔakyerɛw
 
-ZecWallet Lite aba bi nnya Sprout safe. Wɔyɛɛ saa nsafe no wɔ ɔkwan soronko so. San nya Sprout fi zcashd bi mu `wallet.dat`, anaasɛ efi sikasɛm safoa a egyina hɔ ma ne ho wɔ CLI no mu.
+Zecwallet Lite aba bi nnya Sprout safe. Wɔyɛɛ saa nsafe no wɔ ɔkwan soronko so. San nya Sprout fi zcashd bi mu `wallet.dat`, anaasɛ efi sikasɛm safoa a egyina hɔ ma ne ho wɔ CLI no mu.
 
 Sɛ fael no wɔ spendable note data ne cached witness dedaw a, Argos betumi de **Sweep Sprout sika** ama a enhia nkɔnsɔnkɔnsɔn scan. Sɛ ɛnte saa a ɛbɛtumi ayɛ full-block scan a wɔsan de di dwuma bio wɔ P2P network no so. Saa scan no yɛ kɛse na ɛyɛ brɛoo. Checkpoint a ɛkyerɛw no tumi sɛe sika, enti bɔ ho ban te sɛ mfitiase sika kotoku no.
 
@@ -181,9 +181,9 @@ Atutena a wɔayɛ no staged betumi de nnwuma pii adi dwuma, enti sika a wɔbɔ n
 
 ## Deep Recovery ne ZExCavator
 
-[ZExCavator na ɛyɛ adwuma](https://github.com/zingolabs/zexcavator) yɛ **adwuma-a ɛrekɔ so** Zingo Labs sanba adwuma a mprempren ɛtwe adwene si ZecWallet Lite sika kotoku fael ne sika kotoku-format tu so. Mprempren ne README no kyerɛ wɔn a wɔde sika a wɔsan nya no kwan kɔ **Zingolib** export option no so bere a wɔda so ara reyɛ ZeWIF mmoa a edi mũ.
+[ZExCavator na ɛyɛ adwuma](https://github.com/zingolabs/zexcavator) yɛ **adwuma-a ɛrekɔ so** Zingo Labs sanba adwuma a mprempren ɛtwe adwene si Zecwallet Lite sika kotoku fael ne sika kotoku-format tu so. Mprempren ne README no kyerɛ wɔn a wɔde sika a wɔsan nya no kwan kɔ **zingolib** export option no so bere a wɔda so ara reyɛ ZeWIF mmoa a edi mũ.
 
-Fa no sɛ adwinnade a ɛkɔ anim/edge-case sen sɛ wode bɛyɛ default recovery path. Sɛ wopɛ ZecWallet Lite aba a ɛyɛ mpapahwekwa, sika kotoku fael, zcashd `wallet.dat`, na wɔboa standalone spending keys, sɔ Argos hwɛ kan. Hwɛ biribiara a ZExCavator asan anya wɔ sika kotoku a wɔahwɛ so mu ansa na wode wo ho ato so.
+Fa no sɛ adwinnade a ɛkɔ anim/edge-case sen sɛ wode bɛyɛ default recovery path. Sɛ wopɛ Zecwallet Lite aba a ɛyɛ mpapahwekwa, sika kotoku fael, zcashd `wallet.dat`, na wɔboa standalone spending keys, sɔ Argos hwɛ kan. Hwɛ biribiara a ZExCavator asan anya wɔ sika kotoku a wɔahwɛ so mu ansa na wode wo ho ato so.
 
 ## Professional ahotɔ bere a wunni aba no
 

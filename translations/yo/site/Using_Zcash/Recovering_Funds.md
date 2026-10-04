@@ -48,11 +48,11 @@ Fún ìtọ́kasí ìṣíkiri pípé, pẹ̀lú àwọn ipa ọ̀nà ìgbàpad�
 
 [Ka gbogbo Itọsọna Aaye Iṣilọ Adágún ZEC ni ZecHub ni kikun](/research/zec-pool-migration/view)
 
-> **Kí o tó bẹ̀rẹ̀:** kọ́kọ́ mọ **ohun tí o ń gbà padà àti ohun èlò ìgbàpadà tí o ṣì ní**. Irúgbìn àpò ìpamọ́ lọ́wọ́lọ́wọ́ tàbí kọ́kọ́rọ́ ìnáwó tí kì í ṣe Sprout lè nílò àtúnṣe déédé. Àwọn ohun èlò àtijọ́ — bíi irúgbìn ZecWallet Lite, ohun ìní àjogúnbá kan `wallet.dat`, tàbí kọ́kọ́rọ́ ìnáwó Sapling tàbí Sprout tí ó dúró ṣinṣin — ó lè nílò ọ̀nà ìtúnṣe tí a yà sọ́tọ̀.
+> **Kí o tó bẹ̀rẹ̀:** kọ́kọ́ mọ **ohun tí o ń gbà padà àti ohun èlò ìgbàpadà tí o ṣì ní**. Irúgbìn àpò ìpamọ́ lọ́wọ́lọ́wọ́ tàbí kọ́kọ́rọ́ ìnáwó tí kì í ṣe Sprout lè nílò àtúnṣe déédé. Àwọn ohun èlò àtijọ́ — bíi irúgbìn Zecwallet Lite, ohun ìní àjogúnbá kan `wallet.dat`, tàbí kọ́kọ́rọ́ ìnáwó Sapling tàbí Sprout tí ó dúró ṣinṣin — ó lè nílò ọ̀nà ìtúnṣe tí a yà sọ́tọ̀.
 >
 > Tí o bá rò pé owó náà wà ní **Sprout**, jẹ́rìí sí i pé o ṣì ní àṣẹ láti náwó kí o tó fi àkókò sílẹ̀ láti gba ara rẹ padà. `zc...` àdírẹ́sì tàbí ohun èlò tí a fi ń wò nìkan kò tó láti gbé owó náà.
 >
-> **YWallet kò ṣe atilẹyin fun Zcash mọ́ lẹ́yìn Ironwood.** Lo **Zkool** fún àwọn àtúnṣe tí kìí ṣe Sprout látọwọ́ àwọn irugbin àti kọ́kọ́rọ́ tí a ti ṣe àtìlẹ́yìn. Lo **Argos** fún àtúnṣe ZecWallet Lite, àwọn fáìlì àpò ìpamọ́ àtijọ́, àti àwọn kọ́kọ́rọ́ ìnáwó Sapling/Sprout tí ó dúró ṣinṣin. Fún Sprout, Argos ni ipa ọ̀nà àkọ́kọ́ láti gbìyànjú; ìtọ́sọ́nà pápá náà ni ó bo àtúnṣe sídecar tí ó wà tẹ́lẹ̀.
+> **YWallet kò ṣe atilẹyin fun Zcash mọ́ lẹ́yìn Ironwood.** Lo **Zkool** fún àwọn àtúnṣe tí kìí ṣe Sprout látọwọ́ àwọn irugbin àti kọ́kọ́rọ́ tí a ti ṣe àtìlẹ́yìn. Lo **Argos** fún àtúnṣe Zecwallet Lite, àwọn fáìlì àpò ìpamọ́ àtijọ́, àti àwọn kọ́kọ́rọ́ ìnáwó Sapling/Sprout tí ó dúró ṣinṣin. Fún Sprout, Argos ni ipa ọ̀nà àkọ́kọ́ láti gbìyànjú; ìtọ́sọ́nà pápá náà ni ó bo àtúnṣe sídecar tí ó wà tẹ́lẹ̀.
 >
 > Lo tábìlì tó wà ní ìsàlẹ̀ yìí dá lórí **ohun tó o ní**, kì í ṣe irinṣẹ́ ìgbàpadà tó o rántí pé o lò.
 
@@ -60,8 +60,8 @@ Fún ìtọ́kasí ìṣíkiri pípé, pẹ̀lú àwọn ipa ọ̀nà ìgbàpad�
 | --- | --- |
 | Gbólóhùn ìrúgbìn tàbí àtìlẹ́yìn **kìkì ìnáwó tí kìí ṣe ti Sprout** láti inú àpò ìpamọ́ lọ́wọ́lọ́wọ́ tàbí tí a ṣẹ̀ṣẹ̀ tọ́jú, títí kan ohun èlò YWallet Zcash àtijọ́ | [Zkool](#fund-recovery-with-zkool) |
 | Kọ́kọ́rọ́ wíwo **nìkan** | Zkool le gbé àwọn kọ́kọ́rọ́ wíwo tí a ti fi ìtìlẹ́yìn fún wọlé fún wíwọlé sí ìwé kíkà nìkan, ṣùgbọ́n kọ́kọ́rọ́ wíwo kò le fún ni àṣẹ láti náwó ìgbàpadà. Wá irúgbìn tàbí kọ́kọ́rọ́ ìnáwó tí ó báramu. |
-| Irúgbìn 24-ọ̀rọ̀ kan **ZecWallet Lite** | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Lite tabi zcashd `wallet.dat`, tàbí kọ́kọ́rọ́ ìnáwó Sapling / Sprout kan ṣoṣo | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Ní ọjọ́ kejìdínlógún oṣù kẹsàn-án ọdún 2026, v1.3.0 jẹ́ èyí tó wà lọ́wọ́lọ́wọ́, ó sì jẹ́ ohun tó dára jù; lo v1.2.0 tàbí lẹ́yìn náà fún `wallet.dat` àti ìpadàbọ̀sípò Sprout. |
+| Irúgbìn 24-ọ̀rọ̀ kan **Zecwallet Lite** | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Zecwallet Lite tabi zcashd `wallet.dat`, tàbí kọ́kọ́rọ́ ìnáwó Sapling / Sprout kan ṣoṣo | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos)Ní ọjọ́ kejìdínlógún oṣù kẹsàn-án ọdún 2026, v1.3.0 jẹ́ èyí tó wà lọ́wọ́lọ́wọ́, ó sì jẹ́ ohun tó dára jù; lo v1.2.0 tàbí lẹ́yìn náà fún `wallet.dat` àti ìpadàbọ̀sípò Sprout. |
 | Ohun èlò Sprout tí Argos kò lè lò, tàbí ìgbàpadà níbi tí o bá fẹ́ kí àwọn ohun èlò ìrúwé náà wà lábẹ́ ìṣàkóso tirẹ | Lo ipa ọ̀nà ẹ̀gbẹ́ tí ó ti wà tẹ́lẹ̀ nínú [itọsọna aaye kikun](/research/zec-pool-migration/view). |
 | Kò sí irugbin iṣẹ́ tàbí kọ́kọ́rọ́ ìnáwó, ṣùgbọ́n ẹ̀rọ tí a ti tì pa, ọ̀rọ̀ ìpamọ́ tí a gbàgbé, tàbí díìsìkì tí ó kùnà | [Imularada ọjọgbọn](#professional-recovery-when-you-do-not-have-the-seed)Má ṣe fi èso iṣẹ́ tàbí kọ́kọ́rọ́ ìnáwó ránṣẹ́ sí ẹnìkan tí ó kàn sí ọ láìbéèrè. |
 
@@ -119,11 +119,11 @@ Tí àpò tàbí àpò àtijọ́ bá ní **ZEC tí ó hàn gbangba** nìkan, k�
 
 Unshield All wúlò nígbà tí a bá ń fà sẹ́yìn sí pàṣípààrọ̀ kan tí ó ń gba àdírẹ́sì tí ó hàn gbangba nìkan. Àwọn bọ́tìnì ààbò náà máa ń hàn kìkì tí àkọọ́lẹ̀ náà bá ní àdírẹ́sì tí ó ní ààbò, àti Unshield All nìkan tí ó bá ní èyí tí ó hàn gbangba.
 
-## ZecWallet Lite ati igbapada apamọwọ atijọ pẹlu Argos
+## Zecwallet Lite ati igbapada apamọwọ atijọ pẹlu Argos
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite) A kò tọ́jú rẹ̀ mọ́, a sì ti kó àwọn ibi ìpamọ́ rẹ̀ pamọ́. Ìrísí èso rẹ̀ yàtọ̀ sí bí àwọn àpò owó lọ́wọ́lọ́wọ́ ṣe ń lò ó, nítorí náà, gbígbé gbólóhùn kan náà wọlé sínú àpò owó òde òní lè pàdánù owó tí a fi sí àwọn àdírẹ́sì àfikún tí a ti rí gbà láti ọ̀dọ̀ ZecWallet Lite. [Argos](https://argos.sovright.com), láti Sovright, jẹ́ ibi iṣẹ́ ìtúnṣe ojú-òpó wẹ́ẹ̀bù tí a kọ́ fún èyí àti àwọn ọ̀ràn ìtúnṣe ìgbàlódé mìíràn.
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite) A kò tọ́jú rẹ̀ mọ́, a sì ti kó àwọn ibi ìpamọ́ rẹ̀ pamọ́. Ìrísí èso rẹ̀ yàtọ̀ sí bí àwọn àpò owó lọ́wọ́lọ́wọ́ ṣe ń lò ó, nítorí náà, gbígbé gbólóhùn kan náà wọlé sínú àpò owó òde òní lè pàdánù owó tí a fi sí àwọn àdírẹ́sì àfikún tí a ti rí gbà láti ọ̀dọ̀ Zecwallet Lite. [Argos](https://argos.sovright.com), láti Sovright, jẹ́ ibi iṣẹ́ ìtúnṣe ojú-òpó wẹ́ẹ̀bù tí a kọ́ fún èyí àti àwọn ọ̀ràn ìtúnṣe ìgbàlódé mìíràn.
 
-Argos ka àwọn fáìlì èso àti àpò owó ZecWallet Lite, zcashd `wallet.dat`, Sapling awọn bọtini inawo ti o gbooro sii, ati awọn ohun elo inawo Sprout. Fun Sprout, irugbin ZecWallet Lite nikan ko to nitori pe awọn bọtini wọnyẹn ni a ṣe lọtọ. Argos jẹ ohun elo imularada, kii ṣe apamọwọ ojoojumọ: ṣayẹwo ohun elo orisun ni agbegbe, ṣe ayẹwo, lẹhinna wọ inu apamọwọ ti o ṣetọju.
+Argos ka àwọn fáìlì èso àti àpò owó Zecwallet Lite, zcashd `wallet.dat`, Sapling awọn bọtini inawo ti o gbooro sii, ati awọn ohun elo inawo Sprout. Fun Sprout, irugbin Zecwallet Lite nikan ko to nitori pe awọn bọtini wọnyẹn ni a ṣe lọtọ. Argos jẹ ohun elo imularada, kii ṣe apamọwọ ojoojumọ: ṣayẹwo ohun elo orisun ni agbegbe, ṣe ayẹwo, lẹhinna wọ inu apamọwọ ti o ṣetọju.
 
 Least Authority [ti ṣe àyẹ̀wò](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) irinṣẹ́ náà. Ìgbàpadà fúnra rẹ̀ jẹ́ ọ̀fẹ́. Ìtọrẹ àṣàyàn sí Sovright lè hàn nígbà ìwákiri náà.
 
@@ -153,7 +153,7 @@ Gbigbe ìpolongo ìpolongo kò ṣeé yípadà. Pa fáìlì àpò ìpamọ́ ná
 
 ### Àwọn fáìlì àpò àti àwọn kọ́kọ́rọ́ ìdádúró
 
-Lórí ibojú ìkíni, **Mo ní fáìlì àpò owó** tó bo fáìlì ZecWallet Lite kan, zcashd kan `wallet.dat`, tàbí Sapling àwọn kọ́kọ́rọ́ ìnáwó gígùn. Ìmúpadà owó-kíkọ́ Sprout tó dúró fúnrarẹ̀ ni a ń ṣe nípasẹ̀ ọ̀nà ìmúpadà Sprout/CLI ti Argos.
+Lórí ibojú ìkíni, **Mo ní fáìlì àpò owó** tó bo fáìlì Zecwallet Lite kan, zcashd kan `wallet.dat`, tàbí Sapling àwọn kọ́kọ́rọ́ ìnáwó gígùn. Ìmúpadà owó-kíkọ́ Sprout tó dúró fúnrarẹ̀ ni a ń ṣe nípasẹ̀ ọ̀nà ìmúpadà Sprout/CLI ti Argos.
 
 Argos máa ń ka àwọn fáìlì àpò láìṣe àtúnṣe wọn. Tí àpò náà bá jẹ́ àfọwọ́kọ, tẹ ọ̀rọ̀ ìpamọ́ tí a bá béèrè; a máa ń lò ó nínú ìrántí, a kò sì kọ ọ́ sí díìsìkì. Ṣe àtúnyẹ̀wò iye àwọn kọ́kọ́rọ́ tí ó hàn gbangba, Sapling, àti Sprout kí o tó bẹ̀rẹ̀ sí í ṣe àyẹ̀wò.
 
@@ -161,7 +161,7 @@ A kò gba wíwo awọn bọtini fun gbigba nitori wọn ko le fun ni aṣẹ lat
 
 ### Àwọn àkọsílẹ̀ Sprout
 
-Irugbin ZecWallet Lite kii ṣe lati mu awọn bọtini Sprout jade. Awọn bọtini wọnyẹn ni a ṣẹda lọtọ. Gba Sprout pada lati inu zcashd kan `wallet.dat`, tàbí láti inú kọ́kọ́rọ́ ìnáwó kan ṣoṣo nínú CLI.
+Irugbin Zecwallet Lite kii ṣe lati mu awọn bọtini Sprout jade. Awọn bọtini wọnyẹn ni a ṣẹda lọtọ. Gba Sprout pada lati inu zcashd kan `wallet.dat`, tàbí láti inú kọ́kọ́rọ́ ìnáwó kan ṣoṣo nínú CLI.
 
 Tí fáìlì náà bá ti ní àkọsílẹ̀ àkọsílẹ̀ tí a lè náwó àti ẹlẹ́rìí tí a ti fipamọ́, Argos lè fúnni ní owó **Sweep Sprout** láìsí ìwádìí ẹ̀rọ. Bí bẹ́ẹ̀ kọ́, ó lè ṣe ìwádìí ẹ̀rọ tí a lè tún lò lórí nẹ́tíwọ́ọ̀kì P2P. Ìwádìí náà tóbi, ó sì lọ́ra. Iṣẹ́ àyẹ̀wò tí ó ń kọ lè náwó, nítorí náà dáàbò bò ó bí àpò ìpamọ́ àkọ́kọ́.
 
@@ -181,9 +181,9 @@ Zkool 6.30.0 wà lọ́wọ́lọ́wọ́ ní ọjọ́ kejìdínlógún oṣù 
 
 ## Ìgbàpadà Jíjìn pẹ̀lú ZExCavator
 
-[ZExCavator](https://github.com/zingolabs/zexcavator) jẹ́ **iṣẹ́ tí ń lọ lọ́wọ́** Iṣẹ́ àtúnṣe Zingo Labs tí ó dojúkọ lọ́wọ́lọ́wọ́ lórí àwọn fáìlì àpò ìwé ZecWallet Lite àti ìṣípò ìrísí àpò ìwé. README rẹ̀ ń darí àwọn olùlò ìgbàpadà owó sí àṣàyàn ìtajà **Zingolib** nígbàtí àtìlẹ́yìn ZeWIF tí ó kún sí i ṣì ń wáyé.
+[ZExCavator](https://github.com/zingolabs/zexcavator) jẹ́ **iṣẹ́ tí ń lọ lọ́wọ́** Iṣẹ́ àtúnṣe Zingo Labs tí ó dojúkọ lọ́wọ́lọ́wọ́ lórí àwọn fáìlì àpò ìwé Zecwallet Lite àti ìṣípò ìrísí àpò ìwé. README rẹ̀ ń darí àwọn olùlò ìgbàpadà owó sí àṣàyàn ìtajà **zingolib** nígbàtí àtìlẹ́yìn ZeWIF tí ó kún sí i ṣì ń wáyé.
 
-Ṣe é gẹ́gẹ́ bí irinṣẹ́ tó ti ní ìlọsíwájú/àkọlé ẹ̀gbẹ́ dípò ọ̀nà ìgbàpadà àdánidá. Fún àwọn irugbin ZecWallet Lite lásán, àwọn fáìlì àpò owó, zcashd `wallet.dat`, àti láti ṣe àtìlẹ́yìn fún àwọn kọ́kọ́rọ́ ìnáwó tí ó dúró ṣinṣin, gbìyànjú Argos ní àkọ́kọ́. Jẹ́rìí ohunkóhun tí ZExCavator gbà padà nínú àpò owó tí a ti tọ́jú kí o tó gbẹ́kẹ̀lé e.
+Ṣe é gẹ́gẹ́ bí irinṣẹ́ tó ti ní ìlọsíwájú/àkọlé ẹ̀gbẹ́ dípò ọ̀nà ìgbàpadà àdánidá. Fún àwọn irugbin Zecwallet Lite lásán, àwọn fáìlì àpò owó, zcashd `wallet.dat`, àti láti ṣe àtìlẹ́yìn fún àwọn kọ́kọ́rọ́ ìnáwó tí ó dúró ṣinṣin, gbìyànjú Argos ní àkọ́kọ́. Jẹ́rìí ohunkóhun tí ZExCavator gbà padà nínú àpò owó tí a ti tọ́jú kí o tó gbẹ́kẹ̀lé e.
 
 ## Imularada ọjọgbọn nigbati o ko ba ni irugbin
 

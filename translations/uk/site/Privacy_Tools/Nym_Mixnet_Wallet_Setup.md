@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Редагуватиhttps://github.com/ZecHub/zechub/pull/2238t сторінку"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Редагувати сторінку"/>
 </a>
 
 # Спрямовуйте трафік гаманця Zcash через Nym Mixnet
@@ -77,20 +77,20 @@ NozyWallet також має шляхи транспортування з під
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl наразі має вбудований **Tor Protection**, а не таку саму нативну інтеграцію Nym, як описано вище для Zingo, Zkool та Nozy.
+ZODL наразі має вбудований **Tor Protection**, а не таку саму нативну інтеграцію Nym, як описано вище для Zingo, Zkool та Nozy.
 
-Функція Tor у Zodl може спрямовувати через Tor подання транзакцій, отримання даних транзакцій, запити обмінних курсів і виклики сторонніх API. 24 вересня 2026 року Nym заявив, що все ще активно обговорює з командою Zodl ширшу інтеграцію mixnet.
+Функція Tor у ZODL може спрямовувати через Tor подання транзакцій, отримання даних транзакцій, запити обмінних курсів і виклики сторонніх API. 24 вересня 2026 року Nym заявив, що все ще активно обговорює з командою ZODL ширшу інтеграцію mixnet.
 
-Сьогодні для Zodl використовуйте один із варіантів:
+Сьогодні для ZODL використовуйте один із варіантів:
 
-- задокументований Tor Protection у Zodl, або
+- задокументований Tor Protection у ZODL, або
 - системний NymVPN, якщо ваша мета — спрямувати загальний трафік пристрою гаманця через Nym.
 
 Не припускайте, що Tor і Nym є взаємозамінними транспортами всередині гаманця лише тому, що обидва є мережами конфіденційності.
 
-Налаштування Tor у Zodl:
+Налаштування Tor у ZODL:
 
 **Більше → Розширені функції → Бета: Tor Protection → Увімкнути → Зберегти зміни**
 
@@ -212,4 +212,4 @@ Mixnet навмисно жертвують швидкістю заради си�
 - Репозиторій Zkool: https://github.com/hhanh00/zkool2
 - Робота над транспортом Nym у NozyWallet: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection
+- ZODL Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection

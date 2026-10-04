@@ -48,11 +48,11 @@
 
 [ZEC 풀 마이그레이션 현장 가이드 전체를 ZecHub에서 읽기](/research/zec-pool-migration/view)
 
-> **시작하기 전에:** 먼저 **복구하려는 것이 무엇인지와 아직 보유한 복구 자료가 무엇인지** 확인하세요. 최신 지갑 시드 또는 지원되는 비-Sprout 지출 키는 일반 복원만 필요할 수 있습니다. ZecWallet Lite 시드, 레거시 `wallet.dat` 또는 독립형 Sapling나 Sprout 지출 키 같은 이전 자료에는 전용 복구 경로가 필요할 수 있습니다.
+> **시작하기 전에:** 먼저 **복구하려는 것이 무엇인지와 아직 보유한 복구 자료가 무엇인지** 확인하세요. 최신 지갑 시드 또는 지원되는 비-Sprout 지출 키는 일반 복원만 필요할 수 있습니다. Zecwallet Lite 시드, 레거시 `wallet.dat` 또는 독립형 Sapling나 Sprout 지출 키 같은 이전 자료에는 전용 복구 경로가 필요할 수 있습니다.
 >
 > 자금이 **Sprout**에 있다고 생각한다면 복구에 시간을 투자하기 전에 여전히 지출 권한이 있는지 확인하세요. `zc...` 주소나 뷰잉 자료만으로는 자금을 이동할 수 없습니다.
 >
-> **YWallet는 Ironwood 이후 Zcash를 더 이상 지원하지 않습니다.** 지원되는 시드와 키에서 일반적인 비-Sprout 복원을 하려면 **Zkool**를 사용하세요. ZecWallet Lite 복구, 레거시 지갑 파일 및 독립형 Sapling/Sprout 지출 키에는 **Argos**를 사용하세요. Sprout의 경우 Argos가 먼저 시도할 경로이며, 전체 현장 가이드에서 레거시 사이드카 대체 경로를 다룹니다.
+> **YWallet는 Ironwood 이후 Zcash를 더 이상 지원하지 않습니다.** 지원되는 시드와 키에서 일반적인 비-Sprout 복원을 하려면 **Zkool**를 사용하세요. Zecwallet Lite 복구, 레거시 지갑 파일 및 독립형 Sapling/Sprout 지출 키에는 **Argos**를 사용하세요. Sprout의 경우 Argos가 먼저 시도할 경로이며, 전체 현장 가이드에서 레거시 사이드카 대체 경로를 다룹니다.
 >
 > 기억하는 복구 도구가 아니라 **실제로 보유한 것**을 기준으로 아래 표를 사용하세요.
 
@@ -60,8 +60,8 @@
 | --- | --- |
 | 이전 YWallet Zcash 자료를 포함한, 현재 또는 최근까지 유지 관리된 지갑의 시드 문구나 지원되는 **비-Sprout 지출 키** | [Zkool](#fund-recovery-with-zkool) |
 | **뷰잉 키만** 있음 | Zkool는 읽기 전용 접근을 위해 지원되는 뷰잉 키를 가져올 수 있지만, 뷰잉 키는 복구 지출을 승인할 수 없습니다. 해당하는 시드 또는 지출 키를 찾으세요. |
-| 24단어 **ZecWallet Lite** 시드 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| ZecWallet Lite 또는 zcashd `wallet.dat`, 또는 독립형 Sapling / Sprout 지출 키 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). 2026년 9월 18일 기준 v1.3.0이 최신이며 권장됩니다. `wallet.dat` 및 Sprout 복구에는 v1.2.0 이상을 사용하세요. |
+| 24단어 **Zecwallet Lite** 시드 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Zecwallet Lite 또는 zcashd `wallet.dat`, 또는 독립형 Sapling / Sprout 지출 키 | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). 2026년 9월 18일 기준 v1.3.0이 최신이며 권장됩니다. `wallet.dat` 및 Sprout 복구에는 v1.2.0 이상을 사용하세요. |
 | Argos가 처리할 수 없는 Sprout 자료 또는 레거시 구성 요소를 직접 통제하고 싶은 복구 | [전체 현장 가이드](/research/zec-pool-migration/view)의 레거시 사이드카 경로를 사용하세요. |
 | 작동하는 시드나 지출 키는 없지만 잠긴 기기, 잊어버린 비밀번호 또는 고장 난 디스크가 있음 | [전문 복구](#professional-recovery-when-you-do-not-have-the-seed). 먼저 연락해 오는 사람에게 작동하는 시드나 지출 키를 절대로 보내지 마세요. |
 
@@ -119,11 +119,11 @@ ZIP 316은 별도의 내부/거스름돈 주소를 사용합니다. **내부 거
 
 Unshield All은 투명 주소만 받는 거래소로 출금할 때 유용합니다. 쉴딩 버튼은 계정에 쉴디드 주소가 있는 경우에만 나타나며, Unshield All은 투명 주소가 있는 경우에만 나타납니다.
 
-## Argos를 사용한 ZecWallet Lite 및 레거시 지갑 복구
+## Argos를 사용한 Zecwallet Lite 및 레거시 지갑 복구
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite)는 더 이상 유지 관리되지 않으며 저장소가 보관 처리되었습니다. 이 지갑의 시드 파생 방식은 최신 지갑이 사용하는 구조와 다르므로, 동일한 문구를 최신 지갑으로 가져오면 ZecWallet Lite의 추가 파생 주소에 보관된 자금을 놓칠 수 있습니다. [Argos](https://argos.sovright.com)는 Sovright에서 제공하는 데스크톱 복구 작업 공간으로, 이러한 레거시 복구 사례 등을 위해 만들어졌습니다.
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite)는 더 이상 유지 관리되지 않으며 저장소가 보관 처리되었습니다. 이 지갑의 시드 파생 방식은 최신 지갑이 사용하는 구조와 다르므로, 동일한 문구를 최신 지갑으로 가져오면 Zecwallet Lite의 추가 파생 주소에 보관된 자금을 놓칠 수 있습니다. [Argos](https://argos.sovright.com)는 Sovright에서 제공하는 데스크톱 복구 작업 공간으로, 이러한 레거시 복구 사례 등을 위해 만들어졌습니다.
 
-Argos는 ZecWallet Lite 시드와 지갑 파일, zcashd `wallet.dat`, 독립형 Sapling 확장 지출 키 및 Sprout 지출 자료를 읽습니다. Sprout의 경우 이러한 키가 별도로 생성되었기 때문에 ZecWallet Lite 시드만으로는 충분하지 않습니다. Argos는 일상적인 지갑이 아닌 복구 도구입니다. 소스 자료를 로컬에서 검사하고 스캔한 뒤, 통제하는 유지 관리 지갑으로 스위핑하세요.
+Argos는 Zecwallet Lite 시드와 지갑 파일, zcashd `wallet.dat`, 독립형 Sapling 확장 지출 키 및 Sprout 지출 자료를 읽습니다. Sprout의 경우 이러한 키가 별도로 생성되었기 때문에 Zecwallet Lite 시드만으로는 충분하지 않습니다. Argos는 일상적인 지갑이 아닌 복구 도구입니다. 소스 자료를 로컬에서 검사하고 스캔한 뒤, 통제하는 유지 관리 지갑으로 스위핑하세요.
 
 Least Authority는 이 도구를 [감사했습니다](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf). 복구 자체는 무료입니다. 스위핑 중 Sovright에 대한 선택적 기부가 표시될 수 있습니다.
 
@@ -153,7 +153,7 @@ Least Authority는 이 도구를 [감사했습니다](https://argos.sovright.com
 
 ### 지갑 파일 및 독립형 키
 
-시작 화면의 **지갑 파일이 있습니다**는 ZecWallet Lite 파일, zcashd `wallet.dat` 또는 독립형 Sapling 확장 지출 키를 지원합니다. 독립형 Sprout 지출 키 복구는 Argos의 Sprout 복구 경로/CLI에서 처리됩니다.
+시작 화면의 **지갑 파일이 있습니다**는 Zecwallet Lite 파일, zcashd `wallet.dat` 또는 독립형 Sapling 확장 지출 키를 지원합니다. 독립형 Sprout 지출 키 복구는 Argos의 Sprout 복구 경로/CLI에서 처리됩니다.
 
 Argos는 지갑 파일을 수정하지 않고 읽습니다. 지갑이 암호화되어 있다면 요청 시 패스프레이즈를 입력하세요. 이는 메모리에서 사용되며 디스크에 기록되지 않습니다. 스캔을 시작하기 전에 투명, Sapling 및 Sprout 키 개수를 검토하세요.
 
@@ -161,7 +161,7 @@ Argos는 지갑 파일을 수정하지 않고 읽습니다. 지갑이 암호화�
 
 ### Sprout 참고 사항
 
-ZecWallet Lite 시드는 Sprout 키를 파생하지 않습니다. 이 키들은 별도로 생성되었습니다. Sprout은 zcashd `wallet.dat` 또는 CLI의 독립형 지출 키에서 복구하세요.
+Zecwallet Lite 시드는 Sprout 키를 파생하지 않습니다. 이 키들은 별도로 생성되었습니다. Sprout은 zcashd `wallet.dat` 또는 CLI의 독립형 지출 키에서 복구하세요.
 
 파일에 이미 지출 가능한 노트 데이터와 캐시된 위트니스가 있다면 Argos는 체인 스캔 없이 **Sprout 자금 스위핑**을 제공할 수 있습니다. 그렇지 않으면 P2P 네트워크를 통해 재개 가능한 전체 블록 스캔을 실행할 수 있습니다. 이 스캔은 크고 느립니다. 기록되는 체크포인트는 지출 가능하므로 원본 지갑만큼 안전하게 보호하세요.
 
@@ -181,9 +181,9 @@ Zkool 6.30.0은 2026년 9월 18일 기준 최신 버전이며 Ironwood를 지원
 
 ## ZExCavator를 사용한 심층 복구
 
-[ZExCavator](https://github.com/zingolabs/zexcavator)는 현재 ZecWallet Lite 지갑 파일과 지갑 형식 마이그레이션에 중점을 둔 **개발 진행 중인** Zingo Labs 복구 프로젝트입니다. 더 완전한 ZeWIF 지원이 계속 개발되는 동안, README는 현재 자금 복구 사용자에게 **Zingolib** 내보내기 옵션을 안내합니다.
+[ZExCavator](https://github.com/zingolabs/zexcavator)는 현재 Zecwallet Lite 지갑 파일과 지갑 형식 마이그레이션에 중점을 둔 **개발 진행 중인** Zingo Labs 복구 프로젝트입니다. 더 완전한 ZeWIF 지원이 계속 개발되는 동안, README는 현재 자금 복구 사용자에게 **zingolib** 내보내기 옵션을 안내합니다.
 
-기본 복구 경로가 아니라 고급/예외 사례용 도구로 취급하세요. 일반적인 ZecWallet Lite 시드, 지갑 파일, zcashd `wallet.dat` 및 지원되는 독립형 지출 키에는 먼저 Argos를 시도하세요. ZExCavator로 복구한 내용은 신뢰하기 전에 유지 관리되는 지갑에서 검증하세요.
+기본 복구 경로가 아니라 고급/예외 사례용 도구로 취급하세요. 일반적인 Zecwallet Lite 시드, 지갑 파일, zcashd `wallet.dat` 및 지원되는 독립형 지출 키에는 먼저 Argos를 시도하세요. ZExCavator로 복구한 내용은 신뢰하기 전에 유지 관리되는 지갑에서 검증하세요.
 
 ## 시드가 없을 때의 전문 복구
 

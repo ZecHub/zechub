@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="صفحة Edihttps://github.com/ZecHub/zechub/pull/2238t"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
 </a>
 
 # توجيه حركة مرور محفظة Zcash عبر Nym Mixnet
@@ -77,20 +77,20 @@ Zkool هو الخلف المُصان بنشاط لـ YWallet. ويدعم مشر�
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-يحتوي Zodl حاليًا على **Tor Protection** مدمجة، وليس تكامل Nym الأصلي نفسه الموصوف أعلاه لـ Zingo وZkool وNozy.
+يحتوي ZODL حاليًا على **Tor Protection** مدمجة، وليس تكامل Nym الأصلي نفسه الموصوف أعلاه لـ Zingo وZkool وNozy.
 
-يمكن لميزة Tor في Zodl توجيه إرسال المعاملات، واسترجاع بيانات المعاملات، وطلبات أسعار الصرف، واستدعاءات API الخاصة بالأطراف الثالثة عبر Tor. وصرحت Nym في 24 سبتمبر 2026 بأنها لا تزال في نقاش نشط مع فريق Zodl بشأن تكامل mixnet أوسع.
+يمكن لميزة Tor في ZODL توجيه إرسال المعاملات، واسترجاع بيانات المعاملات، وطلبات أسعار الصرف، واستدعاءات API الخاصة بالأطراف الثالثة عبر Tor. وصرحت Nym في 24 سبتمبر 2026 بأنها لا تزال في نقاش نشط مع فريق ZODL بشأن تكامل mixnet أوسع.
 
-بالنسبة إلى Zodl اليوم، استخدم أحد الخيارين:
+بالنسبة إلى ZODL اليوم، استخدم أحد الخيارين:
 
-- Tor Protection الموثقة في Zodl، أو
+- Tor Protection الموثقة في ZODL، أو
 - NymVPN على مستوى النظام إذا كان هدفك هو توجيه حركة جهاز المحفظة العامة عبر Nym.
 
 لا تفترض أن Tor وNym وسيلتا نقل قابلتان للاستبدال داخل المحفظة لمجرد أن كليهما شبكتا خصوصية.
 
-إعدادات Tor في Zodl:
+إعدادات Tor في ZODL:
 
 **المزيد → الميزات المتقدمة → تجريبي: Tor Protection → تفعيل → حفظ التغييرات**
 
@@ -212,4 +212,4 @@ Zkool هو الخلف المُصان بنشاط لـ YWallet. ويدعم مشر�
 - مستودع Zkool: https://github.com/hhanh00/zkool2
 - عمل نقل Nym في NozyWallet: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection
+- ZODL Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection

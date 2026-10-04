@@ -48,11 +48,11 @@ Para a referência completa de migração, incluindo percursos de recuperação 
 
 [Leia o Guia de campo completo para migração do pool ZEC em ZecHub](/research/zec-pool-migration/view)
 
-> **Antes de começar:** determine primeiro **o que está a recuperar e que material de recuperação ainda tem**. Uma seed de wallet atual ou uma chave de gasto não-Sprout suportada pode apenas precisar de um restauro normal. Material antigo — como uma seed ZecWallet Lite, uma `wallet.dat` antiga ou uma chave de gasto Sapling ou Sprout autónoma — pode precisar de um caminho de recuperação dedicado.
+> **Antes de começar:** determine primeiro **o que está a recuperar e que material de recuperação ainda tem**. Uma seed de wallet atual ou uma chave de gasto não-Sprout suportada pode apenas precisar de um restauro normal. Material antigo — como uma seed Zecwallet Lite, uma `wallet.dat` antiga ou uma chave de gasto Sapling ou Sprout autónoma — pode precisar de um caminho de recuperação dedicado.
 >
 > Se pensa que os fundos estão em **Sprout**, confirme que ainda tem autoridade de gasto antes de dedicar tempo à recuperação. Um endereço `zc...` ou apenas material de visualização não basta para mover os fundos.
 >
-> **YWallet já não suporta Zcash após Ironwood.** Utilize **Zkool** para restauros normais não-Sprout a partir de seeds e chaves suportadas. Utilize **Argos** para recuperação de ZecWallet Lite, ficheiros de wallet antigos e chaves de gasto Sapling/Sprout autónomas. Para Sprout, Argos é o primeiro percurso a experimentar; o guia de campo completo cobre a alternativa sidecar antiga.
+> **YWallet já não suporta Zcash após Ironwood.** Utilize **Zkool** para restauros normais não-Sprout a partir de seeds e chaves suportadas. Utilize **Argos** para recuperação de Zecwallet Lite, ficheiros de wallet antigos e chaves de gasto Sapling/Sprout autónomas. Para Sprout, Argos é o primeiro percurso a experimentar; o guia de campo completo cobre a alternativa sidecar antiga.
 >
 > Utilize a tabela abaixo com base **no que realmente tem**, e não na ferramenta de recuperação que se lembra de ter usado.
 
@@ -60,8 +60,8 @@ Para a referência completa de migração, incluindo percursos de recuperação 
 | --- | --- |
 | Uma frase seed ou **chave de gasto não-Sprout** suportada de uma wallet atual ou recentemente mantida, incluindo material YWallet Zcash antigo | [Zkool](#fund-recovery-with-zkool) |
 | Apenas uma **chave de visualização** | Zkool pode importar chaves de visualização suportadas para acesso só de leitura, mas uma chave de visualização não pode autorizar gastos de recuperação. Encontre a seed ou chave de gasto correspondente. |
-| Uma seed **ZecWallet Lite** de 24 palavras | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| Uma ZecWallet Lite ou zcashd `wallet.dat`, ou uma chave de gasto estendida Sapling autónoma / Sprout | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Em 18 de setembro de 2026, a v1.3.0 é a versão atual e preferida; utilize a v1.2.0 ou posterior para recuperação de `wallet.dat` e Sprout. |
+| Uma seed **Zecwallet Lite** de 24 palavras | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Uma Zecwallet Lite ou zcashd `wallet.dat`, ou uma chave de gasto estendida Sapling autónoma / Sprout | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Em 18 de setembro de 2026, a v1.3.0 é a versão atual e preferida; utilize a v1.2.0 ou posterior para recuperação de `wallet.dat` e Sprout. |
 | Material Sprout que Argos não consegue processar, ou uma recuperação em que pretende ter os componentes antigos sob o seu próprio controlo | Utilize o percurso sidecar antigo no [guia completo](/research/zec-pool-migration/view). |
 | Nenhuma seed ou chave de gasto funcional, mas um dispositivo bloqueado, palavra-passe esquecida ou disco avariado | [Recuperação profissional](#professional-recovery-when-you-do-not-have-the-seed). Nunca envie uma seed ou chave de gasto funcional a alguém que o contacte sem solicitação. |
 
@@ -119,11 +119,11 @@ Se a wallet ou conta antiga detinha apenas **ZEC transparentes**, restaure prime
 
 Desblindar todos é útil para levantar fundos para uma exchange que apenas aceita endereços transparentes. Os botões de blindagem apenas aparecem se a conta tiver um endereço blindado, e Desblindar todos apenas se tiver um transparente.
 
-## Recuperação de ZecWallet Lite e wallets antigas com Argos
+## Recuperação de Zecwallet Lite e wallets antigas com Argos
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite) já não é mantida e o seu repositório está arquivado. A derivação da sua seed difere da estrutura utilizada pelas wallets atuais, pelo que importar a mesma frase para uma wallet moderna pode não detetar fundos detidos nos endereços derivados adicionais da ZecWallet Lite. [Argos](https://argos.sovright.com), de Sovright, é um espaço de trabalho de recuperação para desktop concebido para este e outros casos de recuperação antigos.
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite) já não é mantida e o seu repositório está arquivado. A derivação da sua seed difere da estrutura utilizada pelas wallets atuais, pelo que importar a mesma frase para uma wallet moderna pode não detetar fundos detidos nos endereços derivados adicionais da Zecwallet Lite. [Argos](https://argos.sovright.com), de Sovright, é um espaço de trabalho de recuperação para desktop concebido para este e outros casos de recuperação antigos.
 
-Argos lê seeds e ficheiros de wallet ZecWallet Lite, zcashd `wallet.dat`, chaves de gasto estendidas Sapling autónomas e material de gasto Sprout. Para Sprout, uma seed ZecWallet Lite por si só não é suficiente, porque essas chaves foram geradas separadamente. Argos é uma ferramenta de recuperação, não uma wallet para uso quotidiano: inspecione o material de origem localmente, analise e depois varra os fundos para uma wallet mantida que controla.
+Argos lê seeds e ficheiros de wallet Zecwallet Lite, zcashd `wallet.dat`, chaves de gasto estendidas Sapling autónomas e material de gasto Sprout. Para Sprout, uma seed Zecwallet Lite por si só não é suficiente, porque essas chaves foram geradas separadamente. Argos é uma ferramenta de recuperação, não uma wallet para uso quotidiano: inspecione o material de origem localmente, analise e depois varra os fundos para uma wallet mantida que controla.
 
 Least Authority [auditou](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) a ferramenta. A recuperação em si é gratuita. Durante a varredura, pode surgir uma doação opcional para Sovright.
 
@@ -153,7 +153,7 @@ A transmissão de uma varredura é irreversível. Guarde o ficheiro de wallet or
 
 ### Ficheiros de wallet e chaves autónomas
 
-No ecrã de boas-vindas, **Tenho um ficheiro de wallet** abrange um ficheiro ZecWallet Lite, uma zcashd `wallet.dat` ou chaves de gasto estendidas Sapling autónomas. A recuperação de chaves de gasto Sprout autónomas é tratada pelo caminho/CLI de recuperação Sprout de Argos.
+No ecrã de boas-vindas, **Tenho um ficheiro de wallet** abrange um ficheiro Zecwallet Lite, uma zcashd `wallet.dat` ou chaves de gasto estendidas Sapling autónomas. A recuperação de chaves de gasto Sprout autónomas é tratada pelo caminho/CLI de recuperação Sprout de Argos.
 
 Argos lê ficheiros de wallet sem os modificar. Se a wallet estiver encriptada, introduza a frase-passe quando solicitado; é utilizada na memória e não é escrita no disco. Reveja as contagens de chaves transparentes, Sapling e Sprout antes de iniciar uma análise.
 
@@ -161,7 +161,7 @@ As chaves de visualização não são aceites para uma varredura porque não pod
 
 ### Notas sobre Sprout
 
-Uma seed ZecWallet Lite não deriva chaves Sprout. Essas chaves foram geradas separadamente. Recupere Sprout a partir de uma zcashd `wallet.dat` ou de uma chave de gasto autónoma na CLI.
+Uma seed Zecwallet Lite não deriva chaves Sprout. Essas chaves foram geradas separadamente. Recupere Sprout a partir de uma zcashd `wallet.dat` ou de uma chave de gasto autónoma na CLI.
 
 Se o ficheiro já tiver dados de notas gastáveis e uma testemunha em cache, Argos pode oferecer **Varrer fundos Sprout** sem uma análise da cadeia. Caso contrário, pode executar uma análise completa de blocos retomável através da rede P2P. Essa análise é grande e lenta. O ponto de controlo que grava permite gastar, por isso proteja-o como protegeria a wallet original.
 
@@ -181,9 +181,9 @@ Uma migração faseada pode utilizar várias transações, pelo que a taxa total
 
 ## Recuperação profunda com ZExCavator
 
-[ZExCavator](https://github.com/zingolabs/zexcavator) é um projeto de recuperação Zingo Labs **em desenvolvimento** atualmente focado em ficheiros de wallet ZecWallet Lite e migração de formatos de wallet. O seu README atualmente direciona os utilizadores que procuram recuperação de fundos para a opção de exportação **Zingolib**, enquanto um suporte ZeWIF mais completo continua em desenvolvimento.
+[ZExCavator](https://github.com/zingolabs/zexcavator) é um projeto de recuperação Zingo Labs **em desenvolvimento** atualmente focado em ficheiros de wallet Zecwallet Lite e migração de formatos de wallet. O seu README atualmente direciona os utilizadores que procuram recuperação de fundos para a opção de exportação **zingolib**, enquanto um suporte ZeWIF mais completo continua em desenvolvimento.
 
-Trate-o como uma ferramenta avançada/de casos limite, em vez do caminho de recuperação predefinido. Para seeds ZecWallet Lite normais, ficheiros de wallet, zcashd `wallet.dat` e chaves de gasto autónomas suportadas, experimente primeiro Argos. Verifique tudo o que recuperar com ZExCavator numa wallet mantida antes de confiar nisso.
+Trate-o como uma ferramenta avançada/de casos limite, em vez do caminho de recuperação predefinido. Para seeds Zecwallet Lite normais, ficheiros de wallet, zcashd `wallet.dat` e chaves de gasto autónomas suportadas, experimente primeiro Argos. Verifique tudo o que recuperar com ZExCavator numa wallet mantida antes de confiar nisso.
 
 ## Recuperação profissional quando não tem a seed
 
