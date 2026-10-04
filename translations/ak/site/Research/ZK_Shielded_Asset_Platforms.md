@@ -15,7 +15,7 @@ published: 2024-01-12
 Sɛ wode Firn bedi dwuma a, fa ETH gu protocol no mu. Sɛ wonya Firn balance wie a, wobɛtumi de sika akɔma Firn dwumadiefoɔ foforɔ wɔ kokoam, anaasɛ wo ne protocol foforɔ, te sɛ Uniswap, adi nkitaho. Wubetumi nso ayi sika afi kokoam asan akɔ netɛw no mu. Firn gye sika ketewaa bi, a ɛyɛ 0.79%, wɔ ETH nyinaa a wɔtwetwe no ho. Wɔde saa sika yi ma wɔn a wɔwɔ Firn Token - . [Krataa fitaa](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
-**[RAILGUN AKWANKYERƐ](https://railgun.org/):** Sɛ́ layer-1 nyansa apam,Railgun wɔ hɔ sɛ ɛbɛyɛ Private transfers ne DeFi infrastructure esiane ne ba a ɛwɔ hɔ no ma Ethereum, Polygon, Binance Smart Chain, ne Arbitrum.
+**[RAILGUN AKWANKYERƐ](https://railgun.org/):** Sɛ́ layer-1 nyansa apam,RAILGUN wɔ hɔ sɛ ɛbɛyɛ Private transfers ne DeFi infrastructure esiane ne ba a ɛwɔ hɔ no ma Ethereum, Polygon, Binance Smart Chain, ne Arbitrum.
 Setup wo non-custodial RAILGUN Wallet, Shield biara ERC-20 token mu 0zk address a wopɛ, Sɛ wɔbɔ ho ban wie a, tokens, balances, ne transactions yɛ encrypted - [Krataa fitaa](https://docs.railgun.org/wiki) 
 
 

@@ -15,7 +15,7 @@ published: 2024-01-12
 Um Firn zu nutzen, zahle ETH in das Protokoll ein. Sobald du ein Firn-Guthaben hast, kannst du Gelder privat an andere Firn-Nutzer übertragen oder mit anderen Protokollen wie Uniswap interagieren. Du kannst Gelder auch privat zurück ins Netzwerk auszahlen. Firn erhebt eine geringe Gebühr von 0,79 % auf alle ETH-Abhebungen. Diese Gebühren werden anteilig an Inhaber des Firn-Tokens ausgeschüttet - [Whitepaper](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
-**[RAILGUN](https://railgun.org/):** Als Layer-1-Smart-Contract existiert Railgun als Infrastruktur für private Transfers und DeFi und verdankt seine Existenz Ethereum, Polygon, Binance Smart Chain und Arbitrum.
+**[RAILGUN](https://railgun.org/):** Als Layer-1-Smart-Contract existiert RAILGUN als Infrastruktur für private Transfers und DeFi und verdankt seine Existenz Ethereum, Polygon, Binance Smart Chain und Arbitrum.
 Richte deine Non-Custodial-RAILGUN-Wallet ein, schirme beliebige ERC-20-Token in eine 0zk-Adresse deiner Wahl ab. Sobald sie abgeschirmt sind, werden Token, Guthaben und Transaktionen verschlüsselt  - [Whitepaper](https://docs.railgun.org/wiki) 
 
 

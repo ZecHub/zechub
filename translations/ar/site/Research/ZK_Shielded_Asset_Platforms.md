@@ -15,7 +15,7 @@ published: 2024-01-12
 لاستخدام Firn، قم بإيداع ETH في البروتوكول. بمجرد أن يصبح لديك رصيد Firn، يمكنك تحويل الأموال بشكل خاص إلى مستخدمين آخرين لـ Firn، أو التفاعل مع بروتوكولات أخرى مثل Uniswap. ويمكنك أيضًا سحب الأموال بشكل خاص مرة أخرى إلى الشبكة. يفرض Firn رسومًا صغيرة بنسبة 0.79% على جميع عمليات سحب ETH. ويتم توزيع هذه الرسوم بشكل تناسبي على حاملي رمز Firn - [الورقة البيضاء](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
-**[RAILGUN](https://railgun.org/):** بصفته عقدًا ذكيًا من الطبقة الأولى، يوجد Railgun ليكون بنية تحتية للتحويلات الخاصة وDeFi، ويستمد وجوده من Ethereum وPolygon وBinance Smart Chain وArbitrum.
+**[RAILGUN](https://railgun.org/):** بصفته عقدًا ذكيًا من الطبقة الأولى، يوجد RAILGUN ليكون بنية تحتية للتحويلات الخاصة وDeFi، ويستمد وجوده من Ethereum وPolygon وBinance Smart Chain وArbitrum.
 قم بإعداد محفظة RAILGUN غير الاحتجازية الخاصة بك، وShield لأي رمز ERC-20 إلى عنوان 0zk من اختيارك. وبمجرد إجراء Shield، تصبح الرموز والأرصدة والمعاملات مشفرة  - [الورقة البيضاء](https://docs.railgun.org/wiki) 
 
 

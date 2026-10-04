@@ -15,7 +15,7 @@ published: 2024-01-12
 Firn kullanmak için protokole ETH yatırın. Bir Firn bakiyeniz olduğunda, diğer Firn kullanıcılarına özel olarak fon transfer edebilir veya Uniswap gibi diğer protokollerle etkileşime geçebilirsiniz. Ayrıca fonları ağa özel olarak geri çekebilirsiniz. Firn, tüm ETH çekimlerinden %0,79 oranında küçük bir ücret alır. Bu ücretler, Firn Token sahiplerine orantılı olarak dağıtılır - [Beyaz Kitap](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
-**[RAILGUN](https://railgun.org/):** Bir katman-1 akıllı sözleşmesi olarak Railgun, Ethereum, Polygon, Binance Smart Chain ve Arbitrum sayesinde var olan bir özel transferler ve DeFi altyapısıdır.
+**[RAILGUN](https://railgun.org/):** Bir katman-1 akıllı sözleşmesi olarak RAILGUN, Ethereum, Polygon, Binance Smart Chain ve Arbitrum sayesinde var olan bir özel transferler ve DeFi altyapısıdır.
 Vesayetsiz RAILGUN Wallet'ınızı kurun, istediğiniz bir 0zk adresine herhangi bir ERC-20 token’ını Shield edin, Shield edildikten sonra token’lar, bakiyeler ve işlemler şifrelenir - [Beyaz Kitap](https://docs.railgun.org/wiki) 
 
 

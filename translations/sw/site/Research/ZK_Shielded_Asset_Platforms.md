@@ -15,7 +15,7 @@ published: 2024-01-12
 Ili kutumia Firn, weka ETH kwenye itifaki. Ukishapata salio la Firn, unaweza kuhamisha pesa kwa faragha kwa watumiaji wengine wa Firn, au kutumia itifaki zingine, kama vile Uniswap. Unaweza pia kutoa pesa kwa faragha kwenye mtandao. Firn hutoza ada ndogo, ya 0.79%, kwa ETH zote zenye droo. Ada hizi hulipwa kwa uwiano kwa wamiliki wa Firn Token - [Karatasi Nyeupe](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
-**[RAILGUN](https://railgun.org/):** Kama mkataba mahiri wa safu ya 1, Railgun ipo ili iwe uhamishaji wa kibinafsi na miundombinu ya DeFi kutokana na uwepo wake kwa Ethereum, Polygon, Binance Smart Chain, na Arbitrum.
+**[RAILGUN](https://railgun.org/):** Kama mkataba mahiri wa safu ya 1, RAILGUN ipo ili iwe uhamishaji wa kibinafsi na miundombinu ya DeFi kutokana na uwepo wake kwa Ethereum, Polygon, Binance Smart Chain, na Arbitrum.
 Sanidi Pochi yako ya RAILGUN isiyo ya ulinzi, Linda tokeni yoyote ya ERC-20 katika anwani ya 0zk unayoipenda, Mara tu tokeni, salio, na miamala vitakapokuwa vimesimbwa kwa njia fiche - [Karatasi Nyeupe](https://docs.railgun.org/wiki) 
 
 

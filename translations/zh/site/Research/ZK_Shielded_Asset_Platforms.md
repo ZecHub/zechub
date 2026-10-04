@@ -15,7 +15,7 @@ published: 2024-01-12
 要使用 Firn，请将 ETH 存入该协议。一旦你拥有 Firn 余额，就可以私密地向其他 Firn 用户转账，或与其他协议交互，例如 Uniswap。你也可以私密地将资金提现回网络。Firn 对所有 ETH 提现收取 0.79% 的小额手续费。这些费用会按比例分配给 Firn Token 持有者 - [白皮书](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
-**[RAILGUN](https://railgun.org/):** 作为一层智能合约，Railgun 是一种私密转账和 DeFi 基础设施，其存在依托于 Ethereum、Polygon、Binance Smart Chain 和 Arbitrum。
+**[RAILGUN](https://railgun.org/):** 作为一层智能合约，RAILGUN 是一种私密转账和 DeFi 基础设施，其存在依托于 Ethereum、Polygon、Binance Smart Chain 和 Arbitrum。
 设置你的非托管 RAILGUN Wallet，将任意 ERC-20 token 屏蔽到你选择的 0zk 地址中。一旦完成屏蔽，token、余额和交易都会被加密  - [白皮书](https://docs.railgun.org/wiki) 
 
 

@@ -15,7 +15,7 @@ published: 2024-01-12
 Láti lo Firn, fi ETH sínú ìlànà náà. Nígbà tí o bá ní ìwọ̀n owó Firn, o lè gbé owó lọ sí àwọn olùlò Firn mìíràn ní ìkọ̀kọ̀, tàbí kí o bá àwọn ìlànà mìíràn mu, bíi Uniswap. O tún lè yọ owó padà sí nẹ́tíwọ́ọ̀kì ní ìkọ̀kọ̀. Firn gba owó díẹ̀, ti 0.79%, lórí gbogbo ETH pẹ̀lú ìfàsẹ́yìn. A máa ń san owó wọ̀nyí ní ìbámu pẹ̀lú iye tí ó wà fún àwọn tí ó ni Firn Token - [Ìwé funfun](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
-**[Ìbọn RÍLÍŃTÌ](https://railgun.org/):** Gẹ́gẹ́ bí àdéhùn ọlọ́gbọ́n onípele-1, Railgun wà láti jẹ́ ìyípadà àdáni àti ètò DeFi nítorí wíwà rẹ̀ láti ọwọ́ Ethereum, Polygon, Binance Smart Chain, àti Arbitrum.
+**[Ìbọn RÍLÍŃTÌ](https://railgun.org/):** Gẹ́gẹ́ bí àdéhùn ọlọ́gbọ́n onípele-1, RAILGUN wà láti jẹ́ ìyípadà àdáni àti ètò DeFi nítorí wíwà rẹ̀ láti ọwọ́ Ethereum, Polygon, Binance Smart Chain, àti Arbitrum.
 Ṣètò àpò RAILGUN tí kìí ṣe ti àkóso rẹ, dáàbò bo èyíkéyìí àmì ERC-20 sí àdírẹ́sì 0zk tí o bá fẹ́. Nígbà tí a bá ti dáàbò bò ó, a ó fi àmì, ìwọ̀nba, àti ìṣòwò pamọ́ - [Ìwé funfun](https://docs.railgun.org/wiki) 
 
 

@@ -15,7 +15,7 @@ published: 2024-01-12
 Iji jiri Firn, tinye ETH n'ime usoro a. Ozugbo ị nwere ego Firn, ị nwere ike ibufe ego na ndị ọrụ Firn ndị ọzọ n'onwe gị, ma ọ bụ soro usoro ndị ọzọ, dị ka Uniswap. Ị nwekwara ike iwepụ ego na netwọk ahụ n'onwe gị. Firn na-ana obere ego, nke 0.79%, na ETH niile yana ndọta. A na-akwụ ụgwọ ndị a n'ụzọ kwekọrọ na ndị ji Firn Token - [Akwụkwọ ọcha](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
-**[EGBÙ IGWE](https://railgun.org/):** Dịka nkwekọrịta smart nke oyi akwa-1, Railgun dị ka nnyefe nkeonwe na akụrụngwa DeFi n'ihi na Ethereum, Polygon, Binance Smart Chain, na Arbitrum dị.
+**[EGBÙ IGWE](https://railgun.org/):** Dịka nkwekọrịta smart nke oyi akwa-1, RAILGUN dị ka nnyefe nkeonwe na akụrụngwa DeFi n'ihi na Ethereum, Polygon, Binance Smart Chain, na Arbitrum dị.
 Hazie obere akpa RAILGUN gị nke na-abụghị nke nchekwa, chebe ihe nrịbama ERC-20 ọ bụla ka ọ bụrụ adreesị 0zk nke ị họọrọ. Ozugbo echekwabara ya, a na-ezochi ihe nrịbama, nguzozi, na azụmahịa - [Akwụkwọ ọcha](https://docs.railgun.org/wiki) 
 
 

@@ -15,7 +15,7 @@ published: 2024-01-12
 Per usare Firn, deposita ETH nel protocollo. Una volta che hai un saldo Firn, puoi trasferire fondi privatamente ad altri utenti Firn oppure interagire con altri protocolli, come Uniswap. Puoi anche prelevare privatamente i fondi di nuovo sulla rete. Firn applica una piccola commissione dello 0,79% su tutti i prelievi di ETH. Queste commissioni vengono distribuite proporzionalmente ai detentori del token Firn - [Whitepaper](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
-**[RAILGUN](https://railgun.org/):** Come smart contract layer-1, Railgun esiste come infrastruttura per trasferimenti privati e DeFi, e deve la sua esistenza a Ethereum, Polygon, Binance Smart Chain e Arbitrum.
+**[RAILGUN](https://railgun.org/):** Come smart contract layer-1, RAILGUN esiste come infrastruttura per trasferimenti privati e DeFi, e deve la sua esistenza a Ethereum, Polygon, Binance Smart Chain e Arbitrum.
 Configura il tuo wallet RAILGUN non-custodial, proteggi qualsiasi token ERC-20 in un indirizzo 0zk di tua scelta. Una volta protetti, token, saldi e transazioni vengono crittografati - [Whitepaper](https://docs.railgun.org/wiki) 
 
 

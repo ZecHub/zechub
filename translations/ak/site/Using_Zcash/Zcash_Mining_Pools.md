@@ -36,13 +36,13 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [FlyPool na ɛwɔ hɔ](https://zcash.flypool.org/)
+- Wɛbsaet: [Flypool na ɛwɔ hɔ](https://zcash.flypool.org/)
 - Ankorankoro Katua: YIW
 - Pool Type: Tua Ka Wɔ Nea Etwa To N 
 - Pool ho ka: 1% .

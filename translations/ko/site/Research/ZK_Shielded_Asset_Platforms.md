@@ -15,7 +15,7 @@ published: 2024-01-12
 Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 생기면 다른 Firn 사용자에게 자금을 비공개로 전송하거나 Uniswap 같은 다른 프로토콜과 상호작용할 수 있습니다. 또한 자금을 다시 네트워크로 비공개 출금할 수도 있습니다. Firn은 모든 ETH 출금에 대해 0.79%의 소액 수수료를 부과합니다. 이 수수료는 Firn Token 보유자에게 비례하여 분배됩니다 - [백서](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
 
 
-**[RAILGUN](https://railgun.org/):** 레이어 1 스마트 계약인 Railgun은 Ethereum, Polygon, Binance Smart Chain, Arbitrum 위에서 존재하는 프라이빗 전송 및 DeFi 인프라입니다.
+**[RAILGUN](https://railgun.org/):** 레이어 1 스마트 계약인 RAILGUN은 Ethereum, Polygon, Binance Smart Chain, Arbitrum 위에서 존재하는 프라이빗 전송 및 DeFi 인프라입니다.
 비수탁형 RAILGUN Wallet을 설정하고, 원하는 0zk 주소로 모든 ERC-20 토큰을 Shield 하세요. 일단 Shield되면 토큰, 잔액, 거래는 암호화됩니다 - [백서](https://docs.railgun.org/wiki) 
 
 

@@ -36,13 +36,13 @@
 
 ---
 
-### [FlyPool](https://zcash.flypool.org/)
+### [Flypool](https://zcash.flypool.org/)
 
 <a href="https://zcash.flypool.org/">
     <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Вебсайт: [FlyPool](https://zcash.flypool.org/)
+- Вебсайт: [Flypool](https://zcash.flypool.org/)
 - Приватні виплати: ТАК
 - Тип пулу: Оплата за останні N
 - Комісія пулу: 1%

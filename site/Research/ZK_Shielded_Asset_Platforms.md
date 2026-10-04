@@ -15,7 +15,7 @@ published: 2024-01-12
 To use Firn, deposit ETH into the protocol. Once you have a Firn balance, you can privately transfer funds to other Firn users, or engage with other protocols, like Uniswap. You can also privately withdraw funds back to the network. Firn charges a small fee, of 0.79%, on all ETH with drawals. These fees are disbursed proportionally to holders of Firn Token - [Whitepaper](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
 
 
-**[RAILGUN](https://railgun.org/):** As a layer-1 smart contract,Railgun exists to be a Private transfers and DeFi infrastructure owing its existence to Ethereum, Polygon, Binance Smart Chain, and Arbitrum.
+**[RAILGUN](https://railgun.org/):** As a layer-1 smart contract,RAILGUN exists to be a Private transfers and DeFi infrastructure owing its existence to Ethereum, Polygon, Binance Smart Chain, and Arbitrum.
 Setup your non-custodial RAILGUN Wallet, Shield any ERC-20 token into a 0zk address of your choice, Once shielded, tokens, balances, and transactions are encrypted  - [Whitepaper](https://docs.railgun.org/wiki) 
 
 
