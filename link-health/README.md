@@ -18,7 +18,7 @@ are skipped, since those are examples rather than live links.
 | Missing assets | `/content-images/...` or `/content-banners/...` not present in the app repo |
 | Certificate problems | TLS failure |
 | Timeouts | No response within 15 seconds |
-| Rate limited (not verified) | 429 after retrying; the host throttled the scan, so the link was not checked |
+| Rate limited (not verified) | 429, retried once while a five-minute budget lasts; the host throttled the scan, so the link was not checked |
 | Invalid URLs | Malformed or protocol-relative |
 | Redirects | 3xx, worth pointing at the final destination |
 | Duplicate URLs | The same external link repeated within one page |
@@ -48,7 +48,12 @@ fetched:
 - files listed in the app's `public/` folder are accepted without a request;
 - other files, and `/_next/` and `/api/` paths, are fetched like external links,
   because the site also serves files that are not in `public/` (raw markdown,
-  `/llms.txt`, `/robots.txt`, `/sitemap.xml`). A missing one shows up as a 404.
+  `/llms.txt`, `/robots.txt`, `/sitemap.xml`). They are fetched at
+  `https://zechub.wiki` without a trailing slash, so an `http://`, `www.` or
+  `/x/` spelling is not hidden behind the site's redirect, and a missing file
+  shows up as a 404. A locale prefix is kept, since some files exist only under
+  one (`/en/rss.xml`). The site answers 200 for any locale-prefixed path, so a
+  missing file linked as `/de/...` is not detected.
 
 Because they are not fetched, wiki pages get no redirect advisories (for
 `http://` or `www.` links, say) and are not counted as duplicate URLs.

@@ -307,6 +307,20 @@ function wikiLinkAction(path, publicFiles) {
   return "route";
 }
 
+/**
+ * Where to fetch a wiki link that is not resolved locally: the URL as written,
+ * but on https://zechub.wiki and without a trailing slash, so the site's 308
+ * for http://, www. or /x/ does not stand in for the file's real status. The
+ * locale prefix stays, because some files exist only under one (/en/rss.xml).
+ */
+function wikiFetchUrl(url) {
+  const u = new URL(url);
+  u.protocol = "https:";
+  u.hostname = "zechub.wiki";
+  u.pathname = u.pathname.replace(/(.)\/+$/, "$1");
+  return u.href;
+}
+
 // ── external checking ────────────────────────────────────────────────────────
 
 async function checkExternal(url) {
@@ -508,6 +522,7 @@ async function main() {
 
     for (const link of found) {
       const kind = classify(link.url);
+      let target = link.url;
       if (kind === "anchor" || kind === "scheme" || kind === "relative" || kind === "repo-file") continue;
 
       if (kind === "protocol-relative") {
@@ -533,6 +548,7 @@ async function main() {
           continue;
         }
         // "external": fall through and fetch it like any other absolute URL.
+        target = wikiFetchUrl(link.url);
       }
 
       if (kind === "route") {
@@ -551,7 +567,7 @@ async function main() {
       if (kind === "external" || kind === "wiki") {
         let parsed;
         try {
-          parsed = new URL(link.url);
+          parsed = new URL(target);
         } catch {
           findings.push({ kind: "invalid", url: link.url, file: link.file, line: link.line, detail: "unparseable URL" });
           continue;
