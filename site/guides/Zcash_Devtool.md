@@ -1,6 +1,6 @@
 # The Zcash Devtool
 
-[What is the Zcash-Devtool?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
+[What is the zcash-devtool?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
 
 The Zcash Devtool is a platform for hacking on Zcash. It is built by developers, for developers, for testing & development of new Zcash functionality; and should not be considered production-ready. The command line API that this tool exposes can & will change at any time and without warning. DO NOT commit significant funds to the management of the zcash-devtool embedded wallet.
 
