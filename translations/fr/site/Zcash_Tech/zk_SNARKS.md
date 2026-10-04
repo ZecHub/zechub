@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
-# ZKP & ZK-SNARKS
+# ZKP & zk-SNARKs
 
 ## TL;DR
 
-- **ZK-SNARKs** = Arguments de connaissance succincts non interactifs à divulgation nulle
+- **zk-SNARKs** = Arguments de connaissance succincts non interactifs à divulgation nulle
 - Ils permettent à une partie de **prouver qu’elle sait quelque chose** sans révéler l’information elle-même
-- Zcash utilise les ZK-SNARKs pour prouver qu’une transaction est valide (montants corrects, entrées non dépensées) **sans révéler l’expéditeur, le destinataire ni le montant**
+- Zcash utilise les zk-SNARKs pour prouver qu’une transaction est valide (montants corrects, entrées non dépensées) **sans révéler l’expéditeur, le destinataire ni le montant**
 - « Succinct » signifie que la preuve est minuscule et rapide à vérifier, même pour des énoncés complexes
-- La pool Orchard utilise Halo 2, un système de ZK-SNARK ne nécessitant **aucune trusted setup**
+- La pool Orchard utilise Halo 2, un système de zk-SNARK ne nécessitant **aucune trusted setup**
 
 ---
 
@@ -163,7 +163,7 @@ Setup transparente (sans trusted setup)- L’algorithme de prétraitement n’ut
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted Setup universelle.
 
-[DARK](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Pas de trusted setup, mais produisent des preuves légèrement plus longues ou peuvent demander plus de temps d’exécution au prouveur. 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Pas de trusted setup, mais produisent des preuves légèrement plus longues ou peuvent demander plus de temps d’exécution au prouveur. 
 
 Les SNARKS sont utiles lorsque plusieurs vérificateurs sont nécessaires, comme sur une blockchain telle que Zcash ou un zk-Rollup tel que [Aztec](https://docs.aztec.network), afin que plusieurs nœuds de validation n’aient pas à interagir pendant plusieurs tours avec chaque preuve. 
 
@@ -179,7 +179,7 @@ Lisez le [livre Halo2](https://zcash.github.io/halo2/index.html) pour plus d’i
 
 ## Autres applications de la Zero Knowledge 
 
-Les zk-SNARKS offrent plusieurs avantages dans une grande variété d’applications. Examinons quelques exemples.
+Les zk-SNARKs offrent plusieurs avantages dans une grande variété d’applications. Examinons quelques exemples.
 
 **Scalabilité** : Cela est rendu possible par la « sous-traitance du calcul ». Il n’y a pas de besoin strict de Zero Knowledge pour qu’une chaîne L1 vérifie le travail d’un service hors chaîne. Les transactions ne sont pas nécessairement privées sur une zk-EVM.
 
@@ -222,9 +222,9 @@ Pour aller plus loin :
 
 ## Pages associées
 
-- [Shielded Pools](/using-zcash/shielded-pools) — Comment les ZK-SNARKs sont utilisées dans les pools de valeur de Zcash
-- [Halo](/zcash-tech/halo) — Le système de ZK-SNARK de Zcash qui élimine les trusted setups
+- [Shielded Pools](/using-zcash/shielded-pools) — Comment les zk-SNARKs sont utilisées dans les pools de valeur de Zcash
+- [Halo](/zcash-tech/halo) — Le système de zk-SNARK de Zcash qui élimine les trusted setups
 - [Sécurité post-quantique dans Zcash](/zcash-tech/post-quantum-security) - Comment les futurs risques quantiques sont liés à la cryptographie de Zcash
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Les ZSAs construites sur la technologie ZK-SNARK
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Les ZSAs construites sur la technologie zk-SNARK
 - [Qu’est-ce que ZEC et Zcash](/start-here/what-is-zec-and-zcash) — Introduction à Zcash et à son modèle de confidentialité
-- [La confidentialité comme principe fondamental](/privacy/privacy-as-a-core-principle) — Pourquoi la confidentialité financière est importante
+- [La confidentialité comme principe fondamental](/start-here/who-can-see-your-zcash-payment) — Pourquoi la confidentialité financière est importante

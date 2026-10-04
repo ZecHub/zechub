@@ -5,9 +5,9 @@
 # DeFi'de Zcash Kullanımı
 
 
-## Near Intents 
+## NEAR Intents 
 
-Zcash ve NEAR Intents entegre edildi; bu sayede kullanıcılar herhangi bir ücret ödemeden Zcash (ZEC) ile Bitcoin, Solana, NEAR ve XRP dahil diğer önde gelen altcoin'ler arasında takas yapabiliyor. Bu entegrasyon, NEAR Protocol'ün otonom ve doğrulanabilir yapay zekâ botlarından oluşan bir altyapı oluşturma çabalarının bir parçasıdır ve aynı zamanda yapay zekâ destekli ödeme kanallarını mümkün kılarak Zcash'e de fayda sağlar. Zcash kullanıcıları artık [Near Intents](https://app.near-intents.org) aracılığıyla gizliliklerini korurken akıllı sözleşmelere ve daha geniş [DeFi uygulamalarına](https://nym.com/blog/what-is-defi) erişebilmektedir.
+Zcash ve NEAR Intents entegre edildi; bu sayede kullanıcılar herhangi bir ücret ödemeden Zcash (ZEC) ile Bitcoin, Solana, NEAR ve XRP dahil diğer önde gelen altcoin'ler arasında takas yapabiliyor. Bu entegrasyon, NEAR Protocol'ün otonom ve doğrulanabilir yapay zekâ botlarından oluşan bir altyapı oluşturma çabalarının bir parçasıdır ve aynı zamanda yapay zekâ destekli ödeme kanallarını mümkün kılarak Zcash'e de fayda sağlar. Zcash kullanıcıları artık [NEAR Intents](https://app.near-intents.org) aracılığıyla gizliliklerini korurken akıllı sözleşmelere ve daha geniş [DeFi uygulamalarına](https://nym.com/blog/what-is-defi) erişebilmektedir.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

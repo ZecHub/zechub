@@ -5,9 +5,9 @@
 # Uso de Zcash en DeFi
 
 
-## Near Intents 
+## NEAR Intents 
 
-Zcash y NEAR Intents se han integrado, lo que permite a los usuarios intercambiar Zcash (ZEC) por otras altcoins principales, incluyendo Bitcoin, Solana, NEAR y XRP, sin pagar ninguna comisión. Esta integración forma parte de los esfuerzos de NEAR Protocol por crear una infraestructura de bots de IA autónomos y verificables, lo que también aporta beneficios a Zcash al habilitar rieles de pago impulsados por IA. Los usuarios de Zcash ahora pueden acceder a contratos inteligentes y a un abanico más amplio de [aplicaciones DeFi](https://nym.com/blog/what-is-defi) mientras preservan su privacidad mediante [Near Intents](https://app.near-intents.org).
+Zcash y NEAR Intents se han integrado, lo que permite a los usuarios intercambiar Zcash (ZEC) por otras altcoins principales, incluyendo Bitcoin, Solana, NEAR y XRP, sin pagar ninguna comisión. Esta integración forma parte de los esfuerzos de NEAR Protocol por crear una infraestructura de bots de IA autónomos y verificables, lo que también aporta beneficios a Zcash al habilitar rieles de pago impulsados por IA. Los usuarios de Zcash ahora pueden acceder a contratos inteligentes y a un abanico más amplio de [aplicaciones DeFi](https://nym.com/blog/what-is-defi) mientras preservan su privacidad mediante [NEAR Intents](https://app.near-intents.org).
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

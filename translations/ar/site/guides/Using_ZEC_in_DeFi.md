@@ -5,9 +5,9 @@
 # استخدام Zcash في DeFi
 
 
-## Near Intents 
+## NEAR Intents 
 
-تم دمج Zcash و NEAR Intents، مما يتيح للمستخدمين مبادلة Zcash ‏(ZEC) مع عملات بديلة رائدة أخرى، بما في ذلك Bitcoin وSolana وNEAR وXRP، من دون دفع أي رسوم. ويُعد هذا الدمج جزءًا من جهود NEAR Protocol لإنشاء بنية تحتية من روبوتات الذكاء الاصطناعي المستقلة والقابلة للتحقق، وهو ما يجلب أيضًا فوائد إلى Zcash عبر تمكين مسارات دفع مدعومة بالذكاء الاصطناعي. وبات مستخدمو Zcash الآن قادرين على الوصول إلى العقود الذكية وتطبيقات [DeFi](https://nym.com/blog/what-is-defi) الأوسع مع الحفاظ على خصوصيتهم عبر [Near Intents](https://app.near-intents.org).
+تم دمج Zcash و NEAR Intents، مما يتيح للمستخدمين مبادلة Zcash ‏(ZEC) مع عملات بديلة رائدة أخرى، بما في ذلك Bitcoin وSolana وNEAR وXRP، من دون دفع أي رسوم. ويُعد هذا الدمج جزءًا من جهود NEAR Protocol لإنشاء بنية تحتية من روبوتات الذكاء الاصطناعي المستقلة والقابلة للتحقق، وهو ما يجلب أيضًا فوائد إلى Zcash عبر تمكين مسارات دفع مدعومة بالذكاء الاصطناعي. وبات مستخدمو Zcash الآن قادرين على الوصول إلى العقود الذكية وتطبيقات [DeFi](https://nym.com/blog/what-is-defi) الأوسع مع الحفاظ على خصوصيتهم عبر [NEAR Intents](https://app.near-intents.org).
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

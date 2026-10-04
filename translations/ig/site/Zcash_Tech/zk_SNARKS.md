@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & ZK-SNARKS
+# ZKP & zk-SNARKs
 
 ## TL;DR
 
-- **ZK-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arụmụka nke Ihe Ọmụma
+- **zk-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arụmụka nke Ihe Ọmụma
 - Ha na-ekwe ka otu onye gosipụta na ha maara ihe n'ekpugheghị ozi ahụ n'onwe ya
-- Zcash na-eji ZK-SNARKs iji gosipụta azụmahịa dị irè (ego ziri ezi, ntinye ego) **na-enweghị igosipụta onye na-ezipụ, onye nnata, ma ọ bụ ego**
+- Zcash na-eji zk-SNARKs iji gosipụta azụmahịa dị irè (ego ziri ezi, ntinye ego) **na-enweghị igosipụta onye na-ezipụ, onye nnata, ma ọ bụ ego**
 - "Succinct" pụtara na ihe akaebe ahụ pere mpe ma dịkwa ngwa iji nyochaa ọbụnadị maka nkwupụta ndị dị mgbagwoju anya
-- Ogige Orchard na-eji Halo 2, usoro ZK-SNARK na ** enweghị ntọala a tụkwasịrị obi chọrọ **
+- Ogige Orchard na-eji Halo 2, usoro zk-SNARK na ** enweghị ntọala a tụkwasịrị obi chọrọ **
 
 ---
 
@@ -163,7 +163,7 @@ Ntọala Transparent (Enweghị Ntọalụ Tụkwasịrị Obi) - Usoro nhazi nk
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Ntọala a tụkwasịrị obi n'ụwa niile.
 
-[Ọchịchịrị](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[ỤRỤ](https://www.youtube.com/watch?v=wFZ_YIetK1o): Enweghị Ntọala tụkwasịrị obi ma mepụta ihe akaebe dịtụ ogologo ma ọ bụ nwere ike iwe ogologo oge maka ịgba ọsọ. 
+[Ọchịchịrị](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[ỤRỤ](https://www.youtube.com/watch?v=wFZ_YIetK1o): Enweghị Ntọala tụkwasịrị obi ma mepụta ihe akaebe dịtụ ogologo ma ọ bụ nwere ike iwe ogologo oge maka ịgba ọsọ. 
 
 SNARKS bara uru mgbe achọrọ ọtụtụ ndị nyocha dị ka blockchain dị ka Zcash ma ọ bụ zk-Rollup dị ka [Aztec](https://docs.aztec.network) so that multiple validating nodes don't have to interact over several rounds with each proof. 
 
@@ -179,7 +179,7 @@ Gụọ akwụkwọ Halo 2 .](https://zcash.github.io/halo2/index.html) maka ozi
 
 ## Ngwa ndị ọzọ na-enweghị ihe ọmụma 
 
-zk-SNARKS provide several advantages in a variety of different applications. Let's take a look at some examples.
+zk-SNARKs provide several advantages in a variety of different applications. Let's take a look at some examples.
 
 **Scalability**: Nke a na-enweta site na 'Outsourcing Computation'. Ọ dịghị mkpa maka ihe ọmụma efu maka usoro L1 iji nyochaa ọrụ nke ọrụ mpụga. Azụmahịa abụghị nke onwe na zk-EVM.
 
@@ -222,9 +222,9 @@ ____
 
 ## Peeji ndị metụtara ya
 
-- [Egwú Mmiri Ndị E Chebere](/using-zcash/shielded-pools)  Otu esi eji ZK-SNARKs na Zcash uru ọdọ mmiri
-- [Halo](/zcash-tech/halo)  Usoro ZK-SNARK nke Zcash nke na-ewepụ ntọala ndị a tụkwasịrị obi
+- [Egwú Mmiri Ndị E Chebere](/using-zcash/shielded-pools)  Otu esi eji zk-SNARKs na Zcash uru ọdọ mmiri
+- [Halo](/zcash-tech/halo)  Usoro zk-SNARK nke Zcash nke na-ewepụ ntọala ndị a tụkwasịrị obi
 - [Post-Quantum Security na Zcash](/zcash-tech/post-quantum-security) - Olee otú ihe ize ndụ quantum n'ọdịnihu si metụta Zcash cryptography
-- [Zcash echebe akụ](/zcash-tech/zcash-shielded-assets)  ZSAs wuru na teknụzụ ZK-SNARK
+- [Zcash echebe akụ](/zcash-tech/zcash-shielded-assets)  ZSAs wuru na teknụzụ zk-SNARK
 - [Gịnị bụ ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Okwu Mmalite na Zcash na ụdị nzuzo ya
-- [Nchekwa nzuzo dị ka ụkpụrụ bụ isi](/privacy/privacy-as-a-core-principle)  Ihe mere o ji dị mkpa ka e chebe ihe nzuzo ego
+- [Nchekwa nzuzo dị ka ụkpụrụ bụ isi](/start-here/who-can-see-your-zcash-payment)  Ihe mere o ji dị mkpa ka e chebe ihe nzuzo ego

@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & ZK-SNARKS
+# ZKP & zk-SNARKs
 
 ## TL;DR
 
-- **ZK-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
+- **zk-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
 - ये एक पक्ष को **यह साबित करने** की अनुमति देते हैं कि वह कुछ जानता है, बिना स्वयं उस जानकारी को उजागर किए
-- Zcash, ZK-SNARKs का उपयोग यह साबित करने के लिए करता है कि कोई transaction वैध है (सही amounts, unspent inputs) **बिना sender, receiver, या amount को उजागर किए**
+- Zcash, zk-SNARKs का उपयोग यह साबित करने के लिए करता है कि कोई transaction वैध है (सही amounts, unspent inputs) **बिना sender, receiver, या amount को उजागर किए**
 - "Succinct" का अर्थ है कि proof बहुत छोटा होता है और जटिल statements के लिए भी उसे verify करना तेज़ होता है
-- Orchard pool Halo 2 का उपयोग करता है, जो एक ZK-SNARK system है जिसमें **trusted setup की आवश्यकता नहीं होती**
+- Orchard pool Halo 2 का उपयोग करता है, जो एक zk-SNARK system है जिसमें **trusted setup की आवश्यकता नहीं होती**
 
 ---
 
@@ -163,7 +163,7 @@ Transparent Setup (No Trusted Setup)- preprocessing algorithm किसी भ�
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universally Trusted Setup.
 
-[DARK](https://eprint.iacr.org/2019/1229)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Trusted Setup नहीं होता लेकिन proofs थोड़े लंबे हो सकते हैं या prover को चलने में अधिक समय लग सकता है। 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Trusted Setup नहीं होता लेकिन proofs थोड़े लंबे हो सकते हैं या prover को चलने में अधिक समय लग सकता है। 
 
 SNARKS तब उपयोगी होते हैं जब कई verifiers की आवश्यकता हो, जैसे Zcash जैसी blockchain में या [Aztec](https://docs.aztec.network) जैसे zk-Rollup में, ताकि कई validating nodes को प्रत्येक proof के लिए कई rounds में interact न करना पड़े। 
 
@@ -179,7 +179,7 @@ Zcash एक public blockchain है जो private transactions को सं�
 
 ## अन्य Zero-Knowledge Applications 
 
-zk-SNARKS विभिन्न प्रकार के applications में कई लाभ प्रदान करते हैं। आइए कुछ उदाहरणों पर नज़र डालें।
+zk-SNARKs विभिन्न प्रकार के applications में कई लाभ प्रदान करते हैं। आइए कुछ उदाहरणों पर नज़र डालें।
 
 **Scalability**: यह 'Outsourcing Computation' द्वारा प्राप्त की जाती है। किसी L1 chain को off-chain service के काम को verify करने के लिए zero-knowledge की सख्त आवश्यकता नहीं होती। zk-EVM पर transactions अनिवार्य रूप से private नहीं होते।
 
@@ -222,9 +222,9 @@ ____
 
 ## संबंधित पृष्ठ
 
-- [Shielded Pools](/using-zcash/shielded-pools) — Zcash value pools में ZK-SNARKs का उपयोग कैसे किया जाता है
-- [Halo](/zcash-tech/halo) — Zcash का ZK-SNARK system जो trusted setups को समाप्त करता है
+- [Shielded Pools](/using-zcash/shielded-pools) — Zcash value pools में zk-SNARKs का उपयोग कैसे किया जाता है
+- [Halo](/zcash-tech/halo) — Zcash का zk-SNARK system जो trusted setups को समाप्त करता है
 - [Zcash में Post-Quantum Security](/zcash-tech/post-quantum-security) - भविष्य के quantum risks का Zcash cryptography से क्या संबंध है
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZK-SNARK technology पर निर्मित ZSAs
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — zk-SNARK technology पर निर्मित ZSAs
 - [ZEC और Zcash क्या हैं](/start-here/what-is-zec-and-zcash) — Zcash और उसके privacy model का परिचय
-- [एक मूल सिद्धांत के रूप में Privacy](/privacy/privacy-as-a-core-principle) — वित्तीय privacy क्यों महत्वपूर्ण है
+- [एक मूल सिद्धांत के रूप में Privacy](/start-here/who-can-see-your-zcash-payment) — वित्तीय privacy क्यों महत्वपूर्ण है
