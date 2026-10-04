@@ -251,7 +251,7 @@ For beginners, the main idea is simple: privacy today reduces future data exposu
 - [Is Zcash Post-Quantum?](/zcash-tech/is-zcash-post-quantum) - What Ironwood changed, what is still exposed, and a dated status table
 - [Shielded Pools](/using-zcash/shielded-pools) - How Zcash shielded transactions protect transaction details
 - [Halo](/zcash-tech/halo) - Zcash's proof system without a trusted setup
-- [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - How zero-knowledge proofs work in Zcash
+- [ZKP & zk-SNARKs](/zcash-tech/zk-snarks) - How zero-knowledge proofs work in Zcash
 - [Viewing Keys](/zcash-tech/viewing-keys) - How selective disclosure works for shielded Zcash
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) - Future shielded assets and private asset support
 - [Who Can See Your Zcash Payment?](/start-here/who-can-see-your-zcash-payment) - What stays public, and what shielding hides

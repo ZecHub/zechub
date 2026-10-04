@@ -6,11 +6,11 @@
 
 ## TL;DR
 
-- **ZK-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
+- **zk-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
 - They let one party **prove they know something** without revealing the information itself
-- Zcash uses ZK-SNARKs to prove a transaction is valid (correct amounts, unspent inputs) **without revealing sender, receiver, or amount**
+- Zcash uses zk-SNARKs to prove a transaction is valid (correct amounts, unspent inputs) **without revealing sender, receiver, or amount**
 - "Succinct" means the proof is tiny and fast to verify even for complex statements
-- The Orchard pool uses Halo 2, a ZK-SNARK system with **no trusted setup required**
+- The Orchard pool uses Halo 2, a zk-SNARK system with **no trusted setup required**
 
 ---
 
@@ -163,7 +163,7 @@ Transparent Setup (No Trusted Setup)- The preprocessing algorithm does not use a
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universally Trusted Setup.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup but produce slightly longer proofs or may take longer for prover to run. 
+[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup but produce slightly longer proofs or may take longer for prover to run. 
 
 SNARKS are useful when multiple verifiers are needed such as a blockchain like Zcash or zk-Rollup such as [Aztec](https://docs.aztec.network) so that multiple validating nodes don't have to interact over several rounds with each proof. 
 
@@ -179,7 +179,7 @@ Read the [Halo2 book](https://zcash.github.io/halo2/index.html) for more informa
 
 ## Other Zero-Knowledge Applications 
 
-zk-SNARKS provide several advantages in a variety of different applications. Let's take a look at some examples.
+zk-SNARKs provide several advantages in a variety of different applications. Let's take a look at some examples.
 
 **Scalability**: This is achieved by 'Outsourcing Computation'. There is no strict need for zero-knowledge for an L1 chain to verify the work of an off-chain service. Transactions are not necessarily private on a zk-EVM.
 
@@ -222,9 +222,9 @@ Further Learning:
 
 ## Related Pages
 
-- [Shielded Pools](/using-zcash/shielded-pools) — How ZK-SNARKs are used in Zcash value pools
-- [Halo](/zcash-tech/halo) — Zcash's ZK-SNARK system that eliminates trusted setups
+- [Shielded Pools](/using-zcash/shielded-pools) — How zk-SNARKs are used in Zcash value pools
+- [Halo](/zcash-tech/halo) — Zcash's zk-SNARK system that eliminates trusted setups
 - [Post-Quantum Security in Zcash](/zcash-tech/post-quantum-security) - How future quantum risks relate to Zcash cryptography
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs built on ZK-SNARK technology
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs built on zk-SNARK technology
 - [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to Zcash and its privacy model
 - [Who Can See Your Zcash Payment?](/start-here/who-can-see-your-zcash-payment) — What stays public, and what shielding hides
