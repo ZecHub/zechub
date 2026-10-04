@@ -114,19 +114,6 @@ Zcash 矿池是一种服务，允许个人矿工组合他们的计算能力（ha
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- 网站：[Zhash](https://zcash.zhash.pro/stats)
-- 隐私支付：否
-- 矿池类型：按最近 N 份额支付
-- 矿池手续费：0%
-
----
-
 ### [Foundry Zcash 矿池](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">

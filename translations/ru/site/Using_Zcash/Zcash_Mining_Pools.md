@@ -114,19 +114,6 @@
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- Сайт: [Zhash](https://zcash.zhash.pro/stats)
-- Приватные выплаты: Нет
-- Тип пула: Оплата за последние N долей
-- Комиссия пула: 0%
-
----
-
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">

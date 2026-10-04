@@ -114,19 +114,6 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- Wɛbsaet: [Zhash na ɔkyerɛwee](https://zcash.zhash.pro/stats)
-- Ankorankoro Katua: Dabi
-- Pool Type: Pay Per Last N Kyɛfa
-- Pool ho ka: 0% .
-
----
-
 ### [Foundry Zcash Nneɛma a Wɔde Tu Fam](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">

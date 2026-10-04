@@ -114,19 +114,6 @@ Mabwawa ya uchimbaji wa Zcash ni huduma zinazowaruhusu wachimbaji binafsi kuchan
 
 ---
 
-### [Zhash](https://zcash.zhash.pro/stats)
-
-<a href="https://zcash.zhash.pro/stats">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
-</a>
-
-- Tovuti: [Zhash](https://zcash.zhash.pro/stats)
-- Malipo ya Kibinafsi: Hapana
-- Aina ya Bwawa: Lipa kwa Hisa N za Mwisho
-- Ada ya bwawa la kuogelea: 0%
-
----
-
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
