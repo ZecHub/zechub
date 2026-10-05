@@ -17,4 +17,6 @@
 
 توجد طرق لاستبدال بعض هذه المعدات بحلول أكثر توفرًا (مثل استخدام هاتف بدلًا من كاميرا)، وسيُناقش ذلك في منشور ويكي آخر.
 
+![مخطط توضيحي لكيفية توصيل جميع الأجهزة للبث. المؤلف: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
+
 مخطط توضيحي لكيفية توصيل جميع الأجهزة للبث. المؤلف: [decentralistdan](https://twitter.com/decentralistdan)

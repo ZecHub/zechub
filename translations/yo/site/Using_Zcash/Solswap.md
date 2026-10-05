@@ -39,7 +39,7 @@ Bọ́tìnì **Swap** Phantom's fúnra rẹ̀ tún ṣe àkójọ ZEC, ṣùgb�
 - Yan **ZEC** gẹ́gẹ́ bí àmì ìtọ́kasí ibi tí o fẹ́ lọ**.
 - Rí i dájú pé Zcash wà nípasẹ̀ ìsopọ̀ swap.
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 

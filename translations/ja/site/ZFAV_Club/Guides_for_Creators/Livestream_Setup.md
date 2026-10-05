@@ -17,4 +17,6 @@
 
 この機材の一部をより手に入りやすい代替品で置き換える方法もあります（例：カメラではなくスマートフォンを使うなど）が、それは別のWiki投稿で説明します。
 
+![ライブ配信に必要なすべてのデバイスを接続する例。著者: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
+
 ライブ配信に必要なすべてのデバイスを接続する例。著者: [decentralistdan](https://twitter.com/decentralistdan)

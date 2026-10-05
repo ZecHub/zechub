@@ -17,4 +17,6 @@
 
 有一些方法可以用更容易获得的方案替代其中部分设备（例如用手机代替摄像机），这将在另一篇 wiki 文章中讨论。
 
+![用于直播时连接所有设备的示意图。作者：[decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
+
 用于直播时连接所有设备的示意图。作者：[decentralistdan](https://twitter.com/decentralistdan)

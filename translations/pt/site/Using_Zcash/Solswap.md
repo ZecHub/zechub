@@ -45,7 +45,7 @@ O próprio botão **Swap** da Phantom também lista ZEC, mas obtém o token desc
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 

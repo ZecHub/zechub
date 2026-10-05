@@ -45,7 +45,7 @@ Phantom独自の**Swap**ボタンにもZECが表示されますが、取得で�
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 

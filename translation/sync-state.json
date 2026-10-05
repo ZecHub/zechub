@@ -441,11 +441,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -569,11 +569,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -2187,11 +2187,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -2315,11 +2315,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -3933,11 +3933,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "5af2d71ddf210b6397ff9a8dd3c9504fb0595b31",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -4061,11 +4061,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -5679,11 +5679,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -5807,11 +5807,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -7425,11 +7425,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -7553,11 +7553,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -9171,11 +9171,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -9299,11 +9299,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -10917,11 +10917,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -11045,11 +11045,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -12655,11 +12655,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -12783,11 +12783,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+image-restore+linkrepair",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -14401,11 +14401,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -14529,11 +14529,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -16147,11 +16147,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -16275,11 +16275,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+linkrepair",
+      "tool": "qwen3-14b",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -17893,11 +17893,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -18021,11 +18021,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+linkrepair",
+      "tool": "qwen3-14b",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -19639,11 +19639,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -19767,11 +19767,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -21385,11 +21385,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -21513,11 +21513,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -23131,11 +23131,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -23259,11 +23259,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -24877,11 +24877,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -25005,11 +25005,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -26623,11 +26623,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -26751,11 +26751,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -28369,11 +28369,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+linkrepair",
+      "tool": "gt-static",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -28497,11 +28497,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+image-restore+linkrepair",
+      "tool": "nllb-200-3.3B+image-restore",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {
@@ -30115,11 +30115,11 @@
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
-      "src": "sha256:fc28e141a2fe401deabfc42dad62986aaec44fe2096d5b3497a349e207b2ec07",
+      "src": "sha256:79e6e1150d8fdbcd484050f2c6522524ffd3d70a2f43792f68d53bfb16f41dab",
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -30243,11 +30243,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
-      "src": "sha256:0fc5695079f4811e2cb03d3417949e945c0cc9ef008b1bd2d2716981ac605038",
+      "src": "sha256:b2d4171aae3f5b9f5c65612f3bc7a5e555773a6aaee6c40f926a9b1d6fe4d933",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md": {

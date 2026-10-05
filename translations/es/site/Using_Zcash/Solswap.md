@@ -45,7 +45,7 @@ El propio botón **Swap** de Phantom también muestra ZEC, pero te da el token d
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 

@@ -17,4 +17,6 @@
 
 Kuna njia za kubadilisha baadhi ya vifaa hivi na suluhisho zinazopatikana kwa urahisi (kama kutumia simu badala ya kamera) ambazo zitajadiliwa katika chapisho lingine la wiki.
 
+![Mfano mpango jinsi ya kuunganisha vifaa vyote kwa ajili ya Streaming. mwandishi: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
+
 Mfano mpango jinsi ya kuunganisha vifaa vyote kwa ajili ya Streaming. mwandishi: [decentralistdan](https://twitter.com/decentralistdan)

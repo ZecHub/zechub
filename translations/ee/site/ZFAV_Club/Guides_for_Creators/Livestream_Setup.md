@@ -17,4 +17,6 @@
 
 Mɔ aɖewo li siwo dzi woato atsɔ egbɔkpɔnu siwo li bɔbɔe wu aɖɔli dɔwɔnu sia dometɔ aɖewo (abe telefon zazã ɖe fotoɖemɔ̃ teƒe ene) siwo ŋu woaƒo nu tsoe le wiki nyatakaka bubu me.
 
+![Kpɔɖeŋu ɖoɖo alesi woatsɔ mɔ̃wo katã aƒo ƒui hena streaming. Agbalẽŋlɔla: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
+
 Kpɔɖeŋu ɖoɖo alesi woatsɔ mɔ̃wo katã aƒo ƒui hena streaming. Agbalẽŋlɔla: [decentralistdan](https://twitter.com/decentralistdan)

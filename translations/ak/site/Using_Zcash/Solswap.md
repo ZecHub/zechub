@@ -39,7 +39,7 @@ Phantom's ankasa **Swap** button nso kyerɛw ZEC, nanso ɛno ma wunya token a y�
 - Paw **ZEC** sɛ wo **destination token**.
 - Hwɛ sɛ Zcash nam swap interface no so wɔ hɔ.
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 

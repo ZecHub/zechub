@@ -45,7 +45,7 @@ Anche il pulsante **Swap** di Phantom elenca ZEC, ma così ottieni il token desc
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 
