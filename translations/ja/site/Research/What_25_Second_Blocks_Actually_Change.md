@@ -16,6 +16,8 @@
 | ブロックあたりのシールドアクション上限 | なし（2 MBのサイズ上限のみ） | 合計330、プール別上限あり |
 | Orchardのスループット（2アクション取引） | 毎秒約2.9件 | 毎秒約6.6件 |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 ブロック数は3倍になり、各ブロックの報酬は3分の1になります。供給スケジュールは従来どおりです。
 
 ## なぜブロック時間を変えるのか

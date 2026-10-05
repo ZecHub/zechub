@@ -20,7 +20,7 @@ Hash Functions fa input a ne tenten biara na ɛma output a ne tenten yɛ fixed.
 - **Nneɛma a ɛfiri mu ba** = Hash Value 
 
 
-![Hash Dwumadie mfonini](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
+![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### W’ankasa sɔ hwɛ!
 
@@ -45,25 +45,25 @@ Hyehyɛ nkyerɛwee biara a wopɛ na ama woanya nea ɛyɛ tenten a wɔahyɛ da ay
 
 Hash Functions ahorow pii wɔ hɔ. Nhwɛso ahorow bi:
 
-- Hashing Algorithm a Ɛyɛ Ahobammɔ (**SHA-3**) . 
-- Nkrasɛm Digest Algorithm 5 (**MD5**) . 
+- Hashing Algorithm a Ɛyɛ Ahobammɔ (**SHA-3**) 
+- Nkrasɛm Digest Algorithm 5 (**MD5**) 
 - **BLAKE2b** - Wɔde di dwuma wɔ Zcash safoa derivation mu
 
-**Nnianim asɛm bi a ɛfa BLAKE2 ho a Zooko yɛe**: https://www.zfnd.org/blog/blake2/
+**Nnianim asɛm bi a ɛfa BLAKE2** ho: https://www.blake2.net
 
 ---
 
 ### Hash Dwumadie a Wɔde Di Dwuma Wɔ Wiase Ankasa
 
-#### 1. Integrity Hashing (Data mudi mudi Nhwehwɛmu) .
+#### 1. Integrity Hashing (Data mudi mudi Nhwehwɛmu)
 Data mudi mudi nhwehwɛmu yɛ "Integrity Hashing" ho nhwɛso. Wɔde yɛ checksums wɔ data fael ahorow so na ɛma awerɛhyem sɛ ɛteɛ ma obi a ɔde di dwuma.
 
-![Integrity Hashing nhwɛsoɔ](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
+![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
-#### 2. Merkle Nnua (Hash Nnua) .
+#### 2. Merkle Nnua (Hash Nnua)
 **hash dua** anaa **Merkle dua** yɛ nkorabata ne nhaban node a wɔde data block bi cryptographic hash ahyɛ so.
 
-![Merkle Dua ho mfonini](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
+![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Merkle nnua yɛ nhwɛsoɔ a ɛfa **cryptographic commitment scheme** ho. Wohu dua Ntini no sɛ ahofama ne ahaban ntini a wɔada no adi sɛ ɛyɛ mfitiase ahofama no fã.
 
@@ -72,15 +72,15 @@ Wɔhwɛ sɛ data a wɔde asie anaa wɔde kɔ P2P ntam nkitahodi so no yɛ nokwar
 #### 3. Hyɛ Ahofama Dua a ɛwɔ Zcash mu no nsow
 Wɔ Zcash **Sapling** & **Orchard** shielded pools mu no, wɔde **Note Commitment Tree** no di dwuma de hwɛ sɛ nnwuma no yɛ nokware tia adwene a wɔahyia bere a wɔde nea ɔde kɔmaa, nea ogye & sika dodow a wɔde di dwuma no sie pɛpɛɛpɛ.
 
-#### 4. Signature Hash (Bitcoin-kwan so blocks) .
+#### 4. Signature Hash (Bitcoin-kwan so blocks)
 **SHA256** yɛ nhwɛsoɔ a ɛfa "Signature hash" a wɔde di dwuma de hyɛ inmutability a ɛwɔ block biara mu wɔ Bitcoin chain no mu. Miners de hash a ɛwɔ block a atwam no di dwuma + Hash a ɛfa nnwuma nyinaa a ɛwɔ mprempren block no mu (hashMerkleRoot) + Timestamp + random value / network difficulty ma blocks foforo.
 
-![SHA256 block mfonini](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
+![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
-#### 5. Equihash (Zcash a Wɔde Tu Fam) .
-**Equihash** yɛ hashing algorithm a wɔde di dwuma wɔ Zcash a wotu mu. Ɛsan nso de di dwuma wɔ networks te sɛ Komodo & Horizen.
+#### 5. Equihash (Zcash a Wɔde Tu Fam)
+**Equihash** yɛ hashing algorithm a wɔde di dwuma wɔ Zcash. Ɛsan nso de di dwuma wɔ networks te sɛ Komodo & Horizen.
 
-**Mfitiase Zcash Blog wɔ Equihash**: https://electriccoin.co/blog/equihash/
+**Equihash: Asymmetric Adanse-a-Adwuma a Egyina Generalized Birthday Problem so** (Biryukov ne Khovratovich): https://eprint.iacr.org/2015/946
 
 ---
 
@@ -91,7 +91,7 @@ https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
-**Asɛm a ZecHub (@ZecHub) na ɔkyerɛwee** 
+**Asɛm a ZecHub (@ZecHub)** 
 Mfitiase X asaawa: https://x.com/ZecHub/status/1621240109663227906  
 
 ---

@@ -48,7 +48,7 @@
 - Алгоритм хеширования сообщений 5 (**MD5**)  
 - **BLAKE2b** — используется в Zcash для выработки ключей
 
-**Введение в BLAKE2 от Zooko**: https://www.zfnd.org/blog/blake2/
+**Введение в BLAKE2**: https://www.blake2.net
 
 ---
 
@@ -79,7 +79,7 @@
 #### 5. Equihash (добыча Zcash)
 **Equihash** — это хеш-алгоритм, используемый для добычи Zcash. Также используется в сетях, таких как Komodo и Horizen.
 
-**Оригинальный блог Zcash о Equihash**: https://electriccoin.co/blog/equihash/
+**Equihash: асимметричное доказательство работы, основанное на обобщённой задаче о днях рождения** (Бирюков и Ховратович): https://eprint.iacr.org/2015/946
 
 ---
 

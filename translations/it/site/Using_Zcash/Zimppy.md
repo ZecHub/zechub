@@ -413,7 +413,7 @@ Più agenti possono operare dallo stesso wallet utilizzando la **rotazione degli
 
 ### Transazioni Zcash completamente schermate (Orchard)
 
-I pagamenti schermati utilizzano il **protocollo Orchard** di Zcash, il pool schermato più recente e sicuro. Il server verifica i pagamenti mediante una **Incoming Viewing Key (IVK)**, che può decrittografare le note ricevute senza esporre la chiave di spesa. Gli attacchi replay vengono prevenuti tramite **associazione del memo**: ogni challenge incorpora un memo univoco `zimppy:{challenge_id}` verificato crittograficamente.
+I pagamenti schermati utilizzano il **protocollo Orchard** di Zcash, il pool schermato introdotto da NU5. Il server verifica i pagamenti mediante una **Incoming Viewing Key (IVK)**, che può decrittografare le note ricevute senza esporre la chiave di spesa. Gli attacchi replay vengono prevenuti tramite **associazione del memo** - ogni sfida incorpora un memo univoco `zimppy:{challenge_id}` verificato crittograficamente.
 
 ### Sessioni, latenza zero per richiesta
 

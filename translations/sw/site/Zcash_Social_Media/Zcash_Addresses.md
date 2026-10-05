@@ -1,35 +1,35 @@
-# Zero kwa ujuzi sifuri: Uwazi dhidi ya Shielded Transactions & Unified Anwani
+# Maarifa ya Sufuri hadi Sufuri: Uwazi dhidi ya Miamala Iliyolindwa na Anwani Zilizounganishwa
 
-**Series:** Zero hadi ujuzi zero
+**Mfululizo:** Maarifa ya sifuri hadi sifuri
 
-Kama wewe ni kujifunza kuhusu Zcash kwa mara ya kwanza utapata kuna aina mbili za shughuli inapatikana: ** Uwazi** na ** Shielded. 
+Ukijifunza kuhusu Zcash kwa mara ya kwanza utagundua kuwa kuna aina mbili za miamala inayopatikana: **Uwazi** na **Imehifadhiwa**. 
 
-Leo tunajifunza juu yao na kufunika moja ya vipengele mpya katika mfumo wa #Zcash, **Anwani za Umoja**.
+Leo tunajifunza kuzihusu na kuzungumzia mojawapo ya vipengele vipya katika mfumo ikolojia wa #Zcash, **Anwani Zilizounganishwa**.
 
 ---
 
-## Uwazi dhidi ya Shielded Transactions
+## Miamala ya Uwazi dhidi ya Iliyolindwa
 
-- **Transparent Transactions** kutumia *t-anwani* (Base58 encoded). Kila kitu ni wazi kwa umma - kama Bitcoin. 
-- **Shielded Transactions** kutumia anwani encoded kwa ajili ya *** Sapling au ** Orchard matangi. Hizi kuficha mtumaji, mpokeaji na kiasi cha kutumia zero-ujuzi uthibitisho.
+- **Miamala ya Uwazi** hutumia **anwani za t** (Base58 imesimbwa). Kila kitu kinaonekana hadharani - kama vile Bitcoin. 
+- **Miamala Iliyolindwa** hutumia anwani zilizosimbwa kwa ajili ya mabwawa ya **Sapling** au **Orchard**. Hizi huficha mtumaji, mpokeaji, na kiasi kwa kutumia uthibitisho wa kutojua chochote.
 
-**Shielded Transaction** inahusu shughuli yoyote na anwani encoded kwa Sapling / Orchard mabwawa.
+**Muamala Uliolindwa** unarejelea muamala wowote wenye anwani zilizosimbwa kwa ajili ya mabwawa Sapling/Orchard.
 
 ![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
-** Unified Anwani (UA)** ni iliyoundwa na ** kuunganisha ** ulinzi au uwazi shughuli katika anwani moja.
+**Anwani Zilizounganishwa (UA)** zimeundwa ili kuunganisha** miamala iliyolindwa au iliyo wazi katika anwani moja.
 
 ---
 
-## Aina ya anwani katika Zcash
+## Aina za Anwani katika Zcash
 
-Kuna aina 3 za anwani katika matumizi:
+Kuna aina 3 za anwani zinazotumika:
 
-1. **(T) Uwazi**  Msingi58 
-2. **(Z) Sapling**  Bech32 
-3. **(UA) Unified Address** – Bech32m  
+1. **(T) Uwazi** – Msingi58 
+2. **(Z) Sapling** – Bech32 
+3. **(UA) Unified Address** – Bech32m 
 
-Idadi ya herufi (na kwa hiyo ukubwa wa nambari za QR) huongezeka na kila aina.
+Idadi ya herufi (na kwa hivyo ukubwa wa msimbo wa QR) huongezeka kwa kila aina.
 
 ![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
@@ -37,12 +37,12 @@ Idadi ya herufi (na kwa hiyo ukubwa wa nambari za QR) huongezeka na kila aina.
 
 ---
 
-## Jinsi Anwani za Kutumika Zinavyofanya Kazi kwa Umoja
+## Jinsi Anwani Zilizounganishwa Zinavyofanya Kazi
 
-Anwani na funguo ni encoded kama mlolongo byte (** Raw Encoding **). 
-**Receiver Encoding** ni pamoja na taarifa zote muhimu kuhamisha mali kwa kutumia itifaki maalum.
+Anwani na funguo zimesimbwa kama mfuatano wa baiti (**Usimbaji Mbichi**). 
+**Usimbaji wa Mpokeaji** unajumuisha taarifa zote muhimu ili kuhamisha mali kwa kutumia itifaki maalum.
 
-The raw encoding of a Unified Address is a combination of encodings (typecode, length, addr) of receivers:
+Usimbaji mbichi wa Unified Address ni mchanganyiko wa usimbaji (msimbo wa aina, urefu, anwani) wa wapokeaji:
 
 - UA: `0x03`  
 - Sapling: `0x02`  
@@ -52,29 +52,29 @@ The raw encoding of a Unified Address is a combination of encodings (typecode, l
 
 ![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
-Maelezo kamili: **[ZIP-316: Anwani za Umoja wa Kijamii](https://zips.z.cash/zip-0316)**
+Vipimo kamili: **[ZIP-316: Anwani Zilizounganishwa](https://zips.z.cash/zip-0316)**
 
 ---
 
-## Faida za Anwani Zinazofanana
+## Faida za Anwani Zilizounganishwa
 
-- ** Rahisi kwa ajili ya kubadilishana** - Sasa wanaweza kusaidia amana shielded / pesa zaidi salama. 
-- **Kesi za wakati ujao** - New hifadhi ulinzi inaweza kuongezwa bila kuvunja pochi. 
-- ** Shielded-by-Default** - Kila UA ina angalau anwani moja ulinzi, hivyo faragha ni daima inapatikana.
+- **Rahisi zaidi kwa kubadilishana** - Sasa wanaweza kusaidia amana/utoaji uliolindwa kwa usalama zaidi. 
+- **Haiwezi kuharibika** - Mabwawa mapya ya kuogelea yaliyofunikwa yanaweza kuongezwa bila pochi kuvunjika. 
+- **Imehifadhiwa kwa Chaguo-Msingi** - Kila UA ina angalau anwani moja iliyolindwa, kwa hivyo faragha inapatikana kila wakati.
 
-Hii ni mabadiliko ya msingi ambayo tayari kusaidia ZEC zaidi hoja katika pool shielded.
+Huu ni mabadiliko ya msingi ambayo tayari yanasaidia ZEC zaidi kuingia kwenye bwawa lenye ulinzi.
 
 ---
 
-## Orchard Transactions & Actions (Ufanyabiashara na Vitendo vya Bustani)
+## Miamala na Vitendo Orchard
 
-Orchard ilianzisha dhana mpya inayoitwa ** Vitendo**:
+Orchard ilianzisha dhana mpya inayoitwa **Vitendo**:
 
-- Wao kupunguza uvujaji wa metadata kwa kutumia ** single nanga** kwa ajili ya Vitendo vyote katika shughuli. 
-- Wao kuunganisha maeneo ya (V4) Gharama + pato katika dhamana moja thamani. 
-- Hii inawezesha optimizations utendaji wa mfumo Halo2 uthibitisho.
+- Hupunguza uvujaji wa metadata kwa kutumia **nanga moja** kwa Vitendo vyote katika muamala. 
+- Huunganisha sehemu za (V4) Spend + Output katika ahadi moja ya thamani. 
+- Hii inawezesha uboreshaji wa utendaji wa mfumo wa uthibitishaji wa Halo2.
 
-Daira anaelezea Anchor nafasi (zcon3):
+Daira anaelezea nafasi za Nanga (zcon3):
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -89,31 +89,31 @@ Daira anaelezea Anchor nafasi (zcon3):
 
 ---
 
-## Usawaziko wa Thamani na Faragha
+## Salio la Thamani na Faragha
 
-Katika baadhi ya kesi (kwa mfano shughuli za msalaba-pool) kiasi inaweza kuwa inayoonekana kwa mtazamaji nje. Hata hivyo, `valueBalanceSapling` na `valueBalanceOrchard` kutumia ** homomorphic ahadi** kuthibitisha ZEC jumla katika mabwawa shielded na kuzuia bandia.
+Katika baadhi ya matukio (km miamala ya pamoja) kiasi kinaweza kuonekana kwa mwangalizi wa nje. Hata hivyo, `valueBalanceSapling` na `valueBalanceOrchard` tumia **ahadi za homomorphic** kuthibitisha jumla ya ZEC katika mabwawa yaliyolindwa na kuzuia ughushi.
 
-Soma zaidi: [Ulinzi Dhidi ya Kutengeneza Nakala Bandia Katika Vibanda vya Kuhifadhi](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Soma zaidi: [ZIP 209: Kataza Mizani ya Thamani ya Mnyororo Ulio Nje ya Masafa](https://zips.z.cash/zip-0209)
 
 ---
 
-## Maboresho ya Wakati Ujao
+## Maboresho ya Baadaye
 
-Timu ya ECC ni kazi juu ya mbinu mpya RPC katika `zcashd` (kuchukua nafasi ya `z_sendmany`) ambayo itawawezesha watumiaji hakikisho na kukubali / kukataa shughuli iliyopendekezwa kulingana na sifa zake za faragha.
+Timu ECC inafanyia kazi mbinu mpya za RPC katika `zcashd` (kubadilisha `z_sendmany`) ambayo itawaruhusu watumiaji kuhakiki na kukubali/kukataa muamala uliopendekezwa kulingana na sifa zake za faragha.
 
 ---
 
 ## Mapendekezo
 
-Hii thread awali alielekeza ** Ywallet, kwa mpango wa shughuli ilionyesha kabla ya hit kutuma. Ywalle tena ni iimarishwe na haitakuwa updated kwa Ironwood, hivyo inaweza tena kufuata mlolongo. Pick mfuko kudumishwa kutoka kwenye orodha hii: * Wallets inapatikana katika akaunti yako sasa; * Fedha za fedha zilizohifadhiwa bado zinatumika kama wallets halali au hazikuwepo wakati huo. [Mkoba](https://zechub.wiki/wallets) ukurasa badala yake, na wanapendelea moja kwamba anakuambia nini manunuzi itaonyesha kabla ya kwenda nje.
+Uzi huu awali ulielekeza kwenye **YWallet**, kwa mpango wa muamala ulioonyeshwa kabla ya kubofya tuma. YWallet haitumiki tena na haitasasishwa kwa Ironwood, kwa hivyo haiwezi tena kufuata mnyororo. Chagua pochi inayodumishwa kutoka [Pochi](https://zechub.wiki/wallets) badala yake, na unapendelea ile inayokuambia muamala utaonyesha nini kabla haujatoka.
 
-Makala kubwa juu ya faragha shughuli: https://medium.com/@hanh.huynh/
+Makala nzuri kuhusu faragha ya miamala: https://medium.com/@hanh.huynh/
 
 ---
 
-**Ujumbe wa awali na ZecHub (@ZecHub)** 
+**Uzi Asili kutoka kwa ZecHub (@ZecHub)** 
 https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa mada ya awali Zero hadi Maarifa ya Zero kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwa uzi asili wa Maarifa ya Zero hadi Zero kwa wiki ya ZecHub.*

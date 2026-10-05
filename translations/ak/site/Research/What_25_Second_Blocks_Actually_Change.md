@@ -16,7 +16,9 @@ Kratafa yi kyerɛkyerɛ ZIP 218 mu fi n’ankasa nkyerɛwee mu: nea ɛsakra, nea
 | Anohyeto ahorow a ɛwɔ nneyɛe a wɔabɔ ho ban wɔ block biara mu | biara nni hɔ (2 MB kɛse anohyeto no nkutoo) | 330 nyinaa, a ɛwɔ ɔtare biara mu kyɛw |
 | Orchard nneɛma a ɛkɔ so (2-action transactions) | bɛyɛ 2.9 wɔ sekan biara mu | bɛyɛ 6.6 wɔ sekan biara mu |
 
-Block dodow a ɛboro so mmɔho abiɛsa, na emu biara tua nea ɛboro nkyem abiɛsa mu biako. Nneɛma a wɔde ma ho nhyehyɛe no tra baabi a na ɛwɔ hɔ no.
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
+Block dodow a ɛboro so mprɛnsa, na emu biara tua nea ɛboro nkyem abiɛsa mu biako. Nneɛma a wɔde ma ho nhyehyɛe no tra baabi a na ɛwɔ hɔ no.
 
 ## Dɛn nti na sesa block bere no
 
@@ -25,7 +27,7 @@ Botae titiriw ne **bere a wɔde twɛn a ɛba fam**. Ɛnnɛ sɛ wɔkyekyem pɛpɛ
 Nsɛntitiriw abien a efi ZIP no mu no fata sɛ yɛma ɛtra yɛn adwenem:
 
 - **Ɛnka nkyerɛ obiara sɛ ɔmfa confirmations kakraa bi nni dwuma.** Wɔ wɔn a wɔde di dwuma a wɔkura abodwokyɛre koro no ara ma rollback asiane te sɛ nnɛ no, ZIP no hwɛ kwan sɛ bere a wɔde si so dua no bɛtu mpɔn kakra a ennu mprɛnsa.
-- **Ɛnyɛ ade a wɔde besi awiei adwuma ananmu.** ZIP no ka ne ho asɛm sɛ ɛboa awiei akwan te sɛ Crosslink. Base-layer blocks a ɛyɛ ntɛm boa sɛ wɔde finality layer bɛka ho akyiri yi anaasɛ wɔmfa nka ho.
+- **Ɛnyɛ nea wɔde besi awiei adwuma ananmu.** ZIP no ka ne ho asɛm sɛ ɛboa awiei akwan te sɛ Crosslink. Base-layer blocks a ɛyɛ ntɛm boa sɛ wɔde finality layer bɛka ho akyiri yi anaasɛ wɔmfa nka ho.
 
 ZIP no nso hyɛ no nsow sɛ anka wobetumi anya throughput a ɛkorɔn nkutoo denam block kɛse a ɛyɛ kɛse so. Latency ne nea enti a wɔpaw blocks ntiantiaa mmom.
 
@@ -43,7 +45,7 @@ Subsidy no yɛ ZEC foforo a wɔayɛ wɔ block biara mu nyinaa. Wɔda so ara gye 
 
 ### Halvings kɔ so yɛ wɔn bere
 
-Ntam a wɔde twa fã no bu abiɛsa fi 1,680,000 blocks kosi 5,040,000 blocks. Esiane sɛ block ahorow taa ba mmɔho abiɛsa nti, bɛyɛ sɛ bere koro no ara mu sɛnea anka ɛbɛba sɛ nsakrae no nni hɔ no. Nneɛma a wɔde ma nyinaa cap no nnya nkɛntɛnso biara.
+Ntam a wɔde twa fã no bu abiɛsa fi block 1,680,000 kosi block 5,040,000. Esiane sɛ block ahorow taa ba mmɔho abiɛsa nti, bɛyɛ sɛ bere koro no ara mu sɛnea anka ɛbɛba sɛ nsakrae no nni hɔ no. Nneɛma a wɔde ma nyinaa cap no nnya nkɛntɛnso biara.
 
 Eyi yɛ soronko wɔ asɛmmisa foforo a ɛfa sika a wɔde ma ho wɔ NU7 nhwehwɛmu no mu, faako a wɔn a wɔwɔ sika no too aba sɛ wɔbɛkora sika a wɔakyekyɛ mu fã so sen sɛ wɔde curve a ɛyɛ mmerɛw besi ananmu no. ZIP 218 ne halving model a ɛwɔ hɔ dedaw no yɛ adwuma na ɛnsesa.
 
@@ -60,7 +62,7 @@ ZIP 218 de caps ka ho wɔ dwumadi dodow a wɔabɔ ho ban a block biako betumi ak
 
 Nkitahodi no afã horow a ɛda adi pefee no nnya nkɛntɛnso, na 2 MB block kɛse anohyeto no da so ara yɛ adwuma.
 
-Anohyeto no wɔ hɔ efisɛ sɛ ɛnte saa a, blocks pii bɛkyerɛ adwuma pii ama wallet ne nodes. Sɛ caps no wɔ hɔ a, asɛm a enye koraa no nya **ye** ankasa sen nnɛ, mpo sɛ blocks no dɔɔso mmɔho abiɛsa:
+Anohyeto no wɔ hɔ efisɛ sɛ ɛnte saa a, blocks pii bɛkyerɛ adwuma pii ama wallet ne nodes. Sɛ wɔde kyɛw no si hɔ a, nea enye koraa no nya **yeye** ankasa sen nnɛ, mpo sɛ wɔde block ahorow no dɔɔso mmɔho abiɛsa:
 
 - **Wallet sync:** data dodow a wobetumi ahyɛ wallet a ɛyɛ hare ma watwe wɔ da koro mu no so tew fi bɛyɛ 271 MB kosi bɛyɛ 169 MB, bɛyɛ 38% a ɛso tew. Nsɛm a wɔde yiyi nsɛm mu wɔ sɔhwɛ mu a enye koraa no so tew fi bɛyɛ ɔpepem 4.8 kosi bɛyɛ ɔpepem 2.3 da biara.
 - **Block verification:** ZIP's benchmarks de Orchard block a ɛyɛ bɔne sen biara no to bɛyɛ 432 ms wɔ anohyeto foforo no ase, a ɛne bɛyɛ 770 ms ma nnɛyi asɛm a enye koraa. Wɔ Sapling, drop no yɛ kɛse, efi bɛyɛ 3,175 ms kosi bɛyɛ 272 ms.
@@ -73,7 +75,7 @@ Sɛ wowɔ Orchard nneyɛe 330 wɔ block biara mu a, Orchard asɛm a ɛyɛ 2-acti
 
 ### Nsakrae a ɛyɛ den
 
-Nsɛnnennen algorithm no averages wɔ window a nnansa yi blocks. ZIP 218 ma saa mfɛnsere no so fi 17 blocks kɔ 102, enti ɛda so ara kata bɛyɛ 2,550 seconds of real time, span koro no ara a ɛkataa so bere a Zcash de 150-second blocks fii ase no. ZIP no de nteaseɛ mmienu ma: sɛ wɔbɛkwati sɛ wɔbɛma ntua a ɛyɛ den-manipulation ayɛ mmerɛw (ɛfa Litecoin April 2026 MWEB asɛm no ka), ne sɛnea ɛbɛyɛ a bere tiaa mu nsakrae a ɛba wɔ block bere mu no ayɛ mmerɛw.
+Nsɛnnennen algorithm no averages wɔ window bi a nnansa yi blocks. ZIP 218 ma saa mfɛnsere no so fi 17 blocks kɔ 102, enti ɛda so ara kata bɛyɛ 2,550 seconds of real time, span koro no ara a ɛkataa so bere a Zcash de 150-second blocks fii ase no. ZIP no de nteaseɛ mmienu ma: sɛ wɔbɛkwati sɛ wɔbɛma ntua a ɛyɛ den-manipulation ayɛ mmerɛw (ɛfa Litecoin April 2026 MWEB asɛm no ka), ne sɛnea ɛbɛyɛ a bere tiaa mu nsakrae a ɛba wɔ block bere mu no ayɛ mmerɛw.
 
 Wɔ activation akyi pɛɛ no, block times begye bere kakra ansa na akɔtra botae foforo no so. Ɛno yɛ nea wɔhwɛ kwan na ɛkyerɛ nea esii wɔ Blossom, bere a Zcash fii sikɔne 150 kɔɔ 75 no.
 
@@ -99,7 +101,7 @@ Block ahorow a ɛyɛ ntɛmntɛm no nyɛ nea wontua hwee. Stale block yɛ block a
 
 - **Ɛnnɛ:** bɛyɛ 0.4%, a ZIP no hyɛ no nsow no betumi abɔ rate a ɛwɔ ase no adewa efisɛ hashpower ayɛ kɛse wɔ pools mu.
 - **Theoretical wɔ 25 seconds:** bɛyɛ 3.26%, a egyina susuw Zcash trɛw akyɛde so.
-- **Devnet sɔhwɛ:** Zebra nodes 99 a wɔakyekyɛ wɔ asasesin mu a ɛyɛ 2 MB blocks a edi mũ wɔ 25-second spacing mu no susuw 4.86% stale rate ne 0.37% fork rate. Tuning biako pɛ a na ehia ne TCP nhyehyɛe. Esiane sɛ na saa devnet no decentralized sen nnɛyi mainnet nti, ZIP no di eyinom ho dwuma sɛ ɛbɛn akontaabu a enye koraa.
+- **Devnet sɔhwɛ:** Zebra nodes 99 a wɔakyekyɛ wɔ asasesin mu a ɛyɛ 2 MB blocks a edi mũ wɔ 25-second spacing mu no susuw 4.86% stale rate ne 0.37% fork rate. Tuning biako pɛ a na ehia ne TCP nhyehyɛe. Esiane sɛ na saa devnet no decentralized sen nnɛyi mainnet no nti, ZIP no di eyinom ho dwuma sɛ ɛbɛn akontaabu a enye koraa.
 - **Nsɛm a wɔde gyina so:** ZIP no de Ethereum abakɔsɛm mu adanse-a-ɛyɛ-adwuma stale rate a ɛyɛ 5.4% di dwuma sɛ ne ahobammɔ aboboano. Devnet akontaabu abien no nyinaa te n’ase.
 
 Ɛka nketewa abien nso wɔ hɔ. Hann sika kotoku twe bɛyɛ 200 KB pii da biara a ɛyɛ compact block headers. Na esiane sɛ block ahorow no dɔɔso mmɔho abiɛsa nti, node a ɛyɛ ma a ayɛ offline no wɔ blocks pii a ɛsɛ sɛ wodi ho dwuma bere a ɛkyere no, ɛwom mpo sɛ block biara bo yɛ mmerɛw sɛ wobɛhwɛ sɛ ɛyɛ nokware de. ZIP gye abien no nyinaa tom.
@@ -124,5 +126,5 @@ Block ahorow a ɛyɛ ntɛmntɛm no nyɛ nea wontua hwee. Stale block yɛ block a
 - [Forum: Nsusuwii — Fa Zcash Block Target Spacing no ase kɔ 25s](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
 - [Forum: Zcash Block Bere a Wɔtew So Ɛda adi sɛ Ahobammɔ Ma NU7 w/ Zebra-only Devnet](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
 - [Zebra nsɛmma nhoma #11463](https://github.com/ZcashFoundation/zebra/issues/11463), post-NU7 fã a wɔtew so ne mmoa a wɔde ma
-- [Zebra nsɛmma nhoma #11440](https://github.com/ZcashFoundation/zebra/issues/11440), ZIP 218 dwumadie akyidie
+- [Zebra nsɛmma nhoma #11440](https://github.com/ZcashFoundation/zebra/issues/11440), ZIP 218 dwumadie akyi di
 - NU7 nhwehwɛmu aba ne bere nhyehyɛe, sɛnea Bitcoin.com News, crypto.news ne KuCoin (16–19 September 2026) bɔɔ amanneɛ no

@@ -2,69 +2,69 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zimppy.xyz (Nke a bụ ihe dị mkpa)
+# Zimppy.xyz
 
 ## TL;DR
 
-- **Zimppy** bụ ihe nkesa ịkwụ ụgwọ nke nzuzo-mbụ maka ndị ọrụ AI na-eji Zcash's Machine Payment Protocol (MPP) eme ihe.
-- **Tinye otu ugboro** na-agbanye (~75 sekọnd), wee mee ka ** arịrịọ ozugbo a na - akparaghị ókè ** enweghị mmekọrịta ọ bụla maka blockchain.
-- Na-akwado ** zuru ezu na-echebe Zcash (Orchard)** ịkwụ ụgwọ  onye zitere, nnata, ego, na memo niile ezoro ezo
-- Na-arụ ọrụ na ** TypeScript and Rust SDKs** maka ntinye dị mfe n'ime pipelines AI na sava API
-- Zuru oke maka ** LLM APIs, ahịa data, sava ngwá ọrụ MCP** na ihe ọ bụla eji eme ihe iji ụgwọ M2M.
+- **Zimppy** bụ akụrụngwa ịkwụ ụgwọ nzuzo nke mbụ maka ndị ọrụ AI na-eji Zcash's Machine Payment Protocol (MPP)
+- **Nyefee ego otu ugboro** n'ime agbụ ígwè (~ sekọnd 75), wee mee **arịrịọ ozugbo na-akparaghị ókè** na-enweghị mmekọrịta blockchain ọ bụla
+- Na-akwado ịkwụ ụgwọ Zcash (Orchard)** nke echekwara nke ọma — onye zitere ya, onye nnata ya, ego ole na ole, na ihe ndetu niile ezochiri ezochi
+- Na-arụ ọrụ na **TypeScript na Rust SDKs** maka njikọta dị mfe na pipelines AI na sava API
+- Zuru oke maka **LLM APIs, ahịa data, sava ngwaọrụ MCP**, na ikpe ojiji ịkwụ ụgwọ M2M ọ bụla
 
 ---
 
-> **Zimppy** bụ usoro ịkwụ ụgwọ Machine Payment Protocol (MPP) maka Zcash na-akwado ma ego echekwara yana nke doro anya. Debe otu oge n'elu, wee mee arịrịọ ndị nwere ngwa ngwa ozugbo enweghị mmekọrịta ọ bụla site na ntinye akwụkwọ.
+> **Zimppy** bụ ụzọ ịkwụ ụgwọ nke Usoro Ịkwụ Ụgwọ Igwe (MPP) maka Zcash nke na-akwado ma ịkwụ ụgwọ echekwara ma nke doro anya. Tinye ego ozugbo ị banyere na agbụ ígwè, wee mee arịrịọ ndị na-ebuga ngwa ngwa na-enweghị njedebe na-enweghị mmekọrịta agbụ ígwè ọ bụla.
 
 ---
 
-## Isiokwu Ndị Dị na Ya
+## Tebulu ọdịnaya
 
-1. [Gịnị bụ Zimppy.xyz?](#what-is-zimppyxyz)
-2. [Gịnị Mere A Na-eji Akwụ Ndị Ọrụ AI Ụgwọ?](#why-shielded-payments-for-ai-agents)
-3. [Usoro nkwụnye ego nke igwe (MPP)](#machine-payment-protocol-mpp)
-4. [Otú Zimppy Si Arụ Ọrụ](#how-zimppy-works)
-   - [Oge ọmụmụ ihe (A na-atụ aro ya)](#sessions-recommended)
-   - [Ịgbasagharị](#streaming)
-   - [Ụgwọ a na-akwụ ya](#charge)
-5. [Jiri Ọnọdụ & Ihe Nlereanya](#use-cases--examples)
-6. [Ịwụnye ya](#installation)
-7. [Ịtọlite obere akpa Zimppy](#setting-up-the-zimppy-wallet)
-8. [Ịgụnye Zimppy](#integrating-zimppy--typescript-sdk)
-   - [Ihe nkesa (A na-echebe)](#typescript-server--shielded)
-   - [Ihe nkesa (Transparent)](#typescript-server--transparent)
-   - [Onye ahịa.](#typescript-client)
-9. [Ijikọta Zimppy - Rust SDK](#integrating-zimppy--rust-sdk)
-   - [Ihe nkesa (Axum)](#rust-server-axum)
-   - [Onye ahịa.](#rust-client)
-10. [CLI Reference Ihe na-eme ka a mata ihe.](#cli-reference)
-11. [Ihe Ndị Bụ́ Isi E Ji Mara Ya](#key-features)
-12. [Ihe owuwu ụlọ](#architecture)
-13. [Ihe Nlereanya & Ngosipụta](#examples--demos)
-
----
-
-## Gịnị bụ Zimppy.xyz?
-
-**Zimppy.xyz** bụ ihe nkesa ịkwụ ụgwọ nke nzuzo-mbụ emere maka ndị ọrụ AI na igwe akpaghị aka (M2M) arụ ọrụ ọfụma, Ọ mejuputara Usoro Mgbapụta Machine Payment Protocol (MPP) site n'iji Zcash dị ka ego ya, na -enye ohere ma ụzọ mkpuchi (nkeonwe zuru oke) yana usoro ịkwụ ụgwọ doro anya.
-
-Unlike traditional blockchain payment systems, where every transaction is publicly visible on-chain, Zimppy is engineered around a session-based architecture that eliminates per-request latency while preserving cryptographic privacy. This makes it uniquely suited for AI agents that need to pay for APIs, data, compute, or AI tools programmatically, without leaking behavioral metadata.
-
-### Njirimara ndị bụ isi
-
-- ** Nkwụnye ego otu ugboro** na-agbanye (~75 sekọnd maka nkwenye Zcash)
-- ** Arịrịọ ozugbo na-akparaghị ókè** mgbe mmeghe nke nnọkọ, enweghị mmekọrịta agbụ maka arịrịọ ọ bụla.
-- ** Paymentkwụ ụgwọ echekwara** na-ezipụ onye zitere, nnata, ego, yana memo site na iji usoro Zcash's Orchard protocol
-- ** Paymentkwụ ụgwọ doro anya** jiri adreesị T-kwa ihe ịma aka maka igbochi mmeghachi omume na enweghị nzuzo zuru oke
-- ** Nkọwapụta-nkwekọrịta**, HMAC-SHA256 nsogbu, RFC 9457 njehie, `/.well-known/payment` nchọpụta
+1. [Gịnị bụ Zimpy.xyz?](#what-is-zimppyxyz)
+2. [Gịnị kpatara e ji akwụ ụgwọ nchekwa maka ndị nnọchi anya AI?](#why-shielded-payments-for-ai-agents)
+3. [Usoro Ịkwụ Ụgwọ Igwe (MPP)](#machine-payment-protocol-mpp)
+4. [Otu Zippy si arụ ọrụ](#how-zimppy-works)
+   - [Oge (Akwadoro)](#sessions-recommended)
+   - [Ịgbagharị](#streaming)
+   - [Ụgwọ](#charge)
+5. [Ojiji na ihe atụ](#use-cases--examples)
+6. [Nwụnye](#installation)
+7. [Ịtọlite obere akpa Zippy](#setting-up-the-zimppy-wallet)
+8. [Ịtinye Zimpy](#integrating-zimppy--typescript-sdk)
+   - [Sava (Echebere)](#typescript-server--shielded)
+   - [Sava (Ihe na-egosi ihe)](#typescript-server--transparent)
+   - [Onye ahịa](#typescript-client)
+9. [Ịtinye Zimpy - Rust SDK](#integrating-zimppy--rust-sdk)
+   - [Sava (Axum)](#rust-server-axum)
+   - [Onye ahịa](#rust-client)
+10. [Ntụaka CLI](#cli-reference)
+11. [Isi Atụmatụ](#key-features)
+12. [Nhazi ụlọ](#architecture)
+13. [Ihe atụ na ngosipụta](#examples--demos)
 
 ---
 
-## Gịnị Mere A Na-eji Akwụ Ndị Ọrụ AI Ụgwọ?
+## Gịnị bụ Zimpy.xyz?
 
-Maka ndị ọrụ AI na-arụ ọrụ dị nro, nyocha iwu, ajụjụ gbasara ahụike, nchịkọta ego, ọgụgụ isi asọmpi maka ** ọ bụla ịkwụ ụgwọ ọha bụ metadata leak. Zimppy bụ naanị usoro ịkwụ ụgwọ MPP nke bụ ** onwe ya site na ndabara *.
+**Zimppy.xyz** bụ akụrụngwa ịkwụ ụgwọ nzuzo nke e mere kpọmkwem maka ndị nnọchi anya AI na usoro ọrụ igwe-na-igwe (M2M) akpaaka. Ọ na-etinye Usoro Ịkwụ Ụgwọ Ngwa Ngwa (MPP)** n'ọrụ site na iji **Zcash** dị ka ego ya dị n'okpuru, na-eme ka ụzọ ịkwụ ụgwọ echekwara (nkeonwe zuru oke) na nke doro anya dị mfe.
 
-### Nkọwapụta Nzuzo nke Onwe Onye
+N'adịghị ka usoro ịkwụ ụgwọ blockchain ọdịnala, ebe azụmahịa ọ bụla na-apụta ìhè n'ihu ọha na usoro, a na-ahazi Zimppy gburugburu usoro nhazi nke na-ewepụ oge nkwụsịtụ kwa arịrịọ ebe ọ na-echekwa nzuzo nzuzo. Nke a na-eme ka ọ dabara nke ọma maka ndị nnọchi anya AI nke chọrọ ịkwụ ụgwọ maka ngwa API, data, kọmputa, ma ọ bụ ngwaọrụ AI n'usoro mmemme, na-enweghị metadata omume na-apụta ìhè.
+
+### Njirimara Isi
+
+- **Nye ego otu ugboro** n'usoro (~ sekọnd 75 maka nkwenye Zcash)
+- **Arịrịọ ozugbo na-akparaghị ókè** mgbe emepechara nnọkọ, enweghị mmekọrịta n'etiti arịrịọ ọ bụla
+- **Ịkwụ ụgwọ echekwara** Onye zitere, onye nnata, ego, na ihe ndetu zoro ezo site na iji usoro Zcash's Orchard
+- **Ịkwụ ụgwọ doro anya** jiri adreesị T maka ihe ịma aka ọ bụla iji gbochie mmegharị ọzọ na-enweghị nzuzo zuru oke
+- **Nkwenye zuru oke**, ihe ịma aka HMAC-SHA256, njehie RFC 9457, `/.well-known/payment` nchọpụta
+
+---
+
+## Gịnị kpatara e ji akwụ ụgwọ nchekwa maka ndị nnọchi anya AI?
+
+Maka ndị ọrụ AI na-ahụ maka usoro ọrụ dị nro, nyocha iwu, ajụjụ ahụike, nyocha ego, ọgụgụ isi asọmpi maka **ụgwọ ọha ọ bụla bụ ntapu metadata**. Zimpy bụ naanị ụzọ ịkwụ ụgwọ MPP nke bụ **onwe na ndabara**.
+
+### Tebụl Ntụnyere Nzuzo
 
 | Akụ na ụba | Ụlọọrụ Ọha (USDC, ETH) | Zimpy echebere | Zippy Transparent |
 |---|---|---|---|
@@ -75,11 +75,11 @@ Maka ndị ọrụ AI na-arụ ọrụ dị nro, nyocha iwu, ajụjụ gbasara a
 | **Nchedo ọzọ** | Ọ dịghị | Njikọ Memo | Adreesị T nke onye ọ bụla nwere nsogbu |
 | **Ụkpụrụ Ojiji Ọrụ** | Njikọ nwere ike | Nkeonwe | Enweghị ike ijikọ (addr ọhụrụ) |
 
-### Nsogbu Oge Ọgwụgwọ, nke E Ji Usoro Ịmụ Ihe Dozie
+### Nsogbu Latency, nke Sessions Doziri
 
-> *"Ma Zcash nwere oge ngọngọ 75-nke abụọ".*
+> *"Mana Zcash nwere oge mkpọchi sekọnd 75."*
 
-** Oge na-edozi nke a. * Ichere n'elu agbụ ahụ bụ kpọmkwem otu ugboro mgbe nkwụnye ego. arịrịọ ọ bụla ọzọ ga - eme ozugbo.
+**Nnọkọ na-edozi nke a.** Nchere n'usoro na-eme kpọmkwem **otu ugboro** mgbe egosiri ya. Arịrịọ ọ bụla na-esote na-abịa ozugbo.
 
 ```
 Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
@@ -91,39 +91,39 @@ Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  close session                 (refund unused balance)
 ```
 
-**Kwụọ otu ugwo, kpọọ ozugbo ma nwetaghachi ego.** Oge a na-achọ ka e mee ihe bụ efu.
+**Kwụọ ụgwọ otu ugboro, kpọọ oku ozugbo, weghachite mgbanwe ahụ.** Oge nkwụsị nke arịrịọ ọ bụla bụ efu.
 
 ---
 
-## Usoro nkwụnye ego nke igwe (MPP)
+## Usoro Ịkwụ Ụgwọ Igwe (MPP)
 
-Usoro nkwekọrịta ịkwụ ụgwọ igwe (MPP) bụ usoro iwu kwadoro nke na-enyere ndị ọrụ ngwanrọ aka onwe ha (ndị ọrụ AI, bots, edemede) ịchọpụta, kparịta ụka ma mezuo ihe achọrọ maka ịnweta API niile n'enweghị enyemaka mmadụ.
+Usoro Ịkwụ Ụgwọ Ngwaọrụ **(MPP)** bụ usoro a na-ahazi nke na-enye ndị ọrụ ngwanrọ onwe ha (ndị nnọchi anya AI, bot, scripts) ohere ịchọpụta, kparịta ụka, ma mezuo ihe achọrọ maka ịnweta API na-enweghị enyemaka mmadụ.
 
-### Olee otú MPP si ejikọta na API
+### Otu MPP si ejikọta ya na API
 
-MPP na-agbaso usoro HTTP **402 Ịkwụ Ụgwọ A Chọrọ**:
+MPP na-agbaso usoro HTTP **402 Ịkwụ Ụgwọ Achọrọ**:
 
-1. **Agent rịọrọ** ihe onwunwe site na njedebe API akwụ ụgwọ.
-2. ** Server na-aza** ya bụ: `402 Payment Required` + ihe akaebe e dere ede (ego, onye natara ya, memo).
-3. **Onye na-akwụ ụgwọ** jiri usoro ịkwụ ụgwọ dakọtara (dịka, Zimppy kpuchiri Zcash).
-4. **Onye ọrụ ahụ na-enyocha** arịrịọ a. `Authorization: Payment {txid}`.
-5. ** Server na-enyocha** ugwo ahụ site n'iji cryptographic (Orchard IVK decryption, ego + nyocha ncheta).
-6. ** Server na-aza** ya bụ: `200 OK` + a `Payment-Receipt` isi.
+1. **Onye nnọchi anya na-arịọ** ihe enyemaka sitere na njedebe API akwụ ụgwọ.
+2. **Sava na-aza** na `402 Payment Required` + ihe ịma aka edebanyere aha (ego, onye nnata, ndetu).
+3. **Onye nnọchi anya na-akwụ ụgwọ** site na iji ụzọ ịkwụ ụgwọ dakọtara (dịka ọmụmaatụ, Zcash).
+4. **Onye nnọchi anya na-anwale ọzọ** arịrịọ ahụ na `Authorization: Payment {txid}`.
+5. **Sava na-enyocha** ịkwụ ụgwọ ahụ n'ụzọ nzuzo (Orchard IVK, ego + nlele memo).
+6. **Sava na-aza** na `200 OK` + a `Payment-Receipt` isi okwu.
 
-### Nkwekọrịta Spec
+### Nrubeisi Pụrụ Iche
 
-- **HMAC-SHA256** ịma aka na ịbịanye aka
-- **RFC 9457** nzaghachi njehie ahaziri iche
-- **`/.well-known/payment`** njedebe maka nchọpụta usoro ịkwụ ụgwọ akpaka.
-- **Orchard IVK** (Incoming Viewing Key) maka nkesa-n'akụkụ ugwo nyochaa enweghị ekpughe mmefu igodo
+- **Mbinye aka na ihe ịma aka nke HMAC-SHA256**
+- **RFC 9457** Nzaghachi njehie ahaziri ahazi
+- **`/.well-known/payment`** njedebe maka nchọpụta usoro ịkwụ ụgwọ akpaka
+- **Orchard IVK** (Incoming Viewing Key) maka nkwenye ịkwụ ụgwọ n'akụkụ sava na-ekpugheghị igodo mmefu
 
 ---
 
-## Otú Zimppy Si Arụ Ọrụ
+## Otu Zippy si arụ ọrụ
 
-### Oge ọmụmụ ihe (A na-atụ aro ya)
+### Oge (Akwadoro)
 
-Oge nnọkọ bụ usoro mmekọrịta mbụ. Onye ọrụ ahụ na-etinye nguzozi n'elu agbụ otu oge, nata akara ngosi onye nwe ya ma jiri ya maka arịrịọ niile ọzọ na enweghị nkwụsị.
+Oge bụ usoro mmekọrịta bụ isi. Onye nnọchi anya ahụ na-etinye nguzozi n'elu agbụ otu ugboro, na-anata ihe nrịbama onye na-ebu ibu, ma jiri ya mee ihe maka arịrịọ niile na-esote na enweghị oge.
 
 ```
 Agent  ->  deposit 100,000 zat           (on-chain, ~75s one-time)
@@ -133,13 +133,13 @@ Agent  ->  GET /api/query + bearer       (instant, balance deducted)
 Agent  ->  close session                 (refund unused balance on-chain)
 ```
 
-**Kachasị mma maka:** Oku API dị elu, LLM inference, ugboro data gbara ajụjụ.
+**Kachasị mma maka:** Oku API ugboro ugboro, nyocha LLM, ajụjụ data ugboro ugboro.
 
 ---
 
-### Ịgbasagharị
+### Ịgbagharị
 
-A na-akwụ ụgwọ maka akara ngosi nke a napụtara site n'aka ** Ihe omume Server-Sent (SSE) **. Onye nkesa ahụ wepụrụ ihe dị iche iche site na nnọkọ oge ọ bụla ma ọ bụ okwu egosipụtara.
+Ọdịnaya a na-akwụ ụgwọ kwa akara ngosi nke e zigara n'elu **Ihe omume ndị e zigara sava (SSE)**. Ihe nkesa ahụ na-ewepụ nguzozi nnọkọ kwa okwu ma ọ bụ akara ngosi e tinyere na mgbasa ozi.
 
 ```
 Agent  ->  open session with deposit
@@ -148,13 +148,13 @@ Server ->  stream word by word, deducting per token
 Agent  ->  close session, refund remaining
 ```
 
-**Kachasị mma maka:** LLM na-agbasa nzaghachi, nri data oge, ịkwụ ụgwọ ego AI.
+**Kachasị mma maka:** Nzaghachi nkwanye ugwu LLM, nri data n'oge, ngwaọrụ AI ịkwụ ụgwọ kwa akara.
 
 ---
 
-### Ụgwọ a na-akwụ ya
+### Ụgwọ
 
-A na-akwụ ụgwọ otu mkpuchi maka arịrịọ. Ọkpụkpọ HTTP 402 zuru ezu ka a na-eme site n'oku ọ bụla. Kwesịrị ekwesị mgbe arịrịọrọ dị obere ma ọ bụ uru bara ụba.
+Otu ụgwọ a na-echebe otu arịrịọ. A na-eme usoro HTTP 402 zuru oke kwa oku. Ọ dabara adaba mgbe arịrịọ anaghị adịte aka ma ọ bụ dị oke ọnụ ahịa.
 
 ```
 Agent  ->  GET /api/resource
@@ -165,15 +165,15 @@ Server ->  decrypt with Orchard IVK, verify amount + memo
 Server ->  200 OK + Payment-Receipt
 ```
 
-**Kachasị mma maka:** Arịrịọ dị elu, oku API na-adịghị adịkarị, njedebe data kachasị.
+**Kachasị mma maka:** Arịrịọ dị oke ọnụ ahịa otu ugboro, oku API na-adịghị adịkarị, njedebe data dị elu.
 
 ---
 
-## Jiri Ọnọdụ & Ihe Nlereanya
+## Ojiji na ihe atụ
 
-### 1. onye na-ahụ maka ihe ọmụma.
+### 1. Onye nnọchi anya AI
 
-Onye ọrụ iwu nke AI na-ajụ ajụjụ gbasara nchekwa data ikpe akwụ ụgwọ. Iji oge echedoro Zimppy, enweghị njirimara ụlọ ọrụ ọka iwu ma ọ bụ nyocha ndị akọwapụtara anya n'elu - ichedo ikike onye ọka iwu na onye ahịa ya na ọkwa akụrụngwa.
+Onye ọrụ iwu na-enyocha nchekwa data ikpe-iwu akwụ ụgwọ. Site na iji nnọkọ Zimpy echebe, njirimara ụlọ ọrụ iwu ma ọ bụ ajụjụ ndị a kapịrị ọnụ adịghị apụta ìhè n'usoro - na-echebe ikike onye ọka iwu na onye ahịa n'ọkwa akụrụngwa.
 
 ```
 Agent opens session (100,000 zat deposit)
@@ -183,34 +183,34 @@ Agent opens session (100,000 zat deposit)
 Session closed, unused balance refunded
 ```
 
-### 2. AI Agent maka Medical Ajụjụ Pipeline
+### 2. Onye nnọchi anya AI maka Pipeline Ajụjụ Ahụike
 
-A medical diagnostic agent queries multiple clinical databases. Shielded payments ensure patient query patterns are not linkable across providers.
+Onye na-ahụ maka nchọpụta ọrịa na-ajụ ajụjụ gbasara ọtụtụ ebe nchekwa data ahụike. Ụgwọ ndị a na-echekwa echekwa na-eme ka usoro ajụjụ onye ọrịa ghara ịdị n'etiti ndị na-enye ọrụ.
 
-### 3. Onye na-ahụ maka nyocha ego.
+### 3. Onye Ọrụ Nyocha Ego
 
-An algorithmic trading agent pays for real-time market data APIs. Transparent payments use fresh T-addresses per challenge, preventing usage pattern correlation across data vendors.
+Onye na-ere ahịa algọridim na-akwụ ụgwọ maka API data ahịa n'oge. Ịkwụ ụgwọ doro anya na-eji adreesị T ọhụrụ maka nsogbu ọ bụla, na-egbochi njikọ ụkpụrụ ojiji n'etiti ndị na-ere data.
 
-### 4. MCP Ngwá Ọrụ Server, Kwụ ụgwọ AI Ngwaọrụ
+### 4. Ihe nkesa Ngwaọrụ MCP, Ngwaọrụ AI Akwụ ụgwọ
 
-Ihe nkesa MCP (Model Context Protocol) na-ekpughe ngwaọrụ AI akwụ ụgwọ. Ngwaọrụ ọ bụla a na - akpọpụta ihe Zimppy, nke na - eme ka ahịa nwee ike ịnweta ego nwere ikike AI.
+Ihe nkesa MCP (Model Context Protocol) na-ekpughe ngwaọrụ AI akwụ ụgwọ. Ngwa ọrụ ọ bụla na-akpalite ụgwọ Zimpy, na-eme ka ahịa nwee ike AI ego.
 
-### 5. LLM Summarizer, Ịkwụ Ụgwọ-Per-Token
+### 5. Nchịkọta LLM, Ụgwọ-Kwa-Token
 
-Ọrụ nchịkọta LLM na-akwụ ndị ọrụ ụgwọ maka akara ngosi ọpụpụ site na SSE, yana mwepu nkwụnye ego akpaka na nloghachi nke nguzozi akwụghị ụgwọ.
+Ọrụ nchịkọta LLM na-ana ndị nnọchi anya ụgwọ maka ihe ngosi mmepụta ọ bụla site na nkwanye SSE, yana mwepụ nguzozi akpaka na nkwụghachi nke nguzozi akwụgoro ejibeghị.
 
 ---
 
-## Ịwụnye ya
+## Nwụnye
 
-### Node.js / TypeScript (Nke a bụ ihe dị na ya)
+### Node.js / ỤdịAkwụkwọ
 
 ```bash
 npm install zimppy          # CLI + wallet
 npm install zimppy-ts       # TypeScript SDK
 ```
 
-### Igwe na-agbaze agbaze
+### Nchara
 
 ```toml
 [dependencies]
@@ -220,37 +220,37 @@ zimppy-rs = "0.5"           # Rust SDK (charge, session, axum)
 
 ---
 
-## Ịtọlite obere akpa Zimppy
+## Ịtọlite obere akpa Zippy
 
-Zimppy CLI na-enye interface akpa ego zuru ezu. Iwu niile dị site na `npx zimppy`.
+Zimpy CLI na-enye njikọ akpa ego zuru oke. Iwu niile dị site na `npx zimppy`.
 
-### Nzọụkwụ 1 . Mepụta obere akpa ego:
+### Nzọụkwụ nke 1: Mepụta obere akpa
 
 ```bash
 npx zimppy wallet create
 ```
 
-Na-emepụta igodo nzuzo ma na egosiputa ** mkpụrụ okwu gị. Chekwaa nke a n'ụzọ dị nchebe - enweghị ike iweghachite ya ma ọ bụrụ na furu efu.
+Na-emepụta igodo nzuzo ma na-egosi mkpụrụ okwu **mkpụrụ** gị. Debe nke a n'enweghị nsogbu - agaghị enweta ya ma ọ bụrụ na o furu efu.
 
-### Nzọụkwụ nke Abụọ: Lelee Ebe I Bi na Ihe Ndị Dị n'Aka Gị .
+### Nzọụkwụ nke Abụọ: Lelee Adreesị na Nguzozi Gị
 
 ```bash
 npx zimppy wallet whoami
 ```
 
-Na-egosiputa **Unified Address (UA) gị, T-address, na netwọkụ dị ugbu a.
+Na-egosi **Unified Address (UA)**, **Adreesị T**, nguzozi ugbu a, na netwọk na-arụ ọrụ.
 
 ```bash
 npx zimppy wallet balance --all
 ```
 
-Na-egosi nkwụsị nke akaụntụ na ihe ndekọ ZIP-32.
+Na-egosi nhazi ego nke akaụntụ ọ bụla n'ime akaụntụ ZIP-32 niile.
 
-### Nzọụkwụ 3: Kwụnye Ego n'akpa Gị
+### Nzọụkwụ nke 3: Tinye ego na obere akpa gị
 
-Send ZEC to your Unified Address from any Zcash-compatible wallet or exchange. Shielded deposits go directly to your Orchard account.
+Ziga ZEC na Unified Address gị site na obere akpa ma ọ bụ mgbanwe ọ bụla Zcash-compatible. Ego echekwara na-aga ozugbo na akaụntụ Orchard gị.
 
-### Nzọụkwụ 4: Ziga na Nchekwa ego .
+### Nzọụkwụ nke 4: Zipu ma chekwaa ego
 
 ```bash
 # Send ZEC to any address (shielded or transparent)
@@ -266,19 +266,19 @@ npx zimppy wallet transfer 0 1 50000
 npx zimppy wallet use work
 ```
 
-### Nzọụkwụ 5: Mee arịrịọ maka ịkwụ ụgwọ akpaaka .
+### Nzọụkwụ nke 5: Mee Arịrịọ Ịkwụ Ụgwọ Akpaaka
 
 ```bash
 npx zimppy request <url>
 ```
 
-Na-akpaghị aka na-ejikwa 402 zuru ezu -> ịkwụ ụgwọ -> retry flow. A ga-emepe nnọkọ ma jikwaa n'ụzọ doro anya.
+Na-ejikwa usoro 402 zuru oke na akpaghị aka -> ịkwụ ụgwọ -> nwaa ọzọ. A na-emepe ma jikwaa nnọkọ ahụ nke ọma.
 
 ---
 
-## Ịgwakọta Zimppy - TypeScript SDK
+## Ịjikọta Zimpy - TypeScript SDK
 
-### Ihe nkesa TypeScript - echedoro ya
+### Sava Ụdị-Akwụkwọ - Ekpuchiri
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -300,14 +300,14 @@ if (result.status === 402) return result.challenge
 return result.withReceipt(Response.json({ data }))
 ```
 
-**Isi ihe ndị dị mkpa:**
-- `zcash({ wallet: 'server' })` na-ebute obere akpa nchekwa nke ihe nkesa ahụ.
-- `mppx.charge()` na-ejikwa ihe niile 402 ịma aka / nyochaa ndụ okirikiri.
-- `result.withReceipt()` na-etinye akwụkwọ akwụ ụgwọ crypto maka nzaghachi ahụ.
+**Isi ihe dị mkpa:**
+- `zcash({ wallet: 'server' })` na-ebu obere akpa nchekwa nke sava ahụ
+- `mppx.charge()` na-ejikwa usoro ndụ zuru oke nke ihe ịma aka 402/nyochaa
+- `result.withReceipt()` na-ejikọ nnata ịkwụ ụgwọ cryptographic na nzaghachi ahụ
 
 ---
 
-### Ihe nkesa TypeScript - Transparent
+### Sava TypeScript - Transparent
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -319,11 +319,11 @@ const mppx = Mppx.create({
 })
 ```
 
-Ihe ịma aka ọ bụla na-emepụta ** adreesị T ọhụrụ, nke mere ka arịrịọ ịkwụ ụgwọ ghara inwe ike ịgafe oge.
+Ihe ịma aka ọ bụla na-emepụta **adreesị T ọhụrụ**, na-eme ka arịrịọ ịkwụ ụgwọ ghara ijikọ n'oge nnọkọ niile.
 
 ---
 
-### Ụdị edemede Client
+### Onye Ahịa TypeScript
 
 ```typescript
 import { Mppx } from 'mppx/client'
@@ -335,13 +335,13 @@ const mppx = Mppx.create({ methods: [zcash({ wallet: 'default' })] })
 const res = await mppx.fetch('https://api.example.com/resource')
 ```
 
-Onye ahịa ahụ na-egbochi ya. `402` azịza, mepee nnọkọ na-akpaghị aka ma gbalịa arịrịọ ahụ - koodu oku anaghị achọ usoro ịkwụ ụgwọ ọ bụla.
+Onye ahịa ahụ na-ejide `402` nzaghachi, mepee nnọkọ na akpaghị aka, ma nwaa ọzọ arịrịọ ahụ - koodu oku ahụ achọghị usoro ịkwụ ụgwọ kpọmkwem.
 
 ---
 
-## Ijikọta Zimppy - Rust SDK
+## Ịtinye Zimpy - Rust SDK
 
-### Ihe nkesa Rust (Axum)
+### Ihe nkesa nchara (Axum)
 
 ```rust
 use mpp::server::axum::*;
@@ -361,14 +361,14 @@ async fn handler(charge: MppCharge<Price>) -> WithReceipt<Json<Value>> {
 }
 ```
 
-**Isi ihe ndị dị mkpa:**
-- `MppCharge<Price>` bụ ihe Axum extractor na-enyocha ugwo tupu handler agba ọsọ
-- `WithReceipt` na-ekpuchi nzaghachi ahụ site n'ịkwụ ụgwọ ego akwụmụgwọ crypto.
-- `ChargeConfig` na-akọwapụta usoro ọnụahịa - nwere ike ịdị egwu dabere na ihe ndị dị mkpa.
+**Isi ihe dị mkpa:**
+- `MppCharge<Price>` bụ ihe na-ewepụta ihe na Axum nke na-enyocha ụgwọ tupu onye njikwa ahụ agbaa ọsọ
+- `WithReceipt` jiri akwụkwọ nnata ịkwụ ụgwọ nzuzo kechie azịza ya
+- `ChargeConfig` na-akọwa usoro ọnụahịa - ọ nwere ike ịdị ike dabere na paramita arịrịọ
 
 ---
 
-### Rust Client (Onye ahịa)
+### Onye ahịa nchara
 
 ```rust
 use mpp::client::Fetch;
@@ -382,11 +382,11 @@ let resp = client
     .await?;
 ```
 
-`send_with_payment` na-agbatị onye ahịa HTTP ọ bụla site n'iji akpaaka 402, njikwa nnọkọ, yana mmezu ịkwụ ụgwọ Zcash.
+`send_with_payment` na-agbatị onye ahịa HTTP ọ bụla na njikwa 402 akpaka, njikwa nnọkọ, na mmezu ụgwọ Zcash.
 
 ---
 
-## CLI Reference Ihe na-eme ka a mata ihe bụ́ nsogbu.
+## Ntụaka CLI
 
 | Iwu | Nkọwa |
 |---|---|
@@ -401,37 +401,37 @@ let resp = client
 
 ---
 
-## Ihe Ndị Bụ́ Isi E Ji Mara Ya
+## Isi Atụmatụ
 
-### Ndị na-ahụ maka ndị ọrụ - Native Wallets
+### Obere akpa ndị nnọchi anya-ndị obodo
 
-Zimppy wallets are designed for programmatic use by AI agents - not human-managed browser extensions. Keys are managed via the CLI or SDKs, accounts can be rotated via **ZIP-32 account derivation**, and the wallet supports fully automated payment flows without human approval per transaction.
+E mere obere akpa Zimpy maka iji mmemme site n'aka ndị ọrụ AI - ọ bụghị ndọtị ihe nchọgharị nke mmadụ ji achịkwa. A na-ejikwa igodo site na CLI ma ọ bụ SDKs, enwere ike ịtụgharị akaụntụ site na **ZIP-32 derivation**, obere akpa ahụ na-akwado usoro ịkwụ ụgwọ akpaaka zuru oke na-enweghị nkwenye mmadụ kwa azụmahịa.
 
-### Nkwado Multi-Agent
+### Nkwado Ndị Nnọchiteanya Ọtụtụ
 
-Multiple agents can operate from the same wallet using **ZIP-32 account rotation** - each agent gets its own account with isolated balance tracking, cross-account transfer capability, and per-account balance reporting. This enables fleet management of many agents from a single wallet infrastructure.
+Ọtụtụ ndị nnọchi anya nwere ike ịrụ ọrụ site n'otu obere akpa ego site na iji **ZIP-32 mgbanwe akaụntụ** - onye nnọchi anya ọ bụla na-enweta akaụntụ nke ya site na inyocha nguzozi dị iche iche, ikike mbufe akaụntụ, na akụkọ nguzozi akaụntụ ọ bụla. Nke a na-enye ohere ijikwa ọtụtụ ndị nnọchi anya site na otu akụrụngwa obere akpa.
 
-### Zcash Transactions Fully Shielded (Orchard) Nke a bụ otu n'ime ndị na-eme ihe maka ego
+### Azụmahịa Zcash Ekpuchiri nke Ọma (Orchard)
 
-Shielded payments use Zcash's **Orchard protocol** - the latest and most secure shielded pool. The server verifies payments using an **Incoming Viewing Key (IVK)**, which can decrypt received notes without exposing the spending key. Replay attacks are prevented via **memo binding** - each challenge embeds a unique `zimppy:{challenge_id}` memo nke a na-enyocha ya site n'iji cryptographic.
+Ịkwụ ụgwọ nchekwa na-eji usoro **Orchard** Zcash's, ọdọ mmiri nchekwa nke NU5. Sava ahụ na-enyocha ịkwụ ụgwọ site na iji **Incoming Viewing Key (IVK)**, nke nwere ike ikpughe ndetu enwetara na-ekpugheghị igodo mmefu. A na-egbochi mwakpo ọzọ site na **njikọ memo** - ihe ịma aka ọ bụla nwere otu pụrụ iche `zimppy:{challenge_id}` ihe edeturu nke e gosipụtara n'ụzọ nzuzo.
 
-### Oge , Zero-Per-Request Latency (Nke a bụ oge ọ bụla na arịrịọ)
+### Oge Nnọkọ, Enweghị Oge Nkwụsị Kwa Arịrịọ
 
-The session architecture decouples the on-chain confirmation wait from per-request latency. After a single deposit (~75 seconds), all subsequent bearer-token requests are served instantly with no blockchain interaction until session close.
+Usoro nhazi nke nnọkọ ahụ na-eme ka nchere nkwenye dị n'usoro ghara ịdị irè site na oge ọ bụla a rịọrọ. Mgbe otu ego gwụchara (~ sekọnd 75), a na-enye arịrịọ niile na-ebuga ihe akaebe ozugbo na-enweghị mmekọrịta blockchain ruo mgbe nnọkọ ahụ ga-emechi.
 
-### Ịgba ọsọ , ịkwụ ụgwọ-kwa-token .
+### Ngụgharị, Ụgwọ-Kwa-Token
 
-Native ** SSE (Server-Sent Events) nkwado na - enyere aka ịkwụ ụgwọ kwa akara ngosi. Ezigbo maka LLM inference APIs ebe ogologo mmepụta bụ mgbanwe ma ịgba akwụkwọ kwesịrị igosipụta ezigbo oriri.
+Nkwado nke Native **SSE (Ihe Omume E zigara na Sava)** na-enye ohere ka ọdịnaya a na-akwụ ụgwọ kwa akara nha. Ọ dị mma maka API nnwale LLM ebe ogologo mmepụta na-agbanwe agbanwe na ụgwọ ọrụ kwesịrị igosipụta oriri n'ezie.
 
-### Nkwekọrịta Spec
+### Nrubeisi Pụrụ Iche
 
-- **HMAC-SHA256** bịanyere aka na ya bụ ihe ịma aka gbochie ịgha ụgha.
-- **RFC 9457** usoro njehie ahaziri maka njikwa mmejọ interoperable.
-- **`/.well-known/payment`** maka nchọpụta usoro ịkwụ ụgwọ na-akpaghị aka site n'aka onye ọrụ ọ bụla nke kwekọrọ MPP.
+- **HMAC-SHA256** Ihe ịma aka ndị a bịanyere aka na ha na-egbochi adịgboroja
+- **RFC 9457** Usoro njehie ahaziri maka njikwa njehie na-arụkọ ọrụ
+- **`/.well-known/payment`** maka nchọpụta usoro ịkwụ ụgwọ akpaka site n'aka onye nnọchi anya ọ bụla na-agbaso iwu MPP
 
 ---
 
-## Ihe owuwu ụlọ
+## Nhazi ụlọ
 
 ```
 crates/
@@ -445,23 +445,23 @@ packages/
   zimppy-cli/        CLI with auto-pay and session management
 ```
 
-### Ọrụ nke Akụkụ ahụ
+### Ọrụ Akụkụ
 
-**`zimppy-core`** - The cryptographic core. Handles Orchard note decryption using the server's IVK, memo parsing, replay protection logic, and challenge verification. Written in Rust for performance and correctness.
+**`zimppy-core`** - Isi ihe dị na nzuzo. Na-ejikwa nkọwapụta ihe ndetu Orchard site na iji IVK nke sava, nyocha memo, usoro nchekwa replay, na nkwenye ihe ịma aka. E dere ya na Rust maka arụmọrụ na izi ezi.
 
-**`zimppy-wallet`** - A obodo Zcash wallet kwadoro site na `zingolib`. Na-ejikwa igodo, akaụntụ, echekwara / uzo nguzozi na ntinye azụmahịa.
+**`zimppy-wallet`** - Akpa Zcash nke obodo nke na-arụ ọrụ site na `zingolib`Na-ejikwa igodo, akaụntụ, nguzozi echekwara/edoghị anya, yana nnyefe azụmahịa.
 
-**`zimppy-rs`** - The Rust SDK. Na-enye ndị a: `ChargeMethod`, `SessionMethod`, na `PaymentProvider` ihe ndị ọzọ, tinyere Axum extractors (`MppCharge`, `WithReceipt`) maka ijikọta ihe nkesa ergonomic.
+**`zimppy-rs`** - Rust SDK. Na-enye `ChargeMethod`, `SessionMethod`, na `PaymentProvider` àgwà, gbakwunyere Axum extractors (`MppCharge`, `WithReceipt`) maka njikọta sava ergonomic.
 
-**`zimppy-napi`** - NAPI-RS na ejikọta nke gosipụtara isi Rust ka Node.js, na-enyere TypeScript SDK aka iji otu engine cryptographic ahụ n'ebughị ụzọ tinye Zcash primitives na JavaScript .
+**`zimppy-napi`** - njikọ NAPI-RS nke na-ekpughe isi Rust na Node.js, na-eme ka TypeScript SDK nwee ike iji otu injin cryptographic ahụ na-enweghị itinyeghachi ihe mbụ Zcash na JavaScript.
 
-**`zimppy-ts`** - TypeScript SDK. Na-ekpuchi njikọ NAPI na idiomatic async / await APIs maka ụgwọ, nnọkọ, na SSE iyi mmiri.
+**`zimppy-ts`** - TypeScript SDK. Na-eji API async/echere kechie njikọ NAPI maka chajị, nnọkọ, na usoro mgbasa ozi SSE.
 
-**`zimppy-cli`** - Ngwaọrụ iwu-akara na arịrịọ. Na akwado akpaaka (402 -> ịkwụ ụgwọ -> gbalịa), njikwa nnọkọ, yana ọrụ obere akpa niile.
+**`zimppy-cli`** - Ngwa obere akpa iwu na ngwa arịrịọ. Na-akwado ịkwụ ụgwọ akpaaka (402 -> ịkwụ ụgwọ -> nwaa ọzọ), njikwa nnọkọ, na ọrụ obere akpa niile.
 
 ---
 
-## Ihe Nlereanya & Ngosipụta
+## Ihe atụ na ngosipụta
 
 | Ihe atụ | Nkọwa |
 |---|---|
@@ -472,29 +472,29 @@ packages/
 
 ---
 
-## Ihe Ndị E Nwere na Ya - Nchịkọta nke Isiokwu Ndị Dị́ na ya
+## Ihe dị n'ime ya - Nchịkọta Atụmatụ
 
 | atụmatụ | Nkọwa |
 |---|---|
 | **Oge Nzukọ** | Itinye ego otu ugboro, arịrịọ onye na-ebuga ngwa ngwa, nkwụghachi mgbe emechara |
 | **Na-agagharị** | Ọdịnaya a na-akwụ ụgwọ kwa akara n'elu SSE |
 | **Chaji** | Ịkwụ ụgwọ echekwara ma ọ bụ nke doro anya dịka arịrịọ HTTP si dị (usoro 402) |
-| **Ịkwụ Ụgwọ Na-enweghị Ntugharị** | Adreesị T nwere mgbochi replay kwa-ihe ịma aka + iwu nchekwa |
+| **Ịkwụ Ụgwọ doro anya** | Adreesị T nwere mgbochi replay kwa-ihe ịma aka + iwu nchekwa |
 | **Akaụntụ dị iche iche** | Mgbanwe akaụntụ ZIP-32, nnyefe akaụntụ n'ofe, nguzozi akaụntụ kwa akaụntụ |
 | **Akpa CLI** | Zipu, chebe, nyefe, nguzozi ---niile, whoami, ịkwụ ụgwọ akpaaka |
-| **SDK abụọ** | TypeScript na nchara |
+| **SDK abụọ** | Ụdị edemede na nchara |
 | **Dabere na Nkọwapụta** | Ihe ịma aka HMAC-SHA256, njehie RFC 9457, `/.well-known/payment` nchọpụta |
 
 ---
 
-*Maka ozi ndị ọzọ, gaa na ebe a: [zimppy.xyz (n'asụsụ Igbo)](https://zimppy.xyz)*
+*Maka ozi ndị ọzọ, gaa na [zimpy.xyz](https://zimppy.xyz)*
 
 ---
 
 ## Peeji ndị metụtara ya
 
-- [Akpa ego](/using-zcash/wallets)  Zcash wallets na-akwado azụmahịa echekwara.
-- [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](/using-zcash/shielded-pools)  Olee otú Orchard echekwara azụmahịa chebe ugwo data
-- [Ndị na-arụ ọrụ ịkwụ ụgwọ](/using-zcash/payment-processors)  Ụzọ ndị ọzọ ị ga-esi naara Zcash ụgwọ.
-- [Akụ Zcash Echebe](/zcash-tech/zcash-shielded-assets)  ZSAs na ọdịnihu nke mmemme Zcash
-- [Ihe Omume Ndị E Nwere n'Ọgbakọ](/zcash-community/community-projects)  Ihe oru ngo nke Zcash ecosystem
+- [Obere akpa](/using-zcash/wallets) — Akpa Zcash nke na-akwado azụmahịa echekwara
+- [Ọdọ Mmiri E Kpuchiri Ekpuchi](/using-zcash/shielded-pools) — Otu Orchard si echebe azụmahịa site n'ichebe data ịkwụ ụgwọ
+- [Ndị Nhazi Ịkwụ Ụgwọ](/using-zcash/payment-processors) — Ụzọ ndị ọzọ isi nabata ịkwụ ụgwọ Zcash
+- [Akụ Zcash Chebere](/zcash-tech/zcash-shielded-assets) — ZSAs na ọdịnihu nke mmemme Zcash
+- [Ọrụ Obodo](/zcash-community/community-projects) — Ọrụ gburugburu ebe obibi Zcash ndị ọzọ

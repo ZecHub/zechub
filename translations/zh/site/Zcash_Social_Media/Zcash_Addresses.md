@@ -93,7 +93,7 @@ Daira 对 Anchor 位置的解释（zcon3）：
 
 在某些情况下（例如跨池交易），金额可能对外部观察者可见。不过，`valueBalanceSapling` 和 `valueBalanceOrchard` 使用**同态承诺**来证明 shielded 池中的 ZEC 总量，并防止伪造。
 
-延伸阅读：[防御 Shielded Pools 中的伪造](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+延伸阅读：[ZIP 209：禁止超出范围的链价值池余额](https://zips.z.cash/zip-0209)
 
 ---
 
@@ -105,7 +105,7 @@ ECC 团队正在 `zcashd` 中开发新的 RPC 方法（替代 `z_sendmany`），
 
 ## 推荐
 
-此讨论串最初指向 **Ywallet**，因为它会在你点击发送前显示交易计划。Ywallet 已不再维护，也不会为 Ironwood 更新，因此无法再跟随区块链。请改为从[钱包](https://zechub.wiki/wallets)页面选择一款仍在维护的钱包，并优先选择能在交易发出前告知你交易将透露哪些信息的钱包。
+此讨论串最初指向 **YWallet**，因为它会在你点击发送前显示交易计划。YWallet 已不再维护，也不会为 Ironwood 更新，因此无法再跟随区块链。请改为从[钱包](https://zechub.wiki/wallets)页面选择一款仍在维护的钱包，并优先选择能在交易发出前告知你交易将透露哪些信息的钱包。
 
 关于交易隐私的精彩文章：https://medium.com/@hanh.huynh/
 

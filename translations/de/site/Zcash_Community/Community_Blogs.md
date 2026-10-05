@@ -16,7 +16,6 @@ Hier sind einige der aktiven Blogs:
 | roomatemusing             | Gedanken und Community-Inhalte                                   | [Besuchen ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog             | Technischer Blog mit Fokus auf Zcash-Entwicklung und Tools       | [Besuchen ->](https://blog.nerdbank.net/) |
 | ZecMec                    | Auf Zcash fokussierte Artikel auf Medium                         | [Besuchen ->](https://zecmec21.medium.com/) |
-| Ian Sagstetter            | Ausführliche Artikel und Newsletter                              | [Besuchen ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)    | Hochkarätige Interviews und Inhalte zum Thema Privatsphäre       | [Besuchen ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                 | Kreative und Community-getriebene Zcash-Inhalte                  | [Besuchen ->](https://free2z.cash/sqribbles) |
 | Str4d                     | Technische Texte vom Zcash-Core-Entwickler                       | [Besuchen ->](https://words.str4d.xyz/) |

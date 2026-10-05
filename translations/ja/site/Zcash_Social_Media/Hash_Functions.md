@@ -48,7 +48,7 @@
 - メッセージダイジェストアルゴリズム5 (**MD5**)  
 - **BLAKE2b** - Zcashでの鍵導出に使用される
 
-**ZookoによるBLAKE2の紹介**: https://www.zfnd.org/blog/blake2/
+**BLAKE2の紹介**: https://www.blake2.net
 
 ---
 
@@ -79,7 +79,7 @@ Zcashの **Sapling** および **Orchard** シールドプールでは、**ノ�
 #### 5. Equihash（Zcashマイニング）
 **Equihash** は、Zcashのマイニングに使用されるハッシュアルゴリズムです。KomodoやHorizenなどのネットワークでも使用されています。
 
-**Zcash公式ブログでのEquihashに関する記事**: https://electriccoin.co/blog/equihash/
+**一般化バースデー問題に基づく非対称Proof-of-Work、Equihash**（BiryukovおよびKhovratovich）：https://eprint.iacr.org/2015/946
 
 ---
 

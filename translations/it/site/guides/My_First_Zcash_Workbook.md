@@ -8,11 +8,9 @@
 
 Questa guida fornisce una panoramica dell'arco di apprendimento centrale del quaderno, suddiviso in nove sezioni principali. Non sostituisce il libro stesso, ma è piuttosto una risorsa di accompagnamento che riassume il percorso didattico ed evidenzia informazioni importanti per istruttori, studenti ed educatori della comunità.
 
-Il quaderno è disponibile gratuitamente per il download in PDF o come flipbook interattivo:
+Il quaderno è disponibile gratuitamente per il download in PDF:
 
 [Outline](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
-
-[Flipbook](https://midd.me/nbp2)
 
 [GitHub Repo](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -31,7 +29,7 @@ Questa prima sezione introduce i lettori all'idea del denaro digitale e al perch
 
 ## 2. Chi ha costruito Zcash e perché esiste?
 
-Questa sezione spiega le origini di Zcash attraverso la lente della ricerca scientifica e della crittografia. Introduce le prove a conoscenza zero, in particolare gli "zk-SNARK", come la tecnologia rivoluzionaria che rende possibili le transazioni private schermate.
+Questa sezione spiega le origini di Zcash attraverso la lente della ricerca scientifica e della crittografia. Introduce le prove a conoscenza zero, in particolare "zk-SNARKs", come la tecnologia rivoluzionaria che rende possibili le transazioni private schermate.
 
 Il quaderno tocca anche la storia del lancio di Zcash, i suoi principi fondanti e la comunità globale che oggi mantiene e supporta l'ecosistema. La missione è incentrata sul dare potere agli individui, fornire accesso al denaro digitale resistente alla censura e far progredire la tecnologia della privacy per tutti.
 
@@ -147,12 +145,12 @@ Questi profili mostrano ai lettori che Zcash è mantenuto da una comunità etero
 
 La sezione finale invita i lettori a diventare parte dell'ecosistema Zcash. Le opportunità includono:
 
-- Unirsi al Zcash Global Discord  
-- Partecipare alle community call e ai gruppi di lavoro  
-- Contribuire alle future traduzioni del quaderno  
-- Sostenere la didattica open-source  
-- Creare contenuti, contributi di codice, opere artistiche o feedback  
-- Esplorare le sovvenzioni della comunità Zcash  
+- Unirsi al programma globale Zcash Discord  
+- Partecipare alle chiamate della comunità e ai gruppi di lavoro  
+- Contribuire alle future traduzioni del workbook  
+- Sostenere l'istruzione open source  
+- Creare contenuti, contributi di codice, opere d'arte o feedback  
+- Esplorare Zcash Community Grants
 
 Il messaggio è chiaro: chiunque può partecipare, e la comunità accoglie contributori di ogni provenienza e livello di competenza.
 

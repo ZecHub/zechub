@@ -49,7 +49,7 @@
 - Message Digest Algorithm 5 (**MD5**)  
 - **BLAKE2b** — використовується в derivation ключів Zcash
 
-**Вступ до BLAKE2 від Zooko**: https://www.zfnd.org/blog/blake2/
+**Вступ до BLAKE2**: https://www.blake2.net
 
 ---
 
@@ -80,7 +80,7 @@
 #### 5. Equihash (майнінг Zcash)
 **Equihash** — це алгоритм хешування, який використовується для майнінгу Zcash. Він також використовується такими мережами, як Komodo і Horizen.
 
-**Оригінальний блог Zcash про Equihash**: https://electriccoin.co/blog/equihash/
+**Equihash: асиметричне підтвердження роботи на основі узагальненої задачі про дні народження** (Бірюков і Ховратович): https://eprint.iacr.org/2015/946
 
 ---
 

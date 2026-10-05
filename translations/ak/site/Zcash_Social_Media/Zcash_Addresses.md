@@ -17,7 +17,7 @@ Sɛ woresua Zcash ho ade nea edi kan a wubehu sɛ nnwuma ahorow abien na ɛwɔ h
 
 ![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
-**Wɔayɛ Unified Addresses (UAs)** sɛ **wɔbɛka** nnwuma a wɔabɔ ho ban anaa ɛda adi pefee ayɛ no address baako.
+Wɔayɛ **Unified Addresses (UAs)** sɛ **wɔbɛka** nnwuma a wɔabɔ ho ban anaa ɛda adi pefee ayɛ no address baako.
 
 ---
 
@@ -26,8 +26,8 @@ Sɛ woresua Zcash ho ade nea edi kan a wubehu sɛ nnwuma ahorow abien na ɛwɔ h
 Address ahorow 3 na wɔde di dwuma:
 
 1. **(T) Nneɛma a ɛda adi** – Base58 
-2. **(Z) Sapling** – Bech32  
-3. **(UA) Unified Address** – Bech32m  
+2. **(Z) Sapling** – Bech32 
+3. **(UA) Unified Address** – Bech32m 
 
 Nkyerɛwde dodow (na ɛno nti QR koodu kɛse) kɔ soro bere biara a wɔakyerɛw no.
 
@@ -40,7 +40,7 @@ Nkyerɛwde dodow (na ɛno nti QR koodu kɛse) kɔ soro bere biara a wɔakyerɛw 
 ## Sɛnea Address ahorow a Wɔaka abom Yɛ Adwuma
 
 Wɔakyerɛw address ne safoa sɛ baiti ntoatoaso (**Raw Encoding**). 
-**Receiver Encoding** ka nsɛm a ɛho hia nyinaa a wɔde bɛfa agyapadeɛ bi akɔma obi foforɔ denam protocol pɔtee bi so.
+**Receiver Encoding** ka nsɛm a ɛho hia nyinaa a wɔde bɛfa agyapadeɛ bi a wɔde protocol pɔtee bi bedi dwuma no ho.
 
 Unified Address no raw encoding yɛ encodings (typecode, tenten, addr) a wɔaka abom a ɛfa receivers ho:
 
@@ -48,7 +48,7 @@ Unified Address no raw encoding yɛ encodings (typecode, tenten, addr) a wɔaka 
 - Sapling: `0x02`  
 - Fann: `0x01`  
 
-**Nea ɛho hia**: Ɛsɛ sɛ **anyɛ yiye koraa no, address biako a wɔde tua sika a wɔabɔ ho ban** wɔ UA biara mu. (Wɔmmoa Sprout address ahorow bio wɔ Canopy upgrade no akyi.)
+**Nea ɛho hia**: Ɛsɛ sɛ **anyɛ yiye koraa no, address biako a wɔde tua sika a wɔabɔ ho ban** wɔ UA biara mu. (Sprout address ahorow bio wɔ Canopy upgrade no akyi.)
 
 ![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
@@ -56,7 +56,7 @@ Nkyerɛkyerɛmu a edi mũ: **[ZIP-316: Address ahorow a Wɔaka abom](https://zip
 
 ---
 
-## Mfaso a Ɛwɔ Address ahorow a Wɔaka abom So
+## Mfaso a Ɛwɔ Address ahorow a Wɔaka abom so
 
 - **Ɛyɛ mmerɛw ma exchanges** - Seesei wobetumi aboa shielded deposits/withdrawals a ahobammɔ wom. 
 - **Future-proof** - Wobetumi de atare foforo a wɔabɔ ho ban aka ho a wɔremmu sika kotoku. 
@@ -91,9 +91,9 @@ Daira kyerɛkyerɛ Anchor gyinabea ahorow mu (zcon3):
 
 ## Botae a Ɛkari pɛ & Kokoam Nsɛm
 
-Wɔ tebea horow bi mu (e.g. cross-pool transactions) sika dodow betumi ayɛ nea obi a ofi abɔnten a ɔhwɛ no ahu. Mmom, `valueBalanceSapling` ne `valueBalanceOrchard` fa **homomorphic commitments** di dwuma de kyerɛ sɛ ZEC nyinaa wɔ atare a wɔabɔ ho ban mu na wɔasiw atoro a wɔyɛ no ano.
+Wɔ tebea horow bi mu (sɛ nhwɛso no, cross-pool transactions) sika dodow betumi ayɛ nea obi a ofi abɔnten a ɔhwɛ no ahu. Mmom, `valueBalanceSapling` ne `valueBalanceOrchard` fa **homomorphic commitments** di dwuma de kyerɛ sɛ ZEC nyinaa wɔ atare a wɔabɔ ho ban mu na wɔasiw atoro a wɔyɛ no ano.
 
-Kenkan pii: [Ahobammɔ a Wɔde Tia Atoro Nneɛma a Wɔyɛ wɔ Atare a Wɔabɔ Ho Ban Mu](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Kenkan pii: [ZIP 209: Bara Out-of-Range Chain Value Pool Kari pɛ](https://zips.z.cash/zip-0209)
 
 ---
 
@@ -105,13 +105,13 @@ ECC kuw no reyɛ adwuma wɔ RPC akwan foforo so wɔ `zcashd` (a wɔde besi ananm
 
 ## Nyansahyɛ a wɔde ma
 
-Saa thread yi mfitiaseɛ no na ɛkyerɛ **Ywallet**, ma transaction plan a ɛkyerɛɛ ansa na woabɔ send. Wɔnhwɛ Ywallet so bio na wɔrennyɛ no foforo mma Ironwood, enti entumi nni nkɔnsɔnkɔnsɔn no akyi bio. Paw sika kotoku a wɔahwɛ so yiye fi... [Sika kotoku](https://zechub.wiki/wallets) kratafa mmom, na pɛ nea ɛkyerɛ wo nea asɛm bi bɛda adi ansa na akɔ.
+Saa thread yi mfitiaseɛ no na ɛkyerɛ **YWallet**, ma transaction plan a ɛkyerɛɛ ansa na woabɔ send. Wɔnhwɛ YWallet so bio na wɔrennyɛ no foforo mma Ironwood, enti entumi nni nkɔnsɔnkɔnsɔn no akyi bio. Paw sika kotoku a wɔahwɛ so yiye fi.. [Sika kotoku](https://zechub.wiki/wallets) kratafa mmom, na pɛ nea ɛkyerɛ wo nea asɛm bi bɛda adi ansa na akɔ.
 
 Asɛm kɛse a ɛfa asɛmdi ho kokoamsɛm ho: https://medium.com/@hanh.huynh/
 
 ---
 
-**Mfitiaseɛ Nhama a ZecHub (@ZecHub) kyerɛwee** 
+**Mfitiaseɛ Nhama a ZecHub (@ZecHub)** 
 https://x.com/ZecHub/status/1628498645627666432
 
 ---

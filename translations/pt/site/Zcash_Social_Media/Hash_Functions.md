@@ -49,7 +49,7 @@ Existem várias classes de Funções Hash. Alguns exemplos:
 - Message Digest Algorithm 5 (**MD5**)  
 - **BLAKE2b** - Usado na derivação de chaves do Zcash
 
-**Uma introdução ao BLAKE2 por Zooko**: https://www.zfnd.org/blog/blake2/
+**Uma introdução ao BLAKE2**: https://www.blake2.net
 
 ---
 
@@ -80,7 +80,7 @@ Nas pools blindadas **Sapling** e **Orchard** do Zcash, a **Note Commitment Tree
 #### 5. Equihash (Mineração de Zcash)
 **Equihash** é o algoritmo de hash usado na mineração de Zcash. Ele também é usado por redes como Komodo e Horizen.
 
-**Blog original do Zcash sobre Equihash**: https://electriccoin.co/blog/equihash/
+**Equihash: Prova de Trabalho Assimétrica Baseada no Problema Generalizado do Aniversário** (Biryukov e Khovratovich): https://eprint.iacr.org/2015/946
 
 ---
 

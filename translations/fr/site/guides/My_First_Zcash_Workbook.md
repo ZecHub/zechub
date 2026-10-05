@@ -8,11 +8,9 @@
 
 Ce guide offre une vue d'ensemble du parcours pédagogique central du cahier d'exercices, divisé en neuf grandes sections. Il ne remplace pas le livre lui-même ; c'est plutôt une ressource complémentaire qui résume le déroulement pédagogique et met en lumière des informations importantes pour les formateurs, les étudiants et les éducateurs communautaires.
 
-Le cahier d'exercices est disponible gratuitement au téléchargement au format PDF ou sous forme de flipbook interactif :
+Le cahier d'exercices est disponible gratuitement au téléchargement au format PDF :
 
 [Plan](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
-
-[Livre interactif](https://midd.me/nbp2)
 
 [Dépôt GitHub](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -140,12 +138,12 @@ Ces profils montrent aux lecteurs que Zcash est maintenu par une communauté div
 
 La section finale invite les lecteurs à faire partie de l'écosystème Zcash. Les possibilités incluent :
 
-- Rejoindre le Discord mondial Zcash  
+- Rejoindre la Zcash Global Discord  
 - Participer aux appels communautaires et aux groupes de travail  
-- Contribuer aux futures traductions du cahier d'exercices  
-- Soutenir l'éducation open source  
-- Créer du contenu, des contributions en code, des œuvres artistiques ou des retours  
-- Explorer les subventions communautaires Zcash  
+- Contribuer aux futures traductions du cahier d’exercices  
+- Soutenir l’éducation open source  
+- Créer du contenu, des contributions au code, des œuvres artistiques ou fournir des retours  
+- Explorer Zcash Community Grants
 
 Le message est clair : tout le monde peut participer, et la communauté accueille des contributeurs de tous horizons et de tous niveaux de compétence.
 

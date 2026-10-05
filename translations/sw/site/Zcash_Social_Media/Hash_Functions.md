@@ -1,99 +1,99 @@
-# Zero kwa Zero Maarifa: Hash Kazi
+# Maarifa ya Zero hadi Zero: Kazi za Hash
 
-** Mfululizo Utangulizi ** 
-Karibu kwenye mfululizo mpya: ** Zero hadi Zero Maarifa **! 
+**Utangulizi wa Mfululizo** 
+Karibu kwenye mfululizo mpya: **Maarifa ya Zero hadi Zero**! 
 
-Katika mfululizo huu tutajifunza misingi juu ya anuwai ya teknolojia ambazo huenda katika itifaki zetu za kuhifadhi faragha.
-
----
-
-## Sehemu ya 1: Hash Kazi
-
-Leo sisi kuanza na ** Hash Kazi ** - kipande muhimu ya cryptography kutumika katika blockchains. Baadaye katika mfululizo huu tutaweza kufunika baadhi ya mada ambayo hutegemea mali zao.
-
-### Ni nini kazi Hash?
-
-Hash Kazi kuchukua pembejeo ya urefu wowote na kuzalisha pato la urefu wa kudumu.
-
-- ** Ujumbe kuwa hashed ** = Input 
-- ** Algorithm kwamba ni kutumika ** = Hash Kazi 
-- ** Matokeo ya pato ** = Hash Value 
-
-
-! ![Hash kazi mchoro](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
-
-### Jaribu wewe mwenyewe!
-
-Hebu kupata mikono juu ya uelewa kutumia chombo hiki! 
-Ingiza maandishi yoyote arbitrary kuzalisha pato kudumu-urefu. Angalia jinsi pato inatofautiana kulingana na tofauti hashing algorithm.
-
-Jaribu: https://cryptii.com/pipes/hash-function
+Katika mfululizo huu tutajifunza misingi ya teknolojia mbalimbali zinazotumika katika itifaki zetu za kuhifadhi faragha.
 
 ---
 
-### Mali ya Cryptographic Hash Kazi
+## Sehemu ya 1: Vitendakazi vya Hash
 
-Cryptographic Hash Functions lazima kuwa na hizi ** 3 mali **:
+Leo tunaanza na **Hash Functions** - kipande muhimu cha usimbaji fiche kinachotumika katika blockchain. Baadaye katika mfululizo huu tutaangazia baadhi ya mada zinazotegemea sifa zao.
 
-1. ** One-way ** - Ni lazima kuwa unfeasible reverse hash kazi 
-2. ** mgongano Resistant ** - Inputs mbili tofauti haipaswi hash kwa pato sawa 
-3. **Deterministic** - Kwa kila pembejeo, hash kazi lazima daima kutoa matokeo sawa
+### Kitendakazi cha Hash ni nini?
 
----
+Vitendakazi vya Hash huchukua ingizo la urefu wowote na kutoa matokeo ya urefu usiobadilika.
 
-### Kawaida Hash Kazi
+- **Ujumbe wa kuharakishwa** = Ingizo 
+- **Algorithm inayotumika** = Kazi ya Hash 
+- **Tokeo linalotokana** = Thamani ya Hash 
 
-Kuna madarasa kadhaa ya Hash Kazi. Baadhi ya mifano:
 
-- Salama Hashing Algorithm (** SHA-3**) 
-- Ujumbe Digest Algorithm 5 (** MD5 **) 
-- ** BLAKE2b ** - Kutumika katika Zcash ufunguo derivation
+![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
-** Utangulizi wa BLAKE2 na Zooko**: https://www.zfnd.org/blog/blake2/
+### Jaribu mwenyewe!
 
----
+Hebu tupate uelewa wa vitendo kwa kutumia zana hii! 
+Ingiza maandishi yoyote ya kiholela ili kutoa matokeo ya urefu usiobadilika. Angalia jinsi matokeo yanavyotofautiana kulingana na algoriti tofauti ya hashing.
 
-### Real-Dunia Matumizi ya Hash Kazi
-
-#### 1. Uadilifu Hashing (Data Uadilifu Checks)
-Data integrity checks are an example of "Integrity Hashing". They are used to generate checksums on data files and provide assurance of correctness to a user.
-
-![Uadilifu Hashing mfano](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
-
-#### 2. Miti ya Merkle (Miti ya Hashi)
-Mti wa **hash** au **Merkle mti** unajumuisha matawi na nodes za majani ambazo zimewekwa alama na hash ya cryptographic ya block ya data.
-
-![Merkle mti mchoro](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
-
-Merkle miti ni mfano wa ** cryptographic ahadi mpango **. mti Mizizi ni kuonekana kama ahadi na majani nodes kuthibitika kuwa sehemu ya ahadi ya awali.
-
-Wao kuthibitisha data kuhifadhiwa au kuhamishwa kwenye mitandao ya P2P, kuhakikisha data kupokea kutoka kwa wenzao ni unaltered.
-
-#### 3. Kumbuka Commitment Mti katika Zcash
-Katika Zcash **Sapling** & **Orchard** mifereji ulinzi, **Kumbuka Commitment Mti ** hutumiwa kuthibitisha shughuli ni halali dhidi ya makubaliano wakati kikamilifu kuficha mtumaji, mpokeaji & kiasi alitumia.
-
-#### 4. saini Hash (Bitcoin-style vitalu)
-**SHA256** is an example of a "Signature hash" used to enforce immutability of each block in the Bitcoin chain. Miners use the hash of previous block + A hash of all transactions in the current block (hashMerkleRoot) + Timestamp + random value / network difficulty for new blocks.
-
-![SHA256 block mchoro](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
-
-#### 5. Equihash (Zcash Mining)
-**Equihash** ni hashing algorithm kutumika katika madini Zcash. Pia ni kutumika na mitandao kama vile Komodo & Horizen.
-
-**Zcash Blog ya awali kwenye Equihash**: https://electriccoin.co/blog/equihash/
+**Jaribu:** https://cryptii.com/pipes/hash-function
 
 ---
 
-### Kusoma Zaidi
+### Sifa za Kazi za Hash za Kikriptografia
 
-Kujenga uelewa mkubwa wa aina tofauti za kazi za hash na matumizi yao yanayohusiana, hii ni rasilimali bora: 
+Kazi za Hash za Kikriptografia lazima ziwe na sifa hizi **3**:
+
+1. **Njia moja** - Inapaswa kuwa vigumu kubadilisha kitendakazi cha hashi 
+2. **Kinga dhidi ya Mgongano** - Ingizo mbili tofauti hazipaswi kuhamisha matokeo sawa 
+3. **Deterministic** - Kwa ingizo lolote, chaguo la kukokotoa hashi lazima litoe matokeo sawa kila wakati
+
+---
+
+### Kazi za Kawaida za Hash
+
+Kuna aina kadhaa za Vitendakazi vya Hash. Baadhi ya mifano:
+
+- Algorithm Salama ya Hashing (**SHA-3**) 
+- Algorithimu ya Mchoro wa Ujumbe 5 (**MD5**) 
+- **BLAKE2b** - Inatumika katika uundaji wa funguo Zcash
+
+**Utangulizi wa BLAKE2**: https://www.blake2.net
+
+---
+
+### Matumizi Halisi ya Vitendakazi vya Hash
+
+#### 1. Uhifadhi wa Uadilifu (Ukaguzi wa Uadilifu wa Data)
+Ukaguzi wa uadilifu wa data ni mfano wa "Uhifadhi wa Uadilifu". Hutumika kutengeneza hesabu za cheki kwenye faili za data na kutoa uhakikisho wa usahihi kwa mtumiaji.
+
+![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
+
+#### 2. Miti ya Merkle (Miti ya Hash)
+Mti wa **hashi** au **Mti wa Merkle** una matawi na nodi za majani ambazo zimebandikwa alama ya hashi ya kriptografia ya kizuizi cha data.
+
+![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
+
+Miti ya Merkle ni mfano wa mpango wa ahadi ya kisiri**. Mzizi wa mti unaonekana kama ahadi na nodi za majani zimethibitishwa kuwa sehemu ya ahadi ya awali.
+
+Wanathibitisha data iliyohifadhiwa au kuhamishwa kwenye mitandao ya P2P, wakihakikisha data inayopokelewa kutoka kwa wenzao haibadilishwi.
+
+#### 3. Mti wa Ahadi wa Kumbuka katika Zcash
+Katika mabwawa ya ulinzi ya Zcash **Sapling** & **Orchard**, **Mti wa Kujitolea wa Kumbuka** hutumika kuthibitisha miamala kuwa halali kinyume cha makubaliano huku ukificha kikamilifu mtumaji, mpokeaji na kiasi kilichotumika.
+
+#### 4. Hash ya Saini (Vizuizi vya mtindo wa Bitcoin)
+**SHA256** ni mfano wa "Hashi ya Saini" inayotumika kutekeleza kutobadilika kwa kila kizuizi katika mnyororo wa Bitcoin. Wachimbaji hutumia hashi ya kizuizi kilichopita + Hashi ya miamala yote katika kizuizi cha sasa (hashMerkleRoot) + Muhuri wa Muda + thamani nasibu / ugumu wa mtandao kwa vizuizi vipya.
+
+![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
+
+#### 5. Equihash (Zcash)
+**Equihash** ni algoriti ya hashing inayotumika katika kuchimba Zcash. Pia hutumiwa na mitandao kama vile Komodo na Horizen.
+
+**Equihash: Uthibitisho Usio na Ulinganifu wa Kazi Kulingana na Tatizo la Kuzaliwa la Jumla** (Biryukov na Khovratovich): https://eprint.iacr.org/2015/946
+
+---
+
+### Usomaji Zaidi
+
+Ili kujenga uelewa mkubwa wa aina tofauti za kazi za hash na matumizi yake yanayohusiana, hii ni rasilimali bora: 
 https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
-** Mchoro wa ZecHub (@ZecHub) ** 
-Asili X thread: https://x.com/ZecHub/status/1621240109663227906  
+**Uzi na ZecHub (@ZecHub)** 
+Uzi halisi wa X: https://x.com/ZecHub/status/1621240109663227906  
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero hadi Zero Knowledge kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwa uzi asili wa Maarifa ya Zero hadi Zero kwa wiki ya ZecHub.*

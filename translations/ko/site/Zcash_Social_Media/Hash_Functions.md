@@ -48,7 +48,7 @@
 - 메시지 다이제스트 알고리즘 5 (**MD5**)  
 - **BLAKE2b** - Zcash 키 도출에 사용됨
 
-**Zooko의 BLAKE2 소개**: https://www.zfnd.org/blog/blake2/
+**BLAKE2 소개**: https://www.blake2.net
 
 ---
 
@@ -79,7 +79,7 @@ Zcash **Sapling** 및 **Orchard** 가상 지갑에서 **노트 커밋먼트 트�
 #### 5. Equihash (Zcash 채굴)
 **Equihash**는 Zcash를 채굴하는 데 사용되는 해시 알고리즘입니다. Komodo 및 Horizen 네트워크에서도 사용됩니다.
 
-**원래 Zcash의 Equihash 블로그**: https://electriccoin.co/blog/equihash/
+**Equihash: 일반화된 생일 문제에 기반한 비대칭 작업 증명** (Biryukov 및 Khovratovich): https://eprint.iacr.org/2015/946
 
 ---
 

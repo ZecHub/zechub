@@ -93,7 +93,7 @@ Daira explica las posiciones del Anchor (zcon3):
 
 En algunos casos (p. ej., transacciones entre pools) los montos pueden ser visibles para un observador externo. Sin embargo, `valueBalanceSapling` y `valueBalanceOrchard` usan **compromisos homomórficos** para probar el total de ZEC en los pools blindados y evitar la falsificación.
 
-Lee más: [Defensa contra la falsificación en los pools blindados](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Lee más: [ZIP 209: Prohibir los saldos de los pools de valor de cadena fuera de rango](https://zips.z.cash/zip-0209)
 
 ---
 
@@ -105,7 +105,7 @@ El equipo de ECC está trabajando en nuevos métodos RPC en `zcashd` (que reempl
 
 ## Recomendación
 
-Este hilo originalmente apuntaba a **Ywallet**, por el plan de transacción que mostraba antes de que pulsaras enviar. Ywallet ya no recibe mantenimiento ni se actualizará para Ironwood, por lo que ya no puede seguir la cadena. Elige en su lugar una wallet con mantenimiento de la página [Wallets](https://zechub.wiki/wallets) y da preferencia a una que te indique lo que revelará una transacción antes de enviarse.
+Este hilo originalmente apuntaba a **YWallet**, por el plan de transacción que mostraba antes de que pulsaras enviar. YWallet ya no recibe mantenimiento ni se actualizará para Ironwood, por lo que ya no puede seguir la cadena. Elige en su lugar una wallet con mantenimiento de la página [Wallets](https://zechub.wiki/wallets) y da preferencia a una que te indique lo que revelará una transacción antes de enviarse.
 
 Gran artículo sobre privacidad de transacciones: https://medium.com/@hanh.huynh/
 

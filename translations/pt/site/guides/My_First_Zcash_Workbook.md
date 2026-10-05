@@ -8,11 +8,9 @@
 
 Este guia fornece uma visão geral do principal percurso de aprendizagem do caderno, dividido em nove grandes seções. Ele não substitui o próprio livro; em vez disso, é um recurso complementar que resume o fluxo educativo e destaca informações importantes para instrutores, estudantes e educadores da comunidade.
 
-O caderno está disponível gratuitamente para download em PDF ou como flipbook interativo:
+O caderno está disponível gratuitamente para download em PDF:
 
 [Visão geral](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
-
-[Flipbook](https://midd.me/nbp2)
 
 [Repositório GitHub](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -140,12 +138,12 @@ Esses perfis mostram aos leitores que o Zcash é mantido por uma comunidade dive
 
 A seção final convida os leitores a se tornarem parte do ecossistema Zcash. As oportunidades incluem:
 
-- Entrar no Discord Global do Zcash  
-- Participar de chamadas da comunidade e grupos de trabalho  
-- Contribuir com futuras traduções do caderno  
+- Aderir ao Discord Global da Zcash  
+- Participar em chamadas comunitárias e grupos de trabalho  
+- Contribuir para futuras traduções do livro de exercícios  
 - Apoiar a educação de código aberto  
-- Criar conteúdo, contribuições de código, arte ou feedback  
-- Explorar bolsas da comunidade Zcash  
+- Criar conteúdo, contribuições de código, trabalhos artísticos ou feedback  
+- Explorar Zcash Community Grants
 
 A mensagem é clara: qualquer pessoa pode participar, e a comunidade acolhe colaboradores de todas as origens e níveis de habilidade.
 
