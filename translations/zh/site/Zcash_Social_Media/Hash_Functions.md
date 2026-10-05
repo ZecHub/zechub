@@ -49,7 +49,7 @@
 - 消息摘要算法 5（**MD5**）  
 - **BLAKE2b** - 用于 Zcash 密钥派生
 
-**Zooko 撰写的 BLAKE2 入门介绍**： https://www.zfnd.org/blog/blake2/
+**BLAKE2 入门介绍**： https://www.blake2.net
 
 ---
 
@@ -80,7 +80,7 @@
 #### 5. Equihash（Zcash 挖矿）
 **Equihash** 是用于挖矿 Zcash 的哈希算法。它也被 Komodo 和 Horizen 等网络使用。
 
-**Zcash 关于 Equihash 的原始博客文章**： https://electriccoin.co/blog/equihash/
+**Equihash：基于广义生日问题的非对称工作量证明**（Biryukov 和 Khovratovich）：https://eprint.iacr.org/2015/946
 
 ---
 

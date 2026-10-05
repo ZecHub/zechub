@@ -2,69 +2,69 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zimppy.xyz
+# Zimpy.xyz
 
 ## TL;DR
 
-- **Zimppy** ni faragha-kwanza malipo miundombinu kwa ajili ya mawakala AI kutumia Zcash Mashine Malipo Itifaki (MPP)
-- ** Kuweka mara moja** on-mnyororo (~ sekunde 75), kisha kufanya ** maombi ya papo hapo ukomo ** na hakuna mwingiliano kwa kila ombi blockchain
-- Inasaidia ** kikamilifu ulinzi Zcash (Orchard) * malipo  mtumaji, mpokeaji, kiasi, na memo wote ni encrypted
-- Kazi na ** TypeScript na Rust SDKs** kwa ushirikiano rahisi katika AI mabomba ya bomba na seva za API
-- Perfect kwa ** LLM APIs, data masoko ya maeneo, MCP chombo seva**, na yoyote kesi matumizi malipo M2M
+- **Zimpy** ni miundombinu ya malipo ya faragha kwa mawakala wa akili bandia wanaotumia Itifaki ya Malipo ya Mashine Zcash's (MPP)
+- **Weka pesa mara moja** kwenye mnyororo (~sekunde 75), kisha fanya **maombi ya papo hapo yasiyo na kikomo** bila mwingiliano wa blockchain kwa kila ombi
+- Inasaidia malipo ya **Zcash (Orchard)** yaliyolindwa kikamilifu — mtumaji, mpokeaji, kiasi, na memo zote zimesimbwa kwa njia fiche
+- Inafanya kazi na **TypeScript na Rust SDK** kwa urahisi wa kuunganishwa katika mabomba ya akili bandia na seva za API
+- Inafaa kwa ajili ya **API za LLM, masoko ya data, seva za zana za MCP**, na matumizi yoyote ya malipo ya M2M
 
 ---
 
-> **Zimppy** ni Mashine ya Malipo Protocol (MPP) njia malipo kwa Zcash kusaidia wote walinzi na uwazi wa malipo. amana mara moja juu-mnyororo, kisha kufanya maombi unlimited papo mtoaji bila mwingiliano per ombi mlolongo.
+> **Zimpy** ni njia ya malipo ya Itifaki ya Malipo ya Mashine (MPP) kwa Zcash inayounga mkono malipo yaliyolindwa na yaliyo wazi. Weka pesa mara tu unapoingia kwenye mnyororo, kisha fanya maombi ya papo hapo bila kikomo bila mwingiliano wa mnyororo kwa kila ombi.
 
 ---
 
-## Habari Zilizo Ndani ya Toleo Hili
+## Orodha ya Yaliyomo
 
 1. [Zimppy.xyz ni nini?](#what-is-zimppyxyz)
-2. [Kwa nini Malipo ya Kufichwa kwa Wakala wa AI?](#why-shielded-payments-for-ai-agents)
-3. [Mashine Malipo Itifaki (MPP)](#machine-payment-protocol-mpp)
-4. [Jinsi Zimppy Inavyofanya Kazi](#how-zimppy-works)
-   - [Mikutano (Ilipendekezwa)](#sessions-recommended)
-   - [Streaming](#streaming)
-   - [Malipo ya malipo](#charge)
-5. [Matumizi ya kesi & Mifano](#use-cases--examples)
-6. [Ufungaji](#installation)
-7. [Kuweka Up Zimppy Wallet](#setting-up-the-zimppy-wallet)
+2. [Kwa Nini Malipo Yaliyolindwa kwa Mawakala wa AI?](#why-shielded-payments-for-ai-agents)
+3. [Itifaki ya Malipo ya Mashine (MPP)](#machine-payment-protocol-mpp)
+4. [Jinsi Zimpy Inavyofanya Kazi](#how-zimppy-works)
+   - [Vipindi (Vinapendekezwa)](#sessions-recommended)
+   - [Kutiririsha](#streaming)
+   - [Chaji](#charge)
+5. [Mifano na Kesi za Matumizi](#use-cases--examples)
+6. [Usakinishaji](#installation)
+7. [Kuweka Pochi ya Zimpy](#setting-up-the-zimppy-wallet)
 8. [Kuunganisha Zimppy](#integrating-zimppy--typescript-sdk)
-   - [Seva (Iliyolindwa)](#typescript-server--shielded)
+   - [Seva (Imehifadhiwa)](#typescript-server--shielded)
    - [Seva (Uwazi)](#typescript-server--transparent)
    - [Mteja](#typescript-client)
 9. [Kuunganisha Zimppy - Rust SDK](#integrating-zimppy--rust-sdk)
-   - [Server (Axum)](#rust-server-axum)
+   - [Mhudumu (Axum)](#rust-server-axum)
    - [Mteja](#rust-client)
-10. [CLI Marejeleo](#cli-reference)
-11. [Sifa Muhimu za Mfano wa Yesu](#key-features)
-12. [Usanifu wa majengo](#architecture)
-13. [Mifano & Demos](#examples--demos)
+10. [Marejeleo ya CLI](#cli-reference)
+11. [Vipengele Muhimu](#key-features)
+12. [Usanifu](#architecture)
+13. [Mifano na Maonyesho](#examples--demos)
 
 ---
 
 ## Zimppy.xyz ni nini?
 
-**Zimppy.xyz** ni faragha-kwanza malipo miundombinu iliyoundwa mahsusi kwa ajili ya mawakala AI na automatiska mashine hadi mashine (M2M) workflows. Inatekeleza ** Mashine Malipo Itifaki (MPP) ** kutumia ** Zcash ** kama sarafu yake msingi, kuwezesha wote shielded (kikamilifu binafsi) na modes uwazi wa kulipa.
+**Zimpy.xyz** ni miundombinu ya malipo ya faragha iliyoundwa mahsusi kwa mawakala wa akili bandia na mtiririko wa kazi otomatiki wa mashine-kwa-mashine (M2M). Inatekeleza **Itifaki ya Malipo ya Mashine (MPP)** kwa kutumia **Zcash** kama sarafu yake ya msingi, ikiwezesha njia za malipo zilizolindwa (za faragha kikamilifu) na za uwazi.
 
-Tofauti na mfumo wa malipo ya jadi blockchain, ambapo kila shughuli ni hadharani inayoonekana kwenye mnyororo, Zimppy imeundwa karibu usanifu kikao-msingi ambayo huondoa kwa ombi latency wakati kuhifadhi faragha cryptographic. Hii inafanya kipekee yanafaa kwa mawakala AI ambao wanahitaji kulipa APIs, data, kompyuta au zana za AI programmatically, bila kuvuja tabia metadata.
+Tofauti na mifumo ya malipo ya blockchain ya kitamaduni, ambapo kila muamala unaonekana hadharani kwenye mnyororo, Zimppy imeundwa kulingana na usanifu unaotegemea kipindi ambao huondoa ucheleweshaji wa kila ombi huku ikihifadhi faragha ya kriptografia. Hii inafanya iwe inafaa kwa mawakala wa AI wanaohitaji kulipia API, data, hesabu, au zana za AI kiprogramu, bila kuvuja metadata ya kitabia.
 
-### Sifa za msingi
+### Sifa Kuu
 
-- ** Kuweka mara moja** kwenye mnyororo (~ sekunde 75 kwa uthibitisho wa Zcash)
-- ** Unlimited maombi ya papo hapo** baada ya kikao kufungua, zero kwa kila ombi mlolongo mwingiliano
-- ** Malipo ya kulindwa** encrypt mtumaji, mpokeaji, kiasi, na memo kutumia Zcash's Orchard itifaki
-- ** Malipo ya uwazi** kutumia kwa changamoto T-anwani za kuzuia replay bila faragha kamili
-- ** Spec-kupatana**, HMAC SHA256 changamoto, RFC 9457 makosa, `/.well-known/payment` ugunduzi
+- **Weka pesa mara moja** kwenye mnyororo (~sekunde 75 kwa uthibitisho wa Zcash)
+- **Maombi ya papo hapo yasiyo na kikomo** baada ya ufunguzi wa kipindi, mwingiliano sifuri wa mnyororo kwa kila ombi
+- **Malipo yaliyolindwa** fiche mtumaji, mpokeaji, kiasi, na memo kwa kutumia itifaki Zcash's Orchard
+- **Malipo ya uwazi** tumia anwani za T kwa kila changamoto kwa ajili ya kuzuia marudio bila faragha kamili
+- **Inatii Maalum**, Changamoto za HMAC-SHA256, Makosa ya RFC 9457, `/.well-known/payment` ugunduzi
 
 ---
 
-## Kwa nini Malipo ya Kufichwa kwa Wakala wa AI?
+## Kwa Nini Malipo Yaliyolindwa kwa Mawakala wa AI?
 
-Kwa mawakala wa AI kushughulikia mtiririko nyeti kazi, utafiti kisheria, maswali ya matibabu, uchambuzi wa kifedha, ushindani akili kwa ** kila malipo ya umma ni metadata kuvuja**. Zimppy ni njia tu MPP malipo ambayo ni ** binafsi na default **.
+Kwa mawakala wa akili bandia wanaoshughulikia mtiririko nyeti wa kazi, utafiti wa kisheria, maswali ya kimatibabu, uchambuzi wa kifedha, akili ya ushindani kwa **kila malipo ya umma ni uvujaji wa metadata**. Zimppy ndiyo njia pekee ya malipo ya MPP ambayo ni **ya faragha kwa chaguo-msingi**.
 
-### Kijitabu cha Kulinganisha Faragha
+### Jedwali la Ulinganisho wa Faragha
 
 | Mali | Minyororo ya Umma (USDC, ETH) | Zimpy Iliyolindwa | Zimpy Uwazi |
 |---|---|---|---|
@@ -75,11 +75,11 @@ Kwa mawakala wa AI kushughulikia mtiririko nyeti kazi, utafiti kisheria, maswali
 | **Ulinzi wa Kurudia** | Hakuna | Kufunga kumbukumbu | Anwani ya T kwa kila changamoto |
 | **Mfumo wa Matumizi ya Huduma** | Inaweza kuunganishwa | Privat | Haiwezi kuunganishwa (anwani mpya) |
 
-### Tatizo la Urefu wa Muda, Litatatuliwa na Vikao vya Mazungumzo
+### Tatizo la Kuchelewa, Linalotatuliwa na Vikao
 
-> * "Lakini Zcash ina 75 sekunde block mara".*
+> *"Lakini Zcash ina muda wa sekunde 75 wa kuzuia."*
 
-** vikao kutatua hili. * On-mnyororo kusubiri hutokea hasa mara moja katika amana. Kila ombi baadae ni papo hapo.
+**Vipindi hutatua hili.** Kusubiri kwa mnyororo hutokea mara moja tu wakati wa kuweka pesa. Kila ombi linalofuata ni la papo hapo.
 
 ```
 Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
@@ -91,39 +91,39 @@ Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  close session                 (refund unused balance)
 ```
 
-** Kulipa mara moja, wito instantly, kupata nyuma mabadiliko.** Per-maombi latency ni sifuri.
+**Lipa mara moja, piga simu mara moja, rudisha chenji.** Muda wa kuchelewa kwa kila ombi ni sifuri.
 
 ---
 
-## Mashine Malipo Itifaki (MPP)
+## Itifaki ya Malipo ya Mashine (MPP)
 
-** Mashine Malipo Itifaki (MPP)** ni itifaki standardized kwamba itawezesha uhuru programu mawakala (AI mawakawa, bots, scripts) kugundua, kujadili na kutimiza mahitaji ya malipo kwa API upatikanaji wote bila uingiliaji wa binadamu.
+**Itifaki ya Malipo ya Mashine (MPP)** ni itifaki sanifu inayowawezesha mawakala wa programu huru (mawakala wa AI, roboti, hati) kugundua, kujadili, na kutimiza mahitaji ya malipo kwa ufikiaji wa API bila kuingilia kati kwa mwanadamu.
 
-### Jinsi MPP Integrates na APIs
+### Jinsi MPP Inavyounganishwa na API
 
-MPP ifuatavyo HTTP **402 Malipo required** mtiririko:
+MPP inafuata mtiririko wa HTTP **402 Payment Required**:
 
-1. **Agent maombi** rasilimali kutoka kulipwa API mwisho.
-2. ** Seva anajibu** na `402 Payment Required` + changamoto iliyosainiwa (kiasi, mpokeaji, memo).
-3. **Agent hulipa** kwa kutumia njia ya malipo sambamba (kwa mfano, Zimppy shielded Zcash).
-4. **Agent reviews** ombi na `Authorization: Payment {txid}`.
-5. ** Seva inathibitisha** malipo cryptographically (Orchard IVK decryption, kiasi + memo kuangalia).
-6. ** Seva anajibu** na `200 OK` + a `Payment-Receipt` kichwa.
+1. **Wakala anaomba** rasilimali kutoka kwa sehemu ya mwisho ya API inayolipishwa.
+2. **Seva hujibu** na `402 Payment Required` + changamoto iliyosainiwa (kiasi, mpokeaji, memo).
+3. **Wakala hulipa** kwa kutumia njia ya malipo inayolingana (km, Zimppy shielded Zcash).
+4. **Wakala anajaribu tena** ombi hilo na `Authorization: Payment {txid}`.
+5. **Seva inathibitisha** malipo kwa njia ya usimbaji fiche (Orchard IVK, kiasi + ukaguzi wa memo).
+6. **Seva hujibu** na `200 OK` + a `Payment-Receipt` kichwa cha habari.
 
-### Spec Utiifu
+### Uzingatiaji Maalum
 
-- **HMAC-SHA256** changamoto kusaini
-- ** RFC 9457** structured makosa majibu
-- **`/.well-known/payment`** mwisho kwa ajili ya kugundua njia moja kwa moja malipo
-- ** Orchard IVK** (Incoming Viewing Key) kwa ajili ya upande wa seva malipo uthibitisho bila kufichua matumizi funguo
+- **HMAC-SHA256** kusaini shindano
+- **RFC 9457** majibu ya hitilafu zilizopangwa
+- **`/.well-known/payment`** sehemu ya mwisho ya ugunduzi wa njia ya malipo kiotomatiki
+- **Orchard IVK** (Incoming Viewing Key) kwa ajili ya uthibitishaji wa malipo upande wa seva bila kufichua funguo za matumizi
 
 ---
 
-## Jinsi Zimppy Inavyofanya Kazi
+## Jinsi Zimpy Inavyofanya Kazi
 
-### Mikutano (Ilipendekezwa)
+### Vipindi (Vinapendekezwa)
 
-Vikao ni msingi mwingiliano mfano. wakala amana usawa on-mnyororo mara moja, anapokea bearer ishara, na kuitumia kwa maombi yote ya baadaye katika zero latency.
+Vipindi ndio muundo mkuu wa mwingiliano. Wakala huweka salio kwenye mnyororo mara moja, hupokea tokeni ya mtoa huduma, na huitumia kwa maombi yote yanayofuata bila kuchelewa kwa sifuri.
 
 ```
 Agent  ->  deposit 100,000 zat           (on-chain, ~75s one-time)
@@ -133,13 +133,13 @@ Agent  ->  GET /api/query + bearer       (instant, balance deducted)
 Agent  ->  close session                 (refund unused balance on-chain)
 ```
 
-** Bora kwa ajili ya:** High-frequency API wito, LLM inference, kurudia data maswali.
+**Inafaa zaidi kwa:** Simu za API zenye masafa ya juu, hitimisho la LLM, maswali ya data yanayorudiwa.
 
 ---
 
-### Streaming
+### Kutiririsha
 
-Pay-kwa ishara ya yaliyomo metered mikononi juu ** Server - Kutumwa Matukio (SSE) **. server deducts kutoka usawa kikao kwa neno au alama streamed.
+Maudhui yaliyopimwa kwa kila tokeni yanayowasilishwa kupitia **Matukio Yaliyotumwa na Seva (SSE)**. Seva huondoa kutoka kwa salio la kipindi kwa kila neno au tokeni inayotiririshwa.
 
 ```
 Agent  ->  open session with deposit
@@ -148,13 +148,13 @@ Server ->  stream word by word, deducting per token
 Agent  ->  close session, refund remaining
 ```
 
-** Bora kwa ajili ya:** LLM majibu Streaming, data katika muda halisi feeds, kulipa-kwa ishara AI zana.
+**Inafaa zaidi kwa:** Majibu ya utiririshaji wa LLM, mipasho ya data ya wakati halisi, zana za akili bandia za kulipia kwa kila tokeni.
 
 ---
 
-### Malipo ya malipo
+### Chaji
 
-Moja ya ulinzi malipo kwa ombi. kamili HTTP 402 mtiririko ni kutekelezwa kwa wito. Yanafaa wakati maombi ni nadra au high-thamani.
+Malipo moja yaliyolindwa kwa kila ombi. Mtiririko kamili wa HTTP 402 unatekelezwa kwa kila simu. Inafaa wakati maombi hayafanyiki mara kwa mara au yenye thamani kubwa.
 
 ```
 Agent  ->  GET /api/resource
@@ -165,15 +165,15 @@ Server ->  decrypt with Orchard IVK, verify amount + memo
 Server ->  200 OK + Payment-Receipt
 ```
 
-** Bora kwa ajili ya:** High thamani moja-off maombi, wito mara chache API, mwisho wa data premium.
+**Inafaa kwa:** Maombi ya mara moja yenye thamani kubwa, simu za API zisizo za mara kwa mara, sehemu za mwisho za data ya malipo.
 
 ---
 
-## Matumizi ya kesi & Mifano
+## Mifano na Kesi za Matumizi
 
-### 1. AI Agent (Mtumiaji wa akili)
+### 1. Wakala wa AI
 
-A kisheria AI wakala maswali kulipwa kesi ya sheria database. Kutumia Zimppy kulindwa vikao, wala utambulisho wa kampuni ya sheria au maalum queries ni inayoonekana kwenye mnyororo - ulinzi mwanasheria-mteja upendeleo katika ngazi miundombinu.
+Wakala wa kisheria wa akili bandia (AI) huuliza hifadhidata ya kesi inayolipiwa. Kwa kutumia vipindi vya Zimppy vilivyolindwa, utambulisho wa kampuni ya sheria wala maswali mahususi hayaonekani kwenye mnyororo - kulinda haki za wakili-mteja katika ngazi ya miundombinu.
 
 ```
 Agent opens session (100,000 zat deposit)
@@ -183,27 +183,27 @@ Agent opens session (100,000 zat deposit)
 Session closed, unused balance refunded
 ```
 
-### 2. AI Agent kwa Medical Uchunguzi Bomba
+### 2. Wakala wa AI wa Bomba la Maswali ya Kimatibabu
 
-Wakala wa uchunguzi wa matibabu anauliza database nyingi za kliniki. Malipo ya kulindwa huhakikisha mifumo ya maswali ya mgonjwa haiwezi kuunganishwa kwa watoa huduma zote.
+Wakala wa uchunguzi wa kimatibabu huuliza hifadhidata nyingi za kimatibabu. Malipo yaliyolindwa huhakikisha kuwa mifumo ya maswali ya mgonjwa haihusiani na watoa huduma wengine.
 
-### 3. Uchambuzi wa Fedha Agent
+### 3. Wakala wa Uchambuzi wa Fedha
 
-algorithmic biashara wakala analipa kwa ajili ya muda halisi soko data APIs. malipo Uwazi kutumia safi T-anwani per changamoto, kuzuia matumizi muundo uwiano katika wauzaji data.
+Wakala wa biashara wa algoriti hulipa API za data ya soko la wakati halisi. Malipo ya uwazi hutumia anwani mpya za T kwa kila changamoto, kuzuia uhusiano wa muundo wa matumizi kati ya wachuuzi wa data.
 
-### 4. MCP Tool Server, kulipwa AI Tools
+### 4. Seva ya Zana ya MCP, Zana za AI Zinazolipishwa
 
-MCP (Model Context Protocol) server inaonyesha zana za AI zilizolipwa. Kila wito wa chombo husababisha malipo ya Zimppy, kuwezesha soko la uwezo wa AI uliopatikana kwa pesa.
+Seva ya MCP (Itifaki ya Muktadha wa Mfano) hufichua zana za AI zinazolipishwa. Kila ombi la zana husababisha malipo ya Zimppy, na kuwezesha soko la uwezo wa AI unaopata pesa.
 
-### 5. LLM Summarizer, Kulipa-Per-Token
+### 5. Muhtasari wa LLM, Lipa kwa Tokeni
 
-An LLM summarization service charges agents per output token via SSE streaming, with automatic balance deduction and refund of unused prepaid balance.
+Huduma ya muhtasari wa LLM inatoza mawakala kila tokeni ya matokeo kupitia utiririshaji wa SSE, pamoja na makato ya salio kiotomatiki na kurejeshewa pesa za salio la kulipia kabla ambalo halijatumika.
 
 ---
 
-## Ufungaji
+## Usakinishaji
 
-### Node.js / TypeScript
+### Node.js / Hati ya Aina
 
 ```bash
 npm install zimppy          # CLI + wallet
@@ -220,37 +220,37 @@ zimppy-rs = "0.5"           # Rust SDK (charge, session, axum)
 
 ---
 
-## Kuweka Up Zimppy Wallet
+## Kuweka Pochi ya Zimpy
 
-Zimppy CLI hutoa interface kamili mkoba. amri zote zinapatikana kupitia `npx zimppy`.
+Zimppy CLI hutoa kiolesura kamili cha pochi. Amri zote zinapatikana kupitia `npx zimppy`.
 
-### Hatua ya 1: Unda Pochi (Wallet)
+### Hatua ya 1: Unda Pochi
 
 ```bash
 npx zimppy wallet create
 ```
 
-Inazalisha funguo za cryptographic na inaonyesha ** mbegu yako phrase. Hifadhi hii salama - haiwezi kurejeshwa ikiwa imepotea.
+Huzalisha funguo za kriptografia na kuonyesha **kifunguo chako cha mbegu**. Hifadhi hii kwa usalama - haiwezi kupatikana ikiwa itapotea.
 
-### Hatua ya 2: Chunguza Anwani Yako na Usawaziko Wako
+### Hatua ya 2: Angalia Anwani Yako na Salio Lako
 
 ```bash
 npx zimppy wallet whoami
 ```
 
-Displays your **Unified Address (UA)**, **T-address**, current balance, and active network.
+Huonyesha **Unified Address (UA)**, **Anwani ya T**, salio la sasa, na mtandao unaotumika.
 
 ```bash
 npx zimppy wallet balance --all
 ```
 
-Inaonyesha per-akaunti usawa kuvunjika katika akaunti zote ZIP-32.
+Inaonyesha uchanganuzi wa salio la kila akaunti katika akaunti zote ZIP-32.
 
-### Hatua ya 3: Weka Pesa Katika Mkoba wako
+### Hatua ya 3: Kufadhili Pochi Yako
 
-Send ZEC to your Unified Address from any Zcash-compatible wallet or exchange. Shielded deposits go directly to your Orchard account.
+Tuma ZEC kwa Unified Address kutoka kwa pochi au ubadilishaji wowote Zcash-compatible. Amana zilizolindwa huenda moja kwa moja kwenye akaunti yako Orchard.
 
-### Hatua ya 4: Tuma na Kulinda Fedha
+### Hatua ya 4: Tuma na Ulinde Fedha
 
 ```bash
 # Send ZEC to any address (shielded or transparent)
@@ -266,19 +266,19 @@ npx zimppy wallet transfer 0 1 50000
 npx zimppy wallet use work
 ```
 
-### Hatua ya 5: Kufanya ombi la malipo moja kwa moja
+### Hatua ya 5: Omba Malipo Kiotomatiki
 
 ```bash
 npx zimppy request <url>
 ```
 
-Moja kwa moja hushughulikia kamili 402 -> kulipa -> jaribu tena mtiririko. vikao ni kufunguliwa na kusimamiwa uwazi.
+Hushughulikia kiotomatiki mtiririko kamili wa 402 -> malipo -> jaribu tena. Vipindi hufunguliwa na kusimamiwa kwa uwazi.
 
 ---
 
 ## Kuunganisha Zimppy - TypeScript SDK
 
-### Seva ya TypeScript - Imehifadhiwa
+### Seva ya TypeScript - Iliyolindwa
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -300,14 +300,14 @@ if (result.status === 402) return result.challenge
 return result.withReceipt(Response.json({ data }))
 ```
 
-** Mambo muhimu:**
-- `zcash({ wallet: 'server' })` mzigo wallet server ya ulinzi
-- `mppx.charge()` kushughulikia nzima 402 changamoto / kuthibitisha maisha mzunguko
-- `result.withReceipt()` huambatanisha risiti ya malipo kwa njia za ki-cryptographic kwenye jibu.
+**Mambo muhimu:**
+- `zcash({ wallet: 'server' })` hupakia pochi iliyolindwa ya seva
+- `mppx.charge()` hushughulikia changamoto kamili ya 402/mzunguko wa maisha wa kuthibitisha
+- `result.withReceipt()` huambatanisha risiti ya malipo ya kriptografia kwenye jibu
 
 ---
 
-### TypeScript Server - Uwazi
+### Seva ya TypeScript - Uwazi
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -319,11 +319,11 @@ const mppx = Mppx.create({
 })
 ```
 
-Kila changamoto inazalisha ** safi T-anwani, kufanya maombi ya malipo unlinkable katika vikao.
+Kila changamoto hutoa **anwani mpya ya T**, na kufanya maombi ya malipo yasiweze kuunganishwa katika vipindi vyote.
 
 ---
 
-### TypeScript Mteja
+### Mteja wa TypeScript
 
 ```typescript
 import { Mppx } from 'mppx/client'
@@ -335,13 +335,13 @@ const mppx = Mppx.create({ methods: [zcash({ wallet: 'default' })] })
 const res = await mppx.fetch('https://api.example.com/resource')
 ```
 
-Mteja intercepts `402` majibu, kufungua kikao moja kwa moja, na retries ombi - wito code inahitaji hakuna malipo maalum mantiki.
+Mteja anaingilia `402` majibu, hufungua kipindi kiotomatiki, na kujaribu tena ombi - msimbo wa kupiga simu hauhitaji mantiki maalum ya malipo.
 
 ---
 
 ## Kuunganisha Zimppy - Rust SDK
 
-### Rust Server (Axum)
+### Seva ya Kutu (Axum)
 
 ```rust
 use mpp::server::axum::*;
@@ -361,14 +361,14 @@ async fn handler(charge: MppCharge<Price>) -> WithReceipt<Json<Value>> {
 }
 ```
 
-** Mambo muhimu:**
-- `MppCharge<Price>` ni Axum extractor kwamba kuthibitisha malipo kabla ya kukimbia handler
-- `WithReceipt` Wrap jibu na risiti ya malipo cryptographic.
-- `ChargeConfig` inafafanua mantiki bei - inaweza kuwa na nguvu kulingana na maombi vigezo
+**Mambo muhimu:**
+- `MppCharge<Price>` ni kichungi cha Axum kinachothibitisha malipo kabla ya mhudumu kuanza
+- `WithReceipt` hufunga jibu kwa risiti ya malipo ya kriptografia
+- `ChargeConfig` hufafanua mantiki ya bei - inaweza kuwa na nguvu kulingana na vigezo vya ombi
 
 ---
 
-### Rust Mteja
+### Mteja wa Kutu
 
 ```rust
 use mpp::client::Fetch;
@@ -382,11 +382,11 @@ let resp = client
     .await?;
 ```
 
-`send_with_payment` huongeza yoyote HTTP mteja na moja kwa moja 402 utunzaji, usimamizi wa kikao, na Zcash malipo kutimiza.
+`send_with_payment` Hupanua mteja yeyote wa HTTP kwa kushughulikia kiotomatiki 402, usimamizi wa vipindi, na utimilifu wa malipo Zcash.
 
 ---
 
-## CLI Marejeleo
+## Marejeleo ya CLI
 
 | Amri | Maelezo |
 |---|---|
@@ -401,37 +401,37 @@ let resp = client
 
 ---
 
-## Sifa Muhimu za Mfano wa Yesu
+## Vipengele Muhimu
 
-### Wakala-Native pochi
+### Pochi za Asili za Wakala
 
-Zimppy pochi ni iliyoundwa kwa ajili ya matumizi programmatic na mawakala AI - si binadamu-kusimamiwa browser upanuzi. funguo zinasimamiwa kupitia CLI au SDKs, akaunti inaweza kuzungushwa kupitia **ZIP-32 derivation account**, na mkoba inasaidia kikamilifu automatiska malipo kati yake bila kibali cha mwanadamu kila shughuli.
+Pochi za Zimpy zimeundwa kwa ajili ya matumizi ya kiprogramu na mawakala wa akili bandia (AI) - si viendelezi vya kivinjari vinavyosimamiwa na binadamu. Funguo zinasimamiwa kupitia CLI au SDK, akaunti zinaweza kuzungushwa kupitia **ZIP-32 derivation**, na pochi inasaidia mtiririko wa malipo otomatiki bila idhini ya binadamu kwa kila muamala.
 
-### Multi-Agent Support (Msaada wa Wakala Mbalimbali)
+### Usaidizi wa Mawakala Wengi
 
-Multiple agents can operate from the same wallet using **ZIP-32 account rotation** - each agent gets its own account with isolated balance tracking, cross-account transfer capability, and per-account balance reporting. This enables fleet management of many agents from a single wallet infrastructure.
+Mawakala wengi wanaweza kufanya kazi kutoka kwa pochi moja kwa kutumia **ZIP-32** - kila wakala hupata akaunti yake yenye ufuatiliaji wa salio uliotengwa, uwezo wa kuhamisha akaunti mtambuka, na kuripoti salio kwa kila akaunti. Hii inawezesha usimamizi wa meli wa mawakala wengi kutoka kwa miundombinu ya pochi moja.
 
-### Usimamizi wa Fedha za Zcash (Orchard)
+### Miamala Zcash Iliyolindwa Kikamilifu (Orchard)
 
-Shielded payments use Zcash's **Orchard protocol** - the latest and most secure shielded pool. The server verifies payments using an **Incoming Viewing Key (IVK)**, which can decrypt received notes without exposing the spending key. Replay attacks are prevented via **memo binding** - each challenge embeds a unique `zimppy:{challenge_id}` memo kwamba ni cryptographically kuthibitishwa.
+Malipo yaliyolindwa hutumia itifaki Zcash's **Orchard**, kundi lililolindwa lililoanzishwa na NU5. Seva huthibitisha malipo kwa kutumia **Incoming Viewing Key (IVK)**, ambao unaweza kusimbua noti zilizopokelewa bila kufichua ufunguo wa matumizi. Mashambulizi ya kucheza tena yanazuiwa kupitia **kuunganisha memo** - kila changamoto huingiza kipengele cha kipekee `zimppy:{challenge_id}` memo ambayo imethibitishwa kwa njia ya usimbaji fiche.
 
-### Vikao , Zero-Per-Request Latency (Hakuna wakati wa kusubiri kwa ombi)
+### Vipindi, Muda wa Kuchelewa kwa Kila Ombi
 
-Usanifu wa kikao decouples on-mnyororo uthibitisho kusubiri kutoka kwa kila ombi latency. Baada ya amana moja (~ sekunde 75), yote baadaye mtoa ishara maombi ni kutumika instantly na hakuna ushirikiano blockchain mpaka kikao karibu.
+Usanifu wa kipindi hutenganisha kusubiri kwa uthibitisho kwenye mnyororo kutoka kwa ucheleweshaji wa kila ombi. Baada ya amana moja (~sekunde 75), maombi yote yanayofuata ya tokeni ya mtoa huduma huhudumiwa mara moja bila mwingiliano wa blockchain hadi kipindi kitakapofungwa.
 
-### Streaming , Pay-Per-Token (Kulipa kwa kila Token)
+### Kutiririsha, Lipa kwa Tokeni
 
-Asili ** SSE (Server-Sent Matukio) msaada inawezesha kulipa kwa ishara kipimo maudhui. Bora kwa LLM inference APIs ambapo pato urefu ni kutofautiana na bili lazima kutafakari matumizi halisi.
+Usaidizi wa Native **SSE (Seva-Sent Events)** huwezesha maudhui yaliyopimwa kwa kila tokeni. Inafaa kwa API za makadirio ya LLM ambapo urefu wa matokeo hutofautiana na bili inapaswa kuakisi matumizi halisi.
 
-### Spec Utiifu
+### Uzingatiaji Maalum
 
-- ** HMAC-SHA256** imesainiwa changamoto kuzuia bandia
-- ** RFC 9457** umeboreshwa kosa format kwa ajili ya kushughulikia makosa interoperable
-- **`/.well-known/payment`** kwa ajili ya moja kwa moja njia malipo kugundua na wakala yoyote MPP-kufuata
+- **HMAC-SHA256** changamoto zilizosainiwa kuzuia kughushi
+- **RFC 9457** muundo wa hitilafu kwa ajili ya kushughulikia hitilafu zinazoweza kuendeshwa kwa pamoja
+- **`/.well-known/payment`** kwa ugunduzi wa njia ya malipo kiotomatiki na wakala yeyote anayetii MPP
 
 ---
 
-## Usanifu wa majengo
+## Usanifu
 
 ```
 crates/
@@ -445,34 +445,34 @@ packages/
   zimppy-cli/        CLI with auto-pay and session management
 ```
 
-### Majukumu ya Sehemu
+### Majukumu ya Kipengele
 
-**`zimppy-core`** - msingi cryptographic. Hushughulikia Orchard kumbuka decryption kutumia IVK server ya, memo parsing, replay ulinzi mantiki na changamoto uthibitisho. Imeandikwa katika kutu kwa ajili ya utendaji na usahihi.
+**`zimppy-core`** - Kiini cha usimbaji fiche. Hushughulikia usimbaji fiche wa noti Orchard kwa kutumia IVK ya seva, uchanganuzi wa kumbukumbu, mantiki ya ulinzi wa marudio, na uthibitishaji wa changamoto. Imeandikwa kwa Rust kwa utendaji na usahihi.
 
-**`zimppy-wallet`** - Asili Zcash mkoba powered by `zingolib`. Inasimamia funguo, akaunti, walinzi / usawa wa uwazi na kuwasilisha shughuli.
+**`zimppy-wallet`** - Pochi ya asili Zcash inayoendeshwa na `zingolib`Husimamia funguo, akaunti, salio lililolindwa/wazi, na uwasilishaji wa miamala.
 
-**`zimppy-rs`** - Rust SDK. Inatoa `ChargeMethod`, `SessionMethod`, na `PaymentProvider` traits, pamoja na Axum extractors (`MppCharge`, `WithReceipt`) kwa ajili ya ushirikiano wa seva ergonomic.
+**`zimppy-rs`** - Rust SDK. Hutoa `ChargeMethod`, `SessionMethod`na `PaymentProvider` sifa, pamoja na uchimbaji wa Axum (`MppCharge`, `WithReceipt`) kwa ajili ya ujumuishaji wa seva zenye ergonomic.
 
-**`zimppy-napi`** - NAPI-RS bindings kwamba yatangaza Rust msingi kwa Node.js, kuwezesha TypeScript SDK kutumia injini hiyo cryptographic bila reimplementing Zcash primitives katika JavaScript.
+**`zimppy-napi`** - Vifungo vya NAPI-RS vinavyoweka kiini cha Rust kwenye Node.js, kuwezesha TypeScript SDK kutumia injini ile ile ya usimbaji bila kutekeleza tena viambishi awali vya Zcash katika JavaScript.
 
-**`zimppy-ts`** - TypeScript SDK. Wraps NAPI bindings na idiomatic async / kusubiri APIs kwa malipo, kikao, na SSE mtiririko wa mkondo.
+**`zimppy-ts`** - TypeScript SDK. Hufunga vifungo vya NAPI kwa kutumia API za async/await za idiomatic kwa ajili ya kuchaji, kipindi, na mtiririko wa utiririshaji wa SSE.
 
-**`zimppy-cli`** - amri-line mkoba na ombi chombo. Inasaidia auto kulipa (402 -> kulipa -> jaribu tena), usimamizi wa kikao, na shughuli zote mfuko wa fedha.
+**`zimppy-cli`** - Pochi ya mstari wa amri na zana ya ombi. Inasaidia kulipa kiotomatiki (402 -> kulipa -> kujaribu tena), usimamizi wa kipindi, na shughuli zote za pochi.
 
 ---
 
-## Mifano & Demos
+## Mifano na Maonyesho
 
 | Mfano | Maelezo |
 |---|---|
 | `examples/fortune-teller/` | Chaji, kipindi, na maonyesho ya utiririshaji - Seva ya kutu + mteja |
 | `examples/llm-summarizer/` | Onyesho la utiririshaji la LLM la malipo kwa kila tokeni |
 | `examples/mcp-server/` | Seva ya zana ya MCP yenye zana za akili bandia zinazolipishwa |
-| `examples/ts-server/` | Utekelezaji wa marejeleo ya seva TypeScript MPP |
+| `examples/ts-server/` | Utekelezaji wa marejeleo ya seva ya TypeScript MPP |
 
 ---
 
-## Mambo Yaliyo Ndani - Muhtasari wa Sehemu za Kitabu hicho
+## Yaliyojumuishwa - Muhtasari wa Vipengele
 
 | Kipengele | Maelezo |
 |---|---|
@@ -482,19 +482,19 @@ packages/
 | **Malipo ya Uwazi** | Anwani za T zenye amri ya kuzuia marudio kwa kila changamoto + ngao |
 | **Akaunti Nyingi** | Mzunguko wa akaunti ya ZIP-32, uhamisho wa akaunti mtambuka, salio kwa kila akaunti |
 | **Pochi ya CLI** | Tuma, ngao, uhamisho, salio --all, whoami, lipa kiotomatiki |
-| **SDK mbili** | TypeScript na Kutu |
+| **SDK mbili** | Hati ya Aina na Kutu |
 | **Inafuata Maalum** | Changamoto za HMAC-SHA256, makosa ya RFC 9457, `/.well-known/payment` ugunduzi |
 
 ---
 
-*Kwa habari zaidi, tembelea tovuti ya www.europa.eu/communion_environment [zimppy.xyz](https://zimppy.xyz)*
+*Kwa maelezo zaidi, tembelea [zimpy.xyz](https://zimppy.xyz)*
 
 ---
 
 ## Kurasa Zinazohusiana
 
-- [Mkoba](/using-zcash/wallets)  Zcash pochi kwamba msaada ulinzi shughuli
-- [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](/using-zcash/shielded-pools)  Jinsi Orchard kulinda shughuli kulinda data ya malipo
-- [Usindikaji wa Malipo](/using-zcash/payment-processors)  Njia nyingine za kukubali malipo ya Zcash
-- [Zcash Shielded Mali za fedha](/zcash-tech/zcash-shielded-assets)  ZSAs na siku zijazo za programu ya Zcash
-- [Miradi ya Jumuiya](/zcash-community/community-projects)  Miradi zaidi ya mazingira Zcash
+- [Pochi](/using-zcash/wallets) — Pochi Zcash zinazounga mkono miamala iliyolindwa
+- [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools) — Jinsi miamala iliyolindwa na Orchard inavyolinda data ya malipo
+- [Wachakataji wa Malipo](/using-zcash/payment-processors) — Njia zingine za kukubali malipo Zcash
+- [Mali Zilizolindwa za Zcash](/zcash-tech/zcash-shielded-assets) — ZSA na mustakabali wa upangaji programu wa Zcash
+- [Miradi ya Jamii](/zcash-community/community-projects) — Miradi zaidi ya mfumo ikolojia Zcash

@@ -16,7 +16,6 @@
 | roomatemusing              | 随想与社区内容                            | [访问 ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | 聚焦 Zcash 开发与工具的技术博客    | [访问 ->](https://blog.nerdbank.net/) |
 | ZecMec                     | 发布在 Medium 上、聚焦 Zcash 的文章                         | [访问 ->](https://zecmec21.medium.com/) |
-| Ian Sagstetter             | 深度文章与新闻通讯                         | [访问 ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)     | 聚焦隐私的高规格访谈与内容           | [访问 ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | 富有创意、由社区推动的 Zcash 内容              | [访问 ->](https://free2z.cash/sqribbles) |
 | Str4d                      | 来自 Zcash 核心开发者的技术写作             | [访问 ->](https://words.str4d.xyz/) |

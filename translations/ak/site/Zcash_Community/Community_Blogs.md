@@ -2,9 +2,9 @@
 
 # Mpɔtam hɔ Blogs
 
-Nnipa a wɔwɔ mpɔtam hɔ no yɛ blogs pa pii wɔ Zcash, ahobammɔ, cryptocurrency ne nsɛm foforo ho.
+Mpɔtam hɔfoɔ di blog ahodoɔ pii a ɛyɛ papa a ɛfa Zcash, kokoamsɛm, cryptocurrency, ne nsɛm a ɛfa ho.
 
-Emu bi a ɛreyɛ adwuma no ni:
+Wɔn a wɔyɛ nnam no bi ni:
 
 | Blog / Ɔkyerɛwfo              | Nkyerɛmu                                              | Link |
 |----------------------------|----------------------------------------------------------|------|
@@ -15,15 +15,14 @@ Emu bi a ɛreyɛ adwuma no ni:
 | Thumbs’ Nsɛm a Wɔayɛ no Foforo             | Abɔde a nkwa wom ho nhyehyɛe foforo ne nhumu a wɔde ma daa                   | [Nsrahwɛ ->](https://thumbsup.substack.com) |
 | roomatemusing a wɔde di agoru              | Musings ne mpɔtam hɔ nsɛm                            | [Nsrahwɛ ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog a ɛwɔ hɔ              | Technical blog twee adwene sii Zcash nkɔso ne nnwinnade so    | [Nsrahwɛ ->](https://blog.nerdbank.net/) |
-| ZecMec                     | Nsɛm Zcash-focused wɔ Medium so                         | [Nsrahwɛ ->](https://zecmec21.medium.com/) |
-| Ian Sagstetter na ɔkyerɛwee             | Nsɛm a emu dɔ ne nsɛmma nhoma                         | [Nsrahwɛ ->](https://iansagstetter.substack.com/) |
+| ZecMec na ɔkyerɛwee                     | Nsɛm Zcash-focused wɔ Medium so                         | [Nsrahwɛ ->](https://zecmec21.medium.com/) |
 | Naomi Brockwell (NBTV) na ɔde ne nsa kyerɛɛ ne so     | Nsɛmbisa a ɛkorɔn ne emu nsɛm a ɛfa kokoam nsɛm ho           | [Nsrahwɛ ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles a wɔde kyerɛw nsɛm                  | Adebɔ ne mpɔtam hɔfo a wɔde Zcash nneɛma di dwuma              | [Nsrahwɛ ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Mfiridwuma ho nkyerɛwee a efi Zcash core developer hɔ             | [Nsrahwɛ ->](https://words.str4d.xyz/) |
-| CipherScan Nnawɔtwe biara          | Nnawɔtwe biara blog nsɛm a ɛfa Zcash blockchain analytics ho    | [Nsrahwɛ ->](https://cipherscan.app/) |
+| CipherScan Nnawɔtwe Biara          | Nnawɔtwe biara blog nsɛm a ɛfa Zcash blockchain analytics ho    | [Nsrahwɛ ->](https://cipherscan.app/) |
 | Zcash Shielded Nsɛm ho amanneɛbɔ        | Nnawɔtwe biara kokoam nsɛm ne abɔde a nkwa wom ho amanneɛbɔ digest                 | [Nsrahwɛ ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog na ɔkyerɛwee            | Nsɛm ne nkyerɛkyerɛ mu nsɛm a efi ZecHub DAO mpɔtam hɔ | [Nsrahwɛ ->](https://zechub.wiki) |
 
 ---
 
-Sε wopε sε ZecHub de wo nkrataa a w'atwerɛ no bi bͻto gua anaa wode wo ankasa blog ka ho wɔ ha, yεεsε to nsa frɛ kɔfa nsusuyεm!
+Blog ahorow bi a mpɔtam hɔfo de amena ni. Sɛ wopɛ sɛ ZecHub de wo blog nsɛm no mu baako kyerɛ anaasɛ ɛde w’ankasa blog ka ho wɔ ha a, yɛsrɛ wo yɛ Pull Request a nsɛm no ka ho!

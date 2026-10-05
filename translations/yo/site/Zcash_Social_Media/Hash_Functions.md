@@ -1,99 +1,99 @@
-# Ìmọ̀ Nẹ́rẹ́ sí Nẹ̀rẹ́: Àwọn Àṣiṣẹ́ Hash
+# Ìmọ̀ òdo sí òdo: Àwọn Iṣẹ́ Hash
 
-** Ìfilọ́lẹ̀ Ìtòlẹ́sẹẹsẹ** 
-A kí yín káàbọ̀ sí ìtòlẹ́sẹẹsẹ tuntun: **Zero to Zero Knowledge**! 
+**Ìfihàn Ṣíṣeré** 
+Ẹ kú àbọ̀ sí ìtẹ̀jáde tuntun kan: **Ìmọ̀ Òdo sí Òdo**! 
 
-Ninu jara yii a yoo kọ awọn ipilẹ lori ọpọlọpọ awọn imọ-ẹrọ ti o lọ sinu awọn ilana aabo aṣiri wa.
-
----
-
-## Apá 1: Awọn iṣẹ Hash
-
-Today we start with **Hash Functions** - a key piece of cryptography used in blockchains. Later in this series we'll cover some topics that rely on their properties.
-
-### Kí ni Àṣekárími?
-
-Awọn iṣẹ Hash gba ohun ti o wọle ti eyikeyi gigun ati ṣe agbejade iṣelọpọ ti gigun titilai.
-
-- Ìsọfúnni tí a fẹ́ ṣe àdàkọ rẹ̀ = Input 
-- **Alugoridimu ti a lo** = Iṣẹ́ Hash 
-- **Ohun tí ó jẹ́ àbájáde rẹ̀** = Iye Hash 
-
-
-![Àwòrán iṣẹ́ hash](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
-
-### O lè gbìyànjú ẹ̀ wò fúnra rẹ!
-
-Ẹ jẹ́ ká lo ohun èlò yìí láti fi mọ ohun tó ń ṣẹlẹ̀! 
-Tẹ eyikeyi ọrọ ti o yanilenu lati ṣe agbejade abajade ti o wa titi. Ṣayẹwo bi abajade ṣe yatọ da lori algorithm hashing ti o yatọ.
-
-Gbìyànjú rẹ̀ wò: https://cryptii.com/pipes/hash-function
+Nínú àtẹ̀jáde yìí, a ó kọ́ àwọn ìpìlẹ̀ lórí onírúurú ìmọ̀ ẹ̀rọ tí ó wọ inú àwọn ìlànà ìpamọ́ ìpamọ́ wa.
 
 ---
 
-### Awọn ohun-ini ti Awọn iṣẹ Hash Cryptographic
+## Apá 1: Àwọn Iṣẹ́ Hash
 
-Awọn iṣẹ Hash Cryptographic gbọdọ ni awọn ohun-ini ** 3 wọnyi **:
+Lónìí a bẹ̀rẹ̀ pẹ̀lú **Hash Functions** - kókó pàtàkì kan nínú ìkọ̀kọ̀ tí a ń lò nínú blockchains. Nígbà tó bá yá nínú jara yìí, a ó sọ̀rọ̀ nípa àwọn kókó kan tí ó gbára lé àwọn ànímọ́ wọn.
 
-1. **One-way** - Kò yẹ kó ṣeé ṣe láti yí iṣẹ́ hash padà 
-2. **Ohun ti o ni idiwọ ijamba** - Awọn titẹsi oriṣiriṣi meji ko gbọdọ ṣajọ si abajade kanna 
-3. **Deterministic** - Fun eyikeyi input, a hash iṣẹ gbọdọ nigbagbogbo fun awọn kanna esi
+### Kí ni iṣẹ́ Hash?
 
----
+Àwọn iṣẹ́ Hash gba ìtẹ̀síwájú gígùn èyíkéyìí ó sì mú ìjáde gígùn tí a ti pinnu jáde wá.
 
-### Awọn iṣẹ Hash ti o wọpọ
+- **Ifiranṣẹ lati wa ni hashed** = Input 
+- **Alugoridimu tí a lò** = Iṣẹ́ Hash 
+- **Ìjáde tó jáde** = Iye Hash 
 
-Àwọn ẹ̀ka bíi mélòó kan ti àwọn iṣẹ́ Hash wà.
 
-- Alugoridimu Ṣiṣan Aabo (**SHA-3**) 
-- Alugoridimu Àkójọ Ìsọfúnni 5 (**MD5**) 
-- **BLAKE2b** - Ti a lo ninu itọsẹ bọtini Zcash
+![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
-** Ìfilọ̀ sí BLAKE2 látọ̀dọ̀ Zooko**: https://www.zfnd.org/blog/blake2/
+### Gbìyànjú rẹ̀ fúnra rẹ!
 
----
+Ẹ jẹ́ ká gba òye tó jinlẹ̀ nípa lílo irinṣẹ́ yìí! 
+Tẹ eyikeyi ọrọ lainidii sii lati ṣe agbejade ipari ti o wa titi. Ṣakiyesi bi abajade ṣe yatọ si da lori awọn algoridimu hashing oriṣiriṣi.
 
-### Àwọn Ìlò Ayé Òtítọ́ ti Àwọn Àṣiṣẹ́ Hash
-
-#### 1. Ìdánilójú Ìṣòtítọ́ (Ìdánwò Ìdákẹ́ńkọ́pọ̀ Ìsọfúnni)
-Awọn ayẹwo iduroṣinṣin data jẹ apẹẹrẹ ti "Integrity Hashing". Wọn lo lati ṣe agbekalẹ awọn iṣayẹwo lori awọn faili data ati pese idaniloju ti ododo si olumulo kan.
-
-![Àpẹẹrẹ Ìdálẹ́gbẹ́ Ọkàn](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
-
-#### Àwọn Igi Merkle (Igi Hash)
-A **hash tree** or **Merkle tree** is composed of branches and leaf nodes that are labelled with the cryptographic hash of a data block.
-
-![Àwòrán igi Merkle](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
-
-Awọn igi Merkle jẹ apẹẹrẹ ti ** eto ifaramọ crypto **. A wo gbongbo igi bi ifaramó ati awọn igun oju ewe ti a fihan lati jẹ apakan ti ifarada atilẹba.
-
-Wọn ṣayẹwo data ti o fipamọ tabi gbigbe lori awọn nẹtiwọọki P2P, ni idaniloju data ti a gba lati ọdọ awọn ẹlẹgbẹ ko yipada.
-
-#### 3. Wo Igi Iṣeduro ni Zcash
-Ninu Zcash **Sapling** & **Orchard** awọn adagun ti o ni aabo, a lo **Ile-iṣowo Iṣeduro Akọsilẹ** lati ṣayẹwo awọn iṣowo jẹ wulo lodi si ifọkanbalẹ lakoko ti o fi aaye pamọ oluranlowo, olugba ati awọn iye ti o lo.
-
-#### 4. Hash ìmúṣẹ (àwọn àlàfo Bitcoin-style)
-**SHA256** jẹ́ àpẹẹrẹ "Signature hash" tí wọ́n máa ń lò láti mú kí ìdìpọ̀ kọ̀ọ̀kan nínú Bitcoin jẹ́ aláìṣeé yí padà. Àwọn oníṣẹ́ ìwakùsà máa ń lo ìdìpò̀ ti ìdìpákọ̀ tó ṣáájú + Ìdìpọ̀ ti gbogbo ìsòwò nínú ìdìwọ̀ tó wà nísinsìnyìí (hashMerkleRoot) + Àmì àsìkò + iye tí kò ṣeé ṣe/ìṣòro nẹ́ẹ̀tì fún àwọn ìdìpẹ̀ tuntun.
-
-![SHA256 Àkọsílẹ̀ àlàfo!](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
-
-#### 5. Equihash (Ìwakùsà Zcash)
-**Equihash** ni alugoridimu hashing ti a lo ninu iwakusa Zcash. O tun lo nipasẹ awọn nẹtiwọọki bii Komodo & Horizen.
-
-** Oríṣun Zcash Blog lórí Equihash**: https://electriccoin.co/blog/equihash/
+**Gbìyànjú rẹ̀:** https://cryptii.com/pipes/hash-function
 
 ---
 
-### Àwọn Ohun Míì Tó Yẹ Kó O Kà
+### Àwọn ohun ìní ti Cryptographic Hash Awọn iṣẹ́
 
-To build a greater understanding of the different types of hash functions and their associated uses, this is an excellent resource:  
+Àwọn iṣẹ́ Hash ìkọ̀kọ̀ gbọ́dọ̀ ní àwọn ohun ìní mẹ́ta wọ̀nyí**:
+
+1. **Ọ̀nà kan ṣoṣo** - Kò yẹ kí ó ṣeé ṣe láti yí iṣẹ́ hash padà 
+2. **Agbára ìkọlù** - Àwọn ìtẹ̀jáde méjì tó yàtọ̀ kò gbọdọ̀ yípadà sí ìjáde kan náà 
+3. **Ipinnu** - Fun eyikeyi titẹ sii, iṣẹ hash gbọdọ funni ni abajade kanna nigbagbogbo
+
+---
+
+### Àwọn Iṣẹ́ Hash tí a Wọ́pọ̀
+
+Ọ̀pọ̀lọpọ̀ ìpele iṣẹ́ Hash ló wà. Àwọn àpẹẹrẹ díẹ̀:
+
+- Algorithm Hashing Secure (**SHA-3**) 
+- Àlàyé Ìránṣẹ́ 5 (**MD5**) 
+- **BLAKE2b** - A lo ninu ìtújáde bọtini Zcash
+
+**Ìfihàn sí BLAKE2**: https://www.blake2.net
+
+---
+
+### Àwọn lílo Hash Fun Awọn Iṣẹ́ Àgbáyé Gíga
+
+#### 1. Ìdènà Ìwà-bí-Ọlọ́run (Àwọn Àyẹ̀wò Ìwà-bí-Ọlọ́run Dátà)
+Àwọn àyẹ̀wò ìdúróṣinṣin dátà jẹ́ àpẹẹrẹ "Ìdúróṣinṣin Hashing". Wọ́n ń lò wọ́n láti ṣe àyẹ̀wò àwọn fáìlì dátà àti láti fún olùlò ní ìdánilójú pé ó tọ́.
+
+![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
+
+#### 2. Àwọn Igi Merkle (Àwọn Igi Hash)
+Igi **hash** tàbí **Merkle** ni a fi àwọn ẹ̀ka àti ewé ṣe tí a fi àmì ìkọ̀kọ̀ ti ìdènà dátà kan.
+
+![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
+
+Àwọn igi Merkle jẹ́ àpẹẹrẹ ètò ìfọwọ́sowọ́pọ̀ **ìwé-àfọwọ́sọ**. A rí gbòǹgbò igi náà gẹ́gẹ́ bí ìfọwọ́sowọ́pọ̀ àti àwọn ewé tí a fihàn pé ó jẹ́ ara ìfọwọ́sowọ́pọ̀ àkọ́kọ́.
+
+Wọ́n ń fìdí àwọn dátà tí a tọ́jú tàbí tí a gbé sórí àwọn nẹ́tíwọ́ọ̀kì P2P múlẹ̀, wọ́n sì ń rí i dájú pé àwọn dátà tí a gbà láti ọ̀dọ̀ àwọn ẹlẹgbẹ́ wa kò yí padà.
+
+#### 3. Igi Ifaramo Akọsilẹ ni Zcash
+Nínú àwọn adágún Zcash **Sapling** àti **Orchard** tí wọ́n ní ààbò, a lo **Note Commitment Tree** láti rí i dájú pé àwọn ìṣòwò wúlò lòdì sí ìfohùnṣọ̀kan nígbàtí a fi olùránṣẹ́, olùgbà àti iye tí a jẹ pamọ́ pátápátá.
+
+#### 4. Signature Hash (Àwọn búlọ́ọ̀kù bíi Bitcoin)
+**SHA256** jẹ́ àpẹẹrẹ "Hash Ibuwọlu" tí a lò láti fi agbára mú kí gbogbo bulọọki nínú ẹ̀wọ̀n Bitcoin lágbára. Àwọn awakùsà máa ń lo hash ti bulọọki tẹ́lẹ̀ + Hash ti gbogbo ìṣòwò nínú bulọọki lọ́wọ́lọ́wọ́ (hashMerkleRoot) + Timestamp + ìṣòro àìròtẹ́lẹ̀ / nẹ́tíwọ́ọ̀kì fún àwọn bulọọki tuntun.
+
+![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
+
+#### 5. Equihash (Zcash)
+**Equihash** ni algoridimu hashing tí a lò nínú wíwakùsà Zcash. Àwọn nẹ́tíwọ́ọ̀kì bíi Komodo & Horizen tún ń lò ó.
+
+**Equihash: Ẹ̀rí Iṣẹ́ Àìdọ́gba Tí Ó Dá Lórí Ìṣòro Ọjọ́ Ìbí Gbogbogbò** (Biryukov àti Khovratovich): https://eprint.iacr.org/2015/946
+
+---
+
+### Kíkà Síwájú
+
+Láti kọ́ òye tó jinlẹ̀ nípa àwọn oríṣiríṣi iṣẹ́ hash àti àwọn lílò wọn tó ní í ṣe pẹ̀lú wọn, orísun tó dára gan-an nìyí: 
 https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
-**Ohun tí ZecHub (@ZecHub) gbé jáde** 
-Ìpilẹ̀ṣẹ̀ X: https://x.com/ZecHub/status/1621240109663227906  
+**Ìwé láti ọwọ́ ZecHub (@ZecHub)** 
+Ìfọ̀rọ̀wérọ̀ X àtilẹ̀bá: https://x.com/ZecHub/status/1621240109663227906  
 
 ---
 
-*Ojúewé yìí ni a kó jọ láti inú àkọsílẹ̀ Zero to Zero Knowledge fún wiki ZecHub.*
+*A ṣe àkójọ ojú ìwé yìí láti inú ìfọ̀rọ̀wérọ̀ Zero sí Zero Knowledge àtilẹ̀wá fún wiki ZecHub.*

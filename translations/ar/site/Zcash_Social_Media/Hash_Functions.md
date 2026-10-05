@@ -49,7 +49,7 @@
 - خوارزمية Message Digest 5 (**MD5**)  
 - **BLAKE2b** - تُستخدم في اشتقاق مفاتيح Zcash
 
-**مقدمة إلى BLAKE2 من Zooko**: https://www.zfnd.org/blog/blake2/
+**مقدمة إلى BLAKE2**: https://www.blake2.net
 
 ---
 
@@ -80,7 +80,7 @@
 #### 5. Equihash (تعدين Zcash)
 **Equihash** هي خوارزمية Hash المستخدمة في تعدين Zcash. كما تُستخدم أيضًا من قِبل شبكات مثل Komodo وHorizen.
 
-**مدونة Zcash الأصلية حول Equihash**: https://electriccoin.co/blog/equihash/
+**Equihash: إثبات عمل غير متماثل قائم على مسألة عيد الميلاد المعممة** (Biryukov وKhovratovich): https://eprint.iacr.org/2015/946
 
 ---
 

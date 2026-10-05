@@ -1,4 +1,4 @@
-# Zero va ɖo Zero Sidzedze: Transparent vs Shielded Transactions & Adrɛs Siwo Wowɔ Ðeka
+# Zero vaseɖe Zero Sidzedze: Transparent vs Shielded Transactions & Adrɛs Siwo Wowɔ Ðeka
 
 **Series:** Zero vaseɖe Zero Sidzedze
 
@@ -11,7 +11,7 @@ Egbea míesrɔ̃ nu tso wo ŋu & ƒo nu tso nu yeye siwo le #Zcash ecosystem me 
 ## Transparent vs Shielded Asitsatsa
 
 - **Adzɔnuwɔna siwo me kɔ** zãa **t-adrɛs** (Base58 encoded). Nusianu dzena le dutoƒo - abe Bitcoin ene. 
-- **Shielded Transactions** zãa adrɛs siwo woŋlɔ ɖe kɔpi me na **Sapling** alo **Orchard** taawo. Esiawo ɣlaa ame si ɖoe ɖa, amesi xɔe, kple ga home to kpeɖodzi siwo me sidzedze aɖeke mele o zazã me.
+- **Shielded Transactions** zãa adrɛs siwo woŋlɔ ɖe kɔpi me na **Sapling** alo **Orchard** taawo. Esiawo ɣlaa ame si ɖoe ɖa, amesi xɔe, kple ga home to kpeɖodzi siwo me sidzedze zero mele o zazã me.
 
 **Shielded Transaction** fia asitsatsa ɖesiaɖe si ƒe adrɛswo woŋlɔ na Sapling/Orchard pools.
 
@@ -21,13 +21,13 @@ Wotrɔ asi le **Unified Addresses (UAs)** be woatsɔ **awɔ ɖeka** adzɔnu siwo
 
 ---
 
-## Adrɛs Ƒomeviwo le Zcash me
+## Adrɛs Ƒomeviwo le Zcash
 
 Adrɛs ƒomevi 3 ye wozãna:
 
 1. **(T) Nusi me kɔ** – Gɔmeɖoanyi58 
-2. **(Z) Sapling** – Bech32  
-3. **(UA) Unified Address** – Bech32m  
+2. **(Z) Sapling** – Bech32 
+3. **(UA) Unified Address** – Bech32m 
 
 Ŋɔŋlɔdzesiwo ƒe xexlẽme (eye le esia ta QR-kɔda ƒe lolome) dzina ɖe edzi le ƒomevi ɖesiaɖe me.
 
@@ -42,13 +42,13 @@ Adrɛs ƒomevi 3 ye wozãna:
 Woŋlɔa adrɛswo kple safuiwo ɖe kɔpi me abe byte ƒe ɖoɖo ene (**Raw Encoding**). 
 **Receiver Encoding** lɔ nyatakaka siwo katã hiã be woatsɔ atsɔ nunɔamesi aɖe ayi teƒe bubu to ɖoɖo tɔxɛ aɖe zazã me.
 
-The raw encoding of a Unified Address is a combination of encodings (typecode, length, addr) of receivers:
+Unified Address ƒe encoding xoxo nye encodings (typecode, length, addr) siwo le receivers ƒe ƒuƒoƒo:
 
 - UA: `0x03`  
 - Sapling: `0x02`  
 - Si me kɔ: `0x01`  
 
-**Vevietɔ**: Ele be **fexexe ƒe adrɛs ɖeka ya teti si wokpɔ ta na** nanɔ UA ɖesiaɖe me. (Womegale asi kpem ɖe Sprout adrɛswo ŋu le Canopy ƒe dodoɖeŋgɔ megbe o.)
+**Vevietɔ**: Ele be **fexexe ƒe adrɛs ɖeka ya teti si wokpɔ ta na** nanɔ UA ɖesiaɖe me. (Sprout adrɛswo ŋu le Canopy ƒe dodoɖeŋgɔ megbe o.)
 
 ![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
@@ -66,7 +66,7 @@ Esia nye tɔtrɔ vevi aɖe si le kpekpem ɖe ZEC geɖe wu ŋu xoxo be woaʋu ayi
 
 ---
 
-## Orchard Transactions & Actions
+## Orchard Asitsatsa & Nuwɔnawo
 
 Orchard to nukpɔsusu yeye aɖe vɛ si woyɔna be **Actions**:
 
@@ -91,27 +91,27 @@ Daira ɖe Anchor ƒe nɔƒewo me (zcon3):
 
 ## Asixɔxɔ ƒe Dadaɖeanyi & Adzamenyawo
 
-Le go aɖewo me (e.g. cross-pool transactions) ga homewo ateŋu adze na gotagome ŋkuléla. Gake la, `valueBalanceSapling` kple `valueBalanceOrchard` zã **homomorphic commitments** tsɔ ɖo kpe ZEC bliboa dzi le tadeaguƒe siwo wokpɔ ta na me eye nàxe mɔ ɖe aʋatsokaka nu.
+Le go aɖewo me (le kpɔɖeŋu me, cross-pool transactions) ga homewo ateŋu adze na gotagome ŋkuléla. Gake la, `valueBalanceSapling` kple `valueBalanceOrchard` zã **homomorphic commitments** tsɔ ɖo kpe ZEC bliboa dzi le tadeaguƒe siwo wokpɔ ta na me eye nàxe mɔ ɖe aʋatsokaka nu.
 
-Xlẽ nu geɖe: [Ametakpɔkpɔ Tsi Aʋatsonyawo Gbɔkpɔkpɔ Le Ta Siwo Wotsɔ Akpoxɔnu Wɔe Me](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Xlẽ nu geɖe: [ZIP 209: Woxe mɔ ɖe Kɔsɔkɔsɔ ƒe Asixɔxɔ ƒe Tadeaguƒe ƒe Dadaɖeanyi Siwo Le Gome](https://zips.z.cash/zip-0209)
 
 ---
 
 ## Etsɔme ƒe Ŋgɔyiyiwo
 
-ECC ƒe ƒuƒoƒoa le dɔ wɔm tso RPC mɔnu yeyewo ŋu le... `zcashd` (si le eteƒe `z_sendmany`) si ana ezãlawo nakpɔ asitsatsa si wodo ɖa la do ŋgɔ eye woalɔ̃ ɖe edzi/gbee le eƒe ameŋunyatakakawo ƒe nɔnɔmewo nu.
+ECC ƒe ƒuƒoƒoa le dɔ wɔm tso RPC mɔnu yeyewo ŋu le.. `zcashd` (si le eteƒe `z_sendmany`) si ana ezãlawo nakpɔ asitsatsa si wodo ɖa la do ŋgɔ eye woalɔ̃ ɖe edzi/gbee le eƒe ameŋunyatakakawo ƒe nɔnɔmewo nu.
 
 ---
 
 ## Kafukafunya
 
-Thread sia fia asi **Ywallet** gbã, na asitsatsa ƒe ɖoɖo si wòɖe fia hafi nèƒo send. Womegaléa be na Ywallet o eye womawɔe yeyee na Ironwood o, eyata magate ŋu adze kɔsɔkɔsɔa yome o. Tia gakotoku si dzi wodzra ɖo tso... [Gakotokuwo](https://zechub.wiki/wallets) axaa boŋ, eye nàdi esi gblɔ nusi asitsatsa aɖe aɖe afia na wò hafi wòado.
+Thread sia fia asi **YWallet**, na asitsatsa ƒe ɖoɖo si wòɖe fia hafi nèƒo send. Womegaléa be na YWallet o eye womawɔe yeyee na Ironwood, eyata magate ŋu adze kɔsɔkɔsɔa yome o. Tia gakotoku si dzi wodzra ɖo tso.. [Gakotokuwo](https://zechub.wiki/wallets) axaa boŋ, eye nàdi esi gblɔ nusi asitsatsa aɖe aɖe afia na wò hafi wòado.
 
 Nyati gã aɖe si ku ɖe asitsatsa ƒe adzamenyawo ŋu: https://medium.com/@hanh.huynh/
 
 ---
 
-**Ka gbãtɔ si ZecHub (@ZecHub) ŋlɔ** 
+**Ka gbãtɔ si ZecHub (@ZecHub)** 
 https://x.com/ZecHub/status/1628498645627666432
 
 ---

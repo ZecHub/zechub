@@ -93,7 +93,7 @@ Daira による Anchor の位置の解説 (zcon3):
 
 場合によっては（たとえばクロスプール・トランザクションなど）、金額が外部の観察者に見えることがあります。しかし、`valueBalanceSapling` と `valueBalanceOrchard` は**準同型コミットメント**を使って shielded プール内の ZEC 総量を証明し、偽造を防ぎます。
 
-詳しくはこちら: [Shielded Pools における偽造防止](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+詳しくはこちら: [ZIP 209: 範囲外のチェーン・バリュープール残高を禁止](https://zips.z.cash/zip-0209)
 
 ---
 
@@ -105,7 +105,7 @@ ECC チームは `zcashd` の新しい RPC メソッド（`z_sendmany` を置き
 
 ## 推奨
 
-このスレッドは元々、送信ボタンを押す前に表示されるトランザクション計画のために **Ywallet** を案内していました。Ywallet はすでにメンテナンスされておらず、Ironwood 向けに更新されることもないため、もはやチェーンを追跡できません。代わりに[ウォレット](https://zechub.wiki/wallets)ページからメンテナンスされているウォレットを選び、送信前にトランザクションで何が明らかになるかを教えてくれるものを優先してください。
+このスレッドは元々、送信ボタンを押す前に表示されるトランザクション計画のために **YWallet** を案内していました。YWallet はすでにメンテナンスされておらず、Ironwood 向けに更新されることもないため、もはやチェーンを追跡できません。代わりに[ウォレット](https://zechub.wiki/wallets)ページからメンテナンスされているウォレットを選び、送信前にトランザクションで何が明らかになるかを教えてくれるものを優先してください。
 
 トランザクションのプライバシーに関する素晴らしい記事: https://medium.com/@hanh.huynh/
 

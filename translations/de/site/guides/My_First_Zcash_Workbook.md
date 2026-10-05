@@ -8,11 +8,9 @@
 
 Dieser Leitfaden bietet einen Überblick über den zentralen Lernpfad des Arbeitsbuchs, der in neun Hauptabschnitte unterteilt ist. Er ersetzt nicht das Buch selbst, sondern dient vielmehr als begleitende Ressource, die den Bildungsablauf zusammenfasst und wichtige Informationen für Lehrkräfte, Lernende und Bildungsakteure in der Community hervorhebt.
 
-Das Arbeitsbuch steht kostenlos als PDF oder als interaktives Flipbook zum Download zur Verfügung:
+Das Arbeitsbuch steht kostenlos als PDF zum Download zur Verfügung:
 
 [Übersicht](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
-
-[Flipbook](https://midd.me/nbp2)
 
 [GitHub-Repo](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -149,10 +147,10 @@ Der letzte Abschnitt lädt die Leser dazu ein, Teil des Zcash-Ökosystems zu wer
 
 - Dem Zcash Global Discord beitreten  
 - An Community-Calls und Arbeitsgruppen teilnehmen  
-- Zu zukünftigen Übersetzungen des Arbeitsbuchs beitragen  
+- Zu künftigen Workbook-Übersetzungen beitragen  
 - Open-Source-Bildung unterstützen  
-- Inhalte, Code-Beiträge, Kunstwerke oder Feedback erstellen  
-- Zcash-Community-Zuschüsse erkunden  
+- Inhalte, Codebeiträge, künstlerische Arbeiten oder Feedback erstellen  
+- Zcash Community Grants erkunden
 
 Die Botschaft ist klar: Jeder kann mitmachen, und die Community heißt Mitwirkende aller Hintergründe und Erfahrungsstufen willkommen.
 

@@ -16,6 +16,8 @@
 | 블록당 쉴디드 액션 제한 | 없음(2 MB 크기 제한만 적용) | 총 330개, 풀별 상한 적용 |
 | Orchard 처리량(2-액션 트랜잭션) | 초당 약 2.9건 | 초당 약 6.6건 |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 블록 수는 세 배가 되지만, 각 블록의 보상은 3분의 1이 됩니다. 공급 일정은 기존 위치를 유지합니다.
 
 ## 블록 시간을 바꾸는 이유

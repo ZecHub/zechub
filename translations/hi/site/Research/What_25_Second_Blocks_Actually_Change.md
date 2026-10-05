@@ -16,6 +16,8 @@
 | प्रति ब्लॉक shielded क्रियाओं की सीमाएँ | कोई नहीं (केवल 2 MB आकार सीमा) | कुल 330, पूल-वार सीमाओं के साथ |
 | Orchard थ्रूपुट (2-क्रिया लेनदेन) | लगभग 2.9 प्रति सेकंड | लगभग 6.6 प्रति सेकंड |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 तीन गुना अधिक ब्लॉक, जिनमें से प्रत्येक एक-तिहाई भुगतान करता है। आपूर्ति अनुसूची वहीं रहती है जहाँ थी।
 
 ## ब्लॉक समय क्यों बदलें
