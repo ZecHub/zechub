@@ -23,7 +23,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Benchmarking | 채굴자는 Zcash 채굴에 사용되는 다양한 하드웨어의 효율성에 대한 지표를 제출할 수 있습니다. [여기서 보기](https://zcashbenchmarks.info) |
 | Block | 블록은 네트워크에서 전송된 거래 집합을 담고 있는 Zcash 블록체인의 기록입니다. 평균적으로 약 75초마다 새로운 블록이 블록체인에 추가됩니다. |
 | Block Explorer | 블록체인상의 모든 거래를 과거와 현재를 포함해 볼 수 있는 온라인 도구입니다. [Zcash 블록 탐색기](https://zcashexplorer.app/) |
-| Blogs | [ZODL 블로그 (구 Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation 블로그](https://zfnd.org/blog/) / [ZecHub 블로그](https://zechub.substack.com/) |
+| Blogs | [ZODL 블로그 (구 Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation 블로그](https://zfnd.org/blog/) / [ZecHub 블로그](https://zechub.wiki/zechub-dao) |
 | Blossom | Zcash의 세 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

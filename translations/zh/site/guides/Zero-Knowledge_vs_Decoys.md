@@ -52,9 +52,9 @@ Zcash 和 Monero 都是以隐私为重点的加密货币，但它们实现隐私
 
 4) **无需可信设置**：Zcash 的 Sprout 和 Sapling 设置使用了一种称为“可信设置仪式”的多方计算。近期的 NU5 升级不再需要对零知识电路设置完整性的信任。[阅读 ECC 关于 NU5 的博客](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/)。
 
-5) **数据隐私**：Zcash 屏蔽池中使用的 [zk-SNARK technology](https://zechub.wiki/zcash-tech/zk-snarks) 可为用户带来显著增强的安全性。链上元数据泄露的减少意味着用户能够免受潜在黑客或压迫性国家机构等对手的威胁。
+5) **数据隐私**：Zcash 屏蔽池中使用的 [zk-SNARK technology](https://zechub.wiki/zcash-technology) 可为用户带来显著增强的安全性。链上元数据泄露的减少意味着用户能够免受潜在黑客或压迫性国家机构等对手的威胁。
 
-Monero 的诱饵选择算法曾多次被发现存在漏洞。根据 [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) 的报道，这些漏洞有可能暴露用户的支出行为。
+Monero 的诱饵选择算法曾多次被发现存在漏洞。根据 [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) 的报道，这些漏洞有可能暴露用户的支出行为。
 
 
 总而言之，真正最重要的是减少或消除用户信息与数据的泄露，正如 Zooko 在 [Orchid (priv8) AMA 直播问答](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 中所解释的那样。

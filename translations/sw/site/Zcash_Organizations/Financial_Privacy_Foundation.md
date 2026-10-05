@@ -34,7 +34,7 @@ The FPF X FPF grant application process includes several processes. First, appli
 
 Habari zaidi kuhusu FPF X FPF inaweza kuonekana kwenye tovuti ya Financial Privacy Fun (FPF) [hapa](https://www.financialprivacyfoundation.org/grants) na kama bado una udadisi kuhusu mpango wa FPF X FPF, unaweza kutembelea hati ya Maswali Yanayoulizwa Sana hapa: [Maswali ya kawaida](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Kama una nia ya kuwa Reviewer kujitolea kwa ajili ya duru hii ya mpango FPF X FPF, tafadhali tembelea tovuti hii. [kiungo cha kuunganisha](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Kwa maswali zaidi kuhusu FPF X FPF Grant Program, unaweza kuuliza moja kwa moja kwa kutuma barua pepe. [FPF ya juu zaidi](mailto:info@financialprivacyfoundation.org).
+Kama una nia ya kuwa Reviewer kujitolea kwa ajili ya duru hii ya mpango FPF X FPF, tafadhali tembelea tovuti hii. [kiungo cha kuunganisha](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Kwa maswali zaidi kuhusu FPF X FPF Grant Program, unaweza kuuliza moja kwa moja kwa kutuma barua pepe. [FPF ya juu zaidi](info@financialprivacyfoundation.org).
 
 ## Rasilimali 
 [Mfuko wa Faragha ya Fedha](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

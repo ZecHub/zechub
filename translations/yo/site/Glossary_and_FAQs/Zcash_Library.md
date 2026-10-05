@@ -23,7 +23,7 @@
 | Benchmarking | Àwọn awakùsà lè fi àwọn ìwọ̀n tí a lè lò láti fi ṣe iṣẹ́ wọn hàn lórí bí àwọn ohun èlò tí a lò láti wakùsà Zcash. [Wo ibi](https://zcashbenchmarks.info) |
 | Block | Àkọsílẹ̀ kan jẹ́ àkọsílẹ̀ nínú blockchain Zcash tí ó ní àkójọ àwọn ìṣòwò tí a fi ránṣẹ́ sí nẹ́tíwọ́ọ̀kì. Ní gbogbo ìṣẹ́jú-àáyá 75, ní àròpín, Àkọsílẹ̀ tuntun ni a fi kún blockchain náà. |
 | Block Explorer | Ohun èlò lórí ayélujára láti wo gbogbo ìṣòwò, àtijọ́ àti lọ́wọ́lọ́wọ́, lórí blockchain. [Olùṣàwárí Àkọsílẹ̀ Zcash](https://zcashexplorer.app/) |
-| Blogs | [Bulọọgi ZODL (tí a mọ̀ sí Electric Coin Co tẹ́lẹ̀)](https://zodl.com/blog/) / [Bulọọgi Zcash Foundation](https://zfnd.org/blog/) / [Bulọọgi ZecHub](https://zechub.substack.com/) |
+| Blogs | [Bulọọgi ZODL (tí a mọ̀ sí Electric Coin Co tẹ́lẹ̀)](https://zodl.com/blog/) / [Bulọọgi Zcash Foundation](https://zfnd.org/blog/) / [Bulọọgi ZecHub](https://zechub.wiki/zechub-dao) |
 | Blossom | Igbesoke Nẹtiwọọki Pataki Kẹta fun Zcash. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

@@ -23,7 +23,7 @@
 | Benchmarking | يستطيع المعدّنون إرسال مقاييس حول كفاءة مختلف أنواع العتاد المستخدمة في تعدين Zcash. [اعرضها هنا](https://zcashbenchmarks.info) |
 | Block | الكتلة هي سجل في blockchain الخاصة بـ Zcash يحتوي على مجموعة من المعاملات المرسلة عبر الشبكة. وفي المتوسط، تُضاف كتلة جديدة إلى blockchain كل نحو 75 ثانية. |
 | Block Explorer | أداة عبر الإنترنت لعرض جميع المعاملات، السابقة والحالية، على blockchain. [مستكشف كتل Zcash](https://zcashexplorer.app/) |
-| Blogs | [مدونة ZODL (سابقًا Electric Coin Co)](https://zodl.com/blog/) / [مدونة Zcash Foundation](https://zfnd.org/blog/) / [مدونة ZecHub](https://zechub.substack.com/) |
+| Blogs | [مدونة ZODL (سابقًا Electric Coin Co)](https://zodl.com/blog/) / [مدونة Zcash Foundation](https://zfnd.org/blog/) / [مدونة ZecHub](https://zechub.wiki/zechub-dao) |
 | Blossom | ثالث ترقية رئيسية للشبكة في Zcash. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

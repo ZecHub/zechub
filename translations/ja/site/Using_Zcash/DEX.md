@@ -6,7 +6,7 @@
 
 ZecHubは特定の分散型取引所サービスを推奨していません。ご自身で調査してください。
 
-以下の各`###`見出しは、[https://zechub.wiki/dex](https://zechub.wiki/dex)上の1つのカードです。
+以下の各`###`見出しは、https://zechub.wiki/dex.上の1つのカードです。
 ここでブロックを追加、編集、または削除すると、wikiがこのファイルから読み取ります。
 
 ### Near-intents

@@ -34,7 +34,7 @@ Financial Privacy Foundation (FPF) — це некомерційна орган�
 
 Більше інформації про FPF X FPF можна знайти на вебсайті Financial Privacy Fun (FPF) [тут](https://www.financialprivacyfoundation.org/grants), а якщо вас усе ще цікавить програма FPF X FPF, ви можете переглянути документ із поширеними запитаннями тут: [Поширені запитання](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Якщо ви зацікавлені стати волонтером-рецензентом у цьому раунді програми FPF X FPF, будь ласка, відвідайте це [посилання](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Якщо у вас є додаткові запитання щодо грантової програми FPF X FPF, ви можете поставити їх безпосередньо, надіславши електронного листа [FPF](mailto:info@financialprivacyfoundation.org).
+Якщо ви зацікавлені стати волонтером-рецензентом у цьому раунді програми FPF X FPF, будь ласка, відвідайте це [посилання](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Якщо у вас є додаткові запитання щодо грантової програми FPF X FPF, ви можете поставити їх безпосередньо, надіславши електронного листа [FPF](info@financialprivacyfoundation.org).
 
 ## Ресурси 
 [Financial Privacy Fund](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

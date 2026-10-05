@@ -26,11 +26,11 @@ Zebra ni utekelezaji kamili wa nodi huru, tayari kwa uzalishaji wa itifaki ya Zc
 
 Zebra huthibitisha vizuizi na miamala, hushiriki katika mtandao wa rika-kwa-rika, na hufichua kiolesura cha RPC kwa programu. Pochi sasa ni sehemu tofauti: [Zallet](https://github.com/zcash/zallet) huendeshwa dhidi ya nodi Zebra na hushughulikia funguo na mizani. Hii inachukua nafasi zcashd, ambayo iliunganisha nodi na pochi katika mchakato mmoja.
 
-Ili kuhudumia pochi nyepesi zilizolindwa, nodi hutembea kando ya kiashiria, iwe ni [lightwalletd](https://github.com/zcash/lightwalletd) au mpya zaidi [Zaino](https://zechub.wiki/zcash-tech/zaino).
+Ili kuhudumia pochi nyepesi zilizolindwa, nodi hutembea kando ya kiashiria, iwe ni [lightwalletd](https://github.com/zcash/lightwalletd) au mpya zaidi [Zaino](https://zechub.wiki/zaino).
 
 Hakikisha umesoma kitabu Zebra kwa maelekezo ya usanidi, na jiunge na seva ya R&D Discord kwa usaidizi.
 
-[GitHub](https://github.com/ZcashFoundation/zebra/)
+[Github](https://github.com/ZcashFoundation/zebra/)
 
 [Kitabu cha Zebra](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura ni nodi kamili ya pili inayolingana na makubaliano, iliyotenganishwa kuto
 
 ### zcashd (mstaafu)
 
-> **Kumbuka:** zcashd amestaafu. Electric Coin Company [ilitangaza kuachiliwa kwa](https://z.cash/support/zcashd-deprecation/), na kusimamishwa kiotomatiki kwa Mwisho wa Usaidizi kulifikiwa mnamo 18 Julai 2026 kwa urefu wa block 3417100. Kila nodi zcashd 6.20.0 ambayo haijabadilishwa huzima kwa urefu huo na kukataa kuanzisha upya, na programu haiungi mkono NU6.3. Tumia Zebra. Ukishikilia zcashd `wallet.dat`, fuata [Mwongozo wa Uhamiaji: zcashd hadi zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **Kumbuka:** zcashd amestaafu. Electric Coin Company [ilitangaza kuachiliwa kwa](https://z.cash/support/zcashd-deprecation/), na kusimamishwa kiotomatiki kwa Mwisho wa Usaidizi kulifikiwa mnamo 18 Julai 2026 kwa urefu wa block 3417100. Kila nodi zcashd 6.20.0 ambayo haijabadilishwa huzima kwa urefu huo na kukataa kuanzisha upya, na programu haiungi mkono NU6.3. Tumia Zebra. Ukishikilia zcashd `wallet.dat`, fuata [Mwongozo wa Uhamiaji: zcashd hadi Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd ilikuwa utekelezaji wa awali wa Nodi Kamili kwa Zcash, uliotengenezwa na kudumishwa na Electric Coin Company. Maagizo ya ujenzi yaliyo hapa chini yamehifadhiwa kwa ajili ya marejeleo na kwa waendeshaji wanaohama kutoka zcashd.
 
-zcashd hufichua seti ya API kupitia kiolesura chake cha RPC. API hizi hutoa vitendakazi vinavyoruhusu programu za nje kuingiliana na nodi.
+Zcashd hufichua seti ya API kupitia kiolesura chake cha RPC. API hizi hutoa vitendakazi vinavyoruhusu programu za nje kuingiliana na nodi.
 
-[lightwalletd](https://github.com/zcash/lightwalletd) ni mfano wa programu inayotumia nodi kamili ili kuwawezesha wasanidi programu kujenga na kudumisha pochi nyepesi zinazoweza kulindwa kwa urahisi kwenye simu bila kulazimika kuingiliana moja kwa moja na zcashd.
+[Lightwalletd](https://github.com/zcash/lightwalletd) ni mfano wa programu inayotumia nodi kamili ili kuwawezesha wasanidi programu kujenga na kudumisha pochi nyepesi zinazoweza kulindwa kwa urahisi kwenye simu bila kulazimika kuingiliana moja kwa moja na Zcashd.
 
 [Orodha kamili ya amri za RPC zinazoungwa mkono](https://zcash.github.io/rpc/)
 
-[Kitabu cha zcashd](https://zcash.github.io/zcash/)
+[Kitabu cha Zcashd](https://zcash.github.io/zcash/)
 
 #### Anzisha Nodi (Linux)
 
@@ -84,7 +84,7 @@ zcashd hufichua seti ya API kupitia kiolesura chake cha RPC. API hizi hutoa vite
 
 - Funguo za Kibinafsi huhifadhiwa katika ~/.zcash/wallet.dat
 
-[Mwongozo wa zcashd kwenye Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Mwongozo wa Zcashd kwenye Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Matokeo ya Kivitendo
 
@@ -112,7 +112,7 @@ Unaweza pia kuchangia katika maendeleo ya mtandao kwa kufanya majaribio au kupen
 
 Wachimbaji wanahitaji nodi kamili ili kufikia RPC zote zinazohusiana na uchimbaji madini kama vile getblocktemplate na getmininginfo.
 
-zcashd pia huwezesha uchimbaji madini hadi kwenye msingi wa sarafu uliolindwa. Wachimbaji madini na mabwawa ya uchimbaji madini wana chaguo la kuchimba moja kwa moja ili kukusanya ZEC iliyolindwa katika anwani ya z kwa chaguo-msingi.
+Zcashd pia huwezesha uchimbaji madini hadi kwenye msingi wa sarafu uliolindwa. Wachimbaji madini na mabwawa ya uchimbaji madini wana chaguo la kuchimba moja kwa moja ili kukusanya ZEC iliyolindwa katika anwani ya z kwa chaguo-msingi.
 
 Soma [Mwongozo wa Uchimbaji Madini](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) au jiunge na ukurasa wa Jukwaa la Jumuiya kwa [Wachimbaji wa Zcash](https://forum.zcashcommunity.com/c/mining/13).
 

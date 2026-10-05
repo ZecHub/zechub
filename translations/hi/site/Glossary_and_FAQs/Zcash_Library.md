@@ -23,7 +23,7 @@ Zcash से संबंधित प्रमुख शब्दों, अव
 | Benchmarking | Miners, Zcash mining के लिए उपयोग किए जाने वाले विभिन्न hardware की efficiency पर metrics जमा कर सकते हैं। [यहाँ देखें](https://zcashbenchmarks.info) |
 | Block | Block, Zcash blockchain में एक record होता है जिसमें network पर भेजे गए transactions का एक set शामिल होता है। औसतन लगभग हर 75 सेकंड में blockchain में एक नया block जोड़ा जाता है। |
 | Block Explorer | blockchain पर पिछले और वर्तमान सभी transactions को देखने के लिए एक online tool। [Zcash Block Explorer](https://zcashexplorer.app/) |
-| Blogs | [ZODL Blog (पूर्व में Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.substack.com/) |
+| Blogs | [ZODL Blog (पूर्व में Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.wiki/zechub-dao) |
 | Blossom | Zcash के लिए तीसरा Major Network Upgrade। [अधिक जानकारी](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

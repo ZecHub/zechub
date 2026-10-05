@@ -23,7 +23,7 @@
 | Benchmarking | 矿工可以提交用于挖掘 Zcash 的各类硬件效率指标。 [在此查看](https://zcashbenchmarks.info) |
 | Block | 区块是 Zcash blockchain 中的一条记录，包含一组在网络上发送的交易。平均大约每 75 秒，就会有一个新区块被附加到 blockchain 上。 |
 | Block Explorer | 用于查看 blockchain 上所有过去和当前交易的在线工具。 [Zcash 区块浏览器](https://zcashexplorer.app/) |
-| Blogs | [ZODL 博客（原 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation 博客](https://zfnd.org/blog/) / [ZecHub 博客](https://zechub.substack.com/) |
+| Blogs | [ZODL 博客（原 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation 博客](https://zfnd.org/blog/) / [ZecHub 博客](https://zechub.wiki/zechub-dao) |
 | Blossom | Zcash 的第 3 次重大网络升级。 [更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

@@ -34,7 +34,7 @@ Der Prozess der Förderantragstellung für FPF X FPF umfasst mehrere Schritte. Z
 
 Weitere Informationen über FPF X FPF finden Sie auf der Website des Financial Privacy Fun (FPF) [hier](https://www.financialprivacyfoundation.org/grants), und wenn Sie weiterhin neugierig auf das Programm FPF X FPF sind, können Sie das FAQ-Dokument hier besuchen: [FAQs](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Wenn Sie daran interessiert sind, in dieser Runde des Programms FPF X FPF ehrenamtlicher Gutachter zu werden, besuchen Sie bitte diesen [Link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Bei weiteren Fragen zum FPF X FPF Grant Program können Sie diese direkt per E-Mail an [FPF](mailto:info@financialprivacyfoundation.org) stellen.
+Wenn Sie daran interessiert sind, in dieser Runde des Programms FPF X FPF ehrenamtlicher Gutachter zu werden, besuchen Sie bitte diesen [Link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Bei weiteren Fragen zum FPF X FPF Grant Program können Sie diese direkt per E-Mail an [FPF](info@financialprivacyfoundation.org) stellen.
 
 ## Ressourcen 
 [Financial Privacy Fund](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

@@ -26,11 +26,11 @@ Zebra, Zcash protocol का एक स्वतंत्र, production-ready �
 
 Zebra ब्लॉकों और लेनदेनों को सत्यापित करता है, peer-to-peer network में भाग लेता है, और applications के लिए RPC interface उपलब्ध कराता है। wallet अब एक अलग component है: [Zallet](https://github.com/zcash/zallet) एक Zebra नोड के साथ चलता है तथा keys और balances संभालता है। यह zcashd का स्थान लेता है, जिसमें नोड और wallet एक ही process में शामिल थे।
 
-shielded light wallets को सेवा देने के लिए, नोड एक indexer के साथ चलता है, जो स्थापित [lightwalletd](https://github.com/zcash/lightwalletd) या नया [Zaino](https://zechub.wiki/zcash-tech/zaino) हो सकता है।
+shielded light wallets को सेवा देने के लिए, नोड एक indexer के साथ चलता है, जो स्थापित [lightwalletd](https://github.com/zcash/lightwalletd) या नया [Zaino](https://zechub.wiki/zaino) हो सकता है।
 
 सेट-अप निर्देशों के लिए Zebra book अवश्य पढ़ें, और सहायता के लिए R&D Discord server से जुड़ें।
 
-[GitHub](https://github.com/ZcashFoundation/zebra/)
+[Github](https://github.com/ZcashFoundation/zebra/)
 
 [Zebra Book](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura, Zebra से fork किया गया और Valar Group द्वा
 
 ### zcashd (सेवानिवृत्त)
 
-> **नोट:** zcashd सेवानिवृत्त हो चुका है। Electric Coin Company [ने अप्रचलन की घोषणा की](https://z.cash/support/zcashd-deprecation/), और स्वचालित End-of-Support अवरोध 18 जुलाई 2026 को ब्लॉक ऊंचाई 3417100 पर पहुंचा। प्रत्येक अपरिवर्तित zcashd 6.20.0 नोड उस ऊंचाई पर बंद हो गया और दोबारा शुरू होने से इनकार करता है, तथा सॉफ़्टवेयर NU6.3 को समर्थन नहीं देता। Zebra का उपयोग करें। यदि आपके पास zcashd `wallet.dat` है, तो [माइग्रेशन गाइड: zcashd से zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) का पालन करें।
+> **नोट:** zcashd सेवानिवृत्त हो चुका है। Electric Coin Company [ने अप्रचलन की घोषणा की](https://z.cash/support/zcashd-deprecation/), और स्वचालित End-of-Support अवरोध 18 जुलाई 2026 को ब्लॉक ऊंचाई 3417100 पर पहुंचा। प्रत्येक अपरिवर्तित zcashd 6.20.0 नोड उस ऊंचाई पर बंद हो गया और दोबारा शुरू होने से इनकार करता है, तथा सॉफ़्टवेयर NU6.3 को समर्थन नहीं देता। Zebra का उपयोग करें। यदि आपके पास zcashd `wallet.dat` है, तो [माइग्रेशन गाइड: zcashd से Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet) का पालन करें।
 
 zcashd, Zcash के लिए मूल पूर्ण नोड कार्यान्वयन था, जिसे Electric Coin Company ने विकसित और बनाए रखा। नीचे दिए गए build निर्देश संदर्भ हेतु तथा zcashd से दूर migrate करने वाले operators के लिए रखे गए हैं।
 
-zcashd अपने RPC interface के माध्यम से API's का एक सेट उपलब्ध कराता है। ये API's ऐसे functions प्रदान करते हैं जो बाहरी applications को नोड के साथ interact करने देते हैं।
+Zcashd अपने RPC interface के माध्यम से API's का एक सेट उपलब्ध कराता है। ये API's ऐसे functions प्रदान करते हैं जो बाहरी applications को नोड के साथ interact करने देते हैं।
 
-[lightwalletd](https://github.com/zcash/lightwalletd) ऐसे application का उदाहरण है जो developers को zcashd के साथ सीधे interact किए बिना mobile-friendly shielded light wallets बनाने और बनाए रखने में सक्षम करने के लिए पूर्ण नोड का उपयोग करता है।
+[Lightwalletd](https://github.com/zcash/lightwalletd) ऐसे application का उदाहरण है जो developers को Zcashd के साथ सीधे interact किए बिना mobile-friendly shielded light wallets बनाने और बनाए रखने में सक्षम करने के लिए पूर्ण नोड का उपयोग करता है।
 
 [समर्थित RPC commands की पूरी सूची](https://zcash.github.io/rpc/)
 
-[zcashd book](https://zcash.github.io/zcash/)
+[Zcashd book](https://zcash.github.io/zcash/)
 
 #### नोड शुरू करें (Linux)
 
@@ -84,7 +84,7 @@ zcashd अपने RPC interface के माध्यम से API's का 
 
 - Private Keys ~/.zcash/wallet.dat में संग्रहित होती हैं
 
-[Raspberry Pi पर zcashd की गाइड](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Raspberry Pi पर Zcashd की गाइड](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## व्यावहारिक निहितार्थ
 
@@ -112,7 +112,7 @@ DNS seeders एक built-in server के माध्यम से अन्य
 
 Miners को getblocktemplate और getmininginfo जैसे सभी mining-संबंधित RPC's तक पहुंचने के लिए पूर्ण नोड की आवश्यकता होती है।
 
-zcashd shielded coinbase में mining भी सक्षम करता है। Miners और mining pools के पास default रूप से z-address में shielded ZEC जमा करने के लिए सीधे mine करने का विकल्प होता है।
+Zcashd shielded coinbase में mining भी सक्षम करता है। Miners और mining pools के पास default रूप से z-address में shielded ZEC जमा करने के लिए सीधे mine करने का विकल्प होता है।
 
 [Mining Guide](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) पढ़ें या [Zcash Miners](https://forum.zcashcommunity.com/c/mining/13) के लिए Community Forum पृष्ठ से जुड़ें।
 

@@ -6,7 +6,7 @@
 
 ZecHub는 특정 탈중앙화 거래소 서비스를 보증하지 않으므로, 직접 조사해 주세요.
 
-아래의 각 `###` 제목은 [https://zechub.wiki/dex](https://zechub.wiki/dex)의 카드 하나입니다.
+아래의 각 `###` 제목은 https://zechub.wiki/dex.의 카드 하나입니다.
 여기에서 블록을 추가, 편집 또는 제거하면 위키가 이 파일에서 이를 가져옵니다.
 
 ### NEAR Intents

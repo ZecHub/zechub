@@ -26,11 +26,11 @@ Zebra jẹ́ ìgbékalẹ̀ ìṣiṣẹ́ Zcash tí ó dá dúró, tí ó sì t
 
 Zebra jẹ́rìí sí àwọn ìdènà àti ìṣòwò, ó kópa nínú nẹ́tíwọ́ọ̀kì peer-to-peer, ó sì fi ìfọwọ́sowọ́pọ̀ RPC hàn fún àwọn ohun èlò. Àpò owó náà jẹ́ apá kan tí ó yàtọ̀ báyìí: [Zallet](https://github.com/zcash/zallet) Ó ń ṣiṣẹ́ lòdì sí nódù Zebra kan, ó sì ń lo àwọn kọ́kọ́rọ́ àti ìwọ̀n. Èyí rọ́pò zcashd, èyí tí ó so nódù àti àpò owó pọ̀ nínú iṣẹ́ kan ṣoṣo.
 
-Láti sin àwọn àpò ìpamọ́ tí a dáàbò bo, nọ́ńbà náà ń ṣiṣẹ́ pẹ̀lú olùtọ́kasí kan, yálà èyí tí a ti dá sílẹ̀ [lightwalletd](https://github.com/zcash/lightwalletd) tabi tuntun [Zaino](https://zechub.wiki/zcash-tech/zaino).
+Láti sin àwọn àpò ìpamọ́ tí a dáàbò bo, nọ́ńbà náà ń ṣiṣẹ́ pẹ̀lú olùtọ́kasí kan, yálà èyí tí a ti dá sílẹ̀ [lightwalletd](https://github.com/zcash/lightwalletd) tabi tuntun [Zaino](https://zechub.wiki/zaino).
 
 Rí i dájú pé o ka ìwé Zebra fún àwọn ìtọ́ni ìṣètò, kí o sì dara pọ̀ mọ́ olupin R&D Discord fún ìrànlọ́wọ́.
 
-[GitHub](https://github.com/ZcashFoundation/zebra/)
+[Github](https://github.com/ZcashFoundation/zebra/)
 
 [Ìwé Zebra](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura jẹ́ nódù kejì tó bá ìfohùnṣọ̀kan mu, tí a fi Zebra ṣe, 
 
 ### zcashd (fẹ̀yìntì)
 
-> **Àkíyèsí:** zcashd ti fẹ̀yìntì. Electric Coin Company [kede idinku naa](https://z.cash/support/zcashd-deprecation/), a sì dé ìdádúró End-of-Support laifọwọyi ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026 ní gíga block 3417100. Gbogbo node zcashd 6.20.0 tí a kò yípadà a máa pa ní gíga yẹn a sì kọ̀ láti tún bẹ̀rẹ̀, software náà kò sì ní ìtìlẹ́yìn fún NU6.3. Lo Zebra. Tí o bá ní zcashd `wallet.dat`, tẹ̀lé [Ìtọ́sọ́nà Ìṣípòpadà: zcashd sí zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **Àkíyèsí:** zcashd ti fẹ̀yìntì. Electric Coin Company [kede idinku naa](https://z.cash/support/zcashd-deprecation/), a sì dé ìdádúró End-of-Support laifọwọyi ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026 ní gíga block 3417100. Gbogbo node zcashd 6.20.0 tí a kò yípadà a máa pa ní gíga yẹn a sì kọ̀ láti tún bẹ̀rẹ̀, software náà kò sì ní ìtìlẹ́yìn fún NU6.3. Lo Zebra. Tí o bá ní zcashd `wallet.dat`, tẹ̀lé [Ìtọ́sọ́nà Ìṣípòpadà: zcashd sí Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd ni ìṣètò Full Node àkọ́kọ́ fún Zcash, tí Electric Coin Company. Àwọn ìlànà ìkọ́lé tí ó wà ní ìsàlẹ̀ yìí wà fún ìtọ́kasí àti fún àwọn olùṣiṣẹ́ tí wọ́n ń ṣí lọ kúrò ní zcashd.
 
-zcashd ń fi àwọn API hàn nípasẹ̀ ìsopọ̀ RPC rẹ̀. Àwọn API wọ̀nyí ń pese àwọn iṣẹ́ tí ó ń jẹ́ kí àwọn ohun èlò ìta lè bá nódù náà lò.
+Zcashd ń fi àwọn API hàn nípasẹ̀ ìsopọ̀ RPC rẹ̀. Àwọn API wọ̀nyí ń pese àwọn iṣẹ́ tí ó ń jẹ́ kí àwọn ohun èlò ìta lè bá nódù náà lò.
 
-[Apamọwọ ina](https://github.com/zcash/lightwalletd) jẹ́ àpẹẹrẹ ohun èlò kan tí ó ń lo gbogbo nódù láti jẹ́ kí àwọn olùgbékalẹ̀ kópa láti kọ́ àti láti tọ́jú àwọn àpò ìpamọ́ tí ó ní ààbò lórí fóònù láìsí pé wọ́n ń bá zcashd ṣe ìbáṣepọ̀ taara.
+[Apamọwọ ina](https://github.com/zcash/lightwalletd) jẹ́ àpẹẹrẹ ohun èlò kan tí ó ń lo gbogbo nódù láti jẹ́ kí àwọn olùgbékalẹ̀ kópa láti kọ́ àti láti tọ́jú àwọn àpò ìpamọ́ tí ó ní ààbò lórí fóònù láìsí pé wọ́n ń bá Zcashd ṣe ìbáṣepọ̀ taara.
 
 [Àkójọ gbogbo àwọn àṣẹ RPC tí a ti ṣe àtìlẹ́yìn](https://zcash.github.io/rpc/)
 
-[Ìwé zcashd](https://zcash.github.io/zcash/)
+[Ìwé Zcashd](https://zcash.github.io/zcash/)
 
 #### Bẹrẹ Node kan (Linux)
 
@@ -84,7 +84,7 @@ zcashd ń fi àwọn API hàn nípasẹ̀ ìsopọ̀ RPC rẹ̀. Àwọn API w�
 
 - Àwọn Kọ́kọ́rọ́ Àdáni ni a tọ́jú sínú ~/.zcash/wallet.dat
 
-[Ìtọ́sọ́nà fún zcashd lórí Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Ìtọ́sọ́nà fún Zcashd lórí Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Àwọn Àbájáde Tó Wúlò
 
@@ -112,7 +112,7 @@ O tun le ṣe alabapin si idagbasoke nẹtiwọọki naa nipa ṣiṣe awọn id
 
 Àwọn awakùsà nílò àwọn nódù kí wọ́n tó lè wọlé sí gbogbo àwọn RPC tó ní í ṣe pẹ̀lú iwakùsà bíi getblocktemplate & getmininginfo.
 
-zcashd tun mu ki iwakusa naa di ibi aabo fun awọn coinbase. Awọn awakusa ati awọn adagun iwakusa ni aṣayan lati wakọ taara lati ko ZEC ti a daabobo jọ sinu adirẹsi z nipasẹ aiyipada.
+Zcashd tun mu ki iwakusa naa di ibi aabo fun awọn coinbase. Awọn awakusa ati awọn adagun iwakusa ni aṣayan lati wakọ taara lati ko ZEC ti a daabobo jọ sinu adirẹsi z nipasẹ aiyipada.
 
 Kà [Ìtọ́sọ́nà Ìwakùsà](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) tàbí kí o dara pọ̀ mọ́ ojú ìwé Àpérò Àwùjọ fún [Àwọn Olùwakùsà Zcash](https://forum.zcashcommunity.com/c/mining/13).
 

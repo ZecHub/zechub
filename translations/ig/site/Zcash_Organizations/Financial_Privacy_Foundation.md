@@ -34,7 +34,7 @@ The FPF X FPF grant application process includes several processes. First, appli
 
 Enwere ike ịhụ ozi ndị ọzọ gbasara FPF X FPF na weebụsaịtị Financial Privacy Fun (FPF) [ebe a .](https://www.financialprivacyfoundation.org/grants) ma ọ bụrụ na ị ka nwere mmasị banyere mmemme FPF X FPF, ịnwere ike ịga leta akwụkwọ FAQ ebe a: [Ajụjụ ndị a na-ajụkarị](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Ọ bụrụ na ị nwere mmasị ịbụ Onye Nyocha Volunteer maka usoro a nke FPF X FPF, biko gaa ebe a. [njikọ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Maka ajụjụ ndị ọzọ gbasara FPF X FPF Grant Program, ị nwere ike ịjụ ozugbo site na izipu email. [FPF (ihe eji eme ihe)](mailto:info@financialprivacyfoundation.org).
+Ọ bụrụ na ị nwere mmasị ịbụ Onye Nyocha Volunteer maka usoro a nke FPF X FPF, biko gaa ebe a. [njikọ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Maka ajụjụ ndị ọzọ gbasara FPF X FPF Grant Program, ị nwere ike ịjụ ozugbo site na izipu email. [FPF (ihe eji eme ihe)](info@financialprivacyfoundation.org).
 
 ## Akụnụba 
 [Ego Nzuzo nke ego](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

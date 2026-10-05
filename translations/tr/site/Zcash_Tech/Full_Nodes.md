@@ -26,11 +26,11 @@ Zebra, Zcash Foundation tarafından oluşturulan ve Rust ile yazılmış, Zcash 
 
 Zebra blokları ve işlemleri doğrular, eşler arası ağa katılır ve uygulamalar için bir RPC arayüzü sunar. Cüzdan artık ayrı bir bileşendir: [Zallet](https://github.com/zcash/zallet), bir Zebra düğümü üzerinde çalışır ve anahtarlar ile bakiyeleri yönetir. Bu, düğümü ve cüzdanı tek bir süreçte birleştiren zcashd'ün yerini alır.
 
-Korumalı hafif cüzdanlara hizmet vermek için düğüm, yerleşik [lightwalletd](https://github.com/zcash/lightwalletd) veya daha yeni [Zaino](https://zechub.wiki/zcash-tech/zaino) olmak üzere bir indeksleyiciyle birlikte çalışır.
+Korumalı hafif cüzdanlara hizmet vermek için düğüm, yerleşik [lightwalletd](https://github.com/zcash/lightwalletd) veya daha yeni [Zaino](https://zechub.wiki/zaino) olmak üzere bir indeksleyiciyle birlikte çalışır.
 
 Kurulum talimatları için Zebra kitabını mutlaka okuyun ve destek için Ar-Ge Discord sunucusuna katılın.
 
-[GitHub](https://github.com/ZcashFoundation/zebra/)
+[Github](https://github.com/ZcashFoundation/zebra/)
 
 [Zebra Kitabı](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura, Zebra üzerinden çatallanmış ve Valar Group ile Project Tachyon taraf
 
 ### zcashd (kullanımdan kaldırıldı)
 
-> **Not:** zcashd kullanımdan kaldırılmıştır. Electric Coin Company [kullanımdan kaldırıldığını duyurdu](https://z.cash/support/zcashd-deprecation/) ve otomatik Destek Sonu durdurma noktasına 18 Temmuz 2026'da, 3417100 blok yüksekliğinde ulaşıldı. Değiştirilmemiş her zcashd 6.20.0 düğümü bu yükseklikte kapandı ve yeniden başlamayı reddeder; yazılım NU6.3'ü desteklemez. Zebra kullanın. Bir zcashd `wallet.dat` sahibiyseniz, [Geçiş Rehberi: zcashd'den zebrad/Zallet'e](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) bölümünü izleyin.
+> **Not:** zcashd kullanımdan kaldırılmıştır. Electric Coin Company [kullanımdan kaldırıldığını duyurdu](https://z.cash/support/zcashd-deprecation/) ve otomatik Destek Sonu durdurma noktasına 18 Temmuz 2026'da, 3417100 blok yüksekliğinde ulaşıldı. Değiştirilmemiş her zcashd 6.20.0 düğümü bu yükseklikte kapandı ve yeniden başlamayı reddeder; yazılım NU6.3'ü desteklemez. Zebra kullanın. Bir zcashd `wallet.dat` sahibiyseniz, [Geçiş Rehberi: zcashd'den Zebrad/Zallet'e](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet) bölümünü izleyin.
 
 zcashd, Electric Coin Company tarafından geliştirilen ve sürdürülen, Zcash için özgün Tam Düğüm uygulamasıydı. Aşağıdaki derleme talimatları, başvuru amacıyla ve zcashd'ten geçiş yapan operatörler için korunmuştur.
 
-zcashd, RPC arayüzü üzerinden bir dizi API sunar. Bu API'ler, harici uygulamaların düğümle etkileşim kurmasını sağlayan işlevler sunar.
+Zcashd, RPC arayüzü üzerinden bir dizi API sunar. Bu API'ler, harici uygulamaların düğümle etkileşim kurmasını sağlayan işlevler sunar.
 
-[lightwalletd](https://github.com/zcash/lightwalletd), geliştiricilerin zcashd ile doğrudan etkileşim kurmak zorunda kalmadan mobil uyumlu korumalı hafif cüzdanlar oluşturup sürdürmelerini sağlamak için bir tam düğüm kullanan uygulama örneğidir.
+[Lightwalletd](https://github.com/zcash/lightwalletd), geliştiricilerin Zcashd ile doğrudan etkileşim kurmak zorunda kalmadan mobil uyumlu korumalı hafif cüzdanlar oluşturup sürdürmelerini sağlamak için bir tam düğüm kullanan uygulama örneğidir.
 
 [Desteklenen RPC komutlarının tam listesi](https://zcash.github.io/rpc/)
 
-[zcashd kitabı](https://zcash.github.io/zcash/)
+[Zcashd kitabı](https://zcash.github.io/zcash/)
 
 #### Bir Düğüm Başlatma (Linux)
 
@@ -84,7 +84,7 @@ zcashd, RPC arayüzü üzerinden bir dizi API sunar. Bu API'ler, harici uygulama
 
 - Özel Anahtarlar ~/.zcash/wallet.dat içinde saklanır
 
-[Raspberry Pi üzerinde zcashd rehberi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Raspberry Pi üzerinde Zcashd rehberi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Pratik Sonuçlar
 
@@ -112,7 +112,7 @@ Ayrıca testler çalıştırarak veya yeni iyileştirmeler önerip metrikler sa�
 
 Madenciler, getblocktemplate ve getmininginfo gibi madencilikle ilgili tüm RPC'lere erişmek için tam düğümlere ihtiyaç duyar.
 
-zcashd ayrıca korumalı coinbase'e madenciliği de mümkün kılar. Madenciler ve madencilik havuzları, varsayılan olarak bir z-adresinde korumalı ZEC biriktirmek için doğrudan madencilik yapma seçeneğine sahiptir.
+Zcashd ayrıca korumalı coinbase'e madenciliği de mümkün kılar. Madenciler ve madencilik havuzları, varsayılan olarak bir z-adresinde korumalı ZEC biriktirmek için doğrudan madencilik yapma seçeneğine sahiptir.
 
 [Madencilik Rehberi](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html)'ni okuyun veya [Zcash Madenciler](https://forum.zcashcommunity.com/c/mining/13) için Topluluk Forumu sayfasına katılın.
 

@@ -26,11 +26,11 @@ Zebra yɛ Zcash protocol no a ɛde ne ho, ayɛ krado sɛ ɛyɛ node a edi mũ a 
 
 Zebra di blocks ne transactions ho adanseɛ, ɛde ne ho hyɛ peer-to-peer network no mu, na ɛda RPC interface bi adi ma applications. Sika kotoku no yɛ ade a ɛyɛ soronko mprempren: [Zallet](https://github.com/zcash/zallet) tu mmirika tia Zebra node na ɛdi safe ne kari pɛ ho dwuma. Wei besi zcashd, a ɛboaboaa node ne sika kotoku no ano wɔ adeyɛ biako mu.
 
-Sɛnea ɛbɛyɛ na wɔasom sika kotoku a kanea a wɔabɔ ho ban no, node no tu mmirika kɔ indexer bi nkyɛn, anaasɛ nea wɔde asi hɔ no [lightwalletd](https://github.com/zcash/lightwalletd) anaa nea ɛyɛ foforo no [Zaino](https://zechub.wiki/zcash-tech/zaino).
+Sɛnea ɛbɛyɛ na wɔasom sika kotoku a kanea a wɔabɔ ho ban no, node no tu mmirika kɔ indexer bi nkyɛn, anaasɛ nea wɔde asi hɔ no [lightwalletd](https://github.com/zcash/lightwalletd) anaa nea ɛyɛ foforo no [Zaino](https://zechub.wiki/zaino).
 
 Hwɛ sɛ wobɛkenkan Zebra nwoma no ama nhyehyeɛ akwankyerɛ, na kɔka R&D Discord server no ho na woanya mmoa.
 
-[GitHub a wɔde di dwuma](https://github.com/ZcashFoundation/zebra/)
+[Github a wɔde di dwuma](https://github.com/ZcashFoundation/zebra/)
 
 [Zebra Nhoma no](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura yɛ node a ɛtɔ so mmienu a ɛne adwene hyia a ɛne ne ho hyia, a wɔde 
 
 ### zcashd (wɔakɔ pɛnhyen)
 
-> **Hyɛ no nsow:** zcashd akɔ pɛnhyen. Electric Coin Company [de too gua sɛ wɔabu no animtiaa](https://z.cash/support/zcashd-deprecation/), na wɔduruu automatic End-of-Support halt no so wɔ 18 July 2026 wɔ block height 3417100. zcashd 6.20.0 node biara a wɔansakra no no to mu wɔ saa sorokɔ no so na ɛpow sɛ ɛbɛsan ahyɛ aseɛ, na software no ntumi mmoa NU6.3. Fa Zebra. Sɛ wokura zcashd `wallet.dat`, di akyi [Akwankyerɛ a ɛfa atutra ho: zcashd kɔ zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **Hyɛ no nsow:** zcashd akɔ pɛnhyen. Electric Coin Company [de too gua sɛ wɔabu no animtiaa](https://z.cash/support/zcashd-deprecation/), na wɔduruu automatic End-of-Support halt no so wɔ 18 July 2026 wɔ block height 3417100. zcashd 6.20.0 node biara a wɔansakra no no to mu wɔ saa sorokɔ no so na ɛpow sɛ ɛbɛsan ahyɛ aseɛ, na software no ntumi mmoa NU6.3. Fa Zebra. Sɛ wokura zcashd `wallet.dat`, di akyi [Akwankyerɛ a ɛfa atutra ho: zcashd kɔ Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd yɛ mfitiaseɛ Full Node dwumadie ma Zcash, a Electric Coin Company. Wɔakora adansi akwankyerɛ a ɛwɔ aseɛ ha no so ama nhwɛsoɔ ne ama adwumayɛfoɔ a wɔretu afiri zcashd.
 
-zcashd da API ahorow bi adi denam ne RPC ntamgyinafo so. Saa API yi ma dwumadie a ɛma abɔnten dwumadie ahodoɔ tumi ne node no di nkitaho.
+Zcashd da API ahorow bi adi denam ne RPC ntamgyinafo so. Saa API yi ma dwumadie a ɛma abɔnten dwumadie ahodoɔ tumi ne node no di nkitaho.
 
-[lightwalletd a wɔde ahyɛ mu](https://github.com/zcash/lightwalletd) yɛ nhwɛsoɔ a ɛfa application a ɛde node a ɛyɛ pɛpɛɛpɛ di dwuma de ma developers tumi yɛ na wɔhwɛ mobile-friendly shielded light wallets a ɛho nhia sɛ wɔne zcashd di nkitaho tẽẽ.
+[Lightwalletd a wɔde ahyɛ mu](https://github.com/zcash/lightwalletd) yɛ nhwɛsoɔ a ɛfa application a ɛde node a ɛyɛ pɛpɛɛpɛ di dwuma de ma developers tumi yɛ na wɔhwɛ mobile-friendly shielded light wallets a ɛho nhia sɛ wɔne Zcashd di nkitaho tẽẽ.
 
 [RPC ahyɛdeɛ a wɔboa no nyinaa](https://zcash.github.io/rpc/)
 
-[zcashd nhoma no](https://zcash.github.io/zcash/)
+[Zcashd nhoma no](https://zcash.github.io/zcash/)
 
 #### Hyɛ Node (Linux) bi ase
 
@@ -84,7 +84,7 @@ zcashd da API ahorow bi adi denam ne RPC ntamgyinafo so. Saa API yi ma dwumadie 
 
 - Wɔde Private Keys asie wɔ ~/.zcash/wallet.dat mu
 
-[Akwankyerɛ ma zcashd wɔ Raspberry Pi so](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Akwankyerɛ ma Zcashd wɔ Raspberry Pi so](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Nkyerɛkyerɛmu a mfaso wɔ so
 
@@ -112,7 +112,7 @@ Wo nso wobɛtumi aboa ama ntwamutam no anya nkɔsoɔ denam sɔhwɛ a wobɛtu mmi
 
 Miners hwehwɛ nodes a edi mũ na ama wɔanya RPC ahorow a ɛfa mining ho nyinaa te sɛ getblocktemplate & getmininginfo.
 
-zcashd nso ma wotumi tu fagude kɔ shielded coinbase. Miners ne mining pools wɔ hokwan sɛ wɔbɛtu fam tẽẽ de aboaboa ZEC a wɔabɔ ho ban wɔ z-address mu default so.
+Zcashd nso ma wotumi tu fagude kɔ shielded coinbase. Miners ne mining pools wɔ hokwan sɛ wɔbɛtu fam tẽẽ de aboaboa ZEC a wɔabɔ ho ban wɔ z-address mu default so.
 
 Kan [Akwankyerɛ a Ɛfa Mining Ho](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) anaa kɔka Community Forum krataafa no ho ma [Zcash Miners a wɔyɛ adwuma wɔ hɔ](https://forum.zcashcommunity.com/c/mining/13).
 

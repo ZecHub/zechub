@@ -23,7 +23,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 | Benchmarking | Madenciler, Zcash madenciliğinde kullanılan çeşitli donanımların verimliliğine ilişkin metrikler gönderebilir. [Buradan görüntüleyin](https://zcashbenchmarks.info) |
 | Block | Block, Zcash blokzincirinde ağ üzerinden gönderilmiş bir işlem kümesini içeren bir kayıttır. Ortalama olarak yaklaşık her 75 saniyede bir blokzincire yeni bir blok eklenir. |
 | Block Explorer | Blokzincirdeki geçmiş ve güncel tüm işlemleri görüntülemek için çevrimiçi bir araç. [Zcash Block Explorer](https://zcashexplorer.app/) |
-| Blogs | [ZODL Blog (eski adıyla Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blogu](https://zfnd.org/blog/) / [ZecHub Blogu](https://zechub.substack.com/) |
+| Blogs | [ZODL Blog (eski adıyla Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blogu](https://zfnd.org/blog/) / [ZecHub Blogu](https://zechub.wiki/zechub-dao) |
 | Blossom | Zcash için 3. Büyük Ağ Yükseltmesi. [Daha Fazla Bilgi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

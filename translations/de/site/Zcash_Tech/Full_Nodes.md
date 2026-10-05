@@ -26,11 +26,11 @@ Zebra ist eine unabhängige, produktionsreife Implementierung eines vollständig
 
 Zebra validiert Blöcke und Transaktionen, nimmt am Peer-to-Peer-Netzwerk teil und stellt eine RPC-Schnittstelle für Anwendungen bereit. Die Wallet ist jetzt eine separate Komponente: [Zallet](https://github.com/zcash/zallet) läuft mit einem Zebra-Knoten und verwaltet Schlüssel und Guthaben. Dies ersetzt zcashd, das Knoten und Wallet in einem einzigen Prozess bündelte.
 
-Um abgeschirmte Light Wallets bereitzustellen, läuft der Knoten neben einem Indexer, entweder dem etablierten [lightwalletd](https://github.com/zcash/lightwalletd) oder dem neueren [Zaino](https://zechub.wiki/zcash-tech/zaino).
+Um abgeschirmte Light Wallets bereitzustellen, läuft der Knoten neben einem Indexer, entweder dem etablierten [lightwalletd](https://github.com/zcash/lightwalletd) oder dem neueren [Zaino](https://zechub.wiki/zaino).
 
 Lies unbedingt das Zebra-Buch für Einrichtungsanleitungen und tritt dem R&D-Discord-Server bei, um Unterstützung zu erhalten.
 
-[GitHub](https://github.com/ZcashFoundation/zebra/)
+[Github](https://github.com/ZcashFoundation/zebra/)
 
 [Das Zebra-Buch](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura ist ein zweiter konsenskompatibler vollständiger Knoten, der von Zebra g
 
 ### zcashd (eingestellt)
 
-> **Hinweis:** zcashd wurde eingestellt. Die Electric Coin Company [kündigte die Einstellung an](https://z.cash/support/zcashd-deprecation/), und der automatische End-of-Support-Stopp wurde am 18. Juli 2026 bei Blockhöhe 3417100 erreicht. Jeder unveränderte zcashd-6.20.0-Knoten wurde bei dieser Höhe heruntergefahren und verweigert einen Neustart; außerdem unterstützt die Software NU6.3 nicht. Verwende Zebra. Wenn du eine zcashd `wallet.dat` besitzt, folge dem [Migrationsleitfaden: zcashd zu zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+> **Hinweis:** zcashd wurde eingestellt. Die Electric Coin Company [kündigte die Einstellung an](https://z.cash/support/zcashd-deprecation/), und der automatische End-of-Support-Stopp wurde am 18. Juli 2026 bei Blockhöhe 3417100 erreicht. Jeder unveränderte zcashd-6.20.0-Knoten wurde bei dieser Höhe heruntergefahren und verweigert einen Neustart; außerdem unterstützt die Software NU6.3 nicht. Verwende Zebra. Wenn du eine zcashd `wallet.dat` besitzt, folge dem [Migrationsleitfaden: zcashd zu Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd war die ursprüngliche Implementierung eines vollständigen Knotens für Zcash, entwickelt und gepflegt von der Electric Coin Company. Die folgenden Build-Anweisungen werden als Referenz und für Betreiber beibehalten, die von zcashd migrieren.
 
-zcashd stellt über seine RPC-Schnittstelle eine Reihe von APIs bereit. Diese APIs bieten Funktionen, die externen Anwendungen die Interaktion mit dem Knoten ermöglichen.
+Zcashd stellt über seine RPC-Schnittstelle eine Reihe von APIs bereit. Diese APIs bieten Funktionen, die externen Anwendungen die Interaktion mit dem Knoten ermöglichen.
 
-[lightwalletd](https://github.com/zcash/lightwalletd) ist ein Beispiel für eine Anwendung, die einen vollständigen Knoten nutzt, damit Entwickler mobilfreundliche abgeschirmte Light Wallets erstellen und pflegen können, ohne direkt mit zcashd interagieren zu müssen.
+[Lightwalletd](https://github.com/zcash/lightwalletd) ist ein Beispiel für eine Anwendung, die einen vollständigen Knoten nutzt, damit Entwickler mobilfreundliche abgeschirmte Light Wallets erstellen und pflegen können, ohne direkt mit Zcashd interagieren zu müssen.
 
 [Vollständige Liste unterstützter RPC-Befehle](https://zcash.github.io/rpc/)
 
-[Das zcashd-Buch](https://zcash.github.io/zcash/)
+[Das Zcashd-Buch](https://zcash.github.io/zcash/)
 
 #### Einen Knoten starten (Linux)
 
@@ -84,7 +84,7 @@ zcashd stellt über seine RPC-Schnittstelle eine Reihe von APIs bereit. Diese AP
 
 - Private Schlüssel werden in ~/.zcash/wallet.dat gespeichert
 
-[Anleitung für zcashd auf Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Anleitung für Zcashd auf Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Praktische Auswirkungen
 
@@ -112,7 +112,7 @@ Du kannst außerdem zur Entwicklung des Netzwerks beitragen, indem du Tests ausf
 
 Miner benötigen vollständige Knoten, um auf alle Mining-bezogenen RPCs wie getblocktemplate und getmininginfo zuzugreifen.
 
-zcashd ermöglicht außerdem Mining zu abgeschirmter Coinbase. Miner und Mining-Pools können standardmäßig direkt minen, um abgeschirmte ZEC in einer z-Adresse anzusammeln.
+Zcashd ermöglicht außerdem Mining zu abgeschirmter Coinbase. Miner und Mining-Pools können standardmäßig direkt minen, um abgeschirmte ZEC in einer z-Adresse anzusammeln.
 
 Lies [Den Mining-Leitfaden](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) oder tritt der Community-Forumseite für [Zcash Miner](https://forum.zcashcommunity.com/c/mining/13) bei.
 

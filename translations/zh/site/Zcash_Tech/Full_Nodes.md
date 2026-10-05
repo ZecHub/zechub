@@ -26,11 +26,11 @@ Zebra 是由 Zcash Foundation 创建、使用 Rust 编写的 Zcash 协议独立�
 
 Zebra 验证区块和交易、参与点对点网络，并为应用程序提供 RPC 接口。钱包现在是一个独立组件：[Zallet](https://github.com/zcash/zallet) 与 Zebra 节点配合运行，负责处理密钥和余额。这取代了将节点和钱包捆绑在单一进程中的 zcashd。
 
-要为屏蔽轻钱包提供服务，节点需与索引器一同运行，可以使用已成熟的 [lightwalletd](https://github.com/zcash/lightwalletd)，或较新的 [Zaino](https://zechub.wiki/zcash-tech/zaino)。
+要为屏蔽轻钱包提供服务，节点需与索引器一同运行，可以使用已成熟的 [lightwalletd](https://github.com/zcash/lightwalletd)，或较新的 [Zaino](https://zechub.wiki/zaino)。
 
 请务必阅读 Zebra 手册以获取设置说明，并加入 R&D Discord 服务器寻求支持。
 
-[GitHub](https://github.com/ZcashFoundation/zebra/)
+[Github](https://github.com/ZcashFoundation/zebra/)
 
 [Zebra 手册](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura 是第二种兼容共识的全节点，从 Zebra 分叉而来，由 Valar
 
 ### zcashd（已退役）
 
-> **注意：**zcashd 已退役。Electric Coin Company [宣布弃用](https://z.cash/support/zcashd-deprecation/)，支持终止自动停机于 2026 年 7 月 18 日在区块高度 3417100 时生效。所有未经修改的 zcashd 6.20.0 节点均在该高度关闭并拒绝重新启动，该软件也不支持 NU6.3。请使用 Zebra。如果你持有 zcashd `wallet.dat`，请遵循 [迁移指南：从 zcashd 迁移至 zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)。
+> **注意：**zcashd 已退役。Electric Coin Company [宣布弃用](https://z.cash/support/zcashd-deprecation/)，支持终止自动停机于 2026 年 7 月 18 日在区块高度 3417100 时生效。所有未经修改的 zcashd 6.20.0 节点均在该高度关闭并拒绝重新启动，该软件也不支持 NU6.3。请使用 Zebra。如果你持有 zcashd `wallet.dat`，请遵循 [迁移指南：从 zcashd 迁移至 Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet)。
 
 zcashd 是 Zcash 的原始全节点实现，由 Electric Coin Company 开发和维护。下方保留构建说明，供参考以及供从 zcashd 迁出的运营者使用。
 
-zcashd 通过其 RPC 接口提供一组 API。这些 API 提供的功能允许外部应用程序与节点交互。
+Zcashd 通过其 RPC 接口提供一组 API。这些 API 提供的功能允许外部应用程序与节点交互。
 
-[lightwalletd](https://github.com/zcash/lightwalletd) 是使用全节点的应用程序示例，它让开发者无需直接与 zcashd 交互即可构建和维护适合移动设备的屏蔽轻钱包。
+[Lightwalletd](https://github.com/zcash/lightwalletd) 是使用全节点的应用程序示例，它让开发者无需直接与 Zcashd 交互即可构建和维护适合移动设备的屏蔽轻钱包。
 
 [支持的 RPC 命令完整列表](https://zcash.github.io/rpc/)
 
-[zcashd 手册](https://zcash.github.io/zcash/)
+[Zcashd 手册](https://zcash.github.io/zcash/)
 
 #### 启动节点（Linux）
 
@@ -84,7 +84,7 @@ zcashd 通过其 RPC 接口提供一组 API。这些 API 提供的功能允许�
 
 - 私钥存储在 ~/.zcash/wallet.dat 中
 
-[树莓派上的 zcashd 指南](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[树莓派上的 Zcashd 指南](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## 实际影响
 
@@ -112,7 +112,7 @@ DNS 种子节点通过内置服务器公开其他可靠节点的列表。这让�
 
 矿工需要全节点来访问所有与挖矿相关的 RPC，例如 getblocktemplate 和 getmininginfo。
 
-zcashd 还支持挖矿至屏蔽 coinbase。矿工和矿池可以选择默认直接挖矿，将屏蔽的 ZEC 累积到 z-address 中。
+Zcashd 还支持挖矿至屏蔽 coinbase。矿工和矿池可以选择默认直接挖矿，将屏蔽的 ZEC 累积到 z-address 中。
 
 阅读 [挖矿指南](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html)，或加入社区论坛中面向 [Zcash 矿工](https://forum.zcashcommunity.com/c/mining/13)的页面。
 

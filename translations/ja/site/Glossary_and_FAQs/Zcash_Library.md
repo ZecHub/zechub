@@ -23,7 +23,7 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 | Benchmarking | マイナーは、Zcash のマイニングに使用されるさまざまなハードウェアの効率性に関する指標を提出できます。[こちらで表示](https://zcashbenchmarks.info) |
 | Block | ブロックとは、Zcash ブロックチェーン上の記録であり、ネットワーク上で送信された一連のトランザクションを含みます。平均すると、およそ 75 秒ごとに新しいブロックがブロックチェーンに追加されます。 |
 | Block Explorer | ブロックチェーン上のすべてのトランザクション（過去・現在）を閲覧するためのオンラインツールです。[Zcash Block Explorer](https://zcashexplorer.app/) |
-| Blogs | [ZODL Blog（旧 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.substack.com/) |
+| Blogs | [ZODL Blog（旧 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.wiki/zechub-dao) |
 | Blossom | Zcash の 3 回目の主要ネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

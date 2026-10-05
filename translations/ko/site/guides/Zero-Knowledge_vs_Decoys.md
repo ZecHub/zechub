@@ -53,9 +53,9 @@ Monero의 유인자 알고리즘(링 서명)은 프라이버시를 제공하지�
 
 4) **신뢰 설정 없음**: Zcash의 Sprout 및 Sapling 설정은 "신뢰 설정 행사"라는 다 당사자 계산을 사용했다. 최근 NU5 업그레이드는 제로 지식 회로 설정의 무결성에 대한 신뢰가 필요하지 않았다 [ECC 블로그에서 NU5 읽기](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **데이터 프라이버시**: Zcash의 암호화 풀에서 사용되는 [zk-SNARK 기술](https://zechub.wiki/zcash-tech/zk-snarks)은 사용자에게 크게 강화된 보안을 제공한다. 체인 상 메타데이터 누출 감소는 잠재적 해커나 억압적인 국가 기관과 같은 적대자로부터 사용자를 보호한다.
+5) **데이터 프라이버시**: Zcash의 암호화 풀에서 사용되는 [zk-SNARK 기술](https://zechub.wiki/zcash-technology)은 사용자에게 크게 강화된 보안을 제공한다. 체인 상 메타데이터 누출 감소는 잠재적 해커나 억압적인 국가 기관과 같은 적대자로부터 사용자를 보호한다.
 
-Monero의 유인자 선택 알고리즘에 결함이 발견된 사례가 여러 번 있었다. 이러한 결함은 [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero)에서 보고한 바와 같이 사용자 지출을 노출시킬 수 있는 잠재적 위험을 야기했다.
+Monero의 유인자 선택 알고리즘에 결함이 발견된 사례가 여러 번 있었다. 이러한 결함은 [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero)에서 보고한 바와 같이 사용자 지출을 노출시킬 수 있는 잠재적 위험을 야기했다.
 
 
 요약하자면, Zooko가 [Orchid (priv8) AMA 라이브 세션](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9)에서 설명했듯이 사용자 정보 및 데이터 누출을 줄이거나 완전히 제거하는 것이 가장 중요하다.

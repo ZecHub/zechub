@@ -34,7 +34,7 @@ FPF X FPF hibe başvuru süreci birkaç aşamadan oluşur. İlk olarak, başvuru
 
 FPF X FPF hakkında daha fazla bilgi Financial Privacy Fun (FPF) web sitesinde [burada](https://www.financialprivacyfoundation.org/grants) görülebilir; FPF X FPF programı hakkında hâlâ merak ettikleriniz varsa, SSS belgesini burada ziyaret edebilirsiniz: [SSS](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-FPF X FPF programının bu turu için Gönüllü Değerlendirici olmakla ilgileniyorsanız, lütfen bu [bağlantıyı](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf) ziyaret edin. FPF X FPF Hibe Programı ile ilgili başka sorularınız için doğrudan e-posta göndererek [FPF](mailto:info@financialprivacyfoundation.org) ile iletişime geçebilirsiniz.
+FPF X FPF programının bu turu için Gönüllü Değerlendirici olmakla ilgileniyorsanız, lütfen bu [bağlantıyı](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf) ziyaret edin. FPF X FPF Hibe Programı ile ilgili başka sorularınız için doğrudan e-posta göndererek [FPF](info@financialprivacyfoundation.org) ile iletişime geçebilirsiniz.
 
 ## Kaynaklar 
 [Financial Privacy Fund](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

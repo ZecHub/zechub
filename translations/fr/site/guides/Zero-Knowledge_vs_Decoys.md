@@ -52,9 +52,9 @@ L'utilisation de leurres augmente bien l'ensemble d'anonymat. Cependant, cette a
 
 4) **Aucune configuration de confiance** : La configuration de Sprout et Sapling de Zcash utilisait un calcul multipartite connu sous le nom de « cérémonie de trusted setup ». La récente mise à niveau NU5 n'a nécessité aucune confiance dans l'intégrité de la configuration du circuit à divulgation nulle de connaissance. [Lire le blog de l'ECC sur NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Confidentialité des données** : La [technologie zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) utilisée dans les pools protégés de Zcash permet une sécurité nettement renforcée pour les utilisateurs. La réduction des fuites de métadonnées on-chain signifie que les utilisateurs sont protégés contre des adversaires tels que d'éventuels pirates ou des autorités étatiques oppressives. 
+5) **Confidentialité des données** : La [technologie zk-SNARK](https://zechub.wiki/zcash-technology) utilisée dans les pools protégés de Zcash permet une sécurité nettement renforcée pour les utilisateurs. La réduction des fuites de métadonnées on-chain signifie que les utilisateurs sont protégés contre des adversaires tels que d'éventuels pirates ou des autorités étatiques oppressives. 
 
-Il existe plusieurs cas dans lesquels des bogues ont été identifiés dans l'algorithme de sélection des leurres de Monero. Selon un rapport de [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero), ces bogues avaient le potentiel de révéler les dépenses des utilisateurs. 
+Il existe plusieurs cas dans lesquels des bogues ont été identifiés dans l'algorithme de sélection des leurres de Monero. Selon un rapport de [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero), ces bogues avaient le potentiel de révéler les dépenses des utilisateurs. 
 
 
 En résumé, ce qui importe vraiment le plus, c'est de réduire ou d'éliminer la fuite d'informations et de données des utilisateurs, comme l'explique Zooko lors de la [session AMA en direct Orchid (priv8)](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 

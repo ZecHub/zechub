@@ -52,9 +52,9 @@ The use of decoys does increase the anonymity set. However this approach is depe
 
 4) ** Enweghị Ntọala A Tụkwasịrị Obi **: Zcash's Sprout & Sapling setup utilized a multi-party computation known as the "trusted setup ceremony". Nwelite NU5 na nso nso a achọghị ntụkwasị obi ọ bụla na iguzosi ike n'ezi ihe nke nhazi usoro ihe ọmụma efu. [Gụọ ECC Blog na NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Nchekwa data**: [zk-SNARK technology](https://zechub.wiki/zcash-tech/zk-snarks) used in Zcash's shielded pools allows for significantly enhanced security for users. The reduction of metadata leakage on-chain means that users are safe from adversaries such as potential hackers or oppressive state bodies. 
+5) **Nchekwa data**: [zk-SNARK technology](https://zechub.wiki/zcash-technology) used in Zcash's shielded pools allows for significantly enhanced security for users. The reduction of metadata leakage on-chain means that users are safe from adversaries such as potential hackers or oppressive state bodies. 
 
-E nwere ọtụtụ ihe atụ ebe achọpụtara ahụhụ na Monero's decoy selection algorithm. ([CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero)). 
+E nwere ọtụtụ ihe atụ ebe achọpụtara ahụhụ na Monero's decoy selection algorithm.](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 
 
 Na nchịkọta ihe kachasị mkpa bụ iji belata ma ọ bụ kpochapụ ihe ọmụma nke onye ọrụ na data dị ka Zooko kọwara na [Orchid (priv8) AMA ndụ nnọkọ](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 

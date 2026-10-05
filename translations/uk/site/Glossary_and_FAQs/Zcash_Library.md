@@ -23,7 +23,7 @@
 | Benchmarking | Майнери можуть надсилати метрики ефективності різного обладнання, яке використовується для майнінгу Zcash. [Переглянути тут](https://zcashbenchmarks.info) |
 | Block | Блок — це запис у блокчейні Zcash, що містить набір транзакцій, надісланих у мережі. Приблизно кожні 75 секунд у середньому новий блок додається до блокчейна. |
 | Block Explorer | Онлайн-інструмент для перегляду всіх транзакцій у блокчейні, як минулих, так і поточних. [Оглядач блоків Zcash](https://zcashexplorer.app/) |
-| Blogs | [Блог ZODL (раніше Electric Coin Co)](https://zodl.com/blog/) / [Блог Zcash Foundation](https://zfnd.org/blog/) / [Блог ZecHub](https://zechub.substack.com/) |
+| Blogs | [Блог ZODL (раніше Electric Coin Co)](https://zodl.com/blog/) / [Блог Zcash Foundation](https://zfnd.org/blog/) / [Блог ZecHub](https://zechub.wiki/zechub-dao) |
 | Blossom | 3-тє велике мережеве оновлення Zcash. [Докладніше](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

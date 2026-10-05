@@ -23,7 +23,7 @@ Faharasa kamili ya maneno muhimu, dhana, na rasilimali zinazohusiana na Zcash.
 | Benchmarking | Wachimbaji wanaweza kuwasilisha vipimo kuhusu ufanisi wa vifaa mbalimbali vinavyotumika kuchimba Zcash. [Tazama hapa](https://zcashbenchmarks.info) |
 | Block | Block ni rekodi katika blockchain Zcash ambayo ina seti ya miamala inayotumwa kwenye mtandao. Takriban kila baada ya sekunde 75, kwa wastani, block mpya huongezwa kwenye blockchain. |
 | Block Explorer | Zana ya mtandaoni ya kutazama miamala yote, ya zamani na ya sasa, kwenye blockchain. [Kichunguzi cha Kizuizi Zcash](https://zcashexplorer.app/) |
-| Blogs | [Blogu ZODL (zamani ilikuwa Electric Coin Co)](https://zodl.com/blog/) / [Blogu Zcash Foundation](https://zfnd.org/blog/) / [Blogu ZecHub](https://zechub.substack.com/) |
+| Blogs | [Blogu ZODL (zamani ilikuwa Electric Coin Co)](https://zodl.com/blog/) / [Blogu Zcash Foundation](https://zfnd.org/blog/) / [Blogu ZecHub](https://zechub.wiki/zechub-dao) |
 | Blossom | Uboreshaji wa Mtandao Mkuu wa 3 kwa Zcash. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

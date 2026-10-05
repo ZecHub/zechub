@@ -23,7 +23,7 @@ Ein umfassendes Glossar zentraler Begriffe, Konzepte und Ressourcen rund um Zcas
 | Benchmarking | Miner können Kennzahlen zur Effizienz verschiedener Hardware einreichen, die für das Mining von Zcash verwendet wird. [Hier ansehen](https://zcashbenchmarks.info) |
 | Block | Ein Block ist ein Eintrag in der Zcash-blockchain, der eine Reihe von Transaktionen enthält, die über das Netzwerk gesendet wurden. Im Durchschnitt wird ungefähr alle 75 Sekunden ein neuer Block an die blockchain angehängt. |
 | Block Explorer | Ein Online-Tool, um alle vergangenen und aktuellen Transaktionen auf der blockchain anzuzeigen. [Zcash Block Explorer](https://zcashexplorer.app/) |
-| Blogs | [ZODL Blog (ehemals Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.substack.com/) |
+| Blogs | [ZODL Blog (ehemals Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.wiki/zechub-dao) |
 | Blossom | Das 3. große Netzwerk-Upgrade für Zcash. [Mehr Infos](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C

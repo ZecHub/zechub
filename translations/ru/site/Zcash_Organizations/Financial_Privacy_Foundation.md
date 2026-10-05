@@ -33,7 +33,7 @@ FPF X FPF — это первая экспериментальная прогр�
 
 Дополнительную информацию о FPF X FPF можно найти на веб-сайте Финансового фонда приватности (FPF) [здесь](https://www.financialprivacyfoundation.org/grants), а если вы все еще хотите узнать больше о программе FPF X FPF, вы можете посетить документ с часто задаваемыми вопросами здесь: [Часто задаваемые вопросы](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Если вы хотите стать добровольным рецензентом этого раунда программы FPF X FPF, пожалуйста, посетите этот [ссылка](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Для получения дополнительной информации о программе грантов FPF X FPF вы можете написать электронное письмо [FPF](mailto:info@financialprivacyfoundation.org).
+Если вы хотите стать добровольным рецензентом этого раунда программы FPF X FPF, пожалуйста, посетите этот [ссылка](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Для получения дополнительной информации о программе грантов FPF X FPF вы можете написать электронное письмо [FPF](info@financialprivacyfoundation.org).
 
 ## Ресурсы 
 [Финансовый фонд приватности](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

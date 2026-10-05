@@ -34,7 +34,7 @@ FPF X FPF 的资助申请流程包含多个环节。首先，申请人必须通�
 
 有关 FPF X FPF 的更多信息可在 Financial Privacy Fun (FPF) 网站上查看，点击[这里](https://www.financialprivacyfoundation.org/grants)；如果你仍然想进一步了解 FPF X FPF 计划，可以访问常见问题文档：[常见问题](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf)。 
 
-如果你有兴趣成为本轮 FPF X FPF 计划的志愿评审员，请访问这个[链接](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)。如对 FPF X FPF 资助计划有进一步问题，你也可以直接发送电子邮件联系 [FPF](mailto:info@financialprivacyfoundation.org)。
+如果你有兴趣成为本轮 FPF X FPF 计划的志愿评审员，请访问这个[链接](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)。如对 FPF X FPF 资助计划有进一步问题，你也可以直接发送电子邮件联系 [FPF](info@financialprivacyfoundation.org)。
 
 ## 资源 
 [Financial Privacy Fund](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
