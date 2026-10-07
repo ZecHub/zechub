@@ -70,9 +70,9 @@ Un glossaire complet des principaux termes, concepts et ressources liés à Zcas
 
 ## G
 
-| Term | Definition |
+| Terme | Définition |
 |------|-----------|
-| Governance | Les décisions issues du processus ZIP sont inscrites dans la spécification Zcash, ainsi que dans le logiciel qui fait fonctionner le réseau. Les changements sont ratifiés on-chain lorsque la majorité du réseau adopte la mise à niveau et ne rompt pas le consensus. [Historique complet du protocole](https://zfnd.org/protocol-governance/) |
+| Governance | Les décisions issues du processus ZIP sont inscrites dans la spécification Zcash, ainsi que dans le logiciel qui fait fonctionner le réseau. Les changements sont ratifiés on-chain lorsque la majorité du réseau adopte la mise à niveau et ne rompt pas le consensus. [Historique complet du protocole](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 

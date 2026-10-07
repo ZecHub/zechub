@@ -31,7 +31,7 @@ Botschafter haben kreative Freiheit bei den Aktivitäten, die sie planen, sodass
 | Ostafrika | [Zcash East Africa](https://x.com/ZcashEastAfrica) | Wachstum der Community in Ostafrika und Uganda |
 | Südafrika | [Zcash South Africa](https://twitter.com/Zcash_SA) | Südafrika |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
-| Mexiko | [zcashqro](https://x.com/zcashqro) | Ansprache von Universitäten und Einführung von Entwicklern |
+| Mexiko | [Zcash Mexico](https://x.com/ZcashMx) | Ansprache von Universitäten und Einführung von Entwicklern |
 | Russland | [ruZcash](https://x.com/ruZCASH) | Russischsprachige Inhalte und Community |
 | Indien | [Zcash India](https://x.com/ZcashIND) | Entwicklerbildung und Community-Wachstum |
 | Korea | [Zcash Korea](https://x.com/zcashkorea) | Koreanische Bildungsinhalte |

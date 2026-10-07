@@ -72,7 +72,7 @@ Ein umfassendes Glossar zentraler Begriffe, Konzepte und Ressourcen rund um Zcas
 
 | Begriff | Definition |
 |------|-----------|
-| Governance | Entscheidungen aus dem ZIP-Prozess werden in die Zcash-Spezifikation sowie in die Software geschrieben, die das Netzwerk betreibt. Die Änderungen werden on-chain ratifiziert, wenn die Mehrheit des Netzwerks das Upgrade übernimmt und den Konsens nicht bricht. [Vollständige Protokollhistorie](https://zfnd.org/protocol-governance/) |
+| Governance | Entscheidungen aus dem ZIP-Prozess werden in die Zcash-Spezifikation sowie in die Software geschrieben, die das Netzwerk betreibt. Die Änderungen werden on-chain ratifiziert, wenn die Mehrheit des Netzwerks das Upgrade übernimmt und den Konsens nicht bricht. [Vollständige Protokollhistorie](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 

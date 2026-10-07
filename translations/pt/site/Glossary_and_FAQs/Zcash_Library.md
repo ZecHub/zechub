@@ -72,7 +72,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados com 
 
 | Termo | Definição |
 |------|-----------|
-| Governance | As decisões do processo ZIP são escritas na especificação do Zcash, bem como no software que executa a rede. As alterações são ratificadas on-chain quando a maioria da rede adota a atualização e não quebra o consenso. [Histórico Completo do Protocolo](https://zfnd.org/protocol-governance/) |
+| Governance | As decisões do processo ZIP são escritas na especificação do Zcash, bem como no software que executa a rede. As alterações são ratificadas on-chain quando a maioria da rede adota a atualização e não quebra o consenso. [Histórico Completo do Protocolo](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
