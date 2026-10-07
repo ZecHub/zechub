@@ -22,7 +22,7 @@ Zcash inakupa uchaguzi badala yake. Uchaguzi huo ni kufanywa mara mbili: ** Mara
 
 Picha iliyo chini inaonyesha mambo hayo mawili.
 
-![Zcash key types and what a block explorer can see for each of the four transaction paths](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash key types and what a block explorer can see for each of the four transaction paths](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
@@ -44,9 +44,9 @@ Usiri kwamba unaweza kamwe kuondoa si muhimu. Wakati mwingine unahitaji kuthibit
 
 **Ufungashaji wa matumizi.** Huona kila kitu na kuhamisha fedha. Hii ni pesa. Inakaa nawe na kamwe haishirikiwi na mtu yeyote, kwa sababu yoyote ile.
 
-** Full kuona muhimu.** Soma tu. Inaonyesha shughuli zinazoingia na zinazotoka na mizani, lakini hawezi kutumia zatoshi moja. Hii ni nini wewe mkono kwa mkaguzi au mhasibu.
+** Full Viewing Key.** Soma tu. Inaonyesha shughuli zinazoingia na zinazotoka na mizani, lakini hawezi kutumia zatoshi moja. Hii ni nini wewe mkono kwa mkaguzi au mhasibu.
 
-** Incoming viewing key.** Narrower bado: inaonyesha tu malipo kuwasili. kubadilishana au mfanyabiashara anaweza kukimbia hii kuthibitisha amana yako kutua, wakati matumizi muhimu anakaa juu ya vifaa kwamba kamwe kugusa mtandao.
+** Incoming Viewing Key.** Narrower bado: inaonyesha tu malipo kuwasili. kubadilishana au mfanyabiashara anaweza kukimbia hii kuthibitisha amana yako kutua, wakati matumizi muhimu anakaa juu ya vifaa kwamba kamwe kugusa mtandao.
 
 Funguo iliyo nyembamba zaidi ndiyo inayohitajika, si ile pana unayoweza kutumia.
 
@@ -64,7 +64,7 @@ Funguo iliyo nyembamba zaidi ndiyo inayohitajika, si ile pana unayoweza kutumia.
 
 ## Tumia shauri hilo maishani mwako.
 
-- Tumia mkoba kwamba shields default, kama vile [Zodl](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
+- Tumia mkoba kwamba shields default, kama vile [ZODL](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Kuhifadhi fedha mara tu wanapowasili kutoka kubadilishana, kabla ya matumizi.
 - Kulipa kwa anwani ulinzi wakati wowote mpokeaji inasaidia moja.
 - Kabla ya kushiriki ufunguo wa kutazama, uliza ni ipi iliyo ndogo zaidi inayojibu swali linaloulizwa.

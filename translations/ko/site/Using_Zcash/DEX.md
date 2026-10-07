@@ -112,7 +112,7 @@ ___
 
 ### ZcashToCash
 
-<img width="1774" height="887" alt="ChatGPT 이미지 2026년 9월 22일, 오후 08_27_53" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+<img width="1774" height="887" alt="ChatGPT 이미지 2026년 9월 22일, 오후 08_27_53" src="/content-images/3f7aa1a6-3646-442b-8f66-1ef8988051ba-3ddc295461.webp" />
 
 
 

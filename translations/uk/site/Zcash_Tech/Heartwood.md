@@ -18,7 +18,7 @@ Heartwood активується на заданій висоті блоку (90
 
 Транзакція coinbase — це спеціальна транзакція, яка виплачує винагороду за блок. До Heartwood її виходи мали бути прозорими, тому щойно створені ZEC майнера завжди починали свій шлях на публічній адресі. Heartwood змінив правила консенсусу так, що, за словами ZIP 213, транзакції coinbase можуть містити виходи Sapling. Простими словами, тепер майнери можуть отримувати винагороди безпосередньо на захищені адреси Sapling. Прозорі виходи coinbase як і раніше підтримуються, тож це нова опція, а не примусова зміна.
 
-![До Heartwood винагорода майнера за блок мала надходити на прозору публічну адресу. Після Heartwood транзакції coinbase можуть містити виходи Sapling, тому винагорода може надходити безпосередньо на захищену адресу](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![До Heartwood винагорода майнера за блок мала надходити на прозору публічну адресу. Після Heartwood транзакції coinbase можуть містити виходи Sapling, тому винагорода може надходити безпосередньо на захищену адресу](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## Чому спочатку Sapling
 
@@ -28,13 +28,13 @@ Shielded coinbase орієнтований саме на виходи Sapling, �
 
 Heartwood також змінив те, що фіксує заголовок блоку. Поле заголовка, яке раніше називалося hashFinalSaplingRoot, було перепризначене й перейменоване на hashLightClientRoot. Тепер воно фіксує корінь Merkle Mountain Range (MMR) — накопичувальної структури, побудованої на основі даних заголовків і метаданих попередніх блоків, таких як часові мітки, цілі складності, корені Sapling, накопичена робота та кількість транзакцій. Це зобов’язання дозволяє легкому клієнту або зовнішньому ланцюгу перевіряти proof-of-work Zcash за допомогою невеликого доказу, розмір якого зростає лише логарифмічно від довжини ланцюга. У підсумку це дає кращі гаманці для легких клієнтів і простішу інтеграцію зі сторонніми системами та між ланцюгами, оскільки клієнту більше не потрібно завантажувати кожен блок, щоб довіряти роботі, що стоїть за ланцюгом.
 
-![Потік FlyClient: дані заголовка кожного блоку фіксуються в корені Merkle Mountain Range (hashLightClientRoot), що дозволяє легкому клієнту перевіряти proof-of-work за допомогою невеликого доказу логарифмічного розміру](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![Потік FlyClient: дані заголовка кожного блоку фіксуються в корені Merkle Mountain Range (hashLightClientRoot), що дозволяє легкому клієнту перевіряти proof-of-work за допомогою невеликого доказу логарифмічного розміру](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Де знаходиться Heartwood у загальній картині
 
 Heartwood — це один крок у низці оновлень Zcash, кожне з яких додає частину, на яку спирається наступне. Overwinter і Sapling з’явилися у 2018 році, Blossom — у 2019, а Heartwood — у 2020 році на блоці 903,000. Пізніше у 2020 році на блоці 1,046,400 вийшов Canopy. Для Heartwood ключовою ланкою в цьому ланцюгу є Sapling: його ефективний механізм захищених транзакцій був технічною передумовою, що зробила можливим shielded coinbase.
 
-![Хронологія оновлень Zcash: Overwinter і Sapling у 2018 році, Blossom у 2019 році, Heartwood у 2020 році](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Хронологія оновлень Zcash: Overwinter і Sapling у 2018 році, Blossom у 2019 році, Heartwood у 2020 році](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## Глосарій
 
@@ -88,7 +88,7 @@ Heartwood — це один крок у низці оновлень Zcash, ко�
 
 [Гаманці](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

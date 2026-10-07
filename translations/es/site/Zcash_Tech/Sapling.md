@@ -16,7 +16,7 @@ Por qué importa. Antes de Sapling, hacer un pago realmente privado significaba 
 
 El corazón de Sapling es una forma más rápida de construir la prueba de conocimiento cero que mantiene privada una transacción shielded. El diseño original de Sprout usaba un único circuito de prueba (el circuito JoinSplit) que era lento y consumía mucha memoria. Sapling lo reemplazó con dos circuitos diseñados específicamente, un circuito Spend y un circuito Output, descritos en la Especificación del Protocolo de Zcash. El resultado es una gran reducción del costo. Según Electric Coin Company, una transacción shielded puede construirse en apenas unos segundos usando unos 40 megabytes de memoria. La referencia previa a Sapling de Sprout era mucho más pesada, del orden de minutos y varios gigabytes de memoria (estas cifras del lado de Sprout son la referencia aproximada más citada).
 
-![Costo de transacción shielded de Sprout frente a Sapling](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Costo de transacción shielded de Sprout frente a Sapling](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## Nuevas claves
 
@@ -24,7 +24,7 @@ Sapling también introdujo un nuevo conjunto de direcciones y claves shielded. U
 
 Un cambio relacionado es que Sapling separó la tarea de construir la prueba de la tarea de firmar la transacción. El dispositivo que construye la prueba de conocimiento cero ya no tiene que ser el dispositivo que posee la autoridad de gasto. Esta separación es lo que permite que una hardware wallet mantenga aislada tu clave de gasto mientras un dispositivo separado realiza el trabajo más pesado de generación de pruebas.
 
-![El dispositivo de prueba entrega la prueba a un dispositivo de firma separado](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![El dispositivo de prueba entrega la prueba a un dispositivo de firma separado](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## La trusted setup
 
@@ -34,7 +34,7 @@ Los circuitos de Sapling dependen de un conjunto de parámetros públicos que de
 
 Sapling siguió a Overwinter, la actualización de junio de 2018 que preparó el mecanismo de actualización de la red. Electric Coin Company estableció la altura de activación de la mainnet en zcashd 2.0.0, publicado en agosto de 2018, y la red cambió a las reglas de Sapling cuando se minó el bloque 419,200. En cadena, ese momento está marcado por el consensus branch id de Sapling.
 
-![Cronología desde el lanzamiento de Zcash hasta la activación de Sapling](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![Cronología desde el lanzamiento de Zcash hasta la activación de Sapling](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## Glosario
 
@@ -44,7 +44,7 @@ Sapling siguió a Overwinter, la actualización de junio de 2018 que preparó el
 | Sprout | El protocolo shielded original con el que se lanzó Zcash, más lento y pesado que Sapling. |
 | Spend and Output circuits | Los dos nuevos circuitos de prueba de Sapling que reemplazaron el único circuito JoinSplit de Sprout. |
 | Diversified address | Una de muchas direcciones de pago no vinculables que puedes derivar de una sola clave. |
-| Viewing key | Una clave que permite a alguien ver las transacciones de una wallet sin poder gastar desde ella. |
+| Viewing Key | Una clave que permite a alguien ver las transacciones de una wallet sin poder gastar desde ella. |
 | Consensus branch id | Un código corto que indica a la red qué reglas de actualización sigue una transacción. |
 
 ## Preguntas frecuentes
@@ -82,7 +82,7 @@ En Sprout, construir una transacción shielded tomaba minutos y usaba gigabytes 
 
 - [Pools shielded](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Actualizaciones de red de Zcash](../start-here/network-upgrades)
 - [Wallets](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

@@ -22,7 +22,7 @@ Hili linaleta tatizo la vitendo. Mteja anaweza kuhitaji kutatua mgogoro wa mfany
 
 [ZIP 311: Ufichuzi wa Malipo ya Zcash](https://zips.z.cash/zip-0311) inapendekeza jibu finyu zaidi: kufichua na kuthibitisha taarifa zilizochaguliwa kutoka kwa muamala mmoja.
 
-![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-proof-flow.png)
+![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](/content-images/payment-disclosure-proof-flow-208c033e06.webp)
 
 ## Jinsi ufichuzi wa malipo unavyofanya kazi
 
@@ -53,7 +53,7 @@ Tumia ufichuzi mdogo zaidi unaojibu swali. Mzozo wa mfanyabiashara kuhusu malipo
 
 Hakuna njia yoyote inayoruhusu matumizi. Kamwe usishiriki kifungu cha kwanza, ufunguo wa matumizi, ufunguo wa faragha, au nakala rudufu ya pochi kama uthibitisho wa malipo.
 
-![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-scope.png)
+![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](/content-images/payment-disclosure-scope-0585cdc075.webp)
 
 ## Ninaweza kutumia nini leo?
 

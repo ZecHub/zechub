@@ -18,7 +18,7 @@ Orchard es el protocolo blindado más reciente de Zcash, definido en [ZIP 224](h
 
 Tanto Sprout como Sapling dependían de un trusted setup. Un grupo de personas realizó una ceremonia para construir los parámetros de cada pool, y todos tenían que confiar en que al menos una de ellas destruyera su parte del secreto. Orchard elimina ese supuesto. Los pools antiguos siguen existiendo después de NU5, así que la garantía de no requerir configuración aplica a los fondos que mantienes en el pool Orchard.
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Qué cambió NU5
 
@@ -37,7 +37,7 @@ NU5 también actualizó varios ZIP existentes (32, 203, 209, 212, 213, 221 y 401
 
 Antes de NU5, cada pool tenía su propio tipo de dirección, y un remitente tenía que saber cuál querías. Las direcciones unificadas, definidas en [ZIP 316](https://zips.z.cash/zip-0316), cambian eso. Una sola dirección unificada puede agrupar receptores para más de un pool, así que la wallet del remitente simplemente elige el mejor que admite.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Las unified viewing keys funcionan del mismo modo para la visualización. Ofrecen visibilidad de solo lectura en todos los pools que cubre una dirección. Para más información sobre eso, consulta la página de [Viewing Keys](../zcash-tech/viewing-keys).
 
@@ -53,7 +53,7 @@ NU5 vino después de las actualizaciones anteriores de Zcash: Overwinter, Saplin
 | Orchard | El pool blindado que introdujo NU5, construido sobre el sistema de pruebas Halo 2 |
 | Halo 2 | El sistema de pruebas detrás de Orchard que no necesita trusted setup |
 | Trusted setup | Una ceremonia única que crea los parámetros secretos de un pool y en la que se debe confiar para que sean destruidos |
-| Unified address | Una sola dirección que puede agrupar receptores para más de un pool (ZIP 316) |
+| Unified Address | Una sola dirección que puede agrupar receptores para más de un pool (ZIP 316) |
 | Consensus branch id | Un identificador que marca a qué conjunto de reglas pertenece una transacción |
 
 ## Preguntas frecuentes
@@ -102,7 +102,7 @@ Orchard está construido sobre el sistema de pruebas Halo 2, que no necesita tru
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

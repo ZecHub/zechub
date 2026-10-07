@@ -1,7 +1,7 @@
 # Zcash Labs
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/313788363?s=200&v=4" alt="Logo Zcash Labs" width="320" />
+  <img src="/content-images/313788363-f867625894.webp" alt="Logo Zcash Labs" width="320" />
 </p>
 
 ---
@@ -54,9 +54,9 @@ Zcash Labs explains a fairly simple workflow. The process begins by understandin
 
 ## Awọn iṣẹ amayederun nipasẹ Zcash Labs
 
-In addition to facilitating third-party integrations, Zcash Labs also operates and develops the infrastructure that supports access to the Zcash network. When it was introduced to the public, the organization stated that it operates a **Shielded Vote Validator** and is developing services that include a **Zcash full node**, **Lightwalletd**, and **RPC** infrastructure.
+In addition to facilitating third-party integrations, Zcash Labs also operates and develops the infrastructure that supports access to the Zcash network. When it was introduced to the public, the organization stated that it operates a **Shielded Vote Validator** and is developing services that include a **Zcash full node**, **lightwalletd**, and **RPC** infrastructure.
 
-A lo awọn nẹtiwọọki kikun lati sopọ taara si nẹtọọki ati ṣayẹwo data blockchain. Lightwalletd ṣe iranlọwọ fun apamọwọ ati ohun elo ti o ni irọrun gba data pataki lati inu nẹtyẹẹki laisi ṣiṣe gbogbo ẹka naa lori agbegbe. Nibayi, RPC pese ọna kan fun sọfitiwia ita lati ba sọrọ pẹlu awọn nodes tabi iṣẹ blockchain .
+A lo awọn nẹtiwọọki kikun lati sopọ taara si nẹtọọki ati ṣayẹwo data blockchain. lightwalletd ṣe iranlọwọ fun apamọwọ ati ohun elo ti o ni irọrun gba data pataki lati inu nẹtyẹẹki laisi ṣiṣe gbogbo ẹka naa lori agbegbe. Nibayi, RPC pese ọna kan fun sọfitiwia ita lati ba sọrọ pẹlu awọn nodes tabi iṣẹ blockchain .
 
 Ṣiṣẹ awọn amayederun yi ni taara ti sopọ si Zcash Labs integration akitiyan. Businesses ati Difelopa kọ Zcash ohun elo nilo gbẹkẹle wiwọle lati nẹtiwọki. nipa ṣiṣe wọnyi iṣẹ ominira, Zcash labs le faagun ibiti o ti wa amayederu aṣayan nigba gbigba akọkọ-ọwọ iriri pẹlu awọn imọ ibeere ti awọn integrations o facilitates.
 
@@ -128,9 +128,9 @@ Ti Zcash Labs ba ni lati ṣe idoko-owo inifura kan ni ọjọ iwaju, agbari naa
 
 ---
 
-## ZcashtoCash (ì í ì ë§)
+## ZcashToCash (ì í ì ë§)
 
-**[ZcashtoCash (ì í ì ë§)](https://zcashto.cash/)** jẹ ọkan ninu awọn iṣẹ akanṣe akọkọ ti o mọ gbangba lati gba atilẹyin lati Zcash Labs. A ṣẹda ise agbese naa lati ṣe iranlọwọ fun awọn olumulo yipada ZEC sinu owo fiat nipasẹ awọn iṣowo ẹlẹgbẹ-si-ẹlẹgbẹ .
+**[ZcashToCash (ì í ì ë§)](https://zcashto.cash/)** jẹ ọkan ninu awọn iṣẹ akanṣe akọkọ ti o mọ gbangba lati gba atilẹyin lati Zcash Labs. A ṣẹda ise agbese naa lati ṣe iranlọwọ fun awọn olumulo yipada ZEC sinu owo fiat nipasẹ awọn iṣowo ẹlẹgbẹ-si-ẹlẹgbẹ .
 
 zcashtocash nlo awọn eto amayederun lati ọdọ **Peer**. Eto yii ni a lo lati jẹrisi awọn sisanwo fiat ṣaaju ki a to tu ZEC silẹ ninu iṣowo kan. Nigbati a ṣe afihan Zcash Labs si gbogbo eniyan, iṣẹ naa ti ṣe atilẹyin fun **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo**, ati **Zelle**.
 
@@ -232,6 +232,6 @@ Nipasẹ ọna yii, Zcash Labs ni ifọkansi lati ṣẹda ipa-ọna taara diẹ
 
 [Zcash Labs lori X.](https://x.com/zcashlabs)
 
-[Zcash Labs lórí Github](https://github.com/zcashlabs)
+[Zcash Labs lórí GitHub](https://github.com/zcashlabs)
 
 [Zcash Labs lórí àwọn bulọọgi wẹ́ẹ̀bù](https://zcashlabs.org/blog)

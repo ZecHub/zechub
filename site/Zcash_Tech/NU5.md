@@ -18,7 +18,7 @@ Orchard is the shielded protocol introduced by NU5, defined in [ZIP 224](https:/
 
 Sprout and Sapling both depended on a trusted setup. A group of people ran a ceremony to build each pool's parameters, and everyone had to trust that at least one of them destroyed their piece of the secret. Orchard removes that assumption. The older pools still exist after NU5, so the no-setup guarantee applies to funds you hold in the Orchard pool.
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## What NU5 changed
 
@@ -37,7 +37,7 @@ NU5 also updated a number of existing ZIPs (32, 203, 209, 212, 213, 221, and 401
 
 Before NU5, each pool had its own address type, and a sender had to know which kind you wanted. Unified Addresses, defined in [ZIP 316](https://zips.z.cash/zip-0316), change that. A single Unified address can bundle receivers for more than one pool, so the sender's wallet just picks the best one it supports.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Unified viewing keys work the same way for viewing. They give read-only visibility across the pools an address covers. For more on that, see the [Viewing Keys](../zcash-tech/viewing-keys) page.
 
@@ -53,7 +53,7 @@ NU5 followed Zcash's earlier upgrades: Overwinter, Sapling, Blossom, Heartwood, 
 | Orchard | The shielded pool NU5 introduced, built on the Halo 2 proving system |
 | Halo 2 | The proving system behind Orchard that needs no trusted setup |
 | Trusted setup | A one-time ceremony that makes a pool's secret parameters and must be trusted to destroy them |
-| Unified address | A single address that can bundle receivers for more than one pool (ZIP 316) |
+| Unified Address | A single address that can bundle receivers for more than one pool (ZIP 316) |
 | Consensus branch id | An identifier marking which set of rules a transaction belongs to |
 
 ## FAQ
@@ -102,7 +102,7 @@ Orchard is built on the Halo 2 proving system, which needs no trusted setup and 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

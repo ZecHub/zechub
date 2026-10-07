@@ -12,7 +12,7 @@ Overwinter は Zcash の[ネットワークアップグレード](../start-here/
 
 なぜこれが重要なのか。稼働中のブロックチェーンのルールを変更することは危険です。失敗すれば、ネットワークの2つのバージョンが食い違ったり、あるチェーン向けのトランザクションが別のチェーンで再利用されたりする可能性があります。Overwinter より前の Zcash には、ルール変更を調整するための標準化されたリプレイ安全な方法がありませんでした。Overwinter はそれを解決しました。Zcash に正式なアップグレード手順を与え、さらに重要なこととして双方向のリプレイ保護を導入しました。これにより、あるルール集合のもとで有効なトランザクションは、別のルール集合のもとでは再利用できなくなりました。この土台こそが、Sapling と、その後のすべてのアップグレードをクリーンに有効化することを可能にしたのです。
 
-![Overwinter 前後の比較: 以前は標準的なアップグレード手段もリプレイ保護もなかった。以後は、双方向リプレイ保護と安全な将来のアップグレードを備えたネットワークアップグレード機構が導入された](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Overwinter 前後の比較: 以前は標準的なアップグレード手段もリプレイ保護もなかった。以後は、双方向リプレイ保護と安全な将来のアップグレードを備えたネットワークアップグレード機構が導入された](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## アップグレード機構
 
@@ -28,7 +28,7 @@ Overwinter 自体は、メインネットのブロック 347,500 で有効化さ
 
 これは [ZIP 202](https://zips.z.cash/zip-0202) の新しいバージョン3トランザクション形式と連動して機能します。この形式は Overwintered format と呼ばれることもあります。ここでは fOverwintered フラグと version group id が追加され、トランザクションがどの consensus ルール集合に属するのかが明確になります。副次的な利点として、この新しい署名方式は transparent トランザクションの検証速度も改善しました。
 
-![リプレイ保護の仕組み: ウォレットは現在の consensus branch id にコミットするトランザクションに署名するため、そのトランザクションは他のどの branch でもリプレイできない](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![リプレイ保護の仕組み: ウォレットは現在の consensus branch id にコミットするトランザクションに署名するため、そのトランザクションは他のどの branch でもリプレイできない](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## トランザクション有効期限
 
@@ -38,7 +38,7 @@ Overwinter 自体は、メインネットのブロック 347,500 で有効化さ
 
 Overwinter は、2016年10月のメインネット公開後に行われた最初の Zcash ネットワークアップグレードであり、意図的に Sapling に先行して実装されました。その役割は機能追加ではなく、インフラ整備でした。まずアップグレード機構とリプレイ保護の仕組みを導入することで、その後のあらゆるアップグレード（Sapling、Blossom、Heartwood、Canopy、NU5、そしてそれ以降）に安全な有効化の経路を与えたのです。
 
-![2016年10月の Sprout 公開から、アップグレードの枠組みが存在しなかった 2016年から2018年の期間を経て、2018年6月の Overwinter に至るタイムライン](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![2016年10月の Sprout 公開から、アップグレードの枠組みが存在しなかった 2016年から2018年の期間を経て、2018年6月の Overwinter に至るタイムライン](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## 用語集
 

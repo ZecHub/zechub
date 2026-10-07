@@ -22,7 +22,7 @@
 
 下の図はその両方を示しています。
 
-![Zcash のキーの種類と、4つのトランザクション経路ごとにブロックエクスプローラーが見られる内容](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash のキーの種類と、4つのトランザクション経路ごとにブロックエクスプローラーが見られる内容](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
@@ -64,7 +64,7 @@
 
 ## 実践してみましょう
 
-- [Zodl](https://zodl.com) や [Zingo!](https://www.zingolabs.org/) のように、デフォルトでシールドするウォレットを使いましょう。
+- [ZODL](https://zodl.com) や [Zingo!](https://www.zingolabs.org/) のように、デフォルトでシールドするウォレットを使いましょう。
 - 取引所から資金が届いたら、使う前にすぐシールドしましょう。
 - 受取側が対応しているなら、shielded アドレスに支払いましょう。
 - Viewing Key を共有する前に、求められている質問に答えるために必要な最小のキーはどれかを確認しましょう。

@@ -18,7 +18,7 @@ Orchard は、[ZIP 224](https://zips.z.cash/zip-0224) で定義された Zcash �
 
 Sprout と Sapling はどちらもトラステッドセットアップに依存していました。各プールのパラメータを構築するために複数人がセレモニーを実行し、そのうち少なくとも 1 人が自分の秘密の断片を確実に破棄したと皆が信頼する必要がありました。Orchard はこの前提を取り除きます。NU5 後も古いプールは残るため、セットアップ不要という保証が適用されるのは Orchard プール内に保有している資金です。
 
-![NU5 以前は、Sprout と Sapling はトラステッドセットアップセレモニーを必要としていました。NU5 以後、Orchard プールは Halo 2 システムを使用し、トラステッドセットアップを必要としません](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![NU5 以前は、Sprout と Sapling はトラステッドセットアップセレモニーを必要としていました。NU5 以後、Orchard プールは Halo 2 システムを使用し、トラステッドセットアップを必要としません](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## NU5 で変わったこと
 
@@ -37,7 +37,7 @@ NU5 はまた、既存の複数の ZIP（32、203、209、212、213、221、401�
 
 NU5 以前は、各プールごとに独自のアドレスタイプがあり、送信者は受け取り側がどの種類を望むかを知っている必要がありました。[ZIP 316](https://zips.z.cash/zip-0316) で定義された Unified Address は、これを変えます。1 つの Unified Address は複数のプール向け受信先をまとめて持つことができるため、送信者側のウォレットは自分が対応している中で最適なものを選ぶだけで済みます。
 
-![Unified Address は複数のプール向け受信先をまとめます: transparent 受信先、Sapling 受信先、そして新しい Orchard 受信先](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![Unified Address は複数のプール向け受信先をまとめます: transparent 受信先、Sapling 受信先、そして新しい Orchard 受信先](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Unified Viewing Key も、閲覧のために同じ考え方で機能します。これにより、そのアドレスがカバーする複数のプールにわたって読み取り専用の可視性が得られます。詳しくは、[Viewing Keys](../zcash-tech/viewing-keys) のページを参照してください。
 
@@ -53,7 +53,7 @@ NU5 は、Zcash のそれ以前のアップグレードである Overwinter、Sa
 | Orchard | NU5 が導入したシールドプールで、Halo 2 証明システム上に構築されているもの |
 | Halo 2 | Orchard の背後にある、トラステッドセットアップを必要としない証明システム |
 | Trusted setup | プールの秘密パラメータを生成する一度限りのセレモニーで、それらが破棄されたと信頼されなければならないもの |
-| Unified address | 複数のプール向け受信先をまとめられる単一のアドレス（ZIP 316） |
+| Unified Address | 複数のプール向け受信先をまとめられる単一のアドレス（ZIP 316） |
 | Consensus branch id | トランザクションがどのルールセットに属するかを示す識別子 |
 
 ## FAQ
@@ -102,7 +102,7 @@ Orchard は Halo 2 証明システム上に構築されており、トラステ�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

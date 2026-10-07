@@ -12,7 +12,7 @@ Overwinter는 Zcash [네트워크 업그레이드](../start-here/network-upgrade
 
 왜 이것이 중요한가. 이미 운영 중인 블록체인의 규칙을 바꾸는 일은 위험합니다. 잘못 처리하면 네트워크의 두 버전이 서로 다른 결론에 도달할 수 있고, 한 체인을 위한 트랜잭션이 다른 체인에 복제될 수도 있습니다. Overwinter 이전에는, Zcash에는 규칙 변경을 조율하는 표준화되고 재생 공격에 안전한 방법이 없었습니다. Overwinter는 이를 해결했습니다. Zcash에 업그레이드를 위한 공식 절차를 제공했고, 그에 못지않게 중요한 양방향 재생 보호도 도입했습니다. 즉, 한 규칙 집합에서 유효한 트랜잭션은 다른 규칙 집합에서 재생될 수 없습니다. 바로 이 기반 덕분에 Sapling과 그 이후의 모든 업그레이드가 깔끔하게 활성화될 수 있었습니다.
 
-![Overwinter 이전과 이후: 이전에는 표준 업그레이드 경로도 재생 보호도 없었습니다. 이후에는 양방향 재생 보호와 안전한 미래 업그레이드를 갖춘 네트워크 업그레이드 메커니즘이 생겼습니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-before-after.png)
+![Overwinter 이전과 이후: 이전에는 표준 업그레이드 경로도 재생 보호도 없었습니다. 이후에는 양방향 재생 보호와 안전한 미래 업그레이드를 갖춘 네트워크 업그레이드 메커니즘이 생겼습니다](/content-images/overwinter-before-after-acf4f5d283.webp)
 
 ## 업그레이드 메커니즘
 
@@ -28,7 +28,7 @@ Overwinter 자체는 메인넷의 블록 347,500에서 활성화되었습니다.
 
 이 방식은 [ZIP 202](https://zips.z.cash/zip-0202)의 새 버전 3 트랜잭션 형식과 함께 작동합니다. 이 형식은 때때로 Overwintered 형식이라고도 불립니다. 여기에는 `fOverwintered` 플래그와 version group id가 추가되어, 어떤 트랜잭션이 어떤 합의 규칙 집합에 속하는지 명확히 보여줍니다. 부가적인 이점으로, 새 서명 방식은 투명 트랜잭션 검증 속도도 향상시켰습니다.
 
-![재생 보호의 작동 방식: 지갑은 현재 consensus branch id에 커밋하는 트랜잭션에 서명하므로, 그 트랜잭션은 다른 어떤 branch에서도 재생될 수 없습니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-replay-flow.png)
+![재생 보호의 작동 방식: 지갑은 현재 consensus branch id에 커밋하는 트랜잭션에 서명하므로, 그 트랜잭션은 다른 어떤 branch에서도 재생될 수 없습니다](/content-images/overwinter-replay-flow-754ec8578a.webp)
 
 ## 트랜잭션 만료
 
@@ -38,7 +38,7 @@ Overwinter 자체는 메인넷의 블록 347,500에서 활성화되었습니다.
 
 Overwinter는 2016년 10월 메인넷 출시 이후 Zcash의 첫 번째 네트워크 업그레이드였으며, 의도적으로 Sapling보다 앞서 배포되었습니다. 그 역할은 기능이 아니라 인프라였습니다. 먼저 업그레이드 메커니즘과 재생 보호 장치를 설치함으로써, 이후의 모든 업그레이드(Sapling, Blossom, Heartwood, Canopy, NU5, 그리고 그 이후의 것들)가 안전하게 활성화될 수 있는 경로를 제공했습니다.
 
-![2016년 10월 Sprout 출시부터, 업그레이드 프레임워크가 없던 2016년~2018년 구간을 지나, 2018년 6월 Overwinter에 이르는 타임라인](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/overwinter-timeline.png)
+![2016년 10월 Sprout 출시부터, 업그레이드 프레임워크가 없던 2016년~2018년 구간을 지나, 2018년 6월 Overwinter에 이르는 타임라인](/content-images/overwinter-timeline-689d9bcf20.webp)
 
 ## 용어집
 

@@ -1,7 +1,7 @@
 # Zcash Labs
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/313788363?s=200&v=4" alt="Logo Zcash Labs" width="320" />
+  <img src="/content-images/313788363-f867625894.webp" alt="Logo Zcash Labs" width="320" />
 </p>
 
 ---
@@ -54,9 +54,9 @@ This approach is important because not every project is automatically a good fit
 
 ## Akwanhodoɔ a wɔfa so yɛ adwuma no, Zcash Labs na ɛyɛe.
 
-Wɔ nnipa a wɔto so abiɛsa nkabom a ɛma ɛyɛ mmerɛw akyi no, Zcash Labs nso yɛ adwuma na ɛyɛ nhyehyɛe a ɛboa ma wotumi kɔ Zcash ntam nkitahodi no so. Bere a wɔde kyerɛɛ ɔmanfo no, ahyehyɛde no kae sɛ wɔyɛ **Shielded Vote Validator** na wɔreyɛ nnwuma a ɛka ho ne **Zcash full node**, **Lightwalletd**, ne **RPC** infrastructure.
+Wɔ nnipa a wɔto so abiɛsa nkabom a ɛma ɛyɛ mmerɛw akyi no, Zcash Labs nso yɛ adwuma na ɛyɛ nhyehyɛe a ɛboa ma wotumi kɔ Zcash ntam nkitahodi no so. Bere a wɔde kyerɛɛ ɔmanfo no, ahyehyɛde no kae sɛ wɔyɛ **Shielded Vote Validator** na wɔreyɛ nnwuma a ɛka ho ne **Zcash full node**, **lightwalletd**, ne **RPC** infrastructure.
 
-Wɔ fa kwan so no, wɔ di dwuma sɛ akwan a ɛkorɔn ma wɔde kɔ network na wɔn hwɛ blockchain data. Lightwalletd boa wallets ne lightweight application ahorow ma wonya ɛho hia ho nsɛm fi network mu bere a wonhia sɛ wɔyɛ blockchain nyinaa adwuma wɔ hɔ ara. RPC nso de ɔkwan bi ma external software ka blockchain node anaa services ho asɛm.
+Wɔ fa kwan so no, wɔ di dwuma sɛ akwan a ɛkorɔn ma wɔde kɔ network na wɔn hwɛ blockchain data. lightwalletd boa wallets ne lightweight application ahorow ma wonya ɛho hia ho nsɛm fi network mu bere a wonhia sɛ wɔyɛ blockchain nyinaa adwuma wɔ hɔ ara. RPC nso de ɔkwan bi ma external software ka blockchain node anaa services ho asɛm.
 
 Operating this infrastructure is directly tied to Zcash Labs’ integration efforts. Businesses and developers building Zcash applications require reliable access to the network. By running these services independently, Zcash Labs can expand the range of available infrastructure options while gaining firsthand experience with the technical requirements of the integrations it facilitates.
 
@@ -128,9 +128,9 @@ Sɛ Zcash Labs de ne sika bɛhyɛ n'ankasa mu daakye a, ahyehyɛde no kae sɛ w�
 
 ---
 
-## ZcashtoCash - Sika a wɔtɔ no yɛ sika.
+## ZcashToCash - Sika a wɔtɔ no yɛ sika.
 
-**[ZcashtoCash - Sika a wɔtɔ no yɛ sika.](https://zcashto.cash/)** yɛ dwumadie a edi kan no mu baako a wonim sɛ wɔagye Zcash Labs mmoa. Wɔyɛɛ saa nhyehyɛeɛ yi de boaa wɔn a wɔde ZEC di dwuma ma wɔbɛsesa sika kɔ fiat so denam peer-to-peer ntɔntuo ahodoɔ so.
+**[ZcashToCash - Sika a wɔtɔ no yɛ sika.](https://zcashto.cash/)** yɛ dwumadie a edi kan no mu baako a wonim sɛ wɔagye Zcash Labs mmoa. Wɔyɛɛ saa nhyehyɛeɛ yi de boaa wɔn a wɔde ZEC di dwuma ma wɔbɛsesa sika kɔ fiat so denam peer-to-peer ntɔntuo ahodoɔ so.
 
 zcashtocash uses infrastructure from **Peer**. This system is used to verify fiat payments before ZEC is released in a transaction. When Zcash Labs was introduced to the public, the service already supported **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo**, and **Zelle**.
 
@@ -232,6 +232,6 @@ Sɛ adwuma bi nya biribi a ɛsom bo wie a, Zcash Labs betumi de sika no ho ka at
 
 [Zcash Labs wɔ X so](https://x.com/zcashlabs)
 
-[Zcash Labs wɔ Github so](https://github.com/zcashlabs)
+[Zcash Labs wɔ GitHub so](https://github.com/zcashlabs)
 
 [Zcash Labs wɔ Intanɛt so Nsɛm ho Nkyerεmufoɔ mu](https://zcashlabs.org/blog)

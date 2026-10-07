@@ -16,7 +16,7 @@ Porque isto importa. Antes de Sapling, fazer um pagamento verdadeiramente privad
 
 O coração de Sapling é uma forma mais rápida de construir a zero-knowledge proof que mantém uma transação shielded privada. O design original de Sprout usava um único circuito de prova (o circuito JoinSplit), que era lento e consumia muita memória. Sapling substituiu-o por dois circuitos feitos para esse fim, um circuito Spend e um circuito Output, descritos na Especificação do Protocolo Zcash. O resultado é uma grande redução de custo. Segundo a Electric Coin Company, uma transação shielded pode ser construída em apenas alguns segundos usando cerca de 40 megabytes de memória. A referência de base pré-Sapling do lado de Sprout era muito mais pesada, na ordem de minutos e vários gigabytes de memória (estes valores do lado de Sprout são a referência aproximada amplamente citada).
 
-![Custo de transação shielded: Sprout versus Sapling](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Custo de transação shielded: Sprout versus Sapling](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## Novas chaves
 
@@ -24,7 +24,7 @@ Sapling também introduziu um novo conjunto de endereços e chaves shielded. Uma
 
 Uma alteração relacionada é que Sapling separou a tarefa de construir a prova da tarefa de assinar a transação. O dispositivo que constrói a zero-knowledge proof já não precisa de ser o dispositivo que detém a autoridade de gasto. Este desacoplamento é o que permite que uma hardware wallet mantenha a tua spending key isolada enquanto um dispositivo separado faz o trabalho de prova mais pesado.
 
-![O dispositivo de prova entrega a prova a um dispositivo de assinatura separado](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![O dispositivo de prova entrega a prova a um dispositivo de assinatura separado](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## A trusted setup
 
@@ -34,7 +34,7 @@ Os circuitos de Sapling dependem de um conjunto de parâmetros públicos que tev
 
 Sapling veio depois de Overwinter, a atualização de junho de 2018 que preparou o mecanismo de atualização da rede. A Electric Coin Company definiu a altura de ativação da mainnet em zcashd 2.0.0, lançado em agosto de 2018, e a rede mudou para as regras de Sapling quando o bloco 419.200 foi minerado. On-chain, esse momento é assinalado pelo consensus branch id de Sapling.
 
-![Linha temporal desde o lançamento da Zcash até à ativação de Sapling](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![Linha temporal desde o lançamento da Zcash até à ativação de Sapling](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## Glossário
 
@@ -44,7 +44,7 @@ Sapling veio depois de Overwinter, a atualização de junho de 2018 que preparou
 | Sprout | O protocolo shielded original com que a Zcash foi lançada, mais lento e pesado do que Sapling. |
 | Spend and Output circuits | Os dois novos circuitos de prova de Sapling que substituíram o único circuito JoinSplit de Sprout. |
 | Diversified address | Um entre muitos endereços de pagamento não associáveis que podes derivar a partir de uma única chave. |
-| Viewing key | Uma chave que permite a alguém ver as transações de uma wallet sem poder gastar a partir dela. |
+| Viewing Key | Uma chave que permite a alguém ver as transações de uma wallet sem poder gastar a partir dela. |
 | Consensus branch id | Um código curto que diz à rede quais as regras de atualização que uma transação segue. |
 
 ## FAQ
@@ -82,7 +82,7 @@ Em Sprout, construir uma transação shielded demorava minutos e usava gigabytes
 
 - [Shielded Pools](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Atualizações de Rede Zcash](../start-here/network-upgrades)
 - [Wallets](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

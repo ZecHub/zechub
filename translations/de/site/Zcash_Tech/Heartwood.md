@@ -18,7 +18,7 @@ Warum das wichtig ist. Miner verdienen neu erzeugte ZEC jedes Mal, wenn sie eine
 
 Die Coinbase-Transaktion ist die spezielle Transaktion, die eine Blockbelohnung auszahlt. Vor Heartwood mussten ihre Outputs transparent sein, sodass die neu erzeugten ZEC eines Miners immer in einer öffentlichen Adresse begannen. Heartwood änderte die Konsensregeln so, dass Coinbase-Transaktionen, in den Worten von ZIP 213, Sapling-Outputs enthalten dürfen. Vereinfacht gesagt können Miner Belohnungen nun direkt an Shielded-Sapling-Adressen erhalten. Transparente Coinbase-Outputs werden weiterhin unterstützt, also ist dies eine neue Option und keine erzwungene Änderung.
 
-![Vor Heartwood musste die Blockbelohnung eines Miners an eine transparente öffentliche Adresse gehen. Nach Heartwood dürfen Coinbase-Transaktionen Sapling-Outputs enthalten, sodass die Belohnung direkt an eine Shielded-Adresse gehen kann](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![Vor Heartwood musste die Blockbelohnung eines Miners an eine transparente öffentliche Adresse gehen. Nach Heartwood dürfen Coinbase-Transaktionen Sapling-Outputs enthalten, sodass die Belohnung direkt an eine Shielded-Adresse gehen kann](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## Warum zuerst Sapling
 
@@ -28,13 +28,13 @@ Shielded Coinbase zielt speziell auf Sapling-Outputs ab, und dafür gibt es eine
 
 Heartwood änderte auch, worauf sich ein Block-Header festlegt. Das Header-Feld, das zuvor hashFinalSaplingRoot hieß, wurde umgewidmet und in hashLightClientRoot umbenannt. Es legt sich nun auf die Root einer Merkle Mountain Range (MMR) fest, einer fortlaufenden Struktur, die über den Header-Daten und Metadaten früherer Blöcke aufgebaut wird, etwa Zeitstempel, Schwierigkeitsziele, Sapling-Roots, akkumulierte Arbeit und Transaktionsanzahlen. Diese Festlegung erlaubt es einem Light Client oder einer externen Chain, Zcashs Proof-of-Work mit einem kleinen Beweis zu verifizieren, dessen Größe nur logarithmisch mit der Länge der Chain wächst. Der Vorteil sind bessere Light-Client-Wallets und eine einfachere Integration durch Dritte sowie chainübergreifende Integration, weil ein Client nicht länger jeden Block herunterladen muss, um der Arbeit hinter der Chain zu vertrauen.
 
-![FlyClient-Ablauf: Die Header-Daten jedes Blocks werden in einer Merkle-Mountain-Range-Root (hashLightClientRoot) festgelegt, wodurch ein Light Client den Proof-of-Work mit einem kleinen Beweis logarithmischer Größe verifizieren kann](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![FlyClient-Ablauf: Die Header-Daten jedes Blocks werden in einer Merkle-Mountain-Range-Root (hashLightClientRoot) festgelegt, wodurch ein Light Client den Proof-of-Work mit einem kleinen Beweis logarithmischer Größe verifizieren kann](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Wo Heartwood einzuordnen ist
 
 Heartwood ist ein Schritt in einer Reihe von Zcash-Upgrades, von denen jedes ein Element hinzufügt, auf das sich das nächste stützt. Overwinter und Sapling kamen 2018, Blossom 2019 und Heartwood 2020 bei Block 903.000. Canopy folgte später im Jahr 2020 bei Block 1.046.400. Sapling ist für Heartwood das zentrale Glied in dieser Kette: Seine effiziente Shielded-Transaktionsmechanik war die technische Voraussetzung, die Shielded Coinbase möglich machte.
 
-![Zeitleiste der Zcash-Upgrades: Overwinter und Sapling im Jahr 2018, Blossom im Jahr 2019 und Heartwood im Jahr 2020](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Zeitleiste der Zcash-Upgrades: Overwinter und Sapling im Jahr 2018, Blossom im Jahr 2019 und Heartwood im Jahr 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## Glossar
 
@@ -88,7 +88,7 @@ Coinbase-Outputs mussten transparent sein, daher landete die neu erzeugte Belohn
 
 [Wallets](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

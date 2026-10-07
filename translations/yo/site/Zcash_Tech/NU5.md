@@ -18,7 +18,7 @@ Orchard jẹ ilana aabo tuntun ti Zcash, eyiti a ṣalaye ninu [ZIP 224](https:/
 
 Sprout ati Sapling mejeeji da lori iṣeto igbẹkẹle. Ẹgbẹ eniyan kan ṣe ayẹyẹ lati kọ awọn iwọn didun ti adagun kọọkan, gbogbo wọn ni lati gbẹkẹle pe o kere ju ọkan ninu wọn ba apakan aṣiri rẹ jẹ. Orchard yọ ero yẹn kuro. Awọn adagun agbalagba tun wa lẹhin NU5, nitorinaa iṣeduro ko si-iṣeto waye fun owo ti o mu sinu adagun Orchard .
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Àwọn ohun tí NU5 yí padà
 
@@ -37,7 +37,7 @@ NU5 tun ṣe imudojuiwọn nọmba kan ti ZIP tẹlẹ (32, 203, 209, 212, 213, 
 
 Ṣaaju ki o to NU5, kọọkan pool ní awọn oniwe-ara adirẹsi iru, ati a sender ni lati mọ eyi ti irú ti o fẹ. unified ìsọfúnni, apejuwe ninu [ZIP 316 ìyẹn àwọn tó ń gbé nílùú](https://zips.z.cash/zip-0316)Adirẹsi kan ṣoṣo le ṣajọ awọn olugba fun ju apapọ lọ, nitorinaa apamọwọ oluranlowo nikan yan eyi ti o dara julọ ti o ṣe atilẹyin.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Awọn bọtini wiwo iṣọkan ṣiṣẹ ni ọna kanna fun wiwo. Wọn fi han kika nikan kọja awọn adagun adirẹsi kan bo. Fun diẹ sii lori iyẹn, wo awọn ohun elo ti o wa ninu rẹ lati ṣafihan wọn si gbogbo eniyan miiran ati pe yoo jẹ ki a mọ bi a ṣe le rii wọn daradara pẹlu lilo data naa. [Àwọn Kókó Ìwòran](../zcash-tech/viewing-keys) ojú ìwé.
 
@@ -53,7 +53,7 @@ NU5 tẹsiwaju awọn igbesoke Zcash ti iṣaaju: Overwinter, Sapling, Blossom, 
 | Orchard | Adágún adágún NU5 tí a fi ààbò ṣe, tí a kọ́ sórí ètò ìṣàfihàn Halo 2 |
 | Halo 2 | Ètò ìṣàfihàn lẹ́yìn Orchard tí kò nílò ètò ìgbẹ́kẹ̀lé |
 | Trusted setup | Ayẹyẹ ìgbà kan ṣoṣo tí ó ṣe àwọn àṣírí ìkọ̀kọ̀ adágún kan tí a sì gbọ́dọ̀ gbẹ́kẹ̀lé láti pa wọ́n run |
-| Unified address | Àdírẹ́sì kan ṣoṣo tó lè kó àwọn olùgbà jọ fún ju adágún kan lọ (ZIP 316) |
+| Unified Address | Àdírẹ́sì kan ṣoṣo tó lè kó àwọn olùgbà jọ fún ju adágún kan lọ (ZIP 316) |
 | Consensus branch id | Àmì ìdámọ̀ tí ó ń fi àmì sí àwọn òfin tí ìṣòwò kan jẹ́ ti |
 
 ## Àwọn ìbéèrè tí a sábà máa ń béèrè
@@ -102,7 +102,7 @@ Orchard ti kọ lori eto idaniloju Halo 2, eyiti ko nilo iṣeto igbẹkẹle at
 
 [Halo](../zcash-tech/halo)
 
-[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKS](../zcash-tech/zk-snarks)
+[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Àwọn Kókó Ìwòran](../zcash-tech/viewing-keys)
 

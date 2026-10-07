@@ -110,7 +110,7 @@ Yeni İngilizce blok boş görünüyor. Lütfen çevrilecek metni gönderin.
 
 ### ZcashToCash
 
-<img width="1774" height="887" alt="ChatGPT Görseli 22 Eyl 2026, 20_27_53" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+<img width="1774" height="887" alt="ChatGPT Görseli 22 Eyl 2026, 20_27_53" src="/content-images/3f7aa1a6-3646-442b-8f66-1ef8988051ba-3ddc295461.webp" />
 
 - Web sitesi: https://zcashto.cash/
 - Açıklama: Peer aracılığıyla saklamasız ZEC-fiat çıkışı. Korumalı ZEC gönderin ve 100'den fazla bölgede Venmo, Cash App, Revolut, Zelle, Chime ve Monzo gibi günlük ödeme uygulamalarında ödeme alın. CEX hesabı gerekmez; emanet işlemi, fiat ödeme kanıtının ardından tamamlanır.

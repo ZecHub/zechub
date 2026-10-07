@@ -18,7 +18,7 @@ Orchard yɛ Zcash protocol foforo a wɔabɔ ho ban, a wɔakyerɛkyerɛ mu wɔ [Z
 
 Ná Sprout ne Sapling nyinaa gyina nhyehyɛe a wotumi de ho to so so. Nnipa kuw bi tuu mmirika yɛɛ guasodeyɛ bi de kyekyee ɔtare biara parameters, na na ɛsɛ sɛ obiara nya ahotoso sɛ anyɛ yiye koraa no wɔn mu biako sɛee wɔn ahintasɛm no fã bi. Orchard yi saa adwene no fi hɔ. Pool dedaw no da so ara wɔ hɔ wɔ NU5 akyi, enti no-setup guarantee no fa sika a wokura wɔ Orchard pool no mu no ho.
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Nea NU5 sesae
 
@@ -37,7 +37,7 @@ NU5 nso yɛɛ ZIP dodoɔ bi a ɛwɔ hɔ dada no foforɔ (32, 203, 209, 212, 213,
 
 Ansa na NU5 reba no, na pool biara wɔ n’ankasa address type, na na ɛsɛ sɛ obi a ɔde nneɛma mena no hu nea wopɛ. Address ahorow a wɔaka abom, a wɔakyerɛkyerɛ mu wɔ [ZIP 316 na ɛwɔ hɔ](https://zips.z.cash/zip-0316), sesa saa. Address biako a wɔaka abom betumi aboaboa receivers ano ama bɛboro pool biako, enti nea ɔde kɔma no sika kotoku no paw nea eye sen biara a ɛboa no ara kwa.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Unified viewing keys yɛ adwuma ɔkwan koro no ara so ma hwɛ. Wɔma wotumi hu akenkan nkutoo wɔ atare ahorow no so a address bi kata so. Sɛ wopɛ ɛno ho nsɛm pii a, hwɛ... [Nneɛma a Wɔde Hwɛ](../zcash-tech/viewing-keys) kratafa.
 
@@ -53,7 +53,7 @@ NU5 dii Zcash nkɔsoɔ a ɛdi kan no akyi: Overwinter, Sapling, Blossom, Heartwo
 | Orchard | Shielded pool NU5 de bae, wɔkyekyee wɔ Halo 2 proving nhyehyɛe no so |
 | Halo 2 | Proving system a ɛwɔ Orchard akyi a enhia sɛ wɔyɛ nhyehyɛe a wotumi de ho to so |
 | Trusted setup | Aguadi a wɔyɛ no pɛnkoro a ɛma ɔtare bi kokoam parameters na ɛsɛ sɛ wɔde wɔn ho to so sɛ wɔbɛsɛe no |
-| Unified address | Address baako a ɛtumi bundle receivers ma bɛboro pool baako (ZIP 316) |
+| Unified Address | Address baako a ɛtumi bundle receivers ma bɛboro pool baako (ZIP 316) |
 | Consensus branch id | Nkyerɛkyerɛmu a ɛkyerɛ mmara ahorow bɛn na asɛm bi yɛ |
 
 ## FAQ
@@ -102,7 +102,7 @@ Wɔasisi Orchard wɔ Halo 2 adansedi nhyehyɛe no so, a enhia nhyehyɛe a wotumi
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
+[zk-SNARKs NKYERƐKYERƐMU](../zcash-tech/zk-snarks)
 
 [Nneɛma a Wɔde Hwɛ](../zcash-tech/viewing-keys)
 

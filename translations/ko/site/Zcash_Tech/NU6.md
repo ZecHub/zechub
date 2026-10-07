@@ -21,7 +21,7 @@ NU6는 [ZIP 1015](https://zips.z.cash/zip-1015)에 정의된 규칙에 따라, 2
 
 블록 보조금의 나머지와 거래 수수료는 네트워크를 보호하는 채굴자에게 돌아갑니다. NU6는 또한 이 새로운 구조에 맞게 기존의 펀딩 스트림 및 개발 기금 규칙(ZIP 207 및 ZIP 214)도 업데이트했습니다.
 
-![NU6 개발 기금 분배: 블록 보조금의 20퍼센트가 개발에 사용되며, 이 중 8퍼센트는 Zcash Community Grants로, 12퍼센트는 Deferred Dev Fund Lockbox로 들어갑니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![NU6 개발 기금 분배: 블록 보조금의 20퍼센트가 개발에 사용되며, 이 중 8퍼센트는 Zcash Community Grants로, 12퍼센트는 Deferred Dev Fund Lockbox로 들어갑니다](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## 지연된 락박스
 
@@ -41,7 +41,7 @@ NU6는 또한 [ZIP 236](https://zips.z.cash/zip-0236)에 정의된, 새 ZEC 생�
 2. NU6 이후에는 코인베이스 거래가 정확히 균형을 맞춰야 합니다. 총 출력 가치는 채굴자 보조금과 수수료를 합친 금액과 정확히 같아야 하며, 더 많아도 안 되고 더 적어도 안 됩니다.
 3. 이제 채굴자가 더 이상 적게 청구해서 실수로 ZEC를 소각할 수 없기 때문에, 앞으로 존재하게 될 ZEC 총량은 정확히 예측 가능합니다.
 
-![NU6 전후 코인베이스 균형: 이전에는 코인베이스가 적게 청구해 ZEC를 소각할 수 있어 공급량을 정확히 예측할 수 없었습니다. 이후에는 코인베이스가 정확히 균형을 맞춰야 하므로 발행량을 정확히 예측할 수 있습니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![NU6 전후 코인베이스 균형: 이전에는 코인베이스가 적게 청구해 ZEC를 소각할 수 있어 공급량을 정확히 예측할 수 없었습니다. 이후에는 코인베이스가 정확히 균형을 맞춰야 하므로 발행량을 정확히 예측할 수 있습니다](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## 자금 조달 방식의 진화
 
@@ -51,7 +51,7 @@ NU6는 Zcash가 스스로 비용을 조달하는 방식에 대한 더 긴 이야
 2. NU6(2024년 11월)는 두 번째 반감기 이후 이 자금 구조를 재편하고 Deferred Dev Fund Lockbox를 설정하여, 향후 커뮤니티가 결정할 보조금에 사용할 발행분 일부를 유보했습니다.
 3. NU6.1(2025)은 블록 보조금의 8%를 Zcash Community Grants로 계속 보내고, 12%를 락박스를 기반으로 조성된 코인 보유자 통제 기금으로 보내도록 함으로써, NU6가 열어 두었던 “누가 이 유보 자금을 통제하는가”라는 질문에 답했습니다.
 
-![Zcash 자금 조달 방식의 진화: Canopy는 개발 기금을 만들었고, NU6는 락박스를 설정했으며, NU6.1은 누가 이를 통제하는지에 대한 규칙을 정했습니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![Zcash 자금 조달 방식의 진화: Canopy는 개발 기금을 만들었고, NU6는 락박스를 설정했으며, NU6.1은 누가 이를 통제하는지에 대한 규칙을 정했습니다](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## 용어집
 

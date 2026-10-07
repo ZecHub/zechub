@@ -21,7 +21,7 @@ NU6 kɔɔ so de block subsidy no 20% kɔmaa nkɔsoɔ sika wɔ November 2024 a w�
 
 Block subsidy a aka, ne transaction fees, kɔma wɔn a wotu fam a wɔbɔ network no ho ban no. NU6 nso yɛɛ funding-stream ne dev-fund mmara a ɛwɔ hɔ dedaw (ZIP 207 ne ZIP 214) no foforo sɛnea ɛbɛyɛ a ɛbɛfata nhyehyɛe foforo yi.
 
-![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![NU6 development-fund split: 20 percent of the block subsidy goes to development, with 8 percent to Zcash Community Grants and 12 percent into the Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## Adaka a wɔde tow adaka a wɔatu ahyɛ da no
 
@@ -41,7 +41,7 @@ NU6 nso too akontabuo mu nsonsonoeɛ bi mu wɔ sɛdeɛ wɔbɔ ZEC foforɔ, a wɔ
 2. NU6 akyi no, ɛsɛ sɛ coinbase asɛm bi kari pɛ pɛpɛɛpɛ: ɛsɛ sɛ nea efi mu ba nyinaa bo yɛ pɛ ne miner subsidy ne fees, ɛnnɔɔso na ɛnnɔɔso.
 3. Esiane sɛ wɔn a wotu fagude no ntumi nnye ZEC ntom bio na wɔhyew ZEC wɔ akwanhyia mu nti, mprempren wobetumi ahyɛ ZEC dodow a ɛbɛba da biara ho nkɔm pɛpɛɛpɛ.
 
-![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## Sɛnea sikasɛm mu nkɔso bae
 
@@ -51,7 +51,7 @@ NU6 yɛ ti biako wɔ asɛm tenten bi mu a ɛfa sɛnea Zcash tua ne ho ka ho.
 2. NU6 (November 2024) san hyehyɛɛ saa sika no wɔ fã a ɛtɔ so mmienu no akyi na wɔde Deferred Dev Fund Lockbox sii hɔ, de kyɛfa a wɔde bɛma no siee maa daakye mmoa a mpɔtam hɔfoɔ asi ho gyinaeɛ.
 3. NU6.1 (2025) buaa asɛmmisa a NU6 gyaa hɔ, a ɔhwɛ sika a wɔde asie no so, denam block subsidy no 8% a ɔtoaa so maa Zcash Community Grants na ɔkyerɛɛ 12% kwan kɔɔ sikakorabea a sika-kurafoɔ di so a wɔde lockbox no ahyɛ mu.
 
-![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## Nsɛmfua Nkyerɛase
 
