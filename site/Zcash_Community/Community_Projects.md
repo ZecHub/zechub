@@ -117,7 +117,7 @@ Goal-based savings wallet built on Zcash shielded transactions.
 [Forum](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Successor to YWallet supporting the latest Zcash protocol features including Orchard.  
+Successor to YWallet. Supports Ironwood, the current shielded pool.  
 [Forum](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
