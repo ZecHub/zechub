@@ -1,6 +1,7 @@
 Glossary_and_FAQs/FAQ.md
 Glossary_and_FAQs/Gallery.md
 Glossary_and_FAQs/Gallery/Infographics.md
+Glossary_and_FAQs/Glossary.md
 Glossary_and_FAQs/Zcash_Library.md
 Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md
 Privacy_Tools/2FA_Hardware_Devices.md
