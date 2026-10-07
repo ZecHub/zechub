@@ -7,7 +7,7 @@
 
 ## Tameɖoɖo Siwo Te Ðe Eŋu 
 
-Wowɔ Zcash kple NEAR Intents ɖekae, si na be ezãlawo te ŋu trɔa Zcash (ZEC) kple altcoin deŋgɔ bubuwo, siwo dometɔ aɖewoe nye Bitcoin, Solana, NEAR, kple XRP, evɔ womaxe fe aɖeke o. Ðekawɔwɔ sia nye NEAR Protocol ƒe agbagbadzedze be yeawɔ AI bot siwo le wo ɖokui si eye woate ŋu aɖo kpe wo dzi ƒe xɔtuɖoɖo, si hã hea viɖewo vɛ na Zcash to fexexe ƒe ketekemɔ siwo ŋu AI-ŋusẽ le ƒe dɔwɔwɔ me. Zcash zãlawo te ŋu kpɔa nubabla siwo me nunya le kple [DeFi dɔwɔɖoɖo siwo keke ta wu](https://nym.com/blog/what-is-defi) esime wole woƒe nyatakakawo ta kpɔm to [NEAR Intents](https://app.near-intents.org).
+Wowɔ Zcash kple NEAR Intents ɖekae, si na be ezãlawo te ŋu trɔa Zcash (ZEC) kple altcoin deŋgɔ bubuwo, siwo dometɔ aɖewoe nye Bitcoin, Solana, NEAR, kple XRP, evɔ womaxe fe aɖeke o. Ðekawɔwɔ sia nye NEAR Protocol ƒe agbagbadzedze be yeawɔ AI bot siwo le wo ɖokui si eye woate ŋu aɖo kpe wo dzi ƒe xɔtuɖoɖo, si hã hea viɖewo vɛ na Zcash to fexexe ƒe ketekemɔ siwo ŋu AI-ŋusẽ le ƒe dɔwɔwɔ me. Zcash zãlawo te ŋu kpɔa nubabla siwo me nunya le kple [DeFi dɔwɔɖoɖo siwo keke ta wu](https://nym.com/blog/what-is-defi) esime wole woƒe nyatakakawo ta kpɔm to [Near Intents](https://app.near-intents.org).
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets le ŋgɔyiyi me kple ƒuƒoƒo aɖe 
 
 ### Nunɔamesiwo:
 
-Zcon3 Ame ŋutɔ ƒe Cross-Chain Transfers
+[Zcon3 Ame ŋutɔ ƒe Cross-Chain Transfers](https://youtu.be/vCvMk2-CJN8)
 
 [Zcon3 QEDIT Nuƒoƒo tso Defi ŋu](https://youtu.be/EGjcYhovty0) / [Nutata ƒe Dɔwɔƒe](https://miro.com/app/board/uXjVOhuveHo=/)
 

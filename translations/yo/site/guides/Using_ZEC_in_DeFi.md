@@ -7,7 +7,7 @@
 
 ## Àwọn Èrò Tó Sún Mọ́ ọn 
 
-Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) with other top altcoins, including Bitcoin, Solana, NEAR, and XRP, without paying any fees. This integration is part of NEAR Protocol's efforts to create an infrastructure of autonomous and verifiable AI bots, which also brings benefits to Zcash by enabling AI-powered payment rails. Zcash users are now capable of accessing smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) nígbà tí wọ́n ń pa àṣírí ara wọn mọ́ nípasẹ̀ [NEAR Intents](https://app.near-intents.org).
+Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) with other top altcoins, including Bitcoin, Solana, NEAR, and XRP, without paying any fees. This integration is part of NEAR Protocol's efforts to create an infrastructure of autonomous and verifiable AI bots, which also brings benefits to Zcash by enabling AI-powered payment rails. Zcash users are now capable of accessing smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) nígbà tí wọ́n ń pa àṣírí ara wọn mọ́ nípasẹ̀ [Near Intents](https://app.near-intents.org).
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -62,7 +62,7 @@ Zcash Shielded Assets/User Defined Asset ti wà ní ìdàgbàsókè pẹ̀lú ì
 
 ### Àwọn ohun àmúṣọrọ̀:
 
-Zcon3 Awọn gbigbe Aarin-Awọn ẹwọn Aladani
+[Zcon3 Awọn gbigbe Aarin-Awọn ẹwọn Aladani](https://youtu.be/vCvMk2-CJN8)
 
 [Zcon3 QEDIT Àfihàn lórí Defi](https://youtu.be/EGjcYhovty0) / [Àpótí Àwòrán](https://miro.com/app/board/uXjVOhuveHo=/)
 

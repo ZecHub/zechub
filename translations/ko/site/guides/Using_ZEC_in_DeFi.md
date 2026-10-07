@@ -4,9 +4,9 @@
 
 # Zcash을 DeFi에서 사용하는 방법
 
-## NEAR Intents 
+## Near Intents 
 
-Zcash과 NEAR Intents가 통합되어, 사용자가 수수료 없이 Zcash(ZEC)를 비트코인, 솔라나, NEAR 및 XRP와 같은 다른 주요 알트코인으로 교환할 수 있게 되었습니다. 이 통합은 NEAR 프로토콜이 자율적이고 검증 가능한 AI 봇의 인프라를 구축하려는 노력의 일부이며, Zcash에도 AI 기반 결제 철도를 가능하게 해주는 혜택을 제공합니다. 이제 Zcash 사용자는 [NEAR Intents](https://app.near-intents.org)를 통해 개인정보 보호를 유지하면서 스마트 계약 및 더 넓은 [DeFi 애플리케이션](https://nym.com/blog/what-is-defi)에 접근할 수 있게 되었습니다.
+Zcash과 NEAR Intents가 통합되어, 사용자가 수수료 없이 Zcash(ZEC)를 비트코인, 솔라나, NEAR 및 XRP와 같은 다른 주요 알트코인으로 교환할 수 있게 되었습니다. 이 통합은 NEAR 프로토콜이 자율적이고 검증 가능한 AI 봇의 인프라를 구축하려는 노력의 일부이며, Zcash에도 AI 기반 결제 철도를 가능하게 해주는 혜택을 제공합니다. 이제 Zcash 사용자는 [Near Intents](https://app.near-intents.org)를 통해 개인정보 보호를 유지하면서 스마트 계약 및 더 넓은 [DeFi 애플리케이션](https://nym.com/blog/what-is-defi)에 접근할 수 있게 되었습니다.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -60,7 +60,7 @@ Zcash Shielded Assets / User Defined Assets는 전문 팀의 도움을 받아 �
 
 ### 자료:
 
-Zcon3 Private Cross-Chain Transfers
+[Zcon3 Private Cross-Chain Transfers](https://youtu.be/vCvMk2-CJN8)
 
 [Zcon3 QEDIT Presentation on Defi](https://youtu.be/EGjcYhovty0) / [Drawing Board](https://miro.com/app/board/uXjVOhuveHo=/)
 

@@ -5,9 +5,9 @@
 # DeFi में Zcash का उपयोग
 
 
-## NEAR Intents 
+## Near Intents 
 
-Zcash और NEAR Intents को एकीकृत किया गया है, जिससे उपयोगकर्ता बिना किसी शुल्क का भुगतान किए Zcash (ZEC) को Bitcoin, Solana, NEAR, और XRP सहित अन्य प्रमुख altcoins के साथ swap कर सकते हैं। यह एकीकरण NEAR Protocol के उन प्रयासों का हिस्सा है जिनका उद्देश्य autonomous और verifiable AI bots के लिए एक infrastructure बनाना है, जो AI-powered payment rails को सक्षम करके Zcash के लिए भी लाभ लाता है। Zcash उपयोगकर्ता अब [NEAR Intents](https://app.near-intents.org) के माध्यम से अपनी privacy बनाए रखते हुए smart contracts और व्यापक [DeFi applications](https://nym.com/blog/what-is-defi) तक पहुँचने में सक्षम हैं।
+Zcash और NEAR Intents को एकीकृत किया गया है, जिससे उपयोगकर्ता बिना किसी शुल्क का भुगतान किए Zcash (ZEC) को Bitcoin, Solana, NEAR, और XRP सहित अन्य प्रमुख altcoins के साथ swap कर सकते हैं। यह एकीकरण NEAR Protocol के उन प्रयासों का हिस्सा है जिनका उद्देश्य autonomous और verifiable AI bots के लिए एक infrastructure बनाना है, जो AI-powered payment rails को सक्षम करके Zcash के लिए भी लाभ लाता है। Zcash उपयोगकर्ता अब [Near Intents](https://app.near-intents.org) के माध्यम से अपनी privacy बनाए रखते हुए smart contracts और व्यापक [DeFi applications](https://nym.com/blog/what-is-defi) तक पहुँचने में सक्षम हैं।
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets एक समर्पित टी�
 
 ### Resources:
 
-Zcon3 Private Cross-Chain Transfers
+[Zcon3 Private Cross-Chain Transfers](https://youtu.be/vCvMk2-CJN8)
 
 [DeFi पर Zcon3 QEDIT प्रस्तुति](https://youtu.be/EGjcYhovty0) / [Drawing Board](https://miro.com/app/board/uXjVOhuveHo=/)
 

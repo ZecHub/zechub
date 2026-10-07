@@ -7,7 +7,7 @@
 
 ## Nea Ɛbɛn Intents 
 
-Wɔaka Zcash ne NEAR Intents abom, na ɛma wɔn a wɔde di dwuma no tumi sesa Zcash (ZEC) ne altcoins afoforo a ɛwɔ soro, a Bitcoin, Solana, NEAR, ne XRP ka ho, a wontua hwee. Saa nkabom yi yɛ NEAR Protocol mmɔdenbɔ a ɛde bɛbɔ AI bots a ɛyɛ ne ho na wotumi di ho adanseɛ nhyehyɛeɛ no fã, a ɛno nso de mfasoɔ brɛ Zcash denam AI-powered payment rails a ɛma ɛyɛ adwuma no so. Mprempren Zcash dwumadiefoɔ tumi nya smart contracts ne [DeFi applications a ɛtrɛ](https://nym.com/blog/what-is-defi) bere a wɔkora wɔn kokoam nsɛm so denam [NEAR Intents](https://app.near-intents.org).
+Wɔaka Zcash ne NEAR Intents abom, na ɛma wɔn a wɔde di dwuma no tumi sesa Zcash (ZEC) ne altcoins afoforo a ɛwɔ soro, a Bitcoin, Solana, NEAR, ne XRP ka ho, a wontua hwee. Saa nkabom yi yɛ NEAR Protocol mmɔdenbɔ a ɛde bɛbɔ AI bots a ɛyɛ ne ho na wotumi di ho adanseɛ nhyehyɛeɛ no fã, a ɛno nso de mfasoɔ brɛ Zcash denam AI-powered payment rails a ɛma ɛyɛ adwuma no so. Mprempren Zcash dwumadiefoɔ tumi nya smart contracts ne [DeFi applications a ɛtrɛ](https://nym.com/blog/what-is-defi) bere a wɔkora wɔn kokoam nsɛm so denam [Near Intents](https://app.near-intents.org).
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets ayɛ nkɔsoɔ denam kuw bi a wɔatu 
 
 ### Akadeɛ:
 
-Zcon3 Ankorankoro Cross-Chain Transfers
+[Zcon3 Ankorankoro Cross-Chain Transfers](https://youtu.be/vCvMk2-CJN8)
 
 [Zcon3 QEDIT Nkyerɛkyerɛmu a ɛfa Defi](https://youtu.be/EGjcYhovty0) / [Mfoniniyɛ Board](https://miro.com/app/board/uXjVOhuveHo=/)
 

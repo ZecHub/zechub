@@ -1485,7 +1485,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+jsx-restore+gloss-restore+linkrepair",
+      "tool": "gt-static+jsx-restore+gloss-restore",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -3231,7 +3231,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -4977,7 +4977,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -6723,7 +6723,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+jsx-restore+gloss-restore+linkrepair",
+      "tool": "gt-static+jsx-restore+gloss-restore",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -8469,7 +8469,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -10215,7 +10215,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -11961,7 +11961,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -13699,7 +13699,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+gloss-restore+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+gloss-restore",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -15445,7 +15445,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -17191,7 +17191,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+linkrepair",
+      "tool": "qwen3-14b",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -18937,7 +18937,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+linkrepair",
+      "tool": "qwen3-14b",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -20683,7 +20683,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -22429,7 +22429,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -24175,7 +24175,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore+defi-brand-restore+linkrepair",
+      "tool": "nllb-200-3.3B+jsx-restore+defi-brand-restore",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -25921,7 +25921,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -27667,7 +27667,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -29413,7 +29413,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+linkrepair",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -31159,7 +31159,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {

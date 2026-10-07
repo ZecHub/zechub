@@ -5,9 +5,9 @@
 # Использование Zcash в DeFi
 
 
-## NEAR Intents 
+## Near Intents 
 
-Zcash и NEAR Intents были интегрированы, что позволяет пользователям обменивать Zcash (ZEC) на другие ведущие альткоины, включая Bitcoin, Solana, NEAR и XRP, без уплаты каких-либо комиссий. Эта интеграция является частью усилий NEAR Protocol по созданию инфраструктуры автономных и верифицируемых AI-ботов, что также приносит пользу Zcash, обеспечивая платёжные рельсы на базе AI. Пользователи Zcash теперь могут получать доступ к смарт-контрактам и более широким [приложениям DeFi](https://nym.com/blog/what-is-defi), сохраняя при этом свою конфиденциальность через [NEAR Intents](https://app.near-intents.org).
+Zcash и NEAR Intents были интегрированы, что позволяет пользователям обменивать Zcash (ZEC) на другие ведущие альткоины, включая Bitcoin, Solana, NEAR и XRP, без уплаты каких-либо комиссий. Эта интеграция является частью усилий NEAR Protocol по созданию инфраструктуры автономных и верифицируемых AI-ботов, что также приносит пользу Zcash, обеспечивая платёжные рельсы на базе AI. Пользователи Zcash теперь могут получать доступ к смарт-контрактам и более широким [приложениям DeFi](https://nym.com/blog/what-is-defi), сохраняя при этом свою конфиденциальность через [Near Intents](https://app.near-intents.org).
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets разрабатываются пр�
 
 ### Ресурсы:
 
-Приватные кроссчейн-переводы на Zcon3
+[Приватные кроссчейн-переводы на Zcon3](https://youtu.be/vCvMk2-CJN8)
 
 [Презентация QEDIT о Defi на Zcon3](https://youtu.be/EGjcYhovty0) / [Доска со схемами](https://miro.com/app/board/uXjVOhuveHo=/)
 

@@ -4,9 +4,9 @@
 
 # Zcash を DeFi で使用する
 
-## NEAR Intents 
+## Near Intents 
 
-Zcash と NEAR Intents は統合され、ユーザーが手数料を支払わずに Zcash (ZEC) を Bitcoin、Solana、NEAR、XRP などの主要な代替通貨と交換できるようになりました。この統合は、NEAR Protocol が自律的で検証可能な AI ボットのインフラストラクチャを作成する試みの一環であり、Zcash にも AI 駆動型の決済レールを可能にする利点ももたらします。これにより、Zcash のユーザーはプライバシーを維持しながらスマートコントラクトやより広範な [DeFi アプリケーション](https://nym.com/blog/what-is-defi) にアクセスできるようになりました。[NEAR Intents](https://app.near-intents.org) を使用してプライバシーを保つことができます。
+Zcash と NEAR Intents は統合され、ユーザーが手数料を支払わずに Zcash (ZEC) を Bitcoin、Solana、NEAR、XRP などの主要な代替通貨と交換できるようになりました。この統合は、NEAR Protocol が自律的で検証可能な AI ボットのインフラストラクチャを作成する試みの一環であり、Zcash にも AI 駆動型の決済レールを可能にする利点ももたらします。これにより、Zcash のユーザーはプライバシーを維持しながらスマートコントラクトやより広範な [DeFi アプリケーション](https://nym.com/blog/what-is-defi) にアクセスできるようになりました。[Near Intents](https://app.near-intents.org) を使用してプライバシーを保つことができます。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -60,7 +60,7 @@ Zcash Shielded Assets / User Defined Assets は専門チームの支援によっ
 
 ### リソース:
 
-Zcon3 秘密のクロスチェーン転送
+[Zcon3 秘密のクロスチェーン転送](https://youtu.be/vCvMk2-CJN8)
 
 [Zcon3 Defi に関する QEDIT プレゼンテーション](https://youtu.be/EGjcYhovty0) / [Drawing Board](https://miro.com/app/board/uXjVOhuveHo=/)
 

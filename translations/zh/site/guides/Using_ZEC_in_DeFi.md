@@ -5,9 +5,9 @@
 # 在 DeFi 中使用 Zcash
 
 
-## NEAR Intents 
+## Near Intents 
 
-Zcash 和 NEAR Intents 已完成集成，使用户能够将 Zcash (ZEC) 与其他主流山寨币进行交换，包括 Bitcoin、Solana、NEAR 和 XRP，且无需支付任何费用。这项集成是 NEAR Protocol 为构建自主且可验证的 AI 机器人基础设施所做努力的一部分，同时也通过启用 AI 驱动的支付轨道为 Zcash 带来益处。Zcash 用户如今可以通过 [NEAR Intents](https://app.near-intents.org) 在保护隐私的同时，访问智能合约和更广泛的 [DeFi applications](https://nym.com/blog/what-is-defi)。
+Zcash 和 NEAR Intents 已完成集成，使用户能够将 Zcash (ZEC) 与其他主流山寨币进行交换，包括 Bitcoin、Solana、NEAR 和 XRP，且无需支付任何费用。这项集成是 NEAR Protocol 为构建自主且可验证的 AI 机器人基础设施所做努力的一部分，同时也通过启用 AI 驱动的支付轨道为 Zcash 带来益处。Zcash 用户如今可以通过 [Near Intents](https://app.near-intents.org) 在保护隐私的同时，访问智能合约和更广泛的 [DeFi applications](https://nym.com/blog/what-is-defi)。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets 一直在一个专门团队的协助
 
 ### 资源：
 
-Zcon3 私密跨链转账
+[Zcon3 私密跨链转账](https://youtu.be/vCvMk2-CJN8)
 
 [Zcon3 上关于 Defi 的 QEDIT 演讲](https://youtu.be/EGjcYhovty0) / [绘图板](https://miro.com/app/board/uXjVOhuveHo=/)
 
