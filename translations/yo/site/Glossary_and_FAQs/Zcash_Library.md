@@ -234,7 +234,7 @@
 | ZEC | Kóòdù owó tí a fọwọ́ sí fún Zcash (àwọn pàṣípààrọ̀ kan ṣì ń fi XZC hàn). |
 | Zerocash | Ìlànà ẹ̀kọ́ (2014) tí Zcash dá lé. |
 | Zaino | Atọ́ka Zcash ìran tuntun tó ń bọ̀ tó rọ́pò lightwalletd, tí Zcash Foundation. Ó ń jẹ́ kí àwọn oníbàárà mẹ̀kúnrẹ́rẹ́ lè máa ṣiṣẹ́ pọ̀ ní kíákíá àti ní ìkọ̀kọ̀. Apá kan nínú àtúnṣe ètò Zcash Z3. |
-| Zakura | Ìgbékalẹ̀ Zcash tí a ṣe ní oṣù Keje ọdún 2026, tí Valar Group àti Project Tachyon. ṣe gẹ́gẹ́ bí ẹ̀rọ Zebra. Ó fojúsùn lílo àti iyàrá ìṣiṣẹ́pọ̀, pẹ̀lú bootstrapping snapshot àti góńgó tí a sọ pé ó jẹ́ ti ìwọ̀n nẹ́tíwọ́ọ̀kì káàdì, ní nǹkan bí 50,000 ìṣòwò fún ìṣẹ́jú-àáyá kan. [zakura.com](https://zakura.com) |
+| Zakura | Ìgbékalẹ̀ Zcash tí a ṣe ní oṣù Keje ọdún 2026, tí Valar Group àti Project Tachyon ṣe gẹ́gẹ́ bí ẹ̀rọ Zebra. Ó fojúsùn lílo àti iyàrá ìṣiṣẹ́pọ̀, pẹ̀lú bootstrapping snapshot àti góńgó tí a sọ pé ó jẹ́ ti ìwọ̀n nẹ́tíwọ́ọ̀kì káàdì, ní nǹkan bí 50,000 ìṣòwò fún ìṣẹ́jú-àáyá kan. [zakura.com](https://zakura.com) |
 | Zallet | Apá àpò owó tí ó gba àpò owó zcashd's nígbà tí wọ́n ti fẹ̀yìntì, tí a kọ́ sórí Zaino gẹ́gẹ́ bí apá kan iṣẹ́ ètò Zcash Z3. |
 | Zebra | Ìmúṣe ìpèsè gbogbogbòò tí ó dá lórí Rust Zcash Foundation's (àfikún sí zcashd). Ó ti ṣetán láti ṣe iṣẹ́ náà, ó sì ń ṣiṣẹ́ dáadáa. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Ojúlówó Zcash tí a kọ́kọ́ ṣe, tí a yọ láti Bitcoin Core. Ó fẹ̀yìntì ní oṣù Keje ọdún 2026 lẹ́yìn ìdínkù owó púpọ̀, pẹ̀lú ìpínyà láàárín Zebra fún ìfohùnṣọ̀kan àti Zallet fún àwọn iṣẹ́ àpò owó. |
