@@ -62,7 +62,7 @@ X, Google, Discord, Telegram के साथ लॉगिन
 
 ### वीडियो / ऑडियो अनुवाद उपकरण:
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) वीडियो अनुवाद, डबिंग और लिप सिंकिंग टूल
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) वीडियो अनुवाद, डबिंग और लिप सिंकिंग टूल
 - [Ezdubs Bot on X](https://twitter.com/ezdubs_bot) वीडियो अनुवाद, डबिंग और लिप सिंकिंग टूल
 
 ## ऑडियो के बारे में

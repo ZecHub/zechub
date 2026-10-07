@@ -62,7 +62,7 @@ le gba nipa awọn iran ọfẹ 100 nipa idiyele ọpọlọpọ awọn miiran [
 
 ### Àwọn irinṣẹ́ ìtumọ̀ fídíò/ohùn:
 
-- [Àwọn Ilé Ìwádìí HeyGen](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) irinṣẹ́ ìtúmọ̀ fídíò àti ìṣiṣẹ́ ìfọwọ́sowọ́pọ̀ ètè
+- [Àwọn Ilé Ìwádìí HeyGen](https://labs.heygen.com/guest/video-translate) irinṣẹ́ ìtúmọ̀ fídíò àti ìṣiṣẹ́ ìfọwọ́sowọ́pọ̀ ètè
 - [Ezdubs Bot lórí X](https://twitter.com/ezdubs_bot) irinṣẹ́ ìtúmọ̀ fídíò àti ìṣiṣẹ́ ìfọwọ́sowọ́pọ̀ ètè
 
 ## Àwọn ohun èlò ohùn

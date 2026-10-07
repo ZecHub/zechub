@@ -16,7 +16,7 @@ Mmemme Ndị Nnọchiteanya Ụwa na-achọpụta ndị otu obodo ndị na-enye 
 
 Ndị nnọchi anya nwere nnwere onwe imepụta ihe n'ihe gbasara ihe omume ha na-eme atụmatụ, nke na-eme ka ha nwee ike ịhazi ozi ha ka ọ dabara na ọnọdụ obodo ha.
 
-## [Weebụsaịtị Onye Nnọchiteanya Ụwa](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
+## [Weebụsaịtị Onye Nnọchiteanya Ụwa](https://zcashambassadors.com)
 
 ## Obodo Ndị Nnọchiteanya Na-arụsi Ọrụ Ike (2026)
 

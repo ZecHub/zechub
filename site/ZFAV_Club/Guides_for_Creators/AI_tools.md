@@ -62,7 +62,7 @@ can get about 100 free generations by rating a lot of others [images in here](ht
 
 ### Video/audio translation tools:
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) video translation dubbing and lip syncing tool
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) video translation dubbing and lip syncing tool
 - [Ezdubs Bot on X](https://twitter.com/ezdubs_bot) video translation dubbing and lip syncing tool
 
 ## Audio stuff

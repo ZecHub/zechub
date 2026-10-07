@@ -16,7 +16,7 @@ O Programa de Embaixadores Globais identifica membros da comunidade que fazem co
 
 Os embaixadores têm liberdade criativa sobre as atividades que planeiam, permitindo-lhes adaptar a divulgação ao seu contexto local.
 
-## [Website dos Embaixadores Globais](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
+## [Website dos Embaixadores Globais](https://zcashambassadors.com)
 
 ## Comunidades Ativas de Embaixadores (2026)
 

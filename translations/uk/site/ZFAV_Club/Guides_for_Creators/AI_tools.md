@@ -62,7 +62,7 @@
 
 ### Інструменти для перекладу відео/аудіо:
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) інструмент для дубляжу перекладу відео та синхронізації губ
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) інструмент для дубляжу перекладу відео та синхронізації губ
 - [Ezdubs Bot on X](https://twitter.com/ezdubs_bot) інструмент для дубляжу перекладу відео та синхронізації губ
 
 ## Аудіо

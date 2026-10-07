@@ -62,7 +62,7 @@
 
 ### 视频/音频翻译工具：
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) 视频翻译、配音与口型同步工具
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) 视频翻译、配音与口型同步工具
 - [X 上的 Ezdubs Bot](https://twitter.com/ezdubs_bot) 视频翻译、配音与口型同步工具
 
 ## 音频相关

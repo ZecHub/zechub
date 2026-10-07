@@ -62,7 +62,7 @@ inaweza kupata takriban vizazi 100 vya bure kwa kukadiria vingine vingi [picha h
 
 ### Zana za kutafsiri video/sauti:
 
-- [Maabara ya HeyGen](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) zana ya utafsiri wa video na kusawazisha midomo
+- [Maabara ya HeyGen](https://labs.heygen.com/guest/video-translate) zana ya utafsiri wa video na kusawazisha midomo
 - [Kidhibiti cha Ezdubs kwenye X](https://twitter.com/ezdubs_bot) zana ya utafsiri wa video na kusawazisha midomo
 
 ## Vitu vya sauti

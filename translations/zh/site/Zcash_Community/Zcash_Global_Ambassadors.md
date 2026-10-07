@@ -16,7 +16,7 @@
 
 大使可以自由规划活动，从而能够根据当地情况量身定制推广工作。
 
-## [全球大使网站](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
+## [全球大使网站](https://zcashambassadors.com)
 
 ## 活跃的大使社区（2026 年）
 

@@ -11,8 +11,8 @@ published: 2024-01-12
 
 
 
-**[Firn Protocol](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**：Firn 是有史以来首个基于账户模型的零知识隐私平台，并为基于 Ethereum 的链引入了可插拔、灵活的隐私功能。通过使用零知识证明，Firn 为 Ethereum 和基于 Ethereum 的 L2 用户提供安全、高效的资金隐私。**它如何运作？**
-要使用 Firn，请将 ETH 存入该协议。一旦你拥有 Firn 余额，就可以私密地向其他 Firn 用户转账，或与其他协议交互，例如 Uniswap。你也可以私密地将资金提现回网络。Firn 对所有 ETH 提现收取 0.79% 的小额手续费。这些费用会按比例分配给 Firn Token 持有者 - [白皮书](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf)
+**[Firn Protocol](https://app.firn.cash/)**：Firn 是有史以来首个基于账户模型的零知识隐私平台，并为基于 Ethereum 的链引入了可插拔、灵活的隐私功能。通过使用零知识证明，Firn 为 Ethereum 和基于 Ethereum 的 L2 用户提供安全、高效的资金隐私。**它如何运作？**
+要使用 Firn，请将 ETH 存入该协议。一旦你拥有 Firn 余额，就可以私密地向其他 Firn 用户转账，或与其他协议交互，例如 Uniswap。你也可以私密地将资金提现回网络。Firn 对所有 ETH 提现收取 0.79% 的小额手续费。这些费用会按比例分配给 Firn Token 持有者 - [白皮书](https://firn.cash/whitepaper.pdf)
 
 
 **[RAILGUN](https://railgun.org/):** 作为一层智能合约，RAILGUN 是一种私密转账和 DeFi 基础设施，其存在依托于 Ethereum、Polygon、Binance Smart Chain 和 Arbitrum。

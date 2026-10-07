@@ -16,7 +16,7 @@ Wiase Nyinaa Ɔnanmusifo Dwumadie no kyerɛ mpɔtam hɔfoɔ a wɔde mmoa a ɛkor
 
 Aban ananmusifo wɔ adebɔ mu ahofadi wɔ dwumadi ahorow a wɔayɛ ho nhyehyɛe no ho, na ɛma wotumi siesie nsɛm a wɔde kɔ nkurɔfo nkyɛn no ma ɛne wɔn mpɔtam hɔ tebea hyia.
 
-## [Wiase Nyinaa Ɔnanmusifo Wɛbsaet](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
+## [Wiase Nyinaa Ɔnanmusifo Wɛbsaet](https://zcashambassadors.com)
 
 ## Ambassador Mpɔtam a wɔyɛ nnam (2026) .
 

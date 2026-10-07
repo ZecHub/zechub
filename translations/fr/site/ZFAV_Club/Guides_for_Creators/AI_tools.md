@@ -62,7 +62,7 @@ il est possible d’obtenir environ 100 générations gratuites en évaluant bea
 
 ### Outils de traduction vidéo/audio :
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) outil de traduction vidéo avec doublage et synchronisation labiale
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) outil de traduction vidéo avec doublage et synchronisation labiale
 - [Bot Ezdubs sur X](https://twitter.com/ezdubs_bot) outil de traduction vidéo avec doublage et synchronisation labiale
 
 ## Audio

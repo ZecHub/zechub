@@ -11,8 +11,8 @@ published: 2024-01-12
 
 
 
-**[Firn Protocol](https://web.archive.org/web/20240616051603/https://app.firn.cash/)**: Firn bụ ikpo okwu nzuzo efu nke mbụ na ụdị akaụntụ, ma webata nzuzo a na-ejikọta na ya, nke na-agbanwe agbanwe na usoro Ethereum. Site na iji ihe akaebe efu, Firn na-enye nzuzo ego nchekwa na nke dị irè maka ndị ọrụ nke Ethereum na L2s dabere na Ethereum. **OTÚ O SI Arụ Ọrụ?**
-Iji jiri Firn, tinye ETH n'ime usoro a. Ozugbo ị nwere ego Firn, ị nwere ike ibufe ego na ndị ọrụ Firn ndị ọzọ n'onwe gị, ma ọ bụ soro usoro ndị ọzọ, dị ka Uniswap. Ị nwekwara ike iwepụ ego na netwọk ahụ n'onwe gị. Firn na-ana obere ego, nke 0.79%, na ETH niile yana ndọta. A na-akwụ ụgwọ ndị a n'ụzọ kwekọrọ na ndị ji Firn Token - [Akwụkwọ ọcha](https://web.archive.org/web/20250617111826/https://firn.cash/whitepaper.pdf) 
+**[Firn Protocol](https://app.firn.cash/)**: Firn bụ ikpo okwu nzuzo efu nke mbụ na ụdị akaụntụ, ma webata nzuzo a na-ejikọta na ya, nke na-agbanwe agbanwe na usoro Ethereum. Site na iji ihe akaebe efu, Firn na-enye nzuzo ego nchekwa na nke dị irè maka ndị ọrụ nke Ethereum na L2s dabere na Ethereum. **OTÚ O SI Arụ Ọrụ?**
+Iji jiri Firn, tinye ETH n'ime usoro a. Ozugbo ị nwere ego Firn, ị nwere ike ibufe ego na ndị ọrụ Firn ndị ọzọ n'onwe gị, ma ọ bụ soro usoro ndị ọzọ, dị ka Uniswap. Ị nwekwara ike iwepụ ego na netwọk ahụ n'onwe gị. Firn na-ana obere ego, nke 0.79%, na ETH niile yana ndọta. A na-akwụ ụgwọ ndị a n'ụzọ kwekọrọ na ndị ji Firn Token - [Akwụkwọ ọcha](https://firn.cash/whitepaper.pdf) 
 
 
 **[EGBÙ IGWE](https://railgun.org/):** Dịka nkwekọrịta smart nke oyi akwa-1, RAILGUN dị ka nnyefe nkeonwe na akụrụngwa DeFi n'ihi na Ethereum, Polygon, Binance Smart Chain, na Arbitrum dị.

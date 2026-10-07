@@ -61,7 +61,7 @@ X, Google, Discord, Telegramでログイン可能です。
 
 ### 動画/音声翻訳ツール:
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) - 動画の翻訳、吹き替え、口の動きを合わせるツール
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) - 動画の翻訳、吹き替え、口の動きを合わせるツール
 - [Ezdubs Bot on X](https://twitter.com/ezdubs_bot) - 動画の翻訳、吹き替え、口の動きを合わせるツール
 
 ## 音声関連

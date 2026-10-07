@@ -62,7 +62,7 @@ X, Google, Discord, Telegram으로 로그인 가능
 
 ### 영상/오디오 번역 도구:
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) - 영상 번역, 더빙 및 입술 동기화 도구
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) - 영상 번역, 더빙 및 입술 동기화 도구
 - [X의 Ezdubs 봇](https://twitter.com/ezdubs_bot) - 영상 번역, 더빙 및 입술 동기화 도구
 
 ## 오디오 관련

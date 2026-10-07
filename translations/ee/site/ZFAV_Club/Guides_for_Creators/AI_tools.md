@@ -62,7 +62,7 @@ ate ŋu axɔ dzidzime siwo ade 100 siwo le ablɔɖe me to dzidzedzekpɔkpɔ na a
 
 ### Video/odio gɔmeɖeɖe dɔwɔnuwo:
 
-- [HeyGen ƒe Dɔwɔƒegã](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) video gɔmeɖeɖe ƒe dubbing kple nuyi ƒe wɔwɔ ɖekae dɔwɔnu
+- [HeyGen ƒe Dɔwɔƒegã](https://labs.heygen.com/guest/video-translate) video gɔmeɖeɖe ƒe dubbing kple nuyi ƒe wɔwɔ ɖekae dɔwɔnu
 - [Ezdubs Bot le X dzi](https://twitter.com/ezdubs_bot) video gɔmeɖeɖe ƒe dubbing kple nuyi ƒe wɔwɔ ɖekae dɔwɔnu
 
 ## Odio ƒe nuwo

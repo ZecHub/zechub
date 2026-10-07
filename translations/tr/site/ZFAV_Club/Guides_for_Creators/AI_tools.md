@@ -62,7 +62,7 @@ buradaki [görselleri](https://www.midjourney.com/app/rank-pairs/) çok sayıda 
 
 ### Video/ses çeviri araçları:
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) video çevirisi, dublaj ve dudak senkronizasyonu aracı
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) video çevirisi, dublaj ve dudak senkronizasyonu aracı
 - [X üzerinde Ezdubs Bot](https://twitter.com/ezdubs_bot) video çevirisi, dublaj ve dudak senkronizasyonu aracı
 
 ## Ses araçları

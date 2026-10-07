@@ -16,7 +16,7 @@ Programu ya Mabalozi Duniani hutambua wanajamii wanaotoa michango ya hali ya juu
 
 Mabalozi wana uhuru wa ubunifu katika shughuli wanazopanga, na hivyo kuwawezesha kurekebisha uhamasishaji kulingana na mazingira yao ya ndani.
 
-## [Tovuti ya Balozi wa Kimataifa](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
+## [Tovuti ya Balozi wa Kimataifa](https://zcashambassadors.com)
 
 ## Jumuiya za Mabalozi Wanaofanya Kazi (2026)
 

@@ -62,7 +62,7 @@
 
 ### أدوات ترجمة الفيديو/الصوت:
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) أداة لترجمة الفيديو والدبلجة ومزامنة حركة الشفاه
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) أداة لترجمة الفيديو والدبلجة ومزامنة حركة الشفاه
 - [بوت Ezdubs على X](https://twitter.com/ezdubs_bot) أداة لترجمة الفيديو والدبلجة ومزامنة حركة الشفاه
 
 ## أشياء متعلقة بالصوت

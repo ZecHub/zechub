@@ -62,7 +62,7 @@ puedes conseguir unas 100 generaciones gratis calificando muchas [imágenes aqu�
 
 ### Herramientas de traducción de video/audio:
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) herramienta de traducción de video, doblaje y sincronización labial
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) herramienta de traducción de video, doblaje y sincronización labial
 - [Bot de Ezdubs en X](https://twitter.com/ezdubs_bot) herramienta de traducción de video, doblaje y sincronización labial
 
 ## Cosas de audio

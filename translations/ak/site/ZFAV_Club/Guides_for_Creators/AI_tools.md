@@ -62,7 +62,7 @@ betumi anya awo ntoatoaso a wɔde wɔn ho bɛyɛ 100 denam afoforo pii a wɔde b
 
 ### Video/adio nkyerɛase nnwinnade:
 
-- [HeyGen Labs na ɔkyerɛwee](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) video nkyerɛase dubbing ne anofafa syncing adwinnade
+- [HeyGen Labs na ɔkyerɛwee](https://labs.heygen.com/guest/video-translate) video nkyerɛase dubbing ne anofafa syncing adwinnade
 - [Ezdubs Bot wɔ X so](https://twitter.com/ezdubs_bot) video nkyerɛase dubbing ne anofafa syncing adwinnade
 
 ## Nneɛma a wɔde tie asɛm

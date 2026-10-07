@@ -62,7 +62,7 @@ man kann etwa 100 kostenlose Generierungen bekommen, wenn man viele andere [Bild
 
 ### Tools zur Video-/Audioübersetzung:
 
-- [HeyGen Labs](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) Tool für Videoübersetzung, Synchronisation und Lippensynchronisation
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) Tool für Videoübersetzung, Synchronisation und Lippensynchronisation
 - [Ezdubs Bot auf X](https://twitter.com/ezdubs_bot) Tool für Videoübersetzung, Synchronisation und Lippensynchronisation
 
 ## Audio-Sachen

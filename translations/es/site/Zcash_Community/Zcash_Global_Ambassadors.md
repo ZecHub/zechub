@@ -16,7 +16,7 @@ El Programa de Embajadores Globales identifica a miembros de la comunidad que re
 
 Los embajadores tienen libertad creativa sobre las actividades que planifican, lo que les permite adaptar la divulgación a su contexto local.
 
-## [Sitio web de Embajadores Globales](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
+## [Sitio web de Embajadores Globales](https://zcashambassadors.com)
 
 ## Comunidades activas de embajadores (2026)
 

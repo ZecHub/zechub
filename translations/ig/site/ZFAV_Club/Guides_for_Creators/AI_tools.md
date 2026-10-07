@@ -62,7 +62,7 @@ nwere ike inweta ihe dị ka ọgbọ 100 n'efu site n'inye ọtụtụ ndị �
 
 ### Ngwa ntụgharị vidiyo/ọdịyo:
 
-- [Ụlọ nyocha HeyGen](https://web.archive.org/web/20260604144215/https://labs.heygen.com/guest/video-translate) Ngwa ntụgharị asụsụ vidiyo na njikọta egbugbere ọnụ
+- [Ụlọ nyocha HeyGen](https://labs.heygen.com/guest/video-translate) Ngwa ntụgharị asụsụ vidiyo na njikọta egbugbere ọnụ
 - [Ezdubs Bot na X](https://twitter.com/ezdubs_bot) Ngwa ntụgharị asụsụ vidiyo na njikọta egbugbere ọnụ
 
 ## Ihe ọdịyo

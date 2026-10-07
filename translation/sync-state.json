@@ -169,7 +169,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
@@ -529,7 +529,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "gt",
       "mode": "full",
@@ -685,7 +685,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+prose-retranslate+table-rebuild+linkrepair",
+      "tool": "gt-static+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -1915,7 +1915,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -2275,7 +2275,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -2431,7 +2431,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -3661,7 +3661,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -4021,7 +4021,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -4177,7 +4177,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -5407,7 +5407,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
@@ -5767,7 +5767,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "99646ec2fb4bd9bd308d77b4ce512ff5777802bb",
       "engine": "gt",
       "mode": "full",
@@ -5923,7 +5923,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+prose-retranslate+linkrepair",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -7153,7 +7153,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -7513,7 +7513,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -7669,7 +7669,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -8899,7 +8899,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -9259,7 +9259,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -9415,7 +9415,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -10645,7 +10645,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -11005,7 +11005,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -11161,7 +11161,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -12383,7 +12383,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
@@ -12743,7 +12743,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "gt",
       "mode": "full",
@@ -12899,7 +12899,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+table-rebuild+linkrepair",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -14129,7 +14129,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -14489,7 +14489,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -14645,7 +14645,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -15875,7 +15875,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -16235,7 +16235,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -16391,7 +16391,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -17621,7 +17621,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -17981,7 +17981,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -18137,7 +18137,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -19367,7 +19367,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -19727,7 +19727,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -19883,7 +19883,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -21113,7 +21113,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -21473,7 +21473,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -21629,7 +21629,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -22859,7 +22859,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
@@ -23219,7 +23219,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "99646ec2fb4bd9bd308d77b4ce512ff5777802bb",
       "engine": "gt",
       "mode": "full",
@@ -23375,7 +23375,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+prose-retranslate+table-rebuild+linkrepair",
+      "tool": "gt-static+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -24605,7 +24605,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -24965,7 +24965,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -25121,7 +25121,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -26351,7 +26351,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -26711,7 +26711,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -26867,7 +26867,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -28097,7 +28097,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "4c141ff9de5b6791c60fd8cabbc9728e9ebfdb36",
       "engine": "gt",
       "mode": "full",
@@ -28457,7 +28457,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "gt",
       "mode": "full",
@@ -28613,7 +28613,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+table-rebuild+linkrepair",
+      "tool": "gt-static+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -29843,7 +29843,7 @@
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
-      "src": "sha256:6584cb7c0e2c0c80e855932d98962594062b99e91f9297f4cac2d1d571928760",
+      "src": "sha256:3337c80ff8551539ef7dd5c54bbc4065ca69701361a24db534461cf522905458",
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
@@ -30203,7 +30203,7 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools.md": {
-      "src": "sha256:116da2b8fdf6c549c89ec02755ef6417f020aa0c6aa38f1cc36779e93d690e3a",
+      "src": "sha256:e2b59063183bf5f0c30b93ed6631187ec93857a851efa3c601627114b109dc12",
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
@@ -30359,7 +30359,7 @@
       "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+linkrepair",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
