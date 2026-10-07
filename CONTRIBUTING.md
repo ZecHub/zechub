@@ -4,8 +4,7 @@
 
 If you're reading this page, we're really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.xyz](https://www.zechub.xyz/) and other ZecHub social media :sparkles:
 
-<!-- TODO: We need to have a CoC -->
-<!-- Read our [Code of Conduct](/CODE_OF_CONDUCT.md) to keep our community approachable and respectable. -->
+Please read our [Code of Conduct](/CODE_OF_CONDUCT.md) to help keep the ZecHub community approachable, respectful, and welcoming.
 
 ## New contributors
 
