@@ -31,7 +31,7 @@
 | Ìlà Oòrùn Áfíríkà | [Zcash Ìlà Oòrùn Áfíríkà](https://x.com/ZcashEastAfrica) | Ìdàgbàsókè àwùjọ ní ìlà-oòrùn Áfíríkà, Uganda |
 | gusu Afrika | [Zcash Gúúsù Áfíríkà](https://twitter.com/Zcash_SA) | gusu Afrika |
 | Gánà | [Zcash Ghana](https://x.com/ZcashGH) | Gánà |
-| Meksiko | [Zcash Meksiko](https://x.com/ZcashMx) | Ilọsiwaju ile-ẹkọ giga ati idagbasoke idagbasoke |
+| Meksiko | [Zcash Meksiko](https://x.com/ZcashMx) | Ilọsiwaju ile-ẹkọ giga ati idagbasoke |
 | Rọ́síà | [ruZcash](https://x.com/ruZCASH) | Àkóónú àti àwùjọ èdè Rọ́síà |
 | Íńdíà | [Zcash Íńdíà](https://x.com/ZcashIND) | Ẹ̀kọ́ àwọn olùgbékalẹ̀ àti ìdàgbàsókè àwùjọ |
 | Kòríà | [Zcash Kòríà](https://x.com/zcashkorea) | Akoonu ẹkọ Korean |

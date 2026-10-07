@@ -25,8 +25,8 @@
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
-      "src": "sha256:59ed9948d5515deb422a9474c320f829298def8f717b00bb30caeb6644c9287f",
-      "src_commit": "72570c036686043220f9c77fbe80eaf404d6fce7",
+      "src": "sha256:e153a72c776e0748c1eba56155cab5b1ee1ee73260e1301d420be1319969056e",
+      "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -681,11 +681,11 @@
       "edited": false
     },
     "Zcash_Community/Zcash_Global_Ambassadors.md": {
-      "src": "sha256:43e2f440da583eb70e9191cfd7543b0d402b79a2abe66ac5964bef719bf669ff",
-      "src_commit": "72570c036686043220f9c77fbe80eaf404d6fce7",
+      "src": "sha256:e8bb5ae5ccda50784d98fe0cb98d6a67e60a2a422debcea1aee31b0780e98eb5",
+      "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate+table-rebuild",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -5263,8 +5263,8 @@
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
-      "src": "sha256:59ed9948d5515deb422a9474c320f829298def8f717b00bb30caeb6644c9287f",
-      "src_commit": "72570c036686043220f9c77fbe80eaf404d6fce7",
+      "src": "sha256:e153a72c776e0748c1eba56155cab5b1ee1ee73260e1301d420be1319969056e",
+      "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -5919,11 +5919,11 @@
       "edited": false
     },
     "Zcash_Community/Zcash_Global_Ambassadors.md": {
-      "src": "sha256:43e2f440da583eb70e9191cfd7543b0d402b79a2abe66ac5964bef719bf669ff",
-      "src_commit": "72570c036686043220f9c77fbe80eaf404d6fce7",
+      "src": "sha256:e8bb5ae5ccda50784d98fe0cb98d6a67e60a2a422debcea1aee31b0780e98eb5",
+      "src_commit": "9d7d666987d76d6b8fa86bd6c6840fb809bb2226",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+prose-retranslate",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -12243,7 +12243,7 @@
       "src_commit": "72570c036686043220f9c77fbe80eaf404d6fce7",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -28613,7 +28613,7 @@
       "src_commit": "72570c036686043220f9c77fbe80eaf404d6fce7",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {

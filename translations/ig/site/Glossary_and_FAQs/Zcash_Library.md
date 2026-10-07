@@ -234,7 +234,7 @@ Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara 
 | ZEC | Koodu ego gọọmentị maka Zcash (ụfọdụ mgbanwe ka na-egosi XZC). |
 | Zerocash | Usoro agụmakwụkwọ (2014) nke Zcash dabere na ya. |
 | Zaino | Zcash indexer nke ọgbọ na-esote na-anọchi lightwalletd, nke Zcash Foundation. Na-enye ndị ahịa dị mfe ohere ijikọ ngwa ngwa na nkeonwe. Akụkụ nke mmelite akụrụngwa Zcash Z3. |
-| Zakura | E wepụtara mmejuputa Zcash zuru oke na Julaị 2026, nke Valar Group na Project Tachyon. wuru dị ka fork nke Zebra. Ọ na-elekwasị anya na ọsọ throughput na sync, yana snapshot bootstrapping na ebumnuche akọwapụtara nke nha netwọk kaadị, ihe dị ka azụmahịa 50,000 kwa sekọnd. [zakura.com](https://zakura.com) |
+| Zakura | E wepụtara mmejuputa Zcash zuru oke na Julaị 2026, nke Valar Group na Project Tachyon wuru dị ka fork nke Zebra. Ọ na-elekwasị anya na ọsọ throughput na sync, yana snapshot bootstrapping na ebumnuche akọwapụtara nke nha netwọk kaadị, ihe dị ka azụmahịa 50,000 kwa sekọnd. [zakura.com](https://zakura.com) |
 | Zallet | Akụkụ obere akpa nke weghaara ọrụ obere akpa zcashd's mgbe e lara ezumike nka, nke e wuru na Zaino dịka akụkụ nke ọrụ akụrụngwa Zcash Z3. |
 | Zebra | Mmejuputa n'imezu n'ime Zcash Foundation's Rust (nke a na-akpọ zcashd). Mmepụta dị njikere ma na-arụ ọrụ nke ọma. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Zcash mbụ ahụ, nke e si na Bitcoin Core wepụta. Ọ lara ezumike nka na Julaị 2026 mgbe ọ kwụsịrị ọrụ ya ogologo oge, ebe ọrụ ya kewara n'etiti Zebra maka nkwekọrịta na Zallet maka ọrụ obere akpa. |

@@ -4,34 +4,34 @@
 
 # Zcash Wiase Nyinaa Aban Nnanmusini
 
-Wiase Nyinaa Ɔnanmusifo Dwumadie no kyerɛ mpɔtam hɔfoɔ a wɔde mmoa a ɛkorɔn ma Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no na ɛma wɔn tumi ma wɔbɛyɛ akannifoɔ. Aban ananmusifoɔ ma Zcash mpɔtam hɔ nyin, ɛma wɔn a wɔde di dwuma no gye tom, na wɔma Zcash's mfiridwuma a ɛkora kokoam nsɛm so no ho nimdeɛ kɔ anim.
+Wiase Nyinaa Ɔnanmusifo Dwumadie no kyerɛ mpɔtam hɔfoɔ a wɔde mmoa a ɛkorɔn ma Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no na ɛma wɔn tumi ma wɔbɛyɛ akannifoɔ. Abannanmusifoɔ ma Zcash mpɔtam hɔ nyin, ɛma wɔn a wɔde di dwuma no gye tom, na wɔma Zcash mfiridwuma a ɛkora kokoam nsɛm so no ho nimdeɛ kɔ anim.
 
 ## Dɛn na Ɔnanmusifo yɛ?
 
 - Host honam fam anaa virtual meetup nhyiam ahorow
-- Kɔ so tra hɔ a ɛyɛ nnam wɔ social media so na yɛ mfitiase nsɛm a ɛfa Zcash ho
+- Kɔ so yɛ nnam wɔ social media so na yɛ mfitiaseɛ nsɛm fa Zcash ho
 - Kyerɛ Zcash nkyerɛkyerɛ nneɛma ase kɔ mpɔtam hɔ kasa mu
 - Onboard foforo a wɔde di dwuma ne developers kɔ Zcash ecosystem
 - Gyina Zcash ananmu wɔ crypto nhyiamu ne mpɔtam hɔ nhyiamu ase
 
-Aban ananmusifo wɔ adebɔ mu ahofadi wɔ dwumadi ahorow a wɔyɛ ho nhyehyɛe no ho, na ɛma wotumi siesie nsɛm a wɔka kyerɛ no ma ɛne wɔn mpɔtam hɔ tebea hyia.
+Aban ananmusifo wɔ adebɔ mu ahofadi wɔ dwumadi ahorow a wɔayɛ ho nhyehyɛe no ho, na ɛma wotumi siesie nsɛm a wɔde kɔ nkurɔfo nkyɛn no ma ɛne wɔn mpɔtam hɔ tebea hyia.
 
 ## [Wiase Nyinaa Ɔnanmusifo Wɛbsaet](https://zcashambassadors.com)
 
-## Ambassador Mpɔtam a wɔyɛ nnam (2026)
+## Ambassador Mpɔtam a wɔyɛ nnam (2026) .
 
-| Mantam | Mpɔtam | Dwumadi Titiriw |
+| Ɔmantam | Mpɔtam hɔ | Dwumadi Titiriw |
 |--------|-----------|-------------|
 | Latin Amerika | [Zcash en Español na ɛwɔ hɔ](https://x.com/zcashesp1) | Spania kasa mu nsɛm, ZK AV Kuw, Zcast podcast |
 | Brazil | [Zcash Brazil na ɛwɔ hɔ](https://x.com/zcashbrazil) | Adwumayɛbea ahorow, nhyiam ahorow, Shielded Magazine |
-| Kurokuro | [Zcash Turkey na ɛwɔ hɔ](https://x.com/ZcashTR) | Nhomasua mu nsɛm, Istanbul Blockchain Nnawɔtwe mu kyɛfa |
+| Turkey | [Zcash Turkey na ɛwɔ hɔ](https://x.com/ZcashTR) | Nhomasua mu nsɛm, Istanbul Blockchain Nnawɔtwe mu kyɛfa |
 | Arabia | [Zcash Arabia na ɛwɔ hɔ](https://x.com/ZcashArabia) | Arabic nkyerɛkyerɛ mu nsɛm, AMAs |
 | Ukraine| [Zcask Ukraine na ɔkyerɛwee](https://x.com/Zcash_ua) | Ukraine |
 | Nigeria | [Zcash Nigeria na ɔkyerɛwee](https://x.com/ZcashNigeria) | Developer nhomasua, mpɔtam hɔ onboarding |
-| Afrika Apuei fam | [Zcash Afrika Apuei Fam](https://x.com/ZcashEastAfrica) | Afrika Apuei fam, Uganda mpɔtam hɔfo nkɔso |
+| Afrika Apuei Fam | [Zcash Afrika Apuei Fam](https://x.com/ZcashEastAfrica) | Afrika Apuei fam, Uganda mpɔtam hɔfo nkɔso |
 | South Africa | [Zcash South Africa na ɛwɔ hɔ](https://twitter.com/Zcash_SA) | South Africa |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
-| Mexico | [Zcash Mexico na ɔkyerɛwee](https://x.com/ZcashMx) | Suapɔn mu nkɔmmɔdie ne developer onboarding |
+| Mexico | [zcashqro na ɛyɛ](https://x.com/zcashqro) | Suapɔn mu nkɔmmɔdie ne developer onboarding |
 | Russia | [ruZcash na ɛyɛ](https://x.com/ruZCASH) | Russia kasa mu nsɛm ne mpɔtam hɔfo |
 | India | [Zcash India na ɛwɔ hɔ](https://x.com/ZcashIND) | Developer nhomasua ne mpɔtam hɔ nkɔso |
 | Korea | [Zcash Korea na ɛwɔ hɔ](https://x.com/zcashkorea) | Koreafo nhomasua mu nsɛm |
@@ -39,5 +39,6 @@ Aban ananmusifo wɔ adebɔ mu ahofadi wɔ dwumadi ahorow a wɔyɛ ho nhyehyɛe n
 ## Fa Akwammisa krataa kɔma sɛ Wobɛyɛ Ɔman Ba
 
 Wubetumi nso de wo ho ahyɛ mu denam:
-- Ntoboa a wɔde ma [ZEC Bounties](https://bounties.zechub.wiki/)
+- Ntoboa a wɔde ma [ZEC Bounties na ɛyɛ adwuma](https://bounties.zechub.wiki/)
 - Ɔde ne ho hyɛ mu [Zcash Wiase Nyinaa Ntam Discord](https://discord.gg/zcash)
+
