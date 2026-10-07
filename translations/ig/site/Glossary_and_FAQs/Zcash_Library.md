@@ -72,7 +72,7 @@ Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara 
 
 | Oge okwu | Nkọwa |
 |------|-----------|
-| Governance | A na-ede mkpebi sitere na usoro ZIP n'ime nkọwapụta Zcash, yana ngwanrọ nke na-agba netwọk ahụ. A na-akwado mgbanwe ndị a n'usoro mgbe ọtụtụ netwọk nabatara mmelite ahụ ma ghara imebi nkwekọrịta. [Akụkọ Usoro zuru ezu](https://zfnd.org/protocol-governance/) |
+| Governance | A na-ede mkpebi sitere na usoro ZIP n'ime nkọwapụta Zcash, yana ngwanrọ nke na-agba netwọk ahụ. A na-akwado mgbanwe ndị a n'usoro mgbe ọtụtụ netwọk nabatara mmelite ahụ ma ghara imebi nkwekọrịta. [Akụkọ Usoro zuru ezu](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -86,7 +86,7 @@ Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara 
 
 | Oge okwu | Nkọwa |
 |------|-----------|
-| Index | Ndekọ ZCX nke CoinDesk na-anọchite anya ọnụego ntụpọ nke oge a, nke nhata USD maka Zcash. [Ndepụta Ọnụahịa](https://www.coindesk.com/indices/zcx/) |
+| Index | Ndekọ ZCX CoinDesk's na-anọchite anya ọnụego ntụpọ nke oge a, nke nhata USD maka Zcash. [Ndepụta Ọnụahịa](https://www.coindesk.com/indices/zcx/) |
 | Integrations | Ị nwere ike ịnabata ịkwụ ụgwọ Zcash site na ọtụtụ ndị na-enye ọrụ nke atọ. [Ndị Nhazi Ịkwụ Ụgwọ](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Igwe nkịtị nke na-eme ihe nlereanya mgbakọ na mwepụ dị ka mgbanwe ozi n'etiti ndị otu abụọ: Prover na Verifier. |
 | Investment | Enwere ọtụtụ nhọrọ ego maka ndị na-etinye ego n'ụlọ ọrụ ma ọ bụ ụlọ ọrụ ezinụlọ ndị chọrọ inweta ahụmịhe na Zcash. [Ndepụta zuru ezu](https://z.cash/investors/) |
@@ -128,10 +128,10 @@ Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara 
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Atụmatụ sitere na Shielded Labs iji mee ka akụkụ nke ụgwọ azụmahịa dị oke ọnụ ka mmefu ego nchekwa ogologo oge nke usoro ahụ ghara ịdabere kpamkpam na mwepụta. Edepụtara na ZIP 234, nke a na-enyocha na 2026. |
 | Nighthawk | Akpa ekwentị mkpanaaka maka Zcash. [Weebụsaịtị](https://nighthawkwallet.com) |
-| Noir Wallet | Akpa mgbakwunye ihe nchọgharị Zcash nke Zcash Community Grants kwadoro, nke e wuru iji jikọọ ZEC echekwara ozugbo na ngwa ihe nchọgharị kama ịdabere na koodu QR na nnyefe aka. [zknoir.com](https://www.zknoir.com/) |
+| Noir Wallet | Akpa mgbakwunye ihe nchọgharị Zcash nke Zcash Community Grants, nke e wuru iji jikọọ ZEC echekwara ozugbo na ngwa ihe nchọgharị kama ịdabere na koodu QR na nnyefe aka. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Mmelite netwọkụ nke isii kachasị elu maka Zcash, na-ewebata ọdọ mmiri nchekwa Orchard na Adreesị Unified. [Ozi Ndị Ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Mmelite netwọkụ nke asaa kachasị elu maka Zcash, na-agbanwe nkwado enyemaka blọk iji kwado mmemme Zcash Community Grants na Shielded Labs. Emelitere na ngwụcha afọ 2024. [Ozi Ndị Ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Mmelite netwọkụ ọzọ dị mkpa mgbe Ironwood. Atụmatụ ndị ga-eme nke a gụnyere ọrụ nhazi nke Project Tachyon, Zcash Shielded Assets, na Network Sustainability Mechanism. |
+| NU7 | Mmelite netwọkụ ọzọ dị mkpa mgbe Ironwood. Atụmatụ ndị ga-eme nke a gụnyere ọrụ nhazi Tachyon's, Zcash Shielded Assets, na Network Sustainability Mechanism. |
 
 ## O
 
@@ -187,9 +187,9 @@ Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara 
 | Trailing Finality Layer (TFL) | Mee nnyocha iji tinye ihe dị mkpa n'azụ usoro ihe akaebe nke ọrụ Zcash's ka e wee nwee ike imecha blọk ndị ọhụrụ na-enweghị dochie ọrụ igwu ala. Crosslink bụ imewe nke si na ya pụta. |
 | Transaction | Ụgwọ ọrụ n'etiti ndị ọrụ, e zigara na netwọk ahụ ma mechaa kwenye na ngọngọ. |
 | Transaction Expiry | Azụmahịa ahụ ga-agwụ mgbe ihe dị ka nkeji iri abụọ na ise (blọk iri abụọ) gasịrị ma ọ bụrụ na ekwenyeghị ya; ego ahụ ga-alaghachi na akpaghị aka. |
-| Transaction Fee | Ụgwọ ndabara bụ 0.0001 ZEC. Ụgwọ dị elu na-ebute ụzọ; ụgwọ dị ala nwere ike ibute igbu oge ma ọ bụ njedebe. |
+| Transaction Fee | Ụgwọ ndabara bụ 0.0001 ZEC. Ụgwọ dị elu na-ebute ụzọ; ụgwọ dị oke ala nwere ike ibute igbu oge ma ọ bụ njedebe. |
 | Transparent Address | A na-akpọkwa ya taddr. Ọ na-amalite site na t. Ọha zuru oke (dịka Bitcoin). |
-| Transparent Transaction | Azụmahịa naanị n'etiti adreesị doro anya - ihe niile na-apụta ìhè n'ihu ọha. |
+| Transparent Transaction | Azụmahịa dị naanị n'etiti adreesị doro anya - ihe niile na-apụta ìhè n'ihu ọha. |
 | Turnstile | Iwu akaụntụ nke na-egosi etu uru si abanye ma na-apụ n'ọdọ mmiri ọ bụla e ji ihe nchebe mee, ka ọdọ mmiri ọ bụla ghara ịpụta ihe karịrị nke e tinyere n'ime ya. A na-eji ya eme ihe n'oge mgbanwe ọdọ mmiri ọ bụla n'akụkọ ihe mere eme Zcash's, ma na-echekwa mbugharị site na Orchard gaa Ironwood. [Ozi ndị ọzọ](/zcash-tech/the-turnstile) |
 
 ## U
@@ -210,7 +210,7 @@ Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara 
 | Oge okwu | Nkọwa |
 |------|-----------|
 | Wallet | Ngwanrọ ma ọ bụ ngwaike nke na-echekwa igodo nkeonwe ma na-enye gị ohere izipu/nata ZEC. Obere akpa ndị na-arụ ọrụ gụnyere ZODL (iOS/Android), Zingo! (mkpanaka/desktọpụ), Nighthawk (Android), Zkool (mkpanaka/desktọpụ), Zallet (na-abịa), na Keystone (ngwaike). Maka ndepụta zuru ezu, lee [Obere akpa Zcash Ecosystem](https://z.cash/ecosystem/?wallets=#tag-wallets) |
-| WebZjs | Javascript SDK mbụ maka Zcash, nke ChainSafe wuru maka gburugburu ihe nchọgharị. Ọ na-akwado Zcash Shielded Wallet snap nke wetara ZEC echebe na MetaMask. |
+| WebZjs | JavaScript SDK mbụ maka Zcash, nke ChainSafe wuru maka gburugburu ihe nchọgharị. Ọ na-akwado Zcash Shielded Wallet snap nke wetara ZEC echebe na MetaMask. |
 
 ## X
 
@@ -234,7 +234,7 @@ Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara 
 | ZEC | Koodu ego gọọmentị maka Zcash (ụfọdụ mgbanwe ka na-egosi XZC). |
 | Zerocash | Usoro agụmakwụkwọ (2014) nke Zcash dabere na ya. |
 | Zaino | Zcash indexer nke ọgbọ na-esote na-anọchi lightwalletd, nke Zcash Foundation. Na-enye ndị ahịa dị mfe ohere ijikọ ngwa ngwa na nkeonwe. Akụkụ nke mmelite akụrụngwa Zcash Z3. |
-| Zakura | E wepụtara mmejuputa Zcash zuru oke na Julaị 2026, nke Valar Group na Project Tachyon wuru dị ka fork nke Zebra. Ọ na-elekwasị anya na ọsọ throughput na sync, yana snapshot bootstrapping na ebumnuche akọwapụtara nke nha netwọk kaadị, ihe dị ka azụmahịa 50,000 kwa sekọnd. [zakura.com](https://zakura.com) |
+| Zakura | E wepụtara mmejuputa Zcash zuru oke na Julaị 2026, nke Valar Group na Project Tachyon. wuru dị ka fork nke Zebra. Ọ na-elekwasị anya na ọsọ throughput na sync, yana snapshot bootstrapping na ebumnuche akọwapụtara nke nha netwọk kaadị, ihe dị ka azụmahịa 50,000 kwa sekọnd. [zakura.com](https://zakura.com) |
 | Zallet | Akụkụ obere akpa nke weghaara ọrụ obere akpa zcashd's mgbe e lara ezumike nka, nke e wuru na Zaino dịka akụkụ nke ọrụ akụrụngwa Zcash Z3. |
 | Zebra | Mmejuputa n'imezu n'ime Zcash Foundation's Rust (nke a na-akpọ zcashd). Mmepụta dị njikere ma na-arụ ọrụ nke ọma. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Zcash mbụ ahụ, nke e si na Bitcoin Core wepụta. Ọ lara ezumike nka na Julaị 2026 mgbe ọ kwụsịrị ọrụ ya ogologo oge, ebe ọrụ ya kewara n'etiti Zebra maka nkwekọrịta na Zallet maka ọrụ obere akpa. |

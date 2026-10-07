@@ -72,7 +72,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 
 | Termine | Definizione |
 |------|-----------|
-| Governance | Le decisioni del processo ZIP vengono scritte nella specifica di Zcash, così come nel software che esegue la rete. Le modifiche vengono ratificate on-chain quando la maggioranza della rete adotta l'aggiornamento senza rompere il consenso. [Storia completa del protocollo](https://zfnd.org/protocol-governance/) |
+| Governance | Le decisioni del processo ZIP vengono scritte nella specifica di Zcash, così come nel software che esegue la rete. Le modifiche vengono ratificate on-chain quando la maggioranza della rete adotta l'aggiornamento senza rompere il consenso. [Storia completa del protocollo](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -169,8 +169,8 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Termine | Definizione |
 |------|-----------|
 | Sapling | Un importante aggiornamento di rete che ha introdotto notevoli miglioramenti di efficienza per le transazioni shielded e ha aperto la strada all'adozione mobile. Attivato al blocco 419200. |
-| Selective Disclosure | Consente al proprietario di un indirizzo shielded di condividere selettivamente viewing key o divulgazioni di pagamento con terze parti, mantenendo i dati privati per tutti gli altri. |
-| Shielded Address | Chiamato anche zaddr. Inizia con z. Nasconde mittente, destinatario, importo e memo usando ZK-SNARKs. |
+| Selective Disclosure | Consente al proprietario di un indirizzo shielded di condividere selettivamente chiavi di visualizzazione o divulgazioni di pagamento con terze parti, mantenendo i dati privati per tutti gli altri. |
+| Shielded Address | Chiamato anche zaddr. Inizia con z. Nasconde mittente, destinatario, importo e memo usando zk-SNARKs. |
 | Shielded Labs | Un'organizzazione indipendente che lavora sull'economia del protocollo e sul consenso di Zcash. Attualmente guida Crosslink e il Network Sustainability Mechanism. [GitHub](https://github.com/ShieldedLabs) |
 | Shielded Transaction | Una transazione esclusivamente tra indirizzi shielded. Completamente privata sulla blockchain. |
 | Sol/s | Soluzioni al secondo - misura le prestazioni di mining di Equihash. |

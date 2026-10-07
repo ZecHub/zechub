@@ -31,13 +31,13 @@
 | شرق أفريقيا | [Zcash East Africa](https://x.com/ZcashEastAfrica) | نمو المجتمع في شرق أفريقيا وأوغندا |
 | جنوب أفريقيا | [Zcash South Africa](https://twitter.com/Zcash_SA) | جنوب أفريقيا |
 | غانا | [Zcash Ghana](https://x.com/ZcashGH) | غانا |
-| المكسيك | [zcashqro](https://x.com/zcashqro) | التواصل مع الجامعات وإدماج المطورين |
+| المكسيك | [Zcash المكسيك](https://x.com/ZcashMx) | التواصل مع الجامعات وإدماج المطورين |
 | روسيا | [ruZcash](https://x.com/ruZCASH) | محتوى ومجتمع باللغة الروسية |
-| الهند | [Zcash India](https://x.com/ZcashIND) | تعليم المطورين ونمو المجتمع |
-| كوريا | [Zcash Korea](https://x.com/zcashkorea) | محتوى تعليمي باللغة الكورية |
+| الهند | [Zcash الهند](https://x.com/ZcashIND) | تعليم المطورين ونمو المجتمع |
+| كوريا | [Zcash كوريا](https://x.com/zcashkorea) | محتوى تعليمي باللغة الكورية |
 
 ## قدّم طلبًا لتصبح سفيرًا
 
 يمكنك أيضًا المشاركة من خلال:
-- المساهمة في مكافآت [ZEC](https://bounties.zechub.wiki/)
+- المساهمة في مكافآت [ZEC Bounties](https://bounties.zechub.wiki/)
 - الانضمام إلى [Zcash Global Discord](https://discord.gg/zcash)

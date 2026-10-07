@@ -70,9 +70,9 @@
 
 ## G
 
-| Term | Definition |
+| Термін | Визначення |
 |------|-----------|
-| Governance | Рішення з процесу ZIP записуються до специфікації Zcash, а також до програмного забезпечення, що запускає мережу. Зміни ратифікуються ончейн, коли більшість мережі приймає оновлення й не порушує консенсус. [Повна історія протоколу](https://zfnd.org/protocol-governance/) |
+| Governance | Рішення з процесу ZIP записуються до специфікації Zcash, а також до програмного забезпечення, що запускає мережу. Зміни ратифікуються ончейн, коли більшість мережі приймає оновлення й не порушує консенсус. [Повна історія протоколу](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -137,9 +137,9 @@
 
 | Термін | Визначення |
 |------|-----------|
-| Oblivious Synchronization | Метод, що розробляється в Project Tachyon і дає гаманцю змогу запитувати потрібні йому дані з ненадійного сервера, не розкриваючи, про які саме ноти він запитує. Сервер ніколи не дізнається про ваші nullifier-и, оскільки протокол змушує їх еволюціонувати в непов’язуваний спосіб. [Опис](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Третій захищений пул для Zcash, що представляє безперервну еволюцію нашого технологічного стеку ZK-SNARKs. [Повні подробиці](https://electriccoin.co/blog/explaining-halo-2/) |
-| Overwinter | 1-ше мережеве оновлення Zcash. [Докладніше](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+| Oblivious Synchronization | Метод, що розробляється в Project Tachyon і дає гаманцю змогу запитувати потрібні йому дані з ненадійного сервера, не розкриваючи, про які саме ноти він запитує. Сервер ніколи не дізнається про ваші нуліфікатори, оскільки протокол змушує їх еволюціонувати в непов’язуваний спосіб. [Опис](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Orchard Shielded Pool | Третій захищений пул для Zcash, що представляє безперервну еволюцію нашого технологічного стеку zk-SNARK. [Повні подробиці](https://electriccoin.co/blog/explaining-halo-2/) |
+| Overwinter | 1-ше мережеве оновлення для Zcash. [Докладніше](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 

@@ -72,7 +72,7 @@ Zcash से संबंधित प्रमुख शब्दों, अव
 
 | Term | Definition |
 |------|-----------|
-| Governance | ZIP process से आने वाले निर्णय Zcash specification में लिखे जाते हैं, साथ ही उस software में भी जो network चलाता है। जब network का अधिकांश हिस्सा upgrade अपना लेता है और consensus नहीं टूटता, तब changes on-chain ratify हो जाते हैं। [पूरा प्रोटोकॉल इतिहास](https://zfnd.org/protocol-governance/) |
+| Governance | ZIP process से आने वाले निर्णय Zcash specification में लिखे जाते हैं, साथ ही उस software में भी जो network चलाता है। जब network का अधिकांश हिस्सा upgrade अपना लेता है और consensus नहीं टूटता, तब changes on-chain ratify हो जाते हैं। [पूरा प्रोटोकॉल इतिहास](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 

@@ -70,9 +70,9 @@
 
 ## G
 
-| Term | Definition |
+| Термин | Определение |
 |------|-----------|
-| Governance | Решения из процесса ZIP записываются в спецификацию Zcash, а также в программное обеспечение, на котором работает сеть. Изменения утверждаются в блокчейне, когда большинство сети принимает обновление и не нарушает консенсус. [Полная история протокола](https://zfnd.org/protocol-governance/) |
+| Governance | Решения, принятые в процессе ZIP, фиксируются в спецификации Zcash, а также в программном обеспечении, на котором работает сеть. Изменения утверждаются в блокчейне, когда большинство сети принимает обновление и не нарушает консенсус. [Полная история протокола](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -135,11 +135,11 @@
 
 ## O
 
-| Term | Definition |
+| Термин | Определение |
 |------|-----------|
-| Oblivious Synchronization | Метод, разрабатываемый в рамках Project Tachyon, который позволяет кошельку запрашивать необходимые ему данные с недоверенного сервера, не раскрывая, о каких notes он запрашивает информацию. Сервер никогда не узнаёт ваши nullifiers, потому что протокол заставляет их эволюционировать несвязываемым образом. [Описание](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Третий экранированный пул Zcash, представляющий дальнейшее развитие нашего технологического стека ZK-SNARKs. [Полные сведения](https://electriccoin.co/blog/explaining-halo-2/) |
-| Overwinter | 1-е сетевое обновление Zcash. [Подробнее](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+| Oblivious Synchronization | Метод, разрабатываемый в рамках Project Tachyon, который позволяет кошельку запрашивать необходимые ему данные с недоверенного сервера, не раскрывая, о каких записях он запрашивает информацию. Сервер никогда не узнаёт ваши нулификаторы, поскольку протокол позволяет им изменяться несвязываемым образом. [Описание](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Orchard Shielded Pool | Третий защищённый пул для Zcash, представляющий дальнейшее развитие нашего технологического стека zk-SNARK. [Полные сведения](https://electriccoin.co/blog/explaining-halo-2/) |
+| Overwinter | Первое сетевое обновление для Zcash. [Подробнее](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 

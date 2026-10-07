@@ -72,7 +72,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 | Term | Definition |
 |------|-----------|
-| Governance | ZIP 프로세스의 결정은 Zcash 명세와 네트워크를 실행하는 소프트웨어에 반영됩니다. 변경 사항은 네트워크의 과반수가 업그레이드를 채택하고 합의를 깨뜨리지 않을 때 온체인에서 비준됩니다. [전체 프로토콜 역사](https://zfnd.org/protocol-governance/) |
+| Governance | ZIP 프로세스의 결정은 Zcash 명세와 네트워크를 실행하는 소프트웨어에 반영됩니다. 변경 사항은 네트워크의 과반수가 업그레이드를 채택하고 합의를 깨뜨리지 않을 때 온체인에서 비준됩니다. [전체 프로토콜 역사](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -135,10 +135,10 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## O
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
-| Oblivious Synchronization | Project Tachyon에서 개발 중인 방식으로, 지갑이 신뢰할 수 없는 서버에 필요한 데이터를 요청하면서도 어떤 note에 대해 요청하는지 드러내지 않도록 해줍니다. 프로토콜이 nullifier를 서로 연결할 수 없는 방식으로 변화시키기 때문에, 서버는 사용자의 nullifier를 절대 알 수 없습니다. [설명글](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Zcash의 세 번째 shielded 풀이며, 우리의 ZK-SNARKs 기술 스택이 계속 진화하고 있음을 보여줍니다. [전체 내용](https://electriccoin.co/blog/explaining-halo-2/) |
+| Oblivious Synchronization | Project Tachyon에서 개발 중인 방식으로, 지갑이 신뢰할 수 없는 서버에 필요한 데이터를 요청하면서도 어떤 노트에 대해 요청하는지 드러내지 않도록 해줍니다. 프로토콜이 사용자의 널리파이어를 서로 연결할 수 없는 방식으로 변화시키기 때문에, 서버는 사용자의 널리파이어를 절대 알 수 없습니다. [설명글](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Orchard Shielded Pool | Zcash의 세 번째 shielded 풀이며, 우리의 zk-SNARK 기술 스택이 계속 진화하고 있음을 보여줍니다. [전체 내용](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | Zcash의 첫 번째 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
