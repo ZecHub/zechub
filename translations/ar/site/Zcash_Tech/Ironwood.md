@@ -14,7 +14,7 @@ Ironwood هو [ترقية للشبكة](../start-here/network-upgrades) في Zca
 
 هل أنت جديد على Zcash؟ ابدأ بـ [ما هو ZEC وZcash](../start-here/what-is-zec-and-zcash) و[المجمعات المحمية](../using-zcash/shielded-pools)، ثم عد إلى هنا.
 
-![تدفق ترحيل القيمة في Ironwood: تغادر القيمة مجمع Orchard، وتمر عبر نقطة تحقق البوابة الدوارة، ثم تدخل مجمع Ironwood الجديد](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![تدفق ترحيل القيمة في Ironwood: تغادر القيمة مجمع Orchard، وتمر عبر نقطة تحقق البوابة الدوارة، ثم تدخل مجمع Ironwood الجديد](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## لماذا كانت هناك حاجة إلى Ironwood
 
@@ -24,7 +24,7 @@ Ironwood هو [ترقية للشبكة](../start-here/network-upgrades) في Zca
 2. نظريًا، كان يمكن لمهاجم أن يستغل هذا الخلل لإنشاء قيمة غير صالحة داخل مجمع Orchard وإنفاق أموال ليست له حقًا، من دون أن يترك أثرًا تلتقطه عقدة عادية.
 3. كانت البوابة الدوارة في Zcash لا تزال تضع حدًا أقصى لكمية القيمة التي يمكن أن تغادر Orchard، لذلك لم يكن بالإمكان تضخيم إجمالي المعروض، لكن التشفير الخاص بالمجمع نفسه لم يعد يضمن أن كل عملة مخفية داخله حقيقية.
 
-![شرح الخلل: تُدخل معاملة 5 ZEC، لكن الإثبات المعيب ينجح رغم خروج 7 ZEC، ما يخلق 2 ZEC من لا شيء](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![شرح الخلل: تُدخل معاملة 5 ZEC، لكن الإثبات المعيب ينجح رغم خروج 7 ZEC، ما يخلق 2 ZEC من لا شيء](/content-images/ironwood-bug-8f689d6f61.webp)
 
 الأرقام أعلاه مجرد صورة مبسطة. كان الخلل الحقيقي في جزء محدد من رياضيات الدائرة، وليس في عدّ حرفي للعملات الداخلة والخارجة. والخلاصة التي يجب فهمها هي فقط أن خلل السلامة يمكن أن يسمح بإنشاء قيمة داخل المجمع من دون اكتشافها.
 
@@ -34,13 +34,13 @@ Ironwood هو [ترقية للشبكة](../start-here/network-upgrades) في Zca
 
 أطلق مجتمع Zcash الإصلاحات على مراحل بدلًا من تنفيذها دفعة واحدة.
 
-![الخط الزمني لاستجابة Ironwood: تم اكتشاف خلل Orchard في مايو 2026، وتم إيقاف المجمع مؤقتًا في يونيو 2026، وتم إصلاح الدائرة في NU6.2، وتم تفعيل Ironwood عند الكتلة 3,428,143 في 28 يوليو 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![الخط الزمني لاستجابة Ironwood: تم اكتشاف خلل Orchard في مايو 2026، وتم إيقاف المجمع مؤقتًا في يونيو 2026، وتم إصلاح الدائرة في NU6.2، وتم تفعيل Ironwood عند الكتلة 3,428,143 في 28 يوليو 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. في أوائل يونيو 2026، عطّل إجراء مؤقت مجمع Orchard بينما كان يجري إعداد إصلاح كامل.
 2. قامت ترقية NU6.2 بتصحيح دائرة Orchard نفسها، مما أغلق ثغرة السلامة الأساسية.
 3. تقدم ترقية NU6.3، أي Ironwood، مجمعًا محميًا جديدًا ونقطة تحقق عامة بحيث يمكن أن تخرج القيمة من مجمع Orchard القديم تحت تدقيق كامل.
 
-![الإصلاح في NU6.2: يتطلب الإثبات المصحح أن تساوي المدخلات المخرجات، لذا يمر خرج صالح بقيمة 5 ZEC، بينما تُرفض محاولة إخراج 7 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![الإصلاح في NU6.2: يتطلب الإثبات المصحح أن تساوي المدخلات المخرجات، لذا يمر خرج صالح بقيمة 5 ZEC، بينما تُرفض محاولة إخراج 7 ZEC](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## ماذا يفعل مجمع Ironwood
 
@@ -121,7 +121,7 @@ Ironwood هو [ترقية للشبكة](../start-here/network-upgrades) في Zca
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [الأمان ما بعد الكمّي](../zcash-tech/post-quantum-security)
 

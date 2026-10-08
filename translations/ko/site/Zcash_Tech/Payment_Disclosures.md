@@ -22,7 +22,7 @@ shielded 결제는 다르게 작동합니다. 체인은 트랜잭션이 Zcash의
 
 [ZIP 311: Zcash 결제 공개](https://zips.z.cash/zip-0311)은(는) 더 제한적인 해답을 제안합니다. 하나의 트랜잭션에서 선택된 정보를 공개하고 인증하는 것입니다.
 
-![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-proof-flow.png)
+![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](/content-images/payment-disclosure-proof-flow-208c033e06.webp)
 
 ## 결제 공개의 작동 방식
 
@@ -53,7 +53,7 @@ Sapling 결제 공개가 발신자 주소를 반드시 공개할 필요는 없�
 
 어느 방법도 지출 권한을 부여하지 않습니다. 결제 증명으로 시드 문구, 지출 키, 개인 키 또는 지갑 백업을 절대 공유하지 마세요.
 
-![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-scope.png)
+![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](/content-images/payment-disclosure-scope-0585cdc075.webp)
 
 ## 오늘 무엇을 사용할 수 있나요?
 

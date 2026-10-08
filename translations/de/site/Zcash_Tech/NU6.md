@@ -21,7 +21,7 @@ NU6 sorgte dafür, dass nach dem Halving im November 2024 weiterhin 20 % der Blo
 
 Der Rest der Blocksubvention sowie die Transaktionsgebühren gehen an die Miner, die das Netzwerk absichern. NU6 aktualisierte außerdem die bestehenden Regeln für Funding Streams und den Dev Fund (ZIP 207 und ZIP 214), damit sie zu dieser neuen Struktur passen.
 
-![Aufteilung des Development Fund in NU6: 20 Prozent der Blocksubvention gehen in die Entwicklung, davon 8 Prozent an Zcash Community Grants und 12 Prozent in die Deferred Dev Fund Lockbox](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![Aufteilung des Development Fund in NU6: 20 Prozent der Blocksubvention gehen in die Entwicklung, davon 8 Prozent an Zcash Community Grants und 12 Prozent in die Deferred Dev Fund Lockbox](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## Die verzögerte Lockbox
 
@@ -41,7 +41,7 @@ NU6 schloss außerdem eine Buchungslücke bei der Erzeugung neuer ZEC, definiert
 2. Nach NU6 muss eine Coinbase-Transaktion exakt ausgeglichen sein: Der gesamte Output-Wert muss genau der Miner-Subvention plus den Gebühren entsprechen, nicht mehr und nicht weniger.
 3. Weil Miner nun keine zu geringe Beanspruchung mehr vornehmen und damit versehentlich ZEC verbrennen können, lässt sich die Gesamtmenge an ZEC, die jemals existieren wird, jetzt exakt vorhersagen.
 
-![Ausgleich von Coinbase vor und nach NU6: Vorher konnte Coinbase zu wenig beanspruchen und ZEC verbrennen, sodass das Angebot nicht exakt vorhersagbar war. Danach muss Coinbase exakt ausgeglichen sein, sodass die Ausgabe exakt vorhersagbar ist](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![Ausgleich von Coinbase vor und nach NU6: Vorher konnte Coinbase zu wenig beanspruchen und ZEC verbrennen, sodass das Angebot nicht exakt vorhersagbar war. Danach muss Coinbase exakt ausgeglichen sein, sodass die Ausgabe exakt vorhersagbar ist](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## Wie sich die Finanzierung entwickelt hat
 
@@ -51,7 +51,7 @@ NU6 ist ein Kapitel in der längeren Geschichte, wie Zcash sich selbst finanzier
 2. NU6 (November 2024) strukturierte diese Finanzierung nach dem zweiten Halving neu und richtete die Deferred Dev Fund Lockbox ein, die einen Anteil der Ausgabe für künftig von der Community entschiedene Zuschüsse reserviert.
 3. NU6.1 (2025) beantwortete die von NU6 offen gelassene Frage, wer die reservierten Mittel kontrolliert, indem es weiterhin 8 % der Blocksubvention an Zcash Community Grants leitete und 12 % in einen von Coin-Inhabern kontrollierten Fonds überführte, der mit Mitteln aus der Lockbox ausgestattet wurde.
 
-![Wie sich die Zcash-Finanzierung entwickelt hat: Canopy schuf den Development Fund, NU6 richtete die Lockbox ein, und NU6.1 legte die Regeln fest, wer sie kontrolliert](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![Wie sich die Zcash-Finanzierung entwickelt hat: Canopy schuf den Development Fund, NU6 richtete die Lockbox ein, und NU6.1 legte die Regeln fest, wer sie kontrolliert](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## Glossar
 

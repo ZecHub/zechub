@@ -14,7 +14,7 @@ Warum das wichtig ist. Bei transparentem Geld wie Bitcoin kann jeder durch Lesen
 
 Neu bei Zcash? Beginne mit [Was sind ZEC und Zcash](../start-here/what-is-zec-and-zcash) und [Shielded Pools](../using-zcash/shielded-pools) und komm dann hierher zurück.
 
-![Ironwood-Wertmigrationsfluss: Wert verlässt den Orchard Pool, passiert den Kontrollpunkt der Schleuse und tritt in den neuen Ironwood Pool ein](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood-Wertmigrationsfluss: Wert verlässt den Orchard Pool, passiert den Kontrollpunkt der Schleuse und tritt in den neuen Ironwood Pool ein](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Warum Ironwood nötig war
 
@@ -24,7 +24,7 @@ Ende Mai 2026 legte der unabhängige Sicherheitsforscher Taylor Hornby während 
 2. Theoretisch hätte ein Angreifer die Schwachstelle nutzen können, um ungültigen Wert innerhalb des Orchard Pools zu fälschen und Gelder auszugeben, die ihm nicht wirklich gehörten, ohne Spuren zu hinterlassen, die ein normaler Knoten erkannt hätte.
 3. Zcashs Schleuse begrenzte weiterhin, wie viel Wert Orchard überhaupt verlassen konnte, sodass das Gesamtangebot nicht aufgebläht werden konnte, aber die Kryptografie des Pools selbst garantierte nicht länger, dass jede verborgene Coin darin echt war.
 
-![Der Fehler erklärt: Eine Transaktion führt 5 ZEC ein, aber der fehlerhafte Beweis wird trotzdem akzeptiert, wenn 7 ZEC herauskommen, wodurch 2 ZEC aus dem Nichts entstehen](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![Der Fehler erklärt: Eine Transaktion führt 5 ZEC ein, aber der fehlerhafte Beweis wird trotzdem akzeptiert, wenn 7 ZEC herauskommen, wodurch 2 ZEC aus dem Nichts entstehen](/content-images/ironwood-bug-8f689d6f61.webp)
 
 Die obigen Zahlen sind ein vereinfachtes Bild. Die tatsächliche Schwachstelle lag in einem bestimmten Teil der Mathematik der Schaltung, nicht in einer wörtlichen Zählung von Coins, die hinein- und hinausgehen. Wichtig ist nur, dass ein Soundness-Fehler es ermöglichen kann, innerhalb des Pools unbemerkt Wert zu erschaffen.
 
@@ -34,13 +34,13 @@ Wichtig ist, dass es keine Hinweise darauf gibt, dass der Fehler jemals ausgenut
 
 Die Zcash-Community hat die Korrekturen stufenweise ausgeliefert, statt alles auf einmal.
 
-![Zeitleiste der Ironwood-Reaktion: Der Orchard-Fehler wird im Mai 2026 gefunden, der Pool wird im Juni 2026 pausiert, die Schaltung wird in NU6.2 korrigiert und Ironwood wurde am 28. Juli 2026 bei Block 3.428.143 aktiviert](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Zeitleiste der Ironwood-Reaktion: Der Orchard-Fehler wird im Mai 2026 gefunden, der Pool wird im Juni 2026 pausiert, die Schaltung wird in NU6.2 korrigiert und Ironwood wurde am 28. Juli 2026 bei Block 3.428.143 aktiviert](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. Anfang Juni 2026 deaktivierte eine vorübergehende Maßnahme den Orchard Pool, während eine vollständige Korrektur vorbereitet wurde.
 2. Das Upgrade NU6.2 korrigierte die Orchard-Schaltung selbst und schloss damit die zugrunde liegende Soundness-Schwachstelle.
 3. Das Upgrade NU6.3, Ironwood, führt einen neuen Shielded Pool und einen öffentlichen Kontrollpunkt ein, damit Wert unter vollständiger Prüfung aus dem alten Orchard Pool herausbewegt werden kann.
 
-![Die Korrektur in NU6.2: Der korrigierte Beweis verlangt, dass Eingaben den Ausgaben entsprechen, sodass eine gültige Ausgabe von 5 ZEC akzeptiert wird, während ein Versuch, 7 ZEC auszugeben, abgelehnt wird](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![Die Korrektur in NU6.2: Der korrigierte Beweis verlangt, dass Eingaben den Ausgaben entsprechen, sodass eine gültige Ausgabe von 5 ZEC akzeptiert wird, während ein Versuch, 7 ZEC auszugeben, abgelehnt wird](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Was der Ironwood Pool bewirkt
 
@@ -121,7 +121,7 @@ Durch die Schleuse. Jede Coin, die den alten Orchard Pool verlässt, wird an ein
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Post-Quantum-Sicherheit](../zcash-tech/post-quantum-security)
 

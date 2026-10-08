@@ -21,13 +21,13 @@ Mambo mawili yanafuata:
 1. Vitalu kufika kuhusu mara mbili kama kawaida, hivyo mlolongo inaweza kubeba takriban mara mbili ya shughuli kwa kitengo cha muda.
 2. shughuli yako anapata uthibitisho wake wa kwanza mapema, kwa sababu huna kusubiri muda mrefu kwa ajili ya kuzuia ijayo.
 
-![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Kuweka utoaji imara
 
 Kwa hivyo, ikiwa Zcash ilifanya vitalu mara mbili na kila block bado inalipa thawabu sawa, mtandao ungeunda ZEC haraka zaidi. Blossom anaepuka hiyo. Ilipunguza nusu ya tuzo iliyolipiwa kwa kila kizuizi, na ikaongeza maradufu muda wa kupunguzwa-mshahara kutoka 840,000 hadi 1,680,000 blocks (kwa mfano wakati ambapo mtu alipewa zawadi kubwa sana).[ZIP 208 - Ujumbe wa posta.](https://zips.z.cash/zip-0208)Mara mbili kama vitalu, kila kulipa nusu ya kiasi hicho, kazi nje kwa idadi sawa ya ZEC kuundwa kwa kitengo cha muda. jumla ugavi ratiba na wakati wa halving baadaye, kipimo katika muda halisi, si iliyopita.
 
-![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## A lazima kuboresha
 

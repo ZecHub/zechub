@@ -16,7 +16,7 @@ Sapling は Zcash における2回目の大規模なネットワークアップ�
 
 Sapling の中核は、シールド化トランザクションのプライバシーを守るゼロ知識証明を、より高速に生成する方式です。元の Sprout の設計では、単一の証明回路（JoinSplit 回路）が使われており、低速で大量のメモリを必要としました。Sapling はこれを、Zcash Protocol Specification で説明されている2つの専用回路、Spend 回路と Output 回路に置き換えました。その結果、コストは大幅に低下しました。Electric Coin Company によると、シールド化トランザクションは約40メガバイトのメモリで、最短では数秒で生成できます。Sapling 以前の Sprout の基準ははるかに重く、おおよそ数分と数ギガバイトのメモリを要していました（これらの Sprout 側の数値は、広く引用されているおおまかな基準値です）。
 
-![Sprout versus Sapling shielded transaction cost](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Sprout versus Sapling shielded transaction cost](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## 新しい鍵
 
@@ -24,7 +24,7 @@ Sapling では、新しい一連のシールド化アドレスと鍵も導入さ
 
 関連する変更として、Sapling は証明を生成する役割と、トランザクションに署名する役割を分離しました。ゼロ知識証明を構築するデバイスが、もはや支出権限を保持するデバイスである必要はなくなったのです。この分離によって、ハードウェアウォレットは支出鍵を隔離したまま保持し、別のデバイスがより重い証明生成作業を担当できるようになりました。
 
-![Proving device hands the proof to a separate signing device](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![Proving device hands the proof to a separate signing device](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## trusted setup
 
@@ -34,7 +34,7 @@ Sapling の回路は、慎重に生成されなければならない一連の公
 
 Sapling は、ネットワークのアップグレード機構を準備した2018年6月のアップグレード Overwinter に続くものでした。Electric Coin Company は2018年8月にリリースした zcashd 2.0.0 でメインネットの有効化ブロック高を設定し、ブロック 419,200 が採掘されたときにネットワークは Sapling のルールへ切り替わりました。チェーン上では、その瞬間は Sapling のコンセンサス branch id によって示されます。
 
-![Timeline from Zcash launch to Sapling activation](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## 用語集
 
@@ -44,7 +44,7 @@ Sapling は、ネットワークのアップグレード機構を準備した201
 | Sprout | Zcash が最初に導入したシールド化プロトコルで、Sapling より遅く重い。 |
 | Spend and Output circuits | Sprout の単一の JoinSplit 回路を置き換えた、Sapling の2つの新しい証明回路。 |
 | Diversified address | 1つの鍵から導出できる、多数の相互にリンク不可能な支払い用アドレスの1つ。 |
-| Viewing key | ウォレットから資金を使うことなく、そのトランザクションを見られるようにする鍵。 |
+| Viewing Key | ウォレットから資金を使うことなく、そのトランザクションを見られるようにする鍵。 |
 | Consensus branch id | トランザクションがどのアップグレードのルールに従っているかをネットワークに伝える短いコード。 |
 
 ## FAQ
@@ -82,7 +82,7 @@ Sprout では、シールド化トランザクションの生成に数分と数�
 
 - [Shielded Pools](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Zcash ネットワークアップグレード](../start-here/network-upgrades)
 - [ウォレット](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

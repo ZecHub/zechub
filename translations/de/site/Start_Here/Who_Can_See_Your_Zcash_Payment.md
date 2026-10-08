@@ -22,7 +22,7 @@ Zcash gibt dir stattdessen eine Wahl. Diese Wahl wird zweimal getroffen: **einma
 
 Das Bild unten deckt beides ab.
 
-![Zcash-Schlüsseltypen und was ein Block-Explorer bei jedem der vier Transaktionspfade sehen kann](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash-Schlüsseltypen und was ein Block-Explorer bei jedem der vier Transaktionspfade sehen kann](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
@@ -64,7 +64,7 @@ Die Reihenfolge ist wichtig. Gib den engstmöglichen Schlüssel weiter, der die 
 
 ## Setze es in die Praxis um
 
-- Verwende ein Wallet, das standardmäßig abschirmt, wie [Zodl](https://zodl.com) oder [Zingo!](https://www.zingolabs.org/).
+- Verwende ein Wallet, das standardmäßig abschirmt, wie [ZODL](https://zodl.com) oder [Zingo!](https://www.zingolabs.org/).
 - Schirme Mittel ab, sobald sie von einer Börse eintreffen, bevor du sie ausgibst.
 - Bezahle an abgeschirmte Adressen, wann immer der Empfänger eine unterstützt.
 - Bevor du einen Viewing Key teilst, frage dich, welcher Schlüssel der kleinste ist, der die gestellte Frage beantwortet.

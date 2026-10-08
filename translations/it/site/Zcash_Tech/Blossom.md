@@ -21,13 +21,13 @@ Ne conseguono due cose:
 1. I blocchi arrivano circa il doppio delle volte, quindi la catena può gestire all'incirca il doppio delle transazioni per unità di tempo.
 2. La tua transazione riceve la sua prima conferma prima, perché non devi aspettare così a lungo il blocco successivo.
 
-![Prima di Blossom l'obiettivo dei blocchi era di 150 secondi, con conferme più lente e throughput inferiore. Dopo Blossom l'obiettivo è di 75 secondi, con conferme più rapide e throughput circa doppio](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Prima di Blossom l'obiettivo dei blocchi era di 150 secondi, con conferme più lente e throughput inferiore. Dopo Blossom l'obiettivo è di 75 secondi, con conferme più rapide e throughput circa doppio](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Mantenere stabile l'emissione
 
 Blocchi più veloci sollevano una domanda. Se Zcash producesse il doppio dei blocchi e ogni blocco pagasse ancora la stessa ricompensa, la rete creerebbe ZEC al doppio della velocità. Blossom evita questo effetto. Ha dimezzato la ricompensa pagata per blocco e ha raddoppiato l'intervallo di halving della ricompensa dei blocchi da 840.000 a 1.680.000 blocchi ([ZIP 208](https://zips.z.cash/zip-0208)). Il doppio dei blocchi, ciascuno dei quali paga la metà, equivale alla stessa quantità di ZEC creata per unità di tempo. Il programma dell'offerta totale e la tempistica dei futuri halving, misurata nel tempo reale, non sono cambiati.
 
-![Come Blossom mantiene stabile l'emissione: i blocchi da 75 secondi arrivano il doppio delle volte, la ricompensa per blocco viene dimezzata, l'intervallo di halving viene raddoppiato, quindi l'emissione totale nel tempo resta invariata](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Come Blossom mantiene stabile l'emissione: i blocchi da 75 secondi arrivano il doppio delle volte, la ricompensa per blocco viene dimezzata, l'intervallo di halving viene raddoppiato, quindi l'emissione totale nel tempo resta invariata](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Un aggiornamento obbligatorio
 

@@ -18,7 +18,7 @@ Orchard — це найновіший екранований протокол Zc
 
 І Sprout, і Sapling залежали від довіреного налаштування. Група людей проводила церемонію, щоб створити параметри кожного пулу, і всі мусили довіряти, що принаймні один з них знищив свою частину секрету. Orchard прибирає це припущення. Старіші пули після NU5 все ще існують, тож гарантія відсутності налаштування стосується коштів, які ви тримаєте в пулі Orchard.
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Що змінив NU5
 
@@ -37,7 +37,7 @@ NU5 також оновив низку наявних ZIP (32, 203, 209, 212, 21
 
 До NU5 кожен пул мав власний тип адреси, і відправник мав знати, який саме тип вам потрібен. Unified addresses, визначені в [ZIP 316](https://zips.z.cash/zip-0316), змінюють це. Одна unified address може об’єднувати отримувачі для більш ніж одного пулу, тож гаманець відправника просто обирає найкращий із тих, які він підтримує.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Unified viewing keys працюють так само для перегляду. Вони дають доступ лише для читання в межах пулів, які охоплює адреса. Докладніше про це дивіться на сторінці [Viewing Keys](../zcash-tech/viewing-keys).
 
@@ -53,7 +53,7 @@ NU5 ішов після попередніх оновлень Zcash: Overwinter,
 | Orchard | Екранований пул, представлений у NU5, побудований на системі доказів Halo 2 |
 | Halo 2 | Система доказів в основі Orchard, якій не потрібне довірене налаштування |
 | Trusted setup | Одноразова церемонія, яка створює секретні параметри пулу, і якій треба довіряти, що їх буде знищено |
-| Unified address | Одна адреса, яка може об’єднувати отримувачі для більш ніж одного пулу (ZIP 316) |
+| Unified Address | Одна адреса, яка може об’єднувати отримувачі для більш ніж одного пулу (ZIP 316) |
 | Consensus branch id | Ідентифікатор, який позначає, до якого набору правил належить транзакція |
 
 ## FAQ
@@ -102,7 +102,7 @@ Orchard побудований на системі доказів Halo 2, які
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

@@ -18,7 +18,7 @@ Orchard, Zcash का सबसे नया shielded protocol है, जिस
 
 Sprout और Sapling दोनों trusted setup पर निर्भर थे। लोगों के एक समूह ने प्रत्येक pool के parameters बनाने के लिए एक ceremony चलाई, और सभी को इस बात पर भरोसा करना पड़ता था कि उनमें से कम-से-कम एक व्यक्ति ने secret के अपने हिस्से को नष्ट कर दिया हो। Orchard इस धारणा को हटा देता है। NU5 के बाद भी पुराने pools मौजूद रहते हैं, इसलिए no-setup guarantee उन funds पर लागू होती है जिन्हें आप Orchard pool में रखते हैं।
 
-![NU5 से पहले, Sprout और Sapling को trusted setup ceremony की आवश्यकता थी। NU5 के बाद, Orchard pool Halo 2 system का उपयोग करता है और उसे trusted setup की आवश्यकता नहीं होती](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![NU5 से पहले, Sprout और Sapling को trusted setup ceremony की आवश्यकता थी। NU5 के बाद, Orchard pool Halo 2 system का उपयोग करता है और उसे trusted setup की आवश्यकता नहीं होती](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## NU5 ने क्या बदला
 
@@ -37,7 +37,7 @@ NU5 ने कई मौजूदा ZIPs (32, 203, 209, 212, 213, 221, और 4
 
 NU5 से पहले, प्रत्येक pool का अपना अलग address type था, और sender को यह जानना पड़ता था कि आपको किस प्रकार का address चाहिए। [ZIP 316](https://zips.z.cash/zip-0316) में परिभाषित unified addresses इसे बदलते हैं। एक single unified address एक से अधिक pool के receivers को bundle कर सकता है, इसलिए sender का wallet बस वही receiver चुनता है जिसे वह सबसे अच्छी तरह support करता है।
 
-![एक unified address कई pools के receivers को bundle करता है: एक transparent receiver, एक Sapling receiver, और एक नया Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![एक unified address कई pools के receivers को bundle करता है: एक transparent receiver, एक Sapling receiver, और एक नया Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 देखने के लिए unified viewing keys भी इसी तरह काम करती हैं। वे उन pools के पार read-only visibility देती हैं जिन्हें कोई address cover करता है। इसके बारे में अधिक जानने के लिए [Viewing Keys](../zcash-tech/viewing-keys) पृष्ठ देखें।
 
@@ -53,7 +53,7 @@ NU5, Zcash के पहले के upgrades के बाद आया: Overw
 | Orchard | वह shielded pool जिसे NU5 ने पेश किया, और जो Halo 2 proving system पर आधारित है |
 | Halo 2 | Orchard के पीछे का proving system, जिसे trusted setup की आवश्यकता नहीं होती |
 | Trusted setup | एक बार होने वाली ceremony जो किसी pool के secret parameters बनाती है और जिन्हें नष्ट करने के लिए उस पर भरोसा किया जाना चाहिए |
-| Unified address | एक single address जो एक से अधिक pool के receivers को bundle कर सकता है (ZIP 316) |
+| Unified Address | एक single address जो एक से अधिक pool के receivers को bundle कर सकता है (ZIP 316) |
 | Consensus branch id | एक identifier जो दर्शाता है कि कोई transaction किस rules set से संबंधित है |
 
 ## FAQ
@@ -64,7 +64,7 @@ Orchard क्या है? Orchard, Zcash का shielded protocol है ज�
 
 क्या मुझे कुछ करना होगा? नहीं। एक supported wallet आपके लिए NU5 को संभाल लेता है। आप पुराने addresses का उपयोग जारी रख सकते हैं, और जब आपका wallet उन्हें उपलब्ध कराए तो आप unified addresses का उपयोग शुरू कर सकते हैं।
 
-Unified address क्या है? एक single address जिसमें एक से अधिक pool के receivers हो सकते हैं। Sender का wallet वही pool चुनता है जिसे वह support करता है, इसलिए आपको हर प्रकार के लिए अलग address देने की आवश्यकता नहीं होती।
+Unified Address क्या है? एक single address जिसमें एक से अधिक pool के receivers हो सकते हैं। Sender का wallet वही pool चुनता है जिसे वह support करता है, इसलिए आपको हर प्रकार के लिए अलग address देने की आवश्यकता नहीं होती।
 
 क्या NU5 मेरे पुराने funds से trusted setup को हटा देता है? पिछली स्थिति पर नहीं। Orchard को trusted setup की आवश्यकता नहीं होती, लेकिन Sapling pool के पहले के parameters NU5 के बाद भी मौजूद रहते हैं। No-setup guarantee Orchard pool में रखे गए funds पर लागू होती है।
 
@@ -102,7 +102,7 @@ Orchard, Halo 2 proving system पर आधारित है, जिसे tr
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

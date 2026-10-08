@@ -1,5 +1,5 @@
 # Obscura Labs
-<img width="369" height="434" alt="obscuralabs" src="https://github.com/user-attachments/assets/5fda3e74-750c-487e-92e9-3cacc15f9b4b" />
+<img width="369" height="434" alt="obscuralabs" src="/content-images/5fda3e74-750c-487e-92e9-3cacc15f9b4b-b41e98d3e5.webp" />
 
 [웹사이트 방문](https://www.obscuralabs.org/)
 
@@ -51,7 +51,7 @@ Obscura Labs는 네트워크 접근성, 지리적 다양성, 신뢰성, 회복�
 * 공개 Zcash 메인넷 RPC 엔드포인트.
 * 공개 Zcash 테스트넷 RPC 엔드포인트.
 * Zebra 풀 노드.
-* Lightwalletd 서비스.
+* lightwalletd 서비스.
 * DNS 시더.
 * 공개 인프라 모니터링.
 * 개발자 중심 API.
@@ -128,11 +128,11 @@ DNS 시더는 새로운 Zcash 노드가 네트워크에 연결할 때 피어를 
 
 Zebra는 Zcash 합의 프로토콜의 독립적인 구현체입니다. Zebra 인프라 운영은 네트워크 접근성, 구현 다양성, Zcash 노드의 지리적 분포에 기여합니다.
 
-### Lightwalletd 서비스
+### lightwalletd 서비스
 
-Obscura Labs는 Zcash 지갑 연결성을 지원하기 위해 Lightwalletd 인프라를 운영합니다.
+Obscura Labs는 Zcash 지갑 연결성을 지원하기 위해 lightwalletd 인프라를 운영합니다.
 
-Lightwalletd는 각 지갑 사용자가 완전한 Zcash 노드를 운영하지 않고도 라이트 클라이언트 지갑에 블록체인 데이터를 제공합니다. 따라서 신뢰할 수 있는 Lightwalletd 서비스는 모바일 지갑 및 기타 경량 Zcash 애플리케이션에 중요합니다.
+lightwalletd는 각 지갑 사용자가 완전한 Zcash 노드를 운영하지 않고도 라이트 클라이언트 지갑에 블록체인 데이터를 제공합니다. 따라서 신뢰할 수 있는 lightwalletd 서비스는 모바일 지갑 및 기타 경량 Zcash 애플리케이션에 중요합니다.
 
 ### 인프라 모니터링
 

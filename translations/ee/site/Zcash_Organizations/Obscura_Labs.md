@@ -1,5 +1,5 @@
 # Obscura Labs
-<img width="369" height="434" alt="obscuralabs" src="https://github.com/user-attachments/assets/5fda3e74-750c-487e-92e9-3cacc15f9b4b" />
+<img width="369" height="434" alt="obscuralabs" src="/content-images/5fda3e74-750c-487e-92e9-3cacc15f9b4b-b41e98d3e5.webp" />
 
 [Yi Nyatakakadzraɖoƒe](https://www.obscuralabs.org/)
 
@@ -51,7 +51,7 @@ Mɔ̃ɖaŋudɔwɔƒewo ƒe ɖoɖowo ate ŋu anye:
 * Amegbetɔwo ƒe Zcash mainnet RPC nuƒleƒewo.
 * Amegbetɔwo ƒe Zcash testnet RPC nuƒleƒewo.
 * Zebra full nodes.
-* Lightwalletd ƒe dɔwɔƒewo.
+* lightwalletd ƒe dɔwɔƒewo.
 * DNS-dzidzelawo.
 * Dukɔa ƒe mɔ̃ɖaŋunuwo dzikpɔkpɔ.
 * Developer-focused APIs.
@@ -128,11 +128,11 @@ Habɔbɔa wɔa dɔ le Zebra-wɔƒe siwo le Afrika la me.
 
 Zebra nye Zcash consensus protocol ƒe dɔwɔwɔ le eɖokui si. Zebra ƒe dɔwɔwɔ kpe ɖe network accessibility, implementation diversity, kple Zcash nodes ƒe anyigbadzikɔntabubu ŋu.
 
-### Lightwalletd Subɔsubɔdɔwo
+### lightwalletd Subɔsubɔdɔwo
 
-Obscura Labs wɔa Lightwalletd ƒe ɖoɖowo ŋu dɔ tsɔ doa alɔ Zcash gakpɔtɔ ƒe kadodo.
+Obscura Labs wɔa lightwalletd ƒe ɖoɖowo ŋu dɔ tsɔ doa alɔ Zcash gakpɔtɔ ƒe kadodo.
 
-Lightwalletd naa blockchain ŋuti nyatakakawo na light-client walletwo evɔ mebia be wallet ɖe sia ɖe zãlawo nawɔ Zcash node blibo o. Eyata LightWalletd ƒe dɔwɔwɔ siwo dzi woate ŋu aka ɖo la le vevie na mobile wallets kple Zcash ƒe dɔwɔna siwo me nu le bɔbɔe.
+lightwalletd naa blockchain ŋuti nyatakakawo na light-client walletwo evɔ mebia be wallet ɖe sia ɖe zãlawo nawɔ Zcash node blibo o. Eyata LightWalletd ƒe dɔwɔwɔ siwo dzi woate ŋu aka ɖo la le vevie na mobile wallets kple Zcash ƒe dɔwɔna siwo me nu le bɔbɔe.
 
 ### Mɔ̃ɖaŋudɔdzraɖowo Dzikpɔkpɔ
 

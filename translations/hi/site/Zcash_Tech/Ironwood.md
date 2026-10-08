@@ -14,7 +14,7 @@ Ironwood, Zcash का एक [network upgrade](../start-here/network-upgrades) 
 
 Zcash में नए हैं? पहले [ZEC और Zcash क्या हैं](../start-here/what-is-zec-and-zcash) और [Shielded Pools](../using-zcash/shielded-pools) पढ़ें, फिर यहाँ वापस आएँ।
 
-![Ironwood value migration flow: value Orchard pool से निकलती है, turnstile checkpoint से गुजरती है, और नए Ironwood pool में प्रवेश करती है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood value migration flow: value Orchard pool से निकलती है, turnstile checkpoint से गुजरती है, और नए Ironwood pool में प्रवेश करती है](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Ironwood की आवश्यकता क्यों पड़ी
 
@@ -24,7 +24,7 @@ Zcash में नए हैं? पहले [ZEC और Zcash क्या �
 2. सिद्धांततः, कोई attacker इस flaw का उपयोग करके Orchard pool के भीतर अमान्य value गढ़ सकता था और ऐसे funds खर्च कर सकता था जो वास्तव में उसके नहीं थे, बिना कोई ऐसा निशान छोड़े जिसे कोई सामान्य नोड पकड़ सके।
 3. Zcash का turnstile अब भी यह सीमा तय करता था कि Orchard से कुल कितनी value कभी बाहर जा सकती है, इसलिए कुल आपूर्ति को बढ़ाया नहीं जा सकता था, लेकिन pool की अपनी cryptography अब यह गारंटी नहीं देती थी कि उसके भीतर हर छिपा हुआ coin वास्तविक था।
 
-![बग की व्याख्या: एक transaction 5 ZEC डालता है, लेकिन त्रुटिपूर्ण proof तब भी पास हो जाता है जब 7 ZEC बाहर आते हैं, जिससे शून्य से 2 ZEC बन जाते हैं](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![बग की व्याख्या: एक transaction 5 ZEC डालता है, लेकिन त्रुटिपूर्ण proof तब भी पास हो जाता है जब 7 ZEC बाहर आते हैं, जिससे शून्य से 2 ZEC बन जाते हैं](/content-images/ironwood-bug-8f689d6f61.webp)
 
 ऊपर दिए गए अंक एक सरल चित्रण हैं। वास्तविक flaw circuit के गणित के एक विशिष्ट हिस्से में था, न कि अंदर और बाहर जाने वाले coins की शाब्दिक गिनती में। यहाँ समझने योग्य मुख्य बात केवल यह है कि एक soundness bug pool के भीतर बिना पता चले value के निर्माण की अनुमति दे सकता है।
 
@@ -34,13 +34,13 @@ Zcash में नए हैं? पहले [ZEC और Zcash क्या �
 
 Zcash समुदाय ने सभी fixes एक साथ जारी करने के बजाय चरणों में जारी किए।
 
-![Ironwood प्रतिक्रिया समयरेखा: Orchard बग मई 2026 में मिलता है, पूल जून 2026 में रोका जाता है, सर्किट को NU6.2 में ठीक किया जाता है, और Ironwood 28 जुलाई 2026 को ब्लॉक 3,428,143 पर सक्रिय हुआ](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood प्रतिक्रिया समयरेखा: Orchard बग मई 2026 में मिलता है, पूल जून 2026 में रोका जाता है, सर्किट को NU6.2 में ठीक किया जाता है, और Ironwood 28 जुलाई 2026 को ब्लॉक 3,428,143 पर सक्रिय हुआ](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. जून 2026 की शुरुआत में, एक अस्थायी उपाय के रूप में Orchard pool को निष्क्रिय कर दिया गया, जबकि पूर्ण fix तैयार किया जा रहा था।
 2. NU6.2 upgrade ने Orchard circuit को स्वयं ठीक किया, जिससे मूल soundness vulnerability बंद हो गई।
 3. NU6.3 upgrade, Ironwood, एक नया shielded pool और एक public checkpoint प्रस्तुत करता है ताकि value पुराने Orchard pool से पूर्ण audit के तहत बाहर जा सके।
 
-![NU6.2 में fix: सुधारा गया proof यह आवश्यक करता है कि inputs outputs के बराबर हों, इसलिए वैध 5 ZEC output पास हो जाता है जबकि 7 ZEC output करने का प्रयास अस्वीकार कर दिया जाता है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![NU6.2 में fix: सुधारा गया proof यह आवश्यक करता है कि inputs outputs के बराबर हों, इसलिए वैध 5 ZEC output पास हो जाता है जबकि 7 ZEC output करने का प्रयास अस्वीकार कर दिया जाता है](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ironwood pool क्या करता है
 
@@ -121,7 +121,7 @@ turnstile के माध्यम से। पुराने Orchard pool �
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Post Quantum Security](../zcash-tech/post-quantum-security)
 

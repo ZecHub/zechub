@@ -22,7 +22,7 @@ Zcash fún ọ ní àyè láti yan. Ààyè yìí ni a ṣe lẹ́ẹ̀mejì: **
 
 Àwòrán tó wà nísàlẹ̀ yìí ṣàpèjúwe méjèèjì.
 
-![Zcash key types and what a block explorer can see for each of the four transaction paths](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash key types and what a block explorer can see for each of the four transaction paths](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
@@ -44,9 +44,9 @@ Fún àlàyé tó jinlẹ̀ síi nípa ohun tí olùwádìí kan kà, wo: [Ohun 
 
 **Key ìnáwó.** Ó rí gbogbo nǹkan, ó sì ń gbé owó lọ. Owo yìí ni o wà pẹ̀lú rẹ kò sí ẹni tí a jọ pín in fún ìdí kankan.
 
-**Key ìwoye kikun.** Ka-nikan. Ó ńfi ìgbòkègbodò tí ó wọlé àti èyí tó jáde hàn, ṣùgbọ́n kò lè ná zatoshi kan ṣoṣo. Èyí ni ohun ti o fi lé olùṣirò tàbí akápọ̀ lọ́wọ́.
+**Key ìwoye kikun (Full Viewing Key).** Ka-nikan. Ó ńfi ìgbòkègbodò tí ó wọlé àti èyí tó jáde hàn, ṣùgbọ́n kò lè ná zatoshi kan ṣoṣo. Èyí ni ohun ti o fi lé olùṣirò tàbí akápọ̀ lọ́wọ́.
 
-** Incoming viewing key.** Ìkángun síi: ó ńfi ìsanwó tí o ti dé hàn. Àdàkọ tàbí oníṣòwò lè fi èyí ranṣẹ láti jẹ́rìí pé owó-ìṣura rẹ wọlé, nígbàtí kókó ìnájà wà lórí ẹ̀rọ tó kò ní fọwọ́ kan ayélujára rí.
+** Incoming Viewing Key.** Ìkángun síi: ó ńfi ìsanwó tí o ti dé hàn. Àdàkọ tàbí oníṣòwò lè fi èyí ranṣẹ láti jẹ́rìí pé owó-ìṣura rẹ wọlé, nígbàtí kókó ìnájà wà lórí ẹ̀rọ tó kò ní fọwọ́ kan ayélujára rí.
 
 Ọ̀nà tó o gbà ṣe é ló máa pinnu bóyá kókó náà jẹ́ èyí tí kò ní láárí tàbí òdìkejì, kì í ṣe kí wọ́n fi ibi tó bá ti fẹ̀ jù lọ hàn ọ́.
 
@@ -64,7 +64,7 @@ Fún àlàyé tó jinlẹ̀ síi nípa ohun tí olùwádìí kan kà, wo: [Ohun 
 
 ## Máa fi ohun tó o kọ́ sílò.
 
-- Lo apamọwọ ti o ni aabo nipasẹ aiyipada, gẹgẹ bi: [Zodl (ì í ì)](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
+- Lo apamọwọ ti o ni aabo nipasẹ aiyipada, gẹgẹ bi: [ZODL (ì í ì)](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Ṣọ́ àwọn owó tó bá ti dé láti ibi ìnáwó, kí wọ́n tó ná an.
 - Sanwó sí àwọn àdírésì tí a fi ààbò bo nígbàkigbà tí olùgbágbà bá ti gba ọ̀kan.
 - Ṣaaju ki o to pin bọtini wiwo kan, beere eyi ti awọn bọtini jẹ kekere ọkan pe dahun ibeere ti a npe ni.

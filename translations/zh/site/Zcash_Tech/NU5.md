@@ -18,7 +18,7 @@ Orchard 是 Zcash 最新的屏蔽协议，定义于 [ZIP 224](https://zips.z.cas
 
 Sprout 和 Sapling 都依赖可信设置。一组人通过仪式为每个池生成参数，而所有人都必须相信他们之中至少有一人销毁了自己持有的那部分秘密。Orchard 移除了这一假设。较旧的池在 NU5 之后仍然存在，因此“无需设置”的保证仅适用于你持有在 Orchard 池中的资金。
 
-![在 NU5 之前，Sprout 和 Sapling 需要可信设置仪式。NU5 之后，Orchard 池使用 Halo 2 系统，不再需要可信设置](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![在 NU5 之前，Sprout 和 Sapling 需要可信设置仪式。NU5 之后，Orchard 池使用 Halo 2 系统，不再需要可信设置](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## NU5 改变了什么
 
@@ -37,7 +37,7 @@ NU5 还更新了若干现有的 ZIP（32、203、209、212、213、221 和 401�
 
 在 NU5 之前，每个池都有自己的地址类型，发送方必须知道你想要哪一种。定义于 [ZIP 316](https://zips.z.cash/zip-0316) 的 Unified Address 改变了这一点。一个 Unified Address 可以打包多个池的接收器，因此发送方的钱包只需选择它所支持的最佳接收器即可。
 
-![一个 Unified Address 可打包多个池的接收器：透明接收器、Sapling 接收器以及新的 Orchard 接收器](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![一个 Unified Address 可打包多个池的接收器：透明接收器、Sapling 接收器以及新的 Orchard 接收器](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 统一 Viewing Key 在查看方面也是同样的工作方式。它为一个地址所覆盖的各个池提供只读可见性。欲了解更多内容，请参阅[Viewing Keys](../zcash-tech/viewing-keys)页面。
 
@@ -53,7 +53,7 @@ NU5 紧随 Zcash 早期的升级之后：Overwinter、Sapling、Blossom、Heartw
 | Orchard | NU5 引入的屏蔽池，建立在 Halo 2 证明系统之上 |
 | Halo 2 | Orchard 背后的证明系统，不需要可信设置 |
 | Trusted setup | 一次性仪式，用于生成池的秘密参数，并且必须被信任会将其销毁 |
-| Unified address | 一种可打包多个池接收器的单一地址（ZIP 316） |
+| Unified Address | 一种可打包多个池接收器的单一地址（ZIP 316） |
 | Consensus branch id | 用于标识一笔交易属于哪一套规则的标识符 |
 
 ## 常见问题
@@ -102,7 +102,7 @@ Orchard 建立在 Halo 2 证明系统之上，而该系统不需要可信设置�
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

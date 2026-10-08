@@ -18,7 +18,7 @@ Orchard ni Zcash ya karibuni ulinzi itifaki, ilivyoelezwa katika [ZIP 224 (Kifun
 
 Sprout na Sapling wote walitegemea kuanzisha uaminifu. Kikundi cha watu kilikimbia sherehe kujenga vigezo vya kila bwawa, na kila mtu alipaswa kuamini kwamba angalau mmoja wao aliharibu sehemu yao ya siri. Orchard huondoa dhana hiyo. Bwawa za zamani bado zipo baada ya NU5, kwa hivyo dhamana isiyo ya usanidi inatumika kwa fedha unazoshikilia kwenye dimbwi la Orchard.
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Nini NU5 iliyopita
 
@@ -37,7 +37,7 @@ NU5 pia ilibadilisha idadi ya ZIP zilizopo (32, 203, 209, 212, 213, 221, na 401)
 
 Kabla ya NU5, kila hifadhi alikuwa aina yake mwenyewe anwani, na mtumaji alijua ambayo aina unataka. Unified anwani , ilivyoelezwa katika [ZIP 316 - Ujumbe wa posta.](https://zips.z.cash/zip-0316)Anwani moja ya umoja inaweza bundle wapokeaji kwa ajili ya pool zaidi ya mmoja, hivyo mkoba mtumaji tu picks bora ambayo inasaidia.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Unified viewing funguo kazi kwa njia sawa na kuangalia. Wao kutoa kusoma tu kujulikana katika mabwawa anwani inashughulikia. Kwa zaidi juu ya kwamba, angalia [Kuangalia funguo za kuvinjari](../zcash-tech/viewing-keys) ukurasa.
 
@@ -53,7 +53,7 @@ NU5 ilifuatia upgrades Zcash ya awali: Overwinter, Sapling, Blossom, Heartwood n
 | Orchard | Bwawa la kuogelea lenye ulinzi NU5 lilianzishwa, limejengwa kwenye mfumo wa kuthibitisha Halo 2 |
 | Halo 2 | Mfumo wa kuthibitisha nyuma ya Orchard ambao hauhitaji usanidi unaoaminika |
 | Trusted setup | Sherehe ya mara moja ambayo hufanya vigezo vya siri vya bwawa la kuogelea na lazima viaminiwe kuviharibu |
-| Unified address | Anwani moja inayoweza kuunganisha vipokezi kwa zaidi ya kundi moja (ZIP 316) |
+| Unified Address | Anwani moja inayoweza kuunganisha vipokezi kwa zaidi ya kundi moja (ZIP 316) |
 | Consensus branch id | Kitambulisho kinachoashiria ni seti gani ya sheria ambazo muamala unamiliki |
 
 ## FAQs
@@ -102,7 +102,7 @@ Orchard imejengwa kwenye mfumo wa kuthibitisha Halo 2, ambayo haihitaji usanidi 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Kuangalia funguo za kuvinjari](../zcash-tech/viewing-keys)
 

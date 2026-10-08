@@ -14,7 +14,7 @@ Nusitae esia le vevie ɖo. Ne ga si le gaglãgbe abe Bitcoin ene ta la, amesiame
 
 Nu yeyee le Zcash mea? Dze egɔme kple [Nukae nye ZEC kple Zcash](../start-here/what-is-zec-and-zcash) kple [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools), emegbe nàtrɔ ava afisia.
 
-![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Nusitae Ironwood hiã
 
@@ -24,7 +24,7 @@ Le May 2026 ƒe nuwuwu la, dedienɔnɔ ŋuti numekula si le eɖokui si Taylor Ho
 2. Le susu me la, amedzidzela ate ŋu azã vodadaa atsɔ awɔ asixɔxɔ si mesɔ o le Orchard-ta la me eye wòazã ga si menye wo tɔ ŋutɔŋutɔ o, eye wòagblẽ dzesi aɖeke ɖi si node dzɔdzɔe aɖe alé o.
 3. Zcash ƒe turnstile gakpɔtɔ ɖo asixɔxɔ agbɔsɔsɔme si ate ŋu ado le Orchard me gbeɖe o, eyata womate ŋu adzi ga si woatsɔ anae katã ɖe dzi o, gake ta la ŋutɔ ƒe nya ɣaɣlawo megaka ɖe edzi be gaku ɖesiaɖe si woɣla ɖe eme la nye nu ŋutɔŋutɔ o.
 
-![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](/content-images/ironwood-bug-8f689d6f61.webp)
 
 Xexlẽdzesi siwo le etame la nye nɔnɔmetata si wowɔ bɔbɔe. Gblẽƒe ŋutɔŋutɔe nye nutome suea ƒe akɔntabubu ƒe akpa aɖe koŋ, ke menye gaku siwo gena ɖe eme kple esiwo dona le eme ƒe xexlẽme ŋutɔŋutɔ o. Nya si wòle be woaɖe ɖa koe nye be gbeɖiɖi ƒe vodada ate ŋu ana woawɔ asixɔxɔ le ta la me evɔ womakpɔe o.
 
@@ -34,13 +34,13 @@ Vevietɔ la, kpeɖodzi aɖeke meli be wozã nudzodzoea kpɔ o, kpeɖodzi aɖeke 
 
 Zcash nutoa me tɔwo ɖoa ɖɔɖɔɖowo ɖe afɔɖeɖe vovovowo tsɔ wu be woaɖo wo katã zi ɖeka.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. Le June 2026 ƒe gɔmedzedze la, ɣeyiɣi kpui aɖe ƒe afɔɖeɖe aɖe na Orchard-ta la megawɔ dɔ o esime wonɔ dzadzram ɖo ɖe eŋu bliboe.
 2. NU6.2 ƒe tɔtrɔa ɖɔ Orchard nutome suea ŋutɔ ɖo, si xe mɔ na gbeɖiɖi ƒe afɔku si le ete la.
 3. NU6.3 ƒe tɔtrɔ, Ironwood, to ta yeye si ŋu wokpɔ ta na kple dutoƒokpɔƒe vɛ ale be asixɔxɔ nate ŋu adzo le Orchard ta xoxoa me le agbalẽdzikpɔkpɔ blibo te.
 
-![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Nusi Ironwood ta la wɔna
 
@@ -121,7 +121,7 @@ To ʋuƒoa dzi. Woxlẽa gaku ɖesiaɖe si dona le Orchard-ta xoxoa me le dutoƒ
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
+[zk-SNARKs ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
 
 [Post Quantum Dedienɔnɔ](../zcash-tech/post-quantum-security)
 

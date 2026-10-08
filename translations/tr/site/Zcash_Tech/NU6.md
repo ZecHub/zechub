@@ -21,7 +21,7 @@ NU6, [ZIP 1015](https://zips.z.cash/zip-1015) içinde tanımlanan bir kural olar
 
 Blok sübvansiyonunun geri kalanı ve işlem ücretleri, ağı güvence altına alan madencilere gider. NU6 ayrıca mevcut funding stream ve dev fund kurallarını (ZIP 207 ve ZIP 214) bu yeni yapıya uyacak şekilde güncelledi.
 
-![NU6 geliştirme fonu bölünmesi: blok sübvansiyonunun yüzde 20’si geliştirmeye gider; bunun yüzde 8’i Zcash Community Grants’e, yüzde 12’si ise Deferred Dev Fund Lockbox’a gider](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![NU6 geliştirme fonu bölünmesi: blok sübvansiyonunun yüzde 20’si geliştirmeye gider; bunun yüzde 8’i Zcash Community Grants’e, yüzde 12’si ise Deferred Dev Fund Lockbox’a gider](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## Ertelenmiş lockbox
 
@@ -41,7 +41,7 @@ NU6 ayrıca, [ZIP 236](https://zips.z.cash/zip-0236) içinde tanımlanan, yeni Z
 2. NU6’dan sonra, bir coinbase işlemi tam olarak dengelenmelidir: toplam çıktı değeri madenci sübvansiyonu artı ücretlere eşit olmalıdır; ne fazla ne eksik.
 3. Madenciler artık eksik talep edip yanlışlıkla ZEC yakamayacağı için, var olacak toplam ZEC miktarı artık tam olarak öngörülebilir.
 
-![NU6 öncesi ve sonrası coinbase dengelemesi: önce coinbase eksik talep edip ZEC yakabiliyordu, bu yüzden arz tam olarak öngörülemiyordu. Sonra coinbase tam olarak dengelenmek zorunda kaldı, bu yüzden ihraç tam olarak öngörülebilir oldu](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![NU6 öncesi ve sonrası coinbase dengelemesi: önce coinbase eksik talep edip ZEC yakabiliyordu, bu yüzden arz tam olarak öngörülemiyordu. Sonra coinbase tam olarak dengelenmek zorunda kaldı, bu yüzden ihraç tam olarak öngörülebilir oldu](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## Finansman nasıl evrildi
 
@@ -51,7 +51,7 @@ NU6, Zcash’in kendisini nasıl finanse ettiğine dair daha uzun bir hikâyenin
 2. NU6 (Kasım 2024), ikinci halving’den sonra bu finansmanı yeniden yapılandırdı ve Deferred Dev Fund Lockbox’ı kurarak ihraçtan bir payı gelecekte topluluğun karar vereceği hibeler için ayırdı.
 3. NU6.1 (2025), NU6’nın açık bıraktığı, ayrılan fonları kimin kontrol edeceği sorusunu; blok sübvansiyonunun %8’ini Zcash Community Grants’e sürdürüp %12’sini başlangıç sermayesi lockbox’tan gelen coin-holder-controlled bir fona yönlendirerek yanıtladı.
 
-![Zcash finansmanının evrimi: Canopy geliştirme fonunu oluşturdu, NU6 lockbox’ı kurdu ve NU6.1 onu kimin kontrol edeceğine dair kuralları belirledi](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![Zcash finansmanının evrimi: Canopy geliştirme fonunu oluşturdu, NU6 lockbox’ı kurdu ve NU6.1 onu kimin kontrol edeceğine dair kuralları belirledi](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## Sözlük
 

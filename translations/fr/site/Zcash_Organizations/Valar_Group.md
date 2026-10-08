@@ -6,7 +6,7 @@
 
 [Visiter le site web](https://valargroup.dev/)
 
-<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
+<img width="200" height="200" alt="254678133" src="/content-images/0dc8c697-bcad-492a-b024-89b502d27af4-4c0d4552c2.webp" />
 
 
 ## Déclaration de mission
@@ -171,7 +171,7 @@ Valar Group est l’une des organisations de protocole indépendantes qui se son
 - **Project Tachyon** se concentre sur la récursion, la vérification formelle et l’évolutivité à long terme.
 - **Valar Group** se concentre sur le vote privé des détenteurs de monnaies, les performances des nœuds, le PIR et l’ingénierie nécessaire pour exploiter ces systèmes en production.
 
-Sa contribution distinctive consiste à rendre la gouvernance blindée opérationnelle. Le vote NU7 est la première utilisation majeure de cette pile : les détenteurs prouvent leurs soldes Ironwood, des wallets tels que Zodl et Vizor peuvent intégrer le flux, et chacun peut auditer le décompte sans savoir comment un détenteur particulier a voté.
+Sa contribution distinctive consiste à rendre la gouvernance blindée opérationnelle. Le vote NU7 est la première utilisation majeure de cette pile : les détenteurs prouvent leurs soldes Ironwood, des wallets tels que ZODL et Vizor peuvent intégrer le flux, et chacun peut auditer le décompte sans savoir comment un détenteur particulier a voté.
 
 Le travail de la même équipe sur les nœuds et la synchronisation est destiné à soutenir l’autre moitié de cette vision. Le vote privé est moins utile si les wallets ne peuvent pas se synchroniser, si les nœuds ne peuvent pas suivre ou si les mises à niveau ne peuvent pas être implémentées rapidement. Valar Group traite la gouvernance, le logiciel de nœud et l’infrastructure de wallet comme un seul problème : rendre Zcash privé utilisable à grande échelle sans concentrer le pouvoir opérationnel dans une seule organisation.
 

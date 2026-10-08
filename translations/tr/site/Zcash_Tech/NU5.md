@@ -18,7 +18,7 @@ Orchard, Zcash'in [ZIP 224](https://zips.z.cash/zip-0224) içinde tanımlanan en
 
 Hem Sprout hem de Sapling güvenilir kuruluma bağlıydı. Bir grup insan, her havuzun parametrelerini oluşturmak için bir tören yürüttü ve herkes en az birinin kendi gizli parçasını yok ettiğine güvenmek zorundaydı. Orchard bu varsayımı ortadan kaldırır. Eski havuzlar NU5'ten sonra da varlığını sürdürür, bu yüzden kurulum gerektirmeme garantisi Orchard havuzunda tuttuğunuz fonlar için geçerlidir.
 
-![NU5'ten önce Sprout ve Sapling bir güvenilir kurulum törenine ihtiyaç duyuyordu. NU5'ten sonra Orchard havuzu Halo 2 sistemini kullanır ve güvenilir kurulum gerektirmez](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![NU5'ten önce Sprout ve Sapling bir güvenilir kurulum törenine ihtiyaç duyuyordu. NU5'ten sonra Orchard havuzu Halo 2 sistemini kullanır ve güvenilir kurulum gerektirmez](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## NU5 neleri değiştirdi
 
@@ -33,11 +33,11 @@ NU5, 1,687,104 numaralı blokta birlikte etkinleşen birkaç konsensüs değişi
 
 NU5 ayrıca mevcut birkaç ZIP'i de (32, 203, 209, 212, 213, 221 ve 401) yeni Orchard havuzunu hesaba katacak şekilde güncelledi.
 
-## Unified address'ler
+## Unified Address'ler
 
 NU5'ten önce her havuzun kendi adres türü vardı ve göndericinin hangisini istediğinizi bilmesi gerekiyordu. [ZIP 316](https://zips.z.cash/zip-0316) içinde tanımlanan unified address'ler bunu değiştirir. Tek bir unified address, birden fazla havuz için alıcı bileşenlerini bir araya getirebilir; böylece göndericinin cüzdanı desteklediği en iyi seçeneği seçer.
 
-![Bir unified address birkaç havuz için alıcı bileşenlerini bir araya getirir: şeffaf bir alıcı, bir Sapling alıcısı ve yeni bir Orchard alıcısı](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![Bir unified address birkaç havuz için alıcı bileşenlerini bir araya getirir: şeffaf bir alıcı, bir Sapling alıcısı ve yeni bir Orchard alıcısı](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Unified viewing key'ler de görüntüleme için aynı şekilde çalışır. Bir adresin kapsadığı havuzlar boyunca salt okunur görünürlük sağlarlar. Bununla ilgili daha fazlası için [Viewing Keys](../zcash-tech/viewing-keys) sayfasına bakın.
 
@@ -53,7 +53,7 @@ NU5, Zcash'in önceki yükseltmeleri olan Overwinter, Sapling, Blossom, Heartwoo
 | Orchard | NU5'in tanıttığı, Halo 2 ispat sistemi üzerine kurulu shielded havuz |
 | Halo 2 | Orchard'ın arkasındaki, güvenilir kurulum gerektirmeyen ispat sistemi |
 | Trusted setup | Bir havuzun gizli parametrelerini oluşturan ve bunların yok edildiğine güvenilmesi gereken bir defalık tören |
-| Unified address | Birden fazla havuz için alıcı bileşenlerini bir araya getirebilen tek bir adres (ZIP 316) |
+| Unified Address | Birden fazla havuz için alıcı bileşenlerini bir araya getirebilen tek bir adres (ZIP 316) |
 | Consensus branch id | Bir işlemin hangi kurallar kümesine ait olduğunu belirten tanımlayıcı |
 
 ## SSS
@@ -64,7 +64,7 @@ Orchard nedir? Orchard, Zcash'in NU5 ile tanıtılan shielded protokolüdür. Ha
 
 Benim bir şey yapmam gerekiyor mu? Hayır. Desteklenen bir cüzdan NU5'i sizin için yönetir. Eski adresleri kullanmaya devam edebilirsiniz ve cüzdanınız sunduğunda unified address kullanmaya başlayabilirsiniz.
 
-Unified address nedir? Birden fazla havuz için alıcı bileşenlerini tutabilen tek bir adres. Göndericinin cüzdanı desteklediği havuzu seçer, böylece her tür için farklı bir adres vermek zorunda kalmazsınız.
+Unified Address nedir? Birden fazla havuz için alıcı bileşenlerini tutabilen tek bir adres. Göndericinin cüzdanı desteklediği havuzu seçer, böylece her tür için farklı bir adres vermek zorunda kalmazsınız.
 
 NU5 eski fonlarımdaki güvenilir kurulumu ortadan kaldırır mı? Geriye dönük olarak hayır. Orchard güvenilir kurulum gerektirmez, ancak Sapling havuzunun önceki parametreleri NU5'ten sonra da varlığını sürdürür. Kurulum gerektirmeme garantisi Orchard havuzunda tutulan fonlar için geçerlidir.
 
@@ -102,7 +102,7 @@ Orchard, güvenilir kurulum ve structured reference string gerektirmeyen Halo 2 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Viewing Keys](../zcash-tech/viewing-keys)
 

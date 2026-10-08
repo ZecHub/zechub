@@ -12,7 +12,7 @@ Canopy는 Zcash의 다섯 번째 네트워크 업그레이드이며, Network Upg
 
 왜 이것이 중요한가. Zcash는 이를 뒷받침하는 기업이 없기 때문에 블록 보상을 통해 자체 개발 자금을 조달합니다. 초기 몇 년간의 개발 비용을 충당했던 창립자 보상은 첫 반감기와 함께 종료되도록 예정되어 있었습니다. Canopy는 그 대체안이었습니다. 각 블록 보상의 고정 비율을 Development Fund로 보내고, 누가 그것을 받는지 정했습니다. 이 모델은 이후 업그레이드들에서 계속 다듬어졌으며, [NU6.1](../zcash-tech/nu6-1)까지 이어졌습니다.
 
-![Canopy 이전에는 창립자 보상이 개발 자금을 지원했고 첫 반감기와 함께 종료될 예정이었습니다. Canopy 이후에는 Development Fund가 각 블록 보상의 20퍼센트를 가져가며 2024년 두 번째 반감기까지 지속됩니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![Canopy 이전에는 창립자 보상이 개발 자금을 지원했고 첫 반감기와 함께 종료될 예정이었습니다. Canopy 이후에는 Development Fund가 각 블록 보상의 20퍼센트를 가져가며 2024년 두 번째 반감기까지 지속됩니다](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## 개발 기금
 
@@ -30,7 +30,7 @@ Development Fund는 각 블록 보상의 20퍼센트를 가져갑니다. 채굴�
 
 이 비율들을 기금만이 아니라 전체 블록 보상 기준으로 계산하면, Electric Coin Company는 7퍼센트, Zcash Foundation은 5퍼센트, Major Grants는 8퍼센트가 됩니다. 어느 방식으로 설명하든 같은 숫자입니다.
 
-![Development Fund는 각 블록 보상의 20퍼센트이며, 이 중 35퍼센트는 Bootstrap과 Electric Coin Company에, 25퍼센트는 Zcash Foundation에, 40퍼센트는 Major Grants에 배분됩니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![Development Fund는 각 블록 보상의 20퍼센트이며, 이 중 35퍼센트는 Bootstrap과 Electric Coin Company에, 25퍼센트는 Zcash Foundation에, 40퍼센트는 Major Grants에 배분됩니다](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## Sprout 풀 변경
 
@@ -38,7 +38,7 @@ Canopy는 또한 가장 오래된 실드 풀의 퇴장을 시작했습니다. Sp
 
 Canopy가 활성화된 순간부터 Sprout 풀에는 새로운 가치를 추가할 수 없습니다. 기술적으로 말하면, 모든 JoinSplit의 `vpub_old` 필드는 0이어야 합니다. 이미 Sprout에 들어 있는 자금은 여전히 인출할 수 있으므로 누구도 접근이 막히지는 않지만, 이 풀은 이제부터 줄어들기만 할 수 있습니다. 이는 레거시 Sprout 풀을 더 새로운 실드 풀로 결국 대체하기 위한 첫 단계입니다.
 
-![Canopy 이전에는 가치가 Sprout 풀로 들어가기도 하고 나가기도 할 수 있었습니다. Canopy 이후에는 새로운 가치는 들어갈 수 없지만 인출은 여전히 허용됩니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![Canopy 이전에는 가치가 Sprout 풀로 들어가기도 하고 나가기도 할 수 있었습니다. Canopy 이후에는 새로운 가치는 들어갈 수 없지만 인출은 여전히 허용됩니다](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## 기술적 추가 사항
 

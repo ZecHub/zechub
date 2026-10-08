@@ -18,7 +18,7 @@ Orchard bụ usoro ọhụụ nke Zcash kachasị ọhụrụ, akọwapụtara n
 
 Sprout and Sapling both depended on a trusted setup. A group of people ran a ceremony to build each pool's parameters, and everyone had to trust that at least one of them destroyed their piece of the secret. Orchard removes that assumption. The older pools still exist after NU5, so the no-setup guarantee applies to funds you hold in the Orchard pool.
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Ihe NU5 gbanwere
 
@@ -37,7 +37,7 @@ NU5 emelitere ọtụtụ ZIP ndị dị ugbu a (32, 203, 209, 212, 213, 221, na
 
 Tupu NU5, ọdọ mmiri ọ bụla nwere ụdị adreesị nke ya, onye na-ezipụ ga-amarakwa ụdị ị chọrọ. Adreesị Unified, akọwapụtara n'ime [ZIP 316  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0316)Otu adreesị nwere ike ijikọta ndị na-anata ihe karịrị otu ọdọ mmiri, yabụ obere akpa onye zitere ahụ họrọ nke kachasị mma ọ kwadoro.
 
-![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
 Igodo igosi ihe na-arụ ọrụ n'otu ụzọ ahụ maka ile anya. Ha na - enye visibiliti naanị ịgụ gafee ọdọ mmiri adreesị kpuchiri. Maka nkọwa ndị ọzọ, lee akwụkwọ ozi a: "Nchọpụta nke Adres" (na Bekee). [Igodo Nlele](../zcash-tech/viewing-keys) peeji nke.
 
@@ -53,7 +53,7 @@ NU5 followed Zcash's earlier upgrades: Overwinter, Sapling, Blossom, Heartwood, 
 | Orchard | E webatara ọdọ mmiri NU5 a na-echebe, nke e wuru na sistemụ nnwale Halo 2 |
 | Halo 2 | Sistemụ na-egosi ihe dị n'azụ Orchard nke na-achọghị ntọala a pụrụ ịtụkwasị obi |
 | Trusted setup | Ememe otu ugboro nke na-eme paramita nzuzo nke ọdọ mmiri ma a ga-atụkwasị ya obi ibibi ha |
-| Unified address | Otu adreesị nke nwere ike ijikọ ndị nnata maka ihe karịrị otu ọdọ mmiri (ZIP 316) |
+| Unified Address | Otu adreesị nke nwere ike ijikọ ndị nnata maka ihe karịrị otu ọdọ mmiri (ZIP 316) |
 | Consensus branch id | Ihe njirimara nke na-egosi usoro iwu azụmahịa bụ |
 
 ## Ajụjụ ndị a na-ajụkarị
@@ -102,7 +102,7 @@ Orchard is built on the Halo 2 proving system, which needs no trusted setup and 
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Igodo Nlele](../zcash-tech/viewing-keys)
 
