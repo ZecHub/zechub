@@ -18,4 +18,19 @@ For the visual story of how Zcash's privacy has evolved across these upgrades, s
 | [NU6.2](../zcash-tech/nu6-2) | June 3, 2026 | 3,364,600 | 5437f330 | An emergency fix that corrected the Orchard circuit |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | July 28, 2026 | 3,428,143 | 37a5165b | The Ironwood pool and a public turnstile that lets anyone audit the supply |
 
-Dates are shown in UTC. Some dashboards show them in local time, which is the same block and the same moment. The fixed trigger for every upgrade is its activation block height, not the calendar date: Ironwood activated at block 3,428,143. A future upgrade, NU7, is still in planning and is not the same as Ironwood.
+Dates are shown in UTC. Some dashboards show them in local time, which is the same block and the same moment. The fixed trigger for every upgrade is its activation block height, not the calendar date: Ironwood activated at block 3,428,143. The next upgrade, NU7, is not the same as Ironwood and is described below.
+
+## Next upgrade: NU7
+
+NU7 is the next planned network upgrade. From August 25 to September 14, 2026, holders of shielded ZEC voted on its main choices in a coinholder survey. About 2.4 million ZEC took part, above the 1,000,000 ZEC threshold needed for the result to count as representative.
+
+![NU7 coinholder survey results: about 2.4M ZEC took part and the 1,000,000 ZEC threshold was reached. Coinholders backed 25-second blocks, kept the halving schedule, disabled Sprout v4 transactions at NU7 and set NSM reissuance to begin in February 2031. Mainnet activation is targeted for November 5, 2026.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-coinholder-survey.png)
+
+What coinholders backed:
+
+- **Faster blocks.** The target time between blocks drops from 75 to 25 seconds ([ZIP 218](https://zips.z.cash/zip-0218)). Daily issuance stays the same. [What 25-second blocks actually change](../research/what-25-second-blocks-actually-change)
+- **Halvings stay.** The halving schedule is kept as it is.
+- **Sprout v4 transactions end.** Version 4 transactions are disabled at NU7. If you hold funds in the old Sprout pool, move them before activation: see [Recovering Funds](../using-zcash/recovering-funds).
+- **Fees return as rewards.** Under the Network Sustainability Mechanism (NSM), part of each transaction fee is taken out of circulation and paid out again later as block rewards, starting in February 2031.
+
+The survey is non-binding. It shows what coinholders want, and the rules themselves change through ZIPs. Mainnet activation is targeted for about November 5, 2026. The exact block height is set on October 20, and that height is the real trigger, as with every upgrade in the table above.
