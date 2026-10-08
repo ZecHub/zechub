@@ -14,7 +14,7 @@
 - Status: Deprecated | Dropped Zcash support after the NU6.3 Ironwood upgrade (2026). The author's successor wallet is Zkool.
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling
 - Features: Address Book | Address Rotation | Cold Storage | Payment Request | Pool Transfer | Shielded Memo | TEX Address | WarpSync
 
