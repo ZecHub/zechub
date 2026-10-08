@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Weebụsaịtị: https://app.routerprotocol.com/
+- Weebụsaịtị: https://www.routerprotocol.com/
 - Nkọwa: Okpokoro njem mmiri mmiri nke na-enye ohere maka mbufe akụ na data n'etiti ọtụtụ blockchains.
 
 ___

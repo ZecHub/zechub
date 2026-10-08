@@ -20,7 +20,7 @@ ZEC в вашем кошельке Solana — это токен в Solana, а н
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/01-phantom-zec-mint.png)
+![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Phantom сокращает его до `A7bd…QXaS`, поэтому сравните первые и последние символы либо найдите полный адрес в [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS). Любой другой токен «ZEC» в вашем кошельке, независимо от названия или логотипа, не является этим токеном. Не трогайте его.
 
@@ -47,7 +47,7 @@ ZecHub не выбирает его за вас. Выберите кошелёк
 
 Ваш кошелёк показывает два типа адресов:
 
-![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/02-zodl-receive.png)
+![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | Начинается с | Тип | Что видит общественность |
 |---|---|---|
@@ -72,11 +72,11 @@ ZecHub не выбирает его за вас. Выберите кошелёк
 2. Нажмите **Deposit**. Установите **Asset** на **Zcash**, **Network** на **Solana**, а способ — на **Wallet**.
 3. Введите сумму (или нажмите **Max**) и подтвердите транзакцию в Phantom.
 
-![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](/content-images/03-solswap-deposit-425691e62f.webp)
 
 Наш депозит попал в блок Solana в 15:09:08 (UTC+1), а через девять секунд solswap показал его статус как **Completed**.
 
-![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
+![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 Теперь ваш ZEC находится в вашем балансе NEAR Intents. Ваш ключ Phantom авторизует каждое исходящее перемещение, решатели NEAR Intents выполняют доставку, а NEAR Intents может удерживать баланс для проверки соответствия требованиям (см. примечания о доверии ниже).
 
@@ -84,22 +84,22 @@ ZecHub не выбирает его за вас. Выберите кошелёк
 
 У solswap тоже есть страница **Withdraw**, но у нас она не работала. Поля **Received amount** и **Fee** оставались со значением «–», а кнопка ничего не делала, независимо от того, выбирали ли мы Zcash или Solana в качестве сети.
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
+![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 Если это случится с вами, ваш ZEC не застрял. Баланс привязан к ключу вашего кошелька, а не к сайту, поэтому его может получить любое приложение NEAR Intents, в которое вы войдёте с этим кошельком. Мы завершили перевод на near.com:
 
 1. Перейдите на `near.com` и войдите с тем же кошельком Phantom.
 2. Ваш баланс solswap отображается в разделе **Move legacy assets** (near.com называет балансы из старых приложений NEAR Intents «legacy»). Нажмите **Withdraw** в строке ZEC. Вам не нужно **Move**.
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. Установите **Network** на **Zcash**, вставьте адрес `u1` вашего кошелька в поле **Recipient** и сверяйте первые и последние шесть символов с адресом в кошельке.
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. Нажмите **Review withdrawal**, прочитайте сводку и нажмите **Send**.
 
-![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
 
 5. Phantom попросит вас **Sign Message** для near.com. Эта подпись авторизует NEAR Intents на перемещение вашего баланса. Она не требует SOL, но это не делает её безвредной: сайт-двойник может показать такой же запрос и с его помощью опустошить ваш баланс NEAR Intents. Прежде чем нажать **Confirm**, проверьте всё перечисленное ниже и нажмите **Cancel**, если хотя бы один пункт не выполнен:
    - Сайт, указанный в запросе, — `near.com`. (Депозит на шаге 1 был обычным запросом транзакции Phantom от `solswap.org`; проверяйте это имя таким же образом.)
@@ -107,13 +107,13 @@ ZecHub не выбирает его за вас. Выберите кошелёк
    - Сообщение представляет собой читаемый текст, как на скриншоте. Если это нечитаемый набор данных или сайт не совпадает с сайтом в адресной строке, отклоните его.
    - Никогда не запрашивается ваша seed-фраза. Подписание никогда не требует её ввода.
 
-![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
 6. near.com показывает **Processing send**, **Sending** и **Complete**. **View on explorer** открывает запись NEAR Intents о переводе.
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
 
-![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
+![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
 
 ### Сколько стоил наш тест и сколько времени он занял
 
@@ -145,19 +145,19 @@ ZecHub не выбирает его за вас. Выберите кошелёк
 
 Он прибыл экранированным. Наш ZEC был отправлен на адрес `u1` и сразу поступил в экранированный пул Ironwood. Прозрачного этапа не было, и вручную экранировать ничего не требовалось. Кошелёк отображал его как **Receiving…** со значком экранирования в 16:07 (UTC+1), пока собирал подтверждения.
 
-![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/12-zodl-receiving.png)
+![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](/content-images/12-zodl-receiving-cb9f41511d.webp)
 
 Чтобы проверить это самостоятельно, откройте транзакцию в своём кошельке и скопируйте идентификатор транзакции.
 
-![Zcash wallet transaction details with the transaction ID and timestamp](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/13-zodl-tx-details.png)
+![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
 Вставьте его в [обозреватель блоков Zcash](https://mainnet.zcashexplorer.app). Не смущайтесь из-за сводки. У нас указано **Shielded Inputs / Outputs 0 / 0** и **Transferred from/to shielded pool 0.0 ZEC**, потому что сводка обозревателя пока не учитывает Ironwood. Видимые адреса `t1` находятся на стороне отправителя (ZEC, который он потратил, и сдача, которую он сохранил), а не на вашей.
 
-![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/14-explorer-summary.png)
+![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
 
 Нажмите **Raw TX: JSON** и найдите `ironwood`. Отрицательное значение `valueBalance` означает, что ZEC входит в пул Ironwood. У нас это было `-0.00241336` — ровно столько, сколько поступило, — и в транзакции ничто не показывает, кто его получил.
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/15-explorer-raw-ironwood.png)
+![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 [Что может видеть обозреватель блоков](/zcash-tech/what-a-block-explorer-can-see) объясняет остальные поля.
 

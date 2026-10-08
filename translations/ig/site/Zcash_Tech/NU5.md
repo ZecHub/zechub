@@ -4,48 +4,48 @@
 
 # NU5
 
-> NU5 malitere na Zcash mainnet n'ụlọ 1,687,104 (May 31, 2022 UTC).
+> NU5 malitere ọrụ na Zcash mainnet na ngọngọ 1,687,104 (Mee 31, 2022 UTC).
 
-Ihe ị ga-ewepụ: otu NU5 si nye Zcash ọdọ mmiri ọhụrụ echedoro nke na -achọghị ntọala tụkwasịrị obi, gbakwunyere ụdị adreesị naanị ya na arụ ọrụ n'ofe ọdọ mmiri.
+Ihe ị ga-ewepụ: otu NU5 si nye Zcash ọdọ mmiri ọhụrụ a na-echebe nke na-achọghị ntọala a pụrụ ịtụkwasị obi, tinyere otu ụdị adreesị nke na-arụ ọrụ n'ofe ọdọ mmiri.
 
-NU5 (Nwelite Ntanetị 5) bụ nke isii Zcash. [nkwalite netwọkụ.](../start-here/network-upgrades), nke a na- emejuputa site n" aka: [ZIP 252 (mkpọka)](https://zips.z.cash/zip-0252)Ọ bụ nnukwu nkwalite cryptographic. O webatara usoro ịkwụ ụgwọ echekwara Orchard, nke e wuru na sistemụ Halo 2, yana adreesị dị n'otu na ụdị azụmahịa 5 ọhụrụ. NU5 ebuputara na ntọhapụ zcashd v5.0.0 nke Electric Coin Company .
+NU5 (Nwelite Ntanetị 5) bụ Zcash nke isii [mmelite netwọk](../start-here/network-upgrades), nke e tinyere site na [ZIP 252](https://zips.z.cash/zip-0252)Ọ bụ nnukwu mmelite nzuzo. O webatara usoro ịkwụ ụgwọ Orchard nke e ji ihe akaebe kpuchie, nke e wuru na sistemụ ihe akaebe Halo 2, yana Adreesị dị n'otu na usoro azụmahịa ọhụrụ nke ụdị 5. E zigara NU5 na mwepụta zcashd v5.0.0 Electric Coin Company's.
 
-Why this matters. A shielded pool is only as trustworthy as the setup that created it. Zcash's first two shielded pools, Sprout and Sapling, each needed a one-time trusted setup ceremony to generate their secret parameters. If those parameters were ever kept instead of destroyed, someone could have printed counterfeit ZEC without anyone seeing it. NU5's Orchard pool closes that concern by using the Halo 2 proving system, which needs no such ceremony.
+Ihe kpatara nke a ji dị mkpa. Ọdọ mmiri a na-echebe bụ naanị ihe a pụrụ ịtụkwasị obi dịka ntọala e kere ya. Ọdọ mmiri abụọ mbụ Zcash's nwere nchekwa, Sprout na Sapling, nke ọ bụla chọrọ emume ntọala a pụrụ ịtụkwasị obi otu ugboro iji mepụta paramita nzuzo ha. Ọ bụrụ na e debe paramita ndị ahụ kama ibibi ha, mmadụ gaara ebipụ ZEC adịgboroja na-enweghị onye ọ bụla hụrụ ya. Ọdọ mmiri Orchard NU5's na-emechi nchegbu ahụ site na iji usoro nnwale Halo 2, nke na-achọghị emume dị otú ahụ.
 
-## Nhazi a tụkwasịrị obi.
+## Ntọala a tụkwasịrị obi
 
-Orchard bụ usoro ọhụụ nke Zcash kachasị ọhụrụ, akọwapụtara na [ZIP 224 (mkpọka)](https://zips.z.cash/zip-0224)Ọ na-ewuli elu n'usoro Halo 2 nke gosipụtara, nke na-eji usoro a kpọrọ PLONKish arithmetization on the Pallas and Vesta curve cycle. Ihe bara uru dị mfe: Halo 2 adịghị mkpa ntọala tụkwasịrị obi ma ọ bụ eriri ederede ahaziri iche, yabụ enweghị ihe nzuzo zoro ezo nwere ike iji mee ihe ọjọọ.
+Orchard bụ usoro nchekwa nke NU5, nke akọwapụtara na [ZIP 224](https://zips.z.cash/zip-0224)E wuru ya na sistemụ nnwale Halo 2, nke na-eji usoro a na-akpọ mgbakọ na mwepụ PLONKish na okirikiri Pallas na Vesta. Uru bara uru dị mfe: Halo 2 achọghị ntọala a pụrụ ịtụkwasị obi na enweghị eriri ntụaka ahaziri ahazi, yabụ enweghị paramita nzuzo nke enwere ike iji ya mee ihe n'ụzọ na-ezighị ezi.
 
-Sprout and Sapling both depended on a trusted setup. A group of people ran a ceremony to build each pool's parameters, and everyone had to trust that at least one of them destroyed their piece of the secret. Orchard removes that assumption. The older pools still exist after NU5, so the no-setup guarantee applies to funds you hold in the Orchard pool.
+Sprout na Sapling dabere na ntọala a pụrụ ịtụkwasị obi. Otu ìgwè mmadụ mere emume iji wuo paramita ọdọ mmiri ọ bụla, onye ọ bụla kwesịkwara ịtụkwasị obi na ọ dịkarịa ala otu n'ime ha bibiri akụkụ nzuzo ha. Orchard wepụrụ echiche ahụ. Ọdọ mmiri ndị ochie ka dị mgbe NU5, yabụ nkwa enweghị ntọala metụtara ego ị nwere na ọdọ mmiri Orchard.
 
 ![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## Ihe NU5 gbanwere
 
-NU5 na-agbakọta ọtụtụ mgbanwe nkwekọrịta, ha niile arụ ọrụ ọnụ na ngọngọ 1,687,104.
+NU5 na-ejikọta ọtụtụ mgbanwe nkwekọrịta, ha niile na-arụ ọrụ ọnụ na ngọngọ 1,687,104.
 
-1. Ọ gbakwunyere ọdọ mmiri Orchard (ZIP 224), usoro Halo 2 nke akọwapụtara n'elu.
+1. O tinyere ọdọ mmiri nchekwa Orchard (ZIP 224), usoro nke dabere na Halo 2 nke akọwara n'elu.
 2. O tinyere usoro azụmahịa nke ụdị 5 (ZIP 225), nhazi agbanwere agbanwe nke nwere mpaghara dị iche iche maka data doro anya, Sapling, na data Orchard ọhụrụ. Ewepụrụ ubi Sprout, usoro nke ụdị 4 ochie ahụ ka dịkwa irè mgbe emechara ya.
-3. Ọ webatara adreesị na igodo nlele (ZIP 316), nke a tụlere na ngalaba ọzọ.
-4. Ọ nakweere njirimara azụmahịa na-enweghị ike (ZIP 244), ụzọ ọhụrụ nke ịgbakọ id transaction's nke kewara ihe nkwekọrịta ahụ si n'aka ndị akaebe na mbinye aka nyere ya ikike.
-5. Ọ nakweere koodu Jubjub isi (ZIP 216) iji wepu koodu ndị na-abụghị ọkọlọtọ ma mee ka iwu sie ike banyere ihe a ga - agụ dị ka azụmahịa ziri ezi.
-6. O mere ka e nwee ike ịnyefe azụmahịa nke 5 n'ofe netwọkụ ibe (ZIP 239).
+3. O webatara Unified Adreesị na Unified Viewing Keys (ZIP 316), nke a kọwara na ngalaba na-esote.
+4. O jiri usoro njirimara azụmahịa nke na-anaghị agbanwe agbanwe (ZIP 244), ụzọ ọhụrụ isi gbakọọ njirimara azụmahịa nke na-ekewa ihe azụmahịa na-eme na ihe akaebe na mbinye aka ndị na-enye ya ikike.
+5. O jiri koodu Jubjub (ZIP 216) mee ihe iji wepụ koodu ndị na-abụghị ọkọlọtọ ma mee ka iwu ndị dị mkpa maka azụmahịa dị irè sie ike.
+6. O mere ka e nwee ike izipu azụmahịa ụdị nke ise n'ofe netwọk ndị ọgbọ-na-ọgbọ (ZIP 239).
 
-NU5 emelitere ọtụtụ ZIP ndị dị ugbu a (32, 203, 209, 212, 213, 221, na 401) ka ha wee nwee ike ịkọwa ọdọ mmiri ọhụrụ Orchard.
+NU5 mekwara ọtụtụ ZIP ndị dị adị (32, 203, 209, 212, 213, 221, na 401) ka ha wee bụrụ maka ọdọ mmiri Orchard ọhụrụ ahụ.
 
-## Adreesị ndị dị n'otu
+## Adreesị Ndị Ejikọtara Ọnụ
 
-Tupu NU5, ọdọ mmiri ọ bụla nwere ụdị adreesị nke ya, onye na-ezipụ ga-amarakwa ụdị ị chọrọ. Adreesị Unified, akọwapụtara n'ime [ZIP 316  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0316)Otu adreesị nwere ike ijikọta ndị na-anata ihe karịrị otu ọdọ mmiri, yabụ obere akpa onye zitere ahụ họrọ nke kachasị mma ọ kwadoro.
+Tupu NU5, ọdọ mmiri ọ bụla nwere ụdị adreesị nke ya, onye na-eziga ozi aghaghịkwa ịma ụdị adreesị ị chọrọ. Adreesị Ndị Dị n'Otu, nke akọwapụtara na [ZIP 316](https://zips.z.cash/zip-0316), gbanwee nke ahụ. Otu adreesị Unified nwere ike ijikọ ndị nnata maka ihe karịrị otu ọdọ mmiri, yabụ obere akpa onye zitere ya na-ahọrọ nke kacha mma ọ na-akwado.
 
 ![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
-Igodo igosi ihe na-arụ ọrụ n'otu ụzọ ahụ maka ile anya. Ha na - enye visibiliti naanị ịgụ gafee ọdọ mmiri adreesị kpuchiri. Maka nkọwa ndị ọzọ, lee akwụkwọ ozi a: "Nchọpụta nke Adres" (na Bekee). [Igodo Nlele](../zcash-tech/viewing-keys) peeji nke.
+Igodo nlele jikọtara ọnụ na-arụ ọrụ n'otu ụzọ ahụ maka ikiri. Ha na-enye ohere ịhụ naanị ndị na-agụ akwụkwọ n'ofe ọdọ mmiri ahụ mkpuchi adreesị. Maka ozi ndị ọzọ gbasara nke ahụ, lee [Igodo Ilele](../zcash-tech/viewing-keys) peeji.
 
-## Ebe NU5 nọ.
+## Ebe NU5 dị
 
-NU5 followed Zcash's earlier upgrades: Overwinter, Sapling, Blossom, Heartwood, and Canopy. It activated on mainnet on May 31, 2022. Orchard's curve cycle was chosen because it supports recursion, which is groundwork for later scaling work. NU5 is the direct predecessor to the NU6 and NU6.x line of upgrades, which built on the Orchard pool and later patched it.
+NU5 sochiri mmelite Zcash's na mbụ: Overwinter, Sapling, Blossom, Heartwood, na Canopy. Ọ rụrụ ọrụ na mainnet na Mee 31, 2022. A họọrọ okirikiri usoro Orchard's n'ihi na ọ na-akwado recursion, nke bụ ntọala maka ọrụ nhazi mgbe emechara. NU5 bụ onye bu ụzọ kpọmkwem na ahịrị mmelite NU6 na NU6.x, nke wuru na ọdọ mmiri Orchard ma mechaa rụzie ya.
 
-## Akwụkwọ ọkọwa okwu
+## Nkọwa Okwu
 
 | Oge okwu | Nkọwa Bekee dị mfe |
 |---|---|
@@ -56,58 +56,58 @@ NU5 followed Zcash's earlier upgrades: Overwinter, Sapling, Blossom, Heartwood, 
 | Unified Address | Otu adreesị nke nwere ike ijikọ ndị nnata maka ihe karịrị otu ọdọ mmiri (ZIP 316) |
 | Consensus branch id | Ihe njirimara nke na-egosi usoro iwu azụmahịa bụ |
 
-## Ajụjụ ndị a na-ajụkarị
+## Ajụjụ Ndị A Na-ajụkarị
 
-NU5 gbanwere ZEC m ma ọ bụ nzuzo m? Mba. NU5 gbakwunyere ọdọ mmiri ọhụrụ echedoro na usoro adreesị ọhụụ. Ọdịnaya gị dị ugbu a adịghị emetụta, yana enweghị ike ịchekwa onwe gị. Ịkwaga ego n'ime Orchard na-enye gị ọdọ mmiri nke chọrọ ntọala ntụkwasị obi. Nke ahụ ga - eme ka ị nwee ohere ịnweta akaụntụ akụ ọzọ maka oge ụfọdụ (ọ bụrụhaala na ha nwere ihe nchọpụta). Nweta aha njirimara: Aha ngalaba "Z" pụtara 'Nhazi'.
+NU5 ọ̀ na-agbanwe ZEC m ka ọ bụ nzuzo m? Mba. NU5 tinyere ọdọ mmiri ọhụrụ a na-echebe echebe na usoro adreesị ọhụrụ. ZEC gị dị ugbu a anaghị emetụta ya, nzuzo gị anaghịkwa ebelata. Ịkwaga ego na Orchard na-enye gị ọdọ mmiri nke na-achọghị ntọala a pụrụ ịtụkwasị obi.
 
-Gịnị bụ Orchard? Ọchịchịrị bụ usoro Zcash nke NU5 webatara. Ọ na-agba ọsọ n'usoro ihe ngosi Halo 2, yabụ ọ chọghị emume ntọala tụkwasịrị obi.
+Gịnị bụ Orchard? Orchard bụ usoro nchekwa Zcash's nke NU5. Ọ na-agba ọsọ na sistemụ nnwale Halo 2, yabụ ọ chọghị emume ntọala a pụrụ ịtụkwasị obi.
 
-Enwere m ihe ọ bụla? Mba. A kwadoro obere akpa aka NU5 maka gị. Ị nwere ike ịnọgide na-eji okenye adreesị, ma ị pụrụ ịmalite iji n'otu adreesì mgbe gị wallet awade ha. Ọ bụrụ na i tinye a ọhụrụ akaụntụ, ị ga-enwe ohere nke inwe otu onye ọrụ dị ka ndị ahịa si mba ọzọ.
+Ọ dị mkpa ka m mee ihe ọ bụla? Mba. Akpa ego akwadoro na-ejide NU5 maka gị. Ị nwere ike ịnọgide na-eji adreesị ochie, ị nwekwara ike ịmalite iji Adreesị ndị e jikọtara ọnụ mgbe obere akpa gị nyere ha.
 
-Kedu ihe bụ adreesị dị n'otu? Otu adres nke nwere ike ijide ndị nnata maka karịa otu ọdọ mmiri. Obere akpa ego onye na-ezipụ ya họọrọ ọdọ mmiri ọ kwadoro, yabụ ịkwesighi inyefe adreesì dị iche maka ụdị ọ bụla.
+Gịnị bụ Adreesị e jikọtara ọnụ? Otu adreesị nke nwere ike ibu ndị nnata maka ihe karịrị otu ọdọ mmiri. Akpa ego onye zitere ya na-ahọrọ ọdọ mmiri ọ na-akwado, yabụ na ị gaghị enye adreesị dị iche maka ụdị ọ bụla.
 
-NU5 ewepu ntọala ntụkwasị obi site na ego m ochie? Ọ bụghị azụ. Orchard achọghị nhazi nke a tụkwasịrị obi, mana usoro ndị gara aga nke ọdọ mmiri Sapling ka dị mgbe NU5. Nkwado enweghị ntọala metụtara ego ejiri n'ime ogige orchard.
+NU5 ọ na-ewepụ ntọala a tụkwasịrị obi na ego ochie m? Ọ bụghị na-emeghachi omume. Orchard achọghị ntọala a tụkwasịrị obi, mana paramita mbụ nke ọdọ mmiri Sapling ka dị mgbe NU5. Nkwa enweghị ntọala metụtara ego ejiri na ọdọ mmiri Orchard.
 
-Ọ bụ na usoro azụmahịa ochie ahụ kwụsịrị ịrụ ọrụ? NU5 gbakwunyere ụdị nke 5, yana usoro 4 dịbu gara aga ka bara uru mgbe arụnyere ya.
+Usoro azụmahịa ochie ahụ ọ kwụsịrị ịrụ ọrụ? Mba. NU5 tinyere usoro ụdị nke 5, usoro ụdị nke 4 ochie ahụ ka dịkwa irè mgbe emechara ya.
 
-## Nwalee nghọta gị .
+## Nwalee nghọta gị
 
-Sprout na Sapling abụọ chọrọ emume ntọala a tụkwasịrị obi. Gịnị ka ọdọ mmiri Orchard nke NU5 gbanwere banyere ya, gịnịkwa mere o ji dị mkpa?
+Sprout na Sapling chọrọ emume a pụrụ ịtụkwasị obi maka nhazi ha. Gịnị ka ọdọ mmiri Orchard NU5's gbanwere gbasara nke ahụ, gịnịkwa mere o ji dị mkpa?
 
 <details>
 <summary>Answer</summary>
 
-Orchard is built on the Halo 2 proving system, which needs no trusted setup and no structured reference string. That removes the risk that leftover secret parameters could ever be used to counterfeit ZEC. The guarantee applies to funds held in the Orchard pool. The older Sapling parameters still exist after NU5.
+E wuru Orchard na sistemụ nnwale Halo 2, nke na-achọghị ntọala a pụrụ ịtụkwasị obi na eriri ntụaka ahaziri ahazi. Nke a na-ewepụ ihe egwu na enwere ike iji paramita nzuzo fọdụrụ mee ZEC. Nkwa a metụtara ego ejiri na ọdọ mmiri Orchard. Paramita Sapling ochie ka dị mgbe NU5.
 </details>
 
-### Akụnụba
+### akụrụngwa
 
-[ZIP 252: Ịmepụta NU5 Network Upgrade](https://zips.z.cash/zip-0252)
+[ZIP 252: Ntinye nke Mmelite netwọkụ NU5](https://zips.z.cash/zip-0252)
 
-[ZIP 224: Usoro Nchebe nke Orchard](https://zips.z.cash/zip-0224)
+[ZIP 224: Usoro Nchekwa Orchard](https://zips.z.cash/zip-0224)
 
-[ZIP 225: Ụdị 5 Transaction Format](https://zips.z.cash/zip-0225)
+[ZIP 225: Ụdị nke 5 Usoro Azụmahịa](https://zips.z.cash/zip-0225)
 
-[ZIP 316: Adreesị Unified na Igodo Nlele Na-ahụ Maka Ịhụ Ihe Ndị Dị n'Otu](https://zips.z.cash/zip-0316)
+[ZIP 316: Adreesị Ndị E Jikọtara Ọnụ na Igodo Ndị Na-elele Ọnụ](https://zips.z.cash/zip-0316)
 
-[Nwelite netwọk 5](https://z.cash/upgrade/nu5/)
+[Mmelite netwọk 5](https://z.cash/upgrade/nu5/)
 
-[Electric Coin Company: zcashd 5.0.0 release](https://electriccoin.co/blog/new-release-5-0-0/)
+[Electric Coin Company: mwepụta zcashd 5.0.0](https://electriccoin.co/blog/new-release-5-0-0/)
 
-### Lee kwa nke a.
+### Leekwa
 
-[Nwelite netwọk Zcash](../start-here/network-upgrades)
+[Mmelite netwọkụ Zcash](../start-here/network-upgrades)
 
-[Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools)
+[Ọdọ Mmiri E Kpuchiri Ekpuchi](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Igodo Nlele](../zcash-tech/viewing-keys)
+[Igodo Ilele](../zcash-tech/viewing-keys)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Canopy](../zcash-tech/canopy) · Nke ọzọ: [NU6](../zcash-tech/nu6)
+Usoro: [Ndepụta Mmelite Netwọk](../start-here/network-upgrades) · Nke gara aga: [Canopy](../zcash-tech/canopy) · Osote: [NU6](../zcash-tech/nu6)

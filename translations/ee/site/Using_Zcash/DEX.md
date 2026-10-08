@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://github.com/firoorg/FiroDEX-Desktop
-- Numeɖeɖe: Kakaɖedzimanɔmee decentralized swaps zãa atɔm swaps kple FiroDEX!.
+- Numeɖeɖe: Decentralized swaps siwo ŋu kakaɖedzi mele o siwo zãa atɔm swaps kple FiroDEX!.
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Nyatakakadzraɖoƒe: https://app.routerprotocol.com/
+- Nyatakakadzraɖoƒe: https://www.routerprotocol.com/
 - Numeɖeɖe: Cross-kɔsɔkɔsɔ liquidity transport layer si ɖea mɔ na seamless nunɔamesi kple nyatakakawo ƒe asitɔtrɔ le blockchains geɖe dome.
 
 ___
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Nyatakakadzraɖoƒe: https://swap.thorchain.org/
-- Numeɖeɖe: Decentralized Layer 1 atitsoga-kɔsɔkɔsɔ ƒe asitɔtrɔ. Trɔ asi le dukɔa me nunɔamesiwo abe ZEC, BTC, kple ETH ene tẽ tɔdzisasrãwo, dzesi siwo woxatsa, alo domenɔlawo manɔmee.
+- Numeɖeɖe: Decentralized Layer 1 atitsoga-kɔsɔkɔsɔ ƒe asitɔtrɔ. Trɔ asi le dzɔdzɔme nunɔamesiwo abe ZEC, BTC, kple ETH ene tẽ tɔdzisasrãwo, dzesi siwo woxatsa, alo domenɔlawo manɔmee.
 
 ___
 
