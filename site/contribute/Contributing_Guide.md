@@ -59,6 +59,7 @@ zec_to_enter = usd_target / zec_usd_spot
 Round to 4 decimal places. The policy file is the single source of truth. If this page and that file disagree, the policy wins.
 
 Paid work is listed on [ZEC Bounties](https://bounties.zechub.wiki/).
+Teams and sponsors interested in posting work can start with the [team and sponsor onboarding kit](Team_Sponsor_Onboarding_Kit.md).
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
