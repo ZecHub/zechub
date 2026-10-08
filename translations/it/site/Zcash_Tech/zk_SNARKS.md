@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica Pagina"/>
 </a>
 
-# ZKP e ZK-SNARKs
+# ZKP e zk-SNARKs
 
 ## In breve
 
-- **ZK-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge (argomenti di conoscenza succinti e non interattivi a conoscenza zero)
+- **zk-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge (argomenti di conoscenza succinti e non interattivi a conoscenza zero)
 - Consentono a una parte di **dimostrare di sapere qualcosa** senza rivelare l'informazione stessa
-- Zcash utilizza le ZK-SNARKs per dimostrare che una transazione è valida (importi corretti, input non spesi) **senza rivelare mittente, destinatario o importo**
+- Zcash utilizza le zk-SNARKs per dimostrare che una transazione è valida (importi corretti, input non spesi) **senza rivelare mittente, destinatario o importo**
 - "Succinct" (succinto) significa che la dimostrazione è minuscola e veloce da verificare anche per affermazioni complesse
-- Il pool **Orchard** utilizza Halo 2, un sistema ZK-SNARK che **non richiede alcun trusted setup**
+- Il pool **Orchard** utilizza Halo 2, un sistema zk-SNARK che **non richiede alcun trusted setup**
 
 ## Cosa è una prova?
 
@@ -143,11 +143,11 @@ Transparent Setup (nessuna configurazione fidata) - L'algoritmo di preelaborazio
 
 **Tipi di costruzioni a prova di SNARK**:
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): richiede una configurazione attendibile ma ha prove molto brevi che possono essere verificate rapidamente.
+[Groth16](https://eprint.iacr.org/2016/260): richiede una configurazione attendibile ma ha prove molto brevi che possono essere verificate rapidamente.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Configurazione fidata universale.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Nessuna configurazione fidata ma producono dimostrazioni leggermente più lunghe o possono richiedere più tempo per essere eseguiti dal prover.
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Nessuna configurazione fidata ma producono dimostrazioni leggermente più lunghe o possono richiedere più tempo per essere eseguiti dal prover.
 
 Gli SNARK sono utili quando sono necessari più verifier come in una blockchain come Zcash o in un zk-Rollup come [Aztec](https://docs.aztec.network) in modo che i nodi di convalida multipli non debbano interagire su più round con ogni dimostrazione.
 
@@ -199,9 +199,9 @@ Ulteriori apprendimenti:
 
 ## Pagine correlate
 
-- [Shielded Pools](/using-zcash/shielded-pools) — Come le ZK-SNARKs vengono utilizzate nei value pool di Zcash
-- [Halo](/zcash-tech/halo) — Il sistema ZK-SNARK di Zcash che elimina i trusted setup
+- [Shielded Pools](/using-zcash/shielded-pools) — Come le zk-SNARKs vengono utilizzate nei value pool di Zcash
+- [Halo](/zcash-tech/halo) — Il sistema zk-SNARK di Zcash che elimina i trusted setup
 - [Sicurezza post-quantistica in Zcash](/zcash-tech/post-quantum-security) — Come i rischi quantistici futuri si relazionano con la crittografia di Zcash
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Gli ZSA costruiti sulla tecnologia ZK-SNARK
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Gli ZSA costruiti sulla tecnologia zk-SNARK
 - [Cos'è ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Introduzione a Zcash e al suo modello di privacy
-- [La privacy come principio fondamentale](/privacy/privacy-as-a-core-principle) — Perché la privacy finanziaria è importante
+- [La privacy come principio fondamentale](/start-here/who-can-see-your-zcash-payment) — Perché la privacy finanziaria è importante

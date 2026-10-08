@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP і ZK-SNARKs
+# ZKP і zk-SNARKs
 
 ## Коротко
 
-- **ZK-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
+- **zk-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
 - Вони дозволяють одній стороні **довести, що вона щось знає**, не розкриваючи саму інформацію
-- Zcash використовує ZK-SNARKs, щоб довести, що транзакція є дійсною (правильні суми, невитрачені входи) **без розкриття відправника, отримувача чи суми**
+- Zcash використовує zk-SNARKs, щоб довести, що транзакція є дійсною (правильні суми, невитрачені входи) **без розкриття відправника, отримувача чи суми**
 - "Succinct" означає, що доказ є дуже малим і швидко перевіряється навіть для складних тверджень
-- Пул Orchard використовує Halo 2, систему ZK-SNARKs, для якої **не потрібен trusted setup**
+- Пул Orchard використовує Halo 2, систему zk-SNARKs, для якої **не потрібен trusted setup**
 
 ---
 
@@ -159,11 +159,11 @@ Transparent Setup (No Trusted Setup)- Алгоритм попередньої о
 
 **Типи конструкцій доказів SNARK**:
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Потребує Trusted Setup, але має дуже короткі докази, які можна швидко перевіряти.
+[Groth16](https://eprint.iacr.org/2016/260): Потребує Trusted Setup, але має дуже короткі докази, які можна швидко перевіряти.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universally Trusted Setup.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Не потребують Trusted Setup, але створюють дещо довші докази або можуть вимагати більше часу для роботи prover. 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Не потребують Trusted Setup, але створюють дещо довші докази або можуть вимагати більше часу для роботи prover. 
 
 SNARKS корисні, коли потрібні багато verifier, як-от у blockchain на кшталт Zcash або в zk-Rollup, такому як [Aztec](https://docs.aztec.network), щоб багатьом вузлам валідації не доводилося взаємодіяти в кількох раундах для кожного доказу. 
 
@@ -179,7 +179,7 @@ Zcash — це публічний blockchain, який забезпечує пр
 
 ## Інші застосування Zero-Knowledge 
 
-zk-SNARKS дають кілька переваг у різноманітних застосуваннях. Розгляньмо кілька прикладів.
+zk-SNARKs дають кілька переваг у різноманітних застосуваннях. Розгляньмо кілька прикладів.
 
 **Масштабованість**: Це досягається через "Outsourcing Computation". Немає суворої потреби в zero-knowledge, щоб L1 chain перевіряв роботу позаланцюгового сервісу. Транзакції не обов’язково є приватними у zk-EVM.
 
@@ -222,9 +222,9 @@ ____
 
 ## Пов’язані сторінки
 
-- [Shielded Pools](/using-zcash/shielded-pools) — Як ZK-SNARKs використовуються в пулах цінності Zcash
-- [Halo](/zcash-tech/halo) — Система ZK-SNARKs у Zcash, що усуває trusted setup
+- [Shielded Pools](/using-zcash/shielded-pools) — Як zk-SNARKs використовуються в пулах цінності Zcash
+- [Halo](/zcash-tech/halo) — Система zk-SNARKs у Zcash, що усуває trusted setup
 - [Постквантова безпека в Zcash](/zcash-tech/post-quantum-security) - Як майбутні квантові ризики пов’язані з криптографією Zcash
-- [Shielded Assets у Zcash](/zcash-tech/zcash-shielded-assets) — ZSA, побудовані на технології ZK-SNARK
+- [Shielded Assets у Zcash](/zcash-tech/zcash-shielded-assets) — ZSA, побудовані на технології zk-SNARK
 - [Що таке ZEC і Zcash](/start-here/what-is-zec-and-zcash) — Вступ до Zcash та його моделі приватності
-- [Приватність як основний принцип](/privacy/privacy-as-a-core-principle) — Чому фінансова приватність має значення
+- [Приватність як основний принцип](/start-here/who-can-see-your-zcash-payment) — Чому фінансова приватність має значення
