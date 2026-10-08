@@ -1,0 +1,11 @@
+# Names scripts/brand-candidates.mjs must not propose for protected-terms.json.
+#
+# One name per line, matched case-insensitively. "#" starts a comment at the
+# start of a line or after a space. Add a name here only after deciding it is
+# NOT a brand that engines must keep verbatim, and say why.
+
+# The community, not an organisation: the wiki writes it in prose ("ask the
+# Zcash Community") and translations rightly localise "Community". Only the
+# grants body, "Zcash Community Grants", is protected. Left unprotected by
+# decision on 2026-09-24.
+Zcash Community
