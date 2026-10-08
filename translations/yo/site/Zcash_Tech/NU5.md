@@ -4,48 +4,48 @@
 
 # NU5
 
-> NU5 lọ si igbesi aye lori Zcash mainnet ni bulọọki 1,687,104 (May 31, 2022 UTC).
+> NU5 bẹ̀rẹ̀ sí í lo Zcash mainnet ní block 1,687,104 (May 31, 2022 UTC).
 
-Ohun tí ẹ óo mú lọ: bí NU5 ṣe fún Zcash ní àgbá tuntun tó ń dáàbò bo owó, èyí kò nílò ìmúrasílẹ̀ gbígbẹ́kẹ̀lé kankan, àti irú àdírésì kan ṣoṣo tó máa ṣiṣẹ láàrín àwọn àgbá.
+Ohun tí o máa mú kúrò: bí NU5 ṣe fún Zcash ní adágún tuntun tí kò nílò ètò ìgbẹ́kẹ̀lé, pẹ̀lú irú àdírẹ́sì kan ṣoṣo tí ó ń ṣiṣẹ́ káàkiri adágún.
 
-NU5 (Network Upgrade 5) ni Zcash kẹfa ti a ṣe lati jẹ ki o ṣiṣẹ. [àtúnṣe síra ẹ̀rọ](../start-here/network-upgrades), tí a gbé kalẹ̀ nípasẹ̀: [ZIP 252](https://zips.z.cash/zip-0252). It is a major cryptographic upgrade. It introduced the Orchard shielded payment protocol, built on the Halo 2 proving system, along with unified addresses and a new version 5 transaction format. NU5 shipped in the Electric Coin Company's zcashd v5.0.0 release.
+NU5 (Ìgbéga Nẹ́tíwọ́ọ̀kì 5) ni Zcash kẹfà [igbesoke nẹtiwọọki](../start-here/network-upgrades), ti a fi ranṣẹ́ láti ọwọ́ [ZIP 252](https://zips.z.cash/zip-0252)Ó jẹ́ àtúnṣe pàtàkì nínú ìkọ̀kọ̀. Ó ṣe àgbékalẹ̀ ìlànà ìsanwó Orchard tí a dáàbò bo, tí a kọ́ sórí ètò ìṣàfihàn Halo 2, pẹ̀lú àwọn àdírẹ́sì tí a ti ṣọ̀kan àti ìṣètò ìṣòwò tuntun ti ẹ̀yà 5. NU5 ti fi ránṣẹ́ sí ìtẹ̀jáde zcashd v5.0.0 Electric Coin Company's.
 
-ìdí tí èyí fi ṣe pàtàkì. ààbò ìsọ̀ kan jẹ́ olóòótọ̀ gẹ́gẹ́ bí ètò tó dá a sílẹ̀. àwọn méjì àkọ́kọ́ nínú Zcash, Sprout àti Sapling nílò ìdánilẹ́nuwò ìgbàkan ṣoṣo láti mú ìlànà àṣírí wọn jáde. bí wọ́n bá pa òfin náà mọ́ dípò kí ó bàjẹ́, ẹnìkan lè tẹ ẹ̀dà ZEC láìṣe ẹnikẹ́ni rí i. Àjọ Orchard ti NU5 máa ń yanjú ìṣòro yìí nípa lílo ètò èrídìí Halo 2, kò sì sí irú ìgbésè bẹ́ẹ̀ kankan fún un.
+Ìdí tí èyí fi ṣe pàtàkì. Adágún adágún tó ní ààbò jẹ́ ohun tó ṣeé gbẹ́kẹ̀lé bíi ti ètò tó ṣẹ̀dá rẹ̀. Àwọn adágún adágún méjì àkọ́kọ́ Zcash's ní ààbò, Sprout àti Sapling, ọ̀kọ̀ọ̀kan wọn nílò ayẹyẹ ìṣètò tó ṣeé gbẹ́kẹ̀lé lẹ́ẹ̀kan láti mú àwọn pàrámítà ìkọ̀kọ̀ wọn jáde. Tí a bá pa àwọn pàrámítà wọ̀nyẹn mọ́ dípò kí a pa wọ́n run, ẹnìkan ìbá ti tẹ̀ ZEC èké jáde láìsí ẹnikẹ́ni tó rí i. Adágún Orchard NU5's ti parí ọ̀ràn yẹn nípa lílo ètò ìṣàfihàn Halo 2, èyí tí kò nílò irú ayẹyẹ bẹ́ẹ̀.
 
-## Ìdásílẹ̀ tí a fọkàn tán náà.
+## Eto ti o gbẹkẹle
 
-Orchard jẹ ilana aabo tuntun ti Zcash, eyiti a ṣalaye ninu [ZIP 224](https://zips.z.cash/zip-0224)O ti kọ lori eto idaniloju Halo 2, eyiti o nlo ilana kan ti a pe ni PLONKish arithmetization on Pallas ati Vesta iyipo iyika. Awọn owo-owo to wulo jẹ rọrun: Halo 2 ko nilo iṣeto igbẹkẹle tabi okun itọkasi atunkọ, nitorinaa ko si paramita aṣiri ti o le ṣee lo laiṣe.
+Orchard ni ilana aabo ti a ṣe agbekalẹ nipasẹ NU5, ti a ṣalaye ni [ZIP 224](https://zips.z.cash/zip-0224). A kọ́ ọ lórí ètò ìṣàfihàn Halo 2, èyí tí ó ń lo ọ̀nà kan tí a ń pè ní PLONKish arithmetization lórí Pallas àti Vesta curve cycle. Èrè tó wúlò rọrùn: Halo 2 kò nílò ètò tí a gbẹ́kẹ̀lé àti kò sí okùn ìtọ́kasí tí a ṣètò, nítorí náà kò sí pàrámítà ìkọ̀kọ̀ tí a lè lò lọ́nà tí kò tọ́.
 
-Sprout ati Sapling mejeeji da lori iṣeto igbẹkẹle. Ẹgbẹ eniyan kan ṣe ayẹyẹ lati kọ awọn iwọn didun ti adagun kọọkan, gbogbo wọn ni lati gbẹkẹle pe o kere ju ọkan ninu wọn ba apakan aṣiri rẹ jẹ. Orchard yọ ero yẹn kuro. Awọn adagun agbalagba tun wa lẹhin NU5, nitorinaa iṣeduro ko si-iṣeto waye fun owo ti o mu sinu adagun Orchard .
+Sprout àti Sapling gbára lé ètò ìgbẹ́kẹ̀lé kan. Àwùjọ àwọn ènìyàn kan ṣe ayẹyẹ kan láti kọ́ àwọn pàrámítà adágún kọ̀ọ̀kan, gbogbo ènìyàn sì ní láti gbẹ́kẹ̀ lé pé ó kéré tán ọ̀kan nínú wọn ba apá àṣírí wọn jẹ́. Orchard mú èrò yẹn kúrò. Àwọn adágún àtijọ́ ṣì wà lẹ́yìn NU5, nítorí náà ìdánilójú àìsí ìṣètò kan owó tí o ní nínú adágún Orchard.
 
 ![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
-## Àwọn ohun tí NU5 yí padà
+## Ohun ti NU5 yipada
 
-NU5 ṣe àkójọ àwọn àyípadà ìfohùnṣòótọ́ bíi mélòó kan, gbogbo wọn ni a dá sílò papọ̀ ní ẹyọ 1,687,104.
+NU5 kó àwọn àyípadà ìfohùnṣọ̀kan jọ, gbogbo wọn sì ṣiṣẹ́ papọ̀ ní block 1,687,104.
 
-1. O fi kun adagun Orchard ti a bo (ZIP 224), ilana Halo 2 da lori apejuwe loke.
-2. O fi awọn ẹya 5 idunadura kika (ZIP 225), a restructured layout pẹlu lọtọ agbegbe fun ṣiṣan, Sapling, ati titun Orchard data. Sprout aaye ti wa ni kuro, ati ki o gun version 4 ọna kika duro wulo lẹhin igbekale.
-3. O ṣafihan awọn adirẹsi iṣọkan ati awọn bọtini wiwo ti o ni ibamu (ZIP 316), eyiti a bo ninu apakan atẹle.
-4. It adopted transaction identifier non-malleability (ZIP 244), a new way of computing a transaction's id that separates what a transaction does from the proofs and signatures that authorize it.
-5. O gba awọn ifaminsi ojuami Jubjub ti o jẹ ofin (ZIP 216) lati yọkuro awọn ifamọra ti ko ni deede ati mu awọn ilana naa ṣe lori ohun ti a kà si iṣowo to wulo.
-6. O ṣe iranlọwọ fun fifiranṣẹ awọn iṣowo ti ẹya 5 kọja nẹtiwọọki ẹlẹgbẹ-si-ẹlẹgbẹ (ZIP 239).
+1. Ó fi adágún tí wọ́n dáàbò bo Orchard (ZIP 224) kún un, ìlànà Halo 2 tí a ṣàlàyé lókè yìí.
+2. Ó fi ìṣètò ìṣòwò ẹ̀yà 5 (ZIP 225) kún un, ìṣètò àtúntò pẹ̀lú àwọn agbègbè ọ̀tọ̀ọ̀tọ̀ fún ìfihàn, Sapling, àti ìwífún Orchard tuntun. A yọ àwọn pápá Sprout kúrò, ìṣètò àtijọ́ ẹ̀yà 4 sì dúró ṣinṣin lẹ́yìn ìṣiṣẹ́.
+3. Ó ṣe àgbékalẹ̀ àwọn Àdírẹ́sì Ìṣọ̀kan àti àwọn kọ́kọ́rọ́ ìwòye ìṣọ̀kan (ZIP 316), tí a ṣàgbékalẹ̀ ní abala tí ó tẹ̀lé.
+4. Ó gba àmì ìdámọ̀ ìṣòwò tí kò ṣeé yípadà (ZIP 244), ọ̀nà tuntun láti ṣe ìṣirò ìdámọ̀ ìṣòwò kan tí ó ya ohun tí ìṣòwò kan ń ṣe sọ́tọ̀ kúrò lára àwọn ẹ̀rí àti ìfọwọ́sowọ́pọ̀ tí ó fún un láṣẹ.
+5. Ó lo àwọn ìlànà ìkọ̀wé Jubjub (ZIP 216) láti mú àwọn ìlànà ìkọ̀wé tí kò bá ìlànà mu kúrò àti láti mú àwọn òfin lórí ohun tí a kà sí ìṣòwò tó wúlò.
+6. Ó mú kí àtúnṣe àwọn ìṣòwò ẹ̀yà 5 kọjá nẹ́tíwọ́ọ̀kì ẹgbẹ́-sí-ẹgbẹ́ (ZIP 239).
 
-NU5 tun ṣe imudojuiwọn nọmba kan ti ZIP tẹlẹ (32, 203, 209, 212, 213, 221, ati 401) nitorinaa wọn ṣalaye fun adagun Orchard tuntun.
+NU5 tún ṣe àtúnṣe sí ọ̀pọ̀lọpọ̀ àwọn ZIP tó wà tẹ́lẹ̀ (32, 203, 209, 212, 213, 221, àti 401) nítorí náà wọ́n dúró fún adágún Orchard tuntun náà.
 
-## Àwọn àdírẹ́sì tó wà níṣọ̀kan
+## Àwọn Àdírẹ́sì Ìṣọ̀kan
 
-Ṣaaju ki o to NU5, kọọkan pool ní awọn oniwe-ara adirẹsi iru, ati a sender ni lati mọ eyi ti irú ti o fẹ. unified ìsọfúnni, apejuwe ninu [ZIP 316 ìyẹn àwọn tó ń gbé nílùú](https://zips.z.cash/zip-0316)Adirẹsi kan ṣoṣo le ṣajọ awọn olugba fun ju apapọ lọ, nitorinaa apamọwọ oluranlowo nikan yan eyi ti o dara julọ ti o ṣe atilẹyin.
+Kí NU5, adágún kọ̀ọ̀kan ní irú àdírẹ́sì tirẹ̀, olùránṣẹ́ sì gbọ́dọ̀ mọ irú àdírẹ́sì tí o fẹ́ [ZIP 316](https://zips.z.cash/zip-0316), yí èyí padà. Àdírẹ́sì ìṣọ̀kan kan ṣoṣo lè kó àwọn olugba jọ fún ju adágún kan lọ, nítorí náà àpò owó olùránṣẹ́ náà yóò yan èyí tó dára jùlọ tí ó ń gbà.
 
 ![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
-Awọn bọtini wiwo iṣọkan ṣiṣẹ ni ọna kanna fun wiwo. Wọn fi han kika nikan kọja awọn adagun adirẹsi kan bo. Fun diẹ sii lori iyẹn, wo awọn ohun elo ti o wa ninu rẹ lati ṣafihan wọn si gbogbo eniyan miiran ati pe yoo jẹ ki a mọ bi a ṣe le rii wọn daradara pẹlu lilo data naa. [Àwọn Kókó Ìwòran](../zcash-tech/viewing-keys) ojú ìwé.
+Àwọn kọ́kọ́rọ́ ìwòye tí a sopọ̀ mọ́ra ń ṣiṣẹ́ lọ́nà kan náà fún wíwo. Wọ́n fúnni ní ìrísí kíkà nìkan lórí àwọn adágún náà ní àwọn ìbòjú àdírẹ́sì. Fún ẹ̀kúnrẹ́rẹ́ lórí èyí, wo ẹ̀kúnrẹ́rẹ́ lórí èyí [Àwọn Kọ́kọ́rọ́ Wíwo](../zcash-tech/viewing-keys) ojú ìwé.
 
-## Ibi tí NU5 wà.
+## Ibi ti NU5 joko
 
-NU5 tẹsiwaju awọn igbesoke Zcash ti iṣaaju: Overwinter, Sapling, Blossom, Heartwood ati Canopy. O ṣiṣẹ lori mainnet ni Oṣu Karun ọjọ 31, Ọdun 2022. A yan iyipo iyipo Orchard nitori o ṣe atilẹyin atunṣe, eyiti o jẹ ipilẹ fun iṣẹ titobi nigbamii. NU5 jẹ alagbata taara si laini NU6 ati NU6.x ti awọn ilọsiwaju, eyiti a kọ sori adagun-odo igi gbigbẹ oloorun ati lẹhinna fi sii.
+NU5 tẹ̀lé àwọn àtúnṣe Zcash's tẹ́lẹ̀: Overwinter, Sapling, Blossom, Heartwood, àti Canopy. Ó ṣiṣẹ́ lórí mainnet ní ọjọ́ kọkànlélọ́gbọ̀n oṣù karùn-ún ọdún 2022. A yan ìyípo ìlà ìyípadà Orchard's nítorí pé ó ń ṣe àtìlẹ́yìn fún recursion, èyí tí ó jẹ́ ìpìlẹ̀ fún iṣẹ́ ìyípadà lẹ́yìn náà. NU5 ni ó ṣáájú ìlà àtúnṣe NU6 àti NU6.x, èyí tí a kọ́ sórí adágún Orchard tí ó sì tún un ṣe lẹ́yìn náà.
 
-## Àkójọ àwọn ọ̀rọ̀
+## Ìwé Àlàyé
 
 | Àkókò ìgba | Ìtumọ̀ Gẹ̀ẹ́sì lásán |
 |---|---|
@@ -56,58 +56,58 @@ NU5 tẹsiwaju awọn igbesoke Zcash ti iṣaaju: Overwinter, Sapling, Blossom, 
 | Unified Address | Àdírẹ́sì kan ṣoṣo tó lè kó àwọn olùgbà jọ fún ju adágún kan lọ (ZIP 316) |
 | Consensus branch id | Àmì ìdámọ̀ tí ó ń fi àmì sí àwọn òfin tí ìṣòwò kan jẹ́ ti |
 
-## Àwọn ìbéèrè tí a sábà máa ń béèrè
+## Awọn ibeere ti a maa n beere nigbagbogbo
 
-Ṣé NU5 yí ZEC mi padà tàbí ìpamọ́ra mí? Àìní. Nu5 fi àgbá tuntun tí a dì àti ọ̀nà adirẹsi titun kún un. A kò ní nípa lórí àwọn ZEC rẹ tó wà, wọn ò sì dín àṣírí ẹ kù. Fífi owó sínú Orchard fún ọ ní àgbá kan tí kì í nílò ètò ìṣètò gbígbẹkẹlé kankan.
+Ṣé NU5 yí ZEC mi tàbí ìpamọ́ mi padà? Rárá. NU5 fi adágún tuntun tí a dáàbò bo àti ìrísí àdírẹ́sì tuntun kún un. ZEC rẹ tí ó wà tẹ́lẹ̀ kò ní ipa kankan lórí rẹ̀, ìpamọ́ rẹ kò sì dínkù. Gbígbé owó sínú Orchard fún ọ ní adágún kan tí kò nílò ìṣètò tí a gbẹ́kẹ̀lé.
 
-Kí ni Orchard? Orchid jẹ ìlànà tí a fi ààbò ṣe ti Zcash, èyí tí NU5 gbé kalẹ̀. Ó ń ṣiṣẹ́ lórí ètò ìwádìí Halo 2, nítorí náà kò nílò ayẹyẹ ìṣètò tó gbẹkẹlé kankan.
+Kí ni Orchard? Orchard jẹ́ ìlànà ààbò Zcash's tí NU5. Ó ń ṣiṣẹ́ lórí ètò ìṣàfihàn Halo 2, nítorí náà kò nílò ayẹyẹ ìṣètò tí a gbẹ́kẹ̀lé.
 
-ṣé mo ní láti ṣe ohunkóhun? rárá. àpò owó tí a fọwọ́ sí ń bójú tó NU5 fún ọ o lè máa lo àwọn àdírésì àtijọ, ó sì le bẹ̀rẹ̀ sí í lò àwọn adiresi ìṣọ̀kan nígbàtí àpò rẹ bá pèsè wọn.
+Ṣé mo ní láti ṣe ohunkóhun? Rárá. Àpò ìpamọ́ tí a lè lò máa ń mú NU5 fún ọ. O lè máa lo àwọn àdírẹ́sì àtijọ́, o sì lè bẹ̀rẹ̀ sí í lo àwọn àdírẹ́sì tí a ti ṣọ̀kan nígbà tí àpò ìpamọ́ rẹ bá fún ọ ní wọn.
 
-Kí ni àdírẹ́sì tí ó wà ní ọ̀kan? Adirẹsi kan ṣoṣo tó lè gba àwọn olùgba fún ju àgbájọ lọ. Ẹlẹ́tà ẹni ti o ránṣẹ́ yan àgbájútó tí ó ń ṣe atilẹyin, nítorí náà kò sí ìdí láti pín adirẹsí òdìkejì fún oríṣi kọ̀ọ̀kan.
+Kí ni Àdírẹ́sì kan ṣoṣo? Àdírẹ́sì kan ṣoṣo tó lè gba àwọn olùgbà fún ju adágún kan lọ. Àpò owó olùránṣẹ́ ló máa ń yan adágún tó ń gbé, nítorí náà o kò ní láti pín àdírẹ́sì mìíràn fún irú kọ̀ọ̀kan.
 
-Ṣé NU5 yọ ìgbéga ìgbàgbọ́ kúrò nínú àwọn owó mi tí ó ti pẹ̀? Kò sí ní ọ̀nà àtúnṣe. Orchard kò nílò ìmúṣẹ ìgbàgbọ̣, ṣùgbọ́n ìlànà ìṣètò Sapling ṣì wà lẹ́yìn NU5. Ìdánilójú àìdáwó náà kan àwọn owó tó ń bẹ nínú àjọ Orchard.
+Ṣé NU5 yóò yọ ètò ìgbẹ́kẹ̀lé kúrò nínú owó àtijọ́ mi? Kì í ṣe nípa àtúnṣe. Orchard kò nílò ètò ìgbẹ́kẹ̀lé, ṣùgbọ́n àwọn ìlànà ìṣáájú ti Sapling pool ṣì wà lẹ́yìn NU5. Ìdánilójú àìsí ètò kan àwọn owó tí a tọ́jú nínú pool Orchard.
 
-Njẹ ọna kika iṣowo atijọ ti dẹkun ṣiṣẹ? No. NU5 ṣafikun ọna kika ẹya 5, ati pe ọna kika 4 agbalagba jẹ wulo lẹhin ifisilẹ.
+Ṣé ìṣètò ìṣòwò àtijọ́ náà dáwọ́ dúró? Rárá. NU5 fi ìṣètò ìṣètò ìṣètò 5 kún un, ìṣètò ìṣètò ìṣètò ìṣètò àtijọ́ náà sì dúró ṣinṣin lẹ́yìn ìṣiṣẹ́.
 
-## Wádìí òye rẹ wò
+## Dán òye rẹ wò
 
-Sprout ati Sapling mejeeji nilo ayẹyẹ iṣeto ti o gbẹkẹle. Kini idiwọ Orchard NU5 ṣe ayipada nipa iyẹn, ati pe kilode ti o fi jẹ pataki?
+Àwọn méjèèjì nílò ayẹyẹ ìṣètò tí a lè fọkàn Sapling. Kí ni adágún Orchard NU5's Sprout padà nípa èyí, kí sì nìdí tí ó fi ṣe pàtàkì?
 
 <details>
 <summary>Answer</summary>
 
-Orchard ti kọ lori eto idaniloju Halo 2, eyiti ko nilo iṣeto igbẹkẹle ati pe o wa ni okun itọkasi. Eyi yọ ewu kuro pe awọn idiwọn aṣiri iyokù le ṣee lo lati ṣe ayederu ZEC. Idaabobo naa kan si owo-owo ti a waye ninu adagun Orchard. Awọn iwọn didun Sapling agbalagba tun wa lẹhin NU5.
+A kọ́ Orchard sórí ètò ìṣàfihàn Halo 2, èyí tí kò nílò ìṣètò tí a gbẹ́kẹ̀lé àti kò sí okùn ìtọ́kasí tí a ṣètò. Èyí mú ewu kúrò pé a lè lo àwọn pàrámítà ìkọ̀kọ̀ tí ó kù láti ṣe àdàkọ ZEC. Ìdánilójú náà kan owó tí a tọ́jú ní adágún Orchard. Àwọn pàrámítà Sapling àtijọ́ ṣì wà lẹ́yìn NU5.
 </details>
 
-### Àwọn Owó-ìṣúnná owó
+### Àwọn ohun àlùmọ́nì
 
-[ZIP 252: Ṣíṣiṣẹ́ Àtúnṣe sí Nẹtiwọọki NU5](https://zips.z.cash/zip-0252)
+[ZIP 252: Ìgbékalẹ̀ Ìgbéga Nẹ́tíwọ́ọ̀kì NU5](https://zips.z.cash/zip-0252)
 
-[ZIP 224: Àlàkalẹ́ tí a fi ààbò ṣe sí ọgbà òdòdó èso (Orchard Shielded Protocol)](https://zips.z.cash/zip-0224)
+[ZIP 224: Ilana Idaabobo Orchard](https://zips.z.cash/zip-0224)
 
-[ZIP 225: Ẹ̀dà 5 Àkọlé Ìṣirò Ọna ìsopọ́](https://zips.z.cash/zip-0225)
+[ZIP 225: Ẹ̀yà 5 Ìlànà Ìṣòwò](https://zips.z.cash/zip-0225)
 
-[ZIP 316: Àwọn Adirẹsi Tí ó Ṣọ̀kan àti àwọn Kókó Ìwòran tí Ó Ṣò̀kan](https://zips.z.cash/zip-0316)
+[ZIP 316: Àwọn Àdírẹ́sì Ìṣọ̀kan àti Àwọn Kọ́kọ́rọ́ Ìwòye Ìṣọ̀kan](https://zips.z.cash/zip-0316)
 
-[Àtúnṣe sípínlẹ̀ 5](https://z.cash/upgrade/nu5/)
+[Igbesoke Nẹtiwọọki 5](https://z.cash/upgrade/nu5/)
 
-[Electric Coin Company: zcashd 5.0.0 ìfilọlẹ](https://electriccoin.co/blog/new-release-5-0-0/)
+[Electric Coin Company: ìtújáde zcashd 5.0.0](https://electriccoin.co/blog/new-release-5-0-0/)
 
-### Ẹ tún wo:
+### Wo tun
 
-[Àwọn Àtúnṣe sí Ìpínlẹ̀ Zcash](../start-here/network-upgrades)
+[Àwọn Ìmúdàgbàsókè Nẹ́tíwọ́ọ̀kì Zcash](../start-here/network-upgrades)
 
-[Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](../using-zcash/shielded-pools)
+[Àwọn Adágún Tí A Dáàbò Bo](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
-[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKs](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Àwọn Kókó Ìwòran](../zcash-tech/viewing-keys)
+[Àwọn Kọ́kọ́rọ́ Wíwo](../zcash-tech/viewing-keys)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
 
-Àtòjọ: [Atọka Awọn igbesoke Nẹtiwọki](../start-here/network-upgrades) · Àwọn tó ṣáájú: [Canopy](../zcash-tech/canopy) · Àtúnṣe: [NU6](../zcash-tech/nu6)
+Ẹ̀rọ: [Àtòjọ Àwọn Ìmúdàgbàsókè Nẹ́tíwọ́ọ̀kì](../start-here/network-upgrades) · Ti tẹlẹ: [Canopy](../zcash-tech/canopy) · Itele: [NU6](../zcash-tech/nu6)

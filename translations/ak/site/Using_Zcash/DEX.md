@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Wɛbsaet: https://app.routerprotocol.com/
+- Wɛbsaet: https://www.routerprotocol.com/
 - Nkyerɛkyerɛmu: Cross-chain liquidity transport layer a ɛma kwan ma seamless agyapade ne data transfer ntam blockchains pii.
 
 ___

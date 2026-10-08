@@ -20,7 +20,7 @@ Solanaウォレット内のZECは、Zcashネットワーク上のコインでは
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/01-phantom-zec-mint.png)
+![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Phantomではこれが`A7bd…QXaS`に省略されるため、先頭と末尾の文字を比較するか、完全なアドレスを[Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS)で確認してください。ウォレット内にある、名称やロゴにかかわらず他の「ZEC」トークンはこれではありません。触らないでください。
 
@@ -47,7 +47,7 @@ ZecHubは特定のウォレットを推薦しません。[ZecHubウォレット�
 
 あなたのウォレットには、2種類のアドレスが表示されます。
 
-![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/02-zodl-receive.png)
+![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | 先頭 | 種類 | 公開される情報 |
 |---|---|---|
@@ -72,11 +72,11 @@ Solana手数料用に、Phantomには少量のSOLを残しておいてくださ�
 2. **Deposit**をタップします。**Asset**を**Zcash**、**Network**を**Solana**、方法を**Wallet**に設定します。
 3. 金額を入力するか、**Max**をタップし、Phantomでトランザクションを承認します。
 
-![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](/content-images/03-solswap-deposit-425691e62f.webp)
 
 私たちの入金は15:09:08（UTC+1）にSolanaブロックへ記録され、9秒後にsolswapで**Completed**と表示されました。
 
-![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
+![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 これであなたのZECはNEAR Intents残高にあります。あなたのPhantomキーがそこからのすべての移動を承認し、NEAR Intentsソルバーが配送を実行し、NEAR Intentsはコンプライアンス審査のために残高を保留できます（下記の信頼に関する注記を参照）。
 
@@ -84,22 +84,22 @@ Solana手数料用に、Phantomには少量のSOLを残しておいてくださ�
 
 solswapにも**Withdraw**ページがありますが、私たちには機能しませんでした。ネットワークにZcashまたはSolanaのどちらを選んでも、**Received amount**と**Fee**は「–」のままで、ボタンは何もしませんでした。
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
+![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 あなたにも同じことが起きても、ZECが行き詰まっているわけではありません。残高はウェブサイトではなくウォレットのキーに紐付いているため、そのウォレットでサインインする任意のNEAR Intentsアプリからアクセスできます。私たちはnear.comで完了しました。
 
 1. `near.com`へ移動し、同じPhantomウォレットでサインインします。
 2. solswapの残高は**Move legacy assets**の下に表示されます（near.comでは古いNEAR Intentsアプリ由来の残高を「legacy」と呼びます）。ZECの行で**Withdraw**をタップします。**Move**は不要です。
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. **Network**を**Zcash**に設定し、ウォレットの`u1`アドレスを**Recipient**として貼り付け、先頭と末尾の6文字をウォレットと照合します。
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. **Review withdrawal**をタップし、概要を読んでから**Send**をタップします。
 
-![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
 
 5. Phantomはnear.comのために**Sign Message**を求めます。この署名が、NEAR Intentsにあなたの残高を移動させる承認になります。SOLはかかりませんが、無害という意味ではありません。偽サイトも同じリクエストを表示し、これによってあなたのNEAR Intents残高を空にできます。**Confirm**をタップする前に、以下をすべて確認し、1つでも満たさない場合は**Cancel**をタップしてください。
    - リクエスト上に記載されたサイトが`near.com`であること。（手順1の入金は`solswap.org`からの通常のPhantomトランザクションリクエストでした。同様にそこでその名前を確認してください。）
@@ -107,13 +107,13 @@ solswapにも**Withdraw**ページがありますが、私たちには機能し�
    - メッセージがスクリーンショットのような読めるテキストであること。読めないデータの塊だったり、サイトがアドレスバーのものと一致しなかったりする場合は拒否してください。
    - シードフレーズを求められることは決してありません。署名で入力することはありません。
 
-![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
 6. near.comには**Processing send**、**Sending**、**Complete**が表示されます。**View on explorer**を開くと、送金のNEAR Intents記録が表示されます。
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
 
-![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
+![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
 
 ### 私たちのテストの費用と所要時間
 
@@ -145,19 +145,19 @@ Solanaから出るすべての経路は、ブリッジがあなたのトーク�
 
 到着時点でシールドされていました。私たちのZECは`u1`アドレスへ送られ、Ironwoodシールドプールに直接着金しました。透明な段階はなく、手動でシールドする必要もありませんでした。確認を集めている間、16:07（UTC+1）にはウォレットでシールドアイコン付きの**Receiving…**と表示されました。
 
-![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/12-zodl-receiving.png)
+![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](/content-images/12-zodl-receiving-cb9f41511d.webp)
 
 自分で確認するには、ウォレットでトランザクションを開き、トランザクションIDをコピーします。
 
-![Zcash wallet transaction details with the transaction ID and timestamp](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/13-zodl-tx-details.png)
+![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
 それを[Zcashブロックエクスプローラー](https://mainnet.zcashexplorer.app)に貼り付けます。概要表示に惑わされないでください。私たちのものでは**Shielded Inputs / Outputs 0 / 0**、**Transferred from/to shielded pool 0.0 ZEC**と表示されます。これはエクスプローラーの概要がまだIronwoodを数えていないためです。表示される`t1`アドレスは送信側のもの（使用したZECと保持したお釣り）であり、あなたのものではありません。
 
-![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/14-explorer-summary.png)
+![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
 
 **Raw TX: JSON**をクリックして、`ironwood`を検索します。そこで負の`valueBalance`は、ZECがIronwoodプールへ入ることを意味します。私たちの値は`-0.00241336`で、到着した額と正確に一致しており、トランザクションから受取人を知ることはできません。
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/15-explorer-raw-ironwood.png)
+![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 [ブロックエクスプローラーで見えるもの](/zcash-tech/what-a-block-explorer-can-see)では、残りのフィールドを説明しています。
 

@@ -20,7 +20,7 @@ Hakikisha kwamba yako ndiyo tokeni halisi. Katika Phantom, gusa **ZEC** na usoge
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/01-phantom-zec-mint.png)
+![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Phantom hufupisha hadi `A7bd…QXaS`, kwa hivyo linganisha herufi ya kwanza na ya mwisho, au tafuta anwani kamili kwenye [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS)Tokeni nyingine yoyote ya "ZEC" kwenye pochi yako, jina au nembo yake, si hii. Iache.
 
@@ -47,7 +47,7 @@ Sakinisha pochi kutoka kwa kiungo kwenye kadi yake ya saraka, si kutoka kwa mato
 
 Pochi yako inaonyesha aina mbili za anwani:
 
-![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/02-zodl-receive.png)
+![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | Huanza na | Aina | Kile ambacho umma unaona |
 |---|---|---|
@@ -72,11 +72,11 @@ Weka SOL kidogo huko Phantom kwa ada ya Solana.
 2. Gusa **Amana**. Weka **Mali** kuwa **Zcash**, **Mtandao** kuwa **Solana** na njia iwe **Wallet**.
 3. Ingiza kiasi (au gusa **Kiwango cha Juu**) na uidhinishe muamala katika Phantom.
 
-![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](/content-images/03-solswap-deposit-425691e62f.webp)
 
 Amana yetu ilitua katika eneo la Solana saa 15:09:08 (UTC+1) na solswap ilionyesha kama **Imekamilika** sekunde tisa baadaye.
 
-![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
+![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 ZEC yako sasa iko kwenye salio lako la NEAR Intents. Ufunguo wako Phantom unaidhinisha kila hatua inayotoka ndani yake, watatuzi wa NEAR Intents hufanya uwasilishaji, na NEAR Intents inaweza kuwa na salio kwa ajili ya ukaguzi wa uzingatiaji (tazama maelezo ya uaminifu hapa chini).
 
@@ -84,22 +84,22 @@ ZEC yako sasa iko kwenye salio lako la NEAR Intents. Ufunguo wako Phantom unaidh
 
 Solswap ina ukurasa wa **Withdraw** pia, lakini haikufanya kazi kwetu. **Kiasi kilichopokelewa** na **Fee** zilibaki "–" na kitufe hakikufanya chochote, iwe tulichagua Zcash au Solana kama mtandao.
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
+![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 Ikiwa hilo litatokea kwako, ZEC yako haitakwama. Salio limeunganishwa na ufunguo wa pochi yako, si kwenye tovuti, kwa hivyo programu yoyote ya NEAR Intents unayoingia ukitumia pochi hiyo inaweza kuifikia. Tulimaliza kwenye near.com:
 
 1. Go to `near.com` na uingie ukitumia pochi ile ile Phantom.
 2. Salio lako la solswap linaonekana chini ya **Hamisha mali za zamani** (near.com huita salio kutoka kwa programu za zamani NEAR Intents "legacy"). Gusa **Toa** kwenye safu mlalo ZEC. Huna haja ya **Hamisha**.
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. Weka **Network** kuwa **Zcash**, bandika pochi yako `u1` anwani kama **Mpokeaji** na uchague herufi sita za kwanza na za mwisho dhidi ya pochi yako.
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. Gusa **Kagua uondoaji**, soma muhtasari na gusa **Tuma**.
 
-![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
 
 5. Phantom inakuomba **Usaini Ujumbe** kwa near.com. Saini hii ndiyo inayoidhinisha NEAR Intents kuhamisha salio lako. Haigharimu SOL, lakini hiyo haiifanyi kuwa haina madhara: tovuti inayofanana inaweza kuonyesha ombi lile lile na kuondoa salio lako la NEAR Intents. Kabla ya kugonga **Thibitisha**, angalia yote haya, na ugonge **Ghairi** ikiwa yoyote itashindwa:
    - Tovuti iliyotajwa kwenye ombi ni `near.com`(Amana katika hatua ya 1 ilikuwa ombi la kawaida la muamala wa Phantom kutoka `solswap.org`; angalia jina hilo hapo kwa njia ile ile.)
@@ -107,13 +107,13 @@ Ikiwa hilo litatokea kwako, ZEC yako haitakwama. Salio limeunganishwa na ufunguo
    - Ujumbe huo unasomeka kama vile picha ya skrini. Ikiwa ni kidonge kisichosomeka, au tovuti hailingani na ile iliyo kwenye upau wa anwani yako, ikatae.
    - Haiombi kamwe kifungu chako cha maneno. Kusaini hakuhusishi kukiandika.
 
-![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
 6. near.com inaonyesha **Inachakata send**, **Inatuma** na **Inakamilisha**. **Tazama kwenye kichunguzi** inafungua rekodi ya NEAR Intents ya uhamisho.
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
 
-![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
+![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
 
 ### Jaribio letu liligharimu kiasi gani na lilichukua muda gani
 
@@ -145,19 +145,19 @@ Kila njia inayotoka Solana inaamini OmniBridge, kwa sababu daraja linashikilia Z
 
 Ilifika ikiwa imekingwa. ZEC yetu ilienda kwa `u1` anwani na ikatua moja kwa moja kwenye bwawa la kuogelea lenye ngao Ironwood. Hakukuwa na hatua ya uwazi na hakuna kitu cha kujikinga kwa mkono. Pochi iliorodhesha kama **Inapokea…** ikiwa na aikoni ya ngao saa 16:07 (UTC+1) huku ikikusanya uthibitisho.
 
-![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/12-zodl-receiving.png)
+![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](/content-images/12-zodl-receiving-cb9f41511d.webp)
 
 Ili kujiangalia mwenyewe, fungua muamala kwenye pochi yako na unakili kitambulisho cha muamala.
 
-![Zcash wallet transaction details with the transaction ID and timestamp](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/13-zodl-tx-details.png)
+![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
 Ibandike ndani [mchunguzi wa vitalu vya Zcash](https://mainnet.zcashexplorer.app)Usikubali kushushwa na muhtasari. Yetu inasomeka **Ingizo/Matokeo Yaliyolindwa 0 / 0** na **Imehamishwa kutoka/hadi bwawa lililolindwa 0.0 ZEC**, kwa sababu muhtasari wa mchunguzi hauhesabu Ironwood bado `t1` Anwani unazoziona ziko upande wa kutuma (ZEC iliyotumia na chenji iliyohifadhi), si zako.
 
-![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/14-explorer-summary.png)
+![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
 
 Bonyeza **Raw TX: JSON** na utafute `ironwood`. Hasi `valueBalance` kuna ZEC inaingia kwenye bwawa la Ironwood. Yetu ilikuwa `-0.00241336`, hasa kilichofika, na hakuna chochote katika muamala kinachoonyesha ni nani aliyekipokea.
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/15-explorer-raw-ironwood.png)
+![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 [Kile ambacho mchunguzi wa vitalu anaweza kuona](/zcash-tech/what-a-block-explorer-can-see) inaelezea sehemu zingine zote.
 

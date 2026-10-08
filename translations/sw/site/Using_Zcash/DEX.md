@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Tovuti: https://app.routerprotocol.com/
+- Tovuti: https://www.routerprotocol.com/
 - Maelezo: Safu ya usafirishaji wa ukwasi wa mnyororo mtambuka ambayo inaruhusu uhamishaji wa mali na data usio na mshono kati ya blockchain nyingi.
 
 ___

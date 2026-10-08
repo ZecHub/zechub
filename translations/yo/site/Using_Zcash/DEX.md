@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Oju opo wẹẹbu: https://app.routerprotocol.com/
+- Oju opo wẹẹbu: https://www.routerprotocol.com/
 - Àpèjúwe: Ìpele gbigbe omi onípele-ẹ̀yà tí ó gba ààyè láti gbé ohun ìní àti ìgbesẹ̀ dátà láìsí ìṣòro láàrín ọ̀pọ̀lọpọ̀ blockchain.
 
 ___

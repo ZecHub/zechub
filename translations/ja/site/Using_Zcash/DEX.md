@@ -110,7 +110,7 @@ ___
 
 ### ZcashToCash
 
-<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="/content-images/3f7aa1a6-3646-442b-8f66-1ef8988051ba-3ddc295461.webp" />
 
 - ウェブサイト：https://zcashto.cash/
 - 説明：Peerを介したノンカストディアルなZECから法定通貨への換金。シールドされたZECを送信すると、Venmo、Cash App、Revolut、Zelle、Chime、Monzoなどの日常的な決済アプリで、100以上の地域にわたり支払いを受け取れます。CEXアカウントは不要で、法定通貨の支払い証明後にエスクローが完了します。
