@@ -176,6 +176,10 @@ Tool to check gRPC response times of Zcash lightwalletd nodes.
 Dashboard for real-time Zcash network statistics and shielding metrics.  
 [Visit](https://zecstats.com)
 
+### ZecZcash
+Independent Zcash data, tools, and research site. Includes an explorer, market and halving tools, wallet guides, and ecosystem news. Not affiliated with ECC or the Zcash Foundation.  
+[Visit](https://zeczcash.com/)
+
 ### zecprice
 Tracking and data metrics tool for Zcash market price performance.  
 [Visit](https://zecprice.com)
