@@ -78,7 +78,7 @@ The design separates two roles so no group has too much power.
 
 ![Separation of powers: a coordinator multisig sets which questions appear but cannot see votes, while a validator set counts but cannot read individual ballots or forge a tally](/content-images/shielded-voting-roles.webp)
 
-The coordinator multisig is a 2-of-5 group with representatives from Project Tachyon, [Zcash Foundation](../zcash-organizations/zcash-foundation), Zodl, [Shielded Labs](../zcash-organizations/shielded-labs), and Valar Group. It decides which questions reach the chain and attests to each round's encryption key, but it cannot see, alter, or block individual votes. Anyone who dislikes the questions can run their own voting chain, since the software is open and permissionless.
+The coordinator multisig is a 2-of-5 group with representatives from Project Tachyon, [Zcash Foundation](../zcash-organizations/zcash-foundation), ZODL, [Shielded Labs](../zcash-organizations/shielded-labs), and Valar Group. It decides which questions reach the chain and attests to each round's encryption key, but it cannot see, alter, or block individual votes. Anyone who dislikes the questions can run their own voting chain, since the software is open and permissionless.
 
 The validators are the at-least-10 nodes that hold the split decryption key and perform the threshold decryption. They cannot decrypt individual ballots or fabricate a false tally, because every decryption ships with a public correctness proof.
 
