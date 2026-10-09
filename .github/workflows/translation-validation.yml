@@ -52,6 +52,18 @@ jobs:
       - name: Brand-candidate detector self-test
         run: node scripts/brand-candidates.test.mjs
 
+      # Community-reviewed glossaries (translation/glossary/): the shared
+      # English list and every <loc>.json, against each other and against
+      # preserveVerbatim. Data only, nothing reads it at translation time yet,
+      # but a malformed file must not merge: the first consumer would inherit
+      # it. --base adds the version check (an approved change bumps `version`
+      # and is named in the changelog), so this step sits in the job that
+      # already resolves the base with full history.
+      - name: Validate glossaries
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node translation/glossary/validate.mjs --base "$BASE_REF_OUT"
+
       - name: Validate protected terminology
         # Scoped to what this change did to translations. Inherited staleness
         # (English edited, translations not yet re-synced) is reported as a
@@ -144,6 +156,11 @@ jobs:
         # Shell-glob (not a bare dir) so it works on Node 20 and still picks up
         # any future *.test.mjs without editing this workflow.
         run: node --test translation/lib/*.test.mjs
+      - name: Unit-test the glossary library
+        # Every validation rule in translation/glossary/lib/glossary.mjs has a
+        # case that must fail; a rule that silently stopped firing would let a
+        # malformed glossary enforce nothing.
+        run: node --test translation/glossary/lib/*.test.mjs
 
   menu-titles-fresh:
     # Freshness gate: the menu-titles manifests must match a from-scratch
