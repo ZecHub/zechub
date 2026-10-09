@@ -1259,8 +1259,8 @@
           "text": "Alat Privasi"
         }
       ],
-      "context": "Section name (menus and the Privacy_Tools pages).",
-      "applies_to": "both",
+      "context": "Section name in the menus. In running text, \"privacy tools\" stays \"alat privasi\" (Gianni, 2026-10-09).",
+      "applies_to": "ui",
       "status": "approved",
       "notes": "\"Alat Privasi\" is too literal. \"Tools\" is already familiar in Indonesian tech writing.",
       "reviewed_by": [
