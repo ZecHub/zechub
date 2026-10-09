@@ -117,12 +117,12 @@ test("import: the real menus kit, after the pages kit", () => {
   const { glossary: afterPages } = run(skeleton(), PAGES_KIT);
   const { glossary: g, report } = run(afterPages, MENUS_KIT);
   assert.deepEqual(report.errors, []);
-  assert.deepEqual(report.skippedNames, ["Keystone Zashi"]);
+  // Protected names are listed, not reviewed (Shielded Labs and Brave Wallet
+  // joined preserveVerbatim after the Indonesian review).
+  assert.deepEqual(report.skippedNames, ["Shielded Labs", "Keystone Zashi", "Brave Wallet"]);
   assert.deepEqual(report.needsMaintainer.map((m) => m.english).sort(), [
-    "Brave Wallet", // keeps "Wallet" English while wallet -> dompet: a name, not a gloss
     "Metamask Snap", // rows disagree on case; the protected name is "MetaMask Snap"
     "Privacy Tools", // Tools -> Alat vs Tools Privasi, needs a context on both
-    "Shielded Labs",
     "Shielded Pools",
     "Start Here",
     "Tools",
