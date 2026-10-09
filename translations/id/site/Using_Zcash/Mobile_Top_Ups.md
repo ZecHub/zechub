@@ -1,4 +1,4 @@
-# Isi Ulang Pulsa Seluler Menggunakan Zcash
+# Top Up Seluler Menggunakan Zcash
 
 Dalam panduan ini, kamu akan mempelajari cara membeli pulsa dengan ZEC.
 
@@ -39,7 +39,7 @@ Hei… Saldo saya sudah masuk! Kamu juga bisa mengonfirmasi email kamu selama pr
 
 ## Membeli isi ulang tanpa akun
 
-Metode di atas memerlukan pembuatan akun Coinsbee. Jika kamu tidak ingin melakukannya, CardsRelay menjual isi ulang pulsa seluler untuk ZEC tanpa registrasi.
+Metode di atas memerlukan pembuatan akun Coinsbee. Jika kamu tidak ingin melakukannya, CardsRelay menjual top up seluler untuk ZEC tanpa registrasi.
 
 ### 1. Pilih negara dan operator kamu
 Kunjungi [CardsRelay](https://cardsrelay.com) dan buka bagian Mobile Top Ups. Lebih dari 750 operator didukung secara global.
@@ -56,7 +56,7 @@ Pilih Zcash saat checkout. ZEC diterima secara langsung alih-alih dikonversi ole
 ### 5. Konfirmasi
 Top-up diproses dan konfirmasi akan dikirimkan melalui email, biasanya dalam hitungan detik.
 
-CardsRelay juga menjual kartu hadiah untuk sekitar 2.500 merek, dan menerima Monero serta Zano bersama dengan Zcash. Layanan ini dioperasikan oleh Payzy ME FZ Ltd.
+CardsRelay juga menjual kartu hadiah untuk sekitar 2.500 brand, dan menerima Monero serta Zano bersama dengan Zcash. Layanan ini dioperasikan oleh Payzy ME FZ Ltd.
 
 ---
 

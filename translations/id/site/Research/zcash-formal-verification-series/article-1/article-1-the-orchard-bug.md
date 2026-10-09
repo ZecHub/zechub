@@ -125,7 +125,7 @@ Benang merahnya sangat jelas: kelemahan yang dapat tersembunyi selamanya adalah 
 
 ## 7. Respons
 
-Para pengembang Zcash bergerak dengan cepat dan secara bertahap:
+Para developer Zcash bergerak dengan cepat dan secara bertahap:
 
 1. **Remediasi darurat (paling lambat 1-2 Juni 2026).** Dalam hitungan hari setelah pengungkapan, sebuah peningkatan jaringan darurat menutup celah kerentanan, dengan menambahkan batasan yang hilang sehingga matematika sirkuit tersebut menjadi kuat kembali.
 2. **Awal baru yang dapat dibuktikan ("Ironwood," diaktifkan 28 Juli 2026).** Alih-alih mempercayai versi lama dari pool yang telah ditambal secara tanpa batas, komunitas meluncurkan sebuah pool terlindungi yang benar-benar baru, Ironwood, berdasarkan sirkuit yang telah diperbaiki namun dimulai dengan bersih, dan disertai dengan proof kebenaran formal yang telah diperiksa oleh mesin.

@@ -18,7 +18,7 @@ Berikut adalah beberapa yang aktif:
 | ZecMec                     | Artikel yang berfokus pada Zcash tentang Medium         | [Kunjungi ->](https://zecmec21.medium.com/) |
 | Naomi Brockwell (NBTV)     | Wawancara profil tinggi dan konten tentang privasi       | [Kunjungi ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | Konten Zcash yang kreatif dan digerakkan oleh komunitas | [Kunjungi ->](https://free2z.cash/sqribbles) |
-| Str4d                      | Tulisan teknis dari pengembang inti Zcash              | [Kunjungi ->](https://words.str4d.xyz/) |
+| Str4d                      | Tulisan teknis dari developer inti Zcash              | [Kunjungi ->](https://words.str4d.xyz/) |
 | CipherScan Weekly              | Postingan blog mingguan yang mencakup analitik blockchain Zcash | [Kunjungi ->](https://cipherscan.app/) |
 | Zcash Shielded News        | Ringkasan berita privasi dan ekosistem mingguan         | [Kunjungi ->](https://zechub.substack.com/) |
 | Blog ZecHub DAO            | Artikel dan konten edukasi dari komunitas DAO ZecHub    | [Kunjungi ->](https://zechub.wiki) |

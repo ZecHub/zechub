@@ -51,7 +51,7 @@ Snapshot yang dipangkas (pruned) berukuran sekitar **11 GB**, memungkinkan prose
 
 ### Pemangkasan Blok Native
 
-Zakura mendukung pemangkasan blok yang dapat dikonfigurasi, memungkinkan operator node untuk menentukan seberapa banyak riwayat rantai yang akan disimpan. Hal ini membuatnya praktis untuk menjalankan full node pada perangkat keras dengan penyimpanan terbatas — berguna bagi validator, pengembang, dan penyedia infrastruktur yang tidak memerlukan seluruh riwayat rantai secara lengkap.
+Zakura mendukung pemangkasan blok yang dapat dikonfigurasi, memungkinkan operator node untuk menentukan seberapa banyak riwayat rantai yang akan disimpan. Hal ini membuatnya praktis untuk menjalankan full node pada perangkat keras dengan penyimpanan terbatas — berguna bagi validator, developer, dan penyedia infrastruktur yang tidak memerlukan seluruh riwayat rantai secara lengkap.
 
 ### Mode Kompatibilitas RPC zcashd
 

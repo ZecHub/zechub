@@ -46,9 +46,9 @@ Proposal ini bertujuan untuk beralih dari tata kelola yang dikendalikan organisa
 -> Lihat profil lengkap: [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company)
 
 **Zcash Open Development Lab (ZODL)**  
-- Dibentuk pada Januari 2026 oleh pengembang protokol Zcash asli (tim inti rekayasa dan produk ECC) setelah mereka meninggalkan Bootstrap/ECC.  
+- Dibentuk pada Januari 2026 oleh developer protokol Zcash asli (tim inti rekayasa dan produk ECC) setelah mereka meninggalkan Bootstrap/ECC.  
 - Mengumpulkan lebih dari $25 juta dalam pendanaan awal dari investor utama termasuk a16z Crypto dan Coinbase Ventures.  
-- Tim ini, yang terdiri dari penemu dan pengembang asli protokol Zcash, melanjutkan pengembangan protokol inti, kontribusi ZIP, dan alat fokus privasi termasuk dompet seluler Zodl (rebranding dari Zashi).  
+- Tim ini, yang terdiri dari penemu dan developer asli protokol Zcash, melanjutkan pengembangan protokol inti, kontribusi ZIP, dan alat fokus privasi termasuk dompet seluler Zodl (rebranding dari Zashi).  
 - Tidak ada pendanaan protokol on-chain secara langsung; beroperasi sebagai lab independen yang didukung VC yang berfokus pada memajukan infrastruktur privasi Zcash.  
 -> Lihat profil lengkap: [ZODL](https://zechub.wiki/zcash-organizations/ZODL)  
 -> Situs resmi: [zodl.com](https://zodl.com/)
@@ -131,6 +131,6 @@ Tata kelola Zcash adalah campuran antara "aturan protokol on-chain" dan "konsens
 - Zcash Proposal Peningkatan -> [zips.z.cash](https://zips.z.cash)  
 - Zcash Community Grants portal -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 
-## 6. Dasbor Lockbox
+## 6. Dashboard Lockbox
 
 Dashboard ZecHub sebagai jumlah ZEC saat ini di dalam dana Lockbox dan Coinholders [di sini](https://zechub.wiki/dashboard?tab=lockbox).

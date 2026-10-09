@@ -3,7 +3,7 @@
 </a>
 
 
-# Sumber Daya Pengembang
+# Sumber Daya Developer
 
 Sumber daya yang kamu butuhkan untuk membangun di Zcash, dikelompokkan berdasarkan kegunaan masing-masing alih-alih hanya disusun dalam satu daftar.
 
@@ -86,7 +86,7 @@ Dokumentasi [Zcash](https://zcash.readthedocs.io/en/latest/) masih merupakan sum
 
 Jika kamu baru mengenal blockchain secara umum, [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) adalah rekomendasi yang biasa diberikan untuk memahami dasar-dasar bersama, dan dapat dibaca sepenuhnya secara gratis. Buku ini tidak membahas transaksi terlindungi.
 
-## Alat lain yang disebutkan oleh pengembang
+## Alat lain yang disebutkan oleh developer
 
 [Arti](https://docs.rs/arti/latest/arti/) adalah implementasi Rust dari Tor, yang digunakan oleh zcash_client_backend untuk mengarahkan lalu lintas dompet. [Tailscale](https://github.com/tailscale/tailscale) muncul sebagai opsi untuk terhubung ke node yang kamu jalankan sendiri. [warp2](https://github.com/hhanh00/warp2) adalah implementasi sinkronisasi cepat oleh Hanh, meskipun belum diperbarui sejak 2023.
 

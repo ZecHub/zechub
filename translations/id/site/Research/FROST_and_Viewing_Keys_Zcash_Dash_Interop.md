@@ -38,7 +38,7 @@ Roadmap Dash menyatakan niat tersebut secara langsung:
 
 Dua pengamatan yang patut dicatat:
 
-**Dash memposisikan viewing key pada kasus penggunaan produksi yang lebih konkret daripada yang telah dicapai oleh perangkat Zcash sendiri.** Perangkat pengungkapan pembayaran milik Zcash sebagian besar tetap bersifat eksperimental dan bersifat opsional di berbagai dompet. Dash meluncurkan view key sebagai fitur kepatuhan dengan kasus penggunaan yang ditentukan, pada sebuah chain yang juga menawarkan penyelesaian deterministik sekitar satu detik dan sinkronisasi dompet sekitar dua puluh detik berdasarkan pengumuman mereka sendiri.
+**Dash memposisikan viewing key pada use cases produksi yang lebih konkret daripada yang telah dicapai oleh perangkat Zcash sendiri.** Perangkat pengungkapan pembayaran milik Zcash sebagian besar tetap bersifat eksperimental dan bersifat opsional di berbagai dompet. Dash meluncurkan view key sebagai fitur kepatuhan dengan use cases yang ditentukan, pada sebuah chain yang juga menawarkan penyelesaian deterministik sekitar satu detik dan sinkronisasi dompet sekitar dua puluh detik berdasarkan pengumuman mereka sendiri.
 
 **Masalah terbuka yang ada adalah pergeseran kompatibilitas, bukan kapabilitas.** Apakah implementasi viewing-key Dash tetap kompatibel secara wire dengan format viewing-key Orchard milik Zcash saat kedua chain berkembang secara independen adalah hal yang perlu dipantau. Ini merupakan pertanyaan pemantauan alih-alih sebuah proyek penelitian.
 
@@ -72,7 +72,7 @@ Di dalam akun Orchard, hierarkinya bersifat satu arah secara ketat — setiap le
 
 Orchard menyederhanakan ini dibandingkan dengan Sapling: menurut [Orchard Book](https://zcash.github.io/orchard/design/keys.html), kunci privat nullifier `nsk` telah dihapus, `nk` menjadi sebuah elemen field alih-alih titik curve, dan `ovk` kini diturunkan dari full viewing key alih-alih disimpan secara terpisah.
 
-Di atas ini terdapat [ZIP 316, *Unified Addresses and Unified Viewing Keys*](https://zips.z.cash/zip-0316) — Revisi 0 Aktif, Revisi 1 Ditarik, Revisi 2 Draf — yang menggabungkan kunci per-pool ke dalam **Unified Full Viewing Key** ("menggabungkan beberapa Full Viewing Key… Item") dan sebuah **Unified Incoming Viewing Key**. Perbedaan yang harus dipatuhi oleh pengembang dompet: UFVK mengungkapkan aktivitas masuk maupun keluar, sedangkan UIVK hanya aktivitas masuk.
+Di atas ini terdapat [ZIP 316, *Unified Addresses and Unified Viewing Keys*](https://zips.z.cash/zip-0316) — Revisi 0 Aktif, Revisi 1 Ditarik, Revisi 2 Draf — yang menggabungkan kunci per-pool ke dalam **Unified Full Viewing Key** ("menggabungkan beberapa Full Viewing Key… Item") dan sebuah **Unified Incoming Viewing Key**. Perbedaan yang harus dipatuhi oleh developer dompet: UFVK mengungkapkan aktivitas masuk maupun keluar, sedangkan UIVK hanya aktivitas masuk.
 
 ### Dash
 
@@ -96,7 +96,7 @@ di mana dua komponen terakhir adalah hash identitas pengguna. Zcash tidak memili
 
 ### Di mana keduanya sebenarnya berbeda
 
-**Subtree terlindungi adalah sama.** Kunci terlindungi milik Dash adalah kunci Orchard, karena pool terlindungi milik Dash adalah Orchard. Seorang pengembang dompet yang berpindah di antara keduanya bekerja dengan struktur spending-key-ke-viewing-key yang sama.
+**Subtree terlindungi adalah sama.** Kunci terlindungi milik Dash adalah kunci Orchard, karena pool terlindungi milik Dash adalah Orchard. Seorang developer dompet yang berpindah di antara keduanya bekerja dengan struktur spending-key-ke-viewing-key yang sama.
 
 **Akar dasarnya berbeda.** Zcash mengisolasi setiap pool terlindungi di bawah master key-nya sendiri dengan tujuan `32'`. Dash menggantungkan fitur terlindungi pada satu pohon terpadu di bawah tujuan `9'`, bersama dengan setiap fitur lainnya. Pemisahan Zcash dilakukan berdasarkan pool kriptografis; pemisahan Dash dilakukan berdasarkan fitur produk.
 

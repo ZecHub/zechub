@@ -7,7 +7,7 @@
 1. **Koin tidak memiliki nilai moneter nyata** - koin ini disebut **TAZ**, bukan ZEC, dan hanya digunakan untuk pengujian.  
 2. **Peningkatan jaringan, alat, dan perangkat lunak diuji di sini terlebih dahulu** sebelum diterapkan pada blockchain Zcash yang sebenarnya.
 
-Dengan kata lain, Testnet ibarat sebuah **sandbox atau lingkungan eksperimental** di mana para pengembang, auditor, dan pembangun dapat mencoba berbagai ide tanpa risiko kehilangan uang sungguhan.
+Dengan kata lain, Testnet ibarat sebuah **sandbox atau lingkungan eksperimental** di mana para developer, auditor, dan pembangun dapat mencoba berbagai ide tanpa risiko kehilangan uang sungguhan.
 
 
 ## Mengapa Testnet Ada?
@@ -29,11 +29,11 @@ Developer yang membangun dompet, exchange, perangkat lunak penambangan, atau ala
 Alat seperti [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) menggunakan Testnet untuk menghasilkan transaksi dan menguji fungsionalitas aset terlindungi Zcash.
 
 **Skenario dunia nyata:**  
-Seorang pengembang dompet dapat menghubungkan perangkat lunak ke endpoint RPC Testnet dan mensimulasikan seluruh siklus hidup — membuat alamat, mengirim transaksi terlindungi, dan memvalidasi saldo — sebelum diluncurkan secara live di Mainnet.
+Seorang developer dompet dapat menghubungkan perangkat lunak ke endpoint RPC Testnet dan mensimulasikan seluruh siklus hidup — membuat alamat, mengirim transaksi terlindungi, dan memvalidasi saldo — sebelum diluncurkan secara live di Mainnet.
 
 #### 2. Menguji Peningkatan Jaringan
 
-Zcash meningkatkan protokol intinya secara berkala (misalnya, NU6.1, NU6.2 dan Ironwood). Testnet mengaktifkan peningkatan baru **sebelum Mainnet**, memungkinkan pengembang dan komunitas untuk mengidentifikasi dan memperbaiki bug.
+Zcash meningkatkan protokol intinya secara berkala (misalnya, NU6.1, NU6.2 dan Ironwood). Testnet mengaktifkan peningkatan baru **sebelum Mainnet**, memungkinkan developer dan komunitas untuk mengidentifikasi dan memperbaiki bug.
 
 **Contoh:**  
 Aturan konsensus atau tipe transaksi baru pertama kali dikirim ke Testnet. Setelah pengujian berhasil, hal tersebut akan aktif di Mainnet pada ketinggian blok yang telah ditentukan sebelumnya.
@@ -42,7 +42,7 @@ Aturan konsensus atau tipe transaksi baru pertama kali dikirim ke Testnet. Setel
 
 node yang dikelola oleh Zcash adalah **Zebra** (node berbasis Rust yang dikelola oleh Zcash Foundation) dan dompet yang dikelola adalah [Zallet](https://github.com/zcash/zallet). `zcashd`, implementasi node asli, telah mencapai penghentian dukungan otomatis pada 18 Juli 2026 dan tidak lagi dikelola - lihat panduan migrasi [zcashd ke Zebra dan Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet memungkinkan pengujian node dalam kondisi nyata tanpa risiko finansial.
 
-Pengembang node dapat:
+Developer node dapat:
 
 - Validasi propagasi blok
 - Uji antarmuka RPC
@@ -55,7 +55,7 @@ Pemula dapat mempelajari fitur-fitur Zcash seperti penambangan, membuat transaks
 Tutorial komunitas dan dokumentasi menyediakan akses ke **faucet Testnet, explorer, dan panduan**.
 
 
-## Kasus Penggunaan Real Testnet
+## Use Cases Real Testnet
 
 ### 1. Pengujian Developer (Dompet / Aplikasi)
 
@@ -116,7 +116,7 @@ Pengguna tingkat lanjut juga dapat menjalankan **Testnet kustom atau lingkungan 
 - Mengikuti semua aturan Zcash: dapat dikirim, ditambang, dan digunakan dalam alamat terlindungi
 
 **Contoh:**  
-Seorang pengembang dapat mengirim 100 TAZ dari satu alamat Testnet ke alamat lainnya untuk menguji fitur dompet tanpa mempertaruhkan ZEC yang asli.
+Seorang developer dapat mengirim 100 TAZ dari satu alamat Testnet ke alamat lainnya untuk menguji fitur dompet tanpa mempertaruhkan ZEC yang asli.
 
 Anggaplah TAZ sebagai **"uang mainan" untuk Zcash Testnet**.
 
@@ -137,7 +137,7 @@ Sebuah **faucet** adalah layanan yang memberikan koin TAZ gratis untuk keperluan
 
 **Mengapa ini penting:**  
 - Pengujian aman tanpa mempertaruhkan ZEC  
-- Aksesibilitas bagi pemula dan pengembang  
+- Aksesibilitas bagi pemula dan developer  
 - Prototyping cepat untuk dompet, exchange, dan aplikasi
 
 
@@ -203,6 +203,6 @@ Setelah diaktifkan, dompet dapat mengirim dan menerima TAZ, menguji transaksi te
 ## Ringkasan Cepat
 
 - **Testnet Zcash** adalah lingkungan sandbox yang aman untuk membangun, menguji, dan bereksperimen  
-- Kasus penggunaan: pengujian developer, pengujian node, integrasi exchange, penelitian, dan edukasi  
+- Use Cases: pengujian developer, pengujian node, integrasi exchange, penelitian, dan edukasi  
 - **Koin TAZ** digunakan sebagai pengganti ZEC dan tidak memiliki nilai nyata  
 - Testnet sangat penting sebelum meluncurkan fitur secara live di Mainnet

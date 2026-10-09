@@ -131,6 +131,6 @@ Pekerjaan terkait sudah terlihat. [Zakura](https://zechub.wiki/zcash-tech/zakura
 ## Sumber Daya
 
 - [Tachyon: Menskalakan Zcash dengan Oblivious Synchronization](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 April 2025, proposal asli
-- [Tachyaction at a Distance](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 Mei 2025, implikasi konsensus dan protokol, ditulis untuk pengembang protokol
+- [Tachyaction at a Distance](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 Mei 2025, implikasi konsensus dan protokol, ditulis untuk developer protokol
 - [blog Sean Bowe](https://seanbowe.com/blog/) - tempat seri Tachyon diterbitkan
 - [tachyon.z.cash](https://tachyon.z.cash/) - situs proyek

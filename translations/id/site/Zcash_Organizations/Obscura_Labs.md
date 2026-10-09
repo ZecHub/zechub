@@ -9,7 +9,7 @@ Obscura Labs adalah organisasi independen yang terdaftar di Nigeria dengan fokus
 
 Misinya adalah untuk membangun infrastruktur, alat, dan jalur adopsi praktis yang meningkatkan aksesibilitas, kegunaan, desentralisasi, dan ketahanan jangka panjang dari ekosistem Zcash di seluruh Afrika.
 
-Organisasi ini bertujuan untuk mendukung penggunaan teknologi finansial yang menjaga privasi dengan meningkatkan akses ke infrastruktur yang andal, mendukung pengembang dan bisnis, mengedukasi pengguna, serta memperkuat komunitas Zcash lokal.
+Organisasi ini bertujuan untuk mendukung penggunaan teknologi finansial yang menjaga privasi dengan meningkatkan akses ke infrastruktur yang andal, mendukung developer dan bisnis, mengedukasi pengguna, serta memperkuat komunitas Zcash lokal.
 
 ## Latar Belakang
 
@@ -17,11 +17,11 @@ Obscura Labs didirikan oleh Chidi Olisa, pemimpin dari Zcash Nigeria.
 
 Sebelum mendirikan Obscura Labs, Chidi berkontribusi pada ekosistem Zcash melalui pembangunan komunitas, edukasi, advokasi, pembuatan konten lokal, dukungan pengguna, dan inisiatif yang dirancang untuk memperkenalkan privasi finansial dan Zcash kepada masyarakat di Nigeria dan bagian lain dari Afrika.
 
-Interaksi dengan pengguna, pelajar, pengembang, bisnis, dan anggota komunitas menyoroti beberapa hambatan terhadap adopsi Zcash yang lebih luas di seluruh Afrika. Hal ini mencakup infrastruktur yang terbatas, kesulitan mengakses ZEC melalui mata uang lokal, dukungan pengembang yang tidak memadai, kurangnya sumber daya edukasi yang terlokalisasi, dan integrasi yang terbatas dengan sistem pembayaran sehari-hari.
+Interaksi dengan pengguna, pelajar, developer, bisnis, dan anggota komunitas menyoroti beberapa hambatan terhadap adopsi Zcash yang lebih luas di seluruh Afrika. Hal ini mencakup infrastruktur yang terbatas, kesulitan mengakses ZEC melalui mata uang lokal, dukungan developer yang tidak memadai, kurangnya sumber daya edukasi yang terlokalisasi, dan integrasi yang terbatas dengan sistem pembayaran sehari-hari.
 
 Obscura Labs dibuat sebagai tanggapan terhadap tantangan-tantangan ini.
 
-Organisasi ini didasarkan pada pandangan bahwa kesadaran saja tidak cukup untuk adopsi yang berkelanjutan. Komunitas juga membutuhkan infrastruktur yang andal, produk yang mudah diakses, alat pengembang, akses keuangan, edukasi, dan dukungan institusional jangka panjang.
+Organisasi ini didasarkan pada pandangan bahwa kesadaran saja tidak cukup untuk adopsi yang berkelanjutan. Komunitas juga membutuhkan infrastruktur yang andal, produk yang mudah diakses, alat developer, akses keuangan, edukasi, dan dukungan institusional jangka panjang.
 
 ## Visi
 
@@ -31,7 +31,7 @@ Organisasi ini bercita-cita untuk menjadi kontributor utama Afrika bagi ekosiste
 
 * Mengoperasikan infrastruktur Zcash yang andal.
 * Meningkatkan akses ke ZEC dan pembayaran yang menjaga privasi.
-* Mendukung pengguna, pengembang, bisnis, dan organisasi komunitas.
+* Mendukung pengguna, developer, bisnis, dan organisasi komunitas.
 * Membangun alat dan layanan praktis.
 * Mendorong pengembangan komunitas Zcash yang berkelanjutan.
 * Meningkatkan keragaman geografis dari infrastruktur Zcash dan partisipasi ekosistem.
@@ -42,9 +42,9 @@ Obscura Labs pada awalnya berencana untuk memfokuskan pekerjaannya di empat area
 
 ### Pengembangan Infrastruktur
 
-Infrastruktur yang andal sangat diperlukan bagi dompet, aplikasi, pengembang, exchange, layanan pembayaran, dan pengguna untuk berinteraksi dengan jaringan Zcash.
+Infrastruktur yang andal sangat diperlukan bagi dompet, aplikasi, developer, exchange, layanan pembayaran, dan pengguna untuk berinteraksi dengan jaringan Zcash.
 
-Obscura Labs mengoperasikan dan mengembangkan infrastruktur Zcash di Afrika untuk meningkatkan aksesibilitas jaringan, keragaman geografis, keandalan, dan ketahanan. Pekerjaan ini ditujukan untuk mengurangi ketergantungan pada sejumlah kecil operator infrastruktur dan menyediakan layanan yang dapat diandalkan bagi pengguna dan pengembang di pasar Afrika.
+Obscura Labs mengoperasikan dan mengembangkan infrastruktur Zcash di Afrika untuk meningkatkan aksesibilitas jaringan, keragaman geografis, keandalan, dan ketahanan. Pekerjaan ini ditujukan untuk mengurangi ketergantungan pada sejumlah kecil operator infrastruktur dan menyediakan layanan yang dapat diandalkan bagi pengguna dan developer di pasar Afrika.
 
 Inisiatif infrastruktur dapat mencakup:
 
@@ -54,11 +54,11 @@ Inisiatif infrastruktur dapat mencakup:
 * Layanan lightwalletd.
 * DNS seeders.
 * Pemantauan infrastruktur publik.
-* API yang berfokus pada pengembang.
+* API yang berfokus pada developer.
 * Alat integrasi dan dokumentasi.
 * Layanan tambahan yang mengurangi hambatan untuk membangun di atas Zcash.
 
-Dengan membuat infrastruktur menjadi lebih mudah diakses, Obscura Labs bertujuan untuk mendukung pengembang, dompet, aplikasi, bisnis, dan layanan yang berintegrasi dengan ekosistem Zcash.
+Dengan membuat infrastruktur menjadi lebih mudah diakses, Obscura Labs bertujuan untuk mendukung developer, dompet, aplikasi, bisnis, dan layanan yang berintegrasi dengan ekosistem Zcash.
 
 ### Adopsi dan Akses Keuangan
 
@@ -88,17 +88,17 @@ Inisiatif komunitasnya dapat mencakup:
 * Acara komunitas.
 * Konten terlokalisasi.
 * Terjemahan.
-* Pelatihan pengembang.
+* Pelatihan developer.
 * Onboarding pengguna.
 * Kemitraan ekosistem.
 * Program pengembangan kontributor.
 * Dukungan untuk komunitas Zcash regional.
 
-Tujuan organisasi ini tidak terbatas pada peningkatan kesadaran umum. Organisasi ini juga berupaya membantu komunitas mengembangkan pengetahuan dan sumber daya yang dibutuhkan untuk mengedukasi pengguna, mendukung adopsi lokal, melatih pengembang, serta menghasilkan advokat dan kontributor ekosistem di masa depan.
+Tujuan organisasi ini tidak terbatas pada peningkatan kesadaran umum. Organisasi ini juga berupaya membantu komunitas mengembangkan pengetahuan dan sumber daya yang dibutuhkan untuk mengedukasi pengguna, mendukung adopsi lokal, melatih developer, serta menghasilkan advokat dan kontributor ekosistem di masa depan.
 
 ### Kolaborasi Ekosistem
 
-Obscura Labs bekerja sama dengan organisasi, pengembang, pendidik, peneliti, bisnis, operator infrastruktur, dan pemimpin komunitas di seluruh ekosistem Zcash.
+Obscura Labs bekerja sama dengan organisasi, developer, pendidik, peneliti, bisnis, operator infrastruktur, dan pemimpin komunitas di seluruh ekosistem Zcash.
 
 Kolaborasi ini dimaksudkan untuk mendukung inisiatif yang:
 
@@ -138,7 +138,7 @@ lightwalletd menyediakan data blockchain ke dompet light client tanpa mengharusk
 
 Obscura Labs sedang mengembangkan sistem pemantauan publik dan sistem status untuk infrastrukturnya.
 
-Sistem ini ditujukan untuk meningkatkan transparansi operasional dengan memungkinkan pengguna dan pengembang untuk memeriksa ketersediaan dan status layanan yang dapat diakses secara publik.
+Sistem ini ditujukan untuk meningkatkan transparansi operasional dengan memungkinkan pengguna dan developer untuk memeriksa ketersediaan dan status layanan yang dapat diakses secara publik.
 
 ### ZecFiat
 

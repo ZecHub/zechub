@@ -12219,7 +12219,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -12275,7 +12275,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "guides/Akash_Network_Zcashd.md": {
@@ -12315,7 +12315,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "guides/Free2z_Live.md": {
@@ -12387,7 +12387,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "guides/Using_ZEC_Privately.md": {
@@ -12403,7 +12403,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "guides/Viewing_Key_Transaction_Export.md": {
@@ -12427,7 +12427,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "guides/Zcash_Devtool.md": {
@@ -12435,7 +12435,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "guides/Zcash_Improvement_Proposals.md": {
@@ -12491,7 +12491,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Privacy_Tools/Namada_Protocol.md": {
@@ -12523,7 +12523,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Privacy_Tools/Tor_and_I2P.md": {
@@ -12547,7 +12547,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Research/Dash_Zcash_Orchard_Integration.md": {
@@ -12555,7 +12555,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -12563,7 +12563,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -12571,7 +12571,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -12779,7 +12779,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Using_Zcash/Faucets.md": {
@@ -12787,7 +12787,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Using_Zcash/Memos.md": {
@@ -12803,7 +12803,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Using_Zcash/Non-Custodial_Exchanges.md": {
@@ -12835,7 +12835,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -12867,7 +12867,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Using_Zcash/Zimppy.md": {
@@ -12875,7 +12875,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Community/Arborist_Calls.md": {
@@ -12883,7 +12883,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Community/Community_Blogs.md": {
@@ -12891,7 +12891,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Community/Community_Links.md": {
@@ -12899,7 +12899,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
@@ -12907,7 +12907,7 @@
       "src_commit": "0ec69a7fc2f476a804e82c3d1e292d07dfde3c2b",
       "engine": "llm",
       "mode": "diff",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -12939,7 +12939,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Community/Zcash_Governance.md": {
@@ -12947,7 +12947,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Community/Zcash_Media.md": {
@@ -12971,7 +12971,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Community/ZFAV_Club/Guides/Website_On_IPFS.md": {
@@ -13003,7 +13003,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Organizations/Sovright.md": {
@@ -13027,7 +13027,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Organizations/Zingo_Labs.md": {
@@ -13051,7 +13051,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Social_Media/Cryptonote.md": {
@@ -13059,7 +13059,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Social_Media/Hash_Functions.md": {
@@ -13171,7 +13171,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -13187,7 +13187,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Tech/Pepper_Sync.md": {
@@ -13195,7 +13195,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -13211,7 +13211,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -13227,7 +13227,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
@@ -13235,7 +13235,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -13243,7 +13243,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -13275,7 +13275,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -13299,7 +13299,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -13315,7 +13315,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
@@ -13323,7 +13323,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -13443,7 +13443,7 @@
       "src_commit": "49adb4bc5f4d2ac1bfcaad0ee49d2d29328afd2d",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Research/zcash-foundations-series/article-4/article-4-merkle-trees.md": {
@@ -13459,7 +13459,7 @@
       "src_commit": "49adb4bc5f4d2ac1bfcaad0ee49d2d29328afd2d",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -13467,7 +13467,7 @@
       "src_commit": "49adb4bc5f4d2ac1bfcaad0ee49d2d29328afd2d",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Zcash_Community/Zcon_Archive.md": {
@@ -13507,7 +13507,7 @@
       "src_commit": "49adb4bc5f4d2ac1bfcaad0ee49d2d29328afd2d",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "guides/My_First_Zcash_Workbook.md": {
@@ -13515,7 +13515,7 @@
       "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "Start_Here/ZEC_Use_Cases.md": {
@@ -13523,7 +13523,7 @@
       "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termfix",
       "edited": false
     },
     "tutorials/shieldedNewsletter/mynewsletter.md": {
@@ -13595,6 +13595,86 @@
       "src_commit": "0ec69a7fc2f476a804e82c3d1e292d07dfde3c2b",
       "engine": "llm",
       "mode": "diff",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "contribute/Community_Infrastructure.md": {
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "guides/Maya_Protocol.md": {
+      "src": "sha256:41226a19b456601de6e29ce6748123d1210dea75fb4ce1dde063e1342c62689a",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Research/zcash-foundations-series/article-5/article-5-zero-knowledge-proofs.md": {
+      "src": "sha256:fd83aeb5b3f9e403696fb361032c7e63d1f2aa656878d3d5770dc8ddba05f35d",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Research/ZK_Shielded_Asset_Platforms.md": {
+      "src": "sha256:96a644e098ebc238b8f1ce86ca23857bef4e50db2add53718466c4d6edc5b55f",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Organizations/CoinHolder_Directed_Retroactive_Grants.md": {
+      "src": "sha256:8a00191f79d189375113f2f1988f9b750da3b7cad90326e20ced77d1353d719d",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Organizations/Shielded_Labs.md": {
+      "src": "sha256:7d975f975add9d02465245c41599e295d5e65ec755b69e0615440cc27cd76fc3",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Heartwood.md": {
+      "src": "sha256:9145779db9ed475c33191de35ad27c39f277fe310665a4e0fd4bce61a3a16114",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/NU6.md": {
+      "src": "sha256:efbffcce0b7673ffb6fecb206b78315b4d95e9255f5eb8e8ff62bb4d811385fd",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Viewing_Keys.md": {
+      "src": "sha256:bcde30ace97dff8a720b4d7fcd5695bad04cc54a2b6c7c615f1b958f99e50625",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
+      "src": "sha256:e4d3b1088fbc0fbeb8a69fc401cb5ef81dacbfee34cefc8a84ee12a70b3f9c5b",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
     }

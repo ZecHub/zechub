@@ -4,7 +4,7 @@
 
 # <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Tautan Komunitas Zcash
 
-Komunitas Zcash adalah sekelompok orang yang dinamis yang bekerja keras untuk menjadikan ZEC salah satu mata uang kripto penjaga privasi yang paling banyak digunakan di dunia. Komunitas ini terdiri dari berbagai individu dari seluruh dunia - pengembang, pendidik, advokat, dan pembangun - yang disatukan oleh keyakinan bersama akan privasi finansial.
+Komunitas Zcash adalah sekelompok orang yang dinamis yang bekerja keras untuk menjadikan ZEC salah satu mata uang kripto penjaga privasi yang paling banyak digunakan di dunia. Komunitas ini terdiri dari berbagai individu dari seluruh dunia - developer, pendidik, advokat, dan pembangun - yang disatukan oleh keyakinan bersama akan privasi finansial.
 
 Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific rules and terminology.
 
@@ -17,7 +17,7 @@ Komunitas Zcash sangat aktif dalam komunitasnya <span translate="no" class="notr
 ### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - Server komunitas utama
-- [Zcash R&D](https://discord.gg/xpzPR53xtU) - Diskusi protokol dan pengembang
+- [Zcash R&D](https://discord.gg/xpzPR53xtU) - Diskusi protokol dan developer
 - [Zcash Foundation](https://discord.gg/na6QZNd) - Pembaruan foundation dan tata kelola
 - [ZecHub DAO](https://discord.gg/zcash) - Kontributor DAO komunitas
 

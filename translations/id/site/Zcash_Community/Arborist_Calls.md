@@ -40,7 +40,7 @@ Halaman Foundation adalah sumber kebenaran untuk tautan pendaftaran, berkas kale
 Arborist Calls berguna untuk:
 
 - Insinyur protokol dan peneliti
-- Pengembang infrastruktur node, dompet, SDK, dan light wallet
+- Developer infrastruktur node, dompet, SDK, dan light wallet
 - Penerima hibah yang karyanya bersinggungan dengan konsensus, peningkatan jaringan, atau dependensi protokol
 - Anggota komunitas yang ingin mengikuti pengambilan keputusan teknis secara publik
 

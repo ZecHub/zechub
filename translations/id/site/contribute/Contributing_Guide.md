@@ -38,7 +38,7 @@ Setiap kontribusi untuk ZecHub harus mengikuti panduan gaya [ZecHub](https://zec
 
 ### Cara kamu dapat berkontribusi
 
-ZecHub adalah proyek berbasis komunitas yang bertujuan untuk menyediakan dukungan dan sumber daya bagi pengguna dan pengembang Zcash. Ada banyak cara untuk terlibat dengan ZecHub, termasuk menulis untuk buletin mingguan kami, berkontribusi pada basis pengetahuan kami, atau membantu proyek pengembangan.
+ZecHub adalah proyek berbasis komunitas yang bertujuan untuk menyediakan dukungan dan sumber daya bagi pengguna dan developer Zcash. Ada banyak cara untuk terlibat dengan ZecHub, termasuk menulis untuk buletin mingguan kami, berkontribusi pada basis pengetahuan kami, atau membantu proyek pengembangan.
 
 Berikut adalah jenis kontribusi yang saat ini diterima oleh ZecHub:
 
