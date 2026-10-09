@@ -15,7 +15,8 @@ files, so a decision made once applies everywhere.
 | `schema.json` | JSON Schema describing both kinds of file. |
 | `lib/glossary.mjs` | Loader, validator and matcher. Pure code, no file access. |
 | `validate.mjs` | Checks every file. Runs in CI. |
-| `review-kit.mjs` | Turns a glossary into a review table (`export`) and a filled table back into the glossary (`import`). Added with the first language file. |
+| `review-kit.mjs` | Turns a glossary into a review table (`export`) and a filled table back into the glossary (`import`). Logic in `lib/review-kit.mjs`. |
+| `test-fixtures/` | The two real Indonesian review tables, used by the tests. |
 
 Names of products, companies and protocols (Zcash, Orchard, Zashi, ...) are
 not in these files. They stay in English in every language and are listed in
@@ -31,6 +32,10 @@ a protected name or a glossary entry, never both; CI checks this.
    node translation/glossary/review-kit.mjs export id --kit pages --out id-pages.md
    node translation/glossary/review-kit.mjs export id --kit ui --dict <website>/dictionaries/id.json --en-dict <website>/dictionaries/en.json --out id-ui.md
    ```
+
+   `--brands <website>/scripts/lib/menu-source.mjs` (or a text file with one
+   name per line) adds the website's `MENU_BRANDS` to the names that are
+   listed instead of reviewed. `--no-evidence` skips the corpus counts.
 
    The pages kit lists the words used in wiki pages, with how often they occur
    in English and what the translated pages contain today. The UI kit lists

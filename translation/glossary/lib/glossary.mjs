@@ -397,7 +397,7 @@ const label = (item) => (item.kind === "term" ? `terms.${item.key}` : `phrases["
 //     this. It may be deliberate, so both entries pass once each says when it
 //     applies (a non-empty `context`); until then the clash is an error, so
 //     it reaches a human instead of the prompt.
-function clashErrors(approved, byId) {
+function clashErrors(approved, byId, { ignoreContext = false } = {}) {
   const errors = [];
   const hasContext = (it) => isStr(it.entry.context ?? "");
   const reported = new Set();
@@ -413,7 +413,7 @@ function clashErrors(approved, byId) {
       const a = approved[i];
       const b = approved[j];
       if (!overlaps(a, b) || sameMeaning(a, b, byId)) continue;
-      if (hasContext(a) && hasContext(b)) continue;
+      if (!ignoreContext && hasContext(a) && hasContext(b)) continue;
       if (i < j && (a.kind === "term" || b.kind === "term")) {
         const fb = new Set(entryForms(b.entry).map((f) => f.toLowerCase()));
         const shared = entryForms(a.entry).find((f) => fb.has(f.toLowerCase()));
@@ -634,6 +634,17 @@ export function validateLocale(glossary, { termsEn, preserveVerbatim = [], siteD
   const approved = items.filter((it) => it.entry && it.entry.status === "approved" && isStr(it.entry.target) && APPLIES_TO.includes(it.entry.applies_to));
   errors.push(...clashErrors(approved, byId));
   return errors;
+}
+
+/**
+ * Every pair of approved entries that renders one English word two ways,
+ * including the deliberate splits that carry a context. The review kit shows
+ * these to reviewers so a split is confirmed by a person, not inherited.
+ */
+export function renderingClashes(glossary, termsEn) {
+  const byId = termsById(termsEn);
+  const approved = entries(glossary).filter((it) => it.entry?.status === "approved" && isStr(it.entry.target) && APPLIES_TO.includes(it.entry.applies_to));
+  return clashErrors(approved, byId, { ignoreContext: true }).map(({ refs, message }) => ({ refs, message }));
 }
 
 /** Throw a GlossaryError carrying every problem, or return the glossary. */

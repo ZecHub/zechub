@@ -1,0 +1,2027 @@
+{
+  "locale": "id",
+  "version": 4,
+  "meta": {
+    "language_name": "Indonesian",
+    "native_name": "Bahasa Indonesia",
+    "engine": "llm",
+    "script": "Latn",
+    "dir": "ltr",
+    "language_lead": [],
+    "last_review": "2026-10-09"
+  },
+  "style": {
+    "variety": "Natural, fluent, standard Indonesian as used in Indonesian technical writing, not Malay.",
+    "register": {
+      "default": "anda",
+      "rules": [
+        {
+          "register": "kamu",
+          "prefixes": [
+            "guides/",
+            "tutorials/",
+            "Using_Zcash/",
+            "Zcash_Use_Cases/",
+            "Privacy_Tools/",
+            "ZFAV_Club/",
+            "Start_Here/",
+            "contribute/"
+          ]
+        }
+      ],
+      "ui": "anda",
+      "text": {
+        "kamu": "Address the reader informally as \"kamu\" (friendly tone for tutorials and guides). Never use \"Anda\".",
+        "anda": "Address the reader formally as \"Anda\" (technical and reference pages). Never use \"kamu\"."
+      },
+      "forbidden_by_register": {
+        "kamu": [
+          "Anda"
+        ],
+        "anda": [
+          "kamu"
+        ]
+      }
+    },
+    "english_in_brackets": "never",
+    "loanwords": "keep-english",
+    "capitalise_kept_english_at_sentence_start": true,
+    "abbreviations_with_full_stop": [
+      "dll",
+      "dsb",
+      "dst",
+      "yth",
+      "tsb",
+      "spt",
+      "a.n",
+      "s.d",
+      "No"
+    ],
+    "notes": "Reviewer (register): Depends on the purpose: \"kamu\" is friendlier, \"Anda\" is more formal. Maybe use \"kamu\" for tutorials and guides, \"Anda\" for technical or formal pages."
+  },
+  "terms": {
+    "wallet": {
+      "target": "dompet",
+      "forms": [
+        "dompet"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-1"
+    },
+    "shielded": {
+      "target": "terlindungi",
+      "forms": [
+        "terlindungi"
+      ],
+      "examples": [
+        "alamat terlindungi",
+        "transaksi terlindungi",
+        "pool terlindungi"
+      ],
+      "rejected": [
+        {
+          "text": "terproteksi"
+        },
+        {
+          "text": "terlindung",
+          "word": true
+        },
+        {
+          "text": "terenkripsi",
+          "only_when_english_has": [
+            "shielded"
+          ],
+          "unless_english_has": [
+            "encrypt"
+          ]
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-2"
+    },
+    "transaction": {
+      "target": "transaksi",
+      "forms": [
+        "transaksi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-3"
+    },
+    "privacy": {
+      "target": "privasi",
+      "forms": [
+        "privasi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-4"
+    },
+    "pool": {
+      "target": "pool",
+      "keep_english": true,
+      "forms": [
+        "pool",
+        "pools",
+        "Pool",
+        "Pools"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-5"
+    },
+    "proof": {
+      "target": "proof",
+      "keep_english": true,
+      "forms": [
+        "proof",
+        "proofs",
+        "Proof",
+        "Proofs"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-6"
+    },
+    "node": {
+      "target": "node",
+      "keep_english": true,
+      "forms": [
+        "node",
+        "nodes",
+        "Node",
+        "Nodes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-7"
+    },
+    "transparent": {
+      "target": "transparan",
+      "forms": [
+        "transparan"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-8"
+    },
+    "exchange": {
+      "target": "exchange",
+      "keep_english": true,
+      "forms": [
+        "exchange",
+        "exchanges",
+        "Exchange",
+        "Exchanges"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Already familiar to the Indonesian crypto community",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-9"
+    },
+    "memo": {
+      "target": "memo",
+      "keep_english": true,
+      "forms": [
+        "memo",
+        "memos",
+        "Memo",
+        "Memos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-10"
+    },
+    "viewing-key": {
+      "target": "viewing key",
+      "keep_english": true,
+      "forms": [
+        "viewing key",
+        "viewing keys"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-11"
+    },
+    "fee": {
+      "target": "biaya",
+      "forms": [
+        "biaya"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-12"
+    },
+    "swap": {
+      "target": "swap",
+      "keep_english": true,
+      "forms": [
+        "swap",
+        "swaps",
+        "Swap",
+        "Swaps"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-13"
+    },
+    "custodial": {
+      "target": "kustodial",
+      "forms": [
+        "kustodial"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-14"
+    },
+    "zero-knowledge": {
+      "target": "zero-knowledge",
+      "keep_english": true,
+      "forms": [
+        "zero-knowledge",
+        "Zero-knowledge",
+        "Zero-Knowledge",
+        "zero knowledge",
+        "Zero Knowledge"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-15"
+    },
+    "network-upgrade": {
+      "target": "peningkatan jaringan",
+      "forms": [
+        "peningkatan jaringan"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-16"
+    },
+    "mining": {
+      "target": "penambangan",
+      "forms": [
+        "penambangan",
+        "menambang"
+      ],
+      "inflection": "Noun: penambangan. Verb: menambang.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Verb: menambang. Noun: penambangan",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-17"
+    },
+    "miner": {
+      "target": "penambang",
+      "forms": [
+        "penambang"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-18"
+    },
+    "full-node": {
+      "target": "full node",
+      "keep_english": true,
+      "forms": [
+        "full node",
+        "full nodes",
+        "Full node",
+        "Full Node",
+        "Full Nodes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-19"
+    },
+    "turnstile": {
+      "target": "turnstile",
+      "keep_english": true,
+      "forms": [
+        "turnstile",
+        "turnstiles",
+        "Turnstile",
+        "Turnstiles"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-20"
+    },
+    "spending-key": {
+      "target": "spending key",
+      "keep_english": true,
+      "forms": [
+        "spending key",
+        "spending keys",
+        "Spending key",
+        "Spending Key"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-21"
+    },
+    "seed-phrase": {
+      "target": "frasa pemulihan",
+      "forms": [
+        "frasa pemulihan"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-22"
+    },
+    "light-client": {
+      "target": "light client",
+      "keep_english": true,
+      "forms": [
+        "light client",
+        "light clients",
+        "Light client",
+        "Light Client"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "indonesian-glossary-f-reviewed.md#terms-23"
+    },
+    "developer": {
+      "target": "developer",
+      "keep_english": true,
+      "forms": [
+        "developer",
+        "developers",
+        "Developer",
+        "Developers"
+      ],
+      "rejected": [
+        {
+          "text": "pengembang",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"Developer\" is already familiar to the local community. \"pengembangan\" (development) is correct and is not rejected.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-10; reviewer follow-up 2026-10-09"
+    },
+    "dashboard": {
+      "target": "dashboard",
+      "keep_english": true,
+      "forms": [
+        "dashboard",
+        "dashboards",
+        "Dashboard",
+        "Dashboards"
+      ],
+      "rejected": [
+        {
+          "text": "dasbor",
+          "ci": true
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Keep in English, it is a familiar term.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-13; reviewer follow-up 2026-10-09"
+    },
+    "visualizer": {
+      "target": "visualizer",
+      "keep_english": true,
+      "forms": [
+        "visualizer",
+        "visualizers",
+        "Visualizer",
+        "visualiser"
+      ],
+      "rejected": [
+        {
+          "text": "visualisator",
+          "ci": true
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"Visualisator\" is rarely used. \"Visualisasi\" (visualizing) is fine.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-5; reviewer follow-up 2026-10-09"
+    },
+    "use-case": {
+      "target": "use case",
+      "keep_english": true,
+      "forms": [
+        "use case",
+        "use cases",
+        "Use case",
+        "Use cases",
+        "Use Case",
+        "Use Cases"
+      ],
+      "examples": [
+        "Use Cases",
+        "Use Cases Zcash"
+      ],
+      "rejected": [
+        {
+          "text": "kasus penggunaan",
+          "ci": true
+        },
+        {
+          "text": "contoh penggunaan",
+          "ci": true
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Supersedes 'Contoh Penggunaan' from the menu review.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-31; reviewer follow-up 2026-10-09"
+    },
+    "brand": {
+      "target": "brand",
+      "keep_english": true,
+      "forms": [
+        "brand",
+        "brands",
+        "Brand",
+        "Brands"
+      ],
+      "rejected": [
+        {
+          "text": "merek",
+          "word": true,
+          "ci": true,
+          "unless_english_has": [
+            "trademark"
+          ]
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"merek dagang\" (trademark) is correct.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-6; reviewer follow-up 2026-10-09"
+    },
+    "treasury": {
+      "target": "treasury",
+      "keep_english": true,
+      "forms": [
+        "treasury",
+        "treasuries",
+        "Treasury"
+      ],
+      "examples": [
+        "Treasury Privat Komunitas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The accurate translation is \"kas\", but \"treasury\" is already familiar in the community.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-37; reviewer follow-up 2026-10-09"
+    },
+    "top-up": {
+      "target": "top up",
+      "keep_english": true,
+      "forms": [
+        "top up",
+        "top ups",
+        "top-up",
+        "top-ups",
+        "Top up",
+        "Top Up",
+        "Top Ups",
+        "Top-up",
+        "Top-ups"
+      ],
+      "examples": [
+        "Top Up Seluler"
+      ],
+      "rejected": [
+        {
+          "text": "isi ulang pulsa",
+          "ci": true
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"Top up\" is already familiar in Indonesia. \"Pulsa\" is too narrow, it is not only airtime.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-26; reviewer follow-up 2026-10-09"
+    },
+    "tools": {
+      "target": "alat",
+      "forms": [
+        "alat",
+        "Alat"
+      ],
+      "context": "The word on its own, including the menu entry \"Tools\". Not in the section name \"Privacy Tools\", which is \"Tools Privasi\".",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-30; reviewer follow-up 2026-10-09"
+    },
+    "newsletter": {
+      "target": "newsletter",
+      "keep_english": true,
+      "forms": [
+        "newsletter",
+        "newsletters",
+        "Newsletter",
+        "Newsletters"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The accurate translation is \"Buletin\", but \"Newsletter\" is kept because it is already familiar.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-7; reviewer follow-up 2026-10-09"
+    },
+    "sitemap": {
+      "target": "sitemap",
+      "keep_english": true,
+      "forms": [
+        "sitemap",
+        "Sitemap"
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Keep in English. \"Peta Situs\" exists but is rarely used.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-46; reviewer follow-up 2026-10-09"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "Terima Pembayaran",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-33"
+    },
+    "Akash Network": {
+      "target": "Akash Network",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-63"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-2"
+    },
+    "Avalanche RedBridge": {
+      "target": "Avalanche RedBridge",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-64"
+    },
+    "Block Explorers": {
+      "target": "Block Explorer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-21"
+    },
+    "Blockchain Explorers": {
+      "target": "Blockchain Explorer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-67"
+    },
+    "Brand": {
+      "target": "Brand",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Merek"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Keep in English.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-52"
+    },
+    "BTCPayServer Plugin": {
+      "target": "Plugin BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-69"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "Plugin BTCPayServer Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "Membeli ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-16"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "CoinHolder Directed Retroactive Grants",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-53"
+    },
+    "Community": {
+      "target": "Komunitas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "Blog Komunitas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-41"
+    },
+    "Community Forum": {
+      "target": "Forum Komunitas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-43"
+    },
+    "Community Links": {
+      "target": "Tautan Komunitas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-42"
+    },
+    "Community Projects": {
+      "target": "Proyek Komunitas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-44"
+    },
+    "Contribute": {
+      "target": "Berkontribusi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-12"
+    },
+    "Custodial Exchanges": {
+      "target": "Exchange Kustodial",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-78"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-48"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "Dashboard",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Dasbor"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Keep in English, it is a familiar term.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-13"
+    },
+    "Developers": {
+      "target": "Developer",
+      "rejected": [
+        {
+          "text": "Pengembang"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "\"Developer\" is already familiar to the local community.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-10"
+    },
+    "Donate": {
+      "target": "Donasi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-8"
+    },
+    "Donations": {
+      "target": "Donasi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-38"
+    },
+    "Ecosystem": {
+      "target": "Ekosistem",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-40"
+    },
+    "Exchanges": {
+      "target": "Exchange",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-20"
+    },
+    "Explore": {
+      "target": "Jelajahi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-9"
+    },
+    "Extras": {
+      "target": "Ekstra",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-19"
+    },
+    "Faucets": {
+      "target": "Faucet",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "Untuk Fork & Pemelihara",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "Fork zechub",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork zechub-wiki",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-55"
+    },
+    "Freelance Privacy": {
+      "target": "Privasi Freelance",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-34"
+    },
+    "Full Explore": {
+      "target": "Jelajahi Lengkap",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "Glosarium & FAQ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-83"
+    },
+    "Glossary & FAQs": {
+      "target": "Glosarium & FAQ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "Tata Kelola",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-4"
+    },
+    "Guides": {
+      "target": "Panduan",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "Cara Berpartisipasi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-25"
+    },
+    "Journalist Privacy": {
+      "target": "Privasi Jurnalis",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-35"
+    },
+    "Keeping Records": {
+      "target": "Menyimpan Catatan",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-36"
+    },
+    "Memos": {
+      "target": "Memo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-25"
+    },
+    "Mobile Top Ups": {
+      "target": "Top Up Seluler",
+      "rejected": [
+        {
+          "text": "Isi Ulang Pulsa",
+          "ci": true
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "\"Top up\" is already familiar in Indonesia. \"Pulsa\" is too narrow, it is not only airtime.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-26"
+    },
+    "More": {
+      "target": "Lainnya",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "Navigasi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "Newsletter",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The accurate translation is \"Buletin\", but \"Newsletter\" is kept because it is already familiar.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-7"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-57"
+    },
+    "Organizations": {
+      "target": "Organisasi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-50"
+    },
+    "Overview": {
+      "target": "Ikhtisar",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-76"
+    },
+    "Pay for AI": {
+      "target": "Bayar untuk AI",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-84"
+    },
+    "Payment Processors": {
+      "target": "Pemroses Pembayaran",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-28"
+    },
+    "Payment Request URIs": {
+      "target": "URI Permintaan Pembayaran",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-27"
+    },
+    "Podcast": {
+      "target": "Podcast",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-36"
+    },
+    "Privacy Tools": {
+      "target": "Tools Privasi",
+      "rejected": [
+        {
+          "text": "Alat Privasi"
+        }
+      ],
+      "context": "Section name (menus and the Privacy_Tools pages).",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "\"Alat Privasi\" is too literal. \"Tools\" is already familiar in Indonesian tech writing.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-81"
+    },
+    "Private Community Treasury": {
+      "target": "Treasury Privat Komunitas",
+      "rejected": [
+        {
+          "text": "Treasury Komunitas Privat"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "The accurate translation of \"treasury\" is \"kas\", but the term \"treasury\" is already familiar in the community, so it is kept. Word order fixed so \"privat\" describes the treasury, not the community.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-37"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Raspberry Pi 4 Full Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-38"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Raspberry pi 4 Zebra Node",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-39"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Raspberry Pi Zcashd Node",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Node Zcashd Raspberry Pi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Keep in English: device and software names plus \"node\".",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-60"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Raspberry Pi Zebra Node",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Node Zebra Raspberry Pi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-62"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-61"
+    },
+    "Recovering Funds": {
+      "target": "Memulihkan Dana",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-29"
+    },
+    "Research": {
+      "target": "Riset",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-42"
+    },
+    "Send Money Privately": {
+      "target": "Kirim Uang Secara Privat",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-39"
+    },
+    "Shielded Pools": {
+      "target": "Pool Terlindungi",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Rows disagreed; the steward picked the form consistent with the other approved labels. Title case, as in the other menu labels.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-45"
+    },
+    "Shop": {
+      "target": "Toko",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-77"
+    },
+    "Sitemap": {
+      "target": "Sitemap",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Keep in English. \"Peta Situs\" exists but is rarely used.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-46"
+    },
+    "Start Here": {
+      "target": "Mulai di Sini",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Rows disagreed; the steward picked the form consistent with the other approved labels. Preposition \"di\" stays lowercase (2 of 3 rows).",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-32"
+    },
+    "Store": {
+      "target": "Toko",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-48"
+    },
+    "Tools": {
+      "target": "Alat",
+      "context": "Standalone menu entry.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-30"
+    },
+    "Transactions": {
+      "target": "Transaksi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-24"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "Alamat Exchange Transparan",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Rows disagreed; the steward picked the form consistent with the other approved labels. Title case, as in the other menu labels.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-51"
+    },
+    "Tutorials": {
+      "target": "Tutorial",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "Use Cases",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Kasus Penggunaan",
+          "ci": true
+        },
+        {
+          "text": "Contoh Penggunaan",
+          "ci": true
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Supersedes 'Contoh Penggunaan' from the menu review.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-31; reviewer follow-up 2026-10-09"
+    },
+    "Use Zcash": {
+      "target": "Gunakan Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "Menggunakan Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-56"
+    },
+    "Using ZEC in DeFi": {
+      "target": "Menggunakan ZEC di DeFi",
+      "rejected": [
+        {
+          "text": "Menggunakan ZEC dalam DeFi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-58"
+    },
+    "Using ZEC Privately": {
+      "target": "Menggunakan ZEC Secara Privat",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Rows disagreed; the steward picked the form consistent with the other approved labels. As in \"Kirim Uang Secara Privat\".",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-54"
+    },
+    "Visual Identity": {
+      "target": "Identitas Visual",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-57"
+    },
+    "Visualizer": {
+      "target": "Visualizer",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Visualisator"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Keep in English. \"Visualisator\" is rarely used.",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "Visualisasi Jaringan Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-70"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "Visualisasi Alamat Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-71"
+    },
+    "Wallets": {
+      "target": "Dompet",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Demo Ywallet FROST",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-66"
+    },
+    "Zcash Community": {
+      "target": "Komunitas Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-64"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Keamanan Ekosistem Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-47"
+    },
+    "Zcash Governance": {
+      "target": "Tata Kelola Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-66"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Proposal Peningkatan Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-72"
+    },
+    "Zcash Media": {
+      "target": "Media Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-45"
+    },
+    "Zcash Organizations": {
+      "target": "Organisasi Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-69"
+    },
+    "Zcash Podcasts": {
+      "target": "Podcast Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-46"
+    },
+    "Zcash Social Media": {
+      "target": "Media Sosial Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-82"
+    },
+    "Zcash Tech": {
+      "target": "Teknologi Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-80"
+    },
+    "Zcash Use Cases": {
+      "target": "Use Cases Zcash",
+      "rejected": [
+        {
+          "text": "Kasus Penggunaan Zcash",
+          "ci": true
+        },
+        {
+          "text": "Contoh Penggunaan Zcash",
+          "ci": true
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-79; reviewer follow-up 2026-10-09"
+    },
+    "Zcon Archive": {
+      "target": "Arsip Zcon",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-49"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Arsip Zcon Vozes",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-72"
+    },
+    "Zenith Installation": {
+      "target": "Instalasi Zenith",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-74"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "Zero-knowledge vs Sistem Decoy",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-75"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "Zero-Knowledge vs Decoys",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-74"
+    },
+    "Zgo Payment Processor": {
+      "target": "Pemroses Pembayaran Zgo",
+      "rejected": [
+        {
+          "text": "Prosesor Pembayaran Zgo"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Rows disagreed; the steward picked the form consistent with the other approved labels. As in \"Pemroses Pembayaran\" (Payment Processors).",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-75"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Tutorial Zingolib dan Zaino",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#navigation-73"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIP & Hibah",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-63"
+    },
+    "Zkool Multisig": {
+      "target": "Multisig Zkool",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Rows disagreed; the steward picked the form consistent with the other approved labels. Indonesian order, as in \"Plugin BTCPayServer\" and \"Demo Ywallet FROST\".",
+      "reviewed_by": [
+        "Indonesian native-speaker reviewer"
+      ],
+      "reviewed_at": "2026-10-09",
+      "source": "menus-review-id-f_reviewed.md#menuLabels-77"
+    }
+  },
+  "gates": {
+    "passthrough_allow": [
+      "blockchain",
+      "brand",
+      "dashboard",
+      "developer",
+      "exchange",
+      "full node",
+      "light client",
+      "memo",
+      "newsletter",
+      "node",
+      "pool",
+      "proof",
+      "sitemap",
+      "smart contract",
+      "spending key",
+      "swap",
+      "token",
+      "tools",
+      "top up",
+      "treasury",
+      "turnstile",
+      "use case",
+      "viewing key",
+      "visualizer",
+      "zero-knowledge"
+    ]
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-10-09",
+      "terms": [],
+      "phrases": [],
+      "summary": "Locale metadata and style; register rules carried over from the runner's prompt_register.json."
+    },
+    {
+      "version": 2,
+      "date": "2026-10-09",
+      "terms": [
+        "custodial",
+        "exchange",
+        "fee",
+        "full-node",
+        "light-client",
+        "memo",
+        "miner",
+        "network-upgrade",
+        "node",
+        "pool",
+        "privacy",
+        "proof",
+        "seed-phrase",
+        "shielded",
+        "spending-key",
+        "swap",
+        "transaction",
+        "transparent",
+        "turnstile",
+        "viewing-key",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [],
+      "summary": "Imported indonesian-glossary-f-reviewed.md (reviewed by Indonesian native-speaker reviewer), style answers"
+    },
+    {
+      "version": 3,
+      "date": "2026-10-09",
+      "terms": [],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "Avalanche RedBridge",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Podcast",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shop",
+        "Sitemap",
+        "Store",
+        "Transactions",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Social Media",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zingolib and Zaino Tutorial"
+      ],
+      "summary": "Imported menus-review-id-f_reviewed.md (reviewed by Indonesian native-speaker reviewer)"
+    },
+    {
+      "version": 4,
+      "date": "2026-10-09",
+      "terms": [
+        "brand",
+        "dashboard",
+        "developer",
+        "mining",
+        "newsletter",
+        "shielded",
+        "sitemap",
+        "tools",
+        "top-up",
+        "treasury",
+        "use-case",
+        "visualizer"
+      ],
+      "phrases": [
+        "Mobile Top Ups",
+        "Privacy Tools",
+        "Shielded Pools",
+        "Start Here",
+        "Tools",
+        "Transparent Exchange Addresses",
+        "Use Cases",
+        "Using ZEC Privately",
+        "Zcash Use Cases",
+        "Zgo Payment Processor",
+        "Zkool Multisig"
+      ],
+      "summary": "Maintainer completion of the import's needs-maintainer items (mining, Tools / Privacy Tools, rows that disagreed in casing) and the reviewer's follow-up decisions: developer, dashboard, visualizer, use case, brand, treasury, top up kept in English; tools -> alat with Privacy Tools -> Tools Privasi."
+    }
+  ]
+}
