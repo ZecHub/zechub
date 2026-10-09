@@ -12638,14 +12638,6 @@
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
     },
-    "Research/zcash-foundations-series/article-5/article-5-zero-knowledge-proofs.md": {
-      "src": "sha256:fd83aeb5b3f9e403696fb361032c7e63d1f2aa656878d3d5770dc8ddba05f35d",
-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
-      "edited": false
-    },
     "Research/zcash-foundations-series/article-6/article-6-shielded-protocol.md": {
       "src": "sha256:d24c3f547f4d53e303fc20a085775270716285f57d4f13896664852ba6cb5f7f",
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
