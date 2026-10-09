@@ -163,7 +163,7 @@ This is infrastructure for pool operators, not individual miners. Sovright's ope
 
 Everything above points your miner at someone else's pool. The other route is to run a node yourself and have your mining software ask it for work. Since zcashd halted on 18 July 2026, that means [Zebra](/zcash-tech/zebra-full-node), the node this section covers.
 
-Zebra's part is small and specific: it builds block templates and accepts solved blocks over its RPC interface. The hashing is done by mining software, and sharing rewards between several miners is the job of pool software. Whether mining alone ever finds a block depends on your share of the network's hash rate, which this section does not try to estimate.
+Zebra's part is small and specific: it builds block templates and accepts solved blocks over its RPC interface. The hashing is done by mining software, and sharing rewards between several miners is the job of pool software. Whether mining alone ever finds a block depends on your share of the network's hash rate, which this section does not try to estimate. That is why the introduction to this page does not recommend solo mining for most users.
 
 The steps follow two Zebra Book pages, [Mining Zcash with Zebra](https://zebra.zfnd.org/user/mining.html) and [Mining with Zebra in Docker](https://zebra.zfnd.org/user/mining-docker.html), as they stood on 8 October 2026. Key names and defaults change between releases, so check the Book before you rely on one.
 
@@ -190,7 +190,7 @@ Two optional keys go in the same `[mining]` section:
 | Key | What it does | Limit |
 |---|---|---|
 | `extra_coinbase_data` | Adds a public tag, such as a pool name, to the coinbase input of every block you mine, after Zebra's own marker ([Book](https://zebra.zfnd.org/user/mining.html#extra-coinbase-data)) | 86 bytes. Above that, "Zebra refuses to start" |
-| `miner_memo` | Attaches a shielded memo to the reward output ([Book](https://zebra.zfnd.org/user/mining.html#miner-memo)) | 512 bytes. It only works when the reward goes to a shielded receiver. With a transparent address it "silently has no effect" |
+| `miner_memo` | Attaches a shielded memo to the reward output. Unlike `extra_coinbase_data` it is not public: only someone with a viewing key for the receiving address can read it ([Book](https://zebra.zfnd.org/user/mining.html#miner-memo)) | 512 bytes. It only works when the reward goes to a shielded receiver. With a transparent address it "silently has no effect" |
 
 ### Open the RPC port
 
@@ -209,7 +209,7 @@ Since Zebra 2.0.0 a cookie protects the RPC port, a method similar to the one zc
 __cookie__:PASSWORD
 ```
 
-`rpc.cookie_dir` moves the file. `rpc.enable_cookie_auth = false` turns the check off.
+`rpc.cookie_dir` moves the file. `rpc.enable_cookie_auth = false` turns the check off, and with it the only authentication the RPC port has: anything that can reach the port can then call it.
 
 ### Start Zebra and let it sync
 
@@ -240,26 +240,27 @@ Two notes from the Book before you pick software:
 
 ### The Docker route
 
-The Book's shortest path is the `zfnd/zebra` Docker image, with the address and the RPC port passed as environment variables ([Book: Mining with Zebra in Docker](https://zebra.zfnd.org/user/mining-docker.html)):
+The Book's shortest path is the `zfnd/zebra` Docker image, with the address and the RPC port passed as environment variables ([Book: Mining with Zebra in Docker](https://zebra.zfnd.org/user/mining-docker.html)). The command below is the Book's with one change: it publishes the RPC port on the host's loopback address only, so other machines cannot reach it.
 
 ```bash
 docker run -d --name zebra_local \
   -e ZEBRA_MINING__MINER_ADDRESS="YOUR_ADDRESS" \
   -e ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:8232 \
   -p 8233:8233 \
-  -p 8232:8232 \
+  -p 127.0.0.1:8232:8232 \
   -v zebrad-cache:/home/zebra/.cache/zebra \
   zfnd/zebra:latest
 ```
 
-This starts a Mainnet node and publishes the P2P port (8233) and the RPC port (8232) on the Docker host. Print the cookie with:
+This starts a Mainnet node, publishes the P2P port (8233) on the Docker host, and makes the RPC port (8232) reachable from the host itself only. Print the cookie with:
 
 ```bash
 docker exec -it zebra_local cat /home/zebra/.cache/zebra/.cookie
 ```
 
-- **To practise on Testnet**, add `-e ZEBRA_NETWORK__NETWORK="Testnet"`, use ports 18233 and 18232, and give a Testnet address. A Mainnet address stops Zebra from starting on Testnet, and the other way round.
-- **Mind the RPC port.** `-p 8232:8232` is the Book's command, and it opens the port on every network interface of the host. On a machine other people can reach, publish it on loopback only with `-p 127.0.0.1:8232:8232`. That is ordinary Docker practice, not something the Book covers.
+- **Keep `0.0.0.0` in `ZEBRA_RPC__LISTEN_ADDR`.** That is the address Zebra listens on inside the container. Docker forwards a published port to the container's own network interface, so a Zebra listening on `127.0.0.1` inside the container would not receive the connection, even from the host. The `127.0.0.1:` in front of `-p` is what keeps the port off the network.
+- **The Book's command** publishes the RPC port with `-p 8232:8232`, which opens it on every network interface of the host.
+- **To practise on Testnet**, add `-e ZEBRA_NETWORK__NETWORK="Testnet"`, set `ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232`, publish `-p 18233:18233` and `-p 127.0.0.1:18232:18232`, and give a Testnet address. A Mainnet address stops Zebra from starting on Testnet, and the other way round.
 
 Paying miners out and handling the wallet are outside this section. For the wallet side, see [Zallet](/zcash-tech/zallet).
 
