@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero (Onye na-eme ihe nkiri)
 
-Cypherpunk Zero is a story telling series centered around Zero, a young cypherpunk hacker and freedom fighter. Zero is currently living in a dystopian nightmare and she uses code to fight against the centralized gatekeepers shackling society. The story was inspired by Zcash and Halo cryptography. The creative work is a collaborative effort between ECC, Stranger World, Might Jaxx and select ecosystem partners. The creative work has most notably focused on an [Usoro NFT](https://opensea.io/collection/cypherpunk-zero), ma a na- [ihe nkiri nke na-atọ ọchị](https://halo.electriccoin.co/#view-prologue) na nke a: [ihe eji egwuri egwu a na-achịkọta achịkọ.](https://mightyjaxx.com/products/cypherpunk-zero) A na-ewepụta NFT ndị mmadụ, nke kachasị arụ ọrụ na Twitter. [nzukọ na-enweghị isi (DAO)](https://twitter.com/CypherpunkDAO) ịhazi ma mezue ọrụ na-akwado mkpọsa ahụ, yana obodo Zcash ka ukwuu.
+Cypherpunk Zero is a story telling series centered around Zero, a young cypherpunk hacker and freedom fighter. Zero is currently living in a dystopian nightmare and she uses code to fight against the centralized gatekeepers shackling society. The story was inspired by Zcash and Halo cryptography. The creative work is a collaborative effort between ECC, Stranger World, Might Jaxx and select ecosystem partners. The creative work has most notably focused on an [Usoro NFT](https://opensea.io/collection/cypherpunk-zero), na nke a: [ihe eji egwuri egwu a na-achịkọta achịkọ.](https://mightyjaxx.com/products/cypherpunk-zero) A na-ewepụta NFT ndị mmadụ, nke kachasị arụ ọrụ na Twitter. [nzukọ na-enweghị isi (DAO)](https://twitter.com/CypherpunkDAO) ịhazi ma mezue ọrụ na-akwado mkpọsa ahụ, yana obodo Zcash ka ukwuu.
 
 ## Anti-Roadmap Ụzọ map.
 
@@ -54,8 +54,6 @@ ECC ga-ejide 24% nke ọkọnọ (2,400 NFTs) na Cypherpunk Reserve, maka iji ya
 Ee, e mebiri ihe ndị mbụ dị n'akwụkwọ ahụ. Ọdịnihu adịghịzi otú ọ ga-adị ugbu a.
 
 ## Akụnụba
-
-[Ebe nrụọrụ weebụ Cypherpunk Zero](https://halo.electriccoin.co/)
 
 [Cypherpunk Zero Twitter Ihe ndị na-eme ihe ike](https://twitter.com/cypherpunkZero)
 

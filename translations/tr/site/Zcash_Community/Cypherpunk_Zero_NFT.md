@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero, genç bir cypherpunk hacker ve özgürlük savaşçısı olan Zero etrafında şekillenen bir hikâye anlatımı serisidir. Zero şu anda distopik bir kâbusun içinde yaşamaktadır ve toplumu zincire vuran merkezi bekçilere karşı savaşmak için kod kullanır. Hikâye, Zcash ve Halo kriptografisinden ilham almıştır. Bu yaratıcı çalışma, ECC, Stranger World, Might Jaxx ve seçili ekosistem ortakları arasında yürütülen ortak bir çabadır. Yaratıcı çalışma en çok bir [NFT serisine](https://opensea.io/collection/cypherpunk-zero) odaklanmıştır, ancak ayrıca bir [prolog çizgi romanı](https://halo.electriccoin.co/#view-prologue) ve [koleksiyonluk oyuncak](https://mightyjaxx.com/products/cypherpunk-zero) da yayımlanmıştır. Çoğunlukla Twitter'da aktif olan NFT topluluğu, kampanyayı ve daha geniş Zcash topluluğunu destekleyen projeleri organize etmek ve tamamlamak için bir [merkeziyetsiz organizasyon (DAO)](https://twitter.com/CypherpunkDAO) bile oluşturmuştur.
+Cypherpunk Zero, genç bir cypherpunk hacker ve özgürlük savaşçısı olan Zero etrafında şekillenen bir hikâye anlatımı serisidir. Zero şu anda distopik bir kâbusun içinde yaşamaktadır ve toplumu zincire vuran merkezi bekçilere karşı savaşmak için kod kullanır. Hikâye, Zcash ve Halo kriptografisinden ilham almıştır. Bu yaratıcı çalışma, ECC, Stranger World, Might Jaxx ve seçili ekosistem ortakları arasında yürütülen ortak bir çabadır. Yaratıcı çalışma en çok bir [NFT serisine](https://opensea.io/collection/cypherpunk-zero) odaklanmıştır, ve [koleksiyonluk oyuncak](https://mightyjaxx.com/products/cypherpunk-zero) da yayımlanmıştır. Çoğunlukla Twitter'da aktif olan NFT topluluğu, kampanyayı ve daha geniş Zcash topluluğunu destekleyen projeleri organize etmek ve tamamlamak için bir [merkeziyetsiz organizasyon (DAO)](https://twitter.com/CypherpunkDAO) bile oluşturmuştur.
 
 ## Yol haritası karşıtı Yol Haritası
 
@@ -54,8 +54,6 @@ Arzın %24'ü (2.400 NFT), Web3 alanında Zcash ve gizliliği ileri taşıyan ge
 Evet, orijinal koleksiyon hacklendi; gelecek henüz yazılmadı.
 
 ## Kaynaklar
-
-[Cypherpunk Zero Web Sitesi](https://halo.electriccoin.co/)
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 

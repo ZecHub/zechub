@@ -6,7 +6,7 @@ Cypherpunk Zero ni mfululizo wa hadithi unaozunguka Zero, mwizi mchanga wa cyphe
 
 Hadithi hiyo ilihamasishwa na Zcash na kriptografia ya Halo. Kazi ya ubunifu ni jitihada ya ushirikiano kati ya ECC, Stranger World, Might Jaxx, na washirika wengine katika mfumo wa ikolojia.
 
-Kazi ya ubunifu imezingatia zaidi  [Safu ya NFT](https://opensea.io/collection/cypherpunk-zero), pamoja na [Komiksi ya prologue/prologue comic](https://halo.electriccoin.co/#view-prologue) na pia [toi inayoweza kukusanywa/collectible toy](https://mightyjaxx.com/products/cypherpunk-zero) zimechapishwa.
+Kazi ya ubunifu imezingatia zaidi  [Safu ya NFT](https://opensea.io/collection/cypherpunk-zero) na pia [toi inayoweza kukusanywa/collectible toy](https://mightyjaxx.com/products/cypherpunk-zero) zimechapishwa.
 
 umuiya ya NFT, ambayo kwa kiasi kikubwa hufanya shughuli zake kwenye Twitter, imeunda hata [shirika lililosambazwa (DAO)](https://twitter.com/CypherpunkDAO) kusimamia na kukamilisha miradi inayounga mkono kampeni na jamii kubwa ya Zcash.
 
@@ -41,8 +41,6 @@ Wahakikishe kwamba tuna faida za kipekee na za kushangaza zinazokuja kwa wamilik
 - 24% ya ugavi (NFT 2,400) itashikiliwa na ECC katika Rezervi ya Cypherpunk, kwa matumizi katika mipango ya baadaye ambayo inasukuma mbele Zcash na faragha katika nafasi ya Web3.
 
 ## Rasilimali
-
-[Cypherpunk Zero Website](https://halo.electriccoin.co/)
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 

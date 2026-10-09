@@ -7,7 +7,7 @@ Cypherpunk Zero — это сериал, рассказывающий истор
 
 История была вдохновлена ​​криптографией Zcash и Halo. Творческая работа — это совместная работа ECC, Stranger World, Might Jaxx и избранных партнеров по экосистеме.
 
-Творческая работа в первую очередь была сосредоточена на [серии NFT](https://opensea.io/collection/cypherpunk-zero), а также на [комиксе-прологе](https://halo.electriccoin.co/#view-prologue). ) и [коллекционная игрушка](https://mightyjaxx.com/products/cypherpunk-zero).
+Творческая работа в первую очередь была сосредоточена на [серии NFT](https://opensea.io/collection/cypherpunk-zero) и [коллекционная игрушка](https://mightyjaxx.com/products/cypherpunk-zero).
 
 Сообщество NFT, в основном активное в Твиттере, даже создало [децентрализованную организацию (DAO)](https://twitter.com/CypherpunkDAO) для организации и завершения проектов, поддерживающих кампанию и более широкое сообщество Zcash.
 
@@ -42,8 +42,6 @@ Cypherpunk Zero — это сериал, рассказывающий истор
 
 ## Ресурсы
 
-[Веб-сайт Cypherpunk Zero](https://halo.electriccoin.co/)
-
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
 [Cypherpunk Zero Opensea Collection](https://opensea.io/collection/cypherpunk-zero)
@@ -53,5 +51,3 @@ Cypherpunk Zero — это сериал, рассказывающий истор
 [Cypherpunk Zero DAO Discord](https://discord.com/invite/sjfgXys4Jf)
 
 [Cypherpunk Zero NFT Mega Thread](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
-
-

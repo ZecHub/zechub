@@ -35,7 +35,7 @@ Nkọwa zuru oke nke okwu ndị dị mkpa, echiche, na akụrụngwa metụtara 
 | Community | [Nzukọ Obodo Zcash nke Gọọmentị](https://forum.zcashcommunity.com) / [Discord obodo Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Atụmatụ nkwekọrịta nke a tụrụ aro nke ga-eme ka mmepụta ngọngọ ọrụ na-egosi ihe akaebe ma na-agbakwụnye ihe akaebe nke ihe akaebe n'elu, ka blọk ndị ahụ wee nweta njedebe siri ike na-enweghị ịhapụ igwu ala. O sitere na nyocha Trailing Finality Layer ma Shielded Labs na-ewu ya, nke ka na-arụ na testnet dịka nke afọ 2026. |
 | CrossPay | Njirimara dị na obere akpa ZODL nke na-enye gị ohere imefu ZEC echekwara ebe a na-akwụ onye nnata ụgwọ n'ime akụ na agbụ ha họọrọ, nke a na-agafe site na NEAR Intents kama mgbanwe etiti. |
-| Cypherpunk Zero | Eluigwe na Ala Okike na mbọ mmekorita n'etiti ECC, onye na-ese ihe osise Stranger Wolf, Mighty Jaxx na ndị mmekọ gburugburu ebe obibi ahọpụtara. [Ebe nrụọrụ weebụ Zero Cypherpunk](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Nchịkọta OpenSea](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Eluigwe na Ala Okike na mbọ mmekorita n'etiti ECC, onye na-ese ihe osise Stranger Wolf, Mighty Jaxx na ndị mmekọ gburugburu ebe obibi ahọpụtara. [Nchịkọta OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

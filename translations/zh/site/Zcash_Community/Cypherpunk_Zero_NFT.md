@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero 是一个以 Zero 为核心的故事系列。Zero 是一位年轻的 cypherpunk 黑客和自由斗士。她目前生活在一个反乌托邦般的噩梦中，并使用代码对抗那些束缚社会的中心化守门人。这个故事的灵感来自 Zcash 和 Halo 密码学。这项创意作品由 ECC、Stranger World、Might Jaxx 以及部分生态合作伙伴共同打造。该创意项目最著名的成果是一个 [NFT 系列](https://opensea.io/collection/cypherpunk-zero)，同时还发布了[序章漫画](https://halo.electriccoin.co/#view-prologue)和[收藏玩具](https://mightyjaxx.com/products/cypherpunk-zero)。这个 NFT 社区主要活跃在 Twitter 上，甚至还创建了一个[去中心化组织（DAO）](https://twitter.com/CypherpunkDAO)，以组织并完成支持该活动以及更广泛 Zcash 社区的项目。
+Cypherpunk Zero 是一个以 Zero 为核心的故事系列。Zero 是一位年轻的 cypherpunk 黑客和自由斗士。她目前生活在一个反乌托邦般的噩梦中，并使用代码对抗那些束缚社会的中心化守门人。这个故事的灵感来自 Zcash 和 Halo 密码学。这项创意作品由 ECC、Stranger World、Might Jaxx 以及部分生态合作伙伴共同打造。该创意项目最著名的成果是一个 [NFT 系列](https://opensea.io/collection/cypherpunk-zero)，和[收藏玩具](https://mightyjaxx.com/products/cypherpunk-zero)。这个 NFT 社区主要活跃在 Twitter 上，甚至还创建了一个[去中心化组织（DAO）](https://twitter.com/CypherpunkDAO)，以组织并完成支持该活动以及更广泛 Zcash 社区的项目。
 
 ## 反路线图路线图
 
@@ -54,8 +54,6 @@ Cypherpunk Zero 是一个以 Zero 为核心的故事系列。Zero 是一位年�
 是的，原始系列被黑客攻击了，未来尚未写定。
 
 ## 资源
-
-[Cypherpunk Zero 网站](https://halo.electriccoin.co/)
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 

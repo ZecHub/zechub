@@ -35,7 +35,7 @@ Nya veviwo, nukpɔsusuwo, kple nunɔamesi siwo ku ɖe Zcash.
 | Community | [Zcash Nutome Takpekpe si Dziɖuɖua le](https://forum.zcashcommunity.com) / [Zcash Nutome Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash Numekuku Kple Dɔwɔnawo Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit dzi](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Aɖaŋu si wodo ɖa be woawɔ ɖeka kple wo nɔewo si ana kpeɖodzi-dɔwɔwɔ ƒe block wɔwɔ nanɔ anyi eye wòtsɔa kpeɖodzi-of-stake finality layer kpena ɖe etame, ale blocks kpɔa finality sesẽ wu evɔ womegblẽa tomenukuƒewo ɖi o. Etsi tso Trailing Finality Layer numekuku me eye Shielded Labs ye le etum, si gakpɔtɔ le testnet ƒe ŋgɔyiyi me tso ƒe 2026 me. |
 | CrossPay | Nɔnɔme aɖe si le ZODL gakotokua me si na nèzãa ZEC si wokpɔ ta na esime woxea fe na amesi xɔe le nunɔamesi kple kɔsɔkɔsɔ si wodi me, si woɖona to NEAR Intents tsɔ wu be woato asitɔtrɔ le teƒe ɖeka dzi. |
-| Cypherpunk Zero | Nuwɔwɔ ƒe Xexeame katã kple nuwɔwɔ aduadu ƒe agbagbadzedze le ECC, nɔnɔmetatawɔla Stranger Wolf, Mighty Jaxx kple lãwo ƒe agbenɔnɔ ƒe hadɔwɔla tiatia aɖewo dome. [Cypherpunk Zero Nyatakakadzraɖoƒe](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea ƒe Nuƒoƒoƒu](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Nuwɔwɔ ƒe Xexeame katã kple nuwɔwɔ aduadu ƒe agbagbadzedze le ECC, nɔnɔmetatawɔla Stranger Wolf, Mighty Jaxx kple lãwo ƒe agbenɔnɔ ƒe hadɔwɔla tiatia aɖewo dome. [OpenSea ƒe Nuƒoƒoƒu](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

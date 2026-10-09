@@ -35,7 +35,7 @@
 | Community | [Àpérò Àwùjọ Zcash](https://forum.zcashcommunity.com) / [Discord Àwùjọ Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord R&D Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Apẹrẹ ìfọwọ́sowọ́pọ̀ aládàpọ̀ tí a dámọ̀ràn tí ó máa ń mú kí iṣẹ́ ìṣẹ̀dá àwọn ohun èlò ìdánilójú ṣiṣẹ́ dúró, tí ó sì ń fi ìpele ìdánilójú àwọn ohun èlò kún orí wọn, kí àwọn ohun èlò náà lè lágbára sí i láìsí pé wọ́n ń fi iṣẹ́ ìwakùsà sílẹ̀. Ó dàgbà láti inú ìwádìí Trailing Finality Layer, Shielded Labs sì ń kọ́ ọ, ó sì ń ṣiṣẹ́ lórí ìdàgbàsókè testnet ní ọdún 2026. |
 | CrossPay | Ẹ̀yà kan wà nínú àpò ZODL tí ó fún ọ láyè láti ná owó ZEC tí a dáàbò bò nígbà tí a bá san owó fún ẹni tí a gbà ní dúkìá àti ẹ̀wọ̀n tí wọ́n fẹ́, tí a gbé ka orí NEAR Intents dípò pàṣípààrọ̀ àárín. |
-| Cypherpunk Zero | Àgbáyé Ìṣẹ̀dá àti ìsapá ìfọwọ́sowọ́pọ̀ láàrín ECC, olùyàwòrán Stranger Wolf, Mighty Jaxx àti àwọn alábáṣiṣẹpọ̀ ètò ìṣẹ̀dá tí a yàn. [Aaye Odo Cypherpunk](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Àkójọ OpenSea](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Àgbáyé Ìṣẹ̀dá àti ìsapá ìfọwọ́sowọ́pọ̀ láàrín ECC, olùyàwòrán Stranger Wolf, Mighty Jaxx àti àwọn alábáṣiṣẹpọ̀ ètò ìṣẹ̀dá tí a yàn. [Àkójọ OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

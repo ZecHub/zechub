@@ -7,7 +7,7 @@
 
 # Àwọn Òǹkàwé-ìmọ̀ràn Zero
 
-Cypherpunk Zero je awon ohun elo to n so itan nipa Zero, omo cypherpunk hacker ati ologun ominira. Oun ni o wa ninu ipaniyan kan ti ko si nkankan se pelu bi won ṣe maa lo code lati ja lodi si awọn gatekeepers centralized chaining society. Itan naa jẹ iwuri nipasẹ Zcash and Halo cryptography. Ise abinibi yii jẹ igbiyanju ifowosowopo laarin ECC, Stranger World, Might Jaxx ati yan awọn alabaṣepọ ilolupo eda-aye. Aṣayan iṣẹ abinibe ti da lori aarin agbegbe ti o dara julọ fun gbogbo eniyan pẹlu eto imulo iṣowo rẹ. [Àwọn ìsínà NFT](https://opensea.io/collection/cypherpunk-zero), ṣùgbọ́n a [àdàkọ àkọlé eré alárinrin](https://halo.electriccoin.co/#view-prologue) àti pé, [ohun ìṣeré tí a lè kó jọ](https://mightyjaxx.com/products/cypherpunk-zero) Awon eniyan NFT, ti won n lo lori Twitter ni o kere ju, tun da aarin kan fun awon oniroyin nipa ohun elo yi. [ètò tí kò dá-lódi (DAO)](https://twitter.com/CypherpunkDAO) láti ṣètò àti parí àwọn iṣẹ́ tí ó ń ṣe àtìlẹyìn fún ìpolongo náà, àti àwùjọ Zcash lápapọ̀.
+Cypherpunk Zero je awon ohun elo to n so itan nipa Zero, omo cypherpunk hacker ati ologun ominira. Oun ni o wa ninu ipaniyan kan ti ko si nkankan se pelu bi won ṣe maa lo code lati ja lodi si awọn gatekeepers centralized chaining society. Itan naa jẹ iwuri nipasẹ Zcash and Halo cryptography. Ise abinibi yii jẹ igbiyanju ifowosowopo laarin ECC, Stranger World, Might Jaxx ati yan awọn alabaṣepọ ilolupo eda-aye. Aṣayan iṣẹ abinibe ti da lori aarin agbegbe ti o dara julọ fun gbogbo eniyan pẹlu eto imulo iṣowo rẹ. [Àwọn ìsínà NFT](https://opensea.io/collection/cypherpunk-zero), [ohun ìṣeré tí a lè kó jọ](https://mightyjaxx.com/products/cypherpunk-zero) Awon eniyan NFT, ti won n lo lori Twitter ni o kere ju, tun da aarin kan fun awon oniroyin nipa ohun elo yi. [ètò tí kò dá-lódi (DAO)](https://twitter.com/CypherpunkDAO) láti ṣètò àti parí àwọn iṣẹ́ tí ó ń ṣe àtìlẹyìn fún ìpolongo náà, àti àwùjọ Zcash lápapọ̀.
 
 ## Àkọsílẹ̀-ọnà tí kò bá ìwé ìrìnàjò mu.
 
@@ -54,8 +54,6 @@ We have seen too many projects over-promise and under deliver on their NFT roadm
 Bẹ́ẹ̀ ni, àwọn èèyàn ya àkójọ ìwé náà lápá kan. Ọjọ́ iwájú ò tíì ní ìmúṣẹ rárá.
 
 ## Àwọn Owó-ìṣúnná owó
-
-[Ìkànnì Cypherpunk Zero](https://halo.electriccoin.co/)
 
 [Àwọn oníṣẹ́-ìṣèlú Twitter Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 

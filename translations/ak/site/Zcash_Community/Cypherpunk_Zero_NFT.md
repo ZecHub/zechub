@@ -7,7 +7,7 @@
 
 # Cypherpunk a ɛyɛ Zero a ɛyɛ Zero
 
-Cypherpunk Zero yɛ abakɔsɛm a ɛtoatoa so a ɛfa Zero, aberante bi a ɔyɛ cypherpunk hacker ne ahofadi ho ɔkofo ho. Mprempren Zero te dystopian dae bɔne mu na ɔde mmara di dwuma de ko tia apon ano ahwɛfo a wɔwɔ mfinimfini a wɔde nkɔnsɔnkɔnsɔn abɔ ɔmanfo no. Zcash ne Halo cryptography na ɛkanyan asɛm no. Adebɔ adwuma no yɛ mmɔdenbɔ a ECC, Stranger World, Might Jaxx ne abɔdeɛ a nkwa wom ho ahokafoɔ a wɔapaw wɔn bom yɛ. Adebɔ adwuma no atwe adwene asi an [NFT nsɛm a ɛtoatoa so](https://opensea.io/collection/cypherpunk-zero), nanso a [nnianim asɛm aseresɛm](https://halo.electriccoin.co/#view-prologue) ne [agode a wotumi boaboa ano](https://mightyjaxx.com/products/cypherpunk-zero) wɔayi wɔn nso adi. NFT mpɔtam hɔfo a wɔn mu dodow no ara yɛ nnam wɔ Twitter so no mpo ayɛ a [ahyehyɛde a wɔde ama (DAO) .](https://twitter.com/CypherpunkDAO) sɛ wɔbɛhyehyɛ na wɔawie nnwuma a ɛboa ɔsatuo no, ne Zcash mpɔtam hɔfoɔ a wɔtrɛ no.
+Cypherpunk Zero yɛ abakɔsɛm a ɛtoatoa so a ɛfa Zero, aberante bi a ɔyɛ cypherpunk hacker ne ahofadi ho ɔkofo ho. Mprempren Zero te dystopian dae bɔne mu na ɔde mmara di dwuma de ko tia apon ano ahwɛfo a wɔwɔ mfinimfini a wɔde nkɔnsɔnkɔnsɔn abɔ ɔmanfo no. Zcash ne Halo cryptography na ɛkanyan asɛm no. Adebɔ adwuma no yɛ mmɔdenbɔ a ECC, Stranger World, Might Jaxx ne abɔdeɛ a nkwa wom ho ahokafoɔ a wɔapaw wɔn bom yɛ. Adebɔ adwuma no atwe adwene asi an [NFT nsɛm a ɛtoatoa so](https://opensea.io/collection/cypherpunk-zero) ne [agode a wotumi boaboa ano](https://mightyjaxx.com/products/cypherpunk-zero) wɔayi wɔn nso adi. NFT mpɔtam hɔfo a wɔn mu dodow no ara yɛ nnam wɔ Twitter so no mpo ayɛ a [ahyehyɛde a wɔde ama (DAO) .](https://twitter.com/CypherpunkDAO) sɛ wɔbɛhyehyɛ na wɔawie nnwuma a ɛboa ɔsatuo no, ne Zcash mpɔtam hɔfoɔ a wɔtrɛ no.
 
 ## Anti-roadmap Ɔkwankyerɛ
 
@@ -54,8 +54,6 @@ Wɔbɛyi nneɛma a wɔde ma no mu 72% (7,200 NFTs) adi ama ɔmanfoɔ denam white
 Yiw mfitiase collection no nyaa hacked, daakye no yɛ nea wɔankyerɛw.
 
 ## Akadeɛ
-
-[Cypherpunk Zero Wɛbsaet no](https://halo.electriccoin.co/)
 
 [Cypherpunk Zero wɔ Twitter so](https://twitter.com/cypherpunkZero)
 

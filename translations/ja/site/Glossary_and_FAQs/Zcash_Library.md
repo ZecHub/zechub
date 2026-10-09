@@ -35,7 +35,7 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 | Community | [公式 Zcash コミュニティフォーラム](https://forum.zcashcommunity.com) / [Zcash コミュニティ Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | プルーフ・オブ・ワークによるブロック生成を維持しつつ、その上にプルーフ・オブ・ステークのファイナリティ層を追加することで、マイニングを放棄せずにブロックにより強いファイナリティを与える、提案中のハイブリッド・コンセンサス設計です。これは Trailing Finality Layer の研究から生まれたもので、Shielded Labs によって開発が進められており、2026年時点ではまだtestnet開発段階にあります。 |
 | CrossPay | ZODLウォレットの機能で、中央集権型取引所ではなくNEAR Intentsを経由して、受取人が希望する資産とチェーンで支払いを受け取れる一方、送信者はシールドされたZECを使用できます。 |
-| Cypherpunk Zero | ECC、イラストレーターのStranger Wolf、Mighty Jaxx、および選ばれたエコシステムパートナーによるクリエイティブユニバースと共同プロジェクトです。[Cypherpunk Zero サイト](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSeaコレクション](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | ECC、イラストレーターのStranger Wolf、Mighty Jaxx、および選ばれたエコシステムパートナーによるクリエイティブユニバースと共同プロジェクトです。[OpenSeaコレクション](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

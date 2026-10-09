@@ -48,7 +48,7 @@ ___
 | **Canopy**: | A 5ª Grande Atualização de Rede para Zcash. [Mais informações](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | **Commitment Scheme**: | Permite que um committer se comprometa com um polinômio com uma string curta que pode ser usada por um verificador para confirmar as avaliações reivindicadas do polinômio confirmado. Útil para reduzir custos de comunicação no protocolo Zcash.|
 | **Comunidade**: | [Fórum oficial da comunidade Zcash](https://forum.zcashcommunity.com) / [Discord da comunidade Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord Zcash R&D](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://old.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |
-| **Cypherpunk Zero**: | Um universo criativo e esforço colaborativo entre ECC, ilustrador Stranger Wolf, Mighty Jaxx e parceiros selecionados do ecossistema. Consistindo em uma futura série de webcomics, NFTs e colecionáveis ​​físicos, o projeto explora a relação entre privacidade, auto-soberania e liberdade criativa. [Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |
+| **Cypherpunk Zero**: | Um universo criativo e esforço colaborativo entre ECC, ilustrador Stranger Wolf, Mighty Jaxx e parceiros selecionados do ecossistema. Consistindo em uma futura série de webcomics, NFTs e colecionáveis ​​físicos, o projeto explora a relação entre privacidade, auto-soberania e liberdade criativa. [Cypherpunk Zero Social](https://x.com/cypherpunkZero) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |
 
 
 
@@ -358,5 +358,3 @@ ___
 | **ZIP**: | Proposta de Melhoria Zcash. Método para propostas da comunidade de novos recursos para a criptomoeda Zcash, detalhes de implementação e decisões de design de documentos. [Site ZIP](https://zips.z.cash) |
 | **Zingo Wallet/Carteira Zingo** | Uma carteira móvel que suporta endereços unificados e habilitado para pomar. Mantido por Zingo Labs |
 | **zk-SNARK**:| Conhecimento zero Argumento sucinto do conhecimento. Uma prova usada no protocolo Zcash que permite que os Endereços Blindados comprovem a validade das transações associadas sem revelar o endereço ou o valor transacionado. [Mais informações](https://zkp.science)|
-
-

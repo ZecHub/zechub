@@ -35,7 +35,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Community | [Ɔmanfoɔ Zcash Mpɔtam Nhyiamu](https://forum.zcashcommunity.com) / [Zcash Mpɔtam Hɔ Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit a wɔde di dwuma](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Hybrid consensus design a wɔahyɛ ho nyansa a ɛma proof-of-work block production kɔ so yɛ na ɛde proof-of-stake finality layer ka ho wɔ soro, enti blocks nya finality a emu yɛ den a ennyae mining. Ɛnyini firii Trailing Finality Layer nhwehwɛmu mu na Shielded Labs na ɛresi, ɛda so ara wɔ testnet nkɔsoɔ mu firi afe 2026. |
 | CrossPay | Ade bi a ɛwɔ ZODL sika kotoku no mu a ɛma wosɛe ZEC a wɔabɔ ho ban bere a wotua nea ogye no wɔ agyapade ne nkɔnsɔnkɔnsɔn a wɔpɛ mu, a wɔde fa NEAR Intents so sen sɛ wɔde bɛsesa wɔ mfinimfini. |
-| Cypherpunk Zero | Adebɔ Amansan ne mmɔdenbɔ a wɔbom yɛ wɔ ECC, mfoniniyɛfo Stranger Wolf, Mighty Jaxx ne abɔde a nkwa wom ho ahokafo a wɔapaw wɔn ntam. [Cypherpunk Zero Nsɛmma Nhoma](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea Nneɛma a Wɔaboaboa Ano](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Adebɔ Amansan ne mmɔdenbɔ a wɔbom yɛ wɔ ECC, mfoniniyɛfo Stranger Wolf, Mighty Jaxx ne abɔde a nkwa wom ho ahokafo a wɔapaw wɔn ntam. [OpenSea Nneɛma a Wɔaboaboa Ano](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

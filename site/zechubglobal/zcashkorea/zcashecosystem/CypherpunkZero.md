@@ -7,7 +7,7 @@
 
 이 이야기는 Zcash 및 Halo 암호화에서 영감을 받았습니다. 창의적인 작업은 ECC, Stranger World, Might Jaxx 및 엄선된 생태계 파트너 간의 공동 작업입니다.
 
-이 작업은 [NFT 시리즈](https://opensea.io/collection/cypherpunk-zero) 에 초점을 맞추었지만, [프롤로그 만화](https://halo.electriccoin.co/#view-prologue) 와 [제로 피규어](https://mightyjaxx.com/products/cypherpunk-zero) 도 출시했습니다.
+이 작업은 [NFT 시리즈](https://opensea.io/collection/cypherpunk-zero) 에 초점을 맞추었지만, [프롤로그 만화](https://x.com/cypherpunkZero) 와 [제로 피규어](https://mightyjaxx.com/products/cypherpunk-zero) 도 출시했습니다.
 
 NFT 커뮤니티는 캠페인을 지원하는 프로젝트와 더 광범위한 Zcash 커뮤니티를 구성하기 위해 [탈중앙화조직 (DAO)](https://twitter.com/CypherpunkDAO)을 만들었습니다.
 
@@ -41,9 +41,6 @@ NFT 보유자를 위한 독점적인 혜택이 있다는 것을 믿으시고 NFT
 - 공급량의 24%(2,400 NFT)는 Web3 공간 내에서 Zcash 및 개인 정보 보호를 발전시키는 향후 이니셔티브에 사용하기 위해 ECC가 Cypherpunk Reserve에 보관합니다.
 
 ## Resources
-
-[Cypherpunk Zero Website](https://halo.electriccoin.co/)
-
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
 [Cypherpunk Zero Opensea Collection](https://opensea.io/collection/cypherpunk-zero)

@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero एक कहानी-वाचन श्रृंखला है जो Zero पर केंद्रित है, जो एक युवा cypherpunk hacker और स्वतंत्रता सेनानी है। Zero इस समय एक dystopian दुःस्वप्न में जी रही है और वह समाज को जकड़ने वाले केंद्रीकृत gatekeepers के खिलाफ लड़ने के लिए code का उपयोग करती है। यह कहानी Zcash और Halo cryptography से प्रेरित थी। यह रचनात्मक कार्य ECC, Stranger World, Might Jaxx और चुनिंदा ecosystem partners के बीच एक सहयोगात्मक प्रयास है। यह रचनात्मक कार्य विशेष रूप से एक [NFT श्रृंखला](https://opensea.io/collection/cypherpunk-zero) पर केंद्रित रहा है, लेकिन एक [प्रस्तावना कॉमिक](https://halo.electriccoin.co/#view-prologue) और [संग्रहणीय खिलौना](https://mightyjaxx.com/products/cypherpunk-zero) भी जारी किए गए हैं। NFT समुदाय, जो मुख्यतः Twitter पर सक्रिय है, ने अभियान और व्यापक Zcash समुदाय का समर्थन करने वाली परियोजनाओं को संगठित करने और पूरा करने के लिए एक [विकेंद्रीकृत संगठन (DAO)](https://twitter.com/CypherpunkDAO) भी बनाया है।
+Cypherpunk Zero एक कहानी-वाचन श्रृंखला है जो Zero पर केंद्रित है, जो एक युवा cypherpunk hacker और स्वतंत्रता सेनानी है। Zero इस समय एक dystopian दुःस्वप्न में जी रही है और वह समाज को जकड़ने वाले केंद्रीकृत gatekeepers के खिलाफ लड़ने के लिए code का उपयोग करती है। यह कहानी Zcash और Halo cryptography से प्रेरित थी। यह रचनात्मक कार्य ECC, Stranger World, Might Jaxx और चुनिंदा ecosystem partners के बीच एक सहयोगात्मक प्रयास है। यह रचनात्मक कार्य विशेष रूप से एक [NFT श्रृंखला](https://opensea.io/collection/cypherpunk-zero) और [संग्रहणीय खिलौना](https://mightyjaxx.com/products/cypherpunk-zero) भी जारी किए गए हैं। NFT समुदाय, जो मुख्यतः Twitter पर सक्रिय है, ने अभियान और व्यापक Zcash समुदाय का समर्थन करने वाली परियोजनाओं को संगठित करने और पूरा करने के लिए एक [विकेंद्रीकृत संगठन (DAO)](https://twitter.com/CypherpunkDAO) भी बनाया है।
 
 ## Anti-roadmap Roadmap
 
@@ -54,8 +54,6 @@ Cypherpunk Zero एक कहानी-वाचन श्रृंखला ह
 हाँ, मूल collection hack हो गया था, भविष्य अब भी लिखा जाना बाकी है।
 
 ## Resources
-
-[Cypherpunk Zero वेबसाइट](https://halo.electriccoin.co/)
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 

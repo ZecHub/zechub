@@ -7,7 +7,7 @@
 
 # Kipengele cha Zero ya Cypherpunk
 
-Cypherpunk Zero is a story telling series centered around Zero, a young cypherpunk hacker and freedom fighter. Zero is currently living in a dystopian nightmare and she uses code to fight against the centralized gatekeepers shackling society. The story was inspired by Zcash and Halo cryptography. The creative work is a collaborative effort between ECC, Stranger World, Might Jaxx and select ecosystem partners. The creative work has most notably focused on an [NFT mfululizo](https://opensea.io/collection/cypherpunk-zero), lakini a [prologue comic (mchoro wa utangulizi)](https://halo.electriccoin.co/#view-prologue) na [kichezeo cha kukusanya](https://mightyjaxx.com/products/cypherpunk-zero) Jumuiya ya NFT, hasa hai kwenye Twitter, hata imeunda mtandao wa kijamii unaohusisha watu wengi. [shirika madaraka (DAO)](https://twitter.com/CypherpunkDAO) kuandaa na kukamilisha miradi inayounga mkono kampeni, na jamii pana ya Zcash.
+Cypherpunk Zero is a story telling series centered around Zero, a young cypherpunk hacker and freedom fighter. Zero is currently living in a dystopian nightmare and she uses code to fight against the centralized gatekeepers shackling society. The story was inspired by Zcash and Halo cryptography. The creative work is a collaborative effort between ECC, Stranger World, Might Jaxx and select ecosystem partners. The creative work has most notably focused on an [NFT mfululizo](https://opensea.io/collection/cypherpunk-zero), na [kichezeo cha kukusanya](https://mightyjaxx.com/products/cypherpunk-zero) Jumuiya ya NFT, hasa hai kwenye Twitter, hata imeunda mtandao wa kijamii unaohusisha watu wengi. [shirika madaraka (DAO)](https://twitter.com/CypherpunkDAO) kuandaa na kukamilisha miradi inayounga mkono kampeni, na jamii pana ya Zcash.
 
 ## Mapinduzi ya Roadmap.
 
@@ -54,8 +54,6 @@ Tumeona miradi mingi sana ya ahadi nyingi na chini ya kutoa ramani zao za baraba
 Ndiyo mkusanyiko wa awali got hacked, baadaye ni unwritten.
 
 ## Rasilimali
-
-[Tovuti ya Cypherpunk Zero](https://halo.electriccoin.co/)
 
 [Twitter ya Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
