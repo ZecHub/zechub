@@ -15,7 +15,7 @@ Zcash Shielded Assets (ZSA) are a proposed protocol extension that would let ass
 - **What it is:** ERC-20-style custom assets, but shielded by default.
 - **Who is building it:** [QEDIT](https://qed-it.com/), under a grant from the Zcash Foundation, in collaboration with the Electric Coin Company.
 - **How it is specified:** [ZIP 226](https://zips.z.cash/zip-0226) (transfer and burn) together with [ZIP 227](https://zips.z.cash/zip-0227) (issuance).
-- **Status:** not live on mainnet. The ZSA protocol is scheduled for deployment in Network Upgrade 7 (NU7).
+- **Status:** not live on mainnet and not part of Network Upgrade 7 (NU7). [ZIP 259](https://zips.z.cash/zip-0259), which lists everything NU7 deploys, does not include ZIP 226 or ZIP 227, and no ZSA activation date has been set.
 - **Fees:** always paid in ZEC, regardless of the asset being moved.
 
 ---
@@ -30,7 +30,7 @@ Zcash Shielded Assets would enable the creation of custom tokens on the Zcash bl
 
 A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC](https://www.circle.com/en/usdc) and [Dai](https://docs.makerdao.com/).
 
-Another potential use of ZSAs would be for the issuing of governance tokens. For example, Zechub (the publisher of this wiki) is a Decentralized Autonomous Organization (DAO) and could create and issue to its members a ZSA for voting on proposals and governance decisions.
+Another potential use of ZSAs would be for the issuing of governance tokens. For example, ZecHub (the publisher of this wiki) is a Decentralized Autonomous Organization (DAO) and could create and issue to its members a ZSA for voting on proposals and governance decisions.
 
 ZSAs are being developed by [QEDIT](https://qed-it.com/), under a major grant from the [Zcash Foundation](/zcash-organizations/zcash-foundation) in collaboration with the [Electric Coin Company](/zcash-organizations/electric-coin-company). As this project is still being actively developed, updates are posted on [this thread](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) of the Zcash forum. The [ZSA grant application](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) by QEDIT is available from the Zcash Foundation grants website.
 
@@ -130,7 +130,7 @@ These proposals are technically adherent to the [Zcash Improvement Proposal (ZIP
 
 | Common belief | What is actually the case |
 | --- | --- |
-| "ZSAs are live on Zcash today." | They are not. ZSA is scheduled for deployment in Network Upgrade 7 (NU7) and is still under review and testing. |
+| "ZSAs are live on Zcash today." | They are not. ZSA is not part of Network Upgrade 7 (NU7), which [ZIP 259](https://zips.z.cash/zip-0259) defines without ZIP 226 or ZIP 227, and it is still under review and testing. |
 | "ZSA brings smart contracts to Zcash." | ZSA specifies the issuance, transfer and burn of assets. It is not a general-purpose programmable contract layer. |
 | "You can pay ZSA fees in the ZSA token itself." | Fees are paid in ZEC. |
 | "If it is shielded, the token supply must be secret too." | ZIP 227 makes issuance transparent on purpose, so the supply of each asset can be tracked publicly. Balances and transfers stay private; the supply does not. |
@@ -141,7 +141,7 @@ These proposals are technically adherent to the [Zcash Improvement Proposal (ZIP
 ## Related Pages
 
 - [Halo](/zcash-tech/halo) — the proving system behind Orchard, the protocol ZSA extends
-- [Zk-SNARKs](/zcash-tech/zk-snarks) — the zero-knowledge proofs that let a shielded transfer be verified without being revealed
+- [zk-SNARKs](/zcash-tech/zk-snarks) — the zero-knowledge proofs that let a shielded transfer be verified without being revealed
 - [Shielded Pools](/using-zcash/shielded-pools) — where ZSAs would live alongside ZEC
 - [Transactions](/using-zcash/transactions) — how a Zcash transaction is put together
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — the node implementation used in the ZSA demo above
