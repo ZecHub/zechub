@@ -76,7 +76,6 @@ Easy-to-use, fully-featured multiplatform Zcash wallet with autoshielding suppor
 
 ### Nozy Wallet
 Orchard-first Zcash wallet built for Zebrad and lightwalletd. Supports fully shielded send/receive, secure local key management, and Ironwood (NU6.3) notes and Orchard-to-Ironwood migration. Transparent addresses are rejected for user-facing payment flows.  
-
 [Visit](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
@@ -86,7 +85,6 @@ Payment gateway that lets users spend shielded ZEC on real-world purchases (curr
 ### ZcashToCash
 ZcashToCash (zcashto.cash) — ZEC to Cash App, Chime, Monzo, Revolut, Venmo, or Zelle via Peer. ZEC is converted to USDC (NEAR), then a Peer order on Base releases USDC after the taker proves the fiat payment. Taker sees a payment-app username. Not a CEX, not ZEC-in-escrow.  
 [Visit](https://zcashto.cash/)
-
 
 ### Zafu Wallet
 Open-source privacy wallet for Zcash and Penumbra. Browser extension with client-side proving, verified light-client architecture, cold signing, FROST multisig, and no view key leaving the device.  
@@ -144,9 +142,9 @@ A watch-only desktop wallet designed for individuals and organizations that need
 
 ## Explorers, Data, and Network Dashboards
 
-### CipherScan
-Privacy-first Zcash blockchain explorer. Built with Next.js 15, TypeScript, and Rust/WASM. Lookups do not leak query metadata.  
-[Visit](https://cipherscan.app/)
+### ZecBlock
+Privacy-first Zcash blockchain explorer (formerly CipherScan). Built with Next.js 15, TypeScript, and Rust/WASM. Lookups do not leak query metadata. Rebuilt interface with customizable homepage, chain Q&A (beta), shareable charts, and more.  
+[Visit](https://zecblock.com/)
 
 ### Exblo
 Block explorer designed for testing transactions on the Zcash Testnet.  
@@ -240,6 +238,11 @@ A privacy-focused authentication system that uses shielded Zcash transactions as
 ---
 
 ## Developer, Testing, and Infrastructure
+
+### Ztreamer
+Heavily optimized open-source Zcash indexer and lightwallet-protocol (CompactTxStreamer) implementation backed by an embedded Zakura node. Runs node + indexer + wallet server in one process (ztreamerd); supports gRPC and Zakura v2 P2P. Fast historical indexing and low-latency serving for light wallets.  
+[Visit](https://github.com/distractedm1nd/ztreamer)  
+[Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Network test suite for zcashd and Zebra developers. Includes a Zcash crawler.  
