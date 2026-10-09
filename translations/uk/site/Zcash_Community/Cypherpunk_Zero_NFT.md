@@ -57,7 +57,7 @@ Cypherpunk Zero — це серія оповідей, у центрі яких Z
 
 [Twitter Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Колекція Cypherpunk Zero на Opensea](https://opensea.io/collection/cypherpunk-zero)
+[Колекція Cypherpunk Zero на OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 [Twitter DAO Cypherpunk Zero](https://twitter.com/CypherpunkDAO)
 

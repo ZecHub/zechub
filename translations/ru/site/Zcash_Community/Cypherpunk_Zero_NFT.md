@@ -57,7 +57,7 @@ Cypherpunk Zero — это серия повествований, сосредо
 
 [Twitter Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Коллекция Cypherpunk Zero на Opensea](https://opensea.io/collection/cypherpunk-zero)
+[Коллекция Cypherpunk Zero на OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 [Twitter DAO Cypherpunk Zero](https://twitter.com/CypherpunkDAO)
 

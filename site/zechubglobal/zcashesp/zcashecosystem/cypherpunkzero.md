@@ -43,7 +43,7 @@ Confía en que tenemos algunas sorpresas increíbles y exclusivas en el camino p
 ## Recursos
 [Twitter de Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Colección Cypherpunk Zero en Opensea](https://opensea.io/collection/cypherpunk-zero)
+[Colección Cypherpunk Zero en OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 [Twitter de Cypherpunk Zero DAO](https://twitter.com/CypherpunkDAO)
 

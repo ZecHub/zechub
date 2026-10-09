@@ -57,7 +57,7 @@ Yes the original collection got hacked, the future is unwritten.
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea Collection](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Collection](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

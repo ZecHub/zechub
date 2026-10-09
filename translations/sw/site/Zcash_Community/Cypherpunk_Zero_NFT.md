@@ -57,7 +57,7 @@ Ndiyo mkusanyiko wa awali got hacked, baadaye ni unwritten.
 
 [Twitter ya Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea Collection - Mkusanyiko wa Bahari ya wazi](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Collection - Mkusanyiko wa Bahari ya wazi](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

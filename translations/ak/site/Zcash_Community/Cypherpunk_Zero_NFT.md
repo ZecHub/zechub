@@ -57,7 +57,7 @@ Yiw mfitiase collection no nyaa hacked, daakye no yɛ nea wɔankyerɛw.
 
 [Cypherpunk Zero wɔ Twitter so](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea Nneɛma a Wɔaboaboa Ano](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Nneɛma a Wɔaboaboa Ano](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO na ɛyɛ adwuma wɔ Twitter so](https://twitter.com/CypherpunkDAO)
 

@@ -43,7 +43,7 @@ Croyez que nous avons des avantages incroyables et exclusifs dans le pipeline po
 ## Ressources
 [Cypherpunk Zéro Twitter](https://twitter.com/cypherpunkZero)
 
-[Collection Cypherpunk Zero Opensea](https://opensea.io/collection/cypherpunk-zero)
+[Collection Cypherpunk Zero OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zéro DAO Twitter](https://twitter.com/CypherpunkDAO)
 

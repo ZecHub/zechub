@@ -57,7 +57,7 @@ Cypherpunk Zero는 젤로라는 젊은 사이퍼펑크 해커이자 자유 전�
 
 [Cypherpunk Zero 트위터](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea 컬렉션](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO 트위터](https://twitter.com/CypherpunkDAO)
 

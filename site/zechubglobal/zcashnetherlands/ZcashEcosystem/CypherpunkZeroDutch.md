@@ -44,7 +44,7 @@ Vertrouw erop dat we een aantal geweldige, exclusieve voordelen in de pijplijn h
 
 [Cypherpunk Nul Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea-collectie](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea-collectie](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

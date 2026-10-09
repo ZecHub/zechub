@@ -57,7 +57,7 @@ Bẹ́ẹ̀ ni, àwọn èèyàn ya àkójọ ìwé náà lápá kan. Ọjọ́ iw�
 
 [Àwọn oníṣẹ́-ìṣèlú Twitter Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea Ìkójọpọ̀](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Ìkójọpọ̀](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:](https://twitter.com/CypherpunkDAO)
 

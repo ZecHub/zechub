@@ -51,7 +51,7 @@ Fornecimento total: 10.000 NFTs gerativos exclusivos na rede principal da Ethere
 ## Recursos
 - [Cypherpunk Zero - Twitter/X](https://twitter.com/cypherpunkZero)
 
-- [Cypherpunk Zero - Coleção Opensea](https://opensea.io/collection/cypherpunk-zero)
+- [Cypherpunk Zero - Coleção OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 - [Cypherpunk Zero DAO - Twitter/X](https://twitter.com/CypherpunkDAO)
 

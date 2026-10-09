@@ -44,7 +44,7 @@ Cypherpunk Zero — это сериал, рассказывающий истор
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea Collection](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Collection](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

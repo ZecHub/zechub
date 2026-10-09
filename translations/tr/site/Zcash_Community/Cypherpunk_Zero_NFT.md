@@ -57,7 +57,7 @@ Evet, orijinal koleksiyon hacklendi; gelecek henüz yazılmadı.
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea Koleksiyonu](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Koleksiyonu](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

@@ -57,7 +57,7 @@ Ee, e mebiri ihe ndị mbụ dị n'akwụkwọ ahụ. Ọdịnihu adịghịzi 
 
 [Cypherpunk Zero Twitter Ihe ndị na-eme ihe ike](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea Collection (Nchịkọta Ihe Ọhụrụ)](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Collection (Nchịkọta Ihe Ọhụrụ)](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter Nkọwapụta nke onwe onye:](https://twitter.com/CypherpunkDAO)
 

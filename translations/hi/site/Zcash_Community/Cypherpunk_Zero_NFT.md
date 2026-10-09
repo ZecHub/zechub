@@ -57,7 +57,7 @@ Cypherpunk Zero एक कहानी-वाचन श्रृंखला ह
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea संग्रह](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea संग्रह](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

@@ -57,7 +57,7 @@ Sì, la collezione originale è stata hackerata, il futuro è ancora da scrivere
 
 [Twitter di Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Collezione Opensea di Cypherpunk Zero](https://opensea.io/collection/cypherpunk-zero)
+[Collezione OpenSea di Cypherpunk Zero](https://opensea.io/collection/cypherpunk-zero)
 
 [Twitter della DAO di Cypherpunk Zero](https://twitter.com/CypherpunkDAO)
 

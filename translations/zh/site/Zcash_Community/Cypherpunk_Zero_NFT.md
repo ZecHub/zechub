@@ -57,7 +57,7 @@ Cypherpunk Zero 是一个以 Zero 为核心的故事系列。Zero 是一位年�
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea 收藏集](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea 收藏集](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

@@ -57,7 +57,7 @@ Oui, la collection originale a été piratée, l’avenir n’est pas encore éc
 
 [Twitter de Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Collection Opensea de Cypherpunk Zero](https://opensea.io/collection/cypherpunk-zero)
+[Collection OpenSea de Cypherpunk Zero](https://opensea.io/collection/cypherpunk-zero)
 
 [Twitter du DAO Cypherpunk Zero](https://twitter.com/CypherpunkDAO)
 

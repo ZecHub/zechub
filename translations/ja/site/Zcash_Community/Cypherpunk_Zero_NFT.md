@@ -57,7 +57,7 @@ Cypherpunk Zero は、ゼロという若きサイファーパンクハッカー�
 
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea コレクション](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea コレクション](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

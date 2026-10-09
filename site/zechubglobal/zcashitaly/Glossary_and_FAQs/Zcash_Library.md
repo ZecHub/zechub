@@ -48,7 +48,7 @@ ___
 |  **Canopy**:  |     Il quinto grande aggiornamento di rete per Zcash. [Ulteriori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy)  |  
 | **Commitment Scheme**: |  Permette a un committer di impegnarsi in un polinomio con una stringa breve che può essere utilizzata da un verificatore per confermare le valutazioni rivendicate del polinomio impegnato. Utile per ridurre i costi di comunicazione nel protocollo Zcash.|
 |  **Comunità**:   |    [Il forum ufficiale della comunità Zcash](https://forum.zcashcommunity.com) / [Comunità Discord di Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |  
-|    **Cypherpunk Zero**:  |   Un universo creativo e un'impresa collaborativa tra ECC, l'illustratore Stranger Wolf, Mighty Jaxx e alcuni partner dell'ecosistema. Consiste in una prossima serie di webcomic, NFT e collezionabili fisici, il progetto esplora la relazione tra privacy, sovranità individuale e libertà creativa. [Sito di Cypherpunk Zero](https://x.com/cypherpunkZero) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |  
+|    **Cypherpunk Zero**:  |   Un universo creativo e un'impresa collaborativa tra ECC, l'illustratore Stranger Wolf, Mighty Jaxx e alcuni partner dell'ecosistema. Consiste in una prossima serie di webcomic, NFT e collezionabili fisici, il progetto esplora la relazione tra privacy, sovranità individuale e libertà creativa. [Sito di Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Collection](https://opensea.io/collection/cypherpunk-zero) |  
 
 
 

@@ -43,7 +43,7 @@ Abbiate fiducia che abbiamo in serbo alcuni vantaggi incredibili ed esclusivi pe
 ## Risorse
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea Collection](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Collection](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

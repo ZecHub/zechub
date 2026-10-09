@@ -57,7 +57,7 @@ Cypherpunk Zero هي سلسلة قصصية تتمحور حول Zero، وهي ه�
 
 [حساب Cypherpunk Zero على Twitter](https://twitter.com/cypherpunkZero)
 
-[مجموعة Cypherpunk Zero على Opensea](https://opensea.io/collection/cypherpunk-zero)
+[مجموعة Cypherpunk Zero على OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 [حساب Cypherpunk Zero DAO على Twitter](https://twitter.com/CypherpunkDAO)
 
