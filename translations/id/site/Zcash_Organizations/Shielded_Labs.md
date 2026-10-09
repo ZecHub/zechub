@@ -25,7 +25,7 @@ Organisasi ini berkontribusi melalui rekayasa langsung, penelitian publik, dukun
 
 Shielded Labs secara publik mencantumkan beberapa area proyek yang aktif:
 
-- [Mekanisme Keberlanjutan Jaringan](https://shieldedlabs.net/nsm/) - Serangkaian usulan perubahan yang ditujukan untuk mendukung anggaran keamanan jangka panjang Zcash sambil tetap mempertahankan batas pasokan 21 juta ZEC. Pekerjaan NSM mencakup pembakaran ZEC secara sukarela, penghalusan penerbitan, dan proposal pembakaran biaya yang dijelaskan dalam ZIP 2rypt 233, 234, dan 235.
+- [Mekanisme Keberlanjutan Jaringan](https://shieldedlabs.net/nsm/) - Serangkaian usulan perubahan yang ditujukan untuk mendukung anggaran keamanan jangka panjang Zcash sambil tetap mempertahankan batas pasokan 21 juta ZEC. Pekerjaan NSM mencakup pembakaran ZEC secara sukarela, penghalusan penerbitan, dan proposal pembakaran biaya yang dijelaskan dalam ZIP 233, 234, dan 235.
 - [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Usulan peningkatan konsensus hibrida yang akan menggabungkan produksi blok proof-of-work Zcash dengan finalitas proof-of-stake, sehingga pemegang ZEC dapat membantu mengamankan jaringan sementara penambang terus memproduksi blok.
 - [Biaya Dinamis](https://shieldedlabs.net/fees/) - Riset dan tooling untuk biaya transaksi Zcash yang lebih terprediksi, ramah pengguna, dan tangguh seiring berkembangnya jaringan.
 - [Zero](https://shieldedlabs.net/zero/) - Rangkaian perangkat lunak infrastruktur Zcash sumber terbuka yang didukung untuk exchange, mining pool, penyedia dompet, dan organisasi lain yang mengandalkan infrastruktur Zcash.
