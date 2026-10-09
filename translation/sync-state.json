@@ -13909,6 +13909,38 @@
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
+    },
+    "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
+      "src": "sha256:d7b58eeab06ba77c6989358305f38d4700fe44b8bc12ecc772c930ead6d36c2e",
+      "src_commit": "60d233cf78d329bdee6c349a5fd20eb6fe38158d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Privacy_Tools/Penumbra.md": {
+      "src": "sha256:7b6866616700e7d642fb684d7a2853a52c51637a28673716a9fcb71b965f73eb",
+      "src_commit": "60d233cf78d329bdee6c349a5fd20eb6fe38158d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Research/zcash-foundations-series/article-2/article-2-elliptic-curves.md": {
+      "src": "sha256:e459471b76f5956a02f4a4e510f1c21d40c7c705230098d72f99f81ea91f8885",
+      "src_commit": "60d233cf78d329bdee6c349a5fd20eb6fe38158d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Using_Zcash/Recovering_Funds.md": {
+      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src_commit": "60d233cf78d329bdee6c349a5fd20eb6fe38158d",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
     }
   },
   "ig": {
