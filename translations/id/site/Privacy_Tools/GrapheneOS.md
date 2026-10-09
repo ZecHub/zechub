@@ -20,7 +20,7 @@ GrapheneOS mungkin memperkenalkan berbagai sakelar untuk fitur tertentu, seperti
 
 **Izin yang Ditingkatkan** Ini memberikan kontrol yang lebih baik atas izin aplikasi, memungkinkan pengguna untuk menyetel secara detail dan mengelola data apa saja yang dapat diakses oleh aplikasi.
 
-**Dasbor Privasi** Pengguna dapat memantau dan mengontrol perilaku aplikasi melalui dasbor privasi, yang memberikan transparansi terhadap penggunaan data.
+**Dashboard Privasi** Pengguna dapat memantau dan mengontrol perilaku aplikasi melalui dashboard privasi, yang memberikan transparansi terhadap penggunaan data.
 
 **Pembaruan Keamanan Bawaan** GrapheneOS menawarkan pembaruan keamanan yang tepat waktu, memastikan kamu mendapatkan perlindungan terbaru terhadap kerentanan.
 

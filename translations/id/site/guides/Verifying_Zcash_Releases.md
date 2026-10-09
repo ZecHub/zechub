@@ -440,7 +440,7 @@ Kegagalan tanda tangan lebih serius daripada kegagalan checksum. Ketidakcocokan 
 
 Verifikasi bekerja secara berbeda setelah kamu meninggalkan unduhan langsung.
 
-**App store.** Kamu tidak bisa memeriksa tanda tangan secara mandiri. Store tersebut menandatangani paketnya dan kamu mempercayai peninjauan dari store serta integritas akun pengembang tersebut. Apa yang *bisa* kamu verifikasi adalah bahwa kamu memiliki aplikasi yang benar: konfirmasikan nama penerbit dan pengenal paket terhadap situs resmi proyek, bukan terhadap hasil pencarian. Aplikasi penyamaran sangat umum terjadi, dan daftar di store bukanlah bukti keaslian.
+**App store.** Kamu tidak bisa memeriksa tanda tangan secara mandiri. Store tersebut menandatangani paketnya dan kamu mempercayai peninjauan dari store serta integritas akun developer tersebut. Apa yang *bisa* kamu verifikasi adalah bahwa kamu memiliki aplikasi yang benar: konfirmasikan nama penerbit dan pengenal paket terhadap situs resmi proyek, bukan terhadap hasil pencarian. Aplikasi penyamaran sangat umum terjadi, dan daftar di store bukanlah bukti keaslian.
 
 **APK Android Mandiri.** Ini *dapat* diverifikasi. ZODL mempublikasikan biner Android mandiri yang ditandatangani GPG melalui GitHub Releases, sehingga alur kerja Bagian 2 dapat diterapkan. Pilih jalur ini jika kamu menginginkan rantai yang dapat diperiksa.
 

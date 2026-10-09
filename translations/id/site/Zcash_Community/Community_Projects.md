@@ -39,7 +39,7 @@ Kolektif audiovisual yang mengutamakan privasi yang melatih, menciptakan bersama
 [Kunjungi ](https://zkav.club/)
 
 ### Sekolah Jaringan Zcash
-Konten edukasi terstruktur untuk pengguna dan pengembang Zcash baru.  
+Konten edukasi terstruktur untuk pengguna dan developer Zcash baru.  
 [Forum](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
 ### Zectastic
@@ -59,7 +59,7 @@ Platform keterlibatan komunitas dan hadiah yang dirancang untuk komunitas Zcash,
 [Kunjungi](https://gleyo.app/)
 
 ### Zcash Grants Hub
-Dasbor hibah yang berfokus pada komunitas, dirancang untuk menyederhanakan cara penemuan, pelacakan, dan peninjauan hibah Zcash. Platform ini menyatukan pengajuan hibah, milestone, anggaran, diskusi, dan analitik ke dalam satu tempat dengan menarik data langsung dari repositori GitHub Zcash Community Grants. Platform ini bertujuan untuk memberikan pengalaman yang lebih jelas dan ramah pengguna bagi pemohon, anggota komite, dan peninjau komunitas.  
+Dashboard hibah yang berfokus pada komunitas, dirancang untuk menyederhanakan cara penemuan, pelacakan, dan peninjauan hibah Zcash. Platform ini menyatukan pengajuan hibah, milestone, anggaran, diskusi, dan analitik ke dalam satu tempat dengan menarik data langsung dari repositori GitHub Zcash Community Grants. Platform ini bertujuan untuk memberikan pengalaman yang lebih jelas dan ramah pengguna bagi pemohon, anggota komite, dan peninjau komunitas.  
 [Kunjungi](https://staging.zgrantshub.com/)
 
 ---
@@ -153,7 +153,7 @@ Block explorer yang dirancang untuk menguji transaksi pada Zcash Testnet.
 [Kunjungi](https://testnet.exblo.app/)
 
 ### OpenZcash
-Dasbor transparansi publik untuk Zcash Dev Fund, termasuk akuntansi hibah ZCG dan FPF, Lockbox, tata kelola, dan pencairan dana.  
+Dashboard transparansi publik untuk Zcash Dev Fund, termasuk akuntansi hibah ZCG dan FPF, Lockbox, tata kelola, dan pencairan dana.  
 [Kunjungi](https://openzcash.org/)
 
 ### Zcash Block Explorer
@@ -173,7 +173,7 @@ Alat untuk memeriksa waktu respons gRPC dari node lightwalletd Zcash.
 [Kunjungi](https://github.com/emersonian/zecping)
 
 ### ZecStats
-Dasbor untuk statistik jaringan Zcash secara real-time dan metrik shielding.  
+Dashboard untuk statistik jaringan Zcash secara real-time dan metrik shielding.  
 [Kunjungi](https://zecstats.com)
 
 ### ZecZcash
@@ -239,10 +239,10 @@ Sistem autentikasi yang berfokus pada privasi yang menggunakan transaksi Zcash t
 
 ---
 
-## Pengembang, Pengujian, dan Infrastruktur
+## Developer, Pengujian, dan Infrastruktur
 
 ### Ziggurat
-Suite pengujian jaringan untuk pengembang zcashd dan Zebra. Mencakup crawler Zcash.  
+Suite pengujian jaringan untuk developer zcashd dan Zebra. Mencakup crawler Zcash.  
 [Kunjungi](https://github.com/runziggurat/zcash)
 
 ### ZecDev

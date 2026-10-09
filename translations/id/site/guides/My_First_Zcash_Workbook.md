@@ -61,7 +61,7 @@ Contoh-contoh tersebut menunjukkan situasi dunia nyata termasuk memberi tip kepa
 
 ## 5. Membangun dengan Zcash
 
-Bagian ini menyoroti bagaimana pengembang, desainer, peneliti, dan pendidik dapat membangun di atas Zcash. Ini memperkenalkan konsep-konsep seperti:
+Bagian ini menyoroti bagaimana developer, desainer, peneliti, dan pendidik dapat membangun di atas Zcash. Ini memperkenalkan konsep-konsep seperti:
 
 - Dompet Zcash  
 - SDK Developer  
@@ -108,7 +108,7 @@ Seorang siswa SMA yang tertarik pada privasi, komputer, kriptografi, dan psikolo
 
 **Pacu (@thecodebuffet)**
 
-Pengembang dompet Zcash yang telah lama berkecimpung, sebelumnya di ECC mengerjakan SDK dan teknologi Light Client, kini berkontribusi pada ekosistem di bawah hibah ZCG.
+Developer dompet Zcash yang telah lama berkecimpung, sebelumnya di ECC mengerjakan SDK dan teknologi Light Client, kini berkontribusi pada ekosistem di bawah hibah ZCG.
 
 **Marek**
 

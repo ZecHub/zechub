@@ -31,7 +31,7 @@ ZecMap menyusun bisnis yang menerima Zcash dalam sebuah peta global. Setiap daft
 
 ---
 
-## Kasus Penggunaan
+## Use Cases
 
 ### Menemukan Merchant Lokal
 

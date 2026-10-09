@@ -36,7 +36,7 @@ Modal tersebut digunakan untuk memperluas pengembangan protokol Zcash dan dompet
 
 - **Josh Swihart** - CEO & Pendiri (mantan CEO dari Electric Coin Company)
 
-Tim yang lebih luas terdiri dari para pencipta protokol Zcash asli dan pengembang yang sebelumnya membangun dan memelihara Zcash di ECC. Ini mencakup keahlian mendalam dalam kriptografi, zero-knowledge proofs, dan rekayasa protokol.
+Tim yang lebih luas terdiri dari para pencipta protokol Zcash asli dan developer yang sebelumnya membangun dan memelihara Zcash di ECC. Ini mencakup keahlian mendalam dalam kriptografi, zero-knowledge proofs, dan rekayasa protokol.
 
 ## Produk
 

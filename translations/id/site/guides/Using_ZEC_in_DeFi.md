@@ -51,7 +51,7 @@ Berbagai opsi saat ini sedang dieksplorasi untuk memungkinkan aplikasi DeFi di d
 
 **zkEVM**
 
-Ini akan menghadirkan kemampuan pemrograman asli ke Zcash dengan virtual machine yang kompatibel dengan EVM yang mendukung komputasi zero-knowledge proof. Hal ini akan memungkinkan Zcash untuk menemukan pertumbuhan melalui komunitas pengembang yang lebih beragam dan membina ekosistem aplikasi serta token yang menjaga privasi. Ini akan membuatnya sebanding dengan solusi privasi L2 lainnya yang sudah ada.
+Ini akan menghadirkan kemampuan pemrograman asli ke Zcash dengan virtual machine yang kompatibel dengan EVM yang mendukung komputasi zero-knowledge proof. Hal ini akan memungkinkan Zcash untuk menemukan pertumbuhan melalui komunitas developer yang lebih beragam dan membina ekosistem aplikasi serta token yang menjaga privasi. Ini akan membuatnya sebanding dengan solusi privasi L2 lainnya yang sudah ada.
 
 Penelitian berkelanjutan mengenai Proof-of-Stake & protokol Cosmos Interblockchain Communication dipimpin oleh ECC. Langkah selanjutnya sedang dinilai bersama dengan keberhasilan Ethereum Merge ke PoS serta setiap masalah yang mungkin muncul.
 

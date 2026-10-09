@@ -16,7 +16,7 @@ Shade Protocol dibangun di atas Secret Network, sebuah blockchain layer 1 yang m
 
 ![Secret Network Diagram](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
-Secret Network memungkinkan pengembang untuk membangun aplikasi terdesentralisasi dengan data terenkripsi, baik secara asli di Secret maupun di blockchain lain melalui komunikasi lintas chain, membuka kasus penggunaan baru yang kuat untuk Web3.
+Secret Network memungkinkan developer untuk membangun aplikasi terdesentralisasi dengan data terenkripsi, baik secara asli di Secret maupun di blockchain lain melalui komunikasi lintas chain, membuka use cases baru yang kuat untuk Web3.
 
 **SDK Cosmos dan Tendermint Core**
 

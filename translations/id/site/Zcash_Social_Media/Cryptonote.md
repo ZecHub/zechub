@@ -89,7 +89,7 @@ Hal ini menciptakan kurva emisi yang jauh lebih mulus seiring berjalannya waktu.
 ![Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **Koneksi Zcash**:  
-Para pengembang Zcash telah mendiskusikan penerapan kurva emisi yang lebih mulus di masa mendatang, yang berpotensi melalui sebuah "Zcash Posterity Fund".
+Para developer Zcash telah mendiskusikan penerapan kurva emisi yang lebih mulus di masa mendatang, yang berpotensi melalui sebuah "Zcash Posterity Fund".
 
 ---
 

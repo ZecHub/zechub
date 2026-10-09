@@ -88,7 +88,7 @@ Gunakan:
 - Log off-chain (misalnya, dokumen bersama)
 
 Contoh memo: 
- - Hibah #12 - Pembayaran Pengembang
+ - Hibah #12 - Pembayaran Developer
 
 
 

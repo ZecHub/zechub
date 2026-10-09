@@ -37,7 +37,7 @@ Zaino ditambahkan saat operator ingin melayani klien eksternal. Di Z3, ini berja
 * sebuah proxy JSON-RPC untuk explorer, faucet, dan backend layanan
 * sebuah database indexer yang terpisah dari status chain Zebra
 
-Hal ini membuat Zaino menjadi sangat relevan bagi backend dompet, operator infrastruktur publik, explorer, faucet, dan pengembang yang menguji layanan yang membutuhkan data rantai Zcash yang terindeks.
+Hal ini membuat Zaino menjadi sangat relevan bagi backend dompet, operator infrastruktur publik, explorer, faucet, dan developer yang menguji layanan yang membutuhkan data rantai Zcash yang terindeks.
 
 ## Zaino dan lightwalletd
 

@@ -27,9 +27,9 @@ Sebelum Anda membuka editor, ketahui masalah apa yang sedang Anda selesaikan dan
 
 ## Pelajari stack terlebih dahulu
 
-Kejutan yang paling umum bagi para pengembang dari chain lain adalah kurva pembelajaran untuk infrastruktur Zcash, bukan aspek pengkodeannya. Berikan waktu bagi diri Anda untuk memahami bagaimana setiap bagian saling terhubung sebelum Anda merancang aplikasi Anda. Mulailah dengan stack inti, yang sering disebut sebagai Z pangkat tiga: zebrad, sebuah server ringan, dan sebuah dompet. Kemudian, mulailah membiasakan diri dengan alat pengembang berikut:
+Kejutan yang paling umum bagi para developer dari chain lain adalah kurva pembelajaran untuk infrastruktur Zcash, bukan aspek pengkodeannya. Berikan waktu bagi diri Anda untuk memahami bagaimana setiap bagian saling terhubung sebelum Anda merancang aplikasi Anda. Mulailah dengan stack inti, yang sering disebut sebagai Z pangkat tiga: zebrad, sebuah server ringan, dan sebuah dompet. Kemudian, mulailah membiasakan diri dengan alat developer berikut:
 
-1. Baca halaman pengembang di wiki pada [zechub.wiki/developers](https://zechub.wiki/developers), ini adalah langkah pertama yang direkomendasikan
+1. Baca halaman developer di wiki pada [zechub.wiki/developers](https://zechub.wiki/developers), ini adalah langkah pertama yang direkomendasikan
 2. Jelajahi zingolib dan zingo-cli, yang panggilan-panggilannya mencakup sebagian besar kebutuhan proyek di berbagai jalur
 3. Lihat librustzcash dan dompet referensi ZODL untuk blok bangunan tingkat rendah
 4. Untuk proyek FROST, gunakan frostd dari Zcash Foundation dan frost-core dari crates.io, dan manfaatkan AI untuk membantu definisi, meskipun penggunaan FROST secara aman tetap membutuhkan upaya dan waktu yang nyata
@@ -75,7 +75,7 @@ Menang bukanlah akhir dari segalanya. Kemenangan membangun portofolio dan reputa
 
 ## Halaman terkait
 
-- [Sumber Daya Pengembang](https://zechub.wiki/developers) - pemberhentian pertama bagi Zcash pembangun
+- [Sumber Daya Developer](https://zechub.wiki/developers) - pemberhentian pertama bagi Zcash pembangun
 - [Zebra Full Node](https://zechub.wiki/zcash-tech/zebra-full-node) - node pada dasar tumpukan
 - [FROST](https://zechub.wiki/zcash-tech/frost) - threshold signatures untuk proyek tingkat lanjut
 

@@ -101,7 +101,7 @@ Panduan instalasi: [zebra.zfnd.org/user/install.html](https://zebra.zfnd.org/use
 
 - Gabungkan beberapa fitur dengan mencantumkannya sebagai parameter dari flag `--features` selama instalasi.
 
-- Beberapa fitur debugging dan pemantauan dinonaktifkan dalam build rilis untuk mengoptimalkan performa. Untuk daftar lengkap fitur eksperimental dan pengembang, silakan merujuk ke dokumentasi [API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
+- Beberapa fitur debugging dan pemantauan dinonaktifkan dalam build rilis untuk mengoptimalkan performa. Untuk daftar lengkap fitur eksperimental dan developer, silakan merujuk ke dokumentasi [API](https://docs.rs/zebrad/latest/zebrad/index.html#zebra-feature-flags).
 
 ## Persyaratan Sistem dan Konfigurasi Jaringan
 
