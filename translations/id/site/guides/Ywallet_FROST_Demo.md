@@ -1,6 +1,6 @@
 # Demo FROST Ywallet
 
-> **Ywallet tidak lagi dikelola.** Pengembangnya telah mengonfirmasi bahwa dompet ini tidak akan diperbarui untuk Ironwood (NU6.3), sehingga tidak lagi dapat mengikuti rantai dan langkah-langkah di bawah ini tidak dapat diselesaikan di mainnet. Halaman ini tetap disimpan sebagai referensi. Zkool, dari pengembang yang sama, adalah penerus yang dikelola dan mendukung multisig FROST.
+> **Ywallet tidak lagi dikelola.** Developer-nya telah mengonfirmasi bahwa dompet ini tidak akan diperbarui untuk Ironwood (NU6.3), sehingga tidak lagi dapat mengikuti rantai dan langkah-langkah di bawah ini tidak dapat diselesaikan di mainnet. Halaman ini tetap disimpan sebagai referensi. Zkool, dari developer yang sama, adalah penerus yang dikelola dan mendukung multisig FROST.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

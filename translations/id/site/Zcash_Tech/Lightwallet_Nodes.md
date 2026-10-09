@@ -71,7 +71,7 @@ Tor memutus hubungan antara alamat IP Anda dan lalu lintas dompet Anda, yang men
 
 Dukungan tersedia dalam pustaka Rust yang menjadi dasar bagi banyak dompet Zcash. zcash_client_backend menyertakan modul Tor yang dibangun di atas [Arti](https://tpo.pages.torproject.net/core/arti/), implementasi Tor dalam Rust, sehingga sebuah dompet dapat mengarahkan sinkronisasi, siaran transaksi, dan pencarian harga melalui Tor tanpa perlu menyertakan klien Tor terpisah.
 
-Para pengembang Zaino mengajukan argumen yang sama, dengan mengutip model ancaman secara langsung: terdapat "kebutuhan untuk menggunakan protokol transport anonim (seperti Nym atau Tor) guna menyamarkan identitas client dari server pengindeksan Zcash".
+Para developer Zaino mengajukan argumen yang sama, dengan mengutip model ancaman secara langsung: terdapat "kebutuhan untuk menggunakan protokol transport anonim (seperti Nym atau Tor) guna menyamarkan identitas client dari server pengindeksan Zcash".
 
 Di **ZODL**, Tor adalah sebuah pengaturan dalam Pengaturan Lanjutan. Catatan rilis dompet mengarahkan pengguna ke mode koneksi manual "ditambah dengan mengaktifkan Tor di Pengaturan Lanjutan" jika mereka "lebih memilih untuk mengurangi paparan metadata", dan aplikasi menawarkan untuk menyalakan Tor sebelum Anda memulihkan dompet, yang merupakan saat di mana IP baru akan terhubung dengan seluruh riwayat dompet jika tidak dilakukan demikian.
 
@@ -95,7 +95,7 @@ Opsi terkuat adalah menjadi operator Anda sendiri, yang sepenuhnya menghilangkan
 
 Dashboard [hosh.zec.rocks](https://hosh.zec.rocks/zec) melacak server publik dan kondisinya, serta merupakan tempat untuk memeriksa apa yang sebenarnya sedang aktif. [status.zec.rocks](https://status.zec.rocks/) menunjukkan status layanan.
 
-Server yang terdaftar pada dasbor tersebut pada saat penulisan ini:
+Server yang terdaftar pada dashboard tersebut pada saat penulisan ini:
 
 | Server | Catatan |
 |:--|:--|

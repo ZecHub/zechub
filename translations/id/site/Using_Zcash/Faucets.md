@@ -7,7 +7,7 @@
 <img width="2138" height="878" alt="Screenshot_2025-10-30_10-36-45" src="/content-images/bba0da3b-7064-4680-9535-a0dfcf50cc00-1827fccf4b.webp" />
 
 
-Faucet adalah layanan yang membagikan sejumlah kecil cryptocurrency secara gratis. Layanan ini sering digunakan oleh pengembang untuk bereksperimen dengan cryptocurrency dan oleh pengguna untuk mendapatkan sejumlah kecil cryptocurrency tanpa harus membelinya. Biasanya, faucet membatasi jumlah cryptocurrency yang dapat kamu terima dalam jangka waktu tertentu.
+Faucet adalah layanan yang membagikan sejumlah kecil cryptocurrency secara gratis. Layanan ini sering digunakan oleh developer untuk bereksperimen dengan cryptocurrency dan oleh pengguna untuk mendapatkan sejumlah kecil cryptocurrency tanpa harus membelinya. Biasanya, faucet membatasi jumlah cryptocurrency yang dapat kamu terima dalam jangka waktu tertentu.
 
 Mainnet: <a href="https://zecfaucet.com">zecfaucet</a>
 

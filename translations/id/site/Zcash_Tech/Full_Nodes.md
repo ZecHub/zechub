@@ -48,7 +48,7 @@ zcashd adalah implementasi Full Node asli untuk Zcash, yang dikembangkan dan dik
 
 Zcashd mengekspos sekumpulan API melalui antarmuka RPC-nya. API ini menyediakan fungsi yang memungkinkan aplikasi eksternal untuk berinteraksi dengan node.
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) adalah contoh aplikasi yang menggunakan full node untuk memungkinkan pengembang membangun dan memelihara dompet ringan terlindungi yang ramah seluler tanpa harus berinteraksi secara langsung dengan Zcashd.
+[Lightwalletd](https://github.com/zcash/lightwalletd) adalah contoh aplikasi yang menggunakan full node untuk memungkinkan developer membangun dan memelihara dompet ringan terlindungi yang ramah seluler tanpa harus berinteraksi secara langsung dengan Zcashd.
 
 Daftar lengkap perintah RPC [ yang didukung](https://zcash.github.io/rpc/)
 

@@ -134,7 +134,7 @@ Sekarang kamu telah memahami:
 ## Apa Selanjutnya?
 
 - [Buka halaman beranda](/)
-- [Jelajahi jalur pengembang](/developers)
+- [Jelajahi jalur developer](/developers)
 - [Berkontribusi ke ZecHub](/contribute/help-build-zechub)
 
 <br/>

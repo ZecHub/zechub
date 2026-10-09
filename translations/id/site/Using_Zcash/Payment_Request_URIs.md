@@ -38,7 +38,7 @@ zcash:<address>?amount=<zec>&memo=<text>&label=<text>
 
 Aturan lengkap: [ZIP 321](https://zips.z.cash/zip-0321).
 
-## Kasus penggunaan
+## Use Cases
 
 - **Checkout** — isi otomatis harga dan memo pesanan agar pelanggan hanya perlu melakukan konfirmasi di dompet mereka
 - **Invoices** — bagikan satu tautan atau QR

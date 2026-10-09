@@ -6,7 +6,7 @@
 
 ---
 
-**Zcash Labs** adalah organisasi independen yang berfokus pada implementasi praktis, integrasi, dan adopsi **Zcash** serta aset digitalnya, **ZEC**. Zcash Labs membantu bisnis, institusi, pengembang, dan proyek independen yang ingin menggunakan teknologi Zcash dalam produk, layanan, sistem pembayaran, atau aplikasi yang dapat digunakan dalam skenario dunia nyata.
+**Zcash Labs** adalah organisasi independen yang berfokus pada implementasi praktis, integrasi, dan adopsi **Zcash** serta aset digitalnya, **ZEC**. Zcash Labs membantu bisnis, institusi, developer, dan proyek independen yang ingin menggunakan teknologi Zcash dalam produk, layanan, sistem pembayaran, atau aplikasi yang dapat digunakan dalam skenario dunia nyata.
 
 Zcash Labs memposisikan dirinya sebagai organisasi **go to market** untuk Zcash. Dalam konteks **go to market**, ini berarti membantu membawa teknologi Zcash dari kapabilitas teknis yang ada menuju implementasi yang dapat digunakan oleh bisnis dan pengguna. Untuk mencapai tujuan ini, Zcash Labs menggabungkan konsultasi, solutions engineering, integrasi teknis, operasi infrastruktur, manajemen produk, pendanaan tahap awal, underwriting keuangan, dan co-marketing ke dalam satu pendekatan tunggal yang berorientasi pada peluncuran produk dan penggunaan dunia nyata.
 
@@ -20,11 +20,11 @@ Zcash Labs diperkenalkan kepada publik melalui situs web resminya pada **6 Agust
 
 Meskipun pengumuman publik dilakukan pada Agustus 2026, Zcash Labs menyatakan bahwa aktivitasnya telah berjalan sebelum pengumuman tersebut. Zcash Labs telah bekerja dengan proyek-proyek yang menggunakan Zcash dan membantu dalam proses pengembangan sebelum identitas Zcash Labs diperkenalkan secara luas. Salah satu contoh awal yang kemudian diumumkan kepada publik adalah keterlibatannya dalam pengembangan **zcashtocash**.
 
-Kemunculan Zcash Labs berkaitan dengan kebutuhan untuk memperkecil kesenjangan antara teknologi Zcash yang tersedia dengan kemampuan bisnis atau pengembang untuk menggunakannya. Sebuah perusahaan mungkin memiliki kebutuhan yang selaras dengan Zcash tetapi belum mengetahui teknologi yang diperlukan, cara mengintegrasikannya, atau infrastruktur untuk menggunakannya. Di saat yang sama, sebuah proyek baru mungkin memiliki konsep yang menjanjikan tetapi memerlukan bantuan teknis, manajemen produk, modal awal, atau dukungan untuk mencapai tahap produksi. Zcash Labs bekerja di ruang tersebut dengan menyediakan dukungan yang menghubungkan kebutuhan bisnis dan pengembang dengan teknologi **Zcash**.
+Kemunculan Zcash Labs berkaitan dengan kebutuhan untuk memperkecil kesenjangan antara teknologi Zcash yang tersedia dengan kemampuan bisnis atau developer untuk menggunakannya. Sebuah perusahaan mungkin memiliki kebutuhan yang selaras dengan Zcash tetapi belum mengetahui teknologi yang diperlukan, cara mengintegrasikannya, atau infrastruktur untuk menggunakannya. Di saat yang sama, sebuah proyek baru mungkin memiliki konsep yang menjanjikan tetapi memerlukan bantuan teknis, manajemen produk, modal awal, atau dukungan untuk mencapai tahap produksi. Zcash Labs bekerja di ruang tersebut dengan menyediakan dukungan yang menghubungkan kebutuhan bisnis dan developer dengan teknologi **Zcash**.
 
 Pendekatan Zcash Labs dimulai dengan memahami masalah atau kebutuhan suatu organisasi. Setelah kebutuhan tersebut dipahami, Zcash Labs menilai apakah Zcash merupakan teknologi yang sesuai. Jika terdapat kecocokan, Zcash Labs membantu menentukan pendekatan teknis yang dapat digunakan untuk membangun integrasi tersebut. Tahap ini dapat mencakup pemilihan teknologi Zcash yang tersedia, merancang arsitektur, menentukan persyaratan infrastruktur, dan mengembangkan komponen tambahan jika solusi yang ada tidak memadai.
 
-Dengan pendekatan ini, Zcash Labs dapat terlibat mulai dari diskusi awal mengenai sebuah kasus penggunaan hingga sistem yang benar-benar berjalan. Hal ini membentuk dasar bagi posisi Zcash Labs sebagai organisasi independen dalam ekosistem Zcash yang terjun ke pasar, karena pekerjaannya tidak berhenti pada tahap perencanaan atau pengembangan teknis, tetapi juga mencakup proses menghadirkan solusi untuk penggunaan di dunia nyata.
+Dengan pendekatan ini, Zcash Labs dapat terlibat mulai dari diskusi awal mengenai sebuah use case hingga sistem yang benar-benar berjalan. Hal ini membentuk dasar bagi posisi Zcash Labs sebagai organisasi independen dalam ekosistem Zcash yang terjun ke pasar, karena pekerjaannya tidak berhenti pada tahap perencanaan atau pengembangan teknis, tetapi juga mencakup proses menghadirkan solusi untuk penggunaan di dunia nyata.
 
 ---
 
@@ -46,7 +46,7 @@ Berdasarkan pengumuman dari **Forum Komunitas [Zcash](https://forum.zcashcommuni
 
 ## Bagaimana Zcash Labs Bekerja dengan Mitra dan Kandidat Pengguna
 
-Zcash Labs menjelaskan alur kerja yang cukup sederhana. Proses ini dimulai dengan memahami kebutuhan mereka yang datang kepada mereka, kemudian menilai secara jujur apakah Zcash memang sesuai untuk kasus penggunaan tersebut. Jika sesuai, mereka membantu memetakan alur penggunaan, persyaratan teknis, serta berbagai trade-off atau implikasi desain yang perlu dipertimbangkan. Setelah itu, mereka dapat membantu dalam membangun solusi teknis dan, jika relevan, membantu kegiatan pendanaan serta co-marketing.
+Zcash Labs menjelaskan alur kerja yang cukup sederhana. Proses ini dimulai dengan memahami kebutuhan mereka yang datang kepada mereka, kemudian menilai secara jujur apakah Zcash memang sesuai untuk use case tersebut. Jika sesuai, mereka membantu memetakan alur penggunaan, persyaratan teknis, serta berbagai trade-off atau implikasi desain yang perlu dipertimbangkan. Setelah itu, mereka dapat membantu dalam membangun solusi teknis dan, jika relevan, membantu kegiatan pendanaan serta co-marketing.
 
 Pendekatan ini penting karena tidak setiap proyek secara otomatis cocok untuk Zcash. Dengan menempatkan fase penilaian di awal, Zcash Labs berupaya menjadi mitra implementasi yang pragmatis, alih-alih sekadar pendukung adopsi yang mengabaikan kesesuaian dengan kebutuhan dunia nyata.
 
@@ -58,7 +58,7 @@ Selain memfasilitasi integrasi pihak ketiga, Zcash Labs juga mengoperasikan dan 
 
 Full node digunakan untuk terhubung secara langsung ke jaringan dan memverifikasi data blockchain. lightwalletd membantu dompet dan aplikasi ringan mengambil data yang diperlukan dari jaringan tanpa menjalankan seluruh blockchain secara lokal. Sementara itu, RPC menyediakan cara bagi perangkat lunak eksternal untuk berkomunikasi dengan node atau layanan blockchain.
 
-Mengoperasikan infrastruktur ini terkait langsung dengan upaya integrasi Zcash Labs. Bisnis dan pengembang yang membangun aplikasi Zcash memerlukan akses yang andal ke jaringan. Dengan menjalankan layanan-layanan ini secara independen, Zcash Labs dapat memperluas rentang opsi infrastruktur yang tersedia sekaligus mendapatkan pengalaman langsung dengan persyaratan teknis dari integrasi yang difasilitasinya.
+Mengoperasikan infrastruktur ini terkait langsung dengan upaya integrasi Zcash Labs. Bisnis dan developer yang membangun aplikasi Zcash memerlukan akses yang andal ke jaringan. Dengan menjalankan layanan-layanan ini secara independen, Zcash Labs dapat memperluas rentang opsi infrastruktur yang tersedia sekaligus mendapatkan pengalaman langsung dengan persyaratan teknis dari integrasi yang difasilitasinya.
 
 Zcash Labs juga menyatakan bahwa layanan RPC tambahan akan dikembangkan seiring dengan berkembangnya infrastrukturnya. Hal ini menunjukkan bahwa aktivitas Zcash Labs tidak hanya berfokus pada pembangunan aplikasi di atas Zcash, tetapi juga pada penyediaan infrastruktur teknis yang memungkinkan aplikasi atau proyek tersebut untuk berkomunikasi dengan jaringan Zcash.
 
@@ -110,7 +110,7 @@ Struktur ini menciptakan insentif bagi Zcash Labs untuk berhati-hati saat memili
 
 ### Pemilihan dan Pengembangan Proyek
 
-Zcash Labs tidak hanya menunggu proyek-proyek datang kepada mereka untuk mencari pendanaan. Zcash Labs juga dapat mengidentifikasi masalah yang dianggap penting, mencari tim atau pengembang yang mampu memberikan solusi, dan kemudian memberikan dukungan jika pendekatan yang diusulkan dianggap layak.
+Zcash Labs tidak hanya menunggu proyek-proyek datang kepada mereka untuk mencari pendanaan. Zcash Labs juga dapat mengidentifikasi masalah yang dianggap penting, mencari tim atau developer yang mampu memberikan solusi, dan kemudian memberikan dukungan jika pendekatan yang diusulkan dianggap layak.
 
 Pendekatan ini terlihat jelas dalam **[aktivitas publik Zcash Labs di X](https://x.com/zcashlabs)**. Zcash Labs pernah mencari solusi untuk masalah bug bounty dalam pengembangan kecerdasan buatan dan menyatakan bahwa pendanaan tersedia bagi solusi yang dianggap mampu menyelesaikan masalah tersebut.
 
@@ -214,7 +214,7 @@ Di media sosial, organisasi ini menggunakan akun **[@ZcashLabs](https://x.com/zc
 
 ## Ringkasan
 
-**Zcash Labs adalah organisasi independen yang berfokus pada strategi go-to-market, integrasi, dan adopsi praktis dari Zcash.** Zcash Labs membantu bisnis, institusi, pengembang, dan proyek independen menggunakan teknologi Zcash untuk membangun produk, layanan, dan infrastruktur yang dapat digunakan di dunia nyata.
+**Zcash Labs adalah organisasi independen yang berfokus pada strategi go-to-market, integrasi, dan adopsi praktis dari Zcash.** Zcash Labs membantu bisnis, institusi, developer, dan proyek independen menggunakan teknologi Zcash untuk membangun produk, layanan, dan infrastruktur yang dapat digunakan di dunia nyata.
 
 Model Zcash Labs menggabungkan keahlian teknis dengan pendanaan. Organisasi ini dapat membantu merancang dan membangun integrasi, menyediakan infrastruktur, mengelola pengembangan produk, dan menggunakan modalnya sendiri untuk mendukung pekerjaan sebelum menerima penggantian biaya.
 

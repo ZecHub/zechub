@@ -130,7 +130,7 @@ Ia menambahkan bahwa "Orchard bersifat open source dan matang; mengintegrasikann
 
 ### Ekspansi Ekosistem
 
-crate Orchard dirilis di bawah lisensi open-source MIT dan Apache 2.0. Setiap integrasi oleh proyek lain memperluas basis pengguna untuk primitif kriptografi Zcash, meningkatkan jumlah pengembang yang familier dengan codebase tersebut, dan berpotensi menghasilkan peningkatan upstream yang bermanfaat bagi Zcash itu sendiri.
+crate Orchard dirilis di bawah lisensi open-source MIT dan Apache 2.0. Setiap integrasi oleh proyek lain memperluas basis pengguna untuk primitif kriptografi Zcash, meningkatkan jumlah developer yang familier dengan codebase tersebut, dan berpotensi menghasilkan peningkatan upstream yang bermanfaat bagi Zcash itu sendiri.
 
 ### Pengenalan Cross-Chain
 

@@ -81,7 +81,7 @@ Untuk tipe penerima yang diketahui, verifikasi bahwa panjang yang dikodekan sesu
 
 ---
 
-## Praktik terbaik untuk pengembang
+## Praktik terbaik untuk developer
 
 - **Bandingkan penerima yang telah diurai, bukan string mentah.** Dekode alamat terlebih dahulu sebelum memeriksa kesetaraannya.
 - **Gunakan library yang terawat untuk apa pun yang menangani dana.** Kompilasi crate Rust resmi (seperti `zcash_address`) ke WebAssembly daripada menerapkan decoder JavaScript kustom.

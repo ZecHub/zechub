@@ -19,7 +19,7 @@
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Ini untuk siapa?
 
 - Siapa pun yang tidak ingin langganan AI terikat dengan nama mereka
-- Pengembang yang membayar untuk inferensi tanpa kartu perusahaan
+- Developer yang membayar untuk inferensi tanpa kartu perusahaan
 - Orang-orang di negara di mana pembayaran kartu ke layanan AI gagal
 - Siapa pun yang lebih memilih untuk tidak memberikan email saat mencoba sebuah model
 

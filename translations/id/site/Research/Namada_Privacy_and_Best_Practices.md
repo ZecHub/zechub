@@ -12,7 +12,7 @@ published: 2025-08-02
 
 > Panduan praktis dan dapat ditindaklanjuti untuk mencapai privasi maksimal pada Namada - dan memahami dengan tepat di mana perlindungannya berakhir.
 
-**Privasi adalah hak mendasar.** Namada dibangun khusus untuk melindunginya melalui kriptografi zero-knowledge tingkat lanjut. Panduan ini merangkum praktik paling efektif yang digunakan oleh pengguna dan pengembang yang peduli terhadap privasi.
+**Privasi adalah hak mendasar.** Namada dibangun khusus untuk melindunginya melalui kriptografi zero-knowledge tingkat lanjut. Panduan ini merangkum praktik paling efektif yang digunakan oleh pengguna dan developer yang peduli terhadap privasi.
 
 ---
 

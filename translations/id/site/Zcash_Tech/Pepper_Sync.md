@@ -76,7 +76,7 @@ Alih-alih memindai ulang blockchain dalam potongan besar yang berat, Pepper Sync
 
 - Pengguna Baru - Dapat menyiapkan dompet dengan cepat tanpa merasa terhambat oleh penundaan.
 - Pengguna Harian - Sinkronisasi yang andal membuat pembayaran terlindungi praktis untuk penggunaan sehari-hari.
-- Pengembang & Penguji - Waktu sinkronisasi yang lebih singkat berarti siklus pengujian yang lebih cepat.
+- Developer & Penguji - Waktu sinkronisasi yang lebih singkat berarti siklus pengujian yang lebih cepat.
 - Perangkat Seluler & Ringan - Zingo kini berjalan secara efisien bahkan pada perangkat keras dengan sumber daya terbatas.
 
 ### Mengapa ini penting bagi Zcash
@@ -133,7 +133,7 @@ A: Ya. Pepper Sync mendukung pengeluaran sebelum sinkronisasi selesai, sehingga 
 
 Dengan Zingo 2.0 Pepper Sync, sinkronisasi bukan lagi kendala terbesar dari dompet terlindungi. Kini prosesnya menjadi cepat, stabil, dan ramah pengguna, sehingga menurunkan hambatan bagi pendatang baru dan membuat penggunaan sehari-hari jauh lebih praktis.
 
-Bagi pengguna, ini berarti waktu tunggu yang lebih singkat dan privasi yang lebih tinggi. Bagi pengembang, ini berarti fondasi yang lebih kuat untuk dibangun. Bagi ekosistem Zcash, ini adalah langkah lain menuju pembuatan transaksi terlindungi yang dapat diakses oleh semua orang.
+Bagi pengguna, ini berarti waktu tunggu yang lebih singkat dan privasi yang lebih tinggi. Bagi developer, ini berarti fondasi yang lebih kuat untuk dibangun. Bagi ekosistem Zcash, ini adalah langkah lain menuju pembuatan transaksi terlindungi yang dapat diakses oleh semua orang.
 
 Zingo 2.0 dengan Pepper Sync bukan sekadar peningkatan; ini adalah sebuah lompatan maju untuk kripto yang privat dan dapat digunakan.
 

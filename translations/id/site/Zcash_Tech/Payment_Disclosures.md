@@ -127,7 +127,7 @@ Pengirim juga mungkin tidak dapat mengungkapkan sebuah output jika transaksi ter
 
 Dokumentasi lama menjelaskan perintah eksperimental `z_getpaymentdisclosure` dan `z_validatepaymentdisclosure` di dalam `zcashd`. Perintah tersebut hanya mendukung **output Sprout JoinSplit**, bukan desain Sapling pada ZIP 311, dan telah usang. `zcashd` mencapai penghentian akhir Dukungan-nya (End-of-Support) pada Juli 2026. Jangan gunakan panduan lama tersebut sebagai instruksi untuk dana saat ini.
 
-Kesenjangan ini tidak membuat ide tersebut menjadi tidak berguna. Hal ini menjelaskan mengapa sebuah panduan yang cermat harus memisahkan model privasi dan kasus penggunaan dari perangkat lunak yang sudah siap untuk pengguna biasa.
+Kesenjangan ini tidak membuat ide tersebut menjadi tidak berguna. Hal ini menjelaskan mengapa sebuah panduan yang cermat harus memisahkan model privasi dan use cases dari perangkat lunak yang sudah siap untuk pengguna biasa.
 
 ## FAQ
 

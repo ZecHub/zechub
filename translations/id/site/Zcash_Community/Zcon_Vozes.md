@@ -29,7 +29,7 @@ Playlist [Zcon Vozes 1](https://www.youtube.com/playlist?list=PLez2pAhViAI2KiXyP
 ## Zcon Vozes 2
 
 Sebuah acara yang didedikasikan untuk membahas teknologi, privasi, blockchain, aset kripto, infrastruktur keuangan, inovasi, dan masa depan internet terbuka.
-Kami menghadirkan percakapan dengan para ahli, profesor, pengembang, peneliti, dan anggota komunitas untuk mengeksplorasi topik-topik seperti Zcash, privasi keuangan, RWA (Real-World Assets), tokenisasi aset, Web3, keamanan, kedaulatan digital, dan aplikasi baru dari teknologi blockchain.
+Kami menghadirkan percakapan dengan para ahli, profesor, developer, peneliti, dan anggota komunitas untuk mengeksplorasi topik-topik seperti Zcash, privasi keuangan, RWA (Real-World Assets), tokenisasi aset, Web3, keamanan, kedaulatan digital, dan aplikasi baru dari teknologi blockchain.
 Tujuan dari Zcon Vozes adalah untuk menjembatani pengetahuan teknis, wawasan pasar, dan edukasi yang dapat diakses, mendekatkan komunitas Brasil ke debat paling penting mengenai privasi, desentralisasi, dan masa depan keuangan digital.
 
 Playlist [Zcon Vozes 2](https://www.youtube.com/playlist?list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz)

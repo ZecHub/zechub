@@ -4,7 +4,7 @@
 
 # Dasar-dasar Zcash
 
-## Kasus Penggunaan ZEC
+## Use Cases ZEC
 
 #### Pembayaran
 

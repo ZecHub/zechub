@@ -27,7 +27,7 @@
    - [Sessions (Direkomendasikan)](#sessions-recommended)
    - [Streaming](#streaming)
    - [Charge](#charge)
-5. [Kasus Penggunaan & Contoh](#use-cases--examples)
+5. [Use Cases & Contoh](#use-cases--examples)
 6. [Instalasi](#installation)
 7. [Menyiapkan Dompet Zimppy](#setting-up-the-zimppy-wallet)
 8. [Mengintegrasikan Zimppy](#integrating-zimppy--typescript-sdk)
@@ -169,7 +169,7 @@ Server ->  200 OK + Payment-Receipt
 
 ---
 
-## Kasus Penggunaan & Contoh
+## Use Cases & Contoh
 
 ### 1. Agen AI
 

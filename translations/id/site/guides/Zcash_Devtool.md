@@ -2,7 +2,7 @@
 
 Apa itu Zcash-Devtool dari [?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file)
 
-Devtool Zcash adalah platform untuk melakukan hacking pada Zcash. Alat ini dibuat oleh pengembang, untuk pengembang, guna pengujian & pengembangan fungsionalitas Zcash baru; dan tidak boleh dianggap siap untuk produksi. API command line yang disediakan alat ini dapat & akan berubah sewaktu-waktu tanpa peringatan. JANGAN menyetorkan dana dalam jumlah besar ke dalam pengelolaan dompet embedded zcash-devtool.
+Devtool Zcash adalah platform untuk melakukan hacking pada Zcash. Alat ini dibuat oleh developer, untuk developer, guna pengujian & pengembangan fungsionalitas Zcash baru; dan tidak boleh dianggap siap untuk produksi. API command line yang disediakan alat ini dapat & akan berubah sewaktu-waktu tanpa peringatan. JANGAN menyetorkan dana dalam jumlah besar ke dalam pengelolaan dompet embedded zcash-devtool.
 
 ### Video tutorial Devtool Zcash:
 Kris Nuttycombe (@nuttycom) mempresentasikan alat ini selama ZconVI.

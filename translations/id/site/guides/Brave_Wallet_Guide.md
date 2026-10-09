@@ -37,7 +37,7 @@ Pengguna kini dapat mengirim/menerima ZEC tanpa mengungkap saldo atau metadata -
 
 3. Siapkan dompet kamu (buat atau impor)
 
-4. Akses dasbor kripto
+4. Akses dashboard kripto
 
 
 ![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
@@ -47,7 +47,7 @@ Pengguna kini dapat mengirim/menerima ZEC tanpa mengungkap saldo atau metadata -
 
 **Langkah-langkah yang dibahas:**
 
-1. Di dasbor dompet, klik "Kelola Aset"
+1. Di dashboard dompet, klik "Kelola Aset"
 
 2. Cari ZEC dan aktifkan
 
