@@ -13693,6 +13693,126 @@
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
+    },
+    "guides/My_First_Zcash_Workbook.md": {
+      "src": "sha256:34badf3e04c3596f8f8e2a7e269f064894f5c69f6fd04c936f10e2c617e2b637",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Start_Here/ZEC_Use_Cases.md": {
+      "src": "sha256:7e7737bdba999ac0cbcaae880be1370f6d7d6d319a5212d90f591a12e60e386c",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "tutorials/shieldedNewsletter/mynewsletter.md": {
+      "src": "sha256:bc5ccb212b38163823ea4bf9da79159410602f2f26862374effdc3d47cd72292",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Using_Zcash/Custodial_Exchanges.md": {
+      "src": "sha256:a0ea1690d70ab83e6c86651747091f95f81fa9f15ac4afe73de9b5179eabc37e",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Using_Zcash/Solana_ZEC_to_Shielded.md": {
+      "src": "sha256:a4c227012c2c2493cf14232ff6328ed3abd791cb2c14b7d77cd7d5e31894b89c",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Community/ZCAP.md": {
+      "src": "sha256:7883139369ddd00c1fe84b4301d500a323f1f916208237923cfc57051a670b29",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Social_Media/Podcasts/The_Zcash_Podcast.md": {
+      "src": "sha256:dcaa494e08ffb3eec5018c95774faf55a3c688d68c43174d92c37d7dd7a0eba8",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Blossom.md": {
+      "src": "sha256:71b30876f53bce7747855fec114eaa6f8e4673eb6b95bc7da4b3acf0893166ea",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Ironwood.md": {
+      "src": "sha256:7fc583d7f103ebd4be135146f25fcc4e5563a4702d43eba320af538ba20d87b0",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/NU6_1.md": {
+      "src": "sha256:eff5943eebcafc1a6ddfdd4fcef1aa9ff6a0012582056fefd28d37319c030f36",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/NU6_2.md": {
+      "src": "sha256:047bc98797bf244c7034eb077275ed5befe80548c2ce1a72379393f5131ce846",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/NU6.md": {
+      "src": "sha256:efbffcce0b7673ffb6fecb206b78315b4d95e9255f5eb8e8ff62bb4d811385fd",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Overwinter.md": {
+      "src": "sha256:5e62cc25e454959a120528a00ec9a507ffcf74bf1671afa8d15fd0e21254022f",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Zcash_Shielded_Assets.md": {
+      "src": "sha256:7404220344a24b809050133bf7a35eb29f1dcc2c0e2d631ae7293fff6442bb1f",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/zk_SNARKS.md": {
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
+      "src_commit": "88856046b6a4c85332f5374607c236aea37abdac",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
     }
   },
   "ig": {
