@@ -77,6 +77,7 @@ Canopy diaktifkan pada blok yang sama persis dengan halving pertama Zcash. Menga
 <summary>Jawaban</summary>
 
 Imbalan pendiri asli dijadwalkan berakhir pada halving pertama. Tanpa Canopy, semua imbalan blok pasca-halving yang lebih kecil akan jatuh ke penambang, sehingga tidak ada pendanaan tingkat protokol untuk pengembangan. Canopy menggantikan imbalan pendiri dengan Dana Pengembangan pada blok tersebut, sehingga pendanaan berlanjut tanpa adanya celah.
+</details>
 
 ### Sumber Daya
 

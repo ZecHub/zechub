@@ -101,6 +101,7 @@ Jika ZEC di dalam pool terlindungi disembunyikan, bagaimana siapa pun dapat mema
 <summary>Jawaban</summary>
 
 Melalui turnstile. Setiap koin yang meninggalkan pool Orchard lama akan dihitung pada titik pemeriksaan publik saat memasuki Ironwood. Jika ada lebih banyak nilai yang mencoba keluar daripada yang masuk secara sah, pembukuan tidak akan seimbang, sehingga pemalsuan apa pun yang mungkin dibuat oleh bug tersebut akan muncul pada gerbang tersebut.
+</details>
 
 ### Sumber Daya
 

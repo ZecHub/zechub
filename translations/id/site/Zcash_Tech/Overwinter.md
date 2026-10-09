@@ -73,6 +73,7 @@ Overwinter tidak menambahkan fitur terlindungi baru. Jadi mengapa ini dianggap s
 <summary>Jawaban</summary>
 
 Karena hal tersebut membangun mekanisme yang menjadi dasar bagi setiap peningkatan selanjutnya. Overwinter memperkenalkan Mekanisme Peningkatan Jaringan dan perlindungan replay dua arah, memberikan Zcash cara standar dan aman untuk mengubah aturan konsensusnya. Tanpa landasan tersebut, Sapling dan peningkatan setelahnya tidak akan dapat diaktifkan dengan lancar.
+</details>
 
 ### Sumber Daya
 

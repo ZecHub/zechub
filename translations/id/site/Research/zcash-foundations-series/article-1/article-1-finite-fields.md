@@ -219,6 +219,7 @@ Di `F_7`, apa itu `5 - 6`? (Ingat: tetaplah berada di dalam `{0,...,6}` dengan c
 <details><summary>Jawaban</summary>
 
 `5 - 6 = -1`, dan `-1` yang dibungkus ke dalam `F_7` adalah `6` (karena `6 + 1 = 7 = 0`). Jadi `5 - 6 = 6 (mod 7)`. Pengurangan tidak pernah meninggalkan field; ia hanya membungkus ke arah sebaliknya.
+</details>
 
 ---
 

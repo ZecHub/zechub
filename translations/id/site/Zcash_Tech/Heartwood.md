@@ -68,6 +68,7 @@ Sebelum Heartwood, mengapa imbalan blok yang dibayarkan kepada penambang muncul 
 <summary>Jawaban</summary>
 
 Output dari Coinbase harus bersifat transparan, sehingga imbalan yang baru dicetak oleh penambang selalu masuk ke alamat transparan publik yang dapat diperiksa oleh siapa saja. Heartwood mengubah aturan konsensus (ZIP 213) sehingga transaksi coinbase dapat berisi output Sapling, yang memungkinkan penambang menerima imbalan mereka secara langsung ke alamat terlindungi.
+</details>
 
 ### Sumber Daya
 

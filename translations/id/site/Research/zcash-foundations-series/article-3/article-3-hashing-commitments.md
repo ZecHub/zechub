@@ -176,6 +176,7 @@ Anda berkomitmen pada prediksi pemilihan Anda sebagai `H(v, r)` dan mempublikasi
 <details><summary>Jawaban</summary>
 
 Dengan hanya dua hasil, teman Anda dapat menghitung `H("win")` dan `H("lose")` sendiri dan membandingkannya dengan digest yang Anda publikasikan, sehingga secara instan mengetahui prediksi Anda. Hash mentah memang mengikat tetapi tidak menyembunyikan; `r` acak adalah apa yang menghentikan serangan tebak-dan-periksa ini.
+</details>
 
 ---
 

@@ -78,6 +78,7 @@ Baik Sprout maupun Sapling sama-sama membutuhkan upacara trusted setup. Apa yang
 <summary>Jawaban</summary>
 
 Orchard dibangun di atas sistem pembuktian Halo 2 yang tidak memerlukan trusted setup dan tidak memerlukan structured reference string. Hal ini menghilangkan risiko bahwa parameter rahasia yang tersisa dapat digunakan untuk memalsukan ZEC. Jaminan ini berlaku untuk dana yang disimpan dalam pool Orchard. Parameter Sapling yang lama masih tetap ada setelah NU5.
+</details>
 
 ### Sumber Daya
 

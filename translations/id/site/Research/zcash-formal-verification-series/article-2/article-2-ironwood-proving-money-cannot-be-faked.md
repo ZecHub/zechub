@@ -185,6 +185,7 @@ Seseorang mengklaim: "Karena Ironwood telah diverifikasi secara formal, kini mus
 <details><summary>Jawaban</summary>
 
 Pertama, proof tersebut mencakup properti *tertentu* (integritas saldo) di bawah *asumsi yang dinyatakan* (kesulitan discrete-log dan pemodelan hash standar). Jika sebuah asumsi kriptografi berhasil ditembus, atau jika muncul masalah di luar apa yang telah ditentukan (misalnya dalam privasi, dalam perangkat lunak dompet, atau dalam beberapa komponen yang belum terbukti), proof tersebut tidak memberikan pernyataan apa pun mengenainya. Kedua, verifikasi formal menjamin sistem memenuhi *spesifikasi yang telah ditulis*; jika spesifikasi itu sendiri gagal menangkap beberapa persyaratan nyata, proof tersebut akan secara setia mensertifikasi hal yang salah. Kedua poin ini adalah pernyataan ulang dari peringatan Bagian 1: sebuah proof bersifat eksak dan terbatas, sangat kuat justru karena cakupannya jujur, bukan merupakan jaminan menyeluruh bahwa tidak ada satu pun hal yang dapat berjalan salah.
+</details>
 
 ---
 

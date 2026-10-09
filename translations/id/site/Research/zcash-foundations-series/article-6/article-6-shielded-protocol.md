@@ -190,6 +190,7 @@ Seorang teman berkata: "Karena proof menyembunyikan jumlahnya, seorang pencuri b
 <details><summary>Jawaban</summary>
 
 Jumlahnya disembunyikan, tetapi masing-masing dibungkus dalam sebuah homomorphic value commitment, dan jaringan menjumlahkan semua input commitment serta mengurangkan semua output commitment; jika nilai yang tersembunyi tersebut tidak seimbang, hasilnya tidak akan menyegel ke nol dan **tidak ada binding signature valid yang dapat dihasilkan.** Pencuri dapat menyembunyikan *berapa banyak* jumlahnya, tetapi tidak dapat membuat nilai yang tidak seimbang lolos dari pemeriksaan keseimbangan, sehingga mencetak uang gratis adalah hal yang mustahil tanpa mengungkapkan sesuatu namun tetap tertangkap oleh perhitungan aritmetika tersebut.
+</details>
 
 ---
 

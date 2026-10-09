@@ -175,6 +175,7 @@ Anda membuktikan bahwa perangkat lunak sebuah bank "tidak pernah membiarkan sald
 <details><summary>Jawaban</summary>
 
 proof tersebut menjamin tepat satu properti: saldo tidak pernah menjadi negatif. Dana dapat hilang dengan cara yang tidak pernah ditangani oleh properti tersebut, misalnya bug yang memindahkan dana ke akun yang salah (yang tetap non-negatif), atau cacat pada bagian sistem yang tidak pernah ditentukan. Verifikasi melakukan tepat apa yang dijanjikannya dan tidak lebih dari itu. Ini adalah penerapan peringatan pada Bagian 6: sebuah proof mencakup spesifikasi, bukan setiap gagasan tentang "kebenaran" yang dapat dibayangkan.
+</details>
 
 ---
 

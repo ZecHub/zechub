@@ -197,6 +197,7 @@ Misalkan sebuah transaksi terlindungi seharusnya membuktikan bahwa "uang masuk s
 <details><summary>Jawaban</summary>
 
 Dengan output yang tidak terkendala tersebut, prover dapat mengaturnya lebih besar dari yang diizinkan oleh input asli, sehingga menciptakan nilai dari ketiadaan, sebuah pemalsuan. Proof tersebut akan tetap terverifikasi, karena satu-satunya hal yang dapat mendeteksi ketidakseimbangan tersebut adalah batasan yang hilang. Dan karena pool terlindungi menyembunyikan jumlahnya, buku besar hanya menunjukkan bahwa "sebuah transaksi valid telah terjadi," tanpa adanya ketidakseimbangan yang terlihat untuk memicu peringatan. Pemalsuan ini nyata namun tidak terlihat, dan itulah alasan mengapa soundness dari circuit sangatlah penting, dan alasan tepat mengapa hal tersebut harus dibuktikan alih-alih diuji.
+</details>
 
 ---
 

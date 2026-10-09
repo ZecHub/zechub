@@ -168,6 +168,7 @@ Dalam pohon 4-daun kami, misalkan seorang penyerang secara diam-diam melakukan s
 <details><summary>Jawaban</summary>
 
 Mengubah `C` akan mengubah `hC` (efek avalanche), yang kemudian mengubah `hCD = H(hC, hD)`, yang selanjutnya mengubah `ROOT = H(hAB, hCD)`. Dengan demikian, root yang dihitung ulang tidak lagi sesuai dengan root yang dipublikasikan, dan manipulasi tersebut terdeteksi. Untuk "memperbaikinya secara diam-diam", mereka perlu menemukan `C` berbeda yang menghasilkan `hC` yang *sama*, yang merupakan sebuah hash collision, dan hal ini tidak mungkin dilakukan berdasarkan Pasal 3. Integritas tetap terjaga.
+</details>
 
 ---
 
