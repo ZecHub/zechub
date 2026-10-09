@@ -13597,6 +13597,86 @@
       "mode": "diff",
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
+    },
+    "contribute/Community_Infrastructure.md": {
+      "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "guides/Maya_Protocol.md": {
+      "src": "sha256:41226a19b456601de6e29ce6748123d1210dea75fb4ce1dde063e1342c62689a",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Research/zcash-foundations-series/article-5/article-5-zero-knowledge-proofs.md": {
+      "src": "sha256:fd83aeb5b3f9e403696fb361032c7e63d1f2aa656878d3d5770dc8ddba05f35d",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Research/ZK_Shielded_Asset_Platforms.md": {
+      "src": "sha256:96a644e098ebc238b8f1ce86ca23857bef4e50db2add53718466c4d6edc5b55f",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Organizations/CoinHolder_Directed_Retroactive_Grants.md": {
+      "src": "sha256:8a00191f79d189375113f2f1988f9b750da3b7cad90326e20ced77d1353d719d",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Organizations/Shielded_Labs.md": {
+      "src": "sha256:7d975f975add9d02465245c41599e295d5e65ec755b69e0615440cc27cd76fc3",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Heartwood.md": {
+      "src": "sha256:9145779db9ed475c33191de35ad27c39f277fe310665a4e0fd4bce61a3a16114",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/NU6.md": {
+      "src": "sha256:efbffcce0b7673ffb6fecb206b78315b4d95e9255f5eb8e8ff62bb4d811385fd",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Viewing_Keys.md": {
+      "src": "sha256:bcde30ace97dff8a720b4d7fcd5695bad04cc54a2b6c7c615f1b958f99e50625",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
+      "src": "sha256:e4d3b1088fbc0fbeb8a69fc401cb5ef81dacbfee34cefc8a84ee12a70b3f9c5b",
+      "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
     }
   },
   "ig": {
