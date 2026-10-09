@@ -167,6 +167,7 @@ Di dalam gua, mengapa sangat penting bagi verifier untuk memilih sisi pintu kelu
 <details><summary>Jawaban</summary>
 
 Jika verifier mengumumkan sisi terlebih dahulu, seorang bluffer yang tidak mengetahui kata tersebut dapat dengan mudah berjalan ke sisi itu sejak awal dan berjalan kembali keluar, tanpa pernah membutuhkan pintu tersebut. Memilih *setelah* prover melakukan commit pada sebuah bagian memaksa bluffer untuk mengandalkan keberuntungan (50/50 per ronde), yang mana hal inilah yang membuat ronde-ronde berulang menjadi meyakinkan. Urutan "commit terlebih dahulu, kemudian ditantang" ini adalah tepat apa yang dipertahankan oleh Fiat-Shamir dengan menurunkan tantangan dari hash dari proof milik prover yang telah di-commit sebelumnya.
+</details>
 
 ---
 

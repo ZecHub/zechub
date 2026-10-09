@@ -86,6 +86,7 @@ NU6 menyiapkan Deferred Dev Fund Lockbox tetapi tidak menyebutkan siapa yang men
 <summary>Jawaban</summary>
 
 Membuat cadangan yang dikunci di mana sebagian dari penerbitan akan disisihkan di dalam protokol alih-alih dibayarkan kepada penerima tetap. Memutuskan siapa yang mengontrol dana tersebut dan bagaimana dana tersebut dilepaskan adalah pertanyaan tata kelola yang lebih sulit. NU6 sengaja membiarkan hal itu terbuka, dan NU6.1 menjawabnya: 8% dari subsidi blok terus mengalir ke Zcash Community Grants, dan 12% masuk ke dana yang dikendalikan oleh pemegang koin yang disemai oleh lockbox.
+</details>
 
 ### Sumber Daya
 
