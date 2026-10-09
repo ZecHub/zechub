@@ -75,7 +75,7 @@ Easy-to-use, fully-featured multiplatform Zcash wallet with autoshielding suppor
 [Visit](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Orchard-first Zcash wallet built for Zebrad and lightwalletd. Supports fully shielded send/receive, secure local key management, and Ironwood (NU6.3) notes and Orchard-to-Ironwood migration. Transparent addresses are rejected for user-facing payment flows.  
+Orchard-first Zcash wallet built for zebrad and lightwalletd. Supports fully shielded send/receive, secure local key management, and Ironwood (NU6.3) notes and Orchard-to-Ironwood migration. Transparent addresses are rejected for user-facing payment flows.  
 [Visit](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
