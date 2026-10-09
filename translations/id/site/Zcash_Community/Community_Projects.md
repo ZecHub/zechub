@@ -176,6 +176,10 @@ Alat untuk memeriksa waktu respons gRPC dari node lightwalletd Zcash.
 Dasbor untuk statistik jaringan Zcash secara real-time dan metrik shielding.  
 [Kunjungi](https://zecstats.com)
 
+### ZecZcash
+Situs data, alat, dan riset Zcash yang independen. Mencakup explorer, alat pasar dan halving, panduan dompet, dan berita ekosistem. Tidak berafiliasi dengan ECC atau Zcash Foundation.  
+[Kunjungi](https://zeczcash.com/)
+
 ### zecprice
 Alat pelacakan dan metrik data untuk performa harga pasar Zcash.  
 [Kunjungi](https://zecprice.com)

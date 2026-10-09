@@ -6,11 +6,11 @@
 
 ## Ringkasan Singkat
 
-- **ZK-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
+- **zk-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
 - Teknologi ini memungkinkan satu pihak untuk **membuktikan bahwa mereka mengetahui sesuatu** tanpa mengungkapkan informasi itu sendiri
-- Zcash menggunakan ZK-SNARKs untuk membuktikan bahwa sebuah transaksi valid (jumlah yang benar, input yang belum terpakai) **tanpa mengungkapkan pengirim, penerima, atau jumlahnya**
+- Zcash menggunakan zk-SNARKs untuk membuktikan bahwa sebuah transaksi valid (jumlah yang benar, input yang belum terpakai) **tanpa mengungkapkan pengirim, penerima, atau jumlahnya**
 - "Succinct" berarti proof tersebut sangat kecil dan cepat untuk diverifikasi bahkan untuk pernyataan yang kompleks
-- Pool Orchard menggunakan Halo 2, sebuah sistem ZK-SNARK yang **tidak memerlukan trusted setup**
+- Pool Orchard menggunakan Halo 2, sebuah sistem zk-SNARK yang **tidak memerlukan trusted setup**
 
 ---
 
@@ -159,11 +159,11 @@ Setup Transparan (Tanpa Trusted Setup) - Algoritma preprocessing tidak menggunak
 
 **Jenis konstruksi SNARK proof**:
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Memerlukan Trusted Setup tetapi memiliki proof yang sangat singkat yang dapat diverifikasi dengan cepat.
+[Groth16](https://eprint.iacr.org/2016/260): Memerlukan Trusted Setup tetapi memiliki proof yang sangat singkat yang dapat diverifikasi dengan cepat.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Setup Terpercaya Secara Universal.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Tanpa Trusted Setup tetapi menghasilkan proof yang sedikit lebih panjang atau mungkin membutuhkan waktu lebih lama bagi prover untuk berjalan.
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Tanpa Trusted Setup tetapi menghasilkan proof yang sedikit lebih panjang atau mungkin membutuhkan waktu lebih lama bagi prover untuk berjalan.
 
 SNARKs sangat berguna ketika diperlukan banyak verifikator seperti blockchain seperti Zcash atau zk-Rollup seperti [Aztec](https://docs.aztec.network) sehingga banyak node validasi tidak perlu berinteraksi selama beberapa ronde dengan setiap proof.
 
@@ -222,9 +222,9 @@ zkSNARK dengan [Hanh Huynh Huu](https://www.youtube.com/watch?v=zXF-BDohZjk)
 
 ## Halaman Terkait
 
-- [Pool terlindungi](/using-zcash/shielded-pools) — Bagaimana ZK-SNARKs digunakan dalam pool nilai Zcash
-- [Halo](/zcash-tech/halo) — Sistem ZK-SNARK Zcash yang menghilangkan trusted setup
+- [Pool terlindungi](/using-zcash/shielded-pools) — Bagaimana zk-SNARKs digunakan dalam pool nilai Zcash
+- [Halo](/zcash-tech/halo) — Sistem zk-SNARK Zcash yang menghilangkan trusted setup
 - [Keamanan Post-Quantum dalam Zcash](/zcash-tech/post-quantum-security) - Bagaimana risiko kuantum di masa depan berkaitan dengan kriptografi Zcash
-- [Zcash Aset Terlindungi](/zcash-tech/zcash-shielded-assets) — ZSAs yang dibangun di atas teknologi ZK-SNARK
+- [Zcash Aset Terlindungi](/zcash-tech/zcash-shielded-assets) — ZSAs yang dibangun di atas teknologi zk-SNARK
 - [Apa itu ZEC dan Zcash](/start-here/what-is-zec-and-zcash) — Pengenalan terhadap Zcash dan model privasinya
-- [Privasi sebagai Prinsip Utama](/privacy/privacy-as-a-core-principle) — Mengapa privasi finansial itu penting
+- [Siapa yang Dapat Melihat Pembayaran Zcash Anda?](/start-here/who-can-see-your-zcash-payment) — Apa yang tetap publik, dan apa yang disembunyikan oleh perlindungan
