@@ -13813,6 +13813,102 @@
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
+    },
+    "Glossary_and_FAQs/Zcash_Library.md": {
+      "src": "sha256:59ed9948d5515deb422a9474c320f829298def8f717b00bb30caeb6644c9287f",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Research/selective-disclosure-zcash.md": {
+      "src": "sha256:057736fbd340e1e6c67e76420c429229f66e36cc87c9118cc9aea79bfa3c9593",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Pools.md": {
+      "src": "sha256:4418edeef74b16aacf0e6778a7be576b473c71df495ac8feca9d5156cc7f08be",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Using_Zcash/Zcash_Mining_Pools.md": {
+      "src": "sha256:665920e0717520c93d267afd0efad10da6a879fb050ae60a8f3def52fb08fa1c",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Organizations/Valar_Group.md": {
+      "src": "sha256:f7dff5b6ef6dd8aad543dfead3fcf36aa3ef1d2a9674c54f9d41446323fdb8df",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/FROST_Threshold_Custody.md": {
+      "src": "sha256:71def870efb2880419ca219af71fc5fac96a7ea5eec0fa4c834afe91ecde75c0",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/FROST.md": {
+      "src": "sha256:0635dbff4df6054a68f744e7b3755c02af81a1238837b9057dad7727625e08d0",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Post_Quantum_Security.md": {
+      "src": "sha256:e20b9684e9a64d19b042a0dc00db656de68b42015a0bc6db46ac6c98ef675317",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
+      "src": "sha256:b5fdfdf381ae888b245cb9c6660636ffd5caa48b15be12248d124a7ef26cd300",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/Zcash_Shielded_Assets.md": {
+      "src": "sha256:7404220344a24b809050133bf7a35eb29f1dcc2c0e2d631ae7293fff6442bb1f",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "Zcash_Tech/ZECD.md": {
+      "src": "sha256:38a6f5f0c98b79e45d92dc40b59109568dc521143984c70015dab94d082b030c",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
+    },
+    "ZFAV_Club/Guides_for_Creators.md": {
+      "src": "sha256:9af81e5145ad88ffff42a6330f98e94601526e94c85406e2a81dd21510f03156",
+      "src_commit": "14819768dcda6b8ee344a5e09341c2d1a884cb31",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
     }
   },
   "ig": {
