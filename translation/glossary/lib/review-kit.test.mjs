@@ -22,7 +22,7 @@ const { preserveVerbatim: PV } = JSON.parse(read("../../protected-terms.json"));
 const ID = JSON.parse(read("../id.json"));
 const PAGES_KIT = read("../test-fixtures/indonesian-glossary-f-reviewed.md");
 const MENUS_KIT = read("../test-fixtures/menus-review-id-f_reviewed.md");
-const REVIEWER = "Indonesian native-speaker reviewer";
+const REVIEWER = "@daonarchy";
 // A slice of the website's MENU_BRANDS: enough for the fixture's names.
 const BRANDS = ["Zashi", "Free2z", "Raspberry Pi", "BTCPayServer", "zechub", "zechub-wiki", "Akash", "Brave"];
 
