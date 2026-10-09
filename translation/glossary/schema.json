@@ -1,0 +1,555 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZecHub/zechub/translation/glossary/schema.json",
+  "title": "ZecHub translation glossary",
+  "description": "Documents translation/glossary/terms.en.json (the shared English list) and translation/glossary/<loc>.json (one per locale). The enforced rules, including the cross-file ones a JSON Schema cannot express (unknown term ids, rejected renderings that match accepted forms, clashes, version bumps, register prefixes), live in lib/glossary.mjs and run in CI via validate.mjs.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/termsFile"
+    },
+    {
+      "$ref": "#/$defs/localeFile"
+    }
+  ],
+  "$defs": {
+    "termsFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "terms"
+      ],
+      "properties": {
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "terms": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/term"
+          }
+        }
+      }
+    },
+    "term": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "english",
+        "pos",
+        "definition",
+        "match",
+        "category",
+        "default_policy",
+        "applies_to"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Stable key used by every locale file."
+        },
+        "english": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The headword shown to reviewers."
+        },
+        "pos": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Part of speech, free text (noun, verb, 'verb (imperative, button)')."
+        },
+        "definition": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Meaning in plain English, shown in every review kit."
+        },
+        "not_to_be_confused_with": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A nearby sense that is NOT this term."
+        },
+        "match": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "English surface forms, case-sensitive and word-bounded. Declared, never inferred. None may be a preserveVerbatim name."
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "category": {
+          "enum": [
+            "concept",
+            "protocol",
+            "ui",
+            "style-word"
+          ]
+        },
+        "default_policy": {
+          "enum": [
+            "translate",
+            "keep-english"
+          ],
+          "description": "Suggestion shown to a new locale's reviewer; the locale file decides."
+        },
+        "applies_to": {
+          "enum": [
+            "pages",
+            "ui",
+            "both"
+          ],
+          "description": "Where the entry applies: wiki pages, website UI strings, or both."
+        }
+      }
+    },
+    "rejected": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A known wrong rendering."
+        },
+        "word": {
+          "type": "boolean",
+          "description": "Whole word only (Unicode letters and digits are word characters). Default: substring."
+        },
+        "ci": {
+          "type": "boolean",
+          "description": "Case-insensitive. Default: case-sensitive."
+        },
+        "only_when_english_has": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "description": "Only in force where the English (block, else page) contains one of these, case-insensitive substring."
+        },
+        "unless_english_has": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "description": "Not in force where the English contains one of these."
+        },
+        "safe_replace": {
+          "type": "boolean",
+          "description": "Maintainer opt-in for mechanical replacement during a retrofit."
+        }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target",
+        "applies_to",
+        "status",
+        "reviewed_by"
+      ],
+      "properties": {
+        "target": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The one approved rendering."
+        },
+        "keep_english": {
+          "type": "boolean",
+          "description": "The rendering is the English word itself; target must equal an English match form (or the phrase key), case-insensitive."
+        },
+        "forms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "description": "Every surface form a checker accepts. Must include target. Default: [target]."
+        },
+        "stem": {
+          "type": "object",
+          "required": [
+            "stem"
+          ],
+          "properties": {
+            "stem": {
+              "type": "string",
+              "minLength": 1
+            },
+            "suffixes": {
+              "enum": [
+                "any-letters"
+              ]
+            }
+          },
+          "description": "For agglutinative locales: accept the stem followed by any letters."
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "rejected": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rejected"
+          }
+        },
+        "inflection": {
+          "type": "string"
+        },
+        "pos": {
+          "type": "string"
+        },
+        "context": {
+          "type": "string",
+          "description": "When this entry applies. Required on both sides of a deliberate clash (rule 3)."
+        },
+        "applies_to": {
+          "enum": [
+            "pages",
+            "ui",
+            "both"
+          ],
+          "description": "Where the entry applies: wiki pages, website UI strings, or both."
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "approved",
+            "disputed"
+          ],
+          "description": "draft = machine-proposed, never enforced; disputed = shown to reviewers, never enforced."
+        },
+        "dispute": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Reviewer notes copied from the kit."
+        },
+        "reviewed_by": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Handles or names of the reviewers. Non-empty when approved."
+        },
+        "reviewed_at": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {
+          "type": "string",
+          "description": "The kit row this came from: <file>#<section>-<row>."
+        }
+      }
+    },
+    "localeFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "locale",
+        "version",
+        "meta",
+        "style",
+        "changelog"
+      ],
+      "properties": {
+        "locale": {
+          "type": "string",
+          "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Goes up by exactly one whenever an approved entry changes."
+        },
+        "meta": {
+          "$ref": "#/$defs/meta"
+        },
+        "style": {
+          "$ref": "#/$defs/style"
+        },
+        "terms": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Keyed by terms.en.json id."
+        },
+        "phrases": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Multi-word labels and fixed phrases, keyed by their exact English."
+        },
+        "gates": {
+          "$ref": "#/$defs/gates"
+        },
+        "changelog": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/changelogEntry"
+          }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "language_name",
+        "native_name",
+        "engine",
+        "script",
+        "dir"
+      ],
+      "properties": {
+        "language_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "native_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "engine": {
+          "type": "string",
+          "description": "llm or gt"
+        },
+        "script": {
+          "type": "string",
+          "pattern": "^[A-Z][a-z]{3}$",
+          "description": "ISO 15924"
+        },
+        "dir": {
+          "enum": [
+            "ltr",
+            "rtl"
+          ]
+        },
+        "language_lead": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "last_review": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "enforce": {
+          "type": "boolean"
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "variety": {
+          "type": "string"
+        },
+        "register": {
+          "$ref": "#/$defs/register"
+        },
+        "english_in_brackets": {
+          "enum": [
+            "never",
+            "first-use",
+            "always"
+          ]
+        },
+        "loanwords": {
+          "enum": [
+            "keep-english",
+            "translate"
+          ]
+        },
+        "capitalise_kept_english_at_sentence_start": {
+          "type": "boolean"
+        },
+        "numerals": {
+          "type": "string"
+        },
+        "decimal_separator": {
+          "type": "string"
+        },
+        "quotes": {
+          "type": "string"
+        },
+        "abbreviations_with_full_stop": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Abbreviations written with a full stop that do not end a sentence (Indonesian dll., dsb.)."
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "register": {
+      "type": "object",
+      "required": [
+        "default",
+        "text"
+      ],
+      "properties": {
+        "default": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "register",
+              "prefixes"
+            ],
+            "properties": {
+              "register": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prefixes": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1,
+                "description": "Path prefixes under site/. Each must match a folder (rule 8)."
+              }
+            }
+          }
+        },
+        "ui": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "forbidden_by_register": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sentence_boundary_extra_abbrev": {},
+        "script_regex": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "min_script_share": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "passthrough_allow": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Kept-English words the passthrough gate must not count as untranslated."
+        }
+      }
+    },
+    "changelogEntry": {
+      "type": "object",
+      "required": [
+        "version",
+        "date"
+      ],
+      "properties": {
+        "version": {
+          "type": "integer"
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "terms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "phrases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "pr": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

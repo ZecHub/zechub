@@ -1,0 +1,594 @@
+{
+  "version": 1,
+  "terms": [
+    {
+      "id": "wallet",
+      "english": "wallet",
+      "pos": "noun",
+      "definition": "App or device that holds the keys to your coins and lets you send and receive them.",
+      "match": [
+        "wallet",
+        "wallets",
+        "Wallet",
+        "Wallets"
+      ],
+      "examples": [
+        "Download a Zcash wallet."
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "shielded",
+      "english": "shielded",
+      "pos": "adjective",
+      "definition": "Protected by Zcash's zero-knowledge encryption: a shielded address, transaction or pool hides sender, receiver and amount.",
+      "not_to_be_confused_with": "encrypted (generic). Translate 'encrypted' normally.",
+      "match": [
+        "shielded",
+        "Shielded",
+        "unshielded",
+        "Unshielded"
+      ],
+      "examples": [
+        "Send ZEC to a shielded address.",
+        "The Orchard shielded pool"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "transaction",
+      "english": "transaction",
+      "pos": "noun",
+      "definition": "A transfer of coins recorded on the blockchain.",
+      "match": [
+        "transaction",
+        "transactions",
+        "Transaction",
+        "Transactions"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "privacy",
+      "english": "privacy",
+      "pos": "noun",
+      "definition": "Keeping your financial information hidden from others; the core value of Zcash.",
+      "match": [
+        "privacy",
+        "Privacy"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "pool",
+      "english": "pool",
+      "pos": "noun",
+      "definition": "A bucket of coins sharing one privacy technology (the shielded Orchard pool, the transparent pool); also a mining pool.",
+      "match": [
+        "pool",
+        "pools",
+        "Pool",
+        "Pools"
+      ],
+      "examples": [
+        "the Orchard shielded pool"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "proof",
+      "english": "proof",
+      "pos": "noun",
+      "definition": "Cryptographic proof: mathematical evidence that a statement is true (for example that a transaction is valid) without showing the data.",
+      "not_to_be_confused_with": "proof as general evidence in a non-cryptographic sense.",
+      "match": [
+        "proof",
+        "proofs",
+        "Proof",
+        "Proofs"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "node",
+      "english": "node",
+      "pos": "noun",
+      "definition": "A computer running Zcash software that stores and checks the blockchain.",
+      "match": [
+        "node",
+        "nodes",
+        "Node",
+        "Nodes"
+      ],
+      "category": "concept",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "transparent",
+      "english": "transparent",
+      "pos": "adjective",
+      "definition": "The public, Bitcoin-like part of Zcash where addresses and amounts are visible to everyone.",
+      "match": [
+        "transparent",
+        "Transparent"
+      ],
+      "examples": [
+        "a transparent address"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "exchange",
+      "english": "exchange",
+      "pos": "noun",
+      "definition": "A business or service where people buy, sell or trade cryptocurrencies (a crypto exchange).",
+      "not_to_be_confused_with": "the verb 'to exchange' (to swap one thing for another).",
+      "match": [
+        "exchange",
+        "exchanges",
+        "Exchange",
+        "Exchanges"
+      ],
+      "category": "concept",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "memo",
+      "english": "memo",
+      "pos": "noun",
+      "definition": "A short private message attached to a shielded transaction.",
+      "match": [
+        "memo",
+        "memos",
+        "Memo",
+        "Memos"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "viewing-key",
+      "english": "viewing key",
+      "pos": "noun",
+      "definition": "A key that lets someone see, but not spend, the transactions of a wallet. Capitalised 'Viewing Key' is already a protected name.",
+      "match": [
+        "viewing key",
+        "viewing keys"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "fee",
+      "english": "fee",
+      "pos": "noun",
+      "definition": "The small amount paid to the network to process a transaction.",
+      "match": [
+        "fee",
+        "fees",
+        "Fee",
+        "Fees"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "swap",
+      "english": "swap",
+      "pos": "noun, verb",
+      "definition": "Exchanging one cryptocurrency directly for another.",
+      "match": [
+        "swap",
+        "swaps",
+        "Swap",
+        "Swaps"
+      ],
+      "category": "concept",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "custodial",
+      "english": "custodial",
+      "pos": "adjective",
+      "definition": "Who holds the keys: custodial means a company holds your coins for you; non-custodial or self-custody means you hold them.",
+      "match": [
+        "custodial",
+        "Custodial",
+        "custody",
+        "Custody",
+        "non-custodial",
+        "Non-custodial",
+        "self-custody",
+        "Self-custody"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "zero-knowledge",
+      "english": "zero-knowledge",
+      "pos": "adjective",
+      "definition": "Cryptography that proves something is true without revealing the underlying information.",
+      "match": [
+        "zero-knowledge",
+        "Zero-knowledge",
+        "Zero-Knowledge",
+        "zero knowledge",
+        "Zero Knowledge"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "network-upgrade",
+      "english": "network upgrade",
+      "pos": "noun",
+      "definition": "A scheduled change to Zcash's rules that all nodes adopt at a set block height (NU5, NU6 and so on).",
+      "match": [
+        "network upgrade",
+        "network upgrades",
+        "Network upgrade",
+        "Network Upgrade",
+        "Network Upgrades"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "mining",
+      "english": "mining",
+      "pos": "noun, verb",
+      "definition": "Using computers to add new blocks to the blockchain and earn newly created coins.",
+      "not_to_be_confused_with": "'determining' and other words that merely contain the letters.",
+      "match": [
+        "mining",
+        "Mining",
+        "mined"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "miner",
+      "english": "miner",
+      "pos": "noun",
+      "definition": "A person or machine that does mining.",
+      "match": [
+        "miner",
+        "miners",
+        "Miner",
+        "Miners"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "full-node",
+      "english": "full node",
+      "pos": "noun",
+      "definition": "A node that downloads and verifies the entire blockchain.",
+      "match": [
+        "full node",
+        "full nodes",
+        "Full node",
+        "Full Node",
+        "Full Nodes"
+      ],
+      "category": "concept",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "turnstile",
+      "english": "turnstile",
+      "pos": "noun",
+      "definition": "Zcash mechanism that checks the total coins leaving a pool never exceed what entered it.",
+      "match": [
+        "turnstile",
+        "turnstiles",
+        "Turnstile",
+        "Turnstiles"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "spending-key",
+      "english": "spending key",
+      "pos": "noun",
+      "definition": "The secret key that authorises spending coins; whoever has it controls the funds.",
+      "match": [
+        "spending key",
+        "spending keys",
+        "Spending key",
+        "Spending Key"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "seed-phrase",
+      "english": "seed phrase",
+      "pos": "noun",
+      "definition": "A list of 12 to 24 words that backs up and restores a wallet.",
+      "match": [
+        "seed phrase",
+        "seed phrases",
+        "Seed phrase",
+        "Seed Phrase"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "light-client",
+      "english": "light client",
+      "pos": "noun",
+      "definition": "Wallet software that does not download the full blockchain but asks a server for the data it needs.",
+      "match": [
+        "light client",
+        "light clients",
+        "Light client",
+        "Light Client"
+      ],
+      "category": "concept",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "token",
+      "english": "token",
+      "pos": "noun",
+      "definition": "A digital asset created on a blockchain, other than the chain's own coin.",
+      "match": [
+        "token",
+        "tokens",
+        "Token",
+        "Tokens"
+      ],
+      "category": "concept",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "chain",
+      "english": "chain",
+      "pos": "noun",
+      "definition": "Short for blockchain.",
+      "match": [
+        "chain",
+        "chains",
+        "Chain"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "cross-chain",
+      "english": "cross-chain",
+      "pos": "adjective",
+      "definition": "Working across two or more different blockchains.",
+      "match": [
+        "cross-chain",
+        "Cross-chain",
+        "Cross-Chain"
+      ],
+      "category": "concept",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "faucet",
+      "english": "faucet",
+      "pos": "noun",
+      "definition": "A website that gives away tiny amounts of (often test) coins for free.",
+      "match": [
+        "faucet",
+        "faucets",
+        "Faucet",
+        "Faucets"
+      ],
+      "category": "concept",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "developer",
+      "english": "developer",
+      "pos": "noun",
+      "definition": "A person who writes software, here usually for Zcash or a Zcash wallet.",
+      "not_to_be_confused_with": "development (the activity), which is usually translated.",
+      "match": [
+        "developer",
+        "developers",
+        "Developer",
+        "Developers"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "dashboard",
+      "english": "dashboard",
+      "pos": "noun",
+      "definition": "A page that shows live figures and charts at a glance.",
+      "match": [
+        "dashboard",
+        "dashboards",
+        "Dashboard",
+        "Dashboards"
+      ],
+      "category": "ui",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "visualizer",
+      "english": "visualizer",
+      "pos": "noun",
+      "definition": "A tool that draws Zcash network or address data as pictures.",
+      "not_to_be_confused_with": "visualizing / visualization (the activity), which is usually translated.",
+      "match": [
+        "visualizer",
+        "visualizers",
+        "Visualizer",
+        "visualiser"
+      ],
+      "category": "ui",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "use-case",
+      "english": "use case",
+      "pos": "noun",
+      "definition": "A concrete way people use Zcash (payments, donations, records).",
+      "match": [
+        "use case",
+        "use cases",
+        "Use case",
+        "Use cases",
+        "Use Case",
+        "Use Cases"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "brand",
+      "english": "brand",
+      "pos": "noun",
+      "definition": "ZecHub or Zcash brand material: logos, colours, visual identity.",
+      "not_to_be_confused_with": "trademark (a legal term).",
+      "match": [
+        "brand",
+        "brands",
+        "Brand",
+        "Brands"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "treasury",
+      "english": "treasury",
+      "pos": "noun",
+      "definition": "Money held by a community or organisation to fund shared work.",
+      "match": [
+        "treasury",
+        "treasuries",
+        "Treasury"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "top-up",
+      "english": "top up",
+      "pos": "noun, verb",
+      "definition": "Adding credit to a prepaid phone or account, paid with ZEC.",
+      "match": [
+        "top up",
+        "top ups",
+        "top-up",
+        "top-ups",
+        "Top up",
+        "Top Up",
+        "Top Ups",
+        "Top-up",
+        "Top-ups"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "tools",
+      "english": "tools",
+      "pos": "noun",
+      "definition": "Software or services that help do something (privacy tools, developer tools).",
+      "match": [
+        "tools",
+        "tool",
+        "Tools",
+        "Tool"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "close-ui",
+      "english": "Close",
+      "pos": "verb (imperative, button)",
+      "definition": "Button that closes a dialog or menu. Not 'near', not 'welcome'.",
+      "match": [
+        "Close"
+      ],
+      "category": "ui",
+      "default_policy": "translate",
+      "applies_to": "ui"
+    },
+    {
+      "id": "newsletter",
+      "english": "newsletter",
+      "pos": "noun",
+      "definition": "A regular email or post that collects ZecHub and Zcash news.",
+      "match": [
+        "newsletter",
+        "newsletters",
+        "Newsletter",
+        "Newsletters"
+      ],
+      "category": "ui",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "sitemap",
+      "english": "sitemap",
+      "pos": "noun",
+      "definition": "A page listing every page of the website.",
+      "match": [
+        "sitemap",
+        "Sitemap"
+      ],
+      "category": "ui",
+      "default_policy": "translate",
+      "applies_to": "ui"
+    }
+  ]
+}
