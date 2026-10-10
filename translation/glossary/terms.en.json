@@ -170,7 +170,9 @@
       "definition": "A key that lets someone see, but not spend, the transactions of a wallet. Capitalised 'Viewing Key' is already a protected name.",
       "match": [
         "viewing key",
-        "viewing keys"
+        "viewing keys",
+        "view key",
+        "view keys"
       ],
       "category": "protocol",
       "default_policy": "keep-english",
@@ -200,7 +202,9 @@
         "swap",
         "swaps",
         "Swap",
-        "Swaps"
+        "Swaps",
+        "swapping",
+        "swapped"
       ],
       "category": "concept",
       "default_policy": "keep-english",
@@ -266,7 +270,8 @@
       "match": [
         "mining",
         "Mining",
-        "mined"
+        "mined",
+        "mine"
       ],
       "category": "concept",
       "default_policy": "translate",

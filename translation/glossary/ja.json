@@ -1,0 +1,56 @@
+{
+  "locale": "ja",
+  "version": 1,
+  "meta": {
+    "language_name": "Japanese",
+    "native_name": "日本語",
+    "engine": "llm",
+    "script": "Jpan",
+    "dir": "ltr",
+    "language_lead": [],
+    "last_review": null
+  },
+  "style": {
+    "variety": "natural, fluent Japanese",
+    "loanwords_text": "Technical loanwords may be rendered in katakana or left in Latin script where that is natural Japanese usage."
+  },
+  "terms": {
+    "node": {
+      "target": "ノード",
+      "forms": [
+        "ノード"
+      ],
+      "rejected": [
+        {
+          "text": "node",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "nodes",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@steward (legacy prompt head)"
+      ],
+      "reviewed_at": "2026-10-10",
+      "source": "prompt_head_ja.txt"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-10-10",
+      "terms": [
+        "node"
+      ],
+      "phrases": [],
+      "summary": "Imported from the runner's hand-written prompt_head_ja.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    }
+  ]
+}

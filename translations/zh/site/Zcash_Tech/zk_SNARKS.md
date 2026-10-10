@@ -163,7 +163,7 @@ Sha256 是可用于承诺方案的一种哈希函数示例。
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953)：通用可信设置。
 
-[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o)：无需可信设置，但生成的证明会稍长，或者证明者运行时间可能更久。 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o)：无需可信设置，但生成的证明会稍长，或者证明者运行时间可能更久。
 
 当需要多个验证者时，SNARKS 非常有用，例如像 Zcash 这样的区块链，或像 [Aztec](https://docs.aztec.network) 这样的 zk-Rollup，这样多个验证节点就不必围绕每个证明进行多轮交互。 
 
@@ -227,4 +227,4 @@ ____
 - [Zcash 中的后量子安全](/zcash-tech/post-quantum-security) - 未来量子风险如何关联到 Zcash 密码学
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — 基于 zk-SNARK 技术构建的 ZSAs
 - [什么是 ZEC 和 Zcash](/start-here/what-is-zec-and-zcash) — Zcash 及其隐私模型简介
-- [作为核心原则的隐私](/start-here/who-can-see-your-zcash-payment) — 为什么金融隐私很重要
+- [谁能看到你的 Zcash 付款？](/start-here/who-can-see-your-zcash-payment) — 哪些内容保持公开，哪些内容会被屏蔽隐藏
