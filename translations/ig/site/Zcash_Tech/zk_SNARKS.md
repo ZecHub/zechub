@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & zk-SNARKs
+# ZKP na ZK-SNARKS
 
 ## TL;DR
 
-- **zk-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arụmụka nke Ihe Ọmụma
-- Ha na-ekwe ka otu onye gosipụta na ha maara ihe n'ekpugheghị ozi ahụ n'onwe ya
-- Zcash na-eji zk-SNARKs iji gosipụta azụmahịa dị irè (ego ziri ezi, ntinye ego) **na-enweghị igosipụta onye na-ezipụ, onye nnata, ma ọ bụ ego**
-- "Succinct" pụtara na ihe akaebe ahụ pere mpe ma dịkwa ngwa iji nyochaa ọbụnadị maka nkwupụta ndị dị mgbagwoju anya
-- Ogige Orchard na-eji Halo 2, usoro zk-SNARK na ** enweghị ntọala a tụkwasịrị obi chọrọ **
+- **zk-SNARKs** = Esemokwu Ihe Ọmụma Na-abụghị Mmekọrịta nke Ihe Ọmụma
+- Ha kwere ka otu onye gosi na ha maara ihe** n'ekpugheghị ozi ahụ n'onwe ya
+- Zcash na-eji zk-SNARKs iji gosi na azụmahịa dị irè (ego ziri ezi, ntinye ndị a na-emefughị) **na-ekpugheghị onye zitere ya, onye nnata, ma ọ bụ ego**
+- "Succinct" pụtara na ihe akaebe ahụ dị obere ma dịkwa ngwa iji gosi ọbụlagodi maka okwu ndị dị mgbagwoju anya
+- Ọdọ mmiri Orchard na-eji Halo 2, sistemụ zk-SNARK nke na-enweghị ntọala a pụrụ ịtụkwasị obi**
 
 ---
 
-## Gịnị Bụ Ihe Àmà?
+## Gịnị bụ ihe akaebe?
 
-Ihe akaebe bụ ihe ndabere maka mgbakọ na mwepụ niile. Ngosipụta bụ nkwupụta ma ọ bụ usoro iwu ị na-anwa igosipụta & usoro nke ntụgharị e mere iji kwupụta usoro iwu ahụ gosipụtara. dịka ọmụmaatụ. akụkụ niile dị na triangle ngụkọta 180 ° nwere ike ịnwale onye ọ bụla (onye nyocha).
+Ihe akaebe bụ ntọala maka mgbakọ na mwepụ niile. Ihe akaebe bụ nkwupụta ma ọ bụ usoro ihe atụ ị na-agbalị igosi na usoro ihe e si na ya pụta iji gosi na ihe akaebe ahụ egosila. Dịka ọmụmaatụ, onye ọ bụla nwere ike ịlele akụkụ niile dị na triangle 180° n'onwe ya (onye nyocha).
 
-Ihe akaebe 
+**Ihe akaebe** 
 
-Prov ---> Na-ekwu okwu ---> Onye nyocha na-ahọrọ ---> Nabata/Jụ 
+Onye Nlereanya ---> Na-ekwu maka Mkpesa ---> Onye Nlereanya Họrọ ---> Nabata/Jụọ 
 
-(Ma onye nyocha na onye nyocha bụ algọridim)
+(Ma ihe akaebe na ihe akaebe bụ algọridim)
 
-In computer science the term for efficiently verifiable proofs is NP proofs. These short proofs can be verified in polynomial time. The broad idea being "There exists a solution to a theorem & it is passed over to the verifier to check it"
+N'ime sayensị kọmputa, okwu maka ihe akaebe a na-enyocha nke ọma bụ ihe akaebe NP. Enwere ike ịkwado ihe akaebe ndị a dị mkpirikpi n'oge polynomial. Echiche sara mbara bụ "E nwere ngwọta maka theorem & a na-enyefe ya na onye na-enyocha ya iji lelee ya."
 
 
 <a href="">
@@ -32,18 +32,18 @@ In computer science the term for efficiently verifiable proofs is NP proofs. The
 </a>
 
 
-Na NP-asụsụ = ọnọdụ abụọ ga-emezu: 
+N'asụsụ NP = ọnọdụ abụọ ga-adịrịrị: 
 
-Ihe zuru ezu: Onye nyocha ga-anabata ezigbo nkwupụta (na-enye ndị na-egosi eziokwu aka iru nyocha)
+Mmezu: Onye nyocha ga-anabata eziokwu mkpesa (na-enye ndị akaebe eziokwu ohere iru nkwenye)
 
-Eziokwu: Nkwupụta ụgha agaghị enwe ihe akaebe (maka usoro aghụghọ ọ bụla ha agaghị enwe ike igosi izi ezi nke nkwupụta na-ezighi ezi).
+Ịdị mma: Nkwupụta ụgha agaghị enwe ihe akaebe ọ bụla (maka atụmatụ aghụghọ niile ha agaghị enwe ike igosi na nkwupụta ezighi ezi ziri ezi).
 
 
-### Ngosipụta mmekọrịta & Ihe ga-ekwe omume
+### Ihe akaebe mmekọrịta na nke puru omume
 
-**Mmekọrịta**: Kama ịgụ naanị ihe akaebe ahụ, onye nyocha ahụ na-etinye aka na onye nyocha azụ na n'ihu n'ọtụtụ ozi.
+**Mmekọrịta**: Kama ịgụ naanị ihe akaebe ahụ, onye na-enyocha ihe na-eme ihe na-eso onye na-egosi ihe n'ihu na azụ n'ọtụtụ ozi.
 
-**Randomness**: Verifier si arịrịọ ka prover na-randomized na prover ga-enwe ike ịza n'ụzọ ziri ezi ka onye ọ bụla. 
+**Nzuzo**: Arịrịọ onye nyocha na-arịọ onye nyocha ka o nye onye nyocha bụ nke a na-ahazighị ahazi, onye nyocha ga-enwerịrị ike ịza nke ọ bụla nke ọma. 
 
 
 <a href="">
@@ -51,11 +51,11 @@ Eziokwu: Nkwupụta ụgha agaghị enwe ihe akaebe (maka usoro aghụghọ ọ 
 </a>
 
 
-Using interaction and randomness together it is possible to prove a claim to a blind verifier in Probabilistic Polynomial Time (PPT). 
+Site n'iji mmekọrịta na enweghị usoro ọnụ, o kwere omume igosi nkwupụta nye onye na-enyocha kpuru ìsì na Oge Polynomial Probabilistic (PPT). 
 
-Enwere ike igosi ihe ngosi Interactive nke ọma karịa nkwenye NP?
+Ihe akaebe mmekọrịta nwere ike igosi ihe karịrị ihe akaebe NP nke ọma?
 
-NP Proofs vs IP proofs:
+Ihe akaebe NP vs ihe akaebe IP:
 
 |  Nkwupụta   |    NP     | IP    |
 |--------------|-----------|--------|
@@ -65,166 +65,166 @@ NP Proofs vs IP proofs:
 |    PSPACE    |  no       |  ee   |
 
 
-NP - Enwere ngwọta maka nkwupụta
+NP - E nwere ihe ngwọta maka nkwupụta
 
-CO-NP - Igosi na enweghi ngwọta maka nkwupụta
+CO-NP - Gosipụta na enweghị azịza maka nkwupụta
 
-#P - Ịgụ ole ngwọta dị na nkwupụta
+#P - Iji gụọ ọnụọgụ ngwọta dị maka nkwupụta
 
-PSPACE - Igosipụta mgbanwe nke nkwupụta dị iche iche
+PSPACE - Na-egosi mgbanwe nke nkwupụta dị iche iche
 
-### Gịnị bụ Zero Knowledge?
+### Gịnị bụ ihe ọmụma efu?
 
-What a verifier can compute after an interaction is identical to what they could prove prior. The interaction over multiple rounds between the prover & verifier has not increased the computional power of the verifier.
+Ihe onye nyocha nwere ike ịgbakọ mgbe mmekọrịta gasịrị yiri ihe ha nwere ike igosi na mbụ. Mmekọrịta dị n'etiti onye nyocha na onye nyocha emebeghị ka ike mgbakọ nke onye nyocha ahụ dịkwuo elu.
 
-** The Simulation Paradigm **
+**Usoro Nlereanya Paradigm**
 
-Nnwale a dị na cryptography. Ọ na-enye "Ezi Echiche" & "Echere Echiche". 
+Nnwale a dị n'oge niile e dere ihe gbasara nzuzo. Ọ na-egosi "Ezigbo Echiche" na "Ezigbo Echiche". 
 
-Ezigbo Echiche: Akụkọ niile nwere ike ịdị n'etiti Prover & Verifier (P,V)
+Echiche Ziri Ezi: Akụkọ ihe mere eme niile nwere ike ime gbasara mmekọrịta dị n'etiti Prover na Verifier (P, V)
 
-Nlele nlele: Onye nyocha ahụ na-eme ka mmekọrịta niile dị n'etiti Prover & Verifier 
+Echiche Eserese: Ihe nyocha ahụ na-eme ka mmekọrịta niile dị n'etiti Prover na Verifier sikwuo ike 
 
 <a href="">
     <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
-A polynomial-time distinguisher makes an attempt to determine whether they are looking at the real or simulated view and requests a sample from both repeatedly.
+Onye na-achọpụta oge polynomial na-anwa ịchọpụta ma ha na-ele anya n'ezie ma ọ bụ nke e mere ka ọ dị ka ihe nlereanya ma na-arịọ ka e nye ha ihe nlele site na ha abụọ ugboro ugboro.
 
-The two views are said to be "computationally indistinguishable" if for all distinguisger algorithms/strategies, even after receiving a polynomial number of samples from real or simulated, the probability is >1/2. 
+A na-ekwu na echiche abụọ a "anaghị aghọtacha nke ọma n'ụzọ mgbakọ na mwepụ" ma ọ bụrụ na maka algọridim/atụmatụ niile dị iche iche, ọbụlagodi mgbe enwetara ọnụọgụgụ polynomial nke ihe atụ sitere na ezigbo ma ọ bụ nke e mere ka ọ dị ka ihe atụ, ohere ya bụ >1/2. 
 
-**Ebumnuche nke ihe ọmụma efu**
+**Arụmụka Ihe Ọmụma Na-enweghị Ihe Ọmụma**
 
-An interactive protocol (P,V) is zero-knowledge if there exists a simulator (algorithm) such that for every probabilty polynomial-time verifier (when the theorem is correct), the probability distributions determining the real from simulated view are computationaly indistinguishable. 
+Usoro mmekọrịta (P, V) bụ ihe ọmụma efu ma ọ bụrụ na e nwere ihe eji eme ihe (algọridim) nke na maka ihe nyocha oge polynomial ọ bụla (mgbe usoro ahụ ziri ezi), nkesa puru omume nke na-ekpebi ezigbo ya site na echiche e mere ka ọ dị ka ihe nlereanya enweghị ike ịmata nke ọma na kọmputa. 
 
-Nkwekọrịta mmekọrịta bara uru mgbe enwere otu onye nyocha. Otu ihe atụ ga-abụ onye nyocha ụtụ na ngwa 'ihe akaebe nke ụtụ isi'.
+Usoro mmekọrịta bara uru mgbe e nwere otu onye na-enyocha ya. Ihe atụ ga-abụ onye na-enyocha ụtụ isi n'akwụkwọ 'ihe akaebe ụtụ isi' nke na-enweghị ihe ọmụma.
 
 ## Gịnị bụ SNARK?
 
-** Nkwupụta Amamihe Na-enweghị Mmekọrịta **
+**Arụmụka Ihe Ọmụma nke Na-abụghị Mmekọrịta**
 
-Broad definition - A succinct proof that a statement is true. The proof must be short and fast to verify. In SNARKS a single message is sent from Prover to Verifier. The verifier can then choose to accept or reject. 
+Nkọwa sara mbara - Ihe akaebe dị mkpirikpi na nkwupụta bụ eziokwu. Ihe akaebe ahụ ga-adị mkpụmkpụ ma dị ngwa iji gosi. Na SNARKS, a na-eziga otu ozi site na Prover gaa na Verifier. Onye nyocha ahụ nwere ike ịhọrọ ịnakwere ma ọ bụ ịjụ. 
 
-nkwupụta ihe atụ: "Amaara m ozi (m) dị ka SHA256(m) = 0"
+ihe atụ okwu: "Amaara m ozi (m) nke na SHA256(m)=0"
 
-Na zk-SNARK ihe akaebe ahụ anaghị ekpughe ihe ọ bụla gbasara ozi (m).
+N'ime zk-SNARK ihe akaebe ahụ anaghị egosi ihe ọ bụla gbasara ozi ahụ (m).
 
-**Polynomials**: Nchịkọta nke okwu ndị nwere ihe na-adịgide adịgide (dịka 1,2,3), mgbanwe (dị ka x,y,z), na exponents nke mgbanwe (dika x2, y3). 
+**Polynomials**: Nchikota okwu nwere ihe na-agbanwe agbanwe (dịka 1,2,3), ihe na-agbanwe agbanwe (dịka x,y,z), na ihe na-egosi ihe na-agbanwe agbanwe (dịka x², y³). 
 
-ihe atụ: "3x2 + 8x + 17"
+ihe atụ: "3x² + 8x + 17"
 
-**Arithmetic Circuit**: Ọ bụ ihe atụ maka ịgbakọ polynomials. More n'ozuzu ọ nwere ike kọwaa dị ka a Directed Acyclic Graph na nke ọ bụla ọnụ nke graph a mgbakọ na mwepụ ọrụ a rụrụ.
+**Seketi Mgbakọ**: Ihe nlereanya maka ịgbakọ polynomials. N'ozuzu ya, enwere ike ịkọwa ya dị ka eserese Acyclic Directed nke a na-arụ ọrụ mgbakọ na mwepụ na node ọ bụla nke eserese ahụ. Seketi ahụ nwere ọnụ ụzọ mgbakwunye, ọnụ ụzọ mmụba na ụfọdụ ọnụ ụzọ ámá na-adịgide adịgide. N'otu ụzọ ahụ seketi Boolean na-ebu bits na waya, seketi Arithmetic na-ebu integers.
 
 
 <a href="">
 <img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
-In this example, the prover wants to convince the verifier that he knows a solution to the arithmetic circuit.  
+N'ihe atụ a, onye akaebe chọrọ ime ka onye nyocha kwenye na ọ maara ihe ngwọta maka sekit mgbakọ na mwepụ. 
 
-**Commitments**: To do this, the prover will put all of the values (private and public) associated with the circuit into a commitment. Commitments hide their inputs by using a function whose output is irreversible.
+**Nkwa**: Iji mee nke a, onye na-egosi ihe ga-etinye ụkpụrụ niile (nkeonwe na nke ọha) metụtara sekit ahụ n'ime nkwa. Nkwa na-ezochi ntinye ha site na iji ọrụ nke mmepụta ya na-enweghị ike ịgbanwe agbanwe.
 
-Sha256 bụ otu ihe atụ nke ọrụ hashing nke enwere ike iji ya na atụmatụ nkwekọrịta.
+Sha256 bụ otu ihe atụ nke ọrụ hashing nke enwere ike iji na atụmatụ nkwa.
 
-After the prover commits to the values, the commitments are sent to verifier (being confident they are unable to uncover any of the original values). The prover is then able to show to the verifier knowledge of each of the values on the nodes of the graph. 
+Mgbe onye akaebe nyefere ihe ndị ahụ, a na-eziga nkwa ndị ahụ na onye nyocha (n'inwe obi ike na ha enweghị ike ịchọpụta uru mbụ ọ bụla). Onye nyocha ahụ ga-enwe ike igosi onye nyocha ihe ọmụma nke uru ọ bụla dị na n'ime oghere nke eserese ahụ. 
 
-** Mgbanwe Fiat-Shamir **
+**Fiat-Shamir Transform**
 
-To make the protocol *non-interactive* the prover generates randomness (used for the hidden challenge) on behalf of the verifier using a cryptographic hash function. This is known as the random oracle. The prover can then send a single message to the verifier who can then check it is correct. 
+Iji mee ka usoro a *na-anaghị akpakọrịta*, onye na-egosi ihe na-eme n'enweghị usoro (eji maka ihe ịma aka zoro ezo) n'aha onye na-enyocha ihe site na iji ọrụ hash cryptographic. A maara nke a dị ka oracle random. Onye na-enyocha ihe nwere ike izipu otu ozi nye onye na-enyocha ihe wee lelee ma ọ ziri ezi. 
 
-Iji mepụta SNARK nke enwere ike iji ya mee ihe maka usoro izugbe, a chọrọ ihe abụọ:
+Iji mepụta SNARK nke enwere ike iji maka sekit izugbe, ihe abụọ dị mkpa:
 
-Functional commitment scheme: Allows a committer to commit to a polynomial with a short string that can be used by a verifier to confirm claimed evaluations of the committed polynomial.
+Atụmatụ nkwa ọrụ: Na-enye onye na-etinye aka ohere itinye aka na polynomial nwere obere eriri nke onye na-enyocha nwere ike iji kwado nyocha a na-ekwu maka polynomial ekwenyeghị.
 
-Polynomial interactive oracle: Verifier na-ajụ prover (algorithm) ka o mepee nkwekọrịta niile n'ebe dị iche iche nke ha na-ahọrọ site na iji atụmatụ nkwekọ polynomials & nyocha njirimara bụ eziokwu n'etiti ha.
+Okwu mkparịta ụka gbasara Polynomial: Onye na-enyocha ihe na-arịọ prover (algọridim) ka o mepee nkwa niile n'ebe dị iche iche ha họọrọ site na iji atụmatụ nkwa polynomial & checks njirimara na-agbaso eziokwu n'etiti ha.
 
-** Ntọala **
+**Melite**
 
-Usoro nhazi na-enyere onye nyocha aka site na ichikota sekit & mmepụta ihe ngosi ọha. 
+Usoro ntọala na-enyere onye nyocha aka site n'ịchịkọta sekit ma wepụta paramita ọha. 
 
 <a href="">
 <img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
-** Types nke tupu nhazi ntọlite **:
+**Ụdị nhazi tupu nhazi**:
 
-Ntọala a tụkwasịrị obi kwa sekit - A na-agba ọsọ otu ugboro kwa okirikiri. Ọ bụ ihe pụrụ iche na sekit & ihe nzuzo nzuzo (Common Reference String) ga-ezo ezo + kpochapụ. 
+Ntọala a tụkwasịrị obi kwa sekit - A na-agba otu ugboro kwa sekit. Ọ dị iche na sekit ahụ, a ga-ezobekwa ihe nzuzo ahụ (Common Reference String) + bibie ya. 
 
-Nhazi a na usoro a pụtara na onye na-adịghị akwụwa aka ọtọ nwere ike igosi nkwupụta ụgha. 
+Nhazi a na-emebi emebi pụtara na onye na-ekwu eziokwu nwere ike igosi na okwu ụgha bụ eziokwu. 
 
-Atụkwasị obi ma Universal Setup - Naanị nwere na-agba ọsọ tụkwasịrị obi setup otu ugboro na bụ ike mgbe ahụ deterministically preprocess multiple sekit. 
+Ntọala a tụkwasịrị obi mana zuru ụwa ọnụ - Naanị otu ugboro ka a ga-agba ntọala a tụkwasịrị obi ma nwee ike ịhazi ọtụtụ sekit tupu oge eruo. 
 
-Ntọala Transparent (Enweghị Ntọalụ Tụkwasịrị Obi) - Usoro nhazi nke mbụ anaghị eji ihe nzuzo ọ bụla zoro ezo. 
+Ntọala Transparent (Enweghị Ntọala A Tụkwasara Obi) - Algọridim nhazi tupu oge eruo anaghị eji ihe nzuzo ọ bụla eme ihe ma ọlị. 
 
 
-** Types of SNARK proof constructions **: Ụdị nke SNARC na-eguzogide ihe owuwu
+**Ụdị ihe owuwu SNARK na-egosi**:
 
-[Groth16](https://eprint.iacr.org/2016/260): Na-achọ Ntọala tụkwasịrị obi ma nwee ihe akaebe dị mkpirikpi nke enwere ike nyochaa ngwa ngwa.
+[Groth16](https://eprint.iacr.org/2016/260): Achọrọ Ntọala A tụkwasịrị Obi mana o nwere obere ihe akaebe nke enwere ike ịchọpụta ngwa ngwa.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Ntọala a tụkwasịrị obi n'ụwa niile.
 
-[Ọchịchịrị](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[ỤRỤ](https://www.youtube.com/watch?v=wFZ_YIetK1o): Enweghị Ntọala tụkwasịrị obi ma mepụta ihe akaebe dịtụ ogologo ma ọ bụ nwere ike iwe ogologo oge maka ịgba ọsọ. 
+[Ọchịchịrị](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Enweghị Ntọala A Tụkwasara Obi mana ọ na-emepụta ihe akaebe dị ogologo karịa ma ọ bụ nwee ike were ogologo oge ka ihe ngosi ahụ rụọ ọrụ. 
 
-SNARKS bara uru mgbe achọrọ ọtụtụ ndị nyocha dị ka blockchain dị ka Zcash ma ọ bụ zk-Rollup dị ka [Aztec](https://docs.aztec.network) so that multiple validating nodes don't have to interact over several rounds with each proof. 
+SNARKS bara uru mgbe achọrọ ọtụtụ ihe akaebe dị ka blockchain dịka Zcash ma ọ bụ zk-Rollup dịka [Aztek](https://docs.aztec.network) nke mere na ọtụtụ nodes nkwado agaghị enwe mmekọrịta n'ọtụtụ agba na ihe akaebe ọ bụla. 
 
-## Kedụ ka e si etinye zk-SNARK na Zcash?
+## Kedu otu esi etinye zk-SNARK's n'ọrụ na Zcash?
 
-N'ozuzu, ihe akaebe na-enweghị ihe ọmụma bụ ngwá ọrụ iji mezuo omume n'eziokwu na protocols n'ekpugheghị ozi ọ bụla. 
+N'ozuzu, ihe akaebe efu bụ ngwaọrụ iji mee ka omume eziokwu dị na usoro iwu na-ekpugheghị ozi ọ bụla. 
 
-Zcash is a public blockchain that facilitates private transactions. zk-SNARK's are used to prove that a private transaction is valid within the network consensus rules without revealing any other details about the transaction. 
+Zcash bụ blockchain ọha na eze nke na-eme ka azụmahịa nkeonwe dị mfe. A na-eji zk-SNARK's iji gosi na azụmahịa nkeonwe dị irè n'ime iwu nkwekọrịta netwọk na-ekpugheghị nkọwa ọ bụla ọzọ gbasara azụmahịa ahụ. 
 
-[Ihe E Ji Akụziri Mmadụ Vidio](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In this lecture Ariel Gabizon provides descriptions of the Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges and how they are implemented on the network. 
+[Nkọwa Vidiyo](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - N'okwu nkuzi a, Ariel Gabizon na-enye nkọwa gbasara osisi nkwa Zcash Note, nyocha polynomial blind & ihe ịma aka zoro ezo nke Homomorphically na otu esi etinye ha n'ọrụ na netwọk ahụ. 
 
-Gụọ akwụkwọ Halo 2 .](https://zcash.github.io/halo2/index.html) maka ozi ndị ọzọ.
+Gụọ ya [Akwụkwọ Halo2](https://zcash.github.io/halo2/index.html) maka ozi ndị ọzọ.
 
-## Ngwa ndị ọzọ na-enweghị ihe ọmụma 
+## Ngwa Ndị Ọzọ Na-enweghị Ihe Ọmụma 
 
-zk-SNARKs provide several advantages in a variety of different applications. Let's take a look at some examples.
+zk-SNARKs na-enye ọtụtụ uru n'ọtụtụ ngwa dị iche iche. Ka anyị leba anya n'ụfọdụ ihe atụ.
 
-**Scalability**: Nke a na-enweta site na 'Outsourcing Computation'. Ọ dịghị mkpa maka ihe ọmụma efu maka usoro L1 iji nyochaa ọrụ nke ọrụ mpụga. Azụmahịa abụghị nke onwe na zk-EVM.
+**Ịhazi Nhagharị**: A na-enweta nke a site na 'Nkọwapụta Mwepụ'. Enweghị mkpa siri ike maka ihe ọmụma efu maka yinye L1 iji chọpụta ọrụ nke ọrụ na-abụghị nke agbụ ígwè. Azụmahịa abụghị nkeonwe na zk-EVM.
 
-The advantage of a proof based Rollup (zk-Rollup) service is to process a batch of hundreds/thousands of transactions & the L1 is able to verify a succinct proof that all transactions were processed correctly, scaling the networks transaction throughput by a factor of 100 or 1000.
+Uru nke ọrụ Rollup (zk-Rollup) dabere na ihe akaebe bụ ịhazi otu narị/puku kwuru puku azụmahịa na L1 nwere ike ịchọpụta obere ihe akaebe na e mepụtara azụmahịa niile nke ọma, na-amụba mmepụta azụmahịa netwọk site na ihe dị ka 100 ma ọ bụ 1000.
 
 <a href="">
   <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 
-**Interoperability**: This is achieved on a zk-Bridge by 'locking' assets on a source chain and proving to the target chain the assets have been locked (proof of consensus).
+**Mmekọrịta**: A na-enweta nke a na zk-Bridge site na 'ịkpọchi' akụ na isi iyi ma gosi na akụ ahụ akpọchiri na agbụ ebumnuche (ihe akaebe nke nkwekọrịta).
 
-**Irube isi**: Ọrụ ndị dị ka [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) are able to prove that a private transaction is compliant with local banking laws without revealing the details of the transaction. 
+**Nrubeisi**: Ọrụ dịka [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) nwee ike igosi na azụmahịa nkeonwe na-agbaso iwu ụlọ akụ mpaghara na-ekpugheghị nkọwa nke azụmahịa ahụ. 
 
-**Fighting Disinformation**: Among several examples outside of blockchain & cryptocurrency, the use of proof generation on images that have been processed by news & media outlets to enable viewers to independently verify the source of an image and all operations performed on it. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
+**Ịlụso Ozi Na-ezighi Ezi ọgụ**: N'ime ọtụtụ ihe atụ ndị ọzọ na-abụghị blockchain na cryptocurrency, ojiji nke imepụta ihe akaebe na onyonyo nke akụkọ na ụlọ ọrụ mgbasa ozi haziri iji mee ka ndị na-ekiri nwee ike ịchọpụta ebe onyonyo si na ọrụ niile emere na ya n'onwe ha. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
 
 
 ____
 
 
-Ịmụtakwu Ihe: 
+Mmụta Ọzọ: 
 
 [Akwụkwọ ọgụgụ ihe ọmụma efu - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
 
-[zkSNARK na Hanh Huynh Huu nọ](https://www.youtube.com/watch?v=zXF-BDohZjk)
+[zkSNARK na Hanh Huynh Huu](https://www.youtube.com/watch?v=zXF-BDohZjk)
 
-[Zcash: Halo 2 na SNARKs na-enweghị Tụkwasịrị Obi Mbido - Sean Bowe on Dystopia labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
+[Zcash: Halo 2 na SNARKs na-enweghị Ntọala Atụkwasịrị Obi - Sean Bowe na Dystopia labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
-[Amụma efu na-egosi na Avi Wigderson - Numberphile](https://youtu.be/5ovdoxnfFVc)
+[Ihe akaebe efu na Avi Wigderson - Numberphile](https://youtu.be/5ovdoxnfFVc)
 
-[Interactive Zero-Knowledge Proofs - Chainlink isiokwu](https://blog.chain.link/interactive-zero-knowledge-proofs/)
+[Ihe akaebe nke ihe ọmụma efu na-emekọrịta ihe - Akụkọ njikọ Chainlink](https://blog.chain.link/interactive-zero-knowledge-proofs/)
 
-[Nkuzi 1: Okwu Mmalite na Akụkọ nke ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
+[Nkuzi nke 1: Okwu Mmalite na Akụkọ Ihe Mere Eme nke ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
 
-[Nkọwa Dị Mfe nke Circuits Arithmetic - Ọkara](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
+[Nkọwa Dị Mfe nke Mgbakọ na Mwepụ - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
 
-[Ịgbasapụ Agbasapụ Na-agwụ Ike, Nzuzo Anwụọla: ZK-Proofs, Gịnị Ka Ha Dị Mma Maka Ya?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
+[Nhazi dị n'ime ya na-agwụ ike, nzuzo anwụọla: ihe akaebe ZK, gịnị ka ha dị mma maka ya?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
 
 ---
 
 ## Peeji ndị metụtara ya
 
-- [Egwú Mmiri Ndị E Chebere](/using-zcash/shielded-pools)  Otu esi eji zk-SNARKs na Zcash uru ọdọ mmiri
-- [Halo](/zcash-tech/halo)  Usoro zk-SNARK nke Zcash nke na-ewepụ ntọala ndị a tụkwasịrị obi
-- [Post-Quantum Security na Zcash](/zcash-tech/post-quantum-security) - Olee otú ihe ize ndụ quantum n'ọdịnihu si metụta Zcash cryptography
-- [Zcash echebe akụ](/zcash-tech/zcash-shielded-assets)  ZSAs wuru na teknụzụ zk-SNARK
-- [Gịnị bụ ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Okwu Mmalite na Zcash na ụdị nzuzo ya
-- [Nchekwa nzuzo dị ka ụkpụrụ bụ isi](/start-here/who-can-see-your-zcash-payment)  Ihe mere o ji dị mkpa ka e chebe ihe nzuzo ego
+- [Ọdọ Mmiri E Kpuchiri Ekpuchi](/using-zcash/shielded-pools) — Otu esi eji zk-SNARKs eme ihe na ọdọ mmiri uru Zcash
+- [Halo](/zcash-tech/halo) — Sistemụ zk-SNARK Zcash's nke na-ewepụ ntọala a tụkwasịrị obi
+- [Nchekwa Mgbe-Ọnọdụ Na Zcash](/zcash-tech/post-quantum-security) - Otu ihe egwu kwantum n'ọdịnihu si metụta cryptography Zcash
+- [Akụ Zcash Chebere](/zcash-tech/zcash-shielded-assets) — ZSAs e wuru na teknụzụ zk-SNARK
+- [Kedu ihe bụ ZEC na Zcash](/start-here/what-is-zec-and-zcash) — Okwu Mmalite nke Zcash na ụdị nzuzo ya
+- [Ònye nwere ike ịhụ ụgwọ Zcash gị?](/start-here/who-can-see-your-zcash-payment) — Ihe na-anọ n'ihu ọha, na ihe mkpuchi na-ezo

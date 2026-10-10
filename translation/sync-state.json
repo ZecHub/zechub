@@ -625,8 +625,8 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:bf663e33f9c79d80d7621daad339cf534d23065039010620e3846ce808ee82f3",
-      "src_commit": "c738340f55d25822452be48ff87e6b14489ff497",
+      "src": "sha256:88be43ce0f4d2c5916cac7df5ce3b57d4dec80c4208b48b73f2ece5b2a7d23f9",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -865,11 +865,11 @@
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Shielded_Transaction_Podcast.md": {
-      "src": "sha256:301adaf6e58c81b6513ded77f9985b323099c498cbeb9eb0aa646fa983a4b80a",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:d9b5dd1b185216199a0ffbad3c4b4da6254c93b0e34703bf6b72422145067c79",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+linkrepair",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -1185,11 +1185,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:c23a392a64b09aff18b8b4ab1d10b2522f753541e6a1a5e8c83c3aad43b6cad8",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+deadlink-repair+linkrepair",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -5863,8 +5863,8 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:bf663e33f9c79d80d7621daad339cf534d23065039010620e3846ce808ee82f3",
-      "src_commit": "c738340f55d25822452be48ff87e6b14489ff497",
+      "src": "sha256:88be43ce0f4d2c5916cac7df5ce3b57d4dec80c4208b48b73f2ece5b2a7d23f9",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -6103,11 +6103,11 @@
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Shielded_Transaction_Podcast.md": {
-      "src": "sha256:301adaf6e58c81b6513ded77f9985b323099c498cbeb9eb0aa646fa983a4b80a",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:d9b5dd1b185216199a0ffbad3c4b4da6254c93b0e34703bf6b72422145067c79",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+linkrepair",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -6423,11 +6423,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:c23a392a64b09aff18b8b4ab1d10b2522f753541e6a1a5e8c83c3aad43b6cad8",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+deadlink-repair+linkrepair",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -14585,8 +14585,8 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:bf663e33f9c79d80d7621daad339cf534d23065039010620e3846ce808ee82f3",
-      "src_commit": "c738340f55d25822452be48ff87e6b14489ff497",
+      "src": "sha256:88be43ce0f4d2c5916cac7df5ce3b57d4dec80c4208b48b73f2ece5b2a7d23f9",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -14825,11 +14825,11 @@
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Shielded_Transaction_Podcast.md": {
-      "src": "sha256:301adaf6e58c81b6513ded77f9985b323099c498cbeb9eb0aa646fa983a4b80a",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+videorepair",
+      "src": "sha256:d9b5dd1b185216199a0ffbad3c4b4da6254c93b0e34703bf6b72422145067c79",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -15145,11 +15145,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild+linkrepair",
+      "src": "sha256:c23a392a64b09aff18b8b4ab1d10b2522f753541e6a1a5e8c83c3aad43b6cad8",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -25061,8 +25061,8 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:bf663e33f9c79d80d7621daad339cf534d23065039010620e3846ce808ee82f3",
-      "src_commit": "c738340f55d25822452be48ff87e6b14489ff497",
+      "src": "sha256:88be43ce0f4d2c5916cac7df5ce3b57d4dec80c4208b48b73f2ece5b2a7d23f9",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -25301,11 +25301,11 @@
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Shielded_Transaction_Podcast.md": {
-      "src": "sha256:301adaf6e58c81b6513ded77f9985b323099c498cbeb9eb0aa646fa983a4b80a",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "src": "sha256:d9b5dd1b185216199a0ffbad3c4b4da6254c93b0e34703bf6b72422145067c79",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -25621,11 +25621,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+table-rebuild+linkrepair",
+      "src": "sha256:c23a392a64b09aff18b8b4ab1d10b2522f753541e6a1a5e8c83c3aad43b6cad8",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -30299,8 +30299,8 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:bf663e33f9c79d80d7621daad339cf534d23065039010620e3846ce808ee82f3",
-      "src_commit": "c738340f55d25822452be48ff87e6b14489ff497",
+      "src": "sha256:88be43ce0f4d2c5916cac7df5ce3b57d4dec80c4208b48b73f2ece5b2a7d23f9",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -30539,11 +30539,11 @@
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Shielded_Transaction_Podcast.md": {
-      "src": "sha256:301adaf6e58c81b6513ded77f9985b323099c498cbeb9eb0aa646fa983a4b80a",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+videorepair",
+      "src": "sha256:d9b5dd1b185216199a0ffbad3c4b4da6254c93b0e34703bf6b72422145067c79",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/The_ZK_Podcast.md": {
@@ -30859,11 +30859,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair+prose-retranslate+table-rebuild+linkrepair",
+      "src": "sha256:c23a392a64b09aff18b8b4ab1d10b2522f753541e6a1a5e8c83c3aad43b6cad8",
+      "src_commit": "2bc1ee4e07435739e0fe77d5715e96a43ee7070d",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {

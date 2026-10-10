@@ -2,13 +2,13 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Shielded Transactions Podcast na Taasisi ya Forsight
+# Podikasti ya Miamala Iliyolindwa na Taasisi ya Forsight
 
-Foresight Institute is a research organization and non-profit that supports the beneficial development of high-impact technologies. Since our founding in 1987 on a vision of guiding powerful technologies, we have continued to evolve into a many-armed organization that focuses on several fields of science and technology that are too ambitious for legacy institutions to support. 
+Taasisi ya Foresight ni shirika la utafiti na lisilo la faida linalounga mkono maendeleo yenye manufaa ya teknolojia zenye athari kubwa. Tangu kuanzishwa kwetu mwaka wa 1987 kwa maono ya kuongoza teknolojia zenye nguvu, tumeendelea kubadilika na kuwa shirika lenye silaha nyingi linalozingatia nyanja kadhaa za sayansi na teknolojia ambazo zina tamaa kubwa sana kwa taasisi za zamani kuweza kuziunga mkono. 
 
-- [Shirikishwa Transactions # 1 ]. Nani atakuwa na faragha yako & utambulisho katika siku zijazo? (na Andrew Miller)](https://www.youtube.com/watch?v=UVlPHlm1I3o&list=PLH78wfbGI1x0QS-1GIjARHRWjVBKF-ofB&index=37)
-- Shielded Transactions #2 ]. Bitcoin's Privacy Problem (na Zooko Wilcox)
-- [Mashirika yaliyofichwa # 3] Nani anapaswa kudhibiti faragha yako? (na Whyrusleeping)](https://www.youtube.com/watch?v=BgLXB_L3STQ)
-- Shirikishwa Transactions #4 ]. Marta Belcher, Filecoin Foundation ]. Faragha & Sheria katika Umri wa AI
-- Mashirika ya biashara yaliyofichwa #5  Avichal Garg, Electric Capital ] Je, siku zijazo zina nini kwa ajili ya mashirika ya biashara yaliyopofichika?
-- Mashirika yaliyohifadhiwa # 6] Zaki Manian, Iqlusion
+- [Miamala Iliyolindwa #1 | Nani Atamiliki Faragha na Utambulisho Wako Katika Siku zijazo? (na Andrew Miller)](https://www.youtube.com/watch?v=UVlPHlm1I3o&list=PLH78wfbGI1x0QS-1GIjARHRWjVBKF-ofB&index=37)
+- Miamala Iliyolindwa #2 | Tatizo la Faragha la Bitcoin (na Zooko Wilcox) (video haionekani tena kwa umma)
+- [Miamala Iliyolindwa #3 | Nani Anapaswa Kudhibiti Faragha Yako? (na Whyrusleeping)](https://www.youtube.com/watch?v=BgLXB_L3STQ)
+- Miamala Iliyolindwa #4 | Marta Belcher, Wakfu wa Filecoin | Faragha na Sheria katika Enzi ya AI (video haionekani tena kwa umma)
+- Miamala Iliyolindwa #5 | Avical Garg, Mji mkuu wa Umeme | Je, mustakabali wa miamala iliyolindwa una nini? (video haionekani tena kwa umma)
+- Miamala Iliyolindwa #6 | Zaki Manian, Iqlusion (video hiyo haionekani tena kwa umma)

@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & zk-SNARKs ƑE NUÐEÐEŊUTI
+# ZKP & ZK-SNARKS ƑE NUÐEÐEŊUTI
 
 ## TL;DR
 
 - **zk-SNARKs** = Zero-Sidzedze Sidzedze ƒe Nyaʋiʋli Kpuie Siwo Mewɔa Nu Ðekae O
 - Wona akpa ɖeka **ɖo kpe edzi be yewonya nane** evɔ womeɖea nyatakakaa ŋutɔ ɖe go o
-- Zcash zãa zk-SNARKs tsɔ ɖoa ​​kpe edzi be asitsatsa aɖe sɔ (ga home siwo sɔ, nyatakaka siwo womezã o) **evɔ meɖea amesi ɖoe ɖa, amesi xɔe, alo ga home fiana o**
+- Zcash zãa zk-SNARKs tsɔ ɖoa kpe edzi be asitsatsa aɖe sɔ (ga home siwo sɔ, nusiwo wometsɔ de eme o) **evɔ meɖea amesi ɖoe ɖa, amesi xɔe, alo ga home fiana o**
 - "Kpuie" fia be kpeɖodzia le sue eye woate ŋu aɖo kpe edzi kabakaba le nya sesẽwo gɔ̃ hã gome
-- Orchard ƒe ta la zãa Halo 2, si nye zk-SNARK ɖoɖo si me **mehiã be woawɔ ɖoɖo si dzi woka ɖo o** .
+- Orchard ta la zãa Halo 2, si nye zk-SNARK ɖoɖo si me **mehiã be woawɔ ɖoɖo si dzi woka ɖo o**
 
 ---
 
 ## Nukae Nye Kpeɖodzi?
 
-Kpeɖodziwoe nye nusi dzi wotu akɔntabubuwo katã ɖo. Kpeɖodzi nye nya alo nyagbɔgblɔ si nèle agbagba dzem be yeaɖo kpe edzi & ɖoɖo si wowɔ tsɔ ɖe gbeƒãe be woɖo kpe nyagbɔgblɔa dzi. le kpɔɖeŋu me. dzogoe siwo katã le dzogoe etɔ̃ me ƒe ƒuƒoƒo 180° ate ŋu anye esiwo ame sia ame ate ŋu alé ŋku ɖe eŋu le eɖokui si (ɖoɖowɔla).
+Kpeɖodziwoe nye nusi dzi wotu akɔntabubuwo katã ɖo. Kpeɖodzi nye nya alo nyagbɔgblɔ si nèle agbagba dzem be yeaɖo kpe edzi & ɖoɖo si wowɔ tsɔ ɖe gbeƒãe be woɖo kpe nyagbɔgblɔa dzi. le kpɔɖeŋu me. dzogoe siwo katã le dzogoe etɔ̃ me ƒe ƒuƒoƒo 180° ate ŋu anye esiwo ame sia ame ate ŋu alé ŋku ɖe wo ŋu le wo ɖokui si (ɖoɖowɔla).
 
 **Kpeɖodziwo** 
 
-Prover ---> Wɔ Nyabiase ---> Kpeɖodzila Tia ---> Lɔ̃/Gbe 
+Lododonu ---> Wɔ Nyabiase ---> Kpeɖodzila Tia ---> Lɔ̃/Gbe 
 
 (Prover kple verifier siaa nye algorithms)
 
-Le kɔmpiutaŋutinunya me la, nya si wozãna na kpeɖodzi siwo ŋu woate ŋu aɖo kpee nyuie enye NP kpeɖodziwo. Woate ŋu aɖo kpe kpeɖodzi kpui siawo dzi le ɣeyiɣi si me wowɔa nu geɖe le me. The broad idea being "Egbɔkpɔnu aɖe li na nyagbɔgblɔ aɖe & wotsɔe yi na kpeɖodziwɔla be wòalé ŋku ɖe eŋu".
+Le kɔmpiutaŋutinunya me la, nya si wozãna na kpeɖodzi siwo ŋu woate ŋu aɖo kpee nyuie enye NP kpeɖodziwo. Woate ŋu aɖo kpe kpeɖodzi kpui siawo dzi le ɣeyiɣi si me wowɔa nu geɖe le me. The broad idea being "Egbɔkpɔnu aɖe li na nyagbɔgblɔ aɖe & wotsɔe yi na kpeɖodziwɔla be wòalé ŋku ɖe eŋu"
 
 
 <a href="">
@@ -34,14 +34,14 @@ Le kɔmpiutaŋutinunya me la, nya si wozãna na kpeɖodzi siwo ŋu woate ŋu aɖ
 
 Le NP-gbe me = ele be nɔnɔme eve nalé: 
 
-Blibodede: Nyateƒetotolawo axɔ nya siwo wogblɔ la to kpeɖodzila gbɔ (eɖea mɔ na kpeɖodziwɔla anukwaretɔwo be woaɖo kpeɖodzinana gbɔ)
+Blibodede: Nyateƒenya siwo wogblɔ la axɔ to kpeɖodzila gbɔ (eɖea mɔ na kpeɖodziwɔla anukwaretɔwo be woaɖo kpeɖodzinana gbɔ)
 
 Nyateƒenya: Kpeɖodzi aɖeke manɔ alakpanyawo ŋu o (le ametafatafa prover ƒe aɖaŋuwo katã gome la, womate ŋu aɖo kpe nya si mesɔ o ƒe nyateƒenyenye dzi o).
 
 
 ### Kpeɖodzi Siwo Wowɔna Kple Nuwɔwɔ Kple Wo Nɔewo
 
-**Nuwɔwɔ aduadu**: Le esi teƒe be kpeɖodzinu la naxlẽ kpeɖodzia ko la, ewɔa nu kple prover aɖe yia ŋgɔ kple megbe le gbedasi ƒe ƒoƒo geɖe me.
+**Nuwɔwɔ aduadu**: Le esi teƒe be wòaxlẽ kpeɖodzia ko la, kpeɖodzila la wɔa nu kple prover aɖe yia ŋgɔ kple megbe le gbedasi ƒe ƒoƒo geɖe me.
 
 **Randomness**: Verifier ƒe biabia be prover nye randomized eye ele be prover nate ŋu aɖo wo dometɔ ɖesiaɖe ŋu nyuie. 
 
@@ -57,12 +57,12 @@ Ne wozã kadodo kple nusiwo dzɔna le vome ɖekae la, anya wɔ be woaɖo kpe nya
 
 NP Kpeɖodziwo vs IP kpeɖodziwo:
 
-|  Nyagbɔgblɔ |    NP | IP |
+|  Nyadu   |    NP     | IP    |
 |--------------|-----------|--------|
-|    NP |  ẽ |  ẽ |
-|    CO-NP ƒe ƒuƒoƒo |  ao |  ẽ |
-|    #P |  ao |  ẽ |
-|    PSPACE |  ao |  ẽ |
+|    NP        |  Ɛ̃      |  Ɛ̃   |
+|    CO-NP     |  no       |  Ɛ̃   |
+|    #P        |  no       |  Ɛ̃   |
+|    PSPACE ƒe ŋkɔ    |  no       |  Ɛ̃   |
 
 
 NP - Nya aɖe gbɔkpɔnu li
@@ -77,9 +77,9 @@ PSPACE - Nya vovovowo ƒe tɔtrɔ ɖe wo nɔewo ŋu ƒe kpeɖodzi
 
 Nusi kpeɖodziwɔla ate ŋu abu akɔnta le kadodo aɖe megbe la sɔ kple nusi woate ŋu aɖo kpe edzi do ŋgɔ. Nuwɔwɔ aduadu le ƒoƒo geɖe me le prover & verifier dome medzi akɔntabubu ƒe ŋusẽ si le verifier la ŋu ɖe edzi o.
 
-**Simulation Paradigm la**
+**Simulation Paradigm**
 
-Dodokpɔ sia li le nya ɣaɣlawo ƒe nyatakakawo katã me. Eɖea "Nukpɔkpɔ Nyateƒetɔ" & "Nukpɔkpɔ si Wowɔ abe Ðekae" fiana. 
+Dodokpɔ sia li le nya ɣaɣlawo katã me. Eɖea "Nukpɔkpɔ Nyateƒetɔ" & "Nukpɔkpɔ si Wowɔ Ðekae" fiana. 
 
 Nukpɔkpɔ Nyateƒetɔ: Ŋutinya siwo katã ate ŋu anɔ Prover & Verifier (P,V) dome ƒe kadodowo ŋu
 
@@ -91,7 +91,7 @@ Simulated View: Dzesidela la srɔ̃a kadodo siwo katã ate ŋu anɔ Prover & Ver
 
 Polynomial-time vovototodeameme dzea agbagba be yeanya nenye be wole ŋku lém ɖe nukpɔkpɔ ŋutɔŋutɔ alo esi wowɔ abe ɖe wole nukpɔkpɔ ene ŋu eye wòbiaa kpɔɖeŋu tso wo ame evea siaa gbɔ enuenu.
 
-Wogblɔ be nukpɔsusu eveawo be "womateŋu ade vovototo wo dome le akɔntabubu me o" ne le vovototodedeameme ƒe akɔntabubuwo/mɔnuwo katã gome la, le kpɔɖeŋuwo ƒe xexlẽme si nye polynomial xɔxɔ tso nyateƒe alo esiwo wowɔ abe ɖe wole ene megbe gɔ̃ hã la, kakaɖedzia nye >1/2. 
+Wogblɔ be nukpɔsusu eveawo be "womateŋu ade vovototo wo dome le akɔntabubu me o" nenye be le vovototodedeameme ƒe akɔntabubuwo/mɔnuwo katã gome la, le kpɔɖeŋuwo ƒe xexlẽme si nye polynomial xɔxɔ tso nyateƒe alo esiwo wowɔ abe ɖe wole ene megbe gɔ̃ hã la, kakaɖedzia nye >1/2. 
 
 **Zero-Sidzedze Nyaʋiʋliwo le Sidzedze ŋu**
 
@@ -101,19 +101,19 @@ Interactive Protocols ɖea vi ne kpeɖodzinu ɖeka li. Kpɔɖeŋu aɖe anye adz�
 
 ## Nukae nye SNARK?
 
-**Sidzedze Ŋuti Nyaʋiʋli Kpuie si Mewɔa Nu Kple Wo Nɔewo O**
+**Sidzedze Ŋuti Nyaʋiʋli Kpuie si Mewɔa Nu Ðekae O**
 
 Gɔmesese gbadzaa - Kpeɖodzi kpui aɖe be nya aɖe nye nyateƒe. Ele be kpeɖodzia nanɔ kpuie eye wòawɔ kabakaba hafi woate ŋu aɖo kpe edzi. Le SNARKS me la, woɖoa gbedasi ɖeka tso Prover gbɔ yi Verifier gbɔ. Emegbe amesi ɖo kpe edzi ate ŋu atiae be yeaxɔe alo agbe. 
 
-kpɔɖeŋu nyagbɔgblɔ: "Menya gbedasi (m) ale be SHA256(m)=0".
+kpɔɖeŋu nyagbɔgblɔ: "Menya gbedasi (m) ale be SHA256(m)=0"
 
 Le zk-SNARK me la, kpeɖodzia meɖea naneke fiana tso gbedasi (m) la ŋu o.
 
-**Polynomials**: Nya siwo me nusi nɔa anyi ɖaa (abe 1,2,3), tɔtrɔwo (abe x,y,z), kple tɔtrɔwo ƒe xexlẽdzesiwo (abe x2, y3 ene) ƒe ƒuƒoƒo. 
+**Polynomials**: Nya siwo me nu madzudzɔmadzudzɔe (abe 1,2,3), tɔtrɔwo (abe x,y,z), kple tɔtrɔwo ƒe xexlẽdzesiwo (abe x2, y3 ene) le ƒe ƒuƒoƒo. 
 
-kpɔɖeŋu: "3x2 + 8x + 17".
+kpɔɖeŋu: "3x2 + 8x + 17"
 
-**Akɔntabubu ƒe nutome**: Kpɔɖeŋu si wotsɔ wɔa akɔntabubu le xexlẽdzesi gbogbowo ŋu. Le go geɖe me la, woate ŋu aɖe egɔme be enye Directed Acyclic Graph si dzi wowɔa akɔntabubu ƒe dɔwɔwɔ le graph la ƒe node ɖesiaɖe dzi. Nutome suea nye agbo siwo wotsɔ kpe ɖe wo nɔewo ŋu, agbo siwo dzi wodzina ɖo kple agbo aɖewo siwo nɔa anyi ɖaa. Alesi Boolean nutome suewo tsɔa bit siwo le ka me la, nenema ke Akɔntabubu ƒe nutome suewo hã tsɔa xexlẽdzesi blibowo.
+**Akɔntabubu ƒe Nutome**: Kpɔɖeŋu si wotsɔ wɔa akɔntabubu le xexlẽdzesi gbogbowo ŋu. Le go geɖe me la, woate ŋu aɖe egɔme be enye Directed Acyclic Graph si dzi wowɔa akɔntabubu ƒe dɔwɔwɔ le graph la ƒe node ɖesiaɖe dzi. Nutome suea nye agbo siwo wotsɔ kpe ɖe wo nɔewo ŋu, agbo siwo dzi wodzia nu ɖo kple agbo aɖewo siwo nɔa anyi ɖaa. Alesi Boolean nutome suewo tsɔa bit siwo le ka me la, nenema ke Akɔntabubu ƒe nutome suewo hã tsɔa xexlẽdzesi blibowo.
 
 
 <a href="">
@@ -126,7 +126,7 @@ Le kpɔɖeŋu sia me la, lodola la di be yeana amesi ɖo kpe edzi naxɔe ase be 
 
 Sha256 nye hashing dɔwɔwɔ ƒe kpɔɖeŋu ɖeka si woateŋu azã le ɖokuitsɔtsɔna ƒe ɖoɖo me.
 
-Ne prover la tsɔ eɖokui na asixɔxɔawo vɔ la, woɖoa adzɔgbeɖeɖeawo ɖe ɖaseɖiɖila (kakaɖedzitɔe be yewomate ŋu ake ɖe asixɔxɔ gbãtɔawo dometɔ aɖeke ŋu o). Emegbe lodola la te ŋu ɖea asixɔxɔ siwo le nɔnɔmetata la ƒe nugbɔwo dzi dometɔ ɖesiaɖe ƒe sidzedze fiana kpeɖodziwɔla. 
+Ne prover la tsɔ eɖokui na asixɔxɔawo vɔ la, woɖoa adzɔgbeɖeɖeawo ɖe ɖaseɖiɖila (esi woka ɖe edzi be yewomate ŋu ake ɖe asixɔxɔ gbãtɔawo dometɔ aɖeke ŋu o). Emegbe lodola la te ŋu ɖea asixɔxɔ siwo le nɔnɔmetata la ƒe nugbɔwo dzi dometɔ ɖesiaɖe sidzedze fiana kpeɖodziwɔla. 
 
 **Fiat-Shamir ƒe Tɔtrɔ**
 
@@ -136,21 +136,21 @@ Be woawɔ SNARK si woate ŋu azã na nutome suewo katã la, ele be woawɔ nu eve
 
 Dɔwɔwɔ ƒe ɖokuitsɔtsɔna ƒe ɖoɖo: Enaa mɔ na ɖokuitsɔtsɔnala be wòatsɔ eɖokui ana ɖe xexlẽdzesi gbogbo aɖe si me ka kpui aɖe le si kpeɖodziwɔla ate ŋu azã atsɔ aɖo kpe xexlẽdzesi gbogbo si wotsɔ ɖokuitsɔtsɔna ƒe dodokpɔ siwo wogblɔ be wowɔ dzi.
 
-Polynomial interactive oracle: Verifier bia tso prover (algorithm) si be wòaʋu ŋugbedodowo katã le teƒe vovovo siwo wotia to polynomial commitment scheme zazã me & léa ŋku ɖe identity holds true between them.
+Polynomial interactive oracle: Verifier bia tso prover (algorithm) si be wòaʋu adzɔgbeɖeɖewo katã le teƒe vovovo siwo wotia to polynomial commitment scheme zazã me & léa ŋku ɖe identity holds true le wo dome ŋu.
 
 **Ɖo anyi**
 
-Setup ɖoɖowo kpena ɖe verifier to nutome sue aɖe kpuie & dutoƒo parameters dodo. 
+Setup ɖoɖowo kpena ɖe verifier to kpuie nutome sue & outputting dutoƒo parameters. 
 
 <a href="">
 <img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
-**Ðoɖowɔwɔ do ŋgɔ ƒe dɔwɔwɔ ƒe ƒomeviwo**:
+**Ðoɖo si wowɔ do ŋgɔ na dɔwɔwɔ ƒe ƒomeviwo**:
 
 Trusted Setup per circuit - Woƒua du zi ɖeka le nutome ɖesiaɖe me. Is sepcific to a circuit & adzame randomness (Common Reference String) ele be woatsɔ aɣla + atsrɔ̃. 
 
-A comprimised setup le mɔnu sia me fia be lodododzikpɔla maɖianukware ate ŋu aɖo kpe alakpanyawo dzi. 
+Ðoɖo si wowɔ ɖe ɖoɖo nu le mɔnu sia me fia be lodododzikpɔla maɖianukware ate ŋu aɖo kpe alakpanyawo dzi. 
 
 Kakaɖedzi gake Xexeame Katã ƒe Ðoɖo - Ðeko wòle be wòawɔ ɖoɖo si dzi woka ɖo zi ɖeka eye wòte ŋu emegbe deterministically preprocess circuit geɖewo. 
 
@@ -159,42 +159,42 @@ Transparent Setup (No Trusted Setup)- Preprocessing algorithm mezãa adzame rand
 
 **SNARK kpeɖodzi xɔtutu ƒomeviwo**:
 
-[Tsitsi16](https://eprint.iacr.org/2016/260): Ebia Setup si Dzi Woka Ðo gake kpeɖodzi kpui ŋutɔ siwo woate ŋu aɖo kpee kaba le esi.
+[Dzidziɖedzi16](https://eprint.iacr.org/2016/260): Ebia Setup si Dzi Woka Ðo gake kpeɖodzi kpui ŋutɔ siwo ŋu woate ŋu aɖo kpee kaba le esi.
 
-[Sonic ƒe gbeɖiɖi](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin ƒe ŋkɔ](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk ƒe dɔwɔwɔ](https://eprint.iacr.org/2019/953): Ðoɖo si Dzi Woka Ðo Le Xexeame Katã.
+[Sonic ƒe gbeɖiɖi](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin ƒe agbalẽa](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk ƒe ŋkɔ](https://eprint.iacr.org/2019/953): Ðoɖo si Dzi Woka Ðo Le Xexeame Katã.
 
-[NYRƆ](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK ƑE NUÐEÐEŊUTI](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup gake ewɔa kpeɖodzi siwo didi vie alo ate ŋu axɔ ɣeyiɣi didi hafi prover naƒu du. 
+[NYRƆ](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup gake ewɔa kpeɖodzi siwo didi vie alo ate ŋu axɔ ɣeyiɣi didi hafi prover naƒu du. 
 
-SNARKS ɖea vi ne wohiã kpeɖodzinu geɖewo abe blockchain abe Zcash alo zk-Rollup abe [Aztec ene](https://docs.aztec.network) ale be mehiã be node geɖewo nawɔ nu aduadu le ƒoƒo geɖe me kple kpeɖodzi ɖesiaɖe o. 
+SNARKS ɖea vi ne wohiã kpeɖodzinu geɖewo abe blockchain abe Zcash alo zk-Rollup abe [Aztektɔwo ƒe ŋkɔ](https://docs.aztec.network) ale be mehiã be node geɖewo nawɔ nu aduadu le ƒoƒo geɖe me kple kpeɖodzi ɖesiaɖe o. 
 
-## Aleke wowɔa zk-SNARK ƒe dɔwɔwɔ le Zcash me?
+## Aleke wowɔa zk-SNARK's dɔwɔwɔ le Zcash?
 
 Zi geɖe la, sidzedze zero-sidzedze ƒe kpeɖodziwo nye dɔwɔnu si wotsɔ zi anukwareɖiɖi ƒe nuwɔna dzi le ɖoɖowɔɖiwo me evɔ womaɖe nyatakaka aɖeke afia o. 
 
-Zcash nye dutoƒo blockchain si naa ame ŋutɔ ƒe asitsatsa nɔa bɔbɔe. Wozãa zk-SNARK's tsɔ ɖoa ​​kpe edzi be ame ŋutɔ ƒe asitsatsa sɔ le network ƒe nubabla ƒe sewo me evɔ womeɖea nyatakaka bubu aɖeke ɖe go tso asitsatsa la ŋu o. 
+Zcash nye dutoƒo blockchain si naa ame ŋutɔ ƒe asitsatsa nɔa bɔbɔe. Wozãa zk-SNARK's tsɔ ɖoa kpe edzi be ame ŋutɔ ƒe asitsatsa sɔ le network ƒe nubabla ƒe sewo me evɔ womeɖea nyatakaka bubu aɖeke ɖe go tso asitsatsa la ŋu o. 
 
-[Video me Numeɖela](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Le nuƒo sia me la Ariel Gabizon na numeɖeɖewo tso Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges kple alesi wowɔa woe le network la dzi. 
+[Video Ŋuti Numeɖela](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Le nuƒo sia me la, Ariel Gabizon na numeɖeɖewo tso Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges kple alesi wowɔa woe le network la dzi. 
 
-Xlẽ [Halo2 ƒe agbalẽa](https://zcash.github.io/halo2/index.html) hena nyatakaka bubuwo.
+Xlẽ nya sia [Halo2 ƒe agbalẽ](https://zcash.github.io/halo2/index.html) hena nyatakaka bubuwo.
 
-## Zero-Sidzedze Dɔwɔnu Bubuwo 
+## Sidzedze Zero ƒe Dɔwɔnu Bubuwo 
 
-zk-SNARKs naa viɖe geɖe le dɔwɔwɔ vovovo vovovowo me. Na míalé ŋku ɖe eƒe kpɔɖeŋu aɖewo ŋu.
+zk-SNARKs naa viɖe geɖewo le dɔwɔwɔ vovovo vovovowo me. Na míalé ŋku ɖe eƒe kpɔɖeŋu aɖewo ŋu.
 
-**Scalability**: Esia nye nusi wowɔna to 'Akɔntabubu si wotsɔna naa ame bubuwo' me. Mehiã vevie be woanya zero-sidzedze na L1 kɔsɔkɔsɔ be woatsɔ aɖo kpe dɔwɔwɔ si mele kɔsɔkɔsɔ me o ƒe dɔwɔwɔ dzi o. Adzɔnuwo menye ame ŋutɔ tɔ kokoko le zk-EVM dzi o.
+**Scalability**: Esia nye nusi wowɔna to 'Akɔntabubu si wotsɔna naa ame bubuwo' me. Mehiã vevie be sidzedze zero nanɔ L1 kɔsɔkɔsɔ ŋu be wòaɖo kpe dɔwɔwɔ si mele kɔsɔkɔsɔ me o ƒe dɔwɔwɔ dzi o. Adzɔnuwo menye ame ŋutɔ tɔ kokoko le zk-EVM dzi o.
 
-Viɖe si le kpeɖodzi si wotu ɖe Rollup (zk-Rollup) subɔsubɔdɔ ŋue nye be wòawɔ dɔ tso asitsatsa alafa/akpe geɖe ƒe hatsotso aɖe ŋu & L1 te ŋu ɖoa kpe kpeɖodzi kpui aɖe dzi be wowɔ asitsatsaawo katã nyuie, eye wòdzia ​​networks ƒe asitsatsa ƒe dɔwɔwɔ ɖe edzi to xexlẽme si nye 100 alo 1000 dzi.
+Viɖe si le Rollup (zk-Rollup) subɔsubɔdɔ si wotu ɖe kpeɖodzi dzi ŋue nye be wòawɔ dɔ tso asitsatsa alafa/akpe geɖe ƒe hatsotso aɖe ŋu & L1 te ŋu ɖoa kpe kpeɖodzi kpui aɖe dzi be wowɔ asitsatsaawo katã nyuie, si dzidzea networks ƒe asitsatsa ƒe dɔwɔwɔ to xexlẽme si nye 100 alo 1000 dzi.
 
 <a href="">
   <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 
-**Interoperability**: Esia nyea nusi wowɔna le zk-Bridge dzi to ‘locking’ nunɔamesiwo le dzɔtsoƒe kɔsɔkɔsɔ dzi eye woɖo kpe edzi na taɖodzinu kɔsɔkɔsɔ be wotu nunɔamesiawo (kpeɖodzi si ɖee fia be wolɔ̃ ɖe edzi).
+**Interoperability**: Wowɔa esia le zk-Bridge dzi to ‘locking’ nunɔamesiwo le dzɔtsoƒe kɔsɔkɔsɔ dzi eye woɖo kpe edzi na taɖodzinu kɔsɔkɔsɔ be wotu nunɔamesiawo (kpeɖodzi si ɖee fia be wolɔ̃ ɖe edzi).
 
-**Sedziwɔwɔ**: Dɔwɔnawo abe [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) te ŋu ɖoa kpe edzi be ame ŋutɔ ƒe asitsatsa aɖe wɔ ɖeka kple nutoa me gadzraɖoƒewo ƒe sewo evɔ womeɖea asitsatsa la ŋuti nyatakakawo fiana o. 
+**Sedziwɔwɔ**: Dɔwɔnawo abe [Espresso ƒe nuɖuɖu](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) te ŋu ɖoa kpe edzi be ame ŋutɔ ƒe asitsatsa aɖe wɔ ɖeka kple nutoa me gadzraɖoƒe ƒe sewo evɔ womeɖea asitsatsa la ŋuti nyatakakawo fiana o. 
 
-**Avuwɔwɔ kple Nyatakaka Totro**: Le kpɔɖeŋu geɖe siwo le blockchain & cryptocurrency godo dome la, kpeɖodzi dzidzi zazã ɖe nɔnɔmetata siwo ŋu nyadzɔdzɔwo & nyadzɔdzɔdɔwɔƒewo trɔ asi le dzi be wòana nukpɔlawo nate ŋu aɖo kpe nɔnɔmetata aɖe ƒe dzɔtsoƒe kple dɔwɔwɔ siwo katã wowɔ ɖe edzi la dzi le wo ɖokui si. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
+**Avuwɔwɔ kple Nyatakaka Totro**: Le kpɔɖeŋu geɖe siwo le blockchain & cryptocurrency godo dome la, kpeɖodzi dzidzi zazã ɖe nɔnɔmetata siwo ŋu nyadzɔdzɔwo & nyadzɔdzɔdɔwɔƒewo wɔ dɔ le dzi be wòana nukpɔlawo nate ŋu aɖo kpe nɔnɔmetata aɖe ƒe dzɔtsoƒe kple dɔwɔwɔ siwo katã wowɔ ɖe edzi dzi le wo ɖokui si. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
 
 
 ____
@@ -210,9 +210,9 @@ Nusɔsrɔ̃ Bubuwo:
 
 [Sidzedze zero Kpeɖodziwo kple Avi Wigderson - Xexlẽdzesiwo lɔ̃la](https://youtu.be/5ovdoxnfFVc)
 
-[Nuwɔwɔ aduadu ƒe Sidzedze Zero-Kpeɖodziwo - Chainlink nyati](https://blog.chain.link/interactive-zero-knowledge-proofs/)
+[Nuwɔwɔ aduadu ƒe Zero-Sidzedze Kpeɖodziwo - Chainlink nyati](https://blog.chain.link/interactive-zero-knowledge-proofs/)
 
-[Nuƒoƒo 1: ZKP ƒe ŋgɔdonya kple ŋutinya - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
+[Nuƒo 1: ZKP ƒe ŋgɔdonya kple ŋutinya - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
 
 [Akɔntabubu ƒe Nutome Gãwo Ŋuti Numeɖeɖe Blewu - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
 
@@ -223,8 +223,8 @@ Nusɔsrɔ̃ Bubuwo:
 ## Axa Siwo Do Ƒome Kplii
 
 - [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — Alesi wozãa zk-SNARKs le Zcash ƒe asixɔxɔ ƒe ƒuƒoƒo me
-- [Halo](/zcash-tech/halo) — Zcash ƒe zk-SNARK ɖoɖo si ɖea ɖoɖo siwo dzi woka ɖo ɖa
-- [Dedienɔnɔ le Quantum megbe le Zcash me](/zcash-tech/post-quantum-security) - Alesi etsɔme quantum afɔkuwo do ƒome kple Zcash cryptography
-- [Zcash ƒe Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) — ZSA siwo wotu ɖe zk-SNARK mɔ̃ɖaŋununya dzi
+- [Halo](/zcash-tech/halo) — Zcash's zk-SNARK ɖoɖo si ɖea ɖoɖo siwo dzi woka ɖo ɖa
+- [Dedienɔnɔ le Quantum megbe le Zcash](/zcash-tech/post-quantum-security) - Alesi etsɔme quantum afɔkuwo do ƒome kple Zcash cryptography
+- [Zcash Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) — ZSA siwo wotu ɖe zk-SNARK mɔ̃ɖaŋununya dzi
 - [Nukae nye ZEC kple Zcash](/start-here/what-is-zec-and-zcash) — Zcash kple eƒe ameŋunyatakakawo ŋuti kpɔɖeŋu ƒe ŋgɔdonya
-- [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/start-here/who-can-see-your-zcash-payment) — Nusita ganyawo ŋuti nyatakakawo tsɔtsɔ aɣla le vevie
+- [Amekae Ate Ŋu Akpɔ Wò Zcash Fexexe?](/start-here/who-can-see-your-zcash-payment) — Nusiwo nɔa dutoƒo, kple nusiwo akpoxɔnu ɣla

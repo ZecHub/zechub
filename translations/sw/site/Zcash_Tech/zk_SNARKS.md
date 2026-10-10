@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & zk-SNARKs
+# ZKP na ZK-SNARKS
 
 ## TL;DR
 
-- **zk-SNARKs** = Zero-Maarifa Muhimu Non-Interactive hoja ya maarifa
-- Wanaruhusu mtu mmoja ** kuthibitisha wanajua kitu fulani ** bila kufunua habari yenyewe
-- Zcash hutumia zk-SNARKs kuthibitisha shughuli ni halali (kiasi sahihi, unspent pembejeo) ** bila kufunua mtumaji, mpokeaji, au kiasi**
-- "Succinct" ina maana uthibitisho ni ndogo na haraka kuthibitisha hata kwa taarifa tata
-- bwawa Orchard inatumia Halo 2, zk-SNARK mfumo na ** hakuna kuaminika kuanzisha required**
+- **zk-SNARKs** = Hoja za Maarifa Zisizo na Maarifa Zisizo na Ushirikiano
+- Wanaruhusu upande mmoja kuthibitisha kwamba wanajua jambo fulani** bila kufichua taarifa yenyewe
+- Zcash hutumia zk-SNARKs kuthibitisha muamala ni halali (kiasi sahihi, ingizo ambazo hazijatumika) **bila kufichua mtumaji, mpokeaji, au kiasi**
+- "Succunt" inamaanisha uthibitisho ni mdogo na wa haraka kuthibitishwa hata kwa kauli ngumu
+- Bwawa la Orchard hutumia Halo 2, mfumo wa zk-SNARK usiohitaji usanidi unaoaminika**
 
 ---
 
-## Uthibitisho Ni Nini?
+## Uthibitisho ni nini?
 
-Uthibitisho ni msingi wa hesabu zote. uthibitisho ni madai au theorem wewe ni kujaribu kuthibitisha & mfululizo wa derivations alifanya kutangaza theorem imekuwa kuthibitishwa. kwa mfano. pembe zote katika pembe tatu jumla ya 180 ° inaweza kujitegemea checked na mtu yeyote (verifier).
+Uthibitisho ndio msingi wa hisabati yote. Uthibitisho ni dai au nadharia unayojaribu kuthibitisha na mfuatano wa matokeo yaliyofanywa kutangaza kwamba nadharia imethibitishwa. k.m. pembe zote katika pembetatu jumla ya 180° zinaweza kukaguliwa kwa kujitegemea na mtu yeyote (mthibitishaji).
 
-** Uthibitisho ** 
+**Uthibitisho** 
 
-Prov ---> hufanya madai ---> Verifier Chagua ---> Kubali / Kukataa 
+Mtoa Madai ---> Mthibitishaji Anachagua ---> Kubali/Kukataa 
 
-(Wote prober na verifier ni algorithms)
+(Kithibitishaji na kithibitishaji vyote ni algoriti)
 
-Katika sayansi ya kompyuta neno kwa ajili ya uthibitisho ufanisi verifiable ni NP ushahidi. ushahidi huu mfupi inaweza kuthibitishwa katika polynomial wakati. wazo pana kuwa "Kuna ufumbuzi wa theorem & ni kupita juu ya kuthibitisha ili kuangalia ni"
+Katika sayansi ya kompyuta, neno la uthibitisho unaoweza kuthibitishwa kwa ufanisi ni uthibitisho wa NP. Uthibitisho huu mfupi unaweza kuthibitishwa katika wakati wa polinomia. Wazo pana ni "Kuna suluhisho la nadharia na hupitishwa kwa mthibitishaji ili kuiangalia"
 
 
 <a href="">
@@ -32,18 +32,18 @@ Katika sayansi ya kompyuta neno kwa ajili ya uthibitisho ufanisi verifiable ni N
 </a>
 
 
-Katika NP-lugha = masharti mawili lazima kushikilia: 
+Katika lugha ya NP = masharti mawili lazima yawepo: 
 
-Ukamilifu: madai ya kweli yatakubaliwa na verifier (inaruhusu kuthibitisha waaminifu kufikia uthibitisho)
+Ukamilifu: Madai ya kweli yatakubaliwa na mthibitishaji (huruhusu wathibitishaji waaminifu kufikia uthibitisho)
 
-Usahihi: madai ya uwongo watakuwa na hakuna ushahidi (kwa wote cheating proving mkakati watakuwa hawawezi kuthibitisha usahihi wa madai sahihi).
+Uthabiti: Madai ya uongo hayatakuwa na uthibitisho (kwa mbinu zote za kuthibitisha udanganyifu, hayataweza kuthibitisha usahihi wa madai yasiyo sahihi).
 
 
-### Maingiliano & Probabalistic Uthibitisho
+### Ushahidi Shirikishi na Uwezekano
 
-** Maingiliano **: Badala ya kusoma tu uthibitisho, verifier inashirikiana na prover nyuma na mbele juu ya raundi kadhaa za ujumbe.
+**Mwingiliano**: Badala ya kusoma tu uthibitisho, mthibitishaji hujishughulisha na mthibitishaji mara kwa mara katika raundi kadhaa za ujumbe.
 
-** Randomness **: maombi ya Verifier kwa prover ni randomized na prover lazima kuwa na uwezo wa kujibu kwa usahihi kwa kila mmoja. 
+**Nasibu**: Maombi ya Mthibitishaji ya kuthibitisha ni ya nasibu na mthibitishaji lazima aweze kujibu kwa usahihi kwa kila moja. 
 
 
 <a href="">
@@ -51,11 +51,11 @@ Usahihi: madai ya uwongo watakuwa na hakuna ushahidi (kwa wote cheating proving 
 </a>
 
 
-Kutumia mwingiliano na randomness pamoja inawezekana kuthibitisha madai kwa verifier kipofu katika Probabilistic Polynomial Time (PPT). 
+Kwa kutumia mwingiliano na utofautishaji pamoja inawezekana kuthibitisha dai la kithibitishaji kipofu katika Wakati wa Polenimu wa Kinachowezekana (PPT). 
 
-Je, Interactive uthibitisho ufanisi kuthibitisha zaidi ya uthibitishaji NP?
+Je, Uthibitisho Mwingiliano unaweza kuthibitisha kwa ufanisi zaidi ya uthibitisho wa NP?
 
-NP uthibitisho dhidi ya IP uthibitishaji:
+Uthibitisho wa NP dhidi ya uthibitisho wa IP:
 
 |  Taarifa   |    NP     | IP    |
 |--------------|-----------|--------|
@@ -65,136 +65,136 @@ NP uthibitisho dhidi ya IP uthibitishaji:
 |    PSPACE    |  no       |  ndiyo   |
 
 
-NP - Kuna ufumbuzi wa taarifa
+NP - Kuna suluhisho la taarifa
 
-CO-NP - Kuthibitisha hakuna ufumbuzi kwa taarifa
+CO-NP - Kuthibitisha kwamba hakuna suluhisho la taarifa
 
-#P - Kuhesabu jinsi wengi ufumbuzi zipo kwa taarifa
+#P - Kuhesabu ni suluhisho ngapi zilizopo kwa taarifa
 
-PSPACE - Kuthibitisha mpito wa taarifa tofauti
+PSPACE - Kuthibitisha mbadala wa kauli tofauti
 
-### Ujuzi wa Zero ni nini?
+### Maarifa Zero ni nini?
 
-What a verifier can compute after an interaction is identical to what they could prove prior. The interaction over multiple rounds between the prover & verifier has not increased the computional power of the verifier.
+Kile ambacho mthibitishaji anaweza kuhesabu baada ya mwingiliano ni sawa na kile ambacho angeweza kuthibitisha hapo awali. Mwingiliano katika raundi nyingi kati ya mthibitishaji na mthibitishaji haujaongeza nguvu ya hesabu ya mthibitishaji.
 
-** Paradigm Simulation **
+**The Simulation Paradigm**
 
-Jaribio hili lipo katika cryptography. Inawasilisha "Real View" & "Simulated View". 
+Jaribio hili lipo katika usimbaji fiche. Linatoa "Mwonekano Halisi" na "Mwonekano Ulioigwa". 
 
-Real View: historia zote iwezekanavyo ya mwingiliano kati ya Prover & Verifier (P, V)
+Mtazamo Halisi: Historia zote zinazowezekana za mwingiliano kati ya Prover na Verifier (P,V)
 
-Simulated View: Verifier simulates mwingiliano wote iwezekanavyo kati ya Prover & Verifier 
+Mwonekano Ulioigwa: Kithibitishaji huiga mwingiliano wote unaowezekana kati ya Prover na Kithibitishaji 
 
 <a href="">
     <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
-Polynomial-wakati wa kutofautisha hufanya jaribio la kuamua kama wao ni kuangalia katika mtazamo halisi au simulated na maombi sampuli kutoka wote mara kwa mara.
+Kitofautishi cha wakati wa polinomia hujaribu kubaini kama wanaangalia mwonekano halisi au ulioigwa na kuomba sampuli kutoka kwa wote wawili mara kwa mara.
 
-The two views are said to be "computationally indistinguishable" if for all distinguisger algorithms/strategies, even after receiving a polynomial number of samples from real or simulated, the probability is >1/2. 
+Mitazamo hiyo miwili inasemekana kuwa "haiwezi kutofautishwa kihesabu" ikiwa kwa algoriti/mikakati yote ya kutofautisha, hata baada ya kupokea idadi ya sampuli za polinomia kutoka kwa halisi au zilizoigwa, uwezekano ni >1/2. 
 
-**Zero-Maarifa hoja za maarifa**
+**Hoja za Maarifa Bila Maarifa**
 
-Itifaki ya maingiliano (P, V) ni zero-ujuzi kama kuna simulator (algorithm) kama kwamba kwa kila probablity polynomial-wakati verifier (wakati theorem ni sahihi), uwezekano usambazaji kuamua halisi kutoka simulated mtazamo ni computationally indistinguishable. 
+Itifaki shirikishi (P,V) haina ujuzi wowote ikiwa kuna kiigaji (algorithimu) kiasi kwamba kwa kila kithibitishaji cha wakati wa polinomiali cha uwezekano (wakati nadharia ni sahihi), mgawanyo wa uwezekano unaoamua halisi kutoka kwa mwonekano ulioigwa hauwezi kutofautishwa kwa hesabu. 
 
-Maingiliano itifaki ni muhimu wakati kuna mmoja verifier. Mfano itakuwa mkaguzi wa kodi katika zero-ujuzi 'uthibitisho wa kodi' maombi.
+Itifaki shirikishi ni muhimu wakati kuna kithibitishaji kimoja. Mfano ungekuwa mkaguzi wa kodi katika ombi la 'uthibitisho wa kodi' ambalo halijui chochote.
 
 ## SNARK ni nini?
 
-**Succinct Non-Interactive Hoja ya Maarifa**
+**Hoja Fupi Isiyohusisha Maarifa**
 
-Ufafanuzi mpana - uthibitisho mfupi kwamba taarifa ni ya kweli. uthibitishaji lazima iwe fupi na haraka kuthibitisha. Katika SNARKS ujumbe mmoja hutumwa kutoka Prover kwa Verifier. verifier kisha unaweza kuchagua kukubali au kukataa. 
+Ufafanuzi mpana - Uthibitisho mfupi kwamba taarifa ni kweli. Uthibitisho lazima uwe mfupi na wa haraka ili kuthibitisha. Katika SNARKS ujumbe mmoja hutumwa kutoka kwa Prover hadi Verifier. Kisha verifier anaweza kuchagua kukubali au kukataa. 
 
-mfano wa taarifa: "Najua ujumbe (m) kama kwamba SHA256(m) = 0"
+kauli ya mfano: "Ninajua ujumbe (m) kiasi kwamba SHA256(m)=0"
 
-Katika zk-SNARK ushahidi inaonyesha kitu chochote kuhusu ujumbe (m).
+Katika zk-SNARK uthibitisho hauonyeshi chochote kuhusu ujumbe (m).
 
-** Polynomials **: Jumla ya maneno yenye mara kwa mara (kama vile 1,2,3), variables (kama x,y,z), na exponents ya variables ( kama vile x2, y3). 
+**Polini**: Jumla ya maneno yenye kigezo kisichobadilika (kama vile 1,2,3), vigezo (kama vile x,y,z), na vielelezo vya vigezo (kama vile x², y³). 
 
-mfano: "3x2 + 8x + 17"
+mfano: "3x² + 8x + 17"
 
-**Arithmetic Circuit**: A model for computing polynomials. More generally it can be defined as a Directed Acyclic Graph on which at each node of the graph an arithmetic operation is performed. The circuit consists of addition gates, multiplication gates and some constant gates. In the same way Boolean circuits carry bits in wires, Arithmetic circuits carry integers.
+**Mzunguko wa Hesabu**: Mfano wa kuhesabu polinomiali. Kwa ujumla zaidi inaweza kufafanuliwa kama Grafu ya Acyclic Iliyoelekezwa ambayo katika kila nodi ya grafu operesheni ya hesabu hufanywa. Mzunguko huu una milango ya kuongeza, milango ya kuzidisha na milango mingine isiyobadilika. Kwa njia ile ile saketi za Boolean hubeba biti kwenye waya, saketi za Hesabu hubeba nambari kamili.
 
 
 <a href="">
 <img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
-Katika mfano huu, prover anataka kumshawishi verifier kwamba anajua ufumbuzi wa mzunguko arithmetic. 
+Katika mfano huu, mthibitishaji anataka kumshawishi mthibitishaji kwamba anajua suluhisho la saketi ya hesabu. 
 
-** Mahusiano **: Kwa kufanya hivyo, prover kuweka maadili yote (binafsi na umma) kuhusishwa na mzunguko katika ahadi. ahadi kuficha pembejeo zao kwa kutumia kazi ambayo pato ni irreversible.
+**Ahadi**: Ili kufanya hivi, kipimaji kitaweka thamani zote (za kibinafsi na za umma) zinazohusiana na saketi katika ahadi. Ahadi huficha ingizo zao kwa kutumia chaguo ambalo matokeo yake hayawezi kurekebishwa.
 
-Sha256 ni mfano mmoja wa kazi ya hashing ambayo inaweza kutumika katika mpango wa ahadi.
+Sha256 ni mfano mmoja wa chaguo la kukokotoa la hashing ambalo linaweza kutumika katika mpango wa ahadi.
 
-After the prover commits to the values, the commitments are sent to verifier (being confident they are unable to uncover any of the original values). The prover is then able to show to the verifier knowledge of each of the values on the nodes of the graph. 
+Baada ya mthibitishaji kujitolea kwa thamani, ahadi hizo hutumwa kwa mthibitishaji (akiwa na uhakika kwamba hawezi kufichua thamani yoyote ya asili). Kisha mthibitishaji anaweza kuonyesha kwa mthibitishaji ujuzi wa kila thamani kwenye nodi za grafu. 
 
-** Fiat-Shamir kubadilisha**
+**Fiat-Shamir Transform**
 
-To make the protocol *non-interactive* the prover generates randomness (used for the hidden challenge) on behalf of the verifier using a cryptographic hash function. This is known as the random oracle. The prover can then send a single message to the verifier who can then check it is correct. 
+Ili kufanya itifaki *isiyoingiliana*, kithibitisha hutoa nasibu (inayotumika kwa changamoto iliyofichwa) kwa niaba ya kithibitishaji kwa kutumia kitendakazi cha hashi cha kriptografia. Hii inajulikana kama oracle ya nasibu. Kithibitishaji kinaweza kutuma ujumbe mmoja kwa kithibitishaji ambaye anaweza kisha kuthibitisha kuwa ni sahihi. 
 
-Ili kuunda SNARK ambayo inaweza kutumika kwa nyaya za jumla vitu viwili vinahitajika:
+Ili kuunda SNARK ambayo inaweza kutumika kwa mizunguko ya jumla, vipengele viwili vinahitajika:
 
-Kazi ya ahadi mpango: inaruhusu committer kujitolea kwa polynomial na mfululizo mfupi ambayo inaweza kutumika na verifier kuthibitisha madai tathmini ya ahadi polynominal.
+Mpango wa kujitolea kwa utendaji kazi: Humruhusu mtoa ahadi kujitolea kwa polinomiali yenye mfuatano mfupi ambao unaweza kutumiwa na mthibitishaji kuthibitisha tathmini zinazodaiwa za polinomiali iliyoahidiwa.
 
-Polynomial maingiliano oracle: Verifier anauliza prover (algorithm) kufungua ahadi zote katika pointi mbalimbali ya uchaguzi wao kwa kutumia polynominal ahadi mpango & hundi utambulisho inashikilia kweli kati yao.
+Oracle shirikishi ya polinomial: Kithibitishaji kinamuuliza prover (algorithimu) kufungua ahadi zote katika sehemu mbalimbali wanazochagua kwa kutumia mpango wa ahadi ya polinomial na huangalia utambulisho unabaki kuwa kweli kati yao.
 
-Mpangilio
+**Kuweka**
 
-Utaratibu wa kuanzisha husaidia verifier kwa muhtasari wa mzunguko na pato la vigezo vya umma. 
+Taratibu za usanidi husaidia kithibitishaji kwa kufupisha saketi na kutoa vigezo vya umma. 
 
 <a href="">
 <img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
-** Aina ya kabla ya usindikaji kuanzisha **:
+**Aina za usanidi wa usindikaji wa awali**:
 
-Trusted Setup per circuit - Ni kukimbia mara moja kwa mzunguko. Je, ni maalum kwa mstari & randomness siri (Common Reference String) lazima kuwekwa siri + kuharibiwa. 
+Usanidi Unaoaminika kwa kila saketi - Huendeshwa mara moja kwa kila saketi. Ni sambamba na saketi na utofauti wa siri (Kamba ya Marejeleo ya Kawaida) lazima iwekwe siri + iharibiwe. 
 
-Kuweka compressed katika njia hii ina maana prover uaminifu anaweza kuthibitisha taarifa za uongo. 
+Mpangilio wa udanganyifu katika njia hii unamaanisha kuwa mtoa ushahidi asiye mwaminifu anaweza kuthibitisha kauli za uongo. 
 
-Trusted lakini Universal Setup - tu ina kukimbia kuaminiwa kuanzisha mara moja na ni uwezo wa kisha deterministically preprocess nyaya nyingi. 
+Usanidi Unaoaminika Lakini wa Jumla - Lazima uendesha usanidi unaoaminika mara moja tu na kisha unaweza kusindika saketi nyingi mapema. 
 
-Uwazi Setup (No Trusted Setup) - preprocessing algorithm haina kutumia yoyote siri randomness wakati wote. 
+Usanidi Uwazi (Hakuna Usanidi Unaoaminika)- Algoriti ya usindikaji wa awali haitumii nasibu yoyote ya siri hata kidogo. 
 
 
-** Aina ya SNARK ushahidi constructions **:
+**Aina za miundo isiyoweza kuathiriwa na SNARK**:
 
-[Groth16](https://eprint.iacr.org/2016/260): Inahitaji Trusted Setup lakini ina uthibitisho mfupi sana ambayo inaweza kuthibitishwa haraka.
+[Groth16](https://eprint.iacr.org/2016/260): Inahitaji Usanidi Unaoaminika lakini ina uthibitisho mfupi sana ambao unaweza kuthibitishwa haraka.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/ [Plonk](https://eprint.iacr.org/2019/953): Universal Trusted Kuweka.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Usanidi Unaoaminika Ulimwenguni.
 
-[MNYAMA](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Hakuna Trusted Setup lakini kuzalisha uthibitisho kidogo zaidi au inaweza kuchukua muda mrefu kwa ajili ya kuthibitisha kukimbia. 
+[GIZA](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[NYOTA](https://www.youtube.com/watch?v=wFZ_YIetK1o): Hakuna Usanidi Unaoaminika lakini hutoa uthibitisho mrefu kidogo au inaweza kuchukua muda mrefu kwa prover kufanya kazi. 
 
-SNARKS ni muhimu wakati verifiers nyingi zinahitajika kama vile blockchain kama Zcash au zk-Rollup kama vile [Aztec](https://docs.aztec.network) hivyo kwamba mbalimbali kuthibitisha nodes hawana kuingiliana juu ya raundi kadhaa na kila uthibitisho. 
+SNARKS ni muhimu wakati vithibitishaji vingi vinahitajika kama vile blockchain kama Zcash au zk-Rollup kama vile [Azteki](https://docs.aztec.network) ili nodi nyingi zinazothibitisha zisilazimike kuingiliana katika raundi kadhaa na kila uthibitisho. 
 
-## Jinsi ni zk-SNARK ya kutekelezwa katika Zcash?
+## zk-SNARK's zinatekelezwaje katika Zcash?
 
-Kwa ujumla zero-ujuzi uthibitisho ni chombo cha kutekeleza tabia ya uaminifu katika itifaki bila kufunua taarifa yoyote. 
+Kwa ujumla uthibitisho wa kutojua chochote ni chombo cha kutekeleza tabia ya uaminifu katika itifaki bila kufichua taarifa yoyote. 
 
-Zcash is a public blockchain that facilitates private transactions. zk-SNARK's are used to prove that a private transaction is valid within the network consensus rules without revealing any other details about the transaction. 
+Zcash ni blockchain ya umma inayowezesha miamala ya kibinafsi. zk-SNARK's hutumika kuthibitisha kwamba muamala wa kibinafsi ni halali ndani ya sheria za makubaliano ya mtandao bila kufichua maelezo mengine yoyote kuhusu muamala huo. 
 
-[Video ya Kueleza](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Katika hotuba hii Ariel Gabizon hutoa maelezo ya Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges na jinsi zinavyotekelezwa kwenye mtandao. 
+[Kielezi cha Video](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Katika hotuba hii Ariel Gabizon anatoa maelezo ya Mti wa Kujitolea Zcash Note, Tathmini ya Polynomial Isiyoonekana na Changamoto Zilizofichwa kwa Homomorphically na jinsi zinavyotekelezwa kwenye mtandao. 
 
-Soma kitabu [Halo2](https://zcash.github.io/halo2/index.html) kwa habari zaidi.
+Soma [Kitabu cha Halo2](https://zcash.github.io/halo2/index.html) kwa maelezo zaidi.
 
-## Nyingine Zero-Ujuzi Maombi 
+## Matumizi Mengine ya Zero-Knowledge 
 
-zk-SNARKs kutoa faida kadhaa katika aina mbalimbali ya maombi tofauti.
+zk-SNARKs hutoa faida kadhaa katika matumizi mbalimbali. Hebu tuangalie mifano kadhaa.
 
-** Scalability **: Hii ni mafanikio kwa 'Outsourcing Computation'. Hakuna mahitaji madhubuti kwa zero-maarifa kwa mlolongo L1 kuthibitisha kazi ya huduma nje ya mlolango. shughuli si lazima binafsi juu ya zk-EVM.
+**Uwezo wa Kupanuka**: Hili linafanikiwa kwa 'Ukopaji wa Huduma kwa Wateja wa Nje'. Hakuna haja kali ya kutojua chochote kwa mnyororo wa L1 ili kuthibitisha kazi ya huduma isiyo ya mnyororo. Miamala si lazima iwe ya faragha kwenye zk-EVM.
 
-Faida ya uthibitisho msingi Rollup (zk-Rollup) huduma ni mchakato kundi la mamia / maelfu ya shughuli & L1 ni uwezo wa kuthibitisha ushahidi succinct kwamba shughuli zote walikuwa kusindika kwa usahihi, kupanua mtandao shughuli throughput na sababu ya 100 au 1000.
+Faida ya huduma ya Rollup (zk-Rollup) inayotegemea uthibitisho ni kusindika kundi la miamala mamia/maelfu na L1 inaweza kuthibitisha uthibitisho mfupi kwamba miamala yote ilishughulikiwa kwa usahihi, na kuongeza kiwango cha muamala wa mitandao kwa kiwango cha 100 au 1000.
 
 <a href="">
   <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 
-** Interoperability **: Hii ni mafanikio juu ya zk-Bridge na 'kufunga' mali kwenye chanzo cha mnyororo na kuthibitisha kwa mlolongo wa lengo mali kuwa imefungwa (uthibitisho wa makubaliano).
+**Ushirikiano**: Hili linafanikiwa kwenye Daraja la zk kwa 'kufunga' mali kwenye mnyororo chanzo na kuthibitisha kwa mnyororo lengwa kwamba mali zimefungwa (uthibitisho wa makubaliano).
 
-**Utii**: Miradi kama vile [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) ni uwezo wa kuthibitisha kwamba shughuli binafsi ni kwa mujibu wa sheria za benki ya ndani bila kufichua maelezo ya shughuli. 
+**Utiifu**: Miradi kama vile [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) wanaweza kuthibitisha kwamba muamala wa kibinafsi unafuata sheria za benki za ndani bila kufichua maelezo ya muamala huo. 
 
-**Kupambana na habari potofu**: Miongoni mwa mifano kadhaa nje ya blockchain & cryptocurrency, matumizi ya kizazi cha uthibitisho kwenye picha ambazo zimeshughulikiwa na vyombo vya habari & vyombo vya kijamii ili kuwezesha watazamaji kuthibitisha chanzo cha picha na shughuli zote zilizofanywa juu yake. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
+**Kupambana na Taarifa Potofu**: Miongoni mwa mifano kadhaa nje ya blockchain na sarafu ya kidijitali, matumizi ya uundaji wa ushahidi kwenye picha ambazo zimeshughulikiwa na vyombo vya habari na vyombo vya habari ili kuwawezesha watazamaji kuthibitisha kwa uhuru chanzo cha picha na shughuli zote zinazofanywa juu yake. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
 
 
 ____
@@ -202,29 +202,29 @@ ____
 
 Kujifunza Zaidi: 
 
-[Zero-Maarifa Bibliography - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
+[Marejeleo ya Maarifa Yenye Sifuri - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
 
-[zkSNARK's na Hanh Huynh Huu](https://www.youtube.com/watch?v=zXF-BDohZjk)
+[zkSNARK akiwa na Hanh Huynh Huu](https://www.youtube.com/watch?v=zXF-BDohZjk)
 
-[Zcash: Halo 2 na SNARKs bila Confident Setups - Sean Bowe juu ya maabara Dystopia](https://www.youtube.com/watch?v=KdkVTEHUxgo)
+[Zcash: Halo 2 na SNARKs bila Mipangilio Inayoaminika - Sean Bowe kwenye maabara ya Dystopia](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
-[Zero maarifa uthibitisho na Avi Wigderson - Numberphile](https://youtu.be/5ovdoxnfFVc)
+[Uthibitisho wa maarifa sifuri na Avi Wigderson - Numberphile](https://youtu.be/5ovdoxnfFVc)
 
-[Interactive Zero-Ujuzi uthibitisho - Chainlink makala](https://blog.chain.link/interactive-zero-knowledge-proofs/)
+[Uthibitisho Shirikishi wa Maarifa ya Zero - Makala ya Chainlink](https://blog.chain.link/interactive-zero-knowledge-proofs/)
 
-[Mada ya 1: Utangulizi na Historia ya ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
+[Hotuba ya 1: Utangulizi na Historia ya ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
 
-[Ufafanuzi Rahisi wa Circuits Arithmetic - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
+[Maelezo Rahisi ya Mizunguko ya Hesabu - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
 
-[Uwezekano wa kupanuka ni wa kuchosha, faragha imekufa: ZK-Proofs, Ni nzuri kwa nini?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
+[Uwezo wa Kupanuka Unachosha, Faragha Imekufa: Ushahidi wa ZK, Je, Zina Faida kwa Nini?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
 
 ---
 
 ## Kurasa Zinazohusiana
 
-- [Vidimbwi vya Kuhifadhiwa](/using-zcash/shielded-pools)  Jinsi zk-SNARKs ni kutumika katika hifadhi Zcash thamani
-- [Halo](/zcash-tech/halo)  Zcash's zk-SNARK mfumo ambao unaondoa kuaminika mipangilio
-- [Post Quantum Usalama katika Zcash](/zcash-tech/post-quantum-security) - Jinsi ya baadaye quantum hatari kuhusiana na Zcash cryptography
-- [Zcash Shielded Mali](/zcash-tech/zcash-shielded-assets)  ZSAs kujengwa juu ya teknolojia zk-SNARK
-- [Ni nini ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Utangulizi wa Zcash na mfano wake wa faragha
-- [Usiri kama Kanuni ya Msingi](/start-here/who-can-see-your-zcash-payment)  Kwa nini faragha ya kifedha ni muhimu
+- [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools) — Jinsi zk-SNARKs zinavyotumika katika mabwawa ya thamani Zcash
+- [Halo](/zcash-tech/halo) — Mfumo wa zk-SNARK Zcash's unaoondoa mipangilio inayoaminika
+- [Usalama wa Baada ya Quantum huko Zcash](/zcash-tech/post-quantum-security) - Jinsi hatari za quantum za baadaye zinavyohusiana na usimbaji fiche Zcash
+- [Mali Zilizolindwa za Zcash](/zcash-tech/zcash-shielded-assets) — ZSA zilizojengwa kwa teknolojia ya zk-SNARK
+- [ZEC na Zcash ni nini?](/start-here/what-is-zec-and-zcash) — Utangulizi wa Zcash na mfumo wake wa faragha
+- [Nani Anaweza Kuona Malipo Yako Zcash?](/start-here/who-can-see-your-zcash-payment) — Ni nini kinachobaki hadharani, na ni nini kinga huficha
