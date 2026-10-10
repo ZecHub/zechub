@@ -165,7 +165,7 @@ Ntọala Transparent (Enweghị Ntọala A Tụkwasara Obi) - Algọridim nhazi 
 
 [Ọchịchịrị](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Enweghị Ntọala A Tụkwasara Obi mana ọ na-emepụta ihe akaebe dị ogologo karịa ma ọ bụ nwee ike were ogologo oge ka ihe ngosi ahụ rụọ ọrụ. 
 
-SNARKS bara uru mgbe achọrọ ọtụtụ ihe akaebe dị ka blockchain dịka Zcash ma ọ bụ zk-Rollup dịka [Aztek](https://docs.aztec.network) nke mere na ọtụtụ nodes nkwado agaghị enwe mmekọrịta n'ọtụtụ agba na ihe akaebe ọ bụla. 
+SNARKS bara uru mgbe achọrọ ọtụtụ ihe akaebe dị ka blockchain dịka Zcash ma ọ bụ zk-Rollup dịka [Aztec](https://docs.aztec.network) nke mere na ọtụtụ nodes nkwado agaghị enwe mmekọrịta n'ọtụtụ agba na ihe akaebe ọ bụla. 
 
 ## Kedu otu esi etinye zk-SNARK's n'ọrụ na Zcash?
 

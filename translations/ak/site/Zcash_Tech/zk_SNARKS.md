@@ -165,7 +165,7 @@ Transparent Setup (No Trusted Setup)- Preprocessing algorithm no mfa kokoam rand
 
 [SUM](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup nanso ɛma adanse a ɛware kakra anaasɛ ebetumi agye bere tenten ansa na prover atu mmirika. 
 
-SNARKS ho wɔ mfaso bere a verifiers pii ho hia te sɛ blockchain te sɛ Zcash anaa zk-Rollup te sɛ [Aztekfo](https://docs.aztec.network) sɛnea ɛbɛyɛ a ɛho renhia sɛ validating nodes pii di nkitaho wɔ rounds pii mu ne adanse biara. 
+SNARKS ho wɔ mfaso bere a verifiers pii ho hia te sɛ blockchain te sɛ Zcash anaa zk-Rollup te sɛ [Aztec](https://docs.aztec.network) sɛnea ɛbɛyɛ a ɛho renhia sɛ validating nodes pii di nkitaho wɔ rounds pii mu ne adanse biara. 
 
 ## Ɔkwan bɛn so na wɔde zk-SNARK's di dwuma wɔ Zcash?
 

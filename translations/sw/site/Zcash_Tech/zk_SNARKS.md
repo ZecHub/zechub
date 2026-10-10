@@ -165,7 +165,7 @@ Usanidi Uwazi (Hakuna Usanidi Unaoaminika)- Algoriti ya usindikaji wa awali hait
 
 [GIZA](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[NYOTA](https://www.youtube.com/watch?v=wFZ_YIetK1o): Hakuna Usanidi Unaoaminika lakini hutoa uthibitisho mrefu kidogo au inaweza kuchukua muda mrefu kwa prover kufanya kazi. 
 
-SNARKS ni muhimu wakati vithibitishaji vingi vinahitajika kama vile blockchain kama Zcash au zk-Rollup kama vile [Azteki](https://docs.aztec.network) ili nodi nyingi zinazothibitisha zisilazimike kuingiliana katika raundi kadhaa na kila uthibitisho. 
+SNARKS ni muhimu wakati vithibitishaji vingi vinahitajika kama vile blockchain kama Zcash au zk-Rollup kama vile [Aztec](https://docs.aztec.network) ili nodi nyingi zinazothibitisha zisilazimike kuingiliana katika raundi kadhaa na kila uthibitisho. 
 
 ## zk-SNARK's zinatekelezwaje katika Zcash?
 

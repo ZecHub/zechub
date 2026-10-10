@@ -165,7 +165,7 @@ Transparent Setup (No Trusted Setup)- Preprocessing algorithm mezãa adzame rand
 
 [NYRƆ](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup gake ewɔa kpeɖodzi siwo didi vie alo ate ŋu axɔ ɣeyiɣi didi hafi prover naƒu du. 
 
-SNARKS ɖea vi ne wohiã kpeɖodzinu geɖewo abe blockchain abe Zcash alo zk-Rollup abe [Aztektɔwo ƒe ŋkɔ](https://docs.aztec.network) ale be mehiã be node geɖewo nawɔ nu aduadu le ƒoƒo geɖe me kple kpeɖodzi ɖesiaɖe o. 
+SNARKS ɖea vi ne wohiã kpeɖodzinu geɖewo abe blockchain abe Zcash alo zk-Rollup abe [Aztec](https://docs.aztec.network) ale be mehiã be node geɖewo nawɔ nu aduadu le ƒoƒo geɖe me kple kpeɖodzi ɖesiaɖe o. 
 
 ## Aleke wowɔa zk-SNARK's dɔwɔwɔ le Zcash?
 
