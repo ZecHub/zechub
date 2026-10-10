@@ -3,6 +3,7 @@
     "a16z",
     "Arborist Calls",
     "Argos",
+    "Aztec",
     "Backpack",
     "Bank of New York Mellon",
     "BazaarSwap",
@@ -123,6 +124,8 @@
     "Nativeswap",
     "NEAR Intents",
     "Nightcafe",
+    "Node.js",
+    "NodeJS",
     "NOWPayments",
     "NozyWallet",
     "NU5",
@@ -208,6 +211,7 @@
     "Twitter",
     "Unciphered",
     "Unified Address",
+    "Valar Group",
     "Viewing Key",
     "Vizor",
     "Vultisig",
@@ -283,13 +287,5 @@
       "zk-SNARK",
       "zk-SNARKs"
     ]
-  ],
-  "glossaryOnly": [
-    "token",
-    "chain",
-    "cross-chain",
-    "faucet",
-    "mining",
-    "miner"
   ]
 }

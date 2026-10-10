@@ -1,6 +1,6 @@
 {
   "locale": "id",
-  "version": 4,
+  "version": 5,
   "meta": {
     "language_name": "Indonesian",
     "native_name": "Bahasa Indonesia",
@@ -11,7 +11,7 @@
     "last_review": "2026-10-09"
   },
   "style": {
-    "variety": "Natural, fluent, standard Indonesian as used in Indonesian technical writing, not Malay.",
+    "variety": "natural, fluent, standard Indonesian as used in Indonesian technical writing, not Malay",
     "register": {
       "default": "anda",
       "rules": [
@@ -45,6 +45,10 @@
     },
     "english_in_brackets": "never",
     "loanwords": "keep-english",
+    "examples": {
+      "english_in_brackets": "no \"transaksi terlindungi (shielded)\"",
+      "capitalise_kept_english_at_sentence_start": "\"Proof ini …\", \"Pool terlindungi …\", \"Swap dapat …\""
+    },
     "capitalise_kept_english_at_sentence_start": true,
     "abbreviations_with_full_stop": [
       "dll",
@@ -161,6 +165,7 @@
         "Proof",
         "Proofs"
       ],
+      "context": "A cryptographic proof (zero-knowledge proof).",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
@@ -191,6 +196,7 @@
       "forms": [
         "transparan"
       ],
+      "context": "Addresses, transactions and the pool, including the pool name \"Transparent\" listed next to Sprout, Sapling and Orchard: \"alamat transparan\", \"pool Transparan\".",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
@@ -208,6 +214,7 @@
         "Exchange",
         "Exchanges"
       ],
+      "context": "A crypto exchange (a company or platform where coins are traded). In other senses (\"in exchange for\", \"key exchange\") translate exchange normally.",
       "applies_to": "both",
       "status": "approved",
       "notes": "Already familiar to the Indonesian crypto community",
@@ -2022,6 +2029,17 @@
         "Zkool Multisig"
       ],
       "summary": "Maintainer completion of the import's needs-maintainer items (mining, Tools / Privacy Tools, rows that disagreed in casing) and the reviewer's follow-up decisions: developer, dashboard, visualizer, use case, brand, treasury, top up kept in English; tools -> alat with Privacy Tools -> Tools Privasi."
+    },
+    {
+      "version": 5,
+      "date": "2026-10-10",
+      "terms": [
+        "exchange",
+        "proof",
+        "transparent"
+      ],
+      "phrases": [],
+      "summary": "Context restored from the pre-glossary prompt: exchange is kept in English only for a crypto exchange (other senses are translated); proof is the cryptographic proof; transparent covers the pool name \"Transparent\" too (a test run left it in English without this)."
     }
   ]
 }

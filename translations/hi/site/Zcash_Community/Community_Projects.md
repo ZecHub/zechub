@@ -175,6 +175,10 @@ Zcash lightwalletd नोडों के gRPC प्रतिक्रिया
 real-time Zcash network statistics और shielding metrics के लिए dashboard।  
 [देखें](https://zecstats.com)
 
+### ZecZcash
+स्वतंत्र Zcash डेटा, टूल्स और शोध साइट। इसमें एक एक्सप्लोरर, मार्केट और halving टूल्स, wallet गाइड्स और इकोसिस्टम समाचार शामिल हैं। यह ECC या Zcash Foundation से संबद्ध नहीं है।  
+[देखें](https://zeczcash.com/)
+
 ### zecprice
 Zcash market price performance के लिए tracking और data metrics टूल।  
 [देखें](https://zecprice.com)

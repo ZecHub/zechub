@@ -1,0 +1,57 @@
+{
+  "locale": "ar",
+  "version": 1,
+  "meta": {
+    "language_name": "Arabic",
+    "native_name": "العربية",
+    "engine": "llm",
+    "script": "Arab",
+    "dir": "rtl",
+    "language_lead": [],
+    "last_review": null
+  },
+  "style": {
+    "variety": "natural, fluent Modern Standard Arabic (RTL; keep Latin-script terms and URLs as-is inline)",
+    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Arabic usage; do not force awkward coinages."
+  },
+  "terms": {
+    "node": {
+      "target": "عقدة",
+      "forms": [
+        "عقدة",
+        "عقد"
+      ],
+      "rejected": [
+        {
+          "text": "node",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "nodes",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@steward (legacy prompt head)"
+      ],
+      "reviewed_at": "2026-10-10",
+      "source": "prompt_head_ar.txt"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-10-10",
+      "terms": [
+        "node"
+      ],
+      "phrases": [],
+      "summary": "Imported from the runner's hand-written prompt_head_ar.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    }
+  ]
+}

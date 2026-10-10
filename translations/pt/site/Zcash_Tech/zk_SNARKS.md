@@ -7,10 +7,10 @@
 ## TL;DR
 
 - **zk-SNARKs** = Argumentos de Conhecimento Sucintos Não Interativos de Conhecimento Zero
-- Elas permitem que uma parte **prove que sabe algo** sem revelar a própria informação
+- Eles permitem que uma parte **prove que sabe algo** sem revelar a própria informação
 - Zcash usa zk-SNARKs para provar que uma transação é válida (valores corretos, entradas não gastas) **sem revelar remetente, destinatário ou valor**
 - "Sucinto" significa que a prova é minúscula e rápida de verificar, mesmo para afirmações complexas
-- O pool Orchard usa Halo 2, um sistema zk-SNARK **sem necessidade de trusted setup**
+- O pool Orchard usa Halo 2, um sistema zk-SNARK **sem necessidade de uma configuração confiável**
 
 ---
 
@@ -159,11 +159,11 @@ Transparent Setup (No Trusted Setup)- O algoritmo de pré-processamento não usa
 
 **Tipos de construções de prova SNARK**:
 
-[Groth16](https://eprint.iacr.org/2016/260): Requer Trusted Setup, mas tem provas muito curtas que podem ser verificadas rapidamente.
+[Groth16](https://eprint.iacr.org/2016/260): Requer uma configuração de confiança, mas tem provas muito curtas que podem ser verificadas rapidamente.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universally Trusted Setup.
 
-[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): No Trusted Setup, mas produzem provas um pouco mais longas ou podem levar mais tempo para o provador executar. 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Não requerem uma configuração de confiança, mas produzem provas ligeiramente mais longas ou podem demorar mais tempo a ser executados pelo provador.
 
 SNARKS são úteis quando múltiplos verificadores são necessários, como em uma blockchain como Zcash ou um zk-Rollup como [Aztec](https://docs.aztec.network), para que múltiplos nós validadores não precisem interagir ao longo de várias rodadas com cada prova. 
 
@@ -179,7 +179,7 @@ Leia o [livro do Halo2](https://zcash.github.io/halo2/index.html) para mais info
 
 ## Outras Aplicações de Conhecimento Zero 
 
-zk-SNARKs oferecem várias vantagens em uma variedade de aplicações diferentes. Vamos ver alguns exemplos.
+zk-SNARKs proporcionam várias vantagens numa variedade de aplicações diferentes. Vejamos alguns exemplos.
 
 **Escalabilidade**: Isso é alcançado por meio de 'Terceirização da Computação'. Não há necessidade estrita de conhecimento zero para que uma cadeia L1 verifique o trabalho de um serviço off-chain. As transações não são necessariamente privadas em uma zk-EVM.
 
@@ -222,9 +222,9 @@ Aprendizado adicional:
 
 ## Páginas relacionadas
 
-- [Shielded Pools](/using-zcash/shielded-pools) — Como zk-SNARKs são usados nos pools de valor do Zcash
-- [Halo](/zcash-tech/halo) — O sistema zk-SNARK do Zcash que elimina trusted setups
+- [Pools Protegidos](/using-zcash/shielded-pools) — Como zk-SNARKs são usados nos pools de valor do Zcash
+- [Halo](/zcash-tech/halo) — O sistema zk-SNARK do Zcash que elimina configurações de confiança
 - [Segurança Pós-Quântica no Zcash](/zcash-tech/post-quantum-security) - Como riscos quânticos futuros se relacionam com a criptografia do Zcash
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs construídos sobre tecnologia zk-SNARK
-- [O que são ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Introdução ao Zcash e seu modelo de privacidade
-- [Privacidade como Princípio Fundamental](/start-here/who-can-see-your-zcash-payment) — Por que a privacidade financeira importa
+- [Zcash Ativos Protegidos](/zcash-tech/zcash-shielded-assets) — ZSAs construídos sobre a tecnologia zk-SNARK
+- [O que são ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Introdução ao Zcash e ao seu modelo de privacidade
+- [Quem Pode Ver o Seu Pagamento em Zcash?](/start-here/who-can-see-your-zcash-payment) — O que permanece público e o que a proteção oculta
