@@ -10,6 +10,7 @@ import {
   applicableEntries,
   legacyCoverage,
   legacyRejections,
+  looseHas,
   mapTermLine,
   PLACEHOLDERS,
   registerText,
@@ -144,9 +145,16 @@ test("terms are filtered to those whose English occurs in the text", () => {
   const g = fixGlossary();
   const r = renderPrompt({ template: TEMPLATE, glossary: g, termsEn: FIX_TERMS, relPath: "x.md", text: "Mining needs a pool." });
   assert.deepEqual(keys(r), ["term:mining", "term:pool"]);
-  // Word-bounded and case-sensitive, like every other term matcher.
-  const r2 = renderPrompt({ template: TEMPLATE, glossary: g, termsEn: FIX_TERMS, relPath: "x.md", text: "determining the carpool, MINING" });
+  // Word-bounded: no match inside another word.
+  const r2 = renderPrompt({ template: TEMPLATE, glossary: g, termsEn: FIX_TERMS, relPath: "x.md", text: "determining the carpool" });
   assert.deepEqual(keys(r2), []);
+  // Terms ignore case and treat hyphen and space alike: a term the page has
+  // must not be left out of its prompt.
+  const r2b = renderPrompt({ template: TEMPLATE, glossary: g, termsEn: FIX_TERMS, relPath: "x.md", text: "MINING ON A POOL" });
+  assert.deepEqual(keys(r2b), ["term:mining", "term:pool"]);
+  // Phrases stay exact.
+  const r2c = renderPrompt({ template: TEMPLATE, glossary: g, termsEn: FIX_TERMS, relPath: "x.md", text: "use zcash today" });
+  assert.deepEqual(keys(r2c), []);
   // Phrases match on their English key.
   const r3 = renderPrompt({ template: TEMPLATE, glossary: g, termsEn: FIX_TERMS, relPath: "x.md", text: "Use Zcash today" });
   assert.deepEqual(keys(r3), ["phrase:Use Zcash"]);
@@ -384,4 +392,12 @@ test("style examples are appended to their rule, and unknown example keys are re
   bad.style.examples = { numerals: "x" };
   const errs = validateLocale(bad, { termsEn: TERMS_EN, preserveVerbatim: PV, siteDirs: null, fileLocale: "id" });
   assert.ok(errs.some((e) => /unknown key "numerals"/.test(e.message)), JSON.stringify(errs));
+});
+
+test("looseHas: case and hyphen/space tolerant, still word-bounded", () => {
+  assert.ok(looseHas("viewing keys", "Share your Viewing Keys"));
+  assert.ok(looseHas("full node", "run a full-node"));
+  assert.ok(looseHas("light-client", "a light client"));
+  assert.ok(!looseHas("pool", "whirlpool"));
+  assert.ok(!looseHas("node", "nodes"));
 });

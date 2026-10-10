@@ -176,6 +176,10 @@ change while a translation sync is running: the sync refuses to push when
 - `match` lists the English forms to look for. Matching is case-sensitive and
   whole-word. Forms are listed, never guessed: a tool that stripped a final
   "s" would treat `Argos` as `Argo`.
+  The prompt filter (which terms go into a page's prompt) is looser on
+  purpose: it ignores case and treats a hyphen and a space alike, so
+  "Viewing Keys" and "full-node" still bring their terms into the prompt.
+  Phrases match exactly.
 - `category` is `concept`, `protocol`, `ui` or `style-word`.
 - `default_policy` (`translate` or `keep-english`) is only a suggestion shown
   to the first reviewer of a new language.

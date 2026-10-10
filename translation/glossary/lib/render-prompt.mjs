@@ -124,6 +124,22 @@ export function termLine(item, byId) {
   return tail ? `${sentence(line)}${tail}` : line;
 }
 
+// The prompt filter errs towards including a term: a term the page has but the
+// prompt leaves out costs translation quality, an extra line costs nothing.
+// So it ignores case ("Viewing Keys", "MINER") and treats a hyphen and a space
+// as the same ("full-node", "light client"). The strict englishHas() stays the
+// matcher for the checks, and for phrases (exact titles and labels).
+const looseCache = new Map();
+export function looseHas(form, text) {
+  let re = looseCache.get(form);
+  if (!re) {
+    const body = form.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/[- ]/g, "[- ]");
+    re = new RegExp(`(?<![A-Za-z0-9])${body}(?![A-Za-z0-9])`, "i");
+    looseCache.set(form, re);
+  }
+  return re.test(text);
+}
+
 /**
  * The approved entries that apply to this call, in file order (terms, then
  * phrases). `text` is the English the prompt is for (the page, or one block);
@@ -140,7 +156,9 @@ export function applicableEntries(glossary, termsEn, { text = null, ui = false }
     if (e?.status !== "approved") return false;
     if (!where.includes(e.applies_to)) return false;
     if (text == null) return true;
-    return englishFormsOf(item, byId).some((f) => englishHas(f, text));
+    // Phrases are titles and labels: they match exactly, as written.
+    const has = item.kind === "phrase" ? englishHas : looseHas;
+    return englishFormsOf(item, byId).some((f) => has(f, text));
   });
 }
 
