@@ -14013,6 +14013,14 @@
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
+    },
+    "Zcash_Tech/Shielded_Coinholder_Voting.md": {
+      "src": "sha256:8dc9e5c5ab4e39899ef3ad8c4b41002a4e07a9d4eb1c6da01d801adc23302b18",
+      "src_commit": "54bac9d8810d7f78a7f2b34949a04c0ea295f51a",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
     }
   },
   "ig": {
