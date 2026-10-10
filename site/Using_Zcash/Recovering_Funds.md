@@ -134,7 +134,7 @@ Least Authority [audited](https://argos.sovright.com/assets/least-authority-argo
 1. Download the desktop app from the [official Argos site](https://argos.sovright.com) or the [GitHub releases page](https://github.com/sovright/argos/releases). Verify checksums or signatures when they are published.
 2. Use the current Argos release. As of September 18, 2026, **v1.3.0** is current and preferred. Use **v1.2.0 or later for `wallet.dat` and Sprout recovery**. Builds older than 1.1.0 can still scan but construct pre-Ironwood sweeps that the network rejects; update and retry.
 3. Work on a machine you trust. Prefer full-disk encryption. Do not screen-share while a seed, passphrase, or spending key is visible.
-4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.app/). Confirm the address in that wallet before you paste it into Argos.
+4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://www.zodl.app/). Confirm the address in that wallet before you paste it into Argos.
 
 ### Seed recovery
 

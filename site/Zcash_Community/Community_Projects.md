@@ -271,7 +271,7 @@ Cooperative, bottom-up business organization model built on Zcash.
 
 ### ZK Global Credit
 Zcash-native credit and voting infrastructure for selective disclosure, settlement readiness, cross-border reputation, and shielded governance.  
-[Visit](https://voting.zkglobalcredit.tech/)
+[Visit](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Tool for anonymous content creation and private donations powered by Zcash.  
