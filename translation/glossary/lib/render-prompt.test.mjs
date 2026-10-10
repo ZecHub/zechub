@@ -1,6 +1,6 @@
 import { strict as assert } from "node:assert";
 import { execFileSync, spawnSync } from "node:child_process";
-import { mkdtempSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdtempSync, readdirSync, readFileSync, symlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { test } from "node:test";
@@ -400,4 +400,13 @@ test("looseHas: case and hyphen/space tolerant, still word-bounded", () => {
   assert.ok(looseHas("light-client", "a light client"));
   assert.ok(!looseHas("pool", "whirlpool"));
   assert.ok(!looseHas("node", "nodes"));
+});
+
+test("the CLI prints the prompt when its path has a space or goes through a symlink", () => {
+  const d = mkdtempSync(join(tmpdir(), "rp cli ü-"));
+  const link = join(d, "w t");
+  symlinkSync(ROOT, link);
+  const out = execFileSync("node", [join(link, "translation/glossary/render-prompt.mjs"), "id", "guides/Brave_Wallet_Guide.md"], { encoding: "utf8" });
+  assert.match(out, /viewing key → viewing key/);
+  assert.match(out, /"kamu"/);
 });
