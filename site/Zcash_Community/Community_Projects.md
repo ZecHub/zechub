@@ -301,6 +301,10 @@ AI platform that provides access to multiple leading AI models while supporting 
 A peer-to-peer poker platform that combines end-to-end encryption, mental poker, and Zcash privacy technology. It is designed so that the operator does not need to know players' cards or directly hold the betting funds.  
 [Visit](https://zkbtc.org/)
 
+### ZKöy
+A Werewolf-style party game for groups in the same room. Players join from their phones; every night choice and vote is sealed as a shielded memo on Zcash testnet, and when the game ends the seed, salt and viewing key are revealed so anyone can check the result on-chain.  
+[Visit](https://zkoy.fun)
+
 ---
 
 ## Organizations & Labs
