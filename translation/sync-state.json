@@ -13949,6 +13949,14 @@
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
+    },
+    "Zcash_Tech/Z3_Stack.md": {
+      "src": "sha256:97203c28b839f286721749d6ecb546f78eba88a8ff3b5f0238ee835191021de8",
+      "src_commit": "df227acb3a9bf8b633cb3fa07c70cc97d2ae52d9",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
     }
   },
   "ig": {
