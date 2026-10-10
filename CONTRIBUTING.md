@@ -4,8 +4,6 @@
 
 If you're reading this page, we're really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.xyz](https://www.zechub.xyz/) and other ZecHub social media :sparkles:
 
-<!-- TODO: We need to have a CoC -->
-<!-- Read our [Code of Conduct](/CODE_OF_CONDUCT.md) to keep our community approachable and respectable. -->
 
 ## New contributors
 
@@ -28,6 +26,29 @@ First, join the conversation in the [Zcash Global discord](https://discord.gg/zc
 ## Style guides
 
 Any contribution to ZecHub should follow the [ZecHub style guide](site/contribute/Style_Guide.md). This includes wikis, docs and social media contents.
+
+## Contribution and moderation rules
+
+ZecHub is an open-source education project. Contributions should be accurate,
+properly sourced, respectful, and consistent with the project's style and
+licensing requirements.
+
+When contributing to ZecHub:
+
+- Do not plagiarize or misattribute another person's work.
+- Do not knowingly submit misleading, fabricated, or malicious technical content.
+- Do not publish another person's private information, impersonate others, or make threats.
+- Disagree with the work or technical claim, not the person.
+- Follow the [ZecHub style guide](site/contribute/Style_Guide.md) and the repository's [license](/LICENSE).
+- Bounty and documentation submissions must meet their stated acceptance criteria and be of sufficient quality for publication.
+
+Maintainers may request changes, reject or close contributions that do not meet
+these requirements, and restrict repository participation when necessary to
+protect the project or its contributors.
+
+For sensitive moderation concerns, do not post private information publicly.
+Contact @dismad or @tokidoki directly using the project's existing maintainer
+communication channels.
 
 ## Ways you can contribute
 
