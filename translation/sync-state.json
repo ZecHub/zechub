@@ -13941,6 +13941,14 @@
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
+    },
+    "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
+      "src": "sha256:c991b5f313e30be2bb7858f614bf86fe3ddeb79fc63eccc645c7da1b75650b55",
+      "src_commit": "d1a8513f15ab90153df44efe1c9fcdeeaacdf24b",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
     }
   },
   "ig": {
