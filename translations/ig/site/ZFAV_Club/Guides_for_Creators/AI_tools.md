@@ -48,7 +48,7 @@ banye na X, Google, Discord, Telegram
 - [Ọdụ Midjourney](https://discord.com/invite/midjourney) na Discord - site na $10/ọnwa - [Nduzi Mmalite](https://docs.midjourney.com/docs/quick-start)
 nwere ike inweta ihe dị ka ọgbọ 100 n'efu site n'inye ọtụtụ ndị ọzọ ọkwa [foto dị n'ebe a](https://www.midjourney.com/app/rank-pairs/)
 (ga-erute n'elu ndị na-enyocha ọkwa 2000 - ihe dị ka nkeji iri na ise nke foto ọkwa)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/ọgbọ 115 - (ọgbọ 15 n'efu/ọnwa)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/ọgbọ 115 - (ọgbọ 15 n'efu/ọnwa)
 - [DALL-E 3](https://openai.com/dall-e-3/) - gụnyere na ChatGPT-4 - $20/ọnwa
 - [Onye Okike Kafe N'abalị](https://creator.nightcafe.studio/) (Ọgbọ anọ n'efu, ụgwọ na-amalite $6/ọnwa)
 
@@ -82,7 +82,7 @@ nwere ike inweta ihe dị ka ọgbọ 100 n'efu site n'inye ọtụtụ ndị �
 
 ### Mmepụta olu
 
-- [egwuregwu.ht](https://play.ht/) - n'efu - (ndebanye aha site na $39/ọnwa)
+- [egwuregwu.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - n'efu - (ndebanye aha site na $39/ọnwa)
 - [ElevenLabs](https://elevenlabs.io/) - n'efu - (ndebanye aha site na $5/ọnwa)
 - [Murf](https://murf.ai/) - n'efu - (ndebanye aha site na $29/ọnwa)
 - [Resemble](https://www.resemble.ai/) - nwaa n'efu (mgbe $0.006 kwa sekọnd gasịrị)

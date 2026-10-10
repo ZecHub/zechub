@@ -68,7 +68,7 @@ IPFS のファイルは *コンテンツアドレッシング* を使用して�
 
 **hash** = 前のステップで追加したフォルダーの CID
 
-または、[Pinata](https://pinata.cloud/) や [Dolpin](https://dolpin.io/) のようなサービスを使用してディレクトリをピン留めすることもできます。
+または、[Pinata](https://pinata.cloud/) や [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/) のようなサービスを使用してディレクトリをピン留めすることもできます。
 
 これは非常に時間を節約します！
 

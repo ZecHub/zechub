@@ -69,7 +69,7 @@ Si usas la terminal, ejecuta el comando: Si usas la terminal, ejecuta el comando
 
 **hash** = CID de la carpeta que agregaste en el paso anterior.
 
-Como alternativa, también puedes fijar directorios usando servicios como [Pinata](https://pinata.cloud/) o [Dolpin](https://dolpin.io/)
+Como alternativa, también puedes fijar directorios usando servicios como [Pinata](https://pinata.cloud/) o [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 ¡Ahorra mucho tiempo!
 

@@ -69,7 +69,7 @@ IPFS (InterPlanetary File System) — це peer-to-peer протокол і ме
 
 **hash** = CID папки, яку ви додали на попередньому кроці.
 
-Альтернативно ви також можете закріплювати директорії за допомогою таких сервісів, як [Pinata](https://pinata.cloud/) або [Dolpin](https://dolpin.io/)
+Альтернативно ви також можете закріплювати директорії за допомогою таких сервісів, як [Pinata](https://pinata.cloud/) або [Dolpin](https://web.archive.org/web/20260204211533/https://dolpin.io/)
 
 Це заощаджує багато часу!
 

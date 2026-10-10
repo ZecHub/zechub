@@ -48,7 +48,7 @@ wọlé pẹ̀lú X, Google, Discord, Telegram
 - [Midjourney Bot](https://discord.com/invite/midjourney) nínú Discord - láti $10/osù - [Ìtọ́sọ́nà Ìbẹ̀rẹ̀](https://docs.midjourney.com/docs/quick-start)
 le gba nipa awọn iran ọfẹ 100 nipa idiyele ọpọlọpọ awọn miiran [awọn aworan nibi](https://www.midjourney.com/app/rank-pairs/)
 (ó yẹ kí o dé orí àwọn olùdánwò 2000 tó ga jùlọ - nǹkan bí ìṣẹ́jú mẹ́ẹ̀ẹ́dógún àwọn àwòrán ìdíyelé)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 iran - (iran 15/osu ọfẹ)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 iran - (iran 15/osu ọfẹ)
 - [DALL-E 3](https://openai.com/dall-e-3/) - ti o wa ninu ChatGPT-4 - $20/osù
 - [Olùdá ilé ìtura alẹ́](https://creator.nightcafe.studio/) (Ìran mẹ́rin lọ́fẹ̀ẹ́, owó bẹ̀rẹ̀ láti $6/oṣù)
 
@@ -82,7 +82,7 @@ le gba nipa awọn iran ọfẹ 100 nipa idiyele ọpọlọpọ awọn miiran [
 
 ### Ṣiṣẹda ohun
 
-- [play.ht](https://play.ht/) - ọfẹ - (igbasilẹ lati $39/osù)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - ọfẹ - (igbasilẹ lati $39/osù)
 - [ElevenLabs](https://elevenlabs.io/) - ọfẹ - (igbasilẹ lati $5/osù)
 - [Murf](https://murf.ai/) - ọfẹ - (igbasilẹ lati $29/osù)
 - [Resemble](https://www.resemble.ai/) - gbìyànjú lọ́fẹ̀ẹ́ (lẹ́yìn $0.006 fún ìṣẹ́jú-àáyá kan)

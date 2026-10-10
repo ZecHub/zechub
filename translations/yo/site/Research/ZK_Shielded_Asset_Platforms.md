@@ -15,7 +15,7 @@ published: 2024-01-12
 Láti lo Firn, fi ETH sínú ìlànà náà. Nígbà tí o bá ní ìwọ̀n owó Firn, o lè gbé owó lọ sí àwọn olùlò Firn mìíràn ní ìkọ̀kọ̀, tàbí kí o bá àwọn ìlànà mìíràn mu, bíi Uniswap. O tún lè yọ owó padà sí nẹ́tíwọ́ọ̀kì ní ìkọ̀kọ̀. Firn gba owó díẹ̀, ti 0.79%, lórí gbogbo ETH pẹ̀lú ìfàsẹ́yìn. A máa ń san owó wọ̀nyí ní ìbámu pẹ̀lú iye tí ó wà fún àwọn tí ó ni Firn Token - [Ìwé funfun](https://firn.cash/whitepaper.pdf) 
 
 
-**[Ìbọn RÍLÍŃTÌ](https://railgun.org/):** Gẹ́gẹ́ bí àdéhùn ọlọ́gbọ́n onípele-1, Railgun wà láti jẹ́ ìyípadà àdáni àti ètò DeFi nítorí wíwà rẹ̀ láti ọwọ́ Ethereum, Polygon, Binance Smart Chain, àti Arbitrum.
+**[Ìbọn RÍLÍŃTÌ](https://railgun.org/):** Gẹ́gẹ́ bí àdéhùn ọlọ́gbọ́n onípele-1, RAILGUN wà láti jẹ́ ìyípadà àdáni àti ètò DeFi nítorí wíwà rẹ̀ láti ọwọ́ Ethereum, Polygon, Binance Smart Chain, àti Arbitrum.
 Ṣètò àpò RAILGUN tí kìí ṣe ti àkóso rẹ, dáàbò bo èyíkéyìí àmì ERC-20 sí àdírẹ́sì 0zk tí o bá fẹ́. Nígbà tí a bá ti dáàbò bò ó, a ó fi àmì, ìwọ̀nba, àti ìṣòwò pamọ́ - [Ìwé funfun](https://docs.railgun.org/wiki) 
 
 
@@ -24,7 +24,7 @@ Láti lo Firn, fi ETH sínú ìlànà náà. Nígbà tí o bá ní ìwọ̀n ow�
 
 **[Nẹ́ẹ̀tìwọ́ọ̀kì Manta](https://www.manta.network/):** Ìpamọ́ Lórí Ẹ̀wọ̀n fún Wẹ́ẹ̀bù 3, DeFi àti bẹ́ẹ̀ bẹ́ẹ̀ lọ. Manta Atlantic, ẹ̀wọ̀n ZK L1 tó yára jùlọ, mú ìpamọ́ tó ṣeé ṣètò wá sí web3 nípasẹ̀ ìpamọ́ àti ìdámọ̀ lórí ẹ̀wọ̀n tó báramu. $MANTA ní ìpèsè tó dúró ṣinṣin tó 1,000,000,000 láìsí ìṣètò ìfàsẹ́yìn. A ó jó àwọn àmì $MANTA láìfọwọ́sí nígbà tí a bá ti rà wọ́n padà - [Ìwé funfun](https://docs.manta.network/) 
 
-**[Boltz](https://boltz.exchange/):** Boltz jẹ́ ojútùú Layer 2. Boltz jẹ́ ìpamọ́ àkọ́kọ́, tí kìí ṣe ti ìpamọ́ bitcoin tí a ṣe láti so àwọn ìpele Bitcoin tó yàtọ̀ síra pọ̀ mọ́ àwọn ìpele bíi nẹ́tíwọ́ọ̀kì omi àti mànàmáná. Pẹ̀lú Boltz, àwọn olùlò lè yí bitcoin wọn padà láàárín àwọn ìpele láìsí ìṣòro. Àwọn Swaps Boltz kìí ṣe ti ìpamọ́, èyí tí ó túmọ̀ sí wípé àwọn olùlò lè ní ìdánilójú nígbà gbogbo láti wà ní ìdarí pípé ti bitcoin wọn ní gbogbo ìṣàn pàṣípààrọ̀ kan. [Ìwé funfun](https://docs.boltz.exchange/en/latest/) 
+**[Boltz](https://web.archive.org/web/20260820131421/https://boltz.exchange/):** Boltz jẹ́ ojútùú Layer 2. Boltz jẹ́ ìpamọ́ àkọ́kọ́, tí kìí ṣe ti ìpamọ́ bitcoin tí a ṣe láti so àwọn ìpele Bitcoin tó yàtọ̀ síra pọ̀ mọ́ àwọn ìpele bíi nẹ́tíwọ́ọ̀kì omi àti mànàmáná. Pẹ̀lú Boltz, àwọn olùlò lè yí bitcoin wọn padà láàárín àwọn ìpele láìsí ìṣòro. Àwọn Swaps Boltz kìí ṣe ti ìpamọ́, èyí tí ó túmọ̀ sí wípé àwọn olùlò lè ní ìdánilójú nígbà gbogbo láti wà ní ìdarí pípé ti bitcoin wọn ní gbogbo ìṣàn pàṣípààrọ̀ kan. [Ìwé funfun](https://docs.boltz.exchange/en/latest/) 
 
 
 **[ShadeProtocol](https://shadeprotocol.io/)**: Shade Protocol jẹ́ àkójọpọ̀ àwọn ohun èlò DeFi tí ó ní ìpamọ́ tí a so pọ̀ tí a kọ́ sórí Secret Network. Àwọn ohun èlò pàtàkì wọ̀nyí ni stablecoins, governance, bonds, staking derivatives, insurance, synthetics, lending, DEXs, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ - [Ìwé funfun]
@@ -48,7 +48,7 @@ Fún àpẹẹrẹ, ronú nípa àkójọ NFT lórí Solana; gbogbo ènìyàn l�
 ***
 
 
- **[FairySwap](https://fairyswap.finance/)**: FairySwap jẹ́ ìpamọ́ DEX ti ìran tuntun, tí àwùjọ ń darí, tí ó jẹ́ ti Layer 1, tí ó sì jẹ́ ti àdánidá láti jẹ́ aláìgbàṣẹ àti aláìṣeédá. Nípa lílo ìmọ̀-ẹ̀rọ ìdánilójú ìmọ̀-òdodo tí a kọ́ sínú Findora, àwọn DEX ìpamọ́, àti Dapps bíi FairySwap fún àwọn olùlò ní agbára láti yan ìwífún tí wọ́n fẹ́ kí ó hàn lórí blockchain gbogbogbòò, àti ohun tí wọ́n fẹ́ dáàbò bò. Ìwífún tí wọ́n fẹ́ kí ó jẹ́ àìrí ni a ṣì lè fi ẹ̀rí hàn ní gbangba pẹ̀lú ẹ̀rí ìmọ̀-òdodo láìsí ìfihàn àwọn kúlẹ̀kúlẹ̀ kankan - **Ìyípadà Ohun-ìní**: Bẹ́ẹ̀ni - [Ìwé funfun](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+ **[FairySwap](https://web.archive.org/web/20240810094007/https://fairyswap.finance/)**: FairySwap jẹ́ ìpamọ́ DEX ti ìran tuntun, tí àwùjọ ń darí, tí ó jẹ́ ti Layer 1, tí ó sì jẹ́ ti àdánidá láti jẹ́ aláìgbàṣẹ àti aláìṣeédá. Nípa lílo ìmọ̀-ẹ̀rọ ìdánilójú ìmọ̀-òdodo tí a kọ́ sínú Findora, àwọn DEX ìpamọ́, àti Dapps bíi FairySwap fún àwọn olùlò ní agbára láti yan ìwífún tí wọ́n fẹ́ kí ó hàn lórí blockchain gbogbogbòò, àti ohun tí wọ́n fẹ́ dáàbò bò. Ìwífún tí wọ́n fẹ́ kí ó jẹ́ àìrí ni a ṣì lè fi ẹ̀rí hàn ní gbangba pẹ̀lú ẹ̀rí ìmọ̀-òdodo láìsí ìfihàn àwọn kúlẹ̀kúlẹ̀ kankan - **Ìyípadà Ohun-ìní**: Bẹ́ẹ̀ni - [Ìwé funfun](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKsync](https://zksync.io/)**: ZKsync jẹ́ ojutu iwọn Layer 2 lori Ethereum ti o funni ni gaasi kekere ati awọn iṣowo iyara, laisi ibajẹ lori aabo. Awọn eniyan le yọ awọn ohun-ini kuro si Layer 1 nigbakugba. Lati wọle si gbogbo eto-aye ZKsync ati lati ni anfani lati awọn iṣowo olowo poku ati lẹsẹkẹsẹ, o nilo akọkọ [àpò owó bíi ti Argent](https://argent.link/zksync)Láìsí àpò owó, o kò lè wọ inú nẹ́tíwọ́ọ̀kì náà nítorí pé kò ṣeé ṣe láti wọ ZKsync nípasẹ̀ pàṣípààrọ̀ bíi Coinbase tàbí Binance. Àwọn àpò owó fún ọ ní ọ̀nà tó rọrùn láti ra, tà, àti tọ́jú owó crypto àti láti ní ìrírí ayé amóríyá ti DeFi, NFTs, àti ọ̀pọ̀lọpọ̀ míràn - **Ìyípadà Ohun Èlò**: Bẹ́ẹ̀ni - [Ìwé funfun](https://docs.zksync.io/) - ![ZKsync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)

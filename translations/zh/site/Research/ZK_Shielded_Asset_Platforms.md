@@ -15,7 +15,7 @@ published: 2024-01-12
 要使用 Firn，请将 ETH 存入该协议。一旦你拥有 Firn 余额，就可以私密地向其他 Firn 用户转账，或与其他协议交互，例如 Uniswap。你也可以私密地将资金提现回网络。Firn 对所有 ETH 提现收取 0.79% 的小额手续费。这些费用会按比例分配给 Firn Token 持有者 - [白皮书](https://firn.cash/whitepaper.pdf)
 
 
-**[RAILGUN](https://railgun.org/):** 作为一层智能合约，Railgun 是一种私密转账和 DeFi 基础设施，其存在依托于 Ethereum、Polygon、Binance Smart Chain 和 Arbitrum。
+**[RAILGUN](https://railgun.org/):** 作为一层智能合约，RAILGUN 是一种私密转账和 DeFi 基础设施，其存在依托于 Ethereum、Polygon、Binance Smart Chain 和 Arbitrum。
 设置你的非托管 RAILGUN Wallet，将任意 ERC-20 token 屏蔽到你选择的 0zk 地址中。一旦完成屏蔽，token、余额和交易都会被加密  - [白皮书](https://docs.railgun.org/wiki) 
 
 
@@ -24,7 +24,7 @@ published: 2024-01-12
 
 **[Manta Network](https://www.manta.network/):** 面向 Web 3、DeFi 等领域的链上隐私。Manta Atlantic 是速度最快的 ZK L1 链，通过合规的链上隐私和身份功能将可编程隐私带入 web3。$MANTA 的固定总供应量为 1,000,000,000，没有通胀计划。$MANTA token 会在被赎回时立即自动销毁 - [白皮书](https://docs.manta.network/) 
 
-**[Boltz](https://boltz.exchange/):**  Boltz 是一种 Layer 2 解决方案。Boltz 是一家以隐私为先、非托管的 bitcoin 交易所，旨在连接 Bitcoin 的不同层，例如 liquid 和 lightning network。借助 Boltz，用户可以在不同层之间无缝交换他们的 bitcoin。Boltz Swaps 是非托管的，这意味着在整个交换流程中，用户始终可以完全掌控自己的 bitcoin  [白皮书](https://docs.boltz.exchange/en/latest/) 
+**[Boltz](https://web.archive.org/web/20260820131421/https://boltz.exchange/):**  Boltz 是一种 Layer 2 解决方案。Boltz 是一家以隐私为先、非托管的 bitcoin 交易所，旨在连接 Bitcoin 的不同层，例如 liquid 和 lightning network。借助 Boltz，用户可以在不同层之间无缝交换他们的 bitcoin。Boltz Swaps 是非托管的，这意味着在整个交换流程中，用户始终可以完全掌控自己的 bitcoin  [白皮书](https://docs.boltz.exchange/en/latest/) 
 
 
 **[ShadeProtocol](https://shadeprotocol.io/)**：Shade Protocol 是构建在 Secret Network 上的一组互联的 Layer-2 隐私保护型 DeFi 应用。这些核心应用包括稳定币、治理、债券、质押衍生品、保险、合成资产、借贷、DEX 等  - [白皮书]
@@ -48,7 +48,7 @@ published: 2024-01-12
 ***
 
 
-**[FairySwap](https://fairyswap.finance/)**：FairySwap 是一个 Layer 1 新一代、社区驱动的隐私 DEX，致力于实现无需许可和去中心化。通过利用内置于 Findora 中的零知识证明技术，像 FairySwap 这样的隐私 DEX 和 Dapps 让用户能够选择哪些信息希望在公共区块链上可见，哪些信息更希望被屏蔽。那些他们希望不可见的信息仍然可以通过零知识证明进行公开验证，而无需披露任何细节 - **资产交换**：是 - [白皮书](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+**[FairySwap](https://web.archive.org/web/20240810094007/https://fairyswap.finance/)**：FairySwap 是一个 Layer 1 新一代、社区驱动的隐私 DEX，致力于实现无需许可和去中心化。通过利用内置于 Findora 中的零知识证明技术，像 FairySwap 这样的隐私 DEX 和 Dapps 让用户能够选择哪些信息希望在公共区块链上可见，哪些信息更希望被屏蔽。那些他们希望不可见的信息仍然可以通过零知识证明进行公开验证，而无需披露任何细节 - **资产交换**：是 - [白皮书](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
 ***
 
 **[ZKsync](https://zksync.io/)**：ZKsync 是 Ethereum 上的 Layer 2 扩容解决方案，提供低 gas 费和快速交易，同时不牺牲安全性。用户可以随时将资产提取回 Layer 1。要访问整个 ZKsync 生态系统并受益于低廉且即时的交易，你首先需要一个 [像 Argent 这样的 wallet](https://argent.link/zksync)。如果没有 wallet，你将无法加入该网络，因为无法通过 Coinbase 或 Binance 等交易所访问 ZKsync。Wallet 为你提供了一种简单方式来购买、出售和存储 crypto，并体验令人兴奋的 DeFi、NFT 以及更多内容 - **资产交换**：是 - [白皮书](https://docs.zksync.io/) - ![ZKsync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)

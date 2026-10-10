@@ -48,7 +48,7 @@ ge ɖe eme kple X, Google, Discord, Telegram
 - [Midjourney Bot](https://discord.com/invite/midjourney) le Discord me - tso $10/ɣleti - [Dze egɔme Mɔfiame](https://docs.midjourney.com/docs/quick-start)
 ate ŋu axɔ dzidzime siwo ade 100 siwo le ablɔɖe me to dzidzedzekpɔkpɔ na ame bubu geɖe me [nɔnɔmetatawo le afisia](https://www.midjourney.com/app/rank-pairs/)
 (ele be wòaɖo top2000 raters - abe miniti 15 ƒe rating fotowo)
-- [DALL-E 2. Ƒe 1999 me](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 dzidzimewo - (femaxee dzidzime 15/ɣleti)
+- [DALL-E 2. Ƒe 1999 me](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 dzidzimewo - (femaxee dzidzime 15/ɣleti)
 - [DALL-E 3. Ƒe 1999 me](https://openai.com/dall-e-3/) - le ChatGPT-4 me - $20/ɣleti
 - [Zãmodzakaɖeƒe Wɔla](https://creator.nightcafe.studio/) (Ddzidzime 4 femaxee, fetu dzea egɔme tso $6/ɣleti)
 
@@ -82,7 +82,7 @@ ate ŋu axɔ dzidzime siwo ade 100 siwo le ablɔɖe me to dzidzedzekpɔkpɔ na a
 
 ### Gbe ƒe dodo
 
-- [fefe.ht](https://play.ht/) - femaxee - (nudɔdɔ tso $39/ɣleti)
+- [fefe.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - femaxee - (nudɔdɔ tso $39/ɣleti)
 - [ElevenLabs](https://elevenlabs.io/) - femaxee - (nudɔdɔ tso $5/ɣleti)
 - [Murf ƒe ŋkɔ](https://murf.ai/) - femaxee - (nudɔdɔ tso $29/ɣleti)
 - [Resemble](https://www.resemble.ai/) - dze agbagba femaxee (le $0.006 le sɛkɛnd ɖeka me megbe)

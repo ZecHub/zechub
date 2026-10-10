@@ -48,7 +48,7 @@
 - [Midjourney Bot](https://discord.com/invite/midjourney) 在 Discord 中使用 - $10/月起 - [入门指南](https://docs.midjourney.com/docs/quick-start)  
 如果给很多其他人的[这里的图片](https://www.midjourney.com/app/rank-pairs/)评分，可以获得大约 100 次免费生成  
 （必须进入评分者前 2000 名——大约需要 15 分钟给图片评分）
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 次生成 - （每月免费 15 次生成）
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 次生成 - （每月免费 15 次生成）
 - [DALL-E 3](https://openai.com/dall-e-3/) - 已包含在 ChatGPT-4 中 - $20/月
 - [Nightcafe Creator](https://creator.nightcafe.studio/)（免费 4 次生成，付费 $6/月起）
 
@@ -82,7 +82,7 @@
 
 ### 语音生成
 
-- [play.ht](https://play.ht/) - 免费 - （订阅 $39/月起）
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - 免费 - （订阅 $39/月起）
 - [ElevenLabs](https://elevenlabs.io/) - 免费 - （订阅 $5/月起）
 - [Murf](https://murf.ai/) - 免费 - （订阅 $29/月起）
 - [Resemble](https://www.resemble.ai/) - 可免费试用（之后每秒 $0.006）
