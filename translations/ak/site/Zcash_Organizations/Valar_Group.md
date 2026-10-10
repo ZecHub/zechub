@@ -6,7 +6,7 @@
 
 [Kɔ wɛbsaet hɔ](https://valargroup.dev/)
 
-<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
+<img width="200" height="200" alt="254678133" src="/content-images/0dc8c697-bcad-492a-b024-89b502d27af4-4c0d4552c2.webp" />
 
 
 ## Adwuma ho nkrataa
@@ -171,7 +171,7 @@ Valar Group yɛ nnwumakuw a wɔn ho nni mu wɔ protocol nhyehyɛe no bi na ɛgyi
 - *Project Tachyon* de n'adwene si nsesae, nhwehwɛ mu a wɔfa kwan so ne akyirikyiri tumi.
 - Valar Group de n'adwene si ankorankoro a wɔwɔ sika no so, wɔn dibea wɔ nkontaabu mu, PIR ne mfiri ho adwuma a ehia sɛ wɔyɛ ma saa nneɛma yi yɛ adwuma.
 
-Its distinctive contribution is making shielded governance operational. The NU7 vote is the first major use of that stack: holders prove Ironwood balances, wallets such as Zodl and Vizor can integrate the flow, and anyone can audit the tally without learning how a particular holder voted.
+Its distinctive contribution is making shielded governance operational. The NU7 vote is the first major use of that stack: holders prove Ironwood balances, wallets such as ZODL and Vizor can integrate the flow, and anyone can audit the tally without learning how a particular holder voted.
 
 Saa ara nso na, sɛ wallets ntumi nyɛ adwuma a, private voting yɛ mfasoɔ kakra. Valar Group bu governance, node software ne wallet infrastructure no sɛ ɔhaw baako: ma Zcash so tumi di dwuma wɔ amansan mu bere a wɔnnhyehyɛ adwumayɛfoɔ ahoɔden nyinaa wɔ ahyehyɛde biako pɛ mu.
 

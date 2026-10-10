@@ -413,7 +413,7 @@ Birden fazla agent, **ZIP-32 hesap rotasyonu** kullanarak aynı cüzdandan çal�
 
 ### Tamamen Korumalı Zcash İşlemleri (Orchard)
 
-Korumalı ödemeler, en yeni ve en güvenli korumalı havuz olan Zcash'ın **Orchard protokolünü** kullanır. Sunucu, harcama anahtarını açığa çıkarmadan alınan notların şifresini çözebilen bir **Incoming Viewing Key (IVK)** kullanarak ödemeleri doğrular. Yeniden oynatma saldırıları **memo bağlama** ile önlenir; her challenge, kriptografik olarak doğrulanan benzersiz bir `zimppy:{challenge_id}` memo'su içerir.
+Korumalı ödemeler, NU5 tarafından kullanıma sunulan korumalı havuz olan Zcash'ın **Orchard protokolünü** kullanır. Sunucu, harcama anahtarını açığa çıkarmadan alınan notların şifresini çözebilen bir **Incoming Viewing Key (IVK)** kullanarak ödemeleri doğrular. Yeniden oynatma saldırıları **memo bağlama** ile önlenir; her challenge, kriptografik olarak doğrulanan benzersiz bir `zimppy:{challenge_id}` memo'su içerir.
 
 ### Oturumlar , İstek Başına Sıfır Gecikme
 

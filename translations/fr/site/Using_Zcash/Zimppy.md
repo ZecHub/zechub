@@ -413,7 +413,7 @@ Plusieurs agents peuvent opérer depuis le même wallet grâce à la **rotation 
 
 ### Transactions Zcash entièrement protégées (Orchard)
 
-Les paiements protégés utilisent le **protocole Orchard** de Zcash, le pool protégé le plus récent et le plus sécurisé. Le serveur vérifie les paiements à l'aide d'une **Incoming Viewing Key (IVK)**, qui peut déchiffrer les notes reçues sans exposer la clé de dépense. Les attaques par rejeu sont empêchées grâce à la **liaison par mémo** : chaque challenge intègre un mémo unique `zimppy:{challenge_id}` qui est vérifié cryptographiquement.
+Les paiements protégés utilisent le **protocole Orchard** de Zcash, le pool protégé introduit par NU5. Le serveur vérifie les paiements à l'aide d'une **Incoming Viewing Key (IVK)**, qui peut déchiffrer les notes reçues sans exposer la clé de dépense. Les attaques par rejeu sont empêchées grâce à la **liaison par mémo** : chaque défi intègre un mémo unique `zimppy:{challenge_id}` qui est vérifié cryptographiquement.
 
 ### Sessions , aucune latence par requête
 

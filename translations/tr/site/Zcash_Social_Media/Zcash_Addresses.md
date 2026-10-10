@@ -93,7 +93,7 @@ Daira, Anchor konumlarını açıklıyor (zcon3):
 
 Bazı durumlarda (ör. havuzlar arası işlemler) miktarlar dışarıdan bir gözlemci tarafından görülebilir. Ancak `valueBalanceSapling` ve `valueBalanceOrchard`, shielded havuzlardaki toplam ZEC'i kanıtlamak ve sahteciliği önlemek için **homomorphic commitments** kullanır.
 
-Daha fazlasını okuyun: [Shielded Havuzlarda Sahteciliğe Karşı Savunma](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Daha fazlasını okuyun: [ZIP 209: Menzil Dışı Zincir Değer Havuzu Bakiyelerini Yasaklama](https://zips.z.cash/zip-0209)
 
 ---
 
@@ -105,7 +105,7 @@ ECC ekibi, `zcashd` içinde (`z_sendmany` yerine geçecek) yeni RPC yöntemleri 
 
 ## Tavsiye
 
-Bu ileti dizisi, başlangıçta gönder tuşuna basmadan önce gösterdiği işlem planı nedeniyle **Ywallet**'a yönlendiriyordu. Ywallet artık bakımı yapılmıyor ve Ironwood için güncellenmeyecek; dolayısıyla artık zinciri takip edemiyor. Bunun yerine [Cüzdanlar](https://zechub.wiki/wallets) sayfasından bakımı yapılan bir cüzdan seçin ve işleminiz gönderilmeden önce neleri açığa çıkaracağını size bildiren bir cüzdanı tercih edin.
+Bu ileti dizisi, başlangıçta gönder tuşuna basmadan önce gösterdiği işlem planı nedeniyle **YWallet**'a yönlendiriyordu. YWallet artık bakımı yapılmıyor ve Ironwood için güncellenmeyecek; dolayısıyla artık zinciri takip edemiyor. Bunun yerine [Cüzdanlar](https://zechub.wiki/wallets) sayfasından bakımı yapılan bir cüzdan seçin ve işleminiz gönderilmeden önce neleri açığa çıkaracağını size bildiren bir cüzdanı tercih edin.
 
 İşlem gizliliği üzerine harika makale: https://medium.com/@hanh.huynh/
 

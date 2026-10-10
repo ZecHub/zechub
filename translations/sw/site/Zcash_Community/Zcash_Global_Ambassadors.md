@@ -4,14 +4,14 @@
 
 # Mabalozi wa Zcash Global
 
-Programu ya Mabalozi Duniani hutambua wanajamii wanaotoa michango ya hali ya juu katika mfumo ikolojia wa Zcash na kuwawezesha kuwa viongozi. Mabalozi hukuza jumuiya ya Zcash, huchochea utumiaji wa watumiaji, na huendeleza uelewa wa teknolojia ya kuhifadhi faragha ya Zcash.
+Programu ya Mabalozi Duniani hutambua wanajamii wanaotoa michango ya hali ya juu katika mfumo ikolojia Zcash na kuwawezesha kuwa viongozi. Mabalozi hukuza jumuiya Zcash, huchochea utumiaji wa watumiaji, na huendeleza uelewa wa teknolojia ya kuhifadhi faragha Zcash's.
 
 ## Balozi hufanya nini?
 
 - Andaa matukio ya mkutano wa kimwili au mtandaoni
 - Dumisha uwepo hai kwenye mitandao ya kijamii na uunda maudhui asilia kuhusu Zcash
-- Tafsiri vifaa vya elimu vya Zcash katika lugha za wenyeji
-- Washa watumiaji na watengenezaji wapya kwenye mfumo ikolojia wa Zcash
+- Tafsiri vifaa vya elimu Zcash katika lugha za wenyeji
+- Washa watumiaji na watengenezaji wapya kwenye mfumo ikolojia Zcash
 - Wakilisha Zcash katika mikutano ya crypto na matukio ya jamii
 
 Mabalozi wana uhuru wa ubunifu katika shughuli wanazopanga, na hivyo kuwawezesha kurekebisha uhamasishaji kulingana na mazingira yao ya ndani.
@@ -20,7 +20,7 @@ Mabalozi wana uhuru wa ubunifu katika shughuli wanazopanga, na hivyo kuwawezesha
 
 ## Jumuiya za Mabalozi Wanaofanya Kazi (2026)
 
-| Mkoa | Jumuiya | Shughuli Muhimu |
+| Eneo | Jumuiya | Shughuli Muhimu |
 |--------|-----------|-------------|
 | Amerika Kusini | [Zcash katika Kihispania](https://x.com/zcashesp1) | Maudhui ya Kihispania, Klabu ya ZK AV, podikasti ya Zcast |
 | Brazili | [Zcash Brazil](https://x.com/zcashbrazil) | Warsha, mikutano, Jarida la Shielded |
@@ -31,7 +31,7 @@ Mabalozi wana uhuru wa ubunifu katika shughuli wanazopanga, na hivyo kuwawezesha
 | Afrika Mashariki | [Zcash Afrika Mashariki](https://x.com/ZcashEastAfrica) | Ukuaji wa jumuiya ya Afrika Mashariki na Uganda |
 | Afrika Kusini | [Zcash Afrika Kusini](https://twitter.com/Zcash_SA) | Afrika Kusini |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
-| Meksiko | [zcashqro](https://x.com/zcashqro) | Ufikiaji wa vyuo vikuu na uanzishaji wa wasanidi programu |
+| Meksiko | [Zcash Mexico](https://x.com/ZcashMx) | Ufikiaji wa vyuo vikuu na uanzishaji wa wasanidi programu |
 | Urusi | [ruZcash](https://x.com/ruZCASH) | Maudhui na jamii ya lugha ya Kirusi |
 | India | [Zcash India](https://x.com/ZcashIND) | Elimu ya msanidi programu na ukuaji wa jamii |
 | Korea | [Zcash Korea](https://x.com/zcashkorea) | Maudhui ya kielimu ya Kikorea |
@@ -39,6 +39,5 @@ Mabalozi wana uhuru wa ubunifu katika shughuli wanazopanga, na hivyo kuwawezesha
 ## Omba Kuwa Balozi
 
 Unaweza pia kushiriki kwa:
-- Kuchangia [Zawadi za ZEC](https://bounties.zechub.wiki/)
+- Kuchangia [ZEC Bounties](https://bounties.zechub.wiki/)
 - Kujiunga na [Discord Zcash Global](https://discord.gg/zcash)
-

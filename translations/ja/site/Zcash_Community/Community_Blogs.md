@@ -17,7 +17,6 @@
 | roomatemusing              | 考え事やコミュニティコンテンツ                      | [アクセス ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | Zcash開発およびツールに焦点を当てた技術ブログ        | [アクセス ->](https://blog.nerdbank.net/) |
 | ZecMec                     | Medium上でのZcashに特化した記事                   | [アクセス ->](https://zecmec21.medium.com/) |
-| Ian Sagstetter             | 詳細な記事とニュースレター                         | [アクセス ->](https://iansagstetter.substack.com/) |
 | Naomi Brockwell (NBTV)     | プライバシーに関する著名なインタビューおよびコンテンツ | [アクセス ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | 創造的でコミュニティ主導型のZcashコンテンツ          | [アクセス ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Zcashコア開発者による技術的な書き込み               | [アクセス ->](https://words.str4d.xyz/) |

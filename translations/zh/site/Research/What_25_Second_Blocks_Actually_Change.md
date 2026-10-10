@@ -16,6 +16,8 @@
 | 每个区块的屏蔽操作限制 | 无（仅有 2 MB 大小限制） | 总计 330 个，且各池设有上限 |
 | Orchard 吞吐量（2 操作交易） | 约每秒 2.9 笔 | 约每秒 6.6 笔 |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 区块数量变为三倍，每个区块的奖励为原来的三分之一。供应时间表保持不变。
 
 ## 为什么改变区块时间

@@ -21,13 +21,13 @@ Nu eve kplɔe ɖo:
 1. Blockwo va ɖona zi gbɔ zi eve abe zi gbɔ zi eve ene, eyata kɔsɔkɔsɔa ate ŋu atsɔ asitsatsa siwo ade zi gbɔ zi eve le ɣeyiɣi ɖeka me.
 2. Wò asitsatsa xɔa eƒe kpeɖodzi gbãtɔ kaba, elabena mèlalana ɣeyiɣi didi aɖeke na block si kplɔe ɖo o.
 
-![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Be woana gadodo nanɔ anyi ɖaa
 
 Block siwo le kabakaba wu fɔa nyabiase aɖe ɖe te. Ne Zcash wɔ block siwo sɔ gbɔ wu zi gbɔ zi eve eye block ɖesiaɖe gakpɔtɔ xe fetu ma ke la, network la awɔ ZEC kabakaba zi gbɔ zi eve. Blossom ƒoa asa na ema. Eɖe teƒeɖoɖo si woxena ɖe block ɖeka ta dzi kpɔtɔ afã, eye wòdzi block-reward ƒe afã ƒe dometsotso ɖe edzi zi gbɔ zi eve tso block 840,000 va ɖo 1,680,000 ([ZIP 208 ƒe xexlẽdzesi](https://zips.z.cash/zip-0208)). Block siwo sɔ gbɔ wu zi gbɔ zi eve, siwo dometɔ ɖesiaɖe xea afã kple afã, wɔa dɔ va ɖoa ZEC ƒe agbɔsɔsɔ si wowɔ le ɣeyiɣi ƒe akpa ɖeka me. Nusiwo woatsɔ ana ƒe ɖoɖowɔɖi bliboa kple ɣeyiɣi si woatsɔ aɖe afãwo dzi akpɔtɔ le etsɔme, si wodzidze le ɣeyiɣi ŋutɔŋutɔ me la metrɔ o.
 
-![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Dɔwɔwɔ ɖe edzi si wòle be woawɔ
 

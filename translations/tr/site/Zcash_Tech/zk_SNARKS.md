@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & ZK-SNARKS
+# ZKP & zk-SNARKs
 
 ## Kısaca
 
-- **ZK-SNARKs** = Sıfır-Bilgi Özlü Etkileşimsiz Bilgi Argümanları
+- **zk-SNARKs** = Sıfır-Bilgi Özlü Etkileşimsiz Bilgi Argümanları
 - Bir tarafın, bilginin kendisini ifşa etmeden **bir şeyi bildiğini kanıtlamasına** olanak tanırlar
-- Zcash, bir işlemin geçerli olduğunu (doğru miktarlar, harcanmamış girdiler) **göndereni, alıcıyı veya miktarı ifşa etmeden** kanıtlamak için ZK-SNARKs kullanır
+- Zcash, bir işlemin geçerli olduğunu (doğru miktarlar, harcanmamış girdiler) **göndereni, alıcıyı veya miktarı ifşa etmeden** kanıtlamak için zk-SNARKs kullanır
 - "Özlü" anlamına gelen "Succinct", karmaşık ifadeler için bile kanıtın çok küçük ve doğrulamasının hızlı olması demektir
-- Orchard havuzu, **güvenilir kurulum gerektirmeyen** bir ZK-SNARK sistemi olan Halo 2’yi kullanır
+- Orchard havuzu, **güvenilir kurulum gerektirmeyen** bir zk-SNARK sistemi olan Halo 2’yi kullanır
 
 ---
 
@@ -159,11 +159,11 @@ Güvenilir ama Evrensel Kurulum - Güvenilir kurulumu yalnızca bir kez çalış
 
 **SNARK kanıt yapısı türleri**:
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Güvenilir Kurulum gerektirir ancak çok kısa kanıtlara sahiptir ve hızlı doğrulanabilir.
+[Groth16](https://eprint.iacr.org/2016/260): Güvenilir Kurulum gerektirir ancak çok kısa kanıtlara sahiptir ve hızlı doğrulanabilir.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Evrensel Güvenilir Kurulum.
 
-[DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Güvenilir Kurulum gerektirmez ancak biraz daha uzun kanıtlar üretir veya ispatlayıcının çalışması daha uzun sürebilir. 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Güvenilir Kurulum gerektirmez ancak biraz daha uzun kanıtlar üretir veya ispatlayıcının çalışması daha uzun sürebilir. 
 
 SNARKS, Zcash gibi bir blockchain veya [Aztec](https://docs.aztec.network) gibi bir zk-Rollup gibi birden fazla doğrulayıcıya ihtiyaç duyulan durumlarda faydalıdır; böylece birden fazla doğrulayıcı düğümün her kanıt için birkaç tur boyunca etkileşim kurması gerekmez. 
 
@@ -179,7 +179,7 @@ Daha fazla bilgi için [Halo2 kitabını](https://zcash.github.io/halo2/index.ht
 
 ## Diğer Sıfır-Bilgi Uygulamaları 
 
-zk-SNARKS, çok çeşitli farklı uygulamalarda çeşitli avantajlar sunar. Şimdi bazı örneklere bakalım.
+zk-SNARKs, çok çeşitli farklı uygulamalarda çeşitli avantajlar sunar. Şimdi bazı örneklere bakalım.
 
 **Ölçeklenebilirlik**: Bu, "Hesaplamayı Dış Kaynağa Aktarma" ile sağlanır. Bir L1 zincirinin zincir dışı bir hizmetin yaptığı işi doğrulaması için sıfır-bilgiye kesin bir ihtiyaç yoktur. İşlemler bir zk-EVM üzerinde mutlaka özel değildir.
 
@@ -222,9 +222,9 @@ ____
 
 ## İlgili Sayfalar
 
-- [Shielded Pools](/using-zcash/shielded-pools) — ZK-SNARKs’in Zcash değer havuzlarında nasıl kullanıldığı
-- [Halo](/zcash-tech/halo) — Güvenilir kurulumları ortadan kaldıran Zcash ZK-SNARK sistemi
+- [Shielded Pools](/using-zcash/shielded-pools) — zk-SNARKs’in Zcash değer havuzlarında nasıl kullanıldığı
+- [Halo](/zcash-tech/halo) — Güvenilir kurulumları ortadan kaldıran Zcash zk-SNARK sistemi
 - [Zcash’te Post-Quantum Güvenlik](/zcash-tech/post-quantum-security) - Gelecekteki kuantum risklerinin Zcash kriptografisiyle ilişkisi
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZK-SNARK teknolojisi üzerine inşa edilmiş ZSA’lar
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — zk-SNARK teknolojisi üzerine inşa edilmiş ZSA’lar
 - [ZEC ve Zcash nedir](/start-here/what-is-zec-and-zcash) — Zcash ve onun mahremiyet modeline giriş
-- [Temel Bir İlke Olarak Mahremiyet](/privacy/privacy-as-a-core-principle) — Finansal mahremiyet neden önemlidir
+- [Temel Bir İlke Olarak Mahremiyet](/start-here/who-can-see-your-zcash-payment) — Finansal mahremiyet neden önemlidir

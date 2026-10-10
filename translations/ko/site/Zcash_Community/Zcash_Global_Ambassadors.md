@@ -31,7 +31,7 @@
 | 동아프리카 | [Zcash East Africa](https://x.com/ZcashEastAfrica) | 동아프리카, 우간다 커뮤니티 성장 |
 | 남아프리카 | [Zcash South Africa](https://twitter.com/Zcash_SA) | 남아프리카 |
 | 가나 | [Zcash Ghana](https://x.com/ZcashGH) | 가나 |
-| 멕시코 | [zcashqro](https://x.com/zcashqro) | 대학 홍보 및 개발자 온보딩 |
+| 멕시코 | [Zcash Mexico](https://x.com/ZcashMx) | 대학 홍보 및 개발자 온보딩 |
 | 러시아 | [ruZcash](https://x.com/ruZCASH) | 러시아어 콘텐츠 및 커뮤니티 |
 | 인도 | [Zcash India](https://x.com/ZcashIND) | 개발자 교육 및 커뮤니티 성장 |
 | 한국 | [Zcash Korea](https://x.com/zcashkorea) | 한국어 교육 콘텐츠 |

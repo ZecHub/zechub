@@ -16,19 +16,19 @@ Sprout는 나중에 나온 [네트워크 업그레이드](../start-here/network-
 
 Sprout는 두 종류의 주소를 만들었습니다. 투명 주소(t-address)는 Bitcoin처럼 작동하며, 세부 정보가 공개 원장에 보입니다. 차폐 주소(z-address)는 자금을 Sprout [차폐 풀](../using-zcash/shielded-pools)로 보내며, 그 안에서는 송신자, 수신자, 금액이 숨겨진 상태로 유지됩니다. 핵심은 [zk-SNARKs](../zcash-tech/zk-snarks)입니다. 이는 세부 정보를 전혀 공개하지 않고도 이중 지불이 없고 잔액의 합이 맞는 유효한 거래임을 보여줄 수 있는 영지식 증명입니다. Sprout는 이것이 실제 운영 중인 암호화폐에서 프로덕션 환경으로 처음 실행된 사례였습니다.
 
-![투명 트랜잭션은 송신자, 수신자, 금액을 드러내지만, Sprout 차폐 트랜잭션은 이 세 가지를 모두 숨기면서도 검증 가능하게 유지합니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![투명 트랜잭션은 송신자, 수신자, 금액을 드러내지만, Sprout 차폐 트랜잭션은 이 세 가지를 모두 숨기면서도 검증 가능하게 유지합니다](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Ceremony
 
 Sprout의 zk-SNARKs에는 공개 파라미터 집합이 필요했고, 이를 안전하게 생성하려면 Ceremony라고 불리는 일회성 설정이 필요했습니다. 서로 멀리 떨어진 별개의 장소에 있던 여섯 명의 참여자가 각자 toxic waste라고 불리는 비밀 조각 하나를 생성했습니다. 만약 누군가가 이 조각들을 모두 다시 모은다면, 아무것도 없는 상태에서 ZEC를 위조할 수 있었습니다. 이 설계는 그 위험을 단순한 규칙으로 바꾸었습니다. 참여자 중 단 한 명만이라도 자기 조각을 파기했다면, 전체 비밀은 결코 재구성될 수 없었고 따라서 위조는 불가능하게 유지되었습니다. 공개적으로 이름이 알려진 참여자에는 Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, NCC Group의 Derek Hinch가 포함됩니다. 한 명의 참여자는 익명으로 남기를 선택했습니다.
 
-![Ceremony: 여섯 명의 참여자가 비공개 조각을 생성한 뒤 toxic waste를 파기하고, 공개된 Sprout 파라미터만 남깁니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![Ceremony: 여섯 명의 참여자가 비공개 조각을 생성한 뒤 toxic waste를 파기하고, 공개된 Sprout 파라미터만 남깁니다](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## 기원
 
 Sprout는 이후의 모든 변경이 그 위에 쌓이는 기준선입니다. Overwinter와 함께 네트워크 업그레이드 메커니즘이 도입되었을 때, 원래 규칙은 합의 브랜치 id 0으로 표시되었습니다. 이는 단순히 아직 어떤 업그레이드도 적용되지 않았다는 뜻입니다. 그 이후의 모든 것(Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, 그리고 그 이후)은 Sprout가 시작한 체인 위에 놓여 있습니다. 출시는 2016년 8월에 10월 28일 제네시스를 목표로 발표되었고, Ceremony는 그 전 몇 주 동안 진행되었으며, 제네시스 블록에 하드코딩된 타임스탬프는 2016년 10월 28일 07:56 UTC입니다.
 
-![2016년 8월 발표부터 파라미터 Ceremony를 거쳐 2016년 10월 28일 Sprout 출시까지의 타임라인](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![2016년 8월 발표부터 파라미터 Ceremony를 거쳐 2016년 10월 28일 Sprout 출시까지의 타임라인](/content-images/sprout-timeline-348766352a.webp)
 
 ## 용어집
 
@@ -77,7 +77,7 @@ Sprout는 나중에 이루어진 업그레이드가 아니라 Zcash의 원래 �
 
 [차폐 풀](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash 네트워크 업그레이드](../start-here/network-upgrades)
 

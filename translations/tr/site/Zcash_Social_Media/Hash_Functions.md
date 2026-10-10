@@ -49,7 +49,7 @@ Hash Fonksiyonlarının birkaç sınıfı vardır. Bazı örnekler:
 - Message Digest Algorithm 5 (**MD5**)  
 - **BLAKE2b** - Zcash anahtar türetiminde kullanılır
 
-**Zooko tarafından BLAKE2'ye giriş**: https://www.zfnd.org/blog/blake2/
+**BLAKE2'ye giriş**: https://www.blake2.net
 
 ---
 
@@ -80,7 +80,7 @@ Zcash **Sapling** ve **Orchard** shielded pool'larında, **Note Commitment Tree*
 #### 5. Equihash (Zcash Madenciliği)
 **Equihash**, Zcash madenciliğinde kullanılan hash algoritmasıdır. Ayrıca Komodo ve Horizen gibi ağlar tarafından da kullanılır.
 
-**Equihash hakkında orijinal Zcash blog yazısı**: https://electriccoin.co/blog/equihash/
+**Equihash: Genelleştirilmiş Doğum Günü Problemine Dayalı Asimetrik İş Kanıtı** (Biryukov ve Khovratovich): https://eprint.iacr.org/2015/946
 
 ---
 

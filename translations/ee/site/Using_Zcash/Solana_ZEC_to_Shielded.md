@@ -12,7 +12,7 @@ Míeƒu du afɔɖeɖe ɖesiaɖe le ete kple asitɔtrɔ ŋutɔŋutɔ le 27 Septem
 
 ## Nusi tututu nèlé ɖe asi
 
-ZEC si le wò Solana gakotoku me nye dzesi le Solana, ke menye gaku siwo le Zcash network dzi o. NEAR OmniBridge ɖee ɖe go eye wòlé ZEC ŋutɔŋutɔ ɖe Zcash kɔsɔkɔsɔa dzi be wòada megbe nɛ; tɔdzisasrãa le agbe le Solana tso October 2025. Eƒe Solana afɔ zɔna ɖe Wormhole gbedasiwo kple NEAR Chain Signatures dzi, ke menye le Zcash light client dzi o, eyata Solana ƒe akpaa sɔ abe ɖoɖo eve mawo ene ko. Amewo yɔnɛ be "pepa ZEC". Eléa ŋku ɖe ZEC, gake ga si susɔ ɖesiaɖe kple ga ɖesiaɖe si woatsɔ anae la nɔa Solana ƒe dutoƒo agbalẽ me le wò gakotoku ƒe adrɛs te, eye womate ŋu akpɔ eta esime wòle afima o.
+ZEC si le wò Solana gakotoku me nye dzesi le Solana dzi, ke menye gaku siwo le Zcash network dzi o. NEAR OmniBridge ɖee ɖe go eye wòlé ZEC ŋutɔŋutɔ ɖe Zcash kɔsɔkɔsɔa dzi be wòada megbe nɛ; tɔdzisasrãa le agbe le Solana tso October 2025. Eƒe Solana afɔ zɔna ɖe Wormhole gbedasiwo kple NEAR Chain Signatures dzi, ke menye le Zcash light client dzi o, eyata Solana ƒe akpaa sɔ abe ɖoɖo eve mawo ene ko. Amewo yɔnɛ be "pepa ZEC". Eléa ŋku ɖe ZEC, gake ga si susɔ ɖesiaɖe kple ga ɖesiaɖe si woatsɔ anae la nɔa Solana ƒe dutoƒo agbalẽ me le wò gakotoku ƒe adrɛs te, eye womate ŋu akpɔ eta esime wòle afima o.
 
 Kpɔe ɖa be tɔwòe nye dzesi ŋutɔŋutɔ hã. Le Phantom, zi **ZEC** dzi eye nàʋu ayi **About Zcash**. Ele be nubabla ƒe adrɛs nanye:
 
@@ -20,7 +20,7 @@ Kpɔe ɖa be tɔwòe nye dzesi ŋutɔŋutɔ hã. Le Phantom, zi **ZEC** dzi eye 
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/01-phantom-zec-mint.png)
+![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Phantom tsɔe kpuie va ɖo `A7bd…QXaS`, eyata tsɔ ŋɔŋlɔdzesi gbãtɔ kple mamlɛtɔ sɔ kple wo nɔewo, alo nàdi adrɛs bliboa [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS). "ZEC" dzesi bubu ɖesiaɖe si le wò gakotoku me, eɖanye ŋkɔ alo dzesi ka kee o, menye esiae o. Gblẽe ɖi.
 
@@ -47,14 +47,14 @@ De gakotokua tso kadodo si le eƒe nyatakakadzraɖoƒe ƒe kaɖi dzi, ke menye t
 
 Wò gakotokua ɖea adrɛs ƒomevi eve fiana:
 
-![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/02-zodl-receive.png)
+![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | Dze egɔme kple.. | Ƒomevi | Nusi dukɔa kpɔna |
 |---|---|---|
 | `u1` | Unified Address | Naneke mele ŋuwò o, gake ne fexexea va dze ɖe ta si ŋu wokpɔ akpoxɔnu le me ko hafi |
 | `t1` | Adrɛs si me kɔ | Wò adrɛs kple ga home la, tegbee, abe le Solana dzi ene |
 
-Zã a `u1` be wò gakotokua naŋlɔe be enye akpoxɔnu. A. A `u1` nye mɔ̃ siwo xɔa nyatakakawo ƒe babla, eye gakotoku aɖewo dea nuxɔmɔ̃ si me kɔ la eme ɖe esi ŋu wokpɔ akpoxɔnu le la xa. Amesi ɖoe ɖa si ate ŋu axe adrɛs siwo me kɔ ko la azã ema, eye wò fexexea adze dutoƒo togbɔ be ètsɔ a `u1`. Míaƒe dodokpɔ gakotokua ƒe adrɛs si wokpɔ ta na la mekpɔa nuxɔla si me kɔ o, eyata ema mate ŋu adzɔ o. [Ta siwo ŋu wokpɔ akpoxɔnu le](/using-zcash/shielded-pools) ƒo nu tso amesiwo xɔa nyatakakawo ŋu tsitotsito. Gakotoku aɖewo ɖea yeye aɖe fiana `u1` ɣesiaɣi si nèʋu Xɔ; ema sɔ, eye wo katã nye tɔwò. Xɔxɔ ƒe screenshot kple near.com xɔla ƒe akpa si le axa sia zãa nu vovovowo `u1` ŋgɔdonyawo le susu ma ta.
+Zã a `u1` be wò gakotokua naŋlɔe be enye akpoxɔnu. A. A `u1` nye mɔ̃ siwo xɔa nyatakakawo ƒe babla, eye gakotoku aɖewo dea nuxɔmɔ̃ si me kɔ la eme ɖe esi ŋu wokpɔ akpoxɔnu le la xa. Amesi ɖoe ɖa si ate ŋu axe adrɛs siwo me kɔ ko la azã ema, eye wò fexexea adze dutoƒo togbɔ be ètsɔ a `u1`. Míaƒe dodokpɔ gakotokua ƒe adrɛs si wokpɔ ta na la mekpɔa nuxɔla si me kɔ o, eyata ema mate ŋu adzɔ o. [Ta siwo ŋu wokpɔ akpoxɔnu le](/using-zcash/shielded-pools) ƒo nu tso amesiwo xɔa nyatakakawo ŋu tsitotsito. Gakotoku aɖewo ɖea yeye aɖe fiana `u1` ɣesiaɣi si nàʋu Xɔ; ema sɔ, eye wo katã nye tɔwò. Xɔxɔ ƒe screenshot kple near.com xɔla ƒe akpa si le axa sia zãa nu vovovowo `u1` ŋgɔdonyawo le susu ma ta.
 
 Míezã ZODL hena míaƒe dodokpɔa elabena eyae nye gakotoku si míeɖo. Gakotoku siwo dzi woŋlɔ ŋkɔ ɖo be **Ironwood: Ready** koe ate ŋu axɔ asixɔxɔ yeye si wokpɔ ta na.
 
@@ -72,11 +72,11 @@ Na SOL vi aɖe nanɔ Phantom ɖe Solana ƒe fetu la ta.
 2. Zi **Deposit** dzi. Ðo **Nunɔamesi** ɖe **Zcash**, **Network** ɖe **Solana** eye mɔnua ɖe **Gakotoku**.
 3. Ŋlɔ ga homea (alo zi **Max** dzi) eye nàda asi ɖe asitsatsa la dzi le Phantom.
 
-![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](/content-images/03-solswap-deposit-425691e62f.webp)
 
 Míaƒe ga si míetsɔ de eme la ɖi ɖe Solana block la me le 15:09:08 (UTC+1) eye solswap ɖee fia be **Wowu enu** le sɛkɛnd enyi megbe.
 
-![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
+![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 Wò ZEC bɔbɔ nɔ wò NEAR Intents ƒe dadasɔ me azɔ. Wò Phantom safuia ɖea mɔ ɖe ʋuʋu ɖesiaɖe si ado le eme ŋu, NEAR Intents gbɔ kpɔlawo wɔa nudɔdɔa, eye NEAR Intents ate ŋu alé ga si susɔ ɖe asi hena sedziwɔwɔ me toto (kpɔ kakaɖedzigbalẽ siwo le ete).
 
@@ -84,22 +84,22 @@ Wò ZEC bɔbɔ nɔ wò NEAR Intents ƒe dadasɔ me azɔ. Wò Phantom safuia ɖea
 
 **Withdraw** ƒe axa le solswap hã si, gake mewɔ dɔ na mí o. **Ga home si woxɔ** kple **Fe** nɔ "–" eye abɔta la mewɔ naneke o, eɖanye be míetia Zcash alo Solana abe network ene o.
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
+![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 Ne edzɔ ɖe dziwò nenema la, wò ZEC meku o. Wobla ga si susɔ ɖe wò gakotokua ƒe safui ŋu, ke menye ɖe nyatakakadzraɖoƒea ŋu o, eyata NEAR Intents dɔwɔnu ɖesiaɖe si me nètsɔ gakotoku ma ge ɖo la ate ŋu aɖo egbɔ. Míewu enu le near.com:
 
 1. Go to `near.com` eye nàtsɔ Phantom gakotoku ma ke ade asi ete.
 2. Wò solswap ƒe ga si susɔ la adze le **Ʋu domenyinu nunɔamesiwo** te (near.com yɔa ga si susɔ tso NEAR Intents dɔwɔɖoɖo xoxowo me be "domenyinu"). Zi **Withdraw** dzi le ZEC fli la dzi. Mèhiã **Ʋu** o.
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. Ðo **Network** ɖe **Zcash**, tsɔ wò gakotokua tɔ `u1` adrɛs abe **Amexɔla** ene eye nàlé ŋku ɖe ŋɔŋlɔdzesi ade gbãtɔ kple mamlɛawo ŋu le wò gakotokua me.
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. Zi **Review withdrawal** dzi, xlẽ kpukpui la eye nàzi **Send** dzi.
 
-![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
 
 5. Phantom bia tso asiwò be **Sign Message** na near.com. Asidede agbalẽ te siae nye nusi naa ŋusẽ NEAR Intents be wòaʋuʋu wò ga si susɔ. Mexɔa SOL aɖeke o, gake ema mewɔe be megblẽa nu le eŋu o: nyatakakadzraɖoƒe si ƒe dzedzeme sɔ ate ŋu aɖe biabia ma ke afia eye wòakɔ wò NEAR Intents ƒe dadasɔ me kplii. Hafi nàzi **Kpeɖodzi** dzi la, lé ŋku ɖe esiawo katã ŋu, eye nàzi **Te fli ɖe eme** dzi ne wo dometɔ aɖe do kpo nu:
    - Nyatakakadzraɖoƒe si ŋkɔ woyɔ le biabia la me enye `near.com`. (Ga si wotsɔ de eme le afɔɖeɖe 1 lia me nye Phantom ƒe asitsatsa ƒe biabiawo dzro aɖe tso.. `solswap.org`; lé ŋku ɖe ŋkɔ ma ŋu le afima le mɔ ma ke nu.)
@@ -107,13 +107,13 @@ Ne edzɔ ɖe dziwò nenema la, wò ZEC meku o. Wobla ga si susɔ ɖe wò gakotok
    - Gbedasi la nye nuŋɔŋlɔ si woate ŋu axlẽ abe screenshot ene. Ne enye blob si womate ŋu axlẽ o, alo nyatakakadzraɖoƒea mesɔ kple esi le wò adrɛs ƒe akpaa dzi o la, gbee.
    - Mebiaa wò nuku ƒe nyagbe gbeɖe o. Asidede agbalẽ te mebia be nàŋlɔe ɖe mɔ̃ dzi gbeɖe o.
 
-![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
-6. near.com ɖea **Dɔwɔwɔ le send**, **Send** kple **Complete** fiana. **View on explorer** ʋua NEAR Intents ƒe nuŋlɔɖi si ku ɖe asitɔtrɔa ŋu.
+6. near.com ɖea **Dɔwɔwɔ tso send**, **Send** kple **Complete** fiana. **View on explorer** ʋua NEAR Intents ƒe nuŋlɔɖi si ku ɖe asitɔtrɔa ŋu.
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
 
-![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
+![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
 
 ### Ga si míaƒe dodokpɔa xɔ kple ɣeyiɣi didi si wòxɔ
 
@@ -135,7 +135,7 @@ NEAR ƒe tɔdzisasrãa ta 0.01 ZEC suetɔ kple 0.00047 ZEC fetu ɖe eƒe Zcash g
 
 Mɔ ɖesiaɖe si ado le Solana la ka ɖe OmniBridge, elabena tɔdzisasrãa léa ZEC si le megbe na wò dzesi la. Tsɔ kpe ɖe eŋu la:
 
-- **Mɔ si le etame** ka ɖe NEAR Intents. Wò asidede agbalẽ te ɖe mɔ ɖe asitɔtrɔa ŋu, egbɔkpɔlawo tsɔa ZEC la yina ɖe Zcash akpa dzi, eye NEAR Intents ate ŋu alé ga ɖe asi hena sedziwɔwɔ me toto; le ƒe 2026 me la, Zcash xɔla aɖe [ka nya ta be wowɔ asitɔtrɔ gã aɖe si wowɔ kwasiɖa geɖe](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). Ètsɔa wò gakotokua hã doa ka kple nyatakakadzraɖoƒe eve, eyata léa ŋku ɖe adrɛs ƒe dzesi ŋu ɣesiaɣi.
+- **Mɔ si le etame** ka ɖe NEAR Intents. Wò asidede agbalẽ te ɖe mɔ ɖe asitɔtrɔa ŋu, egbɔkpɔlawo tsɔa ZEC la yina ɖe Zcash akpa dzi, eye NEAR Intents ate ŋu alé ga ɖe asi hena sedziwɔwɔ me toto; le ƒe 2026 me la, Zcash xɔla aɖe [ka nya ta be wowɔ asitɔtrɔ gã aɖe si wowɔ kwasiɖa geɖe](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). Ètsɔa wò gakotokua doa ka kple nyatakakadzraɖoƒe eve hã, eyata léa ŋku ɖe adrɛs ƒe dzesi ŋu ɣesiaɣi.
 - **Gakotoku siwo me wotu NEAR Intents ɖo** (di NEAR Intents ƒe nɔnɔme le.. [nyatakakadzraɖoƒe](/wallets)) zãa ɖoɖo ma ke tso Zcash gakotokua me. Kakaɖedzi ma ke, nyatakakadzraɖoƒe ʋɛ aɖewo. Míedo esia kpɔ kple ZEC le Solana dzi o.
 - **Nu ɖɔliɖɔli**, ne exɔ dzesi sia ƒe gadede Solana network dzi ko, si ame akpa gãtɔ mexɔna o. Ètsɔa vidzikpɔkpɔ ƒe gomenɔamesi kple zi geɖe la, wò amenyenye dea asi, eye ɖeko asitɔtrɔ geɖe ɖoa ZEC ɖe `t1` adrɛswo dzi. Kpɔ [vidzikpɔkpɔ ƒe asitɔtrɔwo](/using-zcash/custodial-exchanges).
 
@@ -145,19 +145,19 @@ Mɔ ɖesiaɖe si ado le Solana la ka ɖe OmniBridge, elabena tɔdzisasrãa léa 
 
 Eva ɖo kple akpoxɔnu. Míaƒe ZEC yi a `u1` adrɛs eye wòɖi tẽ le Ironwood ƒe ta si wotsɔ akpoxɔnu wɔe la me. Afɔɖeɖe aɖeke menɔ anyi si me kɔ o eye naneke menɔ anyi si woatsɔ asi akpɔ eta o. Gakotokua ŋlɔe be **Xɔxɔ...** kple akpoxɔnu ƒe dzesi le 16:07 (UTC+1) esime wònɔ kpeɖodziwo nu ƒom ƒu.
 
-![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/12-zodl-receiving.png)
+![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](/content-images/12-zodl-receiving-cb9f41511d.webp)
 
 Be wò ŋutɔ nàlé ŋku ɖe eŋu la, ʋu asitsatsa la le wò gakotokua me eye nàwɔ asitsatsa ƒe ID la ƒe kɔpi.
 
-![Zcash wallet transaction details with the transaction ID and timestamp](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/13-zodl-tx-details.png)
+![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
 Kpee ɖe eme [Zcash block ƒe numekula la](https://mainnet.zcashexplorer.app). Mègana nya kpui la natsɔ wò aƒu gbe o. Mía tɔ xlẽ **Shielded Inputs / Outputs 0 / 0** kple **Transferred from/to shielded pool 0.0 ZEC**, elabena explorer ƒe kpukpui mexlẽ Ironwood haɖe o. The `t1` adrɛs siwo nèkpɔ la le akpa si woɖoe ɖa (ZEC si wòzã kple tɔtrɔ si wòdzra ɖo), ke menye tɔwò o.
 
-![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/14-explorer-summary.png)
+![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
 
 Zi **Raw TX: JSON** dzi eye nàdi `ironwood`. Nya manyomanyo aɖe `valueBalance` ZEC li si ge ɖe Ironwood ta la me. Mía tɔe nye `-0.00241336`, nusi tututu va ɖo, eye naneke meɖe amesi xɔe fia le asitsatsa la me o.
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/15-explorer-raw-ironwood.png)
+![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 [Nusi block explorer ate ŋu akpɔ](/zcash-tech/what-a-block-explorer-can-see) ɖe agble susɔeawo me.
 

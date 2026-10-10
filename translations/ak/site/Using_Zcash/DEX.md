@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Wɛbsaet: https://app.routerprotocol.com/
+- Wɛbsaet: https://www.routerprotocol.com/
 - Nkyerɛkyerɛmu: Cross-chain liquidity transport layer a ɛma kwan ma seamless agyapade ne data transfer ntam blockchains pii.
 
 ___
@@ -112,7 +112,7 @@ ___
 
 ### ZcashToCash
 
-<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="/content-images/3f7aa1a6-3646-442b-8f66-1ef8988051ba-3ddc295461.webp" />
 
 
 

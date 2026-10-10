@@ -8,20 +8,19 @@
 
 | ब्लॉग / लेखक              | विवरण                                              | लिंक |
 |----------------------------|----------------------------------------------------------|------|
-| How Zcash works            | Zcash का एक कार्यशील मॉडल तैयार करें                           | [देखें ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
-| Max Desalle                | Mastering Zcash                                          | [देखें ->](https://maxdesalle.com/mastering-zcash/) |
-| Mike Rosulek               | The Joy of Cryptography                                  | [देखें ->](https://joyofcryptography.com/) |
-| James Katz                 | Zcash और privacy पर व्यक्तिगत लेखन और विचार      | [देखें ->](https://free2z.cash/James_Katz/) |
-| Thumbs' Update             | नियमित ecosystem अपडेट और अंतर्दृष्टियाँ                   | [देखें ->](https://thumbsup.substack.com) |
+| How Zcash works            | Zcash का एक कार्यशील मॉडल बनाएँ                           | [देखें ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | Zcash में महारत                                          | [देखें ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | क्रिप्टोग्राफी का आनंद                                  | [देखें ->](https://joyofcryptography.com/) |
+| James Katz                 | Zcash और निजता पर व्यक्तिगत लेखन और विचार      | [देखें ->](https://free2z.cash/James_Katz/) |
+| Thumbs' Update             | नियमित पारिस्थितिकी तंत्र अपडेट और अंतर्दृष्टियाँ                   | [देखें ->](https://thumbsup.substack.com) |
 | roomatemusing              | विचार-लेख और समुदाय सामग्री                            | [देखें ->](https://free2z.cash/roommatemusing) |
-| NerdBank Blog              | Zcash development और tools पर केंद्रित तकनीकी ब्लॉग    | [देखें ->](https://blog.nerdbank.net/) |
+| NerdBank Blog              | Zcash विकास और टूल्स पर केंद्रित तकनीकी ब्लॉग    | [देखें ->](https://blog.nerdbank.net/) |
 | ZecMec                     | Medium पर Zcash-केंद्रित लेख                         | [देखें ->](https://zecmec21.medium.com/) |
-| Ian Sagstetter             | गहन लेख और newsletter                         | [देखें ->](https://iansagstetter.substack.com/) |
-| Naomi Brockwell (NBTV)     | privacy पर उच्च-प्रोफ़ाइल साक्षात्कार और सामग्री           | [देखें ->](https://naomibrockwell.com/highprofileinterviews) |
+| Naomi Brockwell (NBTV)     | निजता पर उच्च-प्रोफ़ाइल साक्षात्कार और सामग्री           | [देखें ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | रचनात्मक और समुदाय-प्रेरित Zcash सामग्री              | [देखें ->](https://free2z.cash/sqribbles) |
-| Str4d                      | Zcash core developer के तकनीकी लेख             | [देखें ->](https://words.str4d.xyz/) |
+| Str4d                      | Zcash के मुख्य डेवलपर के तकनीकी लेख             | [देखें ->](https://words.str4d.xyz/) |
 | CipherScan Weekly          | Zcash blockchain analytics को कवर करने वाले साप्ताहिक ब्लॉग पोस्ट    | [देखें ->](https://cipherscan.app/) |
-| Zcash Shielded News        | साप्ताहिक privacy और ecosystem समाचार सारांश                 | [देखें ->](https://zechub.substack.com/) |
+| Zcash Shielded News        | साप्ताहिक निजता और पारिस्थितिकी तंत्र समाचार सारांश                 | [देखें ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | ZecHub DAO समुदाय के लेख और शैक्षिक सामग्री | [देखें ->](https://zechub.wiki) |
 
 ---

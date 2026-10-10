@@ -16,6 +16,8 @@ Peeji a na-akọwa ZIP 218 site na ederede nke ya: ihe na-agbanwe, ihe na-adịg
 | Oke na ihe ndị a na-echebe kwa ngọngọ | ọ dịghị (naanị oke nha 2 MB) | Ngụkọta 330, yana okpu kwa ọdọ mmiri |
 | Mmepụta Orchard (azụmahịa ihe omume abụọ) | ihe dị ka 2.9 kwa sekọnd | ihe dị ka 6.6 kwa sekọnd |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 Blọk atọ karịa, nke ọ bụla na-akwụ otu ụzọ n'ụzọ atọ. Usoro nnyefe ahụ na-anọgide ebe ọ dịbu.
 
 ## Gịnị kpatara ị ga-eji gbanwee oge ngọngọ

@@ -6,7 +6,7 @@
 
 [Visitar sitio web](https://valargroup.dev/)
 
-<img width="200" height="200" alt="254678133" src="https://github.com/user-attachments/assets/0dc8c697-bcad-492a-b024-89b502d27af4" />
+<img width="200" height="200" alt="254678133" src="/content-images/0dc8c697-bcad-492a-b024-89b502d27af4-4c0d4552c2.webp" />
 
 
 ## Declaración de misión
@@ -171,7 +171,7 @@ Valar Group es una de las organizaciones de protocolo independientes que se form
 - **Project Tachyon** se centra en recursión, verificación formal y escalabilidad a largo plazo.
 - **Valar Group** se centra en votación privada de poseedores de monedas, rendimiento de nodos, PIR y la ingeniería necesaria para operar esos sistemas en producción.
 
-Su contribución distintiva es hacer operativa la gobernanza blindada. La votación de NU7 es el primer uso importante de esa pila: los poseedores demuestran saldos de Ironwood, wallets como Zodl y Vizor pueden integrar el flujo, y cualquiera puede auditar el recuento sin saber cómo votó un poseedor en particular.
+Su contribución distintiva es hacer operativa la gobernanza blindada. La votación de NU7 es el primer uso importante de esa pila: los poseedores demuestran saldos de Ironwood, wallets como ZODL y Vizor pueden integrar el flujo, y cualquiera puede auditar el recuento sin saber cómo votó un poseedor en particular.
 
 El trabajo de nodos y sincronización del mismo equipo busca respaldar la otra mitad de esa visión. La votación privada es menos útil si las wallets no pueden sincronizarse, los nodos no pueden mantenerse al día o las actualizaciones no pueden implementarse rápidamente. Valar Group trata la gobernanza, el software de nodos y la infraestructura de wallets como un solo problema: hacer que Zcash privado sea utilizable a escala sin concentrar el poder operativo en una única organización.
 

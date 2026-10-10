@@ -9,7 +9,7 @@ Le nyati sia me la, míasrɔ̃ nu vevi siwo ku ɖe mɔ̃ɖaŋununya vovovo siwo 
 
 ## Akpa 1: Hash ƒe Dɔwɔwɔwo
 
-Egbea míedze egɔme kple **Hash Functions** - nya ɣaɣlawo ƒe akpa vevi aɖe si wozãna le blockchains me. Emegbe le nyati sia si kplɔ wo nɔewo ɖo me la, míaƒo nu tso nyati aɖewo siwo nɔ te ɖe woƒe nunɔamesiwo dzi ŋu.
+Egbea míedze egɔme kple **Hash Functions** - nya ɣaɣlawo ƒe akpa vevi aɖe si wozãna le blockchains me. Emegbe le nyati sia si kplɔ wo nɔewo ɖo me la, míaƒo nu tso nyati aɖewo siwo ɖoa ŋu ɖe woƒe nunɔamesiwo ŋu la ŋu.
 
 ### Nukae nye Hash Function?
 
@@ -20,7 +20,7 @@ Hash Functions xɔa input si didi ɖesiaɖe eye wòwɔa output si ƒe didime wo�
 - **Emetsonu si do tso eme** = Hash Value 
 
 
-![Hash Dɔwɔwɔ ƒe nɔnɔmetata](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
+![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### Wò ŋutɔ te ekpɔ!
 
@@ -33,7 +33,7 @@ Mina míase nu gɔme le asi me to dɔwɔnu sia zazã me!
 
 ### Cryptographic Hash Dɔwɔnawo ƒe Nɔnɔmewo
 
-Ele be **nɔnɔme 3 siawo nanɔ Cryptographic Hash Functions si**:
+Ele be **nɔnɔme 3 siawo** nanɔ Cryptographic Hash Functions si:
 
 1. **Mɔ ɖeka** - Ele be wòanye nusi mate ŋu adzɔ o be woatrɔ hash dɔwɔwɔ 
 2. **Collision Resistant** - Mele be input vovovo eve nawɔ hash ɖe output ɖeka dzi o 
@@ -45,42 +45,42 @@ Ele be **nɔnɔme 3 siawo nanɔ Cryptographic Hash Functions si**:
 
 Hash Functions ƒe hatsotso vovovowo li. Kpɔɖeŋu aɖewo:
 
-- Dedienɔnɔ ƒe Hashing Algorithm (**SHA-3**) . 
-- Gbedasɛ Digest ƒe Dɔwɔɖoɖo 5 (**MD5**) . 
+- Dedienɔnɔ ƒe Hashing Algorithm (**SHA-3**) 
+- Gbedasɛ Digest ƒe Dɔwɔɖoɖo 5 (**MD5**) 
 - **BLAKE2b** - Wozãnɛ le Zcash safui ƒe dzɔtsoƒe me
 
-**BLAKE2 ƒe ŋgɔdonya si Zooko ŋlɔ**: https://www.zfnd.org/blog/blake2/
+**Ŋgɔdonya aɖe na BLAKE2**: https://www.blake2.net
 
 ---
 
 ### Hash Dɔwɔnawo Zazã le Xexeame Ŋutɔŋutɔ
 
-#### 1. Integrity Hashing (Nyatakakawo ƒe Fɔmaɖimaɖi Me Dzodzro) .
+#### 1. Integrity Hashing (Nyatakakawo ƒe Fɔmaɖimaɖi Me Dzodzro)
 Nyatakakawo ƒe blibonyenye me dzodzro nye "Integrity Hashing" ƒe kpɔɖeŋu. Wozãa wo tsɔ wɔa checksums le data files dzi eye wonaa kakaɖedzi be wosɔ na ezãla.
 
-![Integrity Hashing ƒe kpɔɖeŋu](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
+![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
-#### 2. Merkle Atiwo (Hash Atiwo) .
+#### 2. Merkle Atiwo (Hash Atiwo)
 **hash tree** alo **Merkle tree** nye alɔwo kple aŋgba ƒe node siwo wotsɔ data block ƒe cryptographic hash de dzesii.
 
-![Merkle Ati ƒe nɔnɔmetata](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
+![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Merkle atiwo nye **cryptographic commitment scheme** ƒe kpɔɖeŋu. Wobua ati ƒe Ke be enye ɖokuitsɔtsɔna eye aŋgba ƒe ƒuƒoƒo siwo woɖo kpe edzi be wonye ɖokuitsɔtsɔna gbãtɔ ƒe akpa aɖe.
 
-Woɖoa kpe nyatakaka siwo wodzra ɖo alo esiwo wotsɔ yi P2P networkwo dzi dzi, eye wokpɔa egbɔ be wometrɔ nyatakaka siwo woxɔ tso hatiwo gbɔ o.
+Woɖoa kpe nyatakaka siwo wodzra ɖo alo wotsɔ yi P2P networkwo dzi dzi, eye wokpɔa egbɔ be wometrɔ nyatakaka siwo woxɔ tso hatiwo gbɔ o.
 
 #### 3. De dzesi Ðokuitsɔtsɔna Ati le Zcash me
-Le Zcash **Sapling** & **Orchard** shielded pools me la, wozãa **Note Commitment Tree** tsɔ ɖoa ​​kpe edzi be asitsatsawo sɔ ɖe nukpɔsusu ɖeka nu esime woɣla ame si ɖoe ɖa, amesi xɔe & ga home siwo wozã bliboe.
+Le Zcash **Sapling** & **Orchard** shielded pools me la, wozãa **Note Commitment Tree** tsɔ ɖoa kpe edzi be asitsatsawo sɔ ɖe nukpɔsusu ɖeka nu esime woɣla ame si ɖoe ɖa, amesi xɔe & ga home siwo wozã la bliboe.
 
-#### 4. Asidede Hash (Bitcoin ƒe atsyã ƒe mɔxenuwo) .
+#### 4. Asidede Hash (Bitcoin ƒe atsyã ƒe mɔxenuwo)
 **SHA256** nye "Signature hash" ƒe kpɔɖeŋu si wozãna tsɔ zia block ɖesiaɖe ƒe tɔtrɔmanɔmanɔ dzi le Bitcoin kɔsɔkɔsɔa me. Tomenukulawo zãa hash si le block si do ŋgɔ me + A hash si nye asitsatsa siwo katã le block si li fifia me (hashMerkleRoot) + Timestamp + random value / network difficulty na block yeyewo.
 
-![SHA256 ƒe block ƒe nɔnɔmetata](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
+![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
-#### 5. Equihash (Zcash Tomenukuƒe) .
-**Equihash** nye hashing algorithm si wozãna le Zcash tomenukuku me. Wozãnɛ hã le networkwo abe Komodo & Horizen ene.
+#### 5. Equihash (Zcash Tomenukuƒe)
+**Equihash** nye hashing algorithm si wozãna le Zcash. Wozãnɛ hã le networkwo abe Komodo & Horizen ene.
 
-**Zcash Blog gbãtɔ le Equihash**: https://electriccoin.co/blog/equihash/
+**Equihash: Dɔwɔwɔ ƒe Kpeɖodzi si Mesɔ O Si Wotu Ðe Dzigbezã Kuxi si Wozãna Le Mɔ Gãwo Nu Dzi** (Biryukov kple Khovratovich): https://eprint.iacr.org/2015/946
 
 ---
 
@@ -91,7 +91,7 @@ https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
-**Ka si ZecHub (@ZecHub) ŋlɔ** 
+**Ka si ZecHub (@ZecHub)** 
 X ka gbãtɔ: https://x.com/ZecHub/status/1621240109663227906  
 
 ---

@@ -72,7 +72,7 @@
 
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
-| Governance | Àwọn ìpinnu láti inú ìlànà ZIP ni a kọ sínú ìlànà Zcash, àti sọ́fítíwètì tí ó ń ṣiṣẹ́ nẹ́tíwètì náà. Àwọn àyípadà náà ni a fọwọ́ sí lórí ẹ̀rọ ìdènà nígbà tí ọ̀pọ̀lọpọ̀ nẹ́tíwètì bá gba àtúnṣe náà tí kò sì ba ìfohùnṣọ̀kan jẹ́. [Ìtàn Àkójọpọ̀ Kíkún](https://zfnd.org/protocol-governance/) |
+| Governance | Àwọn ìpinnu láti inú ìlànà ZIP ni a kọ sínú ìlànà Zcash, àti sọ́fítíwètì tí ó ń ṣiṣẹ́ nẹ́tíwètì náà. Àwọn àyípadà náà ni a fọwọ́ sí lórí ẹ̀rọ ìdènà nígbà tí ọ̀pọ̀lọpọ̀ nẹ́tíwètì bá gba àtúnṣe náà tí kò sì ba ìfohùnṣọ̀kan jẹ́. [Ìtàn Àkójọpọ̀ Kíkún](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -86,7 +86,7 @@
 
 | Àkókò ìgba | Ìtumọ̀ |
 |------|-----------|
-| Index | Àtòjọ ZCX ti CoinDesk dúró fún iye owó pàtó kan tí ó dọ́gba pẹ̀lú USD fún Zcash. [Àtòjọ Owó](https://www.coindesk.com/indices/zcx/) |
+| Index | Àtòjọ ZCX CoinDesk's dúró fún iye owó pàtó kan tí ó dọ́gba pẹ̀lú USD fún Zcash. [Àtòjọ Owó](https://www.coindesk.com/indices/zcx/) |
 | Integrations | O le gba awọn sisanwo Zcash nipasẹ ọpọlọpọ awọn olupese ẹgbẹ kẹta. [Àwọn Olùṣètò Ìsanwó](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Ẹ̀rọ àkójọpọ̀ kan tí ó ń ṣe àwòkọ́ṣe ìṣirò gẹ́gẹ́ bí ìpàṣípààrọ̀ àwọn ìránṣẹ́ láàrín àwọn ẹgbẹ́ méjì: Prover àti Verifier kan. |
 | Investment | Ọpọlọpọ awọn aṣayan inawo wa fun awọn oludokoowo ile-iṣẹ tabi awọn ọfiisi idile ti o fẹ lati ni ifihan si Zcash. [Àkójọ ni kikun](https://z.cash/investors/) |
@@ -128,10 +128,10 @@
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Àbá láti ọ̀dọ̀ Shielded Labs láti sun ìpín kan nínú owó ìṣòwò kí ìnáwó ààbò ìgbà pípẹ́ ti ìlànà náà má baà sinmi lórí ìtẹ̀jáde pátápátá. A ti sọ ọ́ ní ZIP 234, tí a ń ṣe àtúnyẹ̀wò rẹ̀ ní ọdún 2026. |
 | Nighthawk | Àpò owó alágbèéká fún Zcash. [Oju opo wẹẹbu](https://nighthawkwallet.com) |
-| Noir Wallet | Àpò ìfàsẹ́yìn ẹ̀rọ ìṣàfilọ́lẹ̀ ẹ̀rọ ìṣàfilọ́lẹ̀ Zcash tí Zcash Community Grants ń ṣe àtìlẹ́yìn rẹ̀, tí a ṣe láti so ZEC tí a dáàbò bo mọ́ àwọn ohun èlò ìṣàfilọ́lẹ̀ náà tààrà dípò gbígbára lé àwọn kódù QR àti àwọn ìfiránṣẹ́ ọwọ́. [zknoir.com](https://www.zknoir.com/) |
+| Noir Wallet | Àpò ìfàsẹ́yìn ẹ̀rọ ìṣàfilọ́lẹ̀ ẹ̀rọ ìṣàfilọ́lẹ̀ Zcash tí Zcash Community Grants, tí a ṣe láti so ZEC tí a dáàbò bo mọ́ àwọn ohun èlò ìṣàfilọ́lẹ̀ náà tààrà dípò gbígbára lé àwọn kódù QR àti àwọn ìfiránṣẹ́ ọwọ́. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Igbesoke Nẹtiwọọki Pataki kẹfa fun Zcash, ti a ṣe afihan adagun-odo Orchard ti a daabobo ati Awọn adirẹsi Apapọ. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Ìgbéga Nẹ́tíwọ́ọ̀kì Ńlá keje fún Zcash, ṣíṣe àtúnṣe ìrànlọ́wọ́ ìdènà láti fi ṣe ìnáwó fún ètò Zcash Community Grants àti Shielded Labs. A ti ṣiṣẹ́ ní ìparí ọdún 2024. [Ìwífún Síi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Àtúnṣe nẹ́tíwọ́ọ̀kì pàtàkì tó tẹ̀lé lẹ́yìn Ironwood. Àwọn ohun pàtàkì tó wà nínú àwọn olùdíje ni iṣẹ́ ìṣàyẹ̀wò Project Tachyon, Zcash Shielded Assets, àti Network Sustainability Mechanism. |
+| NU7 | Àtúnṣe nẹ́tíwọ́ọ̀kì pàtàkì tó tẹ̀lé lẹ́yìn Ironwood. Àwọn ohun pàtàkì tó wà nínú àwọn olùdíje ni iṣẹ́ ìṣàyẹ̀wò Project Tachyon's, Zcash Shielded Assets, àti Network Sustainability Mechanism. |
 
 ## O
 
@@ -234,7 +234,7 @@
 | ZEC | Kóòdù owó tí a fọwọ́ sí fún Zcash (àwọn pàṣípààrọ̀ kan ṣì ń fi XZC hàn). |
 | Zerocash | Ìlànà ẹ̀kọ́ (2014) tí Zcash dá lé. |
 | Zaino | Atọ́ka Zcash ìran tuntun tó ń bọ̀ tó rọ́pò lightwalletd, tí Zcash Foundation. Ó ń jẹ́ kí àwọn oníbàárà mẹ̀kúnrẹ́rẹ́ lè máa ṣiṣẹ́ pọ̀ ní kíákíá àti ní ìkọ̀kọ̀. Apá kan nínú àtúnṣe ètò Zcash Z3. |
-| Zakura | Ìgbékalẹ̀ Zcash tí a ṣe ní oṣù Keje ọdún 2026, tí Valar Group àti Project Tachyon ṣe gẹ́gẹ́ bí ẹ̀rọ Zebra. Ó fojúsùn lílo àti iyàrá ìṣiṣẹ́pọ̀, pẹ̀lú bootstrapping snapshot àti góńgó tí a sọ pé ó jẹ́ ti ìwọ̀n nẹ́tíwọ́ọ̀kì káàdì, ní nǹkan bí 50,000 ìṣòwò fún ìṣẹ́jú-àáyá kan. [zakura.com](https://zakura.com) |
+| Zakura | Ìgbékalẹ̀ Zcash tí a ṣe ní oṣù Keje ọdún 2026, tí Valar Group àti Project Tachyon. ṣe gẹ́gẹ́ bí ẹ̀rọ Zebra. Ó fojúsùn lílo àti iyàrá ìṣiṣẹ́pọ̀, pẹ̀lú bootstrapping snapshot àti góńgó tí a sọ pé ó jẹ́ ti ìwọ̀n nẹ́tíwọ́ọ̀kì káàdì, ní nǹkan bí 50,000 ìṣòwò fún ìṣẹ́jú-àáyá kan. [zakura.com](https://zakura.com) |
 | Zallet | Apá àpò owó tí ó gba àpò owó zcashd's nígbà tí wọ́n ti fẹ̀yìntì, tí a kọ́ sórí Zaino gẹ́gẹ́ bí apá kan iṣẹ́ ètò Zcash Z3. |
 | Zebra | Ìmúṣe ìpèsè gbogbogbòò tí ó dá lórí Rust Zcash Foundation's (àfikún sí zcashd). Ó ti ṣetán láti ṣe iṣẹ́ náà, ó sì ń ṣiṣẹ́ dáadáa. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | zcashd | Ojúlówó Zcash tí a kọ́kọ́ ṣe, tí a yọ láti Bitcoin Core. Ó fẹ̀yìntì ní oṣù Keje ọdún 2026 lẹ́yìn ìdínkù owó púpọ̀, pẹ̀lú ìpínyà láàárín Zebra fún ìfohùnṣọ̀kan àti Zallet fún àwọn iṣẹ́ àpò owó. |

@@ -72,7 +72,7 @@ Un glosario completo de términos clave, conceptos y recursos relacionados con Z
 
 | Término | Definición |
 |------|-----------|
-| Governance | Las decisiones del proceso ZIP se incorporan a la especificación de Zcash, así como al software que ejecuta la red. Los cambios se ratifican on-chain cuando la mayoría de la red adopta la actualización y no rompe el consenso. [Historial completo del protocolo](https://zfnd.org/protocol-governance/) |
+| Governance | Las decisiones del proceso ZIP se incorporan a la especificación de Zcash, así como al software que ejecuta la red. Los cambios se ratifican on-chain cuando la mayoría de la red adopta la actualización y no rompe el consenso. [Historial completo del protocolo](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -138,7 +138,7 @@ Un glosario completo de términos clave, conceptos y recursos relacionados con Z
 | Término | Definición |
 |------|-----------|
 | Oblivious Synchronization | Un método en desarrollo dentro de Project Tachyon que permite a una wallet solicitar los datos que necesita de un servidor no confiable sin revelar sobre qué notas está preguntando. El servidor nunca conoce tus nullifiers, porque el protocolo hace que evolucionen de una manera no vinculable. [Descripción](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | El tercer pool blindado de Zcash y representa la evolución continua de nuestra pila tecnológica de ZK-SNARKs. [Detalles completos](https://electriccoin.co/blog/explaining-halo-2/) |
+| Orchard Shielded Pool | El tercer pool blindado de Zcash y representa la evolución continua de nuestra pila tecnológica de zk-SNARK. [Detalles completos](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | La 1.ª actualización de red de Zcash. [Más información](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P

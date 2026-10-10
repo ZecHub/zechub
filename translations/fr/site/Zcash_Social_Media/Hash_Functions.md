@@ -49,7 +49,7 @@ Il existe plusieurs classes de fonctions de hachage. Quelques exemples :
 - Message Digest Algorithm 5 (**MD5**)  
 - **BLAKE2b** — Utilisé dans la dérivation de clés de Zcash
 
-**Une introduction à BLAKE2 par Zooko** : https://www.zfnd.org/blog/blake2/
+**Une introduction à BLAKE2** : https://www.blake2.net
 
 ---
 
@@ -80,7 +80,7 @@ Dans les pools protégés **Sapling** et **Orchard** de Zcash, l’**arbre d’e
 #### 5. Equihash (minage de Zcash)
 **Equihash** est l’algorithme de hachage utilisé pour miner Zcash. Il est également utilisé par des réseaux tels que Komodo et Horizen.
 
-**Article original du blog Zcash sur Equihash** : https://electriccoin.co/blog/equihash/
+**Equihash : preuve de travail asymétrique fondée sur le problème généralisé des anniversaires** (Biryukov et Khovratovich) : https://eprint.iacr.org/2015/946
 
 ---
 

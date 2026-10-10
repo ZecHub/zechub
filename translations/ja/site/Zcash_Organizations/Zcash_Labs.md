@@ -1,7 +1,7 @@
 # Zcash Labs
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/313788363?s=200&v=4" alt="Logo Zcash Labs" width="320" />
+  <img src="/content-images/313788363-f867625894.webp" alt="Logo Zcash Labs" width="320" />
 </p>
 
 ---
@@ -54,9 +54,9 @@ Zcash Labs は、かなり単純なワークフローを説明しています。
 
 ## Zcash Labs によるインフラ運用
 
-第三者による統合を促進することに加えて、Zcash Labs は Zcash ネットワークへのアクセスを支えるインフラの運用および開発も行っています。組織の公表時には、**Shielded Vote Validator** を運用しており、**Zcash フルノード**、**Lightwalletd**、**RPC** を含むサービスを開発中であると述べていました。
+第三者による統合を促進することに加えて、Zcash Labs は Zcash ネットワークへのアクセスを支えるインフラの運用および開発も行っています。組織の公表時には、**Shielded Vote Validator** を運用しており、**Zcash フルノード**、**lightwalletd**、**RPC** を含むサービスを開発中であると述べていました。
 
-フルノードは、ネットワークへ直接接続し、ブロックチェーン・データを検証するために使用されます。Lightwalletd は、ウォレットや軽量アプリケーションがブロックチェーン全体をローカルで実行せずに、ネットワークから必要なデータを取得することを支援します。一方、RPC は外部ソフトウェアがブロックチェーンのノードまたはサービスと通信する手段を提供します。
+フルノードは、ネットワークへ直接接続し、ブロックチェーン・データを検証するために使用されます。lightwalletd は、ウォレットや軽量アプリケーションがブロックチェーン全体をローカルで実行せずに、ネットワークから必要なデータを取得することを支援します。一方、RPC は外部ソフトウェアがブロックチェーンのノードまたはサービスと通信する手段を提供します。
 
 このインフラの運用は、Zcash Labs の統合への取り組みと直接結び付いています。Zcash アプリケーションを構築する企業や開発者には、ネットワークへの信頼できるアクセスが必要です。これらのサービスを独立して運用することで、Zcash Labs は利用可能なインフラの選択肢を広げると同時に、促進する統合の技術要件について直接の経験を得られます。
 
@@ -128,9 +128,9 @@ Zcash Labs の初期モデルは、従来のベンチャーキャピタル企業
 
 ---
 
-## ZcashtoCash
+## ZcashToCash
 
-**[ZcashtoCash](https://zcashto.cash/)** は、Zcash Labs から支援を受けたことが公に知られている最も初期のプロジェクトの一つです。このプロジェクトは、ユーザーがピアツーピア取引を通じて ZEC を法定通貨に換換できるようにするために作られました。
+**[ZcashToCash](https://zcashto.cash/)** は、Zcash Labs から支援を受けたことが公に知られている最も初期のプロジェクトの一つです。このプロジェクトは、ユーザーがピアツーピア取引を通じて ZEC を法定通貨に換換できるようにするために作られました。
 
 zcashtocash は **Peer** のインフラを使用しています。このシステムは、取引で ZEC がリリースされる前に法定通貨の支払いを検証するために使用されます。Zcash Labs が公表された時点で、このサービスはすでに **Cash App**、**Chime**、**Monzo**、**Revolut**、**Venmo**、**Zelle** をサポートしていました。
 
@@ -232,6 +232,6 @@ Zcash Labs のモデルは、技術的な専門知識と資金提供を組み合
 
 [Zcash Labs on X](https://x.com/zcashlabs)
 
-[Zcash Labs on Github](https://github.com/zcashlabs)
+[Zcash Labs on GitHub](https://github.com/zcashlabs)
 
 [Zcash Labs on Web Blogs](https://zcashlabs.org/blog)

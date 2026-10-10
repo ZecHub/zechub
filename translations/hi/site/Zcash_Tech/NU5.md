@@ -4,110 +4,110 @@
 
 # NU5
 
-> NU5, Zcash mainnet पर ब्लॉक 1,687,104 (31 मई, 2022 UTC) पर लाइव हुआ।
+> NU5, Zcash मेननेट पर ब्लॉक 1,687,104 (31 मई, 2022 UTC) पर लाइव हुआ।
 
-आप क्या समझेंगे: NU5 ने Zcash को एक नया shielded pool कैसे दिया जिसे trusted setup की आवश्यकता नहीं है, साथ ही एक ऐसा एकल address type भी दिया जो अलग-अलग pools के बीच काम करता है।
+आप क्या जानेंगे: कैसे NU5 ने Zcash को एक नया शील्डेड पूल दिया, जिसके लिए विश्वसनीय सेटअप की आवश्यकता नहीं है, साथ ही एक ऐसा एकल एड्रेस प्रकार दिया जो सभी पूलों में काम करता है।
 
-NU5 (Network Upgrade 5) छठा Zcash [network upgrade](../start-here/network-upgrades) है, जिसे [ZIP 252](https://zips.z.cash/zip-0252) द्वारा लागू किया गया। यह एक प्रमुख cryptographic upgrade है। इसने Orchard shielded payment protocol को पेश किया, जो Halo 2 proving system पर आधारित है, साथ ही unified addresses और नया version 5 transaction format भी लाया। NU5, Electric Coin Company की zcashd v5.0.0 release के साथ जारी हुआ।
+NU5 (नेटवर्क अपग्रेड 5), Zcash का छठा [नेटवर्क अपग्रेड](../start-here/network-upgrades) है, जिसे [ZIP 252](https://zips.z.cash/zip-0252) द्वारा लागू किया गया था। यह एक प्रमुख क्रिप्टोग्राफिक अपग्रेड है। इसने Orchard शील्डेड भुगतान प्रोटोकॉल पेश किया, जो Halo 2 प्रूविंग सिस्टम पर निर्मित है, साथ ही यूनिफाइड एड्रेस और नया संस्करण 5 ट्रांज़ैक्शन प्रारूप भी पेश किया। NU5 को Electric Coin Company के zcashd v5.0.0 रिलीज़ में जारी किया गया था।
 
-यह क्यों महत्वपूर्ण है। कोई shielded pool उतना ही भरोसेमंद होता है जितना भरोसेमंद उसका setup होता है। Zcash के पहले दो shielded pools, Sprout और Sapling, दोनों को अपने secret parameters बनाने के लिए एक बार होने वाली trusted setup ceremony की आवश्यकता थी। यदि वे parameters कभी नष्ट करने के बजाय सुरक्षित रख लिए गए होते, तो कोई बिना किसी के जाने नकली ZEC बना सकता था। NU5 का Orchard pool इस चिंता को समाप्त करता है क्योंकि यह Halo 2 proving system का उपयोग करता है, जिसे ऐसी किसी ceremony की आवश्यकता नहीं होती।
+यह क्यों महत्वपूर्ण है। कोई शील्डेड पूल उतना ही विश्वसनीय होता है जितना उसे बनाने वाला सेटअप। Zcash के पहले दो शील्डेड पूलों, Sprout और Sapling, को अपने गुप्त पैरामीटर बनाने के लिए प्रत्येक को एक बार के विश्वसनीय सेटअप समारोह की आवश्यकता थी। यदि वे पैरामीटर कभी नष्ट करने के बजाय रख लिए गए होते, तो कोई व्यक्ति बिना किसी को पता चले नकली ZEC बना सकता था। NU5 का Orchard पूल Halo 2 प्रूविंग सिस्टम का उपयोग करके इस चिंता को समाप्त करता है, जिसके लिए ऐसे किसी समारोह की आवश्यकता नहीं होती।
 
-## Trusted setup
+## विश्वसनीय सेटअप
 
-Orchard, Zcash का सबसे नया shielded protocol है, जिसे [ZIP 224](https://zips.z.cash/zip-0224) में परिभाषित किया गया है। यह Halo 2 proving system पर आधारित है, जो Pallas और Vesta curve cycle पर PLONKish arithmetization नामक तकनीक का उपयोग करता है। इसका व्यावहारिक लाभ सरल है: Halo 2 को न trusted setup की आवश्यकता है और न ही structured reference string की, इसलिए कोई ऐसा secret parameter नहीं होता जिसका कभी दुरुपयोग किया जा सके।
+Orchard, NU5 द्वारा पेश किया गया शील्डेड प्रोटोकॉल है, जो [ZIP 224](https://zips.z.cash/zip-0224) में परिभाषित है। यह Halo 2 प्रूविंग सिस्टम पर बना है, जो Pallas और Vesta कर्व साइकिल पर PLONKish arithmetization नामक तकनीक का उपयोग करता है। व्यावहारिक लाभ सरल है: Halo 2 को न तो विश्वसनीय सेटअप चाहिए और न ही संरचित संदर्भ स्ट्रिंग, इसलिए ऐसा कोई गुप्त पैरामीटर नहीं है जिसका कभी दुरुपयोग किया जा सके।
 
-Sprout और Sapling दोनों trusted setup पर निर्भर थे। लोगों के एक समूह ने प्रत्येक pool के parameters बनाने के लिए एक ceremony चलाई, और सभी को इस बात पर भरोसा करना पड़ता था कि उनमें से कम-से-कम एक व्यक्ति ने secret के अपने हिस्से को नष्ट कर दिया हो। Orchard इस धारणा को हटा देता है। NU5 के बाद भी पुराने pools मौजूद रहते हैं, इसलिए no-setup guarantee उन funds पर लागू होती है जिन्हें आप Orchard pool में रखते हैं।
+Sprout और Sapling दोनों एक विश्वसनीय सेटअप पर निर्भर थे। लोगों के एक समूह ने प्रत्येक पूल के पैरामीटर बनाने के लिए एक समारोह आयोजित किया, और सभी को भरोसा करना था कि उनमें से कम से कम एक व्यक्ति ने अपने गुप्त हिस्से को नष्ट कर दिया। Orchard इस धारणा को हटा देता है। NU5 के बाद भी पुराने पूल मौजूद हैं, इसलिए बिना-सेटअप की गारंटी Orchard पूल में रखी आपकी निधियों पर लागू होती है।
 
-![NU5 से पहले, Sprout और Sapling को trusted setup ceremony की आवश्यकता थी। NU5 के बाद, Orchard pool Halo 2 system का उपयोग करता है और उसे trusted setup की आवश्यकता नहीं होती](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
 ## NU5 ने क्या बदला
 
-NU5 कई consensus changes को एक साथ जोड़ता है, जो सभी ब्लॉक 1,687,104 पर एक साथ सक्रिय हुए।
+NU5 में कई सर्वसम्मति परिवर्तन शामिल हैं, जो सभी ब्लॉक 1,687,104 पर एक साथ सक्रिय हुए।
 
-1. इसने Orchard shielded pool (ZIP 224) जोड़ा, यानी ऊपर वर्णित Halo 2 आधारित protocol।
-2. इसने version 5 transaction format (ZIP 225) जोड़ा, जो एक पुनर्गठित layout है जिसमें transparent, Sapling, और नए Orchard data के लिए अलग-अलग sections हैं। Sprout fields हटा दिए गए, और पुराना version 4 format activation के बाद भी वैध रहा।
-3. इसने unified addresses और unified viewing keys (ZIP 316) पेश किए, जिन पर अगले section में चर्चा की गई है।
-4. इसने transaction identifier non-malleability (ZIP 244) अपनाई, जो transaction id की गणना करने का एक नया तरीका है और transaction क्या करता है, इसे उन proofs और signatures से अलग करता है जो उसे authorize करते हैं।
-5. इसने canonical Jubjub point encodings (ZIP 216) अपनाए ताकि non-standard encodings हटाए जा सकें और यह निर्धारित करने के नियम कड़े किए जा सकें कि कौन-सा transaction वैध माना जाएगा।
-6. इसने peer-to-peer network में version 5 transactions के relay को सक्षम किया (ZIP 239)।
+1. इसने Orchard शील्डेड पूल (ZIP 224) जोड़ा, जो ऊपर वर्णित Halo 2 आधारित प्रोटोकॉल है।
+2. इसने संस्करण 5 ट्रांज़ैक्शन प्रारूप (ZIP 225) जोड़ा, जो पारदर्शी, Sapling और नए Orchard डेटा के लिए अलग-अलग क्षेत्रों वाला पुनर्गठित लेआउट है। Sprout फ़ील्ड हटा दिए गए, और पुराना संस्करण 4 प्रारूप सक्रियण के बाद भी मान्य रहा।
+3. इसने यूनिफाइड एड्रेस और यूनिफाइड व्यूइंग कीज़ (ZIP 316) पेश किए, जिनकी चर्चा अगले अनुभाग में है।
+4. इसने ट्रांज़ैक्शन पहचानकर्ता गैर-परिवर्तनीयता (ZIP 244) अपनाई, जो ट्रांज़ैक्शन की आईडी की गणना करने का नया तरीका है और ट्रांज़ैक्शन के कार्य को उसे अधिकृत करने वाले प्रमाणों और हस्ताक्षरों से अलग करता है।
+5. इसने गैर-मानक एन्कोडिंग हटाने और वैध ट्रांज़ैक्शन की परिभाषा के नियमों को सख्त करने के लिए कैनोनिकल Jubjub पॉइंट एन्कोडिंग (ZIP 216) अपनाई।
+6. इसने पीयर-टू-पीयर नेटवर्क में संस्करण 5 ट्रांज़ैक्शनों के रिले को सक्षम किया (ZIP 239)।
 
-NU5 ने कई मौजूदा ZIPs (32, 203, 209, 212, 213, 221, और 401) को भी अपडेट किया ताकि वे नए Orchard pool को ध्यान में रखें।
+NU5 ने कई मौजूदा ZIPs (32, 203, 209, 212, 213, 221 और 401) भी अपडेट किए, ताकि वे नए Orchard पूल को ध्यान में रखें।
 
-## Unified addresses
+## यूनिफाइड एड्रेस
 
-NU5 से पहले, प्रत्येक pool का अपना अलग address type था, और sender को यह जानना पड़ता था कि आपको किस प्रकार का address चाहिए। [ZIP 316](https://zips.z.cash/zip-0316) में परिभाषित unified addresses इसे बदलते हैं। एक single unified address एक से अधिक pool के receivers को bundle कर सकता है, इसलिए sender का wallet बस वही receiver चुनता है जिसे वह सबसे अच्छी तरह support करता है।
+NU5 से पहले, प्रत्येक पूल का अपना एड्रेस प्रकार था और भेजने वाले को जानना पड़ता था कि आप किस प्रकार का एड्रेस चाहते हैं। [ZIP 316](https://zips.z.cash/zip-0316) में परिभाषित यूनिफाइड एड्रेस इसे बदलते हैं। एक एकल यूनिफाइड एड्रेस एक से अधिक पूलों के रिसीवरों को समाहित कर सकता है, इसलिए भेजने वाले का वॉलेट बस वह सर्वोत्तम रिसीवर चुनता है जिसे वह समर्थित करता है।
 
-![एक unified address कई pools के receivers को bundle करता है: एक transparent receiver, एक Sapling receiver, और एक नया Orchard receiver](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu5-unified-address.png)
+![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
-देखने के लिए unified viewing keys भी इसी तरह काम करती हैं। वे उन pools के पार read-only visibility देती हैं जिन्हें कोई address cover करता है। इसके बारे में अधिक जानने के लिए [Viewing Keys](../zcash-tech/viewing-keys) पृष्ठ देखें।
+यूनिफाइड व्यूइंग कीज़ देखने के लिए इसी तरह काम करती हैं। वे उन पूलों में केवल-पढ़ने की दृश्यता देती हैं जिन्हें एक एड्रेस कवर करता है। इसके बारे में अधिक जानकारी के लिए [व्यूइंग कीज़](../zcash-tech/viewing-keys) पृष्ठ देखें।
 
-## NU5 की स्थिति
+## NU5 का स्थान
 
-NU5, Zcash के पहले के upgrades के बाद आया: Overwinter, Sapling, Blossom, Heartwood, और Canopy। यह 31 मई 2022 को mainnet पर सक्रिय हुआ। Orchard का curve cycle इसलिए चुना गया क्योंकि यह recursion को support करता है, जो बाद के scaling work की आधारशिला है। NU5, NU6 और NU6.x upgrades की श्रृंखला का सीधा पूर्ववर्ती है, जिन्होंने Orchard pool पर आगे काम किया और बाद में उसमें patch भी लगाए।
+NU5, Zcash के पूर्ववर्ती अपग्रेडों के बाद आया: Overwinter, Sapling, Blossom, Heartwood और Canopy। यह 31 मई, 2022 को मेननेट पर सक्रिय हुआ। Orchard का कर्व साइकिल इसलिए चुना गया क्योंकि यह रिकर्शन का समर्थन करता है, जो बाद के स्केलिंग कार्य की आधारशिला है। NU5, NU6 और NU6.x अपग्रेड श्रृंखला का प्रत्यक्ष पूर्ववर्ती है, जिसने Orchard पूल पर निर्माण किया और बाद में उसमें सुधार किए।
 
-## Glossary
+## शब्दावली
 
-| Term | सरल अर्थ |
+| शब्द | सरल अर्थ |
 |---|---|
-| Network upgrade (NU) | Zcash के consensus rules में समन्वित परिवर्तन, जो एक निर्धारित block height पर सक्रिय होता है |
-| Orchard | वह shielded pool जिसे NU5 ने पेश किया, और जो Halo 2 proving system पर आधारित है |
-| Halo 2 | Orchard के पीछे का proving system, जिसे trusted setup की आवश्यकता नहीं होती |
-| Trusted setup | एक बार होने वाली ceremony जो किसी pool के secret parameters बनाती है और जिन्हें नष्ट करने के लिए उस पर भरोसा किया जाना चाहिए |
-| Unified address | एक single address जो एक से अधिक pool के receivers को bundle कर सकता है (ZIP 316) |
-| Consensus branch id | एक identifier जो दर्शाता है कि कोई transaction किस rules set से संबंधित है |
+| Network upgrade (NU) | Zcash के सर्वसम्मति नियमों में समन्वित परिवर्तन, जो एक निर्धारित ब्लॉक ऊंचाई पर सक्रिय होता है |
+| Orchard | NU5 द्वारा पेश किया गया शील्डेड पूल, जो Halo 2 प्रूविंग सिस्टम पर बना है |
+| Halo 2 | Orchard के पीछे का प्रूविंग सिस्टम, जिसे विश्वसनीय सेटअप की आवश्यकता नहीं है |
+| Trusted setup | एक बार का समारोह जो किसी पूल के गुप्त पैरामीटर बनाता है और जिसके लिए उन पैरामीटरों के नष्ट किए जाने पर भरोसा करना होता है |
+| Unified Address | एक ऐसा एकल एड्रेस जो एक से अधिक पूलों के रिसीवरों को समाहित कर सकता है (ZIP 316) |
+| Consensus branch id | वह पहचानकर्ता जो दर्शाता है कि कोई ट्रांज़ैक्शन किस नियम-समूह से संबंधित है |
 
-## FAQ
+## अक्सर पूछे जाने वाले प्रश्न
 
-क्या NU5 मेरे ZEC या मेरी privacy को बदलता है? नहीं। NU5 ने एक नया shielded pool और एक नया address format जोड़ा। आपका मौजूदा ZEC अप्रभावित रहता है, और आपकी privacy कम नहीं होती। Funds को Orchard में ले जाने से आपको ऐसा pool मिलता है जिसे trusted setup की आवश्यकता नहीं होती।
+क्या NU5 मेरे ZEC या मेरी गोपनीयता को बदलता है? नहीं। NU5 ने एक नया शील्डेड पूल और नया एड्रेस प्रारूप जोड़ा। आपका मौजूदा ZEC अप्रभावित है और आपकी गोपनीयता कम नहीं होती। निधियों को Orchard में स्थानांतरित करने पर आपको ऐसा पूल मिलता है जिसे विश्वसनीय सेटअप की आवश्यकता नहीं है।
 
-Orchard क्या है? Orchard, Zcash का shielded protocol है जिसे NU5 ने पेश किया। यह Halo 2 proving system पर चलता है, इसलिए इसे trusted setup ceremony की आवश्यकता नहीं होती।
+Orchard क्या है? Orchard, Zcash का NU5 द्वारा पेश किया गया शील्डेड प्रोटोकॉल है। यह Halo 2 प्रूविंग सिस्टम पर चलता है, इसलिए इसे विश्वसनीय सेटअप समारोह की आवश्यकता नहीं होती।
 
-क्या मुझे कुछ करना होगा? नहीं। एक supported wallet आपके लिए NU5 को संभाल लेता है। आप पुराने addresses का उपयोग जारी रख सकते हैं, और जब आपका wallet उन्हें उपलब्ध कराए तो आप unified addresses का उपयोग शुरू कर सकते हैं।
+क्या मुझे कुछ करना होगा? नहीं। समर्थित वॉलेट आपके लिए NU5 संभालता है। आप पुराने एड्रेस का उपयोग जारी रख सकते हैं और जब आपका वॉलेट उन्हें प्रदान करे तो यूनिफाइड एड्रेस का उपयोग शुरू कर सकते हैं।
 
-Unified address क्या है? एक single address जिसमें एक से अधिक pool के receivers हो सकते हैं। Sender का wallet वही pool चुनता है जिसे वह support करता है, इसलिए आपको हर प्रकार के लिए अलग address देने की आवश्यकता नहीं होती।
+यूनिफाइड एड्रेस क्या है? एक ऐसा एकल एड्रेस जिसमें एक से अधिक पूलों के रिसीवर हो सकते हैं। भेजने वाले का वॉलेट उस पूल को चुनता है जिसका वह समर्थन करता है, इसलिए आपको हर प्रकार के लिए अलग एड्रेस देने की आवश्यकता नहीं होती।
 
-क्या NU5 मेरे पुराने funds से trusted setup को हटा देता है? पिछली स्थिति पर नहीं। Orchard को trusted setup की आवश्यकता नहीं होती, लेकिन Sapling pool के पहले के parameters NU5 के बाद भी मौजूद रहते हैं। No-setup guarantee Orchard pool में रखे गए funds पर लागू होती है।
+क्या NU5 मेरी पुरानी निधियों से विश्वसनीय सेटअप हटा देता है? पूर्वव्यापी रूप से नहीं। Orchard को विश्वसनीय सेटअप की आवश्यकता नहीं है, लेकिन Sapling पूल के पुराने पैरामीटर NU5 के बाद भी मौजूद हैं। बिना-सेटअप की गारंटी Orchard पूल में रखी निधियों पर लागू होती है।
 
-क्या पुराना transaction format काम करना बंद कर दिया? नहीं। NU5 ने version 5 format जोड़ा, और पुराना version 4 format activation के बाद भी वैध रहा।
+क्या पुराना ट्रांज़ैक्शन प्रारूप काम करना बंद कर दिया? नहीं। NU5 ने संस्करण 5 प्रारूप जोड़ा, और पुराना संस्करण 4 प्रारूप सक्रियण के बाद भी मान्य रहा।
 
 ## अपनी समझ जाँचें
 
-Sprout और Sapling, दोनों को trusted setup ceremony की आवश्यकता थी। NU5 के Orchard pool ने इसमें क्या बदलाव किया, और यह क्यों महत्वपूर्ण है?
+Sprout और Sapling दोनों को विश्वसनीय सेटअप समारोह की आवश्यकता थी। NU5 के Orchard पूल ने इसमें क्या बदलाव किया, और यह क्यों महत्वपूर्ण है?
 
 <details>
 <summary>उत्तर</summary>
 
-Orchard, Halo 2 proving system पर आधारित है, जिसे trusted setup और structured reference string की आवश्यकता नहीं होती। इससे यह जोखिम समाप्त हो जाता है कि बचे हुए secret parameters का उपयोग कभी नकली ZEC बनाने में किया जा सके। यह guarantee Orchard pool में रखे गए funds पर लागू होती है। पुराने Sapling parameters NU5 के बाद भी मौजूद रहते हैं।
+Orchard, Halo 2 प्रूविंग सिस्टम पर बना है, जिसे न तो विश्वसनीय सेटअप चाहिए और न ही संरचित संदर्भ स्ट्रिंग। इससे यह जोखिम समाप्त होता है कि बचे हुए गुप्त पैरामीटरों का उपयोग कभी नकली ZEC बनाने में किया जा सकता है। यह गारंटी Orchard पूल में रखी निधियों पर लागू होती है। पुराने Sapling पैरामीटर NU5 के बाद भी मौजूद हैं।
 </details>
 
 ### संसाधन
 
-[ZIP 252: NU5 Network Upgrade की तैनाती](https://zips.z.cash/zip-0252)
+[ZIP 252: NU5 नेटवर्क अपग्रेड का परिनियोजन](https://zips.z.cash/zip-0252)
 
-[ZIP 224: Orchard Shielded Protocol](https://zips.z.cash/zip-0224)
+[ZIP 224: Orchard शील्डेड प्रोटोकॉल](https://zips.z.cash/zip-0224)
 
-[ZIP 225: Version 5 Transaction Format](https://zips.z.cash/zip-0225)
+[ZIP 225: संस्करण 5 ट्रांज़ैक्शन प्रारूप](https://zips.z.cash/zip-0225)
 
-[ZIP 316: Unified Addresses and Unified Viewing Keys](https://zips.z.cash/zip-0316)
+[ZIP 316: यूनिफाइड एड्रेस और यूनिफाइड व्यूइंग कीज़](https://zips.z.cash/zip-0316)
 
-[Network Upgrade 5](https://z.cash/upgrade/nu5/)
+[नेटवर्क अपग्रेड 5](https://z.cash/upgrade/nu5/)
 
-[Electric Coin Company: zcashd 5.0.0 release](https://electriccoin.co/blog/new-release-5-0-0/)
+[Electric Coin Company: zcashd 5.0.0 रिलीज़](https://electriccoin.co/blog/new-release-5-0-0/)
 
 ### यह भी देखें
 
-[Zcash Network Upgrades](../start-here/network-upgrades)
+[Zcash नेटवर्क अपग्रेड](../start-here/network-upgrades)
 
-[Shielded Pools](../using-zcash/shielded-pools)
+[शील्डेड पूल](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Viewing Keys](../zcash-tech/viewing-keys)
+[व्यूइंग कीज़](../zcash-tech/viewing-keys)
 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
 
-श्रृंखला: [Network Upgrades index](../start-here/network-upgrades) · पिछला: [Canopy](../zcash-tech/canopy) · अगला: [NU6](../zcash-tech/nu6)
+श्रृंखला: [नेटवर्क अपग्रेड सूचकांक](../start-here/network-upgrades) · पिछला: [Canopy](../zcash-tech/canopy) · अगला: [NU6](../zcash-tech/nu6)

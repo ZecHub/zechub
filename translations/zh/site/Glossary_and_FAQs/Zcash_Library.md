@@ -72,7 +72,7 @@
 
 | 术语 | 定义 |
 |------|-----------|
-| Governance | ZIP 流程产生的决策会写入 Zcash 规范以及运行该网络的软件中。当网络中的大多数采用该升级且不破坏共识时，这些变更会在链上获得确认。 [完整协议历史](https://zfnd.org/protocol-governance/) |
+| Governance | ZIP 流程产生的决策会写入 Zcash 规范以及运行该网络的软件中。当网络中的大多数采用该升级且不破坏共识时，这些变更会在链上获得确认。 [完整协议历史](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -138,7 +138,7 @@
 | 术语 | 定义 |
 |------|-----------|
 | Oblivious Synchronization | Project Tachyon 中正在开发的一种方法，使 wallet 能够在不泄露其正在查询哪些 notes 的情况下，从不受信任的服务器请求其所需的数据。服务器永远不会获知你的 nullifiers，因为该协议会使它们以不可关联的方式演化。[说明文档](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Zcash 的第三个受保护池，代表了我们 ZK-SNARKs 技术栈的持续演进。[完整详情](https://electriccoin.co/blog/explaining-halo-2/) |
+| Orchard Shielded Pool | Zcash 的第三个受保护池，代表了我们 zk-SNARK 技术栈的持续演进。[完整详情](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | Zcash 的第 1 次网络升级。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P

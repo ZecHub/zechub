@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & ZK-SNARKS
+# ZKP & zk-SNARKs
 
 ## TL;DR
 
-- **ZK-SNARKs** = Zero-Maarifa Muhimu Non-Interactive hoja ya maarifa
+- **zk-SNARKs** = Zero-Maarifa Muhimu Non-Interactive hoja ya maarifa
 - Wanaruhusu mtu mmoja ** kuthibitisha wanajua kitu fulani ** bila kufunua habari yenyewe
-- Zcash hutumia ZK-SNARKs kuthibitisha shughuli ni halali (kiasi sahihi, unspent pembejeo) ** bila kufunua mtumaji, mpokeaji, au kiasi**
+- Zcash hutumia zk-SNARKs kuthibitisha shughuli ni halali (kiasi sahihi, unspent pembejeo) ** bila kufunua mtumaji, mpokeaji, au kiasi**
 - "Succinct" ina maana uthibitisho ni ndogo na haraka kuthibitisha hata kwa taarifa tata
-- bwawa Orchard inatumia Halo 2, ZK-SNARK mfumo na ** hakuna kuaminika kuanzisha required**
+- bwawa Orchard inatumia Halo 2, zk-SNARK mfumo na ** hakuna kuaminika kuanzisha required**
 
 ---
 
@@ -159,11 +159,11 @@ Uwazi Setup (No Trusted Setup) - preprocessing algorithm haina kutumia yoyote si
 
 ** Aina ya SNARK ushahidi constructions **:
 
-[Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Inahitaji Trusted Setup lakini ina uthibitisho mfupi sana ambayo inaweza kuthibitishwa haraka.
+[Groth16](https://eprint.iacr.org/2016/260): Inahitaji Trusted Setup lakini ina uthibitisho mfupi sana ambayo inaweza kuthibitishwa haraka.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/ [Plonk](https://eprint.iacr.org/2019/953): Universal Trusted Kuweka.
 
-[MNYAMA](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Hakuna Trusted Setup lakini kuzalisha uthibitisho kidogo zaidi au inaweza kuchukua muda mrefu kwa ajili ya kuthibitisha kukimbia. 
+[MNYAMA](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Hakuna Trusted Setup lakini kuzalisha uthibitisho kidogo zaidi au inaweza kuchukua muda mrefu kwa ajili ya kuthibitisha kukimbia. 
 
 SNARKS ni muhimu wakati verifiers nyingi zinahitajika kama vile blockchain kama Zcash au zk-Rollup kama vile [Aztec](https://docs.aztec.network) hivyo kwamba mbalimbali kuthibitisha nodes hawana kuingiliana juu ya raundi kadhaa na kila uthibitisho. 
 
@@ -179,7 +179,7 @@ Soma kitabu [Halo2](https://zcash.github.io/halo2/index.html) kwa habari zaidi.
 
 ## Nyingine Zero-Ujuzi Maombi 
 
-zk-SNARKS kutoa faida kadhaa katika aina mbalimbali ya maombi tofauti.
+zk-SNARKs kutoa faida kadhaa katika aina mbalimbali ya maombi tofauti.
 
 ** Scalability **: Hii ni mafanikio kwa 'Outsourcing Computation'. Hakuna mahitaji madhubuti kwa zero-maarifa kwa mlolongo L1 kuthibitisha kazi ya huduma nje ya mlolango. shughuli si lazima binafsi juu ya zk-EVM.
 
@@ -222,9 +222,9 @@ Kujifunza Zaidi:
 
 ## Kurasa Zinazohusiana
 
-- [Vidimbwi vya Kuhifadhiwa](/using-zcash/shielded-pools)  Jinsi ZK-SNARKs ni kutumika katika hifadhi Zcash thamani
-- [Halo](/zcash-tech/halo)  Zcash's ZK-SNARK mfumo ambao unaondoa kuaminika mipangilio
+- [Vidimbwi vya Kuhifadhiwa](/using-zcash/shielded-pools)  Jinsi zk-SNARKs ni kutumika katika hifadhi Zcash thamani
+- [Halo](/zcash-tech/halo)  Zcash's zk-SNARK mfumo ambao unaondoa kuaminika mipangilio
 - [Post Quantum Usalama katika Zcash](/zcash-tech/post-quantum-security) - Jinsi ya baadaye quantum hatari kuhusiana na Zcash cryptography
-- [Zcash Shielded Mali](/zcash-tech/zcash-shielded-assets)  ZSAs kujengwa juu ya teknolojia ZK-SNARK
+- [Zcash Shielded Mali](/zcash-tech/zcash-shielded-assets)  ZSAs kujengwa juu ya teknolojia zk-SNARK
 - [Ni nini ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Utangulizi wa Zcash na mfano wake wa faragha
-- [Usiri kama Kanuni ya Msingi](/privacy/privacy-as-a-core-principle)  Kwa nini faragha ya kifedha ni muhimu
+- [Usiri kama Kanuni ya Msingi](/start-here/who-can-see-your-zcash-payment)  Kwa nini faragha ya kifedha ni muhimu

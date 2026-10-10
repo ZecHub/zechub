@@ -20,7 +20,7 @@ Comprueba que el tuyo sea el token real. En Phantom, toca **ZEC** y desplázate 
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/01-phantom-zec-mint.png)
+![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Phantom la abrevia a `A7bd…QXaS`, así que compara los primeros y últimos caracteres, o busca la dirección completa en [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS). Cualquier otro token «ZEC» de tu wallet, sea cual sea su nombre o logotipo, no es este. No lo toques.
 
@@ -47,7 +47,7 @@ Instala la wallet desde el enlace de su tarjeta en el directorio, no desde un re
 
 Tu wallet muestra dos tipos de dirección:
 
-![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/02-zodl-receive.png)
+![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | Empieza por | Tipo | Lo que ve el público |
 |---|---|---|
@@ -72,11 +72,11 @@ Mantén un poco de SOL en Phantom para la comisión de Solana.
 2. Toca **Deposit**. Configura **Asset** como **Zcash**, **Network** como **Solana** y el método como **Wallet**.
 3. Introduce el importe (o toca **Max**) y aprueba la transacción en Phantom.
 
-![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/03-solswap-deposit.png)
+![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](/content-images/03-solswap-deposit-425691e62f.webp)
 
 Nuestro depósito llegó al bloque de Solana a las 15:09:08 (UTC+1) y solswap lo mostró como **Completed** nueve segundos después.
 
-![solswap deposit history showing Completed, +0.0026 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/04-solswap-deposit-complete.png)
+![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 Tus ZEC ahora están en tu saldo de NEAR Intents. Tu clave de Phantom autoriza cada movimiento que sale de él, los solucionadores de NEAR Intents realizan la entrega y NEAR Intents puede retener un saldo para revisión de cumplimiento (consulta las notas de confianza a continuación).
 
@@ -84,22 +84,22 @@ Tus ZEC ahora están en tu saldo de NEAR Intents. Tu clave de Phantom autoriza c
 
 solswap también tiene una página **Withdraw**, pero no nos funcionó. **Received amount** y **Fee** se quedaron en «–» y el botón no hacía nada, tanto si elegíamos Zcash como Solana como red.
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/05-solswap-withdraw-blank.png)
+![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 Si te ocurre esto, tus ZEC no están bloqueados. El saldo está vinculado a la clave de tu wallet, no al sitio web, así que cualquier aplicación de NEAR Intents en la que inicies sesión con esa wallet puede acceder a él. Terminamos en near.com:
 
 1. Ve a `near.com` e inicia sesión con la misma wallet de Phantom.
 2. Tu saldo de solswap aparece en **Move legacy assets** (near.com llama «legacy» a los saldos de aplicaciones de NEAR Intents más antiguas). Toca **Withdraw** en la fila de ZEC. No necesitas **Move**.
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/06-nearcom-legacy-assets.png)
+![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. Configura **Network** como **Zcash**, pega la dirección de `u1` de tu wallet como **Recipient** y compara los primeros y últimos seis caracteres con los de tu wallet.
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/07-nearcom-withdraw.png)
+![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. Toca **Review withdrawal**, lee el resumen y toca **Send**.
 
-![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/08-nearcom-review.png)
+![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
 
 5. Phantom te pide **Sign Message** para near.com. Esta firma es la que autoriza a NEAR Intents a mover tu saldo. No cuesta SOL, pero eso no la hace inocua: un sitio imitador puede mostrar la misma solicitud y vaciar con ella tu saldo de NEAR Intents. Antes de tocar **Confirm**, comprueba todo lo siguiente y toca **Cancel** si alguno falla:
    - El sitio indicado en la solicitud es `near.com`. (El depósito del paso 1 fue una solicitud de transacción ordinaria de Phantom desde `solswap.org`; comprueba ese nombre allí del mismo modo.)
@@ -107,13 +107,13 @@ Si te ocurre esto, tus ZEC no están bloqueados. El saldo está vinculado a la c
    - El mensaje es texto legible como el de la captura. Si es un bloque ilegible, o el sitio no coincide con el de tu barra de direcciones, recházalo.
    - Nunca te pide tu frase semilla. Firmar nunca implica escribirla.
 
-![Phantom Sign Message request from near.com on the Solana network](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/09-phantom-sign-message.png)
+![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
 6. near.com muestra **Processing send**, **Sending** y **Complete**. **View on explorer** abre el registro de NEAR Intents de la transferencia.
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/10-nearcom-complete.png)
+![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
 
-![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/11-intents-explorer.png)
+![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
 
 ### Cuánto costó nuestra prueba y cuánto tardó
 
@@ -145,19 +145,19 @@ Cada ruta para salir de Solana confía en OmniBridge, porque el bridge mantiene 
 
 Llegó blindado. Nuestros ZEC fueron a una dirección de `u1` y llegaron directamente al pool blindado de Ironwood. No hubo un paso transparente ni nada que blindar manualmente. La wallet lo mostraba como **Receiving…** con un icono de blindaje a las 16:07 (UTC+1) mientras recopilaba confirmaciones.
 
-![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/12-zodl-receiving.png)
+![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](/content-images/12-zodl-receiving-cb9f41511d.webp)
 
 Para comprobarlo tú mismo, abre la transacción en tu wallet y copia el ID de transacción.
 
-![Zcash wallet transaction details with the transaction ID and timestamp](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/13-zodl-tx-details.png)
+![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
 Pégalo en [el explorador de bloques de Zcash](https://mainnet.zcashexplorer.app). No te desconcierte el resumen. El nuestro dice **Shielded Inputs / Outputs 0 / 0** y **Transferred from/to shielded pool 0.0 ZEC**, porque el resumen del explorador aún no cuenta Ironwood. Las direcciones de `t1` que ves están en el lado de envío (los ZEC que gastó y el cambio que conservó), no son las tuyas.
 
-![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/14-explorer-summary.png)
+![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
 
 Haz clic en **Raw TX: JSON** y busca `ironwood`. Un `valueBalance` negativo allí significa que los ZEC entran en el pool de Ironwood. El nuestro fue `-0.00241336`, exactamente lo que llegó, y nada en la transacción muestra quién lo recibió.
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Using_Zcash/assets/solana-zec-to-shielded/15-explorer-raw-ironwood.png)
+![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 [Lo que puede ver un explorador de bloques](/zcash-tech/what-a-block-explorer-can-see) explica el resto de los campos.
 

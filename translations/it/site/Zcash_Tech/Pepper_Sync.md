@@ -52,9 +52,9 @@ Il segnalibro è la parte importante. Ogni versione precedente trattava una sinc
 
 ### Guide visuali
 
-- Flusso dettagliato - Mostra il processo completo. ![Flusso dettagliato](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Flusso dettagliato - Mostra il processo completo. ![Flusso dettagliato](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Flusso semplificato - Vista rapida per gli utenti di tutti i giorni. ![Flusso semplificato](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Flusso semplificato - Vista rapida per gli utenti di tutti i giorni. ![Flusso semplificato](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## Approfondimento
 

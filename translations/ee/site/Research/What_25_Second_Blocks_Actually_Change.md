@@ -16,6 +16,8 @@ Axa sia ɖe ZIP 218 me tso eya ŋutɔ ƒe nuŋɔŋlɔ me: nusiwo trɔna, nusiwo 
 | Seɖoƒe li na nuwɔna siwo wokpɔ ta na le block ɖesiaɖe me | ɖeke meli o (2 MB ƒe lolome ƒe seɖoƒe koe) | 330 le wo katã me, kple ta ɖeka ƒe nutrenuwo |
 | Atikutsetsebɔwo Orchard (2-action transactions) | abe 2.9 ene le sɛkɛnd ɖeka me | abe 6.6 ene le sɛkɛnd ɖeka me |
 
+![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
+
 Block siwo sɔ gbɔ wu zi gbɔ zi etɔ̃, eye wo dometɔ ɖesiaɖe xea ga home si sɔ gbɔ wu ema ƒe akpa etɔ̃lia. Nusiwo woatsɔ ana ƒe ɖoɖowɔɖia nɔa afisi wònɔ.
 
 ## Nukatae nàtrɔ block ƒe ɣeyiɣia
@@ -25,7 +27,7 @@ Taɖodzinu vevitɔe nye **ɣeyiɣi si woatsɔ alalae**. Egbea la, fexexe aɖe la
 Nya eve siwo tso ZIP la me nyo be woanɔ susu me na mí:
 
 - **Megblɔna na ame aɖeke be wòazã kpeɖodzinya ʋɛ aɖewo o.** Le ezãla siwo léa mɔɖeɖe ɖe afɔku si nye rollback ŋu abe egbea ene gome la, ZIP le mɔ kpɔm be kpeɖodziɣia anyo ɖe edzi vie wu zi gbɔ zi etɔ̃.
-- **Menye nusi woatsɔ aɖo dɔ mamlɛtɔ teƒe o.** ZIP la ɖɔ eɖokui be enye kpeɖeŋutɔ na nuwuwu ƒe mɔnuwo abe Crosslink. Base-layer blocks siwo le kabakaba wu kpena ɖe ame ŋu ne wotsɔ finality layer kpee emegbe alo wometsɔe kpe ɖe eŋu o.
+- **Menye nusi woatsɔ aɖo dɔ mamlɛtɔ teƒe o.** ZIP la ɖɔ eɖokui be enye kpeɖeŋutɔ na nuwuwu ƒe mɔnuwo abe Crosslink. Base-layer block siwo le kabakaba wu kpena ɖe ame ŋu ne wotsɔ finality layer kpee emegbe alo wometsɔe kpe ɖe eŋu o.
 
 ZIP la de dzesii hã be woate ŋu akpɔ throughput si lolo wu ɖeɖeko ne block ƒe lolome lolo wu. Latency ye nye susu si ta wotia block kpuiwo ɖe eteƒe.
 
@@ -49,7 +51,7 @@ Esia to vovo na gadodo ŋuti nyabiase bubu si le NU7 numekukua me, afisi gakuxɔ
 
 ### Seɖoƒe yeyewo na nuwɔna siwo wokpɔ ta na le block ɖesiaɖe me
 
-ZIP 218 tsɔa nutrenuwo kpena ɖe dɔwɔwɔ si wokpɔ ta na si block ɖeka ate ŋu alé ŋu:
+ZIP 218 tsɔa nutrenu kpena ɖe dɔwɔwɔ si wokpɔ ta na si block ɖeka ate ŋu alé ŋu:
 
 | Seɖoƒe li na | Maximum le block ɖeka me |
 |---|---|
@@ -99,7 +101,7 @@ Block siwo zɔna kabakaba wu la menye femaxee o. Block xoxo nye block si sɔ si 
 
 - **Egbea:** abe 0.4% ene, si ZIP de dzesii ate ŋu aɖiɖi agbɔsɔsɔ si le ete la nu tsɛe elabena hashpower le tadeaguƒewo me.
 - **Nukpɔsusu le sɛkɛnd 25 me:** abe 3.26% ene, si wotu ɖe Zcash kaka ƒe megbetsitsi siwo wodzidze dzi.
-- **Devnet dodokpɔ:** Zebra node 99 siwo woma ɖe anyigba ƒe nɔnɔme nu siwo wɔa 2 MB block blibowo le sɛkɛnd 25 ƒe dometsotso me dzidze 4.86% ƒe stale rate kple 0.37% fork rate. Tuning ɖeka kolia si hiãe nye TCP ƒe ɖoɖowɔwɔ. Esi wònye be devnet ma nɔ decentralized wu egbegbe mainnet ta la, ZIP bua amesiawo be wogogo xexlẽme vɔ̃ɖitɔwo.
+- **Devnet dodokpɔ:** Zebra node 99 siwo woma ɖe anyigba ƒe nɔnɔme nu siwo wɔa 2 MB block blibowo le sɛkɛnd 25 ƒe dometsotso me dzidze 4.86% ƒe stale rate kple 0.37% fork rate. Tuning ɖeka si hiãe nye TCP ƒe ɖoɖowɔwɔ. Esi wònye be devnet ma nɔ decentralized wu egbegbe mainnet ta la, ZIP bua amesiawo be wogogo xexlẽme vɔ̃ɖitɔwo.
 - **Nufiame teƒe:** ZIP zãa Ethereum ƒe ŋutinya me kpeɖodzi-ɖe-dɔwɔwɔ ƒe stale rate si nye 5.4% abe eƒe dedienɔnɔ ƒe dzidzenu ene. Devnet ƒe xexlẽdzesi eveawo siaa bɔbɔ nɔ ete.
 
 Gazazã sue eve hã li. Gakotoku siwo me kɔ la wɔa compact block headers siwo ade 200 KB geɖe wu gbesiagbe. Eye esi wònye be blockwo sɔ gbɔ wu zi gbɔ zi etɔ̃ ta la, block geɖe le node blibo si menɔ Internet dzi o si ŋu wòle be wòawɔ dɔ le ne eɖo eŋu, togbɔ be block ɖesiaɖe ƒe asi bɔbɔ wu be woaɖo kpe edzi hã. ZIP la xɔa evea siaa.

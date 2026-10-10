@@ -15,8 +15,7 @@
 | Thumbs' Update             | تحديثات منتظمة حول النظام البيئي ورؤى معمقة                   | [زيارة ->](https://thumbsup.substack.com) |
 | roomatemusing              | تأملات ومحتوى مجتمعي                            | [زيارة ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | مدونة تقنية تركز على تطوير Zcash والأدوات    | [زيارة ->](https://blog.nerdbank.net/) |
-| ZecMec                     | مقالات تركز على Zcash على Medium                         | [زيارة ->](https://zecmec21.medium.com/) |
-| Ian Sagstetter             | مقالات متعمقة ونشرة إخبارية                         | [زيارة ->](https://iansagstetter.substack.com/) |
+| ZecMec                     | مقالات تركز على Zcash حول Medium                         | [زيارة ->](https://zecmec21.medium.com/) |
 | Naomi Brockwell (NBTV)     | مقابلات رفيعة المستوى ومحتوى عن الخصوصية           | [زيارة ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | محتوى إبداعي ومجتمعي موجّه لـ Zcash              | [زيارة ->](https://free2z.cash/sqribbles) |
 | Str4d                      | كتابات تقنية من مطور أساسي في Zcash             | [زيارة ->](https://words.str4d.xyz/) |

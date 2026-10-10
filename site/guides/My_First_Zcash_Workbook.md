@@ -8,11 +8,9 @@
 
 This guide provides an overview of the workbook's core learning arc, divided into nine major sections. It is not a replacement for the book itself but rather, it is a companion resource that summarizes the educational flow and highlights important information for instructors, students, and community educators.
 
-The workbook is freely available for download as a PDF or as an interactive flipbook:
+The workbook is freely available for download as a PDF:
 
 [Outline](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
-
-[Flipbook](https://midd.me/nbp2)
 
 [GitHub Repo](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -152,7 +150,7 @@ The final section invites readers to become part of the Zcash ecosystem. Opportu
 - Contributing to future workbook translations  
 - Supporting open-source education  
 - Creating content, code contributions, artwork, or feedback  
-- Exploring Zcash community grants  
+- Exploring Zcash Community Grants  
 
 The message is clear: anyone can participate, and the community welcomes contributors of all backgrounds and skill levels.
 

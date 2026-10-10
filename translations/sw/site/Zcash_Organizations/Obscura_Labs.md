@@ -1,5 +1,5 @@
 # Obscura Labs
-<img width="369" height="434" alt="obscuralabs" src="https://github.com/user-attachments/assets/5fda3e74-750c-487e-92e9-3cacc15f9b4b" />
+<img width="369" height="434" alt="obscuralabs" src="/content-images/5fda3e74-750c-487e-92e9-3cacc15f9b4b-b41e98d3e5.webp" />
 
 [Tembelea tovuti](https://www.obscuralabs.org/)
 
@@ -51,7 +51,7 @@ Mipango ya miundombinu inaweza kujumuisha:
 * Umma Zcash mainnet RPC mwisho pointi.
 * Umma Zcash testnet RPC mwisho pointi.
 * Zebra full nodes.
-* Lightwalletd huduma.
+* lightwalletd huduma.
 * Wachimbaji wa DNS.
 * Ufuatiliaji wa miundombinu ya umma.
 * Developer-ililenga APIs.
@@ -128,11 +128,11 @@ Shirika hilo linaendesha vituo vya Zebra ndani ya Afrika.
 
 Zebra is an independent implementation of the Zcash consensus protocol. Operating Zebra infrastructure contributes to network accessibility, implementation diversity, and the geographic distribution of Zcash nodes.
 
-### Lightwalletd Huduma
+### lightwalletd Huduma
 
-Obscura Labs huendesha miundombinu Lightwalletd ili kusaidia muunganisho wa pochi ya Zcash.
+Obscura Labs huendesha miundombinu lightwalletd ili kusaidia muunganisho wa pochi ya Zcash.
 
-Lightwalletd hutoa data blockchain kwa mteja mwanga-pochi bila kuhitaji kila mtumiaji wa mkoba kuendesha node kamili ya Zcash.
+lightwalletd hutoa data blockchain kwa mteja mwanga-pochi bila kuhitaji kila mtumiaji wa mkoba kuendesha node kamili ya Zcash.
 
 ### Ufuatiliaji wa Miundombinu
 

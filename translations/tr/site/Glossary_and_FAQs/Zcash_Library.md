@@ -70,9 +70,9 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 
 ## G
 
-| Term | Definition |
+| Terim | Tanım |
 |------|-----------|
-| Governance | ZIP sürecinden çıkan kararlar, Zcash spesifikasyonuna ve ağın çalışmasını sağlayan yazılıma yazılır. Değişiklikler, ağın çoğunluğu yükseltmeyi benimsediğinde ve konsensüs bozulmadığında zincir üzerinde onaylanır. [Tam Protokol Geçmişi](https://zfnd.org/protocol-governance/) |
+| Governance | ZIP sürecinden çıkan kararlar, Zcash spesifikasyonuna ve ağı çalıştıran yazılıma yazılır. Değişiklikler, ağın çoğunluğu yükseltmeyi benimsediğinde ve konsensüsü bozmadığında zincir üzerinde onaylanır. [Tam Protokol Geçmişi](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 

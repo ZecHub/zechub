@@ -21,13 +21,13 @@ Blossom 的核心变更很简单。Zcash 的目标区块间隔，也就是网络
 1. 区块到达频率大约翻倍，因此这条链每单位时间大致可以承载双倍交易量。
 2. 你的交易会更快获得第一次确认，因为你不必再等待那么久才会出现下一个区块。
 
-![在 Blossom 之前，区块目标时间为 150 秒，确认更慢，吞吐量更低。Blossom 之后，目标时间变为 75 秒，确认更快，吞吐量大约翻倍](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![在 Blossom 之前，区块目标时间为 150 秒，确认更慢，吞吐量更低。Blossom 之后，目标时间变为 75 秒，确认更快，吞吐量大约翻倍](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## 保持发行稳定
 
 更快的区块会带来一个问题。如果 Zcash 生成了两倍数量的区块，而每个区块仍支付相同奖励，那么网络生成 ZEC 的速度也会翻倍。Blossom 避免了这种情况。它将每个区块支付的奖励减半，并将区块奖励减半间隔从 840,000 个区块翻倍到 1,680,000 个区块（[ZIP 208](https://zips.z.cash/zip-0208)）。区块数量翻倍、每个区块支付减半，最终每单位时间产生的 ZEC 总量保持不变。总供应时间表以及未来减半的实际时间点都没有改变。
 
-![Blossom 如何保持发行稳定：75 秒区块到达频率翻倍，每区块奖励减半，减半间隔翻倍，因此随时间推移的总发行量保持不变](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Blossom 如何保持发行稳定：75 秒区块到达频率翻倍，每区块奖励减半，减半间隔翻倍，因此随时间推移的总发行量保持不变](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## 一次强制升级
 

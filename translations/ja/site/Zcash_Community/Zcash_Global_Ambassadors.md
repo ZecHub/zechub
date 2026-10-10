@@ -31,7 +31,7 @@
 | 東アフリカ | [Zcash East Africa](https://x.com/ZcashEastAfrica) | 東アフリカ、ウガンダでのコミュニティ成長 |
 | 南アフリカ | [Zcash South Africa](https://twitter.com/Zcash_SA) | 南アフリカ |
 | ガーナ | [Zcash Ghana](https://x.com/ZcashGH) | ガーナ |
-| メキシコ | [zcashqro](https://x.com/zcashqro) | 大学へのアウトリーチと開発者のオンボーディング |
+| メキシコ | [Zcash Mexico](https://x.com/ZcashMx) | 大学へのアウトリーチと開発者のオンボーディング |
 | ロシア | [ruZcash](https://x.com/ruZCASH) | ロシア語コンテンツとコミュニティ |
 | インド | [Zcash India](https://x.com/ZcashIND) | 開発者教育とコミュニティ成長 |
 | 韓国 | [Zcash Korea](https://x.com/zcashkorea) | 韓国語の教育コンテンツ |
@@ -39,5 +39,5 @@
 ## アンバサダーへの応募
 
 以下の方法でも参加できます：
-- [ZEC バウンティ](https://bounties.zechub.wiki/)に貢献する
+- [ZEC Bounties](https://bounties.zechub.wiki/)に貢献する
 - [Zcash Global Discord](https://discord.gg/zcash)に参加する

@@ -72,7 +72,7 @@ Faharasa kamili ya maneno muhimu, dhana, na rasilimali zinazohusiana na Zcash.
 
 | Muhula | Ufafanuzi |
 |------|-----------|
-| Governance | Maamuzi kutoka kwa mchakato wa ZIP yameandikwa katika vipimo vya Zcash, pamoja na programu inayoendesha mtandao. Mabadiliko hayo yanaidhinishwa kwenye mnyororo wakati mtandao mwingi unapokubali uboreshaji na hauvunji makubaliano. [Historia Kamili ya Itifaki](https://zfnd.org/protocol-governance/) |
+| Governance | Maamuzi kutoka kwa mchakato wa ZIP yameandikwa katika vipimo vya Zcash, pamoja na programu inayoendesha mtandao. Mabadiliko hayo yanaidhinishwa kwenye mnyororo wakati mtandao mwingi unapokubali uboreshaji na hauvunji makubaliano. [Historia Kamili ya Itifaki](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -86,7 +86,7 @@ Faharasa kamili ya maneno muhimu, dhana, na rasilimali zinazohusiana na Zcash.
 
 | Muhula | Ufafanuzi |
 |------|-----------|
-| Index | Kielezo cha ZCX cha CoinDesk kinawakilisha kiwango cha muda halisi, sawa na USD kwa Zcash. [Fahirisi ya Bei](https://www.coindesk.com/indices/zcx/) |
+| Index | Kielezo cha ZCX CoinDesk's kinawakilisha kiwango cha muda halisi, sawa na USD kwa Zcash. [Fahirisi ya Bei](https://www.coindesk.com/indices/zcx/) |
 | Integrations | Unaweza kukubali malipo Zcash kupitia idadi ya watoa huduma wengine. [Wachakataji wa Malipo](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Mashine dhahania inayounda mfumo wa hesabu kama ubadilishanaji wa ujumbe kati ya pande mbili: Mtoaji na Mthibitishaji. |
 | Investment | Chaguzi kadhaa za kifedha zinapatikana kwa wawekezaji wa taasisi au ofisi za familia wanaotaka kupata uzoefu wa Zcash. [Orodha kamili](https://z.cash/investors/) |
@@ -128,10 +128,10 @@ Faharasa kamili ya maneno muhimu, dhana, na rasilimali zinazohusiana na Zcash.
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Pendekezo kutoka kwa Shielded Labs la kutumia sehemu ya ada za miamala ili bajeti ya usalama ya muda mrefu ya itifaki isitegemee kabisa utoaji. Imebainishwa katika ZIP 234, chini ya ukaguzi mwaka wa 2026. |
 | Nighthawk | Pochi ya mkononi kwa ajili ya Zcash. [Tovuti](https://nighthawkwallet.com) |
-| Noir Wallet | Pochi ya kiendelezi cha kivinjari Zcash inayoungwa mkono na Ruzuku za Jumuiya Zcash, iliyojengwa ili kuunganisha ZEC iliyolindwa moja kwa moja kwenye programu za kivinjari badala ya kutegemea misimbo ya QR na uhamishaji wa mikono. [zknoir.com](https://www.zknoir.com/) |
+| Noir Wallet | Pochi ya kiendelezi cha kivinjari Zcash inayoungwa mkono na Zcash Community Grants, iliyojengwa ili kuunganisha ZEC iliyolindwa moja kwa moja kwenye programu za kivinjari badala ya kutegemea misimbo ya QR na uhamishaji wa mikono. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Uboreshaji wa Mtandao Mkuu wa 6 wa Zcash, ukianzisha bwawa la kuogelea lililolindwa na Orchard na Anwani za Unified. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Uboreshaji wa Mtandao Mkuu wa 7 wa Zcash, kurekebisha ruzuku ya block ili kufadhili mpango wa Ruzuku za Jumuiya Zcash na Labs Shielded. Ilianzishwa mwishoni mwa 2024. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Uboreshaji mkuu unaofuata wa mtandao baada ya Ironwood. Vipengele vinavyotarajiwa ni pamoja na kazi ya kuongeza ukubwa ya Project Tachyon, Zcash Shielded Assets, na Mfumo wa Uendelevu wa Mtandao. |
+| NU6 | Uboreshaji wa Mtandao Mkuu wa 7 wa Zcash, kurekebisha ruzuku ya block ili kufadhili mpango wa Zcash Community Grants na Labs Shielded. Ilianzishwa mwishoni mwa 2024. [Maelezo Zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU7 | Uboreshaji mkuu unaofuata wa mtandao baada ya Ironwood. Vipengele vinavyotarajiwa ni pamoja na kazi ya kuongeza ukubwa Tachyon's, Zcash Shielded Assets, na Mfumo wa Uendelevu wa Mtandao. |
 
 ## O
 
@@ -181,7 +181,7 @@ Faharasa kamili ya maneno muhimu, dhana, na rasilimali zinazohusiana na Zcash.
 
 | Muhula | Ufafanuzi |
 |------|-----------|
-| Tachyon | Programu ya kuongeza ukubwa Zcash's, inayolenga NU7. Inahamisha pochi mbali na kuchanganua kila kizuizi kuelekea hali ya pochi inayobeba uthibitisho, usawazishaji usioeleweka na hali ya nodi inayoweza kupunguzwa, ikilenga kupitisha data kwa usalama katika maelfu ya miamala kwa sekunde. [Tovuti ya mradi](https://tachyon.z.cash/overview/) |
+| Tachyon | Programu ya kuongeza ukubwa Zcash's, inayolenga NU7. Inahamisha pochi mbali na kuchanganua kila kizuizi kuelekea hali ya pochi inayobeba uthibitisho, usawazishaji usioeleweka na hali ya nodi inayoweza kupunguzwa, ikilenga upitishaji uliolindwa katika maelfu ya miamala kwa sekunde. [Tovuti ya mradi](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (sarafu ya majaribio isiyo na thamani). |
 | Testnet | Blockchain tofauti ya kujaribu maboresho na vipengele kabla ya mainnet. |
 | Trailing Finality Layer (TFL) | Utafiti kuhusu kuongeza safu ya mwisho nyuma ya mnyororo wa uthibitisho wa kazi Zcash's ili vitalu vya hivi karibuni viweze kukamilishwa bila kuchukua nafasi ya uchimbaji. Crosslink ndiyo muundo uliotokana nayo. |
@@ -210,7 +210,7 @@ Faharasa kamili ya maneno muhimu, dhana, na rasilimali zinazohusiana na Zcash.
 | Muhula | Ufafanuzi |
 |------|-----------|
 | Wallet | Programu au vifaa vinavyohifadhi funguo za kibinafsi na hukuruhusu kutuma/kupokea ZEC. Pochi zinazotumika ni pamoja na ZODL (iOS/Android), Zingo! (simu/kompyuta), Nighthawk (Android), Zkool (simu/kompyuta), Zallet (inayokuja), na Keystone (vifaa). Kwa orodha kamili, tazama [Pochi Zcash Ecosystem](https://z.cash/ecosystem/?wallets=#tag-wallets) |
-| WebZjs | SDK ya kwanza ya JavaScript kwa Zcash, iliyojengwa na ChainSafe kwa mazingira ya kivinjari. Inasimamia picha ya Zcash Shielded Wallet iliyoleta ZEC iliyolindwa kwenye MetaMask. |
+| WebZjs | SDK ya kwanza JavaScript kwa Zcash, iliyojengwa na ChainSafe kwa mazingira ya kivinjari. Inasimamia picha ya Zcash Shielded Wallet iliyoleta ZEC iliyolindwa kwenye MetaMask. |
 
 ## X
 
