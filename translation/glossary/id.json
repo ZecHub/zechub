@@ -45,6 +45,10 @@
     },
     "english_in_brackets": "never",
     "loanwords": "keep-english",
+    "examples": {
+      "english_in_brackets": "no \"transaksi terlindungi (shielded)\"",
+      "capitalise_kept_english_at_sentence_start": "\"Proof ini …\", \"Pool terlindungi …\", \"Swap dapat …\""
+    },
     "capitalise_kept_english_at_sentence_start": true,
     "abbreviations_with_full_stop": [
       "dll",

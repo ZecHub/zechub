@@ -14,6 +14,7 @@ import {
   PLACEHOLDERS,
   registerText,
   renderPrompt,
+  styleLines,
   termLine,
 } from "./render-prompt.mjs";
 import { siteDirectories } from "../validate.mjs";
@@ -372,4 +373,15 @@ test("CLI fails loudly, with nothing on stdout, for a locale without a glossary 
     assert.equal(r.status, 1, args.join(" "));
     assert.equal(r.stdout, "");
   }
+});
+
+test("style examples are appended to their rule, and unknown example keys are rejected", () => {
+  const id = glossaryOf("id");
+  const lines = styleLines(id).map((l) => l.text);
+  assert.ok(lines.some((t) => t.includes("NEVER add the English original in brackets") && t.includes('(e.g. no "transaksi terlindungi (shielded)")')), lines.join("\n"));
+  assert.ok(lines.some((t) => t.startsWith("Start every sentence") && t.includes('"Proof ini …"')), lines.join("\n"));
+  const bad = structuredClone(id);
+  bad.style.examples = { numerals: "x" };
+  const errs = validateLocale(bad, { termsEn: TERMS_EN, preserveVerbatim: PV, siteDirs: null, fileLocale: "id" });
+  assert.ok(errs.some((e) => /unknown key "numerals"/.test(e.message)), JSON.stringify(errs));
 });

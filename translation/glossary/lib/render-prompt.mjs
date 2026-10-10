@@ -49,7 +49,12 @@ export function styleLines(glossary) {
   const s = glossary?.style ?? {};
   const lang = glossary?.meta?.language_name ?? "";
   const out = [];
-  const add = (field, text) => out.push({ field, text: text.replaceAll("{{LANGUAGE}}", lang) });
+  const ex = s.examples ?? {};
+  const add = (field, text) => {
+    let t = text.replaceAll("{{LANGUAGE}}", lang);
+    if (ex[field]) t = `${t.replace(/\.$/, "")} (e.g. ${ex[field]}).`;
+    out.push({ field, text: t });
+  };
   if (s.loanwords_text) add("loanwords_text", s.loanwords_text);
   else if (LOANWORDS_TEXT[s.loanwords]) add("loanwords", LOANWORDS_TEXT[s.loanwords]);
   if (BRACKETS_TEXT[s.english_in_brackets]) add("english_in_brackets", BRACKETS_TEXT[s.english_in_brackets]);

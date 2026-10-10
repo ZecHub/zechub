@@ -65,8 +65,10 @@ export const META_FIELDS = [
   "language_name", "native_name", "engine", "script", "dir", "language_lead",
   "last_review", "enforce",
 ];
+// Style rules that may carry a target-language example (style.examples).
+export const EXAMPLE_FIELDS = ["english_in_brackets", "capitalise_kept_english_at_sentence_start"];
 export const STYLE_FIELDS = [
-  "variety", "register", "english_in_brackets", "loanwords", "loanwords_text",
+  "variety", "register", "english_in_brackets", "loanwords", "loanwords_text", "examples",
   "capitalise_kept_english_at_sentence_start", "numerals", "decimal_separator",
   "quotes", "abbreviations_with_full_stop", "notes",
 ];
@@ -505,6 +507,17 @@ export function validateLocale(glossary, { termsEn, preserveVerbatim = [], siteD
     for (const f of ["variety", "loanwords_text"]) {
       if (style[f] !== undefined && !isStr(style[f])) {
         errors.push({ rule: "structure", where: `${where0} style`, message: `${f} must be a non-empty string` });
+      }
+    }
+    if (style.examples !== undefined) {
+      const ex = style.examples;
+      if (!ex || typeof ex !== "object" || Array.isArray(ex)) {
+        errors.push({ rule: "structure", where: `${where0} style`, message: "examples must be an object" });
+      } else {
+        for (const [k, v] of Object.entries(ex)) {
+          if (!EXAMPLE_FIELDS.includes(k)) errors.push({ rule: "structure", where: `${where0} style.examples`, message: `unknown key "${k}" (allowed: ${EXAMPLE_FIELDS.join(", ")})` });
+          else if (!isStr(v)) errors.push({ rule: "structure", where: `${where0} style.examples`, message: `${k} must be a non-empty string` });
+        }
       }
     }
     if (style.abbreviations_with_full_stop !== undefined && !isStrArray(style.abbreviations_with_full_stop)) {

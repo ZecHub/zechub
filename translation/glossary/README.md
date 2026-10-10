@@ -58,6 +58,9 @@ The output is `prompt-template.md` with its placeholders filled from
 - `loanwords_text` is for a loanword rule the two values of `loanwords`
   cannot express ("may remain in Latin script where that is the natural
   usage"); it is printed as written.
+- `examples` adds a target-language example to the brackets or capitals
+  rule, printed as "(e.g. ...)". Small local models follow a rule more
+  reliably with an example.
 
 The 13 languages that had only a hand-written head (ar de es fr hi it ja ko
 pt ru tr uk zh) have a glossary with `meta`, `style` and the one term rule

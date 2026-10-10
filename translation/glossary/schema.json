@@ -415,6 +415,15 @@
         "capitalise_kept_english_at_sentence_start": {
           "type": "boolean"
         },
+        "examples": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Target-language examples appended to a style rule in the prompt as '(e.g. ...)'. Small local models follow a rule more reliably with an example.",
+          "properties": {
+            "english_in_brackets": { "type": "string", "minLength": 1 },
+            "capitalise_kept_english_at_sentence_start": { "type": "string", "minLength": 1 }
+          }
+        },
         "numerals": {
           "type": "string"
         },
