@@ -73,7 +73,7 @@ Multiple unlinkable diversified payment addresses share the same FVK and incomin
 
 This functional separation forms the foundation of cold signing workflows. All continuous chain scanning, history tracking, and address management are offloaded to host software, while spend authority remains isolated on the hardware device.
 
-![Key derivation diagrams](./content-images/key-derivation-diagrams.webp)
+![Key derivation diagrams](/content-images/key-derivation-diagrams.webp)
 
 ### The critical distinction: UFVK vs. spending key
 
@@ -144,7 +144,7 @@ Shielded cold signing is a method of authorizing a Zcash shielded transaction wh
 
 The process can be simplified as:
 
-![Shielded cold signing process](./content-images/cold-signing-process.webp)
+![Shielded cold signing process](/content-images/cold-signing-process.webp)
 
 The companion wallet sends the structured transaction parameters to the hardware device, which signs the payload internally without ever releasing the private spending key to the host machine.
 
@@ -201,7 +201,7 @@ If the companion computer or phone is compromised, an attacker may be able to in
 
 This separation allows the companion wallet to perform transaction construction and computational tasks without giving it direct access to the key material required to authorize the transaction.
 
-![Key isolation](./content-images/key-isolation.webp)
+![Key isolation](/content-images/key-isolation.webp)
 
 The key distinction to make is that "viewing key" does not mean the app receives a weaker version of the seed.
 
@@ -297,7 +297,7 @@ https://forum.zcashcommunity.com/t/pczt-interoperability-test-suite-feedback-bef
 
 Several hardware wallet implementations have been developed to explore how Zcash shielded transactions can be supported while keeping sensitive spending keys isolated from the companion wallet. Ledger, Keystone, and Hito represent different approaches to integrating hardware based key protection with the Zcash transaction workflow.
 
-![Real world hardware wallet implementations](./content-images/hardware-wallet-implementations.webp)
+![Real world hardware wallet implementations](/content-images/hardware-wallet-implementations.webp)
 
 To understand how they protect shielded funds, it is important to distinguish between spending keys and viewing keys. Across all three, the split follows the same shape:
 
@@ -524,7 +524,7 @@ Keystone's Zcash integration with Zashi makes this separation particularly expli
 
 So the flow is:
 
-![Keystone and Zashi viewing flow](./content-images/keystone-zashi-viewing-flow.webp)
+![Keystone and Zashi viewing flow](/content-images/keystone-zashi-viewing-flow.webp)
 
 **What can Zashi do with the UFVK?**
 
@@ -548,7 +548,7 @@ This is why the Zashi and Keystone integration can provide shielded cold storage
 
 When you want to spend:
 
-![Keystone and Zashi spending flow](./content-images/keystone-spend-flow.webp)
+![Keystone and Zashi spending flow](/content-images/keystone-spend-flow.webp)
 
 ## 3. Hito
 
@@ -567,7 +567,7 @@ when onboarding the hardware account.
 
 Note that the Android application never receives the hardware wallet's seed or private spending keys.
 
-![Hito onboarding](./content-images/hito-onboarding.webp)
+![Hito onboarding](/content-images/hito-onboarding.webp)
 
 **What does the Hito app get?**
 
@@ -590,7 +590,7 @@ That workflow is worth naming explicitly, since it's the concrete instance of th
 
 At no point does the seed or spending key cross that boundary in either direction.
 
-![Hito signing flow](./content-images/hito-signing-flow.webp)
+![Hito signing flow](/content-images/hito-signing-flow.webp)
 
 ## Orchard to Ironwood: The Evolution Of Hardware Wallet Support
 
@@ -652,6 +652,6 @@ https://forum.zcashcommunity.com/t/ironwood-is-here-updated-wallets-libraries-au
 
 ### The evolution in one picture
 
-![The evolution in one picture](./content-images/orchard-to-ironwood-evolution.webp)
+![The evolution in one picture](/content-images/orchard-to-ironwood-evolution.webp)
 
 ```
