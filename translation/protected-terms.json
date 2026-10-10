@@ -285,13 +285,5 @@
       "zk-SNARK",
       "zk-SNARKs"
     ]
-  ],
-  "glossaryOnly": [
-    "token",
-    "chain",
-    "cross-chain",
-    "faucet",
-    "mining",
-    "miner"
   ]
 }

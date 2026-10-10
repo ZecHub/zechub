@@ -506,6 +506,6 @@ test("the committed terms.en.json is valid against protected-terms.json", () => 
   const { preserveVerbatim } = JSON.parse(readFileSync(new URL("../../protected-terms.json", import.meta.url), "utf8"));
   assert.deepEqual(validateTermsEn(termsEn, { preserveVerbatim }), []);
   const ids = new Set(termsEn.terms.map((t) => t.id));
-  // The six words protected-terms.json lists as glossaryOnly live here now.
+  // The six words protected-terms.json used to list as glossaryOnly live here.
   for (const id of ["token", "chain", "cross-chain", "faucet", "mining", "miner"]) assert.ok(ids.has(id), id);
 });
