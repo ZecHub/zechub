@@ -6,35 +6,35 @@
 
 Your miner payout and your finalizer are not the same thing. The chain never links them. That is useful, and it is easy to waste.
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:20px 0;">
-  <div style="border-radius:12px;padding:16px;background:#ecfdf5;border:1px solid #a7f3d0;">
-    <div style="font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:#047857;">Miner</div>
-    <div style="font-size:18px;font-weight:650;margin-top:4px;">Transparent payout</div>
-    <div style="margin-top:6px;color:#065f46;">Coinbase pays a Zcash address. A t-address history is public.</div>
+<div className="grid gap-3 my-5 sm:grid-cols-3">
+  <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4">
+    <div className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Miner</div>
+    <div className="mt-1 text-lg font-semibold text-emerald-950">Transparent payout</div>
+    <p className="mt-1 text-sm text-emerald-800">Coinbase pays a Zcash address. A t-address history is public.</p>
   </div>
-  <div style="border-radius:12px;padding:16px;background:#eff6ff;border:1px solid #bfdbfe;">
-    <div style="font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:#1d4ed8;">Finalizer</div>
-    <div style="font-size:18px;font-weight:650;margin-top:4px;">zfinv1 key</div>
-    <div style="margin-top:6px;color:#1e3a8a;">An ed25519 key. It signs votes. It is not a Zcash address.</div>
+  <div className="rounded-xl border border-blue-200 bg-blue-50 p-4">
+    <div className="text-xs font-semibold uppercase tracking-wide text-blue-700">Finalizer</div>
+    <div className="mt-1 text-lg font-semibold text-blue-950">zfinv1 key</div>
+    <p className="mt-1 text-sm text-blue-800">An ed25519 key. It signs votes. It is not a Zcash address.</p>
   </div>
-  <div style="border-radius:12px;padding:16px;background:#fff7ed;border:1px solid #fed7aa;">
-    <div style="font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:#c2410c;">Bond</div>
-    <div style="font-size:18px;font-weight:650;margin-top:4px;">Shielded stake</div>
-    <div style="margin-top:6px;color:#9a3412;">Lives in the staking pool. Names a target finalizer.</div>
+  <div className="rounded-xl border border-amber-200 bg-amber-50 p-4">
+    <div className="text-xs font-semibold uppercase tracking-wide text-amber-700">Bond</div>
+    <div className="mt-1 text-lg font-semibold text-amber-950">Shielded stake</div>
+    <p className="mt-1 text-sm text-amber-800">Lives in the staking pool. Names a target finalizer.</p>
   </div>
 </div>
 
 ## The order that matters
 
-<div style="border-radius:12px;padding:16px 18px;background:#f8fafc;border:1px solid #e2e8f0;margin:16px 0;">
-  <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-weight:650;">
-    <span style="background:#0f766e;color:white;border-radius:999px;padding:4px 10px;">1 Mine</span>
-    <span style="color:#94a3b8;">→</span>
-    <span style="background:#1d4ed8;color:white;border-radius:999px;padding:4px 10px;">2 Shield</span>
-    <span style="color:#94a3b8;">→</span>
-    <span style="background:#b45309;color:white;border-radius:999px;padding:4px 10px;">3 Bond</span>
+<div className="my-4 rounded-xl border border-slate-200 bg-slate-50 p-4">
+  <div className="flex flex-wrap items-center gap-2 font-semibold">
+    <span className="rounded-full bg-teal-700 px-3 py-1 text-sm text-white">1 Mine</span>
+    <span className="text-slate-400">→</span>
+    <span className="rounded-full bg-blue-700 px-3 py-1 text-sm text-white">2 Shield</span>
+    <span className="text-slate-400">→</span>
+    <span className="rounded-full bg-amber-700 px-3 py-1 text-sm text-white">3 Bond</span>
   </div>
-  <p style="margin:10px 0 0;">Skip the shield and the private step never happens. A bond does not erase a transparent coinbase.</p>
+  <p className="mt-3 mb-0">Skip the shield and the private step never happens. A bond does not erase a transparent coinbase.</p>
 </div>
 
 ## What is public
@@ -49,24 +49,24 @@ Your miner payout and your finalizer are not the same thing. The chain never lin
 
 ## Stake to yourself, or to someone else
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:16px 0;">
-  <div style="border-radius:12px;padding:16px;border:1px solid #e2e8f0;">
-    <div style="font-weight:650;">Bond to your own finalizer</div>
-    <p style="margin:8px 0 0;">Simplest. You keep the operator role and the bond. An observer still cannot prove the t-address and the zfinv1 are one person from chain data alone.</p>
+<div className="grid gap-3 my-4 sm:grid-cols-2">
+  <div className="rounded-xl border border-slate-200 p-4">
+    <div className="font-semibold">Bond to your own finalizer</div>
+    <p className="mt-2 mb-0 text-sm">Simplest. You keep the operator role and the bond. An observer still cannot prove the t-address and the zfinv1 are one person from chain data alone.</p>
   </div>
-  <div style="border-radius:12px;padding:16px;border:1px solid #f59e0b;background:#fffbeb;">
-    <div style="font-weight:650;">Bond to another member</div>
-    <p style="margin:8px 0 0;">The voting power shows under their key. They earn the 10% active-finalizer commission. You keep the 90% that accrues on the bond. This is the pattern that breaks the obvious guess.</p>
+  <div className="rounded-xl border border-amber-300 bg-amber-50 p-4">
+    <div className="font-semibold">Bond to another member</div>
+    <p className="mt-2 mb-0 text-sm">The voting power shows under their key. They earn the 10% active-finalizer commission. You keep the 90% that accrues on the bond. This is the pattern that breaks the obvious guess.</p>
   </div>
 </div>
 
-A group can mine on separate payout addresses, shield, and bond across members. That makes “this miner is this finalizer” much harder to claim. It does not hide who the finalizers are, and it does not hide the mining.
+A group can mine on separate payout addresses, shield, and bond across members. That makes "this miner is this finalizer" much harder to claim. It does not hide who the finalizers are, and it does not hide the mining.
 
 ## What this does not do
 
-<div style="border-radius:12px;padding:14px 16px;background:#fef2f2;border:1px solid #fecaca;margin:16px 0;">
-  <div style="font-weight:650;color:#b91c1c;">Not hidden</div>
-  <ul style="margin:8px 0 0;">
+<div className="my-4 rounded-xl border border-rose-200 bg-rose-50 p-4">
+  <div className="font-semibold text-rose-700">Not hidden</div>
+  <ul className="mt-2 mb-0">
     <li>Who the finalizers are</li>
     <li>How much voting power each one has</li>
     <li>Your transparent mining history</li>
