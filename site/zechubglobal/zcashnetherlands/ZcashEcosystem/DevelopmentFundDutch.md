@@ -6,7 +6,7 @@ Zcash is een uniek blockchain-protocol omdat het uit eigen middelen wordt gefina
 
 In blockchains zijn er zogenaamde [blocks](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), die worden geproduceerd om transacties vast te leggen die nog niet zijn bevestigd in het netwerk. Zodra transacties zijn gevalideerd, wordt het blok gesloten.
 
-Blokproducenten (ook wel miners genoemd) zijn belast met het valideren van transacties in een netwerk en het produceren van nieuwe blokken. Bij het produceren van deze blokken worden blokproducenten beloond met een blokbeloning. In Zcash wordt ongeveer elke 75 seconden een nieuw blok geproduceerd en komt er een blokbeloning van 3.125 ZEC in omloop. Blokbeloningen in Zcash produceren nieuwe munten totdat Zcash zijn maximale voorraad van 21 miljoen bereikt. Nadat het maximale aanbod is bereikt, worden blokbeloningen betaald met transactiekosten.
+Blokproducenten (ook wel miners genoemd) zijn belast met het valideren van transacties in een netwerk en het produceren van nieuwe blokken. Bij het produceren van deze blokken worden blokproducenten beloond met een blokbeloning. In Zcash wordt ongeveer elke 75 seconden een nieuw blok geproduceerd en komt er een blokbeloning van 1.5625 ZEC in omloop. Blokbeloningen in Zcash produceren nieuwe munten totdat Zcash zijn maximale voorraad van 21 miljoen bereikt. Nadat het maximale aanbod is bereikt, worden blokbeloningen betaald met transactiekosten.
 
 ## Het unieke financieringsmechanisme van Zcash
 
