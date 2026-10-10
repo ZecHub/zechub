@@ -12,6 +12,11 @@ A list of the most common questions about Zcash. For troubleshooting the Zcash c
   <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Where is my transaction?</a>
   <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Is Zcash really private?</a>
   <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Common misconceptions</a>
+  <a href="#zcashd-stopped-working-what-do-i-run-now" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">zcashd stopped working?</a>
+  <a href="#how-do-i-move-my-zcashd-wallet-to-zallet" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Move my wallet to Zallet?</a>
+  <a href="#what-is-ironwood-and-do-i-need-to-do-anything" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">What is Ironwood?</a>
+  <a href="#which-full-node-should-i-run" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Which full node?</a>
+  <a href="#where-do-i-look-up-a-term-from-a-release-note" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Look up a term?</a>
 </div>
 
 ---
@@ -30,7 +35,7 @@ Several wallets are available for instant, mobile, secure and private payments: 
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-You can buy ZEC on [custodial exchanges](/using-zcash/custodial-exchanges), [DEXs](/dex), or [centralized swap platforms](/using-zcash/centralizedswaps).
+You can buy ZEC on [custodial exchanges](/using-zcash/custodial-exchanges), [DEXs](/using-zcash/dex), or [centralized swap platforms](/using-zcash/centralized-swaps).
 
 You can also purchase Zcash peer-to-peer or acquire it by mining.
 
@@ -99,6 +104,68 @@ Further reading: [A Shielded Ecosystem](https://web.archive.org/web/202609030106
 
 </div>
 
+## zcashd stopped working, what do I run now?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+zcashd is retired. Version 6.20.0 shut itself down at block 3417100 on 18 July 2026, and it never supported Ironwood (NU6.3), so there is no later version to upgrade to.
+
+Run the Z3 stack instead. Three programs split the job zcashd used to do alone:
+
+- **[Zebra](/zcash-tech/zebra-full-node)** validates the chain
+- **[Zaino](/zcash-tech/zaino)** indexes it and serves wallet data
+- **[Zallet](/zcash-tech/zallet)** holds your funds
+
+[Zakura](/zcash-tech/zakura-node) is an alternative full node. It also runs zcashd on top of itself, which helps if other software still expects the old interface.
+
+Start with the [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet).
+
+</div>
+
+## How do I move my zcashd wallet to Zallet?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+Zallet migrates an existing `wallet.dat`, so you keep your funds and addresses.
+
+Back up `wallet.dat` first, then follow the [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet). Keep that backup until you have confirmed your balance in Zallet.
+
+The [Zallet quick reference](/using-zcash/zallet-quick-reference-guide) covers everyday commands once you are across.
+
+</div>
+
+## What is Ironwood, and do I need to do anything?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+Ironwood is network upgrade NU6.3, live on mainnet since block 3,428,143 on 28 July 2026. It adds a shielded pool built on a corrected circuit and seals the older [Orchard](/using-zcash/shielded-pools) pool, so anyone can verify that no ZEC was forged.
+
+**If you hold shielded funds, they may need to move.** Value leaves Orchard only through [the turnstile](/zcash-tech/the-turnstile), and wallets handle the move at different times and in different ways. Ask your wallet provider before moving anything by hand.
+
+Read [Ironwood](/zcash-tech/ironwood) for what changed and why.
+
+</div>
+
+## Which full node should I run?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+**[Zebra](/zcash-tech/zebra-full-node)** is the direct replacement for zcashd and the node the migration guide assumes. Pick it unless you have a reason not to.
+
+**[Zakura](/zcash-tech/zakura-node)** is a second implementation aimed at scale, with faster sync and native block pruning. Pick it if you need those, or if you depend on software that still speaks to zcashd.
+
+Both validate the same chain, so this is an operational choice rather than a consensus one.
+
+</div>
+
+## Where do I look up a term from a release note?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+See the [Glossary](/glossary-and-faqs/glossary). It covers the node and wallet software, the shielded pools, and the ZIP numbers that turn up most often.
+
+</div>
+
 ## A few common misconceptions
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4 overflow-x-auto">
@@ -134,5 +201,5 @@ Further reading: [A Shielded Ecosystem](https://web.archive.org/web/202609030106
 
 ---
 
-**Last updated:** March 2026
+**Last updated:** October 2026
 **Want to contribute?** [Edit this page on GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)
