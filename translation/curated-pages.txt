@@ -149,6 +149,7 @@ Zcash_Tech/Private_Information_Retrieval.md
 Zcash_Tech/Project_Tachyon.md
 Zcash_Tech/Sapling.md
 Zcash_Tech/Sprout.md
+Zcash_Tech/Shielded_Coinholder_Voting.md
 Zcash_Tech/The_Turnstile.md
 Zcash_Tech/Unified_Addresses.md
 Zcash_Tech/Viewing_Keys.md
