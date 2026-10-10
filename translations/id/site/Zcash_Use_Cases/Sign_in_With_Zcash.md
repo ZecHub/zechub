@@ -114,7 +114,7 @@ Ini dibuat untuk jalur **Login Zcash** pada [ZecHub Hackathon 3.0](https://zechu
 
 - [Memo](/using-zcash/memos) - cara kerja memo terenkripsi, dan bagaimana kode login berpindah di dalamnya
 - [Viewing Keys](/zcash-tech/viewing-keys) - memberikan akses baca saja tanpa menyerahkan kekuatan pengeluaran
-- [Menyimpan Catatan Dengan ZEC](/zcash-use-cases/keeping-records-with-shielded-zec) Terlindungi - ide pengungkapan selektif yang sama, diterapkan pada akuntansi
+- [Menyimpan Catatan dengan ZEC Terlindungi](/zcash-use-cases/keeping-records-with-shielded-zec) - ide pengungkapan selektif yang sama, diterapkan pada akuntansi
 - [Kirim Uang Tanpa Menghubungkan Identitas](/zcash-use-cases/send-money-without-linking-identity) - mengapa penggunaan ulang alamat merusak privasi
 
 <br/>

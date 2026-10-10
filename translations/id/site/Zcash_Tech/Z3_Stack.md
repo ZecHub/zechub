@@ -73,7 +73,7 @@ Z3 menyematkan versi gambar di `docker-compose.yml`. Timpa dengan `Z3_ZEBRA_IMAG
 | Konfigurasi | `zcash.conf` | File per-jaringan di bawah `config/<network>/` ditambah file env Compose |
 | Jaringan pada satu host | Bentrokan port yang menyulitkan | Kelas utama: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
-Jika Anda masih memiliki dompet `zcashd`, gunakan [panduan migrasi](/guides/migration-guide-zcashd-to-zebrad-zallet) dari ZecHub dan `migrate-zcashd-wallet`perintah dari Zallet daripada menyalin `wallet.dat` ke dalam volume Z3.
+Jika Anda masih memiliki dompet `zcashd`, gunakan [panduan migrasi](/guides/migration-guide-zcashd-to-zebrad-zallet) dari ZecHub dan perintah `migrate-zcashd-wallet` dari Zallet daripada menyalin `wallet.dat` ke dalam volume Z3.
 
 ---
 
