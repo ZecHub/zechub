@@ -285,11 +285,11 @@
     ]
   ],
   "glossaryOnly": [
-    "token",
     "chain",
     "cross-chain",
     "faucet",
+    "miner",
     "mining",
-    "miner"
+    "token"
   ]
 }
