@@ -1,5 +1,7 @@
 # Native ZEC on THORChain: Step-by-Step Guide to Liquidity Provision and Swaps
 
+<img width="738" height="214" alt="zecthor" src="https://github.com/user-attachments/assets/a6ed1c4a-52fc-4e3b-9f98-8d2edc8325c8" />
+
 ## Introduction
 
 THORChain is a decentralised liquidity protocol that enables swaps between supported native assets on different blockchains. Where an asset is supported, users can swap it without first converting it into a wrapped token or using a centralised exchange.
@@ -45,6 +47,7 @@ The exact labels and sequence may vary as the interface changes. Follow the live
 ### Step 1: Open the official swap interface
 
 Visit [swap.thorchain.org](https://swap.thorchain.org/). Check the domain carefully before connecting a wallet.
+<img width="1600" height="834" alt="Screenshot (115)" src="https://github.com/user-attachments/assets/0b94026f-4774-4ad3-9704-8175775eb31c" />
 
 ### Step 2: Select ZEC as the source asset
 
@@ -74,7 +77,7 @@ Follow the interface's current instructions to initiate the swap. Review the wal
 
 Use the transaction ID and the status shown by the interface to follow progress. Check the relevant blockchain explorer where available. Once the swap is marked complete, confirm that the destination asset arrived at the intended wallet.
 
-**Screenshot to add:** Capture the real swap interface showing ZEC as the source, the selected destination asset, and the quote details. Use a test or public-facing view where possible and hide personal balances and sensitive information.
+<img width="1600" height="802" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/40b1bf3e-d7a5-4529-9b29-5474bfbbd23a" /> Capture the real swap interface showing ZEC as the source, the selected destination asset, and the quote details. Use a test or public-facing view where possible and hide personal balances and sensitive information.
 
 ## 4. Provide liquidity to a ZEC pool
 
@@ -100,13 +103,13 @@ Review the assets required, estimated position, minimums, and applicable fees. K
 
 ### Step 5: Confirm and wait
 
+
 Check the wallet prompt carefully before signing. Wait for the source transaction to receive the required confirmations and for the protocol to recognise the deposit. A successful source-chain transaction does not necessarily mean the position is immediately available.
 
 ### Step 6: Verify your position
 
 Return to the liquidity interface and confirm that your position appears correctly. Keep a record of the pool, deposit date, amount, and transaction ID for later reference.
 
-**Screenshots to add:** Capture the current ZEC pool status and the actual deposit options. Do not use mock screenshots to imply that an unavailable method is live.
 
 ## 5. Withdraw liquidity
 
@@ -132,7 +135,8 @@ Review the transaction details and confirm only if the assets and destination ar
 
 Check the destination wallet and relevant blockchain explorer. If the withdrawal is pending, consult the official transaction status and documentation before trying again.
 
-**Screenshot to add:** Include a real position and withdrawal confirmation screen once the flow has been verified.
+<img width="507" height="490" alt="image" src="https://github.com/user-attachments/assets/87596f07-eb06-4cc7-bf8c-7ad5a6245683" />
+
 
 ## 6. Fees, slippage, and liquidity
 
