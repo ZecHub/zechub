@@ -7,8 +7,8 @@
 Foresight Institute, yüksek etkili teknolojilerin faydalı gelişimini destekleyen bir araştırma kuruluşu ve kâr amacı gütmeyen bir organizasyondur. 1987 yılında güçlü teknolojilere yön verme vizyonuyla kurulduğumuzdan bu yana, eski kurumların destekleyemeyeceği kadar iddialı olan çeşitli bilim ve teknoloji alanlarına odaklanan, çok kollu bir organizasyona dönüşerek gelişmeye devam ettik. 
 
 - [Shielded Transactions #1 | Gelecekte Gizliliğinizin ve Kimliğinizin Sahibi Kim Olacak? (Andrew Miller ile)](https://www.youtube.com/watch?v=UVlPHlm1I3o&list=PLH78wfbGI1x0QS-1GIjARHRWjVBKF-ofB&index=37)
-- Shielded Transactions #2 | Bitcoin’in Gizlilik Sorunu (Zooko Wilcox ile)
+- Shielded Transactions #2 | Bitcoin’in Gizlilik Sorunu (Zooko Wilcox ile) (video artık herkese açık değil)
 - [Shielded Transactions #3 | Gizliliğinizi Kim Kontrol Etmeli? (Whyrusleeping ile)](https://www.youtube.com/watch?v=BgLXB_L3STQ)
-- Shielded Transactions #4 | Marta Belcher, Filecoin Foundation | Yapay Zeka Çağında Gizlilik ve Hukuk
-- Shielded Transactions #5 | Avichal Garg, Electric Capital | Shielded transactions için gelecek neler vadediyor?
-- Shielded Transactions #6 | Zaki Manian, Iqlusion
+- Shielded Transactions #4 | Marta Belcher, Filecoin Foundation | Yapay Zeka Çağında Gizlilik ve Hukuk (video artık herkese açık değil)
+- Shielded Transactions #5 | Avichal Garg, Electric Capital | Shielded Transactions için gelecek neler vadediyor? (video artık herkese açık değil)
+- Shielded Transactions #6 | Zaki Manian, Iqlusion (video artık herkese açık değil)
