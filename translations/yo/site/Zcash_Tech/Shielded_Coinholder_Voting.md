@@ -8,7 +8,7 @@
 
 Ohun tí o máa gbà: bí a ṣe lè fi iye tí o ní ní ZEC, tí o fi pamọ́, tí o sì ṣì ń kà á dáadáa hàn nínú ìdìbò, láìsí ẹnikẹ́ni tó mọ̀ nípa bí o ṣe dìbò tàbí iye tí o ní.
 
-Ìdìbò àwọn oníṣòwò owó tí a dáàbò bo jẹ́ kí àwọn oníṣòwò Zcash dìbò lórí àwọn ìbéèrè nípa ètò-ẹ̀rọ nípa lílo ZEC. Kò sí ẹni tí ó mọ ohun tí ẹnìkan dìbò tàbí iye tí ZEC wọn ní, síbẹ̀ ẹnikẹ́ni lè ṣe àyẹ̀wò pé iye náà péye. Ó ń ṣiṣẹ́ lórí ẹ̀wọ̀n ìdìbò tí Valar Group, yàtọ̀ sí Zcash mainnet, kí owó gidi rẹ má baà yí padà. Fún bí Zcash ṣe ń ṣe ìpinnu ní gbogbogbòò, wo [Àkótán Ìnáwó àti Ìṣàkóso Zcash](../zcash-community/zcash-governance)Ojú ìwé yìí dá lórí ìlànà ìdìbò ìkọ̀kọ̀ lásán.
+Ìdìbò àwọn oníṣòwò owó tí a dáàbò bo jẹ́ kí àwọn oníṣòwò Zcash dìbò lórí àwọn ìbéèrè nípa ètò-ẹ̀rọ nípa lílo ZEC. Kò sí ẹni tí ó mọ ohun tí ẹnìkan dìbò tàbí iye tí ZEC wọn ní, síbẹ̀ ẹnikẹ́ni lè ṣe àyẹ̀wò pé iye náà péye. Ó ń ṣiṣẹ́ lórí ẹ̀wọ̀n ìdìbò tí Valar Group, yàtọ̀ sí Zcash mainnet, kí owó gidi rẹ má baà yí padà. Fún bí Zcash ṣe ń ṣe ìpinnu ní gbogbogbòò, wo [Àkótán Ìnáwó àti Ìṣàkóso Zcash](../zcash-community/zcash-governance). Ojú ìwé yìí dá lórí ìlànà ìdìbò ìkọ̀kọ̀ lásán.
 
 Tuntun sí Zcash? Bẹ̀rẹ̀ pẹ̀lú [Kí ni ZEC àti Zcash](../start-here/what-is-zec-and-zcash), [Àwọn Adágún Tí A Dáàbò Bo](../using-zcash/shielded-pools), àti [zk-SNARKs](../zcash-tech/zk-snarks), lẹ́yìn náà, padà wá síbí.
 

@@ -8,7 +8,7 @@
 
 Nusi nàxɔ le asiwò: alesi woate ŋu ada akɔdada ɖe ZEC agbɔsɔsɔme si le asiwò dzi, si nèdzra ɖo ɖe ɖokuiwò ŋu, eye wògaxlẽe nyuie kokoko, esiawo katã ame aɖeke masrɔ̃ alesi nèda akɔ alo agbɔsɔsɔme si le asiwò o.
 
-Shielded coinholder voting na Zcash holders daa akɔ le lãwo ƒe agbenɔnɔ ŋuti nyabiasewo ŋu to woƒe shielded ZEC. Ame aɖeke menya nusi ame ɖekaɖeka aɖeke da asi ɖe edzi alo ZEC agbɔsɔsɔme si le esi o, ke hã ame sia ame ate ŋu adzro eme be xexlẽmeawo katã sɔ. Ezɔna ɖe akɔdada ƒe kɔsɔkɔsɔ tɔxɛ aɖe si Valar Group, si to vovo tso Zcash mainnet gbɔ, eyata wò ga ŋutɔŋutɔwo meʋãna gbeɖe o. Ne èdi alesi Zcash wɔa nyametsotsowo le mɔ si keke ta wu nu la, kpɔ.. [Zcash Gadodo kple Dziɖuɖu ƒe wɔwɔfia](../zcash-community/zcash-governance). Axa sia ku ɖe cryptographic voting protocol ŋu ko.
+Shielded coinholder voting na Zcash holders daa akɔ le lãwo ƒe agbenɔnɔ ŋuti nyabiasewo ŋu to woƒe shielded ZEC. Ame aɖeke menya nusi ame ɖekaɖeka aɖeke da asi ɖe edzi alo ZEC agbɔsɔsɔme si le esi o, ke hã ame sia ame ate ŋu adzro eme be xexlẽmeawo katã sɔ. Ezɔna ɖe akɔdada ƒe kɔsɔkɔsɔ tɔxɛ aɖe si Valar Group, si to vovo tso Zcash mainnet gbɔ, eyata wò ga ŋutɔŋutɔwo meʋãna gbeɖe o. Ne èdi alesi Zcash wɔa nyametsotsowo le mɔ si keke ta wu nu la, kpɔ [Zcash Gadodo kple Dziɖuɖu ƒe wɔwɔfia](../zcash-community/zcash-governance). Axa sia ku ɖe cryptographic voting protocol ŋu ko.
 
 Nu yeyee le Zcash? Dze egɔme kple [Nukae nye ZEC kple Zcash](../start-here/what-is-zec-and-zcash), [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools), kple [zk-SNARKs](../zcash-tech/zk-snarks), emegbe nàtrɔ ava afisia.
 

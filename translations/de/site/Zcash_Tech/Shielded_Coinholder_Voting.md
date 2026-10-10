@@ -90,7 +90,7 @@ Die Organisatoren legen einen Beteiligungsschwellenwert fest: Die Ergebnisse der
 
 Die Grenzen klar zu benennen, gehört zum Verständnis des Designs.
 
-1. Es ist ein Signal, keine bindende Entscheidung. Eine Umfrage unter Coin-Inhabern misst nach Einsatz gewichtete Stimmungen und fließt in den normalen Zcash[Governance-Prozess](../zcash-community/zcash-governance) ein, anstatt ihn zu ersetzen.
+1. Es ist ein Signal, keine bindende Entscheidung. Eine Umfrage unter Coin-Inhabern misst nach Einsatz gewichtete Stimmungen und fließt in den normalen [Governance-Prozess](../zcash-community/zcash-governance) von Zcash ein, anstatt ihn zu ersetzen.
 2. Sie ist coin-gewichtet, sodass Einfluss den Beständen folgt. Weniger Reibung kann die Beteiligung erhöhen, ändert aber nicht die Konzentration von ZEC.
 3. Die Agenda wird von der Koordinator-Multisig festgelegt, die auswählt, welche Fragen erscheinen. Sie kann Stimmen nicht beeinflussen, und jeder kann eine konkurrierende Blockchain betreiben, doch die Festlegung der Agenda bleibt ein Einflussfaktor.
 4. Die Auszählung benötigt online verfügbare Validatoren. Die Erstellung der Auszählung setzt die Zusammenarbeit von mindestens zwei Dritteln voraus, sodass ein großer Ausfall oder koordinierte Verweigerung ein Ergebnis verzögern könnte.

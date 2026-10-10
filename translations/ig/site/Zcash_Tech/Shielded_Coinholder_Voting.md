@@ -8,7 +8,7 @@
 
 Ihe ị ga-ewepụ: otu esi atụ votu site na ego ZEC ị nwere, debe ya na nzuzo, ma ka gụọ ya nke ọma, ihe niile na-enweghị onye maara etu ị si tụọ vootu ma ọ bụ ego ole ị nwere.
 
-Ntuli aka onye ji ego echekwa ihe na-eme ka ndị ji Zcash votu maka ajụjụ gbasara gburugburu ebe obibi site na iji ZEC. Ọ dịghị onye na-amụta ihe onye ọ bụla tụrụ vootu ma ọ bụ ego ole ZEC ha nwere, mana onye ọ bụla nwere ike inyocha na mkpokọta ahụ ziri ezi. Ọ na-agba ọsọ na usoro ntuli aka raara onwe ya nye nke Valar Group, dị iche na Zcash mainnet, yabụ ezigbo ego gị agaghị aga n'ihu. Maka otu Zcash si eme mkpebi n'ụzọ sara mbara karị, lee [Nchịkọta Ego na Ọchịchị Zcash](../zcash-community/zcash-governance)Peeji a bụ naanị gbasara usoro ntuli aka nzuzo.
+Ntuli aka onye ji ego echekwa ihe na-eme ka ndị ji Zcash votu maka ajụjụ gbasara gburugburu ebe obibi site na iji ZEC. Ọ dịghị onye na-amụta ihe onye ọ bụla tụrụ vootu ma ọ bụ ego ole ZEC ha nwere, mana onye ọ bụla nwere ike inyocha na mkpokọta ahụ ziri ezi. Ọ na-agba ọsọ na usoro ntuli aka raara onwe ya nye nke Valar Group, dị iche na Zcash mainnet, yabụ ezigbo ego gị agaghị aga n'ihu. Maka otu Zcash si eme mkpebi n'ụzọ sara mbara karị, lee [Nchịkọta Ego na Ọchịchị Zcash](../zcash-community/zcash-governance). Peeji a bụ naanị gbasara usoro ntuli aka nzuzo.
 
 Ọhụrụ na Zcash? Malite na [Kedu ihe bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash), [Ọdọ Mmiri E Kpuchiri Ekpuchi](../using-zcash/shielded-pools), na [zk-SNARKs](../zcash-tech/zk-snarks), wee laghachi ebe a.
 

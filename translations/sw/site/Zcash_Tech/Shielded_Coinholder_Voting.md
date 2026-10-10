@@ -8,9 +8,9 @@
 
 Utakachochukua: jinsi kura inavyoweza kupimwa na kiasi cha ZEC unachoshikilia, kuwekwa faragha, na bado kuhesabiwa kwa usahihi, yote bila mtu yeyote kujua jinsi ulivyopiga kura au kiasi cha unachomiliki.
 
-Kupiga kura kwa wenye sarafu waliolindwa huwaruhusu wenye Zcash kupiga kura kuhusu maswali ya mfumo ikolojia kwa kutumia ZEC. Hakuna anayejua ni nini mtu yeyote alipiga kura au ni kiasi gani ZEC anacho, lakini mtu yeyote anaweza kukagua kama jumla ni sahihi. Inaendeshwa kwenye mnyororo maalum wa upigaji kura uliojengwa na Valar Group, tofauti na mtandao mkuu Zcash, kwa hivyo fedha zako halisi hazihamishwi kamwe. Kwa jinsi Zcash inavyofanya maamuzi kwa upana zaidi, tazama [Muhtasari wa Ufadhili na Utawala wa Zcash](../zcash-community/zcash-governance)Ukurasa huu unahusu itifaki ya upigaji kura ya kriptografia pekee.
+Kupiga kura kwa wenye sarafu waliolindwa huwaruhusu wenye Zcash kupiga kura kuhusu maswali ya mfumo ikolojia kwa kutumia ZEC. Hakuna anayejua ni nini mtu yeyote alipiga kura au ni kiasi gani ZEC anacho, lakini mtu yeyote anaweza kukagua kama jumla ni sahihi. Inaendeshwa kwenye mnyororo maalum wa upigaji kura uliojengwa na Valar Group, tofauti na mtandao mkuu Zcash, kwa hivyo fedha zako halisi hazihamishwi kamwe. Kwa jinsi Zcash inavyofanya maamuzi kwa upana zaidi, tazama [Muhtasari wa Ufadhili na Utawala wa Zcash](../zcash-community/zcash-governance). Ukurasa huu unahusu itifaki ya upigaji kura ya kriptografia pekee.
 
-Je, ni mgeni katika Zcash? Anza na [ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash), [Mabwawa ya Kuogelea Yenye Ngao](../using-zcash/shielded-pools)na [zk-SNARKs](../zcash-tech/zk-snarks), kisha rudi hapa.
+Je, ni mgeni katika Zcash? Anza na [ZEC na Zcash ni nini?](../start-here/what-is-zec-and-zcash), [Mabwawa Yaliyolindwa](../using-zcash/shielded-pools) na [zk-SNARKs](../zcash-tech/zk-snarks), kisha rudi hapa.
 
 ![Shielded voting flow: a voter proves their Ironwood balance at a snapshot, casts an encrypted ballot split into shares, which are homomorphically tallied and then threshold-decrypted into totals only](/content-images/shielded-voting-flow.webp)
 
@@ -149,6 +149,6 @@ Uthibitisho tatu hufanya kazi. Kila kura ina uthibitisho usio na ufahamu kwamba 
 - [Urejeshaji wa Taarifa Binafsi](../zcash-tech/private-information-retrieval) - mbinu ya kuthibitisha kutokuwa mwanachama nyuma ya kuzuia kura mbili za kibinafsi
 - [Ironwood](../zcash-tech/ironwood) - bwawa lililolindwa ambalo mizani yake huweka uzito wa kura
 - [zk-SNARKs](../zcash-tech/zk-snarks) - mfumo wa uthibitisho nyuma ya usawa na uthibitisho wa ustahiki
-- [Mabwawa ya Kuogelea Yenye Ngao](../using-zcash/shielded-pools) - usawa uliolindwa ni nini na kwa nini unabaki siri
+- [Mabwawa Yaliyolindwa](../using-zcash/shielded-pools) - usawa uliolindwa ni nini na kwa nini unabaki siri
 - [Muhtasari wa Ufadhili na Utawala wa Zcash](../zcash-community/zcash-governance) - jinsi ishara hii ya hisia inavyochangia mchakato mpana wa maamuzi Zcash's
 - [Shielded Labs](../zcash-organizations/shielded-labs) - mmoja wa wanachama watano wa mratibu wa multisig

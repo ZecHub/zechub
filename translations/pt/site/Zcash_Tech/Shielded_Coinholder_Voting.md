@@ -90,7 +90,7 @@ Os organizadores definem um limiar de participação: os resultados da consulta 
 
 Ser claro quanto aos limites faz parte de compreender o desenho.
 
-1. É um sinal, não uma decisão vinculativa. Uma consulta a detentores de moedas mede o sentimento ponderado pela participação e alimenta o processo normal de Zcash[governação](../zcash-community/zcash-governance), em vez de o substituir.
+1. É um sinal, não uma decisão vinculativa. Uma consulta a detentores de moedas mede o sentimento ponderado pela participação e alimenta o processo normal de [governação](../zcash-community/zcash-governance) da Zcash, em vez de o substituir.
 2. É ponderado por moedas, pelo que a influência segue as participações. Menos obstáculos podem aumentar a participação, mas não alteram a concentração de ZEC.
 3. A agenda é definida pela multisig coordenadora, que escolhe quais as perguntas apresentadas. Não pode tocar nos votos e qualquer pessoa pode executar uma cadeia concorrente, mas a definição da agenda continua a ser um ponto de influência.
 4. A contagem necessita de validadores online. Produzir o apuramento requer que pelo menos dois terços cooperem, pelo que uma grande indisponibilidade ou recusa coordenada pode atrasar um resultado.

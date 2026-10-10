@@ -90,7 +90,7 @@ Gli organizzatori fissano una soglia di partecipazione: i risultati del sondaggi
 
 Essere chiari sui limiti fa parte della comprensione del design.
 
-1. È un segnale, non una decisione vincolante. Un sondaggio tra detentori di monete misura il sentimento ponderato in base alla quota posseduta e confluisce nel normale Zcashprocesso di [governance](../zcash-community/zcash-governance), anziché sostituirlo.
+1. È un segnale, non una decisione vincolante. Un sondaggio tra detentori di monete misura il sentimento ponderato in base alla quota posseduta e confluisce nel normale processo di [governance](../zcash-community/zcash-governance) di Zcash, anziché sostituirlo.
 2. È ponderato per moneta, quindi l'influenza segue le disponibilità. Una minore frizione può aumentare la partecipazione, ma non modifica la concentrazione di ZEC.
 3. L'agenda è fissata dal multisig del coordinatore, che sceglie quali domande compaiono. Non può toccare i voti, e chiunque può eseguire una catena concorrente, ma la definizione dell'agenda rimane comunque un punto di influenza.
 4. Il conteggio richiede validatori online. Per produrre il conteggio è necessaria la collaborazione di almeno due terzi di essi, quindi una grande interruzione o un rifiuto coordinato potrebbe ritardare un risultato.

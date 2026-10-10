@@ -90,7 +90,7 @@ Les organisateurs définissent un seuil de participation : les résultats du son
 
 Comprendre les limites fait partie de la compréhension de la conception.
 
-1. C’est un signal, et non une décision contraignante. Un sondage auprès des détenteurs de coins mesure un sentiment pondéré par participation et alimente le Zcashprocessus de gouvernance[ normal de ](../zcash-community/zcash-governance) plutôt que de le remplacer.
+1. C’est un signal, et non une décision contraignante. Un sondage auprès des détenteurs de coins mesure un sentiment pondéré par participation et alimente le [processus de gouvernance](../zcash-community/zcash-governance) normal de Zcash plutôt que de le remplacer.
 2. Il est pondéré par coins, donc l’influence suit les avoirs. Une friction réduite peut accroître la participation, mais ne modifie pas la concentration de ZEC.
 3. L’ordre du jour est établi par le multisig coordinateur, qui choisit les questions présentées. Il ne peut pas toucher aux votes, et chacun peut lancer une chaîne concurrente, mais la définition de l’ordre du jour reste un point d’influence.
 4. Le comptage nécessite que les validateurs soient en ligne. La production du décompte requiert la coopération d’au moins deux tiers d’entre eux ; une panne importante ou un refus coordonné pourrait donc retarder un résultat.
