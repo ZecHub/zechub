@@ -121,7 +121,7 @@ Sua comunidade pode:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de elos de corrente"/> Relacionado
 
-- [Privacidade - Melhores práticas](/privacy/best-practices)
+- [Privacidade - Melhores práticas](/privacy-tools)
 - [Envie dinheiro sem vincular identidade](/zcash-use-cases/send-money-without-linking-identity)
  
 

@@ -96,7 +96,7 @@ Bu, maksimum gizlilik sağlar.
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> İlgili
-- [Gizlilik - Shielded ve Transparent](/privacy/shielded-vs-transparent)
+- [Gizlilik - Shielded ve Transparent](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

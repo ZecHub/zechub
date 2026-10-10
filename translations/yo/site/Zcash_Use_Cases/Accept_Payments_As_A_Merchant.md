@@ -121,7 +121,7 @@ O lè:
 
 
 - [Àwọn àpamọ́ owó](/wallets)
-- [Ìpamọ́ra - Àwọn Ohun Tó Yẹ Kó O Máa Ṣe](/privacy/best-practices)
+- [Ìpamọ́ra - Àwọn Ohun Tó Yẹ Kó O Máa Ṣe](/privacy-tools)
 
 <br/>
 

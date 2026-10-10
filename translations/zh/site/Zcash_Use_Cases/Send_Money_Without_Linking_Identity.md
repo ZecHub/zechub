@@ -96,7 +96,7 @@ Zcash 通过屏蔽交易实现**完全私密的转账**。
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="链条图标"/> 相关内容
-- [隐私 - 屏蔽与透明](/privacy/shielded-vs-transparent)
+- [隐私 - 屏蔽与透明](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

@@ -106,7 +106,7 @@ Vous pouvez :
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône liens de chaîne"/> Lié
 
-- [Confidentialité - Blindé vs Transparent](/privacy/shielded-vs-transparent)
+- [Confidentialité - Blindé vs Transparent](/start-here/who-can-see-your-zcash-payment)
 - [Portefeuilles](/wallets)
 
 <br/>

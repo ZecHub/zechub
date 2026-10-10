@@ -121,7 +121,7 @@ Deine Community kann:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglied-Symbol"/> Verwandt
 
-- [Privatsphäre - Best Practices](/privacy/best-practices)
+- [Privatsphäre - Best Practices](/privacy-tools)
 - [Geld senden, ohne die Identität zu verknüpfen](/zcash-use-cases/send-money-without-linking-identity)
  
 

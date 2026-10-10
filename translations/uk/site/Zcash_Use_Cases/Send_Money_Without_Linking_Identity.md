@@ -96,7 +96,7 @@ Zcash дає змогу здійснювати **повністю приватн
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Пов’язане
-- [Приватність - Екрановані vs Прозорі](/privacy/shielded-vs-transparent)
+- [Приватність - Екрановані vs Прозорі](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

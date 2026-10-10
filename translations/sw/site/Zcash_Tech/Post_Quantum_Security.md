@@ -251,10 +251,10 @@ Kwa wanaoanza, wazo kuu ni rahisi: faragha leo hupunguza udhihirisho wa data kat
 - [Je Zcash ni Baada ya Quantum?](/zcash-tech/is-zcash-post-quantum) - Kilichobadilika Ironwood, kile ambacho bado kinaonekana, na jedwali la hali ya zamani
 - [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools) - Jinsi miamala iliyolindwa ya Zcash inavyolinda maelezo ya miamala
 - [Halo](/zcash-tech/halo) - Mfumo wa uthibitisho Zcash's bila mpangilio unaoaminika
-- [ZKP na ZK-SNARKS](/zcash-tech/zk-snarks) - Jinsi uthibitisho wa maarifa yasiyo na msingi unavyofanya kazi katika Zcash
+- [ZKP na zk-SNARKs](/zcash-tech/zk-snarks) - Jinsi uthibitisho wa maarifa yasiyo na msingi unavyofanya kazi katika Zcash
 - [Funguo za Kutazama](/zcash-tech/viewing-keys) - Jinsi ufichuzi wa kuchagua unavyofanya kazi kwa Zcash iliyolindwa
 - [Mali Zilizolindwa za Zcash](/zcash-tech/zcash-shielded-assets) - Mali zilizolindwa za baadaye na usaidizi wa mali binafsi
-- [Faragha kama Kanuni Kuu](/privacy/privacy-as-a-core-principle) - Kwa nini faragha ya kifedha ni muhimu
+- [Faragha kama Kanuni Kuu](/start-here/who-can-see-your-zcash-payment) - Kwa nini faragha ya kifedha ni muhimu
 
 ## Marejeleo
 

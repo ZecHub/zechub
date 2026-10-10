@@ -51,7 +51,7 @@ This allows you to receive funds **without exposing your financial graph**.
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - A Zcash wallet that supports shielded addresses:
-  - Zodl
+  - ZODL
   - Zingo!
   - Other supported wallets
 
@@ -106,7 +106,7 @@ You can:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Privacy - Shielded vs Transparent](/privacy/shielded-vs-transparent)
+- [Who Can See Your Zcash Payment? (shielded vs transparent)](/start-here/who-can-see-your-zcash-payment)
 - [Wallets](/wallets)
 
 <br/>

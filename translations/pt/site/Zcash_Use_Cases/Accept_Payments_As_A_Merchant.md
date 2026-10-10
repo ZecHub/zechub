@@ -121,7 +121,7 @@ Você pode:
 
 
 - [Carteiras](/wallets)
-- [Privacidade - Melhores Práticas](/privacy/best-practices)
+- [Privacidade - Melhores Práticas](/privacy-tools)
 
 <br/>
 

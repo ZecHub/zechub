@@ -51,7 +51,7 @@ Wei ma wotumi nya sika **a worenda wo sikasɛm ho mfonini adi**.
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Zcash sika kotoku a ɛboa address ahorow a wɔabɔ ho ban:
-  - Zodl
+  - ZODL
   - Zingo!
   - Sika kotoku afoforo a wɔboa
 
@@ -106,7 +106,7 @@ Wobɛtumi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Kokoamsɛm - Shielded vs Transparent](/privacy/shielded-vs-transparent)
+- [Kokoamsɛm - Shielded vs Transparent](/start-here/who-can-see-your-zcash-payment)
 - [Sika kotoku](/wallets)
 
 <br/>

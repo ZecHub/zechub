@@ -251,10 +251,10 @@ Zcash आज पूरी तरह पोस्ट-क्वांटम नह
 - [क्या Zcash पोस्ट-क्वांटम है?](/zcash-tech/is-zcash-post-quantum) - Ironwood में क्या बदला, क्या अब भी उजागर है, और तारीख सहित स्थिति तालिका
 - [शील्डेड पूल](/using-zcash/shielded-pools) - Zcash शील्डेड लेनदेन लेनदेन विवरणों की सुरक्षा कैसे करते हैं
 - [Halo](/zcash-tech/halo) - Zcash की विश्वसनीय सेटअप रहित प्रूफ प्रणाली
-- [ZKP और ZK-SNARKS](/zcash-tech/zk-snarks) - Zcash में शून्य-ज्ञान प्रमाण कैसे काम करते हैं
+- [ZKP और zk-SNARKs](/zcash-tech/zk-snarks) - Zcash में शून्य-ज्ञान प्रमाण कैसे काम करते हैं
 - [व्यूइंग कीज़](/zcash-tech/viewing-keys) - शील्डेड Zcash के लिए चयनात्मक प्रकटीकरण कैसे काम करता है
 - [Zcash शील्डेड एसेट्स](/zcash-tech/zcash-shielded-assets) - भविष्य के शील्डेड एसेट्स और निजी एसेट समर्थन
-- [मूल सिद्धांत के रूप में गोपनीयता](/privacy/privacy-as-a-core-principle) - वित्तीय गोपनीयता क्यों महत्वपूर्ण है
+- [मूल सिद्धांत के रूप में गोपनीयता](/start-here/who-can-see-your-zcash-payment) - वित्तीय गोपनीयता क्यों महत्वपूर्ण है
 
 ## संदर्भ
 

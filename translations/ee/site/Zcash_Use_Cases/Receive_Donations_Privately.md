@@ -51,7 +51,7 @@ Esia na be nàte ŋu axɔ ga **evɔ màɖe wò ganyawo ƒe nɔnɔmetata ɖe go o
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Zcash gakotoku si doa alɔ adrɛs siwo wokpɔ ta na:
-  - Zodl
+  - ZODL
   - Zingo!
   - Gakotoku bubu siwo wodo alɔe
 
@@ -106,7 +106,7 @@ Ate ŋu:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Ame ŋutɔ ƒe nyawo - Shielded vs Transparent](/privacy/shielded-vs-transparent)
+- [Ame ŋutɔ ƒe nyawo - Shielded vs Transparent](/start-here/who-can-see-your-zcash-payment)
 - [Gakotokuwo](/wallets)
 
 <br/>

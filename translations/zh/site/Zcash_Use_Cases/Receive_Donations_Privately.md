@@ -51,7 +51,7 @@ Zcash 的屏蔽交易会隐藏：
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="工具箱图标"/> 你需要准备什么
 
 - 一个支持屏蔽地址的 Zcash 钱包：
-  - Zodl
+  - ZODL
   - Zingo!
   - 其他受支持的钱包
 
@@ -106,7 +106,7 @@ Zcash 的屏蔽交易会隐藏：
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="链条链接图标"/> 相关内容
 
-- [隐私 - 屏蔽与透明](/privacy/shielded-vs-transparent)
+- [隐私 - 屏蔽与透明](/start-here/who-can-see-your-zcash-payment)
 - [钱包](/wallets)
 
 <br/>

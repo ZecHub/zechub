@@ -51,7 +51,7 @@ Isso permite que você receba fundos **sem expor seu grafo financeiro**.
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O que você precisa
 
 - Uma carteira Zcash que ofereça suporte a endereços blindados:
-  - Zodl
+  - ZODL
   - Zingo!
   - Outras carteiras compatíveis
 
@@ -106,7 +106,7 @@ Você pode:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de links"/> Relacionado
 
-- [Privacidade - Blindado vs Transparente](/privacy/shielded-vs-transparent)
+- [Privacidade - Blindado vs Transparente](/start-here/who-can-see-your-zcash-payment)
 - [Carteiras](/wallets)
 
 <br/>

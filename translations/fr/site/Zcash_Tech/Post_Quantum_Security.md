@@ -251,10 +251,10 @@ Pour les débutants, l’idée principale est simple : la confidentialité aujou
 - [Zcash est-il post-quantique ?](/zcash-tech/is-zcash-post-quantum) - Ce que Ironwood a changé, ce qui reste exposé et un tableau d’état daté
 - [Pools blindés](/using-zcash/shielded-pools) - Comment les transactions blindées de Zcash protègent les détails des transactions
 - [Halo](/zcash-tech/halo) - Le système de preuves de Zcash sans configuration de confiance
-- [ZKP et ZK-SNARKS](/zcash-tech/zk-snarks) - Comment fonctionnent les preuves à divulgation nulle de connaissance dans Zcash
+- [ZKP et zk-SNARKs](/zcash-tech/zk-snarks) - Comment fonctionnent les preuves à divulgation nulle de connaissance dans Zcash
 - [Clés de visualisation](/zcash-tech/viewing-keys) - Comment fonctionne la divulgation sélective pour les Zcash blindés
 - [Zcash Actifs blindés](/zcash-tech/zcash-shielded-assets) - Futurs actifs blindés et prise en charge des actifs privés
-- [La confidentialité comme principe fondamental](/privacy/privacy-as-a-core-principle) - Pourquoi la confidentialité financière est importante
+- [La confidentialité comme principe fondamental](/start-here/who-can-see-your-zcash-payment) - Pourquoi la confidentialité financière est importante
 
 ## Références
 

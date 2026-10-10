@@ -111,7 +111,7 @@ Zcash는 다음과 같은 기능을 제공합니다:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 관련 링크
 
 - [지갑](/wallets)
-- [프라이버시 - 최고 실천 방법](/privacy/best-practices)
+- [프라이버시 - 최고 실천 방법](/privacy-tools)
 
 <br/>
 

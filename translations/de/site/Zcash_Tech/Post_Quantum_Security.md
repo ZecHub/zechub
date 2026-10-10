@@ -251,10 +251,10 @@ Für Einsteiger ist die Hauptidee einfach: Privatsphäre heute verringert die zu
 - [Ist Zcash quantensicher?](/zcash-tech/is-zcash-post-quantum) - Was Ironwood geändert hat, was weiterhin gefährdet ist und eine datierte Statustabelle
 - [Abgeschirmte Pools](/using-zcash/shielded-pools) - Wie Zcash abgeschirmte Transaktionen Transaktionsdetails schützen
 - [Halo](/zcash-tech/halo) - Das Proof-System von Zcash ohne vertrauenswürdiges Setup
-- [ZKP & ZK-SNARKS](/zcash-tech/zk-snarks) - Wie Zero-Knowledge-Proofs in Zcash funktionieren
+- [ZKP & zk-SNARKs](/zcash-tech/zk-snarks) - Wie Zero-Knowledge-Proofs in Zcash funktionieren
 - [Viewing Keys](/zcash-tech/viewing-keys) - Wie selektive Offenlegung bei abgeschirmtem Zcash funktioniert
 - [Zcash Abgeschirmte Assets](/zcash-tech/zcash-shielded-assets) - Zukünftige abgeschirmte Assets und Unterstützung privater Assets
-- [Privatsphäre als Grundprinzip](/privacy/privacy-as-a-core-principle) - Warum finanzielle Privatsphäre wichtig ist
+- [Privatsphäre als Grundprinzip](/start-here/who-can-see-your-zcash-payment) - Warum finanzielle Privatsphäre wichtig ist
 
 ## Referenzen
 

@@ -251,10 +251,10 @@ Para iniciantes, a ideia principal é simples: privacidade hoje reduz a exposiç
 - [O Zcash é pós-quântico?](/zcash-tech/is-zcash-post-quantum) - O que Ironwood mudou, o que continua exposto e uma tabela de estado com data
 - [Pools Blindadas](/using-zcash/shielded-pools) - Como as transações blindadas de Zcash protegem os detalhes das transações
 - [Halo](/zcash-tech/halo) - O sistema de provas de Zcash sem uma configuração de confiança
-- [ZKP e ZK-SNARKS](/zcash-tech/zk-snarks) - Como funcionam as provas de conhecimento zero em Zcash
+- [ZKP e zk-SNARKs](/zcash-tech/zk-snarks) - Como funcionam as provas de conhecimento zero em Zcash
 - [Chaves de Visualização](/zcash-tech/viewing-keys) - Como funciona a divulgação seletiva para Zcash blindados
 - [Zcash Ativos Blindados](/zcash-tech/zcash-shielded-assets) - Futuros ativos blindados e suporte a ativos privados
-- [Privacidade como Princípio Fundamental](/privacy/privacy-as-a-core-principle) - Porque é que a privacidade financeira é importante
+- [Privacidade como Princípio Fundamental](/start-here/who-can-see-your-zcash-payment) - Porque é que a privacidade financeira é importante
 
 ## Referências
 

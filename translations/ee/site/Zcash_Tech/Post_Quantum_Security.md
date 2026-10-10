@@ -251,10 +251,10 @@ Le gɔmedzelawo gome la, susu vevitɔa le bɔbɔe: ame ŋutɔ ƒe nyawo tsɔtsɔ
 - [Ðe Zcash nye Post-Quantum?](/zcash-tech/is-zcash-post-quantum) - Nusi Ironwood trɔ, nusiwo wogaɖe ɖe go, kple nɔnɔme ƒe kplɔ̃ si woŋlɔ ŋkeke
 - [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) - Alesi Zcash shielded transactions kpɔa asitsatsa ŋuti nyatakakawo ta
 - [Halo](/zcash-tech/halo) - Zcash's kpeɖodziɖoɖo si me ɖoɖo si dzi woka ɖo manɔmee
-- [ZKP & ZK-SNARKS ƑE NUÐEÐEŊUTI](/zcash-tech/zk-snarks) - Alesi zero-sidzedze kpeɖodziwo wɔa dɔ le Zcash
+- [ZKP & zk-SNARKs ƑE NUÐEÐEŊUTI](/zcash-tech/zk-snarks) - Alesi zero-sidzedze kpeɖodziwo wɔa dɔ le Zcash
 - [Safuiwo Kpɔkpɔ](/zcash-tech/viewing-keys) - Alesi tiatiawɔblɔɖe ɖeɖefia wɔa dɔ na Zcash si wokpɔ ta na
 - [Zcash Nunɔamesi Siwo Wokpɔna](/zcash-tech/zcash-shielded-assets) - Etsɔme nunɔamesi siwo wokpɔ ta na kple ame ŋutɔ ƒe nunɔamesiwo ƒe kpekpeɖeŋu
-- [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/privacy/privacy-as-a-core-principle) - Nusita ganyawo ƒe adzamenyawo le vevie
+- [Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ abe Gɔmeɖose Vevi aɖe ene](/start-here/who-can-see-your-zcash-payment) - Nusita ganyawo ƒe adzamenyawo le vevie
 
 ## Nusiwo ŋu woke ɖo
 

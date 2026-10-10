@@ -106,7 +106,7 @@
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Пов’язане
 
-- [Приватність — екрановані vs прозорі](/privacy/shielded-vs-transparent)
+- [Приватність — екрановані vs прозорі](/start-here/who-can-see-your-zcash-payment)
 - [Гаманці](/wallets)
 
 <br/>

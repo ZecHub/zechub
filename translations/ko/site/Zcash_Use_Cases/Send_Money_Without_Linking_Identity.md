@@ -96,7 +96,7 @@ Zcash는 shielded transaction을 사용해 **완전히 비공개인 전송**을 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 관련 문서
-- [프라이버시 - Shielded와 Transparent 비교](/privacy/shielded-vs-transparent)
+- [프라이버시 - Shielded와 Transparent 비교](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

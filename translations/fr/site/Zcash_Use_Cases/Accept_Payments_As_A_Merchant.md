@@ -121,7 +121,7 @@ Vous pouvez :
 
 
 - [Portefeuilles](/wallets)
-- [Confidentialité - Bonnes pratiques](/privacy/best-practices)
+- [Confidentialité - Bonnes pratiques](/privacy-tools)
 
 <br/>
 
