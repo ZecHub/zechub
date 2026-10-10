@@ -16,12 +16,61 @@ files, so a decision made once applies everywhere.
 | `lib/glossary.mjs` | Loader, validator and matcher. Pure code, no file access. |
 | `validate.mjs` | Checks every file. Runs in CI. |
 | `review-kit.mjs` | Turns a glossary into a review table (`export`) and a filled table back into the glossary (`import`). Logic in `lib/review-kit.mjs`. |
-| `test-fixtures/` | The two real Indonesian review tables, used by the tests. |
+| `prompt-template.md` | The part of the translation prompt that is the same for every language. |
+| `render-prompt.mjs` | Prints the prompt for one page of one language. Logic in `lib/render-prompt.mjs`. |
+| `test-fixtures/` | The two real Indonesian review tables, and the hand-written prompt heads the generated ones replace (`legacy-heads/`), used by the tests. |
 
 Names of products, companies and protocols (Zcash, Orchard, Zashi, ...) are
 not in these files. They stay in English in every language and are listed in
 `translation/protected-terms.json` under `preserveVerbatim`. A word is either
 a protected name or a glossary entry, never both; CI checks this.
+
+## How prompts are generated
+
+The translation robot sends a language model an instruction text (the
+"prompt head") in front of each page or block. It is built from these files,
+so a glossary decision reaches the model without anyone copying it by hand:
+
+```
+node translation/glossary/render-prompt.mjs id guides/Raspberry_Pi_4_Full_Node.md
+node translation/glossary/render-prompt.mjs id guides/Raspberry_Pi_4_Full_Node.md --text-file block.md
+node translation/glossary/render-prompt.mjs id ui/dictionary --ui --text-file labels.txt
+```
+
+The output is `prompt-template.md` with its placeholders filled from
+`<loc>.json`:
+
+| Placeholder | Comes from |
+|---|---|
+| `{{LANGUAGE}}` | `meta.language_name` |
+| `{{VARIETY}}` | `style.variety`, which completes "Translate into ..." (`natural, fluent German`) |
+| `{{REGISTER}}` | `style.register`: the first rule whose folder prefix matches the page path wins, else `default`; `--ui` uses `ui`. Same logic as the runner's old `prompt_register.json`. |
+| `{{STYLE}}` | `loanwords` or `loanwords_text`, `english_in_brackets`, `capitalise_kept_english_at_sentence_start`, `numerals`, `decimal_separator`, `quotes` |
+| `{{TERMS}}` | approved `terms` and `phrases` whose English forms occur in the page (or in `--text-file`), one line each: target, examples, inflection, context and `Never "..."` for rejected renderings |
+
+- Only `approved` entries are listed. A `draft` or `disputed` entry never
+  reaches the model.
+- Pages get entries with `applies_to` `pages` or `both`; `--ui` gets `ui` or
+  `both`.
+- Filtering by the text keeps prompts short and stops the model forcing a
+  term into a block that does not contain it. A full-page call passes the
+  whole page, so it sees every term the page contains.
+- `loanwords_text` is for a loanword rule the two values of `loanwords`
+  cannot express ("may remain in Latin script where that is the natural
+  usage"); it is printed as written.
+
+The 13 languages that had only a hand-written head (ar de es fr hi it ja ko
+pt ru tr uk zh) have a glossary with `meta`, `style` and the one term rule
+their head stated (`node`). Those entries are `approved` with
+`reviewed_by: ["@steward (legacy prompt head)"]`: they were the steward's
+rules, not a native-speaker review, and the first reviewer of each language
+is asked to confirm them.
+
+`lib/render-prompt.test.mjs` checks that every line of the 14 retired heads
+(copies in `test-fixtures/legacy-heads/`) has a home in the template, a style
+field or a glossary entry (`legacyCoverage()`), and that the Indonesian head
+for a real `guides/` page contains every old term line that applies to it,
+with the `kamu` register, while a `Zcash_Tech/` page gets `Anda`.
 
 ## How a review works
 
@@ -130,7 +179,7 @@ change while a translation sync is running: the sync refuses to push when
 - `applies_to` is `pages`, `ui` or `both`.
 
 `<loc>.json` has `locale`, `version`, `meta` (language name, script, engine),
-`style` (register, brackets, loanwords, abbreviations), `terms` (keyed by the
+`style` (variety, register, brackets, loanwords, abbreviations), `terms` (keyed by the
 id from `terms.en.json`), `phrases` (menu labels and fixed phrases, keyed by
 their exact English), `gates` and `changelog`. Each term or phrase has:
 
