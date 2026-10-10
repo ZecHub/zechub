@@ -15,12 +15,13 @@
 // logic in lib/render-prompt.mjs. Exits 1, printing nothing to stdout, when
 // the locale has no glossary or the text cannot be read, so a caller never
 // sends a model a half-built prompt.
-import { readFileSync } from "node:fs";
+import { readFileSync, realpathSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { join } from "node:path";
 
 import { renderPrompt } from "./lib/render-prompt.mjs";
 
-const root = new URL("../../", import.meta.url).pathname;
+const root = fileURLToPath(new URL("../../", import.meta.url));
 const dir = join(root, "translation/glossary");
 
 function die(message) {
@@ -53,7 +54,15 @@ function read(path, what) {
   }
 }
 
-const isMain = process.argv[1] && new URL(import.meta.url).pathname === process.argv[1];
+// Compare real paths: the URL pathname is percent-encoded ("sp%20ace") and a
+// symlinked checkout differs from argv[1], which made the CLI exit 0 silently.
+const isMain = (() => {
+  try {
+    return !!process.argv[1] && realpathSync(fileURLToPath(import.meta.url)) === realpathSync(process.argv[1]);
+  } catch {
+    return false;
+  }
+})();
 if (isMain) {
   const { loc, rel, textFile, ui } = parseArgs(process.argv.slice(2));
   if (!/^[a-z]{2,3}(-[A-Za-z0-9]+)*$/.test(loc)) die(`bad locale "${loc}"`);
