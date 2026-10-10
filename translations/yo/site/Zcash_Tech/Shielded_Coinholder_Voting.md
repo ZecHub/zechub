@@ -33,7 +33,7 @@ Fojú inú wo àpótí ìdìbò kan tí ó ní agbára mẹ́ta tí kò wọ́p�
 
 ## Àǹfààní àti àwòrán náà
 
-Yika idibo yoo ṣatunṣe giga aworan kan, bulọọki mainnet Zcash kan ṣoṣo, ati iwuwo rẹ ni iwọntunwọnsi aabo ti o le lo ninu [Ironwood](../zcash-tech/ironwood) Adagun ní ààrin náà. Òfin náà jẹ́ Ironwood ZEC kan ní àwòrán náà dọ́gba pẹ̀lú ìbò kan. Fún ìwádìí NU7 àwòrán náà jẹ́ ààrin mainnet block 3,459,350, ní nǹkan bí ọjọ́ kẹrìndínlógún oṣù kẹjọ ọdún 2026 ní agogo mọ́kàndínlógún òwúrọ̀ UTC, pẹ̀lú ìdìbò ṣí sílẹ̀ títí di ọjọ́ kẹrìnlá oṣù kẹsàn-án ọdún 2026 ní agogo mọ́kàndínlógún òwúrọ̀ UTC. Ọ̀nà àtijọ́ ni a ń ṣe àkóso Transparent ZEC lọ́tọ̀ọ̀tọ̀, kì í ṣe nípasẹ̀ ìlànà yìí.
+Yika idibo yoo ṣatunṣe giga aworan kan, bulọọki mainnet Zcash kan ṣoṣo, ati iwuwo rẹ ni iwọntunwọnsi aabo ti o le lo ninu [Ironwood](../zcash-tech/ironwood) Adagun ní ààrin náà. Òfin náà jẹ́ Ironwood ZEC kan ní àwòrán náà dọ́gba pẹ̀lú ìbò kan. Fún ìwádìí NU7 àwòrán náà jẹ́ ààrin mainnet block 3,459,350, ní nǹkan bí 24/08/2026 ní 19:00 UTC, pẹ̀lú ìdìbò ṣí sílẹ̀ títí di 14/09/2026 ní 19:00 UTC. Ọ̀nà àtijọ́ ni a ń ṣe àkóso Transparent ZEC lọ́tọ̀ọ̀tọ̀, kì í ṣe nípasẹ̀ ìlànà yìí.
 
 1. Owó rẹ kì í yí padà, bẹ́ẹ̀ ni wọn kì í ti í tì í pa. Àkókò tó yẹ kó o yẹ ni a yàn, nítorí náà o lè náwó tàbí kó o gbé ZEC lọ lẹ́sẹ̀kẹsẹ̀ lẹ́yìn náà láìsí ipa lórí ìdìbò rẹ.
 2. Kò sí ìgbésẹ̀ ìforúkọsílẹ̀. Gíga fọ́tò ni gbogbo ohun tí a nílò, èyí tí ó mú kí ìlànà náà rọrùn tí kò sì ní jẹ́ kí a fi ẹni tí ó fẹ́ dìbò hàn.
