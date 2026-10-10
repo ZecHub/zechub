@@ -26,11 +26,11 @@ Zebra is an independent, production-ready full node implementation of the Zcash 
 
 Zebra validates blocks and transactions, participates in the peer-to-peer network, and exposes an RPC interface for applications. The wallet is a separate component now: [Zallet](https://github.com/zcash/zallet) runs against a Zebra node and handles keys and balances. This replaces zcashd, which bundled the node and wallet in a single process.
 
-To serve shielded light wallets, the node runs alongside an indexer, either the established [lightwalletd](https://github.com/zcash/lightwalletd) or the newer [Zaino](https://zechub.wiki/zaino).
+To serve shielded light wallets, the node runs alongside an indexer, either the established [lightwalletd](https://github.com/zcash/lightwalletd) or the newer [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
 Be sure to read the Zebra book for set-up instructions, and join the R&D Discord server for support.
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+[GitHub](https://github.com/ZcashFoundation/zebra/)
 
 [The Zebra Book](https://zebra.zfnd.org)
 
@@ -42,17 +42,17 @@ Zakura is a second consensus-compatible full node, forked from Zebra and develop
 
 ### zcashd (retired)
 
-> **Note:** zcashd has been retired. The Electric Coin Company [announced the deprecation](https://z.cash/support/zcashd-deprecation/), and the automatic End-of-Support halt was reached on 18 July 2026 at block height 3417100. Every unmodified zcashd 6.20.0 node shut down at that height and refuses to restart, and the software does not support NU6.3. Use Zebra. If you hold a zcashd `wallet.dat`, follow the [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **Note:** zcashd has been retired. The Electric Coin Company [announced the deprecation](https://z.cash/support/zcashd-deprecation/), and the automatic End-of-Support halt was reached on 18 July 2026 at block height 3417100. Every unmodified zcashd 6.20.0 node shut down at that height and refuses to restart, and the software does not support NU6.3. Use Zebra. If you hold a zcashd `wallet.dat`, follow the [Migration Guide: zcashd to zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd was the original Full Node implementation for Zcash, developed and maintained by the Electric Coin Company. The build instructions below are retained for reference and for operators migrating away from zcashd.
 
-Zcashd exposes a set of API's via its RPC interface. These API's provide functions that allow external applications to interact with the node.
+zcashd exposes a set of API's via its RPC interface. These API's provide functions that allow external applications to interact with the node.
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) is an example of an application that uses a full node to enable developers to build and maintain mobile-friendly shielded light wallets without having to interact directly with Zcashd.
+[lightwalletd](https://github.com/zcash/lightwalletd) is an example of an application that uses a full node to enable developers to build and maintain mobile-friendly shielded light wallets without having to interact directly with zcashd.
 
 [Full list of supported RPC commands](https://zcash.github.io/rpc/)
 
-[The Zcashd book](https://zcash.github.io/zcash/)
+[The zcashd book](https://zcash.github.io/zcash/)
 
 #### Start up a Node (Linux)
 
@@ -84,7 +84,7 @@ Zcashd exposes a set of API's via its RPC interface. These API's provide functio
 
 - Private Keys are stored in ~/.zcash/wallet.dat
 
-[Guide for Zcashd on Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Guide for zcashd on Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Practical Implications
 
@@ -112,7 +112,7 @@ You can also contribute to the development of the network by running tests or pr
 
 Miners require full nodes to access all mining-related RPC's such as getblocktemplate & getmininginfo.
 
-Zcashd also enables mining to shielded coinbase. Miners and mining pools have the option to mine directly to accumulate shielded ZEC in a z-address by default.
+zcashd also enables mining to shielded coinbase. Miners and mining pools have the option to mine directly to accumulate shielded ZEC in a z-address by default.
 
 Read [The Mining Guide](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) or join the Community Forum page for [Zcash Miners](https://forum.zcashcommunity.com/c/mining/13).
 
