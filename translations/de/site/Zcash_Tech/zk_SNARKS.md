@@ -163,15 +163,15 @@ Transparentes Setup (Kein Trusted Setup) – Der Vorverarbeitungsalgorithmus ver
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universelles Trusted Setup.
 
-[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Kein Trusted Setup, erzeugen aber etwas längere Beweise oder benötigen möglicherweise mehr Zeit für den Prover. 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Kein Trusted Setup, erzeugen aber etwas längere Beweise oder der Prover benötigt möglicherweise mehr Zeit für die Ausführung.
 
 SNARKS sind nützlich, wenn mehrere Verifier benötigt werden, etwa in einer Blockchain wie Zcash oder in einem zk-Rollup wie [Aztec](https://docs.aztec.network), damit mehrere validierende Nodes nicht über mehrere Runden mit jedem Beweis interagieren müssen. 
 
-## Wie werden zk-SNARKs in Zcash implementiert?
+## Wie werden zk-SNARK in Zcash implementiert?
 
 Im Allgemeinen sind Zero-Knowledge-Proofs ein Werkzeug, um ehrliches Verhalten in Protokollen durchzusetzen, ohne Informationen offenzulegen. 
 
-Zcash ist eine öffentliche Blockchain, die private Transaktionen ermöglicht. zk-SNARKs werden verwendet, um zu beweisen, dass eine private Transaktion innerhalb der Konsensregeln des Netzwerks gültig ist, ohne weitere Details über die Transaktion offenzulegen. 
+Zcash ist eine öffentliche Blockchain, die private Transaktionen ermöglicht. zk-SNARK werden verwendet, um zu beweisen, dass eine private Transaktion innerhalb der Konsensregeln des Netzwerks gültig ist, ohne weitere Details über die Transaktion offenzulegen.
 
 [Video-Erklärung](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In diesem Vortrag beschreibt Ariel Gabizon den Zcash Note Commitment Tree, Blind Polynomial Evaluation und Homomorphically Hidden Challenges sowie deren Implementierung im Netzwerk. 
 
@@ -222,9 +222,9 @@ Weiterführendes Lernen:
 
 ## Verwandte Seiten
 
-- [Shielded Pools](/using-zcash/shielded-pools) — Wie zk-SNARKs in den Zcash-Value-Pools verwendet werden
+- [Shielded Pools](/using-zcash/shielded-pools) — Wie zk-SNARKs in Zcash-Value-Pools eingesetzt werden
 - [Halo](/zcash-tech/halo) — Das zk-SNARK-System von Zcash, das Trusted Setups überflüssig macht
 - [Post-Quantum Security in Zcash](/zcash-tech/post-quantum-security) - Wie zukünftige Quantenrisiken mit der Kryptographie von Zcash zusammenhängen
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs auf Basis von zk-SNARK-Technologie
-- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Einführung in Zcash und sein Datenschutzmodell
-- [Privacy as a Core Principle](/start-here/who-can-see-your-zcash-payment) — Warum finanzielle Privatsphäre wichtig ist
+- [Was ist ZEC und Zcash](/start-here/what-is-zec-and-zcash) — Einführung in Zcash und sein Datenschutzmodell
+- [Wer kann Ihre Zcash-Zahlung sehen?](/start-here/who-can-see-your-zcash-payment) — Was öffentlich bleibt und was durch Shielding verborgen wird

@@ -8,9 +8,9 @@
 
 - **zk-SNARKs** = Arguments de connaissance succincts non interactifs à divulgation nulle
 - Ils permettent à une partie de **prouver qu’elle sait quelque chose** sans révéler l’information elle-même
-- Zcash utilise les zk-SNARKs pour prouver qu’une transaction est valide (montants corrects, entrées non dépensées) **sans révéler l’expéditeur, le destinataire ni le montant**
+- Zcash utilise zk-SNARKs pour prouver qu’une transaction est valide (montants corrects, entrées non dépensées) **sans révéler l’expéditeur, le destinataire ni le montant**
 - « Succinct » signifie que la preuve est minuscule et rapide à vérifier, même pour des énoncés complexes
-- La pool Orchard utilise Halo 2, un système de zk-SNARK ne nécessitant **aucune trusted setup**
+- La pool Orchard utilise Halo 2, un système de zk-SNARK ne nécessitant **aucune configuration de confiance**
 
 ---
 
@@ -159,11 +159,11 @@ Setup transparente (sans trusted setup)- L’algorithme de prétraitement n’ut
 
 **Types de constructions de preuves SNARK** :
 
-[Groth16](https://eprint.iacr.org/2016/260): Nécessite une trusted setup mais possède des preuves très courtes qui peuvent être vérifiées rapidement.
+[Groth16](https://eprint.iacr.org/2016/260): Nécessite une configuration de confiance, mais possède des preuves très courtes qui peuvent être vérifiées rapidement.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted Setup universelle.
 
-[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Pas de trusted setup, mais produisent des preuves légèrement plus longues ou peuvent demander plus de temps d’exécution au prouveur. 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Pas de configuration de confiance, mais produisent des preuves légèrement plus longues ou peuvent demander plus de temps d’exécution au prouveur.
 
 Les SNARKS sont utiles lorsque plusieurs vérificateurs sont nécessaires, comme sur une blockchain telle que Zcash ou un zk-Rollup tel que [Aztec](https://docs.aztec.network), afin que plusieurs nœuds de validation n’aient pas à interagir pendant plusieurs tours avec chaque preuve. 
 
@@ -222,9 +222,9 @@ Pour aller plus loin :
 
 ## Pages associées
 
-- [Shielded Pools](/using-zcash/shielded-pools) — Comment les zk-SNARKs sont utilisées dans les pools de valeur de Zcash
-- [Halo](/zcash-tech/halo) — Le système de zk-SNARK de Zcash qui élimine les trusted setups
+- [Shielded Pools](/using-zcash/shielded-pools) — Comment les zk-SNARKs sont utilisés dans les pools de valeur de Zcash
+- [Halo](/zcash-tech/halo) — Le système de zk-SNARK de Zcash qui élimine les configurations de confiance
 - [Sécurité post-quantique dans Zcash](/zcash-tech/post-quantum-security) - Comment les futurs risques quantiques sont liés à la cryptographie de Zcash
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Les ZSAs construites sur la technologie zk-SNARK
 - [Qu’est-ce que ZEC et Zcash](/start-here/what-is-zec-and-zcash) — Introduction à Zcash et à son modèle de confidentialité
-- [La confidentialité comme principe fondamental](/start-here/who-can-see-your-zcash-payment) — Pourquoi la confidentialité financière est importante
+- [Qui peut voir votre paiement en Zcash ?](/start-here/who-can-see-your-zcash-payment) — Ce qui reste public et ce que le blindage dissimule

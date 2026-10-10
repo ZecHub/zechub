@@ -59,7 +59,7 @@ Plateforme d’engagement communautaire et de récompenses conçue pour les comm
 [Visitez](https://gleyo.app/)
 
 ### Zcash Hub des subventions
-Tableau de bord des subventions axé sur la communauté, conçu pour simplifier la découverte, le suivi et l’évaluation des subventions Zcash. Il rassemble les demandes de subvention, les jalons, les budgets, les discussions et les analyses en un seul endroit en extrayant des données en direct du dépôt Community Grants Zcash GitHub. La plateforme vise à offrir une expérience plus claire et plus conviviale aux candidats, aux membres du comité et aux évaluateurs de la communauté.  
+Tableau de bord des subventions axé sur la communauté, conçu pour simplifier la découverte, le suivi et l’évaluation des subventions Zcash. Il rassemble les demandes de subvention, les jalons, les budgets, les discussions et les analyses en un seul endroit en extrayant des données en direct du dépôt Zcash Community Grants GitHub. La plateforme vise à offrir une expérience plus claire et plus conviviale aux candidats, aux membres du comité et aux évaluateurs de la communauté.  
 [Visiter](https://staging.zgrantshub.com/)
 
 ---
@@ -174,6 +174,10 @@ Outil permettant de vérifier les temps de réponse gRPC des nœuds Zcash lightw
 ### ZecStats
 Tableau de bord des statistiques du réseau Zcash en temps réel et des métriques de shielding.  
 [Visiter](https://zecstats.com)
+
+### ZecZcash
+Site indépendant de données, d’outils et de recherche sur Zcash. Comprend un explorateur, des outils de marché et de halving, des guides de wallet et des actualités de l’écosystème. Non affilié à ECC ni à la Zcash Foundation.  
+[Visiter](https://zeczcash.com/)
 
 ### zecprice
 Outil de suivi et de métriques de données pour la performance du prix de marché de Zcash.  

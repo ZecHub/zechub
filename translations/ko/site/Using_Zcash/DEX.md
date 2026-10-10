@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- 웹사이트: https://app.routerprotocol.com/
+- 웹사이트: https://www.routerprotocol.com/
 - 설명: 여러 블록체인 간에 자산과 데이터를 원활하게 전송할 수 있게 해 주는 크로스체인 유동성 전송 레이어입니다.
 
 ___
