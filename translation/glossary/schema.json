@@ -387,7 +387,9 @@
       "additionalProperties": false,
       "properties": {
         "variety": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1,
+          "description": "Completes the prompt rule 'Translate into ...', e.g. 'natural, fluent German'. No final full stop."
         },
         "register": {
           "$ref": "#/$defs/register"
@@ -404,6 +406,11 @@
             "keep-english",
             "translate"
           ]
+        },
+        "loanwords_text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The loanword rule in the locale's own words, rendered verbatim in the prompt instead of the default sentence for 'loanwords'. For rules the two-value enum cannot express ('may remain in Latin script where that is natural usage')."
         },
         "capitalise_kept_english_at_sentence_start": {
           "type": "boolean"

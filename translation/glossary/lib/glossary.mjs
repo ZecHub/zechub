@@ -66,7 +66,7 @@ export const META_FIELDS = [
   "last_review", "enforce",
 ];
 export const STYLE_FIELDS = [
-  "variety", "register", "english_in_brackets", "loanwords",
+  "variety", "register", "english_in_brackets", "loanwords", "loanwords_text",
   "capitalise_kept_english_at_sentence_start", "numerals", "decimal_separator",
   "quotes", "abbreviations_with_full_stop", "notes",
 ];
@@ -501,6 +501,11 @@ export function validateLocale(glossary, { termsEn, preserveVerbatim = [], siteD
     }
     if (style.loanwords !== undefined && !LOANWORDS.includes(style.loanwords)) {
       errors.push({ rule: "structure", where: `${where0} style`, message: `loanwords must be one of ${LOANWORDS.join(", ")}` });
+    }
+    for (const f of ["variety", "loanwords_text"]) {
+      if (style[f] !== undefined && !isStr(style[f])) {
+        errors.push({ rule: "structure", where: `${where0} style`, message: `${f} must be a non-empty string` });
+      }
     }
     if (style.abbreviations_with_full_stop !== undefined && !isStrArray(style.abbreviations_with_full_stop)) {
       errors.push({ rule: "structure", where: `${where0} style`, message: "abbreviations_with_full_stop must be a list of strings" });
