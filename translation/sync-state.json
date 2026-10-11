@@ -5165,11 +5165,11 @@
       "edited": false
     },
     "Using_Zcash/DEX.md": {
-      "src": "sha256:3584ec2df91b7c3097a05b3560bd287e439445e52dc5823273dd967972c7117a",
-      "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
+      "src": "sha256:7b4f2913bec4611d782fe369ce64287a97d2961882741d04d38b6931a6e531d1",
+      "src_commit": "6854fa2d1c4a1e7602fc35687fc9da83e8e2a5fb",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {
@@ -22705,11 +22705,11 @@
       "edited": false
     },
     "Using_Zcash/DEX.md": {
-      "src": "sha256:3584ec2df91b7c3097a05b3560bd287e439445e52dc5823273dd967972c7117a",
-      "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
+      "src": "sha256:7b4f2913bec4611d782fe369ce64287a97d2961882741d04d38b6931a6e531d1",
+      "src_commit": "6854fa2d1c4a1e7602fc35687fc9da83e8e2a5fb",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {

@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Website: https://app.routerprotocol.com/
+- Website: https://www.routerprotocol.com/
 - Beschreibung: Cross-Chain-Liquiditätstransportschicht, die einen nahtlosen Transfer von Vermögenswerten und Daten zwischen mehreren Blockchains ermöglicht.
 
 ___
