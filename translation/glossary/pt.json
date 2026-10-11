@@ -1,0 +1,58 @@
+{
+  "locale": "pt",
+  "version": 1,
+  "meta": {
+    "language_name": "Portuguese",
+    "native_name": "Português",
+    "engine": "llm",
+    "script": "Latn",
+    "dir": "ltr",
+    "language_lead": [],
+    "last_review": null
+  },
+  "style": {
+    "variety": "natural, fluent Portuguese (pt-PT/neutral)",
+    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Portuguese usage; do not force awkward coinages."
+  },
+  "terms": {
+    "node": {
+      "target": "nó",
+      "forms": [
+        "nó",
+        "nós",
+        "nodo"
+      ],
+      "rejected": [
+        {
+          "text": "node",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "nodes",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@steward (legacy prompt head)"
+      ],
+      "reviewed_at": "2026-10-10",
+      "source": "prompt_head_pt.txt"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-10-10",
+      "terms": [
+        "node"
+      ],
+      "phrases": [],
+      "summary": "Imported from the runner's hand-written prompt_head_pt.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    }
+  ]
+}

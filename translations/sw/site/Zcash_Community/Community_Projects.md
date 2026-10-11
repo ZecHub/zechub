@@ -59,7 +59,7 @@ Jukwaa la ushirikishwaji wa jamii na zawadi lililoundwa kwa ajili ya jumuiya za 
 [Tembelea](https://gleyo.app/)
 
 ### Kitovu cha Ruzuku Zcash
-Dashibodi ya ruzuku inayolenga jamii iliyoundwa ili kurahisisha jinsi ruzuku za Zcash zinavyogunduliwa, kufuatiliwa, na kukaguliwa. Inaleta maombi ya ruzuku, hatua muhimu, bajeti, majadiliano, na uchanganuzi katika sehemu moja kwa kutoa data ya moja kwa moja kutoka kwenye hazina ya GitHub Ruzuku za Jumuiya Zcash. Jukwaa hili linalenga kutoa uzoefu ulio wazi na rahisi zaidi kwa waombaji, wajumbe wa kamati, na wakaguzi wa jamii. 
+Dashibodi ya ruzuku inayolenga jamii iliyoundwa ili kurahisisha jinsi ruzuku za Zcash zinavyogunduliwa, kufuatiliwa, na kukaguliwa. Inaleta maombi ya ruzuku, hatua muhimu, bajeti, majadiliano, na uchanganuzi katika sehemu moja kwa kutoa data ya moja kwa moja kutoka kwenye hazina ya GitHub Zcash Community Grants. Jukwaa hili linalenga kutoa uzoefu ulio wazi na rahisi zaidi kwa waombaji, wajumbe wa kamati, na wakaguzi wa jamii. 
 [Tembelea](https://staging.zgrantshub.com/)
 
 ---
@@ -176,6 +176,10 @@ Zana ya kuangalia muda wa majibu ya gRPC ya nodi za Zcash lightwalletd.
 Dashibodi ya takwimu za mtandao Zcash na vipimo vya ulinzi kwa wakati halisi. 
 [Tembelea](https://zecstats.com)
 
+### ZecZcash
+Data, zana, na tovuti huru ya utafiti Zcash. Inajumuisha mchunguzi, zana za soko na za kupunguza nusu, miongozo ya pochi, na habari za mfumo ikolojia. Haihusiani na ECC au Zcash Foundation. 
+[Tembelea](https://zeczcash.com/)
+
 ### zecprice
 Zana ya ufuatiliaji na vipimo vya data kwa utendaji wa bei ya soko la Zcash. 
 [Tembelea](https://zecprice.com)
@@ -277,7 +281,7 @@ Zana ya uundaji wa maudhui bila majina na michango ya kibinafsi inayoendeshwa na
 Lango la Zcash hutoa pochi ya kivinjari na ufikiaji wa DeFi wa mnyororo mtambuka. 
 [Jukwaa](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
-### Kubadilisha Bazaar
+### BazaarSwap
 DEX Zcash-native ambayo huleta ZEC iliyolindwa kwenye Web3 DeFi kupitia WalletConnect. 
 [Jukwaa](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
@@ -285,7 +289,7 @@ DEX Zcash-native ambayo huleta ZEC iliyolindwa kwenye Web3 DeFi kupitia WalletCo
 Ubadilishanaji wa Decred unaounga mkono Zcash. 
 [Tembelea](https://dex.decred.org)
 
-### Pochi Brave
+### Brave Wallet
 Pochi ya kivinjari yenye usaidizi wa Zcash. 
 [Tembelea](https://brave.com/wallet/)
 
@@ -301,7 +305,7 @@ Jukwaa la poka la wenzao linalochanganya usimbaji fiche wa mwanzo hadi mwisho, p
 
 ## Mashirika na Maabara
 
-### Maabara Zilizolindwa
+### Shielded Labs
 Shirika huru la usaidizi la Zcash linalofadhiliwa na michango lenye makao yake makuu Uswisi. Shirika la kwanza katika mfumo ikolojia ambalo halijawahi kupokea Mfuko wa Maendeleo au ufadhili wa zawadi za kuzuia. 
 [Tembelea](https://shieldedlabs.net/)
 

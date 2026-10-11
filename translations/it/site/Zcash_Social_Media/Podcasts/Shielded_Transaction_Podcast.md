@@ -6,9 +6,9 @@
 
 Il Foresight Institute è un'organizzazione di ricerca e no-profit che supporta lo sviluppo benefico di tecnologie ad alto impatto. Dalla nostra fondazione nel 1987 su una visione di guida delle tecnologie potenti, abbiamo continuato a evolverci in un'organizzazione dai molti rami che si concentra su diversi campi della scienza e della tecnologia troppo ambiziosi perché le istituzioni tradizionali li supportino. 
 
-- [Shielded Transactions #1 | Who Will Own Your Privacy & Identity In the Future? (with Andrew Miller)](https://www.youtube.com/watch?v=UVlPHlm1I3o&list=PLH78wfbGI1x0QS-1GIjARHRWjVBKF-ofB&index=37)
-- Shielded Transactions #2 | Bitcoin’s Privacy Problem (with Zooko Wilcox)
-- [Shielded Transactions #3 | Who Should Control Your Privacy? (with Whyrusleeping)](https://www.youtube.com/watch?v=BgLXB_L3STQ)
-- Shielded Transactions #4 | Marta Belcher, Filecoin Foundation | Privacy & Law in the Age of AI
-- Shielded Transactions #5 | Avichal Garg, Electric Capital | What does the future hold for shielded transactions?
-- Shielded Transactions #6 | Zaki Manian, Iqlusion
+- [Shielded Transactions #1 | Chi possiederà la tua privacy e la tua identità in futuro? (con Andrew Miller)](https://www.youtube.com/watch?v=UVlPHlm1I3o&list=PLH78wfbGI1x0QS-1GIjARHRWjVBKF-ofB&index=37)
+- Shielded Transactions #2 | Il problema della privacy di Bitcoin (con Zooko Wilcox) (il video non è più pubblico)
+- [Shielded Transactions #3 | Chi dovrebbe controllare la tua privacy? (con Whyrusleeping)](https://www.youtube.com/watch?v=BgLXB_L3STQ)
+- Shielded Transactions #4 | Marta Belcher, Filecoin Foundation | Privacy e diritto nell'era dell'IA (il video non è più pubblico)
+- Shielded Transactions #5 | Avichal Garg, Electric Capital | Cosa riserva il futuro alle transazioni schermate? (il video non è più pubblico)
+- Shielded Transactions #6 | Zaki Manian, Iqlusion (il video non è più pubblico)

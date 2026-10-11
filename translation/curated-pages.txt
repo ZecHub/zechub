@@ -61,6 +61,7 @@ Using_Zcash/Non-Custodial_Exchanges.md
 Using_Zcash/Payment_Processors.md
 Using_Zcash/Payment_Request_URIs.md
 Using_Zcash/Recovering_Funds.md
+Using_Zcash/Shielded_Newsletter.md
 Using_Zcash/Shielded_Pools.md
 Using_Zcash/Solana_ZEC_to_Shielded.md
 Using_Zcash/Solswap.md
@@ -149,6 +150,7 @@ Zcash_Tech/Private_Information_Retrieval.md
 Zcash_Tech/Project_Tachyon.md
 Zcash_Tech/Sapling.md
 Zcash_Tech/Sprout.md
+Zcash_Tech/Shielded_Coinholder_Voting.md
 Zcash_Tech/The_Turnstile.md
 Zcash_Tech/Unified_Addresses.md
 Zcash_Tech/Viewing_Keys.md
@@ -192,6 +194,7 @@ guides/Hardened_Zebrad.md
 guides/Keystone_Zashi.md
 guides/Maya_Protocol.md
 guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md
+guides/Mining_and_Staking_Privacy.md
 guides/My_First_Zcash_Workbook.md
 guides/Nym_VPN.md
 guides/Raspberry_Pi_4_Full_Node.md

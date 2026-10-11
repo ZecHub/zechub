@@ -1,0 +1,56 @@
+{
+  "locale": "tr",
+  "version": 1,
+  "meta": {
+    "language_name": "Turkish",
+    "native_name": "Türkçe",
+    "engine": "llm",
+    "script": "Latn",
+    "dir": "ltr",
+    "language_lead": [],
+    "last_review": null
+  },
+  "style": {
+    "variety": "natural, fluent Turkish",
+    "loanwords_text": "Common technical loanwords may remain in their established Turkish form; do not force awkward coinages."
+  },
+  "terms": {
+    "node": {
+      "target": "düğüm",
+      "forms": [
+        "düğüm"
+      ],
+      "rejected": [
+        {
+          "text": "node",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "nodes",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@steward (legacy prompt head)"
+      ],
+      "reviewed_at": "2026-10-10",
+      "source": "prompt_head_tr.txt"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-10-10",
+      "terms": [
+        "node"
+      ],
+      "phrases": [],
+      "summary": "Imported from the runner's hand-written prompt_head_tr.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    }
+  ]
+}

@@ -2,13 +2,13 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Mgbasa Ozi Azụmaahịa E Chebere site na Forsight Institute
+# Podcast nke Azụmahịa Nchebe site na Forsight Institute
 
-Foresight Institute is a research organization and non-profit that supports the beneficial development of high-impact technologies. Since our founding in 1987 on a vision of guiding powerful technologies, we have continued to evolve into a many-armed organization that focuses on several fields of science and technology that are too ambitious for legacy institutions to support. 
+Ụlọ Ọrụ Foresight bụ otu nzukọ nyocha na-abụghị maka uru nke na-akwado mmepe bara uru nke teknụzụ ndị nwere mmetụta dị elu. Kemgbe e guzobere anyị na 1987 na ọhụụ nke iduzi teknụzụ dị ike, anyị anọgidewo na-agbanwe ghọọ otu nwere ọtụtụ ngwa agha nke na-elekwasị anya n'ọtụtụ ngalaba sayensị na teknụzụ nke na-achọsi ike nke ukwuu maka ụlọ ọrụ ochie iji kwado. 
 
-- [Shielded Transactions #1  Ònye Ga-enwe Nzuzo Gị na Njirimara Gị n'Ọdịnihu? (nke Andrew Miller dere) ](https://www.youtube.com/watch?v=UVlPHlm1I3o&list=PLH78wfbGI1x0QS-1GIjARHRWjVBKF-ofB&index=37)
-- Shielded Transactions # 2 ]. Nsogbu Nzuzo Bitcoin (na Zooko Wilcox)
-- [Ebe E Si Eme Ihe Nchedo Nke 3] Ònye Kwesịrị Ịchịkwa Nzuzo Gị? (na Whyrusleeping)](https://www.youtube.com/watch?v=BgLXB_L3STQ)
-- Shielded Transactions #4  Marta Belcher, Filecoin Foundation  Privacy & Law in the Age of AI
-- Shielded Transactions #5 | Avichal Garg, Electric Capital | What does the future hold for shielded transactions?
-- Mmekọrịta E Chebere # 6] Zaki Manian, Iqlusion
+- [Azụmahịa Ekpuchiri Ekpuchi #1 | Ònye ga-enwe Nzuzo na njirimara gị n'ọdịnihu? (ya na Andrew Miller)](https://www.youtube.com/watch?v=UVlPHlm1I3o&list=PLH78wfbGI1x0QS-1GIjARHRWjVBKF-ofB&index=37)
+- Azụmahịa Ekpuchiri Ekpuchi #2 | Nsogbu Nzuzo nke Bitcoin (na Zooko Wilcox) (vidiyo ahụ abụghịzi ọha)
+- [Azụmahịa Ekpuchiri Ekpuchi #3 | Ònye Kwesịrị Ijikwa Nzuzo Gị? (na Whyrussleeping)](https://www.youtube.com/watch?v=BgLXB_L3STQ)
+- Azụmahịa Ekpuchiri Ekpuchi #4 | Marta Belcher, Filecoin Foundation | Nzuzo na Iwu n'oge AI (vidiyo ahụ abụghịzi ọha)
+- Azụmahịa echekwara #5 | Avichal Garg, isi obodo eletrik | Gịnị ka ọdịnihu ga-abụ maka azụmahịa echekwara? (vidiyo ahụ abụghịzi ọha)
+- Azụmahịa Ekpuchiri Ekpuchi #6 | Zaki Manian, Iqlusion (vidiyo ahụ abụghịzi nke ọha)

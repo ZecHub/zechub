@@ -7,8 +7,8 @@
 Foresight Institute — це дослідницька організація та неприбуткова установа, що підтримує корисний розвиток високовпливових технологій. Із моменту нашого заснування у 1987 році з баченням спрямовувати потужні технології ми продовжували розвиватися в багатопрофільну організацію, яка зосереджується на кількох напрямах науки й технологій, надто амбітних для підтримки з боку традиційних інституцій. 
 
 - [Shielded Transactions #1 | Кому в майбутньому належатимуть ваша приватність та ідентичність? (з Andrew Miller)](https://www.youtube.com/watch?v=UVlPHlm1I3o&list=PLH78wfbGI1x0QS-1GIjARHRWjVBKF-ofB&index=37)
-- Shielded Transactions #2 | Проблема приватності Bitcoin (з Zooko Wilcox)
+- Shielded Transactions #2 | Проблема приватності Bitcoin (з Zooko Wilcox) (відео більше не є публічним)
 - [Shielded Transactions #3 | Хто має контролювати вашу приватність? (з Whyrusleeping)](https://www.youtube.com/watch?v=BgLXB_L3STQ)
-- Shielded Transactions #4 | Marta Belcher, Filecoin Foundation | Приватність і право в епоху ШІ
-- Shielded Transactions #5 | Avichal Garg, Electric Capital | Що чекає на shielded transactions у майбутньому?
-- Shielded Transactions #6 | Zaki Manian, Iqlusion
+- Shielded Transactions #4 | Marta Belcher, Filecoin Foundation | Приватність і право в епоху ШІ (відео більше не є публічним)
+- Shielded Transactions #5 | Avichal Garg, Electric Capital | Що чекає на shielded transactions у майбутньому? (відео більше не є публічним)
+- Shielded Transactions #6 | Zaki Manian, Iqlusion (відео більше не є публічним)

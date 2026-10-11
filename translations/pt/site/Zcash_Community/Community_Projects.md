@@ -175,6 +175,10 @@ Ferramenta para verificar os tempos de resposta gRPC dos nós Zcash lightwalletd
 Painel para estatísticas da rede Zcash em tempo real e métricas de shielding.  
 [Visitar](https://zecstats.com)
 
+### ZecZcash
+Site independente de dados, ferramentas e investigação sobre Zcash. Inclui um explorador, ferramentas de mercado e de halving, guias de carteiras e notícias do ecossistema. Não é afiliado a ECC nem à Zcash Foundation.  
+[Visitar](https://zeczcash.com/)
+
 ### zecprice
 Ferramenta de acompanhamento e métricas de dados para o desempenho do preço de mercado da Zcash.  
 [Visitar](https://zecprice.com)

@@ -10,7 +10,7 @@
 - تتيح لطرفٍ ما **إثبات أنه يعرف شيئًا** دون الكشف عن المعلومة نفسها
 - يستخدم Zcash تقنيات zk-SNARKs لإثبات أن المعاملة صالحة (المبالغ صحيحة، والمدخلات غير منفقة) **من دون الكشف عن المُرسِل أو المُستقبِل أو المبلغ**
 - تعني كلمة "موجزة" أن الإثبات صغير جدًا وسريع التحقق حتى بالنسبة إلى العبارات المعقدة
-- تستخدم مجموعة Orchard نظام Halo 2، وهو نظام zk-SNARKs **لا يتطلب trusted setup**
+- تستخدم مجموعة Orchard نظام Halo 2، وهو نظام zk-SNARK **لا يتطلب إعدادًا موثوقًا**
 
 ---
 
@@ -159,11 +159,11 @@ Transparent Setup (No Trusted Setup)- لا تستخدم خوارزمية الم�
 
 **أنواع بُنى إثبات SNARK**:
 
-[Groth16](https://eprint.iacr.org/2016/260): يتطلب Trusted Setup لكنه يوفّر إثباتات قصيرة جدًا يمكن التحقق منها بسرعة.
+[Groth16](https://eprint.iacr.org/2016/260): يتطلب Trusted Setup، لكنه يوفّر إثباتات قصيرة جدًا يمكن التحقق منها بسرعة.
 
 [Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted Setup عام.
 
-[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): لا تتطلب Trusted Setup لكنها تنتج إثباتات أطول قليلًا أو قد تستغرق وقتًا أطول لدى المُثبِت. 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): لا تتطلب إعدادًا موثوقًا، لكنها تنتج إثباتات أطول قليلًا أو قد تستغرق وقتًا أطول لتشغيل المُثبِت.
 
 تكون SNARKS مفيدة عندما تكون هناك حاجة إلى عدة مُدقّقين، كما في blockchain مثل Zcash أو zk-Rollup مثل [Aztec](https://docs.aztec.network)، بحيث لا تضطر عقد التحقق المتعددة إلى التفاعل عبر عدة جولات مع كل إثبات. 
 
@@ -223,8 +223,8 @@ ____
 ## صفحات ذات صلة
 
 - [المجموعات المحمية](/using-zcash/shielded-pools) — كيف تُستخدم zk-SNARKs في مجموعات القيمة في Zcash
-- [Halo](/zcash-tech/halo) — نظام zk-SNARKs في Zcash الذي يلغي trusted setups
+- [Halo](/zcash-tech/halo) — نظام zk-SNARK الخاص بـZcash الذي يلغي الإعدادات الموثوقة
 - [الأمان ما بعد الكمي في Zcash](/zcash-tech/post-quantum-security) - كيف ترتبط المخاطر الكمية المستقبلية بتشفير Zcash
 - [أصول Zcash المحمية](/zcash-tech/zcash-shielded-assets) — ZSAs المبنية على تقنية zk-SNARK
 - [ما هو ZEC و Zcash](/start-here/what-is-zec-and-zcash) — مقدمة إلى Zcash ونموذج الخصوصية الخاص به
-- [الخصوصية كمبدأ أساسي](/start-here/who-can-see-your-zcash-payment) — لماذا تهم الخصوصية المالية
+- [من يمكنه رؤية دفعتك عبر Zcash؟](/start-here/who-can-see-your-zcash-payment) — ما الذي يبقى علنيًا، وما الذي يخفيه التدريع

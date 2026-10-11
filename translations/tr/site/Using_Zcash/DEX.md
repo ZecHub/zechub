@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Web sitesi: https://app.routerprotocol.com/
+- Web sitesi: https://www.routerprotocol.com/
 - Açıklama: Birden fazla blokzincir arasında sorunsuz varlık ve veri aktarımı sağlayan zincirler arası likidite taşıma katmanı.
 
 ___

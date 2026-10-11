@@ -15,7 +15,7 @@ Censorship-tsitretsitsi, Zcash blockchain-ŋusẽ hadomenyatakakadzraɖoƒewo. Z
 (Nyatakakadzraɖoƒe si mele Internet dzi fifia o tso September 2026 me.)
 
 ### ZK Radio dzi
-Radiodɔwɔƒe si le Internet dzi be woana nyanya, afia nu, ahaɖe modzaka na Zcash nutoa me tɔwo. Zcash en Español kple ZKAV Club ye wɔe. 
+Radiodɔwɔƒe si le Internet dzi be woatsɔ ana nyanya Zcash nutoa me tɔwo, ana hehe wo, ahaɖe modzaka na wo. Zcash en Español kple ZKAV Club ye wɔe. 
 [Sasrã](https://zcashesp.com/zk-radio/)
 
 ### ZShieldHer
@@ -67,7 +67,7 @@ Nutoa me tɔwo ƒe kpekpeɖeŋunana ƒe dashboard si wowɔ be wòana alesi woake
 ## Gakotokuwo Kple Fexexe ƒe Dɔwɔnuwo
 
 ### CipherPay
-Ame ŋutɔ ƒe fexexe ɖe internet dzi. Menye vidzikpɔkpɔ o, KYC aɖeke meli o. Asitsalawo xɔa ZEC tẽ ɖe adrɛs siwo wokpɔ ta na. 
+Ame ŋutɔ ƒe fexexe ɖe internet dzi. Menye vidzikpɔkpɔ o, KYC aɖeke meli o. Asitsalawo xɔa ZEC tẽ ɖe adrɛs siwo ŋu wokpɔ ta na. 
 [Sasrã](https://www.cipherpay.app/en)
 
 ### eZcash
@@ -89,7 +89,7 @@ ZcashToCash (zcashto.cash) — ZEC na Ga App, Chime, Monzo, Revolut, Venmo, alo 
 
 
 ### Zafu ƒe Gakotoku
-Adzamegakotoku si woate ŋu aʋu ɖi na Zcash kple Penumbra. Browser ƒe kekeɖenudɔwɔwɔ kple asitsalawo ƒe akpa dzi kpeɖodzi, kekeli-asitsalawo ƒe xɔtuɖoɖo si ŋu woɖo kpee, asidede agbalẽ te fafɛ, FROST multisig, kple nukpɔkpɔ ƒe safui aɖeke si medzo le mɔ̃a me o. 
+Adzamegakotoku si woʋu ɖi na Zcash kple Penumbra. Browser ƒe kekeɖenudɔwɔwɔ kple asitsalawo ƒe akpa dzi kpeɖodzi, kekeli-asitsalawo ƒe xɔtuɖoɖo si ŋu woɖo kpee, asidede agbalẽ te fafɛ, FROST multisig, kple nukpɔkpɔ ƒe safui aɖeke si medzo le mɔ̃a me o. 
 [Sasrã](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo
@@ -101,7 +101,7 @@ Mɔ̃ ƒe Fexexe ƒe Ðoɖowɔɖi (MPP) na Zcash. Wotrɔ asi le eŋu na AI dɔw�
 [Sasrã](https://zimppy.xyz/)
 
 ### Gakotoku Dizzy
-Discord bot si naa mɔɖeɖe si me kuxi aɖeke mele o eye wòle dedie na Zcash asitsatsa. 
+Discord bot si naa mɔnukpɔkpɔ si me kuxi aɖeke mele o eye wòle dedie na Zcash asitsatsa. 
 [Sasrã](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
@@ -120,7 +120,7 @@ Taɖodzinu si wotu ɖe gadzadzraɖo ƒe gakotoku si wotu ɖe Zcash takpɔnu ƒe 
 YWallet teƒenɔla si doa alɔ Zcash ɖoɖowɔɖi ƒe nɔnɔme yeyetɔ siwo dome Orchard. 
 [Nyamedzroƒe](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
-### MonteZecret ƒe agbalẽa
+### MonteZecret
 Dodokpɔ ƒe gakotoku si le bɔbɔe na Zcash si woŋlɔ ɖe Rust me. 
 [Nyamedzroƒe](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
@@ -133,7 +133,7 @@ Live non-custodial tipping platform afisi tip ɖesiaɖe va ɖo abe shielded ZEC.
 [Sasrã](https://tipz.cash/)
 
 ### CYZE ƒe nya
-Gakotoku kple ɖoɖowɔwɔ ƒe mɔnu si me wowɔa nu aduadu le si ɖea mɔ na ƒuƒoƒoa me tɔ geɖe be woakpɔ Zcash ga siwo wokpɔ ta na la ɖekae. Ezãa FROST dzidzenu ƒe asidede agbalẽ te, si wɔnɛ be ƒuƒoƒowo te ŋu ɖea mɔ ɖe Orchard ƒe asitsatsa ŋu le ƒuƒoƒo me evɔ menaa gomekpɔla ɖeka kpɔ ŋusẽ blibo ɖe gakotokua dzi o. 
+Gakotoku kple ɖoɖowɔwɔ ƒe mɔnu si me wowɔa nu aduadu le si ɖea mɔ na ƒuƒoƒoa me tɔ geɖe be woakpɔ Zcash ga siwo wokpɔ ta na la dzi ɖekae. Ezãa FROST dzidzenu ƒe asidede agbalẽ te, si wɔnɛ be ƒuƒoƒowo te ŋu ɖea mɔ ɖe Orchard ƒe asitsatsa ŋu le ƒuƒoƒo me evɔ menaa gomekpɔla ɖeka kpɔ ŋusẽ blibo ɖe gakotokua dzi o. 
 [Sasrã](https://github.com/USCMig/Cyze)
 
 ### Pendrake ƒe Gbetakpɔxɔ
@@ -144,7 +144,7 @@ Gakotoku si wotsɔ gaƒoɖokui ɖeɖeko wɔe si wowɔ na ame ɖekaɖekawo kple h
 
 ## Nukulawo, Nyatakakawo, Kple Network Dashboards
 
-### CipherScan ƒe dɔwɔwɔ
+### CipherScan
 Adzamenyawo-gbãtɔ Zcash blockchain explorer. Wotue kple Next.js 15, TypeScript, kple Rust/WASM. Didiwo meɖea biabia ƒe metadata ɖa o. 
 [Sasrã](https://cipherscan.app/)
 
@@ -176,6 +176,10 @@ Dɔwɔnu si woatsɔ akpɔ gRPC ŋuɖoɖo ɣeyiɣiwo le Zcash lightwalletd nodes.
 Dashboard na ɣeyiɣi ŋutɔŋutɔ Zcash network akɔntabubuwo kple shielding metrics. 
 [Sasrã](https://zecstats.com)
 
+### ZecZcash
+Zcash nyatakaka siwo le wo ɖokui si, dɔwɔnuwo, kple numekuku teƒe. Nusiwo le emee nye anyigbayeyedila, asitsatsa kple afã dzi ɖeɖe kpɔtɔ ƒe dɔwɔnuwo, gakotoku ƒe mɔfiamewo, kple lãwo ƒe agbenɔnɔ ŋuti nyadzɔdzɔwo. Menye ɖe wòdo ƒome kple ECC alo Zcash Foundation. 
+[Sasrã](https://zeczcash.com/)
+
 ### zecprice ƒe asi
 Tracking kple data metrics dɔwɔnu na Zcash asi ƒe asi ƒe dɔwɔwɔ. 
 [Sasrã](https://zecprice.com)
@@ -189,7 +193,7 @@ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe asitsaƒe si nye ame ŋutɔ ƒe nyawo gbã. F
 [Sasrã](https://zecmarket.org/)
 
 ### Zecsite
-Nyatakakadzraɖoƒe si nɔa teƒe ɖeka si tsia dzi ɖe ame ŋutɔ ƒe nyawo ŋu si ƒoa Zcash nyadzɔdzɔwo, akɔntabubuwo, kple hehenana nyatakakawo nu ƒu JavaScript zazã manɔmee. 
+Nyatakakadzraɖoƒe si nɔa teƒe ɖeka si tsia dzi ɖe ame ŋutɔ ƒe nyawo ŋu si ƒoa Zcash nyadzɔdzɔwo, akɔntabubuwo, kple hehenana nyatakakawo nu ƒu JavaScript. 
 [Sasrã](https://zecsite.org/netscape/en/index.html)  
 [Nyamedzroƒe](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
@@ -210,11 +214,11 @@ Ameŋunyatakakawo-gbãtɔ si tsɔa ZEC dzeɖoɖowo doa ka kple xexeame ŋutɔŋu
 [Sasrã](https://www.justzappit.xyz/)
 
 ### Zentat ƒe nya
-Browser ƒe kekeɖenudɔwɔwɔ si trɔa fiat ga ƒe asiwo ɖe ZEC me le ɣeyiɣi ŋutɔŋutɔ me ne èle web la me dzrom. 
+Browser ƒe kekeɖenudɔ si trɔa fiat ga ƒe asiwo ɖe ZEC me le ɣeyiɣi ŋutɔŋutɔ me ne èle web la me dzrom. 
 [Sasrã](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
 ### Gli si Wotsɔ Akpoxɔnu Kpɔ
-Nuvɔ̃meʋuʋu ƒe mɔnu si me Zcash adzamenyawo le ŋusẽ ɖo. 
+Nuvɔ̃meʋuʋu ƒe mɔnu si me Zcash adzamenyawo le ŋusẽ ɖo si ŋu ŋkɔ mele o. 
 [Sasrã](https://shieldedwall.org/)
 
 ### Ztrash
@@ -277,7 +281,7 @@ Dɔwɔnu si woatsɔ awɔ nyatakaka siwo womeyɔ o kple ame ŋutɔ ƒe nudzɔdzɔ
 Zcash agbo si naa browser gakotoku kple cross-chain DeFi mɔɖeɖe. 
 [Nyamedzroƒe](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
-### BazaarSwap ƒe ʋuʋu
+### BazaarSwap
 Zcash-native DEX si tsɔa ZEC si wokpɔ ta na la vaa Web3 DeFi me to WalletConnect dzi. 
 [Nyamedzroƒe](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
@@ -285,7 +289,7 @@ Zcash-native DEX si tsɔa ZEC si wokpɔ ta na la vaa Web3 DeFi me to WalletConne
 Decred ƒe decentralized exchange si doa alɔ Zcash. 
 [Sasrã](https://dex.decred.org)
 
-### Gakotoku Brave
+### Brave Wallet
 Browser gakotoku si me Zcash kpekpeɖeŋu le. 
 [Sasrã](https://brave.com/wallet/)
 
@@ -301,8 +305,8 @@ Hatiwo ƒe poker ƒe mɔnu si ƒoa nu ɣaɣla tso nuwuwu vaseɖe nuwuwu, susu me
 
 ## Habɔbɔwo & Labs
 
-### Labs Siwo Wotsɔ Akpoxɔnu Wɔe
-Zcash kpekpeɖeŋunahabɔbɔ si le eɖokui si, si dzɔa ga tso nudzɔdzɔwo me, si le Switzerland. Habɔbɔ gbãtɔ le lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me si mexɔ Development Fund alo block reward funding kpɔ o. 
+### Shielded Labs
+Zcash kpekpeɖeŋunahabɔbɔ si le eɖokui si, si dzɔa ga tso nudzɔdzɔwo me, si le Switzerland. Habɔbɔ gbãtɔ le lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me si mexɔ Ŋgɔyidɔwo ƒe Ga alo block reward funding kpɔ o. 
 [Sasrã](https://shieldedlabs.net/)
 
 ### Cypherpunk ƒe haƒoƒo

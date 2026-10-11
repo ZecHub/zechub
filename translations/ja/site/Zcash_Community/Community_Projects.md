@@ -175,6 +175,10 @@ Zcash lightwalletd ノードのgRPC応答時間を確認するツール。
 リアルタイムのZcashネットワーク統計とシールド化メトリクスのためのダッシュボード。  
 [訪問](https://zecstats.com)
 
+### ZecZcash
+独立したZcashのデータ、ツール、リサーチサイト。エクスプローラー、市場および半減期ツール、ウォレットガイド、エコシステムニュースを提供。ECCおよびZcash Foundationとは提携していません。  
+[訪問](https://zeczcash.com/)
+
 ### zecprice
 Zcashの市場価格パフォーマンスを追跡するデータメトリクスツール。  
 [訪問](https://zecprice.com)
