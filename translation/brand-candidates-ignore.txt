@@ -9,3 +9,10 @@
 # grants body, "Zcash Community Grants", is protected. Left unprotected by
 # decision on 2026-09-24.
 Zcash Community
+
+# Ordinary words the detector flags on Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md:
+# "Unsigned" is part of a paper title in link text ("256-bit Unsigned
+# Integers"); "Evolution" alone is Dash's chain only after "Dash", and the
+# full name "Dash Evolution" is protected. Decided 2026-10-11.
+Unsigned
+Evolution
