@@ -125,17 +125,17 @@ Kurasa za eneo zilizoratibiwa chini ya `translations/<locale>/site/` hufuatiliwa
 
 #### Wiki ZecHub - hariri kwenye hati iliyopo
 
-Wakati mwingine taarifa zetu katika hati si sahihi. Hiyo ni sawa. Ndiyo maana tunazitumia kwa njia huria! Ukipata kitu kinachohitaji mabadiliko katika hati ya wiki, tafadhali nenda kwenye sehemu ya chini ya hati (ambayo inaunganisha kwenye ukurasa wake wa Github) na upendekeze mabadiliko kupitia PR.
+Wakati mwingine taarifa zetu katika hati si sahihi. Hiyo ni sawa. Ndiyo maana tunazitumia kwa njia huria! Ukipata kitu kinachohitaji mabadiliko katika hati ya wiki, tafadhali nenda kwenye sehemu ya chini ya hati (ambayo inaunganisha kwenye ukurasa wake wa GitHub) na upendekeze mabadiliko kupitia PR.
 
 #### Wiki ZecHub - kiungo kilichovunjika kimerekebishwa
 
-Ukigundua kuwa kiungo kimeharibika, au kitu muhimu kimeandikwa vibaya, tafadhali nenda kwenye sehemu ya chini ya hati (ambayo inaunganisha kwenye ukurasa wake wa Github) na upendekeze mabadiliko kupitia PR.
+Ukigundua kuwa kiungo kimeharibika, au kitu muhimu kimeandikwa vibaya, tafadhali nenda kwenye sehemu ya chini ya hati (ambayo inaunganisha kwenye ukurasa wake wa GitHub) na upendekeze mabadiliko kupitia PR.
 
 #### Jarida - toleo jipya
 
 Tunatengeneza jarida la kila wiki la mifumo ikolojia. Hii ni njia rahisi sana ya kushiriki! Jarida hutoka kila Ijumaa au Jumamosi. Ukitaka kuandika jarida, tuma ujumbe kwa @squirrel katika sehemu ya #zecweekly ya Discord ili kuwafahamisha.
 
-Baada ya kufanya hivyo, unaweza kwenda kwenye [sehemu ya jarida la hazina hii](/newsletter/newsletterbasics.md) na uwasilishe ombi la kuvuta ili kuunda toleo jipya la jarida. Tafadhali fuata muundo uliotumika katika hili [kiolezo](/newsletter/newslettertemplate.md).
+Baada ya kufanya hivyo, unaweza kwenda kwenye [sehemu ya jarida la hazina hii](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) na uwasilishe ombi la kuvuta ili kuunda toleo jipya la jarida. Tafadhali fuata muundo uliotumika katika hili [kiolezo](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Baada ya kufanya hivi @squirrel au (katika Discord) wataona kwamba toleo lako jipya la jarida linapatikana, nao watalipitia na kisha kuliunganisha kwenye hazina. Baada ya kuunganishwa, watachukua maudhui na kuyachapisha kupitia Substack.
 

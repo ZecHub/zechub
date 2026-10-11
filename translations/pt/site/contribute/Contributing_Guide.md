@@ -80,17 +80,17 @@ Estas são áreas bastante amplas, por isso há muito por onde trabalhar. Se qui
 
 #### Wiki do ZecHub - 0.015 ZEC por edição aceita na documentação
 
-Às vezes, as informações em nossa documentação não estão totalmente corretas. Tudo bem. É por isso que elas são open source! Se você encontrar algo que precise ser alterado em um wiki-doc, vá até o rodapé do documento (que contém o link para sua página no Github) e sugira uma mudança por meio de um PR.
+Às vezes, as informações em nossa documentação não estão totalmente corretas. Tudo bem. É por isso que elas são open source! Se você encontrar algo que precise ser alterado em um wiki-doc, vá até o rodapé do documento (que contém o link para sua página no GitHub) e sugira uma mudança por meio de um PR.
 
 #### Wiki do ZecHub - 0.005 ZEC por link quebrado corrigido
 
-Se você encontrar um link quebrado, ou algo importante escrito errado, vá até o rodapé do documento (que contém o link para sua página no Github) e sugira a mudança por meio de um PR.
+Se você encontrar um link quebrado, ou algo importante escrito errado, vá até o rodapé do documento (que contém o link para sua página no GitHub) e sugira a mudança por meio de um PR.
 
 #### Newsletter - 0.05 ZEC por edição
 
 Produzimos a newsletter semanal do ecossistema. Esta é uma forma super simples e fácil de se envolver! A newsletter é publicada toda sexta-feira ou sábado. Se você quiser escrever uma newsletter, envie uma mensagem para @squirrel na seção #zecweekly do Discord para avisar.
 
-Depois de fazer isso, você pode ir para a [seção de newsletter deste repositório](/newsletter/newsletterbasics.md) e enviar um pull request para criar uma nova edição da newsletter. Siga o formato usado neste [modelo](/newsletter/newslettertemplate.md).
+Depois de fazer isso, você pode ir para a [seção de newsletter deste repositório](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) e enviar um pull request para criar uma nova edição da newsletter. Siga o formato usado neste [modelo](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Depois de fazer isso, @squirrel ou (no Discord) verá que sua nova edição da newsletter está disponível e fará a revisão antes de fazer o merge no repositório. Depois que o merge for feito, eles pegarão o conteúdo e o publicarão via Substack.
 

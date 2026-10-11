@@ -80,17 +80,17 @@ Das sind ziemlich breite Themenbereiche, daher gibt es viel, woran man arbeiten 
 
 #### ZecHub Wiki - 0.015 ZEC pro angenommener Bearbeitung der Dokumentation
 
-Manchmal sind unsere Informationen in der Dokumentation nicht ganz korrekt. Das ist okay. Genau deshalb haben wir sie als Open Source veröffentlicht! Wenn du etwas findest, das in einem Wiki-Dokument geändert werden muss, gehe bitte in den Footer des Dokuments (der auf die zugehörige Github-Seite verlinkt) und schlage die Änderung über einen PR vor.
+Manchmal sind unsere Informationen in der Dokumentation nicht ganz korrekt. Das ist okay. Genau deshalb haben wir sie als Open Source veröffentlicht! Wenn du etwas findest, das in einem Wiki-Dokument geändert werden muss, gehe bitte in den Footer des Dokuments (der auf die zugehörige GitHub-Seite verlinkt) und schlage die Änderung über einen PR vor.
 
 #### ZecHub Wiki - 0.005 ZEC pro behobenem defekten Link
 
-Wenn du feststellst, dass ein Link defekt ist oder etwas Wichtiges falsch geschrieben wurde, gehe bitte in den Footer des Dokuments (der auf die zugehörige Github-Seite verlinkt) und schlage die Änderung über einen PR vor.
+Wenn du feststellst, dass ein Link defekt ist oder etwas Wichtiges falsch geschrieben wurde, gehe bitte in den Footer des Dokuments (der auf die zugehörige GitHub-Seite verlinkt) und schlage die Änderung über einen PR vor.
 
 #### Newsletter - 0.05 ZEC pro Ausgabe
 
 Wir produzieren den wöchentlichen Newsletter des Ökosystems. Das ist eine besonders einfache und unkomplizierte Möglichkeit, dich einzubringen! Der Newsletter erscheint jeden Freitag oder Samstag. Wenn du einen Newsletter schreiben möchtest, schreibe @squirrel im Bereich #zecweekly auf Discord, um Bescheid zu geben.
 
-Danach kannst du zum [Newsletter-Bereich dieses Repositories](/newsletter/newsletterbasics.md) gehen und einen Pull Request einreichen, um eine neue Ausgabe des Newsletters zu erstellen. Bitte folge dem Format, das in dieser [Vorlage](/newsletter/newslettertemplate.md) verwendet wird.
+Danach kannst du zum [Newsletter-Bereich dieses Repositories](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) gehen und einen Pull Request einreichen, um eine neue Ausgabe des Newsletters zu erstellen. Bitte folge dem Format, das in dieser [Vorlage](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) verwendet wird.
 
 Nachdem du das getan hast, wird @squirrel oder (auf Discord) sehen, dass deine neue Ausgabe des Newsletters verfügbar ist, und sie wird dann geprüft und in das Repository gemergt. Nachdem sie gemergt wurde, nehmen sie den Inhalt und veröffentlichen ihn über Substack.
 

@@ -125,17 +125,17 @@ Curated locale pages under `translations/<locale>/site/` are tracked against the
 
 #### ZecHub Wiki - edit to an existing doc
 
-Sometimes our information in the docs is not spot on. Thats okay. That is why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
+Sometimes our information in the docs is not spot on. Thats okay. That is why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its GitHub page) and suggest a change via a PR.
 
 #### ZecHub Wiki - broken link fixed
 
-If you find that a link is broken, or something important is mispelled, please go to the footer of the doc (which links to its Github page) and suggest the change via a PR.
+If you find that a link is broken, or something important is mispelled, please go to the footer of the doc (which links to its GitHub page) and suggest the change via a PR.
 
 #### Newsletter - new edition
 
 We produce the ecosystems weekly newsletter. This is a super low lift / easy way to get involved! The newsletter goes out every Friday or Saturday. If you want to write a newsletter, message @squirrel in the #zecweekly section of the Discord to let them know.
 
-After you do that, you can go to the [newsletter section of this repository](/newsletter/newsletterbasics.md) and submit a pull request to create a new edition of the newsletter. Please follow the format used in this [template](/newsletter/newslettertemplate.md).
+After you do that, you can go to the [newsletter section of this repository](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) and submit a pull request to create a new edition of the newsletter. Please follow the format used in this [template](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 After you do this @squirrel or (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
 

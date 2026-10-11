@@ -125,17 +125,17 @@ Ojú òpó wẹ́ẹ̀bù wiki wa n pese àwọn ohun èlò ẹ̀kọ́ Zcash n�
 
 #### ZecHub Wiki - ṣe àtúnṣe sí ìwé àkọsílẹ̀ tó wà tẹ́lẹ̀
 
-Nígbà míìrán, àwọn ìwífún wa nínú àwọn ìwé náà kì í ṣe òótọ́. Ó dára. Ìdí nìyẹn tí a fi ń ṣí wọn sílẹ̀! Tí o bá rí ohun kan tí ó nílò àtúnṣe nínú ìwé ìròyìn wiki, jọ̀wọ́ lọ sí ìsàlẹ̀ ìwé ìròyìn náà (tí ó so mọ́ ojú ìwé Github rẹ̀) kí o sì dábàá àtúnṣe nípasẹ̀ PR.
+Nígbà míìrán, àwọn ìwífún wa nínú àwọn ìwé náà kì í ṣe òótọ́. Ó dára. Ìdí nìyẹn tí a fi ń ṣí wọn sílẹ̀! Tí o bá rí ohun kan tí ó nílò àtúnṣe nínú ìwé ìròyìn wiki, jọ̀wọ́ lọ sí ìsàlẹ̀ ìwé ìròyìn náà (tí ó so mọ́ ojú ìwé GitHub rẹ̀) kí o sì dábàá àtúnṣe nípasẹ̀ PR.
 
 #### ZecHub Wiki - ìjápọ̀ tí ó ti fọ́ tí a ti ṣe àtúnṣe
 
-Tí o bá rí i pé ìjápọ̀ kan ti bàjẹ́, tàbí ohun pàtàkì kan ti ṣì kọ, jọ̀wọ́ lọ sí ìsàlẹ̀ ìwé náà (èyí tí ó so mọ́ ojú ìwé Github rẹ̀) kí o sì dábàá ìyípadà náà nípasẹ̀ PR.
+Tí o bá rí i pé ìjápọ̀ kan ti bàjẹ́, tàbí ohun pàtàkì kan ti ṣì kọ, jọ̀wọ́ lọ sí ìsàlẹ̀ ìwé náà (èyí tí ó so mọ́ ojú ìwé GitHub rẹ̀) kí o sì dábàá ìyípadà náà nípasẹ̀ PR.
 
 #### Ìwé Ìròyìn - àtúnse tuntun
 
 A n ṣe iwe iroyin osẹ-ọsẹ ti eto-ẹda. Eyi jẹ ọna ti o rọrun lati kopa! Iwe iroyin naa n jade ni gbogbo ọjọ Jimọ tabi Satidee. Ti o ba fẹ kọ iwe iroyin kan, fi ifiranṣẹ ranṣẹ si @squirrel ni apakan #zecweekly ti Discord lati jẹ ki wọn mọ.
 
-Lẹ́yìn tí o bá ti ṣe èyí tán, o lè lọ sí [apakan iwe iroyin ti ibi ipamọ yii](/newsletter/newsletterbasics.md) kí o sì fi ìbéèrè ìfàsẹ́yìn ránṣẹ́ láti ṣẹ̀dá àtúnse tuntun ti ìwé ìròyìn náà. Jọ̀wọ́ tẹ̀lé ìlànà tí a lò nínú èyí [awoṣe](/newsletter/newslettertemplate.md).
+Lẹ́yìn tí o bá ti ṣe èyí tán, o lè lọ sí [apakan iwe iroyin ti ibi ipamọ yii](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) kí o sì fi ìbéèrè ìfàsẹ́yìn ránṣẹ́ láti ṣẹ̀dá àtúnse tuntun ti ìwé ìròyìn náà. Jọ̀wọ́ tẹ̀lé ìlànà tí a lò nínú èyí [awoṣe](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Lẹ́yìn tí o bá ṣe èyí, @squirrel tàbí (nínú Discord) yóò rí i pé àtúnṣe tuntun ìwé ìròyìn rẹ wà, wọn yóò sì ṣe àtúnyẹ̀wò rẹ̀, lẹ́yìn náà wọn yóò dapọ̀ mọ́ ibi ìkópamọ́ náà. Lẹ́yìn tí wọ́n bá ti dapọ̀ mọ́ ọn, wọn yóò gba àkóónú náà, wọn yóò sì fi ránṣẹ́ nípasẹ̀ Substack.
 

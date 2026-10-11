@@ -135,7 +135,7 @@ Se trovi un link non funzionante o qualcosa di importante scritto in modo errato
 
 Produciamo la newsletter settimanale dell'ecosistema. È un modo semplicissimo e poco impegnativo per partecipare! La newsletter viene pubblicata ogni venerdì o sabato. Se vuoi scrivere una newsletter, manda un messaggio a @squirrel nella sezione #zecweekly di Discord per farglielo sapere.
 
-Dopo averlo fatto, puoi andare alla [sezione newsletter di questo repository](/newsletter/newsletterbasics.md) e inviare una pull request per creare una nuova edizione della newsletter. Segui il formato usato in questo [modello](/newsletter/newslettertemplate.md).
+Dopo averlo fatto, puoi andare alla [sezione newsletter di questo repository](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) e inviare una pull request per creare una nuova edizione della newsletter. Segui il formato usato in questo [modello](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Dopo averlo fatto, @squirrel o (in Discord) vedranno che la tua nuova edizione della newsletter è disponibile, la esamineranno e poi la integreranno nel repository. Dopo il merge, prenderanno il contenuto e lo pubblicheranno tramite Substack.
 

@@ -125,17 +125,17 @@ Ibe mpaghara ahọpụtara n'okpuru `translations/<locale>/site/` a na-esochi ha
 
 #### ZecHub Wiki - dezie gaa na akwụkwọ dị adị
 
-Mgbe ụfọdụ, ozi anyị dị na akwụkwọ ndị ahụ adịghị mma. Ọ dị mma. Ọ bụ ya mere anyị ji emepe ha! Ọ bụrụ na ịchọta ihe chọrọ mgbanwe na wiki-doc, biko gaa na ala nke akwụkwọ ahụ (nke na-ejikọ na ibe Github ya) ma tụọ aro mgbanwe site na PR.
+Mgbe ụfọdụ, ozi anyị dị na akwụkwọ ndị ahụ adịghị mma. Ọ dị mma. Ọ bụ ya mere anyị ji emepe ha! Ọ bụrụ na ịchọta ihe chọrọ mgbanwe na wiki-doc, biko gaa na ala nke akwụkwọ ahụ (nke na-ejikọ na ibe GitHub ya) ma tụọ aro mgbanwe site na PR.
 
 #### ZecHub Wiki - emezigharịrị njikọ agbajiela
 
-Ọ bụrụ na ịchọta na njikọ ahụ agbajiela, ma ọ bụ na e dehiere ihe dị mkpa, biko gaa na ala nke akwụkwọ ahụ (nke na-ejikọ na ibe Github ya) wee tụọ aro mgbanwe ahụ site na PR.
+Ọ bụrụ na ịchọta na njikọ ahụ agbajiela, ma ọ bụ na e dehiere ihe dị mkpa, biko gaa na ala nke akwụkwọ ahụ (nke na-ejikọ na ibe GitHub ya) wee tụọ aro mgbanwe ahụ site na PR.
 
 #### Akwụkwọ Ozi - mbipụta ọhụrụ
 
 Anyị na-emepụta akwụkwọ ozi kwa izu gbasara gburugburu ebe obibi. Nke a bụ ụzọ dị mfe iji tinye aka! Akwụkwọ ozi a na-apụta kwa Fraịdee ma ọ bụ Satọdee. Ọ bụrụ na ịchọrọ ide akwụkwọ ozi, ziga ozi na @squirrel na ngalaba #zecweekly nke Discord ka ha mara.
 
-Mgbe nke ahụ gasịrị, ị nwere ike ịga na [ngalaba akwụkwọ ozi nke ebe nchekwa a](/newsletter/newsletterbasics.md) ma tinye arịrịọ ịdọrọ iji mepụta mbipụta ọhụrụ nke akwụkwọ ozi ahụ. Biko soro usoro ejiri mee ihe na nke a [ndebiri](/newsletter/newslettertemplate.md).
+Mgbe nke ahụ gasịrị, ị nwere ike ịga na [ngalaba akwụkwọ ozi nke ebe nchekwa a](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) ma tinye arịrịọ ịdọrọ iji mepụta mbipụta ọhụrụ nke akwụkwọ ozi ahụ. Biko soro usoro ejiri mee ihe na nke a [ndebiri](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Mgbe i mechara nke a, @squirrel ma ọ bụ (na Discord) ga-ahụ na mbipụta ọhụrụ nke akwụkwọ ozi gị dị, ha ga-enyocha ma jikọta ya na ebe nchekwa. Mgbe ejikọtara ya, ha ga-ewere ọdịnaya ahụ wee bipụta ya site na Substack.
 

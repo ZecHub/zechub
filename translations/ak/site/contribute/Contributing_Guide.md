@@ -125,17 +125,17 @@ Curated locale nkratafa a ɛwɔ ase `translations/<locale>/site/` wɔde source-h
 
 #### ZecHub Wiki - sesa kɔ doc a ɛwɔ hɔ dedaw mu
 
-Ɛtɔ da bi a yɛn nsɛm a ɛwɔ docs no mu no nyɛ spot on. Ɛno yɛ okay. Ɛno nti na yɛbue-source wɔn! Sɛ wohu biribi a ɛhia nsakraeɛ wɔ wiki-doc mu a, yɛsrɛ wo kɔ doc no ase (a ɛkɔ ne Github krataafa no so) na fa PR ho nyansahyɛ ma nsakraeɛ.
+Ɛtɔ da bi a yɛn nsɛm a ɛwɔ docs no mu no nyɛ spot on. Ɛno yɛ okay. Ɛno nti na yɛbue-source wɔn! Sɛ wohu biribi a ɛhia nsakraeɛ wɔ wiki-doc mu a, yɛsrɛ wo kɔ doc no ase (a ɛkɔ ne GitHub krataafa no so) na fa PR ho nyansahyɛ ma nsakraeɛ.
 
 #### ZecHub Wiki - wɔasiesie link a abubu
 
-Sɛ wuhu sɛ link bi asɛe, anaasɛ wɔakyerɛw biribi a ɛho hia wɔ ɔkwan a ɛnteɛ so a, yɛsrɛ wo kɔ doc no ase (a ɛkɔ ne Github krataafa no so) na fa PR so hyɛ nsakrae no ho nyansa.
+Sɛ wuhu sɛ link bi asɛe, anaasɛ wɔakyerɛw biribi a ɛho hia wɔ ɔkwan a ɛnteɛ so a, yɛsrɛ wo kɔ doc no ase (a ɛkɔ ne GitHub krataafa no so) na fa PR so hyɛ nsakrae no ho nyansa.
 
 #### Newsletter - a woagye no foforo
 
 Yɛyɛ abɔde a nkwa wom ho nsɛmma nhoma dapɛn biara. Eyi yɛ super low lift / ɔkwan a ɛyɛ mmerɛw a wobɛfa so de wo ho ahyɛ mu! Nsɛmma nhoma no pue Fida anaa Kwasida biara. Sɛ wopɛ sɛ wokyerɛw nsɛmma nhoma a, message @squirrel wɔ #zecweekly fã a ɛwɔ Discord no mu na ma wɔnhu.
 
-Sɛ woyɛ saa wie a, wubetumi akɔ [nsɛmma nhoma fã a ɛwɔ saa adekorabea yi mu](/newsletter/newsletterbasics.md) na fa twe adesrɛ bɛmena sɛ wɔmfa nyɛ nsɛmma nhoma no foforo. Yɛsrɛ sɛ di ɔkwan a wɔfa so yɛ adwuma wɔ eyi mu no akyi [nsusuwso](/newsletter/newslettertemplate.md).
+Sɛ woyɛ saa wie a, wubetumi akɔ [nsɛmma nhoma fã a ɛwɔ saa adekorabea yi mu](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md) na fa twe adesrɛ bɛmena sɛ wɔmfa nyɛ nsɛmma nhoma no foforo. Yɛsrɛ sɛ di ɔkwan a wɔfa so yɛ adwuma wɔ eyi mu no akyi [nsusuwso](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
 
 Sɛ woyɛ eyi wie a @squirrel anaa (wɔ Discord) bɛhunu sɛ wo nsɛmma nwoma foforɔ no wɔ hɔ, na wɔbɛhwɛ mu na afei wɔaka abom akɔ akoraeɛ no mu. Sɛ wɔka bom wie a, wɔbɛfa emu nsɛm no na wɔde afa Substack so akɔ.
 

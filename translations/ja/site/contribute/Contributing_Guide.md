@@ -135,7 +135,7 @@ ZecHubの目標は、Zcashコミュニティの誰もが貢献できるオープ
 
 私たちはエコシステムの週刊ニュースレターを制作しています。これは非常に手軽で、簡単に参加できる方法です！ニュースレターは毎週金曜日または土曜日に配信されます。ニュースレターを書きたい場合は、Discordの#zecweeklyセクションで@squirrelにメッセージを送り、その旨を知らせてください。
 
-その後、このリポジトリの[ニュースレターセクション](/newsletter/newsletterbasics.md)に移動し、ニュースレターの新しい号を作成するためのプルリクエストを提出できます。この[テンプレート](/newsletter/newslettertemplate.md)で使用されている形式に従ってください。
+その後、このリポジトリの[ニュースレターセクション](https://github.com/ZecHub/zechub/blob/main/newsletter/newsletterbasics.md)に移動し、ニュースレターの新しい号を作成するためのプルリクエストを提出できます。この[テンプレート](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md)で使用されている形式に従ってください。
 
 これを行うと、@squirrelまたは（Discordでは）がニュースレターの新しい号が利用可能であることを確認し、レビューしてからリポジトリにマージします。マージ後、内容はSubstackで投稿されます。
 
