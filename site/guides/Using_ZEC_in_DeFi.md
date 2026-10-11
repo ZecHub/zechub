@@ -13,7 +13,7 @@ Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) 
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/mKVvXY4yjjA"
-    title="Crosschain Swaps with Zcash x NEAR Intents"
+    title="Crosschain Swaps with Zcash x Near Intents"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -54,7 +54,7 @@ The integration with Kamino opens up opportunities for Zcash to enter the Solana
 Learn More: [Kamino Learn](https://kamino.com/docs/learn/guides)
 
 
-<div blockquote class="twitter-tweet"><p lang="en" dir="ltr">Access ZEC-backed credit on Solana.<br><br>The ZCASH Market on Kamino has grown to over $2M, giving ZEC holders access to USDC liquidity against <a href="https://x.com/search?q=%24ZEC&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$ZEC</a> in a fully isolated market curated by <a href="https://x.com/AllezLabs?ref_src=twsrc%5Etfw">@AllezLabs</a>. <a href="https://t.co/zTELJdblcX">pic.twitter.com/zTELJdblcX</a></p>&mdash; Kamino (@kamino) <a href="https://x.com/kamino/status/2098485250816946322?ref_src=twsrc%5Etfw">September 11, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script> </div>
+<div blockquote class="twitter-tweet"><p lang="en" dir="ltr">Access ZEC-backed credit on Solana.<br><br>The Zcash Market on Kamino has grown to over $2M, giving ZEC holders access to USDC liquidity against <a href="https://x.com/search?q=%24ZEC&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$ZEC</a> in a fully isolated market curated by <a href="https://x.com/AllezLabs?ref_src=twsrc%5Etfw">@AllezLabs</a>. <a href="https://t.co/zTELJdblcX">pic.twitter.com/zTELJdblcX</a></p>&mdash; Kamino (@kamino) <a href="https://x.com/kamino/status/2098485250816946322?ref_src=twsrc%5Etfw">September 11, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script> </div>
 
 ---
 
@@ -69,7 +69,7 @@ Interoperability is a critical component in the development of DeFi because it a
 Learn More On : [ZenRock Bridge Learn](https://docs.zenrocklabs.io/)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, Zenrock co-founders Aditya Dave and Jack Krevitt discuss ZCASH on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss ZCASH on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ---
