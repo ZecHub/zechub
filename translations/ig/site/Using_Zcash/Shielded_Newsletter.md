@@ -30,7 +30,7 @@ zallet -c ~/.zallet/zallet.toml start
 zallet -c ~/.zallet/zallet.toml rpc help
 ```
 
-`rpc help` ga-edepụtarịrị `z_sendmany`, `z_getoperationstatus`, na `z_getoperationresult`Jikọọ RPC na `127.0.0.1` naanị.
+`rpc help` ga-edepụtarịrị `z_sendmany`, `z_getoperationstatus`, na `z_getoperationresult`. Jikọọ RPC na `127.0.0.1` naanị.
 
 ## Ndepụta ndị nnata
 
@@ -65,7 +65,7 @@ Ndị a dị n'osisi ahụ dịka ọ dị na 8 Ọktoba 2026. Agbakwala ọsọ
 - `[[ bytesInFile -lt 512 ]]` na-efu efu `$`. Alaka otu ihe ncheta anaghị agba ọsọ.
 - Mkpọchi chunk na-echekwa hex, mgbe ahụ `hex2ascii` depụta ya, mgbe ahụ `txBuilderFromFile.sh` na-agbanwe ya ọzọ. A naghị ehichapụ akụkụ ikpeazụ ma ọ bụrụ na ahịrị nke ọzọ agafee 512. A naghị ekewa ahịrị ogologo. A na-eziga ya dum ma nwee ike ịgafe ihe ndetu 512-byte.
 - `txBuilderFromFile.sh` oku `./zallet rpc` na-enweghị ụzọ nhazi, ma na-atụ anya ọnụọgụ abụọ dị na ndekọ dị ugbu a. Jiri `zallet -c <config> rpc`.
-- `toCurl.sh` na Zebra na-agwa okwu na ọdụ ụgbọ mmiri 8232 site na iji kuki, wee kpọọ oku `getinfo` na `sendmany`Zallet anaghị enye `sendmany`Mkpọchi nchere nke igwe na-ejikwa `[[ chainHeight -gt temp ]]` na-enweghị `$`, yabụ ọ naghị echere.
+- `toCurl.sh` na Zebra na-agwa okwu na ọdụ ụgbọ mmiri 8232 site na iji kuki, wee kpọọ oku `getinfo` na `sendmany`. Zallet anaghị enye `sendmany`. Mkpọchi nchere nke igwe na-ejikwa `[[ chainHeight -gt temp ]]` na-enweghị `$`, yabụ ọ naghị echere.
 - `z_gettotalbalance 0 true` a na-agafe dị ka arụmụka ọnọdụ mgbakwunye. Lelee `rpc help z_gettotalbalance` na binary ị na-agba ọsọ tupu i jiri oku ahụ.
 - Iberibe ọ bụla na-eziga `0.0001` ZEC nye onye ọ bụla natara ya. Ụgwọ ZIP 317 dị n'elu. Ihe dị ogologo maka ọtụtụ adreesị na-efu ihe karịrị uzuzu ahụ.
 

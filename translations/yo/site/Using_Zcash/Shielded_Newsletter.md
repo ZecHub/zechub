@@ -30,11 +30,11 @@ zallet -c ~/.zallet/zallet.toml start
 zallet -c ~/.zallet/zallet.toml rpc help
 ```
 
-`rpc help` gbọdọ ṣe atokọ `z_sendmany`, `z_getoperationstatus`, àti `z_getoperationresult`So RPC pọ̀ mọ́ `127.0.0.1` nìkan.
+`rpc help` gbọdọ ṣe atokọ `z_sendmany`, `z_getoperationstatus`, àti `z_getoperationresult`. So RPC pọ̀ mọ́ `127.0.0.1` nìkan.
 
 ## Àkójọ àwọn olùgbà
 
-Unified Address kan ṣoṣo fún ìlà kan, kò sí gbólóhùn ọ̀rọ̀, kò sí àwọn ìlà òfo. Ìwé ìkọ̀wé náà kà `daoAddresses.md`. Ìwé àtijọ́ náà sọ pé `daoAddress.md`Fáìlì yẹn kò sí nínú ibi ìpamọ́, àwọn orúkọ náà kò sì báramu.
+Unified Address kan ṣoṣo fún ìlà kan, kò sí gbólóhùn ọ̀rọ̀, kò sí àwọn ìlà òfo. Ìwé ìkọ̀wé náà kà `daoAddresses.md`. Ìwé àtijọ́ náà sọ pé `daoAddress.md`. Fáìlì yẹn kò sí nínú ibi ìpamọ́, àwọn orúkọ náà kò sì báramu.
 
 ```text
 u1...
@@ -65,7 +65,7 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
 - `[[ bytesInFile -lt 512 ]]` ó sọnù `$`. Ẹ̀ka àkọsílẹ̀ kan ṣoṣo kò ṣiṣẹ́ rárá.
 - Awọn chunk lupu n tọju hex, lẹhinna `hex2ascii` ó túmọ̀ rẹ̀, lẹ́yìn náà `txBuilderFromFile.sh` Ó tún fi àmì sí i. A kò fi àmì sí apá tó kẹ́yìn àyàfi tí ìlà tó tẹ̀lé bá kún 512. A kò pín ìlà gígùn. A fi ránṣẹ́ ní gbogbo rẹ̀, ó sì lè kọjá àkọsílẹ̀ 512-byte.
 - `txBuilderFromFile.sh` awọn ipe `./zallet rpc` láìsí ipa ọ̀nà ìṣètò, ó sì ń retí pé kí a lo binary nínú àkójọ ìṣètò lọ́wọ́lọ́wọ́ `zallet -c <config> rpc`.
-- `toCurl.sh` bá Zebra sọ̀rọ̀ lórí ibudo 8232 pẹ̀lú kúkì kan, ó sì pè wọ́n `getinfo` àti `sendmany`Zallet kò pese `sendmany`Ìdúró ìwakùsà náà tún ń lo `[[ chainHeight -gt temp ]]` láìsí `$`, nítorí náà kò dúró.
+- `toCurl.sh` bá Zebra sọ̀rọ̀ lórí ibudo 8232 pẹ̀lú kúkì kan, ó sì pè wọ́n `getinfo` àti `sendmany`. Zallet kò pese `sendmany`. Ìdúró ìwakùsà náà tún ń lo `[[ chainHeight -gt temp ]]` láìsí `$`, nítorí náà kò dúró.
 - `z_gettotalbalance 0 true` a gba gẹ́gẹ́ bí àwọn àríyànjiyàn ipò afikún. Ṣàyẹ̀wò `rpc help z_gettotalbalance` lórí binary tí o ń ṣiṣẹ́ kí o tó lo ìpè náà.
 - Ẹyọ kọ̀ọ̀kan ni a fi ránṣẹ́ `0.0001` ZEC fún gbogbo olùgbà. Owó ZIP 317 ló wà ní òkè. Àkọsílẹ̀ gígùn sí ọ̀pọ̀ àdírẹ́sì ná ju iye eruku lọ.
 

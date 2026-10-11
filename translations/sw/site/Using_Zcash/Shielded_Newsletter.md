@@ -30,11 +30,11 @@ zallet -c ~/.zallet/zallet.toml start
 zallet -c ~/.zallet/zallet.toml rpc help
 ```
 
-`rpc help` orodha ya lazima `z_sendmany`, `z_getoperationstatus`na `z_getoperationresult`. Bandika RPC kwenye `127.0.0.1` pekee.
+`rpc help` orodha ya lazima `z_sendmany`, `z_getoperationstatus` na `z_getoperationresult`. Bandika RPC kwenye `127.0.0.1` pekee.
 
 ## Orodha ya wapokeaji
 
-Unified Address kwa kila mstari, hakuna nukuu, hakuna mistari tupu. Hati inasomeka `daoAddresses.md`. Msomaji wa zamani anasema `daoAddress.md`Faili hiyo haipo kwenye repo, na majina hayalingani.
+Unified Address kwa kila mstari, hakuna nukuu, hakuna mistari tupu. Hati inasomeka `daoAddresses.md`. Msomaji wa zamani anasema `daoAddress.md`. Faili hiyo haipo kwenye repo, na majina hayalingani.
 
 ```text
 u1...
@@ -65,7 +65,7 @@ Hizi ziko kwenye mti kufikia tarehe 8 Oktoba 2026. Usikimbie `shieldNewsletter.s
 - `[[ bytesInFile -lt 512 ]]` haipo `$`. Tawi la memo moja halifanyi kazi kamwe.
 - Kitanzi cha chunk huhifadhi hex, kisha `hex2ascii` huifafanua, kisha `txBuilderFromFile.sh` huisimba tena. Kipande cha mwisho hakijasafishwa isipokuwa mstari wa baadaye ufurike 512. Mstari mrefu haujagawanywa. Hutumwa mzima na unaweza kuzidi memo ya baiti 512.
 - `txBuilderFromFile.sh` simu `./zallet rpc` bila njia ya usanidi, na inatarajia jozi katika saraka ya sasa `zallet -c <config> rpc`.
-- `toCurl.sh` anazungumza na Zebra kwenye lango 8232 akiwa na biskuti, na anapiga simu `getinfo` na `sendmany`Zallet haitoi `sendmany`Kitanzi cha kusubiri mgodi pia hutumia `[[ chainHeight -gt temp ]]` bila `$`, kwa hivyo haisubiri.
+- `toCurl.sh` anazungumza na Zebra kwenye lango 8232 akiwa na biskuti, na anapiga simu `getinfo` na `sendmany`. Zallet haitoi `sendmany`. Kitanzi cha kusubiri mgodi pia hutumia `[[ chainHeight -gt temp ]]` bila `$`, kwa hivyo haisubiri.
 - `z_gettotalbalance 0 true` inapitishwa kama hoja za ziada za msimamo. Angalia `rpc help z_gettotalbalance` kwenye mfumo wa binary unaoendesha kabla ya kutumia simu hiyo.
 - Kila kipande hutuma `0.0001` ZEC kwa kila mpokeaji. Ada ya ZIP 317 iko juu. Noti ndefu kwa anwani nyingi hutumia zaidi ya kiasi cha vumbi.
 
