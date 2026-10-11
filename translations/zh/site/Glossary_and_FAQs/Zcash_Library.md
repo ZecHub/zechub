@@ -35,7 +35,7 @@
 | Community | [官方 Zcash 社区论坛](https://forum.zcashcommunity.com) / [Zcash 社区 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | 一种提出中的混合共识设计，保留工作量证明的区块生产机制，并在其上增加一层权益证明终局性层，从而在不放弃挖矿的情况下，让区块获得更强的终局性。它源自 Trailing Finality Layer 研究，由 Shielded Labs 开发，截至 2026 年仍处于 testnet 开发阶段。 |
 | CrossPay | ZODL 钱包中的一项功能，可让你花费受屏蔽的 ZEC，同时收款人则以其偏好的资产和链收到付款；该过程通过 NEAR Intents 路由，而非通过中心化交易所。 |
-| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 以及部分生态合作伙伴共同打造的创意宇宙与协作项目。[Cypherpunk Zero 网站](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea 收藏集](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 以及部分生态合作伙伴共同打造的创意宇宙与协作项目。[OpenSea 收藏集](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

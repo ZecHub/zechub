@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero é uma série de histórias centrada em Zero, uma jovem hacker cypherpunk e lutadora pela liberdade. Zero vive atualmente em um pesadelo distópico e usa código para lutar contra os guardiões centralizados que acorrentam a sociedade. A história foi inspirada por Zcash e pela criptografia Halo. A obra criativa é um esforço colaborativo entre ECC, Stranger World, Might Jaxx e parceiros selecionados do ecossistema. A obra criativa se concentrou principalmente em uma [série de NFTs](https://opensea.io/collection/cypherpunk-zero), mas um [quadrinho de prólogo](https://halo.electriccoin.co/#view-prologue) e um [brinquedo colecionável](https://mightyjaxx.com/products/cypherpunk-zero) também foram lançados. A comunidade NFT, majoritariamente ativa no Twitter, chegou até a criar uma [organização descentralizada (DAO)](https://twitter.com/CypherpunkDAO) para organizar e concluir projetos que apoiam a campanha e a comunidade Zcash em geral.
+Cypherpunk Zero é uma série de histórias centrada em Zero, uma jovem hacker cypherpunk e lutadora pela liberdade. Zero vive atualmente em um pesadelo distópico e usa código para lutar contra os guardiões centralizados que acorrentam a sociedade. A história foi inspirada por Zcash e pela criptografia Halo. A obra criativa é um esforço colaborativo entre ECC, Stranger World, Might Jaxx e parceiros selecionados do ecossistema. A obra criativa se concentrou principalmente em uma [série de NFTs](https://opensea.io/collection/cypherpunk-zero), e um [brinquedo colecionável](https://mightyjaxx.com/products/cypherpunk-zero) também foram lançados. A comunidade NFT, majoritariamente ativa no Twitter, chegou até a criar uma [organização descentralizada (DAO)](https://twitter.com/CypherpunkDAO) para organizar e concluir projetos que apoiam a campanha e a comunidade Zcash em geral.
 
 ## Roteiro anti-roadmap
 
@@ -55,11 +55,9 @@ Sim, a coleção original foi hackeada, o futuro ainda não está escrito.
 
 ## Recursos
 
-[Site do Cypherpunk Zero](https://halo.electriccoin.co/)
-
 [Twitter do Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Coleção Cypherpunk Zero no Opensea](https://opensea.io/collection/cypherpunk-zero)
+[Coleção Cypherpunk Zero no OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 [Twitter da DAO Cypherpunk Zero](https://twitter.com/CypherpunkDAO)
 

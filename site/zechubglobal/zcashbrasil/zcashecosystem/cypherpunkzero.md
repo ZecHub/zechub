@@ -4,7 +4,7 @@ Cypherpunk Zero é uma série de contos centrada em Zero, uma jovem hacker cyphe
 
 A história foi inspirada no Zcash e na criptografia Halo. A obra criativa é um esforço colaborativo entre a ECC, Stranger World, Might Jaxx e parceiros selecionados do ecossistema.
 
-O trabalho criativo tem se concentrado principalmente em uma [Série de NFTs](https://opensea.io/collection/cypherpunk-zero), mas um [Prólogo em Quadrinhos](https://halo.electriccoin.co/#view-prologue) e um [Brinquedo Colecionável](https://mightyjaxx.com/products/cypherpunk-zero) também foram lançados.
+O trabalho criativo tem se concentrado principalmente em uma [Série de NFTs](https://opensea.io/collection/cypherpunk-zero) e um [Brinquedo Colecionável](https://mightyjaxx.com/products/cypherpunk-zero) também foram lançados.
 
 A comunidade de NFTs, principalmente ativa no Twitter/X, até mesmo criou uma [Organização Descentralizada (DAO)](https://twitter.com/CypherpunkDAO) para organizar e concluir projetos que apoiem a campanha e a comunidade mais ampla da Zcash.
 
@@ -49,12 +49,9 @@ Fornecimento total: 10.000 NFTs gerativos exclusivos na rede principal da Ethere
 ---
 
 ## Recursos
-
-- [Cypherpunk Zero - Website](https://halo.electriccoin.co/)
-
 - [Cypherpunk Zero - Twitter/X](https://twitter.com/cypherpunkZero)
 
-- [Cypherpunk Zero - Coleção Opensea](https://opensea.io/collection/cypherpunk-zero)
+- [Cypherpunk Zero - Coleção OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 - [Cypherpunk Zero DAO - Twitter/X](https://twitter.com/CypherpunkDAO)
 

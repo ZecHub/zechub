@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero es una serie narrativa centrada en Zero, una joven hacker cypherpunk y luchadora por la libertad. Zero vive actualmente en una pesadilla distópica y utiliza código para luchar contra los guardianes centralizados que encadenan a la sociedad. La historia se inspiró en Zcash y en la criptografía Halo. La obra creativa es un esfuerzo colaborativo entre ECC, Stranger World, Might Jaxx y socios selectos del ecosistema. La obra creativa se ha centrado de forma más notable en una [serie de NFT](https://opensea.io/collection/cypherpunk-zero), pero también se han lanzado un [cómic prólogo](https://halo.electriccoin.co/#view-prologue) y un [juguete de colección](https://mightyjaxx.com/products/cypherpunk-zero). La comunidad NFT, activa principalmente en Twitter, incluso ha creado una [organización descentralizada (DAO)](https://twitter.com/CypherpunkDAO) para organizar y completar proyectos que apoyen la campaña y a la comunidad más amplia de Zcash.
+Cypherpunk Zero es una serie narrativa centrada en Zero, una joven hacker cypherpunk y luchadora por la libertad. Zero vive actualmente en una pesadilla distópica y utiliza código para luchar contra los guardianes centralizados que encadenan a la sociedad. La historia se inspiró en Zcash y en la criptografía Halo. La obra creativa es un esfuerzo colaborativo entre ECC, Stranger World, Might Jaxx y socios selectos del ecosistema. La obra creativa se ha centrado de forma más notable en una [serie de NFT](https://opensea.io/collection/cypherpunk-zero), y un [juguete de colección](https://mightyjaxx.com/products/cypherpunk-zero). La comunidad NFT, activa principalmente en Twitter, incluso ha creado una [organización descentralizada (DAO)](https://twitter.com/CypherpunkDAO) para organizar y completar proyectos que apoyen la campaña y a la comunidad más amplia de Zcash.
 
 ## Hoja de ruta anti-hoja de ruta
 
@@ -54,8 +54,6 @@ El 24% del suministro (2,400 NFT) será retenido por ECC en la Cypherpunk Reserv
 Sí, la colección original fue hackeada, el futuro aún no está escrito.
 
 ## Recursos
-
-[Sitio web de Cypherpunk Zero](https://halo.electriccoin.co/)
 
 [Twitter de Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 

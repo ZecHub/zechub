@@ -7,7 +7,7 @@ Cypherpunk Zero is een verhalende serie rond Zero, een jonge cypherpunk-hacker e
 
 Het verhaal is geïnspireerd door Zcash en Halo cryptografie. Het creatieve werk is een samenwerking tussen ECC, Stranger World, Might Jaxx en geselecteerde ecosysteempartners.
 
-Het creatieve werk was met name gericht op een [NFT-serie](https://opensea.io/collection/cypherpunk-zero), maar een [proloogstrip](https://halo.electriccoin.co/#view-prologue ) en [verzamelspeelgoed](https://mightyjaxx.com/products/cypherpunk-zero) zijn ook uitgebracht.
+Het creatieve werk was met name gericht op een [NFT-serie](https://opensea.io/collection/cypherpunk-zero) en [verzamelspeelgoed](https://mightyjaxx.com/products/cypherpunk-zero) zijn ook uitgebracht.
 
 De NFT-gemeenschap, die voornamelijk actief is op Twitter, heeft zelfs een [gedecentraliseerde organisatie (DAO)](https://twitter.com/CypherpunkDAO) opgericht om projecten ter ondersteuning van de campagne en de bredere Zcash-gemeenschap te organiseren en te voltooien.
 
@@ -42,16 +42,12 @@ Vertrouw erop dat we een aantal geweldige, exclusieve voordelen in de pijplijn h
 
 ## Bronnen
 
-[Cypherpunk Zero-website](https://halo.electriccoin.co/)
-
 [Cypherpunk Nul Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea-collectie](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea-collectie](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 
 [Cypherpunk Zero DAO Discord](https://discord.com/invite/sjfgXys4Jf)
 
 [Cypherpunk Zero NFT Megathread](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
-
-

@@ -35,7 +35,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Community | [공식 Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com) / [Zcash 커뮤니티 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | 작업증명 기반 블록 생성은 유지하면서 그 위에 지분증명 기반 파이널리티 레이어를 추가하는 하이브리드 합의 설계 제안입니다. 이를 통해 채굴을 포기하지 않고도 블록이 더 강한 최종성을 확보할 수 있습니다. 이는 Trailing Finality Layer 연구에서 발전했으며, 2026년 기준으로 아직 테스트넷 개발 단계에서 Shielded Labs가 구축 중입니다. |
 | CrossPay | ZODL 지갑의 기능으로, 중앙화 거래소를 거치지 않고 NEAR Intents를 통해 라우팅되어 수신자가 선호하는 자산과 체인으로 지급받는 동안 사용자는 shielded ZEC를 사용할 수 있게 해줍니다. |
-| Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [Cypherpunk Zero 사이트](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

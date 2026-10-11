@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero est une série narrative centrée sur Zero, une jeune hackeuse cypherpunk et combattante de la liberté. Zero vit actuellement dans un cauchemar dystopique et elle utilise le code pour lutter contre les gardiens centralisés qui enchaînent la société. L’histoire a été inspirée par Zcash et la cryptographie Halo. Cette œuvre créative est le fruit d’un effort collaboratif entre ECC, Stranger World, Might Jaxx et certains partenaires sélectionnés de l’écosystème. Le travail créatif s’est surtout concentré sur une [série de NFT](https://opensea.io/collection/cypherpunk-zero), mais un [comic prologue](https://halo.electriccoin.co/#view-prologue) et un [jouet de collection](https://mightyjaxx.com/products/cypherpunk-zero) ont également été publiés. La communauté NFT, principalement active sur Twitter, a même créé une [organisation décentralisée (DAO)](https://twitter.com/CypherpunkDAO) afin d’organiser et de mener à bien des projets soutenant la campagne, ainsi que la communauté Zcash au sens large.
+Cypherpunk Zero est une série narrative centrée sur Zero, une jeune hackeuse cypherpunk et combattante de la liberté. Zero vit actuellement dans un cauchemar dystopique et elle utilise le code pour lutter contre les gardiens centralisés qui enchaînent la société. L’histoire a été inspirée par Zcash et la cryptographie Halo. Cette œuvre créative est le fruit d’un effort collaboratif entre ECC, Stranger World, Might Jaxx et certains partenaires sélectionnés de l’écosystème. Le travail créatif s’est surtout concentré sur une [série de NFT](https://opensea.io/collection/cypherpunk-zero) et un [jouet de collection](https://mightyjaxx.com/products/cypherpunk-zero) ont également été publiés. La communauté NFT, principalement active sur Twitter, a même créé une [organisation décentralisée (DAO)](https://twitter.com/CypherpunkDAO) afin d’organiser et de mener à bien des projets soutenant la campagne, ainsi que la communauté Zcash au sens large.
 
 ## Feuille de route anti-roadmap
 
@@ -55,11 +55,9 @@ Oui, la collection originale a été piratée, l’avenir n’est pas encore éc
 
 ## Ressources
 
-[Site web de Cypherpunk Zero](https://halo.electriccoin.co/)
-
 [Twitter de Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Collection Opensea de Cypherpunk Zero](https://opensea.io/collection/cypherpunk-zero)
+[Collection OpenSea de Cypherpunk Zero](https://opensea.io/collection/cypherpunk-zero)
 
 [Twitter du DAO Cypherpunk Zero](https://twitter.com/CypherpunkDAO)
 

@@ -35,7 +35,7 @@ Faharasa kamili ya maneno muhimu, dhana, na rasilimali zinazohusiana na Zcash.
 | Community | [Jukwaa Rasmi la Jumuiya Zcash](https://forum.zcashcommunity.com) / [Discord Jumuiya ya Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord R&D Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Muundo mseto uliopendekezwa wa makubaliano unaoweka uzalishaji wa vitalu vya uthibitisho wa kazi na kuongeza safu ya mwisho ya uthibitisho wa hisa juu, kwa hivyo vitalu hupata mwisho wenye nguvu bila kuacha uchimbaji. Ulitokana na utafiti wa Trailing Finality Layer na unajengwa na Shielded Labs, bado uko katika maendeleo ya testnet kufikia 2026. |
 | CrossPay | Kipengele katika pochi ya ZODL kinachokuruhusu kutumia ZEC iliyolindwa wakati mpokeaji analipwa katika mali na mnyororo anaoupendelea, unaopitishwa kupitia NEAR Intents badala ya soko la pamoja. |
-| Cypherpunk Zero | Ulimwengu wa Ubunifu na juhudi za ushirikiano kati ya ECC, mchoraji Stranger Wolf, Mighty Jaxx na washirika teule wa mfumo ikolojia. [Tovuti ya Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Mkusanyiko wa OpenSea](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Ulimwengu wa Ubunifu na juhudi za ushirikiano kati ya ECC, mchoraji Stranger Wolf, Mighty Jaxx na washirika teule wa mfumo ikolojia. [Mkusanyiko wa OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
