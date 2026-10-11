@@ -201,7 +201,10 @@ test("round trip: export -> every cell OK -> import gives back the committed id.
   assert.deepEqual([report.new, report.changed], [[], []]);
   assert.equal(serializeGlossary(back, TERMS_EN), serializeGlossary(ID, TERMS_EN));
   // Terms with no locale entry yet have nothing to confirm with OK.
-  assert.deepEqual(report.needsMaintainer.map((m) => m.english).sort(), ["chain", "cross-chain", "faucet", "token"]);
+  const missing = TERMS_EN.terms.filter((t) => t.applies_to !== "ui" && !ID.terms[t.id]).map((t) => t.english).sort();
+  assert.ok(missing.includes("chain") && missing.includes("faucet"), missing.join(", "));
+  const norm = (x) => x.replace(/[\s-]+/g, "-").toLowerCase();
+  assert.deepEqual(report.needsMaintainer.map((m) => norm(m.english)).sort(), missing.map(norm).sort());
 });
 
 test("round trip: the committed id.json is in canonical form", () => {
@@ -257,6 +260,6 @@ test("CLI: validate.mjs passes on the committed files", () => {
 
 test("CLI: review-kit.mjs exports the pages kit", () => {
   const out = execFileSync("node", [here("../review-kit.mjs").pathname, "export", "id", "--kit", "pages", "--no-evidence"], { encoding: "utf8" });
-  assert.match(out, /\(`terms`: 36 rows\)/);
+  assert.match(out, new RegExp(`\\(\`terms\`: ${TERMS_EN.terms.filter((t) => t.applies_to !== "ui").length} rows\\)`));
   assert.match(out, /\| \d+ \| mining \| mining \| .* \| penambangan \|/);
 });

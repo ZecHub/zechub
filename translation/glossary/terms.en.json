@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "terms": [
     {
       "id": "wallet",
@@ -594,6 +594,433 @@
       "category": "ui",
       "default_policy": "translate",
       "applies_to": "ui"
+    },
+    {
+      "id": "address",
+      "english": "address",
+      "pos": "noun",
+      "definition": "A string that identifies where to send coins (shielded z-address, unified address, transparent t-address).",
+      "not_to_be_confused_with": "a street address, or 'to address' (speak to, deal with).",
+      "match": [
+        "address",
+        "Address",
+        "addresses",
+        "Addresses"
+      ],
+      "examples": [
+        "Send ZEC to a shielded address."
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "block",
+      "english": "block",
+      "pos": "noun",
+      "definition": "A batch of transactions added to the blockchain; block height is its position in the chain.",
+      "not_to_be_confused_with": "'to block' (prevent, stop).",
+      "match": [
+        "block",
+        "Block",
+        "blocks",
+        "Blocks"
+      ],
+      "examples": [
+        "at block height 3,459,350"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "blockchain",
+      "english": "blockchain",
+      "pos": "noun",
+      "definition": "The shared public record of all transactions, built from linked blocks.",
+      "match": [
+        "blockchain",
+        "Blockchain",
+        "blockchains",
+        "Blockchains"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "signature",
+      "english": "signature",
+      "pos": "noun",
+      "definition": "Cryptographic proof that the holder of a key approved a transaction or message.",
+      "not_to_be_confused_with": "a handwritten signature.",
+      "match": [
+        "signature",
+        "Signature",
+        "signatures",
+        "Signatures"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "commitment",
+      "english": "commitment",
+      "pos": "noun",
+      "definition": "A cryptographic value that binds to hidden data (e.g. a note commitment) without revealing it.",
+      "not_to_be_confused_with": "a promise or pledge.",
+      "match": [
+        "commitment",
+        "Commitment",
+        "commitments",
+        "Commitments"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "nullifier",
+      "english": "nullifier",
+      "pos": "noun",
+      "definition": "A unique value published when a shielded note is spent, so the same note cannot be spent twice, without revealing which note it was.",
+      "match": [
+        "nullifier",
+        "Nullifier",
+        "nullifiers",
+        "Nullifiers"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "note",
+      "english": "note",
+      "pos": "noun",
+      "definition": "In Zcash, a shielded unit of value (like a private coin) held by a shielded address.",
+      "not_to_be_confused_with": "a written note or remark, and 'to note' (to notice); translate those normally.",
+      "match": [
+        "note",
+        "Note",
+        "notes",
+        "Notes"
+      ],
+      "examples": [
+        "Spending a note publishes its nullifier."
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "trusted-setup",
+      "english": "trusted setup",
+      "pos": "noun",
+      "definition": "A one-time ceremony that generates public parameters for a proof system; its secret must be destroyed.",
+      "match": [
+        "trusted setup",
+        "Trusted setup",
+        "trusted setups",
+        "Trusted setups"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "consensus",
+      "english": "consensus",
+      "pos": "noun",
+      "definition": "The rules and process by which nodes agree on the state of the blockchain.",
+      "match": [
+        "consensus",
+        "Consensus"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "governance",
+      "english": "governance",
+      "pos": "noun",
+      "definition": "How decisions about Zcash (funding, upgrades) are made and by whom.",
+      "match": [
+        "governance",
+        "Governance"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "grant",
+      "english": "grant",
+      "pos": "noun",
+      "definition": "Money awarded to fund a project or contributor (e.g. Zcash Community Grants).",
+      "not_to_be_confused_with": "'to grant' (to allow, give).",
+      "match": [
+        "grant",
+        "Grant",
+        "grants",
+        "Grants"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "halving",
+      "english": "halving",
+      "pos": "noun",
+      "definition": "The scheduled event that cuts the block reward in half, about every four years.",
+      "match": [
+        "halving",
+        "Halving",
+        "halvings",
+        "Halvings"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "staking",
+      "english": "staking",
+      "pos": "noun",
+      "definition": "Locking coins to help secure a proof-of-stake network and earn rewards; 'stake' is the amount locked.",
+      "not_to_be_confused_with": "a wooden stake, or a stake in a bet; never translate as a tree, post or field.",
+      "match": [
+        "staking",
+        "Staking",
+        "stake",
+        "Stake",
+        "stakes",
+        "Stakes",
+        "staked",
+        "Staked"
+      ],
+      "examples": [
+        "Shielded stake",
+        "the staking pool"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "finalizer",
+      "english": "finalizer",
+      "pos": "noun",
+      "definition": "A participant in Zcash's proof-of-stake layer that votes to make blocks final; stakers delegate to a finalizer.",
+      "not_to_be_confused_with": "anything to do with a final match or contest.",
+      "match": [
+        "finalizer",
+        "Finalizer",
+        "finalizers",
+        "Finalizers"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "bond",
+      "english": "bond",
+      "pos": "noun",
+      "definition": "Stake locked and delegated to a finalizer for a period; unbonding releases it.",
+      "not_to_be_confused_with": "a financial bond (debt security) or a personal bond.",
+      "match": [
+        "bond",
+        "Bond",
+        "bonds",
+        "Bonds",
+        "bonding",
+        "Bonding",
+        "unbonding",
+        "Unbonding",
+        "unbond",
+        "Unbond"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "encryption",
+      "english": "encryption",
+      "pos": "noun",
+      "definition": "Scrambling data so only holders of the right key can read it; 'encrypted' describes such data.",
+      "match": [
+        "encryption",
+        "Encryption",
+        "encrypted",
+        "Encrypted",
+        "encrypt",
+        "Encrypt"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "decentralized",
+      "english": "decentralized",
+      "pos": "adjective",
+      "definition": "Run by many independent participants rather than one company or server.",
+      "match": [
+        "decentralized",
+        "Decentralized",
+        "decentralised",
+        "Decentralised",
+        "decentralization",
+        "Decentralization",
+        "decentralisation",
+        "Decentralisation"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "on-chain",
+      "english": "on-chain",
+      "pos": "adjective",
+      "definition": "Recorded on the blockchain itself; off-chain means outside it.",
+      "match": [
+        "on-chain",
+        "On-chain",
+        "off-chain",
+        "Off-chain",
+        "onchain",
+        "Onchain",
+        "offchain",
+        "Offchain"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "bridge",
+      "english": "bridge",
+      "pos": "noun",
+      "definition": "A service that moves assets between two different blockchains.",
+      "not_to_be_confused_with": "a physical bridge.",
+      "match": [
+        "bridge",
+        "Bridge",
+        "bridges",
+        "Bridges"
+      ],
+      "category": "protocol",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "payment",
+      "english": "payment",
+      "pos": "noun",
+      "definition": "Sending coins to pay someone.",
+      "match": [
+        "payment",
+        "Payment",
+        "payments",
+        "Payments"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "smart-contract",
+      "english": "smart contract",
+      "pos": "noun",
+      "definition": "A program stored on a blockchain that runs automatically when its conditions are met.",
+      "match": [
+        "smart contract",
+        "Smart contract",
+        "smart contracts",
+        "Smart contracts"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
+    },
+    {
+      "id": "unlinkable",
+      "english": "unlinkable",
+      "pos": "adjective",
+      "definition": "Impossible to connect to each other: an observer cannot tell that two items belong to the same person.",
+      "not_to_be_confused_with": "'disconnected' or 'detachable'; the meaning is 'cannot be linked'.",
+      "match": [
+        "unlinkable",
+        "Unlinkable",
+        "unlinkability",
+        "Unlinkability"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "permissionless",
+      "english": "permissionless",
+      "pos": "adjective",
+      "definition": "Open to anyone without asking for approval.",
+      "match": [
+        "permissionless",
+        "Permissionless"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "scaling",
+      "english": "scaling",
+      "pos": "noun",
+      "definition": "Increasing how many transactions a network can handle.",
+      "not_to_be_confused_with": "shrinking or resizing.",
+      "match": [
+        "scaling",
+        "Scaling",
+        "scalability",
+        "Scalability"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "selective-disclosure",
+      "english": "selective disclosure",
+      "pos": "noun",
+      "definition": "Showing chosen transaction details to a chosen party (e.g. with a viewing key) while keeping the rest private.",
+      "match": [
+        "selective disclosure",
+        "Selective disclosure"
+      ],
+      "category": "concept",
+      "default_policy": "translate",
+      "applies_to": "both"
+    },
+    {
+      "id": "hardware-wallet",
+      "english": "hardware wallet",
+      "pos": "noun",
+      "definition": "A small device that stores keys offline and signs transactions (e.g. Ledger, Keystone).",
+      "match": [
+        "hardware wallet",
+        "Hardware wallet",
+        "hardware wallets",
+        "Hardware wallets"
+      ],
+      "category": "protocol",
+      "default_policy": "keep-english",
+      "applies_to": "both"
     }
   ]
 }
