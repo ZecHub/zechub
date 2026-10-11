@@ -122,6 +122,11 @@ jobs:
       - name: Verbatim table columns self-test
         run: node scripts/check-verbatim-columns.test.mjs
 
+      # Root-level files such as /nearintents.png are served from
+      # zechub-wiki/public; link-health must not report them as broken routes.
+      - name: Link-health public-file self-test
+        run: node link-health/public-files.test.mjs
+
       # Every venue named on the exchange pages must be a protected term, or
       # a machine engine will translate the BRAND. It did: LetsExchange became
       # "Ẹ jẹ́ kí a pààrọ̀" ("let us exchange") in Yoruba, across 109 headings
@@ -136,12 +141,25 @@ jobs:
       - name: Venue brands are protected
         run: node scripts/check-venue-brands.test.mjs
 
+      # Route lookups must respect folder case the way the live wiki does, even
+      # on the case-insensitive filesystems contributors run the scan on.
+      - name: Link-health route case self-test
+        run: node --test link-health/route-case.test.mjs
+
       # link-health itself is a weekly network sweep and cannot run here, but
       # the part that decides which links get re-probed is pure string work and
       # fails silently when wrong — a regex that matches nothing reports a
       # clean corpus. Cheap to assert, so it is asserted on every PR.
       - name: Link-health parser self-test
         run: node link-health/check-links.test.mjs
+
+      - name: Link-health rate-limit self-test
+        run: node link-health/rate-limit.test.mjs
+
+      # Absolute zechub.wiki links through the whole CLI, with fetch stubbed:
+      # pages resolved locally, listed files accepted, everything else fetched.
+      - name: Link-health wiki-link self-test
+        run: node --test link-health/wiki-links.test.mjs
 
   hash-lib-tests:
     runs-on: ubuntu-latest
