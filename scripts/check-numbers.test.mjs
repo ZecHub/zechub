@@ -7,7 +7,7 @@
 // Run: node --test scripts/check-numbers.test.mjs
 import { strict as assert } from "node:assert";
 import { execFileSync, spawnSync } from "node:child_process";
-import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { chmodSync, existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { after, before, test } from "node:test";
@@ -287,4 +287,65 @@ test("--json without a file refuses to run", () => {
   const r = run("--base", "main", "--json");
   assert.equal(r.status, 1, r.out);
   assert.match(r.out, /--json was given without a file/);
+});
+
+test("--json points a partly inherited finding at the new occurrence", () => {
+  git("checkout", "-q", "main");
+  w("site/era.md", "# Era\n\nThe chain started.\n\nIt grew.\n");
+  w("translations/de/site/era.md", "# Ära\n\nDie Chain startete 2000.\n\nSie wuchs.\n");
+  commit("de era on main");
+  branch("pr-era");
+  w("translations/de/site/era.md", "# Ära\n\nDie Chain startete 2000.\n\nSie wuchs ab 2000.\n");
+  commit("de era resync");
+  const r = runJson("era", "--base", "main");
+  assert.equal(r.status, 1, r.out);
+  const e = r.report.errors.find((f) => f.kind === "number-added" && f.value === "2000");
+  assert.ok(e, JSON.stringify(r.report.errors));
+  assert.equal(e.line, 5);
+  assert.match(r.out, /translations\/de\/site\/era\.md:5: error: number 2000 /);
+});
+
+test("--json writes a failure report when the check cannot run", () => {
+  git("checkout", "-q", "main");
+  const file = join(out, "fail.json");
+  for (const [args, want, wantBase] of [
+    [["--base", "no-such-ref"], /could not be resolved/, "no-such-ref"],
+    [["--json", file, "--base"], /without a ref/, null],
+  ]) {
+    writeFileSync(file, JSON.stringify({ schema: "check-numbers/1", pages: 9, errors: [], stale: true }));
+    const r = run(...(args[0] === "--json" ? args : [...args, "--json", file]));
+    assert.equal(r.status, 1, r.out);
+    const rep = JSON.parse(readFileSync(file, "utf8"));
+    assert.equal(rep.stale, undefined, "the old report must be gone");
+    assert.equal(rep.schema, "check-numbers/1");
+    assert.equal(rep.base, wantBase);
+    assert.equal(rep.mergeBase, null);
+    assert.equal(rep.pages, 0);
+    assert.deepEqual([rep.errors, rep.warnings, rep.inherited], [[], [], []]);
+    assert.match(rep.error, want);
+  }
+  assert.deepEqual(readdirSync(out).filter((n) => n.includes(".tmp-")), [], "no temporary file left behind");
+});
+
+test("--json writes a failure report when a page cannot be read", { skip: process.getuid?.() === 0 && "root reads everything" }, () => {
+  git("checkout", "-q", "pr-yo");
+  const page = join(repo, "translations/yo/site/poll.md");
+  chmodSync(page, 0o000);
+  let r;
+  try { r = runJson("unreadable", "--base", "main"); } finally { chmodSync(page, 0o644); }
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.report.error, /could not read translations\/yo\/site\/poll\.md/);
+  assert.equal(r.report.pages, 0);
+});
+
+test("--json replaces an old report even on a clean run", () => {
+  git("checkout", "-q", "pr-none");
+  const file = join(out, "clean.json");
+  writeFileSync(file, "{\"stale\": true}");
+  const r = run("--base", "main", "--json", file);
+  assert.equal(r.status, 0, r.out);
+  const rep = JSON.parse(readFileSync(file, "utf8"));
+  assert.equal(rep.stale, undefined);
+  assert.equal(rep.error, undefined);
+  assert.equal(rep.pages, 0);
 });

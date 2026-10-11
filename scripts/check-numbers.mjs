@@ -54,10 +54,14 @@
 //   lists the blocking findings already there at the base (the notice block);
 //   errors and warnings are the new ones. The human output and the exit
 //   status do not change; --quiet does not drop warnings from the file.
+//   line is null when the new occurrence of a finding that the base partly
+//   had cannot be told apart from the inherited ones. When the check cannot
+//   run, the file still gets written, with pages 0, empty lists and an
+//   "error" message; an older file at the path is removed first.
 // Exit 0 = nothing blocking; 1 = at least one blocking finding, or the check
 // could not run.
 import { execFileSync } from "node:child_process";
-import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, renameSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 import { compare, introduced } from "../translation/lib/numbers.mjs";
@@ -71,8 +75,33 @@ const annotate = !!process.env.GITHUB_ACTIONS;
 // Locales where a missing number is advisory. Why: header comment.
 export const MISSING_ADVISORY = new Set(["ig"]);
 
+const JSON_SCHEMA = "check-numbers/1";
+let jsonOut = null, base = null, mergeBase = null;
+
+// The report goes to a temporary file in the same directory first, so a
+// reader never sees half of it.
+function writeReport(report) {
+  const tmp = `${jsonOut}.tmp-${process.pid}`;
+  try {
+    writeFileSync(tmp, JSON.stringify(report, null, 2) + "\n");
+    renameSync(tmp, jsonOut);
+  } catch (e) {
+    rmSync(tmp, { force: true });
+    throw e;
+  }
+}
+
+let dying = false;
 function die(msg) {
   console.error(`Number check could not run: ${msg}`);
+  // A consumer of --json must not mistake a run that never finished for a
+  // clean one: the report says it failed, and why.
+  if (jsonOut && !dying) {
+    dying = true;
+    try {
+      writeReport({ schema: JSON_SCHEMA, base, mergeBase: null, pages: 0, errors: [], warnings: [], inherited: [], error: msg });
+    } catch (e) { console.error(`Number check could not write ${jsonOut}: ${e.message}`); }
+  }
   process.exit(1);
 }
 
@@ -113,10 +142,14 @@ function resolveJsonOut() {
   return file;
 }
 
-const JSON_SCHEMA = "check-numbers/1";
-const jsonOut = resolveJsonOut();
-const base = resolveBase();
-let mergeBase = null;
+jsonOut = resolveJsonOut();
+// A report left by an earlier run must never be read as this one's.
+if (jsonOut) {
+  try { rmSync(jsonOut, { force: true }); }
+  catch (e) { const out = jsonOut; jsonOut = null; die(`could not remove the old ${out}: ${e.message}`); }
+  process.on("uncaughtException", (e) => die(e?.message ?? String(e)));
+}
+base = resolveBase();
 let pages;
 const renamedFrom = new Map();
 
@@ -162,8 +195,9 @@ for (const tr of pages.sort()) {
   const { loc, source } = pair(tr);
   const srcAbs = join(root, source);
   if (!existsSync(srcAbs) || !statSync(srcAbs).isFile()) { noSource++; continue; }
-  const enText = readFileSync(srcAbs, "utf8");
-  const trText = readFileSync(join(root, tr), "utf8");
+  let enText, trText;
+  try { enText = readFileSync(srcAbs, "utf8"); trText = readFileSync(join(root, tr), "utf8"); }
+  catch (e) { die(`could not read ${tr} or ${source}: ${e.message}`); }
   checked++;
   const lineCountsMatch = enText.split("\n").length === trText.split("\n").length;
   let found = compare(enText, trText, { locale: loc, protectedTerms: headTerms });
@@ -187,31 +221,39 @@ for (const tr of pages.sort()) {
   for (const f of found) (f.severity === "error" ? errors : warnings).push({ tr, source, f, lineCountsMatch });
 }
 
+// The line a finding points at; null when the base subtraction could not tell
+// which occurrence is the new one (see introduced()).
+const at = (f) => (f.lineUnknown ? null : f.lines[0]);
+const unknown = (f) => (f.lineUnknown ? " (line unknown)" : "");
+
 function describe({ tr, source, f, lineCountsMatch }) {
   const times = f.count > 1 ? ` (${f.count}x)` : "";
   if (f.kind === "digit-token") {
-    return { line: f.lines[0], msg: `"${f.value}"${times} mixes digits and letters and is not in ${source}. A number fused with a word, a translated name, or a damaged hash or address: copy it from the English.` };
+    return { line: at(f), msg: `"${f.value}"${times} mixes digits and letters and is not in ${source}${unknown(f)}. A number fused with a word, a translated name, or a damaged hash or address: copy it from the English.` };
   }
   if (f.kind === "number-missing") {
     // A missing number has no translation line; when the page keeps the
     // English line structure (it nearly always does) the same line is it.
-    const enLine = f.lines[0];
+    const enLine = at(f);
+    if (enLine === null) return { line: null, msg: `number ${f.value}${times} from ${source} is missing (line unknown)${f.changed ? ` (the translation has ${f.changed.join(", ")} on that line)` : ""}. Keep numbers, dates and times as digits; do not spell them out or drop them.` };
     return { line: lineCountsMatch ? enLine : 1, msg: `number ${f.value}${times} from ${source}:${enLine} is missing${f.changed ? ` (the translation has ${f.changed.join(", ")} on that line)` : ""}. Keep numbers, dates and times as digits; do not spell them out or drop them.` };
   }
   if (f.kind === "version-missing") {
-    const enLine = f.lines[0];
+    const enLine = at(f);
+    if (enLine === null) return { line: null, msg: `version ${f.value}${times} from ${source} is missing or changed (line unknown). Copy version numbers exactly as the English writes them.` };
     return { line: lineCountsMatch ? enLine : 1, msg: `version ${f.value}${times} from ${source}:${enLine} is missing or changed. Copy version numbers exactly as the English writes them.` };
   }
   if (f.kind === "version-added") {
-    return { line: f.lines[0], msg: `version ${f.value}${times} is not in ${source}. A changed or invented version number: copy it from the English.` };
+    return { line: at(f), msg: `version ${f.value}${times} is not in ${source}${unknown(f)}. A changed or invented version number: copy it from the English.` };
   }
-  return { line: f.lines[0], msg: `number ${f.value}${times} is not in ${source}${f.absent ? "" : " this many times"}${f.changed ? ` (on a line where the English has ${f.changed.join(", ")})` : ""}. A changed digit, an invented date, or a number the English does not state.` };
+  return { line: at(f), msg: `number ${f.value}${times} is not in ${source}${f.absent ? "" : " this many times"}${unknown(f)}${f.changed ? ` (on a line where the English has ${f.changed.join(", ")})` : ""}. A changed digit, an invented date, or a number the English does not state.` };
 }
 
 const emit = (level, item) => {
   const { line, msg } = describe(item);
-  if (annotate) console.log(`::${level} file=${item.tr},line=${line},title=numbers::${msg}`);
-  else console.log(`${item.tr}:${line}: ${level}: ${msg}`);
+  const where = line === null ? "" : `,line=${line}`;
+  if (annotate) console.log(`::${level} file=${item.tr}${where},title=numbers::${msg}`);
+  else console.log(`${item.tr}${line === null ? "" : `:${line}`}: ${level}: ${msg}`);
 };
 
 if (!quiet) for (const w of warnings) emit("warning", w);
@@ -237,7 +279,7 @@ if (jsonOut) {
     warnings: warnings.map(record),
     inherited: carried.map(record),
   };
-  try { writeFileSync(jsonOut, JSON.stringify(report, null, 2) + "\n"); }
+  try { writeReport(report); }
   catch (e) { die(`could not write ${jsonOut}: ${e.message}`); }
 }
 

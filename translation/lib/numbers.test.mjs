@@ -184,6 +184,22 @@ test("introduced() subtracts what the base already had, by count", () => {
   assert.deepEqual(introduced(head, base), [{ kind: "number-missing", value: "24", count: 1 }]);
 });
 
+test("introduced() keeps only the lines of the occurrences left over", () => {
+  const f = (count, lines, extra = {}) => ({ kind: "number-added", value: "2024", count, lines, severity: "error", ...extra });
+  // by line number
+  assert.deepEqual(introduced([f(2, [10, 20])], [f(1, [10])]), [f(1, [20])]);
+  // a repeated line counts once per occurrence
+  assert.deepEqual(introduced([f(3, [10, 10, 20])], [f(1, [10])]), [f(2, [10, 20])]);
+  // nothing subtracted: the lines stay as they were
+  assert.deepEqual(introduced([f(2, [10, 20])], []), [f(2, [10, 20])]);
+  // the leftover cannot be told apart: no line rather than a wrong one
+  assert.deepEqual(introduced([f(2, [10, 20])], [f(1, [30])]), [f(1, [], { lineUnknown: true })]);
+  // a token goes by its context, not its line number
+  const t = (lines, contexts) => ({ kind: "digit-token", value: "2emma", count: lines.length, lines, contexts, severity: "error" });
+  const got = introduced([t([3, 5], ["baca zip 2emma dulu", "lalu zip 2emma lagi"])], [t([5], ["baca zip 2emma dulu"])]);
+  assert.deepEqual(got.map((x) => [x.count, x.lines, x.lineUnknown]), [[1, [5], undefined]]);
+});
+
 // ---- versions ----------------------------------------------------------------------
 
 test("a changed version blocks, even when every digit is small", () => {
