@@ -46,12 +46,18 @@
 // every translated page is checked and every blocking finding fails (a local
 // sweep).
 //
-// Usage: node scripts/check-numbers.mjs [--base <ref>] [--quiet]
+// Usage: node scripts/check-numbers.mjs [--base <ref>] [--quiet] [--json <file>]
 //   (run from the content repo root)
+// --json <file> also writes the findings as JSON (schema "check-numbers/1"):
+//   { schema, base, mergeBase, pages, errors, warnings, inherited }, each
+//   finding { file, source, line, kind, value, severity, message }. inherited
+//   lists the blocking findings already there at the base (the notice block);
+//   errors and warnings are the new ones. The human output and the exit
+//   status do not change; --quiet does not drop warnings from the file.
 // Exit 0 = nothing blocking; 1 = at least one blocking finding, or the check
 // could not run.
 import { execFileSync } from "node:child_process";
-import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 import { compare, introduced } from "../translation/lib/numbers.mjs";
@@ -99,6 +105,16 @@ function walk(dir) {
   });
 }
 
+function resolveJsonOut() {
+  const i = process.argv.indexOf("--json");
+  if (i < 0) return null;
+  const file = process.argv[i + 1];
+  if (!file || file.startsWith("--")) die("--json was given without a file.");
+  return file;
+}
+
+const JSON_SCHEMA = "check-numbers/1";
+const jsonOut = resolveJsonOut();
 const base = resolveBase();
 let mergeBase = null;
 let pages;
@@ -149,6 +165,7 @@ for (const tr of pages.sort()) {
   const enText = readFileSync(srcAbs, "utf8");
   const trText = readFileSync(join(root, tr), "utf8");
   checked++;
+  const lineCountsMatch = enText.split("\n").length === trText.split("\n").length;
   let found = compare(enText, trText, { locale: loc, protectedTerms: headTerms });
   if (MISSING_ADVISORY.has(loc))
     found = found.map((f) => (f.kind === "number-missing" ? { ...f, severity: "warning" } : f));
@@ -163,11 +180,10 @@ for (const tr of pages.sort()) {
     const fresh = introduced(found, before);
     for (const f of found) {
       const left = fresh.find((x) => x.kind === f.kind && x.value === f.value);
-      if (!left && f.severity === "error") carried.push({ tr, source, f });
+      if (!left && f.severity === "error") carried.push({ tr, source, f, lineCountsMatch });
     }
     found = fresh;
   }
-  const lineCountsMatch = enText.split("\n").length === trText.split("\n").length;
   for (const f of found) (f.severity === "error" ? errors : warnings).push({ tr, source, f, lineCountsMatch });
 }
 
@@ -205,6 +221,24 @@ if (carried.length) {
   console.log(`\nnotice: ${carried.length} blocking finding(s) on the changed pages were already there at the base; not caused by this change, cheap to fix while you are in the file:`);
   for (const c of carried.slice(0, 10)) console.log(`  - ${c.tr}: ${c.f.kind} ${c.f.value}`);
   if (carried.length > 10) console.log(`  ... and ${carried.length - 10} more`);
+}
+
+if (jsonOut) {
+  const record = (item) => {
+    const { line, msg } = describe(item);
+    return { file: item.tr, source: item.source, line, kind: item.f.kind, value: item.f.value, severity: item.f.severity, message: msg };
+  };
+  const report = {
+    schema: JSON_SCHEMA,
+    base,
+    mergeBase,
+    pages: checked,
+    errors: errors.map(record),
+    warnings: warnings.map(record),
+    inherited: carried.map(record),
+  };
+  try { writeFileSync(jsonOut, JSON.stringify(report, null, 2) + "\n"); }
+  catch (e) { die(`could not write ${jsonOut}: ${e.message}`); }
 }
 
 const scope = mergeBase ? `${checked} changed translated page(s)` : `${checked} translated page(s)`;
