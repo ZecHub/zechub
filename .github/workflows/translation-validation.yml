@@ -143,6 +143,9 @@ jobs:
       - name: Link-health parser self-test
         run: node link-health/check-links.test.mjs
 
+      - name: Link-health response cleanup self-test
+        run: node --test link-health/response-body.test.mjs
+
   hash-lib-tests:
     runs-on: ubuntu-latest
     steps:
