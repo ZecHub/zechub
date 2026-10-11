@@ -8,7 +8,7 @@
 
 Jarida lililolindwa ni mfululizo wa miamala iliyolindwa. Kila matokeo hulipa kiasi kidogo kwa mpokeaji Unified Address na hubeba kipande kinachofuata cha noti katika sehemu ya memo. Zallet huunda na kutuma miamala hiyo. Zebra na Zaino hutoa data ya mnyororo pekee.
 
-Hati hizo zinapatikana katika [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter)Ziliandikwa kwa ajili ya Zallet ya mapema na si salama kuziendesha kama zilivyo dhidi ya toleo la sasa. Ukurasa huu ndio utaratibu uliosasishwa. Zimehakikiwa dhidi ya Zallet `v0.1.0-beta.3` na kitabu cha Zallet kufikia tarehe 7 Oktoba 2026.
+Hati hizo zinapatikana katika [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter). Ziliandikwa kwa ajili ya Zallet ya mapema na si salama kuziendesha kama zilivyo dhidi ya toleo la sasa. Ukurasa huu ndio utaratibu uliosasishwa. Zimehakikiwa dhidi ya Zallet `v0.1.0-beta.3` na kitabu cha Zallet kufikia tarehe 7 Oktoba 2026.
 
 ## Unachohitaji
 
@@ -56,13 +56,13 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
 
 Sehemu ya memo ni heksaidi ghafi, upeo wa baiti 512. `ascii2hex` husimba ASCII pekee. Dokezo lenye herufi yoyote isiyo ya ASCII hushindwa. `xxd` or `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` Hushughulikia UTF-8.
 
-Sera ya faragha chaguomsingi ni `FullPrivacy`Hiyo ndiyo chaguo-msingi sahihi kwa mpokeaji aliyelindwa. Usipite `AllowFullyTransparent`.
+Sera ya faragha chaguomsingi ni `FullPrivacy`. Hiyo ndiyo chaguo-msingi sahihi kwa mpokeaji aliyelindwa. Usipite `AllowFullyTransparent`.
 
 ## Kasoro za hati
 
 Hizi ziko kwenye mti kufikia tarehe 8 Oktoba 2026. Usikimbie `shieldNewsletter.sh` hadi zitakaporekebishwa.
 
-- `[[ bytesInFile -lt 512 ]]` haipo `$`Tawi la memo moja halifanyi kazi kamwe.
+- `[[ bytesInFile -lt 512 ]]` haipo `$`. Tawi la memo moja halifanyi kazi kamwe.
 - Kitanzi cha chunk huhifadhi hex, kisha `hex2ascii` huifafanua, kisha `txBuilderFromFile.sh` huisimba tena. Kipande cha mwisho hakijasafishwa isipokuwa mstari wa baadaye ufurike 512. Mstari mrefu haujagawanywa. Hutumwa mzima na unaweza kuzidi memo ya baiti 512.
 - `txBuilderFromFile.sh` simu `./zallet rpc` bila njia ya usanidi, na inatarajia jozi katika saraka ya sasa `zallet -c <config> rpc`.
 - `toCurl.sh` anazungumza na Zebra kwenye lango 8232 akiwa na biskuti, na anapiga simu `getinfo` na `sendmany`Zallet haitoi `sendmany`Kitanzi cha kusubiri mgodi pia hutumia `[[ chainHeight -gt temp ]]` bila `$`, kwa hivyo haisubiri.
@@ -79,4 +79,4 @@ Mkimbiaji aliyerekebishwa anapaswa:
 4. Kura ya maoni `z_getoperationstatus` kwa kitambulisho hicho cha operesheni.
 5. Rekodi txid tu baada ya `success`.
 
-Ukurasa wa mafunzo ya zamani unabaki [Hati za Jarida Lililolindwa](/tutorials/shieldednewsletter/readme)Tumia ukurasa huu kwa utaratibu.
+Ukurasa wa mafunzo ya zamani unabaki [Hati za Jarida Lililolindwa](/tutorials/shieldednewsletter/readme). Tumia ukurasa huu kwa utaratibu.

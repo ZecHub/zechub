@@ -33,9 +33,9 @@ Pembayaran penambang kamu dan finalizer kamu bukanlah hal yang sama. Chain tidak
     <span className="rounded-full bg-blue-600 px-3 py-1 text-sm text-white">2 Lindungi</span>
     <span className="text-slate-400">→</span>
     <span className="rounded-full bg-amber-600 px-3 py-1 text-sm text-white">3 Bond</span>
-  </div}
+  </div>
   <p className="mt-3 mb-0 text-slate-800 dark:text-slate-100">Lewati tahap lindungi dan langkah privasi tidak akan pernah terjadi. Sebuah bond tidak menghapus coinbase transparan.</p>
-</div >
+</div>
 
 ## Apa itu publik
 

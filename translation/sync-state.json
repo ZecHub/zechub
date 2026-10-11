@@ -1752,14 +1752,6 @@
       "tool": "gt-static",
       "edited": false
     },
-    "guides/Mining_and_Staking_Privacy.md": {
-      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
-      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Using_Zcash/Shielded_Newsletter.md": {
       "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
       "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
@@ -7057,14 +7049,6 @@
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
       "src": "sha256:8dc9e5c5ab4e39899ef3ad8c4b41002a4e07a9d4eb1c6da01d801adc23302b18",
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "guides/Mining_and_Staking_Privacy.md": {
-      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
-      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -14147,7 +14131,7 @@
       "src_commit": "600c9c1031addd6adde7907a088cd4487324cb71",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Newsletter.md": {
@@ -15912,20 +15896,12 @@
       "tool": "gt-static",
       "edited": false
     },
-    "guides/Mining_and_Staking_Privacy.md": {
-      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
-      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Using_Zcash/Shielded_Newsletter.md": {
       "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
       "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     }
   },
@@ -26532,20 +26508,12 @@
       "tool": "gt-static",
       "edited": false
     },
-    "guides/Mining_and_Staking_Privacy.md": {
-      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
-      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Using_Zcash/Shielded_Newsletter.md": {
       "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
       "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     }
   },
@@ -31842,20 +31810,12 @@
       "tool": "gt-static",
       "edited": false
     },
-    "guides/Mining_and_Staking_Privacy.md": {
-      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
-      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Using_Zcash/Shielded_Newsletter.md": {
       "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
       "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     }
   },

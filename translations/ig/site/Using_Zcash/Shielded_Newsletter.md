@@ -8,7 +8,7 @@
 
 Akwụkwọ ozi nchekwa bụ usoro azụmahịa echekwara. Mbupụ ọ bụla na-akwụ obere ego nye onye nnata Unified Address ma na-ebu akụkụ ọzọ nke akwụkwọ ozi ahụ n'ọhịa memo. Zallet na-ewulite ma na-eziga azụmahịa ndị ahụ. Zebra na Zaino na-enye naanị data yinye.
 
-Akwụkwọ edemede ndị ahụ dị ndụ na [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter)E dere ha maka Zallet mbụ ma ha adịghị mma ịgba ọsọ dịka ọ dị megide mwepụta dị ugbu a. Peeji a bụ usoro emelitere. A lere ya anya na Zallet `v0.1.0-beta.3` na akwụkwọ Zallet dịka nke 7 Ọktoba 2026.
+Akwụkwọ edemede ndị ahụ dị ndụ na [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter). E dere ha maka Zallet mbụ ma ha adịghị mma ịgba ọsọ dịka ọ dị megide mwepụta dị ugbu a. Peeji a bụ usoro emelitere. A lere ya anya na Zallet `v0.1.0-beta.3` na akwụkwọ Zallet dịka nke 7 Ọktoba 2026.
 
 ## Ihe ị chọrọ
 
@@ -34,7 +34,7 @@ zallet -c ~/.zallet/zallet.toml rpc help
 
 ## Ndepụta ndị nnata
 
-Otu Unified Address Ọnụ n'otu ahịrị, enweghị nhota okwu, enweghị ahịrị efu. Ederede ahụ na-agụ `daoAddresses.md`Akwụkwọ ochie ahụ kwuru `daoAddress.md`Faịlụ ahụ adịghị na repo ahụ, aha ya adabaghịkwa.
+Otu Unified Address Ọnụ n'otu ahịrị, enweghị nhota okwu, enweghị ahịrị efu. Ederede ahụ na-agụ `daoAddresses.md`. Akwụkwọ ochie ahụ kwuru `daoAddress.md`. Faịlụ ahụ adịghị na repo ahụ, aha ya adabaghịkwa.
 
 ```text
 u1...
@@ -56,13 +56,13 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
 
 Ebe ndetu ahụ bụ hex nkịtị, oke kachasị bụ 512 bytes. `ascii2hex` na-agbanwe naanị ASCII. Ndetu nwere mkpụrụedemede na-abụghị ASCII agaghị arụ ọrụ nke ọma. `xxd` or `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` na-eji UTF-8 arụ ọrụ.
 
-Iwu nzuzo na-adabere na `FullPrivacy`Nke ahụ bụ ndabara ziri ezi maka onye nnata echekwara. Agafeela `AllowFullyTransparent`.
+Iwu nzuzo na-adabere na `FullPrivacy`. Nke ahụ bụ ndabara ziri ezi maka onye nnata echekwara. Agafeela `AllowFullyTransparent`.
 
 ## Mmejọ ederede
 
 Ndị a dị n'osisi ahụ dịka ọ dị na 8 Ọktoba 2026. Agbakwala ọsọ `shieldNewsletter.sh` ruo mgbe ha ga-edozi.
 
-- `[[ bytesInFile -lt 512 ]]` na-efu efu `$`Alaka otu ihe ncheta anaghị agba ọsọ.
+- `[[ bytesInFile -lt 512 ]]` na-efu efu `$`. Alaka otu ihe ncheta anaghị agba ọsọ.
 - Mkpọchi chunk na-echekwa hex, mgbe ahụ `hex2ascii` depụta ya, mgbe ahụ `txBuilderFromFile.sh` na-agbanwe ya ọzọ. A naghị ehichapụ akụkụ ikpeazụ ma ọ bụrụ na ahịrị nke ọzọ agafee 512. A naghị ekewa ahịrị ogologo. A na-eziga ya dum ma nwee ike ịgafe ihe ndetu 512-byte.
 - `txBuilderFromFile.sh` oku `./zallet rpc` na-enweghị ụzọ nhazi, ma na-atụ anya ọnụọgụ abụọ dị na ndekọ dị ugbu a. Jiri `zallet -c <config> rpc`.
 - `toCurl.sh` na Zebra na-agwa okwu na ọdụ ụgbọ mmiri 8232 site na iji kuki, wee kpọọ oku `getinfo` na `sendmany`Zallet anaghị enye `sendmany`Mkpọchi nchere nke igwe na-ejikwa `[[ chainHeight -gt temp ]]` na-enweghị `$`, yabụ ọ naghị echere.
@@ -79,4 +79,4 @@ Onye na-agba ọsọ agbaziri kwesịrị:
 4. Ntuli aka `z_getoperationstatus` maka ọrụ ahụ id.
 5. Dekọọ txid ahụ naanị mgbe emechara `success`.
 
-Ibe nkuzi ochie ahụ ka dị na [Ederede Akwụkwọ Ozi Ekpuchiri Echekwara](/tutorials/shieldednewsletter/readme)Jiri ibe a mee ihe maka usoro a.
+Ibe nkuzi ochie ahụ ka dị na [Ederede Akwụkwọ Ozi Ekpuchiri Echekwara](/tutorials/shieldednewsletter/readme). Jiri ibe a mee ihe maka usoro a.
