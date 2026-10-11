@@ -142,3 +142,11 @@ ___
 - Website: https://leodex.io/
 - Description: Crosschain swaps with no account and no KYC. Send BTC, ETH and more from any wallet, exchange or cold storage to a one-time deposit address and receive ZEC — no wallet connection required.
 
+___
+
+### VertEXchange
+
+<img src="/content-images/vertexchange.png" alt="VertEXchange.pro" width="200" height="100"/>
+
+- Website: https://vertexchange.pro/
+- Description: Instant ZEC swaps with BTC, XMR, LTC, ETH, SOL and 1,000+ other coins, with no AML freezes and no KYC checks. Buy and sell Zcash straight to your wallet at a fixed or floating rate, no sign-up, no documents.
