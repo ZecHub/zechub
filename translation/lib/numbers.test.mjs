@@ -183,3 +183,81 @@ test("introduced() subtracts what the base already had, by count", () => {
   const base = [{ kind: "number-missing", value: "24", count: 1 }, { kind: "digit-token", value: "2emma", count: 1 }];
   assert.deepEqual(introduced(head, base), [{ kind: "number-missing", value: "24", count: 1 }]);
 });
+
+// ---- versions ----------------------------------------------------------------------
+
+test("a changed version blocks, even when every digit is small", () => {
+  for (const [en, tr, want] of [
+    ["Install zcashd 1.2.3 first.\n", "Installiere zuerst zcashd 1.2.4.\n", ["version-added:1.2.4", "version-missing:1.2.3"]],
+    ["Zallet v0.15.2 is out.\n", "Zallet v0.15.3 ist da.\n", ["version-added:0.15.3", "version-missing:0.15.2"]],
+    ["Upgrade to version 2.1 now.\n", "Jetzt auf Version 2.2 aktualisieren.\n", ["version-missing:2.1"]],
+    ["Zebra v5 supports it.\n", "Zebra v6 unterstützt es.\n", ["version-added:6", "version-missing:5"]],
+    ["After NU6.3 activates.\n", "Nach der Aktivierung von NU6.4.\n", ["version-added:NU6.4", "version-missing:NU6.3"]],
+    ["Install zcashd 1.2.3 first.\n", "Installiere zuerst zcashd.\n", ["version-missing:1.2.3"]],
+  ]) {
+    const got = values(errors(en, tr, { locale: "de" }).filter((f) => f.kind.startsWith("version")));
+    assert.deepEqual(got, want, `${en} -> ${tr}`);
+  }
+});
+
+test("a version kept verbatim, with or without its v, is fine", () => {
+  assert.deepEqual(errors("Zallet v0.15.2 and zcashd 6.20.0.\n", "Zallet 0.15.2 und zcashd v6.20.0.\n", { locale: "de" }), []);
+  assert.deepEqual(errors("Zallet v0.15.2.\n", "Zallet v0.15.2のリリース。\n", { locale: "ja" }), []);
+});
+
+test("thousands groups, dotted dates and ZIP numbers are not versions", () => {
+  const en = "On August 24, 2026, 1,000,000 users read ZIP 317 and 3,428,143 blocks.\n";
+  for (const [loc, tr] of [
+    ["de", "Am 24.08.2026 lasen 1.000.000 Nutzer ZIP 317 und 3.428.143 Blöcke.\n"],
+    ["es", "El 24.08.2026, 1.000.000 usuarios leyeron ZIP 317 y 3.428.143 bloques.\n"],
+    ["id", "Pada 24.08.26, 1.000.000 pengguna membaca ZIP 317 dan 3.428.143 blok.\n"],
+    ["tr", "2026.08.24 tarihinde 1.000.000 kullanıcı ZIP 317 ve 3.428.143 blok okudu.\n"],
+  ]) assert.deepEqual(compare(en, tr, { locale: loc }).filter((f) => f.kind.startsWith("version")), [], loc);
+});
+
+// ---- times ---------------------------------------------------------------------------
+
+test("a 24-hour time localised as a 12-hour one, and back, is not a number change", () => {
+  assert.deepEqual(compare("The call starts at 19:00 UTC.\n", "The call starts at 7 PM UTC.\n"), []);
+  assert.deepEqual(compare("The call starts at 7 PM UTC.\n", "Der Call beginnt um 19:00 UTC.\n"), []);
+  assert.deepEqual(compare("Closes at 11:59 PM UTC.\n", "Chiude alle 23:59 UTC.\n"), []);
+  for (const [loc, tr] of [
+    ["ja", "通話は午後7時(UTC)に始まります。\n"], ["ko", "통화는 오후 7시 UTC에 시작됩니다.\n"],
+    ["zh", "通话于UTC晚上7点开始。\n"], ["fr", "L'appel commence à 19 h 00 UTC.\n"],
+    ["fr", "L'appel commence à 19h UTC.\n"], ["id", "Panggilan dimulai pukul 19.00 UTC.\n"],
+    ["es", "La llamada empieza a las 7 p. m. UTC.\n"], ["ar", "تبدأ المكالمة الساعة ٧ مساءً UTC.\n"],
+  ]) assert.deepEqual(compare("The call starts at 19:00 UTC.\n", tr, { locale: loc }), [], loc);
+});
+
+test("a wrong 12/24-hour conversion still fails", () => {
+  assert.ok(values(errors("The call starts at 19:00 UTC.\n", "The call starts at 9 PM UTC.\n")).includes("number-missing:19"));
+  assert.ok(values(errors("The call starts at 7 PM UTC.\n", "Der Call beginnt um 21:00 UTC.\n")).includes("number-added:21"));
+  assert.ok(errors("The call starts at 19:00 UTC.\n", "通話は午後9時(UTC)に始まります。\n", { locale: "ja" }).length > 0);
+  // AM vs PM is a different time
+  assert.ok(errors("The call starts at 19:00 UTC.\n", "통화는 오전 7시 UTC에 시작됩니다.\n", { locale: "ko" }).length > 0);
+});
+
+test("video timestamps keep their seconds", () => {
+  const { missing, extra } = numberDelta(["- 1:04:17 outro"], ["- 1:04:40 outro"]);
+  assert.deepEqual([missing.map((m) => m.value), extra.map((x) => x.value)], [["17"], ["40"]]);
+});
+
+// ---- occurrence-aware base suppression --------------------------------------------------
+
+test("an inherited token moved to another paragraph is new damage", () => {
+  const en = "# ZIPs\n\nRead ZIP 225 first, before anything else.\n\nThen read ZIP 225 again.\n";
+  const base = compare(en, "# ZIP\n\nBaca ZIP 2emma dulu sebelum lanjut.\n\nLalu baca ZIP 225 lagi.\n", { locale: "id" });
+  const moved = compare(en, "# ZIP\n\nBaca ZIP 225 dulu sebelum lanjut.\n\nLalu baca ZIP 2emma lagi.\n", { locale: "id" });
+  assert.deepEqual(values(introduced(moved, base).filter((f) => f.severity === "error")), ["digit-token:2emma"]);
+  // ...but an edit elsewhere in the same paragraph keeps it inherited
+  const edited = compare(en, "# ZIP\n\nPertama, baca ZIP 2emma dulu sebelum membaca yang lain.\n\nLalu baca ZIP 225 lagi.\n", { locale: "id" });
+  assert.deepEqual(introduced(edited, base).filter((f) => f.kind === "digit-token"), []);
+});
+
+test("an inherited missing number that moves to another line is new", () => {
+  const en = "Line A in 2025.\n\nLine B in 2025.\n";
+  const base = compare(en, "Zeile A.\n\nZeile B in 2025.\n");
+  const head = compare(en, "Zeile A in 2025.\n\nZeile B.\n");
+  assert.deepEqual(values(introduced(head, base)), ["number-missing:2025"]);
+  assert.deepEqual(introduced(base, base), []);
+});

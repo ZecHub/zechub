@@ -92,6 +92,17 @@ test("...but a NEW fused token on that page still fails", () => {
   assert.doesNotMatch(r.out, /error: "2emma"/);
 });
 
+test("fixing an inherited token in one paragraph and writing it into another fails", () => {
+  branch("pr-id-moved");
+  w("site/zips.md", "# ZIPs\n\nRead ZIP 225 before November 2025.\n\nZIP 225 also covers fees.\n");
+  w("translations/id/site/zips.md", "# ZIP\n\nBaca ZIP 225 sebelum November 202kan.\n\nZIP 2emma juga mencakup biaya.\n");
+  commit("id moved damage");
+  const r = run("--base", "main");
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /translations\/id\/site\/zips\.md:5: error: "2emma"/);
+  assert.doesNotMatch(r.out, /error: "202kan"/);
+});
+
 test("a renamed translation does not get blamed for damage it carried", () => {
   branch("pr-rename");
   git("mv", "site/zips.md", "site/zip-list.md");
@@ -108,6 +119,21 @@ test("a new translation page is checked in full", () => {
   const r = run("--base", "main");
   assert.equal(r.status, 1, r.out);
   assert.match(r.out, /translations\/de\/site\/poll\.md.*3428143/);
+});
+
+test("a 12-hour rendering of the poll time passes; a corrupted version fails", () => {
+  branch("pr-time-version");
+  w("translations/yo/site/poll.md", YO_GOOD.replace("19:00 UTC", "7 PM UTC"));
+  commit("12h time");
+  let r = run("--base", "main");
+  assert.equal(r.status, 0, r.out);
+  w("site/node.md", "# Node\n\nRun zcashd 6.20.0 or Zebra v2.5.\n");
+  w("translations/de/site/node.md", "# Knoten\n\nFühre zcashd 6.20.1 oder Zebra v2.5 aus.\n");
+  commit("de node");
+  r = run("--base", "main");
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /translations\/de\/site\/node\.md:3: error: version 6\.20\.0 from site\/node\.md:3 is missing or changed/);
+  assert.match(r.out, /error: version 6\.20\.1 is not in site\/node\.md/);
 });
 
 test("Igbo: a missing number is advisory, an invented one blocks", () => {

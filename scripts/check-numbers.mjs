@@ -7,7 +7,7 @@
 // mean 16 August, 19 o'clock in the morning. See translation/lib/numbers.mjs
 // for what is compared and how numbers are normalised across locales.
 //
-// Two rules, on prose only (code, URLs, link targets, HTML, image paths and
+// Three rules, on prose only (code, URLs, link targets, HTML, image paths and
 // protected names are masked):
 //
 //   digit-token  a token mixing digits with 3+ letters ("202kan", "2Atuo",
@@ -16,7 +16,11 @@
 //   numbers      a number (not 0-10) that vanished from the page or appeared
 //                from nowhere. Blocking. Count-only differences and small
 //                numbers are warnings: good translations restate numbers and
-//                spell out "four".
+//                spell out "four". Clock times are compared as minutes since
+//                midnight first, so "19:00 UTC" may become "7 PM UTC".
+//   versions     a version ("1.2.3", "v0.15.2") compared as a whole string:
+//                one the English has and the translation lacks or changed, or
+//                one the translation invents. Blocking, whatever its digits.
 //
 // Per-locale policy, from a calibration over every translation on main (see
 // docs/translation-contributor-workflow.md):
@@ -31,7 +35,9 @@
 //
 // Scope (--base): only translation pages this change added, modified or
 // renamed, and only findings that the same page pair did not already have at
-// the merge base. Damage already on main is a notice, so it does not fail
+// the merge base, at the same place: an inherited finding is matched by the
+// text around it (not the line number), so moving a bad token to another
+// paragraph is new. Damage already on main is a notice, so it does not fail
 // every unrelated PR. Without --base every translated page is checked and
 // every blocking finding fails (a local sweep).
 //
@@ -170,6 +176,13 @@ function describe({ tr, source, f, lineCountsMatch }) {
     // English line structure (it nearly always does) the same line is it.
     const enLine = f.lines[0];
     return { line: lineCountsMatch ? enLine : 1, msg: `number ${f.value}${times} from ${source}:${enLine} is missing. Keep numbers, dates and times as digits; do not spell them out or drop them.` };
+  }
+  if (f.kind === "version-missing") {
+    const enLine = f.lines[0];
+    return { line: lineCountsMatch ? enLine : 1, msg: `version ${f.value}${times} from ${source}:${enLine} is missing or changed. Copy version numbers exactly as the English writes them.` };
+  }
+  if (f.kind === "version-added") {
+    return { line: f.lines[0], msg: `version ${f.value}${times} is not in ${source}. A changed or invented version number: copy it from the English.` };
   }
   return { line: f.lines[0], msg: `number ${f.value}${times} is not in ${source}${f.absent ? "" : " this many times"}. A changed digit, an invented date, or a number the English does not state.` };
 }

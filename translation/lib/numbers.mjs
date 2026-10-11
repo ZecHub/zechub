@@ -10,14 +10,16 @@
 //     Yoruba "ọjọ́ kẹrìndínlógún oṣù kẹjọ ... ní agogo mọ́kàndínlógún òwúrọ̀"
 //     (16 August, 19 o'clock in the morning) for "August 24, 2026, 19:00 UTC".
 //
-// Two comparisons, both on PROSE only (code, URLs, link targets, HTML tags and
+// Three comparisons, all on PROSE only (code, URLs, link targets, HTML tags and
 // attributes, image paths and protected names are masked first, keeping line
 // numbers):
 //
 //   digitTokens   tokens mixing a digit with 3+ ASCII letters that occur in the
 //                 translation but nowhere in the English;
 //   numberDelta   the multiset of numbers: English numbers that disappeared and
-//                 numbers the translation added.
+//                 numbers the translation added, after clock times on both
+//                 sides are paired by their time of day (cancelTimes);
+//   versionDelta  version strings ("1.2.3", "v0.15.2"), compared whole.
 //
 // Normalisation is the same on both sides, so a choice that is merely a
 // convention cancels out: thousands separators in any of the "," "." space,
@@ -164,7 +166,7 @@ const SUFFIX_OK = {
 export function digitTokens(lines) {
   const out = [];
   lines.forEach((l, i) => {
-    for (const m of l.matchAll(TOKEN)) if (MIXED.test(m[0]) || IDENT.test(m[0])) out.push({ token: m[0], line: i + 1 });
+    for (const m of l.matchAll(TOKEN)) if (MIXED.test(m[0]) || IDENT.test(m[0])) out.push({ token: m[0], line: i + 1, col: m.index });
   });
   return out;
 }
@@ -359,6 +361,107 @@ export function ordinals(enLines) {
   return ok;
 }
 
+// ---- times ---------------------------------------------------------------------
+//
+// A clock time is compared as time since midnight before any number is, so a
+// valid localisation in either direction ("19:00 UTC" <-> "7 PM UTC", "午後7時",
+// "오후 7시", "19 h 00", "pukul 19.00") is not two different numbers. A time
+// on one side that no time on the other side equals is left in the text, so the
+// number comparison still sees it: "19:00" written "9 PM" loses its 19.
+
+const PM_PRE = "午後|下午|晚上|傍晚|오후|저녁|शाम|रात|दोपहर";
+const AM_PRE = "午前|上午|早上|凌晨|오전|아침|새벽|सुबह";
+const NOON_PRE = "中午|正午";
+const TZ = "UTC|GMT|Uhr|WIB|WITA|WIT|CES?T|E[SD]T|P[SD]T|h(?![\\p{L}\\d])";
+const TIME_RES = [
+  // marker before the hour: 午後7時30分, 下午7点半, 오후 7시, शाम 7 बजे, 오후 7:00
+  [new RegExp(`(${PM_PRE}|${AM_PRE}|${NOON_PRE})\\s?(\\d{1,2})(?:\\s?[:：]\\s?(\\d{2}))?(?:\\s?[時时点點시](?:\\s?(\\d{1,2})\\s?[分분]|(半))?|\\s?बजे)?(?![\\d])`, "gu"),
+    (m) => ({ h: +m[2], min: +(m[3] ?? m[4] ?? (m[5] ? 30 : 0)), half: new RegExp(`^(?:${PM_PRE})`, "u").test(m[1]) ? "pm" : new RegExp(`^(?:${AM_PRE})`, "u").test(m[1]) ? "am" : "noon" })],
+  // marker after: 7 PM, 7:30 p.m., 7 p. m., ٧ مساءً
+  [/(?<![\d:.,])(\d{1,2})(?:[:.](\d{2}))?\s?(?:([AaPp])\.?\s?[Mm]\.?(?![A-Za-z])|(مساءً|مساءا|مساء|م|صباحًا|صباحا|صباح|ص)(?![\u0600-\u06FF]))/gu,
+    (m) => ({ h: +m[1], min: +(m[2] ?? 0), half: (m[3] ? /p/i.test(m[3]) : /^م/.test(m[4])) ? "pm" : "am" })],
+  // 24-hour HH:MM(:SS)
+  [/(?<![\d:.,/])(\d{1,2})[:：](\d{2})(?::(\d{2}))?(?![\d:])/gu, (m) => ({ h: +m[1], min: +m[2], sec: +(m[3] ?? 0) })],
+  // HH.MM only where it is clearly a time: "pukul 19.00", "19.00 Uhr"
+  [new RegExp(`(?<=(?:pukul|jam|saat|um|alle|ore|às|klo|kello)\\s)(\\d{1,2})\\.(\\d{2})(?![\\d.,])|(?<![\\d.,])(\\d{1,2})\\.(\\d{2})(?=\\s?(?:${TZ}))`, "gu"),
+    (m) => ({ h: +(m[1] ?? m[3]), min: +(m[2] ?? m[4]) })],
+  // hour units: 19時, 19时30分, 19시 (not 時間/시간 "hours")
+  [/(?<![\d.,])(\d{1,2})\s?[時时点點시](?![間间간])(?:\s?(\d{1,2})\s?[分분]|(半))?/gu,
+    (m) => ({ h: +m[1], min: +(m[2] ?? (m[3] ? 30 : 0)) })],
+  // 19h00, 19 h 00, 19h, 19 Uhr
+  [/(?<![\p{L}\d.,])(\d{1,2})\s?(?:h(?:\s?(\d{2}))?(?![\p{L}\d])|Uhr(?![\p{L}]))/gu,
+    (m) => ({ h: +m[1], min: +(m[2] ?? 0) })],
+  // Hindi "7 बजे" with no marker: either half of the day
+  [/(?<![\d.,])(\d{1,2})(?::(\d{2}))?\s?बजे/gu, (m) => ({ h: +m[1], min: +(m[2] ?? 0), half: "either" })],
+];
+
+// [{ start, end, vals }] for one line; `vals` are the seconds since midnight
+// the expression can mean (two for an unmarked 12-hour clock). Seconds count,
+// so video timestamps "1:04:17" and "1:04:40" stay different.
+export function timeSpans(line) {
+  const spans = [];
+  for (const [re, parse] of TIME_RES) {
+    for (const m of line.matchAll(re)) {
+      const start = m.index, end = m.index + m[0].length;
+      if (spans.some((s) => start < s.end && s.start < end)) continue;
+      const { h, min, sec = 0, half } = parse(m);
+      if (min > 59 || sec > 59 || h > 24) continue;
+      let hs;
+      if (half === "pm") hs = h >= 1 && h <= 12 ? [(h % 12) + 12] : [];
+      else if (half === "am") hs = h >= 1 && h <= 12 ? [h % 12] : [];
+      else if (half === "noon") hs = [h];
+      else if (half === "either") hs = h <= 12 ? [h % 12, (h % 12) + 12] : [h];
+      else hs = [h];
+      if (!hs.length) continue;
+      spans.push({ start, end, vals: hs.map((x) => (x * 3600 + min * 60 + sec) % 86400) });
+    }
+  }
+  return spans.sort((a, b) => a.start - b.start);
+}
+
+// Blank every English time that a translation time equals, and that partner.
+export function cancelTimes(enLines, trLines) {
+  const collect = (lines) => lines.flatMap((l, i) => timeSpans(l).map((s) => ({ ...s, line: i })));
+  const en = collect(enLines), tr = collect(trLines);
+  const hit = new Set(), enHit = [];
+  // An exact (single-valued) partner first, so an ambiguous one is not wasted.
+  for (const e of en) {
+    let k = -1;
+    for (const exact of [true, false]) {
+      k = tr.findIndex((t, j) => !hit.has(j) && (t.vals.length === 1) === exact && e.vals.some((v) => t.vals.includes(v)));
+      if (k >= 0) break;
+    }
+    if (k >= 0) { hit.add(k); enHit.push(e); }
+  }
+  const wipe = (lines, spans) => {
+    const out = [...lines];
+    for (const s of spans) out[s.line] = out[s.line].slice(0, s.start) + " ".repeat(s.end - s.start) + out[s.line].slice(s.end);
+    return out;
+  };
+  return [wipe(enLines, enHit), wipe(trLines, tr.filter((_, j) => hit.has(j)))];
+}
+
+// ---- occurrence contexts ----------------------------------------------------------
+
+// The text around one finding, for telling an inherited occurrence from a new
+// one of the same value (see introduced()). Not a line number: lines shift.
+export const context = (s) => s.replace(/\s+/g, " ").trim().toLowerCase();
+
+// Per-line surplus of `value` on side a over side b, as one context (the
+// translation line) per surplus unit. Only meaningful when the two pages keep
+// the same line structure; null otherwise.
+function lineContexts(aOcc, bOcc, value, trLines, aligned) {
+  if (!aligned) return null;
+  const per = (occ) => {
+    const m = new Map();
+    for (const o of occ) if (o.value === value) m.set(o.line, (m.get(o.line) ?? 0) + 1);
+    return m;
+  };
+  const a = per(aOcc), b = per(bOcc), out = [];
+  for (const [line, n] of a) for (let k = (b.get(line) ?? 0); k < n; k++) out.push(context(trLines[line - 1] ?? ""));
+  return out;
+}
+
 const countBy = (items) => {
   const c = new Map();
   for (const { value, line, scaled } of items) {
@@ -389,6 +492,13 @@ function reconcileDecimals(a, b) {
 // { missing: [{value, count, lines, absent}], extra: [...] }. `lines` are
 // English lines for a missing number, translation lines for an added one.
 export function numberDelta(enLines, trLines, enRaw = "") {
+  const aligned = enLines.length === trLines.length;
+  // Times are paired first; `absent` below still looks at the whole page, so
+  // a value that a paired time also carries stays a count difference, as it
+  // was before times were paired.
+  const allEn = new Set(numbers(enLines).map((n) => n.value));
+  const allTr = new Set(numbers(trLines).map((n) => n.value));
+  [enLines, trLines] = cancelTimes(enLines, trLines);
   const enOcc = numbers(enLines), trOcc = numbers(trLines);
   const en = countBy(enOcc), tr = countBy(trOcc);
   const allow = allowances(enLines, enRaw);
@@ -438,9 +548,93 @@ export function numberDelta(enLines, trLines, enRaw = "") {
   const trScaled = new Set([...tr.values()].flatMap((t) => t.scaled));
   const missing = [], extra = [];
   for (const [v, d] of miss) if (d > 0) missing.push({ value: v, count: d, lines: en.get(v).lines,
-    absent: !tr.has(v) && !en.get(v).scaled.some((x) => trScaled.has(x)) });
+    absent: !tr.has(v) && !allTr.has(v) && !en.get(v).scaled.some((x) => trScaled.has(x)),
+    contexts: lineContexts(enOcc, trOcc, v, trLines, aligned) });
   for (const [v, d] of add) if (d > 0) extra.push({ value: v, count: d, lines: tr.get(v).lines,
-    absent: !en.has(v) && !tr.get(v).scaled.some((x) => enScaled.has(x)) });
+    absent: !en.has(v) && !allEn.has(v) && !tr.get(v).scaled.some((x) => enScaled.has(x)),
+    contexts: lineContexts(trOcc, enOcc, v, trLines, aligned) });
+  return { missing, extra };
+}
+
+// ---- versions ---------------------------------------------------------------------
+//
+// A version is one unit, compared as a whole string: "1.2.3" -> "1.2.4" only
+// changes small numbers, which the number rule treats as advisory. What is a
+// version (English side): a token with a leading "v" ("v5", "v0.15.2"), an
+// acronym with a dotted number ("NU6.1" when it is not a protected name), a
+// number with 2-3 dots ("5.4.0") that is not a "1.000.000" grouping, or a
+// dotted number right after "version"/"release". Every one of those must occur
+// in the translation verbatim (a leading "v" may come or go). On the
+// translation side only the unambiguous shapes count as an ADDED version, and
+// a dotted date ("24.08.2026", "2026.08.24") is a date, not a version.
+
+const VERSION = /(?<![A-Za-z0-9_.,'’])(v|V|[A-Z]{2,4})?(\d+(?:\.\d+){0,3})(?![\d]|[.,]\d)/g;
+const GROUPED = (s) => /^\d{1,3}(?:\.\d{3})+$/.test(s);
+const DATED = (s, { shortYear = true } = {}) => {
+  const g = s.split(".").map(Number), len = s.split(".").map((x) => x.length);
+  if (g.length !== 3) return false;
+  if (len[0] === 4) return g[1] >= 1 && g[1] <= 12 && g[2] >= 1 && g[2] <= 31;
+  return (len[2] === 4 || (shortYear && len[2] === 2)) && g[0] >= 1 && g[0] <= 31 && g[1] >= 1 && g[1] <= 12;
+};
+const VERSION_WORD = /\b(?:version|versions|release|releases|ver\.)\s*$/i;
+
+// [{ value, line }] of version tokens. `english` admits the context-only
+// shapes (one dot after "version").
+export function versions(lines, { english = false } = {}) {
+  const out = [];
+  lines.forEach((l, i) => {
+    for (const m of l.matchAll(VERSION)) {
+      const pre = m[1] ?? "", num = m[2], dots = (num.match(/\./g) || []).length;
+      let value = null;
+      if (pre === "v" || pre === "V") value = num;
+      else if (pre) { if (dots >= 1) value = pre + num; }
+      else if (dots >= 2 && !GROUPED(num) && !DATED(num, { shortYear: !english })) value = num;
+      else if (english && dots === 1 && VERSION_WORD.test(l.slice(0, m.index))) value = num;
+      if (value !== null) out.push({ value, line: i + 1 });
+    }
+  });
+  return out;
+}
+
+// Occurrences of an English version in a translation: the token itself with a
+// leading "v" optional, bounded so "1.2.3" does not match inside "11.2.3".
+function versionCount(lines, value) {
+  const body = /^[A-Z]/.test(value) ? escapeRe(value) : `[vV]?${escapeRe(value)}`;
+  const re = new RegExp(`(?<![A-Za-z0-9_.,])${body}(?![\\d]|[.,]\\d)`, "g");
+  const per = new Map();
+  lines.forEach((l, i) => { const n = (l.match(re) || []).length; if (n) per.set(i + 1, n); });
+  return per;
+}
+
+// { missing, extra } like numberDelta, by whole version string.
+export function versionDelta(enLines, trLines) {
+  const aligned = enLines.length === trLines.length;
+  const enV = versions(enLines, { english: true });
+  const byValue = new Map();
+  for (const v of enV) byValue.set(v.value, [...(byValue.get(v.value) ?? []), v.line]);
+  const missing = [], extra = [];
+  for (const [value, lines] of byValue) {
+    const per = versionCount(trLines, value);
+    const n = [...per.values()].reduce((a, b) => a + b, 0);
+    if (n >= lines.length) continue;
+    let contexts = null;
+    if (aligned) {
+      contexts = [];
+      const enPer = new Map();
+      for (const l of lines) enPer.set(l, (enPer.get(l) ?? 0) + 1);
+      for (const [l, k] of enPer) for (let j = per.get(l) ?? 0; j < k; j++) contexts.push(context(trLines[l - 1] ?? ""));
+    }
+    missing.push({ value, count: lines.length - n, lines, absent: n === 0, contexts });
+  }
+  const enText = enLines.join("\n");
+  const added = new Map();
+  for (const t of versions(trLines)) {
+    if (byValue.has(t.value) || versionCount([enText], t.value).size) continue;
+    added.set(t.value, [...(added.get(t.value) ?? []), t.line]);
+  }
+  for (const [value, lines] of added)
+    extra.push({ value, count: lines.length, lines, absent: true,
+      contexts: aligned ? lines.map((l) => context(trLines[l - 1] ?? "")) : null });
   return { missing, extra };
 }
 
@@ -466,23 +660,45 @@ export function compare(enText, trText, { locale = "", protectedTerms = [] } = {
   const findings = [];
   const tok = new Map();
   for (const t of newDigitTokens(enCode, trProse, locale)) {
-    const e = tok.get(t.token) ?? { kind: "digit-token", value: t.token, count: 0, lines: [], severity: "error" };
+    const e = tok.get(t.token) ?? { kind: "digit-token", value: t.token, count: 0, lines: [], contexts: [], severity: "error" };
     e.count++; e.lines.push(t.line);
+    // A token has a position: its context is the two words either side of
+    // it, so an edit elsewhere in the paragraph keeps an inherited token
+    // inherited, while the same token in another sentence is new.
+    const words = [...trProse[t.line - 1].matchAll(/\S+/g)];
+    const w = words.findIndex((x) => x.index + x[0].length > t.col);
+    e.contexts.push(context(words.slice(Math.max(0, w - 2), w + 3).map((x) => x[0]).join(" ")));
     tok.set(t.token, e);
   }
   findings.push(...tok.values());
   const { missing, extra } = numberDelta(enCode, trCode, enText);
   for (const m of missing) findings.push({ kind: "number-missing", ...m, severity: numberSeverity(m) });
   for (const x of extra) findings.push({ kind: "number-added", ...x, severity: numberSeverity(x) });
+  const ver = versionDelta(enCode, trCode);
+  for (const m of ver.missing) findings.push({ kind: "version-missing", ...m, severity: m.absent ? "error" : "warning" });
+  for (const x of ver.extra) findings.push({ kind: "version-added", ...x, severity: "error" });
   return findings;
 }
 
-// Findings at head minus findings at base, by kind+value and count.
+// Findings at head minus findings at base, per kind+value. An inherited
+// occurrence is subtracted only where its context (see context()) existed at
+// the base too, so fixing a bad token in one paragraph and writing it into
+// another is new damage. A finding without contexts (the page and its
+// English differ in line structure) falls back to subtracting by count.
 export function introduced(head, base) {
-  const prev = new Map(base.map((f) => [`${f.kind}\0${f.value}`, f.count]));
+  const prev = new Map(base.map((f) => [`${f.kind}\0${f.value}`, f]));
   const out = [];
   for (const f of head) {
-    const left = f.count - (prev.get(`${f.kind}\0${f.value}`) ?? 0);
+    const b = prev.get(`${f.kind}\0${f.value}`);
+    let inherited = b?.count ?? 0;
+    if (b && f.contexts && b.contexts) {
+      const pool = new Map();
+      for (const c of b.contexts) pool.set(c, (pool.get(c) ?? 0) + 1);
+      let same = 0;
+      for (const c of f.contexts) if (pool.get(c) > 0) { pool.set(c, pool.get(c) - 1); same++; }
+      inherited = Math.min(inherited, same);
+    }
+    const left = f.count - inherited;
     if (left > 0) out.push({ ...f, count: left });
   }
   return out;

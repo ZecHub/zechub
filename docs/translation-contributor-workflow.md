@@ -161,10 +161,11 @@ Copy every number from the English as digits: dates, times, block heights, amoun
 `scripts/check-numbers.mjs` compares each changed translation with its English page, on prose only (code, URLs, link targets, HTML attributes, image paths and protected names are ignored):
 
 - **Digit tokens (blocking):** a word mixing digits and three or more letters that the English does not have, such as `202kan`, `ZIP 2emma`, `2Atuo` for `2Miners`, or a transaction hash with one character changed.
-- **Numbers (blocking):** a number that disappeared from the page or appeared from nowhere. Separators, digit scripts, month names (`August` = 8), 12-hour times (`11:59 PM` = `23:59`), ordinals (`3rd`), spelled-out English numbers (`twenty five million`) and Chinese, Japanese, Korean and Hindi magnitudes (`2100万` = 21 million) are understood.
+- **Versions (blocking):** a version such as `1.2.3`, `v0.15.2` or `version 2.1` must appear unchanged (a leading `v` may come or go), and the translation must not add one. `1.2.3` -> `1.2.4` fails even though every digit is small. Dotted dates (`24.08.2026`) and thousands groups (`1.000.000`) are not versions.
+- **Numbers (blocking):** a number that disappeared from the page or appeared from nowhere. Separators, digit scripts, month names (`August` = 8), clock times in any common form (`19:00` = `7 PM` = `午後7時` = `오후 7시` = `19 h 00` = `pukul 19.00`; a wrong conversion such as `9 PM` still fails), ordinals (`3rd`), spelled-out English numbers (`twenty five million`) and Chinese, Japanese, Korean and Hindi magnitudes (`2100万` = 21 million) are understood.
 - **Advisory only:** numbers from 0 to 10 (often a word in good prose), and a number that is still on the page but appears a different number of times. In Igbo a missing number is advisory as well, because Google Translate spells Igbo numbers out and every value checked was right; Yoruba stays blocking because a third of its spelled-out numbers were wrong.
 
-With `--base` only the translations your change touches are checked, and a finding that page already had at the base is a notice. Run it bare for a whole-tree sweep; on `main` that reports existing damage, mostly in the Google-translated locales.
+With `--base` only the translations your change touches are checked, and a finding that page already had at the base, in the same place (matched by the surrounding text, not the line number), is a notice. Moving a bad token from one paragraph to another counts as new. Run it bare for a whole-tree sweep; on `main` that reports existing damage, mostly in the Google-translated locales.
 
 ## Adding a new language
 
