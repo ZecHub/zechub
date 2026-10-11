@@ -14,7 +14,7 @@ Gli script si trovano in [`site/tutorials/shieldedNewsletter`](https://github.co
 
 - Zebra completamente sincronizzato, con RPC associato a localhost.
 - Zaino sincronizzato con quel nodo Zebra.
-- Zallet `v0.1.0-beta.3` o successivo, build wallet, con il relativo RPC associato a localhost. Il libro indica `z_sendmany` come implementato. Una commissione numerica viene rifiutata: se passi `fee`, deve essere `null`, perché Zallet usa sempre la commissione 317 di ZIP.
+- Zallet `v0.1.0-beta.3` o successivo, build wallet, con il relativo RPC associato a localhost. Il libro indica `z_sendmany` come implementato. Una commissione numerica viene rifiutata: se passi `fee`, deve essere `null`, perché Zallet usa sempre la commissione ZIP 317.
 - Un account finanziato il cui Unified Address possa spendere fondi schermati.
 - Unified Addresses dei destinatari. Un memo su un indirizzo trasparente è un errore.
 
@@ -22,7 +22,7 @@ Non inserire un indirizzo finanziato o un cookie nella wiki né in uno script so
 
 ## Configurare Zallet
 
-Genera una configurazione con l'Zallet in esecuzione, quindi indirizzala a Zebra e Zaino. L'esempio nel vecchio tutorial usa `as_of_version = "0.0.0"` e un percorso home personale. Considera quel file come un'istantanea, non come un modello.
+Genera una configurazione con Zallet in esecuzione, quindi indirizzala a Zebra e Zaino. L'esempio nel vecchio tutorial usa `as_of_version = "0.0.0"` e un percorso home personale. Considera quel file come un'istantanea, non come un modello.
 
 ```bash
 zallet init
@@ -63,11 +63,11 @@ Il criterio di privacy predefinito è `FullPrivacy`. È l'impostazione predefini
 Questi sono presenti nell'albero all'8 ottobre 2026. Non eseguire `shieldNewsletter.sh` finché non vengono corretti.
 
 - In `[[ bytesInFile -lt 512 ]]` manca `$`. Il ramo del memo singolo non viene mai eseguito.
-- Il ciclo dei frammenti memorizza esadecimale, poi `hex2ascii` lo decodifica, quindi `txBuilderFromFile.sh` lo codifica nuovamente. L'ultimo frammento non viene scaricato, a meno che una riga successiva non superi 512. Una riga lunga non viene suddivisa. Viene inviata interamente e può superare il memo di 512 byte.
+- Il ciclo dei frammenti memorizza esadecimale, poi `hex2ascii` lo decodifica, quindi `txBuilderFromFile.sh` lo codifica nuovamente. L'ultimo frammento non viene scaricato, a meno che una riga successiva non superi 512. Una riga lunga non viene suddivisa. Viene inviata interamente e può superare il limite di 512 byte del memo.
 - `txBuilderFromFile.sh` chiama `./zallet rpc` senza un percorso di configurazione e si aspetta il binario nella directory corrente. Usa `zallet -c <config> rpc`.
 - `toCurl.sh` comunica con Zebra sulla porta 8232 con un cookie e chiama `getinfo` e `sendmany`. Zallet non fornisce `sendmany`. Anche il ciclo di attesa per il mining usa `[[ chainHeight -gt temp ]]` senza `$`, quindi non attende.
 - `z_gettotalbalance 0 true` viene passato come argomenti posizionali aggiuntivi. Controlla `rpc help z_gettotalbalance` sul binario in uso prima di utilizzare quella chiamata.
-- Ogni frammento invia `0.0001` ZEC a ogni destinatario. La commissione 317 di ZIP si aggiunge a ciò. Una nota lunga destinata a molti indirizzi spende più degli importi dust.
+- Ogni frammento invia `0.0001` ZEC a ogni destinatario. La commissione ZIP 317 si aggiunge a ciò. Una nota lunga destinata a molti indirizzi spende più degli importi dust.
 
 ## Dopo una correzione
 

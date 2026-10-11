@@ -1757,7 +1757,7 @@
       "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     }
   },
@@ -3527,7 +3527,7 @@
       "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -7059,7 +7059,7 @@
       "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     }
   },
@@ -17671,7 +17671,7 @@
       "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -24743,7 +24743,7 @@
       "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Newsletter.md": {

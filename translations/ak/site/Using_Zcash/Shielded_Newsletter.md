@@ -54,7 +54,7 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
   "[{\"address\":\"$TO_UA\",\"amount\":0.0001,\"memo\":\"$MEMO_HEX\"}]"
 ```
 
-Memo field no yɛ raw hex, 512 bytes a ɛboro so. `ascii2hex` encodes ASCII nkutoo. Nkyerɛwde a ɛwɔ nkyerɛwde biara a ɛnyɛ ASCII di nkogu. `xxd` or `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` di UTF-8 ho dwuma.
+Memo field no yɛ raw hex, 512 bytes a ɛboro so. `ascii2hex` yɛ ASCII nkutoo ho adwuma. Nkyerɛwde a ɛwɔ nkyerɛwde biara a ɛnyɛ ASCII di nkogu. `xxd` anaa `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` di UTF-8 ho dwuma.
 
 Kokoam nsɛm ho nhyehyɛe defaults to `FullPrivacy`. Ɛno ne default a ɛfata ma shielded recipient. Mma ntwam `AllowFullyTransparent`.
 

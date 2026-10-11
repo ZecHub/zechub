@@ -43,7 +43,7 @@ u1...
 
 ## Zipu otu ozi ederede
 
-`z_sendmany` ọ bụ ihe na-adịghị agbanwe agbanwe. Ọ na-eweghachi njirimara ọrụ. Ntụle `z_getoperationstatus` ruo mgbe ọnọdụ ahụ dị `success` ma ọ bụ njehie. Ụra nke sekọnd ise edobere, nke bụ ihe edemede ahụ na-eme, na-efunahụ nsonaazụ ya mgbe nrụpụta ahụ were ogologo oge. `z_getoperationresult` na-eri ọrụ ahụ, yabụ akpọla ya ruo mgbe ọnọdụ ahụ ga-abụ njedebe.
+`z_sendmany` ọ bụ ihe na-adịghị agbanwe agbanwe. Ọ na-eweghachi njirimara ọrụ. Ntụle `z_getoperationstatus` ruo mgbe ọnọdụ ahụ dị `success` ma ọ bụ njehie. Ụra nke sekọnd 5 edobere, nke bụ ihe edemede ahụ na-eme, na-efunahụ nsonaazụ ya mgbe nrụpụta ahụ were ogologo oge. `z_getoperationresult` na-eri ọrụ ahụ, yabụ akpọla ya ruo mgbe ọnọdụ ahụ ga-abụ njedebe.
 
 A naghị akwụ ụgwọ. Zallet na-agbakọ ZIP 317. Agafela nọmba.
 
@@ -54,7 +54,7 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
   "[{\"address\":\"$TO_UA\",\"amount\":0.0001,\"memo\":\"$MEMO_HEX\"}]"
 ```
 
-Ebe ndetu ahụ bụ hex nkịtị, oke kachasị bụ 512 bytes. `ascii2hex` na-agbanwe naanị ASCII. Ndetu nwere mkpụrụedemede na-abụghị ASCII agaghị arụ ọrụ nke ọma. `xxd` or `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` na-eji UTF-8 arụ ọrụ.
+Ebe ndetu ahụ bụ hex nkịtị, oke kachasị bụ 512 bytes. `ascii2hex` na-agbanwe naanị ASCII. Ndetu nwere mkpụrụedemede na-abụghị ASCII agaghị arụ ọrụ nke ọma. `xxd` ma ọ bụ `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` na-eji UTF-8 arụ ọrụ.
 
 Iwu nzuzo na-adabere na `FullPrivacy`. Nke ahụ bụ ndabara ziri ezi maka onye nnata echekwara. Agafeela `AllowFullyTransparent`.
 

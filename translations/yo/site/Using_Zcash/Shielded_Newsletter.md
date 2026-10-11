@@ -8,7 +8,7 @@
 
 Ìwé ìròyìn ààbò jẹ́ àwọn ìṣòwò ààbò. Ìjáde kọ̀ọ̀kan san owó díẹ̀ sí olùgbà kan tí a pè Unified Address, ó sì ní apá kejì nínú àkọsílẹ̀ náà nínú pápá àkọsílẹ̀. Zallet ń kọ́ àwọn ìṣòwò wọ̀nyẹn, ó sì ń fi wọ́n ránṣẹ́. Zebra àti Zaino nìkan ló ń pèsè ìwífún nípa pọ́ọ̀ntì.
 
-Àwọn ìwé àkọsílẹ̀ náà ń gbé nínú [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter). Wọ́n kọ wọ́n fún Zallet àkọ́kọ́, wọn kò sì lè ṣiṣẹ́ bí ó ti rí ní ìtújáde lọ́wọ́lọ́wọ́. Ojú ìwé yìí ni ìlànà tí a ti ṣe àtúnṣe sí. A ṣàyẹ̀wò rẹ̀ sí Zallet `v0.1.0-beta.3` àti ìwé Zallet gẹ́gẹ́ bí ọjọ́ keje oṣù kẹwàá ọdún 2026.
+Àwọn ìwé àkọsílẹ̀ náà ń gbé nínú [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter). Wọ́n kọ wọ́n fún Zallet àkọ́kọ́, wọn kò sì lè ṣiṣẹ́ bí ó ti rí ní ìtújáde lọ́wọ́lọ́wọ́. Ojú ìwé yìí ni ìlànà tí a ti ṣe àtúnṣe sí. A ṣàyẹ̀wò rẹ̀ sí Zallet `v0.1.0-beta.3` àti ìwé Zallet gẹ́gẹ́ bí 7/10/2026.
 
 ## Ohun tí o nílò
 
@@ -43,7 +43,7 @@ u1...
 
 ## Fi akọsilẹ kan ranṣẹ
 
-`z_sendmany` jẹ́ àìsíṣọ̀kan. Ó dá ìdánimọ̀ iṣẹ́ padà. Ìdìbò `z_getoperationstatus` titi ipo naa yoo fi de `success` tàbí àṣìṣe kan. Orun ìṣẹ́jú-àáyá márùn-ún tí a ti ṣètò, èyí tí ìwé àkọsílẹ̀ náà ń ṣe, yóò pàdánù àbájáde náà nígbà tí ìkọ́lé náà bá gba àkókò púpọ̀ sí i. `z_getoperationresult` Ó ń lo iṣẹ́ náà, nítorí náà má ṣe pè é títí tí ipò náà yóò fi di òpin.
+`z_sendmany` jẹ́ àìsíṣọ̀kan. Ó dá ìdánimọ̀ iṣẹ́ padà. Máa ṣàyẹ̀wò `z_getoperationstatus` léraléra titi ipo naa yoo fi de `success` tàbí àṣìṣe kan. Orun ìṣẹ́jú-àáyá 5 tí a ti ṣètò, èyí tí ìwé àkọsílẹ̀ náà ń ṣe, yóò pàdánù àbájáde náà nígbà tí ìkọ́lé náà bá gba àkókò púpọ̀ sí i. `z_getoperationresult` Ó ń lo iṣẹ́ náà, nítorí náà má ṣe pè é títí tí ipò náà yóò fi di òpin.
 
 A ti yọ owo kuro. Zallet n ṣe iṣiro ZIP 317. Maṣe kọja nọmba kan.
 
@@ -54,7 +54,7 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
   "[{\"address\":\"$TO_UA\",\"amount\":0.0001,\"memo\":\"$MEMO_HEX\"}]"
 ```
 
-Ààyè àkọsílẹ̀ náà jẹ́ hex tí a kò lè rí, ó pọ̀jù 512 baiti. `ascii2hex` Àkójọpọ̀ ASCII nìkan ni ó ń ṣàkójọ. Àkọsílẹ̀ tí ó ní èyíkéyìí ohun kikọ tí kìí ṣe ASCII kò ní ṣiṣẹ́. `xxd` or `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` mu UTF-8.
+Ààyè àkọsílẹ̀ náà jẹ́ raw hex, ó pọ̀jù 512 baiti. `ascii2hex` Àkójọpọ̀ ASCII nìkan ni ó ń ṣàkójọ. Àkọsílẹ̀ tí ó ní èyíkéyìí ohun kikọ tí kìí ṣe ASCII kò ní ṣiṣẹ́. `xxd` tàbí `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` mu UTF-8.
 
 Ètò ìpamọ́ jẹ́ àìṣedéédé sí `FullPrivacy`. Iyẹn ni aiyipada ti o tọ fun olugba ti a daabobo. Maṣe kọja `AllowFullyTransparent`.
 
@@ -76,7 +76,7 @@ Olùsáré tí a ti ṣe àtúnṣe gbọ́dọ̀:
 1. Ka àkọsílẹ̀ náà gẹ́gẹ́ bí baiti kí o sì pín sí orí ààlà baiti 512, kìí ṣe lórí àwọn ìlà.
 2. Hex-encode gbogbo apakan lẹẹkan.
 3. Pe `zallet -c <config> rpc z_sendmany` pẹ̀lú UA tí a fi owó fún, àkójọ àwọn olùgbà, àti àríyànjiyàn láìsí owó.
-4. Ìdìbò dìbò `z_getoperationstatus` fún ìdámọ̀ iṣẹ́ náà.
+4. Máa ṣàyẹ̀wò `z_getoperationstatus` léraléra fún ìdámọ̀ iṣẹ́ náà.
 5. Ṣe igbasilẹ txid nikan lẹhin `success`.
 
 Ojú ìwé ẹ̀kọ́ àtijọ́ náà ṣì wà ní [Àwọn ìwé ìròyìn tí a dáàbò bo](/tutorials/shieldednewsletter/readme). Lo oju-iwe yii fun ilana naa.

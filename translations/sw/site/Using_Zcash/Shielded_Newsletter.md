@@ -54,7 +54,7 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
   "[{\"address\":\"$TO_UA\",\"amount\":0.0001,\"memo\":\"$MEMO_HEX\"}]"
 ```
 
-Sehemu ya memo ni heksaidi ghafi, upeo wa baiti 512. `ascii2hex` husimba ASCII pekee. Dokezo lenye herufi yoyote isiyo ya ASCII hushindwa. `xxd` or `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` Hushughulikia UTF-8.
+Sehemu ya memo ni heksaidi ghafi, upeo wa baiti 512. `ascii2hex` husimba ASCII pekee. Dokezo lenye herufi yoyote isiyo ya ASCII hushindwa. `xxd` au `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` Hushughulikia UTF-8.
 
 Sera ya faragha chaguomsingi ni `FullPrivacy`. Hiyo ndiyo chaguo-msingi sahihi kwa mpokeaji aliyelindwa. Usipite `AllowFullyTransparent`.
 
