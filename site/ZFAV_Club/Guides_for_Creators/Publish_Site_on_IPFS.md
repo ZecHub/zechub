@@ -22,13 +22,13 @@ When a user adds a file to IPFS, the file is broken up into small pieces called 
 
 This ensures redundancy and fault-tolerance while also making it difficult for any one node to become a single point of failure or control.
 
-**Read: [An Introduction to IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
+**Read: [An Introduction to IPFS](https://web.archive.org/web/20230206195124/https://blog.infura.io/post/an-introduction-to-ipfs)**
 
 ## Creating your Site
 
 For this example we are creating a simple website.
 
-[Example Site](https://squirrel.surf/)
+[Example Site](https://www.squirrel.surf/)
 
 **Step 1:** If you are unfamiliar with web design write the main content for your website including Title, Main Body of text, with links to other pages/site & footers.
 
