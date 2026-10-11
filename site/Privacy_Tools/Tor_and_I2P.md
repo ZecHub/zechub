@@ -39,7 +39,7 @@ Both Tor and I2P are decentralized and anonymous peer-to-peer networks, but I2P 
 
 Orbot is a no-cost virtual private network (VPN) designed for smartphones that directs traffic from all applications on your device through the Tor network.
 
-Follow these instructions to route a Zcash wallet through Tor. Note that Ywallet, which earlier versions of this guide used, is no longer maintained and will not follow the network after Ironwood, so pick a maintained wallet from the [Wallets](/using-zcash/wallets) page.
+Follow these instructions to route a Zcash wallet through Tor. Note that YWallet, which earlier versions of this guide used, is no longer maintained and will not follow the network after Ironwood, so pick a maintained wallet from the [Wallets](/using-zcash/wallets) page.
 
 1.  Download and install *Orbot* from the app store.
 
@@ -56,13 +56,13 @@ Follow these instructions to route a Zcash wallet through Tor. Note that Ywallet
 
 ## Installing Tor on PC or desktop
 
-* Tor browser can be downloaded from the official website, you can access the link [here](https://www.torproject.org/download/).
+* Tor browser can be downloaded from the official website, you can access the link [here](https://download.torproject.org/).
 
  The most convenient way for installing Tor is through the Tor Browser Bundle. If you prefer headless installations, you may opt to install the Tor daemon separately. 
 
 *Note: By default, the Tor Browser bundle exposes a SOCKS listener on tcp/9150 and the Tor daemon exposes the SOCKS listener on tcp/9050.*
 
-* Refer to the installation [instructions](https://support.torproject.org/apt/) specific to your operating system as provided by the Tor Project.
+* Refer to the installation [instructions](https://support.torproject.org/little-t-tor/getting-started/installing/) specific to your operating system as provided by the Tor Project.
 
 ## Running a node over Tor
 
