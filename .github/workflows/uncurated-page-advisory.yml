@@ -1,19 +1,24 @@
-name: Uncurated page advisory
+name: Curation check
 
-# Advisory ONLY. Comments on a PR that adds English pages which are not in the
-# translation curated set, so the translation backlog it creates is visible while
-# someone is still looking at the PR — instead of surfacing weeks later on the
-# dashboard, or not at all.
+# Every English page is either translated (translation/curated-pages.txt) or
+# English-only by decision (translation/english-only-pages.txt), and the PR that
+# adds, moves or deletes a page records which. This job tells the PR's author,
+# in one comment that updates itself, exactly what to change — and fails until
+# it is done.
 #
-# This deliberately does NOT fail the PR, and there is deliberately no rule that
-# every new page must be curated. Curation is an editorial commitment (ZecHub
-# then maintains that page in 18 languages, indefinitely) and it is not the
-# contributor's call. A blocking check would also be worse than useless: faced
-# with a red gate, the fix that makes CI pass is to add the line, which creates
-# 18 items of real work with nobody having decided the page deserves them. That
-# is how a backlog grows silently, which is the exact problem this is meant to
-# expose. `curated ⊆ site` is the invariant; `site ⊆ curated` is not, by design
-# (see translation/check-invariants.mjs).
+# Why the author, in the same PR: the alternative was a maintainer noticing
+# later, and nobody did. #2259 and #2297 deleted curated pages and left them in
+# curated-pages.txt; check-invariants failed on those PRs, they were merged
+# anyway, and every translation sync was blocked until a cleanup PR (#2263,
+# #2303). New pages sat uncurated, served in English, until someone remembered.
+#
+#   adds a page            -> add it to curated-pages.txt (the default), or to
+#                             english-only-pages.txt if it should stay English
+#   deletes or moves away  -> node translation/decurate.mjs <old path>, which
+#   a curated page            removes the line, the 18 translations and their
+#                             manifest entries
+#   either                 -> node translation/gen-menu-titles.mjs, so the
+#                             menu-titles manifests match (menu-titles-fresh)
 #
 # SECURITY — why pull_request_target, and why it is safe here:
 # Most PRs to this repo come from forks, and a plain `pull_request` trigger gets
@@ -23,7 +28,7 @@ name: Uncurated page advisory
 #   * checks out nothing from the PR (no `ref:` override, no PR checkout at all),
 #   * runs no build, no install, no script from the PR,
 #   * reads the PR only as DATA through the API — the file list, and the text of
-#     translation/curated-pages.txt at the head sha.
+#     the two curation lists at the head sha.
 # Do not add a checkout of the PR head or any step that runs PR-authored code.
 
 on:
@@ -32,6 +37,8 @@ on:
     branches: [main]
     paths:
       - "site/**/*.md"
+      - "translation/curated-pages.txt"
+      - "translation/english-only-pages.txt"
 
 permissions:
   contents: read
@@ -52,107 +59,82 @@ jobs:
             const pr = context.payload.pull_request;
             const { owner, repo } = context.repo;
 
-            // 1. Which English pages does this PR ADD? Renames and edits do not
-            //    create translation debt; only new pages do.
             const files = await github.paginate(github.rest.pulls.listFiles, {
               owner, repo, pull_number: pr.number, per_page: 100,
             });
-            // 'renamed' and 'copied' introduce a page at a NEW path just as much as
-            // 'added' does — a PR moving drafts/X.md to site/X.md creates exactly the
-            // same translation debt, and GitHub reports it as renamed, not added.
-            // Missing those meant the advisory stayed silent for the move case.
-            const added = files
-              .filter((f) => ['added', 'renamed', 'copied'].includes(f.status))
-              .map((f) => f.filename)
-              .filter((f) => f.startsWith('site/') && f.endsWith('.md'))
-              // zechubglobal/** is hand-maintained per-language content, not part
-              // of the curated English corpus — the detector excludes it too.
-              .filter((f) => !f.startsWith('site/zechubglobal/'))
-              .map((f) => f.slice('site/'.length));
+            // English pages only; zechubglobal/** is hand-maintained per-language
+            // content outside the curated corpus (the detector excludes it too).
+            const page = (f) => f && f.startsWith('site/') && f.endsWith('.md') && !f.startsWith('site/zechubglobal/');
+            const rel = (f) => f.slice('site/'.length);
+            // New paths: 'renamed' and 'copied' introduce a page just as 'added' does.
+            const added = files.filter((f) => ['added', 'renamed', 'copied'].includes(f.status) && page(f.filename)).map((f) => rel(f.filename));
+            // Old paths that no longer exist: deletions, and the source of a rename.
+            const gone = [
+              ...files.filter((f) => f.status === 'removed' && page(f.filename)).map((f) => rel(f.filename)),
+              ...files.filter((f) => f.status === 'renamed' && page(f.previous_filename)).map((f) => rel(f.previous_filename)),
+            ];
 
-            // NOTE: no early return here. A later push can drop the added pages while
-            // still touching site/**, and returning at this point left the earlier
-            // warning standing on a PR that no longer adds anything. Fall through so
-            // the withdraw-the-warning branch below runs.
-            if (added.length === 0) core.info('no newly added English pages');
+            // The lists AT THE PR HEAD — what the PR will leave behind — read as
+            // data. A list that cannot be read at head falls back to base.
+            const list = async (path) => {
+              const parse = (t) => new Set(t.split('\n').map((l) => l.replace(/#.*/, '').trim()).filter(Boolean));
+              // head.repo is null when the fork was deleted: read base only
+              const sources = [
+                ...(pr.head.repo ? [[pr.head.repo.owner.login, pr.head.repo.name, pr.head.sha]] : []),
+                [owner, repo, pr.base.sha],
+              ];
+              for (const [o, r, ref] of sources) {
+                try {
+                  const res = await github.rest.repos.getContent({ owner: o, repo: r, path, ref });
+                  return parse(Buffer.from(res.data.content, 'base64').toString('utf8'));
+                } catch (e) { core.info(`could not read ${path} at ${ref} (${e.status || e.message})`); }
+              }
+              return new Set();
+            };
+            const curated = await list('translation/curated-pages.txt');
+            const englishOnly = await list('translation/english-only-pages.txt');
 
-            // 2. Read the curated list AT THE PR HEAD, not at base: if the PR
-            //    already curates the pages it adds, there is nothing to say. This
-            //    is a data read, not code execution.
-            let curated = new Set();
-            if (added.length) try {
-              const res = await github.rest.repos.getContent({
-                owner: pr.head.repo.owner.login,
-                repo: pr.head.repo.name,
-                path: 'translation/curated-pages.txt',
-                ref: pr.head.sha,
-              });
-              const text = Buffer.from(res.data.content, 'base64').toString('utf8');
-              curated = new Set(text.split('\n').map((l) => l.trim()).filter(Boolean));
-            } catch (e) {
-              // Fall back to the base copy. Worst case we advise about a page the
-              // PR already curated, which is noise — never a failure.
-              core.info(`could not read curated-pages.txt at head (${e.status || e.message}); using base`);
-              const res = await github.rest.repos.getContent({
-                owner, repo, path: 'translation/curated-pages.txt', ref: pr.base.sha,
-              });
-              const text = Buffer.from(res.data.content, 'base64').toString('utf8');
-              curated = new Set(text.split('\n').map((l) => l.trim()).filter(Boolean));
-            }
+            const undecided = added.filter((p) => !curated.has(p) && !englishOnly.has(p)).sort();
+            // a deleted/moved page must leave BOTH lists
+            const stillCurated = gone.filter((p) => curated.has(p) || englishOnly.has(p)).sort();
 
-            const uncurated = added.filter((p) => !curated.has(p)).sort();
-
-            // 3. Upsert one comment, so a synchronize event edits rather than piles on.
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner, repo, issue_number: pr.number, per_page: 100,
             });
-            // Match on the marker AND on authorship. Marker-only matching let anyone
-            // pre-post a comment containing the marker and have this job try to edit
-            // it — at best the job fails instead of advising, at worst it rewrites
-            // someone else's comment.
+            // Match on the marker AND on authorship, so nobody can plant a comment
+            // with the marker and have this job edit it.
             const existing = comments.find((c) =>
               c.body && c.body.includes(marker) &&
               c.user && c.user.type === 'Bot' && c.user.login.startsWith('github-actions'));
 
-            if (uncurated.length === 0) {
-              // Everything added here is curated. If we advised earlier in this
-              // PR's life, say so rather than leaving a stale warning standing.
+            if (!undecided.length && !stillCurated.length) {
               if (existing) {
                 await github.rest.issues.updateComment({
                   owner, repo, comment_id: existing.id,
-                  body: `${marker}\n✅ All English pages added by this PR are in \`translation/curated-pages.txt\`. Nothing outstanding for translation.`,
+                  body: `${marker}\n✅ Translation lists are up to date for this PR — thank you.`,
                 });
               }
-              core.info('all added pages are curated');
+              core.info('nothing outstanding');
               return;
             }
 
-            // Backticks in a filename would close the code span and let the rest render
-            // as markdown (an @mention in a path would ping people). Strip them; these
+            // Backticks in a filename would close the code span and let the rest
+            // render as markdown (an @mention in a path would ping people). These
             // are attacker-controlled strings rendered into a comment.
             const safe = (t) => String(t).replace(/`/g, '');
-            const list = uncurated.map((p) => `- \`${safe(p)}\``).join('\n');
-            const body = [
-              marker,
-              '### 🌐 Translation: no action required from you',
-              '',
-              `This PR adds ${uncurated.length} English page(s) that are **not** in the translation curated set:`,
-              '',
-              list,
-              '',
-              'That is a perfectly valid state — the wiki serves English for uncurated pages, and not every page is meant to exist in 18 languages. **This comment does not block merging and nothing is wrong with your PR.**',
-              '',
-              '<details><summary>For maintainers: how to translate these</summary>',
-              '',
-              'Add the path(s) to `translation/curated-pages.txt`. Each page then appears as `missing` × 18 locales on the [staleness dashboard](../issues/1889), and the next translation sync fills it.',
-              '',
-              'Curating is a lasting commitment — ZecHub maintains that page in every locale from then on — so it is a deliberate editorial choice, which is why it is not automated and not enforced.',
-              '</details>',
-            ].join('\n');
+            const bullets = (ps) => ps.map((p) => `- \`${safe(p)}\``).join('\n');
+            const body = [marker, '### 🌐 Translation: one more change needed in this PR', ''];
+            if (undecided.length) body.push(
+              `**New page(s) not yet in a translation list** — add each line to \`translation/curated-pages.txt\` (it will be translated into all 18 languages), or to \`translation/english-only-pages.txt\` if it should stay English only:`,
+              '', bullets(undecided), '');
+            if (stillCurated.length) body.push(
+              '**Deleted or moved page(s) still in a translation list** — run this from the repository root and commit the result (it removes the list line, the 18 translations and their manifest entries; it does not touch the English):',
+              '', '```', `node translation/decurate.mjs ${stillCurated.map(safe).join(' ')}`, '```', '');
+            body.push(
+              'Then refresh the menu titles and commit them too:', '', '```', 'node translation/gen-menu-titles.mjs', '```', '',
+              'This check turns green by itself once the lists match the pages. Questions: see the translation section of `CONTRIBUTING.md`.');
+            const text = body.join('\n');
 
-            if (existing) {
-              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
-            } else {
-              await github.rest.issues.createComment({ owner, repo, issue_number: pr.number, body });
-            }
-            core.info(`advised on ${uncurated.length} uncurated page(s)`);
+            if (existing) await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body: text });
+            else await github.rest.issues.createComment({ owner, repo, issue_number: pr.number, body: text });
+            core.setFailed(`${undecided.length} new page(s) need a translation decision; ${stillCurated.length} deleted/moved page(s) are still curated`);
