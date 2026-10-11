@@ -131,7 +131,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Noir Wallet | A Zcash browser extension wallet supported by Zcash Community Grants, built to connect shielded ZEC directly to browser applications instead of relying on QR codes and manual transfers. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | The 6th Major Network Upgrade for Zcash, introducing the Orchard shielded pool and Unified Addresses. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | The 7th Major Network Upgrade for Zcash, adjusting the block subsidy to fund the Zcash Community Grants program and Shielded Labs. Activated in late 2024. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | The next major network upgrade after Ironwood. Candidate features include Project Tachyon's scaling work, Zcash Shielded Assets, and the Network Sustainability Mechanism. |
+| NU7 | The next network upgrade after Ironwood. [ZIP 259](https://zips.z.cash/zip-0259) lists what it deploys: 25-second blocks (ZIP 218), fee recycling through the Network Sustainability Mechanism (ZIPs 235 and 237), and the end of version 4 transactions (ZIP 2003). It adds no new transaction format, and Project Tachyon and Zcash Shielded Assets are not part of it. Mainnet activation is targeted for 5 November 2026, with the final decision and activation height due on 20 October 2026 ([forum announcement](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). |
 
 ## O
 
@@ -181,7 +181,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 
 | Term | Definition |
 |------|-----------|
-| Tachyon | Zcash's scaling programme, targeted at NU7. It moves wallets away from scanning every block toward proof-carrying wallet state, oblivious synchronization and prunable node state, aiming for shielded throughput in the thousands of transactions per second. [Project site](https://tachyon.z.cash/overview/) |
+| Tachyon | Zcash's scaling programme. It is not part of NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) and has no activation date. It moves wallets away from scanning every block toward proof-carrying wallet state, oblivious synchronization and prunable node state, aiming for shielded throughput in the thousands of transactions per second. [Project site](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (valueless test currency). |
 | Testnet | A separate blockchain for testing upgrades and features before mainnet. |
 | Trailing Finality Layer (TFL) | Research into adding a finality layer behind Zcash's proof-of-work chain so recent blocks can be finalized without replacing mining. Crosslink is the design that came out of it. |
@@ -241,7 +241,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | ZIP | Zcash Improvement Proposal - the community governance process used to propose and ratify protocol changes. [ZIP Repository](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab. The independent organization founded in early 2026 by Josh Swihart and the former Electric Coin Company engineering team after they resigned over a governance dispute with Bootstrap. It raised over $25 million in seed funding in March 2026 and maintains the ZODL wallet, which was renamed from Zashi in February 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — the cryptography powering Zcash shielded transactions. Allows proving a statement (e.g., valid spend) without revealing any secret information. |
-| ZSA (Zcash Shielded Assets) | User-issued tokens that inherit Zcash's shielded privacy, letting assets other than ZEC move privately on the network. Specified in [ZIP 226](https://zips.z.cash/zip-0226) and a candidate feature for NU7. |
+| ZSA (Zcash Shielded Assets) | User-issued tokens that inherit Zcash's shielded privacy, letting assets other than ZEC move privately on the network. Specified in [ZIP 226](https://zips.z.cash/zip-0226). It is not part of NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) and has no activation date. |
 
 ---
 
