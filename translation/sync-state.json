@@ -1751,6 +1751,14 @@
       "mode": "full",
       "tool": "gt-static",
       "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+handfix",
+      "edited": false
     }
   },
   "ar": {
@@ -3505,6 +3513,22 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
     }
   },
   "de": {
@@ -5255,6 +5279,22 @@
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
       "src": "sha256:8dc9e5c5ab4e39899ef3ad8c4b41002a4e07a9d4eb1c6da01d801adc23302b18",
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -7013,6 +7053,14 @@
       "mode": "full",
       "tool": "gt-static",
       "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+handfix",
+      "edited": false
     }
   },
   "es": {
@@ -8763,6 +8811,22 @@
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
       "src": "sha256:8dc9e5c5ab4e39899ef3ad8c4b41002a4e07a9d4eb1c6da01d801adc23302b18",
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -10521,6 +10585,22 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "hi": {
@@ -12271,6 +12351,22 @@
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "df74a7b7d389d157be3d3ad2b61c84a4cfa9c12f",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -14029,6 +14125,22 @@
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b",
       "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "600c9c1031addd6adde7907a088cd4487324cb71",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b+handfix",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "600c9c1031addd6adde7907a088cd4487324cb71",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
+      "edited": false
     }
   },
   "ig": {
@@ -15782,6 +15894,14 @@
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+handfix",
       "edited": false
     }
   },
@@ -17537,6 +17657,22 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
     }
   },
   "ja": {
@@ -19287,6 +19423,22 @@
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
       "src": "sha256:8dc9e5c5ab4e39899ef3ad8c4b41002a4e07a9d4eb1c6da01d801adc23302b18",
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -21045,6 +21197,22 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "d988ed807038bc0fc98b2e52a82ead759eb8097c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "pt": {
@@ -22795,6 +22963,22 @@
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
       "src": "sha256:8dc9e5c5ab4e39899ef3ad8c4b41002a4e07a9d4eb1c6da01d801adc23302b18",
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -24553,6 +24737,22 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "sw": {
@@ -26307,6 +26507,14 @@
       "mode": "full",
       "tool": "gt-static",
       "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+handfix",
+      "edited": false
     }
   },
   "tr": {
@@ -28057,6 +28265,22 @@
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
       "src": "sha256:8dc9e5c5ab4e39899ef3ad8c4b41002a4e07a9d4eb1c6da01d801adc23302b18",
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -29815,6 +30039,22 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "yo": {
@@ -31569,6 +31809,14 @@
       "mode": "full",
       "tool": "gt-static",
       "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+handfix",
+      "edited": false
     }
   },
   "zh": {
@@ -33319,6 +33567,22 @@
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
       "src": "sha256:8dc9e5c5ab4e39899ef3ad8c4b41002a4e07a9d4eb1c6da01d801adc23302b18",
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Mining_and_Staking_Privacy.md": {
+      "src": "sha256:5ac6c64a5a0f3d96a1d91d4af6121608cfce58b7e2fa1e257faa4c31f7835f7d",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Newsletter.md": {
+      "src": "sha256:8cede881df9c8f731e8913271da683801b010463f767831015fbe2d5dc6d91f9",
+      "src_commit": "177c52e7cfc7f7bcf8fe1a99cdc72995a2e85bf2",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
