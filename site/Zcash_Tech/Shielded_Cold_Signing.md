@@ -1,5 +1,7 @@
 # Shielded Cold Signing
 
+> **Key idea:** The companion wallet sees everything needed to build and monitor a shielded transaction. The hardware wallet alone holds the authority to authorize a spend. That split is the entire point of shielded cold signing.
+
 Shielding in Zcash involves moving funds from a public, transparent address into a private, shielded one, hiding transaction details using Zcash's privacy features.
 
 ### What changes when you shield ZEC?
@@ -79,7 +81,11 @@ This functional separation forms the foundation of cold signing workflows. All c
 
 ### The critical distinction: UFVK vs. spending key
 
-As stated earlier, the separation of keys is the foundation of the cold signing architecture. **The UFVK can be shared with the companion wallet**, while the **spending key must remain protected on the hardware wallet**. The companion wallet uses the viewing key to monitor the wallet, detect incoming funds, identify notes, and help prepare transactions. However, it does not have the private key needed to authorize spending.
+> **The UFVK can be shared. The spending key must stay on the hardware wallet.**
+>
+> The companion wallet uses the viewing key to monitor the wallet, detect incoming funds, identify notes, and help prepare transactions. It does not have the private key needed to authorize spending.
+
+As stated earlier, the separation of keys is the foundation of the cold signing architecture.
 
 The companion wallet can do most of the work needed to prepare a transaction without ever having control over the funds. The hardware wallet only needs to receive the prepared transaction and perform the final signing operation.
 
@@ -197,6 +203,8 @@ It would be impractical for the hardware wallet to perform every computational o
 
 ## Key Isolation
 
+> Key isolation means the private keys that can authorize a spend never leave the hardware wallet. The companion can prepare the transaction; it cannot sign it.
+
 Key isolation refers to keeping the private keys required to authorize a transaction separate from the companion wallet and the device on which it runs. In a shielded cold signing setup, the companion wallet can construct the transaction and coordinate the required proofs, while the hardware wallet keeps the sensitive private spending keys isolated.
 
 If the companion computer or phone is compromised, an attacker may be able to interact with the transaction before it is signed, but ideally cannot extract the private key from the hardware wallet. The key therefore remains within the security boundary of the hardware device.
@@ -296,6 +304,15 @@ https://forum.zcashcommunity.com/t/pczt-interoperability-test-suite-feedback-bef
 | 7 | Spend Finalizer & Extractor | Validates all required cryptographic elements, strips intermediate context metadata, and produces the finalized Zcash transaction ready for network broadcast. |
 
 ## Real World Hardware Wallet Implementations
+
+### At a glance
+
+| Device   | What the companion receives              | What stays on the device          | Transport      |
+|----------|------------------------------------------|-----------------------------------|----------------|
+| Ledger   | UFVK / Orchard FVK, addresses            | Spending authority                | USB / BLE      |
+| Keystone | UFVK + Unified Address                   | Seed / spending keys              | QR (air-gapped)|
+| Hito     | UFVK, Unified Address, seed fingerprint  | Seed and private spending keys    | QR / local     |
+
 
 Several hardware wallet implementations have been developed to explore how Zcash shielded transactions can be supported while keeping sensitive spending keys isolated from the companion wallet. Ledger, Keystone, and Hito represent different approaches to integrating hardware based key protection with the Zcash transaction workflow.
 
