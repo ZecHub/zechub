@@ -719,23 +719,46 @@ export function compare(enText, trText, { locale = "", protectedTerms = [] } = {
 // resync rewords the sentence, and matching it by its line would block it
 // again on every resync. It stays new when it got worse: more of it than at
 // the base, or blocking now where the base only warned (a changed digit).
+//
+// When part of a finding is subtracted, its `lines` must name only the
+// occurrences left over, or a report points at the inherited one. A token's
+// contexts run parallel to its lines, so the unmatched contexts give the new
+// lines. Otherwise the base lines are subtracted from the head lines by line
+// number; when that does not leave exactly `count` lines, the new occurrences
+// cannot be told apart: `lines` is emptied and `lineUnknown` set.
 export function introduced(head, base) {
   const prev = new Map(base.map((f) => [`${f.kind}\0${f.value}`, f]));
   const out = [];
   for (const f of head) {
     const b = prev.get(`${f.kind}\0${f.value}`);
     let inherited = b?.count ?? 0;
+    let residual = null;
     if (b && f.kind.startsWith("number-")) {
       if (f.severity === "error" && b.severity !== "error") inherited = 0;
     } else if (b && f.contexts && b.contexts) {
       const pool = new Map();
       for (const c of b.contexts) pool.set(c, (pool.get(c) ?? 0) + 1);
       let same = 0;
-      for (const c of f.contexts) if (pool.get(c) > 0) { pool.set(c, pool.get(c) - 1); same++; }
+      const unmatched = [];
+      f.contexts.forEach((c, k) => {
+        if (pool.get(c) > 0) { pool.set(c, pool.get(c) - 1); same++; } else unmatched.push(k);
+      });
       inherited = Math.min(inherited, same);
+      if (Array.isArray(f.lines) && f.lines.length === f.contexts.length && inherited === same)
+        residual = unmatched.map((k) => f.lines[k]);
     }
     const left = f.count - inherited;
-    if (left > 0) out.push({ ...f, count: left });
+    if (left <= 0) continue;
+    if (inherited === 0 || !Array.isArray(f.lines)) { out.push({ ...f, count: left }); continue; }
+    if (!residual) {
+      const pool = new Map();
+      for (const l of b.lines ?? []) pool.set(l, (pool.get(l) ?? 0) + 1);
+      residual = [];
+      for (const l of f.lines) if (pool.get(l) > 0) pool.set(l, pool.get(l) - 1); else residual.push(l);
+    }
+    out.push(residual.length === left
+      ? { ...f, count: left, lines: residual }
+      : { ...f, count: left, lines: [], lineUnknown: true });
   }
   return out;
 }
