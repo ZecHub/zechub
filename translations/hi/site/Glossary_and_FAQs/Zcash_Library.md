@@ -35,7 +35,7 @@ Zcash से संबंधित प्रमुख शब्दों, अव
 | Community | [आधिकारिक Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | एक प्रस्तावित hybrid consensus design, जो proof-of-work block production को बनाए रखता है और उसके ऊपर proof-of-stake finality layer जोड़ता है, ताकि mining को छोड़े बिना blocks को अधिक मजबूत finality मिल सके। यह Trailing Finality Layer research से विकसित हुआ है और 2026 तक अभी भी testnet development में है, जिसे Shielded Labs द्वारा बनाया जा रहा है। |
 | CrossPay | ZODL wallet में एक feature, जो आपको shielded ZEC खर्च करने देता है, जबकि प्राप्तकर्ता को उनकी पसंद के asset और chain में भुगतान मिलता है, जिसे centralized exchange के बजाय NEAR Intents के माध्यम से route किया जाता है। |
-| Cypherpunk Zero | ECC, illustrator Stranger Wolf, Mighty Jaxx और चुनिंदा ecosystem partners के बीच एक Creative Universe और collaborative effort। [Cypherpunk Zero साइट](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea कलेक्शन](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | ECC, illustrator Stranger Wolf, Mighty Jaxx और चुनिंदा ecosystem partners के बीच एक Creative Universe और collaborative effort। [OpenSea कलेक्शन](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

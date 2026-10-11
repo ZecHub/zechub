@@ -35,7 +35,7 @@
 | Community | [Официальный форум сообщества Zcash](https://forum.zcashcommunity.com) / [Zcash Сообщество Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Предлагаемая гибридная схема консенсуса, которая сохраняет создание блоков с доказательством работы и добавляет поверх него слой финализации с доказательством доли, благодаря чему блоки получают более сильную финальность без отказа от майнинга. Она выросла из исследований Trailing Finality Layer и разрабатывается Shielded Labs; по состоянию на 2026 год всё ещё находится на стадии разработки в тестовой сети. |
 | CrossPay | Функция в кошельке ZODL, которая позволяет тратить экранированные ZEC, в то время как получатель получает выплату в предпочитаемых им активе и сети; маршрутизация выполняется через NEAR Intents, а не через централизованную биржу. |
-| Cypherpunk Zero | Творческая вселенная и совместный проект между ECC, иллюстратором Stranger Wolf, Mighty Jaxx и отдельными партнёрами экосистемы. [Сайт Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Коллекция OpenSea](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Творческая вселенная и совместный проект между ECC, иллюстратором Stranger Wolf, Mighty Jaxx и отдельными партнёрами экосистемы. [Коллекция OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

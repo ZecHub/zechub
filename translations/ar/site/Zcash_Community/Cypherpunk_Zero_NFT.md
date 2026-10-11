@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero هي سلسلة قصصية تتمحور حول Zero، وهي هاكرة cypherpunk شابة ومقاتلة من أجل الحرية. تعيش Zero حاليًا في كابوس ديستوبي، وتستخدم البرمجة لمقاومة حرّاس البوابات المركزيين الذين يكبّلون المجتمع. استُلهمت القصة من Zcash وتشفير Halo. هذا العمل الإبداعي هو جهد تعاوني بين ECC وStranger World وMight Jaxx ومجموعة مختارة من شركاء المنظومة. وقد ركّز العمل الإبداعي بصورة بارزة على [سلسلة NFT](https://opensea.io/collection/cypherpunk-zero)، كما تم أيضًا إصدار [قصص مصوّرة تمهيدية](https://halo.electriccoin.co/#view-prologue) و[لعبة مقتناة](https://mightyjaxx.com/products/cypherpunk-zero). كما أن مجتمع NFT، النشط في معظمه على Twitter، أنشأ حتى [منظمة لامركزية (DAO)](https://twitter.com/CypherpunkDAO) لتنظيم وإنجاز مشاريع تدعم الحملة، ومجتمع Zcash الأوسع.
+Cypherpunk Zero هي سلسلة قصصية تتمحور حول Zero، وهي هاكرة cypherpunk شابة ومقاتلة من أجل الحرية. تعيش Zero حاليًا في كابوس ديستوبي، وتستخدم البرمجة لمقاومة حرّاس البوابات المركزيين الذين يكبّلون المجتمع. استُلهمت القصة من Zcash وتشفير Halo. هذا العمل الإبداعي هو جهد تعاوني بين ECC وStranger World وMight Jaxx ومجموعة مختارة من شركاء المنظومة. وقد ركّز العمل الإبداعي بصورة بارزة على [سلسلة NFT](https://opensea.io/collection/cypherpunk-zero)، و[لعبة مقتناة](https://mightyjaxx.com/products/cypherpunk-zero). كما أن مجتمع NFT، النشط في معظمه على Twitter، أنشأ حتى [منظمة لامركزية (DAO)](https://twitter.com/CypherpunkDAO) لتنظيم وإنجاز مشاريع تدعم الحملة، ومجتمع Zcash الأوسع.
 
 ## خارطة طريق مضادة لخارطة الطريق
 
@@ -55,11 +55,9 @@ Cypherpunk Zero هي سلسلة قصصية تتمحور حول Zero، وهي ه�
 
 ## الموارد
 
-[موقع Cypherpunk Zero](https://halo.electriccoin.co/)
-
 [حساب Cypherpunk Zero على Twitter](https://twitter.com/cypherpunkZero)
 
-[مجموعة Cypherpunk Zero على Opensea](https://opensea.io/collection/cypherpunk-zero)
+[مجموعة Cypherpunk Zero على OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 [حساب Cypherpunk Zero DAO على Twitter](https://twitter.com/CypherpunkDAO)
 

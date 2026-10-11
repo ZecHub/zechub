@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero — это серия повествований, сосредоточенная вокруг Zero, молодой хакерши-шифропанка и борца за свободу. Сейчас Zero живёт в условиях антиутопического кошмара и использует код, чтобы бороться против централизованных привратников, сковывающих общество. История была вдохновлена Zcash и криптографией Halo. Этот творческий проект является результатом совместной работы ECC, Stranger World, Might Jaxx и отдельных партнёров экосистемы. Наиболее заметно этот проект был сосредоточен на [серии NFT](https://opensea.io/collection/cypherpunk-zero), но также были выпущены [пролог-комикс](https://halo.electriccoin.co/#view-prologue) и [коллекционная игрушка](https://mightyjaxx.com/products/cypherpunk-zero). NFT-сообщество, в основном активное в Twitter, даже создало [децентрализованную организацию (DAO)](https://twitter.com/CypherpunkDAO), чтобы организовывать и реализовывать проекты в поддержку кампании и более широкого сообщества Zcash.
+Cypherpunk Zero — это серия повествований, сосредоточенная вокруг Zero, молодой хакерши-шифропанка и борца за свободу. Сейчас Zero живёт в условиях антиутопического кошмара и использует код, чтобы бороться против централизованных привратников, сковывающих общество. История была вдохновлена Zcash и криптографией Halo. Этот творческий проект является результатом совместной работы ECC, Stranger World, Might Jaxx и отдельных партнёров экосистемы. Наиболее заметно этот проект был сосредоточен на [серии NFT](https://opensea.io/collection/cypherpunk-zero), и [коллекционная игрушка](https://mightyjaxx.com/products/cypherpunk-zero). NFT-сообщество, в основном активное в Twitter, даже создало [децентрализованную организацию (DAO)](https://twitter.com/CypherpunkDAO), чтобы организовывать и реализовывать проекты в поддержку кампании и более широкого сообщества Zcash.
 
 ## Anti-roadmap Roadmap
 
@@ -55,11 +55,9 @@ Cypherpunk Zero — это серия повествований, сосредо
 
 ## Ресурсы
 
-[Сайт Cypherpunk Zero](https://halo.electriccoin.co/)
-
 [Twitter Cypherpunk Zero](https://twitter.com/cypherpunkZero)
 
-[Коллекция Cypherpunk Zero на Opensea](https://opensea.io/collection/cypherpunk-zero)
+[Коллекция Cypherpunk Zero на OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 [Twitter DAO Cypherpunk Zero](https://twitter.com/CypherpunkDAO)
 

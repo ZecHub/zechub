@@ -35,7 +35,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 | Community | [Resmî Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | İş ispatı blok üretimini koruyan ve bunun üzerine bir hisse ispatı kesinlik katmanı ekleyen, önerilmiş hibrit bir konsensüs tasarımıdır; böylece bloklar madencilikten vazgeçilmeden daha güçlü kesinlik kazanır. Trailing Finality Layer araştırmasından doğmuştur ve Shielded Labs tarafından geliştirilmektedir; 2026 itibarıyla hâlâ testnet geliştirme aşamasındadır. |
 | CrossPay | ZODL cüzdanındaki bir özelliktir; merkezi bir borsa yerine NEAR Intents üzerinden yönlendirilerek, alıcının tercih ettiği varlık ve zincirde ödeme almasını sağlarken shielded ZEC harcamanıza olanak tanır. |
-| Cypherpunk Zero | ECC, illüstratör Stranger Wolf, Mighty Jaxx ve seçili ekosistem ortakları arasındaki yaratıcı bir evren ve iş birliği girişimi. [Cypherpunk Zero Sitesi](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea Koleksiyonu](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | ECC, illüstratör Stranger Wolf, Mighty Jaxx ve seçili ekosistem ortakları arasındaki yaratıcı bir evren ve iş birliği girişimi. [OpenSea Koleksiyonu](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
