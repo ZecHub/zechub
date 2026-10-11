@@ -1,3 +1,5 @@
+# Shielded Cold Signing
+
 Shielding in Zcash involves moving funds from a public, transparent address into a private, shielded one, hiding transaction details using Zcash's privacy features.
 
 ### What changes when you shield ZEC?
@@ -516,7 +518,7 @@ https://youtube.com/shorts/eAOMRVYJFTA?si=xytBs-wZKn8hmu8D
 
 **What is Keystone?**
 
-Keystone is an air gapped hardware wallet. Its signing device has no direct wired or wireless connection to the companion app during the signing process itself, communicating instead via QR codes. It's paired here with Zashi, the Zcash native companion wallet, and that pairing makes the key isolation principle unusually explicit and easy to trace.
+Keystone is an air gapped hardware wallet. Its signing device has no direct wired or wireless connection to the companion app during the signing process itself, communicating instead via QR codes. It's paired here with Zashi (now rebranded Zodl), the Zcash native companion wallet, and that pairing makes the key isolation principle unusually explicit and easy to trace.
 
 **The Keystone/Zashi flow**
 
@@ -640,7 +642,7 @@ Getting that pool accounting right matters in practice, not just in theory. A re
 
 **Keystone is in good shape.** Firmware 3.0.2 added full Ironwood support back in July, and that's still the current, stable requirement. That version or newer is however needed to sign anything.
 
-**Hito is still a work in progress.** It successfully signed and submitted its first real Orchard to Ironwood transaction on physical hardware, which is a genuine milestone, but that was on testnet. There's no confirmed mainnet release for now.
+**Hito has progressed past the initial testnet milestone.** It successfully signed and submitted its first real Orchard-to-Ironwood transaction on physical hardware (initially on testnet). Subsequent updates confirmed mainnet flows (Ironwood→Ironwood, Ironwood→Transparent, and others) on production hardware. Stable firmware and broader release remain in progress.
 
 Zondax and Zkool are currently in flux. Zondax's app is the one being retired on Ledger. Zkool, which relied on that app to talk to Ledger devices, hasn't indicated what will happen to that role once the old app disappears. It's unclear whether it stays relevant for Ledger users going forward, or whether its future is mainly with other devices.
 
