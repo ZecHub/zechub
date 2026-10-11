@@ -48,11 +48,11 @@ Pour la référence complète sur la migration, y compris les parcours de récup
 
 [Lire le guide de terrain complet de migration du pool ZEC dans ZecHub](/research/zec-pool-migration/view)
 
-> **Avant de commencer :** établissez d’abord **ce que vous récupérez et quels éléments de récupération vous possédez encore**. Un seed de wallet actuel ou une clé de dépense non-Sprout prise en charge peut seulement nécessiter une restauration normale. Des éléments plus anciens — comme un seed ZecWallet Lite, un ancien `wallet.dat` ou une clé de dépense Sapling ou Sprout autonome — peuvent nécessiter un parcours de récupération dédié.
+> **Avant de commencer :** établissez d’abord **ce que vous récupérez et quels éléments de récupération vous possédez encore**. Un seed de wallet actuel ou une clé de dépense non-Sprout prise en charge peut seulement nécessiter une restauration normale. Des éléments plus anciens — comme un seed Zecwallet Lite, un ancien `wallet.dat` ou une clé de dépense Sapling ou Sprout autonome — peuvent nécessiter un parcours de récupération dédié.
 >
 > Si vous pensez que les fonds sont dans **Sprout**, confirmez que vous détenez toujours l’autorité de dépense avant de consacrer du temps à la récupération. Une adresse `zc...` ou des éléments de visualisation seuls ne suffisent pas à déplacer les fonds.
 >
-> **YWallet ne prend plus en charge Zcash après Ironwood.** Utilisez **Zkool** pour les restaurations ordinaires non-Sprout à partir de seeds et clés pris en charge. Utilisez **Argos** pour la récupération de ZecWallet Lite, les anciens fichiers de wallet et les clés de dépense Sapling/Sprout autonomes. Pour Sprout, Argos est le premier parcours à essayer ; le guide de terrain complet couvre la solution de repli sidecar ancienne.
+> **YWallet ne prend plus en charge Zcash après Ironwood.** Utilisez **Zkool** pour les restaurations ordinaires non-Sprout à partir de seeds et clés pris en charge. Utilisez **Argos** pour la récupération de Zecwallet Lite, les anciens fichiers de wallet et les clés de dépense Sapling/Sprout autonomes. Pour Sprout, Argos est le premier parcours à essayer ; le guide de terrain complet couvre la solution de repli sidecar ancienne.
 >
 > Utilisez le tableau ci-dessous selon **ce que vous avez réellement**, et non l’outil de récupération que vous vous souvenez avoir utilisé.
 
@@ -60,8 +60,8 @@ Pour la référence complète sur la migration, y compris les parcours de récup
 | --- | --- |
 | Une phrase de seed ou une **clé de dépense non-Sprout** prise en charge provenant d’un wallet actuel ou récemment maintenu, y compris d’anciens éléments YWallet Zcash | [Zkool](#fund-recovery-with-zkool) |
 | Une **clé de visualisation uniquement** | Zkool peut importer les clés de visualisation prises en charge pour un accès en lecture seule, mais une clé de visualisation ne peut pas autoriser une dépense de récupération. Trouvez le seed ou la clé de dépense correspondant. |
-| Un seed **ZecWallet Lite** de 24 mots | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| Un fichier ZecWallet Lite ou zcashd `wallet.dat`, ou une clé de dépense étendue Sapling / Sprout autonome | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Au 18 septembre 2026, la v1.3.0 est actuelle et privilégiée ; utilisez la v1.2.0 ou une version ultérieure pour la récupération `wallet.dat` et Sprout. |
+| Un seed **Zecwallet Lite** de 24 mots | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Un fichier Zecwallet Lite ou zcashd `wallet.dat`, ou une clé de dépense étendue Sapling / Sprout autonome | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Au 18 septembre 2026, la v1.3.0 est actuelle et privilégiée ; utilisez la v1.2.0 ou une version ultérieure pour la récupération `wallet.dat` et Sprout. |
 | Des éléments Sprout que Argos ne peut pas gérer, ou une récupération dont vous souhaitez contrôler vous-même les composants anciens | Utilisez le parcours sidecar ancien dans le [guide de terrain complet](/research/zec-pool-migration/view). |
 | Aucun seed ou clé de dépense fonctionnel, mais un appareil verrouillé, un mot de passe oublié ou un disque défaillant | [Récupération professionnelle](#professional-recovery-when-you-do-not-have-the-seed). N’envoyez jamais un seed ou une clé de dépense fonctionnel à une personne qui vous contacte sans sollicitation. |
 
@@ -119,11 +119,11 @@ Si l’ancien wallet ou compte ne détenait que des **ZEC transparentes**, resta
 
 Unshield All est utile lors d’un retrait vers un exchange qui n’accepte que les adresses transparentes. Les boutons de blindage n’apparaissent que si le compte a une adresse blindée, et Unshield All seulement s’il en a une transparente.
 
-## Récupération de ZecWallet Lite et de wallets anciens avec Argos
+## Récupération de Zecwallet Lite et de wallets anciens avec Argos
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite) n’est plus maintenu et son dépôt est archivé. Sa dérivation de seed diffère de la structure utilisée par les wallets actuels ; importer la même phrase dans un wallet moderne peut donc manquer les fonds détenus aux adresses dérivées supplémentaires de ZecWallet Lite. [Argos](https://argos.sovright.com), de Sovright, est un espace de travail de récupération sur ordinateur conçu pour ce cas et d’autres cas de récupération ancienne.
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite) n’est plus maintenu et son dépôt est archivé. Sa dérivation de seed diffère de la structure utilisée par les wallets actuels ; importer la même phrase dans un wallet moderne peut donc manquer les fonds détenus aux adresses dérivées supplémentaires de Zecwallet Lite. [Argos](https://argos.sovright.com), de Sovright, est un espace de travail de récupération sur ordinateur conçu pour ce cas et d’autres cas de récupération ancienne.
 
-Argos lit les seeds et fichiers de wallet ZecWallet Lite, zcashd `wallet.dat`, les clés de dépense étendues Sapling autonomes et les éléments de dépense Sprout. Pour Sprout, un seed ZecWallet Lite seul ne suffit pas, car ces clés ont été générées séparément. Argos est un outil de récupération, pas un wallet quotidien : inspectez localement les éléments source, scannez, puis balayez vers un wallet maintenu que vous contrôlez.
+Argos lit les seeds et fichiers de wallet Zecwallet Lite, zcashd `wallet.dat`, les clés de dépense étendues Sapling autonomes et les éléments de dépense Sprout. Pour Sprout, un seed Zecwallet Lite seul ne suffit pas, car ces clés ont été générées séparément. Argos est un outil de récupération, pas un wallet quotidien : inspectez localement les éléments source, scannez, puis balayez vers un wallet maintenu que vous contrôlez.
 
 Least Authority a [audité](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) l’outil. La récupération elle-même est gratuite. Un don facultatif à Sovright peut apparaître lors du balayage.
 
@@ -153,7 +153,7 @@ La diffusion d’un balayage est irréversible. Conservez le fichier de wallet d
 
 ### Fichiers de wallet et clés autonomes
 
-Sur l’écran d’accueil, **J’ai un fichier de wallet** couvre un fichier ZecWallet Lite, un zcashd `wallet.dat`, ou des clés de dépense étendues Sapling autonomes. La récupération de clé de dépense Sprout autonome est gérée par le parcours/CLI de récupération Sprout de Argos.
+Sur l’écran d’accueil, **J’ai un fichier de wallet** couvre un fichier Zecwallet Lite, un zcashd `wallet.dat`, ou des clés de dépense étendues Sapling autonomes. La récupération de clé de dépense Sprout autonome est gérée par le parcours/CLI de récupération Sprout de Argos.
 
 Argos lit les fichiers de wallet sans les modifier. Si le wallet est chiffré, saisissez la phrase de passe lorsqu’elle est demandée ; elle est utilisée en mémoire et n’est pas écrite sur le disque. Vérifiez le nombre de clés transparentes, Sapling et Sprout avant de démarrer un scan.
 
@@ -161,7 +161,7 @@ Les clés de visualisation ne sont pas acceptées pour un balayage, car elles ne
 
 ### Notes sur Sprout
 
-Un seed ZecWallet Lite ne dérive pas les clés Sprout. Ces clés ont été générées séparément. Récupérez Sprout depuis un zcashd `wallet.dat`, ou depuis une clé de dépense autonome dans la CLI.
+Un seed Zecwallet Lite ne dérive pas les clés Sprout. Ces clés ont été générées séparément. Récupérez Sprout depuis un zcashd `wallet.dat`, ou depuis une clé de dépense autonome dans la CLI.
 
 Si le fichier contient déjà des données de note dépensables et un témoin mis en cache, Argos peut proposer **Balayer les fonds Sprout** sans scan de la chaîne. Sinon, il peut exécuter un scan complet de blocs reprenable sur le réseau P2P. Ce scan est volumineux et lent. Le point de contrôle qu’il écrit permet de dépenser ; protégez-le donc comme le wallet d’origine.
 
@@ -181,9 +181,9 @@ Une migration progressive peut utiliser plusieurs transactions, donc les frais t
 
 ## Récupération approfondie avec ZExCavator
 
-[ZExCavator](https://github.com/zingolabs/zexcavator) est un projet de récupération Zingo Labs **en cours de développement**, actuellement axé sur les fichiers de wallet ZecWallet Lite et la migration de formats de wallet. Son README dirige actuellement les utilisateurs qui récupèrent des fonds vers l’option d’exportation **Zingolib**, tandis qu’une prise en charge ZeWIF plus complète est encore en cours de développement.
+[ZExCavator](https://github.com/zingolabs/zexcavator) est un projet de récupération Zingo Labs **en cours de développement**, actuellement axé sur les fichiers de wallet Zecwallet Lite et la migration de formats de wallet. Son README dirige actuellement les utilisateurs qui récupèrent des fonds vers l’option d’exportation **zingolib**, tandis qu’une prise en charge ZeWIF plus complète est encore en cours de développement.
 
-Considérez-le comme un outil avancé ou destiné aux cas particuliers, plutôt que comme le parcours de récupération par défaut. Pour les seeds ZecWallet Lite ordinaires, fichiers de wallet, zcashd `wallet.dat` et clés de dépense autonomes prises en charge, essayez d’abord Argos. Vérifiez tout élément récupéré par ZExCavator dans un wallet maintenu avant de vous y fier.
+Considérez-le comme un outil avancé ou destiné aux cas particuliers, plutôt que comme le parcours de récupération par défaut. Pour les seeds Zecwallet Lite ordinaires, fichiers de wallet, zcashd `wallet.dat` et clés de dépense autonomes prises en charge, essayez d’abord Argos. Vérifiez tout élément récupéré par ZExCavator dans un wallet maintenu avant de vous y fier.
 
 ## Récupération professionnelle lorsque vous n’avez pas le seed
 
@@ -191,7 +191,7 @@ Si le seed ou la clé est perdu, une restauration auto-hébergée ne peut pas co
 
 Ce parcours n’est pas la même chose que restaurer un seed que vous avez encore. Ne remettez pas un seed fonctionnel à quelqu’un qui propose de le « récupérer » pour vous. La version frauduleuse de ce service est courante.
 
-[Unciphered](https://unciphered.com) est une entreprise qui réalise ce travail en interne et a été présentée dans des médias tels que [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/). Il s’agit d’un service général de récupération de cryptomonnaies, et non d’un outil spécifique à Zcash, et il facture ce travail. ZecHub ne recommande aucune entreprise de récupération. Si vous suivez cette voie, confirmez vous-même le domaine officiel et considérez toute personne qui vous envoie d’abord un message privé comme un escroc.
+[Unciphered](https://unciphered.com) est une entreprise qui réalise ce travail en interne et a été présentée dans des médias tels que [Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/). Il s’agit d’un service général de récupération de cryptomonnaies, et non d’un outil spécifique à Zcash, et il facture ce travail. ZecHub ne recommande aucune entreprise de récupération. Si vous suivez cette voie, confirmez vous-même le domaine officiel et considérez toute personne qui vous envoie d’abord un message privé comme un escroc.
 
 Si vous avez encore un seed ou une clé de dépense fonctionnel, commencez plutôt par un parcours de récupération auto-hébergé tel que Zkool ou Argos sur votre propre machine.
 

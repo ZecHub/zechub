@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Ụzọ Zcash Wallet Traffic Gafee Nym Mixnet
@@ -77,20 +77,20 @@ Isi mmalite:
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl nwere **Tor Protection** arụnyere n'ime ya ugbu a, ọ bụghị otu njikọta Nym nke akọwara n'elu maka Zingo, Zkool, na Nozy.
+ZODL nwere **Tor Protection** arụnyere n'ime ya ugbu a, ọ bụghị otu njikọta Nym nke akọwara n'elu maka Zingo, Zkool, na Nozy.
 
-Atụmatụ Tor nke Zodl nwere ike ibugharị nnyefe azụmahịa, weghachite data azụmahịa, arịrịọ ọnụego mgbanwe, na oku API nke ndị ọzọ site na Tor. Nym kwuru na Septemba 24, 2026 na ọ ka nọ na mkparịta ụka na-arụsi ọrụ ike na ndị otu Zodl gbasara njikọta mixnet sara mbara.
+Atụmatụ Tor nke ZODL nwere ike ibugharị nnyefe azụmahịa, weghachite data azụmahịa, arịrịọ ọnụego mgbanwe, na oku API nke ndị ọzọ site na Tor. Nym kwuru na Septemba 24, 2026 na ọ ka nọ na mkparịta ụka na-arụsi ọrụ ike na ndị otu ZODL gbasara njikọta mixnet sara mbara.
 
-Maka Zodl taa, jiri nke ọ bụla n'ime ha:
+Maka ZODL taa, jiri nke ọ bụla n'ime ha:
 
-- Nchekwa Tor nke Zodl dere, ma ọ bụ
+- Nchekwa Tor nke ZODL dere, ma ọ bụ
 - NymVPN nke dị n'ọkwa sistemụ ma ọ bụrụ na ebumnuche gị bụ ibugharị okporo ụzọ ngwaọrụ n'ozuzu nke obere akpa ahụ site na Nym.
 
 Echela na Tor na Nym bụ ụzọ ndị ọzọ a ga-esi na-ebuga n'ime obere akpa ego n'ihi na ha abụọ bụ netwọk nzuzo.
 
-Ntọala Zodl Tor:
+Ntọala ZODL Tor:
 
 **Ọzọ → Atụmatụ Dị Elu → Beta: Nchedo Tor → Kwado → Chekwaa mgbanwe**
 
@@ -212,4 +212,4 @@ Tupu ị dabere na ntọala ahụ, jụọ:
 - Ebe nchekwa Zkool: https://github.com/hhanh00/zkool2
 - Ọrụ njem NozyWallet Nym: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Nchedo Zodl Tor: https://support.zodl.com/article/17-enabling-tor-protection
+- Nchedo ZODL Tor: https://support.zodl.com/article/17-enabling-tor-protection

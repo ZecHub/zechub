@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash Cüzdan Trafiğini Nym Mixnet Üzerinden Yönlendirin
@@ -77,20 +77,20 @@ Kaynaklar:
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl şu anda Zingo, Zkool ve Nozy için yukarıda açıklanan aynı yerel Nym entegrasyonuna değil, yerleşik **Tor Protection** özelliğine sahiptir.
+ZODL şu anda Zingo, Zkool ve Nozy için yukarıda açıklanan aynı yerel Nym entegrasyonuna değil, yerleşik **Tor Protection** özelliğine sahiptir.
 
-Zodl'un Tor özelliği işlem gönderimlerini, işlem verisi alımlarını, döviz kuru isteklerini ve üçüncü taraf API çağrılarını Tor üzerinden yönlendirebilir. Nym, 24 Eylül 2026'da daha kapsamlı mixnet entegrasyonu hakkında Zodl ekibiyle hâlâ aktif görüşmeler yürüttüğünü belirtti.
+ZODL'un Tor özelliği işlem gönderimlerini, işlem verisi alımlarını, döviz kuru isteklerini ve üçüncü taraf API çağrılarını Tor üzerinden yönlendirebilir. Nym, 24 Eylül 2026'da daha kapsamlı mixnet entegrasyonu hakkında ZODL ekibiyle hâlâ aktif görüşmeler yürüttüğünü belirtti.
 
-Bugün Zodl için şunlardan birini kullanın:
+Bugün ZODL için şunlardan birini kullanın:
 
-- Zodl'un belgelenmiş Tor Protection özelliğini veya
+- ZODL'un belgelenmiş Tor Protection özelliğini veya
 - amacınız cüzdanın genel cihaz trafiğini Nym üzerinden yönlendirmekse sistem düzeyinde NymVPN kullanmayı.
 
 İkisinin de gizlilik ağı olması nedeniyle Tor ve Nym'in cüzdan içinde birbirinin yerine kullanılabilir aktarımlar olduğunu varsaymayın.
 
-Zodl Tor ayarları:
+ZODL Tor ayarları:
 
 **More → Advanced Features → Beta: Tor Protection → Enable → Save changes**
 
@@ -212,4 +212,4 @@ Kuruluma güvenmeden önce şunları sorun:
 - Zkool deposu: https://github.com/hhanh00/zkool2
 - NozyWallet Nym aktarım çalışması: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection
+- ZODL Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection

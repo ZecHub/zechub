@@ -48,11 +48,11 @@ Ayrıntılı kurtarma yolları, komutlar, ücretler, donanım gereksinimleri, gi
 
 [ZEC Havuz Taşıma Saha Rehberinin tamamını ZecHub içinde okuyun](/research/zec-pool-migration/view)
 
-> **Başlamadan önce:** önce **neyi kurtardığınızı ve hâlâ hangi kurtarma materyaline sahip olduğunuzu** belirleyin. Güncel bir cüzdan tohumu veya desteklenen Sprout dışı harcama anahtarı yalnızca normal bir geri yükleme gerektirebilir. ZecWallet Lite tohumu, eski bir `wallet.dat` veya bağımsız bir Sapling ya da Sprout harcama anahtarı gibi daha eski materyaller özel bir kurtarma yolu gerektirebilir.
+> **Başlamadan önce:** önce **neyi kurtardığınızı ve hâlâ hangi kurtarma materyaline sahip olduğunuzu** belirleyin. Güncel bir cüzdan tohumu veya desteklenen Sprout dışı harcama anahtarı yalnızca normal bir geri yükleme gerektirebilir. Zecwallet Lite tohumu, eski bir `wallet.dat` veya bağımsız bir Sapling ya da Sprout harcama anahtarı gibi daha eski materyaller özel bir kurtarma yolu gerektirebilir.
 >
 > Fonların **Sprout** içinde olduğunu düşünüyorsanız, kurtarmaya zaman ayırmadan önce hâlâ harcama yetkiniz olduğunu doğrulayın. Tek başına bir `zc...` adresi veya görüntüleme materyali fonları taşımak için yeterli değildir.
 >
-> **YWallet artık Ironwood sonrasında Zcash desteklemiyor.** Desteklenen tohumlar ve anahtarlardan sıradan Sprout dışı geri yüklemeler için **Zkool** kullanın. ZecWallet Lite kurtarma, eski cüzdan dosyaları ve bağımsız Sapling/Sprout harcama anahtarları için **Argos** kullanın. Sprout için ilk denenmesi gereken yol Argos'dır; tam saha rehberi eski yan araç geri dönüş seçeneğini kapsar.
+> **YWallet artık Ironwood sonrasında Zcash desteklemiyor.** Desteklenen tohumlar ve anahtarlardan sıradan Sprout dışı geri yüklemeler için **Zkool** kullanın. Zecwallet Lite kurtarma, eski cüzdan dosyaları ve bağımsız Sapling/Sprout harcama anahtarları için **Argos** kullanın. Sprout için ilk denenmesi gereken yol Argos'dır; tam saha rehberi eski yan araç geri dönüş seçeneğini kapsar.
 >
 > Aşağıdaki tabloyu, hatırladığınız kurtarma aracına göre değil, **gerçekte sahip olduğunuz şeye** göre kullanın.
 
@@ -60,8 +60,8 @@ Ayrıntılı kurtarma yolları, komutlar, ücretler, donanım gereksinimleri, gi
 | --- | --- |
 | Güncel veya yakın zamanda bakımı yapılmış bir cüzdandan gelen bir tohum ifadesi ya da desteklenen **Sprout dışı harcama anahtarı**; eski YWallet Zcash materyali de dâhil | [Zkool](#fund-recovery-with-zkool) |
 | Yalnızca bir **görüntüleme anahtarı** | Zkool salt-okunur erişim için desteklenen görüntüleme anahtarlarını içe aktarabilir, ancak görüntüleme anahtarı kurtarma harcamasına yetki veremez. Karşılık gelen tohumu veya harcama anahtarını bulun. |
-| 24 kelimelik bir **ZecWallet Lite** tohumu | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| Bir ZecWallet Lite veya zcashd `wallet.dat` ya da bağımsız bir Sapling / Sprout harcama anahtarı | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). 18 Eylül 2026 itibarıyla v1.3.0 güncel ve tercih edilendir; `wallet.dat` ve Sprout kurtarması için v1.2.0 veya sonrasını kullanın. |
+| 24 kelimelik bir **Zecwallet Lite** tohumu | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
+| Bir Zecwallet Lite veya zcashd `wallet.dat` ya da bağımsız bir Sapling / Sprout harcama anahtarı | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). 18 Eylül 2026 itibarıyla v1.3.0 güncel ve tercih edilendir; `wallet.dat` ve Sprout kurtarması için v1.2.0 veya sonrasını kullanın. |
 | Argos'ın işleyemediği Sprout materyali veya eski bileşenleri kendi denetiminizde istediğiniz bir kurtarma | [tam saha rehberindeki](/research/zec-pool-migration/view) eski yan araç yolunu kullanın. |
 | Çalışan tohum veya harcama anahtarı yok, ancak kilitli bir cihaz, unutulmuş parola veya arızalı disk var | [Profesyonel kurtarma](#professional-recovery-when-you-do-not-have-the-seed). Size istenmeden ulaşan hiç kimseye çalışan bir tohum veya harcama anahtarı göndermeyin. |
 
@@ -119,11 +119,11 @@ Eski cüzdan veya hesap yalnızca **şeffaf ZEC** tutuyorsa, önce hesabı geri 
 
 Tüm Korumasını Kaldır, yalnızca şeffaf adresleri kabul eden bir borsaya para çekerken kullanışlıdır. Koruma düğmeleri yalnızca hesabın korumalı bir adresi varsa, Tüm Korumasını Kaldır ise yalnızca şeffaf bir adresi varsa görünür.
 
-## Argos ile ZecWallet Lite ve eski cüzdan kurtarma
+## Argos ile Zecwallet Lite ve eski cüzdan kurtarma
 
-[ZecWallet Lite](https://github.com/adityapk00/zecwallet-lite) artık bakımı yapılmıyor ve deposu arşivlenmiş durumda. Tohum türetimi, güncel cüzdanların kullandığı düzenden farklıdır; bu nedenle aynı ifadeyi modern bir cüzdana aktarmak, ZecWallet Lite'ın ek türetilmiş adreslerinde tutulan fonları gözden kaçırabilir. [Argos](https://argos.sovright.com), Sovright tarafından sunulan, bu ve diğer eski kurtarma durumları için oluşturulmuş bir masaüstü kurtarma çalışma alanıdır.
+[Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite) artık bakımı yapılmıyor ve deposu arşivlenmiş durumda. Tohum türetimi, güncel cüzdanların kullandığı düzenden farklıdır; bu nedenle aynı ifadeyi modern bir cüzdana aktarmak, Zecwallet Lite'ın ek türetilmiş adreslerinde tutulan fonları gözden kaçırabilir. [Argos](https://argos.sovright.com), Sovright tarafından sunulan, bu ve diğer eski kurtarma durumları için oluşturulmuş bir masaüstü kurtarma çalışma alanıdır.
 
-Argos ZecWallet Lite tohumlarını ve cüzdan dosyalarını, zcashd `wallet.dat`, bağımsız Sapling genişletilmiş harcama anahtarlarını ve Sprout harcama materyalini okur. Sprout için tek başına ZecWallet Lite tohumu yeterli değildir; çünkü bu anahtarlar ayrı olarak oluşturulmuştur. Argos günlük kullanım cüzdanı değil, bir kurtarma aracıdır: kaynak materyali yerel olarak inceleyin, tarayın ve ardından denetiminizdeki bakımı yapılan bir cüzdana süpürün.
+Argos Zecwallet Lite tohumlarını ve cüzdan dosyalarını, zcashd `wallet.dat`, bağımsız Sapling genişletilmiş harcama anahtarlarını ve Sprout harcama materyalini okur. Sprout için tek başına Zecwallet Lite tohumu yeterli değildir; çünkü bu anahtarlar ayrı olarak oluşturulmuştur. Argos günlük kullanım cüzdanı değil, bir kurtarma aracıdır: kaynak materyali yerel olarak inceleyin, tarayın ve ardından denetiminizdeki bakımı yapılan bir cüzdana süpürün.
 
 Least Authority, aracı [denetledi](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf). Kurtarmanın kendisi ücretsizdir. Süpürme sırasında Sovright için isteğe bağlı bağış görünebilir.
 
@@ -153,7 +153,7 @@ Bir süpürmeyi yayınlamak geri döndürülemez. İlgili her havuz süpürülen
 
 ### Cüzdan dosyaları ve bağımsız anahtarlar
 
-Karşılama ekranında **Bir cüzdan dosyam var** seçeneği; bir ZecWallet Lite dosyasını, bir zcashd `wallet.dat` veya bağımsız Sapling genişletilmiş harcama anahtarlarını kapsar. Bağımsız Sprout harcama anahtarı kurtarması, Argos'ın Sprout kurtarma yolu/CLI'ı tarafından gerçekleştirilir.
+Karşılama ekranında **Bir cüzdan dosyam var** seçeneği; bir Zecwallet Lite dosyasını, bir zcashd `wallet.dat` veya bağımsız Sapling genişletilmiş harcama anahtarlarını kapsar. Bağımsız Sprout harcama anahtarı kurtarması, Argos'ın Sprout kurtarma yolu/CLI'ı tarafından gerçekleştirilir.
 
 Argos cüzdan dosyalarını değiştirmeden okur. Cüzdan şifreliyse, istendiğinde parolayı girin; bellekte kullanılır ve diske yazılmaz. Taramaya başlamadan önce şeffaf, Sapling ve Sprout anahtar sayılarını gözden geçirin.
 
@@ -161,7 +161,7 @@ Görüntüleme anahtarları, harcamaya yetki veremedikleri için süpürme amac�
 
 ### Sprout notları
 
-Bir ZecWallet Lite tohumu Sprout anahtarları türetmez. Bu anahtarlar ayrı olarak oluşturulmuştur. Sprout'u bir zcashd `wallet.dat` üzerinden veya CLI'da bağımsız bir harcama anahtarından kurtarın.
+Bir Zecwallet Lite tohumu Sprout anahtarları türetmez. Bu anahtarlar ayrı olarak oluşturulmuştur. Sprout'u bir zcashd `wallet.dat` üzerinden veya CLI'da bağımsız bir harcama anahtarından kurtarın.
 
 Dosyada zaten harcanabilir not verisi ve önbelleğe alınmış bir tanık varsa, Argos zincir taraması olmadan **Sprout fonlarını süpürme** seçeneği sunabilir. Aksi hâlde P2P ağı üzerinden devam ettirilebilir bir tam blok taraması çalıştırabilir. Bu tarama büyük ve yavaştır. Yazdığı denetim noktası harcama yetkisine sahiptir; bu nedenle onu özgün cüzdan gibi koruyun.
 
@@ -181,9 +181,9 @@ Aşamalı taşıma birden fazla işlem kullanabilir; bu nedenle toplam ücret te
 
 ## ZExCavator ile Derin Kurtarma
 
-[ZExCavator](https://github.com/zingolabs/zexcavator), şu anda ZecWallet Lite cüzdan dosyalarına ve cüzdan biçimi taşımaya odaklanan, **geliştirme aşamasında** bir Zingo Labs kurtarma projesidir. README dosyası, daha kapsamlı ZeWIF desteği geliştirilirken fon kurtarma kullanıcılarını şu anda **Zingolib** dışa aktarma seçeneğine yönlendirmektedir.
+[ZExCavator](https://github.com/zingolabs/zexcavator), şu anda Zecwallet Lite cüzdan dosyalarına ve cüzdan biçimi taşımaya odaklanan, **geliştirme aşamasında** bir Zingo Labs kurtarma projesidir. README dosyası, daha kapsamlı ZeWIF desteği geliştirilirken fon kurtarma kullanıcılarını şu anda **zingolib** dışa aktarma seçeneğine yönlendirmektedir.
 
-Bunu varsayılan kurtarma yolu yerine gelişmiş/istisnai durumlar için bir araç olarak değerlendirin. Sıradan ZecWallet Lite tohumları, cüzdan dosyaları, zcashd `wallet.dat` ve desteklenen bağımsız harcama anahtarları için önce Argos deneyin. ZExCavator ile kurtarılan her şeyi, ona güvenmeden önce bakımı yapılan bir cüzdanda doğrulayın.
+Bunu varsayılan kurtarma yolu yerine gelişmiş/istisnai durumlar için bir araç olarak değerlendirin. Sıradan Zecwallet Lite tohumları, cüzdan dosyaları, zcashd `wallet.dat` ve desteklenen bağımsız harcama anahtarları için önce Argos deneyin. ZExCavator ile kurtarılan her şeyi, ona güvenmeden önce bakımı yapılan bir cüzdanda doğrulayın.
 
 ## Tohuma sahip olmadığınızda profesyonel kurtarma
 
@@ -191,7 +191,7 @@ Tohum veya anahtar kayıpsa, kendi barındırdığınız bir geri yükleme başl
 
 Bu yol, hâlâ sahip olduğunuz bir tohumu geri yüklemekle aynı değildir. Sizin için “kurtarmayı” teklif eden hiç kimseye çalışan bir tohum vermeyin. Bu hizmetin dolandırıcılık sürümü yaygındır.
 
-[Unciphered](https://unciphered.com), bu işi kurum içinde yapan ve [Wired](https://www.wired.com/story/unciphered-crypto-wallet-recovery/) gibi yerlerde ele alınmış şirketlerden biridir. Genel bir kripto kurtarma hizmetidir, Zcash'a özgü bir araç değildir ve çalışma için ücret alır. ZecHub herhangi bir kurtarma şirketini onaylamaz. Bu yolu seçerseniz resmî alan adını kendiniz doğrulayın ve size ilk olarak doğrudan mesaj atan herkesin dolandırıcı olduğunu varsayın.
+[Unciphered](https://unciphered.com), bu işi kurum içinde yapan ve [Wired](https://www.wired.com/story/unciphered-ironkey-password-cracking-bitcoin/) gibi yerlerde ele alınmış şirketlerden biridir. Genel bir kripto kurtarma hizmetidir, Zcash'a özgü bir araç değildir ve çalışma için ücret alır. ZecHub herhangi bir kurtarma şirketini onaylamaz. Bu yolu seçerseniz resmî alan adını kendiniz doğrulayın ve size ilk olarak doğrudan mesaj atan herkesin dolandırıcı olduğunu varsayın.
 
 Hâlâ çalışan bir tohum veya harcama anahtarınız varsa, bunun yerine kendi makinenizde Zkool veya Argos gibi kendi barındırdığınız bir kurtarma yoluyla başlayın.
 

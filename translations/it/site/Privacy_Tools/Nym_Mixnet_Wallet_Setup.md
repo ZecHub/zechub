@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Pagina Edihttps://github.com/ZecHub/zechub/pull/2238t"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica pagina"/>
 </a>
 
 # Instrada il traffico del wallet Zcash attraverso la mixnet Nym
@@ -77,20 +77,20 @@ Fonti:
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl dispone attualmente di **Tor Protection** integrata, non della stessa integrazione Nym nativa descritta sopra per Zingo, Zkool e Nozy.
+ZODL dispone attualmente di **Tor Protection** integrata, non della stessa integrazione Nym nativa descritta sopra per Zingo, Zkool e Nozy.
 
-La funzionalità Tor di Zodl può instradare tramite Tor l'invio delle transazioni, il recupero dei dati delle transazioni, le richieste dei tassi di cambio e le chiamate API di terze parti. Il 24 settembre 2026, Nym ha dichiarato di essere ancora in discussione attiva con il team di Zodl riguardo a un'integrazione più ampia della mixnet.
+La funzionalità Tor di ZODL può instradare tramite Tor l'invio delle transazioni, il recupero dei dati delle transazioni, le richieste dei tassi di cambio e le chiamate API di terze parti. Il 24 settembre 2026, Nym ha dichiarato di essere ancora in discussione attiva con il team di ZODL riguardo a un'integrazione più ampia della mixnet.
 
-Per Zodl, oggi utilizza una delle seguenti opzioni:
+Per ZODL, oggi utilizza una delle seguenti opzioni:
 
-- La Tor Protection documentata di Zodl; oppure
+- La Tor Protection documentata di ZODL; oppure
 - NymVPN a livello di sistema, se il tuo obiettivo è instradare attraverso Nym il traffico generale del dispositivo del wallet.
 
 Non presumere che Tor e Nym siano trasporti intercambiabili all'interno del wallet solo perché entrambi sono reti per la privacy.
 
-Impostazioni Tor di Zodl:
+Impostazioni Tor di ZODL:
 
 **Altro → Funzionalità avanzate → Beta: Tor Protection → Abilita → Salva modifiche**
 
@@ -212,4 +212,4 @@ Prima di fare affidamento sulla configurazione, chiediti:
 - Repository di Zkool: https://github.com/hhanh00/zkool2
 - Lavoro sul trasporto Nym di NozyWallet: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Tor Protection di Zodl: https://support.zodl.com/article/17-enabling-tor-protection
+- Tor Protection di ZODL: https://support.zodl.com/article/17-enabling-tor-protection
