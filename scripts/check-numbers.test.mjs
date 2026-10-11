@@ -14,10 +14,14 @@ import { after, before, test } from "node:test";
 
 const GATE = new URL("./check-numbers.mjs", import.meta.url).pathname;
 let repo;
-const git = (...a) => execFileSync("git", ["-C", repo, ...a], { encoding: "utf8" });
+// A git hook (e.g. pre-push) exports GIT_DIR and friends. Inherited, they make
+// `git -C <tmp> init` re-initialise the REAL repository instead of the temp one,
+// which sets core.bare=true there and breaks every worktree. Strip them.
+const CLEAN_ENV = Object.fromEntries(Object.entries(process.env).filter(([k]) => !/^GIT_/.test(k)));
+const git = (...a) => execFileSync("git", ["-C", repo, ...a], { encoding: "utf8", env: CLEAN_ENV });
 const w = (p, body) => { mkdirSync(dirname(join(repo, p)), { recursive: true }); writeFileSync(join(repo, p), body); };
 const run = (...args) => {
-  const r = spawnSync(process.execPath, [GATE, ...args], { cwd: repo, encoding: "utf8", env: { ...process.env, GITHUB_ACTIONS: "" } });
+  const r = spawnSync(process.execPath, [GATE, ...args], { cwd: repo, encoding: "utf8", env: { ...CLEAN_ENV, GITHUB_ACTIONS: "" } });
   return { status: r.status, out: r.stdout + r.stderr };
 };
 const commit = (msg) => { git("add", "-A"); git("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-qm", msg); };
@@ -202,7 +206,7 @@ test("--base without a ref, or with an unknown ref, refuses to run", () => {
 
 test("CI gets annotations on the line", () => {
   git("checkout", "-q", "pr-yo");
-  const r = spawnSync(process.execPath, [GATE, "--base", "main"], { cwd: repo, encoding: "utf8", env: { ...process.env, GITHUB_ACTIONS: "true" } });
+  const r = spawnSync(process.execPath, [GATE, "--base", "main"], { cwd: repo, encoding: "utf8", env: { ...CLEAN_ENV, GITHUB_ACTIONS: "true" } });
   assert.equal(r.status, 1);
   assert.match(r.stdout, /::error file=translations\/yo\/site\/poll\.md,line=3,title=numbers::number 24/);
 });
