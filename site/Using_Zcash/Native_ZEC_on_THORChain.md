@@ -77,7 +77,7 @@ Follow the interface's current instructions to initiate the swap. Review the wal
 
 Use the transaction ID and the status shown by the interface to follow progress. Check the relevant blockchain explorer where available. Once the swap is marked complete, confirm that the destination asset arrived at the intended wallet.
 
-<img width="1600" height="802" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/40b1bf3e-d7a5-4529-9b29-5474bfbbd23a" /> Capture the real swap interface showing ZEC as the source, the selected destination asset, and the quote details. Use a test or public-facing view where possible and hide personal balances and sensitive information.
+<img width="1600" height="802" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/40b1bf3e-d7a5-4529-9b29-5474bfbbd23a" /> 
 
 ## 4. Provide liquidity to a ZEC pool
 
