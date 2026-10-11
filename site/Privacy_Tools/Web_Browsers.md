@@ -14,7 +14,7 @@
 
 ## What Are The Security Considerations When Selecting A Web Browser?
 
-When selecting a web browser there are a few things to keep in mind: Security vulnerabilities and exploits are usually discovered regularly. Some browsers are traceable in some manner, but, there are browsers that allow users to browse anonymously - [Tor browser](https://www.torproject.org/download/) for example. 
+When selecting a web browser there are a few things to keep in mind: Security vulnerabilities and exploits are usually discovered regularly. Some browsers are traceable in some manner, but, there are browsers that allow users to browse anonymously - [Tor browser](https://download.torproject.org/) for example. 
 
 **Fingerprinting**: If you want to keep things private like, softwares installed on your machine, hardware configuration, and more, consider looking out for web browser that supports fingerprinting resistance feature. 
 
