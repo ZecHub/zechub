@@ -254,10 +254,84 @@ test("an inherited token moved to another paragraph is new damage", () => {
   assert.deepEqual(introduced(edited, base).filter((f) => f.kind === "digit-token"), []);
 });
 
-test("an inherited missing number that moves to another line is new", () => {
+test("an inherited number finding stays inherited when its sentence is reworded or moves", () => {
   const en = "Line A in 2025.\n\nLine B in 2025.\n";
   const base = compare(en, "Zeile A.\n\nZeile B in 2025.\n");
   const head = compare(en, "Zeile A in 2025.\n\nZeile B.\n");
-  assert.deepEqual(values(introduced(head, base)), ["number-missing:2025"]);
+  assert.deepEqual(introduced(head, base), []);
   assert.deepEqual(introduced(base, base), []);
+  // ...but losing it once more is new
+  assert.deepEqual(values(introduced(compare(en, "Zeile A.\n\nZeile B.\n"), base)), ["number-missing:2025"]);
+});
+
+test("a resync that rewords the French 'filiale à 100 %' does not block it again", () => {
+  const baseEn = "# Organisation\n\nBootstrap is a wholly owned subsidiary of the Electric Coin Company.\n";
+  const baseFr = "# Organisation\n\nBootstrap est une filiale à 100 % de l'Electric Coin Company.\n";
+  const headEn = "# Organisation\n\nBootstrap is a wholly owned subsidiary of the ECC, which funds it.\n";
+  const headFr = "# Organisation\n\nBootstrap, financée par l'ECC, en est une filiale à 100 %.\n";
+  const base = compare(baseEn, baseFr, { locale: "fr" });
+  const head = compare(headEn, headFr, { locale: "fr" });
+  assert.deepEqual(values(head.filter((f) => f.severity === "error")), ["number-added:100"]);
+  assert.deepEqual(introduced(head, base), []);
+  // a second invented 100 is still new
+  const more = compare(headEn, headFr.replace("ECC,", "ECC à 100 %,"), { locale: "fr" });
+  assert.deepEqual(values(introduced(more, base)), ["number-added:100"]);
+});
+
+test("a changed digit that was only a warning at the base is new when it blocks", () => {
+  const en = "In 2024 we shipped v1.\n\nIn 2024 again.\n\nThen 2025 came.\n";
+  // base: a reworded line that drops one 2024 and restates 2025 elsewhere
+  const base = compare(en, "In 2024 we shipped v1.\n\nAgain that year.\n\nThen 2025 came, 2025.\n");
+  const head = compare(en, "In 2024 we shipped v1.\n\nIn 2025 again.\n\nThen 2025 came.\n");
+  assert.ok(base.every((f) => f.severity === "warning"), JSON.stringify(base));
+  assert.deepEqual(values(introduced(head, base).filter((f) => f.severity === "error")),
+    ["number-added:2025", "number-missing:2024"]);
+});
+
+// ---- changed digits that keep both values on the page -------------------------------
+
+test("a changed digit blocks even when both values occur elsewhere on the page", () => {
+  const en = "In 2024 we shipped v1. In 2024 again. Then 2025 came.\n";
+  const tr = "In 2024 we shipped v1. In 2025 again. Then 2025 came.\n";
+  const fs = compare(en, tr, { locale: "tr" });
+  assert.deepEqual(values(fs.filter((f) => f.severity === "error")), ["number-added:2025", "number-missing:2024"]);
+  assert.deepEqual(fs.find((f) => f.kind === "number-missing").changed, ["2025"]);
+  // on separate lines too
+  assert.deepEqual(values(errors("In 2024.\n\nIn 2024 again.\n\n2025.\n", "In 2024.\n\nIn 2025 again.\n\n2025.\n")),
+    ["number-added:2025", "number-missing:2024"]);
+});
+
+test("...but not when the lost and the gained value are on different lines", () => {
+  const en = "In 2024 we shipped.\n\nIn 2024 again.\n\nThen 2025 came.\n";
+  const tr = "In 2024 we shipped.\n\nAgain that year.\n\nThen 2025 came, in 2025.\n";
+  const fs = compare(en, tr);
+  assert.ok(fs.length === 2 && fs.every((f) => f.severity === "warning" && !f.changed), JSON.stringify(fs));
+});
+
+test("...nor when the page does not keep the English line structure", () => {
+  const fs = compare("In 2024 we shipped v1. In 2024 again. Then 2025 came.\n",
+    "In 2024 we shipped v1. In 2025 again.\nThen 2025 came.\n");
+  assert.ok(fs.every((f) => f.severity === "warning"), JSON.stringify(fs));
+  // a shifted page where line numbers coincide by accident
+  const shifted = compare("T\nIn 2024 shipped.\nIn 2024 again.\nThen 2025 came.\n",
+    "T\nThen 2025, too.\nIn 2024 shipped.\nAgain that year.\nThen 2025 came.\n");
+  assert.ok(shifted.length === 2 && shifted.every((f) => f.severity === "warning"), JSON.stringify(shifted));
+});
+
+test("a changed small number stays advisory", () => {
+  // 3 -> 4 with both elsewhere: advisory, like any small number
+  const fs = compare("Use 3 keys and 4 locks. Then 3 more.\n", "Use 3 keys and 4 locks. Then 4 more.\n");
+  assert.ok(fs.length === 2 && fs.every((f) => f.severity === "warning"), JSON.stringify(fs));
+  // a small value against a large one: the large one alone decides nothing
+  const mixed = compare("Pick 5 of 20. Pick 5 again. Pick 20.\n", "Pick 5 of 20. Pick 20 again. Pick 20.\n");
+  assert.ok(mixed.every((f) => f.severity === "warning"), JSON.stringify(mixed));
+});
+
+// ---- HTML character references -----------------------------------------------------------
+
+test("numeric character references are not numbers", () => {
+  assert.deepEqual(compare("Price &#8211; low &amp; fair.\n", "Prix &#x2013; bas &#8212; juste &amp; x&#39;y.\n"), []);
+  assert.deepEqual(nums("A &#8211; B &#X20AC; 5\n"), ["5"]);
+  // a real number next to one is still seen
+  assert.deepEqual(values(errors("Price &#8211; low.\n", "Prix &#8211; 2024 bas.\n")), ["number-added:2024"]);
 });

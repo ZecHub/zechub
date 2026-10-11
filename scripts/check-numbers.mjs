@@ -14,7 +14,9 @@
 //                "Tsitsi16"), or a hash/address, that the English does not
 //                contain. Always blocking.
 //   numbers      a number (not 0-10) that vanished from the page or appeared
-//                from nowhere. Blocking. Count-only differences and small
+//                from nowhere, or one replaced by another on the same line
+//                (a changed digit, even when both values occur elsewhere).
+//                Blocking. Other count-only differences and small
 //                numbers are warnings: good translations restate numbers and
 //                spell out "four". Clock times are compared as minutes since
 //                midnight first, so "19:00 UTC" may become "7 PM UTC".
@@ -35,11 +37,14 @@
 //
 // Scope (--base): only translation pages this change added, modified or
 // renamed, and only findings that the same page pair did not already have at
-// the merge base, at the same place: an inherited finding is matched by the
-// text around it (not the line number), so moving a bad token to another
-// paragraph is new. Damage already on main is a notice, so it does not fail
-// every unrelated PR. Without --base every translated page is checked and
-// every blocking finding fails (a local sweep).
+// the merge base. A digit token or hash is matched by the text around it (not
+// the line number), so moving a bad token to another paragraph is new. A
+// number finding is matched by value and count only, so a resync that rewords
+// the sentence around an inherited one ("filiale à 100 %") does not block it
+// again; more of it, or a warning turned blocking, is new. Damage already on
+// main is a notice, so it does not fail every unrelated PR. Without --base
+// every translated page is checked and every blocking finding fails (a local
+// sweep).
 //
 // Usage: node scripts/check-numbers.mjs [--base <ref>] [--quiet]
 //   (run from the content repo root)
@@ -175,7 +180,7 @@ function describe({ tr, source, f, lineCountsMatch }) {
     // A missing number has no translation line; when the page keeps the
     // English line structure (it nearly always does) the same line is it.
     const enLine = f.lines[0];
-    return { line: lineCountsMatch ? enLine : 1, msg: `number ${f.value}${times} from ${source}:${enLine} is missing. Keep numbers, dates and times as digits; do not spell them out or drop them.` };
+    return { line: lineCountsMatch ? enLine : 1, msg: `number ${f.value}${times} from ${source}:${enLine} is missing${f.changed ? ` (the translation has ${f.changed.join(", ")} on that line)` : ""}. Keep numbers, dates and times as digits; do not spell them out or drop them.` };
   }
   if (f.kind === "version-missing") {
     const enLine = f.lines[0];
@@ -184,7 +189,7 @@ function describe({ tr, source, f, lineCountsMatch }) {
   if (f.kind === "version-added") {
     return { line: f.lines[0], msg: `version ${f.value}${times} is not in ${source}. A changed or invented version number: copy it from the English.` };
   }
-  return { line: f.lines[0], msg: `number ${f.value}${times} is not in ${source}${f.absent ? "" : " this many times"}. A changed digit, an invented date, or a number the English does not state.` };
+  return { line: f.lines[0], msg: `number ${f.value}${times} is not in ${source}${f.absent ? "" : " this many times"}${f.changed ? ` (on a line where the English has ${f.changed.join(", ")})` : ""}. A changed digit, an invented date, or a number the English does not state.` };
 }
 
 const emit = (level, item) => {

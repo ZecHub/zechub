@@ -103,6 +103,31 @@ test("fixing an inherited token in one paragraph and writing it into another fai
   assert.doesNotMatch(r.out, /error: "202kan"/);
 });
 
+test("a resync that rewords the sentence around an inherited number passes", () => {
+  git("checkout", "-q", "main");
+  w("site/org.md", "# Organisation\n\nBootstrap is a wholly owned subsidiary of the Electric Coin Company.\n");
+  w("translations/fr/site/org.md", "# Organisation\n\nBootstrap est une filiale à 100 % de l'Electric Coin Company.\n");
+  commit("fr org on main");
+  branch("pr-fr-reword");
+  w("site/org.md", "# Organisation\n\nBootstrap is a wholly owned subsidiary of the ECC, which funds it.\n");
+  w("translations/fr/site/org.md", "# Organisation\n\nBootstrap, financée par l'ECC, en est une filiale à 100 %.\n");
+  commit("resync fr org");
+  const r = run("--base", "main");
+  assert.equal(r.status, 0, r.out);
+  assert.match(r.out, /already there at the base/);
+});
+
+test("a changed digit fails even when both values occur elsewhere on the page", () => {
+  branch("pr-changed-digit");
+  w("site/years.md", "# Years\n\nIn 2024 we shipped v1. In 2024 again. Then 2025 came.\n");
+  w("translations/tr/site/years.md", "# Yıllar\n\n2024'te v1'i çıkardık. 2025'te yine. Sonra 2025 geldi.\n");
+  commit("tr years");
+  const r = run("--base", "main");
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /error: number 2024 from site\/years\.md:3 is missing \(the translation has 2025 on that line\)/);
+  assert.match(r.out, /error: number 2025 is not in site\/years\.md this many times \(on a line where the English has 2024\)/);
+});
+
 test("a renamed translation does not get blamed for damage it carried", () => {
   branch("pr-rename");
   git("mv", "site/zips.md", "site/zip-list.md");

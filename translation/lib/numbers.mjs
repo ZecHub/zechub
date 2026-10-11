@@ -138,6 +138,7 @@ export function proseLines(text, protectedTerms = [], { keepInlineCode = false }
     l = l.replace(/(?<![A-Za-z0-9])www\.[^\s)\]>"'`]+/gi, blank);
     l = l.replace(/\bdata:[a-z]+\/[^\s)]+/gi, blank);
     l = l.replace(/[\w.+-]+@[\w-]+\.[\w.-]+/g, blank);             // e-mail
+    l = l.replace(/&#(?:\d+|[xX][0-9a-fA-F]+);/g, blank);         // &#8211; &#x2013;
     l = l.replace(/[\w./-]+\.(?:png|jpe?g|gif|svg|webp|pdf|mdx?|html?|json|ya?ml|zip|tar|gz)\b/gi, blank);
     l = l.replace(/^(\s*(?:>\s*)*)\d+[.)](?=\s)/, (m, p) => p + blank(m.slice(p.length))); // list marker
     for (const re of termRes) l = l.replace(re, blank);
@@ -452,13 +453,21 @@ export const context = (s) => s.replace(/\s+/g, " ").trim().toLowerCase();
 // the same line structure; null otherwise.
 function lineContexts(aOcc, bOcc, value, trLines, aligned) {
   if (!aligned) return null;
+  const out = [];
+  for (const [line, n] of surplus(aOcc, bOcc, value)) for (let k = 0; k < n; k++) out.push(context(trLines[line - 1] ?? ""));
+  return out;
+}
+
+// Map line -> how many more times `value` occurs on that line on side a
+// than on side b.
+function surplus(aOcc, bOcc, value) {
   const per = (occ) => {
     const m = new Map();
     for (const o of occ) if (o.value === value) m.set(o.line, (m.get(o.line) ?? 0) + 1);
     return m;
   };
-  const a = per(aOcc), b = per(bOcc), out = [];
-  for (const [line, n] of a) for (let k = (b.get(line) ?? 0); k < n; k++) out.push(context(trLines[line - 1] ?? ""));
+  const a = per(aOcc), b = per(bOcc), out = new Map();
+  for (const [line, n] of a) if (n > (b.get(line) ?? 0)) out.set(line, n - (b.get(line) ?? 0));
   return out;
 }
 
@@ -553,6 +562,20 @@ export function numberDelta(enLines, trLines, enRaw = "") {
   for (const [v, d] of add) if (d > 0) extra.push({ value: v, count: d, lines: tr.get(v).lines,
     absent: !en.has(v) && !allEn.has(v) && !tr.get(v).scaled.some((x) => enScaled.has(x)),
     contexts: lineContexts(trOcc, enOcc, v, trLines, aligned) });
+  // A changed digit: a value the translation lost and one it gained, both on
+  // the same line of a page that keeps the English line structure ("In 2024
+  // again" -> "In 2025 again" where both years occur elsewhere on the page).
+  // Recorded on both findings; numberSeverity() decides what blocks.
+  if (aligned) {
+    const lost = new Map(missing.map((m) => [m.value, surplus(enOcc, trOcc, m.value)]));
+    const won = new Map(extra.map((x) => [x.value, surplus(trOcc, enOcc, x.value)]));
+    for (const m of missing) for (const x of extra) {
+      if ([...lost.get(m.value).keys()].some((l) => won.get(x.value).has(l))) {
+        (m.changed ??= []).push(x.value);
+        (x.changed ??= []).push(m.value);
+      }
+    }
+  }
   return { missing, extra };
 }
 
@@ -646,9 +669,12 @@ export const isSmall = (v) => /^\d+$/.test(v) && Number(v) <= 10;
 // Blocking: a number that is not small and that vanished from the page or
 // appeared from nowhere. A count difference alone ("24/7" -> "24 h/24 et
 // 7 j/7", a year repeated in a rephrased sentence) is advisory: good
-// translations restate numbers, and a changed digit never shows up as a mere
-// count difference, since it removes one value and adds another.
-export const numberSeverity = (f) => (f.absent && !isSmall(f.value) ? "error" : "warning");
+// translations restate numbers. A changed digit can hide as a count
+// difference, though, when both values occur elsewhere on the page; on an
+// aligned page that shows as a lost and a gained value on the same line
+// (`changed`, see numberDelta), which blocks when neither value is small.
+export const numberSeverity = (f) =>
+  !isSmall(f.value) && (f.absent || f.changed?.some((v) => !isSmall(v))) ? "error" : "warning";
 
 // Everything the gate reports for one page pair, as keyed findings so a base
 // pair can be subtracted. Each finding: { kind, value, count, lines, severity }
@@ -680,18 +706,28 @@ export function compare(enText, trText, { locale = "", protectedTerms = [] } = {
   return findings;
 }
 
-// Findings at head minus findings at base, per kind+value. An inherited
-// occurrence is subtracted only where its context (see context()) existed at
-// the base too, so fixing a bad token in one paragraph and writing it into
-// another is new damage. A finding without contexts (the page and its
-// English differ in line structure) falls back to subtracting by count.
+// Findings at head minus findings at base, per kind+value.
+//
+// A digit token or a hash is subtracted only where its context (see
+// context()) existed at the base too, so fixing a bad token in one paragraph
+// and writing it into another is new damage. A finding without contexts (the
+// page and its English differ in line structure) falls back to subtracting by
+// count.
+//
+// A number finding is subtracted by count alone: a translation choice such as
+// "filiale à 100 %" for "wholly owned subsidiary" stays where it is when a
+// resync rewords the sentence, and matching it by its line would block it
+// again on every resync. It stays new when it got worse: more of it than at
+// the base, or blocking now where the base only warned (a changed digit).
 export function introduced(head, base) {
   const prev = new Map(base.map((f) => [`${f.kind}\0${f.value}`, f]));
   const out = [];
   for (const f of head) {
     const b = prev.get(`${f.kind}\0${f.value}`);
     let inherited = b?.count ?? 0;
-    if (b && f.contexts && b.contexts) {
+    if (b && f.kind.startsWith("number-")) {
+      if (f.severity === "error" && b.severity !== "error") inherited = 0;
+    } else if (b && f.contexts && b.contexts) {
       const pool = new Map();
       for (const c of b.contexts) pool.set(c, (pool.get(c) ?? 0) + 1);
       let same = 0;
