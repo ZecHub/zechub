@@ -32097,7 +32097,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+proofread",
       "edited": false
     },
     "Start_Here/Using_This_Wiki.md": {
@@ -32105,7 +32105,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+proofread",
       "edited": false
     },
     "Start_Here/What_is_ZEC_and_Zcash.md": {
@@ -32113,7 +32113,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+proofread",
       "edited": false
     },
     "Start_Here/What_is_ZecHub.md": {
@@ -32121,7 +32121,7 @@
       "src_commit": "099671de82d131c7fcfae650d8807dc19d1665eb",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+proofread",
       "edited": false
     },
     "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
