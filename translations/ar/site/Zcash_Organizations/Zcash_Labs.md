@@ -1,7 +1,7 @@
 # Zcash مختبرات
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/313788363?s=200&v=4" alt="شعار Zcash مختبرات" width="320" />
+  <img src="/content-images/313788363-f867625894.webp" alt="شعار Zcash مختبرات" width="320" />
 </p>
 
 ---
@@ -128,9 +128,9 @@
 
 ---
 
-## ZcashtoCash
+## ZcashToCash
 
-**[ZcashtoCash](https://zcashto.cash/)** هو أحد أقدم المشاريع المعروفة علنًا بأنها تلقت دعمًا من Zcash مختبرات. أُنشئ المشروع لمساعدة المستخدمين على تحويل ZEC إلى عملة ورقية عبر معاملات الند للند.
+**[ZcashToCash](https://zcashto.cash/)** هو أحد أقدم المشاريع المعروفة علنًا بأنها تلقت دعمًا من Zcash مختبرات. أُنشئ المشروع لمساعدة المستخدمين على تحويل ZEC إلى عملة ورقية عبر معاملات الند للند.
 
 يستخدم zcashtocash بنية تحتية من **Peer**. ويُستخدم هذا النظام للتحقق من المدفوعات الورقية قبل إصدار ZEC في معاملة. وعندما طُرحت Zcash مختبرات للجمهور، كانت الخدمة تدعم بالفعل **Cash App** و**Chime** و**Monzo** و**Revolut** و**Venmo** و**Zelle**.
 
@@ -232,6 +232,6 @@
 
 [Zcash مختبرات على X](https://x.com/zcashlabs)
 
-[Zcash مختبرات على Github](https://github.com/zcashlabs)
+[Zcash مختبرات على GitHub](https://github.com/zcashlabs)
 
 [Zcash مختبرات على مدونات الويب](https://zcashlabs.org/blog)

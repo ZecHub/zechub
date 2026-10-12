@@ -18,7 +18,7 @@ Heartwood는 고정된 시각이 아니라 정해진 블록 높이(903,000)에�
 
 코인베이스 트랜잭션은 블록 보상을 지급하는 특별한 트랜잭션입니다. Heartwood 이전에는 그 출력이 반드시 투명해야 했기 때문에, 채굴자가 새로 발행받은 ZEC는 항상 공개 주소에서 시작되었습니다. Heartwood는 합의 규칙을 변경하여, ZIP 213의 표현을 빌리면, 코인베이스 트랜잭션이 Sapling 출력을 포함할 수 있게 했습니다. 쉽게 말해, 이제 채굴자는 보상을 실드된 Sapling 주소로 직접 받을 수 있습니다. 투명 코인베이스 출력도 여전히 지원되므로, 이는 강제 변경이 아니라 새로운 선택지입니다.
 
-![Heartwood 이전에는 채굴자의 블록 보상이 반드시 투명한 공개 주소로 가야 했습니다. Heartwood 이후에는 코인베이스 트랜잭션이 Sapling 출력을 포함할 수 있으므로, 보상이 곧바로 실드 주소로 갈 수 있습니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![Heartwood 이전에는 채굴자의 블록 보상이 반드시 투명한 공개 주소로 가야 했습니다. Heartwood 이후에는 코인베이스 트랜잭션이 Sapling 출력을 포함할 수 있으므로, 보상이 곧바로 실드 주소로 갈 수 있습니다](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## 왜 먼저 Sapling이었을까
 
@@ -28,13 +28,13 @@ Heartwood는 고정된 시각이 아니라 정해진 블록 높이(903,000)에�
 
 Heartwood는 또한 블록 헤더가 무엇에 커밋하는지도 바꾸었습니다. 이전에 hashFinalSaplingRoot라고 불리던 헤더 필드는 용도가 변경되어 hashLightClientRoot로 이름이 바뀌었습니다. 이제 이 필드는 머클 마운틴 레인지(MMR)의 루트에 커밋합니다. 이는 이전 블록들의 헤더 데이터와 메타데이터(예: 타임스탬프, 난이도 목표값, Sapling 루트, 누적 작업량, 트랜잭션 수)를 바탕으로 구축되는 누적 구조입니다. 이 커밋 덕분에 경량 클라이언트나 외부 체인은 체인 길이에 대해 크기가 로그적으로만 증가하는 작은 증명으로 Zcash의 작업증명을 검증할 수 있습니다. 그 결과는 더 나은 경량 클라이언트 지갑과 더 쉬운 서드파티 및 크로스체인 통합입니다. 이제 클라이언트는 체인을 뒷받침하는 작업량을 신뢰하기 위해 모든 블록을 다운로드할 필요가 없습니다.
 
-![FlyClient 흐름: 각 블록의 헤더 데이터는 Merkle Mountain Range 루트(hashLightClientRoot)에 커밋되며, 이를 통해 경량 클라이언트는 크기가 작은 로그형 증명으로 작업증명을 검증할 수 있습니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![FlyClient 흐름: 각 블록의 헤더 데이터는 Merkle Mountain Range 루트(hashLightClientRoot)에 커밋되며, 이를 통해 경량 클라이언트는 크기가 작은 로그형 증명으로 작업증명을 검증할 수 있습니다](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Heartwood의 위치
 
 Heartwood는 Zcash 업그레이드 연속선상에 있는 한 단계이며, 각 업그레이드는 다음 단계가 의존하는 구성 요소를 추가합니다. Overwinter와 Sapling은 2018년에, Blossom은 2019년에, Heartwood는 2020년 블록 903,000에서 도입되었습니다. 이후 2020년 후반 블록 1,046,400에서 Canopy가 뒤따랐습니다. Heartwood에서 이 연쇄의 핵심 연결 고리는 Sapling입니다. Sapling의 효율적인 실드 트랜잭션 구조가 실드 코인베이스를 가능하게 한 기술적 전제조건이었기 때문입니다.
 
-![Zcash 업그레이드 타임라인: 2018년 Overwinter와 Sapling, 2019년 Blossom, 2020년 Heartwood](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Zcash 업그레이드 타임라인: 2018년 Overwinter와 Sapling, 2019년 Blossom, 2020년 Heartwood](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## 용어집
 
@@ -88,7 +88,7 @@ Heartwood 이전에는 왜 채굴자에게 지급된 블록 보상이 공개적�
 
 [지갑](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

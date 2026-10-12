@@ -12,7 +12,7 @@ Canopy ni Zcash ya tano mtandao kuboresha, pia iitwayo Network Upgrade 4 (NU4). 
 
 Why this matters. Zcash funds its own development from block rewards, because it has no company behind it. The founders reward that paid for its early years was set to end at the first halving. Canopy was the replacement: it routed a fixed share of each block reward into a Development Fund and set who receives it. That model was refined by later upgrades, up to [NU6.1](../zcash-tech/nu6-1).
 
-![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## Mfuko wa maendeleo
 
@@ -30,7 +30,7 @@ Mfuko wa Maendeleo inachukua asilimia 20 ya kila block tuzo. wachimbaji kuweka w
 
 Kupimwa dhidi ya malipo yote block badala tu mfuko, hisa hizo kazi nje kwa asilimia 7 Electric Coin Company, 5 per cent Zcash Foundation na 8 per cent Major misaada. njia zote mbili za kuelezea ni idadi sawa.
 
-![The Development Fund is 20 percent of each block reward, split 35 percent to Bootstrap and the Electric Coin Company, 25 percent to the Zcash Foundation, and 40 percent to Major Grants](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![The Development Fund is 20 percent of each block reward, split 35 percent to Bootstrap and the Electric Coin Company, 25 percent to the Zcash Foundation, and 40 percent to Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## Mabadiliko ya bwawa la Sprout
 
@@ -38,7 +38,7 @@ Canopy pia alianza kustaafu ya zamani kulindwa pool. Sprout alikuwa Zcash kwanza
 
 Kutoka wakati Canopy kuanzishwa, hakuna thamani mpya inaweza kuwa aliongeza katika shina bwawa. Katika suala la kiufundi, vpub_old uwanja wa kila JoinSplit lazima zero. Fedha tayari katika Sprout bado unaweza kutolewa, hivyo mtu yeyote ni imefungwa nje, lakini pool tu shrink kutoka hapa. Hii ni hatua ya kwanza kuelekea hatimaye deprecating urithi Shina bwawa kwa ajili ya mabwawa mapya ulinzi.
 
-![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## Nyongeza za kiufundi
 

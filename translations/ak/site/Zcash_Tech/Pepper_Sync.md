@@ -52,9 +52,9 @@ Bookmark no ne ɔfã a ɛho hia. Nkyerɛase biara a atwam no buu sync a wɔatwa 
 
 ### Akwankyerɛ ahorow a wɔde aniwa hu
 
-- Detailed Flow - Kyerɛ adeyɛ no nyinaa. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Detailed Flow - Kyerɛ adeyɛ no nyinaa. ![Detailed Flow](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Simplified Flow - Ntɛmntɛm hwɛ ma wɔn a wɔde di dwuma da biara da. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Simplified Flow - Ntɛmntɛm hwɛ ma wɔn a wɔde di dwuma da biara da. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## Deep Dive a Wɔde Nsu Gu Mu
 

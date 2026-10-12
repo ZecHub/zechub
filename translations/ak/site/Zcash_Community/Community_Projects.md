@@ -11,7 +11,7 @@ Nhomasua adwuma nhoma a Zcash wiase nyinaa mpɔtam hɔfo na wɔyɛe.
 [Sra](https://github.com/massadoptionorg/My-First-Zcash)
 
 ### ZECPublish
-Censorship-resistant, Zcash blockchain-a wɔde di dwuma wɔ sohyial media so. Zcash dwumadiefoɔ kyerɛwtohɔ ne nkrasɛm board a wɔmmɔ din ka ho. 
+Censorship-resistant, Zcash blockchain-a ɛyɛ adwuma wɔ sohyial media so. Zcash dwumadiefoɔ kyerɛwtohɔ ne nkrasɛm board a wɔmmɔ din ka ho. 
 (Wɔde wɛbsaet no nni intanɛt so mprempren fi September 2026.)
 
 ### ZK Radio so na ɔkyerɛwee
@@ -39,7 +39,7 @@ Privacy-first audiovisual collective a ɛtete, bom bɔ, na ɛma atuhoamafo AV mm
 [Sra](https://zkav.club/)
 
 ### Zcash Network Sukuu a ɛwɔ hɔ
-Nhomasua mu nsɛm a wɔahyehyɛ ama Zcash dwumadiefoɔ ne wɔn a wɔyɛ foforɔ. 
+Nhomasua mu nsɛm a wɔahyehyɛ ama Zcash dwumadiefoɔ foforɔ ne wɔn a wɔyɛ. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
 ### Zectastic
@@ -120,7 +120,7 @@ Botae a egyina sikakorabea sika kotoku a wɔasi wɔ Zcash kyɛm nkitahodi so.
 YWallet a ɛboa Zcash protocol nneɛma a aba foforo a Orchard. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
-### MonteZecret na ɔkyerɛwee
+### MonteZecret
 Sɔhwɛ desktop sika kotoku a emu yɛ hare ma Zcash a wɔakyerɛw wɔ Rust mu. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
@@ -144,7 +144,7 @@ Desktop sika kotoku a wɔde hwɛ nneɛma nkutoo a wɔayɛ ama ankorankoro ne ahy
 
 ## Nhwehwɛmufo, Data, ne Network Dashboards
 
-### CipherScan a wɔde kyerɛw nsɛm
+### CipherScan
 Kokoamsɛm-di kan Zcash blockchain nhwehwɛmufo. Wɔde Next.js 15, TypeScript, ne Rust/WASM na ɛkyekyee. Lookups ntumi nkɔ asɛmmisa metadata. 
 [Sra](https://cipherscan.app/)
 
@@ -176,6 +176,10 @@ Adwinnade a wɔde hwɛ gRPC mmuae bere a Zcash lightwalletd nodes.
 Dashboard ma bere ankasa Zcash ntwamutam akontaabu ne shielding metrics. 
 [Sra](https://zecstats.com)
 
+### ZecZcash
+Zcash data a ɛde ne ho, nnwinnade, ne nhwehwɛmu beae. Nea ɛka ho ne explorer, gua ne fã nnwinnade, sika kotoku akwankyerɛ, ne abɔde a nkwa wom ho amanneɛbɔ. Ɛnyɛ nea ɛne ECC anaa Zcash Foundation. 
+[Sra](https://zeczcash.com/)
+
 ### zecprice a ɛyɛ fɛ
 Tracking ne data metrics adwinnade ma Zcash gua so bo adwumayɛ. 
 [Sra](https://zecprice.com)
@@ -189,7 +193,7 @@ Zcash abɔde a nkwa wom nhyehyɛe no gua a edi kan a ɛfa kokoam nsɛm ho. Katua
 [Sra](https://zecmarket.org/)
 
 ### Zecsite
-Wɛbsaet a ɛgyina hɔ pintinn a ɛtwe adwene si kokoamsɛm so a ɛboaboa Zcash amanneɛbɔ, akontabuo, ne nkyerɛkyerɛ mu nsɛm ano a wɔmfa JavaScript nni dwuma. 
+Wɛbsaet a ɛgyina hɔ pintinn a ɛtwe adwene si kokoamsɛm so a ɛboaboa Zcash amanneɛbɔ, akontabuo, ne nkyerɛkyerɛ mu nsɛm ano a wɔmfa JavaScript. 
 [Sra](https://zecsite.org/netscape/en/index.html)  
 [Nhyiamu](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
@@ -277,7 +281,7 @@ Adwinnade a wɔde yɛ nneɛma a wɔmmɔ din ne kokoam ntoboa a Zcash.
 Zcash gateway a ɛma browser sika kotoku ne cross-chain DeFi kwan. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
-### BazaarSwap na ɛwɔ hɔ
+### BazaarSwap
 Zcash-native DEX a ɛde ZEC a wɔabɔ ho ban ba Web3 DeFi mu denam WalletConnect so. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
@@ -285,7 +289,7 @@ Zcash-native DEX a ɛde ZEC a wɔabɔ ho ban ba Web3 DeFi mu denam WalletConnect
 Decred decentralized exchange a ɛboa Zcash. 
 [Sra](https://dex.decred.org)
 
-### Brave Sikakorabea
+### Brave Wallet
 Browser sika kotoku a Zcash mmoa wom. 
 [Sra](https://brave.com/wallet/)
 
@@ -301,7 +305,7 @@ Atipɛnfo-ne-atipɛnfo poker platform a ɛka awiei-kɔ-awie encryption, adwene m
 
 ## Ahyehyɛde ahorow & Labs
 
-### Labs a Wɔabɔ ho Ban
+### Shielded Labs
 Zcash mmoa ahyehyɛde a ɛde ne ho, a wɔde ntoboa na ɛyɛ adwuma a ɛwɔ Switzerland. Ahyehyɛde a edi kan wɔ abɔde a nkwa wom mu a ennyaa Development Fund anaasɛ block reward funding da. 
 [Sra](https://shieldedlabs.net/)
 

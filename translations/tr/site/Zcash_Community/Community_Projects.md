@@ -175,6 +175,10 @@ Zcash lightwalletd düğümlerinin gRPC yanıt sürelerini kontrol etmeye yönel
 Gerçek zamanlı Zcash ağ istatistikleri ve shielding metrikleri için pano.  
 [Ziyaret et](https://zecstats.com)
 
+### ZecZcash
+Bağımsız Zcash veri, araç ve araştırma sitesi. Bir gezgin, piyasa ve yarılanma araçları, cüzdan rehberleri ve ekosistem haberleri içerir. ECC veya Zcash Foundation ile bağlantılı değildir.  
+[Ziyaret et](https://zeczcash.com/)
+
 ### zecprice
 Zcash piyasa fiyatı performansını takip eden ve veri metrikleri sunan araç.  
 [Ziyaret et](https://zecprice.com)

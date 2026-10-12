@@ -7,7 +7,7 @@ Cypherpunk Zero est une série d'histoires centrée sur Zero, un jeune hacker cy
 
 L'histoire a été inspirée par la cryptographie Zcash et Halo. Le travail créatif est un effort de collaboration entre ECC, Stranger World, Might Jaxx et certains partenaires de l'écosystème.
 
-Le travail créatif s'est notamment concentré sur une [série NFT](https://opensea.io/collection/cypherpunk-zero), mais une [bande dessinée prologue](https://halo.electriccoin.co/#view-prologue ) et [jouet de collection](https://mightyjaxx.com/products/cypherpunk-zero) ont également été publiés.
+Le travail créatif s'est notamment concentré sur une [série NFT](https://opensea.io/collection/cypherpunk-zero), et [jouet de collection](https://mightyjaxx.com/products/cypherpunk-zero) ont également été publiés.
 
 La communauté NFT, principalement active sur Twitter, a même créé une [organisation décentralisée (DAO)](https://twitter.com/CypherpunkDAO) pour organiser et mener à bien des projets soutenant la campagne et la communauté Zcash au sens large.
 
@@ -41,17 +41,12 @@ Croyez que nous avons des avantages incroyables et exclusifs dans le pipeline po
 - 24% de l'offre (2 400 NFT) sera détenue par ECC dans la réserve Cypherpunk, pour une utilisation dans de futures initiatives qui font progresser Zcash et la confidentialité au sein de l'espace Web3.
 
 ## Ressources
-
-[Site Web Cypherpunk Zero](https://halo.electriccoin.co/)
-
 [Cypherpunk Zéro Twitter](https://twitter.com/cypherpunkZero)
 
-[Collection Cypherpunk Zero Opensea](https://opensea.io/collection/cypherpunk-zero)
+[Collection Cypherpunk Zero OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zéro DAO Twitter](https://twitter.com/CypherpunkDAO)
 
 [Discorde Cypherpunk Zero DAO](https://discord.com/invite/sjfgXys4Jf)
 
 [Cypherpunk Zero NFT Mega Thread](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
-
-

@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero は、ゼロという若きサイファーパンクハッカーで自由闘士を中心に語られる物語シリーズです。ゼロは現在、独裁的な支配者が社会を縛っているディストピアの悪夢の中に生きていますが、彼女はコードを使ってその支配者たちと戦っています。この物語は Zcash および Halo 暗号技術からインスピレーションを受けました。このクリエイティブなプロジェクトは ECC、Stranger World、Might Jaxx および選定されたエコシステムパートナーによる共同制作です。この作品は特に [NFT シリーズ](https://opensea.io/collection/cypherpunk-zero) に焦点を当てていますが、[プロローグコミック](https://halo.electriccoin.co/#view-prologue) および [コレクタブル玩具](https://mightyjaxx.com/products/cypherpunk-zero) もリリースされています。NFT コミュニティは主に Twitter 上で活動しており、キャンペーンや広範な Zcash コミュニティを支援するプロジェクトの組織化と実行のために [分散型組織（DAO）](https://twitter.com/CypherpunkDAO) を作成しました。
+Cypherpunk Zero は、ゼロという若きサイファーパンクハッカーで自由闘士を中心に語られる物語シリーズです。ゼロは現在、独裁的な支配者が社会を縛っているディストピアの悪夢の中に生きていますが、彼女はコードを使ってその支配者たちと戦っています。この物語は Zcash および Halo 暗号技術からインスピレーションを受けました。このクリエイティブなプロジェクトは ECC、Stranger World、Might Jaxx および選定されたエコシステムパートナーによる共同制作です。この作品は特に [NFT シリーズ](https://opensea.io/collection/cypherpunk-zero) に焦点を当てていますが  および [コレクタブル玩具](https://mightyjaxx.com/products/cypherpunk-zero) もリリースされています。NFT コミュニティは主に Twitter 上で活動しており、キャンペーンや広範な Zcash コミュニティを支援するプロジェクトの組織化と実行のために [分散型組織（DAO）](https://twitter.com/CypherpunkDAO) を作成しました。
 
 ## 抗議ロードマップ
 
@@ -55,11 +55,9 @@ Cypherpunk Zero は、ゼロという若きサイファーパンクハッカー�
 
 ## 資源
 
-[Cypherpunk Zero ウェブサイト](https://halo.electriccoin.co/)
-
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea コレクション](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea コレクション](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

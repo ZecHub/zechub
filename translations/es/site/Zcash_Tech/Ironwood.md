@@ -14,7 +14,7 @@ Por qué importa esto. Con dinero transparente como Bitcoin, cualquiera puede co
 
 ¿Eres nuevo en Zcash? Empieza con [Qué son ZEC y Zcash](../start-here/what-is-zec-and-zcash) y [Pools blindados](../using-zcash/shielded-pools), y luego vuelve aquí.
 
-![Flujo de migración de valor de Ironwood: el valor sale del pool Orchard, pasa por el punto de control del torniquete y entra en el nuevo pool Ironwood](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Flujo de migración de valor de Ironwood: el valor sale del pool Orchard, pasa por el punto de control del torniquete y entra en el nuevo pool Ironwood](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Por qué se necesitó Ironwood
 
@@ -24,7 +24,7 @@ A finales de mayo de 2026, el investigador independiente de seguridad Taylor Hor
 2. En teoría, un atacante podría haber usado la falla para falsificar valor inválido dentro del pool Orchard y gastar fondos que en realidad no le pertenecían, sin dejar rastro que un nodo normal detectara.
 3. El torniquete de Zcash seguía limitando cuánto valor podía salir alguna vez de Orchard, por lo que el suministro total no podía inflarse, pero la propia criptografía del pool ya no garantizaba que cada moneda oculta dentro de él fuera real.
 
-![Explicación del error: una transacción introduce 5 ZEC, pero la prueba defectuosa sigue pasando cuando salen 7 ZEC, creando 2 ZEC de la nada](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![Explicación del error: una transacción introduce 5 ZEC, pero la prueba defectuosa sigue pasando cuando salen 7 ZEC, creando 2 ZEC de la nada](/content-images/ironwood-bug-8f689d6f61.webp)
 
 Los números de arriba son una imagen simplificada. La falla real estaba en una parte específica de las matemáticas del circuito, no en un conteo literal de monedas que entran y salen. Lo importante es entender que un error de solidez puede permitir que se cree valor dentro del pool sin ser detectado.
 
@@ -34,13 +34,13 @@ Es importante destacar que no hay evidencia de que el error se haya explotado al
 
 La comunidad de Zcash implementó correcciones por etapas en lugar de hacerlo todo de una vez.
 
-![Cronología de la respuesta de Ironwood: el error de Orchard se encuentra en mayo de 2026, el pool se pausa en junio de 2026, el circuito se corrige en NU6.2 e Ironwood se activó en el bloque 3,428,143 el 28 de julio de 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Cronología de la respuesta de Ironwood: el error de Orchard se encuentra en mayo de 2026, el pool se pausa en junio de 2026, el circuito se corrige en NU6.2 e Ironwood se activó en el bloque 3,428,143 el 28 de julio de 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. A principios de junio de 2026, una medida temporal deshabilitó el pool Orchard mientras se preparaba una corrección completa.
 2. La actualización NU6.2 corrigió el propio circuito de Orchard, cerrando la vulnerabilidad de solidez subyacente.
 3. La actualización NU6.3, Ironwood, introduce un pool blindado nuevo y un punto de control público para que el valor pueda salir del antiguo pool Orchard bajo auditoría completa.
 
-![La corrección en NU6.2: la prueba corregida exige que las entradas sean iguales a las salidas, por lo que una salida válida de 5 ZEC pasa mientras que un intento de sacar 7 ZEC es rechazado](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![La corrección en NU6.2: la prueba corregida exige que las entradas sean iguales a las salidas, por lo que una salida válida de 5 ZEC pasa mientras que un intento de sacar 7 ZEC es rechazado](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Qué hace el pool Ironwood
 
@@ -121,7 +121,7 @@ A través del torniquete. Cada moneda que sale del antiguo pool Orchard se cuent
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Seguridad post-cuántica](../zcash-tech/post-quantum-security)
 

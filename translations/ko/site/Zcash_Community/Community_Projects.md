@@ -175,6 +175,10 @@ Zcash lightwalletd 노드의 gRPC 응답 시간을 확인하는 도구입니다.
 실시간 Zcash 네트워크 통계와 실드 지표를 위한 대시보드입니다.  
 [방문하기](https://zecstats.com)
 
+### ZecZcash
+독립적인 Zcash 데이터, 도구 및 연구 사이트입니다. 탐색기, 시장 및 반감기 도구, 지갑 가이드, 생태계 뉴스를 제공합니다. ECC 또는 Zcash Foundation와 제휴하지 않았습니다.  
+[방문](https://zeczcash.com/)
+
 ### zecprice
 Zcash 시장 가격 성과를 추적하고 데이터 지표를 제공하는 도구입니다.  
 [방문하기](https://zecprice.com)

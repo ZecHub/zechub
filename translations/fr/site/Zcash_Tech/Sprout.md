@@ -16,19 +16,19 @@ Pourquoi c’est important. Avant Sprout, toutes les blockchains publiques expos
 
 Sprout a créé deux types d’adresses. Les adresses transparentes (t-addresses) fonctionnent comme dans Bitcoin, avec des détails visibles sur le registre public. Les adresses protégées (z-addresses) envoient les fonds dans le [pool protégé](../using-zcash/shielded-pools) Sprout, où l’expéditeur, le destinataire et le montant restent cachés. L’astuce repose sur les [zk-SNARKs](../zcash-tech/zk-snarks), des preuves à divulgation nulle de connaissance qui permettent à une transaction de montrer qu’elle est valide, sans double dépense et avec des soldes qui s’équilibrent, sans révéler aucun détail. Sprout a été la première fois que cela fonctionnait en production sur une cryptomonnaie en direct.
 
-![Les transactions transparentes exposent l’expéditeur, le destinataire et le montant, tandis que les transactions protégées Sprout masquent les trois tout en restant vérifiables](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![Les transactions transparentes exposent l’expéditeur, le destinataire et le montant, tandis que les transactions protégées Sprout masquent les trois tout en restant vérifiables](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## La Ceremony
 
 Les zk-SNARKs de Sprout nécessitaient un ensemble de paramètres publics, et leur génération en toute sécurité demandait une configuration unique appelée la Ceremony. Six participants, dans des lieux séparés et éloignés, ont chacun généré une pièce secrète, appelée toxic waste. Si quelqu’un avait un jour réassemblé toutes les pièces, il aurait pu créer des ZEC à partir de rien. Le design a transformé ce risque en une règle simple : tant qu’au moins un participant détruisait sa pièce, le secret complet ne pouvait jamais être reconstitué, et la contrefaçon restait impossible. Les participants dont le nom a été rendu public incluent Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd et Derek Hinch de NCC Group. Un participant a choisi de rester anonyme.
 
-![La Ceremony : six participants génèrent des fragments privés, puis détruisent le toxic waste, ne laissant que les paramètres publics de Sprout](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![La Ceremony : six participants génèrent des fragments privés, puis détruisent le toxic waste, ne laissant que les paramètres publics de Sprout](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## L’origine
 
 Sprout est la base sur laquelle repose chaque évolution ultérieure. Lorsque le mécanisme de mise à niveau du réseau est arrivé avec Overwinter, il a attribué aux règles d’origine l’identifiant de branche de consensus 0, ce qui signifie simplement qu’aucune mise à niveau n’a encore été appliquée. Tout ce qui a suivi (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, et la suite) repose sur la chaîne lancée par Sprout. Le lancement a été annoncé en août 2016 pour une genèse au 28 octobre, la Ceremony s’est déroulée dans les semaines précédentes, et l’horodatage codé en dur du bloc genesis indique le 28 octobre 2016 à 07:56 UTC.
 
-![Chronologie allant de l’annonce d’août 2016 à la Ceremony des paramètres jusqu’au lancement de Sprout le 28 octobre 2016](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![Chronologie allant de l’annonce d’août 2016 à la Ceremony des paramètres jusqu’au lancement de Sprout le 28 octobre 2016](/content-images/sprout-timeline-348766352a.webp)
 
 ## Glossaire
 
@@ -77,7 +77,7 @@ Sprout est le lancement d’origine de Zcash, et non une mise à niveau ultérie
 
 [Pools protégés](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Mises à niveau du réseau Zcash](../start-here/network-upgrades)
 

@@ -128,6 +128,64 @@ export function normalizeAlt(alt) {
   return alt.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+// Placeholder alt text comes in two shapes. Some of it is a fixed phrase that
+// can be listed ("logo"), and some of it is a family that cannot: `img1` was
+// listed while `img2` through `img10` were not, so 36 images carrying a bare
+// sequence number were reported as acceptable descriptions. Patterns express
+// the family once instead of requiring a new entry each time a page adds
+// another numbered image.
+//
+// Both config shapes are accepted. A bare JSON array keeps working exactly as
+// before; an object may carry "exact" and "patterns". Patterns are tested
+// against the SAME normalized form as exact entries, so a pattern author does
+// not have to account for casing or repeated whitespace.
+export function buildPlaceholderMatcher(raw, source = DEFAULT_PLACEHOLDERS) {
+  let exactInput;
+  let patternInput;
+
+  if (Array.isArray(raw)) {
+    exactInput = raw;
+    patternInput = [];
+  } else if (raw && typeof raw === "object") {
+    exactInput = raw.exact ?? [];
+    patternInput = raw.patterns ?? [];
+    if (!Array.isArray(exactInput) || !Array.isArray(patternInput)) {
+      throw new Error(`${source}: "exact" and "patterns" must each be a JSON array of strings`);
+    }
+  } else {
+    throw new Error(
+      `${source} must contain a JSON array of strings, ` +
+      `or an object with "exact" and/or "patterns" arrays`
+    );
+  }
+
+  if (![...exactInput, ...patternInput].every((x) => typeof x === "string")) {
+    throw new Error(`${source}: every placeholder entry must be a string`);
+  }
+
+  const exact = new Set(exactInput.map(normalizeAlt));
+  // A malformed pattern is a configuration error, not a finding: it must fail
+  // loudly rather than silently match nothing and report a clean corpus.
+  const patterns = patternInput.map((source_) => {
+    try {
+      return new RegExp(source_, "u");
+    } catch (error) {
+      throw new Error(
+        `${source}: ${JSON.stringify(source_)} is not a valid regular expression: ${error.message}`
+      );
+    }
+  });
+
+  return {
+    // Shaped like a Set so classifyImage keeps working with a plain Set.
+    has(normalized) {
+      return exact.has(normalized) || patterns.some((re) => re.test(normalized));
+    },
+    exact: [...exact].sort(),
+    patterns: [...patternInput],
+  };
+}
+
 export function classifyImage(image, placeholders) {
   if (image.alt === null) return "missing";
   if (image.alt.trim() === "") return "empty";
@@ -161,6 +219,9 @@ function render(report) {
     `${report.missing + report.empty} missing/empty, ${report.placeholder} placeholder.`
   );
   lines.push(`Placeholder list: ${report.placeholders.join(", ")}`);
+  if (report.placeholderPatterns.length) {
+    lines.push(`Placeholder patterns: ${report.placeholderPatterns.join(", ")}`);
+  }
   lines.push("");
 
   if (!report.pages.length) {
@@ -184,11 +245,10 @@ export async function scanRepository({
   root = DEFAULT_ROOT,
   placeholderFile = DEFAULT_PLACEHOLDERS,
 } = {}) {
-  const rawPlaceholders = JSON.parse(await readFile(placeholderFile, "utf8"));
-  if (!Array.isArray(rawPlaceholders) || rawPlaceholders.some((x) => typeof x !== "string")) {
-    throw new Error(`${placeholderFile} must contain a JSON array of strings`);
-  }
-  const placeholders = new Set(rawPlaceholders.map(normalizeAlt));
+  const placeholders = buildPlaceholderMatcher(
+    JSON.parse(await readFile(placeholderFile, "utf8")),
+    placeholderFile,
+  );
 
   // `site/zechubglobal/` is the translated corpus. The default report is
   // intentionally English-only, matching the documented bounty scope.
@@ -234,7 +294,8 @@ export async function scanRepository({
     empty,
     missingOrEmpty: missing + empty,
     placeholder,
-    placeholders: [...placeholders].sort(),
+    placeholders: placeholders.exact,
+    placeholderPatterns: placeholders.patterns,
     pages,
   };
 }

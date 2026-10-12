@@ -1,0 +1,57 @@
+{
+  "locale": "es",
+  "version": 1,
+  "meta": {
+    "language_name": "Spanish",
+    "native_name": "Español",
+    "engine": "llm",
+    "script": "Latn",
+    "dir": "ltr",
+    "language_lead": [],
+    "last_review": null
+  },
+  "style": {
+    "variety": "natural, fluent Spanish",
+    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Spanish usage; do not force awkward coinages."
+  },
+  "terms": {
+    "node": {
+      "target": "nodo",
+      "forms": [
+        "nodo",
+        "nodos"
+      ],
+      "rejected": [
+        {
+          "text": "node",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "nodes",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@steward (legacy prompt head)"
+      ],
+      "reviewed_at": "2026-10-10",
+      "source": "prompt_head_es.txt"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-10-10",
+      "terms": [
+        "node"
+      ],
+      "phrases": [],
+      "summary": "Imported from the runner's hand-written prompt_head_es.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    }
+  ]
+}

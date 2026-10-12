@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero ist eine Erzählserie rund um Zero, eine junge Cypherpunk-Hackerin und Freiheitskämpferin. Zero lebt derzeit in einem dystopischen Albtraum und nutzt Code, um gegen die zentralisierten Gatekeeper zu kämpfen, die die Gesellschaft in Ketten legen. Die Geschichte wurde von Zcash und der Halo-Kryptographie inspiriert. Das kreative Werk ist eine Gemeinschaftsarbeit von ECC, Stranger World, Might Jaxx und ausgewählten Ökosystem-Partnern. Der kreative Fokus lag vor allem auf einer [NFT-Serie](https://opensea.io/collection/cypherpunk-zero), aber auch ein [Prolog-Comic](https://halo.electriccoin.co/#view-prologue) und ein [Sammlerspielzeug](https://mightyjaxx.com/products/cypherpunk-zero) wurden veröffentlicht. Die NFT-Community, die größtenteils auf Twitter aktiv ist, hat sogar eine [dezentrale Organisation (DAO)](https://twitter.com/CypherpunkDAO) gegründet, um Projekte zu organisieren und umzusetzen, die die Kampagne und die breitere Zcash-Community unterstützen.
+Cypherpunk Zero ist eine Erzählserie rund um Zero, eine junge Cypherpunk-Hackerin und Freiheitskämpferin. Zero lebt derzeit in einem dystopischen Albtraum und nutzt Code, um gegen die zentralisierten Gatekeeper zu kämpfen, die die Gesellschaft in Ketten legen. Die Geschichte wurde von Zcash und der Halo-Kryptographie inspiriert. Das kreative Werk ist eine Gemeinschaftsarbeit von ECC, Stranger World, Might Jaxx und ausgewählten Ökosystem-Partnern. Der kreative Fokus lag vor allem auf einer [NFT-Serie](https://opensea.io/collection/cypherpunk-zero) und ein [Sammlerspielzeug](https://mightyjaxx.com/products/cypherpunk-zero) wurden veröffentlicht. Die NFT-Community, die größtenteils auf Twitter aktiv ist, hat sogar eine [dezentrale Organisation (DAO)](https://twitter.com/CypherpunkDAO) gegründet, um Projekte zu organisieren und umzusetzen, die die Kampagne und die breitere Zcash-Community unterstützen.
 
 ## Anti-Roadmap-Roadmap
 
@@ -55,11 +55,9 @@ Ja, die ursprüngliche Kollektion wurde gehackt, die Zukunft ist ungeschrieben.
 
 ## Ressourcen
 
-[Cypherpunk Zero Website](https://halo.electriccoin.co/)
-
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea-Kollektion](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea-Kollektion](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

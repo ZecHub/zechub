@@ -31,7 +31,7 @@
 | Східна Африка | [Zcash East Africa](https://x.com/ZcashEastAfrica) | Східна Африка, розвиток спільноти в Уганді |
 | Південна Африка | [Zcash South Africa](https://twitter.com/Zcash_SA) | Південна Африка |
 | Гана | [Zcash Ghana](https://x.com/ZcashGH) | Гана |
-| Мексика | [zcashqro](https://x.com/zcashqro) | Співпраця з університетами та залучення розробників |
+| Мексика | [Zcash Mexico](https://x.com/ZcashMx) | Співпраця з університетами та залучення розробників |
 | Росія | [ruZcash](https://x.com/ruZCASH) | Російськомовний контент і спільнота |
 | Індія | [Zcash India](https://x.com/ZcashIND) | Освіта для розробників і розвиток спільноти |
 | Корея | [Zcash Korea](https://x.com/zcashkorea) | Корейськомовний освітній контент |
@@ -39,5 +39,5 @@
 ## Подайте заявку, щоб стати амбасадором
 
 Ви також можете долучитися, виконавши такі дії:
-- Робити внесок у [ZEC винагороди](https://bounties.zechub.wiki/)
-- Приєднатися до [Zcash глобального Discord](https://discord.gg/zcash)
+- Роблячи внесок у [ZEC Bounties](https://bounties.zechub.wiki/)
+- Приєднавшись до [Zcash глобального Discord](https://discord.gg/zcash)

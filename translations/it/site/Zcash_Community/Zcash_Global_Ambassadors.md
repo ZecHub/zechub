@@ -31,7 +31,7 @@ Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consen
 | Africa orientale | [Zcash East Africa](https://x.com/ZcashEastAfrica) | Crescita della comunità in Africa orientale e Uganda |
 | Sudafrica | [Zcash South Africa](https://twitter.com/Zcash_SA) | Sudafrica |
 | Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
-| Messico | [zcashqro](https://x.com/zcashqro) | Sensibilizzazione universitaria e accoglienza degli sviluppatori |
+| Messico | [Zcash Mexico](https://x.com/ZcashMx) | Sensibilizzazione universitaria e accoglienza degli sviluppatori |
 | Russia | [ruZcash](https://x.com/ruZCASH) | Contenuti e comunità in lingua russa |
 | India | [Zcash India](https://x.com/ZcashIND) | Formazione per sviluppatori e crescita della comunità |
 | Corea | [Zcash Korea](https://x.com/zcashkorea) | Contenuti educativi in coreano |
@@ -39,5 +39,5 @@ Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consen
 ## Candidati per diventare Ambasciatore
 
 Puoi anche partecipare:
-- Contribuendo alle [ZEC ricompense](https://bounties.zechub.wiki/)
+- Contribuendo alle [ZEC Bounties](https://bounties.zechub.wiki/)
 - Unendoti al [Zcash Discord globale](https://discord.gg/zcash)

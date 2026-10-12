@@ -14,7 +14,7 @@ Pourquoi cela compte. Avec de l’argent transparent comme Bitcoin, n’importe 
 
 Nouveau sur Zcash ? Commencez par [Qu’est-ce que ZEC et Zcash](../start-here/what-is-zec-and-zcash) et [Pools Shielded](../using-zcash/shielded-pools), puis revenez ici.
 
-![Flux de migration de valeur d’Ironwood : la valeur quitte le pool Orchard, passe par le point de contrôle du tourniquet, et entre dans le nouveau pool Ironwood](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
+![Flux de migration de valeur d’Ironwood : la valeur quitte le pool Orchard, passe par le point de contrôle du tourniquet, et entre dans le nouveau pool Ironwood](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Pourquoi Ironwood était nécessaire
 
@@ -24,7 +24,7 @@ Fin mai 2026, le chercheur indépendant en sécurité Taylor Hornby, dans le cad
 2. En théorie, un attaquant aurait pu exploiter cette faille pour forger une valeur invalide à l’intérieur du pool Orchard et dépenser des fonds qui ne lui appartenaient pas réellement, sans laisser de trace qu’un nœud normal pourrait détecter.
 3. Le tourniquet de Zcash limitait tout de même la quantité de valeur pouvant quitter Orchard, donc l’offre totale ne pouvait pas être gonflée, mais la cryptographie propre au pool ne garantissait plus que chaque pièce cachée à l’intérieur était réelle.
 
-![Explication du bug : une transaction entre avec 5 ZEC, mais la preuve défectueuse passe quand même lorsque 7 ZEC sortent, créant 2 ZEC à partir de rien](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
+![Explication du bug : une transaction entre avec 5 ZEC, mais la preuve défectueuse passe quand même lorsque 7 ZEC sortent, créant 2 ZEC à partir de rien](/content-images/ironwood-bug-8f689d6f61.webp)
 
 Les chiffres ci-dessus donnent une image simplifiée. La faille réelle se trouvait dans un élément précis des mathématiques du circuit, et non dans un comptage littéral des pièces entrant et sortant. L’idée essentielle à retenir est simplement qu’un bug de solidité peut permettre de créer de la valeur à l’intérieur du pool sans détection.
 
@@ -34,13 +34,13 @@ Il est important de noter qu’il n’existe aucune preuve que le bug ait jamais
 
 La communauté Zcash a déployé les correctifs par étapes plutôt qu’en une seule fois.
 
-![Chronologie de la réponse à Ironwood : le bug d’Orchard est découvert en mai 2026, le pool est mis en pause en juin 2026, le circuit est corrigé dans NU6.2, et Ironwood s’est activé au bloc 3 428 143 le 28 juillet 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Chronologie de la réponse à Ironwood : le bug d’Orchard est découvert en mai 2026, le pool est mis en pause en juin 2026, le circuit est corrigé dans NU6.2, et Ironwood s’est activé au bloc 3 428 143 le 28 juillet 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
 1. Début juin 2026, une mesure temporaire a désactivé le pool Orchard pendant la préparation d’un correctif complet.
 2. La mise à niveau NU6.2 a corrigé le circuit Orchard lui-même, comblant la vulnérabilité de solidité sous-jacente.
 3. La mise à niveau NU6.3, Ironwood, introduit un nouveau pool shielded et un point de contrôle public afin que la valeur puisse sortir de l’ancien pool Orchard sous audit complet.
 
-![Le correctif dans NU6.2 : la preuve corrigée exige que les entrées soient égales aux sorties, de sorte qu’une sortie valide de 5 ZEC passe, tandis qu’une tentative de sortie de 7 ZEC est rejetée](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
+![Le correctif dans NU6.2 : la preuve corrigée exige que les entrées soient égales aux sorties, de sorte qu’une sortie valide de 5 ZEC passe, tandis qu’une tentative de sortie de 7 ZEC est rejetée](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
 ## Ce que fait le pool Ironwood
 
@@ -121,7 +121,7 @@ Grâce au tourniquet. Chaque pièce quittant l’ancien pool Orchard est compté
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Sécurité post-quantique](../zcash-tech/post-quantum-security)
 

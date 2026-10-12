@@ -16,19 +16,19 @@ SproutはZcashネットワークの最初のローンチであり、後の[ネ�
 
 Sproutは2種類のアドレスを作りました。透明アドレス（t-address）はBitcoinのように機能し、詳細は公開台帳上で見えます。シールドアドレス（z-address）は資金をSproutの[シールドプール](../using-zcash/shielded-pools)に送ります。そこでは送信者、受信者、金額が隠されたままになります。その仕組みが[zk-SNARKs](../zcash-tech/zk-snarks)です。これはゼロ知識証明であり、二重支払いがなく、残高の合計が一致していることを、詳細を一切明かさずにトランザクションが有効であると示せます。Sproutは、これが実際の暗号通貨で本番稼働した初めての事例でした。
 
-![透明トランザクションは送信者・受信者・金額を公開する一方、Sproutのシールドトランザクションは3つすべてを隠しつつ検証可能なままです](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![透明トランザクションは送信者・受信者・金額を公開する一方、Sproutのシールドトランザクションは3つすべてを隠しつつ検証可能なままです](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Ceremony
 
 Sproutのzk-SNARKsには公開パラメータのセットが必要であり、それを安全に生成するには、Ceremonyと呼ばれる一度限りのセットアップが必要でした。離れた別々の場所にいた6人の参加者が、それぞれtoxic wasteと呼ばれる秘密の断片を生成しました。もし誰かがそれらすべての断片を再び集めることができれば、何もないところからZECを偽造できてしまいます。この設計は、そのリスクを単純なルールに変えました。少なくとも1人の参加者が自分の断片を破棄しさえすれば、完全な秘密は二度と再構築できず、偽造は不可能なままだというものです。公に名前が明かされている参加者には、Zooko Wilcox、Andrew Miller、Peter Van Valkenburgh、Peter Todd、そしてNCC GroupのDerek Hinchが含まれます。1人の参加者は匿名のままでいることを選びました。
 
-![Ceremony: 6人の参加者が秘密の断片を生成し、その後toxic wasteを破棄して、公開されたSproutパラメータだけを残します](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![Ceremony: 6人の参加者が秘密の断片を生成し、その後toxic wasteを破棄して、公開されたSproutパラメータだけを残します](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## 起源
 
 Sproutは、その後のあらゆる変更の土台です。Overwinterでネットワークアップグレードの仕組みが導入されたとき、元のルールにはconsensus branch id 0というラベルが付けられました。これは単に、まだどのアップグレードも適用されていないことを意味します。それ以降のすべて（Overwinter、Sapling、Blossom、Heartwood、Canopy、NU5、NU6、そしてその先）は、Sproutが始めたチェーンの上に成り立っています。ローンチは2016年8月に、10月28日のジェネシスに向けて発表され、Ceremonyはその前の数週間に実施され、ジェネシスブロックにハードコードされたタイムスタンプは2016年10月28日07:56 UTCとなっています。
 
-![2016年8月の発表からパラメータCeremonyを経て、2016年10月28日のSproutローンチまでのタイムライン](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![2016年8月の発表からパラメータCeremonyを経て、2016年10月28日のSproutローンチまでのタイムライン](/content-images/sprout-timeline-348766352a.webp)
 
 ## 用語集
 
@@ -77,7 +77,7 @@ Sproutは後のアップグレードではなく、Zcashの最初のローンチ
 
 [シールドプール](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcashネットワークアップグレード](../start-here/network-upgrades)
 

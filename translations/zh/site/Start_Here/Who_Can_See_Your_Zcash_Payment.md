@@ -22,7 +22,7 @@
 
 下图同时涵盖了这两个方面。
 
-![Zcash 密钥类型以及区块浏览器在四种交易路径中各能看到什么](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Start_Here/assets/who-can-see-your-zcash-payment.png)
+![Zcash 密钥类型以及区块浏览器在四种交易路径中各能看到什么](/content-images/who-can-see-your-zcash-payment-04d41ac960.webp)
 
 ---
 
@@ -44,9 +44,9 @@
 
 **Spending key。** 能看到一切，也能移动资金。这就是钱本身。它应始终由你持有，任何情况下都不要与任何人分享。
 
-**Full viewing key。** 只读。可以显示流入和流出的活动以及余额，但不能花费哪怕一个 zatoshi。这是你交给审计人员或会计的东西。
+**Full Viewing Key。** 只读。可以显示流入和流出的活动以及余额，但不能花费哪怕一个 zatoshi。这是你交给审计人员或会计的东西。
 
-**Incoming viewing key。** 范围更窄：它只能显示流入的支付。交易所或商家可以运行它来确认你的充值是否到账，而 spending key 则保留在从不接触互联网的硬件上。
+**Incoming Viewing Key。** 范围更窄：它只能显示流入的支付。交易所或商家可以运行它来确认你的充值是否到账，而 spending key 则保留在从不接触互联网的硬件上。
 
 顺序很重要。要给出的是能完成任务的最窄权限密钥，而不是你手头恰好有的权限最大那把。
 
@@ -64,7 +64,7 @@
 
 ## 付诸实践
 
-- 使用默认启用屏蔽的 wallet，例如 [Zodl](https://zodl.com) 或 [Zingo!](https://www.zingolabs.org/)。
+- 使用默认启用屏蔽的 wallet，例如 [ZODL](https://zodl.com) 或 [Zingo!](https://www.zingolabs.org/)。
 - 资金从交易所到账后，在花费之前尽快先转入屏蔽地址。
 - 当收款方支持屏蔽地址时，尽量支付到屏蔽地址。
 - 在分享 viewing key 之前，先问清楚：哪一种密钥才是足以回答当前问题的最小权限密钥。

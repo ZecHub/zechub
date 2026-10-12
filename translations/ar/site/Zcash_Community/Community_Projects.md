@@ -175,6 +175,10 @@ ZcashToCash (zcashto.cash) — حوّل ZEC إلى Cash App أو Chime أو Monz
 لوحة معلومات لإحصاءات شبكة Zcash في الوقت الفعلي ومقاييس shielding.  
 [زيارة](https://zecstats.com)
 
+### ZecZcash
+موقع مستقل لبيانات Zcash وأدواتها وأبحاثها. يتضمن مستكشفًا وأدوات للسوق والتنصيف، وأدلة للمحافظ، وأخبار النظام البيئي. لا يرتبط بـ ECC أو بـ Zcash Foundation.  
+[زيارة](https://zeczcash.com/)
+
 ### zecprice
 أداة تتبع وقياس بيانات لأداء سعر Zcash في السوق.  
 [زيارة](https://zecprice.com)

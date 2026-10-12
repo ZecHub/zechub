@@ -7,7 +7,7 @@
 
 # Cypherpunk ƒe hadzidzi si nye Zero
 
-Cypherpunk Zero nye ŋutinya siwo kplɔ wo nɔewo ɖo siwo ƒo xlã Zero, ɖekakpui cypherpunk hacker kple ablɔɖeʋawɔla. Zero le agbe le dystopian drɔ̃e baɖa aɖe me fifia eye wòzãa kɔpi tsɔ wɔa avu kple agbonudzɔla siwo le titina siwo bla hadomegbenɔnɔ. Zcash kple Halo ƒe nya ɣaɣlawoe ʋã ŋutinyaa. Nuwɔwɔdɔa nye agbagbadzedze ɖekae le ECC, Stranger World, Might Jaxx kple lãwo ƒe agbenɔnɔ ŋuti dɔwɔhati tiatia aɖewo dome. Nuwɔwɔdɔa koŋue ku ɖe an... [NFT ƒe xexlẽdzesiwo](https://opensea.io/collection/cypherpunk-zero), gake a [ŋgɔdonya nukokoedonamela](https://halo.electriccoin.co/#view-prologue) kple [fefenu si woate ŋu aƒo ƒu](https://mightyjaxx.com/products/cypherpunk-zero) woɖe asi le wo ŋu hã. NFT habɔbɔ si ƒe akpa gãtɔ le dɔ dzi le Twitter dzi la wɔ a... [habɔbɔ si woɖe ɖe vovo (DAO) .](https://twitter.com/CypherpunkDAO) be woawɔ ɖoɖo ɖe dɔ siwo doa alɔ dɔa ŋu ahawu wo nu, kple Zcash habɔbɔ si keke ta wu.
+Cypherpunk Zero nye ŋutinya siwo kplɔ wo nɔewo ɖo siwo ƒo xlã Zero, ɖekakpui cypherpunk hacker kple ablɔɖeʋawɔla. Zero le agbe le dystopian drɔ̃e baɖa aɖe me fifia eye wòzãa kɔpi tsɔ wɔa avu kple agbonudzɔla siwo le titina siwo bla hadomegbenɔnɔ. Zcash kple Halo ƒe nya ɣaɣlawoe ʋã ŋutinyaa. Nuwɔwɔdɔa nye agbagbadzedze ɖekae le ECC, Stranger World, Might Jaxx kple lãwo ƒe agbenɔnɔ ŋuti dɔwɔhati tiatia aɖewo dome. Nuwɔwɔdɔa koŋue ku ɖe an... [NFT ƒe xexlẽdzesiwo](https://opensea.io/collection/cypherpunk-zero), kple [fefenu si woate ŋu aƒo ƒu](https://mightyjaxx.com/products/cypherpunk-zero) woɖe asi le wo ŋu hã. NFT habɔbɔ si ƒe akpa gãtɔ le dɔ dzi le Twitter dzi la wɔ a... [habɔbɔ si woɖe ɖe vovo (DAO) .](https://twitter.com/CypherpunkDAO) be woawɔ ɖoɖo ɖe dɔ siwo doa alɔ dɔa ŋu ahawu wo nu, kple Zcash habɔbɔ si keke ta wu.
 
 ## Mɔfiame si tsi tre ɖe mɔfiamewo ŋu
 
@@ -55,11 +55,9 @@ Woaɖe asi le nusiwo woatsɔ ana ƒe 72% (7,200 NFTs) ŋu na dukɔa to whitelist
 
 ## Nunɔamesiwo
 
-[Cypherpunk Zero Nyatakakadzraɖoƒe](https://halo.electriccoin.co/)
-
 [Cypherpunk Zero ƒe Twitter dzi](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea Nuƒoƒoƒu](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Nuƒoƒoƒu](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO ƒe Twitter dzi](https://twitter.com/CypherpunkDAO)
 

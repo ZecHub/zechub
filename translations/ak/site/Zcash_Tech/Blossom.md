@@ -21,13 +21,13 @@ Nneɛma abien di akyi:
 1. Block ahorow ba bɛyɛ mmɔho abien, enti nkɔnsɔnkɔnsɔn no tumi de nnwuma a wɔyɛ no bɛyɛ mmɔho abien wɔ bere biako biara mu.
 2. Wo asɛm no nya ne confirmation a edi kan ntɛm, efisɛ wontwɛn bere tenten saa mma block a edi hɔ no.
 
-![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Sɛ wɔbɛma sika a wɔde ma no akɔ so ayɛ nea ɛkɔ so daa
 
 Block ahorow a ɛyɛ ntɛmntɛm ma asɛmmisa bi sɔre. Sɛ Zcash yɛɛ blocks mmɔho abien na block biara da so ara tua akatua koro no ara a, network no bɛbɔ ZEC ntɛmntɛm mmɔho abien. Blossom kwati saa. Ɛtew akatua a wotua wɔ block biara so no so fã, na ɛmaa block-akatua a wɔtew so fã no mmɔho abien fii block 840,000 koduu 1,680,000 ([ZIP 208 na ɛwɔ hɔ](https://zips.z.cash/zip-0208)). Block dodow mmɔho abien, a emu biara tua fã no, yɛ adwuma kodu ZEC dodow koro no ara a wɔbɔ wɔ bere unit biara mu. Nhyehyɛe a wɔde bɛma nyinaa ne bere a wɔbɛtew so daakye, a wɔsusuw no bere ankasa mu no ansakra.
 
-![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Nkɔso a ɛyɛ ahyɛde
 

@@ -16,19 +16,19 @@ Why this matters. Every public blockchain before Sprout put your payments on dis
 
 Sprout dá oríṣi adirẹsi méjì. àwọn àdírẹ́sì tí ó ṣe kedere (t-addresses) ṣiṣẹ bí Bitcoin, pẹ̀lú ìsọfúnni tó hàn nínú ìwé àkọsílẹ̀ gbogbo ènìyàn. àwọn ìdáríjì àdíréìsì (z-adddresses) rán owó sínú Sprout [adágún tí a fi ọ̀pá ìdáàbòbò ṣe](../using-zcash/shielded-pools), nibi ti oluranlowo, olugba, ati iye naa wa ni pamọ. Ẹtan jẹ [àwọn zk-SNARKs](../zcash-tech/zk-snarks), èrí ìmọ-nǹkan tí ó jẹ́ kí ìsòwò kan fi hàn pé o léwu, láìsí owó méjì àti àlàfo tó ń pọ̀ sí i láìfi èyíkéyìí nínú àwọn kúlẹ̀kúlẹ̀ náà han. Sprout ni ìgbà àkọ́kọ́ tí èyí máa ṣiṣẹ nídìí iṣẹ́ lórí ẹyọ owó onídìgbòlù gidi.
 
-![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Àjọṣe Ìgbéyàwó Náà
 
 The zk-SNARKs in Sprout needed a set of public parameters, and generating them safely required a one-time setup called the Ceremony. Six participants in separate, distant locations each generated a secret piece, called toxic waste. If anyone ever reassembled all the pieces, they could forge ZEC out of nothing. The design turned that risk into a simple rule: as long as at least one participant destroyed their piece, the full secret could never be rebuilt, so counterfeiting stayed impossible. The participants who have been named publicly include Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, and Derek Hinch of NCC Group. One participant chose to stay anonymous.
 
-![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Orílẹ̀-èdè tí wọ́n ti wá ni.
 
 Sprout is the baseline that every later change builds on. When the network-upgrade mechanism arrived with Overwinter, it labeled the original rules as consensus branch id 0, which simply means no upgrade has been applied yet. Everything since then (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, and onward) sits on the chain Sprout started. The launch was announced in August 2016 for an October 28 genesis, the Ceremony ran in the weeks before, and the genesis block's hardcoded timestamp reads October 28, 2016, at 07:56 UTC.
 
-![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
 ## Àkójọ àwọn ọ̀rọ̀
 
@@ -77,7 +77,7 @@ Sprout ni ipilẹṣẹ akọkọ ti Zcash, kii ṣe igbesoke nigbamii. O ti n �
 
 [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](../using-zcash/shielded-pools)
 
-[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKS](../zcash-tech/zk-snarks)
+[àwọn ohun èlò tí wọ́n ń pè ní zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Àwọn Àtúnṣe sí Ìpínlẹ̀ Zcash](../start-here/network-upgrades)
 

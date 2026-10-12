@@ -1,5 +1,5 @@
 # Obscura Labs
-<img width="369" height="434" alt="obscuralabs" src="https://github.com/user-attachments/assets/5fda3e74-750c-487e-92e9-3cacc15f9b4b" />
+<img width="369" height="434" alt="obscuralabs" src="/content-images/5fda3e74-750c-487e-92e9-3cacc15f9b4b-b41e98d3e5.webp" />
 
 [Gaa na ebe nrụọrụ weebụ](https://www.obscuralabs.org/)
 
@@ -51,7 +51,7 @@ Ihe owuwu akụrụngwa nwere ike ịgụnye:
 * Zcash ọha na eze mainnet RPC njedebe.
 * Zcash testnet ọha na eze RPC njedebe.
 * Zebra zuru ọnụ.
-* Ọrụ Lightwalletd.
+* Ọrụ lightwalletd.
 * Ndị na-akụ mkpụrụ DNS.
 * Nlekọta nke akụrụngwa ọha.
 * API ndị na-elekwasị anya na ndị mmepe.
@@ -128,11 +128,11 @@ Nzukọ ahụ na-arụ ọrụ Zebra n'ime Africa.
 
 Zebra bụ mmejuputa nke onwe nke usoro nkwekọrịta Zcash. Infrastructure arụ ọrụ Zebra na-enye aka na nnweta netwọkụ, mmejupụta mmejuputara, yana nkesa mpaghara nke ọnụ Zcash .
 
-### Ọrụ Lightwalletd
+### Ọrụ lightwalletd
 
-Obscura Labs na-arụ ọrụ Lightwalletd akụrụngwa iji kwado njikọ akpa ego Zcash.
+Obscura Labs na-arụ ọrụ lightwalletd akụrụngwa iji kwado njikọ akpa ego Zcash.
 
-Lightwalletd provides blockchain data to light-client wallets without requiring each wallet user to operate a complete Zcash node. Reliable Lightwalletd services are therefore important for mobile wallets and other lightweight Zcash applications.
+lightwalletd provides blockchain data to light-client wallets without requiring each wallet user to operate a complete Zcash node. Reliable lightwalletd services are therefore important for mobile wallets and other lightweight Zcash applications.
 
 ### Nlekọta Akụrụngwa
 

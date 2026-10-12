@@ -1,0 +1,56 @@
+{
+  "locale": "uk",
+  "version": 1,
+  "meta": {
+    "language_name": "Ukrainian",
+    "native_name": "Українська",
+    "engine": "llm",
+    "script": "Cyrl",
+    "dir": "ltr",
+    "language_lead": [],
+    "last_review": null
+  },
+  "style": {
+    "variety": "natural, fluent Ukrainian (Cyrillic script)"
+  },
+  "terms": {
+    "node": {
+      "target": "вузол",
+      "forms": [
+        "вузол",
+        "вузли"
+      ],
+      "rejected": [
+        {
+          "text": "node",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "nodes",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@steward (legacy prompt head)"
+      ],
+      "reviewed_at": "2026-10-10",
+      "source": "prompt_head_uk.txt"
+    }
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "date": "2026-10-10",
+      "terms": [
+        "node"
+      ],
+      "phrases": [],
+      "summary": "Imported from the runner's hand-written prompt_head_uk.txt: language variety and the node rendering, approved by the steward as legacy prompt-head rules."
+    }
+  ]
+}

@@ -12,7 +12,7 @@ Canopy é a quinta atualização de rede da Zcash, também identificada como Net
 
 Porque isto importa. A Zcash financia o seu próprio desenvolvimento a partir das recompensas por bloco, porque não tem uma empresa por trás. A founders reward que financiou os seus primeiros anos estava programada para terminar na primeira redução para metade. A Canopy foi a substituição: encaminhou uma percentagem fixa de cada recompensa por bloco para um Development Fund e definiu quem a recebe. Esse modelo foi refinado por atualizações posteriores, até à [NU6.1](../zcash-tech/nu6-1).
 
-![Antes da Canopy, a founders reward financiava o desenvolvimento e estava programada para terminar na primeira redução para metade. Depois da Canopy, o Development Fund recebe 20 por cento de cada recompensa por bloco e vigora até à segunda redução para metade em 2024](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-founders-to-devfund.png)
+![Antes da Canopy, a founders reward financiava o desenvolvimento e estava programada para terminar na primeira redução para metade. Depois da Canopy, o Development Fund recebe 20 por cento de cada recompensa por bloco e vigora até à segunda redução para metade em 2024](/content-images/canopy-founders-to-devfund-010676e799.webp)
 
 ## O fundo de desenvolvimento
 
@@ -30,7 +30,7 @@ O Development Fund recebe 20 por cento de cada recompensa por bloco. Os mineiros
 
 Medidas em relação à recompensa total por bloco em vez de apenas ao fundo, essas partes correspondem a 7 por cento para a Electric Coin Company, 5 por cento para a Zcash Foundation e 8 por cento para Major Grants. Ambas as formas de o descrever representam os mesmos números.
 
-![O Development Fund corresponde a 20 por cento de cada recompensa por bloco, dividido em 35 por cento para Bootstrap e a Electric Coin Company, 25 por cento para a Zcash Foundation e 40 por cento para Major Grants](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-dev-fund-split.png)
+![O Development Fund corresponde a 20 por cento de cada recompensa por bloco, dividido em 35 por cento para Bootstrap e a Electric Coin Company, 25 por cento para a Zcash Foundation e 40 por cento para Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
 ## A mudança no pool Sprout
 
@@ -38,7 +38,7 @@ A Canopy também começou a retirar de circulação o pool shielded mais antigo.
 
 A partir do momento em que a Canopy foi ativada, nenhum novo valor pode ser acrescentado ao pool Sprout. Em termos técnicos, o campo vpub_old de cada JoinSplit tem de ser zero. Os fundos já existentes em Sprout continuam a poder ser levantados, por isso ninguém fica impedido de aceder a eles, mas a partir daqui o pool só pode diminuir. Este é um primeiro passo rumo à eventual descontinuação do antigo pool Sprout em favor de pools shielded mais recentes.
 
-![Antes da Canopy, o valor podia tanto entrar como sair do pool Sprout. Depois da Canopy, já não pode entrar novo valor, mas os levantamentos continuam a ser permitidos](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/canopy-sprout-pool.png)
+![Antes da Canopy, o valor podia tanto entrar como sair do pool Sprout. Depois da Canopy, já não pode entrar novo valor, mas os levantamentos continuam a ser permitidos](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## Os extras técnicos
 

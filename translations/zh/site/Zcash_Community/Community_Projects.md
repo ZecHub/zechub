@@ -175,6 +175,10 @@ YWallet 的继任者，支持最新的 Zcash 协议功能，包括 Orchard。
 用于展示实时 Zcash 网络统计数据和 shielding 指标的仪表盘。  
 [访问](https://zecstats.com)
 
+### ZecZcash
+独立的 Zcash 数据、工具和研究网站。包括浏览器、市场和减半工具、钱包指南以及生态系统新闻。与 ECC 或 Zcash Foundation 无关联。  
+[访问](https://zeczcash.com/)
+
 ### zecprice
 用于追踪 Zcash 市场价格表现和数据指标的工具。  
 [访问](https://zecprice.com)

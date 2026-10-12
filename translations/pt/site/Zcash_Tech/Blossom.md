@@ -21,13 +21,13 @@ Daqui resultam duas coisas:
 1. Os blocos chegam cerca de duas vezes mais frequentemente, por isso a cadeia pode transportar aproximadamente o dobro das transações por unidade de tempo.
 2. A tua transação recebe a primeira confirmação mais cedo, porque não esperas tanto pelo próximo bloco.
 
-![Antes da Blossom, o alvo de bloco era de 150 segundos, com confirmações mais lentas e menor capacidade de processamento. Depois da Blossom, o alvo é de 75 segundos, com confirmações mais rápidas e aproximadamente o dobro da capacidade de processamento](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Antes da Blossom, o alvo de bloco era de 150 segundos, com confirmações mais lentas e menor capacidade de processamento. Depois da Blossom, o alvo é de 75 segundos, com confirmações mais rápidas e aproximadamente o dobro da capacidade de processamento](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Manter a emissão estável
 
 Blocos mais rápidos levantam uma questão. Se a Zcash produzisse o dobro dos blocos e cada bloco continuasse a pagar a mesma recompensa, a rede criaria ZEC duas vezes mais depressa. A Blossom evita isso. Reduziu para metade a recompensa paga por bloco e duplicou o intervalo de halving da recompensa de bloco de 840,000 para 1,680,000 blocos ([ZIP 208](https://zips.z.cash/zip-0208)). O dobro dos blocos, cada um a pagar metade, resulta na mesma quantidade de ZEC criada por unidade de tempo. O calendário de oferta total e o momento dos futuros halvings, medidos em tempo real, não mudaram.
 
-![Como a Blossom mantém a emissão estável: blocos de 75 segundos chegam duas vezes mais frequentemente, a recompensa por bloco é reduzida para metade, o intervalo de halving é duplicado, por isso a emissão total ao longo do tempo permanece a mesma](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![Como a Blossom mantém a emissão estável: blocos de 75 segundos chegam duas vezes mais frequentemente, a recompensa por bloco é reduzida para metade, o intervalo de halving é duplicado, por isso a emissão total ao longo do tempo permanece a mesma](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Uma atualização obrigatória
 

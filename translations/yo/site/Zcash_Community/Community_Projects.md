@@ -59,7 +59,7 @@ Pẹpẹ ìbáṣepọ̀ àti èrè àwùjọ tí a ṣe fún àwọn agbègbè 
 [Ṣèbẹ̀wò](https://gleyo.app/)
 
 ### Ibùdó Ìrànlọ́wọ́ Zcash
-Dástẹ́mù ìrànwọ́ tí a ṣe àkójọpọ̀ fún àwùjọ láti mú kí ó rọrùn láti rí àwọn ìrànwọ́ Zcash, tọ́pasẹ̀ wọn, àti ṣe àtúnyẹ̀wò wọn. Ó mú àwọn ìforúkọsílẹ̀ ìrànwọ́, àwọn ìṣẹ̀lẹ̀ pàtàkì, àwọn ìnáwó, àwọn ìjíròrò, àti àwọn àgbéyẹ̀wò wá sí ibi kan nípa yíyọ àwọn ìwífún láàyè láti ibi ìpamọ́ Zcash Community Grants GitHub. Pẹpẹ náà ní èrò láti pèsè ìrírí tí ó yéni jùlọ àti tí ó rọrùn fún àwọn olùbéèrè, àwọn ọmọ ẹgbẹ́ ìgbìmọ̀, àti àwọn atúnyẹ̀wò àwùjọ. 
+Dástẹ́mù ìrànwọ́ tí a ṣe àkójọpọ̀ fún àwùjọ láti mú kí ó rọrùn láti rí àwọn ìrànwọ́ Zcash, tọ́pasẹ̀ wọn, àti àtúnyẹ̀wò wọn. Ó mú àwọn ìforúkọsílẹ̀ ìrànwọ́, àwọn ìṣẹ̀lẹ̀ pàtàkì, àwọn ìnáwó, àwọn ìjíròrò, àti àgbéyẹ̀wò wá sí ibi kan nípa yíyọ àwọn ìwífún láàyè láti ibi ìpamọ́ Zcash Community Grants GitHub. Pẹpẹ náà ní èrò láti pèsè ìrírí tí ó yéni jùlọ àti tí ó rọrùn fún àwọn olùbéèrè, àwọn ọmọ ẹgbẹ́ ìgbìmọ̀, àti àwọn atúnyẹ̀wò àwùjọ. 
 [Ṣèbẹ̀wò](https://staging.zgrantshub.com/)
 
 ---
@@ -120,7 +120,7 @@ Bot Discord n pese iwọle to ni aabo ati laisi wahala si awọn iṣowo Zcash.
 Arọ́pò YWallet tí ó ń ṣe àtìlẹ́yìn fún àwọn ẹ̀yà tuntun ti ìlànà Zcash pẹ̀lú Orchard. 
 [Àpérò](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
-### MonteZecrét
+### MonteZecret
 Àpò ìṣàyẹ̀wò fún Zcash tí a kọ pẹ̀lú Rust. 
 [Àpérò](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
@@ -144,7 +144,7 @@ Pẹpẹ ìfọwọ́sowọ́pọ̀ àti ìṣètò ìfọwọ́sowọ́pọ̀ t
 
 ## Àwọn Olùṣàwárí, Dátà, àti Àwọn Dátabù Nẹ́tíwọ́ọ̀kì
 
-### Ṣíṣàn Sípíférì
+### CipherScan
 Aṣiri-akọkọ-ẹrọ Zcash blockchain explorer. A ṣe é pẹ̀lú Next.js 15, TypeScript, àti Rust/WASM. Àwọn àwárí kò fi ìbéèrè hàn. 
 [Ṣèbẹ̀wò](https://cipherscan.app/)
 
@@ -175,6 +175,10 @@ Ohun èlò láti ṣàyẹ̀wò àkókò ìdáhùn gRPC ti àwọn nódù Zcash 
 ### ZecStats
 Dásíbọ́ọ̀dù fún àwọn statistiki nẹ́tíwọ́ọ̀kì Zcash ní àkókò gidi àti àwọn ìwọ̀n ààbò. 
 [Ṣèbẹ̀wò](https://zecstats.com)
+
+### ZecZcash
+Dátà Zcash, àwọn irinṣẹ́, àti ojú òpó ìwádìí. Ó ní olùṣàwárí, àwọn irinṣẹ́ ọjà àti ìpín méjì, àwọn ìtọ́sọ́nà àpò owó, àti àwọn ìròyìn nípa ètò-ẹ̀dá. Kò ní ìbáṣepọ̀ pẹ̀lú ECC tàbí Zcash Foundation. 
+[Ṣèbẹ̀wò](https://zeczcash.com/)
 
 ### zecprice
 Ohun èlò ìtọ́pinpin àti ìwọ̀n dátà fún iṣẹ́ iye owó ọjà Zcash. 
@@ -277,7 +281,7 @@ Ohun èlò fún ìṣẹ̀dá àkóónú aláìlórúkọ àti àwọn ẹ̀bùn
 Ẹnubodè Zcash n pese apamọwọ aṣàwákiri ati iwọle DeFi agbelebu. 
 [Àpérò](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
-### Pípààrọ̀ ọjà
+### BazaarSwap
 DEX Zcash-native ti o mu ZEC ti a daabobo wa sinu Web3 DeFi nipasẹ WalletConnect. 
 [Àpérò](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
@@ -285,7 +289,7 @@ DEX Zcash-native ti o mu ZEC ti a daabobo wa sinu Web3 DeFi nipasẹ WalletConne
 Paṣipaarọ Decred ti ko ni opin ti o ṣe atilẹyin fun Zcash. 
 [Ṣèbẹ̀wò](https://dex.decred.org)
 
-### Àpò Brave
+### Brave Wallet
 Apamọwọ aṣawakiri pẹlu atilẹyin Zcash. 
 [Ṣèbẹ̀wò](https://brave.com/wallet/)
 
@@ -301,7 +305,7 @@ Pẹpẹ pókà alájọ-sí-ẹgbẹ́ kan tí ó so ìfọwọ́sowọ́pọ̀
 
 ## Àwọn Àjọ àti Àwọn Ilé Ìwádìí
 
-### Àwọn Labs tí a dáàbò bò
+### Shielded Labs
 Àjọ ìrànlọ́wọ́ Zcash tí ó jẹ́ olómìnira, tí ó ń ṣe ìrànlọ́wọ́ fún ní Switzerland. Àjọ àkọ́kọ́ nínú ètò àyíká tí kò tíì gba owó ìdàgbàsókè tàbí owó èrè ìdènà rí. 
 [Ṣèbẹ̀wò](https://shieldedlabs.net/)
 

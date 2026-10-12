@@ -16,7 +16,7 @@ Bu neden önemlidir? Sapling’den önce gerçekten özel bir ödeme yapmak, isp
 
 Sapling’in kalbinde, korumalı bir işlemi gizli tutan sıfır bilgi ispatını daha hızlı oluşturmanın bir yolu vardır. Orijinal Sprout tasarımı, yavaş ve çok bellek tüketen tek bir ispat devresi (JoinSplit devresi) kullanıyordu. Sapling bunu, Zcash Protocol Specification içinde açıklanan, belirli amaçlar için tasarlanmış iki devreyle değiştirdi: Spend devresi ve Output devresi. Sonuç, maliyette büyük bir düşüştür. Electric Coin Company’ye göre, korumalı bir işlem yaklaşık 40 megabayt bellek kullanılarak yalnızca birkaç saniyede oluşturulabilir. Sapling öncesi Sprout tabanı ise çok daha ağırdı; dakikalar ve birkaç gigabayt bellek düzeyindeydi (Sprout tarafındaki bu rakamlar, yaygın şekilde alıntılanan yaklaşık temel düzeydir).
 
-![Sprout ile Sapling arasında korumalı işlem maliyeti karşılaştırması](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-before-after.png)
+![Sprout ile Sapling arasında korumalı işlem maliyeti karşılaştırması](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## Yeni anahtarlar
 
@@ -24,7 +24,7 @@ Sapling ayrıca yeni bir korumalı adres ve anahtar seti de tanıttı. Tek bir a
 
 Bununla ilişkili bir başka değişiklik de Sapling’in ispatı oluşturma işi ile işlemi imzalama işini ayırmış olmasıdır. Sıfır bilgi ispatını oluşturan cihazın artık harcama yetkisini elinde tutan cihaz olması gerekmez. Bu ayrıştırma, bir donanım cüzdanının harcama anahtarınızı izole biçimde saklarken daha ağır ispatlama işini ayrı bir cihazın yapmasına olanak tanır.
 
-![İspat oluşturan cihaz, ispatı ayrı bir imzalama cihazına verir](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-decoupled-spend.png)
+![İspat oluşturan cihaz, ispatı ayrı bir imzalama cihazına verir](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
 ## Güvenilir kurulum
 
@@ -34,7 +34,7 @@ Sapling’in devreleri, dikkatle üretilmesi gereken bir dizi ortak parametreye 
 
 Sapling, ağın yükseltme mekanizmasını hazırlayan Haziran 2018 yükseltmesi Overwinter’ı takip etti. Electric Coin Company, Ağustos 2018’de yayımlanan zcashd 2.0.0 içinde mainnet etkinleşme yüksekliğini belirledi ve 419.200. blok çıkarıldığında ağ Sapling kurallarına geçti. Zincir üzerinde bu an, Sapling konsensüs branch id ile işaretlenir.
 
-![Zcash’in lansmanından Sapling etkinleşmesine uzanan zaman çizelgesi](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sapling-timeline.png)
+![Zcash’in lansmanından Sapling etkinleşmesine uzanan zaman çizelgesi](/content-images/sapling-timeline-6cad184c30.webp)
 
 ## Sözlük
 
@@ -44,7 +44,7 @@ Sapling, ağın yükseltme mekanizmasını hazırlayan Haziran 2018 yükseltmesi
 | Sprout | Zcash’in birlikte piyasaya çıktığı, Sapling’e göre daha yavaş ve daha ağır olan ilk korumalı protokol. |
 | Spend and Output circuits | Sprout’un tek JoinSplit devresinin yerini alan iki yeni Sapling ispat devresi. |
 | Diversified address | Tek bir anahtardan türetebileceğiniz, birbiriyle ilişkilendirilemeyen çok sayıdaki ödeme adresinden biri. |
-| Viewing key | Birinin, bir cüzdanın işlemlerini ondan harcama yapamadan görmesini sağlayan anahtar. |
+| Viewing Key | Birinin, bir cüzdanın işlemlerini ondan harcama yapamadan görmesini sağlayan anahtar. |
 | Consensus branch id | Ağa, bir işlemin hangi yükseltmenin kurallarını izlediğini söyleyen kısa kod. |
 
 ## SSS
@@ -82,7 +82,7 @@ Sprout döneminde korumalı bir işlem oluşturmak dakikalar sürüyor ve gigaba
 
 - [Shielded Pools](../using-zcash/shielded-pools)
 - [Viewing Keys](../zcash-tech/viewing-keys)
-- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [zk-SNARKs](../zcash-tech/zk-snarks)
 - [Zcash Network Upgrades](../start-here/network-upgrades)
 - [Wallets](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)

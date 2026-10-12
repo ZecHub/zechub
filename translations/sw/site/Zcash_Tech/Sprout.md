@@ -16,19 +16,19 @@ Why this matters. Every public blockchain before Sprout put your payments on dis
 
 Sprout created two kinds of addresses. Transparent addresses (t-addresses) work like Bitcoin, with the details visible on the public ledger. Shielded addresses (z-addresses) send funds into the Sprout [dimbwi lenye ulinzi](../using-zcash/shielded-pools), ambapo mtumaji, mpokeaji na kiasi kubaki siri. hila ni [zk-SNARKs](../zcash-tech/zk-snarks), zero-ujuzi uthibitisho kwamba basi manunuzi kuonyesha ni halali, bila matumizi mara mbili na mizani ambayo kuongeza juu ya, bila kufunua yoyote ya maelezo. Sprout ilikuwa mara ya kwanza hii mbio katika uzalishaji kwenye cryptocurrency kuishi.
 
-![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-shielded-vs-transparent.png)
+![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Sherehe ya Kufunga Miti
 
 zk-SNARKs huko Sprout zilihitaji seti ya vigezo vya umma, na kuzizalisha kwa usalama kulihitaji mpangilio wa mara moja unaoitwa Sherehe. Washiriki sita katika maeneo tofauti, ya mbali kila mmoja alizalisha kipande cha siri, kinachoitwa taka zenye sumu. Ikiwa mtu yeyote angekusanya vipande vyote tena, angeweza kughushi ZEC kutoka kwa kitu chochote. Ubunifu huo uligeuza hatari hiyo kuwa sheria rahisi: mradi tu angalau mshiriki mmoja angeharibu kipande chake, siri kamili haikuweza kujengwa upya, kwa hivyo ughushi ulibaki kuwa hauwezekani. Washiriki ambao wametajwa hadharani ni pamoja na Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, na Derek Hinch wa NCC Group. Mshiriki mmoja alichagua kutokujulikana.
 
-![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-ceremony-flow.png)
+![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Chanzo cha habari hiyo ni:
 
 Sprout ni msingi kwamba kila mabadiliko ya baadaye hujenga juu. Wakati wa mtandao-upgrade utaratibu aliwasili na Overwinter, ilikuwa alama sheria za awali kama makubaliano tawi id 0, ambayo ina maana tu hakuna kuboresha imekuwa kutumika bado. Kila kitu tangu wakati huo (Overwinter , Sapling, Blossom, Heartwood, Canopy, NU5, NU6, na kuendelea) anakaa kwenye mnyororo sprout kuanza. uzinduzi ilitangazwa Agosti 2016 kwa 28 Oktoba genesis, Sherehe mbio katika wiki kabla, na kiini cha mwanzo block hardcoded timestamp anasoma Oktoba 28, 2016, saa 07:56 UTC .
 
-![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/sprout-timeline.png)
+![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
 
 ## Orodha ya maneno
 
@@ -77,7 +77,7 @@ Sprout ni uzinduzi wa awali ya Zcash, si baadaye kuboresha. Imekuwa kazi tangu g
 
 [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash Network Upgrades (Ubadilishaji wa Mtandao)](../start-here/network-upgrades)
 

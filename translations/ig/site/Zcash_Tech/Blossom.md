@@ -21,13 +21,13 @@ Ihe abụọ na-eso:
 1. Ihe mgbochi na-abata ihe dị ka okpukpu abụọ, yabụ yinye ahụ nwere ike ibute azụmahịa ugboro abụọ kwa oge.
 2. Mmekọrịta gị na-enweta nkwenye mbụ ya ngwa ngwa, n'ihi na ị naghị echere ogologo oge maka ngọngọ ọzọ.
 
-![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](/content-images/blossom-block-spacing-50b6bfbacc.webp)
 
 ## Ịnọgide na-ebipụta akwụkwọ ahụ mgbe niile.
 
 Faster blocks raise a question. If Zcash made twice as many blocks and each block still paid the same reward, the network would create ZEC twice as fast. Blossom avoids that. It halved the reward paid per block, and it doubled the block-reward halving interval from 840,000 to 1,680,000 blocks ([ZIP 208 Ụlọ ọrụ](https://zips.z.cash/zip-0208)) Ugboro abụọ dị ka ọtụtụ blocks, onye ọ bụla na-akwụ ụgwọ ọkara karịa, arụ ọrụ ruo otu ego nke ZEC kere kwa nkeji oge. ngụkọta usoro iheomume ọkọnọ na oge nke ọdịnihu halvings, tụrụ ya n'oge ahụ, agbanweghị agbanwe.
 
-![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
+![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](/content-images/blossom-emission-balance-f2443e29ab.webp)
 
 ## Nkwalite iwu kwadoro.
 

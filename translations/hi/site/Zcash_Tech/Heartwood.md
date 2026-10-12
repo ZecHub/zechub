@@ -18,7 +18,7 @@ Heartwood एक निश्चित block height (903,000) पर activate �
 
 coinbase transaction वह विशेष transaction है जो block reward का भुगतान करती है। Heartwood से पहले, इसके outputs transparent होने अनिवार्य थे, इसलिए miner के नए mint किए गए ZEC हमेशा एक सार्वजनिक address में ही शुरू होते थे। Heartwood ने consensus rules को बदल दिया ताकि ZIP 213 के शब्दों में, coinbase transactions में Sapling outputs हो सकें। सरल शब्दों में, अब miners rewards सीधे shielded Sapling addresses में प्राप्त कर सकते हैं। Transparent coinbase outputs अब भी supported हैं, इसलिए यह एक नया विकल्प है, कोई बाध्यकारी बदलाव नहीं।
 
-![Heartwood से पहले miner का block reward एक transparent public address में ही जा सकता था। Heartwood के बाद coinbase transactions में Sapling outputs हो सकते हैं, इसलिए reward सीधे shielded address में जा सकता है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-shielded-coinbase.png)
+![Heartwood से पहले miner का block reward एक transparent public address में ही जा सकता था। Heartwood के बाद coinbase transactions में Sapling outputs हो सकते हैं, इसलिए reward सीधे shielded address में जा सकता है](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## पहले Sapling ही क्यों
 
@@ -28,13 +28,13 @@ Shielded coinbase विशेष रूप से Sapling outputs को लक
 
 Heartwood ने यह भी बदल दिया कि block header किस चीज़ के प्रति commit करता है। header field जिसे पहले hashFinalSaplingRoot कहा जाता था, उसे नए उद्देश्य के लिए इस्तेमाल किया गया और उसका नाम बदलकर hashLightClientRoot कर दिया गया। अब यह Merkle Mountain Range (MMR) के root के प्रति commit करता है, जो prior blocks के header data और metadata, जैसे timestamps, difficulty targets, Sapling roots, accumulated work, और transaction counts, पर आधारित एक running structure है। यह commitment किसी light client, या किसी बाहरी chain, को छोटे proof के माध्यम से Zcash के proof-of-work को verify करने देता है, जिसका आकार chain की लंबाई के साथ केवल logarithmically बढ़ता है। इसका लाभ है बेहतर light-client wallets और आसान third-party तथा cross-chain integration, क्योंकि अब किसी client को chain के पीछे के work पर भरोसा करने के लिए हर block डाउनलोड करने की आवश्यकता नहीं रहती।
 
-![FlyClient flow: हर block का header data एक Merkle Mountain Range root (hashLightClientRoot) में commit किया जाता है, जो किसी light client को छोटे logarithmic-size proof के साथ proof-of-work verify करने देता है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-flyclient.png)
+![FlyClient flow: हर block का header data एक Merkle Mountain Range root (hashLightClientRoot) में commit किया जाता है, जो किसी light client को छोटे logarithmic-size proof के साथ proof-of-work verify करने देता है](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Heartwood कहाँ फिट बैठता है
 
 Heartwood, Zcash upgrades की एक श्रृंखला का एक चरण है, जहाँ हर upgrade अगली upgrade के लिए आवश्यक एक हिस्सा जोड़ती है। Overwinter और Sapling 2018 में आए, Blossom 2019 में, और Heartwood 2020 में ब्लॉक 903,000 पर। इसके बाद Canopy 2020 में बाद में ब्लॉक 1,046,400 पर आया। Heartwood के लिए इस श्रृंखला की मुख्य कड़ी Sapling है: इसकी efficient shielded-transaction machinery वही तकनीकी पूर्वशर्त थी जिसने shielded coinbase को संभव बनाया।
 
-![Zcash upgrades की समयरेखा: 2018 में Overwinter और Sapling, 2019 में Blossom, और 2020 में Heartwood](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/heartwood-timeline.png)
+![Zcash upgrades की समयरेखा: 2018 में Overwinter और Sapling, 2019 में Blossom, और 2020 में Heartwood](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## शब्दावली
 
@@ -88,7 +88,7 @@ Coinbase outputs का transparent होना अनिवार्य था
 
 [Wallets](../using-zcash/wallets)
 
-[zk-SNARKS](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

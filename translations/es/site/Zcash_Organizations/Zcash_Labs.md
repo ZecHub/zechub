@@ -1,7 +1,7 @@
 # Zcash Labs
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/313788363?s=200&v=4" alt="Logo de Zcash Labs" width="320" />
+  <img src="/content-images/313788363-f867625894.webp" alt="Logo de Zcash Labs" width="320" />
 </p>
 
 ---
@@ -54,9 +54,9 @@ Este enfoque es importante porque no todos los proyectos encajan automáticament
 
 ## Operaciones de infraestructura de Zcash Labs
 
-Además de facilitar integraciones de terceros, Zcash Labs también opera y desarrolla la infraestructura que respalda el acceso a la red de Zcash. Cuando se presentó al público, la organización declaró que opera un **Shielded Vote Validator** y que está desarrollando servicios que incluyen un **nodo completo de Zcash**, infraestructura de **Lightwalletd** y **RPC**.
+Además de facilitar integraciones de terceros, Zcash Labs también opera y desarrolla la infraestructura que respalda el acceso a la red de Zcash. Cuando se presentó al público, la organización declaró que opera un **Shielded Vote Validator** y que está desarrollando servicios que incluyen un **nodo completo de Zcash**, infraestructura de **lightwalletd** y **RPC**.
 
-Los nodos completos se utilizan para conectarse directamente a la red y verificar los datos de la blockchain. Lightwalletd ayuda a las wallets y aplicaciones ligeras a recuperar los datos necesarios de la red sin ejecutar toda la blockchain localmente. Mientras tanto, RPC proporciona una forma para que el software externo se comunique con nodos o servicios de blockchain.
+Los nodos completos se utilizan para conectarse directamente a la red y verificar los datos de la blockchain. lightwalletd ayuda a las wallets y aplicaciones ligeras a recuperar los datos necesarios de la red sin ejecutar toda la blockchain localmente. Mientras tanto, RPC proporciona una forma para que el software externo se comunique con nodos o servicios de blockchain.
 
 Operar esta infraestructura está directamente vinculado a los esfuerzos de integración de Zcash Labs. Las empresas y los desarrolladores que crean aplicaciones de Zcash requieren acceso fiable a la red. Al operar estos servicios de forma independiente, Zcash Labs puede ampliar la gama de opciones de infraestructura disponibles, al tiempo que adquiere experiencia directa con los requisitos técnicos de las integraciones que facilita.
 
@@ -128,9 +128,9 @@ Si Zcash Labs realizara una inversión de capital en el futuro, la organización
 
 ---
 
-## ZcashtoCash
+## ZcashToCash
 
-**[ZcashtoCash](https://zcashto.cash/)** es uno de los primeros proyectos conocidos públicamente que recibió apoyo de Zcash Labs. El proyecto fue creado para ayudar a los usuarios a convertir ZEC en moneda fiduciaria mediante transacciones entre pares.
+**[ZcashToCash](https://zcashto.cash/)** es uno de los primeros proyectos conocidos públicamente que recibió apoyo de Zcash Labs. El proyecto fue creado para ayudar a los usuarios a convertir ZEC en moneda fiduciaria mediante transacciones entre pares.
 
 zcashtocash utiliza infraestructura de **Peer**. Este sistema se utiliza para verificar pagos fiduciarios antes de que se libere ZEC en una transacción. Cuando Zcash Labs se presentó al público, el servicio ya admitía **Cash App**, **Chime**, **Monzo**, **Revolut**, **Venmo** y **Zelle**.
 
@@ -232,6 +232,6 @@ Mediante este enfoque, Zcash Labs pretende crear un camino más directo desde un
 
 [Zcash Labs en X](https://x.com/zcashlabs)
 
-[Zcash Labs en Github](https://github.com/zcashlabs)
+[Zcash Labs en GitHub](https://github.com/zcashlabs)
 
 [Zcash Labs en blogs web](https://zcashlabs.org/blog)

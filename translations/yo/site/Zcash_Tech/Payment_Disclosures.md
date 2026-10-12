@@ -22,7 +22,7 @@
 
 [ZIP 311: Àwọn Ìṣípayá Ìsanwó Zcash](https://zips.z.cash/zip-0311) dábàá ìdáhùn tó gùn jù: ṣípayá àti jẹ́rìí sí àwọn ìwífún tí a yàn láti inú ìṣòwò kan.
 
-![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-proof-flow.png)
+![A transaction ID proves that a transaction exists but does not reveal shielded payment details. A ZIP 311 payment disclosure would let a verifier authenticate only the selected recipient, amount, memo, and optional sender details against the mined transaction.](/content-images/payment-disclosure-proof-flow-208c033e06.webp)
 
 ## Bawo ni ifihan isanwo ṣe n ṣiṣẹ
 
@@ -53,7 +53,7 @@ Lo ìṣípayá tó kéré jùlọ tó dáhùn ìbéèrè náà. Àríyànjiyàn
 
 Kò sí ọ̀kan lára àwọn ọ̀nà méjèèjì tó fúnni láyè láti náwó. Má ṣe pín gbólóhùn ìforúkọsílẹ̀, kọ́kọ́rọ́ ìnáwó, kọ́kọ́rọ́ àdáni, tàbí àpò ìpamọ́ gẹ́gẹ́ bí ẹ̀rí ìsanwó.
 
-![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/payment-disclosure-scope.png)
+![A transaction record is available today but provides no new third-party proof. A payment disclosure would prove selected details of one payment. A viewing key provides broader, ongoing visibility.](/content-images/payment-disclosure-scope-0585cdc075.webp)
 
 ## Kí ni mo lè lò lónìí?
 

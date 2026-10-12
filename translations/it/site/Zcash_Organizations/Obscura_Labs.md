@@ -1,5 +1,5 @@
 # Obscura Labs
-<img width="369" height="434" alt="obscuralabs" src="https://github.com/user-attachments/assets/5fda3e74-750c-487e-92e9-3cacc15f9b4b" />
+<img width="369" height="434" alt="obscuralabs" src="/content-images/5fda3e74-750c-487e-92e9-3cacc15f9b4b-b41e98d3e5.webp" />
 
 [Visita il sito web](https://www.obscuralabs.org/)
 
@@ -51,7 +51,7 @@ Le iniziative infrastrutturali possono includere:
 * Endpoint RPC pubblici della mainnet di Zcash.
 * Endpoint RPC pubblici della testnet di Zcash.
 * Nodi completi Zebra.
-* Servizi Lightwalletd.
+* Servizi lightwalletd.
 * Seeder DNS.
 * Monitoraggio pubblico dell'infrastruttura.
 * API orientate agli sviluppatori.
@@ -128,11 +128,11 @@ L'organizzazione gestisce nodi Zebra in Africa.
 
 Zebra è un'implementazione indipendente del protocollo di consenso di Zcash. Gestire infrastruttura Zebra contribuisce all'accessibilità della rete, alla diversità delle implementazioni e alla distribuzione geografica dei nodi Zcash.
 
-### Servizi Lightwalletd
+### Servizi lightwalletd
 
-Obscura Labs gestisce infrastruttura Lightwalletd per supportare la connettività dei wallet Zcash.
+Obscura Labs gestisce infrastruttura lightwalletd per supportare la connettività dei wallet Zcash.
 
-Lightwalletd fornisce dati della blockchain ai wallet light-client senza richiedere a ciascun utente del wallet di gestire un nodo Zcash completo. Servizi Lightwalletd affidabili sono quindi importanti per i wallet mobili e per altre applicazioni leggere di Zcash.
+lightwalletd fornisce dati della blockchain ai wallet light-client senza richiedere a ciascun utente del wallet di gestire un nodo Zcash completo. Servizi lightwalletd affidabili sono quindi importanti per i wallet mobili e per altre applicazioni leggere di Zcash.
 
 ### Monitoraggio dell'infrastruttura
 

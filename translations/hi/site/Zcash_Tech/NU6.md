@@ -21,7 +21,7 @@ NU6 ने नवंबर 2024 halving के बाद भी block subsidy �
 
 block subsidy का बाकी हिस्सा, साथ ही transaction fees, उन miners को जाता है जो network को सुरक्षित रखते हैं। NU6 ने मौजूदा funding-stream और dev-fund नियमों (ZIP 207 और ZIP 214) को भी इस नई संरचना के अनुसार अपडेट किया।
 
-![NU6 development-fund split: block subsidy का 20 प्रतिशत विकास के लिए जाता है, जिसमें 8 प्रतिशत Zcash Community Grants को और 12 प्रतिशत Deferred Dev Fund Lockbox में जाता है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-dev-fund-split.png)
+![NU6 development-fund split: block subsidy का 20 प्रतिशत विकास के लिए जाता है, जिसमें 8 प्रतिशत Zcash Community Grants को और 12 प्रतिशत Deferred Dev Fund Lockbox में जाता है](/content-images/nu6-dev-fund-split-08bc73e317.webp)
 
 ## Deferred lockbox
 
@@ -41,7 +41,7 @@ NU6 ने नए ZEC के निर्माण के तरीके मे
 2. NU6 के बाद, coinbase transaction का बिल्कुल संतुलित होना अनिवार्य है: total output value miner subsidy plus fees के बराबर होनी चाहिए, न अधिक न कम।
 3. क्योंकि अब miners कम claim करके गलती से ZEC burn नहीं कर सकते, इसलिए कुल जितना ZEC कभी अस्तित्व में होगा, उसका अब बिल्कुल सटीक पूर्वानुमान लगाया जा सकता है।
 
-![NU6 से पहले और बाद में Coinbase balancing: पहले, coinbase कम claim कर सकता था और ZEC burn हो जाता था, इसलिए supply बिल्कुल पूर्वानुमेय नहीं थी। बाद में, coinbase का बिल्कुल संतुलित होना आवश्यक है, इसलिए issuance बिल्कुल पूर्वानुमेय है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-coinbase-balance.png)
+![NU6 से पहले और बाद में Coinbase balancing: पहले, coinbase कम claim कर सकता था और ZEC burn हो जाता था, इसलिए supply बिल्कुल पूर्वानुमेय नहीं थी। बाद में, coinbase का बिल्कुल संतुलित होना आवश्यक है, इसलिए issuance बिल्कुल पूर्वानुमेय है](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## फंडिंग कैसे विकसित हुई
 
@@ -51,7 +51,7 @@ NU6, Zcash अपने लिए भुगतान कैसे करता �
 2. NU6 (नवंबर 2024) ने दूसरी halving के बाद उस funding का पुनर्गठन किया और Deferred Dev Fund Lockbox स्थापित किया, जिससे issuance का एक हिस्सा भविष्य में समुदाय द्वारा तय grants के लिए आरक्षित किया गया।
 3. NU6.1 (2025) ने उस प्रश्न का उत्तर दिया जिसे NU6 खुला छोड़ गया था—आरक्षित funds को कौन नियंत्रित करता है—8% block subsidy को Zcash Community Grants के लिए जारी रखते हुए और 12% को lockbox से seed किए गए coin-holder-controlled fund में निर्देशित करके।
 
-![Zcash funding कैसे विकसित हुई: Canopy ने development fund बनाया, NU6 ने lockbox स्थापित किया, और NU6.1 ने यह नियम तय किए कि इसे कौन नियंत्रित करता है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu6-funding-timeline.png)
+![Zcash funding कैसे विकसित हुई: Canopy ने development fund बनाया, NU6 ने lockbox स्थापित किया, और NU6.1 ने यह नियम तय किए कि इसे कौन नियंत्रित करता है](/content-images/nu6-funding-timeline-2427db58c0.webp)
 
 ## शब्दावली
 

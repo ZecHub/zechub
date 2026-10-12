@@ -67,7 +67,7 @@ ___
 
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
-- Oju opo wẹẹbu: https://app.routerprotocol.com/
+- Oju opo wẹẹbu: https://www.routerprotocol.com/
 - Àpèjúwe: Ìpele gbigbe omi onípele-ẹ̀yà tí ó gba ààyè láti gbé ohun ìní àti ìgbesẹ̀ dátà láìsí ìṣòro láàrín ọ̀pọ̀lọpọ̀ blockchain.
 
 ___
@@ -112,7 +112,7 @@ ___
 
 ### ZcashToCash
 
-<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="https://github.com/user-attachments/assets/3f7aa1a6-3646-442b-8f66-1ef8988051ba" />
+<img width="1774" height="887" alt="ChatGPT Image Sep 22, 2026, 08_27_53 PM" src="/content-images/3f7aa1a6-3646-442b-8f66-1ef8988051ba-3ddc295461.webp" />
 
 
 

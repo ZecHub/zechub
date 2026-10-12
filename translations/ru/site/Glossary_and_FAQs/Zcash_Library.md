@@ -35,7 +35,7 @@
 | Community | [Официальный форум сообщества Zcash](https://forum.zcashcommunity.com) / [Zcash Сообщество Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Предлагаемая гибридная схема консенсуса, которая сохраняет создание блоков с доказательством работы и добавляет поверх него слой финализации с доказательством доли, благодаря чему блоки получают более сильную финальность без отказа от майнинга. Она выросла из исследований Trailing Finality Layer и разрабатывается Shielded Labs; по состоянию на 2026 год всё ещё находится на стадии разработки в тестовой сети. |
 | CrossPay | Функция в кошельке ZODL, которая позволяет тратить экранированные ZEC, в то время как получатель получает выплату в предпочитаемых им активе и сети; маршрутизация выполняется через NEAR Intents, а не через централизованную биржу. |
-| Cypherpunk Zero | Творческая вселенная и совместный проект между ECC, иллюстратором Stranger Wolf, Mighty Jaxx и отдельными партнёрами экосистемы. [Сайт Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Коллекция OpenSea](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Творческая вселенная и совместный проект между ECC, иллюстратором Stranger Wolf, Mighty Jaxx и отдельными партнёрами экосистемы. [Коллекция OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -70,9 +70,9 @@
 
 ## G
 
-| Term | Definition |
+| Термин | Определение |
 |------|-----------|
-| Governance | Решения из процесса ZIP записываются в спецификацию Zcash, а также в программное обеспечение, на котором работает сеть. Изменения утверждаются в блокчейне, когда большинство сети принимает обновление и не нарушает консенсус. [Полная история протокола](https://zfnd.org/protocol-governance/) |
+| Governance | Решения, принятые в процессе ZIP, фиксируются в спецификации Zcash, а также в программном обеспечении, на котором работает сеть. Изменения утверждаются в блокчейне, когда большинство сети принимает обновление и не нарушает консенсус. [Полная история протокола](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -135,11 +135,11 @@
 
 ## O
 
-| Term | Definition |
+| Термин | Определение |
 |------|-----------|
-| Oblivious Synchronization | Метод, разрабатываемый в рамках Project Tachyon, который позволяет кошельку запрашивать необходимые ему данные с недоверенного сервера, не раскрывая, о каких notes он запрашивает информацию. Сервер никогда не узнаёт ваши nullifiers, потому что протокол заставляет их эволюционировать несвязываемым образом. [Описание](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Третий экранированный пул Zcash, представляющий дальнейшее развитие нашего технологического стека ZK-SNARKs. [Полные сведения](https://electriccoin.co/blog/explaining-halo-2/) |
-| Overwinter | 1-е сетевое обновление Zcash. [Подробнее](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+| Oblivious Synchronization | Метод, разрабатываемый в рамках Project Tachyon, который позволяет кошельку запрашивать необходимые ему данные с недоверенного сервера, не раскрывая, о каких записях он запрашивает информацию. Сервер никогда не узнаёт ваши нулификаторы, поскольку протокол позволяет им изменяться несвязываемым образом. [Описание](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Orchard Shielded Pool | Третий защищённый пул для Zcash, представляющий дальнейшее развитие нашего технологического стека zk-SNARK. [Полные сведения](https://electriccoin.co/blog/explaining-halo-2/) |
+| Overwinter | Первое сетевое обновление для Zcash. [Подробнее](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 

@@ -35,7 +35,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Community | [공식 Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com) / [Zcash 커뮤니티 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | 작업증명 기반 블록 생성은 유지하면서 그 위에 지분증명 기반 파이널리티 레이어를 추가하는 하이브리드 합의 설계 제안입니다. 이를 통해 채굴을 포기하지 않고도 블록이 더 강한 최종성을 확보할 수 있습니다. 이는 Trailing Finality Layer 연구에서 발전했으며, 2026년 기준으로 아직 테스트넷 개발 단계에서 Shielded Labs가 구축 중입니다. |
 | CrossPay | ZODL 지갑의 기능으로, 중앙화 거래소를 거치지 않고 NEAR Intents를 통해 라우팅되어 수신자가 선호하는 자산과 체인으로 지급받는 동안 사용자는 shielded ZEC를 사용할 수 있게 해줍니다. |
-| Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [Cypherpunk Zero 사이트](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -72,7 +72,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 | Term | Definition |
 |------|-----------|
-| Governance | ZIP 프로세스의 결정은 Zcash 명세와 네트워크를 실행하는 소프트웨어에 반영됩니다. 변경 사항은 네트워크의 과반수가 업그레이드를 채택하고 합의를 깨뜨리지 않을 때 온체인에서 비준됩니다. [전체 프로토콜 역사](https://zfnd.org/protocol-governance/) |
+| Governance | ZIP 프로세스의 결정은 Zcash 명세와 네트워크를 실행하는 소프트웨어에 반영됩니다. 변경 사항은 네트워크의 과반수가 업그레이드를 채택하고 합의를 깨뜨리지 않을 때 온체인에서 비준됩니다. [전체 프로토콜 역사](https://zfnd.org/protocol-agreements-and-major-decisions/) |
 
 ## H
 
@@ -135,10 +135,10 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## O
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
-| Oblivious Synchronization | Project Tachyon에서 개발 중인 방식으로, 지갑이 신뢰할 수 없는 서버에 필요한 데이터를 요청하면서도 어떤 note에 대해 요청하는지 드러내지 않도록 해줍니다. 프로토콜이 nullifier를 서로 연결할 수 없는 방식으로 변화시키기 때문에, 서버는 사용자의 nullifier를 절대 알 수 없습니다. [설명글](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Zcash의 세 번째 shielded 풀이며, 우리의 ZK-SNARKs 기술 스택이 계속 진화하고 있음을 보여줍니다. [전체 내용](https://electriccoin.co/blog/explaining-halo-2/) |
+| Oblivious Synchronization | Project Tachyon에서 개발 중인 방식으로, 지갑이 신뢰할 수 없는 서버에 필요한 데이터를 요청하면서도 어떤 노트에 대해 요청하는지 드러내지 않도록 해줍니다. 프로토콜이 사용자의 널리파이어를 서로 연결할 수 없는 방식으로 변화시키기 때문에, 서버는 사용자의 널리파이어를 절대 알 수 없습니다. [설명글](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Orchard Shielded Pool | Zcash의 세 번째 shielded 풀이며, 우리의 zk-SNARK 기술 스택이 계속 진화하고 있음을 보여줍니다. [전체 내용](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | Zcash의 첫 번째 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
