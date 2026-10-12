@@ -54,7 +54,10 @@ The integration with Kamino opens up opportunities for Zcash to enter the Solana
 Learn More: [Kamino Learn](https://kamino.com/docs/learn/guides)
 
 
-<div blockquote class="twitter-tweet"><p lang="en" dir="ltr">Access ZEC-backed credit on Solana.<br><br>The Zcash Market on Kamino has grown to over $2M, giving ZEC holders access to USDC liquidity against <a href="https://x.com/search?q=%24ZEC&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$ZEC</a> in a fully isolated market curated by <a href="https://x.com/AllezLabs?ref_src=twsrc%5Etfw">@AllezLabs</a>. <a href="https://t.co/zTELJdblcX">pic.twitter.com/zTELJdblcX</a></p>&mdash; Kamino (@kamino) <a href="https://x.com/kamino/status/2098485250816946322?ref_src=twsrc%5Etfw">September 11, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script> </div>
+> Access ZEC-backed credit on Solana. The Zcash Market on Kamino has grown to over $2M, giving ZEC holders access to USDC liquidity against $ZEC in a fully isolated market curated by @AllezLabs.
+>
+> — [Kamino on X](https://x.com/kamino/status/2098485250816946322)
+
 
 ---
 
@@ -89,8 +92,8 @@ Protocols such as [Meteora](https://www.meteora.ag/), [Orca](https://www.orca.so
 
 This integration combines Zcash’s privacy advantages with the speed and efficiency of the Solana network, creating new use cases for private assets within the modern DeFi ecosystem.
 
-Learn More On: <br> 1. [Meteora Learn](https://docs.meteora.ag/get-started). <br>
-               2. [Orca Learn](https://docs.orca.so/developers/overview). <br>
+Learn More On: <br /> 1. [Meteora Learn](https://docs.meteora.ag/get-started). <br />
+               2. [Orca Learn](https://docs.orca.so/developers/overview). <br />
                3. [Raydium Learn](https://docs.raydium.io/).
 
 ---
@@ -110,7 +113,7 @@ This integration offers several benefits for the Zcash ecosystem:
 - Enhanced interoperability with other blockchain assets;
 - Expanded use of ZEC within the multichain DeFi ecosystem.
 
-Learn More on: <br> 1. [THORChain Vision](https://thorchain.org/vision) <br>
+Learn More on: <br /> 1. [THORChain Vision](https://thorchain.org/vision) <br />
                2. [THORSwap Learn](https://docs.thorswap.finance/thorswap)
 
 ---
