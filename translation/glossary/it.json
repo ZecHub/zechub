@@ -21,7 +21,7 @@
         "tu": "Address the reader informally with \"tu\" (imperative and verbs in the second person singular). Never use \"Lei\" or \"voi\"."
       }
     },
-    "english_in_brackets": "first-use",
+    "english_in_brackets": "never",
     "loanwords": "keep-english",
     "loanwords_text": "Common technical loanwords (e.g. blockchain, token, bridge, smart contract) stay in English where that is the natural Italian usage; do not force awkward coinages. The terminology list below wins over this rule (wallet → portafoglio).",
     "capitalise_kept_english_at_sentence_start": true,
@@ -1832,6 +1832,17 @@
       "reviewed_at": "2026-10-12",
       "source": "menus-review-it.md#navigation-66"
     },
+    "voting chain": {
+      "target": "blockchain di voto",
+      "context": "The separate blockchain built by Valar Group that runs the shielded coinholder vote: \"la blockchain di voto\".",
+      "applies_to": "pages",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "chat 2026-10-12"
+    },
     "Wallets": {
       "target": "Portafogli",
       "rejected": [
@@ -2180,7 +2191,8 @@
         "Zcon Vozes Archive",
         "Zenith Installation",
         "Zingolib and Zaino Tutorial",
-        "Zkool Multisig"
+        "Zkool Multisig",
+        "voting chain"
       ],
       "summary": "Native review by Gianni (glossary-review-it.md, menus-review-it.md): page terms, menu labels, register, typography and writing rules."
     }
