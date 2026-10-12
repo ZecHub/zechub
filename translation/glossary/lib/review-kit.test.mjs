@@ -221,12 +221,12 @@ test("export: deterministic, and the kit proposes the glossary over the dictiona
   assert.match(a, /split \(with context\)/, "the Tools split is shown to reviewers");
 });
 
-test("export: names are listed, not reviewed; dictionary values fill unknown labels", () => {
+test("export: names are left out (protected-terms.json lists them); dictionary values fill unknown labels", () => {
   const en = { navigation: { a: "Zcash Foundation", b: "Keystone Zashi", c: "New Label" } };
   const loc = { navigation: { a: "Zcash Foundation", b: "Keystone Zashi", c: "Label Baru" } };
   const md = exportKit({ glossary: ID, termsEn: TERMS_EN, kit: "ui", dict: loc, enDict: en, preserveVerbatim: PV, brands: BRANDS });
   assert.match(md, /\| 1 \| navigation\.c \| New Label \| Label Baru \|/);
-  assert.match(md, /Keystone Zashi, Zcash Foundation/);
+  assert.doesNotMatch(md, /Keystone Zashi|Zcash Foundation|Names kept in English/);
 });
 
 test("isNameOnly: whole names only, case-insensitive", () => {
