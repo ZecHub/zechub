@@ -17,9 +17,9 @@ Il Pannello Consultivo della Comunità Zcash, o ZCAP, è un panel formato da mem
 
 [Resistenza ASIC](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/asicresistance_ballot.md): Questo voto riguardava se la Zcash Foundation dovesse dare priorità alla resistenza ASIC come valore e obiettivo per la rete Zcash
 
-[Elezione del Comitato per le Sovvenzioni della Comunità Zcash](https://zfnd.org/zcg-election-june-2023/): Questo voto riguardava la selezione di due membri del comitato Zcash Community Grants (ZCG), responsabile della revisione e del finanziamento delle proposte di sovvenzione per progetti legati a Zcash
+[Elezione del comitato Zcash Community Grants](https://zfnd.org/zcg-election-june-2023/): Questo voto riguardava la selezione di due membri del comitato Zcash Community Grants (ZCG), responsabile della revisione e del finanziamento delle proposte di finanziamento per progetti legati a Zcash
 
-[Il Programma di Sovvenzioni Minori Zcash](https://zfnd.org/launching-the-zcash-minor-grants-program/): Questo voto riguardava l'approvazione o il rifiuto delle domande di sovvenzione per progetti Zcash su piccola scala che hanno richiesto finanziamenti alla Zcash Foundation
+[Il programma di piccoli finanziamenti Zcash](https://zfnd.org/launching-the-zcash-minor-grants-program/): Questo voto riguardava l'approvazione o il rifiuto delle domande di finanziamento per progetti Zcash su piccola scala che hanno richiesto finanziamenti alla Zcash Foundation
 
 [Adozione e sviluppo di Zcash Shielded Assets](https://vote.heliosvoting.org/helios/elections/5dd57b92-01ed-11ec-a0a8-ae3066fac55d/view), che consente l'uso di asset generici DeFi all'interno dell'ecosistema Zcash privato per impostazione predefinita.
 

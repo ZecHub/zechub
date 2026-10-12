@@ -23,7 +23,7 @@ Il Protocollo Crosslink rappresenta uno sviluppo fondamentale nell'evoluzione di
 
 Questa transizione è in linea con le tendenze globali dell'innovazione blockchain, in cui i progetti stanno passando a meccanismi ambientalmente sostenibili e decentralizzati. Il modello di consenso duale di Crosslink garantisce che Zcash mantenga le sue solide garanzie crittografiche di privacy, evolvendosi al contempo per affrontare le sfide contemporanee.
 
-L'approccio Hybrid Proof-of-Stake (PoS) combina il tradizionale Proof-of-Work (PoW) con il PoS, con l'obiettivo di affrontare vulnerabilità come gli attacchi del 51% mantenendo la decentralizzazione e riducendo il consumo energetico. Il PoS ibrido introduce notai che convalidano i blocchi in base allo ZEC messo in staking. Questo meccanismo è progettato per migliorare la sicurezza della catena e la convalida dei checkpoint, offrendo un'alternativa più robusta ai sistemi puramente PoW.
+L'approccio ibrido Proof-of-Stake (PoS) combina il tradizionale Proof-of-Work (PoW) con il PoS, con l'obiettivo di affrontare vulnerabilità come gli attacchi del 51% mantenendo la decentralizzazione e riducendo il consumo energetico. Il PoS ibrido introduce notai che convalidano i blocchi in base allo ZEC messo in staking. Questo meccanismo è progettato per migliorare la sicurezza della chain e la convalida dei checkpoint, offrendo un'alternativa più robusta ai sistemi puramente PoW.
 
 ### Perché Hybrid PoS/PoW come primo test?
 
@@ -53,7 +53,7 @@ Il Protocollo Crosslink è progettato per affrontare diversi obiettivi strategic
 4. **Sicurezza economica e sostenibilità**:
    * Combinare PoW e PoS diversifica gli incentivi economici per i partecipanti alla rete, garantendo una sicurezza solida senza fare eccessivo affidamento su un unico meccanismo.
    * Lo staking introduce anche un modello di ricompensa prevedibile per i partecipanti, creando una proposta attraente per gli investitori di lungo termine.
-5. **Maggiore sicurezza**: Crosslink mira a migliorare la resilienza della rete contro gli attacchi di riorganizzazione della catena integrando il PoS accanto al PoW.
+5. **Maggiore sicurezza**: Crosslink mira a migliorare la resilienza della rete contro gli attacchi di riorganizzazione della chain integrando il PoS accanto al PoW.
 
 ## Visuale / Analogia
 
@@ -61,7 +61,7 @@ Il Protocollo Crosslink è progettato per affrontare diversi obiettivi strategic
 
 Pensa a un servizio di consegna pacchi che emette due documenti diversi per la stessa spedizione. Il primo è una scansione di tracciamento: appare rapidamente, ti dice dove molto probabilmente si trova il pacco e occasionalmente viene corretta. Il secondo è una ricevuta di consegna firmata: arriva più tardi, ma una volta esistente nessuno la mette in discussione.
 
-Il registro a latenza inferiore è la scansione di tracciamento, mentre il registro finalizzato è la ricevuta firmata. Entrambi descrivono la stessa catena di eventi; differiscono per la rapidità con cui appaiono e per quanto sono definitivi.
+Il registro a latenza inferiore è la scansione di tracciamento, mentre il registro finalizzato è la ricevuta firmata. Entrambi descrivono la stessa chain di eventi; differiscono per la rapidità con cui appaiono e per quanto sono definitivi.
 
 La Modalità di Sicurezza è ciò che fa il deposito quando le ricevute firmate smettono di arrivare mentre le scansioni continuano ad accumularsi. I pacchi continuano a muoversi nell'edificio, ma l'ufficio smette di effettuare pagamenti basandosi solo sulle scansioni finché le firme non raggiungono il passo.
 
@@ -71,7 +71,7 @@ La Modalità di Sicurezza è ciò che fa il deposito quando le ricevute firmate 
 
 Il protocollo Crosslink mira a fornire due tipi di registri per Zcash: un **registro finalizzato (LOG_fin)** e un **registro a latenza inferiore (LOG_ba)**. Il registro finalizzato garantisce sicurezza contro i rollback in base ad assunzioni ragionevoli sul protocollo Byzantine Fault Tolerance (BFT) o blockchain (BC). È progettato per rimanere live e sicuro anche in caso di partizioni di rete, con una latenza leggermente superiore al doppio di quella dell'attuale blockchain di Zcash per un numero equivalente di conferme di blocco.
 
-Il registro a latenza inferiore estende il registro finalizzato di non più di *L* blocchi. Garantisce sicurezza contro i rollback facendo affidamento sul solo protocollo blockchain e mantiene latenza e sicurezza non peggiori del modello Zcash esistente. Nel design semplificato Crosslink 2*, il registro a latenza inferiore semplifica sviluppo e adozione funzionando come una catena PoW.
+Il registro a latenza inferiore estende il registro finalizzato di non più di *L* blocchi. Garantisce sicurezza contro i rollback facendo affidamento sul solo protocollo blockchain e mantiene latenza e sicurezza non peggiori del modello Zcash esistente. Nel design semplificato Crosslink 2*, il registro a latenza inferiore semplifica sviluppo e adozione funzionando come una chain PoW.
 
 ![image](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
 
@@ -103,7 +103,7 @@ Crosslink riconosce il ruolo fondamentale dei miner PoW nelle prime fasi di svil
 * **Transizione equa**:
   * Il protocollo introduce i cambiamenti gradualmente, garantendo ai miner tempo sufficiente per adattarsi o esplorare nuovi ruoli nell'ecosistema Zcash, come il passaggio allo staking o il contributo ad altri servizi di rete.
 * **Mitigazione dei rischi di centralizzazione**:
-  * I pool di staking PoS sono progettati per prevenire la concentrazione del potere, offrendo ai partecipanti più piccoli la possibilità di partecipare ad armi pari. Questo approccio inclusivo contrasta l'attuale concentrazione osservata nel mining basato su ASIC.
+  * Le pool di staking PoS sono progettate per prevenire la concentrazione del potere, offrendo ai partecipanti più piccoli la possibilità di partecipare ad armi pari. Questo approccio inclusivo contrasta l'attuale concentrazione osservata nel mining basato su ASIC.
 * I miner PoW vedranno ridursi i ricavi poiché una parte della ricompensa del blocco viene riallocata ai validatori PoS. Questa riallocazione garantisce un sistema di incentivi equilibrato, premiando sia i miner sia gli staker per la sicurezza della rete.
 * È prevista una transizione graduale per mitigare l'impatto economico sui miner, promuovendo al contempo la partecipazione degli stakeholder.
 
@@ -117,12 +117,12 @@ Questo meccanismo di doppio consenso rafforza l'impegno di Zcash verso privacy, 
 
 **Trattare la "finalità" come una conferma più veloce**. Il registro finalizzato è progettato per avere una latenza leggermente superiore al doppio di quella dell'attuale blockchain di Zcash per un numero equivalente di conferme di blocco. Ciò che aggiunge è la sicurezza contro i rollback, non la velocità: il registro a latenza inferiore è la vista rapida.
 
-**Confondere i due registri**. LOG_ba non è una catena separata: estende il registro finalizzato di non più di *L* blocchi, e nel design Crosslink 2* funziona come una catena PoW.
+**Confondere i due registri**. LOG_ba non è una chain separata: estende il registro finalizzato di non più di *L* blocchi, e nel design Crosslink 2* funziona come una chain PoW.
 
 ## Pagine correlate
 
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — il client in cui è prevista l'integrazione di Crosslink 2*.
-- [Nodi completi](/zcash-tech/full-nodes) — come i nodi convalidano oggi le regole di consenso, prima di qualsiasi cambiamento verso un consenso ibrido.
+- [Full node (nodo completo)](/zcash-tech/full-nodes) — come i nodi convalidano oggi le regole di consenso, prima di qualsiasi cambiamento verso un consenso ibrido.
 - [Aggiornamenti di rete](/start-here/network-upgrades) — come le modifiche alle regole di consenso raggiungono la rete Zcash.
 - [Politica monetaria di Zcash](/start-here/zcash-monetary-policy) — la struttura delle ricompense per blocco che Crosslink ridistribuirebbe.
 

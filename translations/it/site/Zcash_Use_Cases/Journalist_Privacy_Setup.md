@@ -8,7 +8,7 @@
 ## TL;DR
 
 - Usa indirizzi schermati per tutte le transazioni
-- Non esporre mai pubblicamente l'identità del wallet
+- Non esporre mai pubblicamente l'identità del portafoglio
 - Proteggi le fonti evitando pagamenti tracciabili
 - Usa i memo con attenzione per una comunicazione sicura
 
@@ -50,7 +50,7 @@ Zcash offre:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti Serve
 
-- Un wallet Zcash con supporto schermato
+- Un portafoglio Zcash con supporto schermato
 - Un canale di comunicazione sicuro (al di fuori della blockchain)
 - Disciplina operativa
 
@@ -59,12 +59,12 @@ Zcash offre:
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida Passo Passo
 
 
-### Passo 1: Crea un Wallet Dedicato
+### Passo 1: Crea un portafoglio dedicato
 
-- Usa un wallet solo per il lavoro sensibile
+- Usa un portafoglio solo per il lavoro sensibile
 - Non mescolare con le transazioni personali
 
-### Passo 2: Usa Solo Indirizzi Schermati
+### Passo 2: Usa solo indirizzi schermati
 
 - Effettua sempre transazioni usando indirizzi-z
 - Evita completamente le transazioni trasparenti
@@ -86,7 +86,7 @@ Se paghi delle fonti:
 
 ### Passo 5: Mantieni la Sicurezza Operativa
 
-- Evita di collegare il wallet alla tua identità
+- Evita di collegare il portafoglio alla tua identità
 - Non confermare pubblicamente le transazioni
 - Usa canali separati per la comunicazione
 
@@ -98,7 +98,7 @@ Se paghi delle fonti:
 - Usare indirizzi trasparenti  
 - Riutilizzare gli indirizzi tra le fonti  
 - Includere dati sensibili nei memo  
-- Collegare il wallet a un'identità pubblica  
+- Collegare il portafoglio a un'identità pubblica  
 
 <br/>
 

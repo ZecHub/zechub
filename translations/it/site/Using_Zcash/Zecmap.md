@@ -35,7 +35,7 @@ ZecMap organizza le attività che accettano Zcash su una mappa globale. Ogni sch
 
 ### Trovare Commercianti Locali
 
-Apri [zecmap.com](https://zecmap.com/) e cerca sulla mappa i commercianti vicino a te. Prima di visitarli, conferma con l'attività che ZEC sia attualmente accettato e chiedi quale wallet o flusso di pagamento preferiscono.
+Apri [zecmap.com](https://zecmap.com/) e cerca sulla mappa i commercianti vicino a te. Prima di visitarli, conferma con l'attività che ZEC sia attualmente accettato e chiedi quale portafoglio o flusso di pagamento preferiscono.
 
 ### Scoprire Negozi e Servizi Online
 
@@ -129,7 +129,7 @@ I miglioramenti pianificati includono:
 ## Suggerimenti per Usare ZecMap
 
 - **Conferma prima di andare.** Verifica sempre con il commerciante che ZEC sia attualmente accettato.
-- **Controlla il tipo di pagamento.** Alcune attività accettano ZEC trasparente, altre preferiscono shielded. Chiedi prima di pagare.
+- **Controlla il tipo di pagamento.** Alcune attività accettano ZEC trasparente, altre preferiscono ZEC schermato. Chiedi prima di pagare.
 - **Aiuta la comunità.** Se trovi una scheda obsoleta o errata, segnalala così che altri non vengano fuorviati.
 - **Aggiungi ciò che conosci.** Se un'attività locale accetta ZEC e non è elencata, inviala — la tua conoscenza locale è preziosa.
 
@@ -139,8 +139,8 @@ I miglioramenti pianificati includono:
 
 - [Spendere ZEC](/using-zcash/spend-zcash) — Altri modi per usare ZEC nel mondo reale
 - [Processori di Pagamento](/using-zcash/payment-processors) — Strumenti per i commercianti per accettare ZEC
-- [Usare ZEC in Modo Privato](/guides/using-zec-privately) — Migliori pratiche per i pagamenti shielded
-- [Wallet](/using-zcash/wallets) — Wallet compatibili con i pagamenti in ZEC ai commercianti
+- [Usare ZEC in modo privato](/guides/using-zec-privately) — Migliori pratiche per i pagamenti schermati
+- [Portafogli](/using-zcash/wallets) — Portafogli compatibili con i pagamenti in ZEC ai commercianti
 - [Exchange Non-Custodial](/using-zcash/non-custodial-exchanges) — Ottieni ZEC da spendere
 
 ## Risorse

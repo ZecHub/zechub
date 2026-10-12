@@ -238,7 +238,7 @@
           "text": "viewing key"
         }
       ],
-      "context": "Italian uses the plural even for one key (like \"le chiavi di casa\"): \"chiavi di visualizzazione\". The singular \"chiave di visualizzazione\" is fine when the sentence counts keys.",
+      "context": "Italian uses the plural even for one key (like \"le chiavi di casa\"): \"chiavi di visualizzazione\". The singular \"chiave di visualizzazione\" is fine when the sentence counts keys. Exception: the protocol names written with capitals in the English (\"Viewing Key\", \"Full Viewing Key\", \"Incoming Viewing Key\") stay in English exactly as written: \"la Full Viewing Key\".",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [

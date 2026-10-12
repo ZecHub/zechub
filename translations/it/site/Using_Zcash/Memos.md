@@ -6,15 +6,15 @@
 
 #### Invio di Memos cifrati
 
-Quando invii una transazione Z2Z (da Shielded a Shielded), puoi includere un Memo (messaggio) nella transazione. Questo Memo può essere utilizzato per diverse finalità.
+Quando invii una transazione Z2Z (da schermato a schermato), puoi includere un memo (messaggio) nella transazione. Questo memo può essere utilizzato per diverse finalità.
 
 #### Firma delle transazioni
 
-I Memos vengono utilizzati principalmente per firmare i pagamenti. Poiché le Shielded transactions cifrano i tuoi dati, non è possibile vedere chi ti ha inviato ZEC né per quale motivo. Gli utenti possono usare il campo Memo per inserire il proprio nome o pseudonimo, così la controparte sa da chi proviene la transazione. Possono anche descrivere la causale della transazione.
+I memo vengono utilizzati principalmente per firmare i pagamenti. Poiché le transazioni schermate crittografano i tuoi dati, non è possibile vedere chi ti ha inviato gli ZEC né per quale motivo. Gli utenti possono usare il campo memo per inserire il proprio nome o pseudonimo, così la controparte sa da chi proviene la transazione. Possono anche descrivere la causale della transazione.
 
 #### Invio di un messaggio
 
-Un altro caso d'uso del Memo cifrato è inviare un messaggio a qualcuno con un z-addr. Questi messaggi possono riguardare qualsiasi argomento, che si tratti di un [promemoria per un amico](https://twitter.com/iansagstette/status/1542142468505870336) o di un [messaggio sensibile che deve rimanere il più privato possibile](https://twitter.com/InsideZcash/status/1545800146352578560).
+Un altro caso d'uso del memo crittografato è inviare un messaggio a qualcuno con un z-addr. Questi messaggi possono riguardare qualsiasi argomento, che si tratti di un [promemoria per un amico](https://twitter.com/iansagstette/status/1542142468505870336) o di un [messaggio sensibile che deve rimanere il più privato possibile](https://twitter.com/InsideZcash/status/1545800146352578560).
 
 #### Biglietti d'amore sulla blockchain
 
@@ -30,7 +30,7 @@ Una persona ha inviato al proprio partner un biglietto d'amore in uno dei primi 
 >
 > Questa sezione è conservata come testimonianza storica della demo Magic-Wormhole.
 
-Ecco come usare Zcash Shielded Memos con la CLI Magic-Wormhole e zcashd per trasferire file in modo sicuro da un computer all'altro!:
+Ecco come usare i memo schermati di Zcash con la CLI Magic-Wormhole e zcashd per trasferire file in modo sicuro da un computer all'altro!:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

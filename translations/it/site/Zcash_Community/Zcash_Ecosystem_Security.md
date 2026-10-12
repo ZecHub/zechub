@@ -6,7 +6,7 @@
 
 ## Responsabile della Sicurezza dell'Ecosistema
 
-Il ruolo di Responsabile della Sicurezza dell'Ecosistema Zcash è stato istituito tramite una sovvenzione ZCG per fornire ingegneria della sicurezza dedicata all'intero ecosistema Zcash — in particolare ai beneficiari ZCG — al di fuori di ECC e ZF.
+Il ruolo di Responsabile della Sicurezza dell'Ecosistema Zcash è stato istituito tramite un finanziamento ZCG per fornire ingegneria della sicurezza dedicata all'intero ecosistema Zcash — in particolare ai beneficiari ZCG — al di fuori di ECC e ZF.
 
 - **2022–2023:** [earthrise](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) ha ricoperto il ruolo di primo Responsabile della Sicurezza dell'Ecosistema. Scopri di più su [zecsec.com](https://zecsec.com).
 - **2024–2025:** ZCG ha selezionato [Least Authority](https://leastauthority.com) per continuare il ruolo tramite una nuova [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723). Gli aggiornamenti sono disponibili [qui](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).

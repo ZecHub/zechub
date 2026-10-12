@@ -5,8 +5,8 @@
 ## TL;DR
 
 - Accedi dimostrando di controllare un indirizzo Zcash, invece di usare una password
-- Sono in uso due modelli: **firmare una challenge**, oppure **inviare un pagamento shielded con un codice nel memo**
-- Poiché gli indirizzi shielded nascondono saldo e cronologia, dimostrare il controllo non espone le tue finanze
+- Sono in uso due modelli: **firmare una challenge**, oppure **inviare un pagamento schermato con un codice nel memo**
+- Poiché gli indirizzi schermati nascondono saldo e cronologia, dimostrare il controllo non espone le tue finanze
 - Questo modello è ancora agli inizi. Non esiste ancora uno standard ratificato e le implementazioni non sono interoperabili
 
 <br/>
@@ -25,7 +25,7 @@ La maggior parte delle opzioni di accesso rivela qualcosa:
 
 - **Password ed email** creano un account legato alla tua identità, ed entrambe finiscono nei dump delle violazioni dei dati
 - **Accesso social** comunica al provider di identità ogni posto in cui accedi e quando
-- **Accesso con wallet su chain trasparenti** è peggio di quanto sembri. Collegare un wallet può consegnare al sito il tuo intero saldo e la cronologia delle transazioni, in modo permanente
+- **Accesso con portafoglio su chain trasparenti** è peggio di quanto sembri. Collegare un portafoglio può consegnare al sito il tuo intero saldo e la cronologia delle transazioni, in modo permanente
 
 Di solito stai scegliendo tra comodità e divulgazione di dati.
 
@@ -35,9 +35,9 @@ Di solito stai scegliendo tra comodità e divulgazione di dati.
 
 Zcash separa il *dimostrare il controllo* dal *rivelare le finanze*:
 
-- **Gli indirizzi shielded** mantengono privati saldi e cronologia delle transazioni, quindi dimostrare di possederne uno non dice nulla su ciò che possiedi
+- **Gli indirizzi schermati** mantengono privati saldi e cronologia delle transazioni, quindi dimostrare di possederne uno non dice nulla su ciò che possiedi
 - **I memo cifrati** possono trasportare privatamente un codice di accesso monouso all'interno di una transazione
-- **I Viewing Key** consentono una divulgazione selettiva, così un'app può ricevere accesso in lettura esattamente a ciò di cui ha bisogno e niente di più
+- **Le chiavi di visualizzazione** consentono la divulgazione selettiva, così un'app può ricevere accesso in lettura esattamente a ciò di cui ha bisogno e niente di più
 
 <br/>
 
@@ -48,18 +48,18 @@ Sono emersi due approcci. Entrambi terminano con l'app che possiede un identific
 ### Approccio 1: firmare una challenge
 
 1. L'app genera una challenge casuale monouso
-2. Il tuo wallet firma quella challenge con la chiave dietro il tuo indirizzo
+2. Il tuo portafoglio firma quella challenge con la chiave dietro il tuo indirizzo
 3. L'app verifica la firma e ti fa accedere
 
-Non viene trasmesso nulla in broadcast, quindi non ci sono commissioni né attesa di un blocco. La specifica rilevante è [ZIP 304, Firme degli indirizzi Sapling](https://zips.z.cash/zip-0304), che è ancora una bozza, quindi il supporto dei wallet per la firma dei messaggi varia.
+Non viene trasmesso nulla, quindi non ci sono commissioni né attesa di un blocco. La specifica rilevante è [ZIP 304, Firme degli indirizzi Sapling](https://zips.z.cash/zip-0304), che è ancora una bozza, quindi il supporto dei portafogli per la firma dei messaggi varia.
 
-### Approccio 2: dimostrarlo con un pagamento shielded
+### Approccio 2: dimostrarlo con un pagamento schermato
 
 1. L'app genera un codice monouso e mostra una richiesta di pagamento
-2. Invi una piccola transazione shielded con quel codice nel memo
+2. Invi una piccola transazione schermata con quel codice nel memo
 3. L'app osserva il memo, abbina il codice e ti fa accedere
 
-Questo funziona con i wallet che già oggi supportano i memo, cioè la maggior parte. Il compromesso è che costa una commissione di rete e devi attendere la conferma.
+Questo funziona con i portafogli che già oggi supportano i memo, cioè la maggior parte. Il compromesso è che costa una commissione di rete e devi attendere la conferma.
 
 ### Mantenere privato l'indirizzo
 
@@ -71,11 +71,11 @@ Un'app non deve necessariamente memorizzare il tuo indirizzo per riconoscerti. A
 
 Vale la pena capirli prima di costruirci sopra o di farci affidamento.
 
-| | Challenge firmata | Pagamento shielded |
+| | Challenge firmata | Pagamento schermato |
 |---|---|---|
 | Costo | Gratis | Commissione di rete per ogni accesso |
 | Velocità | Istantaneo | Attende la conferma |
-| Supporto dei wallet | Limitato, ZIP 304 è una bozza | Ampio, servono solo i memo |
+| Supporto dei portafogli | Limitato, ZIP 304 è una bozza | Ampio, servono solo i memo |
 | Lascia una traccia sulla chain | No | Sì, esiste una transazione |
 
 Limitazioni condivise:
@@ -92,7 +92,7 @@ Limitazioni condivise:
 - Riutilizzare un codice challenge. Ogni codice dovrebbe essere monouso e scadere rapidamente, altrimenti uno intercettato può essere riutilizzato
 - Chiedere agli utenti di inviare un importo significativo per accedere. Il pagamento è una prova, quindi l'importo dovrebbe essere trascurabile
 - Memorizzare l'indirizzo grezzo quando un identificatore specifico dell'applicazione farebbe lo stesso lavoro
-- Presumere che la firma dei messaggi funzioni ovunque. Controlla quali wallet hanno davvero i tuoi utenti
+- Presumere che la firma dei messaggi funzioni ovunque. Controlla quali portafogli hanno davvero i tuoi utenti
 - Trattare un memo come segreto dopo il fatto. Dimostra che il mittente ha agito, non è una password
 
 <br/>
@@ -101,11 +101,11 @@ Limitazioni condivise:
 
 Questi sono stati creati per la traccia **Zcash Login** dello [ZecHub Hackathon 3.0](https://zechub.wiki/hackathon). Sono esperimenti più che prodotti finiti, e mostrano quanto diversamente si possa costruire la stessa idea.
 
-- **ZecAuth** - un protocollo di connessione wallet per Zcash, nello spirito di ciò che WalletConnect fa altrove. L'app mostra un codice QR o un link `zecauth://` che contiene una challenge insieme alle capacità che sta richiedendo, come accesso, richieste di pagamento o accesso in lettura. Nessuna transazione, nessuna commissione, nessuna interazione con la chain. Include una specifica scritta del protocollo insieme al codice
-- **ZShield** - trasforma un indirizzo shielded in un DID W3C e in un'identità OpenID Connect. Il browser genera una coppia di chiavi, il server emette un nonce tramite un'interfaccia in stile ZIP 304, il wallet lo firma e il server restituisce un JWT. Poiché il risultato è compatibile con OIDC, le app esistenti possono utilizzarlo senza integrazioni su misura
+- **ZecAuth** - un protocollo di connessione del portafoglio per Zcash, nello spirito di ciò che WalletConnect fa altrove. L'app mostra un codice QR o un link `zecauth://` che contiene una challenge insieme alle capacità che sta richiedendo, come accesso, richieste di pagamento o accesso in lettura. Nessuna transazione, nessuna commissione, nessuna interazione con la chain. Include una specifica scritta del protocollo insieme al codice
+- **ZShield** - trasforma un indirizzo schermato in un DID W3C e in un'identità OpenID Connect. Il browser genera una coppia di chiavi, il server emette un nonce tramite un'interfaccia in stile ZIP 304, il portafoglio lo firma e il server restituisce un JWT. Poiché il risultato è compatibile con OIDC, le app esistenti possono utilizzarlo senza integrazioni su misura
 - **ZecPass** - dimostra il possesso tramite un memo firmato, ed è costruito in modo che l'app non apprenda affatto l'indirizzo dell'utente. Deriva un hash con ambito applicativo da usare come identificatore stabile, mantiene le challenge monouso e con limite di tempo, e include un pulsante React pronto all'uso con una libreria di verifica per Node
-- **Portal** - accesso inviando una transazione shielded con un codice monouso nel memo, in esecuzione su mainnet. Lo stesso flusso viene riutilizzato per sbloccare contenuti a pagamento e per inviare o ricevere denaro da un link
-- **ZcashMe** - usa un pagamento shielded come prova di identità, e si concentra sul divario tra desktop e mobile in modo che l'accesso da laptop non richieda un'estensione del browser
+- **Portal** - accesso inviando una transazione schermata con un codice monouso nel memo, in esecuzione su mainnet. Lo stesso flusso viene riutilizzato per sbloccare contenuti a pagamento e per inviare o ricevere denaro da un link
+- **ZcashMe** - usa un pagamento schermato come prova di identità, e si concentra sul divario tra desktop e mobile in modo che l'accesso da laptop non richieda un'estensione del browser
 - **ZBooks** - uno strumento per contabilità e pagamenti che tratta l'accesso con Zcash come un primitivo di autenticazione riutilizzabile invece che come il prodotto stesso, e legge i dati della tesoreria tramite una Unified Full Viewing Key
 
 <br/>
@@ -113,8 +113,8 @@ Questi sono stati creati per la traccia **Zcash Login** dello [ZecHub Hackathon 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Pagine correlate
 
 - [Memo](/using-zcash/memos) - come funzionano i memo cifrati e come un codice di accesso viaggia al loro interno
-- [Viewing Key](/zcash-tech/viewing-keys) - concedere accesso in sola lettura senza cedere il potere di spesa
-- [Tenere registri con ZEC shielded](/zcash-use-cases/keeping-records-with-shielded-zec) - la stessa idea di divulgazione selettiva, applicata alla contabilità
+- [Chiavi di visualizzazione](/zcash-tech/viewing-keys) - concedere accesso in sola lettura senza cedere il potere di spesa
+- [Tenere registri con ZEC schermati](/zcash-use-cases/keeping-records-with-shielded-zec) - la stessa idea di divulgazione selettiva, applicata alla contabilità
 - [Inviare denaro senza collegare l'identità](/zcash-use-cases/send-money-without-linking-identity) - perché il riutilizzo dell'indirizzo compromette la privacy
 
 <br/>

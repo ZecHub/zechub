@@ -27,11 +27,11 @@ Prima di aprire il tuo editor, sappi quale problema stai risolvendo e perché do
 
 ## Impara prima lo stack
 
-La sorpresa più comune per i builder provenienti da altre chain è la curva di apprendimento dell'infrastruttura di Zcash, non la programmazione. Concediti il tempo di capire come i pezzi si incastrano prima di progettare la tua app. Parti dallo stack principale, spesso chiamato Z al cubo: zebrad, un light server e un wallet. Poi familiarizza con gli strumenti per sviluppatori:
+La sorpresa più comune per gli sviluppatori provenienti da altre chain è la curva di apprendimento dell'infrastruttura di Zcash, non la programmazione. Concediti il tempo di capire come i pezzi si incastrano prima di progettare la tua app. Parti dallo stack principale, spesso chiamato Z al cubo: zebrad, un light server e un portafoglio. Poi familiarizza con gli strumenti per sviluppatori:
 
 1. Leggi la pagina per sviluppatori sul wiki su [zechub.wiki/developers](https://zechub.wiki/developers), è la prima tappa consigliata
 2. Esplora zingolib e zingo-cli, le cui chiamate coprono la maggior parte di ciò di cui un progetto ha bisogno nei vari track
-3. Dai un'occhiata a librustzcash e al wallet di riferimento ZODL per componenti di livello più basso
+3. Dai un'occhiata a librustzcash e al portafoglio di riferimento ZODL per componenti di livello più basso
 4. Per un progetto FROST, usa frostd della Zcash Foundation e frost-core da crates.io, e appoggiati all'AI per aiutarti con le definizioni, anche se usare FROST in modo sicuro richiede comunque impegno e tempo reali
 
 <br/>
@@ -40,7 +40,7 @@ La sorpresa più comune per i builder provenienti da altre chain è la curva di 
 
 Diversi track richiedono che la tua app interagisca con la mainnet di Zcash. In pratica questo significa che il tuo progetto, o qualcuno che lo usa, incluso un agente AI, invia o riceve fondi reali su mainnet, oppure costruisce e migliora gli strumenti che rendono ciò possibile. Se la tua app effettua transazioni, devi dimostrarle su mainnet nella tua submission.
 
-Sviluppa su testnet mentre lavori. L'attività su mainnet costa ZEC reali e col tempo diventerà solo più costosa, quindi la testnet è il posto consigliato per iterare. Passa alla mainnet per la prova finale. Tieni presente un dettaglio mentre progetti il flusso: quando i fondi arrivano a un indirizzo shielded, il tuo wallet deve scansionarli e trovarli prima che possano essere spesi, e questa scansione richiede un po' di tempo. Integra questa breve attesa nella tua app invece di presumere che i fondi in arrivo siano subito pronti all'uso.
+Sviluppa su testnet mentre lavori. L'attività su mainnet costa ZEC reali e col tempo diventerà solo più costosa, quindi la testnet è il posto consigliato per iterare. Passa alla mainnet per la prova finale. Tieni presente un dettaglio mentre progetti il flusso: quando i fondi arrivano a un indirizzo schermato, il tuo portafoglio deve scansionarli e trovarli prima che possano essere spesi, e questa scansione richiede un po' di tempo. Integra questa breve attesa nella tua app invece di presumere che i fondi in arrivo siano subito pronti all'uso.
 
 <br/>
 
@@ -76,7 +76,7 @@ Vincere non è la fine del percorso. Vincere arricchisce il tuo portfolio e la t
 ## Pagine correlate
 
 - [Risorse per sviluppatori](https://zechub.wiki/developers) - la prima tappa per i builder di Zcash
-- [Nodo completo Zebra](https://zechub.wiki/zcash-tech/zebra-full-node) - il nodo alla base dello stack
+- [Full node Zebra (nodo completo)](https://zechub.wiki/zcash-tech/zebra-full-node) - il nodo alla base dello stack
 - [FROST](https://zechub.wiki/zcash-tech/frost) - firme a soglia per progetti avanzati
 
 <br/>

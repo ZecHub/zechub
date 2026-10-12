@@ -1,4 +1,4 @@
-# Nodo completo Zebra rafforzato
+# Full node Zebra (nodo completo) rafforzato
 
 - Usa un utente dedicato senza privilegi + sandboxing systemd a livello di kernel (lo stesso isolamento di Docker).  
 - L'RPC è solo localhost con autenticazione sicura tramite cookie (predefinita e raccomandata).  

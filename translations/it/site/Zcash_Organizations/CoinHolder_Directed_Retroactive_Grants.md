@@ -89,7 +89,7 @@ Subito dopo; i grant approvati vengono pagati secondo i termini (KYC per importi
 
 **Voto**:
 
-  - I coinholder votano con le proprie disponibilità in ZEC (senza lockup; il pool Orchard è idoneo).
+  - I possessori di ZEC votano con le proprie disponibilità in ZEC (senza lockup; la pool Orchard è idonea).
   - Meccanismo: polling decentralizzato (ad es. tramite voting authorities).
   - **Approvazione**: quorum di almeno 420.000 ZEC + maggioranza semplice di voti favorevoli.
   - Voti indipendenti; le monete sono riutilizzabili tra più proposte.

@@ -6,17 +6,17 @@
 
 > NU5 è entrato in funzione sulla mainnet di Zcash al blocco 1.687.104 (31 maggio 2022 UTC).
 
-Cosa imparerai: come NU5 ha dato a Zcash un nuovo pool schermato che non richiede alcuna configurazione fidata, oltre a un unico tipo di indirizzo che funziona tra i pool.
+Cosa imparerai: come NU5 ha dato a Zcash una nuova pool schermata che non richiede alcun trusted setup, oltre a un unico tipo di indirizzo che funziona tra le pool.
 
 NU5 (Network Upgrade 5) è il sesto Zcash [aggiornamento di rete](../start-here/network-upgrades) di [, implementato da ZIP 252](https://zips.z.cash/zip-0252). È un importante aggiornamento crittografico. Ha introdotto il protocollo di pagamento schermato Orchard, basato sul sistema di proving Halo 2, insieme agli Unified Addresses e a un nuovo formato di transazione versione 5. NU5 è stato rilasciato nella versione v5.0.0 di Electric Coin Company zcashd.
 
-Perché è importante. Un pool schermato è affidabile solo quanto la configurazione che lo ha creato. I primi due pool schermati di Zcash, Sprout e Sapling, richiedevano ciascuno una cerimonia di configurazione fidata una tantum per generare i propri parametri segreti. Se tali parametri fossero stati conservati anziché distrutti, qualcuno avrebbe potuto creare ZEC contraffatti senza che nessuno se ne accorgesse. Il pool Orchard di NU5 elimina questa preoccupazione usando il sistema di proving Halo 2, che non richiede tale cerimonia.
+Perché è importante. Una pool schermata è affidabile solo quanto il trusted setup che l'ha creata. Le prime due pool schermate di Zcash, Sprout e Sapling, richiedevano ciascuna una cerimonia di trusted setup una tantum per generare i propri parametri segreti. Se tali parametri fossero stati conservati anziché distrutti, qualcuno avrebbe potuto creare ZEC contraffatti senza che nessuno se ne accorgesse. La pool Orchard di NU5 elimina questa preoccupazione usando il sistema di prova Halo 2, che non richiede tale cerimonia.
 
 ## La configurazione fidata
 
 Orchard è il protocollo schermato introdotto da NU5, definito in [ZIP 224](https://zips.z.cash/zip-0224). Si basa sul sistema di proving Halo 2, che utilizza una tecnica chiamata aritmetizzazione PLONKish sul ciclo di curve Pallas e Vesta. Il vantaggio pratico è semplice: Halo 2 non richiede alcuna configurazione fidata né una stringa di riferimento strutturata, quindi non esiste alcun parametro segreto che potrebbe essere usato impropriamente.
 
-Sprout e Sapling dipendevano entrambi da una configurazione fidata. Un gruppo di persone ha svolto una cerimonia per creare i parametri di ciascun pool, e tutti dovevano confidare che almeno una di loro distruggesse la propria parte del segreto. Orchard elimina questa ipotesi. I pool precedenti continuano a esistere dopo NU5, quindi la garanzia di assenza di configurazione si applica ai fondi detenuti nel pool Orchard.
+Sprout e Sapling dipendevano entrambe da un trusted setup. Un gruppo di persone ha svolto una cerimonia per creare i parametri di ciascuna pool, e tutti dovevano confidare che almeno una di loro distruggesse la propria parte del segreto. Orchard elimina questa ipotesi. Le pool precedenti continuano a esistere dopo NU5, quindi la garanzia dell'assenza di trusted setup si applica ai fondi detenuti nella pool Orchard.
 
 ![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](/content-images/nu5-trusted-setup-5447dbe3f2.webp)
 
@@ -24,7 +24,7 @@ Sprout e Sapling dipendevano entrambi da una configurazione fidata. Un gruppo di
 
 NU5 riunisce diverse modifiche al consenso, tutte attivate insieme al blocco 1.687.104.
 
-1. Ha aggiunto il pool schermato Orchard (ZIP 224), il protocollo basato su Halo 2 descritto sopra.
+1. Ha aggiunto la pool schermata Orchard (ZIP 224), il protocollo basato su Halo 2 descritto sopra.
 2. Ha aggiunto il formato di transazione versione 5 (ZIP 225), una struttura riorganizzata con sezioni separate per dati trasparenti, Sapling e nuovi dati Orchard. I campi Sprout sono stati rimossi e il precedente formato versione 4 è rimasto valido dopo l'attivazione.
 3. Ha introdotto Unified Addresses e chiavi di visualizzazione unificate (ZIP 316), trattate nella sezione successiva.
 4. Ha adottato la non malleabilità dell'identificatore di transazione (ZIP 244), un nuovo modo di calcolare l'id di una transazione che separa ciò che una transazione fa dalle prove e dalle firme che la autorizzano.
@@ -35,11 +35,11 @@ NU5 ha inoltre aggiornato diversi ZIP esistenti (32, 203, 209, 212, 213, 221 e 4
 
 ## Unified Addresses
 
-Prima di NU5, ogni pool aveva il proprio tipo di indirizzo e il mittente doveva sapere quale tipo desideravi. Gli Unified Addresses, definiti in [ZIP 316](https://zips.z.cash/zip-0316), cambiano questa situazione. Un singolo Unified Address può riunire ricevitori per più di un pool, quindi il wallet del mittente sceglie semplicemente il migliore che supporta.
+Prima di NU5, ogni pool aveva il proprio tipo di indirizzo e il mittente doveva sapere quale tipo desideravi. Gli indirizzi unificati, definiti in [ZIP 316](https://zips.z.cash/zip-0316), cambiano questa situazione. Un singolo indirizzo unificato può riunire ricevitori per più di una pool, quindi il portafoglio del mittente sceglie semplicemente il migliore che supporta.
 
 ![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](/content-images/nu5-unified-address-6e2c84f66e.webp)
 
-Le chiavi di visualizzazione unificate funzionano allo stesso modo per la visualizzazione. Offrono visibilità in sola lettura sui pool coperti da un indirizzo. Per ulteriori informazioni, consulta la pagina [Viewing Keys](../zcash-tech/viewing-keys).
+Le chiavi di visualizzazione unificate funzionano allo stesso modo per la visualizzazione. Offrono visibilità in sola lettura sulle pool coperte da un indirizzo. Per ulteriori informazioni, consulta la pagina [Chiavi di visualizzazione](../zcash-tech/viewing-keys).
 
 ## Dove si colloca NU5
 
@@ -50,21 +50,21 @@ NU5 ha seguito i precedenti aggiornamenti di Zcash: Overwinter, Sapling, Blossom
 | Termine | Significato in parole semplici |
 |---|---|
 | Network upgrade (NU) | Una modifica coordinata alle regole di consenso di Zcash, attivata a un'altezza di blocco prestabilita |
-| Orchard | Il pool schermato introdotto da NU5, basato sul sistema di proving Halo 2 |
+| Orchard | La pool schermata introdotta da NU5, basata sul sistema di prova Halo 2 |
 | Halo 2 | Il sistema di proving alla base di Orchard che non richiede una configurazione fidata |
-| Trusted setup | Una cerimonia una tantum che crea i parametri segreti di un pool e per la quale occorre confidare che vengano distrutti |
-| Unified Address | Un singolo indirizzo che può riunire ricevitori per più di un pool (ZIP 316) |
+| Trusted setup | Una cerimonia una tantum che crea i parametri segreti di una pool e per la quale occorre confidare che vengano distrutti |
+| Unified Address | Un singolo indirizzo che può riunire ricevitori per più di una pool (ZIP 316) |
 | Consensus branch id | Un identificatore che indica a quale insieme di regole appartiene una transazione |
 
 ## FAQ
 
-NU5 modifica i miei ZEC o la mia privacy? No. NU5 ha aggiunto un nuovo pool schermato e un nuovo formato di indirizzo. I tuoi ZEC esistenti non subiscono modifiche e la tua privacy non viene ridotta. Spostare fondi in Orchard ti offre un pool che non richiede alcuna configurazione fidata.
+NU5 modifica i miei ZEC o la mia privacy? No. NU5 ha aggiunto una nuova pool schermata e un nuovo formato di indirizzo. I tuoi ZEC esistenti non subiscono modifiche e la tua privacy non viene ridotta. Spostare fondi in Orchard ti offre una pool che non richiede alcun trusted setup.
 
 Cos'è Orchard? Orchard è il protocollo schermato di Zcash introdotto da NU5. Funziona con il sistema di proving Halo 2, quindi non richiede alcuna cerimonia di configurazione fidata.
 
-Devo fare qualcosa? No. Un wallet supportato gestisce NU5 per te. Puoi continuare a usare gli indirizzi precedenti e iniziare a usare gli Unified Addresses quando il tuo wallet li offre.
+Devo fare qualcosa? No. Un portafoglio supportato gestisce NU5 per te. Puoi continuare a usare gli indirizzi precedenti e iniziare a usare gli indirizzi unificati quando il tuo portafoglio li offre.
 
-Cos'è un Unified Address? Un singolo indirizzo che può contenere ricevitori per più di un pool. Il wallet del mittente sceglie il pool che supporta, quindi non devi fornire un indirizzo diverso per ogni tipo.
+Cos'è un indirizzo unificato? Un singolo indirizzo che può contenere ricevitori per più di una pool. Il portafoglio del mittente sceglie la pool che supporta, quindi non devi fornire un indirizzo diverso per ogni tipo.
 
 NU5 rimuove la configurazione fidata dai miei fondi precedenti? Non retroattivamente. Orchard non richiede alcuna configurazione fidata, ma i parametri precedenti del pool Sapling continuano a esistere dopo NU5. La garanzia di assenza di configurazione si applica ai fondi detenuti nel pool Orchard.
 
@@ -72,7 +72,7 @@ Il vecchio formato di transazione ha smesso di funzionare? No. NU5 ha aggiunto i
 
 ## Verifica la tua comprensione
 
-Sprout e Sapling richiedevano entrambi una cerimonia di configurazione fidata. Cosa ha cambiato il pool Orchard di NU5 al riguardo, e perché è importante?
+Sprout e Sapling richiedevano entrambe una cerimonia di trusted setup. Cosa ha cambiato la pool Orchard di NU5 al riguardo, e perché è importante?
 
 <details>
 <summary>Risposta</summary>
@@ -88,7 +88,7 @@ Orchard è basato sul sistema di proving Halo 2, che non richiede alcuna configu
 
 [ZIP 225: Formato di transazione versione 5](https://zips.z.cash/zip-0225)
 
-[ZIP 316: Unified Addresses e Unified Viewing Keys](https://zips.z.cash/zip-0316)
+[ZIP 316: Indirizzi unificati e chiavi di visualizzazione unificate](https://zips.z.cash/zip-0316)
 
 [Network Upgrade 5](https://z.cash/upgrade/nu5/)
 
@@ -98,13 +98,13 @@ Orchard è basato sul sistema di proving Halo 2, che non richiede alcuna configu
 
 [Zcash Aggiornamenti di rete](../start-here/network-upgrades)
 
-[Pool schermati](../using-zcash/shielded-pools)
+[Pool schermate](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Viewing Keys](../zcash-tech/viewing-keys)
+[Chiavi di visualizzazione](../zcash-tech/viewing-keys)
 
 [NU6.1](../zcash-tech/nu6-1)
 

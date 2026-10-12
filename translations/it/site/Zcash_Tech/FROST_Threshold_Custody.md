@@ -15,14 +15,14 @@ La custodia a soglia con FROST continua a emergere nelle conversazioni su Zcash 
 - **FROST** permette a un gruppo di detentori di chiavi di controllare collettivamente un indirizzo Zcash schermato senza che una singola persona possieda l'intera chiave privata.
 - Una soglia **t-su-n** significa: t persone devono co-firmare per spendere; qualsiasi gruppo di t-1 persone o meno non può muovere i fondi da solo.
 - Le transazioni appaiono come qualsiasi altra transazione schermata — non c'è alcuna traccia on-chain che riveli l'uso della firma a soglia.
-- Questo è fondamentalmente diverso dal multisig trasparente (che è pubblico on-chain e che Zcash supporta da tempo) — FROST funziona all'interno del pool schermato.
+- Questo è fondamentalmente diverso dal multisig trasparente (che è pubblico on-chain e che Zcash supporta da tempo) — FROST funziona all'interno della pool schermata.
 - È utile per DAO, exchange, servizi di custodia, risparmi condivisi e tesorerie di team — ovunque un singolo punto di fallimento della chiave sia inaccettabile.
 
 ---
 
 ## Cos'è FROST in parole semplici?
 
-Immagina che tre soci in affari detengano ciascuno una parte di una chiave. Per spendere dal loro wallet condiviso, due dei tre devono essere d'accordo e co-firmare. La transazione risultante appare identica a un normale invio individuale — nessun osservatore può capire dalla blockchain che sono state coinvolte più persone.
+Immagina che tre soci in affari detengano ciascuno una parte di una chiave. Per spendere dal loro portafoglio condiviso, due dei tre devono essere d'accordo e co-firmare. La transazione risultante appare identica a un normale invio individuale — nessun osservatore può capire dalla blockchain che sono state coinvolte più persone.
 
 FROST (**Flexible Round-Optimized Schnorr Threshold Signatures**) è il protocollo crittografico che rende tutto questo possibile per Zcash schermato. È stato creato da Chelsea Komlo (University of Waterloo / Zcash Foundation) e Ian Goldberg.
 
@@ -48,7 +48,7 @@ La custodia a soglia ha senso quando **perdere una chiave o una persona non dovr
 | **Erogazione di grant di alto valore** | In stile ZCG: richiede più firmatari indipendenti prima di effettuare il pagamento |
 | **Gestione delle chiavi per sviluppatori** | Previene la minaccia interna — nessun singolo ingegnere può svuotare un fondo di protocollo |
 
-Probabilmente **non** hai bisogno della custodia a soglia per un wallet personale che controlli da solo, per piccoli importi o in situazioni in cui il maggiore overhead di coordinamento supera la riduzione del rischio.
+Probabilmente **non** hai bisogno della custodia a soglia per un portafoglio personale che controlli da solo, per piccoli importi o in situazioni in cui il maggiore overhead di coordinamento supera la riduzione del rischio.
 
 ---
 
@@ -56,7 +56,7 @@ Probabilmente **non** hai bisogno della custodia a soglia per un wallet personal
 
 Zcash supporta da tempo il multisig trasparente — più chiavi richieste per spendere da un t-address. Ma il multisig trasparente comporta un costo significativo in termini di privacy: **la struttura multisig, tutte le chiavi pubbliche e tutti i firmatari sono visibili sulla blockchain**.
 
-FROST risolve questo problema operando all'interno del pool schermato:
+FROST risolve questo problema operando all'interno della pool schermata:
 
 | | Multisig trasparente | Soglia FROST (schermata) |
 |--|---------------------|--------------------------|
@@ -73,7 +73,7 @@ FROST risolve questo problema operando all'interno del pool schermato:
 FROST è potente, ma comporta compromessi reali che dovresti comprendere prima di usarlo:
 
 ### Overhead di coordinamento
-I firmatari devono essere online contemporaneamente (o quasi) per completare un round di firma. Se i tuoi t firmatari sono distribuiti in fusi orari diversi o hanno connessioni inaffidabili, spendere richiede un coordinamento che un wallet individuale non richiede.
+I firmatari devono essere online contemporaneamente (o quasi) per completare un round di firma. Se i tuoi t firmatari sono distribuiti in fusi orari diversi o hanno connessioni inaffidabili, spendere richiede un coordinamento che un portafoglio individuale non richiede.
 
 ### Nessuna firma se il quorum non è disponibile
 Se un numero sufficiente di detentori di chiavi non è disponibile (malati, in viaggio, non rispondono), i fondi diventano temporaneamente non spendibili. Scegli con attenzione la tua soglia e il numero di quote — 2-su-3 è più resiliente di 2-su-2.
@@ -82,7 +82,7 @@ Se un numero sufficiente di detentori di chiavi non è disponibile (malati, in v
 L'impostazione di FROST richiede una cerimonia DKG (distributed key generation) in cui tutti gli n partecipanti sono online insieme. È un evento una tantum, ma deve essere eseguito con attenzione — se i partecipanti vengono compromessi durante il DKG, la sicurezza viene indebolita.
 
 ### Gli strumenti stanno ancora maturando
-FROST per Zcash schermato è relativamente nuovo. Lo standard IETF (draft-irtf-cfrg-frost) è maturo, ma le integrazioni nei wallet sono limitate. Aspettati qualche asperità rispetto a un normale wallet a chiave singola.
+FROST per Zcash schermato è relativamente nuovo. Lo standard IETF (draft-irtf-cfrg-frost) è maturo, ma le integrazioni nei portafogli sono limitate. Aspettati qualche asperità rispetto a un normale portafoglio a chiave singola.
 
 ### Complessità del recupero
 Perdere una quota non è la fine del mondo (questo è il punto della soglia), ma i piani di recupero devono essere documentati in anticipo. Chi detiene i backup? Cosa succede se due quote vengono perse contemporaneamente?
@@ -145,7 +145,7 @@ Un punto di partenza pratico per la maggior parte dei team: **2-su-3** (resilien
 
 - [FROST — Approfondimento tecnico](FROST.md) — dettagli crittografici del protocollo (DKG, round di firma, prove di sicurezza)
 - [Guida alla demo FROST di Ywallet](/guides/Ywallet_FROST_Demo) — contesto: Ywallet non è più mantenuto
-- [Viewing Keys](Viewing_Keys.md) — accesso in sola lettura agli indirizzi schermati (complementare alla custodia a soglia)
+- [Chiavi di visualizzazione](Viewing_Keys.md) — accesso in sola lettura agli indirizzi schermati (complementare alla custodia a soglia)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST è anche un'infrastruttura chiave per l'emissione di ZSA
 
 ## Risorse

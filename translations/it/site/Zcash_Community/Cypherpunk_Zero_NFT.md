@@ -44,7 +44,7 @@ Abbiamo visto troppi progetti promettere troppo e mantenere troppo poco riguardo
 *Offerta totale*: 10.000 NFT generativi unici sulla Ethereum Mainnet
 Il 4% dell'offerta (i primi 400 NFT) è stato distribuito tramite airdrop ai primi sostenitori del progetto che avevano acquistato il giocattolo Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
 
-Il 72% dell'offerta (7.200 NFT) sarà rilasciato al pubblico usando un innovativo meccanismo di whitelisting che richiede l'uso di un wallet Zcash che supporti i memo cifrati (maggiori dettagli più in basso).
+Il 72% dell'offerta (7.200 NFT) sarà rilasciato al pubblico usando un innovativo meccanismo di whitelisting che richiede l'uso di un portafoglio Zcash che supporta i memo crittografati (maggiori dettagli più in basso).
 
 Il 24% dell'offerta (2.400 NFT) sarà conservato da ECC nella Cypherpunk Reserve, per essere usato in future iniziative che facciano progredire Zcash e la privacy nello spazio Web3.
 

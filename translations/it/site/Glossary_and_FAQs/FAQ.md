@@ -22,7 +22,7 @@ Un elenco delle domande più comuni su Zcash. Per la risoluzione dei problemi de
 
 Zcash è una valuta digitale con transazioni rapide, riservate e commissioni basse. La privacy è la caratteristica centrale di Zcash. Ha introdotto per primo l'uso delle prove a conoscenza zero per crittografare tutte le transazioni.
 
-Sono disponibili diversi wallet per pagamenti istantanei, mobili, sicuri e privati: [Wallet](/using-zcash/wallets)
+Sono disponibili diversi portafogli per pagamenti istantanei, da mobile, sicuri e privati: [Portafogli](/using-zcash/wallets)
 
 </div>
 

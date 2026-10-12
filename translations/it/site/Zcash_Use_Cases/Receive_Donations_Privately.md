@@ -10,7 +10,7 @@
 
 - Usa un **indirizzo schermato (z)**
 - Non condividere mai pubblicamente un indirizzo trasparente (t)
-- Incoraggia i donatori a inviare da wallet schermati
+- Incoraggia i donatori a inviare da portafogli schermati
 - Evita di collegare la tua identità alle transazioni
 
 <br/>
@@ -26,7 +26,7 @@
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Il problema
 
 La maggior parte delle criptovalute espone tutto:
-- Il saldo del tuo wallet
+- Il saldo del tuo portafoglio
 - Chi ti ha inviato denaro
 - L'intera cronologia delle tue transazioni
 
@@ -50,17 +50,17 @@ Questo ti permette di ricevere fondi **senza esporre il tuo grafo finanziario**.
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
-- Un wallet Zcash che supporta gli indirizzi schermati:
+- Un portafoglio Zcash che supporta gli indirizzi schermati:
   - Zodl
   - Zingo!
-  - Altri wallet supportati
+  - Altri portafogli supportati
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida passo passo
 
 ### Passo 1: crea un indirizzo schermato
-Apri il tuo wallet e genera un **indirizzo z**.
+Apri il tuo portafoglio e genera un **indirizzo z**.
 Di solito inizia con: `zs...`
 
 
@@ -76,8 +76,8 @@ Di solito inizia con: `zs...`
 ### Passo 3: guida i donatori (opzionale ma consigliato)
 
 Incoraggia i donatori a:
-- Usare wallet che supportano le transazioni schermate
-- Inviare dai pool schermati (non trasparenti)
+- Usa portafogli che supportano le transazioni schermate
+- Invia dalle pool schermate (non trasparenti)
 
 ### Passo 4: mantieni un'igiene di base della privacy
 
@@ -89,7 +89,7 @@ Incoraggia i donatori a:
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Errori comuni da evitare
 
 - Condividere un indirizzo trasparente (t)  
-- Pubblicare il tuo wallet insieme alla tua identità personale  
+- Pubblica il tuo portafoglio insieme alla tua identità personale  
 - Accettare fondi da fonti trasparenti senza schermarli  
 - Riutilizzare lo stesso indirizzo in più contesti  
 
@@ -107,7 +107,7 @@ Puoi:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Correlati
 
 - [Privacy - Schermato vs Trasparente](/privacy/shielded-vs-transparent)
-- [Wallet](/wallets)
+- [Portafogli](/wallets)
 
 <br/>
 

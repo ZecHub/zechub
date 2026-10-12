@@ -1,12 +1,12 @@
-# Eseguire un nodo completo su un Raspberry Pi 4 (Zebra + Zallet)
+# Esegui un full node (nodo completo) su un Raspberry Pi 4 (Zebra + Zallet)
 
-*Migrato dalla guida originale basata su zcashd. zcashd ha raggiunto il suo arresto automatico di Fine del Supporto il 18 luglio 2026, quindi questa guida ora utilizza **Zebra** (l'attuale nodo completo, mantenuto dalla Zcash Foundation) e **Zallet** (il wallet creato per sostituire il wallet integrato di zcashd).*
+*Migrato dalla guida originale basata su zcashd. zcashd ha raggiunto il suo arresto automatico al termine del supporto il 18 luglio 2026, quindi questa guida ora utilizza **Zebra** (l'attuale full node, mantenuto dalla Zcash Foundation) e **Zallet** (il portafoglio creato per sostituire il portafoglio integrato di zcashd).*
 
 ## Cosa imparerai
 - Come scrivere e configurare Ubuntu Server 22.04+ (64-bit) su un Raspberry Pi 4 per un utilizzo headless
 - Come installare ed eseguire Zebra, tramite Docker oppure con un binario precompilato
-- Come installare, configurare e inizializzare Zallet, inclusa la configurazione della cifratura del wallet
-- Come migrare facoltativamente una configurazione/un wallet zcashd esistente in Zallet
+- Come installare, configurare e inizializzare Zallet, inclusa la configurazione della crittografia del portafoglio
+- Come migrare facoltativamente una configurazione/un portafoglio zcashd esistente in Zallet
 
 ## Cosa è cambiato rispetto alla vecchia guida
 La versione precedente di questa guida mostrava come compilare **zcashd** nativamente su un Pi 4 — una compilazione single-thread che richiedeva 3–4 ore perché il Pi 4 non ha memoria sufficiente per una build parallela (`-j$(nproc)`). Sia Zebra sia Zallet ora distribuiscono **binari ARM64 precompilati ufficiali e immagini Docker**, quindi nella maggior parte dei casi non è più necessario compilare nulla dai sorgenti direttamente sul Pi.
@@ -108,7 +108,7 @@ Modifica `validator_address` se Zebra è in esecuzione su un host/porta diversi,
 zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-data/zallet/zallet.toml
 ```
 
-## Passo 7: Impostare la cifratura del wallet
+## Passo 7: Imposta la crittografia del portafoglio
 Zallet cifra tutto il materiale delle chiavi usando `age`/`rage`:
 ```bash
 cargo install rage
@@ -116,7 +116,7 @@ rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
 ```
 Questo stampa una chiave pubblica e una passphrase generata automaticamente — **salva la passphrase; non potrai recuperare il file identity senza di essa.**
 
-## Passo 8: Inizializzare e avviare il wallet
+## Passo 8: Inizializza e avvia il portafoglio
 ```bash
 zallet -d /mnt/zcash-data/zallet init-wallet-encryption
 zallet -d /mnt/zcash-data/zallet generate-mnemonic
@@ -127,7 +127,7 @@ zallet -d /mnt/zcash-data/zallet generate-mnemonic
 zallet -d /mnt/zcash-data/zallet start
 ```
 
-## Passo 9: Migrare un wallet zcashd esistente (facoltativo)
+## Passo 9: Migra un portafoglio zcashd esistente (facoltativo)
 ```bash
 zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
 ```
@@ -137,7 +137,7 @@ Questo richiede l'utilità `db_dump` (compilata contro Berkeley DB 6.2.23) — d
 ```bash
 zallet -d /mnt/zcash-data/zallet help
 ```
-Conferma che il wallet risponda e, una volta che Zebra ha completato la sincronizzazione, che saldi/indirizzi corrispondano alle aspettative.
+Conferma che il portafoglio risponda e, una volta che Zebra ha completato la sincronizzazione, che saldi/indirizzi corrispondano alle aspettative.
 
 ## Risoluzione dei problemi
 - **Problemi di build/runtime di Zebra su ARM:** se compili dai sorgenti, installa la toolchain Rust per ARM — eseguire strumenti di build x86_64 su hardware ARM sarà sensibilmente più lento, come indicato anche nella documentazione di Zebra.
@@ -155,4 +155,4 @@ Zebra e Zallet sono generalmente più leggeri sulla CPU durante la configurazion
 
 ---
 
-*Se hai trovato utile questa guida, considera di supportare ZecHub: [inserisci l'attuale indirizzo shielded per le donazioni di ZecHub da zechub.wiki/donation — non incluso qui perché non ho potuto verificare che sia ancora attuale].*
+*Se hai trovato utile questa guida, considera di supportare ZecHub: [inserisci l'attuale indirizzo schermato per le donazioni di ZecHub da zechub.wiki/donation — non incluso qui perché non ho potuto verificare che sia ancora attuale].*

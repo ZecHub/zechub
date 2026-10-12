@@ -4,7 +4,7 @@ Gli indirizzi TEX di Zcash rappresentano un tipo unico di indirizzo di ricezione
 
 Il suo unico scopo è informare un portafoglio compatibile di effettuare una transazione Solo-Transparent (T -> T).
 
-La logica è la seguente: Quando rileva un indirizzo TEX, un portafoglio compatibile lo decodifica per ottenere il destinatario Transparent in esso contenuto. Il portafoglio invia quindi i fondi necessari per la transazione dal pool Shielded a un indirizzo Transparent separato, effimero e controllato dall'utente (Z -> T). Successivamente invia quei fondi al destinatario Transparent decodificato dell'indirizzo TEX (T -> T).
+La logica è la seguente: quando rileva un indirizzo TEX, un portafoglio compatibile lo decodifica per ottenere il destinatario trasparente in esso contenuto. Il portafoglio invia quindi i fondi necessari per la transazione dalla pool schermata a un indirizzo trasparente separato, effimero e controllato dall'utente (Z -> T). Successivamente invia quei fondi al destinatario trasparente decodificato dell'indirizzo TEX (T -> T).  
 
 La proposta tecnica per gli indirizzi TEX è delineata in Zcash [ZIP 320](https://zips.z.cash/zip-0320), che definisce un tipo di indirizzo esclusivamente per ricevere fondi da indirizzi Transparent.
 
@@ -20,7 +20,7 @@ Alcuni portafogli semplicemente non consentono di inviare direttamente a un indi
 
 ### Hai bisogno di un indirizzo TEX quando invii fondi a un exchange centralizzato che **RICHIEDE che quei fondi provengano da una fonte Transparent**.
 Attualmente, [Binance](https://www.binance.com/) è l'unico exchange centralizzato che utilizza indirizzi TEX (ed è il motivo principale della loro creazione).
-Gli indirizzi TEX informano un portafoglio compatibile che tutti i fondi inviati a quell'indirizzo devono essere trasparenti ed escludono qualsiasi valore shielded dall'essere inviato a tale indirizzo.
+Gli indirizzi TEX informano un portafoglio compatibile che tutti i fondi inviati a quell'indirizzo devono essere trasparenti e che qualsiasi valore schermato deve essere escluso dall'invio a tale indirizzo.
 Se un exchange come Binance rifiuta il valore inviato, dispone dei mezzi necessari per restituire tale valore all'indirizzo da cui proviene. Aiuta inoltre entità come Binance a conformarsi alle leggi e ai regolamenti imposti dai governi o da altre autorità.
 
 

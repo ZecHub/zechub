@@ -62,9 +62,9 @@ ZIP 218 aggiunge limiti alla quantità di attività schermata che un singolo blo
 
 Le parti trasparenti delle transazioni non sono interessate e il limite di dimensione del blocco di 2 MB continua ad applicarsi.
 
-I limiti esistono perché altrimenti un numero maggiore di blocchi comporterebbe più lavoro per wallet e nodi. Con i limiti in vigore, il caso peggiore diventa effettivamente **migliore** di oggi, anche con tre volte più blocchi:
+I limiti esistono perché altrimenti un numero maggiore di blocchi comporterebbe più lavoro per portafogli e nodi. Con i limiti in vigore, il caso peggiore diventa effettivamente **migliore** di oggi, anche con tre volte più blocchi:
 
-- **Sincronizzazione del wallet:** la quantità massima di dati che un wallet leggero potrebbe essere costretto a scaricare in un giorno scende da circa 271 MB a circa 169 MB, una riduzione di circa il 38%. Le decrittazioni di prova nel caso peggiore scendono da circa 4,8 milioni a circa 2,3 milioni al giorno.
+- **Sincronizzazione del portafoglio:** la quantità massima di dati che un portafoglio leggero potrebbe essere costretto a scaricare in un giorno scende da circa 271 MB a circa 169 MB, una riduzione di circa il 38%. Le decrittazioni di prova nel caso peggiore scendono da circa 4,8 milioni a circa 2,3 milioni al giorno.
 - **Verifica dei blocchi:** i benchmark di ZIP stimano un blocco Orchard nel caso peggiore a circa 432 ms con i nuovi limiti, contro circa 770 ms per il caso peggiore odierno. Per Sapling la riduzione è maggiore, da circa 3.175 ms a circa 272 ms.
 
 I limiti di Sapling e Sprout sono volutamente restrittivi. A maggio 2026, Orchard deteneva l'87,9% delle ZEC schermate, Sapling l'11,6% e Sprout lo 0,5%, quindi le pool più piccole ricevono spazio sufficiente per il loro utilizzo effettivo, offrendo al contempo a un attaccante meno possibilità di abuso. Poiché le commissioni di ZIP 317 addebitano lo stesso importo per azione logica in ogni pool, un attaccante non ottiene alcun vantaggio facendo spam in una pool anziché in un'altra.
@@ -79,7 +79,7 @@ L'algoritmo di difficoltà calcola la media su una finestra di blocchi recenti. 
 
 Subito dopo l'attivazione, i tempi di blocco impiegheranno un po' a stabilizzarsi sul nuovo target. È previsto e rispecchia quanto accaduto con Blossom, quando Zcash passò da 150 a 75 secondi.
 
-### Impostazioni predefinite per nodi e wallet
+### Impostazioni predefinite per nodi e portafogli
 
 Si tratta di raccomandazioni per le implementazioni, non di regole di consenso:
 
@@ -97,14 +97,14 @@ Si tratta di raccomandazioni per le implementazioni, non di regole di consenso:
 
 ## Il compromesso: più blocchi stale
 
-I blocchi più veloci non sono gratuiti. Un blocco stale è un blocco valido che perde la corsa per essere incluso nella catena perché un altro blocco ha raggiunto prima la rete. Più breve è l'intervallo tra i blocchi, più spesso ciò accade, e ZIP collega il tasso di blocchi stale alla propagazione dei blocchi, al tempo di verifica e al rischio di centralizzazione del mining.
+I blocchi più veloci non sono gratuiti. Un blocco obsoleto è un blocco valido che perde la corsa per essere incluso nella chain perché un altro blocco ha raggiunto prima la rete. Più breve è l'intervallo tra i blocchi, più spesso ciò accade, e ZIP collega il tasso di blocchi obsoleti alla propagazione dei blocchi, al tempo di verifica e al rischio di centralizzazione del mining.
 
 - **Oggi:** circa 0,4%, valore che ZIP osserva potrebbe sottostimare il tasso effettivo perché l'hashpower è concentrato nelle pool.
 - **Teorico a 25 secondi:** circa 3,26%, sulla base dei ritardi di propagazione misurati di Zcash.
 - **Test Devnet:** 99 nodi Zebra geograficamente distribuiti che producevano blocchi completi da 2 MB con spaziatura di 25 secondi hanno misurato un tasso di blocchi stale del 4,86% e un tasso di fork dello 0,37%. L'unica regolazione necessaria è stata la configurazione TCP. Poiché quella devnet era più decentralizzata dell'attuale mainnet, ZIP considera questi valori vicini al caso peggiore.
 - **Punto di riferimento:** ZIP usa come soglia di sicurezza il tasso storico di blocchi stale proof-of-work di Ethereum, pari al 5,4%. Entrambi i valori della devnet sono inferiori.
 
-Vi sono anche due costi minori. I wallet leggeri scaricano circa 200 KB in più al giorno di intestazioni di blocchi compatti. E poiché ci sono tre volte più blocchi, un nodo completo rimasto offline deve elaborare più blocchi quando si riallinea, anche se ogni blocco è meno costoso da verificare. ZIP accetta entrambi.
+Vi sono anche due costi minori. I portafogli leggeri scaricano circa 200 KB in più al giorno di intestazioni di blocchi compatti. E poiché ci sono tre volte più blocchi, un full node (nodo completo) rimasto offline deve elaborare più blocchi quando si riallinea, anche se ogni blocco è meno costoso da verificare. ZIP accetta entrambi.
 
 ## Stato e cronologia
 
@@ -116,7 +116,7 @@ Vi sono anche due costi minori. I wallet leggeri scaricano circa 200 KB in più 
 ## Cosa significa per te
 
 - **Detenere ZEC:** non devi fare nulla. Il tuo saldo e il programma di emissione non sono interessati.
-- **Usare un wallet:** aggiorna quando il tuo wallet rilascia il supporto per NU7. Le prime conferme arriveranno circa tre volte prima.
+- **Usare un portafoglio:** aggiorna quando il tuo portafoglio rilascia il supporto per NU7. Le prime conferme arriveranno circa tre volte più rapidamente.
 - **Gestire un nodo, un exchange o un servizio:** pianifica l'aggiornamento prima dell'attivazione e rivedi eventuali impostazioni misurate in blocchi, poiché un numero fisso di blocchi ora copre un terzo del tempo di prima.
 
 ## Fonti

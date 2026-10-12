@@ -12,7 +12,7 @@ Zcash è una criptovaluta Proof-of-Work. Ogni blocco minato distribuisce il suo 
 | Destinatario                   | Percentuale | Cosa finanzia / stato                                                |
 |---------------------------------|-------------|----------------------------------------------------------------------|
 | Minatori                        | 80%         | Ricompensa diretta in blocchi ai minatori                            |
-| Zcash Community Grants (ZCG)    | 8%          | Sovvenzioni comunitarie (continua fino al ~2028)                     |
+| Zcash Community Grants (ZCG)    | 8%          | Finanziamenti comunitari (proseguono fino al ~2028)                     |
 | Lockbox (controllato dal protocollo) | 12%    | I fondi si accumulano; nessun meccanismo di spesa ancora; necessaria una votazione comunitaria futura |
 
 - **Fondo di sviluppo storico pre-NU6 (2020 - Nov 2024)**  
@@ -29,9 +29,9 @@ ZIP 1016 (proposta a febbraio 2025, stato: Proposta) introduce un modello di fin
 - Continuare l'assegnazione dell'8% a ZCG.
 - Convertire il 12% del Lockbox in un "Coinholder-Controlled Fund" (alimentato dai fondi esistenti del Lockbox e dal sussidio di blocco del 12% in corso).
 - Attivare questo modello fino al terzo halving (circa 3 anni).
-- Dare ai possessori di monete ZEC il potere di votare trimestralmente sulle sovvenzioni attraverso un processo definito dalla comunità (maggioranza semplice, quorum minimo di 420.000 ZEC).
-- Richiedere alle Key-Holder Organizations (attualmente includono ZF e Shielded Labs, con Bootstrap/ECC citate nei contesti di sovvenzione) di amministrare le erogazioni tramite multisig, vincolate da accordi legali e decisioni dei possessori di monete.
-- Mantenere tutti i requisiti di ZIP 1015 sull'uso del Lockbox (finanziare sovvenzioni per l'ecosistema).
+- Dare ai possessori di ZEC il potere di votare trimestralmente sui finanziamenti attraverso un processo definito dalla comunità (maggioranza semplice, quorum minimo di 420.000 ZEC).
+- Richiedere alle Key-Holder Organizations (che attualmente includono ZF e Shielded Labs, con Bootstrap/ECC citate nei contesti di finanziamento) di amministrare le erogazioni tramite multisig, vincolate da accordi legali e decisioni dei possessori di monete.
+- Mantenere tutti i requisiti di ZIP 1015 sull'uso del Lockbox (finanziare finanziamenti per l'ecosistema).
 
 Questa proposta mira a passare dalla governance controllata dalle organizzazioni a quella diretta dei possessori di monete per l'assegnazione del 12%. Non modifica il processo ZIP né le regole sui marchi.
 
@@ -48,7 +48,7 @@ Questa proposta mira a passare dalla governance controllata dalle organizzazioni
 **Zcash Open Development Lab (ZODL)**  
 - Formato nel gennaio 2026 dagli sviluppatori originali del protocollo Zcash (il team principale di ingegneria e prodotto di ECC) dopo aver lasciato Bootstrap/ECC.  
 - Ha raccolto oltre 25 milioni di dollari in finanziamenti seed da importanti investitori tra cui a16z Crypto e Coinbase Ventures.  
-- Il team, composto dagli inventori e sviluppatori originali del protocollo Zcash, continua lo sviluppo principale del protocollo, i contributi alle ZIP e gli strumenti focalizzati sulla privacy, incluso il wallet mobile Zodl (rinominato da Zashi).  
+- Il team, composto dagli inventori e sviluppatori originali del protocollo Zcash, continua lo sviluppo principale del protocollo, i contributi alle ZIP e gli strumenti focalizzati sulla privacy, incluso il portafoglio mobile Zodl (rinominato da Zashi).  
 - Nessun finanziamento diretto on-chain dal protocollo; opera come laboratorio indipendente sostenuto da VC focalizzato sull'avanzamento dell'infrastruttura di privacy di Zcash.  
 -> Vedi profilo completo: [ZODL](https://zechub.wiki/zcash-organizations/ZODL)  
 -> Sito ufficiale: [zodl.com](https://zodl.com/)
@@ -56,7 +56,7 @@ Questa proposta mira a passare dalla governance controllata dalle organizzazioni
 **Zcash Foundation (ZF)**  
 - Organizzazione non profit indipendente 501(c)(3) focalizzata su infrastruttura, software per nodi, ricerca e salute dell'ecosistema.  
 - Storicamente ha ricevuto il 5% del fondo di sviluppo.  
-- Non riceve più finanziamenti diretti dal protocollo dopo NU6. Si basa su donazioni e sovvenzioni.  
+- Non riceve più finanziamenti diretti dal protocollo dopo NU6. Si basa su donazioni e finanziamenti.  
 - Detiene il marchio Zcash (donato da ECC nel 2019) e gioca un ruolo centrale nella governance.  
 - Gestisce lo Zcash Community Advisory Panel (ZCAP) e aiuta a facilitare i sondaggi comunitari.  
 - Agisce come Key-Holder Organization nell'ambito della proposta ZIP 1016.  
@@ -65,9 +65,9 @@ Questa proposta mira a passare dalla governance controllata dalle organizzazioni
 
 **Zcash Community Grants (ZCG)**  
 - Il programma Zcash Community Grants finanzia team e progetti indipendenti per svolgere importanti attività di sviluppo in corso e altri lavori per il bene pubblico dell'ecosistema Zcash.  
-- Le sovvenzioni sono decise da un comitato eletto dalla comunità.  
+- I finanziamenti sono decisi da un comitato eletto dalla comunità.  
 - Continua a ricevere l'intero 8% dei block reward (post-NU6), amministrato attraverso la Financial Privacy Foundation.  
-- Le sovvenzioni vengono assegnate attraverso un processo trasparente di candidatura e votazione aperto alla comunità.  
+- I finanziamenti vengono assegnati attraverso un processo trasparente di candidatura e votazione aperto alla comunità.  
 -> Vedi profilo completo: [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants)  
 -> Sito ufficiale: [zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
@@ -95,7 +95,7 @@ La governance di Zcash è un mix di "regole del protocollo on-chain" e "consenso
 1. **Processo ZIP (Zcash Improvement Proposals)**  
    - Chiunque può inviare una ZIP.  
    - Dibattito pubblico su forum, Discord, GitHub.  
-   - I ZIP Editor (attualmente Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe a titolo individuale, Arya di ZF e rappresentanti di Shielded Labs) revisionano e decidono l'accettazione.  
+   - Gli editor delle ZIP (attualmente Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe a titolo individuale, Arya di ZF e rappresentanti di Shielded Labs) esaminano e decidono l'accettazione.  
    - Le ZIP accettate sono incluse nel prossimo aggiornamento di rete.
 
 2. **Accordo sul Marchio (2019-2024)**  

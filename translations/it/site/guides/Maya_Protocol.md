@@ -60,9 +60,9 @@ Ciononostante, nonostante le sue differenze, Maya funge anche da soluzione compl
 
 Inoltre, l'obiettivo di Maya è diventare un *backend* su cui altri servizi possano costruire, nella speranza di vedere numerosi nuovi *frontend*, ossia servizi DEX costruiti sull'infrastruttura di Maya.
 
-## Integrazione dei wallet con Maya Protocol
+## Integrazione del portafoglio Maya Protocol
 
-Agendo come *backend*, Maya ha bisogno di essere supportata da diverse UI e wallet per essere usata. 
+In qualità di *backend*, Maya deve essere supportata da diverse UI e portafogli per poter essere usata. 
 Ecco un elenco con alcuni dei servizi che già supportano Maya:
 
 [Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
@@ -75,6 +75,6 @@ Ecco un elenco con alcuni dei servizi che già supportano Maya:
 
 DefiSpot: non è più online, il suo dominio non viene risolto.
 
-[XDEFI](https://www.xdefi.io/): un wallet self-custody multi-ecosistema con supporto per oltre 30 blockchain native e tutte le chain EVM e Cosmos, tra cui Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON e altre.
+[XDEFI](https://www.xdefi.io/): un portafoglio in autocustodia multi-ecosistema con supporto per oltre 30 blockchain native e tutte le chain EVM e Cosmos, tra cui Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON e altre.
 
-[KeepKey ](https://keepkey.com/): un hardware wallet per conservare in modo sicuro gli asset digitali.
+[KeepKey ](https://keepkey.com/): un portafoglio hardware per conservare in modo sicuro gli asset digitali.

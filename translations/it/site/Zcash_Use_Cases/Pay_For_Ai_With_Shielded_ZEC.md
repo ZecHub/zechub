@@ -44,10 +44,10 @@ Questo vale solo se paghi **da** fondi schermati. Questa pagina specifica chiara
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
 - ZEC in un saldo **schermato**
-- Un wallet che possa inviare a un Unified Address. Questa guida usa **Noir Wallet**, un'estensione del browser, così l'intero flusso resta in una sola finestra. Zkool e Zodl funzionano allo stesso modo
+- Un portafoglio che possa inviare a un indirizzo unificato. Questa guida usa **Noir Wallet**, un'estensione del browser, così l'intero flusso resta in una sola finestra. Zkool e Zodl funzionano allo stesso modo
 - Circa $1 per seguire i passaggi
 
-> **Arrivi da un exchange?** La maggior parte degli exchange, inclusa Binance, consente di prelevare ZEC solo verso indirizzi **transparent**, e non accetterà un indirizzo `u1...` come destinazione. Preleva prima verso un tuo indirizzo transparent, schermalo nel tuo wallet, poi paga dal saldo schermato.
+> **Arrivi da un exchange?** La maggior parte degli exchange, inclusa Binance, consente di prelevare ZEC solo verso indirizzi **trasparenti**, e non accetterà un indirizzo `u1...` come destinazione. Preleva prima verso un tuo indirizzo trasparente, schermalo nel tuo portafoglio, poi paga dal saldo schermato.
 
 <br/>
 
@@ -79,19 +79,19 @@ Otterrai un codice QR, un indirizzo di pagamento e un **transfer minimum** in ZE
 
 ![NanoGPT Zcash deposit screen with the QR code, unified address and transfer minimum](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
 
-### Passo 5: Invia dal tuo wallet
+### Passo 5: Invia dal tuo portafoglio
 
-Copia l'indirizzo nel tuo wallet, inserisci l'importo e invia. La commissione di rete è circa **0.00015 ZEC**.
+Copia l'indirizzo nel tuo portafoglio, inserisci l'importo e invia. La commissione di rete è circa **0,00015 ZEC**.
 
 > **Invia leggermente più del minimo.** Il preventivo viene calcolato quando la pagina si carica e il prezzo di ZEC si muove prima che la tua transazione venga confermata. Nei test, inviando esattamente il minimo sono arrivati **$0.99** invece di $1.00. Inviando un po' di più sono arrivati $1.17 per lo stesso $1 nominale, perché NanoGPT accredita ciò che invii realmente.
 
-![Noir Wallet send screen with the NanoGPT address pasted in and the network fee shown](/content-images/noir-send-6380a5f4ef.webp)
+![Schermata di invio di Noir Wallet con l'indirizzo di NanoGPT incollato e la commissione di rete visualizzata](/content-images/noir-send-6380a5f4ef.webp)
 
 ### Passo 6: Aspetta circa 30 secondi
 
-Il tuo wallet mostrerà prima la transazione in attesa, poi in conferma. NanoGPT accredita il saldo alla **prima conferma**, quindi non devi aspettare tutte e tre.
+Il tuo portafoglio mostrerà prima la transazione in attesa, poi in conferma. NanoGPT accredita il saldo alla **prima conferma**, quindi non devi aspettare tutte e tre.
 
-![Wallet confirmation showing the amount sent and the transaction hash](/content-images/noir-sent-2d476e94b9.webp)
+![Conferma del portafoglio che mostra l'importo inviato e l'hash della transazione](/content-images/noir-sent-2d476e94b9.webp)
 
 Il saldo appare e puoi spenderlo immediatamente.
 
@@ -124,18 +124,18 @@ Questa è la parte che la maggior parte delle guide salta.
 |---|---|---|
 | Navigazione e prompt | Nulla. Nessun account, nessuna email | Nulla |
 | Viene emesso un indirizzo di deposito | Nulla | Nulla |
-| Paghi **da Sapling** | L'indirizzo di deposito che hai usato | Nulla. Shielded a shielded |
+| Paghi **da Sapling** | L'indirizzo di deposito che hai usato | Nulla. Da schermato a schermato |
 | Paghi **da Ironwood** | Uguale | **L'importo e l'altezza del blocco** |
 | Paghi **da un indirizzo transparent** | Uguale | L'importo e il tuo t-address |
 | Qualsiasi caso sopra | Il tuo IP, a meno che tu non usi Tor o una VPN | Non applicabile |
 
-### Perché il pool conta
+### Perché la pool conta
 
 L'indirizzo di deposito di NanoGPT è un Unified Address. Decodificandone uno emesso nell'agosto 2026 si vedono esattamente due receiver: **Sapling** e **Orchard**.
 
 Da quando l'upgrade [Ironwood](/zcash-tech/ironwood) si è attivato il 28 luglio 2026, Orchard è solo spend-only e nessun nuovo valore può entrarvi. Questo lascia **Sapling come unico receiver in cui un pagamento può effettivamente arrivare**.
 
-Quindi, se il tuo ZEC è già in Sapling, il pagamento è da Sapling a Sapling e nulla di ciò è pubblico. Ma se sei migrato a Ironwood, pagare sposta valore oltre il confine di un pool, e [il turnstile](/zcash-tech/the-turnstile) pubblica l'importo e l'altezza anche se mittente e destinatario restano nascosti.
+Quindi, se il tuo ZEC è già in Sapling, il pagamento è da Sapling a Sapling e nulla di ciò è pubblico. Ma se sei migrato a Ironwood, pagare sposta valore oltre il confine di una pool, e [il turnstile](/zcash-tech/the-turnstile) pubblica l'importo e l'altezza anche se mittente e destinatario restano nascosti.
 
 Le schermate sembrano identiche in entrambi i casi. Mantenere un piccolo saldo Sapling per i pagamenti è la soluzione più semplice.
 
@@ -163,10 +163,10 @@ Puoi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Correlati
 
-- [Ironwood](/zcash-tech/ironwood) - perché è cambiato il pool in cui si trovano i tuoi fondi
-- [Il Turnstile](/zcash-tech/the-turnstile) - cosa diventa pubblico quando il valore attraversa i pool
-- [Wallet](/using-zcash/wallets) - quali wallet sono mantenuti
-- [ZODL](/zcash-organizations/zodl) - il wallet dietro CrossPay
+- [Ironwood](/zcash-tech/ironwood) - perché è cambiata la pool in cui si trovano i tuoi fondi
+- [Il Turnstile](/zcash-tech/the-turnstile) - cosa diventa pubblico quando il valore attraversa le pool
+- [Portafogli](/using-zcash/wallets) - quali portafogli sono mantenuti
+- [ZODL](/zcash-organizations/zodl) - il portafoglio dietro CrossPay
 
 <br/>
 

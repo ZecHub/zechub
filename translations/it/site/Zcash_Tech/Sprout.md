@@ -4,17 +4,17 @@
 
 # Sprout
 
-> Zcash è stato lanciato il 28 ottobre 2016, con il pool schermato Sprout.
+> Zcash è stato lanciato il 28 ottobre 2016, con la pool schermata Sprout.
 
 Cosa imparerai: Sprout è il punto da cui Zcash è partito, la prima volta in cui denaro privato e verificabile ha funzionato su una blockchain attiva.
 
-Sprout è il lancio originale della rete Zcash, non un successivo [aggiornamento di rete](../start-here/network-upgrades). È entrato in funzione al blocco genesis il 28 ottobre 2016. Nessuno ZIP numerato definisce Sprout: il processo ZIP è iniziato più tardi con Overwinter, quindi Sprout è descritto dalla Zcash Protocol Specification originale e dalla costruzione Zerocash su cui è stato realizzato. La [Electric Coin Company](../zcash-organizations/electric-coin-company) (allora Zerocoin Electric Coin Company), guidata da Zooko Wilcox, lo ha sviluppato e rilasciato. Sprout ha introdotto le prime transazioni schermate zk-SNARK pratiche e il pool schermato originale, così le persone potevano inviare ZEC con mittente, destinatario e importo nascosti, mentre la rete continuava a verificare che i saldi tornassero. Il nome richiamava una catena giovane, appena germogliata, che il team si aspettava crescesse.
+Sprout è il lancio originale della rete Zcash, non un successivo [aggiornamento di rete](../start-here/network-upgrades). È entrato in funzione al blocco genesis il 28 ottobre 2016. Nessuno ZIP numerato definisce Sprout: il processo ZIP è iniziato più tardi con Overwinter, quindi Sprout è descritto dalla Zcash Protocol Specification originale e dalla costruzione Zerocash su cui è stato realizzato. La [Electric Coin Company](../zcash-organizations/electric-coin-company) (allora Zerocoin Electric Coin Company), guidata da Zooko Wilcox, lo ha sviluppato e rilasciato. Sprout ha introdotto le prime transazioni schermate zk-SNARK pratiche e la pool schermata originale, così le persone potevano inviare ZEC con mittente, destinatario e importo nascosti, mentre la rete continuava a verificare che i saldi tornassero. Il nome richiamava una chain giovane, appena germogliata, che il team si aspettava crescesse.
 
 Perché è importante. Ogni blockchain pubblica prima di Sprout mostrava i tuoi pagamenti: chiunque poteva vedere chi pagava chi e quanto. Sprout è stata la prima rete permissionless attiva a nascondere questi dettagli e al tempo stesso a dimostrare che nessuno stava barando. Questo è importante per la normale privacy finanziaria, quella che ti aspetti dal contante o da un estratto conto bancario che nessun altro può leggere. Ha anche dimostrato che una forte privacy on-chain poteva funzionare nella pratica, oltre il progetto sulla carta. La Ceremony di trusted setup che lo ha reso possibile è diventata un punto di riferimento per il lavoro crittografico successivo, e il sistema di generazione delle prove lento e pesante in termini di memoria con cui Sprout è stato rilasciato è esattamente ciò che ha spinto il team a costruire Sapling due anni dopo.
 
-## Primo pool schermato
+## Prima pool schermata
 
-Sprout ha creato due tipi di indirizzi. Gli indirizzi trasparenti (t-addresses) funzionano come Bitcoin, con i dettagli visibili sul registro pubblico. Gli indirizzi schermati (z-addresses) inviano fondi nel [pool schermato](../using-zcash/shielded-pools) di Sprout, dove mittente, destinatario e importo restano nascosti. Il trucco sono gli [zk-SNARKs](../zcash-tech/zk-snarks), prove a conoscenza zero che permettono a una transazione di mostrare che è valida, senza doppia spesa e con saldi che tornano, senza rivelare alcun dettaglio. Sprout è stata la prima volta in cui questo ha funzionato in produzione su una criptovaluta attiva.
+Sprout ha creato due tipi di indirizzi. Gli indirizzi trasparenti (t-addresses) funzionano come Bitcoin, con i dettagli visibili sul registro pubblico. Gli indirizzi schermati (z-addresses) inviano fondi nella [pool schermata](../using-zcash/shielded-pools) di Sprout, dove mittente, destinatario e importo restano nascosti. Il trucco sono gli [zk-SNARK](../zcash-tech/zk-snarks), prove a conoscenza zero che permettono a una transazione di mostrare che è valida, senza doppia spesa e con saldi che tornano, senza rivelare alcun dettaglio. Sprout è stata la prima volta in cui questo ha funzionato in produzione su una criptovaluta attiva.
 
 ![Le transazioni trasparenti espongono mittente, destinatario e importo, mentre le transazioni schermate di Sprout nascondono tutti e tre pur restando verificabili](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
@@ -26,7 +26,7 @@ Gli zk-SNARKs in Sprout avevano bisogno di un insieme di parametri pubblici, e g
 
 ## L'origine
 
-Sprout è la base su cui si costruisce ogni cambiamento successivo. Quando il meccanismo di aggiornamento della rete è arrivato con Overwinter, ha etichettato le regole originali come consensus branch id 0, il che significa semplicemente che non è ancora stato applicato alcun aggiornamento. Tutto ciò che è venuto dopo (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 e oltre) si basa sulla catena avviata da Sprout. Il lancio fu annunciato nell'agosto 2016 per una genesis il 28 ottobre, la Ceremony si svolse nelle settimane precedenti e il timestamp hardcoded del blocco genesis riporta il 28 ottobre 2016 alle 07:56 UTC.
+Sprout è la base su cui si costruisce ogni cambiamento successivo. Quando il meccanismo di aggiornamento di rete è arrivato con Overwinter, ha etichettato le regole originali come ID del ramo di consenso 0, il che significa semplicemente che non è ancora stato applicato alcun aggiornamento. Tutto ciò che è venuto dopo (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 e oltre) si basa sulla chain avviata da Sprout. Il lancio fu annunciato nell'agosto 2016 per una genesis il 28 ottobre, la Ceremony si svolse nelle settimane precedenti e il timestamp hardcoded del blocco genesis riporta il 28 ottobre 2016 alle 07:56 UTC.
 
 ![Cronologia dall'annuncio dell'agosto 2016, passando per la Ceremony dei parametri, fino al lancio di Sprout del 28 ottobre 2016](/content-images/sprout-timeline-348766352a.webp)
 
@@ -43,15 +43,15 @@ Sprout è la base su cui si costruisce ogni cambiamento successivo. Quando il me
 
 ## FAQ
 
-Sprout cambia i miei ZEC o la mia privacy oggi? No. Sprout è storia, il lancio che ha avviato la catena su cui vivono i tuoi ZEC. Le tue monete e la tua privacy oggi dipendono dal wallet e dal pool schermato che usi adesso, non da qualcosa che devi fare riguardo a Sprout.
+Sprout cambia i miei ZEC o la mia privacy oggi? No. Sprout è storia, il lancio che ha avviato la chain su cui vivono i tuoi ZEC. Le tue monete e la tua privacy oggi dipendono dal portafoglio e dalla pool schermata che usi adesso, non da qualcosa che devi fare riguardo a Sprout.
 
 Perché non esiste un numero ZIP per Sprout? Il processo ZIP è iniziato più tardi, con l'aggiornamento Overwinter. Sprout è il lancio originale, descritto dalla Zcash Protocol Specification e dalla costruzione Zerocash su cui si basava. ZIP 200 menziona Sprout solo retrospettivamente, come consensus branch id 0, la base di partenza prima di qualsiasi aggiornamento.
 
 Dovevo fidarmi delle sei persone della Ceremony? La configurazione è stata progettata in modo che bastasse che una sola di loro fosse onesta. Ognuna custodiva una parte segreta e, finché anche un solo partecipante distruggeva la propria, il segreto completo non poteva mai essere ricostruito e nessuno poteva creare ZEC falsi. Cinque partecipanti sono stati nominati pubblicamente e uno è rimasto anonimo.
 
-Il pool Sprout è quello che il mio wallet usa adesso? Probabilmente no. Sprout è stato il primo pool schermato, ma aggiornamenti successivi come Sapling hanno introdotto un design schermato più veloce, e oggi la maggior parte dei wallet usa pool più recenti. Sprout resta importante come il lavoro che ha dimostrato che transazioni private e verificabili potevano funzionare su una rete attiva.
+La pool Sprout è quella che il mio portafoglio usa adesso? Probabilmente no. Sprout è stata la prima pool schermata, ma aggiornamenti successivi come Sapling hanno introdotto un design schermato più veloce, e oggi la maggior parte dei portafogli usa pool più recenti. Sprout resta importante come il lavoro che ha dimostrato che transazioni private e verificabili potevano funzionare su una rete attiva.
 
-Cosa rendeva Sprout diverso da Bitcoin? Bitcoin mette ogni pagamento su un registro pubblico dove importi e indirizzi sono visibili. Sprout ha aggiunto transazioni schermate che nascondono mittente, destinatario e importo, permettendo comunque alla rete di confermare che la transazione è valida. Ha mantenuto anche gli indirizzi trasparenti, così entrambi gli stili convivono sulla stessa catena.
+Cosa rendeva Sprout diverso da Bitcoin? Bitcoin mette ogni pagamento su un registro pubblico dove importi e indirizzi sono visibili. Sprout ha aggiunto transazioni schermate che nascondono mittente, destinatario e importo, permettendo comunque alla rete di confermare che la transazione è valida. Ha mantenuto anche gli indirizzi trasparenti, così entrambi gli stili convivono sulla stessa chain.
 
 ## Metti alla prova la tua comprensione
 
@@ -75,7 +75,7 @@ Sprout è il lancio originale di Zcash, non un aggiornamento successivo. È atti
 
 ### Vedi anche
 
-[Pool schermati](../using-zcash/shielded-pools)
+[Pool schermate](../using-zcash/shielded-pools)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 

@@ -13,7 +13,7 @@ Nella Parte 1 abbiamo imparato cosa significa *dimostrare* che un sistema è cor
 
 ## 1. Perché dovrebbe interessarti?
 
-Quando un bug minaccia il denaro, la risposta abituale è applicare una patch e andare avanti. Zcash ha fatto qualcosa di più ambizioso. Insieme a un nuovo pool schermato chiamato **Ironwood**, attivato il 28 luglio 2026, i suoi ingegneri hanno pubblicato una **prova matematica verificata da una macchina**, composta da **oltre 2.700 teoremi** scritti nell'assistente di prova **Lean**, che stabilisce che il nuovo pool non può creare monete contraffatte secondo le sue assunzioni dichiarate. La prova è pubblica, nel repository open-source `ironwood`, e ha richiesto a tre team di ricercatori e crittografi ben oltre un mese per essere completata.
+Quando un bug minaccia il denaro, la risposta abituale è applicare una patch e andare avanti. Zcash ha fatto qualcosa di più ambizioso. Insieme a una nuova pool schermata chiamata **Ironwood**, attivata il 28 luglio 2026, i suoi ingegneri hanno pubblicato una **prova matematica verificata automaticamente**, composta da **oltre 2.700 teoremi** scritti nell'assistente di prova **Lean**, che stabilisce che la nuova pool non può creare monete contraffatte secondo le sue assunzioni dichiarate. La prova è pubblica, nel repository open-source `ironwood`, e ha richiesto a tre team di ricercatori e crittografi ben oltre un mese per essere completata.
 
 Questo conta oltre Zcash. È una delle dimostrazioni più chiare nel mondo reale che si possa prendere un sistema finanziario attivo, definire con precisione cosa significhi "nessuna contraffazione" e *dimostrarlo*, anziché sperare che i test siano stati sufficientemente approfonditi. Trasforma una promessa in un teorema.
 
@@ -39,18 +39,18 @@ La prova stabilisce una singola proprietà principale, costruita su una più pro
 
 ### Integrità del saldo (la proprietà principale)
 
-> **Integrità del saldo:** il valore nascosto conservato nel pool schermato non supera mai il valore pubblico netto che vi è confluito.
+> **Integrità del saldo:** il valore nascosto conservato nella pool schermata non supera mai il valore pubblico netto che vi è confluito.
 
-Questa è la proprietà anti-contraffazione in forma semplice. Il denaro può entrare nel pool schermato (pubblicamente visibile) e uscirne (pubblicamente visibile), ma all'interno, dove gli importi sono nascosti, non può essere creato valore dal nulla. Rendiamolo concreto con un minuscolo registro contabile (aritmetica verificata):
+Questa è la proprietà anti-contraffazione in forma semplice. Il denaro può entrare nella pool schermata (pubblicamente visibile) e uscirne (pubblicamente visibile), ma all'interno, dove gli importi sono nascosti, non può essere creato valore dal nulla. Rendiamolo concreto con un minuscolo registro contabile (aritmetica verificata):
 
 - **Transazione onesta:** input del valore di `5 + 3 = 8` producono output del valore di `4 + 4 = 8`. Il valore in entrata equivale a quello in uscita. L'integrità del saldo è rispettata. ✓
-- **Tentativo di contraffazione:** gli stessi input del valore di `8`, ma output di `4 + 4 + 2 = 10`. Ciò creerebbe `2` unità dal nulla. L'integrità del saldo lo **vieta**: il pool non può mai pagare più di quanto vi sia entrato. ✗
+- **Tentativo di contraffazione:** gli stessi input del valore di `8`, ma output di `4 + 4 + 2 = 10`. Ciò creerebbe `2` unità dal nulla. L'integrità del saldo lo **vieta**: la pool non può mai pagare più di quanto vi sia entrato. ✗
 
 L'integrità del saldo è l'affermazione matematica secondo cui il secondo scenario non può mai produrre una transazione valida.
 
 ### Solidità della conoscenza (il meccanismo sottostante)
 
-Per garantire l'integrità del saldo, i ricercatori hanno dovuto prima dimostrare una proprietà più profonda e sottile del sistema di prova a conoscenza zero stesso. La normale solidità (il concetto della Parte 2 secondo cui "solo le affermazioni vere hanno un testimone") risulta *non sufficiente* per un pool schermato, per una ragione affascinante: poiché una transazione nascosta può contenere qualsiasi cosa, quasi ogni affermazione tecnicamente *ha* qualche testimone. Quindi i ricercatori hanno dimostrato una proprietà più forte:
+Per garantire l'integrità del saldo, i ricercatori hanno dovuto prima dimostrare una proprietà più profonda e sottile del sistema di prova a conoscenza zero stesso. La normale solidità (il concetto della Parte 2 secondo cui "solo le affermazioni vere hanno un testimone") risulta *non sufficiente* per una pool schermata, per una ragione affascinante: poiché una transazione nascosta può contenere qualsiasi cosa, quasi ogni affermazione tecnicamente *ha* qualche testimone. Quindi i ricercatori hanno dimostrato una proprietà più forte:
 
 > **Solidità della conoscenza:** chiunque possa produrre una prova di transazione valida deve *effettivamente possedere* un testimone valido, cioè monete reali, derivate correttamente, all'indirizzo giusto.
 
@@ -109,11 +109,11 @@ Zcash ha introdotto un meccanismo chiamato **tornello**. La regola è semplice e
 
 > Il valore può lasciare il vecchio pool soltanto fino all'importo che è verificabilmente entrato in esso.
 
-Poiché il denaro che entra ed esce da un pool schermato è pubblicamente visibile (è nascosta soltanto l'attività *all'interno*), il tornello permette all'intera rete di controllare che non esca più di quanto sia mai entrato. Se monete contraffatte fossero state create nel vecchio pool, raggiungerebbero questo limite e non riuscirebbero a uscire. E mentre i fondi onesti migrano all'esterno senza che emerga alcun eccesso, la comunità ottiene una forte prova pubblica che il difetto non è mai stato sfruttato. È quanto di più vicino esista a verificare l'offerta di un pool privato senza infrangerne la privacy e avvicina l'integrità dell'offerta al modello trasparente di una catena come Bitcoin, preservando al contempo la privacy di Zcash.
+Poiché il denaro che entra ed esce da una pool schermata è pubblicamente visibile (è nascosta soltanto l'attività *all'interno*), il turnstile permette all'intera rete di controllare che non esca più di quanto sia mai entrato. Se monete contraffatte fossero state create nella vecchia pool, raggiungerebbero questo limite e non riuscirebbero a uscire. E mentre i fondi onesti migrano all'esterno senza che emerga alcun eccesso, la comunità ottiene una forte prova pubblica che il difetto non è mai stato sfruttato. È quanto di più vicino esista a verificare l'offerta di una pool privata senza infrangerne la privacy e avvicina l'integrità dell'offerta al modello trasparente di una chain come Bitcoin, preservando al contempo la privacy di Zcash.
 
 ![alt text](image-5.png)
 
-Ironwood stesso riutilizza il circuito di prova *corretto*, riparte da zero con un pool vuoto e aggiunge protezioni rivolte al futuro (incluse disposizioni affinché i fondi possano rimanere recuperabili se futuri computer quantistici dovessero mai minacciare la crittografia odierna). La nuova attività schermata ora fluisce attraverso Ironwood, mentre il vecchio pool Orchard è limitato ai prelievi.
+Ironwood stesso riutilizza il circuito di prova *corretto*, riparte da zero con una pool vuota e aggiunge protezioni rivolte al futuro (incluse disposizioni affinché i fondi possano rimanere recuperabili se futuri computer quantistici dovessero mai minacciare la crittografia odierna). La nuova attività schermata ora fluisce attraverso Ironwood, mentre la vecchia pool Orchard è limitata ai prelievi.
 
 ---
 
@@ -134,7 +134,7 @@ Abbiamo semplificato per chiarezza. Il vero sviluppo Lean è molto più dettagli
 ## 10. Riepilogo
 
 - Zcash ha risposto al bug Orchard non solo con una patch, ma con una **prova verificata da una macchina** (oltre **2.700 teoremi** in **Lean**, disponibili pubblicamente) per il suo nuovo pool **Ironwood**.
-- La prova stabilisce l'**integrità del saldo** (il pool non paga mai più di quanto vi sia entrato pubblicamente), costruita sulla **solidità della conoscenza** (una prova valida richiede che il dimostratore detenga effettivamente un testimone autentico, verificato tramite un **estrattore**). La solidità della conoscenza è esattamente la proprietà la cui lacuna era il bug Orchard.
+- La prova stabilisce l'**integrità del saldo** (la pool non paga mai più di quanto vi sia entrato pubblicamente), costruita sulla **solidità della conoscenza** (una prova valida richiede che il dimostratore detenga effettivamente un testimone autentico, verificato tramite un **estrattore**). La solidità della conoscenza è esattamente la proprietà la cui lacuna era il bug Orchard.
 - Ragiona su **ogni registro valido**, non su casi campionati, ed è questo che chiude la classe di bug di contraffazione nascosta che i test non hanno rilevato.
 - Il divario tra matematica e software è gestito da un confine di **impronta digitale**: la prova esclude i bug non rilevabili e qualsiasi deviazione dell'implementazione sarebbe **rilevabile** nel registro pubblico permanente.
 - La garanzia è formulata con precisione: vale secondo la **difficoltà del logaritmo discreto e assunzioni hash standard**, e copre la **contraffazione, non la privacy**. Questa onestà è un punto di forza, non una debolezza.
@@ -147,15 +147,15 @@ Abbiamo semplificato per chiarezza. Il vero sviluppo Lean è molto più dettagli
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Ironwood** | Il nuovo pool schermato di Zcash (2026), che sostituisce il pool difettoso Orchard |
-| **Balance integrity** | Il pool non paga mai più valore di quanto vi sia entrato pubblicamente |
+| **Ironwood** | La nuova pool schermata di Zcash (2026), che sostituisce la pool Orchard difettosa |
+| **Balance integrity** | La pool non paga mai più valore di quanto vi sia entrato pubblicamente |
 | **Knowledge soundness** | Una prova valida richiede che il dimostratore detenga un testimone autentico |
 | **Extractor** | Una procedura che estrae il testimone da qualunque dimostratore convincente |
 | **Lean** | L'assistente di prova utilizzato per verificare la verifica tramite macchina |
 | **ValidLedger** | Il modello formale delle regole di consenso su cui ragionano i teoremi |
 | **Fingerprint** | Il confine tra la matematica dimostrata e il software Rust in esecuzione |
 | **Under stated assumptions** | La prova vale a condizione che le assunzioni crittografiche nominate siano valide |
-| **Turnstile** | Una regola che limita le uscite di un pool ai suoi depositi verificabili |
+| **Turnstile** | Una regola che limita le uscite di una pool ai suoi depositi verificabili |
 | **High-assurance cryptography** | Costruire crittografia con la verifica formale come passaggio standard |
 
 ---
@@ -185,7 +185,7 @@ Qualcuno afferma: "Poiché Ironwood è verificato formalmente, ora è impossibil
 
 <details><summary>Risposta</summary>
 
-Primo, la prova copre una proprietà *specifica* (l'integrità del saldo) secondo *assunzioni dichiarate* (difficoltà del logaritmo discreto e modellazione hash standard). Se un'assunzione crittografica venisse infranta, oppure se sorgesse un problema al di fuori di ciò che è stato specificato (per esempio nella privacy, nel software wallet o in qualche componente non dimostrato), la prova non direbbe nulla al riguardo. Secondo, la verifica formale garantisce che il sistema soddisfi *la specifica che è stata scritta*; se quella specifica stessa non riuscisse a cogliere qualche requisito reale, la prova certificherebbe fedelmente la cosa sbagliata. Entrambi i punti riaffermano l'avvertenza della Parte 1: una prova è esatta e delimitata, potente proprio perché il suo ambito è onesto, non una garanzia generale che nulla possa mai andare storto.
+Primo, la prova copre una proprietà *specifica* (l'integrità del saldo) secondo *assunzioni dichiarate* (difficoltà del logaritmo discreto e modellazione hash standard). Se un'assunzione crittografica venisse infranta, oppure se sorgesse un problema al di fuori di ciò che è stato specificato (per esempio nella privacy, nel software del portafoglio o in qualche componente non dimostrato), la prova non direbbe nulla al riguardo. Secondo, la verifica formale garantisce che il sistema soddisfi *la specifica che è stata scritta*; se quella specifica stessa non riuscisse a cogliere qualche requisito reale, la prova certificherebbe fedelmente la cosa sbagliata. Entrambi i punti riaffermano l'avvertenza della Parte 1: una prova è esatta e delimitata, potente proprio perché il suo ambito è onesto, non una garanzia generale che nulla possa mai andare storto.
 </details>
 
 ---

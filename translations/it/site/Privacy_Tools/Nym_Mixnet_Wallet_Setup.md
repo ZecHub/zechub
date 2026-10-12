@@ -2,16 +2,16 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Pagina Edihttps://github.com/ZecHub/zechub/pull/2238t"/>
 </a>
 
-# Instrada il traffico del wallet Zcash attraverso la mixnet Nym
+# Instrada il traffico del portafoglio Zcash attraverso la mixnet Nym
 
 > Ultima verifica: 29 settembre 2026
 
-Le transazioni schermate Zcash proteggono i dati delle transazioni on-chain, ma i wallet comunicano comunque tramite Internet. Gli osservatori della rete possono potenzialmente apprendere metadati come il tuo indirizzo IP, quando il tuo wallet si connette e quali infrastrutture contatta.
+Le transazioni schermate Zcash proteggono i dati delle transazioni on-chain, ma i portafogli comunicano comunque tramite Internet. Gli osservatori della rete possono potenzialmente apprendere metadati come il tuo indirizzo IP, quando il tuo portafoglio si connette e quali infrastrutture contatta.
 
-Nym aggiunge un livello distinto di privacy della rete. A settembre 2026, l'approccio migliore dipende dal wallet:
+Nym aggiunge un livello distinto di privacy della rete. A settembre 2026, l'approccio migliore dipende dal portafoglio:
 
-1. **Preferisci l'integrazione Nym nativa di un wallet, quando disponibile.**
-2. In alternativa, utilizza la **modalità Mixnet NymVPN a livello di sistema** affinché il traffico di rete del wallet venga instradato attraverso Nym senza dipendere dal supporto proxy specifico del wallet.
+1. **Preferisci l'integrazione Nym nativa di un portafoglio, quando disponibile.**
+2. In alternativa, utilizza la **modalità Mixnet NymVPN a livello di sistema** affinché il traffico di rete del portafoglio venga instradato attraverso Nym senza dipendere dal supporto proxy specifico del portafoglio.
 
 Per informazioni generali su VPN e dVPN, consulta [VPN e dVPN](./VPN_and_DVPN.md).
 
@@ -19,19 +19,19 @@ Per informazioni generali su VPN e dVPN, consulta [VPN e dVPN](./VPN_and_DVPN.md
 
 Un pagamento schermato Zcash e uno strumento per la privacy della rete risolvono problemi diversi:
 
-- I **pool schermati Zcash** proteggono i dettagli delle transazioni on-chain.
-- L'**instradamento tramite mixnet Nym** è progettato per ridurre la collegabilità tra la tua reale identità di rete e il servizio che riceve il traffico del wallet.
+- Le **pool schermate Zcash** proteggono i dettagli delle transazioni on-chain.
+- L'**instradamento tramite mixnet Nym** è progettato per ridurre la collegabilità tra la tua reale identità di rete e il servizio che riceve il traffico del portafoglio.
 - Una destinazione contattata attraverso un tunnel NymVPN a livello di sistema dovrebbe vedere un'uscita Nym anziché il tuo IP domestico/mobile.
 
 La mixnet di Nym utilizza più hop, mescolamento dei pacchetti, ritardi casuali, traffico di copertura e crittografia onion per ridurre la perdita di metadati della rete.
 
-Nym **non** protegge da un dispositivo compromesso, software wallet malevolo, frasi di recupero esposte, identità rivelata tramite account di exchange o perdita di privacy causata da attività Zcash trasparente.
+Nym **non** protegge da un dispositivo compromesso, software di portafoglio malevolo, frasi di recupero esposte, identità rivelata tramite account di exchange o perdita di privacy causata da attività Zcash trasparente.
 
 ## Supporto Nym nativo: usalo prima quando disponibile
 
-Il 24 settembre 2026 Nym ha annunciato che il suo lavoro di Community Grant Zcash è completato e che il supporto nativo della mixnet viene distribuito nei wallet Zcash reali.
+Il 24 settembre 2026 Nym ha annunciato che il suo lavoro per Zcash Community Grants è completato e che il supporto nativo della mixnet viene distribuito nei veri portafogli Zcash.
 
-### Wallet Zingo!
+### Zingo! Wallet
 
 Zingo PC include un trasporto Nym nativo. Anche Zingo Mobile offre la modalità Mixnet su iOS e Android utilizzando un proxy Nym integrato nell'app.
 
@@ -69,7 +69,7 @@ Fonti:
 
 ### Nozy
 
-Anche NozyWallet dispone di percorsi di trasporto compatibili con Nym. La sua implementazione attuale supporta l'instradamento dell'invio di transazioni in uscita attraverso la mixnet Nym e un percorso dVPN Nym separato per la sincronizzazione dei blocchi compatti. Considerali protezioni distinte, anziché presumere che ogni richiesta del wallet utilizzi automaticamente la mixnet.
+Anche NozyWallet dispone di percorsi di trasporto compatibili con Nym. La sua implementazione attuale supporta l'instradamento dell'invio di transazioni in uscita attraverso la mixnet Nym e un percorso dVPN Nym separato per la sincronizzazione dei blocchi compatti. Considerali protezioni distinte, anziché presumere che ogni richiesta del portafoglio utilizzi automaticamente la mixnet.
 
 Fonti:
 
@@ -86,9 +86,9 @@ La funzionalità Tor di Zodl può instradare tramite Tor l'invio delle transazio
 Per Zodl, oggi utilizza una delle seguenti opzioni:
 
 - La Tor Protection documentata di Zodl; oppure
-- NymVPN a livello di sistema, se il tuo obiettivo è instradare attraverso Nym il traffico generale del dispositivo del wallet.
+- NymVPN a livello di sistema, se il tuo obiettivo è instradare attraverso Nym il traffico generale del dispositivo del portafoglio.
 
-Non presumere che Tor e Nym siano trasporti intercambiabili all'interno del wallet solo perché entrambi sono reti per la privacy.
+Non presumere che Tor e Nym siano trasporti intercambiabili all'interno del portafoglio solo perché entrambi sono reti per la privacy.
 
 Impostazioni Tor di Zodl:
 
@@ -101,7 +101,7 @@ Fonti:
 
 ## Alternativa: NymVPN a livello di sistema
 
-Questa è l'opzione Nym con la compatibilità più ampia perché non richiede che il wallet comprenda impostazioni proxy specifiche per Nym.
+Questa è l'opzione Nym con la compatibilità più ampia perché non richiede che il portafoglio comprenda impostazioni proxy specifiche per Nym.
 
 ### 1. Installa NymVPN
 
@@ -114,17 +114,17 @@ NymVPN supporta Android, iOS, Linux, Windows e macOS.
 
 ### 2. Seleziona la modalità Mixnet
 
-NymVPN offre la **modalità Fast**, un percorso dVPN a 2 hop ottimizzato per una latenza inferiore, e la **modalità Mixnet**, un percorso mixnet a 5 hop ottimizzato per una protezione più forte dei metadati della rete. Per attività sensibili del wallet, seleziona la modalità Mixnet e attendi che il client segnali che la connessione è stabilita prima di aprire o aggiornare il wallet.
+NymVPN offre la **modalità Fast**, un percorso dVPN a 2 hop ottimizzato per una latenza inferiore, e la **modalità Mixnet**, un percorso mixnet a 5 hop ottimizzato per una protezione più forte dei metadati della rete. Per attività sensibili del portafoglio, seleziona la modalità Mixnet e attendi che il client segnali che la connessione è stabilita prima di aprire o aggiornare il portafoglio.
 
-### 3. Lascia il wallet sulle normali impostazioni di rete
+### 3. Lascia il portafoglio sulle normali impostazioni di rete
 
-Quando il sistema operativo sta già instradando il traffico tramite tunnel attraverso NymVPN, la maggior parte dei wallet non richiede impostazioni proxy personalizzate.
+Quando il sistema operativo sta già instradando il traffico tramite tunnel attraverso NymVPN, la maggior parte dei portafogli non richiede impostazioni proxy personalizzate.
 
-Apri normalmente il wallet e consentigli di sincronizzarsi.
+Apri normalmente il portafoglio e consentigli di sincronizzarsi.
 
-Se NymVPN offre lo split tunneling sulla tua piattaforma, verifica che il wallet sia **incluso nel tunnel protetto**, non inserito in un elenco di bypass o esclusioni.
+Se NymVPN offre lo split tunneling sulla tua piattaforma, verifica che il portafoglio sia **incluso nel tunnel protetto**, non inserito in un elenco di bypass o esclusioni.
 
-### 4. Verifica il tunnel prima di usare il wallet
+### 4. Verifica il tunnel prima di usare il portafoglio
 
 Un semplice controllo a livello di sistema:
 
@@ -141,27 +141,27 @@ Un semplice controllo a livello di sistema:
 
 L'IP pubblico visibile dovrebbe cambiare.
 
-Questo conferma il tunnel di sistema. **Non** dimostra che ogni richiesta effettuata da un wallet specifico segua lo stesso percorso se l'app o il sistema operativo dispone di regole di instradamento speciali.
+Questo conferma il tunnel di sistema. **Non** dimostra che ogni richiesta effettuata da un portafoglio specifico segua lo stesso percorso se l'app o il sistema operativo dispone di regole di instradamento speciali.
 
 Per maggiore certezza su desktop:
 
-- ispeziona il processo del wallet con il monitor di rete del sistema operativo;
+- ispeziona il processo del portafoglio con il monitor di rete del sistema operativo;
 - verifica che non vi siano esclusioni tramite split tunneling;
-- conferma che il comportamento previsto del wallet cambi se NymVPN viene disconnesso.
+- conferma che il comportamento previsto del portafoglio cambi se NymVPN viene disconnesso.
 
-Durante la risoluzione dei problemi, non pubblicare screenshot contenenti indirizzi del wallet, saldi, ID delle transazioni, indirizzi IP o materiale di recupero.
+Durante la risoluzione dei problemi, non pubblicare screenshot contenenti indirizzi del portafoglio, saldi, ID delle transazioni, indirizzi IP o materiale di recupero.
 
-## Modalità proxy dApp / wallet NymVPN
+## Modalità proxy dApp / portafoglio NymVPN
 
-NymVPN offre anche una modalità proxy per app e wallet che utilizza l'instradamento SOCKS5 / RPC attraverso la mixnet.
+NymVPN offre anche una modalità proxy per app e portafogli che utilizza l'instradamento SOCKS5 / RPC attraverso la mixnet.
 
-La documentazione pubblica di configurazione di Nym mostra questo principalmente con configurazioni RPC in stile Ethereum. È utile per software che supporta esplicitamente un percorso generico compatibile proxy/RPC, ma non si deve presumere che funzioni con ogni wallet Zcash.
+La documentazione pubblica di configurazione di Nym mostra questo principalmente con configurazioni RPC in stile Ethereum. È utile per software che supporta esplicitamente un percorso generico compatibile proxy/RPC, ma non si deve presumere che funzioni con ogni portafoglio Zcash.
 
-Utilizza questo percorso solo quando la documentazione del wallet conferma il supporto proxy o RPC compatibile.
+Utilizza questo percorso solo quando la documentazione del portafoglio conferma il supporto proxy o RPC compatibile.
 
 Altrimenti, preferisci:
 
-- l'integrazione Nym nativa del wallet; oppure
+- l'integrazione Nym nativa del portafoglio; oppure
 - NymVPN a livello di sistema.
 
 ## Compromessi tra prestazioni e timeout
@@ -170,7 +170,7 @@ Le mixnet scambiano intenzionalmente velocità con una protezione più forte dei
 
 Aspettati possibili effetti su:
 
-- sincronizzazione iniziale del wallet;
+- sincronizzazione iniziale del portafoglio;
 - grandi sincronizzazioni di recupero;
 - query della cronologia delle transazioni;
 - timeout RPC;
@@ -187,26 +187,26 @@ Indicazioni pratiche:
 
 ## Considerazioni sui dispositivi mobili
 
-Su Android e iOS, lo slot VPN del sistema operativo è di solito il modo più semplice per instradare il traffico generale del wallet attraverso NymVPN: connetti prima NymVPN, poi apri il wallet.
+Su Android e iOS, lo slot VPN del sistema operativo è di solito il modo più semplice per instradare il traffico generale del portafoglio attraverso NymVPN: connetti prima NymVPN, poi apri il portafoglio.
 
-Se un'altra VPN, firewall o blocco pubblicità basato su VPN locale occupa già l'interfaccia VPN di sistema, i due prodotti potrebbero non poter funzionare simultaneamente. Conferma lo stato VPN del sistema operativo prima di presumere che il wallet sia protetto.
+Se un'altra VPN, firewall o blocco pubblicità basato su VPN locale occupa già l'interfaccia VPN di sistema, i due prodotti potrebbero non poter funzionare simultaneamente. Conferma lo stato VPN del sistema operativo prima di presumere che il portafoglio sia schermato.
 
 ## Checklist del modello di minaccia
 
 Prima di fare affidamento sulla configurazione, chiediti:
 
 - Sto utilizzando indirizzi Zcash schermati dove appropriato?
-- Il mio wallet supporta Nym nativamente?
+- Il mio portafoglio supporta Nym nativamente?
 - Se sì, quale traffico protegge esattamente quell'integrazione nativa?
-- Se mi serve una copertura più ampia, NymVPN è connesso prima che il wallet inizi l'attività di rete?
-- Il wallet è escluso da una regola di split tunneling?
-- Mi sto affidando a una modalità proxy che il wallet documenta effettivamente?
+- Se mi serve una copertura più ampia, NymVPN è connesso prima che il portafoglio inizi l'attività di rete?
+- Il portafoglio è escluso da una regola di split tunneling?
+- Mi sto affidando a una modalità proxy che il portafoglio documenta effettivamente?
 - Sto rivelando la mia identità tramite un exchange, una sessione del browser, un'API di terze parti o un indirizzo trasparente?
 - Sono preparato a sincronizzazioni più lente e timeout occasionali?
 
 ## Fonti
 
-- Nym: la mixnet Nym è ora attiva nei wallet Zcash, 24 settembre 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
+- Nym: la mixnet Nym è ora attiva nei portafogli Zcash, 24 settembre 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
 - Comportamento Nym di Zingo PC: https://github.com/zingolabs/zingo-pc#the-nym-mixnet
 - Trasporto Nym Mobile di Zingo: https://github.com/zingolabs/zingo-mobile
 - Repository di Zkool: https://github.com/hhanh00/zkool2

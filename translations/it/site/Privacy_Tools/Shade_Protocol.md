@@ -35,7 +35,7 @@ La DeFi che tutela la privacy sfrutta tecniche crittografiche avanzate come tran
 
 **Token Shade e Silk**
 
-Shade Protocol utilizza le viewing key per i suoi due token principali: Shade ($SHD) e Silk ($SILK). Shade ($SHD) svolge molteplici ruoli, fungendo da token di tesoreria, governance e revenue sharing all'interno dell'ecosistema. Viene usato nello staking, nelle proposte di governance, nella fornitura di liquidità, nelle transazioni e nei bond. Silk ($SILK), d'altra parte, è la stablecoin del protocollo incentrata sulla privacy, ancorata a un paniere diversificato di valute e materie prime globali come oro, Bitcoin, USD, Euro e Yen.
+Shade Protocol utilizza le chiavi di visualizzazione per i suoi due token principali: Shade ($SHD) e Silk ($SILK). Shade ($SHD) svolge molteplici ruoli, fungendo da token di tesoreria, governance e revenue sharing all'interno dell'ecosistema. Viene usato nello staking, nelle proposte di governance, nella fornitura di liquidità, nelle transazioni e nei vincoli. Silk ($SILK), d'altra parte, è la stablecoin del protocollo incentrata sulla privacy, ancorata a un paniere diversificato di valute e materie prime globali come oro, Bitcoin, USD, Euro e Yen.
 
 ![Shade and Silk Tokens - Part 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 

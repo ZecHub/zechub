@@ -8,7 +8,7 @@
 >
 > Questa pagina è mantenuta come documento storico della distribuzione di zcashd.
 
-Guida per distribuire un nodo completo zcashd di Zcash (implementazione di Electric Coin Co) usando [Akash Console](https://console.akash.network). Di seguito trovi un video tutorial. Una guida più approfondita è disponibile sotto.
+Guida per distribuire un full node (nodo completo) zcashd di Zcash (implementazione di Electric Coin Co) usando [Akash Console](https://console.akash.network). Di seguito trovi un video tutorial. Una guida più approfondita è disponibile sotto.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -24,7 +24,7 @@ Guida per distribuire un nodo completo zcashd di Zcash (implementazione di Elect
 
 ## Cosa Stai Distribuendo
 
-Un nodo completo zcashd che:
+Un full node zcashd che:
 
 -> Sincronizzerà l'intera blockchain di Zcash (350GB+ per mainnet, ~ 40GB per testnet)
 
@@ -40,13 +40,13 @@ Un nodo completo zcashd che:
 
 -> zcashd era l'implementazione originale del nodo Zcash di Electric Coin Co, ferma dal 18 luglio 2026
 
--> Zebra, della Zcash Foundation, è il nodo completo in uso oggi
+-> Zebra, della Zcash Foundation, è il full node in uso oggi
 
 -> Solo Zebra segue la chain attuale; un nodo zcashd non può raggiungere la punta
 
--> Il wallet di zcashd è stato sostituito da [Zallet](/using-zcash/zallet-quick-reference-guide)
+-> Il portafoglio di zcashd è stato sostituito da [Zallet](/using-zcash/zallet-quick-reference-guide)
 
--> Usa zcashd se hai bisogno della funzionalità wallet o di specifiche API RPC
+-> Usa zcashd se hai bisogno della funzionalità del portafoglio o di specifiche API RPC
 
 
 ### **Importante: Mappatura delle Porte su Akash**
@@ -70,25 +70,25 @@ Questo viene gestito automaticamente. Usa semplicemente l'URI che Akash ti forni
 
 ## Prerequisiti
 
--> Estensione browser **Keplr Wallet** installata (Chrome/Brave/Firefox)
+-> Estensione del browser **Keplr Wallet** installata (Chrome/Brave/Firefox)
 
 -> **Token AKT** - Ottieni 50-100 AKT da un exchange (Coinbase, Kraken, Osmosis)
 
 -> **5 minuti** per cliccare nell'interfaccia della Console
 
 
-## Passo 1: Collega il Tuo Wallet
+## Passo 1: Collega il tuo portafoglio
 
 -> Vai su [https://console.akash.network](https://console.akash.network)
 
--> Clicca **"Connect Wallet"** in alto a destra
+-> Clicca su **"Connect Wallet"** in alto a destra
 
--> Scegli **Keplr** (o il tuo wallet Cosmos preferito)
+-> Scegli **Keplr** (o il tuo portafoglio Cosmos preferito)
 
 -> Approva la connessione quando compare Keplr
 
 
-Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima il tuo wallet.
+Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima il tuo portafoglio.
 
 ## Passo 2: Crea la Distribuzione
 
@@ -401,7 +401,7 @@ Devi cambiare la configurazione dopo la distribuzione?
 
 ### Tramite RPC (se abilitato)
 
-Se hai abilitato RPC, puoi interrogare il tuo nodo come un normale nodo completo zcashd (perché lo è!)
+Se hai abilitato RPC, puoi interrogare il tuo nodo come un normale full node zcashd (perché lo è!)
 
 ### Alternativa zcash-cli
 
@@ -433,7 +433,7 @@ Il tuo deposito di 5 AKT verrà rimborsato. Lo **storage persistente** dovrebbe 
 
 ### Errore "Insufficient funds"
 
-Hai bisogno di più AKT. Finanzia il tuo wallet Keplr.
+Hai bisogno di più AKT. Finanzia il tuo portafoglio Keplr.
 
 ### Non compaiono offerte
 
@@ -488,10 +488,10 @@ Monitora la spesa nella Console:
 
 -> **My Deployments** -> La tua distribuzione -> Mostra la stima del "Cost per month"
 
--> Il saldo del tuo wallet Keplr diminuirà nel tempo
+-> Il saldo del tuo portafoglio Keplr diminuirà nel tempo
 
 
-Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribuzione. **Ricarica periodicamente il tuo wallet** oppure imposta avvisi.
+Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribuzione. **Ricarica periodicamente il tuo portafoglio** oppure imposta avvisi.
 
 ### Ridurre i Costi
 
@@ -520,7 +520,7 @@ Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribu
 
 - **Lo storage persistente è importante.** Non saltare *persistent: true* e non usare la classe *beta2*. Usa *beta3*.
 - **La sincronizzazione iniziale è lenta.** Abbi pazienza. È normale per i nodi blockchain.
-- **Mantieni finanziato il tuo wallet.** Le distribuzioni si chiudono automaticamente quando finisci gli AKT.
+- **Mantieni finanziato il tuo portafoglio.** Le distribuzioni si chiudono automaticamente quando finisci gli AKT.
 - **I backup non sono automatici.** Se i dati ti interessano, considera che possano sparire e pianifica di conseguenza.
 - **La sicurezza RPC è critica.** Non esporre RPC a internet senza misure di sicurezza adeguate.
 - **Gli zcash-params vengono messi in cache.** Al primo avvio vengono scaricati ~2GB di parametri crittografici. È normale e accade una sola volta.

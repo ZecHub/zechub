@@ -6,7 +6,7 @@
 
 ## Il quadro generale
 
-Un Unified Address (UA) è una singola stringa di indirizzo che include più tipi di receiver: **Transparent**, **Sapling**, **Orchard**, oppure una combinazione. Il wallet pagante seleziona automaticamente il miglior pool di receiver che supporta.
+Un indirizzo unificato (UA) è un'unica stringa di indirizzo che include più tipi di receiver: **Transparent**, **Sapling**, **Orchard**, oppure una combinazione. Il portafoglio pagante seleziona automaticamente la migliore pool di receiver supportata.
 
 Immagina un UA come una busta sigillata contenente diverse schede etichettate. Ogni scheda rappresenta un modo diverso per raggiungerti. Per verificare un indirizzo, un'applicazione deve:
 
@@ -64,15 +64,15 @@ Oltre a questi, ZIP-316 riserva altri due intervalli per la compatibilità futur
 
 Per i tipi di receiver noti, verificare che la lunghezza codificata corrisponda alla lunghezza del contenuto specificata per il tipo. Per gli elementi di metadati, usare la loro lunghezza codificata a dimensione compatta per determinare la lunghezza del contenuto. Rifiutare voci troncate o eventuali byte finali.
 
-**Ordine preferito dei receiver.** Una volta che un indirizzo è analizzato correttamente, un wallet o uno strumento di pagamento dovrebbe scegliere il miglior receiver in questo ordine: Orchard, poi Sapling, quindi transparent.
+**Ordine preferito dei receiver.** Una volta che un indirizzo è analizzato correttamente, un portafoglio o uno strumento di pagamento dovrebbe scegliere il miglior receiver in questo ordine: Orchard, poi Sapling, quindi trasparente.
 
 ---
 
 ## Regole obbligatorie di rifiuto ZIP-316
 
-**Decodificare correttamente non rende valido un indirizzo.** I wallet ufficiali Zcash rifiutano rigorosamente gli indirizzi che violano le seguenti regole. Anche gli strumenti web devono rifiutarli per prevenire errori di pagamento:
+**Decodificare correttamente non rende valido un indirizzo.** I portafogli ufficiali Zcash rifiutano rigorosamente gli indirizzi che violano le seguenti regole. Anche gli strumenti web devono rifiutarli per prevenire errori di pagamento:
 
-- **Receiver shielded mancanti:** L'indirizzo **deve** contenere almeno un receiver Sapling o Orchard. Un UA con soli receiver transparent non è valido secondo ZIP-316.
+- **Receiver schermati mancanti:** L'indirizzo **deve** contenere almeno un receiver Sapling o Orchard. Un UA con soli receiver trasparenti non è valido secondo ZIP-316.
 - **Typecode duplicati:** Ogni tipo di receiver può apparire al massimo una volta.
 - **Typecode non ordinati:** I receiver devono apparire in ordine strettamente crescente di typecode.
 - **Receiver transparent in conflitto:** Un UA può contenere P2PKH oppure P2SH, ma **mai entrambi**.
@@ -91,7 +91,7 @@ Per i tipi di receiver noti, verificare che la lunghezza codificata corrisponda 
 
 ## Specifiche ufficiali e implementazioni di riferimento
 
-- **[ZIP-316: Indirizzi unificati e Viewing Key](https://zips.z.cash/zip-0316)**
+- **[ZIP-316: Indirizzi unificati e chiavi di visualizzazione](https://zips.z.cash/zip-0316)**
 - **[crate zcash_address (librustzcash)](https://github.com/zcash/librustzcash/tree/main/components/zcash_address)**
 - **[crate f4jumble (librustzcash)](https://github.com/zcash/librustzcash/tree/main/components/f4jumble)**
 - **Vettori di test ufficiali:**
@@ -112,4 +112,4 @@ Per i tipi di receiver noti, verificare che la lunghezza codificata corrisponda 
 | **Typecode** | Numero in ogni voce che definisce il tipo di receiver nel payload. |
 | **Malleability** | Modifica non autorizzata dei byte dell'indirizzo senza rilevamento. |
 
-Vedi anche: [Viewing Key](./Viewing_Keys.md)
+Vedi anche: [Chiavi di visualizzazione](./Viewing_Keys.md)

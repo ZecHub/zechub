@@ -38,7 +38,7 @@ Zcash Labs mira non solo ad aumentare il numero di progetti che utilizzano Zcash
 
 ## Principali aree di lavoro di Zcash Labs
 
-Secondo il suo **[sito web ufficiale](https://zcashlabs.org/)**, Zcash Labs elenca quattro modi principali con cui supporta l'uso di Zcash. In primo luogo, fornisce consulenza e consigli per valutare se Zcash sia in linea con le esigenze aziendali o operative di un'organizzazione. In secondo luogo, offre supporto tecnico e soluzioni di implementazione per istituzioni che stanno attualmente integrando Zcash o pianificano di farlo. In terzo luogo, distribuisce sovvenzioni seed e assiste nel coordinamento del co-marketing affinché i progetti possano raggiungere il pubblico giusto. In quarto luogo, implementa un approccio di “sovvenzioni retroattive dei possessori di monete”, che prevede la copertura anticipata dei costi di progetto e la successiva richiesta di rimborso attraverso un processo di sovvenzioni basato sui possessori di monete.
+Secondo il suo **[sito web ufficiale](https://zcashlabs.org/)**, Zcash Labs elenca quattro modi principali con cui supporta l'uso di Zcash. In primo luogo, fornisce consulenza e consigli per valutare se Zcash sia in linea con le esigenze aziendali o operative di un'organizzazione. In secondo luogo, offre supporto tecnico e soluzioni di implementazione per istituzioni che stanno attualmente integrando Zcash o pianificano di farlo. In terzo luogo, distribuisce finanziamenti seed e assiste nel coordinamento del co-marketing affinché i progetti possano raggiungere il pubblico giusto. In quarto luogo, implementa un approccio di "finanziamenti retroattivi per possessori di monete", che prevede la copertura anticipata dei costi di progetto e la successiva richiesta di rimborso attraverso un processo di finanziamento basato sui possessori di monete.
 
 Secondo un annuncio del **[Zcash Community Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)**, il focus iniziale dell'organizzazione è descritto più specificamente come l'integrazione della blockchain Zcash per aziende e istituzioni, la gestione di servizi infrastrutturali indipendenti e il supporto a nuovi progetti che ampliano l'uso pratico di Zcash. Questa spiegazione dimostra che Zcash Labs opera all'intersezione tra sviluppo tecnico, esigenze di mercato e crescita dell'ecosistema.
 
@@ -54,9 +54,9 @@ Questo approccio è importante perché non tutti i progetti sono automaticamente
 
 ## Operazioni infrastrutturali di Zcash Labs
 
-Oltre a facilitare integrazioni di terze parti, Zcash Labs gestisce e sviluppa anche l'infrastruttura che supporta l'accesso alla rete Zcash. Quando è stata presentata al pubblico, l'organizzazione ha dichiarato di gestire un **Shielded Vote Validator** e di sviluppare servizi che includono un **nodo completo Zcash**, infrastruttura **lightwalletd** e **RPC**.
+Oltre a facilitare integrazioni di terze parti, Zcash Labs gestisce e sviluppa anche l'infrastruttura che supporta l'accesso alla rete Zcash. Quando è stata presentata al pubblico, l'organizzazione ha dichiarato di gestire uno **Shielded Vote Validator** e di sviluppare servizi che includono un **full node (nodo completo) di Zcash**, un'infrastruttura **lightwalletd** e **RPC**.
 
-I nodi completi vengono utilizzati per connettersi direttamente alla rete e verificare i dati della blockchain. lightwalletd aiuta wallet e applicazioni leggere a recuperare dalla rete i dati necessari senza eseguire localmente l'intera blockchain. Nel frattempo, RPC fornisce un modo affinché software esterni comunichino con nodi o servizi blockchain.
+I full node vengono utilizzati per connettersi direttamente alla rete e verificare i dati della blockchain. lightwalletd aiuta i portafogli e le applicazioni leggere a recuperare dalla rete i dati necessari senza eseguire localmente l'intera blockchain. Nel frattempo, RPC fornisce un modo affinché software esterni comunichino con nodi o servizi blockchain.
 
 La gestione di questa infrastruttura è direttamente collegata agli sforzi di integrazione di Zcash Labs. Aziende e sviluppatori che realizzano applicazioni Zcash richiedono un accesso affidabile alla rete. Gestendo questi servizi in modo indipendente, Zcash Labs può ampliare la gamma di opzioni infrastrutturali disponibili, acquisendo al contempo esperienza diretta con i requisiti tecnici delle integrazioni che facilita.
 
@@ -82,13 +82,13 @@ Questo approccio consente a Zcash Labs di essere più proattiva nella ricerca di
 
 ### Modello di finanziamento
 
-Una delle caratteristiche principali di Zcash Labs è l'uso di un modello di **finanziamento anticipato**. In base a questo approccio, l'organizzazione può finanziare i progetti in anticipo usando il proprio capitale, pertanto un team non deve sempre attendere il completamento del processo di sovvenzione prima di iniziare lo sviluppo del prodotto.
+Una delle caratteristiche principali di Zcash Labs è l'uso di un modello di **finanziamento anticipato**. In base a questo approccio, l'organizzazione può finanziare i progetti in anticipo usando il proprio capitale, pertanto un team non deve sempre attendere il completamento del processo di finanziamento prima di iniziare lo sviluppo del prodotto.
 
 Questo finanziamento può essere utilizzato per nuovi progetti, integrazioni aziendali e istituzionali, sviluppo di infrastrutture e attività di co-marketing. Zcash Labs determina autonomamente se un progetto sia sufficientemente convincente da ricevere un finanziamento iniziale. Poiché queste decisioni riguardano capitale di cui l'organizzazione è responsabile, Zcash Labs sostiene le conseguenze finanziarie delle scelte effettuate.
 
 Una volta completato il lavoro e prodotto qualcosa che possa essere valutato, Zcash Labs può presentare le spese sostenute attraverso il meccanismo **Coinholder Directed Retroactive Grants**. Pertanto, fornire capitale ai builder e decidere il rimborso sono due processi separati che avvengono in momenti diversi.
 
-Nel meccanismo delle sovvenzioni retroattive, un progetto viene valutato dopo che il lavoro ha prodotto qualcosa che può essere esaminato. Zcash Labs fornisce inizialmente finanziamenti per supportare lo sviluppo, quindi sottopone i risultati di quel lavoro ai possessori di ZEC.
+Nel meccanismo dei finanziamenti retroattivi, un progetto viene valutato dopo che il lavoro ha prodotto qualcosa che può essere esaminato. Zcash Labs fornisce inizialmente finanziamenti per supportare lo sviluppo, quindi sottopone i risultati di quel lavoro ai possessori di ZEC.
 
 Zcash Labs ha spiegato che le richieste di rimborso sono destinate a coprire le spese già sostenute più un **maggiorazione del 20 percento**. Questo importo aggiuntivo serve come compenso per il rischio finanziario e il lavoro operativo intrapresi dall'organizzazione nel supportare il progetto.
 
@@ -124,7 +124,7 @@ Il modello iniziale di Zcash Labs differisce da quello delle tradizionali societ
 
 Pertanto, ricevere finanziamenti da Zcash Labs non rende automaticamente l'organizzazione proprietaria parziale di un progetto. Zcash Labs ha inoltre dichiarato che l'equity non è il principale meccanismo utilizzato per allineare gli interessi con i progetti che supporta.
 
-Se Zcash Labs dovesse effettuare un investimento in equity in futuro, l'organizzazione ha dichiarato che il costo di acquisizione di tale equity non sarebbe rimborsato attraverso una sovvenzione retroattiva. Eventuali rapporti di proprietà rilevanti verrebbero inoltre divulgati qualora si verificasse una situazione simile.
+Se Zcash Labs dovesse effettuare un investimento in equity in futuro, l'organizzazione ha dichiarato che il costo di acquisizione di tale equity non sarebbe rimborsato attraverso un finanziamento retroattivo. Eventuali rapporti di proprietà rilevanti verrebbero inoltre divulgati qualora si verificasse una situazione simile.
 
 ---
 
@@ -194,7 +194,7 @@ Se il suo modello avrà successo, Zcash Labs potrebbe fungere da esempio di come
 
 Quando l'organizzazione è stata presentata al pubblico, Zcash Labs ha dichiarato che erano in corso ulteriori progetti e integrazioni, ma non ancora annunciati. Le informazioni riguardanti questo lavoro dovrebbero essere pubblicate gradualmente, man mano che ciascun progetto sarà pronto per essere presentato.
 
-Nel campo dell'infrastruttura, Zcash Labs prevede inoltre di espandere i servizi disponibili fornendo RPC aggiuntivi. In termini di finanziamento, l'organizzazione sta iniziando con sovvenzioni relativamente piccole, osservando al contempo come i possessori di monete rispondono alle richieste di rimborso retroattivo.
+Nel campo dell'infrastruttura, Zcash Labs prevede inoltre di espandere i servizi disponibili fornendo RPC aggiuntivi. In termini di finanziamento, l'organizzazione sta iniziando con finanziamenti relativamente piccoli, osservando al contempo come i possessori di ZEC rispondono alle richieste di rimborso retroattivo.
 
 Se questo modello acquisirà slancio, Zcash Labs potrà aumentare il capitale impiegato e assumersi rischi in progetti o integrazioni più grandi. Questi sviluppi potrebbero includere il supporto a più aziende, startup, infrastrutture e servizi che utilizzano Zcash.
 
@@ -206,7 +206,7 @@ A **[agosto 2026](https://x.com/ZcashLabs/status/2087561557253267919?s=20)**, Zc
 
 Zcash Labs utilizza **[zcashlabs.org](https://zcashlabs.org/)** come sito web principale per spiegare i propri servizi, il modello di finanziamento, i progetti e gli sviluppi organizzativi. Informazioni più dettagliate sul suo approccio al finanziamento vengono inoltre pubblicate in una pagina dedicata al modello di finanziamento e negli articoli di annuncio dell'organizzazione.
 
-Zcash Labs utilizza inoltre il **[Zcash Community Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)** per discutere con la comunità del funzionamento dell'organizzazione. I thread di annuncio forniscono ulteriori spiegazioni riguardo alle dimensioni delle sovvenzioni iniziali, alla sottoscrizione finanziaria, ai rischi di rimborso, all'approccio all'equity e ai piani per ampliare le attività se il modello ottiene supporto.
+Zcash Labs utilizza inoltre il **[Zcash Community Forum](https://forum.zcashcommunity.com/t/announcing-zcash-labs-a-zcash-go-to-market-company/56975)** per discutere con la comunità del funzionamento dell'organizzazione. I thread di annuncio forniscono ulteriori spiegazioni riguardo alle dimensioni dei finanziamenti iniziali, alla sottoscrizione finanziaria, ai rischi di rimborso, all'approccio all'equity e ai piani per ampliare le attività se il modello ottiene supporto.
 
 Sui social media, l'organizzazione utilizza l'account **[@ZcashLabs](https://x.com/zcashlabs)** su X per pubblicare aggiornamenti, progetti, opportunità di finanziamento e richieste di soluzioni ritenute rilevanti per Zcash.
 

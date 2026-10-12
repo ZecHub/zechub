@@ -21,7 +21,7 @@ Mentre i dati viaggiano sui server o su internet, sono esposti a molti fattori c
 
 **Memo cifrati di Zcash**
 
-I wallet desktop e mobili di Zcash hanno una funzionalità integrata che permette agli utenti di inviare messaggi cifrati con transazioni schermate private. La dimensione del memo/messaggio può arrivare fino a 512 byte per transazione, con commissioni di transazione inferiori a 1 centesimo di dollaro USA. A causa del modo in cui le transazioni vengono rilevate per preservare la privacy e del tempo di blocco della rete, i messaggi possono richiedere fino a 1 minuto o più per essere ricevuti. 
+I portafogli desktop e mobile di Zcash hanno una funzionalità integrata che permette agli utenti di inviare messaggi crittografati con transazioni schermate private. La dimensione del memo/messaggio può arrivare fino a 512 byte per transazione, con commissioni di transazione inferiori a 1 centesimo di dollaro USA. A causa del modo in cui le transazioni vengono rilevate per preservare la privacy e del tempo di blocco della rete, i messaggi possono richiedere fino a 1 minuto o più per essere ricevuti. 
 
 Provalo: https://z.cash/wallets 
 

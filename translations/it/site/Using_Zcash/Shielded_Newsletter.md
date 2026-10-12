@@ -14,7 +14,7 @@ Gli script si trovano in [`site/tutorials/shieldedNewsletter`](https://github.co
 
 - Zebra completamente sincronizzato, con RPC associato a localhost.
 - Zaino sincronizzato con quel nodo Zebra.
-- Zallet `v0.1.0-beta.3` o successivo, build wallet, con il relativo RPC associato a localhost. Il libro indica `z_sendmany` come implementato. Una commissione numerica viene rifiutata: se passi `fee`, deve essere `null`, perché Zallet usa sempre la commissione ZIP 317.
+- Zallet `v0.1.0-beta.3` o successivo, build del portafoglio, con il relativo RPC associato a localhost. Il libro indica `z_sendmany` come implementato. Una commissione numerica viene rifiutata: se passi `fee`, deve essere `null`, perché Zallet usa sempre la commissione ZIP 317.
 - Un account finanziato il cui Unified Address possa spendere fondi schermati.
 - Unified Addresses dei destinatari. Un memo su un indirizzo trasparente è un errore.
 

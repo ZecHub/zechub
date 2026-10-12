@@ -38,7 +38,7 @@ La **dimensione del ring** influisce significativamente sull'anonymity set. Ring
 ![Ring Signatures explanation](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Confronto con Zcash**:  
-L'anonymity set di Zcash è il numero totale di transazioni *mai* effettuate in un determinato pool schermato (molto più grande delle tipiche dimensioni dei ring di CryptoNote).
+L'anonymity set di Zcash è il numero totale di transazioni *mai* effettuate in una determinata pool schermata (molto più grande delle tipiche dimensioni degli ring di CryptoNote).
 
 ---
 
@@ -97,7 +97,7 @@ Gli sviluppatori di Zcash hanno discusso l'implementazione di una curva di emiss
 
 CryptoNote si è dimostrato un approccio forte e collaudato alla privacy on-chain. Molte delle sue innovazioni hanno influenzato il più ampio ecosistema delle privacy coin.
 
-Alcuni ricercatori ritengono che le caratteristiche di CryptoNote potrebbero alla fine essere combinate con pool schermati trustless a conoscenza zero.
+Alcuni ricercatori ritengono che le caratteristiche di CryptoNote potrebbero alla fine essere combinate con pool schermate trustless a conoscenza zero.
 
 ---
 

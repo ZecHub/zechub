@@ -18,7 +18,7 @@
 
 ## Perché questo conta ancora di più per Zcash
 
-Un binario wallet manomesso può esfiltrare una spending key o una viewing key. A differenza di una password compromessa, questa perdita è permanente: non c'è rollback, non c'è chargeback e non c'è assistenza clienti. Le transazioni shielded proteggono ciò che avviene *on chain*, ma non offrono alcuna protezione quando il software che stai eseguendo è stato sostituito prima ancora di raggiungerti.
+Un binario del portafoglio manomesso può esfiltrare una chiave di spesa o una chiave di visualizzazione. A differenza di una password compromessa, questa perdita è permanente: non c'è rollback, non c'è chargeback e non c'è assistenza clienti. Le transazioni schermate proteggono ciò che avviene *on-chain*, ma non offrono alcuna protezione quando il software che esegui è stato sostituito prima ancora di raggiungerti.
 
 Questo è uno dei pochi vettori d'attacco per cui le garanzie di privacy del protocollo semplicemente non sono rilevanti. La verifica è il livello che copre questo rischio.
 
@@ -433,11 +433,11 @@ Un fallimento della firma è più grave di un fallimento del checksum. Una discr
 | **zcashd** | *ritirato* | — | Arrestato al blocco 3,417,100 il 2026-07-18. Non installarlo. |
 | **Zodl** (ex Zashi) | App Store / Google Play; `zodl-inc` su GitHub | Store signing; standalone Android binaries GPG-signed | Chiave ZODL secondo la dichiarazione di transizione |
 
-> **Nota sul nome:** Zashi è stato rinominato in **Zodl** nel 2026, prima su App Store e poi su Google Play. Le guide più vecchie che si riferiscono a "Zashi" descrivono la stessa linea di wallet.
+> **Nota sul nome:** Zashi è stato rinominato in **Zodl** nel 2026, prima su App Store e poi su Google Play. Le guide più vecchie che si riferiscono a "Zashi" descrivono la stessa linea di portafogli.
 
 ---
 
-## Parte 5 — Wallet mobili e hardware wallet
+## Parte 5 — Portafogli mobili e portafogli hardware
 
 La verifica funziona in modo diverso quando si esce dai download diretti.
 
@@ -445,14 +445,14 @@ La verifica funziona in modo diverso quando si esce dai download diretti.
 
 **APK Android standalone.** Questi *possono* essere verificati. ZODL pubblica binari Android standalone firmati con GPG tramite GitHub Releases, quindi si applica il flusso della Parte 2. Preferisci questo percorso se vuoi una catena verificabile.
 
-**Hardware wallet.** Il dispositivo attesta il proprio firmware, quindi l'ancora di fiducia è l'hardware, non un file sulla tua macchina. Vedi [Keystone Zashi](/guides/keystone-zashi) per il flusso di verifica del dispositivo. Acquista direttamente dal produttore: le manomissioni della supply chain avvengono tra la fabbrica e l'acquirente.
+**Portafogli hardware.** Il dispositivo attesta il proprio firmware, quindi l'ancora di fiducia è l'hardware, non un file sulla tua macchina. Vedi [Keystone Zashi](/guides/keystone-zashi) per il flusso di verifica del dispositivo. Acquista direttamente dal produttore: le manomissioni della supply chain avvengono tra la fabbrica e l'acquirente.
 
 ---
 
 ## Ulteriori letture
 
 - [Sicurezza dell'ecosistema Zcash](/zcash-community/zcash-ecosystem-security) — policy di divulgazione e contatti di sicurezza
-- [Nodo completo Zebra](/zcash-tech/zebra-full-node) — installare Zebra dopo averlo verificato
+- [Full node Zebra](/zcash-tech/zebra-full-node) — installare Zebra dopo averlo verificato
 - [Guida rapida di riferimento a Zallet](/using-zcash/zallet-quick-reference-guide) — usare Zallet
 - [Documentazione Sigstore](https://docs.sigstore.dev/)
 - [Livelli di provenance SLSA](https://slsa.dev/)

@@ -23,7 +23,7 @@ Prova Interattiva Oracolo Polinomiale: il verificatore chiede al prover (algorit
 
 Gli ZK-SNARKs si basano su una stringa di riferimento comune (CRS) come parametro pubblico per la generazione e la verifica delle prove. Questa CRS deve essere generata in anticipo da una parte fidata. Fino a poco tempo fa, elaborate computazioni sicure multi-parte (MPC) — come quelle eseguite dalla rete Aztec e da Zcash — erano necessarie per mitigare i rischi connessi a questa [cerimonia di trusted setup](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
 
-In precedenza, i pool Shielded Sprout e Sapling di Zcash utilizzavano i sistemi di prova zk BCTV14 e Groth 16. Sebbene sicuri, presentavano delle limitazioni: non erano scalabili poiché legati a una singola applicazione, i "rifiuti tossici" (residui del materiale crittografico generato durante la cerimonia genesi) potevano persistere, e gli utenti dovevano accordare un certo grado di fiducia (seppur minimo) alla cerimonia.
+In precedenza, le pool schermate Sprout e Sapling di Zcash utilizzavano i sistemi zk di prova BCTV14 e Groth 16. Sebbene sicuri, presentavano delle limitazioni: non erano scalabili poiché legati a una singola applicazione, i "rifiuti tossici" (residui del materiale crittografico generato durante la cerimonia genesi) potevano persistere, e gli utenti dovevano accordare un certo grado di fiducia (seppur minimo) alla cerimonia.
 
 Collassando ripetutamente molteplici istanze di problemi difficili l'una sull'altra attraverso cicli di curve ellittiche — in modo che le prove computazionali possano ragionare su sé stesse in modo efficiente (ammortizzazione annidata) — viene eliminata la necessità di un trusted setup. Ciò significa inoltre che la stringa di riferimento strutturata (output della cerimonia) è aggiornabile, abilitando applicazioni come gli smart contract.
 
@@ -67,11 +67,11 @@ Il più efficiente di questi nuovi protocolli è PLONK, che offre enorme flessib
 
 ### Quali benefici porta a Zcash?
 
-Il pool Shielded Orchard è stato attivato con NU5 ed è l'implementazione di questo nuovo sistema di prove sulla rete Zcash. Protetto dallo stesso design a tornello utilizzato tra Sprout e Sapling, con l'intento di ritirare gradualmente i pool Shielded più vecchi. Questo incentiva la migrazione verso un sistema di prove completamente privo di fiducia, rafforzando la fiducia nella solidità della base monetaria e riducendo la complessità implementativa e la superficie di attacco di Zcash nel complesso. A seguito dell'attivazione di NU5 a metà 2022, l'integrazione di prove ricorsive è diventata possibile (sebbene non ancora completata). Sono stati apportati anche diversi miglioramenti alla privacy in modo collaterale. L'introduzione delle "Actions" in sostituzione degli input/output ha contribuito a ridurre la quantità di metadati delle transazioni.
+La pool schermata Orchard è stata attivata con NU5 ed è l'implementazione di questo nuovo sistema di prove sulla rete Zcash. Protetta dallo stesso design del turnstile utilizzato tra Sprout e Sapling, con l'intento di ritirare gradualmente le pool schermate più vecchie. Questo incentiva la migrazione verso un sistema di prove completamente privo di fiducia, rafforzando la fiducia nella solidità della base monetaria e riducendo la complessità implementativa e la superficie di attacco di Zcash nel complesso. A seguito dell'attivazione di NU5 a metà 2022, l'integrazione di prove ricorsive è diventata possibile (sebbene non ancora completata). Sono stati apportati anche diversi miglioramenti alla privacy in modo collaterale. L'introduzione delle "Actions" in sostituzione degli input/output ha contribuito a ridurre la quantità di metadati delle transazioni.
 
 I trusted setup sono generalmente difficili da coordinare e rappresentano un rischio sistemico. Sarebbe necessario ripeterli ad ogni aggiornamento importante del protocollo. La loro rimozione costituisce un miglioramento sostanziale per l'implementazione sicura dei nuovi aggiornamenti del protocollo.
 
-La composizione ricorsiva delle prove ha il potenziale di comprimere quantità illimitate di calcolo, creare sistemi distribuiti verificabili e rendere Zcash altamente capace, in particolare con il passaggio al Proof of Stake. Questo è utile anche per estensioni come Zcash Shielded Assets e per migliorare la capacità del Layer 1 nell'utilizzo più intenso dei nodi completi nei prossimi anni per Zcash.
+La composizione ricorsiva delle prove ha il potenziale di comprimere quantità illimitate di calcolo, creare sistemi distribuiti verificabili e rendere Zcash altamente capace, in particolare con il passaggio al Proof of Stake. Questo è utile anche per estensioni come Zcash Shielded Assets e per migliorare la capacità del Layer 1 agli alti livelli di utilizzo dei full node (nodi completi) nei prossimi anni per Zcash.
 
 
 ## Halo nell'ecosistema più ampio
@@ -86,7 +86,7 @@ Dal suo deployment, la libreria halo2 è stata adottata in progetti come lo zkEV
 
 [Video della Filecoin Foundation con Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw)
 
-Sarebbe inoltre molto vantaggioso per entrambi gli ecosistemi Filecoin e Zcash se i pagamenti per lo storage su Filecoin potessero essere effettuati in ZEC, garantendo lo stesso livello di privacy per gli acquisti di storage che esiste nei trasferimenti Shielded di Zcash. Questo supporto consentirebbe di cifrare i file nell'archiviazione Filecoin e di aggiungere supporto ai client mobile affinché possano **allegare** media o file a un Memo cifrato di Zcash.
+Sarebbe inoltre molto vantaggioso per entrambi gli ecosistemi Filecoin e Zcash se i pagamenti per lo storage su Filecoin potessero essere effettuati in ZEC, garantendo lo stesso livello di privacy per gli acquisti di storage che esiste nelle transazioni schermate di Zcash. Questo supporto consentirebbe di crittografare i file nell'archiviazione Filecoin e di aggiungere supporto ai client mobili affinché possano **allegare** media o file a un memo crittografato di Zcash.
 
 [Post del blog ECC x Filecoin](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
 

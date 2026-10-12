@@ -19,7 +19,7 @@ Immagina che il tuo estratto conto fosse inchiodato a un muro nella piazza del p
 
 Non è un'ipotesi distopica. **È più o meno così che funziona Bitcoin.**
 
-Bitcoin viene spesso definito "anonimo", ma non lo è. È *pseudonimo*: il tuo nome non compare nel registro, ma ogni transazione, importo e collegamento tra indirizzi è pubblico e permanente. L'intero settore della "analisi della catena" esiste per smascherare quel sottile pseudonimo e collegare gli indirizzi a persone reali. Una volta che uno dei tuoi indirizzi viene collegato a te, la tua storia finanziaria si dipana.
+Bitcoin viene spesso definito "anonimo", ma non lo è. È *pseudonimo*: il tuo nome non compare nel registro, ma ogni transazione, importo e collegamento tra indirizzi è pubblico e permanente. L'intero settore dell'"analisi della chain" esiste per smascherare quel sottile pseudonimo e collegare gli indirizzi a persone reali. Una volta che uno dei tuoi indirizzi viene collegato a te, la tua storia finanziaria si dipana.
 
 Zcash è stato costruito per rispondere a una domanda ingannevolmente difficile:
 
@@ -140,7 +140,7 @@ Nota l'asimmetria che fa funzionare la privacy:
 - **La nuova nota di Bob** nasce tramite un fresco *commitment* sulla bacheca.
 - Per chiunque osservi, questi due eventi non hanno **alcuna connessione visibile.** La traccia del denaro si raffredda.
 
-> **Come fa Bob a sapere persino di essere stato pagato?** La sua nota è cifrata *con la sua chiave*. Lui scansiona continuamente la bacheca e solo le *sue* buste si aprono per lui, come avere l'unica chiave che combacia con uno specifico insieme di serrature. Il meccanismo dietro tutto questo sono le **viewing key**, un argomento successivo.
+> **Come fa Bob a sapere persino di essere stato pagato?** La sua nota è crittografata *con la sua chiave*. Lui scansiona continuamente la bacheca e solo le *sue* buste si aprono per lui, come avere l'unica chiave che combacia con uno specifico insieme di serrature. Il meccanismo dietro tutto questo sono le **chiavi di visualizzazione**, un argomento successivo.
 
 ---
 
@@ -169,7 +169,7 @@ Se comprendi questa sola idea, comprendi perché Zcash è privato. Leggila lenta
 
 Quindi un osservatore esterno vede un flusso di buste che compaiono e un flusso di gettoni di annullamento che compaiono, ma **non può accoppiarli**. Non può dire "il gettone di annullamento lasciato oggi corrisponde alla busta appesa lo scorso marzo". Il collegamento esiste *solo* all'interno della conoscenza segreta del proprietario della nota, e la zero-knowledge proof conferma che il collegamento è valido *senza rivelarlo.*
 
-Quel collegamento spezzato è ciò di cui le aziende di analisi della catena si nutrono in Bitcoin, ed è ciò che Zcash recide deliberatamente.
+Quel collegamento spezzato è ciò di cui le aziende di analisi della chain si nutrono in Bitcoin, ed è ciò che Zcash recide deliberatamente.
 
 > **Metti alla prova la tua intuizione:** Se i nullifier fossero invece calcolati *solo* a partire dalla nota (senza alcuna chiave segreta coinvolta), quale delle tre proprietà della Sezione 5 verrebbe meno, e perché ciò distruggerebbe silenziosamente la privacy? *(Risposta alla fine.)*
 

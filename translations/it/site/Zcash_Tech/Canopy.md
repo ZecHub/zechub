@@ -34,9 +34,9 @@ Misurate rispetto all’intera block reward invece che solo rispetto al fondo, q
 
 ## La modifica al pool Sprout
 
-Canopy ha anche iniziato il ritiro del pool shielded più vecchio. Sprout è stato il primo pool shielded di Zcash, e Canopy ha iniziato a dismetterlo gradualmente tramite [ZIP 211](https://zips.z.cash/zip-0211).
+Canopy ha anche iniziato a dismettere la pool schermata più vecchia. Sprout è stata la prima pool schermata di Zcash, e Canopy ha iniziato a dismetterla gradualmente tramite [ZIP 211](https://zips.z.cash/zip-0211).
 
-Dal momento in cui Canopy si è attivato, nessun nuovo valore può essere aggiunto al pool Sprout. In termini tecnici, il campo vpub_old di ogni JoinSplit deve essere zero. I fondi già presenti in Sprout possono ancora essere prelevati, quindi nessuno resta bloccato fuori, ma da qui in avanti il pool può solo ridursi. Questo è un primo passo verso la futura dismissione del vecchio pool Sprout a favore di pool shielded più recenti.
+Dal momento in cui Canopy si è attivato, nessun nuovo valore può essere aggiunto alla pool Sprout. In termini tecnici, il campo vpub_old di ogni JoinSplit deve essere zero. I fondi già presenti nella pool Sprout possono ancora essere prelevati, quindi nessuno perde l'accesso, ma da qui in avanti la pool può solo ridursi. Questo è un primo passo verso la futura dismissione della pool Sprout legacy a favore di pool schermate più recenti.
 
 ![Prima di Canopy, il valore poteva sia entrare sia uscire dal pool Sprout. Dopo Canopy, nessun nuovo valore può entrare ma i prelievi sono ancora consentiti](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
@@ -53,11 +53,11 @@ Oltre ai cambiamenti nei finanziamenti, Canopy includeva due ZIP tecniche minori
 | Block reward (subsidy) | I nuovi ZEC creati e distribuiti ogni volta che viene minato un blocco |
 | Halving | L’evento programmato in cui la block reward viene dimezzata |
 | Funding stream | Il meccanismo di consenso (ZIP 207) che indirizza parte della block subsidy verso indirizzi destinatari definiti |
-| Sprout pool | Il pool shielded originale di Zcash, nel quale Canopy ha smesso di accettare nuovo valore |
+| Sprout pool | La pool schermata originale di Zcash, in cui Canopy ha smesso di accettare nuovo valore |
 
 ## FAQ
 
-Canopy cambia i miei ZEC o la mia privacy? No. Canopy riguarda il modo in cui viene finanziato lo sviluppo, oltre ad alcune regole tecniche. I tuoi saldi e le tue transazioni shielded non vengono influenzati.
+Canopy cambia i tuoi ZEC o la tua privacy? No. Canopy riguarda il modo in cui viene finanziato lo sviluppo, oltre ad alcune regole tecniche. I tuoi saldi e le tue transazioni schermate restano invariati.
 
 Canopy ha tagliato la block reward? Canopy si è attivato nello stesso blocco del primo halving di Zcash, che ha ridotto la ricompensa da 6,25 ZEC a 3,125 ZEC. L’halving fa parte della politica monetaria di Zcash. Il compito di Canopy era decidere come utilizzare una quota di quella ricompensa più piccola.
 
@@ -101,7 +101,7 @@ Il founders reward originale era previsto per terminare al primo halving. Senza 
 
 [Politica monetaria di Zcash](../start-here/zcash-monetary-policy)
 
-[Pool shielded](../using-zcash/shielded-pools)
+[Pool schermate](../using-zcash/shielded-pools)
 
 [NU6.1](../zcash-tech/nu6-1)
 

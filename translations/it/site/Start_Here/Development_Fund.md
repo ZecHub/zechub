@@ -42,7 +42,7 @@ Poiché il lockbox del fondo di sviluppo è differito (il che significa che i fo
 
 [Sondaggio ZCAP sul Lockbox](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
 
-[Istituzione di un Fondo di Sviluppo per ECC, ZF e Sovvenzioni Maggiori](https://zips.z.cash/zip-1014)
+[Istituzione di un fondo di sviluppo per ECC, ZF e finanziamenti principali](https://zips.z.cash/zip-1014)
 
 [Sviluppo e governance di Zcash](https://z.cash/zcash-development-and-governance/)
 

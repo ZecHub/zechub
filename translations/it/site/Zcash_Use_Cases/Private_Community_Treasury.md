@@ -49,7 +49,7 @@ Zcash permette alle comunità di:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
-- Un wallet Zcash (o più wallet per la separazione dei ruoli)
+- Un portafoglio Zcash (o più portafogli per la separazione dei ruoli)
 - Processi interni chiari per la gestione dei fondi
 - Opzionale: documentazione condivisa per il tracciamento
 
@@ -77,14 +77,14 @@ Evita di collegare questi ruoli a identità pubbliche.
 ### Passo 3: Ricevi fondi in modo privato
 
 - Accetta i contributi tramite l'indirizzo schermato
-- Incoraggia i contributori a inviare da wallet schermati
+- Incoraggia i contributori a inviare da portafogli schermati
 
 
 
 ### Passo 4: Traccia le transazioni internamente
 
 Usa:
-- Memo dei wallet
+- Memo dei portafogli
 - Registri off-chain (es. documenti condivisi)
 
 Esempio di memo: 
@@ -102,7 +102,7 @@ Esempio di memo:
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Errori comuni da evitare
 
 - Usare indirizzi transparent per la tesoreria  
-- Pubblicare pubblicamente i saldi dei wallet  
+- Pubblicare pubblicamente i saldi dei portafogli  
 - Non tracciare le transazioni internamente  
 - Collegare l'indirizzo della tesoreria a individui identificabili  
 
