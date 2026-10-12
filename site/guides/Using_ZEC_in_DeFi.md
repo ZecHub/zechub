@@ -5,17 +5,17 @@
 # Using Zcash in DeFi
 
 
-## Near Intents 
+## NEAR Intents 
 
-Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) with other top altcoins, including Bitcoin, Solana, NEAR, and XRP, without paying any fees. This integration is part of NEAR Protocol's efforts to create an infrastructure of autonomous and verifiable AI bots, which also brings benefits to Zcash by enabling AI-powered payment rails. Zcash users are now capable of accessing smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) while preserving their privacy via [Near Intents](https://app.near-intents.org).
+Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) with other top altcoins, including Bitcoin, Solana, NEAR, and XRP, without paying any fees. This integration is part of NEAR Protocol's efforts to create an infrastructure of autonomous and verifiable AI bots, which also brings benefits to Zcash by enabling AI-powered payment rails. Zcash users are now capable of accessing smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) while preserving their privacy via [NEAR Intents](https://app.near-intents.org).
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+<div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
-    className="w-full h-full"
+    class="w-full h-full"
     src="https://www.youtube.com/embed/mKVvXY4yjjA"
-    title="Crosschain Swaps with Zcash x Near Intents"
+    title="Crosschain Swaps with Zcash x NEAR Intents"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
+    allowfullscreen
     loading="lazy"
   />
 </div>
@@ -27,13 +27,13 @@ Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) 
 Maya Protocol has integrated Zcash to enhance its decentralization, liquidity, and transaction privacy. This integration allows Zcash users to benefit from decentralized swaps, giving them greater flexibility and liquidity while preserving privacy. Learn More: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
 
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+<div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
-    className="w-full h-full"
+    class="w-full h-full"
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
     title="How to Swap Ethereum to Zcash on LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
+    allowfullscreen
     loading="lazy"
   />
 </div>
@@ -68,8 +68,8 @@ Interoperability is a critical component in the development of DeFi because it a
 
 Learn More On : [ZenRock Bridge Learn](https://docs.zenrocklabs.io/)
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss ZCASH on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ---
@@ -89,8 +89,8 @@ Protocols such as [Meteora](https://www.meteora.ag/), [Orca](https://www.orca.so
 
 This integration combines Zcash’s privacy advantages with the speed and efficiency of the Solana network, creating new use cases for private assets within the modern DeFi ecosystem.
 
-Learn More On: </br> 1. [Meteora Learn](https://docs.meteora.ag/get-started). </br>
-               2. [Orca Learn](https://docs.orca.so/developers/overview). </br>
+Learn More On: <br> 1. [Meteora Learn](https://docs.meteora.ag/get-started). <br>
+               2. [Orca Learn](https://docs.orca.so/developers/overview). <br>
                3. [Raydium Learn](https://docs.raydium.io/).
 
 ---
@@ -110,7 +110,7 @@ This integration offers several benefits for the Zcash ecosystem:
 - Enhanced interoperability with other blockchain assets;
 - Expanded use of ZEC within the multichain DeFi ecosystem.
 
-Learn More on: </br> 1. [THORChain Vision](https://thorchain.org/vision) </br>
+Learn More on: <br> 1. [THORChain Vision](https://thorchain.org/vision) <br>
                2. [THORSwap Learn](https://docs.thorswap.finance/thorswap)
 
 ---
@@ -135,7 +135,7 @@ Through the [Base network](https://www.base.org/), cbZEC serves as a representat
 
 [The integration](https://x.com/base/status/2094848959986409953?s=20) of cbZEC into various Base DeFi platforms expands Zcash’s utility from merely a payment asset to one that can be used in a wide range of decentralized financial activities.
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+<div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NcOQH5OeV7I?si=IPB1OElBsYj1AUt9" title="Coinbase Wrapped (ZEC CBZEC) Token Analysis" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
