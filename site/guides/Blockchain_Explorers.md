@@ -78,6 +78,9 @@ The takeaway: privacy depends on staying inside the shielded pools. Once funds t
 
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
+
 
 ### Visual Guide
 
