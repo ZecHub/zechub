@@ -1,20 +1,157 @@
 {
   "locale": "it",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Italian",
     "native_name": "Italiano",
     "engine": "llm",
     "script": "Latn",
     "dir": "ltr",
-    "language_lead": [],
-    "last_review": null
+    "language_lead": [
+      "Gianni"
+    ],
+    "last_review": "2026-10-12"
   },
   "style": {
     "variety": "natural, fluent Italian",
-    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Italian usage; do not force awkward coinages."
+    "register": {
+      "default": "tu",
+      "ui": "tu",
+      "text": {
+        "tu": "Address the reader informally with \"tu\" (imperative and verbs in the second person singular). Never use \"Lei\" or \"voi\"."
+      }
+    },
+    "english_in_brackets": "first-use",
+    "loanwords": "keep-english",
+    "loanwords_text": "Common technical loanwords (e.g. blockchain, token, bridge, smart contract) stay in English where that is the natural Italian usage; do not force awkward coinages. The terminology list below wins over this rule (wallet → portafoglio).",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ",",
+    "quotes": "straight double quotes \"…\"",
+    "abbreviations_with_full_stop": [
+      "es",
+      "ecc",
+      "p.es"
+    ],
+    "writing_rules": [
+      "Use sentence case in headings, titles and terms, not English Title Case (\"Configurazione fidata\", not \"Configurazione Fidata\").",
+      "Use the articles \"uno\" / \"gli\" before z-, s + consonant, ps- and gn-, also with English terms and acronyms (uno zk-SNARK, gli ZEC, gli exchange).",
+      "Use Italian word order around names (\"la documentazione di Valar Group\", not \"Valar Group documentazione\").",
+      "English terms kept in English do not take a plural -s (gli exchange, gli zk-SNARK, le pool). Italian words take the Italian plural (portafoglio → portafogli).",
+      "Lowercase after a colon, unless a proper name follows.",
+      "Avoid calques of English: \"una delle uniche\" (one of the only), \"con nessuna … richiesta\", \"componenti mobili\" (moving parts)."
+    ]
   },
   "terms": {
+    "wallet": {
+      "target": "portafoglio",
+      "forms": [
+        "portafoglio",
+        "portafogli"
+      ],
+      "rejected": [
+        {
+          "text": "wallet"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-1"
+    },
+    "shielded": {
+      "target": "schermato",
+      "forms": [
+        "schermato",
+        "schermata",
+        "schermati",
+        "schermate"
+      ],
+      "examples": [
+        "indirizzo schermato",
+        "transazione schermata",
+        "pool schermata",
+        "le pool schermate"
+      ],
+      "rejected": [
+        {
+          "text": "protetto",
+          "word": true
+        },
+        {
+          "text": "protetta",
+          "word": true
+        }
+      ],
+      "context": "Use \"schermato/a/i/e\" in prose. \"Shielded\" stays English only inside names (Shielded Labs, Shielded Coinholder Voting).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-2"
+    },
+    "transaction": {
+      "target": "transazione",
+      "forms": [
+        "transazione"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-3"
+    },
+    "privacy": {
+      "target": "privacy",
+      "keep_english": true,
+      "forms": [
+        "privacy",
+        "Privacy"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-5"
+    },
+    "pool": {
+      "target": "pool",
+      "keep_english": true,
+      "forms": [
+        "pool",
+        "Pool"
+      ],
+      "context": "\"pool\" is feminine in Italian: \"la pool\", \"le pool\", \"pool schermata\", \"le pool schermate\", \"la pool trasparente\".",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-6"
+    },
+    "proof": {
+      "target": "prova",
+      "forms": [
+        "prova"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-9"
+    },
     "node": {
       "target": "nodo",
       "forms": [
@@ -34,6 +171,7 @@
         }
       ],
       "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
+      "context": "A plain node is \"nodo\" / \"nodi\". Exception: \"full node\" stays in English (see full node).",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
@@ -41,6 +179,1840 @@
       ],
       "reviewed_at": "2026-10-10",
       "source": "prompt_head_it.txt"
+    },
+    "transparent": {
+      "target": "trasparente",
+      "forms": [
+        "trasparente"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-12"
+    },
+    "exchange": {
+      "target": "exchange",
+      "keep_english": true,
+      "forms": [
+        "exchange",
+        "exchanges",
+        "Exchange",
+        "Exchanges"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-16"
+    },
+    "memo": {
+      "target": "memo",
+      "keep_english": true,
+      "forms": [
+        "memo",
+        "memos",
+        "Memo",
+        "Memos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-20"
+    },
+    "viewing-key": {
+      "target": "chiavi di visualizzazione",
+      "forms": [
+        "chiavi di visualizzazione",
+        "chiave di visualizzazione"
+      ],
+      "rejected": [
+        {
+          "text": "viewing key"
+        }
+      ],
+      "context": "Italian uses the plural even for one key (like \"le chiavi di casa\"): \"chiavi di visualizzazione\". The singular \"chiave di visualizzazione\" is fine when the sentence counts keys.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-28"
+    },
+    "fee": {
+      "target": "commissione",
+      "forms": [
+        "commissione"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-23"
+    },
+    "swap": {
+      "target": "scambio",
+      "forms": [
+        "scambio"
+      ],
+      "rejected": [
+        {
+          "text": "swap"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-24"
+    },
+    "custodial": {
+      "target": "custodial",
+      "keep_english": true,
+      "forms": [
+        "custodial",
+        "Custodial",
+        "non custodial",
+        "Non custodial",
+        "custodia di terzi",
+        "autocustodia"
+      ],
+      "context": "Keep \"custodial\" / \"non custodial\" in English; at the first use on a page add the Italian in brackets: \"custodial (custodia di terzi)\". \"self-custody\" is \"autocustodia\". Never render \"custodial\" as \"autocustodia\" (opposite meaning).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-17"
+    },
+    "zero-knowledge": {
+      "target": "a conoscenza zero",
+      "forms": [
+        "a conoscenza zero",
+        "conoscenza zero"
+      ],
+      "context": "As an adjective: \"prova a conoscenza zero\", \"prove a conoscenza zero\". As a noun or in titles: \"conoscenza zero\".",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-22"
+    },
+    "network-upgrade": {
+      "target": "aggiornamento di rete",
+      "forms": [
+        "aggiornamento di rete"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-31"
+    },
+    "mining": {
+      "target": "mining",
+      "keep_english": true,
+      "forms": [
+        "mining",
+        "Mining",
+        "mined",
+        "mine"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-27"
+    },
+    "miner": {
+      "target": "miner",
+      "keep_english": true,
+      "forms": [
+        "miner",
+        "miners",
+        "Miner",
+        "Miners"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-38"
+    },
+    "full-node": {
+      "target": "full node",
+      "keep_english": true,
+      "forms": [
+        "full node",
+        "full nodes",
+        "Full node",
+        "Full Node",
+        "nodo completo"
+      ],
+      "context": "Keep \"full node\" in English (no plural -s); at the first use on a page add the Italian in brackets: \"full node (nodo completo)\". A plain \"node\" is \"nodo\".",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-34"
+    },
+    "turnstile": {
+      "target": "turnstile",
+      "keep_english": true,
+      "forms": [
+        "turnstile",
+        "turnstiles",
+        "Turnstile",
+        "Turnstiles"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-36"
+    },
+    "spending-key": {
+      "target": "chiavi di spesa",
+      "forms": [
+        "chiavi di spesa",
+        "chiave di spesa"
+      ],
+      "rejected": [
+        {
+          "text": "spending key"
+        }
+      ],
+      "context": "As for viewing keys: \"chiavi di spesa\", singular only when the sentence counts keys.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-42"
+    },
+    "seed-phrase": {
+      "target": "frase mnemonica",
+      "forms": [
+        "frase mnemonica"
+      ],
+      "rejected": [
+        {
+          "text": "frase seed"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-46"
+    },
+    "light-client": {
+      "target": "light client",
+      "keep_english": true,
+      "forms": [
+        "light client",
+        "light clients",
+        "Light client",
+        "Light Client"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-50"
+    },
+    "token": {
+      "target": "token",
+      "keep_english": true,
+      "forms": [
+        "token",
+        "tokens",
+        "Token",
+        "Tokens"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-26"
+    },
+    "chain": {
+      "target": "chain",
+      "keep_english": true,
+      "forms": [
+        "chain",
+        "chains",
+        "Chain"
+      ],
+      "context": "Keep \"chain\" in English, like on-chain, cross-chain and blockchain.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "cross-chain",
+      "keep_english": true,
+      "forms": [
+        "cross-chain",
+        "Cross-chain",
+        "Cross-Chain"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-47"
+    },
+    "faucet": {
+      "target": "faucet",
+      "keep_english": true,
+      "forms": [
+        "faucet",
+        "faucets",
+        "Faucet",
+        "Faucets"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-54"
+    },
+    "developer": {
+      "target": "sviluppatore",
+      "forms": [
+        "sviluppatore"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-32"
+    },
+    "dashboard": {
+      "target": "dashboard",
+      "keep_english": true,
+      "forms": [
+        "dashboard",
+        "dashboards",
+        "Dashboard",
+        "Dashboards"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-48"
+    },
+    "visualizer": {
+      "target": "visualizzatore",
+      "forms": [
+        "visualizzatore"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-62"
+    },
+    "use-case": {
+      "target": "caso d'uso",
+      "forms": [
+        "caso d'uso"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-49"
+    },
+    "brand": {
+      "target": "brand",
+      "keep_english": true,
+      "forms": [
+        "brand",
+        "brands",
+        "Brand",
+        "Brands"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-61"
+    },
+    "treasury": {
+      "target": "tesoreria",
+      "forms": [
+        "tesoreria"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-56"
+    },
+    "top-up": {
+      "target": "ricarica",
+      "forms": [
+        "ricarica"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-57"
+    },
+    "tools": {
+      "target": "strumenti",
+      "forms": [
+        "strumenti"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-25"
+    },
+    "newsletter": {
+      "target": "newsletter",
+      "keep_english": true,
+      "forms": [
+        "newsletter",
+        "newsletters",
+        "Newsletter",
+        "Newsletters"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-44"
+    },
+    "address": {
+      "target": "indirizzo",
+      "forms": [
+        "indirizzo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-4"
+    },
+    "block": {
+      "target": "blocco",
+      "forms": [
+        "blocco"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-7"
+    },
+    "blockchain": {
+      "target": "blockchain",
+      "keep_english": true,
+      "forms": [
+        "blockchain",
+        "Blockchain",
+        "blockchains",
+        "Blockchains"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-15"
+    },
+    "signature": {
+      "target": "firma",
+      "forms": [
+        "firma"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-19"
+    },
+    "commitment": {
+      "target": "commitment",
+      "keep_english": true,
+      "forms": [
+        "commitment",
+        "Commitment",
+        "commitments",
+        "Commitments"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-18"
+    },
+    "nullifier": {
+      "target": "nullifier",
+      "keep_english": true,
+      "forms": [
+        "nullifier",
+        "Nullifier",
+        "nullifiers",
+        "Nullifiers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-37"
+    },
+    "note": {
+      "target": "nota",
+      "forms": [
+        "nota"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "trusted setup",
+      "keep_english": true,
+      "forms": [
+        "trusted setup",
+        "Trusted setup",
+        "trusted setups",
+        "Trusted setups"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-43"
+    },
+    "consensus": {
+      "target": "consenso",
+      "forms": [
+        "consenso"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-29"
+    },
+    "governance": {
+      "target": "governance",
+      "keep_english": true,
+      "forms": [
+        "governance",
+        "Governance"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-35"
+    },
+    "grant": {
+      "target": "finanziamento",
+      "forms": [
+        "finanziamento",
+        "finanziamenti"
+      ],
+      "rejected": [
+        {
+          "text": "sovvenzione",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "sovvenzioni",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "context": "Funding given to a project. Names stay English: \"Zcash Community Grants\".",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-21"
+    },
+    "halving": {
+      "target": "halving",
+      "keep_english": true,
+      "forms": [
+        "halving",
+        "Halving",
+        "halvings",
+        "Halvings"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-41"
+    },
+    "staking": {
+      "target": "staking",
+      "keep_english": true,
+      "forms": [
+        "staking",
+        "Staking",
+        "stake",
+        "Stake",
+        "stakes",
+        "Stakes",
+        "staked",
+        "Staked"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-40"
+    },
+    "finalizer": {
+      "target": "finalizer",
+      "keep_english": true,
+      "forms": [
+        "finalizer",
+        "Finalizer",
+        "finalizers",
+        "Finalizers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-59"
+    },
+    "bond": {
+      "target": "vincolo",
+      "forms": [
+        "vincolo"
+      ],
+      "rejected": [
+        {
+          "text": "bond"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-52"
+    },
+    "encryption": {
+      "target": "crittografia",
+      "forms": [
+        "crittografia"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-14"
+    },
+    "decentralized": {
+      "target": "decentralizzato",
+      "forms": [
+        "decentralizzato"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-30"
+    },
+    "on-chain": {
+      "target": "on-chain",
+      "keep_english": true,
+      "forms": [
+        "on-chain",
+        "On-chain",
+        "off-chain",
+        "Off-chain",
+        "onchain",
+        "Onchain",
+        "offchain",
+        "Offchain"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-33"
+    },
+    "bridge": {
+      "target": "bridge",
+      "keep_english": true,
+      "forms": [
+        "bridge",
+        "Bridge",
+        "bridges",
+        "Bridges"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-39"
+    },
+    "payment": {
+      "target": "pagamento",
+      "forms": [
+        "pagamento"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "smart contract",
+      "keep_english": true,
+      "forms": [
+        "smart contract",
+        "Smart contract",
+        "smart contracts",
+        "Smart contracts"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-51"
+    },
+    "unlinkable": {
+      "target": "non collegabile",
+      "forms": [
+        "non collegabile"
+      ],
+      "rejected": [
+        {
+          "text": "scollegabile",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "scollegabili",
+          "word": true,
+          "ci": true
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-60"
+    },
+    "permissionless": {
+      "target": "senza permessi",
+      "forms": [
+        "senza permessi"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-58"
+    },
+    "scaling": {
+      "target": "scalabilità",
+      "forms": [
+        "scalabilità"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-45"
+    },
+    "selective-disclosure": {
+      "target": "divulgazione selettiva",
+      "forms": [
+        "divulgazione selettiva"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-55"
+    },
+    "hardware-wallet": {
+      "target": "portafoglio hardware",
+      "forms": [
+        "portafoglio hardware",
+        "portafogli hardware"
+      ],
+      "rejected": [
+        {
+          "text": "hardware wallet"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "glossary-review-it.md#terms-53"
+    }
+  },
+  "phrases": {
+    "Akash Network": {
+      "target": "Akash Network",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-2"
+    },
+    "Avalanche RedBridge": {
+      "target": "Avalanche RedBridge",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-61"
+    },
+    "Brand": {
+      "target": "Brand",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "Plugin BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "Plugin BTCPayServer per Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "Comprare ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-16"
+    },
+    "Community": {
+      "target": "Community",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "Blog della community",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-40"
+    },
+    "Community Forum": {
+      "target": "Forum della community",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "Link della community",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "Progetti della community",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "Contribuisci",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-12"
+    },
+    "Custodial Exchanges": {
+      "target": "Exchange custodial",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-74"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "Dashboard",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-13"
+    },
+    "Developers": {
+      "target": "Sviluppatori",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-10"
+    },
+    "Donate": {
+      "target": "Dona",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-8"
+    },
+    "Donations": {
+      "target": "Donazioni",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "Ecosistema",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "Exchange",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-19"
+    },
+    "Explore": {
+      "target": "Esplora",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-9"
+    },
+    "Extras": {
+      "target": "Extra",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "Faucet",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "Per fork e manutentori",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "Fork di zechub",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork di zechub-wiki",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-53"
+    },
+    "Freelance Privacy": {
+      "target": "Privacy per freelance",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-33"
+    },
+    "Full Explore": {
+      "target": "Esplora tutto",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "Glossario e FAQ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-79"
+    },
+    "Glossary & FAQs": {
+      "target": "Glossario e FAQ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "Governance",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-4"
+    },
+    "Guides": {
+      "target": "Guide",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "Come partecipare",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "Privacy per giornalisti",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "Tenere la contabilità",
+      "rejected": [
+        {
+          "text": "Conservare i registri"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-35"
+    },
+    "Memos": {
+      "target": "Memo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-24"
+    },
+    "More": {
+      "target": "Altro",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "Navigazione",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "Newsletter",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-7"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "Organizzazioni",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-49"
+    },
+    "Overview": {
+      "target": "Panoramica",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "Pagare per l'IA",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-80"
+    },
+    "Payment Request URIs": {
+      "target": "URI di richiesta pagamento",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-26"
+    },
+    "Podcast": {
+      "target": "Podcast",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "Strumenti per la privacy",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "Tesoreria privata della community",
+      "rejected": [
+        {
+          "text": "Tesoreria di comunità privata"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-36"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Nodo Zebra su Raspberry Pi 4",
+      "rejected": [
+        {
+          "text": "Raspberry Pi 4 Zebra Node"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Nodo Zcashd su Raspberry Pi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Nodo Zebra su Raspberry Pi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry Pi 5: Zebra, Lightwalletd, Zingo",
+      "rejected": [
+        {
+          "text": "Raspberry Pi 5 Zebra Lightwalletd Zingo"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "Recuperare fondi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-28"
+    },
+    "Research": {
+      "target": "Ricerca",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-39"
+    },
+    "Send Money Privately": {
+      "target": "Inviare denaro privatamente",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-38"
+    },
+    "Shop": {
+      "target": "Negozio",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "Mappa del sito",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "Inizia qui",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-31"
+    },
+    "Store": {
+      "target": "Negozio",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-44"
+    },
+    "Tools": {
+      "target": "Strumenti",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "Transazioni",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-23"
+    },
+    "Tutorials": {
+      "target": "Tutorial",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "Casi d'uso",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "Usare Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "Usare Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "Usare ZEC nella DeFi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "Usare ZEC in privato",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "Identità visiva",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "Visualizzatore",
+      "rejected": [
+        {
+          "text": "Visualizer"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "Visualizzare la rete Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-66"
+    },
+    "Wallets": {
+      "target": "Portafogli",
+      "rejected": [
+        {
+          "text": "Wallet"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Demo FROST di Ywallet",
+      "rejected": [
+        {
+          "text": "Ywallet FROST Demo"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-63"
+    },
+    "Zcash Community": {
+      "target": "Community Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Sicurezza dell'ecosistema Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-46"
+    },
+    "Zcash Governance": {
+      "target": "Governance di Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Zcash Improvement Proposals",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "Zcash Media",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "Organizzazioni Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-65"
+    },
+    "Zcash Podcasts": {
+      "target": "Podcast su Zcash",
+      "rejected": [
+        {
+          "text": "Podcast Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-45"
+    },
+    "Zcash Social Media": {
+      "target": "Social media di Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-78"
+    },
+    "Zcash Tech": {
+      "target": "Tecnologia Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-76"
+    },
+    "Zcon Archive": {
+      "target": "Archivio Zcon",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Archivio Zcon Vozes",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "Installazione di Zenith",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-70"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Tutorial Zingolib e Zaino",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-69"
+    },
+    "Zkool Multisig": {
+      "target": "Multisig con Zkool",
+      "rejected": [
+        {
+          "text": "Zkool Multisig"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "menus-review-it.md#navigation-62"
     }
   },
   "changelog": [
@@ -52,6 +2024,165 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_it.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-10-12",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [
+        "Akash Network",
+        "Akash Network Zebra",
+        "Avalanche RedBridge",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Brand",
+        "Buying ZEC",
+        "Community",
+        "Community Blogs",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Social Media",
+        "Zcash Tech",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Native review by Gianni (glossary-review-it.md, menus-review-it.md): page terms, menu labels, register, typography and writing rules."
     }
   ]
 }

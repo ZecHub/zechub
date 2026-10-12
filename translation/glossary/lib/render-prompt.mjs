@@ -64,6 +64,7 @@ export function styleLines(glossary) {
   else if (s.numerals) add("numerals", `Numerals: ${s.numerals}.`);
   if (s.decimal_separator) add("decimal_separator", `Use "${s.decimal_separator}" as the decimal separator.`);
   if (s.quotes) add("quotes", `Use ${s.quotes} for quotation marks.`);
+  for (const rule of s.writing_rules ?? []) add("writing_rules", rule);
   return out;
 }
 
