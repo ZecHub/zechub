@@ -219,6 +219,7 @@
   "guides/Ywallet_FROST_Demo.md": "Ywallet FROST demo",
   "guides/Zcash_Devtool.md": "The Zcash Devtool",
   "guides/Zcash_Improvement_Proposals.md": "Zcash Improvement Proposals",
+  "guides/Zcash_Node_RPC_and_Indexing.md": "Practical Guide: Zcash Node RPC and Blockchain Indexing",
   "guides/Zenith_Installation.md": "Zenith GUI Full Node Wallet Installation",
   "guides/Zero-Knowledge_vs_Decoys.md": "Zero Knowledge vs Decoy based Systems",
   "guides/Zgo_Payment_Processor.md": "ZGo Payment Processor: Accepting Zcash Without Custody",
