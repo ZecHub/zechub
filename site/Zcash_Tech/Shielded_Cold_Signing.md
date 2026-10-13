@@ -672,5 +672,3 @@ https://forum.zcashcommunity.com/t/ironwood-is-here-updated-wallets-libraries-au
 ### The evolution in one picture
 
 ![The evolution in one picture](/content-images/orchard-to-ironwood-evolution.webp)
-
-```
