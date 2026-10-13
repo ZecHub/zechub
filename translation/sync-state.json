@@ -16071,7 +16071,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
@@ -17015,7 +17015,7 @@
       "src_commit": "c268c82cc28daf1cf8e4d935240e6522211a88e6",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
@@ -17023,7 +17023,7 @@
       "src_commit": "24143b85c49e3a533470d21cd1df106b6dae0e02",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -17551,7 +17551,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Centralized_Swaps.md": {
@@ -17631,7 +17631,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Solana_ZEC_to_Shielded.md": {
@@ -17655,7 +17655,7 @@
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "guides/Mining_and_Staking_Privacy.md": {

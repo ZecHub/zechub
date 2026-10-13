@@ -140,7 +140,7 @@ Nel sondaggio di opinione Zcash Foundation di NU7 (febbraio 2026), la recuperabi
 
 - [Sicurezza post-quantum in Zcash](/zcash-tech/post-quantum-security)
 - [Ironwood](/zcash-tech/ironwood)
-- [Il tornello](/zcash-tech/the-turnstile)
+- [Il turnstile](/zcash-tech/the-turnstile)
 - [Progetto Tachyon](/zcash-tech/project-tachyon)
 - [FROST](/zcash-tech/frost)
 - [Pool schermate](/using-zcash/shielded-pools)

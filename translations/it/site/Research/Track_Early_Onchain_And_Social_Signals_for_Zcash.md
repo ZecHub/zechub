@@ -19,15 +19,15 @@ Secondo la Messari ZEC Dashboard, CoinMetrics e Blockchair, l'analisi dell'attiv
 I dati di Blockchair mostrano che la quota di ZEC detenuta in indirizzi schermati è salita da circa il 18% al 20% durante la stessa finestra, indicando un crescente utilizzo di transazioni che tutelano la privacy.  (Vedi Figura 1)
 
 # Figura 1. Quota di ZEC detenuta in Indirizzi Schermati - Luglio 2025
-(Fonte: Blockchair (2025). Percentuale di offerta schermata per il 1-22 luglio 2025.)
+(Fonte: Blockchair (2025). Percentuale di ZEC nelle pool schermate per il 1-22 luglio 2025.)
 
-Inoltre, le serie pubbliche di rete di CoinMetrics confermano che sia gli indirizzi attivi giornalieri sia le metriche dell'offerta schermata hanno avuto un trend al rialzo a metà luglio, permettendo confronti quantitativi tra il comportamento on-chain e gli indicatori social.  (Vedi Figura 2)
+Inoltre, le serie pubbliche di rete di CoinMetrics confermano che sia gli indirizzi attivi giornalieri sia le metriche della quantità di ZEC nelle pool schermate hanno avuto un trend al rialzo a metà luglio, permettendo confronti quantitativi tra il comportamento on-chain e gli indicatori social.  (Vedi Figura 2)
 
 
-# Figura 2. Indirizzi Attivi Giornalieri e Offerta Schermata di Zcash - Metà Luglio 2025
+# Figura 2. Indirizzi attivi giornalieri e quantità di ZEC nelle pool schermate - metà luglio 2025
 (Fonte: CoinMetrics (2025). Indirizzi attivi giornalieri per il 1-22 luglio 2025.)
 
-Tutti questi dati mostrano il movimento delle monete, l'adozione della privacy e il coinvolgimento degli utenti; il picco nei grandi volumi on-chain e negli afflussi verso gli exchange suggerisce che le whale erano attive, forse spostando fondi o preparandosi a un impatto sul mercato; l'aumento dell'offerta schermata dimostra una continua preferenza per le transazioni che migliorano la privacy, anche durante periodi di maggiore attenzione, e il crescente numero di indirizzi attivi indica che l'utilizzo della rete si stava espandendo insieme a questi movimenti delle whale e alla domanda di privacy.  (Vedi Figura 3)
+Tutti questi dati mostrano il movimento delle monete, l'adozione della privacy e il coinvolgimento degli utenti; il picco nei grandi volumi on-chain e negli afflussi verso gli exchange suggerisce che le whale erano attive, forse spostando fondi o preparandosi a un impatto sul mercato; l'aumento della quantità di ZEC nelle pool schermate dimostra una continua preferenza per le transazioni che migliorano la privacy, anche durante periodi di maggiore attenzione, e il crescente numero di indirizzi attivi indica che l'utilizzo della rete si stava espandendo insieme a questi movimenti delle whale e alla domanda di privacy.  (Vedi Figura 3)
 
 
 # Figura 3. Quota di ZEC detenuta in Indirizzi Schermati - Luglio 2025
@@ -47,7 +47,7 @@ Allo stesso tempo, le transazioni schermate, una parte essenziale del framework 
 
 
 # Figura 4. Crescita delle Transazioni Schermate - Luglio 2025
-(Fonte: Blockchair (2025). Percentuale di offerta schermata dal 1-22 luglio 2025, che mostra una crescita da ~18% a ~20%.)
+(Fonte: Blockchair (2025). Percentuale di ZEC nelle pool schermate dal 1-22 luglio 2025, che mostra una crescita da ~18% a ~20%.)
 
 
 È interessante notare che il volume delle transazioni schermate è aumentato dell'8% rispetto al mese precedente, evidenziando una domanda costante di maggiore privacy finanziaria. Nel complesso, queste tendenze indicano un ecosistema in crescita guidato dalla privacy, dove sia le aziende che gli utenti attenti alla privacy influenzano attivamente il modo in cui la rete opera.

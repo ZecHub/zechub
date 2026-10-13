@@ -388,6 +388,18 @@
         "Turnstile",
         "Turnstiles"
       ],
+      "rejected": [
+        {
+          "text": "tornello",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "tornelli",
+          "word": true,
+          "ci": true
+        }
+      ],
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
@@ -1699,6 +1711,17 @@
       "reviewed_at": "2026-10-12",
       "source": "menus-review-it.md#navigation-38"
     },
+    "shielded supply": {
+      "target": "quantità di ZEC nelle pool schermate",
+      "context": "The total ZEC held in the shielded pools. Never \"offerta schermata\".",
+      "applies_to": "pages",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-13",
+      "source": "preview review 2026-10-13"
+    },
     "Shop": {
       "target": "Negozio",
       "applies_to": "ui",
@@ -2216,6 +2239,7 @@
         "Zkool Multisig",
         "network metadata",
         "oblivious synchronization",
+        "shielded supply",
         "voting chain"
       ],
       "summary": "Native review by Gianni (glossary-review-it.md, menus-review-it.md): page terms, menu labels, register, typography and writing rules."

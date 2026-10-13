@@ -1,4 +1,4 @@
-# Il tornello
+# Il turnstile
 
 ## TL;DR
 
@@ -6,7 +6,7 @@
 - Permette a chiunque di verificare che una pool non paghi mai più di quanto vi è stato immesso, anche se le transazioni al suo interno sono private
 - Questo protegge l'offerta di ZEC da un bug nascosto, perché monete contraffatte non possono uscire da una pool senza alterare il conteggio
 - Funziona senza indebolire la privacy, poiché solo i totali dei pool sono pubblici, mai le singole transazioni
-- Il tornello è il motivo per cui la migrazione da Orchard a Ironwood può dimostrare che l'offerta schermata è solida
+- Il turnstile è il motivo per cui la migrazione da Orchard a Ironwood può dimostrare che la quantità di ZEC nelle pool schermate è solida
 
 <br/>
 
@@ -26,7 +26,7 @@ Se un bug permettesse mai a qualcuno di forgiare monete all'interno di una pool 
 
 <br/>
 
-## Che cos'è il tornello
+## Che cos'è il turnstile
 
 Immagina ogni pool schermata come una stanza con un'unica porta conteggiata. Ogni volta che il valore entra nella pool dall'esterno, o ne esce per andare altrove, passa attraverso la porta e viene contabilizzato pubblicamente. Le transazioni all'interno della stanza restano private, ma il totale progressivo alla porta è visibile a tutti.
 
@@ -49,9 +49,9 @@ La rete tiene traccia in questo modo di un saldo per ogni pool di valore, inclus
 
 ## Come viene controllato il saldo di valore
 
-Il conteggio alla porta è affidabile solo perché ogni transazione è costretta a dimostrare di aver spostato un importo veritiero, anche se l'importo stesso resta nascosto. Ogni transazione schermata pubblica un unico numero onesto: il valore netto che sposta dentro o fuori dal pool, chiamato value balance. Un value balance positivo significa che i fondi sono usciti dal pool verso il lato trasparente, uno negativo significa che i fondi sono entrati. I dettagli privati restano sigillati, ma questa singola cifra netta è pubblica, ed è ciò che il tornello somma.
+Il conteggio alla porta è affidabile solo perché ogni transazione è costretta a dimostrare di aver spostato un importo veritiero, anche se l'importo stesso resta nascosto. Ogni transazione schermata pubblica un unico numero onesto: il valore netto che sposta dentro o fuori dal pool, chiamato value balance. Un value balance positivo significa che i fondi sono usciti dal pool verso il lato trasparente, uno negativo significa che i fondi sono entrati. I dettagli privati restano sigillati, ma questa singola cifra netta è pubblica, ed è ciò che il turnstile somma.
 
-La parte ingegnosa è il modo in cui una transazione dimostra che quel numero pubblico è onesto senza rivelare gli importi privati che ci stanno dietro. Il meccanismo differisce a seconda del pool, ed è questa la vera meccanica del tornello.
+La parte ingegnosa è il modo in cui una transazione dimostra che quel numero pubblico è onesto senza rivelare gli importi privati che ci stanno dietro. Il meccanismo differisce a seconda del pool, ed è questa la vera meccanica del turnstile.
 
 Nella pool Sprout originale, ogni transazione usa un JoinSplit. Un JoinSplit spende due note nascoste e ne crea due nuove, e contiene due campi pubblici: vpub_old, il valore che entra nella pool schermata dal lato trasparente, e vpub_new, il valore che lascia la pool tornando al lato trasparente. Ogni JoinSplit deve essere bilanciato di per sé, e la sua prova a conoscenza zero garantisce che gli input nascosti e gli output nascosti si sommino correttamente. Il saldo della pool Sprout è semplicemente il totale progressivo di tutti i vpub_old meno tutti i vpub_new lungo la chain. Ecco perché Sprout è un esempio utile più avanti: poiché vpub_old è l'unico modo in cui il valore può entrare nella pool, una sola regola che lo disattivi può sigillare la pool per sempre.
 
@@ -65,7 +65,7 @@ Quindi il turnstile non è fiducia. Ogni transazione dimostra matematicamente il
 
 ## Perché è importante
 
-Il tornello offre a Zcash tre cose contemporaneamente.
+Il turnstile offre a Zcash tre cose contemporaneamente.
 
 Primo, compartimentalizza il rischio. Un bug crittografico in una pool resta confinato a quella pool, perché il turnstile impedisce al valore falsificato di attraversare il confine ed entrare nell'offerta più ampia.
 
@@ -75,19 +75,19 @@ Terzo, preserva la privacy mentre fa tutto questo. Solo i totali a livello di po
 
 <br/>
 
-## Il tornello in azione
+## Il turnstile in azione
 
-Il tornello non è una novità, ed è stato usato in momenti chiave della storia di Zcash.
+Il turnstile non è una novità, ed è stato usato in momenti chiave della storia di Zcash.
 
 Quando Zcash è passato dalla pool Sprout originale alla più recente pool Sapling, il turnstile ha protetto la transizione. In seguito la pool Sprout è stata limitata in modo da non poter ricevere nuovi afflussi, incoraggiando così gli utenti a migrare mentre il turnstile manteneva onesta la contabilità. Anni dopo, il fatto che nessun valore sia mai uscito impropriamente da Sprout costituisce una prova del fatto che la sua crittografia iniziale non sia mai stata sfruttata con successo.
 
-Lo stesso schema ora protegge il passaggio da Orchard a Ironwood. Nel 2026 è stato trovato e corretto un bug di solidità nel sistema di proving di Orchard. Non ci sono prove che sia mai stato sfruttato, ma poiché l'attività schermata è privata, la certezza era impossibile. La risposta consiste nel sigillare il vecchio pool Orchard e far migrare a tutti i propri fondi attraverso il tornello verso Ironwood, un nuovo pool che usa il protocollo corretto. Forzare i fondi a passare attraverso il tornello significa che eventuali monete contraffatte ipotetiche rimaste indietro non possono seguirli, e una volta completata la migrazione chiunque può confermare che l'offerta schermata è solida.
+Lo stesso schema ora protegge il passaggio da Orchard a Ironwood. Nel 2026 è stato trovato e corretto un bug di solidità nel sistema di proving di Orchard. Non ci sono prove che sia mai stato sfruttato, ma poiché l'attività schermata è privata, la certezza era impossibile. La risposta consiste nel sigillare la vecchia pool Orchard e far migrare a tutti i propri fondi attraverso il turnstile verso Ironwood, una nuova pool che usa il protocollo corretto. Forzare i fondi a passare attraverso il turnstile significa che eventuali monete contraffatte ipotetiche rimaste indietro non possono seguirli, e una volta completata la migrazione chiunque può confermare che la quantità di ZEC nelle pool schermate è solida.
 
 <br/>
 
 ## Deprecazione unidirezionale del pool
 
-Il tornello rende possibile ritirare in sicurezza un vecchio pool, in una sola direzione, senza mai compromettere la garanzia sull'offerta. Il trucco è chiudere l'entrata lasciando aperta l'uscita.
+Il turnstile rende possibile ritirare in sicurezza un vecchio pool, in una sola direzione, senza mai compromettere la garanzia sull'offerta. Il trucco è chiudere l'entrata lasciando aperta l'uscita.
 
 Sprout è l'esempio più chiaro. Per deprecarla, ZIP 211 ha aggiunto una singola regola di consenso: dalla sua altezza di attivazione, il campo vpub_old di ogni JoinSplit deve essere zero. Poiché vpub_old è l'unico modo in cui il valore può entrare in Sprout, imporre che sia zero significa che nessun nuovo valore potrà più entrarvi, mentre il valore potrà ancora uscire verso il lato trasparente o proseguire verso Sapling. La pool è diventata unidirezionale. Può solo svuotarsi, mai riempirsi. Il turnstile continua a contare per tutto il tempo, quindi il saldo può diminuire mentre i fondi escono ma non può mai aumentare, e non può mai andare in negativo.
 
@@ -99,7 +99,7 @@ Questa è la ragione più profonda per cui il turnstile conta, oltre alla sempli
 
 ## Idee sbagliate comuni
 
-- Il tornello non rivela le tue transazioni. Si limita a contabilizzare i totali dei pool, non chi ha inviato cosa a chi
+- Il turnstile non rivela le tue transazioni. Si limita a contabilizzare i totali dei pool, non chi ha inviato cosa a chi
 - Non identifica nominalmente un falsario. Limita quanto può uscire da una pool, ed è questo che protegge l'offerta
 - Non è una nuova invenzione per Ironwood. Ha protetto ogni grande transizione tra pool schermate nella storia di Zcash
 - Un totale pubblico del pool non indebolisce la privacy. La privacy è nelle transazioni all'interno del pool, che restano nascoste
@@ -108,10 +108,10 @@ Questa è la ragione più profonda per cui il turnstile conta, oltre alla sempli
 
 ## Risorse
 
-1. [ZIP 209: Impedire saldi fuori intervallo nei Chain Value Pool](https://zips.z.cash/zip-0209) - la regola di consenso alla base del tornello
+1. [ZIP 209: Impedire saldi fuori intervallo nei Chain Value Pool](https://zips.z.cash/zip-0209) - la regola di consenso alla base del turnstile
 2. [ZIP 211: Disattivazione dell'aggiunta di nuovo valore alla pool di valore della chain Sprout](https://zips.z.cash/zip-0211) - come la pool Sprout è stata chiusa a nuovi depositi
 3. [ZIP 258: NU6.3](https://zips.z.cash/zip-0258) - l'aggiornamento che introduce la pool Ironwood e indirizza il valore attraverso il turnstile
-4. [Applicazione del tornello contro la contraffazione](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - la spiegazione originale di Electric Coin Company
+4. [Applicazione del turnstile contro la contraffazione](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - la spiegazione originale di Electric Coin Company
 5. [Specifica del protocollo Zcash](https://zips.z.cash/protocol/protocol.pdf) - vedi le sezioni su bilancio e binding signature per tutti i dettagli
 6. [Value Pools, il libro di Zebra](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - come un nodo tiene traccia del value balance di ciascun pool
 

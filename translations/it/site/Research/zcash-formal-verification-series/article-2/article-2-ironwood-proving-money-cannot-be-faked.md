@@ -101,11 +101,11 @@ Lungi dal compromettere il risultato, indicare questi confini è ciò che lo ren
 
 ---
 
-## 7. Dismettere in sicurezza il vecchio pool: il tornello
+## 7. Dismettere in sicurezza il vecchio pool: il turnstile
 
 Dimostrare che il *nuovo* pool è solido lascia comunque una domanda: che dire del *vecchio* pool Orchard, dove il difetto è rimasto per quattro anni? Non puoi rendere nuovamente visibile il suo passato. Ma puoi limitarne il futuro.
 
-Zcash ha introdotto un meccanismo chiamato **tornello**. La regola è semplice e potente:
+Zcash ha introdotto un meccanismo chiamato **turnstile**. La regola è semplice e potente:
 
 > Il valore può lasciare il vecchio pool soltanto fino all'importo che è verificabilmente entrato in esso.
 
@@ -127,7 +127,7 @@ La logica è convincente. La crittografia all'avanguardia è proprio l'ambito in
 
 ## 9. Una precisazione onesta
 
-Abbiamo semplificato per chiarezza. Il vero sviluppo Lean è molto più dettagliato dello schema qui presentato, con definizioni precise di azioni, affermazioni, impegni, nullifier e firme; "integrità del saldo" e "solidità della conoscenza" hanno definizioni formali esatte che abbiamo espresso solo a parole; la riduzione alla difficoltà del logaritmo discreto passa attraverso diversi modelli intermedi (un modello algebrico del dimostratore e un modello random-oracle dell'hash) che abbiamo condensato in "assunzioni standard"; e abbiamo descritto l'impronta digitale e il tornello a livello concettuale. Nulla di tutto ciò cambia la storia essenziale: una specifica di "nessuna contraffazione", una prova verificata da una macchina su tutti i registri validi, una dichiarazione esplicita e onesta di ambito e assunzioni e una dismissione sicura del pool difettoso. Per il resoconto autorevole, consulta gli approfondimenti di verifica pubblicati da Project Tachyon e il repository della prova `ironwood`.
+Abbiamo semplificato per chiarezza. Il vero sviluppo Lean è molto più dettagliato dello schema qui presentato, con definizioni precise di azioni, affermazioni, impegni, nullifier e firme; "integrità del saldo" e "solidità della conoscenza" hanno definizioni formali esatte che abbiamo espresso solo a parole; la riduzione alla difficoltà del logaritmo discreto passa attraverso diversi modelli intermedi (un modello algebrico del dimostratore e un modello random-oracle dell'hash) che abbiamo condensato in "assunzioni standard"; e abbiamo descritto l'impronta digitale e il turnstile a livello concettuale. Nulla di tutto ciò cambia la storia essenziale: una specifica di "nessuna contraffazione", una prova verificata da una macchina su tutti i registri validi, una dichiarazione esplicita e onesta di ambito e assunzioni e una dismissione sicura del pool difettoso. Per il resoconto autorevole, consulta gli approfondimenti di verifica pubblicati da Project Tachyon e il repository della prova `ironwood`.
 
 ---
 
@@ -138,7 +138,7 @@ Abbiamo semplificato per chiarezza. Il vero sviluppo Lean è molto più dettagli
 - Ragiona su **ogni registro valido**, non su casi campionati, ed è questo che chiude la classe di bug di contraffazione nascosta che i test non hanno rilevato.
 - Il divario tra matematica e software è gestito da un confine di **impronta digitale**: la prova esclude i bug non rilevabili e qualsiasi deviazione dell'implementazione sarebbe **rilevabile** nel registro pubblico permanente.
 - La garanzia è formulata con precisione: vale secondo la **difficoltà del logaritmo discreto e assunzioni hash standard**, e copre la **contraffazione, non la privacy**. Questa onestà è un punto di forza, non una debolezza.
-- Il **tornello** dismette in sicurezza il vecchio pool limitandone le uscite ai depositi verificabili, esponendo qualsiasi contraffazione e costruendo prova pubblica dell'integrità dell'offerta.
+- Il **turnstile** dismette in sicurezza il vecchio pool limitandone le uscite ai depositi verificabili, esponendo qualsiasi contraffazione e costruendo prova pubblica dell'integrità dell'offerta.
 - Ironwood riflette un passaggio verso la **crittografia ad alta affidabilità**, dove la verifica formale è una parte standard della costruzione di nuovo denaro crittografico.
 
 ---
@@ -172,7 +172,7 @@ No. La verifica copre la solidità dell'offerta monetaria (nessun denaro falso),
 Perché è verificata da una macchina. L'assistente di prova Lean verifica meccanicamente ogni passaggio, quindi la fiducia si basa sulla specifica e sulle assunzioni nominate, non sulla cura di un essere umano o di un'IA in ogni passaggio.
 
 **Cosa succede alle monete ancora nel vecchio pool Orchard?**
-Possono essere prelevate, ma solo fino all'importo che è verificabilmente entrato, applicato dal tornello. Ciò protegge sia l'integrità dell'offerta sia aiuta a dimostrare che il vecchio difetto non è mai stato sfruttato.
+Possono essere prelevate, ma solo fino all'importo che è verificabilmente entrato, applicato dal turnstile. Ciò protegge sia l'integrità dell'offerta sia aiuta a dimostrare che il vecchio difetto non è mai stato sfruttato.
 
 **Questa è la fine della storia?**
 È una pietra miliare, non un traguardo finale. L'architettura futura di Zcash (Tachyon, con il toolkit Ragu) viene costruita con la verifica formale come pratica standard, estendendo ulteriormente questo approccio.
