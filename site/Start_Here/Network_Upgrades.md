@@ -17,5 +17,21 @@ For the visual story of how Zcash's privacy has evolved across these upgrades, s
 | [NU6.1](../zcash-tech/nu6-1) | November 24, 2025 | 3,146,400 | 4dec4df0 | Community and coin-holder governance of that funding |
 | [NU6.2](../zcash-tech/nu6-2) | June 3, 2026 | 3,364,600 | 5437f330 | An emergency fix that corrected the Orchard circuit |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | July 28, 2026 | 3,428,143 | 37a5165b | The Ironwood pool and a public turnstile that lets anyone audit the supply |
+| **NU7** (upcoming) | Testnet: 4 Oct 2026<br>Mainnet: targeted 5 Nov 2026 | Testnet: 4,465,026<br>Mainnet: TBD (set 20 Oct) | 77190ad9 | 25-second blocks (ZIP 218), NSM fee recycling (ZIP 235+237), Sprout retirement (ZIP 2003) |
 
-Dates are shown in UTC. Some dashboards show them in local time, which is the same block and the same moment. The fixed trigger for every upgrade is its activation block height, not the calendar date: Ironwood activated at block 3,428,143. A future upgrade, NU7, is still in planning and is not the same as Ironwood.
+Dates are shown in UTC. Some dashboards show them in local time, which is the same block and the same moment. The fixed trigger for every upgrade is its activation block height, not the calendar date.
+
+### NU7 status
+
+NU7 is live on public Testnet at height **4,465,026** (activated 4 October 2026). Mainnet activation height will be chosen on **20 October 2026**; the current target is **5 November 2026**.
+
+Scope (ZIP 259):
+
+- **25-second blocks** (ZIP 218) — first confirmation ~3× faster; daily ZEC issuance unchanged.
+- **Network Sustainability Mechanism** (ZIP 235 + ZIP 237) — 60% of transaction fees removed from circulation into a reserve, reissued to miners on a halving-preserving schedule starting ~February 2031.
+- **Sprout retirement** (ZIP 2003) — version 4 transactions become invalid; remaining Sprout funds become unspendable.
+- Shielded action limits and a wider difficulty averaging window (17 → 102 blocks).
+
+No new transaction format is introduced. Consensus branch ID: `0x77190ad9`.
+
+See the [Evolution of Privacy](https://zechub.wiki/zcash-evolution) timeline and [ZIP 259](https://zips.z.cash/zip-0259) for full details. Forum timeline: [NU7 Timeline](https://forum.zcashcommunity.com/t/nu7-timeline/57655).

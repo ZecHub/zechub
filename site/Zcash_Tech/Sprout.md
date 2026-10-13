@@ -6,6 +6,8 @@
 
 > Zcash launched on October 28, 2016, with the Sprout shielded pool.
 
+> **Warning:** NU7 makes ZEC still in the Sprout pool unspendable once it activates (mainnet targeted for 5 November 2026, final decision 20 October 2026; see [ZIP 259](https://zips.z.cash/zip-0259)). If you hold Sprout funds, read [Recovering funds](../using-zcash/recovering-funds) and migrate them first.
+
 What you'll take away: Sprout is where Zcash began, the first time private, verifiable money ran on a live blockchain.
 
 Sprout is the original launch of the Zcash network, not a later [network upgrade](../start-here/network-upgrades). It went live at the genesis block on October 28, 2016. No numbered ZIP defines Sprout: the ZIP process started later with Overwinter, so Sprout is described by the original Zcash Protocol Specification and the Zerocash construction it was built on. The [Electric Coin Company](../zcash-organizations/electric-coin-company) (then the Zerocoin Electric Coin Company), led by Zooko Wilcox, built and shipped it. Sprout introduced the first practical zk-SNARK shielded transactions and the original shielded pool, so people could send ZEC with the sender, receiver, and amount hidden while the network still checked that the balances added up. The name signaled a young, budding chain that the team expected to grow.

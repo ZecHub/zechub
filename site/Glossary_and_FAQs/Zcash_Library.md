@@ -23,7 +23,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Benchmarking | Miners are able to submit metrics on the efficiency of various hardware used to mine Zcash. [View here](https://zcashbenchmarks.info) |
 | Block | A Block is a record in the Zcash blockchain that contains a set of transactions sent on the network. Roughly every 75 seconds, on average, a new block is appended to the blockchain. |
 | Block Explorer | An online tool to view all transactions, past and current, on the blockchain. [Zcash Block Explorer](https://zcashexplorer.app/) |
-| Blogs | [ZODL Blog (formerly Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.wiki/zechub-dao) |
+| Blogs | [ZODL Blog (formerly Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Newsletter](https://zechub.substack.com/) |
 | Blossom | The 3rd Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
@@ -35,7 +35,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Community | [The Official Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | A proposed hybrid consensus design that keeps proof-of-work block production and adds a proof-of-stake finality layer on top, so blocks gain stronger finality without abandoning mining. It grew out of Trailing Finality Layer research and is being built by Shielded Labs, still in testnet development as of 2026. |
 | CrossPay | A feature in the ZODL wallet that lets you spend shielded ZEC while the recipient is paid in the asset and chain they prefer, routed through NEAR Intents rather than a centralized exchange. |
-| Cypherpunk Zero | A Creative Universe and collaborative effort between ECC, illustrator Stranger Wolf, Mighty Jaxx and select ecosystem partners. [Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea Collection](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | A Creative Universe and collaborative effort between ECC, illustrator Stranger Wolf, Mighty Jaxx and select ecosystem partners. [Cypherpunk Zero Social](https://x.com/cypherpunkZero) / [OpenSea Collection](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -130,7 +130,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Nighthawk | A Mobile wallet for Zcash. [Website](https://nighthawkwallet.com) |
 | Noir Wallet | A Zcash browser extension wallet supported by Zcash Community Grants, built to connect shielded ZEC directly to browser applications instead of relying on QR codes and manual transfers. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | The 6th Major Network Upgrade for Zcash, introducing the Orchard shielded pool and Unified Addresses. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | The 7th Major Network Upgrade for Zcash, adjusting the block subsidy to fund the Zcash Community Grants program and Shielded Labs. Activated in late 2024. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU6 | The 7th Major Network Upgrade for Zcash, adjusting the block subsidy to fund the Zcash Community Grants program and the Deferred Dev Fund Lockbox. Activated in late 2024. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 | NU7 | The next major network upgrade after Ironwood. Candidate features include Project Tachyon's scaling work, Zcash Shielded Assets, and the Network Sustainability Mechanism. |
 
 ## O
@@ -181,7 +181,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 
 | Term | Definition |
 |------|-----------|
-| Tachyon | Zcash's scaling programme, targeted at NU7. It moves wallets away from scanning every block toward proof-carrying wallet state, oblivious synchronization and prunable node state, aiming for shielded throughput in the thousands of transactions per second. [Project site](https://tachyon.z.cash/overview/) |
+| Tachyon | Zcash's scaling programme. It is not part of NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) and has no activation date. It moves wallets away from scanning every block toward proof-carrying wallet state, oblivious synchronization and prunable node state, aiming for shielded throughput in the thousands of transactions per second. [Project site](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (valueless test currency). |
 | Testnet | A separate blockchain for testing upgrades and features before mainnet. |
 | Trailing Finality Layer (TFL) | Research into adding a finality layer behind Zcash's proof-of-work chain so recent blocks can be finalized without replacing mining. Crosslink is the design that came out of it. |
@@ -241,7 +241,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | ZIP | Zcash Improvement Proposal - the community governance process used to propose and ratify protocol changes. [ZIP Repository](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab. The independent organization founded in early 2026 by Josh Swihart and the former Electric Coin Company engineering team after they resigned over a governance dispute with Bootstrap. It raised over $25 million in seed funding in March 2026 and maintains the ZODL wallet, which was renamed from Zashi in February 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — the cryptography powering Zcash shielded transactions. Allows proving a statement (e.g., valid spend) without revealing any secret information. |
-| ZSA (Zcash Shielded Assets) | User-issued tokens that inherit Zcash's shielded privacy, letting assets other than ZEC move privately on the network. Specified in [ZIP 226](https://zips.z.cash/zip-0226) and a candidate feature for NU7. |
+| ZSA (Zcash Shielded Assets) | User-issued tokens that inherit Zcash's shielded privacy, letting assets other than ZEC move privately on the network. Specified in [ZIP 226](https://zips.z.cash/zip-0226). It is not part of NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) and has no activation date. |
 
 ---
 

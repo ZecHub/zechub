@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero는 젤로라는 젊은 사이퍼펑크 해커이자 자유 전투사가 주인공인 이야기 시리즈입니다. 젤로는 현재 디스토피아적 악몽 속에서 살고 있으며, 그녀는 사회를 얽어매는 중심화된 관문 보호자들에 맞서 코드를 사용하여 싸웁니다. 이 이야기는 Zcash와 Halo 암호학에서 영감을 받았습니다. 창작물은 ECC, Stranger World, Might Jaxx 및 선택된 생태계 파트너들과 협업한 결과입니다. 창작물은 주로 [NFT 시리즈](https://opensea.io/collection/cypherpunk-zero)에 집중되었지만, [프롤로그 만화](https://halo.electriccoin.co/#view-prologue)와 [수집 가능한 장난감](https://mightyjaxx.com/products/cypherpunk-zero)도 출시되었습니다. NFT 커뮤니티는 주로 트위터에서 활동하며, 캠페인과 더 넓은 Zcash 커뮤니티를 지원하는 프로젝트를 조직하고 완성하기 위해 [분산형 자치 기구(DAO)](https://twitter.com/CypherpunkDAO)를 창설했습니다.
+Cypherpunk Zero는 젤로라는 젊은 사이퍼펑크 해커이자 자유 전투사가 주인공인 이야기 시리즈입니다. 젤로는 현재 디스토피아적 악몽 속에서 살고 있으며, 그녀는 사회를 얽어매는 중심화된 관문 보호자들에 맞서 코드를 사용하여 싸웁니다. 이 이야기는 Zcash와 Halo 암호학에서 영감을 받았습니다. 창작물은 ECC, Stranger World, Might Jaxx 및 선택된 생태계 파트너들과 협업한 결과입니다. 창작물은 주로 [NFT 시리즈](https://opensea.io/collection/cypherpunk-zero)에 집중되었지만, 와 [수집 가능한 장난감](https://mightyjaxx.com/products/cypherpunk-zero)도 출시되었습니다. NFT 커뮤니티는 주로 트위터에서 활동하며, 캠페인과 더 넓은 Zcash 커뮤니티를 지원하는 프로젝트를 조직하고 완성하기 위해 [분산형 자치 기구(DAO)](https://twitter.com/CypherpunkDAO)를 창설했습니다.
 
 ## 반전략적 전략
 
@@ -55,11 +55,9 @@ Cypherpunk Zero는 젤로라는 젊은 사이퍼펑크 해커이자 자유 전�
 
 ## 자료
 
-[Cypherpunk Zero 웹사이트](https://halo.electriccoin.co/)
-
 [Cypherpunk Zero 트위터](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero Opensea 컬렉션](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO 트위터](https://twitter.com/CypherpunkDAO)
 

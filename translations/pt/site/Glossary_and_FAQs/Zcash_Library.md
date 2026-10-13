@@ -35,7 +35,7 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados com 
 | Community | [O Fórum Oficial da Comunidade Zcash](https://forum.zcashcommunity.com) / [Zcash Comunidade Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash I&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
 | Crosslink | Um modelo de consenso híbrido proposto que mantém a produção de blocos por proof-of-work e acrescenta por cima uma camada de finalidade por proof-of-stake, para que os blocos obtenham uma finalidade mais forte sem abandonar a mineração. Surgiu da investigação sobre a Trailing Finality Layer e está a ser desenvolvido pela Shielded Labs, encontrando-se ainda em desenvolvimento em testnet em 2026. |
 | CrossPay | Uma funcionalidade na wallet ZODL que permite gastar ZEC shielded enquanto o destinatário é pago no ativo e na chain que preferir, com encaminhamento através de NEAR Intents em vez de uma exchange centralizada. |
-| Cypherpunk Zero | Um universo criativo e esforço colaborativo entre a ECC, o ilustrador Stranger Wolf, a Mighty Jaxx e parceiros selecionados do ecossistema. [Site Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Coleção OpenSea](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Um universo criativo e esforço colaborativo entre a ECC, o ilustrador Stranger Wolf, a Mighty Jaxx e parceiros selecionados do ecossistema. [Coleção OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
