@@ -105,7 +105,7 @@ Lungi dal compromettere il risultato, indicare questi confini è ciò che lo ren
 
 Dimostrare che il *nuovo* pool è solido lascia comunque una domanda: che dire del *vecchio* pool Orchard, dove il difetto è rimasto per quattro anni? Non puoi rendere nuovamente visibile il suo passato. Ma puoi limitarne il futuro.
 
-Zcash ha introdotto un meccanismo chiamato **turnstile**. La regola è semplice e potente:
+Zcash ha introdotto un meccanismo chiamato **turnstile (tornello)**. La regola è semplice e potente:
 
 > Il valore può lasciare il vecchio pool soltanto fino all'importo che è verificabilmente entrato in esso.
 

@@ -16087,7 +16087,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+itglossary",
+      "tool": "codex/gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
@@ -16175,7 +16175,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
@@ -16335,7 +16335,7 @@
       "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Shielded_Pools.md": {
@@ -16671,7 +16671,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Organizations/Sovright.md": {
@@ -16687,7 +16687,7 @@
       "src_commit": "908304c900d3767bb6b240fde919c0667ba75ef8",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+termrepair",
+      "tool": "codex/gpt-5.6-terra+termrepair+itreview",
       "edited": false
     },
     "Zcash_Organizations/ZKAV.md": {
@@ -16895,7 +16895,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+deadlink-repair+itglossary",
+      "tool": "gpt-5.4+deadlink-repair+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -16911,7 +16911,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns+termrepair+itglossary",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+termrepair+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
@@ -16951,7 +16951,7 @@
       "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
@@ -17143,7 +17143,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+itglossary",
+      "tool": "codex/gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
@@ -17615,7 +17615,7 @@
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Research/What_25_Second_Blocks_Actually_Change.md": {

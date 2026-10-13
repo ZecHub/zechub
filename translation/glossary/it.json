@@ -400,6 +400,7 @@
           "ci": true
         }
       ],
+      "context": "Keep \"turnstile\" in English (masculine: \"il turnstile\"); at the first use on a page add the Italian in brackets: \"turnstile (tornello)\". Never \"tornello\" alone.",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [

@@ -6,7 +6,7 @@
 
 > Ironwood si è attivato sulla mainnet di Zcash al blocco 3,428,143 il 28 luglio 2026 UTC ed è operativo da allora.
 
-Cosa imparerai: che cosa cambia con Ironwood, perché un bug nel denaro nascosto è grave e come il turnstile permette a chiunque di confermare che non è stato creato alcun ZEC dal nulla.
+Cosa imparerai: che cosa cambia con Ironwood, perché un bug nel denaro nascosto è grave e come il turnstile (tornello) permette a chiunque di confermare che non è stato creato alcun ZEC dal nulla.
 
 Ironwood è un [aggiornamento di rete](../start-here/network-upgrades) di Zcash, formalmente NU6.3, che introduce una nuova pool schermata con lo stesso nome. Una [pool schermata](../using-zcash/shielded-pools) è l’insieme dei fondi i cui importi e proprietari restano nascosti grazie alla [crittografia a conoscenza zero](../zcash-tech/zk-snarks). Ironwood esiste per contenere e verificare un bug di soundness trovato nell’attuale pool schermata Orchard, e per dare alla comunità un modo più solido per controllare che l’offerta totale di ZEC sia corretta. Le sue regole di consenso sono specificate in [ZIP 258](https://zips.z.cash/zip-0258).
 

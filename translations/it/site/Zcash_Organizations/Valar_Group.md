@@ -75,7 +75,7 @@ Questo lavoro appare sia nello stack di voto sia nella ricerca più ampia sulla 
 
 ### Aggiornamenti del protocollo e coordinamento dell'ecosistema
 
-Valar Group è stata una delle organizzazioni che si sono impegnate pubblicamente nella risposta Ironwood dopo la vulnerabilità del circuito Orchard. Ironwood ha introdotto un nuovo pool schermato, ha sigillato il pool Orchard originale dietro un turnstile e ha ripristinato un percorso per verificare indipendentemente l'offerta circolante. Valar Group ha lavorato con Project Tachyon, Shielded Labs, ZODL e Zcash Foundation su architettura, implementazione delle regole di consenso e coordinamento dell'ecosistema.
+Valar Group è stata una delle organizzazioni che si sono impegnate pubblicamente nella risposta Ironwood dopo la vulnerabilità del circuito Orchard. Ironwood ha introdotto un nuovo pool schermato, ha sigillato la pool Orchard originale dietro un turnstile (tornello) e ha ripristinato un percorso per verificare indipendentemente l'offerta circolante. Valar Group ha lavorato con Project Tachyon, Shielded Labs, ZODL e Zcash Foundation su architettura, implementazione delle regole di consenso e coordinamento dell'ecosistema.
 
 Il gruppo partecipa inoltre alla definizione dell'ambito di NU7, alla gestione delle testnet e alla modifica degli ZIP. Dev Ojha è indicato come editor ZIP.
 

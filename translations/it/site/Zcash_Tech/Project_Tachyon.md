@@ -84,7 +84,7 @@ Il lavoro correlato è già visibile. [Zakura](https://zechub.wiki/zcash-tech/za
 ## Idee sbagliate comuni
 
 - **Tachyon non è attivo.** Nessun portafoglio lo usa oggi e nessun aggiornamento lo ha attivato.
-- **Tachyon non è la stessa cosa di Ironwood.** Ironwood è stato attivato nel luglio 2026 e riguardava la pool Orchard e il turnstile. Tachyon è una proposta separata e successiva sulla scalabilità.
+- **Tachyon non è la stessa cosa di Ironwood.** Ironwood è stato attivato nel luglio 2026 e riguardava la pool Orchard e il turnstile (tornello). Tachyon è una proposta separata e successiva sulla scalabilità.
 - **Tachyon non riduce la privacy.** L'obiettivo è mantenere l'indistinguibilità del registro eliminando il costo della scalabilità, non sacrificare la privacy per la velocità.
 - **La verifica degli zk-SNARK non è mai stata il collo di bottiglia.** La proposta chiarisce che la parte lenta è il modo in cui i portafogli scoprono e coordinano lo stato, non il costo del controllo delle prove.
 - **"Destinato a NU7" non è un impegno.** Ciò che entra in NU7 viene deciso tramite voto.

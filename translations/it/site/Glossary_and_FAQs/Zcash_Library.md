@@ -90,7 +90,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Integrations | Puoi accettare pagamenti in Zcash tramite diversi fornitori di terze parti. [Processori di pagamento](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Una macchina astratta che modella il calcolo come uno scambio di messaggi tra due parti: un Prover e un Verifier. |
 | Investment | Sono disponibili diverse opzioni finanziarie per investitori istituzionali o family office che vogliono ottenere esposizione a Zcash. [Elenco completo](https://z.cash/investors/) |
-| Ironwood | L'aggiornamento di rete (NU6.3) che si è attivato sulla mainnet il 28 luglio 2026 al blocco 3,428,143. Ha introdotto una nuova pool schermata, anch'essa chiamata Ironwood, e ha reso la pool Orchard di sola spesa, in modo che il valore esistente migri attraverso il turnstile. [Maggiori informazioni](/zcash-tech/ironwood) |
+| Ironwood | L'aggiornamento di rete (NU6.3) che si è attivato sulla mainnet il 28 luglio 2026 al blocco 3,428,143. Ha introdotto una nuova pool schermata, anch'essa chiamata Ironwood, e ha reso la pool Orchard di sola spesa, in modo che il valore esistente migri attraverso il turnstile (tornello). [Maggiori informazioni](/zcash-tech/ironwood) |
 
 ## J
 

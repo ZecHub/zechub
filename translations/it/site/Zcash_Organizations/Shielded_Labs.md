@@ -35,7 +35,7 @@ Shielded Labs elenca pubblicamente diverse aree di progetto attive:
 
 Nel 2026, Shielded Labs ha svolto un ruolo importante nella risposta dell'ecosistema alla vulnerabilità di contraffazione in Orchard. La vulnerabilità è stata scoperta dal ricercatore di sicurezza di Shielded Labs Taylor Hornby e comunicata a Zcash Open Development Lab (ZODL), che ha coordinato una correzione d'emergenza con altri contributori di Zcash.
 
-Dopo la correzione d'emergenza, la comunità aveva comunque bisogno di un modo per ripristinare la fiducia indipendente nell'offerta circolante di Zcash. Ironwood ha affrontato questo problema creando una nuova pool schermata che utilizza il circuito Orchard corretto e sigillando la pool Orchard originale affinché i fondi potessero uscirne soltanto attraverso il turnstile. Shielded Labs ha collaborato con Project Tachyon, Valar Group, ZODL e la Zcash Foundation alla progettazione, revisione e preparazione dell'ecosistema per Ironwood.
+Dopo la correzione d'emergenza, la comunità aveva comunque bisogno di un modo per ripristinare la fiducia indipendente nell'offerta circolante di Zcash. Ironwood ha affrontato questo problema creando una nuova pool schermata che utilizza il circuito Orchard corretto e sigillando la pool Orchard originale affinché i fondi potessero uscirne soltanto attraverso il turnstile (tornello). Shielded Labs ha collaborato con Project Tachyon, Valar Group, ZODL e la Zcash Foundation alla progettazione, revisione e preparazione dell'ecosistema per Ironwood.
 
 Questo lavoro ha dimostrato uno dei ruoli fondamentali di Shielded Labs in Zcash: aggiungere capacità indipendenti di sviluppo del protocollo e sicurezza al di fuori delle organizzazioni originali di sviluppo di Zcash.
 

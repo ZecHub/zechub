@@ -12,7 +12,7 @@
 - **Sapling** (z-address che iniziano con `zs`) rimane ampiamente supportato e continua a proteggere una quantità significativa di ZEC schermati.
 - Gli indirizzi **Transparent** (t...) non offrono alcuna privacy delle transazioni e funzionano in modo simile a Bitcoin.
 - **Sprout** è una pool schermata legacy che è stata ritirata dall’uso attivo.
-- La migrazione da Orchard a Ironwood è **in corso** ed è verificata pubblicamente dal turnstile.
+- La migrazione da Orchard a Ironwood è **in corso** ed è verificata pubblicamente dal turnstile (tornello).
 - Per le garanzie di privacy più forti, gli utenti dovrebbero continuare a preferire, quando possibile, transazioni **schermato-schermato (z → z)**.
 
 

@@ -107,7 +107,7 @@ Questo wiki esiste per aiutarti ad approfondire, quindi il miglior passo success
 - [Che cosa sono ZEC e Zcash](https://zechub.wiki/start-here/what-is-zec-and-zcash) per le basi della rete e della moneta
 - [Guida per nuovi utenti](https://zechub.wiki/start-here/new-user-guide) per una prima panoramica sull'uso di Zcash
 - [Pool schermate](https://zechub.wiki/using-zcash/shielded-pools) per capire come Zcash mantiene private le transazioni
-- [Il turnstile](https://zechub.wiki/zcash-tech/the-turnstile) per capire come l'offerta monetaria resta verificabile
+- [Il turnstile (tornello)](https://zechub.wiki/zcash-tech/the-turnstile) per capire come l'offerta monetaria resta verificabile
 - [Ironwood](https://zechub.wiki/zcash-tech/ironwood) per la pool schermata verso cui la rete sta migrando
 - [Network Upgrades](https://zechub.wiki/start-here/network-upgrades) per capire come Zcash cambia nel tempo
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) per la crittografia alla base della privacy

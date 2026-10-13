@@ -16,7 +16,7 @@ La ricerca ha riformulato la questione. Le chiavi di visualizzazione non sono un
 
 Due eventi relativi a pool schermate si sono verificati a poche settimane di distanza, a metà del 2026.
 
-**Zcash ha abbandonato Orchard.** Il ricercatore Taylor Hornby ha divulgato una vulnerabilità del circuito in Orchard che avrebbe potuto essere sfruttata per gonfiare l'offerta senza che ciò fosse rilevabile. Zcash ha risposto attivando **Ironwood (NU6.3)** il **28 luglio 2026**, introducendo una nuova pool schermata con un meccanismo di migrazione turnstile.
+**Zcash ha abbandonato Orchard.** Il ricercatore Taylor Hornby ha divulgato una vulnerabilità del circuito in Orchard che avrebbe potuto essere sfruttata per gonfiare l'offerta senza che ciò fosse rilevabile. Zcash ha risposto attivando **Ironwood (NU6.3)** il **28 luglio 2026**, introducendo una nuova pool schermata con un meccanismo di migrazione turnstile (tornello).
 
 **Dash ha adottato Orchard.** Dash ha annunciato il piano il [19 febbraio 2026](https://www.dash.org/blog/dash-is-adding-shielded-transactions-to-evolution/) — *"Prevediamo di poter lanciare presto i trasferimenti schermati, naturalmente in attesa degli audit di sicurezza e di ulteriore revisione del codice."* La [roadmap](https://www.dash.org/roadmap/) di Dash registra i saldi schermati come **completati a luglio 2026** con Dash Platform **v4.0**, e Dash ha pubblicato [*"Le transazioni schermate sono attive sulla mainnet Dash Evolution"*](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) il **4 agosto 2026**.
 

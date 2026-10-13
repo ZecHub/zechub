@@ -135,7 +135,7 @@ L'indirizzo di deposito di NanoGPT è un Unified Address. Decodificandone uno em
 
 Da quando l'upgrade [Ironwood](/zcash-tech/ironwood) si è attivato il 28 luglio 2026, Orchard è solo spend-only e nessun nuovo valore può entrarvi. Questo lascia **Sapling come unico receiver in cui un pagamento può effettivamente arrivare**.
 
-Quindi, se il tuo ZEC è già in Sapling, il pagamento è da Sapling a Sapling e nulla di ciò è pubblico. Ma se sei migrato a Ironwood, pagare sposta valore oltre il confine di una pool, e [il turnstile](/zcash-tech/the-turnstile) pubblica l'importo e l'altezza anche se mittente e destinatario restano nascosti.
+Quindi, se il tuo ZEC è già in Sapling, il pagamento è da Sapling a Sapling e nulla di ciò è pubblico. Ma se sei migrato a Ironwood, pagare sposta valore oltre il confine di una pool, e [il turnstile (tornello)](/zcash-tech/the-turnstile) pubblica l'importo e l'altezza anche se mittente e destinatario restano nascosti.
 
 Le schermate sembrano identiche in entrambi i casi. Mantenere un piccolo saldo Sapling per i pagamenti è la soluzione più semplice.
 

@@ -169,7 +169,7 @@ Il valore Sprout può arrivare solamente in Sapling. Dopo che i fondi Sapling so
 
 ## Fondi recuperati e pool Ironwood
 
-Dall'attivazione dell'aggiornamento Ironwood (NU6.3), avvenuta il 28 luglio 2026, la pool Orchard è solo spendibile. Nessun nuovo valore può entrarvi e il valore esistente esce attraverso il turnstile verso Ironwood.
+Dall'attivazione dell'aggiornamento Ironwood (NU6.3), avvenuta il 28 luglio 2026, la pool Orchard è solo spendibile. Nessun nuovo valore può entrarvi e il valore esistente esce attraverso il turnstile (tornello) verso Ironwood.
 
 Se i tuoi fondi recuperati sono in Orchard, spostali a Ironwood usando il **flusso di migrazione integrato di un portafoglio attuale**. Orchard è solo in uscita dopo NU6.3.
 
