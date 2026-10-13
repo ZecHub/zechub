@@ -63,7 +63,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Termine | Definizione |
 |------|-----------|
 | Fiat-Shamir | Una tecnica per prendere una prova interattiva di conoscenza e creare una firma digitale basata su di essa. In questo modo, un certo fatto (ad esempio la conoscenza di un segreto) può essere provato pubblicamente senza rivelare le informazioni sottostanti. |
-| Formal Verification | Dimostrare matematicamente che un sistema si comporta esattamente come specificato, invece di basarsi solo sui test. Il circuito Ironwood Action è stato verificato in questo modo da collaboratori di zkSecurity e ZODL utilizzando il dimostratore di teoremi Lean, per dimostrare l'assenza di bug di solidità. |
+| Formal Verification | Dimostrare matematicamente che un sistema si comporta esattamente come specificato, invece di basarsi solo sui test. Il circuito Ironwood Action è stato verificato in questo modo da collaboratori di zkSecurity e ZODL con Lean, un dimostratore di teoremi, per escludere la presenza di bug di solidità. |
 | Founders Reward | La ricompensa dei fondatori rappresenta il 20 percento della ricompensa totale per blocco ed è detratta dal valore di ogni blocco e distribuita in modo trasparente per sostenere lo sviluppo e la crescita del protocollo. |
 | Free2Z | Uno strumento per contenuti anonimi e donazioni private alimentato da Zcash. [Free2Z](https://free2z.com) |
 | FROST | Schema di firma Flexible Round-Optimized Schnorr Threshold. [Paper di ricerca](https://eprint.iacr.org/2020/852) |
