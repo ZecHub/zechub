@@ -1,6 +1,6 @@
 # Come eseguire Zebra su Akash Network
 
-Guida passo passo per il deploy di un nodo completo Zebra Zcash usando la [Akash Console](https://console.akash.network).
+Guida passo passo per il deploy di un full node (nodo completo) Zebra Zcash usando la [Akash Console](https://console.akash.network).
 
 ### Cosa stai distribuendo
 
@@ -40,18 +40,18 @@ Questo viene gestito automaticamente. Usa semplicemente l'URI che Akash ti forni
 2. **Token AKT** - Procurati 50-100 AKT da un exchange (Coinbase, Kraken, Osmosis)
 3. **5 minuti** per cliccare attraverso l'interfaccia della Console
 
-#### Passo 1: connetti il tuo wallet
+#### Passo 1: connetti il tuo portafoglio
 
 -> Vai su [https://console.akash.network](https://console.akash.network)
 
 -> Clicca su **"Connect Wallet"** in alto a destra
 
--> Scegli **Keplr** (o il tuo wallet Cosmos preferito)
+-> Scegli **Keplr** (o il tuo portafoglio Cosmos preferito)
 
 -> Approva la connessione quando compare Keplr
 
 
-Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima il tuo wallet.
+Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima il tuo portafoglio.
 
 #### Passo 2: crea il deployment
 
@@ -336,7 +336,7 @@ Devi modificare la configurazione dopo il deploy?
 
 #### Tramite RPC (se abilitato)
 
-Se hai abilitato l'RPC, puoi interrogare il tuo nodo come un normale nodo completo zebrad (perché lo è!)
+Se hai abilitato l'RPC, puoi interrogare il tuo nodo come un normale full node zebrad (perché lo è!)
 
 ### Chiudere il tuo deployment
 
@@ -356,7 +356,7 @@ Il tuo deposito di 5 AKT verrà rimborsato. Lo **storage persistente** dovrebbe 
 
 #### Errore "Insufficient funds"
 
-Ti servono più AKT. Finanzia il tuo wallet Keplr.
+Ti servono più AKT. Finanzia il tuo portafoglio Keplr.
 
 #### Nessuna offerta visualizzata
 
@@ -398,10 +398,10 @@ Monitora la tua spesa nella Console:
 
 -> **My Deployments** -> Il tuo deployment -> Mostra la stima "Cost per month"
 
--> Il saldo del tuo wallet Keplr diminuirà nel tempo
+-> Il saldo del tuo portafoglio Keplr diminuirà nel tempo
 
 
-Quando il tuo saldo si esaurisce, Akash chiuderà automaticamente il tuo deployment. **Ricarica periodicamente il tuo wallet** o imposta degli avvisi.
+Quando il tuo saldo si esaurisce, Akash chiuderà automaticamente il tuo deployment. **Ricarica periodicamente il tuo portafoglio** o imposta degli avvisi.
 
 #### Ridurre i costi
 

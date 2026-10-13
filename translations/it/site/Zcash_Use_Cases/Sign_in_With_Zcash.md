@@ -106,7 +106,7 @@ Questi sono stati creati per la traccia **Zcash Login** dello [ZecHub Hackathon 
 - **ZecPass** - dimostra il possesso tramite un memo firmato, ed è costruito in modo che l'app non apprenda affatto l'indirizzo dell'utente. Deriva un hash con ambito applicativo da usare come identificatore stabile, mantiene le challenge monouso e con limite di tempo, e include un pulsante React pronto all'uso con una libreria di verifica per Node
 - **Portal** - accesso inviando una transazione schermata con un codice monouso nel memo, in esecuzione su mainnet. Lo stesso flusso viene riutilizzato per sbloccare contenuti a pagamento e per inviare o ricevere denaro da un link
 - **ZcashMe** - usa un pagamento schermato come prova di identità, e si concentra sul divario tra desktop e mobile in modo che l'accesso da laptop non richieda un'estensione del browser
-- **ZBooks** - uno strumento per contabilità e pagamenti che tratta l'accesso con Zcash come un primitivo di autenticazione riutilizzabile invece che come il prodotto stesso, e legge i dati della tesoreria tramite una Unified Full Viewing Key
+- **ZBooks** - uno strumento per la contabilità e i pagamenti che tratta l'accesso con Zcash come un primitivo di autenticazione riutilizzabile anziché come il prodotto stesso e legge i dati della tesoreria tramite una Unified Full Viewing Key
 
 <br/>
 

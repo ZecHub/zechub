@@ -62,7 +62,7 @@ Se un'attività accetta ZEC e non è ancora su ZecMap, qualsiasi membro della co
 | Location | Indirizzo per le attività fisiche; regione per quelle online |
 | Category | Bar, ristorante, negozio, servizio, negozio online, ecc. |
 | Evidence | Pagina pubblica dei pagamenti, annuncio del commerciante o conferma diretta |
-| Payment notes | Di persona, online o entrambi; ZEC trasparente o shielded |
+| Payment notes | Di persona, online o entrambi; ZEC trasparente o schermato |
 
 Gli invii dovrebbero evitare dati privati dei clienti. Se usi una prova di transazione, rimuovi i dettagli personali, i numeri d'ordine e gli indirizzi di casa prima di condividerla.
 

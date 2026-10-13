@@ -16,7 +16,7 @@ La ricerca ha riformulato la questione. Le chiavi di visualizzazione non sono un
 
 Due eventi relativi a pool schermate si sono verificati a poche settimane di distanza, a metà del 2026.
 
-**Zcash ha abbandonato Orchard.** Il ricercatore Taylor Hornby ha divulgato una vulnerabilità del circuito in Orchard che avrebbe potuto essere sfruttata per gonfiare l'offerta senza che ciò fosse rilevabile. Zcash ha risposto attivando **Ironwood (NU6.3)** il **28 luglio 2026**, introducendo una nuova pool schermata con un meccanismo di migrazione turnstile (tornello).
+**Zcash ha abbandonato Orchard.** Il ricercatore Taylor Hornby ha divulgato una vulnerabilità del circuito in Orchard che avrebbe potuto essere sfruttata per gonfiare l'offerta senza che ciò fosse rilevabile. Zcash ha risposto attivando **Ironwood (NU6.3)** il **28 luglio 2026**, introducendo una nuova pool schermata con un meccanismo di migrazione con il turnstile (tornello).
 
 **Dash ha adottato Orchard.** Dash ha annunciato il piano il [19 febbraio 2026](https://www.dash.org/blog/dash-is-adding-shielded-transactions-to-evolution/) — *"Prevediamo di poter lanciare presto i trasferimenti schermati, naturalmente in attesa degli audit di sicurezza e di ulteriore revisione del codice."* La [roadmap](https://www.dash.org/roadmap/) di Dash registra i saldi schermati come **completati a luglio 2026** con Dash Platform **v4.0**, e Dash ha pubblicato [*"Le transazioni schermate sono attive sulla mainnet Dash Evolution"*](https://www.dash.org/news/shielded-transactions-are-live-on-the-dash-evolution-mainnet/) il **4 agosto 2026**.
 
@@ -30,7 +30,7 @@ Dash esegue quindi ora un fork corretto della crittografia che Zcash stessa ha a
 
 ## Chiavi di visualizzazione: implementate, non una lacuna di ricerca
 
-La pool schermata di Dash è [Orchard](https://zips.z.cash/zip-0224), basata sugli zk-SNARKs Halo 2 che non richiedono alcun trusted setup. La gerarchia delle chiavi di Orchard ha sempre incluso Full Viewing Keys e Incoming Viewing Keys come parte della propria progettazione anziché come aggiunta successiva — quindi la capacità è arrivata con il codice, non come un porting che una delle due chain abbia dovuto negoziare.
+La pool schermata di Dash è [Orchard](https://zips.z.cash/zip-0224), basata sugli zk-SNARK Halo 2 che non richiedono alcun trusted setup. La gerarchia delle chiavi di Orchard ha sempre incluso Full Viewing Keys e Incoming Viewing Keys come parte della propria progettazione anziché come aggiunta successiva — quindi la capacità è arrivata con il codice, non come un porting che una delle due chain abbia dovuto negoziare.
 
 La roadmap di Dash espone direttamente l'intento:
 
@@ -63,16 +63,16 @@ All'interno di un account Orchard, la gerarchia è strettamente unidirezionale �
 
 | Chiave | Può fare | Deriva |
 |---|---|---|
-| Spending key | Spendere note | `ask`, `nk`, `rivk` |
+| Spending key | Spendere le note | `ask`, `nk`, `rivk` |
 | Spend authorizing key (`ask`) | Autorizzare spese | — |
-| Full Viewing Key (`ak`, `nk`, `rivk`) | Vedere pagamenti in entrata **e** in uscita | IVK, OVK |
+| Full Viewing Key (`ak`, `nk`, `rivk`) | Vedere i pagamenti in entrata **e** in uscita | IVK, OVK |
 | Incoming Viewing Key | Vedere solo i pagamenti in entrata | Indirizzi diversificati |
 | Outgoing Viewing Key | Recuperare i dettagli dei pagamenti in uscita | — |
 | Diversified address | Ricevere | — |
 
 Orchard ha semplificato questo rispetto a Sapling: secondo il [Orchard Book](https://zcash.github.io/orchard/design/keys.html), la chiave privata del nullifier `nsk` è stata rimossa, `nk` è diventato un elemento di campo anziché un punto della curva e `ovk` deriva ora dalla chiave di visualizzazione completa anziché essere detenuta separatamente.
 
-Al di sopra si trova [ZIP 316, *Indirizzi unificati e chiavi di visualizzazione unificate*](https://zips.z.cash/zip-0316) — Revisione 0 Active, Revisione 1 Withdrawn, Revisione 2 Draft — che raggruppa le chiavi per pool in **chiavi di visualizzazione complete unificate** ("combines multiple Full Viewing Key… Items") e in **Unified Incoming Viewing Key**. La distinzione che uno sviluppatore di portafogli deve rispettare: una UFVK rivela sia l'attività in entrata sia quella in uscita, una UIVK soltanto quella in entrata.
+Al di sopra di questo si trova [ZIP 316, *Indirizzi unificati e chiavi di visualizzazione unificate*](https://zips.z.cash/zip-0316) — Revisione 0 attiva, Revisione 1 ritirata, Revisione 2 bozza — che raggruppa le chiavi per pool in una **Unified Full Viewing Key** ("combines multiple Full Viewing Key… Items") e una **Unified Incoming Viewing Key**. La distinzione che uno sviluppatore di portafogli deve rispettare: una UFVK rivela sia l'attività in entrata sia quella in uscita, una UIVK soltanto quella in entrata.
 
 ### Dash
 
@@ -112,7 +112,7 @@ dove gli ultimi due componenti sono hash delle identità degli utenti. Zcash non
 
 Dash dispone di un sistema maturo di firme a soglia in **LLMQ basati su BLS** (Long-Living Masternode Quorums), usati per ChainLocks, InstantSend e il consenso dei validatori Dash Platform.
 
-[ZIP 312, *FROST per multifirme di autorizzazione alla spesa*](https://zips.z.cash/zip-0312), con stato **Draft**, fa qualcosa di diverso. Rende a soglia le firme di autorizzazione alla spesa basate su Schnorr già definite da Sapling e Orchard — rispettivamente **RedJubjub** e **RedPallas** — affinché, nella formulazione della stessa ZIP, *"utenti e servizi di terze parti che condividono la custodia di un portafoglio, o un gruppo di persone che gestisce fondi condivisi"* possano richiedere un'approvazione a soglia, come 2-su-3, prima di una spesa. È classificato come uno ZIP **Wallet**: produce firme compatibili con l'attuale autorizzazione alla spesa anziché modificare il consenso. Mantiene un ruolo di Coordinator, che la ZIP rifiuta esplicitamente di eliminare, e tratta sia la generazione di chiavi con trusted dealer sia la generazione distribuita di chiavi.
+[ZIP 312, *FROST per multifirme di autorizzazione alla spesa*](https://zips.z.cash/zip-0312), con stato **Draft**, fa qualcosa di diverso. Rende a soglia le firme di autorizzazione alla spesa basate su Schnorr già definite da Sapling e Orchard — rispettivamente **RedJubjub** e **RedPallas** — affinché, nella formulazione della ZIP stessa, *"utenti e servizi di terze parti che condividono la custodia di un portafoglio, o un gruppo di persone che gestisce fondi condivisi"* possano richiedere un'approvazione a soglia, come 2-su-3, prima di una spesa. È classificato come uno ZIP **Wallet**: produce firme compatibili con l'attuale autorizzazione alla spesa anziché modificare il consenso. Mantiene un ruolo di Coordinator, che la ZIP rifiuta esplicitamente di eliminare, e tratta sia la generazione di chiavi con trusted dealer sia la generazione distribuita di chiavi.
 
 La distinzione importante, e il motivo per cui non si tratta di sostituti:
 

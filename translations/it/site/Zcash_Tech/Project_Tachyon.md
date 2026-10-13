@@ -100,7 +100,7 @@ Il lavoro correlato è già visibile. [Zakura](https://zechub.wiki/zcash-tech/za
 | Out-of-band payment | Passare i dettagli del pagamento direttamente tra mittente e destinatario invece che attraverso la chain |
 | Oblivious synchronization | Sincronizzazione cieca: recuperare i dati della chain di cui un portafoglio ha bisogno senza rivelare quali dati sono stati richiesti |
 | Proof-carrying data (PCD) | Dati che viaggiano con una prova della propria correttezza, così che le prove possano essere combinate e compresse |
-| Shielded transaction aggregate | Il modo in cui Tachyon raggruppa i cambiamenti dello stato schermato, modificando come vengono comunicati e firmati |
+| Shielded transaction aggregate | Il modo in cui Tachyon raggruppa i cambiamenti dello stato schermato, modificando il modo in cui vengono comunicati e firmati |
 | ledger indistinguishability | La proprietà per cui le transazioni schermate non possono essere distinte l'una dall'altra |
 
 <br/>

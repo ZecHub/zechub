@@ -27,7 +27,7 @@ Per ponderare in base alla quota posseduta, sembrerebbe necessario conoscere il 
 
 ## L'intuizione: un'urna che si conta da sola
 
-> Un turnstile (tornello) consente di contare ciò che passa attraverso un caveau bancario senza guardarne l'interno. Un'urna schermata fa un passo ulteriore: somma i voti sigillati senza mai aprirli.
+> Un turnstile (tornello) consente di contare ciò che passa attraverso un caveau bancario senza vederne l'interno. Un'urna schermata fa un passo ulteriore: somma i voti sigillati senza mai aprirli.
 
 Immagina un'urna con tre poteri insoliti. Può aggiungere una busta sigillata a un totale progressivo senza aprirla. Un gruppo di funzionari, nessuno dei quali detiene da solo la chiave, rivela in seguito soltanto i totali finali. E prima di poter inserire una busta, dimostri discretamente di aver detenuto ZEC in un preciso momento passato e di non aver già votato, senza mostrare quali monete siano tue. Tutto ciò che segue spiega come quell'urna viene realmente costruita.
 

@@ -89,7 +89,7 @@ Il multisig in Zkool usa la **generazione distribuita delle chiavi (DKG)** per g
 
 
 ### Passo 1: avvia la DKG
-Scegli un **Nome** per il wallet condiviso (es. Anabelle).
+Scegli un **Nome** per il portafoglio condiviso (es. Anabelle).
 
 Imposta il **Numero di partecipanti**.
   
@@ -109,7 +109,7 @@ Seleziona l'**Account di finanziamento**.
 
 
 **Nota:** se usi un indirizzo solo Orchard o solo Sapling, il multisig sarà limitato a quella sola pool (Orchard o Sapling).  
-Questo significa che il wallet condiviso non può ricevere fondi da altre pool.  
+Questo significa che il portafoglio condiviso non può ricevere fondi da altre pool.  
 Per la massima compatibilità e flessibilità, usa sempre gli **Unified Address**.  
 
 
@@ -131,4 +131,4 @@ Una volta completato, viene generato un **indirizzo condiviso**.
 
 ## Conclusione
 
-Con Zkool puoi: creare account, inviare e ricevere fondi e impostare un **wallet multisig** usando la generazione distribuita delle chiavi. Questo garantisce una **sicurezza potenziata** e una **gestione dei fondi collaborativa e privata**.  
+Con Zkool puoi: creare account, inviare e ricevere fondi e impostare un **portafoglio multisig** usando la generazione distribuita delle chiavi. Questo garantisce una **sicurezza potenziata** e una **gestione dei fondi collaborativa e privata**.  

@@ -67,11 +67,11 @@ Per **Zcash Mainnet**;
 - RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
-`https://zjs.zec.rocks` è un server lightwalletd compatibile con WebZjs (gRPC-web), gestito da [zec.rocks](https://zec.rocks) (@emersonian). Per la testnet, usa `https://zjs.zec.rocks/testnet`. Se esegui tu stesso il web wallet WebZjs, questo è il valore da impostare come `LIGHTWALLETD_PROXY`.
+`https://zjs.zec.rocks` è un server lightwalletd compatibile con WebZjs (gRPC-web), gestito da [zec.rocks](https://zec.rocks) (@emersonian). Per la testnet, usa `https://zjs.zec.rocks/testnet`. Se esegui tu stesso il portafoglio web WebZjs, questo è il valore da impostare come `LIGHTWALLETD_PROXY`.
 
 ---
 
-## **3. Connettiti al Wallet WebZjs di ChainSafe**
+## **3. Connettiti al portafoglio web WebZjs di ChainSafe**
 
 1. Visita [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Clicca **Connetti MetaMask Snap**.  
@@ -92,7 +92,7 @@ Per **Zcash Mainnet**;
 
 ---
 
-## **4. Finanzia il tuo Wallet**
+## **4. Finanzia il tuo portafoglio**
 
 > **Scambia ETH -> ZEC** - Utilizza servizi come **LeoDex** e invia al tuo indirizzo schermato.  
 > **Prelievo da Exchange** - Preleva ZEC acquistati verso il tuo indirizzo schermato di WebZjs.  

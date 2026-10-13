@@ -32,7 +32,7 @@ La Zcash Foundation non riceve più finanziamenti dal [fondo](https://zips.z.cas
   
 [https://zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
-Questo programma finanzia team indipendenti affinché svolgano importanti attività di sviluppo continuativo (o altri lavori) che vanno a beneficio dell'ecosistema Zcash. Le sovvenzioni vengono assegnate da un comitato di cinque persone eletto dallo Zcash Community Advisory Panel. I team e le organizzazioni interessate a far progredire l'usabilità, la sicurezza, la privacy e l'adozione di Zcash sono caldamente incoraggiati a candidarsi per una Zcash Community Grant!
+Questo programma finanzia team indipendenti affinché svolgano importanti attività di sviluppo continuativo (o altri lavori) che vanno a beneficio dell'ecosistema Zcash. I finanziamenti vengono assegnati da un comitato di cinque persone eletto dallo Zcash Community Advisory Panel. I team e le organizzazioni interessate a far progredire l'usabilità, la sicurezza, la privacy e l'adozione di Zcash sono caldamente incoraggiati a candidarsi per una Zcash Community Grant!
 
 
 ## Video in Evidenza della Zcash Foundation

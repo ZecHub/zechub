@@ -660,7 +660,7 @@ Dopo aver installato il plugin, apparirà una nuova sezione **Zcash** nel menu d
 
 `Zcash -> Settings`
 
-2. Incolla la tua **Unified Full Viewing Key (UFVK)** - BTCPay deriverà una Unified Address per ogni fattura e rileverà i pagamenti schermati in entrata.
+2. Incolla la tua **Unified Full Viewing Key (UFVK)** - BTCPay deriverà un indirizzo unificato per ogni fattura e rileverà i pagamenti schermati in entrata.
 
 > **Nota:** le chiavi di visualizzazione Sapling legacy sono supportate, ma per usare gli indirizzi Orchard/unificati dovresti fornire una **UFVK**.
 

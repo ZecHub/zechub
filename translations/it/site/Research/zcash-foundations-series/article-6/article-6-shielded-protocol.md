@@ -153,7 +153,7 @@ Questo è il quadro più completo della serie, ma resta pur sempre un modello. A
 | Termine | Significato in parole semplici |
 |---|---|
 | **Spending key** | L'unico segreto radice da cui derivano tutte le chiavi di un utente |
-| **Viewing key** | Rivela le tue transazioni a chi la detiene senza permettergli di spendere |
+| **Viewing key** | Rivela le tue transazioni a chi la possiede senza permettergli di spendere |
 | **Spend description** | La parte di una tx che consuma una nota (nullifier, anchor, prova) |
 | **Output description** | La parte di una tx che crea una nota (commitment, testo cifrato, prova) |
 | **Action (Orchard)** | Un'unità unificata che esegue insieme una spesa e un output |

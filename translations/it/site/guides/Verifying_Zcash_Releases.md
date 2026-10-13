@@ -225,7 +225,7 @@ Il bundle contiene una voce Rekor che prova che la firma è stata pubblicata in 
 
 È questo che rende rilevabile un uso improprio silenzioso delle chiavi. Una firma che non è mai comparsa nel log, o che vi è comparsa in un momento implausibile, è un segnale su cui vale la pena agire. Confronta il tempo di integrazione con l'annuncio della release.
 
-> **Nota sul percorso OpenSSL:** verifica la firma rispetto alla chiave pubblica del certificato, ma di per sé non convalida la catena del certificato fino alla root di Sigstore né controlla la prova di inclusione della voce nel log. `cosign verify-blob` fa tutte e tre le cose. Usa OpenSSL per capire il meccanismo; usa `cosign` come controllo effettivo.
+> **Nota sul percorso OpenSSL:** verifica la firma rispetto alla chiave pubblica del certificato, ma di per sé non convalida la catena di certificati fino alla radice di Sigstore né controlla la prova di inclusione della voce di log. `cosign verify-blob` fa tutte e tre le cose. Usa OpenSSL per capire il meccanismo; usa `cosign` come controllo effettivo.
 
 ---
 
@@ -443,7 +443,7 @@ La verifica funziona in modo diverso quando si esce dai download diretti.
 
 **App store.** Non puoi controllare personalmente una firma. È lo store a firmare il pacchetto, e tu ti fidi della revisione dello store e dell'integrità dell'account sviluppatore. Quello che *puoi* verificare è di avere l'app giusta: conferma il nome dell'editore e l'identificatore del pacchetto rispetto al sito ufficiale del progetto, non ai risultati di ricerca. Le app di impersonificazione sono comuni, e una scheda nello store non è una prova di autenticità.
 
-**APK Android standalone.** Questi *possono* essere verificati. ZODL pubblica binari Android standalone firmati con GPG tramite GitHub Releases, quindi si applica il flusso della Parte 2. Preferisci questo percorso se vuoi una catena verificabile.
+**APK Android autonomi.** Questi *possono* essere verificati. ZODL pubblica binari Android autonomi firmati con GPG tramite GitHub Releases, quindi si applica il flusso della Parte 2. Preferisci questo percorso se vuoi una catena verificabile.
 
 **Portafogli hardware.** Il dispositivo attesta il proprio firmware, quindi l'ancora di fiducia è l'hardware, non un file sulla tua macchina. Vedi [Keystone Zashi](/guides/keystone-zashi) per il flusso di verifica del dispositivo. Acquista direttamente dal produttore: le manomissioni della supply chain avvengono tra la fabbrica e l'acquirente.
 

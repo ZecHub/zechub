@@ -12,9 +12,9 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Termine | Definizione |
 |------|-----------|
 | Actions | Invece di creare diverse prove individuali per ogni Spend e Output, il protocollo Orchard le unisce in una singola Action. |
-| Addresses | Zcash ha indirizzi Shielded (Z/zaddr) e Transparent (T/taddr). Gli indirizzi Unified (UA) stanno progressivamente sostituendo Z e T in seguito all'aggiornamento NU5. |
+| Addresses | Zcash ha indirizzi schermati (Z/zaddr) e trasparenti (T/taddr). Gli indirizzi unificati (UA) stanno progressivamente sostituendo Z e T in seguito all'aggiornamento di rete NU5. |
 | Arborist Call | Una call quindicinale che copre gli aggiornamenti sullo sviluppo del protocollo e della ricerca di Zcash. Ospitata sul Forum della Community di Zcash e su Discord. [Note della riunione](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Annunci sul forum](https://forum.zcashcommunity.com) |
-| Auto-shielding | Consente agli utenti (più precisamente ai loro wallet) di spostare automaticamente i fondi da un indirizzo transparent al più recente pool Shielded di ZEC. |
+| Auto-shielding | Consente agli utenti (più precisamente ai loro portafogli) di spostare automaticamente i fondi da un indirizzo trasparente alla più recente pool schermata di ZEC. |
 
 ## B
 
@@ -42,7 +42,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Termine | Definizione |
 |------|-----------|
 | DeFi | Progetti che integrano ZEC con la DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
-| Deshielding | Si riferisce a una transazione inviata da uno zaddr (indirizzo shielded) a un taddr (indirizzo transparent). L'origine della transazione non è visibile, tuttavia i fondi entrano in una pool di valore visibile pubblicamente. |
+| Deshielding | Si riferisce a una transazione inviata da uno zaddr (indirizzo schermato) a un taddr (indirizzo trasparente). L'origine della transazione non è visibile, tuttavia i fondi entrano in una pool di valore visibile pubblicamente. |
 | Developer Resources | [Risorse per sviluppatori](https://www.zcashcommunity.com/developers/) |
 | Documentation | [Documentazione ufficiale](https://zcash.readthedocs.io/en/latest/) |
 
@@ -53,7 +53,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | ECC | La Electric Coin Company, il team che ha lanciato il protocollo Zcash, precedentemente noto come Zcash Company. L'intero team di ingegneria si è dimesso nel gennaio 2026 in seguito a una disputa sulla governance con il consiglio di Bootstrap, e ha poi dato vita a ZODL. |
 | ECDSA | Elliptic Curve Digital Signature Algorithm è uno schema di firma digitale crittograficamente sicuro. L'algoritmo di firma/verifica ECDSA si basa sulla moltiplicazione di punti su curva ellittica. |
 | Education | Video didattici che spiegano Zcash [qui](https://www.zcashcommunity.com/zcash-education/) |
-| Encrypted Memos | Un campo aggiuntivo per le transazioni inviate a indirizzi shielded, visibile al destinatario di un pagamento. Il memo crittografato è visibile solo al mittente e al destinatario. |
+| Encrypted Memos | Un campo aggiuntivo per le transazioni inviate a indirizzi schermati, visibile al destinatario di un pagamento. Il memo crittografato è visibile solo al mittente e al destinatario. |
 | Equihash | L'algoritmo di mining proof-of-work usato da Zcash, progettato per richiedere molta memoria (RAM). |
 | Events | Il calendario degli eventi relativi a Zcash può essere consultato su [Luma](https://luma.com/zcash) e [Zcash Foundation](https://zfnd.org/zf-events/) |
 | Exchanges | [Elenco degli exchange che supportano Zcash](https://z.cash/exchanges/) |
@@ -79,7 +79,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Termine | Definizione |
 |------|-----------|
 | Halo | Consente aggiornamenti dei circuiti senza la necessità di trusted setup, rendendo il protocollo schermato di Zcash più agile per futuri miglioramenti ed estensioni. [Spiegazione tecnica](https://z.cash/learn/what-is-halo-for-zcash/) |
-| HD Wallet | I wallet gerarchici deterministici generano una serie di coppie di chiavi a partire da un unico seed, offrendo praticità e gestibilità oltre a un elevato livello di sicurezza. |
+| HD Wallet | I portafogli gerarchici deterministici generano una serie di coppie di chiavi a partire da un unico seed, offrendo praticità e gestibilità oltre a un elevato livello di sicurezza. |
 | Heartwood | Il 4° grande aggiornamento di rete di Zcash. [Maggiori informazioni](https://z.cash/upgrade/heartwood/) |
 
 ## I
@@ -138,7 +138,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Termine | Definizione |
 |------|-----------|
 | Oblivious Synchronization | Sincronizzazione cieca: un metodo in fase di sviluppo nel Project Tachyon che consente a un portafoglio di richiedere a un server non affidabile i dati di cui ha bisogno senza rivelare di quali note sta chiedendo informazioni. Il server non apprende mai i tuoi nullifier, perché il protocollo li fa evolvere in modo non collegabile. [Approfondimento](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | La terza pool shielded di Zcash e rappresenta la continua evoluzione del nostro stack tecnologico zk-SNARK. [Dettagli completi](https://electriccoin.co/blog/explaining-halo-2/) |
+| Orchard Shielded Pool | È la terza pool schermata di Zcash e rappresenta la continua evoluzione del nostro stack tecnologico zk-SNARK. [Dettagli completi](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | Il 1° aggiornamento di rete di Zcash. [Maggiori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
@@ -146,35 +146,35 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Termine | Definizione |
 |------|-----------|
 | Payments | È possibile usare Zcash per acquisti quotidiani tramite diversi fornitori di pagamento. [App di pagamento](https://z.cash/pay-with-zcash/) |
-| PCD (Proof-Carrying Data) | Una primitiva in cui i dati viaggiano insieme a una prova della propria correttezza, così che combinando i dati si combinano anche le prove. Project Tachyon ricostruisce il protocollo shielded attorno a PCD, permettendo a ogni wallet di portare con sé una prova ricorsiva che il proprio saldo è corretto invece di dover riesaminare la chain. L'implementazione di Zcash è [Ragu](https://github.com/tachyon-zcash/ragu), che segue Halo e non richiede trusted setup. |
+| PCD (Proof-Carrying Data) | Una primitiva in cui i dati viaggiano insieme a una prova della propria correttezza, così che combinando i dati si combinano anche le prove. Project Tachyon ricostruisce il protocollo schermato attorno a PCD, permettendo a ogni portafoglio di portare con sé una prova ricorsiva che il proprio saldo è corretto invece di dover riesaminare la chain. L'implementazione di Zcash è [Ragu](https://github.com/tachyon-zcash/ragu), che segue Halo e non richiede un trusted setup. |
 | Peer-to-Peer Network | Le reti P2P si basano sul concetto di decentralizzazione. L'architettura fondamentale della tecnologia blockchain. |
-| PIR (Private Information Retrieval) | Tecniche che consentono di recuperare un record da un server senza che il server scopra quale record hai richiesto. Sono oggetto di ricerca attiva per Zcash come modo per consentire ai light wallet di recuperare ciò di cui hanno bisogno senza rivelare cosa stanno cercando. |
+| PIR (Private Information Retrieval) | Tecniche che consentono di recuperare un record da un server senza che il server scopra quale record hai richiesto. Sono oggetto di ricerca attiva per Zcash come modo per consentire ai portafogli light di recuperare ciò di cui hanno bisogno senza rivelare cosa stanno cercando. |
 | Podcast | [Radiolab (Cerimonia di Zcash)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast en Español](https://www.youtube.com/@ZcastEsp) |
 
 ## Q
 
 | Termine | Definizione |
 |------|-----------|
-| QR Code | Un codice leggibile da una macchina usato per codificare indirizzi Zcash e facilitarne la scansione. Gli Unified Address (UA) vengono tipicamente condivisi tramite codici QR nei moderni wallet Zcash. |
+| QR Code | Un codice leggibile da una macchina usato per codificare indirizzi Zcash e facilitarne la scansione. Gli indirizzi unificati (UA) vengono tipicamente condivisi tramite codici QR nei moderni portafogli Zcash. |
 | Quantum Recoverability | Una proprietà delle note Ironwood, specificata in [ZIP 2005](https://zips.z.cash/zip-2005), che mantiene recuperabile la registrazione on-chain di una moneta se un futuro computer quantistico dovesse compromettere la crittografia che oggi la protegge. Si tratta di un percorso di recupero piuttosto che di resistenza quantistica, e si applica alle note Ironwood, non ai fondi Sprout, Sapling o Orchard esistenti. |
 
 ## R
 
 | Termine | Definizione |
 |------|-----------|
-| Recovery Phrase | Una sequenza di 12 o 24 lettere e numeri usata per eseguire il backup e ripristinare un wallet. In Zcash, questa frase rigenera spending key e viewing key, rendendola fondamentale per il recupero dei fondi e la sicurezza. |
+| Recovery Phrase | Una sequenza di 12 o 24 lettere e numeri usata per eseguire il backup e ripristinare un portafoglio. In Zcash, questa frase rigenera chiavi di spesa e chiavi di visualizzazione, rendendola fondamentale per il recupero dei fondi e la sicurezza. |
 
 ## S
 
 | Termine | Definizione |
 |------|-----------|
 | Sapling | Un importante aggiornamento di rete che ha introdotto notevoli miglioramenti di efficienza per le transazioni schermate e ha aperto la strada all'adozione mobile. Attivato al blocco 419200. |
-| Selective Disclosure | Consente al proprietario di un indirizzo shielded di condividere selettivamente chiavi di visualizzazione o divulgazioni di pagamento con terze parti, mantenendo i dati privati per tutti gli altri. |
-| Shielded Address | Chiamato anche zaddr. Inizia con z. Nasconde mittente, destinatario, importo e memo usando zk-SNARKs. |
+| Selective Disclosure | Consente al proprietario di un indirizzo schermato di condividere selettivamente chiavi di visualizzazione o divulgazioni di pagamento con terze parti, mantenendo i dati privati per tutti gli altri. |
+| Shielded Address | Detto anche zaddr. Inizia con z. Nasconde mittente, destinatario, importo e memo usando gli zk-SNARK. |
 | Shielded Labs | Un'organizzazione indipendente che lavora sull'economia del protocollo e sul consenso di Zcash. Attualmente guida Crosslink e il Network Sustainability Mechanism. [GitHub](https://github.com/ShieldedLabs) |
-| Shielded Transaction | Una transazione esclusivamente tra indirizzi shielded. Completamente privata sulla blockchain. |
+| Shielded Transaction | Una transazione esclusivamente tra indirizzi schermati. Completamente privata sulla blockchain. |
 | Sol/s | Soluzioni al secondo - misura le prestazioni di mining di Equihash. |
-| Spending Key | La chiave privata che consente di spendere da un indirizzo shielded (consente anche di visualizzare saldo e cronologia). |
+| Spending Key | La chiave di spesa privata che consente di spendere da un indirizzo schermato (consente anche di visualizzare saldo e cronologia). |
 | Sprout | La versione originale del protocollo schermato di Zcash (lanciata nel 2016). |
 
 ## T
@@ -184,7 +184,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Tachyon | Il programma di scalabilità di Zcash, previsto per NU7. Invece di scansionare ogni blocco, i portafogli useranno uno stato corredato di prove e la sincronizzazione cieca (Oblivious Synchronization), mentre i nodi potranno eliminare i dati non più necessari. L'obiettivo è un throughput schermato di migliaia di transazioni al secondo. [Sito del progetto](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (valuta di test senza valore). |
 | Testnet | Una blockchain separata per testare aggiornamenti e funzionalità prima della mainnet. |
-| Trailing Finality Layer (TFL) | Ricerca sull'aggiunta di un livello di finalità dietro la catena proof-of-work di Zcash, in modo che i blocchi recenti possano essere finalizzati senza sostituire il mining. Crosslink è il design nato da questa ricerca. |
+| Trailing Finality Layer (TFL) | Ricerca sull'aggiunta di un livello di finalità dietro la chain proof-of-work di Zcash, in modo che i blocchi recenti possano essere finalizzati senza sostituire il mining. Crosslink è il design nato da questa ricerca. |
 | Transaction | Un pagamento tra utenti, inviato alla rete e infine confermato in un blocco. |
 | Transaction Expiry | Le transazioni scadono dopo circa 25 minuti (20 blocchi) se non confermate; i fondi ritornano automaticamente. |
 | Transaction Fee | La commissione predefinita è 0.0001 ZEC. Le commissioni più alte hanno priorità; commissioni molto basse possono causare ritardi o scadenza. |
@@ -203,13 +203,13 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 
 | Termine | Definizione |
 |------|-----------|
-| Viewing Key | Una chiave privata che consente di visualizzare il saldo e la cronologia delle transazioni di un indirizzo schermato senza poter spendere i fondi. |
+| Viewing Key | Una chiave di visualizzazione privata che consente di visualizzare il saldo e la cronologia delle transazioni di un indirizzo schermato senza poter spendere i fondi. |
 
 ## W
 
 | Termine | Definizione |
 |------|-----------|
-| Wallet | Software o hardware che conserva le chiavi private e consente di inviare/ricevere ZEC. I wallet attivi includono ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (in arrivo) e Keystone (hardware). Per un elenco completo, vedi [Wallet dell'ecosistema Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software o hardware che conserva le chiavi private e consente di inviare/ricevere ZEC. I portafogli attivi includono ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (in arrivo) e Keystone (hardware). Per un elenco completo, vedi [Portafogli dell'ecosistema Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Il primo SDK JavaScript per Zcash, sviluppato da ChainSafe per ambienti del browser. È alla base dello snap Zcash Shielded Wallet che ha portato gli ZEC schermati su MetaMask. |
 
 ## X

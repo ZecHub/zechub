@@ -4,7 +4,7 @@
 
 # Stack Z3
 
-Lo **Stack Z3** è la piattaforma di nodi preconfezionata di Zcash Foundation: **Zebra** (nodo completo) + **Zallet** (wallet per nodo completo), con un indicizzatore **Zaino** opzionale. È il sostituto previsto di un processo `zcashd` indipendente, che riuniva consenso e wallet in un unico binario e ha raggiunto la fine del ciclo di vita il 18 luglio 2026.
+Lo **Stack Z3** è la piattaforma di nodi preconfezionata di Zcash Foundation: **Zebra** (full node (nodo completo)) + **Zallet** (portafoglio per full node), con un indicizzatore **Zaino** opzionale. È il sostituto previsto di un processo `zcashd` indipendente, che riuniva consenso e portafoglio in un unico binario e ha raggiunto la fine del ciclo di vita il 18 luglio 2026.
 
 L'implementazione di riferimento è il progetto Docker Compose disponibile su [github.com/ZcashFoundation/z3](https://github.com/ZcashFoundation/z3).
 
@@ -12,22 +12,22 @@ L'implementazione di riferimento è il progetto Docker Compose disponibile su [g
 
 ## In breve
 
-* Z3 **non è un nuovo client di consenso**. È il modo per eseguire insieme lo stack post-`zcashd`: Zebra convalida la catena, Zallet conserva le chiavi e offre RPC del wallet, e Zaino (opzionale) parla il protocollo gRPC lightwalletd.
-* `zcashd` riuniva nodo + wallet. Z3 **separa questi ruoli**. Exchange, pool di mining e altri operatori di wallet per nodi completi migrano a questa combinazione anziché a Zebra da solo.
+* Z3 **non è un nuovo client di consenso**. È il modo per eseguire insieme lo stack post-`zcashd`: Zebra convalida la chain, Zallet conserva le chiavi e offre RPC del portafoglio, e Zaino (opzionale) parla il protocollo gRPC lightwalletd.
+* `zcashd` riuniva nodo + portafoglio. Z3 **separa questi ruoli**. Gli exchange, le pool di mining e altri operatori di portafogli per full node migrano a questa combinazione anziché a Zebra da solo.
 * Tre progetti Compose isolati possono essere eseguiti su un singolo host: **mainnet**, **testnet** e **regtest**.
 * La prima sincronizzazione di mainnet richiede circa **24–72 ore** e circa **300 GB**. Regtest si avvia in pochi secondi ed è il posto giusto per imparare a usare lo stack.
-* Zallet incorpora le librerie dell'indicizzatore di Zaino e comunica con Zebra tramite JSON-RPC. Il servizio Zaino indipendente è necessario soltanto se desideri un endpoint compatibile con lightwalletd per wallet esterni.
-* Zallet è in **beta**. Le modifiche incompatibili possono richiedere l'eliminazione e la ricreazione del wallet. Non trattarlo come software di custodia definitivo per somme elevate.
+* Zallet incorpora le librerie dell'indicizzatore di Zaino e comunica con Zebra tramite JSON-RPC. Il servizio Zaino indipendente è necessario soltanto se desideri un endpoint compatibile con lightwalletd per portafogli esterni.
+* Zallet è in **beta**. Le modifiche incompatibili possono richiedere l'eliminazione e la ricreazione del portafoglio. Non trattarlo come software custodial (custodia di terzi) definitivo per somme elevate.
 
 ---
 
 ## Perché esiste Z3
 
-Per gran parte della vita di Zcash, `zcashd` è stato sia il nodo completo di riferimento sia l'unico wallet per nodo completo di produzione. Questo design è quello con cui si sono integrati exchange, pool e custodi.
+Per gran parte della vita di Zcash, `zcashd` è stato sia il full node di riferimento sia l'unico portafoglio per full node di produzione. Questo design è quello con cui si sono integrati gli exchange, le pool e i custodi.
 
-`zcashd` è ritirato. Il consenso è passato a [Zebra](/zcash-tech/zebra-full-node) (e ora anche a [Zakura](/zcash-tech/zakura-node)). Il wallet integrato è passato a [Zallet](https://github.com/zcash/zallet). Il servizio per light wallet sta passando da [lightwalletd](/zcash-tech/lightwallet-nodes) a [Zaino](/zcash-tech/zaino).
+`zcashd` è ritirato. Il consenso è passato a [Zebra](/zcash-tech/zebra-full-node) (e ora anche a [Zakura](/zcash-tech/zakura-node)). Il portafoglio integrato è passato a [Zallet](https://github.com/zcash/zallet). Il servizio per portafogli light sta passando da [lightwalletd](/zcash-tech/lightwallet-nodes) a [Zaino](/zcash-tech/zaino).
 
-Questi tre componenti sono repository separati, con cicli di rilascio e configurazioni separati. Z3 è il collante: immagini fissate, controlli di integrità che tengono il wallet inattivo finché il nodo non è sincronizzato, porte e volumi per rete e un percorso operativo documentato.
+Questi tre componenti sono repository separati, con cicli di rilascio e configurazioni separati. Z3 è il collante: immagini fissate, controlli di integrità che tengono il portafoglio inattivo finché il nodo non è sincronizzato, porte e volumi per rete e un percorso operativo documentato.
 
 Il nome è un'abbreviazione informale nell'ecosistema — Zebra, Zaino, Zallet — anche se il file Compose predefinito avvia solo Zebra e Zallet. Zaino è un profilo Compose, non un terzo processo obbligatorio.
 
@@ -53,8 +53,8 @@ Il nome è un'abbreviazione informale nell'ecosistema — Zebra, Zaino, Zallet �
 
 | Componente | Ruolo in Z3 | Obbligatorio? |
 | --- | --- | --- |
-| **Zebra** | Sincronizza e convalida la catena, gossip, JSON-RPC, endpoint di integrità | Sì |
-| **Zallet** | Wallet per nodo completo. Incorpora librerie Zaino. Si connette direttamente al JSON-RPC di Zebra. **Non** chiama il container Zaino indipendente | Sì |
+| **Zebra** | Sincronizza e convalida la chain, gossip, JSON-RPC, endpoint di integrità | Sì |
+| **Zallet** | Portafoglio per full node. Incorpora librerie Zaino. Si connette direttamente al JSON-RPC di Zebra. **Non** chiama il container Zaino indipendente | Sì |
 | **Zaino** | Indicizzatore indipendente. gRPC compatibile con lightwalletd per client leggeri esterni, più un proxy JSON-RPC per explorer e faucet | No — `--profile indexer` |
 
 Z3 fissa le versioni delle immagini in `docker-compose.yml`. Sostituiscile con `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE` o `Z3_ZALLET_IMAGE` se hai bisogno di un tag diverso.
@@ -66,14 +66,14 @@ Z3 fissa le versioni delle immagini in `docker-compose.yml`. Sostituiscile con `
 | | zcashd | Z3 |
 | --- | --- | --- |
 | Linguaggio | C++ (fork di Bitcoin) | Servizi Rust, orchestrati con Docker Compose |
-| Modello di processo | Un binario: nodo + wallet | Container separati per nodo e wallet |
+| Modello di processo | Un binario: nodo + portafoglio | Container separati per nodo e portafoglio |
 | Consenso | Ritirato (EOS 18 luglio 2026) | Zebra (o un altro nodo compatibile) |
-| Wallet | `wallet.dat` integrato | Zallet, datadir crittografata con age |
+| Wallet | `wallet.dat` integrato | Zallet, directory dei dati crittografata con age |
 | Client leggeri | Solitamente un lightwalletd separato | Profilo Zaino opzionale |
 | Configurazione | `zcash.conf` | File per rete in `config/<network>/` più file env Compose |
 | Reti su un unico host | Conflitti di porte problematici | Supporto nativo: `z3-mainnet`, `z3-testnet`, `z3-regtest` |
 
-Se possiedi ancora un wallet `zcashd`, usa la guida alla migrazione ZecHub di [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet) e il comando `migrate-zcashd-wallet` di Zallet anziché copiare `wallet.dat` nel volume Z3.
+Se possiedi ancora un portafoglio `zcashd`, usa la guida alla migrazione ZecHub [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet) e il comando `migrate-zcashd-wallet` di Zallet anziché copiare `wallet.dat` nel volume Z3.
 
 ---
 
@@ -87,7 +87,7 @@ Z3 consiste di tre progetti Compose indipendenti. Non condividono porte né volu
 | **testnet** | `z3-testnet` | Staging sulla rete di test pubblica | 2–12 ore | No (ZEC di test) |
 | **regtest** | `z3-regtest` | Esercitazione locale: blocchi istantanei, nessun peer | Secondi | No |
 
-I nuovi operatori dovrebbero iniziare su **regtest**, verificare i flussi RPC e del wallet, quindi passare a testnet o mainnet.
+I nuovi operatori dovrebbero iniziare su **regtest**, verificare i flussi RPC e del portafoglio, quindi passare a testnet o mainnet.
 
 ---
 
@@ -112,12 +112,12 @@ All'interno della rete Compose, i servizi vengono risolti per nome (`zebra`, `za
 
 | Volume | Contenuto | Backup? |
 | --- | --- | --- |
-| `z3-<network>-chain` | Stato della catena di Zebra (~300 GB mainnet) | Facoltativo — risincronizzabile |
-| `z3-<network>-zallet` | Database del wallet crittografato **e** identità age che lo sblocca | **Sì — questo è l'unico volume di cui è necessario eseguire il backup** |
+| `z3-<network>-chain` | Stato della chain di Zebra (~300 GB mainnet) | Facoltativo — risincronizzabile |
+| `z3-<network>-zallet` | Database del portafoglio crittografato **e** identità age che lo sblocca | **Sì — questo è l'unico volume di cui è necessario eseguire il backup** |
 | `z3-<network>-zaino` | Stato dell'indicizzatore (solo con il profilo indicizzatore) | Facoltativo — ricostruibile |
 | `z3-<network>-cookie` | Cookie RPC di Zebra | No — rigenerato |
 
-Per collocare lo stato della catena su un altro disco prima del primo avvio:
+Per collocare lo stato della chain su un altro disco prima del primo avvio:
 
 ```bash
 export Z3_CHAIN_DATA_PATH=/mnt/ssd/zebra-state
@@ -181,7 +181,7 @@ Le porte Grafana predefinite sono 3000 (mainnet), 13000 (testnet), 23000 (regtes
 ## Note per gli operatori
 
 * **Immagini fissate.** Z3 non passa silenziosamente a `:latest`. Aggiorna un pin in una modifica revisionata oppure imposta `Z3_<SERVICE>_IMAGE`.
-* **Container non root.** Le capability Linux vengono rimosse. I controlli di integrità ritardano il wallet finché Zebra non è pronto. Il criterio di riavvio è attivo per impostazione predefinita.
+* **Container non root.** Le capability Linux vengono rimosse. I controlli di integrità ritardano il portafoglio finché Zebra non è pronto. Il criterio di riavvio è attivo per impostazione predefinita.
 * **Log.** Z3 non fissa un driver di logging. Imposta limiti di dimensione nella configurazione del demone Docker, altrimenti i log crescono senza limiti su un nodo attivo 24/7.
 * **P2P.** Mainnet e testnet pubblicano la porta P2P di Zebra. Dietro NAT, imposta `ZEBRA_NETWORK__EXTERNAL_ADDR` all'indirizzo che i peer devono contattare. Regtest non ha peer.
 * **Zaino su ARM.** L'immagine upstream Zaino è solo `linux/amd64`. Su Apple Silicon viene eseguita in emulazione, a meno che tu non compili dai sorgenti. Zebra e Zallet sono multi-arch.
@@ -195,26 +195,26 @@ Checklist orientata alla produzione e FAQ: [docs/faq.md](https://github.com/Zcas
 
 **Adatto**
 
-* Exchange, custodi e pool di mining che usavano `zcashd` come nodo più wallet
-* Operatori che desiderano un RPC del wallet per nodo completo supportato su un Zebra sincronizzato
+* Gli exchange, i custodi e le pool di mining che usavano `zcashd` come nodo più portafoglio
+* Operatori che desiderano un RPC del portafoglio per full node supportato su uno Zebra sincronizzato
 * Sviluppatori che necessitano di mainnet, testnet e regtest affiancati
 * Chiunque configuri un endpoint privato compatibile con lightwalletd tramite il profilo Zaino
 
 **Solitamente lo strumento sbagliato**
 
-* Utenti finali che devono soltanto inviare e ricevere ZEC — usino un light wallet come ZODL / Zashi, Zingo o YWallet
-* Persone che vogliono soltanto convalidare la catena — eseguano Zebra (o Zakura) da solo
+* Utenti finali che devono soltanto inviare e ricevere ZEC — usino un portafoglio light come ZODL / Zashi, Zingo o YWallet
+* Persone che vogliono soltanto convalidare la chain — eseguano Zebra (o Zakura) da solo
 * Persone che vogliono soltanto servire blocchi compatti — eseguano Zebra + Zaino oppure Zebra + lightwalletd, senza Zallet
 
 ---
 
 ## Pagine correlate
 
-* [Zebra Nodo completo](/zcash-tech/zebra-full-node) — nodo di consenso racchiuso da Z3
+* [Zebra full node](/zcash-tech/zebra-full-node) — nodo di consenso racchiuso da Z3
 * [Zaino](/zcash-tech/zaino) — profilo indicizzatore opzionale
-* [Nodi completi](/zcash-tech/full-nodes) — Zebra, Zakura e il ritirato zcashd
+* [Full node](/zcash-tech/full-nodes) — Zebra, Zakura e il ritirato zcashd
 * [Nodi lightwallet](/zcash-tech/lightwallet-nodes) — ciò con cui comunicano i client leggeri
-* [Zakura Nodo](/zcash-tech/zakura-node) — nodo completo alternativo; non è quello fornito oggi da Z3
+* [Zakura full node](/zcash-tech/zakura-node) — full node alternativo; non è quello fornito oggi da Z3
 * [Guida alla migrazione: zcashd a Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Risorse per sviluppatori](/start-here/developer-resources)
 

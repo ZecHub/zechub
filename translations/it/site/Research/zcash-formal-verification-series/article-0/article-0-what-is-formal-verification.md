@@ -140,7 +140,7 @@ Per mantenere questo testo leggibile abbiamo semplificato. Le specifiche reali s
 | **Formal verification** | Dimostrare matematicamente che un sistema soddisfa una specifica in tutti i casi |
 | **Specification** | Un'affermazione precisa di cosa significhi «comportamento corretto» |
 | **System** | Il programma, circuito o protocollo effettivamente controllato |
-| **Proof** | Una catena finita di passaggi logici che stabilisce un'affermazione per tutti i casi |
+| **Proof** | Una chain finita di passaggi logici che stabilisce un'affermazione per tutti i casi |
 | **Proof assistant / theorem prover** | Software (Lean, Rocq, Isabelle) che controlla ogni passaggio di una dimostrazione |
 | **Machine-checked** | Verificato passo dopo passo da un computer, non solo tramite lettura umana |
 | **Induction** | Una tecnica di dimostrazione: vera all'inizio, e ogni passaggio la porta al successivo |

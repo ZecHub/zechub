@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-- Il turnstile (tornello) è una regola di contabilità pubblica che tiene traccia di quanto valore entra ed esce da ogni pool schermata
+- Il turnstile (tornello) è una regola contabile pubblica che tiene traccia di quanto valore entra ed esce da ogni pool schermata
 - Permette a chiunque di verificare che una pool non paghi mai più di quanto vi è stato immesso, anche se le transazioni al suo interno sono private
 - Questo protegge l'offerta di ZEC da un bug nascosto, perché monete contraffatte non possono uscire da una pool senza alterare il conteggio
 - Funziona senza indebolire la privacy, poiché solo i totali delle pool sono pubblici, mai le singole transazioni

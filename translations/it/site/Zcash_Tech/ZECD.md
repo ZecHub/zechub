@@ -154,7 +154,7 @@ zecd init --datadir ./data --encrypt
 
 ### 3. Watch-only (UFVK — nessuna spend key)
 
-Inizializzato con una Unified Full Viewing Key (UFVK) esportata da un altro portafoglio. Può ricevere, scansionare e riportare i saldi — ma non può firmare transazioni. Ideale per monitoraggio, fatturazione o nodi di audit separati dal portafoglio che firma.
+Inizializzato con una Unified Full Viewing Key (UFVK) esportata da un altro portafoglio. Può ricevere, scansionare e segnalare i saldi — ma non può firmare transazioni. Ideale per il monitoraggio, la fatturazione o nodi di audit separati dal portafoglio di firma.
 
 ```sh
 # On the signing wallet's host:

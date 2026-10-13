@@ -14,7 +14,7 @@ I memo vengono utilizzati principalmente per firmare i pagamenti. Poiché le tra
 
 #### Invio di un messaggio
 
-Un altro caso d'uso del memo crittografato è inviare un messaggio a qualcuno con un z-addr. Questi messaggi possono riguardare qualsiasi argomento, che si tratti di un [promemoria per un amico](https://twitter.com/iansagstette/status/1542142468505870336) o di un [messaggio sensibile che deve rimanere il più privato possibile](https://twitter.com/InsideZcash/status/1545800146352578560).
+Un altro caso d'uso del memo crittografato è inviare un messaggio a qualcuno con uno z-addr. Questi messaggi possono riguardare qualsiasi argomento, che si tratti di un [promemoria per un amico](https://twitter.com/iansagstette/status/1542142468505870336) o di un [messaggio sensibile che deve rimanere il più privato possibile](https://twitter.com/InsideZcash/status/1545800146352578560).
 
 #### Biglietti d'amore sulla blockchain
 

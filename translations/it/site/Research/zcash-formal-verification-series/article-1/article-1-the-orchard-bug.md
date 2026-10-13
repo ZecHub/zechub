@@ -159,7 +159,7 @@ Abbiamo semplificato deliberatamente. Il circuito reale coinvolge centinaia di r
 
 | Termine | Significato in parole semplici |
 |---|---|
-| **Shielded pool** | La modalità privata di Zcash, nella quale importi e parti coinvolte sono nascosti |
+| **Shielded pool** | La modalità schermata di Zcash, nella quale importi e parti coinvolte sono nascosti |
 | **Zero-knowledge proof** | Una prova che un'affermazione nascosta è valida, senza rivelare altro |
 | **Circuit** | L'insieme fisso di condizioni aritmetiche che una transazione valida deve soddisfare |
 | **Constraint** | Una condizione (equazione) nel circuito |
