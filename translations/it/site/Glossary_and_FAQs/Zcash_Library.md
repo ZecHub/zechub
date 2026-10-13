@@ -54,7 +54,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | ECDSA | Elliptic Curve Digital Signature Algorithm è uno schema di firma digitale crittograficamente sicuro. L'algoritmo di firma/verifica ECDSA si basa sulla moltiplicazione di punti su curva ellittica. |
 | Education | Video didattici che spiegano Zcash [qui](https://www.zcashcommunity.com/zcash-education/) |
 | Encrypted Memos | Un campo aggiuntivo per le transazioni inviate a indirizzi shielded, visibile al destinatario di un pagamento. Il memo crittografato è visibile solo al mittente e al destinatario. |
-| Equihash | L'algoritmo di mining proof-of-work orientato alla memoria utilizzato su Zcash. |
+| Equihash | L'algoritmo di mining proof-of-work usato da Zcash, progettato per richiedere molta memoria (RAM). |
 | Events | Il calendario degli eventi relativi a Zcash può essere consultato su [Luma](https://luma.com/zcash) e [Zcash Foundation](https://zfnd.org/zf-events/) |
 | Exchanges | [Elenco degli exchange che supportano Zcash](https://z.cash/exchanges/) |
 
