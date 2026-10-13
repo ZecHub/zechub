@@ -1,4 +1,4 @@
-# Glossario di Zcash
+# Biblioteca di Zcash
 
 Un glossario completo dei termini chiave, dei concetti e delle risorse relativi a Zcash.
 
