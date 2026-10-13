@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica Pagina"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
+# <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (chiusa)
 [Sito web](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 > **A proposito di quel link GitHub.** I repository di ECC si trovano su `zodl-inc`. Si tratta della stessa organizzazione, rinominata quando il team si è spostato su [ZODL](/zcash-organizations/zodl). Il vecchio nome `github.com/Electric-Coin-Company` è stato registrato da una parte non collegata nel maggio 2026 e non ha nulla a che fare con ECC o ZODL, quindi non fidarti del codice pubblicato lì.

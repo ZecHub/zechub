@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Memos
+# Memo
 
 #### Invio di memo cifrati
 
