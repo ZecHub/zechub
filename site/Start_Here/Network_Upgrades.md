@@ -19,3 +19,5 @@ For the visual story of how Zcash's privacy has evolved across these upgrades, s
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | July 28, 2026 | 3,428,143 | 37a5165b | The Ironwood pool and a public turnstile that lets anyone audit the supply |
 
 Dates are shown in UTC. Some dashboards show them in local time, which is the same block and the same moment. The fixed trigger for every upgrade is its activation block height, not the calendar date: Ironwood activated at block 3,428,143. The next upgrade, NU7, is not the same as Ironwood. Its scope is agreed ([ZIP 259](https://zips.z.cash/zip-0259)): 25-second blocks, fee recycling and the end of version 4 transactions. Mainnet activation is targeted for 5 November 2026, but the dates are tentative until the final decision and activation block height are set on 20 October 2026 ([forum announcement](https://forum.zcashcommunity.com/t/nu7-timeline/57655)).
+
+What NU7 changes and how coinholders voted on it: [NU7](../zcash-tech/nu7).
