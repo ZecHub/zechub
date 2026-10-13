@@ -162,7 +162,7 @@ Both validate the same chain, so this is an operational choice rather than a con
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-See the [Glossary](/glossary-and-faqs/glossary). It covers the node and wallet software, the shielded pools, and the ZIP numbers that turn up most often.
+See the [Zcash Library](/glossary-and-faqs/zcash-library). It covers the node and wallet software, the shielded pools, and the ZIP numbers that turn up most often.
 
 </div>
 
