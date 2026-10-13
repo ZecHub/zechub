@@ -103,11 +103,11 @@ Lungi dal compromettere il risultato, indicare questi confini è ciò che lo ren
 
 ## 7. Dismettere in sicurezza la vecchia pool: il turnstile
 
-Dimostrare che il *nuovo* pool è solido lascia comunque una domanda: che dire del *vecchio* pool Orchard, dove il difetto è rimasto per quattro anni? Non puoi rendere nuovamente visibile il suo passato. Ma puoi limitarne il futuro.
+Dimostrare che la *nuova* pool è solida lascia comunque una domanda: che dire della *vecchia* pool Orchard, dove il difetto è rimasto per quattro anni? Non puoi rendere nuovamente visibile il suo passato. Ma puoi limitarne il futuro.
 
 Zcash ha introdotto un meccanismo chiamato **turnstile (tornello)**. La regola è semplice e potente:
 
-> Il valore può lasciare la vecchia pool soltanto fino all'importo che è verificabilmente entrata in essa.
+> Il valore può lasciare la vecchia pool soltanto fino all'importo che è verificabilmente entrato in essa.
 
 Poiché il denaro che entra ed esce da una pool schermata è pubblicamente visibile (è nascosta soltanto l'attività *all'interno*), il turnstile permette all'intera rete di controllare che non esca più di quanto sia mai entrato. Se monete contraffatte fossero state create nella vecchia pool, raggiungerebbero questo limite e non riuscirebbero a uscire. E mentre i fondi onesti migrano all'esterno senza che emerga alcun eccesso, la comunità ottiene una forte prova pubblica che il difetto non è mai stato sfruttato. È quanto di più vicino esista a verificare l'offerta di una pool privata senza infrangerne la privacy e avvicina l'integrità dell'offerta al modello trasparente di una chain come Bitcoin, preservando al contempo la privacy di Zcash.
 

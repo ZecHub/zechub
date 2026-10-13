@@ -9,7 +9,7 @@ Zingo Lab Cyan opera come una Shielded DAO. Conserviamo i nostri fondi in una te
 ## Progetti
 
 ### Zingo! Wallet ([Github](https://github.com/zingolabs/zingo-mobile))
-Zingo Wallet è un wallet Zcash completo, progettato per essere facile da usare, pur includendo alcune funzionalità avanzate per gli utenti più esperti. Supporta le pool transparenti, Sapling e Orchard, dispone di una rubrica per i pagamenti ricorrenti ed è disponibile in diverse lingue. È stato il primo wallet a supportare Orchard e a implementare i formati NU5.
+Zingo Wallet è un portafoglio Zcash completo, progettato per essere facile da usare, pur includendo alcune funzionalità avanzate per gli utenti più esperti. Supporta le pool trasparenti, Sapling e Orchard, dispone di una rubrica per i pagamenti ricorrenti ed è disponibile in diverse lingue. È stato il primo wallet a supportare Orchard e a implementare i formati NU5.
 
 Una delle principali funzionalità di Zingo! è la capacità di utilizzare il campo Memo per offrire informazioni preziose sulle tue transazioni.
 

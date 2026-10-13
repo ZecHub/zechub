@@ -43,7 +43,7 @@ Le chiavi di visualizzazione unificate funzionano allo stesso modo per la visual
 
 ## Dove si colloca NU5
 
-NU5 ha seguito i precedenti aggiornamenti di Zcash: Overwinter, Sapling, Blossom, Heartwood e Canopy. È stato attivato sulla mainnet il 31 maggio 2022. Il ciclo di curve di Orchard è stato scelto perché supporta la ricorsione, che costituisce una base per futuri interventi di scalabilità. NU5 è il predecessore diretto della linea di aggiornamenti NU6 e NU6.x, che si è basata sulla pool Orchard e successivamente la ha corretta.
+NU5 ha seguito i precedenti aggiornamenti di Zcash: Overwinter, Sapling, Blossom, Heartwood e Canopy. È stato attivato sulla mainnet il 31 maggio 2022. Il ciclo di curve di Orchard è stato scelto perché supporta la ricorsione, che costituisce una base per futuri interventi di scalabilità. NU5 è il predecessore diretto della linea di aggiornamenti NU6 e NU6.x, che si è basata sulla pool Orchard e successivamente l'ha corretta.
 
 ## Glossario
 
