@@ -40,8 +40,8 @@ Possiedi già ZEC. Spostarlo in un portafoglio Zcash ti dà la parte che lo rend
 
 ZecHub non ne sceglie uno per te. Scegli dalla [directory dei portafogli di ZecHub](/wallets) e verifica due etichette sulla scheda del portafoglio prima di installarlo:
 
-- **Ironwood Ready**: Ironwood è la pool in cui confluiscono i nuovi ZEC schermati dall'aggiornamento [Ironwood](/zcash-tech/ironwood) del 28 luglio 2026. La vecchia pool Orchard non accetta più nuovi fondi.
-- **Schermatura automatica**: Utile se un pagamento arriva in modo trasparente: il portafoglio sposta per te quegli ZEC nella pool schermata. Non considerare questa etichetta un sostituto di **Ironwood Ready**. Un portafoglio può avere la schermatura automatica e non avere comunque una pool Ironwood (oggi Edge è in questa situazione nella directory). La maggior parte degli altri portafogli mostra invece un pulsante **Schermatura**.
+- **Ironwood Ready.** Ironwood è la pool in cui confluiscono i nuovi ZEC schermati dall'aggiornamento [Ironwood](/zcash-tech/ironwood) del 28 luglio 2026. La vecchia pool Orchard non accetta più nuovi fondi.
+- **Schermatura automatica.** Utile se un pagamento arriva in modo trasparente: il portafoglio sposta per te quegli ZEC nella pool schermata. Non considerare questa etichetta un sostituto di **Ironwood Ready**. Un portafoglio può avere la schermatura automatica e non avere comunque una pool Ironwood (oggi Edge è in questa situazione nella directory). La maggior parte degli altri portafogli mostra invece un pulsante **Schermatura**.
 
 Installa il portafoglio dal link sulla sua scheda nella directory, non da un risultato di ricerca o da una pubblicità. Scrivi la frase mnemonica su carta e conservala offline.
 
