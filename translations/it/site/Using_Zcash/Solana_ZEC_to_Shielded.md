@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica pagina"/>
 </a>
 
-# Hai ZEC su Solana? Spostalo in Zcash schermati
+# Hai ZEC su Solana? Spostalo in Zcash schermato
 
 Questa pagina fa per te se ZEC è apparso nel tuo portafoglio Solana perché possiedi ZCAT, o un altro token Solana che remunera i propri possessori in ZEC. Non devi vendere nulla per seguire questa procedura. Sposterai gli ZEC che già possiedi da Solana a un portafoglio Zcash, dove risulteranno schermati.
 

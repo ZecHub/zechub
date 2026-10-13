@@ -1,4 +1,4 @@
-# Unified Address (ZIP-316) convalida
+# Convalida degli Unified Address (ZIP-316)
 
 *Questa è una guida all'apprendimento, non un decoder confezionato o una libreria di pagamenti da copiare e incollare. Spiega come è strutturato un Unified Address affinché tu possa comprendere cosa fanno internamente le librerie mantenute. Per tutto ciò che gestisce fondi reali, affidati alla [specifica ZIP-316](https://zips.z.cash/zip-0316) e alle implementazioni ufficiali collegate di seguito.*
 

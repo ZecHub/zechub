@@ -98,4 +98,4 @@ Dopo lo scambio, il tuo ZEC compare nel saldo dell'**Account** di solswap.org. N
 ## **Passaggi successivi**
 Una volta che ZEC nativo è nel tuo portafoglio Zcash, mantienilo schermato usando [Usare ZEC privatamente](/guides/using-zec-privately).
 
-Un token ZEC acquistato con il pulsante Swap di Phantom non può essere schermato da Phantom. Quel token è l'asset OmniBridge su Solana. Spostalo con [Hai ZEC su Solana? Spostalo in Zcash schermati](/using-zcash/solana-zec-to-shielded).
+Un token ZEC acquistato con il pulsante Swap di Phantom non può essere schermato da Phantom. Quel token è l'asset OmniBridge su Solana. Spostalo con [Hai ZEC su Solana? Spostalo in Zcash schermato](/using-zcash/solana-zec-to-shielded).

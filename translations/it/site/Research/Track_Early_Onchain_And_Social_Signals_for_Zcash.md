@@ -94,7 +94,7 @@ Zcash potrebbe non vantare una comunità grande come quella di Monero o un'ampia
 
 
 # Riferimenti
-- Blockchair. (2025). Dati sulle transazioni schermate di Zcash. https://blockchair.com/zcash/charts/shielded-supply
+- Blockchair. (2025). Zcash shielded transactions data. https://blockchair.com/zcash/charts/shielded-supply
 - CoinMetrics. (2025). Zcash network data metrics. https://coinmetrics.io/
 - CoinTelegraph. (2024). Dash is no longer a privacy coin under evolving regulations. https://cointelegraph.com/news/dash-no-longer-privacy-coin
 - Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
@@ -102,5 +102,5 @@ Zcash potrebbe non vantare una comunità grande come quella di Monero o un'ampia
 - Shawn; Lead moderator Zcash Community Forum. (2025). 
 - X Platform Sentiment Analysis. (2025, July). Internal dataset. 
 - Zcash Community Hub. (2025). Community updates and engagement statistics. https://z.cash
-- Zcash Foundation. (2025). Rilascio del portafoglio Zashi 2.0. https://zcashfoundation.org/blog/
+- Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zcashfoundation.org/blog/
 - Zechub. (2025).  Zechub dashboard chart.
