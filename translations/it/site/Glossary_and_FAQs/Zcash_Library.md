@@ -137,7 +137,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 
 | Termine | Definizione |
 |------|-----------|
-| Oblivious Synchronization | Un metodo in fase di sviluppo nel Project Tachyon che consente a un wallet di richiedere a un server non affidabile i dati di cui ha bisogno senza rivelare di quali note sta chiedendo informazioni. Il server non apprende mai i tuoi nullifier, perché il protocollo li fa evolvere in modo non collegabile. [Approfondimento](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Oblivious Synchronization | Sincronizzazione cieca: un metodo in fase di sviluppo nel Project Tachyon che consente a un portafoglio di richiedere a un server non affidabile i dati di cui ha bisogno senza rivelare di quali note sta chiedendo informazioni. Il server non apprende mai i tuoi nullifier, perché il protocollo li fa evolvere in modo non collegabile. [Approfondimento](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 | Orchard Shielded Pool | Il terzo pool shielded di Zcash e rappresenta la continua evoluzione del nostro stack tecnologico zk-SNARK. [Dettagli completi](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | Il 1° aggiornamento di rete di Zcash. [Maggiori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
@@ -181,7 +181,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 
 | Termine | Definizione |
 |------|-----------|
-| Tachyon | Il programma di scalabilità di Zcash, previsto per NU7. Sposta i portafogli dalla scansione di ogni blocco verso uno stato del portafoglio corredato di prove, una sincronizzazione ignara e uno stato del nodo eliminabile, con l'obiettivo di raggiungere un throughput schermato nell'ordine delle migliaia di transazioni al secondo. [Sito del progetto](https://tachyon.z.cash/overview/) |
+| Tachyon | Il programma di scalabilità di Zcash, previsto per NU7. Invece di scansionare ogni blocco, i portafogli useranno uno stato corredato di prove e la sincronizzazione cieca, mentre i nodi potranno eliminare i dati non più necessari. L'obiettivo è un throughput schermato di migliaia di transazioni al secondo. [Sito del progetto](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (valuta di test senza valore). |
 | Testnet | Una blockchain separata per testare aggiornamenti e funzionalità prima della mainnet. |
 | Trailing Finality Layer (TFL) | Ricerca sull'aggiunta di un livello di finalità dietro la catena proof-of-work di Zcash, in modo che i blocchi recenti possano essere finalizzati senza sostituire il mining. Crosslink è il design nato da questa ricerca. |

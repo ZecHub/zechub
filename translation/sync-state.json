@@ -16167,7 +16167,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+itglossary",
+      "tool": "codex/gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Start_Here/Network_Upgrades.md": {
@@ -16991,7 +16991,7 @@
       "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {

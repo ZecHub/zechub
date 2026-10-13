@@ -8,7 +8,7 @@
 
 - Tachyon è una riprogettazione proposta del modo in cui i portafogli Zcash trovano e spendono fondi schermati, pensata per consentire alla rete di crescere fino a un numero molto elevato di utenti
 - Oggi un portafoglio deve tentare di decrittare un'enorme porzione della blockchain per scoprire quali pagamenti gli appartengono, ed è il motivo principale per cui la sincronizzazione schermata risulta lenta
-- Tachyon sostituisce questo sistema con la **sincronizzazione oblivious**, affinché un portafoglio recuperi ciò di cui ha bisogno senza scansionare tutto e senza comunicare a un server quali parti ha richiesto
+- Tachyon sostituisce questo sistema con la **sincronizzazione cieca** (oblivious synchronization), affinché un portafoglio recuperi ciò di cui ha bisogno senza scansionare tutto e senza comunicare a un server quali parti ha richiesto
 - Sposta inoltre i dettagli del pagamento fuori dalla blockchain e nella richiesta di pagamento stessa, rendendo il protocollo più semplice ma trasferendo la responsabilità ai portafogli
 - È una proposta, pubblicata per la prima volta nell'aprile 2025 e indicata come candidata per NU7. **Non è stata implementata**, e richiede uno sforzo ingegneristico della portata dell'aggiornamento Sapling
 
@@ -44,9 +44,9 @@ Invece, i dettagli di cui hai bisogno viaggiano con la richiesta di pagamento st
 
 Una volta che la chain non trasporta più queste informazioni, il tuo portafoglio non ha più motivo di cercarle e il problema della decrittazione di prova scompare.
 
-Il tuo portafoglio deve comunque conoscere lo stato corrente della chain per poter spendere. Questa è la seconda metà del progetto, la **sincronizzazione oblivious**: un modo per consentire a un portafoglio di recuperare le cose specifiche di cui ha bisogno senza rivelare al server quali elementi ha richiesto.
+Il tuo portafoglio deve comunque conoscere lo stato corrente della chain per poter spendere. Questa è la seconda metà del progetto, la **sincronizzazione cieca**: un modo per consentire a un portafoglio di recuperare le cose specifiche di cui ha bisogno senza rivelare al server quali elementi ha richiesto.
 
-![Con Tachyon il mittente passa i dettagli del pagamento al destinatario fuori banda, e il portafoglio usa la sincronizzazione oblivious per recuperare solo i dati di cui ha bisogno invece di scansionare l'intera chain](/content-images/tachyon-oblivious-sync.svg)
+![Con Tachyon il mittente passa i dettagli del pagamento al destinatario fuori banda, e il portafoglio usa la sincronizzazione cieca per recuperare solo i dati di cui ha bisogno invece di scansionare l'intera chain](/content-images/tachyon-oblivious-sync.svg)
 
 <br/>
 
@@ -98,7 +98,7 @@ Il lavoro correlato è già visibile. [Zakura](https://zechub.wiki/zcash-tech/za
 | Trial decryption | Tentare di decrittare le transazioni una per una per trovare quelle indirizzate a te |
 | In-band secret distribution | Inserire il segreto di pagamento nella transazione sulla blockchain, come fa oggi Zcash |
 | Out-of-band payment | Passare i dettagli del pagamento direttamente tra mittente e destinatario invece che attraverso la chain |
-| Oblivious synchronization | Recuperare i dati della chain di cui un portafoglio ha bisogno senza rivelare quali dati sono stati richiesti |
+| Oblivious synchronization | Sincronizzazione cieca: recuperare i dati della chain di cui un portafoglio ha bisogno senza rivelare quali dati sono stati richiesti |
 | Proof-carrying data (PCD) | Dati che viaggiano con una prova della propria correttezza, così che le prove possano essere combinate e compresse |
 | Shielded transaction aggregate | Il modo in cui Tachyon raggruppa i cambiamenti dello stato schermato, modificando come vengono comunicati e firmati |
 | ledger indistinguishability | La proprietà per cui le transazioni schermate non possono essere distinte l'una dall'altra |
@@ -130,7 +130,7 @@ Il lavoro correlato è già visibile. [Zakura](https://zechub.wiki/zcash-tech/za
 
 ## Risorse
 
-- [Tachyon: Scalare Zcash con la sincronizzazione oblivious](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 aprile 2025, la proposta originale
+- [Tachyon: Scalare Zcash con la sincronizzazione cieca](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 aprile 2025, la proposta originale
 - [Tachyaction at a Distance](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 maggio 2025, implicazioni per il consenso e il protocollo, scritto per gli sviluppatori del protocollo
 - [Il blog di Sean Bowe](https://seanbowe.com/blog/) - dove viene pubblicata la serie Tachyon
 - [tachyon.z.cash](https://tachyon.z.cash/) - sito del progetto

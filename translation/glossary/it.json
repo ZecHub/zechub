@@ -1532,6 +1532,17 @@
       "reviewed_at": "2026-10-12",
       "source": "menus-review-it.md#navigation-54"
     },
+    "oblivious synchronization": {
+      "target": "sincronizzazione cieca",
+      "context": "Project Tachyon: a wallet fetches the data it needs without the server learning which data it asked for. At the first use on a page add the English in brackets: \"sincronizzazione cieca (oblivious synchronization)\". Never \"sincronizzazione ignara\" or \"sincronizzazione oblivious\".",
+      "applies_to": "pages",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-13",
+      "source": "preview review 2026-10-13"
+    },
     "Organizations": {
       "target": "Organizzazioni",
       "applies_to": "ui",
@@ -2204,6 +2215,7 @@
         "Zingolib and Zaino Tutorial",
         "Zkool Multisig",
         "network metadata",
+        "oblivious synchronization",
         "voting chain"
       ],
       "summary": "Native review by Gianni (glossary-review-it.md, menus-review-it.md): page terms, menu labels, register, typography and writing rules."

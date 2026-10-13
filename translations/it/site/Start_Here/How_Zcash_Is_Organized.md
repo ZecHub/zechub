@@ -69,7 +69,7 @@ Oggi il lavoro è distribuito tra organizzazioni indipendenti, ognuna con una re
 
 ### Scalabilità e crittografia
 
-6. Project Tachyon è uno sforzo di scalabilità guidato dal crittografo Sean Bowe. Propone un nuovo modo per i portafogli di sincronizzarsi con la blockchain, chiamato oblivious synchronization, che riduce le dimensioni delle transazioni e, come effetto collaterale, avvicina Zcash alla privacy post-quantistica. Il suo lavoro è documentato su [tachyon.z.cash](https://tachyon.z.cash/).
+6. Project Tachyon è uno sforzo di scalabilità guidato dal crittografo Sean Bowe. Propone un nuovo modo per i portafogli di sincronizzarsi con la blockchain, chiamato sincronizzazione cieca (oblivious synchronization), che riduce le dimensioni delle transazioni e, come effetto collaterale, avvicina Zcash alla privacy post-quantistica. Il suo lavoro è documentato su [tachyon.z.cash](https://tachyon.z.cash/).
 7. Il Valar Group è un laboratorio di ricerca e ingegneria crittografica che lavora sul protocollo Zcash per denaro digitale privato e post-quantistico su larga scala. Collabora strettamente con Project Tachyon sul lavoro relativo a scalabilità e quantistica. Maggiori informazioni sul suo lavoro sono disponibili su [valargroup.dev](https://valargroup.dev/).
 
 ### Organizzazioni regionali e comunitarie
