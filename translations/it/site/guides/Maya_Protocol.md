@@ -1,4 +1,4 @@
-# Maya Decentralised Exchange
+# Exchange decentralizzato Maya
 
 ---
 

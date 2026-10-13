@@ -16287,7 +16287,7 @@
       "src_commit": "22afa90e5abd9cbf59899698c4b96158c5c4210b",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+wormhole-historical+itglossary+itreview",
+      "tool": "gpt-5.4+wormhole-historical+itglossary+itreview+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -16639,7 +16639,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary+itreview",
+      "tool": "gpt-5.4+itglossary+itreview+handfix",
       "edited": false
     },
     "Zcash_Organizations/Electric_Coin_Company.md": {
@@ -16647,7 +16647,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip+itglossary",
+      "tool": "gpt-5.4+frontmatter-strip+itglossary+handfix",
       "edited": false
     },
     "Zcash_Organizations/Financial_Privacy_Foundation.md": {
@@ -17319,7 +17319,7 @@
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {

@@ -1,4 +1,4 @@
-# Coinholder-Directed Retroactive Grants
+# Finanziamenti retroattivi decisi dai detentori di ZEC
 
 Il **Coinholder-Directed Retroactive Grants Program** finanzia il lavoro già completato che ha apportato un valore verificabile all'ecosistema Zcash.
 
