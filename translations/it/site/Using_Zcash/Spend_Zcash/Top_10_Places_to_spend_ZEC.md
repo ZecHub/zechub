@@ -307,7 +307,7 @@ ZecBuy vende beni digitali privati per ZEC: piani dati eSIM per viaggi e account
 
 1. **ZEC Market** | Marketplace peer-to-peer
 
-Un marketplace non custodial (senza custodia di terzi) dove acquirenti e venditori trattano direttamente tra loro. I prezzi sono indicati in dollari e regolati da portafoglio a portafoglio in Zcash, schermato per impostazione predefinita. La piattaforma non addebita commissioni e non detiene mai i fondi di nessuno, il che la rende il posto a cui rivolgersi quando ciò che vuoi acquistare non è in un elenco come questo.
+Un marketplace non-custodial (senza custodia di terzi) dove acquirenti e venditori trattano direttamente tra loro. I prezzi sono indicati in dollari e regolati da portafoglio a portafoglio in Zcash, schermato per impostazione predefinita. La piattaforma non addebita commissioni e non detiene mai i fondi di nessuno, il che la rende il posto a cui rivolgersi quando ciò che vuoi acquistare non è in un elenco come questo.
 
 **Sito web**: [zecmarket.org](https://zecmarket.org/)
 

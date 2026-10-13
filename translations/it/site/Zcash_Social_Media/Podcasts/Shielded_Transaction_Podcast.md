@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Podcast sulle transazioni schermate di Forsight Institute
+# Podcast sulle transazioni schermate di Foresight Institute
 
 Il Foresight Institute è un'organizzazione di ricerca e no-profit che supporta lo sviluppo benefico di tecnologie ad alto impatto. Dalla nostra fondazione nel 1987 su una visione di guida delle tecnologie potenti, abbiamo continuato a evolverci in un'organizzazione dai molti rami che si concentra su diversi campi della scienza e della tecnologia troppo ambiziosi perché le istituzioni tradizionali li supportino. 
 

@@ -284,12 +284,12 @@
       "forms": [
         "custodial",
         "Custodial",
-        "non custodial",
-        "Non custodial",
+        "non-custodial",
+        "Non-custodial",
         "custodia di terzi",
         "autocustodia"
       ],
-      "context": "Keep \"custodial\" / \"non custodial\" in English; at the first use on a page add the Italian in brackets: \"custodial (custodia di terzi)\". \"self-custody\" is \"autocustodia\". Never render \"custodial\" as \"autocustodia\" (opposite meaning).",
+      "context": "Keep \"custodial\" / \"non-custodial\" in English; at the first use on a page add the Italian in brackets: \"custodial (custodia di terzi)\". \"self-custody\" is \"autocustodia\". Never render \"custodial\" as \"autocustodia\" (opposite meaning).",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [

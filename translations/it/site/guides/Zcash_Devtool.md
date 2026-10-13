@@ -1,4 +1,4 @@
-# Il Zcash Devtool
+# Lo Zcash Devtool
 
 [Cos'è il Zcash-Devtool?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
 

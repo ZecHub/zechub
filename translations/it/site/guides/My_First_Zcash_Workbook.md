@@ -80,7 +80,7 @@ Questa sezione insegna le abitudini fondamentali di sicurezza digitale:
 
 - Proteggere le chiavi e le seed phrase  
 - Evitare le truffe  
-- Comprendere i portafogli custodial (custodia di terzi) vs. non custodial  
+- Comprendere i portafogli custodial (custodia di terzi) vs. non-custodial  
 - Praticare una solida igiene delle password  
 - Evitare di condividere pubblicamente informazioni sensibili del portafoglio  
 

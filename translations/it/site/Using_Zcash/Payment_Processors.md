@@ -13,7 +13,7 @@ Il supporto per gli asset privacy cambia spesso, quindi ogni riga riporta la pro
 | Processore | Custodia | ZEC schermati | Self-host | Commissione del commerciante | Aree / KYC | Verificato |
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Non-custodial | Sì, Orchard via Unified Addresses | Sì, open source | 1% per pagamento, gratis se self-hosted | Nessun KYC, regioni non indicate | 2026-07-29 |
-| [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non custodial (senza custodia di terzi), solo chiavi di visualizzazione | Sì, solo schermati (Sapling, Orchard, UA) | Sì, open source | Nessuna, paghi solo le commissioni di rete | Globale, nessun KYC | 2026-07-29 |
+| [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non-custodial (senza custodia di terzi), solo chiavi di visualizzazione | Sì, solo schermati (Sapling, Orchard, UA) | Sì, open source | Nessuna, paghi solo le commissioni di rete | Globale, nessun KYC | 2026-07-29 |
 | [ZGo](https://zgo.cash/) | Non-custodial | Sì, Sapling e Orchard | No, servizio ospitato | Sessione prepagata, prezzo non pubblicato | Nessun KYC indicato, regioni non indicate | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Autocustodia del cliente, il commerciante regola in fiat | Il cliente spende ZEC schermati, lato ricezione non documentato | No | 1% per pagamento | USA e 37 paesi SEPA, ZEC nell'UE non confermato | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Non-custodial per impostazione predefinita | No, solo indirizzo trasparente | No | 0,5%, oppure 1% con conversione | Globale salvo dove proibito, nessun KYC per iniziare | 2026-07-29 |
@@ -24,7 +24,7 @@ Il supporto per gli asset privacy cambia spesso, quindi ogni riga riporta la pro
 
 ### Cosa significano le colonne
 
-**Custodia** indica se il processore detiene i tuoi ZEC. Non custodial significa che vanno in un portafoglio che controlli tu.
+**Custodia** indica se il processore detiene i tuoi ZEC. Non-custodial significa che vanno in un portafoglio che controlli tu.
 
 **ZEC schermati** indica se puoi ricevere pagamenti nella pool schermata. Solo trasparente significa che importo e indirizzi sono pubblici sulla blockchain.
 
@@ -42,7 +42,7 @@ Per accettare pagamenti in un negozio fisico anziché online, usa **Flexa**.
 
 Per un gateway ospitato in cui i pagamenti trasparenti sono accettabili, usa **NOWPayments** o **Plisio**.
 
-Vale la pena ripetere una precisazione: un processore che supporta solo transazioni trasparenti pubblica ogni importo pagato e ogni indirizzo sulla blockchain. E con qualsiasi processore ospitato non custodial consegni le tue chiavi di visualizzazione, quindi l'azienda può vedere i tuoi pagamenti anche se non può spenderli. Il self-hosting è l'unico modo per evitarlo.
+Vale la pena ripetere una precisazione: un processore che supporta solo transazioni trasparenti pubblica ogni importo pagato e ogni indirizzo sulla blockchain. E con qualsiasi processore ospitato non-custodial consegni le tue chiavi di visualizzazione, quindi l'azienda può vedere i tuoi pagamenti anche se non può spenderli. Il self-hosting è l'unico modo per evitarlo.
 
 <div class="processor-note">
 

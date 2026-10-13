@@ -100,7 +100,7 @@ Una volta arrivati gli ZEC, usa l'opzione **Shield** di ZODL per spostarli nella
 - **encrypt.trade** è l'app, gestita da JMD Labs Inc. La sua [informativa sulla privacy](https://encrypt.trade/privacy) afferma che raccoglie dati tecnici quali IP, browser e dettagli del dispositivo, invia il tuo indirizzo del portafoglio, la cronologia recente e i saldi ai fornitori di conformità prima di uno scambio, e può conservare log e risultati dei controlli AML fino a cinque anni. I suoi [termini](https://encrypt.trade/terms) vietano l'uso di VPN o proxy per nascondere la tua posizione. Assistenza: help@encifher.io oppure il gruppo [Telegram](https://t.me/+ZWHGMW4ZHXQwYTZl) collegato dall'app.
 - **Near Intents** instrada il passaggio cross-chain e consegna il ZEC. Consulta i suoi [termini dell'API 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) e l'informativa sulla privacy su near.com/privacy, monitora gli swap sull'[Explorer di Near Intents](https://explorer.near-intents.org) e chiedi assistenza nel [Near Intents Telegram](https://t.me/near_intents).
 
-I termini e gli indirizzi supportati possono cambiare, quindi verifica le versioni correnti prima di effettuare uno swap di grandi importi. Per ulteriori informazioni sul quadro generale, consulta [Exchange non custodial](/using-zcash/non-custodial-exchanges).
+I termini e gli indirizzi supportati possono cambiare, quindi verifica le versioni correnti prima di effettuare uno swap di grandi importi. Per ulteriori informazioni sul quadro generale, consulta [Exchange non-custodial](/using-zcash/non-custodial-exchanges).
 
 ---
 

@@ -9,7 +9,7 @@
 
 - Acquista ZEC su un exchange che supporti i **prelievi schermati** (Gemini, BitcoinVN, Flyp.me) quando possibile
 - La maggior parte dei principali exchange centralizzati (Coinbase, Kraken, Binance) supporta **solo i prelievi Transparent** — proteggi il tuo ZEC con lo shielding dopo averlo ricevuto
-- Gli exchange decentralizzati consentono swap non custodial, ma in genere effettuano i prelievi verso indirizzi Transparent
+- Gli exchange decentralizzati consentono swap non-custodial, ma in genere effettuano i prelievi verso indirizzi Transparent
 - Non è necessario acquistare un intero ZEC — le frazioni vanno benissimo
 
 ---
@@ -26,7 +26,7 @@ Gemini è un exchange di criptovalute regolamentato, con portafoglio e servizio 
 
 **[BitcoinVN](https://bitcoinvn.io)**
 
-BitcoinVN è un exchange istantaneo non custodial (senza custodia di terzi) che supporta depositi e prelievi schermati (z-indirizzo) per ZEC — uno dei pochissimi exchange a livello globale con pieno supporto per gli indirizzi z. Attivo dal 2014, ti permette di scambiare BTC, ETH, USDT e altre criptovalute in ZEC direttamente verso il tuo portafoglio schermato.
+BitcoinVN è un exchange istantaneo non-custodial (senza custodia di terzi) che supporta depositi e prelievi schermati (z-indirizzo) per ZEC — uno dei pochissimi exchange a livello globale con pieno supporto per gli indirizzi z. Attivo dal 2014, ti permette di scambiare BTC, ETH, USDT e altre criptovalute in ZEC direttamente verso il tuo portafoglio schermato.
 
 **[Flyp.me](https://flyp.me)**
 
@@ -85,7 +85,7 @@ Quando lo fai, ti consigliamo di utilizzare uno dei seguenti [portafogli](https:
 ## Pagine correlate
 
 - [Portafogli](/using-zcash/wallets) — Scegli un portafoglio prima di prelevare da un exchange
-- [Exchange non custodial](/using-zcash/non-custodial-exchanges) — Elenco completo dei DEX che supportano ZEC
+- [Exchange non-custodial](/using-zcash/non-custodial-exchanges) — Elenco completo dei DEX che supportano ZEC
 - [Exchange custodial](/using-zcash/custodial-exchanges) — Elenco completo dei CEX che supportano ZEC
 - [Pool schermate](/using-zcash/shielded-pools) — Perché i prelievi schermati sono importanti
 - [Guida per i nuovi utenti](/start-here/new-user-guide) — Checklist completa di onboarding per i nuovi utenti di Zcash

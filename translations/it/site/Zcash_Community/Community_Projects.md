@@ -128,7 +128,7 @@ Portafoglio multi-chain, open-source e in autocustodia che supporta l'invio, la 
 [Visita](https://gemwallet.com/)
 
 ### TIPZ
-Piattaforma di mance live non custodial (senza custodia di terzi) in cui ogni mancia arriva come ZEC schermati. Supporta on-ramp cross-chain tramite NEAR Intents.  
+Piattaforma di mance live non-custodial (senza custodia di terzi) in cui ogni mancia arriva come ZEC schermati. Supporta on-ramp cross-chain tramite NEAR Intents.  
 [Visita](https://tipz.cash/)
 
 ### CYZE
@@ -225,7 +225,7 @@ Casella email usa e getta pagata con ZEC schermati.
 [Visita](https://ztrash.com/)
 
 ### LiveZEC
-Una piattaforma di mance incentrata sulla privacy per gli streamer che consente agli spettatori di inviare ZEC schermati direttamente al portafoglio non custodial dello streamer.  
+Una piattaforma di mance incentrata sulla privacy per gli streamer che consente agli spettatori di inviare ZEC schermati direttamente al portafoglio non-custodial dello streamer.  
 [Visita](https://zec.live/)
 
 ### ZecLedger

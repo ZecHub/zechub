@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt text" width="50"/>   Exchange non-custodial
+# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Exchange non-custodial
 
 [Zcash Exchange non-custodial](/dex)
 

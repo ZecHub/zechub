@@ -16,7 +16,7 @@ Per usare Firn, deposita ETH nel protocollo. Una volta che hai un saldo Firn, pu
 
 
 **[RAILGUN](https://railgun.org/):** Come smart contract layer-1, Railgun esiste come infrastruttura per trasferimenti privati e DeFi, e deve la sua esistenza a Ethereum, Polygon, Binance Smart Chain e Arbitrum.
-Configura il tuo portafoglio RAILGUN non custodial (senza custodia di terzi), scherma qualsiasi token ERC-20 in un indirizzo 0zk di tua scelta. Una volta schermati, token, saldi e transazioni vengono crittografati - [Whitepaper](https://docs.railgun.org/wiki) 
+Configura il tuo portafoglio RAILGUN non-custodial (senza custodia di terzi), scherma qualsiasi token ERC-20 in un indirizzo 0zk di tua scelta. Una volta schermati, token, saldi e transazioni vengono crittografati - [Whitepaper](https://docs.railgun.org/wiki) 
 
 
 **[StarkEX](https://starkware.co/starkex/):** Un motore di scalabilità Layer-2, attivo su Ethereum Mainnet. Le transazioni vengono raggruppate off-chain e inviate ai servizi StarEX. StarEX convalida le transazioni e aggiorna i saldi pertinenti; genera prove STARK basate sulla validità della transazione. Smart contract verificatori on-chain ricevono e verificano la prova STARK - [Whitepaper](https://docs.starkware.co/starkex-v4/)
