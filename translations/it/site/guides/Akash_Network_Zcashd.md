@@ -506,7 +506,7 @@ Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribu
 -> **Disabilita txindex** se non ti serve (risparmia ~ 20% di storage)
 
 
-### Risorse Aggiuntive
+### Risorse aggiuntive
 
 **Akash Console**: [https://console.akash.network](https://console.akash.network)
 
@@ -516,7 +516,7 @@ Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribu
 
 **Discord di Akash**: [https://discord.akash.network](https://discord.akash.network) (per problemi con i provider)
 
-## Note Finali
+## Note finali
 
 - **Lo storage persistente è importante.** Non saltare *persistent: true* e non usare la classe *beta2*. Usa *beta3*.
 - **La sincronizzazione iniziale è lenta.** Abbi pazienza. È normale per i nodi blockchain.

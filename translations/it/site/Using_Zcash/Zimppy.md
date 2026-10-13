@@ -472,7 +472,7 @@ packages/
 
 ---
 
-## Cosa include - Riepilogo delle funzionalità
+## Cosa include - riepilogo delle funzionalità
 
 | Funzionalità | Descrizione |
 |---|---|

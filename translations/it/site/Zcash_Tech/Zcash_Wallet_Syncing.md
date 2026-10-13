@@ -22,7 +22,7 @@ Zcash risolve questo problema combinando più approcci. Dispone di un server spe
 
 Anche decrittare ed elaborare questi blocchi compatti può richiedere molto tempo, specialmente quando ci sono molte transazioni per blocco. Per questo i portafogli usano metodi diversi per accelerare la sincronizzazione e permetterti di usare i tuoi fondi il prima possibile.
 
-## Visuale / Analogia
+## Visuale / analogia
 
 Immagina la blockchain come un'enorme sala postale piena di scatole chiuse a chiave. Con una moneta trasparente, l'addetto della sala postale può leggere le etichette e dirti istantaneamente quali scatole sono tue. Con Zcash, le etichette sono nascoste — quindi il tuo portafoglio deve prendere le sue chiavi e controllare silenziosamente le scatole per trovare quelle che può aprire. I metodi di sincronizzazione qui sotto sono strategie diverse per controllare quelle scatole più velocemente.
 

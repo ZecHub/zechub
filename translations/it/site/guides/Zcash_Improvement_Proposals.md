@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Proposte di Miglioramento di Zcash
+# Proposte di miglioramento di Zcash
 
 <img width="672" height="378" alt="1" src="/content-images/fbce4a28-585b-4caa-b306-4cf06bcb5977-0b61791008.webp" />
 

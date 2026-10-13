@@ -20,7 +20,7 @@ Sito web: [zecmap.com](https://zecmap.com/)
 
 ---
 
-## Cosa Fa ZecMap
+## Cosa fa ZecMap
 
 ZecMap organizza le attività che accettano Zcash su una mappa globale. Ogni scheda mostra il nome dell'attività, la categoria, la posizione o il sito web, e come viene accettato ZEC. Questo rende facile per i possessori di ZEC:
 
@@ -31,7 +31,7 @@ ZecMap organizza le attività che accettano Zcash su una mappa globale. Ogni sch
 
 ---
 
-## Casi d'Uso
+## Casi d'uso
 
 ### Trovare commercianti locali
 
@@ -68,7 +68,7 @@ Gli invii dovrebbero evitare dati privati dei clienti. Se usi una prova di trans
 
 ---
 
-## Verifica e Approvazione
+## Verifica e approvazione
 
 Le schede passano attraverso un processo di revisione prima di apparire pubblicamente:
 
@@ -95,7 +95,7 @@ Per le regole attuali delle ricompense e come richiederle, visita [zecmap.com](h
 
 ---
 
-## Caratteristiche Principali
+## Caratteristiche principali
 
 - **Mappa globale interattiva** — esplora o cerca commercianti per posizione.
 - **Schede delle attività** — commercianti locali e online con dettagli di pagamento.
@@ -113,7 +113,7 @@ ZecMap ha anche annunciato una partnership con [CipherPay](https://cipherpay.app
 
 ---
 
-## Sviluppi Futuri
+## Sviluppi futuri
 
 I miglioramenti pianificati includono:
 
@@ -135,7 +135,7 @@ I miglioramenti pianificati includono:
 
 ---
 
-## Pagine Correlate
+## Pagine correlate
 
 - [Spendere ZEC](/using-zcash/spend-zcash) — Altri modi per usare ZEC nel mondo reale
 - [Processori di Pagamento](/using-zcash/payment-processors) — Strumenti per i commercianti per accettare ZEC

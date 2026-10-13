@@ -15,7 +15,7 @@
 
 ## Spiegazione di base
 
-### Introduzione: Zcash Hybrid PoS e il protocollo Crosslink
+### Introduzione: Zcash hybrid PoS e il protocollo Crosslink
 
 Il Protocollo Crosslink rappresenta uno sviluppo fondamentale nell'evoluzione di Zcash, orientandolo verso un modello **Hybrid Proof-of-Stake (PoS)** e **Proof-of-Work (PoW)**. Il PoW tradizionale, pur essendo affidabile nel garantire la sicurezza della rete, è criticato per il consumo energetico e per i rischi di centralizzazione associati al mining industriale. Crosslink introduce un sistema ibrido che unisce la robustezza comprovata del PoW con i vantaggi di efficienza e governance del PoS.
 
@@ -25,7 +25,7 @@ Questa transizione è in linea con le tendenze globali dell'innovazione blockcha
 
 L'approccio ibrido Proof-of-Stake (PoS) combina il tradizionale Proof-of-Work (PoW) con il PoS, con l'obiettivo di affrontare vulnerabilità come gli attacchi del 51% mantenendo la decentralizzazione e riducendo il consumo energetico. Il PoS ibrido introduce notai che convalidano i blocchi in base allo ZEC messo in staking. Questo meccanismo è progettato per migliorare la sicurezza della chain e la convalida dei checkpoint, offrendo un'alternativa più robusta ai sistemi puramente PoW.
 
-### Perché Hybrid PoS/PoW come primo test?
+### Perché hybrid PoS/PoW come primo test?
 
 * Consente di fare progressi verso il PoS puro.
 * Abilita casi d'uso simultanei di mining e staking e la convergenza degli ecosistemi.
@@ -55,7 +55,7 @@ Il Protocollo Crosslink è progettato per affrontare diversi obiettivi strategic
    * Lo staking introduce anche un modello di ricompensa prevedibile per i partecipanti, creando una proposta attraente per gli investitori di lungo termine.
 5. **Maggiore sicurezza**: Crosslink mira a migliorare la resilienza della rete contro gli attacchi di riorganizzazione della chain integrando il PoS accanto al PoW.
 
-## Visuale / Analogia
+## Visuale / analogia
 
 ![image](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
 

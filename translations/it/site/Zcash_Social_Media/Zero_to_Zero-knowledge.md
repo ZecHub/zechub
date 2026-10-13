@@ -20,7 +20,7 @@ https://twitter.com/ZecHub/status/1624125037945946145
 https://twitter.com/ZecHub/status/1628498645627666432
 
 
-## Trusted Execution Environment 
+## Trusted execution environment 
 
 https://twitter.com/ZecHub/status/1633579659282587651
 

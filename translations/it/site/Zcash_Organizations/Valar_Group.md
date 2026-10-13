@@ -112,7 +112,7 @@ Zakura è un full node Zcash sviluppato in collaborazione tra Valar Group e Proj
 
 Zcash Foundation ha accolto pubblicamente il progetto, osservando che Zebra è stato rilasciato con licenze permissive affinché team indipendenti potessero farne fork e migliorarlo, e che diversi contributori di Zakura avevano già contribuito upstream a Zebra.
 
-### Private Information Retrieval
+### Private information retrieval
 
 Valar Group mantiene servizi e librerie PIR per due problemi correlati:
 

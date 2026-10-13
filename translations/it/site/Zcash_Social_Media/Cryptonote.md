@@ -63,7 +63,7 @@ Gli **Stealth Address** aggiungono inoltre indirizzi monouso per il destinatario
 
 ---
 
-## 2. Egalitarian Proof of Work (ePoW)
+## 2. Egalitarian proof of work (ePoW)
 
 CryptoNote mira a creare un sistema di mining più equo essendo resistente agli ASIC.
 

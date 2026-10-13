@@ -81,7 +81,7 @@ Come in Zcash, le transazioni trasparenti devono essere selezionate esplicitamen
 
 ---
 
-## One-of-Many Proofs
+## One-of-Many proofs
 
 Lelantus utilizza le **One-of-Many Proofs** per estrarre i valori di input necessari a dimostrare il bilancio senza rivelare l'origine degli input - e senza richiedere un trusted setup.
 

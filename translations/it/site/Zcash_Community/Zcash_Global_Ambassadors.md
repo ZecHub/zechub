@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ambasciatori Globali di Zcash
+# Ambasciatori globali di Zcash
 
 Il Programma degli Ambasciatori Globali identifica i membri della comunità che apportano contributi di alta qualità all'ecosistema Zcash e li mette nelle condizioni di diventare leader. Gli ambasciatori fanno crescere la comunità Zcash, favoriscono l'adozione da parte degli utenti e promuovono la consapevolezza della tecnologia di Zcash per la tutela della privacy.
 
-## Cosa fa un Ambasciatore?
+## Cosa fa un ambasciatore?
 
 - Organizza incontri fisici o virtuali
 - Mantiene una presenza attiva sui social media e crea contenuti originali su Zcash
@@ -16,7 +16,7 @@ Il Programma degli Ambasciatori Globali identifica i membri della comunità che 
 
 Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consentendo loro di adattare le iniziative di sensibilizzazione al proprio contesto locale.
 
-## [Sito web degli Ambasciatori Globali](https://zcashambassadors.com)
+## [Sito web degli ambasciatori globali](https://zcashambassadors.com)
 
 ## Comunità di ambasciatori attive (2026)
 
@@ -36,7 +36,7 @@ Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consen
 | India | [Zcash India](https://x.com/ZcashIND) | Formazione per sviluppatori e crescita della comunità |
 | Corea | [Zcash Korea](https://x.com/zcashkorea) | Contenuti educativi in coreano |
 
-## Candidati per diventare Ambasciatore
+## Candidati per diventare ambasciatore
 
 Puoi anche partecipare:
 - Contribuendo alle [ZEC Bounties](https://bounties.zechub.wiki/)

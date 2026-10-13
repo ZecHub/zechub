@@ -18,7 +18,7 @@ Sebbene gli indirizzi TEX non siano ancora ampiamente adottati, gli utenti di Zc
 ### Hai **bisogno** di un indirizzo TEX quando invii fondi a un indirizzo Transparent utilizzando un portafoglio che non supporta l'invio diretto a un indirizzo Transparent. 
 Alcuni portafogli semplicemente non consentono di inviare direttamente a un indirizzo Transparent e **il destinatario potrebbe non fornire un equivalente TEX**. Quindi, a volte potrebbe essere necessario **convertire** un indirizzo Transparent in uno TEX. Ciò può essere fatto manualmente eseguendo l'implementazione di riferimento descritta in [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
 
-### Hai bisogno di un indirizzo TEX quando invii fondi a un exchange centralizzato che **RICHIEDE che quei fondi provengano da una fonte Transparent**.
+### Hai bisogno di un indirizzo TEX quando invii fondi a un exchange centralizzato che **richiede che quei fondi provengano da una fonte Transparent**.
 Attualmente, [Binance](https://www.binance.com/) è l'unico exchange centralizzato che utilizza indirizzi TEX (ed è il motivo principale della loro creazione).
 Gli indirizzi TEX informano un portafoglio compatibile che tutti i fondi inviati a quell'indirizzo devono essere trasparenti e che qualsiasi valore schermato deve essere escluso dall'invio a tale indirizzo.
 Se un exchange come Binance rifiuta il valore inviato, dispone dei mezzi necessari per restituire tale valore all'indirizzo da cui proviene. Aiuta inoltre entità come Binance a conformarsi alle leggi e ai regolamenti imposti dai governi o da altre autorità.

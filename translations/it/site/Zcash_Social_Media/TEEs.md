@@ -46,7 +46,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 ---
 
-## Remote Attestation
+## Remote attestation
 
 La **Remote Attestation** è il processo che dimostra che un'enclave è in esecuzione in un ambiente hardware sicuro e genuino.
 
@@ -63,7 +63,7 @@ Le enclave contengono anche chiavi private di firma e di attestazione che non po
 
 ---
 
-## Data Sealing
+## Data sealing
 
 Poiché le enclave sono stateless, i dati devono talvolta essere memorizzati all'esterno, in memoria non attendibile.  
 

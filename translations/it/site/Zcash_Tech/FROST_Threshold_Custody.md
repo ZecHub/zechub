@@ -97,7 +97,7 @@ La Zcash Foundation ha rilasciato un'implementazione funzionante di FROST e un s
 ### Demo FROST di Ywallet
 Ywallet aveva una prima integrazione demo di FROST, illustrata nella [guida alla demo FROST di Ywallet](/guides/Ywallet_FROST_Demo). Ywallet non è più mantenuto e non verrà aggiornato per Ironwood, quindi leggi la guida come contesto anziché come qualcosa da eseguire oggi. Zkool, dello stesso sviluppatore, è il successore mantenuto e include FROST multisig tra le sue funzionalità.
 
-### ZecHub Hackathon 2026 — Progetti del track FROST
+### ZecHub Hackathon 2026 — progetti del track FROST
 
 Il track FROST è stato il più competitivo allo ZecHub Hackathon 2026. Progetti degni di nota:
 

@@ -72,7 +72,7 @@ All'interno di un account Orchard, la gerarchia è strettamente unidirezionale �
 
 Orchard ha semplificato questo rispetto a Sapling: secondo il [Orchard Book](https://zcash.github.io/orchard/design/keys.html), la chiave privata del nullifier `nsk` è stata rimossa, `nk` è diventato un elemento di campo anziché un punto della curva e `ovk` deriva ora dalla chiave di visualizzazione completa anziché essere detenuta separatamente.
 
-Al di sopra di questo si trova [ZIP 316, *Indirizzi unificati e chiavi di visualizzazione unificate*](https://zips.z.cash/zip-0316) — Revisione 0 attiva, Revisione 1 ritirata, Revisione 2 bozza — che raggruppa le chiavi per pool in una **Unified Full Viewing Key** ("combines multiple Full Viewing Key… Items") e una **Unified Incoming Viewing Key**. La distinzione che uno sviluppatore di portafogli deve rispettare: una UFVK rivela sia l'attività in entrata sia quella in uscita, una UIVK soltanto quella in entrata.
+Al di sopra di questo si trova [ZIP 316, *Indirizzi unificati e chiavi di visualizzazione unificate*](https://zips.z.cash/zip-0316) — Revisione 0 Active, Revisione 1 Withdrawn, Revisione 2 Draft — che raggruppa le chiavi per pool in una **Unified Full Viewing Key** ("combines multiple Full Viewing Key… Items") e una **Unified Incoming Viewing Key**. La distinzione che uno sviluppatore di portafogli deve rispettare: una UFVK rivela sia l'attività in entrata sia quella in uscita, una UIVK soltanto quella in entrata.
 
 ### Dash
 

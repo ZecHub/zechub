@@ -33,7 +33,7 @@ NU5 riunisce diverse modifiche al consenso, tutte attivate insieme al blocco 1.6
 
 NU5 ha inoltre aggiornato diversi ZIP esistenti (32, 203, 209, 212, 213, 221 e 401) affinché tengano conto della nuova pool Orchard.
 
-## Unified Addresses
+## Unified addresses
 
 Prima di NU5, ogni pool aveva il proprio tipo di indirizzo e il mittente doveva sapere quale tipo desideravi. Gli indirizzi unificati, definiti in [ZIP 316](https://zips.z.cash/zip-0316), cambiano questa situazione. Un singolo indirizzo unificato può riunire ricevitori per più di una pool, quindi il portafoglio del mittente sceglie semplicemente il migliore che supporta.
 

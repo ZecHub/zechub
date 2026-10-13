@@ -24,7 +24,7 @@ ShapeShift è stata originariamente fondata nel 2014 da Erik Voorhees come excha
 
 Nel 2021, ShapeShift ha subito una trasformazione radicale. L'azienda ha sciolto la propria struttura societaria ed è passata a essere un'**Organizzazione Autonoma Decentralizzata (DAO)**, governata dai detentori del **token FOX**. Come parte di questa transizione, circa 340 milioni di token FOX sono stati distribuiti tramite airdrop a oltre un milione di utenti, rendendolo uno dei più grandi airdrop nella storia delle cripto. Da quel momento in poi, tutte le decisioni importanti sulla piattaforma sono state prese tramite proposte e votazioni di governance comunitaria.
 
-### Caratteristiche Principali
+### Caratteristiche principali
 
 - **Non-custodial (senza custodia di terzi)**: Gli utenti scambiano direttamente dai propri portafogli. ShapeShift non detiene mai i tuoi fondi.
 - **Nessun KYC Richiesto**: Nessuna verifica dell'identità, nessuna creazione di account e nessuna raccolta di dati personali.
@@ -119,7 +119,7 @@ La maggior parte degli exchange decentralizzati tratta la privacy come un ripens
 
 Come ha dichiarato Houston Morgan, responsabile del workstream di crescita e community di ShapeShift: *"La privacy non dovrebbe fare paura, ma scambiare ZEC su exchange centralizzati spesso la fa. La loro stessa struttura e il loro rischio legale uccidono la vera privacy."*
 
-### Dal Delisting al Predefinito
+### Dal delisting al predefinito
 
 La storia rende questa integrazione ancora più significativa. Nel 2020, quando ShapeShift era ancora un'azienda centralizzata, ha **delistato le privacy coin** tra cui Zcash sotto pressione normativa. La transizione a una struttura DAO ha liberato ShapeShift da quei vincoli. Ora, come protocollo governato dalla community, ShapeShift non solo ha re-listato Zcash, ma ne ha fatto una parte centrale della propria strategia di privacy.
 

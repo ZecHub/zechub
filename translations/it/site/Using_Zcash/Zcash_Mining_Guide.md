@@ -159,7 +159,7 @@ La dashboard pubblica mostra l'effetto in tempo reale: le regioni collegate al r
 Questa è infrastruttura per operatori di pool, non per singoli miner. Il repository open source `mining-infra` di Sovright documenta un gateway relay `submitblock` per diffondere i blocchi trovati nella mesh più velocemente del P2P nativo. Per connetterti, contatta direttamente Sovright (support@sovright.com) per ottenere gli indirizzi dei peer relay e una chiave di autenticazione.
 
 
-## Consigli e Buone Pratiche
+## Consigli e buone pratiche
 - **Redditività:** Usa calcolatori come whattomine.com/coins/166-zec-equihash. Esempio: una RTX 3060 (~300 Sol/s) guadagna ~0.001 ZEC/giorno a $50/ZEC, meno ~$0.50 di elettricità.
 - **Privacy:** Usa pool schermate se disponibili; evita di riutilizzare gli indirizzi.
 - **Sicurezza:** Usa password robuste; abilita il 2FA su pool/portafogli. Non condividere mai le chiavi private.

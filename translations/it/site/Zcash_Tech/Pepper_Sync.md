@@ -44,7 +44,7 @@ Le versioni precedenti di Zingo spesso frustravano gli utenti con tempi di sincr
 
 In breve: la sincronizzazione ora è più veloce, più affidabile e più facile da capire.
 
-## Visuale / Analogia
+## Visuale / analogia
 
 Pensa alla sincronizzazione di un portafoglio più vecchio come alla lettura ad alta voce di un libro lunghissimo dalla prima pagina, prima di poterne dire qualsiasi cosa. Se ti fermi a metà, ricominci dalla prima pagina. Pepper Sync legge lo stesso libro, ma tiene un segnalibro, legge prima i capitoli che contano per te e ti permette di parlare della storia prima di aver finito l'ultima pagina.
 

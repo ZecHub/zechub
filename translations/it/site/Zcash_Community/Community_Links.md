@@ -56,7 +56,7 @@ Zcash ha una presenza globale attiva su X. Account principali da seguire:
 
 ----
 
-## Hub Regionali della Community
+## Hub regionali della community
 
 - [Zcash en Espanol](https://zcashesp.com) - Community di lingua spagnola (anche su Bluesky dopo la sospensione su X)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Community brasiliana

@@ -30,7 +30,7 @@ L'idea alla base di ZCAP è che sia formato da un gruppo eterogeneo di membri de
 
 A ottobre 2023, ZCAP è composto da [188 membri](https://docs.google.com/spreadsheets/d/1Y-GbVFA1csIgPbvHOR-1ruOlh7YdA-CHvMtd6R8iSdY/edit#gid=0) e viene ampliato frequentemente. Inoltre, la Zcash Foundation ha "ampliato i criteri di eleggibilità per l'adesione a ZCAP, includendo criteri suggeriti dai membri della comunità Zcash".
 
-## Membri di Spicco
+## Membri di spicco
 - Ian Miers
 - Vitalik Buterin
 - Michelle Lai 

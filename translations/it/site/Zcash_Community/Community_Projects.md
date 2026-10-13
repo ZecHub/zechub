@@ -1,4 +1,4 @@
-# Progetti della Community
+# Progetti della community
 
 Scopri strumenti, portafogli, applicazioni, librerie e iniziative dell'ecosistema costruiti dalla community di Zcash e dal più ampio ecosistema zero-knowledge.
 
@@ -238,7 +238,7 @@ Un sistema di autenticazione incentrato sulla privacy che utilizza transazioni s
 
 ---
 
-## Sviluppo, Testing e Infrastruttura
+## Sviluppo, testing e infrastruttura
 
 ### Ziggurat
 Suite di test di rete per sviluppatori di zcashd e Zebra. Include un crawler Zcash.  
@@ -248,7 +248,7 @@ Suite di test di rete per sviluppatori di zcashd e Zebra. Include un crawler Zca
 Toolkit orientato a Linux che avvia una rete regtest Zebra con faucet, fixture di Unified Address e lightwalletd o Zaino, oltre ad Actions GitHub riutilizzabili per flussi end-to-end schermati.  
 [Visita](https://github.com/zecdev)
 
-### Zebra Infrastruttura di fuzzing guidato dalla copertura
+### Zebra infrastruttura di fuzzing guidato dalla copertura
 Test sistematico dei componenti di parsing, rete e crittografici di Zebra contro input malformati.  
 [Forum](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 

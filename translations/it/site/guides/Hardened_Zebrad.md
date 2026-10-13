@@ -110,7 +110,7 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## Uso quotidiano - Flusso di lavoro con un solo comando
+## Uso quotidiano - flusso di lavoro con un solo comando
 
 | Azione                  | Comando                                      | Note |
 |-------------------------|----------------------------------------------|-------|

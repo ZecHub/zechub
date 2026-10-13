@@ -55,7 +55,7 @@ Successivamente, un qualsiasi insieme di t partecipanti su n può eseguire un pr
     <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
 </a>
 
-## Visuale / Analogia
+## Visuale / analogia
 
 Pensa a FROST come a una cassetta di sicurezza che si apre solo quando più detentori autorizzati girano insieme le loro chiavi — ma non è necessario che siano presenti tutti i detentori delle chiavi; ne basta solo un numero prestabilito (per esempio, 3 su 5). Una volta aperta la cassetta, un osservatore esterno non può capire quali detentori delle chiavi si siano presentati, né se fosse coinvolta più di una persona. Allo stesso modo, un gruppo può autorizzare congiuntamente una transazione Zcash mentre la rete vede solo una firma dall'aspetto ordinario.
 

@@ -95,7 +95,7 @@ Oppure, all'interno di un post, cerca il pulsante più fluttuante. Da qui puoi d
 
 ![Pulsanti di azione fluttuanti all'interno di un post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
-## Live Streaming
+## Live streaming
 
 La piattaforma Free2z offre una fantastica funzionalità chiamata Free2z Live. Con questo strumento, i creatori possono avviare dirette live per i membri abbonati. Alcune funzionalità chiave di Free2z Live includono:  
 - Audio e video  
@@ -105,7 +105,7 @@ La piattaforma Free2z offre una fantastica funzionalità chiamata Free2z Live. C
 - Lavagna condivisa  
 - E molto altro!
 
-### Cosa puoi fare con Free2z Live
+### Cosa puoi fare con Free2Z Live
 
 Free2z Live è uno strumento potente che permette ai creatori di trasmettere qualsiasi tipo di contenuto. Ecco alcuni esempi del tipo di contenuti che puoi trasmettere con Free2z Live:  
 - Tutorial e dimostrazioni  
@@ -140,7 +140,7 @@ _(Esempio di sessione di Free2z Live)_
 
 Free2z Live è versatile e potente. Nella prossima sezione fornirò una panoramica delle sue funzionalità e dei suoi strumenti.
 
-### Esplorare Free2z Live
+### Esplorare Free2Z Live
 
 Questo wiki-doc non vuole essere una guida approfondita a Free2z o Free2z Live. Ma ecco una panoramica generale dei suoi strumenti.
 

@@ -66,7 +66,7 @@ Si tratta di un cambiamento fondamentale che sta già aiutando più ZEC a sposta
 
 ---
 
-## Transazioni e Action di Orchard
+## Transazioni e action di Orchard
 
 Orchard ha introdotto un nuovo concetto chiamato **Action**:
 

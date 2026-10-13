@@ -12,7 +12,7 @@ I grant sono **esclusivamente retroattivi**: premiano contributi passati (ad es.
 
 ---
 
-## Eligible Applications
+## Eligible applications
 
 **Focus**:
 
@@ -37,7 +37,7 @@ Votate separatamente; vince quella con il maggior sostegno in ZEC.
 
 Da parte dei Key-Holder per questioni legali o per danni agli utenti/alla comunità (raro, con motivazione).
 
-## How to Submit an Application
+## How to submit an application
 
 **Prepara la proposta**:
 
@@ -65,9 +65,9 @@ Da parte dei Key-Holder per questioni legali o per danni agli utenti/alla comuni
 
 Rispondi alle domande della comunità durante i 30 giorni di revisione.
 
-#### note: Amministrato da FPF (conformità, comunicazione); le proposte vengono raccolte su GitHub per garantirne la visibilità.
+#### Note: Amministrato da FPF (conformità, comunicazione); le proposte vengono raccolte su GitHub per garantirne la visibilità.
 
-## Voting Process and Cadence
+## Voting process and cadence
 
 **Cadenza trimestrale** (ad es. Q4 2025, Q1 2026):
 
@@ -98,6 +98,6 @@ Subito dopo; i grant approvati vengono pagati secondo i termini (KYC per importi
 
 #### Note: **Turno attuale (al 5 gennaio 2026)**: Q4 2025 completato (voto di novembre); gli invii per il Q1 2026 sono attesi a breve: monitora il forum per gli annunci.
 
-## Latest Updates:
+## Latest updates:
 
 Consulta la [Sezione Grants dello Zcash Community Forum](https://forum.zcashcommunity.com/c/grants/32). Il processo può evolvere con il feedback della comunità.

@@ -123,7 +123,7 @@ La governance di Zcash è un mix di "regole del protocollo on-chain" e "consenso
 | Nov 2024 - oggi   | 80%      | 0%            | 0%  | 8%  | 12%                    | Modello NU6 + estensione ZCG                               |
 | Proposta (ZIP 1016) | 80%    | 0%            | 0%  | 8%  | 12% (Coinholder-Controlled) | Fino al 3° halving; votazione dei possessori di monete |
 
-## 5. Risorse Correlate
+## 5. Risorse correlate
 
 - Spiegazione ufficiale del finanziamento -> [sezione finanziamento di z.cash](https://z.cash/network/?funding=#funding)  
 - ZIP 1015 (modifica finanziamento NU6) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  

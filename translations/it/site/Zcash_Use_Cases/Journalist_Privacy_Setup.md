@@ -48,7 +48,7 @@ Zcash offre:
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti Serve
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
 - Un portafoglio Zcash con supporto schermato
 - Un canale di comunicazione sicuro (al di fuori della blockchain)
@@ -56,7 +56,7 @@ Zcash offre:
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida Passo Passo
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida passo passo
 
 
 ### Passo 1: crea un portafoglio dedicato
@@ -93,7 +93,7 @@ Se paghi delle fonti:
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Errori Comuni da Evitare
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Errori comuni da evitare
 
 - Usare indirizzi trasparenti  
 - Riutilizzare gli indirizzi tra le fonti  
@@ -131,7 +131,7 @@ Ora comprendi:
 
 <br/> 
 
-## E Adesso?
+## E adesso?
 
 - [Vai alla home page](/)
 - [Esplora i percorsi per sviluppatori](/developers)

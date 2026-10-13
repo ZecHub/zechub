@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Sicurezza dell'Ecosistema Zcash
+# Sicurezza dell'ecosistema Zcash
 
 ## Responsabile della sicurezza dell'ecosistema
 
@@ -23,7 +23,7 @@ L'[Iniziativa di Divulgazione delle Vulnerabilità e Sicurezza ZCG](https://foru
 - **Vulnerabilità Multiple Risolte (Aprile 2026):** [Diverse vulnerabilità di Zcash sono state corrette con successo](https://forum.zcashcommunity.com/t/several-zcash-vulnerabilities-successfully-remediated/55388) senza compromettere fondi o privacy degli utenti.
 - **Avviso zcashd (Aprile 2026):** [Avviso per ridurre la superficie d'attacco di zcashd](https://forum.zcashcommunity.com/t/advisory-reduce-your-zcashd-attack-surface-by-shielding-it-behind-zebra/55390) instradando il traffico attraverso Zebra.
 
-## Divulgazione Responsabile
+## Divulgazione responsabile
 
 Electric Coin Company e Zcash Foundation si conformano entrambe a questo [standard](https://github.com/RD-Crypto-Spec/Responsible-Disclosure/tree/d47a5a3dafa5942c8849a93441745fdd186731e6) di Divulgazione Responsabile con la seguente deviazione:
 

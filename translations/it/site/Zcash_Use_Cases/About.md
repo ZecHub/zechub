@@ -4,7 +4,7 @@ Zcash non è solo teoria sulla privacy — si tratta di **libertà finanziaria p
 
 Questa sezione ti mostra **esattamente come usare Zcash in scenari di vita reale**, con guide passo-passo e buone pratiche.
 
-## Cosa Imparerai
+## Cosa imparerai
 
 - Come proteggere la tua privacy finanziaria
 - Come evitare errori comuni che espongono i tuoi dati
@@ -21,11 +21,11 @@ Ogni playbook è:
 Se sei nuovo, inizia da qui: [Cos'è Zcash](/start-here/what-is-zec-and-zcash)
 
 
-##  Percorso Consigliato
+##  Percorso consigliato
 
 Segui questo percorso passo dopo passo per padroneggiare l'utilizzo di Zcash nel mondo reale:
 
-###  [Ricevi Donazioni in Modo Privato](/zcash-use-cases/receive-donations-privately)
+###  [Ricevi donazioni in modo privato](/zcash-use-cases/receive-donations-privately)
 Scopri come accettare fondi senza esporre la tua identità o la tua storia finanziaria.
 
 

@@ -13,7 +13,7 @@ La Financial Privacy Foundation (FPF) è un'organizzazione non profit costituita
  FPF X FPF è il primo programma sperimentale di finanziamenti di FPF, il Financial Privacy Fund (FPF x FPF). Il programma finanzierà progetti di ingegneria all'interno dell'ecosistema Zcash che sono prossimi al completamento, oppure progetti che contribuiranno immediatamente all'ecosistema e che possono essere completati entro i limiti di tempo e di finanziamento specificati. FPF X FPF viene lanciato con fondi molto limitati per affinare il processo di erogazione dei finanziamenti e auspica di lanciare round futuri. 
 
 
-## [FPF x ZecHub Bounty Program - Articolo del Blog](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
+## [FPF x ZecHub Bounty program - Articolo del blog](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
 
 ## Dettagli del programma FPF X FPF 
 

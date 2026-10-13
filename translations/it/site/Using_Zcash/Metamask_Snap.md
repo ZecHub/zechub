@@ -46,7 +46,7 @@ MetaMask ora supporta **Zcash (ZEC) schermati** tramite lo **Zcash Snap sviluppa
 
 ---
 
-## **2. (Opzionale) Aggiungi la rete Zcash**
+## **2. (Opzionale) aggiungi la rete Zcash**
 
 In MetaMask, scegli **Aggiungi Rete** e inserisci:
 
@@ -104,7 +104,7 @@ Per **Zcash Mainnet**;
 
 ---
 
-## **5. Invia / Ricevi ZEC**
+## **5. Invia / ricevi ZEC**
 
 1. In **WebZjs**, vai a **Trasferisci Saldo**.  
 2. Inserisci:
@@ -119,7 +119,7 @@ Per **Zcash Mainnet**;
 
 ---
 
-## **6. Verifica / Risoluzione dei problemi**
+## **6. Verifica / risoluzione dei problemi**
 
 > Controlla **WebZjs** per i saldi aggiornati **(MetaMask non ha elencato ZEC direttamente)**.  
 > Se si verificano problemi:

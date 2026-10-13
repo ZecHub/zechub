@@ -35,7 +35,7 @@ Gli ZSA sono sviluppati da [QEDIT](https://qed-it.com/), grazie a una importante
 
 ---
 
-## Visualizzazione / Analogia
+## Visualizzazione / analogia
 
 ### La busta sigillata
 

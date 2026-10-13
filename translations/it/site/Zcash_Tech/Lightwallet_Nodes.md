@@ -3,7 +3,7 @@
 </a>
 
 
-# Nodi Lightwallet di Zcash
+# Nodi lightwallet di Zcash
 
 ## TL;DR
 
@@ -55,7 +55,7 @@ Il modello rileva inoltre che il caso ordinario presuppone "una relazione di fid
 
 Quindi il riassunto onesto è questo. Un server per portafoglio leggero non può spendere il tuo denaro e non può leggere gli importi o i memo nelle tue transazioni schermate. Ciò che può facilmente apprendere è il tuo indirizzo IP e la tempistica della tua attività, e questi due elementi insieme possono rivelare molto su una persona. Le transazioni schermate proteggono ciò che avviene sulla blockchain. Da sole, non nascondono la tua connessione al server.
 
-## Visuale / Analogia
+## Visuale / analogia
 
 Pensa a una biblioteca pubblica che conserva ogni giornale mai stampato. Un full node (nodo completo) è un lettore che porta a casa l'intero archivio. Un portafoglio leggero è un lettore che chiede invece al bibliotecario un riassunto quotidiano — un foglio sottile che contiene appena abbastanza per capire se qualcosa lo riguarda.
 
