@@ -46,7 +46,7 @@ Una privacy che non puoi mai rimuovere non è utile. A volte devi dimostrare qua
 
 **Full Viewing Key.** Di sola lettura. Mostra attività e saldi in entrata e in uscita, ma non può spendere nemmeno un singolo zatoshi. È ciò che consegni a un revisore o a un commercialista.
 
-**Incoming Viewing Key.** Ancora più limitata: mostra solo i pagamenti in arrivo. Uno exchange o un commerciante può utilizzarla per confermare che il tuo deposito è arrivato, mentre le chiavi di spesa rimangono su hardware che non tocca mai internet.
+**Incoming Viewing Key.** Ancora più limitata: mostra solo i pagamenti in arrivo. Un exchange o un commerciante può utilizzarla per confermare che il tuo deposito è arrivato, mentre le chiavi di spesa rimangono su hardware che non tocca mai internet.
 
 L'ordine conta. Condividi la chiave più limitata che svolge il compito, non la più ampia che ti capita di avere.
 

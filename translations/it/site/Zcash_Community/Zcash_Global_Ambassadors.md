@@ -23,7 +23,7 @@ Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consen
 | Regione | Comunità | Attività principale |
 |--------|-----------|-------------|
 | America Latina | [Zcash en Español](https://x.com/zcashesp1) | Contenuti in spagnolo, ZK AV Club, podcast Zcast |
-| Brazil | [Zcash Brazil](https://x.com/zcashbrazil) | Workshop, incontri, Shielded Magazine |
+| Brasile | [Zcash Brazil](https://x.com/zcashbrazil) | Workshop, incontri, Shielded Magazine |
 | Turchia | [Zcash Turkey](https://x.com/ZcashTR) | Contenuti educativi, partecipazione alla Istanbul Blockchain Week |
 | Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Contenuti educativi in arabo, AMA |
 | Ucraina| [Zcask Ukraine](https://x.com/Zcash_ua) | Ucraina |

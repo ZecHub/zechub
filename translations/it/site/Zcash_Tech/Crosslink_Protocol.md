@@ -61,7 +61,7 @@ Il Protocollo Crosslink è progettato per affrontare diversi obiettivi strategic
 
 Pensa a un servizio di consegna pacchi che emette due documenti diversi per la stessa spedizione. Il primo è una scansione di tracciamento: appare rapidamente, ti dice dove molto probabilmente si trova il pacco e occasionalmente viene corretta. Il secondo è una ricevuta di consegna firmata: arriva più tardi, ma una volta esistente nessuno la mette in discussione.
 
-Il registro a latenza inferiore è la scansione di tracciamento, mentre il registro finalizzato è la ricevuta firmata. Entrambi descrivono la stessa chain di eventi; differiscono per la rapidità con cui appaiono e per quanto sono definitivi.
+Il registro a latenza inferiore è la scansione di tracciamento, mentre il registro finalizzato è la ricevuta firmata. Entrambi descrivono la stessa catena di eventi; differiscono per la rapidità con cui appaiono e per quanto sono definitivi.
 
 La Modalità di Sicurezza è ciò che fa il deposito quando le ricevute firmate smettono di arrivare mentre le scansioni continuano ad accumularsi. I pacchi continuano a muoversi nell'edificio, ma l'ufficio smette di effettuare pagamenti basandosi solo sulle scansioni finché le firme non raggiungono il passo.
 

@@ -35,7 +35,7 @@
     ],
     "writing_rules": [
       "Use sentence case in headings, titles and terms, not English Title Case (\"Configurazione fidata\", not \"Configurazione Fidata\").",
-      "Use the articles \"uno\" / \"gli\" before z-, s + consonant, ps- and gn-, also with English terms and acronyms (uno zk-SNARK, gli ZEC, gli exchange).",
+      "Use the articles \"uno\" / \"gli\" only before z-, s + consonant, ps-, gn- and x-, also with English terms and acronyms (uno zk-SNARK, gli ZEC). Before a vowel use \"un\" / \"gli\" (un exchange, un indirizzo, gli exchange) and before other consonants \"un\" / \"i\" (un t-address).",
       "Use Italian word order around names (\"la documentazione di Valar Group\", not \"Valar Group documentazione\").",
       "English terms kept in English do not take a plural -s (gli exchange, gli zk-SNARK, le pool). Italian words take the Italian plural (portafoglio → portafogli).",
       "Lowercase after a colon, unless a proper name follows.",
@@ -489,7 +489,7 @@
         "chains",
         "Chain"
       ],
-      "context": "Keep \"chain\" in English, like on-chain, cross-chain and blockchain.",
+      "context": "Keep \"chain\" in English only for a blockchain (like on-chain, cross-chain, blockchain). Ordinary chains stay \"catena\": \"catena alimentare\", \"catena di passaggi logici\", \"catena di eventi\".",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
