@@ -95,7 +95,7 @@ Una barriera all'usabilità storicamente impegnativa per i sistemi di privacy a 
 
 ### La privacy esistente di Dash: CoinJoin
 
-Dash ha tradizionalmente offerto privacy attraverso **CoinJoin**, un meccanismo di mixing non custodiale. CoinJoin funziona combinando gli input e gli output delle transazioni di più utenti in un'unica transazione, rendendo difficile (ma non impossibile) per gli osservatori tracciare quali input corrispondano a quali output.
+Dash ha tradizionalmente offerto privacy attraverso **CoinJoin**, un meccanismo di mixing non custodial. CoinJoin funziona combinando gli input e gli output delle transazioni di più utenti in un'unica transazione, rendendo difficile (ma non impossibile) per gli osservatori tracciare quali input corrispondano a quali output.
 
 CoinJoin ha dei limiti:
 

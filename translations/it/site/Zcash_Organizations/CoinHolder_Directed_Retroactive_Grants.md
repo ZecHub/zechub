@@ -83,7 +83,7 @@ Inizia dopo la scadenza; discussione/feedback nei thread del forum (spesso viene
 
 Segue la revisione (ad es. ~1-2 settimane a novembre per il Q4).
 
-**Risultati e erogazione**:
+**Risultati ed erogazione**:
 
 Subito dopo; i grant approvati vengono pagati secondo i termini (KYC per importi >$50k).
 

@@ -150,12 +150,12 @@ Man mano che gli ambienti normativi si inaspriscono in tutto il mondo, con regio
 | **Governance** | Detentori del token FOX |
 | **Supporto Zcash** | Trading completo di ZEC con supporto per transazioni schermate |
 | **KYC Richiesto** | No |
-| **Custodia** | Non custodiale (gli utenti mantengono le proprie chiavi) |
+| **Custodia** | Non custodial (gli utenti mantengono le proprie chiavi) |
 | **Scambi Cross-Chain** | BTC, ETH, Arbitrum, Cosmos e altro |
 | **Infrastruttura** | Alimentata da Liquify (supporto RPC per oltre 90 blockchain) |
 | **Finanziamento Zcash Community Grants** | 50.000 $ per supporto tecnico e di marketing |
 
-L'integrazione di ShapeShift e Zcash rappresenta un significativo passo avanti per la privacy nella finanza decentralizzata. Combinando l'infrastruttura di trading non custodiale e multichain di ShapeShift con la tecnologia delle prove a conoscenza zero di Zcash, gli utenti ottengono accesso a un trading di criptovalute realmente privato e senza permessi. Per chiunque dia valore alla privacy finanziaria e all'autosovranità, questa integrazione fornisce un percorso pratico e accessibile per usare ZEC senza compromessi.
+L'integrazione di ShapeShift e Zcash rappresenta un significativo passo avanti per la privacy nella finanza decentralizzata. Combinando l'infrastruttura di trading non custodial e multichain di ShapeShift con la tecnologia delle prove a conoscenza zero di Zcash, gli utenti ottengono accesso a un trading di criptovalute realmente privato e senza permessi. Per chiunque dia valore alla privacy finanziaria e all'autosovranità, questa integrazione fornisce un percorso pratico e accessibile per usare ZEC senza compromessi.
 
 ---
 
