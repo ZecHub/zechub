@@ -68,6 +68,6 @@ NU6.3 è descritta nella ZIP 258, insieme alle ZIP aggiuntive elencate qui. L'in
 
 > Proposta: [Recuperabilità Quantistica di Ironwood](https://zips.z.cash/zip-2005)
 
-> Riservata: [Restrizione dei Trasferimenti nel Pool Orchard](https://zips.z.cash/zip-2006)
+> Riservata: [Restrizione dei Trasferimenti nella pool Orchard](https://zips.z.cash/zip-2006)
 
 Anche tre ZIP precedenti vengono aggiornate per NU6.3: [ZIP 209](https://zips.z.cash/zip-0209), [ZIP 213](https://zips.z.cash/zip-0213) e [ZIP 317](https://zips.z.cash/zip-0317).

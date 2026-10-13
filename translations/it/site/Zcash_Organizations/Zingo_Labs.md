@@ -9,7 +9,7 @@ Zingo Lab Cyan opera come una Shielded DAO. Conserviamo i nostri fondi in una te
 ## Progetti
 
 ### Zingo! Wallet ([Github](https://github.com/zingolabs/zingo-mobile))
-Zingo Wallet è un portafoglio Zcash completo, progettato per essere facile da usare, pur includendo alcune funzionalità avanzate per gli utenti più esperti. Supporta le pool trasparenti, Sapling e Orchard, dispone di una rubrica per i pagamenti ricorrenti ed è disponibile in diverse lingue. È stato il primo wallet a supportare Orchard e a implementare i formati NU5.
+Zingo Wallet è un portafoglio Zcash completo, progettato per essere facile da usare, pur includendo alcune funzionalità avanzate per gli utenti più esperti. Supporta le pool trasparenti, Sapling e Orchard, dispone di una rubrica per i pagamenti ricorrenti ed è disponibile in diverse lingue. È stato il primo portafoglio a supportare Orchard e a implementare i formati NU5.
 
 Una delle principali funzionalità di Zingo! è la capacità di utilizzare il campo Memo per offrire informazioni preziose sulle tue transazioni.
 
@@ -21,7 +21,7 @@ Un'API e un'app di test che espongono le funzionalità di zcash per l'utilizzo d
 ### Zaino Indexer ([Github](https://github.com/zingolabs/zaino))
 Zaino è un Indexer sviluppato in Rust dal team Zingo, che mira a sostituire lightwalletd e a portare avanti il progetto di deprecazione di zcashd.
 
-Zaino offre funzionalità essenziali sia per i light client, come wallet e applicazioni che non richiedono l'intera cronologia della blockchain, sia per i full client o wallet. Supporta inoltre i block explorer, garantendo l'accesso sia alla blockchain finalizzata sia alla migliore catena non finalizzata e alla mempool gestite da un full validator Zebra o Zcashd.
+Zaino offre funzionalità essenziali sia per i light client, come portafogli e applicazioni che non richiedono l'intera cronologia della blockchain, sia per i full client o portafogli. Supporta inoltre i block explorer, garantendo l'accesso sia alla blockchain finalizzata sia alla migliore catena non finalizzata e alla mempool gestite da un full validator Zebra o Zcashd.
 
 ###  ZLN (zcash-local-net) ([Github](https://github.com/zingolabs/zcash-local-net))
 Un insieme di utility che avviano e gestiscono i processi Zcash. Viene utilizzato per i test di integrazione nello sviluppo di:

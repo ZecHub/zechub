@@ -1,4 +1,4 @@
-# Guida al Mining di Zcash: Unirsi a un Mining Pool con Hardware Personale
+# Guida al mining di Zcash: unirsi a una mining pool con hardware personale
 
 ## Introduzione
 
@@ -33,7 +33,7 @@ Questa guida si concentra sul mining di Zcash utilizzando hardware personale (ad
 - Elettricità: calcola i costi. Le GPU usano 150-300W per scheda; gli ASIC 1000W+.
 - Antivirus: disabilitalo durante la configurazione, poiché potrebbe segnalare i miner come minacce.
 
-## Guida Passo Passo per Unirsi a un Mining Pool
+## Guida passo passo per unirsi a una mining pool
 
 ### Passo 1: Configura il tuo portafoglio Zcash
 1. Scarica e installa un portafoglio dal sito ufficiale di Zcash [portafogli](https://zechub.wiki/wallets).
@@ -52,10 +52,10 @@ Questa guida si concentra sul mining di Zcash utilizzando hardware personale (ad
 
 **Avvertenza:** assicurati di avere una ventilazione adeguata; il mining genera calore. Inizia in piccolo per fare delle prove.
 
-### Passo 3: Scegli e Unisciti a un Mining Pool
+### Passo 3: scegli e unisciti a una mining pool
 Le mining pool distribuiscono il lavoro e condividono le ricompense in base all'hash rate che contribuisci. Scegli in base alle commissioni (0-2%), al minimo di pagamento (0.01-0.1 ZEC), alla posizione geografica (ping basso) e all'affidabilità.
 
-**Pool Consigliati (in base a hash rate, commissioni e recensioni):**
+**Pool consigliate (in base a hash rate, commissioni e recensioni):**
 - **2Miners (zec.2miners.com)**: commissione 1%, pagamento PPLNS, supporta GPU/ASIC/NiceHash. Alto hash rate (~1.17 GSol/s), server affidabili.
 - **F2Pool (zec.f2pool.com)**: commissione 2%, pagamento PPS+, supporto multi-coin. Grande pool (~2.57 GSol/s).
 - **ViaBTC (zec.viabtc.com)**: commissione 2% (PPS+), dashboard intuitiva, server globali.
@@ -107,7 +107,7 @@ Le mining pool distribuiscono il lavoro e condividono le ricompense in base all'
 ![Configurazione di Monitoraggio del Mining di Zcash](/content-images/zcashMining-5ca0019c17.webp)
 
 
-## Sovright: Pool di Testnet e Rete Relay
+## Sovright: pool di testnet e rete relay
 
 Sovright (sovright.com) gestisce una mining pool Stratum V2 e una rete relay di blocchi separata. Svolgono compiti diversi, quindi sono trattati separatamente qui sotto.
 

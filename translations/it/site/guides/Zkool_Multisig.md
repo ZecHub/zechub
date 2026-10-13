@@ -109,7 +109,7 @@ Seleziona l'**Account di finanziamento**.
 
 
 **Nota:** se usi un indirizzo solo Orchard o solo Sapling, il multisig sarà limitato a quella sola pool (Orchard o Sapling).  
-Questo significa che il wallet condiviso non può ricevere fondi da altri pool.  
+Questo significa che il wallet condiviso non può ricevere fondi da altre pool.  
 Per la massima compatibilità e flessibilità, usa sempre gli **Unified Address**.  
 
 
