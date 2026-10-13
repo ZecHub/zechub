@@ -151,7 +151,7 @@ Per verificarlo, apri la transazione nel tuo portafoglio e copia l'ID della tran
 
 ![Dettagli della transazione del portafoglio Zcash con l'ID della transazione e il timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
 
-Incollalo in [l'explorer di blocchi Zcash](https://mainnet.zcashexplorer.app). Non lasciarti confondere dal riepilogo. Il nostro riporta **Input schermati / output schermati 0 / 0** e **Trasferito dalla/alla pool schermata 0.0 ZEC**, perché il riepilogo dell'explorer non conta ancora Ironwood. Gli indirizzi `t1` che vedi sono sul lato di invio (gli ZEC che ha speso e il resto che ha conservato), non sono i tuoi.
+Incollalo nell'[explorer di blocchi Zcash](https://mainnet.zcashexplorer.app). Non lasciarti confondere dal riepilogo. Il nostro riporta **Input schermati / output schermati 0 / 0** e **Trasferito dalla/alla pool schermata 0.0 ZEC**, perché il riepilogo dell'explorer non conta ancora Ironwood. Gli indirizzi `t1` che vedi sono sul lato di invio (gli ZEC che ha speso e il resto che ha conservato), non sono i tuoi.
 
 ![Riepilogo dell'explorer per la transazione: due input trasparenti, un output trasparente, 0/0 schermati](/content-images/14-explorer-summary-6153afb265.webp)
 
