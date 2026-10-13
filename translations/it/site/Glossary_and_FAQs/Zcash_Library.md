@@ -231,7 +231,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Zcash | Criptovaluta incentrata sulla privacy che utilizza zk-SNARKs. Collega pagamenti trasparenti (in stile Bitcoin) e pagamenti completamente schermati. |
 | Zcash Foundation | Organizzazione non profit indipendente che supporta l'ecosistema Zcash, finanzia lo sviluppo e promuove la privacy. |
 | Zcash Network | Rete peer-to-peer di nodi che valida le transazioni e mantiene la blockchain. |
-| ZEC | Il codice valuta ufficiale di Zcash (alcuni exchange mostrano ancora XZC). |
+| ZEC | Il ticker ufficiale di Zcash (alcuni exchange mostrano ancora XZC). |
 | Zerocash | Il protocollo accademico (2014) su cui si basa Zcash. |
 | Zaino | L'indicizzatore Zcash di nuova generazione che sostituisce lightwalletd, realizzato dalla Zcash Foundation. Consente ai client leggeri di sincronizzarsi più velocemente e in modo più privato. Parte dell'aggiornamento infrastrutturale Z3 di Zcash. |
 | Zakura | Un'implementazione full node (nodo completo) di Zcash rilasciata a luglio 2026, realizzata come fork di Zebra da Valar Group e Project Tachyon. Punta al throughput e alla velocità di sincronizzazione, con bootstrap tramite snapshot e l'obiettivo dichiarato di raggiungere la scala delle reti di carte, circa 50.000 transazioni al secondo. [zakura.com](https://zakura.com) |
