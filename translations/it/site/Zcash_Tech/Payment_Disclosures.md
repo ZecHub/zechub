@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica pagina"/>
 </a>
 
-# Prova di pagamento schermata e comunicazioni di pagamento
+# Prova di pagamento schermato e comunicazioni di pagamento
 
 ## In breve
 
-- Un ID transazione identifica una transazione, ma non rivela un destinatario schermato, un importo o un memo.
+- Un ID di una transazione identifica una transazione, ma non rivela un destinatario schermato, un importo o un memo.
 - Una comunicazione di pagamento è progettata per consentire al mittente di provare dettagli selezionati di un pagamento senza esporre il resto della cronologia del proprio portafoglio.
 - Una chiave di visualizzazione concede accesso continuativo in lettura a un indirizzo o account. Usala per audit continuativi, non per una contestazione relativa a un singolo pagamento.
 - Una comunicazione di pagamento non può provare la consegna di beni, identificare da sola una persona, annullare un pagamento o sostituire i controlli di conferma.
@@ -28,9 +28,9 @@ Questo crea un problema pratico. Un cliente potrebbe dover risolvere una controv
 
 Il flusso di base è:
 
-1. Il verificatore fornisce al mittente una sfida o un riferimento univoco, quando è appropriata una prova interattiva.
+1. Il verificatore fornisce al mittente una sfida o un riferimento univoco, quando una prova interattiva è appropriata.
 2. Il mittente seleziona la transazione e l'output o gli output schermati da divulgare.
-3. Un software di portafoglio compatibile crea una comunicazione di pagamento collegata a quella transazione e, facoltativamente, alla sfida.
+3. Un portafoglio compatibile crea una comunicazione di pagamento collegata a quella transazione e, facoltativamente, alla sfida.
 4. Il mittente consegna la comunicazione al verificatore.
 5. Il verificatore ottiene la transazione reale da un nodo Zcash affidabile, controlla che sia stata minata e verifica la comunicazione rispetto a essa.
 6. Un risultato valido conferma solo le dichiarazioni contenute in quella comunicazione.
