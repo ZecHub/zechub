@@ -131,7 +131,7 @@ Queste lacune non rendono inutile l'idea. Spiegano perché una guida attenta deb
 
 ## FAQ
 
-### Posso provare un pagamento schermato con il solo ID transazione?
+### Posso provare un pagamento schermato con il solo ID della transazione?
 
 No. L'ID può identificare la transazione e il suo stato di conferma, ma il destinatario schermato, l'importo e il memo non sono pubblici.
 
@@ -147,7 +147,7 @@ Non secondo la progettazione di ZIP 311. Una comunicazione valida deve dimostrar
 
 No. Non concede accesso futuro all'account come una chiave di visualizzazione, ma i dati e la prova rivelati possono essere copiati. Condividila con la stessa cautela riservata a qualsiasi record finanziario privato.
 
-### La verifica sposta o blocca dei ZEC?
+### La verifica sposta o blocca degli ZEC?
 
 No. Creare o verificare una comunicazione non spende, rimborsa, congela né annulla fondi.
 
