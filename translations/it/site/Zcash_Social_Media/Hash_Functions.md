@@ -11,7 +11,7 @@ In questa serie impareremo i fondamenti di un'ampia gamma di tecnologie che entr
 
 Oggi iniziamo con le **Hash Functions** - un elemento chiave della crittografia usato nelle blockchain. Più avanti in questa serie tratteremo alcuni argomenti che si basano sulle loro proprietà.
 
-### Cos'è una Hash Function?
+### Cos'è una hash function?
 
 Le Hash Functions prendono un input di qualsiasi lunghezza e producono un output di lunghezza fissa.
 
@@ -69,7 +69,7 @@ I Merkle tree sono un esempio di **commitment scheme crittografico**. La radice 
 
 Verificano i dati memorizzati o trasferiti sulle reti P2P, garantendo che i dati ricevuti dai peer siano inalterati.
 
-#### 3. Note Commitment Tree in Zcash
+#### 3. Note commitment tree in Zcash
 Nelle pool schermate **Sapling** e **Orchard** di Zcash, il **Note Commitment Tree** viene usato per verificare che le transazioni siano valide rispetto al consenso, nascondendo perfettamente mittente, destinatario e importi consumati.
 
 #### 4. Signature Hash (blocchi in stile Bitcoin)

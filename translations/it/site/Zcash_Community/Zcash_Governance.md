@@ -1,4 +1,4 @@
-# Panoramica su Finanziamento e Governance di Zcash
+# Panoramica su finanziamento e governance di Zcash
 
 Il modello di finanziamento on-chain di Zcash, la meccanica dei block reward e i ruoli delle principali organizzazioni
 
@@ -24,7 +24,7 @@ Zcash è una criptovaluta Proof-of-Work. Ogni blocco minato distribuisce il suo 
 
 Questo 20% di "dev fund" è stato sostituito dal modello 8% ZCG + 12% lockbox tramite [ZIP 1015](https://zips.z.cash/zip-1015).
 
-### Evoluzione Proposta: ZIP 1016 - Modello di Finanziamento Comunitario e dei Possessori di Monete
+### Evoluzione proposta: ZIP 1016 - modello di finanziamento comunitario e dei possessori di monete
 ZIP 1016 (proposta a febbraio 2025, stato: Proposta) introduce un modello di finanziamento più decentralizzato. Prevede di:
 - Continuare l'assegnazione dell'8% a ZCG.
 - Convertire il 12% del Lockbox in un "Coinholder-Controlled Fund" (alimentato dai fondi esistenti del Lockbox e dal sussidio di blocco del 12% in corso).
@@ -35,7 +35,7 @@ ZIP 1016 (proposta a febbraio 2025, stato: Proposta) introduce un modello di fin
 
 Questa proposta mira a passare dalla governance controllata dalle organizzazioni a quella diretta dei possessori di monete per l'assegnazione del 12%. Non modifica il processo ZIP né le regole sui marchi.
 
-## 2. Le Organizzazioni Principali e le Loro Fonti di Finanziamento
+## 2. Le organizzazioni principali e le loro fonti di finanziamento
 
 **Electric Coin Company (ECC) / Bootstrap Project**  
 - Creatori originali di Zcash (2016).  
@@ -88,7 +88,7 @@ Questa proposta mira a passare dalla governance controllata dalle organizzazioni
 -> Vedi profilo completo: [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs)  
 -> Sito ufficiale: [shieldedlabs.net](https://shieldedlabs.net/)
 
-## 3. Governance - Come Vengono Prese le Decisioni
+## 3. Governance - come vengono prese le decisioni
 
 La governance di Zcash è un mix di "regole del protocollo on-chain" e "consenso sociale off-chain":
 

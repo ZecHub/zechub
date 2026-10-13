@@ -1,4 +1,4 @@
-# Riassunti degli Episodi del ZK Podcast
+# Riassunti degli episodi del ZK Podcast
 
 ## Episodi
 
@@ -42,7 +42,7 @@
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### Episodio 330 – Framework per la Privacy Programmabile con Ying Tong e Bryan Gillespie
+### Episodio 330 – Framework per la privacy programmabile con Ying Tong e Bryan Gillespie
 - **Data:** 3 luglio 2024
 - **Link:** [https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
 - **Riassunto:** Anna e Guille chiacchierano con Ying Tong Lai di Geometry Research e Bryan Gillespie di Inversed Tech del loro lavoro su ‘SoK: Programmable Privacy in Distributed Systems’, esplorando nuove classificazioni e framework.
@@ -53,7 +53,7 @@
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
 
-### Episodio 329 – Costruire Prove Crittografiche con Funzioni Hash con Alessandro Chiesa & Eylon Yogev
+### Episodio 329 – Costruire prove crittografiche con funzioni hash con Alessandro Chiesa & Eylon Yogev
 - **Data:** 26 giugno 2024
 - **Link:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
 - **Riassunto:** Anna e Nico chiacchierano con Alessandro Chiesa, Associate Professor all'EPFL, e Eylon Yogev, Professor alla Bar-Ilan University, della loro pubblicazione sulla costruzione di prove crittografiche a partire da funzioni hash.
@@ -89,7 +89,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 44:00 – Il Manifesto Cypherpunk & Filecoin
     - 48:20 – Outro
 
-### Privacy per il Bene Pubblico con Amber Baldet
+### Privacy per il bene pubblico con Amber Baldet
 - **Data:** 7 febbraio 2023
 - **Link:** [https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB](https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB)
 - **Riassunto:**
@@ -190,7 +190,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:51:06​ – Opting out e Zcash come bene comune
     - 1:57:20​ – Il futuro di Zcash
 
-### DeFi e Privacy Con Railgun
+### DeFi e privacy con Railgun
 - **Data:** 29 agosto 2022
 - **Link:** [https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
 - **Riassunto:** Railgun è un sistema di smart contract che abilita invii, scambi & DeFi privati, su ETH, BSC & Polygon.
@@ -208,7 +208,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:04:00​ – La Comunità di Railgun
     - 1:07:04​ – La privacy cripto tra 5 anni
 
-### NFT Musicali, Privacy e Libertà Economica con Xcelencia
+### NFT musicali, privacy e libertà economica con Xcelencia
 - **Data:** 22 agosto 2022
 - **Link:** [https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
 - **Riassunto:** Xcelencia è un'artista reggaeton nell'ecosistema musicale Web3.
@@ -331,7 +331,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:51:06 – Opting out e Zcash come bene comune
     - 1:57:20 – Il futuro di Zcash
 
-## DeFi e Privacy Con Railgun
+## DeFi e privacy con Railgun
 - **Data:** 29 agosto 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
 - **Riassunto:** Railgun è un sistema di smart contract che abilita invii, scambi & DeFi privati, su ETH, BSC & Polygon.
@@ -349,7 +349,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:04:00 – La Comunità di Railgun
     - 1:07:04 – La privacy cripto tra 5 anni
 
-## NFT Musicali, Privacy e Libertà Economica con xcelencia
+## NFT musicali, privacy e libertà economica con Xcelencia
 - **Data:** 22 agosto 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
 - **Riassunto:** Xcelencia è un'artista reggaeton nell'ecosistema musicale Web3.
@@ -370,7 +370,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 46:40 – Presentare Zcash ad altre comunità
     - 50:27 – Consigli per i nuovi utenti
 
-## Regolamentazione delle Cripto e Privacy Finanziaria Con J. W. Verret
+## Regolamentazione delle cripto e privacy finanziaria con J. W. Verret
 - **Data:** 10 agosto 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
 - **Riassunto:** J.W. Verret è un professore alla George Mason University. È un esperto di diritto societario, dei titoli e bancario. È anche un consulente legale e di contabilità forense, e il fondatore del Crypto Freedom Lab.

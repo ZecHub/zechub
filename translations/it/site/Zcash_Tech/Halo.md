@@ -19,7 +19,7 @@ Schema di Impegno Polinomiale Succinto: consente a chi si impegna (committer) di
 Prova Interattiva Oracolo Polinomiale: il verificatore chiede al prover (algoritmo) di aprire tutti gli impegni in vari punti di sua scelta, utilizzando lo schema di impegno polinomiale, e verifica che l'identità sia soddisfatta tra di essi.
 
 
-### Nessun Trusted Setup
+### Nessun trusted setup
 
 Gli ZK-SNARKs si basano su una stringa di riferimento comune (CRS) come parametro pubblico per la generazione e la verifica delle prove. Questa CRS deve essere generata in anticipo da una parte fidata. Fino a poco tempo fa, elaborate computazioni sicure multi-parte (MPC) — come quelle eseguite dalla rete Aztec e da Zcash — erano necessarie per mitigare i rischi connessi a questa [cerimonia di trusted setup](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
 

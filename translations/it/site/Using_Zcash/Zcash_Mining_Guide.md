@@ -41,7 +41,7 @@ Questa guida si concentra sul mining di Zcash utilizzando hardware personale (ad
 3. Genera un indirizzo di ricezione (preferibilmente schermato per la privacy). Annotalo, ad esempio `zs1exampleaddress...`.
 4. Se usi un indirizzo transparent (inizia con 't'), è più semplice ma offre meno privacy.
 
-### Passo 2: Prepara il Tuo Hardware
+### Passo 2: prepara il tuo hardware
 - Per GPU:
   1. Installa le GPU nel tuo PC e aggiorna i driver (NVIDIA: GeForce Experience; AMD: Radeon Software).
   2. Fai overclock se hai esperienza (usa MSI Afterburner per la stabilità; punta a +100-200 core clock, -500 memoria per l'efficienza).
@@ -68,7 +68,7 @@ Le mining pool distribuiscono il lavoro e condividono le ricompense in base all'
 2. Aggiungi il tuo indirizzo del portafoglio Zcash nelle impostazioni per i pagamenti.
 3. Annota il server stratum della pool (ad esempio, zec.2miners.com:1010) e la porta.
 
-### Passo 4: Installa e Configura il Software di Mining
+### Passo 4: installa e configura il software di mining
 - Per GPU (Esempio: lolMiner su Windows/Linux):
   1. Scarica lolMiner da GitHub (ultima versione, ad esempio 1.88).
   2. Estrai in una cartella.

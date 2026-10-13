@@ -141,7 +141,7 @@ Un portafoglio desktop watch-only progettato per persone e organizzazioni che de
 
 ---
 
-## Explorer, Dati e Dashboard di Rete
+## Explorer, dati e dashboard di rete
 
 ### CipherScan
 Explorer della blockchain di Zcash privacy-first. Costruito con Next.js 15, TypeScript e Rust/WASM. Le ricerche non espongono metadati della query.  
@@ -202,7 +202,7 @@ Un'interfaccia desktop in stile retrò che riunisce vari strumenti e informazion
 
 ---
 
-## Identità, Nomi ed Esperienza Utente
+## Identità, nomi ed esperienza utente
 
 ### ZcashNames
 Nomi leggibili dagli esseri umani per indirizzi schermati di Zcash (ad esempio `alice.zec` viene risolto in un Unified Address).  

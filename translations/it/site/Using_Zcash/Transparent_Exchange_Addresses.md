@@ -13,7 +13,7 @@ La proposta tecnica per gli indirizzi TEX è delineata in Zcash [ZIP 320](https:
 
 Sebbene gli indirizzi TEX non siano ancora ampiamente adottati, gli utenti di Zcash potrebbero doverli utilizzare prima o poi.
 
-## Quando Ho Bisogno di un Indirizzo TEX
+## Quando ho bisogno di un indirizzo TEX
 
 ### Hai **bisogno** di un indirizzo TEX quando invii fondi a un indirizzo Transparent utilizzando un portafoglio che non supporta l'invio diretto a un indirizzo Transparent. 
 Alcuni portafogli semplicemente non consentono di inviare direttamente a un indirizzo Transparent e **il destinatario potrebbe non fornire un equivalente TEX**. Quindi, a volte potrebbe essere necessario **convertire** un indirizzo Transparent in uno TEX. Ciò può essere fatto manualmente eseguendo l'implementazione di riferimento descritta in [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
@@ -24,6 +24,6 @@ Gli indirizzi TEX informano un portafoglio compatibile che tutti i fondi inviati
 Se un exchange come Binance rifiuta il valore inviato, dispone dei mezzi necessari per restituire tale valore all'indirizzo da cui proviene. Aiuta inoltre entità come Binance a conformarsi alle leggi e ai regolamenti imposti dai governi o da altre autorità.
 
 
-## Quali Portafogli Supportano gli Indirizzi TEX?
+## Quali portafogli supportano gli indirizzi TEX?
 
 Puoi consultare l'elenco più aggiornato sulla nostra pagina [portafogli](https://zechub.wiki/wallets). Usa il **Filtro indirizzi TEX**.

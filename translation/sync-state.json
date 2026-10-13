@@ -16055,7 +16055,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+itreview",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -16079,7 +16079,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -16111,7 +16111,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+verbatim-columns+itglossary",
+      "tool": "gpt-5.4+verbatim-columns+itglossary+itreview",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -16159,7 +16159,7 @@
       "src_commit": "1fb7c9979e868c00cb5bc2268e3814a6dc4abb98",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Start_Here/How_Zcash_Is_Organized.md": {
@@ -16263,7 +16263,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Encifher_Swaps.md": {
@@ -16311,7 +16311,7 @@
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
@@ -16351,7 +16351,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -16383,7 +16383,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
@@ -16415,7 +16415,7 @@
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+itglossary",
+      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Zimppy.md": {
@@ -16471,7 +16471,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md": {
@@ -16551,7 +16551,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Zcash_Community/ZFAV_Club/Guides/Github_With_IPFS.md": {
@@ -16575,7 +16575,7 @@
       "src_commit": "2ccb48ae5d1bb19f4e56bf965347a4f3e9a19a2f",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Community/Zcash_Engineering_Office_Hours.md": {
@@ -16599,7 +16599,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Community/Zcash_Media.md": {
@@ -16719,7 +16719,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Zcash_Organizations/Zingo_Labs.md": {
@@ -16767,7 +16767,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -17103,7 +17103,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
@@ -17127,7 +17127,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -17239,7 +17239,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+dedupe-linkrepair+itglossary",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair+itglossary+itreview",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -17399,7 +17399,7 @@
       "src_commit": "7c0360fbbb5048f981e37eefd96f543b26bc6b2c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline+itglossary",
+      "tool": "codex/gpt-5.6-terra+verbatim-columns+tamper-checksum-baseline+itglossary+itreview",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {

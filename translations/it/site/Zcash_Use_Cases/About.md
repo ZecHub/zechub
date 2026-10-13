@@ -1,4 +1,4 @@
-# Usa Zcash nel Mondo Reale
+# Usa Zcash nel mondo reale
 
 Zcash non è solo teoria sulla privacy — si tratta di **libertà finanziaria pratica e quotidiana**.
 
@@ -10,7 +10,7 @@ Questa sezione ti mostra **esattamente come usare Zcash in scenari di vita reale
 - Come evitare errori comuni che espongono i tuoi dati
 - Come applicare Zcash in situazioni reali
 
-## Come Usare Queste Guide
+## Come usare queste guide
 
 Ogni playbook è:
 - Breve (5-7 minuti)

@@ -22,7 +22,7 @@ Attualmente, [Zcash Community Grants](https://zcashcommunitygrants.org/) riceve 
 Nel 2020, la comunità di Zcash ha votato sul fondo di sviluppo e sui team supportati da esso. Nel 2024, la comunità voterà di nuovo per determinare chi riceve i finanziamenti dal fondo di sviluppo.
 
 
-# Lockbox Fondo di Sviluppo Differito Ibrido di Zcash (NU6)
+# Lockbox fondo di sviluppo differito ibrido di Zcash (NU6)
 
 Il Lockbox Fondo di Sviluppo Differito Ibrido è il meccanismo di finanziamento scelto per la prossima generazione del fondo di sviluppo di Zcash. Questa opzione alloca il 20% totale delle ricompense di blocco di Zcash, il 60% allo Zcash Grants Committee e il 40% a un lockbox del protocollo, garantendo che le risorse siano disponibili per supportare il futuro dell'ecosistema Zcash mentre continua lo sviluppo e la manutenzione.
 

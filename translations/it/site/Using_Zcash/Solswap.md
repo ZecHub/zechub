@@ -23,7 +23,7 @@ Hai già ZEC su Solana (ad esempio da un token che remunera i titolari in ZEC)? 
 
 ---
 
-##  **Passaggio 1: Apri l'interfaccia Swap**
+##  **Passaggio 1: apri l'interfaccia Swap**
 Avvia l'app **Phantom** e visita **[solswap.org](https://solswap.org/)** dal browser Phantom. Digita tu stesso l'indirizzo. Il sito funziona su NEAR Intents e può inviare ZEC a un indirizzo Zcash.
 
 Anche il pulsante **Swap** di Phantom elenca ZEC, ma così ottieni il token descritto sopra, non ZEC nativo.  

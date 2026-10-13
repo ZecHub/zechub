@@ -1,4 +1,4 @@
-# Curve Ellittiche: Dove Nascono le Chiavi e gli Impegni di Zcash
+# Curve ellittiche: dove nascono le chiavi e gli impegni di Zcash
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
 ![alt text](/content-images/image-10-c1097b22d7.webp)

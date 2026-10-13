@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ShapeShift e Zcash: Trading Decentralizzato che Mette la Privacy al Primo Posto
+# ShapeShift e Zcash: trading decentralizzato che mette la privacy al primo posto
 
 ---
 
@@ -58,7 +58,7 @@ Gli utenti possono inviare ZEC tra indirizzi trasparenti e schermati. Per la mas
 
 I moderni portafogli Zcash come [Zodl](https://zodl.com) usano gli **Unified Addresses**, che combinano sia i ricevitori trasparenti sia quelli schermati in un unico indirizzo. Questo semplifica l'esperienza utente, impostando per impostazione predefinita il più alto livello di privacy disponibile.
 
-### Perché la Privacy è Importante
+### Perché la privacy è importante
 
 La privacy finanziaria non riguarda il nascondere atti illeciti. Protegge gli individui dalla sorveglianza, dalla raccolta dati aziendale e dagli attacchi mirati. Proprio come non vorresti che il saldo del tuo conto bancario fosse visibile al pubblico, le transazioni in criptovaluta meritano lo stesso livello di riservatezza. Zcash fornisce questo per progettazione.
 
@@ -100,7 +100,7 @@ Rivedi i dettagli della transazione e conferma. Lo scambio viene eseguito on-cha
 
 Una volta arrivati i tuoi ZEC, usa la funzione **shield** del tuo portafoglio Zcash (disponibile in portafogli come Zodl) per spostare i fondi nella pool schermata. Questo garantisce che il tuo saldo e le tue future transazioni rimangano completamente privati.
 
-### Coppie Cross-Chain Supportate
+### Coppie cross-chain supportate
 
 ShapeShift abilita gli scambi di ZEC su molteplici ecosistemi blockchain, tra cui:
 
@@ -111,9 +111,9 @@ ShapeShift abilita gli scambi di ZEC su molteplici ecosistemi blockchain, tra cu
 
 ---
 
-## Perché Questa Integrazione è Importante
+## Perché questa integrazione è importante
 
-### Riconquistare la Privacy nella DeFi
+### Riconquistare la privacy nella DeFi
 
 La maggior parte degli exchange decentralizzati tratta la privacy come un ripensamento. Le transazioni sui DEX basati su Ethereum, per esempio, sono completamente trasparenti: chiunque può tracciare la cronologia del tuo portafoglio, i saldi dei token e i pattern di trading. L'integrazione ShapeShift-Zcash sfida questa norma fornendo accesso a ZEC schermato attraverso una piattaforma decentralizzata e senza KYC.
 
@@ -129,7 +129,7 @@ Con il rilascio di **ShapeShift v4.0** nel dicembre 2025, Zcash è diventato l'*
 
 Il programma [Zcash Community Grants](https://zcashcommunitygrants.org/) ha stanziato **50.000 $** per supportare l'infrastruttura tecnica e gli sforzi di marketing di ShapeShift per l'integrazione di Zcash. Questo finanziamento ha aiutato il team di ShapeShift a collaborare con **Liquify**, un fornitore di infrastruttura Web3 che supporta oltre 90 blockchain, per gestire gli endpoint di remote procedure call (RPC) per un'esecuzione più rapida e una maggiore affidabilità della rete.
 
-### Far Progredire la Finanza Decentralizzata
+### Far progredire la finanza decentralizzata
 
 Questa integrazione dimostra che privacy e decentralizzazione possono funzionare insieme nella DeFi. Gli utenti possono:
 

@@ -12,7 +12,7 @@ Il ruolo di Responsabile della Sicurezza dell'Ecosistema Zcash è stato istituit
 - **2024–2025:** ZCG ha selezionato [Least Authority](https://leastauthority.com) per continuare il ruolo tramite una nuova [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723). Gli aggiornamenti sono disponibili [qui](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
 - **2026:** Shielded Labs [ha ingaggiato Taylor Hornby](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) come consulente di sicurezza per potenziare le capacità di sicurezza di Zcash.
 
-## Iniziativa di Divulgazione delle Vulnerabilità e Sicurezza ZCG
+## Iniziativa di divulgazione delle vulnerabilità e sicurezza ZCG
 
 L'[Iniziativa di Divulgazione delle Vulnerabilità e Sicurezza ZCG](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) fornisce un quadro per la divulgazione coordinata delle vulnerabilità di sicurezza nell'ecosistema Zcash.
 

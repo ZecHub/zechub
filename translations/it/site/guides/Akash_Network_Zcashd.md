@@ -49,7 +49,7 @@ Un full node zcashd che:
 -> Usa zcashd se hai bisogno della funzionalità del portafoglio o di specifiche API RPC
 
 
-### **Importante: Mappatura delle Porte su Akash**
+### **Importante: mappatura delle porte su Akash**
 
 Quando esponi una porta su Akash (ad esempio, la porta 8233 per il P2P di zcashd), **NON viene associata a quella porta esatta** sull'IP pubblico del provider. Invece, il provider assegna una porta alta casuale (come 31234 o 42567) e la inoltra tramite reverse proxy alla porta 8233 del tuo container.
 
@@ -90,7 +90,7 @@ Questo viene gestito automaticamente. Usa semplicemente l'URI che Akash ti forni
 
 Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima il tuo portafoglio.
 
-## Passo 2: Crea la Distribuzione
+## Passo 2: crea la distribuzione
 
 -> Clicca il pulsante **"Deploy"** (grande pulsante blu, al centro della pagina)
 
@@ -115,7 +115,7 @@ Se vuoi incollare manualmente l'SDL:
 -> Clicca **"Create Deployment"**
 
 
-## Passo 3: Controlla e Approva il Deposito
+## Passo 3: controlla e approva il deposito
 
 La Console ti mostrerà:
 
@@ -193,7 +193,7 @@ La sincronizzazione richiederà **da ore a giorni** a seconda della rete. Contro
 -> Nessun errore ripetuto
 
 
-## Passo 7: Ottieni l'Indirizzo del Tuo Nodo
+## Passo 7: ottieni l'indirizzo del tuo nodo
 
 Clicca sulla scheda **Leases**, poi su **URIs**.
 
@@ -349,7 +349,7 @@ Per raccogliere metriche per il monitoraggio:
    
 Le metriche saranno disponibili su http://yourendpoint:9969/metrics in formato Prometheus.
 
-### Regolare Risorse/Prezzi
+### Regolare risorse/prezzi
 
 Se non stai ricevendo offerte o vuoi ottimizzare i costi:
 
@@ -371,7 +371,7 @@ Se non stai ricevendo offerte o vuoi ottimizzare i costi:
 
 I valori dell'SDL sono impostati in modo prudentemente alto. La maggior parte dei provider offrirà prezzi inferiori.
 
-## Aggiornare la Tua Distribuzione
+## Aggiornare la tua distribuzione
 
 Devi cambiare la configurazione dopo la distribuzione?
 
@@ -414,7 +414,7 @@ zcash-cli getpeerinfo
 zcash-cli getinfo
 ```
 
-## Chiudere la Tua Distribuzione
+## Chiudere la tua distribuzione
 
 Quando hai finito o vuoi smettere di pagare:
 

@@ -7,7 +7,7 @@ published: 2024-01-12
 </a>
 
 
-# Piattaforme di Asset a Conoscenza Zero
+# Piattaforme di asset a conoscenza zero
 
 
 

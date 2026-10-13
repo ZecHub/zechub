@@ -7,7 +7,7 @@
 
 
 
-# Pannello Consultivo della Comunità Zcash
+# Pannello consultivo della comunità Zcash
 
 Il Pannello Consultivo della Comunità Zcash, o ZCAP, è un panel formato da membri della Comunità Zcash, istituito come mezzo per coinvolgere la comunità e sollecitare il loro contributo consultivo ogni volta che la Zcash Foundation deve prendere una decisione che coinvolge o influisce su detta comunità. Dalla sua creazione nel 2018, il panel ha contribuito a definire la strada da seguire per la Zcash Foundation in molte decisioni importanti, alcune delle quali includono:
 

@@ -18,7 +18,7 @@ Zingo! è disponibile per dispositivi mobili e PC. Trovi tutti i download [qui](
 ### Zingolib ([Github](https://github.com/zingolabs/zingolib))
 Un'API e un'app di test che espongono le funzionalità di zcash per l'utilizzo da parte delle applicazioni. Zingolib fornisce sia una libreria per zingo-mobile, sia un'applicazione cli inclusa per interagire con zcashd tramite lightwalletd chiamata Zingo-cli, un client proxy-lightwalletd da riga di comando.
 
-### Zaino Indexer ([Github](https://github.com/zingolabs/zaino))
+### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
 Zaino è un Indexer sviluppato in Rust dal team Zingo, che mira a sostituire lightwalletd e a portare avanti il progetto di deprecazione di zcashd.
 
 Zaino offre funzionalità essenziali sia per i light client, come portafogli e applicazioni che non richiedono l'intera cronologia della blockchain, sia per i full client o portafogli. Supporta inoltre i block explorer, garantendo l'accesso sia alla blockchain finalizzata sia alla migliore chain non finalizzata e alla mempool gestita da un full validator Zebra o Zcashd.

@@ -1,4 +1,4 @@
-# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Configurazione della Privacy per Giornalisti con Zcash
+# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Configurazione della privacy per giornalisti con Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -70,7 +70,7 @@ Zcash offre:
 - Evita completamente le transazioni trasparenti
 
 
-### Passo 3: Proteggi i Pagamenti alle Fonti
+### Passo 3: proteggi i pagamenti alle fonti
 
 Se paghi delle fonti:
 - Usa transazioni schermate (z → z)
@@ -78,13 +78,13 @@ Se paghi delle fonti:
 - Non riutilizzare gli indirizzi
 
 
-### Passo 4: Fai Attenzione con i Memo
+### Passo 4: fai attenzione con i memo
 
 - NON includere informazioni sensibili nei memo
 - Usa riferimenti neutri o in codice se necessario
 
 
-### Passo 5: Mantieni la Sicurezza Operativa
+### Passo 5: mantieni la sicurezza operativa
 
 - Evita di collegare il portafoglio alla tua identità
 - Non confermare pubblicamente le transazioni

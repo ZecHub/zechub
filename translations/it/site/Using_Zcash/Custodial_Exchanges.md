@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Exchange con custodia
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt text" width="50"/>   Exchange con custodia
 
 Ironwood è la pool schermata introdotta con l'aggiornamento di rete di luglio 2026. Gli exchange che gestiscono solo t-address trasparenti non la utilizzano mai, quindi sono contrassegnati come non applicabili. Quando un exchange gestisce indirizzi schermati ma non ha dichiarato quale pool utilizza, la riga lo indica invece di fare supposizioni.
 

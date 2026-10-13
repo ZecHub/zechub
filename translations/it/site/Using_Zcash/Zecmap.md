@@ -33,11 +33,11 @@ ZecMap organizza le attività che accettano Zcash su una mappa globale. Ogni sch
 
 ## Casi d'Uso
 
-### Trovare Commercianti Locali
+### Trovare commercianti locali
 
 Apri [zecmap.com](https://zecmap.com/) e cerca sulla mappa i commercianti vicino a te. Prima di visitarli, conferma con l'attività che ZEC sia attualmente accettato e chiedi quale portafoglio o flusso di pagamento preferiscono.
 
-### Scoprire Negozi e Servizi Online
+### Scoprire negozi e servizi online
 
 ZecMap elenca anche attività online. Esplora per categoria per trovare negozi e-commerce, servizi di hosting, provider VPN e altri commercianti digitali che accettano pagamenti in Zcash.
 
@@ -45,7 +45,7 @@ ZecMap elenca anche attività online. Esplora per categoria per trovare negozi e
 
 Stai viaggiando verso una nuova città o un nuovo paese? ZecMap ti permette di esplorare la copertura dei commercianti prima del tuo arrivo, così puoi pianificare soste in ristoranti, negozi e servizi favorevoli a ZEC.
 
-### Supportare i Nuovi Utenti di Zcash
+### Supportare i nuovi utenti di Zcash
 
 I nuovi utenti spesso imparano come acquistare e conservare ZEC prima di scoprire dove spenderlo. ZecMap fornisce quel passo successivo — un elenco pratico e consultabile dell'utilità reale di ZEC nel mondo.
 
@@ -82,7 +82,7 @@ Poiché le opzioni di pagamento dei commercianti possono cambiare, considera le 
 
 ---
 
-## Programma di Ricompense per i Collaboratori
+## Programma di ricompense per i collaboratori
 
 ZecMap ricompensa i collaboratori che aiutano a far crescere e mantenere la directory. Le ricompense sono pensate per incoraggiare:
 
