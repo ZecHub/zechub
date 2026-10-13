@@ -1,6 +1,4 @@
----
-menuTitle: Wallets
----
+# Wallets
 
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")

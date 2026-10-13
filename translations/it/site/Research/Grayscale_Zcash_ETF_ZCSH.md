@@ -95,7 +95,7 @@ portafoglio, e i due non sono realmente alternative l'uno all'altro.
 ## Il ZEC è detenuto alla luce del sole
 
 C'è un'ulteriore ironia nella struttura, ed è l'aspetto più incisivo di
-questa pagina. Coinbase Custody detiene il ZEC del Trust in indirizzi **trasparenti**,
+questa pagina. Coinbase Custody detiene gli ZEC del Trust in indirizzi **trasparenti**,
 non schermati. Le disponibilità del fondo sono visibili on-chain,
 riconducibili al custode e osservabili in tempo reale da chiunque voglia
 guardare. Nulla in questo fondo utilizza un indirizzo schermato.
@@ -117,7 +117,7 @@ Alla quotazione del 25 agosto 2026 il fondo deteneva circa **387.000 ZEC**, con
 circa **313 milioni di dollari** in gestione.
 
 Per una prospettiva più ampia: al 30 settembre 2025 il documento afferma che il Trust deteneva
-circa il **2,4% dei ZEC in circolazione**. Entrambi i numeri variano: il primo con il
+circa il **2,4% degli ZEC in circolazione**. Entrambi i numeri variano: il primo con il
 prezzo di ZEC e con creazioni e rimborsi, il secondo poiché la commissione viene pagata
 attingendo alle disponibilità. Pertanto, prendi una cifra aggiornata dal documento più recente o
 dalla comunicazione giornaliera del fondo, anziché da questa pagina.
