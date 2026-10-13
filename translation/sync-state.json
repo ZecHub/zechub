@@ -17673,6 +17673,46 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix+itglossary",
       "edited": false
+    },
+    "Glossary_and_FAQs/Glossary.md": {
+      "src": "sha256:3c846479797081cdd625d67fcde413cd541e3d2302c339b77ea3d51cdd1fd9e5",
+      "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Zcash_Node_RPC_and_Indexing.md": {
+      "src": "sha256:b814f0fc9ebdef1e8e510dd3a5d47f9ade75ce3883bf85f4952c604ac0863e2f",
+      "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/Grayscale_Zcash_ETF_ZCSH.md": {
+      "src": "sha256:617929bc48b7085753825c94f02dff13886659124bc4bf4d21d80b8dff2c1b63",
+      "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Using_Zcash/Unified_Addresses.md": {
+      "src": "sha256:6f8680df38352e75f90d5d45168a800cf64dba8f3c7e46f73a54d30176b284b1",
+      "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Indexer_Benchmark_Zaino_vs_Ztreamer.md": {
+      "src": "sha256:9b6ecb8781eca577a5a5dca9fbd853a17c5610fa8b69e429cbd8ae4b299aa865",
+      "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ja": {
