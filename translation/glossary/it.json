@@ -1499,6 +1499,17 @@
       "reviewed_at": "2026-10-12",
       "source": "menus-review-it.md#sideMenu-1"
     },
+    "network metadata": {
+      "target": "metadati di rete",
+      "context": "Metadata about network traffic (IP address, timing). Also \"network-metadata\": \"metadati di rete\", never \"metadati della rete\".",
+      "applies_to": "pages",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-12",
+      "source": "preview review 2026-10-12"
+    },
     "Newsletter": {
       "target": "Newsletter",
       "keep_english": true,
@@ -2192,6 +2203,7 @@
         "Zenith Installation",
         "Zingolib and Zaino Tutorial",
         "Zkool Multisig",
+        "network metadata",
         "voting chain"
       ],
       "summary": "Native review by Gianni (glossary-review-it.md, menus-review-it.md): page terms, menu labels, register, typography and writing rules."

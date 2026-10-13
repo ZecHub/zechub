@@ -23,7 +23,7 @@ Un pagamento schermato Zcash e uno strumento per la privacy della rete risolvono
 - L'**instradamento tramite mixnet Nym** è progettato per ridurre la collegabilità tra la tua reale identità di rete e il servizio che riceve il traffico del portafoglio.
 - Una destinazione contattata attraverso un tunnel NymVPN a livello di sistema dovrebbe vedere un'uscita Nym anziché il tuo IP domestico/mobile.
 
-La mixnet di Nym utilizza più hop, mescolamento dei pacchetti, ritardi casuali, traffico di copertura e crittografia onion per ridurre la perdita di metadati della rete.
+La mixnet di Nym utilizza più hop, mescolamento dei pacchetti, ritardi casuali, traffico di copertura e crittografia onion per ridurre la perdita di metadati di rete.
 
 Nym **non** protegge da un dispositivo compromesso, software di portafoglio malevolo, frasi di recupero esposte, identità rivelata tramite account di exchange o perdita di privacy causata da attività Zcash trasparente.
 
@@ -114,7 +114,7 @@ NymVPN supporta Android, iOS, Linux, Windows e macOS.
 
 ### 2. Seleziona la modalità Mixnet
 
-NymVPN offre la **modalità Fast**, un percorso dVPN a 2 hop ottimizzato per una latenza inferiore, e la **modalità Mixnet**, un percorso mixnet a 5 hop ottimizzato per una protezione più forte dei metadati della rete. Per attività sensibili del portafoglio, seleziona la modalità Mixnet e attendi che il client segnali che la connessione è stabilita prima di aprire o aggiornare il portafoglio.
+NymVPN offre la **modalità Fast**, un percorso dVPN a 2 hop ottimizzato per una latenza inferiore, e la **modalità Mixnet**, un percorso mixnet a 5 hop ottimizzato per una protezione più forte dei metadati di rete. Per attività sensibili del portafoglio, seleziona la modalità Mixnet e attendi che il client segnali che la connessione è stabilita prima di aprire o aggiornare il portafoglio.
 
 ### 3. Lascia il portafoglio sulle normali impostazioni di rete
 
