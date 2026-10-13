@@ -53,19 +53,19 @@ Come per gli indirizzi sopra, qualsiasi transazione su una blockchain pubblica r
 - Le transazioni completamente schermate (da z a z) nascondono l'importo, gli indirizzi e il memo
 - La commissione rimane visibile, anche in una transazione completamente schermata
 - La schermatura (spostare fondi da `t` a schermati) e la deschermatura (da schermati a `t`) sono in parte visibili, perché un lato è trasparente
-- La privacy è mantenuta solo finché i fondi rimangono nei pool schermati
+- La privacy è mantenuta solo finché i fondi rimangono nelle pool schermate
 
 Zcash ha più di un tipo di indirizzo e un esploratore li tratta in modi molto diversi.
 
 Gli indirizzi trasparenti, che iniziano con `t`, funzionano come Bitcoin. Un esploratore mostra il mittente, il destinatario, l'importo e la traccia che risale all'origine dei fondi.
 
-Gli indirizzi schermati sono il lato privato. I fondi nei [pool schermati](https://zechub.wiki/using-zcash/shielded-pools#content) Sapling o Orchard sono protetti da prove a conoscenza zero. Cerca una transazione completamente schermata e l'esploratore non potrà mostrare l'importo, gli indirizzi o il memo. Può solo confermare che una transazione valida è avvenuta ed è stata registrata in un blocco. Questo è l'esempio privato nascosto mostrato vicino all'inizio di questa pagina.
+Gli indirizzi schermati sono il lato privato. I fondi nelle [pool schermate](https://zechub.wiki/using-zcash/shielded-pools#content) Sapling o Orchard sono protetti da prove a conoscenza zero. Cerca una transazione completamente schermata e l'esploratore non potrà mostrare l'importo, gli indirizzi o il memo. Può solo confermare che una transazione valida è avvenuta ed è stata registrata in un blocco. Questo è l'esempio privato nascosto mostrato vicino all'inizio di questa pagina.
 
 Un dettaglio rimane visibile anche per le transazioni completamente schermate: la commissione. Le regole di consenso di Zcash richiedono che la commissione trasparente sia indicata esplicitamente, quindi un esploratore può sempre mostrarla, anche quando gli importi sono mascherati. Per questo motivo, è buona pratica utilizzare la commissione standard del wallet, così la tua transazione non risalta pagando un importo insolito.
 
-L'esploratore può anche vedere quando i fondi passano tra il lato trasparente e quello schermato. Spostare fondi `t` in un pool è schermatura, mentre spostarli nuovamente fuori è deschermatura. Questi passaggi sono in parte visibili perché un lato è trasparente. Solo l'attività completamente privata da z a z, che non tocca mai un indirizzo `t`, mantiene nascosto tutto tranne la commissione.
+L'esploratore può anche vedere quando i fondi passano tra il lato trasparente e quello schermato. Spostare fondi `t` in una pool è schermatura, mentre spostarli nuovamente fuori è deschermatura. Questi passaggi sono in parte visibili perché un lato è trasparente. Solo l'attività completamente privata da z a z, che non tocca mai un indirizzo `t`, mantiene nascosto tutto tranne la commissione.
 
-Il punto principale: la privacy dipende dal rimanere nei pool schermati. Una volta che i fondi toccano un indirizzo `t`, quella parte della loro cronologia è pubblica quanto Bitcoin. Per dimostrare a una persona da te scelta la tua attività schermata, ad esempio a un commercialista, condividi una viewing key invece di renderla pubblica. Consulta la pagina sulle [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content).
+Il punto principale: la privacy dipende dal rimanere nelle pool schermate. Una volta che i fondi toccano un indirizzo `t`, quella parte della loro cronologia è pubblica quanto Bitcoin. Per dimostrare a una persona da te scelta la tua attività schermata, ad esempio a un commercialista, condividi una viewing key invece di renderla pubblica. Consulta la pagina sulle [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content).
 
 
 ### Elenco degli esploratori di blocchi Zcash

@@ -42,7 +42,7 @@ Un explorer pubblico non può leggere:
 - Le transazioni completamente schermate (da z a z). Mittente, destinatario e importo restano nascosti.
 - Il mittente o il destinatario dietro qualsiasi pagamento schermato.
 - Il saldo di un singolo indirizzo schermato.
-- Cosa accade ai fondi una volta che si trovano all'interno del pool.
+- Cosa accade ai fondi una volta che si trovano all'interno della pool.
 
 Se interroghi i dati grezzi, i campi schermati del mittente e del destinatario risultano vuoti. L'explorer non sta nascondendo queste informazioni per scelta. Non sono mai state presenti sulla chain pubblica in forma leggibile. Le informazioni sono crittografate e solo chi possiede le giuste chiavi di visualizzazione può leggerle.
 

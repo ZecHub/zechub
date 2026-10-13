@@ -29,7 +29,7 @@ FROST (**Flexible Round-Optimized Schnorr Threshold Signatures**) è il protocol
 Le proprietà principali:
 
 - **A soglia**: devono partecipare solo firmatari t-su-n (es. 2-su-3, 3-su-5)
-- **Schermato**: funziona all'interno del pool per la privacy Orchard — importi, mittente e destinatario restano privati
+- **Schermato**: funziona all'interno della pool per la privacy Orchard — importi, mittente e destinatario restano privati
 - **Indistinguibile**: la firma finale appare come qualsiasi altra transazione schermata di Zcash
 - **Non-custodial**: nessuna singola parte possiede mai la chiave completa — nemmeno il coordinatore
 

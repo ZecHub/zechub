@@ -42,7 +42,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Termine | Definizione |
 |------|-----------|
 | DeFi | Progetti che integrano ZEC con la DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [NEAR Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / [ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [THORSwap](https://app.thorswap.finance/) |
-| Deshielding | Si riferisce a una transazione inviata da uno zaddr (indirizzo shielded) a un taddr (indirizzo transparent). L'origine della transazione non è visibile, tuttavia i fondi entrano in un pool di valore visibile pubblicamente. |
+| Deshielding | Si riferisce a una transazione inviata da uno zaddr (indirizzo shielded) a un taddr (indirizzo transparent). L'origine della transazione non è visibile, tuttavia i fondi entrano in una pool di valore visibile pubblicamente. |
 | Developer Resources | [Risorse per sviluppatori](https://www.zcashcommunity.com/developers/) |
 | Documentation | [Documentazione ufficiale](https://zcash.readthedocs.io/en/latest/) |
 
@@ -138,7 +138,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Termine | Definizione |
 |------|-----------|
 | Oblivious Synchronization | Sincronizzazione cieca: un metodo in fase di sviluppo nel Project Tachyon che consente a un portafoglio di richiedere a un server non affidabile i dati di cui ha bisogno senza rivelare di quali note sta chiedendo informazioni. Il server non apprende mai i tuoi nullifier, perché il protocollo li fa evolvere in modo non collegabile. [Approfondimento](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Il terzo pool shielded di Zcash e rappresenta la continua evoluzione del nostro stack tecnologico zk-SNARK. [Dettagli completi](https://electriccoin.co/blog/explaining-halo-2/) |
+| Orchard Shielded Pool | La terza pool shielded di Zcash e rappresenta la continua evoluzione del nostro stack tecnologico zk-SNARK. [Dettagli completi](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | Il 1° aggiornamento di rete di Zcash. [Maggiori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P

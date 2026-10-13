@@ -8,7 +8,7 @@
 
 No, non ancora.
 
-Dall'aggiornamento Ironwood, Zcash è **recuperabile dopo un attacco quantistico** per i fondi detenuti nel pool Ironwood. È un passo concreto, ma non equivale a essere sicuro contro il quantum. ZIP 2005, la specifica alla base, lo afferma direttamente: il cambiamento "does not by itself make the protocol secure against quantum adversaries". Prepara i fondi Ironwood affinché possano essere spostati tramite un futuro Recovery Protocol una volta disattivata la crittografia attuale.
+Dall'aggiornamento Ironwood, Zcash è **recuperabile dopo un attacco quantistico** per i fondi detenuti nella pool Ironwood. È un passo concreto, ma non equivale a essere sicuro contro il quantum. ZIP 2005, la specifica alla base, lo afferma direttamente: il cambiamento "does not by itself make the protocol secure against quantum adversaries". Prepara i fondi Ironwood affinché possano essere spostati tramite un futuro Recovery Protocol una volta disattivata la crittografia attuale.
 
 Questa pagina distingue ciò che Zcash protegge oggi, ciò che Ironwood ha modificato, ciò che resta esposto e ciò che è soltanto una proposta. La [tabella di stato](#status-table) verso la fine mostra lo stato di ciascun elemento e quando è stato verificato l'ultima volta.
 
@@ -33,7 +33,7 @@ Per informazioni di base sul calcolo quantistico, inizia da [Sicurezza post-quan
 3. **Inflazione.** Un attaccante quantistico può creare ZEC dal nulla?
 4. **Recupero.** Se la crittografia attuale deve essere disattivata, gli utenti onesti possono comunque recuperare i propri fondi?
 
-Ironwood modifica soltanto la risposta alla quarta domanda, e solo per le note nel pool Ironwood.
+Ironwood modifica soltanto la risposta alla quarta domanda, e solo per le note nella pool Ironwood.
 
 La minaccia alla base di tutto questo è un attaccante in grado di calcolare logaritmi discreti sulle curve ellittiche utilizzate da Zcash. Un computer quantistico sufficientemente grande che esegue l'algoritmo di Shor sarebbe un modo per farlo. ZIP 2005 rileva che trovare un **singolo** logaritmo discreto è sufficiente per causare inflazione arbitraria o rubare fondi.
 
@@ -155,7 +155,7 @@ Nel sondaggio di opinione Zcash Foundation di NU7 (febbraio 2026), la recuperabi
 - [ZIP 318: Migrazione da Orchard a Ironwood](https://zips.z.cash/zip-0318)
 - [ZIP 326: Conseguenze di NU6.3 per i portafogli](https://zips.z.cash/zip-0326)
 - [ZIP 2003: Vietare le transazioni di versione 4](https://zips.z.cash/zip-2003)
-- [ZIP 209: Vietare saldi negativi dei pool di valore schermati della chain](https://zips.z.cash/zip-0209)
+- [ZIP 209: Vietare saldi negativi delle pool di valore schermate della chain](https://zips.z.cash/zip-0209)
 - [zips#1302: Recuperabilità quantistica di un sottoinsieme del protocollo trasparente](https://github.com/zcash/zips/issues/1302)
 - [zips#1133: Privacy post-quantum per Zcash](https://github.com/zcash/zips/issues/1133)
 - [zips#1307: Privacy di Zcash contro avversari quantistici e in grado di violare il logaritmo discreto](https://github.com/zcash/zips/issues/1307)

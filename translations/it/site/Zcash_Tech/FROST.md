@@ -136,7 +136,7 @@ FROST diventerà anche un componente essenziale nell'emissione e nella gestione 
 
 ## Pagine correlate
 
-- [Halo](/zcash-tech/halo) — il sistema di prove trustless e ricorsivo usato nel pool Orchard di Zcash.
+- [Halo](/zcash-tech/halo) — il sistema di prove trustless e ricorsivo usato nella pool Orchard di Zcash.
 - [Viewing Keys](/zcash-tech/viewing-keys) — divulgazione selettiva per le transazioni shielded.
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — dove FROST aiuta a gestire l'autorità di spesa/emissione.
 - [Sincronizzazione dei wallet Zcash](/zcash-tech/zcash-wallet-syncing) — un altro elemento fondamentale dell'infrastruttura per la privacy di Zcash.

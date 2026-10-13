@@ -14,19 +14,19 @@ Perché è importante. Con denaro trasparente come Bitcoin, chiunque può contro
 
 Nuovo su Zcash? Inizia da [Cos’è ZEC e Zcash](../start-here/what-is-zec-and-zcash) e [Pool schermate](../using-zcash/shielded-pools), poi torna qui.
 
-![Flusso di migrazione del valore di Ironwood: il valore esce dal pool Orchard, passa attraverso il checkpoint del turnstile ed entra nel nuovo pool Ironwood](/content-images/ironwood-flow-8af7a58b99.webp)
+![Flusso di migrazione del valore di Ironwood: il valore esce dalla pool Orchard, passa attraverso il checkpoint del turnstile ed entra nella nuova pool Ironwood](/content-images/ironwood-flow-8af7a58b99.webp)
 
 ## Perché Ironwood era necessario
 
 Alla fine di maggio 2026, il ricercatore indipendente di sicurezza Taylor Hornby, durante un audit del protocollo per [Shielded Labs](../zcash-organizations/shielded-labs), ha segnalato responsabilmente un bug di soundness nella pool schermata Orchard. Orchard era allora la pool schermata più recente di Zcash, e il difetto si trovava in una parte a curva ellittica del suo circuito a conoscenza zero, che utilizza il sistema di proving [Halo](../zcash-tech/halo) 2.
 
 1. Un bug di soundness significa che la matematica che dimostra la validità di una transazione non la garantisce completamente.
-2. In teoria, un attaccante avrebbe potuto usare il difetto per creare valore non valido all’interno del pool Orchard e spendere fondi che non erano davvero suoi, senza lasciare tracce che un normale nodo potesse rilevare.
-3. Il turnstile di Zcash limitava comunque la quantità di valore che avrebbe mai potuto uscire da Orchard, quindi l’offerta totale non poteva essere gonfiata, ma la crittografia del pool non garantiva più che ogni moneta nascosta al suo interno fosse reale.
+2. In teoria, un attaccante avrebbe potuto usare il difetto per creare valore non valido all’interno della pool Orchard e spendere fondi che non erano davvero suoi, senza lasciare tracce che un normale nodo potesse rilevare.
+3. Il turnstile di Zcash limitava comunque la quantità di valore che avrebbe mai potuto uscire da Orchard, quindi l’offerta totale non poteva essere gonfiata, ma la crittografia della pool non garantiva più che ogni moneta nascosta al suo interno fosse reale.
 
 ![Il bug spiegato: una transazione inserisce 5 ZEC, ma la prova difettosa passa comunque quando ne escono 7 ZEC, creando 2 ZEC dal nulla](/content-images/ironwood-bug-8f689d6f61.webp)
 
-I numeri sopra sono una rappresentazione semplificata. Il vero difetto si trovava in una parte specifica della matematica del circuito, non in un conteggio letterale delle monete in entrata e in uscita. Il punto fondamentale è solo che un bug di soundness può permettere la creazione di valore all’interno del pool senza essere rilevato.
+I numeri sopra sono una rappresentazione semplificata. Il vero difetto si trovava in una parte specifica della matematica del circuito, non in un conteggio letterale delle monete in entrata e in uscita. Il punto fondamentale è solo che un bug di soundness può permettere la creazione di valore all’interno della pool senza essere rilevato.
 
 È importante sottolineare che non ci sono prove che il bug sia mai stato sfruttato, non ci sono prove di impatti sui fondi degli utenti e non ci sono prove che l’offerta totale di ZEC sia cambiata. È stato individuato attraverso la ricerca sulla sicurezza ed è stato corretto prima che si verificasse qualsiasi danno noto.
 
@@ -44,17 +44,17 @@ La comunità Zcash ha distribuito le correzioni in più fasi invece che tutte in
 
 ## Cosa fa la pool Ironwood
 
-NU6.2 ha messo in sicurezza il circuito Orchard per tutte le nuove transazioni, ma il valore creato secondo le vecchie regole si trova ancora nel pool Orchard. Ironwood fornisce a quel valore una destinazione pulita e un modo per verificarlo mentre si sposta.
+NU6.2 ha messo in sicurezza il circuito Orchard per tutte le nuove transazioni, ma il valore creato secondo le vecchie regole si trova ancora nella pool Orchard. Ironwood fornisce a quel valore una destinazione pulita e un modo per verificarlo mentre si sposta.
 
 La pool Ironwood è la pool di valore schermata creata da NU6.3 al blocco 3.428.143. È costruita sul circuito corretto e utilizza un formato di nota recuperabile in ambito quantistico (un design che consente di recuperare i fondi se i [computer quantistici](../zcash-tech/post-quantum-security) dovessero un giorno rompere la crittografia di oggi), definito in [ZIP 2005](https://zips.z.cash/zip-2005).
 
-1. Dopo l’attivazione, il vecchio pool Orchard diventa di sola spesa, quindi nessun nuovo valore può entrarvi.
+1. Dopo l’attivazione, la vecchia pool Orchard diventa di sola spesa, quindi nessun nuovo valore può entrarvi.
 2. Il nuovo valore schermato confluisce invece in Ironwood.
 3. Lo ZEC schermato mantiene le stesse forti garanzie di privacy che nascondono mittente, destinatario e importo.
 
 ## Il turnstile
 
-L’idea chiave di Ironwood è il turnstile, un checkpoint contabile attraverso il quale ogni moneta deve passare quando si sposta dal vecchio pool Orchard a Ironwood.
+L’idea chiave di Ironwood è il turnstile, un checkpoint contabile attraverso il quale ogni moneta deve passare quando si sposta dalla vecchia pool Orchard a Ironwood.
 
 > Un turnstile fa per il denaro nascosto ciò che una porta di vetro fa per il caveau di una banca. Non puoi comunque vedere dentro, ma puoi contare con precisione ciò che entra e ciò che esce.
 
@@ -64,7 +64,7 @@ L’idea chiave di Ironwood è il turnstile, un checkpoint contabile attraverso 
 
 I turnstile non sono una novità per Zcash. La rete li ha già usati in passato, ai confini tra le pool Sprout, Sapling e Orchard, in modo che il valore che si sposta tra le pool resti verificabile e che nessuna pool possa rilasciare più di quanto vi sia entrato legittimamente.
 
-Le regole di consenso mantengono ogni pool di valore, incluso Ironwood, entro il limite massimo di moneta della rete, quindi i saldi dei pool non possono mai diventare negativi.
+Le regole di consenso mantengono ogni pool di valore, incluso Ironwood, entro il limite massimo di moneta della rete, quindi i saldi delle pool non possono mai diventare negativi.
 
 ## Cosa devono fare gli utenti
 
@@ -91,7 +91,7 @@ Zcash è ancora privato? Sì. Ironwood mantiene la stessa privacy schermata che 
 
 Il bug è mai stato sfruttato? Non ci sono prove che lo sia stato. È stato scoperto attraverso la ricerca sulla sicurezza, segnalato responsabilmente e corretto prima che si verificasse qualsiasi danno noto.
 
-Che cosa succede al vecchio pool Orchard? Diventa di sola spesa. Nessun nuovo valore può entrarvi, e il valore esistente si sposta in Ironwood attraverso il turnstile, dove la migrazione viene verificata pubblicamente.
+Che cosa succede alla vecchia pool Orchard? Diventa di sola spesa. Nessun nuovo valore può entrarvi, e il valore esistente si sposta in Ironwood attraverso il turnstile, dove la migrazione viene verificata pubblicamente.
 
 ## Metti alla prova la tua comprensione
 
@@ -100,7 +100,7 @@ Se lo ZEC all’interno delle pool schermate è nascosto, come può chiunque con
 <details>
 <summary>Risposta</summary>
 
-Attraverso il turnstile. Ogni moneta che esce dal vecchio pool Orchard viene conteggiata in un checkpoint pubblico mentre entra in Ironwood. Se cercasse di uscire più valore di quanto ne sia entrato legittimamente, la contabilità non tornerebbe, quindi qualsiasi contraffazione che il bug avrebbe potuto creare emergerebbe a quel varco.
+Attraverso il turnstile. Ogni moneta che esce dalla vecchia pool Orchard viene conteggiata in un checkpoint pubblico mentre entra in Ironwood. Se cercasse di uscire più valore di quanto ne sia entrato legittimamente, la contabilità non tornerebbe, quindi qualsiasi contraffazione che il bug avrebbe potuto creare emergerebbe a quel varco.
 </details>
 
 ### Risorse

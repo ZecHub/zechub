@@ -18,9 +18,9 @@ Il recupero dipende dall'avere la corretta autorità di spesa e un percorso attu
 
 I vecchi ZEC schermati potrebbero dover essere migrati durante il recupero. Il percorso dipende da quale pool schermata detiene attualmente i fondi.
 
-> **NU7 è previsto per il 5 novembre 2026.** Una volta attivato, l'attuale percorso di migrazione fuori dal pool Sprout legacy smetterà di funzionare.
+> **NU7 è previsto per il 5 novembre 2026.** Una volta attivato, l'attuale percorso di migrazione fuori dalla pool Sprout legacy smetterà di funzionare.
 >
-> Se hai ancora ZEC nel pool Sprout, migrali prima dell'aggiornamento. Dopo l'attivazione, gli strumenti esistenti non saranno più in grado di spostare i fondi Sprout in Sapling, indirizzi trasparenti o qualsiasi altra destinazione.
+> Se hai ancora ZEC nella pool Sprout, migrali prima dell'aggiornamento. Dopo l'attivazione, gli strumenti esistenti non saranno più in grado di spostare i fondi Sprout in Sapling, indirizzi trasparenti o qualsiasi altra destinazione.
 >
 > Se stai visualizzando questa pagina **dopo l'attivazione di NU7**, **Sprout è congelato nel ghiaccio** finché non sarà disponibile un futuro metodo di recupero, attualmente non pianificato.
 
@@ -40,13 +40,13 @@ I vecchi ZEC schermati potrebbero dover essere migrati durante il recupero. Il p
 4. **Hai già un datadir zcashd sincronizzato e non potato?** Questo conta solo per il percorso sidecar legacy. Copia i dati del nodo esistenti solo dopo uno spegnimento pulito; altrimenti la guida sul campo copre le opzioni snapshot/da zero.
 5. **Dove finiscono i fondi?** **Ironwood.** Sprout passa prima attraverso Sapling perché non esiste una singola transazione diretta da Sprout a Ironwood. Non fermarti a Sapling.
 
-### Guida completa sul campo per la migrazione del pool ZEC
+### Guida completa sul campo per la migrazione della pool ZEC
 
 Per il riferimento completo alla migrazione, inclusi percorsi di recupero dettagliati, comandi, commissioni, requisiti hardware, considerazioni sulla privacy, risoluzione dei problemi e note sulle fonti, leggi la guida completa.
 
 **Versione 1.1 · Aggiornata il 18 settembre 2026**
 
-[Leggi la guida completa sul campo per la migrazione del pool ZEC in ZecHub](/research/zec-pool-migration/view)
+[Leggi la guida completa sul campo per la migrazione della pool ZEC in ZecHub](/research/zec-pool-migration/view)
 
 > **Prima di iniziare:** stabilisci innanzitutto **cosa stai recuperando e quale materiale di recupero possiedi ancora**. Un seed di un portafoglio attuale o una chiave di spesa non-Sprout supportata potrebbe richiedere soltanto un normale ripristino. Il materiale più vecchio — come un seed ZecWallet Lite, un `wallet.dat` legacy o una chiave di spesa Sapling o Sprout autonoma — potrebbe richiedere un percorso di recupero dedicato.
 >

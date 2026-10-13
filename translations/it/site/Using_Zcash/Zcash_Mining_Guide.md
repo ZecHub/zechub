@@ -2,7 +2,7 @@
 
 ## Introduzione
 
-Zcash (ZEC) è una criptovaluta focalizzata sulla privacy che utilizza l'algoritmo di proof-of-work Equihash per il mining. Fare mining di Zcash implica l'uso di potenza computazionale per risolvere complessi problemi matematici, convalidare le transazioni e mettere in sicurezza la rete in cambio di ricompense in ZEC. A causa dell'elevata difficoltà della rete, il mining in solitaria non è consigliato per la maggior parte degli utenti. Unirsi a un mining pool è il modo migliore per ottenere ricompense costanti combinando il proprio hash power con quello di altri.
+Zcash (ZEC) è una criptovaluta focalizzata sulla privacy che utilizza l'algoritmo di proof-of-work Equihash per il mining. Fare mining di Zcash implica l'uso di potenza computazionale per risolvere complessi problemi matematici, convalidare le transazioni e mettere in sicurezza la rete in cambio di ricompense in ZEC. A causa dell'elevata difficoltà della rete, il mining in solitaria non è consigliato per la maggior parte degli utenti. Unirsi a una mining pool è il modo migliore per ottenere ricompense costanti combinando il proprio hash power con quello di altri.
 
 Questa guida si concentra sul mining di Zcash utilizzando hardware personale (ad esempio, un PC domestico con GPU o ASIC di fascia base). Nota che, sebbene le GPU possano ancora fare mining di Zcash, gli ASIC sono molto più efficienti e redditizi nel 2026 a causa della difficoltà della rete. Controlla sempre la redditività attuale usando strumenti come WhatToMine.com, poiché fattori come i costi dell'elettricità, i prezzi dell'hardware e il valore di ZEC influiscono sulla sostenibilità. Il mining potrebbe non essere redditizio per tutti; informati sulle normative locali e sulle tariffe energetiche (punta a < $0.08/kWh).
 
@@ -53,7 +53,7 @@ Questa guida si concentra sul mining di Zcash utilizzando hardware personale (ad
 **Avvertenza:** assicurati di avere una ventilazione adeguata; il mining genera calore. Inizia in piccolo per fare delle prove.
 
 ### Passo 3: Scegli e Unisciti a un Mining Pool
-I mining pool distribuiscono il lavoro e condividono le ricompense in base all'hash rate che contribuisci. Scegli in base alle commissioni (0-2%), al minimo di pagamento (0.01-0.1 ZEC), alla posizione geografica (ping basso) e all'affidabilità.
+Le mining pool distribuiscono il lavoro e condividono le ricompense in base all'hash rate che contribuisci. Scegli in base alle commissioni (0-2%), al minimo di pagamento (0.01-0.1 ZEC), alla posizione geografica (ping basso) e all'affidabilità.
 
 **Pool Consigliati (in base a hash rate, commissioni e recensioni):**
 - **2Miners (zec.2miners.com)**: commissione 1%, pagamento PPLNS, supporta GPU/ASIC/NiceHash. Alto hash rate (~1.17 GSol/s), server affidabili.
@@ -64,9 +64,9 @@ I mining pool distribuiscono il lavoro e condividono le ricompense in base all'h
 - **Sovright (mining.sovright.com)**: Una pool Zcash costruita su Stratum V2, attualmente in esecuzione come testnet pubblica. Non ci sono ancora pagamenti in ZEC reali, quindi considerala come un modo per testare la tua configurazione piuttosto che come una fonte di guadagno. Consulta la sezione dedicata qui sotto per i dettagli.
 - Altri: Kryptex Pool, Luxor (controlla poolwatch.io/coin/zcash per statistiche in tempo reale).
 
-1. Visita il sito web del pool e crea un account (email oppure nessuna registrazione per alcuni come 2Miners).
+1. Visita il sito web della pool e crea un account (email oppure nessuna registrazione per alcuni come 2Miners).
 2. Aggiungi il tuo indirizzo del portafoglio Zcash nelle impostazioni per i pagamenti.
-3. Annota il server stratum del pool (ad esempio, zec.2miners.com:1010) e la porta.
+3. Annota il server stratum della pool (ad esempio, zec.2miners.com:1010) e la porta.
 
 ### Passo 4: Installa e Configura il Software di Mining
 - Per GPU (Esempio: lolMiner su Windows/Linux):
@@ -79,11 +79,11 @@ I mining pool distribuiscono il lavoro e condividono le ricompense in base all'h
      - Sostituisci `YOUR_WALLET_ADDRESS` con il tuo indirizzo ZEC.
      - `WORKER_NAME`: un nome per il tuo rig (ad esempio, Rig1).
      - Per server UE: eu.zec.2miners.com:1010.
-  4. Esegui il file batch. Si connetterà al pool e inizierà il mining.
+  4. Esegui il file batch. Si connetterà alla pool e inizierà il mining.
 - Per ASIC (Esempio: Bitmain Antminer):
   1. Accedi alla dashboard web.
   2. Vai su Miner Configuration.
-  3. Aggiungi i dettagli del pool:
+  3. Aggiungi i dettagli della pool:
      - URL: stratum+tcp://zec.2miners.com:1010
      - Username: YOUR_WALLET_ADDRESS.WORKER_NAME
      - Password: x (o vuoto).
@@ -96,12 +96,12 @@ I mining pool distribuiscono il lavoro e condividono le ricompense in base all'h
 **Test:** esegui per 10-15 minuti; controlla la console per verificare share accettate e hash rate.
 
 ### Passo 5: Avvia il Mining e Monitora
-1. Avvia il miner: si connetterà al pool e inizierà a inviare share.
+1. Avvia il miner: si connetterà alla pool e inizierà a inviare share.
 2. Monitora tramite:
    - Dashboard della pool: inserisci il tuo indirizzo del portafoglio per vedere hash rate, saldo non pagato e statistiche.
    - Console del software: controlla eventuali errori, temperatura (mantienila < 80 gradi C).
    - Strumenti: usa HiveOS o SimpleMining OS per la gestione remota del rig.
-3. Pagamenti: la maggior parte dei pool paga automaticamente quando raggiungi il minimo (ad esempio, 0.05 ZEC). Controlla le regole del pool.
+3. Pagamenti: la maggior parte delle pool paga automaticamente quando raggiungi il minimo (ad esempio, 0.05 ZEC). Controlla le regole della pool.
 
    
 ![Configurazione di Monitoraggio del Mining di Zcash](/content-images/zcashMining-5ca0019c17.webp)
@@ -109,20 +109,20 @@ I mining pool distribuiscono il lavoro e condividono le ricompense in base all'h
 
 ## Sovright: Pool di Testnet e Rete Relay
 
-Sovright (sovright.com) gestisce un mining pool Stratum V2 e una rete relay di blocchi separata. Svolgono compiti diversi, quindi sono trattati separatamente qui sotto.
+Sovright (sovright.com) gestisce una mining pool Stratum V2 e una rete relay di blocchi separata. Svolgono compiti diversi, quindi sono trattati separatamente qui sotto.
 
 ### Mining Pool (mining.sovright.com)
 
 La pool di Sovright funziona su una testnet pubblica di Zcash (NU6, Stratum V2), non sulla mainnet. La testnet non paga ZEC reali. Usala per testare la configurazione del tuo miner, non per guadagnare.
 
-- Non è richiesto alcun account per iniziare. Punta un miner CPU o ASIC Equihash al pool e le tue share compariranno su una dashboard live.
-- Sovright pubblica anche un proxy Stratum V2 open source per i miner che vogliono scegliere i propri block template invece di limitarsi a usare i job del pool:
+- Non è richiesto alcun account per iniziare. Punta un miner CPU o ASIC Equihash alla pool e le tue share compariranno su una dashboard live.
+- Sovright pubblica anche un proxy Stratum V2 open source per i miner che vogliono scegliere i propri block template invece di limitarsi a usare i job della pool:
 
 ### Monitoraggio di Foundry Zcash Pool
 
 Per gli utenti di Foundry Zcash Pool:
 
-- Monitora le prestazioni del miner tramite la dashboard del pool Foundry.
+- Monitora le prestazioni del miner tramite la dashboard della pool Foundry.
 - Controlla:
   - Worker attivi
   - Hash rate riportato
@@ -130,7 +130,7 @@ Per gli utenti di Foundry Zcash Pool:
   - Ricompense stimate
   - Stato dei pagamenti
 
-Poiché Foundry utilizza un modello di ricompensa PPLNS, le ricompense del mining dipendono dalle share contribuite durante la finestra di ricompensa del pool piuttosto che dal solo hash rate istantaneo.
+Poiché Foundry utilizza un modello di ricompensa PPLNS, le ricompense del mining dipendono dalle share contribuite durante la finestra di ricompensa della pool piuttosto che dal solo hash rate istantaneo.
 
 Pratiche di monitoraggio consigliate:
 - Confronta l'hash rate della dashboard ASIC con l'hash rate riportato da Foundry.
@@ -142,7 +142,7 @@ Pratiche di monitoraggio consigliate:
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  Punta il tuo miner al proxy invece che direttamente al pool:
+  Punta il tuo miner al proxy invece che direttamente alla pool:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```

@@ -156,7 +156,7 @@ La migrazione dovrebbe essere semplice nei portafogli. La maggior parte degli ut
 
 ### Migrazione che preserva la privacy
 
-La migrazione è particolarmente delicata per Zcash. Se molti utenti spostano fondi dai vecchi pool ai nuovi pool seguendo schemi evidenti, la migrazione stessa potrebbe rivelare informazioni.
+La migrazione è particolarmente delicata per Zcash. Se molti utenti spostano fondi dalle vecchie pool alle nuove pool seguendo schemi evidenti, la migrazione stessa potrebbe rivelare informazioni.
 
 Un buon piano di migrazione deve proteggere:
 

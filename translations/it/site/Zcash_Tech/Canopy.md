@@ -32,13 +32,13 @@ Misurate rispetto all’intera block reward invece che solo rispetto al fondo, q
 
 ![Il Development Fund è il 20 percento di ogni block reward, suddiviso in 35 percento a Bootstrap ed Electric Coin Company, 25 percento alla Zcash Foundation e 40 percento a Major Grants](/content-images/canopy-dev-fund-split-005bf6f2dd.webp)
 
-## La modifica al pool Sprout
+## La modifica alla pool Sprout
 
 Canopy ha anche iniziato a dismettere la pool schermata più vecchia. Sprout è stata la prima pool schermata di Zcash, e Canopy ha iniziato a dismetterla gradualmente tramite [ZIP 211](https://zips.z.cash/zip-0211).
 
 Dal momento in cui Canopy si è attivato, nessun nuovo valore può essere aggiunto alla pool Sprout. In termini tecnici, il campo vpub_old di ogni JoinSplit deve essere zero. I fondi già presenti nella pool Sprout possono ancora essere prelevati, quindi nessuno perde l'accesso, ma da qui in avanti la pool può solo ridursi. Questo è un primo passo verso la futura dismissione della pool Sprout legacy a favore di pool schermate più recenti.
 
-![Prima di Canopy, il valore poteva sia entrare sia uscire dal pool Sprout. Dopo Canopy, nessun nuovo valore può entrare ma i prelievi sono ancora consentiti](/content-images/canopy-sprout-pool-f5166aa049.webp)
+![Prima di Canopy, il valore poteva sia entrare sia uscire dalla pool Sprout. Dopo Canopy, nessun nuovo valore può entrare ma i prelievi sono ancora consentiti](/content-images/canopy-sprout-pool-f5166aa049.webp)
 
 ## Gli aspetti tecnici aggiuntivi
 
@@ -63,7 +63,7 @@ Canopy ha tagliato la block reward? Canopy si è attivato nello stesso blocco de
 
 A cosa serve il Development Fund? Finanzia le persone che costruiscono Zcash. Il denaro va a Electric Coin Company (attraverso il Bootstrap Project), alla Zcash Foundation e a Major Grants, che sostiene il lavoro indipendente.
 
-Posso ancora usare i fondi nel pool Sprout? Sì. Puoi ancora prelevare i fondi che sono già in Sprout. Semplicemente non puoi aggiungervi nuovo valore dopo Canopy.
+Posso ancora usare i fondi nella pool Sprout? Sì. Puoi ancora prelevare i fondi che sono già in Sprout. Semplicemente non puoi aggiungervi nuovo valore dopo Canopy.
 
 Il Development Fund è permanente? No. Era previsto per durare quattro anni, dal primo halving nel novembre 2020 fino al secondo halving nel 2024, dando alla comunità il tempo di vedere come funziona prima di rivalutarlo.
 
@@ -89,7 +89,7 @@ Il founders reward originale era previsto per terminare al primo halving. Senza 
 
 [ZIP 214: Regole di consenso per un Zcash Development Fund](https://zips.z.cash/zip-0214)
 
-[ZIP 211: Disabilitazione dell’aggiunta di nuovo valore al pool di valore della chain Sprout](https://zips.z.cash/zip-0211)
+[ZIP 211: Disabilitazione dell’aggiunta di nuovo valore alla pool di valore della chain Sprout](https://zips.z.cash/zip-0211)
 
 [Canopy Network Upgrade](https://z.cash/upgrade/canopy/)
 

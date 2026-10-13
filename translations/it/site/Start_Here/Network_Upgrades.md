@@ -11,7 +11,7 @@ Per la storia visiva di come la privacy di Zcash si è evoluta attraverso questi
 | [Sapling](../zcash-tech/sapling) | 29 ottobre 2018 | 419,200 | 76b809bb | Transazioni schermate efficienti, abbastanza veloci per telefoni e portafogli hardware |
 | [Blossom](../zcash-tech/blossom) | 11 dicembre 2019 | 653,600 | 2bb40e60 | Blocchi più veloci, circa 75 secondi, e maggiore throughput |
 | [Heartwood](../zcash-tech/heartwood) | 16 luglio 2020 | 903,000 | f5b9230b | Ricompense di mining schermate e client più leggeri (FlyClient) |
-| [Canopy](../zcash-tech/canopy) | 18 novembre 2020 | 1,046,400 | e9ff75a6 | Il Development Fund, il primo halving e la progressiva dismissione del pool Sprout |
+| [Canopy](../zcash-tech/canopy) | 18 novembre 2020 | 1,046,400 | e9ff75a6 | Il Development Fund, il primo halving e la progressiva dismissione della pool Sprout |
 | [NU5](../zcash-tech/nu5) | 31 maggio 2022 | 1,687,104 | c2d6d0b4 | La pool Orchard su Halo 2 (senza trusted setup), indirizzi unificati e transazioni v5 |
 | [NU6](../zcash-tech/nu6) | 23 novembre 2024 | 2,726,400 | c8e71055 | Il Deferred Dev Fund Lockbox e una nuova ripartizione del finanziamento allo sviluppo |
 | [NU6.1](../zcash-tech/nu6-1) | 24 novembre 2025 | 3,146,400 | 4dec4df0 | Governance di quel finanziamento da parte della comunità e dei detentori di coin |

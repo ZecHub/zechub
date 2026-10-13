@@ -125,7 +125,7 @@ Per approfondire: [Un ecosistema schermato](https://web.archive.org/web/20260903
     </tr>
     <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
       <td className="py-4 px-5 font-medium text-foreground">Zcash offre una privacy limitata rispetto ad altre monete orientate alla privacy</td>
-      <td className="py-4 px-5 text-foreground">No. La privacy in stile Monero/Grin si basa su esche (che possono essere aggirate). Zcash crittografa tutti i dati delle transazioni schermate, quindi ogni transazione nel pool è indistinguibile. Vedi [Non abbastanza privato?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
+      <td className="py-4 px-5 text-foreground">No. La privacy in stile Monero/Grin si basa su esche (che possono essere aggirate). Zcash crittografa tutti i dati delle transazioni schermate, quindi ogni transazione nella pool è indistinguibile. Vedi [Non abbastanza privato?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
     </tr>
   </tbody>
 </table>

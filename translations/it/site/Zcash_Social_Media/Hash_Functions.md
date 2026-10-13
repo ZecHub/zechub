@@ -70,7 +70,7 @@ I Merkle tree sono un esempio di **commitment scheme crittografico**. La radice 
 Verificano i dati memorizzati o trasferiti sulle reti P2P, garantendo che i dati ricevuti dai peer siano inalterati.
 
 #### 3. Note Commitment Tree in Zcash
-Nei pool schermati **Sapling** e **Orchard** di Zcash, il **Note Commitment Tree** viene usato per verificare che le transazioni siano valide rispetto al consenso, nascondendo perfettamente mittente, destinatario e importi consumati.
+Nelle pool schermate **Sapling** e **Orchard** di Zcash, il **Note Commitment Tree** viene usato per verificare che le transazioni siano valide rispetto al consenso, nascondendo perfettamente mittente, destinatario e importi consumati.
 
 #### 4. Signature Hash (blocchi in stile Bitcoin)
 **SHA256** è un esempio di "Signature hash" usato per imporre l'immutabilità di ogni blocco nella chain di Bitcoin. I miner usano l'hash del blocco precedente + un hash di tutte le transazioni nel blocco corrente (hashMerkleRoot) + il timestamp + un valore casuale / la difficoltà di rete per i nuovi blocchi.

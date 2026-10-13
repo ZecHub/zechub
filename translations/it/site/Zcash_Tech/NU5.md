@@ -31,7 +31,7 @@ NU5 riunisce diverse modifiche al consenso, tutte attivate insieme al blocco 1.6
 5. Ha adottato le codifiche canoniche dei punti Jubjub (ZIP 216) per rimuovere le codifiche non standard e rendere più rigorose le regole su ciò che conta come transazione valida.
 6. Ha abilitato l'inoltro delle transazioni versione 5 attraverso la rete peer-to-peer (ZIP 239).
 
-NU5 ha inoltre aggiornato diversi ZIP esistenti (32, 203, 209, 212, 213, 221 e 401) affinché tengano conto del nuovo pool Orchard.
+NU5 ha inoltre aggiornato diversi ZIP esistenti (32, 203, 209, 212, 213, 221 e 401) affinché tengano conto della nuova pool Orchard.
 
 ## Unified Addresses
 
@@ -43,7 +43,7 @@ Le chiavi di visualizzazione unificate funzionano allo stesso modo per la visual
 
 ## Dove si colloca NU5
 
-NU5 ha seguito i precedenti aggiornamenti di Zcash: Overwinter, Sapling, Blossom, Heartwood e Canopy. È stato attivato sulla mainnet il 31 maggio 2022. Il ciclo di curve di Orchard è stato scelto perché supporta la ricorsione, che costituisce una base per futuri interventi di scalabilità. NU5 è il predecessore diretto della linea di aggiornamenti NU6 e NU6.x, che si è basata sul pool Orchard e successivamente lo ha corretto.
+NU5 ha seguito i precedenti aggiornamenti di Zcash: Overwinter, Sapling, Blossom, Heartwood e Canopy. È stato attivato sulla mainnet il 31 maggio 2022. Il ciclo di curve di Orchard è stato scelto perché supporta la ricorsione, che costituisce una base per futuri interventi di scalabilità. NU5 è il predecessore diretto della linea di aggiornamenti NU6 e NU6.x, che si è basata sulla pool Orchard e successivamente la ha corretta.
 
 ## Glossario
 
@@ -66,7 +66,7 @@ Devo fare qualcosa? No. Un portafoglio supportato gestisce NU5 per te. Puoi cont
 
 Cos'è un indirizzo unificato? Un singolo indirizzo che può contenere ricevitori per più di una pool. Il portafoglio del mittente sceglie la pool che supporta, quindi non devi fornire un indirizzo diverso per ogni tipo.
 
-NU5 rimuove la configurazione fidata dai miei fondi precedenti? Non retroattivamente. Orchard non richiede alcuna configurazione fidata, ma i parametri precedenti del pool Sapling continuano a esistere dopo NU5. La garanzia di assenza di configurazione si applica ai fondi detenuti nel pool Orchard.
+NU5 rimuove la configurazione fidata dai miei fondi precedenti? Non retroattivamente. Orchard non richiede alcuna configurazione fidata, ma i parametri precedenti della pool Sapling continuano a esistere dopo NU5. La garanzia di assenza di configurazione si applica ai fondi detenuti nella pool Orchard.
 
 Il vecchio formato di transazione ha smesso di funzionare? No. NU5 ha aggiunto il formato versione 5 e il precedente formato versione 4 è rimasto valido dopo l'attivazione.
 
@@ -77,7 +77,7 @@ Sprout e Sapling richiedevano entrambe una cerimonia di trusted setup. Cosa ha c
 <details>
 <summary>Risposta</summary>
 
-Orchard è basato sul sistema di proving Halo 2, che non richiede alcuna configurazione fidata né una stringa di riferimento strutturata. Questo elimina il rischio che parametri segreti residui possano essere usati per contraffare ZEC. La garanzia si applica ai fondi detenuti nel pool Orchard. I precedenti parametri Sapling continuano a esistere dopo NU5.
+Orchard è basato sul sistema di proving Halo 2, che non richiede alcuna configurazione fidata né una stringa di riferimento strutturata. Questo elimina il rischio che parametri segreti residui possano essere usati per contraffare ZEC. La garanzia si applica ai fondi detenuti nella pool Orchard. I precedenti parametri Sapling continuano a esistere dopo NU5.
 </details>
 
 ### Risorse

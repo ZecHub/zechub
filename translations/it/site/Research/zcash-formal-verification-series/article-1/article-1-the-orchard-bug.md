@@ -151,7 +151,7 @@ Abbiamo semplificato deliberatamente. Il circuito reale coinvolge centinaia di r
 - Un **vincolo mancante** crea una **lacuna di soundness**, consentendo il passaggio di affermazioni false. (Caso giocattolo verificato: `b(b−1)=0` impone che `b` sia 0 oppure 1; rimuovendolo, `b` può essere qualsiasi valore. Questa esatta classe di bug è reale nella storia di Zcash.)
 - Il **bug Orchard** era una **moltiplicazione su curva ellittica sotto-vincolata**: input falsi arbitrari potevano superare la verifica della moltiplicazione, consentendo contraffazione illimitata e non rilevabile. Un exploit funzionante è stato dimostrato in una rete di test.
 - È rimasto nascosto per **quattro anni** (dal maggio 2022 al giugno 2026) perché i test campionano i casi e non lo hanno mai campionato; è stato trovato ragionando sulla matematica, con assistenza AI, il 29 maggio 2026.
-- La contraffazione non rilevabile può risiedere solo nella **specifica**, e Zcash ha già visto questa famiglia di bug in precedenza. Zcash ha risposto con una correzione d'emergenza e un nuovo pool verificato formalmente, **Ironwood**, oggetto della Parte 3.
+- La contraffazione non rilevabile può risiedere solo nella **specifica**, e Zcash ha già visto questa famiglia di bug in precedenza. Zcash ha risposto con una correzione d'emergenza e una nuova pool verificata formalmente, **Ironwood**, oggetto della Parte 3.
 
 ---
 

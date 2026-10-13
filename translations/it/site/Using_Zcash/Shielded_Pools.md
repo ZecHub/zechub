@@ -50,7 +50,7 @@ Ironwood è l’attuale pool schermata principale. Si è attivata il 28 luglio 2
 
 Esiste perché a maggio 2026 è stata trovata una vulnerabilità nel sistema di proving di Orchard. Non ci sono prove che sia mai stata sfruttata, ma la falla impediva che la quantità di monete nella pool schermata potesse essere verificata come valida esclusivamente tramite le prove stesse. Invece di correggerla sul posto, la rete ha creato una nuova pool con un circuito corretto e ha spostato il valore attraverso un turnstile che conta pubblicamente ogni moneta. È questa contabilità che ripristina la garanzia che la quantità di monete nella pool schermata sia completamente coperta.
 
-Ironwood riutilizza il modello Action di Orchard e i proof Halo 2, quindi nel funzionamento quotidiano si comporta allo stesso modo. Ci sono due novità: le transazioni usano il formato v6 e le note di Ironwood sono **recuperabili in caso quantistico** secondo [ZIP 2005](https://zips.z.cash/zip-2005), il che significa che il record on-chain di una moneta resta recuperabile se in futuro un computer quantistico dovesse compromettere la crittografia odierna. Si tratta di un percorso di recupero, non di resistenza quantistica, e non si applica ai pool più vecchi.
+Ironwood riutilizza il modello Action di Orchard e i proof Halo 2, quindi nel funzionamento quotidiano si comporta allo stesso modo. Ci sono due novità: le transazioni usano il formato v6 e le note di Ironwood sono **recuperabili in caso quantistico** secondo [ZIP 2005](https://zips.z.cash/zip-2005), il che significa che il record on-chain di una moneta resta recuperabile se in futuro un computer quantistico dovesse compromettere la crittografia odierna. Si tratta di un percorso di recupero, non di resistenza quantistica, e non si applica alle pool più vecchie.
 
 Non hai bisogno di un nuovo indirizzo. Gli indirizzi unificati raggruppano diversi ricevitori, e i portafogli scelgono per te la pool corretta.
 
@@ -171,7 +171,7 @@ Vedi [Ironwood](/zcash-tech/ironwood) per l’aggiornamento in sé, e [The Turns
 - **Inviare da t-address a t-address** — completamente pubblico, nessuna privacy. Scherma sempre prima i fondi.
 - **Supporre che Orchard accetti ancora fondi** — è solo-spesa dal 28 luglio 2026. Il valore può uscirne, ma non può entrarvi nulla di nuovo
 - **Confondere Sapling e indirizzi unificati** — Gli indirizzi Sapling iniziano con `zs`. Gli indirizzi unificati iniziano con `u1` e raggruppano diversi ricevitori, quindi la pool in cui arriva il tuo pagamento dipende da quali ricevitori quell’indirizzo contiene
-- **Lasciare fondi nel pool Sprout** — Sprout è stato deprecato da anni; sposta fuori quei fondi
+- **Lasciare fondi nella pool Sprout** — Sprout è stato deprecato da anni; sposta fuori quei fondi
 - **Aspettarsi che una migrazione sia completamente invisibile** — l’importo che attraversa il turnstile è pubblico, anche se mittente e destinatario non lo sono
 - **Supporre che t → z (schermatura) sia completamente privato** — l’atto stesso della schermatura è visibile on-chain; il contenuto no
 
@@ -183,6 +183,6 @@ Vedi [Ironwood](/zcash-tech/ironwood) per l’aggiornamento in sé, e [The Turns
 - [Il turnstile](/zcash-tech/the-turnstile) — Come viene verificato il valore che si sposta tra le pool
 - [Portafogli](/using-zcash/wallets) — Quali portafogli sono mantenuti e pronti per Ironwood
 - [Transazioni](/using-zcash/transactions) — Come inviare transazioni schermate
-- [Acquistare ZEC](/using-zcash/buying-zec) — Come acquisire ZEC prima di usarlo nei pool
+- [Acquistare ZEC](/using-zcash/buying-zec) — Come acquisire ZEC prima di usarlo nelle pool
 - [zk-SNARKs](/zcash-tech/zk-snarks) — Il fondamento crittografico delle pool schermate
 - [Che cosa sono ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Contesto sulla privacy di Zcash

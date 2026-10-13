@@ -197,7 +197,7 @@ Un sito web statico incentrato sulla privacy che aggrega notizie, statistiche e 
 [Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
 ### ZEC-OS
-Un'interfaccia desktop in stile retrò che riunisce vari strumenti e informazioni dell'ecosistema Zcash in un'unica applicazione. Include un esploratore blockchain, un visualizzatore della mempool, statistiche di rete, grafici storici, informazioni sui pool schermati, strumenti per il mining, un decodificatore Unified Address, una calcolatrice, giochi, un terminale e altre utilità.  
+Un'interfaccia desktop in stile retrò che riunisce vari strumenti e informazioni dell'ecosistema Zcash in un'unica applicazione. Include un esploratore blockchain, un visualizzatore della mempool, statistiche di rete, grafici storici, informazioni sulle pool schermate, strumenti per il mining, un decodificatore Unified Address, una calcolatrice, giochi, un terminale e altre utilità.  
 [Visita](https://www.zec-os.com/)
 
 ---
