@@ -125,7 +125,7 @@ if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 
 > **Su macOS:** il flusso è lo stesso, ma la userland BSD include `shasum` invece di `sha256sum`, quindi usa `shasum -a 256 -c --ignore-missing SHA256SUMS`. L'autore di questa pagina non aveva a disposizione una macchina macOS, quindi quel comando è documentato in base agli strumenti Apple anziché essere stato eseguito. Se verifichi su macOS, apri una PR per confermarlo o correggerlo.
 
-### Passaggio 3 — verifica il bundle Sigstore
+### Passaggio 3 — Verifica il bundle Sigstore
 
 Sigstore sostituisce le chiavi di firma a lunga durata con certificati a breve durata associati a un'identità CI e registrati in un transparency log pubblico. Nessuno detiene una chiave di release che possa essere rubata.
 

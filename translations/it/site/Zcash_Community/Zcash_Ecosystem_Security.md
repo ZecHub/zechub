@@ -4,7 +4,7 @@
 
 # Sicurezza dell'Ecosistema Zcash
 
-## Responsabile della Sicurezza dell'Ecosistema
+## Responsabile della sicurezza dell'ecosistema
 
 Il ruolo di Responsabile della Sicurezza dell'Ecosistema Zcash è stato istituito tramite un finanziamento ZCG per fornire ingegneria della sicurezza dedicata all'intero ecosistema Zcash — in particolare ai beneficiari ZCG — al di fuori di ECC e ZF.
 
@@ -16,7 +16,7 @@ Il ruolo di Responsabile della Sicurezza dell'Ecosistema Zcash è stato istituit
 
 L'[Iniziativa di Divulgazione delle Vulnerabilità e Sicurezza ZCG](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) fornisce un quadro per la divulgazione coordinata delle vulnerabilità di sicurezza nell'ecosistema Zcash.
 
-## Aggiornamenti di Sicurezza Recenti (2026)
+## Aggiornamenti di sicurezza recenti (2026)
 
 - **Zebra 4.4.1 (Maggio 2026):** Rilasciata una [correzione di sicurezza critica](https://forum.zcashcommunity.com/t/zebra-4-4-1-critical-security-fix/55588). Tutti gli operatori di nodo sono incoraggiati ad aggiornare immediatamente.
 - **Zebra 4.3.1 (Aprile 2026):** Rilasciate [correzioni di sicurezza critiche, mining dockerizzato e rafforzamento CI](https://forum.zcashcommunity.com/t/zebra-4-3-1-critical-security-fixes-dockerized-mining-and-ci-hardening/55389).
@@ -29,7 +29,7 @@ Electric Coin Company e Zcash Foundation si conformano entrambe a questo [standa
 
 > "Zcash è una tecnologia che garantisce una forte privacy. Le note sono crittografate verso la loro destinazione, e la base monetaria è mantenuta tramite prove a conoscenza zero, intese per essere creabili solo dal vero detentore di Zcash. Se questo fallisce e si verifica un bug di contraffazione, tale bug potrebbe essere sfruttato senza che gli analisti della blockchain possano identificare l'autore o quali dati nella blockchain siano stati utilizzati per sfruttare il bug. I rollback prima di quel punto, come quelli eseguiti in altri progetti in casi simili, sono quindi impossibili. Lo standard prevede che i segnalatori di vulnerabilità includano tutti i dettagli di un problema per poterlo riprodurre. Ciò è necessario, ad esempio, nel caso di un ricercatore esterno che dimostri e provi che esiste realmente un problema di sicurezza, e che tale problema ha realmente l'impatto dichiarato, consentendo al team di sviluppo di assegnare priorità e risolvere il problema in modo accurato. Nel caso di un bug di contraffazione, tuttavia, come per CVE-2019-7167, potremmo decidere di non includere tali dettagli nei nostri rapporti con i partner prima del rilascio coordinato, purché siamo certi che siano vulnerabili."
 
-## Risorse di Sicurezza
+## Risorse di sicurezza
 
 - [Zcash Avvisi di Sicurezza](https://github.com/zcash/zcash/security/advisories)
 - [Zebra Avvisi di Sicurezza](https://github.com/ZcashFoundation/zebra/security/advisories)

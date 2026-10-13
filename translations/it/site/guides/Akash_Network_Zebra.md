@@ -325,7 +325,7 @@ Devi modificare la configurazione dopo il deploy?
 
 ### Monitoraggio
 
-#### Tramite la Console
+#### Tramite la console
 
 -> **Scheda Logs**: log del container in tempo reale
 
@@ -412,7 +412,7 @@ Quando il tuo saldo si esaurisce, Akash chiuderà automaticamente il tuo deploym
 -> **Scegli provider più economici** (non sempre saggio - l'uptime conta)
 
 
-### Mainnet vs Testnet
+### Mainnet vs testnet
 
 ```markdown
 ----------------------------------------------------------------------------------

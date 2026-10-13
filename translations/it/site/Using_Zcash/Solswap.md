@@ -23,7 +23,7 @@ Hai già ZEC su Solana (ad esempio da un token che remunera i titolari in ZEC)? 
 
 ---
 
-##  **Passaggio 1: apri l'interfaccia Swap**
+##  **Passaggio 1: apri l'interfaccia di scambio**
 Avvia l'app **Phantom** e visita **[solswap.org](https://solswap.org/)** dal browser Phantom. Digita tu stesso l'indirizzo. Il sito funziona su NEAR Intents e può inviare ZEC a un indirizzo Zcash.
 
 Anche il pulsante **Swap** di Phantom elenca ZEC, ma così ottieni il token descritto sopra, non ZEC nativo.  
@@ -34,14 +34,14 @@ Anche il pulsante **Swap** di Phantom elenca ZEC, ma così ottieni il token desc
 ---
 
 ##  **Passaggio 2: seleziona reti e token per il deposito**  
-- Scegli la tua **rete di origine** (ad es. *Ethereum* o *Solana*), quindi deposita per effettuare lo swap.  
+- Scegli la tua **rete di origine** (ad es. *Ethereum* o *Solana*), quindi deposita per effettuare lo scambio.  
 
 
 ![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
 
 - Seleziona un token di base come **SOL, USDT o USDC**.  
 - Scegli ZEC come **token di destinazione**.  
-- Assicurati che Zcash sia disponibile tramite l'interfaccia di swap.  
+- Assicurati che Zcash sia disponibile tramite l'interfaccia di scambio.  
 
 
 
@@ -70,8 +70,8 @@ Se invece stai visualizzando la schermata **Swap** di Phantom, ti trovi nel perc
 
 ---
 
-##  **Passaggio 6: conferma lo swap**
-- Controlla tutti i dettagli dello swap su solswap.org.
+##  **Passaggio 6: conferma lo scambio**
+- Controlla tutti i dettagli dello scambio su solswap.org.
 - Conferma il deposito in Phantom.
 
 ![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
@@ -87,7 +87,7 @@ Se invece stai visualizzando la schermata **Swap** di Phantom, ti trovi nel perc
 ---
 
 ## **Passaggio 8: preleva ZEC nativo nel tuo portafoglio Zcash**
-Dopo lo swap, il tuo ZEC compare nel saldo dell'**Account** di solswap.org. Non è ancora sulla rete Zcash, né si trova in Phantom.
+Dopo lo scambio, il tuo ZEC compare nel saldo dell'**Account** di solswap.org. Non è ancora sulla rete Zcash, né si trova in Phantom.
 
 1. Apri un portafoglio Zcash che la [directory](/wallets) contrassegna come **Ironwood: Ready**. Copia un `u1` che il tuo portafoglio etichetta come schermato. Anche un `t1` funziona, ma quel deposito è pubblico finché non lo scherma.
 2. Su solswap.org, vai su **Account** e tocca **Withdraw**. Seleziona **ZEC**, imposta la rete su **Zcash**, incolla l'indirizzo e controlla il primo e l'ultimo carattere prima di confermare.

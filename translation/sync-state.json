@@ -15951,7 +15951,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "Privacy_Tools/Arti_Tor.md": {
@@ -16191,7 +16191,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "Start_Here/What_is_ZEC_and_Zcash.md": {
@@ -16295,7 +16295,7 @@
       "src_commit": "bfde3c118bb3e7e29564d239fe73b41f7bece08a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -16367,7 +16367,7 @@
       "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Using_Zcash/Transactions.md": {
@@ -16439,7 +16439,7 @@
       "src_commit": "27d3ffdd1ed1707b7a9ef83febacd3f212e13510",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+itreview",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
@@ -16527,7 +16527,7 @@
       "src_commit": "9344f91e0f2c2a1b12e44ab100f9f1a2d5b5345c",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
@@ -16543,7 +16543,7 @@
       "src_commit": "f13f2f4008d3e9a5dfa913316f83066698456d6e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Community/ZCAP.md": {
@@ -16559,7 +16559,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "Zcash_Community/ZFAV_Club/Guides/Website_On_IPFS.md": {
@@ -16655,7 +16655,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -16663,7 +16663,7 @@
       "src_commit": "b117773198de9576bf719481de0091455a37c791",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+termrepair+itglossary",
+      "tool": "gpt-5.4+termrepair+itglossary+itreview",
       "edited": false
     },
     "Zcash_Organizations/Shielded_Labs.md": {
@@ -16679,7 +16679,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "Zcash_Organizations/Valar_Group.md": {
@@ -16735,7 +16735,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Zcash_Social_Media/Hash_Functions.md": {
@@ -16799,7 +16799,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+itreview",
       "edited": false
     },
     "Zcash_Social_Media/Podcasts/Zcast_Podcast.md": {
@@ -16823,7 +16823,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "Zcash_Social_Media/Zcash_Addresses.md": {
@@ -16839,7 +16839,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "Zcash_Tech/Blossom.md": {
@@ -17207,7 +17207,7 @@
       "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+itreview",
       "edited": false
     },
     "contribute/ZecHub_DAO.md": {
@@ -17247,7 +17247,7 @@
       "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+dedupe-linkrepair+itglossary",
+      "tool": "gpt-5.4+dedupe-linkrepair+itglossary+itreview",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -17295,7 +17295,7 @@
       "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -17383,7 +17383,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "guides/Using_ZEC_in_DeFi.md": {
@@ -17407,7 +17407,7 @@
       "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+itreview",
       "edited": false
     },
     "guides/Visualizing_the_Zcash_Network.md": {

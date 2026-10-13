@@ -95,7 +95,7 @@ Le mining pool distribuiscono il lavoro e condividono le ricompense in base all'
 
 **Test:** esegui per 10-15 minuti; controlla la console per verificare share accettate e hash rate.
 
-### Passo 5: avvia il Mining e Monitora
+### Passo 5: avvia il mining e monitora
 1. Avvia il miner: si connetterà alla pool e inizierà a inviare share.
 2. Monitora tramite:
    - Dashboard della pool: inserisci il tuo indirizzo del portafoglio per vedere hash rate, saldo non pagato e statistiche.

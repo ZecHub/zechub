@@ -1,4 +1,4 @@
-# Zero to Zero Knowledge: Trusted Execution Environments (TEE)
+# Zero to Zero Knowledge: trusted execution environments (TEE)
 
 **Serie:** Zero to Zero Knowledge
 
@@ -83,7 +83,7 @@ I dati cifrati entrano nel TEE insieme allo smart contract. Vengono decifrati, e
 
 ---
 
-## I TEE nelle reti Proof-of-Stake
+## I TEE nelle reti proof-of-stake
 
 Molte blockchain Proof-of-Stake (incluse Secret e Oasis) usano **Tendermint** come framework di consenso.
 
@@ -98,7 +98,7 @@ I **TEE** sono ideali per generare e usare in modo sicuro le chiavi dei validato
 
 ---
 
-## Zcash e la ricerca sul Proof-of-Stake
+## Zcash e la ricerca sul proof-of-stake
 
 Zcash sta attivamente studiando una migrazione al Proof-of-Stake.
 

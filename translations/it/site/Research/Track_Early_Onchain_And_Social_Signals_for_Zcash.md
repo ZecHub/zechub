@@ -52,7 +52,7 @@ Allo stesso tempo, le transazioni schermate, una parte essenziale del framework 
 
 È interessante notare che il volume delle transazioni schermate è aumentato dell'8% rispetto al mese precedente, evidenziando una domanda costante di maggiore privacy finanziaria. Nel complesso, queste tendenze indicano un ecosistema in crescita guidato dalla privacy, dove sia le aziende che gli utenti attenti alla privacy influenzano attivamente il modo in cui la rete opera.
 
-## Sentiment Pubblico 
+## Sentiment pubblico 
 
 Durante il luglio 2025, il volume medio di tweet che menzionavano ZEC era di circa 450 post al giorno con un picco di 1.200 il 22 luglio, la data della più grande transazione di una whale. Gli aggiornamenti tecnici e le funzionalità di privacy di ZEC hanno attirato sentiment positivo, come espresso da account di influencer come @MarcoPoloMaps. Questi dati offrono prova che l'attività delle whale potrebbe stimolare l'interazione della comunità online. 
 
@@ -69,7 +69,7 @@ Altre piattaforme come Discord, Reddit e lo Zcash Community Hub sono state osser
 
 Esaminando Comunità, Adozione e Sviluppo, lo Zcash Community Hub ha messo in evidenza un'ondata di entusiasmo dal basso, con oltre 2.800 membri attivi su Discord e 2.000 iscritti su Reddit. È interessante notare che il coinvolgimento della comunità è cresciuto del 12% dopo il lancio di Zashi 2.0, con molte discussioni focalizzate sulle innovazioni in materia di privacy e su come affrontare gli ostacoli normativi. (Vedi Figura 5)
 
-# Figura 5. Snapshot del Traffico e delle Iscrizioni al Forum di Zcash da quando Zashi 2.0 è stato rilasciato il 28 aprile 2025. 
+# Figura 5. Snapshot del traffico e delle iscrizioni al forum di Zcash da quando Zashi 2.0 è stato rilasciato il 28 aprile 2025. 
 (Fonte : Shawn; moderatore principale dello Zcash Community Forum (2025). Grafico relativo al periodo dal 9 aprile al 9 maggio 2025. )
 
 Comunità, adozione e sviluppo in cui lo Zcash Community Hub ha messo in mostra un crescente entusiasmo dal basso. Sul fronte dell'adozione, l'integrazione presso i merchant rimane limitata ma degna di nota. Sebbene l'utilizzo tra i merchant globali sia basso, stimato a 120, l'integrazione di ZEC nel Brave Wallet e l'esperimento di una prova zk in Google Wallet, rispettivamente ad aprile e maggio 2025, ne hanno aumentato l'esposizione. 

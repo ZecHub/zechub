@@ -1,4 +1,4 @@
-# Distribuzione di zcashd su Akash tramite Console
+# Distribuzione di zcashd su Akash tramite console
 
 > **Deprecato. Non seguire questa guida per distribuire un nodo che intendi usare.**
 >
@@ -22,7 +22,7 @@ Guida per distribuire un full node (nodo completo) zcashd di Zcash (implementazi
 </div>
 
 
-## Cosa Stai Distribuendo
+## Cosa stai distribuendo
 
 Un full node zcashd che:
 
@@ -96,13 +96,13 @@ Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima 
 
 -> Scegli **"Build your template"** (oppure vai direttamente al caricamento dell'SDL)
 
-### Opzione A: Carica il File SDL (Consigliato)
+### Opzione A: carica il file SDL (consigliato)
 
 > **Questo pulsante distribuisce un nodo fermo.** Addebita il costo sul tuo saldo AKT per un nodo che non può sincronizzarsi. Usa invece la [guida di Zebra](/guides/akash-network-zebra).
 
 [![Distribuisci su Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
-### Opzione B: Usa l'Editor SDL
+### Opzione B: usa l'editor SDL
 
 Se vuoi incollare manualmente l'SDL:
 
@@ -126,7 +126,7 @@ La Console ti mostrerà:
 
 Clicca **"Approve"** e firma la transazione in Keplr.
 
-## Passo 4: scegli un Provider
+## Passo 4: scegli un provider
 
 Dopo ~ 30 secondi, vedrai le offerte dei provider. Ogni offerta mostra:
 
@@ -148,7 +148,7 @@ Dopo ~ 30 secondi, vedrai le offerte dei provider. Ogni offerta mostra:
 
 Clicca **"Accept Bid"** sul provider scelto e firma in Keplr.
 
-## Passo 5: attendi la Distribuzione
+## Passo 5: attendi la distribuzione
 
 La Console:
 
@@ -161,7 +161,7 @@ La Console:
 
 Questo richiede 1-2 minuti. Vedrai aggiornamenti di stato nell'interfaccia.
 
-## Passo 6: verifica che Sia in Esecuzione
+## Passo 6: verifica che sia in esecuzione
 
 Una volta distribuito, vedrai:
 
@@ -172,7 +172,7 @@ Una volta distribuito, vedrai:
 -> Scheda **Leases**: dettagli sulla tua distribuzione (DSEQ, provider, costo)
 
 
-### Controlla i Log
+### Controlla i log
 
 Clicca su **Logs** e dovresti vedere zcashd che si avvia:
 
@@ -209,9 +209,9 @@ Questo è il tuo **endpoint P2P pubblico** del nodo. Gli altri nodi Zcash si con
 
 Se hai abilitato RPC (commentato di default nell'SDL), vedrai anche l'endpoint RPC qui con la sua porta mappata.
 
-## Opzioni di Configurazione
+## Opzioni di configurazione
 
-### Passare a Testnet
+### Passare a testnet
 
 L'SDL usa Mainnet come predefinito. Per usare Testnet:
 
@@ -302,7 +302,7 @@ RPC è disabilitato di default per sicurezza. Per abilitarlo:
 
 **Promemoria sulla mappatura delle porte**: anche se esponi RPC globalmente, Akash lo mapperà a una porta alta casuale (non 8232/18232). Controlla gli URI nella tua distribuzione per vedere l'endpoint pubblico effettivo. Con *global: false* (consigliato), l'endpoint RPC è accessibile solo all'interno della rete di distribuzione Akash, non da internet pubblica.
 
-### Abilitare l'Indice delle Transazioni
+### Abilitare l'indice delle transazioni
 
 L'indice delle transazioni ti consente di interrogare qualsiasi transazione tramite il suo ID via RPC. Usa più storage (~ 20% in più).
 
@@ -326,7 +326,7 @@ Decommenta in *env*:
 
 Questo abilita automaticamente txindex e aggiunge metodi RPC extra.
 
-### Abilitare le Metriche Prometheus
+### Abilitare le metriche Prometheus
 
 Per raccogliere metriche per il monitoraggio:
 
@@ -390,7 +390,7 @@ Devi cambiare la configurazione dopo la distribuzione?
 
 ## Monitoraggio
 
-### Tramite Console
+### Tramite console
 
 -> **Scheda Logs**: log del container in tempo reale
 
@@ -429,7 +429,7 @@ Quando hai finito o vuoi smettere di pagare:
 
 Il tuo deposito di 5 AKT verrà rimborsato. Lo **storage persistente** dovrebbe essere conservato dal provider, ma non farci affidamento: trattalo come qualsiasi altro cloud provider.
 
-## Risoluzione dei Problemi
+## Risoluzione dei problemi
 
 ### Errore "Insufficient funds"
 
@@ -482,7 +482,7 @@ Il provider potrebbe avere problemi di rete o banda lenta. Di solito si risolve 
 -> Ricorda che le porte sono mappate da Akash - usa l'URI della tua distribuzione, non direttamente 8232
 
 
-## Gestione dei Costi
+## Gestione dei costi
 
 Monitora la spesa nella Console:
 
@@ -493,7 +493,7 @@ Monitora la spesa nella Console:
 
 Quando il tuo saldo sarà basso, Akash chiuderà automaticamente la tua distribuzione. **Ricarica periodicamente il tuo portafoglio** oppure imposta avvisi.
 
-### Ridurre i Costi
+### Ridurre i costi
 
 -> **Usa Testnet** per test non di produzione (50% più economico)
 

@@ -15,7 +15,7 @@
 
 ## Spiegazione di base
 
-### Introduzione: Zcash Hybrid PoS e il Protocollo Crosslink
+### Introduzione: Zcash Hybrid PoS e il protocollo Crosslink
 
 Il Protocollo Crosslink rappresenta uno sviluppo fondamentale nell'evoluzione di Zcash, orientandolo verso un modello **Hybrid Proof-of-Stake (PoS)** e **Proof-of-Work (PoW)**. Il PoW tradizionale, pur essendo affidabile nel garantire la sicurezza della rete, è criticato per il consumo energetico e per i rischi di centralizzazione associati al mining industriale. Crosslink introduce un sistema ibrido che unisce la robustezza comprovata del PoW con i vantaggi di efficienza e governance del PoS.
 
@@ -75,7 +75,7 @@ Il registro a latenza inferiore estende il registro finalizzato di non più di *
 
 ![image](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
 
-### Disponibilità limitata e Modalità di Sicurezza
+### Disponibilità limitata e modalità di sicurezza
 
 Crosslink incorpora una **Modalità di Sicurezza** per affrontare i rischi associati al fatto che il registro a latenza inferiore avanzi molto più rapidamente del registro finalizzato. Questo previene discrepanze, come stati degli account sbilanciati o lacune di sicurezza non verificate nelle soluzioni temporanee adottate dai fornitori di servizi. La Modalità di Sicurezza si attiva se il registro finalizzato resta indietro di più di una costante di *L* blocchi. Durante questo stato, la blockchain continua le operazioni PoW (garantendo la sicurezza di base), ma le attività economiche vengono sospese finché il problema non viene risolto. Questo meccanismo è progettato per consentire il recupero da condizioni eccezionali come attacchi gravi, supportando al contempo politiche di rollback basate sulla governance.
 

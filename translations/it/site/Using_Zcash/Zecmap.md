@@ -41,7 +41,7 @@ Apri [zecmap.com](https://zecmap.com/) e cerca sulla mappa i commercianti vicino
 
 ZecMap elenca anche attività online. Esplora per categoria per trovare negozi e-commerce, servizi di hosting, provider VPN e altri commercianti digitali che accettano pagamenti in Zcash.
 
-### Pianificare Viaggi Attorno a ZEC
+### Pianificare viaggi attorno a ZEC
 
 Stai viaggiando verso una nuova città o un nuovo paese? ZecMap ti permette di esplorare la copertura dei commercianti prima del tuo arrivo, così puoi pianificare soste in ristoranti, negozi e servizi favorevoli a ZEC.
 
@@ -126,7 +126,7 @@ I miglioramenti pianificati includono:
 
 ---
 
-## Suggerimenti per Usare ZecMap
+## Suggerimenti per usare ZecMap
 
 - **Conferma prima di andare.** Verifica sempre con il commerciante che ZEC sia attualmente accettato.
 - **Controlla il tipo di pagamento.** Alcune attività accettano ZEC trasparente, altre preferiscono ZEC schermato. Chiedi prima di pagare.

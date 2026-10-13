@@ -1,4 +1,4 @@
-# Cosa Sono gli Indirizzi TEX di Zcash?
+# Cosa sono gli indirizzi TEX di Zcash?
 
 Gli indirizzi TEX di Zcash rappresentano un tipo unico di indirizzo di ricezione. Acronimo di indirizzo "Transparent Exchange", si tratta di una codifica **unica**, di tipo Unified (bech32m) di un singolo indirizzo Transparent p2pkh.
 

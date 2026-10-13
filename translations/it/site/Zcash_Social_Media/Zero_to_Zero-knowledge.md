@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zero to Zero Knowledge | Serie educativa 
+# Zero to Zero Knowledge | serie educativa 
 
 
 ## Funzioni di hash 

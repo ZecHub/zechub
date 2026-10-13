@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: configurazione dell'account + tutorial sul Livestream
+# Free2z: configurazione dell'account + tutorial sul livestream
 
 ## Introduzione
 

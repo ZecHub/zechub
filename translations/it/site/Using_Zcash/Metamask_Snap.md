@@ -1,4 +1,4 @@
-# Guida all'integrazione Zcash Snap di Metamask
+# Guida all'integrazione Zcash Snap di MetaMask
 
 Per una guida completa e una spiegazione visiva, guarda questa [**guida YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 

@@ -4,7 +4,7 @@ Scopri strumenti, portafogli, applicazioni, librerie e iniziative dell'ecosistem
 
 ---
 
-## Educazione, Media e Community
+## Educazione, media e community
 
 ### My First Zcash
 Workbook educativo creato dalla community globale di Zcash.  
@@ -262,7 +262,7 @@ Progetto open-source di test delle prestazioni che valuta diversi metodi di sinc
 
 ---
 
-## Applicazioni Più Ampie che Utilizzano Zcash
+## Applicazioni più ampie che utilizzano Zcash
 
 ### aftok
 Modello cooperativo di organizzazione aziendale dal basso costruito su Zcash.  

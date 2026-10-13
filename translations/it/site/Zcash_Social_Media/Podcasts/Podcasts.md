@@ -2,7 +2,7 @@
 
 ## Episodi
 
-### Episodio 334 – Aggiornamento sulla Ricerca ZK con Joe Bonneau
+### Episodio 334 – aggiornamento sulla ricerca ZK con Joe Bonneau
 - **Data:** 31 luglio 2024
 - **Link:** [https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
 - **Riassunto:** Anna e Guille fanno il punto con Joe Bonneau, professore associato alla NYU e Research Partner presso a16z crypto research. Discutono del suo recente lavoro sulle Naysayer proofs, le Zero-Knowledge Middleboxes, le Sealed-Bid Auctions e altri progetti di ricerca legati alla ZK.
@@ -42,7 +42,7 @@
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### Episodio 330 – Framework per la privacy programmabile con Ying Tong e Bryan Gillespie
+### Episodio 330 – framework per la privacy programmabile con Ying Tong e Bryan Gillespie
 - **Data:** 3 luglio 2024
 - **Link:** [https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
 - **Riassunto:** Anna e Guille chiacchierano con Ying Tong Lai di Geometry Research e Bryan Gillespie di Inversed Tech del loro lavoro su ‘SoK: Programmable Privacy in Distributed Systems’, esplorando nuove classificazioni e framework.
@@ -69,9 +69,9 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
 
 - **Cambio di Nome:** Il nome è stato cambiato da ZecDaily a ZL;DR.
 
-## Playlist del Podcast di Zechub
+## Playlist del podcast di ZecHub
 
-### L'Importanza della Privacy, le CBDC e l'Operation Chokepoint 2.0 | Kurt Opsahl – 11
+### L'importanza della privacy, le CBDC e l'Operation Chokepoint 2.0 | Kurt Opsahl – 11
 - **Data:** 29 marzo 2024
 - **Link:** [https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
 - **Riassunto:**
@@ -136,7 +136,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 58:29​ – L'affermazione che Zcash non sia cypherpunk
     - 1:04:17​ – Domande rimanenti e outro
 
-### L'ultima Proposta di Grant di Zcash Brasil con Samara
+### L'ultima proposta di grant di Zcash Brasil con Samara
 - **Data:** 28 dicembre 2022
 - **Link:** [https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
 - **Riassunto:** Samara è una professionista delle PR e membro del team di Zcash Brasil.
@@ -169,7 +169,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:18:50​ – Dove guardare e seguire il nuovo podcast Zcash di DCN
     - 1:21:52​ – Outro
 
-### Le Narrative di Zcash con David di Zcash Media
+### Le narrative di Zcash con David di Zcash Media
 - **Data:** 20 settembre 2022
 - **Link:** [https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
 - **Riassunto:** David è un Zcasher di lunga data e scrittore / produttore presso Zcash Media.
@@ -244,7 +244,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:01:40​ – Come lo ZFAV Club abilita i contributori globali
     - 1:08:00​ – Outro
 
-### Zcash # Riassunti del Podcast Zcash
+### Zcash # riassunti del podcast Zcash
 
 ## Sicurezza di Zcash e Light-walletd con Taylor Hornby
 - **Data:** 18 gennaio 2023
@@ -277,7 +277,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 58:29 – L'affermazione che Zcash non sia cypherpunk
     - 1:04:17 – Domande rimanenti e outro
 
-## L'ultima Proposta di Grant di Zcash Brasil con Samara
+## L'ultima proposta di grant di Zcash Brasil con Samara
 - **Data:** 28 dicembre 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
 - **Riassunto:** Samara è una professionista delle PR e membro del team di Zcash Brasil.
@@ -310,7 +310,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:18:50 – Dove guardare e seguire il nuovo podcast Zcash di DCN
     - 1:21:52 – Outro
 
-## Le Narrative di Zcash con David di Zcash Media
+## Le narrative di Zcash con David di Zcash Media
 - **Data:** 20 settembre 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
 - **Riassunto:** David è un Zcasher di lunga data e scrittore / produttore presso Zcash Media.

@@ -39,7 +39,7 @@ Electric Coin Company riceve l'8% del [fondo di sviluppo Zcash](https://zips.z.c
 
 
 
-## Come presentare una domanda di finanziamento tramite ZCG (GitHub + Forum della comunità)
+## Come presentare una domanda di finanziamento tramite ZCG (GitHub + forum della comunità)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -73,7 +73,7 @@ La issue su GitHub costituisce il **registro ufficiale della domanda**.
 
 ---
 
-### Fase 3: crea un post sul Forum della comunità
+### Fase 3: crea un post sul forum della comunità
 1. Vai allo **Zcash Community Forum**
 2. Crea una nuova discussione nella categoria **Zcash Community Grants**
 3. Usa lo stesso titolo della issue su GitHub

@@ -2,7 +2,7 @@
 
 Il modello di finanziamento on-chain di Zcash, la meccanica dei block reward e i ruoli delle principali organizzazioni
 
-## 1. Come Funzionano le Ricompense di Blocco di Zcash
+## 1. Come funzionano le ricompense di blocco di Zcash
 
 Zcash è una criptovaluta Proof-of-Work. Ogni blocco minato distribuisce il suo **sussidio di blocco** (lo ZEC appena creato) più le commissioni di transazione secondo una regola fissa del protocollo stabilita dagli aggiornamenti di rete.
 
@@ -115,7 +115,7 @@ La governance di Zcash è un mix di "regole del protocollo on-chain" e "consenso
    - I fondi del Lockbox al 12% si stanno accumulando nel protocollo.  
    - ZIP 1016 propone di convertirlo in un Coinholder-Controlled Fund con votazione trimestrale dei possessori di monete e amministrazione multisig da parte delle Key-Holder Organizations (attualmente indicate ZF e Shielded Labs).
 
-## 4. Tabella di Riferimento Rapido - Evoluzione del Finanziamento
+## 4. Tabella di riferimento rapido - evoluzione del finanziamento
 
 | Periodo           | Minatori | ECC/Bootstrap | ZF | ZCG | Lockbox               | Nota                                                       |
 |-------------------|----------|---------------|-----|-----|------------------------|------------------------------------------------------------|

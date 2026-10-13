@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Link della Community di Zcash
+# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Link della community di Zcash
 
 La community di Zcash è un gruppo vivace di persone che lavorano per rendere ZEC una delle criptovalute per la privacy più utilizzate al mondo. La community è composta da individui diversi provenienti da tutto il mondo – sviluppatori, educatori, promotori e costruttori – uniti da una convinzione condivisa nella privacy finanziaria.
 

@@ -29,22 +29,22 @@ Segui questo percorso passo dopo passo per padroneggiare l'utilizzo di Zcash nel
 Scopri come accettare fondi senza esporre la tua identità o la tua storia finanziaria.
 
 
-###  [Invia Denaro Senza Collegare l'Identità](/zcash-use-cases/send-money-without-linking-identity) 
+###  [Invia denaro senza collegare l'identità](/zcash-use-cases/send-money-without-linking-identity) 
 Evita di esporre il tuo portafoglio, identità o grafico delle transazioni quando invii fondi.
 
 
-###  [Configurazione Privacy per Freelancer](/zcash-use-cases/freelance-privacy-setup)  
+###  [Configurazione privacy per freelancer](/zcash-use-cases/freelance-privacy-setup)  
 Fatti pagare in Zcash mantenendo privati i tuoi clienti e il tuo reddito.
 
 
-###  [Accetta Pagamenti come Commerciante](/zcash-use-cases/accept-payments-as-a-merchant)  
+###  [Accetta pagamenti come commerciante](/zcash-use-cases/accept-payments-as-a-merchant)  
 Accetta pagamenti usando un indirizzo schermato ed evita di esporre i dati delle transazioni dei clienti
 
 
 ###  [Gestisci una Tesoreria Comunitaria Privata](/zcash-use-cases/private-community-treasury)
 Usa indirizzi schermati per detenere fondi condivisi e limitare la visibilità dei saldi e delle transazioni
 
-###  [Configurazione Privacy per Giornalisti](/zcash-use-cases/journalist-privacy-setup)   
+###  [Configurazione privacy per giornalisti](/zcash-use-cases/journalist-privacy-setup)   
 Usa indirizzi schermati per tutte le transazioni e proteggi le fonti evitando pagamenti tracciabili. Usa i memo con attenzione per una comunicazione sicura
 
 <br/>

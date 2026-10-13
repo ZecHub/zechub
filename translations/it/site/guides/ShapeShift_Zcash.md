@@ -18,7 +18,7 @@ Questo articolo spiega cos'è ShapeShift, come funziona Zcash, come puoi scambia
 
 [ShapeShift](https://shapeshift.com/) è una piattaforma di criptovalute decentralizzata e open-source che permette agli utenti di scambiare, monitorare e gestire asset digitali su più blockchain senza creare un account, presentare documenti d'identità o cedere la custodia dei propri fondi.
 
-### Una Breve Storia
+### Una breve storia
 
 ShapeShift è stata originariamente fondata nel 2014 da Erik Voorhees come exchange di criptovalute centralizzato con sede in Svizzera. La piattaforma divenne rapidamente popolare per la sua interfaccia semplice che permetteva agli utenti di scambiare una criptovaluta con un'altra senza creare un account.
 
@@ -35,7 +35,7 @@ Nel 2021, ShapeShift ha subito una trasformazione radicale. L'azienda ha sciolto
 
 ---
 
-## Come Funziona Zcash
+## Come funziona Zcash
 
 [Zcash](https://z.cash/) (ZEC) è una criptovaluta costruita su solide fondamenta crittografiche che danno agli utenti la possibilità di effettuare transazioni in modo privato. Lanciata nel 2016, Zcash è un fork di Bitcoin che aggiunge tecnologia avanzata per la privacy mantenendo al contempo l'offerta fissa di Bitcoin di 21 milioni di monete e il consenso proof-of-work.
 
@@ -45,7 +45,7 @@ L'innovazione centrale di Zcash è il suo uso di **prove a conoscenza zero** (ne
 
 In pratica, questo significa che le transazioni Zcash possono essere completamente **schermate**: l'indirizzo del mittente, l'indirizzo del destinatario e l'importo della transazione sono tutti cifrati sulla blockchain. La rete può comunque verificare che la transazione sia valida (nessuna doppia spesa, saldi corretti) senza mai vedere quei dettagli.
 
-### Tipi di Transazione
+### Tipi di transazione
 
 Zcash supporta due tipi di indirizzi:
 
@@ -64,7 +64,7 @@ La privacy finanziaria non riguarda il nascondere atti illeciti. Protegge gli in
 
 ---
 
-## Come Scambiare ZEC su ShapeShift
+## Come scambiare ZEC su ShapeShift
 
 La piattaforma ShapeShift permette agli utenti di acquisire e scambiare ZEC attraverso un processo completamente decentralizzato. Ecco come funziona.
 
@@ -84,7 +84,7 @@ Connetti un portafoglio di autocustodia compatibile. ShapeShift supporta una ser
 
 Dal momento che stai scambiando verso o da ZEC, assicurati di avere pronto un portafoglio compatibile con Zcash (come Zodl) per ricevere i tuoi fondi.
 
-### Passo 3: seleziona la Tua Coppia di Scambio
+### Passo 3: seleziona la tua coppia di scambio
 
 Usa l'interfaccia di scambio per selezionare l'asset da cui vuoi scambiare (per esempio, BTC, ETH o un token ERC-20) e imposta ZEC come asset di destinazione. L'interfaccia di ShapeShift è progettata con un layout pulito, in stile Uniswap, ottimizzato sia per desktop che per mobile.
 
@@ -96,7 +96,7 @@ Inserisci l'importo che desideri scambiare. ShapeShift instraderà lo scambio at
 
 Rivedi i dettagli della transazione e conferma. Lo scambio viene eseguito on-chain attraverso protocolli decentralizzati. I tuoi ZEC saranno consegnati all'indirizzo che hai specificato. Nessun intermediario detiene mai i tuoi fondi.
 
-### Passo 6: scherma i Tuoi ZEC
+### Passo 6: scherma i tuoi ZEC
 
 Una volta arrivati i tuoi ZEC, usa la funzione **shield** del tuo portafoglio Zcash (disponibile in portafogli come Zodl) per spostare i fondi nella pool schermata. Questo garantisce che il tuo saldo e le tue future transazioni rimangano completamente privati.
 

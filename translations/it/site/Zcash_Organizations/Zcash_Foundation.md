@@ -8,7 +8,7 @@
 
 Il nostro obiettivo alla ZF è creare strumenti che aiutino a sostenere le reti aperte, permettendo a chiunque di proteggere la propria privacy alle proprie condizioni. L'essenza stessa della privacy consiste nel poter scegliere cosa condividere o meno con gli altri. La privacy comprende sia l'autonomia sia il consenso; è essenziale per la dignità umana e per la sana continuità della società civile.
 
-## Persone e Team
+## Persone e team
 
 La Zcash Foundation conta circa 12 dipendenti distribuiti in tutto il mondo. Si concentrano sullo sviluppo del protocollo, sulla sicurezza del protocollo, sulla governance del protocollo, sullo sviluppo dell'infrastruttura e sulla gestione degli eventi della community di Zcash. La Zcash Foundation non si limita a lavorare solo su Zcash e quindi si dedica anche allo sviluppo di tecnologie per la tutela della privacy a favore degli [aiuti umanitari](https://zfnd.org/sai/) e del bene pubblico in generale.
 

@@ -27,7 +27,7 @@ Il protocollo CryptoNote fornisce tre caratteristiche principali:
 
 ---
 
-## 1. Non tracciabilità - Ring Signatures
+## 1. Non tracciabilità - ring signatures
 
 La non tracciabilità è raggiunta principalmente usando le **Ring Signatures**.
 

@@ -18,7 +18,7 @@ Sprout ha creato due tipi di indirizzi. Gli indirizzi trasparenti (t-addresses) 
 
 ![Le transazioni trasparenti espongono mittente, destinatario e importo, mentre le transazioni schermate di Sprout nascondono tutti e tre pur restando verificabili](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
-## La Ceremony
+## La ceremony
 
 Gli zk-SNARKs in Sprout avevano bisogno di un insieme di parametri pubblici, e generarli in sicurezza richiedeva una configurazione una tantum chiamata Ceremony. Sei partecipanti in luoghi separati e lontani generarono ciascuno una parte segreta, chiamata toxic waste. Se qualcuno avesse mai ricomposto tutte le parti, avrebbe potuto creare ZEC dal nulla. Il progetto trasformava quel rischio in una regola semplice: finché almeno un partecipante distruggeva la propria parte, il segreto completo non poteva mai essere ricostruito, quindi la contraffazione restava impossibile. I partecipanti i cui nomi sono stati resi pubblici includono Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd e Derek Hinch di NCC Group. Un partecipante ha scelto di restare anonimo.
 

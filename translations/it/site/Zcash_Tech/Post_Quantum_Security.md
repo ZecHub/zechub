@@ -185,7 +185,7 @@ Alcuni componenti potrebbero essere accettabili con parametri adeguati. Altri co
 
 ## Esempi per principianti
 
-### Esempio 1: La vecchia serratura
+### Esempio 1: la vecchia serratura
 
 Immagina una cassaforte con una serratura che oggi è resistente. Un nuovo strumento inventato in futuro potrebbe aprire rapidamente quella vecchia serratura.
 
@@ -193,13 +193,13 @@ La crittografia post-quantum è come sostituire la serratura con un progetto che
 
 Per una blockchain, sostituire la serratura è difficile perché ogni portafoglio, nodo, exchange e dispositivo hardware deve comprendere il nuovo progetto.
 
-### Esempio 2: La scatola delle ricevute pubbliche
+### Esempio 2: la scatola delle ricevute pubbliche
 
 I dati di una blockchain trasparente sono come mettere ogni ricevuta in una scatola pubblica per sempre. Anche se oggi nessuno riesce a leggere ogni schema, gli strumenti futuri potrebbero imparare di più in seguito.
 
 L'uso schermato di Zcash cerca di evitare di pubblicare quelle ricevute sin dall'inizio. Questo aiuta la privacy a lungo termine, ma la serratura che protegge il sistema schermato deve comunque essere rivista in vista di un futuro quantistico.
 
-### Esempio 3: Il piano di uscita
+### Esempio 3: il piano di uscita
 
 La recuperabilità è come pianificare una via di uscita prima che ci sia un incendio. Si spera di non averne bisogno, ma progettarla presto è molto più sicuro che farlo durante un'emergenza.
 

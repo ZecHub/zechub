@@ -4,7 +4,7 @@
 
 # Usare ZEC, in privato
 
-#### Schermato (privato) vs. Trasparente
+#### Schermato (privato) vs. trasparente
 
 Allo stato attuale, in Zcash esistono due tipi di indirizzi e di transazioni: schermato e trasparente. La differenza tra ZEC schermato e ZEC trasparente è molto semplice. ZEC schermato mantiene privati il tuo denaro e le tue transazioni, mentre ZEC trasparente funziona come Bitcoin, completamente trasparente. Questo significa che chiunque può vedere il tuo saldo e tutte le tue transazioni se conosce il tuo indirizzo.
 

@@ -33,7 +33,7 @@ Halo offre agli utenti due importanti garanzie riguardo alla sicurezza del siste
 
 
 
-### Prove Ricorsive
+### Prove ricorsive
 
 La composizione ricorsiva delle prove consente a una singola prova di attestare la correttezza di un numero praticamente illimitato di altre prove, permettendo di comprimere una grande quantità di calcoli (e informazioni). Questo è un componente essenziale per la scalabilità, non da ultimo perché consente di scalare orizzontalmente la rete consentendo al contempo a sottoinsiemi di partecipanti di fidarsi dell'integrità del resto della rete.
 

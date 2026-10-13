@@ -241,7 +241,7 @@ No. Il commitment (nascita della nota) e il nullifier (morte della nota) non pos
 
 ---
 
-### Risposta al test di intuizione (Sezione 9)
+### Risposta al test di intuizione (sezione 9)
 
 Se il nullifier fosse calcolato *solo* a partire dalla nota, senza alcuna chiave segreta, allora **chiunque** potrebbe calcolarlo, violando la proprietà #1 (solo il proprietario può spendere). Peggio ancora, il nullifier sarebbe ora derivabile direttamente da informazioni pubbliche sulla nota, il che potrebbe permettere agli osservatori di **collegare il nullifier al suo commitment**, violando la proprietà #3 e disfacendo silenziosamente la privacy dell'intero sistema. La chiave segreta è ciò che rende il gettone di annullamento al tempo stesso *esclusivamente tuo* e *non collegabile.*
 

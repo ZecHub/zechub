@@ -83,7 +83,7 @@ Garantisce la sicurezza del codice di produzione e previene le perdite finanziar
 
 Previene i tempi di inattività o la perdita di guadagni quando si passa a Mainnet.
 
-### 4. Ricerca accademica / Protocollo
+### 4. Ricerca accademica / protocollo
 
 I ricercatori possono testare innovazioni come la **verifica senza stato**, l'ottimizzazione delle prove a zero conoscenza** o altri esperimenti sui protocolli utilizzando Testnet.  
 Gli utenti avanzati possono anche eseguire **testnet personalizzate o ambienti regtest** per esperimenti specializzati.

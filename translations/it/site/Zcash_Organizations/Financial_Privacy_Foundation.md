@@ -15,7 +15,7 @@ La Financial Privacy Foundation (FPF) è un'organizzazione non profit costituita
 
 ## [FPF x ZecHub Bounty Program - Articolo del Blog](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
 
-## Dettagli del Programma FPF X FPF 
+## Dettagli del programma FPF X FPF 
 
 Dettagli del Programma FPF X FPF FPF prevede diversi dettagli nel suo programma, che sono:
 
@@ -30,7 +30,7 @@ Dettagli del Programma FPF X FPF FPF prevede diversi dettagli nel suo programma,
 
 Il processo di candidatura per i finanziamenti FPF X FPF comprende diverse fasi. Innanzitutto, i candidati devono presentare domanda di finanziamento tramite il modulo sicuro fornito. Successivamente, FPF esaminerà la domanda per verificarne l'ammissibilità e i candidati saranno informati del loro stato entro 5 giorni di calendario dalla scadenza per la presentazione delle domande. Quindi, un comitato di revisione ad hoc esaminerà e deciderà in merito all'assegnazione del finanziamento entro 20 giorni di calendario dalla scadenza per la presentazione. I dettagli dei finanziamenti assegnati saranno pubblicati sul sito web di FPF a fini di trasparenza e responsabilità.
 
-## Maggiori Informazioni su FPF X FPF 
+## Maggiori informazioni su FPF X FPF 
 
 Maggiori informazioni su FPF X FPF sono disponibili sul sito web del Financial Privacy Fun (FPF) [qui](https://www.financialprivacyfoundation.org/grants) e, se sei ancora curioso riguardo al programma FPF X FPF, puoi consultare il documento delle FAQ qui: [FAQ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 

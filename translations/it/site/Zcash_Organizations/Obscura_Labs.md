@@ -116,7 +116,7 @@ Obscura Labs opera in modo indipendente mentre lavora verso obiettivi condivisi 
 
 Sebbene Obscura Labs sia in una fase iniziale di sviluppo, diverse iniziative sono già iniziate.
 
-### Infrastruttura DNS Seeder africana
+### Infrastruttura DNS seeder africana
 
 Obscura Labs gestisce infrastruttura DNS seeder dall'Africa.
 
