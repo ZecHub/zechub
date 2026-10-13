@@ -15,7 +15,7 @@ Oggi le impariamo a conoscere e trattiamo una delle nuove funzionalità dell'eco
 
 **Transazione schermata** si riferisce a qualsiasi transazione con indirizzi codificati per le pool Sapling/Orchard.
 
-![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![Introduzione: trasparente vs schermato](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 Gli **Unified Address (UA)** sono progettati per **unificare** le transazioni schermate o trasparenti in un unico indirizzo.
 
@@ -59,14 +59,14 @@ Specifica completa: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)
 ## Vantaggi degli Unified Address
 
 - **Più semplice per gli exchange** - Ora possono supportare in modo più sicuro depositi/prelievi schermati.  
-- **A prova di futuro** - È possibile aggiungere nuove pool schermate senza rompere i wallet.  
+- **A prova di futuro** - È possibile aggiungere nuove pool schermate senza interrompere i portafogli.  
 - **Shielded-by-Default** - Ogni UA contiene almeno un indirizzo schermato, quindi la privacy è sempre disponibile.
 
 Si tratta di un cambiamento fondamentale che sta già aiutando più ZEC a spostarsi nella pool schermata.
 
 ---
 
-## Transazioni e Action di Orchard
+## Transazioni e action di Orchard
 
 Orchard ha introdotto un nuovo concetto chiamato **Action**:
 
@@ -93,7 +93,7 @@ Daira spiega le posizioni degli anchor (zcon3):
 
 In alcuni casi (ad esempio le transazioni tra pool diverse) gli importi possono essere visibili a un osservatore esterno. Tuttavia, `valueBalanceSapling` e `valueBalanceOrchard` usano **commitment omomorfici** per provare il totale di ZEC nelle pool schermate e impedire la contraffazione.
 
-Approfondisci: [ZIP 209: Vietare i saldi dei pool di valore della catena al di fuori dell'intervallo](https://zips.z.cash/zip-0209)
+Approfondisci: [ZIP 209: Vietare i saldi delle pool di valore della chain fuori intervallo](https://zips.z.cash/zip-0209)
 
 ---
 
@@ -105,7 +105,7 @@ Il team ECC sta lavorando a nuovi metodi RPC in `zcashd` (che sostituiranno `z_s
 
 ## Raccomandazione
 
-Questa discussione rimandava originariamente a **YWallet**, per il piano di transazione che mostrava prima di premere invio. YWallet non è più mantenuto e non verrà aggiornato per Ironwood, quindi non può più seguire la blockchain. Scegli invece un wallet mantenuto dalla pagina [Wallet](https://zechub.wiki/wallets) e preferiscine uno che ti dica cosa rivelerà una transazione prima di essere inviata.
+Questa discussione rimandava originariamente a **YWallet**, per il piano di transazione che mostrava prima di premere invio. YWallet non è più mantenuto e non verrà aggiornato per Ironwood, quindi non può più seguire la chain. Scegli invece un portafoglio mantenuto dalla pagina [Portafogli](https://zechub.wiki/wallets) e preferiscine uno che ti dica cosa rivelerà una transazione prima di essere inviata.
 
 Ottimo articolo sulla privacy delle transazioni: https://medium.com/@hanh.huynh/
 

@@ -8,7 +8,7 @@ Questo breve tutorial è stato creato durante il [DWeb Camp 2023](https://dwebca
 
 Usiamo due software open source, [OBS Studio (Open Broadcaster software)](https://obsproject.com/) e [VDO.Ninja](https://vdo.ninja/). Questi software possono essere scaricati ed eseguiti localmente sul tuo computer.
 
-## OBS Studio (Open Boardcaster software)
+## OBS Studio (Open Boardcaster Software)
 
 OBS Studio è un software gratuito e open source per la registrazione e lo streaming dal vivo, disponibile per più sistemi operativi. Il software è stato rilasciato per la prima volta nel 2012 e gode di un seguito piuttosto ampio nella community degli streamer di videogiochi e dei creator di contenuti video indipendenti.
 

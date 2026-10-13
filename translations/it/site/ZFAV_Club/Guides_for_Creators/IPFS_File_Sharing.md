@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Condivisione File P2P con IPFS e Brave Browser
+# Condivisione file P2P con IPFS e Brave Browser
 
 Possiamo usare IPFS per condividere tra di noi file multimediali di grandi dimensioni in modalità Peer-to-Peer.
 

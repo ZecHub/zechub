@@ -8,7 +8,7 @@
 
 - Su Bitcoin, un block explorer mostra tutto: mittente, destinatario e importo.
 - Su Zcash, questo è vero solo per l'attività trasparente (t-address).
-- Un explorer può vedere il denaro entrare e uscire dal pool schermato, ma non ciò che accade al suo interno.
+- Un explorer può vedere il denaro entrare e uscire dalla pool schermata, ma non ciò che accade al suo interno.
 - Le transazioni completamente schermate (da z a z) non rivelano né il mittente, né il destinatario, né l'importo.
 - Qualsiasi dato pubblico sullo "shield rate" rappresenta un valore minimo, perché l'attività totalmente privata è invisibile dall'esterno.
 
@@ -29,11 +29,11 @@ Poiché esistono due tipi, il valore può muoversi in quattro modi: da trasparen
 Un explorer pubblico come [Blockchair](https://blockchair.com/zcash) può leggere chiaramente:
 
 - Qualsiasi pagamento completamente trasparente (da t a t), da un capo all'altro.
-- Il denaro che entra nel pool schermato (il lato trasparente e l'importo).
-- Il denaro che esce dal pool schermato (il lato trasparente e l'importo).
-- Il totale di ZEC detenuto in ciascun pool schermato, che è pubblico affinché la rete possa dimostrare che non sono state create monete dal nulla.
+- Il denaro che entra nella pool schermata (il lato trasparente e l'importo).
+- Il denaro che esce dalla pool schermata (il lato trasparente e l'importo).
+- Il totale di ZEC detenuto in ciascuna pool schermata, che è pubblico affinché la rete possa dimostrare che non sono state create monete dal nulla.
 
-In breve, i bordi del pool schermato sono visibili. Puoi osservare il valore entrare e uscire.
+In breve, i bordi della pool schermata sono visibili. Puoi osservare il valore entrare e uscire.
 
 ## Cosa non può vedere un explorer
 
@@ -42,9 +42,9 @@ Un explorer pubblico non può leggere:
 - Le transazioni completamente schermate (da z a z). Mittente, destinatario e importo restano nascosti.
 - Il mittente o il destinatario dietro qualsiasi pagamento schermato.
 - Il saldo di un singolo indirizzo schermato.
-- Cosa accade ai fondi una volta che si trovano all'interno del pool.
+- Cosa accade ai fondi una volta che si trovano all'interno della pool.
 
-Se interroghi i dati grezzi, i campi del mittente e del destinatario schermati risultano vuoti. L'explorer non sta nascondendo queste informazioni per scelta. Non sono mai state presenti sulla blockchain pubblica in forma leggibile. Le informazioni sono crittografate e solo chi possiede la viewing key corretta può leggerle.
+Se interroghi i dati grezzi, i campi schermati del mittente e del destinatario risultano vuoti. L'explorer non sta nascondendo queste informazioni per scelta. Non sono mai state presenti sulla chain pubblica in forma leggibile. Le informazioni sono crittografate e solo chi possiede le giuste chiavi di visualizzazione può leggerle.
 
 ## Perché è importante
 
@@ -52,11 +52,11 @@ Se interroghi i dati grezzi, i campi del mittente e del destinatario schermati r
 
 **I numeri pubblici sullo shield rate sottostimano la privacy.** I ricercatori possono misurare solo ciò che attraversa il confine pubblico, quindi la reale quantità di attività privata è almeno quella che riportano, e di solito è maggiore.
 
-**Un pool schermato più grande protegge tutti.** Più persone usano indirizzi schermati, più grande è il gruppo all'interno del quale può nascondersi ogni singolo pagamento privato. Usare un indirizzo schermato aiuta a proteggere te e chiunque altro nel pool.
+**Una pool schermata più grande protegge tutti.** Più persone usano indirizzi schermati, più grande è il gruppo in cui può nascondersi ogni singolo pagamento privato. Usare un indirizzo schermato aiuta a proteggere te e chiunque altro nella pool.
 
 ## Mettilo in pratica
 
-- Usa un wallet che utilizzi per default indirizzi schermati, come [ZODL](https://zodl.com) o [Zingo!](https://www.zingolabs.org/).
+- Usa un portafoglio che utilizza per default indirizzi schermati, come [ZODL](https://zodl.com) o [Zingo!](https://www.zingolabs.org/).
 - Quando ricevi ZEC su un indirizzo trasparente, spostali su un indirizzo schermato prima di spenderli.
 - Paga verso indirizzi schermati quando puoi. Ogni pagamento trasparente è completamente pubblico; uno schermato no.
 
@@ -70,8 +70,8 @@ Se interroghi i dati grezzi, i campi del mittente e del destinatario schermati r
 ## Pagine correlate
 
 - [Nozioni di base su Zcash](/start-here/what-is-zec-and-zcash)
-- [Wallet](/using-zcash/wallets)
-- [Pool schermati](/using-zcash/shielded-pools)
+- [Portafogli](/using-zcash/wallets)
+- [Pool schermate](/using-zcash/shielded-pools)
 - [zk-SNARKs](/zcash-tech/zk-snarks)
 
 ---

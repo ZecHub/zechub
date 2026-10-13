@@ -1,8 +1,8 @@
-# Riassunti degli Episodi del ZK Podcast
+# Riassunti degli episodi dello ZK Podcast
 
 ## Episodi
 
-### Episodio 334 – Aggiornamento sulla Ricerca ZK con Joe Bonneau
+### Episodio 334 – aggiornamento sulla ricerca ZK con Joe Bonneau
 - **Data:** 31 luglio 2024
 - **Link:** [https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
 - **Riassunto:** Anna e Guille fanno il punto con Joe Bonneau, professore associato alla NYU e Research Partner presso a16z crypto research. Discutono del suo recente lavoro sulle Naysayer proofs, le Zero-Knowledge Middleboxes, le Sealed-Bid Auctions e altri progetti di ricerca legati alla ZK.
@@ -22,7 +22,7 @@
 - **Conduttore:**
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
 
-### Episodio 332 – Aggiornamento da Bruxelles con Hart di Across
+### Episodio 332 – aggiornamento da Bruxelles con Hart di Across
 - **Data:** 18 luglio 2024
 - **Link:** [https://zeroknowledge.fm/332-2](https://zeroknowledge.fm/332-2)
 - **Riassunto:** Anna e Tarun si siedono con Hart Lambur durante la settimana di EthCC a Bruxelles per discutere del suo progetto Across, una soluzione di interoperabilità cross-chain e progetto gemello di Uma. Esplorano la costruzione di Across, i compromessi e la confrontano con altre soluzioni di interoperabilità.
@@ -42,7 +42,7 @@
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### Episodio 330 – Framework per la Privacy Programmabile con Ying Tong e Bryan Gillespie
+### Episodio 330 – framework per la privacy programmabile con Ying Tong e Bryan Gillespie
 - **Data:** 3 luglio 2024
 - **Link:** [https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
 - **Riassunto:** Anna e Guille chiacchierano con Ying Tong Lai di Geometry Research e Bryan Gillespie di Inversed Tech del loro lavoro su ‘SoK: Programmable Privacy in Distributed Systems’, esplorando nuove classificazioni e framework.
@@ -53,7 +53,7 @@
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
 
-### Episodio 329 – Costruire Prove Crittografiche con Funzioni Hash con Alessandro Chiesa & Eylon Yogev
+### Episodio 329 – costruire prove crittografiche con funzioni hash con Alessandro Chiesa & Eylon Yogev
 - **Data:** 26 giugno 2024
 - **Link:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
 - **Riassunto:** Anna e Nico chiacchierano con Alessandro Chiesa, Associate Professor all'EPFL, e Eylon Yogev, Professor alla Bar-Ilan University, della loro pubblicazione sulla costruzione di prove crittografiche a partire da funzioni hash.
@@ -69,9 +69,9 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
 
 - **Cambio di Nome:** Il nome è stato cambiato da ZecDaily a ZL;DR.
 
-## Playlist del Podcast di Zechub
+## Playlist del podcast di ZecHub
 
-### L'Importanza della Privacy, le CBDC e l'Operation Chokepoint 2.0 | Kurt Opsahl – 11
+### L'importanza della privacy, le CBDC e l'Operation Chokepoint 2.0 | Kurt Opsahl – 11
 - **Data:** 29 marzo 2024
 - **Link:** [https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
 - **Riassunto:**
@@ -89,7 +89,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 44:00 – Il Manifesto Cypherpunk & Filecoin
     - 48:20 – Outro
 
-### Privacy per il Bene Pubblico con Amber Baldet
+### Privacy per il bene pubblico con Amber Baldet
 - **Data:** 7 febbraio 2023
 - **Link:** [https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB](https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB)
 - **Riassunto:**
@@ -136,7 +136,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 58:29​ – L'affermazione che Zcash non sia cypherpunk
     - 1:04:17​ – Domande rimanenti e outro
 
-### L'ultima Proposta di Grant di Zcash Brasil con Samara
+### L'ultima proposta di grant di Zcash Brasil con Samara
 - **Data:** 28 dicembre 2022
 - **Link:** [https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
 - **Riassunto:** Samara è una professionista delle PR e membro del team di Zcash Brasil.
@@ -169,7 +169,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:18:50​ – Dove guardare e seguire il nuovo podcast Zcash di DCN
     - 1:21:52​ – Outro
 
-### Le Narrative di Zcash con David di Zcash Media
+### Le narrative di Zcash con David di Zcash Media
 - **Data:** 20 settembre 2022
 - **Link:** [https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
 - **Riassunto:** David è un Zcasher di lunga data e scrittore / produttore presso Zcash Media.
@@ -190,7 +190,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:51:06​ – Opting out e Zcash come bene comune
     - 1:57:20​ – Il futuro di Zcash
 
-### DeFi e Privacy Con Railgun
+### DeFi e privacy con Railgun
 - **Data:** 29 agosto 2022
 - **Link:** [https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
 - **Riassunto:** Railgun è un sistema di smart contract che abilita invii, scambi & DeFi privati, su ETH, BSC & Polygon.
@@ -208,7 +208,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:04:00​ – La Comunità di Railgun
     - 1:07:04​ – La privacy cripto tra 5 anni
 
-### NFT Musicali, Privacy e Libertà Economica con Xcelencia
+### NFT musicali, privacy e libertà economica con Xcelencia
 - **Data:** 22 agosto 2022
 - **Link:** [https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
 - **Riassunto:** Xcelencia è un'artista reggaeton nell'ecosistema musicale Web3.
@@ -244,7 +244,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:01:40​ – Come lo ZFAV Club abilita i contributori globali
     - 1:08:00​ – Outro
 
-### Zcash # Riassunti del Podcast Zcash
+### Zcash # riassunti del podcast Zcash
 
 ## Sicurezza di Zcash e Light-walletd con Taylor Hornby
 - **Data:** 18 gennaio 2023
@@ -277,7 +277,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 58:29 – L'affermazione che Zcash non sia cypherpunk
     - 1:04:17 – Domande rimanenti e outro
 
-## L'ultima Proposta di Grant di Zcash Brasil con Samara
+## L'ultima proposta di grant di Zcash Brasil con Samara
 - **Data:** 28 dicembre 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
 - **Riassunto:** Samara è una professionista delle PR e membro del team di Zcash Brasil.
@@ -310,7 +310,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:18:50 – Dove guardare e seguire il nuovo podcast Zcash di DCN
     - 1:21:52 – Outro
 
-## Le Narrative di Zcash con David di Zcash Media
+## Le narrative di Zcash con David di Zcash Media
 - **Data:** 20 settembre 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
 - **Riassunto:** David è un Zcasher di lunga data e scrittore / produttore presso Zcash Media.
@@ -331,7 +331,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:51:06 – Opting out e Zcash come bene comune
     - 1:57:20 – Il futuro di Zcash
 
-## DeFi e Privacy Con Railgun
+## DeFi e privacy con Railgun
 - **Data:** 29 agosto 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
 - **Riassunto:** Railgun è un sistema di smart contract che abilita invii, scambi & DeFi privati, su ETH, BSC & Polygon.
@@ -349,7 +349,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 1:04:00 – La Comunità di Railgun
     - 1:07:04 – La privacy cripto tra 5 anni
 
-## NFT Musicali, Privacy e Libertà Economica con xcelencia
+## NFT musicali, privacy e libertà economica con Xcelencia
 - **Data:** 22 agosto 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
 - **Riassunto:** Xcelencia è un'artista reggaeton nell'ecosistema musicale Web3.
@@ -370,7 +370,7 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 46:40 – Presentare Zcash ad altre comunità
     - 50:27 – Consigli per i nuovi utenti
 
-## Regolamentazione delle Cripto e Privacy Finanziaria Con J. W. Verret
+## Regolamentazione delle cripto e privacy finanziaria con J. W. Verret
 - **Data:** 10 agosto 2022
 - **Link:** [Guarda su YouTube](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
 - **Riassunto:** J.W. Verret è un professore alla George Mason University. È un esperto di diritto societario, dei titoli e bancario. È anche un consulente legale e di contabilità forense, e il fondatore del Crypto Freedom Lab.

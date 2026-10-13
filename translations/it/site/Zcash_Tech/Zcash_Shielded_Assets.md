@@ -9,7 +9,7 @@
 
 ## TL;DR
 
-Gli Zcash Shielded Assets (ZSA) sono un’estensione proposta del protocollo che permetterebbe ad asset **diversi da ZEC** — stablecoin, governance token o qualsiasi asset personalizzato — di esistere all’interno dello shielded pool di Zcash, mantenendo privati il mittente, il destinatario e l’importo.
+Gli Zcash Shielded Assets (ZSA) sono un’estensione proposta del protocollo che permetterebbe ad asset **diversi da ZEC** — stablecoin, token di governance o qualsiasi asset personalizzato — di esistere all’interno della pool schermata di Zcash, mantenendo privati il mittente, il destinatario e l’importo.
 
 - **Che cos’è:** asset personalizzati in stile ERC-20, ma schermati per impostazione predefinita.
 - **Chi lo sta costruendo:** [QEDIT](https://qed-it.com/), nell’ambito di una grant della Zcash Foundation, in collaborazione con la Electric Coin Company.
@@ -35,7 +35,7 @@ Gli ZSA sono sviluppati da [QEDIT](https://qed-it.com/), grazie a una importante
 
 ---
 
-## Visualizzazione / Analogia
+## Visualizzazione / analogia
 
 ### La busta sigillata
 
@@ -109,7 +109,7 @@ Queste proposte sono tecnicamente aderenti alla specifica [Zcash Improvement Pro
 
 **Se possiedi o usi ZEC**
 
-- Gli ZSA sono definiti come un’estensione di Orchard ("OrchardZSA"), quindi condividerebbero il meccanismo schermato che ZEC usa già. Il tuo wallet avrà bisogno di un supporto esplicito per ZSA prima di poterli detenere o inviare.
+- Gli ZSA sono definiti come un’estensione di Orchard ("OrchardZSA"), quindi condividerebbero il meccanismo schermato che ZEC usa già. Il tuo portafoglio avrà bisogno di un supporto esplicito per ZSA prima di poterli detenere o inviare.
 - Avrai sempre bisogno di avere a disposizione un po’ di ZEC. Le commissioni per emettere e trasferire uno ZSA vengono pagate in ZEC, non nell’asset stesso.
 - Nulla cambia per le tue transazioni ZEC esistenti.
 
@@ -141,6 +141,6 @@ Queste proposte sono tecnicamente aderenti alla specifica [Zcash Improvement Pro
 
 - [Halo](/zcash-tech/halo) — il sistema di proving alla base di Orchard, il protocollo che ZSA estende
 - [Zk-SNARKs](/zcash-tech/zk-snarks) — le prove a conoscenza zero che permettono di verificare un trasferimento schermato senza rivelarlo
-- [Shielded Pools](/using-zcash/shielded-pools) — dove gli ZSA esisterebbero insieme a ZEC
+- [Pool schermate](/using-zcash/shielded-pools) — dove gli ZSA esisterebbero insieme a ZEC
 - [Transactions](/using-zcash/transactions) — come è costruita una transazione Zcash
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — l’implementazione di nodo usata nella demo ZSA qui sopra

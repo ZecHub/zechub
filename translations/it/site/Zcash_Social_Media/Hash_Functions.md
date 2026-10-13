@@ -1,4 +1,4 @@
-# Zero to Zero Knowledge: Hash Functions
+# Zero to Zero Knowledge: hash functions
 
 **Introduzione alla serie**  
 Benvenuti in una nuova serie: **Zero to Zero Knowledge**!  
@@ -7,11 +7,11 @@ In questa serie impareremo i fondamenti di un'ampia gamma di tecnologie che entr
 
 ---
 
-## Parte 1: Hash Functions
+## Parte 1: hash functions
 
 Oggi iniziamo con le **Hash Functions** - un elemento chiave della crittografia usato nelle blockchain. Più avanti in questa serie tratteremo alcuni argomenti che si basano sulle loro proprietà.
 
-### Cos'è una Hash Function?
+### Cos'è una hash function?
 
 Le Hash Functions prendono un input di qualsiasi lunghezza e producono un output di lunghezza fissa.
 
@@ -31,7 +31,7 @@ Inserisci un testo arbitrario qualsiasi per produrre un output di lunghezza fiss
 
 ---
 
-### Proprietà delle Cryptographic Hash Functions
+### Proprietà delle cryptographic hash functions
 
 Le Cryptographic Hash Functions devono avere queste **3 proprietà**:
 
@@ -41,7 +41,7 @@ Le Cryptographic Hash Functions devono avere queste **3 proprietà**:
 
 ---
 
-### Hash Functions comuni
+### Hash functions comuni
 
 Esistono diverse classi di Hash Functions. Alcuni esempi:
 
@@ -53,14 +53,14 @@ Esistono diverse classi di Hash Functions. Alcuni esempi:
 
 ---
 
-### Usi reali delle Hash Functions
+### Usi reali delle hash functions
 
-#### 1. Integrity Hashing (controlli di integrità dei dati)
+#### 1. Integrity hashing (controlli di integrità dei dati)
 I controlli di integrità dei dati sono un esempio di "Integrity Hashing". Vengono usati per generare checksum sui file di dati e fornire all'utente la garanzia di correttezza.
 
 ![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
-#### 2. Merkle Trees (Hash Trees)
+#### 2. Merkle trees (hash trees)
 Un **hash tree** o **Merkle tree** è composto da rami e nodi foglia etichettati con l'hash crittografico di un blocco di dati.
 
 ![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
@@ -69,10 +69,10 @@ I Merkle tree sono un esempio di **commitment scheme crittografico**. La radice 
 
 Verificano i dati memorizzati o trasferiti sulle reti P2P, garantendo che i dati ricevuti dai peer siano inalterati.
 
-#### 3. Note Commitment Tree in Zcash
-Nei pool schermati **Sapling** e **Orchard** di Zcash, il **Note Commitment Tree** viene usato per verificare che le transazioni siano valide rispetto al consenso, nascondendo perfettamente mittente, destinatario e importi consumati.
+#### 3. Note commitment tree in Zcash
+Nelle pool schermate **Sapling** e **Orchard** di Zcash, il **Note Commitment Tree** viene usato per verificare che le transazioni siano valide rispetto al consenso, nascondendo perfettamente mittente, destinatario e importi consumati.
 
-#### 4. Signature Hash (blocchi in stile Bitcoin)
+#### 4. Signature hash (blocchi in stile Bitcoin)
 **SHA256** è un esempio di "Signature hash" usato per imporre l'immutabilità di ogni blocco nella chain di Bitcoin. I miner usano l'hash del blocco precedente + un hash di tutte le transazioni nel blocco corrente (hashMerkleRoot) + il timestamp + un valore casuale / la difficoltà di rete per i nuovi blocchi.
 
 ![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)

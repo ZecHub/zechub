@@ -19,7 +19,7 @@
 
 ### Panoramica
 
-**Zcash.me** è una directory di profili e una piattaforma di scoperta che rende facile per chiunque trovare e inviare ZEC agli utenti Zcash. È il "Linktree per Zcash": un modo semplice per condividere il tuo indirizzo Shielded e la tua presenza sociale con un unico link.
+**Zcash.me** è una directory di profili e una piattaforma di scoperta che rende facile per chiunque trovare e inviare ZEC agli utenti Zcash. È il "Linktree per Zcash": un modo semplice per condividere il tuo indirizzo schermato e la tua presenza sui social con un unico link.
 
 | Voce | Dettagli |
 |-------------------|---------|
@@ -32,7 +32,7 @@
 
 #### Attualmente disponibile
 - **Pagine profilo personalizzate** - Pagina personalizzata con nome utente, biografia, avatar e posizione
-- **Visualizzazione dell'indirizzo Shielded** - Pulsante di copia con un solo clic per il tuo indirizzo Unified
+- **Visualizzazione dell'indirizzo schermato** - Pulsante di copia con un solo clic per il tuo indirizzo unificato
 - **Integrazione dei link sociali** - X, LinkedIn, Telegram e siti web personalizzati
 - **Sistema di verifica** - Badge di verifica per il Trust della comunità
 - **Classifica dei referenti** - Tiene traccia dei referenti e dei leader della comunità
@@ -82,7 +82,7 @@
 - Nessun intermediario
 
 #### Design orientato alla privacy
-- Ogni mancia arriva sotto forma di ZEC Shielded
+- Ogni mancia arriva sotto forma di ZEC schermati
 - Saldo del portafoglio privato
 - Messaggi criptati con le mance
 - Opzione di anonimato completo del creatore
@@ -91,7 +91,7 @@
 | Valuta | Rete |
 |----------|---------|
 | ETH | Ethereum |
-| USDC | Catene multiple |
+| USDC | Chain multiple |
 | SOL | Solana |
 | ZEC | Zcash diretto |
 

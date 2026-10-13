@@ -81,7 +81,7 @@ Un contributo sottoposto a merge non approva di per sé una ricompensa. Una rico
 
 #### Lavoro di sviluppo
 
-Qualsiasi lavoro di sviluppo approvato che contribuisca a costruire l'ecosistema Zcash. Può includere la nostra wiki, nuovi wallet o qualsiasi applicazione ti venga in mente.
+Qualsiasi lavoro di sviluppo approvato che contribuisca a costruire l'ecosistema Zcash. Può includere la nostra wiki, nuovi portafogli o qualsiasi applicazione ti venga in mente.
 
 #### Tutorial su Zcash (video)
 

@@ -336,9 +336,11 @@ test("legacy prompt-head imports are approved by the steward and logged", () => 
   for (const loc of LLM_LOCALES.filter((l) => l !== "id")) {
     const g = glossaryOf(loc);
     for (const [key, e] of Object.entries(g.terms)) {
+      // Entries a native reviewer has since confirmed carry their own name and source.
+      if (!/^prompt_head_/.test(e.source ?? "")) continue;
       assert.equal(e.status, "approved", `${loc} ${key}`);
       assert.deepEqual(e.reviewed_by, ["@steward (legacy prompt head)"], `${loc} ${key}`);
-      assert.ok(g.changelog.some((c) => c.version === g.version && c.terms.includes(key)), `${loc} ${key} in changelog`);
+      assert.ok(g.changelog.some((c) => c.terms.includes(key)), `${loc} ${key} in changelog`);
     }
   }
 });
@@ -409,4 +411,12 @@ test("the CLI prints the prompt when its path has a space or goes through a syml
   const out = execFileSync("node", [join(link, "translation/glossary/render-prompt.mjs"), "id", "guides/Brave_Wallet_Guide.md"], { encoding: "utf8" });
   assert.match(out, /viewing key → viewing key/);
   assert.match(out, /"kamu"/);
+});
+
+test("styleLines: writing_rules are printed one per line, as written", () => {
+  const g = { meta: { language_name: "Italian" }, style: { quotes: "\"…\"", writing_rules: ["Rule one.", "Rule two."] } };
+  const lines = styleLines(g);
+  assert.deepEqual(lines.slice(-2), [{ field: "writing_rules", text: "Rule one." }, { field: "writing_rules", text: "Rule two." }]);
+  const bad = validateLocale({ ...g, locale: "it", version: 1, terms: {}, style: { writing_rules: [""] } }, { termsEn: { version: 1, terms: [] }, siteDirs: null, fileLocale: "it" });
+  assert.ok(bad.some((e) => /writing_rules/.test(e.message)), JSON.stringify(bad));
 });

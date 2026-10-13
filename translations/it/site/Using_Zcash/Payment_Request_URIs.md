@@ -4,7 +4,7 @@
 
 # Zcash URI di richiesta di pagamento
 
-Un URI di richiesta di pagamento è un link `zcash:` definito da [ZIP 321](https://zips.z.cash/zip-0321). I wallet compatibili leggono l'indirizzo, l'importo e il memo facoltativo dal link o dal QR e precompilano una transazione. Nessun account aggiuntivo, nessun intermediario.
+Un URI di richiesta di pagamento è un link `zcash:` definito da [ZIP 321](https://zips.z.cash/zip-0321). I portafogli compatibili leggono l'indirizzo, l'importo e il memo facoltativo dal link o dal QR e precompilano una transazione. Nessun account aggiuntivo, nessun intermediario.
 
 <div className="my-6 flex flex-wrap items-center gap-3">
   <a
@@ -21,7 +21,7 @@ Un URI di richiesta di pagamento è un link `zcash:` definito da [ZIP 321](https
   </a>
 </div>
 
-La demo del widget è una modale ZIP-321 in tempo reale: QR, copia indirizzo/URI, link breve e Apri nel wallet. La pagina degli strumenti è il generatore se vuoi prima impostare il tuo indirizzo e importo.
+La demo del widget è una modale ZIP-321 live: QR, copia indirizzo/URI, link breve e Apri nel portafoglio. La pagina degli strumenti è il generatore se vuoi prima impostare il tuo indirizzo e importo.
 
 ## Anatomia
 
@@ -34,13 +34,13 @@ zcash:<address>?amount=<zec>&memo=<text>&label=<text>
 | address | sì | Preferisci un Unified Address (`u1` / `utest1`) |
 | amount | no | Decimale ZEC |
 | memo | no | Solo trasferimenti schermati |
-| label | no | Nome leggibile mostrato da alcuni wallet |
+| label | no | Nome leggibile mostrato da alcuni portafogli |
 
 Regole complete: [ZIP 321](https://zips.z.cash/zip-0321).
 
 ## Casi d'uso
 
-- **Checkout** — precompila il prezzo e un memo dell'ordine, così il cliente dovrà solo confermare nel proprio wallet
+- **Checkout** — precompila il prezzo e un memo dell'ordine, così il cliente dovrà solo confermare nel proprio portafoglio
 - **Fatture** — condividi un unico link o QR
 - **Donazioni** — incorpora il widget in un sito
 - **P2P** — invia un link `zcash:` in chat

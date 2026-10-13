@@ -1,4 +1,4 @@
-# Zero to Zero Knowledge: Trusted Execution Environments (TEE)
+# Zero to Zero Knowledge: trusted execution environments (TEE)
 
 **Serie:** Zero to Zero Knowledge
 
@@ -46,7 +46,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 ---
 
-## Remote Attestation
+## Remote attestation
 
 La **Remote Attestation** è il processo che dimostra che un'enclave è in esecuzione in un ambiente hardware sicuro e genuino.
 
@@ -63,7 +63,7 @@ Le enclave contengono anche chiavi private di firma e di attestazione che non po
 
 ---
 
-## Data Sealing
+## Data sealing
 
 Poiché le enclave sono stateless, i dati devono talvolta essere memorizzati all'esterno, in memoria non attendibile.  
 
@@ -83,7 +83,7 @@ I dati cifrati entrano nel TEE insieme allo smart contract. Vengono decifrati, e
 
 ---
 
-## I TEE nelle reti Proof-of-Stake
+## I TEE nelle reti proof-of-stake
 
 Molte blockchain Proof-of-Stake (incluse Secret e Oasis) usano **Tendermint** come framework di consenso.
 
@@ -98,7 +98,7 @@ I **TEE** sono ideali per generare e usare in modo sicuro le chiavi dei validato
 
 ---
 
-## Zcash e la ricerca sul Proof-of-Stake
+## Zcash e la ricerca sul proof-of-stake
 
 Zcash sta attivamente studiando una migrazione al Proof-of-Stake.
 

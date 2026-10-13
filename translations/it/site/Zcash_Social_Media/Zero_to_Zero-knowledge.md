@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zero to Zero Knowledge | Serie educativa 
+# Zero to Zero Knowledge | serie educativa 
 
 
 ## Funzioni di hash 
@@ -20,7 +20,7 @@ https://twitter.com/ZecHub/status/1624125037945946145
 https://twitter.com/ZecHub/status/1628498645627666432
 
 
-## Trusted Execution Environment 
+## Trusted execution environment 
 
 https://twitter.com/ZecHub/status/1633579659282587651
 

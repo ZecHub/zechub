@@ -604,7 +604,7 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
   out.push(
     "**How to fill in:** in the **\u2705** column write `OK` if the proposed rendering is right, `keep English` to use the English word, or the rendering you would use. Write one rendering per cell; if it depends on the context (verb or noun, menu or page), say so in Notes and a maintainer will record it. Leave a cell empty if you are not sure. Do not edit the ID column.",
     "",
-    "Names that stay in English in every language (brands, products, programmes) are not in these tables.",
+    "Names that stay in English in every language (brands, products, programmes) are not in these tables; they are listed in `translation/protected-terms.json`.",
     "",
     "## Conflicts to decide first",
     "",
@@ -643,7 +643,6 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
   if (kit === "ui" || kit === "all") {
     if (!dict || !enDict) throw new Error("the UI kit needs the website dictionaries (--dict and --en-dict)");
     const names = [...new Set([...preserveVerbatim, ...brands])];
-    const kept = new Set();
     const seenLabels = new Set();
     const proposeFor = (english, current) => {
       const p = glossary.phrases?.[english];
@@ -658,10 +657,8 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
       for (const { path, value } of items) {
         const english = value.trim();
         seenLabels.add(english);
-        if (preserveVerbatim.includes(english) || isNameOnly(english, names)) {
-          kept.add(english);
-          continue;
-        }
+        // Names stay English everywhere and are listed in protected-terms.json.
+        if (preserveVerbatim.includes(english) || isNameOnly(english, names)) continue;
         rows.push([path.join("."), english, proposeFor(english, get(dict, path))]);
       }
       out.push(`## ${UI_SECTION_TITLES[section]}`, `(\`${section}\`: ${rows.length} labels)`, "");
@@ -681,7 +678,6 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
       others.forEach((k, i) => out.push(row([i + 1, "phrase", k, proposeFor(k, ""), "", ""])));
       out.push("");
     }
-    out.push("## Names kept in English (no need to check)", "", [...kept].sort((a, b) => (a.toLowerCase() < b.toLowerCase() ? -1 : 1)).join(", "), "");
   }
   return out.join("\n");
 }

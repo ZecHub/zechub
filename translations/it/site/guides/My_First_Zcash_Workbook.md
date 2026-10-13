@@ -41,7 +41,7 @@ Il quaderno tocca anche la storia del lancio di Zcash, i suoi principi fondanti 
 Questa parte scompone le basi tecniche del protocollo Zcash in un linguaggio accessibile. I concetti chiave includono:
 
 - Indirizzi trasparenti vs. schermati  
-- Viewing key e divulgazione controllata  
+- Chiavi di visualizzazione e divulgazione controllata  
 - Il ruolo dei miner/validatori  
 - Come le prove a conoscenza zero validano le transazioni  
 - Come la privacy viene preservata pur garantendo che la rete resti decentralizzata e sicura  
@@ -53,7 +53,7 @@ I diagrammi e le metafore visive nel quaderno aiutano a semplificare questi conc
 
 ## 4. Usare Zcash nella vita di tutti i giorni
 
-La quarta sezione si concentra su esempi d'uso concreti. Mostra come qualcuno potrebbe inviare e ricevere Zcash usando i wallet mobili, come i codici QR facilitino i pagamenti e come gli utenti impieghino le transazioni schermate per protezione personale, riservatezza aziendale o trasferimenti transfrontalieri.
+La quarta sezione si concentra su esempi d'uso concreti. Mostra come qualcuno potrebbe inviare e ricevere Zcash usando i portafogli mobili, come i codici QR facilitino i pagamenti e come gli utenti impieghino le transazioni schermate per protezione personale, riservatezza aziendale o trasferimenti transfrontalieri.
 
 Gli esempi mostrano situazioni del mondo reale, tra cui dare mance agli artisti, trasferire denaro a parenti all'estero, sostenere ONG in modo anonimo o utilizzare Zcash come paghetta digitale privata di un adolescente.
 
@@ -63,7 +63,7 @@ Gli esempi mostrano situazioni del mondo reale, tra cui dare mance agli artisti,
 
 Questa sezione mette in evidenza come sviluppatori, designer, ricercatori ed educatori possano costruire su Zcash. Introduce concetti come:
 
-- Wallet Zcash  
+- Portafogli Zcash  
 - SDK per sviluppatori  
 - Gruppi di lavoro della comunità  
 - Il ruolo dei contributori nello sviluppo open-source  
@@ -80,9 +80,9 @@ Questa sezione insegna le abitudini fondamentali di sicurezza digitale:
 
 - Proteggere le chiavi e le seed phrase  
 - Evitare le truffe  
-- Comprendere i wallet custodial vs. non-custodial  
+- Comprendere i portafogli custodial (custodia di terzi) vs. non-custodial  
 - Praticare una solida igiene delle password  
-- Evitare di condividere pubblicamente informazioni sensibili del wallet  
+- Evitare di condividere pubblicamente informazioni sensibili del portafoglio  
 
 Queste lezioni dotano i nuovi utenti di abitudini chiave che vanno oltre Zcash, estendendosi alla vita digitale in generale.
 
@@ -108,7 +108,7 @@ Uno studente di scuola superiore interessato a privacy, computer, crittografia e
 
 **Pacu (@thecodebuffet)** 
 
-Un veterano sviluppatore di wallet Zcash, in precedenza presso ECC dove lavorava su SDK e tecnologia Light Client, ora contributore dell'ecosistema con una sovvenzione ZCG.
+Un veterano sviluppatore di portafogli Zcash, in precedenza presso ECC dove lavorava su SDK e tecnologia light client, ora contributore dell'ecosistema con un finanziamento ZCG.
 
 **Marek** 
 

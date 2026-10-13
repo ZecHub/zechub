@@ -9,7 +9,7 @@
 
 Cypherpunk Zero è una serie narrativa incentrata su Zero, una giovane hacker cypherpunk e combattente per la libertà. Zero vive attualmente in un incubo distopico e usa il codice per combattere contro i guardiani centralizzati che incatenano la società. La storia è stata ispirata da Zcash e dalla crittografia Halo. L'opera creativa è uno sforzo collaborativo tra ECC, Stranger World, Mighty Jaxx e alcuni partner selezionati dell'ecosistema. L'opera creativa si è concentrata soprattutto su una [serie di NFT](https://opensea.io/collection/cypherpunk-zero), e un [giocattolo da collezione](https://mightyjaxx.com/products/cypherpunk-zero). La comunità degli NFT, attiva soprattutto su Twitter, ha persino creato un'[organizzazione decentralizzata (DAO)](https://twitter.com/CypherpunkDAO) per organizzare e completare progetti a sostegno della campagna e della più ampia comunità Zcash.
 
-## Anti-roadmap Roadmap
+## Anti-roadmap roadmap
 
 Abbiamo visto troppi progetti promettere troppo e mantenere troppo poco riguardo alle loro roadmap NFT. Per questo motivo, non esiste una roadmap formale. Fidati: abbiamo in cantiere alcuni vantaggi esclusivi straordinari per i possessori di NFT, alcuni attesi, altri inaspettati. Allacciate le cinture e venite con noi per questo viaggio.
 
@@ -44,7 +44,7 @@ Abbiamo visto troppi progetti promettere troppo e mantenere troppo poco riguardo
 *Offerta totale*: 10.000 NFT generativi unici sulla Ethereum Mainnet
 Il 4% dell'offerta (i primi 400 NFT) è stato distribuito tramite airdrop ai primi sostenitori del progetto che avevano acquistato il giocattolo Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
 
-Il 72% dell'offerta (7.200 NFT) sarà rilasciato al pubblico usando un innovativo meccanismo di whitelisting che richiede l'uso di un wallet Zcash che supporti i memo cifrati (maggiori dettagli più in basso).
+Il 72% dell'offerta (7.200 NFT) sarà rilasciato al pubblico usando un innovativo meccanismo di whitelisting che richiede l'uso di un portafoglio Zcash che supporta i memo crittografati (maggiori dettagli più in basso).
 
 Il 24% dell'offerta (2.400 NFT) sarà conservato da ECC nella Cypherpunk Reserve, per essere usato in future iniziative che facciano progredire Zcash e la privacy nello spazio Web3.
 

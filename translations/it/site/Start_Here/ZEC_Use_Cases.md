@@ -8,7 +8,7 @@
 
 #### Pagamenti
 
-Le persone usano ZEC per effettuare transazioni in modo efficiente e sicuro, con commissioni ridotte. Zcash Shielded garantisce che le transazioni rimangano riservate, offrendo al contempo la possibilità di condividere le informazioni sull'indirizzo e sulla transazione qualora lo si desideri. Le transazioni private "Z-Z" appaiono sulla blockchain pubblica, quindi è noto che sono avvenute e che le commissioni sono state pagate. Tuttavia, gli indirizzi, l'importo della transazione e il campo Memo sono tutti cifrati e non visibili pubblicamente.
+Le persone usano ZEC per effettuare transazioni in modo efficiente e sicuro, con commissioni ridotte. Zcash schermato garantisce che le transazioni rimangano riservate, offrendo al contempo la possibilità di condividere le informazioni sull'indirizzo e sulla transazione qualora lo si desideri. Le transazioni private "Z-Z" appaiono sulla blockchain pubblica, quindi è noto che sono avvenute e che le commissioni sono state pagate. Tuttavia, gli indirizzi, l'importo della transazione e il campo memo sono tutti crittografati e non visibili pubblicamente.
 
 #### Riserva di valore
 
@@ -16,7 +16,7 @@ Le persone possono anche utilizzare ZEC per conservare ricchezza in un asset sol
 
 #### Messaggistica
 
-Le persone possono usare il campo Memo in una transazione Shielded Z-Z per inviare messaggi completamente cifrati. Per inviare un Memo, gli utenti devono effettuare una transazione e pagare una commissione inferiore a $0,01.
+Le persone possono usare il campo memo in una transazione Z-Z schermata per inviare messaggi completamente crittografati. Per inviare un memo, gli utenti devono effettuare una transazione e pagare una commissione inferiore a $0,01.
 
 #### Risorse
 

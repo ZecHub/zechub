@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica Pagina"/>
 </a>
 
-# Il Podcast Z2Z
+# Il podcast Z2Z
 
 Il Podcast Z2Z ospita conversazioni di lunga durata tra Ian Sagstetter (di Electric Coin Company) e altri membri della community di Zcash.
 

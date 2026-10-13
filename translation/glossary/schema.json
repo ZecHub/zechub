@@ -420,8 +420,14 @@
           "additionalProperties": false,
           "description": "Target-language examples appended to a style rule in the prompt as '(e.g. ...)'. Small local models follow a rule more reliably with an example.",
           "properties": {
-            "english_in_brackets": { "type": "string", "minLength": 1 },
-            "capitalise_kept_english_at_sentence_start": { "type": "string", "minLength": 1 }
+            "english_in_brackets": {
+              "type": "string",
+              "minLength": 1
+            },
+            "capitalise_kept_english_at_sentence_start": {
+              "type": "string",
+              "minLength": 1
+            }
           }
         },
         "numerals": {
@@ -440,6 +446,14 @@
             "minLength": 1
           },
           "description": "Abbreviations written with a full stop that do not end a sentence (Indonesian dll., dsb.)."
+        },
+        "writing_rules": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Extra writing rules in the reviewer's words (word order, articles, capitalisation, calques to avoid). Each is printed as one style line in the prompt, as written."
         },
         "notes": {
           "type": "string"

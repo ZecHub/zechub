@@ -20,7 +20,7 @@ Il pagamento del tuo miner e il tuo finalizer non sono la stessa cosa. La chain 
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
     <div className="text-xs font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-300">Bond</div>
     <div className="mt-1 text-lg font-semibold text-amber-950 dark:text-amber-50">Stake schermato</div>
-    <p className="mt-1 text-sm text-amber-900 dark:text-amber-100">Si trova nel pool di staking. Indica un finalizer di destinazione.</p>
+    <p className="mt-1 text-sm text-amber-900 dark:text-amber-100">Si trova nella pool di staking. Indica un finalizer di destinazione.</p>
   </div>
 </div>
 

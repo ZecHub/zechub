@@ -39,7 +39,7 @@ Maya Protocol ha integrato Zcash per migliorare la propria decentralizzazione, l
 </div>
 
 
-**Nota**: È anche possibile fare il bridge di qualsiasi ETH che già possiedi per conservarlo privatamente come Zcash schermato usando la scheda "Release" e inserendo il tuo indirizzo trasparente. Puoi poi usare l'opzione "Autoshield" nel tuo wallet mobile/desktop. Affinché questa applicazione rimanga privata, si raccomanda di non effettuare scambi da ZEC > ETH e poi di nuovo da ETH > ZEC. 
+**Nota**: È anche possibile fare il bridge di qualsiasi ETH che già possiedi per conservarlo privatamente come Zcash schermato usando la scheda "Release" e inserendo il tuo indirizzo trasparente. Puoi poi usare l'opzione "Autoshield" nel tuo portafoglio mobile/desktop. Affinché questa applicazione rimanga privata, si raccomanda di non effettuare scambi da ZEC > ETH e poi di nuovo da ETH > ZEC. 
 
 ---
 

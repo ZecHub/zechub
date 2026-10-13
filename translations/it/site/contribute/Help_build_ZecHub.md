@@ -58,7 +58,7 @@ Se ci sono altri modi in cui vorresti contribuire, invia un messaggio a ZecHub (
 
 ____
 
-**Per poter effettuare i pagamenti, ZecHub richiede a tutti i collaboratori di compilare un modulo di dichiarazione con il proprio Nome e indirizzo Shielded:**
+**Per poter effettuare i pagamenti, ZecHub richiede a tutti i collaboratori di compilare un modulo di dichiarazione con il proprio nome e indirizzo schermato:**
 
 **( Zcash | Namada | Penumbra | Ycash )**
 

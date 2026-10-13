@@ -51,8 +51,8 @@ E funziona anche al contrario. Se l'indirizzo di un commerciante è mai apparso 
 
 
 BTCPay Server è un sistema gratuito e decentralizzato per ricevere pagamenti in criptovaluta.  
-Non è un intermediario di pagamento e non detiene alcun fondo. Tutti i pagamenti vanno direttamente al wallet del commerciante.  
-Può trattarsi di un wallet personale o di una configurazione multisig all'interno di un'organizzazione.
+Non è un intermediario di pagamento e non detiene alcun fondo. Tutti i pagamenti vanno direttamente al portafoglio del commerciante.  
+Può trattarsi di un portafoglio personale o di una configurazione multisig all'interno di un'organizzazione.
 
 Il server si occupa dei compiti di coordinamento:
 
@@ -118,24 +118,24 @@ Tutto questo processo avviene **automaticamente**, senza intermediari o custodi.
 BTCPay Server **non detiene alcun fondo** - collega semplicemente il sistema di ordini alla blockchain in modo sicuro e privato.
 ## Dove sono conservati i fondi? Chi controlla le chiavi private?
 
-BTCPay Server **non** è un wallet e **non richiede chiavi private**.  
-Tutti i fondi vanno **direttamente** al wallet del commerciante. La sicurezza è garantita dall'uso di un'**architettura basata su viewing key**.
+BTCPay Server **non** è un portafoglio e **non richiede chiavi private**.  
+Tutti i fondi vanno **direttamente** al portafoglio del commerciante. La sicurezza è garantita dall'uso di un'**architettura basata sulle chiavi di visualizzazione**.
 
 ### Come funziona
 
-- **Il wallet viene creato in anticipo.**  
-  Il commerciante utilizza un wallet Zcash che supporta le viewing key - come [Zkool](https://github.com/hhanh00/zkool2/) o [Zingo! Wallet](https://zingolabs.org/).  
+- **Il portafoglio viene creato in anticipo.**  
+  Il commerciante utilizza un portafoglio Zcash che supporta le chiavi di visualizzazione - come [Zkool](https://github.com/hhanh00/zkool2/) o [Zingo! Wallet](https://zingolabs.org/).  
   Un elenco completo è disponibile su [ZecHub.wiki](https://zechub.wiki/wallets).
 
-- **BTCPay Server si connette tramite una viewing key.**  
-  Una viewing key è una **chiave di sola lettura**: può rilevare i pagamenti in entrata e generare nuovi indirizzi di ricezione,  
+- **BTCPay Server si connette tramite le chiavi di visualizzazione.**  
+  Una chiave di visualizzazione è una **chiave di sola lettura**: può rilevare i pagamenti in entrata e generare nuovi indirizzi di ricezione,  
   ma non può spendere i fondi. Il server non memorizza frasi seed o chiavi private.
 
 - **I dati della blockchain sono accessibili tramite un server `lightwalletd`.**  
   Puoi usare un nodo pubblico come `https://zec.rocks`, oppure eseguire il tuo stack `Zebra + lightwalletd` per la piena sovranità.
 
 - **Ogni ordine riceve un indirizzo univoco.**  
-  Le viewing key consentono al server di derivare nuovi indirizzi schermati Zcash per ogni fattura,  
+  Le chiavi di visualizzazione consentono al server di derivare nuovi indirizzi schermati Zcash per ogni fattura,  
   permettendo un tracciamento sicuro dei pagamenti e prevenendo il riutilizzo degli indirizzi.
 
 - **Mantieni il pieno controllo sui fondi.**  
@@ -176,10 +176,10 @@ L'opzione migliore dipende dalla posizione del tuo server e da quanta indipenden
 > Documentazione ufficiale del plugin:  
 > [https://github.com/btcpay-zcash/btcpayserver-zcash-plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 >
-> **Attenzione - un solo wallet per istanza:**  
-> Il plugin Zcash utilizza **un unico wallet condiviso** tra **tutti i negozi** dell'istanza BTCPay.  
-> Se ospiti più negozi indipendenti su un'unica istanza, condivideranno lo stesso wallet Zcash.  
-> Usa istanze separate se hai bisogno di un isolamento rigoroso dei wallet.
+> **Attenzione - un solo portafoglio per istanza:**  
+> Il plugin Zcash utilizza **un unico portafoglio condiviso** tra **tutti i negozi** dell'istanza BTCPay.  
+> Se ospiti più negozi indipendenti su un'unica istanza, condivideranno lo stesso portafoglio Zcash.  
+> Usa istanze separate se hai bisogno di un isolamento rigoroso dei portafogli.
 
 ---
 
@@ -619,7 +619,7 @@ Dovresti ora essere in grado di accedere al tuo server all'indirizzo:
 ## Configurare il plugin Zcash nell'interfaccia web di BTCPay Server
 
 > **Importante per le configurazioni multi-negozio:**  
-> Il wallet Zcash configurato qui è **globale** per l'istanza. Tutti i negozi useranno questo wallet a meno che tu non esegua istanze BTCPay separate.
+> Il portafoglio Zcash configurato qui è **globale** per l'istanza. Tutti i negozi useranno questo portafoglio a meno che tu non esegua istanze BTCPay separate.
 
 Dopo aver distribuito con successo la tua istanza di BTCPay Server, dovrai eseguire alcune configurazioni di base tramite l'interfaccia web di amministrazione.  
 La documentazione ufficiale fornisce istruzioni complete in inglese - qui vedremo i passaggi essenziali e ci concentreremo specificamente sulla configurazione del plugin Zcash.
@@ -652,7 +652,7 @@ Visita la tua istanza all'indirizzo:
 Dopo l'installazione, clicca **Restart Server** per ricaricare l'interfaccia con i plugin attivi.
 
 
-### Passo 3: collega il tuo wallet tramite Viewing Key
+### Passo 3: collega il tuo portafoglio tramite la Viewing Key
 
 Dopo aver installato il plugin, apparirà una nuova sezione **Zcash** nel menu delle impostazioni.
 
@@ -660,9 +660,9 @@ Dopo aver installato il plugin, apparirà una nuova sezione **Zcash** nel menu d
 
 `Zcash -> Settings`
 
-2. Incolla la tua **Unified Full Viewing Key (UFVK)** - BTCPay deriverà un Unified Address per ogni fattura e rileverà i pagamenti schermati in entrata.
+2. Incolla la tua **Unified Full Viewing Key (UFVK)** - BTCPay deriverà un indirizzo unificato per ogni fattura e rileverà i pagamenti schermati in entrata.
 
-> **Nota:** le Viewing Key Sapling legacy sono supportate, ma per usare gli indirizzi Orchard/Unified dovresti fornire una **UFVK**.
+> **Nota:** le chiavi di visualizzazione Sapling legacy sono supportate, ma per usare gli indirizzi Orchard/unificati dovresti fornire una **UFVK**.
 
 
    Formato di esempio:
@@ -671,11 +671,11 @@ Dopo aver installato il plugin, apparirà una nuova sezione **Zcash** nel menu d
 
 3. Inserisci un valore nel campo Block height
 
-* **Prima configurazione con un nuovo wallet (nuova frase seed):** inserisci l'attuale block height di Zcash (puoi verificarlo su 3xpl.com/zcash) - questo velocizza la scansione iniziale.
+* **Prima configurazione con un nuovo portafoglio (nuova frase mnemonica):** inserisci l'attuale altezza del blocco di Zcash (puoi verificarlo su 3xpl.com/zcash) - questo velocizza la scansione iniziale.
 * **Migrazione sullo stesso server da una configurazione legacy solo Sapling agli Unified Address / Orchard:** lascia questo campo vuoto.
-* **Spostamento del tuo negozio su un nuovo server con lo stesso wallet/UFVK:** facoltativamente inserisci la birth height - un'altezza approssimativa del primo ordine pagato del tuo negozio (fai corrispondere la data dell'ordine su 3xpl per restringere la scansione). Se non sei sicuro, lascialo vuoto.
+* **Spostamento del tuo negozio su un nuovo server con lo stesso portafoglio/UFVK:** facoltativamente inserisci la birth height - un'altezza approssimativa del primo ordine pagato del tuo negozio (fai corrispondere la data dell'ordine su 3xpl per restringere la scansione). Se non sei sicuro, lascialo vuoto.
 
-> Non tutti i wallet supportano ancora l'esportazione della **Unified Full Viewing Key (UFVK)**.  
+> Non tutti i portafogli supportano ancora l'esportazione della **Unified Full Viewing Key (UFVK)**.  
 > Opzioni consigliate:  
 > – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (versione per PC)**](https://zingolabs.org/)  
@@ -685,7 +685,7 @@ Queste chiavi supportano la **rotazione automatica degli indirizzi**, il che sig
 - Ogni cliente ottiene un indirizzo di pagamento **univoco**
 - Tu vedi un **unico saldo unificato**
 
-Puoi trovare un elenco di compatibilità più ampio su [ZecHub -> Wallets](https://zechub.wiki/wallets).
+Puoi trovare un elenco di compatibilità più ampio su [ZecHub -> Portafogli](https://zechub.wiki/wallets).
 
 Una volta compilati tutti i campi, clicca **Save**.
 
@@ -693,7 +693,7 @@ Una volta compilati tutti i campi, clicca **Save**.
 
 ### Testa il tuo flusso di pagamento ZEC
 
-Congratulazioni - il tuo wallet Zcash è ora collegato a BTCPay Server.
+Congratulazioni - il tuo portafoglio Zcash è ora collegato a BTCPay Server.
 
 Eseguiamo un test:
 
@@ -702,7 +702,7 @@ Eseguiamo un test:
 `Invoices -> Create New`
 
 2. Genera una fattura di prova per un piccolo importo in ZEC.
-3. Invia i fondi da **un wallet diverso** (non quello collegato a BTCPay).
+3. Invia i fondi da **un portafoglio diverso** (non quello collegato a BTCPay).
 4. Una volta rilevata la transazione, la pagina della fattura mostrerà un'animazione di celebrazione.
 5. Verifica che lo stato della fattura cambi in **Paid**.
 
@@ -712,7 +712,7 @@ Se tutto funziona - sei pronto a integrare i pagamenti ZEC nel tuo sito web usan
 
 ## Integrare BTCPay Server con il tuo sito web
 
-Una volta collegato il tuo wallet Zcash a BTCPay Server, puoi integrare il sistema di pagamento nel tuo sito web.  
+Una volta collegato il tuo portafoglio Zcash a BTCPay Server, puoi integrare il sistema di pagamento nel tuo sito web.  
 Ci sono diversi modi per farlo - dall'accesso diretto all'API ai plugin pronti all'uso per le piattaforme CMS più popolari.
 
 ---
@@ -891,7 +891,7 @@ BTCPay è uno strumento estremamente flessibile. Puoi:
 * Ospitare più negozi indipendenti su un'unica istanza
 * Definire ruoli e permessi personalizzati per i membri del team - dalla sola visualizzazione degli ordini all'amministrazione completa
 * Usare i tuoi domini e il tuo branding
-* Configurare webhook, wallet di riserva e persino l'accesso tramite Tor
+* Configurare webhook, portafogli di riserva e persino l'accesso tramite Tor
 * Configurare impostazioni avanzate come regole fiscali, codici sconto, personalizzazione della pagina di checkout, restrizioni sui metodi di pagamento e altro ancora
 
 BTCPay è stato costruito come alternativa open-source ai fornitori di pagamenti centralizzati. Se stai cercando di accettare pagamenti privati in ZEC senza intermediari, questa piattaforma merita assolutamente la tua attenzione.
@@ -910,5 +910,5 @@ Ti auguriamo buona fortuna nell'esplorare l'ecosistema BTCPay e nel rendere i tu
 * [File Docker Compose di Lightwalletd (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
 * [Documentazione delle chiavi API di BTCPay (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Creare un Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-* [Elenco di compatibilità dei wallet Zcash (ZecHub)](https://zechub.wiki/wallets)
+* [Elenco di compatibilità dei portafogli Zcash (ZecHub)](https://zechub.wiki/wallets)
 * [Zebra + Lightwalletd su Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

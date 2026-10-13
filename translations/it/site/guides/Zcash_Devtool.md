@@ -1,10 +1,10 @@
-# Il Zcash Devtool
+# Lo Zcash Devtool
 
-[Cos'è il Zcash-Devtool?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
+[Cos'è lo Zcash-Devtool?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
 
-Il Zcash Devtool è una piattaforma per sperimentare con Zcash. È costruito dagli sviluppatori, per gli sviluppatori, per il test e lo sviluppo di nuove funzionalità di Zcash; e non deve essere considerato pronto per la produzione. L'API a riga di comando che questo strumento espone può cambiare e cambierà in qualsiasi momento e senza preavviso. NON affidare somme ingenti alla gestione del wallet integrato di zcash-devtool.
+Lo Zcash Devtool è una piattaforma per sperimentare con Zcash. È sviluppato dagli sviluppatori, per gli sviluppatori, per il test e lo sviluppo di nuove funzionalità di Zcash; e non deve essere considerato pronto per la produzione. L'API a riga di comando che questo strumento espone può cambiare e cambierà in qualsiasi momento e senza preavviso. NON affidare somme ingenti alla gestione del portafoglio integrato di zcash-devtool.
 
-### Video tutorial del Zcash Devtool:
+### Video tutorial dello Zcash Devtool:
 Kris Nuttycombe (@nuttycom) ha presentato questo strumento durante ZconVI.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Fondo di Sviluppo di Zcash
+# Fondo di sviluppo di Zcash
 
 Zcash è un protocollo blockchain unico perché si autofinanzia. Ciò significa che i team che lavorano su Zcash non hanno bisogno di prendere denaro da investitori esterni, e possono rimanere concentrati a promuovere l'adozione rimanendo allineati con l'etica e la missione più ampie di Zcash.
 
-## Ricompense di Blocco
+## Ricompense di blocco
 
 Nelle blockchain, esiste qualcosa chiamato [blocco](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), che viene prodotto per registrare le transazioni non ancora confermate nella rete. Una volta che le transazioni sono validate, il blocco viene chiuso.
 
@@ -22,11 +22,11 @@ Attualmente, [Zcash Community Grants](https://zcashcommunitygrants.org/) riceve 
 Nel 2020, la comunità di Zcash ha votato sul fondo di sviluppo e sui team supportati da esso. Nel 2024, la comunità voterà di nuovo per determinare chi riceve i finanziamenti dal fondo di sviluppo.
 
 
-# Lockbox Fondo di Sviluppo Differito Ibrido di Zcash (NU6)
+# Lockbox fondo di sviluppo differito ibrido di Zcash (NU6)
 
 Il Lockbox Fondo di Sviluppo Differito Ibrido è il meccanismo di finanziamento scelto per la prossima generazione del fondo di sviluppo di Zcash. Questa opzione alloca il 20% totale delle ricompense di blocco di Zcash, il 60% allo Zcash Grants Committee e il 40% a un lockbox del protocollo, garantendo che le risorse siano disponibili per supportare il futuro dell'ecosistema Zcash mentre continua lo sviluppo e la manutenzione.
 
-## Processo Decisionale
+## Processo decisionale
 
 La decisione di implementare il Lockbox del Fondo di Sviluppo al 20% è stata raggiunta attraverso un processo completo guidato dalla comunità. Ciò ha incluso due round di sondaggi dello Zcash Community Advisory Panel (ZCAP), nonché diversi sondaggi a livello di ecosistema. Questi sondaggi hanno permesso a un ampio spettro di parti interessate di esprimere le proprie opinioni e contribuire al processo decisionale.
 
@@ -42,7 +42,7 @@ Poiché il lockbox del fondo di sviluppo è differito (il che significa che i fo
 
 [Sondaggio ZCAP sul Lockbox](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
 
-[Istituzione di un Fondo di Sviluppo per ECC, ZF e Sovvenzioni Maggiori](https://zips.z.cash/zip-1014)
+[Istituzione di un fondo di sviluppo per ECC, ZF e finanziamenti principali](https://zips.z.cash/zip-1014)
 
 [Sviluppo e governance di Zcash](https://z.cash/zcash-development-and-governance/)
 

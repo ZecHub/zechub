@@ -201,7 +201,10 @@ test("round trip: export -> every cell OK -> import gives back the committed id.
   assert.deepEqual([report.new, report.changed], [[], []]);
   assert.equal(serializeGlossary(back, TERMS_EN), serializeGlossary(ID, TERMS_EN));
   // Terms with no locale entry yet have nothing to confirm with OK.
-  assert.deepEqual(report.needsMaintainer.map((m) => m.english).sort(), ["chain", "cross-chain", "faucet", "token"]);
+  const missing = TERMS_EN.terms.filter((t) => t.applies_to !== "ui" && !ID.terms[t.id]).map((t) => t.english).sort();
+  assert.ok(missing.includes("chain") && missing.includes("faucet"), missing.join(", "));
+  const norm = (x) => x.replace(/[\s-]+/g, "-").toLowerCase();
+  assert.deepEqual(report.needsMaintainer.map((m) => norm(m.english)).sort(), missing.map(norm).sort());
 });
 
 test("round trip: the committed id.json is in canonical form", () => {
@@ -218,12 +221,12 @@ test("export: deterministic, and the kit proposes the glossary over the dictiona
   assert.match(a, /split \(with context\)/, "the Tools split is shown to reviewers");
 });
 
-test("export: names are listed, not reviewed; dictionary values fill unknown labels", () => {
+test("export: names are left out (protected-terms.json lists them); dictionary values fill unknown labels", () => {
   const en = { navigation: { a: "Zcash Foundation", b: "Keystone Zashi", c: "New Label" } };
   const loc = { navigation: { a: "Zcash Foundation", b: "Keystone Zashi", c: "Label Baru" } };
   const md = exportKit({ glossary: ID, termsEn: TERMS_EN, kit: "ui", dict: loc, enDict: en, preserveVerbatim: PV, brands: BRANDS });
   assert.match(md, /\| 1 \| navigation\.c \| New Label \| Label Baru \|/);
-  assert.match(md, /Keystone Zashi, Zcash Foundation/);
+  assert.doesNotMatch(md, /Keystone Zashi|Zcash Foundation|Names kept in English/);
 });
 
 test("isNameOnly: whole names only, case-insensitive", () => {
@@ -257,6 +260,6 @@ test("CLI: validate.mjs passes on the committed files", () => {
 
 test("CLI: review-kit.mjs exports the pages kit", () => {
   const out = execFileSync("node", [here("../review-kit.mjs").pathname, "export", "id", "--kit", "pages", "--no-evidence"], { encoding: "utf8" });
-  assert.match(out, /\(`terms`: 36 rows\)/);
+  assert.match(out, new RegExp(`\\(\`terms\`: ${TERMS_EN.terms.filter((t) => t.applies_to !== "ui").length} rows\\)`));
   assert.match(out, /\| \d+ \| mining \| mining \| .* \| penambangan \|/);
 });

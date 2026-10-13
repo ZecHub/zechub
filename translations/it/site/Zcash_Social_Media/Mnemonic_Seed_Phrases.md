@@ -3,7 +3,7 @@
 **Serie:** Zero to Zero Knowledge
 
 Le frasi seed mnemoniche sono alla base di uno degli aspetti più importanti delle criptovalute - la **auto-custodia**.  
-Oggi impariamo come una frase seed viene generata e usata nei wallet.
+Oggi impariamo come una frase mnemonica viene generata e usata nei portafogli.
 
 ---
 
@@ -47,12 +47,12 @@ Questi numeri vengono usati per trovare la parola corrispondente nella wordlist.
 
 ## Dalla frase di recupero -> al seed -> agli indirizzi di pagamento
 
-Usando la frase di recupero, un wallet può generare chiavi per creare indirizzi di pagamento e diversi account del wallet.
+Usando la frase di recupero, un portafoglio può generare chiavi per creare indirizzi di pagamento e diversi account del portafoglio.
 
 Le chiavi generate sono **deterministiche** - lo stesso input produce sempre lo stesso output.
 
 ### Generazione del seed
-Il seed del wallet viene derivato dalla frase mnemonica usando una **funzione di derivazione delle chiavi (KDF)**:
+Il seed del portafoglio viene derivato dalla frase mnemonica usando una **funzione di derivazione delle chiavi (KDF)**:
 
 - In **Bitcoin**: PBKDF2  
 - In **Zcash**: Blake2b-256/512
@@ -63,10 +63,10 @@ Questo produce un seed di **64 byte (512 bit)**.
 
 ### Chiavi master
 Il seed viene suddiviso in due sequenze da 32 byte:
-- **Master Spending Key**
+- **Chiave di spesa principale**
 - **Master Chain Code**
 
-Queste vengono usate nei **wallet deterministici gerarchici (HD)** per la derivazione delle chiavi figlie.
+Queste vengono usate nei **portafogli deterministici gerarchici (HD)** per la derivazione delle chiavi figlie.
 
 ---
 
@@ -76,24 +76,24 @@ In Zcash, l'**autorità di visualizzazione** o l'**autorità di spesa** possono 
 
 **ZIP-32** definisce lo standard di generazione deterministica gerarchica delle chiavi adattato alle funzionalità di privacy di Zcash.
 
-Da una **Expanded Spending Key** deriviamo:
+Da una **chiave di spesa espansa** deriviamo:
 - Full Viewing Key
 - Incoming Viewing Key
 - Un insieme di indirizzi di pagamento
 
-Diversi meccanismi di derivazione producono indirizzi esterni adatti a essere distribuiti ai mittenti attraverso gli shielded pool (Sapling e Orchard).
+Diversi meccanismi di derivazione producono indirizzi esterni adatti a essere distribuiti ai mittenti attraverso le pool schermate (Sapling & Orchard).
 
 ![Zcash key derivation hierarchy](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
 
-Zcash supporta anche gli **indirizzi interni** per operazioni del wallet come l'Auto-Shielding.
+Zcash supporta anche gli **indirizzi interni** per operazioni del portafoglio come l'Auto-Shielding.
 
 ---
 
 ## Risorse
 
-- [ZIP-32: Shielded Hierarchical Deterministic Wallets](https://zips.z.cash/zip-0032)  
+- [ZIP-32: Portafogli deterministici gerarchici schermati](https://zips.z.cash/zip-0032)  
 - [Zcash Protocol Specification (NU5)](https://zips.z.cash/protocol/protocol.pdf)  
-- [Panoramica sui wallet shielded-by-default](https://zechub.wiki)
+- [Panoramica sui portafogli schermati per impostazione predefinita](https://zechub.wiki)
 
 ---
 

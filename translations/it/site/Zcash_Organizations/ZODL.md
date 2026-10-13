@@ -14,7 +14,7 @@ ZODL immagina un mondo senza sorveglianza finanziaria di massa, dove le persone 
 
 ZODL (Zcash Open Development Lab) è stata fondata all'inizio del 2026 da Josh Swihart, ex CEO della Electric Coin Company (ECC). Nel gennaio 2026, l'intero team di ingegneria e di prodotto di ECC si è dimesso a seguito di una controversia sulla governance con Bootstrap, il consiglio direttivo no profit 501(c)(3) che supervisiona ECC. Il team centrale che aveva originariamente progettato, implementato e mantenuto i sistemi più critici di Zcash è passato a ZODL per proseguire il proprio lavoro in modo indipendente.
 
-Il wallet Zashi, precedentemente sviluppato e mantenuto sotto ECC, è stato rinominato ZODL nell'ambito della nuova organizzazione. Gli utenti non hanno dovuto intraprendere alcuna azione, poiché l'app è stata rinominata automaticamente con l'aggiornamento successivo.
+Il portafoglio Zashi, precedentemente sviluppato e mantenuto presso ECC, è stato rinominato ZODL nell'ambito della nuova organizzazione. Gli utenti non hanno dovuto intraprendere alcuna azione, poiché l'app ha cambiato nome automaticamente con l'aggiornamento successivo.
 
 ## Finanziamenti
 
@@ -30,7 +30,7 @@ Nel marzo 2026, ZODL ha raccolto oltre 25 milioni di dollari in un round di seed
 - **Balaji Srinivasan**
 - Ulteriori angel investor provenienti dai settori crypto e tecnologico
 
-Il capitale viene utilizzato per espandere lo sviluppo sia del protocollo Zcash sia del wallet ZODL.
+Il capitale viene utilizzato per espandere lo sviluppo sia del protocollo Zcash sia del portafoglio ZODL.
 
 ## Leadership
 
@@ -40,9 +40,9 @@ Il team più ampio è composto dai creatori e sviluppatori originali del protoco
 
 ## Prodotti
 
-### ZODL Wallet (precedentemente Zashi)
+### ZODL Wallet (in precedenza Zashi)
 
-ZODL è un wallet mobile self-custodial progettato per transazioni Zcash private. Combina una profonda conoscenza a livello di protocollo con un design intuitivo, nascondendo la complessità pur mantenendo la sicurezza.
+ZODL è un portafoglio mobile in autocustodia progettato per transazioni Zcash private. Combina una profonda conoscenza a livello di protocollo con un design intuitivo, nascondendo la complessità pur mantenendo la sicurezza.
 
 **Piattaforme:**
 - [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
@@ -52,26 +52,26 @@ ZODL è un wallet mobile self-custodial progettato per transazioni Zcash private
 
 **Caratteristiche principali:**
 
-- **Shielded by Default:** tutte le transazioni utilizzano gli shielded pool di Zcash, nascondendo mittente, destinatario e importi delle transazioni grazie alla crittografia a conoscenza zero
+- **Schermato per impostazione predefinita:** tutte le transazioni utilizzano le pool schermate di Zcash, nascondendo mittente, destinatario e importi delle transazioni grazie alla crittografia a conoscenza zero
 - **One-Tap Shielding:** converti ZEC Transparent in fondi privati con un singolo tocco
-- **CrossPay:** invia ZEC Shielded mentre i destinatari ricevono gli asset di loro preferenza (BTC, stablecoin, ecc.)
+- **CrossPay:** invia ZEC schermati mentre i destinatari ricevono gli asset di loro preferenza (BTC, stablecoin, ecc.)
 - **Private Swaps:** swap integrati basati su NEAR Intents, che evitano gli exchange centralizzati
-- **Keystone Integration:** supporto per hardware wallet per la conservazione a freddo (cold storage) di ZEC Shielded tramite firma delle transazioni air-gapped
+- **Keystone Integration:** supporto per portafogli hardware per la conservazione a freddo di ZEC schermati tramite firma delle transazioni air-gapped
 - **Flexa Payments:** spendi ZEC presso i principali rivenditori, tra cui GameStop, Chipotle, Sheetz e Barnes & Noble
-- **Coinbase Integration:** acquista ZEC direttamente all'interno del wallet senza una registrazione separata presso un exchange
-- **Encrypted Messaging:** privacy a livello di Zcash per i Memo Shielded, insieme alle transazioni o indipendentemente da esse
-- **Unified Addresses:** gestione semplificata degli indirizzi tra i pool Transparent, Sapling e Orchard
+- **Coinbase Integration:** acquista ZEC direttamente all'interno del portafoglio senza una registrazione separata presso un exchange
+- **Messaggistica crittografata:** privacy a livello di Zcash per i memo schermati, insieme alle transazioni o indipendentemente da esse
+- **Indirizzi unificati:** gestione semplificata degli indirizzi tra le pool trasparenti, Sapling e Orchard
 - **Tor Support:** privacy a livello di rete potenziata per la trasmissione delle transazioni
 
 **Impegni sulla privacy:**
-- Nessun tracciamento dell'attività del wallet, della cronologia delle transazioni o del comportamento dell'utente
+- Nessun tracciamento dell'attività del portafoglio, della cronologia delle transazioni o del comportamento dell'utente
 - Vengono raccolti solo report di crash anonimizzati, senza alcuna possibilità di collegare i dati a utenti specifici
 
 ### Prestazioni e impatto
 
-Dal suo lancio originale come Zashi nel 2024, il wallet ha favorito una crescita significativa nell'ecosistema Zcash:
+Dal suo lancio originale come Zashi nel 2024, il portafoglio ha favorito una crescita significativa nell'ecosistema Zcash:
 
-- Ha fatto crescere l'Orchard shielded pool da circa 1M ZEC a 4M ZEC nel corso del 2025 (un aumento di oltre il 400%)
+- Ha fatto crescere la pool schermata Orchard da circa 1M ZEC a 4M ZEC nel corso del 2025 (un aumento di oltre il 400%)
 - Ha elaborato più di 600 milioni di dollari in swap di ZEC da ottobre 2025
 
 ## Ruolo nell'ecosistema Zcash
@@ -79,9 +79,9 @@ Dal suo lancio originale come Zashi nel 2024, il wallet ha favorito una crescita
 ZODL svolge un duplice ruolo nell'ecosistema Zcash:
 
 1. **Sviluppo del protocollo:** il team continua a far avanzare il software e gli strumenti core del protocollo Zcash, lavorando al fianco di altri team dell'ecosistema come la Zcash Foundation e Zingo Labs
-2. **Prodotti rivolti agli utenti:** costruzione e manutenzione del principale wallet consumer per Zcash, focalizzato sul rendere accessibili agli utenti mainstream i pagamenti digitali privati
-3. **Crescita dello shielded pool:** le innovazioni del wallet di ZODL sono state descritte come "il singolo fattore più importante responsabile di aver riportato Zcash sulla mappa"
-4. **Open Source:** tutto il lavoro è open-source, consentendo a chiunque di ispezionare il codice del protocollo, verificare il wallet e validare le implementazioni
+2. **Prodotti rivolti agli utenti:** sviluppo e manutenzione del principale portafoglio destinato ai consumatori per Zcash, focalizzato sul rendere accessibili agli utenti mainstream i pagamenti digitali privati
+3. **Crescita della pool schermata:** le innovazioni del portafoglio ZODL sono state descritte come "il singolo fattore più importante responsabile di aver riportato Zcash sulla mappa"
+4. **Open source:** tutto il lavoro è open source, consentendo a chiunque di ispezionare il codice del protocollo, verificare il portafoglio e validare le implementazioni
 
 ## Filosofia: Guardian of the Sovereign
 

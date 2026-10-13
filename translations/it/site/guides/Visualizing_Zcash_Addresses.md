@@ -37,7 +37,7 @@ La seconda cosa da notare è il prefisso di ciascuna stringa di indirizzo -- que
 
 È importante notare:
 
-#### "Gli indirizzi di pagamento Orchard non hanno una codifica stringa autonoma. Definiamo invece gli "unified address" che possono raggruppare insieme indirizzi di diversi tipi, incluso Orchard. Gli unified address hanno una Human-Readable Part pari a "u" sulla Mainnet, ovvero avranno il prefisso "u1"."
+#### "Gli indirizzi di pagamento Orchard non hanno una codifica stringa autonoma. Definiamo invece gli "unified address" che possono raggruppare insieme indirizzi di diversi tipi, incluso Orchard. Gli unified address hanno una human-readable part pari a "u" sulla mainnet, ovvero avranno il prefisso "u1"."
 
 ## Ricevitori degli Unified Address
 

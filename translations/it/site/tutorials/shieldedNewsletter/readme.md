@@ -115,7 +115,7 @@ Nota: assicurati di avere una copia dell'eseguibile zallet nella cartella in cui
 
 Aggiorna daoAddress.md con gli UA che vuoi usare
 
-Apri txBuilderFromFile.sh e aggiorna la variabile "from" con l'UA finanziato presente nel tuo wallet zallet
+Apri txBuilderFromFile.sh e aggiorna la variabile "from" con l'UA finanziato presente nel tuo portafoglio Zallet
 
 Poi,
 
