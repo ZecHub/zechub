@@ -54,7 +54,7 @@ Questo approccio è importante perché non tutti i progetti sono automaticamente
 
 ## Operazioni infrastrutturali di Zcash Labs
 
-Oltre a facilitare integrazioni di terze parti, Zcash Labs gestisce e sviluppa anche l'infrastruttura che supporta l'accesso alla rete Zcash. Quando è stata presentata al pubblico, l'organizzazione ha dichiarato di gestire uno **Shielded Vote Validator** e di sviluppare servizi che includono un **Zcash full node (nodo completo)**, **lightwalletd** e un'infrastruttura **RPC**.
+Oltre a facilitare integrazioni di terze parti, Zcash Labs gestisce e sviluppa anche l'infrastruttura che supporta l'accesso alla rete Zcash. Quando è stata presentata al pubblico, l'organizzazione ha dichiarato di gestire uno **Shielded Vote Validator** e di sviluppare servizi che includono un **full node (nodo completo) di Zcash**, **lightwalletd** e un'infrastruttura **RPC**.
 
 I full node vengono utilizzati per connettersi direttamente alla rete e verificare i dati della blockchain. lightwalletd aiuta i portafogli e le applicazioni leggere a recuperare dalla rete i dati necessari senza eseguire localmente l'intera blockchain. Nel frattempo, RPC fornisce un modo affinché software esterni comunichino con nodi o servizi blockchain.
 

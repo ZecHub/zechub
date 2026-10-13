@@ -17,7 +17,7 @@ L'implementazione di riferimento è il progetto Docker Compose disponibile su [g
 * Tre progetti Compose isolati possono essere eseguiti su un singolo host: **mainnet**, **testnet** e **regtest**.
 * La prima sincronizzazione di mainnet richiede circa **24–72 ore** e circa **300 GB**. Regtest si avvia in pochi secondi ed è il posto giusto per imparare a usare lo stack.
 * Zallet incorpora le librerie dell'indicizzatore di Zaino e comunica con Zebra tramite JSON-RPC. Il servizio Zaino indipendente è necessario soltanto se desideri un endpoint compatibile con lightwalletd per portafogli esterni.
-* Zallet è in **beta**. Le modifiche incompatibili possono richiedere l'eliminazione e la ricreazione del portafoglio. Non trattarlo come software custodial (custodia di terzi) definitivo per somme elevate.
+* Zallet è in **beta**. Le modifiche incompatibili possono richiedere l'eliminazione e la ricreazione del portafoglio. Non considerarlo un software definitivo per custodire somme elevate.
 
 ---
 

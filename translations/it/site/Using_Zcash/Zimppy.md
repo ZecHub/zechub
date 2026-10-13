@@ -115,7 +115,7 @@ MPP segue il flusso HTTP **402 Payment Required**:
 - Firma delle challenge **HMAC-SHA256**
 - Risposte di errore strutturate **RFC 9457**
 - Endpoint **`/.well-known/payment`** per l'individuazione automatica del metodo di pagamento
-- **Orchard IVK** (la Incoming Viewing Key) per la verifica dei pagamenti lato server senza esporre le chiavi di spesa
+- **Orchard IVK** (la Incoming Viewing Key) per la verifica dei pagamenti lato server senza esporre la chiave di spesa
 
 ---
 
@@ -413,7 +413,7 @@ Più agenti possono operare dallo stesso portafoglio utilizzando la **rotazione 
 
 ### Transazioni Zcash completamente schermate (Orchard)
 
-I pagamenti schermati utilizzano il **protocollo Orchard** di Zcash, la pool schermata introdotta da NU5. Il server verifica i pagamenti mediante una **Incoming Viewing Key (IVK)**, che può decrittografare le note ricevute senza esporre le chiavi di spesa. Gli attacchi di replay vengono prevenuti tramite il **vincolo del memo** - ogni sfida incorpora un memo univoco `zimppy:{challenge_id}` verificato crittograficamente.
+I pagamenti schermati utilizzano il **protocollo Orchard** di Zcash, la pool schermata introdotta da NU5. Il server verifica i pagamenti mediante una **Incoming Viewing Key (IVK)**, che può decrittografare le note ricevute senza esporre la chiave di spesa. Gli attacchi di replay vengono prevenuti tramite il **vincolo del memo** - ogni sfida incorpora un memo univoco `zimppy:{challenge_id}` verificato crittograficamente.
 
 ### Sessioni, latenza zero per richiesta
 

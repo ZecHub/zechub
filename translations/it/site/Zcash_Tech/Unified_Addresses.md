@@ -29,24 +29,24 @@ ZIP-316 mescola deliberatamente il payload usando **F4Jumble** prima della codif
 
 ## La pipeline di decodifica, passo dopo passo
 
-### Passo 1: Decodificare Bech32m e verificare la rete
+### Passo 1: decodificare Bech32m e verificare la rete
 - **Parte leggibile dall'uomo (HRP):** `u` identifica mainnet; `utest` identifica testnet. *(Gli UA mainnet iniziano con `u1`, dove `1` è il separatore Bech32.)*
 - **Limite di lunghezza:** Bech32m standard applica un limite di 90 caratteri. Gli UA in genere superano questo limite, quindi i controlli di lunghezza standard devono essere disabilitati nel decoder.
 - Convertire nuovamente le parole Bech32m a 5 bit in byte standard a 8 bit.
 
-### Passo 2: Invertire F4Jumble
+### Passo 2: invertire F4Jumble
 F4Jumble è una rete Feistel a 4 round basata su BLAKE2b:
 - **Lunghezza della metà sinistra:** `min(64, floor(length / 2))` byte. Il limite di 64 byte corrisponde alla dimensione massima dell'output di BLAKE2b. La metà destra contiene il payload rimanente.
 - **Funzioni hash:** Alterna G e H utilizzando etichette di personalizzazione fisse (`UA_F4Jumble_G` e `UA_F4Jumble_H`).
 - **Ordine dei round:** La codifica diretta esegue G(0) → H(0) → G(1) → H(1). L'inversione (rimescolamento inverso) esegue H(1) → G(1) → H(0) → G(0).
 - **Controllo dell'intervallo:** Rifiutare input al di fuori dei limiti di dimensione del payload ZIP-316.
 
-### Passo 3: Rimuovere il padding e verificare l'HRP
+### Passo 3: rimuovere il padding e verificare l'HRP
 Prima della mescolatura, il codificatore aggiunge 16 byte contenenti l'HRP, completati con zeri.
 - Rimuovere gli ultimi 16 byte dopo il rimescolamento inverso.
 - Confermare che l'HRP incorporato corrisponda alla rete prevista (`u` o `utest`). Ciò impedisce che indirizzi testnet vengano accidentalmente accettati su mainnet.
 
-### Passo 4: Estrarre i receiver
+### Passo 4: estrarre i receiver
 Il payload rimanente consiste di voci `(typecode, length, content)`, in cui typecode e lunghezza sono memorizzati come interi di dimensione compatta (un singolo byte per valori piccoli). Typecode di receiver noti:
 
 | Typecode | Tipo di receiver       | Lunghezza del contenuto |

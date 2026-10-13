@@ -77,7 +77,7 @@ Questo viene gestito automaticamente. Usa semplicemente l'URI che Akash ti forni
 -> **5 minuti** per cliccare nell'interfaccia della Console
 
 
-## Passo 1: Collega il tuo portafoglio
+## Passo 1: collega il tuo portafoglio
 
 -> Vai su [https://console.akash.network](https://console.akash.network)
 
@@ -126,7 +126,7 @@ La Console ti mostrerà:
 
 Clicca **"Approve"** e firma la transazione in Keplr.
 
-## Passo 4: Scegli un Provider
+## Passo 4: scegli un Provider
 
 Dopo ~ 30 secondi, vedrai le offerte dei provider. Ogni offerta mostra:
 
@@ -148,7 +148,7 @@ Dopo ~ 30 secondi, vedrai le offerte dei provider. Ogni offerta mostra:
 
 Clicca **"Accept Bid"** sul provider scelto e firma in Keplr.
 
-## Passo 5: Attendi la Distribuzione
+## Passo 5: attendi la Distribuzione
 
 La Console:
 
@@ -161,7 +161,7 @@ La Console:
 
 Questo richiede 1-2 minuti. Vedrai aggiornamenti di stato nell'interfaccia.
 
-## Passo 6: Verifica che Sia in Esecuzione
+## Passo 6: verifica che Sia in Esecuzione
 
 Una volta distribuito, vedrai:
 

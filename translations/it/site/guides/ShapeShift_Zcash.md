@@ -68,11 +68,11 @@ La privacy finanziaria non riguarda il nascondere atti illeciti. Protegge gli in
 
 La piattaforma ShapeShift permette agli utenti di acquisire e scambiare ZEC attraverso un processo completamente decentralizzato. Ecco come funziona.
 
-### Passo 1: Visita ShapeShift
+### Passo 1: visita ShapeShift
 
 Naviga su [app.shapeshift.com](https://app.shapeshift.com/) nel tuo browser web o scarica l'app mobile di ShapeShift. Non è richiesta alcuna creazione di account o verifica dell'identità.
 
-### Passo 2: Connetti il tuo portafoglio
+### Passo 2: connetti il tuo portafoglio
 
 Connetti un portafoglio di autocustodia compatibile. ShapeShift supporta una serie di portafogli, tra cui:
 
@@ -84,19 +84,19 @@ Connetti un portafoglio di autocustodia compatibile. ShapeShift supporta una ser
 
 Dal momento che stai scambiando verso o da ZEC, assicurati di avere pronto un portafoglio compatibile con Zcash (come Zodl) per ricevere i tuoi fondi.
 
-### Passo 3: Seleziona la Tua Coppia di Scambio
+### Passo 3: seleziona la Tua Coppia di Scambio
 
 Usa l'interfaccia di scambio per selezionare l'asset da cui vuoi scambiare (per esempio, BTC, ETH o un token ERC-20) e imposta ZEC come asset di destinazione. L'interfaccia di ShapeShift è progettata con un layout pulito, in stile Uniswap, ottimizzato sia per desktop che per mobile.
 
-### Passo 4: Inserisci l'Importo e Rivedi
+### Passo 4: inserisci l'Importo e Rivedi
 
 Inserisci l'importo che desideri scambiare. ShapeShift instraderà lo scambio attraverso il miglior protocollo decentralizzato disponibile (come THORChain per gli scambi cross-chain) e mostrerà il tasso stimato, le commissioni e l'importo in uscita.
 
-### Passo 5: Conferma ed Esegui
+### Passo 5: conferma ed Esegui
 
 Rivedi i dettagli della transazione e conferma. Lo scambio viene eseguito on-chain attraverso protocolli decentralizzati. I tuoi ZEC saranno consegnati all'indirizzo che hai specificato. Nessun intermediario detiene mai i tuoi fondi.
 
-### Passo 6: Scherma i Tuoi ZEC
+### Passo 6: scherma i Tuoi ZEC
 
 Una volta arrivati i tuoi ZEC, usa la funzione **shield** del tuo portafoglio Zcash (disponibile in portafogli come Zodl) per spostare i fondi nella pool schermata. Questo garantisce che il tuo saldo e le tue future transazioni rimangano completamente privati.
 

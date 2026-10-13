@@ -4,7 +4,7 @@
 
 ZingoLabs è un team di visionari dedicato a migliorare l'esperienza umana. Crediamo che la tecnologia debba andare a beneficio dell'umanità e che si prosperi attraverso interazioni consensuali. Stiamo individuando gli schemi che rendono tutto questo possibile.
 
-Zingo Lab Cyan opera come una Shielded DAO. Conserviamo i nostri fondi in una tesoreria in cui ogni membro possiede delle chiavi di visualizzazione. I fondi vengono spesi dalla tesoreria quando i membri votano a favore di una proposta.
+Zingo Lab Cyan opera come una Shielded DAO. Conserviamo i nostri fondi in una tesoreria in cui ogni membro possiede una chiave di visualizzazione. I fondi vengono spesi dalla tesoreria quando i membri votano a favore di una proposta.
 
 ## Progetti
 

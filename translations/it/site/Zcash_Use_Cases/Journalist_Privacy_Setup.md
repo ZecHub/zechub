@@ -59,12 +59,12 @@ Zcash offre:
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida Passo Passo
 
 
-### Passo 1: Crea un portafoglio dedicato
+### Passo 1: crea un portafoglio dedicato
 
 - Usa un portafoglio solo per il lavoro sensibile
 - Non mescolare con le transazioni personali
 
-### Passo 2: Usa solo indirizzi schermati
+### Passo 2: usa solo indirizzi schermati
 
 - Effettua sempre transazioni usando indirizzi-z
 - Evita completamente le transazioni trasparenti

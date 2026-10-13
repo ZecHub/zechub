@@ -33,7 +33,7 @@ Anche il pulsante **Swap** di Phantom elenca ZEC, ma così ottieni il token desc
 
 ---
 
-##  **Passaggio 2: Seleziona reti e token per il deposito**  
+##  **Passaggio 2: seleziona reti e token per il deposito**  
 - Scegli la tua **rete di origine** (ad es. *Ethereum* o *Solana*), quindi deposita per effettuare lo swap.  
 
 
@@ -49,7 +49,7 @@ Anche il pulsante **Swap** di Phantom elenca ZEC, ma così ottieni il token desc
 
 ---
 
-##  **Passaggio 3: Inserisci l'importo e controlla la quotazione**
+##  **Passaggio 3: inserisci l'importo e controlla la quotazione**
 - Inserisci l'importo che desideri scambiare.
 - Usa l'importo da ricevere mostrato su **solswap.org**. È la quotazione applicabile a questo percorso.
 
@@ -57,20 +57,20 @@ Anche il pulsante **Swap** di Phantom elenca ZEC, ma così ottieni il token desc
 
 ---
 
-##  **Passaggio 4: Verifica gas e commissioni**
+##  **Passaggio 4: verifica gas e commissioni**
 - Conserva in Phantom una quantità sufficiente del token gas della chain di origine per approvare il deposito (*SOL* su Solana, *ETH* su Ethereum).
 - Leggi la riga delle commissioni nel preventivo di solswap prima di confermare. Lo Swap integrato di Phantom utilizza una propria struttura commissionale (storicamente una commissione Phantom dello 0,85%, più il gas di rete e una commissione di bridging). Questi valori non si applicano a un deposito su solswap.org.
 
 ---
 
-##  **Passaggio 5: Regola le impostazioni (facoltativo)**
+##  **Passaggio 5: regola le impostazioni (facoltativo)**
 Su solswap.org, verifica lo slippage e il minimo quotato da ricevere in quella schermata prima di effettuare il deposito.
 
 Se invece stai visualizzando la schermata **Swap** di Phantom, ti trovi nel percorso dei token indicato nella parte superiore di questa pagina. Chiudila e apri `solswap.org` nel browser Phantom.
 
 ---
 
-##  **Passaggio 6: Conferma lo swap**
+##  **Passaggio 6: conferma lo swap**
 - Controlla tutti i dettagli dello swap su solswap.org.
 - Conferma il deposito in Phantom.
 
@@ -78,7 +78,7 @@ Se invece stai visualizzando la schermata **Swap** di Phantom, ti trovi nel perc
 
 ---
 
-## **Passaggio 7: Monitora lo stato**
+## **Passaggio 7: monitora lo stato**
 - Tieni traccia del deposito nell'attività di solswap.org finché non risulta **Completato**.
 - L'ID della transazione Solana o della chain di origine si trova in quella riga dell'attività e nell'explorer della chain di quella rete.
 
@@ -86,7 +86,7 @@ Se invece stai visualizzando la schermata **Swap** di Phantom, ti trovi nel perc
 
 ---
 
-## **Passaggio 8: Preleva ZEC nativo nel tuo portafoglio Zcash**
+## **Passaggio 8: preleva ZEC nativo nel tuo portafoglio Zcash**
 Dopo lo swap, il tuo ZEC compare nel saldo dell'**Account** di solswap.org. Non è ancora sulla rete Zcash, né si trova in Phantom.
 
 1. Apri un portafoglio Zcash che la [directory](/wallets) contrassegna come **Ironwood: Ready**. Copia un `u1` che il tuo portafoglio etichetta come schermato. Anche un `t1` funziona, ma quel deposito è pubblico finché non lo scherma.

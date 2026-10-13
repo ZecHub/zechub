@@ -55,23 +55,23 @@ Questo vale solo se paghi **da** fondi schermati. Questa pagina specifica chiara
 
 [NanoGPT](https://nano-gpt.com/) ti dà accesso a più di 200 modelli, inclusi GPT, Claude, Gemini e modelli di immagini, e accetta ZEC nativamente.
 
-### Passo 1: Aprilo. Non c'è registrazione
+### Passo 1: aprilo. Non c'è registrazione
 
 Vai su nano-gpt.com e inizia a usarlo. Ogni sessione è anonima per impostazione predefinita e l'app lo dichiara esplicitamente: *"You are already using NanoGPT privately."* Non c'è alcun account da creare né alcuna email da fornire.
 
-### Passo 2: Salva prima un token di accesso
+### Passo 2: salva prima un token di accesso
 
 Prima di caricare denaro, apri **Settings** e crea un token di accesso, poi conservalo in un posto sicuro.
 
 > **Questo passaggio protegge il tuo denaro.** Un saldo anonimo vive nei dati locali del tuo browser. Se cancelli i cookie senza aver salvato un token, il saldo scompare e non esiste un account da cui recuperarlo. Fallo prima di depositare, non dopo.
 
-### Passo 3: Aggiungi saldo
+### Passo 3: aggiungi saldo
 
 Apri **Balance**, scegli **Custom** e inserisci un importo. Il minimo è **$0.10** e il massimo è $5,000. NanoGPT ti dice cosa puoi acquistare, circa 12 prompt GPT 5.5 o 18 immagini per $1.
 
 ![NanoGPT add balance screen showing the custom amount and the ten cent minimum](/content-images/nanogpt-add-balance-acc74a4e6d.webp)
 
-### Passo 4: Scegli Zcash
+### Passo 4: scegli Zcash
 
 Seleziona **Digital currencies**, poi **Zcash** dalla griglia.
 
@@ -79,7 +79,7 @@ Otterrai un codice QR, un indirizzo di pagamento e un **transfer minimum** in ZE
 
 ![NanoGPT Zcash deposit screen with the QR code, unified address and transfer minimum](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
 
-### Passo 5: Invia dal tuo portafoglio
+### Passo 5: invia dal tuo portafoglio
 
 Copia l'indirizzo nel tuo portafoglio, inserisci l'importo e invia. La commissione di rete è circa **0,00015 ZEC**.
 
@@ -87,7 +87,7 @@ Copia l'indirizzo nel tuo portafoglio, inserisci l'importo e invia. La commissio
 
 ![Schermata di invio di Noir Wallet con l'indirizzo di NanoGPT incollato e la commissione di rete visualizzata](/content-images/noir-send-6380a5f4ef.webp)
 
-### Passo 6: Aspetta circa 30 secondi
+### Passo 6: aspetta circa 30 secondi
 
 Il tuo portafoglio mostrerà prima la transazione in attesa, poi in conferma. NanoGPT accredita il saldo alla **prima conferma**, quindi non devi aspettare tutte e tre.
 

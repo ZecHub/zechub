@@ -1,4 +1,4 @@
-# Riassunti degli episodi del ZK Podcast
+# Riassunti degli episodi dello ZK Podcast
 
 ## Episodi
 

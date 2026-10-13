@@ -16423,7 +16423,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -16711,7 +16711,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
@@ -17151,7 +17151,7 @@
       "src_commit": "4d2e47c10f42986def166ded6cb70a48568330f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -17351,7 +17351,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
@@ -17431,7 +17431,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+itreview",
       "edited": false
     },
     "guides/Zcash_Improvement_Proposals.md": {
@@ -17527,7 +17527,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Research/zcash-formal-verification-series/article-0/article-0-what-is-formal-verification.md": {
@@ -17575,7 +17575,7 @@
       "src_commit": "908304c900d3767bb6b240fde919c0667ba75ef8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+termrepair+itglossary",
+      "tool": "codex/gpt-5.6-terra+termrepair+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/Z3_Stack.md": {
@@ -17583,7 +17583,7 @@
       "src_commit": "908304c900d3767bb6b240fde919c0667ba75ef8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -17647,7 +17647,7 @@
       "src_commit": "bad307b6c3f84f2544be0be318d43e984c9c69b0",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {

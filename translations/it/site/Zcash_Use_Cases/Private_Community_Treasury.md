@@ -57,13 +57,13 @@ Zcash permette alle comunità di:
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida passo passo
 
-### Passo 1: Crea un indirizzo schermato per la tesoreria
+### Passo 1: crea un indirizzo schermato per la tesoreria
 
 - Genera un **indirizzo-z** per la tesoreria
 - Questo diventa il conto principale di detenzione
 
 
-### Passo 2: Definisci i ruoli
+### Passo 2: definisci i ruoli
 
 Separa le responsabilità:
 - Tesoriere (controlla i fondi)
@@ -74,14 +74,14 @@ Evita di collegare questi ruoli a identità pubbliche.
 
 
 
-### Passo 3: Ricevi fondi in modo privato
+### Passo 3: ricevi fondi in modo privato
 
 - Accetta i contributi tramite l'indirizzo schermato
 - Incoraggia i contributori a inviare da portafogli schermati
 
 
 
-### Passo 4: Traccia le transazioni internamente
+### Passo 4: traccia le transazioni internamente
 
 Usa:
 - Memo dei portafogli
@@ -92,7 +92,7 @@ Esempio di memo:
 
 
 
-### Passo 5: Esegui i pagamenti in modo privato
+### Passo 5: esegui i pagamenti in modo privato
 
 - Invia i fondi tramite transazioni schermate (z → z)
 - Evita di esporre pubblicamente le identità dei destinatari

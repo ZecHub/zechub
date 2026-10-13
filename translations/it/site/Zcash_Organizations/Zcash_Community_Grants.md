@@ -53,7 +53,7 @@ Electric Coin Company riceve l'8% del [fondo di sviluppo Zcash](https://zips.z.c
 </div>
 
 
-### Fase 1: Prepara la tua proposta
+### Fase 1: prepara la tua proposta
 Crea una proposta chiara che includa:
 - Titolo del progetto e dettagli del richiedente
 - Descrizione del problema e soluzione proposta
@@ -63,7 +63,7 @@ Crea una proposta chiara che includa:
 
 ---
 
-### Fase 2: Invia su GitHub
+### Fase 2: invia su GitHub
 1. Vai al **repository GitHub di Zcash Community Grants**
 2. Apri la scheda **Issues** e fai clic su **New Issue**
 3. Seleziona il **modello di domanda di finanziamento** appropriato
@@ -73,7 +73,7 @@ La issue su GitHub costituisce il **registro ufficiale della domanda**.
 
 ---
 
-### Fase 3: Crea un post sul Forum della comunità
+### Fase 3: crea un post sul Forum della comunità
 1. Vai allo **Zcash Community Forum**
 2. Crea una nuova discussione nella categoria **Zcash Community Grants**
 3. Usa lo stesso titolo della issue su GitHub
@@ -81,13 +81,13 @@ La issue su GitHub costituisce il **registro ufficiale della domanda**.
 
 ---
 
-### Fase 4: Partecipa alla revisione
+### Fase 4: partecipa alla revisione
 - Monitora la issue su GitHub e la discussione sul forum
 - Rispondi alle domande e ai feedback dello ZCG Committee e della comunità
 
 ---
 
-### Fase 5: Esito
+### Fase 5: esito
 - Le proposte approvate procedono al finanziamento e alla rendicontazione
 - Le proposte non approvate **POSSONO** essere riviste e ripresentate
 

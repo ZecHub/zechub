@@ -35,7 +35,7 @@ Questa guida si concentra sul mining di Zcash utilizzando hardware personale (ad
 
 ## Guida passo passo per unirsi a una mining pool
 
-### Passo 1: Configura il tuo portafoglio Zcash
+### Passo 1: configura il tuo portafoglio Zcash
 1. Scarica e installa un portafoglio dal sito ufficiale di Zcash [portafogli](https://zechub.wiki/wallets).
 2. Crea un nuovo portafoglio ed effettua il backup della tua frase mnemonica in modo sicuro.
 3. Genera un indirizzo di ricezione (preferibilmente schermato per la privacy). Annotalo, ad esempio `zs1exampleaddress...`.
@@ -95,7 +95,7 @@ Le mining pool distribuiscono il lavoro e condividono le ricompense in base all'
 
 **Test:** esegui per 10-15 minuti; controlla la console per verificare share accettate e hash rate.
 
-### Passo 5: Avvia il Mining e Monitora
+### Passo 5: avvia il Mining e Monitora
 1. Avvia il miner: si connetterà alla pool e inizierà a inviare share.
 2. Monitora tramite:
    - Dashboard della pool: inserisci il tuo indirizzo del portafoglio per vedere hash rate, saldo non pagato e statistiche.
