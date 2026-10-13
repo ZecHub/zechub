@@ -40,8 +40,8 @@ Possiedi già ZEC. Spostarlo in un portafoglio Zcash ti dà la parte che lo rend
 
 ZecHub non ne sceglie uno per te. Scegli dalla [directory dei portafogli di ZecHub](/wallets) e verifica due etichette sulla scheda del portafoglio prima di installarlo:
 
-- **Ironwood: pronto.** Ironwood è la pool in cui confluiscono i nuovi ZEC schermati dall'aggiornamento [Ironwood](/zcash-tech/ironwood) del 28 luglio 2026. La vecchia pool Orchard non accetta più nuovi fondi.
-- **Schermatura automatica.** Utile se un pagamento arriva in modo trasparente: il portafoglio sposta per te quegli ZEC nella pool schermata. Non considerare questa etichetta un sostituto di **Ironwood: pronto**. Un portafoglio può avere la schermatura automatica e non avere comunque una pool Ironwood (oggi Edge è in questa situazione nella directory). La maggior parte degli altri portafogli mostra invece un pulsante **Schermatura**.
+- **Ironwood: Ready.** Ironwood è la pool in cui confluiscono i nuovi ZEC schermati dall'aggiornamento [Ironwood](/zcash-tech/ironwood) del 28 luglio 2026. La vecchia pool Orchard non accetta più nuovi fondi.
+- **Schermatura automatica.** Utile se un pagamento arriva in modo trasparente: il portafoglio sposta per te quegli ZEC nella pool schermata. Non considerare questa etichetta un sostituto di **Ironwood: Ready**. Un portafoglio può avere la schermatura automatica e non avere comunque una pool Ironwood (oggi Edge è in questa situazione nella directory). La maggior parte degli altri portafogli mostra invece un pulsante **Schermatura**.
 
 Installa il portafoglio dal link sulla sua scheda nella directory, non da un risultato di ricerca o da una pubblicità. Scrivi la frase mnemonica su carta e conservala offline.
 
@@ -56,7 +56,7 @@ Il tuo portafoglio mostra due tipi di indirizzo:
 
 Usa un `u1` che il tuo portafoglio identifica come schermato. Un `u1` è un insieme di ricevitori e alcuni portafogli vi inseriscono un ricevitore trasparente accanto a quello schermato. Un mittente che può pagare solo indirizzi trasparenti userà quello, e il tuo pagamento sarà pubblico anche se hai incollato un `u1`. L'indirizzo schermato del portafoglio usato per il nostro test non ha un ricevitore trasparente, quindi ciò non poteva accadere. [Pool schermate](/using-zcash/shielded-pools) approfondisce i ricevitori. Alcuni portafogli mostrano un nuovo `u1` ogni volta che apri Ricevi; è normale e appartengono tutti a te. La schermata di ricezione e il campo del destinatario di near.com in questa pagina usano per questo motivo prefissi `u1` diversi.
 
-Per il nostro test abbiamo usato ZODL perché era il portafoglio che avevamo configurato. Solo i portafogli che la directory contrassegna come **Ironwood: pronto** possono ricevere nuovo valore schermato.
+Per il nostro test abbiamo usato ZODL perché era il portafoglio che avevamo configurato. Solo i portafogli che la directory contrassegna come **Ironwood: Ready** possono ricevere nuovo valore schermato.
 
 ---
 
@@ -155,7 +155,7 @@ Incollalo in [l'explorer di blocchi Zcash](https://mainnet.zcashexplorer.app). N
 
 ![Riepilogo dell'explorer per la transazione: due input trasparenti, un output trasparente, 0/0 schermati](/content-images/14-explorer-summary-6153afb265.webp)
 
-Fai clic su **Raw TX: JSON** e cerca `ironwood`. Un `valueBalance` negativo lì indica gli ZEC che entrano nel pool Ironwood. Il nostro era `-0.00241336`, esattamente quanto arrivato, e nella transazione nulla mostra chi lo abbia ricevuto.
+Fai clic su **Raw TX: JSON** e cerca `ironwood`. Un `valueBalance` negativo lì indica gli ZEC che entrano nella pool Ironwood. Il nostro era `-0.00241336`, esattamente quanto arrivato, e nella transazione nulla mostra chi lo abbia ricevuto.
 
 ![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
