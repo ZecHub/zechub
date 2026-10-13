@@ -8,7 +8,7 @@
 
 - Tachyon è una riprogettazione proposta del modo in cui i portafogli Zcash trovano e spendono fondi schermati, pensata per consentire alla rete di crescere fino a un numero molto elevato di utenti
 - Oggi un portafoglio deve tentare di decrittare un'enorme porzione della blockchain per scoprire quali pagamenti gli appartengono, ed è il motivo principale per cui la sincronizzazione schermata risulta lenta
-- Tachyon sostituisce questo sistema con la **sincronizzazione cieca** (oblivious synchronization), affinché un portafoglio recuperi ciò di cui ha bisogno senza scansionare tutto e senza comunicare a un server quali parti ha richiesto
+- Tachyon sostituisce questo sistema con la **sincronizzazione cieca** (Oblivious Synchronization), affinché un portafoglio recuperi ciò di cui ha bisogno senza scansionare tutto e senza comunicare a un server quali parti ha richiesto
 - Sposta inoltre i dettagli del pagamento fuori dalla blockchain e nella richiesta di pagamento stessa, rendendo il protocollo più semplice ma trasferendo la responsabilità ai portafogli
 - È una proposta, pubblicata per la prima volta nell'aprile 2025 e indicata come candidata per NU7. **Non è stata implementata**, e richiede uno sforzo ingegneristico della portata dell'aggiornamento Sapling
 

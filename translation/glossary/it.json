@@ -1534,7 +1534,7 @@
     },
     "oblivious synchronization": {
       "target": "sincronizzazione cieca",
-      "context": "Project Tachyon: a wallet fetches the data it needs without the server learning which data it asked for. At the first use on a page add the English in brackets: \"sincronizzazione cieca (oblivious synchronization)\". Never \"sincronizzazione ignara\" or \"sincronizzazione oblivious\".",
+      "context": "Project Tachyon: a wallet fetches the data it needs without the server learning which data it asked for. At the first use on a page add the English in brackets: \"sincronizzazione cieca (Oblivious Synchronization)\". Never \"sincronizzazione ignara\" or \"sincronizzazione oblivious\".",
       "applies_to": "pages",
       "status": "approved",
       "reviewed_by": [

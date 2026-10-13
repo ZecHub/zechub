@@ -181,7 +181,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 
 | Termine | Definizione |
 |------|-----------|
-| Tachyon | Il programma di scalabilità di Zcash, previsto per NU7. Invece di scansionare ogni blocco, i portafogli useranno uno stato corredato di prove e la sincronizzazione cieca, mentre i nodi potranno eliminare i dati non più necessari. L'obiettivo è un throughput schermato di migliaia di transazioni al secondo. [Sito del progetto](https://tachyon.z.cash/overview/) |
+| Tachyon | Il programma di scalabilità di Zcash, previsto per NU7. Invece di scansionare ogni blocco, i portafogli useranno uno stato corredato di prove e la sincronizzazione cieca (Oblivious Synchronization), mentre i nodi potranno eliminare i dati non più necessari. L'obiettivo è un throughput schermato di migliaia di transazioni al secondo. [Sito del progetto](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (valuta di test senza valore). |
 | Testnet | Una blockchain separata per testare aggiornamenti e funzionalità prima della mainnet. |
 | Trailing Finality Layer (TFL) | Ricerca sull'aggiunta di un livello di finalità dietro la catena proof-of-work di Zcash, in modo che i blocchi recenti possano essere finalizzati senza sostituire il mining. Crosslink è il design nato da questa ricerca. |
