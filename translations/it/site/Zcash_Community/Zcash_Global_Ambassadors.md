@@ -18,7 +18,7 @@ Gli ambasciatori hanno libertà creativa sulle attività che pianificano, consen
 
 ## [Sito web degli Ambasciatori Globali](https://zcashambassadors.com)
 
-## Comunità di Ambasciatori attive (2026)
+## Comunità di ambasciatori attive (2026)
 
 | Regione | Comunità | Attività principale |
 |--------|-----------|-------------|

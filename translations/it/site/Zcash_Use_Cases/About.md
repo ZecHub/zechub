@@ -41,7 +41,7 @@ Fatti pagare in Zcash mantenendo privati i tuoi clienti e il tuo reddito.
 Accetta pagamenti usando un indirizzo schermato ed evita di esporre i dati delle transazioni dei clienti
 
 
-###  [Gestisci una Tesoreria Comunitaria Privata](/zcash-use-cases/private-community-treasury)
+###  [Gestisci una tesoreria comunitaria privata](/zcash-use-cases/private-community-treasury)
 Usa indirizzi schermati per detenere fondi condivisi e limitare la visibilità dei saldi e delle transazioni
 
 ###  [Configurazione privacy per giornalisti](/zcash-use-cases/journalist-privacy-setup)   

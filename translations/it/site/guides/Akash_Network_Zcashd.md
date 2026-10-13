@@ -454,7 +454,7 @@ Il provider potrebbe avere problemi. Chiudi la distribuzione e prova un provider
 
 Dal blocco di Fine Supporto del 18 luglio 2026, questo è lo stato permanente previsto e non un ritardo di avvio, e nessuna attesa o nuova distribuzione risolverà il problema. Distribuisci invece [Zebra](/guides/akash-network-zebra).
 
-### Errori "Out of memory" nei log
+### Errori "out of memory" nei log
 
 Hai risparmiato troppo sulla RAM. Chiudi la distribuzione e ridistribuisci con almeno 12Gi di memoria (16Gi consigliati).
 

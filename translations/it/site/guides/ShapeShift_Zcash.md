@@ -88,11 +88,11 @@ Dal momento che stai scambiando verso o da ZEC, assicurati di avere pronto un po
 
 Usa l'interfaccia di scambio per selezionare l'asset da cui vuoi scambiare (per esempio, BTC, ETH o un token ERC-20) e imposta ZEC come asset di destinazione. L'interfaccia di ShapeShift è progettata con un layout pulito, in stile Uniswap, ottimizzato sia per desktop che per mobile.
 
-### Passo 4: inserisci l'Importo e Rivedi
+### Passo 4: inserisci l'importo e rivedi
 
 Inserisci l'importo che desideri scambiare. ShapeShift instraderà lo scambio attraverso il miglior protocollo decentralizzato disponibile (come THORChain per gli scambi cross-chain) e mostrerà il tasso stimato, le commissioni e l'importo in uscita.
 
-### Passo 5: conferma ed Esegui
+### Passo 5: conferma ed esegui
 
 Rivedi i dettagli della transazione e conferma. Lo scambio viene eseguito on-chain attraverso protocolli decentralizzati. I tuoi ZEC saranno consegnati all'indirizzo che hai specificato. Nessun intermediario detiene mai i tuoi fondi.
 

@@ -81,7 +81,7 @@ Il gruppo partecipa inoltre alla definizione dell'ambito di NU7, alla gestione d
 
 ## Iniziative attuali
 
-### Blockchain di voto dei possessori di token / shielded vote
+### Blockchain di voto dei possessori di token / Shielded Vote
 
 Shielded Vote è il protocollo di governance privata di Valar Group per Zcash. I possessori votano con saldi schermati senza rivelare importi individuali né collegare i voti alle identità.
 

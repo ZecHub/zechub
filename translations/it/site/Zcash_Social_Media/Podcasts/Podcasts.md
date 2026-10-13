@@ -22,7 +22,7 @@
 - **Conduttore:**
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
 
-### Episodio 332 – Aggiornamento da Bruxelles con Hart di Across
+### Episodio 332 – aggiornamento da Bruxelles con Hart di Across
 - **Data:** 18 luglio 2024
 - **Link:** [https://zeroknowledge.fm/332-2](https://zeroknowledge.fm/332-2)
 - **Riassunto:** Anna e Tarun si siedono con Hart Lambur durante la settimana di EthCC a Bruxelles per discutere del suo progetto Across, una soluzione di interoperabilità cross-chain e progetto gemello di Uma. Esplorano la costruzione di Across, i compromessi e la confrontano con altre soluzioni di interoperabilità.
@@ -53,7 +53,7 @@
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
 
-### Episodio 329 – Costruire prove crittografiche con funzioni hash con Alessandro Chiesa & Eylon Yogev
+### Episodio 329 – costruire prove crittografiche con funzioni hash con Alessandro Chiesa & Eylon Yogev
 - **Data:** 26 giugno 2024
 - **Link:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
 - **Riassunto:** Anna e Nico chiacchierano con Alessandro Chiesa, Associate Professor all'EPFL, e Eylon Yogev, Professor alla Bar-Ilan University, della loro pubblicazione sulla costruzione di prove crittografiche a partire da funzioni hash.

@@ -111,7 +111,7 @@ Le mining pool distribuiscono il lavoro e condividono le ricompense in base all'
 
 Sovright (sovright.com) gestisce una mining pool Stratum V2 e una rete relay di blocchi separata. Svolgono compiti diversi, quindi sono trattati separatamente qui sotto.
 
-### Mining Pool (mining.sovright.com)
+### Mining pool (mining.sovright.com)
 
 La pool di Sovright funziona su una testnet pubblica di Zcash (NU6, Stratum V2), non sulla mainnet. La testnet non paga ZEC reali. Usala per testare la configurazione del tuo miner, non per guadagnare.
 

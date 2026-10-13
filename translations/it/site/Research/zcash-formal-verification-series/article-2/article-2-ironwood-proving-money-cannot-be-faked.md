@@ -1,5 +1,5 @@
 ![alt text](image-1.png)
-# Ironwood: Dimostrare che il denaro non può essere contraffatto
+# Ironwood: dimostrare che il denaro non può essere contraffatto
 
 ### Come Zcash ha risposto a un bug con una prova verificata da una macchina
 

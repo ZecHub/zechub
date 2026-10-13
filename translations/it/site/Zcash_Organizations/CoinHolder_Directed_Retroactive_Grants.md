@@ -96,7 +96,7 @@ Subito dopo; i grant approvati vengono pagati secondo i termini (KYC per importi
   - Risultati pubblici e trasparenti.
 
 
-#### note: **Turno attuale (al 5 gennaio 2026)**: Q4 2025 completato (voto di novembre); gli invii per il Q1 2026 sono attesi a breve: monitora il forum per gli annunci.
+#### Note: **Turno attuale (al 5 gennaio 2026)**: Q4 2025 completato (voto di novembre); gli invii per il Q1 2026 sono attesi a breve: monitora il forum per gli annunci.
 
 ## Latest Updates:
 

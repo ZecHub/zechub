@@ -41,7 +41,7 @@ Le Cryptographic Hash Functions devono avere queste **3 proprietà**:
 
 ---
 
-### Hash Functions comuni
+### Hash functions comuni
 
 Esistono diverse classi di Hash Functions. Alcuni esempi:
 

@@ -377,7 +377,7 @@ Il provider potrebbe avere dei problemi. Chiudi il deployment e prova un provide
 
 È normale per i primi minuti. Zebra scoprirà i peer automaticamente. Se persiste dopo più di 10 minuti, potresti avere un problema di rete (improbabile su Akash).
 
-#### Errori "Out of memory" nei log
+#### Errori "out of memory" nei log
 
 Hai risparmiato troppo sulla RAM. Chiudi il deployment e riesegui il deploy con almeno 12Gi di memoria (16Gi consigliati).
 

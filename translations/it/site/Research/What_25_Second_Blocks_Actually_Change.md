@@ -1,4 +1,4 @@
-# ZIP 218: Cosa cambiano realmente i blocchi da 25 secondi
+# ZIP 218: cosa cambiano realmente i blocchi da 25 secondi
 
 Nel sondaggio tra i detentori di monete di NU7, chiuso il 14 settembre 2026, circa 2.397.669 ZEC hanno votato a favore di ZIP 218 e 141,6 ZEC hanno votato contro, per un risultato del 99,9%. La maggior parte della copertura lo ha riassunto dicendo che "i blocchi di Zcash diventano più veloci". È vero, ma tralascia gran parte di ciò che la proposta fa e gran parte di ciò che mantiene deliberatamente invariato.
 

@@ -1,4 +1,4 @@
-# Guida alla migrazione: da zcashd a Zebrad/Zallet
+# Guida alla migrazione: da zcashd a zebrad/Zallet
 
 Il full node (nodo completo) tradizionale zcashd, gestito da *Electric Coin Company (ECC)* / *Zodl*, è stato sostituito da Zebra e Zallet. zcashd ha raggiunto l'interruzione del supporto il 18 luglio 2026 e non è più in esecuzione.
 

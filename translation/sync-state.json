@@ -16487,7 +16487,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Serve_Github_Repo_with_IPFS.md": {
@@ -16567,7 +16567,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+itreview",
       "edited": false
     },
     "Zcash_Community/Zcash_Ecosystem_Security.md": {
@@ -17327,7 +17327,7 @@
       "src_commit": "756e751c8836f8fe459f9d4831cb04cfb956c43a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "guides/My_First_Zcash_Workbook.md": {
@@ -17623,7 +17623,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     },
     "Zcash_Tech/Is_Zcash_Post_Quantum.md": {

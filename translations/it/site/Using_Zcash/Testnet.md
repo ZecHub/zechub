@@ -142,7 +142,7 @@ Un **faucet** (in italiano rubinetto) è un servizio che offre monete TAZ gratui
 
 
 
-## Zkool e Zingo! Portafogli
+## Portafogli Zkool e Zingo!
 
 ### Zkool
 
@@ -176,7 +176,7 @@ Un **faucet** (in italiano rubinetto) è un servizio che offre monete TAZ gratui
 - Gli account ZEC di Mainnet non sono interessati
 - Utilizza un server lightwallet Testnet se richiesto
 
-### Zingo! Portafoglio
+### Portafoglio Zingo!
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
