@@ -4,7 +4,7 @@
 
 # Memos
 
-#### Invio di memos cifrati
+#### Invio di memo cifrati
 
 Quando invii una transazione Z2Z (da schermato a schermato), puoi includere un memo (messaggio) nella transazione. Questo memo può essere utilizzato per diverse finalità.
 

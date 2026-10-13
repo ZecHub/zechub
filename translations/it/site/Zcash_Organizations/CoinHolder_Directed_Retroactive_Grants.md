@@ -65,7 +65,7 @@ Da parte dei Key-Holder per questioni legali o per danni agli utenti/alla comuni
 
 Rispondi alle domande della comunità durante i 30 giorni di revisione.
 
-#### Note: Amministrato da FPF (conformità, comunicazione); le proposte vengono raccolte su GitHub per garantirne la visibilità.
+#### Note: amministrato da FPF (conformità, comunicazione); le proposte vengono raccolte su GitHub per garantirne la visibilità.
 
 ## Voting process and cadence
 

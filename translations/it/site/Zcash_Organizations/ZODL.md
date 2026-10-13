@@ -60,7 +60,7 @@ ZODL è un portafoglio mobile in autocustodia progettato per transazioni Zcash p
 - **Flexa Payments:** spendi ZEC presso i principali rivenditori, tra cui GameStop, Chipotle, Sheetz e Barnes & Noble
 - **Coinbase Integration:** acquista ZEC direttamente all'interno del portafoglio senza una registrazione separata presso un exchange
 - **Messaggistica crittografata:** privacy a livello di Zcash per i memo schermati, insieme alle transazioni o indipendentemente da esse
-- **Indirizzi unificati:** gestione semplificata degli indirizzi tra le pool trasparente, Sapling e Orchard
+- **Indirizzi unificati:** gestione semplificata degli indirizzi tra le pool trasparenti, Sapling e Orchard
 - **Tor Support:** privacy a livello di rete potenziata per la trasmissione delle transazioni
 
 **Impegni sulla privacy:**

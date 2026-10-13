@@ -12,7 +12,7 @@ Hai già ZEC su Solana (ad esempio da un token che remunera i titolari in ZEC)? 
 
 "ZEC" in Phantom può indicare due asset diversi, quindi assicurati di sapere per quale stai pagando.
 
-- **Il pulsante di scambio integrato di Phantom** ti fornisce una rappresentazione token di ZEC su Solana (o su un'altra rete supportata da Phantom). Non è ZEC nativo. Si trova al tuo indirizzo Phantom, non ha funzionalità schermate di Zcash e un portafoglio Zcash non può vederlo né schermarlo.
+- **Il pulsante Swap integrato di Phantom** ti fornisce una rappresentazione token di ZEC su Solana (o su un'altra rete supportata da Phantom). Non è ZEC nativo. Si trova al tuo indirizzo Phantom, non ha funzionalità schermate di Zcash e un portafoglio Zcash non può vederlo né schermarlo.
 - ZEC **nativo** esiste solo sulla blockchain Zcash e viene inviato a un indirizzo Zcash. Per ottenerlo, hai bisogno di un servizio che richieda il tuo indirizzo Zcash, come uno scambio all'interno di [ZODL](https://zodl.com), una delle opzioni sulla pagina [DEX](/dex), oppure solswap.org seguito da un prelievo verso il tuo portafoglio Zcash (Passaggio 8).
 
 ### Controlla prima di pagare

@@ -112,7 +112,7 @@ Scarica NymVPN solo dal sito web ufficiale di Nym o da uno store ufficiale della
 
 NymVPN supporta Android, iOS, Linux, Windows e macOS.
 
-### 2. Seleziona la modalità mixnet
+### 2. Seleziona la modalità Mixnet
 
 NymVPN offre la **modalità Fast**, un percorso dVPN a 2 hop ottimizzato per una latenza inferiore, e la **modalità Mixnet**, un percorso mixnet a 5 hop ottimizzato per una protezione più forte dei metadati di rete. Per attività sensibili del portafoglio, seleziona la modalità Mixnet e attendi che il client segnali che la connessione è stabilita prima di aprire o aggiornare il portafoglio.
 

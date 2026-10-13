@@ -105,7 +105,7 @@ La piattaforma Free2z offre una fantastica funzionalità chiamata Free2z Live. C
 - Lavagna condivisa  
 - E molto altro!
 
-### Cosa puoi fare con Free2Z Live
+### Cosa puoi fare con Free2z Live
 
 Free2z Live è uno strumento potente che permette ai creatori di trasmettere qualsiasi tipo di contenuto. Ecco alcuni esempi del tipo di contenuti che puoi trasmettere con Free2z Live:  
 - Tutorial e dimostrazioni  
@@ -140,7 +140,7 @@ _(Esempio di sessione di Free2z Live)_
 
 Free2z Live è versatile e potente. Nella prossima sezione fornirò una panoramica delle sue funzionalità e dei suoi strumenti.
 
-### Esplorare Free2Z Live
+### Esplorare Free2z Live
 
 Questo wiki-doc non vuole essere una guida approfondita a Free2z o Free2z Live. Ma ecco una panoramica generale dei suoi strumenti.
 
