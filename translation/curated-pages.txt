@@ -18,6 +18,7 @@ Privacy_Tools/VPN_and_DVPN.md
 Privacy_Tools/Web_Browsers.md
 Research/Dash_Zcash_Orchard_Integration.md
 Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md
+Research/Grayscale_Zcash_ETF_ZCSH.md
 Research/Namada_Privacy_and_Best_Practices.md
 Research/Navigating_the_Central_Bank_Digital_Currency.md
 Research/Social_Media_Data_Collection.md
@@ -70,6 +71,7 @@ Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md
 Using_Zcash/Testnet.md
 Using_Zcash/Transactions.md
 Using_Zcash/Transparent_Exchange_Addresses.md
+Using_Zcash/Unified_Addresses.md
 Using_Zcash/Zallet_Quick_Reference_Guide.md
 Using_Zcash/Zcash_Mining_Guide.md
 Using_Zcash/Zcash_Mining_Pools.md
@@ -136,6 +138,7 @@ Zcash_Tech/FROST_Threshold_Custody.md
 Zcash_Tech/Full_Nodes.md
 Zcash_Tech/Halo.md
 Zcash_Tech/Heartwood.md
+Zcash_Tech/Indexer_Benchmark_Zaino_vs_Ztreamer.md
 Zcash_Tech/Ironwood.md
 Zcash_Tech/Is_Zcash_Post_Quantum.md
 Zcash_Tech/Lightwallet_Nodes.md
@@ -150,6 +153,7 @@ Zcash_Tech/Post_Quantum_Security.md
 Zcash_Tech/Private_Information_Retrieval.md
 Zcash_Tech/Project_Tachyon.md
 Zcash_Tech/Sapling.md
+Zcash_Tech/Shielded_Cold_Signing.md
 Zcash_Tech/Sprout.md
 Zcash_Tech/Shielded_Coinholder_Voting.md
 Zcash_Tech/The_Turnstile.md
@@ -189,6 +193,7 @@ guides/Avalanche_RedBridge.md
 guides/BTCPayServer_Zcash_Plugin.md
 guides/Blockchain_Explorers.md
 guides/Brave_Wallet_Guide.md
+guides/Crosslink_Feature_Net.md
 guides/Free2Z_Livestreaming.md
 guides/Free2z_Live.md
 guides/Hardened_Zebrad.md
@@ -211,6 +216,7 @@ guides/Visualizing_the_Zcash_Network.md
 guides/Ywallet_FROST_Demo.md
 guides/Zcash_Devtool.md
 guides/Zcash_Improvement_Proposals.md
+guides/Zcash_Node_RPC_and_Indexing.md
 guides/Zenith_Installation.md
 guides/Zero-Knowledge_vs_Decoys.md
 guides/Zgo_Payment_Processor.md

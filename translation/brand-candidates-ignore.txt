@@ -16,3 +16,7 @@ Zcash Community
 # full name "Dash Evolution" is protected. Decided 2026-10-11.
 Unsigned
 Evolution
+
+# Part of the ZIP 233 title "Network Sustainability Mechanism"; an ordinary
+# word that translations render with the mechanism's description. 2026-10-13.
+Sustainability
