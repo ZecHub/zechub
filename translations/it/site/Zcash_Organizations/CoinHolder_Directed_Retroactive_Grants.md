@@ -57,7 +57,7 @@ Da parte dei Key-Holder per questioni legali o per danni agli utenti/alla comuni
 **Scadenza**:
 
 
-- Trimestrale; annunciata su forum/X (ad es. Q4 2025: 12 ottobre 2025, 23:59 UTC).
+- Trimestrale; annunciata su forum/X (es. Q4 2025: 12 ottobre 2025, 23:59 UTC).
 - Invii tardivi: ripresentali al turno successivo oppure candidati agli ZCG.
 
 

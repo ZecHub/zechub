@@ -17695,7 +17695,7 @@
       "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -17711,7 +17711,7 @@
       "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },

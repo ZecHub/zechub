@@ -1,6 +1,6 @@
 # Benchmark degli indexer: Zaino vs Ztreamer
 
-Zaino e Ztreamer sono due indexer che servono il protocollo gRPC lightwallet, l'API che i light wallet Zcash usano per sincronizzarsi. Questa pagina riassume un confronto indipendente e riproducibile dei due: se restituiscono le stesse risposte, quanto tempo impiegano per costruire il proprio indice e quanto rapidamente servono i portafogli.
+Zaino e Ztreamer sono due indexer che servono il protocollo gRPC lightwallet, l'API che i portafogli leggeri Zcash usano per sincronizzarsi. Questa pagina riassume un confronto indipendente e riproducibile dei due: se restituiscono le stesse risposte, quanto tempo impiegano per costruire il proprio indice e quanto rapidamente servono i portafogli.
 
 ## In breve
 

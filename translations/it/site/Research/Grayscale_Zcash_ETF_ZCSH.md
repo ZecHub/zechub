@@ -10,7 +10,7 @@ inizia questa pagina. Il 25 agosto 2026 il fondo ha iniziato a essere negoziato 
 *l'ETF Zcash*, il primo prodotto exchange-traded spot statunitense su Zcash, ed è
 ora uno dei maggiori singoli detentori di ZEC esistenti.
 
-![How the Grayscale Zcash ETF works: investors buy ZCSH shares through a brokerage and receive price exposure only, while the trust holds the ZEC at Coinbase Custody in transparent wallets; Authorized Participants create and redeem shares in baskets of 10,000 for cash, and the Sponsor's Fee is paid out of the trust's ZEC, so ZEC per share declines over time](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)
+![Come funziona il Grayscale Zcash ETF: gli investitori comprano azioni ZCSH tramite un broker e ottengono solo l'esposizione al prezzo, mentre il trust detiene gli ZEC presso Coinbase Custody in portafogli trasparenti; i Partecipanti autorizzati creano e riscattano le azioni in blocchi da 10.000 in contanti, e la commissione dello Sponsor è pagata con gli ZEC del trust, quindi gli ZEC per azione diminuiscono nel tempo](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)
 
 ## Lo stesso fondo, tre fasi
 
@@ -131,7 +131,7 @@ Tutte primarie, tutte su EDGAR con CIK 1720265 salvo diversa indicazione.
 - [Form 10-K per l'anno concluso il 31 dicembre 2024](https://www.sec.gov/Archives/edgar/data/1720265/000095017025035469/zcsh-20241231.htm)
 - [L'ETF Zcash inizia a essere negoziato su NYSE Arca, 25 agosto 2026](https://www.globenewswire.com/news-release/2026/8/25/3350404/0/en/the-zcash-etf-ticker-zcsh-built-by-grayscale-begins-trading-on-nyse-arca-expanding-investor-access-to-the-leading-privacy-focused-digital-currency.html)
 - [Grayscale Pagina del fondo Zcash Trust](https://www.grayscale.com/funds/grayscale-zcash-trust) — date di avvio e comunicazioni attuali
-- [Il primo ETF su una privacy coin: all'interno del documento depositato da Grayscale per Zcash](https://crypto.news/the-first-privacy-coin-etf-inside-grayscales-zcash-filing/) — fonte secondaria; l'unica trovata che afferma che i ZEC del Trust sono detenuti in indirizzi trasparenti
+- [Il primo ETF su una privacy coin: all'interno del documento depositato da Grayscale per Zcash](https://crypto.news/the-first-privacy-coin-etf-inside-grayscales-zcash-filing/) — fonte secondaria; l'unica trovata che afferma che gli ZEC del Trust sono detenuti in indirizzi trasparenti
 
 Le cifre sono riferite alle date indicate e varieranno. Verificato il 30 settembre 2026.
 Solo a scopo educativo, non è consulenza d'investimento.
