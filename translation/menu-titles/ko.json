@@ -212,6 +212,7 @@
   "guides/Ywallet_FROST_Demo.md": "Ywallet FROST 데모",
   "guides/Zcash_Devtool.md": "Zcash Devtool",
   "guides/Zcash_Improvement_Proposals.md": "Zcash 개선 제안서",
+  "guides/Zcash_Node_RPC_and_Indexing.md": "실전 가이드: Zcash 노드 RPC 및 블록체인 인덱싱",
   "guides/Zenith_Installation.md": "Zenith GUI 전체 노드 지갑 설치",
   "guides/Zero-Knowledge_vs_Decoys.md": "제로 지식 증명 vs 유인자 기반 시스템",
   "guides/Zgo_Payment_Processor.md": "ZGo 결제 처리기: 보관 없이 Zcash 수락하기",

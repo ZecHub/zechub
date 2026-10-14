@@ -213,6 +213,7 @@
   "guides/Ywallet_FROST_Demo.md": "Демонстрація FROST у Ywallet",
   "guides/Zcash_Devtool.md": "Zcash Devtool",
   "guides/Zcash_Improvement_Proposals.md": "Пропозиції щодо вдосконалення Zcash",
+  "guides/Zcash_Node_RPC_and_Indexing.md": "Практичний посібник: RPC вузла Zcash та індексування блокчейну",
   "guides/Zenith_Installation.md": "Встановлення повновузлового GUI-гаманця Zenith",
   "guides/Zero-Knowledge_vs_Decoys.md": "Нульове розголошення знань проти систем на основі приманок",
   "guides/Zgo_Payment_Processor.md": "Платіжний процесор ZGo: приймання Zcash без кастодіального зберігання",

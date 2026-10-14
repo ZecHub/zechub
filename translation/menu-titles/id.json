@@ -214,6 +214,7 @@
   "guides/Ywallet_FROST_Demo.md": "Demo FROST Ywallet",
   "guides/Zcash_Devtool.md": "Alat Pengembang Zcash",
   "guides/Zcash_Improvement_Proposals.md": "Proposal Peningkatan Zcash",
+  "guides/Zcash_Node_RPC_and_Indexing.md": "Panduan Praktis: Node RPC dan Pengindeksan Blockchain Zcash",
   "guides/Zenith_Installation.md": "Instalasi Dompet Full Node GUI Zenith",
   "guides/Zero-Knowledge_vs_Decoys.md": "Zero-knowledge vs Sistem Berbasis Decoy",
   "guides/Zgo_Payment_Processor.md": "Prosesor Pembayaran ZGo: Menerima Zcash Tanpa Kustodial",
