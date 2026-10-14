@@ -17674,14 +17674,6 @@
       "tool": "codex/gpt-5.6-terra+handfix+itglossary",
       "edited": false
     },
-    "Glossary_and_FAQs/Glossary.md": {
-      "src": "sha256:3c846479797081cdd625d67fcde413cd541e3d2302c339b77ea3d51cdd1fd9e5",
-      "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "guides/Zcash_Node_RPC_and_Indexing.md": {
       "src": "sha256:b814f0fc9ebdef1e8e510dd3a5d47f9ade75ce3883bf85f4952c604ac0863e2f",
       "src_commit": "df844dbf94545324db108e41c36f0887aa2e3b08",
