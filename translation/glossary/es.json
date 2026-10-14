@@ -1,6 +1,6 @@
 {
   "locale": "es",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Spanish",
     "native_name": "Español",
@@ -12,7 +12,32 @@
   },
   "style": {
     "variety": "natural, fluent Spanish",
-    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Spanish usage; do not force awkward coinages."
+    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Spanish usage; do not force awkward coinages.",
+    "abbreviations_with_full_stop": [
+      "abr",
+      "ago",
+      "aprox",
+      "art",
+      "cap",
+      "dic",
+      "ej",
+      "ene",
+      "etc",
+      "feb",
+      "jul",
+      "jun",
+      "máx",
+      "mín",
+      "nov",
+      "núm",
+      "oct",
+      "p",
+      "pág",
+      "sept",
+      "Sr",
+      "Sra",
+      "vol"
+    ]
   },
   "terms": {
     "node": {
@@ -52,6 +77,13 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_es.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-10-14",
+      "terms": [],
+      "phrases": [],
+      "summary": "Gate only (not sent to the model): abbreviations written with a full stop, so the sentence-boundary gate stops reading them as sentence ends (e.g. \"oct. …\")."
     }
   ]
 }

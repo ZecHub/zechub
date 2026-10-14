@@ -1,6 +1,6 @@
 {
   "locale": "ru",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Russian",
     "native_name": "Русский",
@@ -11,7 +11,31 @@
     "last_review": null
   },
   "style": {
-    "variety": "natural, fluent Russian (Cyrillic script), following standard technical Russian conventions"
+    "variety": "natural, fluent Russian (Cyrillic script), following standard technical Russian conventions",
+    "abbreviations_with_full_stop": [
+      "авг",
+      "апр",
+      "г",
+      "гг",
+      "дек",
+      "др",
+      "е",
+      "млн",
+      "млрд",
+      "нояб",
+      "окт",
+      "п",
+      "пр",
+      "рис",
+      "сент",
+      "см",
+      "стр",
+      "т",
+      "табл",
+      "тыс",
+      "февр",
+      "янв"
+    ]
   },
   "terms": {
     "node": {
@@ -51,6 +75,13 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_ru.txt: language variety and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-10-14",
+      "terms": [],
+      "phrases": [],
+      "summary": "Gate only (not sent to the model): abbreviations written with a full stop, so the sentence-boundary gate stops reading them as sentence ends (e.g. \"см. …\")."
     }
   ]
 }
