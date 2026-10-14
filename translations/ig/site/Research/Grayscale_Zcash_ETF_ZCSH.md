@@ -7,7 +7,7 @@ ZEC dị n'ahịa mepere emepe dịka onye ọ bụla ọzọ.
 
 Ọdịiche ahụ bụ otu ihe kacha ezighi ezi gbasara ZCSH, ọ bụkwa ebe ahụ ka ọ bụ
 peeji a na-amalite. Na 25 Ọgọst 2026, ego ahụ malitere ịzụ ahịa na NYSE Arca dịka
-* Zcash ETF*, nke bụ mbụ na mba Amerịka hụrụ ngwaahịa Zcash gbanwere agbanwe, ọ bụkwa ya bụ
+*Zcash ETF*, nke bụ mbụ na mba Amerịka hụrụ ngwaahịa Zcash gbanwere agbanwe, ọ bụkwa ya bụ
 ugbu a otu n'ime ndị nwere otu ZEC buru ibu dị adị.
 
 ![How the Grayscale Zcash ETF works: investors buy ZCSH shares through a brokerage and receive price exposure only, while the trust holds the ZEC at Coinbase Custody in transparent wallets; Authorized Participants create and redeem shares in baskets of 10,000 for cash, and the Sponsor's Fee is paid out of the trust's ZEC, so ZEC per share declines over time](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)

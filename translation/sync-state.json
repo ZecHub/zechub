@@ -7187,7 +7187,7 @@
       "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
@@ -16253,7 +16253,7 @@
       "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
