@@ -1,6 +1,6 @@
 {
   "locale": "tr",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Turkish",
     "native_name": "Türkçe",
@@ -12,7 +12,17 @@
   },
   "style": {
     "variety": "natural, fluent Turkish",
-    "loanwords_text": "Common technical loanwords may remain in their established Turkish form; do not force awkward coinages."
+    "loanwords_text": "Common technical loanwords may remain in their established Turkish form; do not force awkward coinages.",
+    "abbreviations_with_full_stop": [
+      "bkz",
+      "Dr",
+      "ör",
+      "örn",
+      "Prof",
+      "vb",
+      "vs",
+      "yy"
+    ]
   },
   "terms": {
     "node": {
@@ -51,6 +61,13 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_tr.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-10-14",
+      "terms": [],
+      "phrases": [],
+      "summary": "Gate only (not sent to the model): abbreviations written with a full stop, so the sentence-boundary gate stops reading them as sentence ends (e.g. \"ör. …\")."
     }
   ]
 }
