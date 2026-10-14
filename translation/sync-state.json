@@ -265,11 +265,11 @@
       "edited": false
     },
     "Start_Here/Network_Upgrades.md": {
-      "src": "sha256:8074cf9e324c84d7dd4fb1c809b39a19a9542fedd008f9255f3e1b596cab5f27",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
+      "src": "sha256:7ec77d2ea1f087dd3f144e1ce067109d45766f84711ad84e86672647eb54d37f",
+      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+gloss-restore",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
@@ -1762,22 +1762,6 @@
     },
     "Using_Zcash/Unified_Addresses.md": {
       "src": "sha256:6f8680df38352e75f90d5d45168a800cf64dba8f3c7e46f73a54d30176b284b1",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "Zcash_Tech/Indexer_Benchmark_Zaino_vs_Ztreamer.md": {
-      "src": "sha256:9b6ecb8781eca577a5a5dca9fbd853a17c5610fa8b69e429cbd8ae4b299aa865",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "guides/Crosslink_Feature_Net.md": {
-      "src": "sha256:cfb3579385f3f96fa2d3199d13f3955404bf1d45d1f60e6b76732f008ea64086",
       "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
       "engine": "gt",
       "mode": "full",
@@ -7180,38 +7164,6 @@
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+handfix",
-      "edited": false
-    },
-    "Research/Grayscale_Zcash_ETF_ZCSH.md": {
-      "src": "sha256:617929bc48b7085753825c94f02dff13886659124bc4bf4d21d80b8dff2c1b63",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static+handfix",
-      "edited": false
-    },
-    "Using_Zcash/Unified_Addresses.md": {
-      "src": "sha256:6f8680df38352e75f90d5d45168a800cf64dba8f3c7e46f73a54d30176b284b1",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "Zcash_Tech/Indexer_Benchmark_Zaino_vs_Ztreamer.md": {
-      "src": "sha256:9b6ecb8781eca577a5a5dca9fbd853a17c5610fa8b69e429cbd8ae4b299aa865",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "guides/Crosslink_Feature_Net.md": {
-      "src": "sha256:cfb3579385f3f96fa2d3199d13f3955404bf1d45d1f60e6b76732f008ea64086",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
       "edited": false
     },
     "guides/Zcash_Node_RPC_and_Indexing.md": {
@@ -16258,14 +16210,6 @@
     },
     "Using_Zcash/Unified_Addresses.md": {
       "src": "sha256:6f8680df38352e75f90d5d45168a800cf64dba8f3c7e46f73a54d30176b284b1",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "Zcash_Tech/Indexer_Benchmark_Zaino_vs_Ztreamer.md": {
-      "src": "sha256:9b6ecb8781eca577a5a5dca9fbd853a17c5610fa8b69e429cbd8ae4b299aa865",
       "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
       "engine": "gt",
       "mode": "full",
@@ -27124,22 +27068,6 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Zcash_Tech/Indexer_Benchmark_Zaino_vs_Ztreamer.md": {
-      "src": "sha256:9b6ecb8781eca577a5a5dca9fbd853a17c5610fa8b69e429cbd8ae4b299aa865",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
-    "Zcash_Tech/Shielded_Cold_Signing.md": {
-      "src": "sha256:b229f4d23dfeb869b65121363b24f5f29008271cb984aec304b8d03e17c179ce",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "guides/Crosslink_Feature_Net.md": {
       "src": "sha256:cfb3579385f3f96fa2d3199d13f3955404bf1d45d1f60e6b76732f008ea64086",
       "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
@@ -32528,14 +32456,6 @@
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+handfix",
-      "edited": false
-    },
-    "Zcash_Tech/Indexer_Benchmark_Zaino_vs_Ztreamer.md": {
-      "src": "sha256:9b6ecb8781eca577a5a5dca9fbd853a17c5610fa8b69e429cbd8ae4b299aa865",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
       "edited": false
     }
   },
