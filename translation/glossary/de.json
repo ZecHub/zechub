@@ -1,6 +1,6 @@
 {
   "locale": "de",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "German",
     "native_name": "Deutsch",
@@ -12,7 +12,37 @@
   },
   "style": {
     "variety": "natural, fluent German",
-    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural German usage; do not force awkward coinages."
+    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural German usage; do not force awkward coinages.",
+    "abbreviations_with_full_stop": [
+      "Abb",
+      "Abs",
+      "B",
+      "bzw",
+      "ca",
+      "d",
+      "Dez",
+      "etc",
+      "evtl",
+      "Feb",
+      "ff",
+      "ggf",
+      "h",
+      "inkl",
+      "Jan",
+      "Jh",
+      "max",
+      "min",
+      "Mio",
+      "Mrd",
+      "Nov",
+      "Nr",
+      "Okt",
+      "Sept",
+      "sog",
+      "u",
+      "usw",
+      "vgl"
+    ]
   },
   "terms": {
     "node": {
@@ -51,6 +81,13 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_de.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-10-14",
+      "terms": [],
+      "phrases": [],
+      "summary": "Gate only (not sent to the model): abbreviations written with a full stop, so the sentence-boundary gate stops reading them as sentence ends (e.g. \"bzw. …\")."
     }
   ]
 }
