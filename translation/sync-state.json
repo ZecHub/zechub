@@ -9031,6 +9031,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Crosslink_Feature_Net.md": {
+      "src": "sha256:cfb3579385f3f96fa2d3199d13f3955404bf1d45d1f60e6b76732f008ea64086",
+      "src_commit": "41c8a5f257aa9b0978dda35c6e35378a63f961de",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "fr": {
@@ -14457,6 +14465,14 @@
     "Zcash_Tech/Indexer_Benchmark_Zaino_vs_Ztreamer.md": {
       "src": "sha256:9b6ecb8781eca577a5a5dca9fbd853a17c5610fa8b69e429cbd8ae4b299aa865",
       "src_commit": "2479cce6ed3ba8b83faa78c5ff28afdb919b3ded",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Shielded_Cold_Signing.md": {
+      "src": "sha256:b229f4d23dfeb869b65121363b24f5f29008271cb984aec304b8d03e17c179ce",
+      "src_commit": "41c8a5f257aa9b0978dda35c6e35378a63f961de",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -21689,6 +21705,14 @@
     "Using_Zcash/Unified_Addresses.md": {
       "src": "sha256:6f8680df38352e75f90d5d45168a800cf64dba8f3c7e46f73a54d30176b284b1",
       "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Research/Grayscale_Zcash_ETF_ZCSH.md": {
+      "src": "sha256:617929bc48b7085753825c94f02dff13886659124bc4bf4d21d80b8dff2c1b63",
+      "src_commit": "41c8a5f257aa9b0978dda35c6e35378a63f961de",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
