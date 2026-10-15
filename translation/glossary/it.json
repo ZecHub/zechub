@@ -1904,14 +1904,14 @@
       "source": "menus-review-it.md#navigation-5"
     },
     "Visualizing the Zcash Network": {
-      "target": "Visualizzare la rete Zcash",
+      "target": "Visualizzare la rete di Zcash",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#navigation-66"
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "voting chain": {
       "target": "blockchain di voto",
@@ -1965,14 +1965,14 @@
       "source": "sitetext-review-it.md (website text review)"
     },
     "Zcash Ecosystem Security": {
-      "target": "Sicurezza dell'ecosistema Zcash",
+      "target": "Sicurezza dell'ecosistema di Zcash",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#navigation-46"
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "Zcash Global Ambassadors": {
       "target": "Ambasciatori Globali di Zcash",
@@ -2324,7 +2324,9 @@
         "Payment Request URIs",
         "Recovering Funds",
         "Start Here",
+        "Visualizing the Zcash Network",
         "Zcash Community",
+        "Zcash Ecosystem Security",
         "Zcash Global Ambassadors",
         "Zcash Organizations",
         "Zcash Visualizers"
