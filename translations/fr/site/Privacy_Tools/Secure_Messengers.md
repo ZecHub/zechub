@@ -33,7 +33,7 @@ Essayez-les : https://z.cash/wallets
 
 La messagerie privée Signal est une application de messagerie sécurisée où la confidentialité des données est portée à son plus haut niveau. L’application de messagerie privée Signal est gratuite et facile à utiliser ; les utilisateurs n’ont besoin d’aucune expérience préalable. L’application Signal utilise une technologie de chiffrement de bout en bout qui garantit que vos communications restent entièrement privées. Toute personne souhaitant envoyer des messages privés en toute sécurité devrait envisager d’utiliser la messagerie privée Signal, car elle réduira considérablement à la fois vos vulnérabilités en cybersécurité et votre empreinte de données.
 
-Essayez-la : [https://signal.org/download](https://signal.org/download)
+Essayez-la : [https://signal.org/download/](https://signal.org/download/)
 
 **BisonRelay**
 

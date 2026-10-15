@@ -4,25 +4,25 @@
 
 # <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alt Text" width="50"/>  Zcash Community Grants
 
-## Taarifa ya Ujumbe
+## Taarifa ya Dhamira
 
-Mpango wa Zcash Community Grants unafadhili timu za kujitegemea zinazoingia katika mfumo wa ikolojia ya Zcash, kutekeleza maendeleo makubwa yanayoendelea (au kazi nyingine) kwa faida ya umma ya mfumo wa Ikolojia. 
+Programu ya Zcash Community Grants hufadhili timu huru zinazoingia katika mfumo ikolojia Zcash, ili kufanya maendeleo makubwa yanayoendelea (au kazi nyingine) kwa manufaa ya umma ya mfumo ikolojia Zcash. 
 
 ## Watu na Timu
 
-Zcash Community Grants ni kusimamiwa na kamati, ambayo kwa sasa inajumuisha watu watano. jamii hii mapitio na inakubali maombi ya ruzuku kutoka timu ya tatu ambao wanataka kujenga juu ya itifaki Zcash.](https://zcashcommunitygrants.org/committee/)
+Zcash Community Grants zinasimamiwa na kamati, ambayo kwa sasa ina watu watano. Jumuiya hii hupitia na kuidhinisha maombi ya ruzuku kutoka kwa timu za watu wengine wanaotaka kujenga juu ya itifaki Zcash. Maelezo zaidi kuhusu [Timu](https://zcashcommunitygrants.org/committee/)
 
-Recent projects that have been approved by the ZCG are Zcash Shielded Assets (ZSA)  led by the QEDIT team. Bringing DeFi to ZEC with Zcash with a new payments protocol adding additional features to the Zcash mainnet. 
+Miradi ya hivi karibuni ambayo imeidhinishwa na ZCG ni Zcash Shielded Assets (ZSA) inayoongozwa na timu ya QEDIT. Kuleta DeFi kwa ZEC na Zcash na itifaki mpya ya malipo inayoongeza vipengele vya ziada kwenye mtandao mkuu Zcash. 
 
-Filamu fupi ya Zcash Media inayoonyesha watu mashuhuri wa Zcash kama vile Edward Snowden, Zooko & Deirdre Connolly kwa kusudi la kuunda video zinazofaa, za burudani na za elimu ili zishirikiwe sana. 
+Makala Fupi ya Zcash Media inayowashirikisha waigizaji maarufu wa Zcash kama vile Edward Snowden, Zooko & Deirdre Connolly kwa lengo la kuunda video muhimu, za burudani na za kielimu ili zisambazwe kwa wingi. 
 
-Ushirikiano wa pochi za vifaa vya Ledger kusaidia kikamilifu shughuli za ulinzi wa Sapling, hii inaruhusu Zcash kuhifadhiwa kwa faragha na salama. Hii imefanywa na Timu ya Zondax. 
+Ujumuishaji wa pochi za vifaa vya mkononi wa Ledger ili kusaidia kikamilifu miamala iliyolindwa na Sapling, hii inaruhusu Zcash kuhifadhiwa faragha na salama. Hii imefanywa na Timu Zondax. 
 
-Easy moja-click kulindwa malipo na Point-ya-kuuza mfumo kwa matofali na matofali maduka SDK kuwa undertaken na ZGo. 
+Mfumo rahisi wa malipo kwa kubofya mara moja na sehemu ya mauzo kwa ajili ya maduka ya matofali na chokaa SDK unaofanywa na ZGo. 
 
-Programu ya Balozi wa Ulimwenguni inasaidia Zcash kupata uwakilishi mpana kimataifa na kwa hafla za jamii za kibinafsi ulimwenguni kote. 
+Programu ya Balozi wa Kimataifa husaidia Zcash kupata uwakilishi mpana zaidi kimataifa na kwa matukio ya kijamii ya ana kwa ana duniani kote. 
 
-Miradi mingine kadhaa imekaguliwa na Kamati ya Zcash Grants, angalia [Orodha Kamili, Iliyosasishwa](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) ya miradi iliyowasilishwa.
+Miradi mingine kadhaa imepitiwa na Kamati ya Ruzuku Zcash, tazama a [Orodha Kamili, Imesasishwa](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) ya miradi iliyowasilishwa.
 
 ## Muundo wa Shirika
 
@@ -30,16 +30,16 @@ Zcash Community Grants ni shirika huru kutoka Electric Coin Company na Zcash Fou
 
 ## Ufadhili
 
-Electric Coin Company inapokea 8% ya [Zcash mfuko wa maendeleo](https://zips.z.cash/zip-1014)Wao kutumia fedha hizi kusaidia timu ya maendeleo ya tatu na pia kwa ajili ya shughuli za ndani.
+Zcash Community Grants hupokea 8% ya ruzuku ya vitalu, chini ya mfumo wa ufadhili ulioanzishwa katika NU6.1 na [ZIP 1016](https://zips.z.cash/zip-1016)Mtiririko ulianza wakati wa awali [ZIP 1015](https://zips.z.cash/zip-1015) Mtiririko umekwisha, na unaendelea hadi nusu ya tatu Zcash's katika kitalu namba 4,406,400 chini ya nafasi ya sasa ya vitalu. ZCG hutumia fedha hizi kusaidia timu huru katika mfumo ikolojia Zcash.
 
 ## Rasilimali
 
-[Zcash maendeleo na utawala](https://z.cash/zcash-development-and-governance/)
+[Maendeleo na utawala wa Zcash](https://z.cash/zcash-development-and-governance/)
 
 
 
 
-## Jinsi ya kuwasilisha maombi ya ruzuku kupitia ZCG (GitHub + Jukwaa la Jumuiya)
+## Jinsi ya Kutuma Maombi ya Ruzuku kupitia ZCG (GitHub + Jukwaa la Jumuiya)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -53,44 +53,44 @@ Electric Coin Company inapokea 8% ya [Zcash mfuko wa maendeleo](https://zips.z.c
 </div>
 
 
-### Hatua ya 1: Jitayarishe
-Kujenga pendekezo wazi ikiwa ni pamoja na:
+### Hatua ya 1: Tayarisha Pendekezo Lako
+Unda pendekezo lililo wazi ikiwa ni pamoja na:
 - Jina la mradi na maelezo ya mwombaji
-- Taarifa ya tatizo na ufumbuzi uliopendekezwa
-- Deliverables, ratiba ya muda, na hatua muhimu
+- Taarifa ya tatizo na suluhisho lililopendekezwa
+- Malengo, ratiba, na hatua muhimu
 - Bajeti na ombi la ufadhili
-- Uzoefu husika na hatari
+- Uzoefu na hatari zinazofaa
 
 ---
 
-### Hatua ya 2: Kuwasilisha kwenye GitHub
-1. Kwenda ** Zcash Jumuiya ya misaada GitHub hazina **
-2. Fungua tab **Masuala** na bofya **New Issue**
-3. Chagua kiolezo cha maombi ya ruzuku inayofaa **
-4. Kujaza mashamba yote required na kuwasilisha
+### Hatua ya 2: Wasilisha kwenye GitHub
+1. Nenda kwenye hazina ya **Zcash Community Grants GitHub**
+2. Fungua kichupo cha **Masuala** na ubofye **Suala Jipya**
+3. Chagua kiolezo cha **ombi la ruzuku** kinachofaa
+4. Jaza sehemu zote zinazohitajika na uwasilishe
 
-Suala la GitHub ni ** rekodi rasmi ya maombi **.
-
----
-
-### Hatua ya 3: Kujenga Post Forum Jumuiya
-1. Nenda kwenye Jukwaa la Jumuiya ya Zcash
-2. Kujenga thread mpya katika jamii ya **Zcash Community Grants**
-3. Tumia kichwa sawa na suala la GitHub
-4. Kuongeza muhtasari mfupi na ni pamoja na ** kiungo kwa suala la GitHub **
+Suala la GitHub ni **rekodi rasmi ya programu**.
 
 ---
 
-### Hatua ya 4: Pitia Mambo
-- Kufuatilia suala GitHub na mada jukwaa
-- Jibu maswali na maoni kutoka kwa Kamati ya ZCG na jamii
+### Hatua ya 3: Unda Chapisho la Jukwaa la Jumuiya
+1. Nenda kwenye Jukwaa la Jumuiya **Zcash**
+2. Unda uzi mpya katika kategoria ya **Zcash Community Grants**
+3. Tumia kichwa sawa na toleo GitHub
+4. Ongeza muhtasari mfupi na ujumuishe kiungo cha **suala la GitHub**
+
+---
+
+### Hatua ya 4: Shiriki katika Mapitio
+- Fuatilia suala la GitHub na uzi wa jukwaa
+- Jibu maswali na maoni kutoka kwa Kamati ZCG na jamii
 
 ---
 
 ### Hatua ya 5: Matokeo
-- Mapendekezo yaliyokubaliwa yanaendelea kwa ufadhili na kuripoti
-- Mapendekezo yasiyokubaliwa **NAWEZA** kurekebishwa na kuwasilishwa tena
+- Mapendekezo yaliyoidhinishwa yanaendelea kufadhili na kuripoti
+- Mapendekezo ambayo hayajaidhinishwa **YANAWEZA** kurekebishwa na kuwasilishwa tena
 
 ---
 
-**Kumbuka:** GitHub ni chanzo cha rekodi; jukwaa ni kwa majadiliano ya umma.
+**Kumbuka:** GitHub ndiyo chanzo cha rekodi; jukwaa hili ni la majadiliano ya umma.

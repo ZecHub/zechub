@@ -52,9 +52,9 @@ Penggunaan decoy memang meningkatkan set anonimitas. Namun, pendekatan ini sepen
 
 4) **Tanpa Trusted Setup**: setup Sprout & Sapling dari Zcash menggunakan multi-party computation yang dikenal sebagai "trusted setup ceremony". peningkatan jaringan NU5 baru-baru ini tidak memerlukan kepercayaan apa pun pada integritas setup zero-knowledge circuit. [Baca Blog ECC di NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Privasi Data**: Teknologi [zk-SNARK](https://zechub.wiki/zcash-technology) yang digunakan dalam pool terlindungi milik Zcash memungkinkan peningkatan keamanan yang signifikan bagi pengguna. Pengurangan kebocoran metadata on-chain berarti bahwa pengguna aman dari pihak lawan seperti potensi hacker atau badan negara yang represif.
+5) **Privasi Data**: Teknologi [zk-SNARK teknologi](https://zechub.wiki/zcash-tech/zk-snarks) yang digunakan dalam pool terlindungi milik Zcash memungkinkan peningkatan keamanan yang signifikan bagi pengguna. Pengurangan kebocoran metadata on-chain berarti bahwa pengguna aman dari pihak lawan seperti potensi hacker atau badan negara yang represif.
 
-Ada sejumlah kasus di mana bug telah teridentifikasi dalam algoritma pemilihan decoy Monero. Bug ini berpotensi mengungkap pengeluaran pengguna menurut laporan dari [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero).
+Ada sejumlah kasus di mana bug telah teridentifikasi dalam algoritma pemilihan decoy Monero. Bug ini berpotensi mengungkap pengeluaran pengguna menurut laporan dari [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero).
 
 
 Singkatnya, apa yang paling penting adalah mengurangi atau menghilangkan kebocoran informasi dan data pengguna sebagaimana dijelaskan oleh Zooko pada sesi live [Orchid (priv8) AMA](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9)

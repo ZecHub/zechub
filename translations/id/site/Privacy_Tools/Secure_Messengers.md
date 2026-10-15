@@ -33,7 +33,7 @@ Coba sendiri: https://z.cash/wallets
 
 Signal private messenger adalah aplikasi pesan aman dengan privasi data pada tingkat tertinggi. Aplikasi Signal private messenger gratis dan mudah digunakan, pengguna tidak memerlukan pengalaman sebelumnya. Aplikasi Signal memiliki teknologi end-to-end encryption yang memastikan komunikasi kamu sepenuhnya pribadi. Siapa pun yang ingin mengirim pesan pribadi secara aman harus mempertimbangkan untuk menggunakan aplikasi Signal private messenger karena hal ini akan mengurangi kerentanan keamanan siber serta jejak data kamu secara eksponensial.
 
-Coba sendiri: [https://signal.org/download](https://signal.org/download)
+Coba sendiri: [https://signal.org/download/](https://signal.org/download/)
 
 **BisonRelay**
 

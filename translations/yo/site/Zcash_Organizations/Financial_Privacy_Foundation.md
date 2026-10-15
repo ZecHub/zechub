@@ -2,41 +2,41 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ẹgbẹ́ Ìdáàbòbò Àṣírí-Iwọ̀n (FPF)
+# Ìpìlẹ̀ Ìpamọ́ Owó (FPF)
 ![FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
 ## Nípa FPF
-The Financial Privacy Foundation (FPF) is a non-profit organization incorporated in the Cayman Islands. FPFs primary goal is to educate and empower individuals and communities to take control of their financial privacy and security. FPF is also committed to promoting a fair and equitable financial system that respects personal privacy. FPFs primary activity related to financial privacy is to provide individuals and communities with information, resources and support to protect and optimize their financial privacy. The Financial Privacy Fund (FPF) is currently creating a grant program titled FPF X FPF.
+Àjọ Ìpamọ́ Owó (FPF) jẹ́ àjọ tí kìí ṣe ti èrè tí a dá sílẹ̀ ní àwọn erékùsù Cayman. Ète pàtàkì FPF ni láti kọ́ àwọn ènìyàn àti àwùjọ ní ẹ̀kọ́ àti láti fún wọn ní agbára láti ṣàkóso ìpamọ́ owó wọn àti ààbò wọn. FPF tún ti pinnu láti gbé ètò ìṣúná owó tí ó tọ́ àti tí ó tọ́ lárugẹ tí ó bọ̀wọ̀ fún ìpamọ́ ara ẹni. Iṣẹ́ pàtàkì FPF tí ó níí ṣe pẹ̀lú ìpamọ́ owó ni láti fún àwọn ènìyàn àti àwùjọ ní ìwífún, àwọn ohun èlò àti ìtìlẹ́yìn láti dáàbò bo àti láti mú ìpamọ́ owó wọn sunwọ̀n síi. Àjọ Ìpamọ́ Owó (FPF) ń ṣẹ̀dá ètò ìrànlọ́wọ́ kan tí àkọlé rẹ̀ ń jẹ́ FPF X FPF lọ́wọ́lọ́wọ́.
 
-##  Ìsọfúnni nípa FPF X FPF
+##  Ìwífún nípa FPF X FPF
 
- FPF X FPF is about FPFs first experimental grant program, the Financial Privacy Fund (FPF x FPF). The program will fund engineering projects within the Zcash ecosystem that are nearing completion, or projects that will immediately contribute to the ecosystem and can be completed within the specified time and funding limits. FPF X FPF is launching with very limited funds to refine the grant funding process and hopes to launch future rounds. 
+ FPF X FPF jẹ́ nípa ètò ìrànlọ́wọ́ ìdánwò àkọ́kọ́ FPF, Financial Privacy Fund (FPF x FPF). Ètò náà yóò ṣe ìrànlọ́wọ́ fún àwọn iṣẹ́ ẹ̀rọ nínú ètò ìṣẹ̀dá Zcash tí ó ń sún mọ́ ìparí, tàbí àwọn iṣẹ́ tí yóò ṣe àfikún sí ètò ìṣẹ̀dá náà lẹ́sẹ̀kẹsẹ̀ tí a lè parí láàárín àkókò tí a yàn àti àwọn ààlà ìnáwó. FPF X FPF ń ṣe ìfilọ́lẹ̀ pẹ̀lú owó díẹ̀ láti ṣe àtúnṣe ìlànà ìnáwó ìrànlọ́wọ́ náà, ó sì ń retí láti ṣe àwọn ìpele ọjọ́ iwájú. 
 
 
-## [FPF x ZecHub Bounty Program - Àkọlé Ìkànnì orí Íńtánẹ́èùtì](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
+## [FPF x ZecHub Bounty Program - Bulọọgi Ifiweranṣẹ](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
 
-## FPF X Àlàyé ètò ìfúnra owó. 
+## Àwọn Àlàyé Ètò FPF X FPF 
 
-FPF X Àlàyé ètò àjọ yìí Àwọn àlàyé kan wà nínú ìtòlẹ́sẹẹsẹ rẹ̀, àwọn ni:
+Àwọn Àlàyé Ètò FPF X FPF FPF ní ọ̀pọ̀lọpọ̀ àlàyé nínú ètò rẹ̀ èyí tí ó jẹ́:
 
-- Iye owó: O to $50,000 USD.
-- Iye ti o pọju fun Ibeere: $25,000 USD.
-- Àwọn Àlàfo KYC: Kò sí rárá.
-- Iru Iṣẹ́: Àwọn iṣẹ́ ẹ̀rọ tí ó lè ṣe èrè fún ètò ìgbé ayé Zcash ní tààràtà àti èyí tó ṣeé parí pátápátá nìkan ni a óò gbé yẹ̀ wò.
-- Ìsanwó: Lẹ́yìn tí a bá parí iṣẹ náà dáadáa.
-- Ọjọ ifilọlẹ: Oṣu Kẹta ọjọ 18, 2024
+- Iye Owó: Titi di $50,000 USD
+- Ìbéèrè Tó Pọ̀ Jùlọ: $25,000 USD
+- Awọn ibeere KYC: Kò sí
+- Iru Iṣẹ́ Àgbékalẹ̀: Àwọn iṣẹ́ ẹ̀rọ tí ó lè ṣe àǹfààní fún ètò Zcash ní tààràtà tí a sì lè parí pátápátá nìkan ni a óò gbé yẹ̀ wò.
+- Isanwo: Ni ipari iṣẹ akanṣe naa ni aṣeyọri
+- Ọjọ́ Ìfilọ́lẹ̀: Oṣù Kẹta Ọjọ́ 18, Ọdún 2024
 
-## Ìtòlẹ́sẹẹsẹ fún ìfilọ̀ owó ìrànwọ́ 
+## Ilana Ohun elo Funni 
 
-The FPF X FPF grant application process includes several processes. First, applicants must apply for the grant through the secure form provided. Then, FPF will review the application for eligibility, and applicants will be notified of their status within 5 calendar days after the application deadline. Next, an adhoc review committee will review and decide on the grant award within 20 calendar days after the submission deadline. Details of the grants awarded will be published on the FPF website for transparency and accountability.
+Ilana ibeere fun ẹbun FPF X FPF ni ọpọlọpọ awọn ilana. Ni akọkọ, awọn olubẹwẹ gbọdọ beere fun ẹbun naa nipasẹ fọọmu aabo ti a pese. Lẹhin naa, FPF yoo ṣe atunyẹwo ibeere fun ẹtọ, ati pe awọn olubẹwẹ yoo ni ifitonileti ipo wọn laarin awọn ọjọ kalẹnda marun lẹhin akoko ipari ibeere naa. Nigbamii, igbimọ atunyẹwo adhoc kan yoo ṣe atunyẹwo ati pinnu lori ẹbun ẹbun naa laarin awọn ọjọ kalẹnda 20 lẹhin akoko ipari ifisilẹ. Awọn alaye ti awọn ẹbun ti a funni ni a yoo tẹjade lori oju opo wẹẹbu FPF fun alaye ati iṣiro.
 
-## Àwọn ìsọfúnni síwájú sí i nípa FPF X FPF 
+## Alaye siwaju sii nipa FPF X FPF 
 
-Alaye siwaju sii nipa FPF X FPF le ri lori oju opo wẹẹbu ti Financial Privacy Fun (FPF) [níhìn-ín ni](https://www.financialprivacyfoundation.org/grants) àti bí o bá ṣì ń fẹ́ mọ̀ nípa ètò FPF X FPF, ẹ lè lọ sí ojúewé FAQs níbí: [Àwọn ìbéèrè tí a sábà máa ń béèrè](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
+A le rii alaye siwaju sii nipa FPF X FPF lori oju opo wẹẹbu Financial Privacy Fun (FPF) [Nibi](https://www.financialprivacyfoundation.org/grants) tí o bá sì ṣì ní ìfẹ́ sí ètò FPF X FPF, o lè ṣàbẹ̀wò sí ìwé FAQ níbí: [Awọn ibeere ti a maa n beere nigbagbogbo](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Ti o ba nifẹ lati di Olutọju Onigbọwọ fun iyipo yii ti eto FPF X FPF, jọwọ lọ si eyi: [ìjápọ̀](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Fun awọn ibeere siwaju sii nipa FPF X FPF Grant Program, o le beere taara nipasẹ fifiranṣẹ imeeli kan. [FPF (ìmọ̀ ọ̀nà)](info@financialprivacyfoundation.org).
+Tí o bá fẹ́ di Olùṣàtúnyẹ̀wò Olùyọ̀ǹda fún ìpele yìí ti ètò FPF X FPF, jọ̀wọ́ ṣèbẹ̀wò síbí [ìjápọ̀](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Fun awọn ibeere siwaju sii nipa Eto Grant FPF X FPF, o le beere taara nipa fifiranṣẹ imeeli kan [FPF](mailto:info@financialprivacyfoundation.org).
 
-## Àwọn Owó-ìṣúnná owó 
-[Ìpèsè fún Ààbò Nípa Owó Ọ̀fẹ́](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
+## Àwọn ohun àlùmọ́nì 
+[Owó Ìpamọ́ Owó](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
 
 

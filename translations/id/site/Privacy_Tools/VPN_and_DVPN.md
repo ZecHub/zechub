@@ -57,7 +57,7 @@ __Pembuatan Akun Anonim__: Pengguna diberikan nomor akun yang dibuat secara acak
 
 __Pembayaran Zcash__: Mullvad menerima Zcash sebagai opsi pembayaran, yang memungkinkan pengguna untuk membayar langganan mereka dengan privasi yang lebih ditingkatkan.Mullvad VPN.
 
-3. [__Nym VPN (dVPN)__](https://nymtech.net/)
+3. [__Nym VPN (dVPN)__](https://nym.com/)
    
 Nym VPN adalah dVPN terdesentralisasi yang berfokus pada peningkatan privasi dan keamanan pengguna melalui jaringan yang berpusat pada privasi. Nym VPN beroperasi secara berbeda dari VPN tradisional dengan menggunakan mixnet, di mana lalu lintas pengguna diarahkan melalui jaringan node. Fitur utama dari Nym VPN meliputi:
 
@@ -75,7 +75,7 @@ Untuk perutean khusus dompet Zcash, lihat [Rute Lalu Lintas Dompet Zcash Melalui
 
 3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)
- 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
+ 5. [__CyberGhost__](https://www.cyberghostvpn.com/)
  6. [__Private Internet Access (PIA)__](https://www.privateinternetaccess.com/)
 
 Perlu diingat bahwa ketersediaan opsi pembayaran cryptocurrency dapat berubah, jadi disarankan untuk memeriksa situs web penyedia VPN atau menghubungi dukungan pelanggan mereka untuk mendapatkan informasi terbaru mengenai metode pembayaran yang diterima, termasuk Zcash.

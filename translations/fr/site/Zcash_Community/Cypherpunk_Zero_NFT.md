@@ -1,21 +1,21 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Cypherpunk_Zero_NFT.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-![en-tête](/content-images/205220798-c8e51db6-ddad-46ff-b760-401756-c9ba937b4e.webp)
+![header](/content-images/205220798-c8e51db6-ddad-46ff-b760-401756-c9ba937b4e.webp)
 
 
 # Cypherpunk Zero
 
-Cypherpunk Zero est une série narrative centrée sur Zero, une jeune hackeuse cypherpunk et combattante de la liberté. Zero vit actuellement dans un cauchemar dystopique et elle utilise le code pour lutter contre les gardiens centralisés qui enchaînent la société. L’histoire a été inspirée par Zcash et la cryptographie Halo. Cette œuvre créative est le fruit d’un effort collaboratif entre ECC, Stranger World, Might Jaxx et certains partenaires sélectionnés de l’écosystème. Le travail créatif s’est surtout concentré sur une [série de NFT](https://opensea.io/collection/cypherpunk-zero) et un [jouet de collection](https://mightyjaxx.com/products/cypherpunk-zero) ont également été publiés. La communauté NFT, principalement active sur Twitter, a même créé une [organisation décentralisée (DAO)](https://twitter.com/CypherpunkDAO) afin d’organiser et de mener à bien des projets soutenant la campagne, ainsi que la communauté Zcash au sens large.
+Cypherpunk Zero est une série narrative centrée sur Zero, une jeune hackeuse cypherpunk et combattante pour la liberté. Zero vit actuellement dans un cauchemar dystopique et elle utilise le code pour lutter contre les gardiens centralisés qui enchaînent la société. L’histoire s’inspire de la cryptographie Zcash et Halo. L’œuvre créative est le fruit d’une collaboration entre ECC, Stranger World, Might Jaxx et certains partenaires de l’écosystème. L’œuvre créative s’est notamment concentrée sur une série de [NFT](https://opensea.io/collection/cypherpunk-zero), et un [jouet de collection](https://mightyjaxx.com/products/cypherpunk-zero) a également été publié. La communauté NFT, principalement active sur Twitter, a même créé une [organisation décentralisée (DAO)](https://twitter.com/CypherpunkDAO) afin d’organiser et de réaliser des projets soutenant la campagne, ainsi que la communauté Zcash au sens large.
 
-## Feuille de route anti-roadmap
+## Feuille de route anti-feuille de route
 
-Nous avons vu trop de projets faire trop de promesses et pas assez de livraisons concernant leurs feuilles de route NFT. À ce titre, il n’existe pas de feuille de route formelle. Faites-nous confiance : nous préparons des avantages incroyables et exclusifs pour les détenteurs de NFT, certains attendus, d’autres inattendus. Attachez votre ceinture et rejoignez-nous pour l’aventure.
+Nous avons vu trop de projets faire des promesses excessives et ne pas les tenir dans leurs feuilles de route NFT. Par conséquent, il n’existe aucune feuille de route officielle. Soyez assurés que nous préparons des avantages exclusifs exceptionnels pour les détenteurs de NFT, certains attendus, d’autres inattendus. Attachez vos ceintures et rejoignez-nous pour l’aventure.
 
 ## Gouvernance
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — le portail personnalisé de la DAO à vote.cypherpunkzero.com a été retiré et son domaine ne résout plus ; voici l’espace Snapshot qui subsiste.
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — le portail personnalisé de la DAO sur vote.cypherpunkzero.com a été retiré et son domaine ne résout plus ; cet espace Snapshot est celui qui subsiste.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 
@@ -27,7 +27,7 @@ Nous avons vu trop de projets faire trop de promesses et pas assez de livraisons
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/KF-VwIOYDlE"
-    title="Strange Wolf - Éveillé"
+    title="Strange Wolf - Awake"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -39,28 +39,28 @@ Nous avons vu trop de projets faire trop de promesses et pas assez de livraisons
 
 [Ethereum](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
 
-## Quelles sont les allocations des jetons ?
+## Quelles sont les allocations de jetons ?
 
-*Offre totale* : 10,000 NFT génératifs uniques sur Ethereum Mainnet
-4 % de l’offre (les 400 premiers NFT) ont été airdropés aux premiers soutiens du projet qui ont acheté le jouet Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
+*Offre totale* : 10 000 NFT génératifs uniques sur Ethereum Mainnet
+4 % de l’offre (les 400 premiers NFT) ont été distribués par airdrop aux premiers soutiens du projet qui ont acheté le Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
 
-72 % de l’offre (7,200 NFT) seront mis à la disposition du public au moyen d’un mécanisme inédit de liste blanche qui nécessite l’utilisation d’un portefeuille Zcash prenant en charge les mémos chiffrés (plus de détails ci-dessous).
+72 % de l’offre (7 200 NFT) seront distribués au public grâce à un nouveau mécanisme de liste blanche nécessitant l’utilisation d’un wallet Zcash prenant en charge les mémos chiffrés (plus de détails ci-dessous).
 
-24 % de l’offre (2,400 NFT) seront conservés par ECC dans la Réserve Cypherpunk, afin d’être utilisés dans de futures initiatives faisant progresser Zcash et la confidentialité dans l’espace Web3.
+24 % de l’offre (2 400 NFT) seront détenus par ECC dans la Cypherpunk Reserve, afin d’être utilisés dans le cadre de futures initiatives faisant progresser Zcash et la confidentialité dans l’espace Web3.
 
 
-# Cypherpunk Zero v2 Liste blanche 
+# Liste blanche Cypherpunk Zero v2 
 
-Oui, la collection originale a été piratée, l’avenir n’est pas encore écrit.
+Oui, la collection originale a été piratée, l’avenir n’est pas écrit.
 
 ## Ressources
 
-[Twitter de Cypherpunk Zero](https://twitter.com/cypherpunkZero)
+[Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Collection OpenSea de Cypherpunk Zero](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Collection](https://opensea.io/collection/cypherpunk-zero)
 
-[Twitter du DAO Cypherpunk Zero](https://twitter.com/CypherpunkDAO)
+[Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 
-[Discord du DAO Cypherpunk Zero](https://discord.com/invite/sjfgXys4Jf)
+[Cypherpunk Zero DAO Discord](https://discord.com/invite/sjfgXys4Jf)
 
-[Méga-fil NFT de Cypherpunk Zero](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
+[Méga-fil Cypherpunk Zero NFT](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

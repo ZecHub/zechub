@@ -14,7 +14,7 @@
 
 ## Quelles sont les considérations de sécurité lors du choix d'un navigateur Web ?
 
-Lorsque vous choisissez un navigateur web, il y a quelques éléments à garder à l'esprit : les vulnérabilités et failles de sécurité sont généralement découvertes régulièrement. Certains navigateurs sont traçables d'une manière ou d'une autre, mais il existe des navigateurs qui permettent aux utilisateurs de naviguer anonymement - le [navigateur Tor](https://www.torproject.org/download/) par exemple. 
+Lorsque vous choisissez un navigateur web, il y a quelques éléments à garder à l'esprit : les vulnérabilités et failles de sécurité sont généralement découvertes régulièrement. Certains navigateurs sont traçables d'une manière ou d'une autre, mais il existe des navigateurs qui permettent aux utilisateurs de naviguer anonymement - le [Tor navigateur](https://download.torproject.org/), par exemple.
 
 **Empreinte numérique** : Si vous souhaitez garder privées des informations telles que les logiciels installés sur votre machine, la configuration matérielle, et plus encore, envisagez de rechercher un navigateur web qui prend en charge une fonction de résistance à l'empreinte numérique. 
 

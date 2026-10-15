@@ -78,6 +78,8 @@ Kesimpulannya: privasi bergantung pada tetap berada di dalam pool terlindungi. B
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### Panduan Visual
 
 Berikut adalah empat contoh bagus dari berbagai blockchain explorer:

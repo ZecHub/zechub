@@ -78,6 +78,8 @@ Zcashには複数の種類のアドレスがあり、エクスプローラーは
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### ビジュアルガイド
 
 以下は、異なるブロックチェーンエクスプローラーの4つの良い例です。

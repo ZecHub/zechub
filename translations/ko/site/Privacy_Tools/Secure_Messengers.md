@@ -32,7 +32,7 @@ Zcash 데스크톱 및 모바일 지갑에는 사용자가 비공개된 쉴드 �
 
 Signal 개인 메신저는 데이터 프라이버시가 최고 수준인 보안 메신저 앱입니다. Signal 개인 메신저 앱은 무료이며 사용하기 쉽습니다. 사용자는 이전 경험 없이도 쉽게 사용할 수 있습니다. Signal 앱에는 통신이 완전히 비밀로 유지되도록 보장하는 엔드투엔드 암호화 기술이 포함되어 있습니다. 개인 메시지를 안전하게 전송하고자 하는 사람들은 Signal 개인 메신저 앱을 고려해야 합니다. 이는 사이버보안 취약점과 데이터 흔적을 지수적으로 줄일 수 있기 때문입니다.
 
-사용해 보세요: [https://signal.org/download](https://signal.org/download)
+사용해 보세요: [https://signal.org/download/](https://signal.org/download/)
 
 **BisonRelay**
 

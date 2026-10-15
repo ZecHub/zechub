@@ -5,23 +5,23 @@
 ![header](/content-images/205220798-c8e51db6-ddad-46ff-b760-401756-c9ba937b4e.webp)
 
 
-# Àwọn Òǹkàwé-ìmọ̀ràn Zero
+# Zero Cypherpunk
 
-Cypherpunk Zero je awon ohun elo to n so itan nipa Zero, omo cypherpunk hacker ati ologun ominira. Oun ni o wa ninu ipaniyan kan ti ko si nkankan se pelu bi won ṣe maa lo code lati ja lodi si awọn gatekeepers centralized chaining society. Itan naa jẹ iwuri nipasẹ Zcash and Halo cryptography. Ise abinibi yii jẹ igbiyanju ifowosowopo laarin ECC, Stranger World, Might Jaxx ati yan awọn alabaṣepọ ilolupo eda-aye. Aṣayan iṣẹ abinibe ti da lori aarin agbegbe ti o dara julọ fun gbogbo eniyan pẹlu eto imulo iṣowo rẹ. [Àwọn ìsínà NFT](https://opensea.io/collection/cypherpunk-zero), [ohun ìṣeré tí a lè kó jọ](https://mightyjaxx.com/products/cypherpunk-zero) Awon eniyan NFT, ti won n lo lori Twitter ni o kere ju, tun da aarin kan fun awon oniroyin nipa ohun elo yi. [ètò tí kò dá-lódi (DAO)](https://twitter.com/CypherpunkDAO) láti ṣètò àti parí àwọn iṣẹ́ tí ó ń ṣe àtìlẹyìn fún ìpolongo náà, àti àwùjọ Zcash lápapọ̀.
+Cypherpunk Zero jẹ́ eré ìtàn tí ó dá lórí Zero, ọ̀dọ́mọkùnrin oníjàǹbá cypherpunk àti jagunjagun òmìnira. Zero ń gbé nínú àlá burúkú lọ́wọ́lọ́wọ́, ó sì ń lo kódì láti bá àwùjọ àwọn olùṣọ́nà tí wọ́n ń dì mọ́ ara wọn jà. Ìtàn náà wá láti inú ìtàn Zcash àti Halo cryptography. Iṣẹ́ ìṣẹ̀dá jẹ́ ìsapá ìfọwọ́sowọ́pọ̀ láàárín ECC, Stranger World, Might Jaxx àti àwọn alábàáṣiṣẹpọ̀ ètò àyíká tí a yàn. Iṣẹ́ ìṣẹ̀dá náà ti dojúkọ jùlọ lórí [Àwọn NFT series](https://opensea.io/collection/cypherpunk-zero) àti [ohun ìṣeré tí a lè kó jọ](https://mightyjaxx.com/products/cypherpunk-zero) Wọ́n tún ti tú wọn sílẹ̀. Àwùjọ NFT, tí wọ́n ń ṣiṣẹ́ lórí Twitter, ti ṣẹ̀dá [àjọ tí a kò ṣe àkóso rẹ̀ (DAO)](https://twitter.com/CypherpunkDAO) láti ṣètò àti parí àwọn iṣẹ́ àgbékalẹ̀ tí ń ṣètìlẹ́yìn fún ìpolongo náà, àti àwùjọ Zcash tí ó gbòòrò.
 
-## Àkọsílẹ̀-ọnà tí kò bá ìwé ìrìnàjò mu.
+## Mapu ipa ọna lodi si-ọna
 
-We have seen too many projects over-promise and under deliver on their NFT roadmaps. As such, there is no formal roadmap. Trust that we have got some amazing, exclusive perks in the pipeline for NFT holders some expected, some unexpected. Buckle up and join us for the ride.
+A ti rí ọ̀pọ̀lọpọ̀ iṣẹ́ tí wọ́n ti ṣe àṣeyọrí ju bí wọ́n ṣe fẹ́ lọ tí wọn kò sì tíì mú ṣẹ lórí àwọn ìlànà NFT wọn. Nítorí náà, kò sí ìlànà ojú ọ̀nà tí a fọwọ́ sí. Gbàgbọ́ pé a ní àwọn àǹfààní tó yanilẹ́nu, tó sì ṣe pàtàkì fún àwọn tó ní NFT, àwọn kan ń retí, àwọn kan sì ń retí. Ẹ dì í mú kí ẹ sì dara pọ̀ mọ́ wa fún ìrìn àjò náà.
 
-## Ìdarí Ìjọba
+## Ìṣàkóso
 
-[Àwòrán ojú-ìmọ́](https://snapshot.box/#/s:cypherpunkzerodao.eth)  ìkànnì àdáni ti DAO ní vote.cypherpunkzero.com ni a yọ kúrò àti pé òkòrò rẹ̀ kò tún yanjú mọ́; èyí jẹ́ ojúewé Snapshot tó wà láàyè.
+[Fọ́tò Àwòrán](https://snapshot.box/#/s:cypherpunkzerodao.eth) — ojú òpó àdáni DAO ní vote.cypherpunkzero.com ti fẹ̀yìntì, agbègbè rẹ̀ kò sì yanjú mọ́; èyí ni ààyè Snapshot tó wà láàyè.
 
-[Ẹgbẹ́ àwọn ọmọ-ẹ̀yìn](https://guild.xyz/cypherpunkzerodao)
+[Guild](https://guild.xyz/cypherpunkzerodao)
 
-[Orílẹ̀-èdè Àpapọ̀](https://commonwealth.im/cypherpunk-zero)
+[Commonwealth](https://commonwealth.im/cypherpunk-zero)
 
-## Ta ni Àjèjì Ọdẹ?
+## Ta ni Àlejò Ikooko?
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -35,32 +35,32 @@ We have seen too many projects over-promise and under deliver on their NFT roadm
 </div>
 
 
-## Èwo nínú àwọn ìsọ̀rí ni NFT wà?
+## Àwọn ẹ̀wọ̀n wo ni NFT wà?
 
-[Ethereum (ìyẹn owó ẹyọ)](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
+[Ethereum](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
 
-## Kí ni àwọn ìsọfúnni tó wà nínú àmì náà?
+## Àwọn ìpínfúnni àmì wo ni?
 
-*Gbogbo ipese*: 10,000 awọn NFTs alailẹgbẹ lori Ethereum Mainnet.
-4% ti ipese (awọn 400 NFT akọkọ) ni a fi si awọn onigbọwọ iṣẹ akanṣe ibẹrẹ ti o ra Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
+*Ipese apapọ*: Awọn NFT alailẹgbẹ 10,000 lori Ethereum Mainnet
+4% ti ipese (400 NFT akọkọ) ni a fi ranṣẹ si awọn olufowosi akọkọ ti wọn ra Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
 
-72% ti ipese (7,200 NFTs) ni yoo tu silẹ fun gbogbo eniyan nipa lilo ilana whitelisting tuntun kan eyiti o nilo lati lo apamọwọ Zcash atilẹyin awọn akọsilẹ encrypted (awọn alaye diẹ sii ni isalẹ).
+A o tu 72% ti ipese (7,200 NFTs) silẹ fun gbogbo eniyan nipa lilo eto iforukọsilẹ tuntun kan ti o nilo lilo apamọwọ Zcash ti o ṣe atilẹyin fun awọn akọsilẹ ti a fi pamọ (awọn alaye diẹ sii ni isalẹ).
 
-24% ti ipese (2,400 NFTs) ni ECC yoo mu sinu Cypherpunk Reserve, fun lilo ninu awọn ipilẹṣẹ ọjọ iwaju ti o ṣe ilọsiwaju Zcash ati asiri laarin aaye Web3.
+24% ti ipese (2,400 NFTs) ni ECC yoo ni ni Cypherpunk Reserve, fun lilo ninu awọn ipilẹṣẹ ọjọ iwaju ti yoo mu Zcash ati asiri wa laarin aaye Web3.
 
 
-# Cypherpunk Zero v2 Àtòjọ funfun 
+# Àkójọ funfun Cypherpunk Zero v2 
 
-Bẹ́ẹ̀ ni, àwọn èèyàn ya àkójọ ìwé náà lápá kan. Ọjọ́ iwájú ò tíì ní ìmúṣẹ rárá.
+Bẹ́ẹ̀ni, wọ́n ti gé àkójọpọ̀ àtilẹ̀wá náà, ọjọ́ iwájú kò tíì kọ sílẹ̀.
 
-## Àwọn Owó-ìṣúnná owó
+## Àwọn ohun àlùmọ́nì
 
-[Àwọn oníṣẹ́-ìṣèlú Twitter Cypherpunk Zero](https://twitter.com/cypherpunkZero)
+[Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Cypherpunk Zero OpenSea Ìkójọpọ̀](https://opensea.io/collection/cypherpunk-zero)
+[Àkójọ Cypherpunk Zero OpenSea](https://opensea.io/collection/cypherpunk-zero)
 
-[Cypherpunk Zero DAO Twitter Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:](https://twitter.com/CypherpunkDAO)
+[Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 
 [Discord Cypherpunk Zero DAO](https://discord.com/invite/sjfgXys4Jf)
 
-[Ìsọ̀rọ̀ Ọ̀hún Ńlá NFT Cypherpunk Zero](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
+[Okùn Mega Cypherpunk Zero NFT](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
