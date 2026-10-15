@@ -1,6 +1,6 @@
 {
   "locale": "it",
-  "version": 3,
+  "version": 4,
   "meta": {
     "language_name": "Italian",
     "native_name": "Italiano",
@@ -39,7 +39,8 @@
       "Use Italian word order around names (\"la documentazione di Valar Group\", not \"Valar Group documentazione\").",
       "English terms kept in English do not take a plural -s (gli exchange, gli zk-SNARK, le pool). Italian words take the Italian plural (portafoglio → portafogli).",
       "Lowercase after a colon, unless a proper name follows.",
-      "Avoid calques of English: \"una delle uniche\" (one of the only), \"con nessuna … richiesta\", \"componenti mobili\" (moving parts)."
+      "Avoid calques of English: \"una delle uniche\" (one of the only), \"con nessuna … richiesta\", \"componenti mobili\" (moving parts).",
+      "Put \"di\" between a noun and Zcash when Zcash is the owner or the subject (la rete di Zcash, l'ecosistema di Zcash, la tecnologia di Zcash, gli sviluppatori di Zcash, i nodi di Zcash). Keep \"X Zcash\" when Zcash names the kind of thing or is an apposition (un indirizzo Zcash, i portafogli Zcash, la criptovaluta Zcash) and inside proper names (Zcash Foundation, Zcash Community Grants)."
     ]
   },
   "terms": {
@@ -622,6 +623,7 @@
       "forms": [
         "ricarica"
       ],
+      "context": "A top-up in general: \"ricarica\". The menu label \"Mobile Top Ups\" is \"Ricariche telefoniche\".",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
@@ -678,6 +680,7 @@
       "forms": [
         "blocco"
       ],
+      "context": "A block of the chain: \"blocco\". The tool name \"block explorer\" stays English (phrase \"Block Explorers\").",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
@@ -1120,6 +1123,17 @@
       "reviewed_at": "2026-10-12",
       "source": "menus-review-it.md#navigation-61"
     },
+    "Block Explorers": {
+      "target": "Block explorer",
+      "context": "The tool name keeps the English loanword \"block explorer\"; \"block\" on its own is \"blocco\".",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
+    },
     "Brand": {
       "target": "Brand",
       "keep_english": true,
@@ -1492,6 +1506,17 @@
       "reviewed_at": "2026-10-12",
       "source": "menus-review-it.md#navigation-24"
     },
+    "Mobile Top Ups": {
+      "target": "Ricariche telefoniche",
+      "context": "The menu label, plural and specific to phone credit; a top-up in general is \"ricarica\".",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
+    },
     "More": {
       "target": "Altro",
       "applies_to": "ui",
@@ -1586,15 +1611,25 @@
       "reviewed_at": "2026-10-12",
       "source": "menus-review-it.md#menuLabels-80"
     },
-    "Payment Request URIs": {
-      "target": "URI di richiesta pagamento",
+    "Payment Processors": {
+      "target": "Processori di pagamento",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#navigation-26"
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
+    },
+    "Payment Request URIs": {
+      "target": "URI di richiesta di pagamento",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "Podcast": {
       "target": "Podcast",
@@ -1683,14 +1718,14 @@
       "source": "menus-review-it.md#navigation-58"
     },
     "Recovering Funds": {
-      "target": "Recuperare fondi",
+      "target": "Recuperare i fondi",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#navigation-28"
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "Research": {
       "target": "Ricerca",
@@ -1744,14 +1779,14 @@
       "source": "menus-review-it.md#menuLabels-42"
     },
     "Start Here": {
-      "target": "Inizia qui",
+      "target": "Inizia da qui",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#navigation-31"
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "Store": {
       "target": "Negozio",
@@ -1869,14 +1904,14 @@
       "source": "menus-review-it.md#navigation-5"
     },
     "Visualizing the Zcash Network": {
-      "target": "Visualizzare la rete Zcash",
+      "target": "Visualizzare la rete di Zcash",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#navigation-66"
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "voting chain": {
       "target": "blockchain di voto",
@@ -1920,24 +1955,35 @@
       "source": "menus-review-it.md#navigation-63"
     },
     "Zcash Community": {
-      "target": "Community Zcash",
+      "target": "Community di Zcash",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#menuLabels-60"
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "Zcash Ecosystem Security": {
-      "target": "Sicurezza dell'ecosistema Zcash",
+      "target": "Sicurezza dell'ecosistema di Zcash",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#navigation-46"
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
+    },
+    "Zcash Global Ambassadors": {
+      "target": "Ambasciatori Globali di Zcash",
+      "context": "A name: keep the capital G (an exception to sentence case).",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "Zcash Governance": {
       "target": "Governance di Zcash",
@@ -1972,14 +2018,14 @@
       "source": "menus-review-it.md#navigation-44"
     },
     "Zcash Organizations": {
-      "target": "Organizzazioni Zcash",
+      "target": "Organizzazioni di Zcash",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#menuLabels-65"
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "Zcash Podcasts": {
       "target": "Podcast su Zcash",
@@ -2015,6 +2061,16 @@
       ],
       "reviewed_at": "2026-10-15",
       "source": "zechub-wiki#1053 review"
+    },
+    "Zcash Visualizers": {
+      "target": "Visualizzatori di Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "Gianni"
+      ],
+      "reviewed_at": "2026-10-15",
+      "source": "sitetext-review-it.md (website text review)"
     },
     "Zcon Archive": {
       "target": "Archivio Zcon",
@@ -2253,6 +2309,29 @@
         "Zcash Tech"
       ],
       "summary": "Gianni: 'Zcash Tech' is 'Tecnologia di Zcash' (was 'Tecnologia Zcash'), matching the website dictionary (zechub-wiki#1053)."
+    },
+    {
+      "version": 4,
+      "date": "2026-10-15",
+      "terms": [
+        "block",
+        "top-up"
+      ],
+      "phrases": [
+        "Block Explorers",
+        "Mobile Top Ups",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Recovering Funds",
+        "Start Here",
+        "Visualizing the Zcash Network",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Global Ambassadors",
+        "Zcash Organizations",
+        "Zcash Visualizers"
+      ],
+      "summary": "Gianni's native review of the website text: one form per label (Inizia da qui, Recuperare i fondi, URI di richiesta di pagamento, Organizzazioni/Community di Zcash), five new UI phrases, and the writing rule for \"di Zcash\"."
     }
   ]
 }
