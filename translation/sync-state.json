@@ -11677,11 +11677,11 @@
       "edited": false
     },
     "Zcash_Organizations/Zcash_Community_Grants.md": {
-      "src": "sha256:608010e755ba2aa9eba463fc50b5a326ae95be2f4734f653bb721d800488ebe0",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:1211aa35260da5fe75855fb7dba5a62b685b85567e1cc2cc5bcf6d57fc6f3c29",
+      "src_commit": "ecff147c45a6a32d771fe8b4862320d6635b84a0",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
