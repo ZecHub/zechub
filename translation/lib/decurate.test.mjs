@@ -54,3 +54,22 @@ test("a commented list line is matched the way the curation check reads it; lead
     assert.equal(out.removedLines, 2);
   } finally { rmSync(r, { recursive: true, force: true }); }
 });
+
+test("paths that are not page paths are refused before anything is touched", () => {
+  const r = fixture();
+  const before = readFileSync(join(r, "translation/curated-pages.txt"), "utf8");
+  for (const bad of ["../Page.md", "A/../../b.md", "./A/Keep.md", "A/./Keep.md", "/etc/x.md", "A/Keep.txt", "A/Ke ep.md", "A/$(id).md"]) {
+    assert.throws(() => decurate(r, [bad]), /not a site page path/, bad);
+  }
+  assert.equal(readFileSync(join(r, "translation/curated-pages.txt"), "utf8"), before);
+  rmSync(r, { recursive: true, force: true });
+});
+
+test("nested page paths at any depth are accepted", () => {
+  const r = fixture();
+  writeFileSync(join(r, "translation/curated-pages.txt"), "A/Keep.md\nSocial/Podcasts/Deep.md\n");
+  // must not throw on shape; a nested curated page is decurated like any other
+  assert.doesNotThrow(() => decurate(r, ["Social/Podcasts/Deep.md"]));
+  assert.equal(readFileSync(join(r, "translation/curated-pages.txt"), "utf8"), "A/Keep.md\n");
+  rmSync(r, { recursive: true, force: true });
+});

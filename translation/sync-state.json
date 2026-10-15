@@ -1384,6 +1384,14 @@
       "tool": "gt-static",
       "edited": false
     },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
     "guides/Hardened_Zebrad.md": {
       "src": "sha256:0163767a4bc4ec8b52fba40c4f261f102e7c708170bf8a8ced0c1a5037928887",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -3072,6 +3080,14 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -4764,6 +4780,14 @@
       "tool": "gpt-5.4",
       "edited": false
     },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
     "guides/Hardened_Zebrad.md": {
       "src": "sha256:0163767a4bc4ec8b52fba40c4f261f102e7c708170bf8a8ced0c1a5037928887",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -6451,6 +6475,14 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     },
@@ -8144,6 +8176,14 @@
       "tool": "gpt-5.4",
       "edited": false
     },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
     "guides/Hardened_Zebrad.md": {
       "src": "sha256:0163767a4bc4ec8b52fba40c4f261f102e7c708170bf8a8ced0c1a5037928887",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -9832,6 +9872,14 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -11524,6 +11572,14 @@
       "tool": "gpt-5.4",
       "edited": false
     },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
     "guides/Hardened_Zebrad.md": {
       "src": "sha256:0163767a4bc4ec8b52fba40c4f261f102e7c708170bf8a8ced0c1a5037928887",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -13212,6 +13268,14 @@
       "engine": "nllb",
       "mode": "seed",
       "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -14904,6 +14968,14 @@
       "tool": "gpt-5.4",
       "edited": false
     },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
     "guides/Hardened_Zebrad.md": {
       "src": "sha256:0163767a4bc4ec8b52fba40c4f261f102e7c708170bf8a8ced0c1a5037928887",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -16592,6 +16664,14 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "qwen3-14b",
+      "edited": false
+    },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -18284,6 +18364,14 @@
       "tool": "qwen3-14b",
       "edited": false
     },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
     "guides/Hardened_Zebrad.md": {
       "src": "sha256:0163767a4bc4ec8b52fba40c4f261f102e7c708170bf8a8ced0c1a5037928887",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -19972,6 +20060,14 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -21664,6 +21760,14 @@
       "tool": "gpt-5.4",
       "edited": false
     },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
     "guides/Hardened_Zebrad.md": {
       "src": "sha256:0163767a4bc4ec8b52fba40c4f261f102e7c708170bf8a8ced0c1a5037928887",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -23352,6 +23456,14 @@
       "engine": "nllb",
       "mode": "seed",
       "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+brand-restore",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -25044,6 +25156,14 @@
       "tool": "gpt-5.4",
       "edited": false
     },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
     "guides/Hardened_Zebrad.md": {
       "src": "sha256:0163767a4bc4ec8b52fba40c4f261f102e7c708170bf8a8ced0c1a5037928887",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -26732,6 +26852,14 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -28424,6 +28552,14 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "c5e7d7a672582a1fe5e08ebff9f1f1ad349091cb",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static+brand-restore",
+      "edited": false
+    },
     "guides/Hardened_Zebrad.md": {
       "src": "sha256:0163767a4bc4ec8b52fba40c4f261f102e7c708170bf8a8ced0c1a5037928887",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -30112,6 +30248,14 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Free2z_Live.md": {
+      "src": "sha256:ed22baec39b011648a0c17f9e398c66341eacbd996b7a3b512f0cf228b7c9eab",
+      "src_commit": "a0ccc636a70691ad89e4def0447211f316f3173e",
+      "engine": "llm",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {

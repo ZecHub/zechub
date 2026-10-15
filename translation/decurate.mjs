@@ -25,12 +25,12 @@ export const listEntry = (line) => line.replace(/#.*/, "").trim();
 
 export function decurate(root, pages) {
   const norm = (p) => p.trim().replace(/^site\//, "");
-  // A page is "Folder/Page.md": exactly one slash, no traversal, no shell food.
+  // A page is "Folder/Sub/Page.md" at any depth: no traversal, no shell food.
   // The names land in rmSync paths, so anything else is refused outright.
-  // "Folder/Page.md" or a bare "Page.md"; a segment may not be "." or "..",
+  // Every segment is a plain name; a segment may not be "." or "..",
   // so a traversal like "../Page.md" is refused here, before any rmSync.
   const SEG = '(?!\\.\\.?(?:\\/|$))[A-Za-z0-9._-]+';
-  const SHAPE = new RegExp(`^(${SEG}\\/)?${SEG}\\.md$`);
+  const SHAPE = new RegExp(`^(${SEG}\\/)*${SEG}\\.md$`);
   const bad = pages.map(norm).filter((p) => p && !SHAPE.test(p));
   if (bad.length) throw new Error(`not a site page path: ${bad.join(", ")}`);
   const want = new Set(pages.map(norm).filter(Boolean));
