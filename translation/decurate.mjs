@@ -27,7 +27,7 @@ export function decurate(root, pages) {
   const norm = (p) => p.trim().replace(/^site\//, "");
   // A page is "Folder/Page.md": exactly one slash, no traversal, no shell food.
   // The names land in rmSync paths, so anything else is refused outright.
-  const SHAPE = /^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+\.md$/;
+  const SHAPE = /^([A-Za-z0-9._-]+\/)?[A-Za-z0-9._-]+\.md$/;  // "Folder/Page.md" or a bare "Page.md"
   const bad = pages.map(norm).filter((p) => p && !SHAPE.test(p));
   if (bad.length) throw new Error(`not a site page path: ${bad.join(", ")}`);
   const want = new Set(pages.map(norm).filter(Boolean));
