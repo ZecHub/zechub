@@ -1,6 +1,6 @@
 {
   "locale": "it",
-  "version": 2,
+  "version": 3,
   "meta": {
     "language_name": "Italian",
     "native_name": "Italiano",
@@ -2007,14 +2007,14 @@
       "source": "menus-review-it.md#menuLabels-78"
     },
     "Zcash Tech": {
-      "target": "Tecnologia Zcash",
+      "target": "Tecnologia di Zcash",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
         "Gianni"
       ],
-      "reviewed_at": "2026-10-12",
-      "source": "menus-review-it.md#menuLabels-76"
+      "reviewed_at": "2026-10-15",
+      "source": "zechub-wiki#1053 review"
     },
     "Zcon Archive": {
       "target": "Archivio Zcon",
@@ -2244,6 +2244,15 @@
         "voting chain"
       ],
       "summary": "Native review by Gianni (glossary-review-it.md, menus-review-it.md): page terms, menu labels, register, typography and writing rules."
+    },
+    {
+      "version": 3,
+      "date": "2026-10-15",
+      "terms": [],
+      "phrases": [
+        "Zcash Tech"
+      ],
+      "summary": "Gianni: 'Zcash Tech' is 'Tecnologia di Zcash' (was 'Tecnologia Zcash'), matching the website dictionary (zechub-wiki#1053)."
     }
   ]
 }
