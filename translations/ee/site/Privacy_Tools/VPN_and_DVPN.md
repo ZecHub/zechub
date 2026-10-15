@@ -58,7 +58,7 @@ Zcash (ZEC) nye cryptocurrency si wowɔ na ame ŋutɔ ƒe nyatakakawo tsɔtsɔ n
 
    __Zcash Fexexe__: Mullvad xɔa Zcash abe fexexe ƒe tiatia ene, si na be ezãlawo te ŋu xea fe ɖe woƒe nudɔdɔ ta kple adzamenyawo si wodo ɖe ŋgɔ.Mullvad VPN.
 
-3. [__Nym VPN (dVPN)__ Ƒe 1999 ƒe ɣleti gbãtɔ me](https://nym.com/)
+3. [__Nym VPN (dVPN)__ ƒe xexlẽme](https://nymtech.net/)
    
    Nym VPN nye VPN si woɖe ɖe vovo (dVPN) si léa fɔ ɖe zãla ƒe adzamenyawo kple dedienɔnɔ dodo ɖe ŋgɔ ŋu to ameŋunyatakakawo ƒe kadodo si wotu ɖe ame ŋutɔ ƒe nyawo dzi dzi. Nym VPN wɔa dɔ to vovo na VPN xoxowo to 
    mixnet zazã, afisi wotsɔa zãlawo ƒe ʋuwo toa nodes ƒe network dzi. Nym VPN ƒe nɔnɔme veviwo dometɔ aɖewoe nye:
@@ -77,7 +77,7 @@ Zcash (ZEC) nye cryptocurrency si wowɔ na ame ŋutɔ ƒe nyatakakawo tsɔtsɔ n
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__ ƒe dɔwɔwɔ](https://nordvpn.com/)
- 5. [__CyberGhost__](https://www.cyberghostvpn.com/)
+ 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
  6. [__Internet zazã si nye ame ŋutɔ tɔ (PIA)__](https://www.privateinternetaccess.com/)
 
 Nenɔ susu me na wò be cryptocurrency fexexe ƒe mɔnuwo ƒe anyinɔnɔ ate ŋu atrɔ, eyata anyo be nàlé ŋku ɖe VPN dɔwɔƒea ƒe nyatakakadzraɖoƒe alo nàte ɖe woƒe asisiwo ƒe kpekpeɖeŋu ŋu hena nyatakaka yeyetɔ kekeake siwo ku ɖe fexexemɔnu siwo dzi woda asi ɖo ŋu, siwo dome Zcash.

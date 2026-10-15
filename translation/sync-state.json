@@ -745,11 +745,11 @@
       "edited": false
     },
     "Zcash_Organizations/Financial_Privacy_Foundation.md": {
-      "src": "sha256:bd70fa067636e3773cd73089f61c9c8b577655d6e4c88be80c67c9653a10099a",
-      "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
-      "engine": "gt",
+      "src": "sha256:3c92ddf7c6e1fec1853334de56896f4791bcd02edd72faa3fca0d60d55ddf54d",
+      "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Organizations/Obscura_Labs.md": {
@@ -5543,8 +5543,8 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:e7af6d973faff1e3eb6ebd8f113020443bea6e2ca943013555c69c8968978fe4",
-      "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
+      "src": "sha256:4cf5ca08b079b779d16abf293830a8bde80320732145eac97516d2d66d5af310",
+      "src_commit": "a13ee874c3c81b38459858859ed94c2046bea106",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -25813,8 +25813,8 @@
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
-      "src": "sha256:e090684707b25a0d6d50e1cdc5ec490aa6303e75eb58900efe62a0bb95ad07b6",
-      "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
+      "src": "sha256:950a56374b25ace602779835bacef9940c941e291890b8d8e2d2cbce6af1fd65",
+      "src_commit": "fb7090fd4e9ea420b5b1515b6a6b5433caef3324",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -31771,11 +31771,11 @@
       "edited": false
     },
     "Zcash_Tech/Crosslink_Protocol.md": {
-      "src": "sha256:ef5af7353883bdbff7f643f4fa6f091f35a5e3764ed70ce981e80d39a206a635",
-      "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
-      "engine": "gt",
+      "src": "sha256:6fac24d45af0f706e72dfab38afa5a33c79591392edc1e6b8ab9ae7234fc40d4",
+      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/FROST.md": {
