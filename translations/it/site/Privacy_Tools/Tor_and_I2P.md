@@ -39,7 +39,7 @@ Sia Tor che I2P sono reti peer-to-peer decentralizzate e anonime, ma I2P offre l
 
 Orbot è una rete privata virtuale (VPN) gratuita progettata per smartphone che instrada il traffico di tutte le applicazioni sul tuo dispositivo attraverso la rete Tor.
 
-Segui queste istruzioni per instradare un portafoglio Zcash attraverso Tor. Tieni presente che Ywallet, che veniva usato nelle versioni precedenti di questa guida, non è più mantenuto e non seguirà la rete dopo Ironwood, quindi scegli un portafoglio mantenuto dalla pagina [Portafogli](/using-zcash/wallets).
+Segui queste istruzioni per instradare un portafoglio Zcash attraverso Tor. Tieni presente che YWallet, che veniva usato nelle versioni precedenti di questa guida, non è più mantenuto e non seguirà la rete dopo Ironwood, quindi scegli un portafoglio mantenuto dalla pagina [Portafogli](/using-zcash/wallets).
 
 1.  Scarica e installa *Orbot* dall'app store.
 
@@ -56,13 +56,13 @@ Segui queste istruzioni per instradare un portafoglio Zcash attraverso Tor. Tien
 
 ## Installare Tor su PC o desktop
 
-* Tor Browser può essere scaricato dal sito ufficiale, puoi accedere al link [qui](https://www.torproject.org/download/).
+* Tor Browser può essere scaricato dal sito ufficiale, puoi accedere al link [qui](https://download.torproject.org/).
 
  Il modo più comodo per installare Tor è tramite il Tor Browser Bundle. Se preferisci installazioni headless, puoi scegliere di installare separatamente il demone Tor. 
 
 *Nota: Per impostazione predefinita, il bundle Tor Browser espone un listener SOCKS su tcp/9150 e il demone Tor espone il listener SOCKS su tcp/9050.*
 
-* Fai riferimento alle [istruzioni](https://support.torproject.org/apt/) di installazione specifiche per il tuo sistema operativo fornite dal Tor Project.
+* Fai riferimento alle [istruzioni](https://support.torproject.org/little-t-tor/getting-started/installing/) di installazione specifiche per il tuo sistema operativo fornite dal progetto Tor.
 
 ## Eseguire un nodo su Tor
 

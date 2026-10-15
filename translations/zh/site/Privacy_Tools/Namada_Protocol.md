@@ -32,7 +32,7 @@ Namada Protocol 还能够与任何支持 Inter-Blockchain Communication（IBC）
 
 ## 屏蔽集合奖励
 
-在 [Namada Protocol](https://blog.namada.net/what-is-namada/) 的最新更新中，持有屏蔽资产的用户将被激励积极参与共享屏蔽集合。这得益于更新后的 MASP 电路整合了创新性的 Convert Circuit。借助这一新功能，Namada 鼓励用户通过持有屏蔽资产来为共享屏蔽集合作出贡献。
+在 [Namada Protocol](https://namada.net/blog/what-is-namada) 的最新更新中，持有屏蔽资产的用户将被激励积极参与共享屏蔽集合。这得益于更新后的 MASP 电路整合了创新性的 Convert Circuit。借助这一新功能，Namada 鼓励用户通过持有屏蔽资产来为共享屏蔽集合作出贡献。
 
 在 Namada 中，屏蔽集合被视为一种非排他性、非竞争性的公共产品。这意味着，随着越来越多的人使用屏蔽转账，每位参与者获得的隐私保障都会增强。该协议认识到，集体采用和参与对于提升所有用户的隐私至关重要。因此，通过激励用户持有屏蔽资产并为共享屏蔽集合作出贡献，Namada 正在培育一个更强大、更稳健的隐私生态系统。
 
@@ -52,7 +52,7 @@ Namada 结合了两个关键要素来实现快速交易速度和终局性：快�
 
 ## Namada 与 Zcash 战略联盟
 
-根据最近发布的一篇文章，可参见 [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/)，Namada Protocol 背后的团队很高兴提出一项提案和征求意见稿（RFC），旨在推动 Namada 与 Zcash 的资产、链和社区之间建立战略联盟。
+根据最近发布的一篇文章，可参见 [Namada Protocol Blog](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash)，Namada Protocol 背后的团队很高兴提出一项提案和征求意见稿（RFC），旨在推动 Namada 与 Zcash 的资产、链和社区之间建立战略联盟。
 
 ![Namada-Zcash 战略联盟示意图](/content-images/image-2-68804c60f3.webp)
 
@@ -62,5 +62,5 @@ Namada 结合了两个关键要素来实现快速交易速度和终局性：快�
 
 - [Namada Protocol 官方视频](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 - [Namada Protocol 官网](https://namada.net/)
-- [Namada 博客](https://blog.namada.net/)
+- [Namada 博客](https://namada.net/blog)
 - [Namada 文档](https://docs.namada.net/)

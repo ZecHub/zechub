@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Shade_Protocol.md)
 
-# Protokol Shade
+# Shade Protocol
 
 ![Shade Protocol Logo](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
@@ -67,10 +67,10 @@ Prinsip kohesivitas dan penangkapan nilai dari Shade Protocol memberikan fondasi
 
 #### Tautan Referensi
  
-Situs web [Shade Protocol](https://shadeprotocol.com)
+Situs web [Shade Protocol](https://shadeprotocol.io/)
 
-[Medium (Protokol Shade) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
+[Medium (Shade Protocol) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 
-[Altcoin Buzz.io](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
+[Altcoin Buzz.io](https://web.archive.org/web/20250319054025/https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
 [Messari.io](https://messari.io/project/shade/profile)

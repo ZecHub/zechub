@@ -12,11 +12,16 @@ Orodha ya maswali ya kawaida kuhusu Zcash. Kwa utatuzi wa matatizo ya mteja wa Z
   <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Where is my transaction?</a>
   <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Is Zcash really private?</a>
   <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Common misconceptions</a>
+  <a href="#zcashd-stopped-working-what-do-i-run-now" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">zcashd stopped working?</a>
+  <a href="#how-do-i-move-my-zcashd-wallet-to-zallet" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Move my wallet to Zallet?</a>
+  <a href="#what-is-ironwood-and-do-i-need-to-do-anything" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">What is Ironwood?</a>
+  <a href="#which-full-node-should-i-run" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Which full node?</a>
+  <a href="#where-do-i-look-up-a-term-from-a-release-note" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Look up a term?</a>
 </div>
 
 ---
 
-## Zcash ni nini?
+## What is Zcash?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
@@ -30,7 +35,7 @@ Pochi kadhaa zinapatikana kwa malipo ya papo hapo, ya simu, salama na ya kibinaf
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Unaweza kununua ZEC kwenye [kubadilishana kwa dhamana](/using-zcash/custodial-exchanges), [DEX](/dex), or [majukwaa ya ubadilishaji wa kati](/using-zcash/centralizedswaps).
+Unaweza kununua ZEC kwenye [kubadilishana kwa dhamana](/using-zcash/custodial-exchanges), [DEX](/using-zcash/dex), or [majukwaa ya ubadilishaji wa kati](/using-zcash/centralized-swaps).
 
 Unaweza pia kununua Zcash peer-to-peer au kuipata kwa kuchimba madini.
 
@@ -46,11 +51,11 @@ Watumiaji wanaweza kuchagua kati ya miamala ya **Uwazi** au **Shielded**. Kwa ma
 
 </div>
 
-## Itifaki ya Zcash inasimamiwaje?
+## Itifaki Zcash inasimamiwaje?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Itifaki hii inaongozwa na mchakato wa **Pendekezo la Uboreshaji la Zcash (ZIP)**. Mtu yeyote anaweza kuwasilisha rasimu ya ZIP. Rasimu hujadiliwa na jumuiya na kukubaliwa au kukataliwa na wahariri wa ZIP:
+Itifaki hii inaongozwa na mchakato wa **Zcash (ZIP)**. Mtu yeyote anaweza kuwasilisha rasimu ZIP. Rasimu hujadiliwa na jumuiya na kukubaliwa au kukataliwa na wahariri wa ZIP:
 
 - [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)
 - [Deirdre Connolly](https://twitter.com/durumcrustulum) (Zcash Foundation)
@@ -63,7 +68,7 @@ Maamuzi huandikwa katika vipimo na kuidhinishwa kwenye mnyororo wakati mtandao u
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Usomaji wa kwanza [mwongozo wetu wa kuzuia wachunguzi](/guides/blockchain-explorers)Kisha angalia [Kichunguzi cha Kizuizi cha Zcash](https://zcashblockexplorer.com).
+Usomaji wa kwanza [mwongozo wetu wa kuzuia wachunguzi](/guides/blockchain-explorers)Kisha angalia [Kichunguzi cha Kizuizi Zcash](https://zcashblockexplorer.com).
 
 Miamala huisha baada ya takriban dakika 25 (vizuizi 20) na pesa hurejeshwa kiotomatiki.
 
@@ -83,7 +88,7 @@ Miamala huisha baada ya takriban dakika 25 (vizuizi 20) na pesa hurejeshwa kioto
 
 </div>
 
-## Je, Zcash ni ya faragha kweli?
+## Zcash ni ya faragha kweli?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
@@ -91,11 +96,73 @@ Miamala huisha baada ya takriban dakika 25 (vizuizi 20) na pesa hurejeshwa kioto
 
 Zcash haifanyi **si**:
 
-- Simba miamala ya saini nyingi (muunganisho wa FROST unasubiri)
+- Simba miamala ya saini nyingi (FROST unasubiri)
 - Kinga dhidi ya uhusiano na miamala ya uwazi
 - Ficha anwani za IP
 
 Usomaji zaidi: [Mfumo Ekolojia Uliolindwa](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+
+</div>
+
+## zcashd iliacha kufanya kazi, nifanye nini sasa?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+zcashd imeacha kufanya kazi. Toleo la 6.20.0 lilijifunga kwenye kizuizi 3417100 mnamo tarehe 18 Julai 2026, na halikuweza kamwe kutumia Ironwood (NU6.3), kwa hivyo hakuna toleo la baadaye la kusasisha.
+
+Endesha mrundiko wa Z3 badala yake. Programu tatu hugawanya kazi ambayo zcashd ilifanya peke yake:
+
+- **[Zebra](/zcash-tech/zebra-full-node)** inathibitisha mnyororo
+- **[Zaino](/zcash-tech/zaino)** huiweka kwenye faharasa na kutoa data ya pochi
+- **[Zallet](/zcash-tech/zallet)** huhifadhi pesa zako
+
+[Zakura](/zcash-tech/zakura-node) ni nodi kamili mbadala. Pia huendesha zcashd juu yake yenyewe, ambayo husaidia ikiwa programu nyingine bado inatarajia kiolesura cha zamani.
+
+Anza na [mwongozo wa uhamiaji](/guides/migration-guide-zcashd-to-zebrad-zallet).
+
+</div>
+
+## Ninawezaje kuhamisha pochi yangu zcashd hadi Zallet?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+Zallet huhamisha kifaa kilichopo `wallet.dat`, kwa hivyo unaweka pesa na anwani zako.
+
+Hifadhi nakala rudufu `wallet.dat` kwanza, kisha fuata [mwongozo wa uhamiaji](/guides/migration-guide-zcashd-to-zebrad-zallet). Weka nakala rudufu hiyo hadi utakapothibitisha salio lako katika Zallet.
+
+Ya [Marejeleo ya haraka Zallet](/using-zcash/zallet-quick-reference-guide) hushughulikia amri za kila siku mara tu unapozipata.
+
+</div>
+
+## Ironwood, na je, ninahitaji kufanya chochote?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+Ironwood inaboresha mtandao wa NU6.3, inatumika moja kwa moja kwenye mtandao mkuu tangu kitalu namba 3,428,143 mnamo tarehe 28 Julai 2026. Inaongeza bwawa la kuogelea lililojengwa kwenye saketi iliyorekebishwa na kuziba kifaa cha zamani [Orchard](/using-zcash/shielded-pools) bwawa, kwa hivyo mtu yeyote anaweza kuthibitisha kwamba hakuna ZEC iliyoghushiwa.
+
+**Ukiwa na fedha zilizolindwa, huenda zikahitaji kuhamishwa.** Thamani huacha Orchard pekee [turnstile](/zcash-tech/the-turnstile), na pochi hushughulikia uhamishaji kwa nyakati tofauti na kwa njia tofauti. Muulize mtoa huduma wako wa pochi kabla ya kuhamisha chochote kwa mkono.
+
+Soma [Ironwood](/zcash-tech/ironwood) kwa nini kilibadilika na kwa nini.
+
+</div>
+
+## Ni nodi gani kamili ninapaswa kuendesha?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+**[Zebra](/zcash-tech/zebra-full-node)** ni mbadala wa moja kwa moja wa zcashd na nodi ambayo mwongozo wa uhamiaji unachukua. Ichague isipokuwa kama una sababu ya kutofanya hivyo.
+
+**[Zakura](/zcash-tech/zakura-node)** ni utekelezaji wa pili unaolenga kupima ukubwa, pamoja na usawazishaji wa haraka na upogoaji wa vitalu asilia. Chagua ikiwa unahitaji hivyo, au ikiwa unategemea programu ambayo bado inazungumza na zcashd.
+
+Zote mbili zinathibitisha mnyororo mmoja, kwa hivyo huu ni chaguo la kiutendaji badala ya chaguo la makubaliano.
+
+</div>
+
+## Nitatafuta wapi neno kutoka kwa noti ya kutolewa?
+
+<div className="rounded-2xl border border-border bg-card p-5 my-4">
+
+Tazama [Maktaba Zcash](/glossary-and-faqs/zcash-library)Inashughulikia programu ya nodi na pochi, mabwawa yaliyolindwa, na nambari za ZIP zinazopatikana mara nyingi.
 
 </div>
 
@@ -134,5 +201,5 @@ Usomaji zaidi: [Mfumo Ekolojia Uliolindwa](https://web.archive.org/web/202609030
 
 ---
 
-**Ilisasishwa mara ya mwisho:** Machi 2026
+**Ilisasishwa mara ya mwisho:** Oktoba 2026
 **Unataka kuchangia?** [Hariri ukurasa huu kwenye GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/FAQ.md)

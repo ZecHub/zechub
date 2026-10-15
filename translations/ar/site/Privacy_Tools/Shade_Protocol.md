@@ -67,10 +67,10 @@ Shade Protocol هو نظام DeFi (التمويل اللامركزي) يحافظ
 
 #### روابط مرجعية
  
-[موقع Shade Protocol](https://shadeprotocol.com)
+[موقع Shade Protocol](https://shadeprotocol.io/)
 
 [Medium (Shade Protocol) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 
-[Altcoin Buzz.io](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
+[Altcoin Buzz.io](https://web.archive.org/web/20250319054025/https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
 [Messari.io](https://messari.io/project/shade/profile)

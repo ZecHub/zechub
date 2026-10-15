@@ -3,85 +3,85 @@
 </a>
 
 
-# Kwa Nini Ni Muhimu Kuweka Faragha Yako Yenyewe Hasa?
+# Kwa Nini Faragha Ni Muhimu
 
-Katika enzi ya digital, kulinda yako [faragha](https://www.privacyguides.org/en/) Wakati baadhi ya watu wanaweza kuona faragha kama sababu waliopotea, si hivyo. Faragha yako ni hatarini na lazima kuwa wasiwasi. Faradhi ana thamani kubwa kwa vile inahusiana na nguvu, na kuhakikisha kwamba mamlaka inatumiwa wajibu ni muhimu sana.
+Katika enzi ya kidijitali, kulinda [faragha](https://www.privacyguides.org/en/) imekuwa muhimu zaidi. Ingawa wengine wanaweza kuona faragha kama sababu iliyopotea, sivyo ilivyo. Faragha yako iko hatarini na inapaswa kuwa jambo la kuhoji. Faragha ina thamani kubwa inapohusiana na mamlaka, na kuhakikisha kwamba mamlaka yanatumiwa kwa uwajibikaji ni muhimu.
 
-## Tor & I2P Teknolojia
+## Teknolojia Tor na I2P
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) ni chombo cha wakala ambacho hutumia mtandao wa Tor kuanzisha uhusiano kwa maombi. Torbot hutimiza hili kwa kusafirisha trafiki yao kupitia Tor, na hivyo kuongeza [faragha na kutojulikana jina lake](https://www.torproject.org/) kwa ajili ya maombi haya.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) ni zana ya proksi inayotumia mtandao Tor kuanzisha miunganisho ya programu. Torbot hufanikisha hili kwa kuelekeza trafiki yao kupitia Tor, hivyo kuboresha [faragha na kutokujulikana](https://www.torproject.org/) kwa ajili ya matumizi haya.
 
-## I2P Mtandao
+## Mtandao wa I2P
 
-Mtandao I2P, pia inajulikana kama mtandao wa IP. [Invisible Internet Project (Mradi wa Mtandao usioonekana)](https://geti2p.net/en/about/intro), ni kikamilifu encrypted peer-to-peer overlay mtandao. Ni kuhakikisha kwamba maudhui, chanzo na marudio ya ujumbe zimefichwa kutoka kwa watazamaji. Kwa maneno mengine, hakuna mtu anaweza kuona asili au marudio wa trafiki au yaliyomo halisi ya ujumbe kuwa kuambukizwa. Encryption kutumika katika I2P inahakikisha kiwango cha juu cha faragha na kutokujulikana kwa watumiaji wake.
+Mtandao wa I2P, unaojulikana pia kama [Mradi wa Intaneti Usioonekana](https://geti2p.net/en/about/intro), ni mtandao uliosimbwa kwa njia fiche kabisa wa rika-kwa-rika. Unahakikisha kwamba maudhui, chanzo, na mwisho wa ujumbe umefichwa kutoka kwa waangalizi. Kwa maneno mengine, hakuna mtu anayeweza kuona asili au mwisho wa trafiki au maudhui halisi ya ujumbe unaotumwa. Usimbaji fiche unaotumika katika I2P unahakikisha kiwango cha juu cha faragha na kutokujulikana kwa watumiaji wake.
 
-### Kufunga I2P
+### Kusakinisha I2P
 
-Kuna utekelezaji mbili. awali [Java I2P](https://geti2p.net/en/download) anaendesha kwenye Windows, MacOS, Linux na Android. [i2pd](https://i2pd.website/), iliyoandikwa katika C ++, ni nyepesi na ni chaguo la kawaida kwenye seva au mashine ya nguvu ndogo.
+Kuna utekelezaji mbili. Asili [Java I2P](https://geti2p.net/en/download) inaendeshwa kwenye Windows, macOS, Linux na Android. [i2pd](https://i2pd.website/), iliyoandikwa kwa C++, ni nyepesi na ni chaguo la kawaida kwenye seva au mashine yenye nguvu ndogo.
 
-Mara baada ya ni mbio, I2P exposes console ndani juu ya `127.0.0.1:7657` na proxies juu ya `127.0.0.1:4444` (HTTP) na `127.0.0.1:4447` (SOCKS). Kutarajia kuchukua dakika kadhaa juu ya kuanza kwanza: I2P ina kujenga vichuguu kupitia mtandao kabla kitu chochote kazi, na inakuwa kasi zaidi ni kukaa online.
+Mara tu inapoanza kufanya kazi, I2P huonyesha kiweko cha ndani `127.0.0.1:7657` na proksi zimewashwa `127.0.0.1:4444` (HTTP) na `127.0.0.1:4447` (SOKSI). Tarajia itachukua dakika kadhaa mwanzoni: I2P lazima ijenge handaki kupitia mtandao kabla ya kitu chochote kufanya kazi, na inakuwa haraka kadri inavyokaa mtandaoni kwa muda mrefu.
 
 ### Kutumia I2P na Zcash
 
-Kuwa na ufahamu kwamba ** hakuna sasa Zcash node anaongea I2P natively.** Zebra hana msaada wa I2 P, wala zcashd. Kama unaweza kuona mwongozo kudai kukimbia Node Zcash juu ya I2 p, ni maelezo kitu programu haina kufanya.
+Fahamu kwamba **hakuna nodi Zcash ya sasa inayozungumza I2P asilia.** Zebra haina usaidizi wa I2P, na pia zcashd. Ukiona mwongozo unaodai kuendesha nodi Zcash juu ya I2P, unaelezea kitu ambacho programu haifanyi.
 
-Nini I2P ni kweli muhimu kwa hapa ni kila kitu karibu mkoba: kufikia tovuti, jukwaa au huduma bila ya kufunua anwani yako. Kwa anonymizing uhusiano mfuko yenyewe, Tor ni chaguo vitendo leo, na sehemu chini kufunika yake.
+Kile ambacho I2P ina manufaa yake hapa ni kila kitu kinachohusu pochi: kufikia tovuti, jukwaa au huduma bila kufichua anwani yako. Kwa kutokutambulisha muunganisho wa pochi yenyewe, Tor ndiyo chaguo linalofaa leo, na sehemu zilizo hapa chini zinaishughulikia.
 
-## Tor na I2P kushiriki sifa za kawaida lakini pia kuwa tofauti kubwa. 
+## Tor na I2P zina sifa zinazofanana lakini pia zina tofauti kubwa. 
 
-Both Tor and I2P are decentralized and anonymous peer-to-peer networks, but I2P provides higher levels of security compared to Tor. However, I2P is primarily designed for accessing services like email, chat, and torrenting within its network and cannot be used to access the regular internet. On the other hand, Tor allows users to access the deep web, just like I2P, but it also functions as a regular browser for accessing websites on the surface web.
+Tor na I2P zote mbili ni mitandao ya rika-kwa-rika isiyo na majina na isiyojulikana, lakini I2P hutoa viwango vya juu vya usalama ikilinganishwa na Tor. Hata hivyo, I2P imeundwa kimsingi kwa ajili ya kufikia huduma kama vile barua pepe, gumzo, na mtiririko ndani ya mtandao wake na haiwezi kutumika kufikia intaneti ya kawaida. Kwa upande mwingine, Tor inaruhusu watumiaji kufikia mtandao wa kina, kama vile I2P, lakini pia inafanya kazi kama kivinjari cha kawaida cha kufikia tovuti kwenye mtandao wa juu.
 
-* Kumbuka: Kwa habari zaidi juu ya kufanana na tofauti za ziara Tor & I2P [hapa](https://geti2p.net/en/comparison/tor)*
+*Kumbuka: Kwa maelezo zaidi kuhusu kufanana na tofauti za Tor na I2P tembelea [hapa](https://geti2p.net/en/comparison/tor)*
 
-## Routing mkononi mfuko wa fedha kupitia Tor na Orbot
+## Kuelekeza pochi ya simu kupitia Tor kwa kutumia Orbot
 
-Orbot ni mtandao wa kibinafsi (VPN) iliyoundwa kwa simu mahiri ambayo inaelekeza trafiki kutoka programu zote kwenye kifaa chako kupitia mtandao wa Tor.
+Orbot ni mtandao pepe wa kibinafsi (VPN) usio na gharama ulioundwa kwa ajili ya simu mahiri unaoongoza trafiki kutoka kwa programu zote kwenye kifaa chako kupitia mtandao Tor.
 
-Follow these instructions to route a Zcash wallet through Tor. Note that Ywallet, which earlier versions of this guide used, is no longer maintained and will not follow the network after Ironwood, so pick a maintained wallet from the [Mkoba](/using-zcash/wallets) ukurasa.
+Fuata maagizo haya ili kuelekeza pochi Zcash kupitia Tor. Kumbuka kwamba YWallet, ambayo matoleo ya awali ya mwongozo huu yalitumia, haitumiki tena na haitafuata mtandao baada ya Ironwood, kwa hivyo chagua pochi inayodumishwa kutoka [Pochi](/using-zcash/wallets) ukurasa.
 
 1.  Pakua na usakinishe *Orbot* kutoka duka la programu.
 
-2.  Baada ya insatllation, ujumbe salamu itaonekana. Endelea kwa ukurasa wa nyumbani * Orbot* na bonyeza juu ya * 'Tor kuwezeshwa Apps'.* 
+2.  Baada ya kuingizwa, ujumbe wa salamu utaonekana. Endelea hadi ukurasa wa nyumbani wa *Orbot* na ubofye *'Tor '.* 
 
-3. Hii itakuwa kuuliza ukurasa kwenye screen kuonyesha Tor-sambamba maombi. Tafuta mkoba wako Zcash katika orodha na kuhakikisha ni kuchaguliwa.
+3. Hii itaonyesha ukurasa kwenye skrini unaoonyesha programu Tor-compatible. Tafuta pochi yako ya Zcash kwenye orodha na uhakikishe kuwa imechaguliwa.
 
-4. Ombi la uhusiano kuanzisha VPN itaonekana, ambayo itaruhusu * Orbot* kufuatilia trafiki mtandao. * Orbit * itakuwa Initialise mara moja ruhusa hii imekubaliwa. 
+4. Ombi la muunganisho la kuanzisha VPN litaonekana, ambalo litaruhusu *Orbot* kufuatilia trafiki ya mtandao. *Orbot* itaanzisha mara tu ruhusa hii itakapoidhinishwa. 
 
-5. Angalia taskbar au Orbot homepage kuthibitisha kwamba Tor ni runnung, hii inathibitishwa wakati unaweza kuona 'Kushikamana na mtandao wa Tor'.
+5. Angalia upau wa kazi au ukurasa wa nyumbani wa Orbot ili kuthibitisha kwamba Tor imeendeshwa, hii inathibitishwa unapoona 'Imeunganishwa kwenye mtandao Tor '.
 
-*Kumbuka: Kama Tor ni kuzuiwa na mtandao wako mkononi, unaweza kutumia Bridge Server kama njia mbadala ya kuungana.*
+*Kumbuka: Ikiwa Tor imezuiwa na mtandao wako wa simu, unaweza kutumia Seva ya Bridge kama njia mbadala ya kuunganisha.*
 
 
-## Kufunga Tor kwenye PC au desktop
+## Kusakinisha Tor kwenye PC au desktop
 
-* Tor browser inaweza kupakuliwa kutoka tovuti rasmi, unaweza kupata kiungo [hapa](https://www.torproject.org/download/).
+* Kivinjari cha Tor kinaweza kupakuliwa kutoka kwa tovuti rasmi, unaweza kufikia kiungo [hapa](https://download.torproject.org/).
 
- Njia rahisi zaidi ya kufunga Tor ni kupitia Kifurushi cha Kivinjari cha Tor. Ikiwa unapendelea mitambo isiyo na kichwa, unaweza kuchagua kusanikisha daemon ya Tor kando. 
+ Njia rahisi zaidi ya kusakinisha Tor ni kupitia Kifurushi cha Kivinjari cha Tor. Ukipendelea usakinishaji usio na kichwa, unaweza kuchagua kusakinisha daemon Tor kando. 
 
-*Kumbuka: Kwa default, Tor Browser mfuko inaonyesha SOCKS msikilizaji juu ya tcp/9150 na daemon Tor unaonyesha SOCOKS msikiaji kwenye tc p/9050.*
+*Kumbuka: Kwa chaguo-msingi, kifurushi cha Tor Browser huonyesha msikilizaji wa SOCKS kwenye tcp/9150 na daemon Tor huonyesha msikilizaji wa SOCKS kwenye tcp/9050.*
 
-* Rejea kwa ufungaji [maagizo](https://support.torproject.org/apt/) maalum kwa mfumo wako wa uendeshaji kama zinazotolewa na Mradi Tor.
+* Rejelea usakinishaji [maelekezo](https://support.torproject.org/little-t-tor/getting-started/installing/) maalum kwa mfumo wako wa uendeshaji kama ilivyotolewa na Tor Project.
 
-## Kukimbia node juu ya Tor
+## Kuendesha nodi juu ya Tor
 
-Hii ni sehemu ambayo imebadilika zaidi, na jibu la uaminifu ni kwamba kwa sasa ni ngumu kuliko ilivyokuwa.
+Hii ndiyo sehemu ambayo imebadilika zaidi, na jibu la kweli ni kwamba kwa sasa ni ngumu zaidi kuliko ilivyokuwa.
 
-** zcashd ni gone.** Imefikia mwisho wa msaada na kusimamishwa tarehe 18 Julai 2026 katika block 3,417,100. Haitaanza tena, ukurasa wake wa kupakua unarudi 404, na hazina ya apt haitumiki tena. Maagizo yoyote yanayokuambia uendeshe `zcashd -proxy=127.0.0.1:9050` haitumiki tena kwa kitu chochote.
+**zcashd imetoweka.** Ilifikia mwisho wa usaidizi na ikasimama tarehe 18 Julai 2026 katika kizuizi nambari 3,417,100. Haitaanza tena, ukurasa wake wa kupakua unarudisha 404, na hazina ya apt haitumiki tena. Maagizo yoyote yanayokuambia uendelee `zcashd -proxy=127.0.0.1:9050` haitumiki tena kwa chochote.
 
-** Zebra hawezi kufanya hivyo bado ama.** Zebra ni kudumishwa node, na yake mtandao crate haina vyenye code ya kutengwa-uhusiano kwa ajili Tor, lakini kipengele cha maoni nje katika `zebra-network/Cargo.toml`:
+**Zebra pia haiwezi kufanya hivyo bado.** Zebra ni nodi inayodumishwa, na kreti yake ya mtandao ina msimbo wa muunganisho wa pekee kwa Tor, lakini kipengele hicho kimetolewa maoni katika `zebra-network/Cargo.toml`:
 
 ```
 # tor = ["arti-client", "tor-rtcompat"]
 ```
 
-Crates nyaraka anasema kitu kimoja wazi: * "Tor uhusiano ni sasa walemavu mpaka `arti-client`ya kutegemea `x25519-dalek v1.2.0` ni updated. "* The `connect_isolated_tor` Hivyo hakuna njia mkono kuendesha node Zcash juu ya Tor leo.
+Nyaraka za kreti zinasema jambo lile lile waziwazi: *"Tor kwa sasa imezimwa hadi `arti-client`utegemezi wa `x25519-dalek v1.2.0` imesasishwa."* The `connect_isolated_tor` Kitendakazi kinatolewa maoni pamoja nacho. Kwa hivyo hakuna njia inayoungwa mkono ya kuendesha nodi Zcash juu ya Tor leo.
 
-Kama unahitaji node-kiwango cha kutokujulikana sasa, mbinu ya kazi ni kuweka mashine nzima nyuma Tor au VPN katika ngazi mfumo wa uendeshaji badala ya Configuring Node yenyewe. Hiyo inalinda eneo lako mtandao bila kutegemea vipengele node kwamba si kujengwa.
+Ikiwa unahitaji kutokujulikana kwa kiwango cha nodi sasa, mbinu inayofaa ni kuweka mashine nzima nyuma ya Tor au VPN katika kiwango cha mfumo endeshi badala ya kusanidi nodi yenyewe. Hiyo inalinda eneo la mtandao wako bila kutegemea vipengele vya nodi ambavyo havijajengwa.
 
-### Mambo unayoweza kufanya leo
+### Unachoweza kufanya leo bado
 
-- **Route mkoba wako kwa njia ya Tor** na Orbot kwenye simu, kama ilivyoelezwa hapo juu. Hii ni chaguo vitendo kwa watu wengi, na huficha IP yako kutoka server lightwalletd mfuko wa fedha mazungumzo yako kwa
-- **Tumia Tor Browser** kwa block explorers, vikao na kitu kingine chochote ambapo wewe ingekuwa badala si wanaohusishwa na anwani
-- **Kumbuka kile Tor haina kuficha.** Ni anonymize mtandao wako eneo, si shughuli yako juu ya mnyororo. Kutuma kutoka anwani uwazi bado ni umma, na thamani kuvuka kati ya hifadhi kulindwa bado kuchapisha kiasi hicho. Angalia [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](/using-zcash/shielded-pools) Na kwa yanayo onekana,
+- **Tumia pochi yako kupitia Tor** ukitumia Orbot kwenye simu, kama ilivyoelezwa hapo juu. Hii ndiyo chaguo linalofaa kwa watu wengi, na huficha IP yako kutoka kwa seva ya lightwalletd ambayo pochi yako inazungumza nayo
+- **Tumia Tor Browser** kwa wachunguzi wa block, majukwaa na kitu kingine chochote ambapo hungependa kuunganishwa kwa anwani
+- **Kumbuka kile ambacho Tor haifichi.** Huficha eneo la mtandao wako, si shughuli zako kwenye mnyororo. Kutuma kutoka kwa anwani iliyo wazi bado ni kwa umma, na uvukaji wa thamani kati ya mabwawa yaliyolindwa bado huchapisha kiasi hicho. Tazama [Mabwawa ya Kuogelea Yenye Ngao](/using-zcash/shielded-pools) kwa kile kinachobaki kuonekana
