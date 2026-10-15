@@ -16,6 +16,7 @@ files, so a decision made once applies everywhere.
 | `lib/glossary.mjs` | Loader, validator and matcher. Pure code, no file access. |
 | `validate.mjs` | Checks every file. Runs in CI. |
 | `review-kit.mjs` | Turns a glossary into a review table (`export`) and a filled table back into the glossary (`import`). Logic in `lib/review-kit.mjs`. |
+| `review-instructions.json` | The fill-in instructions in the reviewer's language, printed above the English ones in an exported table. `machine: true` marks a text no native speaker has checked yet. |
 | `prompt-template.md` | The part of the translation prompt that is the same for every language. |
 | `render-prompt.mjs` | Prints the prompt for one page of one language. Logic in `lib/render-prompt.mjs`. |
 | `test-fixtures/` | The two real Indonesian review tables, and the hand-written prompt heads the generated ones replace (`legacy-heads/`), used by the tests. |
