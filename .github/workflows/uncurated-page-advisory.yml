@@ -121,7 +121,10 @@ jobs:
             // Backticks in a filename would close the code span and let the rest
             // render as markdown (an @mention in a path would ping people). These
             // are attacker-controlled strings rendered into a comment.
-            const safe = (t) => String(t).replace(/`/g, '');
+            const safe = (t) => String(t).replace(/[`$]/g, '');
+            // The command line is meant to be pasted into a shell: a filename is
+            // data, so it goes in single-quoted shell form, never interpolated bare.
+            const shellQuote = (t) => `'${safe(t).replace(/'/g, `'\\''`)}'`;
             const bullets = (ps) => ps.map((p) => `- \`${safe(p)}\``).join('\n');
             const body = [marker, '### 🌐 Translation: one more change needed in this PR', ''];
             if (undecided.length) body.push(
@@ -129,7 +132,7 @@ jobs:
               '', bullets(undecided), '');
             if (stillCurated.length) body.push(
               '**Deleted or moved page(s) still in a translation list** — run this from the repository root and commit the result (it removes the list line, the 18 translations and their manifest entries; it does not touch the English):',
-              '', '```', `node translation/decurate.mjs ${stillCurated.map(safe).join(' ')}`, '```', '');
+              '', '```', `node translation/decurate.mjs ${stillCurated.map(shellQuote).join(' ')}`, '```', '');
             body.push(
               'Then refresh the menu titles and commit them too:', '', '```', 'node translation/gen-menu-titles.mjs', '```', '',
               'This check turns green by itself once the lists match the pages. Questions: see the translation section of `CONTRIBUTING.md`.');
