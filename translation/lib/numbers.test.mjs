@@ -71,6 +71,12 @@ test("myriad and magnitude words: 21 million, 2100万, 2,100만, 3億4000万", (
   assert.deepEqual(errors("There will only be 21 million ZEC.\n", "ZEC는 2,100만 개뿐입니다.\n"), []);
   assert.deepEqual(errors("About 340 million FOX were airdropped.\n", "約3億4000万枚のFOXが配布されました。\n"), []);
   assert.deepEqual(errors("About 340 million FOX were airdropped.\n", "약 3억 4천만 개의 FOX가 배포되었습니다.\n"), []);
+  // A myriad compound whose middle part has a thousands separator: "3億1,300万"
+  // is 313 000 000 (Grayscale ETF page, ja and ko, 2026-10-15).
+  assert.deepEqual(errors("around **$313 million** under management.\n", "運用資産額は約**3億1,300万ドル**でした。\n"), []);
+  assert.deepEqual(errors("around **$313 million** under management.\n", "운용 자산은 약 **3억 1,300만 달러**였습니다.\n"), []);
+  // …and a real change inside such a compound is still caught.
+  assert.notDeepEqual(errors("around **$313 million** under management.\n", "運用資産額は約**3億1,400万ドル**でした。\n"), []);
   // Not even a warning: 5万 pairs with $50,000 and 500万 with $5M, not 5 with 5.
   assert.deepEqual(compare("It allocated $50,000 and $5M.\n", "5万ドルと500万ドルを割り当てました。\n"), []);
   // ...but a wrong magnitude is still caught
