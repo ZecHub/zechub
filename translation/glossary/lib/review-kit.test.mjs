@@ -263,3 +263,27 @@ test("CLI: review-kit.mjs exports the pages kit", () => {
   assert.match(out, new RegExp(`\\(\`terms\`: ${TERMS_EN.terms.filter((t) => t.applies_to !== "ui").length} rows\\)`));
   assert.match(out, /\| \d+ \| mining \| mining \| .* \| penambangan \|/);
 });
+
+test("export: native instructions come first, the English ones (with the Notes column) always follow", () => {
+  const en = { navigation: { a: "Wallets" } };
+  const loc = { navigation: { a: "Dompet" } };
+  const args = { glossary: ID, termsEn: TERMS_EN, kit: "all", dict: loc, enDict: en, preserveVerbatim: PV, brands: BRANDS };
+  const plain = exportKit(args);
+  assert.match(plain, /\*\*Notes column \(important\):\*\*/);
+  assert.doesNotMatch(plain, /Machine-translated/);
+  const native = exportKit({ ...args, instructions: { text: "**Cara mengisi**\n- isi kolom", machine: true } });
+  const iNative = native.indexOf("**Cara mengisi**"), iEn = native.indexOf("**How to fill in**");
+  assert.ok(iNative > 0 && iEn > iNative, "native text above the English");
+  assert.match(native, /Machine-translated/);
+  // The tables are identical: the importer still finds every row.
+  const tables = (md) => md.split("\n").filter((l) => l.startsWith("|")).join("\n");
+  assert.equal(tables(native), tables(plain));
+});
+test("review-instructions.json: every entry has text and a boolean machine flag, and keeps the importer's keywords", () => {
+  const data = JSON.parse(readFileSync(new URL("../review-instructions.json", import.meta.url), "utf8"));
+  for (const [l, v] of Object.entries(data.languages)) {
+    assert.equal(typeof v.text, "string", l);
+    assert.equal(typeof v.machine, "boolean", l);
+    for (const kw of ["`OK`", "`keep English`", "ID", "Notes", "\u2705"]) assert.ok(v.text.includes(kw), `${l} lacks ${kw}`);
+  }
+});

@@ -594,15 +594,25 @@ function conflictLines(glossary, termsEn) {
  * @param {string[]} [args.preserveVerbatim]
  * @param {string[]} [args.brands]
  */
-export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = null, dict = null, enDict = null, preserveVerbatim = [], brands = [] }) {
+export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = null, dict = null, enDict = null, preserveVerbatim = [], brands = [], instructions = null }) {
   const loc = glossary.locale;
   const lang = glossary.meta?.language_name ?? loc;
   const byId = termsById(termsEn);
   const out = [];
   out.push(`# ZecHub glossary review: ${lang} (\`${loc}\`)`, "");
   out.push(`Glossary version ${glossary.version}. Kit: ${kit}.`, "");
+  // Native-language instructions (translation/glossary/review-instructions.json)
+  // go first; the English ones below stay authoritative, and the importer
+  // reads only the English column headers.
+  if (instructions?.text) {
+    out.push(instructions.text.trim(), "");
+    if (instructions.machine) out.push("_(Machine-translated, not yet checked by a native speaker: please correct this paragraph in Notes.)_", "");
+  }
   out.push(
-    "**How to fill in:** in the **\u2705** column write `OK` if the proposed rendering is right, `keep English` to use the English word, or the rendering you would use. Write one rendering per cell; if it depends on the context (verb or noun, menu or page), say so in Notes and a maintainer will record it. Leave a cell empty if you are not sure. Do not edit the ID column.",
+    "**How to fill in**",
+    "",
+    "- **\u2705 column:** write `OK` if the shown rendering is right, `keep English` to keep the English word, or the rendering you would use. One rendering per cell. Leave it empty if you are not sure. Do not edit the ID column.",
+    "- **Notes column (important):** for every row you change or mark `keep English`, write one short line in your own words saying why, for example \"this is what local exchanges and wallets use\" or \"this word means a street address\". Also use Notes when the right word depends on the context (verb or noun, menu or page), or when a row is unclear. Changes without a note may not be accepted.",
     "",
     "Names that stay in English in every language (brands, products, programmes) are not in these tables; they are listed in `translation/protected-terms.json`.",
     "",

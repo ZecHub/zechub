@@ -146,7 +146,9 @@ if (command === "export") {
   for (const id of termIds ?? []) {
     if (!termsEn.terms.some((t) => t.id === id)) die(`--terms: "${id}" is not in terms.en.json`);
   }
-  const md = exportKit({ glossary, termsEn, kit, termIds, evidence: kit === "ui" ? null : evidence(), dict, enDict, preserveVerbatim, brands });
+  const instrPath = join(dir, "review-instructions.json");
+  const instructions = existsSync(instrPath) ? readJson(instrPath).languages?.[loc] ?? null : null;
+  const md = exportKit({ glossary, termsEn, kit, termIds, evidence: kit === "ui" ? null : evidence(), dict, enDict, preserveVerbatim, brands, instructions });
   const out = flags.get("--out");
   if (out) {
     writeFileSync(out, md);
