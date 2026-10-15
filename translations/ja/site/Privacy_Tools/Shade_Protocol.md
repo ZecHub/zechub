@@ -4,7 +4,7 @@
 
 ![Shade Protocol ロゴ](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
-## とは？
+## Shade Protocolとは？
 
 Shade Protocolは、ユーザーのプライバシーとセキュリティを保証しながら、金融製品のスイートを提供することを目指す、プライバシー保護型DeFi（分散型金融）エコシステムです。Secret Network上に構築されており、Stablecoinや合成資産、貸付プラットフォームなどのツールをユーザーに提供し、プライバシー中心の金融環境を作り出しています。Shade Protocolの主要な製品はSilk Stablecoinで、プライバシーフีチャと価格安定性を組み合わせています。
 
@@ -67,10 +67,10 @@ Shade Protocolの統合性と価値捕獲の原則は、安定性とシームレ
 
 #### 参考リンク
 
-[Shade Protocol ウェブサイト](https://shadeprotocol.com)
+[Shade Protocol ウェブサイト](https://shadeprotocol.io/)
 
 [Medium (Shade Protocol) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 
-[Altcoin Buzz.io](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
+[Altcoin Buzz.io](https://web.archive.org/web/20250319054025/https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
 [Messari.io](https://messari.io/project/shade/profile)

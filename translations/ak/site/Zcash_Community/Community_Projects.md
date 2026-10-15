@@ -1,6 +1,6 @@
 # Mpɔtam Hɔ Nnwuma
 
-Hwehwɛ nnwinnade, sika kotoku, dwumadie, nwomakorabea, ne abɔdeɛ a nkwa wom nhyehyɛeɛ a Zcash mpɔtam hɔfoɔ ne abɔdeɛ a nkwa wom nhyehyɛeɛ a ɛtrɛ a nimdeɛ nnim no asi.
+Hwehwɛ nnwinnade, sika kotoku, dwumadie, nwomakorabea, ne abɔdeɛ a nkwa wom nhyehyɛeɛ a Zcash mpɔtam hɔfoɔ ne abɔdeɛ a nkwa wom nhyehyɛeɛ a ɛtrɛ a nimdeɛ nnim no ayɛ.
 
 ---
 
@@ -11,7 +11,7 @@ Nhomasua adwuma nhoma a Zcash wiase nyinaa mpɔtam hɔfo na wɔyɛe.
 [Sra](https://github.com/massadoptionorg/My-First-Zcash)
 
 ### ZECPublish
-Censorship-resistant, Zcash blockchain-a ɛyɛ adwuma wɔ sohyial media so. Zcash dwumadiefoɔ kyerɛwtohɔ ne nkrasɛm board a wɔmmɔ din ka ho. 
+Censorship-resistant, Zcash blockchain-a wɔde di dwuma wɔ sohyial media so. Zcash dwumadiefoɔ kyerɛwtohɔ ne nkrasɛm board a wɔmmɔ din ka ho. 
 (Wɔde wɛbsaet no nni intanɛt so mprempren fi September 2026.)
 
 ### ZK Radio so na ɔkyerɛwee
@@ -75,8 +75,7 @@ Ankorankoro sikatua a wɔde tua intanɛt so. Ɛnyɛ afiase, KYC biara nni hɔ. A
 [Sra](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Sikakorabea
-Orchard-first Zcash sika kotoku a wɔasi maa Zebrad ne lightwalletd. Ɛboa send/receive a wɔabɔ ho ban koraa, mpɔtam hɔ safoa sohwɛ a ahobammɔ wom, ne Ironwood (NU6.3) nkyerɛwde ne Orchard-to-Ironwood atutra. Wɔpow address ahorow a ɛda adi pefee ma sikatua a ɛsen fa nea ɔde di dwuma no anim. 
-
+Orchard-first Zcash sika kotoku a wɔasi ama zebrad ne lightwalletd. Ɛboa send/receive a wɔabɔ ho ban koraa, mpɔtam hɔ safoa sohwɛ a ahobammɔ wom, ne Ironwood (NU6.3) nkyerɛwde ne Orchard-to-Ironwood atutra. Wɔpow address ahorow a ɛda adi pefee ma sikatua a ɛsen fa nea ɔde di dwuma no anim. 
 [Sra](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
@@ -86,7 +85,6 @@ Katua pon a ɛma wɔn a wɔde di dwuma no sɛe ZEC a wɔabɔ ho ban wɔ wiase an
 ### ZcashToCash
 ZcashToCash (zcashto.cash) — ZEC kɔ Sika App, Chime, Monzo, Revolut, Venmo, anaa Zelle denam Peer so. Wɔdane ZEC kɔ USDC (NEAR), afei Peer order a ɛwɔ Base so no gyae USDC bere a nea ɔfa no no ada fiat sikatua no adi akyi. Taker hu payment-app dwumadie din. Ɛnyɛ CEX, ɛnyɛ ZEC-in-escrow. 
 [Sra](https://zcashto.cash/)
-
 
 ### Zafu Sikakorabea
 Open-source kokoam sika kotoku ma Zcash ne Penumbra. Browser ntrɛwmu a ɛwɔ client-side proving, verified light-client architecture, awɔw mu signing, FROST multisig, ne view key biara nni hɔ a efi afiri no mu. 
@@ -105,7 +103,7 @@ Discord bot a ɛma kwan a ɛnyɛ den na ahobammɔ wom wɔ Zcash nkitahodi mu.
 [Sra](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Flagship Zcash sika kotoku a efi ZODL (kan no na wɔfrɛ no Zashi). Ɛwɔ iOS ne Android so. Ɛboa ZEC a wɔabɔ ho ban ne NU7 coinholder abatow. 
+Flagship Zcash sika kotoku a efi ZODL (kan no na wɔfrɛ no Zashi). Ɛwɔ iOS ne Android. Ɛboa ZEC a wɔabɔ ho ban ne NU7 coinholder abatow. 
 [Sra](https://zodl.app/)
 
 ### Noir Sikakorabea
@@ -117,11 +115,11 @@ Botae a egyina sikakorabea sika kotoku a wɔasi wɔ Zcash kyɛm nkitahodi so.
 [Nhyiamu](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-YWallet a ɛboa Zcash protocol nneɛma a aba foforo a Orchard. 
+YWallet. Ɛboa Ironwood, mprempren ɔtare a wɔabɔ ho ban no. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
-Sɔhwɛ desktop sika kotoku a emu yɛ hare ma Zcash a wɔakyerɛw wɔ Rust mu. 
+Sɔhwɛ desktop sika kotoku a emu yɛ hare ma Zcash a wɔakyerɛw wɔ Rust. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
 ### Gem Wallet
@@ -144,9 +142,9 @@ Desktop sika kotoku a wɔde hwɛ nneɛma nkutoo a wɔayɛ ama ankorankoro ne ahy
 
 ## Nhwehwɛmufo, Data, ne Network Dashboards
 
-### CipherScan
-Kokoamsɛm-di kan Zcash blockchain nhwehwɛmufo. Wɔde Next.js 15, TypeScript, ne Rust/WASM na ɛkyekyee. Lookups ntumi nkɔ asɛmmisa metadata. 
-[Sra](https://cipherscan.app/)
+### ZecBlock
+Zcash blockchain explorer (kan no na wɔfrɛ no CipherScan). Wɔde Next.js 15, TypeScript, ne Rust/WASM. Lookups ntumi nkɔ asɛmmisa metadata. Wɔasan akyekye interface a ɛwɔ homepage a wotumi sesa, nkɔnsɔnkɔnsɔn Q&A (beta), charts a wotumi kyɛ, ne nea ɛkeka ho. 
+[Sra](https://zecblock.com/)
 
 ### Exblo
 Block explorer a wɔayɛ sɛ wɔde bɛsɔ nnwuma ahwɛ wɔ Zcash Testnet so. 
@@ -241,12 +239,17 @@ Ahodi nhyehyɛe a ɛtwe adwene si kokoamsɛm so a ɛde Zcash nkitahodi a wɔabɔ
 
 ## Developer, Sɔhwɛ, ne Nneɛma a Wɔde Yɛ Adwuma
 
+### Ztreamer
+Zcash indexer a wɔabue ano ne lightwallet-protocol (CompactTxStreamer) dwumadie a wɔayɛ no yie kɛseɛ a Zakura node a wɔde ahyɛ mu no gyina akyi. Ɔyɛ node + indexer + wallet server wɔ adeyɛ biako mu (ztreamerd); ɛboa gRPC ne Zakura v2 P2P. Fast abakɔsɛm indexing ne low-latency som ma hann sika kotoku. 
+[Sra](https://github.com/distractedm1nd/ztreamer)  
+[Crate a wɔde hyɛ mu](https://crates.io/crates/ztreamer-indexer)
+
 ### Ziggurat na ɛyɛ
 Network sɔhwɛ suite ma zcashd ne Zebra developers. Zcash crawler ka ho. 
 [Sra](https://github.com/runziggurat/zcash)
 
 ### ZecDev
-Linux-kan adwinnadeɛ a ɛde Zebra regtest ntwamutam a faucet, Unified Address fixtures, ne lightwalletd anaa Zaino, ne GitHub Actions a wɔtumi de di dwuma bio ma shielded end-to-end flows ba. 
+Linux-first adwinnadeɛ a ɛde Zebra regtest ntwamutam a faucet, Unified Address fixtures, ne lightwalletd anaa Zaino, ne GitHub Actions a wɔtumi de di dwuma bio ma shielded end-to-end flows ba. 
 [Sra](https://github.com/zecdev)
 
 ### Zebra Coverage-Guided Fuzzing Nneɛma a Wɔde Yɛ Adwuma

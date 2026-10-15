@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Namada_Protocol.md)
 
-# Namada Protocol
+# Protocollo Namada
 
 ![Namada Logo](/content-images/logo-2067e2533d.webp)
 
@@ -11,56 +11,56 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Wg_WtPdBig0"
-    title="Zcash Explained: Namada-Zcash Strategic Alliance"
+    title="Spiegazione di Zcash: alleanza strategica tra Namada e Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-Namada Protocol funge da piattaforma Layer 1 basata sul consenso proof-of-stake, progettata per fornire una privacy interchain agnostica rispetto agli asset. Attraverso il protocollo Inter-Blockchain Communication (IBC), Namada si integra perfettamente con chain a finalità rapida, abilitando una fluida interoperabilità. Inoltre, Namada stabilisce un bridge bidirezionale trustless con Ethereum, facilitando una comunicazione sicura e affidabile tra le due reti.
+Il protocollo Namada è una piattaforma Layer 1 basata sul consenso proof-of-stake, progettata per offrire privacy interchain indipendente dagli asset. Attraverso il protocollo Inter-Blockchain Communication (IBC), Namada si integra perfettamente con chain a finalità rapida, consentendo un'interoperabilità fluida. Inoltre, Namada stabilisce un bridge bidirezionale trustless con Ethereum, facilitando una comunicazione sicura e affidabile tra le due reti.
 
-Namada dà priorità alla privacy implementando un'iterazione potenziata del circuito Multi-Asset Shielded Pool (MASP). Questa versione aggiornata consente a tutti i tipi di asset, inclusi sia i token fungibili sia quelli non fungibili, di utilizzare un insieme schermato condiviso esattamente come quello di Zcash. Di conseguenza, il trasferimento di asset supportati su Namada diventa indistinguibile, poiché è difficile da identificare a causa dell'elevato livello di privacy coinvolto. Inoltre, l'ultimo aggiornamento del circuito Multi Asset Shielded Pool abilita le ricompense per l'insieme schermato, una funzionalità o un incentivo rivoluzionario che alloca risorse per promuovere la privacy come bene pubblico.
+Namada dà priorità alla privacy implementando una versione migliorata del circuito Multi-Asset Shielded Pool (MASP). Questa versione aggiornata consente a tutti i tipi di asset, inclusi token fungibili e non fungibili, di utilizzare un insieme schermato condiviso proprio come quello di Zcash. Di conseguenza, il trasferimento degli asset supportati su Namada diventa difficilmente identificabile grazie all'elevato livello di privacy coinvolto. Inoltre, l'ultimo aggiornamento del circuito Multi Asset Shielded Pool abilita le ricompense dell'insieme schermato, una funzionalità o un incentivo rivoluzionario che assegna risorse per promuovere la privacy come bene pubblico.
 
-## Compatibile con Ethereum bridge + IBC
+## Bridge Ethereum + compatibile con IBC
 
-L'integrazione dell'Ethereum bridge in Namada elimina la necessità di un protocollo separato, in quanto diventa parte integrante dell'ecosistema Namada. I validatori all'interno di Namada hanno il compito di gestire il bridge insieme al protocollo core di Namada. Questi validatori fungono anche da relayer quando si tratta di trasferire asset verso Namada, rendendo non necessario il coinvolgimento di attori aggiuntivi. D'altra parte, quando si trasferiscono asset verso Ethereum, sono coinvolte parti esterne (note come relayer), sebbene non abbiano alcuna responsabilità nel validare o mettere in sicurezza il bridge.
+L'integrazione del bridge Ethereum in Namada elimina la necessità di un protocollo separato, poiché diventa parte integrante dell'ecosistema di Namada. Ai validatori all'interno di Namada è affidata l'esecuzione del bridge insieme al protocollo centrale di Namada. Questi validatori fungono anche da relayer quando trasferiscono asset verso Namada, rendendo superfluo il coinvolgimento di attori aggiuntivi. D'altra parte, quando gli asset vengono trasferiti verso Ethereum, sono coinvolte parti esterne, note come relayer, sebbene non abbiano alcuna responsabilità nella convalida o nella protezione del bridge.
 
 ![Ethereum Bridge Diagram](/content-images/image-0fd8f754ba.webp)
 
-Namada Protocol ha anche la capacità di connettersi perfettamente con qualsiasi chain a finalità rapida che supporti il protocollo Inter-Blockchain Communication (IBC). Quando si tratta di interoperare con Ethereum, Namada implementa un Ethereum bridge specializzato e sicuro che opera in modo trustless. Questo bridge è attentamente progettato per dare priorità alla sicurezza imponendo controlli di flusso per tutte le connessioni del bridge e trattando qualsiasi trasferimento Ethereum difettoso come un grave illecito che può comportare penalità di slashing.
+Il protocollo Namada è inoltre in grado di connettersi perfettamente a qualsiasi chain a finalità rapida che supporti il protocollo Inter-Blockchain Communication (IBC). Per quanto riguarda l'interoperabilità con Ethereum, Namada implementa un bridge Ethereum specializzato e sicuro che opera in modo trustless. Questo bridge è progettato attentamente per dare priorità alla sicurezza, imponendo controlli di flusso per tutte le connessioni bridge e trattando qualsiasi trasferimento Ethereum difettoso come una grave infrazione che può comportare penalità di slashing.
 
-## Ricompense per l'insieme schermato
+## Ricompense dell'insieme schermato
 
-Nell'ultimo aggiornamento del [Namada Protocol](https://blog.namada.net/what-is-namada/), gli utenti che detengono asset schermati sono incentivati a partecipare attivamente all'insieme schermato condiviso. Questo è reso possibile attraverso l'integrazione del circuito MASP aggiornato, che ora include l'innovativo Convert Circuit. Sfruttando questa nuova funzionalità, Namada incoraggia gli utenti a contribuire all'insieme schermato condiviso detenendo asset schermati.
+Nell'ultimo aggiornamento del protocollo [Namada](https://namada.net/blog/what-is-namada), gli utenti che detengono asset schermati sono incentivati a partecipare attivamente all'insieme schermato condiviso. Ciò è possibile grazie all'integrazione del circuito MASP aggiornato, che ora include l'innovativo Convert Circuit. Sfruttando questa nuova funzionalità, Namada incoraggia gli utenti a contribuire all'insieme schermato condiviso detenendo asset schermati.
 
-In Namada, l'insieme schermato è considerato un bene pubblico non esclusivo e anti-rivale. Questo significa che man mano che più individui utilizzano i trasferimenti schermati, il livello delle garanzie di privacy migliora per ciascun partecipante. Il protocollo riconosce l'importanza dell'adozione e della partecipazione collettiva nel migliorare la privacy per tutti gli utenti. Pertanto, incentivando gli utenti a detenere asset schermati e a contribuire all'insieme schermato condiviso, Namada favorisce un ecosistema della privacy più forte e robusto.
+In Namada, l'insieme schermato è considerato un bene pubblico non esclusivo e non rivale. Ciò significa che, man mano che più persone utilizzano trasferimenti schermati, il livello delle garanzie di privacy migliora per ciascun partecipante. Il protocollo riconosce l'importanza dell'adozione e della partecipazione collettive per migliorare la privacy di tutti gli utenti. Pertanto, incentivando gli utenti a detenere asset schermati e a contribuire all'insieme schermato condiviso, Namada favorisce un ecosistema della privacy più forte e robusto.
 
 ## Transazione di asset schermati
 
-Quando si tratta di trasferimenti schermati, sia che coinvolgano un token non fungibile (NFT) di Ethereum, ATOM o NAM, sono indistinguibili gli uni dagli altri. Questo significa che le caratteristiche di tutela della privacy fornite dal MASP (Modified Accumulator Sapling Protocol), una versione potenziata del circuito Sapling di Zcash, si applicano in modo uniforme a tutti i tipi di asset. Il circuito MASP consente a tutti gli asset all'interno dell'ecosistema Namada di condividere lo stesso insieme schermato. Questo approccio garantisce che le garanzie di privacy non siano frammentate tra i singoli asset. Indipendentemente dal volume di transazioni associato a un particolare asset, la protezione della privacy rimane coerente e indipendente.
+Per quanto riguarda i trasferimenti schermati, che coinvolgano un token non fungibile (NFT) Ethereum, ATOM o NAM, sono indistinguibili tra loro. Ciò significa che le funzionalità di tutela della privacy offerte dal MASP (protocollo Modified Accumulator Sapling), una versione migliorata del circuito Zcash Sapling, si applicano uniformemente a tutti i tipi di asset. Il circuito MASP consente a tutti gli asset nell'ecosistema di Namada di condividere lo stesso insieme schermato. Questo approccio garantisce che le garanzie di privacy non siano frammentate tra i singoli asset. Indipendentemente dal volume di transazioni associato a un particolare asset, la protezione della privacy rimane coerente e indipendente.
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-Unificando l'insieme schermato tra diversi asset, Namada garantisce che la privacy sia mantenuta in modo uniforme, indipendentemente dallo specifico tipo di asset coinvolto in un trasferimento schermato. Questo approccio promuove un framework di privacy coeso all'interno del protocollo e migliora la riservatezza delle transazioni che coinvolgono NFT di Ethereum, ATOM, NAM e altri asset supportati. Namada abilita anche il trasferimento privato di token fungibili e non fungibili usando nuovi zk-SNARK, garantendo la riservatezza per i token nativi e non nativi proprio come avviene su Zcash.
+Unificando l'insieme schermato tra asset diversi, Namada garantisce che la privacy sia mantenuta uniformemente, indipendentemente dal tipo specifico di asset coinvolto in un trasferimento schermato. Questo approccio promuove un quadro di privacy coerente all'interno del protocollo e migliora la riservatezza delle transazioni che coinvolgono NFT Ethereum, ATOM, NAM e altri asset supportati. Namada consente inoltre il trasferimento privato di token fungibili e non fungibili utilizzando nuovi zk-SNARKs, garantendo la riservatezza dei token nativi e non nativi proprio come avviene su Zcash.
 
-## Commissioni inferiori e transazioni veloci
+## Meno commissioni e transazioni rapide
 
-Namada combina due elementi chiave per offrire velocità e finalità rapida delle transazioni: la generazione rapida delle prove e il moderno consenso Byzantine Fault Tolerant (BFT). Queste due caratteristiche consentono a Namada di raggiungere una velocità di elaborazione delle transazioni paragonabile a Visa, una nota rete di pagamenti riconosciuta per le sue elevate capacità di throughput. La generazione rapida delle prove si riferisce alla produzione efficiente di prove crittografiche che validano la correttezza e l'integrità delle transazioni sulla Blockchain. Impiegando tecniche e ottimizzazioni avanzate, Namada Protocol minimizza l'overhead computazionale necessario per generare queste prove, risultando in una verifica e conferma rapida delle transazioni.
+Namada combina due elementi chiave per offrire velocità e finalità delle transazioni: la generazione rapida delle prove e il moderno consenso Byzantine Fault Tolerant (BFT). Queste due funzionalità consentono a Namada di raggiungere una velocità di elaborazione delle transazioni paragonabile a Visa, una nota rete di pagamento riconosciuta per le sue elevate capacità di throughput. La generazione rapida delle prove si riferisce alla produzione efficiente di prove crittografiche che convalidano la correttezza e l'integrità delle transazioni sulla blockchain. Utilizzando tecniche e ottimizzazioni avanzate, il protocollo Namada riduce al minimo il sovraccarico computazionale necessario per generare queste prove, ottenendo una verifica e una conferma rapide delle transazioni.
 
-Inoltre, Namada utilizza moderni algoritmi di consenso BFT, che garantiscono l'integrità e l'accordo delle transazioni in tutta la rete. Questi meccanismi di consenso consentono a Namada di raggiungere un consenso sull'ordine e la validità delle transazioni, fornendo una forte garanzia di finalità. Con la finalità, le transazioni sono considerate irreversibili, riducendo il rischio di double-spending o rollback delle transazioni. Namada segue un approccio simile ad Anoma, un altro protocollo noto per le sue soluzioni di scalabilità. Namada adotta istanze frattali, che consentono la creazione di chain annidate all'interno della blockchain principale. Questa struttura frattale abilita lo scaling orizzontale distribuendo il carico su più istanze, migliorando la capacità e le prestazioni complessive della rete.
+Inoltre, Namada utilizza moderni algoritmi di consenso BFT, che garantiscono l'integrità e l'accordo sulle transazioni nell'intera rete. Questi meccanismi di consenso consentono a Namada di raggiungere il consenso sull'ordine e sulla validità delle transazioni, fornendo una solida garanzia di finalità. Con la finalità, le transazioni sono considerate irreversibili, riducendo il rischio di doppia spesa o annullamento delle transazioni. Namada segue un approccio simile ad Anoma, un altro protocollo noto per le sue soluzioni di scalabilità. Namada adotta istanze frattali, che consentono la creazione di chain annidate all'interno della blockchain principale. Questa struttura frattale consente la scalabilità orizzontale distribuendo il carico tra più istanze, migliorando la capacità e le prestazioni complessive della rete.
 
 ## Alleanza strategica tra Namada e Zcash
 
-Secondo una recente pubblicazione che può essere trovata sul [Blog di Namada Protocol](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/), il team dietro Namada Protocol è entusiasta di presentare una proposta e una request-for-comment (RFC) per un'alleanza strategica tra gli asset, le chain e le community di Namada e Zcash.
+Secondo una recente pubblicazione disponibile sul [blog del protocollo Namada](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash), il team dietro il protocollo Namada è lieto di presentare una proposta e una richiesta di commenti (RFC) per un'alleanza strategica tra gli asset, le chain e le community di Namada e Zcash.
 
 ![Namada-Zcash Strategic Alliance Diagram](/content-images/image-2-68804c60f3.webp)
 
-L'alleanza proposta comprende tre elementi principali. In primo luogo, verrà creata una pool di finanziamenti per fornire finanziamenti a progetti che apportino vantaggi sia a Zcash sia a Namada. In secondo luogo, un airdrop di token NAM sarà allocato ai possessori di ZEC. Infine, è previsto un piano per stabilire un bridge a fiducia minimizzata che colleghi Zcash e Namada. Una volta implementato, questo bridge consentirà ai possessori di ZEC, chiamati Zolders, di utilizzare i propri ZEC su Namada. Inoltre, gli Zolders avranno l'opportunità di accedere ai più ampi ecosistemi Cosmos ed Ethereum attraverso Namada. Puoi saperne di più sull'alleanza strategica sul [Zcash Community Forum](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
+L'alleanza proposta comprende tre elementi principali. Innanzitutto, verrà creata una pool di finanziamenti per finanziare progetti che portino vantaggi sia a Zcash sia a Namada. In secondo luogo, un airdrop di token NAM verrà assegnato ai detentori di ZEC. Infine, è previsto un piano per stabilire un bridge con fiducia ridotta che colleghi Zcash e Namada. Una volta implementato, questo bridge consentirà ai detentori di ZEC, chiamati Zolders, di utilizzare i propri ZEC su Namada. Inoltre, gli Zolders avranno l'opportunità di accedere agli ecosistemi più ampi di Cosmos ed Ethereum attraverso Namada. Puoi scoprire di più sull'alleanza strategica nel [forum della community di Zcash](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
 
 ## Link di riferimento
 
-- [Video ufficiale di Namada Protocol](https://www.youtube.com/watch?v=Wg_WtPdBig0)
-- [Sito web ufficiale di Namada Protocol](https://namada.net/)
-- [Namada Blog](https://blog.namada.net/)
-- [Namada Docs](https://docs.namada.net/)
+- [Video ufficiale del protocollo Namada](https://www.youtube.com/watch?v=Wg_WtPdBig0)
+- [Sito web ufficiale del protocollo Namada](https://namada.net/)
+- [Blog di Namada](https://namada.net/blog)
+- [Documentazione di Namada](https://docs.namada.net/)

@@ -3,85 +3,85 @@
 </a>
 
 
-# Ìdí Tó Fi Yẹ Ká Máa Ṣọ́ra fún Ìṣekúṣe
+# Idi ti Asiri fi Ṣe Pataki
 
-Ní ayé òde-òní, ààbò àwọn ìsọfúnni rẹ kò ní ṣàìṣe pàtàkì. [ìpamọ́ ara ẹni](https://www.privacyguides.org/en/) bó tilẹ̀ jẹ́ pé àwọn kan lè máa wo ìpamọ́ra gẹ́gẹ́ bí ohun tí kò ní láárí, kì í ṣe bẹ́ẹ̀. àìsí àṣírí rẹ wà nínú ewu ó sì yẹ kí o ṣàníyàn nípa ẹ̀. ìpamọ́ra ń kó ipa pàtàkì nítorí ó bá agbára mu, àti wípé a rí i dájú pé wọ́n lo àṣẹ lọ́nà tó tọ́ ni èyí ṣe pàtàkì jùlọ.
+Ni akoko oni-nọmba, aabo aabo rẹ [ìpamọ́](https://www.privacyguides.org/en/) ti di ohun tó ṣe pàtàkì sí i. Bó tilẹ̀ jẹ́ pé àwọn kan lè wo ìpamọ́ gẹ́gẹ́ bí ohun tó ti sọnù, kò rí bẹ́ẹ̀. Ìpamọ́ rẹ wà nínú ewu, ó sì yẹ kó jẹ́ ohun tó ń fa àníyàn. Ìpamọ́ ní ìníyelórí pàtàkì ní ti agbára, àti rírí i dájú pé a lo agbára lọ́nà tó bójú mu ṣe pàtàkì.
 
-## Tor & I2P Awọn imọ-ẹrọ
+## Awọn Imọ-ẹrọ Tor & I2P
 
-## Torìkì
+## Tor
 
-[Torìkì](https://www.privacyguides.org/en/tor/?h=tor) jẹ́ ọ̀nà aṣojú tí ó ń lo ẹ̀rọ Tor láti dá ìsopọ̀ sílẹ̀ fún àwọn ohun èlò.Torbot ṣe èyí nípa fífi ìrìnàjò wọn lọ sí inú Tor, nípa bẹ́ẹ̀ yóò mú kí àyè wà fáwọn oníṣẹ́-òpópónà tó bá wá sórí rẹ̀. [ìpamọ́ àti àìmọ orúkọ ẹni](https://www.torproject.org/) fún àwọn ohun èlò wọ̀nyí.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) jẹ́ irinṣẹ́ aṣojú tí ó ń lo nẹ́tíwọ́ọ̀kì Tor láti fi àwọn ìsopọ̀ sílẹ̀ fún àwọn ohun èlò. Torbot ṣe àṣeyọrí èyí nípa ṣíṣe àtúnṣe ìrìnnà wọn nípasẹ̀ Tor, èyí sì ń mú kí ó sunwọ̀n síi [ìpamọ́ àti àìdánimọ̀](https://www.torproject.org/) fun awọn ohun elo wọnyi.
 
-## Àjọ I2P
+## Nẹ́tíwọ́ọ̀kì I2P
 
-Àwòrán I2P, tí a tún mò sí "I" àtèyí tó ń jẹ́ "i", ni ó wà ní ìsàlẹ̀. [Ètò Ìkànnì Ayé Àìrílójúláàyè](https://geti2p.net/en/about/intro), is a fully encrypted peer-to-peer overlay network. It ensures that the contents, source, and destination of messages are hidden from observers. In other words, nobody can see the origin or destination of the traffic or the actual contents of the messages being transmitted. The encryption used in I2P ensures a high level of privacy and anonymity for its users.
+Nẹ́tíwọ́ọ̀kì I2P, tí a tún mọ̀ sí [Iṣẹ́ Àgbékalẹ̀ Íńtánẹ́ẹ̀tì tí a kò le rí](https://geti2p.net/en/about/intro), jẹ́ nẹ́tíwọ́ọ̀kì ìbòjú-ẹgbẹ́ tí a fi ìkọ̀kọ̀ pa mọ́ pátápátá. Ó ń rí i dájú pé àwọn ohun tí a kọ sí, orísun, àti ibi tí a ń lọ fi àwọn ìránṣẹ́ pamọ́ fún àwọn olùwòran. Ní ọ̀rọ̀ mìíràn, kò sí ẹni tí ó lè rí orísun tàbí ibi tí ìrìnnà tàbí àwọn ohun tí a kọ síta gidi ti àwọn ìránṣẹ́ tí a ń fi ránṣẹ́. Ìkọ̀kọ̀ tí a lò nínú I2P ń rí i dájú pé àwọn olùlò rẹ̀ ní ìpamọ́ àti àìjẹ́-ẹni-nímọ̀.
 
-### Fifi I2P sori ẹrọ
+### Fifi sori ẹrọ I2P
 
-Awọn imuse meji wa. atilẹba [Java I2P (ì í ì ë ¤)](https://geti2p.net/en/download) ó ń ṣiṣẹ lórí Windows, macOS, Linux àti Android. [i2pd](https://i2pd.website/), ti a kọ ni C ++, jẹ imọlẹ ati pe o jẹ yiyan deede lori olupin tabi ẹrọ agbara kekere.
+Àwọn ìmúṣẹ méjì ló wà [Java I2P](https://geti2p.net/en/download) nṣiṣẹ lori Windows, macOS, Linux ati Android. [i2pd](https://i2pd.website/), tí a kọ ní C++, ó fẹ́ẹ́rẹ́fẹ́ẹ́, ó sì jẹ́ àṣàyàn tí a sábà máa ń lò lórí ẹ̀rọ olupin tàbí ẹ̀rọ tí agbára rẹ̀ kò pọ̀.
 
-Ni kete ti o ba nṣiṣẹ, I2P fi aaye kan han ni agbegbe lori `127.0.0.1:7657` àti àwọn aṣojú lórí `127.0.0.1:4444` (HTTP) àti `127.0.0.1:4447` (SOCKS). O lè retí pé yóò gba ọ̀pọ̀ ìṣẹ́jú nígbà tí o bá kọ́kọ́ bẹ̀rẹ̀: I2P ní láti ṣe àwọn ihò àgbélébùú láàrín ẹ̀rọ kí ohunkóhun tó le ṣiṣẹ, ó sì máa ń yára sí i bí àkókò ti pẹ́ tó.
+Ni kete ti o ba n ṣiṣẹ, I2P ṣafihan console agbegbe kan lori `127.0.0.1:7657` àti àwọn aṣojú lórí `127.0.0.1:4444` (HTTP) àti `127.0.0.1:4447` (SỌ́KẸ́Ẹ̀). Retí pé yóò gba ìṣẹ́jú díẹ̀ ní ìbẹ̀rẹ̀ àkọ́kọ́: I2P gbọ́dọ̀ kọ́ àwọn ọ̀nà ìṣàn omi nípasẹ̀ nẹ́tíwọ́ọ̀kì kí ohunkóhun tó lè ṣiṣẹ́, yóò sì yára sí i bí ó ṣe ń wà lórí ayélujára níwọ̀n ìgbà tí ó bá ti wà níbẹ̀.
 
 ### Lilo I2P pẹlu Zcash
 
-Mọ̀ wípé **kò sí ìsọ̀rí Zcash tó ń sọ èdè I2P ní àbínibí.** Zebra kò ni atilẹyin fún I2 P, bẹ́ẹ̀ náà sì ni zcashd. Bí o bá rí ìwé atójútó kan tí ó n kéde pé òun yóò máa lo ìsùmọ̀ Zcash lórí I2p, ohun tí software ò ṣe nìyẹn.
+Ẹ mọ̀ pé **kò sí nọ́ńbà Zcash lọ́wọ́lọ́wọ́ tó ń sọ̀rọ̀ nípa I2P ní ìbílẹ̀.** Àwòrán Zebra kò ní ìtìlẹ́yìn I2P, bẹ́ẹ̀ náà ni zcashd. Tí ẹ bá rí ìwé ìtọ́ni kan tó ń sọ pé òun ń ṣiṣẹ́ nọ́ńbà Zcash lórí I2P, ó ń ṣàlàyé ohun tí sọ́fítíwọ́ọ̀dù náà kò ṣe.
 
-Ohun tí I2P wúlò fún níbí ni gbogbo nǹkan tó wà láyìíká àpò: wíwá sí ojúlé, àpérò tàbí iṣẹ́ láìfi àdírésì rẹ hàn. Láti ṣe ìsopọ̀ àpò náà fúnra rẹ̀ lórúkọ-kòlákọ, Tor jẹ ohun àmúṣe lónìí, àwọn abala ti ó wa lẹ́hìn yìí sì bo o mọ́lẹ̀.
+Ohun tí I2P wúlò gan-an fún níbí ni gbogbo nǹkan tó wà ní àyíká àpò owó náà: dídé ojú òpó wẹ́ẹ̀bù kan, àpérò tàbí iṣẹ́ láìfi àdírẹ́sì rẹ hàn. Láti fi àìmọ̀ orúkọ àpò owó náà hàn, Tor ni àṣàyàn tó wúlò lónìí, àwọn apá tó wà ní ìsàlẹ̀ sì bojútó o.
 
-## Tor ati I2P pín àwọn ohun tó jọra ṣùgbọ́n wọ́n tún ní ìyàtọ̀ pàtàkì. 
+## Tor àti I2P ní àwọn ànímọ́ tó wọ́pọ̀ ṣùgbọ́n wọ́n tún ní àwọn ìyàtọ̀ pàtàkì. 
 
-Tor ati I2P ni decentralized ki o si aimọ peer-to-peer nẹtiwọki, sugbon I2 P pese ga awọn ipele ti aabo akawe to Tor. Sibẹsibẹ, I2p jẹ akọkọ apẹrẹ fun wiwọle iṣẹ bi imeeli, iwiregbe, ati torrenting laarin rẹ nẹтиwoki ati ko le ṣee lo lati wọle si deede ayelujara. Ni apa keji, Tọọ gba olumulo laaye lati wọlé sinu jinna wẹẹbu, gẹgẹbi I2 p, ṣugbọn o tun ṣiṣẹ bi a deede aṣàwákiri fun wíwá sí àwọn ojúewé lori ojula aaye ayelujara.
+Tor àti I2P jẹ́ àwọn nẹ́tíwọ́ọ̀kì peer-to-peer tí kò ní ìṣọ̀kan àti aláìlórúkọ, ṣùgbọ́n I2P ń pèsè ààbò gíga ju Tor. Síbẹ̀síbẹ̀, a ṣe I2P ní pàtàkì fún wíwọlé sí àwọn iṣẹ́ bíi email, chat, àti torrenting láàárín nẹ́tíwọ́ọ̀kì rẹ̀, a kò sì le lò ó láti wọ inú nẹ́tíwọ́ọ̀kì déédéé. Ní ọwọ́ kejì ẹ̀wẹ̀, Tor ń jẹ́ kí àwọn olùlò wọlé sí nẹ́tíwọ́ọ̀kì jíjinlẹ̀, gẹ́gẹ́ bí I2P, ṣùgbọ́n ó tún ń ṣiṣẹ́ gẹ́gẹ́ bí ẹ̀rọ aṣàwárí déédéé fún wíwọlé sí àwọn wẹ́ẹ̀bù lórí ojú-òpó wẹ́ẹ̀bù.
 
-*Àkíyèsí: fún àlàyé síwájú sí i lórí àwọn ìṣẹ̀lẹ̀ tó jọra àti ìyàtọ̀ Tor & I2P, lọ́wọ́. [níhìn-ín ni](https://geti2p.net/en/comparison/tor)*
+*Àkíyèsí: Fún ìwífún síi nípa àwọn ìjọ́ra àti ìyàtọ̀ ti Tor & I2P, ṣẹ̀wò [Nibi](https://geti2p.net/en/comparison/tor)*
 
-## Ṣíṣe àpò-ìpamọ̀ alágbèéká nípasẹ̀ Tor pẹlú Orbot
+## Lilo Orbot lati lo apamọwọ alagbeka kan nipasẹ Tor
 
-Orbot jẹ́ àkànṣe ìsọ̀rí aláfẹnujẹ́ (VPN) tí kò ní owó kankan, èyí ti a ṣe fún àwọn fóònù amóhùnmáwòrán tó ń darí ìrìnàjò láti gbogbo ohun èlò lórí ẹ̀rọ rẹ lọ sí orí nẹtiwọọki Tor.
+Orbot jẹ́ nẹ́tíwọ́ọ̀kì àdáni tí kò ní owó (VPN) tí a ṣe fún àwọn fóònù alágbéka tí ó ń darí ìrìnnà láti gbogbo àwọn ohun èlò lórí ẹ̀rọ rẹ nípasẹ̀ nẹ́tíwọ́ọ̀kì Tor.
 
-Tẹle awọn wọnyi itọnisọna lati ipa ọna kan Zcash apamọwọ nipasẹ Tor. Akiyesi wipe Ywallet, eyi ti iṣaaju ẹya ti yi guide lo, ni o wa ko si tun tọju ati ki o yoo ma tẹle nẹtiwọki lẹhin Ironwood, ki yan a ṣetọju apamọwọ lati awọn [Àwọn àpamọ́ owó](/using-zcash/wallets) ojú ìwé.
+Tẹ̀lé àwọn ìtọ́ni wọ̀nyí láti darí àpò Zcash kan gba Tor. Ṣàkíyèsí pé YWallet, èyí tí àwọn ẹ̀yà ìtọ́sọ́nà yìí ti lò tẹ́lẹ̀, kò sí mọ́, kò sì ní tẹ̀lé nẹ́tíwọ́ọ̀kì lẹ́yìn Ironwood, nítorí náà yan àpò tí a ti tọ́jú láti inú [Àwọn Àpò Ìpamọ́](/using-zcash/wallets) ojú ìwé.
 
-1.  Ṣe igbasilẹ ki o fi sori ẹrọ *Orbot* lati inu ile itaja ohun elo.
+1.  Ṣe igbasilẹ ki o fi *Orbot* sori ẹrọ lati inu itaja app naa.
 
-2.  Lẹ́yìn tí ẹ bá ti fi wọlé, ìkíni kan yóò fara hàn. Tún lọ sí ojúewé ilé *Orbot* kí o sì tẹ̀ lórí *'Tor Enabled Apps'.* 
+2.  Lẹ́yìn tí o bá ti fi kún un, ìránṣẹ́ ìkíni kan yóò fara hàn. Tẹ̀síwájú sí ojú ìwé àkọ́kọ́ *Orbot* kí o sì tẹ *'Tor '.* 
 
-3. Èyí yóò mú kí ojúewé kan wà lórí ìwo tí ó ńfi àwọn ohun èlò tó bá Tor mu hàn. Wá àpò Zcash rẹ nínú àkọsílẹ̀ náà, kó o sì rí i dájú pé a ti yan ọ́.
+3. Èyí yóò mú kí ojú ìwé kan hàn lórí ìbòjú tí ó fi àwọn ohun èlò Tor-compatible hàn. Wá àpò Zcash rẹ nínú àkójọ náà kí o sì rí i dájú pé a yàn án.
 
-4. Àbáwọlé ìsopọ̀ láti ṣe àgbéjọ VPN yóò farahàn, èyí tí ó máa jẹ́ kí *Orbot* lè ṣàyẹwò ètò ìṣàmúlò orí ẹ̀rọ. *Orbit* á dáwọ́ lé lẹ́yìn ìgbà tí wọ́n bá ti fọwọ́ sí àṣẹ yìí. 
+4. Ìbéèrè ìsopọ̀ láti ṣètò VPN yóò farahàn, èyí tí yóò jẹ́ kí *Orbot* máa ṣe àkíyèsí ìṣíṣẹ́ nẹ́tíwọ́ọ̀kì náà. *Orbot* yóò bẹ̀rẹ̀ nígbà tí a bá ti fọwọ́ sí àṣẹ yìí. 
 
-5. Ṣayẹwo ọ̀pá ìṣẹ́ tàbí ojúewé Orbot láti rí i pé Tor ń ṣiṣẹ, èyí ni a jẹrisi nígbà tí o bá wo 'A so mọ́ nẹtiwọọki Tor'.
+5. Ṣàyẹ̀wò ojú-ìwé ojú-ìwé tàbí ojú-ìwé Orbot láti rí i dájú pé Tor ń ṣiṣẹ́, èyí ni a ó fìdí rẹ̀ múlẹ̀ nígbà tí o bá rí 'Connected to the Tor network'.
 
-*Àkíyèsí: Bí Tor bá ti dí àwon nẹ́tàkítì alágbèéká rẹ, o lè lo Bridge Server gẹ́gẹ́ bí ọ̀nà mìíràn láti so.*
+*Àkíyèsí: Tí nẹ́tíwọ́ọ̀kì alágbèéká rẹ bá dí Tor lọ́wọ́, o lè lo Bridge Server gẹ́gẹ́ bí ọ̀nà míì láti sopọ̀.*
 
 
-## Fifi Tor sori PC tabi tabili-iṣẹ rẹ
+## Fifi Tor sori kọmputa tabi tabili kọmputa
 
-* Tor browser le wa ni gbaa lati ayelujara lati osise aaye, o le wọle si awọn ọna asopọ [níhìn-ín ni](https://www.torproject.org/download/).
+* O le gba Tor browser lati oju opo wẹẹbu osise, o le wọle si ọna asopọ naa [Nibi](https://download.torproject.org/).
 
- Ọna ti o rọrun julọ fun fifi sori ẹrọ Tor jẹ nipasẹ Ẹrọ aṣawakiri Tọ. Ti o ba fẹ awọn iṣeto laisi ori, o le yan lati fi daemon Tor sii lọtọ. 
+ Ọ̀nà tó rọrùn jùlọ láti fi Tor sori ẹrọ ni nípasẹ̀ Tor Browser Bundle. Tí o bá fẹ́ fi sori ẹrọ láìsí orí, o lè yan láti fi Tor daemon sori ẹrọ lọtọ̀. 
 
-*Àkíyèsí: Nípasẹ̀ àlẹmọ, ìdìpọ Tor Browser fi ohun èlò SOCKS hàn ní tcp/9150 àti ẹmí-àṣiṣẹ́ Tor fi ohun ọ̀rọ̀ SOCGS han ní t c p/9050.*
+*Àkíyèsí: Nípa àìṣeéṣe, àkójọpọ̀ Tor Browser fi olùgbọ́ SOCKS hàn lórí tcp/9150 àti Tor daemon fi olùgbọ́ SOCKS hàn lórí tcp/9050.*
 
-* Wo ibi tí wọ́n ti ń ṣe ìmúra náà. [àwọn ìtọ́ni](https://support.torproject.org/apt/) tó ṣe pàtó fún ètò ìṣiṣẹ́ rẹ gẹ́gẹ́ bí iṣẹ́ Tor Project ti pèsè.
+* Wo fifi sori ẹrọ [awọn ilana](https://support.torproject.org/little-t-tor/getting-started/installing/) pàtó sí ẹ̀rọ ìṣiṣẹ́ rẹ gẹ́gẹ́ bí Tor Project ti pèsè.
 
-## Ṣiṣẹ akopọ lori Tor
+## Ṣiṣẹ́ nódù kan lórí Tor
 
-Èyí ni apá tí ó ti yí padà jùlọ, àti ìdáhùn tòótọ́ náà ni pé ní báyìí o nira ju bí ó ṣe rí lọ.
+Èyí ni apá tó ti yípadà jùlọ, ìdáhùn òtítọ́ ni pé ó ṣòro ju bí ó ti rí lọ lọ́wọ́lọ́wọ́.
 
-**zcashd ti lọ.** Ó dé òpin ìtìlẹ́yìn ó sì dúró ní 18 July 2026 ni block 3,417,100. Kò tún bẹ̀rẹ̀, ojúewé àtúnyẹ̀wò rẹ̀ padà sí 404, àti pé ibi-ìpamọ́ apt kò sìn mọ́. Ìtọ́ni èyíkéyìí tí ń sọ fún ọ láti ṣiṣẹ́ `zcashd -proxy=127.0.0.1:9050` kò sí nǹkan kan tó kàn án mọ́.
+**zcashd ti lọ.** Ó dé òpin ìrànlọ́wọ́ ó sì dáwọ́ dúró ní ọjọ́ kejìdínlógún oṣù keje ọdún 2026 ní block 3,417,100. Kò ní tún bẹ̀rẹ̀, ojú ìwé ìgbàsílẹ̀ rẹ̀ yóò dá 404 padà, a kò sì ní fi ibi ìpamọ́ apt sí i mọ́. Ìlànà èyíkéyìí tó bá sọ fún ọ láti ṣiṣẹ́ ni kí o lo `zcashd -proxy=127.0.0.1:9050` kò tún kan ohunkóhun mọ́.
 
-** Zebra kò lè ṣe é síbẹ̀.** Zebra ni nóòdù tí a tọ́jú, àti àpò-ìpínwọlé rẹ̀ ní kókó ìsopọ̀ ìdálẹ́kọ̀ọ́ fún Tor nínú. ṣùgbọ́n àwọn ohun tó wà níbẹ̀ ti ṣàlàyé tán lórí ojúewé yìí: `zebra-network/Cargo.toml`:
+**Zebra ko le ṣe e sibẹsibẹ.** Zebra ni node ti a n ṣetọju, ati apoti nẹtiwọọki rẹ ni koodu asopọ ti a ya sọtọ fun Tor, ṣugbọn ẹya naa ni a ṣe akiyesi ninu `zebra-network/Cargo.toml`:
 
 ```
 # tor = ["arti-client", "tor-rtcompat"]
 ```
 
-Àwọn ìwé tó wà nínú àpò náà sọ ohun kan náà ní kedere: *"Ìsopọ̀ Tor ti di aláìṣeéṣiṣẹ́ báyìí títí dìgbà tí a bá fi rí ìmúṣẹ àwọn òfin yìí. `arti-client`ìfipamọ́ rẹ̀ sí àwọn tó ń gbé nílùú náà. `x25519-dalek v1.2.0` a ṣe àtúnṣe sí. "* The `connect_isolated_tor` function ti wa ni commented jade pẹlu o. ki nibẹ ni ko si atilẹyin ọna lati ṣiṣe kan Zcash node lori Tor loni.
+Ìwé àkọsílẹ̀ àpótí náà sọ ohun kan náà ní kedere: *"Tor mọ́ títí di ìgbà tí `arti-client`ìgbẹ́kẹ̀lé `x25519-dalek v1.2.0` ti ṣe àtúnṣe."* `connect_isolated_tor` A ṣe àkíyèsí iṣẹ́ náà pẹ̀lú rẹ̀. Nítorí náà, kò sí ọ̀nà tí a lè gbà láti lo nódù Zcash lórí Tor lónìí.
 
-Ti o ba nilo aimọye ipele node bayi, ọna ti n ṣiṣẹ ni lati fi gbogbo ẹrọ lẹhin Tor tabi VPN lori ipele eto iṣiṣẹ ju ṣiṣeto akopọ funrararẹ. Eyi daabobo ipo nẹtiwọọki rẹ laisi igbẹkẹle awọn ẹya ara ẹrọ akọọlẹ ti a ko kọ.
+Tí o bá nílò àìdánimọ̀ ìpele node nísinsìnyí, ọ̀nà tó ṣeé ṣe ni láti fi gbogbo ẹ̀rọ náà sí ìpele Tor tàbí VPN ní ìpele ìṣiṣẹ́ dípò ṣíṣe àtúnṣe node náà fúnra rẹ̀. Èyí ń dáàbò bo ibi tí nẹ́tíwọ́ọ̀kì rẹ wà láìgbára lé àwọn ẹ̀yà node tí a kò kọ́.
 
-### Ohun tó o ṣì lè ṣe lónìí
+### Ohun tí o tún lè ṣe lónìí
 
-- **Route your wallet through Tor** with Orbot on mobile, as described above. Eyi ni aṣayan ti o wulo fun ọpọlọpọ eniyan, ati pe o fi IP rẹ pamọ lati olupin lightwalletd eyiti apamọwọ rẹ n ba sọrọ si
-- **Lọ́wọ́ Tor Browser** fún àwọn aṣàwákiri ìdìbò, àwùjọ àti ohunkóhun tí o kò bá fẹ kí ó so ọ pọ̀ mọ́ nípa àdírésì.
-- **Rántí ohun tí Tor kò fi pamọ.** Ó ṣe àìsí orúkọ ẹni sí ibi tó o wà nínú ẹ̀rọ, kì í se ìgbòkègbodò rẹ lórí ìkànnì. Fífi lé láti adirẹsi kan ní ojúlówó ṣì jẹ́ ti gbogbo ènìyàn, àti fífa iye wọlé láàrin àwọn pólù aláàbò yóò tẹ owó náà jáde. Wo [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](/using-zcash/shielded-pools) fún ohun tí ó wà ní gbangba,
+- **Yí àpò owó rẹ padà sí Tor** pẹ̀lú Orbot lórí fóònù alágbéka, gẹ́gẹ́ bí a ti ṣàlàyé rẹ̀ lókè yìí. Èyí ni àṣàyàn tó wúlò fún ọ̀pọ̀lọpọ̀ ènìyàn, ó sì ń fi IP rẹ pamọ́ kúrò lọ́wọ́ lightwalletd àpò owó rẹ bá sọ̀rọ̀
+- **Lo Tor Browser** fun awọn oluwadi bulọọki, awọn apejọ ati ohunkohun miiran nibiti o ko ba fẹ ki a sopọ ọ nipasẹ adirẹsi
+- **Rántí ohun tí Tor kò fi pamọ́.** Ó ń sọ ibi tí nẹ́tíwọ́ọ̀kì rẹ wà di aláìmọ́, kìí ṣe iṣẹ́ rẹ lórí ẹ̀rọ. Fífiránṣẹ́ láti àdírẹ́sì tí ó hàn gbangba ṣì jẹ́ ti gbogbo ènìyàn, àti pé ìsopọ̀ iye láàárín àwọn adágún tí a dáàbò bò ṣì ń tẹ iye náà jáde. Wo [Àwọn Adágún Tí A Dáàbò Bo](/using-zcash/shielded-pools) fún ohun tí ó máa hàn gbangba

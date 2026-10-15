@@ -12,6 +12,7 @@
 * finalized ledger が *L* ブロックを超えて遅れた場合、**Safety Mode** が有効になります。この間も PoW は継続しますが、問題が解決するまで経済活動は停止します。
 * 時間の経過とともに、PoS バリデータは報酬のより大きな割合を受け取るようになり、PoW マイナーの収益は減少します。このプロトコルは、変更を段階的に導入します。
 * このプロトコルは Shielded Labs によって開発されており、Crosslink 2* を Zcash の Zebra クライアントに統合するためのロードマップがあります。
+* Crosslink は Zcash メインネットでは有効化されていません。誰でも参加できるテストネットワークである Shielded Labs の Feature Net 上で稼働しています。以下の「Crosslink の現状」を参照してください。
 
 ## 中核的な説明
 
@@ -81,7 +82,7 @@ Crosslink は、lower-latency ledger が finalized ledger を大きく引き離�
 
 ### 技術的詳細と展開
 
-Crosslink Protocol は、Zodl などの主要なエコシステムパートナーと協力して、Shielded Labs により積極的に開発および展開が進められています。プロトコルの実装には以下が含まれます。
+Crosslink Protocol は、ZODL などの主要なエコシステムパートナーと協力して、Shielded Labs により積極的に開発および展開が進められています。プロトコルの実装には以下が含まれます。
 
 * PoS 参加者向けの安全なステーキングメカニズムの確立。
 * マイナーとステーカーの間でインセンティブの均衡を取るための報酬構造の変更。
@@ -90,7 +91,20 @@ Crosslink Protocol は、Zodl などの主要なエコシステムパートナ�
 * 有効化ロジック: Crosslink の導入には、ステーク分配プロセスの定義や、ハイブリッドコンセンサスをサポートするためのネットワークプロトコルルールの更新を含む、Zcash コンセンサスルールの変更が必要です。
 * 段階的展開: ネットワークの安定性とコミュニティの適応を確保するため、このプロトコルは段階的に導入されます。初期段階では技術実装に重点が置かれ、その後、公証人選出のためのガバナンス統合が続きます。
 
-技術的な詳細を確認し、進捗を追跡するには、GitHub の [zebra-crosslink リポジトリ](https://github.com/ShieldedLabs/zebra-crosslink)および[zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/)を参照してください。
+初期のプロトタイプとそのドキュメントは、GitHub の [zebra-crosslink リポジトリ](https://github.com/ShieldedLabs/zebra-crosslink)および[zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/)にあります。現在の作業については次のセクションで説明します。
+
+### Crosslinkの位置付け
+
+Crosslinkは依然として提案段階です。Shielded Labs' [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)では、メインネットで有効化される前に「標準的なZcashガバナンスプロセスを経る必要がある」と述べられています。
+
+現在存在するのは **Feature Net** です。これはShielded Labsが運営するテストネットワークで、独自のテストコイン cTAZ を持ち、誰でもマイニング、ステーキング、ファイナライザーの実行を行えます。2026年10月1日にリリースされた[Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)は、通常のプルーフ・オブ・ワークとして開始され、Crosslinkを段階的に有効化します。ブロック20,736からステーキング、ブロック34,560で最初のファイナライザー名簿の取得、ブロック36,288からBFTファイナリティが開始されます（[出典](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)）。
+
+このページが作成されて以降、2つの事項が変更されました。
+
+* **ここで notary と呼ばれている役割は、Shielded Labs のソフトウェアおよびリリースノートでは finalizer と呼ばれています**。ステーカーはコインを finalizer に委任し、最も多くのステークを持つ finalizer がブロックをファイナライズするための投票を行います。
+* **コードは移動しました。** 上記の zebra-crosslink リポジトリは、2026年4月に最後に更新されました。Feature Net のリリースは [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases) から提供され、設計は [Crosslink book](https://shieldedlabs.github.io/crosslink_book/) に記載されています。
+
+ご自身で試すには、[Crosslink Feature Net](/guides/crosslink-feature-net) ガイドに従ってください。何も実行せずにネットワークを監視するには、[ZecHub Tools](https://zechub.wiki/tools?tool=crosslink) の Crosslink タブを開いてください。
 
 ## 実務上の意味合い
 
@@ -121,16 +135,17 @@ Crosslink は、Zcash の初期発展における PoW マイナーの基盤的�
 
 ## 関連ページ
 
-- [Zebra フルノード](/zcash-tech/zebra-full-node) — Crosslink 2* が統合される予定のクライアント。
-- [フルノード](/zcash-tech/full-nodes) — ハイブリッドコンセンサスへの変更が行われる前に、ノードが現在どのようにコンセンサスルールを検証しているか。
-- [ネットワークアップグレード](/start-here/network-upgrades) — コンセンサスルールの変更がどのように Zcash ネットワークへ到達するか。
-- [Zcash Monetary Policy](/start-here/zcash-monetary-policy) — Crosslink によって再配分されるブロック報酬の構造。
+- [Crosslink Feature Net](/guides/crosslink-feature-net) — Feature Netデスクトップアプリをインストールし、ファイナライザーにステーキングして自分のポジションを確認します。
+- [Zebraフルノード](/zcash-tech/zebra-full-node) — クライアントCrosslink 2*の統合が予定されています。
+- [フルノード](/zcash-tech/full-nodes) — ハイブリッド・コンセンサス変更前の現在、ノードがコンセンサスルールをどのように検証するか。
+- [ネットワークアップグレード](/start-here/network-upgrades) — コンセンサスルールの変更がZcashネットワークにどのように届くか。
+- [Zcash金融政策](/start-here/zcash-monetary-policy) — Crosslinkが再分配するブロック報酬の構造。
 
 ## 追加リソース
 
-- コミュニティの見解: [Zcash Community Forum - Crosslink Discussions](https://forum.zcashcommunity.com)
-- 公式アップデート: [Electric Coin Company Blog](https://electriccoin.co)
-- 持続可能性への焦点: [Why Hybrid PoS Matters for Zcash](https://forum.zcashcommunity.com)
+- コミュニティでの議論: [Crosslink：Zcashコミュニティフォーラム](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)上でインセンティブ付きのFeature Net
+- 公式アップデート: Shielded Labs](https://shieldedlabs.net/crosslink/)の[Crosslinkおよび[Feature Netのリリース](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- 設計の参照資料: [Crosslinkの書籍](https://shieldedlabs.github.io/crosslink_book/)
 
   参考資料:
 

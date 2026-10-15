@@ -32,7 +32,7 @@ Namada Protocol में किसी भी fast-finality chain से सह�
 
 ## Shielded Set Rewards
 
-[Namada Protocol](https://blog.namada.net/what-is-namada/) के नवीनतम अपडेट में, shielded assets रखने वाले users को shared shielded set में सक्रिय रूप से भाग लेने के लिए प्रोत्साहित किया जाता है। यह updated MASP circuit के integration के माध्यम से संभव हुआ है, जिसमें अब innovative Convert Circuit शामिल है। इस नई feature का उपयोग करके, Namada users को shielded assets रखकर shared shielded set में योगदान देने के लिए प्रोत्साहित करता है।
+[Namada Protocol](https://namada.net/blog/what-is-namada) के नवीनतम अपडेट में, shielded assets रखने वाले उपयोगकर्ताओं को साझा shielded set में सक्रिय रूप से भाग लेने के लिए प्रोत्साहित किया जाता है। अद्यतन MASP circuit के एकीकरण के माध्यम से यह संभव हुआ है, जिसमें अब अभिनव Convert Circuit शामिल है। इस नई सुविधा का लाभ उठाकर, Namada उपयोगकर्ताओं को shielded assets रखकर साझा shielded set में योगदान देने के लिए प्रोत्साहित करता है।
 
 Namada में, shielded set को एक non-exclusive और anti-rivalrous public good माना जाता है। इसका अर्थ है कि जैसे-जैसे अधिक लोग shielded transfers का उपयोग करते हैं, प्रत्येक participant के लिए privacy guarantees का स्तर बेहतर होता जाता है। Protocol इस बात को मान्यता देता है कि सभी users के लिए privacy को बढ़ाने में सामूहिक adoption और participation का बहुत महत्व है। इसलिए, users को shielded assets रखने और shared shielded set में योगदान देने के लिए प्रोत्साहित करके, Namada एक अधिक मज़बूत और सुदृढ़ privacy ecosystem को बढ़ावा देता है।
 
@@ -52,7 +52,7 @@ Namada तेज़ transaction speed और finality प्रदान कर�
 
 ## Namada और Zcash Strategic Alliance
 
-हाल की एक publication के अनुसार, जिसे [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/) पर देखा जा सकता है, Namada Protocol के पीछे की team Namada और Zcash assets, chains, तथा communities के बीच एक strategic alliance के लिए proposal और request-for-comment (RFC) प्रस्तुत करने को लेकर उत्साहित है।
+हाल की एक प्रकाशन के अनुसार, जिसे [Namada Protocol Blog](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash) पर देखा जा सकता है, Namada Protocol के पीछे की टीम Namada और Zcash assets, chains, तथा communities के बीच एक strategic alliance के लिए proposal और request-for-comment (RFC) प्रस्तुत करने को लेकर उत्साहित है।
 
 ![Namada-Zcash Strategic Alliance आरेख](/content-images/image-2-68804c60f3.webp)
 
@@ -62,5 +62,5 @@ Namada तेज़ transaction speed और finality प्रदान कर�
 
 - [Namada Protocol का आधिकारिक वीडियो](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 - [Namada Protocol की आधिकारिक वेबसाइट](https://namada.net/)
-- [Namada Blog](https://blog.namada.net/)
-- [Namada Docs](https://docs.namada.net/)
+- [Namada ब्लॉग](https://namada.net/blog)
+- [Namada दस्तावेज़](https://docs.namada.net/)

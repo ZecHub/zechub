@@ -12,6 +12,7 @@
 * **Mode Safety** akan aktif jika ledger final tertinggal lebih dari *L* blok: PoW tetap berlanjut, tetapi aktivitas ekonomi akan dijeda hingga masalah tersebut terselesaikan.
 * Seiring berjalannya waktu, validator PoS akan menerima bagian imbalan yang terus meningkat, sehingga mengurangi pendapatan penambang PoW; protokol ini memperkenalkan perubahan secara bertahap.
 * Protokol ini sedang dikembangkan oleh Shielded Labs, dengan peta jalan untuk mengintegrasikan Crosslink 2* ke dalam client Zebra milik Zcash.
+* Crosslink tidak aktif di mainnet Zcash. Protokol ini berjalan pada Shielded Labs milik Feature Net, sebuah jaringan uji yang dapat diikuti oleh siapa pun. Lihat "Posisi Crosslink" di bawah.
 
 ## Penjelasan Inti
 
@@ -81,7 +82,7 @@ Crosslink menyertakan **Safety Mode** untuk menangani risiko yang terkait dengan
 
 ### Detail Teknis dan Penerapan
 
-Protokol Crosslink sedang dikembangkan dan diterapkan secara aktif oleh Shielded Labs dalam kolaborasi dengan mitra ekosistem utama seperti Zodl. Implementasi protokol ini mencakup:
+Protokol Crosslink sedang dikembangkan dan diterapkan secara aktif oleh Shielded Labs dalam kolaborasi dengan mitra ekosistem utama seperti ZODL. Implementasi protokol ini mencakup:
 
 * Menetapkan mekanisme staking yang aman bagi peserta PoS.
 * Memodifikasi struktur imbalan untuk menyeimbangkan insentif antara penambang dan staker.
@@ -90,7 +91,20 @@ Protokol Crosslink sedang dikembangkan dan diterapkan secara aktif oleh Shielded
 * Logika Aktivasi: Pengenalan Crosslink memerlukan perubahan pada aturan konsensus Zcash, termasuk mendefinisikan proses distribusi stake dan memperbarui aturan protokol jaringan untuk mendukung konsensus hibrida.
 * Penerapan Bertahap: Protokol akan diluncurkan secara bertahap untuk memastikan stabilitas jaringan dan adaptasi komunitas. Fase awal berfokus pada implementasi teknis, diikuti oleh integrasi tata kelola untuk pemilihan notaris.
 
-Anda dapat mengeksplorasi detail teknis dan melacak progresnya melalui repositori [zebra-crosslink di GitHub](https://github.com/ShieldedLabs/zebra-crosslink) dan [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/).
+Prototipe sebelumnya dan dokumentasinya terdapat di repositori [zebra-crosslink di GitHub](https://github.com/ShieldedLabs/zebra-crosslink) dan [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/). Pekerjaan saat ini dijelaskan di bagian berikutnya.
+
+### Di mana Crosslink berada
+
+Crosslink masih berupa usulan. FAQ Shielded Labs' [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) menyatakan bahwa hal itu "perlu melalui proses tata kelola Zcash standar" sebelum dapat diaktifkan di mainnet.
+
+Yang ada saat ini adalah **Feature Net**: jaringan uji yang dijalankan oleh Shielded Labs, dengan test coin-nya sendiri, cTAZ, tempat siapa pun dapat menambang, melakukan staking, dan menjalankan finalizer. [Versi 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), yang dirilis pada 1 Oktober 2026, dimulai sebagai proof-of-work biasa dan mengaktifkan Crosslink secara bertahap: staking dari blok 20.736, daftar pertama finalizer diambil pada blok 34.560, dan finalitas BFT dari blok 36.288 ([sumber](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+
+Dua hal pada halaman ini telah berubah sejak ditulis:
+
+* **Peran yang di sini disebut notaris disebut finalizer** dalam perangkat lunak dan catatan rilis Shielded Labs. Staker mendelegasikan koin kepada finalizer, dan finalizer dengan stake terbanyak memberikan suara untuk memfinalisasi blok.
+* **Kode telah dipindahkan.** Repositori zebra-crosslink di atas terakhir diperbarui pada April 2026. Rilis Feature Net berasal dari [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases), dan desainnya diuraikan dalam buku [Crosslink](https://shieldedlabs.github.io/crosslink_book/).
+
+Untuk mencobanya sendiri, ikuti panduan [Crosslink Feature Net](/guides/crosslink-feature-net). Untuk memantau jaringan tanpa menjalankan apa pun, buka tab Crosslink di [ZecHub Alat](https://zechub.wiki/tools?tool=crosslink).
 
 ## Implikasi Praktis
 
@@ -121,16 +135,17 @@ Mekanisme konsensus ganda ini memperkuat komitmen Zcash terhadap privasi, keberl
 
 ## Halaman Terkait
 
-- [Zebra Full Node](/zcash-tech/zebra-full-node) — klien tempat Crosslink 2* direncanakan untuk diintegrasikan.
-- [Full Nodes](/zcash-tech/full-nodes) — cara node memvalidasi aturan konsensus saat ini, sebelum adanya perubahan konsensus hibrida apa pun.
-- [Network Upgrades](/start-here/network-upgrades) — bagaimana perubahan aturan konsensus mencapai jaringan Zcash.
-- [Zcash Monetary Policy](/start-here/zcash-monetary-policy) — struktur imbalan blok yang akan didistribusikan kembali oleh Crosslink.
+- [Crosslink Feature Net](/guides/crosslink-feature-net) — instal aplikasi desktop Feature Net, lakukan staking ke finalizer, dan periksa posisi Anda.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — klien Crosslink 2* direncanakan untuk diintegrasikan ke dalam.
+- [Full Node](/zcash-tech/full-nodes) — cara node memvalidasi aturan konsensus saat ini, sebelum perubahan konsensus hibrida apa pun.
+- [Peningkatan Jaringan](/start-here/network-upgrades) — cara perubahan aturan konsensus mencapai jaringan Zcash.
+- [Zcash Kebijakan Moneter](/start-here/zcash-monetary-policy) — struktur hadiah blok yang akan didistribusikan ulang oleh Crosslink.
 
 ## Sumber Daya Tambahan
 
-- Wawasan komunitas: Forum Komunitas [Zcash - Diskusi Crosslink](https://forum.zcashcommunity.com)
-- Pembaruan resmi: Blog [Electric Coin Company](https://electriccoin.co)
-- Fokus keberlanjutan: Mengapa Hybrid PoS Penting bagi [Zcash](https://forum.zcashcommunity.com)
+- Diskusi komunitas: [Crosslink: Feature Net berinsentif, di Forum Komunitas Zcash](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
+- Pembaruan resmi: [Crosslink di Shielded Labs](https://shieldedlabs.net/crosslink/) serta rilis [Feature Net](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- Referensi desain: Buku [The Crosslink](https://shieldedlabs.github.io/crosslink_book/)
 
 Referensi:
 

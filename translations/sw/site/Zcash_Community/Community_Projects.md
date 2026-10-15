@@ -75,8 +75,7 @@ Pochi ya Zcash yenye mifumo mingi na rahisi kutumia, yenye usaidizi wa kujikinga
 [Tembelea](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Pochi ya Nozy
-Pochi Zcash Orchard-first iliyojengwa kwa ajili ya Zebrad na lightwalletd. Inasaidia kutuma/kupokea kwa ulinzi kamili, usimamizi salama wa funguo za ndani, na noti za Ironwood (NU6.3) na uhamishaji wa Orchard-to-Ironwood. Anwani za uwazi zinakataliwa kwa mtiririko wa malipo unaowakabili watumiaji. 
-
+Pochi Zcash Orchard-first iliyojengwa kwa ajili ya zebrad na lightwalletd. Inasaidia kutuma/kupokea kwa ulinzi kamili, usimamizi salama wa funguo za ndani, na noti za Ironwood (NU6.3) na uhamishaji wa Orchard-to-Ironwood. Anwani za uwazi zinakataliwa kwa mtiririko wa malipo unaowakabili watumiaji. 
 [Tembelea](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
@@ -86,7 +85,6 @@ Lango la malipo linalowaruhusu watumiaji kutumia ZEC iliyolindwa kwenye ununuzi 
 ### ZcashToCash
 ZcashToCash (zcashto.cash) — ZEC kuwa Cash App, Chime, Monzo, Revolut, Venmo, au Zelle kupitia Peer. ZEC hubadilishwa kuwa USDC (NEAR), kisha agizo la Peer on Base hutoa USDC baada ya mpokeaji kuthibitisha malipo ya fiat. Taker huona jina la mtumiaji la programu ya malipo. Sio CEX, sio ZEC-in-escrow. 
 [Tembelea](https://zcashto.cash/)
-
 
 ### Pochi ya Zafu
 Pochi ya faragha ya chanzo huria kwa Zcash na Penumbra. Kiendelezi cha kivinjari chenye uthibitisho wa upande wa mteja, usanifu uliothibitishwa wa mwanga-mteja, utiaji sahihi kwa njia baridi, FROST multisig, na hakuna kitufe cha kutazama kinachoondoka kwenye kifaa. 
@@ -117,7 +115,7 @@ Pochi ya akiba inayotegemea malengo iliyojengwa kwenye miamala iliyolindwa na Zc
 [Jukwaa](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Mrithi wa YWallet anayeunga mkono vipengele vipya vya itifaki Zcash ikiwemo Orchard. 
+Mrithi wa YWallet. Inasaidia Ironwood, bwawa la kuogelea lenye ulinzi wa sasa. 
 [Jukwaa](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
@@ -144,9 +142,9 @@ Pochi ya saa pekee ya mezani iliyoundwa kwa ajili ya watu binafsi na mashirika a
 
 ## Dashibodi za Wachunguzi, Data, na Mtandao
 
-### CipherScan
-Kichunguzi cha blockchain Zcash cha faragha kwanza. Kimeundwa na Next.js 15, TypeScript, na Rust/WASM. Utafutaji hauvuji metadata ya hoja. 
-[Tembelea](https://cipherscan.app/)
+### ZecBlock
+Kichunguzi cha blockchain Zcash cha kwanza kwa faragha (zamani CipherScan). Kimejengwa kwa kutumia Next.js 15, TypeScript, na Rust/WASM. Utafutaji hauvujishi metadata ya hoja. Kiolesura kilichojengwa upya chenye ukurasa wa nyumbani unaoweza kubinafsishwa, Maswali na Majibu ya mnyororo (beta), chati zinazoweza kushirikiwa, na zaidi. 
+[Tembelea](https://zecblock.com/)
 
 ### Exblo
 Kichunguzi cha block kilichoundwa kwa ajili ya kujaribu miamala kwenye Zcash Testnet. 
@@ -241,12 +239,17 @@ Mfumo wa uthibitishaji unaozingatia faragha unaotumia miamala Zcash iliyolindwa 
 
 ## Msanidi Programu, Majaribio, na Miundombinu
 
+### Ztreamer
+Utekelezaji wa kiorodheshaji cha Zcash cha chanzo huria na itifaki ya lightwallet (CompactTxStreamer) iliyoboreshwa sana inayoungwa mkono na nodi iliyopachikwa Zakura. Huendesha nodi + kiorodheshaji + seva ya pochi katika mchakato mmoja (ztreamerd); inasaidia gRPC na Zakura v2 P2P. Uorodheshaji wa kihistoria wa haraka na muda wa chini wa kusubiri kwa pochi nyepesi. 
+[Tembelea](https://github.com/distractedm1nd/ztreamer)  
+[Kreti](https://crates.io/crates/ztreamer-indexer)
+
 ### Ziggurat
 Kifaa cha majaribio cha mtandao kwa watengenezaji wa zcashd na Zebra. Kinajumuisha kifaa cha kutambaa Zcash. 
 [Tembelea](https://github.com/runziggurat/zcash)
 
 ### ZecDev
-Zana ya kwanza ya Linux inayoleta mtandao wa majaribio ya Zebra wenye bomba, vifaa vya Unified Address, na lightwalletd au Zaino, pamoja na Vitendo GitHub vinavyoweza kutumika tena kwa mtiririko uliolindwa kutoka mwanzo hadi mwisho. 
+Zana Linux-first inayoleta mtandao wa majaribio ya Zebra wenye bomba, vifaa vya Unified Address, na lightwalletd au Zaino, pamoja na Vitendo GitHub vinavyoweza kutumika tena kwa mtiririko uliolindwa kutoka mwanzo hadi mwisho. 
 [Tembelea](https://github.com/zecdev)
 
 ### Miundombinu ya Kufua Inayoongozwa na Ufikiaji Zebra

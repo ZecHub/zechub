@@ -39,7 +39,7 @@ Tor 和 I2P 都是去中心化且匿名的点对点网络，但与 Tor 相比，
 
 Orbot 是一款免费的智能手机虚拟专用网络（VPN），它会将你设备上所有应用程序的流量都通过 Tor 网络进行转发。
 
-请按照以下说明将 Zcash 钱包通过 Tor 路由。请注意，本指南早期版本使用的 Ywallet 已不再维护，并且在 Ironwood 之后将不会继续跟随网络，因此请从[钱包](/using-zcash/wallets)页面选择一个仍在维护的钱包。
+请按照以下说明将 Zcash 钱包通过 Tor 路由。请注意，本指南早期版本使用的 YWallet 已不再维护，并且在 Ironwood 之后将不会继续跟随网络，因此请从[钱包](/using-zcash/wallets)页面选择一个仍在维护的钱包。
 
 1.  从应用商店下载并安装 *Orbot*。
 
@@ -56,13 +56,13 @@ Orbot 是一款免费的智能手机虚拟专用网络（VPN），它会将你�
 
 ## 在 PC 或桌面设备上安装 Tor
 
-* 可以从官方网站下载 Tor 浏览器，你可以通过[这里](https://www.torproject.org/download/)访问该链接。
+* 可以从官方网站下载 Tor 浏览器，你可以通过[这里](https://download.torproject.org/)访问该链接。
 
  安装 Tor 最方便的方式是使用 Tor Browser Bundle。如果你更偏好无界面安装，也可以选择单独安装 Tor 守护进程。 
 
 *注意：默认情况下，Tor Browser bundle 会在 tcp/9150 暴露一个 SOCKS 监听器，而 Tor 守护进程会在 tcp/9050 暴露这个 SOCKS 监听器。*
 
-* 请参考 Tor Project 为你的操作系统提供的安装[说明](https://support.torproject.org/apt/)。
+* 请参考 Tor Project 为你的操作系统提供的安装[说明](https://support.torproject.org/little-t-tor/getting-started/installing/)。
 
 ## 通过 Tor 运行节点
 

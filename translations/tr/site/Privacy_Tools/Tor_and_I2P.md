@@ -39,7 +39,7 @@ Tor ve I2P'nin her ikisi de merkeziyetsiz ve anonim eşler arası ağlardır, an
 
 Orbot, akıllı telefonlar için tasarlanmış, cihazınızdaki tüm uygulamalardan gelen trafiği Tor ağı üzerinden yönlendiren ücretsiz bir sanal özel ağdır (VPN).
 
-Bir Zcash cüzdanını Tor üzerinden yönlendirmek için şu talimatları izleyin. Bu rehberin önceki sürümlerinde kullanılan Ywallet artık bakım almıyor ve Ironwood sonrasında ağı takip etmeyecek, bu yüzden [Wallets](/using-zcash/wallets) sayfasından bakım alan bir cüzdan seçin.
+Bir Zcash cüzdanını Tor üzerinden yönlendirmek için şu talimatları izleyin. Bu rehberin önceki sürümlerinde kullanılan YWallet artık bakım almıyor ve Ironwood sonrasında ağı takip etmeyecek, bu yüzden [Wallets](/using-zcash/wallets) sayfasından bakım alan bir cüzdan seçin.
 
 1.  Uygulama mağazasından *Orbot*'u indirin ve kurun.
 
@@ -56,13 +56,13 @@ Bir Zcash cüzdanını Tor üzerinden yönlendirmek için şu talimatları izley
 
 ## PC veya masaüstünde Tor kurulumu
 
-* Tor Browser resmi web sitesinden indirilebilir, bağlantıya [buradan](https://www.torproject.org/download/) erişebilirsiniz.
+* Tor Browser resmi web sitesinden indirilebilir, bağlantıya [buradan](https://download.torproject.org/) erişebilirsiniz.
 
  Tor kurmanın en uygun yolu Tor Browser Bundle üzerinden yapmaktır. Başsız kurulumları tercih ediyorsanız, Tor daemon'unu ayrı olarak kurmayı seçebilirsiniz. 
 
 *Not: Varsayılan olarak, Tor Browser paketi tcp/9150 üzerinde bir SOCKS dinleyicisi sunar ve Tor daemon tcp/9050 üzerinde SOCKS dinleyicisini sunar.*
 
-* Tor Project tarafından sağlanan, işletim sisteminize özel kurulum [talimatlarına](https://support.torproject.org/apt/) bakın.
+* Tor Project tarafından sağlanan, işletim sisteminize özel kurulum [talimatlarına](https://support.torproject.org/little-t-tor/getting-started/installing/) bakın.
 
 ## Bir düğümü Tor üzerinden çalıştırmak
 

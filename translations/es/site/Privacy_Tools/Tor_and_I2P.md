@@ -39,7 +39,7 @@ Tanto Tor como I2P son redes peer-to-peer descentralizadas y anónimas, pero I2P
 
 Orbot es una red privada virtual (VPN) gratuita diseñada para smartphones que dirige el tráfico de todas las aplicaciones de tu dispositivo a través de la red Tor.
 
-Sigue estas instrucciones para enrutar una wallet de Zcash a través de Tor. Ten en cuenta que Ywallet, que usaban versiones anteriores de esta guía, ya no tiene mantenimiento y no seguirá la red después de Ironwood, así que elige una wallet con mantenimiento en la página de [Wallets](/using-zcash/wallets).
+Sigue estas instrucciones para enrutar una wallet de Zcash a través de Tor. Ten en cuenta que YWallet, que usaban versiones anteriores de esta guía, ya no tiene mantenimiento y no seguirá la red después de Ironwood, así que elige una wallet con mantenimiento en la página de [Wallets](/using-zcash/wallets).
 
 1.  Descarga e instala *Orbot* desde la tienda de aplicaciones.
 
@@ -56,13 +56,13 @@ Sigue estas instrucciones para enrutar una wallet de Zcash a través de Tor. Ten
 
 ## Instalación de Tor en PC o escritorio
 
-* Tor Browser puede descargarse desde el sitio web oficial; puedes acceder al enlace [aquí](https://www.torproject.org/download/).
+* Tor Browser puede descargarse desde el sitio web oficial; puedes acceder al enlace [aquí](https://download.torproject.org/).
 
  La forma más conveniente de instalar Tor es mediante el paquete Tor Browser Bundle. Si prefieres instalaciones sin interfaz gráfica, puedes optar por instalar el daemon de Tor por separado. 
 
 *Nota: Por defecto, el paquete Tor Browser expone un listener SOCKS en tcp/9150 y el daemon de Tor expone el listener SOCKS en tcp/9050.*
 
-* Consulta las [instrucciones](https://support.torproject.org/apt/) de instalación específicas para tu sistema operativo proporcionadas por el Tor Project.
+* Consulta las [instrucciones](https://support.torproject.org/little-t-tor/getting-started/installing/) de instalación específicas para tu sistema operativo proporcionadas por el Tor Project.
 
 ## Ejecutar un nodo sobre Tor
 

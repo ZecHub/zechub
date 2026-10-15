@@ -67,10 +67,10 @@ Shade Protocol 的凝聚性与价值捕获原则，为稳定性和无缝用户�
 
 #### 参考链接
  
-[Shade Protocol 官网](https://shadeprotocol.com)
+[Shade Protocol 官网](https://shadeprotocol.io/)
 
 [Medium（Shade Protocol）](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 
-[Altcoin Buzz.io](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
+[Altcoin Buzz.io](https://web.archive.org/web/20250319054025/https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
 [Messari.io](https://messari.io/project/shade/profile)
