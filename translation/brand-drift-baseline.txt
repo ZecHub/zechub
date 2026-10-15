@@ -1,9 +1,8 @@
 # Brand names found translated but not yet in preserveVerbatim.
 # Regenerate with: node scripts/check-brand-drift.mjs --update
 # A name leaves this file by being protected (and repaired), not by being deleted.
-Coindesk
 Coinmetrics
-Cypherpunk
+Crate
 HuggingFace
 Playground AI
 Snapshot
@@ -11,7 +10,6 @@ Wired
 Zcash Block Explorer
 Zcash Community
 Zcash Readthedocs
-Zecmarket
 Zero-Knowledge
 Zimppy
 ZIPs
