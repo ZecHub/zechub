@@ -121,10 +121,10 @@ jobs:
             // Backticks in a filename would close the code span and let the rest
             // render as markdown (an @mention in a path would ping people). These
             // are attacker-controlled strings rendered into a comment.
-            const safe = (t) => String(t).replace(/[`$]/g, '');
+            const safe = (t) => String(t).replace(/`/g, '');
             // The command line is meant to be pasted into a shell: a filename is
             // data, so it goes in single-quoted shell form, never interpolated bare.
-            const shellQuote = (t) => `'${safe(t).replace(/'/g, `'\\''`)}'`;
+            const shellQuote = (t) => `'${String(t).replace(/'/g, `'\\''`)}'`;  // single quotes make $ and ` literal
             const bullets = (ps) => ps.map((p) => `- \`${safe(p)}\``).join('\n');
             const body = [marker, '### 🌐 Translation: one more change needed in this PR', ''];
             if (undecided.length) body.push(

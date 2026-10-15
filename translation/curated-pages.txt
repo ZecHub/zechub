@@ -181,7 +181,6 @@ guides/BTCPayServer_Zcash_Plugin.md
 guides/Blockchain_Explorers.md
 guides/Brave_Wallet_Guide.md
 guides/Free2Z_Livestreaming.md
-guides/Free2z_Live.md
 guides/Hardened_Zebrad.md
 guides/Keystone_Zashi.md
 guides/Maya_Protocol.md
