@@ -1,6 +1,6 @@
 # Library Zcash
 
-Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terkait dengan Zcash.
+Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terkait dengan Zcash. Ini adalah satu-satunya pustaka untuk mencari istilah dari catatan rilis, utas forum, atau changelog dompet.
 
 ### Navigasi Cepat
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
@@ -11,8 +11,8 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 
 | Istilah | Definisi |
 |------|-----------|
-| Actions | Alih-alih membuat beberapa proof individu untuk setiap Spend dan Output, protokol Orchard menggabungkွယ်nya menjadi satu Action tunggal. |
-| Addresses | Zcash memiliki alamat terlindungi (Z/zaddr) dan transparan (T/taddr). Unified addresses (UA) sedang dalam tahap pengenalan untuk menggantikan Z dan T menyusul peningkatan jaringan NU5. |
+| Actions | Alih-alih membuat beberapa proof individu untuk setiap Spend dan Output, protokol Orchard menggabungkannya menjadi satu Action tunggal. |
+| Addresses | Zcash memiliki alamat terlindungi (zaddr) dan transparan (taddr). Alamat terpadu (UA) menggabungkan beberapa jenis penerima sehingga dompet pengirim dapat memilih yang terbaik yang didukung kedua pihak. Ditentukan dalam [ZIP 316](https://zips.z.cash/zip-0316). [Alamat terpadu](/zcash-tech/unified-addresses) |
 | Arborist Call | Panggilan dua mingguan yang mencakup pembaruan protokol Zcash dan pengembangan riset. Diselenggarakan di Forum Komunitas Zcash dan Discord. [Catatan Rapat](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Pengumuman Forum](https://forum.zcashcommunity.com) |
 | Auto-shielding | Memungkinkan pengguna (lebih spesifiknya dompet mereka) untuk secara otomatis memindahkan dana dari alamat transparan ke pool ZEC terlindungi terbaru. |
 
@@ -23,7 +23,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Benchmarking | Penambang dapat mengirimkan metrik mengenai efisiensi berbagai perangkat keras yang digunakan untuk menambang Zcash. [Lihat di sini](https://zcashbenchmarks.info) |
 | Block | Sebuah Block adalah catatan dalam blockchain Zcash yang berisi sekumpulan transaksi yang dikirimkan ke jaringan. Rata-rata setiap 75 detik, sebuah block baru ditambahkan ke blockchain. |
 | Block Explorer | Sebuah alat online untuk melihat semua transaksi, masa lalu dan saat ini, pada blockchain. [Zcash Block Explorer](https://zcashexplorer.app/) |
-| Blogs | [ZODL Blog (sebelumnya Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.wiki/zechub-dao) |
+| Blogs | [ZODL Blog (sebelumnya Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Newsletter](https://zechub.substack.com/) |
 | Blossom | Peningkatan Jaringan Utama ke-3 untuk Zcash. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## I cannot translate this fragment because it contains only a single character "C" without any context or content to be translated. Please provide the full Markdown text you wish to have translated.
@@ -32,10 +32,10 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 |------|-----------|
 | Canopy | Peningkatan Jaringan Utama ke-5 untuk Zcash. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Memungkinkan seorang committer untuk melakukan komitmen pada sebuah polinomial dengan string pendek yang dapat digunakan oleh verifier untuk mengonfirmasi klaim evaluasi dari polinomial yang dikomitmenkan tersebut. Berguna untuk mengurangi biaya komunikasi dalam protokol Zcash. |
-| Community | [Forum Komunitas Resmi Zcash](https://forum.zcashcommunity.com) / [Komunitas Zcash Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [R&D Zcash Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Sebuah usulan desain konsensus hibrida yang mempertahankan produksi blok proof-of-work dan menambahkan lapisan finalitas proof-of-stake di atasnya, sehingga blok mendapatkan finalitas yang lebih kuat tanpa meninggalkan penambangan. Ini berkembang dari penelitian Trailing Finality Layer dan sedang dibangun oleh Shielded Labs, masih dalam pengembangan testnet per tahun 2026. |
+| Community | [Forum Komunitas Resmi Zcash](https://forum.zcashcommunity.com) / [Zcash Komunitas Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
+| Crosslink | Usulan desain konsensus hibrida yang akan menjalankan proof of stake berdampingan dengan proof of work Zcash yang sudah ada. Shielded Labs memimpin pekerjaan ini dan menyimpan prototipe di repositori `zebra-crosslink`. Crosslink saat ini bukan bagian dari Zcash. [Crosslinkprotokol](/zcash-tech/crosslink-protocol) |
 | CrossPay | Sebuah fitur dalam dompet ZODL yang memungkinkan Anda membelanjakan ZEC terlindungi sementara penerima dibayar dalam aset dan chain yang mereka pilih, diarahkan melalui NEAR Intents alih-alih exchange terpusat. |
-| Cypherpunk Zero | Sebuah Alam Semesta Kreatif dan upaya kolaboratif antara ECC, ilustrator Stranger Wolf, Mighty Jaxx, dan mitra ekosistem terpilih. [Situs Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Koleksi OpenSea](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Sebuah Alam Semesta Kreatif dan upaya kolaboratif antara ECC, ilustrator Stranger Wolf, Mighty Jaxx, dan mitra ekosistem terpilih. [Sosial Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Koleksi](https://opensea.io/collection/cypherpunk-zero) |
 
 ## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific instructions and terminology.
 
@@ -90,7 +90,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Integrations | Anda dapat menerima pembayaran Zcash melalui sejumlah penyedia pihak ketiga. [Pemroses Pembayaran](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Sebuah mesin abstrak yang memodelkan komputasi sebagai pertukaran pesan antara dua pihak: Prover dan Verifier. |
 | Investment | Sejumlah opsi finansial tersedia bagi investor institusional atau family office yang ingin mendapatkan eksposur terhadap Zcash. [Daftar lengkap](https://z.cash/investors/) |
-| Ironwood | Peningkatan jaringan (NU6.3) yang diaktifkan pada mainnet pada 28 Juli 2026 pada blok 3,428,143. Ini memperkenalkan pool terlindungi baru, yang juga disebut Ironwood, dan membuat pool Orchard menjadi spend-only sehingga nilai yang ada bermigrasi melalui turnstile. [Info lebih lanjut](/zcash-tech/ironwood) |
+| Ironwood | Peningkatan jaringan NU6.3, aktif di mainnet sejak blok 3,428,143 pada 28 Juli 2026. Ironwood menambahkan pool terlindungi baru yang dibangun pada sirkuit Orchard yang telah dikoreksi dan menutup pool Orchard asli, sehingga siapa pun dapat memeriksa bahwa pasokan yang beredar benar. Aturan konsensusnya ditetapkan dalam [ZIP 258](https://zips.z.cash/zip-0258). [Ironwood](/zcash-tech/ironwood) |
 
 ## I cannot translate this fragment because it contains only a single letter "J", which does not constitute a meaningful text or Markdown document to be translated. Please provide the full Markdown content you wish to have translated.
 
@@ -130,16 +130,16 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Nighthawk | Sebuah dompet Mobile untuk Zcash. [Website](https://nighthawkwallet.com) |
 | Noir Wallet | Sebuah ekstensi browser dompet Zcash yang didukung oleh Zcash Community Grants, dibuat untuk menghubungkan ZEC terlindungi secara langsung ke aplikasi browser alih-alih mengandalkan kode QR dan transfer manual. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Peningkatan Jaringan Utama ke-6 untuk Zcash, memperkenalkan pool terlindungi Orchard dan Unified Addresses. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Peningkatan Jaringan Utama ke-7 untuk Zcash, menyesuaikan subsidi blok untuk mendanai program Zcash Community Grants dan Shielded Labs. Diaktifkan pada akhir 2024. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU6 | Peningkatan Jaringan Utama ke-7 untuk Zcash, menyesuaikan subsidi blok untuk mendanai program Zcash Community Grants dan Brankas Dana Developer yang Ditangguhkan. Diaktifkan pada akhir 2024. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 | NU7 | Peningkatan jaringan utama berikutnya setelah Ironwood. Fitur kandidat mencakup pekerjaan penskalaan Project Tachyon, Zcash Shielded Assets, dan Network Sustainability Mechanism. |
 
 ## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your specific instructions and terminology.
 
 | Istilah | Definisi |
 |------|-----------|
-| Oblivious Synchronization | Sebuah metode yang sedang dikembangkan dalam Project Tachyon yang memungkinkan sebuah dompet meminta data yang dibutuhkannya dari server yang tidak terpercaya tanpa mengungkapkan catatan mana yang ditanyakan. Server tidak akan pernah mengetahui nullifier Anda, karena protokol ini membuatnya berevolusi dengan cara yang tidak dapat ditautkan. [Write-up](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Pool terlindungi ketiga untuk Zcash dan mewakili evolusi berkelanjutan dari stack teknologi zk-SNARK kami. [Detail lengkap](https://electriccoin.co/blog/explaining-halo-2/) |
-| Overwinter | Peningkatan Jaringan pertama untuk Zcash. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+| Oblivious Synchronization | Metode yang sedang dikembangkan dalam Project Tachyon yang memungkinkan dompet meminta data yang dibutuhkannya dari server yang tidak tepercaya tanpa mengungkapkan catatan mana yang dimintanya. Server tidak pernah mengetahui nullifier Anda, karena protokol membuatnya berevolusi dengan cara yang tidak dapat ditautkan. [Uraian](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Orchard | Pool terlindungi yang diperkenalkan dalam NU5. Ironwood menyegelnya setelah bug pada soundness ditemukan, sehingga Anda tidak lagi dapat mengirim atau menerima di dalam Orchard. Dana hanya keluar melalui turnstile. [Pool terlindungi](/using-zcash/shielded-pools) |
+| Overwinter | Peningkatan jaringan pertama untuk Zcash. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process according to your instructions.
 
@@ -181,16 +181,16 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 
 | Istilah | Definisi |
 |------|-----------|
-| Tachyon | Program penskalaan Zcash, yang ditargetkan untuk NU7. Program ini mengarahkan dompet agar tidak lagi memindai setiap blok menuju status dompet yang membawa proof, sinkronisasi oblivious, dan status node yang dapat dipangkas (prunable), dengan tujuan mencapai throughput terlindungi dalam ribuan transaksi per detik. [Situs proyek](https://tachyon.z.cash/overview/) |
-| TAZ | Mata uang uji coba Zcash (mata uang uji coba tanpa nilai). |
+| Tachyon | Program penskalaan Zcash. Program ini bukan bagian dari NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) dan tidak memiliki tanggal aktivasi. Program ini mengarahkan dompet agar tidak lagi memindai setiap blok menuju status dompet yang membawa proof, sinkronisasi oblivious, dan status node yang dapat dipangkas, dengan tujuan mencapai throughput terlindungi dalam ribuan transaksi per detik. [Situs proyek](https://tachyon.z.cash/overview/) |
+| TAZ | Mata uang uji Testnet Zcash (mata uang uji tanpa nilai). |
 | Testnet | Blockchain terpisah untuk menguji peningkatan dan fitur sebelum mainnet. |
-| Trailing Finality Layer (TFL) | Penelitian dalam menambahkan lapisan finalitas di belakang rantai proof-of-work milik Zcash sehingga blok terbaru dapat difinalisasi tanpa menggantikan penambangan. Crosslink adalah desain yang dihasilkan dari penelitian tersebut. |
+| Trailing Finality Layer (TFL) | Penelitian untuk menambahkan lapisan finalitas di belakang rantai proof-of-work milik Zcash sehingga blok terbaru dapat difinalisasi tanpa menggantikan penambangan. Crosslink adalah desain yang dihasilkan dari penelitian tersebut. |
 | Transaction | Pembayaran antar pengguna, yang dikirimkan ke jaringan dan akhirnya dikonfirmasi dalam sebuah blok. |
 | Transaction Expiry | Transaksi kedaluwarsa setelah sekitar 25 menit (20 blok) jika tidak dikonfirmasi; dana akan kembali secara otomatis. |
 | Transaction Fee | Biaya default adalah 0.0001 ZEC. Biaya yang lebih tinggi mendapatkan prioritas; biaya yang sangat rendah dapat menyebabkan penundaan atau kedaluwarsa. |
 | Transparent Address | Juga disebut taddr. Dimulai dengan t. Sepenuhnya publik (seperti Bitcoin). |
-| Transparent Transaction | Sebuah transaksi secara eksklusif antara alamat transparan - semuanya dapat dilihat secara publik. |
-| Turnstile | Aturan akuntansi yang melacak seberapa banyak nilai yang masuk dan keluar dari setiap pool terlindungi, sehingga tidak ada pool yang dapat mengeluarkan lebih banyak daripada yang masuk ke dalamnya. Digunakan pada setiap transisi pool dalam sejarah Zcash, dan saat ini menjaga migrasi dari Orchard ke dalam Ironwood. [Info lebih lanjut](/zcash-tech/the-turnstile) |
+| Transparent Transaction | Transaksi yang secara eksklusif terjadi antara alamat transparan - semuanya dapat dilihat secara publik. |
+| Turnstile | Aturan akuntansi yang melacak seberapa banyak nilai yang masuk dan keluar dari setiap pool terlindungi, sehingga tidak ada pool yang dapat mengeluarkan lebih banyak daripada yang masuk ke dalamnya. Digunakan pada setiap transisi pool dalam sejarah Zcash, dan saat ini menjaga migrasi dari Orchard ke dalam Ironwood. [Informasi selengkapnya](/zcash-tech/the-turnstile) |
 
 ## Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
 
@@ -232,18 +232,19 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Zcash Foundation | Organisasi nirlaba independen yang mendukung ekosistem Zcash, mendanai pengembangan, dan mempromosikan privasi. |
 | Zcash Network | Jaringan peer-to-peer dari node yang memvalidasi transaksi dan memelihara blockchain. |
 | ZEC | Kode mata uang resmi untuk Zcash (beberapa exchange masih menampilkan XZC). |
+| Z3 stack | Tiga program yang bersama-sama menggantikan zcashd: Zebra untuk node, Zaino untuk pengindeksan, Zallet untuk dompet. [Z3 stack](/zcash-tech/z3-stack) |
 | Zerocash | Protokol akademik (2014) yang menjadi dasar bagi Zcash. |
-| Zaino | Indexer Zcash generasi berikutnya yang menggantikan lightwalletd, dibangun oleh Zcash Foundation. Memungkinkan light client untuk sinkronisasi lebih cepat dan lebih privat. Bagian dari peningkatan infrastruktur Z3 Zcash. |
-| Zakura | Implementasi full node Zcash yang dirilis pada Juli 2026, dibangun sebagai fork dari Zebra oleh Valar Group dan Project Tachyon. Targetnya adalah throughput dan kecepatan sinkronisasi, dengan snapshot bootstrapping dan tujuan nyata untuk skala jaringan kartu, sekitar 50.000 transaksi per detik. [zakura.com](https://zakura.com) |
-| Zallet | Komponen dompet yang mengambil alih fungsi dompet zcashd saat dihentikan, dibangun di atas Zaino sebagai bagian dari pekerjaan infrastruktur Z3 Zcash. |
-| Zebra | Implementasi full node berbasis Rust milik Zcash Foundation (alternatif untuk zcashd). Siap digunakan untuk produksi dan dipelihara secara aktif. [GitHub](https://github.com/ZcashFoundation/zebra) |
-| zcashd | Full node Zcash asli, yang merupakan fork dari Bitcoin Core. Dihentikan pada Juli 2026 setelah masa deprecation yang panjang, dengan perannya dibagi antara Zebra untuk konsensus dan Zallet untuk fungsi dompet. |
-| ZIP | Proposal Peningkatan Zcash - proses tata kelola komunitas yang digunakan untuk mengusulkan dan meratifikasi perubahan protokol. [Repository ZIP](https://github.com/zcash/zips) |
+| Zaino | Indexer yang menyajikan data dompet dari node Zebra, ditulis dalam Rust oleh Zingo Labs. Mengambil alih pekerjaan pengindeksan yang sebelumnya dilakukan zcashd untuk dompet ringan. [Zaino](/zcash-tech/zaino) |
+| Zakura | Full node Zcash terpisah yang dibangun untuk skala, dipimpin oleh Sean Bowe dan Dev Ojha. Melakukan sinkronisasi lebih cepat, memangkas blok secara native, dan dapat menjalankan zcashd di atasnya untuk software yang masih bergantung padanya. [Zakura node](/zcash-tech/zakura-node) |
+| Zallet | Dompet yang menggantikan dompet zcashd. Pindahkan `wallet.dat` yang sudah ada, alih-alih memulai dari awal. [Zallet](/zcash-tech/zallet) dan [Zallet referensi cepat](/using-zcash/zallet-quick-reference-guide) |
+| Zebra | Full node yang menggantikan zcashd, dipelihara oleh Zcash Foundation. Jalankan jika Anda memerlukan node pemvalidasi. [Zebra full node](/zcash-tech/zebra-full-node) |
+| zcashd | Full node dan dompet Zcash asli, kini telah dihentikan. Versi 6.20.0 menghentikan dirinya sendiri pada blok 3417100 pada 18 Juli 2026 dan tidak pernah mendukung NU6.3. Jalankan Z3 stack atau Zakura sebagai gantinya. [Panduan migrasi](/guides/migration-guide-zcashd-to-zebrad-zallet) |
+| ZIP | Proposal Peningkatan Zcash - proses tata kelola komunitas yang digunakan untuk mengusulkan dan meratifikasi perubahan protokol. [ZIP Repositori](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab. Organisasi independen yang didirikan pada awal 2026 oleh Josh Swihart dan mantan tim engineering Electric Coin Company setelah mereka mengundurkan diri karena perselisihan tata kelola dengan Bootstrap. Organisasi ini mengumpulkan lebih dari $25 juta dalam pendanaan seed pada Maret 2026 dan memelihara dompet ZODL, yang berganti nama dari Zashi pada Februari 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — kriptografi yang menggerakkan transaksi terlindungi Zcash. Memungkinkan pembuktian suatu pernyataan (misalnya, pengeluaran yang valid) tanpa mengungkapkan informasi rahasia apa pun. |
-| ZSA (Zcash Shielded Assets) | Token yang diterbitkan pengguna yang mewarisi privasi terlindungi dari Zcash, memungkinkan aset selain ZEC bergerak secara privat di jaringan. Ditentukan dalam [ZIP 226](https://zips.z.cash/zip-0226) dan merupakan kandidat fitur untuk NU7. |
+| ZSA (Zcash Shielded Assets) | Token yang diterbitkan pengguna yang mewarisi privasi terlindungi Zcash, memungkinkan aset selain ZEC bergerak secara privat di jaringan. Ditentukan dalam [ZIP 226](https://zips.z.cash/zip-0226). Ini bukan bagian dari NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) dan tidak memiliki tanggal aktivasi. |
 
 ---
 
-**Terakhir diperbarui:** Juli 2026
+**Terakhir diperbarui:** Oktober 2026
 **Ingin berkontribusi?** [Edit halaman ini di GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)

@@ -4,7 +4,7 @@
 
 # Privacidade na mineração e no staking
 
-O pagamento do seu minerador e o seu finalizador não são a mesma coisa. A cadeia nunca os associa. Isso é útil e é fácil desperdiçá-lo.
+O pagamento do seu minerador e o seu finalizador não são a mesma coisa. A cadeia nunca os associa.
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
@@ -43,24 +43,26 @@ O pagamento do seu minerador e o seu finalizador não são a mesma coisa. A cade
 |---|---|---|
 | t-address do minerador e histórico de coinbase | Sim | Outputs transparentes normais |
 | Chave do finalizador e zfinv1 | Sim, uma vez no registo | Tem de o ser para verificar os votos |
-| Poder de voto e banco de recompensas | Sim | Publicados em relação à chave do finalizador |
+| Poder de voto e banco de recompensas | Sim | Publicados em relação à chave do finalizador para que a distribuição de stake possa ser auditada |
 | Que endereço transparente financiou um vínculo | Não, após uma blindagem | O vínculo gasta notas blindadas |
 | Ligação do seu minerador ao seu finalizador | Não está na cadeia | Nada no protocolo a regista |
+
+Os montantes em stake são revelados deliberadamente. O design exige que o total em stake e a distribuição pelos finalizadores possam ser verificados publicamente. A quantização (potências de 10) e as janelas de stake fixas limitam a quantidade de informação individual sobre o momento ou padrões que é revelada, permitindo ainda assim essa auditoria. Os saldos de Orchard sem stake permanecem privados; o staking é a divulgação intencional.
 
 ## Fazer stake para si ou para outra pessoa
 
 <div className="grid gap-3 my-4 sm:grid-cols-2">
   <div className="rounded-xl border border-slate-300 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
-    <div className="font-semibold text-slate-900 dark:text-slate-50">Vincular ao seu próprio finalizador</div>
-    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">O mais simples. Mantém o papel de operador e o vínculo. Ainda assim, um observador não consegue provar, apenas com os dados da cadeia, que o t-address e o zfinv1 pertencem à mesma pessoa.</p>
+    <div className="font-semibold text-slate-900 dark:text-slate-50">Vincule-se ao seu próprio finalizador</div>
+    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">A opção mais simples. Mantém a função de operador e o vínculo. Ainda assim, um observador não consegue provar, apenas com dados da cadeia, que o t-address e o zfinv1 pertencem à mesma pessoa.</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
-    <div className="font-semibold text-amber-950 dark:text-amber-50">Vincular a outro membro</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">O poder de voto é apresentado sob a chave dessa pessoa. Ela recebe a comissão de 10% do finalizador ativo. Mantém os 90% que se acumulam no vínculo. Este é o padrão que quebra a suposição óbvia.</p>
+    <div className="font-semibold text-amber-950 dark:text-amber-50">Vincule-se a outro membro</div>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">O poder de voto aparece associado à chave dessa pessoa. Ela recebe a comissão de 10% do finalizador ativo. Mantém os 90% que são acumulados no vínculo. Isto desfaz a suposição óbvia de que o minerador que recebe o pagamento transparente é a mesma pessoa que opera o finalizador.</p>
   </div>
 </div>
 
-Um grupo pode minerar em endereços de pagamento separados, blindar e vincular entre membros. Isso torna muito mais difícil afirmar que «este minerador é este finalizador». Não esconde quem são os finalizadores, nem esconde a mineração.
+Um grupo pode minerar em endereços de pagamento distintos, blindar e criar vínculos entre membros. Isso torna muito mais difícil afirmar, com base nos dados da cadeia, que «este minerador é este finalizador». Não oculta quem são os finalizadores, nem oculta a mineração.
 
 ## O que isto não faz
 

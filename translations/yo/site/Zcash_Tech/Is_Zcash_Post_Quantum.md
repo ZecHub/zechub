@@ -69,9 +69,9 @@ Ohun tí Ironwood kò yí padà: ìkọ̀kọ̀ tí a lò fún ìnáwó àti ìf
 
 ## Àwọn ààlà tó kù
 
-**Fèrèsé ìfarahàn kan wà.** Láti ìgbà Ironwood's ti ń ṣiṣẹ́ títí di ìgbà tí a bá pa àwọn ìlànà àtijọ́, apànìyàn quantum ṣì lè jí, gbé owó sókè tàbí dí owó ní gbogbo adágún tí a dáàbò bò. ZIP 2005 pe èyí ní "àkókò ìfarahàn pàtàkì" ó sì kìlọ̀ pé ìkọlù nígbà tí ó bá ṣẹlẹ̀ lè ba agbára ẹni tí ó ni ín jẹ́ láti padà bọ̀ sípò nígbà tí ó bá yá. Ìdí nìyí tí ó fi sọ pé Zcash gbọ́dọ̀ pa Orchard, Sapling àti Sprout **kí ó tó di pé àwọn ìkọlù quantum di ohun tí ó ṣeé ṣe.
+**Fèrèsé ìfarahàn kan wà.** Láti ìgbà Ironwood's ti ń ṣiṣẹ́ títí di ìgbà tí a bá pa àwọn ìlànà àtijọ́, apànìyàn quantum ṣì lè jí, gbé owó sókè tàbí dí owó ní gbogbo adágún tí a dáàbò bò. ZIP 2005 pe èyí ní "àkókò ìfarahàn pàtàkì" ó sì kìlọ̀ pé ìkọlù nígbà tí ó bá ṣẹlẹ̀ lè ba agbára ẹni tí ó ni ín jẹ́ láti padà bọ̀ sípò nígbà tí ó bá yá. Ìdí nìyí tí ó fi sọ pé Zcash gbọ́dọ̀ pa Orchard, Sapling àti Sprout **kí ó tó** di pé àwọn ìkọlù quantum di ohun tí ó ṣeé ṣe.
 
-**Ìyípadà kò ní ọjọ́.** Kò sí ìtòlẹ́sẹẹsẹ ZIP láti pa Orchard tàbí Sapling. ZIP 2003, Draft àti olùdíje NU7, yóò dá ìnáwó Sprout dúró nípa lílo àwọn ìṣòwò ẹ̀yà 4. Ìjíròrò yíyọ owó Sapling nìkan bẹ̀rẹ̀ ní orí ìtàkùn náà ní oṣù kẹrin ọdún 2026.
+**A kò ní ọjọ́ tí a ó pa á, àyàfi Sprout.** Kò sí ìtòlẹ́sẹẹsẹ ZIP tí a ó pa Orchard tàbí Sapling. Sprout yàtọ̀: [ZIP 259](https://zips.z.cash/zip-0259) Àkójọ ZIP 2003 lára àwọn àyípadà tí NU7 ń gbé jáde, nítorí náà àwọn ìṣòwò ẹ̀yà 4 yóò di aláìlágbára nígbà tí NU7 bá ṣiṣẹ́, àti pé èyíkéyìí ZEC tí ó bá kù nínú adágún Sprout kò ní náwó. Ìmúṣiṣẹ́ Mainnet yóò wáyé ní ọjọ́ karùn-ún oṣù kọkànlá ọdún 2026, pẹ̀lú ìpinnu ìkẹyìn tí a ó ṣe ní ọjọ́ ogún oṣù kẹwàá ọdún 2026 ([ìkéde àpérò](https://forum.zcashcommunity.com/t/nu7-timeline/57655)) Ìjíròrò ìyọkúrò Sapling nìkan bẹ̀rẹ̀ ní orí ìtàkùn náà ní oṣù kẹrin ọdún 2026.
 
 **Ìlànà Ìgbàpadà kò parí.** ZIP 2005 kàn ṣàlàyé rẹ̀ nìkan, ó sì sọ pé àwọn kúlẹ̀kúlẹ̀ náà “lè yípadà”. Kò sí ohunkóhun nípa rẹ̀.
 
@@ -97,7 +97,7 @@ Kò sí ọ̀kan lára àwọn wọ̀nyí tí ó wà láàyè.
 
 ## Tábìlì ipò
 
-Àyẹ̀wò ìkẹyìn ni ọjọ́ kẹtàlá oṣù kẹsàn-án ọdún 2026. Ipò àkọlé ZIP's àti ipò nẹ́tíwọ́ọ̀kì rẹ̀ yàtọ̀ síra: ZIP 2005 ṣì sọ pé "A ti gbé kalẹ̀" nínú àkọlé rẹ̀ bó tilẹ̀ jẹ́ pé a ti ń lo àwọn òfin rẹ̀ lórí Mainnet láti oṣù keje ọdún 2026.
+Àyẹ̀wò ìkẹyìn ni a ṣe ní ọjọ́ kẹtàlá oṣù kẹsàn-án ọdún 2026, àyàfi ìlà Sprout, èyí tí a ṣe àtúnṣe ní ọjọ́ kẹsàn-án oṣù kẹwàá ọdún 2026. Ipò àkọlé ZIP's àti ipò nẹ́tíwọ́ọ̀kì rẹ̀ yàtọ̀ síra: ZIP 2005 ṣì sọ pé "A ti gbé kalẹ̀" nínú àkọlé rẹ̀ bó tilẹ̀ jẹ́ pé a ti ń lo àwọn òfin rẹ̀ lórí Mainnet láti oṣù keje ọdún 2026.
 
 | Ohun kan | ZIP status | Ipò nẹ́tíwọ́ọ̀kì | Déètì | Orísun |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Kò sí ọ̀kan lára àwọn wọ̀nyí tí ó wà láàyè.
 | Àwọn àpò owó tí ń gbé owó lọ sí Ironwood | Ìtọ́sọ́nà nínú ZIP 2005, ZIP 318 àti ZIP 326 (Àkọsílẹ̀) | Ṣeduro, da lori apamọwọ rẹ | Láti ọjọ́ kejìdínlọ́gbọ̀n oṣù Keje ọdún 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Ìlànà Ìgbàpadà | A ṣe àkọsílẹ̀ rẹ̀ nínú ZIP 2005 nìkan | **A ko ṣe imuse** | Ko si ọjọ | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Pa Orchard ati Sapling | Ko si ZIP | **A ko ti ṣeto eto naa** | Ìjíròrò nípa Sapling láti oṣù kẹrin ọdún 2026 | [Àpérò](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Dídínà ìnáwó Sprout (ZIP 2003) | Olùdíje fún ìwé-àṣẹ, olùdíje NU7 | **A ko mu ṣiṣẹ** | Ko si ọjọ | [ZIP 2003](https://zips.z.cash/zip-2003) |
+| Dídínà ìnáwó Sprout (ZIP 2003) | Àkọsílẹ̀, tí NU7 gbé kalẹ̀ fún ZIP 259 (Àkọsílẹ̀) | **A ko mu ṣiṣẹ** | Mainnet ni a fojusi ni ọjọ 5 Oṣu kọkanla ọdun 2026, ipinnu ikẹhin ni ọjọ 20 Oṣu Kẹwa ọdun 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
 | Àtúnṣe tó ṣe kedere (ZIP 2007) | Ti wa ni ipamọ | **Ìdámọ̀ràn** | Àkójọ ìfìwéránṣẹ́ ZIP ti pamọ́ ní ọjọ́ karùn-ún oṣù Keje ọdún 2025, ìjíròrò náà sì bẹ̀rẹ̀ ní ọjọ́ kẹtàdínlógún oṣù kẹfà ọdún 2026 | [àwọn ìfìwéránṣẹ́ #1302](https://github.com/zcash/zips/issues/1302) |
 | Ìpamọ́ lẹ́yìn-ìwọ̀n fún àwọn àdírẹ́sì tí a mọ̀ | Àwọn ìṣòro ṣíṣí sílẹ̀, kò sí ZIP | **Ìwádìí** | #1133 ṣí ní ọjọ́ kejìdínlógún oṣù kẹjọ ọdún 2022, #1307 ṣí ní ọjọ́ kẹtàlélógún oṣù kẹfà ọdún 2026 | [àwọn ìfìwéránṣẹ́ #1133](https://github.com/zcash/zips/issues/1133), [àwọn ìfìwéránṣẹ́ #1307](https://github.com/zcash/zips/issues/1307) |
 | Iṣẹ́ Tachyon | Ko si ZIP | **Ìdámọ̀ràn**, lábẹ́ ìdàgbàsókè | Àkọ́kọ́ tí a tẹ̀ jáde ní oṣù kẹrin ọdún 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
@@ -152,7 +152,7 @@ Nínú ìwádìí ìròhìn ìròhìn ìròhìn NU7 Zcash Foundation's (February
 - [ZIP 2005: Ìmúpadàbọ̀sípò Ironwood Quantum](https://zips.z.cash/zip-2005)
 - [ZIP 229: Ẹ̀yà 6 Ìlànà Ìṣòwò](https://zips.z.cash/zip-0229)
 - [ZIP 258: Ìgbékalẹ̀ Ìmúdàgbàsókè Nẹ́tíwọ́ọ̀kì NU6.3](https://zips.z.cash/zip-0258)
-- [ZIP 318: Ìṣípòpadà Orchard sí Ironwood](https://zips.z.cash/zip-0318)
+- [ZIP 318: Ìṣíkiri Orchard sí Ironwood](https://zips.z.cash/zip-0318)
 - [ZIP 326: Àbájáde NU6.3 fún àwọn àpò owó](https://zips.z.cash/zip-0326)
 - [ZIP 2003: Má ṣe jẹ́ kí àwọn ìṣòwò ẹ̀yà 4 jẹ́ ààyè fún ọ](https://zips.z.cash/zip-2003)
 - [ZIP 209: Dènà Ìwọ̀n Ìwọ̀n Póólù Ìwọ̀n Póólù Ààbò Odi](https://zips.z.cash/zip-0209)
@@ -160,7 +160,7 @@ Nínú ìwádìí ìròhìn ìròhìn ìròhìn NU7 Zcash Foundation's (February
 - [Àwọn ìfìwéránṣẹ́ #1133: Ìpamọ́ lẹ́yìn-ìwọ̀n fún Zcash](https://github.com/zcash/zips/issues/1133)
 - [awọn ifipamo #1307: Ìpamọ́ Zcash lòdì sí àwọn ọ̀tá quantum àti discrete-log-breaking](https://github.com/zcash/zips/issues/1307)
 - [awọn ifibọ #1134: Ni kikun lẹhin-quantum Zcash](https://github.com/zcash/zips/issues/1134)
-- [Ilana Tachyon ti Iṣẹ akanṣe](https://tachyon.z.cash/roadmap/)
+- [Ilana itọsọna Tachyon ti Iṣẹ akanṣe](https://tachyon.z.cash/roadmap/)
 - [Àwọn èsì ìdìbò NU7: Ohun tí a gbọ́ àti ibi tí a ti ń lọ láti ibi](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
 - [Àkọsílẹ̀ 3,428,143 lórí Blockchair](https://blockchair.com/zcash/block/3428143)
 - [Ìbéèrè fún ìgbìmọ̀: Ṣé Zcash jẹ́ lẹ́yìn-ìwọ̀n?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

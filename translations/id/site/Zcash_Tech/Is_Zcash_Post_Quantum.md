@@ -71,7 +71,7 @@ Apa yang tidak berubah dari Ironwood: kriptografi yang digunakan untuk pengeluar
 
 **Ada jendela eksposur.** Dari aktivasi Ironwood hingga protokol lama dimatikan, penyerang kuantum masih dapat mencuri, menggelembungkan, atau memblokir dana di setiap pool terlindungi. ZIP 2005 menyebut ini sebagai "periode eksposur kritis" dan memperingatkan bahwa serangan selama periode tersebut masih dapat merusak kemampuan pemegang untuk pulih di kemudian hari. Itulah sebabnya disebutkan bahwa Zcash harus mematikan Orchard, Sapling, dan Sprout **sebelum** serangan kuantum menjadi layak dilakukan.
 
-**Penghentian ini tidak memiliki tanggal.** Tidak ada jadwal ZIP untuk mematikan Orchard atau Sapling. ZIP 2003, sebuah Draft dan kandidat NU7, akan menonaktifkan pengeluaran Sprout dengan melarang transaksi versi 4. Diskusi mengenai penarikan saja Sapling dimulai di forum pada April 2026.
+**Penghentian ini tidak memiliki tanggal, kecuali untuk Sprout.** Tidak ada ZIP yang menjadwalkan penghentian Orchard atau Sapling. Sprout berbeda: [ZIP 259](https://zips.z.cash/zip-0259) mencantumkan ZIP 2003 di antara perubahan yang diterapkan oleh NU7, sehingga transaksi versi 4 menjadi tidak valid setelah NU7 aktif dan setiap ZEC yang tersisa di pool Sprout menjadi tidak dapat dibelanjakan. Aktivasi Mainnet ditargetkan pada 5 November 2026, dengan keputusan akhir dijadwalkan pada 20 Oktober 2026 ([pengumuman forum](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Diskusi mengenai penarikan saja Sapling dimulai di forum pada April 2026.
 
 **Protokol Pemulihan belum selesai.** ZIP 2005 hanya menguraikannya, dan menyatakan bahwa detailnya "dapat berubah sewaktu-waktu". Belum ada satu pun bagian darinya yang diterapkan.
 
@@ -97,20 +97,20 @@ Tidak ada satu pun dari ini yang aktif.
 
 ## Tabel status
 
-Terakhir diperiksa 13 September 2026. Status header sebuah ZIP dan status jaringannya adalah dua hal yang berbeda: ZIP 2005 masih bertuliskan "Proposed" pada headernya meskipun aturannya telah diterapkan di Mainnet sejak Juli 2026.
+Terakhir diperiksa 13 September 2026, kecuali baris Sprout yang diperbarui pada 9 Oktober 2026. Status header sebuah ZIP dan status jaringannya adalah dua hal yang berbeda: ZIP 2005 masih bertuliskan "Proposed" pada headernya meskipun aturannya telah diterapkan di Mainnet sejak Juli 2026.
 
-| Item | status ZIP | Status jaringan | Tanggal | Sumber |
+| Item | Status ZIP | Status jaringan | Tanggal | Sumber |
 |---|---|---|---|---|
-| pool Ironwood dengan catatan yang dapat dipulihkan secara quantum (NU6.3) | ZIP 2005 Diusulkan, ZIP 229 dan ZIP 258 Draft | **Diaktifkan** pada Mainnet | 28 Jul 2026, blok 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005), [ZIP 258](https://zips.z.cash/zip-0258) |
-| Orchard ditutup untuk nilai baru | ZIP 2006 Dipesan, aturan dalam ZIP 258 | **Diaktifkan** pada Mainnet | 28 Jul 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
-| Dompet memindahkan dana ke Ironwood | Panduan dalam ZIP 2005, ZIP 318 dan ZIP 326 (Draft) | Direkomendasikan, tergantung pada dompet Anda | Sejak 28 Jul 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
-| Protokol Pemulihan | Diuraikan hanya di dalam ZIP 2005 | **Tidak diimplementasikan** | Tidak ada tanggal | [ZIP 2005](https://zips.z.cash/zip-2005) |
-| Mematikan Orchard dan Sapling | Tidak ada ZIP | **Tidak dijadwalkan** | Diskusi Sapling dari Apr 2026 | [Forum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Menonaktifkan pengeluaran Sprout (ZIP 2003) | Draft, kandidat NU7 | **Tidak diaktifkan** | Tidak ada tanggal | [ZIP 2003](https://zips.z.cash/zip-2003) |
-| Kemampuan pemulihan transparan (ZIP 2007) | Dipesan | **Proposal** | ZIP dipesan 5 Jul 2025, diskusi dibuka 17 Jun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
-| Privasi post-quantum untuk alamat yang diketahui | Isu terbuka, tidak ada ZIP | **Riset** | #1133 dibuka 18 Agt 2022, #1307 dibuka 23 Jun 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
-| Proyek Tachyon | Tidak ada ZIP | **Proposal**, dalam pengembangan | Pertama kali diterbitkan Apr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
-| Protokol sepenuhnya post-quantum | Isu terbuka, tidak ada ZIP | **Pekerjaan masa depan** | #1134 dibuka 28 Mar 2016 | [zips#1134](https://github.com/zcash/zips/issues/1134) |
+| Pool Ironwood dengan catatan yang dapat dipulihkan secara kuantum (NU6.3) | ZIP 2005 Diusulkan, ZIP 229 dan ZIP 258 Draf | **Diaktifkan** pada Mainnet | 28 Jul 2026, blok 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005), [ZIP 258](https://zips.z.cash/zip-0258) |
+| Orchard ditutup untuk nilai baru | ZIP 2006 Dicadangkan, aturan dalam ZIP 258 | **Diaktifkan** pada Mainnet | 28 Jul 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
+| Dompet memindahkan dana ke Ironwood | Panduan dalam ZIP 2005, ZIP 318 dan ZIP 326 (Draf) | Direkomendasikan, tergantung pada dompet Anda | Sejak 28 Jul 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
+| Protokol Pemulihan | Diuraikan hanya dalam ZIP 2005 | **Tidak diimplementasikan** | Tidak ada tanggal | [ZIP 2005](https://zips.z.cash/zip-2005) |
+| Mematikan Orchard dan Sapling | Tidak ada ZIP | **Belum dijadwalkan** | Diskusi Sapling sejak Apr 2026 | [Forum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
+| Menonaktifkan pengeluaran Sprout (ZIP 2003) | Draf, diterapkan oleh NU7 sesuai ZIP 259 (Draf) | **Tidak diaktifkan** | Mainnet ditargetkan 5 Nov 2026, keputusan akhir 20 Okt 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Kemampuan pemulihan transparan (ZIP 2007) | Dicadangkan | **Usulan** | ZIP dicadangkan 5 Jul 2025, diskusi dibuka 17 Jun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
+| Privasi pascakuantum untuk alamat yang diketahui | Isu terbuka, tidak ada ZIP | **Riset** | #1133 dibuka 18 Agt 2022, #1307 dibuka 23 Jun 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
+| Proyek Tachyon | Tidak ada ZIP | **Usulan**, dalam pengembangan | Pertama kali diterbitkan Apr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
+| Protokol sepenuhnya pascakuantum | Isu terbuka, tidak ada ZIP | **Pekerjaan masa depan** | #1134 dibuka 28 Mar 2016 | [zips#1134](https://github.com/zcash/zips/issues/1134) |
 
 Dalam jajak pendapat sentimen NU7 dari Zcash Foundation (Februari 2026), pemulihan kuantum mendapatkan dukungan 90,5% dari ZCAP dan 94,6% dari pemegang koin, dan Tachyon mendapatkan dukungan yang hampir universal. Itu adalah jajak pendapat sentimen, bukan keputusan tentang apa yang dimasukkan ke dalam NU7.
 

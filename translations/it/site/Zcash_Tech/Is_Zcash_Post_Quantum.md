@@ -71,7 +71,7 @@ Ciò che Ironwood non ha modificato: la crittografia oggi utilizzata per spender
 
 **Esiste una finestra di esposizione.** Dall'attivazione di Ironwood fino alla disattivazione dei vecchi protocolli, un attaccante quantistico potrebbe ancora rubare, inflazionare o bloccare fondi in ogni pool schermata. ZIP 2005 la chiama "critical exposure period" e avverte che un attacco durante tale periodo potrebbe comunque compromettere la capacità di un detentore di recuperare i fondi in seguito. Per questo afferma che Zcash deve disattivare Orchard, Sapling e Sprout **prima** che gli attacchi quantistici diventino realizzabili.
 
-**La disattivazione non ha una data.** Nessun ZIP prevede la disattivazione di Orchard o Sapling. ZIP 2003, una Draft e candidata NU7, disabiliterebbe le spese Sprout vietando le transazioni di versione 4. Una discussione su Sapling in modalità solo prelievo è iniziata sul forum nell'aprile 2026.
+**La disattivazione non ha una data, tranne per Sprout.** Nessun ZIP prevede la disattivazione di Orchard o Sapling. Per Sprout è diverso: [ZIP 259](https://zips.z.cash/zip-0259) elenca ZIP 2003 tra le modifiche implementate da NU7, quindi le transazioni di versione 4 diventano non valide una volta attivato NU7 e qualsiasi ZEC rimasto nella pool Sprout diventa non spendibile. L'attivazione su mainnet è prevista per il 5 novembre 2026, con la decisione finale attesa il 20 ottobre 2026 ([annuncio sul forum](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Una discussione su Sapling in modalità solo prelievo è iniziata sul forum nell'aprile 2026.
 
 **Il Recovery Protocol non è terminato.** ZIP 2005 ne delinea soltanto i contorni e afferma che i dettagli "are subject to change". Nulla al riguardo è stato distribuito.
 
@@ -97,17 +97,17 @@ Nessuna di queste è attiva.
 
 ## Tabella di stato
 
-Ultima verifica: 13 settembre 2026. Lo stato nell'intestazione di uno ZIP e il suo stato sulla rete sono cose diverse: ZIP 2005 riporta ancora "Proposed" nell'intestazione, anche se le sue regole sono applicate su Mainnet da luglio 2026.
+Ultima verifica: 13 settembre 2026, eccetto la riga Sprout, aggiornata il 9 ottobre 2026. Lo stato nell'intestazione di uno ZIP e il suo stato sulla rete sono cose diverse: ZIP 2005 riporta ancora "Proposed" nell'intestazione, anche se le sue regole sono applicate su Mainnet da luglio 2026.
 
 | Elemento | Stato ZIP | Stato della rete | Data | Fonte |
 |---|---|---|---|---|
-| Pool Ironwood con note recuperabili dopo un attacco quantistico (NU6.3) | ZIP 2005 Proposed, ZIP 229 e ZIP 258 Draft | **Attivato** su Mainnet | 28 lug 2026, blocco 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005), [ZIP 258](https://zips.z.cash/zip-0258) |
-| Orchard chiuso a nuovo valore | ZIP 2006 Reserved, regole in ZIP 258 | **Attivato** su Mainnet | 28 lug 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
+| Pool Ironwood con note recuperabili dopo un attacco quantistico (NU6.3) | ZIP 2005 Proposta, ZIP 229 e ZIP 258 Bozza | **Attivato** su Mainnet | 28 lug 2026, blocco 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005), [ZIP 258](https://zips.z.cash/zip-0258) |
+| Orchard chiuso a nuovo valore | ZIP 2006 Riservato, regole in ZIP 258 | **Attivato** su Mainnet | 28 lug 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
 | Portafogli che spostano fondi in Ironwood | Linee guida in ZIP 2005, ZIP 318 e ZIP 326 (Bozza) | Consigliato, dipende dal tuo portafoglio | Dal 28 lug 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Recovery Protocol | Delineato solo all'interno di ZIP 2005 | **Non implementato** | Nessuna data | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Disattivazione di Orchard e Sapling | Nessun ZIP | **Non programmata** | Discussione Sapling dall'apr 2026 | [Forum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Disabilitazione delle spese Sprout (ZIP 2003) | Draft, candidata NU7 | **Non attivata** | Nessuna data | [ZIP 2003](https://zips.z.cash/zip-2003) |
-| Recuperabilità trasparente (ZIP 2007) | Reserved | **Proposta** | ZIP riservato il 5 lug 2025, discussione aperta il 17 giu 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
+| Disabilitazione delle spese Sprout (ZIP 2003) | Bozza, implementata da NU7 secondo ZIP 259 (Bozza) | **Non attivata** | Mainnet prevista per il 5 nov 2026, decisione finale il 20 ott 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Recuperabilità trasparente (ZIP 2007) | Riservato | **Proposta** | ZIP riservato il 5 lug 2025, discussione aperta il 17 giu 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | Privacy post-quantum per indirizzi noti | Problemi aperti, nessun ZIP | **Ricerca** | #1133 aperto il 18 ago 2022, #1307 aperto il 23 giu 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Progetto Tachyon | Nessun ZIP | **Proposta**, in sviluppo | Pubblicato per la prima volta ad apr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
 | Protocollo completamente post-quantum | Problema aperto, nessun ZIP | **Lavoro futuro** | #1134 aperto il 28 mar 2016 | [zips#1134](https://github.com/zcash/zips/issues/1134) |

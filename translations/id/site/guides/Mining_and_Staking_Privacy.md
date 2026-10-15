@@ -4,7 +4,7 @@
 
 # Privasi penambangan dan staking
 
-Pembayaran penambang kamu dan finalizer kamu bukanlah hal yang sama. Chain tidak pernah menghubungkan keduanya. Hal ini sangat berguna, namun juga mudah disia-siakan.
+Pembayaran penambang kamu dan finalizer kamu bukanlah hal yang sama. Chain tidak pernah menghubungkan keduanya.
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
@@ -43,24 +43,26 @@ Pembayaran penambang kamu dan finalizer kamu bukanlah hal yang sama. Chain tidak
 |---|---|---|
 | Alamat t-address penambang dan riwayat coinbase | Ya | Output transparan normal |
 | Kunci finalizer dan zfinv1 | Ya, setelah ada di daftar | Harus demikian, untuk memverifikasi suara |
-| Kekuatan voting dan bank reward | Ya | Dipublikasikan terhadap kunci finalizer |
+| Kekuatan voting dan bank reward | Ya | Dipublikasikan terhadap kunci finalizer agar distribusi stake dapat diaudit |
 | Alamat transparan mana yang mendanai sebuah bond | Tidak, setelah shield | Bond menggunakan note terlindungi |
 | Tautan dari penambang kamu ke finalizer kamu | Tidak di on chain | Tidak ada dalam protokol yang menuliskannya |
+
+Jumlah yang di-stake sengaja diungkapkan. Desain ini membutuhkan total yang di-stake dan distribusinya di seluruh finalizer agar dapat diperiksa secara publik. Kuantisasi (pangkat 10) dan jendela staking tetap membatasi seberapa banyak informasi waktu atau pola individu yang bocor sambil tetap memungkinkan audit tersebut. Saldo Orchard yang tidak di-stake tetap privat; staking adalah pengungkapan yang disengaja.
 
 ## Stake ke diri sendiri, atau ke orang lain
 
 <div className="grid gap-3 my-4 sm:grid-cols-2">
   <div className="rounded-xl border border-slate-300 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
-    <div className="font-semibold text-slate-900 dark:text-slate-50">Bond ke finalizer milikmu sendiri</div>
-    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">Paling sederhana. Kamu tetap memegang peran operator dan bond tersebut. Seorang observer tetap tidak dapat membuktikan bahwa t-address dan zfinv1 adalah orang yang sama hanya dari data chain saja.</p>
+    <div className="font-semibold text-slate-900 dark:text-slate-50">Bond ke finalizer kamu sendiri</div>
+    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">Paling sederhana. Kamu mempertahankan peran operator dan bond tersebut. Pengamat tetap tidak dapat membuktikan bahwa t-address dan zfinv1 adalah satu orang hanya dari data chain.</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
     <div className="font-semibold text-amber-950 dark:text-amber-50">Bond ke anggota lain</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Kekuatan voting akan muncul di bawah kunci mereka. Mereka mendapatkan komisi active-finalizer sebesar 10%. Kamu tetap mendapatkan 90% yang terakumulasi pada bond tersebut. Ini adalah pola yang mematahkan tebakan yang jelas.</p>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Kekuatan voting ditampilkan di bawah key mereka. Mereka memperoleh komisi finalizer aktif sebesar 10%. Kamu mempertahankan 90% yang terakumulasi pada bond tersebut. Ini menggagalkan dugaan yang jelas bahwa penambang yang menerima pembayaran transparan adalah orang yang sama yang mengoperasikan finalizer.</p>
   </div>
 </div>
 
-Sebuah grup dapat menambang pada alamat pembayaran terpisah, melakukan shielding, dan melakukan bonding di antara para anggota. Hal ini membuat klaim "penambang ini adalah finalizer ini" menjadi jauh lebih sulit. Ini tidak menyembunyikan siapa saja finalizer tersebut, dan tidak menyembunyikan proses penambangan.
+Sebuah kelompok dapat menambang menggunakan alamat pembayaran terpisah, melindungi, dan membangun ikatan antaranggota. Hal itu membuat klaim “penambang ini adalah finalizer ini” jauh lebih sulit dilakukan berdasarkan data chain. Hal ini tidak menyembunyikan siapa para finalizer tersebut, dan tidak menyembunyikan penambangannya.
 
 ## Apa yang tidak dilakukan oleh ini
 

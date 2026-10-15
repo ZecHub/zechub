@@ -71,7 +71,7 @@ Ironwood 未改变的内容包括：如今用于花费和生成证明的密码�
 
 **存在风险暴露窗口。** 从 Ironwood 激活到旧协议被停用期间，量子攻击者仍可能在每个屏蔽池中盗取、增发或阻断资金。ZIP 2005 将此称为“关键暴露期”，并警告在此期间的攻击仍可能损害持有人日后的恢复能力。因此，该规范指出，Zcash 必须在量子攻击变得可行**之前**停用 Orchard、Sapling 和 Sprout。
 
-**停用没有日期。** 没有任何 ZIP 为停用 Orchard 或 Sapling 排定时间。作为 Draft 和 ZIP 候选方案的 NU7 2003，将通过禁止版本 4 交易来禁用 Sprout 花费。关于仅允许提取的 Sapling 讨论于 2026 年 4 月在论坛开始。
+**停用尚无日期，Sprout 除外。** 没有任何 ZIP 为停用 Orchard 或 Sapling 排定时间。Sprout 则不同：[ZIP 259](https://zips.z.cash/zip-0259) 将 ZIP 2003 列为 NU7 部署的变更之一，因此一旦 NU7 激活，版本 4 交易将变为无效，Sprout 池中剩余的任何 ZEC 都将无法花费。主网激活目标日期为 2026 年 11 月 5 日，最终决定将于 2026 年 10 月 20 日作出（[论坛公告](https://forum.zcashcommunity.com/t/nu7-timeline/57655)）。关于仅允许提取的 Sapling 讨论于 2026 年 4 月在论坛开始。
 
 **恢复协议尚未完成。** ZIP 2005 仅概述了它，并表示细节“可能变更”。其任何部分均未部署。
 
@@ -97,7 +97,7 @@ Ironwood 未改变的内容包括：如今用于花费和生成证明的密码�
 
 ## 状态表
 
-最后核查于 2026 年 9 月 13 日。ZIP 的标题状态与其网络状态是不同的：ZIP 2005 的标题中仍写着“Proposed”，尽管其规则自 2026 年 7 月起已在主网上执行。
+最后核查于 2026 年 9 月 13 日，但 Sprout 行更新于 2026 年 10 月 9 日。ZIP 的标题状态与其网络状态是不同的：ZIP 2005 的标题中仍写着“Proposed”，尽管其规则自 2026 年 7 月起已在主网上执行。
 
 | 项目 | ZIP 状态 | 网络状态 | 日期 | 来源 |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Ironwood 未改变的内容包括：如今用于花费和生成证明的密码�
 | 钱包将资金迁移至 Ironwood | ZIP 2005、ZIP 318 和 ZIP 326（Draft）中的指南 | 建议执行，取决于你的钱包 | 自 2026 年 7 月 28 日起 | [ZIP 318](https://zips.z.cash/zip-0318)，[ZIP 326](https://zips.z.cash/zip-0326) |
 | 恢复协议 | 仅在 ZIP 2005 中概述 | **未实施** | 无日期 | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | 停用 Orchard 和 Sapling | 没有 ZIP | **未排期** | Sapling 讨论始于 2026 年 4 月 | [论坛](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| 禁用 Sprout 花费（ZIP 2003） | Draft，NU7 候选方案 | **未激活** | 无日期 | [ZIP 2003](https://zips.z.cash/zip-2003) |
+| 禁用 Sprout 花费（ZIP 2003） | Draft，根据 ZIP 259（Draft）由 NU7 部署 | **未激活** | 目标于 2026 年 11 月 5 日在主网上线，最终决定于 2026 年 10 月 20 日作出 | [ZIP 2003](https://zips.z.cash/zip-2003)，[ZIP 259](https://zips.z.cash/zip-0259) |
 | 透明可恢复性（ZIP 2007） | Reserved | **提案** | ZIP 于 2025 年 7 月 5 日保留，讨论于 2026 年 6 月 17 日开启 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | 已知地址的后量子隐私 | 开放议题，没有 ZIP | **研究** | #1133 于 2022 年 8 月 18 日开启，#1307 于 2026 年 6 月 23 日开启 | [zips#1133](https://github.com/zcash/zips/issues/1133)，[zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Tachyon 项目 | 没有 ZIP | **提案**，开发中 | 首次发布于 2025 年 4 月 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |

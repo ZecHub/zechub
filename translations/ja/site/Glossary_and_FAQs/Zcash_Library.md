@@ -1,6 +1,6 @@
 # Zcash ライブラリ
 
-Zcash に関連する主要な用語、概念、リソースを網羅した包括的な用語集です。
+Zcash に関連する主要な用語、概念、リソースを網羅した包括的な用語集です。リリースノート、フォーラムのスレッド、またはウォレットの変更履歴に出てくる用語を調べるための唯一のライブラリです。
 
 ### クイックナビゲーション
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
@@ -12,7 +12,7 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 | Term | Definition |
 |------|-----------|
 | Actions | Orchard プロトコルでは、各 Spend と Output ごとに複数の個別証明を作成する代わりに、それらを 1 つの Action に統合します。 |
-| Addresses | Zcash には Shielded（Z/zaddr）アドレスと Transparent（T/taddr）アドレスがあります。Unified addresses（UA）は、NU5 アップグレードに伴い、Z と T を置き換える形で導入が進んでいます。 |
+| Addresses | Zcash には Shielded（zaddr）アドレスと Transparent（taddr）アドレスがあります。Unified addresses（UA）は複数の受信者タイプをまとめ、送信側ウォレットが双方でサポートされている最適なものを選択できるようにします。[ZIP 316](https://zips.z.cash/zip-0316) で規定されています。[Unified addresses](/zcash-tech/unified-addresses) |
 | Arborist Call | Zcash プロトコルおよび研究開発の最新情報を扱う隔週の通話です。Zcash Community Forum と Discord で開催されています。[会議メモ](https://github.com/ZcashCommunityGrants/arboretum-notes) / [フォーラム告知](https://forum.zcashcommunity.com) |
 | Auto-shielding | ユーザー（より正確にはそのウォレット）が、透明アドレスから最新の Shielded ZEC プールへ資金を自動的に移動できるようにします。 |
 
@@ -23,19 +23,19 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 | Benchmarking | マイナーは、Zcash のマイニングに使用されるさまざまなハードウェアの効率性に関する指標を提出できます。[こちらで表示](https://zcashbenchmarks.info) |
 | Block | ブロックとは、Zcash ブロックチェーン上の記録であり、ネットワーク上で送信された一連のトランザクションを含みます。平均すると、およそ 75 秒ごとに新しいブロックがブロックチェーンに追加されます。 |
 | Block Explorer | ブロックチェーン上のすべてのトランザクション（過去・現在）を閲覧するためのオンラインツールです。[Zcash Block Explorer](https://zcashexplorer.app/) |
-| Blogs | [ZODL Blog（旧 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.wiki/zechub-dao) |
+| Blogs | [ZODL Blog（旧 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub ニュースレター](https://zechub.substack.com/) |
 | Blossom | Zcash の 3 回目の主要ネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|-----------|
 | Canopy | Zcash の5回目の主要ネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | コミッターが短い文字列で多項式にコミットでき、その文字列を使って検証者がコミット済み多項式の主張された評価値を確認できるようにする仕組みです。Zcashプロトコルにおける通信コスト削減に役立ちます。 |
 | Community | [公式 Zcash コミュニティフォーラム](https://forum.zcashcommunity.com) / [Zcash コミュニティ Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | プルーフ・オブ・ワークによるブロック生成を維持しつつ、その上にプルーフ・オブ・ステークのファイナリティ層を追加することで、マイニングを放棄せずにブロックにより強いファイナリティを与える、提案中のハイブリッド・コンセンサス設計です。これは Trailing Finality Layer の研究から生まれたもので、Shielded Labs によって開発が進められており、2026年時点ではまだtestnet開発段階にあります。 |
+| Crosslink | Zcashの既存のプルーフ・オブ・ワークと並行してプルーフ・オブ・ステークを実行する、提案中のハイブリッド・コンセンサス設計です。Shielded Labsがこの取り組みを主導し、`zebra-crosslink`リポジトリでプロトタイプを維持しています。Crosslinkは現時点でZcashの一部ではありません。[Crosslinkプロトコル](/zcash-tech/crosslink-protocol) |
 | CrossPay | ZODLウォレットの機能で、中央集権型取引所ではなくNEAR Intentsを経由して、受取人が希望する資産とチェーンで支払いを受け取れる一方、送信者はシールドされたZECを使用できます。 |
-| Cypherpunk Zero | ECC、イラストレーターのStranger Wolf、Mighty Jaxx、および選ばれたエコシステムパートナーによるクリエイティブユニバースと共同プロジェクトです。[OpenSeaコレクション](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | ECC、イラストレーターのStranger Wolf、Mighty Jaxx、および選ばれたエコシステムパートナーによるクリエイティブユニバースと共同プロジェクトです。[Cypherpunk Zero Social](https://x.com/cypherpunkZero) / [OpenSeaコレクション](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -90,7 +90,7 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 | Integrations | 複数のサードパーティプロバイダーを通じて Zcash 支払いを受け入れることができます。[決済プロセッサ](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | 計算を 2 者間、すなわち Prover と Verifier のメッセージ交換としてモデル化する抽象機械です。 |
 | Investment | Zcash へのエクスポージャーを得たい機関投資家やファミリーオフィス向けに、さまざまな金融オプションが用意されています。[完全な一覧](https://z.cash/investors/) |
-| Ironwood | 2026年7月28日にブロック 3,428,143 でメインネット上で有効化されたネットワークアップグレード（NU6.3）です。これにより Ironwood とも呼ばれる新しい shielded pool が導入され、既存の価値が turnstile を越えて移行するよう Orchard pool は支出専用になりました。[詳細はこちら](/zcash-tech/ironwood) |
+| Ironwood | 2026年7月28日、ブロック 3,428,143 以降メインネットで稼働しているネットワークアップグレード NU6.3 です。Ironwood は修正された Orchard 回路に基づく新しいシールドプールを追加し、元の Orchard プールを封鎖することで、誰もが流通供給量が正当であることを確認できるようにします。コンセンサスルールは [ZIP 258](https://zips.z.cash/zip-0258) で規定されています。[Ironwood](/zcash-tech/ironwood) |
 
 ## J
 
@@ -130,16 +130,16 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 | Nighthawk | Zcash 用のモバイルウォレットです。[Website](https://nighthawkwallet.com) |
 | Noir Wallet | Zcash Community Grants の支援を受けた Zcash のブラウザー拡張ウォレットで、QR コードや手動送金に頼るのではなく、shielded ZEC をブラウザーアプリケーションに直接接続できるよう設計されています。[zknoir.com](https://www.zknoir.com/) |
 | NU5 | Orchard Shielded pool と Unified Addresses を導入した、Zcash の 6 回目の主要ネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Zcash Community Grants プログラムと Shielded Labs の資金調達のためにブロック補助金を調整した、Zcash の 7 回目の主要ネットワークアップグレードです。2024 年後半に有効化されました。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU6 | Zcash Community Grants プログラムと繰延開発基金ロックボックスの資金調達のためにブロック補助金を調整した、Zcash の 7 回目の主要ネットワークアップグレードです。2024 年後半に有効化されました。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 | NU7 | Ironwood の次の主要ネットワークアップグレードです。候補機能には、Project Tachyon のスケーリング作業、Zcash Shielded Assets、Network Sustainability Mechanism が含まれます。 |
 
 ## O
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|-----------|
 | Oblivious Synchronization | Project Tachyon で開発中の手法で、ウォレットが信頼できないサーバーに対して、どのノートについて問い合わせているかを明かすことなく、必要なデータを要求できるようにします。プロトコルにより nullifier が相互に関連付けできない形で変化するため、サーバーがあなたの nullifier を知ることはありません。[解説](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Zcash における 3 番目の Shielded pool であり、zk-SNARK 技術スタックの継続的な進化を表しています。[詳細](https://electriccoin.co/blog/explaining-halo-2/) |
-| Overwinter | Zcash の 1 回目のネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
+| Orchard | NU5 で導入されたShielded poolです。健全性のバグが発見された後、Ironwood により封印されたため、Orchard 内で送受信を行うことはできなくなりました。資金はターンスタイルを通じてのみ退出できます。[Shielded pool](/using-zcash/shielded-pools) |
+| Overwinter | Zcash における最初のネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 
@@ -181,7 +181,7 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 
 | Term | Definition |
 |------|-----------|
-| Tachyon | NU7 を対象とした Zcash のスケーリング計画です。ウォレットがすべてのブロックをスキャンする方式から、proof-carrying wallet state、oblivious synchronization、prunable ノード state へ移行し、シールド済みトランザクションのスループットを毎秒数千件規模にすることを目指しています。[プロジェクトサイト](https://tachyon.z.cash/overview/) |
+| Tachyon | Zcash のスケーリング計画です。NU7 の一部ではなく（[ZIP 259](https://zips.z.cash/zip-0259)）、有効化日は設定されていません。ウォレットがすべてのブロックをスキャンする方式から、proof-carrying wallet state、oblivious synchronization、prunable ノード state へ移行し、シールド済みトランザクションのスループットを毎秒数千件規模にすることを目指しています。[プロジェクトサイト](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash（価値を持たないテスト用通貨）。 |
 | Testnet | メインネット前にアップグレードや機能をテストするための別ブロックチェーンです。 |
 | Trailing Finality Layer (TFL) | マイニングを置き換えることなく、Zcash の proof-of-work チェーンの背後にファイナリティレイヤーを追加し、直近のブロックを確定できるようにする研究です。Crosslink はこの研究から生まれた設計です。 |
@@ -232,18 +232,19 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 | Zcash Foundation | Zcash エコシステムを支援し、開発に資金を提供し、プライバシーを推進する独立系非営利組織です。 |
 | Zcash Network | トランザクションを検証し、ブロックチェーンを維持するノードのピアツーピアネットワークです。 |
 | ZEC | Zcash の公式通貨コードです（一部の取引所では今でも XZC と表示されます）。 |
+| Z3 stack | zcashd を置き換える 3 つのプログラムです。ノード用の Zebra、インデックス作成用の Zaino、ウォレット用の Zallet で構成されます。[Z3 スタック](/zcash-tech/z3-stack) |
 | Zerocash | Zcash の基盤となった学術プロトコル（2014 年）です。 |
-| Zaino | lightwalletd を置き換える次世代 Zcash インデクサーで、Zcash Foundation によって構築されています。ライトクライアントがより高速かつよりプライベートに同期できるようにします。Zcash Z3 インフラアップグレードの一部です。 |
-| Zakura | 2026 年 7 月に公開された Zcash フルノード実装で、Valar Group と Project Tachyon により Zebra のフォークとして構築されました。スループットと同期速度を重視しており、スナップショットによるブートストラップと、毎秒約 50,000 トランザクションというカードネットワーク規模を目標に掲げています。[zakura.com](https://zakura.com) |
-| Zallet | zcashd の廃止時にそのウォレット機能を引き継いだウォレットコンポーネントで、Zcash Z3 インフラ作業の一環として Zaino 上に構築されています。 |
-| Zebra | Zcash Foundation による Rust ベースのフルノード実装です（zcashd の代替）。本番利用可能で、活発に保守されています。[GitHub](https://github.com/ZcashFoundation/zebra) |
-| zcashd | Bitcoin Core からフォークされた、元祖 Zcash フルノードです。長期間の非推奨化を経て 2026 年 7 月に廃止され、その役割はコンセンサス用の Zebra とウォレット機能用の Zallet に分割されました。 |
-| ZIP | Zcash Improvement Proposal — プロトコル変更を提案し承認するために使われる、コミュニティのガバナンスプロセスです。[ZIP Repository](https://github.com/zcash/zips) |
+| Zaino | Zebra ノードからウォレットデータを提供するインデクサーで、Zingo Labs によって Rust で書かれています。ライトウォレット向けに zcashd が担っていたインデックス作成を引き継ぎます。[Zaino](/zcash-tech/zaino) |
+| Zakura | 規模拡大のために構築された独立した Zcash フルノードで、Sean Bowe と Dev Ojha が主導しています。より高速に同期し、ネイティブでブロックをプルーニングでき、依然としてそれに依存するソフトウェア向けに zcashd をその上で実行できます。[Zakura ノード](/zcash-tech/zakura-node) |
+| Zallet | zcashd ウォレットを置き換えるウォレットです。最初からやり直すのではなく、既存の `wallet.dat` を移行してください。[Zallet](/zcash-tech/zallet) および [Zallet クイックリファレンス](/using-zcash/zallet-quick-reference-guide) |
+| Zebra | zcashd を置き換えるフルノードで、Zcash Foundation により保守されています。検証ノードが必要な場合は実行してください。[Zebra フルノード](/zcash-tech/zebra-full-node) |
+| zcashd | かつての Zcash フルノードおよびウォレットで、現在は廃止されています。バージョン 6.20.0 は 2026 年 7 月 18 日にブロック 3417100 で自動停止し、NU6.3 を一度もサポートしていませんでした。代わりに Z3 スタックまたは Zakura を実行してください。[移行ガイド](/guides/migration-guide-zcashd-to-zebrad-zallet) |
+| ZIP | Zcash Improvement Proposal — プロトコル変更を提案し承認するために使われる、コミュニティのガバナンスプロセスです。[ZIP リポジトリ](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab。2026 年初頭に、Bootstrap とのガバナンス上の対立を受けて辞任した Josh Swihart と元 Electric Coin Company のエンジニアリングチームによって設立された独立組織です。2026 年 3 月に 2,500 万ドル超のシード資金を調達し、2026 年 2 月に Zashi から改名された ZODL ウォレットを維持しています。[zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — Zcash の shielded トランザクションを支える暗号技術です。秘密情報を一切明かさずに、ある主張（たとえば有効な支出）を証明できます。 |
-| ZSA (Zcash Shielded Assets) | Zcash の shielded プライバシーを継承するユーザー発行トークンで、ZEC 以外の資産もネットワーク上でプライベートに移転できるようにします。[ZIP 226](https://zips.z.cash/zip-0226) で仕様化されており、NU7 の候補機能です。 |
+| ZSA (Zcash Shielded Assets) | Zcash の shielded プライバシーを継承するユーザー発行トークンで、ZEC 以外の資産もネットワーク上でプライベートに移転できるようにします。[ZIP 226](https://zips.z.cash/zip-0226) で仕様化されています。NU7 の一部ではなく（[ZIP 259](https://zips.z.cash/zip-0259)）、有効化日はありません。 |
 
 ---
 
-**最終更新:** 2026年7月
+**最終更新:** 2026年10月
 **貢献したいですか？** [GitHub でこのページを編集](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)

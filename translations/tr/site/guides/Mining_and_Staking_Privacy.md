@@ -4,7 +4,7 @@
 
 # Madencilik ve stake gizliliği
 
-Madenci ödemesi ile finalizer'ınız aynı şey değildir. Zincir bunları asla birbirine bağlamaz. Bu faydalıdır ve kolayca boşa harcanabilir.
+Madenci ödemesi ile finalizer'ınız aynı şey değildir. Zincir bunları asla birbirine bağlamaz.
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
@@ -43,24 +43,26 @@ Madenci ödemesi ile finalizer'ınız aynı şey değildir. Zincir bunları asla
 |---|---|---|
 | Madenci t-adresi ve coinbase geçmişi | Evet | Normal şeffaf çıktılar |
 | Finalizer anahtarı ve zfinv1 | Evet, listeye girdikten sonra | Oyları doğrulamak için öyle olması gerekir |
-| Oy gücü ve ödül bankası | Evet | Finalizer anahtarıyla ilişkilendirilerek yayımlanır |
+| Oy gücü ve ödül bankası | Evet | Stake dağılımı denetlenebilsin diye Finalizer anahtarıyla ilişkilendirilerek yayımlanır |
 | Bir tahvili hangi şeffaf adresin finanse ettiği | Hayır, korumadan sonra | Tahvil, korumalı notları harcar |
 | Madencinizden finalizer'ınıza bağlantı | Zincir üzerinde değil | Protokolde bunu yazan hiçbir şey yoktur |
+
+Stake edilen tutarlar kasıtlı olarak açıklanır. Tasarım, toplam stake miktarının ve finalizer'lar arasındaki dağılımın herkes tarafından doğrulanabilmesini gerektirir. Kuantizasyon (10'un kuvvetleri) ve sabit staking dönemleri, bu denetime olanak tanırken bireysel zamanlama veya örüntü bilgilerinin ne kadarının sızabileceğini sınırlar. Stake edilmemiş Orchard bakiyeleri gizli kalır; staking, kasıtlı açıklamadır.
 
 ## Kendinize veya başka birine stake edin
 
 <div className="grid gap-3 my-4 sm:grid-cols-2">
   <div className="rounded-xl border border-slate-300 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
-    <div className="font-semibold text-slate-900 dark:text-slate-50">Kendi finalizer'ınıza tahvil oluşturun</div>
-    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">En basit seçenek. Operatör rolünü ve tahvili korursunuz. Bir gözlemci, yalnızca zincir verilerinden t-adresi ile zfinv1'in aynı kişiye ait olduğunu yine de kanıtlayamaz.</p>
+    <div className="font-semibold text-slate-900 dark:text-slate-50">Kendi finalizer'ınıza tahvil bağlayın</div>
+    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">En basiti. Operatör rolünü ve tahvili siz tutarsınız. Bir gözlemci yine de yalnızca zincir verilerinden t-address ile zfinv1'in aynı kişiye ait olduğunu kanıtlayamaz.</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
-    <div className="font-semibold text-amber-950 dark:text-amber-50">Başka bir üyeye tahvil oluşturun</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Oy gücü onların anahtarının altında görünür. %10 etkin-finalizer komisyonunu onlar kazanır. Tahvil üzerinde biriken %90'ı siz korursunuz. Açık tahmini bozan model budur.</p>
+    <div className="font-semibold text-amber-950 dark:text-amber-50">Başka bir üyeye tahvil bağlayın</div>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Oy gücü onların anahtarı altında görünür. %10 aktif-finalizer komisyonunu onlar kazanır. Tahvil üzerinde biriken %90'ı siz tutarsınız. Bu, şeffaf ödemeyi alan madencinin finalizer'ı işleten kişiyle aynı olduğu yönündeki bariz tahmini bozar.</p>
   </div>
 </div>
 
-Bir grup ayrı ödeme adreslerinde madencilik yapabilir, koruma uygulayabilir ve üyeler arasında tahvil oluşturabilir. Bu, "bu madenci şu finalizer'dır" iddiasını çok daha zorlaştırır. Finalizer'ların kim olduğunu veya madenciliği gizlemez.
+Bir grup ayrı ödeme adresleri üzerinden madencilik yapabilir, shield edebilir ve üyeleri arasında bağ kurabilir. Bu, zincir verilerinden “bu madenci şu finalizer’dır” iddiasında bulunmayı çok daha zorlaştırır. Finalizer’ların kim olduğunu gizlemez ve madenciliği de gizlemez.
 
 ## Bunun yapmadıkları
 

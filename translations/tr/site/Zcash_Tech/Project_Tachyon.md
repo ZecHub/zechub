@@ -10,7 +10,7 @@
 - Bugün bir cüzdan, kendisine ait ödemeleri keşfetmek için blok zincirinin çok büyük bir kısmını şifresini çözmeye çalışmak zorundadır ve korumalı eşitlemenin yavaş hissettirmesinin temel nedeni budur
 - Tachyon bunu **gizli eşitleme** ile değiştirir; böylece cüzdan, her şeyi taramadan ve sunucuya hangi bölümleri istediğini söylemeden ihtiyaç duyduklarını getirir
 - Ayrıca ödeme ayrıntılarını blok zincirinden çıkarıp ödeme talebinin içine taşır; bu protokolü basitleştirir, ancak sorumluluğu cüzdanlara kaydırır
-- Bu bir öneridir; ilk kez Nisan 2025'te yayımlandı ve NU7 için aday olarak adlandırıldı. **Yayınlanmış değildir** ve Sapling yükseltmesi ölçeğinde bir mühendislik çalışmasına ihtiyaç duyar
+- Bu bir öneridir; ilk kez Nisan 2025'te yayımlandı. **NU7'ün parçası değildir** ve **yayınlanmış değildir**; Sapling yükseltmesi ölçeğinde bir mühendislik çalışmasına ihtiyaç duyar
 
 <br/>
 
@@ -73,7 +73,7 @@ Orchard'dan birçok şeyi korur: RedPallas anahtar yeniden rastgeleleştirme, ho
 
 ## Çalışmanın durumu
 
-Tachyon, **bir öneridir, yayınlanmış bir özellik değildir**. Nisan 2025'te yayımlandı ve Mayıs 2025'te yayımlanan bir takip yazısı fikir birliği etkilerini ele aldı. Ironwood'dan sonraki büyük yükseltme olan NU7 için aday olarak adlandırılmıştır, ancak NU7'nin içeriğine coin sahibi oylaması karar verir ve Tachyon hakkında hiçbir şey kesinleşmiş değildir.
+Tachyon, **bir öneridir, yayınlanmış bir özellik değildir**. Nisan 2025'te yayımlandı ve Mayıs 2025'te yayımlanan bir takip yazısı fikir birliği etkilerini ele aldı. Ironwood'dan sonraki yükseltme olan NU7 için aday olarak adlandırıldı, ancak 17 Eylül 2026'da üzerinde anlaşmaya varılan NU7 kapsamına dahil değildir: [ZIP 259](https://zips.z.cash/zip-0259), NU7'nin neyi devreye aldığını listeler ve [forum duyurusu](https://forum.zcashcommunity.com/t/nu7-timeline/57655), içinde yeni bir işlem formatının yer almadığını belirtir. Tachyon için henüz bir etkinleştirme tarihi belirlenmemiştir.
 
 Yazarın kendi çerçevesine göre bu, spekülatif araştırmadan ziyade uygulanabilir bir plandır; ancak Sapling ile karşılaştırılabilir bir mühendislik çabası gerektirir ve bazı daha zor sorular kasıtlı olarak sonraya bırakılmıştır.
 
@@ -87,7 +87,7 @@ Yazarın kendi çerçevesine göre bu, spekülatif araştırmadan ziyade uygulan
 - **Tachyon, Ironwood ile aynı değildir.** Ironwood Temmuz 2026'da etkinleştirildi ve Orchard havuzu ile turnstile'ı ele aldı. Tachyon, ölçekleme hakkında ayrı ve daha sonraki bir öneridir.
 - **Tachyon gizlilikte bir azalma değildir.** Amaç, gizliliği hız karşılığında takas etmek değil, ölçekleme maliyetini ortadan kaldırırken defter ayırt edilemezliğini korumaktır.
 - **zk-SNARK doğrulaması hiçbir zaman darboğaz olmadı.** Öneri, yavaş kısmın kanıtları kontrol etme maliyeti değil, cüzdanların durumu nasıl keşfedip koordine ettiği olduğunu açıkça belirtir.
-- **"NU7 için hedefleniyor" bir taahhüt değildir.** NU7'ye neyin gireceğine bir oylama karar verir.
+- **Tachyon, NU7'de yer almıyor.** Bir zamanlar aday olarak adlandırılmıştı, ancak Eylül 2026'da üzerinde anlaşmaya varılan kapsam 25 saniyelik blokları, ücret geri dönüşümünü ve sürüm 4 işlemlerinin sonunu kapsıyor; yeni bir işlem formatı içermiyor ([ZIP 259](https://zips.z.cash/zip-0259)).
 
 <br/>
 
