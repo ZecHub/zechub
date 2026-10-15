@@ -28,7 +28,7 @@ Sprout'taki zk-SNARKs için bir dizi açık parametre gerekiyordu ve bunların g
 
 ## Köken
 
-Sprout, sonraki her değişikliğin üzerine inşa edildiği temel çizgidir. Overwinter ile ağ yükseltme mekanizması geldiğinde, orijinal kuralları consensus branch id 0 olarak etiketledi; bu basitçe henüz hiçbir yükseltmenin uygulanmadığı anlamına gelir. O zamandan beri gelen her şey (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 ve sonrası) Sprout'un başlattığı zincirin üzerine oturur. Başlangıç, Ekim 2016'da bir genesis için Ağustos 2016'da duyuruldu, Ceremony önceki haftalarda gerçekleştirildi ve genesis bloğunun sabit kodlanmış zaman damgası 28 Ekim 2016, 07:56 UTC olarak okunur.
+Sprout, sonraki her değişikliğin üzerine inşa edildiği temel çizgidir. Overwinter ile ağ yükseltme mekanizması geldiğinde, orijinal kuralları consensus branch id 0 olarak etiketledi; bu basitçe henüz hiçbir yükseltmenin uygulanmadığı anlamına gelir. O zamandan beri gelen her şey (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 ve sonrası) Sprout'un başlattığı zincirin üzerine oturur. Başlangıç, 28 Ekim'deki bir genesis için Ağustos 2016'da duyuruldu, Ceremony önceki haftalarda gerçekleştirildi ve genesis bloğunun sabit kodlanmış zaman damgası 28 Ekim 2016, 07:56 UTC olarak okunur.
 
 ![Ağustos 2016 duyurusundan parametre Ceremony'sine ve 28 Ekim 2016'daki Sprout başlangıcına uzanan zaman çizelgesi](/content-images/sprout-timeline-348766352a.webp)
 
