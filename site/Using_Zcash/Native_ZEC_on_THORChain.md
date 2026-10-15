@@ -1,6 +1,10 @@
+---
+title: 'Native ZEC on THORChain: Step-by-Step Guide'
+---
+
 # Native ZEC on THORChain: Step-by-Step Guide to Liquidity Provision and Swaps
 
-<img width="738" height="214" alt="zecthor" src="https://github.com/user-attachments/assets/a6ed1c4a-52fc-4e3b-9f98-8d2edc8325c8" />
+![THORChain and Zcash illustration](https://hackmd.io/_uploads/HyrQjHRozx.webp)
 
 ## Introduction
 
@@ -47,7 +51,8 @@ The exact labels and sequence may vary as the interface changes. Follow the live
 ### Step 1: Open the official swap interface
 
 Visit [swap.thorchain.org](https://swap.thorchain.org/). Check the domain carefully before connecting a wallet.
-<img width="1600" height="834" alt="Screenshot (115)" src="https://github.com/user-attachments/assets/0b94026f-4774-4ad3-9704-8175775eb31c" />
+
+![THORChain swap interface](https://hackmd.io/_uploads/By-NnBAoMg.webp)
 
 ### Step 2: Select ZEC as the source asset
 
@@ -77,7 +82,7 @@ Follow the interface's current instructions to initiate the swap. Review the wal
 
 Use the transaction ID and the status shown by the interface to follow progress. Check the relevant blockchain explorer where available. Once the swap is marked complete, confirm that the destination asset arrived at the intended wallet.
 
-<img width="1600" height="802" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/40b1bf3e-d7a5-4529-9b29-5474bfbbd23a" /> 
+![Swap transaction interface](https://hackmd.io/_uploads/HJYN6rRoGe.webp)
 
 ## 4. Provide liquidity to a ZEC pool
 
@@ -103,13 +108,11 @@ Review the assets required, estimated position, minimums, and applicable fees. K
 
 ### Step 5: Confirm and wait
 
-
 Check the wallet prompt carefully before signing. Wait for the source transaction to receive the required confirmations and for the protocol to recognise the deposit. A successful source-chain transaction does not necessarily mean the position is immediately available.
 
 ### Step 6: Verify your position
 
 Return to the liquidity interface and confirm that your position appears correctly. Keep a record of the pool, deposit date, amount, and transaction ID for later reference.
-
 
 ## 5. Withdraw liquidity
 
@@ -135,8 +138,7 @@ Review the transaction details and confirm only if the assets and destination ar
 
 Check the destination wallet and relevant blockchain explorer. If the withdrawal is pending, consult the official transaction status and documentation before trying again.
 
-<img width="507" height="490" alt="image" src="https://github.com/user-attachments/assets/87596f07-eb06-4cc7-bf8c-7ad5a6245683" />
-
+![Liquidity interface](https://hackmd.io/_uploads/Sy6Y6H0sze.webp)
 
 ## 6. Fees, slippage, and liquidity
 
