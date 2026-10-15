@@ -7,7 +7,7 @@ ZEC le asi si le ʋuʋu ɖi me abe ame bubu ɖesiaɖe ene.
 
 Vovototo ma nye nu ɖeka kolia si woxlẽ vodadatɔe wu le ZCSH, eye eyae nye afisi
 axa sia dze egɔme. Le 25 August 2026 dzi la, gaxɔa dze asitsatsa gɔme le NYSE Arca abe
-* Zcash ETF*, gbãtɔ si nye United States spot Zcash exchange-traded product, eye wònye
+*Zcash ETF*, gbãtɔ si nye United States spot Zcash exchange-traded product, eye wònye
 fifia enye ZEC ƒe ame ɖekaɖeka siwo lolo wu siwo li la dometɔ ɖeka.
 
 ![How the Grayscale Zcash ETF works: investors buy ZCSH shares through a brokerage and receive price exposure only, while the trust holds the ZEC at Coinbase Custody in transparent wallets; Authorized Participants create and redeem shares in baskets of 10,000 for cash, and the Sponsor's Fee is paid out of the trust's ZEC, so ZEC per share declines over time](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)
