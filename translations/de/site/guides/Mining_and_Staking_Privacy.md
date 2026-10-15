@@ -4,7 +4,7 @@
 
 # Privatsphäre beim Mining und Staking
 
-Deine Miner-Auszahlung und dein Finalizer sind nicht dasselbe. Die Chain verknüpft sie niemals. Das ist nützlich, und es ist leicht zu verschwenden.
+Deine Miner-Auszahlung und dein Finalizer sind nicht dasselbe. Die Chain verknüpft sie niemals.
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
@@ -43,24 +43,26 @@ Deine Miner-Auszahlung und dein Finalizer sind nicht dasselbe. Die Chain verknü
 |---|---|---|
 | Miner-t-Adresse und Coinbase-Verlauf | Ja | Normale transparente Outputs |
 | Finalizer-Schlüssel und zfinv1 | Ja, sobald in der Liste | Das muss so sein, damit Stimmen überprüft werden können |
-| Stimmgewicht und Reward-Bank | Ja | Gegen den Finalizer-Schlüssel veröffentlicht |
+| Stimmgewicht und Reward-Bank | Ja | Gegen den Finalizer-Schlüssel veröffentlicht, damit die Stake-Verteilung geprüft werden kann |
 | Welche transparente Adresse einen Bond finanziert hat | Nein, nach dem Abschirmen | Der Bond gibt abgeschirmte Notes aus |
 | Verbindung von deinem Miner zu deinem Finalizer | Nicht on-chain | Nichts im Protokoll schreibt sie fest |
+
+Gestakte Beträge werden absichtlich offengelegt. Das Design erfordert, dass der insgesamt gestakte Betrag und die Verteilung auf die Finalizer öffentlich überprüfbar sind. Quantisierung (Zehnerpotenzen) und feste Staking-Zeiträume begrenzen, wie viele individuelle Zeit- oder Musterinformationen durchsickern, während diese Prüfung weiterhin möglich ist. Nicht gestakte Orchard-Guthaben bleiben privat; Staking ist die beabsichtigte Offenlegung.
 
 ## An dich selbst staken oder an jemand anderen
 
 <div className="grid gap-3 my-4 sm:grid-cols-2">
   <div className="rounded-xl border border-slate-300 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
-    <div className="font-semibold text-slate-900 dark:text-slate-50">Bond an deinen eigenen Finalizer</div>
-    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">Am einfachsten. Du behältst die Betreiberrolle und den Bond. Ein Beobachter kann allein anhand der Chain-Daten dennoch nicht beweisen, dass die t-Adresse und zfinv1 zu derselben Person gehören.</p>
+    <div className="font-semibold text-slate-900 dark:text-slate-50">Bond an den eigenen Finalizer</div>
+    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">Am einfachsten. Du behältst die Betreiberrolle und den Bond. Ein Beobachter kann anhand der Chain-Daten allein dennoch nicht beweisen, dass die t-Adresse und zfinv1 zu derselben Person gehören.</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
     <div className="font-semibold text-amber-950 dark:text-amber-50">Bond an ein anderes Mitglied</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Das Stimmgewicht wird unter deren Schlüssel angezeigt. Sie verdienen die 10%-Provision für aktive Finalizer. Du behältst die 90%, die auf dem Bond anfallen. Dieses Muster durchbricht die naheliegende Vermutung.</p>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Die Stimmkraft wird unter dessen Schlüssel angezeigt. Die Person erhält die 10-%-Provision für aktive Finalizer. Du behältst die 90 %, die auf den Bond entfallen. Dadurch wird die naheliegende Annahme widerlegt, dass der Miner, der die transparente Auszahlung erhält, dieselbe Person ist, die den Finalizer betreibt.</p>
   </div>
 </div>
 
-Eine Gruppe kann auf separaten Auszahlungsadressen minen, abschirmen und Bonds über ihre Mitglieder verteilen. Dadurch ist die Behauptung „Dieser Miner ist dieser Finalizer“ wesentlich schwieriger. Es verbirgt nicht, wer die Finalizer sind, und es verbirgt auch nicht das Mining.
+Eine Gruppe kann über getrennte Auszahlungsadressen schürfen, abschirmen und sich unter den Mitgliedern verbinden. Dadurch lässt sich anhand von On-Chain-Daten viel schwerer behaupten: „Dieser Miner ist dieser Finalisierer.“ Es verbirgt weder, wer die Finalisierer sind, noch das Mining.
 
 ## Was dadurch nicht geschieht
 

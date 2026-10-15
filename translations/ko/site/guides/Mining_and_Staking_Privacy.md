@@ -4,7 +4,7 @@
 
 # 채굴 및 스테이킹 프라이버시
 
-채굴자 보상 지급 주소와 파이널라이저는 동일한 것이 아닙니다. 체인은 둘을 연결하지 않습니다. 이는 유용하지만, 쉽게 낭비될 수 있습니다.
+채굴자 보상 지급 주소와 파이널라이저는 동일한 것이 아닙니다. 체인은 둘을 연결하지 않습니다.
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
@@ -43,24 +43,26 @@
 |---|---|---|
 | 채굴자 t-address 및 코인베이스 이력 | 예 | 일반적인 투명 출력 |
 | 파이널라이저 키 및 zfinv1 | 예, 명단에 등록되면 | 투표를 검증하려면 그래야 합니다 |
-| 투표권 및 보상 은행 | 예 | 파이널라이저 키에 대해 공개됨 |
+| 투표권 및 보상 은행 | 예 | 스테이킹 분포를 감사할 수 있도록 파이널라이저 키에 대해 공개됨 |
 | 어떤 투명 주소가 본드에 자금을 댔는지 | 아니요, 보호 후에는 | 본드는 보호된 노트를 사용합니다 |
 | 채굴자와 파이널라이저 사이의 연결 | 체인상에는 없음 | 프로토콜은 이를 기록하지 않습니다 |
+
+스테이킹된 금액은 의도적으로 공개됩니다. 설계상 총 스테이킹 금액과 파이널라이저 간 분포를 공개적으로 검증할 수 있어야 합니다. 양자화(10의 거듭제곱)와 고정된 스테이킹 기간은 이러한 감사를 가능하게 하면서도 개별적인 시점이나 패턴 정보가 유출되는 양을 제한합니다. 스테이킹되지 않은 Orchard 잔액은 비공개로 유지되며, 스테이킹은 의도적인 공개입니다.
 
 ## 자신에게 스테이킹하거나, 다른 사람에게 스테이킹하기
 
 <div className="grid gap-3 my-4 sm:grid-cols-2">
   <div className="rounded-xl border border-slate-300 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
-    <div className="font-semibold text-slate-900 dark:text-slate-50">자신의 파이널라이저에 본드</div>
-    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">가장 간단합니다. 운영자 역할과 본드를 유지합니다. 관찰자는 체인 데이터만으로 t-address와 zfinv1이 동일 인물의 것임을 여전히 증명할 수 없습니다.</p>
+    <div className="font-semibold text-slate-900 dark:text-slate-50">자신의 파이널라이저에 본드하기</div>
+    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">가장 간단한 방식입니다. 운영자 역할과 본드를 모두 유지합니다. 관찰자는 여전히 체인 데이터만으로 t-address와 zfinv1이 동일 인물의 것임을 증명할 수 없습니다.</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
-    <div className="font-semibold text-amber-950 dark:text-amber-50">다른 구성원에게 본드</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">투표권은 그들의 키 아래에 표시됩니다. 그들은 활성 파이널라이저 수수료 10%를 얻습니다. 본드에 발생하는 90%는 귀하가 유지합니다. 이것이 뻔한 추측을 깨는 방식입니다.</p>
+    <div className="font-semibold text-amber-950 dark:text-amber-50">다른 구성원에게 본드하기</div>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">투표권은 그들의 키 아래에 표시됩니다. 그들은 활성 파이널라이저 수수료 10%를 얻습니다. 본드에 누적되는 90%는 당신이 유지합니다. 이렇게 하면 투명한 보상을 받는 채굴자가 파이널라이저를 운영하는 동일 인물이라는 명백한 추측이 깨집니다.</p>
   </div>
 </div>
 
-그룹은 별도의 보상 지급 주소로 채굴하고, 보호한 뒤, 구성원들 전반에 걸쳐 본드할 수 있습니다. 이렇게 하면 "이 채굴자가 이 파이널라이저다"라고 주장하기가 훨씬 어려워집니다. 그렇다고 파이널라이저가 누구인지 또는 채굴 활동 자체가 숨겨지는 것은 아닙니다.
+그룹은 서로 다른 지급 주소로 채굴하고, 구성원 간에 실딩 및 결속할 수 있습니다. 이로 인해 체인 데이터만으로 “이 채굴자가 이 파이널라이저다”라고 주장하기가 훨씬 어려워집니다. 이는 파이널라이저가 누구인지는 숨기지 않으며, 채굴도 숨기지 않습니다.
 
 ## 이것으로 할 수 없는 것
 

@@ -4,7 +4,7 @@
 
 # Confidentialité du minage et du staking
 
-Votre paiement de minage et votre finaliseur ne sont pas la même chose. La chaîne ne les relie jamais. C’est utile, et il est facile de gâcher cet avantage.
+Votre paiement de minage et votre finaliseur ne sont pas la même chose. La chaîne ne les relie jamais.
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
@@ -43,24 +43,26 @@ Votre paiement de minage et votre finaliseur ne sont pas la même chose. La cha�
 |---|---|---|
 | t-address du mineur et historique de coinbase | Oui | Sorties transparentes normales |
 | Clé du finaliseur et zfinv1 | Oui, une fois dans la liste | Elle doit l’être pour vérifier les votes |
-| Pouvoir de vote et banque de récompenses | Oui | Publiés par rapport à la clé du finaliseur |
+| Pouvoir de vote et banque de récompenses | Oui | Publiés par rapport à la clé du finaliseur afin que la répartition du stake puisse être auditée |
 | Quelle adresse transparente a financé un bond | Non, après une protection | Le bond dépense des notes protégées |
 | Lien entre votre mineur et votre finaliseur | Pas sur la chaîne | Rien dans le protocole ne l’inscrit |
+
+Les montants stakés sont délibérément révélés. La conception nécessite que le total staké et la répartition entre les finalisateurs soient vérifiables publiquement. La quantification (puissances de 10) et des fenêtres de staking fixes limitent la quantité d’informations individuelles sur le moment ou les schémas qui fuitent, tout en permettant cet audit. Les soldes Orchard non stakés restent privés ; le staking constitue la divulgation intentionnelle.
 
 ## Staker pour vous-même ou pour quelqu’un d’autre
 
 <div className="grid gap-3 my-4 sm:grid-cols-2">
   <div className="rounded-xl border border-slate-300 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
-    <div className="font-semibold text-slate-900 dark:text-slate-50">Bonder vers votre propre finaliseur</div>
-    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">Le plus simple. Vous conservez le rôle d’opérateur et le bond. Un observateur ne peut toujours pas prouver, à partir des seules données de la chaîne, que la t-address et le zfinv1 appartiennent à la même personne.</p>
+    <div className="font-semibold text-slate-900 dark:text-slate-50">Bondez vers votre propre finaliseur</div>
+    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">La solution la plus simple. Vous conservez le rôle d’opérateur et le bond. Un observateur ne peut toujours pas prouver, à partir des seules données de la chaîne, que la t-address et le zfinv1 appartiennent à une même personne.</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
-    <div className="font-semibold text-amber-950 dark:text-amber-50">Bonder vers un autre membre</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Le pouvoir de vote apparaît sous leur clé. Ils gagnent la commission de 10 % du finaliseur actif. Vous conservez les 90 % qui s’accumulent sur le bond. C’est le modèle qui déjoue l’hypothèse évidente.</p>
+    <div className="font-semibold text-amber-950 dark:text-amber-50">Bondez vers un autre membre</div>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Le pouvoir de vote apparaît sous sa clé. Cette personne perçoit la commission de 10 % du finaliseur actif. Vous conservez les 90 % accumulés sur le bond. Cela invalide l’hypothèse évidente selon laquelle le mineur recevant le paiement transparent est la même personne qui exploite le finaliseur.</p>
   </div>
 </div>
 
-Un groupe peut miner sur des adresses de paiement distinctes, protéger les fonds et bonder entre ses membres. Cela rend beaucoup plus difficile l’affirmation selon laquelle « ce mineur est ce finaliseur ». Cela ne cache pas qui sont les finaliseurs, et ne cache pas non plus le minage.
+Un groupe peut miner sur des adresses de paiement distinctes, protéger et créer des liens entre ses membres. Il est alors beaucoup plus difficile d’affirmer, à partir des données de la chaîne, que « ce mineur est ce finaliseur ». Cela ne masque pas l’identité des finaliseurs, ni le minage.
 
 ## Ce que cela ne fait pas
 

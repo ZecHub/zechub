@@ -41,7 +41,7 @@ Afɔku si le esiawo katã megbe enye amedzidzela si ate ŋu abu logarithm siwo l
 
 ## Nusi Zcash kpɔa ta na egbea
 
-Tabla sia ɖɔa ɖoɖowɔɖia abe alesi wòle zɔzɔm fifia ene, ɖe amedzidzela si ateŋu agbã logarithm siwo le vovo la ŋu. Eku ɖe ta ɖesiaɖe si ŋu wokpɔ akpoxɔnu le ŋu, Ironwood hã le eme, elabena Ironwood zãa Orchard nutome sue, Halo 2 ƒe kpeɖodziwo kple RedPallas ƒe asidede agbalẽ te abe Orchard.
+Tabla sia ɖɔa ɖoɖowɔɖia abe alesi wòle dɔ wɔm fifia ene, ɖe amedzidzela si ateŋu agbã logarithm siwo le vovo la ŋu. Eku ɖe ta ɖesiaɖe si ŋu wokpɔ akpoxɔnu le ŋu, Ironwood hã le eme, elabena Ironwood zãa Orchard nutome sue, Halo 2 ƒe kpeɖodziwo kple RedPallas ƒe asidede agbalẽ te abe Orchard.
 
 | Nunᴐamesi | Ðe quantum amedzidzela aɖe ŋu egbea | Nusi Ironwood trɔ |
 |---|---|---|
@@ -59,7 +59,7 @@ ZEC si me kɔ la nye nya si to vovo. Woate ŋu awɔ aʋatso eƒe ECDSA asidede a
 Ironwood nye NU6.3 network ƒe tɔtrɔ. Ewɔ dɔ le Mainnet dzi le block 3,428,143 le 28 July 2026. Eƒe taɖodzinu vevitɔe nye supply integrity le Orchard soundness bug megbe (kpɔ [Ironwood](/zcash-tech/ironwood) axa), kple quantum recoverability tso ZIP 2005 si woɖo ɖa abe eƒe akpa aɖe ene.
 
 - **Nuŋlɔɖi ƒe nɔnɔme yeye.** Ironwood ƒe nuŋlɔɖi ɖesiaɖe zãa quantum-recoverable format (de dzesi plaintext lead byte `0x03`). Fifia woɖea nuŋlɔɖia ƒe vovototodedeameme tso eƒe agblewo katã me, eyata wotsɔa hash blaa nuŋlɔɖia ɖe emenyawo ŋu tsɔ wu be woatsɔ akɔntabubu si nye elliptic-curve ɖeɖeko ablae.
-- **Mɔ si dzi woato agbugbɔ axɔ Ironwood ƒe nuŋlɔɖiwo ɖeɖeko.** ZIP 326 gblɔe kɔte be woate ŋu agbugbɔ Ironwood ƒe nuŋlɔɖi ɖesiaɖe axɔ eye Orchard nuŋlɔɖi aɖeke hã mele nenema o. Gakotoku ƒe ɖoɖo metrɔa ema o.
+- **Mɔ si dzi woato agbugbɔ axɔ na Ironwood ƒe nuŋlɔɖiwo ɖeɖeko.** ZIP 326 gblɔe kɔte be woate ŋu agbugbɔ Ironwood ƒe nuŋlɔɖi ɖesiaɖe axɔ eye Orchard nuŋlɔɖi aɖeke hã mele nenema o. Gakotoku ƒe ɖoɖo metrɔa ema o.
 - **Orchard dzudzɔ asixɔxɔ yeye xɔxɔ.** Coinbase teƒeɖoɖowo megate ŋu yi Orchard, eye Orchard megate ŋu ɖoa ɖe Orchard adrɛs bubu o, eyata asixɔxɔ yeye si wotsɔ akpoxɔnu wɔe la ɖina ɖe Ironwood.
 - **Wogblɔna na gakotokuwo be woaʋu nusianu.** ZIP 2005 gblɔ be ELE BE gakotokuwo natsɔ ga siwo katã dzi wokpɔna, siwo dome ga si me kɔ, Sprout kple Sapling ga hã le, ayi Ironwood ƒe gagbalẽwo me ne enya wɔ ko, eye woayi edzi anɔ ewɔm ne ga yeyewo va ɖo.
 
@@ -71,7 +71,7 @@ Nusi Ironwood metrɔ o: nya ɣaɣla siwo wozãna tsɔ zãa gazazã kple kpeɖodz
 
 **Fesre aɖe li si dzi woɖea nu le.** Tso Ironwood's dɔwɔwɔ dzi vaseɖe esime woatsi ɖoɖowɔɖi xoxoawo la, quantum amedzidzela ate ŋu afi ga, ado ya alo axe mɔ na ga le ta ɖesiaɖe si wotsɔ akpoxɔnu wɔe me kokoko. ZIP 2005 yɔ esia be "ɣeyiɣi vevi si me woaɖe nu le" eye wòxlɔ̃ nu be amedzidzedze le ɣeyiɣi si me ate ŋu agblẽ nu le amesi lée ŋu ƒe ŋutete be wòahaya emegbe ŋu kokoko. Esia tae wògblɔ be ele be Zcash natsi Orchard, Sapling kple Sprout **hafi** quantum attacks nazu nusi woateŋu awɔ.
 
-**Ŋkeke aɖeke mele ʋuʋua ŋu o.** ZIP ɖoɖowɔɖi aɖeke meli si atsi Orchard alo Sapling. ZIP 2003, si nye Draft kple NU7 ametiakɔdala, awɔ Sprout ƒe gazazãwo nuwɔametɔe to mɔɖeɖe ɖe tɔtrɔ 4 ƒe asitsatsa ŋu me. Sapling ƒe asiɖeɖe le eŋu ɖeɖeko ƒe numedzodzro dze egɔme le nyamedzroƒea le April 2026 me.
+**Ŋkeke aɖeke mele ʋuʋua ŋu o, negbe Sprout.** ZIP ɖoɖowɔɖi aɖeke metsi Orchard alo Sapling. Sprout to vovo: [ZIP 259 ƒe xexlẽdzesi](https://zips.z.cash/zip-0259) ŋlɔ ZIP 2003 ɖe tɔtrɔ siwo NU7 zãna dome, eyata tɔtrɔ 4 ƒe asitsatsa megawɔa dɔ o ne NU7 nya wɔ dɔ eye ZEC ɖesiaɖe si susɔ ɖe Sprout ta la me va zua nusi womate ŋu azã o. Woɖoe be woawɔ mainnet ƒe dɔwɔwɔ le November 5, 2026 dzi, eye nyametsotso mamlɛtɔ si woawɔ le October 20, 2026 dzi ([forum ƒe gbeƒãɖeɖe](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Sapling ƒe asiɖeɖe le eŋu ɖeɖeko ƒe numedzodzro dze egɔme le nyamedzroƒea le April 2026 me.
 
 **Recovery Protocol la mewu enu o.** ZIP 2005 ɖeko wògblɔe, eye wògblɔ be nyatakakaawo "ate ŋu atrɔ". Womewɔa naneke tso eŋu o.
 
@@ -97,7 +97,7 @@ Amesiawo dometɔ aɖeke mele agbe o.
 
 ## Nɔnɔme ƒe kplɔ̃
 
-Last checked 13 September 2026. ZIP's ta ƒe nɔnɔme kple eƒe network ƒe nɔnɔme nye nu vovovowo: ZIP 2005 gakpɔtɔ gblɔna be "Proposed" le eƒe ta me togbɔ be wowɔ eƒe sewo dzi le Mainnet tso July 2026 me hã.
+Wokpɔe zi mamlɛtɔ le 13 September 2026, negbe Sprout fli, si wowɔ yeyee le 9 October 2026. ZIP's ta ƒe nɔnɔme kple eƒe network ƒe nɔnɔme nye nu vovovowo: ZIP 2005 gakpɔtɔ gblɔna be "Wodo susu ɖa" le eƒe ta me togbɔ be wowɔ eƒe sewo dzi le Mainnet tso July 2026 me hã.
 
 | Nu | ZIP nɔnɔme | Network ƒe nɔnɔme | Ŋkeke | Dzᴐtsoƒe |
 |---|---|---|---|---|
@@ -106,13 +106,13 @@ Last checked 13 September 2026. ZIP's ta ƒe nɔnɔme kple eƒe network ƒe nɔn
 | Gakotoku siwo tsɔa ga yia Ironwood | Mɔfiame le ZIP 2005, ZIP 318 kple ZIP 326 (Draft) me | Wokafui, nɔ te ɖe wò gakotoku dzi | Tso 28 Jul 2026 dzi | [ZIP 318 ƒe xexlẽdzesi](https://zips.z.cash/zip-0318), [ZIP 326 ƒe xexlẽdzesi](https://zips.z.cash/zip-0326) |
 | Gbugbɔgadzɔ ƒe Ðoɖowɔɖi | Wogblɔe le ZIP 2005 me ɖeɖeko | **Womewɔe o** | Ɣletiŋkeke aɖeke meli o | [ZIP ƒe 2005](https://zips.z.cash/zip-2005) |
 | Tsitretsitsi ɖe Orchard kple Sapling ŋu | ZIP aɖeke meli o | **Womewɔ ɖoɖo ɖe eŋu o** | Sapling numedzodzro tso Apr 2026 | [Nyamedzroƒe](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Sprout ƒe gazazãwo nuwɔametɔe (ZIP 2003) | Draft, NU7 ametiakɔdala | **Womewɔ dɔ o** | Ɣletiŋkeke aɖeke meli o | [ZIP ƒe 2003](https://zips.z.cash/zip-2003) |
+| Sprout ƒe gazazãwo nuwɔametɔe (ZIP 2003) | Draft, si NU7 zã ɖe ZIP 259 ɖesiaɖe dzi (Draft) | **Womewɔ dɔ o** | Mainnet taɖodzinu 5 Nov 2026, nyametsotso mamlɛtɔ 20 Oct 2026 | [ZIP ƒe 2003](https://zips.z.cash/zip-2003), [ZIP 259 ƒe xexlẽdzesi](https://zips.z.cash/zip-0259) |
 | Nusiwo woate ŋu agbugbɔ axɔ le gaglãgbe (ZIP 2007) | Wodzrae ɖo ɖi | **Nyadoɖa** | ZIP reserved 5 Jul 2025, woʋu numedzodzro 17 Jun 2026 | [zipwo#1302](https://github.com/zcash/zips/issues/1302) |
 | Post-quantum adzamenyawo na adrɛs siwo wonya | Tata siwo woʋu, ZIP aɖeke meli o | **Numekuku** | #1133 ʋu le 18 Aug 2022, #1307 ʋu le 23 Jun 2026 | [zipwo#1133](https://github.com/zcash/zips/issues/1133), [zipwo#1307](https://github.com/zcash/zips/issues/1307) |
 | Dɔwɔɖoɖo si nye Tachyon | ZIP aɖeke meli o | **Aɖaŋuɖoɖo**, wole ŋgɔyiyi wɔm | Wotae zi gbãtɔ le Apr 2025 | [tachyon.z.ga si wotsɔna xɔa gae](https://tachyon.z.cash/roadmap/) |
 | Bliboe le post-quantum protocol | Tata si woʋu, ZIP aɖeke meli o | **Dɔwɔwɔ le etsɔme** | #1134 ʋu le 28 Mar 2016 dzi | [zipwo#1134](https://github.com/zcash/zips/issues/1134) |
 
-Le Zcash Foundation's NU7 seselelãme ƒe numekuku (February 2026) me la, quantum recoverability xɔ 90.5% ƒe kpekpeɖeŋu tso ZCAP gbɔ eye 94.6% tso gakuxɔlawo gbɔ, eye Tachyon xɔ kpekpeɖeŋu si le xexeame katã kloe. Emawo nye seselelãme ŋuti numekukuwo, ke menye nyametsotsowo le nusiwo yi NU7.
+Le Zcash Foundation's NU7 seselelãme ƒe numekuku (February 2026) me la, quantum recoverability xɔ 90.5% ƒe kpekpeɖeŋu tso ZCAP gbɔ eye 94.6% tso gakuxɔlawo gbɔ, eye Tachyon xɔ kpekpeɖeŋu si le xexeame katã kloe. Emawo nye seselelãme ŋuti numekukuwo, ke menye nyametsotsowo le nusiwo yia NU7.
 
 <br/>
 
@@ -155,9 +155,9 @@ Le Zcash Foundation's NU7 seselelãme ƒe numekuku (February 2026) me la, quantu
 - [ZIP 318: Orchard yi Ironwood Ʋuʋu](https://zips.z.cash/zip-0318)
 - [ZIP 326: NU6.3 Emetsonuwo na Gakotokuwo](https://zips.z.cash/zip-0326)
 - [ZIP 2003: Gbe mɔ na version 4 ƒe asitsatsa](https://zips.z.cash/zip-2003)
-- [ZIP 209: De se ɖe Kɔsɔkɔsɔ ƒe Asixɔxɔ si Wokpɔna le Takpɔƒe ƒe Dadaɖeamedzi Madzɔmadzɔwo Nu](https://zips.z.cash/zip-0209)
+- [ZIP 209: De se ɖe Kɔsɔkɔsɔ ƒe Asixɔxɔ si Wokpɔna le Takpɔƒe ƒe Dadaɖeanyi Nu](https://zips.z.cash/zip-0209)
 - [zips#1302: Quantum recoverability si nye ɖoɖo si me kɔ ƒe hatsotso sue aɖe](https://github.com/zcash/zips/issues/1302)
-- [zips#1133: Post-quantum adzamenyawo na Zcash](https://github.com/zcash/zips/issues/1133)
+- [zips#1133: Post-quantum ƒe adzamenyawo na Zcash](https://github.com/zcash/zips/issues/1133)
 - [zips#1307: Zcash ƒe adzamenyawo ɖe quantum kple discrete-log-breaking futɔwo ŋu](https://github.com/zcash/zips/issues/1307)
 - [zips#1134: Zcash si le quantum megbe bliboe](https://github.com/zcash/zips/issues/1134)
 - [Dɔwɔɖoɖo Tachyon ƒe mɔfiame](https://tachyon.z.cash/roadmap/)

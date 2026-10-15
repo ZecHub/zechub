@@ -6,6 +6,8 @@
 
 > Zcash è stato lanciato il 28 ottobre 2016, con la pool schermata Sprout.
 
+> **Attenzione:** NU7 renderà non spendibili gli ZEC ancora presenti nella pool Sprout quando si attiverà (attivazione su mainnet prevista per il 5 novembre 2026, decisione finale il 20 ottobre 2026; vedi [ZIP 259](https://zips.z.cash/zip-0259)). Se possiedi fondi Sprout, leggi [Recupero dei fondi](../using-zcash/recovering-funds) e migrali prima.
+
 Cosa imparerai: Sprout è il punto da cui Zcash è partito, la prima volta in cui denaro privato e verificabile ha funzionato su una blockchain attiva.
 
 Sprout è il lancio originale della rete Zcash, non un successivo [aggiornamento di rete](../start-here/network-upgrades). È entrato in funzione al blocco genesis il 28 ottobre 2016. Nessuno ZIP numerato definisce Sprout: il processo ZIP è iniziato più tardi con Overwinter, quindi Sprout è descritto dalla Zcash Protocol Specification originale e dalla costruzione Zerocash su cui è stato realizzato. La [Electric Coin Company](../zcash-organizations/electric-coin-company) (allora Zerocoin Electric Coin Company), guidata da Zooko Wilcox, lo ha sviluppato e rilasciato. Sprout ha introdotto le prime transazioni schermate zk-SNARK pratiche e la pool schermata originale, così le persone potevano inviare ZEC con mittente, destinatario e importo nascosti, mentre la rete continuava a verificare che i saldi tornassero. Il nome richiamava una chain giovane, appena germogliata, che il team si aspettava crescesse.
@@ -14,7 +16,7 @@ Perché è importante. Ogni blockchain pubblica prima di Sprout mostrava i tuoi 
 
 ## Prima pool schermata
 
-Sprout ha creato due tipi di indirizzi. Gli indirizzi trasparenti (t-addresses) funzionano come Bitcoin, con i dettagli visibili sul registro pubblico. Gli indirizzi schermati (z-addresses) inviano fondi nella [pool schermata](../using-zcash/shielded-pools) di Sprout, dove mittente, destinatario e importo restano nascosti. Il trucco sono gli [zk-SNARK](../zcash-tech/zk-snarks), prove a conoscenza zero che permettono a una transazione di mostrare che è valida, senza doppia spesa e con saldi che tornano, senza rivelare alcun dettaglio. Sprout è stata la prima volta in cui questo ha funzionato in produzione su una criptovaluta attiva.
+Sprout ha creato due tipi di indirizzi. Gli indirizzi trasparenti (t-addresses) funzionano come Bitcoin, con i dettagli visibili nel registro pubblico. Gli indirizzi schermati (z-addresses) inviano fondi nella Sprout [pool schermata](../using-zcash/shielded-pools), dove mittente, destinatario e importo restano nascosti. Il trucco sono [zk-SNARKs](../zcash-tech/zk-snarks), prove a conoscenza zero che consentono a una transazione di dimostrare di essere valida, senza doppie spese e con saldi che tornano, senza rivelare alcun dettaglio. Con Sprout, questo sistema è stato eseguito per la prima volta in produzione su una criptovaluta attiva.
 
 ![Le transazioni trasparenti espongono mittente, destinatario e importo, mentre le transazioni schermate di Sprout nascondono tutti e tre pur restando verificabili](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 

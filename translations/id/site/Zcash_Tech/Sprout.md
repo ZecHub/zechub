@@ -6,6 +6,8 @@
 
 > Zcash diluncurkan pada 28 Oktober 2016, dengan pool terlindungi Sprout.
 
+> **Peringatan:** NU7 membuat ZEC yang masih berada di pool Sprout tidak dapat dibelanjakan setelah diaktifkan (mainnet ditargetkan pada 5 November 2026, keputusan final pada 20 Oktober 2026; lihat [ZIP 259](https://zips.z.cash/zip-0259)). Jika Anda memiliki dana Sprout, baca [Memulihkan dana](../using-zcash/recovering-funds) dan migrasikan terlebih dahulu.
+
 Apa yang akan Anda pelajari: Sprout adalah tempat di mana Zcash dimulai, pertama kalinya uang privat dan dapat diverifikasi berjalan pada blockchain yang aktif.
 
 Sprout adalah peluncuran asli dari jaringan Zcash, bukan [peningkatan jaringan yang terjadi kemudian](../start-here/network-upgrades). Jaringan ini mulai aktif pada blok genesis pada 28 Oktober 2016. Tidak ada ZIP yang mendefinisikan Sprout: proses ZIP dimulai belakangan dengan Overwinter, sehingga Sprout dijelaskan oleh Spesifikasi Protokol Zcash asli dan konstruksi Zerocash yang menjadi dasarnya. [Electric Coin Company](../zcash-organizations/electric-coin-company) (kemudian Electric Coin Company Zerocoin), yang dipimpin oleh Zooko Wilcox, membangun dan meluncurkannya. Sprout memperkenalkan transaksi terlindungi zk-SNARK praktis pertama dan pool terlindungi yang asli, sehingga orang dapat mengirim ZEC dengan pengirim, penerima, dan jumlah yang tersembunyi sementara jaringan tetap memeriksa bahwa saldo tersebut telah sesuai. Nama tersebut menandakan sebuah chain muda yang sedang berkembang, yang diharapkan tim akan terus tumbuh.

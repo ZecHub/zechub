@@ -4,7 +4,7 @@
 
 # माइनिंग और स्टेकिंग गोपनीयता
 
-आपका माइनर भुगतान और आपका finalizer एक ही चीज़ नहीं हैं। चेन उन्हें कभी नहीं जोड़ती। यह उपयोगी है, और इसे बर्बाद करना आसान है।
+आपका माइनर भुगतान और आपका finalizer एक ही चीज़ नहीं हैं। चेन उन्हें कभी नहीं जोड़ती।
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
@@ -43,24 +43,26 @@
 |---|---|---|
 | माइनर t-address और coinbase इतिहास | हाँ | सामान्य पारदर्शी आउटपुट |
 | Finalizer कुंजी और zfinv1 | हाँ, roster पर आने के बाद | वोट सत्यापित करने के लिए ऐसा होना ज़रूरी है |
-| वोटिंग शक्ति और रिवॉर्ड बैंक | हाँ | finalizer कुंजी के विरुद्ध प्रकाशित |
+| वोटिंग शक्ति और रिवॉर्ड बैंक | हाँ | finalizer कुंजी के विरुद्ध प्रकाशित, ताकि stake वितरण का ऑडिट किया जा सके |
 | किस पारदर्शी पते ने bond को फंड किया | नहीं, Shield के बाद | bond shielded नोट्स खर्च करता है |
 | आपके माइनर से आपके finalizer का लिंक | चेन पर नहीं | प्रोटोकॉल में इसे लिखने वाला कुछ नहीं है |
+
+स्टेक की गई राशियाँ जानबूझकर प्रकट की जाती हैं। डिज़ाइन के लिए कुल स्टेक और फाइनलाइज़रों के बीच वितरण का सार्वजनिक रूप से सत्यापन योग्य होना आवश्यक है। क्वांटाइज़ेशन (10 की घातें) और निश्चित स्टेकिंग अवधियाँ इस ऑडिट की अनुमति देते हुए व्यक्तिगत समय-निर्धारण या पैटर्न संबंधी जानकारी के रिसाव को सीमित करती हैं। बिना स्टेक की गई Orchard बैलेंस निजी रहती हैं; स्टेकिंग जानबूझकर किया गया प्रकटीकरण है।
 
 ## अपने लिए स्टेक करें, या किसी और के लिए
 
 <div className="grid gap-3 my-4 sm:grid-cols-2">
   <div className="rounded-xl border border-slate-300 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
-    <div className="font-semibold text-slate-900 dark:text-slate-50">अपने finalizer को Bond करें</div>
-    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">सबसे सरल। आप operator भूमिका और bond अपने पास रखते हैं। फिर भी कोई पर्यवेक्षक केवल चेन डेटा से यह सिद्ध नहीं कर सकता कि t-address और zfinv1 एक ही व्यक्ति के हैं।</p>
+    <div className="font-semibold text-slate-900 dark:text-slate-50">अपने स्वयं के finalizer को Bond करें</div>
+    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">सबसे सरल। आप ऑपरेटर की भूमिका और Bond अपने पास रखते हैं। फिर भी, केवल chain डेटा के आधार पर कोई पर्यवेक्षक यह सिद्ध नहीं कर सकता कि t-address और zfinv1 एक ही व्यक्ति हैं।</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
     <div className="font-semibold text-amber-950 dark:text-amber-50">किसी अन्य सदस्य को Bond करें</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">वोटिंग शक्ति उनकी कुंजी के अंतर्गत दिखाई देती है। वे 10% active-finalizer कमीशन अर्जित करते हैं। Bond पर मिलने वाले 90% आपके पास रहते हैं। यही वह पैटर्न है जो स्पष्ट अनुमान को तोड़ता है।</p>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">वोटिंग शक्ति उनकी key के अंतर्गत दिखाई देती है। वे 10% सक्रिय-finalizer कमीशन अर्जित करते हैं। Bond पर अर्जित होने वाले 90% आप अपने पास रखते हैं। इससे यह स्पष्ट अनुमान टूट जाता है कि transparent payout पाने वाला miner ही finalizer संचालित करने वाला व्यक्ति है।</p>
   </div>
 </div>
 
-एक समूह अलग-अलग payout पतों पर माइन कर सकता है, Shield कर सकता है, और सदस्यों के बीच Bond कर सकता है। इससे "यह माइनर ही यह finalizer है" कहना बहुत कठिन हो जाता है। इससे यह नहीं छिपता कि finalizer कौन हैं, और न ही माइनिंग छिपती है।
+एक समूह अलग-अलग payout addresses पर माइन कर सकता है, शील्ड कर सकता है, और सदस्यों के बीच बॉन्ड कर सकता है। इससे चेन डेटा से “यह माइनर ही यह finalizer है” कहना बहुत कठिन हो जाता है। यह finalizers की पहचान नहीं छिपाता, और न ही माइनिंग को छिपाता है।
 
 ## यह क्या नहीं करता
 
