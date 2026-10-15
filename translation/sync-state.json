@@ -269,7 +269,7 @@
       "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static+gloss-restore",
+      "tool": "gt-static+gloss-restore+handfix",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
