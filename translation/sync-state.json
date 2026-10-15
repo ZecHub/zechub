@@ -30923,11 +30923,11 @@
       "edited": false
     },
     "Privacy_Tools/Tor_and_I2P.md": {
-      "src": "sha256:abeef006323b1880a8481ede99796c55ff32051ad6ac963f81f6cc88acebb258",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
-      "engine": "gt",
+      "src": "sha256:390ec359e6fd05638c61463d3745544e0d36560e6f6a123c3afd1f2f89a92c84",
+      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
@@ -31771,11 +31771,11 @@
       "edited": false
     },
     "Zcash_Tech/Crosslink_Protocol.md": {
-      "src": "sha256:ef5af7353883bdbff7f643f4fa6f091f35a5e3764ed70ce981e80d39a206a635",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
-      "engine": "gt",
+      "src": "sha256:6fac24d45af0f706e72dfab38afa5a33c79591392edc1e6b8ab9ae7234fc40d4",
+      "src_commit": "ca265dffcdbd2ffc8bf6b5d1758ca9606ab699a5",
+      "engine": "nllb",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/FROST.md": {
