@@ -34,7 +34,7 @@ Proses pengajuan hibah FPF X FPF mencakup beberapa tahapan. Pertama, pemohon har
 
 Informasi lebih lanjut mengenai FPF X FPF dapat dilihat di situs web Financial Privacy Fun (FPF) [di sini](https://www.financialprivacyfoundation.org/grants) dan jika Anda masih penasaran dengan program FPF X FPF, Anda dapat mengunjungi dokumen FAQ di sini: [FAQ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf).
 
-Jika Anda tertarik untuk menjadi Peninjau Sukarelawan (Volunteer Reviewer) untuk putaran program FPF X FPF ini, silakan kunjungi [link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf) ini. Untuk pertanyaan lebih lanjut mengenai Program Hibah FPF X FPF, Anda dapat bertanya secara langsung dengan mengirimkan email ke [FPF](info@financialprivacyfoundation.org).
+Jika Anda tertarik untuk menjadi Peninjau Sukarelawan untuk putaran program FPF X FPF ini, silakan kunjungi [tautan](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf) ini. Untuk pertanyaan lebih lanjut mengenai Program Hibah FPF X FPF, Anda dapat bertanya secara langsung dengan mengirimkan email ke [FPF](mailto:info@financialprivacyfoundation.org).
 
 ## Sumber Daya 
 [Dana Privasi Finansial](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

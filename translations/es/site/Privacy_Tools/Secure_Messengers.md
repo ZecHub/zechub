@@ -33,7 +33,7 @@ Pruébalo: https://z.cash/wallets
 
 Signal private messenger es una aplicación de mensajería segura con la privacidad de los datos en su máximo nivel. La aplicación Signal private messenger es gratuita y fácil de usar; los usuarios no necesitan experiencia previa. La aplicación Signal cuenta con una tecnología de cifrado de extremo a extremo que garantiza que tu comunicación sea completamente privada. Cualquiera que quiera enviar mensajes privados de forma segura debería considerar usar la aplicación Signal private messenger porque reducirá exponencialmente tanto tus vulnerabilidades de ciberseguridad como tu huella de datos.
 
-Pruébalo: [https://signal.org/download](https://signal.org/download)
+Pruébalo: [https://signal.org/download/](https://signal.org/download/)
 
 **BisonRelay**
 

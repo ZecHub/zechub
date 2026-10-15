@@ -1,56 +1,56 @@
-[![Àtúnṣe ojúewé](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
 
-# Àwọn Ońṣẹ́ Tó Dúró Ṣinṣin
+# Àwọn Ońṣẹ́ Ààbò
 
-## Àkọsílẹ̀ láti òpin dé òpin
+## Ìfipamọ́ láti òpin sí òpin
 
-In view of the secure messengers, end-to-end encryption exists to be a security method that keeps a conversation secured. As messages travel from one device to another, no one, including the communication application you're sending the message from, and third parties won't be able to read eligible messages. Additionally, many groundbreaking and prominent messaging service providers like Facebook, Whatsapp, and Zoom are already leveraging end-to-end encryption technology. 
+Nítorí àwọn ìránṣẹ́ ààbò, ìfipamọ́ láti òpin dé òpin wà láti jẹ́ ọ̀nà ààbò tí ó ń pa ìjíròrò mọ́. Bí àwọn ìránṣẹ́ ṣe ń lọ láti ẹ̀rọ kan sí òmíràn, kò sí ẹnikẹ́ni, títí kan ohun èlò ìbánisọ̀rọ̀ tí o ń fi ìránṣẹ́ ránṣẹ́ sí, àti àwọn ẹni-kẹta kò ní lè ka àwọn ìránṣẹ́ tí ó yẹ. Ní àfikún, ọ̀pọ̀lọpọ̀ àwọn olùpèsè iṣẹ́ ìránṣẹ́ tuntun àti olókìkí bíi Facebook, Whatsapp, àti Zoom ti ń lo ìmọ̀ ẹ̀rọ ìfipamọ́ láti òpin dé òpin. 
 
-## Àwọn ìdí tí E2EE fi ṣe pàtàkì?
+## Àwọn ìdí tí ó fi ṣe pàtàkì fún E2EE?
 
-For greater benefits, end-to-end encryption technology plays a pivotal role in situations where data security is necessary, including but not limited to finance, communication, and healthcare industries. It allows organizations to seamlessly comply with data privacy, security regulations as well as laws.
+Fún àǹfààní tó ga jù, ìmọ̀ ẹ̀rọ ìpamọ́ láti ìbẹ̀rẹ̀ dé òpin kó ipa pàtàkì nínú àwọn ipò tí ààbò dátà ṣe pàtàkì, títí kan àwọn ilé iṣẹ́ ìṣúná owó, ìbánisọ̀rọ̀, àti ìtọ́jú ìlera, ṣùgbọ́n kò mọ sí i. Ó ń jẹ́ kí àwọn àjọ máa tẹ̀lé ìpamọ́ dátà, àwọn ìlànà ààbò àti òfin láìsí ìṣòro.
 
-**Data Privacy**: With end-to-end encryption, it is said that only the intended recipient of a message or data can access and decrypt it. Meaning that even the messaging service provider, like Facebook and WhatsApp, cannot read the content. This immersive level of data privacy is important for users and organizations that don't want sensitive information to be disclosed, it could be financial transactions, business communications, or private chat sensitive from unauthorized access.
+**Ìpamọ́ Dátà**: Pẹ̀lú ìfọwọ́sowọ́pọ̀ láti òpin dé òpin, a sọ pé ẹni tí a fẹ́ gba ìránṣẹ́ tàbí dátà nìkan ló lè wọlé kí ó sì yí i padà. Èyí túmọ̀ sí wípé kódà olùpèsè iṣẹ́ ìránṣẹ́, bíi Facebook àti WhatsApp, kò lè ka àkóónú náà. Ìpele ìpamọ́ dátà yìí ṣe pàtàkì fún àwọn olùlò àti àwọn àjọ tí kò fẹ́ kí a tú àṣírí ìwífún nípa ìkọ̀kọ̀, ó lè jẹ́ ìṣòwò owó, ìbánisọ̀rọ̀ ìṣòwò, tàbí ìfọ̀rọ̀wérọ̀ ìkọ̀kọ̀ tí ó jẹ́ ti ìwọlé tí a kò fún ní àṣẹ.
 
-**Aabo data**: Ipele imọ-ẹrọ to lagbara yii jẹ ki o ni aabo fun data lati awọn irufin ti o ṣeeṣe paapaa lakoko ti o tun wa ni gbigbe tabi ni isinmi.
-As data travels over servers or the internet, they are exposed to many factors that make it vulnerable to interception by unauthorized access, such as hackers. With end-to-end encryption technology, the data transmitted can be intercepted but, remains unreadable as long as the sender or recipient does not hold the encryption key. This would potentially reduce the level and data breaches whilst ensuring that individual and organization communications are kept safe.
+**Ààbò Dátà**: Ìpele tó lágbára yìí ti ìmọ̀ ẹ̀rọ gba ààyè láti dáàbò bo dátà kúrò lọ́wọ́ àwọn ìrúfin tó lè ṣẹlẹ̀ kódà nígbà tí ó bá ṣì wà ní ọ̀nà tàbí ní ìsinmi.
+Bí dátà ṣe ń rìn kiri lórí àwọn olupin tàbí ìkànnì ayélujára, wọ́n máa ń dojúkọ ọ̀pọ̀lọpọ̀ nǹkan tó máa ń mú kí ó ṣeé ṣe láti dènà nípasẹ̀ wíwọlé láìgbàṣẹ, bíi àwọn olùgbéjáde. Pẹ̀lú ìmọ̀ ẹ̀rọ ìpamọ́ láti òpin dé òpin, a lè dá dátà tí a gbé kalẹ̀ ṣùgbọ́n, ó ṣì wà láìṣeé kà níwọ̀n ìgbà tí olùránṣẹ́ tàbí olùgbà kò bá ní kọ́kọ́rọ́ ìpamọ́ náà. Èyí lè dín ìpele àti ìrúfin dátà kù nígbà tí ó ń rí i dájú pé ìbánisọ̀rọ̀ ẹnìkọ̀ọ̀kan àti àjọ wà ní ààbò.
 
-**Trust and User Control**: With end-to-end encryption, individuals and organizations are empowered to communicate free because they know their messages, files, and other sensitive information are kept safe from unauthorized access. Equally, the technology helps to protect individuals and organizations against government outreach and surveillance.
+**Ìgbẹ́kẹ̀lé àti Ìṣàkóso Olùlò**: Pẹ̀lú ìfọwọ́sowọ́pọ̀ láti òpin dé òpin, àwọn ènìyàn àti àjọ ní agbára láti bá ara wọn sọ̀rọ̀ láìsí ìfọ̀rọ̀wérọ̀ nítorí wọ́n mọ̀ pé àwọn ìránṣẹ́ wọn, fáìlì, àti àwọn ìwífún pàtàkì mìíràn ni a pa mọ́ kúrò lọ́wọ́ ìwọ̀lé tí a kò fún ní àṣẹ. Bákan náà, ìmọ̀ ẹ̀rọ náà ń ran àwọn ènìyàn àti àjọ lọ́wọ́ láti dáàbò bo àwọn ènìyàn àti àwọn àjọ lọ́wọ́ ìfiranṣẹ́ ìjọba àti ìṣọ́.
 
-### Díẹ̀ Lára Àwọn Ońṣẹ́ Tí Wọ́n Gbà Gbọ́
+### Àwọn Ońṣẹ́ Ààbò Tó Gbajúmọ̀
 
-** Àwọn Àkọsílẹ̀ tí a fi kọ̀ǹpútà ṣe ti Zcash**
+**Zcash Encrypted Memos**
 
-Zcash Desktop & Mobile wallets have an in-built feature that allows users to send encrypted messages with private shielded transactions. The memo/message size can be up to 512 bytes long per transactions with transaction fees being less than 1 US cent. Due to the privacy preserving way transactions are detected and the block time of the network, messages may take up to 1 minute or more to be received. 
+Àwọn àpò owó Zcash Desktop & Mobile ní ẹ̀yà ara tí a kọ́ sínú rẹ̀ tí ó ń jẹ́ kí àwọn olùlò fi àwọn ìránṣẹ́ tí a fi àmì sí pẹ̀lú àwọn ìṣòwò tí a fi ààbò ìkọ̀kọ̀ ránṣẹ́. Ìwọ̀n àkọsílẹ̀/ìránṣẹ́ lè gùn tó 512 baiti fún ìṣòwò kọ̀ọ̀kan pẹ̀lú owó ìṣòwò tí ó kéré sí 1 US senti. Nítorí ọ̀nà tí a gbà ń rí àwọn ìṣòwò ìpamọ́ àti àkókò dídínà nẹ́tíwọ́ọ̀kì náà, àwọn ìránṣẹ́ lè gba tó ìṣẹ́jú kan tàbí jù bẹ́ẹ̀ lọ láti gbà. 
 
-Gbìyànjú ẹ wò: https://z.cash/wallets 
+Gbìyànjú rẹ̀: https://z.cash/wallets 
 
-![Ìsọfúnni tó wà nínú àkọsílẹ̀ Zcash](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
-**Ìpolongo ìwúlò**
+**Ohun elo ifihan agbara**
 
-![Ìpolówó Àmì Ìsọfúnni](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Signal App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
-The Signal private messenger is a secure messaging app with data privacy at its peak. The Signal private messenger app is free and easy to use, users do not need any prior experience. The Signal app has an end-to-end encryption technology that ensures your communication is completely private. Anyone looking to send private messages securely should consider using the Signal private messenger app because it will exponentially reduce both your cybersecurity vulnerabilities and your data footprint.
+Olùránṣẹ́ ìkọ̀kọ̀ Signal jẹ́ àpù ìránṣẹ́ tó ní ààbò pẹ̀lú ìpamọ́ dátà tó ga jùlọ. Àpù ìránṣẹ́ ìkọ̀kọ̀ Signal jẹ́ ọ̀fẹ́ àti pé ó rọrùn láti lò, àwọn olùlò kò nílò ìrírí tẹ́lẹ̀. Àpù Signal ní ìmọ̀ ẹ̀rọ ìkọ̀kọ̀ láti òpin dé òpin tí ó ń rí i dájú pé ìbánisọ̀rọ̀ rẹ jẹ́ àṣírí pátápátá. Ẹnikẹ́ni tó bá fẹ́ fi àwọn ìránṣẹ́ ìkọ̀kọ̀ ránṣẹ́ ní ààbò yẹ kí ó ronú nípa lílo àpù ìránṣẹ́ ìkọ̀kọ̀ Signal nítorí pé yóò dín àwọn ìṣòro ààbò lórí ìkànnì ayélujára àti ìtẹ̀síwájú dátà rẹ kù ní pàtàkì.
 
-Gbìyànjú ẹ wò: [https://signal.org/download](https://signal.org/download)
+Gbìyànjú rẹ̀: [https://signal.org/download/](https://signal.org/download/)
 
-Àkọlé àwòrán BisonRelay
+**BisonRelay**
 
 ![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
-The Bison Relay app made its debut in 2022. Bison Relay is not dependent on users having accounts - Insanely unbelievable! Here, every message that is sent and received is individually paid for over the Decred Lightning Network. The sole purpose of this app is to completely eliminate the need for accounts whilst minimizing metadata. On the other hand, Bison Relay put a stop to the way censorship is typically implemented. 
+Ohun èlò Bison Relay ti bẹ̀rẹ̀ ní ọdún 2022. Bison Relay kò sinmi lórí àwọn olùlò tí wọ́n ní àkọọ́lẹ̀ - Ó yani lẹ́nu gan-an! Níbí, gbogbo ìránṣẹ́ tí a bá fi ránṣẹ́ àti tí a bá gbà ni a máa ń san owó fún lọ́kọ̀ọ̀kan lórí Decred Lightning Network. Ète kan ṣoṣo tí ohun èlò yìí ń lò ni láti mú àìní àkọọ́lẹ̀ kúrò pátápátá, kí ó sì dín àwọn ìsọfúnni tí a lè lò kù. Ní ọwọ́ kejì ẹ̀wẹ̀, Bison Relay dá ọ̀nà tí a ń gbà ṣe ìfòfindè dúró. 
 
-Gbìyànjú ẹ wò: [https://bisonrelay.org/download](https://bisonrelay.org/download)
+Gbìyànjú rẹ̀: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
-Ìtòlẹ́sẹẹsẹ Ìtòlẹ́sẹ́
+**Ohun elo Igba Ipade**
 
-![Àtòjọ App](/content-images/logo-black-9e799f2b06.webp)
+![Session App](/content-images/logo-black-9e799f2b06.webp)
 
-If you don't already know what Session app is, don' t fret! Here' s a glimpse, Session is one of the vying end-to-end encrypted messengers. The app was built to minimize sensitive metadata. The session app was designed for individuals who want absolute privacy, and freedom from any form of surveillance. On the Session application, users can create an account without phone numbers or email addresses which means it' s completely anonymous. Àwọn oníṣe lè fi ìsọfúnni ránṣẹ́ láìséwu nípasẹ nẹtiwọọki wọn láìsí àmì kankan, nítorí náà, kò sí ohun tó lè túbọ̀ jáde.
+Tí o kò bá tíì mọ ohun tí Session app jẹ́, má ṣe dààmú! Èyí ni díẹ̀ lára àwọn ìránṣẹ́ ìkọ̀kọ̀ tí wọ́n ń jà láti òpin dé òpin. A ṣe app náà láti dín àwọn data tí ó ṣe pàtàkì kù. A ṣe app session app fún àwọn ènìyàn tí wọ́n fẹ́ ìpamọ́ pátápátá, àti òmìnira kúrò nínú gbogbo irú ìṣọ́ra. Lórí ohun èlò Session, àwọn olùlò lè ṣẹ̀dá àkọọ́lẹ̀ láìsí àwọn nọ́ńbà fóònù tàbí àdírẹ́sì ìmeeli, èyí tí ó túmọ̀ sí wípé kò sí ẹni tí a mọ̀ rárá. Àwọn olùlò lè fi àwọn ìránṣẹ́ ránṣẹ́ láìsí ewu nípasẹ̀ nẹ́tíwọ́ọ̀kì wọn láìsí àmì kankan, nítorí náà, kò sí ohun tí yóò yọ jáde.
 
-Gbìyànjú ẹ wò: [https://getsession.org](https://getsession.org)
+Gbìyànjú rẹ̀: [https://getsession.org](https://getsession.org)
 
-## Àkópọ̀
+## Àkótán
 
-End-to-End encryption is important because it fosters robust privacy protection, reinforces data security to its core, and enables users to hand full control over their own information as they travel over networks and devices, thereby addressing critical concerns in the digital age.
+Ìfọwọ́sowọ́pọ̀ láti ìbẹ̀rẹ̀ dé òpin ṣe pàtàkì nítorí pé ó ń mú ààbò ìpamọ́ tó lágbára wá, ó ń mú ààbò dátà lágbára sí i, ó sì ń jẹ́ kí àwọn olùlò lè fi gbogbo agbára wọn lé ìwífún wọn bí wọ́n ṣe ń rìnrìn àjò lórí àwọn nẹ́tíwọ́ọ̀kì àti ẹ̀rọ, èyí sì ń yanjú àwọn àníyàn pàtàkì ní àkókò oní-nọ́ńbà.

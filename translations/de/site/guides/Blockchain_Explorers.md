@@ -78,6 +78,8 @@ Die wichtigste Erkenntnis: Privatsphäre hängt davon ab, innerhalb der abgeschi
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### Visuelle Anleitung
 
 Hier sind vier gute Beispiele für verschiedene Blockchain-Explorer:

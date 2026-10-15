@@ -30,7 +30,7 @@ Zcash Community Grants ist eine von Electric Coin Company und der Zcash Foundati
 
 ## Finanzierung
 
-Electric Coin Company erhält 8 % des [Zcash development fund](https://zips.z.cash/zip-1014). Diese Mittel werden verwendet, um Entwicklungsteams von Drittanbietern zu unterstützen und auch für interne Abläufe.
+Zcash Community Grants erhält gemäß dem bei NU6.1 durch [ZIP 1016](https://zips.z.cash/zip-1016) etablierten Finanzierungsmodell 8 % der Blocksubvention. Der Stream begann, als der frühere [ZIP 1015](https://zips.z.cash/zip-1015)-Stream auslief, und läuft bis zur dritten Halbierung von Zcash bei Block 4.406.400 unter der aktuellen Blockzeit. ZCG verwendet diese Mittel, um unabhängige Teams im gesamten Zcash-Ökosystem zu unterstützen.
 
 ## Ressourcen
 

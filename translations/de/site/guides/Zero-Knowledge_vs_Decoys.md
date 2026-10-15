@@ -50,11 +50,11 @@ Während Moneros Decoy-Algorithmus (Ring-Signatur) hilft, Privatsphäre bereitzu
 
 Die Verwendung von Decoys erhöht zwar die Anonymitätsmenge. Dieser Ansatz hängt jedoch vollständig von der Anzahl der *echten* Nutzer im Netzwerk ab. 
 
-4) **Kein Trusted Setup**: Das Setup von Zcashs Sprout und Sapling nutzte eine Mehrparteienberechnung, die als „Trusted Setup Ceremony“ bekannt ist. Das jüngste NU5-Upgrade erforderte kein Vertrauen in die Integrität des Setups des Zero-Knowledge-Circuits. [ECC-Blog zu NU5 lesen](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
+4) **Kein Trusted Setup**: Das Setup von Zcash für Sprout & Sapling nutzte eine Mehrparteienberechnung, die als „Trusted Setup Ceremony“ bekannt ist. Das jüngste NU5-Upgrade erforderte kein Vertrauen in die Integrität des Setups des Zero-Knowledge-Circuits. [ECC-Blog zu NU5 lesen](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Datenschutz**: Die in den shielded Pools von Zcash verwendete [zk-SNARK-Technologie](https://zechub.wiki/zcash-technology) ermöglicht eine deutlich verbesserte Sicherheit für Nutzer. Die Verringerung des Metadaten-Lecks On-Chain bedeutet, dass Nutzer vor Angreifern wie potenziellen Hackern oder repressiven staatlichen Stellen geschützt sind. 
+5) **Datenschutz**: Die [zk-SNARK-Technologie](https://zechub.wiki/zcash-tech/zk-snarks), die in den shielded Pools von Zcash verwendet wird, ermöglicht eine deutlich verbesserte Sicherheit für Nutzer. Die Verringerung von Metadatenlecks On-Chain bedeutet, dass Nutzer vor Angreifern wie potenziellen Hackern oder repressiven staatlichen Stellen geschützt sind.
 
-Es gibt eine Reihe von Fällen, in denen Fehler im Decoy-Auswahlalgorithmus von Monero identifiziert wurden. Diese Fehler hatten laut einem Bericht von [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) das Potenzial, Ausgaben von Nutzern offenzulegen. 
+Es gibt eine Reihe von Fällen, in denen Fehler im Decoy-Auswahlalgorithmus von Monero identifiziert wurden. Diese Fehler hatten laut einem Bericht von [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) das Potenzial, Ausgaben von Nutzern offenzulegen.
 
 
 Zusammenfassend ist das, was wirklich am wichtigsten ist, die Preisgabe von Nutzerinformationen und Daten zu reduzieren oder zu beseitigen, wie von Zooko in der [Orchid (priv8) AMA-Live-Session](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) erklärt wurde. 

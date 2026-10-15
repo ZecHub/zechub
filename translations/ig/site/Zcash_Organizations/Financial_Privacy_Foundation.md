@@ -2,41 +2,41 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ụlọ ọrụ na-ahụ maka nchekwa ego (FPF)
+# Ntọala Nzuzo Ego (FPF)
 ![FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
 ## Banyere FPF
-The Financial Privacy Foundation (FPF) is a non-profit organization incorporated in the Cayman Islands. FPFs primary goal is to educate and empower individuals and communities to take control of their financial privacy and security. FPF is also committed to promoting a fair and equitable financial system that respects personal privacy. FPFs primary activity related to financial privacy is to provide individuals and communities with information, resources and support to protect and optimize their financial privacy. The Financial Privacy Fund (FPF) is currently creating a grant program titled FPF X FPF.
+Ntọala Nzuzo Ego (FPF) bụ otu na-abụghị nke uru nke e guzobere na Cayman Islands. Isi ihe mgbaru ọsọ FPF bụ ịkụziri ma nye ndị mmadụ n'otu n'otu na obodo ike ijikwa nzuzo na nchekwa ego ha. FPF na-agbakwa mbọ ịkwalite usoro ego ziri ezi na nke ziri ezi nke na-asọpụrụ nzuzo onwe onye. Ọrụ FPF bụ isi ihe metụtara nzuzo ego bụ inye ndị mmadụ na obodo ozi, akụrụngwa na nkwado iji chebe ma melite nzuzo ego ha. Ego Nzuzo Ego (FPF) na-emepụta mmemme onyinye nke akpọrọ FPF X FPF ugbu a.
 
-##  Ozi banyere FPF X FPF
+##  Ozi gbasara FPF X FPF
 
- FPF X FPF is about FPFs first experimental grant program, the Financial Privacy Fund (FPF x FPF). The program will fund engineering projects within the Zcash ecosystem that are nearing completion, or projects that will immediately contribute to the ecosystem and can be completed within the specified time and funding limits. FPF X FPF is launching with very limited funds to refine the grant funding process and hopes to launch future rounds. 
+ FPF X FPF bụ maka mmemme onyinye nnwale mbụ nke FPF, Ego Nzuzo Ego (FPF x FPF). Mmemme a ga-akwado ọrụ injinia n'ime usoro Zcash nke na-eru nso imecha, ma ọ bụ ọrụ ndị ga-enye aka ozugbo na usoro gburugburu ebe obibi ma enwere ike imecha ya n'ime oge akọwapụtara na oke ego. FPF X FPF na-amalite na obere ego iji mee ka usoro ego onyinye ahụ ka mma ma nwee olileanya ịmalite agba n'ọdịnihu. 
 
 
-## [FPF x ZecHub Bounty Program - Nkwusa Oziọma na Blọọgụ](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
+## [Mmemme Ego FPF x ZecHub - Blọọgụ Post](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
 
-## FPF X Nkọwa nke Mmemme FPF 
+## Nkọwa Mmemme FPF X FPF 
 
-FPF X Nkọwa nke Mmemme FPF nwere ọtụtụ nkọwa na mmemme ya bụ:
+Nkọwa Mmemme FPF X FPF FPF nwere ọtụtụ nkọwa na mmemme ya nke bụ:
 
-- Ego ego: Ruo $ 50,000 USD.
-- Arịrịọ kachasị: $25,000 USD.
-- KYC chọrọ: Ọ dịghị onye.
-- Ụdị oru ngo: Naanị ọrụ injinia nke nwere ike ịba uru na gburugburu ebe obibi Zcash ma nwee ike mezue ya. A ga-atụle ha.
-- Ịkwụ ụgwọ: Mgbe ihe ịga nke ọma rụchara ọrụ ahụ.
-- Ụbọchị a ga-ebido: Machị 18, 2024
+- Ego ego: Ruo $50,000 USD
+- Arịrịọ Kachasị: $25,000 USD
+- Ihe KYC chọrọ: Ọ dịghị
+- Ụdị Ọrụ: Naanị ọrụ injinia nwere ike ịbara gburugburu ebe obibi Zcash uru ozugbo ma mechaa ya nke ọma ka a ga-atụle.
+- Ịkwụ Ụgwọ: Mgbe emechara ọrụ ahụ nke ọma
+- Ụbọchị Mmalite: Machị 18, 2024
 
-## Usoro ntinye akwụkwọ maka onyinye ego. 
+## Usoro Ngwa Enyemaka 
 
-The FPF X FPF grant application process includes several processes. First, applicants must apply for the grant through the secure form provided. Then, FPF will review the application for eligibility, and applicants will be notified of their status within 5 calendar days after the application deadline. Next, an adhoc review committee will review and decide on the grant award within 20 calendar days after the submission deadline. Details of the grants awarded will be published on the FPF website for transparency and accountability.
+Usoro ntinye akwụkwọ maka onyinye FPF X FPF gụnyere ọtụtụ usoro. Nke mbụ, ndị na-achọ akwụkwọ ga-etinye akwụkwọ maka onyinye ahụ site na fọm echekwara enyere. Mgbe ahụ, FPF ga-enyocha ngwa ahụ maka ntozu oke, a ga-agwakwa ndị na-achọ akwụkwọ maka ọnọdụ ha n'ime ụbọchị kalenda ise ka oge njedebe ngwa ahụ gasịrị. Na-esote, kọmitii nyocha adhoc ga-enyocha ma kpebie onyinye onyinye ahụ n'ime ụbọchị kalenda iri abụọ ka oge njedebe nnyefe ahụ gasịrị. A ga-ebipụta nkọwa nke onyinye enyere na weebụsaịtị FPF maka nghọta na ịza ajụjụ.
 
-## Ozi ndị ọzọ gbasara FPF X FPF 
+## Ozi Ndị Ọzọ Banyere FPF X FPF 
 
-Enwere ike ịhụ ozi ndị ọzọ gbasara FPF X FPF na weebụsaịtị Financial Privacy Fun (FPF) [ebe a .](https://www.financialprivacyfoundation.org/grants) ma ọ bụrụ na ị ka nwere mmasị banyere mmemme FPF X FPF, ịnwere ike ịga leta akwụkwọ FAQ ebe a: [Ajụjụ ndị a na-ajụkarị](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
+Enwere ike ịhụ ozi ndị ọzọ gbasara FPF X FPF na weebụsaịtị Financial Privacy Fun (FPF) [Ebe a](https://www.financialprivacyfoundation.org/grants) ọ bụrụkwa na ị ka nwere mmasị gbasara mmemme FPF X FPF, ị nwere ike ịga na akwụkwọ FAQ ebe a: [Ajụjụ Ndị A Na-ajụkarị](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Ọ bụrụ na ị nwere mmasị ịbụ Onye Nyocha Volunteer maka usoro a nke FPF X FPF, biko gaa ebe a. [njikọ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Maka ajụjụ ndị ọzọ gbasara FPF X FPF Grant Program, ị nwere ike ịjụ ozugbo site na izipu email. [FPF (ihe eji eme ihe)](info@financialprivacyfoundation.org).
+Ọ bụrụ na ịchọrọ ịghọ onye nyocha afọ ofufo maka agba a nke mmemme FPF X FPF, biko gaa na nke a [njikọ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Maka ajụjụ ndị ọzọ gbasara Mmemme Enyemaka FPF X FPF, ị nwere ike ịjụ ozugbo site na izipu ozi-e [FPF](mailto:info@financialprivacyfoundation.org).
 
-## Akụnụba 
-[Ego Nzuzo nke ego](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
+## akụrụngwa 
+[Ego Nzuzo Ego](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
 
 

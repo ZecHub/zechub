@@ -14,7 +14,7 @@
 
 ## 选择网页浏览器时有哪些安全注意事项？
 
-在选择网页浏览器时，有几点需要牢记：安全漏洞和利用方式通常会被持续发现。有些浏览器在某种程度上是可追踪的，但也有一些浏览器允许用户匿名浏览——例如 [Tor browser](https://www.torproject.org/download/)。
+在选择网页浏览器时，有几点需要牢记：安全漏洞和利用方式通常会被持续发现。有些浏览器在某种程度上是可追踪的，但也有一些浏览器允许用户匿名浏览——例如 [Tor browser](https://download.torproject.org/)。
 
 **指纹识别**：如果你希望保护诸如设备上已安装的软件、硬件配置等隐私信息，请考虑选择支持抗指纹识别功能的网页浏览器。
 
@@ -28,4 +28,4 @@
 
 Brave 浏览器正在为 Web3 生态系统开辟道路。如何做到的？如今，超过 200 万个 unstoppable domains 已可用于展示去中心化网站。凭借 Brave Browser 强大的安全特性，人们可以在不被追踪的情况下探索互联网。Brave 与 Zcash 正在携手，为 Web3 生态系统带来新的隐私工具。为了获得更大收益，Brave 将通过其内置加密钱包快速集成 Zcash 协议，从而革新加密货币交易——这一集成将使用户能够非常轻松且安全地存储、发送和接收 ZEC，以及其他加密货币。Brave 网页浏览器与 Zcash 的合作将真正改变格局，因为用户将对自己的 Web3 活动拥有更大的控制权。
 
-关于 Brave 浏览器与 Zcash 集成，另一个很有意思的事实是其私密且去中心化的消息功能；Brave、Electric Coin Company 以及 Filecoin Foundation 团队正在为 Brave 浏览器铺设以隐私为核心的功能——此次合作旨在通过 Zcash 协议提供私密消息和媒体传输。在这里，Interplanetary File System (IPFS) 将在为加密内容提供安全存储能力方面发挥关键作用。
+关于 Brave 浏览器与 Zcash 集成，另一个很有意思的事实是其私密且去中心化的消息功能；Brave、ECC 以及 Filecoin Foundation 团队正在为 Brave 浏览器铺设以隐私为核心的功能——此次合作旨在通过 Zcash 协议提供私密消息和媒体传输。在这里，Interplanetary File System (IPFS) 将在为加密内容提供安全存储能力方面发挥关键作用。

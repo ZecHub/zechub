@@ -33,7 +33,7 @@ Zcash 桌面和移动钱包内置了一项功能，允许用户通过私密屏�
 
 Signal 私密通讯工具是一款将数据隐私做到极致的安全消息应用。Signal 私密通讯应用免费且易于使用，用户无需任何先前经验。Signal 应用采用端到端加密技术，确保你的通信完全私密。任何希望安全发送私人消息的人都应考虑使用 Signal 私密通讯应用，因为它将显著降低你的网络安全脆弱性和数据足迹。
 
-试试看：[https://signal.org/download](https://signal.org/download)
+试试看：[https://signal.org/download/](https://signal.org/download/)
 
 **BisonRelay**
 

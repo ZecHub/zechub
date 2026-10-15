@@ -30,7 +30,7 @@ Zcash Community Grants, Electric Coin Company ve Zcash Foundation’dan bağıms
 
 ## Fonlama
 
-Electric Coin Company, [Zcash development fund](https://zips.z.cash/zip-1014)'ın %8’ini alır. Bu fonları üçüncü taraf geliştirme ekiplerini desteklemek ve ayrıca iç operasyonlar için kullanırlar.
+Zcash Community Grants, NU6.1'de [ZIP 1016](https://zips.z.cash/zip-1016) tarafından oluşturulan finansman modeli kapsamında blok sübvansiyonunun %8'ini alır. Akış, önceki [ZIP 1015](https://zips.z.cash/zip-1015) akışının sona ermesiyle başladı ve mevcut blok aralığında 4.406.400'üncü blokta Zcash'in üçüncü yarılanmasına kadar sürer. ZCG, bu fonları Zcash ekosistemi genelindeki bağımsız ekipleri desteklemek için kullanır.
 
 ## Kaynaklar
 

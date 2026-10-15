@@ -14,7 +14,7 @@
 
 ## Apa Saja Pertimbangan Keamanan Saat Memilih Web Browser?
 
-Saat memilih browser web, ada beberapa hal yang perlu kamu perhatikan: Kerentanan keamanan dan eksploitasi biasanya ditemukan secara rutin. Beberapa browser dapat dilacak dengan cara tertentu, namun, ada browser yang memungkinkan pengguna untuk menjelajah secara anonim - contohnya [Tor browser](https://www.torproject.org/download/).
+Saat memilih browser web, ada beberapa hal yang perlu kamu perhatikan: Kerentanan keamanan dan eksploitasi biasanya ditemukan secara rutin. Beberapa browser dapat dilacak dengan cara tertentu, namun, ada browser yang memungkinkan pengguna untuk menjelajah secara anonim - contohnya browser [Tor peramban](https://download.torproject.org/).
 
 **Fingerprinting**: Jika kamu ingin menjaga privasi hal-hal seperti perangkat lunak yang terinstal di mesinmu, konfigurasi perangkat keras, dan banyak lagi, pertimbangkanlah untuk mencari web browser yang mendukung fitur resistensi fingerprinting.
 

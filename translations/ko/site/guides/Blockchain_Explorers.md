@@ -78,6 +78,8 @@ Zcash에는 한 가지 이상의 주소 유형이 있으며, 탐색기는 이를
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### 시각 가이드
 
 다음은 서로 다른 블록체인 탐색기의 좋은 예시 네 가지입니다.

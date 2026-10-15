@@ -14,7 +14,7 @@
 
 ## Quali sono le considerazioni di sicurezza nella scelta di un browser web?
 
-Quando scegli un browser web ci sono alcune cose da tenere a mente: vulnerabilità di sicurezza ed exploit vengono solitamente scoperti con regolarità. Alcuni browser sono tracciabili in qualche modo, ma ci sono browser che consentono agli utenti di navigare in modo anonimo - il [browser Tor](https://www.torproject.org/download/) ad esempio. 
+Quando scegli un browser web ci sono alcune cose da tenere a mente: vulnerabilità di sicurezza ed exploit vengono solitamente scoperti con regolarità. Alcuni browser sono tracciabili in qualche modo, ma ci sono browser che consentono agli utenti di navigare in modo anonimo - [Tor browser](https://download.torproject.org/), ad esempio.
 
 **Fingerprinting**: se vuoi mantenere private cose come i software installati sulla tua macchina, la configurazione hardware e altro, considera di cercare un browser web che supporti la funzionalità di resistenza al fingerprinting. 
 
