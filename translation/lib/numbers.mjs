@@ -261,8 +261,10 @@ function foldMyriads(l) {
   return l
     // Korean and Chinese thousands inside a myriad: "4천만" = 4000만
     .replace(/(\d+)\s?[천千]\s?(?=[万萬만])/g, (m, a) => fold(m, Number(a) * 1000))
-    .replace(/(\d+)\s?[億亿억]\s?(\d+)\s?[万萬만](?:\s?(\d[\d,]{0,4})(?![\d万萬만]))?/g,
-      (m, a, b, c) => fold(m, Number(a) * 1e8 + Number(b) * 1e4 + Number((c ?? "0").replace(/,/g, ""))))
+    // The part between 億 and 万 may carry a thousands separator: "3億1,300万"
+    // is 313 000 000 (ja/ko Grayscale ETF page, 2026-10-15).
+    .replace(/(\d+)\s?[億亿억]\s?(\d{1,4}|\d,\d{3})\s?[万萬만](?:\s?(\d[\d,]{0,4})(?![\d万萬만]))?/g,
+      (m, a, b, c) => fold(m, Number(a) * 1e8 + Number(b.replace(/,/g, "")) * 1e4 + Number((c ?? "0").replace(/,/g, ""))))
     .replace(/(\d+)\s?[億亿억]\s?(\d[\d,]{0,8})(?![\d,万萬만億亿억])/g,
       (m, a, c) => fold(m, Number(a) * 1e8 + Number(c.replace(/,/g, ""))))
     .replace(/(\d+)\s?[万萬만]\s?(\d[\d,]{0,4})(?![\d,万萬만億亿억])/g,
