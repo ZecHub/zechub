@@ -16371,11 +16371,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
-      "src": "sha256:59ed9948d5515deb422a9474c320f829298def8f717b00bb30caeb6644c9287f",
-      "src_commit": "72570c036686043220f9c77fbe80eaf404d6fce7",
+      "src": "sha256:2d56248be870b2a35d3e44c63d453540d268dd0194eb108d3facb30034344215",
+      "src_commit": "78d2752046932ea276d4cc171410bc9e5944b7d6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -19999,8 +19999,8 @@
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
-      "src": "sha256:59ed9948d5515deb422a9474c320f829298def8f717b00bb30caeb6644c9287f",
-      "src_commit": "72570c036686043220f9c77fbe80eaf404d6fce7",
+      "src": "sha256:2d56248be870b2a35d3e44c63d453540d268dd0194eb108d3facb30034344215",
+      "src_commit": "78d2752046932ea276d4cc171410bc9e5944b7d6",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
