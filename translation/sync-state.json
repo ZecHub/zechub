@@ -265,11 +265,11 @@
       "edited": false
     },
     "Start_Here/Network_Upgrades.md": {
-      "src": "sha256:8074cf9e324c84d7dd4fb1c809b39a19a9542fedd008f9255f3e1b596cab5f27",
-      "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
+      "src": "sha256:7ec77d2ea1f087dd3f144e1ce067109d45766f84711ad84e86672647eb54d37f",
+      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+gloss-restore+handfix",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
@@ -1081,11 +1081,11 @@
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
-      "src": "sha256:fe37cfb5e272c5db8acf34da31c5585a73e39df23ead05a477918c1c9155b735",
-      "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+brand-restore+gloss-restore+verbatim-columns",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -1729,8 +1729,8 @@
       "edited": false
     },
     "Zcash_Tech/Is_Zcash_Post_Quantum.md": {
-      "src": "sha256:8842d287abcf92321a87909c4f1a3a610617ca438b8ba6bd55167538f81a7ebc",
-      "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
+      "src": "sha256:751ee5699f53ff20028dc016a0e310c4d025fe5b8846bd9fd4468fc0bdf05d69",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -16233,8 +16233,8 @@
       "edited": false
     },
     "Zcash_Tech/Is_Zcash_Post_Quantum.md": {
-      "src": "sha256:8842d287abcf92321a87909c4f1a3a610617ca438b8ba6bd55167538f81a7ebc",
-      "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
+      "src": "sha256:751ee5699f53ff20028dc016a0e310c4d025fe5b8846bd9fd4468fc0bdf05d69",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -26497,7 +26497,7 @@
       "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {
@@ -27125,8 +27125,8 @@
       "edited": false
     },
     "Zcash_Tech/Is_Zcash_Post_Quantum.md": {
-      "src": "sha256:8842d287abcf92321a87909c4f1a3a610617ca438b8ba6bd55167538f81a7ebc",
-      "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
+      "src": "sha256:751ee5699f53ff20028dc016a0e310c4d025fe5b8846bd9fd4468fc0bdf05d69",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -32551,7 +32551,7 @@
       "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+handfix",
       "edited": false
     },
     "Zcash_Tech/Unified_Addresses.md": {
@@ -33681,7 +33681,7 @@
       "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {

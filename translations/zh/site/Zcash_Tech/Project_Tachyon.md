@@ -73,7 +73,7 @@ Tachyon 被描述为对 Orchard 协议的反向兼容变更。它可以作为现
 
 ## 工作进展
 
-Tachyon 是一项**提案，而非已发布的功能**。它发表于 2025 年 4 月，2025 年 5 月的一篇后续文章探讨了共识层面的影响。它曾被列为 NU7 的候选项目——即 Ironwood 之后的下一次升级——但于 2026 年 9 月 17 日确定的 NU7 范围并不包含它：[ZIP 259](https://zips.z.cash/zip-0259) 列出了 NU7 部署的内容，而 [forum announcement](https://forum.zcashcommunity.com/t/nu7-timeline/57655) 表示其中没有新的交易格式。尚未为 Tachyon 设定激活日期。
+Tachyon 是一项**提案，而非已发布的功能**。它发表于 2025 年 4 月，2025 年 5 月的一篇后续文章探讨了共识层面的影响。它曾被列为 NU7 的候选项目——即 Ironwood 之后的下一次升级——但于 2026 年 9 月 17 日确定的 NU7 范围并不包含它：[ZIP 259](https://zips.z.cash/zip-0259) 列出了 NU7 部署的内容，而 [论坛公告](https://forum.zcashcommunity.com/t/nu7-timeline/57655) 表示其中没有新的交易格式。尚未为 Tachyon 设定激活日期。
 
 作者自身的表述是，这是一项可执行的计划，而非推测性研究；但它需要与 Sapling 相当的工程投入，并且有些更困难的问题被有意留待以后处理。
 

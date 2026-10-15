@@ -69,7 +69,7 @@ Ohun tí Ironwood kò yí padà: ìkọ̀kọ̀ tí a lò fún ìnáwó àti ìf
 
 ## Àwọn ààlà tó kù
 
-**Fèrèsé ìfarahàn kan wà.** Láti ìgbà Ironwood's ti ń ṣiṣẹ́ títí di ìgbà tí a bá pa àwọn ìlànà àtijọ́, apànìyàn quantum ṣì lè jí, gbé owó sókè tàbí dí owó ní gbogbo adágún tí a dáàbò bò. ZIP 2005 pe èyí ní "àkókò ìfarahàn pàtàkì" ó sì kìlọ̀ pé ìkọlù nígbà tí ó bá ṣẹlẹ̀ lè ba agbára ẹni tí ó ni ín jẹ́ láti padà bọ̀ sípò nígbà tí ó bá yá. Ìdí nìyí tí ó fi sọ pé Zcash gbọ́dọ̀ pa Orchard, Sapling àti Sprout **kí ó tó di pé àwọn ìkọlù quantum di ohun tí ó ṣeé ṣe.
+**Fèrèsé ìfarahàn kan wà.** Láti ìgbà Ironwood's ti ń ṣiṣẹ́ títí di ìgbà tí a bá pa àwọn ìlànà àtijọ́, apànìyàn quantum ṣì lè jí, gbé owó sókè tàbí dí owó ní gbogbo adágún tí a dáàbò bò. ZIP 2005 pe èyí ní "àkókò ìfarahàn pàtàkì" ó sì kìlọ̀ pé ìkọlù nígbà tí ó bá ṣẹlẹ̀ lè ba agbára ẹni tí ó ni ín jẹ́ láti padà bọ̀ sípò nígbà tí ó bá yá. Ìdí nìyí tí ó fi sọ pé Zcash gbọ́dọ̀ pa Orchard, Sapling àti Sprout **kí ó tó** di pé àwọn ìkọlù quantum di ohun tí ó ṣeé ṣe.
 
 **A kò ní ọjọ́ tí a ó pa á, àyàfi Sprout.** Kò sí ìtòlẹ́sẹẹsẹ ZIP tí a ó pa Orchard tàbí Sapling. Sprout yàtọ̀: [ZIP 259](https://zips.z.cash/zip-0259) Àkójọ ZIP 2003 lára àwọn àyípadà tí NU7 ń gbé jáde, nítorí náà àwọn ìṣòwò ẹ̀yà 4 yóò di aláìlágbára nígbà tí NU7 bá ṣiṣẹ́, àti pé èyíkéyìí ZEC tí ó bá kù nínú adágún Sprout kò ní náwó. Ìmúṣiṣẹ́ Mainnet yóò wáyé ní ọjọ́ karùn-ún oṣù kọkànlá ọdún 2026, pẹ̀lú ìpinnu ìkẹyìn tí a ó ṣe ní ọjọ́ ogún oṣù kẹwàá ọdún 2026 ([ìkéde àpérò](https://forum.zcashcommunity.com/t/nu7-timeline/57655)) Ìjíròrò ìyọkúrò Sapling nìkan bẹ̀rẹ̀ ní orí ìtàkùn náà ní oṣù kẹrin ọdún 2026.
 

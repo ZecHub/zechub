@@ -71,7 +71,7 @@ Ihe Ironwood agbanweghị: ihe e ji emefu ego na ihe akaebe taa, dee ihe e zoro 
 
 **E nwere windo ikpughe.** Site na mmalite Ironwood's ruo mgbe agbanyụrụ usoro ochie, onye na-awakpo quantum ka nwere ike izu ohi, fụnye ma ọ bụ gbochie ego n'ime ọdọ mmiri ọ bụla e chebere echebe. ZIP 2005 kpọrọ nke a "oge ikpughe dị oke mkpa" ma dọọ aka ná ntị na mwakpo n'oge ya ka nwere ike imebi ikike onye ji ya ịgbake ma emechaa. Ọ bụ ya mere o ji kwuo na Zcash ga-agbanyụ Orchard, Sapling na Sprout **tupu** mwakpo quantum amalite.
 
-**Mgbanyụọ ahụ enweghị ụbọchị, ma e wezụga Sprout.** Enweghị usoro ZIP na-agbanyụ Orchard ma ọ bụ Sapling. Sprout dị iche: [ZIP 259](https://zips.z.cash/zip-0259) depụtara ZIP 2003 n'etiti mgbanwe NU7 na-etinye, yabụ azụmahịa ụdị nke 4 na-aghọ ihe na-abaghị uru ozugbo NU7 malitere ịrụ ọrụ na ZEC ọ bụla fọdụrụ na ọdọ mmiri Sprout agaghị emefu ego. A na-ezubere ịmalite ọrụ Mainnet maka 5 Nọvemba 2026, a ga-ekpebikwa mkpebi ikpeazụ na 20 Ọktoba 2026 ([ọkwa ogbako](https://forum.zcashcommunity.com/t/nu7-timeline/57655)) Mkparịta ụka nke naanị Sapling na-ewepụ ego malitere na ogbako ahụ n'ọnwa Eprel afọ 2026.
+**Mgbanyụọ enweghị ụbọchị.** Enweghị usoro ZIP gbanyụọ Orchard ma ọ bụ Sapling. ZIP 2003, Draft na onye ga-achọ NU7, ga-egbochi mmefu Sprout site na ịjụ azụmahịa nke ụdị 4. Mkparịta ụka naanị maka iwepụ Sapling malitere na ogbako ahụ na Eprel 2026.
 
 **Emechabeghị Usoro Mgbake ahụ.** ZIP 2005 na-akọwapụta naanị ya, ma na-ekwu na nkọwa ndị ahụ "nwere ike ịgbanwe". Ọ dịghị ihe gbasara ya e tinyere.
 
@@ -97,7 +97,7 @@ Ihe Ironwood agbanweghị: ihe e ji emefu ego na ihe akaebe taa, dee ihe e zoro 
 
 ## Tebụl ọnọdụ
 
-E lere ya ikpeazụ na Septemba 13, 2026, ma e wezụga ahịrị Sprout, nke emelitere na 9 Ọktoba 2026. Ọnọdụ isi ZIP's na ọnọdụ netwọk ya dị iche iche: ZIP 2005 ka na-ekwu "Atụmatụ" na isi ya n'agbanyeghị na etinyere iwu ya na Mainnet kemgbe Julaị 2026.
+E lere ya ikpeazụ na Septemba 13, 2026. Ọnọdụ isi ZIP's na ọnọdụ netwọk ya dị iche iche: ZIP 2005 ka na-ekwu "Atụmatụ" na isi ya n'agbanyeghị na etinyere iwu ya na Mainnet kemgbe Julaị 2026.
 
 | ihe | ZIP status | Ọkwa netwọk | Ụbọchị | Isi mmalite |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ E lere ya ikpeazụ na Septemba 13, 2026, ma e wezụga ahịrị Sprout, nke em
 | Obere akpa na-ebuga ego na Ironwood | Ntuziaka na ZIP 2005, ZIP 318 na ZIP 326 (Draft) | Akwadoro, dabere na obere akpa gị | Kemgbe 28 Julaị 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Usoro Mgbake | E depụtara naanị n'ime ZIP 2005 | **Emebeghị ya** | Enweghị ụbọchị | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Gbanyụọ Orchard na Sapling | Enweghị ZIP | **A naghị ahazi oge** | Mkparịta ụka Sapling na Eprel 2026 | [Ọgbakọ](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Ịgbanyụ mmefu Sprout (ZIP 2003) | Draft, nke NU7 tinyere kwa ZIP 259 (Draft) | **Agbanyeghị ya** | E zubere Mainnet na 5 Nọvemba 2026, mkpebi ikpeazụ 20 Ọktoba 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Ịgbanyụ mmefu Sprout (ZIP 2003) | Onye ga-abụ onye edemede, onye ga-azọ ọkwa NU7 | **Agbanyeghị ya** | Enweghị ụbọchị | [ZIP 2003](https://zips.z.cash/zip-2003) |
 | Mweghachi doro anya (ZIP 2007) | Echekwabara | **Aro** | Edebere ZIP na Julaị 5, 2025, mkparịta ụka ahụ meghere na 17 Juun 2026 | [zipụ #1302](https://github.com/zcash/zips/issues/1302) |
 | Nzuzo mgbe e mesịrị maka adreesị ndị a maara | Nsogbu mepere emepe, enweghị ZIP | **Nnyocha** | #1133 meghere na 18 Ọgọst 2022, #1307 meghere na 23 Juun 2026 | [zipụ #1133](https://github.com/zcash/zips/issues/1133), [zipụ #1307](https://github.com/zcash/zips/issues/1307) |
 | Ọrụ Tachyon | Enweghị ZIP | **Atụmatụ**, a na-emepe emepe | Ebipụtara ya na mbụ na Eprel 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
