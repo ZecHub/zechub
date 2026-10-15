@@ -302,8 +302,8 @@ function wordNumbers(line) {
   const flush = () => { if (real) out.push(total + cur); total = cur = 0; seen = real = false; };
   for (const m of line.toLowerCase().matchAll(/[a-z]+/g)) {
     const w = m[0];
-    if (w in UNITS && !(w === "a" && seen)) { if (w !== "a") real = true; cur += UNITS[w]; seen = true; }
-    else if (w in MULT && seen) {
+    if (Object.hasOwn(UNITS, w) && !(w === "a" && seen)) { if (w !== "a") real = true; cur += UNITS[w]; seen = true; }
+    else if (Object.hasOwn(MULT, w) && seen) {
       real = true;
       if (MULT[w] === 100) cur = (cur || 1) * 100;
       else { total += (cur || 1) * MULT[w]; cur = 0; }
@@ -329,7 +329,7 @@ export function allowances(enLines, enRaw = "") {
       if (mi < 0 && /^[A-Z][a-z]{2}$/.test(m[0])) mi = MONTH_ABBR.indexOf(w);
       if (mi < 0 && w === "sept") mi = 8;
       if (mi >= 0) add(mi + 1);
-      if (WORDS[w] !== undefined) add(WORDS[w]);
+      if (Object.hasOwn(WORDS, w)) add(WORDS[w]);
       if (w === "hex" || w === "hexadecimal") add(16);   // Japanese 16進
     }
     for (const v of wordNumbers(l)) if (!WORDS[v]) add(canon(v));

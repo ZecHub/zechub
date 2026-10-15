@@ -351,3 +351,13 @@ test("numeric character references are not numbers", () => {
   // a real number next to one is still seen
   assert.deepEqual(values(errors("Price &#8211; low.\n", "Prix &#8211; 2024 bas.\n")), ["number-added:2024"]);
 });
+
+test("English words that are Object.prototype names are not number words", () => {
+  // site/Zcash_Tech/Shielded_Cold_Signing.md: "Constructor" crashed the
+  // checker ("x.toPrecision is not a function"): `w in UNITS` matched the
+  // inherited Object.prototype.constructor.
+  const en = "The Constructor builds 21 transactions. Call toString and valueOf on 3 keys.";
+  const tr = "Der Constructor baut 21 Transaktionen. Rufe toString und valueOf auf 3 Schlüsseln auf.";
+  assert.doesNotThrow(() => compare(en, tr));
+  assert.deepEqual(errors(en, tr), []);
+});
