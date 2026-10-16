@@ -3615,7 +3615,7 @@
       "src_commit": "2ce24eeeb7c3b06a853d494396ec3322ab75e9e6",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
