@@ -21781,6 +21781,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Tech/Shielded_Cold_Signing.md": {
+      "src": "sha256:b229f4d23dfeb869b65121363b24f5f29008271cb984aec304b8d03e17c179ce",
+      "src_commit": "c0200aab89ed72912d3a762771037994a190abf1",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "pt": {
@@ -29033,6 +29041,14 @@
     "Zcash_Tech/Indexer_Benchmark_Zaino_vs_Ztreamer.md": {
       "src": "sha256:9b6ecb8781eca577a5a5dca9fbd853a17c5610fa8b69e429cbd8ae4b299aa865",
       "src_commit": "2ce24eeeb7c3b06a853d494396ec3322ab75e9e6",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Shielded_Cold_Signing.md": {
+      "src": "sha256:b229f4d23dfeb869b65121363b24f5f29008271cb984aec304b8d03e17c179ce",
+      "src_commit": "c0200aab89ed72912d3a762771037994a190abf1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
