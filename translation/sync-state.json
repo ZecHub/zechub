@@ -13383,11 +13383,11 @@
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
-      "src": "sha256:20ff151d40a8f100090a1aa6c70c6996419dc0ba72e979aa984408820d361b5b",
-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
+      "src": "sha256:cd5585136013a213910d5ed1951e23ef46d8ce507976bd9350545fc60c797488",
+      "src_commit": "1643ca65a74fe794ea49a5ae1434376e55129294",
       "engine": "llm",
-      "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Community/Zcash_Ecosystem_Security.md": {
