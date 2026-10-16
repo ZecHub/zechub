@@ -12991,11 +12991,11 @@
       "edited": false
     },
     "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src": "sha256:aaff9c77cb073f7ac45a201492bec21af945c8bf9c16eb56ecc0b69fab4586c0",
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+linkrepair+termrepair",
       "edited": false
     },
     "Privacy_Tools/Secure_Messengers.md": {
@@ -14423,11 +14423,11 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:51fa2f5d37997d41885b5bfea7d4f6ae42a72a0a77c3f66cdc4943de683b3805",
+      "src": "sha256:a3152b01ba08dbd1a49751b55897c7ada3f8e66bc5fb4dfdc7c73897fcf6e70e",
       "src_commit": "60d233cf78d329bdee6c349a5fd20eb6fe38158d",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+linkrepair+termrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {

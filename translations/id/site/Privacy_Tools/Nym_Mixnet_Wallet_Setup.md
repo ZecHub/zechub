@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Halaman Edihttps://github.com/ZecHub/zechub/pull/2238t"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
 </a>
 
 # Mengarahkan Lalu Lintas Dompet Zcash Melalui Nym Mixnet
@@ -77,20 +77,20 @@ Sumber:
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl saat ini memiliki **Perlindungan Tor** bawaan, tidak sama dengan integrasi Nym asli yang dijelaskan di atas untuk Zingo, Zkool, dan Nozy.
+ZODL saat ini memiliki **Perlindungan Tor** bawaan, tidak sama dengan integrasi Nym asli yang dijelaskan di atas untuk Zingo, Zkool, dan Nozy.
 
-Fitur Tor milik Zodl dapat mengarahkan pengiriman transaksi, pengambilan data transaksi, permintaan kurs exchange, dan panggilan API pihak ketiga melalui Tor. Nym menyatakan pada 24 September 2026 bahwa mereka masih dalam percakapan aktif dengan tim Zodl mengenai integrasi mixnet yang lebih luas.
+Fitur Tor milik ZODL dapat mengarahkan pengiriman transaksi, pengambilan data transaksi, permintaan kurs exchange, dan panggilan API pihak ketiga melalui Tor. Nym menyatakan pada 24 September 2026 bahwa mereka masih dalam percakapan aktif dengan tim ZODL mengenai integrasi mixnet yang lebih luas.
 
-Untuk Zodl hari ini, gunakan salah satu dari:
+Untuk ZODL hari ini, gunakan salah satu dari:
 
-- Perlindungan Tor milik Zodl yang telah didokumentasikan, atau
+- Perlindungan Tor milik ZODL yang telah didokumentasikan, atau
 - NymVPN tingkat sistem jika tujuan kamu adalah mengarahkan lalu lintas perangkat umum dompet melalui Nym.
 
 Jangan menganggap Tor dan Nym dapat saling menggantikan sebagai transport di dalam dompet hanya karena keduanya adalah jaringan privasi.
 
-Pengaturan Zodl Tor:
+Pengaturan ZODL Tor:
 
 **Lainnya → Fitur Lanjutan → Beta: Perlindungan Tor → Aktifkan → Simpan perubahan**
 
@@ -212,4 +212,4 @@ Sebelum mengandalkan pengaturan ini, tanyakanlah:
 - repositori Zkool: https://github.com/hhanh00/zkool2
 - Pekerjaan transport Nym NozyWallet: https://github.com/LEONINE-DAO/Nozy-wallet
 - v2026.12 NymVPN: https://nym.com/blog/nymvpn-v2026.12
-- Perlindungan Tor Zodl: https://support.zodl.com/article/17-enabling-tor-protection
+- Perlindungan Tor ZODL: https://support.zodl.com/article/17-enabling-tor-protection
