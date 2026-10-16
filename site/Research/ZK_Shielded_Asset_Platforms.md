@@ -95,5 +95,5 @@ For example, consider an NFT listing on Solana; its public state (e.g., price) i
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO is a layer 1 public blockchain. TomoChain is a privacy protocol developed on TomoChain and designed to create safe and untraceable transactions -**Asset Swap**: Yes- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[TomoChain](https://web.archive.org/web/20231001223022/https://tomochain.com/ecosystem/)**: TOMO is a layer 1 public blockchain. TomoChain is a privacy protocol developed on TomoChain and designed to create safe and untraceable transactions -**Asset Swap**: Yes- [Whitepaper](https://web.archive.org/web/20230201084048/https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***
