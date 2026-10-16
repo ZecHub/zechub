@@ -173,11 +173,11 @@ Concluderend, Free2z is een veelzijdig platform voor makers om hun capaciteiten 
 
 [Free2z-documentatie](https://free2z.cash/docs/)
 
-[2Z-overzicht](https://free2z.cash/docs/2Zs/)
+[2Z-overzicht](https://free2z.cash/docs/getting-started/tuzis)
 
-[Een profiel aanmaken](https://free2z.cash/docs/creators/creating-a-profile)
+[Een profiel aanmaken](https://free2z.cash/docs/for-creators/creating-a-profile)
 
-[Wat is Free2z Live?](https://free2z.cash/docs/creators/free2z-live)
+[Wat is Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)
 
 [Free2z voor supporters](https://free2z.cash/docs/category/for-supporters)
 

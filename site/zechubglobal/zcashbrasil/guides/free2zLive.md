@@ -181,11 +181,11 @@ Vimos que a Free2z é uma plataforma vestátil e poderosa para criadores publica
 
 [Free2z documentation](https://free2z.cash/docs/)
 
-[2Z Overview](https://free2z.cash/docs/2Zs/)
+[2Z Overview](https://free2z.cash/docs/getting-started/tuzis)
 
-[Creating a profile](https://free2z.cash/docs/creators/creating-a-profile)
+[Creating a profile](https://free2z.cash/docs/for-creators/creating-a-profile)
 
-[What is Free2z Live?](https://free2z.cash/docs/creators/free2z-live)
+[What is Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)
 
 [Free2z for Supporters](https://free2z.cash/docs/category/for-supporters)
 
