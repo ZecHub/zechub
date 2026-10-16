@@ -30,7 +30,7 @@ Zcash Community Grantsは、Electric Coin CompanyおよびZcash Foundationとは
 
 ## 資金
 
-Electric Coin Companyは[Zcash開発基金](https://zips.z.cash/zip-1014)の8％を受け取ります。この資金は、第三者開発チームを支援し、また内部運営にも使用されます。
+Zcash Community Grantsは、[ZIP 1016](https://zips.z.cash/zip-1016)によってNU6.1で確立された資金調達モデルのもと、ブロック補助金の8%を受け取っています。この資金ストリームは、以前の[ZIP 1015](https://zips.z.cash/zip-1015)によるストリームの期限が切れた時点で開始され、現在のブロック間隔ではブロック4,406,400にあたるZcashの3回目の半減期まで続きます。ZCGはこれらの資金を、Zcashエコシステム全体の独立したチームの支援に活用しています。
 
 ## リソース
 
