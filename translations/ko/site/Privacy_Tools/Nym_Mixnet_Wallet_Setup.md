@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t 페이지"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
 # Zcash 지갑 트래픽을 Nym 믹스넷으로 라우팅하기
@@ -77,20 +77,20 @@ NozyWallet에도 Nym 인식 전송 경로가 있습니다. 현재 구현은 Nym 
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl에는 현재 Zingo, Zkool 및 Nozy에 대해 위에서 설명한 기본 Nym 통합과는 다른 내장 **Tor Protection**이 있습니다.
+ZODL에는 현재 Zingo, Zkool 및 Nozy에 대해 위에서 설명한 기본 Nym 통합과는 다른 내장 **Tor Protection**이 있습니다.
 
-Zodl의 Tor 기능은 트랜잭션 제출, 트랜잭션 데이터 조회, 환율 요청 및 타사 API 호출을 Tor를 통해 라우팅할 수 있습니다. Nym은 2026년 9월 24일, 더 폭넓은 믹스넷 통합에 관해 Zodl 팀과 여전히 적극적으로 논의 중이라고 밝혔습니다.
+ZODL의 Tor 기능은 트랜잭션 제출, 트랜잭션 데이터 조회, 환율 요청 및 타사 API 호출을 Tor를 통해 라우팅할 수 있습니다. Nym은 2026년 9월 24일, 더 폭넓은 믹스넷 통합에 관해 ZODL 팀과 여전히 적극적으로 논의 중이라고 밝혔습니다.
 
-현재 Zodl에서는 다음 중 하나를 사용하세요.
+현재 ZODL에서는 다음 중 하나를 사용하세요.
 
-- Zodl의 문서화된 Tor Protection 또는
+- ZODL의 문서화된 Tor Protection 또는
 - 지갑의 일반 기기 트래픽을 Nym을 통해 라우팅하는 것이 목표라면 시스템 수준 NymVPN.
 
 둘 다 프라이버시 네트워크라는 이유만으로 지갑 내에서 Tor와 Nym을 서로 대체 가능한 전송 방식이라고 가정하지 마세요.
 
-Zodl Tor 설정:
+ZODL Tor 설정:
 
 **More → Advanced Features → Beta: Tor Protection → Enable → Save changes**
 
@@ -212,4 +212,4 @@ Android 및 iOS에서는 운영 체제 VPN 슬롯이 일반 지갑 트래픽을 
 - Zkool 저장소: https://github.com/hhanh00/zkool2
 - NozyWallet Nym 전송 작업: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection
+- ZODL Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection

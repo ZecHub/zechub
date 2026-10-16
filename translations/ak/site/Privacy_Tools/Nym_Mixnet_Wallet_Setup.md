@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Fa Zcash Wallet Traffic no fa Nym Mixnet no so
@@ -77,20 +77,20 @@ Nneɛma a wonya fi mu:
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl mprempren wɔ **Tor Protection** a wɔasisi mu, ɛnyɛ native Nym nkabom koro no ara a yɛaka ho asɛm wɔ atifi hɔ ama Zingo, Zkool, ne Nozy.
+ZODL mprempren wɔ **Tor Protection** a wɔasisi mu, ɛnyɛ native Nym nkabom koro no ara a yɛaka ho asɛm wɔ atifi hɔ ama Zingo, Zkool, ne Nozy.
 
-Zodl Tor feature no tumi fa atɔfoɔ a wɔde bɛmena, atɔfoɔ-data a wɔgye, exchange-rate abisadeɛ, ne API frɛ a ɛtɔ so mmiɛnsa fa Tor so. Nym kaa wɔ September 24, 2026 sɛ ɛda so ara ne Zodl kuw no rebɔ nkɔmmɔ denneennen fa mixnet nkabom a ɛtrɛw ho.
+ZODL Tor feature no tumi fa atɔfoɔ a wɔde bɛmena, atɔfoɔ-data a wɔgye, exchange-rate abisadeɛ, ne API frɛ a ɛtɔ so mmiɛnsa fa Tor so. Nym kaa wɔ September 24, 2026 sɛ ɛda so ara ne ZODL kuw no rebɔ nkɔmmɔ denneennen fa mixnet nkabom a ɛtrɛw ho.
 
-Sɛ wopɛ Zodl nnɛ a, fa emu biara di dwuma:
+Sɛ wopɛ ZODL nnɛ a, fa emu biara di dwuma:
 
-- Zodl a wɔakyerɛw Tor Protection, anaasɛ
+- ZODL a wɔakyerɛw Tor Protection, anaasɛ
 - system-level NymVPN sɛ wo botaeɛ ne sɛ wobɛfa wallet no general device traffic no so afa Nym so a.
 
 Mfa no sɛ Tor ne Nym yɛ akwantuo a wɔsesa wɔ sika kotokuo no mu esiane sɛ wɔn mmienu nyinaa yɛ kokoam nkitahodiɛ nti kɛkɛ.
 
-Zodl Tor nhyehyɛe:
+ZODL Tor nhyehyɛe:
 
 **Pii → Nneɛma a ɛkɔ akyiri → Beta: Tor Ahobammɔ → Ma → Sie nsakrae**
 
@@ -212,4 +212,4 @@ Ansa na wode wo ho bɛto nhyehyɛe no so no, bisa sɛ:
 - Zkool akoraeɛ: https://github.com/hhanh00/zkool2
 - NozyWallet Nym akwantuo adwuma: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: Ɔde ne nsa kyerɛɛ ne so. https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Ahobammɔ: https://support.zodl.com/article/17-enabling-tor-protection
+- ZODL Tor Ahobammɔ: https://support.zodl.com/article/17-enabling-tor-protection

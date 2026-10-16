@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑https://github.com/ZecHub/zechub/pull/2238t页面"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
 </a>
 
 # 通过 Nym Mixnet 路由 Zcash 钱包流量
@@ -77,20 +77,20 @@ NozyWallet 也具备 Nym 感知的传输路径。其当前实现支持通过 Nym
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_SEND_EGRESS_CASE_BREAKDOWN.md
 - https://github.com/LEONINE-DAO/Nozy-wallet/blob/master/docs/reference/NYM_DVPN_SYNC_CASE_BREAKDOWN.md
 
-### Zodl
+### ZODL
 
-Zodl 目前内置的是**Tor Protection**，并非上文为 Zingo、Zkool 和 Nozy 所述的同类原生 Nym 集成。
+ZODL 目前内置的是**Tor Protection**，并非上文为 Zingo、Zkool 和 Nozy 所述的同类原生 Nym 集成。
 
-Zodl 的 Tor 功能可通过 Tor 路由交易提交、交易数据检索、汇率请求和第三方 API 调用。Nym 于 2026 年 9 月 24 日表示，仍在与 Zodl 团队积极讨论更广泛的 mixnet 集成。
+ZODL 的 Tor 功能可通过 Tor 路由交易提交、交易数据检索、汇率请求和第三方 API 调用。Nym 于 2026 年 9 月 24 日表示，仍在与 ZODL 团队积极讨论更广泛的 mixnet 集成。
 
-目前对于 Zodl，请使用以下任一方式：
+目前对于 ZODL，请使用以下任一方式：
 
-- Zodl 文档中说明的 Tor Protection，或
+- ZODL 文档中说明的 Tor Protection，或
 - 若你的目标是让钱包的一般设备流量经由 Nym，则使用系统级 NymVPN。
 
 不要仅因 Tor 和 Nym 都是隐私网络，就假设它们在钱包中是可以互换的传输方式。
 
-Zodl Tor 设置：
+ZODL Tor 设置：
 
 **更多 → 高级功能 → Beta：Tor Protection → 启用 → 保存更改**
 
@@ -212,4 +212,4 @@ Mixnet 有意以速度换取更强的元数据保护。
 - Zkool 仓库：https://github.com/hhanh00/zkool2
 - NozyWallet Nym 传输工作：https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12：https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Protection：https://support.zodl.com/article/17-enabling-tor-protection
+- ZODL Tor Protection：https://support.zodl.com/article/17-enabling-tor-protection
