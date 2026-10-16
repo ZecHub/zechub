@@ -7865,10 +7865,10 @@
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
-      "src": "sha256:88be43ce0f4d2c5916cac7df5ce3b57d4dec80c4208b48b73f2ece5b2a7d23f9",
-      "src_commit": "1f791114665142319c047d7049e77731669e5cd7",
+      "src": "sha256:140bd6c3e3eff02fdd6b132813e6a00d64184b1db6f2fdd0e7bbcec85fba4b56",
+      "src_commit": "eea0a456ccf1d30e6f16e09001936734bc432baf",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
