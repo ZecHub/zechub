@@ -108,7 +108,7 @@ If the old wallet or account held **transparent ZEC only**, restore the account 
 2. Open the account and go to the **Receive Funds** page
 3. Tap the magnifying glass in the top bar (**Find other transparent addresses**). Wallets that rotate addresses, such as Ledger and Exodus, generate many transparent addresses from one seed, and this finds the ones holding funds
 4. **Reset and sync the account afterwards.** The newly found addresses only pick up their balances on the next scan, so skipping this makes it look like the sweep found nothing
-5. Go to the **Send** page. Near the balance you will find three icon buttons. They have no text labels, so hover or long press to see their names:
+5. Go to the **Send** page. Next to the balance you will find three icon buttons. They have no text labels, so hover or long press to see their names:
    - **Shield One** (outlined shield) moves one transparent address at a time
    - **Shield All** (solid shield) moves everything from every transparent address at once
    - **Unshield All** (open padlock) goes the other way, into a transparent address
