@@ -20447,10 +20447,10 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {
-      "src": "sha256:c17eaf2c391ca17ca3d8068252cd3e2d69da15333641bf089b16109e6191cb95",
-      "src_commit": "a7088bd66279fea1abde028ad0771c7f833074e7",
+      "src": "sha256:00734017ca6b2b34dba13ed35529b0c72ee4f60615f8337af786b2dbaf8ad123",
+      "src_commit": "4d0f473896dfe56b3cfb3aeba60882b0c5157906",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -27695,10 +27695,10 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {
-      "src": "sha256:c17eaf2c391ca17ca3d8068252cd3e2d69da15333641bf089b16109e6191cb95",
-      "src_commit": "a7088bd66279fea1abde028ad0771c7f833074e7",
+      "src": "sha256:00734017ca6b2b34dba13ed35529b0c72ee4f60615f8337af786b2dbaf8ad123",
+      "src_commit": "4d0f473896dfe56b3cfb3aeba60882b0c5157906",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
