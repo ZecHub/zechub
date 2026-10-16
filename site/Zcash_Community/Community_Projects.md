@@ -148,7 +148,7 @@ Privacy-first Zcash blockchain explorer (formerly CipherScan). Built with Next.j
 
 ### Exblo
 Block explorer designed for testing transactions on the Zcash Testnet.  
-[Visit](https://testnet.exblo.app/)
+[Visit](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Public transparency dashboard for the Zcash Dev Fund, including ZCG and FPF grant accounting, the Lockbox, governance, and disbursements.  
