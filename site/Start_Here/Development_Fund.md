@@ -9,3 +9,4 @@ Zcash is a unique blockchain protocol because it is self-funded. This means that
 ## Zcash Governance
 
 https://zechub.wiki/zcash-community/zcash-governance
+<!-- ruleset test, closing without merging -->
