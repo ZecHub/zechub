@@ -1,0 +1,92 @@
+{
+  "title": "Tested ZEC Cross-Chain Route Map",
+  "status": "Simulation draft; completion subject to approval from the bounty list",
+  "updated": "2026-10-07",
+  "simulation_note": "NEAR, TON, and native-Zcash-to-Solana route figures, dates, trust ratings, and privacy labels are illustrative examples, not completed transfers or verified live service offers. Only the Solana-to-Zcash records are drawn from the existing ZecHub guide.",
+  "routes": [
+    {
+      "route": "Solana ZEC → native Zcash",
+      "amount": {
+        "sent": "0.00266336 ZEC",
+        "received": "0.00241336 ZEC"
+      },
+      "fee": "0.00025 ZEC on the ZEC side; 0.00156844 SOL spent for the deposit, including 0.00008 SOL network fee",
+      "time": "9 seconds for deposit; about 8 minutes from withdrawal signing to Zcash receipt",
+      "transaction_evidence": [
+        {
+          "network": "Solana",
+          "id": "5ijsgRrhViNTtFMmnsfJDSo3HhRmt3Ri7WB513oBoQLxfGNswDxvHnakwW1yyqXznTTCSxnUkooAHDKowz9AjLkx",
+          "url": "https://solscan.io/tx/5ijsgRrhViNTtFMmnsfJDSo3HhRmt3Ri7WB513oBoQLxfGNswDxvHnakwW1yyqXznTTCSxnUkooAHDKowz9AjLkx"
+        },
+        {
+          "network": "NEAR Intents",
+          "id": "79c23cfd43928de5522c182e26f8f052dc9c43d53430ca497b40e016a6a405a9",
+          "url": "https://explorer.near-intents.org/transactions/79c23cfd43928de5522c182e26f8f052dc9c43d53430ca497b40e016a6a405a9"
+        },
+        {
+          "network": "Zcash",
+          "id": "28d6da27d74dc91e45175a7aff6023bc85578603dd77f1b49782a28f8f481034",
+          "url": "https://mainnet.zcashexplorer.app/transactions/28d6da27d74dc91e45175a7aff6023bc85578603dd77f1b49782a28f8f481034"
+        }
+      ],
+      "trust_risk_rating": "Moderate",
+      "privacy_label": "Shielded",
+      "last_tested": "2026-09-27",
+      "status": "Documented in the existing ZecHub guide",
+      "measurement_type": "Documented transfer",
+      "source": "/using-zcash/solana-zec-to-shielded"
+    },
+    {
+      "route": "NEAR → native Zcash",
+      "amount": {
+        "sent": "0.01 ZEC equivalent",
+        "received": "0.00972 ZEC"
+      },
+      "fee": "0.00028 ZEC",
+      "time": "About 3 minutes",
+      "transaction_evidence": [],
+      "trust_risk_rating": "Moderate",
+      "privacy_label": "Transparent",
+      "last_tested": null,
+      "scenario_date": "2026-10-07",
+      "status": "Illustrative scenario",
+      "measurement_type": "Simulation",
+      "source": "https://docs.near-intents.org/resources/chain-support"
+    },
+    {
+      "route": "TON → native Zcash",
+      "amount": {
+        "sent": "0.01 ZEC equivalent",
+        "received": "0.00965 ZEC"
+      },
+      "fee": "0.00035 ZEC",
+      "time": "About 6 minutes",
+      "transaction_evidence": [],
+      "trust_risk_rating": "Moderate",
+      "privacy_label": "Transparent",
+      "last_tested": null,
+      "scenario_date": "2026-10-07",
+      "status": "Illustrative scenario",
+      "measurement_type": "Simulation",
+      "source": "https://docs.ton.org/"
+    },
+    {
+      "route": "Native Zcash → Solana ZEC",
+      "amount": {
+        "sent": "0.01 ZEC",
+        "received": "0.00961 ZEC"
+      },
+      "fee": "0.00039 ZEC equivalent",
+      "time": "About 8 minutes",
+      "transaction_evidence": [],
+      "trust_risk_rating": "Moderate",
+      "privacy_label": "Transparent",
+      "last_tested": null,
+      "scenario_date": "2026-10-07",
+      "status": "Illustrative scenario",
+      "measurement_type": "Simulation",
+      "source": null
+    }
+  ],
+  "completion": "Subject to approval from the bounty list; real route testing and evidence collection remain to be completed."
+}
