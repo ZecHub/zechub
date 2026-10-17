@@ -40,6 +40,8 @@ The concept has been studied in cryptography for decades. It was first introduce
 
 ## How PIR works, at a first level
 
+![Five-step private information retrieval flow: a wallet chooses item three, sends an encrypted query, the server computes over every entry, returns one encrypted answer, and only the wallet decrypts it.](./assets/pir-flow.svg)
+
 There are two broad ways to build PIR, and the difference matters.
 
 The first uses multiple servers. The client sends each of several servers a piece of the query, and combines their answers locally. No single server sees enough to learn what was requested. This is efficient, but it depends on the servers not colluding with each other, which is hard to guarantee in the real world.
@@ -95,3 +97,4 @@ It is important to be honest about the stage. This is active research and engine
 - [Lightwallet Nodes](https://zechub.wiki/zcash-tech/lightwallet-nodes) - the light client model PIR would improve
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - the other major cryptographic tool behind Zcash privacy
 - [Post-Quantum Security](https://zechub.wiki/zcash-tech/post-quantum-security) - why lattice-based methods matter for the future
+

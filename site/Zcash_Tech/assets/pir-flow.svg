@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="930" viewBox="0 0 600 930" role="img" aria-labelledby="title desc">
+<title id="title">Private information retrieval: five steps</title>
+<desc id="desc">A wallet selects item three, sends an encrypted query to a server, the server computes over every entry, sends one encrypted answer back, and only the wallet decrypts it. The server cannot tell which item was requested.</desc>
+<defs>
+  <style>
+    :root { color-scheme: light dark; }
+    .bg{fill:#f6f9fc}.card{fill:#fff;stroke:#cbd5e1;stroke-width:2}.heading{fill:#0f172a}.body{fill:#334155}.muted{fill:#475569}.line{stroke:#475569;stroke-width:3;stroke-linecap:round}.pill{fill:#e0f2fe;stroke:#0e7490;stroke-width:1.6}.pill-text{fill:#075985}.wallet-icon{fill:#0f766e}.server-icon{fill:#1d4ed8}.card-tag{fill:#0f766e}.chip{fill:#ecfdf5;stroke:#99f6e4}.chiptext{fill:#065f46}
+    text{font-family:Arial,Helvetica,sans-serif}
+    @media(prefers-color-scheme:dark){.bg{fill:#0b1220}.card{fill:#172235;stroke:#475569}.heading{fill:#f8fafc}.body{fill:#e2e8f0}.muted{fill:#cbd5e1}.line{stroke:#cbd5e1}.pill{fill:#12384a;stroke:#67e8f9}.pill-text{fill:#cffafe}.wallet-icon{fill:#5eead4}.server-icon{fill:#93c5fd}.card-tag{fill:#5eead4}.chip{fill:#123a35;stroke:#2dd4bf}.chiptext{fill:#ccfbf1}}
+  </style>
+  <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="strokeWidth"><path d="M1 1 L8 4.5 L1 8" fill="none" stroke="#64748b" stroke-width="1.6" stroke-linejoin="round"/></marker>
+</defs>
+<rect class="bg" width="600" height="930" rx="24"/>
+<text class="heading" x="300" y="54" font-size="28" font-weight="700" text-anchor="middle">Private information retrieval</text>
+<text class="muted" x="300" y="86" font-size="19" text-anchor="middle">One item retrieved. The choice stays private.</text>
+
+<!-- Beat 1: client wants an item -->
+<rect class="card" x="28" y="116" width="544" height="150" rx="20"/>
+<rect x="50" y="138" width="58" height="58" rx="14" fill="#ccfbf1"/>
+<path class="wallet-icon" d="M64 154h27a5 5 0 0 1 5 5v24H64a6 6 0 0 1-6-6v-17a6 6 0 0 1 6-6zm19 12h16v14H83a7 7 0 0 1 0-14z"/>
+<circle cx="88" cy="173" r="2.5" fill="#fff"/>
+<text class="card-tag" x="124" y="154" font-size="18" font-weight="700">01  WALLET</text>
+<text class="heading" x="124" y="192" font-size="23" font-weight="700">The client wants item three</text>
+<text class="body" x="50" y="236" font-size="19">Only the wallet knows which item it wants.</text>
+
+<!-- Beat 2: encrypted query to server -->
+<path class="line" d="M300 268V361" marker-end="url(#arrow)" fill="none"/>
+<rect class="pill" x="158" y="289" width="284" height="49" rx="24"/>
+<text class="pill-text" x="300" y="321" font-size="22" font-weight="700" text-anchor="middle">02  Encrypted query</text>
+
+<!-- Beat 3: server computes over database -->
+<rect class="card" x="28" y="380" width="544" height="204" rx="20"/>
+<text class="card-tag" x="52" y="417" font-size="18" font-weight="700">03  SERVER</text>
+<text class="heading" x="52" y="454" font-size="23" font-weight="700">Server touches every entry</text>
+<text class="body" x="52" y="484" font-size="18">It computes without learning the choice.</text>
+<g transform="translate(62,510)">
+  <rect class="chip" x="0" y="0" width="104" height="48" rx="11"/><text class="chiptext" x="52" y="31" font-size="22" font-weight="700" text-anchor="middle">Item 1</text>
+  <rect class="chip" x="124" y="0" width="104" height="48" rx="11"/><text class="chiptext" x="176" y="31" font-size="22" font-weight="700" text-anchor="middle">Item 2</text>
+  <rect class="chip" x="248" y="0" width="104" height="48" rx="11"/><text class="chiptext" x="300" y="31" font-size="22" font-weight="700" text-anchor="middle">Item 3</text>
+  <rect class="chip" x="372" y="0" width="104" height="48" rx="11"/><text class="chiptext" x="424" y="31" font-size="22" font-weight="700" text-anchor="middle">Item 4</text>
+</g>
+
+<!-- Beat 4: encrypted answer to client -->
+<path class="line" d="M300 586V685" marker-end="url(#arrow)" fill="none"/>
+<rect class="pill" x="133" y="612" width="334" height="49" rx="24"/>
+<text class="pill-text" x="300" y="644" font-size="21" font-weight="700" text-anchor="middle">04  One encrypted answer</text>
+
+<!-- Beat 5: client decrypts -->
+<rect class="card" x="28" y="703" width="544" height="153" rx="20"/>
+<rect x="50" y="728" width="58" height="58" rx="14" fill="#ccfbf1"/>
+<path class="wallet-icon" d="M64 745h27a5 5 0 0 1 5 5v24H64a6 6 0 0 1-6-6v-17a6 6 0 0 1 6-6zm19 12h16v14H83a7 7 0 0 1 0-14z"/>
+<circle cx="88" cy="764" r="2.5" fill="#fff"/>
+<text class="card-tag" x="124" y="743" font-size="18" font-weight="700">05  WALLET</text>
+<text class="heading" x="124" y="781" font-size="23" font-weight="700">Client decrypts the answer</text>
+<text class="body" x="50" y="824" font-size="19">Only the wallet can read its item.</text>
+<text class="muted" x="300" y="895" font-size="17" text-anchor="middle">Conceptual single-server PIR flow • not a deployed Zcash feature</text>
+</svg>
