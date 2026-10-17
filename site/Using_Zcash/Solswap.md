@@ -1,6 +1,6 @@
 # **How to Swap for ZEC in Phantom Wallet**
 
-![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
+![Screenshot of the solswap.org swap interface](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
 Already holding ZEC on Solana (for example from a token that pays holders in ZEC)? Do not swap it. Move that token to a shielded Zcash wallet with [Got ZEC on Solana? Move it to shielded Zcash](/using-zcash/solana-zec-to-shielded).
 
@@ -26,20 +26,20 @@ Launch the **Phantom app** and visit **[solswap.org](https://solswap.org/)** fro
 
 Phantom's own **Swap** button also lists ZEC, but that gets you the token described above, not native ZEC.
 
-![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
+![Screenshot of opening solswap.org in the Phantom in-app browser](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
 
 ---
 
 ##  **Step 2: Select Networks and Tokens for Depositing**
 - Choose your **source network** (e.g., *Ethereum* or *Solana*) then deposit for swapping.
 
-![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
+![Screenshot of choosing the source network for the deposit on solswap.org](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
 
 - Select a base token like **SOL, USDT, or USDC**.
 - Choose **ZEC** as your **destination token**.
 - Ensure that Zcash is available through the swap interface.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![Screenshot of selecting ZEC as the destination token on solswap.org](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
 
 ---
 
@@ -47,7 +47,7 @@ Phantom's own **Swap** button also lists ZEC, but that gets you the token descri
 - Enter the amount you’d like to swap.
 - Use the receive amount shown on **solswap.org**. That quote is the one that applies on this route.
 
-![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
+![Screenshot of entering the swap amount and the quoted receive amount on solswap.org](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
@@ -68,7 +68,7 @@ If you are looking at Phantom's own **Swap** sheet instead, you are on the token
 - Review all swap details on solswap.org.
 - Confirm the deposit in Phantom.
 
-![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
+![Screenshot of confirming the deposit in Phantom](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 
@@ -76,7 +76,7 @@ If you are looking at Phantom's own **Swap** sheet instead, you are on the token
 - Track the deposit in solswap.org activity until it shows **Completed**.
 - The Solana or source-chain transaction ID is on that activity row and on the chain explorer for that network.
 
-![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
+![Screenshot of the solswap.org activity row showing the swap completed](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
 ---
 
