@@ -395,3 +395,15 @@
 - Pools: Transparent
 - Features: Multi Coin | Swaps
 - Ironwood: Transparent only
+
+---
+
+## [Zafu Wallet](https://zafu.pro/)
+![logo](https://github.com/ZecHub/zechub-wiki/blob/main/public/content-images/zafu.webp)
+- Devices: Desktop Browser (Browser Extension)
+- Operating System: Windows | macOS | Linux (via compatible Chromium-based browsers)
+- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
+- Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
+- Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
+- Ironwood: Shielded and Transparent
+- Status: Beta (Continuous Development)
