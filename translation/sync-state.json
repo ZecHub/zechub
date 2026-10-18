@@ -1793,10 +1793,10 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     }
@@ -3611,11 +3611,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -5429,11 +5429,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -7239,10 +7239,10 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     }
@@ -9057,11 +9057,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -10875,11 +10875,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -12693,11 +12693,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -14495,11 +14495,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -16329,11 +16329,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     }
   },
@@ -18147,11 +18147,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+itreview",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -19965,11 +19965,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -21783,11 +21783,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -23601,11 +23601,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -25419,11 +25419,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -27229,11 +27229,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     }
   },
@@ -29047,11 +29047,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -30865,11 +30865,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -32643,11 +32643,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     }
   },
@@ -34461,11 +34461,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   }
