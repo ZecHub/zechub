@@ -79,6 +79,8 @@
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### دليل مرئي
 
 إليك أربعة أمثلة جيدة لمستكشفات بلوكشين مختلفة:

@@ -79,6 +79,8 @@ L'explorateur peut également voir lorsque des fonds passent entre les côtés t
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### Guide visuel
 
 Voici quatre bons exemples de différents explorateurs de blockchain :

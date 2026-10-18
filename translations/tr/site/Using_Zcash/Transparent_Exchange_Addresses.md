@@ -1,29 +1,80 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Transparent_Exchange_Addresses.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+</a>
+
 # Zcash TEX Adresleri Nedir?
 
-Zcash TEX adresleri, benzersiz bir alıcı adres türünü temsil eder. "Transparent Exchange" adresinin kısaltması olan bu adres, tek bir p2pkh Transparent adresinin **benzersiz**, Unified türünde (bech32m) bir kodlamasıdır. 
+## Özet
 
-Tek amacı, uyumlu bir cüzdana Transparent-Only (T -> T) işlemi yapmasını bildirmektir. 
+* TEX adresi, farklı bir biçimde yazılmış şeffaf bir Zcash adresidir. `tex1` ile başlar ve [ZIP 320](https://zips.z.cash/zip-0320) içinde tanımlanmıştır.
+* Cüzdanınıza tek bir şey söyler: bu adrese yalnızca şeffaf fonlarla ödeme yapın.
+* Bakiyeniz korumalıysa uyumlu bir cüzdan sizin için iki adım uygular. Tutarı geçici bir şeffaf adrese taşır, ardından TEX adresine gönderir.
+* 2023'te Binance, Zcash topluluğundan korumalı yatırmaları reddetmenin ve geri göndermenin bir yolunu istedi. TEX adresleri bunun yanıtıdır ve Binance, ZecHub [Saklama Hizmeti Sunan Borsalar](/using-zcash/custodial-exchanges) listesindeki TEX yatırmalarını kabul eden borsadır.
+* Bir TEX adresine yapılan ödeme, tüm şeffaf ödemeler gibi blokzincir üzerinde herkese açıktır. Korumalı bakiyenizin geri kalanı gizli kalır.
 
-Mantık şu şekildedir: Uyumlu bir cüzdan bir TEX Adresi tespit ettiğinde, içerdiği Transparent alıcıyı elde etmek için onu çözümler. Cüzdan daha sonra işlem için gereken fonları Shielded havuzundan ayrı, kullanıcı tarafından kontrol edilen, geçici bir Transparent adrese gönderir (Z -> T). Ardından bu fonları TEX adresinden çözümlenen Transparent alıcıya gönderir (T -> T).  
+## Temel Açıklama
 
-TEX adreslerine yönelik teknik öneri, yalnızca Transparent Adreslerden fon almak için özel bir adres türü tanımlayan Zcash [ZIP 320](https://zips.z.cash/zip-0320) içinde açıklanmıştır.
+Bir Zcash TEX adresi, özel bir alıcı adresi türüdür. TEX, "Transparent Exchange" anlamına gelir. Tek bir p2pkh Şeffaf adresinin Bech32m ile yeniden kodlanmış hâlidir. TEX adresleri `tex1` ile başlar ve Unified Addresslerden ayrı bir türdür.
+
+Bir TEX adresi, uyumlu bir cüzdana yalnızca Şeffaf (T -> T) işlem yapmasını söyler. 
+
+Mantık şöyledir: Uyumlu bir cüzdan TEX Adresi algıladığında, içerdiği Şeffaf alıcıyı elde etmek için onu çözer. Cüzdan daha sonra işlem için gerekli fonları Korumalı havuzdan, kullanıcının kontrolündeki ayrı ve geçici bir Şeffaf adrese gönderir (Z -> T). Ardından bu fonları TEX adresinin çözülmüş Şeffaf alıcısına gönderir (T -> T).  
+
+TEX adreslerine yönelik teknik öneri, yalnızca Şeffaf Adreslerden fon almak için bir adres türü tanımlayan Zcash [ZIP 320](https://zips.z.cash/zip-0320) içinde açıklanmıştır.
 
 ![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
+TEX adresleri henüz yaygın olarak benimsenmemiştir. Zcash kullanıcılarının sonunda bunları kullanması gerekebilir.
 
-TEX adresleri henüz yaygın olarak benimsenmemiş olsa da, Zcash kullanıcılarının eninde sonunda bunları kullanması gerekebilir.
+### TEX Adresine Ne Zaman İhtiyacım Olur?
 
-## Ne Zaman Bir TEX Adresine İhtiyacım Var
+#### Şeffaf bir adrese doğrudan göndermeyi desteklemeyen bir cüzdan kullanarak Şeffaf bir adrese fon gönderirken TEX adresine ihtiyacınız vardır.
 
-### Doğrudan bir Transparent adrese göndermeyi desteklemeyen bir cüzdan kullanarak bir Transparent adrese fon gönderirken bir TEX adresine **ihtiyacınız vardır**. 
-Bazı cüzdanlar doğrudan bir Transparent adrese gönderime izin vermez ve **alıcı TEX eşdeğerini sağlamıyor olabilir**. Bu nedenle, zaman zaman bir Transparent adresten TEX adresine **dönüştürme** gerekebilir. Bu, [zip-320](https://zips.z.cash/zip-0320#reference-implementation)'de açıklanan referans uygulama çalıştırılarak manuel olarak yapılabilir.
+Bazı cüzdanlar doğrudan Şeffaf bir adrese göndermeye izin vermez ve alıcı TEX karşılığını sunmayabilir. Bu nedenle, bazen Şeffaf bir adresten TEX adresine dönüştürme gerekebilir. Bu, [zip-320](https://zips.z.cash/zip-0320#reference-implementation) içinde açıklanan referans uygulama çalıştırılarak manuel olarak gerçekleştirilebilir.
 
-### Fonları, bu fonların **Transparent bir kaynaktan gelmesini GEREKTİREN** merkezi bir borsaya gönderirken bir TEX adresine ihtiyacınız vardır. 
-Şu anda TEX adreslerini kullanan tek merkezi borsa [Binance](https://www.binance.com/)'tir (ve TEX'in oluşturulmasının temel nedeni de budur). 
-TEX adresleri, uyumlu bir cüzdana o adrese gönderilen tüm fonların transparent olması gerektiğini ve söz konusu adrese herhangi bir shielded değerin gönderilmemesi gerektiğini bildirir.
-Binance gibi bir borsa gönderilen değeri reddederse, bu değeri geldiği adrese geri göndermek için gerekli araçlara sahiptir. Ayrıca Binance gibi kuruluşların hükümetler veya diğer otoriteler tarafından dayatılan yasa ve düzenlemelere uymasına da yardımcı olur.
+#### Bu fonların Şeffaf bir kaynaktan gelmesini gerektiren merkezi bir borsaya fon gönderirken TEX adresine ihtiyacınız vardır.
 
+[Binance](https://www.binance.com/), TEX adreslerinin var olma nedenidir. Kasım 2023'te, Zcash topluluğuna, korumalı adreslerden gelen yatırmaları reddetmenin ve bunları yatırımı yapana geri göndermenin bir yolu olmadığı sürece ZEC'in listeden çıkarılabileceğini bildirdi ([ZIP 320, Arka Plan](https://zips.z.cash/zip-0320#background)). ZIP 320, diğer borsaların bir ödemenin hangi adresten geldiğini bilmeleri gerekmedikçe TEX adresleri vermesini beklemez. Binance, [Saklama Hizmeti Sunan Borsalar](/using-zcash/custodial-exchanges) listemizde TEX adresine yapılan yatırmaları kabul eden borsadır.
+TEX adresleri, uyumlu bir cüzdana bu adrese gönderilen tüm fonların şeffaf olması gerektiğini ve korumalı tüm değerlerin söz konusu adrese gönderilmesini engellediğini bildirir.
+Binance gibi bir borsa gönderilen değeri reddederse, bu değeri geldiği adrese geri göndermek için gerekli araçlara sahiptir. Ayrıca Binance gibi kuruluşların hükûmetler veya diğer makamlar tarafından getirilen yasa ve düzenlemelere uymasına yardımcı olur.
 
-## Hangi cüzdanlar TEX Adreslerini destekliyor?
+### Hangi cüzdanlar TEX Adreslerini destekler?
 
-En güncel listeyi [cüzdanlar](https://zechub.wiki/wallets) sayfamızda görebilirsiniz. **TEX Adresi Filtresini** kullanın.
+En güncel listeyi [cüzdanlar](/using-zcash/wallets) sayfamızda görebilirsiniz. TEX Address filtresini kullanın.
+
+## Görsel / Benzetme
+
+Korumalı bakiyenizi evinizdeki kilitli bir kasadaki para gibi düşünün. Dışarıdaki hiç kimse içinde ne kadar olduğunu göremez.
+
+Binance gibi bir borsanın gişesinde şu yazan bir tabela vardır: yalnızca şeffaf bir zarftaki ödemeler kabul edilir; böylece gişe görevlisi paranın nereden geldiğini görebilir ve gerekirse geri verebilir. TEX adresi bu tabeladır.
+
+Cüzdanınız tabelayı gördüğünde, tutarı kasadan çıkarır, üzerinde iade adresinizin yazdığı şeffaf bir zarfa koyar (geçici şeffaf adres) ve zarfı gişeye götürür. Kasa kilitli kalır ve hiç kimse içinde başka ne olduğunu öğrenmez.
+
+## Ayrıntılı İnceleme
+
+### TEX adresi nasıl oluşturulur?
+
+`t1` ile başlayan normal bir şeffaf adres, Base58Check ile yazılmış 20 baytlık bir anahtar özeti içerir. TEX adresi, aynı 20 baytı `tex` ön ekiyle Bech32m'de yeniden kodlanmış olarak içerir (testnet'te `textest`). Birini diğerine dönüştürmek, ZIP 320'nin referans uygulamasında gösterdiği birkaç satır kod gerektirir.
+
+Basit tasarım, Binance tarafından getirilen bir gereksinimdi: dönüştürme, borsanın ön yüz kodunda yalnızca Base58Check ve Bech32m kütüphaneleriyle çalışmak zorundaydı. ZIP 320'nin önceki taslağı fikri Unified Addresses içine yerleştiriyordu ve bu sürüm bu nedenle bırakıldı.
+
+### Korumalı bakiyeden TEX adresine ödeme yapmak
+
+ZIP 320, uyumlu bir cüzdanın burada iki işlem oluşturmasını gerektirir. İlki, fonları korumalı bakiyenizden yeni, geçici bir şeffaf adrese taşır. İkincisi, bunları o adresten TEX adresine gönderir.
+
+Borsa yatırmayı reddederse fonları geçici adrese geri gönderir. Cüzdanınızın bunları bulup harcayabilmesi gerekir; bu nedenle ZIP 320, cüzdanlardan geçici adresleri seed ifadenizden türetmelerini ister. Ayrıca ayrı ödemelerin birbiriyle ilişkilendirilememesi için cüzdanlardan her seferinde yeni bir geçici adres kullanmalarını ister.
+
+### Blokzincirin gösterdiği şey
+
+TEX kuralı cüzdanlarda bulunur. Düğümler bunu denetlemez, bu nedenle fikir birliği kuralları aynı kalır. Zincir üzerinde, bir TEX adresine yapılan ödeme eşleşen `t1` adresine yapılan ödemeyle aynı görünür. Tüm şeffaf işlemlerde olduğu gibi tutar, geçici adres ve borsanın adresi herkese açıktır.
+
+## İlgili Sayfalar
+
+- [Saklama Hizmeti Sunan Borsalar](/using-zcash/custodial-exchanges): Binance'in TEX yatırmaları dâhil olmak üzere hangi borsaların hangi adres türlerini kabul ettiği.
+- [Cüzdanlar](/using-zcash/wallets): bir TEX adresine ödeme yapabilen cüzdanları bulmak için TEX Address filtresini kullanın.
+- [Korumalı Havuzlar](/using-zcash/shielded-pools): bir TEX ödemesi bakiyenizin bir kısmını dışarı taşımadan önce özel bakiyenizin bulunduğu yer.
+- [Zcash Ödemenizi Kimler Görebilir](/start-here/who-can-see-your-zcash-payment): fonlar korumalı havuzdan çıktıktan sonra nelerin görünür hâle geldiği.
+- [Bir Blok Gezgini Ne Görebilir](/zcash-tech/what-a-block-explorer-can-see): şeffaf bir ödemenin zincir üzerinde nasıl göründüğü.
+- [Zcash Ödeme Talebi URI'leri](/using-zcash/payment-request-uris): önceden doldurulmuş ödemeler için başka bir cüzdan standardı.
+
+**Son güncelleme:** Ekim 2026

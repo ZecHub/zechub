@@ -78,6 +78,8 @@ Explorer यह भी देख सकता है कि funds पारद�
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### दृश्य मार्गदर्शिका
 
 यहाँ अलग-अलग blockchain explorer के चार अच्छे उदाहरण हैं:

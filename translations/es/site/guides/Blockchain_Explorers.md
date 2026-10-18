@@ -79,6 +79,8 @@ La conclusión: la privacidad depende de permanecer dentro de los pools blindado
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### Guía visual
 
 Aquí hay cuatro buenos ejemplos de distintos exploradores de blockchain:

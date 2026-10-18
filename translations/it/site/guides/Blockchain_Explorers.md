@@ -79,6 +79,8 @@ Il punto principale: la privacy dipende dal rimanere nelle pool schermate. Una v
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### Guida visiva
 
 Ecco quattro buoni esempi di diversi esploratori blockchain:

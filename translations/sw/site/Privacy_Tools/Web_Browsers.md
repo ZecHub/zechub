@@ -3,30 +3,30 @@
 </a>
 
 
-# Vivinjari vya Mtandao
+# Vivinjari vya Wavuti
 
-1. **Brave:** Moja ya browsers maarufu na salama zaidi kwenye soko leo. Inazuia matangazo ya faragha-invasive & trackers. Inafunga kuhifadhi data ya tatu. 
+1. **Brave:** Mojawapo ya vivinjari maarufu na salama zaidi sokoni leo. Inazuia matangazo na vifuatiliaji vinavyoingilia faragha. Inazuia uhifadhi wa data wa watu wengine. 
 
-2. ** Mulvad: ** kivinjari cha wavuti kinachozingatia faragha iliyoundwa kwa kushirikiana kati ya Mullvad VPN na Mradi wa Tor. Imetengenezwa ili kupunguza ufuatiliaji na alama za vidole
+2. **Mulvad:** Kivinjari cha wavuti kinachozingatia faragha kilitengenezwa kwa ushirikiano kati ya Mullvad VPN na Mradi wa Tor. Kimetengenezwa ili kupunguza ufuatiliaji na upigaji alama za vidole
 
-3. ** Tor: ** kivinjari hiki vitalu Plugins kama vile Flash, RealPlayer, QuickTime, na wengine: wanaweza kuwa manipulated katika kufunua anwani yako ya IP. Hatuna kupendekeza kufunga nyongeza ya nyongeza au Plug-ins katika Tor Browser
+3. **Tor:** Kivinjari hiki huzuia programu-jalizi kama vile Flash, RealPlayer, QuickTime, na zingine: zinaweza kubadilishwa ili kufichua anwani yako ya IP. Hatupendekezi kusakinisha programu-jalizi au programu-jalizi za ziada kwenye Kivinjari Tor
 
 
-## Ni Mambo Gani ya Kuzingatia Unapochagua Kivinjari cha Intaneti?
+## Je, ni Mambo Gani ya Kuzingatia Usalama Unapochagua Kivinjari cha Wavuti?
 
-Wakati wa kuchagua kivinjari cha wavuti kuna mambo machache ya kuzingatia: Udhaifu wa usalama na utumiaji kawaida hugunduliwa mara kwa mara. Vivinjari vingine vinaweza kufuatiliwa kwa njia fulani, lakini, kuna vivinjari ambavyo huruhusu watumiaji kuvinjari bila kujulikana - [Tor browser](https://www.torproject.org/download/) kwa mfano. 
+Wakati wa kuchagua kivinjari cha wavuti kuna mambo machache ya kuzingatia: Udhaifu wa usalama na matumizi mabaya kwa kawaida hugunduliwa mara kwa mara. Baadhi ya vivinjari vinaweza kufuatiliwa kwa namna fulani, lakini, kuna vivinjari vinavyoruhusu watumiaji kuvinjari bila kujulikana - [Kivinjari cha Tor](https://download.torproject.org/) kwa mfano. 
 
-Fingerprinting: Kama unataka kuweka mambo binafsi kama, programu imewekwa kwenye mashine yako, vifaa vya usanidi, na zaidi, kufikiria kuangalia nje kwa ajili ya kivinjari mtandao kwamba inasaidia alama ya kidole upinzani kipengele. 
+**Alama za Vidole**: Ikiwa unataka kuweka vitu vya faragha kama vile programu zilizosakinishwa kwenye mashine yako, usanidi wa vifaa, na zaidi, fikiria kutafuta kivinjari cha wavuti kinachounga mkono kipengele cha upinzani wa alama za vidole. 
 
-**HTTPS Test**: Another security consideration to look out for when selecting a web browser is the HTTPS Test protocol that helps to encrypt website connection and hides cookies, URLs and other types of sensitive metadata. With HTTPS, connection is encrypted and no third parties on the network can read content being transferred between the server and your browser. 
+**Jaribio la HTTPS**: Jambo lingine la kuzingatia kuhusu usalama wakati wa kuchagua kivinjari cha wavuti ni itifaki ya Jaribio la HTTPS ambayo husaidia kusimba muunganisho wa tovuti kwa njia fiche na kuficha vidakuzi, URL na aina nyingine za metadata nyeti. Kwa HTTPS, muunganisho husimbwa kwa njia fiche na hakuna wahusika wengine kwenye mtandao wanaoweza kusoma maudhui yanayohamishwa kati ya seva na kivinjari chako. 
 
-**Kufuatilia Cookie Ulinzi**: Zaidi ya hayo, sehemu kubwa ya kurasa za mtandao katika mtandao wa dunia nzima zimefichwa trackers tatu; trackers hizi kusoma na kuandika cookies katika kivinjari chako. cookies hizi zinaweza kuanzisha treats mbaya kwa sababu wanaweza kutumika kufuatilia browsing yako katika tovuti; ili kuzuia kufuatilia hii, kuchagua kivinjani mtandao kwamba vitalu cookies haijulikani kuvinjari.
+**Kufuatilia Ulinzi wa Vidakuzi**: Zaidi ya hayo, sehemu kubwa ya kurasa za wavuti kwenye mtandao mzima wa dunia nzima ina vifuatiliaji vilivyofichwa vya watu wengine; vifuatiliaji hivi husoma na kuandika vidakuzi kwenye kivinjari chako. Vidakuzi hivi vinaweza kutoa vitu vibaya kwa sababu vinaweza kutumika kufuatilia kuvinjari kwako kwenye tovuti; ili kuzuia ufuatiliaji huu, chagua kivinjari cha wavuti kinachozuia vidakuzi visivyojulikana vya kuvinjari.
 
-**Navigation Test**: As you navigate from one web page to another, you will come across many links (some are internal links while others are linking to another website). As you click these links, certain browser APIs allow the first site to communicate with the second site. To resolve this, select a web browser that prevents websites from sharing tracking data when you click on a link. When selecting that browser that you feel might suit your need, make sure it provides robust privacy features and essential features such as built-in ad blockers and what not. Additionally, many of these web browsers support extensions plus add-ons and sometimes these extensions may pose security risks, be sure to always install these extensions from a secured ecosystem or trusted sources.
+**Jaribio la Usogezaji**: Unaposogeza kutoka ukurasa mmoja wa wavuti hadi mwingine, utakutana na viungo vingi (vingine ni viungo vya ndani huku vingine vikiunganisha kwenye tovuti nyingine). Unapobofya viungo hivi, API fulani za kivinjari huruhusu tovuti ya kwanza kuwasiliana na tovuti ya pili. Ili kutatua hili, chagua kivinjari cha wavuti kinachozuia tovuti kushiriki data ya ufuatiliaji unapobofya kiungo. Unapochagua kivinjari hicho unachohisi kinaweza kukidhi hitaji lako, hakikisha kinatoa vipengele imara vya faragha na vipengele muhimu kama vile vizuizi vya matangazo vilivyojengewa ndani na vinginevyo. Zaidi ya hayo, vivinjari hivi vingi vya wavuti huunga mkono viendelezi pamoja na nyongeza na wakati mwingine viendelezi hivi vinaweza kusababisha hatari za usalama, hakikisha unasakinisha viendelezi hivi kila wakati kutoka kwa mfumo ikolojia uliolindwa au vyanzo vinavyoaminika.
  
-## Brave Browser Zcash Wallet Ushirikiano
+## Ujumuishaji wa Pochi ya Kivinjari cha Brave Zcash
 
-Brave browser is paving the way for the web3 ecosystem. How? More than 2 million unstoppable domains can now be leveraged for displaying decentralized websites. With Brave Browsers robust security features, people can explore the internet without being tracked. Brave and Zcash are joining forces to bring new privacy tools to Web3 ecosysem. For greater benefits, Brave would integrate swiftly with Zcash protocol via Brave's built-in crypto wallet to revolutionize crypto transactions - This integration would enable users to safely store, send , and receive ZEC very easily plus other crypto currencies as well. The collaration between Brave web browser and Zcash would truly change the game as users will have greater control over their Web3 activiy. 
+Kivinjari cha Brave kinafungua njia kwa mfumo ikolojia wa web3. Vipi? Zaidi ya vikoa milioni 2 visivyozuilika sasa vinaweza kutumika kwa kuonyesha tovuti zilizotengwa. Kwa vipengele imara vya usalama vya Brave Browsers, watu wanaweza kuchunguza intaneti bila kufuatiliwa. Brave na Zcash wanaungana ili kuleta zana mpya za faragha kwenye mfumo ikolojia Web3. Kwa faida kubwa zaidi, Brave ingeunganishwa haraka na itifaki ya Zcash kupitia pochi ya crypto iliyojengewa ndani ya Brave's ili kuleta mapinduzi katika miamala ya crypto - Muunganisho huu ungewawezesha watumiaji kuhifadhi, kutuma, na kupokea ZEC kwa usalama kwa urahisi pamoja na sarafu zingine za crypto pia. Ushirikiano kati ya kivinjari cha wavuti Brave na Zcash ungebadilisha mchezo kweli kwani watumiaji watakuwa na udhibiti mkubwa juu ya shughuli zao Web3. 
 
-Another intriguing fact about the Brave browser and Zcash integration is the private and decentralized messaging feature; Brave, ECC, and the Filecoin Foundation team are paving a way for privacy-based feature in the Brave browser - this collaboration aims to offer private messages and media transmission via Zcash protocol. Here, Interplanetary File System (IPFS) will play an essential role in offering secure storage capability for the encrypted content.
+Ukweli mwingine wa kuvutia kuhusu kivinjari cha Brave na ujumuishaji wa Zcash ni kipengele cha ujumbe cha faragha na cha serikali; Brave, ECC, na timu ya Filecoin Foundation wanaandaa njia ya kipengele kinachotegemea faragha katika kivinjari cha Brave - ushirikiano huu unalenga kutoa ujumbe wa faragha na uwasilishaji wa vyombo vya habari kupitia itifaki ya Zcash. Hapa, Mfumo wa Faili wa Kimataifa (IPFS) utachukua jukumu muhimu katika kutoa uwezo salama wa kuhifadhi maudhui yaliyosimbwa kwa njia fiche.
 

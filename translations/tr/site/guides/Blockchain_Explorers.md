@@ -78,6 +78,8 @@ Gezgin ayrıca fonların şeffaf ve korumalı taraflar arasında ne zaman geçti
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### Görsel Rehber
 
 İşte farklı blokzincir gezginlerine dair dört iyi örnek:
