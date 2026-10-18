@@ -42,3 +42,5 @@ Kɔ so nya nsɛm a ɛbɛba daakye ho nsɛm foforo:
 + Episode 10 - Kokoamsɛm ma ɔmanfo yiyedi ne Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Sɛ wowɔ nyansahyɛ bi fa onii a wopɛ sɛ wuhu no akyi wɔ podcast no so a, ntwentwɛn wo nan ase sɛ wobɛka yɛn nkyɛn!  DM's de kɔma @zechub wɔ Twitter so
+
+<!-- protected terms: RAILGUN, lightwalletd -->

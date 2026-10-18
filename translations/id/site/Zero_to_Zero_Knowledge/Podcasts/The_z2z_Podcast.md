@@ -42,3 +42,5 @@ Playlist Youtube [](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX
 + Episode 10 - Privasi untuk kebaikan publik bersama Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Jika Anda memiliki rekomendasi tentang siapa yang ingin Anda lihat selanjutnya di podcast ini, jangan ragu untuk menghubungi kami! Kirim DM ke @zechub di Twitter
+
+<!-- protected terms: RAILGUN, lightwalletd -->

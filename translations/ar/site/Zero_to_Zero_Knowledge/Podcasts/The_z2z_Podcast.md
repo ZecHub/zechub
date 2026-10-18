@@ -42,3 +42,5 @@
 + الحلقة 10 - الخصوصية من أجل المصلحة العامة مع Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 إذا كانت لديك أي توصيات بشأن من تود أن تراه لاحقًا في البودكاست، فلا تتردد في التواصل معنا!  الرسائل الخاصة إلى @zechub على Twitter
+
+<!-- protected terms: RAILGUN, lightwalletd -->

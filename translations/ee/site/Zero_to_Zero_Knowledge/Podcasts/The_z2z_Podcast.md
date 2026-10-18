@@ -42,3 +42,5 @@ Nyi edzi nànya nu tso akpa siwo gbɔna ŋu:
 + Episode 10 - Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla na dukɔa ƒe nyonyo kple Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Ne kafukafu aɖewo le asiwò ku ɖe amesiwo nàdi be yeakpɔ le podcast la me ŋu la, ke te ɖe mía ŋu faa!  DM's na @zechub le Twitter dzi
+
+<!-- protected terms: RAILGUN, lightwalletd -->

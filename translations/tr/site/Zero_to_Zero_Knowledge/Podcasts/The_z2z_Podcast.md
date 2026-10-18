@@ -42,3 +42,5 @@ Gelecekteki bölümlerden haberdar olun:
 + Bölüm 10 - Amber Baldet ile kamunun yararı için gizlilik [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Podcast'te bir sonraki bölümde kimi görmek istediğinize dair önerileriniz varsa, bizimle iletişime geçmekten çekinmeyin! Twitter'da @zechub hesabına DM gönderebilirsiniz
+
+<!-- protected terms: RAILGUN, lightwalletd -->

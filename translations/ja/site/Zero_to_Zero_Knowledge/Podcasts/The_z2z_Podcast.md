@@ -42,3 +42,5 @@ Z2Z Podcastでは、Ian Sagstetter（Electric Coin Company所属）と、Zcash�
 + 第10回 - Amber Baldetと語る、公共善のためのプライバシー [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 ポッドキャストに次回出演してほしい人のおすすめがあれば、ぜひお気軽にご連絡ください！ Twitterの@zechubへのDMも歓迎です
+
+<!-- protected terms: RAILGUN, lightwalletd -->

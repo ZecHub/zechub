@@ -42,3 +42,5 @@ Endelea kupata habari mpya za vipindi vijavyo:
 + Episode 10 - Faragha kwa ajili ya umma nzuri na Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Ikiwa una mapendekezo yoyote ya nani ungependa kuona ijayo kwenye podcast, jisikie huru kuwasiliana nasi! DMs kwa @zechub kwenye Twitter
+
+<!-- protected terms: RAILGUN, lightwalletd -->

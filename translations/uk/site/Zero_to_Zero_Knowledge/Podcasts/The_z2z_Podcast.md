@@ -42,3 +42,5 @@
 + Епізод 10 - Приватність заради суспільного блага з Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Якщо у вас є рекомендації, кого ви хотіли б побачити наступним у подкасті, не соромтеся звертатися до нас!  Пишіть у DM до @zechub у Twitter
+
+<!-- protected terms: RAILGUN, lightwalletd -->

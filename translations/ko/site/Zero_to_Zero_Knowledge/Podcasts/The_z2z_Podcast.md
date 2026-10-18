@@ -42,3 +42,5 @@ Z2Z 팟캐스트는 Ian Sagstetter(Electric Coin Company 소속)와 Zcash 커뮤
 + 에피소드 10 - Amber Baldet와 함께하는 공공선을 위한 프라이버시 [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 다음 팟캐스트에 누구를 초대했으면 하는지 추천하고 싶다면, 언제든지 저희에게 연락해 주세요! Twitter의 @zechub으로 DM을 보내주세요
+
+<!-- protected terms: RAILGUN -->

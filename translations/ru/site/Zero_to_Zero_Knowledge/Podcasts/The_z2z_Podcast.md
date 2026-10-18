@@ -42,3 +42,5 @@
 + Выпуск 10 — Приватность на благо общества с Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Если у вас есть рекомендации, кого вы хотели бы увидеть следующим гостем подкаста, смело свяжитесь с нами! Личные сообщения — @zechub в Twitter
+
+<!-- protected terms: RAILGUN, lightwalletd -->

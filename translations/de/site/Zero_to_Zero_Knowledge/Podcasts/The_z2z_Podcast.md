@@ -42,3 +42,5 @@ Bleib über zukünftige Episoden auf dem Laufenden:
 + Episode 10 - Privatsphäre für das Gemeinwohl mit Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Wenn du Empfehlungen hast, wen du als Nächstes im Podcast sehen möchtest, kontaktiere uns gerne!  DMs an @zechub auf Twitter
+
+<!-- protected terms: RAILGUN, lightwalletd -->

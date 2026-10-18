@@ -42,3 +42,5 @@ Fica a par dos próximos episódios:
 + Episódio 10 - Privacidade para o bem público com Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Se tiveres alguma recomendação de quem gostarias de ver a seguir no podcast, sente-te à vontade para entrar em contacto connosco!  Envia mensagem privada para @zechub no Twitter
+
+<!-- protected terms: RAILGUN -->

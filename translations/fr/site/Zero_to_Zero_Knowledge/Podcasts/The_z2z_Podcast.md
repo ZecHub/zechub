@@ -42,3 +42,5 @@ Restez informé des prochains épisodes :
 + Épisode 10 - La vie privée au service du bien public avec Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Si vous avez des recommandations sur les personnes que vous aimeriez voir prochainement dans le podcast, n’hésitez pas à nous contacter !  Envoyez un message privé à @zechub sur Twitter
+
+<!-- protected terms: RAILGUN, lightwalletd -->
