@@ -4,29 +4,35 @@ A short series on the ideas behind private digital cash. Start at the top.
 
 <div style={{display: "grid", gap: "12px", margin: "24px 0"}}>
 
-<a href="/zero-to-zero-knowledge/hash-functions" style={{display: "block", padding: "16px 18px", borderRadius: "14px", textDecoration: "none", background: "linear-gradient(135deg,#F5AC37,#E8A020)", color: "#18181B"}}>
-<strong>1. Hash Functions</strong><br />Any input becomes a fixed output. The three properties a hash must have.
-</a>
+<div style={{padding: "16px 18px", borderRadius: "14px", background: "linear-gradient(135deg,#F5AC37,#E8A020)", color: "#18181B"}}>
+<strong>1. Hash Functions</strong><br />Any input becomes a fixed output. The three properties a hash must have.<br />
+<a href="/zero-to-zero-knowledge/hash-functions">Read</a>
+</div>
 
-<a href="/zero-to-zero-knowledge/mnemonic-seed-phrases" style={{display: "block", padding: "16px 18px", borderRadius: "14px", textDecoration: "none", background: "#18181B", color: "#F5AC37", border: "1px solid #F5AC37"}}>
-<strong>2. Recovery Seed Phrases</strong><br />How a list of words becomes the keys that hold your funds.
-</a>
+<div style={{padding: "16px 18px", borderRadius: "14px", background: "#18181B", color: "#F5AC37", border: "1px solid #F5AC37"}}>
+<strong>2. Recovery Seed Phrases</strong><br />How a list of words becomes the keys that hold your funds.<br />
+<a href="/zero-to-zero-knowledge/mnemonic-seed-phrases">Read</a>
+</div>
 
-<a href="/zero-to-zero-knowledge/zcash-addresses" style={{display: "block", padding: "16px 18px", borderRadius: "14px", textDecoration: "none", background: "linear-gradient(135deg,#F5AC37,#E8A020)", color: "#18181B"}}>
-<strong>3. Zcash Addresses</strong><br />Transparent and shielded transactions, and Unified Addresses.
-</a>
+<div style={{padding: "16px 18px", borderRadius: "14px", background: "linear-gradient(135deg,#F5AC37,#E8A020)", color: "#18181B"}}>
+<strong>3. Zcash Addresses</strong><br />Transparent and shielded transactions, and Unified Addresses.<br />
+<a href="/zero-to-zero-knowledge/zcash-addresses">Read</a>
+</div>
 
-<a href="/zero-to-zero-knowledge/tees" style={{display: "block", padding: "16px 18px", borderRadius: "14px", textDecoration: "none", background: "#18181B", color: "#F5AC37", border: "1px solid #F5AC37"}}>
-<strong>4. Trusted Execution Environments</strong><br />Hardware that keeps computation private, and where it falls short.
-</a>
+<div style={{padding: "16px 18px", borderRadius: "14px", background: "#18181B", color: "#F5AC37", border: "1px solid #F5AC37"}}>
+<strong>4. Trusted Execution Environments</strong><br />Hardware that keeps computation private, and where it falls short.<br />
+<a href="/zero-to-zero-knowledge/tees">Read</a>
+</div>
 
-<a href="/zero-to-zero-knowledge/cryptonote" style={{display: "block", padding: "16px 18px", borderRadius: "14px", textDecoration: "none", background: "linear-gradient(135deg,#F5AC37,#E8A020)", color: "#18181B"}}>
-<strong>5. Cryptonote</strong><br />The privacy design behind Monero, and how it differs from Zcash.
-</a>
+<div style={{padding: "16px 18px", borderRadius: "14px", background: "linear-gradient(135deg,#F5AC37,#E8A020)", color: "#18181B"}}>
+<strong>5. Cryptonote</strong><br />The privacy design behind Monero, and how it differs from Zcash.<br />
+<a href="/zero-to-zero-knowledge/cryptonote">Read</a>
+</div>
 
-<a href="/zero-to-zero-knowledge/lelantus" style={{display: "block", padding: "16px 18px", borderRadius: "14px", textDecoration: "none", background: "#18181B", color: "#F5AC37", border: "1px solid #F5AC37"}}>
-<strong>6. Lelantus</strong><br />The protocol behind Firo, and how it compares with Zcash.
-</a>
+<div style={{padding: "16px 18px", borderRadius: "14px", background: "#18181B", color: "#F5AC37", border: "1px solid #F5AC37"}}>
+<strong>6. Lelantus</strong><br />The protocol behind Firo, and how it compares with Zcash.<br />
+<a href="/zero-to-zero-knowledge/lelantus">Read</a>
+</div>
 
 </div>
 
