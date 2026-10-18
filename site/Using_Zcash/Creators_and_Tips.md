@@ -11,7 +11,7 @@
 ## Table of Contents
 
 1. [Zcash.me](#zcashme)
-2. [TipZ](#tipz)
+2. [TIPZ](#tipz)
    - [Why Privacy Matters for Creators](#why-privacy-matters-for-creators)
 3. [Visual / Analogy](#visual--analogy)
 4. [Related Pages](#related-pages)
@@ -20,9 +20,9 @@
 
 ## TL;DR
 
-* Two Zcash tools help creators get paid privately. Zcash.me gives you a profile page with your shielded address, and TipZ lets fans send you tips.
+* Two Zcash tools help creators get paid privately. Zcash.me gives you a profile page with your shielded address, and TIPZ lets fans send you tips.
 * With Zcash.me, you share one link, `zcash.me/[username]`, that shows your unified address and your social accounts.
-* With TipZ, fans can tip in other cryptocurrencies, and every tip reaches you as shielded ZEC.
+* With TIPZ, fans can tip in other cryptocurrencies, and every tip reaches you as shielded ZEC.
 * Both tools ask for your unified address (`u1...`).
 * Tips to a shielded address keep your income and balance out of public view.
 
@@ -72,13 +72,13 @@
 
 ---
 
-### TipZ
+### TIPZ
 
-![TipZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![TIPZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 #### Overview
 
-**TipZ** is a **private tipping protocol** purpose-built for creators and cypherpunks. Fans tip in any major cryptocurrency; it is automatically converted and delivered as **shielded ZEC**.
+**TIPZ** is a **private tipping protocol** purpose-built for creators and cypherpunks. Fans tip in any major cryptocurrency; it is automatically converted and delivered as **shielded ZEC**.
 
 | Item              | Details |
 |-------------------|---------|
@@ -121,10 +121,10 @@
 
 A tip jar on a café counter is glass. Everyone in the room sees who dropped in a coin and how full the jar is.
 
-A shielded address works like a locked mailbox with a slot. Fans drop in an envelope with a coin and a note, and only the creator opens the box. TipZ adds a currency exchange at the door: a fan can arrive with ETH or SOL, and what lands in the mailbox is ZEC.
+A shielded address works like a locked mailbox with a slot. Fans drop in an envelope with a coin and a note, and only the creator opens the box. TIPZ adds a currency exchange at the door: a fan can arrive with ETH or SOL, and what lands in the mailbox is ZEC.
 
 ```
-TipZ Payment Flow
+TIPZ Payment Flow
 
 Fan -> tipz.cash Protocol -> Creator's Wallet (Shielded ZEC)
 
