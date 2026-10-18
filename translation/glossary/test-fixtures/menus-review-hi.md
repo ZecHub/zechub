@@ -18,7 +18,7 @@ Names that stay in English in every language (brands, products, programmes) are 
 No conflicts.
 
 ## Top menu (header) and its submenus
-(`navigation`: 78 labels)
+(`navigation`: 73 labels)
 
 | # | ID | English | Hindi | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -50,59 +50,54 @@ No conflicts.
 | 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | भुगतान अनुरोध URIs |  |  |
 | 27 | navigation.usingZcash.paymentProcessors | Payment Processors | पेमेंट प्रोसेसर्स |  |  |
 | 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | फंड्स रिकवर करना |  |  |
-| 29 | navigation.usingZcash.testnet | Testnet | Testnet |  |  |
-| 30 | navigation.usingZcash.tools | Tools | टूल्स |  |  |
-| 31 | navigation.usingZcash.useCases | Use Cases | उपयोग के मामले |  |  |
-| 32 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | यहाँ से शुरू करें |  |  |
-| 33 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | भुगतान स्वीकार करें |  |  |
-| 34 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | फ्रीलांस गोपनीयता |  |  |
-| 35 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | पत्रकार गोपनीयता |  |  |
-| 36 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | रिकॉर्ड रखना |  |  |
-| 37 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | निजी सामुदायिक कोष |  |  |
-| 38 | navigation.usingZcash.useCasesSubmenu.donations | Donations | दान |  |  |
-| 39 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | निजी रूप से पैसे भेजें |  |  |
-| 40 | navigation.zcashCommunity.label | Ecosystem | इकोसिस्टम |  |  |
-| 41 | navigation.zcashCommunity.communityBlogs | Community Blogs | सामुदायिक ब्लॉग |  |  |
-| 42 | navigation.zcashCommunity.communityLinks | Community Links | सामुदायिक लिंक |  |  |
-| 43 | navigation.zcashCommunity.communityForum | Community Forum | सामुदायिक फोरम |  |  |
-| 44 | navigation.zcashCommunity.communityProjects | Community Projects | सामुदायिक प्रोजेक्ट्स |  |  |
-| 45 | navigation.zcashCommunity.globalAmbassadors | Zcash Global Ambassadors | Zcash Global Ambassadors |  |  |
-| 46 | navigation.zcashCommunity.zcashMedia | Zcash Media | Zcash मीडिया |  |  |
-| 47 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | Zcash पॉडकास्ट |  |  |
-| 48 | navigation.zcashCommunity.ecosystemSecurity | Zcash Ecosystem Security | Zcash इकोसिस्टम सुरक्षा |  |  |
-| 49 | navigation.zcashCommunity.cypherpunkZeroNFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT |  |  |
-| 50 | navigation.zcashCommunity.zconArchive | Zcon Archive | Zcon आर्काइव |  |  |
-| 51 | navigation.organizations.label | Organizations | संगठन |  |  |
-| 52 | navigation.organizations.financialPrivacyFoundation | Financial Privacy Foundation | वित्तीय गोपनीयता फाउंडेशन |  |  |
-| 53 | navigation.organizations.brand | Brand | ब्रांड |  |  |
-| 54 | navigation.organizations.zkavClub | ZKAV Club | ZKAV Club |  |  |
-| 55 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | कॉइनहोल्डर द्वारा निर्देशित पूर्वव्यापी अनुदान |  |  |
-| 56 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | Zgo पेमेंट प्रोसेसर |  |  |
-| 57 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Live |  |  |
-| 58 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN |  |  |
-| 59 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | DeFi में ZEC का उपयोग |  |  |
-| 60 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | ZEC का निजी रूप से उपयोग |  |  |
-| 61 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Node |  |  |
-| 62 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
-| 63 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | Raspberry Pi Zebra Node |  |  |
-| 64 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash Network |  |  |
-| 65 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche RedBridge |  |  |
-| 66 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | Zkool Multisig |  |  |
-| 67 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | Ywallet FROST डेमो |  |  |
-| 68 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | Blockchain Explorers |  |  |
-| 69 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | BTCPayServer Plugin |  |  |
-| 70 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | Zcash Network का दृश्यांकन |  |  |
-| 71 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | Zcash Addresses का दृश्यांकन |  |  |
-| 72 | navigation.guidesSubmenu.zcashDevtool | Zcash Devtool | Zcash Devtool |  |  |
-| 73 | navigation.guidesSubmenu.zcashImprovementProposals | Zcash Improvement Proposals | Zcash Improvement Proposals |  |  |
-| 74 | navigation.guidesSubmenu.zingolibAndZainoTutorial | Zingolib and Zaino Tutorial | Zingolib और Zaino ट्यूटोरियल |  |  |
-| 75 | navigation.guidesSubmenu.zenithInstallation | Zenith Installation | Zenith स्थापना |  |  |
-| 76 | navigation.guidesSubmenu.zeroKnowledgeVsDecoys | Zero Knowledge vs Decoy Systems | Zero Knowledge बनाम Decoy Systems |  |  |
-| 77 | navigation.overview | Overview | अवलोकन |  |  |
-| 78 | navigation.shop | Shop | Shop |  |  |
+| 29 | navigation.usingZcash.tools | Tools | टूल्स |  |  |
+| 30 | navigation.usingZcash.useCases | Use Cases | उपयोग के मामले |  |  |
+| 31 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | यहाँ से शुरू करें |  |  |
+| 32 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | भुगतान स्वीकार करें |  |  |
+| 33 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | फ्रीलांस गोपनीयता |  |  |
+| 34 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | पत्रकार गोपनीयता |  |  |
+| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | रिकॉर्ड रखना |  |  |
+| 36 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | निजी सामुदायिक कोष |  |  |
+| 37 | navigation.usingZcash.useCasesSubmenu.donations | Donations | दान |  |  |
+| 38 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | निजी रूप से पैसे भेजें |  |  |
+| 39 | navigation.zcashCommunity.label | Ecosystem | इकोसिस्टम |  |  |
+| 40 | navigation.zcashCommunity.communityBlogs | Community Blogs | सामुदायिक ब्लॉग |  |  |
+| 41 | navigation.zcashCommunity.communityLinks | Community Links | सामुदायिक लिंक |  |  |
+| 42 | navigation.zcashCommunity.communityForum | Community Forum | सामुदायिक फोरम |  |  |
+| 43 | navigation.zcashCommunity.communityProjects | Community Projects | सामुदायिक प्रोजेक्ट्स |  |  |
+| 44 | navigation.zcashCommunity.zcashMedia | Zcash Media | Zcash मीडिया |  |  |
+| 45 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | Zcash पॉडकास्ट |  |  |
+| 46 | navigation.zcashCommunity.ecosystemSecurity | Zcash Ecosystem Security | Zcash इकोसिस्टम सुरक्षा |  |  |
+| 47 | navigation.zcashCommunity.cypherpunkZeroNFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT |  |  |
+| 48 | navigation.zcashCommunity.zconArchive | Zcon Archive | Zcon आर्काइव |  |  |
+| 49 | navigation.organizations.label | Organizations | संगठन |  |  |
+| 50 | navigation.organizations.brand | Brand | ब्रांड |  |  |
+| 51 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | कॉइनहोल्डर द्वारा निर्देशित पूर्वव्यापी अनुदान |  |  |
+| 52 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | Zgo पेमेंट प्रोसेसर |  |  |
+| 53 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Live |  |  |
+| 54 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN |  |  |
+| 55 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | DeFi में ZEC का उपयोग |  |  |
+| 56 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | ZEC का निजी रूप से उपयोग |  |  |
+| 57 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Node |  |  |
+| 58 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
+| 59 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | Raspberry Pi Zebra Node |  |  |
+| 60 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash Network |  |  |
+| 61 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche RedBridge |  |  |
+| 62 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | Zkool Multisig |  |  |
+| 63 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | Ywallet FROST डेमो |  |  |
+| 64 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | Blockchain Explorers |  |  |
+| 65 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | BTCPayServer Plugin |  |  |
+| 66 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | Zcash Network का दृश्यांकन |  |  |
+| 67 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | Zcash Addresses का दृश्यांकन |  |  |
+| 68 | navigation.guidesSubmenu.zcashImprovementProposals | Zcash Improvement Proposals | Zcash Improvement Proposals |  |  |
+| 69 | navigation.guidesSubmenu.zingolibAndZainoTutorial | Zingolib and Zaino Tutorial | Zingolib और Zaino ट्यूटोरियल |  |  |
+| 70 | navigation.guidesSubmenu.zenithInstallation | Zenith Installation | Zenith स्थापना |  |  |
+| 71 | navigation.guidesSubmenu.zeroKnowledgeVsDecoys | Zero Knowledge vs Decoy Systems | Zero Knowledge बनाम Decoy Systems |  |  |
+| 72 | navigation.overview | Overview | अवलोकन |  |  |
+| 73 | navigation.shop | Shop | Shop |  |  |
 
 ## Submenu entries (page names in the menus)
-(`menuLabels`: 86 labels)
+(`menuLabels`: 80 labels)
 
 | # | ID | English | Hindi | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -125,76 +120,70 @@ No conflicts.
 | 17 | menuLabels.Exchanges | Exchanges | एक्सचेंज |  |  |
 | 18 | menuLabels.Extras | Extras | अतिरिक्त |  |  |
 | 19 | menuLabels.Faucets | Faucets | फॉसेट्स |  |  |
-| 20 | menuLabels.Financial Privacy Foundation | Financial Privacy Foundation | Financial Privacy Foundation |  |  |
-| 21 | menuLabels.Free2z Live | Free2z Live | Free2z Live |  |  |
-| 22 | menuLabels.Freelance Privacy | Freelance Privacy | फ्रीलांस गोपनीयता |  |  |
-| 23 | menuLabels.Governance | Governance | शासन |  |  |
-| 24 | menuLabels.Guides | Guides | मार्गदर्शिकाएँ |  |  |
-| 25 | menuLabels.How to Participate | How to Participate | कैसे भाग लें |  |  |
-| 26 | menuLabels.Journalist Privacy | Journalist Privacy | पत्रकार गोपनीयता |  |  |
-| 27 | menuLabels.Keeping Records | Keeping Records | रिकॉर्ड रखना |  |  |
-| 28 | menuLabels.Memos | Memos | मेमो |  |  |
-| 29 | menuLabels.Mobile Top Ups | Mobile Top Ups | मोबाइल टॉप-अप |  |  |
-| 30 | menuLabels.Newsletter | Newsletter | न्यूज़लेटर |  |  |
-| 31 | menuLabels.Nym VPN | Nym VPN | Nym VPN |  |  |
-| 32 | menuLabels.Payment Processors | Payment Processors | भुगतान प्रोसेसर |  |  |
-| 33 | menuLabels.Payment Request URIs | Payment Request URIs | पेमेंट रिक्वेस्ट URIs |  |  |
-| 34 | menuLabels.Podcast | Podcast | पॉडकास्ट |  |  |
-| 35 | menuLabels.Private Community Treasury | Private Community Treasury | प्राइवेट कम्युनिटी ट्रेजरी |  |  |
-| 36 | menuLabels.Raspberry Pi 4 Full Node | Raspberry Pi 4 Full Node | Raspberry Pi 4 फुल नोड |  |  |
-| 37 | menuLabels.Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra नोड |  |  |
-| 38 | menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
-| 39 | menuLabels.Recovering Funds | Recovering Funds | फंड्स की रिकवरी |  |  |
-| 40 | menuLabels.Research | Research | रिसर्च |  |  |
-| 41 | menuLabels.Send Money Privately | Send Money Privately | निजी रूप से पैसे भेजें |  |  |
-| 42 | menuLabels.Shielded Pools | Shielded Pools | शील्डेड पूल्स |  |  |
-| 43 | menuLabels.Sitemap | Sitemap | साइटमैप |  |  |
-| 44 | menuLabels.Start Here | Start Here | यहाँ से शुरू करें |  |  |
-| 45 | menuLabels.Store | Store | स्टोर |  |  |
-| 46 | menuLabels.Testnet | Testnet | Testnet |  |  |
-| 47 | menuLabels.Tools | Tools | टूल्स |  |  |
-| 48 | menuLabels.Transactions | Transactions | लेनदेन |  |  |
-| 49 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | पारदर्शी एक्सचेंज पते |  |  |
-| 50 | menuLabels.Tutorials | Tutorials | ट्यूटोरियल्स |  |  |
-| 51 | menuLabels.Use Cases | Use Cases | उपयोग के मुकदमे |  |  |
-| 52 | menuLabels.Using ZEC Privately | Using ZEC Privately | ZEC का निजी रूप से उपयोग करना |  |  |
-| 53 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | DeFi में ZEC का उपयोग करना |  |  |
-| 54 | menuLabels.Using Zcash | Using Zcash | Zcash का उपयोग करना |  |  |
-| 55 | menuLabels.Visual Identity | Visual Identity | दृश्य पहचान पत्र |  |  |
-| 56 | menuLabels.Visualizer | Visualizer | विज़ुअलाइज़र |  |  |
-| 57 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | Zcash पतों का विज़ुअलाइज़ेशन |  |  |
-| 58 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | Zcash नेटवर्क का विज़ुअलाइज़ेशन |  |  |
-| 59 | menuLabels.Wallets | Wallets | वॉलेट्स |  |  |
-| 60 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | Ywallet FROST डेमो |  |  |
-| 61 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIPs और अनुदान |  |  |
-| 62 | menuLabels.ZKAV Club | ZKAV Club | ZKAV Club |  |  |
-| 63 | menuLabels.Zcash Community | Zcash Community | Zcash समुदाय |  |  |
-| 64 | menuLabels.Zcash Devtool | Zcash Devtool | Zcash Devtool |  |  |
-| 65 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | Zcash इकोसिस्टम सुरक्षा |  |  |
-| 66 | menuLabels.Zcash Global Ambassadors | Zcash Global Ambassadors | Zcash Global Ambassadors |  |  |
-| 67 | menuLabels.Zcash Governance | Zcash Governance | Zcash शासन |  |  |
-| 68 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | Zcash सुधार प्रस्ताव |  |  |
-| 69 | menuLabels.Zcash Login | Zcash Login | Zcash Login |  |  |
-| 70 | menuLabels.Zcash Media | Zcash Media | Zcash मीडिया |  |  |
-| 71 | menuLabels.Zcash Organizations | Zcash Organizations | Zcash संगठन |  |  |
-| 72 | menuLabels.Zcash Podcasts | Zcash Podcasts | Zcash पॉडकास्ट |  |  |
-| 73 | menuLabels.Zcon Archive | Zcon Archive | Zcon अभिलेखागार |  |  |
-| 74 | menuLabels.Zcon Vozes Archive | Zcon Vozes Archive | Zcon Vozes अभिलेखागार |  |  |
-| 75 | menuLabels.Zenith Installation | Zenith Installation | Zenith स्थापना |  |  |
-| 76 | menuLabels.Zero-Knowledge vs Decoys | Zero-Knowledge vs Decoys | Zero-Knowledge बनाम Decoys |  |  |
-| 77 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | Zgo भुगतान प्रोसेसर |  |  |
-| 78 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | Zingolib और Zaino ट्यूटोरियल |  |  |
-| 79 | menuLabels.Zkool Multisig | Zkool Multisig | Zkool मल्टीसिग |  |  |
-| 80 | menuLabels.Custodial Exchanges | Custodial Exchanges | कस्टोडियल एक्सचेंज |  |  |
-| 81 | menuLabels.Zcash Use Cases | Zcash Use Cases | Zcash उपयोग के मामले |  |  |
-| 82 | menuLabels.Zcash Tech | Zcash Tech | Zcash तकनीक |  |  |
-| 83 | menuLabels.Privacy Tools | Privacy Tools | गोपनीयता उपकरण |  |  |
-| 84 | menuLabels.Zcash Social Media | Zcash Social Media | Zcash सोशल मीडिया |  |  |
-| 85 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | शब्दावली और FAQ's |  |  |
-| 86 | menuLabels.Pay for AI | Pay for AI | AI के लिए भुगतान |  |  |
+| 20 | menuLabels.Free2z Live | Free2z Live | Free2z Live |  |  |
+| 21 | menuLabels.Freelance Privacy | Freelance Privacy | फ्रीलांस गोपनीयता |  |  |
+| 22 | menuLabels.Governance | Governance | शासन |  |  |
+| 23 | menuLabels.Guides | Guides | मार्गदर्शिकाएँ |  |  |
+| 24 | menuLabels.How to Participate | How to Participate | कैसे भाग लें |  |  |
+| 25 | menuLabels.Journalist Privacy | Journalist Privacy | पत्रकार गोपनीयता |  |  |
+| 26 | menuLabels.Keeping Records | Keeping Records | रिकॉर्ड रखना |  |  |
+| 27 | menuLabels.Memos | Memos | मेमो |  |  |
+| 28 | menuLabels.Mobile Top Ups | Mobile Top Ups | मोबाइल टॉप-अप |  |  |
+| 29 | menuLabels.Newsletter | Newsletter | न्यूज़लेटर |  |  |
+| 30 | menuLabels.Nym VPN | Nym VPN | Nym VPN |  |  |
+| 31 | menuLabels.Payment Processors | Payment Processors | भुगतान प्रोसेसर |  |  |
+| 32 | menuLabels.Payment Request URIs | Payment Request URIs | पेमेंट रिक्वेस्ट URIs |  |  |
+| 33 | menuLabels.Podcast | Podcast | पॉडकास्ट |  |  |
+| 34 | menuLabels.Private Community Treasury | Private Community Treasury | प्राइवेट कम्युनिटी ट्रेजरी |  |  |
+| 35 | menuLabels.Raspberry Pi 4 Full Node | Raspberry Pi 4 Full Node | Raspberry Pi 4 फुल नोड |  |  |
+| 36 | menuLabels.Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra नोड |  |  |
+| 37 | menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
+| 38 | menuLabels.Recovering Funds | Recovering Funds | फंड्स की रिकवरी |  |  |
+| 39 | menuLabels.Research | Research | रिसर्च |  |  |
+| 40 | menuLabels.Send Money Privately | Send Money Privately | निजी रूप से पैसे भेजें |  |  |
+| 41 | menuLabels.Shielded Pools | Shielded Pools | शील्डेड पूल्स |  |  |
+| 42 | menuLabels.Sitemap | Sitemap | साइटमैप |  |  |
+| 43 | menuLabels.Start Here | Start Here | यहाँ से शुरू करें |  |  |
+| 44 | menuLabels.Store | Store | स्टोर |  |  |
+| 45 | menuLabels.Tools | Tools | टूल्स |  |  |
+| 46 | menuLabels.Transactions | Transactions | लेनदेन |  |  |
+| 47 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | पारदर्शी एक्सचेंज पते |  |  |
+| 48 | menuLabels.Tutorials | Tutorials | ट्यूटोरियल्स |  |  |
+| 49 | menuLabels.Use Cases | Use Cases | उपयोग के मुकदमे |  |  |
+| 50 | menuLabels.Using ZEC Privately | Using ZEC Privately | ZEC का निजी रूप से उपयोग करना |  |  |
+| 51 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | DeFi में ZEC का उपयोग करना |  |  |
+| 52 | menuLabels.Using Zcash | Using Zcash | Zcash का उपयोग करना |  |  |
+| 53 | menuLabels.Visual Identity | Visual Identity | दृश्य पहचान पत्र |  |  |
+| 54 | menuLabels.Visualizer | Visualizer | विज़ुअलाइज़र |  |  |
+| 55 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | Zcash पतों का विज़ुअलाइज़ेशन |  |  |
+| 56 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | Zcash नेटवर्क का विज़ुअलाइज़ेशन |  |  |
+| 57 | menuLabels.Wallets | Wallets | वॉलेट्स |  |  |
+| 58 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | Ywallet FROST डेमो |  |  |
+| 59 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIPs और अनुदान |  |  |
+| 60 | menuLabels.Zcash Community | Zcash Community | Zcash समुदाय |  |  |
+| 61 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | Zcash इकोसिस्टम सुरक्षा |  |  |
+| 62 | menuLabels.Zcash Governance | Zcash Governance | Zcash शासन |  |  |
+| 63 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | Zcash सुधार प्रस्ताव |  |  |
+| 64 | menuLabels.Zcash Media | Zcash Media | Zcash मीडिया |  |  |
+| 65 | menuLabels.Zcash Organizations | Zcash Organizations | Zcash संगठन |  |  |
+| 66 | menuLabels.Zcash Podcasts | Zcash Podcasts | Zcash पॉडकास्ट |  |  |
+| 67 | menuLabels.Zcon Archive | Zcon Archive | Zcon अभिलेखागार |  |  |
+| 68 | menuLabels.Zcon Vozes Archive | Zcon Vozes Archive | Zcon Vozes अभिलेखागार |  |  |
+| 69 | menuLabels.Zenith Installation | Zenith Installation | Zenith स्थापना |  |  |
+| 70 | menuLabels.Zero-Knowledge vs Decoys | Zero-Knowledge vs Decoys | Zero-Knowledge बनाम Decoys |  |  |
+| 71 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | Zgo भुगतान प्रोसेसर |  |  |
+| 72 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | Zingolib और Zaino ट्यूटोरियल |  |  |
+| 73 | menuLabels.Zkool Multisig | Zkool Multisig | Zkool मल्टीसिग |  |  |
+| 74 | menuLabels.Custodial Exchanges | Custodial Exchanges | कस्टोडियल एक्सचेंज |  |  |
+| 75 | menuLabels.Zcash Use Cases | Zcash Use Cases | Zcash उपयोग के मामले |  |  |
+| 76 | menuLabels.Zcash Tech | Zcash Tech | Zcash तकनीक |  |  |
+| 77 | menuLabels.Privacy Tools | Privacy Tools | गोपनीयता उपकरण |  |  |
+| 78 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | शब्दावली और FAQ's |  |  |
+| 79 | menuLabels.Pay for AI | Pay for AI | AI के लिए भुगतान |  |  |
+| 80 | menuLabels.Community Building | Community Building | Community Building |  |  |
 
 ## Yellow coin menu (bottom right)
-(`exploreMenu`: 16 labels)
+(`exploreMenu`: 15 labels)
 
 | # | ID | English | Hindi | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -206,14 +195,13 @@ No conflicts.
 | 6 | exploreMenu.Zcash Tech | Zcash Tech | Zcash टेक |  |  |
 | 7 | exploreMenu.Zcash Organizations | Zcash Organizations | Zcash संगठन |  |  |
 | 8 | exploreMenu.Zcash Community | Zcash Community | Zcash समुदाय |  |  |
-| 9 | exploreMenu.ZKAV Club | ZKAV Club | ZKAV Club |  |  |
-| 10 | exploreMenu.Privacy Tools | Privacy Tools | गोपनीयता उपकरण |  |  |
-| 11 | exploreMenu.Research | Research | शोध |  |  |
-| 12 | exploreMenu.Glossary & FAQs | Glossary & FAQs | शब्दावली और FAQs |  |  |
-| 13 | exploreMenu.Contribute | Contribute | योगदान करें |  |  |
-| 14 | exploreMenu.For Forks & Maintainers | For Forks & Maintainers | Forks और Maintainers के लिए |  |  |
-| 15 | exploreMenu.Fork zechub-wiki | Fork zechub-wiki | zechub-wiki को Fork करें |  |  |
-| 16 | exploreMenu.Fork zechub | Fork zechub | zechub को Fork करें |  |  |
+| 9 | exploreMenu.Privacy Tools | Privacy Tools | गोपनीयता उपकरण |  |  |
+| 10 | exploreMenu.Research | Research | शोध |  |  |
+| 11 | exploreMenu.Glossary & FAQs | Glossary & FAQs | शब्दावली और FAQs |  |  |
+| 12 | exploreMenu.Contribute | Contribute | योगदान करें |  |  |
+| 13 | exploreMenu.For Forks & Maintainers | For Forks & Maintainers | Forks और Maintainers के लिए |  |  |
+| 14 | exploreMenu.Fork zechub-wiki | Fork zechub-wiki | zechub-wiki को Fork करें |  |  |
+| 15 | exploreMenu.Fork zechub | Fork zechub | zechub को Fork करें |  |  |
 
 ## Side menu on article pages
 (`sideMenu`: 2 labels)
