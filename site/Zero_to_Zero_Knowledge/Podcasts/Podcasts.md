@@ -69,7 +69,7 @@ ZL;DR is a show that highlights all things Zcash in a video format. The episodes
 
 - **Name Change:** The name has been changed from ZecDaily to ZL;DR.
 
-## Zechub Podcast Playlist
+## ZecHub Podcast Playlist
 
 ### The Importance Of Privacy, CBDCs & Operation Chokepoint 2.0 | Kurt Opsahl – 11
 - **Date:** March 29, 2024
@@ -115,8 +115,8 @@ ZL;DR is a show that highlights all things Zcash in a video format. The episodes
     - 12:05​ – Favorite bug Taylor has ever found
     - 15:50​ – Leaving ECC for independent security grant
     - 22:30​ – The process of a security audit, Ywallet example
-    - 31:25​ – Lightwalletd security tradeoffs
-    - 45:10​ – Zcashd security and usability tradeoffs
+    - 31:25​ – lightwalletd security tradeoffs
+    - 45:10​ – zcashd security and usability tradeoffs
     - 52:06​ – Third party payment provider security tradeoffs
     - 1:00:20​ – Zcash operational security recap
     - 1:04:40​ – What are Zcash’s biggest security and privacy misconceptions
@@ -190,22 +190,22 @@ ZL;DR is a show that highlights all things Zcash in a video format. The episodes
     - 1:51:06​ – Opting out and Zcash as a common good
     - 1:57:20​ – The future of Zcash
 
-### DeFi and Privacy With Railgun
+### DeFi and Privacy With RAILGUN
 - **Date:** August 29, 2022
 - **Link:** [https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
-- **Summary:** Railgun is a smart contract system that enables private sends, trades & DeFi, on ETH, BSC & Polygon.
+- **Summary:** RAILGUN is a smart contract system that enables private sends, trades & DeFi, on ETH, BSC & Polygon.
   - **Timestamps:**
     - 0:00​ – Intro
-    - 5:30​ – What is Railgun
+    - 5:30​ – What is RAILGUN
     - 8:10​ – What is decentralized finance (DeFi)
     - 17:30​ – Downsides of DeFi
     - 24:00​ – Pseudonyms and privacy
-    - 32:55​ – Railgun origin story
-    - 38:08​ – Railgun vs. other solutions
-    - 45:00​ – Railgun transaction on a block explorer
+    - 32:55​ – RAILGUN origin story
+    - 38:08​ – RAILGUN vs. other solutions
+    - 45:00​ – RAILGUN transaction on a block explorer
     - 49:52​ – Relayers
     - 58:51​ – Rail tokenomics
-    - 1:04:00​ – The Railgun Community
+    - 1:04:00​ – The RAILGUN Community
     - 1:07:04​ – Crypto privacy in 5 years
 
 ### Music NFTs, Privacy and Economic Freedom with Xcelencia
@@ -256,8 +256,8 @@ ZL;DR is a show that highlights all things Zcash in a video format. The episodes
     - 12:05 – Favorite bug Taylor has ever found
     - 15:50 – Leaving ECC for independent security grant
     - 22:30 – The process of a security audit, Ywallet example
-    - 31:25 – Lightwalletd security tradeoffs
-    - 45:10 – Zcashd security and usability tradeoffs
+    - 31:25 – lightwalletd security tradeoffs
+    - 45:10 – zcashd security and usability tradeoffs
     - 52:06 – Third party payment provider security tradeoffs
     - 1:00:20 – Zcash operational security recap
     - 1:04:40 – What are Zcash’s biggest security and privacy misconceptions
@@ -331,22 +331,22 @@ ZL;DR is a show that highlights all things Zcash in a video format. The episodes
     - 1:51:06 – Opting out and Zcash as a common good
     - 1:57:20 – The future of Zcash
 
-## DeFi and Privacy With Railgun
+## DeFi and Privacy With RAILGUN
 - **Date:** August 29, 2022
 - **Link:** [Watch on YouTube](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
-- **Summary:** Railgun is a smart contract system that enables private sends, trades & DeFi, on ETH, BSC & Polygon.
+- **Summary:** RAILGUN is a smart contract system that enables private sends, trades & DeFi, on ETH, BSC & Polygon.
   - **Timestamps:**
     - 0:00 – Intro
-    - 5:30 – What is Railgun
+    - 5:30 – What is RAILGUN
     - 8:10 – What is decentralized finance (DeFi)
     - 17:30 – Downsides of DeFi
     - 24:00 – Pseudonyms and privacy
-    - 32:55 – Railgun origin story
-    - 38:08 – Railgun vs. other solutions
-    - 45:00 – Railgun transaction on a block explorer
+    - 32:55 – RAILGUN origin story
+    - 38:08 – RAILGUN vs. other solutions
+    - 45:00 – RAILGUN transaction on a block explorer
     - 49:52 – Relayers
     - 58:51 – Rail tokenomics
-    - 1:04:00 – The Railgun Community
+    - 1:04:00 – The RAILGUN Community
     - 1:07:04 – Crypto privacy in 5 years
 
 ## Music NFTs, Privacy and Economic Freedom with xcelencia
