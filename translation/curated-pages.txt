@@ -7,7 +7,7 @@ Privacy_Tools/2FA_Hardware_Devices.md
 Privacy_Tools/Arti_Tor.md
 Privacy_Tools/GrapheneOS.md
 Privacy_Tools/Namada_Protocol.md
-Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+guides/Nym_Mixnet_Wallet_Setup.md
 Privacy_Tools/PGP_Encryption.md
 Privacy_Tools/Penumbra.md
 Privacy_Tools/Secure_Messengers.md

@@ -1,6 +1,18 @@
 #!/bin/bash
 
+zallet() {
+    hash -d zallet 2>/dev/null || true
+    sudo -u zebra env RUST_LOG="${RUST_LOG:-warn}" /usr/local/bin/zallet \
+        -d /var/lib/zallet \
+        -c /var/lib/zallet/zallet.toml \
+        "$@"
+}
+
+type zallet
+zallet rpc getwalletinfo
+
 memo="${1}"     # $1 represent first argument
+
 
 # Change the from address to the UA that is in your zallet wallet
 from="u1tv302n3z3nagchg9naa9tgr5vlx5uxk69lv9l2n84wxk8vjdagqkgugln8vk2mh2l5tna8gmhnfyxlm36mc3cpss7uyex7u62wu3el08qecm60dcxdp3psklpugqtr7padq0s9mvdx2acs54rhjjzt8deh8qqkn3cemhje354xs0xrdw7crg2p5py375ym834krx36x2wrd6k7eczev"
@@ -67,14 +79,14 @@ done
 
 #Format example for Zallet
 #/toCurl.sh z_sendmany u1tv302n3z3nagchg9naa9tgr5vlx5uxk69lv9l2n84wxk8vjdagqkgugln8vk2mh2l5tna8gmhnfyxlm36mc3cpss7uyex7u62wu3el08qecm60dcxdp3psklpugqtr7padq0s9mvdx2acs54rhjjzt8deh8qqkn3cemhje354xs0xrdw7crg2p5py375ym834krx36x2wrd6k7eczev u1zhgy24tweexhjcsstya5qqzrus4cgv0amasfv5jp6f3p3qvw265rugn8ref5djg472l5s382mwuffremffr7se6xjlh5exagwg2d6frs 0.001 "66726f6d5a616c6c6574"
-myOwl="./zallet rpc z_sendmany '\"$from\"' '[$myAddresses]'"
+myOwl="zallet rpc z_sendmany '\"$from\"' '[$myAddresses]'"
 
 #uncomment to help debug command
 #echo "$myOwl"
 OPID=$(eval $myOwl)
 
 END="\"]'"
-BEGIN="./zallet rpc z_getoperationresult '[\""
+BEGIN="zallet rpc z_getoperationresult '[\""
 RESULT=$BEGIN$OPID$END
 
 sleep 5s # Waits 5 seconds.
@@ -90,7 +102,7 @@ else
 	echo "else ran"
 	myTx=$(echo -e "$temp" | jq )
 fi
-myBal=$(echo -e "$(eval ./zallet rpc z_gettotalbalance 0 true)" | jq .total)
+myBal=$(echo -e "$(eval zallet rpc z_gettotalbalance 0 true)" | jq .total)
 
 echo -e "${LIGHTBLUE}Zallet working${NC}..."
 echo
@@ -112,13 +124,13 @@ echo
 
 ##Once these methods become avail, will update this part of the code
 
-chainHeight=$(./toCurl.sh getinfo | jq .blocks)
+chainHeight=$(toCurl.sh getinfo | jq .blocks)
 temp=$(( $chainHeight - 1 ))
 isMined=""
 
 while [[ chainHeight -gt temp ]]
 do
-	check=$(./toCurl.sh getinfo | jq .blocks)
+	check=$(toCurl.sh getinfo | jq .blocks)
         
 	sleep 2s
 	#echo "check=$check"
@@ -129,7 +141,7 @@ do
         fi
 done
 
-myConfs="./zallet rpc z_viewtransaction '\"$myTx\"' | jq .confirmations"
+myConfs="zallet rpc z_viewtransaction '\"$myTx\"' | jq .confirmations"
 myConfs=$(eval $myConfs)
 
 

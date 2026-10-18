@@ -1,0 +1,1131 @@
+diff --git a/site/Privacy_Tools/Nym_Zcash_Anonymity.md b/site/Privacy_Tools/Nym_Zcash_Anonymity.md
+new file mode 100644
+index 00000000..8ec9d5b6
+--- /dev/null
++++ b/site/Privacy_Tools/Nym_Zcash_Anonymity.md
+@@ -0,0 +1,48 @@
++<a href="https://github.com/ZecHub/zechub/edit/main/site/Privacy_Tools/Nym_Zcash_Anonymity.md" target="_blank">
++  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
++</a>
++
++# Nym Mixnet Anonymity for Zcash
++
++> Last verified: October 18, 2026
++
++Zcash shielded pools hide amounts, senders, and receivers on-chain. They do not hide the network path between a wallet and the lightwallet server. Nym's mixnet adds that missing network-layer protection. As of October 2026 the integration is live in production wallets (Zingo, Zkool).
++
++Source: [How Nym adds anonymity to Zcash wallets](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 October 2026).
++
++## What is protected
++
++Nym breaks transaction packets (typically 7–15 KB of spending data and ZK proofs) into Sphinx packets and routes them through the mixnet. This:
++
++- Hides the sender's IP from the lightwallet server
++- Blends the traffic with other Nym traffic
++- Provides roughly 17 bits of entropy at default settings, with a cited anonymity set above 100,000 users
++
++Payments and price requests in Zingo v7 follow this path by default.
++
++## What is not protected
++
++Chain synchronization, nullifier queries, transaction fetches, and mempool traffic currently use the normal indexer connection. Device-level or application-level metadata outside the mixed packets is also outside Nym's scope.
++
++If your threat model requires hiding sync traffic, combine a native-mixnet wallet with system-level NymVPN. See [Nym VPN](/guides/nym-vpn).
++
++## Wallets
++
++| Wallet | Status | Notes |
++| --- | --- | --- |
++| Zingo v7 | Live, default | `makers run-cli` bundles `nym-proxy`. Session starts offline; `--online`, `--remember-online`, or `--server` grants consent. |
++| Zkool | Live | Native mixnet integration. |
++| Others | Via NymVPN | Route the wallet through system-level Mixnet mode. |
++
++Setup details for the wallet-level path are in [Route Zcash Wallet Traffic Over the Nym Mixnet](/guides/nym-mixnet-wallet-setup).
++
++## Tradeoffs
++
++A Nym-routed broadcast is roughly 12.5× slower than clearnet (~3.4 s). Tor is faster (~3.7×) but uses FIFO streams without mixing, so a global adversary can still correlate. Growing the shared Nym user base increases anonymity more effectively than adding extra delay.
++
++## Sources
++
++- [How Nym adds anonymity to Zcash wallets](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 October 2026
++- [Zingo + Nym](https://zingolabs.org/zingo/blog/zingo-nym/) — Zingo Labs
++- [Route Zcash Wallet Traffic Over the Nym Mixnet](/guides/nym-mixnet-wallet-setup) — ZecHub
++- [Nym VPN](/guides/nym-vpn) — ZecHub
+diff --git a/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 98%
+rename from site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to site/guides/Nym_Mixnet_Wallet_Setup.md
+index 8bfd4246..3a17256f 100644
+--- a/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
++++ b/site/guides/Nym_Mixnet_Wallet_Setup.md
+@@ -1,4 +1,4 @@
+-<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
++<a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
+   <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+ </a>
+ 
+diff --git a/translation/curated-pages.txt b/translation/curated-pages.txt
+index ca40202f..331a06e0 100644
+--- a/translation/curated-pages.txt
++++ b/translation/curated-pages.txt
+@@ -7,7 +7,7 @@ Privacy_Tools/2FA_Hardware_Devices.md
+ Privacy_Tools/Arti_Tor.md
+ Privacy_Tools/GrapheneOS.md
+ Privacy_Tools/Namada_Protocol.md
+-Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
++guides/Nym_Mixnet_Wallet_Setup.md
+ Privacy_Tools/PGP_Encryption.md
+ Privacy_Tools/Penumbra.md
+ Privacy_Tools/Secure_Messengers.md
+diff --git a/translation/menu-titles/ak.json b/translation/menu-titles/ak.json
+index c092ad32..214a212d 100644
+--- a/translation/menu-titles/ak.json
++++ b/translation/menu-titles/ak.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Awo Ntoatoaso a Edi Hɔ Tor Client wɔ Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS a wɔde yɛ adwuma",
+   "Privacy_Tools/Namada_Protocol.md": "Namada Nsɛm a Wɔahyehyɛ",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Fa Zcash Wallet Traffic no fa Nym Mixnet no so",
+   "Privacy_Tools/PGP_Encryption.md": "Nsɛm a Wɔde Sie (PGP) .",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Abɔfoɔ a Wɔwɔ Ahobammɔ",
+@@ -198,6 +197,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Tukɔ Akwankyerɛ: Efi zcashd kɔ Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Mining ne staking kokoam nsɛm",
+   "guides/My_First_Zcash_Workbook.md": "Me Zcash Adwuma Nhoma a Edi Kan",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Fa Zcash Wallet Traffic no fa Nym Mixnet no so",
+   "guides/Nym_VPN.md": "Nym VPN na ɛwɔ hɔ",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Run a Full Node on a Raspberry Pi 4 (Zebra + Zallet) - Abɔdin: Kɔmputa, Wifi ne kɔmputa ho dwumadie.",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd a wɔde Zingo ahyɛ mu",
+diff --git a/translation/menu-titles/ar.json b/translation/menu-titles/ar.json
+index 48c5f326..9b91a449 100644
+--- a/translation/menu-titles/ar.json
++++ b/translation/menu-titles/ar.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: عميل Tor من الجيل التالي بلغة Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "بروتوكول Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "توجيه حركة مرور محفظة Zcash عبر Nym Mixnet",
+   "Privacy_Tools/PGP_Encryption.md": "الخصوصية الجيدة جدًا (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "تطبيقات المراسلة الآمنة",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "دليل الترحيل: من zcashd إلى Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "خصوصية التعدين والتخزين",
+   "guides/My_First_Zcash_Workbook.md": "كتابي التدريبي الأول عن Zcash",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "توجيه حركة مرور محفظة Zcash عبر Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "تشغيل عقدة كاملة على Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd مع Zingo",
+diff --git a/translation/menu-titles/de.json b/translation/menu-titles/de.json
+index 7457a142..ec15adcb 100644
+--- a/translation/menu-titles/de.json
++++ b/translation/menu-titles/de.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Der Tor-Client der nächsten Generation in Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Namada Protocol",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Zcash Wallet-Datenverkehr über das Nym-Mixnet leiten",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Sichere Messenger",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Migrationsleitfaden: Von zcashd zu Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Privatsphäre beim Mining und Staking",
+   "guides/My_First_Zcash_Workbook.md": "Mein erstes Zcash-Arbeitsbuch",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Zcash Wallet-Datenverkehr über das Nym-Mixnet leiten",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Einen Full Node auf einem Raspberry Pi 4 betreiben (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd mit Zingo",
+diff --git a/translation/menu-titles/ee.json b/translation/menu-titles/ee.json
+index 86440048..064647e6 100644
+--- a/translation/menu-titles/ee.json
++++ b/translation/menu-titles/ee.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Dzidzime Si Gbɔna Tor Asitsalawo le Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS ƒe dɔwɔwɔ",
+   "Privacy_Tools/Namada_Protocol.md": "Namada ƒe Ðoɖowɔɖi",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Mɔ Zcash Gakotoku Ʋuʋu To Nym Mixnet",
+   "Privacy_Tools/PGP_Encryption.md": "Adzamenyawo Gbɔkpɔkpɔ Nyui Dzeani (PGP) .",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Dɔla Siwo Le Dedie",
+@@ -199,6 +198,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Ʋuʋu ƒe Mɔfiame: Tso zcashd dzi yi Zebrad/Zallet dzi",
+   "guides/Mining_and_Staking_Privacy.md": "Tomenukuƒewo kple ame ŋutɔ ƒe nyawo tsɔtsɔ de afɔku me",
+   "guides/My_First_Zcash_Workbook.md": "Nye Zcash Dɔwɔgbalẽ Gbãtɔ",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Mɔ Zcash Gakotoku Ʋuʋu To Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Zã Ŋkuléle Ðe Nuwo Ŋu le Raspberry Pi 4 (Zebra + Zallet) dzi",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd kple Zingo",
+diff --git a/translation/menu-titles/en.json b/translation/menu-titles/en.json
+index e7298640..bfce0565 100644
+--- a/translation/menu-titles/en.json
++++ b/translation/menu-titles/en.json
+@@ -7,7 +7,7 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: The Next-Generation Tor Client in Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Namada Protocol",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Route Zcash Wallet Traffic Over the Nym Mixnet",
++  "Privacy_Tools/Nym_Zcash_Anonymity.md": "Nym Mixnet Anonymity for Zcash",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Secure Messengers",
+@@ -205,6 +205,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Migration Guide: From zcashd to Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Mining and staking privacy",
+   "guides/My_First_Zcash_Workbook.md": "My First Zcash Workbook",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Route Zcash Wallet Traffic Over the Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Run a Full Node on a Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd with Zingo",
+diff --git a/translation/menu-titles/es.json b/translation/menu-titles/es.json
+index 9c327500..6eb7d5c3 100644
+--- a/translation/menu-titles/es.json
++++ b/translation/menu-titles/es.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: El cliente Tor de nueva generación en Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Namada Protocol",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Enruta el tráfico de la wallet Zcash a través de Nym Mixnet",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Mensajeros seguros",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Guía de migración: de zcashd a Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Privacidad de minería y staking",
+   "guides/My_First_Zcash_Workbook.md": "Mi Primer Cuaderno de Zcash",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Enruta el tráfico de la wallet Zcash a través de Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Ejecuta un Nodo Completo en una Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd con Zingo",
+diff --git a/translation/menu-titles/fr.json b/translation/menu-titles/fr.json
+index 4c200b9c..dd84d7ef 100644
+--- a/translation/menu-titles/fr.json
++++ b/translation/menu-titles/fr.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti : le client Tor de nouvelle génération en Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Protocole Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Acheminer le trafic des wallets Zcash via le mixnet Nym",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Messageries sécurisées",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Guide de migration : de zcashd vers Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Confidentialité du minage et du staking",
+   "guides/My_First_Zcash_Workbook.md": "Mon premier cahier d'exercices Zcash",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Acheminer le trafic des wallets Zcash via le mixnet Nym",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Exécuter un nœud complet sur un Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd avec Zingo",
+diff --git a/translation/menu-titles/hi.json b/translation/menu-titles/hi.json
+index 4fd01a21..6304d1fe 100644
+--- a/translation/menu-titles/hi.json
++++ b/translation/menu-titles/hi.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Rust में अगली पीढ़ी का Tor Client",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Namada Protocol",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Zcash वॉलेट ट्रैफ़िक को Nym Mixnet के माध्यम से रूट करें",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "सुरक्षित मैसेंजर",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "माइग्रेशन गाइड: zcashd से Zebrad/Zallet तक",
+   "guides/Mining_and_Staking_Privacy.md": "माइनिंग और स्टेकिंग गोपनीयता",
+   "guides/My_First_Zcash_Workbook.md": "मेरा पहला Zcash कार्यपुस्तिका",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Zcash वॉलेट ट्रैफ़िक को Nym Mixnet के माध्यम से रूट करें",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Raspberry Pi 4 पर एक फुल नोड चलाएँ (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "Zingo के साथ RPi5 Zebra Lightwalletd",
+diff --git a/translation/menu-titles/id.json b/translation/menu-titles/id.json
+index 021a199f..92c58fcb 100644
+--- a/translation/menu-titles/id.json
++++ b/translation/menu-titles/id.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Klien Tor Generasi Berikutnya dalam Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Protokol Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Mengarahkan Lalu Lintas Dompet Zcash Melalui Nym Mixnet",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Pesan Terenkripsi Aman",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Panduan Migrasi: Dari zcashd ke Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Privasi penambangan dan staking",
+   "guides/My_First_Zcash_Workbook.md": "Buku Kerja Zcash Pertamaku",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Mengarahkan Lalu Lintas Dompet Zcash Melalui Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Menjalankan Full Node pada Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd dengan Zingo",
+diff --git a/translation/menu-titles/ig.json b/translation/menu-titles/ig.json
+index 9418f44c..b60cd1cd 100644
+--- a/translation/menu-titles/ig.json
++++ b/translation/menu-titles/ig.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Onye ahịa Tor na-esote ọgbọ n'ime Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Usoro Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Ụzọ Zcash Wallet Traffic Gafee Nym Mixnet",
+   "Privacy_Tools/PGP_Encryption.md": "Ezigbo Nzuzo (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Ndị Ozi Nchekwa",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Ntuziaka Mbugharị: Site na zcashd ruo Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Igwupụta ihe na ichekwa ihe nzuzo",
+   "guides/My_First_Zcash_Workbook.md": "Akwụkwọ Ọrụ Zcash Mbụ M",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Ụzọ Zcash Wallet Traffic Gafee Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Gbaa Full Node na Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "A na-eji obere akpa Zebra RPi5 eme ihe na Zingo",
+diff --git a/translation/menu-titles/it.json b/translation/menu-titles/it.json
+index a718ff91..ad5257f6 100644
+--- a/translation/menu-titles/it.json
++++ b/translation/menu-titles/it.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: il client Tor di nuova generazione in Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Protocollo Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Instrada il traffico del portafoglio Zcash attraverso la mixnet Nym",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Messaggistica sicura",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Guida alla migrazione: da zcashd a Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Privacy del mining e dello staking",
+   "guides/My_First_Zcash_Workbook.md": "My First Zcash Workbook",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Instrada il traffico del portafoglio Zcash attraverso la mixnet Nym",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Esegui un full node (nodo completo) su un Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd con Zingo",
+diff --git a/translation/menu-titles/ja.json b/translation/menu-titles/ja.json
+index 04593575..9de451b6 100644
+--- a/translation/menu-titles/ja.json
++++ b/translation/menu-titles/ja.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Rustで構築された次世代のTorクライアント",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Namada Protocol",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Zcash ウォレットのトラフィックをNym Mixnet経由でルーティングする",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "セキュアメッセンジャーアプリ",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "移行ガイド：zcashd から Zebrad/Zallet へ",
+   "guides/Mining_and_Staking_Privacy.md": "マイニングとステーキングのプライバシー",
+   "guides/My_First_Zcash_Workbook.md": "はじめてのZcashワークブック",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Zcash ウォレットのトラフィックをNym Mixnet経由でルーティングする",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Raspberry Pi 4でフルノードを運用する（Zebra + Zallet）",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd with Zingo",
+diff --git a/translation/menu-titles/ko.json b/translation/menu-titles/ko.json
+index 3a5e6db8..3b5bf2f3 100644
+--- a/translation/menu-titles/ko.json
++++ b/translation/menu-titles/ko.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Rust로 만들어진 차세대 Tor 클라이언트",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Namada 프로토콜",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Zcash 지갑 트래픽을 Nym 믹스넷으로 라우팅하기",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "보안 메신저 앱",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "마이그레이션 가이드: zcashd에서 Zebrad/Zallet으로",
+   "guides/Mining_and_Staking_Privacy.md": "채굴 및 스테이킹 프라이버시",
+   "guides/My_First_Zcash_Workbook.md": "나의 첫 Zcash 워크북",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Zcash 지갑 트래픽을 Nym 믹스넷으로 라우팅하기",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Raspberry Pi 4에서 풀 노드 실행하기 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd with Zingo",
+diff --git a/translation/menu-titles/pt.json b/translation/menu-titles/pt.json
+index fc61e2f1..84a7bde6 100644
+--- a/translation/menu-titles/pt.json
++++ b/translation/menu-titles/pt.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: O Cliente Tor de Próxima Geração em Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Protocolo Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Encaminhar o Tráfego da Carteira Zcash pela Mixnet Nym",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Mensageiros Seguros",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Guia de Migração: De zcashd para Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Privacidade na mineração e no staking",
+   "guides/My_First_Zcash_Workbook.md": "Meu Primeiro Caderno de Exercícios do Zcash",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Encaminhar o Tráfego da Carteira Zcash pela Mixnet Nym",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Executar um Nó Completo num Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd com Zingo",
+diff --git a/translation/menu-titles/ru.json b/translation/menu-titles/ru.json
+index 31ab10cf..3acfcd94 100644
+--- a/translation/menu-titles/ru.json
++++ b/translation/menu-titles/ru.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Tor-клиент нового поколения на Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Протокол Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Направьте трафик кошелька Zcash через Nym Mixnet",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Безопасные мессенджеры",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Руководство по миграции: с zcashd на Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Конфиденциальность майнинга и стейкинга",
+   "guides/My_First_Zcash_Workbook.md": "Моя первая рабочая тетрадь по Zcash",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Направьте трафик кошелька Zcash через Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Запуск полного узла на Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd с Zingo",
+diff --git a/translation/menu-titles/sw.json b/translation/menu-titles/sw.json
+index 24f6e5d8..5add6bf1 100644
+--- a/translation/menu-titles/sw.json
++++ b/translation/menu-titles/sw.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Kizazi kijacho Tor mteja katika kutu",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Itifaki ya Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Trafiki ya Pochi ya Zcash kupitia Nym Mixnet",
+   "Privacy_Tools/PGP_Encryption.md": "Faragha Nzuri Sana (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Wajumbe Salama",
+@@ -199,6 +198,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Mwongozo wa Uhamiaji: Kutoka zcashd kwa Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Uchimbaji madini na faragha ya kuweka akiba",
+   "guides/My_First_Zcash_Workbook.md": "Kitabu Changu cha Kwanza cha Kazi Zcash",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Trafiki ya Pochi ya Zcash kupitia Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Endesha Node Kamili kwenye Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd yenye Zingo",
+diff --git a/translation/menu-titles/tr.json b/translation/menu-titles/tr.json
+index a56e0485..375ee64b 100644
+--- a/translation/menu-titles/tr.json
++++ b/translation/menu-titles/tr.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Rust ile Yeni Nesil Tor İstemcisi",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Namada Protocol",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Zcash Cüzdan Trafiğini Nym Mixnet Üzerinden Yönlendirin",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Güvenli Mesajlaşma Uygulamaları",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Geçiş Rehberi: zcashd’den Zebrad/Zallet’e",
+   "guides/Mining_and_Staking_Privacy.md": "Madencilik ve stake gizliliği",
+   "guides/My_First_Zcash_Workbook.md": "İlk Zcash Çalışma Kitabım",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Zcash Cüzdan Trafiğini Nym Mixnet Üzerinden Yönlendirin",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Raspberry Pi 4 Üzerinde Bir Tam Düğüm Çalıştırın (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "Zingo ile RPi5 Zebra Lightwalletd",
+diff --git a/translation/menu-titles/uk.json b/translation/menu-titles/uk.json
+index c8fd76d7..bc48a742 100644
+--- a/translation/menu-titles/uk.json
++++ b/translation/menu-titles/uk.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Tor-клієнт нового покоління на Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Протокол Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Спрямовуйте трафік гаманця Zcash через Nym Mixnet",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Безпечні месенджери",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Посібник з міграції: з zcashd на Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Конфіденційність майнінгу та стейкінгу",
+   "guides/My_First_Zcash_Workbook.md": "Мій перший Zcash: робочий зошит",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Спрямовуйте трафік гаманця Zcash через Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Запуск повного вузла на Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd із Zingo",
+diff --git a/translation/menu-titles/yo.json b/translation/menu-titles/yo.json
+index b2a6a1c7..0ede02d9 100644
+--- a/translation/menu-titles/yo.json
++++ b/translation/menu-titles/yo.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti: Ẹ̀rọ-ìgbésí ayé Tor ti ìran tó ń bọ́ nínú Rust",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS (Àdàkọ:Àwọn ojúewé)",
+   "Privacy_Tools/Namada_Protocol.md": "Ìlànà Namada",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "Ipa ọna Zcash Apamọwọ Lori Nym Mixnet",
+   "Privacy_Tools/PGP_Encryption.md": "Ìpamọ́ tó dára gan-an (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "Àwọn Ońṣẹ́ Ààbò",
+@@ -196,6 +195,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Atọ́nà Ìlọsípò: Láti zcashd sí Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "Iwakusa ati fifi ikọkọ pamọ",
+   "guides/My_First_Zcash_Workbook.md": "Ìwé Àkọ́kọ́ Zcash Mi",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "Ipa ọna Zcash Apamọwọ Lori Nym Mixnet",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "Ṣiṣẹ Nọ́òdu Pípẹ̀lẹ lórí Raspberry Pi 4 (Zebra + Zallet)",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "Aṣọ ìbòjú RPi5 Zebra pẹ̀lú Zingo",
+diff --git a/translation/menu-titles/zh.json b/translation/menu-titles/zh.json
+index 33dcf5f7..955ab456 100644
+--- a/translation/menu-titles/zh.json
++++ b/translation/menu-titles/zh.json
+@@ -7,7 +7,6 @@
+   "Privacy_Tools/Arti_Tor.md": "Arti：下一代 Rust Tor 客户端",
+   "Privacy_Tools/GrapheneOS.md": "Graphene OS",
+   "Privacy_Tools/Namada_Protocol.md": "Namada Protocol",
+-  "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": "通过 Nym Mixnet 路由 Zcash 钱包流量",
+   "Privacy_Tools/PGP_Encryption.md": "Pretty Good Privacy (PGP)",
+   "Privacy_Tools/Penumbra.md": "Penumbra",
+   "Privacy_Tools/Secure_Messengers.md": "安全即时通讯工具",
+@@ -200,6 +199,7 @@
+   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "迁移指南：从 zcashd 到 Zebrad/Zallet",
+   "guides/Mining_and_Staking_Privacy.md": "挖矿与质押隐私",
+   "guides/My_First_Zcash_Workbook.md": "我的第一本 Zcash 练习手册",
++  "guides/Nym_Mixnet_Wallet_Setup.md": "通过 Nym Mixnet 路由 Zcash 钱包流量",
+   "guides/Nym_VPN.md": "Nym VPN",
+   "guides/Raspberry_Pi_4_Full_Node.md": "在 Raspberry Pi 4 上运行完整节点（Zebra + Zallet）",
+   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "搭配 Zingo 的 RPi5 Zebra Lightwalletd",
+diff --git a/translation/sync-state.json b/translation/sync-state.json
+index a1de624e..dbdc31d0 100644
+--- a/translation/sync-state.json
++++ b/translation/sync-state.json
+@@ -1584,14 +1584,6 @@
+       "tool": "gt-static+table-rebuild+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "gt",
+-      "mode": "full",
+-      "tool": "gt-static",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -1799,6 +1791,14 @@
+       "mode": "full",
+       "tool": "gt-static",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "gt",
++      "mode": "full",
++      "tool": "gt-static",
++      "edited": false
+     }
+   },
+   "ar": {
+@@ -3386,14 +3386,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -3617,6 +3609,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra+handfix",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "de": {
+@@ -5204,14 +5204,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -5435,6 +5427,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra+handfix",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "ee": {
+@@ -7022,14 +7022,6 @@
+       "tool": "gt-static+table-rebuild+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "gt",
+-      "mode": "full",
+-      "tool": "gt-static",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -7245,6 +7237,14 @@
+       "mode": "full",
+       "tool": "gt-static",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "gt",
++      "mode": "full",
++      "tool": "gt-static",
++      "edited": false
+     }
+   },
+   "es": {
+@@ -8832,14 +8832,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -9063,6 +9055,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra+handfix",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "fr": {
+@@ -10650,14 +10650,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -10881,6 +10873,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra+handfix",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "hi": {
+@@ -12468,14 +12468,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/What_25_Second_Blocks_Actually_Change.md": {
+       "src": "sha256:e61535ef853120eeb4804ba322bf98b030a7a8e851a438ebf5105f109b6fdcd2",
+       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
+@@ -12699,6 +12691,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "id": {
+@@ -12990,14 +12990,6 @@
+       "tool": "codex/gpt-5.6-terra",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "google/gemma-4-26b-a4b",
+-      "edited": false
+-    },
+     "Privacy_Tools/Secure_Messengers.md": {
+       "src": "sha256:5a1144a7e71b7e82be05d489872f3d3e8117bef9667693861bdfae06faa1431e",
+       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
+@@ -14517,6 +14509,14 @@
+       "mode": "full",
+       "tool": "google/gemma-4-26b-a4b+handfix",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "google/gemma-4-26b-a4b",
++      "edited": false
+     }
+   },
+   "ig": {
+@@ -16104,14 +16104,6 @@
+       "tool": "gt-static+table-rebuild+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "gt",
+-      "mode": "full",
+-      "tool": "gt-static",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -16335,6 +16327,14 @@
+       "mode": "full",
+       "tool": "gt-static",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "gt",
++      "mode": "full",
++      "tool": "gt-static",
++      "edited": false
+     }
+   },
+   "it": {
+@@ -17922,14 +17922,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -18153,6 +18145,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra+handfix",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
++      "edited": false
+     }
+   },
+   "ja": {
+@@ -19740,14 +19740,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -19971,6 +19963,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "ko": {
+@@ -21558,14 +21558,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -21789,6 +21781,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "pt": {
+@@ -23376,14 +23376,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -23607,6 +23599,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra+handfix",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "ru": {
+@@ -25194,14 +25194,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -25425,6 +25417,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra+handfix",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "sw": {
+@@ -27012,14 +27012,6 @@
+       "tool": "gt-static+table-rebuild+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "gt",
+-      "mode": "full",
+-      "tool": "gt-static",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -27235,6 +27227,14 @@
+       "mode": "full",
+       "tool": "gt-static",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "gt",
++      "mode": "full",
++      "tool": "gt-static",
++      "edited": false
+     }
+   },
+   "tr": {
+@@ -28822,14 +28822,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -29053,6 +29045,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "uk": {
+@@ -30640,14 +30640,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -30871,6 +30863,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra+handfix",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   },
+   "yo": {
+@@ -32458,14 +32458,6 @@
+       "tool": "gt-static+table-rebuild+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "gt",
+-      "mode": "full",
+-      "tool": "gt-static",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -32649,6 +32641,14 @@
+       "mode": "full",
+       "tool": "gt-static",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "gt",
++      "mode": "full",
++      "tool": "gt-static",
++      "edited": false
+     }
+   },
+   "zh": {
+@@ -34236,14 +34236,6 @@
+       "tool": "codex/gpt-5.6-terra+verbatim-columns",
+       "edited": false
+     },
+-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
+-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+-      "engine": "llm",
+-      "mode": "full",
+-      "tool": "codex/gpt-5.6-terra",
+-      "edited": false
+-    },
+     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
+       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
+       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+@@ -34467,6 +34459,14 @@
+       "mode": "full",
+       "tool": "codex/gpt-5.6-terra",
+       "edited": false
++    },
++    "guides/Nym_Mixnet_Wallet_Setup.md": {
++      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
++      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
++      "engine": "llm",
++      "mode": "full",
++      "tool": "codex/gpt-5.6-terra",
++      "edited": false
+     }
+   }
+ }
+diff --git a/translations/ak/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/ak/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/ak/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/ak/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/ar/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/ar/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/ar/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/ar/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/de/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/de/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/de/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/de/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/ee/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/ee/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/ee/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/ee/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/es/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/es/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/es/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/es/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/fr/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/fr/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/fr/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/fr/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/hi/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/hi/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/hi/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/hi/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/id/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/id/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/id/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/id/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/ig/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/ig/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/ig/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/ig/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/it/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/it/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/it/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/it/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/ja/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/ja/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/ja/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/ja/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/ko/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/ko/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/ko/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/ko/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/pt/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/pt/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/pt/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/pt/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/ru/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/ru/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/ru/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/ru/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/sw/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/sw/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/sw/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/sw/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/tr/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/tr/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/tr/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/tr/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/uk/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/uk/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/uk/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/uk/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/yo/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/yo/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/yo/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/yo/site/guides/Nym_Mixnet_Wallet_Setup.md
+diff --git a/translations/zh/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md b/translations/zh/site/guides/Nym_Mixnet_Wallet_Setup.md
+similarity index 100%
+rename from translations/zh/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md
+rename to translations/zh/site/guides/Nym_Mixnet_Wallet_Setup.md
