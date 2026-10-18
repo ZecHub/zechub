@@ -1,0 +1,48 @@
+<a href="https://github.com/ZecHub/zechub/edit/main/site/Privacy_Tools/Nym_Zcash_Anonymity.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+# Nym Mixnet Anonymity for Zcash
+
+> Last verified: October 18, 2026
+
+Zcash shielded pools hide amounts, senders, and receivers on-chain. They do not hide the network path between a wallet and the lightwallet server. Nym's mixnet adds that missing network-layer protection. As of October 2026 the integration is live in production wallets (Zingo, Zkool).
+
+Source: [How Nym adds anonymity to Zcash wallets](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 October 2026).
+
+## What is protected
+
+Nym breaks transaction packets (typically 7–15 KB of spending data and ZK proofs) into Sphinx packets and routes them through the mixnet. This:
+
+- Hides the sender's IP from the lightwallet server
+- Blends the traffic with other Nym traffic
+- Provides roughly 17 bits of entropy at default settings, with a cited anonymity set above 100,000 users
+
+Payments and price requests in Zingo v7 follow this path by default.
+
+## What is not protected
+
+Chain synchronization, nullifier queries, transaction fetches, and mempool traffic currently use the normal indexer connection. Device-level or application-level metadata outside the mixed packets is also outside Nym's scope.
+
+If your threat model requires hiding sync traffic, combine a native-mixnet wallet with system-level NymVPN. See [Nym VPN](/guides/nym-vpn).
+
+## Wallets
+
+| Wallet | Status | Notes |
+| --- | --- | --- |
+| Zingo v7 | Live, default | `makers run-cli` bundles `nym-proxy`. Session starts offline; `--online`, `--remember-online`, or `--server` grants consent. |
+| Zkool | Live | Native mixnet integration. |
+| Others | Via NymVPN | Route the wallet through system-level Mixnet mode. |
+
+Setup details for the wallet-level path are in [Route Zcash Wallet Traffic Over the Nym Mixnet](/guides/nym-mixnet-wallet-setup).
+
+## Tradeoffs
+
+A Nym-routed broadcast is roughly 12.5× slower than clearnet (~3.4 s). Tor is faster (~3.7×) but uses FIFO streams without mixing, so a global adversary can still correlate. Growing the shared Nym user base increases anonymity more effectively than adding extra delay.
+
+## Sources
+
+- [How Nym adds anonymity to Zcash wallets](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 October 2026
+- [Zingo + Nym](https://zingolabs.org/zingo/blog/zingo-nym/) — Zingo Labs
+- [Route Zcash Wallet Traffic Over the Nym Mixnet](/guides/nym-mixnet-wallet-setup) — ZecHub
+- [Nym VPN](/guides/nym-vpn) — ZecHub
