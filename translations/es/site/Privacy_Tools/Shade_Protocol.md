@@ -67,10 +67,10 @@ Los principios de cohesión y captura de valor de Shade Protocol proporcionan un
 
 #### Enlaces de referencia
  
-[Sitio web de Shade Protocol](https://shadeprotocol.com)
+[Sitio web de Shade Protocol](https://shadeprotocol.io/)
 
 [Medium (Shade Protocol) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 
-[Altcoin Buzz.io](https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
+[Altcoin Buzz.io](https://web.archive.org/web/20250319054025/https://www.altcoinbuzz.io/reviews/what-is-shade-protocol/)
 
 [Messari.io](https://messari.io/project/shade/profile)

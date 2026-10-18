@@ -14,7 +14,7 @@ Los Activos Blindados de Zcash (ZSA) son una extensión propuesta del protocolo 
 - **Qué es:** activos personalizados al estilo ERC-20, pero blindados por defecto.
 - **Quién lo está desarrollando:** [QEDIT](https://qed-it.com/), bajo una subvención de la Zcash Foundation, en colaboración con Electric Coin Company.
 - **Cómo se especifica:** [ZIP 226](https://zips.z.cash/zip-0226) (transferencia y quema) junto con [ZIP 227](https://zips.z.cash/zip-0227) (emisión).
-- **Estado:** aún no está activo en la red principal. Está previsto que el protocolo ZSA se implemente en la Actualización de Red 7 (NU7).
+- **Estado:** no está activo en la red principal ni forma parte de la Actualización de Red 7 (NU7). [ZIP 259](https://zips.z.cash/zip-0259), que enumera todo lo que NU7 implementa, no incluye ZIP 226 ni ZIP 227, y no se ha fijado ninguna fecha de activación para ZSA.
 - **Comisiones:** siempre se pagan en ZEC, independientemente del activo que se esté moviendo.
 
 ---
@@ -29,7 +29,7 @@ Los Activos Blindados de Zcash permitirían la creación de tokens personalizado
 
 Un uso potencial importante de los ZSA sería emitir stablecoins en el protocolo de Zcash. Las stablecoins son criptomonedas que vinculan su valor a una moneda fiduciaria, como el dólar estadounidense o el euro. Actualmente, algunas de las stablecoins con mayor circulación son tokens ERC-20 como [USDC](https://www.circle.com/en/usdc) y [Dai](https://docs.makerdao.com/).
 
-Otro uso potencial de los ZSA sería la emisión de tokens de gobernanza. Por ejemplo, Zechub (el editor de esta wiki) es una Organización Autónoma Descentralizada (DAO) y podría crear y emitir a sus miembros un ZSA para votar propuestas y decisiones de gobernanza.
+Otro uso potencial de los ZSA sería la emisión de tokens de gobernanza. Por ejemplo, ZecHub (el editor de esta wiki) es una Organización Autónoma Descentralizada (DAO) y podría crear y emitir a sus miembros un ZSA para votar propuestas y decisiones de gobernanza.
 
 Los ZSA están siendo desarrollados por [QEDIT](https://qed-it.com/), bajo una importante subvención de la [Zcash Foundation](/zcash-organizations/zcash-foundation) en colaboración con [Electric Coin Company](/zcash-organizations/electric-coin-company). Como este proyecto aún está en desarrollo activo, las actualizaciones se publican en [este hilo](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) del foro de Zcash. La [solicitud de subvención de ZSA](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) de QEDIT está disponible en el sitio web de subvenciones de la Zcash Foundation.
 
@@ -129,7 +129,7 @@ Estas propuestas se adhieren técnicamente a la especificación de [Zcash Improv
 
 | Creencia común | Lo que realmente ocurre |
 | --- | --- |
-| "Los ZSA ya están activos en Zcash hoy." | No lo están. Está previsto que ZSA se implemente en la Actualización de Red 7 (NU7) y aún está en revisión y pruebas. |
+| "Los ZSA ya están activos en Zcash hoy." | No lo están. ZSA no forma parte de la Actualización de Red 7 (NU7), que [ZIP 259](https://zips.z.cash/zip-0259) define sin ZIP 226 ni ZIP 227, y aún está en revisión y pruebas. |
 | "ZSA lleva los smart contracts a Zcash." | ZSA especifica la emisión, transferencia y quema de activos. No es una capa de contratos programables de propósito general. |
 | "Puedes pagar las comisiones de ZSA con el propio token ZSA." | Las comisiones se pagan en ZEC. |
 | "Si está blindado, la oferta del token también debe ser secreta." | ZIP 227 hace que la emisión sea transparente a propósito, para que la oferta de cada activo pueda rastrearse públicamente. Los saldos y las transferencias siguen siendo privados; la oferta no. |
@@ -140,7 +140,7 @@ Estas propuestas se adhieren técnicamente a la especificación de [Zcash Improv
 ## Páginas relacionadas
 
 - [Halo](/zcash-tech/halo) — el sistema de pruebas detrás de Orchard, el protocolo que ZSA extiende
-- [Zk-SNARKs](/zcash-tech/zk-snarks) — las pruebas de conocimiento cero que permiten verificar una transferencia blindada sin revelarla
+- [zk-SNARKs](/zcash-tech/zk-snarks) — las pruebas de conocimiento cero que permiten verificar una transferencia blindada sin revelarla
 - [Shielded Pools](/using-zcash/shielded-pools) — donde los ZSA existirían junto con ZEC
 - [Transactions](/using-zcash/transactions) — cómo se compone una transacción de Zcash
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — la implementación de nodo usada en la demo de ZSA anterior

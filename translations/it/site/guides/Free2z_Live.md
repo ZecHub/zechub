@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: configurazione dell'account + tutorial sul Livestream
+# Free2z: configurazione dell'account + tutorial sul livestream
 
 ## Introduzione
 
@@ -73,7 +73,7 @@ Puoi acquistare altri 2Zs con Zcash cliccando sul tuo saldo di 2Zs. L'importo mi
 
 ## Donazioni e abbonamenti
 
-Una volta trovato un creatore che ti piace, puoi mostrare il tuo apprezzamento donando e abbonandoti a lui. Tutte le donazioni vanno direttamente al wallet del creatore. A titolo di esempio, abboniamoci alla [pagina ufficiale di Free2Z](https://free2z.cash/free2z).
+Una volta trovato un creatore che ti piace, puoi mostrare il tuo apprezzamento donando e abbonandoti a lui. Tutte le donazioni vanno direttamente al portafoglio del creatore. Ad esempio, abboniamoci alla [pagina di Free2Z](https://free2z.cash/free2z).
 
 ![Pagina ufficiale di Free2Z](/content-images/free2z-page-94c5fd5f4f.webp)
 
@@ -95,7 +95,7 @@ Oppure, all'interno di un post, cerca il pulsante più fluttuante. Da qui puoi d
 
 ![Pulsanti di azione fluttuanti all'interno di un post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
-## Live Streaming
+## Live streaming
 
 La piattaforma Free2z offre una fantastica funzionalità chiamata Free2z Live. Con questo strumento, i creatori possono avviare dirette live per i membri abbonati. Alcune funzionalità chiave di Free2z Live includono:  
 - Audio e video  

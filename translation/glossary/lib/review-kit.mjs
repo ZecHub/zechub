@@ -594,17 +594,27 @@ function conflictLines(glossary, termsEn) {
  * @param {string[]} [args.preserveVerbatim]
  * @param {string[]} [args.brands]
  */
-export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = null, dict = null, enDict = null, preserveVerbatim = [], brands = [] }) {
+export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = null, dict = null, enDict = null, preserveVerbatim = [], brands = [], instructions = null }) {
   const loc = glossary.locale;
   const lang = glossary.meta?.language_name ?? loc;
   const byId = termsById(termsEn);
   const out = [];
   out.push(`# ZecHub glossary review: ${lang} (\`${loc}\`)`, "");
   out.push(`Glossary version ${glossary.version}. Kit: ${kit}.`, "");
+  // Native-language instructions (translation/glossary/review-instructions.json)
+  // go first; the English ones below stay authoritative, and the importer
+  // reads only the English column headers.
+  if (instructions?.text) {
+    out.push(instructions.text.trim(), "");
+    if (instructions.machine) out.push("_(Machine-translated, not yet checked by a native speaker: please correct this paragraph in Notes.)_", "");
+  }
   out.push(
-    "**How to fill in:** in the **\u2705** column write `OK` if the proposed rendering is right, `keep English` to use the English word, or the rendering you would use. Write one rendering per cell; if it depends on the context (verb or noun, menu or page), say so in Notes and a maintainer will record it. Leave a cell empty if you are not sure. Do not edit the ID column.",
+    "**How to fill in**",
     "",
-    "Names that stay in English in every language (brands, products, programmes) are not in these tables.",
+    "- **\u2705 column:** write `OK` if the shown rendering is right, `keep English` to keep the English word, or the rendering you would use. One rendering per cell. Leave it empty if you are not sure. Do not edit the ID column.",
+    "- **Notes column (important):** for every row you change or mark `keep English`, write one short line in your own words saying why, for example \"this is what local exchanges and wallets use\" or \"this word means a street address\". Also use Notes when the right word depends on the context (verb or noun, menu or page), or when a row is unclear. Changes without a note may not be accepted.",
+    "",
+    "Names that stay in English in every language (brands, products, programmes) are not in these tables; they are listed in `translation/protected-terms.json`.",
     "",
     "## Conflicts to decide first",
     "",
@@ -643,7 +653,6 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
   if (kit === "ui" || kit === "all") {
     if (!dict || !enDict) throw new Error("the UI kit needs the website dictionaries (--dict and --en-dict)");
     const names = [...new Set([...preserveVerbatim, ...brands])];
-    const kept = new Set();
     const seenLabels = new Set();
     const proposeFor = (english, current) => {
       const p = glossary.phrases?.[english];
@@ -658,10 +667,8 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
       for (const { path, value } of items) {
         const english = value.trim();
         seenLabels.add(english);
-        if (preserveVerbatim.includes(english) || isNameOnly(english, names)) {
-          kept.add(english);
-          continue;
-        }
+        // Names stay English everywhere and are listed in protected-terms.json.
+        if (preserveVerbatim.includes(english) || isNameOnly(english, names)) continue;
         rows.push([path.join("."), english, proposeFor(english, get(dict, path))]);
       }
       out.push(`## ${UI_SECTION_TITLES[section]}`, `(\`${section}\`: ${rows.length} labels)`, "");
@@ -681,7 +688,6 @@ export function exportKit({ glossary, termsEn, kit, termIds = null, evidence = n
       others.forEach((k, i) => out.push(row([i + 1, "phrase", k, proposeFor(k, ""), "", ""])));
       out.push("");
     }
-    out.push("## Names kept in English (no need to check)", "", [...kept].sort((a, b) => (a.toLowerCase() < b.toLowerCase() ? -1 : 1)).join(", "), "");
   }
   return out.join("\n");
 }

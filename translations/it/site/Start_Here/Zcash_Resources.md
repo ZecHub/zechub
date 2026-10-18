@@ -28,7 +28,7 @@ Z.cash è il sito web principale di Zcash. Fornisce contenuti e documentazione s
 
 **[GitHub di Zcash](https://github.com/zcash/zcash)**
 
-Hai competenze di programmazione e vuoi approfondire l'aspetto tecnico di Zcash? Il repository GitHub di Zcash è il repository di zcashd, la prima implementazione di nodo Zcash. zcashd ha raggiunto il proprio arresto automatico di fine supporto il 18 luglio 2026 e non è più mantenuto; inoltre, la pagina di download a cui questa voce rimandava non è più disponibile. Lo stack mantenuto è [Zebra](https://github.com/ZcashFoundation/zebra) per il nodo e [Zallet](https://github.com/zcash/zallet) per il wallet — consulta la [guida alla migrazione da zcashd a Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Hai competenze di programmazione e vuoi approfondire l'aspetto tecnico di Zcash? Il repository GitHub di Zcash è il repository di zcashd, la prima implementazione di un nodo Zcash. zcashd ha raggiunto il proprio arresto automatico di fine supporto il 18 luglio 2026 e non è più mantenuto; inoltre, la pagina di download a cui questa voce rimandava non è più disponibile. Lo stack mantenuto è [Zebra](https://github.com/ZcashFoundation/zebra) per il nodo e [Zallet](https://github.com/zcash/zallet) per il portafoglio — consulta la [guida alla migrazione da zcashd a Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 **[GitHub della Zcash Foundation](https://github.com/ZcashFoundation)**
 
@@ -40,6 +40,6 @@ I concetti alla base dei sistemi di prove a conoscenza zero.
 
 **[Documentazione RPC di Zcash](https://zcash.github.io/rpc/)**
 
-Elenco dei comandi RPC esposti da zcashd. Per l'interfaccia RPC del wallet mantenuto, consulta il [Libro di Zallet](https://zcash.github.io/zallet/).
+Elenco dei comandi RPC esposti da zcashd. Per l'interfaccia RPC del portafoglio mantenuto, consulta il [Libro di Zallet](https://zcash.github.io/zallet/).
 
 _Questo è un documento incompleto_

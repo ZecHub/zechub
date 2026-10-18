@@ -1,0 +1,84 @@
+# Advisory only: comments the brand-shaped names a PR introduces that are not in
+# translation/protected-terms.json, so the author can protect them (or a
+# maintainer can decide they are ordinary words). Proposal: ZecHub/zechub#2309,
+# point 2. The sync pipeline independently holds such pages back; this comment
+# is for human-authored PRs, where nothing holds anything back yet.
+# It never blocks: the scan step cannot fail the PR.
+name: Brand name advisory
+
+on:
+  pull_request:
+    paths:
+      - "site/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: brand-advisory-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: List unprotected brand-shaped names on the pages this PR changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          set -e
+          # Pages changed by this PR, relative to site/ (the detector's path form).
+          gh api "repos/$REPO/pulls/$PR/files?per_page=100" --paginate \
+            --jq '.[] | select(.filename | endswith(".md")) | .filename' \
+            | grep '^site/' | sed 's#^site/##; s#\.md$##' > pages.txt || true
+          if [ ! -s pages.txt ]; then echo "none" > out.txt; exit 0; fi
+          ARGS=""; while IFS= read -r f; do ARGS="$ARGS --pages $f"; done < pages.txt
+          # shellcheck disable=SC2086
+          node scripts/brand-candidates.mjs $ARGS > raw.txt 2>&1 || true
+          # Only names that are NEW with this PR: drop the ones main already reports.
+          git checkout -q "origin/${{ github.event.pull_request.base.ref }}" -- \
+            translation/protected-terms.json translation/brand-candidates-ignore.txt 2>/dev/null || true
+          node scripts/brand-candidates.mjs $ARGS > base.txt 2>&1 || true
+          grep -v "^brand candidates" raw.txt | sort -u > new.txt || true
+          grep -v "^brand candidates" base.txt | sort -u > old.txt || true
+          comm -23 new.txt old.txt > only-pr.txt || true
+          if [ -s only-pr.txt ]; then
+            {
+              echo "### New project or product names to protect"
+              echo
+              echo "These lines look like brand names and are not in \`translation/protected-terms.json\`."
+              echo "Add each to this PR, spelled exactly as the project spells it on its own site, with its official URL:"
+              echo
+              echo '```'
+              cat only-pr.txt
+              echo '```'
+              echo
+              echo "Ordinary words (e.g. \`Rust\`, \`Linux\`) belong in \`translation/brand-candidates-ignore.txt\` instead, with a one-line reason."
+              echo
+              echo "<!-- brand-advisory-$PR -->"
+            } > out.txt
+          else
+            echo "none" > out.txt
+          fi
+      - name: Post or update the advisory comment
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          grep -q "^none$" out.txt && exit 0
+          MARKER="<!-- brand-advisory-$PR -->"
+          EXISTING=$(gh api "repos/$REPO/issues/$PR/comments" --paginate \
+            --jq ".[] | select(.body | contains(\"$MARKER\")) | .id" | tail -1)
+          if [ -n "$EXISTING" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$EXISTING" -F body=@out.txt > /dev/null
+          else
+            gh issue comment "$PR" -R "$REPO" --body-file out.txt
+          fi

@@ -10,7 +10,7 @@
 - Saat ini, sebuah dompet harus mencoba mendekripsi sebagian besar blockchain untuk menemukan pembayaran mana yang menjadi miliknya, dan itulah alasan utama mengapa sinkronisasi terlindungi terasa lambat
 - Tachyon menggantikan hal tersebut dengan **oblivious synchronization**, sehingga sebuah dompet mengambil apa yang dibutuhkannya tanpa memindai segalanya dan tanpa memberi tahu server bagian mana yang diinginkannya
 - Ini juga memindahkan detail pembayaran keluar dari blockchain ke dalam permintaan pembayaran itu sendiri, yang membuat protokol menjadi lebih sederhana tetapi mengalihkan tanggung jawab ke dompet
-- Ini adalah sebuah proposal, pertama kali diterbitkan pada April 2025 dan dinamakan sebagai kandidat untuk NU7. Fitur ini **belum diluncurkan**, dan memerlukan upaya rekayasa pada skala peningkatan Sapling
+- Ini adalah sebuah proposal, pertama kali diterbitkan pada April 2025. Fitur ini **bukan bagian dari NU7** dan **belum diluncurkan**, serta memerlukan upaya rekayasa pada skala peningkatan Sapling
 
 <br/>
 
@@ -73,7 +73,7 @@ Alur ketiga adalah **agregat transaksi terlindungi**, yang mengubah cara perubah
 
 ## Status pekerjaan saat ini
 
-Tachyon adalah sebuah **proposal, bukan fitur yang sudah dirilis**. Proposal ini diterbitkan pada April 2025, dan sebuah postingan lanjutan pada Mei 2025 membahas implikasi konsensusnya. Ini dinamakan sebagai kandidat untuk NU7, peningkatan besar berikutnya setelah Ironwood, namun isi dari NU7 ditentukan melalui pemungutan suara pemegang koin dan belum ada hal apa pun mengenai Tachyon yang diputuskan.
+Tachyon adalah sebuah **proposal, bukan fitur yang sudah dirilis**. Proposal ini diterbitkan pada April 2025, dan sebuah postingan lanjutan pada Mei 2025 membahas implikasi konsensusnya. Proposal ini dinamakan sebagai kandidat untuk NU7, peningkatan berikutnya setelah Ironwood, tetapi cakupan NU7 yang disepakati pada 17 September 2026 tidak mencakupnya: [ZIP 259](https://zips.z.cash/zip-0259) mencantumkan hal yang diterapkan oleh NU7, dan [pengumuman forum](https://forum.zcashcommunity.com/t/nu7-timeline/57655) menyatakan bahwa tidak ada format transaksi baru di dalamnya. Belum ada tanggal aktivasi yang ditetapkan untuk Tachyon.
 
 Kerangka berpikir penulis sendiri adalah bahwa ini merupakan rencana yang dapat ditindaklanjuti alih-alih penelitian spekulatif, namun memerlukan upaya rekayasa yang sebanding dengan Sapling, dengan beberapa pertanyaan yang lebih sulit sengaja dibiarkan untuk kemudian hari.
 
@@ -87,7 +87,7 @@ Pekerjaan terkait sudah terlihat. [Zakura](https://zechub.wiki/zcash-tech/zakura
 - **Tachyon tidak sama dengan Ironwood.** Ironwood diaktifkan pada Juli 2026 dan menangani pool Orchard serta turnstile. Tachyon adalah proposal terpisah yang muncul kemudian mengenai penskalaan.
 - **Tachyon bukanlah pengurangan privasi.** Tujuannya adalah untuk menjaga ketidakterbedaan ledger sambil menghilangkan biaya penskalaan, bukan menukar privasi dengan kecepatan.
 - **Verifikasi zk-SNARK tidak pernah menjadi hambatan.** Proposal tersebut secara eksplisit menyatakan bahwa bagian yang lambat adalah bagaimana dompet menemukan dan mengoordinasikan status, bukan biaya pemeriksaan proof.
-- **"Ditujukan untuk NU7" bukanlah sebuah komitmen.** Apa yang masuk ke dalam NU7 ditentukan melalui pemungutan suara.
+- **Tachyon tidak termasuk dalam NU7.** Pernah disebut sebagai kandidat, tetapi cakupan yang disepakati pada September 2026 mencakup blok 25 detik, daur ulang biaya, dan penghentian transaksi versi 4, tanpa format transaksi baru ([ZIP 259](https://zips.z.cash/zip-0259)).
 
 <br/>
 

@@ -1,6 +1,6 @@
 # Bibliothèque Zcash
 
-Un glossaire complet des principaux termes, concepts et ressources liés à Zcash.
+Un glossaire complet des principaux termes, concepts et ressources liés à Zcash. Il s’agit de la bibliothèque unique permettant de rechercher des termes issus des notes de version, des fils de discussion du forum ou des journaux de modifications des wallets.
 
 ### Navigation rapide
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
@@ -9,33 +9,33 @@ Un glossaire complet des principaux termes, concepts et ressources liés à Zcas
 
 ## A
 
-| Term | Definition |
+| Terme | Définition |
 |------|-----------|
 | Actions | Au lieu de créer plusieurs preuves individuelles pour chaque dépense et chaque sortie, le protocole Orchard les fusionne en une seule Action. |
-| Addresses | Zcash possède des adresses Shielded (Z/zaddr) et Transparent (T/taddr). Les adresses Unified (UA) sont progressivement introduites pour remplacer Z et T à la suite de la mise à niveau NU5. |
+| Addresses | Zcash possède des adresses Shielded (zaddr) et Transparent (taddr). Les adresses Unified (UA) regroupent plusieurs types de destinataires afin qu'un wallet expéditeur puisse choisir celui que les deux parties prennent le mieux en charge. Spécifiées dans [ZIP 316](https://zips.z.cash/zip-0316). [Adresses Unified](/zcash-tech/unified-addresses) |
 | Arborist Call | Un appel bimensuel couvrant les mises à jour du développement du protocole Zcash et de la recherche. Hébergé sur le forum communautaire Zcash et Discord. [Notes de réunion](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Annonces du forum](https://forum.zcashcommunity.com) |
 | Auto-shielding | Permet aux utilisateurs (plus précisément à leurs wallets) de déplacer automatiquement les fonds d'une adresse transparente vers le pool ZEC protégé le plus récent. |
 
 ## B
 
-| Term | Definition |
+| Terme | Définition |
 |------|-----------|
 | Benchmarking | Les mineurs peuvent soumettre des métriques sur l'efficacité des différents matériels utilisés pour miner Zcash. [Voir ici](https://zcashbenchmarks.info) |
 | Block | Un bloc est un enregistrement dans la blockchain Zcash qui contient un ensemble de transactions envoyées sur le réseau. En moyenne, environ toutes les 75 secondes, un nouveau bloc est ajouté à la blockchain. |
-| Block Explorer | Un outil en ligne permettant de voir toutes les transactions, passées et actuelles, sur la blockchain. [Explorateur de blocs Zcash](https://zcashexplorer.app/) |
-| Blogs | [Blog ZODL (anciennement Electric Coin Co)](https://zodl.com/blog/) / [Blog de la Zcash Foundation](https://zfnd.org/blog/) / [Blog ZecHub](https://zechub.wiki/zechub-dao) |
+| Block Explorer | Un outil en ligne permettant de voir toutes les transactions, passées et actuelles, sur la blockchain. [Zcash Explorateur de blocs](https://zcashexplorer.app/) |
+| Blogs | [ZODL Blog (anciennement Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Bulletin d’information](https://zechub.substack.com/) |
 | Blossom | La 3e mise à niveau majeure du réseau pour Zcash. [Plus d'infos](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
 
-| Term | Definition |
+| Terme | Définition |
 |------|-----------|
 | Canopy | La 5e mise à niveau majeure du réseau pour Zcash. [Plus d'infos](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Permet à un auteur d'engagement de s'engager sur un polynôme avec une chaîne courte pouvant être utilisée par un vérificateur pour confirmer les évaluations revendiquées du polynôme engagé. Utile pour réduire les coûts de communication dans le protocole Zcash. |
 | Community | [Le forum communautaire officiel de Zcash](https://forum.zcashcommunity.com) / [Zcash communauté Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Une proposition de conception de consensus hybride qui conserve la production de blocs par preuve de travail et y ajoute une couche de finalité par preuve d’enjeu, afin que les blocs obtiennent une finalité plus forte sans abandonner le minage. Elle est issue des recherches sur la Trailing Finality Layer et est développée par Shielded Labs, encore en développement sur testnet en 2026. |
+| Crosslink | Une proposition de conception de consensus hybride qui ferait fonctionner la preuve d’enjeu parallèlement à la preuve de travail existante de Zcash. Shielded Labs dirige les travaux et maintient un prototype dans le dépôt `zebra-crosslink`. Crosslink ne fait pas aujourd’hui partie de Zcash. [Crosslink protocole](/zcash-tech/crosslink-protocol) |
 | CrossPay | Une fonctionnalité du wallet ZODL qui vous permet de dépenser des ZEC shielded tandis que le destinataire est payé dans l’actif et sur la chaîne de son choix, via un routage par NEAR Intents plutôt que par un échange centralisé. |
-| Cypherpunk Zero | Un univers créatif et un effort collaboratif entre ECC, l'illustrateur Stranger Wolf, Mighty Jaxx et certains partenaires de l'écosystème. [Site Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea Collection](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Un univers créatif et un effort collaboratif entre ECC, l'illustrateur Stranger Wolf, Mighty Jaxx et certains partenaires de l'écosystème. [Réseaux sociaux de Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Collection](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -90,7 +90,7 @@ Un glossaire complet des principaux termes, concepts et ressources liés à Zcas
 | Integrations | Vous pouvez accepter des paiements Zcash via plusieurs fournisseurs tiers. [Processeurs de paiement](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | Une machine abstraite qui modélise le calcul comme un échange de messages entre deux parties : un prouveur et un vérificateur. |
 | Investment | Un certain nombre d'options financières sont disponibles pour les investisseurs institutionnels ou les family offices qui souhaitent s'exposer à Zcash. [Liste complète](https://z.cash/investors/) |
-| Ironwood | La mise à niveau du réseau (NU6.3) qui a été activée sur le mainnet le 28 juillet 2026 au bloc 3,428,143. Elle a introduit un nouveau pool protégé, également appelé Ironwood, et a rendu le pool Orchard uniquement dépensable afin que la valeur existante migre à travers le turnstile. [Plus d'infos](/zcash-tech/ironwood) |
+| Ironwood | Mise à niveau du réseau NU6.3, active sur le mainnet depuis le bloc 3,428,143 le 28 juillet 2026. Ironwood ajoute un nouveau pool protégé construit sur le circuit Orchard corrigé et scelle le pool Orchard d'origine, afin que chacun puisse vérifier que l'offre en circulation est honnête. Ses règles de consensus sont spécifiées dans [ZIP 258](https://zips.z.cash/zip-0258). [Ironwood](/zcash-tech/ironwood) |
 
 ## J
 
@@ -130,15 +130,15 @@ Un glossaire complet des principaux termes, concepts et ressources liés à Zcas
 | Nighthawk | Un wallet mobile pour Zcash. [Site web](https://nighthawkwallet.com) |
 | Noir Wallet | Un wallet d'extension de navigateur pour Zcash soutenu par Zcash Community Grants, conçu pour connecter directement les ZEC protégés aux applications du navigateur au lieu de s'appuyer sur des codes QR et des transferts manuels. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | La 6e mise à niveau majeure du réseau pour Zcash, introduisant le pool protégé Orchard et les adresses Unified. [Plus d'infos](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | La 7e mise à niveau majeure du réseau pour Zcash, ajustant la subvention des blocs afin de financer le programme Zcash Community Grants et Shielded Labs. Activée fin 2024. [Plus d'infos](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU6 | La 7e mise à niveau majeure du réseau pour Zcash, ajustant la subvention des blocs afin de financer le programme Zcash Community Grants et la réserve bloquée différée du fonds de développement. Activée fin 2024. [Plus d'infos](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 | NU7 | La prochaine mise à niveau majeure du réseau après Ironwood. Les fonctionnalités candidates incluent les travaux de mise à l'échelle de Project Tachyon, Zcash Shielded Assets et le Network Sustainability Mechanism. |
 
 ## O
 
-| Term | Definition |
+| Terme | Définition |
 |------|-----------|
-| Oblivious Synchronization | Une méthode en cours de développement dans le Project Tachyon qui permet à un wallet de demander à un serveur non fiable les données dont il a besoin sans révéler quelles notes il demande. Le serveur n’apprend jamais vos nullifiers, car le protocole les fait évoluer de manière non corrélable. [Présentation](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Le troisième pool protégé pour Zcash, représentant l'évolution continue de notre pile technologique zk-SNARK. [Détails complets](https://electriccoin.co/blog/explaining-halo-2/) |
+| Oblivious Synchronization | Une méthode en cours de développement dans Project Tachyon qui permet à un wallet de demander à un serveur non fiable les données dont il a besoin sans révéler quelles notes il demande. Le serveur n’apprend jamais vos nullifiers, car le protocole les fait évoluer de manière non corrélable. [Présentation](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Orchard | Le pool protégé introduit dans NU5. Ironwood l’a scellé après la découverte d’un bug de validité, vous ne pouvez donc plus envoyer ou recevoir au sein de Orchard. Les fonds ne peuvent sortir que par le tourniquet. [Pools protégés](/using-zcash/shielded-pools) |
 | Overwinter | La 1re mise à niveau du réseau pour Zcash. [Plus d'infos](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
@@ -181,7 +181,7 @@ Un glossaire complet des principaux termes, concepts et ressources liés à Zcas
 
 | Term | Definition |
 |------|-----------|
-| Tachyon | Le programme de mise à l’échelle de Zcash, prévu pour NU7. Il fait évoluer les wallets pour qu’ils n’aient plus à scanner chaque bloc, en s’orientant vers un état de wallet accompagné de preuves, une synchronisation oblivious et un état de nœud élagable, avec pour objectif un débit shielded de plusieurs milliers de transactions par seconde. [Site du projet](https://tachyon.z.cash/overview/) |
+| Tachyon | Le programme de mise à l’échelle de Zcash. Il ne fait pas partie de NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) et n’a pas de date d’activation. Il fait évoluer les wallets pour qu’ils n’aient plus à scanner chaque bloc, en s’orientant vers un état de wallet accompagné de preuves, une synchronisation oblivious et un état de nœud élagable, avec pour objectif un débit shielded de plusieurs milliers de transactions par seconde. [Site du projet](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (monnaie de test sans valeur). |
 | Testnet | Une blockchain distincte pour tester les mises à niveau et les fonctionnalités avant le mainnet. |
 | Trailing Finality Layer (TFL) | Recherche visant à ajouter une couche de finalité derrière la chaîne à preuve de travail de Zcash afin que les blocs récents puissent être finalisés sans remplacer le minage. Crosslink est la conception issue de ces travaux. |
@@ -232,18 +232,19 @@ Un glossaire complet des principaux termes, concepts et ressources liés à Zcas
 | Zcash Foundation | Organisation indépendante à but non lucratif qui soutient l'écosystème Zcash, finance le développement et promeut la confidentialité. |
 | Zcash Network | Réseau pair à pair de nœuds qui valide les transactions et maintient la blockchain. |
 | ZEC | Le code monétaire officiel de Zcash (certains exchanges affichent encore XZC). |
+| Z3 stack | Les trois programmes qui remplacent ensemble zcashd : Zebra pour le nœud, Zaino pour l'indexation, Zallet pour le wallet. [Stack Z3](/zcash-tech/z3-stack) |
 | Zerocash | Le protocole académique (2014) sur lequel Zcash est basé. |
-| Zaino | L'indexeur Zcash de nouvelle génération remplaçant lightwalletd, construit par la Zcash Foundation. Il permet aux clients légers de se synchroniser plus rapidement et de manière plus privée. Fait partie de la mise à niveau de l'infrastructure Zcash Z3. |
-| Zakura | Une implémentation de nœud complet Zcash publiée en juillet 2026, construite comme un fork de Zebra par Valar Group et Project Tachyon. Elle vise le débit et la vitesse de synchronisation, avec amorçage par snapshot et un objectif affiché d'échelle de réseau de cartes, autour de 50 000 transactions par seconde. [zakura.com](https://zakura.com) |
-| Zallet | Le composant wallet qui a repris les fonctions de wallet de zcashd lors de son retrait, construit sur Zaino dans le cadre des travaux d'infrastructure Zcash Z3. |
-| Zebra | L'implémentation de nœud complet en Rust de la Zcash Foundation (alternative à zcashd). Prête pour la production et activement maintenue. [GitHub](https://github.com/ZcashFoundation/zebra) |
-| zcashd | Le nœud complet Zcash d'origine, forké depuis Bitcoin Core. Retiré en juillet 2026 après une longue dépréciation, avec ses rôles répartis entre Zebra pour le consensus et Zallet pour les fonctions de wallet. |
-| ZIP | Zcash Improvement Proposal - le processus de gouvernance communautaire utilisé pour proposer et ratifier les changements de protocole. [ZIPDépôt](https://github.com/zcash/zips) |
+| Zaino | Un indexeur qui fournit des données de wallet depuis un nœud Zebra, écrit en Rust par Zingo Labs. Il reprend le travail d'indexation que zcashd effectuait pour les wallets légers. [Zaino](/zcash-tech/zaino) |
+| Zakura | Un nœud complet Zcash distinct, conçu pour l'évolutivité et dirigé par Sean Bowe et Dev Ojha. Il se synchronise plus rapidement, élague les blocs nativement et peut exécuter zcashd par-dessus pour les logiciels qui en dépendent encore. [Zakura nœud](/zcash-tech/zakura-node) |
+| Zallet | Le wallet qui remplace le wallet zcashd. Transférez un `wallet.dat` existant plutôt que de repartir de zéro. [Zallet](/zcash-tech/zallet) et la [Zallet référence rapide](/using-zcash/zallet-quick-reference-guide) |
+| Zebra | Le nœud complet qui remplace zcashd, maintenu par la Zcash Foundation. Exécutez-le si vous avez besoin d'un nœud de validation. [Zebra nœud complet](/zcash-tech/zebra-full-node) |
+| zcashd | Le nœud complet et wallet Zcash d'origine, désormais retiré. La version 6.20.0 s'est arrêtée au bloc 3417100 le 18 juillet 2026 et n'a jamais pris en charge NU6.3. Exécutez plutôt la stack Z3 ou Zakura. [Guide de migration](/guides/migration-guide-zcashd-to-zebrad-zallet) |
+| ZIP | Zcash Improvement Proposal - le processus de gouvernance communautaire utilisé pour proposer et ratifier les changements de protocole. [ZIP Dépôt](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab. L'organisation indépendante fondée au début de 2026 par Josh Swihart et l'ancienne équipe d'ingénierie de Electric Coin Company après leur démission à la suite d'un différend de gouvernance avec Bootstrap. Elle a levé plus de 25 millions de dollars en financement d'amorçage en mars 2026 et maintient le wallet ZODL, renommé depuis Zashi en février 2026. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — la cryptographie qui alimente les transactions protégées Zcash. Permet de prouver une affirmation (par ex. une dépense valide) sans révéler aucune information secrète. |
-| ZSA (Zcash Shielded Assets) | Des tokens émis par les utilisateurs qui héritent de la confidentialité protégée de Zcash, permettant à des actifs autres que ZEC de circuler de façon privée sur le réseau. Spécifiés dans [ZIP 226](https://zips.z.cash/zip-0226) et fonctionnalité candidate pour NU7. |
+| ZSA (Zcash Shielded Assets) | Des tokens émis par les utilisateurs qui héritent de la confidentialité protégée de Zcash, permettant à des actifs autres que ZEC de circuler de façon privée sur le réseau. Spécifiés dans [ZIP 226](https://zips.z.cash/zip-0226). Ils ne font pas partie de NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) et n'ont pas de date d'activation. |
 
 ---
 
-**Dernière mise à jour :** juillet 2026
+**Dernière mise à jour :** octobre 2026
 **Vous voulez contribuer ?** [Modifier cette page sur GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)

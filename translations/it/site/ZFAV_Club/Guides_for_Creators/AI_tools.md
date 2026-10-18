@@ -8,7 +8,7 @@ Ecco un elenco per rendere la vita più facile. Come usarli è un altro discorso
 
 Scrivere i prompt migliori ha una curva di apprendimento. È possibile padroneggiare le basi piuttosto in fretta.
 
-## Generazione di testo / Assistenti
+## Generazione di testo / assistenti
 
 [Analizzatore di prompt](https://novelai.net/tokenizer) (tokenizer) per imparare come funzionano i prompt e quanti token usano.
 

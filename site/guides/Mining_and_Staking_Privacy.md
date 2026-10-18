@@ -4,7 +4,7 @@
 
 # Mining and staking privacy
 
-Your miner payout and your finalizer are not the same thing. The chain never links them. That is useful, and it is easy to waste.
+Your miner payout and your finalizer are not the same thing. The chain never links them.
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
@@ -43,9 +43,11 @@ Your miner payout and your finalizer are not the same thing. The chain never lin
 |---|---|---|
 | Miner t-address and coinbase history | Yes | Normal transparent outputs |
 | Finalizer key and zfinv1 | Yes, once on the roster | It has to be, to verify votes |
-| Voting power and reward bank | Yes | Published against the finalizer key |
+| Voting power and reward bank | Yes | Published against the finalizer key so stake distribution can be audited |
 | Which transparent address funded a bond | No, after a shield | The bond spends shielded notes |
 | Link from your miner to your finalizer | Not on chain | Nothing in the protocol writes it |
+
+Staked amounts are revealed on purpose. The design needs the total staked and the distribution across finalizers to be publicly checkable. Quantization (powers of 10) and fixed staking windows limit how much individual timing or pattern information leaks while still allowing that audit. Unstaked Orchard balances stay private; staking is the intentional disclosure.
 
 ## Stake to yourself, or to someone else
 
@@ -56,11 +58,11 @@ Your miner payout and your finalizer are not the same thing. The chain never lin
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
     <div className="font-semibold text-amber-950 dark:text-amber-50">Bond to another member</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">The voting power shows under their key. They earn the 10% active-finalizer commission. You keep the 90% that accrues on the bond. This is the pattern that breaks the obvious guess.</p>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">The voting power shows under their key. They earn the 10% active-finalizer commission. You keep the 90% that accrues on the bond. This breaks the obvious guess that the miner receiving the transparent payout is the same person operating the finalizer.</p>
   </div>
 </div>
 
-A group can mine on separate payout addresses, shield, and bond across members. That makes "this miner is this finalizer" much harder to claim. It does not hide who the finalizers are, and it does not hide the mining.
+A group can mine on separate payout addresses, shield, and bond across members. That makes "this miner is this finalizer" much harder to claim from chain data. It does not hide who the finalizers are, and it does not hide the mining.
 
 ## What this does not do
 

@@ -58,7 +58,7 @@ Zcash (ZEC) jẹ́ ètò ìsanwó owó alágbéka tí a ṣe fún ìpamọ́ tí
 
    __Zcash Payment__: Mullvad gba Zcash gẹ́gẹ́ bí àṣàyàn ìsanwó, èyí tí ó fún àwọn olùlò láyè láti sanwó fún ìforúkọsílẹ̀ wọn pẹ̀lú ìpamọ́ tí a mú sunwọ̀n síi. Mullvad VPN.
 
-3. [__Nym VPN (dVPN)__](https://nymtech.net/)
+3. [__Nym VPN (dVPN)__](https://nym.com/)
    
    Nym VPN jẹ́ VPN tí a kò ṣe àkóso rẹ̀ (dVPN) tí ó dojúkọ ìpamọ́ àti ààbò olùlò láti mú kí ìpamọ́ àti ààbò wọn pọ̀ sí i nípasẹ̀ nẹ́tíwọ́ọ̀kì tí ó dá lórí ìpamọ́. Nym VPN ń ṣiṣẹ́ lọ́nà tí ó yàtọ̀ sí VPN ìbílẹ̀ nípasẹ̀ 
    nípa lílo mixnet, níbi tí a ti ń darí ìṣíkiri àwọn olùlò nípasẹ̀ nẹ́tíwọ́ọ̀kì àwọn nódù. Àwọn ohun pàtàkì ti Nym VPN ni:
@@ -77,7 +77,7 @@ Zcash (ZEC) jẹ́ ètò ìsanwó owó alágbéka tí a ṣe fún ìpamọ́ tí
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)
- 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
+ 5. [__CyberGhost__](https://www.cyberghostvpn.com/)
  6. [__Wọlé sí Íńtánẹ́ẹ̀tì Àdáni (PIA)__](https://www.privateinternetaccess.com/)
 
 Ẹ rántí pé wíwà àwọn àṣàyàn ìsanwó owó-orí-ìnáwó lè yípadà, nítorí náà ó dára láti ṣàyẹ̀wò ojú-òpó wẹ́ẹ̀bù olùpèsè VPN tàbí kí ẹ kàn sí olùrànlọ́wọ́ oníbàárà wọn fún ìwífún tuntun lórí àwọn ọ̀nà ìsanwó tí a gbà, títí kan Zcash.

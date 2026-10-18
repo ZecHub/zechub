@@ -34,7 +34,7 @@ The FPF X FPF grant application process includes several processes. First, appli
 
 More information about FPF X FPF can be seen on the Financial Privacy Fun (FPF) website [here](https://www.financialprivacyfoundation.org/grants) and if you are still curious about the FPF X FPF program, you can visit the FAQs document here: [FAQs](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-If you are interested in becoming a Volunteer Reviewer for this round of the FPF X FPF program, please visit this [link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). For further questions regarding the FPF X FPF Grant Program, you can ask directly by sending an email [FPF](info@financialprivacyfoundation.org).
+If you are interested in becoming a Volunteer Reviewer for this round of the FPF X FPF program, please visit this [link](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). For further questions regarding the FPF X FPF Grant Program, you can ask directly by sending an email [FPF](mailto:info@financialprivacyfoundation.org).
 
 ## Resources 
 [Financial Privacy Fund](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

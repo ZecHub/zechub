@@ -1,4 +1,4 @@
-# Guida al Multisig di Zkool
+# Guida al multisig di Zkool
 
 Questa guida fornisce una procedura passo passo su come effettuare transazioni multisig usando Zkool. Include la creazione di account, l'invio o la ricezione di fondi e l'impostazione della generazione distribuita delle chiavi (DKG) per il multisig. Sono inclusi screenshot per ogni passaggio principale.
 
@@ -82,14 +82,14 @@ Una volta completata, il saldo si aggiorna nella tua lista degli account.
 ![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
 
 
-## 4. Eseguire transazioni multisig: impostare la generazione distribuita delle chiavi (Multisig)
+## 4. Eseguire transazioni multisig: impostare la generazione distribuita delle chiavi (multisig)
 
 Il multisig in Zkool usa la **generazione distribuita delle chiavi (DKG)** per garantire che più partecipanti controllino un account condiviso.
 
 
 
 ### Passo 1: avvia la DKG
-Scegli un **Nome** per il wallet condiviso (es. Anabelle).
+Scegli un **Nome** per il portafoglio condiviso (es. Anabelle).
 
 Imposta il **Numero di partecipanti**.
   
@@ -108,8 +108,8 @@ Seleziona l'**Account di finanziamento**.
 - Inserisci l'**Unified Address** di ciascun partecipante (consigliato).
 
 
-**Nota:** se usi un indirizzo solo Orchard o solo Sapling, il multisig sarà limitato a quel solo pool (Orchard o Sapling).  
-Questo significa che il wallet condiviso non può ricevere fondi da altri pool.  
+**Nota:** se usi un indirizzo solo Orchard o solo Sapling, il multisig sarà limitato a quella sola pool (Orchard o Sapling).  
+Questo significa che il portafoglio condiviso non può ricevere fondi da altre pool.  
 Per la massima compatibilità e flessibilità, usa sempre gli **Unified Address**.  
 
 
@@ -131,4 +131,4 @@ Una volta completato, viene generato un **indirizzo condiviso**.
 
 ## Conclusione
 
-Con Zkool puoi: creare account, inviare e ricevere fondi e impostare un **wallet multisig** usando la generazione distribuita delle chiavi. Questo garantisce una **sicurezza potenziata** e una **gestione dei fondi collaborativa e privata**.  
+Con Zkool puoi: creare account, inviare e ricevere fondi e impostare un **portafoglio multisig** usando la generazione distribuita delle chiavi. Questo garantisce una **sicurezza potenziata** e una **gestione dei fondi collaborativa e privata**.  

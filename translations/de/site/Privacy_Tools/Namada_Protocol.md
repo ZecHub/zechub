@@ -32,7 +32,7 @@ Namada Protocol kann sich außerdem nahtlos mit jeder Chain mit schneller Finali
 
 ## Belohnungen für den abgeschirmten Pool
 
-Im neuesten Update des [Namada Protocol](https://blog.namada.net/what-is-namada/) werden Nutzer, die abgeschirmte Assets halten, dazu angereizt, aktiv am gemeinsamen abgeschirmten Pool teilzunehmen. Möglich wird dies durch die Integration des aktualisierten MASP-Schaltkreises, der nun den innovativen Convert Circuit enthält. Durch die Nutzung dieser neuen Funktion ermutigt Namada Nutzer, durch das Halten abgeschirmter Assets zum gemeinsamen abgeschirmten Pool beizutragen.
+Im neuesten Update des [Namada Protocol](https://namada.net/blog/what-is-namada) werden Nutzer, die abgeschirmte Assets halten, dazu angereizt, aktiv am gemeinsamen abgeschirmten Set teilzunehmen. Möglich wird dies durch die Integration des aktualisierten MASP-Schaltkreises, der nun den innovativen Convert Circuit enthält. Durch die Nutzung dieser neuen Funktion ermutigt Namada Nutzer, durch das Halten abgeschirmter Assets zum gemeinsamen abgeschirmten Set beizutragen.
 
 In Namada wird der abgeschirmte Pool als nicht-exklusives und anti-rivales öffentliches Gut betrachtet. Das bedeutet, dass sich das Niveau der Privatsphäre-Garantien für jeden Teilnehmer verbessert, je mehr Personen abgeschirmte Übertragungen nutzen. Das Protokoll erkennt die Bedeutung kollektiver Akzeptanz und Beteiligung für die Verbesserung der Privatsphäre aller Nutzer an. Indem Namada Nutzer dazu anreizt, abgeschirmte Assets zu halten und zum gemeinsamen abgeschirmten Pool beizutragen, fördert es daher ein stärkeres und robusteres Privatsphäre-Ökosystem.
 
@@ -52,7 +52,7 @@ Zusätzlich nutzt Namada moderne BFT-Konsensalgorithmen, die die Integrität und
 
 ## Strategische Allianz zwischen Namada und Zcash
 
-Laut einer aktuellen Veröffentlichung, die im [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/) zu finden ist, freut sich das Team hinter Namada Protocol, einen Vorschlag und Request for Comment (RFC) für eine strategische Allianz zwischen den Assets, Chains und Communities von Namada und Zcash vorzustellen.
+Laut einer aktuellen Veröffentlichung, die im [Namada Protocol Blog](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash) zu finden ist, freut sich das Team hinter Namada Protocol, einen Vorschlag und Request for Comment (RFC) für eine strategische Allianz zwischen den Assets, Chains und Communities von Namada und Zcash vorzustellen.
 
 ![Diagramm der strategischen Allianz Namada-Zcash](/content-images/image-2-68804c60f3.webp)
 
@@ -62,5 +62,5 @@ Die vorgeschlagene Allianz umfasst drei primäre Elemente. Erstens wird ein För
 
 - [Offizielles Video von Namada Protocol](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 - [Offizielle Website von Namada Protocol](https://namada.net/)
-- [Namada-Blog](https://blog.namada.net/)
+- [Namada-Blog](https://namada.net/blog)
 - [Namada-Dokumentation](https://docs.namada.net/)

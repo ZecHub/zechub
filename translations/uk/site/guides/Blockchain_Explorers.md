@@ -79,6 +79,8 @@ Zcash має більше одного типу адрес, і експлоре�
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### Візуальний посібник
 
 Ось чотири хороші приклади різних блокчейн-експлорерів:

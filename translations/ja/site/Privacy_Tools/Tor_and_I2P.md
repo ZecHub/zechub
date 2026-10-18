@@ -39,7 +39,7 @@ Tor と I2P はどちらも分散型で匿名性のあるピアツーピアネ�
 
 Orbot は、スマートフォン向けに設計された無料の仮想プライベートネットワーク（VPN）で、デバイス上のすべてのアプリケーションのトラフィックを Tor ネットワーク経由にします。
 
-以下の手順に従って、Zcash ウォレットを Tor 経由でルーティングしてください。なお、このガイドの以前の版で使われていた Ywallet は、現在はメンテナンスされておらず、Ironwood 以降のネットワークには追従しないため、[Wallets](/using-zcash/wallets) ページからメンテナンス中のウォレットを選んでください。
+以下の手順に従って、Zcash ウォレットを Tor 経由でルーティングしてください。なお、このガイドの以前の版で使われていた YWallet は、現在はメンテナンスされておらず、Ironwood 以降のネットワークには追従しないため、[Wallets](/using-zcash/wallets) ページからメンテナンス中のウォレットを選んでください。
 
 1.  アプリストアから *Orbot* をダウンロードしてインストールします。
 
@@ -56,13 +56,13 @@ Orbot は、スマートフォン向けに設計された無料の仮想プラ�
 
 ## PC またはデスクトップへの Tor のインストール
 
-* Tor Browser は公式サイトからダウンロードできます。リンクは[こちら](https://www.torproject.org/download/)です。
+* Tor Browser は公式サイトからダウンロードできます。リンクは[こちら](https://download.torproject.org/)です。
 
  Tor をインストールする最も便利な方法は、Tor Browser Bundle を使うことです。ヘッドレスでのインストールを好む場合は、Tor デーモンを個別にインストールすることもできます。 
 
 *注: デフォルトでは、Tor Browser バンドルは tcp/9150 で SOCKS リスナーを公開し、Tor デーモンは tcp/9050 で SOCKS リスナーを公開します。*
 
-* Tor Project が提供している、使用しているオペレーティングシステム向けのインストール[手順](https://support.torproject.org/apt/)を参照してください。
+* Tor Project が提供する、お使いのオペレーティングシステム固有のインストール[手順](https://support.torproject.org/little-t-tor/getting-started/installing/)を参照してください。
 
 ## Tor 上でノードを実行する
 

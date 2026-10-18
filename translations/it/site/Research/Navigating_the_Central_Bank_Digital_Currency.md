@@ -3,7 +3,7 @@ published: 2023-12-07
 ---
 
 ![CBDC](/content-images/cbdc-dfb8827faa.webp)
-# Svelando il lato oscuro: navigare l'odissea delle Central Bank Digital Currency (CBDC) tra le ombre finanziarie
+# Svelando il lato oscuro: navigare l'odissea delle central bank digital currency (CBDC) tra le ombre finanziarie
 Di : [**Abhishek Tiwari**]
 
 Nel panorama in continuo mutamento della finanza globale si sta aprendo un nuovo capitolo, uno che solleva più di qualche perplessità. Le Central Bank Digital Currency (CBDC) emergono non solo come protagoniste, ma come potenziali agenti di sconvolgimento finanziario, gettando ombre sulla comprensione tradizionale del denaro e suscitando preoccupazioni in merito a privacy, sorveglianza e ingerenza governativa.

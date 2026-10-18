@@ -12,9 +12,9 @@
 Zcash Shielded Assets (ZSA)는 제안된 프로토콜 확장으로, **ZEC 이외의** 자산 — 스테이블코인, 거버넌스 토큰 또는 어떤 커스텀 자산이든 — Zcash의 쉴드 풀 내부에 존재할 수 있게 하며, 송신자, 수신자, 금액은 비공개로 유지됩니다.
 
 - **무엇인가:** ERC-20 스타일의 커스텀 자산이지만, 기본적으로 쉴드됩니다.
-- **누가 구축하고 있는가:** [QEDIT](https://qed-it.com/). [Zcash Foundation](https://zips.z.cash/zip-0226)의 그랜트를 받아 Electric Coin Company와 협력하여 개발 중입니다.
-- **어떻게 명세되는가:** [ZIP 226](https://zips.z.cash/zip-0226) (전송 및 소각)과 [ZIP 227](https://zips.z.cash/zip-0227) (발행)을 함께 사용합니다.
-- **상태:** 아직 메인넷에서 활성화되지 않았습니다. ZSA 프로토콜은 Network Upgrade 7 (NU7)에서 배포될 예정입니다.
+- **누가 구축하고 있는가:** [QEDIT](https://qed-it.com/), Zcash Foundation의 그랜트를 받아 Electric Coin Company와 협력하여 개발하고 있습니다.
+- **어떻게 명세되는가:** [ZIP 226](https://zips.z.cash/zip-0226)(전송 및 소각)과 [ZIP 227](https://zips.z.cash/zip-0227)(발행)을 함께 사용합니다.
+- **상태:** 아직 메인넷에서 활성화되지 않았으며 Network Upgrade 7(NU7)의 일부도 아닙니다. [ZIP 259](https://zips.z.cash/zip-0259)에는 NU7가 배포하는 모든 것이 나열되어 있지만, ZIP 226 또는 ZIP 227은 포함되어 있지 않으며 ZSA 활성화 날짜도 정해지지 않았습니다.
 - **수수료:** 이동하는 자산과 관계없이 항상 ZEC로 지불됩니다.
 
 ---
@@ -29,7 +29,7 @@ Zcash Shielded Assets는 Zcash 블록체인에서 커스텀 토큰의 생성을 
 
 ZSA의 주요 잠재적 활용 사례 중 하나는 Zcash 프로토콜에서 스테이블코인을 발행하는 것입니다. 스테이블코인은 미국 달러나 유로와 같은 법정화폐에 가치를 고정하는 암호화폐입니다. 현재 가장 널리 유통되는 스테이블코인 중 일부는 [USDC](https://www.circle.com/en/usdc), [Dai](https://docs.makerdao.com/)와 같은 ERC-20 토큰입니다.
 
-또 다른 잠재적 활용 사례는 거버넌스 토큰 발행입니다. 예를 들어, Zechub(이 위키의 발행자)는 탈중앙화 자율 조직(DAO)이며, 제안과 거버넌스 결정에 대한 투표를 위해 구성원들에게 ZSA를 생성하고 발행할 수 있습니다.
+또 다른 잠재적 활용 사례는 거버넌스 토큰 발행입니다. 예를 들어, ZecHub(이 위키의 발행자)는 탈중앙화 자율 조직(DAO)이며, 제안과 거버넌스 결정에 대한 투표를 위해 구성원들에게 ZSA를 생성하고 발행할 수 있습니다.
 
 ZSA는 [QEDIT](https://qed-it.com/)가 [Zcash Foundation](/zcash-organizations/zcash-foundation)의 대규모 그랜트를 받아 [Electric Coin Company](/zcash-organizations/electric-coin-company)와 협력하여 개발 중입니다. 이 프로젝트는 아직 활발히 개발되고 있으므로, 업데이트는 Zcash 포럼의 [이 스레드](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153)에 게시됩니다. QEDIT의 [ZSA 그랜트 신청서](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/)는 Zcash Foundation 그랜트 웹사이트에서 확인할 수 있습니다.
 
@@ -129,7 +129,7 @@ Shielded Assets (ZSA/UDA)를 위한 ZSA 제안은 [QEDIT](https://qed-it.com/) �
 
 | 흔한 믿음 | 실제로는 어떤가 |
 | --- | --- |
-| "ZSAs는 오늘날 이미 Zcash에서 활성화되어 있다." | 아닙니다. ZSA는 Network Upgrade 7 (NU7)에서 배포될 예정이며, 아직 검토와 테스트가 진행 중입니다. |
+| "ZSAs는 오늘날 이미 Zcash에서 활성화되어 있다." | 아닙니다. ZSA는 [ZIP 259](https://zips.z.cash/zip-0259)가 ZIP 226 또는 ZIP 227 없이 정의한 Network Upgrade 7 (NU7)의 일부가 아니며, 아직 검토와 테스트가 진행 중입니다. |
 | "ZSA는 Zcash에 스마트 컨트랙트를 도입한다." | ZSA는 자산의 발행, 전송, 소각을 명세합니다. 범용 프로그래머블 계약 계층은 아닙니다. |
 | "ZSA 수수료는 ZSA 토큰 자체로 낼 수 있다." | 수수료는 ZEC로 지불됩니다. |
 | "쉴드된다면 토큰 공급량도 비밀이어야 한다." | ZIP 227은 의도적으로 발행을 투명하게 만들어 각 자산의 공급량을 공개적으로 추적할 수 있게 합니다. 잔액과 전송은 비공개로 유지되지만 공급량은 그렇지 않습니다. |
@@ -140,7 +140,7 @@ Shielded Assets (ZSA/UDA)를 위한 ZSA 제안은 [QEDIT](https://qed-it.com/) �
 ## 관련 페이지
 
 - [Halo](/zcash-tech/halo) — ZSA가 확장하는 프로토콜인 Orchard의 기반이 되는 증명 시스템
-- [Zk-SNARKs](/zcash-tech/zk-snarks) — 내용을 공개하지 않고도 쉴드 전송을 검증할 수 있게 해주는 영지식 증명
+- [zk-SNARKs](/zcash-tech/zk-snarks) — 내용을 공개하지 않고도 쉴드 전송을 검증할 수 있게 해주는 영지식 증명
 - [Shielded Pools](/using-zcash/shielded-pools) — ZSA가 ZEC와 함께 존재하게 될 곳
 - [Transactions](/using-zcash/transactions) — Zcash 거래가 어떻게 구성되는지
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — 위 ZSA 데모에서 사용된 노드 구현체

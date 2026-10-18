@@ -34,7 +34,7 @@
 
 يمكن الاطلاع على المزيد من المعلومات حول FPF X FPF على موقع صندوق الخصوصية المالية (FPF) [هنا](https://www.financialprivacyfoundation.org/grants)، وإذا كنت لا تزال مهتمًا بمعرفة المزيد عن برنامج FPF X FPF، يمكنك زيارة وثيقة الأسئلة الشائعة هنا: [الأسئلة الشائعة](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-إذا كنت مهتمًا بأن تصبح مراجعًا متطوعًا لهذه الجولة من برنامج FPF X FPF، فيرجى زيارة هذا [الرابط](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). ولمزيد من الأسئلة المتعلقة ببرنامج منح FPF X FPF، يمكنك الاستفسار مباشرة عبر إرسال بريد إلكتروني إلى [FPF](info@financialprivacyfoundation.org).
+إذا كنت مهتمًا بأن تصبح مراجعًا متطوعًا لهذه الجولة من برنامج FPF X FPF، فيرجى زيارة هذا [الرابط](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). ولمزيد من الأسئلة المتعلقة ببرنامج منح FPF X FPF، يمكنك الاستفسار مباشرة عبر إرسال بريد إلكتروني إلى [FPF](mailto:info@financialprivacyfoundation.org).
 
 ## الموارد 
 [صندوق الخصوصية المالية](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

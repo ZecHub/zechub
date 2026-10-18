@@ -12,6 +12,7 @@
 * A **Safety Mode** activates if the finalized ledger falls behind by more than *L* blocks: PoW continues, but economic activities pause until the issue is resolved.
 * Over time, PoS validators will receive a growing share of rewards, reducing PoW miners' earnings; the protocol introduces changes gradually.
 * The protocol is being developed by Shielded Labs, with a roadmap for integrating Crosslink 2* into Zcash's Zebra client.
+* Crosslink is not active on Zcash mainnet. It runs on Shielded Labs' Feature Net, a test network anyone can join. See "Where Crosslink stands" below.
 
 ## Core Explanation
 
@@ -81,7 +82,7 @@ Crosslink incorporates a **Safety Mode** to address risks associated with the lo
 
 ### Technical Details and Deployment
 
-The Crosslink Protocol is being actively developed and deployed by Shielded Labs in collaboration with key ecosystem partners such as Zodl. The protocol's implementation includes:
+The Crosslink Protocol is being actively developed and deployed by Shielded Labs in collaboration with key ecosystem partners such as ZODL. The protocol's implementation includes:
 
 * Establishing secure staking mechanisms for PoS participants.
 * Modifying the reward structure to balance incentives between miners and stakers.
@@ -90,7 +91,20 @@ The Crosslink Protocol is being actively developed and deployed by Shielded Labs
 * Activation Logic: The introduction of Crosslink requires changes to the Zcash consensus rules, including defining the stake distribution process and updating network protocol rules to support hybrid consensus.
 * Phased Deployment: The protocol will roll out in stages to ensure network stability and community adaptation. Initial phases focus on technical implementation, followed by governance integration for selecting notaries.
 
-You can explore the technical details and track its progress via the [zebra-crosslink repository on GitHub](https://github.com/ShieldedLabs/zebra-crosslink) and [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/).
+The earlier prototype and its documentation are in the [zebra-crosslink repository on GitHub](https://github.com/ShieldedLabs/zebra-crosslink) and [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/). Current work is described in the next section.
+
+### Where Crosslink stands
+
+Crosslink is still a proposal. Shielded Labs' [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) says it "would need to go through the standard Zcash governance process" before it could activate on mainnet.
+
+What exists today is the **Feature Net**: a test network run by Shielded Labs, with its own test coin, cTAZ, where anyone can mine, stake and run a finalizer. [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), released on 1 October 2026, starts as plain proof-of-work and switches Crosslink on in stages: staking from block 20,736, the first roster of finalizers taken at block 34,560, and BFT finality from block 36,288 ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+
+Two things on this page have moved since it was written:
+
+* **The role called a notary here is called a finalizer** in Shielded Labs' software and release notes. Stakers delegate coins to a finalizer, and the finalizers with the most stake vote to finalize blocks.
+* **The code has moved.** The zebra-crosslink repository above was last updated in April 2026. Feature Net releases come from [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases), and the design is written up in the [Crosslink book](https://shieldedlabs.github.io/crosslink_book/).
+
+To try it yourself, follow the [Crosslink Feature Net](/guides/crosslink-feature-net) guide. To watch the network without running anything, open the Crosslink tab on [ZecHub Tools](https://zechub.wiki/tools?tool=crosslink).
 
 ## Practical Implications
 
@@ -121,6 +135,7 @@ This dual-consensus mechanism reinforces Zcash's commitment to privacy, sustaina
 
 ## Related Pages
 
+- [Crosslink Feature Net](/guides/crosslink-feature-net) — install the Feature Net desktop app, stake to a finalizer and check your position.
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — the client Crosslink 2* is planned to be integrated into.
 - [Full Nodes](/zcash-tech/full-nodes) — how nodes validate consensus rules today, before any hybrid consensus change.
 - [Network Upgrades](/start-here/network-upgrades) — how consensus rule changes reach the Zcash network.
@@ -128,9 +143,9 @@ This dual-consensus mechanism reinforces Zcash's commitment to privacy, sustaina
 
 ## Additional Resources
 
-- Community insights: [Zcash Community Forum - Crosslink Discussions](https://forum.zcashcommunity.com)
-- Official updates: [Electric Coin Company Blog](https://electriccoin.co)
-- Sustainability focus: [Why Hybrid PoS Matters for Zcash](https://forum.zcashcommunity.com)
+- Community discussion: [Crosslink: Incentivized Feature Net, on the Zcash Community Forum](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
+- Official updates: [Crosslink at Shielded Labs](https://shieldedlabs.net/crosslink/) and the [Feature Net releases](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- Design reference: [The Crosslink book](https://shieldedlabs.github.io/crosslink_book/)
 
   Reference:
 

@@ -39,7 +39,7 @@ Sowohl Tor als auch I2P sind dezentrale und anonyme Peer-to-Peer-Netzwerke, aber
 
 Orbot ist ein kostenloses virtuelles privates Netzwerk (VPN) für Smartphones, das den Datenverkehr aller Anwendungen auf Ihrem Gerät durch das Tor-Netzwerk leitet.
 
-Befolgen Sie diese Anweisungen, um ein Zcash-Wallet durch Tor zu leiten. Beachten Sie, dass Ywallet, das in früheren Versionen dieses Leitfadens verwendet wurde, nicht mehr gepflegt wird und dem Netzwerk nach Ironwood nicht mehr folgen wird. Wählen Sie daher ein gepflegtes Wallet von der Seite [Wallets](/using-zcash/wallets).
+Befolgen Sie diese Anweisungen, um ein Zcash-Wallet durch Tor zu leiten. Beachten Sie, dass YWallet, das in früheren Versionen dieses Leitfadens verwendet wurde, nicht mehr gepflegt wird und dem Netzwerk nach Ironwood nicht mehr folgen wird. Wählen Sie daher ein gepflegtes Wallet von der Seite [Wallets](/using-zcash/wallets).
 
 1.  Laden Sie *Orbot* aus dem App Store herunter und installieren Sie es.
 
@@ -56,13 +56,13 @@ Befolgen Sie diese Anweisungen, um ein Zcash-Wallet durch Tor zu leiten. Beachte
 
 ## Tor auf dem PC oder Desktop installieren
 
-* Der Tor Browser kann von der offiziellen Website heruntergeladen werden; den Link finden Sie [hier](https://www.torproject.org/download/).
+* Der Tor Browser kann von der offiziellen Website heruntergeladen werden; den Link finden Sie [hier](https://download.torproject.org/).
 
  Die bequemste Art, Tor zu installieren, ist über das Tor Browser Bundle. Wenn Sie eine Installation ohne grafische Oberfläche bevorzugen, können Sie stattdessen den Tor-Daemon separat installieren. 
 
 *Hinweis: Standardmäßig stellt das Tor Browser Bundle einen SOCKS-Listener auf tcp/9150 bereit und der Tor-Daemon einen SOCKS-Listener auf tcp/9050.*
 
-* Beachten Sie die vom Tor Project bereitgestellten Installations-[anweisungen](https://support.torproject.org/apt/), die speziell für Ihr Betriebssystem gelten.
+* Beachten Sie die vom Tor Project bereitgestellten Installations-[anweisungen](https://support.torproject.org/little-t-tor/getting-started/installing/), die speziell für Ihr Betriebssystem gelten.
 
 ## Einen Knoten über Tor betreiben
 

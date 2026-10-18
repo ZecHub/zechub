@@ -32,7 +32,7 @@ import {
 
 const root = new URL("../../", import.meta.url).pathname;
 const dir = join(root, "translation/glossary");
-const NOT_LOCALES = new Set(["terms.en.json", "schema.json"]);
+const NOT_LOCALES = new Set(["terms.en.json", "schema.json", "review-instructions.json"]);
 
 function die(message) {
   console.error(`error: ${message}`);

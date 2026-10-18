@@ -11,7 +11,7 @@
 - Zcash non è oggi completamente post-quantum.
 - L'uso schermato di Zcash riduce la quantità di dati pubblici sulle transazioni che i futuri attaccanti possono studiare, ma l'uso schermato non equivale a una piena resistenza quantistica.
 - Zcash si sta preparando attraverso ricerca, ZIP e proposte di aggiornamento come ZIP 2005 e Project Tachyon.
-- Una migrazione post-quantum sicura deve proteggere contemporaneamente fondi, privacy, wallet, exchange e regole di consenso.
+- Una migrazione post-quantum sicura deve proteggere contemporaneamente fondi, privacy, portafogli, exchange e regole di consenso.
 
 Per sapere cosa ha modificato Ironwood e conoscere lo stato datato di ciascun elemento, consulta [Zcash è post-quantum?](/zcash-tech/is-zcash-post-quantum).
 
@@ -34,7 +34,7 @@ Le blockchain usano la crittografia per diversi compiti:
 | Firme digitali | Dimostrano che il proprietario ha autorizzato una spesa | Rischio elevato per i comuni sistemi a curva ellittica |
 | Funzioni hash | Creano indirizzi, commitment, alberi Merkle e challenge | Rischio minore, ma i margini di sicurezza contano |
 | Prove a conoscenza zero | Dimostrano che le transazioni schermate sono valide senza rivelarne i dettagli | Dipende dal sistema di prova e dalle assunzioni |
-| Accordo sulle chiavi | Aiuta i wallet a cifrare i dati delle note per i destinatari | Richiede un'attenta revisione secondo un modello di minaccia quantistica |
+| Accordo sulle chiavi | Aiuta i portafogli a cifrare i dati delle note per i destinatari | Richiede un'attenta revisione secondo un modello di minaccia quantistica |
 
 Un computer quantistico sufficientemente potente potrebbe minacciare molti schemi di firma usati oggi, comprese le firme a curva ellittica. Questo è importante perché una firma consente alla rete di sapere che una transazione è stata autorizzata dalla chiave corretta.
 
@@ -52,7 +52,7 @@ Nel 2024, il NIST ha pubblicato i primi standard post-quantum finalizzati:
 - **ML-DSA** per le firme digitali
 - **SLH-DSA** per le firme digitali basate su hash
 
-Questi standard sono una tappa importante, ma una blockchain non può semplicemente sostituire un algoritmo con un altro dall'oggi al domani. Devono essere considerati le regole di consenso, i wallet, gli hardware wallet, le dimensioni delle transazioni, le commissioni e la privacy.
+Questi standard sono una tappa importante, ma una blockchain non può semplicemente sostituire un algoritmo con un altro dall'oggi al domani. Devono essere considerati le regole di consenso, i portafogli, i portafogli hardware, le dimensioni delle transazioni, le commissioni e la privacy.
 
 ## Come il rischio quantistico si manifesta on-chain
 
@@ -80,9 +80,9 @@ Questo dà a Zcash un importante vantaggio in termini di privacy:
 - Vengono pubblicati meno dati sulle transazioni visibili a tutti.
 - Gli utenti evitano di creare un grafo pubblico dei pagamenti quando rimangono schermati.
 - I futuri osservatori hanno meno cronologia finanziaria pubblica da analizzare.
-- La divulgazione selettiva può avvenire tramite viewing key invece di registri pubblici per impostazione predefinita.
+- La divulgazione selettiva può avvenire tramite chiavi di visualizzazione invece di registri pubblici per impostazione predefinita.
 
-Ma l'uso schermato di Zcash non è automaticamente post-quantum. I pool schermati dipendono ancora da assunzioni crittografiche. L'autorizzazione alla spesa, i commitment delle note, i nullifier, i sistemi di prova, la cifratura e le chiavi del wallet richiedono tutti un'attenta revisione.
+Ma l'uso schermato di Zcash non è automaticamente post-quantum. Le pool schermate dipendono ancora da assunzioni crittografiche. L'autorizzazione alla spesa, i commitment delle note, i nullifier, i sistemi di prova, la crittografia e le chiavi dei portafogli richiedono tutti un'attenta revisione.
 
 In breve:
 
@@ -94,9 +94,9 @@ In breve:
 | --- | --- | --- |
 | Indirizzi trasparenti | Indirizzi pubblici e grafo pubblico delle transazioni | Rischi simili ad altre blockchain trasparenti |
 | Autorizzazione alla spesa | La prova che un utente è autorizzato a spendere | Gli schemi di firma potrebbero richiedere sostituzione o migrazione |
-| Note schermate | Registri privati di valore all'interno dei pool schermati | Alcuni componenti potrebbero richiedere nuove assunzioni o strumenti di recupero |
+| Note schermate | Registri privati di valore all'interno delle pool schermate | Alcuni componenti potrebbero richiedere nuove assunzioni o strumenti di recupero |
 | zk-SNARKs | Prove che le transazioni schermate sono valide | Le assunzioni del sistema di prova richiedono revisione |
-| Scansione del wallet | Come i wallet trovano e decifrano le note ricevute | L'accordo sulle chiavi e la cifratura delle note richiedono revisione |
+| Scansione del portafoglio | Come i portafogli trovano e decifrano le note ricevute | L'accordo sulle chiavi e la crittografia delle note richiedono revisione |
 | Migrazione | Spostare fondi verso una crittografia più sicura | Deve evitare sia la perdita di fondi sia fughe di privacy |
 
 ## Come si sta preparando Zcash
@@ -105,13 +105,13 @@ In breve:
 
 Zcash ha già modificato la propria crittografia in passato. Sapling ha reso le transazioni schermate più semplici da usare. NU5 ha introdotto Orchard, Unified Addresses e Halo 2.
 
-Questo è importante perché la preparazione post-quantum non è una patch software di una sola riga. Richiede aggiornamenti coordinati della rete, modifiche ai wallet, audit e tempo affinché gli utenti effettuino la migrazione.
+Questo è importante perché la preparazione post-quantum non è una patch software di una sola riga. Richiede aggiornamenti di rete coordinati, modifiche ai portafogli, audit e tempo affinché gli utenti effettuino la migrazione.
 
 I precedenti aggiornamenti di Zcash mostrano che l'ecosistema ha esperienza nel passare da una crittografia più vecchia a progetti più recenti.
 
 ### Halo e Orchard hanno ridotto le assunzioni precedenti
 
-Halo 2 è usato da Orchard, il moderno pool schermato di Zcash. Un importante miglioramento è che Halo ha eliminato la necessità di una configurazione fidata per il sistema di prova Orchard.
+Halo 2 è usato da Orchard, la moderna pool schermata di Zcash. Un importante miglioramento è che Halo ha eliminato la necessità di un trusted setup per il sistema di prova Orchard.
 
 Non è la stessa cosa della sicurezza post-quantum. È comunque rilevante perché dimostra che Zcash può sostituire importanti componenti crittografici di base quando sono disponibili progetti migliori.
 
@@ -146,25 +146,25 @@ Zcash potrebbe alla fine necessitare di un'autorizzazione alla spesa che non dip
 
 Questo potrebbe usare firme post-quantum, firme ibride o un altro progetto. Un progetto ibrido usa sia controlli classici sia post-quantum durante un periodo di transizione, affinché il sistema non dipenda da una sola assunzione.
 
-La sfida riguarda dimensione e costo. Le firme post-quantum possono essere più grandi delle firme odierne, influenzando le dimensioni delle transazioni, la larghezza di banda, le commissioni, i wallet mobili e gli hardware wallet.
+La sfida riguarda dimensione e costo. Le firme post-quantum possono essere più grandi delle firme odierne, influenzando le dimensioni delle transazioni, la larghezza di banda, le commissioni, i portafogli mobili e i portafogli hardware.
 
 ### Nuovi formati di indirizzi e chiavi
 
 La nuova crittografia spesso richiede nuove chiavi e indirizzi. Gli utenti avrebbero bisogno di un percorso di migrazione chiaro dai vecchi formati a formati più sicuri.
 
-La migrazione dovrebbe essere semplice nei wallet. La maggior parte degli utenti non dovrebbe dover comprendere ogni dettaglio crittografico per rimanere al sicuro.
+La migrazione dovrebbe essere semplice nei portafogli. La maggior parte degli utenti non dovrebbe dover comprendere ogni dettaglio crittografico per rimanere al sicuro.
 
 ### Migrazione che preserva la privacy
 
-La migrazione è particolarmente delicata per Zcash. Se molti utenti spostano fondi dai vecchi pool ai nuovi pool seguendo schemi evidenti, la migrazione stessa potrebbe rivelare informazioni.
+La migrazione è particolarmente delicata per Zcash. Se molti utenti spostano fondi dalle vecchie pool alle nuove pool seguendo schemi evidenti, la migrazione stessa potrebbe rivelare informazioni.
 
 Un buon piano di migrazione deve proteggere:
 
 - I fondi degli utenti
 - La privacy degli utenti
-- La compatibilità dei wallet
+- Compatibilità dei portafogli
 - Il supporto degli exchange
-- Il supporto degli hardware wallet
+- Supporto dei portafogli hardware
 - La sicurezza del consenso della rete
 
 ### Revisione del sistema di prova post-quantum
@@ -179,27 +179,27 @@ Il lavoro futuro potrebbe dover rivedere o sostituire:
 - I commitment delle note
 - La costruzione dei nullifier
 - Le assunzioni sugli alberi Merkle
-- La cifratura delle note e il comportamento delle viewing key
+- La crittografia delle note e il comportamento delle chiavi di visualizzazione
 
 Alcuni componenti potrebbero essere accettabili con parametri adeguati. Altri componenti potrebbero richiedere nuovi progetti.
 
 ## Esempi per principianti
 
-### Esempio 1: La vecchia serratura
+### Esempio 1: la vecchia serratura
 
 Immagina una cassaforte con una serratura che oggi è resistente. Un nuovo strumento inventato in futuro potrebbe aprire rapidamente quella vecchia serratura.
 
 La crittografia post-quantum è come sostituire la serratura con un progetto che non ci si aspetta venga violato dal nuovo strumento.
 
-Per una blockchain, sostituire la serratura è difficile perché ogni wallet, nodo, exchange e dispositivo hardware deve comprendere il nuovo progetto.
+Per una blockchain, sostituire la serratura è difficile perché ogni portafoglio, nodo, exchange e dispositivo hardware deve comprendere il nuovo progetto.
 
-### Esempio 2: La scatola delle ricevute pubbliche
+### Esempio 2: la scatola delle ricevute pubbliche
 
 I dati di una blockchain trasparente sono come mettere ogni ricevuta in una scatola pubblica per sempre. Anche se oggi nessuno riesce a leggere ogni schema, gli strumenti futuri potrebbero imparare di più in seguito.
 
 L'uso schermato di Zcash cerca di evitare di pubblicare quelle ricevute sin dall'inizio. Questo aiuta la privacy a lungo termine, ma la serratura che protegge il sistema schermato deve comunque essere rivista in vista di un futuro quantistico.
 
-### Esempio 3: Il piano di uscita
+### Esempio 3: il piano di uscita
 
 La recuperabilità è come pianificare una via di uscita prima che ci sia un incendio. Si spera di non averne bisogno, ma progettarla presto è molto più sicuro che farlo durante un'emergenza.
 
@@ -213,11 +213,11 @@ Le buone abitudini aiutano comunque:
 
 - Preferisci l'uso schermato di Zcash quando possibile.
 - Evita di riutilizzare gli indirizzi.
-- Mantieni aggiornati i wallet.
+- Mantieni aggiornati i portafogli.
 - Segui gli annunci sugli aggiornamenti della rete di Zcash.
-- Tieni d'occhio ZIP e indicazioni dei wallet sulla recuperabilità o sulla migrazione.
+- Tieni d'occhio ZIP e indicazioni dei portafogli sulla recuperabilità o sulla migrazione.
 - Non presumere che l'attività trasparente sia privata.
-- Non spostare fondi in base a voci; attendi indicazioni chiare da sviluppatori affidabili di Zcash e dai team dei wallet.
+- Non spostare fondi in base a voci; attendi indicazioni chiare da sviluppatori affidabili di Zcash e dai team dei portafogli.
 
 ## Sfide
 
@@ -230,8 +230,8 @@ Le sfide comuni includono:
 - Costi di verifica maggiori
 - Maggiore uso della larghezza di banda
 - Nuovi audit di sicurezza
-- Supporto degli hardware wallet
-- Prestazioni dei wallet mobili
+- Supporto dei portafogli hardware
+- Prestazioni dei portafogli mobili
 - Integrazione di exchange e custodia
 - Fughe di privacy durante la migrazione
 - Accordo della comunità sulle modifiche al consenso
@@ -249,10 +249,10 @@ Per i principianti, l'idea principale è semplice: la privacy odierna riduce l'e
 ## Pagine correlate
 
 - [Zcash è post-quantum?](/zcash-tech/is-zcash-post-quantum) - Cosa ha modificato Ironwood, cosa è ancora esposto e una tabella di stato datata
-- [Pool schermati](/using-zcash/shielded-pools) - Come le transazioni schermate di Zcash proteggono i dettagli delle transazioni
+- [Pool schermate](/using-zcash/shielded-pools) - Come le transazioni schermate di Zcash proteggono i dettagli delle transazioni
 - [Halo](/zcash-tech/halo) - Il sistema di prova di Zcash senza una configurazione fidata
 - [ZKP e ZK-SNARKS](/zcash-tech/zk-snarks) - Come funzionano le prove a conoscenza zero in Zcash
-- [Viewing Keys](/zcash-tech/viewing-keys) - Come funziona la divulgazione selettiva per Zcash schermato
+- [Chiavi di visualizzazione](/zcash-tech/viewing-keys) - Come funziona la divulgazione selettiva per Zcash schermato
 - [Asset schermati di Zcash](/zcash-tech/zcash-shielded-assets) - Futuri asset schermati e supporto per asset privati
 - [La privacy come principio fondamentale](/privacy/privacy-as-a-core-principle) - Perché la privacy finanziaria è importante
 

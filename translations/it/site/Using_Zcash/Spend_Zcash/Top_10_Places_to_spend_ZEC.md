@@ -28,7 +28,7 @@ Considerando tutti gli elementi sopra, ci sono molti luoghi dove puoi spendere Z
 
 In particolare, in Venezuela ci sono molti luoghi (fisici e online) dove puoi acquistare prodotti o servizi e pagare con Zcash… Cominciamo!
 
-> Elencati senza un ordine particolare. Ti serve un wallet Zcash e una connessione di rete.
+> Elencati senza un ordine particolare. Ti serve un portafoglio Zcash e una connessione di rete.
 
 [**Gastronomia - Panetteria & Cioccolateria**] 
 
@@ -281,7 +281,7 @@ Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Aeroporto Inter
 
 Accetta criptovalute, incluso **Zcash**
 
-Il signor Mendoza mostra il suo wallet Zingo. | Credito immagine: Edickson Gonzalez
+Il signor Mendoza mostra il suo portafoglio Zingo. | Credito immagine: Edickson Gonzalez
 
 **Zcash Unified Address:**
 
@@ -293,7 +293,7 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 **[Online | Globale | Beni digitali, marketplace & VPN]**
 
-Tutto quanto sopra riguarda persone o piccole attività che puoi contattare in Venezuela. Queste quattro sono online, aperte a chiunque abbia un wallet e una connessione, e regolano direttamente in ZEC.
+Tutto quanto sopra riguarda persone o piccole attività che puoi contattare in Venezuela. Queste quattro sono online, aperte a chiunque abbia un portafoglio e una connessione, e regolano direttamente in ZEC.
 
 1. **ZecBuy** | Beni digitali | Dati eSIM | Accesso VPN
 
@@ -307,7 +307,7 @@ ZecBuy vende beni digitali privati per ZEC: piani dati eSIM per viaggi e account
 
 1. **ZEC Market** | Marketplace peer-to-peer
 
-Un marketplace non-custodial dove acquirenti e venditori trattano direttamente tra loro. I prezzi sono indicati in dollari e regolati da wallet a wallet in Zcash, schermato per impostazione predefinita. La piattaforma non addebita commissioni e non detiene mai i fondi di nessuno, il che la rende il posto da cercare quando ciò che vuoi acquistare non è in un elenco come questo.
+Un marketplace non-custodial (senza custodia di terzi) dove acquirenti e venditori trattano direttamente tra loro. I prezzi sono indicati in dollari e regolati da portafoglio a portafoglio in Zcash, schermato per impostazione predefinita. La piattaforma non addebita commissioni e non detiene mai i fondi di nessuno, il che la rende il posto a cui rivolgersi quando ciò che vuoi acquistare non è in un elenco come questo.
 
 **Sito web**: [zecmarket.org](https://zecmarket.org/)
 

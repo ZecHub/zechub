@@ -49,7 +49,7 @@ Zcash consente:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
-- Un wallet Zcash che supporti le transazioni schermate
+- Un portafoglio Zcash che supporti le transazioni schermate
 - Un flusso di pagamento semplice (manuale o integrato)
 - Facoltativo: un sistema di tracciamento degli ordini
 
@@ -92,7 +92,7 @@ Esempio:
 
 - Evita di riutilizzare pubblicamente gli indirizzi se possibile
 - Non esporre la cronologia delle transazioni
-- Usa wallet separati per diverse unità di business se necessario
+- Usa portafogli separati per diverse unità di business se necessario
 
 
 <br/>
@@ -120,7 +120,7 @@ Puoi:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Correlati
 
 
-- [Wallet](/wallets)
+- [Portafogli](/wallets)
 - [Privacy - Best Practice](/privacy/best-practices)
 
 <br/>

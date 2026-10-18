@@ -1,6 +1,6 @@
 # Come eseguire Zebra su Akash Network
 
-Guida passo passo per il deploy di un nodo completo Zebra Zcash usando la [Akash Console](https://console.akash.network).
+Guida passo passo per il deploy di un full node (nodo completo) Zebra Zcash usando la [Akash Console](https://console.akash.network).
 
 ### Cosa stai distribuendo
 
@@ -40,18 +40,18 @@ Questo viene gestito automaticamente. Usa semplicemente l'URI che Akash ti forni
 2. **Token AKT** - Procurati 50-100 AKT da un exchange (Coinbase, Kraken, Osmosis)
 3. **5 minuti** per cliccare attraverso l'interfaccia della Console
 
-#### Passo 1: connetti il tuo wallet
+#### Passo 1: connetti il tuo portafoglio
 
 -> Vai su [https://console.akash.network](https://console.akash.network)
 
 -> Clicca su **"Connect Wallet"** in alto a destra
 
--> Scegli **Keplr** (o il tuo wallet Cosmos preferito)
+-> Scegli **Keplr** (o il tuo portafoglio Cosmos preferito)
 
 -> Approva la connessione quando compare Keplr
 
 
-Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima il tuo wallet.
+Il tuo saldo AKT dovrebbe apparire in alto a destra. Se è zero, finanzia prima il tuo portafoglio.
 
 #### Passo 2: crea il deployment
 
@@ -325,7 +325,7 @@ Devi modificare la configurazione dopo il deploy?
 
 ### Monitoraggio
 
-#### Tramite la Console
+#### Tramite la console
 
 -> **Scheda Logs**: log del container in tempo reale
 
@@ -336,7 +336,7 @@ Devi modificare la configurazione dopo il deploy?
 
 #### Tramite RPC (se abilitato)
 
-Se hai abilitato l'RPC, puoi interrogare il tuo nodo come un normale nodo completo zebrad (perché lo è!)
+Se hai abilitato l'RPC, puoi interrogare il tuo nodo come un normale full node zebrad (perché lo è!)
 
 ### Chiudere il tuo deployment
 
@@ -356,7 +356,7 @@ Il tuo deposito di 5 AKT verrà rimborsato. Lo **storage persistente** dovrebbe 
 
 #### Errore "Insufficient funds"
 
-Ti servono più AKT. Finanzia il tuo wallet Keplr.
+Ti servono più AKT. Finanzia il tuo portafoglio Keplr.
 
 #### Nessuna offerta visualizzata
 
@@ -377,7 +377,7 @@ Il provider potrebbe avere dei problemi. Chiudi il deployment e prova un provide
 
 È normale per i primi minuti. Zebra scoprirà i peer automaticamente. Se persiste dopo più di 10 minuti, potresti avere un problema di rete (improbabile su Akash).
 
-#### Errori "Out of memory" nei log
+#### Errori "out of memory" nei log
 
 Hai risparmiato troppo sulla RAM. Chiudi il deployment e riesegui il deploy con almeno 12Gi di memoria (16Gi consigliati).
 
@@ -398,10 +398,10 @@ Monitora la tua spesa nella Console:
 
 -> **My Deployments** -> Il tuo deployment -> Mostra la stima "Cost per month"
 
--> Il saldo del tuo wallet Keplr diminuirà nel tempo
+-> Il saldo del tuo portafoglio Keplr diminuirà nel tempo
 
 
-Quando il tuo saldo si esaurisce, Akash chiuderà automaticamente il tuo deployment. **Ricarica periodicamente il tuo wallet** o imposta degli avvisi.
+Quando il tuo saldo si esaurisce, Akash chiuderà automaticamente il tuo deployment. **Ricarica periodicamente il tuo portafoglio** o imposta degli avvisi.
 
 #### Ridurre i costi
 
@@ -412,7 +412,7 @@ Quando il tuo saldo si esaurisce, Akash chiuderà automaticamente il tuo deploym
 -> **Scegli provider più economici** (non sempre saggio - l'uptime conta)
 
 
-### Mainnet vs Testnet
+### Mainnet vs testnet
 
 ```markdown
 ----------------------------------------------------------------------------------

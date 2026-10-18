@@ -1,6 +1,6 @@
 # Zcash 라이브러리
 
-Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한 용어집입니다.
+Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한 용어집입니다. 릴리스 노트, 포럼 스레드 또는 지갑 변경 로그의 용어를 찾아볼 수 있는 단일 라이브러리입니다.
 
 ### 빠른 이동
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
@@ -9,10 +9,10 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## A
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
 | Actions | Orchard 프로토콜은 각 Spend와 Output마다 여러 개의 개별 증명을 생성하는 대신, 이를 하나의 Action으로 병합합니다. |
-| Addresses | Zcash에는 Shielded (Z/zaddr) 주소와 Transparent (T/taddr) 주소가 있습니다. Unified addresses (UA)는 NU5 업그레이드 이후 Z와 T를 대체하기 위해 도입되고 있습니다. |
+| Addresses | Zcash에는 Shielded (zaddr) 주소와 Transparent (taddr) 주소가 있습니다. Unified addresses (UA)는 여러 수신자 유형을 묶어 보내는 지갑이 양쪽에서 지원하는 최적의 유형을 선택할 수 있게 합니다. [ZIP 316](https://zips.z.cash/zip-0316)에 명시되어 있습니다. [통합 주소](/zcash-tech/unified-addresses) |
 | Arborist Call | Zcash 프로토콜 및 연구 개발 업데이트를 다루는 격주 통화입니다. Zcash 커뮤니티 포럼과 Discord에서 진행됩니다. [회의 노트](https://github.com/ZcashCommunityGrants/arboretum-notes) / [포럼 공지](https://forum.zcashcommunity.com) |
 | Auto-shielding | 사용자가(보다 정확히는 그들의 지갑이) 투명 주소에서 최신 shielded ZEC 풀로 자금을 자동으로 이동할 수 있게 합니다. |
 
@@ -23,7 +23,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Benchmarking | 채굴자는 Zcash 채굴에 사용되는 다양한 하드웨어의 효율성에 대한 지표를 제출할 수 있습니다. [여기서 보기](https://zcashbenchmarks.info) |
 | Block | 블록은 네트워크에서 전송된 거래 집합을 담고 있는 Zcash 블록체인의 기록입니다. 평균적으로 약 75초마다 새로운 블록이 블록체인에 추가됩니다. |
 | Block Explorer | 블록체인상의 모든 거래를 과거와 현재를 포함해 볼 수 있는 온라인 도구입니다. [Zcash 블록 탐색기](https://zcashexplorer.app/) |
-| Blogs | [ZODL 블로그 (구 Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation 블로그](https://zfnd.org/blog/) / [ZecHub 블로그](https://zechub.wiki/zechub-dao) |
+| Blogs | [ZODL 블로그 (구 Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation 블로그](https://zfnd.org/blog/) / [ZecHub 뉴스레터](https://zechub.substack.com/) |
 | Blossom | Zcash의 세 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
@@ -33,9 +33,9 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Canopy | Zcash의 다섯 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | 커미터가 짧은 문자열로 다항식에 커밋할 수 있게 하며, 검증자는 이를 사용해 커밋된 다항식의 주장된 평가값을 확인할 수 있습니다. Zcash 프로토콜의 통신 비용을 줄이는 데 유용합니다. |
 | Community | [공식 Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com) / [Zcash 커뮤니티 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | 작업증명 기반 블록 생성은 유지하면서 그 위에 지분증명 기반 파이널리티 레이어를 추가하는 하이브리드 합의 설계 제안입니다. 이를 통해 채굴을 포기하지 않고도 블록이 더 강한 최종성을 확보할 수 있습니다. 이는 Trailing Finality Layer 연구에서 발전했으며, 2026년 기준으로 아직 테스트넷 개발 단계에서 Shielded Labs가 구축 중입니다. |
+| Crosslink | Zcash의 기존 작업증명과 함께 지분증명을 운영하는 하이브리드 합의 설계 제안입니다. Shielded Labs가 이 작업을 주도하며, `zebra-crosslink` 저장소에 프로토타입을 유지하고 있습니다. Crosslink는 현재 Zcash의 일부가 아닙니다. [Crosslink 프로토콜](/zcash-tech/crosslink-protocol) |
 | CrossPay | ZODL 지갑의 기능으로, 중앙화 거래소를 거치지 않고 NEAR Intents를 통해 라우팅되어 수신자가 선호하는 자산과 체인으로 지급받는 동안 사용자는 shielded ZEC를 사용할 수 있게 해줍니다. |
-| Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [Cypherpunk Zero 사이트](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [Cypherpunk Zero 소셜](https://x.com/cypherpunkZero) / [OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -48,10 +48,10 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## E
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
 | ECC | Electric Coin Company는 Zcash 프로토콜을 출시한 팀이며, 이전에는 Zcash Company로 알려졌습니다. 2026년 1월 Bootstrap 이사회와의 거버넌스 분쟁 이후 엔지니어링 팀 전체가 사임했고, 이후 ZODL을 설립했습니다. |
-| ECDSA | 타원 곡선 디지털 서명 알고리즘은 암호학적으로 안전한 디지털 서명 체계입니다. ECDSA 서명/검증 알고리즘은 타원 곡선 점 곱셈에 의존합니다. |
+| ECDSA | 타원 Curve 디지털 서명 알고리즘은 암호학적으로 안전한 디지털 서명 체계입니다. ECDSA 서명/검증 알고리즘은 타원 곡선 점 곱셈에 의존합니다. |
 | Education | Zcash를 설명하는 학습 중심 영상은 [여기](https://www.zcashcommunity.com/zcash-education/)에서 볼 수 있습니다 |
 | Encrypted Memos | shielded 주소로 전송되는 거래에 추가되는 필드로, 결제 수신자가 볼 수 있습니다. 암호화된 메모는 발신자와 수신자에게만 보입니다. |
 | Equihash | Zcash에서 사용되는 메모리 지향형 작업증명 채굴 알고리즘입니다. |
@@ -90,7 +90,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Integrations | 여러 서드파티 제공업체를 통해 Zcash 결제를 받을 수 있습니다. [결제 처리업체](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | 증명자(Prover)와 검증자(Verifier)라는 두 당사자 간의 메시지 교환으로 계산을 모델링하는 추상 기계입니다. |
 | Investment | Zcash에 대한 익스포저를 얻고자 하는 기관 투자자나 패밀리 오피스를 위해 여러 금융 옵션이 제공됩니다. [전체 목록](https://z.cash/investors/) |
-| Ironwood | 2026년 7월 28일 메인넷의 블록 3,428,143에서 활성화된 네트워크 업그레이드(NU6.3)입니다. Ironwood라고도 불리는 새로운 실드 풀을 도입했으며, 기존 가치가 turnstile을 통해 이동하도록 Orchard 풀을 출금 전용으로 만들었습니다. [더 알아보기](/zcash-tech/ironwood) |
+| Ironwood | 네트워크 업그레이드 NU6.3으로, 2026년 7월 28일 블록 3,428,143부터 메인넷에서 활성화되었습니다. Ironwood는 수정된 Orchard 회로를 기반으로 구축된 새로운 실드 풀을 추가하고 기존 Orchard 풀을 봉인하여, 누구나 유통 공급량이 정직한지 확인할 수 있게 합니다. 합의 규칙은 [ZIP 258](https://zips.z.cash/zip-0258)에 명시되어 있습니다. [Ironwood](/zcash-tech/ironwood) |
 
 ## J
 
@@ -130,7 +130,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Nighthawk | Zcash용 모바일 지갑입니다. [웹사이트](https://nighthawkwallet.com) |
 | Noir Wallet | Zcash Community Grants의 지원을 받는 Zcash 브라우저 확장 지갑으로, QR 코드와 수동 전송에 의존하는 대신 shielded ZEC를 브라우저 애플리케이션에 직접 연결하도록 구축되었습니다. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Orchard shielded 풀과 Unified Addresses를 도입한 Zcash의 여섯 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Zcash Community Grants 프로그램과 Shielded Labs에 자금을 지원하기 위해 블록 보조금을 조정한 Zcash의 일곱 번째 주요 네트워크 업그레이드입니다. 2024년 말에 활성화되었습니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU6 | Zcash Community Grants 프로그램과 지연된 개발자 기금 락박스에 자금을 지원하기 위해 블록 보조금을 조정한 Zcash의 일곱 번째 주요 네트워크 업그레이드입니다. 2024년 말에 활성화되었습니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 | NU7 | Ironwood 이후의 다음 주요 네트워크 업그레이드입니다. 후보 기능에는 Project Tachyon의 확장성 작업, Zcash Shielded Assets, 그리고 Network Sustainability Mechanism이 포함됩니다. |
 
 ## O
@@ -138,7 +138,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | 용어 | 정의 |
 |------|-----------|
 | Oblivious Synchronization | Project Tachyon에서 개발 중인 방식으로, 지갑이 신뢰할 수 없는 서버에 필요한 데이터를 요청하면서도 어떤 노트에 대해 요청하는지 드러내지 않도록 해줍니다. 프로토콜이 사용자의 널리파이어를 서로 연결할 수 없는 방식으로 변화시키기 때문에, 서버는 사용자의 널리파이어를 절대 알 수 없습니다. [설명글](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
-| Orchard Shielded Pool | Zcash의 세 번째 shielded 풀이며, 우리의 zk-SNARK 기술 스택이 계속 진화하고 있음을 보여줍니다. [전체 내용](https://electriccoin.co/blog/explaining-halo-2/) |
+| Orchard | NU5에서 도입된 shielded 풀입니다. 건전성 버그가 발견된 후 Ironwood에서 이를 폐쇄했으므로, 더 이상 Orchard 내에서 송금하거나 수령할 수 없습니다. 자금은 턴스타일을 통해서만 나갈 수 있습니다. [Shielded 풀](/using-zcash/shielded-pools) |
 | Overwinter | Zcash의 첫 번째 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
@@ -179,18 +179,18 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## T
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
-| Tachyon | NU7를 목표로 하는 Zcash의 확장 프로그램입니다. 지갑이 모든 블록을 스캔하는 방식에서 벗어나 증명을 수반하는 지갑 상태, oblivious synchronization, 그리고 가지치기 가능한 노드 상태로 전환하여, 초당 수천 건의 shielded 거래 처리량을 목표로 합니다. [프로젝트 사이트](https://tachyon.z.cash/overview/) |
-| TAZ | Testnet Zcash (가치가 없는 테스트 통화)입니다. |
+| Tachyon | Zcash의 확장 프로그램입니다. NU7의 일부가 아니며([ZIP 259](https://zips.z.cash/zip-0259)), 활성화 날짜도 없습니다. 지갑이 모든 블록을 스캔하는 방식에서 벗어나 증명을 수반하는 지갑 상태, 비인식 동기화, 가지치기 가능한 노드 상태로 전환하여 초당 수천 건의 차폐된 거래 처리량을 목표로 합니다. [프로젝트 사이트](https://tachyon.z.cash/overview/) |
+| TAZ | Testnet Zcash(가치가 없는 테스트 통화)입니다. |
 | Testnet | 메인넷 전에 업그레이드와 기능을 테스트하기 위한 별도의 블록체인입니다. |
-| Trailing Finality Layer (TFL) | 채굴을 대체하지 않으면서 최근 블록을 확정할 수 있도록, Zcash의 작업증명 체인 뒤에 finality layer를 추가하는 연구입니다. Crosslink는 이 연구에서 나온 설계입니다. |
+| Trailing Finality Layer (TFL) | 채굴을 대체하지 않으면서 최근 블록을 확정할 수 있도록 Zcash의 작업증명 체인 뒤에 확정성 계층을 추가하는 연구입니다. Crosslink는 이 연구에서 나온 설계입니다. |
 | Transaction | 사용자 간의 결제로, 네트워크에 제출되고 결국 블록에서 확인됩니다. |
 | Transaction Expiry | 거래가 확인되지 않으면 약 25분(20블록) 후 만료되며, 자금은 자동으로 반환됩니다. |
 | Transaction Fee | 기본 수수료는 0.0001 ZEC입니다. 더 높은 수수료가 우선순위를 가지며, 매우 낮은 수수료는 지연이나 만료를 초래할 수 있습니다. |
 | Transparent Address | taddr라고도 합니다. t로 시작합니다. 완전히 공개됩니다(Bitcoin과 유사). |
-| Transparent Transaction | transparent 주소들 사이에서만 이루어지는 거래로, 모든 것이 공개적으로 보입니다. |
-| Turnstile | 각 shielded 풀에 얼마나 많은 가치가 들어오고 나가는지를 추적하는 회계 규칙으로, 어떤 풀도 들어간 양보다 더 많이 내보낼 수 없도록 합니다. Zcash 역사상 모든 풀 전환에서 사용되었으며, 현재는 Orchard에서 Ironwood로의 마이그레이션을 보호하고 있습니다. [자세한 정보](/zcash-tech/the-turnstile) |
+| Transparent Transaction | 투명 주소들 사이에서만 이루어지는 거래로, 모든 것이 공개적으로 보입니다. |
+| Turnstile | 각 차폐된 풀에 얼마나 많은 가치가 들어오고 나가는지를 추적하는 회계 규칙으로, 어떤 풀도 들어간 양보다 더 많이 내보낼 수 없도록 합니다. Zcash 역사상 모든 풀 전환에서 사용되었으며, 현재는 Orchard에서 Ironwood로의 마이그레이션을 보호하고 있습니다. [자세한 정보](/zcash-tech/the-turnstile) |
 
 ## U
 
@@ -232,18 +232,19 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Zcash Foundation | Zcash 생태계를 지원하고, 개발에 자금을 지원하며, 프라이버시를 촉진하는 독립 비영리 단체입니다. |
 | Zcash Network | 거래를 검증하고 블록체인을 유지하는 노드들의 피어투피어 네트워크입니다. |
 | ZEC | Zcash의 공식 통화 코드입니다(일부 거래소는 여전히 XZC를 표시합니다). |
+| Z3 stack | 함께 zcashd를 대체하는 세 가지 프로그램입니다. 노드용 Zebra, 인덱싱용 Zaino, 지갑용 Zallet로 구성됩니다. [Z3 스택](/zcash-tech/z3-stack) |
 | Zerocash | Zcash의 기반이 된 학술 프로토콜(2014)입니다. |
-| Zaino | lightwalletd를 대체하는 차세대 Zcash 인덱서로, Zcash Foundation이 구축했습니다. 라이트 클라이언트가 더 빠르고 더 프라이빗하게 동기화할 수 있게 합니다. Zcash Z3 인프라 업그레이드의 일부입니다. |
-| Zakura | 2026년 7월에 출시된 Zcash 풀 노드 구현으로, Valar Group과 Project Tachyon이 Zebra를 포크해 구축했습니다. 스냅샷 부트스트래핑을 갖추고 처리량과 동기화 속도를 목표로 하며, 초당 약 50,000건의 거래라는 카드 네트워크 규모를 지향한다고 밝혔습니다. [zakura.com](https://zakura.com) |
-| Zallet | Zcash Z3 인프라 작업의 일환으로 Zaino 기반 위에 구축되었으며, zcashd가 퇴역했을 때 그 지갑 기능을 넘겨받은 지갑 구성 요소입니다. |
-| Zebra | Zcash Foundation의 Rust 기반 풀 노드 구현입니다(zcashd의 대안). 프로덕션 준비가 완료되었고 활발히 유지보수되고 있습니다. [GitHub](https://github.com/ZcashFoundation/zebra) |
-| zcashd | Bitcoin Core에서 포크된 원래의 Zcash 풀 노드입니다. 오랜 기간의 지원 중단 예고 끝에 2026년 7월에 퇴역했으며, 그 역할은 합의를 위한 Zebra와 지갑 기능을 위한 Zallet으로 나뉘었습니다. |
+| Zaino | Zebra 노드에서 지갑 데이터를 제공하는 인덱서로, Zingo Labs이 Rust로 작성했습니다. 라이트 지갑을 위해 zcashd이 수행하던 인덱싱 작업을 넘겨받습니다. [Zaino](/zcash-tech/zaino) |
+| Zakura | 확장성을 위해 구축된 별도의 Zcash 풀 노드로, Sean Bowe와 Dev Ojha가 이끌고 있습니다. 더 빠르게 동기화하고, 블록을 네이티브로 프루닝하며, 이를 계속 의존하는 소프트웨어를 위해 그 위에서 zcashd를 실행할 수 있습니다. [Zakura 노드](/zcash-tech/zakura-node) |
+| Zallet | zcashd 지갑을 대체하는 지갑입니다. 처음부터 다시 시작하지 말고 기존 `wallet.dat`를 옮기세요. [Zallet](/zcash-tech/zallet) 및 [Zallet 빠른 참조](/using-zcash/zallet-quick-reference-guide) |
+| Zebra | zcashd를 대체하는 풀 노드로, Zcash Foundation이 유지보수합니다. 검증 노드가 필요하다면 실행하세요. [Zebra 풀 노드](/zcash-tech/zebra-full-node) |
+| zcashd | 이제 퇴역한 원래의 Zcash 풀 노드 및 지갑입니다. 버전 6.20.0은 2026년 7월 18일 블록 3417100에서 스스로 종료되었으며, NU6.3은 지원하지 않았습니다. 대신 Z3 스택 또는 Zakura를 실행하세요. [마이그레이션 가이드](/guides/migration-guide-zcashd-to-zebrad-zallet) |
 | ZIP | Zcash Improvement Proposal - 프로토콜 변경을 제안하고 비준하는 데 사용되는 커뮤니티 거버넌스 프로세스입니다. [ZIP 저장소](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Development Lab입니다. 2026년 초 Josh Swihart와 전 Electric Coin Company 엔지니어링 팀이 Bootstrap과의 거버넌스 분쟁으로 사임한 뒤 설립한 독립 조직입니다. 2026년 3월에 2,500만 달러가 넘는 시드 투자를 유치했으며, 2026년 2월 Zashi에서 이름이 바뀐 ZODL 지갑을 유지보수하고 있습니다. [zodl.com](https://zodl.com) |
 | zk-SNARKs | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — Zcash shielded 거래를 구동하는 암호 기술입니다. 어떤 진술(예: 유효한 지출)을 비밀 정보를 전혀 공개하지 않고도 증명할 수 있게 합니다. |
-| ZSA (Zcash Shielded Assets) | Zcash의 shielded 프라이버시를 상속하는 사용자 발행 토큰으로, ZEC 이외의 자산도 네트워크에서 프라이빗하게 이동할 수 있게 합니다. [ZIP 226](https://zips.z.cash/zip-0226)에 명시되어 있으며 NU7의 후보 기능입니다. |
+| ZSA (Zcash Shielded Assets) | Zcash의 shielded 프라이버시를 상속하는 사용자 발행 토큰으로, ZEC 이외의 자산도 네트워크에서 프라이빗하게 이동할 수 있게 합니다. [ZIP 226](https://zips.z.cash/zip-0226)에 명시되어 있습니다. NU7의 일부가 아니며([ZIP 259](https://zips.z.cash/zip-0259)), 활성화 날짜도 없습니다. |
 
 ---
 
-**마지막 업데이트:** 2026년 7월
+**마지막 업데이트:** 2026년 10월
 **기여하고 싶으신가요?** [GitHub에서 이 페이지 편집하기](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)

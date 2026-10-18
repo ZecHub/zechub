@@ -1,8 +1,8 @@
-# Zcash Network Upgrades (Ubadilishaji wa Mtandao)
+# Maboresho ya Mtandao wa Zcash
 
-Zcash improves through network upgrades: coordinated changes to the rules every node agrees on, each activated at a set block height. Every upgrade below has its own page that explains, in plain language, what it changed and why. New to Zcash? Read them in order, from Sprout to Ironwood.
+Zcash inaboresha kupitia uboreshaji wa mtandao: mabadiliko yaliyoratibiwa kwa sheria ambazo kila nodi inakubaliana nazo, kila moja ikiwa imewashwa kwa urefu wa block uliowekwa. Kila uboreshaji hapa chini una ukurasa wake unaoelezea, kwa lugha rahisi, ni nini kilibadilika na kwa nini. Je, ni mgeni kwa Zcash? Zisome kwa mpangilio, kuanzia Sprout hadi Ironwood.
 
-Kwa hadithi ya kuona jinsi faragha Zcash ina maendeleo katika upgrades haya, angalia [Maendeleo ya Faragha](https://zechub.wiki/zcash-evolution)Ukurasa huu ni index. Hiyo moja ni timeline.
+Kwa hadithi inayoonekana ya jinsi faragha Zcash's imebadilika katika maboresho haya, tazama [Mageuzi ya Faragha](https://zechub.wiki/zcash-evolution)Ukurasa huu ndio faharasa. Huo ndio ratiba ya matukio.
 
 | Boresha | Uanzishaji (UTC) | Kizuizi | Kitambulisho cha tawi | Kilichobadilika |
 |---|---|---|---|---|
@@ -17,5 +17,21 @@ Kwa hadithi ya kuona jinsi faragha Zcash ina maendeleo katika upgrades haya, ang
 | [NU6.1](../zcash-tech/nu6-1) | Novemba 24, 2025 | 3,146,400 | 4dec4df0 | Utawala wa jamii na wenye sarafu wa ufadhili huo |
 | [NU6.2](../zcash-tech/nu6-2) | Juni 3, 2026 | 3,364,600 | 5437f330 | Marekebisho ya dharura yaliyorekebisha mzunguko wa Orchard |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | Julai 28, 2026 | 3,428,143 | 37a5165b | Bwawa la kuogelea Ironwood na sehemu ya kugeuza ya umma inayomruhusu mtu yeyote kukagua usambazaji |
+| **NU7** (inayokuja) | Testnet: 4 Okt 2026; Mainnet: inayolengwa 5 Nov 2026 | Mtandao wa Majaribio: 4,465,026; Mtandao Mkuu: TBD (seti 20 Okt) | 77190ad9 | Vitalu vya sekunde 25 (ZIP 218), kuchakata ada ya NSM (ZIP 235+237), Sprout retirement (ZIP 2003) |
 
-Tarehe zinaonyeshwa katika UTC. Baadhi ya dashibodi kuwaonyesha kwa muda wa ndani, ambayo ni block moja na wakati huo huo. trigger fasta kwa kila kuboresha ni uanzishaji wake kuzuia urefu, si tarehe kalenda: Ironwood kuamilishwa saa block 3,428,143. upgrades baadaye, NU7, bado katika mipango na sio sawa kama Ironwood.
+Tarehe zinaonyeshwa katika UTC. Baadhi ya dashibodi huzionyesha katika saa za ndani, ambazo ni kizuizi sawa na wakati mmoja. Kichocheo kisichobadilika kwa kila sasisho ni urefu wake wa kizuizi cha uanzishaji, sio tarehe ya kalenda.
+
+### Hali ya NU7
+
+NU7 inapatikana moja kwa moja kwenye Testnet ya umma kwa urefu wa **4,465,026** (imeamilishwa tarehe 4 Oktoba 2026). Urefu wa uanzishaji wa Mainnet utachaguliwa tarehe **20 Oktoba 2026**; lengo la sasa ni **5 Novemba 2026**.
+
+Upeo (ZIP 259):
+
+- **Vizuizi vya sekunde 25** (ZIP 218) — uthibitisho wa kwanza ~3× haraka zaidi; utoaji wa kila siku ZEC haujabadilika.
+- **Mfumo Endelevu wa Mtandao** (ZIP 235 + ZIP 237) — 60% ya ada za miamala zilizoondolewa kutoka kwa mzunguko hadi kwenye akiba, zilizotolewa tena kwa wachimbaji kwa ratiba ya kuhifadhi nusu kuanzia ~Februari 2031.
+- **Sprout retirement** (ZIP 2003) — miamala ya toleo la 4 inakuwa batili; fedha zilizobaki za Sprout huwa haziwezi kutumika.
+- Mipaka ya vitendo iliyolindwa na ugumu mpana wa wastani wa dirisha (vizuizi 17 → 102).
+
+Hakuna umbizo jipya la muamala linaloletwa. Kitambulisho cha tawi la makubaliano: `0x77190ad9`.
+
+Tazama [Mageuzi ya Faragha](https://zechub.wiki/zcash-evolution) ratiba na [ZIP 259](https://zips.z.cash/zip-0259) kwa maelezo kamili. Ratiba ya muda wa jukwaa: [Ratiba NU7](https://forum.zcashcommunity.com/t/nu7-timeline/57655).

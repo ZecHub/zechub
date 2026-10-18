@@ -32,7 +32,7 @@ Protokol Namada juga memiliki kemampuan untuk terhubung secara mulus dengan chai
 
 ## Imbalan Set Terlindungi
 
-Dalam pembaruan terbaru dari Protokol [Namada](https://blog.namada.net/what-is-namada/), pengguna yang memegang aset terlindungi diberikan insentif untuk berpartisipasi aktif dalam set terlindungi bersama. Hal ini dimungkinkan melalui integrasi sirkuit MASP yang telah diperbarui, yang kini mencakup Convert Circuit yang inovatif. Dengan memanfaatkan fitur baru ini, Namada mendorong pengguna untuk berkontribusi pada set terlindungi bersama dengan cara memegang aset terlindungi.
+Dalam pembaruan terbaru Protokol [Namada](https://namada.net/blog/what-is-namada), pengguna yang memegang aset terlindungi diberikan insentif untuk berpartisipasi aktif dalam set terlindungi bersama. Hal ini dimungkinkan melalui integrasi sirkuit MASP yang telah diperbarui, yang kini mencakup Convert Circuit yang inovatif. Dengan memanfaatkan fitur baru ini, Namada mendorong pengguna untuk berkontribusi pada set terlindungi bersama dengan cara memegang aset terlindungi.
 
 Dalam Namada, set terlindungi dianggap sebagai barang publik yang non-eksklusif dan anti-rivalrous. Ini berarti bahwa seiring semakin banyaknya individu yang menggunakan transfer terlindungi, tingkat jaminan privasi akan meningkat bagi setiap peserta. Protokol ini menyadari pentingnya adopsi dan partisipasi kolektif dalam meningkatkan privasi bagi semua pengguna. Oleh karena itu, dengan memberi insentif kepada pengguna untuk menyimpan aset terlindungi dan berkontribusi pada set terlindungi bersama, Namada mendorong ekosistem privasi yang lebih kuat dan tangguh.
 
@@ -52,7 +52,7 @@ Selain itu, Namada menggunakan algoritma konsensus BFT modern, yang menjamin int
 
 ## Aliansi Strategis Namada dan Zcash
 
-Berdasarkan publikasi terbaru yang dapat ditemukan di [Blog Namada](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/), tim di balik Protokol Namada dengan antusias menyajikan sebuah proposal dan request-for-comment (RFC) untuk aliansi strategis antara aset, chain, dan komunitas Namada dan Zcash.
+Berdasarkan publikasi terbaru yang dapat ditemukan [Namada Blog Protokol](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash), tim di balik Protokol Namada dengan antusias menyajikan proposal dan permintaan komentar (RFC) untuk aliansi strategis antara aset, chain, dan komunitas Namada dan Zcash.
 
 ![Namada-Zcash Strategic Alliance Diagram](/content-images/image-2-68804c60f3.webp)
 
@@ -62,5 +62,5 @@ Aliansi yang diusulkan ini mencakup tiga elemen utama. Pertama, terdapat sebuah 
 
 - Video Resmi Protokol [Namada](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 - Situs Web Resmi Protokol [Namada](https://namada.net/)
-- Blog [Namada](https://blog.namada.net/)
+- Blog [Namada](https://namada.net/blog)
 - Dokumentasi [Namada](https://docs.namada.net/)

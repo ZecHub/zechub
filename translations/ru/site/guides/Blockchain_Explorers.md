@@ -78,6 +78,8 @@
 - [Bitquery](https://explorer.bitquery.io/zcash)
 
 
+- [ShieldedScan](https://shieldedscan.xyz)
+
 ### Визуальное руководство
 
 Вот четыре хороших примера различных обозревателей блокчейна:

@@ -244,6 +244,10 @@ async function checkExternal(url) {
           accept: "*/*",
         },
       });
+      // GET fallbacks (including manual redirects) can have a streaming body.
+      // We only need the headers. Leaving that body unread retains a socket
+      // until the server finishes or GC runs, starving later link checks.
+      if (res.body) await res.body.cancel().catch(() => {});
       return { status: res.status, location: res.headers.get("location") };
     } finally {
       clearTimeout(timer);

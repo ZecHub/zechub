@@ -10,7 +10,7 @@
 - Consentono a una parte di **dimostrare di sapere qualcosa** senza rivelare l'informazione stessa
 - Zcash utilizza zk-SNARKs per dimostrare che una transazione è valida (importi corretti, input non spesi) **senza rivelare mittente, destinatario o importo**
 - "Succinto" significa che la prova è piccola e veloce da verificare anche per affermazioni complesse
-- Il pool Orchard utilizza Halo 2, un sistema zk-SNARK con **nessuna configurazione fidata richiesta**
+- La pool Orchard utilizza Halo 2, uno zk-SNARK con **nessun trusted setup richiesto**
 
 ---
 
@@ -107,7 +107,7 @@ Definizione generale - Una prova succinta che un'affermazione è vera. La prova 
 
 Esempio di affermazione: "Conosco un messaggio (m) tale che SHA256(m)=0"
 
-In un zk-SNARK la prova non rivela nulla sul messaggio (m).
+In uno zk-SNARK la prova non rivela nulla sul messaggio (m).
 
 **Polinomi**: Somme di termini contenenti una costante (come 1,2,3), variabili (come x,y,z) ed esponenti delle variabili (come x², y³). 
 
@@ -148,22 +148,22 @@ Le procedure di configurazione aiutano il verificatore riassumendo un circuito e
 
 **Tipi di configurazione con pre-elaborazione**:
 
-Configurazione Fidata per circuito - Viene eseguita una volta per ciascun circuito. È specifica per un circuito e la casualità segreta (Common Reference String) deve essere mantenuta segreta e distrutta. 
+Trusted setup per circuito - Viene eseguito una volta per ciascun circuito. È specifico per un circuito e la casualità segreta (Common Reference String) deve essere mantenuta segreta e distrutta. 
 
 Una configurazione compromessa con questo metodo significa che un dimostratore disonesto può dimostrare affermazioni false. 
 
-Configurazione Fidata ma Universale - È necessario eseguire la configurazione fidata una sola volta e poi è possibile pre-elaborare deterministicamente più circuiti. 
+Trusted setup universale - È necessario eseguire il trusted setup una sola volta e poi è possibile pre-elaborare deterministicamente più circuiti. 
 
-Configurazione Trasparente (Nessuna Configurazione Fidata)- L'algoritmo di pre-elaborazione non utilizza alcuna casualità segreta. 
+Setup trasparente (nessun trusted setup)- L'algoritmo di pre-elaborazione non utilizza alcuna casualità segreta. 
 
 
 **Tipi di costruzioni di prove SNARK**:
 
-[Groth16](https://eprint.iacr.org/2016/260): Richiede una Configurazione Fidata ma ha prove molto brevi che possono essere verificate rapidamente.
+[Groth16](https://eprint.iacr.org/2016/260): Richiede un trusted setup ma ha prove molto brevi che possono essere verificate rapidamente.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Configurazione Fidata Universale.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted setup universale.
 
-[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Nessuna Configurazione Fidata, ma producono prove leggermente più lunghe o potrebbero richiedere più tempo al dimostratore per l'esecuzione. 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Non richiedono trusted setup, ma producono prove leggermente più lunghe o potrebbero richiedere più tempo al dimostratore per l'esecuzione. 
 
 Gli SNARKS sono utili quando sono necessari più verificatori, come in una blockchain quale Zcash o in uno zk-Rollup come [Aztec](https://docs.aztec.network), affinché più nodi di convalida non debbano interagire per diversi round con ciascuna prova. 
 
@@ -181,7 +181,7 @@ Leggi il [libro Halo2](https://zcash.github.io/halo2/index.html) per ulteriori i
 
 Gli zk-SNARKs offrono diversi vantaggi in una varietà di applicazioni. Diamo un'occhiata ad alcuni esempi.
 
-**Scalabilità**: Si ottiene tramite l'"esternalizzazione del calcolo". Non è strettamente necessario usare la conoscenza zero affinché una catena L1 verifichi il lavoro di un servizio off-chain. Le transazioni non sono necessariamente private su una zk-EVM.
+**Scalabilità**: Si ottiene tramite l'"esternalizzazione del calcolo". Non è strettamente necessario usare la conoscenza zero affinché una chain L1 verifichi il lavoro di un servizio off-chain. Le transazioni non sono necessariamente private su una zk-EVM.
 
 Il vantaggio di un servizio Rollup basato su prove (zk-Rollup) è elaborare un lotto di centinaia/migliaia di transazioni e permettere alla L1 di verificare una prova succinta che tutte le transazioni siano state elaborate correttamente, aumentando il throughput delle transazioni della rete di un fattore 100 o 1000.
 
@@ -190,7 +190,7 @@ Il vantaggio di un servizio Rollup basato su prove (zk-Rollup) è elaborare un l
 </a>
 
 
-**Interoperabilità**: Si ottiene su un zk-Bridge "bloccando" gli asset su una catena di origine e dimostrando alla catena di destinazione che gli asset sono stati bloccati (prova di consenso).
+**Interoperabilità**: Si ottiene su uno zk-Bridge "bloccando" gli asset su una chain di origine e dimostrando alla chain di destinazione che gli asset sono stati bloccati (prova di consenso).
 
 **Conformità**: Progetti come [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) sono in grado di dimostrare che una transazione privata è conforme alle leggi bancarie locali senza rivelare i dettagli della transazione. 
 
@@ -222,7 +222,7 @@ Per approfondire:
 
 ## Pagine correlate
 
-- [Pool schermati](/using-zcash/shielded-pools) — Come gli zk-SNARKs vengono utilizzati nei pool di valore Zcash
+- [Pool schermate](/using-zcash/shielded-pools) — Come gli zk-SNARK vengono utilizzati nelle pool di valore Zcash
 - [Halo](/zcash-tech/halo) — Il sistema Zcash di zk-SNARK che elimina le configurazioni fidate
 - [Sicurezza post-quantistica in Zcash](/zcash-tech/post-quantum-security) - Come i futuri rischi quantistici si relazionano alla crittografia Zcash
 - [Zcash Asset schermati](/zcash-tech/zcash-shielded-assets) — ZSA costruiti sulla tecnologia zk-SNARK

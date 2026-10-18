@@ -1,11 +1,11 @@
-# Il Protocollo Schermato, da Cima a Fondo
+# Il protocollo schermato, dall'inizio alla fine
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
 ![alt text](/content-images/image-27-4094293ec0.webp)
 
 ### Assemblare ogni pezzo in un'unica transazione Zcash privata
 
-> **Serie:** *Zcash from First Principles* . **Articolo 6 . Il Protocollo Schermato** (finale)
+> **Serie:** *Zcash from First Principles* . **Articolo 6 . Il protocollo schermato** (finale)
 > **Pubblico:** i nuovi arrivati che hanno letto gli Articoli da 0 a 5. È qui che tutto si collega.
 > **Cosa porterai con te:** un modello mentale completo e corretto di una transazione Zcash schermata, con ogni concetto della serie al suo posto, e ogni filo aperto nell'Articolo 0 finalmente chiuso.
 
@@ -33,20 +33,20 @@ Ecco l'intera serie in una sola pagina, mappata dalla storia dell'Articolo 0 al 
 | Il gettone di annullamento | **Nullifier** | un hash ZK-friendly della nota + chiave segreta (Art 2, 3) |
 | "Il denaro in entrata uguaglia quello in uscita" | **Commitment di valore + controllo del bilancio** | commitment di Pedersen omomorfici (Art 2, 3) |
 | La magia dietro le quinte | **Prova a conoscenza zero** | zk-SNARK su un circuito aritmetico (Art 5) |
-| "Solo tu puoi leggere la tua busta" | **Nota cifrata + viewing key** | cifratura + gerarchia di chiavi (questo articolo) |
+| "Solo tu puoi leggere la tua busta" | **Nota crittografata + chiavi di visualizzazione** | crittografia + gerarchia delle chiavi (questo articolo) |
 
 ---
 
 ## 3. Da dove vengono le chiavi
 
-Tutto ciò che un utente può fare scaturisce da un singolo segreto, la **spending key**, attraverso una gerarchia unidirezionale (ogni freccia è una derivazione irreversibile, grazie alle trappole degli Articoli 2 e 3):
+Tutto ciò che un utente può fare scaturisce da un singolo segreto, la **chiave di spesa**, attraverso una gerarchia unidirezionale (ogni freccia è una derivazione irreversibile, grazie alle trappole degli articoli 2 e 3):
 
 ![alt text](/content-images/image-32-f443f9bb72.webp)
 
 Due cose degne di nota, entrambe conseguenze degli articoli precedenti:
 
-- La separazione ti consente di consegnare una **viewing key** (per esempio, a un revisore) che rivela le tue transazioni **senza** concedere il potere di spendere. La privacy è selettiva, non tutto-o-niente.
-- Ogni derivazione è **unidirezionale**: possedere una viewing key non permette mai a nessuno di recuperare la spending key, esattamente la trappola della curva ellittica dell'Articolo 2 che svolge il suo compito.
+- La separazione ti consente di consegnare delle **chiavi di visualizzazione** (per esempio, a un revisore) che rivelano le tue transazioni **senza** concedere il potere di spendere. La privacy è selettiva, non tutto-o-niente.
+- Ogni derivazione è **unidirezionale**: possedere delle chiavi di visualizzazione non permette mai a nessuno di recuperare le chiavi di spesa, è proprio la trappola della curva ellittica dell'articolo 2 a svolgere il suo compito.
 
 ---
 
@@ -109,7 +109,7 @@ L'Articolo 0 ha aperto deliberatamente delle domande. Eccole tutte, chiuse.
 | Cos'è esattamente "la bacheca"? | Un albero di Merkle incrementale di commitment di note; la sua radice è l'anchor (Art 4) |
 | Perché il gettone di annullamento non può essere collegato alla sua busta? | Il nullifier è un hash con chiave conservato in un insieme separato dai commitment (Art 2, 3, 4) |
 | Come si prova la validità senza rivelare nulla? | Uno zk-SNARK su un circuito aritmetico che codifica tutte e quattro le affermazioni (Art 5) |
-| Come fa il destinatario a sapere di essere stato pagato? | La nota è cifrata verso il suo indirizzo; lui prova a decifrarla (trial-decrypt) con una viewing key (questo articolo) |
+| Come fa il destinatario a sapere di essere stato pagato? | La nota è cifrata verso il suo indirizzo; prova a decifrarla con una chiave di visualizzazione (questo articolo) |
 | Come si impone "denaro in entrata = denaro in uscita" in modo privato? | Commitment di valore omomorfici + la binding signature (Sez 5) |
 
 Il paradosso della prima pagina, *verificare ciò che non puoi vedere*, è ora completamente dissolto. La rete verifica **affermazioni su dati nascosti**, mai i dati stessi.
@@ -142,7 +142,7 @@ Questo è il quadro più completo della serie, ma resta pur sempre un modello. A
 - Una transazione schermata incastra tutti e cinque i componenti: una **nota** (il valore), il suo **commitment** nell'**albero dei commitment delle note**, un **nullifier** per impedire la doppia spesa, **commitment di valore** per il bilancio, e uno **zk-SNARK** che lega tutto insieme.
 - Spendere prova **quattro affermazioni in una volta sola**, che la nota esiste, che sei autorizzato, che il suo nullifier è corretto e che il valore è bilanciato, a **conoscenza zero**, senza rivelare nessuno dei fatti sottostanti.
 - Il **bilancio dei valori** è imposto **sommando commitment omomorfici** e verificando che si sigillino a zero, tramite la **binding signature**, senza che alcun importo venga divulgato.
-- I poteri di un utente scaturiscono da un'unica **spending key** attraverso una **gerarchia unidirezionale**, abilitando **viewing key** che rivelano senza concedere il potere di spesa.
+- I poteri di un utente scaturiscono da un'unica **chiave di spesa** attraverso una **gerarchia unidirezionale**, abilitando **chiavi di visualizzazione** che rivelano senza concedere il potere di spesa.
 - La rete **verifica affermazioni su dati nascosti**, dissolvendo il paradosso verifica-vs-privacy dell'Articolo 0. Ogni filo lì aperto è ora chiuso.
 - **Orchard** raffina **Sapling** (Action unificate, Halo 2 senza trusted setup, curve Pasta, Sinsemilla) senza modificare i cinque pilastri.
 
@@ -153,7 +153,7 @@ Questo è il quadro più completo della serie, ma resta pur sempre un modello. A
 | Termine | Significato in parole semplici |
 |---|---|
 | **Spending key** | L'unico segreto radice da cui derivano tutte le chiavi di un utente |
-| **Viewing key** | Rivela le tue transazioni a chi la detiene senza permettergli di spendere |
+| **Viewing key** | Rivela le tue transazioni a chi la possiede senza permettergli di spendere |
 | **Spend description** | La parte di una tx che consuma una nota (nullifier, anchor, prova) |
 | **Output description** | La parte di una tx che crea una nota (commitment, testo cifrato, prova) |
 | **Action (Orchard)** | Un'unità unificata che esegue insieme una spesa e un output |
@@ -176,7 +176,7 @@ Il nullifier. Spendere lo pubblica; la rete rifiuta qualsiasi nullifier già pre
 I commitment di valore si sommano in modo omomorfico; i commitment di una transazione bilanciata si annullano in un commitment a zero, cosa che la binding signature prova.
 
 **Posso provare le mie transazioni a un revisore senza cedere il controllo?**
-Sì. Consegna una viewing key. Rivela la tua attività schermata ma non può autorizzare spese, grazie alla gerarchia di chiavi unidirezionale.
+Sì. Consegna una chiave di visualizzazione. Rivela la tua attività schermata ma non può autorizzare spese, grazie alla gerarchia unidirezionale delle chiavi.
 
 **Sapling è ormai obsoleto adesso che esiste Orchard?**
 Entrambi sono esistiti sulla rete; Orchard è il design attuale. I concetti sono condivisi, quindi comprenderne uno ti dà l'altro.

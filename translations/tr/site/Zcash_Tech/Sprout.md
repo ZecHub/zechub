@@ -6,6 +6,8 @@
 
 > Zcash, 28 Ekim 2016'da Sprout shielded pool ile başlatıldı.
 
+> **Uyarı:** NU7 etkinleştiğinde Sprout havuzunda hâlâ bulunan ZEC harcanamaz hâle getirir (ana ağ için hedef tarih 5 Kasım 2026, nihai karar 20 Ekim 2026; bkz. [ZIP 259](https://zips.z.cash/zip-0259)). Sprout fonlarınız varsa [Fonların kurtarılması](../using-zcash/recovering-funds) bölümünü okuyun ve önce bunları taşıyın.
+
 Buradan çıkaracağınız ana fikir: Sprout, Zcash'in başladığı yerdir; özel, doğrulanabilir paranın canlı bir blok zincirinde ilk kez çalıştığı andır.
 
 Sprout, Zcash ağının orijinal başlangıcıdır; daha sonraki bir [ağ yükseltmesi](../start-here/network-upgrades) değildir. 28 Ekim 2016'da genesis bloğunda canlıya geçti. Sprout'u tanımlayan numaralı bir ZIP yoktur: ZIP süreci daha sonra Overwinter ile başladı, bu yüzden Sprout, orijinal Zcash Protocol Specification ve üzerine inşa edildiği Zerocash yapısı tarafından tanımlanır. Zooko Wilcox liderliğindeki [Electric Coin Company](../zcash-organizations/electric-coin-company) (o zamanki adıyla Zerocoin Electric Coin Company) bunu geliştirdi ve kullanıma sundu. Sprout, ilk pratik zk-SNARK shielded işlemlerini ve orijinal shielded pool'u tanıttı; böylece insanlar ZEC göndereni, alıcısı ve miktarı gizliyken gönderebilirken ağ da bakiyelerin toplamının tuttuğunu kontrol etmeye devam edebildi. İsim, ekibin büyümesini beklediği genç, filizlenen bir zinciri simgeliyordu.
@@ -26,7 +28,7 @@ Sprout'taki zk-SNARKs için bir dizi açık parametre gerekiyordu ve bunların g
 
 ## Köken
 
-Sprout, sonraki her değişikliğin üzerine inşa edildiği temel çizgidir. Overwinter ile ağ yükseltme mekanizması geldiğinde, orijinal kuralları consensus branch id 0 olarak etiketledi; bu basitçe henüz hiçbir yükseltmenin uygulanmadığı anlamına gelir. O zamandan beri gelen her şey (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 ve sonrası) Sprout'un başlattığı zincirin üzerine oturur. Başlangıç, Ekim 2016'da bir genesis için Ağustos 2016'da duyuruldu, Ceremony önceki haftalarda gerçekleştirildi ve genesis bloğunun sabit kodlanmış zaman damgası 28 Ekim 2016, 07:56 UTC olarak okunur.
+Sprout, sonraki her değişikliğin üzerine inşa edildiği temel çizgidir. Overwinter ile ağ yükseltme mekanizması geldiğinde, orijinal kuralları consensus branch id 0 olarak etiketledi; bu basitçe henüz hiçbir yükseltmenin uygulanmadığı anlamına gelir. O zamandan beri gelen her şey (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 ve sonrası) Sprout'un başlattığı zincirin üzerine oturur. Başlangıç, 28 Ekim'deki bir genesis için Ağustos 2016'da duyuruldu, Ceremony önceki haftalarda gerçekleştirildi ve genesis bloğunun sabit kodlanmış zaman damgası 28 Ekim 2016, 07:56 UTC olarak okunur.
 
 ![Ağustos 2016 duyurusundan parametre Ceremony'sine ve 28 Ekim 2016'daki Sprout başlangıcına uzanan zaman çizelgesi](/content-images/sprout-timeline-348766352a.webp)
 

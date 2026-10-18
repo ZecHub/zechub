@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - Sito web: https://private.shapeshift.com/
-- Descrizione: Il tuo wallet. Un'app. Infinite opportunità · Scambia Bitcoin, Ethereum e altro ancora alle migliori tariffe tra i principali DEX e aggregatori
+- Descrizione: Il tuo portafoglio. Un'app. Infinite opportunità · Scambia Bitcoin, Ethereum e altro ancora alle migliori tariffe tra i principali DEX e aggregatori
 
 ___
 
@@ -140,4 +140,4 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Sito web: https://leodex.io/
-- Descrizione: Swap cross-chain senza account e senza KYC. Invia BTC, ETH e altro ancora da qualsiasi wallet, exchange o cold storage a un indirizzo di deposito monouso e ricevi ZEC — non è richiesta alcuna connessione al wallet.
+- Descrizione: Scambio cross-chain senza account e senza KYC. Invia BTC, ETH e altro ancora da qualsiasi portafoglio, exchange o cold storage a un indirizzo di deposito monouso e ricevi ZEC — non è richiesta alcuna connessione al portafoglio.
