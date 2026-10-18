@@ -1,7 +1,7 @@
-# Ihe Ọmụma Zero ruo Zero: Ọrụ Hash
+# Zero to Zero Knowledge: Ọrụ Hash
 
 **Okwu Mmalite Usoro** 
-Nnọọ na usoro ọhụrụ: **Ihe ọmụma efu ruo efu**! 
+Nnọọ na usoro ọhụrụ: **Zero to Zero Knowledge**! 
 
 N'usoro a, anyị ga-amụta ihe ndị bụ isi gbasara ọtụtụ teknụzụ dị iche iche nke na-abanye na usoro nchekwa nzuzo anyị.
 
@@ -96,4 +96,4 @@ Eriri X mbụ: https://x.com/ZecHub/status/1621240109663227906
 
 ---
 
-*E si na eriri Zero ruo Zero Knowledge nke mbụ chịkọta ibe a maka wiki ZecHub.*
+*E si na eriri Zero to Zero Knowledge nke mbụ chịkọta ibe a maka wiki ZecHub.*

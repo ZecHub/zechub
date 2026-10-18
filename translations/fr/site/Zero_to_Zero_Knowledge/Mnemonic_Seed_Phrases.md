@@ -1,4 +1,4 @@
-# De zéro à Zero Knowledge : les phrases mnémoniques de récupération
+# Zero to Zero Knowledge : les phrases mnémoniques de récupération
 
 **Série :** Zero to Zero Knowledge
 

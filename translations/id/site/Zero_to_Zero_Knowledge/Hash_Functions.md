@@ -1,4 +1,4 @@
-# Dari Nol ke Zero Knowledge: Fungsi Hash
+# Zero to Zero Knowledge: Fungsi Hash
 
 **Pendahuluan Seri**  
 Selamat datang di seri baru: **Zero to Zero Knowledge**!

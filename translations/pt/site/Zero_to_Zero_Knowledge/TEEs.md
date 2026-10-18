@@ -1,8 +1,8 @@
-# Do Zero ao Conhecimento Zero: Trusted Execution Environments (TEEs)
+# Zero to Zero Knowledge: Trusted Execution Environments (TEEs)
 
-**Série:** Do Zero ao Conhecimento Zero
+**Série:** Zero to Zero Knowledge
 
-Do Zero ao Conhecimento Zero está de volta com um novo tema!  
+Zero to Zero Knowledge está de volta com um novo tema!  
 Esta semana exploramos **Trusted Execution Environments (TEEs)** - como são usados em moedas de privacidade e outras aplicações de blockchain.
 
 ![Introdução aos Trusted Execution Environments](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
@@ -123,4 +123,4 @@ https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*Esta página foi compilada a partir da thread original Do Zero ao Conhecimento Zero para a wiki da ZecHub.*
+*Esta página foi compilada a partir da thread original Zero to Zero Knowledge para a wiki da ZecHub.*

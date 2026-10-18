@@ -1693,7 +1693,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -1701,7 +1701,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -1709,7 +1709,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -1717,7 +1717,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -1781,7 +1781,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "tool": "gt-static+jsx-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -1789,7 +1789,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -3511,7 +3511,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -3519,7 +3519,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -3527,7 +3527,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -3535,7 +3535,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -3599,7 +3599,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -3607,7 +3607,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -5329,7 +5329,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -5345,7 +5345,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -5353,7 +5353,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -5417,7 +5417,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -5425,7 +5425,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -7139,7 +7139,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -7147,7 +7147,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -7155,7 +7155,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -7163,7 +7163,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -7227,7 +7227,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+jsx-restore",
+      "tool": "gt-static+jsx-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -7235,7 +7235,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -8957,7 +8957,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -8965,7 +8965,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -8973,7 +8973,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -8981,7 +8981,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -9045,7 +9045,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -9053,7 +9053,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -10775,7 +10775,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -10783,7 +10783,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -10791,7 +10791,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -10799,7 +10799,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -10863,7 +10863,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -10871,7 +10871,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -12593,7 +12593,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -12601,7 +12601,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -12609,7 +12609,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -12617,7 +12617,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -12681,7 +12681,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -12689,7 +12689,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -14411,7 +14411,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+termfix",
+      "tool": "google/gemma-4-26b-a4b+termfix+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -14419,7 +14419,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -14427,7 +14427,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -14435,7 +14435,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/pgp_for_crypto_podcast.md": {
@@ -14483,7 +14483,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -14491,7 +14491,7 @@
       "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "google/gemma-4-26b-a4b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -16229,7 +16229,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+image-restore",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -16237,7 +16237,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -16245,7 +16245,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+image-restore",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -16253,7 +16253,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+image-restore",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -16317,7 +16317,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -16325,7 +16325,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -19865,7 +19865,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -19873,7 +19873,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -19881,7 +19881,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -19889,7 +19889,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -19953,7 +19953,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -19961,7 +19961,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -21683,7 +21683,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -21691,7 +21691,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -21699,7 +21699,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -21707,15 +21707,15 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -21771,7 +21771,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -23501,7 +23501,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -23509,7 +23509,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -23517,7 +23517,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -23525,7 +23525,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -23589,7 +23589,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -23597,7 +23597,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -25319,7 +25319,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -25327,7 +25327,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -25335,7 +25335,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -25343,15 +25343,15 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -25407,7 +25407,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -25415,7 +25415,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -27129,7 +27129,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+image-restore",
+      "tool": "nllb-200-3.3B+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -27137,7 +27137,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -27145,7 +27145,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+image-restore",
+      "tool": "nllb-200-3.3B+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -27153,7 +27153,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+brand-restore+image-restore",
+      "tool": "nllb-200-3.3B+brand-restore+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -27217,7 +27217,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+jsx-restore+image-restore",
+      "tool": "nllb-200-3.3B+jsx-restore+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -27225,7 +27225,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -28947,7 +28947,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -28955,7 +28955,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -28963,7 +28963,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -28971,15 +28971,15 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -29035,7 +29035,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -29043,7 +29043,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -30765,7 +30765,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -30773,7 +30773,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -30781,7 +30781,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -30789,7 +30789,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -30853,7 +30853,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -30861,7 +30861,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -32543,7 +32543,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+image-restore",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -32551,7 +32551,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -32559,7 +32559,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+image-restore",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -32567,7 +32567,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+image-restore",
+      "tool": "nllb-200-3.3B+linkrepair+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -32631,7 +32631,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+image-restore+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -32639,7 +32639,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
@@ -34361,7 +34361,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -34369,7 +34369,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -34377,7 +34377,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -34385,7 +34385,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -34449,7 +34449,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -34457,7 +34457,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+termrepair",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {

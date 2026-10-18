@@ -1,6 +1,6 @@
-# Zero से Zero Knowledge तक: Mnemonic Seed Phrases
+# Zero to Zero Knowledge: Mnemonic Seed Phrases
 
-**श्रृंखला:** Zero से Zero Knowledge तक
+**श्रृंखला:** Zero to Zero Knowledge
 
 Mnemonic seed phrases cryptocurrency के सबसे महत्वपूर्ण पहलुओं में से एक — **self-custody** — की आधारशिला हैं।  
 आज हम सीखेंगे कि एक seed phrase कैसे उत्पन्न की जाती है और wallets में उसका उपयोग कैसे होता है।

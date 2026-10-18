@@ -1,6 +1,6 @@
-# 제로에서 제로 지식: 해시 함수
+# Zero to Zero Knowledge: 해시 함수
 
-**시리즈 소개**  
+**Zero to Zero Knowledge**!  
 제로에서 제로 지식 시리즈를 환영합니다!  
 
 이 시리즈에서는 우리의 프라이버시 보호 프로토콜에 사용되는 다양한 기술의 기본 사항을 배우게 됩니다.
@@ -95,4 +95,4 @@ https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
-*이 페이지는 원본 제로에서 제로 지식 스레드를 기반으로 ZecHub 위키에 컴파일되었습니다.*
+*이 페이지는 원본 Zero to Zero Knowledge 스레드를 기반으로 ZecHub 위키에 컴파일되었습니다.*

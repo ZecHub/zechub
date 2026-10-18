@@ -1,4 +1,4 @@
-# Ihe Ọmụma Na-aga n'Ihu: Mnemonic Seed Phrases
+# Zero to Zero Knowledge: Mnemonic Seed Phrases
 
 **Series:** Zero to Zero Knowledge
 

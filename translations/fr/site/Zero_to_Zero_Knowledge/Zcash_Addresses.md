@@ -1,6 +1,6 @@
-# De zéro à la connaissance zéro : transactions transparentes vs protégées et Unified Address
+# Zero to Zero Knowledge : transactions transparentes vs protégées et Unified Address
 
-**Série :** De zéro à la connaissance zéro
+**Série :** Zero to Zero Knowledge
 
 Si vous découvrez Zcash pour la première fois, vous constaterez qu’il existe deux types de transactions disponibles : **Transparentes** et **Protégées**.  
 

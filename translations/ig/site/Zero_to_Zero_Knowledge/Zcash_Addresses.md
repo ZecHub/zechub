@@ -1,6 +1,6 @@
-# Ihe Ọmụma Zero ruo Zero: Transparent vs Chebed Azụmahịa & Njikota Ọnụ
+# Zero to Zero Knowledge: Transparent vs Chebed Azụmahịa & Njikota Ọnụ
 
-**Usoro:** Ihe ọmụma efu ruo efu
+**Usoro:** Zero to Zero Knowledge
 
 Ọ bụrụ na ị na-amụta maka Zcash maka oge mbụ ị ga-achọpụta na e nwere ụdị azụmahịa abụọ dị: **Transparent** na **Shielded**. 
 
@@ -116,4 +116,4 @@ https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*E si na eriri Zero ruo Zero Knowledge nke mbụ chịkọta ibe a maka wiki ZecHub.*
+*E si na eriri Zero to Zero Knowledge nke mbụ chịkọta ibe a maka wiki ZecHub.*

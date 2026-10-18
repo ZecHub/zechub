@@ -1,8 +1,8 @@
-# Nimdeɛ a Ɛwɔ Zero kosi Zero: Nneɛma a Wɔde Di Dwuma a Wogye Di (TEEs) .
+# Zero to Zero Knowledge: Nneɛma a Wɔde Di Dwuma a Wogye Di (TEEs) .
 
-**Series:** Zero kosi Zero Nimdeɛ
+**Series:** Zero to Zero Knowledge
 
-Zero to Zero Nimdeɛ asan aba bio de asɛmti foforo aba! 
+Zero to Zero Knowledge asan aba bio de asɛmti foforo aba! 
 Dapɛn yi yɛhwehwɛ **Trusted Execution Environments (TEEs)** - sɛnea wɔde di dwuma wɔ kokoam sika ne blockchain application afoforo mu.
 
 ![Trusted Execution Nneɛma a Atwa Yɛn Ho Ahyia intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)

@@ -1,8 +1,8 @@
-# Von Null zu Zero Knowledge: Vertrauenswürdige Ausführungsumgebungen (TEEs)
+# Zero to Zero Knowledge: Vertrauenswürdige Ausführungsumgebungen (TEEs)
 
-**Serie:** Von Null zu Zero Knowledge
+**Serie:** Zero to Zero Knowledge
 
-Von Null zu Zero Knowledge ist mit einem neuen Thema zurück!  
+Zero to Zero Knowledge ist mit einem neuen Thema zurück!  
 Diese Woche beschäftigen wir uns mit **Trusted Execution Environments (TEEs)** – wie sie in Privacy Coins und anderen Blockchain-Anwendungen eingesetzt werden.
 
 ![Einführung in Trusted Execution Environments](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)

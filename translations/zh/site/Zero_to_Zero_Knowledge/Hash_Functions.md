@@ -1,4 +1,4 @@
-# 从 Zero 到 Zero Knowledge：哈希函数
+# Zero to Zero Knowledge：哈希函数
 
 **系列介绍**  
 欢迎来到新系列：**Zero to Zero Knowledge**！  
