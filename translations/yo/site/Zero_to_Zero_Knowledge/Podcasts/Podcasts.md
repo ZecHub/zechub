@@ -390,3 +390,5 @@ ZL;DR jẹ́ ètò tí ó ń gbé gbogbo ohun tó jẹ mọ́ Zcash lárugẹ n�
     - 54:10  Ìmọ̀ràn ìpamọ́ crypto fún àwọn tó ṣẹ̀ṣẹ̀ dé
     - 56:05  Má ṣe lo àwọn ohun tí wọ́n fi ń kọjá
     - 1:01:05  Ilé-ìwádìí Ìdáǹdè Ọ̀fẹ́ Crypto
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

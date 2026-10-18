@@ -387,3 +387,5 @@ ZL;DR es un programa que destaca todo lo relacionado con Zcash en formato de vid
     - 54:10 – Consejos sobre privacidad cripto para principiantes
     - 56:05 – No uses intermediarios
     - 1:01:05 – Crypto Freedom Lab
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

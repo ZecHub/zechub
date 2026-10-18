@@ -447,4 +447,6 @@ ZL;DR is a show that highlights all things Zcash in a video format. The episodes
 - **Summary:** David is a long-time Zcasher and writer / producer with Zcash Media.
   - **Timestamps:**
     - 0:00 – Intro, why Zcash & Zcash Media’s genesis
-    - 
+    -
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

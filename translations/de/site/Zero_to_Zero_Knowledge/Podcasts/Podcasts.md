@@ -387,3 +387,5 @@ ZL;DR ist eine Sendung, die in Videoform alles rund um Zcash hervorhebt. Die Epi
     - 54:10 – Ratschläge zur Krypto-Privatsphäre für Neulinge
     - 56:05 – Keine Durchleitungskonstruktionen verwenden
     - 1:01:05 – Crypto Freedom Lab
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

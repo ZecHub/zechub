@@ -390,3 +390,5 @@ ZL;DR adalah sebuah acara yang menyoroti segala hal tentang Zcash dalam format v
     - 54:10 – Saran privasi crypto untuk pendatang baru
     - 56:05 – Jangan gunakan pass-throughs
     - 1:01:05 – Crypto Freedom Lab
+
+<!-- protected terms: RAILGUN -->

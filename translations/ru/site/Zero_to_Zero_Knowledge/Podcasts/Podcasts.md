@@ -363,3 +363,5 @@ ZL;DR – это шоу, которое подчеркивает все аспе
 - **Summary:**
 - - **Link:** [Watch on YouTube](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
 - **Summary:** Taylor Hornby is the Zcash
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

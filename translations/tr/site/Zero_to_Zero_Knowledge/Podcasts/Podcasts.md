@@ -390,3 +390,5 @@ ZL;DR, Zcash ile ilgili her şeyi video formatında vurgulayan bir programdır. 
 - 54:10 – Yeni başlayanlar için kripto gizliliği önerileri
 - 56:05 – Geçiş işlemleri kullanmayın
 - 1:01:05 – Crypto Freedom Lab
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

@@ -392,4 +392,5 @@ ZL;DR는 영상 형식으로 모든 Zcash 관련 주제를 강조하는 쇼입�
     - 31:50 – Proof-of-Stake and security laws
     - 43:10 – KYC & privacy
     - 44:50 – Bitcoiners, Zcash and Monero
-   
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

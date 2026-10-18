@@ -390,3 +390,5 @@ ZL;DR yɛ show a ɛtwe adwene si nneɛma nyinaa Zcash so wɔ video format mu. Ns
     - 54:10 – Crypto kokoam nsɛm ho afotu ma wɔn a wɔaba foforo
     - 56:05 – Mfa pass-throughs nni dwuma
     - 1:01:05 – Crypto Ahofadi Lab
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

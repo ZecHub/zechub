@@ -390,3 +390,5 @@ ZL;DR ni onyesho ambalo linaangazia vitu vyote vya Zcash katika muundo wa video.
     - 54:10  Crypto ushauri wa faragha kwa wageni
     - 56:05  Usitumie kupita-kupitia
     - 1:01:05  Crypto Uhuru Lab
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

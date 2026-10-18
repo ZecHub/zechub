@@ -387,3 +387,5 @@ ZL;DR est une émission qui met en avant tout ce qui touche à Zcash sous format
     - 54:10 – Conseils sur la confidentialité crypto pour les nouveaux venus
     - 56:05 – N’utilisez pas de pass-throughs
     - 1:01:05 – Crypto Freedom Lab
+
+<!-- protected terms: RAILGUN, lightwalletd -->

@@ -390,3 +390,5 @@ ZL;DR nye fefe si tea gbe ɖe nuwo katã dzi Zcash le video ƒe nɔnɔme me. Nud
     - 54:10 – Crypto adzamenyawo ŋuti aɖaŋuɖoɖo na ame yeyewo
     - 56:05 – Mègazã pass-throughs o
     - 1:01:05 – Crypto Ablɔɖe Dɔwɔƒe
+
+<!-- protected terms: RAILGUN, lightwalletd, zcashd -->

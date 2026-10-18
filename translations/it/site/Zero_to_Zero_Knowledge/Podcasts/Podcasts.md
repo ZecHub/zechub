@@ -390,3 +390,5 @@ ZL;DR è uno show che mette in luce tutto ciò che riguarda Zcash in formato vid
     - 54:10 – Consigli sulla privacy cripto per i nuovi arrivati
     - 56:05 – Non usare i pass-through
     - 1:01:05 – Crypto Freedom Lab
+
+<!-- protected terms: RAILGUN, zcashd -->
