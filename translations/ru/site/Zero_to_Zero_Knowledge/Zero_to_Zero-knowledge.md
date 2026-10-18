@@ -1,23 +1,33 @@
-# От нуля к нулевому знанию
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Zero_to_Zero-knowledge.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Редактировать страницу"/>
+</a>
 
-Короткая серия о концепциях, лежащих в основе частных цифровых денег. Начните сверху.
+# От нуля к нулевому знанию | Образовательный курс
 
-| # | Тема | Что вы узнаете |
-|---|-------|---------------------|
-| 1 | [Хеш-функции](/zero-to-zero-knowledge/hash-functions) | Любые входные данные преобразуются в результат фиксированной длины. Три свойства, которыми должен обладать хеш. |
-| 2 | [Фразы восстановления сидов](/zero-to-zero-knowledge/mnemonic-seed-phrases) | Как список слов становится ключами, хранящими ваши средства. |
-| 3 | [Zcash Адреса](/zero-to-zero-knowledge/zcash-addresses) | Прозрачные и экранированные транзакции, а также Unified Address. |
-| 4 | [Доверенные среды исполнения](/zero-to-zero-knowledge/tees) | Аппаратное обеспечение, сохраняющее конфиденциальность вычислений, и его ограничения. |
-| 5 | [Cryptonote](/zero-to-zero-knowledge/cryptonote) | Подход к конфиденциальности, лежащий в основе Monero, и его отличия от Zcash. |
-| 6 | [Lelantus](/zero-to-zero-knowledge/lelantus) | Протокол, лежащий в основе Firo, и его сравнение с Zcash. |
 
-## Оригинальные треды
+## Хэш-функции 
 
-Составлено на основе тредов Zero to Zero Knowledge в X.
+https://twitter.com/ZecHub/status/1621240109663227906
 
-- [Хеш-функции](https://x.com/ZecHub/status/1621240109663227906)
-- [Фразы восстановления сидов](https://x.com/ZecHub/status/1624125037945946145)
-- [Zcash Адреса](https://x.com/ZecHub/status/1628498645627666432)
-- [Доверенные среды исполнения](https://x.com/ZecHub/status/1633579659282587651)
-- [Cryptonote](https://x.com/ZecHub/status/1636473585781948416)
-- [Lelantus](https://x.com/ZecHub/status/1641902859800150017)
+
+## Фразы для восстановления резервной копии
+
+https://twitter.com/ZecHub/status/1624125037945946145
+
+
+## Адреса Zcash 
+
+https://twitter.com/ZecHub/status/1628498645627666432
+
+
+## Доверенные среды выполнения
+
+https://twitter.com/ZecHub/status/1633579659282587651
+
+## Cryptonote
+
+https://twitter.com/ZecHub/status/1636473585781948416
+
+## Lelantus
+
+https://twitter.com/ZecHub/status/1641902859800150017
