@@ -1,8 +1,8 @@
-# ゼロからゼロ知識：信頼された実行環境（TEE）
+# Zero to Zero Knowledge：信頼された実行環境（TEE）
 
-**シリーズ:** ゼロからゼロ知識
+**シリーズ:** Zero to Zero Knowledge
 
-「ゼロからゼロ知識」が新テーマで戻ってきました！  
+「Zero to Zero Knowledge」が新テーマで戻ってきました！  
 今回は **信頼された実行環境（Trusted Execution Environments、TEE）** について掘り下げます。TEEはプライバシー硬貨やその他のブロックチェーンアプリケーションでどのように使用されているかを説明します。
 
 ![信頼された実行環境の紹介](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
@@ -123,4 +123,4 @@ https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*このページは、ZecHub Wikiのためにオリジナルの「ゼロからゼロ知識」スレッドから作成されました。*
+*このページは、ZecHub Wikiのためにオリジナルの「Zero to Zero Knowledge」スレッドから作成されました。*

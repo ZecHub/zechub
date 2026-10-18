@@ -1,6 +1,6 @@
-# Ìmọ̀ Nẹ́rẹ́ sí Nẹ̀rẹ́: Àgbékalẹ̀ Lelantus
+# Zero to Zero Knowledge: Àgbékalẹ̀ Lelantus
 
-**Sẹ́ẹ́lì:** Ìmọ̀ Láti Kúrò sí Kúrò
+**Sẹ́ẹ́lì:** Zero to Zero Knowledge
 
 Lónìí a máa wo àwọn ohun tó ń jẹ́ "Lelantus"!
 

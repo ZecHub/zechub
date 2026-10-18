@@ -1,6 +1,6 @@
-# Do Zero ao Conhecimento Zero: Frases-semente Mnemônicas
+# Zero to Zero Knowledge: Frases-semente Mnemônicas
 
-**Série:** Do Zero ao Conhecimento Zero
+**Série:** Zero to Zero Knowledge
 
 As frases-semente mnemônicas sustentam um dos aspectos mais importantes das criptomoedas - a **autocustódia**.  
 Hoje vamos aprender como uma frase-semente é gerada e usada em carteiras.

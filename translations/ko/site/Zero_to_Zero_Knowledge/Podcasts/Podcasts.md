@@ -1,396 +1,392 @@
-# ZK 팟캐스트 에피소드 요약
+# ZK Podcast 에피소드 요약
 
 ## 에피소드
 
-### 에피소드 334 – ZK 연구 업데이트, 조 보나우와 함께
+### 에피소드 334 – Joe Bonneau와 함께하는 ZK 연구 업데이트
 - **날짜:** 2024년 7월 31일
 - **링크:** [https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
-- **요약:** 애나와 구ille는 뉴욕 대학교의 부교수이자 a16z 크립토 연구 파트너인 조 보나우와 이야기를 나눕니다. 그들은 최근 Naysayer 증명, 제로 커널 미들박스, 밀봉 입찰 경매 및 기타 ZK 관련 연구 프로젝트에 대해 논의합니다.
+- **요약:** Anna와 Guille가 NYU 조교수이자 a16z 암호화폐 연구의 리서치 파트너인 Joe Bonneau와 근황을 나눕니다. 이들은 그의 최근 Naysayer 증명, 영지식 미들박스, 봉인 입찰 경매 및 기타 ZK 관련 연구 프로젝트에 대해 논의합니다.
 - **게스트:**
-  - 조 보나우 ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 구ille ([GuilleAngeris](https://x.com/guilleangeris))
+  - Joe Bonneau ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
+- **진행자:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Guille ([GuilleAngeris](https://x.com/guilleangeris))
 
-### 에피소드 333 – 검증 가능한 SQL, Reckle 트리 및 ZK 코프로세싱, 라그랑주 연구소와 함께
+### 에피소드 333 – Lagrange Labs와 함께하는 검증 가능한 SQL, Reckle Trees 및 ZK 코프로세싱
 - **날짜:** 2024년 7월 24일
 - **링크:** [https://zeroknowledge.fm/333-2](https://zeroknowledge.fm/333-2)
-- **요약:** 애나는 라그랑주 연구소의 설립자이자 CEO인 이스마엘 히시온-레자이데와, 라그랑주의 연구 책임자인 찬라마포스(바비스) 파파만토우와 이야기를 나눕니다. 그들은 zk 기반 코프로세서, 검증 가능한 SQL, Reckle 트리 및 새 프로버 마켓플레이스에 대해 논의합니다.
+- **요약:** Anna가 Lagrange Labs의 창립자 겸 CEO인 Ismael Hishon-Rezaizadeh와 Lagrange의 연구 책임자인 Charalampos (Babis) Papamanthou를 만납니다. 이들은 zk 기반 코프로세서, 검증 가능한 SQL, Reckle Trees를 다시 살펴보고 새로운 증명자 마켓플레이스에 대해 논의합니다.
 - **게스트:**
-  - 이스마엘 히시온-레자이데 ([ismael_h_r](https://x.com/ismael_h_r))
-  - 찬라마포스(바비스) 파파만토우 ([chbpap](https://x.com/chbpap))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
+  - Ismael Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
+  - Charalampos (Babis) Papamanthou ([chbpap](https://x.com/chbpap))
+- **진행자:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
 
-### 에피소드 332 – 브뤼셀에서 하트와의 만남, 어크로스에서
+### 에피소드 332 – Across의 Hart와 함께하는 브뤼셀 근황
 - **날짜:** 2024년 7월 18일
 - **링크:** [https://zeroknowledge.fm/332-2](https://zeroknowledge.fm/332-2)
-- **요약:** 애나와 타룬은 브뤼셀에서 EthCC 주간에 하트 래مبر를 만나 어크로스 프로젝트, 즉 다중 체인 인터오퍼레이빌리티 솔루션과 우마의 자매 프로젝트에 대해 이야기합니다. 그들은 어크로스 구조, 트레이드오프 및 다른 인터오퍼레이빌리티 솔루션과 비교합니다.
+- **요약:** Anna와 Tarun이 브뤼셀 EthCC 주간에 Hart Lambur와 만나 크로스체인 상호운용성 솔루션이자 Uma의 자매 프로젝트인 그의 프로젝트 Across에 대해 논의합니다. 이들은 Across의 구조와 트레이드오프를 살펴보고 다른 상호운용성 솔루션과 비교합니다.
 - **게스트:**
-  - 하트 래مبر ([hal2001](https://x.com/hal2001))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 타룬 ([tarunchitra](https://x.com/tarunchitra))
+  - Hart Lambur ([hal2001](https://x.com/hal2001))
+- **진행자:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### 에피소드 331 – 파크스터, 바룬 스리니바산과 함께
+### 에피소드 331 – Varun Srinivasan과 함께하는 Farcaster
 - **날짜:** 2024년 7월 10일
 - **링크:** [https://zeroknowledge.fm/331-2](https://zeroknowledge.fm/331-2)
-- **요약:** 애나와 타룬은 파크스터 공동 창업자인 바룬 스리니바산과 이야기를 나눕니다. 그들은 파크스터 프로젝트, 출발점 및 기존의 소셜 미디어 네트워크와 다른 점을 논의하며, 설계 공간과 잠재적 응용 사례를 탐구합니다.
+- **요약:** Anna와 Tarun이 Farcaster 공동 창립자인 Varun Srinivasan을 만납니다. 이들은 Farcaster 프로젝트, 그 탄생 배경, 기존 소셜 미디어 네트워크와 차별화되는 요소를 논의하며 설계 영역과 잠재적 활용 사례를 탐구합니다.
 - **게스트:**
-  - 바룬 스리니바산 ([varunsrin](https://x.com/varunsrin))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 타룬 ([tarunchitra](https://x.com/tarunchitra))
+  - Varun Srinivasan ([varunsrin](https://x.com/varunsrin))
+- **진행자:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### 에피소드 330 – 분산 시스템에서 프로그래밍 가능한 개인정보 보호에 대한 프레임워크, 영 톤과 브라이언 길리스피와 함께
+### 에피소드 330 – Ying Tong과 Bryan Gillespie와 함께하는 프로그래밍 가능한 프라이버시 프레임워크
 - **날짜:** 2024년 7월 3일
 - **링크:** [https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
-- **요약:** 애나와 구일레는 기하학 연구소의 영 톤 라이와 인버스드 테크의 브라이언 길리스피와 'SoK: 분산 시스템에서 프로그래밍 가능한 개인정보 보호'에 대한 작업을 논의하며, 새로운 분류 및 프레임워크를 탐구합니다.
+- **요약:** Anna와 Guille가 Geometry Research의 Ying Tong Lai 및 Inversed Tech의 Bryan Gillespie와 함께 새로운 분류와 프레임워크를 탐구하며 ‘SoK: 분산 시스템의 프로그래밍 가능한 프라이버시’에 관한 이들의 작업을 이야기합니다.
 - **게스트:**
-  - 영 톤 라이 ([therealyingtong](https://x.com/therealyingtong))
-  - 브라이언 길리스피 ([bryan_gillespie](https://x.com/bryan_gillespie))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 구일레 ([GuilleAngeris](https://x.com/GuilleAngeris))
+  - Ying Tong Lai ([therealyingtong](https://x.com/therealyingtong))
+  - Bryan Gillespie ([bryan_gillespie](https://x.com/bryan_gillespie))
+- **진행자:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
 
-### 에피소드 329 – 해시 함수에서 암호 증명을 만드는 것, 알레산드로 체이사와 엘리온 요게브와 함께
+### 에피소드 329 – Alessandro Chiesa 및 Eylon Yogev와 함께하는 해시 함수 기반 암호학적 증명 구축
 - **날짜:** 2024년 6월 26일
 - **링크:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
-- **요약:** 애나와 니코는 EPFL의 부교수인 알레산드로 체이사와 바르-일란 대학교의 교수 엘리온 요게브와 해시 함수에서 암호 증명을 만드는 것에 대한 출판물을 논의합니다.
+- **요약:** Anna와 Nico가 EPFL 부교수 Alessandro Chiesa 및 Bar-Ilan University 교수 Eylon Yogev와 해시 함수로 암호학적 증명을 구축하는 것에 관한 그들의 출판물에 대해 이야기합니다.
 - **게스트:**
-  - 알레산드로 체이사 ([profile](https://ic-people.epfl.ch/~achiesa/))
-  - 엘리온 요게브 ([profile](https://eylonyogev.com/))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 니코 ([nico_mnbl](https://x.com/nico_mnbl))
+  - Alessandro Chiesa ([profile](https://ic-people.epfl.ch/~achiesa/))
+  - Eylon Yogev ([profile](https://eylonyogev.com/))
+- **진행자:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Nico ([nico_mnbl](https://x.com/nico_mnbl))
 
 ## ZL;DR 쇼
-ZL;DR는 영상 형식으로 모든 Zcash 관련 사항을 강조하는 쇼입니다. 에피소드는 다양한 Zcash 주제, 커뮤니티, 생태계 업데이트 및 뉴스를 다룹니다.
+ZL;DR은 Zcash에 관한 모든 것을 영상 형식으로 조명하는 쇼입니다. 에피소드는 다양한 Zcash 주제, 커뮤니티, 생태계 업데이트 및 뉴스를 다룹니다.
 
-- **이름 변경:** 이름은 ZecDaily에서 ZL;DR로 변경되었습니다.
+- **이름 변경:** 이름이 ZecDaily에서 ZL;DR로 변경되었습니다.
 
-## Zechub 팟캐스트 플레이리스트
+## ZecHub 팟캐스트 재생목록
 
-### 프라이버시의 중요성, CBDC 및 Operation Chokepoint 2.0 | 컬트 오퍼스ahl – 11
+### 프라이버시, CBDC 및 Operation Chokepoint 2.0의 중요성 | Kurt Opsahl – 11
 - **날짜:** 2024년 3월 29일
 - **링크:** [https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
 - **요약:**
   - **타임스탬프:**
     - 00:00 – 소개 및 배경
-    - 04:09 – 웹 1.0, 웹 2.0 및 웹3
+    - 04:09 – Web 1.0, Web 2.0 및 Web3
     - 09:00 – 암호화가 유용한 이유
     - 13:40 – Operation Chokepoint 2.0
-    - 19:18 – 데이터 수집에 대한 역사적 교훈
-    - 23:25 – 마이크로 타겟팅 / 심리학적 분석
-    - 27:44 – 제로 지식 및 Zcash
+    - 19:18 – 데이터 수집에 관한 역사의 교훈
+    - 23:25 – 마이크로 타기팅 / 심리측정
+    - 27:44 – 영지식 및 Zcash
     - 32:10 – CBDC
-    - 37:00 – 법 집행 기관 및 프라이버시 강화 기술
-    - 39:30 – 정책만으로는 충분하지 않다
-    - 44:00 – 사이퍼펑크 선언문 및 파일코인
-    - 48:20 – 아웃로
-
-### 공공의 이익을 위한 프라이버시, 앰버 발데트
-- **날짜:** 2023년 2월 7일
-- **링크:** [https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB](https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB)
-- **요약:**
-  - **타임스탬프:**
-    - 0:00 – 소개
-    - 4:40 – 분산화 및 선택적 참여 사회의 창출
-    - 15:20 – 암호화폐가 경제 자유와 주체성을 가능하게 하는 기회
-    - 26:30 – Zcash의 자금 지원 모델, 규제 포획 및 생태계 다각화
-    - 33:39 – 분산형 기술을 통한 경제적 및 사회적 격차 해소
-    - 42:50 – 코인 투표가 체인 상 거버넌스의 메커니즘
-    - 50:25 – 오픈소스 개발과 암호화폐 시장에서의 자본화
-    - 59:30 – Zcash의 미래와 아웃로
-
-### ZFAV 클럽, 라이언 테일러 (aka AdjyLeak)
-- **날짜:** 2023년 1월 25일
-- **링크:** [https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX](https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX)
-- **요약:**
-  - **링크:** [https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
-  - **요약:** Taylor Hornby는 Zcash 생태계 보안 책임자입니다.
-    - **타임스탬프:**
-      - 0:00 – 소개
-      - 6:11 – InternalH 충돌 취약점
-      - 12:05 – Taylor가 발견한 가장 좋아하는 버그
-      - 15:50 – ECC를 떠나 독립 보안 펀드로 이동
-      - 22:30 – 보안 감사 과정, Ywallet 예시
-      - 31:25 – Lightwalletd 보안 트레이드오프
-      - 45:10 – Zcashd 보안 및 사용성 트레이드오프
-      - 52:06 – 제3자 결제 제공업체의 보안 트레이드오프
-      - 1:00:20 – Zcash 운영 보안 요약
-      - 1:04:40 – Zcash의 가장 큰 보안 및 프라이버시 오해
-
-### 암호화폐 규제와 금융 프라이버시, J. W. Verret
-- **날짜:** 2022년 8월 10일
-- **링크:** [Watch on YouTube](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
-- **요약:** J.W. Verret는 조지메이슨대학교 교수이며, 기업법, 증권법 및 은행법 전문가입니다. 또한 법률 및 회계 감사 컨설팅 업체의 창립자이자 암호화폐 자유 연구소의 설립자입니다.
-  - **타임스탬프:**
-    - 0:00 – 숭배하는 인물과의 만남
-    - 0:40 – 첫 번째 Zcash 팟캐스트
-    - 1:45 – J.W.의 WSJ 논평 기사
-    - 5:35 – 글을 쓰는 최적의 시기
-    - 8:35 – 암호화폐 프라이버시 및 J.W.의 새 책
-    - 18:00 – 믹서의 법적 문제
-    - 22:14 – 현금 전쟁
-    - 26:00 – ZEC 변동성과 화폐 인플레이션
-    - 29:25 – 비트코인 채굴 및 에너지 사용
-    - 31:50 – 스테이킹 방식과 보안 법규
-    - 43:10 – KYC 및 프라이버시
-    - 44:50 – 비트코인, Zcash 및 모네로 비교
-    - 54:10 – 신입자에게 주는 암호화폐 프라이버시 조언
-    - 56:05 – 중개자 사용하지 말기
-    - 1:01:05 – 암호화폐 자유 연구소
-
-
-
-# ZK 팟캐스트 요약
-
-## 에피소드
-
-### 에피소드 334 – ZK 연구 업데이트, 조 보나우와 함께
-- **날짜:** 2024년 7월 31일
-- **링크:** [https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
-- **요약:** 애나와 구ille는 a16z 크립토 연구의 조 보나우, 뉴욕대학교 부교수 및 연구 파트너와 이야기를 나눕니다. 그들은 Naysayer 증명, 제로 커널 미들박스, 밀봉 입찰 경매, 기타 ZK 관련 연구 프로젝트에 대해 논의합니다.
-- **게스트:**
-  - 조 보나우 ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 구ille ([GuilleAngeris](https://x.com/guilleangeris))
-
-### 에피소드 333 – 검증 가능한 SQL, Reckle 트리 및 ZK 코프로세싱, 라그랑주 연구소와 함께
-- **날짜:** 2024년 7월 24일
-- **링크:** [https://zeroknowledge.fm/333-2](https://zeroknowledge.fm/333-2)
-- **요약:** 애나는 라그랑주 연구소의 설립자 및 CEO 이스마엘 히시온-레자이데하와, 라그랑주의 연구 책임자 찰라마포스 (바비스) 파파만토우와 이야기를 나눕니다. 그들은 zk 기반 코프로세서, 검증 가능한 SQL, Reckle 트리 및 새 프로버 마켓플레이스에 대해 논의합니다.
-- **게스트:**
-  - 이스마엘 히시온-레자이데하 ([ismael_h_r](https://x.com/ismael_h_r))
-  - 찰라마포스 (바비스) 파파만토우 ([chbpap](https://x.com/chbpap))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-
-### 에피소드 332 – 브뤼셀에서 하트와의 만남, 어크로스에서
-- **날짜:** 2024년 7월 18일
-- **링크:** [https://zeroknowledge.fm/332-2](https://zeroknowledge.fm/332-2)
-- **요약:** 애나와 타룬은 브뤼셀에서 EthCC 주간에 하트 램버를 만나, 그의 프로젝트 어크로스, 즉 교차 체인 인터오퍼레이빌리티 솔루션 및 우마의 자매 프로젝트에 대해 이야기합니다. 그들은 어크로스 구조, 트레이드오프를 탐구하고 다른 인터오퍼레이빌리티 솔루션과 비교합니다.
-- **게스트:**
-  - 하트 램버 ([hal2001](https://x.com/hal2001))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 타룬 ([tarunchitra](https://x.com/tarunchitra))
-
-### 에피소드 331 – 팔캐스터, 바룬 심니바산과 함께
-- **날짜:** 2024년 7월 10일
-- **링크:** [https://zeroknowledge.fm/331-2](https://zeroknowledge.fm/331-2)
-- **요약:** 애나와 타룬은 팔캐스터의 공동 창업자 바룬 심니바산과 만나, 팔캐스터 프로젝트, 그 시작 그리고 기존 소셜 미디어 네트워크와 다른 점을 논의합니다. 그들은 디자인 공간 및 잠재적 응용 사례를 탐구합니다.
-- **게스트:**
-  - 바룬 심니바산 ([varunsrin](https://x.com/varunsrin))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 타룬 ([tarunchitra](https://x.com/tarunchitra))
-
-### 에피소드 330 – 분산 시스템에서 프로그래밍 가능한 프라이버시의 프레임워크, 영 톤과 브라이언 길리스피와 함께
-- **날짜:** 2024년 7월 3일
-- **링크:** [https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
-- **요약:** 애나와 구일레는 기하학 연구소의 영 톤 라이와 인버스드 테크의 브라이언 길리스피와 이야기를 나눕니다. 그들은 'SoK: 분산 시스템에서 프로그래밍 가능한 프라이버시'에 대한 작업을 탐구하고 새로운 분류 및 프레임워크를 논의합니다.
-- **게스트:**
-  - 영 톤 라이 ([therealyingtong](https://x.com/therealyingtong))
-  - 브라이언 길리스피 ([bryan_gillespie](https://x.com/bryan_gillespie))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 구일레 ([GuilleAngeris](https://x.com/GuilleAngeris))
-
-### 에피소드 329 – 해시 함수에서 암호학적 증명을 만드는 것, 알레산드로 체사와 엘리온 요게브와 함께
-- **날짜:** 2024년 6월 26일
-- **링크:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
-- **요약:** 애나와 니코는 EPFL의 부교수 알레산드로 체사와 바르-이란 대학의 교수 엘리온 요게브와 이야기를 나눕니다. 그들은 해시 함수에서 암호학적 증명을 만드는 것에 대한 출판물을 논의합니다.
-- **게스트:**
-  - 알레산드로 체사 ([profile](https://ic-people.epfl.ch/~achiesa/))
-  - 엘리온 요게브 ([profile](https://eylonyogev.com/))
-- **호스트:**
-  - 애나 ([AnnaRRose](https://x.com/AnnaRRose))
-  - 니코 ([nico_mnbl](https://x.com/nico_mnbl))
-
-## ZL;DR Show
-ZL;DR는 영상 형식으로 모든 Zcash 관련 주제를 강조하는 쇼입니다. 에피소드들은 다양한 Zcash 주제, 커뮤니티, 생태계 업데이트 및 뉴스를 다룹니다.
-
-- **이름 변경:** 이름은 ZecDaily에서 ZL;DR로 변경되었습니다.
-
-## Zechub Podcast Playlist
-
-### 프라이버시의 중요성, CBDC 및 Operation Chokepoint 2.0 | Kurt Opsahl – 11
-- **날짜:** 2024년 3월 29일
-- **링크:** [https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
-- **요약:**
-  - **타임스탬프:**
-    - 00:00 – 소개 및 배경
-    - 04:09 – 웹 1.0, 웹 2.0 및 웹3
-    - 09:00 – 암호화가 유용한 이유
-    - 13:40 – Operation Chokepoint 2.0
-    - 19:18 – 데이터 수집에 대한 역사 교훈
-    - 23:25 – 마이크로 타겟팅 / 심리학적 분석
-    - 27:44 – 제로 지식 및 Zcash
-    - 32:10 – CBDC
-    - 37:00 – 경찰과 프라이버시 강화 기술
-    - 39:30 – 정책이 혼자 작동할 수 없다
-    - 44:00 – 암호朋인의 선언문 및 Filecoin
+    - 37:00 – 법 집행 및 프라이버시 강화 기술
+    - 39:30 – 정책만으로는 행동할 수 없다
+    - 44:00 – Cypherpunk 선언문 및 Filecoin
     - 48:20 – 마무리
 
-### 공공 이익을 위한 프라이버시, Amber Baldet
+### Amber Baldet와 함께하는 공익을 위한 프라이버시
 - **날짜:** 2023년 2월 7일
 - **링크:** [https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB](https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB)
 - **요약:**
   - **타임스탬프:**
-    - 0:00 – 소개
-    - 4:40 – 분산화 및 선택 참여 사회 창출
-    - 15:20 – 암호화폐가 경제 자유와 주체성을 가능하게 하는 기회
-    - 26:30 – Zcash의 자금 지원 모델, 규제 포획 및 생태계 다각화
-    - 33:39 – 분산형 기술을 통한 경제적 및 사회적 격차 해소
-    - 42:50 – 코인 투표가 체인 상 거버넌스 메커니즘
-    - 50:25 – 오픈 소스 개발과 암호화폐 시장 자본화
-    - 59:30 – Zcash의 미래와 마무리
+    - 0:00​ – 소개
+    - 4:40​ – 탈중앙화와 옵트인 사회 만들기
+    - 15:20​ – 경제적 자유와 주체성을 가능하게 하는 암호화폐의 기회
+    - 26:30​ – Zcash의 자금 조달 모델, 규제 포획 및 생태계 다각화
+    - 33:39​ – 탈중앙화 기술을 통한 경제적·사회적 격차 해소
+    - 42:50​ – 온체인 거버넌스를 위한 메커니즘으로서의 코인 투표
+    - 50:25​ – 암호화폐 시장에서의 오픈소스 개발과 자본화
+    - 59:30​ – Zcash의 미래 및 마무리
 
-### ZFAV 클럽, Ryan Taylor (aka AdjyLeak)
+### Ryan Taylor(일명 AdjyLeak)와 함께하는 ZFAV Club
 - **날짜:** 2023년 1월 25일
 - **링크:** [https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX](https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX)
 - **요약:**
-  - **링크:** [https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
-  - **요약:** Taylor Hornby는 Zcash 생태계 보안 책임자입니다.
-    - **타임스탬프:**
-      - 0:00 – 소개
-      - 6:11 – InternalH 충돌 취약점
-      - 12:05 – Taylor가 발견한 최고의 버그
-      - 15:50 – ECC에서 독립 보안 펀드로 이직
-      - 22:30 – 보안 감사 과정, Ywallet 예시
-      - 31:25 – Lightwalletd 보안 트레이드오프
-      - 45:10 – Zcashd 보안 및 사용성 트레이드오프
-      - 52:06 – 제3자 결제 제공업체 보안 트레이드오프
-      - 1:00:20 – Zcash 운영 보안 요약
-      - 1:04:40 – Zcash의 주요 보안 및 프라이버시 오해
+- - **링크:** [https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
+- **요약:** Taylor Hornby는 Zcash 생태계 보안 책임자입니다.
+  - **타임스탬프:**
+    - 0:00​ – 소개
+    - 6:11​ – InternalH 충돌 취약점
+    - 12:05​ – Taylor가 지금까지 발견한 가장 좋아하는 버그
+    - 15:50​ – 독립 보안 보조금을 위해 ECC 떠나기
+    - 22:30​ – 보안 감사 과정, Ywallet 사례
+    - 31:25​ – lightwalletd 보안 트레이드오프
+    - 45:10​ – zcashd 보안 및 사용성 트레이드오프
+    - 52:06​ – 제3자 결제 제공업체의 보안 트레이드오프
+    - 1:00:20​ – Zcash 운영 보안 요약
+    - 1:04:40​ – Zcash의 가장 큰 보안 및 프라이버시 오해는 무엇인가
 
-### Zcash FUD with Josh Swihart
-- **Date:** January 12, 2023
-- **Link:** [Watch on YouTube](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
-- **Summary:** Josh Swihart is the Senior Vice President of Growth, Product Strategy and Regulatory Relations at the Electric Coin Company.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 6:00 – The Dev Fund
-    - 15:22 – Regulatory and policy relationships
-    - 28:24 – Zcash’s privacy vs. other methods
-    - 42:38 – Zcash’s supply audibility
-    - 48:06 – Is privacy a feature you can add on later
-    - 53:58 – Zcash blockchain sandblasting attack
-    - 58:29 – Claim that Zcash isn’t cypherpunk
-    - 1:04:17 – Remaining questions and outro
+### Josh Swihart와 함께하는 Zcash FUD
+- **날짜:** 2023년 1월 12일
+- **링크:** [https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
+- **요약:** Josh Swihart는 Electric Coin Company의 성장, 제품 전략 및 규제 관계 담당 수석 부사장입니다.
+  - **타임스탬프:**
+    - 0:00​ – 소개
+    - 6:00​ – Dev Fund
+    - 15:22​ – 규제 및 정책 관계
+    - 28:24​ – 다른 방법과 비교한 Zcash의 프라이버시
+    - 42:38​ – Zcash의 공급량 감사 가능성
+    - 48:06​ – 프라이버시는 나중에 추가할 수 있는 기능인가
+    - 53:58​ – Zcash 블록체인 샌드블라스팅 공격
+    - 58:29​ – Zcash는 사이퍼펑크가 아니라는 주장
+    - 1:04:17​ – 남은 질문 및 마무리
 
-### Zcash Brasil’s latest Grant Proposal with Samara
-- **Date:** December 28, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
-- **Summary:** Samara is a PR professional and a member of the Zcash Brasil team.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 2:50 – Why is there a good opportunity for Zcash in Brazil?
-    - 6:10 – Thoughts on current Zcash Brasil output vs. potential output
-    - 8:00 – Why do Brazilians need financial privacy?
-    - 12:19 – What are the best channels to reach the Brazilian community?
-    - 17:25 – What is the main use case for ZEC in Brazil?
-    - 21:50 – What type of content and events will the Brazilian community create to drive adoption?
-    - 26:20 – What other states does Zcash Brazil want to expand into?
-    - 28:50 – How does the team plan on collaborating with other Zcash communities?
-    - 32:05 – What inspires Zcash Brasil’s design efforts?
-    - 35:30 – How can other Zcash orgs support Zcash Brasil’s efforts?
-    - 38:58 – Outro
+### Samara와 함께하는 Zcash Brasil의 최신 보조금 제안
+- **날짜:** 2022년 12월 28일
+- **링크:** [https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
+- **요약:** Samara는 PR 전문가이자 Zcash Brasil 팀의 구성원입니다.
+  - **타임스탬프:**
+    - 0:00​ – 소개
+    - 2:50​ – 브라질에서 Zcash에 좋은 기회가 있는 이유는 무엇인가?
+    - 6:10​ – 현재 Zcash Brasil 산출물과 잠재적 산출물에 대한 생각
+    - 8:00​ – 브라질인에게 금융 프라이버시가 필요한 이유는 무엇인가?
+    - 12:19​ – 브라질 커뮤니티에 도달하기 위한 최선의 채널은 무엇인가?
+    - 17:25​ – 브라질에서 ZEC의 주요 사용 사례는 무엇인가?
+    - 21:50​ – 브라질 커뮤니티는 채택을 촉진하기 위해 어떤 유형의 콘텐츠와 이벤트를 만들 것인가?
+    - 26:20​ – Zcash Brazil은 다른 어떤 주로 확장하고자 하는가?
+    - 28:50​ – 팀은 다른 Zcash 커뮤니티와 어떻게 협업할 계획인가?
+    - 32:05​ – Zcash Brasil의 디자인 노력에 영감을 주는 것은 무엇인가?
+    - 35:30​ – 다른 Zcash 조직은 Zcash Brasil의 노력을 어떻게 지원할 수 있는가?
+    - 38:58​ – 마무리
 
-### The new Zcash Podcast with Joel Valenzuela
-- **Date:** December 21, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
-- **Summary:** Joël Valenzuela is a content creator, writer and host of the Zcash podcast on the Digital Cash Network.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 7:33 – When did Bitcoin narrative change
-    - 17:04 – Zcash FUD & Crypto Maximalism
-    - 29:25 – Living off cryptocurrency
-    - 38:30 – What to expect from new Zcash podcast
-    - 57:40 – Learning Zcash and answering misconceptions around it
-    - 1:09:30 – Potential guests for DCN’s Zcash podcast
-    - 1:18:50 – Where to watch and follow DCN’s new Zcash podcast
-    - 1:21:52 – Outro
+### Joel Valenzuela와 함께하는 새로운 Zcash 팟캐스트
+- **날짜:** 2022년 12월 21일
+- **링크:** [https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
+- **요약:** Joël Valenzuela는 콘텐츠 크리에이터, 작가이자 Digital Cash Network의 Zcash 팟캐스트 진행자입니다.
+  - **타임스탬프:**
+    - 0:00​ – 소개
+    - 7:33​ – Bitcoin 내러티브는 언제 변했는가
+    - 17:04​ – Zcash FUD 및 암호화폐 맥시멀리즘
+    - 29:25​ – 암호화폐로 생활하기
+    - 38:30​ – 새로운 Zcash 팟캐스트에서 기대할 점
+    - 57:40​ – Zcash 배우기 및 이에 관한 오해에 답하기
+    - 1:09:30​ – DCN의 Zcash 팟캐스트에 출연할 가능성이 있는 게스트
+    - 1:18:50​ – DCN의 새로운 Zcash 팟캐스트를 시청하고 팔로우할 곳
+    - 1:21:52​ – 마무리
 
-### Zcash Narratives with David From Zcash Media
-- **Date:** September 20, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
-- **Summary:** David is a long-time Zcasher and writer / producer with Zcash Media.
-  - **Timestamps:**
-    - 0:00 – Intro, why Zcash & Zcash Media’s genesis
-    - 12:00 – The need for multiple media channels
-    - 17:50 – Aligning with Bitcoin’s original mission
-    - 27:00 – Educating around Zcash in the free market
-    - 35:45 – Learning from Bitcoin
-    - 37:20 – Why does quality of education matter
-    - 48:20 – The difference between Zcash media and ZecHub
-    - 55:45 – What we can learn from Bitcoin community marketing efforts
-    - 1:06:35 – Communicating Zcash to the world
-    - 1:14:30 – Meeting crypto’s biggest names
+### Zcash Media의 David와 함께하는 Zcash 내러티브
+- **날짜:** 2022년 9월 20일
+- **링크:** [https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
+- **요약:** David는 오랜 기간 활동한 Zcasher이자 Zcash Media의 작가 / 프로듀서입니다.
+  - **타임스탬프:**
+    - 0:00​ – 소개, Zcash 및 Zcash Media의 탄생 배경
+    - 12:00​ – 여러 미디어 채널의 필요성
+    - 17:50​ – Bitcoin의 본래 사명에 부합하기
+    - 27:00​ – 자유 시장에서의 Zcash에 관한 교육
+    - 35:45​ – Bitcoin에서 배우기
+    - 37:20​ – 교육의 질이 중요한 이유
+    - 48:20​ – Zcash 미디어와 ZecHub의 차이
+    - 55:45​ – Bitcoin 커뮤니티 마케팅 노력에서 배울 수 있는 점
+    - 1:06:35​ – 전 세계에 Zcash 알리기
+    - 1:14:30​ – 암호화폐 업계의 주요 인물 만나기
+    - 1:28:55​ – Ed Snowden
+    - 1:36:55​ – Zcash Media의 이전 콘텐츠 되돌아보기
+    - 1:43:00​ – Zcash의 대상 독자
+    - 1:51:06​ – 옵트아웃과 공동선으로서의 Zcash
+    - 1:57:20​ – Zcash의 미래
+
+### RAILGUN와 함께하는 DeFi 및 프라이버시
+- **날짜:** 2022년 8월 29일
+- **링크:** [https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
+- **요약:** RAILGUN는 ETH, BSC 및 Polygon에서 비공개 전송, 거래 및 DeFi를 지원하는 스마트 계약 시스템입니다.
+  - **타임스탬프:**
+    - 0:00​ – 소개
+    - 5:30​ – RAILGUN란 무엇인가
+    - 8:10​ – 탈중앙화 금융(DeFi)이란 무엇인가
+    - 17:30​ – DeFi의 단점
+    - 24:00​ – 가명과 프라이버시
+    - 32:55​ – RAILGUN 탄생 이야기
+    - 38:08​ – 다른 솔루션과 비교한 RAILGUN
+    - 45:00​ – 블록 탐색기에서 보는 RAILGUN 거래
+    - 49:52​ – 릴레이어
+    - 58:51​ – Rail 토크노믹스
+    - 1:04:00​ – RAILGUN 커뮤니티
+    - 1:07:04​ – 5년 후의 암호화폐 프라이버시
+
+### Xcelencia와 함께하는 음악 NFT, 프라이버시 및 경제적 자유
+- **날짜:** 2022년 8월 22일
+- **링크:** [https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
+- **요약:** Xcelencia는 Web3 음악 생태계의 레게톤 아티스트입니다.
+  - **타임스탬프:**
+    - 0:00​ – 소개
+    - 0:47​ – Web3에서 음악 아티스트를 위한 기회
+    - 3:30​ – 음악 NFT 소유권 정의하기
+    - 5:20​ – 음악 NFT 에디션 간의 차이
+    - 7:50​ – 스트리밍 산업 개요
+    - 13:48​ – 수집가 대 청취자
+    - 18:10​ – 글로벌 음악 시장
+    - 20:30​ – 음악 NFT는 경쟁의 장을 평평하게 하는가
+    - 23:45​ – Web3의 선도적인 LATAM 아티스트
+    - 28:05​ – Xcelencia가 암호화폐를 시작하게 된 계기
+    - 30:15​ – 경제적 자유에 대해 생각하기
+    - 34:05​ – 프라이버시 및 Zcash
+    - 43:50​ – Web3에서의 커뮤니티 교육
+    - 46:40​ – 다른 커뮤니티에 Zcash 소개하기
+    - 50:27​ – 신규 사용자를 위한 조언
+
+### 암호화폐
+
+  - **타임스탬프:**
+    - 0:00​ – 소개 및 Bitcoin 초기 시절
+    - 10:58​ – ZFAV Club의 탄생
+    - 17:38​ – 광고 운영 및 스폰서 보유의 위험
+    - 23:42​ – ZFAV Club의 궁극적 목표
+    - 29:35​ – ZFAV Club이 비기술 기여자를 지원하는 방식
+    - 34:50​ – 탈중앙화는 Zcash의 PR 문제를 해결하는가
+    - 42:10​ – 버그가 아닌 기능으로서의 불일치
+    - 49:32​ – 암호화폐 프로토콜에는 여러 정체성이 필요한가
+    - 54:35​ – 사람들이 거래소를 떠나는 이유
+    - 1:01:40​ – ZFAV Club이 글로벌 기여자를 지원하는 방식
+    - 1:08:00​ – 마무리
+
+### Zcash # Zcash 팟캐스트 요약
+
+## Taylor Hornby와 함께하는 Zcash 보안 및 Light-walletd
+- **날짜:** 2023년 1월 18일
+- **링크:** [YouTube에서 시청](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
+- **요약:** Taylor Hornby는 Zcash 생태계 보안 책임자입니다.
+  - **타임스탬프:**
+    - 0:00 – 소개
+    - 6:11 – InternalH 충돌 취약점
+    - 12:05 – Taylor가 지금까지 발견한 가장 좋아하는 버그
+    - 15:50 – 독립 보안 보조금을 위해 ECC 떠나기
+    - 22:30 – 보안 감사 과정, Ywallet 사례
+    - 31:25 – lightwalletd 보안 트레이드오프
+    - 45:10 – zcashd 보안 및 사용성 트레이드오프
+    - 52:06 – 제3자 결제 제공업체의 보안 트레이드오프
+    - 1:00:20 – Zcash 운영 보안 요약
+    - 1:04:40 – Zcash의 가장 큰 보안 및 프라이버시 오해는 무엇인가
+
+## Josh Swihart와 함께하는 Zcash FUD
+- **날짜:** 2023년 1월 12일
+- **링크:** [YouTube에서 시청](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
+- **요약:** Josh Swihart는 Electric Coin Company의 성장, 제품 전략 및 규제 관계 담당 수석 부사장입니다.
+  - **타임스탬프:**
+    - 0:00 – 소개
+    - 6:00 – Dev Fund
+    - 15:22 – 규제 및 정책 관계
+    - 28:24 – 다른 방법과 비교한 Zcash의 프라이버시
+    - 42:38 – Zcash의 공급량 감사 가능성
+    - 48:06 – 프라이버시는 나중에 추가할 수 있는 기능인가
+    - 53:58 – Zcash 블록체인 샌드블라스팅 공격
+    - 58:29 – Zcash는 사이퍼펑크가 아니라는 주장
+    - 1:04:17 – 남은 질문 및 마무리
+
+## Samara와 함께하는 Zcash Brasil의 최신 보조금 제안
+- **날짜:** 2022년 12월 28일
+- **링크:** [YouTube에서 시청](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
+- **요약:** Samara는 PR 전문가이자 Zcash Brasil 팀의 구성원입니다.
+  - **타임스탬프:**
+    - 0:00 – 소개
+    - 2:50 – 브라질에서 Zcash에 좋은 기회가 있는 이유는 무엇인가?
+    - 6:10 – 현재 Zcash Brasil 산출물과 잠재적 산출물에 대한 생각
+    - 8:00 – 브라질인에게 금융 프라이버시가 필요한 이유는 무엇인가?
+    - 12:19 – 브라질 커뮤니티에 도달하기 위한 최선의 채널은 무엇인가?
+    - 17:25 – 브라질에서 ZEC의 주요 사용 사례는 무엇인가?
+    - 21:50 – 브라질 커뮤니티는 채택을 촉진하기 위해 어떤 유형의 콘텐츠와 이벤트를 만들 것인가?
+    - 26:20 – Zcash Brazil은 다른 어떤 주로 확장하고자 하는가?
+    - 28:50 – 팀은 다른 Zcash 커뮤니티와 어떻게 협업할 계획인가?
+    - 32:05 – Zcash Brasil의 디자인 노력에 영감을 주는 것은 무엇인가?
+    - 35:30 – 다른 Zcash 조직은 Zcash Brasil의 노력을 어떻게 지원할 수 있는가?
+    - 38:58 – 마무리
+
+## Joel Valenzuela와 함께하는 새로운 Zcash 팟캐스트
+- **날짜:** 2022년 12월 21일
+- **링크:** [YouTube에서 시청](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
+- **요약:** Joël Valenzuela는 콘텐츠 크리에이터, 작가이자 Digital Cash Network의 Zcash 팟캐스트 진행자입니다.
+  - **타임스탬프:**
+    - 0:00 – 소개
+    - 7:33 – Bitcoin 내러티브는 언제 변했는가
+    - 17:04 – Zcash FUD 및 암호화폐 맥시멀리즘
+    - 29:25 – 암호화폐로 생활하기
+    - 38:30 – 새로운 Zcash 팟캐스트에서 기대할 점
+    - 57:40 – Zcash 배우기 및 이에 관한 오해에 답하기
+    - 1:09:30 – DCN의 Zcash 팟캐스트에 출연할 가능성이 있는 게스트
+    - 1:18:50 – DCN의 새로운 Zcash 팟캐스트를 시청하고 팔로우할 곳
+    - 1:21:52 – 마무리
+
+## Zcash Media의 David와 함께하는 Zcash 내러티브
+- **날짜:** 2022년 9월 20일
+- **링크:** [YouTube에서 시청](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
+- **요약:** David는 오랜 기간 활동한 Zcasher이자 Zcash Media의 작가 / 프로듀서입니다.
+  - **타임스탬프:**
+    - 0:00 – 소개, Zcash 및 Zcash Media의 탄생 배경
+    - 12:00 – 여러 미디어 채널의 필요성
+    - 17:50 – Bitcoin의 본래 사명에 부합하기
+    - 27:00 – 자유 시장에서의 Zcash에 관한 교육
+    - 35:45 – Bitcoin에서 배우기
+    - 37:20 – 교육의 질이 중요한 이유
+    - 48:20 – Zcash 미디어와 ZecHub의 차이
+    - 55:45 – Bitcoin 커뮤니티 마케팅 노력에서 배울 수 있는 점
+    - 1:06:35 – 전 세계에 Zcash 알리기
+    - 1:14:30 – 암호화폐 업계의 주요 인물 만나기
     - 1:28:55 – Ed Snowden
-    - 1:36:55 – Looking back on Zcash Media’s previous content
-    - 1:43:00 – Zcash’s target audience
-    - 1:51:06 – Opting out and Zcash as a common good
-    - 1:57:20 – The future of Zcash
+    - 1:36:55 – Zcash Media의 이전 콘텐츠 되돌아보기
+    - 1:43:00 – Zcash의 대상 독자
+    - 1:51:06 – 옵트아웃과 공동선으로서의 Zcash
+    - 1:57:20 – Zcash의 미래
 
-### DeFi and Privacy With Railgun
-- **Date:** August 29, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
-- **Summary:** Railgun is a smart contract system that enables private sends, trades & DeFi, on ETH, BSC & Polygon.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 5:30 – What is Railgun
-    - 8:10 – What is decentralized finance (DeFi)
-    - 17:30 – Downsides of DeFi
-    - 24:00 – Pseudonyms and privacy
-    - 32:55 – Railgun origin story
-    - 38:08 – Railgun vs. other solutions
-    - 45:00 – Railgun transaction on a block explorer
-    - 49:52 – Relayers
-    - 58:51 – Rail tokenomics
-    - 1:04:00 – The Railgun Community
-    - 1:07:04 – Crypto privacy in 5 years
+## RAILGUN와 함께하는 DeFi 및 프라이버시
+- **날짜:** 2022년 8월 29일
+- **링크:** [YouTube에서 시청](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
+- **요약:** RAILGUN는 ETH, BSC 및 Polygon에서 비공개 전송, 거래 및 DeFi를 지원하는 스마트 계약 시스템입니다.
+  - **타임스탬프:**
+    - 0:00 – 소개
+    - 5:30 – RAILGUN란 무엇인가
+    - 8:10 – 탈중앙화 금융(DeFi)이란 무엇인가
+    - 17:30 – DeFi의 단점
+    - 24:00 – 가명과 프라이버시
+    - 32:55 – RAILGUN 탄생 이야기
+    - 38:08 – 다른 솔루션과 비교한 RAILGUN
+    - 45:00 – 블록 탐색기에서 보는 RAILGUN 거래
+    - 49:52 – 릴레이어
+    - 58:51 – Rail 토크노믹스
+    - 1:04:00 – RAILGUN 커뮤니티
+    - 1:07:04 – 5년 후의 암호화폐 프라이버시
 
-### Music NFTs, Privacy and Economic Freedom with xcelencia
-- **Date:** August 22, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
-- **Summary:** Xcelencia is a reggaeton artist in the Web3 music ecosystem.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 0:47 – Opportunity for music artists in Web3
-    - 3:30 – Defining music NFT ownership
-    - 5:20 – Differences between music NFT editions
-    - 7:50 – Overview of the streaming industry
-    - 13:48 – Collectors vs. listeners
-    - 18:10 – Global music markets
-    - 20:30 – Do music NFTs level the playing field
-    - 23:45 – Leading LATAM artists in Web3
-    - 28:05 – How Xcelencia got into crypto
-    - 30:15 – Thinking about economic freedom
-    - 34:05 – Privacy and Zcash
-    - 43:50 – Community education in Web3
-    - 46:40 – Pitching Zcash to other communities
-    - 50:27 – Advice for new users
+## xcelencia와 함께하는 음악 NFT, 프라이버시 및 경제적 자유
+- **날짜:** 2022년 8월 22일
+- **링크:** [YouTube에서 시청](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
+- **요약:** Xcelencia는 Web3 음악 생태계의 레게톤 아티스트입니다.
+  - **타임스탬프:**
+    - 0:00 – 소개
+    - 0:47 – Web3에서 음악 아티스트를 위한 기회
+    - 3:30 – 음악 NFT 소유권 정의하기
+    - 5:20 – 음악 NFT 에디션 간의 차이
+    - 7:50 – 스트리밍 산업 개요
+    - 13:48 – 수집가 대 청취자
+    - 18:10 – 글로벌 음악 시장
+    - 20:30 – 음악 NFT는 경쟁의 장을 평평하게 하는가
+    - 23:45 – Web3의 선도적인 LATAM 아티스트
+    - 28:05 – Xcelencia가 암호화폐를 시작하게 된 계기
+    - 30:15 – 경제적 자유에 대해 생각하기
+    - 34:05 – 프라이버시 및 Zcash
+    - 43:50 – Web3에서의 커뮤니티 교육
+    - 46:40 – 다른 커뮤니티에 Zcash 소개하기
+    - 50:27 – 신규 사용자를 위한 조언
 
-### Crypto Regulation and Financial Privacy With J. W. Verret
-- **Date:** August 10, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
-- **Summary:** J.W. Verret is a professor at George Mason University. He is a corporate, securities, and bank law expert. He is also a legal and forensics accounting consultant, and the founder of the Crypto Freedom Lab.
-  - **Timestamps:**
-    - 0:00 – Meeting one of your idols
-    - 0:40 – The first Zcash podcast
-    - 1:45 – J.W.’s WSJ Op-Ed
-    - 5:35 – The best time to write
-    - 8:35 – Crypto privacy & J.W.’s new book
-    - 18:00 – Mixer legality
-    - 22:14 – War on cash
-    - 26:00 – ZEC volatility and fiat inflation
-    - 29:25 – Bitcoin mining and energy
-    - 31:50 – Proof-of-Stake and security laws
-    - 43:10 – KYC & privacy
-    - 44:50 – Bitcoiners, Zcash and Monero
-
-<!-- protected terms: RAILGUN, lightwalletd, zcashd -->
+## J. W. Verret와 함께하는 암호화폐 규제 및 금융 프라이버시
+- **날짜:** 2022년 8월 10일
+- **링크:** [YouTube에서 시청](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
+- **요약:** J.W. Verret은 George Mason University 교수입니다. 그는 기업법, 증권법 및 은행법 전문가입니다. 또한 법률 및 포렌식 회계 컨설턴트이자 Crypto Freedom Lab의 창립자입니다.
+  - **타임스탬프:**
+    - 0:00 – 우상 중 한 명을 만나다
+    - 0:40 – 첫 번째 Zcash 팟캐스트
+    - 1:45 – J.W.의 WSJ 기고문
+    - 5:35 – 글쓰기에 가장 좋은 시간
+    - 8:35 – 암호화폐 프라이버시 및 J.W.의 새 책
+    - 18:00 – 믹서의 합법성
+    - 22:14 – 현금과의 전쟁
+    - 26:00 – ZEC 변동성과 법정화폐 인플레이션
+    - 29:25 – Bitcoin 채굴과 에너지
+    - 31:50 – 지분증명과 증권법
+    - 43:10 – KYC 및 프라이버시
+    - 44:50 – Bitcoin 사용자, Zcash 및 Monero
+    - 54:10 – 초보자를 위한 암호화폐 프라이버시 조언
+    - 56:05 – 패스스루를 사용하지 말 것
+    - 1:01:05 – Crypto Freedom Lab

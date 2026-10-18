@@ -1,4 +1,4 @@
-# Ihe Ọmụma Na-aga n'Ihu: Usoro CryptoNote
+# Zero to Zero Knowledge: Usoro CryptoNote
 
 **Series:** Zero to Zero Knowledge
 

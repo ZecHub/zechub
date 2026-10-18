@@ -1,4 +1,4 @@
-# ゼロからゼロ知識へ: ニーモニック・シードフレーズ
+# Zero to Zero Knowledge: ニーモニック・シードフレーズ
 
 **シリーズ:** Zero to Zero Knowledge
 

@@ -1,6 +1,6 @@
-# De zéro à la connaissance nulle : protocole CryptoNote
+# Zero to Zero Knowledge : protocole CryptoNote
 
-**Série :** De zéro à la connaissance nulle
+**Série :** Zero to Zero Knowledge
 
 Un sujet intéressant aujourd’hui !  
 Le protocole **CryptoNote** permet une forte confidentialité on-chain. Aujourd’hui, nous découvrons toutes ses caractéristiques clés et comment il a été mis en œuvre par plusieurs projets de confidentialité notables.

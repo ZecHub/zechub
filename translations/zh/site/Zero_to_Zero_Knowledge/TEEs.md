@@ -1,4 +1,4 @@
-# 从零到零知识：可信执行环境（TEEs）
+# Zero to Zero Knowledge：可信执行环境（TEEs）
 
 **系列：** Zero to Zero Knowledge
 

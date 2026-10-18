@@ -1,6 +1,6 @@
-# 제로에서 제로 지식: Mnemonic Seed Phrases (암호구문)
+# Zero to Zero Knowledge: Mnemonic Seed Phrases (암호구문)
 
-**시리즈:** 제로에서 제로 지식
+**시리즈:** Zero to Zero Knowledge
 
 Mnemonic seed phrases는 암호화폐의 가장 중요한 요소 중 하나인 **자체 보관(self-custody)**을 뒷받침합니다.  
 오늘은 seed phrase가 어떻게 생성되고, 지갑에서 사용되는지 배우겠습니다.

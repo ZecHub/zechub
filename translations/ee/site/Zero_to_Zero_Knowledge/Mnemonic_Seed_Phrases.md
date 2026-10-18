@@ -1,6 +1,6 @@
-# Sidzedze Zero va ɖo Zero: Nuku ƒe Nyagbe Siwo Wotsɔna Ŋkuɖoa Nui
+# Zero to Zero Knowledge: Nuku ƒe Nyagbe Siwo Wotsɔna Ŋkuɖoa Nui
 
-**Series:** Zero vaseɖe Zero Sidzedze
+**Series:** Zero to Zero Knowledge
 
 Mnemonic nuku nyagbewo ɖo kpe cryptocurrency ƒe akpa vevitɔwo dometɔ ɖeka dzi - **ɖokuidzikpɔkpɔ**. 
 Egbea míesrɔ̃a alesi wowɔa nuku ƒe nyagbe aɖe eye wozãnɛ le gakotokuwo me.
@@ -102,4 +102,4 @@ https://x.com/ZecHub/status/1624125037945946145
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero yi Zero Sidzedze ƒe ka gbãtɔ me na ZecHub wiki.*
+*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*

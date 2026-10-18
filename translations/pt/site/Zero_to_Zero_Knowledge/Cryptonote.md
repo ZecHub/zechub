@@ -1,6 +1,6 @@
-# Do Zero ao Conhecimento Zero: Protocolo CryptoNote
+# Zero to Zero Knowledge: Protocolo CryptoNote
 
-**Série:** Do Zero ao Conhecimento Zero
+**Série:** Zero to Zero Knowledge
 
 Uma bem interessante hoje!  
 O protocolo **CryptoNote** permite forte privacidade on-chain. Hoje vamos aprender todas as suas principais funcionalidades e como ele foi implementado por vários projetos de privacidade notáveis.

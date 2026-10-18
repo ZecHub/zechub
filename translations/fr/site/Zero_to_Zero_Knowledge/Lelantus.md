@@ -1,6 +1,6 @@
-# De zéro à la connaissance nulle : protocole Lelantus
+# Zero to Zero Knowledge : protocole Lelantus
 
-**Série :** De zéro à la connaissance nulle
+**Série :** Zero to Zero Knowledge
 
 Aujourd’hui, nous examinons **Lelantus** !
 

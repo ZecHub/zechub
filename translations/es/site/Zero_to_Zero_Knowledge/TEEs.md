@@ -1,8 +1,8 @@
-# De cero a conocimiento cero: Entornos de Ejecución Confiables (TEEs)
+# Zero to Zero Knowledge: Entornos de Ejecución Confiables (TEEs)
 
-**Serie:** De cero a conocimiento cero
+**Serie:** Zero to Zero Knowledge
 
-¡De cero a conocimiento cero está de vuelta con un nuevo tema!  
+¡Zero to Zero Knowledge está de vuelta con un nuevo tema!  
 Esta semana exploramos los **Entornos de Ejecución Confiables (TEEs)** - cómo se utilizan en las monedas de privacidad y otras aplicaciones de blockchain.
 
 ![Introducción a los Entornos de Ejecución Confiables](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
@@ -123,4 +123,4 @@ https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*Esta página fue compilada a partir del hilo original de De cero a conocimiento cero para la wiki de ZecHub.*
+*Esta página fue compilada a partir del hilo original de Zero to Zero Knowledge para la wiki de ZecHub.*

@@ -1,394 +1,392 @@
-# ZK Podcast Epizot Sumarları
+# ZK Podcast Bölüm Özetleri
 
-## Epizotlar
+## Bölümler
 
-### Epizot 334 – ZK Araştırmaları Güncellemesi ile Joe Bonneau
+### Bölüm 334 – Joe Bonneau ile ZK Araştırma Güncellemesi
 - **Tarih:** 31 Temmuz 2024
 - **Bağlantı:** [https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
-- **Özet:** Anna ve Guille, NYU'da Yardımcı Doçent ve a16z kripto araştırmalarında Araştırmacı Ortak olan Joe Bonneau ile görüşür. Naysayer kanıtları, Sıfır Bilgi Orta Katmanları, Kilitli Teklif Auksiyonları ve diğer ZK ile ilgili araştırma projeleri hakkında konuşurlar.
-- **Misafirler:**
-- Joe Bonneau ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
+- **Özet:** Anna ve Guille, NYU'da Yardımcı Doçent ve a16z crypto araştırmasında Araştırma Ortağı olan Joe Bonneau ile bir araya geliyor. Naysayer kanıtları, Zero-Knowledge Middleboxes, Kapalı Teklifli Müzayedeler ve ZK ile ilgili diğer araştırma projeleri hakkındaki yakın dönem çalışmalarını ele alıyorlar.
 - **Konuklar:**
-- Anna ([AnnaRRose](https://x.com/AnnaRRose))
-- Guille ([GuilleAngeris](https://x.com/guilleangeris))
+  - Joe Bonneau ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
+- **Sunucular:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Guille ([GuilleAngeris](https://x.com/guilleangeris))
 
-### Epizot 333 – Doğrulanabilir SQL, Reckle Ağaçları ve ZK Ortak İşlemleme ile Lagrange Labs
+### Bölüm 333 – Lagrange Labs ile Doğrulanabilir SQL, Reckle Trees ve ZK Yardımcı İşleme
 - **Tarih:** 24 Temmuz 2024
 - **Bağlantı:** [https://zeroknowledge.fm/333-2](https://zeroknowledge.fm/333-2)
-- **Özet:** Anna, Lagrange Labs kurucusu ve CEO'su Ismael Hishon-Rezaizadeh ile Lagrange'da Araştırma Başkanı Charalampos (Babis) Papamanthou ile konuşur. ZK destekli ortak işlemcileri, Doğrulanabilir SQL, Reckle Ağaçları ve yeni kanıt pazarı hakkında tartışır.
-- **Misafirler:**
-- Ismael Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
-- Charalampos (Babis) Papamanthou ([chbpap](https://x.com/chbpap))
-- **Konuk:**
-- Anna ([AnnaRRose](https://x.com/AnnaRRose))
+- **Özet:** Anna, Lagrange Labs'in Kurucusu ve CEO'su Ismael Hishon-Rezaizadeh ile Lagrange'ın Araştırma Başkanı Charalampos (Babis) Papamanthou ile sohbet ediyor. ZK destekli yardımcı işlemcileri, Doğrulanabilir SQL'i, Reckle Trees'i yeniden ele alıyor ve yeni kanıtlayıcı pazar yerlerini tartışıyorlar.
+- **Konuklar:**
+  - Ismael Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
+  - Charalampos (Babis) Papamanthou ([chbpap](https://x.com/chbpap))
+- **Sunucu:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
 
-### Epizot 332 – Brüksel'de Hart'tan Görüşme
+### Bölüm 332 – Across'tan Hart ile Brüksel Buluşması
 - **Tarih:** 18 Temmuz 2024
 - **Bağlantı:** [https://zeroknowledge.fm/332-2](https://zeroknowledge.fm/332-2)
-- **Özet:** Anna ve Tarun, Brüksel'de EthCC haftasında Hart Lambur ile bir araya gelirler. Across projesiyle ilgili konuşurlar; bu proje, Uma'nın kardeş projesi olan, zincirler arası uyumluluk çözümüdür. Across inşaatı, tercihler ve diğer uyumluluk çözümleriyle karşılaştırılır.
-- **Misafirler:
-- Hart Lambur ([hal2001](https://x.com/hal2001))
+- **Özet:** Anna ve Tarun, Brüksel'deki EthCC haftasında Hart Lambur ile bir araya gelerek zincirler arası birlikte çalışabilirlik çözümü ve Uma'nın kardeş projesi olan Across projesini tartışıyor. Across yapısını, ödünleşimleri inceliyor ve diğer birlikte çalışabilirlik çözümleriyle karşılaştırıyorlar.
+- **Konuklar:**
+  - Hart Lambur ([hal2001](https://x.com/hal2001))
 - **Sunucular:**
-- Anna ([AnnaRRose](https://x.com/AnnaRRose))
-- Tarun ([tarunchitra](https://x.com/tarunchitra))
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### 331. Bölüm – Farcaster ile Varun Srinivasan
+### Bölüm 331 – Varun Srinivasan ile Farcaster
 - **Tarih:** 10 Temmuz 2024
 - **Bağlantı:** [https://zeroknowledge.fm/331-2](https://zeroknowledge.fm/331-2)
-- **Özet:** Anna ve Tarun, Farcaster'in kurucusu Varun Srinivasan ile buluşur. Farcaster projesi, başlangıcı ve mevcut sosyal medya ağlarından neyle ayrıldığını, tasarım alanlarını ve potansiyel uygulamalarını tartışır.
-- **Misafirler:**
-- Varun Srinivasan ([varunsrin](https://x.com/varunsrin))
+- **Özet:** Anna ve Tarun, Farcaster'ın kurucu ortaklarından Varun Srinivasan ile buluşuyor. Farcaster projesini, başlangıcını ve onu mevcut sosyal medya ağlarından ayıran özellikleri tartışırken tasarım alanını ve olası uygulamalarını inceliyorlar.
+- **Konuklar:**
+  - Varun Srinivasan ([varunsrin](https://x.com/varunsrin))
 - **Sunucular:**
-- Anna ([AnnaRRose](https://x.com/AnnaRRose))
-- Tarun ([tarunchitra](https://x.com/tarunchitra))
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### 330. Bölüm – Dağıtık Sistemlerde Programlanabilir Gizlilik Çerçeveleri ile Ying Tong ve Bryan Gillespie
+### Bölüm 330 – Ying Tong ve Bryan Gillespie ile Programlanabilir Gizlilik Çerçeveleri
 - **Tarih:** 3 Temmuz 2024
 - **Bağlantı:** [https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
-- **Özet:** Anna ve Guille, Geometry Research'ten Ying Tong Lai ile Inversed Tech'ten Bryan Gillespie ile 'SoK: Dağıtık Sistemlerde Programlanabilir Gizlilik' üzerine yaptıkları çalışmayı tartışır. Yeni sınıflandırmalar ve çerçeveler üzerinde derinlemesine inceleme yaparlar.
-- **Misafirler:**
-- Ying Tong Lai ([therealyingtong](https://x.com/therealyingtong))
-- Bryan Gillespie ([bryan_gillespie](https://x.com/bryan_gillespie))
+- **Özet:** Anna ve Guille, Geometry Research'ten Ying Tong Lai ve Inversed Tech'ten Bryan Gillespie ile yeni sınıflandırmaları ve çerçeveleri inceleyerek ‘SoK: Programmable Privacy in Distributed Systems’ üzerindeki çalışmaları hakkında sohbet ediyor.
+- **Konuklar:**
+  - Ying Tong Lai ([therealyingtong](https://x.com/therealyingtong))
+  - Bryan Gillespie ([bryan_gillespie](https://x.com/bryan_gillespie))
 - **Sunucular:**
-- Anna ([AnnaRRose](https://x.com/AnnaRRose))
-- Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
 
-### 329. Bölüm – Hash Fonksiyonlarından Kriptografik Kanıtlar Oluşturma: Alessandro Chiesa & Eylon Yogev
+### Bölüm 329 – Alessandro Chiesa ve Eylon Yogev ile Hash Fonksiyonlarından Kriptografik Kanıtlar Oluşturma
 - **Tarih:** 26 Haziran 2024
-- **Link:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
-- **Özet:** Anna ve Nico, EPFL'de yardımcı profesör olan Alessandro Chiesa ve Bar-Ilan Üniversitesi'nde profesör olan Eylon Yogev ile, hash fonksiyonlarından kriptografik kanıtlar oluşturma üzerine yapılan yayınları hakkında konuşur.
-- **Misafirler:**
-- Alessandro Chiesa ([profil](https://ic-people.epfl.ch/~achiesa/))
-- Eylon Yogev ([profil](https://eylonyogev.com/))
-- **Ev sahipleri:**
-- Anna ([AnnaRRose](https://x.com/AnnaRRose))
-- Nico ([nico_mnbl](https://x.com/nico_mnbl))
+- **Bağlantı:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
+- **Özet:** Anna ve Nico, EPFL'de Doçent olan Alessandro Chiesa ve Bar-Ilan University'de Profesör olan Eylon Yogev ile hash fonksiyonlarından kriptografik kanıtlar oluşturma konulu yayınları hakkında sohbet ediyor.
+- **Konuklar:**
+  - Alessandro Chiesa ([profile](https://ic-people.epfl.ch/~achiesa/))
+  - Eylon Yogev ([profile](https://eylonyogev.com/))
+- **Sunucular:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Nico ([nico_mnbl](https://x.com/nico_mnbl))
 
-## ZL;DR Show
-ZL;DR, Zcash ile ilgili her şeyi video formatında vurgulayan bir programdır. Epizotlar, Zcash konuları, topluluk, ekosistem güncellemeleri ve haberleri içerir.
+## ZL;DR Programı
+ZL;DR, Zcash ile ilgili her şeyi video formatında öne çıkaran bir programdır. Bölümler çeşitli Zcash konuları, topluluk, ekosistem güncellemeleri ve haberleri kapsar.
 
-- **İsim Değişikliği:** İsim ZecDaily'den ZL;DR olarak değiştirilmiştir.
+- **İsim Değişikliği:** İsim ZecDaily'den ZL;DR olarak değiştirildi.
 
-## Zechub Podcast Oynatma Listesi
+## ZecHub Podcast Oynatma Listesi
 
-### Gizlilik, CBDC'ler & Operation Chokepoint 2.0 | Kurt Opsahl – 11
+### Gizliliğin Önemi, CBDC'ler ve Operation Chokepoint 2.0 | Kurt Opsahl – 11
 - **Tarih:** 29 Mart 2024
-- **Link:** [https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
+- **Bağlantı:** [https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
 - **Özet:**
-- **Zaman damgaları:**
-- 00:00 – Giriş & Arka Plan
-- 04:09 – Web 1.0, Web 2.0 ve Web3
-- 09:00 – Şifreleme neden faydalıdır
-- 13:40 – Operation Chokepoint 2.0
-- 19:18 – Veri toplamanın tarihsel dersi
-- 23:25 – Mikro hedefleme / Psikografik
-- 27:44 – Sıfır bilgi & Zcash
-- 32:10 – CBDC’ler
-- 37:00 – Yargı Kurumları ve Gizlilik Artıran Teknoloji
-- 39:30 – Politika Tek Baştan Çözümü Sağlayamaz
-- 44:00 – Sifreli Aktivist Bildirisi ve Filecoin
-- 48:20 – Sonuç
+  - **Zaman Damgaları:**
+    - 00:00 – Giriş ve Arka Plan
+    - 04:09 – Web 1.0, Web 2.0 ve Web3
+    - 09:00 – Şifrelemenin neden faydalı olduğu
+    - 13:40 – Operation Chokepoint 2.0
+    - 19:18 – Tarihin Veri Toplamaya Dair Dersi
+    - 23:25 – Mikro Hedefleme / Psikografi
+    - 27:44 – Zero Knowledge ve Zcash
+    - 32:10 – CBDC'ler
+    - 37:00 – Kolluk Kuvvetleri ve Gizliliği Artıran Teknoloji
+    - 39:30 – Politika Tek Başına Hareket Edemez
+    - 44:00 – Cypherpunk Manifestosu ve Filecoin
+    - 48:20 – Kapanış
 
-### Kamu Yararı İçin Gizlilik Amber Baldet ile
+### Amber Baldet ile Kamu Yararı İçin Gizlilik
 - **Tarih:** 7 Şubat 2023
 - **Bağlantı:** [https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB](https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB)
 - **Özet:**
-- **Süre işaretleri:**
-- 0:00​ – Giriş
-- 4:40​ – Merkeziyetsizlik ve isteğe bağlı toplum oluşturma
-- 15:20​ – Kripto para ile ekonomik özgüven ve ajanlık olanakları
-- 26:30​ – Zcash finansman modeli, düzenleyici ele geçirmek ve ekosistem çeşitlendirmesi
-- 33:39​ – Merkeziyetsiz teknolojilerle ekonomik ve toplumsal açıkların kapanması
-- 42:50​ – Zincir üzerindeki yönetim için para oy mekanizması
-- 50:25​ – Açık kaynak geliştirme ve kripto piyasalarındaki sermaye artırımı
-- 59:30​ – Zcash'ın geleceği ve sonuç
+  - **Zaman Damgaları:**
+    - 0:00​ – Giriş
+    - 4:40​ – Merkeziyetsizlik ve katılıma dayalı bir toplum oluşturmak
+    - 15:20​ – Crypto'nun ekonomik özgürlüğü ve özerkliği mümkün kılma fırsatı
+    - 26:30​ – Zcash’nin finansman modeli, düzenleyici ele geçirme ve ekosistem çeşitlendirmesi
+    - 33:39​ – Merkeziyetsiz teknolojiler aracılığıyla ekonomik ve toplumsal uçurumları kapatmak
+    - 42:50​ – Zincir üstü yönetişim için bir mekanizma olarak coin oylaması
+    - 50:25​ – Crypto piyasalarında açık kaynak geliştirme ve sermayelendirme
+    - 59:30​ – Zcash'ün geleceği ve kapanış
 
-### ZFAV Kulübü Ryan Taylor (AdjyLeak) ile
+### Ryan Taylor (diğer adıyla AdjyLeak) ile ZFAV Club
 - **Tarih:** 25 Ocak 2023
 - **Bağlantı:** [https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX](https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX)
 - **Özet:**
 - - **Bağlantı:** [https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
-- **Özet:** Taylor Hornby, Zcash Ekosistem Güvenliği Başı.
-- **Süre işaretleri:**
-- 0:00​ – Giriş
-- 6:11​ – InternalH Çakışma Güvenlik Açığı
-- 12:05​ – Taylor’ın bulduğu en sevdiği hata
-- 15:50​ – ECC’ten bağımsız güvenlik bursuna geçiş
-- 22:30​ – Güvenlik denetimi süreci, Ywallet örneği
-- 31:25​ – Lightwalletd güvenliği dengesi
-- 45:10​ – Zcashd güvenliği ve kullanışlılık dengesi
-- 52:06​ – Üçüncü taraf ödeme sağlayıcısı güvenlik dengesi
-- 1:00:20​ – Zcash operasyonel güvenlik özeti
-- 1:04:40​ – Zcash’ın en büyük güvenlik ve gizlilik yanlış anlaşılmaları nelerdir
+- **Özet:** Taylor Hornby, Zcash Ekosistem Güvenliği Lideridir.
+  - **Zaman Damgaları:**
+    - 0:00​ – Giriş
+    - 6:11​ – InternalH Çakışma Güvenlik Açığı
+    - 12:05​ – Taylor'ın şimdiye dek bulduğu favori hata
+    - 15:50​ – Bağımsız güvenlik hibesi için ECC'den ayrılmak
+    - 22:30​ – Güvenlik denetimi süreci, Ywallet örneği
+    - 31:25​ – lightwalletd güvenlik ödünleşimleri
+    - 45:10​ – zcashd güvenlik ve kullanılabilirlik ödünleşimleri
+    - 52:06​ – Üçüncü taraf ödeme sağlayıcısı güvenlik ödünleşimleri
+    - 1:00:20​ – Zcash operasyonel güvenlik özeti
+    - 1:04:40​ – Zcash'ün en büyük güvenlik ve gizlilik yanılgıları nelerdir
 
-### Zcash FUD Josh Swihart ile
+### Josh Swihart ile Zcash FUD
 - **Tarih:** 12 Ocak 2023
 - **Bağlantı:** [https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
-- **Özet:** Josh Swihart, Electric Coin Company’da Büyüme, Ürün Stratejisi ve Düzenleyici İlişkiler için Başkan Yardımcısıdır.
-- **Zaman damgaları:**
-- 0:00​ – Giriş
-- 6:00​ – Geliştirici Fonu
-- 15:22​ – Düzenleyici ve politika ilişkileri
-- 28:24​ – Zcash’ın gizlilik vs. diğer yöntemler
-- 42:38​ – Zcash’ın arz denetlenebilirliği
-- 48:06​ – Gizlilik bir sonradan eklenen özellik midir?
-- 53:58​ – Zcash blok zinciri kum püskürtme saldırısı
-- 58:29​ – Zcash’ın siberpunk olmadığını iddiası
-- 1:04:17​ – Kalan sorular ve çıkış
+- **Özet:** Josh Swihart, Electric Coin Company'de Büyüme, Ürün Stratejisi ve Düzenleyici İlişkilerden Sorumlu Kıdemli Başkan Yardımcısıdır.
+  - **Zaman Damgaları:**
+    - 0:00​ – Giriş
+    - 6:00​ – Dev Fund
+    - 15:22​ – Düzenleyici ve politika ilişkileri
+    - 28:24​ – Zcash'ün gizliliği ve diğer yöntemler
+    - 42:38​ – Zcash'ün arz denetlenebilirliği
+    - 48:06​ – Gizlilik sonradan ekleyebileceğiniz bir özellik mi
+    - 53:58​ – Zcash blockchain kumlama saldırısı
+    - 58:29​ – Zcash'nin cypherpunk olmadığı iddiası
+    - 1:04:17​ – Kalan sorular ve kapanış
 
-### Zcash Brasil’in Samara ile En Yeni Burs Teşviki
+### Samara ile Zcash Brasil'in son Hibe Teklifi
 - **Tarih:** 28 Aralık 2022
-- **Link:** [https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
-- **Özet:** Samara, bir PR uzmanı ve Zcash Brasil ekibinin üyesidir.
-- **Zaman damgaları:**
-- 0:00​ – Giriş
-- 2:50​ – Neden Brazil'de Zcash için iyi bir fırsat var?
-- 6:10​ – Mevcut Zcash Brasil çıktısı ile potansiyel çıktıya dair düşünceler
-- 8:00​ – Brezilyalılar neden mali gizlilik ihtiyaç duyar?
-- 12:19​ – Brezilya topluluğuna ulaşmak için en iyi kanallar nelerdir?
-- 17:25​ – Brezilya'da ZEC'ın ana kullanım senaryosu nedir?
-- 21:50​ – Brezilya topluluğu, benimsenmeyi artırmak için hangi tür içerik ve etkinlikler oluşturacak?
-- 26:20​ – Zcash Brazil başka hangi eyaletlere yayılmak istiyor?
-- 28:50​ – Takım, diğer Zcash topluluklarıyla nasıl iş birliği yapmayı planlıyor?
-- 32:05​ – Zcash Brasil’in tasarım çabalarını ne ilhamlandırıyor?
-- 35:30​ – Diğer Zcash organizasyonları, Zcash Brasil’ın çabalarına nasıl destek olabilir?
-- 38:58​ – Çıkış
+- **Bağlantı:** [https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
+- **Özet:** Samara bir halkla ilişkiler profesyoneli ve Zcash Brasil ekibinin bir üyesidir.
+  - **Zaman Damgaları:**
+    - 0:00​ – Giriş
+    - 2:50​ – Brezilya'da Zcash için neden iyi bir fırsat var?
+    - 6:10​ – Mevcut Zcash Brasil çıktısı ile potansiyel çıktı hakkındaki düşünceler
+    - 8:00​ – Brezilyalıların neden finansal gizliliğe ihtiyacı var?
+    - 12:19​ – Brezilya topluluğuna ulaşmak için en iyi kanallar hangileri?
+    - 17:25​ – Brezilya'da ZEC için ana kullanım alanı nedir?
+    - 21:50​ – Brezilya topluluğu benimsemeyi artırmak için ne tür içerik ve etkinlikler oluşturacak?
+    - 26:20​ – Zcash Brazil başka hangi eyaletlere genişlemek istiyor?
+    - 28:50​ – Ekip diğer Zcash topluluklarıyla iş birliği yapmayı nasıl planlıyor?
+    - 32:05​ – Zcash Brasil'in tasarım çalışmalarına ne ilham veriyor?
+    - 35:30​ – Diğer Zcash kuruluşları Zcash Brasil'in çalışmalarını nasıl destekleyebilir?
+    - 38:58​ – Kapanış
 
-### Yeni Zcash Podcast ile Joel Valenzuela
+### Joel Valenzuela ile yeni Zcash Podcast'i
 - **Tarih:** 21 Aralık 2022
-- **Link:** [https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
-- **Özet:** Joël Valenzuela, bir içerik yaratıcısı, yazar ve Digital Cash Network üzerindeki Zcash podcast’inin sunucusudur.
-- **Zaman damgaları:**
-- 0:00​ – Giriş
-- 7:33​ – Bitcoin anlatımı ne zaman değişti
-- 17:04​ – Zcash FUD & Kripto Maksimalizm
-- 29:25​ – Kriptoparalardan yaşamak
-- 38:30​ – Yeni Zcash podcast’inden ne beklemeli
-- 57:40​ – Zcash öğrenmek ve üzerineki yanlış anlaşılmaları yanıtlamak
-- 1:09:30​ – DCN’nin Zcash podcast’i için potansiyel konuklar
-- 1:18:50​ – DCN’nin yeni Zcash podcast’ini izlemek ve takip etmek için nereye gidebilirsiniz
-- 1:21:52​ – Çıkış
+- **Bağlantı:** [https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
+- **Özet:** Joël Valenzuela, Digital Cash Network'te Zcash podcast'inin içerik üreticisi, yazarı ve sunucusudur.
+  - **Zaman Damgaları:**
+    - 0:00​ – Giriş
+    - 7:33​ – Bitcoin anlatısı ne zaman değişti
+    - 17:04​ – Zcash FUD ve Crypto Maksimalizmi
+    - 29:25​ – Kripto para ile geçinmek
+    - 38:30​ – Yeni Zcash podcast'inden ne beklenmeli
+    - 57:40​ – Zcash'ü öğrenmek ve bununla ilgili yanlış kanıları yanıtlamak
+    - 1:09:30​ – DCN'nin Zcash podcast'i için potansiyel konuklar
+    - 1:18:50​ – DCN'nin yeni Zcash podcast'ini nereden izleyip takip edebilirsiniz
+    - 1:21:52​ – Kapanış
 
-### Zcash Anlatımları, David ile Zcash Medya’dan
+### Zcash Media'dan David ile Zcash Anlatıları
 - **Tarih:** 20 Eylül 2022
 - **Bağlantı:** [https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
-- **Özet:** David, uzun süredir Zcash kullanıcısı ve Zcash Medya ile birlikte yazan / üreten bir yazar.
-- **Zaman damgaları:**
-- 0:00​ – Giriş, neden Zcash & Zcash Medya’nın doğuşu
-- 12:00​ – Birden fazla medya kanalının gerekli olması
-- 17:50​ – Bitcoin’in orijinal misyonu ile uyum sağlama
-- 27:00​ – Özgür piyasadaki Zcash eğitimi
-- 35:45​ – Bitcoin’den öğrenme
-- 37:20​ – Eğitim kalitesinin neden önemli olduğu
-- 48:20​ – Zcash medya ile ZecHub arasındaki fark
-- 55:45​ – Bitcoin topluluğu pazarlama çabalarından ne öğrenebiliriz
-- 1:06:35​ – Zcash’i dünyaya nasıl anlatıyoruz
-- 1:14:30​ – Kripto alanının en büyük isimleriyle tanışma
-- 1:28:55​ – Ed Snowden
-- 1:36:55​ – Zcash Medya’nın önceki içeriklerine bakış
-- 1:43:00​ – Zcash’un hedef kitleleri
-- 1:51:06​ – İptal etme ve Zcash’un ortak mal olarak olması
-- 1:57:20​ – Zcash’un geleceği
+- **Özet:** David, uzun süredir Zcasher olan ve Zcash Media'da yazar / yapımcı olarak çalışan biridir.
+  - **Zaman Damgaları:**
+    - 0:00​ – Giriş, Zcash'ün ve Zcash Media'nın doğuşu
+    - 12:00​ – Birden fazla medya kanalına duyulan ihtiyaç
+    - 17:50​ – Bitcoin'in özgün misyonuyla uyum sağlamak
+    - 27:00​ – Serbest piyasada Zcash hakkında eğitim
+    - 35:45​ – Bitcoin'den öğrenmek
+    - 37:20​ – Eğitimin kalitesi neden önemlidir
+    - 48:20​ – Zcash medyası ile ZecHub arasındaki fark
+    - 55:45​ – Bitcoin topluluğunun pazarlama çalışmalarından neler öğrenebiliriz
+    - 1:06:35​ – Zcash'ü dünyaya anlatmak
+    - 1:14:30​ – Crypto'nun en büyük isimleriyle tanışmak
+    - 1:28:55​ – Ed Snowden
+    - 1:36:55​ – Zcash Media'nın önceki içeriklerine bakış
+    - 1:43:00​ – Zcash'ün hedef kitlesi
+    - 1:51:06​ – Sistemden çıkmak ve ortak fayda olarak Zcash
+    - 1:57:20​ – Zcash'ün geleceği
 
-### DeFi ve Gizlilik, Railgun ile
+### RAILGUN ile DeFi ve Gizlilik
 - **Tarih:** 29 Ağustos 2022
 - **Bağlantı:** [https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
-- **Özet:** Railgun, ETH, BSC ve Polygon üzerinde özel gönderimler, ticaretler ve DeFi'yi mümkün kılan bir akıllı sözleşme sistemidir.
-- **Süre işaretleri:**
-- 0:00​ – Giriş
-- 5:30​ – Railgun nedir
-- 8:10​ – Merkeziyetsiz finans (DeFi) nedir
-- 17:30​ – DeFi'nin dezavantajları
-- 24:00​ – Takma isimler ve gizlilik
-- 32:55​ – Railgun'un köken hikayesi
-- 38:08​ – Railgun diğer çözümlerle karşılaştırılması
-- 45:00​ – Bir blok gezgini üzerindeki Railgun işlemi
-- 49:52​ – İletici (Relayer)
-- 58:51​ – Rail tokenonomisi
-- 1:04:00​ – Railgun Topluluğu
-- 1:07:04​ – 5 yıl sonra kripto gizliliği
+- **Özet:** RAILGUN, ETH, BSC ve Polygon üzerinde özel gönderimler, alım satımlar ve DeFi sağlayan bir akıllı sözleşme sistemidir.
+  - **Zaman Damgaları:**
+    - 0:00​ – Giriş
+    - 5:30​ – RAILGUN nedir
+    - 8:10​ – Merkeziyetsiz finans (DeFi) nedir
+    - 17:30​ – DeFi'nin dezavantajları
+    - 24:00​ – Takma adlar ve gizlilik
+    - 32:55​ – RAILGUN'ün kuruluş hikâyesi
+    - 38:08​ – RAILGUN ve diğer çözümler
+    - 45:00​ – Bir blok gezgininde RAILGUN işlemi
+    - 49:52​ – Aktarıcılar
+    - 58:51​ – Rail token ekonomisi
+    - 1:04:00​ – RAILGUN Topluluğu
+    - 1:07:04​ – 5 yıl içinde crypto gizliliği
 
 ### Xcelencia ile Müzik NFT'leri, Gizlilik ve Ekonomik Özgürlük
 - **Tarih:** 22 Ağustos 2022
 - **Bağlantı:** [https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
 - **Özet:** Xcelencia, Web3 müzik ekosisteminde bir reggaeton sanatçısıdır.
-- **Süre işaretleri:**
-- 0:00​ – Giriş
-- 0:47​ – Web3'te müzik sanatçıları için fırsatlar
-- 3:30​ – Müzik NFT sahipliğini tanımlama
-- 5:20​ – Müzik NFT sürümleri arasındaki farklar
-- 7:50​ – Akış endüstrisinin genel bakışı
-- 13:48​ – Toplayıcılar vs. dinleyiciler
-- 18:10​ – Küresel müzik piyasaları
-- 20:30​ – Müzik NFT'leri alanın eşitliğini sağlar mı?
-- 23:45​ – Web3'te lider LATAM sanatçıları
-- 28:05​ – Xcelencia'nın kripto dünyasına girişi
-- 30:15​ – Ekonomik özgürlük hakkında düşünmek
-- 34:05​ – Gizlilik ve Zcash
-- 43:50​ – Web3'te topluluk eğitimi
-- 46:40​ – Diğer topluluklara Zcash'ı sunmak
-- 50:27​ – Yeni kullanıcılar için öneriler
+  - **Zaman Damgaları:**
+    - 0:00​ – Giriş
+    - 0:47​ – Web3'de müzik sanatçıları için fırsat
+    - 3:30​ – Müzik NFT sahipliğini tanımlamak
+    - 5:20​ – Müzik NFT edisyonları arasındaki farklar
+    - 7:50​ – Streaming sektörüne genel bakış
+    - 13:48​ – Koleksiyoncular ve dinleyiciler
+    - 18:10​ – Küresel müzik pazarları
+    - 20:30​ – Müzik NFT'leri rekabet koşullarını eşitliyor mu
+    - 23:45​ – Web3'de önde gelen LATAM sanatçıları
+    - 28:05​ – Xcelencia'nın crypto ile tanışması
+    - 30:15​ – Ekonomik özgürlük üzerine düşünmek
+    - 34:05​ – Gizlilik ve Zcash
+    - 43:50​ – Web3'de topluluk eğitimi
+    - 46:40​ – Zcash'ü diğer topluluklara tanıtmak
+    - 50:27​ – Yeni kullanıcılar için tavsiyeler
 
-### Kripto
+### Crypto
 
-- **Zaman damgaları:**
-- 0:00​ – Giriş ve erken Bitcoin dönemleri
-- 10:58​ – ZFAV Club'ın kökeni
-- 17:38​ – Reklamlar yapmanın ve sponsorlara sahip olmanın riskleri
-- 23:42​ – ZFAV Club'ın son hedefi
-- 29:35​ – ZFAV Club'ın teknik bilgi gerektirmeyen katkı sağlayıcıları nasıl etkinleştirir?
-- 34:50​ – Merkeziyetsizlik, Zcash'ın PR sorununu çözebilir mi?
-- 42:10​ – Farklı görüşlerin bir özellik olduğu
-- 49:32​ – Kripto protokolleri birden fazla kimlik gerektirmeli mi?
-- 54:35​ – İnsanların bir borsadan neden ayrılacağı
-- 1:01:40​ – ZFAV Club'ın küresel katkı sağlayıcıları nasıl etkinleştirir?
-- 1:08:00​ – Son sözler
+  - **Zaman Damgaları:**
+    - 0:00​ – Giriş ve Bitcoin'in ilk günleri
+    - 10:58​ – ZFAV Club'ın doğuşu
+    - 17:38​ – Reklam yayınlamanın ve sponsorlara sahip olmanın riskleri
+    - 23:42​ – ZFAV Club'ın nihai hedefi
+    - 29:35​ – ZFAV Club teknik olmayan katkıda bulunanları nasıl mümkün kılıyor
+    - 34:50​ – Merkeziyetsizlik Zcash'ün halkla ilişkiler sorununu çözer mi
+    - 42:10​ – Bir hata değil, özellik olarak anlaşmazlıklar
+    - 49:32​ – Crypto protokollerinin birden fazla kimliğe ihtiyacı var mı
+    - 54:35​ – İnsanlar neden bir borsadan ayrılır
+    - 1:01:40​ – ZFAV Club küresel katkıda bulunanları nasıl mümkün kılıyor
+    - 1:08:00​ – Kapanış
 
 ### Zcash # Zcash Podcast Özetleri
 
-## Zcash güvenliği ve Light-walletd ile Taylor Hornby
+## Taylor Hornby ile Zcash güvenliği ve Light-walletd
 - **Tarih:** 18 Ocak 2023
 - **Bağlantı:** [YouTube'da izle](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
-- **Özet:** Taylor Hornby, Zcash Ekosistemi Güvenlik Müdürü'dür.
-- **Zaman damgaları:**
-- 0:00 – Giriş
-- 6:11 – InternalH Çakışma Hataları
-- 12:05 – Taylor'ın bulduğu en sevdiği hata
-- 15:50 – ECC'ten bağımsız güvenlik bursuna geçiş
-- 22:30 – Güvenlik denetimi süreci, Ywallet örneği
-- 31:25 – Lightwalletd güvenliği dengesi
-- 45:10 – Zcashd güvenliği ve kullanışlılık dengesi
-- 52:06 – Üçüncü taraf ödeme sağlayıcıları güvenliği dengesi
-- 1:00:20 – Zcash operasyonel güvenlik özeti
-- 1:04:40 – Zcash’ın en büyük güvenlik ve gizlilik yanlış anlaşılmaları nelerdir
+- **Özet:** Taylor Hornby, Zcash Ekosistem Güvenliği Lideridir.
+  - **Zaman Damgaları:**
+    - 0:00 – Giriş
+    - 6:11 – InternalH Çakışma Güvenlik Açığı
+    - 12:05 – Taylor'ın şimdiye dek bulduğu favori hata
+    - 15:50 – Bağımsız güvenlik hibesi için ECC'den ayrılmak
+    - 22:30 – Güvenlik denetimi süreci, Ywallet örneği
+    - 31:25 – lightwalletd güvenlik ödünleşimleri
+    - 45:10 – zcashd güvenlik ve kullanılabilirlik ödünleşimleri
+    - 52:06 – Üçüncü taraf ödeme sağlayıcısı güvenlik ödünleşimleri
+    - 1:00:20 – Zcash operasyonel güvenlik özeti
+    - 1:04:40 – Zcash'ün en büyük güvenlik ve gizlilik yanılgıları nelerdir
 
-## Zcash FUD ile Josh Swihart
+## Josh Swihart ile Zcash FUD
 - **Tarih:** 12 Ocak 2023
 - **Bağlantı:** [YouTube'da izle](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
-- **Özet:** Josh Swihart, Electric Coin Company’da Büyüme, Ürün Stratejisi ve Düzenleyici İlişkiler Senior Başkan Yardımcısıdır.
-- **Zaman damgaları:**
-- 0:00 – Giriş
-- 6:00 – Geliştirici Fonu
-- 15:22 – Düzenleyici ve politika ilişkileri
-- 28:24 – Zcash’ın gizlilik diğer yöntemlerle karşılaştırması
-- 42:38 – Zcash’ın arz denetlenebilirliği
-- 48:06 – Gizlilik daha sonra ekleyebileceğiniz bir özelliktir
-- 53:58 – Zcash blockchain tuzaklama saldırısı
-- 58:29 – Zcash’ın siberpunk olmadığını iddia etme
-- 1:04:17 – Kalan sorular ve son sözler
+- **Özet:** Josh Swihart, Electric Coin Company'de Büyüme, Ürün Stratejisi ve Düzenleyici İlişkilerden Sorumlu Kıdemli Başkan Yardımcısıdır.
+  - **Zaman Damgaları:**
+    - 0:00 – Giriş
+    - 6:00 – Dev Fund
+    - 15:22 – Düzenleyici ve politika ilişkileri
+    - 28:24 – Zcash'ün gizliliği ve diğer yöntemler
+    - 42:38 – Zcash'ün arz denetlenebilirliği
+    - 48:06 – Gizlilik sonradan ekleyebileceğiniz bir özellik mi
+    - 53:58 – Zcash blockchain kumlama saldırısı
+    - 58:29 – Zcash'nin cypherpunk olmadığı iddiası
+    - 1:04:17 – Kalan sorular ve kapanış
 
-## Zcash Brasil’in Samara ile En Son Grant Önerisi
+## Samara ile Zcash Brasil'in son Hibe Teklifi
 - **Tarih:** 28 Aralık 2022
-- **Bağlantı:** [YouTube’da izle](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
-- **Özet:** Samara, bir PR uzmanı ve Zcash Brasil ekibinin üyesidir.
-- **Zaman damgaları:**
-- 0:00 – Giriş
-- 2:50 – Neden Brazil’da Zcash için iyi bir fırsat var?
-- 6:10 – Mevcut Zcash Brasil çıktısı ile potansiyel çıktıyı karşılaştırmaya dair düşünceler
-- 8:00 – Brezilyalılar neden finansal gizliliğe ihtiyaç duyar?
-- 12:19 – Brezilya topluluğuna ulaşmak için en iyi kanallar nelerdir?
-- 17:25 – Brezilya’da ZEC’in ana kullanım senaryosu nedir?
-- 21:50 – Brezilya topluluğu, benimsenmeyi artırmak için hangi tür içerik ve etkinlikler oluşturacak?
-- 26:20 – Zcash Brazil’in başka hangi eyaletlere yayılmasını istiyor?
-- 28:50 – Takım, diğer Zcash topluluklarıyla nasıl iş birliği yapmayı planlıyor?
-- 32:05 – Zcash Brasil’in tasarım çabalarını ne ilhamlandırıyor?
-- 35:30 – Diğer Zcash organizasyonları, Zcash Brasil’in çabalarına nasıl destek olabilir?
-- 38:58 – Son sözler
+- **Bağlantı:** [YouTube'da izle](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
+- **Özet:** Samara bir halkla ilişkiler profesyoneli ve Zcash Brasil ekibinin bir üyesidir.
+  - **Zaman Damgaları:**
+    - 0:00 – Giriş
+    - 2:50 – Brezilya'da Zcash için neden iyi bir fırsat var?
+    - 6:10 – Mevcut Zcash Brasil çıktısı ile potansiyel çıktı hakkındaki düşünceler
+    - 8:00 – Brezilyalıların neden finansal gizliliğe ihtiyacı var?
+    - 12:19 – Brezilya topluluğuna ulaşmak için en iyi kanallar hangileri?
+    - 17:25 – Brezilya'da ZEC için ana kullanım alanı nedir?
+    - 21:50 – Brezilya topluluğu benimsemeyi artırmak için ne tür içerik ve etkinlikler oluşturacak?
+    - 26:20 – Zcash Brazil başka hangi eyaletlere genişlemek istiyor?
+    - 28:50 – Ekip diğer Zcash topluluklarıyla iş birliği yapmayı nasıl planlıyor?
+    - 32:05 – Zcash Brasil'in tasarım çalışmalarına ne ilham veriyor?
+    - 35:30 – Diğer Zcash kuruluşları Zcash Brasil'in çalışmalarını nasıl destekleyebilir?
+    - 38:58 – Kapanış
 
-## Yeni Zcash Podcast’i Joel Valenzuela ile
+## Joel Valenzuela ile yeni Zcash Podcast'i
 - **Tarih:** 21 Aralık 2022
-- **Bağlantı:** [YouTube’da izle](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
-- **Özet:** Joël Valenzuela, bir içerik yaratıcısı, yazar ve Digital Cash Network’taki Zcash podcast’inin sunucusudur.
-- **Zaman damgaları:**
-- 0:00 – Giriş
-- 7:33 – Bitcoin anlatısı ne zaman değişti
-- 17:04 – Zcash FUD & Kripto Maksimalizm
-- 29:25 – Kriptodan para kazanmak
-- 38:30 – Yeni Zcash podcast'ten ne beklememiz gerekir
-- 57:40 – Zcash öğrenmek ve etrafındaki yanlış anlaşılmaları cevaplamak
-- 1:09:30 – DCN'nin Zcash podcast'ine potansiyel konuklar
-- 1:18:50 – DCN'nin yeni Zcash podcast'ini izlemek ve takip etmek için nereye gitmeliyiz
-- 1:21:52 – Çıkış
+- **Bağlantı:** [YouTube'da izle](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
+- **Özet:** Joël Valenzuela, Digital Cash Network'te Zcash podcast'inin içerik üreticisi, yazarı ve sunucusudur.
+  - **Zaman Damgaları:**
+    - 0:00 – Giriş
+    - 7:33 – Bitcoin anlatısı ne zaman değişti
+    - 17:04 – Zcash FUD ve Crypto Maksimalizmi
+    - 29:25 – Kripto para ile geçinmek
+    - 38:30 – Yeni Zcash podcast'inden ne beklenmeli
+    - 57:40 – Zcash'ü öğrenmek ve bununla ilgili yanlış kanıları yanıtlamak
+    - 1:09:30 – DCN'nin Zcash podcast'i için potansiyel konuklar
+    - 1:18:50 – DCN'nin yeni Zcash podcast'ini nereden izleyip takip edebilirsiniz
+    - 1:21:52 – Kapanış
 
-## Zcash Anlatıları David ile Zcash Medyasından
+## Zcash Media'dan David ile Zcash Anlatıları
 - **Tarih:** 20 Eylül 2022
 - **Bağlantı:** [YouTube'da izle](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
-- **Özet:** David, uzun süredir Zcash kullanıcısı ve Zcash Medyası ile yazar / üretici olarak çalışmaktadır.
-- **Zaman damgaları:**
-- 0:00 – Giriş, neden Zcash & Zcash Medyasının doğuşu
-- 12:00 – Birden fazla medya kanalına ihtiyaç duyulması
-- 17:50 – Bitcoin'in orijinal misyonu ile uyum sağlama
-- 27:00 – Serbest piyasadaki Zcash hakkında eğitim
-- 35:45 – Bitcoin'den öğrenmeler
-- 37:20 – Eğitim kalitesinin neden önemli olduğu
-- 48:20 – Zcash medyası ile ZecHub arasındaki fark
-- 55:45 – Bitcoin topluluğu pazarlama çabalarından ne öğrenebiliriz
-- 1:06:35 – Dünyaya Zcash hakkında nasıl iletişim kurulur
-- 1:14:30 – Kripto'nun en büyük isimleriyle buluşmak
-- 1:28:55 – Ed Snowden
-- 1:36:55 – Zcash'nin önceki içeriklerine bakış
-- 1:43:00 – Zcash'ın hedef kitle
-- 1:51:06 – Çıkış seçeneği ve Zcash'un ortak iyi
-- 1:57:20 – Zcash'un geleceğine bakış
+- **Özet:** David, uzun süredir Zcasher olan ve Zcash Media'da yazar / yapımcı olarak çalışan biridir.
+  - **Zaman Damgaları:**
+    - 0:00 – Giriş, Zcash'ün ve Zcash Media'nın doğuşu
+    - 12:00 – Birden fazla medya kanalına duyulan ihtiyaç
+    - 17:50 – Bitcoin'in özgün misyonuyla uyum sağlamak
+    - 27:00 – Serbest piyasada Zcash hakkında eğitim
+    - 35:45 – Bitcoin'den öğrenmek
+    - 37:20 – Eğitimin kalitesi neden önemlidir
+    - 48:20 – Zcash medyası ile ZecHub arasındaki fark
+    - 55:45 – Bitcoin topluluğunun pazarlama çalışmalarından neler öğrenebiliriz
+    - 1:06:35 – Zcash'ü dünyaya anlatmak
+    - 1:14:30 – Crypto'nun en büyük isimleriyle tanışmak
+    - 1:28:55 – Ed Snowden
+    - 1:36:55 – Zcash Media'nın önceki içeriklerine bakış
+    - 1:43:00 – Zcash'ün hedef kitlesi
+    - 1:51:06 – Sistemden çıkmak ve ortak fayda olarak Zcash
+    - 1:57:20 – Zcash'ün geleceği
 
-## DeFi ve Gizlilik ile Railgun
+## RAILGUN ile DeFi ve Gizlilik
 - **Tarih:** 29 Ağustos 2022
 - **Bağlantı:** [YouTube'da izle](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
-- **Özet:** Railgun, ETH, BSC ve Polygon üzerinde özel gönderimler, işlemleri ve DeFi'yi mümkün kılan bir akıllı sözleşme sistemi.
-- **Zaman damgaları:**
-- 0:00 – Giriş
-- 5:30 – Railgun nedir
-- 8:10 – Merkezi olmayan finans (DeFi) nedir
-- 17:30 – DeFi'nin dezavantajları
-- 24:00 – Takma isimler ve gizlilik
-- 32:55 – Railgun'un köken hikayesi
-- 38:08 – Railgun diğer çözümlerle karşılaştırılması
-- 45:00 – Bir blok gezgini üzerindeki Railgun işlemi
-- 49:52 – İletici (Relayers)
-- 58:51 – Rail tokenonomisi
-- 1:04:00 – Railgun Topluluğu
-- 1:07:04 – 5 yıl sonra kripto gizliliği
+- **Özet:** RAILGUN, ETH, BSC ve Polygon üzerinde özel gönderimler, alım satımlar ve DeFi sağlayan bir akıllı sözleşme sistemidir.
+  - **Zaman Damgaları:**
+    - 0:00 – Giriş
+    - 5:30 – RAILGUN nedir
+    - 8:10 – Merkeziyetsiz finans (DeFi) nedir
+    - 17:30 – DeFi'nin dezavantajları
+    - 24:00 – Takma adlar ve gizlilik
+    - 32:55 – RAILGUN'ün kuruluş hikâyesi
+    - 38:08 – RAILGUN ve diğer çözümler
+    - 45:00 – Bir blok gezgininde RAILGUN işlemi
+    - 49:52 – Aktarıcılar
+    - 58:51 – Rail token ekonomisi
+    - 1:04:00 – RAILGUN Topluluğu
+    - 1:07:04 – 5 yıl içinde crypto gizliliği
 
-## Müzik NFT'leri, Gizlilik ve Ekonomik Özgürlük ile xcelencia
+## xcelencia ile Müzik NFT'leri, Gizlilik ve Ekonomik Özgürlük
 - **Tarih:** 22 Ağustos 2022
 - **Bağlantı:** [YouTube'da izle](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
 - **Özet:** Xcelencia, Web3 müzik ekosisteminde bir reggaeton sanatçısıdır.
-- **Zaman damgaları:**
-- 0:00 – Giriş
-- 0:47 – Web3'te müzik sanatçıları için fırsatlar
-- 3:30 – Müzik NFT sahipliğinin tanımlanması
-- 5:20 – Müzik NFT sürümleri arasındaki farklar
-- 7:50 – Akış sektörüne genel bakış
-- 13:48 – Toplayıcılar vs. dinleyiciler
-- 18:10 – Küresel müzik piyasaları
-- 20:30 – Müzik NFT'lerin oyun alanını eşit mi yapar?
-- 23:45 – Web3'te öncü LATAM sanatçıları
-- 28:05 – Xcelencia'nın kripto para ile nasıl başa çıktığı
-- 30:15 – Ekonomik özgürlük hakkında düşünmek
-- 34:05 – Gizlilik ve Zcash
-- 43:50 – Web3'te topluluk eğitimi
-- 46:40 – Diğer topluluklara Zcash'ı sunmak
-- 50:27 – Yeni kullanıcılar için tavsiyeler
+  - **Zaman Damgaları:**
+    - 0:00 – Giriş
+    - 0:47 – Web3'de müzik sanatçıları için fırsat
+    - 3:30 – Müzik NFT sahipliğini tanımlamak
+    - 5:20 – Müzik NFT edisyonları arasındaki farklar
+    - 7:50 – Streaming sektörüne genel bakış
+    - 13:48 – Koleksiyoncular ve dinleyiciler
+    - 18:10 – Küresel müzik pazarları
+    - 20:30 – Müzik NFT'leri rekabet koşullarını eşitliyor mu
+    - 23:45 – Web3'de önde gelen LATAM sanatçıları
+    - 28:05 – Xcelencia'nın crypto ile tanışması
+    - 30:15 – Ekonomik özgürlük üzerine düşünmek
+    - 34:05 – Gizlilik ve Zcash
+    - 43:50 – Web3'de topluluk eğitimi
+    - 46:40 – Zcash'ü diğer topluluklara tanıtmak
+    - 50:27 – Yeni kullanıcılar için tavsiyeler
 
-## Kripto Düzenlemesi ve Finansal Gizlilik J. W. Verret ile
+## J. W. Verret ile Crypto Düzenlemesi ve Finansal Gizlilik
 - **Tarih:** 10 Ağustos 2022
 - **Bağlantı:** [YouTube'da izle](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
-- **Özet:** J.W. Verret, George Mason Üniversitesi'nde bir profesördür. Şirket, hisse senedi ve banka hukuku uzmanıdır. Ayrıca yasal ve dijital delil muhasebe danışmanı ve Crypto Freedom Lab kurucusudur.
-- **Zaman damgaları:**
-- 0:00 – İdollerinizden biriyle buluşma
-- 0:40 – İlk Zcash podcast'i
-- 1:45 – J.W.'nın WSJ Op-Ed'i
-- 5:35 – Yazmanın en iyi zamanı
-- 8:35 – Kripto gizliliği & J.W.’nun yeni kitabı
-- 18:00 – Karıştırıcı yasalığı
-- 22:14 – Nakit savaşına karşı mücadele
-- 26:00 – ZEC dalgalanmaları ve fiat enflasyonu
-- 29:25 – Bitcoin madenciliği ve enerji
-- 31:50 – Kanıtlanabilirlik-İstisnaya dayalı (Proof-of-Stake) ve güvenlik yasaları
-- 43:10 – KYC & gizlilik
-- 44:50 – Bitcoin’çiler, Zcash ve Monero
-- 54:10 – Yeni başlayanlar için kripto gizliliği önerileri
-- 56:05 – Geçiş işlemleri kullanmayın
-- 1:01:05 – Crypto Freedom Lab
-
-<!-- protected terms: RAILGUN, lightwalletd, zcashd -->
+- **Özet:** J.W. Verret, George Mason University'de profesördür. Şirketler, menkul kıymetler ve banka hukuku uzmanıdır. Ayrıca hukuki ve adli muhasebe danışmanı ve Crypto Freedom Lab'in kurucusudur.
+  - **Zaman Damgaları:**
+    - 0:00 – İdollerinizden biriyle tanışmak
+    - 0:40 – İlk Zcash podcast'i
+    - 1:45 – J.W.'nin WSJ köşe yazısı
+    - 5:35 – Yazmak için en iyi zaman
+    - 8:35 – Crypto gizliliği ve J.W.'nin yeni kitabı
+    - 18:00 – Mixer yasallığı
+    - 22:14 – Nakde karşı savaş
+    - 26:00 – ZEC oynaklığı ve itibari para enflasyonu
+    - 29:25 – Bitcoin madenciliği ve enerji
+    - 31:50 – Proof-of-Stake ve menkul kıymetler yasaları
+    - 43:10 – KYC ve gizlilik
+    - 44:50 – Bitcoin kullanıcıları, Zcash ve Monero
+    - 54:10 – Yeni başlayanlar için crypto gizlilik tavsiyeleri
+    - 56:05 – Aracıları kullanmayın
+    - 1:01:05 – Crypto Freedom Lab

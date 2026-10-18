@@ -1,7 +1,7 @@
-# Maarifa ya Zero hadi Zero: Kazi za Hash
+# Zero to Zero Knowledge: Kazi za Hash
 
 **Utangulizi wa Mfululizo** 
-Karibu kwenye mfululizo mpya: **Maarifa ya Zero hadi Zero**! 
+Karibu kwenye mfululizo mpya: **Zero to Zero Knowledge**! 
 
 Katika mfululizo huu tutajifunza misingi ya teknolojia mbalimbali zinazotumika katika itifaki zetu za kuhifadhi faragha.
 
@@ -96,4 +96,4 @@ Uzi halisi wa X: https://x.com/ZecHub/status/1621240109663227906
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa uzi asili wa Maarifa ya Zero hadi Zero kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwa uzi asili wa Zero to Zero Knowledge kwa wiki ya ZecHub.*

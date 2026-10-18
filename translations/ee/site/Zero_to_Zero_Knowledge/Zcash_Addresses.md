@@ -1,6 +1,6 @@
-# Zero vaseɖe Zero Sidzedze: Transparent vs Shielded Transactions & Adrɛs Siwo Wowɔ Ðeka
+# Zero to Zero Knowledge: Transparent vs Shielded Transactions & Adrɛs Siwo Wowɔ Ðeka
 
-**Series:** Zero vaseɖe Zero Sidzedze
+**Series:** Zero to Zero Knowledge
 
 Ne èle nu srɔ̃m tso Zcash ŋu zi gbãtɔ la, àkpɔe be asitsatsa ƒomevi eve li: **Transparent** kple **Shielded**. 
 
@@ -116,4 +116,4 @@ https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero yi Zero Sidzedze ƒe ka gbãtɔ me na ZecHub wiki.*
+*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*

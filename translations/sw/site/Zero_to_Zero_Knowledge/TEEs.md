@@ -1,8 +1,8 @@
-# Zero kwa Zero Maarifa: Trusted Utekelezaji Mazingira (TEEs)
+# Zero to Zero Knowledge: Trusted Utekelezaji Mazingira (TEEs)
 
-**Series:** Zero hadi Zero Maarifa
+**Series:** Zero to Zero Knowledge
 
-Zero kwa Zero Maarifa ni nyuma na mada mpya! 
+Zero to Zero Knowledge ni nyuma na mada mpya! 
 Wiki hii sisi kuchunguza ** Trusted Execution Environments (TEEs) ** - jinsi wao ni kutumika katika sarafu faragha na maombi mengine blockchain.
 
 ! ![Trusted Utekelezaji Mazingira intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
@@ -123,4 +123,4 @@ https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero hadi Zero Knowledge kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero to Zero Knowledge kwa wiki ya ZecHub.*

@@ -1,6 +1,6 @@
-# От нуля к Zero Knowledge: прозрачные и экранированные транзакции и Unified Addresses
+# Zero to Zero Knowledge: прозрачные и экранированные транзакции и Unified Addresses
 
-**Серия:** От нуля к Zero Knowledge
+**Серия:** Zero to Zero Knowledge
 
 Если вы впервые изучаете Zcash, то обнаружите, что доступны два типа транзакций: **Transparent** и **Shielded**.  
 

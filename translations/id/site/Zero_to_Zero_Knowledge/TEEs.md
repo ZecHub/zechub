@@ -1,6 +1,6 @@
-# Dari Nol ke Zero-Knowledge: Trusted Execution Environments (TEEs)
+# Zero to Zero Knowledge: Trusted Execution Environments (TEEs)
 
-**Seri:** Dari Nol ke Zero Knowledge
+**Seri:** Zero to Zero Knowledge
 
 Zero to Zero Knowledge kembali hadir dengan topik baru!  
 Minggu ini kita mengeksplorasi **Trusted Execution Environments (TEEs)** - bagaimana teknologi ini digunakan dalam koin privasi dan aplikasi blockchain lainnya.
