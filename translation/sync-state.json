@@ -1721,10 +1721,10 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     },
@@ -1753,11 +1753,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -1793,10 +1793,10 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     }
@@ -7167,10 +7167,10 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     },
@@ -7199,11 +7199,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
       "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static+gloss-restore",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -7239,10 +7239,10 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
       "engine": "gt",
-      "mode": "seed",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     }
@@ -16257,11 +16257,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -16289,11 +16289,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -16329,11 +16329,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     }
   },
@@ -27157,11 +27157,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -27189,11 +27189,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -27229,11 +27229,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     }
   },
@@ -32571,11 +32571,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -32603,11 +32603,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair+gloss-restore+prose-retranslate",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -32643,11 +32643,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "0dd124cf191e789e7aec0370597fc7e67afe9ae3",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
       "edited": false
     }
   },

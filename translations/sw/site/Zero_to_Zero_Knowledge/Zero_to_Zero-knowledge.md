@@ -1,33 +1,23 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Zero_to_Zero-knowledge.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
+# Maarifa ya sifuri hadi sifuri
 
-# Zero kwa Zero Maarifa. Series Elimu 
+Mfululizo mfupi kuhusu mawazo ya pesa taslimu za kidijitali za kibinafsi. Anza juu.
 
+| # | Mada | Utajifunza nini |
+|---|-------|---------------------|
+| 1 | [Kazi za Hash](/zero-to-zero-knowledge/hash-functions) | Ingizo lolote linakuwa matokeo yasiyobadilika. Sifa tatu ambazo hashi lazima iwe nazo. |
+| 2 | [Misemo ya Mbegu za Urejeshaji](/zero-to-zero-knowledge/mnemonic-seed-phrases) | Jinsi orodha ya maneno inavyokuwa funguo zinazohifadhi pesa zako. |
+| 3 | [Anwani Zcash](/zero-to-zero-knowledge/zcash-addresses) | Miamala iliyo wazi na iliyolindwa, na Anwani Zilizounganishwa. |
+| 4 | [Mazingira ya Utekelezaji Yanayoaminika](/zero-to-zero-knowledge/tees) | Vifaa vinavyoweka hesabu kuwa ya faragha, na pale inaposhindwa. |
+| 5 | [Cryptonote](/zero-to-zero-knowledge/cryptonote) | Muundo wa faragha nyuma ya Monero, na jinsi unavyotofautiana na Zcash. |
+| 6 | [Lelantus](/zero-to-zero-knowledge/lelantus) | Itifaki iliyo nyuma ya Firo, na jinsi inavyolinganishwa na Zcash. |
 
-## Kazi za Hash 
+## Mijadala asili
 
-https://twitter.com/ZecHub/status/1621240109663227906
+Imekusanywa kutoka nyuzi za Maarifa ya Zero hadi Zero kwenye X.
 
-
-## Maneno ya Kusaidia Kupona 
-
-https://twitter.com/ZecHub/status/1624125037945946145
-
-
-## Anwani za Zcash 
-
-https://twitter.com/ZecHub/status/1628498645627666432
-
-
-## Mazingira ya Utekelezaji wa Kuaminika 
-
-https://twitter.com/ZecHub/status/1633579659282587651
-
-## Cryptonote
-
-https://twitter.com/ZecHub/status/1636473585781948416
-
-## Lelantus
-
-https://twitter.com/ZecHub/status/1641902859800150017
+- [Kazi za Hash](https://x.com/ZecHub/status/1621240109663227906)
+- [Misemo ya Mbegu za Urejeshaji](https://x.com/ZecHub/status/1624125037945946145)
+- [Anwani Zcash](https://x.com/ZecHub/status/1628498645627666432)
+- [Mazingira ya Utekelezaji Yanayoaminika](https://x.com/ZecHub/status/1633579659282587651)
+- [Cryptonote](https://x.com/ZecHub/status/1636473585781948416)
+- [Lelantus](https://x.com/ZecHub/status/1641902859800150017)
