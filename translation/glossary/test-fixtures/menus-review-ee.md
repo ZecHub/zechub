@@ -14,7 +14,7 @@ Names that stay in English in every language (brands, products, programmes) are 
 No conflicts.
 
 ## Top menu (header) and its submenus
-(`navigation`: 78 labels)
+(`navigation`: 73 labels)
 
 | # | ID | English | Ewe | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -46,59 +46,54 @@ No conflicts.
 | 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | Fexexe ƒe Biabia ƒe URIwo |  |  |
 | 27 | navigation.usingZcash.paymentProcessors | Payment Processors | Fexexe Ŋuti Dɔwɔlawo |  |  |
 | 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | Gawo Xɔxɔ |  |  |
-| 29 | navigation.usingZcash.testnet | Testnet | Dodokpɔ ƒe mɔ̃ |  |  |
-| 30 | navigation.usingZcash.tools | Tools | Dɔwɔnuwo |  |  |
-| 31 | navigation.usingZcash.useCases | Use Cases | Zã Nyawo |  |  |
-| 32 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | Dze Egɔme Le Afi Sia |  |  |
-| 33 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | Lɔ̃ Ðe Fexexewo Dzi |  |  |
-| 34 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | Ame ŋutɔ ƒe Nyatakakawo Ŋuti Nyatakakawo |  |  |
-| 35 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo |  |  |
-| 36 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | Nuŋlɔɖiwo Dzraɖoƒe |  |  |
-| 37 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | Ame ŋutɔ ƒe Nutoa me Gadzɔdzɔ |  |  |
-| 38 | navigation.usingZcash.useCasesSubmenu.donations | Donations | Nudzɔdzɔwo |  |  |
-| 39 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | Ðo Ga Ðe Ame Ðokui Si |  |  |
-| 40 | navigation.zcashCommunity.label | Ecosystem | Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo |  |  |
-| 41 | navigation.zcashCommunity.communityBlogs | Community Blogs | Nutoa me Blogwo |  |  |
-| 42 | navigation.zcashCommunity.communityLinks | Community Links | Nutoa Me Kadodowo |  |  |
-| 43 | navigation.zcashCommunity.communityForum | Community Forum | Nutoa me Takpekpe |  |  |
-| 44 | navigation.zcashCommunity.communityProjects | Community Projects | Nutoa me Dɔwɔnawo |  |  |
-| 45 | navigation.zcashCommunity.globalAmbassadors | Zcash Global Ambassadors | Zcash Xexeame Katã ƒe Dutanyanyuigblɔlawo |  |  |
-| 46 | navigation.zcashCommunity.zcashMedia | Zcash Media | Zcash Nyadzɔdzɔgblɔmɔnuwo |  |  |
-| 47 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | Zcash ƒe Podcastwo |  |  |
-| 48 | navigation.zcashCommunity.ecosystemSecurity | Zcash Ecosystem Security | Zcash Nutoa me ƒe Dedienɔnɔ |  |  |
-| 49 | navigation.zcashCommunity.cypherpunkZeroNFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT ƒe agbalẽa |  |  |
-| 50 | navigation.zcashCommunity.zconArchive | Zcon Archive | Zcon ƒe Nudzraɖoƒe |  |  |
-| 51 | navigation.organizations.label | Organizations | Habɔbɔwo |  |  |
-| 52 | navigation.organizations.financialPrivacyFoundation | Financial Privacy Foundation | Ganyawo Ŋuti Nyatakakawo Ŋuti Ðoɖowɔha |  |  |
-| 53 | navigation.organizations.brand | Brand | Nudzadzra ŋkɔ |  |  |
-| 54 | navigation.organizations.zkavClub | ZKAV Club | ZKAV ƒe Habɔbɔ |  |  |
-| 55 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | Kɔingadzilawo ƒe kpekpeɖeŋu siwo wotsɔ na nu siwo va yi |  |  |
-| 56 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | Zgo Fexexe Ŋuti Dɔwɔƒe |  |  |
-| 57 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Live |  |  |
-| 58 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN |  |  |
-| 59 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | ZEC zazã le DeFi me |  |  |
-| 60 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | ZEC Zazã le Adzame |  |  |
-| 61 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd ƒe ƒuƒoƒo |  |  |
-| 62 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra ƒe Kekeli ƒe Zingo |  |  |
-| 63 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | Raspberry Pi Zebra Node ƒe ƒuƒoƒo |  |  |
-| 64 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash ƒe Nyatakakadzraɖoƒe |  |  |
-| 65 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche ƒe Tɔdzisasrã Dzĩ |  |  |
-| 66 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | Zkool Multisig ƒe dɔwɔwɔ |  |  |
-| 67 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | Ywallet FROST ƒe wɔwɔfia |  |  |
-| 68 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | Blockchain ƒe Nukulawo |  |  |
-| 69 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | BTCPayServer ƒe Dɔwɔnu |  |  |
-| 70 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | Zcash Network la kpɔkpɔ le susu me |  |  |
-| 71 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | Zcash Adrɛswo Kpɔkpɔ le susu me |  |  |
-| 72 | navigation.guidesSubmenu.zcashDevtool | Zcash Devtool | Zcash Devtool ƒe dɔwɔnu |  |  |
-| 73 | navigation.guidesSubmenu.zcashImprovementProposals | Zcash Improvement Proposals | Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖowo |  |  |
-| 74 | navigation.guidesSubmenu.zingolibAndZainoTutorial | Zingolib and Zaino Tutorial | Zingolib kple Zaino ƒe Nufiame |  |  |
-| 75 | navigation.guidesSubmenu.zenithInstallation | Zenith Installation | Zenith ƒe Dɔwɔɖoɖo |  |  |
-| 76 | navigation.guidesSubmenu.zeroKnowledgeVsDecoys | Zero Knowledge vs Decoy Systems | Zero Sidzedze vs Decoy Dɔwɔɖoɖowo |  |  |
-| 77 | navigation.overview | Overview | Kpɔɖeŋu bliboa |  |  |
-| 78 | navigation.shop | Shop | Fiase |  |  |
+| 29 | navigation.usingZcash.tools | Tools | Dɔwɔnuwo |  |  |
+| 30 | navigation.usingZcash.useCases | Use Cases | Zã Nyawo |  |  |
+| 31 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | Dze Egɔme Le Afi Sia |  |  |
+| 32 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | Lɔ̃ Ðe Fexexewo Dzi |  |  |
+| 33 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | Ame ŋutɔ ƒe Nyatakakawo Ŋuti Nyatakakawo |  |  |
+| 34 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo |  |  |
+| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | Nuŋlɔɖiwo Dzraɖoƒe |  |  |
+| 36 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | Ame ŋutɔ ƒe Nutoa me Gadzɔdzɔ |  |  |
+| 37 | navigation.usingZcash.useCasesSubmenu.donations | Donations | Nudzɔdzɔwo |  |  |
+| 38 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | Ðo Ga Ðe Ame Ðokui Si |  |  |
+| 39 | navigation.zcashCommunity.label | Ecosystem | Nu gbagbewo ƒe agbenɔnɔ ƒe ɖoɖo |  |  |
+| 40 | navigation.zcashCommunity.communityBlogs | Community Blogs | Nutoa me Blogwo |  |  |
+| 41 | navigation.zcashCommunity.communityLinks | Community Links | Nutoa Me Kadodowo |  |  |
+| 42 | navigation.zcashCommunity.communityForum | Community Forum | Nutoa me Takpekpe |  |  |
+| 43 | navigation.zcashCommunity.communityProjects | Community Projects | Nutoa me Dɔwɔnawo |  |  |
+| 44 | navigation.zcashCommunity.zcashMedia | Zcash Media | Zcash Nyadzɔdzɔgblɔmɔnuwo |  |  |
+| 45 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | Zcash ƒe Podcastwo |  |  |
+| 46 | navigation.zcashCommunity.ecosystemSecurity | Zcash Ecosystem Security | Zcash Nutoa me ƒe Dedienɔnɔ |  |  |
+| 47 | navigation.zcashCommunity.cypherpunkZeroNFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT ƒe agbalẽa |  |  |
+| 48 | navigation.zcashCommunity.zconArchive | Zcon Archive | Zcon ƒe Nudzraɖoƒe |  |  |
+| 49 | navigation.organizations.label | Organizations | Habɔbɔwo |  |  |
+| 50 | navigation.organizations.brand | Brand | Nudzadzra ŋkɔ |  |  |
+| 51 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | Kɔingadzilawo ƒe kpekpeɖeŋu siwo wotsɔ na nu siwo va yi |  |  |
+| 52 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | Zgo Fexexe Ŋuti Dɔwɔƒe |  |  |
+| 53 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Live |  |  |
+| 54 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN |  |  |
+| 55 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | ZEC zazã le DeFi me |  |  |
+| 56 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | ZEC Zazã le Adzame |  |  |
+| 57 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd ƒe ƒuƒoƒo |  |  |
+| 58 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra ƒe Kekeli ƒe Zingo |  |  |
+| 59 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | Raspberry Pi Zebra Node ƒe ƒuƒoƒo |  |  |
+| 60 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash ƒe Nyatakakadzraɖoƒe |  |  |
+| 61 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche ƒe Tɔdzisasrã Dzĩ |  |  |
+| 62 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | Zkool Multisig ƒe dɔwɔwɔ |  |  |
+| 63 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | Ywallet FROST ƒe wɔwɔfia |  |  |
+| 64 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | Blockchain ƒe Nukulawo |  |  |
+| 65 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | BTCPayServer ƒe Dɔwɔnu |  |  |
+| 66 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | Zcash Network la kpɔkpɔ le susu me |  |  |
+| 67 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | Zcash Adrɛswo Kpɔkpɔ le susu me |  |  |
+| 68 | navigation.guidesSubmenu.zcashImprovementProposals | Zcash Improvement Proposals | Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖowo |  |  |
+| 69 | navigation.guidesSubmenu.zingolibAndZainoTutorial | Zingolib and Zaino Tutorial | Zingolib kple Zaino ƒe Nufiame |  |  |
+| 70 | navigation.guidesSubmenu.zenithInstallation | Zenith Installation | Zenith ƒe Dɔwɔɖoɖo |  |  |
+| 71 | navigation.guidesSubmenu.zeroKnowledgeVsDecoys | Zero Knowledge vs Decoy Systems | Zero Sidzedze vs Decoy Dɔwɔɖoɖowo |  |  |
+| 72 | navigation.overview | Overview | Kpɔɖeŋu bliboa |  |  |
+| 73 | navigation.shop | Shop | Fiase |  |  |
 
 ## Submenu entries (page names in the menus)
-(`menuLabels`: 86 labels)
+(`menuLabels`: 80 labels)
 
 | # | ID | English | Ewe | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -121,76 +116,70 @@ No conflicts.
 | 17 | menuLabels.Exchanges | Exchanges | Nuwo ɖɔliɖɔli |  |  |
 | 18 | menuLabels.Extras | Extras | Nu bubuwo |  |  |
 | 19 | menuLabels.Faucets | Faucets | Pɔmpiwo |  |  |
-| 20 | menuLabels.Financial Privacy Foundation | Financial Privacy Foundation | Financial Privacy Foundation |  |  |
-| 21 | menuLabels.Free2z Live | Free2z Live | Free2z Live |  |  |
-| 22 | menuLabels.Freelance Privacy | Freelance Privacy | Ame ŋutɔ ƒe Nyatakakawo Ŋuti Nyatakakawo |  |  |
-| 23 | menuLabels.Governance | Governance | Dziɖuɖu |  |  |
-| 24 | menuLabels.Guides | Guides | Mɔfialawo |  |  |
-| 25 | menuLabels.How to Participate | How to Participate | Ale Si Nàkpɔ Gome le Eme |  |  |
-| 26 | menuLabels.Journalist Privacy | Journalist Privacy | Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo |  |  |
-| 27 | menuLabels.Keeping Records | Keeping Records | Nuŋlɔɖiwo Dzraɖoƒe |  |  |
-| 28 | menuLabels.Memos | Memos | Nuŋlɔɖiwo |  |  |
-| 29 | menuLabels.Mobile Top Ups | Mobile Top Ups | Asitelefon dzi Top Ups |  |  |
-| 30 | menuLabels.Newsletter | Newsletter | Nyadzɔdzɔgbalẽ |  |  |
-| 31 | menuLabels.Nym VPN | Nym VPN | Nym VPN |  |  |
-| 32 | menuLabels.Payment Processors | Payment Processors | Fexexe Ŋuti Dɔwɔlawo |  |  |
-| 33 | menuLabels.Payment Request URIs | Payment Request URIs | Fexexe ƒe Biabia ƒe URIwo |  |  |
-| 34 | menuLabels.Podcast | Podcast | Na |  |  |
-| 35 | menuLabels.Private Community Treasury | Private Community Treasury | Ame ŋutɔ ƒe Nutoa me Gadzɔdzɔ |  |  |
-| 36 | menuLabels.Raspberry Pi 4 Full Node | Raspberry Pi 4 Full Node | Raspberry Pi 4 Blibo Node |  |  |
-| 37 | menuLabels.Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra ƒe Node |  |  |
-| 38 | menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra ƒe Kekeli ƒe Zingo |  |  |
-| 39 | menuLabels.Recovering Funds | Recovering Funds | Gawo Xɔxɔ |  |  |
-| 40 | menuLabels.Research | Research | Numekuku |  |  |
-| 41 | menuLabels.Send Money Privately | Send Money Privately | Ðo Ga Ðe Ame Ðokui Si |  |  |
-| 42 | menuLabels.Shielded Pools | Shielded Pools | Ta Siwo Wotsɔ Akpoxɔnu Wɔe |  |  |
-| 43 | menuLabels.Sitemap | Sitemap | Nyatakakadzraɖoƒe ƒe Nɔnɔmetata |  |  |
-| 44 | menuLabels.Start Here | Start Here | Dze Egɔme Le Afi Sia |  |  |
-| 45 | menuLabels.Store | Store | Fiase |  |  |
-| 46 | menuLabels.Testnet | Testnet | Testnet |  |  |
-| 47 | menuLabels.Tools | Tools | Dɔwɔnuwo |  |  |
-| 48 | menuLabels.Transactions | Transactions | Adzɔnuwo ƒe asitsatsa |  |  |
-| 49 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | Adrɛs Siwo Wotsɔna Ðoa Nui Siwo Me Kɔkɔe |  |  |
-| 50 | menuLabels.Tutorials | Tutorials | Nufiamewo |  |  |
-| 51 | menuLabels.Use Cases | Use Cases | Zã Nyawo |  |  |
-| 52 | menuLabels.Using ZEC Privately | Using ZEC Privately | ZEC Zazã le Adzame |  |  |
-| 53 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | ZEC zazã le DeFi me |  |  |
-| 54 | menuLabels.Using Zcash | Using Zcash | Zcash zazã |  |  |
-| 55 | menuLabels.Visual Identity | Visual Identity | Ŋutega ƒe Dzesidede Ame |  |  |
-| 56 | menuLabels.Visualizer | Visualizer | Nukpɔkpɔ ƒe mɔ̃ |  |  |
-| 57 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | Zcash Adrɛswo Kpɔkpɔ le susu me |  |  |
-| 58 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | Zcash Network la kpɔkpɔ le susu me |  |  |
-| 59 | menuLabels.Wallets | Wallets | Gakotokuwo |  |  |
-| 60 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | Ywallet FROST ƒe wɔwɔfia |  |  |
-| 61 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIPwo & Gakpekpeɖeŋunana |  |  |
-| 62 | menuLabels.ZKAV Club | ZKAV Club | ZKAV Club |  |  |
-| 63 | menuLabels.Zcash Community | Zcash Community | Zcash Habɔbɔa ƒe Habɔbɔ |  |  |
-| 64 | menuLabels.Zcash Devtool | Zcash Devtool | Zcash Devtool |  |  |
-| 65 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | Zcash Nutoa me ƒe Dedienɔnɔ |  |  |
-| 66 | menuLabels.Zcash Global Ambassadors | Zcash Global Ambassadors | Zcash Global Ambassadors |  |  |
-| 67 | menuLabels.Zcash Governance | Zcash Governance | Zcash Dziɖuɖu |  |  |
-| 68 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖowo |  |  |
-| 69 | menuLabels.Zcash Login | Zcash Login | Zcash Login |  |  |
-| 70 | menuLabels.Zcash Media | Zcash Media | Zcash Nyadzɔdzɔgblɔmɔnuwo |  |  |
-| 71 | menuLabels.Zcash Organizations | Zcash Organizations | Zcash Habɔbɔwo |  |  |
-| 72 | menuLabels.Zcash Podcasts | Zcash Podcasts | Zcash ƒe Podcastwo |  |  |
-| 73 | menuLabels.Zcon Archive | Zcon Archive | Zcon ƒe Nudzraɖoƒe |  |  |
-| 74 | menuLabels.Zcon Vozes Archive | Zcon Vozes Archive | Zcon Vozes ƒe Nudzraɖoƒe |  |  |
-| 75 | menuLabels.Zenith Installation | Zenith Installation | Zenith ƒe Dɔwɔɖoɖo |  |  |
-| 76 | menuLabels.Zero-Knowledge vs Decoys | Zero-Knowledge vs Decoys | Zero-Sidzedze vs Ameflulawo |  |  |
-| 77 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | Zgo Fexexe Ŋuti Dɔwɔƒe |  |  |
-| 78 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | Zingolib kple Zaino ƒe Nufiame |  |  |
-| 79 | menuLabels.Zkool Multisig | Zkool Multisig | Zkool Multisig ƒe dɔwɔwɔ |  |  |
-| 80 | menuLabels.Custodial Exchanges | Custodial Exchanges | Vidzikpɔkpɔ ƒe Asitɔtrɔ |  |  |
-| 81 | menuLabels.Zcash Use Cases | Zcash Use Cases | Zcash Zazã ƒe Nyawo |  |  |
-| 82 | menuLabels.Zcash Tech | Zcash Tech | Zcash Mɔ̃ɖaŋununya |  |  |
-| 83 | menuLabels.Privacy Tools | Privacy Tools | Dɔwɔnu Siwo Wozãna Ðe Ameŋunyatakakawo Ŋu |  |  |
-| 84 | menuLabels.Zcash Social Media | Zcash Social Media | Zcash Hadomegbenɔnɔ Ŋuti Nyatakakadzraɖoƒe |  |  |
-| 85 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | Nyagɔmeɖegbalẽ & FAQ's |  |  |
-| 86 | menuLabels.Pay for AI | Pay for AI | Pay for AI |  |  |
+| 20 | menuLabels.Free2z Live | Free2z Live | Free2z Live |  |  |
+| 21 | menuLabels.Freelance Privacy | Freelance Privacy | Ame ŋutɔ ƒe Nyatakakawo Ŋuti Nyatakakawo |  |  |
+| 22 | menuLabels.Governance | Governance | Dziɖuɖu |  |  |
+| 23 | menuLabels.Guides | Guides | Mɔfialawo |  |  |
+| 24 | menuLabels.How to Participate | How to Participate | Ale Si Nàkpɔ Gome le Eme |  |  |
+| 25 | menuLabels.Journalist Privacy | Journalist Privacy | Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo |  |  |
+| 26 | menuLabels.Keeping Records | Keeping Records | Nuŋlɔɖiwo Dzraɖoƒe |  |  |
+| 27 | menuLabels.Memos | Memos | Nuŋlɔɖiwo |  |  |
+| 28 | menuLabels.Mobile Top Ups | Mobile Top Ups | Asitelefon dzi Top Ups |  |  |
+| 29 | menuLabels.Newsletter | Newsletter | Nyadzɔdzɔgbalẽ |  |  |
+| 30 | menuLabels.Nym VPN | Nym VPN | Nym VPN |  |  |
+| 31 | menuLabels.Payment Processors | Payment Processors | Fexexe Ŋuti Dɔwɔlawo |  |  |
+| 32 | menuLabels.Payment Request URIs | Payment Request URIs | Fexexe ƒe Biabia ƒe URIwo |  |  |
+| 33 | menuLabels.Podcast | Podcast | Na |  |  |
+| 34 | menuLabels.Private Community Treasury | Private Community Treasury | Ame ŋutɔ ƒe Nutoa me Gadzɔdzɔ |  |  |
+| 35 | menuLabels.Raspberry Pi 4 Full Node | Raspberry Pi 4 Full Node | Raspberry Pi 4 Blibo Node |  |  |
+| 36 | menuLabels.Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra ƒe Node |  |  |
+| 37 | menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra ƒe Kekeli ƒe Zingo |  |  |
+| 38 | menuLabels.Recovering Funds | Recovering Funds | Gawo Xɔxɔ |  |  |
+| 39 | menuLabels.Research | Research | Numekuku |  |  |
+| 40 | menuLabels.Send Money Privately | Send Money Privately | Ðo Ga Ðe Ame Ðokui Si |  |  |
+| 41 | menuLabels.Shielded Pools | Shielded Pools | Ta Siwo Wotsɔ Akpoxɔnu Wɔe |  |  |
+| 42 | menuLabels.Sitemap | Sitemap | Nyatakakadzraɖoƒe ƒe Nɔnɔmetata |  |  |
+| 43 | menuLabels.Start Here | Start Here | Dze Egɔme Le Afi Sia |  |  |
+| 44 | menuLabels.Store | Store | Fiase |  |  |
+| 45 | menuLabels.Tools | Tools | Dɔwɔnuwo |  |  |
+| 46 | menuLabels.Transactions | Transactions | Adzɔnuwo ƒe asitsatsa |  |  |
+| 47 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | Adrɛs Siwo Wotsɔna Ðoa Nui Siwo Me Kɔkɔe |  |  |
+| 48 | menuLabels.Tutorials | Tutorials | Nufiamewo |  |  |
+| 49 | menuLabels.Use Cases | Use Cases | Zã Nyawo |  |  |
+| 50 | menuLabels.Using ZEC Privately | Using ZEC Privately | ZEC Zazã le Adzame |  |  |
+| 51 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | ZEC zazã le DeFi me |  |  |
+| 52 | menuLabels.Using Zcash | Using Zcash | Zcash zazã |  |  |
+| 53 | menuLabels.Visual Identity | Visual Identity | Ŋutega ƒe Dzesidede Ame |  |  |
+| 54 | menuLabels.Visualizer | Visualizer | Nukpɔkpɔ ƒe mɔ̃ |  |  |
+| 55 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | Zcash Adrɛswo Kpɔkpɔ le susu me |  |  |
+| 56 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | Zcash Network la kpɔkpɔ le susu me |  |  |
+| 57 | menuLabels.Wallets | Wallets | Gakotokuwo |  |  |
+| 58 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | Ywallet FROST ƒe wɔwɔfia |  |  |
+| 59 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIPwo & Gakpekpeɖeŋunana |  |  |
+| 60 | menuLabels.Zcash Community | Zcash Community | Zcash Habɔbɔa ƒe Habɔbɔ |  |  |
+| 61 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | Zcash Nutoa me ƒe Dedienɔnɔ |  |  |
+| 62 | menuLabels.Zcash Governance | Zcash Governance | Zcash Dziɖuɖu |  |  |
+| 63 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | Zcash ƒe Ŋgɔyiyi ƒe Aɖaŋuɖoɖowo |  |  |
+| 64 | menuLabels.Zcash Media | Zcash Media | Zcash Nyadzɔdzɔgblɔmɔnuwo |  |  |
+| 65 | menuLabels.Zcash Organizations | Zcash Organizations | Zcash Habɔbɔwo |  |  |
+| 66 | menuLabels.Zcash Podcasts | Zcash Podcasts | Zcash ƒe Podcastwo |  |  |
+| 67 | menuLabels.Zcon Archive | Zcon Archive | Zcon ƒe Nudzraɖoƒe |  |  |
+| 68 | menuLabels.Zcon Vozes Archive | Zcon Vozes Archive | Zcon Vozes ƒe Nudzraɖoƒe |  |  |
+| 69 | menuLabels.Zenith Installation | Zenith Installation | Zenith ƒe Dɔwɔɖoɖo |  |  |
+| 70 | menuLabels.Zero-Knowledge vs Decoys | Zero-Knowledge vs Decoys | Zero-Sidzedze vs Ameflulawo |  |  |
+| 71 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | Zgo Fexexe Ŋuti Dɔwɔƒe |  |  |
+| 72 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | Zingolib kple Zaino ƒe Nufiame |  |  |
+| 73 | menuLabels.Zkool Multisig | Zkool Multisig | Zkool Multisig ƒe dɔwɔwɔ |  |  |
+| 74 | menuLabels.Custodial Exchanges | Custodial Exchanges | Vidzikpɔkpɔ ƒe Asitɔtrɔ |  |  |
+| 75 | menuLabels.Zcash Use Cases | Zcash Use Cases | Zcash Zazã ƒe Nyawo |  |  |
+| 76 | menuLabels.Zcash Tech | Zcash Tech | Zcash Mɔ̃ɖaŋununya |  |  |
+| 77 | menuLabels.Privacy Tools | Privacy Tools | Dɔwɔnu Siwo Wozãna Ðe Ameŋunyatakakawo Ŋu |  |  |
+| 78 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | Nyagɔmeɖegbalẽ & FAQ's |  |  |
+| 79 | menuLabels.Pay for AI | Pay for AI | Pay for AI |  |  |
+| 80 | menuLabels.Community Building | Community Building | Community Building |  |  |
 
 ## Yellow coin menu (bottom right)
-(`exploreMenu`: 16 labels)
+(`exploreMenu`: 15 labels)
 
 | # | ID | English | Ewe | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -202,14 +191,13 @@ No conflicts.
 | 6 | exploreMenu.Zcash Tech | Zcash Tech | Zcash Mɔ̃ɖaŋununya |  |  |
 | 7 | exploreMenu.Zcash Organizations | Zcash Organizations | Zcash Habɔbɔwo |  |  |
 | 8 | exploreMenu.Zcash Community | Zcash Community | Zcash Habɔbɔa ƒe Habɔbɔ |  |  |
-| 9 | exploreMenu.ZKAV Club | ZKAV Club | ZKAV Club |  |  |
-| 10 | exploreMenu.Privacy Tools | Privacy Tools | Dɔwɔnu Siwo Wozãna Ðe Ameŋunyatakakawo Ŋu |  |  |
-| 11 | exploreMenu.Research | Research | Numekuku |  |  |
-| 12 | exploreMenu.Glossary & FAQs | Glossary & FAQs | Nyagɔmeɖegbalẽ & Nyabiasewo |  |  |
-| 13 | exploreMenu.Contribute | Contribute | Dzɔ nu |  |  |
-| 14 | exploreMenu.For Forks & Maintainers | For Forks & Maintainers | Forks & Dzadzraɖolawo |  |  |
-| 15 | exploreMenu.Fork zechub-wiki | Fork zechub-wiki | Gaflo zechub-wiki |  |  |
-| 16 | exploreMenu.Fork zechub | Fork zechub | Fɔklɔ zechub |  |  |
+| 9 | exploreMenu.Privacy Tools | Privacy Tools | Dɔwɔnu Siwo Wozãna Ðe Ameŋunyatakakawo Ŋu |  |  |
+| 10 | exploreMenu.Research | Research | Numekuku |  |  |
+| 11 | exploreMenu.Glossary & FAQs | Glossary & FAQs | Nyagɔmeɖegbalẽ & Nyabiasewo |  |  |
+| 12 | exploreMenu.Contribute | Contribute | Dzɔ nu |  |  |
+| 13 | exploreMenu.For Forks & Maintainers | For Forks & Maintainers | Forks & Dzadzraɖolawo |  |  |
+| 14 | exploreMenu.Fork zechub-wiki | Fork zechub-wiki | Gaflo zechub-wiki |  |  |
+| 15 | exploreMenu.Fork zechub | Fork zechub | Fɔklɔ zechub |  |  |
 
 ## Side menu on article pages
 (`sideMenu`: 2 labels)

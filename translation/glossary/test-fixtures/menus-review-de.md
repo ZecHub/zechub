@@ -18,7 +18,7 @@ Names that stay in English in every language (brands, products, programmes) are 
 No conflicts.
 
 ## Top menu (header) and its submenus
-(`navigation`: 78 labels)
+(`navigation`: 73 labels)
 
 | # | ID | English | German | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -50,59 +50,54 @@ No conflicts.
 | 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | Payment-Request-URIs |  |  |
 | 27 | navigation.usingZcash.paymentProcessors | Payment Processors | Zahlungsabwickler |  |  |
 | 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | Wiederherstellung von Guthaben |  |  |
-| 29 | navigation.usingZcash.testnet | Testnet | Testnet |  |  |
-| 30 | navigation.usingZcash.tools | Tools | Tools |  |  |
-| 31 | navigation.usingZcash.useCases | Use Cases | Anwendungsfälle |  |  |
-| 32 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | Hier starten |  |  |
-| 33 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | Zahlungen akzeptieren |  |  |
-| 34 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | Datenschutz für Freelancer |  |  |
-| 35 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | Datenschutz für Journalisten |  |  |
-| 36 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | Aufzeichnungen führen |  |  |
-| 37 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | Private Community-Treasury |  |  |
-| 38 | navigation.usingZcash.useCasesSubmenu.donations | Donations | Spenden |  |  |
-| 39 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | Geld privat senden |  |  |
-| 40 | navigation.zcashCommunity.label | Ecosystem | Ökosystem |  |  |
-| 41 | navigation.zcashCommunity.communityBlogs | Community Blogs | Community-Blogs |  |  |
-| 42 | navigation.zcashCommunity.communityLinks | Community Links | Community-Links |  |  |
-| 43 | navigation.zcashCommunity.communityForum | Community Forum | Community-Forum |  |  |
-| 44 | navigation.zcashCommunity.communityProjects | Community Projects | Community-Projekte |  |  |
-| 45 | navigation.zcashCommunity.globalAmbassadors | Zcash Global Ambassadors | Zcash Global Ambassadors |  |  |
-| 46 | navigation.zcashCommunity.zcashMedia | Zcash Media | Zcash-Medien |  |  |
-| 47 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | Zcash-Podcasts |  |  |
-| 48 | navigation.zcashCommunity.ecosystemSecurity | Zcash Ecosystem Security | Sicherheit des Zcash-Ökosystems |  |  |
-| 49 | navigation.zcashCommunity.cypherpunkZeroNFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT |  |  |
-| 50 | navigation.zcashCommunity.zconArchive | Zcon Archive | Zcon-Archiv |  |  |
-| 51 | navigation.organizations.label | Organizations | Organisationen |  |  |
-| 52 | navigation.organizations.financialPrivacyFoundation | Financial Privacy Foundation | Financial Privacy Foundation |  |  |
-| 53 | navigation.organizations.brand | Brand | Marke |  |  |
-| 54 | navigation.organizations.zkavClub | ZKAV Club | ZKAV Club |  |  |
-| 55 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | CoinHolder-gerichtete rückwirkende Zuschüsse |  |  |
-| 56 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | Zgo Payment Processor |  |  |
-| 57 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Live |  |  |
-| 58 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN |  |  |
-| 59 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | ZEC in DeFi nutzen |  |  |
-| 60 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | ZEC privat nutzen |  |  |
-| 61 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Node |  |  |
-| 62 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
-| 63 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | Raspberry Pi Zebra Node |  |  |
-| 64 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash Network |  |  |
-| 65 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche RedBridge |  |  |
-| 66 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | Zkool Multisig |  |  |
-| 67 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | Ywallet FROST Demo |  |  |
-| 68 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | Blockchain-Explorer |  |  |
-| 69 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | BTCPayServer Plugin |  |  |
-| 70 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | Das Zcash-Netzwerk visualisieren |  |  |
-| 71 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | Zcash-Adressen visualisieren |  |  |
-| 72 | navigation.guidesSubmenu.zcashDevtool | Zcash Devtool | Zcash Devtool |  |  |
-| 73 | navigation.guidesSubmenu.zcashImprovementProposals | Zcash Improvement Proposals | Zcash Improvement Proposals |  |  |
-| 74 | navigation.guidesSubmenu.zingolibAndZainoTutorial | Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial |  |  |
-| 75 | navigation.guidesSubmenu.zenithInstallation | Zenith Installation | Zenith-Installation |  |  |
-| 76 | navigation.guidesSubmenu.zeroKnowledgeVsDecoys | Zero Knowledge vs Decoy Systems | Zero Knowledge vs Decoy Systems |  |  |
-| 77 | navigation.overview | Overview | Überblick |  |  |
-| 78 | navigation.shop | Shop | Shop |  |  |
+| 29 | navigation.usingZcash.tools | Tools | Tools |  |  |
+| 30 | navigation.usingZcash.useCases | Use Cases | Anwendungsfälle |  |  |
+| 31 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | Hier starten |  |  |
+| 32 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | Zahlungen akzeptieren |  |  |
+| 33 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | Datenschutz für Freelancer |  |  |
+| 34 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | Datenschutz für Journalisten |  |  |
+| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | Aufzeichnungen führen |  |  |
+| 36 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | Private Community-Treasury |  |  |
+| 37 | navigation.usingZcash.useCasesSubmenu.donations | Donations | Spenden |  |  |
+| 38 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | Geld privat senden |  |  |
+| 39 | navigation.zcashCommunity.label | Ecosystem | Ökosystem |  |  |
+| 40 | navigation.zcashCommunity.communityBlogs | Community Blogs | Community-Blogs |  |  |
+| 41 | navigation.zcashCommunity.communityLinks | Community Links | Community-Links |  |  |
+| 42 | navigation.zcashCommunity.communityForum | Community Forum | Community-Forum |  |  |
+| 43 | navigation.zcashCommunity.communityProjects | Community Projects | Community-Projekte |  |  |
+| 44 | navigation.zcashCommunity.zcashMedia | Zcash Media | Zcash-Medien |  |  |
+| 45 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | Zcash-Podcasts |  |  |
+| 46 | navigation.zcashCommunity.ecosystemSecurity | Zcash Ecosystem Security | Sicherheit des Zcash-Ökosystems |  |  |
+| 47 | navigation.zcashCommunity.cypherpunkZeroNFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT |  |  |
+| 48 | navigation.zcashCommunity.zconArchive | Zcon Archive | Zcon-Archiv |  |  |
+| 49 | navigation.organizations.label | Organizations | Organisationen |  |  |
+| 50 | navigation.organizations.brand | Brand | Marke |  |  |
+| 51 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | CoinHolder-gerichtete rückwirkende Zuschüsse |  |  |
+| 52 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | Zgo Payment Processor |  |  |
+| 53 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Live |  |  |
+| 54 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN |  |  |
+| 55 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | ZEC in DeFi nutzen |  |  |
+| 56 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | ZEC privat nutzen |  |  |
+| 57 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Node |  |  |
+| 58 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
+| 59 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | Raspberry Pi Zebra Node |  |  |
+| 60 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash Network |  |  |
+| 61 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche RedBridge |  |  |
+| 62 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | Zkool Multisig |  |  |
+| 63 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | Ywallet FROST Demo |  |  |
+| 64 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | Blockchain-Explorer |  |  |
+| 65 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | BTCPayServer Plugin |  |  |
+| 66 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | Das Zcash-Netzwerk visualisieren |  |  |
+| 67 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | Zcash-Adressen visualisieren |  |  |
+| 68 | navigation.guidesSubmenu.zcashImprovementProposals | Zcash Improvement Proposals | Zcash Improvement Proposals |  |  |
+| 69 | navigation.guidesSubmenu.zingolibAndZainoTutorial | Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial |  |  |
+| 70 | navigation.guidesSubmenu.zenithInstallation | Zenith Installation | Zenith-Installation |  |  |
+| 71 | navigation.guidesSubmenu.zeroKnowledgeVsDecoys | Zero Knowledge vs Decoy Systems | Zero Knowledge vs Decoy Systems |  |  |
+| 72 | navigation.overview | Overview | Überblick |  |  |
+| 73 | navigation.shop | Shop | Shop |  |  |
 
 ## Submenu entries (page names in the menus)
-(`menuLabels`: 86 labels)
+(`menuLabels`: 80 labels)
 
 | # | ID | English | German | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -125,76 +120,70 @@ No conflicts.
 | 17 | menuLabels.Exchanges | Exchanges | Börsen |  |  |
 | 18 | menuLabels.Extras | Extras | Extras |  |  |
 | 19 | menuLabels.Faucets | Faucets | Faucets |  |  |
-| 20 | menuLabels.Financial Privacy Foundation | Financial Privacy Foundation | Financial Privacy Foundation |  |  |
-| 21 | menuLabels.Free2z Live | Free2z Live | Free2z Live |  |  |
-| 22 | menuLabels.Freelance Privacy | Freelance Privacy | Datenschutz für Freiberufler |  |  |
-| 23 | menuLabels.Governance | Governance | Governance |  |  |
-| 24 | menuLabels.Guides | Guides | Anleitungen |  |  |
-| 25 | menuLabels.How to Participate | How to Participate | Wie man mitmacht |  |  |
-| 26 | menuLabels.Journalist Privacy | Journalist Privacy | Datenschutz für Journalisten |  |  |
-| 27 | menuLabels.Keeping Records | Keeping Records | Aufzeichnungen führen |  |  |
-| 28 | menuLabels.Memos | Memos | Memos |  |  |
-| 29 | menuLabels.Mobile Top Ups | Mobile Top Ups | Handy-Guthaben aufladen |  |  |
-| 30 | menuLabels.Newsletter | Newsletter | Newsletter |  |  |
-| 31 | menuLabels.Nym VPN | Nym VPN | Nym VPN |  |  |
-| 32 | menuLabels.Payment Processors | Payment Processors | Zahlungsabwickler |  |  |
-| 33 | menuLabels.Payment Request URIs | Payment Request URIs | Payment-Request-URIs |  |  |
-| 34 | menuLabels.Podcast | Podcast | Podcast |  |  |
-| 35 | menuLabels.Private Community Treasury | Private Community Treasury | Private Community Treasury |  |  |
-| 36 | menuLabels.Raspberry Pi 4 Full Node | Raspberry Pi 4 Full Node | Raspberry Pi 4 Full Node |  |  |
-| 37 | menuLabels.Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra Node |  |  |
-| 38 | menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
-| 39 | menuLabels.Recovering Funds | Recovering Funds | Gelder wiederherstellen |  |  |
-| 40 | menuLabels.Research | Research | Forschung |  |  |
-| 41 | menuLabels.Send Money Privately | Send Money Privately | Geld privat senden |  |  |
-| 42 | menuLabels.Shielded Pools | Shielded Pools | Shielded Pools |  |  |
-| 43 | menuLabels.Sitemap | Sitemap | Sitemap |  |  |
-| 44 | menuLabels.Start Here | Start Here | Hier starten |  |  |
-| 45 | menuLabels.Store | Store | Shop |  |  |
-| 46 | menuLabels.Testnet | Testnet | Testnet |  |  |
-| 47 | menuLabels.Tools | Tools | Tools |  |  |
-| 48 | menuLabels.Transactions | Transactions | Transaktionen |  |  |
-| 49 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | Transparente Börsenadressen |  |  |
-| 50 | menuLabels.Tutorials | Tutorials | Tutorials |  |  |
-| 51 | menuLabels.Use Cases | Use Cases | Anwendungsfälle |  |  |
-| 52 | menuLabels.Using ZEC Privately | Using ZEC Privately | ZEC privat nutzen |  |  |
-| 53 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | ZEC in DeFi nutzen |  |  |
-| 54 | menuLabels.Using Zcash | Using Zcash | Zcash ausnutzen |  |  |
-| 55 | menuLabels.Visual Identity | Visual Identity | Visuelle Identität |  |  |
-| 56 | menuLabels.Visualizer | Visualizer | Visualizer |  |  |
-| 57 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | Zcash-Adressen visualisieren |  |  |
-| 58 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | Das Zcash-Netzwerk visualisieren |  |  |
-| 59 | menuLabels.Wallets | Wallets | Wallets |  |  |
-| 60 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | Ywallet FROST Demo |  |  |
-| 61 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIPs & Zuschüsse |  |  |
-| 62 | menuLabels.ZKAV Club | ZKAV Club | ZKAV Club |  |  |
-| 63 | menuLabels.Zcash Community | Zcash Community | Zcash-Community |  |  |
-| 64 | menuLabels.Zcash Devtool | Zcash Devtool | Zcash Devtool |  |  |
-| 65 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | Sicherheit des Zcash-Ökosystems |  |  |
-| 66 | menuLabels.Zcash Global Ambassadors | Zcash Global Ambassadors | Zcash Global Ambassadors |  |  |
-| 67 | menuLabels.Zcash Governance | Zcash Governance | Zcash-Governance |  |  |
-| 68 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | Zcash Improvement Proposals |  |  |
-| 69 | menuLabels.Zcash Login | Zcash Login | Zcash Login |  |  |
-| 70 | menuLabels.Zcash Media | Zcash Media | Zcash-Medien |  |  |
-| 71 | menuLabels.Zcash Organizations | Zcash Organizations | Zcash-Organisationen |  |  |
-| 72 | menuLabels.Zcash Podcasts | Zcash Podcasts | Zcash-Podcasts |  |  |
-| 73 | menuLabels.Zcon Archive | Zcon Archive | Zcon-Archiv |  |  |
-| 74 | menuLabels.Zcon Vozes Archive | Zcon Vozes Archive | Zcon Vozes Archiv |  |  |
-| 75 | menuLabels.Zenith Installation | Zenith Installation | Zenith-Installation |  |  |
-| 76 | menuLabels.Zero-Knowledge vs Decoys | Zero-Knowledge vs Decoys | Zero-Knowledge vs. Decoys |  |  |
-| 77 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | Zgo Payment Processor |  |  |
-| 78 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | Zingolib und Zaino Tutorial |  |  |
-| 79 | menuLabels.Zkool Multisig | Zkool Multisig | Zkool Multisig |  |  |
-| 80 | menuLabels.Custodial Exchanges | Custodial Exchanges | Verwahrende Börsen |  |  |
-| 81 | menuLabels.Zcash Use Cases | Zcash Use Cases | Zcash-Anwendungsfälle |  |  |
-| 82 | menuLabels.Zcash Tech | Zcash Tech | Zcash-Technologie |  |  |
-| 83 | menuLabels.Privacy Tools | Privacy Tools | Datenschutz-Tools |  |  |
-| 84 | menuLabels.Zcash Social Media | Zcash Social Media | Zcash in den sozialen Medien |  |  |
-| 85 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | Glossar & FAQs |  |  |
-| 86 | menuLabels.Pay for AI | Pay for AI | KI bezahlen |  |  |
+| 20 | menuLabels.Free2z Live | Free2z Live | Free2z Live |  |  |
+| 21 | menuLabels.Freelance Privacy | Freelance Privacy | Datenschutz für Freiberufler |  |  |
+| 22 | menuLabels.Governance | Governance | Governance |  |  |
+| 23 | menuLabels.Guides | Guides | Anleitungen |  |  |
+| 24 | menuLabels.How to Participate | How to Participate | Wie man mitmacht |  |  |
+| 25 | menuLabels.Journalist Privacy | Journalist Privacy | Datenschutz für Journalisten |  |  |
+| 26 | menuLabels.Keeping Records | Keeping Records | Aufzeichnungen führen |  |  |
+| 27 | menuLabels.Memos | Memos | Memos |  |  |
+| 28 | menuLabels.Mobile Top Ups | Mobile Top Ups | Handy-Guthaben aufladen |  |  |
+| 29 | menuLabels.Newsletter | Newsletter | Newsletter |  |  |
+| 30 | menuLabels.Nym VPN | Nym VPN | Nym VPN |  |  |
+| 31 | menuLabels.Payment Processors | Payment Processors | Zahlungsabwickler |  |  |
+| 32 | menuLabels.Payment Request URIs | Payment Request URIs | Payment-Request-URIs |  |  |
+| 33 | menuLabels.Podcast | Podcast | Podcast |  |  |
+| 34 | menuLabels.Private Community Treasury | Private Community Treasury | Private Community Treasury |  |  |
+| 35 | menuLabels.Raspberry Pi 4 Full Node | Raspberry Pi 4 Full Node | Raspberry Pi 4 Full Node |  |  |
+| 36 | menuLabels.Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra Node | Raspberry pi 4 Zebra Node |  |  |
+| 37 | menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
+| 38 | menuLabels.Recovering Funds | Recovering Funds | Gelder wiederherstellen |  |  |
+| 39 | menuLabels.Research | Research | Forschung |  |  |
+| 40 | menuLabels.Send Money Privately | Send Money Privately | Geld privat senden |  |  |
+| 41 | menuLabels.Shielded Pools | Shielded Pools | Shielded Pools |  |  |
+| 42 | menuLabels.Sitemap | Sitemap | Sitemap |  |  |
+| 43 | menuLabels.Start Here | Start Here | Hier starten |  |  |
+| 44 | menuLabels.Store | Store | Shop |  |  |
+| 45 | menuLabels.Tools | Tools | Tools |  |  |
+| 46 | menuLabels.Transactions | Transactions | Transaktionen |  |  |
+| 47 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | Transparente Börsenadressen |  |  |
+| 48 | menuLabels.Tutorials | Tutorials | Tutorials |  |  |
+| 49 | menuLabels.Use Cases | Use Cases | Anwendungsfälle |  |  |
+| 50 | menuLabels.Using ZEC Privately | Using ZEC Privately | ZEC privat nutzen |  |  |
+| 51 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | ZEC in DeFi nutzen |  |  |
+| 52 | menuLabels.Using Zcash | Using Zcash | Zcash ausnutzen |  |  |
+| 53 | menuLabels.Visual Identity | Visual Identity | Visuelle Identität |  |  |
+| 54 | menuLabels.Visualizer | Visualizer | Visualizer |  |  |
+| 55 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | Zcash-Adressen visualisieren |  |  |
+| 56 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | Das Zcash-Netzwerk visualisieren |  |  |
+| 57 | menuLabels.Wallets | Wallets | Wallets |  |  |
+| 58 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | Ywallet FROST Demo |  |  |
+| 59 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIPs & Zuschüsse |  |  |
+| 60 | menuLabels.Zcash Community | Zcash Community | Zcash-Community |  |  |
+| 61 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | Sicherheit des Zcash-Ökosystems |  |  |
+| 62 | menuLabels.Zcash Governance | Zcash Governance | Zcash-Governance |  |  |
+| 63 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | Zcash Improvement Proposals |  |  |
+| 64 | menuLabels.Zcash Media | Zcash Media | Zcash-Medien |  |  |
+| 65 | menuLabels.Zcash Organizations | Zcash Organizations | Zcash-Organisationen |  |  |
+| 66 | menuLabels.Zcash Podcasts | Zcash Podcasts | Zcash-Podcasts |  |  |
+| 67 | menuLabels.Zcon Archive | Zcon Archive | Zcon-Archiv |  |  |
+| 68 | menuLabels.Zcon Vozes Archive | Zcon Vozes Archive | Zcon Vozes Archiv |  |  |
+| 69 | menuLabels.Zenith Installation | Zenith Installation | Zenith-Installation |  |  |
+| 70 | menuLabels.Zero-Knowledge vs Decoys | Zero-Knowledge vs Decoys | Zero-Knowledge vs. Decoys |  |  |
+| 71 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | Zgo Payment Processor |  |  |
+| 72 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | Zingolib und Zaino Tutorial |  |  |
+| 73 | menuLabels.Zkool Multisig | Zkool Multisig | Zkool Multisig |  |  |
+| 74 | menuLabels.Custodial Exchanges | Custodial Exchanges | Verwahrende Börsen |  |  |
+| 75 | menuLabels.Zcash Use Cases | Zcash Use Cases | Zcash-Anwendungsfälle |  |  |
+| 76 | menuLabels.Zcash Tech | Zcash Tech | Zcash-Technologie |  |  |
+| 77 | menuLabels.Privacy Tools | Privacy Tools | Datenschutz-Tools |  |  |
+| 78 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | Glossar & FAQs |  |  |
+| 79 | menuLabels.Pay for AI | Pay for AI | KI bezahlen |  |  |
+| 80 | menuLabels.Community Building | Community Building | Community Building |  |  |
 
 ## Yellow coin menu (bottom right)
-(`exploreMenu`: 16 labels)
+(`exploreMenu`: 15 labels)
 
 | # | ID | English | German | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -206,14 +195,13 @@ No conflicts.
 | 6 | exploreMenu.Zcash Tech | Zcash Tech | Zcash-Technologie |  |  |
 | 7 | exploreMenu.Zcash Organizations | Zcash Organizations | Zcash-Organisationen |  |  |
 | 8 | exploreMenu.Zcash Community | Zcash Community | Zcash-Community |  |  |
-| 9 | exploreMenu.ZKAV Club | ZKAV Club | ZKAV Club |  |  |
-| 10 | exploreMenu.Privacy Tools | Privacy Tools | Datenschutz-Tools |  |  |
-| 11 | exploreMenu.Research | Research | Forschung |  |  |
-| 12 | exploreMenu.Glossary & FAQs | Glossary & FAQs | Glossar & FAQs |  |  |
-| 13 | exploreMenu.Contribute | Contribute | Mitwirken |  |  |
-| 14 | exploreMenu.For Forks & Maintainers | For Forks & Maintainers | Für Forks & Maintainer |  |  |
-| 15 | exploreMenu.Fork zechub-wiki | Fork zechub-wiki | zechub-wiki forken |  |  |
-| 16 | exploreMenu.Fork zechub | Fork zechub | zechub gabeln |  |  |
+| 9 | exploreMenu.Privacy Tools | Privacy Tools | Datenschutz-Tools |  |  |
+| 10 | exploreMenu.Research | Research | Forschung |  |  |
+| 11 | exploreMenu.Glossary & FAQs | Glossary & FAQs | Glossar & FAQs |  |  |
+| 12 | exploreMenu.Contribute | Contribute | Mitwirken |  |  |
+| 13 | exploreMenu.For Forks & Maintainers | For Forks & Maintainers | Für Forks & Maintainer |  |  |
+| 14 | exploreMenu.Fork zechub-wiki | Fork zechub-wiki | zechub-wiki forken |  |  |
+| 15 | exploreMenu.Fork zechub | Fork zechub | zechub gabeln |  |  |
 
 ## Side menu on article pages
 (`sideMenu`: 2 labels)
