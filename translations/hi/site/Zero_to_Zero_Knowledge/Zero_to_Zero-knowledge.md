@@ -1,33 +1,23 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Zero_to_Zero-knowledge.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
+# शून्य से शून्य ज्ञान
 
-# जीरो से जीरो कॉनोवलेंस | शैक्षिक श्रृंखला
+निजी डिजिटल नकद के पीछे के विचारों पर एक छोटी श्रृंखला। ऊपर से शुरू करें।
 
+| # | विषय | आप क्या सीखेंगे |
+|---|-------|---------------------|
+| 1 | [हैश फंक्शंस](/zero-to-zero-knowledge/hash-functions) | कोई भी इनपुट एक निश्चित आउटपुट में बदल जाता है। हैश में होने वाले तीन गुण। |
+| 2 | [रिकवरी सीड वाक्यांश](/zero-to-zero-knowledge/mnemonic-seed-phrases) | शब्दों की एक सूची उन कुंजियों में कैसे बदलती है जो आपकी धनराशि रखती हैं। |
+| 3 | [Zcash पते](/zero-to-zero-knowledge/zcash-addresses) | पारदर्शी और शील्डेड लेनदेन, और एकीकृत पते। |
+| 4 | [विश्वसनीय निष्पादन परिवेश](/zero-to-zero-knowledge/tees) | ऐसा हार्डवेयर जो गणना को निजी रखता है, और जहाँ इसकी सीमाएँ हैं। |
+| 5 | [क्रिप्टोनोट](/zero-to-zero-knowledge/cryptonote) | Monero के पीछे का गोपनीयता डिज़ाइन, और यह Zcash से कैसे अलग है। |
+| 6 | [लेलेंटस](/zero-to-zero-knowledge/lelantus) | Firo के पीछे का प्रोटोकॉल, और इसकी तुलना Zcash से कैसे होती है। |
 
-## हैश फ़ंक्शन 
+## मूल थ्रेड्स
 
-https://twitter.com/ZecHub/status/1621240109663227906
+X पर Zero to Zero Knowledge थ्रेड्स से संकलित।
 
-
-## पुनर्प्राप्ति की बीमा वाक्य 
-
-https://twitter.com/ZecHub/status/1624125037945946145
-
-
-## Zcash पते 
-
-https://twitter.com/ZecHub/status/1628498645627666432
-
-
-## भरोसेमंद कार्य-वातावरण 
-
-https://twitter.com/ZecHub/status/1633579659282587651
-
-## क्रिप्टोनोट
-
-https://twitter.com/ZecHub/status/1636473585781948416
-
-## लेलांतस
-
-https://twitter.com/ZecHub/status/1641902859800150017
+- [हैश फंक्शंस](https://x.com/ZecHub/status/1621240109663227906)
+- [रिकवरी सीड वाक्यांश](https://x.com/ZecHub/status/1624125037945946145)
+- [Zcash पते](https://x.com/ZecHub/status/1628498645627666432)
+- [विश्वसनीय निष्पादन परिवेश](https://x.com/ZecHub/status/1633579659282587651)
+- [क्रिप्टोनोट](https://x.com/ZecHub/status/1636473585781948416)
+- [लेलेंटस](https://x.com/ZecHub/status/1641902859800150017)

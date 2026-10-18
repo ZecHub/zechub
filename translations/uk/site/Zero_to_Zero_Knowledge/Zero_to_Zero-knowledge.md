@@ -1,33 +1,23 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Zero_to_Zero-knowledge.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Редагувати сторінку"/>
-</a>
+# Від нуля до нульового знання
 
-# Від нуля до нульового розголошення | Освітня серія 
+Коротка серія про ідеї приватних цифрових грошей. Почніть згори.
 
+| # | Тема | Що ви дізнаєтеся |
+|---|-------|---------------------|
+| 1 | [Хеш-функції](/zero-to-zero-knowledge/hash-functions) | Будь-які вхідні дані перетворюються на фіксований результат. Три властивості, які має мати хеш. |
+| 2 | [Фрази відновлення з початковим зерном](/zero-to-zero-knowledge/mnemonic-seed-phrases) | Як список слів перетворюється на ключі, що зберігають ваші кошти. |
+| 3 | [Zcash Адреси](/zero-to-zero-knowledge/zcash-addresses) | Прозорі та захищені транзакції, а також Unified Address. |
+| 4 | [Довірені середовища виконання](/zero-to-zero-knowledge/tees) | Апаратне забезпечення, яке зберігає обчислення приватними, і його обмеження. |
+| 5 | [Cryptonote](/zero-to-zero-knowledge/cryptonote) | Дизайн конфіденційності Monero та його відмінності від Zcash. |
+| 6 | [Lelantus](/zero-to-zero-knowledge/lelantus) | Протокол, що лежить в основі Firo, і його порівняння з Zcash. |
 
-## Хеш-функції 
+## Оригінальні треди
 
-https://twitter.com/ZecHub/status/1621240109663227906
+Складено на основі тредів «Від нуля до нульового знання» на X.
 
-
-## Фрази відновлення seed 
-
-https://twitter.com/ZecHub/status/1624125037945946145
-
-
-## Адреси Zcash 
-
-https://twitter.com/ZecHub/status/1628498645627666432
-
-
-## Довірені середовища виконання 
-
-https://twitter.com/ZecHub/status/1633579659282587651
-
-## Cryptonote
-
-https://twitter.com/ZecHub/status/1636473585781948416
-
-## Lelantus
-
-https://twitter.com/ZecHub/status/1641902859800150017
+- [Хеш-функції](https://x.com/ZecHub/status/1621240109663227906)
+- [Фрази відновлення з початковим зерном](https://x.com/ZecHub/status/1624125037945946145)
+- [Zcash Адреси](https://x.com/ZecHub/status/1628498645627666432)
+- [Довірені середовища виконання](https://x.com/ZecHub/status/1633579659282587651)
+- [Cryptonote](https://x.com/ZecHub/status/1636473585781948416)
+- [Lelantus](https://x.com/ZecHub/status/1641902859800150017)

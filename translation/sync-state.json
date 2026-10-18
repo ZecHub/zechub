@@ -3571,11 +3571,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -3611,11 +3611,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -5357,11 +5357,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -5389,11 +5389,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -5429,11 +5429,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -8985,11 +8985,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -9017,11 +9017,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -9057,11 +9057,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -10803,11 +10803,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -10835,11 +10835,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -10875,11 +10875,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -12621,11 +12621,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -12653,11 +12653,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -12693,11 +12693,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -14455,11 +14455,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_ZK_Podcast.md": {
@@ -14495,19 +14495,19 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "49adb4bc5f4d2ac1bfcaad0ee49d2d29328afd2d",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_Zcash_Podcast.md": {
@@ -18075,11 +18075,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+itreview",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -18107,11 +18107,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+frontmatter-strip+itreview",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -18147,11 +18147,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+itreview",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -19893,11 +19893,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -19925,11 +19925,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b+frontmatter-strip",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -19965,11 +19965,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -21743,11 +21743,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b+frontmatter-strip",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -21783,11 +21783,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -23529,11 +23529,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -23561,11 +23561,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -23601,11 +23601,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -25379,11 +25379,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -25419,11 +25419,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -29007,11 +29007,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -29047,11 +29047,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -30793,11 +30793,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -30825,11 +30825,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -30865,11 +30865,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -34389,11 +34389,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
-      "src": "sha256:d970df9c01ebf328c3dd2b34675744fe05c76eeff4f286dfa915a80af9c6625f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:0a816b3611fc9633514a5d3946ba00f63521d6ce7140da8bd96084564ada5c32",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md": {
@@ -34421,11 +34421,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md": {
-      "src": "sha256:fcc96b512fb458234834760f81edfa3de34cc55a762a2663b607132a31fe09ae",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:437778cb64f86cfa663347190f64bbfcb26a319b583853298b75826b87f9a211",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
@@ -34461,11 +34461,11 @@
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
-      "src": "sha256:cc07042e13d0175c724d323b6ae08cbbca35ef50063417f25ecd181ef17d289c",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
+      "src_commit": "55f3487fc63ba85d58ea798ee763013ac8b0068f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   }
