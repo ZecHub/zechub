@@ -1,6 +1,6 @@
-# 从零到零知识：CryptoNote 协议
+# Zero to Zero Knowledge：CryptoNote 协议
 
-**系列：** 从零到零知识
+**系列：** Zero to Zero Knowledge
 
 今天这个很有意思！  
 **CryptoNote** 协议实现了强大的链上隐私。今天我们来了解它的所有关键特性，以及它如何被多个知名隐私项目所采用。
@@ -106,4 +106,4 @@ https://x.com/ZecHub/status/1636473585781948416
 
 ---
 
-*本页面由原始“从零到零知识”线程整理编写，用于 ZecHub wiki。*
+*本页面由原始“Zero to Zero Knowledge”线程整理编写，用于 ZecHub wiki。*

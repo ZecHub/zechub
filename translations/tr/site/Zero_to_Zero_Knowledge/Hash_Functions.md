@@ -1,7 +1,7 @@
-# Sıfırdan Sıfır Bilgiye: Hash Fonksiyonları
+# Zero to Zero Knowledge: Hash Fonksiyonları
 
 **Seri Girişi**  
-Yeni bir seriye hoş geldiniz: **Sıfırdan Sıfır Bilgiye**!  
+Yeni bir seriye hoş geldiniz: **Zero to Zero Knowledge**!  
 
 Bu seride, gizliliği koruyan protokollerimizin temelini oluşturan çok çeşitli teknolojilerin esaslarını öğreneceğiz.
 

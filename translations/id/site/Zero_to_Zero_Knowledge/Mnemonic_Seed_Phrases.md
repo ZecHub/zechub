@@ -1,6 +1,6 @@
-# Dari Nol ke Zero-Knowledge: Frasa Pemulihan Mnemonic
+# Zero to Zero Knowledge: Frasa Pemulihan Mnemonic
 
-**Seri:** Dari Nol ke Zero Knowledge
+**Seri:** Zero to Zero Knowledge
 
 Frasa pemulihan mnemonik mendasari salah satu aspek terpenting dari mata uang kripto - **kustodial mandiri**.  
 Hari ini kita akan mempelajari bagaimana frasa pemulihan dibuat dan digunakan dalam dompet.

@@ -1,6 +1,6 @@
-# Sidzedze Zero vaseɖe Zero: Amewuwu ƒe Nɔnɔme Siwo Dzi Woka Ðo (TEEs) .
+# Zero to Zero Knowledge: Amewuwu ƒe Nɔnɔme Siwo Dzi Woka Ðo (TEEs) .
 
-**Series:** Zero vaseɖe Zero Sidzedze
+**Series:** Zero to Zero Knowledge
 
 Zero to Zero Knowledge trɔ gbɔ kple nyati yeye aɖe! 
 Kwasiɖa sia me la, míedzro **Trusted Execution Environments (TEEs)** - alesi wozãa wo le adzame gakuwo kple blockchain dɔ bubuwo me.
@@ -123,4 +123,4 @@ https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero yi Zero Sidzedze ƒe ka gbãtɔ me na ZecHub wiki.*
+*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*

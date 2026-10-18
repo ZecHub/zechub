@@ -1,394 +1,392 @@
-# ZK Podcast Ìpínlẹ̀ Ìtàn
+# Àkópọ̀ Ìṣẹ̀lẹ̀ Podcast ZK
 
-## Àwọn Ìṣẹ̀lẹ̀
+## Àwọn ìṣẹ̀lẹ̀
 
-### Apá 334  Ìwádìí ZK Àtúnṣe pẹ̀lú Joe Bonneau
-- **Ọjọ́:** Ọjọ́ 31 oṣù Keje ọdún 2024
-- Ìjápọ̀:https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
-- Anna àti Guille bá Joe Bonneau, olùrànlọ́wọ́ olùkọ́ ní ilé ẹ̀kọ́ gíga NYU àti olùdásílẹ̀ ìwádìí ní ilé-iṣẹ́ ìwádìí crypto a16z. Wọ́n jíròrò nípa iṣẹ́ rẹ̀ tó ṣẹ̀ṣẹ̀ ṣe lórí àwọn ẹ̀rí Naysayer, Zero-Knowledge Middleboxes, Sealed-Bid Auctions, àti àwọn iṣẹ́ àwárí mìíràn tí ó ní í ṣe pẹ̀lú ZK.
-- Àwọn àlejò:
-  - Joe Bonneau ([/josephbonneau] ojúewé](https://eprint.iacr.org/2023/1472.pdf))
-- Àwọn onílé:
-  - Anna ([AnnaRose](https://x.com/AnnaRRose))
+### Ìṣẹ̀lẹ̀ 334 – Ìròyìn Ìwádìí ZK pẹ̀lú Joe Bonneau
+- **Ọjọ́:** Ọjọ́ kọkànlélọ́gbọ̀n oṣù Keje, ọdún 2024
+- **Ọ̀nà ìsopọ̀:** [https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
+- **Àkótán:** Anna àti Guille pàdé Joe Bonneau, Olùrànlọ́wọ́ Ọ̀jọ̀gbọ́n ní NYU àti Olùbáṣepọ̀ Ìwádìí ní ìwádìí a16z crypto. Wọ́n jíròrò iṣẹ́ rẹ̀ láìpẹ́ yìí lórí àwọn ẹ̀rí Naysayer, Zero-Knowledge Middleboxes, Sealed-Bid Auctions, àti àwọn iṣẹ́ ìwádìí mìíràn tí ó ní í ṣe pẹ̀lú ZK.
+- **Àwọn àlejò:**
+  - Joe Bonneau ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
+- **Agbalejo:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Guille ([GuilleAngeris](https://x.com/guilleangeris))
 
-### Ìpínlẹ̀ 333  Àyẹ̀wò SQL, Reckle Trees àti ZK Coprocessing pẹ̀lú Lagrange Labs
-- **Ọjọ́:** Ọjọ́ kẹrìnlélógún oṣù keje ọdún 2024
-- Ìjápọ̀:https://zeroknowledge.fm/333-2](https://zeroknowledge.fm/333-2)
-- **ìkóhunsókè:** Anna bá Ismael Hishon-Rezaizadeh, Olùdásílẹ̀ àti CEO ní Lagrange Labs sọ̀rọ̀, àti Charalampos (Babis) Papamanthou, Olórí Ètò Ìwádìí ní Lagrange. Wọ́n tún ṣàyẹ̀wò àwọn oníṣiṣẹ́pọ̀ tí ó ń lo zk, Verifiable SQL, Reckle Trees, wọ́n sì jíròrò ọjà tuntun wọn.
-- Àwọn àlejò:
-  - Ismael Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
+### Ẹ̀ka 333 – SQL tí a lè fìdí rẹ̀ múlẹ̀, Reckle Trees àti ìfọwọ́sowọ́pọ̀ ZK pẹ̀lú Lagrange Labs
+- **Ọjọ́:** Ọjọ́ kẹrìndínlógún oṣù keje, ọdún 2024
+- **Ọ̀nà ìsopọ̀:** [https://zeroknowledge.fm/333-2](https://zeroknowledge.fm/333-2)
+- **Àkótán:** Anna bá Ismael Hishon-Rezaizadeh, Olùdásílẹ̀ àti Olórí Àgbà ní Lagrange Labs sọ̀rọ̀, àti Charalampos (Babis) Papamanthou, Olórí Ìwádìí ní Lagrange. Wọ́n tún wo àwọn olùṣiṣẹ́pọ̀ tí a fi agbára zk ṣe, Verifiable SQL, Reckle Trees, wọ́n sì jíròrò ọjà prover tuntun wọn.
+- **Àwọn àlejò:**
+  - Ismail Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
   - Charalampos (Babis) Papamanthou ([chbpap](https://x.com/chbpap))
-- ** Olùgbàlejò:**
-  - Anna ([AnnaRose](https://x.com/AnnaRRose))
+- **Agbalejo:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
 
-### Ìpínlẹ̀ 332  Brussels Catch-Up with Hart from Across
-- **Ọjọ́:** July 18, 2024
-- Ìjápọ̀:https://zeroknowledge.fm/332-2](https://zeroknowledge.fm/332-2)
-- **Akópòtó:** Anna àti Tarun jókòó pẹ̀lú Hart Lambur ní ọ̀sẹ̀ EthCC ní Brussels láti jíròrò iṣẹ́ rẹ̀ Across, ojútùú ìfọwọ́sowọ́pọ̀ àgbélébùú àti iṣẹ́ arakunrin sí Uma. Wọ́n ṣàyẹ̀wò ìmúra Across náà, àwọn àdéhùn, wọ́n sì fi wé àwọn ojútùún interop mìíràn.
-- Àwọn àlejò:
+### Ìṣẹ̀lẹ̀ 332 – Ìbáṣepọ̀ Brussels pẹ̀lú Hart láti Agbègbè Rẹ̀
+- **Ọjọ́:** Ọjọ́ Kejìdínlógún, Oṣù Keje, Ọdún 2024
+- **Ọ̀nà ìsopọ̀:** [https://zeroknowledge.fm/332-2](https://zeroknowledge.fm/332-2)
+- **Àkótán:** Anna àti Tarun jókòó pẹ̀lú Hart Lambur ní ọ̀sẹ̀ EthCC ní Brussels láti jíròrò iṣẹ́ rẹ̀ Across, iṣẹ́ àgbékalẹ̀ ìbáṣepọ̀ onígbà-ọ̀tọ̀ àti iṣẹ́ àtìlẹ́yìn fún Uma. Wọ́n ṣe àwárí ìkọ́lé Across, àwọn ìṣòwò, wọ́n sì fi wé àwọn iṣẹ́ àgbékalẹ̀ ìbáṣepọ̀ mìíràn.
+- **Àwọn àlejò:**
   - Hart Lambur ([hal2001](https://x.com/hal2001))
-- Àwọn onílé:
-  - Anna ([AnnaRose](https://x.com/AnnaRRose))
-  - Tarun ([tarunchitra] Àdàkọ:Àtúnṣe ojúewé)](https://x.com/tarunchitra))
+- **Agbalejo:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### Apá 331  Farcaster àti Varun Srinivasan
-- **Ọjọ́:** July 10, 2024
-- Ìjápọ̀:https://zeroknowledge.fm/331-2](https://zeroknowledge.fm/331-2)
-- **Akóyọ̀:** Anna àti Tarun pàdé Varun Srinivasan, olùdásílẹ̀ Farcaster. Wọ́n jíròrò ètò Farcaster, ìbẹ̀rẹ̀ rẹ̀, àti ohun tí ó yàtọ̀ sí àwọn ẹ̀rọ-ayélujára tó wà, tí wọn ń ṣàyẹ̀wò àyè ìmúra rẹ̀ àti àwọn ohun èlò tó ṣeé ṣe kó wà.
-- Àwọn àlejò:
+### Episode 331 - Farcaster pẹlu Varun Srinivasan
+- **Ọjọ́:** Ọjọ́ kẹwàá oṣù keje, ọdún 2024
+- **Ọ̀nà ìsopọ̀:** [https://zeroknowledge.fm/331-2](https://zeroknowledge.fm/331-2)
+- **Àkótán:** Anna àti Tarun pàdé Varun Srinivasan, olùdásílẹ̀ Farcaster. Wọ́n jíròrò iṣẹ́ àgbékalẹ̀ Farcaster, ìbẹ̀rẹ̀ rẹ̀, àti ohun tí ó yà á sọ́tọ̀ kúrò lára àwọn nẹ́tíwọ́ọ̀kì ìbánisọ̀rọ̀pọ̀ tó wà tẹ́lẹ̀, wọ́n ń ṣe àwárí ààyè ìṣètò rẹ̀ àti àwọn ohun tí ó lè lò.
+- **Àwọn àlejò:**
   - Varun Srinivasan ([varunsrin](https://x.com/varunsrin))
-- Àwọn onílé:
-  - Anna ([AnnaRose](https://x.com/AnnaRRose))
-  - Tarun ([tarunchitra] Àdàkọ:Àtúnṣe ojúewé)](https://x.com/tarunchitra))
+- **Agbalejo:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### Ìpínlẹ̀ 330  Àwọn àlàfo fún Ìpamọ́ tí a lè ṣe ètò pẹ̀lú Ying Tong àti Bryan Gillespie
-- **Ọjọ́:** July 3, 2024
-- Ìjápọ̀:https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
-- ** Ìkóhunsókè:** Anna àti Guille bá Ying Tong Lai láti Geometry Research àti Bryan Gillespie láti Inversed Tech sọ̀rọ̀ nípa iṣẹ́ wọn lórí SoK: Programmable Privacy in Distributed Systems, tí wọ́n ń ṣàyẹ̀wò àwọn àdàkọ tuntun àti àwọn ètò.
-- Àwọn àlejò:
+### Ìpín 330 – Àwọn ìlànà fún Ìpamọ́ tí a lè ṣètò pẹ̀lú Ying Tong àti Bryan Gillespie
+- **Ọjọ́:** Ọjọ́ kẹta oṣù Keje, ọdún 2024
+- **Ọ̀nà ìsopọ̀:** [https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
+- **Àkótán:** Anna àti Guille ń bá Ying Tong Lai láti Geometry Research sọ̀rọ̀ àti Bryan Gillespie láti Inversed Tech nípa iṣẹ́ wọn lórí 'SoK: Programmable Privacy in Distributed Systems', wọ́n ń ṣe àwárí àwọn ìpínsísọ̀rí àti ètò tuntun.
+- **Àwọn àlejò:**
   - Ying Tong Lai ([therealyingtong](https://x.com/therealyingtong))
-  - Bryan Gillespie ([bryan_gillespie] ojúewé àtúnṣe)](https://x.com/bryan_gillespie))
-- Àwọn onílé:
-  - Anna ([AnnaRose](https://x.com/AnnaRRose))
+  - Bryan Gillespie ([bryan_gillespie](https://x.com/bryan_gillespie))
+- **Agbalejo:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
 
-### Apá 329  Ṣíṣe Àrídájú Ìkọ̀ǹkọ̀rọ̀ pẹ̀lú Àwọn Iṣẹ́ Hash láti Alessandro Chiesa & Eylon Yogev
-- **Ọjọ́:** June 26, 2024
-- Ìjápọ̀:https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
-- **Akóyọ̀:** Anna àti Nico bá Alessandro Chiesa, Olùkọ́ Àjọ ní EPFL, àti Eylon Yogev, Òǹkọ̀wé ní Yunifásítì Bar-Ilan, sọ̀rọ̀ nípa ìwé tí wọ́n kọ nípa bí wọ́ n ṣe ń kọ àwọn ẹ̀rí ìpamọ́ láti inú àwọn iṣẹ́ hash.
-- Àwọn àlejò:
-  - Alessandro Chiesa ([ìdánimọ̀](https://ic-people.epfl.ch/~achiesa/))
-  - Eylon Yogev ([ì ì í ])](https://eylonyogev.com/))
-- Àwọn onílé:
-  - Anna ([AnnaRose](https://x.com/AnnaRRose))
-  - Nico ([nico_mnbl](https://x.com/nico_mnbl))
+### Ipin 329 – Kíkọ́ Àwọn Ẹ̀rí Àkọọ́lẹ̀ Pẹ̀lú Àwọn Iṣẹ́ Hash láti ọwọ́ Alessandro Chiesa àti Eylon Yogev
+- **Ọjọ́:** Ọjọ́ kẹrìndínlógún Okudu kẹfà, ọdún 2024
+- **Ọ̀nà ìsopọ̀:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
+- **Àkótán:** Anna àti Nico bá Alessandro Chiesa, Ọ̀jọ̀gbọ́n Alágbà ní EPFL, àti Eylon Yogev, Ọ̀jọ̀gbọ́n ní Bar-Ilan University, sọ̀rọ̀ nípa ìtẹ̀jáde wọn lórí kíkọ́ àwọn ẹ̀rí ìkọ̀kọ̀ láti inú àwọn iṣẹ́ hash.
+- **Àwọn àlejò:**
+  - Alessandro Chiesa ([profaili](https://ic-people.epfl.ch/~achiesa/))
+  - Eylon Yogev ([profaili](https://eylonyogev.com/))
+- **Agbalejo:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Niko ([nico_mnbl](https://x.com/nico_mnbl))
 
-## ZL;DR Àfihàn
-ZL;DR jẹ́ ètò tí ó ń gbé gbogbo ohun tó jẹ mọ́ Zcash lárugẹ nínú àwòrán fídíò. Àwọn ìtòlẹ́sẹẹsẹ náà bo ọ̀pọ̀lọpọ̀ ọ̀rọ̀ lórí Zcash, àwùjọ, àtúnṣe ètò-ayé, àti ìròyìn.
+## Ifihan ZL;DR
+ZL;DR jẹ́ eré tí ó ń ṣe àfihàn gbogbo nǹkan Zcash ní ìrísí fídíò. Àwọn ìṣẹ̀lẹ̀ náà bo oríṣiríṣi àwọn kókó ọ̀rọ̀ Zcash, àwùjọ, àwọn àtúnṣe sí àyíká àti ìròyìn.
 
-- **Àtúnṣe orúkọ:** Orúkọ ti yí padà láti ZecDaily sí ZL;DR.
+- **Yíyípadà Orúkọ:** A ti yí orúkọ náà padà láti ZecDaily sí ZL;DR.
 
-## Àtòjọ orin Zechub Podcast
+## Àkójọ orin adarọ ese ZecHub
 
-### Ìjẹ́pàtàkì Ìpamọ́, CBDCs & Operation Chokepoint 2.0  Kurt Opsahl  11
-- **Ọjọ́:** Ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹta ọdún 2024
-- Ìjápọ̀:https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
-- ** Ìkópọ̀:**
-  - ** Àmì àkókò:**
-    - 00:00  Ìfilọ́lẹ̀ àti Ìtàn
-    - 04:09  Ìkànnì 1.0, ìkànnì 2.0 àti ìkànṣe Web3
-    - 09:00  Ìdí tí ìdìbò fi wúlò
-    - 13:40  Ìṣiṣẹ́ Chokepoint 2.0
-    - 19:18  Ẹkọ Ìtàn Nípa Ìkójọ Àwọn Ìsọfúnni
-    - 23:25  Àfojúsùn kékeré / Psychographics
-    - 27:44  Zero Knowledge àti Zcash
-    - 32:10  Awọn CBDC
-    - 37:00  Ìmúṣẹ Òfin & Ìmò̀-ẹ̀rọ Tó Ń Mú Ìpamọ́ Gbára Dì
-    - 39:30  Ìpínlẹ̀ ò lè dá ṣe nǹkan
-    - 44:00  Ìpolongo Cypherpunk & Filecoin
-    - 48:20  Àwọn mìíràn
+### Pàtàkì Ìpamọ́, CBDCs àti Iṣẹ́ Chokepoint 2.0 | Kurt Opsahl – 11
+- **Ọjọ́:** Oṣù Kẹta Ọjọ́ 29, Ọdún 2024
+- **Ọ̀nà ìsopọ̀:** [https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
+- **Àkótán:**
+  - **Àwọn àmì àkókò:**
+    - 00:00 – Ìṣáájú àti Ẹ̀yìn
+    - 04:09 – Wẹ́ẹ̀bù 1.0, Wẹ́ẹ̀bù 2.0 àti Web3
+    - 09:00 – Kí nìdí tí ìfipamọ́ fi wúlò
+    - 13:40 – Iṣẹ́ Chokepoint 2.0
+    - 19:18 – Ẹ̀kọ́ ìtàn lórí ìkójọpọ̀ dátà
+    - 23:25 – Àfojúsùn kékeré / Àwòrán onímọ̀-ọkàn
+    - 27:44 – Odo imo ati Zcash
+    - 32:10 – Àwọn CBDC
+    - 37:00 – Ìmọ̀-ẹ̀rọ Ìmúdàgbàsókè Òfin àti Ìpamọ́
+    - 39:30 – Ètò Ìlànà Kò Lè Ṣe Ohun Kanṣoṣo
+    - 44:00 – Ìwé Ìròyìn Cypherpunk àti Filecoin
+    - 48:20 – Ìta
 
-### Ìpamọ́ fún ire gbogbo ènìyàn pẹ̀lú Amber Baldet
-- **Ọjọ́:** February 7, 2023
-- Ìjápọ̀:https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB](https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB)
-- ** Ìkópọ̀:**
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 4:40  Ìpín-ìpín àti kíkọ́ àwùjọ tí wọ́n lè yàn láti kópa
-    - 15:20  Àǹfààní tí Crypto ní láti jẹ́ kí òmìnira àti ìgbésẹ̀ ètò ọrọ̀ ajé ṣeé ṣe
-    - 26:30​ – Zcash’s funding model, regulatory capture and ecosystem diversification
-    - 33:39  Lílé àwọn àlàfo tó wà nínú ètò ọrọ̀ ajé àti ti àwùjọ pa pọ̀ nípasẹ̀ àwọn ẹ̀rọ tí kò dá láárí
-    - 42:50  Ìdìbò owó ẹyọ gẹ́gẹ́ bí ètò fún ìṣàkóso on-chain
-    - 50:25  Idagbasoke orisun ṣiṣi ati capitalization ni awọn ọja crypto
-    - 59:30  Ọla ti Zcash ati outro
+### Ìpamọ́ fún ire gbogbogbò pẹ̀lú Amber Baldet
+- **Ọjọ́:** Ọjọ́ keje oṣù kejì, ọdún 2023
+- **Ọ̀nà ìsopọ̀:** [https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB](https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB)
+- **Àkótán:**
+  - **Àwọn àmì àkókò:**
+    - 0:00​ – Ìṣáájú
+    - 4:40​​​​Ṣíṣe àkóso àti ṣíṣẹ̀dá àwùjọ tí ó lè yan ẹni tí yóò wọlé
+    - 15:20​​​Àǹfààní Crypto láti jẹ́ kí òmìnira ọrọ̀ ajé àti àjọ ṣiṣẹ́
+    - 26:30​​​​​Àwòṣe ìnáwó Zcash's, ìkópa ìlànà àti ìyípadà sí àyíká
+    - 33:39​​​​​Pípa àwọn àlàfo ọrọ̀ ajé àti ti àwùjọ nípasẹ̀ àwọn ìmọ̀ ẹ̀rọ tí kò ní ìpínkiri
+    - 42:50​​​​Ìdìbò owó gẹ́gẹ́ bí ìlànà fún ìṣàkóso lórí ẹ̀rọ
+    - 50:25​ – Ìdàgbàsókè àti ìṣàfilọ́lẹ̀ orísun ṣíṣí sílẹ̀ ní àwọn ọjà crypto-markets
+    - 59:30​​– Ọjọ́ iwájú Zcash àti ìta
 
-### Àwùjọ ZFAV pẹ̀lú Ryan Taylor (tí wọ́n tún mọ̀ sí AdjyLeak)
-- **Ọjọ́:** January 25, 2023
-- Ìjápọ̀:https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX](https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX)
-- ** Ìkópọ̀:**
-- - Ìjápọ̀:https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
-- Taylor Hornby ni Olóyè Ààbò Ìgbésí ayé Zcash.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 6:11  Àìlera Ìkọlù inú-Ilé
-    - 12:05  Àbùdá tí Taylor yàn láàyò
-    - 15:50  Yọ ECC silẹ fun ẹbun aabo ominira
-    - 22:30  Igbesẹ ti iṣayẹwo aabo, apẹẹrẹ Ywallet
-    - 31:25  Lightwalletd ìpamọ tradeoffs
-    - 45:10  Zcashd ààbò ati usability tradeoffs
-    - 52:06  Awọn iṣowo aabo olupese isanwo ẹnikẹta
-    - 1:00:20  Àtúnyẹ̀wò ààbò ìṣiṣẹ́ Zcash
-    - 1:04:40  Kí ni Zcash's tóbi ààbò ati ìpamọ misconceptions
+### Ẹgbẹ́ ZFAV pẹ̀lú Ryan Taylor (tí a mọ̀ sí AdjyLeak)
+- **Ọjọ́:** Oṣù Kínní 25, 2023
+- **Ọ̀nà ìsopọ̀:** [https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX](https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX)
+- **Àkótán:**
+- - **Ọ̀nà ìsopọ̀:** [https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
+- **Àkótán:** Taylor Hornby ni olórí ààbò ètò ìṣẹ̀dá-ẹ̀dá-ẹ̀dá Zcash.
+  - **Àwọn àmì àkókò:**
+    - 0:00​ – Ìṣáájú
+    - 6:11​​​​​Àìlera Ìjamba Inú
+    - 12:05​​​​Àìsàn ayanfẹ́ tí Taylor ti rí rí
+    - 15:50​​​​Fi ECC silẹ fun owo-ẹri aabo ominira
+    - 22:30​​​​Ìlànà àyẹ̀wò ààbò, àpẹẹrẹ Ywallet
+    - 31:25​ – àwọn ìṣòwò ààbò lightwalletd
+    - 45:10​​​​​​Àyípadà ààbò zcashd àti ìlò
+    - 52:06​​​​​Àyípadà ààbò fún olùpèsè ìsanwó ẹni-kẹta
+    - 1:00:20​​​Àkótán ààbò iṣẹ́ Zcash
+    - 1:04:40​​​Kí ni àwọn àṣìṣe tó tóbi jùlọ nínú ààbò àti ìpamọ́ Zcash's
 
-### Zcash FUD pẹlu Josh Swihart
-- **Ọjọ́:** January 12, 2023
-- Ìjápọ̀:https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
-- **Summary:** Josh Swihart is the Senior Vice President of Growth, Product Strategy and Regulatory Relations at the Electric Coin Company.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 6:00  Ìpínlẹ̀ Dev
-    - 15:22  Àjọṣe tó wà láàárín ètò ìṣàkóso àti ètò ìṣèlú
-    - 28:24  Ìpamọ́ Zcash lòdì sí àwọn ọ̀nà mìíràn
-    - 42:38​ – Zcash’s supply audibility
-    - 48:06  Ṣé ìpamọ́ jẹ́ ohun tí o lè fi kún un nígbà tí ó bá yá
-    - 53:58  Zcash blockchain ìkọlù sandblasting
-    - 58:29  Ìpolongo pé Zcash kì í ṣe cypherpunk
-    - 1:04:17  Àwọn ìbéèrè tó kù àti outro
+### Zcash FUD pẹ̀lú Josh Swihart
+- **Ọjọ́:** Oṣù Kínní 12, 2023
+- **Ọ̀nà ìsopọ̀:** [https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
+- **Àkótán:** Josh Swihart ni Igbákejì Ààrẹ Àgbà fún Ìdàgbàsókè, Ìlànà Ọjà àti Ìbátan Ìlànà ní Electric Coin Company.
+  - **Àwọn àmì àkókò:**
+    - 0:00​ – Ìṣáájú
+    - 6:00 – Owó Dev Fund
+    - 15:22​​​​Àwọn ìbáṣepọ̀ ìlànà àti ìlànà
+    - 28:24​​​– Ìpamọ́ Zcash's àti àwọn ọ̀nà míràn
+    - 42:38​ – Ìgbọ́ran ìpèsè Zcash's
+    - 48:06​​​Ṣé ìpamọ́ jẹ́ ohun tí o lè fi kún nígbà tó bá yá
+    - 53:58​ – Ìkọlù yíyọ́ onígbèsè Zcash
+    - 58:29​​​– Sọ pé Zcash kì í ṣe cypherpunk
+    - 1:04:17​ – Àwọn ìbéèrè tó kù àti ìkejì
 
-### Àmọ̀ràn Ètò Ìtìlẹ́yìn tuntun ti Zcash Brazil pẹ̀lú Samara
-- **Ọjọ́:** December 28, 2022
-- Ìjápọ̀:https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
-- ** Ìkómọ́ra:** Samara jẹ́ ògbóǹkangí nínú ètò ìbánisọ̀rọ̀pọ̀ àti ọmọ ẹgbẹ́ Zcash Brasil.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 2:50  Kí ló dé tí Zcash fi ní àǹfààní tó dára ní Brazil?
-    - 6:10  Awọn ero lori iṣelọpọ Zcash Brasil lọwọlọwọ vs. iṣelopọ agbara
-    - 8:00  Kí nìdí tí àwọn ará Brazil fi nílò ìpamọ́ ní ti ọ̀ràn ìnáwó?
-    - 12:19  Àwọn ọ̀nà wo ló dára jù lọ láti dé ọ̀dọ̀ àwọn ará Brazil?
-    - 17:25  Kí ni ọ̀nà pàtàkì tí wọ́n ń gbà lo ZEC ní Brazil?
-    - 21:50  Irú ìsọfúnni àti ìṣẹ̀lẹ̀ wo ni àwùjọ Brazil yóò dá sílẹ̀ láti mú kí wọ́n gba àwọn ọmọ?
-    - 26:20  Àwọn ìpínlẹ̀ mìíràn wo ni Zcash Brazil fẹ́ gbòòrò dé?
-    - 28:50  Bawo ni ẹgbẹ ṣe gbero lati ṣe ifowosowopo pẹlu awọn agbegbe Zcash miiran?
-    - 32:05  Kí ni ó mú kí ìsapá ìmúra Zcash Brasil?
-    - 35:30  Bawo ni awọn ẹgbẹ Zcash miiran ṣe le ṣe atilẹyin awọn akitiyan Zcash Brasil?
-    - 38:58  Òmíràn
+### Ìdámọ̀ràn tuntun ti Zcash Brasil fún Samara
+- **Ọjọ́:** Ọjọ́ Kejìdínlọ́gbọ̀n oṣù Kejìlá, ọdún 2022
+- **Ọ̀nà ìsopọ̀:** [https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
+- **Àkótán:** Samara jẹ́ ògbóǹtarìgì ìbánisọ̀rọ̀ àti ọmọ ẹgbẹ́ Zcash Brasil.
+  - **Àwọn àmì àkókò:**
+    - 0:00​ – Ìṣáájú
+    - 2:50​​​Kí ló dé tí àǹfààní tó dára wà fún Zcash ní Brazil?
+    - 6:10​​​​Àwọn èrò lórí ìṣẹ̀dá Zcash Brasil lọ́wọ́lọ́wọ́ àti ìṣẹ̀dá tó ṣeéṣe
+    - 8:00 – Kí ló dé tí àwọn ará Brazil fi nílò ìpamọ́ owó?
+    - 12:19​​​ Àwọn ọ̀nà wo ló dára jùlọ láti dé ọ̀dọ̀ àwùjọ Brazil?
+    - 17:25​​​Kí ni ọ̀rọ̀ lílo pàtàkì fún ZEC ní Brazil?
+    - 21:50​​​ Iru akoonu ati awọn iṣẹlẹ wo ni agbegbe Brazil yoo ṣẹda lati ṣe iwuri fun gbigba ọmọ?
+    - 26:20​​– Àwọn ìpínlẹ̀ míì wo ni Zcash Brazil fẹ́ fẹ̀ sí?
+    - 28:50​​​​ Báwo ni ẹgbẹ́ náà ṣe gbèrò láti ṣiṣẹ́ pọ̀ pẹ̀lú àwọn agbègbè Zcash mìíràn?
+    - 32:05​​​​Kí ló ń fún àwọn ìsapá ṣíṣe àwòrán Zcash Brasil níṣìírí?
+    - 35:30​​​ Báwo ni àwọn àjọ Zcash mìíràn ṣe lè ṣètìlẹ́yìn fún àwọn ìsapá Zcash Brasil?
+    - 38:58​ – Ìta
 
-### Àkọsílẹ̀ Zcash tuntun pẹ̀lú Joel Valenzuela
-- **Ọjọ́:** December 21, 2022
-- Ìjápọ̀:https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
-- **Kókó:** Joël Valenzuela jẹ́ olùdásílẹ̀ ìsọfúnni, òǹkọ̀wé àti alábòójútó ètò ìgbóhùnsáfẹ́rọ̀ Zcash lórí Digital Cash Network.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 7:33  Ìgbà wo ni ìtàn Bitcoin yí padà
-    - 17:04  Zcash FUD àti Crypto Maximalism
-    - 29:25  Ìgbé ayé nípasẹ̀ cryptocurrency
-    - 38:30  Kí ni kí á máa retí láti inú ìtòlẹ́sẹẹsẹ Zcash tuntun
-    - 57:40  Kíkó Zcash àti ìdáhùn àwọn èrò òdì nípa rẹ̀
-    - 1:09:30  ti o pọju alejo fun DCNs Zcash agekuru
-    - 1:18:50  Ibi ti lati wo ati tẹle DCN's titun Zcash adarọ ese
-    - 1:21:52  Òmíràn
+### Podcast Zcash tuntun pẹlu Joel Valenzuela
+- **Ọjọ́:** Ọjọ́ kọkànlélógún oṣù Kejìlá, ọdún 2022
+- **Ọ̀nà ìsopọ̀:** [https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
+- **Àkótán:** Joël Valenzuela jẹ́ olùdá àkóónú, òǹkọ̀wé àti olùgbàlejò podcast Zcash lórí Digital Cash Network.
+  - **Àwọn àmì àkókò:**
+    - 0:00​ – Ìṣáájú
+    - 7:33​ – Ìgbà wo ni ìtàn Bitcoin yípadà
+    - 17:04​​ – Zcash FUD & Crypto Maximalism
+    - 29:25​ – Gbígbé ìgbésí ayé pẹ̀lú owó ìsanwó
+    - 38:30​​​​Kini lati reti lati inu adarọ ese Zcash tuntun
+    - 57:40​​​​Kẹkọọ Zcash ati didahun awọn ironu ti ko tọ ni ayika rẹ
+    - 1:09:30​​​​Àwọn àlejò tó ṣeéṣe fún podcast Zcash ti DCN
+    - 1:18:50​​​​Ibi tí a ti le wo ati tẹle podcast Zcash tuntun ti DCN
+    - 1:21:52​ – Ìta
 
-### Àwọn Ìtàn Zcash pẹ̀lú David láti Zcash Media
-- **Ọjọ́:** September 20, 2022
-- Ìjápọ̀:https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
-- Àkópòsí: David jẹ́ òǹkọ̀wé àti olùṣàtúnṣe pẹ̀lú Zcash Media.
-  - ** Àmì àkókò:**
-    - 0:00  Intro, why Zcash & Zcash Medias genesis
-    - 12:00  Ibeere fun ọpọlọpọ awọn ikanni media
-    - 17:50  Ṣíṣàtúnṣe pẹ̀lú iṣẹ́ ìpilẹ̀ṣẹ̀ Bitcoin
-    - 27:00  Ẹkọ nipa Zcash ni ọja ọfẹ
-    - 35:45  Kíkọ́ látinú Bitcoin
-    - 37:20  Kí nìdí tí ìdánilẹ́kọ̀ọ́ tó dára fi ṣe pàtàkì
-    - 48:20  Ìyàtọ̀ láàrin Zcash media àti ZecHub
-    - 55:45  Ohun ti a le kọ lati Bitcoin awujo tita akitiyan
-    - 1:06:35  Fífi Zcash sọ́dọ̀ gbogbo ayé
-    - 1:14:30  Ìpàdé cryptos tobi awọn orukọ
-    - 1:28:55  Ed Snowden
-    - 1:36:55  Wíwo padà sí ìsọfúnni Zcash Media's ti tẹlẹ
-    - 1:43:00  Awọn olugbo afojusun Zcash
-    - 1:51:06  Yiyọ jade ati Zcash bi ohun rere gbogbo
-    - 1:57:20  Ọla ti Zcash
+### Àwọn ìtàn Zcash pẹ̀lú Dáfídì Láti Zcash Media
+- **Ọjọ́:** Oṣù Kẹsàn 20, 2022
+- **Ọ̀nà ìsopọ̀:** [https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
+- **Àkótán:** David jẹ́ olùkọ̀wé àti olùgbéjáde fún ìgbà pípẹ́ pẹ̀lú Zcash Media.
+  - **Àwọn àmì àkókò:**
+    - 0:00​​ – Ìṣáájú, ìdí tí ìran Zcash & Zcash Media fi jẹ́
+    - 12:00​​​​Àìní fún ọ̀pọ̀lọpọ̀ àwọn ikanni media
+    - 17:50​​​​ Ṣíṣe àtúnṣe pẹ̀lú iṣẹ́ àtìlẹ́yìn Bitcoin
+    - 27:00​​​​​​Kẹkọọ ni ayika Zcash ni ọja ọfẹ
+    - 35:45​​​​Kẹkọọ lati inu Bitcoin
+    - 37:20​​​Kí ló dé tí dídára ẹ̀kọ́ fi ṣe pàtàkì
+    - 48:20​​​Ìyàtọ̀ láàrín Zcash media àti ZecHub
+    - 55:45​​​Ohun tí a lè kọ́ láti inú àwọn ìsapá títà ọjà àwùjọ Bitcoin
+    - 1:06:35​ – Sísọ̀rọ̀ Zcash sí gbogbo ayé
+    - 1:14:30​​​​Pípàdé àwọn orúkọ tó tóbi jùlọ nínú crypto
+    - 1:28:55​ – Ed Snowden
+    - 1:36:55​ – Nígbà tí a ń wo àwọn ohun tí Zcash Media ti kọ tẹ́lẹ̀, a ó rí i pé a ti ṣe é tẹ́lẹ̀
+    - 1:43:00​​​ Àwọn olùgbọ́ Zcash's fẹ́
+    - 1:51:06​​​​Yíyọ kúrò àti Zcash gẹ́gẹ́ bí ohun rere gbogbogbò
+    - 1:57:20​​ – Ọjọ́ iwájú Zcash
 
-### DeFi àti Ìpamọ́ pẹ̀lú Railgun
-- **Ọjọ́:** Ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹjọ ọdún 2022
-- Ìjápọ̀:https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
-- **Akópòtó:** Railgun jẹ eto adehun ọlọgbọn ti o fun laaye fifiranṣẹ ikọkọ, awọn iṣowo & DeFi, lori ETH, BSC & Polygon.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 5:30  Kí ni Railgun
-    - 8:10  Kí ni ìnáwó tí a kò pín síbi-ìkáwọ́ (DeFi)
-    - 17:30  Àwọn ìkùdíẹ̀ káàtó ti DeFi
-    - 24:00  Orúkọ àdàkọ àti ìpamọ́
-    - 32:55  Ìtàn ìpilẹ̀ṣẹ̀ Railgun
-    - 38:08  Railgun vs. awọn solusan miiran
-    - 45:00  Iṣowo Railgun lori ọkọ̀ àwárí àlàfo
-    - 49:52  Àwọn alátúnṣe
-    - 58:51  Ìṣirò owó ìdókòwò
-    - 1:04:00  Ìjọ Railgun
-    - 1:07:04  Ìpamọ́ Crypto ní ọdún 5
+### DeFi ati Ìpamọ́ Pẹ̀lú RAILGUN
+- **Ọjọ́:** Ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹjọ, ọdún 2022
+- **Ọ̀nà ìsopọ̀:** [https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
+- **Àkótán:** RAILGUN jẹ́ ètò àdéhùn ọlọ́gbọ́n kan tí ó ń jẹ́ kí àwọn ìfiránṣẹ́, ìṣòwò àti DeFi, lórí ETH, BSC àti Polygon ṣeé lò.
+  - **Àwọn àmì àkókò:**
+    - 0:00​ – Ìṣáájú
+    - 5:30​​– Kí ni RAILGUN
+    - 8:10​​​Kí ni ìnáwó tí a kò ṣe àkóso (DeFi)
+    - 17:30​​​ Àwọn Àléébù DeFi
+    - 24:00 – Àwọn orúkọ àpèlé àti ìpamọ́
+    - 32:55 – Ìtàn ìpilẹ̀ṣẹ̀ RAILGUN
+    - 38:08​ – RAILGUN vs. awọn ojutu miiran
+    - 45:00​​​Ìṣòwò RAILGUN lórí olùṣàwárí bulọ́ọ̀kì kan
+    - 49:52​ – Àwọn Relayers
+    - 58:51​​​​​​​Àwọn àmì ojú irin
+    - 1:04:00​ – Àwùjọ RAILGUN
+    - 1:07:04​​​​Ìpamọ́ ìkọ̀kọ̀ ní ọdún márùn-ún
 
-### Àwọn NFT tí ó jẹ́ orin, Ìpamọ́ àti Òmìnira Ọ̀rọ̀-aje pẹ̀lú Xcelencia
-- **Ọjọ́:** Ọjọ́ kejìlélógún oṣù kẹjọ ọdún 2022
-- Ìjápọ̀:https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
-- ** Ìkómọ́ra:** Xcelencia jẹ́ òṣèré reggaeton nínú ẹ̀ka orin Web3.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 0:47  Àǹfààní fún àwọn olórin nínú Web3
-    - 3:30  Ṣíṣàtúnṣe ìní NFT orin
-    - 5:20  Ìyàtọ̀ láàrin àwọn ẹ̀dà NFT orin
-    - 7:50  Ìwòye gbogbogbo nípa ilé-iṣẹ́ tí ó ń gbé ìtòlẹ́sẹẹsẹ jáde
-    - 13:48  Àwọn tó ń kó nǹkan jọ lòdì sí àwọn tó ń fetí sílẹ̀
-    - 18:10  Àwọn ọjà orin àgbáyé
-    - 20:30  Ṣe orin NFTs ṣe ipele aaye ere
-    - 23:45  Àwọn òǹkọ̀wé tí ó gbajúgbajà ní LATAM ní Web3
-    - 28:05  Bawo ni Xcelencia ṣe wọ inu crypto
-    - 30:15  Ronu nipa ominira ọrọ-aje
-    - 34:05  Ìpamọ́ àti Zcash
-    - 43:50  Ẹ̀kọ́ àdúgbò ní orí Íńtánẹ́ẹ̀tì
-    - 46:40  Gbigba Zcash si awọn agbegbe miiran
-    - 50:27  Ìmọ̀ràn fún àwọn tó ṣẹ̀ṣẹ̀ ń lò ó
+### Orin NFT, Ìpamọ́ àti Òmìnira Ọrọ̀-ajé pẹ̀lú Xcelencia
+- **Ọjọ́:** Ọjọ́ Kejìlélógún oṣù Kẹjọ, ọdún 2022
+- **Ọ̀nà ìsopọ̀:** [https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
+- **Àkótán:** Xcelencia jẹ́ olórin reggaeton nínú ètò orin Web3.
+  - **Àwọn àmì àkókò:**
+    - 0:00​ – Ìṣáájú
+    - 0:47​​– Àǹfàní fún àwọn olórin orin ní Web3
+    - 3:30​​​​Ṣíṣàlàyé nípa jíjẹ́ olórin NFT
+    - 5:20​​​Àwọn ìyàtọ̀ láàrín àwọn àtúnṣe orin NFT
+    - 7:50​​​Àkótán nípa iṣẹ́ ìṣirò
+    - 13:48​​​​Àwọn olùkójọpọ̀ àti àwọn olùgbọ́
+    - 18:10 – Àwọn ọjà orin kárí ayé
+    - 20:30 – Ṣé orin NFTs máa ń ṣe àtúnṣe sí pápá ìṣeré náà
+    - 23:45​ – Àwọn òṣèré LATAM tó gbajúmọ̀ jùlọ nínú Web3
+    - 28:05​ – Báwo ni Xcelencia ṣe wọ inú crypto
+    - 30:15​​​​Ríronú nípa òmìnira ọrọ̀ ajé
+    - 34:05​​​​Ìpamọ́ àti Zcash
+    - 43:50​​​​ Ẹ̀kọ́ àwùjọ ní Web3
+    - 46:40​​​​​Pípín Zcash sí àwọn agbègbè mìíràn
+    - 50:27​​​Ìmọ̀ràn fún àwọn olùlò tuntun
 
-### Àwọn ohun ìkòkò
+### Kírípítò
 
-  - ** Àmì àkókò:**
-    - 0:00  Intro àti àwọn ọjọ́ Bitcoin àkọ́kọ́
-    - 10:58  Ìpilẹ̀ṣẹ̀ ẹgbẹ́ ZFAV Club
-    - 17:38  Àwọn ewu tó wà nínú lílo ìpolówó ọjà àti lílo àwọn alágbàwí
-    - 23:42  Ìlépa tó ga jùlọ fún ẹgbẹ́ ZFAV
-    - 29:35  Bí ẹgbẹ́ ZFAV ṣe ń fún àwọn tí kì í ṣe onímọ̀ ẹ̀rọ láǹfààní
-    - 34:50  Ṣé dídásílẹ̀ dá ìṣòro ìbánisọ̀rọ̀pọ̀ Zcash sílẹ̀?
-    - 42:10  Àìgbọ́ra-ẹni-yé jẹ́ ànímọ́, kì í ṣe àbùkù
-    - 49:32  Ṣe awọn ilana crypto nilo awọn idanimọ pupọ
-    - 54:35  Kí ló dé tí àwọn èèyàn fi máa ń fi ilé ìtajà sílẹ̀
-    - 1:01:40  Báwo ni ẹgbẹ́ ZFAV ṣe ń jẹ́ kí àwọn olùkópa àgbáyé
-    - 1:08:00  Òmíràn
+  - **Àwọn àmì àkókò:**
+    - 0:00​​– Ìṣáájú àti ìbẹ̀rẹ̀ ọjọ́ Bitcoin
+    - 10:58​ – Ìṣẹ̀lẹ̀ ẹgbẹ́ ZFAV
+    - 17:38​​​Ewu ti ṣiṣe awọn ipolowo ati nini awọn onigbọwọ
+    - 23:42​​​– Góólù àṣeyọrí ZFAV Club
+    - 29:35​​​Báwo ni ZFAV Club ṣe ń jẹ́ kí àwọn olùkópa tí kìí ṣe onímọ̀-ẹ̀rọ ṣiṣẹ́
+    - 34:50​​​​Ǹjẹ́ ìpínkiri yóò yanjú ìṣòro ìfìwéránṣẹ́ Zcash's
+    - 42:10​​​​Àìfohùnṣọ̀kan gẹ́gẹ́ bí ẹ̀yà ara, kìí ṣe àṣìṣe
+    - 49:32​​​​Ṣé àwọn ìlànà crypto nílò ọ̀pọ̀lọpọ̀ ìdámọ̀?
+    - 54:35​​​Kí ló dé tí àwọn ènìyàn fi máa ń fi pàṣípààrọ̀ sílẹ̀
+    - 1:01:40​​​​ Báwo ni ZFAV Club ṣe ń jẹ́ kí àwọn olùkópa kárí ayé lè ṣiṣẹ́
+    - 1:08:00​ – Ìta
 
-### Zcash # Àwọn Àkójọ Ìsọfúnni Podcast Zcash
+### Àkópọ̀ Podcast Zcash # Zcash
 
-## Ààbò Zcash àti Light-walletd pẹ̀lú Taylor Hornby
-- **Ọjọ́:** January 18, 2023
-- [Ẹ wo lórí YouTube](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
-- Taylor Hornby ni Olóyè Ààbò Ìgbésí ayé Zcash.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 6:11  Àìlera Ìkọlù inú-Ilé
-    - 12:05  Àbùdá tí Taylor yàn láàyò
-    - 15:50  Yọ ECC silẹ fun ẹbun aabo ominira
-    - 22:30  Igbesẹ ti iṣayẹwo aabo, apẹẹrẹ Ywallet
-    - 31:25  Lightwalletd ìpamọ tradeoffs
-    - 45:10  Zcashd ààbò ati usability tradeoffs
-    - 52:06  Awọn iṣowo aabo olupese isanwo ẹnikẹta
-    - 1:00:20  Àtúnyẹ̀wò ààbò ìṣiṣẹ́ Zcash
-    - 1:04:40  Kí ni Zcash's tóbi ààbò ati ìpamọ misconceptions
+## Ààbò Zcash àti àpò owó Light pẹ̀lú Taylor Hornby
+- **Ọjọ́:** Oṣù Kínní 18, 2023
+- **Ọ̀nà ìsopọ̀:** [Wo lórí YouTube](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
+- **Àkótán:** Taylor Hornby ni olórí ààbò ètò ìṣẹ̀dá-ẹ̀dá-ẹ̀dá Zcash.
+  - **Àwọn àmì àkókò:**
+    - 0:00 – Ìṣáájú
+    - 6:11 – Àìlera Ìjamba Inú
+    - 12:05 – Àìsàn ayanfẹ́ tí Taylor ti rí rí
+    - 15:50 – N fi ECC silẹ fun iranlọwọ aabo ominira
+    - 22:30 - Ilana ti ayẹwo aabo, apẹẹrẹ Ywallet
+    - 31:25 – awọn iṣowo aabo lightwalletd
+    - 45:10 – àwọn ìforúkọsílẹ̀ ààbò zcashd àti ìlò
+    - 52:06 – Awọn paṣipaarọ aabo fun olupese isanwo ẹni-kẹta
+    - 1:00:20 – Àkótán ààbò iṣẹ́ Zcash
+    - 1:04:40 – Kí ni àwọn àṣìrò ààbò àti ìpamọ́ tó tóbi jùlọ Zcash's
 
-## Zcash FUD pẹlu Josh Swihart
-- **Ọjọ́:** January 12, 2023
-- [Ẹ wo lórí YouTube](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
-- **Summary:** Josh Swihart is the Senior Vice President of Growth, Product Strategy and Regulatory Relations at the Electric Coin Company.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 6:00  Ìpínlẹ̀ Dev
-    - 15:22  Àjọṣe tó wà láàárín ètò ìṣàkóso àti ètò ìṣèlú
-    - 28:24  Ìpamọ́ Zcash lòdì sí àwọn ọ̀nà mìíràn
-    - 42:38 – Zcash’s supply audibility
-    - 48:06  Ṣé ìpamọ́ jẹ́ ohun tí o lè fi kún un nígbà tí ó bá yá
-    - 53:58  Zcash blockchain ìkọlù sandblasting
-    - 58:29  Ìpolongo pé Zcash kì í ṣe cypherpunk
-    - 1:04:17  Àwọn ìbéèrè tó kù àti outro
+## Zcash FUD pẹ̀lú Josh Swihart
+- **Ọjọ́:** Oṣù Kínní 12, 2023
+- **Ọ̀nà ìsopọ̀:** [Wo lórí YouTube](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
+- **Àkótán:** Josh Swihart ni Igbákejì Ààrẹ Àgbà fún Ìdàgbàsókè, Ìlànà Ọjà àti Ìbátan Ìlànà ní Electric Coin Company.
+  - **Àwọn àmì àkókò:**
+    - 0:00 – Ìṣáájú
+    - 6:00 – Owó Dev Fund
+    - 15:22 – Àwọn ìbáṣepọ̀ ìlànà àti ìlànà
+    - 28:24 – Ìpamọ́ Zcash's àti àwọn ọ̀nà míràn
+    - 42:38 – Ìgbọ́ran ìpèsè Zcash's
+    - 48:06 – Ṣé ìpamọ́ jẹ́ ẹ̀yà ara tí o lè fi kún nígbà tó bá yá
+    - 53:58 – Ìkọlù yíyọ́ onígbèsè Zcash
+    - 58:29 – Sọ pé Zcash kì í ṣe cypherpunk
+    - 1:04:17 – Àwọn ìbéèrè tó kù àti ìkejì
 
-## Àmọ̀ràn Ètò Ìtìlẹ́yìn tuntun ti Zcash Brazil pẹ̀lú Samara
-- **Ọjọ́:** December 28, 2022
-- [Ẹ wo lórí YouTube](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
-- ** Ìkómọ́ra:** Samara jẹ́ ògbóǹkangí nínú ètò ìbánisọ̀rọ̀pọ̀ àti ọmọ ẹgbẹ́ Zcash Brasil.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 2:50  Kí ló dé tí Zcash fi ní àǹfààní tó dára ní Brazil?
-    - 6:10  Awọn ero lori iṣelọpọ Zcash Brasil lọwọlọwọ vs. iṣelopọ agbara
-    - 8:00  Kí nìdí tí àwọn ará Brazil fi nílò ìpamọ́ ní ti ọ̀ràn ìnáwó?
-    - 12:19  Àwọn ọ̀nà wo ló dára jù lọ láti dé ọ̀dọ̀ àwọn ará Brazil?
-    - 17:25  Kí ni ọ̀nà pàtàkì tí wọ́n ń gbà lo ZEC ní Brazil?
-    - 21:50  Irú ìsọfúnni àti ìṣẹ̀lẹ̀ wo ni àwùjọ Brazil yóò dá sílẹ̀ láti mú kí wọ́n gba àwọn ọmọ?
-    - 26:20  Àwọn ìpínlẹ̀ mìíràn wo ni Zcash Brazil fẹ́ gbòòrò dé?
-    - 28:50  Bawo ni ẹgbẹ ṣe gbero lati ṣe ifowosowopo pẹlu awọn agbegbe Zcash miiran?
-    - 32:05  Kí ni ó mú kí ìsapá ìmúra Zcash Brasil?
-    - 35:30  Bawo ni awọn ẹgbẹ Zcash miiran ṣe le ṣe atilẹyin awọn akitiyan Zcash Brasil?
-    - 38:58  Òmíràn
+## Ìdámọ̀ràn tuntun ti Zcash Brasil fún Samara
+- **Ọjọ́:** Ọjọ́ Kejìdínlọ́gbọ̀n oṣù Kejìlá, ọdún 2022
+- **Ọ̀nà ìsopọ̀:** [Wo lórí YouTube](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
+- **Àkótán:** Samara jẹ́ ògbóǹtarìgì ìbánisọ̀rọ̀ àti ọmọ ẹgbẹ́ Zcash Brasil.
+  - **Àwọn àmì àkókò:**
+    - 0:00 – Ìṣáájú
+    - 2:50 – Kí ló dé tí àǹfààní tó dára wà fún Zcash ní Brazil?
+    - 6:10 – Àwọn èrò lórí ìṣẹ̀dá Zcash Brasil lọ́wọ́lọ́wọ́ àti ìṣẹ̀dá tó ṣeé ṣe
+    - 8:00 – Kí ló dé tí àwọn ará Brazil fi nílò ìpamọ́ owó?
+    - 12:19 – Àwọn ọ̀nà wo ló dára jùlọ láti dé ọ̀dọ̀ àwùjọ Brazil?
+    - 17:25 – Kí ni ọ̀rọ̀ lílo pàtàkì fún ZEC ní Brazil?
+    - 21:50 – Irú àkóónú àti ìṣẹ̀lẹ̀ wo ni àwùjọ Brazil yóò ṣẹ̀dá láti mú kí a gba ọmọ?
+    - 26:20 – Àwọn ìpínlẹ̀ mìíràn wo ni Zcash Brazil fẹ́ fẹ̀ sí?
+    - 28:50 – Báwo ni ẹgbẹ́ náà ṣe gbèrò láti ṣiṣẹ́ pọ̀ pẹ̀lú àwọn agbègbè Zcash mìíràn?
+    - 32:05 – Kí ló ń fún àwọn ìsapá Zcash Brasil níṣìírí láti ṣe àwòrán ilé?
+    - 35:30 – Báwo ni àwọn àjọ Zcash mìíràn ṣe lè ṣètìlẹ́yìn fún àwọn ìsapá Zcash Brasil?
+    - 38:58 – Ìta
 
-## Àkọsílẹ̀ Zcash tuntun pẹ̀lú Joel Valenzuela
-- **Ọjọ́:** December 21, 2022
-- [Ẹ wo lórí YouTube](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
-- **Kókó:** Joël Valenzuela jẹ́ olùdásílẹ̀ ìsọfúnni, òǹkọ̀wé àti alábòójútó ètò ìgbóhùnsáfẹ́rọ̀ Zcash lórí Digital Cash Network.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 7:33  Ìgbà wo ni ìtàn Bitcoin yí padà
-    - 17:04  Zcash FUD àti Crypto Maximalism
-    - 29:25  Ìgbé ayé nípasẹ̀ cryptocurrency
-    - 38:30  Kí ni kí á máa retí láti inú ìtòlẹ́sẹẹsẹ Zcash tuntun
-    - 57:40  Kíkó Zcash àti ìdáhùn àwọn èrò òdì nípa rẹ̀
-    - 1:09:30  ti o pọju alejo fun DCNs Zcash agekuru
-    - 1:18:50  Ibi ti lati wo ati tẹle DCN's titun Zcash adarọ ese
-    - 1:21:52  Òmíràn
+## Podcast Zcash tuntun pẹlu Joel Valenzuela
+- **Ọjọ́:** Ọjọ́ kọkànlélógún oṣù Kejìlá, ọdún 2022
+- **Ọ̀nà ìsopọ̀:** [Wo lórí YouTube](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
+- **Àkótán:** Joël Valenzuela jẹ́ olùdá àkóónú, òǹkọ̀wé àti olùgbàlejò podcast Zcash lórí Digital Cash Network.
+  - **Àwọn àmì àkókò:**
+    - 0:00 – Ìṣáájú
+    - 7:33 – Ìgbà wo ni ìtàn Bitcoin yípadà
+    - 17:04 – Zcash FUD & Crypto Maximalism
+    - 29:25 – Gbígbé pẹ̀lú owó ìsanwó
+    - 38:30 - Kini lati reti lati inu adarọ ese Zcash tuntun
+    - 57:40 – Kíkọ́ Zcash àti dídáhùn sí àwọn èrò tí kò tọ́ nípa rẹ̀
+    - 1:09:30 – Àwọn àlejò tó ṣeé ṣe fún podcast Zcash ti DCN
+    - 1:18:50 – Ibi ti o le wo ati tẹle adarọ ese Zcash tuntun ti DCN
+    - 1:21:52 – Ìta
 
-## Àwọn Ìtàn Zcash pẹ̀lú David láti Zcash Media
-- **Ọjọ́:** September 20, 2022
-- [Ẹ wo lórí YouTube](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
-- Àkópòsí: David jẹ́ òǹkọ̀wé àti olùṣàtúnṣe pẹ̀lú Zcash Media.
-  - ** Àmì àkókò:**
-    - 0:00  Intro, why Zcash & Zcash Medias genesis
-    - 12:00  Ibeere fun ọpọlọpọ awọn ikanni media
-    - 17:50  Ṣíṣàtúnṣe pẹ̀lú iṣẹ́ ìpilẹ̀ṣẹ̀ Bitcoin
-    - 27:00  Ẹkọ nipa Zcash ni ọja ọfẹ
-    - 35:45  Kíkọ́ látinú Bitcoin
-    - 37:20  Kí nìdí tí ìdánilẹ́kọ̀ọ́ tó dára fi ṣe pàtàkì
-    - 48:20  Ìyàtọ̀ láàrin Zcash media àti ZecHub
-    - 55:45  Ohun ti a le kọ lati Bitcoin awujo tita akitiyan
-    - 1:06:35  Fífi Zcash sọ́dọ̀ gbogbo ayé
-    - 1:14:30  Ìpàdé cryptos tobi awọn orukọ
-    - 1:28:55  Ed Snowden
-    - 1:36:55  Wíwo padà sí ìsọfúnni Zcash Media's ti tẹlẹ
-    - 1:43:00  Awọn olugbo afojusun Zcash
-    - 1:51:06  Yiyọ jade ati Zcash bi ohun rere gbogbo
-    - 1:57:20  Ọla ti Zcash
+## Àwọn ìtàn Zcash pẹ̀lú Dáfídì Láti Zcash Media
+- **Ọjọ́:** Oṣù Kẹsàn 20, 2022
+- **Ọ̀nà ìsopọ̀:** [Wo lórí YouTube](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
+- **Àkótán:** David jẹ́ olùkọ̀wé àti olùgbéjáde fún ìgbà pípẹ́ pẹ̀lú Zcash Media.
+  - **Àwọn àmì àkókò:**
+    - 0:00 – Ìṣáájú, ìdí tí ìran Zcash & Zcash Media fi jẹ́
+    - 12:00 – Àìní fún ọ̀pọ̀lọpọ̀ àwọn ikanni media
+    - 17:50 – Ṣíṣe àtúnṣe pẹ̀lú iṣẹ́ àtìlẹ́yìn Bitcoin
+    - 27:00 – Kíkọ́ nípa Zcash ní ọjà ọ̀fẹ́
+    - 35:45 – Kíkọ́ ẹ̀kọ́ láti inú Bitcoin
+    - 37:20 – Kí ló dé tí dídára ẹ̀kọ́ fi ṣe pàtàkì?
+    - 48:20 – Ìyàtọ̀ láàárín Zcash media àti ZecHub
+    - 55:45 – Ohun ti a le kọ lati inu awọn igbiyanju titaja agbegbe Bitcoin
+    - 1:06:35 – Sísọ Zcash fún gbogbo ayé
+    - 1:14:30 – Pípàdé àwọn orúkọ tó tóbi jùlọ nínú crypto
+    - 1:28:55 – Ed Snowden
+    - 1:36:55 – Àtúnyẹ̀wò àwọn akoonu Zcash Media tẹ́lẹ̀
+    - 1:43:00 – Àwọn olùgbọ́ Zcash's fẹ́
+    - 1:51:06 – Yíyọ kúrò àti Zcash gẹ́gẹ́ bí ohun rere gbogbogbò
+    - 1:57:20 – Ọjọ́ iwájú Zcash
 
-## DeFi àti Ìpamọ́ pẹ̀lú Railgun
-- **Ọjọ́:** Ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹjọ ọdún 2022
-- [Ẹ wo lórí YouTube](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
-- **Akópòtó:** Railgun jẹ eto adehun ọlọgbọn ti o fun laaye fifiranṣẹ ikọkọ, awọn iṣowo & DeFi, lori ETH, BSC & Polygon.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 5:30  Kí ni Railgun
-    - 8:10  Kí ni ìnáwó tí a kò pín síbi-ìkáwọ́ (DeFi)
-    - 17:30  Àwọn ìkùdíẹ̀ káàtó ti DeFi
-    - 24:00  Orúkọ àdàkọ àti ìpamọ́
-    - 32:55  Ìtàn ìpilẹ̀ṣẹ̀ Railgun
-    - 38:08  Railgun vs. awọn solusan miiran
-    - 45:00  Iṣowo Railgun lori ọkọ̀ àwárí àlàfo
-    - 49:52  Àwọn alátúnṣe
-    - 58:51  Ìṣirò owó ìdókòwò
-    - 1:04:00  Ìjọ Railgun
-    - 1:07:04  Ìpamọ́ Crypto ní ọdún 5
+## DeFi ati Ìpamọ́ Pẹ̀lú RAILGUN
+- **Ọjọ́:** Ọjọ́ kọkàndínlọ́gbọ̀n oṣù kẹjọ, ọdún 2022
+- **Ọ̀nà ìsopọ̀:** [Wo lórí YouTube](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
+- **Àkótán:** RAILGUN jẹ́ ètò àdéhùn ọlọ́gbọ́n kan tí ó ń jẹ́ kí àwọn ìfiránṣẹ́, ìṣòwò àti DeFi, lórí ETH, BSC àti Polygon ṣeé lò.
+  - **Àwọn àmì àkókò:**
+    - 0:00 – Ìṣáájú
+    - 5:30 – Kí ni RAILGUN
+    - 8:10 – Kí ni ìnáwó tí a kò ṣe àkóso (DeFi)
+    - 17:30 – Àwọn Àléébù DeFi
+    - 24:00 – Àwọn orúkọ àpèlé àti ìpamọ́
+    - 32:55 – Ìtàn ìpilẹ̀ṣẹ̀ RAILGUN
+    - 38:08 – RAILGUN vs. awọn ojutu miiran
+    - 45:00 – Iṣowo RAILGUN lori oluwadi bulọọki kan
+    - 49:52 – Àwọn àtúnṣe
+    - 58:51 – Àwọn àmì ojú irin
+    - 1:04:00 – Àwùjọ RAILGUN
+    - 1:07:04 – Ìpamọ́ ìkọ̀kọ̀ ní ọdún márùn-ún
 
-## Orin NFTs, Ìpamọ́ àti Òmìnira Ọrọ̀-aje pẹ̀lú xcelencia
-- **Ọjọ́:** Ọjọ́ kejìlélógún oṣù kẹjọ ọdún 2022
-- [Ẹ wo lórí YouTube](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
-- ** Ìkómọ́ra:** Xcelencia jẹ́ òṣèré reggaeton nínú ẹ̀ka orin Web3.
-  - ** Àmì àkókò:**
-    - 0:00  Àkọlé
-    - 0:47  Àǹfààní fún àwọn olórin nínú Web3
-    - 3:30  Ṣíṣàtúnṣe ìní NFT orin
-    - 5:20  Ìyàtọ̀ láàrin àwọn ẹ̀dà NFT orin
-    - 7:50  Ìwòye gbogbogbo nípa ilé-iṣẹ́ tí ó ń gbé ìtòlẹ́sẹẹsẹ jáde
-    - 13:48  Àwọn tó ń kó nǹkan jọ lòdì sí àwọn tó ń fetí sílẹ̀
-    - 18:10  Àwọn ọjà orin àgbáyé
-    - 20:30  Ṣe orin NFTs ṣe ipele aaye ere
-    - 23:45  Àwọn òǹkọ̀wé tí ó gbajúgbajà ní LATAM ní Web3
-    - 28:05  Bawo ni Xcelencia ṣe wọ inu crypto
-    - 30:15  Ronu nipa ominira ọrọ-aje
-    - 34:05  Ìpamọ́ àti Zcash
-    - 43:50  Ẹ̀kọ́ àdúgbò ní orí Íńtánẹ́ẹ̀tì
-    - 46:40  Gbigba Zcash si awọn agbegbe miiran
-    - 50:27  Ìmọ̀ràn fún àwọn tó ṣẹ̀ṣẹ̀ ń lò ó
+## Orin NFT, Ìpamọ́ àti Òmìnira Ọrọ̀-ajé pẹ̀lú xcelencia
+- **Ọjọ́:** Ọjọ́ Kejìlélógún oṣù Kẹjọ, ọdún 2022
+- **Ọ̀nà ìsopọ̀:** [Wo lórí YouTube](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
+- **Àkótán:** Xcelencia jẹ́ olórin reggaeton nínú ètò orin Web3.
+  - **Àwọn àmì àkókò:**
+    - 0:00 – Ìṣáájú
+    - 0:47 – Àǹfàní fún àwọn olórin orin ní Web3
+    - 3:30 – Ṣíṣàlàyé ohun tí ó ní NFT nínú orin
+    - 5:20 – Àwọn ìyàtọ̀ láàárín àwọn àtúnṣe orin NFT
+    - 7:50 – Àkótán ti ilé iṣẹ́ ṣíṣàn
+    - 13:48 – Àwọn olùkójọpọ̀ àti àwọn olùgbọ́
+    - 18:10 – Àwọn ọjà orin kárí ayé
+    - 20:30 - Ṣe orin NFTs ṣe ipele aaye ere naa
+    - 23:45 – Àwọn òṣèré LATAM tó gbajúmọ̀ jùlọ ní Web3
+    - 28:05 – Báwo ni Xcelencia ṣe wọ inú crypto
+    - 30:15 – Ríronú nípa òmìnira ọrọ̀ ajé
+    - 34:05 – Ìpamọ́ àti Zcash
+    - 43:50 – Ẹ̀kọ́ àwùjọ ní Web3
+    - 46:40 – Pípín Zcash sí àwọn agbègbè mìíràn
+    - 50:27 – Ìmọ̀ràn fún àwọn olùlò tuntun
 
-## Ìlànà Crypto àti Ìpamọ́ Ìnáwó pẹ̀lú J. W. Verret
-- **Ọjọ́:** August 10, 2022
-- [Ẹ wo lórí YouTube](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
-- J.W. Verret jẹ́ ọ̀jọ̀gbọ́n ní Yunifásítì George Mason. Ó jẹ́ ògbóǹkangí nínú ẹ̀kọ́ nípa òfin ilé-iṣẹ́, owó ìdókòwò, àti òfin báńkì. Ó tún jẹ́ olùgbani-nímọ̀ nípa òfin àti ètò ìṣírò ọ̀rọ̀ ẹ̀sùn, àti olùdásílẹ̀ Crypto Freedom Lab.
-  - ** Àmì àkókò:**
-    - 0:00  Rírí ọ̀kan lára àwọn òrìṣà rẹ
-    - 0:40  Àkọsílẹ̀ Zcash àkọ́kọ́
-    - 1:45  J.W.s WSJ Op-Ed
-    - 5:35  Àkókò tó dára jù lọ láti kọ̀wé
-    - 8:35  Ìpamọ́ Crypto & Ìwé tuntun JW
-    - 18:00  Ìmúṣẹ òfin ìdàpọ̀
-    - 22:14  Ogun lórí owó
-    - 26:00  Àìdánilójú owó ZEC àti ìfilọ̀ owó fiat
-    - 29:25  Iṣẹ́ ìwakùsà Bitcoin àti agbára
-    - 31:50  Àwọn òfin tó jẹ́ ká mọ̀ bóyá ohun kan wà tó yẹ ká fi dáni lójú àti àwọn òfin ààbò
-    - 43:10  KYC & ìpamọ́
-    - 44:50  Bitcoiners, Zcash àti Monero
-    - 54:10  Ìmọ̀ràn ìpamọ́ crypto fún àwọn tó ṣẹ̀ṣẹ̀ dé
-    - 56:05  Má ṣe lo àwọn ohun tí wọ́n fi ń kọjá
-    - 1:01:05  Ilé-ìwádìí Ìdáǹdè Ọ̀fẹ́ Crypto
-
-<!-- protected terms: RAILGUN, lightwalletd, zcashd -->
+## Ìlànà Crypto àti Ìpamọ́ Owó Pẹ̀lú JW Verret
+- **Ọjọ́:** Ọjọ́ kẹwàá oṣù kẹjọ, ọdún 2022
+- **Ọ̀nà ìsopọ̀:** [Wo lórí YouTube](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
+- **Àkótán:** JW Verret jẹ́ ọ̀jọ̀gbọ́n ní George Mason University. Ó jẹ́ ògbóǹkangí nínú òfin ilé-iṣẹ́, àwọn ìwé ẹ̀rí, àti àwọn ilé ìfowópamọ́. Ó tún jẹ́ olùdámọ̀ràn nípa ìṣirò owó àti òfin ìwádìí, àti olùdásílẹ̀ Crypto Freedom Lab.
+  - **Àwọn àmì àkókò:**
+    - 0:00 – Pípàdé ọ̀kan lára àwọn òrìṣà rẹ
+    - 0:40 – Adarọ ese Zcash akọkọ
+    - 1:45 – WSJ Op-Ed ti JW
+    - 5:35 - Akoko ti o dara julọ lati kọ
+    - 8:35 – Ìpamọ́ Crypto & ìwé tuntun JW
+    - 18:00 – Ofin Mixer
+    - 22:14 – Ogun lórí owó
+    - 26:00 – Ìyípadà ZEC àti ìfàsẹ́yìn fiat
+    - 29:25 – Iwakusa Bitcoin ati agbara
+    - 31:50 – Àwọn òfin ẹ̀rí-ìpín àti ààbò
+    - 43:10 – KYC & ìpamọ́
+    - 44:50 – Bitcoiners, Zcash àti Monero
+    - 54:10 – Ìmọ̀ràn ìpamọ́ Crypto fún àwọn olùbẹ̀rẹ̀
+    - 56:05 – Má ṣe lo àwọn ọ̀nà tí a lè gbà kọjá
+    - 1:01:05 – Ile-iṣẹ Ominira Crypto

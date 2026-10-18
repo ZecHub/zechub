@@ -1,4 +1,4 @@
-# ゼロからゼロ知識へ: Transparent vs Shielded Transactions と Unified Addresses
+# Zero to Zero Knowledge: Transparent vs Shielded Transactions と Unified Addresses
 
 **シリーズ:** Zero to Zero Knowledge
 

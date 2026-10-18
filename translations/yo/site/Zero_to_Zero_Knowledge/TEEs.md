@@ -1,8 +1,8 @@
-# Imọ-ara-ara si-ara: Awọn agbegbe Iṣẹ Igbẹkẹle (TEEs)
+# Zero to Zero Knowledge: Awọn agbegbe Iṣẹ Igbẹkẹle (TEEs)
 
-**Series:** Ìmọ̀ Láti Nítòkè-títí-Nítòkò
+**Series:** Zero to Zero Knowledge
 
-Ìmọ̀ Láti Nítòsí Nítòkè ti padà wá pẹ̀lú àkòrí tuntun! 
+Zero to Zero Knowledge ti padà wá pẹ̀lú àkòrí tuntun! 
 Ni ọsẹ yii a ṣawari ** Awọn agbegbe Iṣẹ Igbẹkẹle (TEEs) ** - bi wọn ṣe lo ninu awọn owó aṣiri ati awọn ohun elo blockchain miiran.
 
 ![Ìdánilẹ́kọ̀ọ́ Àwọn Àyíká Ìmúṣẹ Ìgbẹ́kẹ̀lé](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)

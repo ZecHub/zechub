@@ -1,4 +1,4 @@
-# Ihe Ọmụma Na-aga n'Ihu: Usoro Lelantus
+# Zero to Zero Knowledge: Usoro Lelantus
 
 **Series:** Zero to Zero Knowledge
 

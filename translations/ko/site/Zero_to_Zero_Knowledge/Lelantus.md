@@ -1,6 +1,6 @@
-# 제로에서 제로 지식으로: Lelantus 프로토콜
+# Zero to Zero Knowledge: Lelantus 프로토콜
 
-**시리즈:** 제로에서 제로 지식으로
+**시리즈:** Zero to Zero Knowledge
 
 오늘 우리는 **Lelantus**를 살펴보겠습니다!
 

@@ -1,8 +1,8 @@
-# Від нуля до нульового розголошення: довірені середовища виконання (TEE)
+# Zero to Zero Knowledge: довірені середовища виконання (TEE)
 
-**Серія:** Від нуля до нульового розголошення
+**Серія:** Zero to Zero Knowledge
 
-Серія «Від нуля до нульового розголошення» повертається з новою темою!  
+Серія «Zero to Zero Knowledge» повертається з новою темою!  
 Цього тижня ми розглянемо **Trusted Execution Environments (TEE)** — як вони використовуються в privacy coins та інших блокчейн-застосунках.
 
 ![Trusted Execution Environments intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)

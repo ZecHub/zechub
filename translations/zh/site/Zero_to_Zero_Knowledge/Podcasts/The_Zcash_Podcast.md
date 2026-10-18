@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Podcasts/The_Zcash_Podcast.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Zero_to_Zero_Knowledge/Podcasts/The_Zcash_Podcast.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
 </a>
 

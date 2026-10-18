@@ -1,6 +1,6 @@
-# Ìmọ̀ nípa Òdo sí Òdo: Àwọn Ìṣòwò Tí Ó Farahàn sí Ààbò àti Àwọn Àdírẹ́sì Ìṣọ̀kan
+# Zero to Zero Knowledge: Àwọn Ìṣòwò Tí Ó Farahàn sí Ààbò àti Àwọn Àdírẹ́sì Ìṣọ̀kan
 
-**Ẹ̀ka:** Ìmọ̀ òdo sí òdo
+**Ẹ̀ka:** Zero to Zero Knowledge
 
 Tí o bá ń kọ́ nípa Zcash fún ìgbà àkọ́kọ́, o máa rí i pé oríṣi ìṣòwò méjì ló wà: **Àfihàn** àti **Abò**. 
 
@@ -116,4 +116,4 @@ https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*A ṣe àkójọ ojú ìwé yìí láti inú ìfọ̀rọ̀wérọ̀ Zero sí Zero Knowledge àtilẹ̀wá fún wiki ZecHub.*
+*A ṣe àkójọ ojú ìwé yìí láti inú ìfọ̀rọ̀wérọ̀ Zero to Zero Knowledge àtilẹ̀wá fún wiki ZecHub.*

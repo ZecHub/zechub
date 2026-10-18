@@ -1,6 +1,6 @@
-# Zero hadi Zero Maarifa: Mnemonic Seed Maneno
+# Zero to Zero Knowledge: Mnemonic Seed Maneno
 
-**Series:** Zero hadi Zero Maarifa
+**Series:** Zero to Zero Knowledge
 
 Mnemonic seed phrases underpin one of the most important aspects of cryptocurrency - ** kujilinda **. 
 Leo tunajifunza jinsi ya mbegu maneno ni yanayotokana na kutumika katika pochi.
@@ -102,4 +102,4 @@ https://x.com/ZecHub/status/1624125037945946145
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero hadi Zero Knowledge kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero to Zero Knowledge kwa wiki ya ZecHub.*

@@ -1,4 +1,4 @@
-# Zero to Zero Nimdeɛ: Hash Dwumadi ahorow
+# Zero to Zero Knowledge: Hash Dwumadi ahorow
 
 **Series Nnianim Nsɛm** 
 Yɛma wo akwaaba ba nsɛm foforo a ɛtoatoa so mu: **Zero to Zero Knowledge**! 

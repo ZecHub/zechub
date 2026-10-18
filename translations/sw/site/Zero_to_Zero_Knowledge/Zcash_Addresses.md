@@ -1,6 +1,6 @@
-# Maarifa ya Sufuri hadi Sufuri: Uwazi dhidi ya Miamala Iliyolindwa na Anwani Zilizounganishwa
+# Zero to Zero Knowledge: Uwazi dhidi ya Miamala Iliyolindwa na Anwani Zilizounganishwa
 
-**Mfululizo:** Maarifa ya sifuri hadi sifuri
+**Mfululizo:** Zero to Zero Knowledge
 
 Ukijifunza kuhusu Zcash kwa mara ya kwanza utagundua kuwa kuna aina mbili za miamala inayopatikana: **Uwazi** na **Imehifadhiwa**. 
 
@@ -116,4 +116,4 @@ https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa uzi asili wa Maarifa ya Zero hadi Zero kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwa uzi asili wa Zero to Zero Knowledge kwa wiki ya ZecHub.*

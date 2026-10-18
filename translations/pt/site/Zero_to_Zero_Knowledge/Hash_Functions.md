@@ -1,7 +1,7 @@
-# Do Zero ao Conhecimento Zero: Funções Hash
+# Zero to Zero Knowledge: Funções Hash
 
 **Introdução à Série**  
-Bem-vindo a uma nova série: **Do Zero ao Conhecimento Zero**!  
+Bem-vindo a uma nova série: **Zero to Zero Knowledge**!  
 
 Nesta série, aprenderemos os fundamentos de uma ampla gama de tecnologias que compõem nossos protocolos de preservação da privacidade.
 
@@ -96,4 +96,4 @@ Thread original no X: https://x.com/ZecHub/status/1621240109663227906
 
 ---
 
-*Esta página foi compilada a partir da thread original Do Zero ao Conhecimento Zero para a wiki do ZecHub.*
+*Esta página foi compilada a partir da thread original Zero to Zero Knowledge para a wiki do ZecHub.*
