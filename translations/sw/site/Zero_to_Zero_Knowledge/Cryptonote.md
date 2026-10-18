@@ -1,6 +1,6 @@
-# Zero hadi Zero Maarifa: CryptoNote Itifaki
+# Zero to Zero Knowledge: CryptoNote Itifaki
 
-**Series:** Zero hadi Zero Maarifa
+**Series:** Zero to Zero Knowledge
 
 Leo ni siku yenye kupendeza! 
 ** CryptoNote ** itifaki itawezesha nguvu juu ya mlolongo faragha. Leo sisi kujifunza yote ya vipengele vyake muhimu na jinsi imekuwa kutekelezwa na miradi kadhaa mashuhuri faragha .
@@ -106,4 +106,4 @@ https://x.com/ZecHub/status/1636473585781948416
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero hadi Zero Knowledge kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero to Zero Knowledge kwa wiki ya ZecHub.*

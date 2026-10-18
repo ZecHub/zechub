@@ -1,6 +1,6 @@
-# Від нуля до нульового розголошення: Transparent vs Shielded Transactions і Unified Addresses
+# Zero to Zero Knowledge: Transparent vs Shielded Transactions і Unified Addresses
 
-**Серія:** Від нуля до нульового розголошення
+**Серія:** Zero to Zero Knowledge
 
 Якщо ви вперше знайомитеся із Zcash, то побачите, що доступні два типи транзакцій: **Transparent** і **Shielded**.  
 

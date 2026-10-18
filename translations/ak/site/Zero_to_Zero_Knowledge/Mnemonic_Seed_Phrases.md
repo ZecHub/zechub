@@ -1,6 +1,6 @@
-# Nimdeɛ Zero kosi Zero: Mnemonic Aba Nsɛmfua
+# Zero to Zero Knowledge: Mnemonic Aba Nsɛmfua
 
-**Series:** Zero kosi Zero Nimdeɛ
+**Series:** Zero to Zero Knowledge
 
 Mnemonic aba nsɛmfua gyina cryptocurrency afã horow a ɛho hia sen biara no mu biako ase - **self-custody**. 
 Ɛnnɛ yɛsua sɛdeɛ wɔyɛ aba kasasin na wɔde di dwuma wɔ sika kotokuo mu.

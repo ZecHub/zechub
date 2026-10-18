@@ -1,7 +1,7 @@
-# De zéro à la connaissance nulle : fonctions de hachage
+# Zero to Zero Knowledge : fonctions de hachage
 
 **Introduction de la série**  
-Bienvenue dans une nouvelle série : **De zéro à la connaissance nulle** !  
+Bienvenue dans une nouvelle série : **Zero to Zero Knowledge** !  
 
 Dans cette série, nous apprendrons les fondamentaux d’un large éventail de technologies qui entrent dans la composition de nos protocoles de préservation de la vie privée.
 
@@ -96,4 +96,4 @@ Fil X original : https://x.com/ZecHub/status/1621240109663227906
 
 ---
 
-*Cette page a été compilée à partir du fil original De zéro à la connaissance nulle pour le wiki ZecHub.*
+*Cette page a été compilée à partir du fil original Zero to Zero Knowledge pour le wiki ZecHub.*

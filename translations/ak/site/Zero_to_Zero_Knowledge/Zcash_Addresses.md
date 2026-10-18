@@ -1,6 +1,6 @@
-# Zero to Zero Nimdeɛ: Transparent vs Shielded Transactions & Address a Wɔaka abom
+# Zero to Zero Knowledge: Transparent vs Shielded Transactions & Address a Wɔaka abom
 
-**Series:** Zero kosi Zero Nimdeɛ
+**Series:** Zero to Zero Knowledge
 
 Sɛ woresua Zcash ho ade nea edi kan a wubehu sɛ nnwuma ahorow abien na ɛwɔ hɔ: **Transparent** ne **Shielded**. 
 

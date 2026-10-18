@@ -1,7 +1,7 @@
-# Ìmọ̀ òdo sí òdo: Àwọn Iṣẹ́ Hash
+# Zero to Zero Knowledge: Àwọn Iṣẹ́ Hash
 
 **Ìfihàn Ṣíṣeré** 
-Ẹ kú àbọ̀ sí ìtẹ̀jáde tuntun kan: **Ìmọ̀ Òdo sí Òdo**! 
+Ẹ kú àbọ̀ sí ìtẹ̀jáde tuntun kan: **Zero to Zero Knowledge**! 
 
 Nínú àtẹ̀jáde yìí, a ó kọ́ àwọn ìpìlẹ̀ lórí onírúurú ìmọ̀ ẹ̀rọ tí ó wọ inú àwọn ìlànà ìpamọ́ ìpamọ́ wa.
 
@@ -96,4 +96,4 @@ https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
-*A ṣe àkójọ ojú ìwé yìí láti inú ìfọ̀rọ̀wérọ̀ Zero sí Zero Knowledge àtilẹ̀wá fún wiki ZecHub.*
+*A ṣe àkójọ ojú ìwé yìí láti inú ìfọ̀rọ̀wérọ̀ Zero to Zero Knowledge àtilẹ̀wá fún wiki ZecHub.*

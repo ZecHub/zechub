@@ -1,6 +1,6 @@
-# 从零到零知识：Transparent 与 Shielded 交易及 Unified Addresses
+# Zero to Zero Knowledge：Transparent 与 Shielded 交易及 Unified Addresses
 
-**系列：** 从零到零知识
+**系列：** Zero to Zero Knowledge
 
 如果你是第一次了解 Zcash，你会发现这里有两种可用的交易类型：**Transparent** 和 **Shielded**。  
 

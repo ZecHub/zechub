@@ -1,4 +1,4 @@
-# 从 Zero 到 Zero Knowledge：Lelantus Protocol
+# Zero to Zero Knowledge：Lelantus Protocol
 
 **系列：** Zero to Zero Knowledge
 

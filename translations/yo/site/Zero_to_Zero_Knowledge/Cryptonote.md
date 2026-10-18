@@ -1,6 +1,6 @@
-# Ìmọ̀ láti òfo dé òfo: Ìlànà CryptoNote
+# Zero to Zero Knowledge: Ìlànà CryptoNote
 
-**Series:** Ìmọ̀ Láti Nítòkè-títí-Nítòkò
+**Series:** Zero to Zero Knowledge
 
 Ohun kan tó gbàfiyèsí gan-an lọ́jọ́ òní! 
 Àlàkalẹ̀ **CryptoNote** ń jẹ́ kí ìpamọ́ra tó lágbára wà nínú ẹ̀ka. Lónìí a kọ́ gbogbo àwọn ohun pàtàkì rẹ̀ àti bí ó ti ṣe àṣeyege ní ọ̀pọ̀lọpọ̀ àwọn iṣẹ́ ìpamọ́ra tó ṣe pàtàkì.

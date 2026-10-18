@@ -1,6 +1,6 @@
-# Von Null zu Zero Knowledge: CryptoNote-Protokoll
+# Zero to Zero Knowledge: CryptoNote-Protokoll
 
-**Serie:** Von Null zu Zero Knowledge
+**Serie:** Zero to Zero Knowledge
 
 Heute ein interessantes Thema!  
 Das **CryptoNote**-Protokoll ermöglicht starke On-Chain-Privatsphäre. Heute lernen wir alle seine wichtigsten Merkmale kennen und sehen, wie es von mehreren bekannten Privacy-Projekten implementiert wurde.

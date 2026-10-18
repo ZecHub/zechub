@@ -1,6 +1,6 @@
-# De cero a conocimiento cero: Transacciones Transparentes vs Blindadas y Unified Addresses
+# Zero to Zero Knowledge: Transacciones Transparentes vs Blindadas y Unified Addresses
 
-**Serie:** De cero a conocimiento cero
+**Serie:** Zero to Zero Knowledge
 
 Si estás aprendiendo sobre Zcash por primera vez, descubrirás que hay dos tipos de transacciones disponibles: **Transparentes** y **Blindadas**.  
 

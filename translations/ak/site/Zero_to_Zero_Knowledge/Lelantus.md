@@ -1,6 +1,6 @@
-# Nimdeɛ a Ɛwɔ Zero kosi Zero: Lelantus Protocol
+# Zero to Zero Knowledge: Lelantus Protocol
 
-**Series:** Zero kosi Zero Nimdeɛ
+**Series:** Zero to Zero Knowledge
 
 Ɛnnɛ yɛhwɛ **Lelantus**!
 

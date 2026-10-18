@@ -1,4 +1,4 @@
-# Von Null zu Zero Knowledge: Mnemonische Seed-Phrasen
+# Zero to Zero Knowledge: Mnemonische Seed-Phrasen
 
 **Serie:** Zero to Zero Knowledge
 

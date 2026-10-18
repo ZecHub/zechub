@@ -1,4 +1,4 @@
-# Ihe Ọmụma Na-enweghị Ihe Ọ Bụla: Ebe A Tụkwasịrị Obi (TEEs)
+# Zero to Zero Knowledge: Ebe A Tụkwasịrị Obi (TEEs)
 
 **Series:** Zero to Zero Knowledge
 

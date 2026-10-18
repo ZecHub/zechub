@@ -1,4 +1,4 @@
-# De Zero à Zero Knowledge : Environnements d’exécution de confiance (TEEs)
+# Zero to Zero Knowledge : Environnements d’exécution de confiance (TEEs)
 
 **Série :** Zero to Zero Knowledge
 

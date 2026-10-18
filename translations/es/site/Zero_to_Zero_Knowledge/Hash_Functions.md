@@ -1,7 +1,7 @@
-# De cero a conocimiento cero: Funciones hash
+# Zero to Zero Knowledge: Funciones hash
 
 **Introducción de la serie**  
-¡Bienvenidos a una nueva serie: **De cero a conocimiento cero**!  
+¡Bienvenidos a una nueva serie: **Zero to Zero Knowledge**!  
 
 En esta serie aprenderemos los fundamentos de una amplia gama de tecnologías que forman parte de nuestros protocolos de preservación de la privacidad.
 

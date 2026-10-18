@@ -1,6 +1,6 @@
-# ゼロからゼロ知識：CryptoNoteプロトコル
+# Zero to Zero Knowledge：CryptoNoteプロトコル
 
-**シリーズ:** ゼロからゼロ知識
+**シリーズ:** Zero to Zero Knowledge
 
 今日は興味深い話題です！  
 **CryptoNote** プロトコルは、強力なオンチェーンプライバシーを実現します。今日はその主な特徴と、いくつかの著名なプライバシープロジェクトでどのように実装されているかについて学びましょう。
@@ -106,4 +106,4 @@ https://x.com/ZecHub/status/1636473585781948416
 
 ---
 
-*このページは、ZecHub Wikiのためにオリジナルの「ゼロからゼロ知識」スレッドから作成されました。*
+*このページは、ZecHub Wikiのためにオリジナルの「Zero to Zero Knowledge」スレッドから作成されました。*

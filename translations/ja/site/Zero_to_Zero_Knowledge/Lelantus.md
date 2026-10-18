@@ -1,6 +1,6 @@
-# ゼロからゼロ知識：Lelantusプロトコル
+# Zero to Zero Knowledge：Lelantusプロトコル
 
-**シリーズ:** ゼロからゼロ知識
+**シリーズ:** Zero to Zero Knowledge
 
 今日は **Lelantus** について見てみましょう！
 

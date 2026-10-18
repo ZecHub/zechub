@@ -1,6 +1,6 @@
-# ゼロからゼロ知識: ハッシュ関数
+# Zero to Zero Knowledge: ハッシュ関数
 
-**シリーズ紹介**  
+**シリーズ紹介** Zero to Zero Knowledge  
 ゼロからゼロ知識という新しいシリーズへようこそ！
 
 このシリーズでは、私たちのプライバシー保護プロトコルに使われるさまざまな技術の基礎を学んでいきます。
@@ -95,4 +95,4 @@ https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
-*このページは、ZecHub Wikiのためにオリジナルのゼロからゼロ知識スレッドから作成されました。*
+*このページは、ZecHub WikiのためにオリジナルのZero to Zero Knowledgeスレッドから作成されました。*

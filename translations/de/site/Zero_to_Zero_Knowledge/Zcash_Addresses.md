@@ -1,4 +1,4 @@
-# Von Null zu Zero Knowledge: Transparente vs. Shielded-Transaktionen & Unified Addresses
+# Zero to Zero Knowledge: Transparente vs. Shielded-Transaktionen & Unified Addresses
 
 **Serie:** Zero to Zero Knowledge
 

@@ -1,6 +1,6 @@
-# Dari Nol ke Zero-Knowledge: Protokol CryptoNote
+# Zero to Zero Knowledge: Protokol CryptoNote
 
-**Seri:** Dari Nol ke Zero Knowledge
+**Seri:** Zero to Zero Knowledge
 
 Sesuatu yang menarik hari ini!  
 Protokol **CryptoNote** memungkinkan privasi on-chain yang kuat. Hari ini kita akan mempelajari semua fitur utamanya dan bagaimana protokol ini telah diimplementasikan oleh beberapa proyek privasi terkemuka.

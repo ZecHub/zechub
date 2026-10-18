@@ -1,6 +1,6 @@
-# Ìmọ̀ Àìmọ̀: Àwọn Ọ̀rọ̀-Òwe tí a fi ń ṣe àtúnyẹ̀wò
+# Zero to Zero Knowledge: Àwọn Ọ̀rọ̀-Òwe tí a fi ń ṣe àtúnyẹ̀wò
 
-**Series:** Ìmọ̀ Láti Nítòkè-títí-Nítòkò
+**Series:** Zero to Zero Knowledge
 
 Àwọn ọ̀rọ̀ ìkókó tí a fi ń ṣe àtúnyẹ̀wò ara ẹni jẹ́ ìpìlẹ̀ fún ọ̀kan lára àwọn ohun tó ṣe pàtàkì jùlọ nínú cryptocurrency - **ìtọ́jú ara ẹni**. 
 Loni a kọ́ bí a ṣe ń dá gbólóhùn ìkékúrú àti bí wọ́n ṣe ń lò ó nínú àpò.

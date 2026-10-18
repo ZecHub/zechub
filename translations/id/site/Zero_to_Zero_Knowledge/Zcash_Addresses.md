@@ -1,6 +1,6 @@
-# Dari Nol ke Zero-Knowledge: Transaksi Transparan vs Terlindungi & Alamat Terpadu
+# Zero to Zero Knowledge: Transaksi Transparan vs Terlindungi & Alamat Terpadu
 
-**Seri:** Zero ke Zero Knowledge
+**Seri:** Zero to Zero Knowledge
 
 Jika Anda baru pertama kali mempelajari tentang Zcash, Anda akan menemukan bahwa ada dua jenis transaksi yang tersedia: **Transparan** dan **Terlindungi**.
 

@@ -1,8 +1,8 @@
-# Sıfırdan Sıfır Bilgiye: Trusted Execution Environments (TEEs)
+# Zero to Zero Knowledge: Trusted Execution Environments (TEEs)
 
-**Seri:** Sıfırdan Sıfır Bilgiye
+**Seri:** Zero to Zero Knowledge
 
-Sıfırdan Sıfır Bilgiye yeni bir konuyla geri döndü!  
+Zero to Zero Knowledge yeni bir konuyla geri döndü!  
 Bu hafta **Trusted Execution Environments (TEEs)** kavramını inceliyoruz - gizlilik coin'lerinde ve diğer blockchain uygulamalarında nasıl kullanıldıklarını.
 
 ![Trusted Execution Environments giriş](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
@@ -123,4 +123,4 @@ https://x.com/ZecHub/status/1633579659282587651
 
 ---
 
-*Bu sayfa, ZecHub wiki'si için orijinal Sıfırdan Sıfır Bilgiye konu dizisinden derlenmiştir.*
+*Bu sayfa, ZecHub wiki'si için orijinal Zero to Zero Knowledge konu dizisinden derlenmiştir.*
