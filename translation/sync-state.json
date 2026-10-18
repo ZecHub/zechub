@@ -1584,14 +1584,6 @@
       "tool": "gt-static+table-rebuild+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -1795,6 +1787,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -3386,14 +3386,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -3616,6 +3608,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -5204,14 +5204,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -5434,6 +5426,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -7022,14 +7022,6 @@
       "tool": "gt-static+table-rebuild+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -7241,6 +7233,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -8832,14 +8832,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -9062,6 +9054,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -10650,14 +10650,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -10880,6 +10872,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -12468,14 +12468,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/What_25_Second_Blocks_Actually_Change.md": {
       "src": "sha256:e61535ef853120eeb4804ba322bf98b030a7a8e851a438ebf5105f109b6fdcd2",
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
@@ -12695,6 +12687,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -12988,14 +12988,6 @@
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
       "edited": false
     },
     "Privacy_Tools/Secure_Messengers.md": {
@@ -14516,6 +14508,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b+handfix",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "google/gemma-4-26b-a4b",
       "edited": false
     }
   },
@@ -16104,14 +16104,6 @@
       "tool": "gt-static+table-rebuild+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -16331,6 +16323,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -17922,14 +17922,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns+itglossary+itreview",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -18152,6 +18144,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
       "edited": false
     }
   },
@@ -19740,14 +19740,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -19967,6 +19959,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -21558,14 +21558,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -21785,6 +21777,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -23376,14 +23376,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -23606,6 +23598,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -25194,14 +25194,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -25424,6 +25416,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -27012,14 +27012,6 @@
       "tool": "gt-static+table-rebuild+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -27231,6 +27223,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -28822,14 +28822,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -29049,6 +29041,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -30640,14 +30640,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -30870,6 +30862,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -32458,14 +32458,6 @@
       "tool": "gt-static+table-rebuild+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -32645,6 +32637,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -34236,14 +34236,6 @@
       "tool": "codex/gpt-5.6-terra+verbatim-columns",
       "edited": false
     },
-    "Privacy_Tools/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
-      "edited": false
-    },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
@@ -34463,6 +34455,14 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Nym_Mixnet_Wallet_Setup.md": {
+      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
+      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
