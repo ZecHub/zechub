@@ -1,6 +1,6 @@
-# Sıfırdan Sıfır Bilgiye: Lelantus Protokolü
+# Zero to Zero Knowledge: Lelantus Protokolü
 
-**Seri:** Sıfırdan Sıfır Bilgiye
+**Seri:** Zero to Zero Knowledge
 
 Bugün **Lelantus**'a göz atıyoruz!
 
@@ -126,4 +126,4 @@ https://x.com/ZecHub/status/1641902859800150017
 
 ---
 
-*Bu sayfa, ZecHub wiki'si için orijinal Sıfırdan Sıfır Bilgiye gönderi dizisinden derlenmiştir.*
+*Bu sayfa, ZecHub wiki'si için orijinal Zero to Zero Knowledge gönderi dizisinden derlenmiştir.*

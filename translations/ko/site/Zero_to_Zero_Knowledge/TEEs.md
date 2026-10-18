@@ -1,8 +1,8 @@
-# 제로에서 제로 지식: 신뢰 실행 환경(TEE)
+# Zero to Zero Knowledge: 신뢰 실행 환경(TEE)
 
-**시리즈:** 제로에서 제로 지식
+**시리즈:** Zero to Zero Knowledge
 
-제로에서 제로 지식이 새로운 주제로 돌아왔습니다!  
+Zero to Zero Knowledge이 새로운 주제로 돌아왔습니다!  
 이번 주에는 **신뢰 실행 환경(Trusted Execution Environments, TEEs)**에 대해 다룹니다. 이는 프라이버시 코인 및 기타 블록체인 애플리케이션에서 어떻게 사용되는지 살펴보겠습니다.
 
 ![신뢰 실행 환경 소개](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)

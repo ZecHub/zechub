@@ -1,6 +1,6 @@
-# Dari Nol ke Zero Knowledge: Protokol Lelantus
+# Zero to Zero Knowledge: Protokol Lelantus
 
-**Seri:** Zero ke Zero Knowledge
+**Seri:** Zero to Zero Knowledge
 
 Hari ini kita akan melihat **Lelantus**!
 

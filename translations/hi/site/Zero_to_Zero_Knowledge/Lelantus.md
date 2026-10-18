@@ -1,6 +1,6 @@
-# जीरो से ज़ेरो कॉनोव्हेंस: Lelantus प्रोटोकॉल
+# Zero to Zero Knowledge: Lelantus प्रोटोकॉल
 
-**श्रृंखला:** जीरो से ज़ेरो कॉनोव्हेंस
+**श्रृंखला:** Zero to Zero Knowledge
 
 आज हम **Lelantus** के बारे में देखते हैं!
 

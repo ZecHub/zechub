@@ -1,4 +1,4 @@
-# Zero vaseɖe Zero Sidzedze: Hash Dɔwɔnawo
+# Zero to Zero Knowledge: Hash Dɔwɔnawo
 
 **Series ƒe ŋgɔdonya** 
 Míexɔ mi nyuie ɖe nu yeye siwo kplɔ wo nɔewo ɖo me: **Zero to Zero Knowledge**! 
@@ -96,4 +96,4 @@ X ka gbãtɔ: https://x.com/ZecHub/status/1621240109663227906
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero yi Zero Sidzedze ƒe ka gbãtɔ me na ZecHub wiki.*
+*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*

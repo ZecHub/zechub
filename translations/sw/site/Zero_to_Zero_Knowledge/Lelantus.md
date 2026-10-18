@@ -1,6 +1,6 @@
-# Zero hadi Zero Maarifa: Lelantus Itifaki
+# Zero to Zero Knowledge: Lelantus Itifaki
 
-**Series:** Zero hadi Zero Maarifa
+**Series:** Zero to Zero Knowledge
 
 Leo tunaangalia **Lelantus**!
 
@@ -126,4 +126,4 @@ https://x.com/ZecHub/status/1641902859800150017
 
 ---
 
-*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero hadi Zero Knowledge kwa wiki ya ZecHub.*
+*Ukurasa huu ulikusanywa kutoka kwa mada ya awali ya Zero to Zero Knowledge kwa wiki ya ZecHub.*

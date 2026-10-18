@@ -1,6 +1,6 @@
-# Sıfırdan Sıfır Bilgiye: CryptoNote Protokolü
+# Zero to Zero Knowledge: CryptoNote Protokolü
 
-**Seri:** Sıfırdan Sıfır Bilgiye
+**Seri:** Zero to Zero Knowledge
 
 Bugün ilginç bir konu var!  
 **CryptoNote** protokolü güçlü zincir üstü gizlilik sağlar. Bugün tüm temel özelliklerini ve çeşitli önemli gizlilik projeleri tarafından nasıl uygulandığını öğreniyoruz.
@@ -106,4 +106,4 @@ https://x.com/ZecHub/status/1636473585781948416
 
 ---
 
-*Bu sayfa, ZecHub wiki için orijinal Sıfırdan Sıfır Bilgiye flood’undan derlenmiştir.*
+*Bu sayfa, ZecHub wiki için orijinal Zero to Zero Knowledge flood’undan derlenmiştir.*

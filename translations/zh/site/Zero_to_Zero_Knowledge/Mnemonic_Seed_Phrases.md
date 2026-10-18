@@ -1,6 +1,6 @@
-# 从零到零知识：助记词种子短语
+# Zero to Zero Knowledge：助记词种子短语
 
-**系列：** 从零到零知识
+**系列：** Zero to Zero Knowledge
 
 助记词种子短语支撑着加密货币中最重要的方面之一——**自托管**。  
 今天我们来学习种子短语是如何生成并在钱包中使用的。
@@ -102,4 +102,4 @@ https://x.com/ZecHub/status/1624125037945946145
 
 ---
 
-*本页面根据原始“从零到零知识”线程整理编写，用于 ZecHub wiki。*
+*本页面根据原始“Zero to Zero Knowledge”线程整理编写，用于 ZecHub wiki。*

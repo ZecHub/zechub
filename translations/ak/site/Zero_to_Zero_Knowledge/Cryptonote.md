@@ -1,6 +1,6 @@
-# Nimdeɛ a ɛwɔ Zero kosi Zero: CryptoNote Protocol
+# Zero to Zero Knowledge: CryptoNote Protocol
 
-**Series:** Zero kosi Zero Nimdeɛ
+**Series:** Zero to Zero Knowledge
 
 Nea ɛyɛ anigye nnɛ! 
 **CryptoNote** protocol no ma on-chain kokoamsɛm a emu yɛ den tumi yɛ adwuma. Ɛnnɛ yesua ne nneɛma atitiriw nyinaa ne sɛnea wɔde kokoam nsɛm ho adwuma atitiriw pii de adi dwuma.

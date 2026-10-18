@@ -1,6 +1,6 @@
-# De cero a conocimiento cero: Frases semilla mnemotécnicas
+# Zero to Zero Knowledge: Frases semilla mnemotécnicas
 
-**Serie:** De cero a conocimiento cero
+**Serie:** Zero to Zero Knowledge
 
 Las frases semilla mnemotécnicas sustentan uno de los aspectos más importantes de las criptomonedas: la **autocustodia**.  
 Hoy aprenderemos cómo se genera y se utiliza una frase semilla en las wallets.

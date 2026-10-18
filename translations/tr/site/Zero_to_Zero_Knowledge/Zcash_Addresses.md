@@ -1,6 +1,6 @@
-# Sıfırdan Sıfır Bilgiye: Transparent vs Shielded İşlemler ve Unified Address
+# Zero to Zero Knowledge: Transparent vs Shielded İşlemler ve Unified Address
 
-**Seri:** Sıfırdan Sıfır Bilgiye
+**Seri:** Zero to Zero Knowledge
 
 Zcash hakkında ilk kez bilgi ediniyorsanız, kullanılabilen iki tür işlem olduğunu göreceksiniz: **Transparent** ve **Shielded**.  
 
@@ -116,4 +116,4 @@ https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*Bu sayfa, ZecHub wiki için orijinal Sıfırdan Sıfır Bilgiye flood'undan derlenmiştir.*
+*Bu sayfa, ZecHub wiki için orijinal Zero to Zero Knowledge flood'undan derlenmiştir.*

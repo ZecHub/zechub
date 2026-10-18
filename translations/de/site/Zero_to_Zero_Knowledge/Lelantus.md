@@ -1,6 +1,6 @@
-# Von Null zu Zero Knowledge: Lelantus-Protokoll
+# Zero to Zero Knowledge: Lelantus-Protokoll
 
-**Reihe:** Von Null zu Zero Knowledge
+**Reihe:** Zero to Zero Knowledge
 
 Heute werfen wir einen Blick auf **Lelantus**!
 

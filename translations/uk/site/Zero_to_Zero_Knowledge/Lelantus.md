@@ -1,6 +1,6 @@
-# Від нуля до нульового розголошення: протокол Lelantus
+# Zero to Zero Knowledge: протокол Lelantus
 
-**Серія:** Від нуля до нульового розголошення
+**Серія:** Zero to Zero Knowledge
 
 Сьогодні ми розглянемо **Lelantus**!
 

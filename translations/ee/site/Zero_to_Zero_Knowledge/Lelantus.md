@@ -1,6 +1,6 @@
-# Sidzedze Zero vaseɖe Zero: Lelantus ƒe Ðoɖowɔɖi
+# Zero to Zero Knowledge: Lelantus ƒe Ðoɖowɔɖi
 
-**Series:** Zero vaseɖe Zero Sidzedze
+**Series:** Zero to Zero Knowledge
 
 Egbea míelé ŋku ɖe **Lelantus** ŋu!
 
@@ -126,4 +126,4 @@ https://x.com/ZecHub/status/1641902859800150017
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero yi Zero Sidzedze ƒe ka gbãtɔ me na ZecHub wiki.*
+*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*

@@ -1,356 +1,392 @@
-# ZK पॉडकास्ट एपिसोड समरेज़
+# ZK Podcast एपिसोड सारांश
 
 ## एपिसोड
 
-### एपिसोड 334 - ZK रिसर्च अपडेट विले जॉए बोनाऊ
+### एपिसोड 334 – Joe Bonneau के साथ ZK रिसर्च अपडेट
 - **तारीख:** 31 जुलाई, 2024
 - **लिंक:** [https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
-- **समरेज़:** एना और गुइले न्यूयॉर्क विश्वविद्यालय में सहायक प्रोफेसर और a16z क्रिप्टो रिसर्च में रिसर्च पार्टनर जॉए बोनाऊ से मुलाकात करते हैं। वे अपने हालिया काम पर Naysayer प्रूफ, Zero-Knowledge Middleboxes, Sealed-Bid Auctions और अन्य ZK संबंधी रिसर्च प्रोजेक्ट्स पर बातचीत करते हैं।
-- **मेहमान:**
-  - जॉए बोनाऊ ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
-- **मेजबान:**
-  - एना ([AnnaRRose](https://x.com/AnnaRRose))
-  - गुइले ([GuilleAngeris](https://x.com/guilleangeris))
+- **सारांश:** Anna और Guille ने NYU के असिस्टेंट प्रोफेसर और a16z crypto research के रिसर्च पार्टनर Joe Bonneau के साथ बातचीत की। वे Naysayer proofs, Zero-Knowledge Middleboxes, Sealed-Bid Auctions और अन्य ZK-संबंधित शोध परियोजनाओं पर उनके हालिया कार्य पर चर्चा करते हैं।
+- **अतिथि:**
+  - Joe Bonneau ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
+- **होस्ट:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
+  - Guille ([GuilleAngeris](https://x.com/guilleangeris))
 
-### एपिसोड 333 - सत्यापित SQL, Reckle Trees और ZK Coprocessing के साथ Lagrange Labs
+### एपिसोड 333 – Lagrange Labs के साथ Verifiable SQL, Reckle Trees और ZK Coprocessing
 - **तारीख:** 24 जुलाई, 2024
 - **लिंक:** [https://zeroknowledge.fm/333-2](https://zeroknowledge.fm/333-2)
-- **समरेज़:** एना Lagrange Labs के संस्थापक और CEO Ismael Hishon-Rezaizadeh और Lagrange में रिसर्च के प्रमुख Charalampos (Babis) Papamanthou से बातचीत करती है। वे zk-पावर्ड coprocessors, Verifiable SQL, Reckle Trees और उनके नए प्रोवर मार्केटप्लेस पर बातचीत करते हैं।
-- **मेहमान:**
+- **सारांश:** Anna ने Lagrange Labs के संस्थापक और CEO Ismael Hishon-Rezaizadeh तथा Lagrange के शोध प्रमुख Charalampos (Babis) Papamanthou से बातचीत की। वे zk-संचालित coprocessors, Verifiable SQL, Reckle Trees पर फिर से चर्चा करते हैं और उनके नए prover marketplace के बारे में बात करते हैं।
+- **अतिथि:**
   - Ismael Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
   - Charalampos (Babis) Papamanthou ([chbpap](https://x.com/chbpap))
-- **मेजबान:**
-  - एना ([AnnaRRose](https://x.com/AnnaRRose))
+- **होस्ट:**
+  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
 
-### एपिसोड 332 - ब्रसेल्स में हार्ट से कैच-अप
+### एपिसोड 332 – Across के Hart के साथ Brussels बातचीत
 - **तारीख:** 18 जुलाई, 2024
 - **लिंक:** [https://zeroknowledge.fm/332-2](https://zeroknowledge.fm/332-2)
-- **समरेज़:** एना और तारुन ब्रसेल्स में EthCC सप्ताह के दौरान हार्ट लैंबर के साथ बैठक करते हैं, उनके प्रोजेक्ट Across, एक cross-chain interoperability solution और Uma की बहन के प्रोजेक्ट के बारे में चर्चा करते हैं। वे Across के निर्माण, त्याग और अन्य interop समाधानों की तुलना करते हैं।
-- **मेहमान:**
+- **सारांश:** Anna और Tarun ने Brussels में EthCC सप्ताह के दौरान Hart Lambur से मुलाकात की, ताकि उनके प्रोजेक्ट Across, जो एक cross-chain interoperability समाधान और Uma का sister project है, पर चर्चा की जा सके। वे Across की संरचना, समझौतों का अध्ययन करते हैं और इसकी तुलना अन्य interop समाधानों से करते हैं।
+- **अतिथि:**
   - Hart Lambur ([hal2001](https://x.com/hal2001))
-- **मेजबान:**
+- **होस्ट:**
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### एपिसोड 331 – Farcaster के साथ Varun Srinivasan
+### एपिसोड 331 – Varun Srinivasan के साथ Farcaster
 - **तारीख:** 10 जुलाई, 2024
 - **लिंक:** [https://zeroknowledge.fm/331-2](https://zeroknowledge.fm/331-2)
-- **समरेज़:** एना और तारुन Farcaster के सह-संस्थापक Varun Srinivasan के साथ मिलते हैं। वे Farcaster प्रोजेक्ट, इसकी उत्पत्ति और यह अन्य सोशल मीडिया नेटवर्कों से कैसे भिन्न है, इसके डिज़ाइन स्पेस और संभावित अनुप्रयोगों की चर्चा करते हैं।
-- **मेहमान:**
+- **सारांश:** Anna और Tarun, Farcaster के सह-संस्थापक Varun Srinivasan से मिलते हैं। वे Farcaster प्रोजेक्ट, इसकी शुरुआत और इसे मौजूदा social media नेटवर्कों से अलग करने वाली बातों पर चर्चा करते हैं तथा इसके design space और संभावित उपयोगों का अध्ययन करते हैं।
+- **अतिथि:**
   - Varun Srinivasan ([varunsrin](https://x.com/varunsrin))
-- **मेजबान:**
+- **होस्ट:**
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
-### एपिसोड 330 – के लिए प्रोग्रामेबल गोपनीयता के फ़्रेमवर्क Ying Tong और Bryan Gillespie
+### एपिसोड 330 – Ying Tong और Bryan Gillespie के साथ Programmable Privacy के फ्रेमवर्क
 - **तारीख:** 3 जुलाई, 2024
 - **लिंक:** [https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
-- **समरेज़:** Anna और Guille Ying Tong Lai से Geometry Research और Bryan Gillespie से Inversed Tech के साथ बातचीत करते हैं, उनके 'SoK: Programmable Privacy in Distributed Systems' पर काम के बारे में, नए वर्गीकरणों और फ़्रेमवर्कों का अनुसंधान करते हैं।
-- **मेहमान:**
+- **सारांश:** Anna और Guille ने Geometry Research के Ying Tong Lai और Inversed Tech के Bryan Gillespie से ‘SoK: Programmable Privacy in Distributed Systems’ पर उनके काम के बारे में बातचीत की, जिसमें नए वर्गीकरणों और फ्रेमवर्कों का अध्ययन किया गया।
+- **अतिथि:**
   - Ying Tong Lai ([therealyingtong](https://x.com/therealyingtong))
   - Bryan Gillespie ([bryan_gillespie](https://x.com/bryan_gillespie))
-- **मेजबान:**
+- **होस्ट:**
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
 
-### एपिसोड 329 – हैश फ़ंक्शन से क्रिप्टोग्राफिक प्रूफ्स बनाना, Alessandro Chiesa & Eylon Yogev
+### एपिसोड 329 – Alessandro Chiesa और Eylon Yogev के साथ Hash Functions से Cryptographic Proofs बनाना
 - **तारीख:** 26 जून, 2024
 - **लिंक:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
-- **समरेज़:** Anna और Nico EPFL के सहायक प्रोफेसर Alessandro Chiesa और Bar-Ilan University के प्रोफेसर Eylon Yogev से बातचीत करते हैं, उनके हैश फ़ंक्शन से क्रिप्टोग्राफिक प्रूफ्स बनाने के विषय में अपनी प्रकाशन के बारे में।
-- **मेहमान:**
+- **सारांश:** Anna और Nico ने EPFL के एसोसिएट प्रोफेसर Alessandro Chiesa और Bar-Ilan University के प्रोफेसर Eylon Yogev से hash functions से cryptographic proofs बनाने पर उनके प्रकाशन के बारे में बातचीत की।
+- **अतिथि:**
   - Alessandro Chiesa ([profile](https://ic-people.epfl.ch/~achiesa/))
   - Eylon Yogev ([profile](https://eylonyogev.com/))
-- **मेजबान:**
+- **होस्ट:**
   - Anna ([AnnaRRose](https://x.com/AnnaRRose))
   - Nico ([nico_mnbl](https://x.com/nico_mnbl))
 
-## ZL;DR Show
-ZL;DR एक वीडियो फॉर्मेट में सभी चीज़ों के साथ Zcash का प्रदर्शन करता है। एपिसोड बहुत सारे Zcash विषयों, समुदाय, आक्रमण अद्यतनों और समाचार को कवर करते हैं।
+## ZL;DR शो
+ZL;DR एक शो है जो Zcash से जुड़ी हर चीज़ को वीडियो प्रारूप में प्रस्तुत करता है। एपिसोड कई Zcash विषयों, समुदाय, ecosystem अपडेट और समाचारों को कवर करते हैं।
 
-- **नाम परिवर्तन:** नाम ZecDaily से ZL;DR में बदल गया है।
+- **नाम परिवर्तन:** नाम ZecDaily से बदलकर ZL;DR कर दिया गया है।
 
-## Zechub Podcast Playlist
+## ZecHub Podcast प्लेलिस्ट
 
-### गोपनीयता के महत्व, CBDCs & Operation Chokepoint 2.0 | Kurt Opsahl – 11
+### Privacy का महत्व, CBDCs और Operation Chokepoint 2.0 | Kurt Opsahl – 11
 - **तारीख:** 29 मार्च, 2024
 - **लिंक:** [https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
 - **सारांश:**
-  - **टाइमस्टैंप्स:**
+  - **टाइमस्टैम्प:**
     - 00:00 – परिचय और पृष्ठभूमि
     - 04:09 – Web 1.0, Web 2.0 और Web3
-    - 09:00 – क्यों एनक्रिप्शन उपयोगी है
+    - 09:00 – encryption उपयोगी क्यों है
     - 13:40 – Operation Chokepoint 2.0
-    - 19:18 – डेटा संग्रहण पर इतिहास के अध्ययन
-    - 23:25 – माइक्रो लक्ष्यीकरण / मनोवैज्ञानिक
-    - 27:44 – जीरो ज्ञान & Zcash
+    - 19:18 – Data Collection पर इतिहास का सबक
+    - 23:25 – Micro Targeting / Psychographics
+    - 27:44 – Zero Knowledge और Zcash
     - 32:10 – CBDC’s
-    - 37:00 – पुलिस और गोपनीयता बढ़ाते तकनीक
-    - 39:30 – नीति केवल अकेले काम नहीं कर सकती
-    - 44:00 – साइफरपंक मैनिफेस्टो & Filecoin
-    - 48:20 – बाहरी
+    - 37:00 – Law Enforcement और Privacy Enhancing Technology
+    - 39:30 – नीति अकेले कार्य नहीं कर सकती
+    - 44:00 – Cypherpunk Manifesto और Filecoin
+    - 48:20 – समापन
 
-### जनता के लिए गोपनीयता | Amber Baldet
+### Amber Baldet के साथ सार्वजनिक हित के लिए Privacy
 - **तारीख:** 7 फ़रवरी, 2023
 - **लिंक:** [https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB](https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB)
 - **सारांश:**
-  - **टाइमस्टैंप्स:**
+  - **टाइमस्टैम्प:**
+    - 0:00​ – परिचय
+    - 4:40​ – Decentralization और opt-in समाज का निर्माण
+    - 15:20​ – आर्थिक स्वतंत्रता और स्वायत्तता सक्षम करने का Crypto का अवसर
+    - 26:30​ – Zcash का funding model, regulatory capture और ecosystem diversification
+    - 33:39​ – decentralized technologies के माध्यम से आर्थिक और सामाजिक अंतरालों को समाप्त करना
+    - 42:50​ – on-chain governance के तंत्र के रूप में Coin-voting
+    - 50:25​ – crypto-markets में open-source development और capitalization
+    - 59:30​ – Zcash का भविष्य और समापन
+
+### Ryan Taylor (उर्फ AdjyLeak) के साथ ZFAV Club
+- **तारीख:** 25 जनवरी, 2023
+- **लिंक:** [https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX](https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX)
+- **सारांश:**
+- - **लिंक:** [https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
+- **सारांश:** Taylor Hornby Zcash के Ecosystem Security Lead हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00​ – परिचय
+    - 6:11​ – InternalH Collision Vulnerability
+    - 12:05​ – Taylor द्वारा अब तक पाया गया पसंदीदा bug
+    - 15:50​ – स्वतंत्र security grant के लिए ECC छोड़ना
+    - 22:30​ – security audit की प्रक्रिया, Ywallet उदाहरण
+    - 31:25​ – lightwalletd के security tradeoffs
+    - 45:10​ – zcashd के security और usability tradeoffs
+    - 52:06​ – third party payment provider के security tradeoffs
+    - 1:00:20​ – Zcash का operational security सारांश
+    - 1:04:40​ – Zcash के सबसे बड़े security और privacy संबंधी भ्रम क्या हैं
+
+### Josh Swihart के साथ Zcash FUD
+- **तारीख:** 12 जनवरी, 2023
+- **लिंक:** [https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
+- **सारांश:** Josh Swihart, Electric Coin Company में Growth, Product Strategy और Regulatory Relations के Senior Vice President हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00​ – परिचय
+    - 6:00​ – Dev Fund
+    - 15:22​ – regulatory और policy संबंध
+    - 28:24​ – अन्य तरीकों की तुलना में Zcash की privacy
+    - 42:38​ – Zcash की supply audibility
+    - 48:06​ – क्या privacy ऐसा feature है जिसे बाद में जोड़ा जा सकता है
+    - 53:58​ – Zcash blockchain sandblasting attack
+    - 58:29​ – दावा कि Zcash cypherpunk नहीं है
+    - 1:04:17​ – शेष प्रश्न और समापन
+
+### Samara के साथ Zcash Brasil का नवीनतम Grant Proposal
+- **तारीख:** 28 दिसंबर, 2022
+- **लिंक:** [https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
+- **सारांश:** Samara एक PR पेशेवर और Zcash Brasil टीम की सदस्य हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00​ – परिचय
+    - 2:50​ – Brazil में Zcash के लिए अच्छा अवसर क्यों है?
+    - 6:10​ – वर्तमान Zcash Brasil output बनाम संभावित output पर विचार
+    - 8:00​ – Brazilians को financial privacy की आवश्यकता क्यों है?
+    - 12:19​ – Brazilian समुदाय तक पहुँचने के सर्वोत्तम चैनल कौन से हैं?
+    - 17:25​ – Brazil में ZEC का मुख्य उपयोग मामला क्या है?
+    - 21:50​ – अपनाने को बढ़ावा देने के लिए Brazilian समुदाय किस प्रकार की सामग्री और कार्यक्रम बनाएगा?
+    - 26:20​ – Zcash Brazil किन अन्य राज्यों में विस्तार करना चाहता है?
+    - 28:50​ – टीम अन्य Zcash समुदायों के साथ सहयोग की योजना कैसे बनाती है?
+    - 32:05​ – Zcash Brasil के design प्रयासों को क्या प्रेरित करता है?
+    - 35:30​ – अन्य Zcash संगठन Zcash Brasil के प्रयासों का समर्थन कैसे कर सकते हैं?
+    - 38:58​ – समापन
+
+### Joel Valenzuela के साथ नया Zcash Podcast
+- **तारीख:** 21 दिसंबर, 2022
+- **लिंक:** [https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
+- **सारांश:** Joël Valenzuela एक content creator, लेखक और Digital Cash Network पर Zcash podcast के होस्ट हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00​ – परिचय
+    - 7:33​ – Bitcoin की कथा कब बदली
+    - 17:04​ – Zcash FUD और Crypto Maximalism
+    - 29:25​ – cryptocurrency पर जीवनयापन
+    - 38:30​ – नए Zcash podcast से क्या अपेक्षा करें
+    - 57:40​ – Zcash सीखना और इसके बारे में गलतफहमियों का समाधान करना
+    - 1:09:30​ – DCN के Zcash podcast के संभावित अतिथि
+    - 1:18:50​ – DCN के नए Zcash podcast को कहाँ देखें और फॉलो करें
+    - 1:21:52​ – समापन
+
+### Zcash Media के David के साथ Zcash Narratives
+- **तारीख:** 20 सितंबर, 2022
+- **लिंक:** [https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
+- **सारांश:** David लंबे समय से Zcasher हैं और Zcash Media के साथ लेखक / निर्माता हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00​ – परिचय, Zcash और Zcash Media की उत्पत्ति क्यों हुई
+    - 12:00​ – अनेक media चैनलों की आवश्यकता
+    - 17:50​ – Bitcoin के मूल मिशन के साथ सामंजस्य
+    - 27:00​ – मुक्त बाज़ार में Zcash के बारे में शिक्षा
+    - 35:45​ – Bitcoin से सीखना
+    - 37:20​ – शिक्षा की गुणवत्ता क्यों मायने रखती है
+    - 48:20​ – Zcash media और ZecHub के बीच अंतर
+    - 55:45​ – Bitcoin समुदाय के marketing प्रयासों से हम क्या सीख सकते हैं
+    - 1:06:35​ – दुनिया को Zcash के बारे में बताना
+    - 1:14:30​ – crypto के बड़े नामों से मिलना
+    - 1:28:55​ – Ed Snowden
+    - 1:36:55​ – Zcash Media की पिछली सामग्री पर नज़र डालना
+    - 1:43:00​ – Zcash के लक्षित दर्शक
+    - 1:51:06​ – opting out और सामान्य हित के रूप में Zcash
+    - 1:57:20​ – Zcash का भविष्य
+
+### RAILGUN के साथ DeFi और Privacy
+- **तारीख:** 29 अगस्त, 2022
+- **लिंक:** [https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
+- **सारांश:** RAILGUN एक smart contract system है जो ETH, BSC और Polygon पर private sends, trades और DeFi सक्षम करता है।
+  - **टाइमस्टैम्प:**
+    - 0:00​ – परिचय
+    - 5:30​ – RAILGUN क्या है
+    - 8:10​ – decentralized finance (DeFi) क्या है
+    - 17:30​ – DeFi के नुकसान
+    - 24:00​ – Pseudonyms और privacy
+    - 32:55​ – RAILGUN की उत्पत्ति की कहानी
+    - 38:08​ – अन्य समाधानों की तुलना में RAILGUN
+    - 45:00​ – block explorer पर RAILGUN transaction
+    - 49:52​ – Relayers
+    - 58:51​ – Rail tokenomics
+    - 1:04:00​ – RAILGUN समुदाय
+    - 1:07:04​ – 5 वर्षों में Crypto privacy
+
+### Xcelencia के साथ Music NFTs, Privacy और Economic Freedom
+- **तारीख:** 22 अगस्त, 2022
+- **लिंक:** [https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
+- **सारांश:** Xcelencia, Web3 music ecosystem में एक reggaeton कलाकार हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00​ – परिचय
+    - 0:47​ – Web3 में संगीत कलाकारों के लिए अवसर
+    - 3:30​ – music NFT ownership को परिभाषित करना
+    - 5:20​ – music NFT editions के बीच अंतर
+    - 7:50​ – streaming उद्योग का अवलोकन
+    - 13:48​ – Collectors बनाम listeners
+    - 18:10​ – वैश्विक music markets
+    - 20:30​ – क्या music NFTs अवसरों को बराबर बनाते हैं
+    - 23:45​ – Web3 में प्रमुख LATAM कलाकार
+    - 28:05​ – Xcelencia crypto में कैसे आए
+    - 30:15​ – आर्थिक स्वतंत्रता के बारे में विचार
+    - 34:05​ – Privacy और Zcash
+    - 43:50​ – Web3 में समुदाय की शिक्षा
+    - 46:40​ – अन्य समुदायों के सामने Zcash प्रस्तुत करना
+    - 50:27​ – नए उपयोगकर्ताओं के लिए सलाह
+
+### Crypto
+
+  - **टाइमस्टैम्प:**
+    - 0:00​ – परिचय और Bitcoin के शुरुआती दिन
+    - 10:58​ – ZFAV Club की उत्पत्ति
+    - 17:38​ – विज्ञापन चलाने और sponsors रखने के जोखिम
+    - 23:42​ – ZFAV Club का अंतिम लक्ष्य
+    - 29:35​ – ZFAV Club गैर-तकनीकी योगदानकर्ताओं को कैसे सक्षम बनाता है
+    - 34:50​ – क्या decentralization Zcash की PR समस्या हल करता है
+    - 42:10​ – असहमतियाँ एक विशेषता हैं, bug नहीं
+    - 49:32​ – क्या crypto protocols को कई identities की आवश्यकता होती है
+    - 54:35​ – लोग exchange क्यों छोड़ेंगे
+    - 1:01:40​ – ZFAV Club वैश्विक योगदानकर्ताओं को कैसे सक्षम बनाता है
+    - 1:08:00​ – समापन
+
+### Zcash # Zcash Podcast सारांश
+
+## Taylor Hornby के साथ Zcash security और Light-walletd
+- **तारीख:** 18 जनवरी, 2023
+- **लिंक:** [YouTube पर देखें](https://youtu.be/18-xowScNpw?si=3qRPR59wcuPlYQaw)
+- **सारांश:** Taylor Hornby Zcash के Ecosystem Security Lead हैं।
+  - **टाइमस्टैम्प:**
     - 0:00 – परिचय
-    - 4:40 – वितरण और एक आवेदन के समाज बनाना
-    - 15:20 – क्रिप्टो के अवसर आर्थिक स्वतंत्रता और एजेंसी को सक्षम करना
-    - 26:30 – Zcash के फंडिंग मॉडल, नियामक पकड़ और एकोसिस्टम विविधता
-    - 33:39 – डीसेंट्रलाइज्ड तकनीकों के माध्यम से आर्थिक और सामाजिक अंतर को बंद करें
-    - 42:50 – कॉइन-वोटिंग चेन पर गवर्नेंस के एक मैकेनिज़म
-    - 50:25 – ओपन-स्रोत विकास और क्रिप्टो-बाजार में पूंजीकरण
-    - 59:30 – Zcash के भविष्य और बाहरी
+    - 6:11 – InternalH Collision Vulnerability
+    - 12:05 – Taylor द्वारा अब तक पाया गया पसंदीदा bug
+    - 15:50 – स्वतंत्र security grant के लिए ECC छोड़ना
+    - 22:30 – security audit की प्रक्रिया, Ywallet उदाहरण
+    - 31:25 – lightwalletd के security tradeoffs
+    - 45:10 – zcashd के security और usability tradeoffs
+    - 52:06 – third party payment provider के security tradeoffs
+    - 1:00:20 – Zcash का operational security सारांश
+    - 1:04:40 – Zcash के सबसे बड़े security और privacy संबंधी भ्रम क्या हैं
 
-### The ZFAV Club with Ryan Taylor (aka AdjyLeak)
-- **Date:** January 25, 2023
-- **Link:** [Watch on YouTube](https://youtu.be/BYnhTNkQ-3M?si=Uck8wegKCae2bSuX)
-- **Summary:** Taylor Hornby is the Zcash Ecosystem Security Lead.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 6:11 – The InternalH Collision Vulnerability
-    - 12:05 – Favorite bug Taylor has ever found
-    - 15:50 – Leaving ECC for independent security grant
-    - 22:30 – The process of a security audit, Ywallet example
-    - 31:25 – Lightwalletd security tradeoffs
-    - 45:10 – Zcashd security and usability tradeoffs
-    - 52:06 – Third party payment provider security tradeoffs
-    - 1:00:20 – Zcash operational security recap
-    - 1:04:40 – What are Zcash’s biggest security and privacy misconceptions
-
-### Zcash FUD with Josh Swihart
-- **Date:** January 12, 2023
-- **Link:** [Watch on YouTube](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
-- **Summary:** Josh Swihart is the Senior Vice President of Growth, Product Strategy and Regulatory Relations at the Electric Coin Company.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 6:00 – The Dev Fund
-    - 15:22 – Regulatory and policy relationships
-    - 28:24 – Zcash’s privacy vs. other methods
-    - 42:38 – Zcash’s supply audibility
-    - 48:06 – Is privacy a feature you can add on later
+## Josh Swihart के साथ Zcash FUD
+- **तारीख:** 12 जनवरी, 2023
+- **लिंक:** [YouTube पर देखें](https://youtu.be/a6TQt6rmwXU?si=ONa7aR50GR6b6pKO)
+- **सारांश:** Josh Swihart, Electric Coin Company में Growth, Product Strategy और Regulatory Relations के Senior Vice President हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00 – परिचय
+    - 6:00 – Dev Fund
+    - 15:22 – regulatory और policy संबंध
+    - 28:24 – अन्य तरीकों की तुलना में Zcash की privacy
+    - 42:38 – Zcash की supply audibility
+    - 48:06 – क्या privacy ऐसा feature है जिसे बाद में जोड़ा जा सकता है
     - 53:58 – Zcash blockchain sandblasting attack
-    - 58:29 – Claim that Zcash isn’t cypherpunk
-    - 1:04:17 – Remaining questions and outro
+    - 58:29 – दावा कि Zcash cypherpunk नहीं है
+    - 1:04:17 – शेष प्रश्न और समापन
 
-### Zcash Brasil’s latest Grant Proposal with Samara
-- **Date:** December 28, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
-- **Summary:** Samara is a PR professional and a member of the Zcash Brasil team.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 2:50 – Why is there a good opportunity for Zcash in Brazil?
-    - 6:10 – Thoughts on current Zcash Brasil output vs. potential output
-    - 8:00 – Why do Brazilians need financial privacy?
-    - 12:19 – What are the best channels to reach the Brazilian community?
-    - 17:25 – What is the main use case for ZEC in Brazil?
-    - 21:50 – What type of content and events will the Brazilian community create to drive adoption?
-    - 26:20 – What other states does Zcash Brazil want to expand into?
-    - 28:50 – How does the team plan on collaborating with other Zcash communities?
-    - 32:05 – What inspires Zcash Brasil’s design efforts?
-    - 35:30 – How can other Zcash orgs support Zcash Brasil’s efforts?
-    - 38:58 – Outro
+## Samara के साथ Zcash Brasil का नवीनतम Grant Proposal
+- **तारीख:** 28 दिसंबर, 2022
+- **लिंक:** [YouTube पर देखें](https://youtu.be/F5_DXXFSEsQ?si=gUcwUzynrfNIlgZq)
+- **सारांश:** Samara एक PR पेशेवर और Zcash Brasil टीम की सदस्य हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00 – परिचय
+    - 2:50 – Brazil में Zcash के लिए अच्छा अवसर क्यों है?
+    - 6:10 – वर्तमान Zcash Brasil output बनाम संभावित output पर विचार
+    - 8:00 – Brazilians को financial privacy की आवश्यकता क्यों है?
+    - 12:19 – Brazilian समुदाय तक पहुँचने के सर्वोत्तम चैनल कौन से हैं?
+    - 17:25 – Brazil में ZEC का मुख्य उपयोग मामला क्या है?
+    - 21:50 – अपनाने को बढ़ावा देने के लिए Brazilian समुदाय किस प्रकार की सामग्री और कार्यक्रम बनाएगा?
+    - 26:20 – Zcash Brazil किन अन्य राज्यों में विस्तार करना चाहता है?
+    - 28:50 – टीम अन्य Zcash समुदायों के साथ सहयोग की योजना कैसे बनाती है?
+    - 32:05 – Zcash Brasil के design प्रयासों को क्या प्रेरित करता है?
+    - 35:30 – अन्य Zcash संगठन Zcash Brasil के प्रयासों का समर्थन कैसे कर सकते हैं?
+    - 38:58 – समापन
 
-### The new Zcash Podcast with Joel Valenzuela
-- **Date:** December 21, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
-- **Summary:** Joël Valenzuela is a content creator, writer and host of the Zcash podcast on the Digital Cash Network.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 7:33 – When did Bitcoin narrative change
-    - 17:04 – Zcash FUD & Crypto Maximalism
-    - 29:25 – Living off cryptocurrency
-    - 38:30 – What to expect from new Zcash podcast
-    - 57:40 – Learning Zcash and answering misconceptions around it
-    - 1:09:30 – Potential guests for DCN’s Zcash podcast
-    - 1:18:50 – Where to watch and follow DCN’s new Zcash podcast
-    - 1:21:52 – Outro
+## Joel Valenzuela के साथ नया Zcash Podcast
+- **तारीख:** 21 दिसंबर, 2022
+- **लिंक:** [YouTube पर देखें](https://youtu.be/TE1ILZankdM?si=KQYhA0tmqyEqfYMP)
+- **सारांश:** Joël Valenzuela एक content creator, लेखक और Digital Cash Network पर Zcash podcast के होस्ट हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00 – परिचय
+    - 7:33 – Bitcoin की कथा कब बदली
+    - 17:04 – Zcash FUD और Crypto Maximalism
+    - 29:25 – cryptocurrency पर जीवनयापन
+    - 38:30 – नए Zcash podcast से क्या अपेक्षा करें
+    - 57:40 – Zcash सीखना और इसके बारे में गलतफहमियों का समाधान करना
+    - 1:09:30 – DCN के Zcash podcast के संभावित अतिथि
+    - 1:18:50 – DCN के नए Zcash podcast को कहाँ देखें और फॉलो करें
+    - 1:21:52 – समापन
 
-### Zcash Narratives with David From Zcash Media
-- **Date:** September 20, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
-- **Summary:** David is a long-time Zcasher and writer / producer with Zcash Media.
-  - **Timestamps:**
-    - 0:00 – Intro, why Zcash & Zcash Media’s genesis
-    - 12:00 – The need for multiple media channels
-    - 17:50 – Aligning with Bitcoin’s original mission
-    - 27:00 – Educating around Zcash in the free market
-    - 35:45 – Learning from Bitcoin
-    - 37:20 – Why does quality of education matter
-    - 48:20 – The difference between Zcash media and ZecHub
-    - 55:45 – What we can learn from Bitcoin community marketing efforts
-    - 1:06:35 – Communicating Zcash to the world
-    - 1:14:30 – Meeting crypto’s biggest names
+## Zcash Media के David के साथ Zcash Narratives
+- **तारीख:** 20 सितंबर, 2022
+- **लिंक:** [YouTube पर देखें](https://youtu.be/gl5qxA4Q6yk?si=SJ63J0ApDXixXqNV)
+- **सारांश:** David लंबे समय से Zcasher हैं और Zcash Media के साथ लेखक / निर्माता हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00 – परिचय, Zcash और Zcash Media की उत्पत्ति क्यों हुई
+    - 12:00 – अनेक media चैनलों की आवश्यकता
+    - 17:50 – Bitcoin के मूल मिशन के साथ सामंजस्य
+    - 27:00 – मुक्त बाज़ार में Zcash के बारे में शिक्षा
+    - 35:45 – Bitcoin से सीखना
+    - 37:20 – शिक्षा की गुणवत्ता क्यों मायने रखती है
+    - 48:20 – Zcash media और ZecHub के बीच अंतर
+    - 55:45 – Bitcoin समुदाय के marketing प्रयासों से हम क्या सीख सकते हैं
+    - 1:06:35 – दुनिया को Zcash के बारे में बताना
+    - 1:14:30 – crypto के बड़े नामों से मिलना
     - 1:28:55 – Ed Snowden
-    - 1:36:55 – Looking back on Zcash Media’s previous content
-    - 1:43:00 – Zcash’s target audience
-    - 1:51:06 – Opting out and Zcash as a common good
-    - 1:57:20 – The future of Zcash
+    - 1:36:55 – Zcash Media की पिछली सामग्री पर नज़र डालना
+    - 1:43:00 – Zcash के लक्षित दर्शक
+    - 1:51:06 – opting out और सामान्य हित के रूप में Zcash
+    - 1:57:20 – Zcash का भविष्य
 
-### DeFi and Privacy With Railgun
-- **Date:** August 29, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
-- **Summary:** Railgun is a smart contract system that enables private sends, trades & DeFi, on ETH, BSC & Polygon.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 5:30 – What is Railgun
-    - 8:10 – What is decentralized finance (DeFi)
-    - 17:30 – Downsides of DeFi
-    - 24:00 – Pseudonyms and privacy
-    - 32:55 – Railgun origin story
-    - 38:08 – Railgun vs. other solutions
-    - 45:00 – Railgun transaction on a block explorer
+## RAILGUN के साथ DeFi और Privacy
+- **तारीख:** 29 अगस्त, 2022
+- **लिंक:** [YouTube पर देखें](https://youtu.be/jLd7J5BY_aM?si=rDKvg61D9jQLZmrC)
+- **सारांश:** RAILGUN एक smart contract system है जो ETH, BSC और Polygon पर private sends, trades और DeFi सक्षम करता है।
+  - **टाइमस्टैम्प:**
+    - 0:00 – परिचय
+    - 5:30 – RAILGUN क्या है
+    - 8:10 – decentralized finance (DeFi) क्या है
+    - 17:30 – DeFi के नुकसान
+    - 24:00 – Pseudonyms और privacy
+    - 32:55 – RAILGUN की उत्पत्ति की कहानी
+    - 38:08 – अन्य समाधानों की तुलना में RAILGUN
+    - 45:00 – block explorer पर RAILGUN transaction
     - 49:52 – Relayers
     - 58:51 – Rail tokenomics
-    - 1:04:00 – The Railgun Community
-    - 1:07:04 – Crypto privacy in 5 years
+    - 1:04:00 – RAILGUN समुदाय
+    - 1:07:04 – 5 वर्षों में Crypto privacy
 
-### Music NFTs, Privacy and Economic Freedom with xcelencia
-- **Date:** August 22, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
-- **Summary:** Xcelencia is a reggaeton artist in the Web3 music ecosystem.
-  - **Timestamps:**
-    - 0:00 – Intro
-    - 0:47 – Opportunity for music artists in Web3
-    - 3:30 – Defining music NFT ownership
-    - 5:20 – Differences between music NFT editions
-    - 7:50 – Overview of the streaming industry
-    - 13:48 – Collectors vs. listeners
-    - 18:10 – Global music markets
-    - 20:30 – Do music NFTs level the playing field
-    - 23:45 – Leading LATAM artists in Web3
-    - 28:05 – How Xcelencia got into crypto
-    - 30:15 – Thinking about economic freedom
-    - 34:05 – Privacy and Zcash
-    - 43:50 – Community education in Web3
-    - 46:40 – Pitching Zcash to other communities
-    - 50:27 – Advice for new users
-
-### Crypto Regulation and Financial Privacy With J. W. Verret
-- **Date:** August 10, 2022
-- **Link:** [Watch on YouTube](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
-- **Summary:** J.W. Verret is a professor at George Mason University. He is a corporate, securities, and bank law expert. He is also a legal and forensics accounting consultant, and the founder of the Crypto Freedom Lab.
-  - **Timestamps:**
-    - 0:00 – Meeting one of your idols
-    - 0:40 – The first Zcash podcast
-    - 1:45 – J.W.’s WSJ Op-Ed
-    - 5:35 – The best time to write
-    - 8:35 – Crypto privacy & J.W.’s new book
-    - 18:00 – Mixer legality
-    - 22:14 – War on cash
-    - 26:00 – ZEC volatility and fiat inflation
-    - 29:25 – Bitcoin mining and energy
-    - 31:50 – Proof-of-Stake and security laws
-    - 43:10 – KYC & privacy
-    - 44:50 – Bitcoiners, Zcash and Monero
-    - 54:10 – Crypto privacy advice for newcomers
-    - 56:05 – Don’t use pass-throughs
-    - 1:01:05 – Crypto Freedom Lab
-
-## Zcash Podcast Summaries
-
-### Episode 334 – ZK Research Update with Joe Bonneau
-- **Date:** July 31, 2024
-- **Link:** [https://zeroknowledge.fm/334-2](https://zeroknowledge.fm/334-2)
-- **Summary:** Anna and Guille catch up with Joe Bonneau, Assistant Professor at NYU and Research Partner at a16z crypto research. They discuss his recent work on Naysayer proofs, Zero-Knowledge Middleboxes, Sealed-Bid Auctions, and other ZK-related research projects.
-- **Guests:**
-  - Joe Bonneau ([/josephbonneau](https://eprint.iacr.org/2023/1472.pdf))
-- **Hosts:**
-  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
-  - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
-
-### Episode 333 – Verifiable SQL, Reckle Trees and ZK Coprocessing with Lagrange Labs
-- **Date:** July 24, 2024
-- **Link:** [https://zeroknowledge.fm/333-2](https://zeroknowledge.fm/333-2)
-- **Summary:** Anna chats with Ismael Hishon-Rezaizadeh, Founder and CEO at Lagrange Labs, and Charalampos (Babis) Papamanthou, Head of Research at Lagrange. They revisit zk-powered coprocessors, Verifiable SQL, Reckle Trees, and discuss their new prover marketplace.
-- **Guests:**
-  - Ismael Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
-  - Charalampos (Babis) Papamanthou ([chbpap](https://x.com/chbpap))
-- **Host:**
-  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
-
-### Episode 332 – Brussels Catch-Up with Hart from Across
-- **Date:** July 18, 2024
-- **Link:** [https://zeroknowledge.fm/332-2](https://zeroknowledge.fm/332-2)
-- **Summary:** Anna and Tarun sit down with Hart Lambur at EthCC week in Brussels to discuss his project Across, a cross-chain interoperability solution and sister project to Uma. They explore the Across construction, tradeoffs, and compare it to other interop solutions.
-- **Guests:**
-  - Hart Lambur ([hal2001](https://x.com/hal2001))
-- **Hosts:**
-  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
-  - Tarun ([tarunchitra](https://x.com/tarunchitra))
-
-### Episode 331 – Farcaster with Varun Srinivasan
-- **Date:** July 10, 2024
-- **Link:** [https://zeroknowledge.fm/331-2](https://zeroknowledge.fm/331-2)
-- **Summary:** Anna and Tarun meet with Varun Srinivasan, co-founder of Farcaster. They discuss the Farcaster project, its inception, and what separates it from existing social media networks, exploring its design space and potential applications.
-- **Guests:**
-  - Varun Srinivasan ([varunsrin](https://x.com/varunsrin))
-- **Hosts:**
-  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
-  - Tarun ([tarunchitra](https://x.com/tarunchitra))
-
-### Episode 330 – Frameworks for Programmable Privacy with Ying Tong and Bryan Gillespie
-- **Date:** July 3, 2024
-- **Link:** [https://zeroknowledge.fm/330-2](https://zeroknowledge.fm/330-2)
-- **Summary:** Anna and Guille chat with Ying Tong Lai from Geometry Research and Bryan Gillespie from Inversed Tech about their work on ‘SoK: Programmable Privacy in Distributed Systems’, exploring new classifications and frameworks.
-- **Guests:**
-  - Ying Tong Lai ([therealyingtong](https://x.com/therealyingtong))
-  - Bryan Gillespie ([bryan_gillespie](https://x.com/bryan_gillespie))
-- **Hosts:**
-  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
-  - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
-
-### Episode 329 – Building Cryptographic Proofs With Hash Functions from Alessandro Chiesa & Eylon Yogev
-- **Date:** June 26, 2024
-- **Link:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
-- **Summary:** Anna and Nico chat with Alessandro Chiesa, Associate Professor at EPFL, and Eylon Yogev, Professor at Bar-Ilan University, about their publication on building cryptographic proofs from hash functions.
-- **Guests:**
-  - Alessandro Chiesa ([profile](https://ic-people.epfl.ch/~achiesa/))
-  - Eylon Yogev ([profile](https://eylonyogev.com/))
-- **Hosts:**
-  - Anna ([AnnaRRose](https://x.com/AnnaRRose))
-  - Nico ([nico_mnbl](https://x.com/nico_mnbl))
-
-## ZL;DR Show
-ZL;DR is a show that highlights all things Zcash in a video format. The episodes cover a number of Zcash topics, community, ecosystem updates, and news.
-
-- **Name Change:** The name has been changed from ZecDaily to ZL;DR.
-
-## Zechub Podcast Playlist
-
-### The Importance Of Privacy, CBDCs & Operation Chokepoint 2.0 | Kurt Opsahl – 11
-- **Date:** March 29, 2024
-- **Link:** [https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN](https://youtu.be/n0IxTUKLgd4?si=V3FCTYDcTYnzmnGN)
-- **Summary:**
-  - **Timestamps:**
-    - 00:00 – परिचय और पृष्ठभूमि
-    - 04:09 – वेब 1.0, वेब 2.0 और वेब3
-    - 09:00 – क्यों एनक्रिप्शन उपयोगी है
-    - 13:40 – संचालन चोकपॉइंट 2.0
-    - 19:18 – डेटा संग्रहण के इतिहास की शिक्षा
-    - 23:25 – माइक्रो लक्ष्यीकरण / प्रचारमिति
-    - 27:44 – ज़ेरो ज्ञान और जेसी
-    - 32:10 – सीबीडीसी
-    - 37:00 – पुलिस और गोपनीयता बढ़ाते तकनीक
-    - 39:30 – नीति केवल अकेले काम नहीं कर सकती
-    - 44:00 – साइफरपंक मैनिफेस्टो और फ़ाइलकॉइन
-    - 48:20 – अंत
-
-### Privacy for the Public Good with Amber Baldet
-- **Date:** February 7, 2023
-- **Link:** [https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB](https://youtu.be/ILdMTGtVOD4?si=PUgZhnnaeryNIIMB)
-- **Summary:**
-  - **Timestamps:**
+## xcelencia के साथ Music NFTs, Privacy और Economic Freedom
+- **तारीख:** 22 अगस्त, 2022
+- **लिंक:** [YouTube पर देखें](https://youtu.be/nrtoRgb7g28?si=jVOri_8TfykI4ufq)
+- **सारांश:** Xcelencia, Web3 music ecosystem में एक reggaeton कलाकार हैं।
+  - **टाइमस्टैम्प:**
     - 0:00 – परिचय
-    - 4:40 – वितरण और एक सहमति समाज के निर्माण
-    - 15:20 – क्रिप्टो के अवसर आर्थिक स्वतंत्रता और एजेंसी को सक्षम करना
-    - 26:30 – जेसी के फंडिंग मॉडल, नियामक पकड़ और एकोसिस्टम विविधता
-    - 33:39 – संचालन आर्थिक और सामाजिक अंतर के माध्यम से वितरित तकनीकों का उपयोग
-    - 42:50 – कॉइन-वोटिंग चेन पर गवर्नेंस के एक माध्यम के रूप में
-    - 50:25 – ओपन स्रोत विकास और क्रिप्टो-बाजार में पूंजीकरण
-    - 59:30 – जेसी के भविष्य और अंत
+    - 0:47 – Web3 में संगीत कलाकारों के लिए अवसर
+    - 3:30 – music NFT ownership को परिभाषित करना
+    - 5:20 – music NFT editions के बीच अंतर
+    - 7:50 – streaming उद्योग का अवलोकन
+    - 13:48 – Collectors बनाम listeners
+    - 18:10 – वैश्विक music markets
+    - 20:30 – क्या music NFTs अवसरों को बराबर बनाते हैं
+    - 23:45 – Web3 में प्रमुख LATAM कलाकार
+    - 28:05 – Xcelencia crypto में कैसे आए
+    - 30:15 – आर्थिक स्वतंत्रता के बारे में विचार
+    - 34:05 – Privacy और Zcash
+    - 43:50 – Web3 में समुदाय की शिक्षा
+    - 46:40 – अन्य समुदायों के सामने Zcash प्रस्तुत करना
+    - 50:27 – नए उपयोगकर्ताओं के लिए सलाह
 
-### The ZFAV Club with Ryan Taylor (aka Adj
-
-<!-- protected terms: RAILGUN, lightwalletd, zcashd -->
+## J. W. Verret के साथ Crypto Regulation और Financial Privacy
+- **तारीख:** 10 अगस्त, 2022
+- **लिंक:** [YouTube पर देखें](https://youtu.be/20oCI7XAR08?si=3T6awsAesidmjJIS)
+- **सारांश:** J.W. Verret George Mason University में प्रोफेसर हैं। वे corporate, securities और bank law के विशेषज्ञ हैं। वे legal और forensics accounting consultant तथा Crypto Freedom Lab के संस्थापक भी हैं।
+  - **टाइमस्टैम्प:**
+    - 0:00 – अपने आदर्शों में से एक से मिलना
+    - 0:40 – पहला Zcash podcast
+    - 1:45 – J.W. का WSJ Op-Ed
+    - 5:35 – लिखने का सर्वोत्तम समय
+    - 8:35 – Crypto privacy और J.W. की नई पुस्तक
+    - 18:00 – Mixer की वैधता
+    - 22:14 – नकद के विरुद्ध युद्ध
+    - 26:00 – ZEC की volatility और fiat inflation
+    - 29:25 – Bitcoin mining और ऊर्जा
+    - 31:50 – Proof-of-Stake और security laws
+    - 43:10 – KYC और privacy
+    - 44:50 – Bitcoiners, Zcash और Monero
+    - 54:10 – नए लोगों के लिए Crypto privacy सलाह
+    - 56:05 – pass-throughs का उपयोग न करें
+    - 1:01:05 – Crypto Freedom Lab
