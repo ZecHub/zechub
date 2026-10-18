@@ -40,9 +40,25 @@ Setup details for the wallet-level path are in [Route Zcash Wallet Traffic Over 
 
 A Nym-routed broadcast is roughly 12.5× slower than clearnet (~3.4 s). Tor is faster (~3.7×) but uses FIFO streams without mixing, so a global adversary can still correlate. Growing the shared Nym user base increases anonymity more effectively than adding extra delay.
 
+## Application-layer hygiene: nym-swizzle-zcash
+
+Network-layer protection is not enough. Even with a perfect mixnet or VPN, a lightwallet server can still link sessions by observing application-layer patterns:
+
+- Resume-point chaining: clients resume sync from exactly `previous end + 1`, so the server can chain sessions by block height alone.
+- Sync-then-send: wallets sync immediately before broadcasting, letting the server attribute a transaction to the prior sync session.
+
+The [`nym-swizzle-zcash`](https://nym.com/docs/developers/swizzle/zcash) crate implements a Zcash-specific hygiene policy that addresses both. It packages the general `nym-swizzle` primitives into a chain-aware policy for light clients.
+
+**Quantised sync ranges.** Requests are widened to a network-wide grid with day-sized cells. The start is rounded down and the end rounded up. Ranges are deterministic, ascending, and disjoint. Reorg checks stay inside the widened range so the exact resume point is not revealed. Anonymity comes from collision (many wallets emitting the same boundaries) rather than noise.
+
+**Decoupled broadcasts.** Transaction sends are delayed by an exponential distribution (mean 144 blocks ≈ 3 hours, cap 576 blocks ≈ 12 hours) matching ZIP 318 transfer scheduling. Delays exceed typical process lifetimes, so schedules are persisted. The transaction is built only at fire time against a fresh tip. Sync and broadcast should use different servers.
+
+The crate exposes `BlockSource` and `TxBroadcaster` traits, compiles for `wasm32-unknown-unknown`, and has no network stack of its own. See the [Nym docs](https://nym.com/docs/developers/swizzle/zcash) for the full API and examples.
+
 ## Sources
 
 - [How Nym adds anonymity to Zcash wallets](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 October 2026
+- [nym-swizzle-zcash: Hygiene Policy for Zcash Light Clients](https://nym.com/docs/developers/swizzle/zcash) — Nym Docs
 - [Zingo + Nym](https://zingolabs.org/zingo/blog/zingo-nym/) — Zingo Labs
 - [Route Zcash Wallet Traffic Over the Nym Mixnet](/guides/nym-mixnet-wallet-setup) — ZecHub
 - [Nym VPN](/guides/nym-vpn) — ZecHub
