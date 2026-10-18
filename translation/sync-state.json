@@ -3615,7 +3615,7 @@
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -5433,7 +5433,7 @@
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -9061,7 +9061,7 @@
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -10879,7 +10879,7 @@
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -14499,7 +14499,7 @@
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -18151,7 +18151,7 @@
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -23605,7 +23605,7 @@
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -25423,7 +25423,7 @@
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -30869,7 +30869,7 @@
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
