@@ -76,7 +76,7 @@ Hier erfährst du, wie du Zcash Shielded Memos mit der Magic-Wormhole-CLI und zc
 - [Abgeschirmte Pools](/using-zcash/shielded-pools): hier befinden sich die abgeschirmten Notes, die Memos enthalten.
 - [Wallets](/using-zcash/wallets): Verwende den Shielded-Memo-Filter, um Wallets zu finden, die Memos unterstützen.
 - [Zallet Quick Reference Guide](/using-zcash/zallet-quick-reference-guide): Lies empfangene Memos über die Befehlszeile.
-- [Zcash Tools für Creators](/using-zcash/creators-and-tips): Trinkgeld-Tools, die zusammen mit dem Trinkgeld eine Nachricht senden.
+- [Zcash-Tools für Kreative](/using-zcash/creators-and-tips): Trinkgeld-Tools, die zusammen mit dem Trinkgeld eine Nachricht senden.
 
 ### Ressourcen
 

@@ -1,4 +1,4 @@
-# Ledger Shielded ZEC Guia do Utilizador
+# Guia do Usuário do Ledger Shielded ZEC
 
 A 23 de setembro de 2026, Ledger adicionou ZEC shielded nativo à Wallet Desktop da Ledger. Uma conta Zcash passa agora a ter um saldo transparente e um saldo privado no pool Ironwood da Zcash. As suas chaves privadas permanecem no seu Ledger, e todas as transações são revistas e assinadas no dispositivo.
 

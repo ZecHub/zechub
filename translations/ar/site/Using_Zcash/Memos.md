@@ -76,7 +76,7 @@
 - [المجمعات المحمية](/using-zcash/shielded-pools): حيث توجد الملاحظات المحمية التي تحمل المذكرات.
 - [المحافظ](/using-zcash/wallets): استخدم مرشح Shielded Memo للعثور على المحافظ التي تدعم المذكرات.
 - [Zallet دليل المرجع السريع](/using-zcash/zallet-quick-reference-guide): اقرأ المذكرات المستلمة من سطر الأوامر.
-- [Zcash أدوات للمبدعين](/using-zcash/creators-and-tips): أدوات للإكراميات ترسل رسالة مع الإكرامية.
+- [أدوات Zcash للمبدعين](/using-zcash/creators-and-tips): أدوات للإكراميات ترسل رسالة مع الإكرامية.
 
 ### الموارد
 

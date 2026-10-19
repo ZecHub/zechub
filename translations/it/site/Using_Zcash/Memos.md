@@ -76,7 +76,7 @@ Ecco come usare i Zcash memo schermati con la CLI Magic-Wormhole e zcashd per in
 - [Pool schermate](/using-zcash/shielded-pools): dove risiedono le note schermate che contengono memo.
 - [Portafogli](/using-zcash/wallets): usa il filtro Shielded Memo per trovare portafogli che supportano i memo.
 - [Zallet Guida rapida di riferimento](/using-zcash/zallet-quick-reference-guide): leggi i memo ricevuti dalla riga di comando.
-- [Zcash Strumenti per creatori](/using-zcash/creators-and-tips): strumenti per mance che inviano un messaggio insieme alla mancia.
+- [Strumenti Zcash per creator](/using-zcash/creators-and-tips): strumenti per mance che inviano un messaggio insieme alla mancia.
 
 ### Risorse
 

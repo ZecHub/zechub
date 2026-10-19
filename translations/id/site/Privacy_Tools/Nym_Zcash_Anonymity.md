@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nym Anonimitas Mixnet untuk Zcash
+# Anonimitas Mixnet Nym untuk Zcash
 
 > Terakhir diverifikasi: 18 Oktober 2026
 

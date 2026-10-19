@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# إخفاء الهوية عبر Mixnet لـ Nym Mixnet لـ Zcash
+# إخفاء الهوية عبر Nym Mixnet لـ Zcash
 
 > آخر تحقق: 18 أكتوبر 2026
 

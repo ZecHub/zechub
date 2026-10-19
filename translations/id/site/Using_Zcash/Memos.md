@@ -76,7 +76,7 @@ Berikut cara menggunakan Zcash Memo Terlindungi dengan CLI Magic-Wormhole dan zc
 - [Pool Terlindungi](/using-zcash/shielded-pools): tempat catatan terlindungi yang membawa memo berada.
 - [Dompet](/using-zcash/wallets): gunakan filter Memo Terlindungi untuk menemukan dompet yang mendukung memo.
 - [Zallet Panduan Referensi Cepat](/using-zcash/zallet-quick-reference-guide): baca memo yang diterima dari command line.
-- [Zcash Alat untuk Kreator](/using-zcash/creators-and-tips): alat pemberian tip yang mengirim pesan bersama tip.
+- [Alat Zcash untuk Kreator](/using-zcash/creators-and-tips): alat pemberian tip yang mengirim pesan bersama tip.
 
 ### Sumber Daya
 

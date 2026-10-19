@@ -1800,14 +1800,6 @@
       "tool": "gt-static",
       "edited": false
     },
-    "guides/Ledger_Shielded_ZEC.md": {
-      "src": "sha256:f5f05cf9d501d89d1a8c5e02dc36b9de8b055c77c9adf5cfbb5d921454a5c366",
-      "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Privacy_Tools/Nym_Zcash_Anonymity.md": {
       "src": "sha256:f3d7580064f0f736744c6a0f163875b510eb92810c9c41df5bcc5d2b5fe22395",
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
@@ -2199,7 +2191,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -3647,7 +3639,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -4001,7 +3993,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -4033,7 +4025,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -7653,7 +7645,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -7685,7 +7677,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -9133,7 +9125,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -9487,7 +9479,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -9519,7 +9511,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -13347,7 +13339,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -13379,7 +13371,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -14627,7 +14619,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Privacy_Tools/Nym_Zcash_Anonymity.md": {
@@ -14635,7 +14627,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -16847,7 +16839,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -18295,7 +18287,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   },
@@ -22349,7 +22341,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -23789,7 +23781,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Privacy_Tools/Nym_Zcash_Anonymity.md": {
@@ -24151,7 +24143,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -24183,7 +24175,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -25623,7 +25615,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Privacy_Tools/Nym_Zcash_Anonymity.md": {
@@ -29669,7 +29661,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -31109,7 +31101,7 @@
       "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Privacy_Tools/Nym_Zcash_Anonymity.md": {
@@ -31499,11 +31491,11 @@
       "edited": false
     },
     "Using_Zcash/Memos.md": {
-      "src": "sha256:a8939fd76d4e177341b6737d82fb404f07759b91137fbbf6e313f8cd428f84e8",
-      "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
-      "engine": "gt",
-      "mode": "full",
-      "tool": "gt-static",
+      "src": "sha256:a484374366278b58ecb1d767b0e23d829deb569ebd5903e820eecc42f3ecff7a",
+      "src_commit": "22afa90e5abd9cbf59899698c4b96158c5c4210b",
+      "engine": "nllb",
+      "mode": "seed",
+      "tool": "nllb-200-3.3B+linkrepair+jsx-restore+wormhole-historical",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {

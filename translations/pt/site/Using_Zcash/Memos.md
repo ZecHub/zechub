@@ -76,7 +76,7 @@ Eis como usar Zcash Memorandos Protegidos com a CLI Magic-Wormhole e zcashd para
 - [Pools Protegidos](/using-zcash/shielded-pools): onde residem as notas protegidas que transportam memorandos.
 - [Wallets](/using-zcash/wallets): use o filtro de Memorandos Protegidos para encontrar wallets que suportem memorandos.
 - [Zallet Guia de Referência Rápida](/using-zcash/zallet-quick-reference-guide): leia memorandos recebidos a partir da linha de comandos.
-- [Zcash Ferramentas para Criadores](/using-zcash/creators-and-tips): ferramentas de gorjetas que enviam uma mensagem juntamente com a gorjeta.
+- [Ferramentas Zcash para Criadores](/using-zcash/creators-and-tips): ferramentas de gorjetas que enviam uma mensagem juntamente com a gorjeta.
 
 ### Recursos
 

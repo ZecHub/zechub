@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
 </a>
 
-# Zcash Tools für Kreative: Trinkgelder & Profilplattformen
+# Zcash-Tools für Kreative: Trinkgelder & Profilplattformen
 
 > **Ein umfassender Leitfaden zu datenschutzfreundlichen Trinkgeld- und Profil-Tools auf Basis von Zcash für Content-Ersteller, Cypherpunks und die datenschutzbewusste Community.**
 

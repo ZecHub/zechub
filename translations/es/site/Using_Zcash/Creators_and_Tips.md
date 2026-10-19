@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Herramientas para creadores: propinas y plataformas de perfiles
+# Herramientas de Zcash para creadores: propinas y plataformas de perfiles
 
 > **Una guía completa sobre herramientas de propinas y perfiles que preservan la privacidad, creadas sobre Zcash para creadores de contenido, cypherpunks y la comunidad consciente de la privacidad.**
 

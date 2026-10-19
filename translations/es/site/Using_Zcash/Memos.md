@@ -76,7 +76,7 @@ Cada salida protegida de una transacción lleva su propio memorando, por lo que 
 - [Pools protegidos](/using-zcash/shielded-pools): donde se encuentran las notas protegidas que contienen memorandos.
 - [Wallets](/using-zcash/wallets): usa el filtro de memorandos protegidos para encontrar wallets compatibles con memorandos.
 - [Zallet Guía de referencia rápida](/using-zcash/zallet-quick-reference-guide): lee memorandos recibidos desde la línea de comandos.
-- [Zcash Herramientas para creadores](/using-zcash/creators-and-tips): herramientas de propinas que envían un mensaje junto con la propina.
+- [Herramientas de Zcash para creadores](/using-zcash/creators-and-tips): herramientas de propinas que envían un mensaje junto con la propina.
 
 ### Recursos
 

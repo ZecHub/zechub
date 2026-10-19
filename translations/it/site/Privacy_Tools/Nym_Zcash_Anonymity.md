@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica pagina"/>
 </a>
 
-# Nym Anonimato Mixnet per Zcash
+# Anonimato della mixnet di Nym per Zcash
 
 > Ultima verifica: 18 ottobre 2026
 

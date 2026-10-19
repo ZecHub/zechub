@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Tools untuk Kreator: Platform Tip & Profil
+# Alat Zcash untuk Kreator: Platform Tip & Profil
 
 > **Panduan lengkap tentang alat tip dan profil yang menjaga privasi, dibangun di atas Zcash untuk kreator konten, cypherpunk, dan komunitas yang sadar akan privasi.**
 

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Outils pour créateurs : plateformes de pourboires et de profils
+# Outils Zcash pour créateurs : plateformes de pourboires et de profils
 
 > **Un guide complet des outils de pourboires et de profils protégeant la vie privée, conçus sur Zcash pour les créateurs de contenu, les cypherpunks et la communauté soucieuse de sa vie privée.**
 

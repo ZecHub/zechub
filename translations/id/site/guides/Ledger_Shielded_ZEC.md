@@ -1,4 +1,4 @@
-# Panduan Pengguna Ledger Terlindungi ZEC
+# Panduan Pengguna ZEC Terlindungi di Ledger
 
 Pada 23 September 2026, Ledger menambahkan dukungan terlindungi native untuk ZEC ke Wallet Desktop Ledger. Satu akun Zcash kini menyimpan saldo transparan dan saldo privat di pool Ironwood milik Zcash. Private key kamu tetap berada di Ledger kamu, dan setiap transaksi ditinjau serta ditandatangani di perangkat.
 

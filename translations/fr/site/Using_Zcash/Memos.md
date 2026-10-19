@@ -76,7 +76,7 @@ Voici comment utiliser les mémos protégés de Zcash avec l'interface en ligne 
 - [Pools protégés](/using-zcash/shielded-pools) : où se trouvent les notes protégées qui contiennent des mémos.
 - [Portefeuilles](/using-zcash/wallets) : utilisez le filtre Mémo protégé pour trouver les portefeuilles prenant en charge les mémos.
 - [Zallet Guide de référence rapide](/using-zcash/zallet-quick-reference-guide) : lisez les mémos reçus depuis la ligne de commande.
-- [Zcash Outils pour créateurs](/using-zcash/creators-and-tips) : outils de pourboire qui envoient un message avec le pourboire.
+- [Outils Zcash pour créateurs](/using-zcash/creators-and-tips) : outils de pourboire qui envoient un message avec le pourboire.
 
 ### Ressources
 
