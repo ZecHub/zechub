@@ -46,6 +46,20 @@ jobs:
             # commit rather than failing the job for a history reason.
             echo "ref=HEAD^" >> "$GITHUB_OUTPUT"
           fi
+      # The term list every other gate in this job reads. They all load it
+      # defensively (`?? []`), so a misspelled key or a section that stopped
+      # being an array would leave them protecting NOTHING while still exiting
+      # 0. Checked first, so a malformed file fails here with a clear message
+      # instead of turning every gate below it into a silent no-op.
+      - name: Validate protected-terms.json
+        run: node scripts/check-terms-file.mjs
+
+      # The gate's own regression suite: each rule is broken on purpose and
+      # must fail. A gate whose failure mode is exiting 0 cannot be trusted on
+      # green alone.
+      - name: Terms-file gate self-test
+        run: node scripts/check-terms-file.test.mjs
+
       # The brand detector behind the sync's pre-flight hold: a page whose new
       # English names an unprotected brand waits instead of being translated
       # twice. Advisory for contributors, so only its self-test runs here.
