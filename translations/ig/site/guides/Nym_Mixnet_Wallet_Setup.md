@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
 </a>
 
@@ -20,10 +20,10 @@ Maka ndabere VPN na dVPN izugbe, lee [VPN na dVPN](./VPN_and_DVPN.md).
 Ịkwụ ụgwọ Zcash echekwara na ngwaọrụ nzuzo netwọk na-edozi nsogbu dị iche iche:
 
 - **Zcash** na-echebe nkọwa azụmahịa n'usoro.
-- E mere nhazi Nym mixnet** iji belata njikọ dị n'etiti njirimara netwọk gị na okporo ụzọ obere akpa ọrụ.
+- E mere nhazi **Nym mixnet** iji belata njikọ dị n'etiti njirimara netwọk gị na okporo ụzọ obere akpa ọrụ.
 - Ebe a na-aga site na ọwara NymVPN nke dị n'usoro kwesịrị ịhụ ụzọ ọpụpụ Nym kama ịhụ IP ụlọ/mkpanaka gị.
 
-Ngwakọta Nym na-eji ọtụtụ hops, ngwakọta ngwugwu, igbu oge na-enweghị usoro, mkpuchi okporo ụzọ, na izochi yabasị iji belata ntapu netwọk-metadata.
+Ngwakọta Nym's na-eji ọtụtụ hops, ngwakọta ngwugwu, igbu oge na-enweghị usoro, mkpuchi okporo ụzọ, na izochi yabasị iji belata ntapu netwọk-metadata.
 
 Nym anaghị echebe megide ngwaọrụ mebiri emebi, ngwanrọ obere akpa ọjọọ, okwu mgbake ekpughere, njirimara ị na-ekpughe site na akaụntụ mgbanwe, ma ọ bụ mfu nzuzo nke ọrụ Zcash doro anya kpatara.
 
@@ -69,7 +69,7 @@ Isi mmalite:
 
 ### Nwayo na-agbagharị agbagharị
 
-NozyWallet nwekwara ụzọ njem nke maara Nym. Mmejuputa ya ugbu a na-akwado nhazi nnyefe azụmahịa na-apụ apụ site na mixnet Nym na ụzọ Nym dVPN dị iche maka njikọta obere ngọngọ. Were ndị a dị ka ihe nchebe pụrụ iche kama iche na arịrịọ obere akpa ọ bụla na-eji mixnet na akpaghị aka.
+NozyWallet nwekwara ụzọ njem Nym-aware. Mmejuputa ya ugbu a na-akwado nhazi nnyefe azụmahịa na-apụ apụ site na mixnet Nym na ụzọ Nym dVPN dị iche maka njikọta obere ngọngọ. Were ndị a dị ka ihe nchebe pụrụ iche kama iche na arịrịọ obere akpa ọ bụla na-eji mixnet na akpaghị aka.
 
 Isi mmalite:
 
@@ -81,11 +81,11 @@ Isi mmalite:
 
 Zodl nwere **Tor Protection** arụnyere n'ime ya ugbu a, ọ bụghị otu njikọta Nym nke akọwara n'elu maka Zingo, Zkool, na Nozy.
 
-Atụmatụ Tor nke Zodl nwere ike ibugharị nnyefe azụmahịa, weghachite data azụmahịa, arịrịọ ọnụego mgbanwe, na oku API nke ndị ọzọ site na Tor. Nym kwuru na Septemba 24, 2026 na ọ ka nọ na mkparịta ụka na-arụsi ọrụ ike na ndị otu Zodl gbasara njikọta mixnet sara mbara.
+Atụmatụ Tor Zodl's nwere ike ibugharị nnyefe azụmahịa, weghachite data azụmahịa, arịrịọ ọnụego mgbanwe, na oku API nke ndị ọzọ site na Tor. Nym kwuru na Septemba 24, 2026 na ọ ka nọ na mkparịta ụka na-arụsi ọrụ ike na ndị otu Zodl gbasara njikọta mixnet sara mbara.
 
 Maka Zodl taa, jiri nke ọ bụla n'ime ha:
 
-- Nchekwa Tor nke Zodl dere, ma ọ bụ
+- Nchekwa Tor Zodl's dere, ma ọ bụ
 - NymVPN nke dị n'ọkwa sistemụ ma ọ bụrụ na ebumnuche gị bụ ibugharị okporo ụzọ ngwaọrụ n'ozuzu nke obere akpa ahụ site na Nym.
 
 Echela na Tor na Nym bụ ụzọ ndị ọzọ a ga-esi na-ebuga n'ime obere akpa ego n'ihi na ha abụọ bụ netwọk nzuzo.
@@ -101,16 +101,16 @@ Isi mmalite:
 
 ## Ọdịda: NymVPN dị larịị sistemụ
 
-Nke a bụ nhọrọ Nym kachasị dakọtara n'ọtụtụ ebe n'ihi na ọ chọghị obere akpa iji ghọta ntọala proxy nke Nym kpọmkwem.
+Nke a bụ nhọrọ Nym kachasị dakọtara n'ọtụtụ ebe n'ihi na ọ chọghị obere akpa iji ghọta ntọala proxy Nym-specific.
 
 ### 1. Wụnye NymVPN
 
-Budata NymVPN naanị site na weebụsaịtị gọọmentị Nym ma ọ bụ ụlọ ahịa ikpo okwu gọọmentị:
+Budata NymVPN naanị site na weebụsaịtị gọọmentị Nym's ma ọ bụ ụlọ ahịa ikpo okwu gọọmentị:
 
 - https://nym.com/
 - https://nym.com/blog/nymvpn-v2026.12
 
-NymVPN na-akwado gam akporo, iOS, Linux, Windows, na macOS.
+NymVPN na-akwado Android, iOS, Linux, Windows, na macOS.
 
 ### 2. Họrọ ụdị Mixnet
 
@@ -155,7 +155,7 @@ Etinyela foto ndị nwere adreesị obere akpa ego, nguzozi, njirimara azụmah�
 
 NymVPN na-ekpughekwa ụdị proxy ngwa-na-wallet site na iji SOCKS5 / RPC na-agagharị na mixnet.
 
-Akwụkwọ ntọala ọha nke Nym gosiri nke a karịsịa site na nhazi RPC nke ụdị Ethereum. Ọ bara uru maka ngwanrọ nke na-akwado ụzọ proxy/RPC nke ọma, mana ekwesighi iche na ọ ga-arụ ọrụ na obere akpa Zcash ọ bụla.
+Akwụkwọ ntọala ọha Nym's gosiri nke a karịsịa site na nhazi RPC nke ụdị Ethereum. Ọ bara uru maka ngwanrọ nke na-akwado ụzọ proxy/RPC nke ọma, mana ekwesighi iche na ọ ga-arụ ọrụ na obere akpa Zcash ọ bụla.
 
 Jiri ụzọ a naanị mgbe akwụkwọ nke obere akpa ahụ kwadoro nkwado proxy ma ọ bụ RPC dakọtara.
 
@@ -187,7 +187,7 @@ Nduzi bara uru:
 
 ## Ihe ndị a ga-atụle na mkpanaka
 
-Na gam akporo na iOS, oghere VPN sistemụ arụmọrụ na-abụkarị ụzọ kachasị mfe isi zipu okporo ụzọ obere akpa izugbe site na NymVPN: jikọọ NymVPN mbụ, wee mepee obere akpa ahụ.
+Na Android na iOS, oghere VPN sistemụ arụmọrụ na-abụkarị ụzọ kachasị mfe isi zipu okporo ụzọ obere akpa izugbe site na NymVPN: jikọọ NymVPN mbụ, wee mepee obere akpa ahụ.
 
 Ọ bụrụ na VPN ọzọ, firewall, ma ọ bụ ihe mgbochi mgbasa ozi nke dabere na VPN dị na mpaghara eburula ụzọ VPN sistemụ ahụ, ngwaahịa abụọ ahụ nwere ike ọ gaghị enwe ike ịrụ ọrụ n'otu oge. Kwenye ọnọdụ VPN nke sistemụ arụmọrụ tupu i chee na e nwere obere akpa ahụ.
 

@@ -1,52 +1,52 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Halaman Edihttps://github.com/ZecHub/zechub/pull/2238t"/>
 </a>
 
-# Mengarahkan Lalu Lintas Dompet Zcash Melalui Nym Mixnet
+# Rutekan Lalu Lintas Dompet Zcash Melalui Mixnet Nym
 
 > Terakhir diverifikasi: 29 September 2026
 
-Transaksi terlindungi Zcash melindungi data transaksi secara on-chain, tetapi dompet tetap berkomunikasi melalui internet. Pengamat jaringan berpotensi mempelajari metadata seperti alamat IP kamu, kapan dompet kamu terhubung, dan infrastruktur mana yang dihubungi oleh dompet tersebut.
+Transaksi terlindungi Zcash melindungi data transaksi on-chain, tetapi dompet masih berkomunikasi melalui internet. Pengamat jaringan berpotensi mengetahui metadata seperti alamat IP kamu, kapan dompet kamu terhubung, dan infrastruktur mana yang dihubunginya.
 
-Nym menambahkan lapisan privasi jaringan yang terpisah. Per September 2026, pendekatan terbaik bergantung pada dompet yang kamu gunakan:
+Nym menambahkan lapisan privasi jaringan terpisah. Per September 2026, pendekatan terbaik bergantung pada dompet:
 
-1. **Utamakan integrasi Nym asli pada dompet jika tersedia.**
-2. Jika tidak, gunakan **mode NymVPN Mixnet tingkat sistem** agar lalu lintas jaringan dompet kamu diarahkan melalui Nym tanpa bergantung pada dukungan proxy khusus dompet tersebut.
+1. **Utamakan integrasi Nym bawaan dompet jika tersedia.**
+2. Jika tidak, gunakan **mode Mixnet NymVPN tingkat sistem** agar lalu lintas jaringan dompet dirutekan melalui Nym tanpa bergantung pada dukungan proxy khusus dompet.
 
-Untuk latar belakang umum mengenai VPN dan dVPN, lihat [VPN & dVPN](./VPN_and_DVPN.md).
+Untuk latar belakang umum tentang VPN dan dVPN, lihat [VPN & dVPN](./VPN_and_DVPN.md).
 
-## Apa yang ditambahkan Nym — dan apa yang tidak
+## Yang ditambahkan Nym — dan yang tidak
 
-Pembayaran Zcash yang terlindungi dan alat privasi jaringan menyelesaikan masalah yang berbeda:
+Pembayaran Zcash terlindungi dan alat privasi jaringan menyelesaikan masalah yang berbeda:
 
-- **pool terlindungi Zcash** melindungi detail transaksi secara on-chain.
-- **routing Nym mixnet** dirancang untuk mengurangi keterkaitan antara identitas jaringan aslimu dengan layanan yang menerima trafik dompet.
-- Tujuan yang dihubungi melalui terowongan NymVPN tingkat sistem seharusnya melihat exit Nym, bukan IP rumah/seluler milikmu.
+- **Pool terlindungi Zcash** melindungi detail transaksi on-chain.
+- **Perutean mixnet Nym** dirancang untuk mengurangi keterkaitan antara identitas jaringan asli kamu dan layanan yang menerima lalu lintas dompet.
+- Tujuan yang dihubungi melalui tunnel NymVPN tingkat sistem seharusnya melihat exit Nym, bukan IP rumah/seluler kamu.
 
-Mixnet milik Nym menggunakan beberapa hop, pencampuran paket, penundaan acak, cover traffic, dan enkripsi onion untuk mengurangi kebocoran metadata jaringan.
+Mixnet Nym menggunakan beberapa hop, pencampuran paket, penundaan acak, lalu lintas pelindung, dan enkripsi onion untuk mengurangi kebocoran metadata jaringan.
 
-Nym **tidak** melindungi kamu dari perangkat yang terkompromi, perangkat lunak dompet yang berbahaya, frasa pemulihan yang terekspos, identitas yang kamu ungkapkan melalui akun exchange, atau hilangnya privasi yang disebabkan oleh aktivitas transparan Zcash.
+Nym **tidak** melindungi dari perangkat yang dikompromikan, perangkat lunak dompet berbahaya, frasa pemulihan yang terekspos, identitas yang kamu ungkapkan melalui akun exchange, atau hilangnya privasi akibat aktivitas Zcash transparan.
 
-## Dukungan Nym asli: gunakan ini terlebih dahulu saat tersedia
+## Dukungan Nym bawaan: gunakan ini terlebih dahulu jika tersedia
 
-Nym mengumumkan pada 24 September 2026 bahwa pekerjaan Hibah Komunitas Zcash mereka telah selesai dan dukungan mixnet asli akan hadir di Zcash dompet asli.
+Nym mengumumkan pada 24 September 2026 bahwa pekerjaan Community Grant Zcash telah selesai dan dukungan mixnet bawaan sedang dirilis pada dompet Zcash yang sebenarnya.
 
 ### Dompet Zingo!
 
-Zingo PC menyertakan transport Nym asli. Zingo Mobile juga menyertakan Mixnet Mode pada iOS dan Android menggunakan proxy Nym di dalam aplikasi.
+Zingo PC menyertakan transport Nym bawaan. Zingo Mobile juga menyertakan Mode Mixnet pada iOS dan Android dengan menggunakan proxy Nym di dalam aplikasi.
 
 Perilaku saat ini yang didokumentasikan oleh Zingo:
 
-- Kontrol Nym berada di bawah **Settings → Nym Mixnet**.
-- Pengiriman pembayaran diarahkan melalui mixnet.
+- Kontrol Nym berada di **Settings → Mixnet Nym**.
+- Pengiriman pembayaran dirutekan melalui mixnet.
 - Transmisi migrasi Ironwood mengikuti jalur pengiriman terlindungi yang sama.
-- Permintaan harga ZEC juga diarahkan melalui mixnet.
-- Pengiriman akan gagal secara tertutup saat Nym diaktifkan: jika transport mixnet tidak tersedia, pembayaran tidak akan dikirim secara diam-diam melalui clearnet.
-- **Sinkronisasi chain saat ini tidak diarahkan melalui mixnet** di Zingo PC. Compact blocks, query nullifier, pengambilan transaksi, lalu lintas mempool, dan pemeriksaan kesehatan server masih menggunakan koneksi server normal.
+- Permintaan harga ZEC juga dirutekan melalui mixnet.
+- Pengiriman gagal secara tertutup saat Nym diaktifkan: jika transport mixnet tidak tersedia, pembayaran tidak diam-diam dikirim melalui clearnet.
+- **Sinkronisasi chain saat ini tidak dirutekan melalui mixnet** di Zingo PC. Blok ringkas, kueri nullifier, pengambilan transaksi, lalu lintas mempool, dan pemeriksaan kesehatan server masih menggunakan koneksi server normal.
 
-Perbedaan itu penting: integrasi asli dari Zingo melindungi jalur siaran dengan keterkaitan tertinggi, tetapi ini belum menjadi terowongan jaringan perangkat penuh.
+Perbedaan itu penting: integrasi bawaan Zingo melindungi jalur siaran dengan keterkaitan tertinggi, tetapi belum merupakan tunnel jaringan perangkat penuh.
 
-Jika model ancaman kamu juga mengharuskan penyembunyian trafik sinkronisasi dari server, gunakan tunnel privasi tingkat sistem seperti NymVPN selain memahami latensi dan kompleksitas tambahan yang ditimbulkan oleh hal ini.
+Jika threat model kamu juga mengharuskan penyembunyian lalu lintas sinkronisasi dari server, gunakan tunnel privasi tingkat sistem seperti NymVPN sembari memahami latensi dan kerumitan tambahan yang ditimbulkannya.
 
 Sumber:
 
@@ -56,11 +56,11 @@ Sumber:
 
 ### Zkool
 
-Nym melaporkan bahwa **Zkool** kini mendukung koneksi ke infrastruktur RPC Zcash melalui Nym mixnet menggunakan sakelar bawaan.
+Nym melaporkan bahwa **Zkool** kini mendukung koneksi ke infrastruktur RPC Zcash melalui mixnet Nym menggunakan toggle bawaan.
 
-Zkool adalah penerus dari YWallet yang dikelola secara aktif. Proyek ini juga mendukung proxying Tor dan layanan onion untuk koneksi server Zcash.
+Zkool adalah penerus YWallet yang dipelihara secara aktif. Proyeknya juga mendukung proxy Tor dan layanan onion untuk koneksi server Zcash.
 
-Lebih baik gunakan opsi Nym asli dari Zkool daripada mencoba memaksakan build YWallet yang lebih lama melalui jalur proxy yang tidak terdokumentasi.
+Utamakan opsi Nym bawaan Zkool daripada mencoba memaksa build YWallet yang lebih lama melalui jalur proxy yang tidak didokumentasikan.
 
 Sumber:
 
@@ -69,7 +69,7 @@ Sumber:
 
 ### Nozy
 
-NozyWallet juga memiliki jalur transport yang sadar Nym. Implementasi saat ini mendukung perutean pengiriman transaksi keluar melalui Nym mixnet dan jalur Nym dVPN terpisah untuk sinkronisasi compact-block. Anggaplah ini sebagai perlindungan yang berbeda, jangan berasumsi bahwa setiap permintaan dompet secara otomatis menggunakan mixnet.
+NozyWallet juga memiliki jalur transport yang mendukung Nym. Implementasinya saat ini mendukung perutean pengiriman transaksi keluar melalui mixnet Nym dan jalur dVPN Nym terpisah untuk sinkronisasi blok ringkas. Perlakukan ini sebagai perlindungan yang berbeda alih-alih mengasumsikan setiap permintaan dompet secara otomatis menggunakan mixnet.
 
 Sumber:
 
@@ -79,29 +79,29 @@ Sumber:
 
 ### Zodl
 
-Zodl saat ini memiliki **Perlindungan Tor** bawaan, tidak sama dengan integrasi Nym asli yang dijelaskan di atas untuk Zingo, Zkool, dan Nozy.
+Zodl saat ini memiliki **Perlindungan Tor** bawaan, bukan integrasi Nym bawaan yang sama seperti dijelaskan di atas untuk Zingo, Zkool, dan Nozy.
 
-Fitur Tor milik Zodl dapat mengarahkan pengiriman transaksi, pengambilan data transaksi, permintaan kurs exchange, dan panggilan API pihak ketiga melalui Tor. Nym menyatakan pada 24 September 2026 bahwa mereka masih dalam percakapan aktif dengan tim Zodl mengenai integrasi mixnet yang lebih luas.
+Fitur Tor milik Zodl dapat merutekan pengiriman transaksi, pengambilan data transaksi, permintaan nilai tukar, dan panggilan API pihak ketiga melalui Tor. Nym menyatakan pada 24 September 2026 bahwa pihaknya masih berdiskusi aktif dengan tim Zodl tentang integrasi mixnet yang lebih luas.
 
-Untuk Zodl hari ini, gunakan salah satu dari:
+Untuk Zodl saat ini, gunakan salah satu:
 
-- Perlindungan Tor milik Zodl yang telah didokumentasikan, atau
-- NymVPN tingkat sistem jika tujuan kamu adalah mengarahkan lalu lintas perangkat umum dompet melalui Nym.
+- Perlindungan Tor terdokumentasi milik Zodl, atau
+- NymVPN tingkat sistem jika tujuan kamu adalah merutekan lalu lintas perangkat umum dompet melalui Nym.
 
-Jangan menganggap Tor dan Nym dapat saling menggantikan sebagai transport di dalam dompet hanya karena keduanya adalah jaringan privasi.
+Jangan mengasumsikan Tor dan Nym adalah transport yang dapat dipertukarkan di dalam dompet hanya karena keduanya adalah jaringan privasi.
 
 Pengaturan Zodl Tor:
 
-**Lainnya → Fitur Lanjutan → Beta: Perlindungan Tor → Aktifkan → Simpan perubahan**
+**More → Advanced Features → Beta: Perlindungan Tor → Enable → Save changes**
 
 Sumber:
 
 - https://support.zodl.com/article/17-enabling-tor-protection
 - https://nym.com/blog/nym-mixnet-zcash-wallets
 
-## Cadangan: NymVPN tingkat sistem
+## Alternatif: NymVPN tingkat sistem
 
-Ini adalah opsi Nym yang paling kompatibel secara luas karena tidak mengharuskan dompet untuk memahami pengaturan proxy khusus Nym.
+Ini adalah opsi Nym yang paling kompatibel secara luas karena tidak mengharuskan dompet memahami pengaturan proxy khusus Nym.
 
 ### 1. Instal NymVPN
 
@@ -114,102 +114,102 @@ NymVPN mendukung Android, iOS, Linux, Windows, dan macOS.
 
 ### 2. Pilih mode Mixnet
 
-NymVPN menghadirkan **mode Fast**, jalur dVPN 2-hop yang dioptimalkan untuk latensi lebih rendah, dan **mode Mixnet**, jalur mixnet 5-hop yang dioptimalkan untuk perlindungan metadata jaringan yang lebih kuat. Untuk aktivitas dompet yang sensitif, pilih mode Mixnet dan tunggu hingga client melaporkan bahwa koneksi telah terjalin sebelum membuka atau menyegarkan dompet.
+NymVPN menyediakan **Mode cepat**, jalur dVPN 2-hop yang dioptimalkan untuk latensi lebih rendah, dan **Mode Mixnet**, jalur mixnet 5-hop yang dioptimalkan untuk perlindungan metadata jaringan yang lebih kuat. Untuk aktivitas dompet sensitif, pilih Mode Mixnet dan tunggu hingga klien melaporkan bahwa koneksi telah terbentuk sebelum membuka atau menyegarkan dompet.
 
-### 3. Biarkan dompet pada pengaturan jaringan normal
+### 3. Biarkan dompet menggunakan pengaturan jaringan normal
 
-Ketika sistem operasi sudah melakukan tunneling lalu lintas melalui NymVPN, sebagian besar dompet tidak memerlukan pengaturan proxy khusus.
+Ketika sistem operasi sudah menyalurkan lalu lintas melalui NymVPN, sebagian besar dompet tidak memerlukan pengaturan proxy khusus.
 
-Buka dompet secara normal dan biarkan proses sinkronisasi berjalan.
+Buka dompet seperti biasa dan izinkan dompet melakukan sinkronisasi.
 
-Jika NymVPN mengekspos split tunneling pada platform kamu, pastikan bahwa dompet tersebut **termasuk dalam tunnel terlindungi**, bukan ditempatkan pada daftar bypass atau pengecualian.
+Jika NymVPN menyediakan split tunneling pada platform kamu, pastikan dompet **disertakan dalam tunnel terlindungi**, bukan ditempatkan dalam daftar bypass atau pengecualian.
 
 ### 4. Verifikasi tunnel sebelum menggunakan dompet
 
-Pemeriksaan tingkat sistem yang sederhana:
+Pemeriksaan sederhana tingkat sistem:
 
-1. Putuskan koneksi NymVPN.
-2. Kunjungi layanan pengecekan IP publik, atau pada desktop jalankan:
+1. Putuskan sambungan NymVPN.
+2. Kunjungi layanan pemeriksa IP publik, atau pada desktop jalankan:
 
    ```bash
    curl https://api.ipify.org
    ```
 
 3. Catat IP yang terlihat.
-4. Hubungkan NymVPN dalam mode Mixnet.
-5. Ulangi pengecekan tersebut.
+4. Hubungkan NymVPN dalam Mode Mixnet.
+5. Ulangi pemeriksaan.
 
 IP publik yang terlihat seharusnya berubah.
 
-Ini mengonfirmasi terowongan sistem tersebut. Ini **tidak** membuktikan bahwa setiap permintaan yang dibuat oleh dompet tertentu mengikuti jalur yang sama jika aplikasi atau OS memiliki aturan perutean khusus.
+Ini mengonfirmasi tunnel sistem. Ini **tidak** membuktikan bahwa setiap permintaan yang dibuat oleh dompet tertentu mengikuti jalur yang sama jika aplikasi atau OS memiliki aturan perutean khusus.
 
-Untuk jaminan lebih lanjut pada desktop:
+Untuk kepastian lebih lanjut di desktop:
 
-- periksa proses dompet dengan monitor jaringan sistem operasi kamu,
-- verifikasi bahwa tidak ada pengecualian split-tunnel,
-- konfirmasi perubahan perilaku dompet yang diharapkan jika NymVPN terputus.
+- Periksa proses dompet dengan pemantau jaringan sistem operasi,
+- Verifikasi bahwa tidak ada pengecualian split-tunnel,
+- Konfirmasikan bahwa perilaku dompet yang diharapkan berubah jika NymVPN diputuskan.
 
-Jangan mengunggah tangkapan layar yang berisi alamat dompet, saldo, ID transaksi, alamat IP, atau materi pemulihan saat melakukan troubleshooting.
+Jangan unggah tangkapan layar yang berisi alamat dompet, saldo, ID transaksi, alamat IP, atau materi pemulihan saat melakukan pemecahan masalah.
 
 ## Mode proxy dApp / dompet NymVPN
 
-NymVPN juga menyediakan mode proxy aplikasi-dan-dompet menggunakan perutean SOCKS5 / RPC melalui mixnet.
+NymVPN juga menyediakan mode proxy aplikasi dan dompet yang menggunakan perutean SOCKS5 / RPC melalui mixnet.
 
-Dokumentasi setup publik Nym menunjukkan hal ini terutama dengan konfigurasi RPC gaya Ethereum. Ini berguna untuk perangkat lunak yang secara eksplisit mendukung jalur proxy/RPC generik yang kompatibel, tetapi kamu **tidak** boleh berasumsi bahwa ini akan berfungsi dengan setiap dompet Zcash.
+Dokumentasi penyiapan publik Nym mendemonstrasikan ini terutama dengan konfigurasi RPC bergaya Ethereum. Ini berguna untuk perangkat lunak yang secara eksplisit mendukung jalur proxy/RPC generik yang kompatibel, tetapi seharusnya **tidak** diasumsikan berfungsi dengan setiap dompet Zcash.
 
-Gunakan jalur ini hanya jika dokumentasi dompet itu sendiri mengonfirmasi dukungan proxy atau RPC yang kompatibel.
+Gunakan jalur ini hanya ketika dokumentasi dompet sendiri mengonfirmasi dukungan proxy atau RPC yang kompatibel.
 
-Jika tidak, lebih baik gunakan:
+Jika tidak, utamakan:
 
-- integrasi Nym asli pada dompet, atau
+- integrasi Nym bawaan dompet, atau
 - NymVPN tingkat sistem.
 
-## Trade-off antara performa dan timeout
+## Trade-off performa dan timeout
 
-Mixnet secara sengaja mengorbankan kecepatan demi perlindungan metadata yang lebih kuat.
+Mixnet secara sengaja menukar kecepatan dengan perlindungan metadata yang lebih kuat.
 
 Perkirakan kemungkinan dampak pada:
 
 - sinkronisasi dompet awal,
-- sinkronisasi catch-up yang besar,
+- sinkronisasi pengejaran yang besar,
 - kueri riwayat transaksi,
 - timeout RPC,
 - panggilan API pihak ketiga.
 
 Panduan praktis:
 
-- Mulai dengan pengaturan Nym bawaan.
-- Harapkan sinkronisasi pertama atau sinkronisasi catch-up yang lama akan memakan waktu lebih lama.
-- Coba lagi saat terjadi timeout sebelum memperlemah pengaturan privasi.
-- Hindari berganti mode privasi secara berulang tepat sebelum transaksi sensitif.
-- Jika kamu menggunakan jalur yang lebih cepat untuk bulk sync, pahami bahwa infrastruktur yang dihubungi mungkin dapat mengamati identitas jaringan aslimu selama periode tersebut.
-- Khusus untuk Zingo PC, ingatlah bahwa transport Nym bawaannya saat ini melindungi pengiriman dan pencarian harga, sementara sinkronisasi tetap bersifat langsung.
+- Mulailah dengan pengaturan Nym default.
+- Perkirakan sinkronisasi pertama atau sinkronisasi pengejaran yang panjang akan memakan waktu lebih lama.
+- Coba ulangi timeout sebelum melemahkan pengaturan privasi.
+- Hindari berulang kali mengganti mode privasi tepat sebelum transaksi sensitif.
+- Jika kamu menggunakan jalur yang lebih cepat untuk sinkronisasi massal, pahami bahwa infrastruktur yang dihubungi dapat mengamati identitas jaringan asli kamu selama periode tersebut.
+- Khusus untuk Zingo PC, ingat bahwa transport Nym bawaannya saat ini melindungi pengiriman dan pencarian harga, sementara sinkronisasi tetap langsung.
 
 ## Pertimbangan seluler
 
-Di Android dan iOS, slot VPN pada sistem operasi biasanya merupakan cara termudah untuk mengarahkan lalu lintas dompet umum melalui NymVPN: hubungkan NymVPN terlebih dahulu, lalu buka dompetnya.
+Pada Android dan iOS, slot VPN sistem operasi biasanya merupakan cara paling sederhana untuk merutekan lalu lintas dompet umum melalui NymVPN: hubungkan NymVPN terlebih dahulu, lalu buka dompet.
 
-Jika VPN, firewall, atau pemblokir iklan berbasis VPN lokal lainnya sudah menggunakan antarmuka VPN sistem, kedua produk tersebut mungkin tidak dapat beroperasi secara bersamaan. Pastikan status VPN pada sistem operasi kamu sebelum menganggap dompet sudah terlindungi.
+Jika VPN lain, firewall, atau pemblokir iklan berbasis VPN lokal sudah menggunakan antarmuka VPN sistem, kedua produk mungkin tidak dapat beroperasi secara bersamaan. Konfirmasikan status VPN sistem operasi sebelum mengasumsikan dompet terlindungi.
 
-## Daftar periksa model ancaman
+## Daftar periksa threat model
 
-Sebelum mengandalkan pengaturan ini, tanyakanlah:
+Sebelum mengandalkan pengaturan ini, tanyakan:
 
-- Apakah saya menggunakan alamat Zcash terlindungi pada tempat yang tepat?
-- Apakah dompet saya memiliki dukungan native Nym?
-- Jika ya, trafik mana tepatnya yang dilindungi oleh integrasi native tersebut?
-- Jika saya membutuhkan cakupan yang lebih luas, apakah NymVPN terhubung sebelum dompet memulai aktivitas jaringan?
+- Apakah saya menggunakan alamat Zcash terlindungi jika sesuai?
+- Apakah dompet saya memiliki dukungan Nym bawaan?
+- Jika ya, lalu lintas mana tepatnya yang dilindungi oleh integrasi bawaan itu?
+- Jika saya memerlukan cakupan lebih luas, apakah NymVPN terhubung sebelum dompet memulai aktivitas jaringan?
 - Apakah dompet dikecualikan oleh aturan split-tunneling?
-- Apakah saya mengandalkan mode proxy yang sebenarnya didokumentasikan oleh dompet?
+- Apakah saya mengandalkan mode proxy yang benar-benar didokumentasikan oleh dompet?
 - Apakah saya membocorkan identitas melalui exchange, sesi browser, API pihak ketiga, atau alamat transparan?
-- Apakah saya sudah siap untuk sinkronisasi yang lebih lambat dan timeout yang sesekali terjadi?
+- Apakah saya siap menghadapi sinkronisasi yang lebih lambat dan timeout sesekali?
 
 ## Sumber
 
-- Nym: mixnet Nym kini telah aktif di dompet Zcash, 24 September 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
-- Perilaku Nym Zingo PC: https://github.com/zingolabs/zingo-pc#the-nym-mixnet
-- Transport Nym mobile Zingo: https://github.com/zingolabs/zingo-mobile
-- repositori Zkool: https://github.com/hhanh00/zkool2
+- Nym: Mixnet Nym kini aktif di dompet Zcash, 24 September 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
+- Perilaku Zingo PC Nym: https://github.com/zingolabs/zingo-pc#the-nym-mixnet
+- Transport Nym Zingo Mobile: https://github.com/zingolabs/zingo-mobile
+- Repositori Zkool: https://github.com/hhanh00/zkool2
 - Pekerjaan transport Nym NozyWallet: https://github.com/LEONINE-DAO/Nozy-wallet
-- v2026.12 NymVPN: https://nym.com/blog/nymvpn-v2026.12
+- NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
 - Perlindungan Tor Zodl: https://support.zodl.com/article/17-enabling-tor-protection

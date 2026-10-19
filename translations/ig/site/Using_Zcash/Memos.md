@@ -4,33 +4,59 @@
 
 # Ihe ncheta
 
-#### Izipu Memos ezoro ezo
+## TL;DR
 
-When sending a Z2Z (shielded-to-shielded) transaction, you're able to include a memo (message) in the transaction. This memo can be used for a number of different things.
+* Memo bụ obere akwụkwọ ozi ị na-etinye na ụgwọ e zigara na adreesị echekwara. E zoro ya ezoro ezo, ka ndị na-ekiri blockchain ghara ịgụ ya.
+* Ebe ndetu ahụ nwere ike ijide ruo byte 512 nke ederede.
+* Ndị mmadụ na-eji ihe ndetu ekwu onye zitere ụgwọ na ihe ọ bụ maka ya, ma ọ bụ izipu ozi nkeonwe.
+* Ịkwụ ụgwọ nye adreesị doro anya enweghị ike ibu ihe e dere ede.
+* A [njikọ arịrịọ ịkwụ ụgwọ](/using-zcash/payment-request-uris) nwere ike idejupụta ihe ndetu ahụ maka gị ka ụlọ ahịa wee nwee ike itinye akara na iwu ọ bụla.
 
-#### Ịbịanye Aka n'Ụgwọ
+## Nkọwa Isi
 
-Memos are primarily used for singing payments. Since shielded transactions encrypt your data, you're not able to see who sent you ZEC, and what the ZEC might've been for. Users can use the memo field to sign their name or pseudonym to let their counterpart know who the transaction was from. They can also describe what the transaction was for.
+### Izipu Ihe Ncheta Ezoro Ezo
 
-#### Izipụ Ozi
+Mgbe ị na-eziga azụmahịa Z2Z (nke e ji kpuchie ya ruo na nke e ji kpuchie ya), ị nwere ike itinye ozi (ozi) n'azụmahịa ahụ. Enwere ike iji ozi a mee ihe dị iche iche.
 
-Another use case for the encrypted memo is to send a message to someone with a z-addr. These messages can be about anything, whether it be a [reminder to a friend](https://twitter.com/iansagstette/status/1542142468505870336), ma ọ bụ ozi dị nro nke kwesịrị ịnọgide na nzuzo dị ka o kwere mee](https://twitter.com/InsideZcash/status/1545800146352578560).
+### Ịbanye aka n'Azụmahịa
 
-#### Ihe ndị e dere n'Ịntanet na-egosi ịhụnanya
+A na-ejikarị akwụkwọ ndetu eme ihe maka ịdenye aka na ịkwụ ụgwọ. Ebe ọ bụ na azụmahịa echekwara na-ezochi data gị, ị gaghị enwe ike ịhụ onye zitere gị ZEC na ihe ZEC nwere ike ịbụ maka ya. Ndị ọrụ nwere ike iji ubi ndetu ahụ bịanye aka n'aha ma ọ bụ aha njirimara ha iji mee ka onye ibe ha mara onye azụmahịa ahụ si. Ha nwekwara ike ịkọwa ihe azụmahịa ahụ bụ maka ya.
 
-There was a person who sent their partner a love note in one of the first blocks in the Zcash blockchain. Someone found that their partner had sent them a file via a Zcash memo. This file was a ticket to a special event, overseas, that she and her distant lover had been talking about attending together. The memo was a love note.
+### Izipu Ozi
 
-#### Ọganihu dị elu
+Ihe ọzọ e ji eme ihe maka memo ezoro ezo bụ izipu ozi nye onye nwere z-addr. Ozi ndị a nwere ike ịbụ maka ihe ọ bụla, ma ọ bụ [ihe ncheta nye enyi](https://twitter.com/iansagstette/status/1542142468505870336) or a [ozi dị nro nke kwesịrị ịnọ na nzuzo dịka o kwere mee](https://twitter.com/InsideZcash/status/1545800146352578560).
 
-> **Akụkọ ihe mere eme. Ihe ngosi a anaghịzi arụ ọrụ dịka e dere ya.**
+### Ihe ndetu ịhụnanya na Blockchain
+
+E nwere otu onye zigara onye ya na ya na-akparịta ụka ịhụnanya n'otu n'ime blọk mbụ dị na Zcash blockchain. Mmadụ chọpụtara na onye ha na ya na-akparịta ụka ezitere ha faịlụ site na Zcash memo. Faịlụ a bụ tiketi maka mmemme pụrụ iche dị na mba ofesi nke ya na onye ọ hụrụ n'anya nọ na-ekwu maka ịga ọnụ. Ihe ncheta ahụ bụ ihe ncheta ịhụnanya.
+
+## Anya / Ihe atụ
+
+Chee echiche banyere ịkwụ ụgwọ a na-ekpuchi ekpuchi dị ka envelopu e mechiri emechi nke nwere ego dị n'ime ya. Akwụkwọ ozi ahụ bụ akwụkwọ ozi e tinyere ego ahụ n'ime ya.
+
+Blockchain bụ ụlọ ọrụ ozi. Ọ na-ebu envelopu ahụ ma dekọọ na ọ bịarutere, ọ naghị emepe ya. Onye meghere envelopu ahụ na-agụ akwụkwọ ozi ahụ. Ụgwọ doro anya bụ kaadị ozi, yabụ enweghị envelopu ị ga-apịachi akwụkwọ ozi ahụ.
+
+## Mmiri miri emi
+
+### Ihe dabara na ndetu
+
+Ebe ndetu ahụ na-abụkarị 512 bytes kpọmkwem. A na-etinye ndetu ederede dị mkpụmkpụ na byte efu tupu e zoo ya, yabụ ndetu ọ bụla na-adị ka nha ya na yinye.
+
+Ọtụtụ ndetu bụ ederede UTF-8 nkịtị. [ZIP 302](https://zips.z.cash/zip-0302) na-echekwakwa ihe ndetu nke na-amalite na byte nke `0xF5` ma ọ bụ karịa maka ụdị data ndị ọzọ, yana ndetu nke `0xF6` ihe na-esochi ya bụ efu pụtara "enweghị ihe ncheta".
+
+Ihe ọ bụla e ji kpuchie n'azụmahịa nwere ihe ncheta nke ya, yabụ otu azụmahịa nke na-akwụ ọtụtụ mmadụ ụgwọ nwere ike itinye akwụkwọ ndetu dị iche maka nke ọ bụla n'ime ha.
+
+### Elu
+
+> **Akụkọ ihe mere eme. Ngosipụta a anaghịzi arụ ọrụ dịka e dere ya.**
 >
-> Ihe ngosi dị n'okpuru na-eji zcashd, [edemede nnata](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) ya na-agụkwa memo site na `zcash-cli`. zcashd ruru nkwụsị akpaaka nke ọgwụgwụ nkwado (End-of-Support) na 18 July 2026, ya mere edemede ahụ enweghị ike iru node na-arụ ọrụ, a bufebeghịkwa ya.
+> Ngosipụta dị n'okpuru na-eji zcashd, ya na ya [edemede nnata](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) na-agụ ihe ndetu site na `zcash-cli`zcashd ruru nkwụsị nke End-of-Support ya na 18 Julaị 2026, nke mere na script ahụ enweghị ike iru node na-agba ọsọ, a pụghịkwa ibugharị ya.
 >
-> Ịgụ memo e chebere site na ahịrị iwu ka na-arụ ọrụ na Zallet: `zallet rpc z_listunspent` na-eweghachi note ọ bụla e chebere a natara ya na otu mpaghara `memoStr` ahụ edemede ahụ na-agụ. Lee [Ntuziaka Ntụaka Ngwa ngwa nke Zallet](/using-zcash/zallet-quick-reference-guide) maka iwu ahụ, na [ntuziaka mbufe gaa na Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) iji wepụ node na zcashd. Zallet ka nọ na beta.
+> Ịgụ ihe ncheta echekwara site na ahịrị iwu ka na-arụ ọrụ na Zallet: `zallet rpc z_listunspent` na-eweghachi otu ndetu echekwara ọ bụla enwetara `memoStr` Lee ihe e dere n'akwụkwọ edemede ahụ [Nduzi Ntụaka Ngwa Ngwa Zallet](/using-zcash/zallet-quick-reference-guide) maka iwu ahụ, na [ntuziaka mbugharị gaa Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) ibugharị otu n'ime zcashd. Zallet ka nọ na beta.
 >
-> Edobere ngalaba a dị ka ndekọ akụkọ ihe mere eme nke ihe ngosi Magic-Wormhole.
+> A na-edebe akụkụ a dị ka ihe ndekọ akụkọ ihe mere eme nke ihe ngosi Magic-Wormhole.
 
-Here is how to use Zcash Shielded Memos with the Magic-Wormhole CLI and zcashd to securely send files from one computer to another!: 
+Lee otu esi eji Zcash Shielded Memos na Magic-Wormhole CLI na zcashd iji zipu faịlụ site na otu kọmputa gaa na nke ọzọ n'enweghị nsogbu!
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -43,8 +69,17 @@ Here is how to use Zcash Shielded Memos with the Magic-Wormhole CLI and zcashd t
   />
 </div>
 
-#### Akụrụngwa
+## Peeji ndị metụtara ya
 
-[The ezoro ezo Memo Ubi](https://electriccoin.co/blog/encrypted-memo-field/)
+- [URIs nke arịrịọ ịkwụ ụgwọ](/using-zcash/payment-request-uris): tinye ihe ncheta n'ime `zcash:` njikọ ma ọ bụ koodu QR.
+- [Azụmahịa](/using-zcash/transactions): ụdị azụmahịa echekwara ma doo anya.
+- [Ọdọ Mmiri E Kpuchiri Ekpuchi](/using-zcash/shielded-pools): ebe ndetu e ji ihe nchekwa kpuchie nke na-ebu ihe ncheta dị ndụ.
+- [Obere akpa](/using-zcash/wallets): jiri ihe nzacha Nchedo Memo chọta obere akpa ndị na-akwado ndetu.
+- [Nduzi Ntụaka Ngwa Ngwa Zallet](/using-zcash/zallet-quick-reference-guide): gụọ ihe ndetu enwetara site na ahịrị iwu.
+- [Ngwaọrụ Zcash maka ndị okike](/using-zcash/creators-and-tips): ngwaọrụ ntinye ego nke na-eziga ozi yana ntinye ego.
 
+### akụrụngwa
 
+[Ubi Ihe Ncheta Ezoro Ezo](https://electriccoin.co/blog/encrypted-memo-field/)
+
+**Emelitere ikpeazụ:** Ọktoba 2026

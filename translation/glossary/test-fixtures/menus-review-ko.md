@@ -97,7 +97,7 @@ No conflicts.
 | 73 | navigation.shop | Shop | 상점 |  |  |
 
 ## Submenu entries (page names in the menus)
-(`menuLabels`: 80 labels)
+(`menuLabels`: 81 labels)
 
 | # | ID | English | Korean | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -181,6 +181,7 @@ No conflicts.
 | 78 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | 용어집 및 FAQ |  |  |
 | 79 | menuLabels.Pay for AI | Pay for AI | AI 결제 |  |  |
 | 80 | menuLabels.Community Building | Community Building | Community Building |  |  |
+| 81 | menuLabels.Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup |  |  |
 
 ## Yellow coin menu (bottom right)
 (`exploreMenu`: 15 labels)
