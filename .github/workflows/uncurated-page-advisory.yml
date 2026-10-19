@@ -15,7 +15,7 @@ name: Curation check
 #   adds a page            -> add it to curated-pages.txt (the default), or to
 #                             english-only-pages.txt if it should stay English
 #   deletes or moves away  -> node translation/decurate.mjs <old path>, which
-#   a curated page            removes the line, the 18 translations and their
+#   a curated page            removes the line, the page's translations and their
 #                             manifest entries
 #   either                 -> node translation/gen-menu-titles.mjs, so the
 #                             menu-titles manifests match (menu-titles-fresh)
@@ -31,14 +31,14 @@ name: Curation check
 #     the two curation lists at the head sha.
 # Do not add a checkout of the PR head or any step that runs PR-authored code.
 
+# No `paths:` filter: this job is a required check on main, and a required
+# check whose workflow is filtered never reports on a PR outside the filter, so
+# that PR would wait for it forever. On a PR that touches no page it finds
+# nothing to do and passes in seconds.
 on:
   pull_request_target:
     types: [opened, synchronize, reopened]
     branches: [main]
-    paths:
-      - "site/**/*.md"
-      - "translation/curated-pages.txt"
-      - "translation/english-only-pages.txt"
 
 permissions:
   contents: read
@@ -128,10 +128,10 @@ jobs:
             const bullets = (ps) => ps.map((p) => `- \`${safe(p)}\``).join('\n');
             const body = [marker, '### 🌐 Translation: one more change needed in this PR', ''];
             if (undecided.length) body.push(
-              `**New page(s) not yet in a translation list** — add each line to \`translation/curated-pages.txt\` (it will be translated into all 18 languages), or to \`translation/english-only-pages.txt\` if it should stay English only:`,
+              `**New page(s) not yet in a translation list** — add each line to \`translation/curated-pages.txt\` (it will be translated into every wiki language), or to \`translation/english-only-pages.txt\` if it should stay English only:`,
               '', bullets(undecided), '');
             if (stillCurated.length) body.push(
-              '**Deleted or moved page(s) still in a translation list** — run this from the repository root and commit the result (it removes the list line, the 18 translations and their manifest entries; it does not touch the English):',
+              '**Deleted or moved page(s) still in a translation list** — run this from the repository root and commit the result (it removes the list line, its translations and their manifest entries; it does not touch the English):',
               '', '```', `node translation/decurate.mjs ${stillCurated.map(shellQuote).join(' ')}`, '```', '');
             body.push(
               'Then refresh the menu titles and commit them too:', '', '```', 'node translation/gen-menu-titles.mjs', '```', '',
