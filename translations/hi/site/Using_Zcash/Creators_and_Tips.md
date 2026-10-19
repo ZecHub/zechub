@@ -1,111 +1,142 @@
-# रचनाकारों के लिए Zcash Tools: Tipping और Profile Platforms
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Creators_and_Tips.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
-> **कंटेंट creators, cypherpunks, और privacy-conscious समुदाय के लिए Zcash पर बने privacy-preserving tipping और profile tools की एक व्यापक मार्गदर्शिका।**
+# Zcash क्रिएटर्स के लिए टूल: टिपिंग और प्रोफ़ाइल प्लेटफ़ॉर्म
+
+> **कंटेंट क्रिएटर्स, cypherpunks और गोपनीयता-सचेत समुदाय के लिए Zcash पर निर्मित गोपनीयता-संरक्षण वाले टिपिंग और प्रोफ़ाइल टूल की एक व्यापक मार्गदर्शिका।**
 
 ---
 
 ## विषय-सूची
 
 1. [Zcash.me](#zcashme)
-2. [TipZ](#tipz)
-3. [रचनाकारों के लिए गोपनीयता क्यों महत्वपूर्ण है](#why-privacy-matters-for-creators)
-4. [अतिरिक्त संसाधन](#additional-resources)
+2. [TIPZ](#tipz)
+   - [क्रिएटर्स के लिए गोपनीयता क्यों मायने रखती है](#why-privacy-matters-for-creators)
+3. [विज़ुअल / उपमा](#visual--analogy)
+4. [संबंधित पृष्ठ](#related-pages)
 
 ---
 
-## Zcash.me
+## संक्षेप में
 
-![Zcash.me लोगो](/content-images/_unavailable.svg)
+* दो Zcash टूल क्रिएटर्स को निजी रूप से भुगतान पाने में मदद करते हैं। Zcash.me आपको आपके shielded address के साथ एक प्रोफ़ाइल पेज देता है, और TIPZ प्रशंसकों को आपको टिप भेजने देता है।
+* Zcash.me के साथ, आप एक लिंक, `zcash.me/[username]`, साझा करते हैं, जो आपका unified address और आपके सोशल अकाउंट दिखाता है।
+* TIPZ के साथ, प्रशंसक अन्य क्रिप्टोकरेंसी में टिप दे सकते हैं, और हर टिप आपको shielded ZEC के रूप में पहुँचती है।
+* दोनों टूल आपका unified address (`u1...`) मांगते हैं।
+* shielded address पर भेजी गई टिप्स आपकी आय और बैलेंस को सार्वजनिक नज़रों से दूर रखती हैं।
 
-### अवलोकन
+## मुख्य व्याख्या
 
-**Zcash.me** एक profile directory और discovery platform है, जो किसी भी व्यक्ति के लिए Zcash उपयोगकर्ताओं को ढूंढना और उन्हें ZEC भेजना आसान बनाता है। यह Zcash के लिए "Linktree" की तरह काम करता है - एक ही लिंक के माध्यम से अपना shielded address और social presence साझा करने का सरल तरीका।
+### Zcash.me
+
+![Zcash.me Logo](/content-images/_unavailable.svg)
+
+#### अवलोकन
+
+**Zcash.me** एक प्रोफ़ाइल डायरेक्टरी और डिस्कवरी प्लेटफ़ॉर्म है, जो किसी के लिए भी Zcash उपयोगकर्ताओं को ढूँढना और उन्हें ZEC भेजना आसान बनाता है। यह "Zcash के लिए Linktree" के रूप में कार्य करता है — एक ही लिंक से अपना shielded address और सोशल उपस्थिति साझा करने का सरल तरीका।
 
 | आइटम              | विवरण |
 |-------------------|---------|
-| **Website**       | [https://zcash.me/](https://zcash.me/) |
+| **वेबसाइट**       | [https://zcash.me/](https://zcash.me/) |
 | **Twitter**       | [@zcashme](https://x.com/zcashme) |
-| **Profile Format**| `zcash.me/[username]` |
-| **Status**        | लाइव (विकासाधीन सुविधाओं के साथ) |
+| **प्रोफ़ाइल प्रारूप**| `zcash.me/[username]` |
+| **स्थिति**        | लाइव (विकासाधीन सुविधाओं के साथ) |
 
-### प्रमुख विशेषताएँ
+#### प्रमुख सुविधाएँ
 
-#### वर्तमान में उपलब्ध
-- **कस्टम Profile Pages** - username, bio, avatar, और location के साथ व्यक्तिगत पेज
-- **Shielded Address Display** - आपके unified address के लिए one-click copy बटन
-- **Social Link Integration** - X, LinkedIn, Telegram, और custom websites
-- **Verification System** - सामुदायिक भरोसे के लिए verified badge
-- **Referral Leaderboard** - शीर्ष referrers और सामुदायिक नेताओं को ट्रैक करें
-- **Activity Status** - आखिरी बार सक्रिय होने का समय दिखाता है
+##### वर्तमान में उपलब्ध
+- **कस्टम प्रोफ़ाइल पेज** - यूज़रनेम, बायो, अवतार और स्थान वाला व्यक्तिगत पेज
+- **Shielded Address प्रदर्शन** - आपके unified address के लिए एक-क्लिक कॉपी बटन
+- **सोशल लिंक इंटीग्रेशन** - X, LinkedIn, Telegram और कस्टम वेबसाइटें
+- **सत्यापन प्रणाली** - समुदाय के भरोसे के लिए सत्यापित बैज
+- **रेफ़रल लीडरबोर्ड** - शीर्ष रेफ़रर और समुदाय के नेताओं को ट्रैक करें
+- **गतिविधि स्थिति** - आखिरी बार सक्रिय रहने का समय दिखाता है।
 
-#### जल्द आ रहा है
-| विशेषता            | विवरण |
+##### जल्द आ रहा है
+| सुविधा            | विवरण |
 |--------------------|-------------|
-| Location Map       | पास के Zcash उपयोगकर्ताओं को खोजें |
-| Platform Statistics| growth metrics देखें |
-| Community Polls    | ecosystem विषयों पर वोट करें |
-| News & Announcements | आधिकारिक अपडेट |
-| Forum              | सामुदायिक चर्चा |
-| Mobile App         | पूर्ण mobile अनुभव |
+| स्थान मानचित्र       | पास के Zcash उपयोगकर्ताओं को ढूँढें |
+| प्लेटफ़ॉर्म आँकड़े| वृद्धि के मेट्रिक्स देखें |
+| समुदाय पोल    | इकोसिस्टम विषयों पर वोट करें |
+| समाचार और घोषणाएँ | आधिकारिक अपडेट |
+| फ़ोरम              | समुदाय चर्चा |
+| मोबाइल ऐप         | पूर्ण मोबाइल अनुभव |
 
-### शुरुआत कैसे करें
-1. [https://zcash.me/](https://zcash.me/) पर जाएँ और **Join** पर क्लिक करें
-2. एक unique username चुनें, bio और profile picture जोड़ें
+#### शुरुआत करें
+1. [https://zcash.me/](https://zcash.me/) पर जाएँ और **Join** पर क्लिक करें।
+2. एक अनोखा यूज़रनेम चुनें, बायो और प्रोफ़ाइल चित्र जोड़ें।
 3. अपना Zcash unified address (`u1...`) पेस्ट करें
-4. अपने social accounts कनेक्ट करें
+4. अपने सोशल अकाउंट कनेक्ट करें।
 5. अपना लिंक साझा करें: `zcash.me/[yourusername]`
 
 ---
 
-## TipZ
+### TIPZ
 
-![TipZ लोगो](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![TIPZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
-### अवलोकन
+#### अवलोकन
 
-**TipZ** एक **private tipping protocol** है, जिसे खास तौर पर creators और cypherpunks के लिए बनाया गया है। प्रशंसक किसी भी प्रमुख cryptocurrency में tip दे सकते हैं; यह अपने-आप convert होकर **shielded ZEC** के रूप में पहुंचा दी जाती है।
+**TIPZ** क्रिएटर्स और cypherpunks के लिए विशेष रूप से बनाया गया एक **निजी टिपिंग प्रोटोकॉल** है। प्रशंसक किसी भी प्रमुख क्रिप्टोकरेंसी में टिप देते हैं; वह स्वचालित रूप से परिवर्तित होकर **shielded ZEC** के रूप में पहुँचती है।
 
 | आइटम              | विवरण |
 |-------------------|---------|
-| **Website**       | [https://tipz.cash/](https://tipz.cash/) |
+| **वेबसाइट**       | [https://tipz.cash/](https://tipz.cash/) |
 | **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
-| **Profile Format**| `tipz.cash/@[username]` |
-| **Status**        | लाइव |
+| **प्रोफ़ाइल प्रारूप**| `tipz.cash/@[username]` |
+| **स्थिति**        | लाइव |
 
-> *"tipz.cash creators और cypherpunks के लिए एक private tipping protocol है।"*
+> *"tipz.cash क्रिएटर्स और cypherpunks के लिए एक निजी टिपिंग प्रोटोकॉल है।"*
 
-### रचनाकारों के लिए गोपनीयता क्यों महत्वपूर्ण है
+#### क्रिएटर्स के लिए गोपनीयता क्यों मायने रखती है
 
-#### वित्तीय स्वतंत्रता
-- 0% platform fees
-- Non-custodial & self-custody
-- कोई middlemen नहीं
+##### वित्तीय स्वतंत्रता
+- 0% प्लेटफ़ॉर्म शुल्क
+- नॉन-कस्टोडियल और self-custody
+- कोई बिचौलिया नहीं
 
-#### Privacy-First डिज़ाइन
-- हर tip shielded ZEC के रूप में पहुंचती है
-- private wallet balance
-- tips के साथ encrypted messaging
-- creator की पूर्ण anonymity का विकल्प
+##### गोपनीयता-प्रथम डिज़ाइन
+- हर टिप shielded ZEC के रूप में पहुँचती है।
+- निजी wallet बैलेंस
+- टिप्स के साथ एन्क्रिप्टेड मैसेजिंग
+- क्रिएटर की पूर्ण गुमनामी का विकल्प
 
-#### Cross-Chain Payments
-| Currency | Network |
+##### क्रॉस-चेन भुगतान
+| मुद्रा | नेटवर्क |
 |----------|---------|
 | ETH      | Ethereum |
-| USDC     | कई chains |
+| USDC     | कई चेन |
 | SOL      | Solana |
-| ZEC      | Direct Zcash |
+| ZEC      | प्रत्यक्ष Zcash |
 
-#### Creator Protection
-- deplatforming का कोई जोखिम नहीं
-- censorship resistant
+##### क्रिएटर सुरक्षा
+- प्लेटफ़ॉर्म से हटाए जाने का कोई जोखिम नहीं
+- सेंसरशिप-प्रतिरोधी
 - KYC की आवश्यकता नहीं
 
-### अतिरिक्त संसाधन
+---
+
+## विज़ुअल / उपमा
+
+कैफ़े के काउंटर पर रखा टिप जार काँच का होता है। कमरे में हर कोई देख सकता है कि किसने सिक्का डाला और जार कितना भरा है।
+
+एक shielded address स्लॉट वाले बंद लेटरबॉक्स जैसा काम करता है। प्रशंसक सिक्के और नोट वाला एक लिफ़ाफ़ा डालते हैं, और केवल क्रिएटर बॉक्स खोलता है। TIPZ दरवाज़े पर एक मुद्रा विनिमय जोड़ता है: कोई प्रशंसक ETH या SOL लेकर आ सकता है, और लेटरबॉक्स में जो पहुँचता है वह ZEC होता है।
 
 ```
-TipZ Payment Flow
+TIPZ Payment Flow
 
 Fan -> tipz.cash Protocol -> Creator's Wallet (Shielded ZEC)
 
-Fan selects amount + message -> Protocol auto-converts -> Creator receives private shielded ZEC
+Fan selects amount + message -> Protocol auto-converts -> Creator receives private shielded ZEC.
 ```
+
+## संबंधित पृष्ठ
+
+- [Unified Addresses](/using-zcash/unified-addresses): वह `u1...` address जो दोनों टूल मांगते हैं।
+- [Wallets](/using-zcash/wallets): shielded टिप्स पाने के लिए एक wallet चुनें।
+- [Memos](/using-zcash/memos): shielded भुगतान के साथ निजी नोट कैसे यात्रा करता है।
+- [Payment Request URIs](/using-zcash/payment-request-uris): एक `zcash:` लिंक या QR कोड जो निश्चित राशि मांगता है।
+- [Payment Processors](/using-zcash/payment-processors): ZEC के लिए वस्तुएँ और सेवाएँ बेचने के टूल।
+
+**अंतिम अपडेट:** अक्टूबर 2026

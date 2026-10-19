@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
 </a>
 
@@ -10,7 +10,7 @@ Miamala iliyolindwa na Zcash hulinda data ya miamala kwenye mnyororo, lakini poc
 
 Nym inaongeza safu tofauti ya faragha na mtandao. Kufikia Septemba 2026, mbinu bora inategemea pochi:
 
-1. **Pendelea muunganisho asilia wa Nym wa pochi wakati upo.**
+1. **Pendelea muunganisho asilia wa Nym pochi wakati upo.**
 2. Vinginevyo, tumia hali ya **kiwango cha mfumo NymVPN Mixnet** ili trafiki ya mtandao wa pochi ipitishwe kupitia Nym bila kutegemea usaidizi wa proksi mahususi wa pochi.
 
 Kwa usuli wa jumla wa VPN na dVPN, tazama [VPN na dVPN](./VPN_and_DVPN.md).
@@ -20,10 +20,10 @@ Kwa usuli wa jumla wa VPN na dVPN, tazama [VPN na dVPN](./VPN_and_DVPN.md).
 Malipo ya Zcash yaliyolindwa na kifaa cha faragha cha mtandao hutatua matatizo tofauti:
 
 - **Zcash yaliyolindwa** hulinda maelezo ya muamala kwenye mnyororo.
-- **Uelekezaji wa mtandao wa Nym** umeundwa ili kupunguza uwezekano wa kuunganishwa kati ya utambulisho wako halisi wa mtandao na trafiki ya pochi inayopokea huduma.
+- **Nym** umeundwa ili kupunguza uwezekano wa kuunganishwa kati ya utambulisho wako halisi wa mtandao na trafiki ya pochi inayopokea huduma.
 - Sehemu inayofikiwa kupitia handaki ya NymVPN ya kiwango cha mfumo inapaswa kuona njia ya kutoka ya Nym badala ya anwani yako ya IP ya nyumbani/simu ya mkononi.
 
-Mixnet ya Nym hutumia hops nyingi, kuchanganya pakiti, ucheleweshaji bila mpangilio, trafiki ya kufunika, na usimbaji fiche wa kitunguu ili kupunguza uvujaji wa metadata ya mtandao.
+Mixnet Nym's hutumia hops nyingi, kuchanganya pakiti, ucheleweshaji bila mpangilio, trafiki ya kufunika, na usimbaji fiche wa kitunguu ili kupunguza uvujaji wa metadata ya mtandao.
 
 Nym hailindi dhidi ya kifaa kilichoathiriwa, programu hasidi ya pochi, misemo ya urejeshaji iliyofichuliwa, utambulisho unaofichua kupitia akaunti za kubadilishana, au upotevu wa faragha unaosababishwa na shughuli za uwazi Zcash.
 
@@ -33,7 +33,7 @@ Nym alitangaza mnamo Septemba 24, 2026 kwamba kazi yake ya Ruzuku ya Jumuiya Zca
 
 ### Pochi Zingo!
 
-Zingo PC inajumuisha usafiri asilia wa Nym. Zingo Mobile pia husafirisha Mixnet Mode kwenye iOS na Android kwa kutumia proksi ya ndani ya programu ya Nym.
+Zingo PC inajumuisha usafiri asilia Nym. Zingo Mobile pia husafirisha Mixnet Mode kwenye iOS na Android kwa kutumia proksi ya ndani ya programu Nym.
 
 Tabia ya sasa iliyoandikwa na Zingo:
 
@@ -56,7 +56,7 @@ Vyanzo:
 
 ### Zkool
 
-Nym anaripoti kwamba **Zkool** sasa inasaidia kuunganisha kwenye miundombinu ya Zcash RPC kupitia mtandao mchanganyiko wa Nym kwa kutumia toggle asilia.
+Nym anaripoti kwamba **Zkool** sasa inasaidia kuunganisha kwenye miundombinu ya Zcash RPC kupitia mtandao mchanganyiko Nym kwa kutumia toggle asilia.
 
 Zkool ndiye mrithi wa YWallet. Mradi wake pia unaunga mkono huduma za uwakilishi wa Tor na onion kwa miunganisho ya seva Zcash.
 
@@ -69,7 +69,7 @@ Vyanzo:
 
 ### Nozy
 
-NozyWallet pia ina njia za usafiri zinazojulikana na Nym. Utekelezaji wake wa sasa unaunga mkono uwasilishaji wa miamala inayotoka kupitia mtandao wa Nym na njia tofauti ya Nym dVPN kwa ajili ya usawazishaji wa vizuizi vidogo. Zichukulie hizi kama ulinzi tofauti badala ya kudhani kila ombi la pochi hutumia mtandao wa mix kiotomatiki.
+NozyWallet pia ina njia za usafiri Nym-aware. Utekelezaji wake wa sasa unaunga mkono uwasilishaji wa miamala inayotoka kupitia mtandao wa Nym na njia tofauti ya Nym dVPN kwa ajili ya usawazishaji wa vizuizi vidogo. Zichukulie hizi kama ulinzi tofauti badala ya kudhani kila ombi la pochi hutumia mtandao wa mix kiotomatiki.
 
 Vyanzo:
 
@@ -79,13 +79,13 @@ Vyanzo:
 
 ### Zodl
 
-Kwa sasa Zodl ina **Tor Protection** iliyojengewa ndani, si muunganisho wa asili wa Nym ulioelezwa hapo juu kwa Zingo, Zkool, na Nozy.
+Kwa sasa Zodl ina **Tor Protection** iliyojengewa ndani, si muunganisho wa asili Nym ulioelezwa hapo juu kwa Zingo, Zkool, na Nozy.
 
-Kipengele cha Zodl cha Tor kinaweza kuhamisha uwasilishaji wa miamala, urejeshaji wa data ya miamala, maombi ya kiwango cha ubadilishaji, na simu za API za wahusika wengine kupitia Tor. Nym alisema mnamo Septemba 24, 2026 kwamba bado iko kwenye mazungumzo hai na timu ya Zodl kuhusu ujumuishaji mpana wa mixnet.
+Kipengele Zodl's Tor kinaweza kuhamisha uwasilishaji wa miamala, urejeshaji wa data ya miamala, maombi ya kiwango cha ubadilishaji, na simu za API za wahusika wengine kupitia Tor. Nym alisema mnamo Septemba 24, 2026 kwamba bado iko kwenye mazungumzo hai na timu ya Zodl kuhusu ujumuishaji mpana wa mixnet.
 
 Kwa Zodl leo, tumia mojawapo ya:
 
-- Ulinzi wa Tor ulioandikwa na Zodl, au
+- Ulinzi wa Tor ulioandikwa Zodl's, au
 - NymVPN ya kiwango cha mfumo ikiwa lengo lako ni kuelekeza trafiki ya jumla ya kifaa cha pochi kupitia Nym.
 
 Usidhani Tor na Nym ni usafiri unaoweza kubadilishwa ndani ya pochi kwa sababu tu zote mbili ni mitandao ya faragha.
@@ -101,11 +101,11 @@ Vyanzo:
 
 ## Fallback: NymVPN ya kiwango cha mfumo
 
-Hii ndiyo chaguo la Nym linalofaa zaidi kwa sababu haihitaji pochi kuelewa mipangilio ya proksi mahususi ya Nym.
+Hii ndiyo chaguo la Nym linalofaa zaidi kwa sababu haihitaji pochi kuelewa mipangilio ya proksi Nym-specific.
 
 ### 1. Sakinisha NymVPN
 
-Pakua NymVPN pekee kutoka kwa tovuti rasmi ya Nym au duka rasmi la jukwaa:
+Pakua NymVPN pekee kutoka kwa tovuti rasmi Nym's au duka rasmi la jukwaa:
 
 - https://nym.com/
 - https://nym.com/blog/nymvpn-v2026.12
@@ -155,7 +155,7 @@ Usichapishe picha za skrini zenye anwani za pochi, salio, vitambulisho vya miama
 
 NymVPN pia huonyesha hali ya proksi ya programu na pochi kwa kutumia SOCKS5 / RPC kupitia mtandao mchanganyiko.
 
-Nyaraka za usanidi wa umma za Nym zinaonyesha hili hasa kwa usanidi wa RPC wa mtindo wa Ethereum. Ni muhimu kwa programu inayounga mkono waziwazi njia ya proksi/RPC inayolingana, lakini haipaswi kudhaniwa kuwa inafanya kazi na kila pochi ya Zcash.
+Nyaraka za usanidi wa umma Nym's zinaonyesha hili hasa kwa usanidi wa RPC wa mtindo wa Ethereum. Ni muhimu kwa programu inayounga mkono waziwazi njia ya proksi/RPC inayolingana, lakini haipaswi kudhaniwa kuwa inafanya kazi na kila pochi ya Zcash.
 
 Tumia njia hii tu wakati hati ya pochi yenyewe inathibitisha usaidizi wa proksi au RPC unaoendana.
 
@@ -178,12 +178,12 @@ Tarajia athari inayowezekana kwa:
 
 Mwongozo wa vitendo:
 
-- Anza na mipangilio chaguo-msingi ya Nym.
+- Anza na mipangilio chaguo-msingi Nym.
 - Tarajia usawazishaji wa kwanza au usawazishaji mrefu wa muda mfupi utachukua muda mrefu zaidi.
 - Jaribu tena kusubiri muda kabla ya kudhoofisha mipangilio ya faragha.
 - Epuka kubadilisha mara kwa mara hali za faragha mara moja kabla ya muamala nyeti.
 - Ukitumia njia ya haraka zaidi kwa ajili ya usawazishaji wa wingi, elewa kwamba miundombinu iliyoguswa inaweza kuona utambulisho wako halisi wa mtandao wakati huo.
-- Kwa Zingo PC haswa, kumbuka kwamba usafiri wake asilia wa Nym kwa sasa unalinda utafutaji wa utumaji na bei, huku usawazishaji ukibaki moja kwa moja.
+- Kwa Zingo PC haswa, kumbuka kwamba usafiri wake asilia Nym kwa sasa unalinda utafutaji wa utumaji na bei, huku usawazishaji ukibaki moja kwa moja.
 
 ## Mambo ya kuzingatia kwenye simu
 
@@ -196,7 +196,7 @@ Ikiwa kizuia matangazo kingine cha VPN, ngome, au VPN cha ndani tayari kinachuku
 Kabla ya kutegemea mpangilio, uliza:
 
 - Je, ninatumia anwani za Zcash zilizolindwa inapobidi?
-- Je, pochi yangu ina usaidizi wa asili wa Nym?
+- Je, pochi yangu ina usaidizi wa asili Nym?
 - Ikiwa ndivyo, ni trafiki gani hasa ambayo ujumuishaji huo wa asili unalinda?
 - Ikiwa ninahitaji huduma pana zaidi, je, NymVPN imeunganishwa kabla ya pochi kuanza shughuli za mtandao?
 - Je, pochi imetengwa na sheria ya kugawanya handaki?
