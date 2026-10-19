@@ -34,21 +34,22 @@ The site keeps working throughout: a page with no translation shows the English 
 
 | Role | Responsibility | Time |
 |---|---|---|
-| **Language lead** (native speaker) | Reviews the glossary and menu files; reviews translated pages, most visited first; answers wording questions later | Glossary and menus: 2–3 h. Pages: see [Costs](#costs). Ongoing: a few hours a month |
-| **Second native speaker** | Checks the lead's glossary choices. The [glossary rules](../translation/glossary/README.md) ask for a second reviewer; with only one speaker, a maintainer may accept a single reviewer and the next reviewer of that language confirms | about 1 h |
+| **Proposer** | Asks for the language in an issue; may apply for the review bounty like anyone else | short |
+| **Reviewer** (native speaker, selected through the Translation Quality bounty) | Reviews the glossary and menu files, then the top 10 translated pages; answers wording questions later | Glossary and menus: 2–3 h. Pages: see [Costs](#costs) |
+| **Second native speaker** | Spot-checks the reviewer's choices. The [glossary rules](../translation/glossary/README.md) ask for a second reviewer; with only one speaker, a maintainer may accept a single reviewer and the next reviewer of that language confirms | about 1 h |
 | **Translation steward** | Prepares the review files, imports the answers, runs the pipeline and the quality checks, opens the website PR | 1–2 working days at launch, then part of the regular sync windows |
 | **Maintainers** | Decide whether to add the language, approve and pay bounties, merge the website PR | short |
 
 ## Steps
 
-1. **Proposal and approval.** Open an issue that names the language and its variety (for example Brazilian or European Portuguese), the language lead, and a second native speaker if there is one. Maintainers have agreed that a language proposed by a contributor is accepted when a native-speaker language lead commits to it, since ZecHub then carries it **permanently**.
-2. **Glossary and menus first.** The lead fills the two review files (same format as the reviewed Italian and Indonesian files in `translation/glossary/test-fixtures/`). The steward checks the answers and imports them. Every page translation is generated from the glossary, so translating pages first and fixing terms later means rewriting the pages twice.
+1. **Proposal and approval.** Open an issue that names the language and its variety (for example Brazilian or European Portuguese). Maintainers decide whether to add it; ZecHub then carries it **permanently**. Proposing a language does not make you its reviewer.
+2. **Reviewer selection, then glossary and menus.** The reviewer is selected through a Translation Quality bounty, as for the other languages: an application, a short trial on the first 10 rows, and a spot-check by a second native speaker. The proposer and anyone else may apply. The reviewer fills the two review files (same format as the reviewed Italian and Indonesian files in `translation/glossary/test-fixtures/`). The steward checks the answers and imports them. Every page translation is generated from the glossary, so translating pages first and fixing terms later means rewriting the pages twice.
 3. **Machine translation of all pages**, in one or more pipeline runs, with the usual automatic checks (numbers, links, protected names, structure). Pages that fail a check are held back and show English.
 4. **Website PR**: website dictionary and locale registration, previewed before merge.
 5. **Native review of pages**, starting with the top 10 pages (Start Here). Corrections are sent to the steward as a list, not as PRs, so the manifest stays correct.
 6. **Maintenance**: from then on, every sync window also updates the new language.
 
-The native review in steps 2 and 5 is paid as one **Translation Quality bounty in two stages**: first the glossary and menus, then, after the pipeline run, the top 10 pages. Applicants go through a short trial, a second native speaker spot-checks the work, and the reward is paid after validation.
+The native review in steps 2 and 5 is paid as one **Translation Quality bounty in two stages**: first the glossary and menus, then, after the pipeline run, the top 10 pages. The reward is paid after validation.
 
 ## Costs
 
@@ -86,16 +87,16 @@ A full native review of every page is not realistic for one volunteer. The model
 
 - **Unreviewed terms.** Without a reviewed glossary, the model picks its own terms and switches between them. Safeguard: no page run before the glossary is approved.
 - **Reviews filled by an AI.** A review file filled by an AI instead of a native speaker looks plausible. Safeguards: a short application, a small trial before the full review, a check by a second native speaker, payment only after validation.
-- **The lead leaves.** The pipeline keeps the translations in sync; only the human review stops. Agree upfront whether a language without a reviewer stays online.
+- **The reviewer leaves.** The pipeline keeps the translations in sync; only the human review stops. Agree upfront whether a language without a reviewer stays online.
 - **Manual page PRs in a pipeline language** conflict with the pipeline and its manifest. All page changes in such a language go through the steward.
 - **Other translated content** (newsletters, social channels) is outside the wiki pipeline. Propose it separately, with its own owner and budget (see the newsletter section of [CONTRIBUTING.md](../CONTRIBUTING.md)).
 
 ## Proposal checklist
 
 - [ ] Language and variety named
-- [ ] Language lead: GitHub and Discord handles, a writing sample in the language, familiarity with Zcash
-- [ ] Second native speaker, or agreement to start with a single reviewer
-- [ ] The lead agrees to: glossary and menus first; page corrections through the steward; no manual page PRs
+- [ ] Proposer's GitHub and Discord handles
+- [ ] Translation Quality bounty posted; reviewer selected (application, 10-row trial, second-native spot-check)
+- [ ] Everyone involved agrees to: glossary and menus first; page corrections through the steward; no manual page PRs
 - [ ] Maintainers agree to carry the language permanently, and to the budget (glossary and menus review, website-text review, optional page-review bounties)
 - [ ] Decision recorded on what happens if the language loses its reviewer
 
@@ -106,4 +107,4 @@ A full native review of every page is not realistic for one volunteer. The model
 | Is the machine cost a problem? | No: about two sync windows today, or tens of dollars through an API |
 | What do we commit to? | Permanent maintenance (about +5% per window), steward time, review bounties |
 | What is the minimum for quality? | Reviewed glossary and menus, reviewed website text, reviewed top 10 pages |
-| When to say no | No native lead, or no willingness to maintain the language long term |
+| When to say no | No native reviewer found through the bounty, or no willingness to maintain the language long term |
