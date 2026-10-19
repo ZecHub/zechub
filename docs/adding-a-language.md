@@ -45,7 +45,7 @@ The site keeps working throughout: a page with no translation shows the English 
 2. **Glossary and menus first.** The lead fills the two review files (same format as the reviewed Italian and Indonesian files in `translation/glossary/test-fixtures/`). The steward checks the answers and imports them. Every page translation is generated from the glossary, so translating pages first and fixing terms later means rewriting the pages twice.
 3. **Machine translation of all pages**, in one or more pipeline runs, with the usual automatic checks (numbers, links, protected names, structure). Pages that fail a check are held back and show English.
 4. **Website PR**: website dictionary and locale registration, previewed before merge.
-5. **Native review of pages**, most visited first (Start Here, wallets, Zcash basics). Corrections go through the steward, so the manifest stays correct.
+5. **Native review of pages**, starting with the top 10 pages (Start Here). Corrections are sent to the steward as a list, not as PRs, so the manifest stays correct.
 6. **Maintenance**: from then on, every sync window also updates the new language.
 
 ## Costs
@@ -62,7 +62,7 @@ The site keeps working throughout: a page with no translation shows the English 
   | Top closed models | about $20–40 |
 
   Add about 20% for retries.
-- **Ongoing:** each extra language adds about 1/18 (≈ 6%) to the cost of every future sync window.
+- **Ongoing:** with 19 languages today, each extra language adds about 1/19 (≈ 5%) to the cost of every future sync window.
 
 ### Native review
 
@@ -70,8 +70,8 @@ The site keeps working throughout: a page with no translation shows the English 
 |---|---|---|
 | Glossary and menus | 64 terms, about 120 labels | 2–3 h |
 | Website text | 4,500 words | 8–12 h |
-| Top 20–30 pages | about 25,000 words | 50–60 h |
-| All pages, careful review | 240,000 words at 400–500 words per hour | 500–600 h |
+| Top 10 pages (Start Here) | about 3,500 words | about 4 h |
+| All pages | 240,000 words at roughly 800–1,000 words per hour | 250–300 h |
 
 A full native review of every page is not realistic for one volunteer. The model used for the existing languages is: machine translation of everything; native review of the glossary, the menus, the website text and the most important pages; corrections when readers report problems.
 
@@ -102,6 +102,6 @@ A full native review of every page is not realistic for one volunteer. The model
 | Question | Answer |
 |---|---|
 | Is the machine cost a problem? | No: about two sync windows today, or tens of dollars through an API |
-| What do we commit to? | Permanent maintenance (about +6% per window), steward time, review bounties |
-| What is the minimum for quality? | Reviewed glossary and menus, reviewed website text, reviewed top pages |
+| What do we commit to? | Permanent maintenance (about +5% per window), steward time, review bounties |
+| What is the minimum for quality? | Reviewed glossary and menus, reviewed website text, reviewed top 10 pages |
 | When to say no | No native lead, or no willingness to maintain the language long term |
