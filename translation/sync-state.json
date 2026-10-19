@@ -12781,11 +12781,11 @@
       "edited": false
     },
     "guides/Nym_Mixnet_Wallet_Setup.md": {
-      "src": "sha256:45fe1fc2d5d20edf08e0be8f1ca4102df43b240bd0fd35e58a636fd13799ddf5",
-      "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
+      "src": "sha256:006f0e1371faad3e8f1c69b6584972c9964371816132f43e192157e9d9a79bc9",
+      "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "guides/Ledger_Shielded_ZEC.md": {
@@ -21957,6 +21957,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Ledger_Shielded_ZEC.md": {
+      "src": "sha256:f5f05cf9d501d89d1a8c5e02dc36b9de8b055c77c9adf5cfbb5d921454a5c366",
+      "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
     }
   },
   "pt": {
@@ -29269,6 +29277,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Ledger_Shielded_ZEC.md": {
+      "src": "sha256:f5f05cf9d501d89d1a8c5e02dc36b9de8b055c77c9adf5cfbb5d921454a5c366",
+      "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
     }
   },
   "uk": {
@@ -34714,6 +34730,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Ledger_Shielded_ZEC.md": {
+      "src": "sha256:f5f05cf9d501d89d1a8c5e02dc36b9de8b055c77c9adf5cfbb5d921454a5c366",
+      "src_commit": "b17ac4673559794b4f8ee0c9d6fb26a076a5a95f",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     }
   }
