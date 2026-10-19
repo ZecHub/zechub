@@ -399,7 +399,7 @@
 ---
 
 ## [Zafu Wallet](https://zafu.pro/)
-![logo](https://github.com/ZecHub/zechub-wiki/blob/main/public/content-images/zafu.webp)
+![logo](/content-images/zafu.webp)
 - Devices: Desktop Browser (Browser Extension)
 - Operating System: Windows | macOS | Linux (via compatible Chromium-based browsers)
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
