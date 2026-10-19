@@ -99,7 +99,8 @@ jobs:
                   return parse(Buffer.from(res.data.content, 'base64').toString('utf8'));
                 } catch (e) { core.info(`could not read ${path} at ${ref} (${e.status || e.message})`); }
               }
-              return new Set();
+              // Fail closed: an empty list would let a deleted curated page pass green.
+              throw new Error(`could not read ${path} from the PR head or the base; re-run this check`);
             };
             const curated = await list('translation/curated-pages.txt');
             const englishOnly = await list('translation/english-only-pages.txt');
