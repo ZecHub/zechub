@@ -41,12 +41,14 @@ The site keeps working throughout: a page with no translation shows the English 
 
 ## Steps
 
-1. **Proposal and approval.** Open an issue that names the language and its variety (for example Brazilian or European Portuguese), the language lead, and a second native speaker if there is one. Maintainers decide whether ZecHub wants to carry the language **permanently**.
+1. **Proposal and approval.** Open an issue that names the language and its variety (for example Brazilian or European Portuguese), the language lead, and a second native speaker if there is one. Maintainers have agreed that a language proposed by a contributor is accepted when a native-speaker language lead commits to it, since ZecHub then carries it **permanently**.
 2. **Glossary and menus first.** The lead fills the two review files (same format as the reviewed Italian and Indonesian files in `translation/glossary/test-fixtures/`). The steward checks the answers and imports them. Every page translation is generated from the glossary, so translating pages first and fixing terms later means rewriting the pages twice.
 3. **Machine translation of all pages**, in one or more pipeline runs, with the usual automatic checks (numbers, links, protected names, structure). Pages that fail a check are held back and show English.
 4. **Website PR**: website dictionary and locale registration, previewed before merge.
 5. **Native review of pages**, starting with the top 10 pages (Start Here). Corrections are sent to the steward as a list, not as PRs, so the manifest stays correct.
 6. **Maintenance**: from then on, every sync window also updates the new language.
+
+The native review in steps 2 and 5 is paid as one **Translation Quality bounty in two stages**: first the glossary and menus, then, after the pipeline run, the top 10 pages. Applicants go through a short trial, a second native speaker spot-checks the work, and the reward is paid after validation.
 
 ## Costs
 
