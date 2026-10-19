@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
 </a>
 
@@ -10,7 +10,7 @@ Zcash shielded transactions kpɔa asitsatsa ŋuti nyatakakawo ta le kɔsɔkɔsɔ
 
 Nym tsɔ network-privacy layer si le vovo kpe ɖe eŋu. Tso September 2026 me la, mɔnu nyuitɔ kekeake nɔ te ɖe gakotokua dzi:
 
-1. **Tia gakotoku ƒe Nym ƒe ƒoƒo ɖekae si nye dzɔdzɔme tɔ ne ele anyi.**
+1. **Tia gakotoku ƒe Nym ƒoƒo ɖekae si nye dzɔdzɔme tɔ ne ele anyi.**
 2. Ne menye nenema o la, zã **system-level NymVPN Mixnet mode** ale be woatsɔ gakotokua ƒe network ʋuɖoɖo to Nym dzi evɔ manɔ te ɖe gakotokua ƒe teƒenɔla ƒe kpekpeɖeŋu koŋ dzi o.
 
 Ne èdi VPN kple dVPN ƒe megbenyawo katã la, kpɔ [VPN & dVPN ƒe dɔwɔwɔ](./VPN_and_DVPN.md).
@@ -21,13 +21,13 @@ Zcash ƒe fexexe si wokpɔ ta na kple network ƒe adzamenyawo gbɔ kpɔkpɔ ƒe 
 
 - **Zcash shielded pools** kpɔa asitsatsa ŋuti nyatakakawo ta le kɔsɔkɔsɔ dzi.
 - **Nym mixnet routing** nye esi wowɔ be wòaɖe kadodo si le wò network identity ŋutɔŋutɔ kple subɔsubɔdɔ si xɔa gakotoku ƒe ʋuɖoɖo dome dzi akpɔtɔ.
-- Ele be teƒe si wodo ka kplii to NymVPN mɔ̃ si le ɖoɖo nu dzi nakpɔ Nym ƒe dodo tsɔ wu wò aƒe/asitelefon IP.
+- Ele be teƒe si wodo ka kplii to NymVPN mɔ̃ si le ɖoɖo nu dzi nakpɔ Nym dodo tsɔ wu wò aƒe/asitelefon IP.
 
-Nym ƒe mixnet zãa hop geɖewo, packet mixing, randomized delays, cover traffic, kple onion encryption tsɔ ɖea network-metadata leakage dzi kpɔtɔna.
+Nym's mixnet zãa hop geɖewo, packet mixing, randomized delays, cover traffic, kple onion encryption tsɔ ɖea network-metadata leakage dzi kpɔtɔna.
 
 Nym **mekpɔa ame ta** tso mɔ̃ si ŋu wogblẽ nu le, gakotoku ƒe kɔmpiutadziɖoɖo vɔ̃ɖi, nyagbe siwo woɖe ɖe go tsɔ gbugbɔa nu, amenyenye si nèɖena fiana to asitɔtrɔ ƒe akɔntabubuwo dzi, alo ameŋunyatakakawo ƒe bu si Zcash dɔwɔna si me kɔ ta.
 
-## Native Nym ƒe kpekpeɖeŋu: zã esia gbã ne eli
+## Native Nym kpekpeɖeŋu: zã esia gbã ne eli
 
 Nym ɖe gbeƒã le September 24, 2026 dzi be yewoƒe Zcash Community Grant dɔa wu enu eye native mixnet support le ɖoɖom ɖe Zcash gakotoku ŋutɔŋutɔwo me.
 
@@ -69,7 +69,7 @@ Dzɔtsoƒewo:
 
 ### Nozy ƒe ŋkɔ
 
-NozyWallet hã si Nym-nya ʋuɖoɖomɔwo. Eƒe dɔwɔwɔ fifia doa alɔ mɔzɔzɔ ƒe asitsatsa si do go ƒe dɔdɔ to Nym mixnet dzi kple Nym dVPN mɔ si le vovo na compact-block synchronization. Bu esiawo abe ametakpɔnu vovovowo ene tsɔ wu be nàtsɔe be gakotoku ɖesiaɖe si wobia la zãa mixnet la le eɖokui si.
+NozyWallet hã si Nym-aware. Eƒe dɔwɔwɔ fifia doa alɔ mɔzɔzɔ ƒe asitsatsa si do go ƒe dɔdɔ to Nym mixnet dzi kple Nym dVPN mɔ si le vovo na compact-block synchronization. Bu esiawo abe ametakpɔnu vovovowo ene tsɔ wu be nàtsɔe be gakotoku ɖesiaɖe si wobia la zãa mixnet la le eɖokui si.
 
 Dzɔtsoƒewo:
 
@@ -81,16 +81,16 @@ Dzɔtsoƒewo:
 
 Zodl fifia la, wotu **Tor Protection** ɖe eme, menye native Nym integration si ŋu míeƒo nu tsoe le etame na Zingo, Zkool, kple Nozy o.
 
-Zodl ƒe Tor ƒe nɔnɔme ateŋu aɖo adzɔnuwo ɖoɖo ɖa, asitsatsa-nyatakakawo xɔxɔ, asitɔtrɔ ƒe asi ƒe biabiawo, kple ame etɔ̃lia ƒe API yɔyɔwo to Tor dzi. Nym gblɔ le September 24, 2026 dzi be yegakpɔtɔ le dze ɖom vevie kple Zodl ƒe ƒuƒoƒoa tso mixnet ƒe ƒoƒo ɖekae si keke ta wu ŋu.
+Zodl's Tor nɔnɔme ateŋu aɖo adzɔnuwo ɖoɖo ɖa, asitsatsa-nyatakakawo xɔxɔ, asitɔtrɔ ƒe asi ƒe biabiawo, kple ame etɔ̃lia ƒe API yɔyɔwo to Tor. Nym gblɔ le September 24, 2026 dzi be yegakpɔtɔ le dze ɖom vevie kple Zodl ƒe ƒuƒoƒoa tso mixnet ƒe ƒoƒo ɖekae si keke ta wu ŋu.
 
 Le Zodl egbea gome la, zã wo dometɔ ɖesiaɖe:
 
-- Zodl ƒe Tor Takpɔkpɔ si woŋlɔ ɖi, alo
+- Zodl's Tor Takpɔkpɔ si woŋlɔ ɖi, alo
 - system-level NymVPN ne wò taɖodzinue nye be yeaɖo gakotokua ƒe mɔ̃ ƒe ʋuɖoɖo le mɔ gbadza nu to Nym.
 
 Mègatsɔe be Tor kple Nym nye ʋu siwo woate ŋu atrɔ ɖe wo nɔewo ŋu le gakotokua me le esi wo ame evea siaa nye ame ŋutɔ ƒe nyatakakawo ƒe kadodowo ta ko o.
 
-Zodl Tor ƒe ɖoɖowo:
+Zodl Tor ɖoɖowo:
 
 **Nu Geɖe → Nɔnɔme Deŋgɔwo → Beta: Tor Takpɔkpɔ → Wɔe → Dzra tɔtrɔwo ɖo**
 
@@ -101,11 +101,11 @@ Dzɔtsoƒewo:
 
 ## Fallback: ɖoɖo-dzidzenu NymVPN
 
-Esia nye Nym ƒe tiatia si sɔ wu elabena mehiã be gakotokua nase Nym-koŋ ƒe teƒenɔla ƒe ɖoɖowo gɔme o.
+Esia nye Nym ƒe tiatia si sɔ wu elabena mehiã be gakotokua nase Nym-specific ƒe teƒenɔla ƒe ɖoɖowo gɔme o.
 
 ### 1. De NymVPN ɖe wò kɔmpiuta dzi
 
-Wɔ NymVPN kɔpi tso Nym ƒe nyatakakadzraɖoƒe si dziɖuɖua ɖo alo fiase si dziɖuɖua da asi ɖo le mɔ̃ dzi ko:
+Wɔ NymVPN kɔpi tso Nym's nyatakakadzraɖoƒe si dziɖuɖua ɖo alo fiase si dziɖuɖua da asi ɖo le mɔ̃ dzi ko:
 
 - https://nym.com/
 - https://nym.com/blog/nymvpn-v2026.12
@@ -141,7 +141,7 @@ Dɔwɔɖoɖo ƒe ɖoɖo ƒe dodokpɔ bɔbɔe aɖe:
 
 Ele be dutoƒo IP si wokpɔna la natrɔ.
 
-Esia ɖo kpe ɖoɖoa ƒe mɔ̃a dzi. Meɖo kpe edzi **meɖo kpe** be biabia ɖesiaɖe si gakotoku aɖe koŋ wɔ la zɔna ɖe mɔ ɖeka dzi ne mɔfiameɖoɖo tɔxɛwo le app alo OS la si o.
+Esia ɖo kpe ɖoɖoa ƒe mɔ̃a dzi. Meɖo kpe edzi **meɖo kpe** be biabia ɖesiaɖe si gakotoku aɖe koŋ wɔ la zɔna ɖe mɔ ɖeka dzi ne mɔfiame tɔxɛwo le app alo OS la si o.
 
 Ne èdi kakaɖedzi bubuwo le kɔmpiuta dzi:
 
@@ -155,13 +155,13 @@ Mègada screenshots siwo me gakotoku ƒe adrɛs, ga si susɔ, asitsatsa ƒe ID, 
 
 NymVPN hã ɖea app-kple-gakotoku teƒenɔla ƒe nɔnɔme ɖe go to SOCKS5 / RPC mɔfiame to mixnet dzi zazã me.
 
-Nym ƒe dutoƒo ɖoɖowɔwɔ ŋuti nuŋlɔɖiwo ɖe esia fia vevietɔ kple Ethereum-style RPC ɖoɖowɔwɔ. Eɖea vi na kɔmpiutadziɖoɖo siwo doa alɔ generic proxy/RPC mɔ si sɔ tẽ, gake mele be **mele** be woatsɔe be ewɔa dɔ kple Zcash gakotoku ɖesiaɖe o.
+Nym's dutoƒo ɖoɖowɔwɔ ŋuti nuŋlɔɖiwo ɖe esia fia vevietɔ kple Ethereum-style RPC ɖoɖowɔwɔ. Eɖea vi na kɔmpiutadziɖoɖo siwo doa alɔ generic proxy/RPC mɔ si sɔ tẽ, gake mele be **mele** be woatsɔe be ewɔa dɔ kple Zcash gakotoku ɖesiaɖe o.
 
 Ne gakotokua ŋutɔ ƒe nuŋlɔɖiwo ɖo kpe proxy alo RPC ƒe kpekpeɖeŋu si sɔ dzi ko hafi nàzã mɔ sia.
 
 Ne menye nenema o la, ke boŋ:
 
-- gakotokua ƒe Nym ƒe ƒoƒo ɖekae, alo
+- gakotokua ƒe dzɔdzɔme Nym ƒoƒo ɖekae, alo
 - ɖoɖo-dzidzenu NymVPN.
 
 ## Dɔwɔwɔ kple ɣeyiɣi ƒe nuwuwu ƒe asitsatsa
@@ -178,7 +178,7 @@ Kpɔ mɔ na ŋusẽ si wòate ŋu akpɔ ɖe:
 
 Mɔfiame nyuiwo:
 
-- Dze egɔme kple Nym ƒe ɖoɖo gbãtɔwo.
+- Dze egɔme kple Nym ɖoɖo gbãtɔwo.
 - Kpɔ mɔ be gbãtɔ sync alo long catch-up sync axɔ ɣeyiɣi didi wu.
 - Gbugbɔ te ɣeyiɣi aɖe ƒe nuwuwu kpɔ hafi nàgbɔdzɔ ameŋunyatakakawo ƒe ɖoɖowo.
 - Ƒo asa na ameŋunyatakakawo takpɔkpɔ ƒe mɔnuwo tɔtrɔ enuenu enumake hafi nàwɔ asitsatsa vevi aɖe.
@@ -196,7 +196,7 @@ Ne VPN, dzodoƒe, alo boblododo mɔxenu bubu si wotu ɖe VPN dzi le teƒea xɔ �
 Hafi nàɖo ŋu ɖe ɖoɖoa ŋu la, bia be:
 
 - Ðe mele Zcash adrɛs siwo ŋu wokpɔ ta na zãm le afisi wòsɔa?
-- Ðe native Nym support le nye gakotokua mea?
+- Ðe Nym ƒe kpekpeɖeŋu le nye gakotokua mea?
 - Ne nenemae la, ke ʋuɖoɖo ka tututue native integration ma kpɔa ta na?
 - Ne mehiã na kpekpeɖeŋu si keke ta wu la, ɖe NymVPN do ƒome hafi gakotokua dze network dɔwɔna gɔmea?
 - Ðe se si nye be woama mɔ̃a me ɖe gakotokua ɖaa?
@@ -207,8 +207,8 @@ Hafi nàɖo ŋu ɖe ɖoɖoa ŋu la, bia be:
 ## Dzɔtsoƒewo
 
 - Nym: Nym mixnet le Zcash gakotokuwo me fifia, September 24, 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
-- Zingo PC Nym ƒe nuwɔna: https://github.com/zingolabs/zingo-pc#the-nym-mixnet
-- Zingo Mobile Nym ƒe ʋuɖoɖo: https://github.com/zingolabs/zingo-mobile
+- Zingo PC Nym nuwɔna: https://github.com/zingolabs/zingo-pc#the-nym-mixnet
+- Zingo Mobile Nym ʋuɖoɖo: https://github.com/zingolabs/zingo-mobile
 - Zkool nudzraɖoƒe: https://github.com/hhanh00/zkool2
 - NozyWallet Nym ʋuɖoɖodɔ: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12 ƒe ƒuƒoƒo: https://nym.com/blog/nymvpn-v2026.12
