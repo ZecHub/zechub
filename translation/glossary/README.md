@@ -19,7 +19,7 @@ files, so a decision made once applies everywhere.
 | `review-instructions.json` | The fill-in instructions in the reviewer's language, printed above the English ones in an exported table. `machine: true` marks a text no native speaker has checked yet. |
 | `prompt-template.md` | The part of the translation prompt that is the same for every language. |
 | `render-prompt.mjs` | Prints the prompt for one page of one language. Logic in `lib/render-prompt.mjs`. |
-| `test-fixtures/` | The filled review tables for Indonesian (used by the tests) and Italian; the open review tables for the other 17 languages (`glossary-review-<loc>.md`, `menus-review-<loc>.md`, for the native-speaker review bounties); and the hand-written prompt heads the generated ones replace (`legacy-heads/`). |
+| `test-fixtures/` | The filled review tables for Indonesian (used by the tests) and Italian; the open review tables for the other 18 languages, Greek included (`glossary-review-<loc>.md`, `menus-review-<loc>.md`, for the native-speaker review bounties); and the hand-written prompt heads the generated ones replace (`legacy-heads/`). |
 
 Names of products, companies and protocols (Zcash, Orchard, Zashi, ...) are
 not in these files. They stay in English in every language and are listed in

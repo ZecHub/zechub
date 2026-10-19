@@ -49,7 +49,7 @@ The site keeps working throughout: a page with no translation shows the English 
 5. **Native review of pages**, starting with the top 10 pages (Start Here). Corrections are sent to the steward as a list, not as PRs, so the manifest stays correct.
 6. **Maintenance**: from then on, every sync window also updates the new language.
 
-The native review in steps 2 and 5 is paid as one **Translation Quality bounty in two stages**: first the glossary and menus, then, after the pipeline run, the top 10 pages. The reward is paid after validation.
+The native review in steps 2 and 5 is one **Translation Quality bounty in two stages**. Stage 1, the glossary and menus, is paid after validation. Stage 2, the top 10 pages after the pipeline run, is voluntary; contributors who do it can apply for a ZecHub retroactive grant.
 
 ## Costs
 

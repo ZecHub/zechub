@@ -52,6 +52,10 @@
     "sw": {
       "text": "**Jinsi ya kujaza**\n- **Safu ✅:** andika `OK` ikiwa tafsiri iliyoonyeshwa ni sahihi, `keep English` ili kubaki na neno la Kiingereza, au tafsiri ambayo wewe ungetumia. Tafsiri moja tu kwa kila kisanduku. Acha wazi ikiwa huna uhakika. Usibadilishe safu ya ID.\n- **Safu ya Notes (muhimu):** kwa kila mstari unaoubadilisha au kuuwekea `keep English`, andika sentensi fupi kwa maneno yako mwenyewe ukieleza sababu, kwa mfano \"hili ndilo neno linalotumiwa na masoko ya kubadilisha fedha za kidijitali na pochi za hapa nchini\" au \"neno hili linamaanisha anwani ya posta\". Tumia pia Notes pale ambapo neno sahihi linategemea muktadha (kitenzi au nomino, menyu au ukurasa), au mstari usipoeleweka. Mabadiliko yasiyo na maelezo huenda yasikubaliwe.",
       "machine": true
+    },
+    "el": {
+      "text": "**Πώς να το συμπληρώσεις**\n- **✅ στήλη:** γράψε `OK` αν η απόδοση που εμφανίζεται είναι σωστή, `keep English` για να μείνει η αγγλική λέξη ή την απόδοση που θα χρησιμοποιούσες. Μία απόδοση ανά κελί. Άφησέ το κενό αν δεν είσαι σίγουρος. Μην επεξεργάζεσαι τη στήλη ID.\n- **Στήλη Notes (σημαντικό):** για κάθε γραμμή που αλλάζεις ή σημειώνεις ως `keep English`, γράψε μία σύντομη γραμμή με δικά σου λόγια που να εξηγεί το γιατί, για παράδειγμα «αυτό χρησιμοποιούν τα τοπικά ανταλλακτήρια και πορτοφόλια» ή «αυτή η λέξη σημαίνει διεύθυνση δρόμου». Χρησιμοποίησε επίσης το Notes όταν η σωστή λέξη εξαρτάται από το πλαίσιο (ρήμα ή ουσιαστικό, μενού ή σελίδα), ή όταν μια γραμμή δεν είναι σαφής. Αλλαγές χωρίς σημείωση μπορεί να μη γίνουν δεκτές.",
+      "machine": true
     }
   }
 }
