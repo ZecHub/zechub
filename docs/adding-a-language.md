@@ -36,14 +36,14 @@ The site keeps working throughout: a page with no translation shows the English 
 |---|---|---|
 | **Proposer** | Asks for the language in an issue; may apply for the review bounty like anyone else | short |
 | **Reviewer** (native speaker, selected through the Translation Quality bounty) | Reviews the glossary and menu files, then the top 10 translated pages; answers wording questions later | Glossary and menus: 2–3 h. Pages: see [Costs](#costs) |
-| **Second native speaker** | Spot-checks the reviewer's choices. The [glossary rules](../translation/glossary/README.md) ask for a second reviewer; with only one speaker, a maintainer may accept a single reviewer and the next reviewer of that language confirms | about 1 h |
+| **Second native speaker** (volunteer) | After the first round is delivered, spot-checks part of the reviewer's glossary and menu answers. The [glossary rules](../translation/glossary/README.md) ask for a second reviewer; with only one speaker, a maintainer may accept a single reviewer and the next reviewer of that language confirms | about 1 h |
 | **Translation steward** | Prepares the review files, imports the answers, runs the pipeline and the quality checks, opens the website PR | 1–2 working days at launch, then part of the regular sync windows |
 | **Maintainers** | Decide whether to add the language, approve and pay bounties, merge the website PR | short |
 
 ## Steps
 
 1. **Proposal and approval.** Open an issue that names the language and its variety (for example Brazilian or European Portuguese). Maintainers decide whether to add it; ZecHub then carries it **permanently**. Proposing a language does not make you its reviewer.
-2. **Reviewer selection, then glossary and menus.** The reviewer is selected through a Translation Quality bounty, as for the other languages: an application, a short trial on the first 10 rows, and a spot-check by a second native speaker. The proposer and anyone else may apply. The reviewer fills the two review files (same format as the reviewed Italian and Indonesian files in `translation/glossary/test-fixtures/`). The steward checks the answers and imports them. Every page translation is generated from the glossary, so translating pages first and fixing terms later means rewriting the pages twice.
+2. **Reviewer selection, then glossary and menus.** The reviewer is selected through a Translation Quality bounty, as for the other languages: an application and a short trial on the first 10 rows. The proposer and anyone else may apply. The reviewer fills the two review files (same format as the reviewed Italian and Indonesian files in `translation/glossary/test-fixtures/`). The steward checks the answers, a volunteer second native speaker spot-checks part of them, and the steward imports them. Every page translation is generated from the glossary, so translating pages first and fixing terms later means rewriting the pages twice.
 3. **Machine translation of all pages**, in one or more pipeline runs, with the usual automatic checks (numbers, links, protected names, structure). Pages that fail a check are held back and show English.
 4. **Website PR**: website dictionary and locale registration, previewed before merge.
 5. **Native review of pages**, starting with the top 10 pages (Start Here). Corrections are sent to the steward as a list, not as PRs, so the manifest stays correct.
@@ -72,9 +72,8 @@ The native review in steps 2 and 5 is paid as one **Translation Quality bounty i
 | Work | Size | Time (indicative) |
 |---|---|---|
 | Glossary and menus | 64 terms, about 120 labels | 2–3 h |
-| Website text | 4,500 words | 8–12 h |
+| Website text | 4,500 words | 2–3 h |
 | Top 10 pages (Start Here) | about 3,500 words | about 4 h |
-| All pages | 240,000 words at roughly 800–1,000 words per hour | 250–300 h |
 
 A full native review of every page is not realistic for one volunteer. The model used for the existing languages is: machine translation of everything; native review of the glossary, the menus, the website text and the most important pages; corrections when readers report problems.
 
