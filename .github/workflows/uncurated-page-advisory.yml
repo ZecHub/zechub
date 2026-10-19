@@ -85,11 +85,12 @@ jobs:
             // data. A list that cannot be read at head falls back to base.
             const list = async (path) => {
               const parse = (t) => new Set(t.split('\n').map((l) => l.replace(/#.*/, '').trim()).filter(Boolean));
-              // head.repo is null when the fork was deleted: the PR head is still
-              // readable from the base repo as refs/pull/<n>/head; base is last.
+              // head.repo is null when the fork was deleted. A PR's head commit is
+              // still reachable in the base repo by its sha (GitHub keeps it under
+              // refs/pull/<n>/head), so try that before falling back to base.
               const sources = [
                 ...(pr.head.repo ? [[pr.head.repo.owner.login, pr.head.repo.name, pr.head.sha]] : []),
-                [owner, repo, `refs/pull/${pr.number}/head`],
+                [owner, repo, pr.head.sha],
                 [owner, repo, pr.base.sha],
               ];
               for (const [o, r, ref] of sources) {
