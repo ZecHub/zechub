@@ -1,10 +1,9 @@
 ## What this PR changes
 
 
-## New project or product names
-<!-- One per line: Name — official URL. They also go in translation/protected-terms.json (see CONTRIBUTING.md). Write "none" if there are none. -->
+<!-- Only for PRs that change wiki pages under site/; delete this section otherwise. See the translation section of CONTRIBUTING.md. -->
+## Wiki pages: translation details
+**New project or product names** (Name — official URL, or "none"):
 
-
-## Pages added, moved or deleted
-<!-- The Curation check comments the exact change if translation/curated-pages.txt or english-only-pages.txt need updating. Write "none" if there are none. -->
+**Pages added, moved or deleted** (or "none"; the Curation check comments the exact list change if one is needed):
 
