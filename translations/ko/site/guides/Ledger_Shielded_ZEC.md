@@ -24,7 +24,7 @@
 - Ledger에서 Zcash 앱을 연 상태로 있으면 Ledger Wallet이 계정을 찾습니다. **Select the accounts you want to add** 아래에서 선택하고 **Confirm**을 클릭하세요.
 - 계정 페이지에는 **Available balance**, **Transparent balance**, **Private balance** 및 **Enable shielded** 버튼이 표시됩니다.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![데스크톱 전용 안내, 투명 잔액과 비공개 잔액, “Enable shielded” 버튼을 표시하는 Ledger Wallet Desktop의 Zcash 계정](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. 비공개 잔액 활성화**
 - **Enable shielded**를 클릭합니다. **Enable Zcash private balance** 창에는 Birthday, UFVK, Device, Confirmation의 네 단계가 있습니다.
@@ -57,7 +57,7 @@
 
 - 거래가 확인된 후 투명 잔액은 감소하고 비공개 잔액은 증가합니다. 새 shielded 자금은 사용할 만큼 충분한 확인 횟수를 얻을 때까지 "maturing"으로 표시됩니다.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![실드 적용 후 Zcash 계정: 투명 잔액이 줄고 비공개 잔액이 늘어나며 성숙 중으로 표시됨](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. 비공개 잔액에서 ZEC 보내기**
 - 비공개 잔액을 사용할 수 있게 되면 **Send**를 클릭하고 **Transfer from**을 **Private balance**로 설정합니다.

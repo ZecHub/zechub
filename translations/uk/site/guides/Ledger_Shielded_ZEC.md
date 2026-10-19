@@ -24,7 +24,7 @@
 - Коли застосунок Zcash відкрито на вашому Ledger, Wallet Ledger знайде ваш обліковий запис. Позначте його в розділі **Виберіть облікові записи, які хочете додати** та натисніть **Підтвердити**.
 - На сторінці облікового запису відображаються **Доступний баланс**, **Прозорий баланс** і **Приватний баланс**, а також кнопка **Увімкнути shielded**.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Обліковий запис Zcash у Ledger Wallet Desktop із повідомленням лише для настільної версії, прозорим і приватним балансами та кнопкою «Enable shielded»](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. Увімкніть приватний баланс**
 - Натисніть **Увімкнути shielded**. У вікні **Увімкнути приватний баланс Zcash** є чотири кроки: Birthday, UFVK, Device і Confirmation.
@@ -57,7 +57,7 @@
 
 - Після підтвердження транзакції прозорий баланс зменшиться, а приватний баланс збільшиться. Нові shielded кошти відображатимуться як «дозрівають», доки не матимуть достатньо підтверджень для витрачання.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![Обліковий запис Zcash після екранування: прозорий баланс зменшився, приватний баланс збільшився та показаний як такий, що дозріває](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. Надішліть ZEC зі свого приватного балансу**
 - Щойно приватний баланс стане доступним для витрачання, натисніть **Надіслати** та встановіть для **Переказ із** значення **Приватний баланс**.

@@ -24,7 +24,7 @@ Il 23 settembre 2026 Ledger ha aggiunto il supporto nativo schermato per ZEC a L
 - Con l'app Zcash aperta sul tuo Ledger, Ledger Wallet trova il tuo account. Selezionalo in **Seleziona gli account che vuoi aggiungere** e fai clic su **Conferma**.
 - La pagina dell'account mostra **Saldo disponibile**, **Saldo trasparente** e **Saldo privato**, oltre a un pulsante **Abilita schermatura**.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Account Zcash in Ledger Wallet Desktop con avviso solo desktop, saldi trasparente e schermato e pulsante “Enable shielded”](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. Abilita il saldo privato**
 - Fai clic su **Abilita schermatura**. La finestra **Abilita il saldo privato di Zcash** presenta quattro passaggi: data di inizio, UFVK, dispositivo e conferma.
@@ -57,7 +57,7 @@ Il 23 settembre 2026 Ledger ha aggiunto il supporto nativo schermato per ZEC a L
 
 - Dopo la conferma della transazione, il saldo trasparente diminuisce e il saldo privato aumenta. I nuovi fondi schermati vengono visualizzati come "in maturazione" finché non ricevono conferme sufficienti per essere spesi.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![Account Zcash dopo la schermatura: saldo trasparente ridotto, saldo schermato aumentato e mostrato come in maturazione](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. Invia ZEC dal tuo saldo privato**
 - Quando il saldo privato è spendibile, fai clic su **Invia** e imposta **Trasferisci da** su **Saldo privato**.

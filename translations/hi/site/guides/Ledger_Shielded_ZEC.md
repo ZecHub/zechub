@@ -24,7 +24,7 @@
 - आपके Ledger पर Zcash ऐप खुला होने पर, Ledger Wallet आपका खाता खोज लेता है। **Select the accounts you want to add** के अंतर्गत उसे चुनें और **Confirm** पर क्लिक करें।
 - खाता पृष्ठ पर **Available balance**, **Transparent balance** और **Private balance**, साथ ही **Enable shielded** बटन दिखता है।
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Ledger Wallet Desktop में Zcash खाता, जिसमें केवल डेस्कटॉप सूचना, पारदर्शी और निजी शेष राशि, तथा “Enable shielded” बटन दिख रहा है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. निजी बैलेंस सक्षम करें**
 - **Enable shielded** पर क्लिक करें। **Enable Zcash private balance** विंडो में चार चरण होते हैं: Birthday, UFVK, Device और Confirmation।
@@ -57,7 +57,7 @@
 
 - लेनदेन की पुष्टि होने के बाद, पारदर्शी बैलेंस घटता है और निजी बैलेंस बढ़ता है। नए shielded फंड खर्च करने के लिए पर्याप्त confirmations मिलने तक "maturing" के रूप में दिखते हैं।
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![शील्ड करने के बाद Zcash खाता: पारदर्शी शेष राशि कम हुई, निजी शेष राशि बढ़ी और परिपक्व हो रही के रूप में दिखाई गई](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. अपने निजी बैलेंस से ZEC भेजें**
 - निजी बैलेंस खर्च योग्य हो जाने पर **Send** पर क्लिक करें और **Transfer from** को **Private balance** पर सेट करें।

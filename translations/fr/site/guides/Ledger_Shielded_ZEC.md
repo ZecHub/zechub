@@ -24,7 +24,7 @@ Le 23 septembre 2026, Ledger a ajouté la prise en charge native de ZEC shielded
 - Avec l'application Zcash ouverte sur votre Ledger, Ledger Wallet trouve votre compte. Cochez-le sous **Sélectionnez les comptes que vous souhaitez ajouter**, puis cliquez sur **Confirmer**.
 - La page du compte affiche **Solde disponible**, **Solde transparent** et **Solde privé**, ainsi qu'un bouton **Activer le mode shielded**.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Compte Zcash dans Ledger Wallet Desktop affichant l’avis réservé au bureau, les soldes transparent et privé, ainsi que le bouton « Enable shielded »](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. Activer le solde privé**
 - Cliquez sur **Activer le mode shielded**. La fenêtre **Activer le solde privé Zcash** comporte quatre étapes : Birthday, UFVK, Appareil et Confirmation.
@@ -57,7 +57,7 @@ Le 23 septembre 2026, Ledger a ajouté la prise en charge native de ZEC shielded
 
 - Une fois la transaction confirmée, le solde transparent diminue et le solde privé augmente. Les nouveaux fonds shielded s'affichent comme « en maturation » jusqu'à ce qu'ils aient suffisamment de confirmations pour être dépensés.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![Compte Zcash après protection : solde transparent réduit, solde privé augmenté et affiché comme en maturation](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. Envoyer des ZEC depuis votre solde privé**
 - Une fois le solde privé disponible à la dépense, cliquez sur **Envoyer** et définissez **Transférer depuis** sur **Solde privé**.

@@ -24,7 +24,7 @@ A 23 de setembro de 2026, Ledger adicionou ZEC shielded nativo à Wallet Desktop
 - Com a aplicação Zcash aberta no seu Ledger, a Wallet da Ledger encontra a sua conta. Assinale-a em **Selecionar as contas que pretende adicionar** e clique em **Confirmar**.
 - A página da conta apresenta **Saldo disponível**, **Saldo transparente** e **Saldo privado**, além de um botão **Ativar shielded**.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Conta Zcash no Ledger Wallet Desktop mostrando o aviso exclusivo para desktop, os saldos transparente e privado e o botão “Enable shielded”](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. Ativar o saldo privado**
 - Clique em **Ativar shielded**. A janela **Ativar saldo privado de Zcash** tem quatro passos: Data de nascimento, UFVK, Dispositivo e Confirmação.
@@ -57,7 +57,7 @@ A 23 de setembro de 2026, Ledger adicionou ZEC shielded nativo à Wallet Desktop
 
 - Depois de a transação ser confirmada, o saldo transparente diminui e o saldo privado aumenta. Os novos fundos shielded aparecem como "em maturação" até terem confirmações suficientes para serem gastos.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![Conta Zcash após a proteção: saldo transparente reduzido, saldo privado aumentado e exibido como em maturação](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. Enviar ZEC a partir do seu saldo privado**
 - Quando o saldo privado puder ser gasto, clique em **Enviar** e defina **Transferir de** como **Saldo privado**.

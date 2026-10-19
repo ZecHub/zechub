@@ -24,7 +24,7 @@
 - Ledger cihazınızda Zcash uygulaması açıkken, Ledger Wallet hesabınızı bulur. **Select the accounts you want to add** altında kutucuğu işaretleyin ve **Confirm** seçeneğine tıklayın.
 - Hesap sayfasında **Available balance**, **Transparent balance** ve **Private balance** ile birlikte bir **Enable shielded** düğmesi gösterilir.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Masaüstüne özel bildirimi, şeffaf ve gizli bakiyeleri ve “Enable shielded” düğmesini gösteren Ledger Wallet Desktop içindeki Zcash hesabı](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. Özel bakiyeyi etkinleştirin**
 - **Enable shielded** seçeneğine tıklayın. **Enable Zcash private balance** penceresinde dört adım bulunur: Birthday, UFVK, Device ve Confirmation.
@@ -57,7 +57,7 @@
 
 - İşlem onaylandıktan sonra şeffaf bakiye azalır ve özel bakiye artar. Yeni korumalı fonlar, harcanmak için yeterli onay alana kadar "maturing" olarak görünür.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![Koruma sonrası Zcash hesabı: şeffaf bakiye azalmış, gizli bakiye artmış ve olgunlaşıyor olarak gösteriliyor](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. Özel bakiyenizden ZEC gönderin**
 - Özel bakiye harcanabilir olduğunda **Send** seçeneğine tıklayın ve **Transfer from** ayarını **Private balance** olarak belirleyin.

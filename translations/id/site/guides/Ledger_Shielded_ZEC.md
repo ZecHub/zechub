@@ -24,7 +24,7 @@ Pada 23 September 2026, Ledger menambahkan dukungan terlindungi native untuk ZEC
 - Dengan aplikasi Zcash terbuka di Ledger kamu, Wallet Ledger menemukan akun kamu. Centang di bawah **Pilih akun yang ingin kamu tambahkan** dan klik **Konfirmasi**.
 - Halaman akun menampilkan **Saldo tersedia**, **Saldo transparan**, dan **Saldo privat**, serta tombol **Aktifkan terlindungi**.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Akun Zcash di Ledger Wallet Desktop yang menampilkan pemberitahuan khusus desktop, saldo transparan dan terlindungi, serta tombol “Enable shielded”](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. Aktifkan saldo privat**
 - Klik **Aktifkan terlindungi**. Jendela **Aktifkan saldo privat Zcash** memiliki empat langkah: Birthday, UFVK, Perangkat, dan Konfirmasi.
@@ -57,7 +57,7 @@ Pada 23 September 2026, Ledger menambahkan dukungan terlindungi native untuk ZEC
 
 - Setelah transaksi dikonfirmasi, saldo transparan berkurang dan saldo privat bertambah. Dana terlindungi baru ditampilkan sebagai "maturing" hingga memiliki cukup konfirmasi untuk dibelanjakan.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![Akun Zcash setelah perlindungan: saldo transparan berkurang, saldo terlindungi bertambah dan ditampilkan sebagai dalam pematangan](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. Kirim ZEC dari saldo privat kamu**
 - Setelah saldo privat dapat dibelanjakan, klik **Kirim** dan atur **Transfer dari** ke **Saldo privat**.

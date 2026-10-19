@@ -24,7 +24,7 @@
 - Ledger 上で Zcash アプリを開いた状態で、Ledger Wallet がアカウントを検出します。**Select the accounts you want to add** の下でチェックを入れ、**Confirm** をクリックします。
 - アカウントページには、**Available balance**、**Transparent balance**、**Private balance** と、**Enable shielded** ボタンが表示されます。
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![デスクトップ専用の案内、透明残高と非公開残高、「Enable shielded」ボタンを表示する Ledger Wallet Desktop の Zcash アカウント](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. プライベート残高を有効化する**
 - **シールドを有効化**をクリックします。**Zcashのプライベート残高を有効化**ウィンドウには、Birthday、UFVK、Device、Confirmation の4つの手順があります。
@@ -57,7 +57,7 @@
 
 - トランザクションが承認されると、透明な残高は減少し、プライベート残高は増加します。新たなシールド資金は、使用に十分な承認数を得るまで「maturing」と表示されます。
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![シールド後の Zcash アカウント。透明残高が減少し、非公開残高が増加して成熟中と表示されている](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. プライベート残高から ZEC を送る**
 - プライベート残高が使用可能になったら、**Send** をクリックし、**Transfer from** を **Private balance** に設定します。

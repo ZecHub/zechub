@@ -24,7 +24,7 @@
 - بينما يكون تطبيق Zcash مفتوحًا على جهاز Ledger، يعثر Ledger Wallet على حسابك. حدده ضمن **Select the accounts you want to add** وانقر **Confirm**.
 - تعرض صفحة الحساب **Available balance** و**Transparent balance** و**Private balance**، إضافة إلى زر **Enable shielded**.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![حساب Zcash في Ledger Wallet Desktop يعرض إشعار سطح المكتب فقط، والأرصدة الشفافة والخاصة، وزر "Enable shielded"](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. تفعيل الرصيد الخاص**
 - انقر **Enable shielded**. تحتوي نافذة **Enable Zcash private balance** على أربع خطوات: Birthday وUFVK وDevice وConfirmation.
@@ -57,7 +57,7 @@
 
 - بعد تأكيد المعاملة، ينخفض الرصيد الشفاف ويرتفع الرصيد الخاص. تظهر الأموال المحمية الجديدة بصفتها "maturing" حتى تحصل على تأكيدات كافية لإنفاقها.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![حساب Zcash بعد الحماية: انخفض الرصيد الشفاف، وازداد الرصيد الخاص ويظهر قيد النضج](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. إرسال ZEC من رصيدك الخاص**
 - بمجرد أن يصبح الرصيد الخاص قابلًا للإنفاق، انقر **Send** واضبط **Transfer from** على **Private balance**.

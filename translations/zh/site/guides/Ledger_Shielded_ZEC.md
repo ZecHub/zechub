@@ -24,7 +24,7 @@
 - 在你的 Ledger 上打开 Zcash 应用后，Ledger Wallet 会找到你的账户。在 **选择要添加的账户** 下勾选它，然后点击 **确认**。
 - 账户页面会显示 **可用余额**、**透明余额** 和 **私密余额**，以及一个 **启用 shielded** 按钮。
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Ledger Wallet Desktop 中的 Zcash 账户，显示仅限桌面端的提示、透明和私密余额，以及“Enable shielded”按钮](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. 启用私密余额**
 - 点击 **启用 shielded**。**启用 Zcash 私密余额** 窗口包含四个步骤：生日、UFVK、设备和确认。
@@ -57,7 +57,7 @@
 
 - 交易确认后，透明余额会下降，私密余额会上升。新的 shielded 资金会显示为“成熟中”，直到获得足够确认后才可花费。
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![屏蔽后 Zcash 账户：透明余额减少，私密余额增加并显示为成熟中](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. 从你的私密余额发送 ZEC**
 - 私密余额可花费后，点击 **发送**，并将 **转出自** 设置为 **私密余额**。

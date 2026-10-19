@@ -24,7 +24,7 @@ Am 23. September 2026 fügte Ledger native Shielded-Unterstützung für ZEC zu L
 - Wenn die Zcash-App auf Ihrem Ledger geöffnet ist, findet Ledger Wallet Ihr Konto. Markieren Sie es unter **Wählen Sie die Konten aus, die Sie hinzufügen möchten** und klicken Sie auf **Bestätigen**.
 - Die Kontoseite zeigt **Verfügbares Guthaben**, **Transparentes Guthaben** und **Privates Guthaben** sowie eine Schaltfläche **Shielded aktivieren**.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Zcash-Konto in Ledger Wallet Desktop mit Hinweis nur für Desktop, transparentem und privatem Guthaben sowie der Schaltfläche „Enable shielded“](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. Das private Guthaben aktivieren**
 - Klicken Sie auf **Shielded aktivieren**. Das Fenster **Privates Zcash-Guthaben aktivieren** umfasst vier Schritte: Birthday, UFVK, Gerät und Bestätigung.
@@ -57,7 +57,7 @@ Am 23. September 2026 fügte Ledger native Shielded-Unterstützung für ZEC zu L
 
 - Nach der Bestätigung der Transaktion sinkt das transparente Guthaben und das private Guthaben steigt. Neue Shielded-Gelder werden als „reifend“ angezeigt, bis sie genügend Bestätigungen zum Ausgeben haben.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![Zcash-Konto nach der Abschirmung: transparentes Guthaben reduziert, privates Guthaben erhöht und als reifend angezeigt](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. ZEC aus Ihrem privaten Guthaben senden**
 - Sobald das private Guthaben ausgegeben werden kann, klicken Sie auf **Senden** und setzen **Übertragen von** auf **Privates Guthaben**.

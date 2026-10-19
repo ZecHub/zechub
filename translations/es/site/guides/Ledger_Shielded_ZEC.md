@@ -24,7 +24,7 @@ El 23 de septiembre de 2026, Ledger añadió soporte nativo para ZEC blindado a 
 - Con la aplicación Zcash abierta en tu Ledger, Ledger Wallet encuentra tu cuenta. Márcala en **Selecciona las cuentas que quieres añadir** y haz clic en **Confirmar**.
 - La página de la cuenta muestra **Saldo disponible**, **Saldo transparente** y **Saldo privado**, además de un botón **Activar blindado**.
 
-![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Cuenta de Zcash en Ledger Wallet Desktop con aviso exclusivo para escritorio, saldos transparente y privado, y botón «Enable shielded»](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. Activa el saldo privado**
 - Haz clic en **Activar blindado**. La ventana **Activar saldo privado de Zcash** tiene cuatro pasos: Cumpleaños, UFVK, Dispositivo y Confirmación.
@@ -57,7 +57,7 @@ El 23 de septiembre de 2026, Ledger añadió soporte nativo para ZEC blindado a 
 
 - Después de que se confirme la transacción, el saldo transparente baja y el saldo privado sube. Los nuevos fondos blindados aparecen como "en maduración" hasta que tengan suficientes confirmaciones para poder gastarse.
 
-![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![Cuenta de Zcash tras proteger los fondos: saldo transparente reducido, saldo privado aumentado y mostrado como en proceso de maduración](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. Envía ZEC desde tu saldo privado**
 - Cuando el saldo privado se pueda gastar, haz clic en **Enviar** y establece **Transferir desde** en **Saldo privado**.
