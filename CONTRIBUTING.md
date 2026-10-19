@@ -83,6 +83,8 @@ Note* ZecHub Global page translation rate limit is 10 pages per week.
 
 **Keeping curated translations current:** curated locale pages under `translations/<locale>/site/` are tracked against their English source by a source-hash manifest, so a page can be flagged and re-synced when its English source changes. See [translation/README-sync.md](translation/README-sync.md) for how staleness detection, the sync workflow, and protected-terms validation fit together.
 
+**Adding a new language to the wiki:** the curated wiki languages are translated and kept up to date by the translation pipeline, so a new language is a permanent commitment, not a set of page PRs. Open an issue first, naming the language and a native-speaker language lead, and wait for the maintainers' decision before translating pages. See [docs/adding-a-language.md](docs/adding-a-language.md) for what is involved, the roles, the costs and the review process.
+
 ### ZecHub Wiki - 0.04 ZEC per accepted edit to docs
 
 Sometimes our information in the docs isn't spot on. That's okay. That's why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
