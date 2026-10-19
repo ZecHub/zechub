@@ -1,36 +1,62 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Memos.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Memo
 
-#### Mengirim Memo Terenkripsi
+## TL;DR
 
-Saat mengirim transaksi Z2Z (terlindungi-ke-terlindungi), kamu dapat menyertakan sebuah memo (pesan) di dalam transaksi tersebut. Memo ini dapat digunakan untuk berbagai hal yang berbeda.
+* Memo adalah catatan singkat yang kamu lampirkan pada pembayaran yang dikirim ke alamat terlindungi. Memo dienkripsi, sehingga orang yang mengamati blockchain tidak dapat membacanya.
+* Kolom memo dapat menampung hingga 512 byte teks.
+* Orang menggunakan memo untuk menyebutkan siapa yang mengirim pembayaran dan untuk apa pembayaran tersebut, atau untuk mengirim pesan pribadi.
+* Pembayaran ke alamat transparan tidak dapat membawa memo.
+* Sebuah [tautan permintaan pembayaran](/using-zcash/payment-request-uris) dapat mengisi memo untukmu agar toko dapat menandai setiap pesanan.
 
-#### Menandatangani Transaksi
+## Penjelasan Inti
 
-Memo utamanya digunakan untuk menandai pembayaran. Karena transaksi terlindungi mengenkripsi data kamu, kamu tidak akan bisa melihat siapa yang mengirim ZEC kepadamu, dan apa kemungkinan ZEC tersebut. Pengguna dapat menggunakan kolom memo untuk mencantumkan nama atau pseudonim mereka agar pihak lawan transaksi tahu dari siapa transaksi tersebut berasal. Mereka juga dapat menjelaskan tujuan dari transaksi tersebut.
+### Mengirim Memo Terenkripsi
 
-#### Mengirim Pesan
+Saat mengirim transaksi Z2Z (terlindungi-ke-terlindungi), kamu dapat menyertakan memo (pesan) dalam transaksi. Memo ini dapat digunakan untuk beberapa hal yang berbeda.
 
-Kegunaan lain dari memo terenkripsi adalah untuk mengirim pesan kepada seseorang dengan z-addr. Pesan-pesan ini bisa tentang apa saja, baik itu berupa [pengingat untuk seorang teman](https://twitter.com/iansagstette/status/1542142468505870336), atau [pesan sensitif yang harus tetap sejauh mungkin terjaga privasinya](https://twitter.com/InsideZcash/status/1545800146352578560).
+### Menandatangani Transaksi
 
-#### Catatan Cinta di Blockchain
+Memo terutama digunakan untuk menandatangani pembayaran. Karena transaksi terlindungi mengenkripsi datamu, kamu tidak dapat melihat siapa yang mengirimmu ZEC dan untuk apa ZEC tersebut mungkin digunakan. Pengguna dapat memakai kolom memo untuk mencantumkan nama atau nama samaran mereka agar pihak lain mengetahui dari siapa transaksi tersebut berasal. Mereka juga dapat menjelaskan tujuan transaksi tersebut.
 
-Ada seseorang yang mengirimkan catatan cinta kepada pasangannya di salah satu blok pertama dalam blockchain Zcash. Seseorang menemukan bahwa pasangannya telah mengirimkan sebuah berkas kepadanya melalui Zcash memo. Berkas ini adalah tiket untuk sebuah acara khusus di luar negeri, yang telah dibicarakan olehnya dan kekasih jauhnya untuk dihadiri bersama. Memo tersebut adalah sebuah catatan cinta.
+### Mengirim Pesan
 
-#### Lanjutan
+Use case lain dari memo terenkripsi adalah mengirim pesan kepada seseorang dengan alamat-z. Pesan ini dapat membahas apa saja, baik itu [pengingat untuk teman](https://twitter.com/iansagstette/status/1542142468505870336) maupun [pesan sensitif yang harus tetap sepribadi mungkin](https://twitter.com/InsideZcash/status/1545800146352578560).
 
-> **Historis. Demo ini tidak lagi berjalan seperti yang tertulis.**
+### Pesan Cinta di Blockchain
+
+Ada seseorang yang mengirim pasangan mereka pesan cinta dalam salah satu blok pertama di blockchain Zcash. Seseorang menemukan bahwa pasangan mereka telah mengirimi mereka file melalui Zcash memo. File ini adalah tiket untuk acara khusus di luar negeri yang telah mereka dan kekasih jarak jauhnya bicarakan untuk dihadiri bersama. Memo tersebut adalah pesan cinta.
+
+## Visual / Analogi
+
+Bayangkan pembayaran terlindungi sebagai amplop tertutup berisi uang. Memo adalah catatan yang dilipat bersama uang tersebut.
+
+Blockchain adalah kantor pos. Blockchain membawa amplop tersebut dan mencatat bahwa amplop itu telah tiba, tetapi tidak pernah membukanya. Orang yang membuka amplop membaca catatannya. Pembayaran transparan adalah kartu pos, sehingga tidak ada amplop untuk melipat catatan ke dalamnya.
+
+## Pembahasan Mendalam
+
+### Apa yang muat dalam memo
+
+Kolom memo selalu tepat berukuran 512 byte. Memo teks yang lebih pendek diisi dengan byte nol sebelum dienkripsi, sehingga setiap memo tampak berukuran sama di blockchain.
+
+Sebagian besar memo adalah teks UTF-8 biasa. [ZIP 302](https://zips.z.cash/zip-0302) juga mencadangkan memo yang dimulai dengan byte `0xF5` atau lebih tinggi untuk jenis data lain, dan memo berupa `0xF6` yang diikuti nol berarti "tanpa memo".
+
+Setiap output terlindungi dalam transaksi membawa memonya sendiri, sehingga satu transaksi yang membayar beberapa orang dapat menyertakan catatan berbeda untuk masing-masing orang.
+
+### Lanjutan
+
+> **Historis. Demo ini tidak lagi berjalan seperti yang ditulis.**
 >
-> Demo di bawah ini menggunakan zcashd, dan script [penerima](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh)-nya membaca memo melalui `zcash-cli`. zcashd telah mencapai penghentian otomatis End-of-Support pada 18 Juli 2026, sehingga script tersebut tidak dapat menjangkau node yang sedang berjalan, dan belum dipindahkan.
+> Demo di bawah menggunakan zcashd, dan [skrip penerimanya](https://github.com/ZecHub/zechub/blob/main/site/tutorials/ZcashMagicWormhole/receiveOwlsWormhole.sh) membaca memo melalui `zcash-cli`. zcashd mencapai penghentian otomatis Akhir Dukungan pada 18 Juli 2026, sehingga skrip tersebut tidak dapat menjangkau node yang berjalan, dan belum di-porting.
 >
-> Membaca memo terlindungi dari command line masih berfungsi di Zallet: `zallet rpc z_listunspent` mengembalikan setiap catatan terlindungi yang diterima dengan field `memoStr` yang sama dengan yang dibaca oleh script tersebut. Lihat [Zallet Panduan Referensi Cepat](/using-zcash/zallet-quick-reference-guide) untuk perintahnya, dan [panduan migrasi ke Zebra serta Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) untuk memindahkan node dari zcashd. Zallet masih dalam tahap beta.
+> Membaca memo terlindungi dari command line masih berfungsi di Zallet: `zallet rpc z_listunspent` mengembalikan setiap catatan terlindungi yang diterima dengan kolom `memoStr` yang sama seperti yang dibaca skrip. Lihat [Zallet Panduan Referensi Cepat](/using-zcash/zallet-quick-reference-guide) untuk perintahnya, serta [panduan migrasi ke Zebra dan Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) untuk memindahkan node dari zcashd. Zallet masih dalam versi beta.
 >
-> Bagian ini tetap dipertahankan sebagai catatan historis dari demo Magic-Wormhole.
+> Bagian ini dipertahankan sebagai catatan historis demo Magic-Wormhole.
 
-Berikut adalah cara menggunakan Zcash Memo Terlindungi dengan Magic-Wormhole CLI dan zcashd untuk mengirim file secara aman dari satu komputer ke komputer lainnya!:
+Berikut cara menggunakan Zcash Memo Terlindungi dengan CLI Magic-Wormhole dan zcashd untuk mengirim file dengan aman dari satu komputer ke komputer lain!
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -41,10 +67,19 @@ Berikut adalah cara menggunakan Zcash Memo Terlindungi dengan Magic-Wormhole CLI
     allowFullScreen
     loading="lazy"
   />
-</div >
+</div>
 
-#### Sumber Daya
+## Halaman Terkait
 
-[Bidang Memo Terenkripsi](https://electriccoin.co/blog/encrypted-memo-field/)
+- [URI Permintaan Pembayaran](/using-zcash/payment-request-uris): masukkan memo ke dalam tautan atau kode QR `zcash:`.
+- [Transaksi](/using-zcash/transactions): jenis transaksi terlindungi dan transparan.
+- [Pool Terlindungi](/using-zcash/shielded-pools): tempat catatan terlindungi yang membawa memo berada.
+- [Dompet](/using-zcash/wallets): gunakan filter Memo Terlindungi untuk menemukan dompet yang mendukung memo.
+- [Zallet Panduan Referensi Cepat](/using-zcash/zallet-quick-reference-guide): baca memo yang diterima dari command line.
+- [Alat Zcash untuk Kreator](/using-zcash/creators-and-tips): alat pemberian tip yang mengirim pesan bersama tip.
 
+### Sumber Daya
 
+[Kolom Memo Terenkripsi](https://electriccoin.co/blog/encrypted-memo-field/)
+
+**Terakhir diperbarui:** Oktober 2026

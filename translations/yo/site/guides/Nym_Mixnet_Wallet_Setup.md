@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
 </a>
 
@@ -23,7 +23,7 @@ Isanwo Zcash ti a daabobo ati irinṣẹ aṣiri nẹtiwọọki yanju awọn i�
 - **Nym mixnet routing** ni a ṣe láti dín ìbáṣepọ̀ láàárín ìdámọ̀ nẹ́tíwọ́ọ̀kì gidi rẹ àti ìtajà tí ń gba àpò owó iṣẹ́ kù.
 - Ibùdó tí a bá kàn sí nípasẹ̀ ọ̀nà NymVPN tó wà ní ìpele ètò yẹ kí ó rí ọ̀nà àbájáde Nym dípò IP ilé/alágbèéká rẹ.
 
-Mixnet Nym nlo ọpọlọpọ awọn hops, idapọ packet, awọn idaduro laileto, ijabọ ideri, ati fifi ẹnọ kọ alubosa lati dinku jijo data nẹtiwọọki-metadata.
+Mixnet Nym's nlo ọpọlọpọ awọn hops, idapọ packet, awọn idaduro laileto, ijabọ ideri, ati fifi ẹnọ kọ alubosa lati dinku jijo data nẹtiwọọki-metadata.
 
 Nym kò dáàbò bo ẹ̀rọ tí ó bàjẹ́, sọ́fítíwọ́ọ̀kì àpò ìbàjẹ́, àwọn gbólóhùn ìgbàpadà tí a fi hàn, ìdánimọ̀ tí o fi hàn nípasẹ̀ àkọọ́lẹ̀ pàṣípààrọ̀, tàbí pípadánù ìpamọ́ tí ìṣiṣẹ́ Zcash tí ó hàn gbangba fà.
 
@@ -42,7 +42,7 @@ Zingo PC ní ọkọ̀ Nym ìbílẹ̀ kan. Zingo Mobile tún ń fi Mixnet Mode 
 - Àwọn ìṣíkiri ìṣíkiri Ironwood tẹ̀lé ipa ọ̀nà ìfiránṣẹ́ kan náà tí a dáàbò bò.
 - Àwọn ìbéèrè owó ZEC ni a tún máa ń lò nípasẹ̀ mixnet.
 - Fífiránṣẹ́ kò ní sí ní pípa nígbà tí a bá ti mú Nym ṣiṣẹ́: tí ìrìnnà mixnet kò bá sí, a kò ní fi ìsanwó ránṣẹ́ ní ìdákẹ́jẹ́ẹ́ lórí clearnet.
-- **A kò tíì lo àsopọ̀mọ́ra ẹ̀wọ̀n láti inú mixnet** lọ́wọ́lọ́wọ́ nínú Zingo PC. Àwọn bulọ́ọ̀kù kékeré, ìbéèrè nullifier, àwọn ìfipamọ́ ìṣòwò, ijabọ mempool, àti àwọn àyẹ̀wò ìlera olupin ṣì ń lo ìsopọ̀ olupin déédéé.
+- **A kò tíì lo àsopọ̀mọ́ra ẹ̀wọ̀n láti inú mixnet** lọ́wọ́lọ́wọ́ nínú Zingo PC. Àwọn bulọ́ọ̀kì kékeré, ìbéèrè nullifier, àwọn ìfipamọ́ ìṣòwò, ijabọ mempool, àti àwọn àyẹ̀wò ìlera olupin ṣì ń lo ìsopọ̀ olupin déédéé.
 
 Ìyàtọ̀ yẹn ṣe pàtàkì: Ìṣọ̀kan ìbílẹ̀ Zingo's ń dáàbò bo ipa ọ̀nà ìsopọ̀mọ́ra tó ga jùlọ, ṣùgbọ́n kò tí ì jẹ́ ọ̀nà ìsopọ̀mọ́ra ẹ̀rọ gbogbo-ẹ̀rọ.
 
@@ -69,7 +69,7 @@ Fẹ́ràn àṣàyàn Nym Zkool's dípò gbígbìyànjú láti fipá mú kí YW
 
 ### Àìsàn
 
-NozyWallet tun ni awọn ipa ọna gbigbe ti o mọ nipa Nym. Iṣe rẹ lọwọlọwọ ṣe atilẹyin fun gbigbe ifilọlẹ iṣowo ti njade lori mixnet Nym ati ipa ọna Nym dVPN lọtọ fun amuṣiṣẹpọ-bulọọki compact-block. Wo awọn wọnyi bi awọn aabo ti o yatọ dipo ki o ro pe gbogbo ibeere apamọwọ lo mixnet laifọwọyi.
+NozyWallet tun ni awọn ipa ọna gbigbe Nym-aware. Iṣe rẹ lọwọlọwọ ṣe atilẹyin fun gbigbe ifilọlẹ iṣowo ti njade lori mixnet Nym ati ipa ọna Nym dVPN lọtọ fun amuṣiṣẹpọ-bulọọki compact-block. Wo awọn wọnyi bi awọn aabo ti o yatọ dipo ki o ro pe gbogbo ibeere apamọwọ lo mixnet laifọwọyi.
 
 Àwọn orísun:
 
@@ -81,11 +81,11 @@ NozyWallet tun ni awọn ipa ọna gbigbe ti o mọ nipa Nym. Iṣe rẹ lọw�
 
 Zodl ní **Tor Protection** nínú rẹ̀ lọ́wọ́lọ́wọ́, kì í ṣe ìṣọ̀kan Nym ìbílẹ̀ kan náà tí a ṣàlàyé lókè fún Zingo, Zkool, àti Nozy.
 
-Ẹ̀yà ara Tor ti Zodl le darí ìfiránṣẹ́ ìṣòwò, ìgbàpadà ìṣòwò-dátà, ìbéèrè fún owó pàṣípààrọ̀, àti àwọn ìpè API ẹni-kẹta lórí Tor. Nym sọ ní ọjọ́ kẹrìnlélógún oṣù kẹsàn-án ọdún 2026 pé ó ṣì wà ní ìjíròrò pẹ̀lú ẹgbẹ́ Zodl nípa ìṣọ̀kan mixnet gbígbòòrò.
+Ẹ̀yà ara Tor Zodl's le darí ìfiránṣẹ́ ìṣòwò, ìgbàpadà ìṣòwò-dátà, ìbéèrè fún owó pàṣípààrọ̀, àti àwọn ìpè API ẹni-kẹta lórí Tor. Nym sọ ní ọjọ́ kẹrìndínlógún oṣù kẹsàn-án ọdún 2026 pé ó ṣì wà ní ìjíròrò pẹ̀lú ẹgbẹ́ Zodl nípa ìṣọ̀kan mixnet gbígbòòrò.
 
 Fún Zodl lónìí, lo èyíkéyí:
 
-- Ààbò Tor ti Zodl ti kọ sílẹ̀, tàbí
+- Ààbò Tor Zodl's ti kọ sílẹ̀, tàbí
 - NymVPN ipele-sisẹmu ti ibi-afẹde rẹ ba jẹ lati dari ijabọ ẹrọ gbogbogbo ti apamọwọ nipasẹ Nym.
 
 Má ṣe rò pé Tor àti Nym jẹ́ àwọn ohun èlò tí a lè fi ṣe àyípadà nínú àpò owó nítorí pé àwọn méjèèjì jẹ́ àwọn nẹ́tíwọ́ọ̀kì ìpamọ́.
@@ -101,11 +101,11 @@ Má ṣe rò pé Tor àti Nym jẹ́ àwọn ohun èlò tí a lè fi ṣe àyíp
 
 ## Isubu: NymVPN ipele-sisẹmu
 
-Èyí ni àṣàyàn Nym tó báramu jùlọ nítorí pé kò nílò àpò owó láti lóye àwọn ètò ìṣàfihàn Nym pàtó.
+Èyí ni àṣàyàn Nym tó báramu jùlọ nítorí pé kò nílò àpò owó láti lóye àwọn ètò ìṣàfihàn Nym-specific.
 
 ### 1. Fi NymVPN sori ẹrọ
 
-Ṣe igbasilẹ NymVPN nikan lati oju opo wẹẹbu osise ti Nym tabi ile itaja pẹpẹ osise kan:
+Ṣe igbasilẹ NymVPN nikan lati oju opo wẹẹbu osise Nym's tabi ile itaja pẹpẹ osise kan:
 
 - https://nym.com/
 - https://nym.com/blog/nymvpn-v2026.12
@@ -155,7 +155,7 @@ Má ṣe fi àwọn àwòrán tí ó ní àdírẹ́sì àpò owó, ìwọ̀nba 
 
 NymVPN tun ṣafihan ipo aṣoju app-ati-apamọwọ nipa lilo ipa ọna SOCKS5 / RPC nipasẹ mixnet.
 
-Àkọsílẹ̀ ìṣètò gbogbogbòò ti Nym fi èyí hàn ní pàtàkì pẹ̀lú ìṣètò RPC ti ara Ethereum. Ó wúlò fún sọ́fítíwè tí ó ṣe àtìlẹ́yìn fún ọ̀nà proxy/RPC gbogbogbò tí ó báramu, ṣùgbọ́n kò yẹ kí a rò pé ó ń ṣiṣẹ́ pẹ̀lú gbogbo àpò Zcash.
+Àkọsílẹ̀ ìṣètò gbogbogbòò Nym's fi èyí hàn ní pàtàkì pẹ̀lú ìṣètò RPC ti ara Ethereum. Ó wúlò fún sọ́fítíwètì tí ó ṣe àtìlẹ́yìn fún ọ̀nà proxy/RPC gbogbogbò tí ó báramu, ṣùgbọ́n kò yẹ kí a rò pé ó ń ṣiṣẹ́ pẹ̀lú gbogbo àpò Zcash.
 
 Lo ipa ọna yii nikan nigbati awọn iwe apamọwọ funrararẹ ba jẹrisi atilẹyin aṣoju ti o baamu tabi RPC.
 
