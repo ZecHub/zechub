@@ -1,4 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Nym_Mixnet_Wallet_Setup.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
 </a>
 
@@ -23,7 +23,7 @@ Zcash sikatua a wɔabɔ ho ban ne ntwamutam kokoam adwinnade di ɔhaw ahorow ho 
 - **Nym mixnet routing** yɛ nea wɔayɛ sɛ ɛbɛtew nkitahodi a ɛda wo network identity ankasa ne service a egye wallet traffic ntam.
 - Ɛsɛ sɛ beaeɛ a wɔnam system-level NymVPN tunnel so di nkitaho no hunu Nym kwan a wɔfa so firi adi sene wo fie/mobile IP.
 
-Nym mixnet de hops pii, packet mixing, randomized delays, cover traffic, ne onion encryption di dwuma de tew network-metadata leakage so.
+Nym's mixnet de hops pii, packet mixing, randomized delays, cover traffic, ne onion encryption di dwuma de tew network-metadata leakage so.
 
 Nym **ɛnyɛ** ho ban mfi mfiri a wɔasɛe no, sika kotoku softwea a ɛyɛ hu, nsɛmfua a wɔde san nya a wɔada no adi, nipasu a woda no adi denam nsakrae akontaabu so, anaasɛ kokoam nsɛm a ɛyera a Zcash dwumadi a ɛda adi pefee de ba no ho.
 
@@ -81,12 +81,12 @@ Nneɛma a wonya fi mu:
 
 Zodl mprempren wɔ **Tor Protection** a wɔasisi mu, ɛnyɛ native Nym nkabom koro no ara a yɛaka ho asɛm wɔ atifi hɔ ama Zingo, Zkool, ne Nozy.
 
-Zodl Tor feature no tumi fa atɔfoɔ a wɔde bɛmena, atɔfoɔ-data a wɔgye, exchange-rate abisadeɛ, ne API frɛ a ɛtɔ so mmiɛnsa fa Tor so. Nym kaa wɔ September 24, 2026 sɛ ɛda so ara ne Zodl kuw no rebɔ nkɔmmɔ denneennen fa mixnet nkabom a ɛtrɛw ho.
+Zodl's Tor feature no tumi fa atɔfoɔ a wɔde bɛmena, atɔfoɔ-data a wɔgye, exchange-rate abisadeɛ, ne API frɛ a ɛtɔ so mmiɛnsa fa Tor. Nym kaa wɔ September 24, 2026 sɛ ɛda so ara ne Zodl kuw no rebɔ nkɔmmɔ denneennen fa mixnet nkabom a ɛtrɛw ho.
 
 Sɛ wopɛ Zodl nnɛ a, fa emu biara di dwuma:
 
-- Zodl a wɔakyerɛw Tor Protection, anaasɛ
-- system-level NymVPN sɛ wo botaeɛ ne sɛ wobɛfa wallet no general device traffic no so afa Nym so a.
+- Zodl's wɔakyerɛw Tor Protection, anaasɛ
+- system-level NymVPN sɛ wo botaeɛ ne sɛ wobɛfa wallet no general device traffic no so afa Nym.
 
 Mfa no sɛ Tor ne Nym yɛ akwantuo a wɔsesa wɔ sika kotokuo no mu esiane sɛ wɔn mmienu nyinaa yɛ kokoam nkitahodiɛ nti kɛkɛ.
 
@@ -101,11 +101,11 @@ Nneɛma a wonya fi mu:
 
 ## Fallback: nhyehyɛe-gyinabea NymVPN
 
-Eyi ne Nym nhyehyɛe a ɛne ne ho hyia kɛse efisɛ enhia sɛ sika kotoku no te Nym-specific proxy nhyehyɛe ase.
+Eyi ne Nym nhyehyɛe a ɛtrɛw sen biara efisɛ enhia sɛ sika kotoku no te Nym-specific proxy nhyehyɛe ase.
 
 ### 1. Fa NymVPN hyɛ mu
 
-Twe NymVPN fi Nym official website anaa official platform store nkutoo so:
+Twe NymVPN fi Nym's official website anaa official platform store nkutoo so:
 
 - https://nym.com/
 - https://nym.com/blog/nymvpn-v2026.12
@@ -120,7 +120,7 @@ NymVPN da **Fast mode** adi, 2-hop dVPN kwan a wɔayɛ no yie ama latency a ɛba
 
 Sɛ dwumadie nhyehyɛeɛ no reyɛ tunneling traffic dedaw denam NymVPN, wallet dodoɔ no ara nhia custom proxy nhyehyeɛ.
 
-Bue sika kotoku no sɛnea ɛsɛ na ma no kwan ma ɛnyɛ pɛpɛɛpɛ.
+Bue sika kotoku no sɛnea ɛsɛ na ma no kwan ma ɛnyɛ adwuma.
 
 Sɛ NymVPN da split tunneling adi wɔ wo platform no so a, si so dua sɛ sika kotoku no **ka tunnel a wɔabɔ ho ban no ho**, ɛnyɛ nea wɔde ato bypass anaa exclusion list so.
 
@@ -155,7 +155,7 @@ Mfa screenshots a wallet address, balances, transaction ID, IP address, anaa rec
 
 NymVPN nso da app-ne-wallet proxy mode adi denam SOCKS5 / RPC routing a ɛnam mixnet so.
 
-Nym ɔmanfoɔ nhyehyeɛ nkrataa no kyerɛ yei titire ne Ethereum-style RPC nhyehyeɛ. Ɛho wɔ mfasoɔ ma softwea a ɛboa pefee sɛ ɛboa generic proxy/RPC kwan a ɛne no hyia, nanso ɛnsɛ sɛ **ɛnyɛ** sɛ wɔfa no sɛ ɛne Zcash sika kotokuo biara yɛ adwuma.
+Nym's ɔmanfoɔ nhyehyeɛ nkrataa no kyerɛ yei titire ne Ethereum-style RPC nhyehyeɛ. Ɛho wɔ mfasoɔ ma softwea a ɛboa pefee sɛ ɛboa generic proxy/RPC kwan a ɛne no hyia, nanso ɛnsɛ sɛ **ɛnyɛ** sɛ wɔfa no sɛ ɛne Zcash sika kotokuo biara yɛ adwuma.
 
 Fa saa kwan yi di dwuma bere a sika kotoku no ankasa nkrataa si proxy anaa RPC mmoa a ɛne no hyia so dua nkutoo.
 
@@ -198,11 +198,11 @@ Ansa na wode wo ho bɛto nhyehyɛe no so no, bisa sɛ:
 - So mede Zcash address ahorow a wɔabɔ ho ban redi dwuma wɔ baabi a ɛfata?
 - So me sika kotoku no wɔ native Nym support?
 - Sɛ saa a, kar akwan bɛn ankasa na saa native integration no bɔ ho ban?
-- Sɛ mihia coverage a ɛtrɛw a, so NymVPN abɔ ansa na wallet no afi network dwumadi ase?
+- Sɛ mehia coverage a ɛtrɛw a, so NymVPN abɔ ansa na wallet no afi network dwumadi ase?
 - So mmara bi a ɛfa mpaapaemu a wɔde fa nsu mu na ɛayi sika kotoku no afi mu?
 - So mede me ho ato proxy mode bi a sika kotoku no kyerɛw ho asɛm ankasa so?
 - So menam exchange, browser session, third-party API, anaa address a ɛda adi so retu identity?
-- So masiesie me ho ama sync a ɛyɛ brɛoo ne bere a ɛtɔ mmere bi a ɛbɛtwa mu?
+- So masiesie me ho ama sync a ɛyɛ brɛoo ne bere a ɛtɔ mmere bi a mɛtwam?
 
 ## Nneɛma a wonya fi mu
 

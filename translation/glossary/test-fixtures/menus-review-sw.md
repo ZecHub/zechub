@@ -99,7 +99,7 @@ No conflicts.
 | 73 | navigation.shop | Shop | Duka |  |  |
 
 ## Submenu entries (page names in the menus)
-(`menuLabels`: 80 labels)
+(`menuLabels`: 81 labels)
 
 | # | ID | English | Swahili | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
@@ -183,6 +183,7 @@ No conflicts.
 | 78 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | Glossary & FAQ ya |  |  |
 | 79 | menuLabels.Pay for AI | Pay for AI | Lipia AI |  |  |
 | 80 | menuLabels.Community Building | Community Building | Community Building |  |  |
+| 81 | menuLabels.Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup |  |  |
 
 ## Yellow coin menu (bottom right)
 (`exploreMenu`: 15 labels)
