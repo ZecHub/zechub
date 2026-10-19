@@ -50,7 +50,7 @@ The Ironwood pool is the shielded value pool created by NU6.3 at block 3,428,143
 
 1. After activation, the old Orchard pool becomes spend-only, so no new value may enter it.
 2. Newly shielded value flows into Ironwood instead.
-3. Shielded ZEC keeps the same strong privacy guarantees that hide sender, receiver, and amount.
+3. Inside Ironwood, shielded ZEC keeps the privacy that hides sender, receiver, and amount. Moving ZEC from Orchard into Ironwood shows the amount moved.
 
 ## The turnstile
 
@@ -68,7 +68,7 @@ Consensus rules keep every value pool, including Ironwood, within the network's 
 
 ## What users need to do
 
-Wallets and node software handle most of this automatically, but the practical shift is simple: over time, move shielded holdings from the old Orchard pool through the turnstile into the Ironwood pool. Follow the guidance from your wallet provider, and always update to a supported release before the activation block.
+Wallets and node software handle most of this automatically, but the practical shift is simple: over time, move shielded holdings from the old Orchard pool through the turnstile into the Ironwood pool. Each move shows its amount on the blockchain, so wallets that follow [ZIP 318](https://zips.z.cash/zip-0318) split it into standard amounts and send them over time. Follow the guidance from your wallet provider, and keep your software on a supported release.
 
 ## Glossary
 
@@ -85,9 +85,9 @@ Wallets and node software handle most of this automatically, but the practical s
 
 Was my ZEC affected? No. There is no evidence the bug was ever used, no impact to user funds, and no change to the total supply.
 
-Do I need to do anything? Keep your wallet and node software updated to a supported release before the activation block. Your wallet moves funds into Ironwood over time as you spend, so there is nothing manual to rush. Follow your wallet provider's guidance.
+Do I need to do anything? Keep your wallet and node software on a supported release. Spending Orchard funds moves them into Ironwood, and the amount that crosses is public. Some wallets offer a migration that sends standard amounts over time, so your balance is harder to link. Follow your wallet provider's guidance.
 
-Is Zcash still private? Yes. Ironwood keeps the same shielded privacy that hides sender, receiver, and amount. This upgrade is about supply integrity, not privacy.
+Is Zcash still private? Yes. Payments inside Ironwood hide sender, receiver, and amount, as Orchard payments did. The amount that moves between pools, such as from Orchard to Ironwood, is public. This upgrade is about supply integrity.
 
 Was the bug ever exploited? There is no evidence that it was. It was found through security research, responsibly disclosed, and fixed before any known harm.
 
@@ -110,6 +110,10 @@ Through the turnstile. Every coin leaving the old Orchard pool is counted at a p
 [ZIP 257: Deployment of the Orchard Temporary Vulnerability Mitigation and NU6.2 Network Upgrade](https://zips.z.cash/zip-0257)
 
 [ZIP 2005: Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
+
+[ZIP 229: Version 6 Transaction Format](https://zips.z.cash/zip-0229)
+
+[ZIP 318: Orchard to Ironwood Migration](https://zips.z.cash/zip-0318)
 
 [Ironwood: A New Shielded Pool for Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
