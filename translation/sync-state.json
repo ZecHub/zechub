@@ -425,8 +425,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+handfix+gloss-restore",
@@ -2235,8 +2235,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -4069,8 +4069,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -5903,8 +5903,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+handfix+gloss-restore",
@@ -7721,8 +7721,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -9555,8 +9555,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -11389,8 +11389,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -14399,8 +14399,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b+handfix",
@@ -15057,8 +15057,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+handfix",
@@ -16883,8 +16883,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
@@ -18717,8 +18717,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -20551,8 +20551,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -22385,8 +22385,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -24219,8 +24219,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -26053,8 +26053,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "nllb",
       "mode": "full",
       "tool": "gt-static+handfix+gloss-restore+prose-retranslate+table-rebuild",
@@ -27871,8 +27871,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -29705,8 +29705,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
@@ -31539,8 +31539,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static+gloss-restore+prose-retranslate+table-rebuild+handfix",
@@ -33325,8 +33325,8 @@
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
-      "src": "sha256:ee37bdcce4ba5e7848e5142cf1b564510e0e9a64a6ed34c9dacf6a84133b0c93",
-      "src_commit": "6202ddb2e7be6ea66986d64668424ab8478b94c8",
+      "src": "sha256:8bce7fe103cb30427a802711cf82601dee3fe31a2e204c7d76e94685d8f7f6e5",
+      "src_commit": "48b5c1e1e3bc335b8ddde6ce8dff01d68384bee1",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
