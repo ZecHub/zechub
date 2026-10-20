@@ -13,14 +13,20 @@ are skipped, since those are examples rather than live links.
 | Category | Meaning |
 |---|---|
 | Domain does not resolve | DNS failure, the site is likely gone |
-| Broken links | 4xx or 5xx response |
+| Broken links | 404 or 410, other 4xx, or a 5xx that fails again on a slow retry |
 | Broken internal routes | An in-site link that resolves to no page |
 | Missing assets | `/content-images/...` not present in the app repo |
 | Certificate problems | TLS failure |
 | Timeouts | No response within 15 seconds |
 | Invalid URLs | Malformed or protocol-relative |
+| Could not verify | 401, 402, 403, 429, 451 or 999: the host refused an automated check (login, paywall, bot protection, rate limit). Not counted as needing attention; open it in a browser |
 | Redirects | 3xx, worth pointing at the final destination |
 | Duplicate URLs | The same external link repeated within one page |
+
+Rate limits (429), server errors (5xx) and network failures from the fast sweep
+get one more probe at the end, one request at a time per host with a pause
+before each (longer if the host sends `Retry-After`, capped at 30 seconds), so
+a busy forum is not reported as hundreds of dead links.
 
 ## Internal routes
 
