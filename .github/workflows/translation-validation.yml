@@ -176,6 +176,9 @@ jobs:
       - name: Link-health response cleanup self-test
         run: node --test link-health/response-body.test.mjs
 
+      - name: Link-health status and retry self-test
+        run: node --test link-health/status-retry.test.mjs
+
   hash-lib-tests:
     runs-on: ubuntu-latest
     steps:

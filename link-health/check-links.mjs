@@ -230,6 +230,12 @@ function routeExists(route, mdFiles, appRoutes) {
 // ── external checking ────────────────────────────────────────────────────────
 
 async function checkExternal(url) {
+  // Statuses a host sends when it refuses an automated client rather than
+  // because the page is gone: login or paywall (401, 402, 407), bot protection
+  // (403, LinkedIn's 999), legal block (451), rate limit (429). In the 2026-10
+  // sweep about two thirds of the links reported with these opened normally in
+  // a browser, so they are reported as unverified, not as broken.
+  const BLOCKED = new Set([401, 402, 403, 407, 429, 451, 999]);
   const attempt = async (method) => {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
@@ -248,7 +254,11 @@ async function checkExternal(url) {
       // We only need the headers. Leaving that body unread retains a socket
       // until the server finishes or GC runs, starving later link checks.
       if (res.body) await res.body.cancel().catch(() => {});
-      return { status: res.status, location: res.headers.get("location") };
+      return {
+        status: res.status,
+        location: res.headers.get("location"),
+        retryAfter: res.headers.get("retry-after"),
+      };
     } finally {
       clearTimeout(timer);
     }
@@ -261,6 +271,13 @@ async function checkExternal(url) {
 
     if (r.status >= 200 && r.status < 300) return { state: "ok", status: r.status };
     if (r.status >= 300 && r.status < 400) return { state: "redirect", status: r.status, to: r.location };
+    if (BLOCKED.has(r.status)) {
+      // Retry-After in seconds only; the HTTP-date form is rare and ignored.
+      const wait = /^\d+$/.test(String(r.retryAfter ?? "").trim()) ? Number(r.retryAfter) : null;
+      return wait === null
+        ? { state: "blocked", status: r.status }
+        : { state: "blocked", status: r.status, retryAfter: wait };
+    }
     return { state: "broken", status: r.status };
   } catch (err) {
     const msg = String(err?.cause?.code || err?.name || err?.message || err);
@@ -285,6 +302,49 @@ async function pool(items, limit, worker) {
   return out;
 }
 
+// A rate limit (429), a server error (5xx) or a network failure during the fast
+// sweep often says more about our request rate than about the link. Those are
+// probed once more, slowly: a few hosts in parallel, one request at a time per
+// host, with a pause before each request (longer when the host sent
+// Retry-After). Without the per-host queue the second pass hammers the same
+// forum again and gets the same 429s. Returns how many URLs were re-probed.
+function needsRetry(r) {
+  if (["timeout", "error", "dns", "tls"].includes(r.state)) return true;
+  if (r.state === "blocked" && r.status === 429) return true;
+  return r.state === "broken" && r.status >= 500;
+}
+
+async function retryPass(urls, results, check, opts = {}) {
+  const { hosts = 4, gapMs = 2000, maxWaitMs = 30000, budgetMs = 15 * 60 * 1000 } = opts;
+  const sleep = opts.sleep || ((ms) => new Promise((resolve) => setTimeout(resolve, ms)));
+  const byHost = new Map();
+  results.forEach((r, i) => {
+    if (!needsRetry(r)) return;
+    let host;
+    try {
+      host = new URL(urls[i]).host;
+    } catch {
+      host = urls[i];
+    }
+    if (!byHost.has(host)) byHost.set(host, []);
+    byHost.get(host).push(i);
+  });
+  const deadline = Date.now() + budgetMs;
+  let retried = 0;
+  await pool([...byHost.values()], hosts, async (indexes) => {
+    for (const i of indexes) {
+      const prev = results[i];
+      const wait = prev.retryAfter ? Math.min(maxWaitMs, Math.max(gapMs, prev.retryAfter * 1000)) : gapMs;
+      // Out of time: keep the first result rather than stretch the weekly job.
+      if (Date.now() + wait > deadline) return;
+      await sleep(wait);
+      results[i] = await check(urls[i]);
+      retried++;
+    }
+  });
+  return retried;
+}
+
 // ── archived links ───────────────────────────────────────────────────────────
 // A Wayback link records a judgement made on one day: the original was dead
 // then. Sites come back — zeme.team returned three weeks after a correct fix
@@ -306,6 +366,7 @@ function originalOf(url) {
 
 const ACTIONS = {
   broken: "Confirm the page moved or was removed, then update or drop the link.",
+  blocked: "The host refused an automated check (login, paywall, bot protection or rate limit). Open the link in a browser: if it works, nothing to do. Add hosts that always refuse to the allowlist.",
   dns: "Domain does not resolve. The site is likely gone; replace or remove the link.",
   timeout: "No response in time. Recheck manually; add to the allowlist if the host is simply slow.",
   tls: "Certificate problem. Verify the host before trusting the link.",
@@ -443,21 +504,10 @@ async function main() {
     checked = urls.length;
 
     // A single connection failure usually means we saturated the local socket
-    // pool, not that the site is down. Anything that failed at the network layer
-    // is retried once, slowly, and only reported if it fails again. Without this
-    // a large sweep reports hundreds of live sites as broken.
-    const transient = new Set(["timeout", "error", "dns", "tls"]);
-    const suspects = [];
-    results.forEach((r, i) => {
-      if (transient.has(r.state)) suspects.push(i);
-    });
-    if (suspects.length) {
-      retried = suspects.length;
-      const second = await pool(suspects.map((i) => urls[i]), 4, (u) => checkExternal(u));
-      suspects.forEach((idx, k) => {
-        results[idx] = second[k];
-      });
-    }
+    // pool, not that the site is down; a 429 or 5xx usually means we asked too
+    // fast. Those are retried once, slowly, and only reported if they fail
+    // again. Without this a large sweep reports hundreds of live sites as broken.
+    retried = await retryPass(urls, results, checkExternal);
 
     results.forEach((r, i) => {
       const url = urls[i];
@@ -500,7 +550,7 @@ async function main() {
     }
   }
 
-  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "error", "invalid", "redirect", "duplicate", "revived"];
+  const order = ["dns", "broken", "route", "asset", "tls", "timeout", "error", "invalid", "blocked", "redirect", "duplicate", "revived"];
   findings.sort((a, b) => order.indexOf(a.kind) - order.indexOf(b.kind) || a.file.localeCompare(b.file));
 
   const totals = Object.fromEntries(order.map((k) => [k, findings.filter((f) => f.kind === k).length]));
@@ -538,6 +588,7 @@ const LABELS = {
   timeout: "Timeouts",
   error: "Request errors",
   invalid: "Invalid URLs",
+  blocked: "Could not verify (bot protection or rate limit)",
   redirect: "Redirects",
   duplicate: "Duplicate URLs",
   revived: "Archived links whose original is live again",
