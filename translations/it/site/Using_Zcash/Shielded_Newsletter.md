@@ -79,4 +79,4 @@ Un esecutore corretto dovrebbe:
 4. Interrogare `z_getoperationstatus` per quell'ID operazione.
 5. Registrare il txid solo dopo `success`.
 
-La vecchia pagina del tutorial rimane in [Script per Shielded Newsletter](/tutorials/shieldednewsletter/readme). Usa questa pagina per la procedura.
+La vecchia pagina del tutorial rimane in [Script per Shielded Newsletter](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Usa questa pagina per la procedura.

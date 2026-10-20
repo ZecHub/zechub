@@ -4,7 +4,7 @@
 
 # Node Zakura
 
-> 🇧🇷 [Versi dalam Bahasa Portugis](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [Versi dalam Bahasa Portugis](/pt/zcash-tech/zakura-node)
 
 Zakura adalah implementasi full node sumber terbuka yang gratis untuk Zcash, yang dibangun untuk skalabilitas. Di-fork dari [Zebra](Zebra_Full_Node.md) dan dikembangkan melalui kolaborasi antara **Valar Group** dan **Project Tachyon**, Zakura menghadirkan sinkronisasi yang jauh lebih cepat, pemangkasan blok asli, dan lapisan kompatibilitas untuk alat `zcashd` lama. Versi 1.0.0 dirilis pada 15 Juli 2026.
 

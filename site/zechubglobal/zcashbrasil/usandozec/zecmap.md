@@ -126,7 +126,7 @@ O ZecMap também anunciou uma parceria com o [CipherPay](https://cipherpay.app) 
 
 ## Páginas Relacionadas
 
-- [Gastar ZEC](/using-zcash/spend-zcash)
+- [Gastar ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec)
 - [Processadores de Pagamento](/using-zcash/payment-processors)
 - [Usando ZEC com Privacidade](/guides/using-zec-privately)
 - [Carteiras](/using-zcash/wallets)

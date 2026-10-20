@@ -79,4 +79,4 @@ Onye na-agba ọsọ agbaziri kwesịrị:
 4. Ntuli aka `z_getoperationstatus` maka ọrụ ahụ id.
 5. Dekọọ txid ahụ naanị mgbe emechara `success`.
 
-Ibe nkuzi ochie ahụ ka dị na [Ederede Akwụkwọ Ozi Ekpuchiri Echekwara](/tutorials/shieldednewsletter/readme). Jiri ibe a mee ihe maka usoro a.
+Ibe nkuzi ochie ahụ ka dị na [Ederede Akwụkwọ Ozi Ekpuchiri Echekwara](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Jiri ibe a mee ihe maka usoro a.

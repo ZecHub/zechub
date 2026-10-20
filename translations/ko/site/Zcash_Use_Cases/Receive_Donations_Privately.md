@@ -104,7 +104,7 @@ Zcash 보호된 거래는 다음을 숨깁니다:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 관련 자료
 
-- [프라이버시 - 보호된 vs 투명한](/privacy/shielded-vs-transparent)
+- [프라이버시 - 보호된 vs 투명한](/zcash-tech/what-a-block-explorer-can-see)
 - [지갑](/wallets)
 
 <br/>

@@ -137,7 +137,7 @@ Planned improvements include:
 
 ## Related Pages
 
-- [Spend ZEC](/using-zcash/spend-zcash) — Other ways to use ZEC in the real world
+- [Spend ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Other ways to use ZEC in the real world
 - [Payment Processors](/using-zcash/payment-processors) — Tools for merchants to accept ZEC
 - [Using ZEC Privately](/guides/using-zec-privately) — Best practices for shielded payments
 - [Wallets](/using-zcash/wallets) — Wallets compatible with ZEC merchant payments

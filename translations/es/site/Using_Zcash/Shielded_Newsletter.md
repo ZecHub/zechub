@@ -79,4 +79,4 @@ Un ejecutor corregido debería:
 4. Consultar `z_getoperationstatus` para ese id de operación.
 5. Registrar el txid solo después de `success`.
 
-La antigua página del tutorial permanece en [scripts de Shielded Newsletter](/tutorials/shieldednewsletter/readme). Usa esta página para el procedimiento.
+La antigua página del tutorial permanece en [scripts de Shielded Newsletter](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Usa esta página para el procedimiento.

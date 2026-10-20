@@ -137,7 +137,7 @@ ZecMap также объявил о партнёрстве с [CipherPay](https:
 
 ## Связанные страницы
 
-- [Потратить ZEC](/using-zcash/spend-zcash) — Другие способы использовать ZEC в реальном мире
+- [Потратить ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Другие способы использовать ZEC в реальном мире
 - [Платёжные процессоры](/using-zcash/payment-processors) — Инструменты для продавцов, чтобы принимать ZEC
 - [Использование ZEC приватно](/guides/using-zec-privately) — Лучшие практики для shielded-платежей
 - [Кошельки](/using-zcash/wallets) — Кошельки, совместимые с платежами продавцам в ZEC

@@ -137,7 +137,7 @@ ZecMap ने यह भी घोषणा की है कि उसने �
 
 ## संबंधित पृष्ठ
 
-- [ZEC खर्च करें](/using-zcash/spend-zcash) — वास्तविक दुनिया में ZEC उपयोग करने के अन्य तरीके
+- [ZEC खर्च करें](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — वास्तविक दुनिया में ZEC उपयोग करने के अन्य तरीके
 - [Payment Processors](/using-zcash/payment-processors) — व्यापारियों के लिए ZEC स्वीकार करने के टूल्स
 - [ZEC का निजी रूप से उपयोग करना](/guides/using-zec-privately) — shielded payments के लिए सर्वोत्तम प्रथाएँ
 - [Wallets](/using-zcash/wallets) — ZEC merchant payments के साथ संगत wallet

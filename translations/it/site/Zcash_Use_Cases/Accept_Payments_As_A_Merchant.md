@@ -121,7 +121,7 @@ Puoi:
 
 
 - [Portafogli](/wallets)
-- [Privacy - Best Practice](/privacy/best-practices)
+- [Privacy - Best Practice](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

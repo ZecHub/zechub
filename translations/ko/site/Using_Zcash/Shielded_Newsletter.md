@@ -79,4 +79,4 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
 4. 해당 작업 ID에 대해 `z_getoperationstatus`를 폴링합니다.
 5. `success` 이후에만 txid를 기록합니다.
 
-이전 튜토리얼 페이지는 [실드된 뉴스레터 스크립트](/tutorials/shieldednewsletter/readme)에 그대로 있습니다. 절차에는 이 페이지를 사용하세요.
+이전 튜토리얼 페이지는 [실드된 뉴스레터 스크립트](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md)에 그대로 있습니다. 절차에는 이 페이지를 사용하세요.

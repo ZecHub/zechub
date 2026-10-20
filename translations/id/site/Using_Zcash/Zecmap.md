@@ -137,7 +137,7 @@ Peningkatan yang direncanakan meliputi:
 
 ## Halaman Terkait
 
-- [Belanja ZEC](/using-zcash/spend-zcash) — Cara lain menggunakan ZEC di dunia nyata
+- [Belanja ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Cara lain menggunakan ZEC di dunia nyata
 - [Pemroses Pembayaran ](/using-zcash/payment-processors) — Alat bagi merchant untuk menerima ZEC
 - [Menggunakan ZEC secara Privat ](/guides/using-zec-privately) — Praktik terbaik untuk pembayaran terlindungi
 - [Dompet ](/using-zcash/wallets) — Dompet yang kompatibel dengan pembayaran merchant ZEC

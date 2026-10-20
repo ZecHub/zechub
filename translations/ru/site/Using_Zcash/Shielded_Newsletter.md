@@ -79,4 +79,4 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
 4. Опросить `z_getoperationstatus` для этого идентификатора операции.
 5. Записывать txid только после `success`.
 
-Страница старого руководства остаётся по адресу [Скрипты Shielded Newsletter](/tutorials/shieldednewsletter/readme). Для процедуры используйте эту страницу.
+Страница старого руководства остаётся по адресу [Скрипты Shielded Newsletter](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Для процедуры используйте эту страницу.

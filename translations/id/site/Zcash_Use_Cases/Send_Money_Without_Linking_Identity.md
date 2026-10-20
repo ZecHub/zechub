@@ -96,7 +96,7 @@ Kamu dapat:
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Terkait
-- [Privasi - Terlindungi vs Transparan](/privacy/shielded-vs-transparent)
+- [Privasi - Terlindungi vs Transparan](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

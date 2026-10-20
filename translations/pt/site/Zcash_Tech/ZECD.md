@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>
 
-# ZECD — Servidor de Wallet Shielded-First
+# zecd — Servidor de Wallet Shielded-First
 
-> 🇧🇷 [Versão em Português](/zechubglobal/zcashbrasil/zcashtech/zecd)
+> 🇧🇷 [Versão em Português](/pt/zcash-tech/zecd)
 
-ZECD é um servidor de wallet shielded-first para Zcash, construído sobre [librustzcash](https://github.com/zcash/librustzcash) e exposto através do dialeto JSON-RPC do Bitcoin Core. Dá aos programadores e integradores de pagamentos uma API familiar, compatível com Bitcoin, para interagir com Zcash — ao mesmo tempo que torna Orchard (a pool mais privada) a opção predefinida. Desenvolvido por [zec.rocks](https://zec.rocks), o ZECD foi concebido para substituir a funcionalidade de wallet do `zcashd` em implementações modernas e cloud-native.
+zecd é um servidor de wallet shielded-first para Zcash, construído sobre [librustzcash](https://github.com/zcash/librustzcash) e exposto através do dialeto JSON-RPC do Bitcoin Core. Dá aos programadores e integradores de pagamentos uma API familiar, compatível com Bitcoin, para interagir com Zcash — ao mesmo tempo que torna Orchard (a pool mais privada) a opção predefinida. Desenvolvido por [zec.rocks](https://zec.rocks), o zecd foi concebido para substituir a funcionalidade de wallet do `zcashd` em implementações modernas e cloud-native.
 
 **Versão atual:** 0.5.0-rc3 (13 de julho de 2026) — com suporte para Ironwood (NU6.3). Instale através de `cargo install zecd` ou use a imagem Docker oficial.
 
@@ -14,7 +14,7 @@ ZECD é um servidor de wallet shielded-first para Zcash, construído sobre [libr
 
 ## TL;DR
 
-- ZECD é um **daemon de wallet (servidor)** — não um nó completo. Trata de chaves, varrimento, proving e RPC sem falar o protocolo P2P do Zcash.
+- zecd é um **daemon de wallet (servidor)** — não um nó completo. Trata de chaves, varrimento, proving e RPC sem falar o protocolo P2P do Zcash.
 - Fala o **dialeto JSON-RPC do Bitcoin Core**: mesmos nomes de métodos, formatos dos campos, autenticação e códigos de erro — muitos clientes RPC de Bitcoin funcionam com Zcash imediatamente.
 - Os endereços **Orchard (shielded) são a opção predefinida**; o suporte a transparentes (t-address) e Sapling requer ativação explícita por wallet.
 - Liga-se a um **nó completo [Zebra](Zebra_Full_Node.md) auto-hospedado** via JSON-RPC local — sem necessidade de lightwalletd.
@@ -25,11 +25,11 @@ ZECD é um servidor de wallet shielded-first para Zcash, construído sobre [libr
 
 ---
 
-## Que Problema o ZECD Resolve?
+## Que Problema o zecd Resolve?
 
 `zcashd` era o nó e wallet original do Zcash combinados — derivado da base de código C++ do Bitcoin em 2016. Com o tempo, isto criou fricção: o código é difícil de manter, a wallet está fortemente acoplada ao nó, e os endereços transparentes são apresentados como opções de primeira classe ao lado dos shielded.
 
-O ZECD separa a responsabilidade da wallet do consenso. É uma **camada de wallet dedicada** que fica entre as aplicações e um nó completo Zebra, fornecendo:
+O zecd separa a responsabilidade da wallet do consenso. É uma **camada de wallet dedicada** que fica entre as aplicações e um nó completo Zebra, fornecendo:
 
 - Uma implementação Rust limpa e moderna construída sobre librustzcash (a mesma biblioteca que suporta Zodl e Zingo)
 - Um design de privacidade por defeito (endereços Orchard salvo configuração em contrário)
@@ -40,19 +40,19 @@ O ZECD separa a responsabilidade da wallet do consenso. É uma **camada de walle
 
 ## Arquitetura
 
-O ZECD opera num modelo de três camadas:
+O zecd opera num modelo de três camadas:
 
 ```
 A sua app / cliente Bitcoin RPC
         ↓  JSON-RPC
-       ZECD
+       zecd
    (chaves, varrimento, proving, RPC)
         ↓  JSON-RPC (apenas local)
        Zebra
    (nó completo — consenso, mempool, dados da cadeia)
 ```
 
-O ZECD comunica com o Zebra **exclusivamente através de JSON-RPC local** — sem rede peer-to-peer, sem indexadores de terceiros, sem lightwalletd. A ligação ao Zebra é deliberadamente apenas local: o ZECD recusar-se-á a enviar credenciais para um anfitrião globalmente acessível, a menos que seja explicitamente configurado para um túnel seguro fora de banda (por exemplo, WireGuard ou SSH).
+O zecd comunica com o Zebra **exclusivamente através de JSON-RPC local** — sem rede peer-to-peer, sem indexadores de terceiros, sem lightwalletd. A ligação ao Zebra é deliberadamente apenas local: o zecd recusar-se-á a enviar credenciais para um anfitrião globalmente acessível, a menos que seja explicitamente configurado para um túnel seguro fora de banda (por exemplo, WireGuard ou SSH).
 
 ---
 
@@ -60,7 +60,7 @@ O ZECD comunica com o Zebra **exclusivamente através de JSON-RPC local** — se
 
 ### Shielded-First, Orchard por Defeito
 
-O ZECD usa Unified Addresses Orchard como tipo de endereço predefinido. As pools Sapling e transparente (t-address) requerem configuração explícita por wallet. Este design reduz o risco de envios transparentes acidentais — uma armadilha comum de privacidade em ferramentas Zcash mais antigas.
+O zecd usa Unified Addresses Orchard como tipo de endereço predefinido. As pools Sapling e transparente (t-address) requerem configuração explícita por wallet. Este design reduz o risco de envios transparentes acidentais — uma armadilha comum de privacidade em ferramentas Zcash mais antigas.
 
 A política de privacidade é configurável por chamada ou globalmente em `[spend] privacy_policy`:
 
@@ -73,7 +73,7 @@ A política de privacidade é configurável por chamada ou globalmente em `[spen
 
 ### Compatibilidade com RPC do Bitcoin Core
 
-O ZECD implementa o dialeto JSON-RPC do Bitcoin Core com conformidade em:
+O zecd implementa o dialeto JSON-RPC do Bitcoin Core com conformidade em:
 
 - Nomes dos métodos (por exemplo, `getblockchaininfo`, `getbalance`, `getnewaddress`, `listtransactions`, `sendtoaddress`, `sendmany`)
 - Nomes e tipos dos campos nas respostas
@@ -81,23 +81,23 @@ O ZECD implementa o dialeto JSON-RPC do Bitcoin Core com conformidade em:
 - Basic auth, entradas `rpcauth` e autenticação por ficheiro cookie
 - Códigos de erro e mapeamento de estado HTTP (HTTP 500 com corpo de erro, semântica 401)
 
-Isto significa que muitas bibliotecas de pagamentos Bitcoin, integrações com exchanges e ferramentas de monitorização existentes podem interagir com Zcash através do ZECD com poucas ou nenhumas alterações de código.
+Isto significa que muitas bibliotecas de pagamentos Bitcoin, integrações com exchanges e ferramentas de monitorização existentes podem interagir com Zcash através do zecd com poucas ou nenhumas alterações de código.
 
 A suíte de conformidade (mais de 140 verificações) é executada em cada PR contra um daemon regtest ativo e foi também validada contra a testnet pública.
 
 ### Memos Shielded (ZIP-302)
 
-O ZECD expõe a funcionalidade de memos shielded do Zcash através da familiar interface RPC do Bitcoin — algo indisponível nas ferramentas padrão do Bitcoin:
+O zecd expõe a funcionalidade de memos shielded do Zcash através da familiar interface RPC do Bitcoin — algo indisponível nas ferramentas padrão do Bitcoin:
 
 - `sendtoaddress` aceita um memo hexadecimal opcional como parâmetro extra no fim (até 512 bytes; rejeitado para destinatários transparentes)
 - As entradas do histórico de transações de `listtransactions` e `gettransaction` incluem os campos `memo` (hex) e `memoStr` (texto descodificado) quando um output o transporta
 - Envios de montante zero para um destinatário shielded são suportados para casos de uso apenas com memo (o padrão "memo-only-send" de `z_sendmany`)
 
-Isto torna o ZECD adequado para aplicações que necessitam de mensagens privadas on-chain juntamente com pagamentos.
+Isto torna o zecd adequado para aplicações que necessitam de mensagens privadas on-chain juntamente com pagamentos.
 
 ### Sem Estado por Conceção
 
-O ZECD não persiste **nenhum estado off-chain que uma restauração apenas com seed não pudesse reconstruir**. A base de dados da wallet (`data.sqlite`) é inteiramente derivável da seed phrase — os fundos shielded são recuperados incondicionalmente; os fundos transparentes são recuperados até ao gap limit configurado.
+O zecd não persiste **nenhum estado off-chain que uma restauração apenas com seed não pudesse reconstruir**. A base de dados da wallet (`data.sqlite`) é inteiramente derivável da seed phrase — os fundos shielded são recuperados incondicionalmente; os fundos transparentes são recuperados até ao gap limit configurado.
 
 Para restaurar uma wallet a partir da seed:
 
@@ -105,17 +105,17 @@ Para restaurar uma wallet a partir da seed:
 zecd init --restore --birthday <block-height>
 ```
 
-Isto torna o diretório de dados **descartável**: um contentor sem volume persistente, reconstruído a partir da seed em cada arranque, não perde nada de crítico. Os operadores são responsáveis por seguir os endereços que distribuem — o ZECD só se lembra dos endereços depois de estes receberem fundos on-chain.
+Isto torna o diretório de dados **descartável**: um contentor sem volume persistente, reconstruído a partir da seed em cada arranque, não perde nada de crítico. Os operadores são responsáveis por seguir os endereços que distribuem — o zecd só se lembra dos endereços depois de estes receberem fundos on-chain.
 
-As labels estão intencionalmente ausentes. Como as labels não têm fonte on-chain e não podem ser reconstruídas a partir da seed, o ZECD simplesmente não as suporta. Chamar métodos de labels devolve um erro `method-not-found` (`-32601`).
+As labels estão intencionalmente ausentes. Como as labels não têm fonte on-chain e não podem ser reconstruídas a partir da seed, o zecd simplesmente não as suporta. Chamar métodos de labels devolve um erro `method-not-found` (`-32601`).
 
 ### Sem Dependência de lightwalletd
 
-O ZECD deriva compact blocks, estado da tree e visibilidade da mempool diretamente do JSON-RPC do Zebra. Não há lightwalletd para operar ou manter — reduzindo a complexidade operacional para implementações auto-hospedadas.
+O zecd deriva compact blocks, estado da tree e visibilidade da mempool diretamente do JSON-RPC do Zebra. Não há lightwalletd para operar ou manter — reduzindo a complexidade operacional para implementações auto-hospedadas.
 
 ### Implementações Cloud-Native e Contentorizadas
 
-A arquitetura sem estado do ZECD foi concebida para ambientes Docker e Kubernetes:
+A arquitetura sem estado do zecd foi concebida para ambientes Docker e Kubernetes:
 
 - Stack Docker Compose completa (`zebra → zecd`) disponível no repositório
 - Endpoint de saúde na porta `9233` com sondas de prontidão configuráveis (`synced` ou `connected`)
@@ -127,7 +127,7 @@ A arquitetura sem estado do ZECD foi concebida para ambientes Docker e Kubernete
 
 ## Modelos de Custódia
 
-O ZECD suporta três modelos de custódia de chaves, adequados a diferentes requisitos de implementação e segurança:
+O zecd suporta três modelos de custódia de chaves, adequados a diferentes requisitos de implementação e segurança:
 
 ### 1. Não Encriptado (Predefinido — Desbloqueio Automático)
 
@@ -180,13 +180,13 @@ Os fundos são recuperáveis **apenas a partir da mnemonic**. Tudo o resto é ca
 | `blocks/` | `<wallet dir>/blocks/` | Cache de compact blocks | Não — nunca enviar; pode crescer bastante |
 | `.cookie` | `<datadir>/.cookie` | Cookie RPC efémero | Não — regenerado no arranque |
 
-> **O diretório de dados tem de ser local ao anfitrião.** O bloqueio de instância única do ZECD (`<datadir>/.lock`) é um bloqueio consultivo do SO — não se estende entre anfitriões. Nunca partilhe um diretório de dados com leitura-escrita entre máquinas (NFS, Kubernetes `ReadWriteMany`) — duas instâncias ZECD corromperiam a base de dados da wallet. Use volumes `ReadWriteOnce` no Kubernetes.
+> **O diretório de dados tem de ser local ao anfitrião.** O bloqueio de instância única do zecd (`<datadir>/.lock`) é um bloqueio consultivo do SO — não se estende entre anfitriões. Nunca partilhe um diretório de dados com leitura-escrita entre máquinas (NFS, Kubernetes `ReadWriteMany`) — duas instâncias zecd corromperiam a base de dados da wallet. Use volumes `ReadWriteOnce` no Kubernetes.
 
 ---
 
 ## Lista Segura de Métodos RPC
 
-Para implementações onde uma fuga de credenciais seria catastrófica, o ZECD suporta restringir a superfície RPC a um subconjunto escolhido de métodos:
+Para implementações onde uma fuga de credenciais seria catastrófica, o zecd suporta restringir a superfície RPC a um subconjunto escolhido de métodos:
 
 ```toml
 [rpc]
@@ -201,7 +201,7 @@ Qualquer método que não esteja na lista devolve `-32601` (HTTP 404) — indist
 
 Os programadores que migram de ferramentas Bitcoin ou zcashd devem estar cientes destas divergências intencionais:
 
-| Comportamento | Bitcoin Core | ZECD |
+| Comportamento | Bitcoin Core | zecd |
 |----------|-------------|------|
 | Formato de endereço | `1...` / `bc1...` | `u1...` (Orchard Unified Address) — não interpretável como endereço Bitcoin por clientes que fazem parsing de strings |
 | Labels | Armazenamento completo de labels | Não implementado — `setlabel`, `listlabels`, etc. devolvem `-32601` |
@@ -209,7 +209,7 @@ Os programadores que migram de ferramentas Bitcoin ou zcashd devem estar cientes
 | Memos | Não suportados | `sendtoaddress` aceita memo hex; o histórico tem campos `memo` + `memoStr` |
 | Confirmações para gastar | 1 | 3 (troco próprio) / 10 (terceiros) — configurável via `trusted_confirmations` / `untrusted_confirmations` |
 | `listsinceblock` em reorg | Regride até à bifurcação | Devolve `-5` (Bloco não encontrado) se o cursor for removido por reorg — redefina a base com uma chamada sem parâmetros |
-| Destinatários duplicados em `sendmany` | Erro | O parser JSON colapsa duplicados (vence o último) antes de o ZECD os ver — não liste o mesmo endereço duas vezes |
+| Destinatários duplicados em `sendmany` | Erro | O parser JSON colapsa duplicados (vence o último) antes de o zecd os ver — não liste o mesmo endereço duas vezes |
 | Saldo durante sincronização inicial | Bloqueia ou warm-up | Serve saldo parcial — condicione a automação a `GET /readyz` (devolve 503 até estar totalmente sincronizado e a fila de melhorias esgotada) |
 | `minconf 0` em `getbalance` | Saldo com 0 confirmações | Servido como 1 — uma note shielded nunca é gastável sem mineração |
 
@@ -274,16 +274,16 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Portas Predefinidas
 
-| Rede | ZECD RPC | Zebra RPC (backend) | Saúde |
+| Rede | zecd RPC | Zebra RPC (backend) | Saúde |
 |---------|----------|---------------------|--------|
 | Mainnet | 8232 | 8234 | 9233 |
 | Testnet | 18232 | 18234 | 9233 |
 
 ---
 
-## ZECD vs. zcashd vs. Zaino
+## zecd vs. zcashd vs. Zaino
 
-| | zcashd | Zaino | ZECD |
+| | zcashd | Zaino | zecd |
 |--|--------|-------|------|
 | Função | Nó completo + wallet | Indexador (substitui lightwalletd) | Apenas servidor de wallet |
 | Linguagem | C++ | Rust | Rust |
@@ -301,16 +301,16 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Páginas Relacionadas
 
-- [Zebra Full Node](Zebra_Full_Node.md) — o nó completo ao qual o ZECD se liga
+- [Zebra Full Node](Zebra_Full_Node.md) — o nó completo ao qual o zecd se liga
 - [Zaino Indexer](Zaino.md) — abordagem alternativa de indexador (substitui lightwalletd)
 - [Zakura Node](Zakura_Node.md) — outra implementação de nó completo (fork de Zebra)
-- [Viewing Keys](Viewing_Keys.md) — como o ZECD varre a cadeia usando chaves de visualização de conta
+- [Viewing Keys](Viewing_Keys.md) — como o zecd varre a cadeia usando chaves de visualização de conta
 - [Wallets](/using-zcash/wallets) — visão geral do ecossistema de wallets
 
 ## Recursos
 
-- [ZECD GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
-- [Runbook de Operações do ZECD](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
+- [zecd GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
+- [Runbook de Operações do zecd](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
 - [zec.rocks](https://zec.rocks)
 - [librustzcash — biblioteca central de criptografia Zcash](https://github.com/zcash/librustzcash)
 - [ZIP-317: Mecanismo de Taxa de Transferência Proporcional](https://zips.z.cash/zip-0317)

@@ -121,7 +121,7 @@ Unaweza:
 
 
 - [Mkoba](/wallets)
-- [Faragha - Mazoea Bora Zaidi](/privacy/best-practices)
+- [Faragha - Mazoea Bora Zaidi](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

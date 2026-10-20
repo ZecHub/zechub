@@ -121,7 +121,7 @@ Kamu dapat:
 
 
 - [Dompet](/wallets)
-- [Privasi - Praktik Terbaik](/privacy/best-practices)
+- [Privasi - Praktik Terbaik](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

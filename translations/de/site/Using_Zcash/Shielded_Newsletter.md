@@ -79,4 +79,4 @@ Ein korrigierter Runner sollte:
 4. `z_getoperationstatus` für diese Operations-ID abfragen.
 5. Die txid erst nach `success` aufzeichnen.
 
-Die alte Tutorial-Seite bleibt unter [Skripte für abgeschirmte Newsletter](/tutorials/shieldednewsletter/readme). Verwende diese Seite für die Vorgehensweise.
+Die alte Tutorial-Seite bleibt unter [Skripte für abgeschirmte Newsletter](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Verwende diese Seite für die Vorgehensweise.

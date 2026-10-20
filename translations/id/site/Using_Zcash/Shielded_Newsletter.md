@@ -79,4 +79,4 @@ Runner yang telah diperbaiki harus:
 4. Pantau `z_getoperationstatus` untuk id operasi tersebut.
 5. Catat txid hanya setelah `success`.
 
-Halaman tutorial lama tetap berada di [Skrip Newsletter Terlindungi](/tutorials/shieldednewsletter/readme). Gunakan halaman ini untuk prosedurnya.
+Halaman tutorial lama tetap berada di [Skrip Newsletter Terlindungi](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Gunakan halaman ini untuk prosedurnya.
