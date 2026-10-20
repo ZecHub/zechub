@@ -134,7 +134,7 @@ Least Authority [enyochaala](https://argos.sovright.com/assets/least-authority-a
 1. Budata ngwa desktọpụ ahụ site na [Ebe nrụọrụ weebụ Argos gọọmentị](https://argos.sovright.com) ma ọ bụ [GitHub weputara ibe](https://github.com/sovright/argos/releases). Lelee checksum ma ọ bụ mbinye aka mgbe e bipụtara ha.
 2. Jiri mwepụta Argos dị ugbu a. Dịka ọ dị na Septemba 18, 2026, **v1.3.0** dị ugbu a ma bụrụ nke a na-ahọrọ. Jiri **v1.2.0 ma ọ bụ karịa maka `wallet.dat` na mgbake Sprout**. Ihe ndị e wuru karịa 1.1.0 ka nwere ike inyocha mana ha na-arụ ọrụ tupu Ironwood nke netwọk jụrụ; melite ma nwaa ọzọ.
 3. Rụọ ọrụ na igwe ị tụkwasịrị obi. Họọrọ nzuzo diski zuru oke. Ekekọrịtala ihuenyo mgbe a na-ahụ mkpụrụ, okwuntughe, ma ọ bụ igodo mmefu.
-4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.app/). Kwado adreesị dị na obere akpa ahụ tupu ị tinye ya na Argos.
+4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.com/). Kwado adreesị dị na obere akpa ahụ tupu ị tinye ya na Argos.
 
 ### Mweghachi mkpụrụ
 

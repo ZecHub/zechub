@@ -134,7 +134,7 @@ Least Authority 已[审计](https://argos.sovright.com/assets/least-authority-ar
 1. 从[官方Argos网站](https://argos.sovright.com)或[GitHub 发布页面](https://github.com/sovright/argos/releases)下载桌面应用。在发布校验和或签名时，请验证它们。
 2. 使用当前Argos版本。截至 2026 年 9 月 18 日，**v1.3.0**为当前首选版本。**恢复`wallet.dat`和 Sprout 时请使用 v1.2.0 或更高版本**。低于 1.1.0 的版本仍可扫描，但会构建网络拒绝的 Ironwood 前归集交易；请更新后重试。
 3. 在你信任的设备上操作。最好使用全磁盘加密。助记词、密码短语或支出密钥可见时，请勿进行屏幕共享。
-4. 准备好由你控制的受维护钱包提供的目的地Unified Address，例如[ZODL](https://zodl.app/)。在将地址粘贴到Argos前，请先在该钱包中确认地址。
+4. 准备好由你控制的受维护钱包提供的目的地Unified Address，例如[ZODL](https://zodl.com/)。在将地址粘贴到Argos前，请先在该钱包中确认地址。
 
 ### 助记词恢复
 

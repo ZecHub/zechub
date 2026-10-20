@@ -104,7 +104,7 @@ Discord bot a ɛma kwan a ɛnyɛ den na ahobammɔ wom wɔ Zcash nkitahodi mu.
 
 ### ZODL
 Flagship Zcash sika kotoku a efi ZODL (kan no na wɔfrɛ no Zashi). Ɛwɔ iOS ne Android. Ɛboa ZEC a wɔabɔ ho ban ne NU7 coinholder abatow. 
-[Sra](https://zodl.app/)
+[Sra](https://zodl.com/)
 
 ### Noir Sikakorabea
 Zcash sika kotoku a wɔde wɔn adwene si kokoamsɛm so a wɔayɛ ama ZEC nnwuma a ɛnyɛ den na ɛyɛ kokoam nsɛm. 

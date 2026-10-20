@@ -134,7 +134,7 @@ Least Authority [wowɔ agbalẽdzikpɔkpɔdɔa](https://argos.sovright.com/asset
 1. Wɔ kɔmpiutadziɖoɖoa ƒe kɔpi tso... [Argos ƒe nyatakakadzraɖoƒe si dziɖuɖua da asi ɖo](https://argos.sovright.com) alo esi [GitHub ɖea axa ɖe go](https://github.com/sovright/argos/releases). Kpɔ ɖaseɖigbalẽ alo asidede agbalẽ te dzi ne wota wo.
 2. Zã Argos ƒe tata si woɖe ɖe go fifia. Tso September 18, 2026 dzi la, **v1.3.0** nye esi li fifia eye wodi wu. Zã **v1.2.0 alo esiwo do ŋgɔ na `wallet.dat` kple Sprout ƒe hayahaya**. Xɔ siwo do xoxo wu 1.1.0 ate ŋu awɔ scan kokoko gake woatu do ŋgɔ na Ironwood sweeps siwo network la gbe; yeyee eye nàgadze agbagba ake.
 3. Wɔ dɔ le mɔ̃ si dzi nèka ɖo ŋu. Disk blibo ƒe nya ɣaɣlawo zazã wu. Mègawɔ screen-share esime nuku, passphrase, alo gazazã ƒe safui aɖe le dzedzem o.
-4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.app/). Ðo kpe adrɛs si le gakotoku ma me dzi hafi nàtsɔe ade Argos me.
+4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.com/). Ðo kpe adrɛs si le gakotoku ma me dzi hafi nàtsɔe ade Argos me.
 
 ### Nukuwo ƒe hayahaya
 

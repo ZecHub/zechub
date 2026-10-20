@@ -104,7 +104,7 @@ Roboti Discord hutoa ufikiaji salama na usio na mshono wa miamala Zcash.
 
 ### ZODL
 Pochi ya Flagship Zcash kutoka ZODL (zamani Zashi). Inapatikana kwenye iOS na Android. Inasaidia upigaji kura wa ZEC na NU7 wenye sarafu waliolindwa. 
-[Tembelea](https://zodl.app/)
+[Tembelea](https://zodl.com/)
 
 ### Pochi ya Noir
 Pochi Zcash inayolenga faragha iliyoundwa kwa miamala rahisi na ya faragha ZEC. 

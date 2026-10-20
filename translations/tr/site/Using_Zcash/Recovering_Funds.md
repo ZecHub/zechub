@@ -134,7 +134,7 @@ Least Authority, aracı [denetledi](https://argos.sovright.com/assets/least-auth
 1. Masaüstü uygulamasını [resmî Argos sitesinden](https://argos.sovright.com) veya [GitHub sürümler sayfasından](https://github.com/sovright/argos/releases) indirin. Yayımlandıklarında sağlama toplamlarını veya imzaları doğrulayın.
 2. Güncel Argos sürümünü kullanın. 18 Eylül 2026 itibarıyla **v1.3.0** güncel ve tercih edilendir. **`wallet.dat` ve Sprout kurtarması için v1.2.0 veya sonrasını kullanın.** 1.1.0'dan eski derlemeler hâlâ tarama yapabilir, ancak ağın reddettiği Ironwood öncesi süpürmeler oluşturur; güncelleyin ve yeniden deneyin.
 3. Güvendiğiniz bir makinede çalışın. Tam disk şifrelemeyi tercih edin. Tohum, parola veya harcama anahtarı görünürken ekran paylaşımı yapmayın.
-4. Unified Address için [ZODL](https://zodl.app/) gibi denetiminizdeki bakımı yapılan bir cüzdandan bir hedef hazırlayın. Adresi Argos içine yapıştırmadan önce o cüzdanda doğrulayın.
+4. Unified Address için [ZODL](https://zodl.com/) gibi denetiminizdeki bakımı yapılan bir cüzdandan bir hedef hazırlayın. Adresi Argos içine yapıştırmadan önce o cüzdanda doğrulayın.
 
 ### Tohum kurtarma
 

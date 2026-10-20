@@ -104,7 +104,7 @@ ZcashToCash (zcashto.cash) — ZEC в Cash App, Chime, Monzo, Revolut, Venmo и�
 
 ### ZODL
 Флагманский кошелёк Zcash от ZODL (ранее Zashi). Доступен на iOS и Android. Поддерживает экранированные ZEC и голосование держателей монет NU7.  
-[Посетить](https://zodl.app/)
+[Посетить](https://zodl.com/)
 
 ### Noir Wallet
 Ориентированный на конфиденциальность кошелёк Zcash, разработанный для простых и приватных транзакций ZEC.  

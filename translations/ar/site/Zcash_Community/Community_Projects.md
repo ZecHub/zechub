@@ -104,7 +104,7 @@ ZcashToCash (zcashto.cash) — من ZEC إلى Cash App أو Chime أو Monzo أ
 
 ### ZODL
 محفظة Zcash الرئيسية من ZODL (المعروفة سابقاً باسم Zashi). متاحة على iOS وAndroid. تدعم ZEC المحمي وتصويت حاملي عملة NU7.  
-[زيارة](https://zodl.app/)
+[زيارة](https://zodl.com/)
 
 ### Noir Wallet
 محفظة Zcash تركز على الخصوصية، مصممة لمعاملات ZEC بسيطة وخاصة.  

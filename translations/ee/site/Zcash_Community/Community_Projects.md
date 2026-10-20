@@ -104,7 +104,7 @@ Discord bot si naa mɔɖeɖe si me kuxi aɖeke mele o eye wòle dedie na Zcash a
 
 ### ZODL
 Zcash gakotoku si nye flagship tso ZODL (si woyɔna tsã be Zashi). Woate ŋu akpɔe le iOS kple Android. Doa alɔ ZEC kple NU7 gakuxɔlawo ƒe akɔdada si wokpɔ ta na. 
-[Sasrã](https://zodl.app/)
+[Sasrã](https://zodl.com/)
 
 ### Noir ƒe Gakotoku
 Zcash gakotoku si wotu ɖe adzamenyawo dzi si wowɔ na ZEC asitsatsa bɔbɔewo kple ame ŋutɔ tɔ. 

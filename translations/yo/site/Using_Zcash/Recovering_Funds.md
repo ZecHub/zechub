@@ -134,7 +134,7 @@ Least Authority [ti ṣe àyẹ̀wò](https://argos.sovright.com/assets/least-au
 1. Ṣe igbasilẹ ohun elo tabili lati inu tabili [Oju opo wẹẹbu Argos osise](https://argos.sovright.com) tàbí [Ojú ìwé ìtújáde GitHub](https://github.com/sovright/argos/releases). Ṣe àyẹ̀wò àwọn àròpọ̀ owó tàbí ìfọwọ́sowọ́pọ̀ nígbà tí a bá tẹ̀ wọ́n jáde.
 2. Lo ìtújáde Argos lọ́wọ́lọ́wọ́. Ní ọjọ́ kejìdínlógún oṣù kẹsàn-án ọdún 2026, **v1.3.0** jẹ́ ti ìsinsìnyí àti èyí tí a fẹ́ràn jùlọ. Lo **v1.2.0 tàbí lẹ́yìn náà fún `wallet.dat` àti ìgbàpadà Sprout**. Àwọn ilé tí ó ti dàgbà ju 1.1.0 lọ ṣì lè ṣe àyẹ̀wò ṣùgbọ́n wọ́n ń kọ́ àwọn ìṣàlẹ̀ ṣáájú Ironwood tí nẹ́tíwọ́ọ̀kì kọ̀; ṣe àtúnṣe kí o sì tún gbìyànjú.
 3. Ṣiṣẹ́ lórí ẹ̀rọ tí o gbẹ́kẹ̀lé. Fẹ́ràn ìfọwọ́sowọ́pọ̀ díìsìkì kíkún. Má ṣe pín-ìbòjú nígbà tí a bá rí irúgbìn, ọ̀rọ̀-ìpamọ́, tàbí kọ́kọ́rọ́ ìnáwó.
-4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.app/). Jẹ́rìí àdírẹ́sì tó wà nínú àpò owó náà kí o tó fi sínú Argos.
+4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.com/). Jẹ́rìí àdírẹ́sì tó wà nínú àpò owó náà kí o tó fi sínú Argos.
 
 ### Ìgbàpadà irugbin
 

@@ -104,7 +104,7 @@ Bot Discord n pese iwọle to ni aabo ati laisi wahala si awọn iṣowo Zcash.
 
 ### ZODL
 Àpò owó Zcash Flagship láti ọ̀dọ̀ ZODL (tí a mọ̀ sí Zashi). Ó wà lórí iOS àti Android. Ó ń ṣe àtìlẹ́yìn fún ìdìbò ZEC àti NU7 tí a dáàbò bò. 
-[Ṣèbẹ̀wò](https://zodl.app/)
+[Ṣèbẹ̀wò](https://zodl.com/)
 
 ### Àpò Noir
 Àpò Zcash tí a fi ìpamọ́ ṣe tí a ṣe fún àwọn ìṣòwò ZEC tí ó rọrùn àti ti ara ẹni. 

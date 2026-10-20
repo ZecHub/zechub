@@ -134,7 +134,7 @@ Least Authority [wɔayɛ ho akontaabu](https://argos.sovright.com/assets/least-a
 1. Twe desktop app no fi... [Argos beae a ɛyɛ aban de](https://argos.sovright.com) anaasɛ nea [GitHub yi krataafa no adi](https://github.com/sovright/argos/releases). Hwɛ sɛ checksums anaa nsaano nkyerɛwee no yɛ nokware bere a wɔatintim no.
 2. Fa Argos a wɔayi no adi mprempren no di dwuma. Ɛde besi September 18, 2026 no, **v1.3.0** yɛ mprempren na wɔpɛ. Fa **v1.2.0 anaa nea ɛba akyiri yi di dwuma ma `wallet.dat` ne Sprout a wɔsan nya**. Builds a akyɛ sen 1.1.0 da so ara tumi scan nanso wɔyɛ pre-Ironwood sweeps a network no pow; update na san bɔ mmɔden bio.
 3. Yɛ adwuma wɔ afiri a wowɔ mu ahotoso so. Wopɛ sɛ wode disk a edi mũ yɛ encryption. Mfa screen-share bere a aba, passphrase, anaa spending key bi da adi.
-4. Ma destination Unified Address asiesie fi sika kotoku a wɔahwɛ so yiye a wohwɛ so, te sɛ [ZODL](https://zodl.app/). Si address a ɛwɔ saa sika kotoku no mu no so dua ansa na wode ahyɛ Argos mu.
+4. Ma destination Unified Address asiesie fi sika kotoku a wɔahwɛ so yiye a wohwɛ so, te sɛ [ZODL](https://zodl.com/). Si address a ɛwɔ saa sika kotoku no mu no so dua ansa na wode ahyɛ Argos mu.
 
 ### Aba a wɔsan nya
 

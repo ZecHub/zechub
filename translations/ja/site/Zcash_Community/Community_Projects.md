@@ -104,7 +104,7 @@ Zcash取引へのシームレスかつ安全なアクセスを提供するDiscor
 
 ### ZODL
 ZODL（旧Zashi）による主力Zcashウォレット。iOSおよびAndroidで利用可能。シールド済みZECとNU7コイン保有者投票をサポートします。  
-[訪問](https://zodl.app/)
+[訪問](https://zodl.com/)
 
 ### Noir Wallet
 シンプルでプライベートなZEC取引のために設計された、プライバシー重視のZcashウォレット。  

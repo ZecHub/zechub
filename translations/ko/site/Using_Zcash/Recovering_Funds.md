@@ -134,7 +134,7 @@ Least Authority는 이 도구를 [감사했습니다](https://argos.sovright.com
 1. [공식 Argos 사이트](https://argos.sovright.com) 또는 [GitHub 릴리스 페이지](https://github.com/sovright/argos/releases)에서 데스크톱 앱을 다운로드하세요. 체크섬이나 서명이 게시되어 있으면 검증하세요.
 2. 최신 Argos 릴리스를 사용하세요. 2026년 9월 18일 기준 **v1.3.0**이 최신이며 권장됩니다. **`wallet.dat` 및 Sprout 복구에는 v1.2.0 이상을 사용하세요**. 1.1.0보다 오래된 빌드는 여전히 스캔할 수 있지만 네트워크가 거부하는 Ironwood 이전 스위핑을 구성합니다. 업데이트한 뒤 다시 시도하세요.
 3. 신뢰하는 컴퓨터에서 작업하세요. 전체 디스크 암호화를 권장합니다. 시드, 패스프레이즈 또는 지출 키가 보이는 동안 화면 공유를 하지 마세요.
-4. [ZODL](https://zodl.app/) 등 통제하는 유지 관리 지갑에서 Unified Address 목적지를 준비하세요. Argos에 붙여넣기 전에 해당 지갑에서 주소를 확인하세요.
+4. [ZODL](https://zodl.com/) 등 통제하는 유지 관리 지갑에서 Unified Address 목적지를 준비하세요. Argos에 붙여넣기 전에 해당 지갑에서 주소를 확인하세요.
 
 ### 시드 복구
 

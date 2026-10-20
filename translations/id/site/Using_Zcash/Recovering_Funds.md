@@ -134,7 +134,7 @@ Least Authority telah [diaudit](https://argos.sovright.com/assets/least-authorit
 1. Unduh aplikasi desktop dari situs resmi [Argos](https://argos.sovright.com) atau halaman rilis [GitHub](https://github.com/sovright/argos/releases). Verifikasi checksum atau tanda tangan saat dipublikasikan.
 2. Gunakan rilis Argos terbaru. Per 18 September 2026, **v1.3.0** adalah versi terbaru dan yang disarankan. Gunakan **v1.2.0 atau yang lebih baru untuk pemulihan `wallet.dat` dan Sprout**. Build yang lebih lama dari 1.1.0 masih dapat memindai tetapi membuat sweep pre-Ironwood yang akan ditolak oleh jaringan; perbarui dan coba lagi.
 3. Bekerjalah pada mesin yang kamu percayai. Utamakan enkripsi disk penuh. Jangan melakukan screen-share saat frasa pemulihan, passphrase, atau spending key terlihat.
-4. Siapkan tujuan Unified Address dari dompet terawat yang kamu kendalikan, seperti [ZODL](https://zodl.app/). Konfirmasi alamat di dompet tersebut sebelum kamu menempelkannya ke Argos.
+4. Siapkan tujuan Unified Address dari dompet terawat yang kamu kendalikan, seperti [ZODL](https://zodl.com/). Konfirmasi alamat di dompet tersebut sebelum kamu menempelkannya ke Argos.
 
 ### Pemulihan frasa pemulihan
 

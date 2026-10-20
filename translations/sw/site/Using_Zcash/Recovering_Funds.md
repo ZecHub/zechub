@@ -134,7 +134,7 @@ Least Authority [imekaguliwa](https://argos.sovright.com/assets/least-authority-
 1. Pakua programu ya kompyuta ya mezani kutoka [tovuti rasmi ya Argos](https://argos.sovright.com) au [Ukurasa wa matoleo ya GitHub](https://github.com/sovright/argos/releases)Thibitisha hundi au sahihi zinapochapishwa.
 2. Tumia toleo la sasa la Argos. Kufikia Septemba 18, 2026, **v1.3.0** ni toleo la sasa na linapendelewa zaidi. Tumia **v1.2.0 au baadaye kwa `wallet.dat` na urejeshaji wa Sprout**. Miundo iliyo na umri wa zaidi ya 1.1.0 bado inaweza kuchanganua lakini kujenga majaribio ya kabla ya Ironwood ambayo mtandao unakataa; sasisha na ujaribu tena.
 3. Fanya kazi kwenye mashine unayoiamini. Pendelea usimbaji fiche wa diski nzima. Usishiriki skrini wakati nenosiri, msimbo wa siri, au ufunguo wa matumizi unaonekana.
-4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.app/)Thibitisha anwani iliyo kwenye pochi hiyo kabla ya kuibandika kwenye Argos.
+4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.com/)Thibitisha anwani iliyo kwenye pochi hiyo kabla ya kuibandika kwenye Argos.
 
 ### Kurejesha mbegu
 

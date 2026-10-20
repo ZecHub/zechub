@@ -104,7 +104,7 @@ ZcashToCash（zcashto.cash）——通过 Peer 将 ZEC 转换至 Cash App、Chim
 
 ### ZODL
 由 ZODL（原 Zashi）推出的旗舰 Zcash 钱包。适用于 iOS 和 Android。支持屏蔽 ZEC 和 NU7 持币人投票。  
-[访问](https://zodl.app/)
+[访问](https://zodl.com/)
 
 ### Noir Wallet
 专注隐私的 Zcash 钱包，旨在实现简单且私密的 ZEC 交易。  

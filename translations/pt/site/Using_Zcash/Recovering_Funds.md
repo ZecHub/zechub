@@ -134,7 +134,7 @@ Least Authority [auditou](https://argos.sovright.com/assets/least-authority-argo
 1. Descarregue a aplicação desktop a partir do [site oficial de Argos](https://argos.sovright.com) ou da [página de lançamentos do GitHub](https://github.com/sovright/argos/releases). Verifique somas de verificação ou assinaturas quando forem publicadas.
 2. Utilize a versão atual de Argos. Em 18 de setembro de 2026, a **v1.3.0** é a versão atual e preferida. Utilize a **v1.2.0 ou posterior para recuperação de `wallet.dat` e Sprout**. Compilações anteriores à 1.1.0 ainda podem analisar, mas constroem varreduras pré-Ironwood que a rede rejeita; atualize e tente novamente.
 3. Trabalhe numa máquina em que confie. Prefira encriptação completa do disco. Não partilhe o ecrã enquanto uma seed, frase-passe ou chave de gasto estiver visível.
-4. Tenha pronto um destino Unified Address de uma wallet mantida que controla, como [ZODL](https://zodl.app/). Confirme o endereço nessa wallet antes de o colar em Argos.
+4. Tenha pronto um destino Unified Address de uma wallet mantida que controla, como [ZODL](https://zodl.com/). Confirme o endereço nessa wallet antes de o colar em Argos.
 
 ### Recuperação de seed
 
