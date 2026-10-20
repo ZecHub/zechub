@@ -10,15 +10,15 @@ Il programma Zcash Community Grants finanzia team indipendenti che entrano nell'
 
 ## Persone e team
 
-Zcash Community Grants è gestito da un comitato, attualmente composto da cinque persone. Questa comunità esamina e approva le domande di sovvenzione provenienti da team di terze parti che vogliono costruire sul protocollo Zcash. Maggiori informazioni nella sezione [Team](https://zcashcommunitygrants.org/committee/)
+Zcash Community Grants è gestito da un comitato, attualmente composto da cinque persone. Questa comunità esamina e approva le domande di finanziamento provenienti da team di terze parti che vogliono sviluppare sul protocollo Zcash. Maggiori informazioni sul [Team](https://zcashcommunitygrants.org/committee/)
 
 Tra i progetti recenti approvati dallo ZCG c'è Zcash Shielded Assets (ZSA), guidato dal team QEDIT. Questo progetto porta la DeFi su Zcash (ZEC) grazie a un nuovo protocollo di pagamento che aggiunge ulteriori funzionalità alla mainnet di Zcash.
 
 Il cortometraggio documentaristico di Zcash Media, con protagonisti zcasher di rilievo come Edward Snowden, Zooko e Deirdre Connolly, ha l'obiettivo di creare video pertinenti, divertenti ed educativi da condividere ampiamente.
 
-L'integrazione dei portafogli hardware Ledger per supportare pienamente le transazioni shielded Sapling, che consente di conservare Zcash in modo privato e sicuro. Questo lavoro è stato realizzato dal team di Zondax.
+L'integrazione dei portafogli hardware di Ledger per supportare pienamente le transazioni schermate Sapling consente di conservare Zcash in modo privato e sicuro. Questo lavoro è stato realizzato dal team di Zondax.
 
-Un sistema SDK di pagamento shielded con un solo clic e point-of-sale per i negozi fisici, sviluppato da ZGo.
+Un sistema SDK di pagamento schermato con un solo clic e point-of-sale per i negozi fisici, sviluppato da ZGo.
 
 Il programma Global Ambassador aiuta Zcash a ottenere una rappresentanza internazionale più ampia e a organizzare eventi comunitari di persona in tutto il mondo.
 
@@ -30,7 +30,7 @@ Zcash Community Grants è un'organizzazione indipendente da Electric Coin Compan
 
 ## Finanziamento
 
-Electric Coin Company riceve l'8% del [fondo di sviluppo Zcash](https://zips.z.cash/zip-1014). Utilizza questi fondi per sostenere i team di sviluppo di terze parti e anche per le operazioni interne.
+Zcash Community Grants riceve l'8% del sussidio di blocco, secondo il modello di finanziamento stabilito con NU6.1 da [ZIP 1016](https://zips.z.cash/zip-1016). Il flusso è iniziato quando è scaduto il precedente flusso di [ZIP 1015](https://zips.z.cash/zip-1015) e prosegue fino al terzo halving di Zcash al blocco 4.406.400 con l'attuale intervallo tra i blocchi. ZCG utilizza questi fondi per sostenere team indipendenti nell'ecosistema di Zcash.
 
 ## Risorse
 
@@ -39,7 +39,7 @@ Electric Coin Company riceve l'8% del [fondo di sviluppo Zcash](https://zips.z.c
 
 
 
-## Come presentare una domanda di sovvenzione tramite ZCG (GitHub + Forum della comunità)
+## Come presentare una domanda di finanziamento tramite ZCG (GitHub + forum della comunità)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -53,7 +53,7 @@ Electric Coin Company riceve l'8% del [fondo di sviluppo Zcash](https://zips.z.c
 </div>
 
 
-### Fase 1: Prepara la tua proposta
+### Fase 1: prepara la tua proposta
 Crea una proposta chiara che includa:
 - Titolo del progetto e dettagli del richiedente
 - Descrizione del problema e soluzione proposta
@@ -63,17 +63,17 @@ Crea una proposta chiara che includa:
 
 ---
 
-### Fase 2: Invia su GitHub
+### Fase 2: invia su GitHub
 1. Vai al **repository GitHub di Zcash Community Grants**
 2. Apri la scheda **Issues** e fai clic su **New Issue**
-3. Seleziona il **modello di domanda di sovvenzione** appropriato
+3. Seleziona il **modello di domanda di finanziamento** appropriato
 4. Compila tutti i campi obbligatori e invia
 
 La issue su GitHub costituisce il **registro ufficiale della domanda**.
 
 ---
 
-### Fase 3: Crea un post sul Forum della comunità
+### Fase 3: crea un post sul forum della comunità
 1. Vai allo **Zcash Community Forum**
 2. Crea una nuova discussione nella categoria **Zcash Community Grants**
 3. Usa lo stesso titolo della issue su GitHub
@@ -81,13 +81,13 @@ La issue su GitHub costituisce il **registro ufficiale della domanda**.
 
 ---
 
-### Fase 4: Partecipa alla revisione
+### Fase 4: partecipa alla revisione
 - Monitora la issue su GitHub e la discussione sul forum
 - Rispondi alle domande e ai feedback dello ZCG Committee e della comunità
 
 ---
 
-### Fase 5: Esito
+### Fase 5: esito
 - Le proposte approvate procedono al finanziamento e alla rendicontazione
 - Le proposte non approvate **POSSONO** essere riviste e ripresentate
 

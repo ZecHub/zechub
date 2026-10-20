@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZECD — Sikakorabea Serwa a Wɔabɔ ho Ban-Nea Edi Kan
+# zecd — Sikakorabea Serwa a Wɔabɔ ho Ban-Nea Edi Kan
 
-> 🇧🇷 [Versão em Portugalfo na wɔwom](/zechubglobal/zcashbrasil/zcashtech/zecd)
+> 🇧🇷 [Versão em Portugalfo na wɔwom](/pt/zcash-tech/zecd)
 
-ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash](https://github.com/zcash/librustzcash) na wɔdaa no adi denam Bitcoin Core JSON-RPC kasa no so. Ɛma developers ne payment integrators API a wonim, a ɛne Bitcoin hyia a wɔde bɛdi nkitaho ne Zcash — bere a ɛma Orchard (private pool a ɛsen biara) yɛ default. Wɔyɛɛ no ​​denam [zec.rocks](https://zec.rocks), wɔayɛ ZECD sɛ wɔmfa nsi ananmu `zcashd`’s wallet dwumadie wɔ nnɛyi, cloud-native deployments mu.
+zecd yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash](https://github.com/zcash/librustzcash) na wɔdaa no adi denam Bitcoin Core JSON-RPC kasa no so. Ɛma developers ne payment integrators API a wonim, a ɛne Bitcoin hyia a wɔde bɛdi nkitaho ne Zcash — bere a ɛma Orchard (private pool a ɛsen biara) yɛ default. Wɔyɛɛ no ​​denam [zec.rocks](https://zec.rocks), wɔayɛ zecd sɛ wɔmfa nsi ananmu `zcashd`’s wallet dwumadie wɔ nnɛyi, cloud-native deployments mu.
 
 **Mprempren nkyerɛaseɛ:** 0.5.0-rc3 (July 13, 2026) — a Ironwood (NU6.3) mmoa ka ho. Install via `cargo install zecd` anaasɛ fa Docker mfonini a ɛyɛ aban de no di dwuma.
 
@@ -14,7 +14,7 @@ ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash](h
 
 ## TL;DR
 
-- ZECD yɛ **wallet daemon (server)** — ɛnyɛ node a ɛyɛ ma. Ɛdi safoa, scanning, proving, ne RPC ho dwuma a ɛnka Zcash P2P protocol no.
+- zecd yɛ **wallet daemon (server)** — ɛnyɛ node a ɛyɛ ma. Ɛdi safoa, scanning, proving, ne RPC ho dwuma a ɛnka Zcash P2P protocol no.
 - Ɛka **Bitcoin Core JSON-RPC kasa**: ɔkwan koro no ara din, afuw nsusuwii, auth, ne mfomso koodu — Bitcoin RPC afɛfo pii ne Zcash yɛ adwuma fi adaka no mu.
 - **Orchard (shielded) address ahorow no ne default**; transparent (t-address) ne Sapling mmoa hwehwɛ sɛ wobɛpaw pefee wɔ sika kotoku biara mu.
 - Ɛka **self-hosted ho [Zebra](Zebra_Full_Node.md) full node** via local JSON-RPC — lightwalletd biara nhia.
@@ -25,11 +25,11 @@ ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash](h
 
 ---
 
-## Ɔhaw Bɛn na ZECD Di Ho Dwuma?
+## Ɔhaw Bɛn na zecd Di Ho Dwuma?
 
 `zcashd` was Zcash’s original node and wallet combined — forked from Bitcoin’s C++ codebase in 2016. Bere kɔɔ so no, eyi de akasakasa bae: ɛyɛ den sɛ wɔbɛhwɛ koodu no so, wɔde sika kotoku no abɔ node no denneennen, na wɔde address ahorow a ɛda adi pefee kyerɛ sɛ nea edi kan a wobetumi apaw wɔ nea wɔabɔ ho ban no nkyɛn.
 
-ZECD tetew sika kotoku mu asɛyɛde ne adwene a wɔpene so. Ɛyɛ **wallet layer a wɔatu ho ama** a ɛte application ne Zebra full node ntam, ɛma:
+zecd tetew sika kotoku mu asɛyɛde ne adwene a wɔpene so. Ɛyɛ **wallet layer a wɔatu ho ama** a ɛte application ne Zebra full node ntam, ɛma:
 
 - Rust dwumadie a ɛho tew, nnɛyi de a wɔasi wɔ librustzcash (nwomakorabea korɔ no ara a ɛma Zodl ne Zingo ahoɔden) so .
 - Privacy-by-default design (Orchard address ahorow gye sɛ wɔahyehyɛ no ɔkwan foforo so) .
@@ -40,19 +40,19 @@ ZECD tetew sika kotoku mu asɛyɛde ne adwene a wɔpene so. Ɛyɛ **wallet layer
 
 ## Dan nhyehyɛeɛ
 
-ZECD yɛ adwuma wɔ ɔkwan a ɛwɔ afã abiɛsa so:
+zecd yɛ adwuma wɔ ɔkwan a ɛwɔ afã abiɛsa so:
 
 ```
 Your app / Bitcoin RPC client
         ↓  JSON-RPC
-       ZECD
+       zecd
    (keys, scanning, proving, RPC)
         ↓  JSON-RPC (local only)
        Zebra
    (full node — consensus, mempool, chain data)
 ```
 
-ZECD ne Zebra di nkitaho **ɛnam mpɔtam hɔ JSON-RPC** so nkutoo — atipɛnfo ntam nkitahodi biara nni hɔ, indexers a ɛto so abiɛsa biara nni hɔ, lightwalletd biara nni hɔ. Zebra nkitahodi no yɛ nea wɔahyɛ da ayɛ wɔ mpɔtam hɔ nkutoo: ZECD bɛpow sɛ wɔde adansedi nkrataa bɛmena host a wotumi fa so wɔ wiase nyinaa gye sɛ wɔasiesie no pefee ama out-of-band secured tunnel (e.g. WireGuard anaa SSH).
+zecd ne Zebra di nkitaho **ɛnam mpɔtam hɔ JSON-RPC** so nkutoo — atipɛnfo ntam nkitahodi biara nni hɔ, indexers a ɛto so abiɛsa biara nni hɔ, lightwalletd biara nni hɔ. Zebra nkitahodi no yɛ nea wɔahyɛ da ayɛ wɔ mpɔtam hɔ nkutoo: zecd bɛpow sɛ wɔde adansedi nkrataa bɛmena host a wotumi fa so wɔ wiase nyinaa gye sɛ wɔasiesie no pefee ama out-of-band secured tunnel (e.g. WireGuard anaa SSH).
 
 ---
 
@@ -60,7 +60,7 @@ ZECD ne Zebra di nkitaho **ɛnam mpɔtam hɔ JSON-RPC** so nkutoo — atipɛnfo 
 
 ### Shielded-First, Orchard by Default
 
-ZECD de Orchard Unified Addresses di dwuma sɛ address type a wɔahyɛ da ayɛ. Sapling ne transparent (t-address) pools hwehwɛ nhyehyɛe a ɛda adi pefee wɔ sika kotoku biara mu. Saa nhyehyeɛ yi brɛ asiane a ɛwɔ akwanhyia mu a ɛda adi sɛ wɔde bɛmena no ase — kokoamsɛm afiri a ɛtaa ba wɔ Zcash nnwinnadeɛ dedaw mu.
+zecd de Orchard Unified Addresses di dwuma sɛ address type a wɔahyɛ da ayɛ. Sapling ne transparent (t-address) pools hwehwɛ nhyehyɛe a ɛda adi pefee wɔ sika kotoku biara mu. Saa nhyehyeɛ yi brɛ asiane a ɛwɔ akwanhyia mu a ɛda adi sɛ wɔde bɛmena no ase — kokoamsɛm afiri a ɛtaa ba wɔ Zcash nnwinnadeɛ dedaw mu.
 
 Privacy policy yɛ configurable wɔ frɛ biara anaa wiase nyinaa wɔ `[spend] privacy_policy`:
 
@@ -73,7 +73,7 @@ Privacy policy yɛ configurable wɔ frɛ biara anaa wiase nyinaa wɔ `[spend] pr
 
 ### Bitcoin Core RPC Nkitahodi
 
-ZECD de Bitcoin Core JSON-RPC kasa no di dwuma a ɛne no hyia wɔ:
+zecd de Bitcoin Core JSON-RPC kasa no di dwuma a ɛne no hyia wɔ:
 
 - Akwan din ahorow (e.g. `getblockchaininfo`, `getbalance`, `getnewaddress`, `listtransactions`, `sendtoaddress`, `sendmany`)
 - Field din ne ahorow a ɛwɔ mmuae ahorow mu
@@ -81,23 +81,23 @@ ZECD de Bitcoin Core JSON-RPC kasa no di dwuma a ɛne no hyia wɔ:
 - Basic auth, . `rpcauth` nsɛm a wɔakyerɛw, ne cookie fael no ho adansedi
 - Mfomso koodu ne HTTP tebea ho mfonini (HTTP 500 a mfomso nipadua, 401 nkyerɛase) .
 
-Wei kyerɛ sɛ Bitcoin sikatua nwomakorabea bebree a ɛwɔ hɔ dada, exchange integrations, ne monitoring tools betumi ne Zcash adi nkitaho denam ZECD so a code nsakraeɛ kakraa bi anaasɛ enni biara.
+Wei kyerɛ sɛ Bitcoin sikatua nwomakorabea bebree a ɛwɔ hɔ dada, exchange integrations, ne monitoring tools betumi ne Zcash adi nkitaho denam zecd so a code nsakraeɛ kakraa bi anaasɛ enni biara.
 
 Conformance suite (140+ checks) no tu mmirika wɔ PR biara so tia live regtest daemon na wɔsan nso dii ho adanseɛ tia public testnet.
 
 ### Nkyerɛwde a Wɔabɔ ho ban (ZIP-302) .
 
-ZECD da Zcash shielded memo feature no adi denam Bitcoin RPC soro a wonim no yiye no so — biribi a enni hɔ wɔ standard Bitcoin tooling mu:
+zecd da Zcash shielded memo feature no adi denam Bitcoin RPC soro a wonim no yiye no so — biribi a enni hɔ wɔ standard Bitcoin tooling mu:
 
 - `sendtoaddress` gye hex memo a wopɛ sɛ akyi parameter foforo (ɛkɔ baiti 512; wɔpow ma wɔn a wogye no pefee) .
 - Transaction abakɔsɛm entries fi `listtransactions` ne `gettransaction` fa ka ho `memo` (hex) ne `memoStr` (decoded text) fields bere a output bi kura bi
 - Wɔboa zero-amount sends to a shielded recipient ma memo-only use cases (the `z_sendmany` "memo-only-send" nhwɛsode) .
 
-Wei ma ZECD fata ma aplikeshɔn a ɛhia kokoam, nkɔnsɔnkɔnsɔn nkrasɛm a ɛka sikatua ho.
+Wei ma zecd fata ma aplikeshɔn a ɛhia kokoam, nkɔnsɔnkɔnsɔn nkrasɛm a ɛka sikatua ho.
 
 ### Ɔman nnim denam Design so
 
-ZECD kɔ so **off-chain tebea biara nni hɔ a aba nkutoo sanba ntumi nsan nkyekye**. Sika kotoku no ho nsɛm a wɔahyehyɛ ( .`data.sqlite`) yɛ nea wobetumi anya afi aba kasasin mu koraa — wogye sika a wɔabɔ ho ban a biribiara nhyɛ mu; wɔsan nya sika a ɛda adi pefee no kosi anohyeto a wɔahyehyɛ no.
+zecd kɔ so **off-chain tebea biara nni hɔ a aba nkutoo sanba ntumi nsan nkyekye**. Sika kotoku no ho nsɛm a wɔahyehyɛ ( .`data.sqlite`) yɛ nea wobetumi anya afi aba kasasin mu koraa — wogye sika a wɔabɔ ho ban a biribiara nhyɛ mu; wɔsan nya sika a ɛda adi pefee no kosi anohyeto a wɔahyehyɛ no.
 
 Sɛ wopɛ sɛ wosan de sika kotoku bi fi aba mu ba a:
 
@@ -105,17 +105,17 @@ Sɛ wopɛ sɛ wosan de sika kotoku bi fi aba mu ba a:
 zecd init --restore --birthday <block-height>
 ```
 
-Wei ma data directory no **disposable**: container a enni persistent volume, a wɔasan asi afi aba no mu wɔ mfiase biara no, nhwere biribiara a ɛho hia. Adwumayɛfoɔ na wɔhwɛ address a wɔde ma no akyi — ZECD kae address bere a wɔanya sika wɔ nkɔnsɔnkɔnsɔn mu pɛnkoro pɛ.
+Wei ma data directory no **disposable**: container a enni persistent volume, a wɔasan asi afi aba no mu wɔ mfiase biara no, nhwere biribiara a ɛho hia. Adwumayɛfoɔ na wɔhwɛ address a wɔde ma no akyi — zecd kae address bere a wɔanya sika wɔ nkɔnsɔnkɔnsɔn mu pɛnkoro pɛ.
 
-Wɔhyɛ da de nkyerɛwde ahorow nni hɔ. Esiane sɛ labels nni on-chain source na wontumi mfa aba nsan nsiesie nti, ZECD ntumi mmoa kɛkɛ. Frɛ label akwan san ba a `method-not-found` mfomsoɔ (`-32601`).
+Wɔhyɛ da de nkyerɛwde ahorow nni hɔ. Esiane sɛ labels nni on-chain source na wontumi mfa aba nsan nsiesie nti, zecd ntumi mmoa kɛkɛ. Frɛ label akwan san ba a `method-not-found` mfomsoɔ (`-32601`).
 
 ### No lightwalletd Dependency a ɛwɔ hɔ no
 
-ZECD derives compact blocks, tree state, and mempool visibility directly from Zebra's JSON-RPC. There is no lightwalletd to operate or maintain — reducing operational complexity for self-hosted deployments.
+zecd derives compact blocks, tree state, and mempool visibility directly from Zebra's JSON-RPC. There is no lightwalletd to operate or maintain — reducing operational complexity for self-hosted deployments.
 
 ### Cloud-Native ne Containerized Deployments a Wɔde Di Dwuma
 
-Wɔayɛ ZECD no stateless architecture no ama Docker ne Kubernetes mpɔtam hɔ:
+Wɔayɛ zecd no stateless architecture no ama Docker ne Kubernetes mpɔtam hɔ:
 
 - Full Docker Hyehyɛ stack (`zebra → zecd`) a ɛwɔ baabi a wɔkora nneɛma so
 - Akwahosan awiei wɔ hyɛn gyinabea `9233` a wɔde ahoboa nhwehwɛmu a wotumi hyehyɛ ( .`synced` or `connected`)
@@ -127,7 +127,7 @@ Wɔayɛ ZECD no stateless architecture no ama Docker ne Kubernetes mpɔtam hɔ:
 
 ## Nhwɛso ahorow a Wɔde Hwɛ Nnipa So
 
-ZECD boa key-custody models abiɛsa, a ɛfata ma deployment ne ahobammɔ ahwehwɛde ahorow:
+zecd boa key-custody models abiɛsa, a ɛfata ma deployment ne ahobammɔ ahwehwɛde ahorow:
 
 ### 1. Wɔamfa encrypted (Default — Auto-Unlock) .
 
@@ -180,13 +180,13 @@ Sika a wobetumi anya afi **mnemonic nkutoo** mu. Biribiara a aka no yɛ cache.
 | `blocks/` | `<wallet dir>/blocks/` | Compact block cache a ɛwɔ hɔ | Dabi — dabi hyɛn; betumi anyin kɛse |
 | `.cookie` | `<datadir>/.cookie` | Ephemeral RPC kukisi a ɛyɛ bere tiaa bi | Dabi — wɔasan ayɛ no foforo wɔ mfiase |
 
-> **Ɛsɛ sɛ data kyerɛwtohɔ no yɛ host-local.** ZECD no single-instance lock (`<datadir>/.lock`) yɛ OS afotuo lock — ɛnyɛ span hosts. Mma nkyɛ data directory akenkan-kyerɛw wɔ mfiri ahorow (NFS, Kubernetes) so da `ReadWriteMany`) — ZECD nhwɛso abien bɛsɛe sika kotoku DB no. Fa di dwuma `ReadWriteOnce` nhoma ahorow a ɛwɔ Kubernetes mu.
+> **Ɛsɛ sɛ data kyerɛwtohɔ no yɛ host-local.** zecd no single-instance lock (`<datadir>/.lock`) yɛ OS afotuo lock — ɛnyɛ span hosts. Mma nkyɛ data directory akenkan-kyerɛw wɔ mfiri ahorow (NFS, Kubernetes) so da `ReadWriteMany`) — zecd nhwɛso abien bɛsɛe sika kotoku DB no. Fa di dwuma `ReadWriteOnce` nhoma ahorow a ɛwɔ Kubernetes mu.
 
 ---
 
 ## RPC Ɔkwan a Wɔfa so Ahobammɔ
 
-Wɔ deployments a credential leak bɛyɛ ɔsɛeɛ no, ZECD boa sɛ wɔbɛto RPC ani no ano hye wɔ akwan ketewa bi a wɔapaw so:
+Wɔ deployments a credential leak bɛyɛ ɔsɛeɛ no, zecd boa sɛ wɔbɛto RPC ani no ano hye wɔ akwan ketewa bi a wɔapaw so:
 
 ```toml
 [rpc]
@@ -201,7 +201,7 @@ allowed_methods = ["getblockchaininfo", "getbalance", "getnewaddress", "listtran
 
 Ɛsɛ sɛ developers a wotu fi Bitcoin anaa zcashd tooling no hu saa mpaapaemu a wɔahyɛ da ayɛ yi:
 
-| Suban | Bitcoin Core | ZECD |
+| Suban | Bitcoin Core | zecd |
 |----------|-------------|------|
 | Address nhyehyɛe | `1...` / `bc1...` | `u1...` (Orchard Unified Address) — wontumi nkyekyε mu sε Bitcoin address denam string-parsing clients so |
 | Nkyerɛwde ahorow | Full label sotɔɔ | Wɔamfa anni dwuma — . `setlabel`, `listlabels`, ne nea ɛkeka ho san ba `-32601` |
@@ -209,7 +209,7 @@ allowed_methods = ["getblockchaininfo", "getbalance", "getnewaddress", "listtran
 | Nsɛm a wɔka kyerɛ | Wɔnnye mmoa | `sendtoaddress` gye hex memo tom; abakɔsɛm anya `memo` + `memoStr` afuw mu |
 | Confirmations a ɛsɛ sɛ wɔsɛe no | 1 | 3 (ankasa nsakrae) / 10 (ɔfã a ɛto so abiɛsa) — configurable via `trusted_confirmations` / `untrusted_confirmations` |
 | `listsinceblock` wɔ reorg | Nantew san kɔ fork | San ba `-5` (Block no nnya) sɛ cursor no reorged akɔ akyirikyiri — san-baseline ne parameterless frɛ |
-| Duplicate wɔn a wogye no wɔ `sendmany` | Mfomso | JSON parser hwe ase duplicates (nkonimdi a etwa to) ansa na ZECD ahu — nkyerɛw address koro no ara mprenu |
+| Duplicate wɔn a wogye no wɔ `sendmany` | Mfomso | JSON parser hwe ase duplicates (nkonimdi a etwa to) ansa na zecd ahu — nkyerɛw address koro no ara mprenu |
 | Kari pɛ wɔ bere a edi kan sync | Blocks anaasɛ ɔhyew-up | Serves fã bi kari pɛ — apon automation so `GET /readyz` (ɛsan de 503 kɔsi sɛ ɛbɛyɛ sync koraa na enhancement backlog no akɔ) |
 | `minconf 0` in `getbalance` | 0-conf kari pɛ | Served as 1 — a shielded note no nyɛ nea wontumi nsɛe no da a wɔantu |
 
@@ -274,16 +274,16 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Default Ports a Wɔde Di Dwuma
 
-| Nkitahodi | ZECD RPC | Zebra RPC (akyi) | Akwahosan |
+| Nkitahodi | zecd RPC | Zebra RPC (akyi) | Akwahosan |
 |---------|----------|---------------------|--------|
 | Mainnet | 8232 na ɛyɛ | 8234 na ɛyɛ | 9233 na ɛyɛ |
 | Testnet | 18232 | 18234 | 9233 na ɛyɛ |
 
 ---
 
-## ZECD ne zcashd ne Zaino ntam
+## zecd ne zcashd ne Zaino ntam
 
-| | zcashd | Zaino | ZECD |
+| | zcashd | Zaino | zecd |
 |--|--------|-------|------|
 | Dwuma a Di | Node + sika kotoku a ɛyɛ ma | Indexer (ɛsi lightwalletd ananmu) | Wallet server nkutoo |
 | Kasa | C++ | Rust | Rust |
@@ -301,16 +301,16 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Nkratafa a Ɛfa Ho
 
-- [Zebra Full Node a Ɛyɛ Fɛ](Zebra_Full_Node.md) — node a edi mũ a ZECD di nkitaho no
+- [Zebra Full Node a Ɛyɛ Fɛ](Zebra_Full_Node.md) — node a edi mũ a zecd di nkitaho no
 - [Zaino Indexer a ɔkyerɛwee](Zaino.md) — indexer kwan foforo (ɛsi lightwalletd ananmu) .
 - [Zakura Node na ɔkyerɛwee](Zakura_Node.md) — foforo a edi mũ node dwumadie (fork of Zebra) .
-- [Nneɛma a Wɔde Hwɛ](Viewing_Keys.md) — sɛnea ZECD de akontaabu hwɛ safe di dwuma de scan nkɔnsɔnkɔnsɔn no
+- [Nneɛma a Wɔde Hwɛ](Viewing_Keys.md) — sɛnea zecd de akontaabu hwɛ safe di dwuma de scan nkɔnsɔnkɔnsɔn no
 - [Sika kotoku](/using-zcash/wallets) — sika kotoku mu abɔde a nkwa wom ho nsɛm
 
 ## Akadeɛ
 
-- [ZECD GitHub (zecrocks/zecd) a ɛyɛ nea ɛwɔ hɔ nnɛ.](https://github.com/zecrocks/zecd)
-- [ZECD Dwumadie Mmirikatu Nhoma](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
+- [zecd GitHub (zecrocks/zecd) a ɛyɛ nea ɛwɔ hɔ nnɛ.](https://github.com/zecrocks/zecd)
+- [zecd Dwumadie Mmirikatu Nhoma](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
 - [zec.rocks](https://zec.rocks)
 - [librustzcash — core Zcash cryptography nhomakorabea](https://github.com/zcash/librustzcash)
 - [ZIP-317: Ɔkwan a Wɔfa so Tua Nneɛma a Wɔde Kɔma Afoforo a Ɛfata](https://zips.z.cash/zip-0317)

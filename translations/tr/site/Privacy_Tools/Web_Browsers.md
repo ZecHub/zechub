@@ -14,7 +14,7 @@
 
 ## Bir Web Tarayıcısı Seçerken Güvenlik Açısından Dikkat Edilmesi Gerekenler Nelerdir?
 
-Bir web tarayıcısı seçerken akılda tutulması gereken birkaç şey vardır: Güvenlik açıkları ve exploitler genellikle düzenli olarak keşfedilir. Bazı tarayıcılar bir şekilde izlenebilir, ancak kullanıcıların anonim olarak gezinmesine izin veren tarayıcılar da vardır - örneğin [Tor browser](https://www.torproject.org/download/). 
+Bir web tarayıcısı seçerken akılda tutulması gereken birkaç şey vardır: Güvenlik açıkları ve exploitler genellikle düzenli olarak keşfedilir. Bazı tarayıcılar bir şekilde izlenebilir, ancak kullanıcıların anonim olarak gezinmesine izin veren tarayıcılar da vardır - örneğin [Tor tarayıcısı](https://download.torproject.org/).
 
 **Parmak İzi Çıkarma**: Makinenizde yüklü yazılımlar, donanım yapılandırması ve daha fazlası gibi şeyleri gizli tutmak istiyorsanız, parmak izi çıkarmaya karşı koruma özelliğini destekleyen bir web tarayıcısına bakmayı değerlendirin. 
 

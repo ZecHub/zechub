@@ -58,7 +58,7 @@ Zcash (ZEC) bụ ego dijitalụ e mere maka nchekwa nzuzo ka mma, nke na-eme ka 
 
    Ịkwụ Ụgwọ __Zcash: Mullvad na-anabata Zcash dị ka nhọrọ ịkwụ ụgwọ, na-enye ndị ọrụ ohere ịkwụ ụgwọ maka ndenye aha ha na nzuzo emelitere. Mullvad VPN.
 
-3. [__Nym VPN (dVPN)__](https://nymtech.net/)
+3. [__Nym VPN (dVPN)__](https://nym.com/)
    
    Nym VPN bụ VPN nke na-agbasaghị ekewa (dVPN) nke na-elekwasị anya n'ịkwalite nzuzo na nchekwa onye ọrụ site na netwọk nke lekwasịrị anya na nzuzo. Nym VPN na-arụ ọrụ dị iche na VPN ọdịnala site na 
    site na iji mixnet, ebe a na-agafe okporo ụzọ ndị ọrụ site na netwọk nke nodes. Isi ihe dị na Nym VPN gụnyere:
@@ -77,7 +77,7 @@ Zcash (ZEC) bụ ego dijitalụ e mere maka nchekwa nzuzo ka mma, nke na-eme ka 
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)
- 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
+ 5. [__CyberGhost__](https://www.cyberghostvpn.com/)
  6. [__Nnweta Ịntanetị nkeonwe (PIA)__](https://www.privateinternetaccess.com/)
 
 Cheta na ohere ịkwụ ụgwọ ego dijitalụ nwere ike ịgbanwe, yabụ ọ dị mma ịlele weebụsaịtị nke onye na-enye VPN ma ọ bụ kpọtụrụ ndị ahịa ha maka ozi kachasị ọhụrụ gbasara ụzọ ịkwụ ụgwọ a nabatara, gụnyere Zcash.

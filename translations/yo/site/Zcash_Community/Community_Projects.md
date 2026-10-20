@@ -75,8 +75,7 @@ Apamọwọ Zcash ti o rọrun lati lo, ti o ni ifihan ni kikun pẹlu atilẹyi
 [Ṣèbẹ̀wò](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Àpò owó Nozy
-Àpò owó Zcash Orchard-first ni a kọ́ fún Zebrad àti lightwalletd. Ó ń ṣètìlẹ́yìn fún ìfiránṣẹ́/gbígbà tí a dáàbò bò pátápátá, ìṣàkóso kọ́kọ́rọ́ agbègbè tí ó ní ààbò, àti àkọsílẹ̀ Ironwood (NU6.3) àti ìṣípòpadà Orchard-to-Ironwood. A kò gba àwọn àdírẹ́sì tí ó hàn gbangba fún ìsanwó tí ó dojúkọ olùlò. 
-
+Àpò owó Zcash Orchard-first ni a kọ́ fún zebrad àti lightwalletd. Ó ń ṣètìlẹ́yìn fún ìfiránṣẹ́/gbígbà tí a dáàbò bò pátápátá, ìṣàkóso kọ́kọ́rọ́ agbègbè tí ó ní ààbò, àti àkọsílẹ̀ Ironwood (NU6.3) àti ìṣípòpadà Orchard-to-Ironwood. A kò gba àwọn àdírẹ́sì tí ó hàn gbangba fún ìsanwó tí ó dojúkọ olùlò. 
 [Ṣèbẹ̀wò](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
@@ -86,7 +85,6 @@ Apamọwọ Zcash ti o rọrun lati lo, ti o ni ifihan ni kikun pẹlu atilẹyi
 ### ZcashToCash
 ZcashToCash (zcashto.cash) — ZEC sí Cash App, Chime, Monzo, Revolut, Venmo, tàbí Zelle nípasẹ̀ Peer. A yípadà ZEC sí USDC (NEAR), lẹ́yìn náà àṣẹ Peer on Base tú USDC sílẹ̀ lẹ́yìn tí ẹni tí ó gbà á fi hàn pé ó san owó fiat. Taker rí orúkọ ìsanwó-app. Kìí ṣe CEX, kìí ṣe ZEC-in-escrow. 
 [Ṣèbẹ̀wò](https://zcashto.cash/)
-
 
 ### Apamọwọ Zafu
 Àpò ìpamọ́ tó ṣí sílẹ̀ fún Zcash àti Penumbra. Àfikún ẹ̀rọ aṣàwárí pẹ̀lú ẹ̀rí tó fi hàn ní ẹ̀gbẹ́ oníbàárà, ìṣètò ìmọ́lẹ̀ oníbàárà tó jẹ́rìí sí, àmì ìfọwọ́sowọ́pọ̀ tó tutu, FROST multisig, àti kò sí àmì ìwòye tó ń fi ẹ̀rọ náà sílẹ̀. 
@@ -105,8 +103,8 @@ Bot Discord n pese iwọle to ni aabo ati laisi wahala si awọn iṣowo Zcash.
 [Ṣèbẹ̀wò](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Àpò owó Zcash Flagship láti ọ̀dọ̀ ZODL (tí a mọ̀ sí Zashi tẹ́lẹ̀). Ó wà lórí iOS àti Android. Ó ń ṣe àtìlẹ́yìn fún ìdìbò ZEC àti NU7 tí a dáàbò bò. 
-[Ṣèbẹ̀wò](https://zodl.app/)
+Àpò owó Zcash Flagship láti ọ̀dọ̀ ZODL (tí a mọ̀ sí Zashi). Ó wà lórí iOS àti Android. Ó ń ṣe àtìlẹ́yìn fún ìdìbò ZEC àti NU7 tí a dáàbò bò. 
+[Ṣèbẹ̀wò](https://zodl.com/)
 
 ### Àpò Noir
 Àpò Zcash tí a fi ìpamọ́ ṣe tí a ṣe fún àwọn ìṣòwò ZEC tí ó rọrùn àti ti ara ẹni. 
@@ -117,7 +115,7 @@ Bot Discord n pese iwọle to ni aabo ati laisi wahala si awọn iṣowo Zcash.
 [Àpérò](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Arọ́pò YWallet tí ó ń ṣe àtìlẹ́yìn fún àwọn ẹ̀yà tuntun ti ìlànà Zcash pẹ̀lú Orchard. 
+Arọ́pò YWallet. Ó ń ṣètìlẹ́yìn fún Ironwood, adágún tí a dáàbò bò lọ́wọ́lọ́wọ́. 
 [Àpérò](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
@@ -144,13 +142,13 @@ Pẹpẹ ìfọwọ́sowọ́pọ̀ àti ìṣètò ìfọwọ́sowọ́pọ̀ t
 
 ## Àwọn Olùṣàwárí, Dátà, àti Àwọn Dátabù Nẹ́tíwọ́ọ̀kì
 
-### CipherScan
-Aṣiri-akọkọ-ẹrọ Zcash blockchain explorer. A ṣe é pẹ̀lú Next.js 15, TypeScript, àti Rust/WASM. Àwọn àwárí kò fi ìbéèrè hàn. 
-[Ṣèbẹ̀wò](https://cipherscan.app/)
+### ZecBlock
+Aṣiri-akọkọ-oluwadi blockchain Zcash (ti a ti mọ tẹlẹ CipherScan). A ṣe pẹlu Next.js 15, TypeScript, ati Rust/WASM. Awọn wiwa ko ṣe alaye metadata ibeere. Atunkọ wiwo pẹlu oju-iwe akọkọ ti a le ṣe adani, awọn ibeere ati idahun pq (beta), awọn shatti ti a le pin, ati diẹ sii. 
+[Ṣèbẹ̀wò](https://zecblock.com/)
 
 ### Exblo
 Olùṣàwárí Àkọsílẹ̀ tí a ṣe fún ìdánwò àwọn ìṣòwò lórí Zcash Testnet. 
-[Ṣèbẹ̀wò](https://testnet.exblo.app/)
+[Ṣèbẹ̀wò](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
 Dásọ́ọ̀dù ìṣàfihàn gbogbogbò fún Zcash Dev Fund, pẹ̀lú ìṣirò owó ìrànlọ́wọ́ ZCG àti FPF, Lockbox, ìjọ́ba, àti ìsanwó. 
@@ -186,7 +184,7 @@ Ohun èlò ìtọ́pinpin àti ìwọ̀n dátà fún iṣẹ́ iye owó ọjà Z
 
 ### Zlink
 Itọsọna fun wiwa awọn ọna asopọ, awọn irinṣẹ, ati alaye nipa eto-ẹkọ Zcash. 
-[Ṣèbẹ̀wò](https://zlink.click)
+[Ṣèbẹ̀wò](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
 Ọjà ìpamọ́ àkọ́kọ́ ti ètò Zcash. Àwọn ìsanwó yóò dúró tààràtà, pẹpẹ náà kò sì ní gba owó rẹ. 
@@ -241,12 +239,17 @@ Ohun èlò ìtọ́pinpin ìnáwó àti ìṣirò owó tí ó ń dáàbò bo ìp
 
 ## Olùgbéjáde, Ìdánwò, àti Àwọn Ẹ̀rọ Amúlétutù
 
+### Ztreamer
+Ìmúṣe Zcash indexer àti lightwallet-protocol (CompactTxStreamer) tí a ṣe àtúnṣe gidigidi pẹ̀lú Zakura node tí a fi sínú rẹ̀. Ó ń ṣiṣẹ́ node + indexer + wallet server nínú ilana kan (ztreamer); ó ń ṣe àtìlẹ́yìn fún gRPC àti Zakura v2 P2P. Ìtọ́ka ìtàn kíákíá àti ìdúró díẹ̀ fún àwọn wallet tí ó rọrùn. 
+[Ṣèbẹ̀wò](https://github.com/distractedm1nd/ztreamer)  
+[Àpótí](https://crates.io/crates/ztreamer-indexer)
+
 ### Ziggurat
 Àkójọ ìdánwò nẹ́tíwọ́ọ̀kì fún àwọn olùgbékalẹ̀ zcashd àti Zebra. Ó ní ẹ̀rọ ìṣàwárí Zcash kan nínú. 
 [Ṣèbẹ̀wò](https://github.com/runziggurat/zcash)
 
 ### ZecDev
-Ohun èlò ìṣiṣẹ́ àkọ́kọ́ Linux tí ó mú nẹ́tíwọ́ọ̀kì ìṣàyẹ̀wò Zebra pẹ̀lú faucet, àwọn ohun èlò ìṣiṣẹ́ Unified Address, àti lightwalletd tàbí Zaino, pẹ̀lú àwọn ìgbésẹ̀ GitHub tí a lè tún lò fún àwọn ìṣàn tí a ti dáàbò bo láti òpin sí òpin. 
+Ohun èlò ìṣiṣẹ́ Linux-first tí ó mú nẹ́tíwọ́ọ̀kì ìṣàyẹ̀wò Zebra pẹ̀lú faucet, àwọn ohun èlò ìṣiṣẹ́ Unified Address, àti lightwalletd tàbí Zaino, pẹ̀lú àwọn ìgbésẹ̀ GitHub tí a lè tún lò fún àwọn ìṣàn tí a ti dáàbò bo láti òpin sí òpin. 
 [Ṣèbẹ̀wò](https://github.com/zecdev)
 
 ### Àwọn Ẹ̀rọ Ìrànlọ́wọ́ Fúzzing tí a fi ń ṣe ìtọ́sọ́nà fún Ààbò Zebra

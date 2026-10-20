@@ -4,7 +4,7 @@
 
 # Zakura 节点
 
-> 🇧🇷 [葡萄牙语版本](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [葡萄牙语版本](/pt/zcash-tech/zakura-node)
 
 Zakura 是一个面向规模化构建的、适用于 Zcash 的免费开源全节点实现。从 [Zebra](Zebra_Full_Node.md) 分叉而来，并由 **Valar Group** 与 **Project Tachyon** 合作开发，Zakura 提供了显著更快的同步速度、原生区块修剪，以及面向旧版 `zcashd` 工具的兼容层。1.0.0 版本于 2026 年 7 月 15 日发布。
 

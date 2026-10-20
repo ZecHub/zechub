@@ -79,4 +79,4 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
 4. その操作 ID に対して `z_getoperationstatus` をポーリングする。
 5. `success` の後でのみ txid を記録する。
 
-古いチュートリアルページは [シールドされたニュースレターのスクリプト](/tutorials/shieldednewsletter/readme) に残っています。手順についてはこのページを使用してください。
+古いチュートリアルページは [シールドされたニュースレターのスクリプト](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md) に残っています。手順についてはこのページを使用してください。

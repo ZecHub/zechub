@@ -22,7 +22,7 @@
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Il problema
 
 Inviare cripto spesso rivela:
-- L'identità del tuo wallet
+- L'identità del tuo portafoglio
 - La tua cronologia delle transazioni
 - Con chi interagisci
 
@@ -43,7 +43,7 @@ Questo spezza:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
-- Un wallet che supporti le transazioni schermate
+- Un portafoglio che supporti le transazioni schermate
 - Una comprensione di base degli indirizzi z
 
 <br/>
@@ -96,7 +96,7 @@ Puoi:
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Correlati
-- [Privacy - Schermato vs Trasparente](/privacy/shielded-vs-transparent)
+- [Privacy - Schermato vs Trasparente](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 

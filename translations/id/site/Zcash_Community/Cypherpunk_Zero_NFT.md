@@ -7,7 +7,7 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero adalah sebuah seri penceritaan yang berpusat pada Zero, seorang hacker cypherpunk muda dan pejuang kebebasan. Zero saat ini hidup dalam mimpi buruk distopia dan ia menggunakan kode untuk melawan para penjaga gerbang terpusat yang membelenggu masyarakat. Cerita ini terinspirasi oleh kriptografi Zcash dan Halo. Karya kreatif ini merupakan upaya kolaboratif antara ECC, Stranger World, Might Jaxx, dan mitra ekosistem terpilih. Karya kreatif ini paling menonjol berfokus pada sebuah [seri NFT](https://opensea.io/collection/cypherpunk-zero), namun sebuah ](https://halo.electriccoin.co/#view-prologue)komik prolog[ dan ](https://mightyjaxx.com/products/cypherpunk-zero)mainan koleksi[ juga telah dirilis. Komunitas NFT, yang sebagian besar aktif di Twitter, bahkan telah membentuk sebuah ](https://twitter.com/CypherpunkDAO)organisasi terdesentralisasi (DAO)[ untuk mengelola dan menyelesaikan proyek-proyek yang mendukung kampanye tersebut, serta komunitas Zcash yang lebih luas.
+Cypherpunk Zero adalah sebuah seri penceritaan yang berpusat pada Zero, seorang hacker cypherpunk muda dan pejuang kebebasan. Zero saat ini hidup dalam mimpi buruk distopia dan ia menggunakan kode untuk melawan para penjaga gerbang terpusat yang membelenggu masyarakat. Cerita ini terinspirasi oleh kriptografi Zcash dan Halo. Karya kreatif ini merupakan upaya kolaboratif antara ECC, Stranger World, Might Jaxx, dan mitra ekosistem terpilih. Karya kreatif ini paling menonjol berfokus pada sebuah [seri NFT](https://opensea.io/collection/cypherpunk-zero) dan [mainan koleksi](https://mightyjaxx.com/products/cypherpunk-zero) juga telah dirilis. Komunitas NFT, yang sebagian besar aktif di Twitter, bahkan telah membentuk sebuah [organisasi terdesentralisasi (DAO)](https://twitter.com/CypherpunkDAO) untuk mengelola dan menyelesaikan proyek-proyek yang mendukung kampanye tersebut, serta komunitas Zcash yang lebih luas.
 
 ## Roadmap Anti-roadmap
 
@@ -55,11 +55,9 @@ Ya, koleksi aslinya telah diretas, masa depan belum tertulis.
 
 ## Sumber Daya
 
-Situs Web [Cypherpunk Zero](https://halo.electriccoin.co/)
-
 [Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
-[Koleksi Cypherpunk Zero Opensea](https://opensea.io/collection/cypherpunk-zero)
+[Cypherpunk Zero OpenSea Koleksi](https://opensea.io/collection/cypherpunk-zero)
 
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 

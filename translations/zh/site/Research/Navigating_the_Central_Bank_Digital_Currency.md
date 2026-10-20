@@ -101,7 +101,7 @@ __欧盟：欧元区 CBDC__
 
 对于那些踏入 CBDC 未知领域的人来说，资源将成为你的指南针。
 1. 国际清算银行（[BIS](https://www.bis.org/search?keywords=cbdc)）
-2. 国际货币基金组织（[IMF](https://www.imf.org/en/About)）
+2. 国际货币基金组织（[IMF](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about)）
 3. 研究论文（[论文](https://papers.ssrn.com/searchresults.cfm?term=CBDC)）
 4. 学术期刊（[期刊](https://www.bis.org/publ/work976.pdf)）
 5. C.E.I 文章（[文章](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/)）

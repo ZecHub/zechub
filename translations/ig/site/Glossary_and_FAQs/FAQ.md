@@ -63,7 +63,7 @@ A na-ede mkpebi n'ime nkọwapụta ma kwado ya mgbe netwọk ahụ nabatara ha.
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Ịgụ nke mbụ . [akwụkwọ anyị na-eduzi ndị nchọpụta mgbochi.](/guides/blockchain-explorers)Ya mere , lelee ya . [Zcash Block Explorer (Nchịkọta nke ihe nchọgharị)](https://zcashblockexplorer.com).
+Ịgụ nke mbụ . [akwụkwọ anyị na-eduzi ndị nchọpụta mgbochi.](/guides/blockchain-explorers)Ya mere , lelee ya . [Zcash Block Explorer (Nchịkọta nke ihe nchọgharị)](https://mainnet.zcashexplorer.app).
 
 Azụmahịa na-agwụ mgbe ihe dị ka nkeji 25 (20 blocks) ma a ga-eweghachi ego ahụ n'onwe ya.
 

@@ -16,14 +16,14 @@ ZingoLabs هو فريق من أصحاب الرؤى المكرّسين لتعزي
 تتوفر Zingo! للأجهزة المحمولة وأجهزة الكمبيوتر. ستجد جميع التنزيلات [هنا](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
-واجهة API وتطبيق اختبار يوفّران وظائف zcash لاستهلاكها من قِبل التطبيقات. يوفّر Zingolib مكتبة لـ zingo-mobile، بالإضافة إلى تطبيق cli مضمّن للتفاعل مع zcashd عبر lightwalletd يُسمّى Zingo-cli، وهو عميل lightwalletd-proxy يعمل عبر سطر الأوامر.
+واجهة API وتطبيق اختبار يوفّران وظائف zcash لاستهلاكها من قِبل التطبيقات. يوفّر Zingolib مكتبة لـ zingo-mobile، بالإضافة إلى تطبيق cli مضمّن للتفاعل مع zcashd عبر lightwalletd يُسمّى zingo-cli، وهو عميل lightwalletd-proxy يعمل عبر سطر الأوامر.
 
 ### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
 Zaino هو Indexer طوّره فريق Zingo بلغة Rust، ويهدف إلى استبدال lightwalletd ودفع مشروع إيقاف zcashd قدمًا.
 
-يوفّر Zaino ميزات أساسية لكلٍّ من العملاء الخفيفين، مثل المحافظ والتطبيقات التي لا تتطلب كامل سجل blockchain، وكذلك للعملاء الكاملين أو المحافظ. كما يدعم أيضًا مستكشفات الكتل، ويمنح إمكانية الوصول إلى كلٍّ من blockchain النهائية وأفضل سلسلة غير نهائية وmempool التي يديرها مدقق كامل من نوع Zebra أو Zcashd.
+يوفّر Zaino ميزات أساسية لكلٍّ من العملاء الخفيفين، مثل المحافظ والتطبيقات التي لا تتطلب كامل سجل blockchain، وكذلك للعملاء الكاملين أو المحافظ. كما يدعم أيضًا مستكشفات الكتل، ويمنح إمكانية الوصول إلى كلٍّ من blockchain النهائية وأفضل سلسلة غير نهائية وmempool التي يديرها مدقق كامل من نوع Zebra أو zcashd.
 
-###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/zcash-local-net))
+###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
 مجموعة من الأدوات التي تطلق عمليات Zcash وتديرها. ويُستخدم هذا في اختبار التكامل أثناء تطوير:
 - العملاء الخفيفين
 - المفهرِسات
@@ -31,6 +31,6 @@ Zaino هو Indexer طوّره فريق Zingo بلغة Rust، ويهدف إلى �
 
 وهدفه هو توفير بيئة اختبار شديدة التكيّف والمتانة للعُقد الأساسية (المدققين) مثل zcash وzebra، وللمفهرِسات مثل lightwallet وzaino، وكذلك، كحد أدنى، zingo-cli بوصفه محفظة عميل خفيف.
 
-صُمم هذا المستودع لمقارنة وظائف مختلف المدققين (مثل Zcashd وZebrad) والمفهرِسات (مثل Lightwalletd وZaino) لتسهيل عملية الانتقال أثناء مسار إيقاف Zcashd.
+صُمم هذا المستودع لمقارنة وظائف مختلف المدققين (مثل zcashd وZebrad) والمفهرِسات (مثل lightwalletd وZaino) لتسهيل عملية الانتقال أثناء مسار إيقاف zcashd.
 
-وبالإضافة إلى توفير أدوات لبدء بيانات سلسلة Zcash وتخزينها مؤقتًا وتحميلها (للشبكة الرئيسية mainnet، وشبكة الاختبار testnet، وregtest)، يتضمن zcash-zocal-net أيضًا سلسلة من الاختبارات لمقارنة قدرات Lightwalletd وZaino عبر جميع خدمات Lightwallet RPC. ويمكن تنفيذ هذه الاختبارات مباشرة من Zaino (انظر [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) لتقييم خدمات Lightwallet RPC المستضافة في Zaino.
+وبالإضافة إلى توفير أدوات لبدء بيانات سلسلة Zcash وتخزينها مؤقتًا وتحميلها (للشبكة الرئيسية mainnet، وشبكة الاختبار testnet، وregtest)، يتضمن zcash-zocal-net أيضًا سلسلة من الاختبارات لمقارنة قدرات lightwalletd وZaino عبر جميع خدمات Lightwallet RPC. ويمكن تنفيذ هذه الاختبارات مباشرة من Zaino (انظر [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) لتقييم خدمات Lightwallet RPC المستضافة في Zaino.

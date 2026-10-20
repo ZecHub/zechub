@@ -15,8 +15,8 @@ Zcash Shielded Assets (ZSA) adalah usulan ekstensi protokol yang memungkinkan as
 - **Apa itu:** Aset kustom bergaya ERC-20, tetapi terlindungi secara default.
 - **Siapa yang membangunnya:** [QEDIT](https://qed-it.com/), di bawah hibah dari Zcash Foundation, bekerja sama dengan Electric Coin Company.
 - **Bagaimana spesifikasinya:** [ZIP 226](https://zips.z.cash/zip-0226) (transfer dan burn) bersama dengan [ZIP 227](https://zips.z.cash/zip-0227) (penerbitan).
-- **Status:** belum aktif di mainnet. Protokol ZSA dijadwalkan untuk penerapan pada Peningkatan Jaringan 7 (NU7).
-- **Biaya:** selalu dibayar dalam ZEC, terlepas dari aset apa pun yang dipindahkan.
+- **Status:** Belum aktif di mainnet dan bukan bagian dari Peningkatan Jaringan 7 (NU7). [ZIP 259](https://zips.z.cash/zip-0259), yang mencantumkan semua yang diterapkan oleh NU7, tidak mencakup ZIP 226 atau ZIP 227, dan belum ada tanggal aktivasi ZSA yang ditetapkan.
+- **Biaya:** Selalu dibayar dalam ZEC, terlepas dari aset apa pun yang dipindahkan.
 
 ---
 
@@ -30,7 +30,7 @@ Aset Terlindungi akan memungkinkan pembuatan token kustom pada blockchain Zcash 
 
 Potensi use case utama dari ZSA adalah untuk menerbitkan stablecoin pada protokol Zcash. Stablecoin adalah cryptocurrency yang menyematkan nilainya ke mata uang fiat, seperti Dolar AS atau Euro. Saat ini, beberapa stablecoin yang paling banyak beredar adalah token ERC-20 seperti [USDC](https://www.circle.com/en/usdc) dan [Dai](https://docs.makerdao.com/).
 
-Potensi penggunaan lain dari ZSA adalah untuk penerbitan token tata kelola. Sebagai contoh, Zechub (penerbit wiki ini) adalah sebuah Decentralized Autonomous Organization (DAO) dan dapat membuat serta menerbitkan ZSA kepada para anggotanya untuk melakukan voting pada proposal dan keputusan tata kelola.
+Potensi penggunaan lain dari ZSA adalah untuk penerbitan token tata kelola. Sebagai contoh, ZecHub (penerbit wiki ini) adalah sebuah Decentralized Autonomous Organization (DAO) dan dapat membuat serta menerbitkan ZSA kepada para anggotanya untuk melakukan pemungutan suara pada proposal dan keputusan tata kelola.
 
 ZSA sedang dikembangkan oleh [QEDIT](https://qed-it.com/), di bawah hibah utama dari [Zcash Foundation](/zcash-organizations/zcash-foundation) melalui kolaborasi dengan [Electric Coin Company](/zcash-organizations/electric-coin-company). Karena proyek ini masih aktif dikembangkan, pembaruan diposting pada [thread ini](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) di forum Zcash. [Pengajuan hibah ZSA](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) oleh QEDIT tersedia di situs web hibah Zcash Foundation.
 
@@ -130,7 +130,7 @@ Proposal ini secara teknis mematuhi spesifikasi [Zcash Improvement Proposal (ZIP
 
 | Keyakinan umum | Apa yang sebenarnya terjadi |
 | --- | --- |
-| "ZSAs sudah aktif di Zcash saat ini." | Tidak demikian. ZSA dijadwalkan untuk penerapan pada Peningkatan Jaringan 7 (NU7) dan masih dalam tahap peninjauan serta pengujian. |
+| "ZSAs sudah aktif di Zcash saat ini." | Tidak demikian. ZSA bukan bagian dari Peningkatan Jaringan 7 (NU7), yang didefinisikan oleh [ZIP 259](https://zips.z.cash/zip-0259) tanpa ZIP 226 atau ZIP 227, dan masih dalam tahap peninjauan serta pengujian. |
 | "ZSA menghadirkan smart contract ke Zcash." | ZSA menentukan penerbitan, transfer, dan pembakaran aset. Ini bukanlah lapisan kontrak yang dapat diprogram untuk tujuan umum. |
 | "Anda dapat membayar biaya ZSA dengan token ZSA itu sendiri." | Biaya dibayarkan dalam ZEC. |
 | "Jika bersifat terlindungi, pasokan token juga harus rahasia." | ZIP 227 sengaja membuat penerbitan menjadi transparan, sehingga pasokan setiap aset dapat dilacak secara publik. Saldo dan transfer tetap privat; namun pasokannya tidak. |
@@ -141,7 +141,7 @@ Proposal ini secara teknis mematuhi spesifikasi [Zcash Improvement Proposal (ZIP
 ## Halaman Terkait
 
 - [Halo](/zcash-tech/halo) — sistem pembuktian di balik Orchard, protokol yang diperluas oleh ZSA
-- [Zk-SNARKs](/zcash-tech/zk-snarks) — zero-knowledge proofs yang memungkinkan transfer terlindungi diverifikasi tanpa harus diungkapkan
+- [zk-SNARKs](/zcash-tech/zk-snarks) — zero-knowledge proofs yang memungkinkan transfer terlindungi diverifikasi tanpa harus diungkapkan
 - [Pool Terlindungi](/using-zcash/shielded-pools) — tempat ZSA akan berada bersama dengan ZEC
 - [Transaksi](/using-zcash/transactions) — bagaimana sebuah transaksi Zcash disusun
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — implementasi node yang digunakan dalam demo ZSA di atas

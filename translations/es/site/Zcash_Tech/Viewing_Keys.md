@@ -74,7 +74,7 @@ Pasar una dirección Sapling devuelve la Sapling extended full viewing key de es
 
 ### Wallets que exportan viewing keys desde su propia interfaz
 
-La página [Wallets](/using-zcash/wallets) registra la compatibilidad con viewing keys y la preparación para Ironwood de cada wallet. Al momento de escribir esto, las wallets que indican compatibilidad con viewing keys y **Ironwood: Ready** incluyen ZODL, Zingo!, Zkool, Cake, Zallet, Zecd y Nozy. Consulta esa página en lugar de esta antes de depender de cualquier wallet específica, porque la preparación cambia.
+La página [Wallets](/using-zcash/wallets) registra la compatibilidad con viewing keys y la preparación para Ironwood de cada wallet. Al momento de escribir esto, las wallets que indican compatibilidad con viewing keys y **Ironwood: Ready** incluyen ZODL, Zingo!, Zkool, Cake, Zallet, zecd y Nozy. Consulta esa página en lugar de esta antes de depender de cualquier wallet específica, porque la preparación cambia.
 
 ## Importar una viewing key como cuenta de solo visualización
 

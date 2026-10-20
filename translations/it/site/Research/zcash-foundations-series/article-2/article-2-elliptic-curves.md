@@ -1,4 +1,4 @@
-# Curve Ellittiche: Dove Nascono le Chiavi e gli Impegni di Zcash
+# Curve ellittiche: dove nascono le chiavi e gli impegni di Zcash
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
 ![alt text](/content-images/image-10-c1097b22d7.webp)
@@ -130,7 +130,7 @@ Ora abbiamo tutto il necessario per spiegare una vera chiave crittografica, ed �
 > **Scegli un numero segreto `k`. Pubblica il punto `kG`. Tutto qui.**
 > `k` è la tua **chiave privata**. `kG` è la tua **chiave pubblica**. La strada a senso unico (ECDLP) garantisce che nessuno possa ricondurre `kG` a `k`.
 
-Questa singola idea, *una chiave pubblica è uno scalare segreto moltiplicato per un generatore fisso*, è il seme delle chiavi di spesa, delle viewing key e degli indirizzi di Zcash. L'intero albero delle chiavi sovrappone più struttura a questo, ma ogni ramo cresce da questa radice.
+Questa singola idea, *una chiave pubblica è uno scalare segreto moltiplicato per un generatore fisso*, è il seme delle chiavi di spesa, delle chiavi di visualizzazione e degli indirizzi di Zcash. L'intero albero delle chiavi sovrappone più struttura a questo, ma ogni ramo cresce da questa radice.
 
 ### Bonus: perché i punti della curva costituiscono impegni perfetti
 

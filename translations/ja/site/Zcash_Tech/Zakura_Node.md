@@ -4,7 +4,7 @@
 
 # Zakura ノード
 
-> 🇧🇷 [ポルトガル語版](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [ポルトガル語版](/pt/zcash-tech/zakura-node)
 
 Zakuraは、スケーラビリティを考慮して構築された、Zcash向けの無料のオープンソース・フルノード実装です。[Zebra](Zebra_Full_Node.md)からフォークされ、**Valar Group**と**Project Tachyon**の共同開発によって作られたZakuraは、劇的に高速な同期、ネイティブのブロック・プルーニング、旧来の`zcashd`ツールとの互換レイヤーを提供します。バージョン1.0.0は2026年7月15日にリリースされました。
 

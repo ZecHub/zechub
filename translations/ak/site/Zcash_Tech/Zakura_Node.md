@@ -4,7 +4,7 @@
 
 # Zakura Node na ɔkyerɛwee
 
-> 🇧🇷 [Versão em Portugalfo na wɔwom](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [Versão em Portugalfo na wɔwom](/pt/zcash-tech/zakura-node)
 
 Zakura yɛ free, open-source full node implementation ma Zcash, wɔasi ama scale. Forked fi [Zebra](Zebra_Full_Node.md) na ɛnam **Valar Kuw** ne **Project Tachyon** ntam adwumayɛ so na ɛyɛɛ no, Zakura de synchronization a ɛyɛ ntɛm kɛse, native block pruning, ne compatibility layer ma agyapade ma `zcashd` nnwinnade a wɔde yɛ adwuma. Wɔyii Version 1.0.0 adi wɔ July 15, 2026.
 

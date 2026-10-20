@@ -6,6 +6,8 @@
 
 > Zcash 于 2016 年 10 月 28 日上线，并启用了 Sprout 屏蔽池。
 
+> **警告：**NU7 一旦激活，将使仍在 Sprout 池中的 ZEC 无法花费（主网目标激活日期为 2026 年 11 月 5 日，最终决定日期为 2026 年 10 月 20 日；参见 [ZIP 259](https://zips.z.cash/zip-0259)）。如果你持有 Sprout 资金，请阅读 [恢复资金](../using-zcash/recovering-funds)，并优先迁移这些资金。
+
 你将了解到的要点：Sprout 是 Zcash 的起点，这是私密且可验证的货币第一次在真实运行的 blockchain 上落地。
 
 Sprout 是 Zcash 网络最初的发布版本，而不是后来的[网络升级](../start-here/network-upgrades)。它于 2016 年 10 月 28 日在创世区块时正式上线。Sprout 没有由某个编号的 ZIP 来定义：ZIP 流程是在之后的 Overwinter 才开始的，因此 Sprout 是由最初的 Zcash 协议规范以及其所基于的 Zerocash 构造来描述的。[Electric Coin Company](../zcash-organizations/electric-coin-company)（当时名为 Zerocoin Electric Coin Company）在 Zooko Wilcox 的带领下构建并发布了它。Sprout 引入了首个实用的 zk-SNARK 屏蔽交易以及最初的屏蔽池，因此人们可以在发送 ZEC 时隐藏发送方、接收方和金额，同时网络仍然能够检查余额是否相符。这个名字传达出一条年轻、正在萌芽的链，团队也预期它会继续成长。

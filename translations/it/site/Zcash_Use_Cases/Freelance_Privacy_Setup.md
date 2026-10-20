@@ -49,7 +49,7 @@ Zcash ti permette di:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
-- Un wallet Zcash con supporto ai memo
+- Un portafoglio Zcash con supporto ai memo
 - Una conoscenza di base degli indirizzi schermati
 
 
@@ -84,7 +84,7 @@ Questo ti aiuta a:
 ### Passo 4: mantieni la separazione delle identità
 
 Se necessario:
-- Usa wallet o indirizzi separati per ogni cliente
+- Usa portafogli o indirizzi separati per ogni cliente
 - Evita di collegare tra loro le identità
 
 <br/>
@@ -93,7 +93,7 @@ Se necessario:
 
 - Usare indirizzi trasparenti per i pagamenti  
 - Riutilizzare lo stesso indirizzo per tutti i clienti  
-- Collegare pubblicamente il wallet all'identità  
+- Collegare pubblicamente il portafoglio all'identità  
 - Non tracciare i pagamenti (creando confusione)
 
 
@@ -110,7 +110,7 @@ Puoi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Correlati
 
-- [Wallet](/wallets)
+- [Portafogli](/wallets)
 
 <br/>
 

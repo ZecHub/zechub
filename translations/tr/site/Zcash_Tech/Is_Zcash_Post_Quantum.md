@@ -71,7 +71,7 @@ Ironwood’un değiştirmediği şeyler: bugün harcama ve kanıtlama için kull
 
 **Bir açıkta kalma penceresi vardır.** Ironwood’in etkinleşmesinden eski protokoller devre dışı bırakılana kadar, bir kuantum saldırganı her korumalı havuzdaki fonları hâlâ çalabilir, enflasyona yol açabilir veya engelleyebilir. ZIP 2005 buna “kritik açıkta kalma dönemi” der ve bu dönemdeki bir saldırının, sahibin daha sonra kurtarma yeteneğine yine de zarar verebileceği uyarısında bulunur. Bu yüzden Zcash’in kuantum saldırıları uygulanabilir hâle gelmeden **önce** Orchard, Sapling ve Sprout’ü devre dışı bırakması gerektiğini söyler.
 
-**Devre dışı bırakmanın tarihi yoktur.** Hiçbir ZIP, Orchard veya Sapling’ün kapatılmasını planlamamaktadır. Draft ve ZIP adayı olan NU7 2003, sürüm 4 işlemlerine izin vermeyerek Sprout harcamalarını devre dışı bırakırdı. Sapling için yalnızca çekime izin veren bir tartışma Nisan 2026’da forumda başladı.
+**Sprout dışında devre dışı bırakmanın tarihi yoktur.** Hiçbir ZIP, Orchard veya Sapling’ün kapatılmasını planlamamaktadır. Sprout farklıdır: [ZIP 259](https://zips.z.cash/zip-0259), NU7’ın devreye aldığı değişiklikler arasında ZIP 2003’ü listeler; bu nedenle NU7 etkinleştiğinde sürüm 4 işlemleri geçersiz hâle gelir ve Sprout havuzunda kalan tüm ZEC harcanamaz olur. Ana ağın etkinleştirilmesi 5 Kasım 2026 için hedeflenmektedir; nihai kararın ise 20 Ekim 2026’da verilmesi beklenmektedir ([forum duyurusu](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Sapling için yalnızca çekime izin veren bir tartışma Nisan 2026’da forumda başladı.
 
 **Kurtarma Protokolü tamamlanmadı.** ZIP 2005 yalnızca ana hatlarını verir ve ayrıntıların “değişikliğe tabi olduğunu” söyler. Bununla ilgili hiçbir şey dağıtılmadı.
 
@@ -97,7 +97,7 @@ Bunların hiçbiri aktif değil.
 
 ## Durum tablosu
 
-Son kontrol: 13 Eylül 2026. Bir ZIP’in başlık durumu ile ağ durumu farklı şeylerdir: ZIP 2005, kuralları Temmuz 2026’dan beri Mainnet’te uygulansa da başlığında hâlâ “Önerildi” der.
+Son kontrol: 13 Eylül 2026; 9 Ekim 2026’da güncellenen Sprout satırı hariç. Bir ZIP’in başlık durumu ile ağ durumu farklı şeylerdir: ZIP 2005, kuralları Temmuz 2026’dan beri Mainnet’te uygulansa da başlığında hâlâ “Önerildi” der.
 
 | Öğe | ZIP durumu | Ağ durumu | Tarih | Kaynak |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Son kontrol: 13 Eylül 2026. Bir ZIP’in başlık durumu ile ağ durumu farklı
 | Cüzdanların fonları Ironwood içine taşıması | ZIP 2005, ZIP 318 ve ZIP 326’daki (Draft) yönergeler | Öneriliyor, cüzdanınıza bağlı | 28 Tem 2026’dan beri | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Kurtarma Protokolü | Yalnızca ZIP 2005 içinde ana hatları verilmiş | **Uygulanmadı** | Tarih yok | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Orchard ve Sapling’in devre dışı bırakılması | ZIP yok | **Planlanmadı** | Sapling tartışması Nis 2026’dan | [Forum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Sprout harcamalarının devre dışı bırakılması (ZIP 2003) | Draft, NU7 adayı | **Etkinleştirilmedi** | Tarih yok | [ZIP 2003](https://zips.z.cash/zip-2003) |
+| Sprout harcamalarının devre dışı bırakılması (ZIP 2003) | Draft, ZIP 259’a göre NU7 tarafından devreye alındı (Draft) | **Etkinleştirilmedi** | Mainnet için hedef 5 Kas 2026, nihai karar 20 Eki 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
 | Şeffaf kurtarılabilirlik (ZIP 2007) | Ayrılmış | **Öneri** | ZIP 5 Tem 2025’te ayrıldı, tartışma 17 Haz 2026’da açıldı | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | Bilinen adresler için kuantum sonrası gizlilik | Açık sorunlar, ZIP yok | **Araştırma** | #1133 18 Ağu 2022’de, #1307 23 Haz 2026’da açıldı | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Proje Tachyon | ZIP yok | **Öneri**, geliştirme aşamasında | İlk kez Nis 2025’te yayımlandı | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
@@ -162,5 +162,5 @@ Zcash Foundation’in NU7 duygu yoklamasında (Şubat 2026), kuantumla kurtarıl
 - [zips#1134: Tamamen kuantum sonrası Zcash](https://github.com/zcash/zips/issues/1134)
 - [Proje Tachyon yol haritası](https://tachyon.z.cash/roadmap/)
 - [NU7 Yoklama Sonuçları: Duyduklarımız ve Buradan Nereye Gideceğimiz](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Blockchair üzerindeki 3.428.143. blok](https://blockchair.com/zcash/block/3428143)
+- [ZecBlock üzerindeki 3.428.143. blok](https://zecblock.com/block/3428143)
 - [Forum isteği: Zcash kuantum sonrası mı?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

@@ -19,7 +19,7 @@ Wo dometɔ aɖewoe nye esiwo doa vevie nu:
 | Naomi Brockwell (NBTV) ƒe nyatakakadzraɖoƒea     | Gbebiame siwo ŋu ŋkɔ deŋgɔ le kple nyatakaka siwo ku ɖe ame ŋutɔ ƒe nyawo ŋu           | [Tsa le -> dzi](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles ƒe nyawo                  | Nuwɔwɔ kple nutoa me tɔwo ƒe Zcash me nyawo              | [Tsa le -> dzi](https://free2z.cash/sqribbles) |
 | Str4d ƒe ƒuƒoƒo                      | Mɔ̃ɖaŋu nuŋɔŋlɔwo tso Zcash core developer gbɔ             | [Tsa le -> dzi](https://words.str4d.xyz/) |
-| CipherScan Kwasiɖa sia Kwasiɖa          | Kwasiɖa sia kwasiɖa ƒe blog me nya siwo ƒo nu tso Zcash blockchain numekukuwo ŋu    | [Tsa le -> dzi](https://cipherscan.app/) |
+| CipherScan Kwasiɖa sia Kwasiɖa          | Kwasiɖa sia kwasiɖa ƒe blog me nya siwo ƒo nu tso Zcash blockchain numekukuwo ŋu    | [Tsa le -> dzi](https://zecblock.com/) |
 | Zcash Shielded Nyadzɔdzɔwo        | Kwasiɖa sia kwasiɖa ƒe adzamenyawo kple lãwo ƒe agbenɔnɔ ŋuti nyadzɔdzɔwo ɖuɖu                 | [Tsa le -> dzi](https://zechub.substack.com/) |
 | ZecHub DAO ƒe Blog            | Nyatiwo kple nufiamenyawo tso ZecHub DAO habɔbɔa gbɔ | [Tsa le -> dzi](https://zechub.wiki) |
 

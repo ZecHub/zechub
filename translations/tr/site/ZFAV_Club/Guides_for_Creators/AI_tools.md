@@ -48,7 +48,7 @@ X, Google, Discord, Telegram ile giriş yapın
 - Discord’da [Midjourney Bot](https://discord.com/invite/midjourney) - aylık 10 ABD dolarından başlıyor - [Başlangıç Rehberi](https://docs.midjourney.com/docs/quick-start)
 buradaki [görselleri](https://www.midjourney.com/app/rank-pairs/) çok sayıda puanlayarak yaklaşık 100 ücretsiz üretim elde edebilirsiniz
 (en çok puanlayan ilk 2000 kişi arasına girmek gerekir - yaklaşık 15 dakika görsel puanlama)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- 15 ABD doları / 115 üretim - (ayda 15 ücretsiz üretim)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- 15 ABD doları / 115 üretim - (ayda 15 ücretsiz üretim)
 - [DALL-E 3](https://openai.com/dall-e-3/) - ChatGPT-4’e dahildir - aylık 20 ABD doları
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 ücretsiz üretim, ücretli sürüm aylık 6 ABD dolarından başlıyor)
 
@@ -82,7 +82,7 @@ buradaki [görselleri](https://www.midjourney.com/app/rank-pairs/) çok sayıda 
 
 ### Ses üretimi
 
-- [play.ht](https://play.ht/) - ücretsiz - (abonelik aylık 39 ABD dolarından başlıyor)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - ücretsiz - (abonelik aylık 39 ABD dolarından başlıyor)
 - [ElevenLabs](https://elevenlabs.io/) - ücretsiz - (abonelik aylık 5 ABD dolarından başlıyor)
 - [Murf](https://murf.ai/) - ücretsiz - (abonelik aylık 29 ABD dolarından başlıyor)
 - [Resemble](https://www.resemble.ai/) - ücretsiz deneyin (sonrasında saniye başına 0.006 ABD doları)

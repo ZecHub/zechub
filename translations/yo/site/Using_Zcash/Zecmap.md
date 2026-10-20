@@ -137,7 +137,7 @@ Lára àwọn àtúnṣe tí wọ́n ń gbèrò rèé:
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Lo ZEC (ìyẹn owó ilẹ̀ Sípéènì)](/using-zcash/spend-zcash)  Àwọn ọ̀nà míràn láti lo ZEC nínú ayé gidi
+- [Lo ZEC (ìyẹn owó ilẹ̀ Sípéènì)](/using-zcash/spend-zcash/top-10-places-to-spend-zec)  Àwọn ọ̀nà míràn láti lo ZEC nínú ayé gidi
 - [Àwọn Ẹ̀rọ Ìsanwó](/using-zcash/payment-processors)  Àwọn irinṣẹ́ fún àwọn oníṣòwò láti gba ZEC
 - [Lílò ZEC ní Ìkọ̀kan-Kànà](/guides/using-zec-privately)  Àwọn ìlànà tó dára jùlọ fún àwọn ìsanwó tí a fi ààbò bo
 - [Àwọn àpamọ́ owó](/using-zcash/wallets)  Àwọn àpamọ́ owó tó bá àwọn ìsanwó oníṣòwò ZEC mu.

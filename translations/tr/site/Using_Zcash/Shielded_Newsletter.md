@@ -79,4 +79,4 @@ Düzeltilmiş bir çalıştırıcı şunları yapmalıdır:
 4. Bu işlem kimliği için `z_getoperationstatus`'yi sorgulamalıdır.
 5. txid'yi yalnızca `success` sonrasında kaydetmelidir.
 
-Eski eğitim sayfası [Shielded Newsletter betikleri](/tutorials/shieldednewsletter/readme) adresinde kalır. Prosedür için bu sayfayı kullanın.
+Eski eğitim sayfası [Shielded Newsletter betikleri](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md) adresinde kalır. Prosedür için bu sayfayı kullanın.

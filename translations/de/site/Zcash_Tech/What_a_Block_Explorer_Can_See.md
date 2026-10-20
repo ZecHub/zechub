@@ -26,7 +26,7 @@ Weil es zwei Typen gibt, kann sich Wert auf vier Arten bewegen: transparent zu t
 
 ## Was ein Explorer sehen kann
 
-Ein öffentlicher Explorer wie [Blockchair](https://blockchair.com/zcash) kann Folgendes klar erkennen:
+Ein öffentlicher Explorer wie [ZecBlock](https://zecblock.com/) kann Folgendes klar erkennen:
 
 - Jede vollständig transparente (t zu t) Zahlung, von Anfang bis Ende.
 - Geld, das in den Shielded Pool eingeht (die transparente Seite und den Betrag).
@@ -65,7 +65,7 @@ Wenn man die Rohdaten abfragt, bleiben die Felder für shielded Sender und Empf�
 - [Zcash: Empfehlungen zu Privatsphäre und Sicherheit](https://z.cash/support/security/privacy-security-recommendations/)
 - [Ein shielded Ökosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Wie die Zcash-Technologie funktioniert](https://z.cash/technology/)
-- [Blockchair Zcash-Explorer](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## Verwandte Seiten
 

@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zero Ujuzi dhidi ya Decoy mifumo ya msingi
+# Mifumo Inayotegemea Maarifa Zero dhidi ya Udanganyifu
 
-"Cryptocurrency inaonyesha shughuli zako zote za matumizi kwa umma kwani ni kama Twitter kwenye akaunti yako ya Benki na hii ni suala kubwa ambalo lazima litatuliwe kwa kupitisha faragha kwenye mnyororo". - Ian Miers katika [Devcon4](https://youtube.com/watch?v=9s3EbSKDA3o&feature=share9).
+"Dijitali hufichua shughuli zako zote za matumizi kwa umma kwani ni kama Twitter kwenye akaunti yako ya Benki na hili ni suala kubwa ambalo lazima litatuliwe kwa kupitisha faragha ya mnyororo." - Ian Miers katika [Devcon4](https://youtube.com/watch?v=9s3EbSKDA3o&feature=share9).
 
-Certain crypto projects have gained recognition for their privacy-centric approaches. Zcash is renowned for employing Zero Knowledge Proofs (ZK) to protect transaction amounts and addresses. Monero stands out for its utilization of a Decoy-based sender obfuscation in combination with other encryption schemes to attain user privacy on the blockchain.
+Miradi fulani ya crypto imetambuliwa kwa mbinu zake zinazozingatia faragha. Zcash inajulikana kwa kutumia Uthibitisho wa Maarifa Zero (ZK) kulinda kiasi cha miamala na anwani. Monero inajitokeza kwa matumizi yake ya ufichuzi wa mtumaji unaotegemea Decoy pamoja na mipango mingine ya usimbaji fiche ili kufikia faragha ya mtumiaji kwenye blockchain.
 
 
 <a href="">
@@ -14,28 +14,28 @@ Certain crypto projects have gained recognition for their privacy-centric approa
 </a>
 
 
-## Kuelewa ZK uthibitisho na Decoy Mifumo ya Msingi
+## Kuelewa Ushahidi wa ZK na Mifumo Inayotegemea Udanganyifu
 
-Zero Knowledge Proofs are cryptographic systems that allow one party (the prover) to demonstrate to another party (the verifier) the validity of a statement without revealing *any underlying information about the statement itself*. In the context of Zcash, ZK proofs are employed to verify the validity of a transaction without disclosing transaction details such as the SENDER, RECEIVER or transaction AMOUNT. 
+Uthibitisho wa Maarifa Yenye Sifuri ni mifumo ya kriptografia inayoruhusu mhusika mmoja (mthibitishaji) kuonyesha kwa mhusika mwingine (mthibitishaji) uhalali wa taarifa bila kufichua *taarifa yoyote ya msingi kuhusu taarifa yenyewe*. Katika muktadha wa Zcash, uthibitisho wa ZK hutumika kuthibitisha uhalali wa muamala bila kufichua maelezo ya muamala kama vile MTUMIAJI, MPOKEAJI au KIASI cha muamala. 
 
-**Hii inahakikisha kwamba faragha ya mtumiaji inatunzwa kwani shughuli inabaki kuwa ya siri wakati bado inathibitishwa. Teknolojia hii imeundwa kuhakikisha usiri wa shughuli za kifedha kwenye mtandao wa Zcash.**
+**Hii inahakikisha kwamba faragha ya mtumiaji inahifadhiwa kwani muamala unabaki kuwa siri huku bado ukithibitishwa. Teknolojia hii imeundwa ili kuhakikisha usiri wa miamala ya kifedha kwenye mtandao wa Zcash.**
 
-Katika mifumo Decoy-msingi kama vile [RingCT](https://twitter.com/ZecHub/status/1636473585781948416), shughuli nyingi ni pamoja na kufanya hivyo changamoto au vigumu kufuatilia chanzo halisi na marudio ya fedha. algorithm kuanzisha decoy pembejeo na matokeo katika shughuli pia kutumia encryption ya anwani kutumika kama pembeji & kutumia Range uthibitisho kuthibitisha kiasi kuhamishwa ni spendable. 
+Katika mifumo inayotegemea Decoy kama vile [RingCT](https://twitter.com/ZecHub/status/1636473585781948416), miamala mingi huunganishwa na hivyo kuifanya iwe vigumu au vigumu kufuatilia chanzo halisi na mwisho wa fedha. Algorithm hii huanzisha ingizo na matokeo ya udanganyifu katika miamala pia ikitumia usimbaji fiche wa anwani zinazotumika kama ingizo na kutumia uthibitisho wa masafa ili kuthibitisha kiasi kilichohamishwa kinachoweza kutumika. 
 
-Njia hii obfuscates shughuli ya kufuatilia. Matumizi ya pembejeo decoy inafanya kuwa changamoto kwa mtu yeyote kuchambua blockchain kutambua mtumaji halisi, mpokeaji, au kiasi cha manunuzi. 
+Mbinu hii huficha njia ya miamala. Matumizi ya pembejeo za udanganyifu hufanya iwe vigumu kwa mtu yeyote anayechambua blockchain kutambua mtumaji, mpokeaji, au kiasi halisi cha miamala. 
 
-**Important Note**: This method of on-chain privacy preserving transaction still explicitly reveals (encrypted) inputs to all user transactions. Metadata such as the *FLOW OF TRANSACTIONS* between different users on the network can still be gathered. If an adversary actively participates in generating transactions on the network, it effectively deanonymises the decoy inputs of other users. 
+**Dokezo Muhimu**: Njia hii ya kuhifadhi faragha kwenye mnyororo bado inaonyesha waziwazi ingizo (zilizosimbwa kwa njia fiche) kwa miamala yote ya watumiaji. Metadata kama vile *MTIRIRIKO WA MIAMALA* kati ya watumiaji tofauti kwenye mtandao bado inaweza kukusanywa. Ikiwa adui anashiriki kikamilifu katika kuzalisha miamala kwenye mtandao, inaondoa utambulisho wa ingizo za udanganyifu za watumiaji wengine. 
 
 
-## Faida za ZK juu ya Mifumo ya msingi ya Decoy
+## Faida za ZK Zaidi ya Mifumo Inayotegemea Decoy
 
-Zcash na Monero ni sarafu za siri zinazozingatia faragha, lakini hufikia faragha kwa njia tofauti. 
+Zcash na Monero zote mbili ni sarafu za kidijitali zinazozingatia faragha, lakini zinafikia faragha kwa njia tofauti. 
 
-Here are some advantages of Zcash's zero-knowledge proofs (ZK) over Monero's decoy system:
+Hapa kuna baadhi ya faida za uthibitisho wa maarifa usio na ujuzi Zcash's (ZK) kuliko mfumo wa udanganyifu wa Monero:
 
-1) **Ufunuo wa Uchaguzi**: Pamoja na Zcash ZK kipengele kuweka, watumiaji kuwa na chaguo kufunua maelezo ya manunuzi kwa vyama maalum [Soma ECC Blog juu ya Ufafanuzi Selective](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)Katika Zcash, yaliyomo kwenye shughuli zilizohifadhiwa huruhusu watu binafsi kufunua data kutoka kwa uhamisho fulani. Kwa kuongezea, ufunguo wa kutazama unaweza kutolewa kufunua shughuli zote zinazohusiana na anwani maalum iliyohifadhiwe. Kipengele hiki kinaruhusu kufuata kanuni na ukaguzi bila kuathiri faragha ya jumla ya mtandao. 
+1) **Ufichuzi Teule**: Kwa seti ya vipengele vya Zcash ZK, watumiaji wana chaguo la kufichua maelezo ya miamala kwa wahusika maalum [Soma Blogu ECC kuhusu Ufichuzi Teule](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)Katika Zcash, maudhui yaliyosimbwa kwa njia fiche ya miamala iliyolindwa huruhusu watu binafsi kufichua data kutoka kwa uhamisho fulani. Zaidi ya hayo, ufunguo wa kutazama unaweza kutolewa ili kufichua miamala yote inayohusiana na anwani maalum iliyolindwa. Kipengele hiki kinaruhusu kufuata sheria na ukaguzi bila kuathiri faragha ya jumla ya mtandao. 
 
-Wakati Monero ya decoy algorithm (ring saini) husaidia katika kutoa faragha, haina kutoa * kuchagua * ufunuo kwa njia ile ile.
+Ingawa algoritimu ya ujanja ya Monero (saini ya pete) husaidia katika kutoa faragha, haitoi ufichuzi wa *uteuzi* kwa njia ile ile.
 
 
 <a href="">
@@ -43,21 +43,21 @@ Wakati Monero ya decoy algorithm (ring saini) husaidia katika kutoa faragha, hai
 </a>
 
 
-2) **Optional Visibility**: Zcash allows users to choose between transparent (non-private) and shielded (private) transactions. This connotes that Zcash offers users the flexibility to either keep their financial information private (shielded) or make it transparent and publicly available similar to most other blockchains as explained on [Zcash official website](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/). This opt-in privacy allows for greater flexibility and business/organisational relevant use cases, as some transactions may require less privacy for public scrutiny, while others benefit from enhanced privacy.
+2) **Mwonekano wa Hiari**: Zcash inaruhusu watumiaji kuchagua kati ya miamala ya uwazi (isiyo ya faragha) na iliyolindwa (ya faragha). Hii ina maana kwamba Zcash huwapa watumiaji uhuru wa kuweka taarifa zao za kifedha kuwa za faragha (zilizolindwa) au kuzifanya ziwe wazi na zipatikane hadharani kama vile blockchain nyingine nyingi kama ilivyoelezwa kwenye [Tovuti rasmi ya Zcash](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/)Faragha hii ya kujijumuisha inaruhusu kubadilika zaidi na matumizi muhimu ya kibiashara/shirika, kwani baadhi ya miamala inaweza kuhitaji faragha kidogo kwa ajili ya uchunguzi wa umma, huku mingine ikinufaika na faragha iliyoimarishwa.
 
 
-3) ** Anonymity Seti **: The [anonymity kuweka](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) ya zero maarifa kulindwa makundi inajumuisha shughuli zote ambazo * milele * ilitokea. Hii ni kubwa kwa kiasi kikubwa kuliko wengi mbinu nyingine on-mnyororo kwa ajili ya kufikia shughuli unlinkability. Kumbuka: hii inatumika tu kwa shughuli ndani ya makundi sawa kulindwa.
+3) **Seti ya Kutokujulikana**: The [seti ya kutokujulikana](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) ya maarifa sifuri, mabwawa yaliyolindwa yanajumuisha miamala yote ambayo *imewahi* kutokea. Hii ni kubwa zaidi kuliko mbinu zingine nyingi za mnyororo ili kufikia kutounganishwa kwa miamala. Kumbuka: hii inatumika tu kwa miamala ndani ya bwawa moja lililolindwa.
 
-Matumizi ya decoys haina kuongeza anonymity kuweka. Hata hivyo mbinu hii ni tegemezi kabisa juu ya idadi ya * halisi * watumiaji kwenye mtandao. 
+Matumizi ya mbinu za udanganyifu huongeza idadi ya watu wasiojulikana. Hata hivyo, mbinu hii inategemea kabisa idadi ya watumiaji *halisi* kwenye mtandao. 
 
-4) ** No Trusted Setup**: Zcash's Sprout & Sapling setup utilized a multi-party computation known as the "trusted setup ceremony". The recent NU5 upgrade did not require any Trust in the integrity of the zero knowledge circuit's setup. [Soma Blogi ya ECC kwenye NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
+4) **Hakuna Usanidi Unaoaminika**: Usanidi wa Sprout & Sapling Zcash's ulitumia hesabu ya vyama vingi inayojulikana kama "sherehe ya usanidi unaoaminika". Uboreshaji wa hivi karibuni NU5 haukuhitaji Uaminifu wowote katika uadilifu wa usanidi wa saketi ya maarifa sifuri. [Soma Blogu ya ECC kwenye NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **Data Privacy**: Teknolojia ya [zk-SNARK](https://zechub.wiki/zcash-technology) matumizi katika mabwawa Zcash ya ulinzi inaruhusu kwa kiasi kikubwa kuimarishwa usalama kwa watumiaji. Kupunguza uvujaji metadata on-chain ina maana kwamba watumizi ni salama kutoka kwa wapinzani kama vile walaghai uwezo au vyombo vya serikali ya ukandamizaji. 
+5) **Faragha ya Data**: [teknolojia ya zk-SNARK](https://zechub.wiki/zcash-tech/zk-snarks) inayotumika katika mabwawa ya ulinzi Zcash's inaruhusu usalama ulioimarishwa kwa kiasi kikubwa kwa watumiaji. Kupunguzwa kwa uvujaji wa metadata kwenye mnyororo kunamaanisha kuwa watumiaji wako salama kutokana na maadui kama vile wadukuzi watarajiwa au vyombo vya dola vinavyokandamiza. 
 
-Kuna idadi ya matukio ambayo mende wamekuwa kutambuliwa katika Monero ya decoy uteuzi algorithm. mende hizi walikuwa na uwezo wa kufunua matumizi ya mtumiaji kulingana na ripoti kutoka [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+Kuna matukio kadhaa ambapo hitilafu zimetambuliwa katika algoriti ya uteuzi wa udanganyifu ya Monero. Hitilafu hizi zilikuwa na uwezo wa kufichua matumizi ya watumiaji kulingana na ripoti kutoka [CoinDesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
 
 
-Kwa muhtasari kile ambacho ni muhimu zaidi ni kupunguza au kuondoa uvujaji wa habari ya mtumiaji na data kama ilivyoelezwa na Zooko katika [Orchid (priv8) AMA live kikao](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 
+Kwa muhtasari, jambo muhimu zaidi ni kupunguza au kuondoa uvujaji wa taarifa na data za watumiaji kama ilivyoelezwa na Zooko katika [Kipindi cha moja kwa moja cha Orchid (priv8) AMA](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 
 
 
 <a href="">
@@ -67,7 +67,7 @@ Kwa muhtasari kile ambacho ni muhimu zaidi ni kupunguza au kuondoa uvujaji wa ha
 
 ____
 
-*** Viungo vya Marejeleo***
+***Viungo vya Marejeleo***
 
 https://z.cash/learn/
 
@@ -81,7 +81,7 @@ https://youtu.be/XpRzKqEfpP4
 
 https://electriccoin.co/blog/zcash-evolution/
 
-https://electriccoin.co/zcash-metrics/
+https://web.archive.org/web/20240327000137/https://electriccoin.co/zcash-metrics/
 https://electriccoin.co/blog/viewing-keys-selective-disclosure/
 
 

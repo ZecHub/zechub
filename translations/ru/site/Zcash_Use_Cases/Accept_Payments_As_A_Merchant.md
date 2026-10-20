@@ -112,7 +112,7 @@ Zcash позволяет:
 
 
 - [Кошельки](/wallets)
-- [Приватность - Рекомендации по использованию](/privacy/best-practices)
+- [Приватность - Рекомендации по использованию](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

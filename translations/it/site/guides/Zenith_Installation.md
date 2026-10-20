@@ -1,4 +1,4 @@
-# Installazione del wallet full node con GUI Zenith  
+# Installazione del portafoglio full node (nodo completo) con GUI Zenith  
 
 ## Video tutorial
 

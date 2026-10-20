@@ -1,4 +1,4 @@
-# Galleria di Sfondi Zcash
+# Galleria di sfondi Zcash
 
 <div class="my-12 flex flex-col items-center gap-6 bg-card border border-border rounded-3xl p-10 text-center">
   <div class="text-6xl"></div>

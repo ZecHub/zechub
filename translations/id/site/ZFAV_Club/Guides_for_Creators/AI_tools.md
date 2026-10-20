@@ -48,7 +48,7 @@ login dengan X, Google, Discord, Telegram
 - Bot [Midjourney](https://discord.com/invite/midjourney) di Discord - mulai dari $10/bulan - [Panduan Memulai](https://docs.midjourney.com/docs/quick-start)
 bisa mendapatkan sekitar 100 generasi gratis dengan memberi rating pada banyak [gambar lain di sini](https://www.midjourney.com/app/rank-pairs/)
 (harus mencapai top2000 raters - sekitar 15 menit memberi rating gambar)
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 generasi - (gratis 15 generasi/bulan)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 generasi - (gratis 15 generasi/bulan)
 - [DALL-E 3](https://openai.com/dall-e-3/) - termasuk dalam ChatGPT-4 - $20/bulan
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4 generasi gratis, versi berbayar mulai dari $6/bulan)
 
@@ -82,7 +82,7 @@ bisa mendapatkan sekitar 100 generasi gratis dengan memberi rating pada banyak [
 
 ### Pembuatan suara
 
-- [play.ht](https://play.ht/) - gratis - (langganan mulai dari $39/bulan)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - gratis - (langganan mulai dari $39/bulan)
 - [ElevenLabs](https://elevenlabs.io/) - gratis - (langganan mulai dari $5/bulan)
 - [Murf](https://murf.ai/) - gratis - (langganan mulai dari $29/bulan)
 - [Resemble](https://www.resemble.ai/) - coba gratis (setelah $0.006 per detik)

@@ -162,5 +162,5 @@ Katika kura ya maoni ya NU7 Zcash Foundation's (Februari 2026), urejeshaji wa qu
 - [zip#1134: Zcash kamili baada ya kiasi](https://github.com/zcash/zips/issues/1134)
 - [Ramani ya Mradi Tachyon](https://tachyon.z.cash/roadmap/)
 - [Matokeo ya Kura ya NU7: Tulichosikia na Tunaelekea Wapi Kutoka Hapa](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Kitalu 3,428,143 kwenye Blockchair](https://blockchair.com/zcash/block/3428143)
+- [Kitalu 3,428,143 kwenye ZecBlock](https://zecblock.com/block/3428143)
 - [Ombi la jukwaa: Je Zcash ni baada ya kiasi?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

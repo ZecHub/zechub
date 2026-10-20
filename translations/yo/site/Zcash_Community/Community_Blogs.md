@@ -19,7 +19,7 @@
 | Naomi Brockwell (NBTV)     | Àwọn ìfọ̀rọ̀wánilẹ́nuwò àti àkóónú tó gbajúmọ̀ lórí ìpamọ́           | [Ṣèbẹ̀wò ->](https://naomibrockwell.com/highprofileinterviews) |
 | Àwọn Sqribble                  | Àkóónú Zcash oníṣẹ̀dá àti ti àwùjọ ń darí              | [Ṣèbẹ̀wò ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Àwọn ìkọ̀wé ìmọ̀-ẹ̀rọ láti ọ̀dọ̀ olùgbékalẹ̀ Zcash core             | [Ṣèbẹ̀wò ->](https://words.str4d.xyz/) |
-| CipherScan Ọsọ̀ọ̀sẹ̀          | Awọn ifiweranṣẹ bulọọgi ti o wa ni ọsẹ kan ti o bo awọn itupalẹ blockchain Zcash    | [Ṣèbẹ̀wò ->](https://cipherscan.app/) |
+| CipherScan Ọsọ̀ọ̀sẹ̀          | Awọn ifiweranṣẹ bulọọgi ti o wa ni ọsẹ kan ti o bo awọn itupalẹ blockchain Zcash    | [Ṣèbẹ̀wò ->](https://zecblock.com/) |
 | Àwọn Ìròyìn tí a Dáàbòbò fún Zcash        | Àkójọ ìròyìn ìpamọ́ ọ̀sọ̀ọ̀sẹ̀ àti ìṣẹ̀dá-ẹ̀dá                 | [Ṣèbẹ̀wò ->](https://zechub.substack.com/) |
 | Bulọọgi ZecHub DAO            | Àwọn àpilẹ̀kọ àti àkóónú ẹ̀kọ́ láti ọ̀dọ̀ àwùjọ ZecHub DAO | [Ṣèbẹ̀wò ->](https://zechub.wiki) |
 

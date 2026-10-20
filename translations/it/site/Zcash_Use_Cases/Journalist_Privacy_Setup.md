@@ -1,4 +1,4 @@
-# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Configurazione della Privacy per Giornalisti con Zcash
+# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Configurazione della privacy per giornalisti con Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -8,7 +8,7 @@
 ## TL;DR
 
 - Usa indirizzi schermati per tutte le transazioni
-- Non esporre mai pubblicamente l'identità del wallet
+- Non esporre mai pubblicamente l'identità del portafoglio
 - Proteggi le fonti evitando pagamenti tracciabili
 - Usa i memo con attenzione per una comunicazione sicura
 
@@ -24,7 +24,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Il Problema
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Il problema
 
 I giornalisti affrontano:
 - Sorveglianza
@@ -48,29 +48,29 @@ Zcash offre:
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti Serve
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
-- Un wallet Zcash con supporto schermato
+- Un portafoglio Zcash con supporto schermato
 - Un canale di comunicazione sicuro (al di fuori della blockchain)
 - Disciplina operativa
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida Passo Passo
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida passo passo
 
 
-### Passo 1: Crea un Wallet Dedicato
+### Passo 1: crea un portafoglio dedicato
 
-- Usa un wallet solo per il lavoro sensibile
+- Usa un portafoglio solo per il lavoro sensibile
 - Non mescolare con le transazioni personali
 
-### Passo 2: Usa Solo Indirizzi Schermati
+### Passo 2: usa solo indirizzi schermati
 
 - Effettua sempre transazioni usando indirizzi-z
 - Evita completamente le transazioni trasparenti
 
 
-### Passo 3: Proteggi i Pagamenti alle Fonti
+### Passo 3: proteggi i pagamenti alle fonti
 
 Se paghi delle fonti:
 - Usa transazioni schermate (z → z)
@@ -78,27 +78,27 @@ Se paghi delle fonti:
 - Non riutilizzare gli indirizzi
 
 
-### Passo 4: Fai Attenzione con i Memo
+### Passo 4: fai attenzione con i memo
 
 - NON includere informazioni sensibili nei memo
 - Usa riferimenti neutri o in codice se necessario
 
 
-### Passo 5: Mantieni la Sicurezza Operativa
+### Passo 5: mantieni la sicurezza operativa
 
-- Evita di collegare il wallet alla tua identità
+- Evita di collegare il portafoglio alla tua identità
 - Non confermare pubblicamente le transazioni
 - Usa canali separati per la comunicazione
 
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Errori Comuni da Evitare
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Errori comuni da evitare
 
 - Usare indirizzi trasparenti  
 - Riutilizzare gli indirizzi tra le fonti  
 - Includere dati sensibili nei memo  
-- Collegare il wallet a un'identità pubblica  
+- Collegare il portafoglio a un'identità pubblica  
 
 <br/>
 
@@ -113,7 +113,7 @@ Puoi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Correlati
 
-- [Privacy - Migliori pratiche](/privacy/best-practices)
+- [Privacy - Migliori pratiche](/start-here/who-can-see-your-zcash-payment)
 - [Invia denaro senza collegare l'identità](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
@@ -131,7 +131,7 @@ Ora comprendi:
 
 <br/> 
 
-## E Adesso?
+## E adesso?
 
 - [Vai alla home page](/)
 - [Esplora i percorsi per sviluppatori](/developers)

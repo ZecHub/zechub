@@ -18,14 +18,14 @@ published: 2025-08-02
 
 ## Come Namada protegge la tua privacy
 
-Namada è una blockchain sovrana e privacy-first che nasconde gli indirizzi dei wallet, gli importi delle transazioni e i saldi usando le **prove a conoscenza zero (zk-SNARKs)**.
+Namada è una blockchain sovrana e privacy-first che nasconde gli indirizzi dei portafogli, gli importi delle transazioni e i saldi usando le **prove a conoscenza zero (zk-SNARKs)**.
 
 ### Funzionalità di privacy principali
 
 - **Transazioni schermate** - Nascondono completamente mittente, destinatario e importi.
-- **Multi-Asset Shielded Pool (MASP)** - Trasferimenti, swap e bridging privati su qualsiasi asset.
+- **Multi-Asset Shielded Pool (MASP)** - Trasferimenti privati, scambi e bridge tra qualsiasi asset.
 - **Privacy cross-chain** - Bridging schermato tramite IBC (il supporto per Ethereum e Solana è in arrivo).
-- **Ricompense Shielded Yield** - Guadagna token NAM semplicemente schermando le transazioni.
+- **Ricompense di rendimento schermate** - Guadagna token NAM semplicemente schermando le transazioni.
 - **Commissioni basse** - Privacy robusta senza sacrificare l'usabilità.
 
 ---
@@ -62,11 +62,11 @@ Anche la privacy on-chain più solida può essere compromessa dal comportamento 
 
 ### 3. MASP (Multi-Asset Shielded Pool)
 - Tieni tutti gli asset all'interno del MASP per impostazione predefinita.
-- Tratta il tuo saldo MASP come il tuo principale wallet privato.
+- Tratta il tuo saldo MASP come il tuo principale portafoglio privato.
 
 ### 4. View Key
-- Condividi le viewing key **solo** con parti di cui ti fidi pienamente.
-- Non pubblicare né postare mai pubblicamente le viewing key.
+- Condividi le chiavi di visualizzazione **solo** con parti di cui ti fidi pienamente.
+- Non pubblicare né postare mai pubblicamente le chiavi di visualizzazione.
 
 ### 5. Igiene delle transazioni
 - Randomizza i tempi e gli importi tra le transazioni.
@@ -74,9 +74,9 @@ Anche la privacy on-chain più solida può essere compromessa dal comportamento 
 - Evita di inviare importi tondi o facilmente identificabili.
 
 ### 6. Sicurezza operativa
-- Usa sempre una **VPN** (idealmente Tor) quando interagisci con wallet o dApp.
+- Usa sempre una **VPN** (idealmente Tor) quando interagisci con portafogli o dApp.
 - Non condividere mai screenshot che contengano indirizzi o saldi.
-- Usa wallet separati per attività diverse (trading, donazioni, uso personale).
+- Usa portafogli separati per attività diverse (trading, donazioni, uso personale).
 
 ---
 
@@ -86,7 +86,7 @@ Anche la privacy on-chain più solida può essere compromessa dal comportamento 
 2. **Ruota gli indirizzi schermati** regolarmente per casi d'uso diversi.
 3. **Preleva direttamente verso indirizzi schermati** dagli exchange quando possibile.
 4. **Varia i tempi delle transazioni** per spezzare schemi identificabili.
-5. **Usa hardware wallet** per le quantità maggiori.
+5. **Usa portafogli hardware** per le quantità maggiori.
 6. **Mantieni il software aggiornato** - esegui sempre l'ultimo client Namada.
 7. **Proteggi il tuo dispositivo** con cifratura robusta e gestori di password.
 8. **Sii estremamente prudente** riguardo alle fughe di metadati in chat o log pubblici.

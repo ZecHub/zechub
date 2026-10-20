@@ -4,42 +4,42 @@
 
 # <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alt Text" width="50"/>  Zcash Community Grants
 
-## Àlàyé Ìpolongo
+## Gbólóhùn Iṣẹ́ Àkànṣe
 
-Eto Awọn ẹbun Agbegbe Zcash n ṣe inawo awọn ẹgbẹ ominira ti o wọ inu ilolupo ilolopo Zcash, lati ṣe idagbasoke pataki ti nlọ lọwọ (tabi iṣẹ miiran) fun ire gbogbo eniyan ti ilolobo ilolopu Zcash. 
+Ètò Zcash Community Grants ń ṣe owó fún àwọn ẹgbẹ́ aláìdádúró tí wọ́n ń wọ inú ètò ìṣẹ̀dá Zcash, láti ṣe ìdàgbàsókè pàtàkì (tàbí iṣẹ́ mìíràn) fún ire gbogbogbòò ti ètò ìṣẹ̀dá Zcash. 
 
-## Àwọn Èèyàn Àtàwọn Ẹgbẹ́
+## Àwọn ènìyàn àti àwọn ẹgbẹ́
 
-The Zcash Community Grants is managed by a committee, which currently consists of five people. This community reviews and approves grant applications from third party teams who want to build on the Zcash protocol. More info on the [Team](https://zcashcommunitygrants.org/committee/)
+Igbimọ kan ni o n ṣakoso Zcash Community Grants, eyiti o ni eniyan marun lọwọlọwọ. Agbegbe yii ṣe atunyẹwo ati fọwọsi awọn ibeere ifunni lati ọdọ awọn ẹgbẹ kẹta ti o fẹ lati kọ lori ilana Zcash. Alaye diẹ sii lori [Ẹgbẹ́](https://zcashcommunitygrants.org/committee/)
 
-Recent projects that have been approved by the ZCG are Zcash Shielded Assets (ZSA)  led by the QEDIT team. Bringing DeFi to ZEC with Zcash with a new payments protocol adding additional features to the Zcash mainnet. 
+Àwọn iṣẹ́ tuntun tí ZCG ti fọwọ́ sí ni Zcash Shielded Assets (ZSA) tí ẹgbẹ́ QEDIT ń darí. Mímú DeFi wá sí ZEC pẹ̀lú Zcash pẹ̀lú ìlànà ìsanwó tuntun kan tí ó ń fi àwọn ẹ̀yà afikún kún Zcash mainnet. 
 
-Àkọsílẹ̀ Kúrú ti Zcash Media tí ó ní àwọn ògbóǹkangí Zcashers bíi Edward Snowden, Zooko & Deirdre Connolly pẹ̀lú ète láti dá àwọn fídíò tó ṣe kókó, tó ń múnú ẹni dùn àti tí ó ń kọ́ni lẹ́kọ̀ọ́ tí a ó pín káàkiri. 
+Ìwé ìròyìn kúkúrú Zcash Media tí ó ní àwọn Zcashers pàtàkì bíi Edward Snowden, Zooko & Deirdre Connolly pẹ̀lú ète ṣíṣẹ̀dá àwọn fídíò tó báramu, tó ń gbádùn mọ́ni, tó sì ń kọ́ni lẹ́kọ̀ọ́ láti pín káàkiri. 
 
-Hardware wallets integration of Ledger to fully support Sapling shielded transactions, this allows Zcash to be stored privately & securely. This has been carried out by the Zondax Team. 
+Ìṣọ̀kan àwọn àpò ìpamọ́ ohun èlò Ledger láti ṣe àtìlẹ́yìn fún àwọn ìṣòwò tí a dáàbò bo Sapling pátápátá, èyí mú kí a lè tọ́jú Zcash ní ìkọ̀kọ̀ àti ní ààbò. Ẹgbẹ́ Zondax ló ṣe èyí. 
 
-Owo ti o rọrun-kan-tẹ ni aabo ati eto aaye tita fun awọn ile itaja biriki ati amọdaju SDK ti a ṣe nipasẹ ZGo. 
+Eto isanwo ti o rọrun ti a fi titẹ kan pamọ ati eto tita aaye fun awọn ile itaja biriki ati amọ SDK ti ZGo. 
 
-The Global Ambassador program helps Zcash gain broader representation internationally and for in-person community events around the world. 
+Ètò Àjọ Àgbáyé ń ran Zcash lọ́wọ́ láti gba àṣojú tó gbòòrò kárí ayé àti fún àwọn ìṣẹ̀lẹ̀ àwùjọ ní gbangba kárí ayé. 
 
-Àwọn iṣẹ́ mìíràn tí Ìgbìmọ̀ Ètò Ìdámọ̀ràn Zcash tún ti ṣàyẹ̀wò, wo [Àtòjọ Pípé, Àtúnṣe](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) àwọn ìwé ìròyìn tí wọ́n fi ránṣẹ́.
+Igbimọ Awọn Ẹbun Zcash ti ṣe atunyẹwo ọpọlọpọ awọn iṣẹ akanṣe miiran, wo a [Àkójọ Àkójọ Kíkún, Tí A Ṣe Àtúnṣe](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) ti awọn iṣẹ akanṣe ti a fi silẹ.
 
-## Ètò Ìṣètò
+## Ètò Àjọ
 
-The Zcash Community Grants is an independent organization from the Electric Coin Company and the Zcash Foundation. 
+Àjọ onídàáni láti Electric Coin Company àti Zcash Foundation ni Zcash Community Grants Zcash Foundation. 
 
-## Ìpèsè owó
+## Ìnáwó
 
-The Electric Coin Company gba 8% ti awọn [Zcash idagbasoke Fund](https://zips.z.cash/zip-1014)Wọn lo awọn owo wọnyi lati ṣe atilẹyin fun awọn ẹgbẹ idagbasoke ẹnikẹta ati fun awọn iṣẹ inu.
+Zcash Community Grants gba 8% ti owó ìrànlọ́wọ́ ìdènà, lábẹ́ àpẹẹrẹ owó ìrànlọ́wọ́ tí a gbé kalẹ̀ ní NU6.1 láti ọwọ́ [ZIP 1016](https://zips.z.cash/zip-1016)Odò náà bẹ̀rẹ̀ nígbà tí ó kọ́kọ́ bẹ̀rẹ̀ [ZIP 1015](https://zips.z.cash/zip-1015) ṣiṣan naa pari, o si n ṣiṣẹ titi di idaji kẹta Zcash's ni bulọọki 4,406,400 labẹ aaye bulọọki lọwọlọwọ. ZCG nlo awọn owo wọnyi lati ṣe atilẹyin fun awọn ẹgbẹ ominira jakejado eto-aye Zcash.
 
-## Àwọn ohun àmúṣọrọ̀
+## Àwọn ohun àlùmọ́nì
 
-[Ìdàgbàsókè àti ìṣàkóso Zcash](https://z.cash/zcash-development-and-governance/)
-
-
+[Idagbasoke ati iṣakoso Zcash](https://z.cash/zcash-development-and-governance/)
 
 
-## Bii o ṣe le Fi Ohun elo Iranlọwọ ranṣẹ nipasẹ ZCG (GitHub + Forum Agbegbe)
+
+
+## Bí a ṣe le fi ìbéèrè owó ìrànlọ́wọ́ ránṣẹ́ nípasẹ̀ ZCG (GitHub + Àpérò Àwùjọ)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -53,44 +53,44 @@ The Electric Coin Company gba 8% ti awọn [Zcash idagbasoke Fund](https://zips.
 </div>
 
 
-### Ìgbésẹ̀ Kìíní: Múra Sílẹ̀ fún Iṣẹ́ Náà
-Ṣẹda àbá tó ṣe kedere tó ní:
-- Orúkọ iṣẹ́ náà àti ìsọfúnni nípa ẹni tó ṣe é
-- Àlàyé ìṣòro àti àbá ojútùú
-- Àwọn ohun tí wọ́n lè mú jáde, àkókò tí a yàn kalẹ̀, àti àwọn ohun pàtàkì
-- Ìṣirò àti ìbẹ̀wò owó
-- Ìrírí àti ewu tó bá yẹ
+### Igbesẹ 1: Mura Agbekalẹ Rẹ silẹ
+Ṣẹda imọran ti o han gbangba pẹlu:
+- Akọle iṣẹ naa ati awọn alaye olubẹwẹ
+- Gbólóhùn ìṣòro àti ojútùú tí a dámọ̀ràn
+- Àwọn ohun tí a ó fi ránṣẹ́, àkókò, àti àwọn ìṣẹ̀lẹ̀ pàtàkì
+- Ìbéèrè fún ìnáwó àti ìnáwó
+- Awọn iriri ati awọn ewu ti o yẹ
 
 ---
 
-### Igbesẹ 2: Fi sori GitHub
-1. Lọ sí ìpamọ́ GitHub Ìpínlẹ̀ Ẹ̀bùn Ìjọ Zcash
-2. Ṣii Àkọlé àwọn Ìṣòro kí o sì tẹ Ìṣòrò Tuntun.
-3. Yan àdàkọ ìfilọ́lẹ̀ ìfúnnilókun tí ó yẹ
-4. Ki o si tẹ gbogbo awọn aaye ti a beere ati ki o fi
+### Igbesẹ 2: Fi ranṣẹ si GitHub
+1. Lọ sí ibi ìpamọ́ **Zcash Community Grants GitHub**
+2. Ṣí taabu **Awọn ọran** kí o sì tẹ **Ọrọ̀ tuntun**
+3. Yan awoṣe ohun elo ifunni ti o yẹ **
+4. Pari gbogbo awọn aaye ti a beere ki o fi silẹ
 
-Àkọsílẹ̀ ìwúlò ìkànnì GitHub jẹ́ àkọsílẹ̀ ìkànlò ìkànṣe.
-
----
-
-### Ìgbésẹ̀ 3: Ṣẹ̀dá Àpótí Àjọ Ìpínlẹ̀
-1. Lọ sí Àjọ Ìjọ Zcash
-2. Ṣẹ̀dá ọ̀rọ̀-ìwòye tuntun nínú ẹ̀ka **Zcash Community Grants**
-3. Lo àkọlé kan náà bíi ti ẹ̀dà GitHub
-4. Ṣafikun akopọ kukuru ati ṣafikun ìjápọ̀ kan si ọ̀rọ̀ GitHub
+Ọ̀rọ̀ GitHub ni **àkọsílẹ̀ ohun èlò ìṣiṣẹ́**.
 
 ---
 
-### Ìgbésẹ̀ Kẹrin: Ṣe Àtúnyẹ̀wò
-- Ṣíṣayẹwo ọ̀rọ̀ GitHub àti ìjápọ̀ àpéjọ
-- Fèsì àwọn ìbéèrè àti àlàyé láti ọ̀dọ̀ ìgbìmọ̀ ZCG àti àwùjọ
+### Igbesẹ 3: Ṣẹda Ifiweranṣẹ Apejọ Agbegbe kan
+1. Lọ sí **Zcash Community Forum**
+2. Ṣẹ̀dá ìfọ̀rọ̀wérọ̀ tuntun kan nínú ẹ̀ka **Zcash Community Grants**
+3. Lo akọle kanna gẹgẹbi ọran GitHub
+4. Fi àkópọ̀ kúkúrú kún un kí o sì fi **ọ̀nà kan sí ọ̀ràn GitHub** kún un
 
 ---
 
-### Ìgbésẹ̀ Karùn-ún: Àbájáde
-- Àwọn àbá tí a fọwọ́ sí ń tẹ̀ síwájú sí ìfúnnilókun àti ìròyìn
-- Àwọn àbá tí a kò fọwọ́ sí **Ó LÈ ṢE** kí a tún wọn ṣe, kí a sì tún gbé wọn kalẹ̀
+### Igbesẹ 4: Ṣe alabapin si Atunyẹwo
+- Ṣe àkíyèsí ìṣòro GitHub àti ìfọ̀rọ̀wérọ̀ lórí ìtàkùn àpérò
+- Dáhùn sí àwọn ìbéèrè àti èsì láti ọ̀dọ̀ Ìgbìmọ̀ ZCG àti àwùjọ
 
 ---
 
-**Àkíyèsí:** GitHub ni orísun àkọsílẹ̀; àpérò náà wà fún ìjíròrò gbogbo ènìyàn.
+### Igbesẹ 5: Abajade
+- Àwọn ìdámọ̀ràn tí a fọwọ́ sí tẹ̀síwájú sí ìnáwó àti ìròyìn
+- Àwọn ìdámọ̀ràn tí a kò fọwọ́ sí **Ó LÈ** jẹ́ àtúnṣe kí a sì tún fi ránṣẹ́
+
+---
+
+**Àkíyèsí:** GitHub ni orísun àkọsílẹ̀; ìfọ̀rọ̀wérọ̀ gbogbogbò ni a gbé kalẹ̀ fún.

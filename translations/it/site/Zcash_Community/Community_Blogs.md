@@ -19,8 +19,8 @@ Ecco alcuni di quelli attivi:
 | Naomi Brockwell (NBTV)     | Interviste e contenuti di alto profilo sulla privacy     | [Visita ->](https://naomibrockwell.com/highprofileinterviews) |
 | Sqribbles                  | Contenuti Zcash creativi e guidati dalla community       | [Visita ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Scritti tecnici di uno sviluppatore core di Zcash        | [Visita ->](https://words.str4d.xyz/) |
-| CipherScan Weekly          | Post settimanali sul blog che coprono le analytics della blockchain di Zcash | [Visita ->](https://cipherscan.app/) |
-| Zcash Shielded News        | Digest settimanale di notizie su privacy ed ecosistema   | [Visita ->](https://zechub.substack.com/) |
+| CipherScan Weekly          | Post settimanali sul blog che coprono le analytics della blockchain di Zcash | [Visita ->](https://zecblock.com/) |
+| Zcash Shielded News        | Digest settimanale di notizie sulla privacy e sull'ecosistema | [Visita ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | Articoli e contenuti educativi della community ZecHub DAO | [Visita ->](https://zechub.wiki) |
 
 ---

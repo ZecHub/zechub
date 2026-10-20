@@ -58,7 +58,7 @@ Zcash (ZEC) ni sarafu ya kidijitali iliyoundwa kwa ajili ya faragha iliyoimarish
 
    __Malipo ya__ Zcash: Mullvad inakubali Zcash kama chaguo la malipo, na kuruhusu watumiaji kulipia usajili wao kwa faragha iliyoimarishwa. Mullvad VPN.
 
-3. [__Nym VPN (dVPN)__](https://nymtech.net/)
+3. [__Nym VPN (dVPN)__](https://nym.com/)
    
    Nym VPN ni VPN iliyotengwa (dVPN) inayolenga kuboresha faragha na usalama wa mtumiaji kupitia mtandao unaozingatia faragha. Nym VPN inafanya kazi tofauti na VPN za kitamaduni kwa 
    kwa kutumia mtandao mchanganyiko, ambapo trafiki ya watumiaji hupitishwa kupitia mtandao wa nodi. Vipengele muhimu vya Nym VPN ni pamoja na:
@@ -77,7 +77,7 @@ Zcash (ZEC) ni sarafu ya kidijitali iliyoundwa kwa ajili ya faragha iliyoimarish
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)
- 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
+ 5. [__CyberGhost__](https://www.cyberghostvpn.com/)
  6. [__Ufikiaji wa Intaneti Binafsi (PIA)__](https://www.privateinternetaccess.com/)
 
 Kumbuka kwamba upatikanaji wa chaguzi za malipo ya sarafu ya kidijitali unaweza kubadilika, kwa hivyo inashauriwa kuangalia tovuti ya mtoa huduma wa VPN au kuwasiliana na huduma kwa wateja wao kwa taarifa za hivi punde kuhusu njia za malipo zinazokubalika, ikiwa ni pamoja na Zcash.

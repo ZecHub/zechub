@@ -16,9 +16,10 @@ files, so a decision made once applies everywhere.
 | `lib/glossary.mjs` | Loader, validator and matcher. Pure code, no file access. |
 | `validate.mjs` | Checks every file. Runs in CI. |
 | `review-kit.mjs` | Turns a glossary into a review table (`export`) and a filled table back into the glossary (`import`). Logic in `lib/review-kit.mjs`. |
+| `review-instructions.json` | The fill-in instructions in the reviewer's language, printed above the English ones in an exported table. `machine: true` marks a text no native speaker has checked yet. |
 | `prompt-template.md` | The part of the translation prompt that is the same for every language. |
 | `render-prompt.mjs` | Prints the prompt for one page of one language. Logic in `lib/render-prompt.mjs`. |
-| `test-fixtures/` | The two real Indonesian review tables, and the hand-written prompt heads the generated ones replace (`legacy-heads/`), used by the tests. |
+| `test-fixtures/` | The filled review tables for Indonesian (used by the tests) and Italian; the open review tables for the other 18 languages, Greek included (`glossary-review-<loc>.md`, `menus-review-<loc>.md`, for the native-speaker review bounties); and the hand-written prompt heads the generated ones replace (`legacy-heads/`). |
 
 Names of products, companies and protocols (Zcash, Orchard, Zashi, ...) are
 not in these files. They stay in English in every language and are listed in
@@ -45,7 +46,7 @@ The output is `prompt-template.md` with its placeholders filled from
 | `{{LANGUAGE}}` | `meta.language_name` |
 | `{{VARIETY}}` | `style.variety`, which completes "Translate into ..." (`natural, fluent German`) |
 | `{{REGISTER}}` | `style.register`: the first rule whose folder prefix matches the page path wins, else `default`; `--ui` uses `ui`. Same logic as the runner's old `prompt_register.json`. |
-| `{{STYLE}}` | `loanwords` or `loanwords_text`, `english_in_brackets`, `capitalise_kept_english_at_sentence_start`, `numerals`, `decimal_separator`, `quotes` |
+| `{{STYLE}}` | `loanwords` or `loanwords_text`, `english_in_brackets`, `capitalise_kept_english_at_sentence_start`, `numerals`, `decimal_separator`, `quotes`, `writing_rules` |
 | `{{TERMS}}` | approved `terms` and `phrases` whose English forms occur in the page (or in `--text-file`), one line each: target, examples, inflection, context and `Never "..."` for rejected renderings |
 
 - Only `approved` entries are listed. A `draft` or `disputed` entry never
@@ -58,6 +59,8 @@ The output is `prompt-template.md` with its placeholders filled from
 - `loanwords_text` is for a loanword rule the two values of `loanwords`
   cannot express ("may remain in Latin script where that is the natural
   usage"); it is printed as written.
+- `writing_rules` is a list of extra rules in the reviewer's words (articles,
+  word order, capitals, calques to avoid); each is printed as one style line.
 - `examples` adds a target-language example to the brackets or capitals
   rule, printed as "(e.g. ...)". Small local models follow a rule more
   reliably with an example.

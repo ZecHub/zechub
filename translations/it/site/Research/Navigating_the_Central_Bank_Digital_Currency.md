@@ -3,7 +3,7 @@ published: 2023-12-07
 ---
 
 ![CBDC](/content-images/cbdc-dfb8827faa.webp)
-# Svelando il lato oscuro: navigare l'odissea delle Central Bank Digital Currency (CBDC) tra le ombre finanziarie
+# Svelando il lato oscuro: navigare l'odissea delle central bank digital currency (CBDC) tra le ombre finanziarie
 Di : [**Abhishek Tiwari**]
 
 Nel panorama in continuo mutamento della finanza globale si sta aprendo un nuovo capitolo, uno che solleva più di qualche perplessità. Le Central Bank Digital Currency (CBDC) emergono non solo come protagoniste, ma come potenziali agenti di sconvolgimento finanziario, gettando ombre sulla comprensione tradizionale del denaro e suscitando preoccupazioni in merito a privacy, sorveglianza e ingerenza governativa.
@@ -101,7 +101,7 @@ L'inclusione finanziaria, un tempo faro di speranza, affronta le ombre di una po
 
 Per chi si avventura nel territorio inesplorato delle CBDC, le risorse diventano la propria bussola.
 1. La Banca dei Regolamenti Internazionali ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. il Fondo Monetario Internazionale ([FMI](https://www.imf.org/en/About))
+2. il Fondo Monetario Internazionale ([FMI](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Documenti di ricerca ([documento](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Riviste accademiche ([rivista](https://www.bis.org/publ/work976.pdf))
 5. Articolo del C.E.I  ([Articolo](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

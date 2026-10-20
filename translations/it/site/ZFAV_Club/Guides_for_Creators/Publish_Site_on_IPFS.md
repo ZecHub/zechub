@@ -104,7 +104,7 @@ Chiave: “k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n”
 
 Può anche essere usata per visualizzare il nostro sito tramite un gateway: https://ipfs.io/ipns/k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
 
-## DNS Link
+## DNS link
 
 Il sito è stato creato, ora ci serve un modo per puntare un URL al contenuto.
 

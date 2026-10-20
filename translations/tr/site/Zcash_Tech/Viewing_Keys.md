@@ -74,7 +74,7 @@ Bir Sapling adresi geçirmek, eski zcashd davranışıyla uyumlu olarak o hesab�
 
 ### Kendi arayüzlerinden viewing key dışa aktaran cüzdanlar
 
-[Cüzdanlar](/using-zcash/wallets) sayfası, her cüzdan için viewing key desteğini ve Ironwood hazırlığını takip eder. Yazının yazıldığı sırada hem viewing key desteğini hem de **Ironwood: Ready** durumunu listeleyen cüzdanlar ZODL, Zingo!, Zkool, Cake, Zallet, Zecd ve Nozy'yi içerir. Hazırlık durumu değiştiğinden, herhangi bir tek cüzdana güvenmeden önce bu sayfayı kontrol edin.
+[Cüzdanlar](/using-zcash/wallets) sayfası, her cüzdan için viewing key desteğini ve Ironwood hazırlığını takip eder. Yazının yazıldığı sırada hem viewing key desteğini hem de **Ironwood: Ready** durumunu listeleyen cüzdanlar ZODL, Zingo!, Zkool, Cake, Zallet, zecd ve Nozy'yi içerir. Hazırlık durumu değiştiğinden, herhangi bir tek cüzdana güvenmeden önce bu sayfayı kontrol edin.
 
 ## Viewing key'i yalnızca izleme hesabı olarak içe aktarma
 

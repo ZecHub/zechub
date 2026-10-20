@@ -43,9 +43,9 @@ Las direcciones protegidas permiten a los usuarios realizar transacciones revela
 ![myViewKey](/content-images/208585568-46065002-6682-4ff4-ae8b-d20620-739ab12b6c.webp)
 
 
-#### zcashblockexplorer.com
+#### mainnet.zcashexplorer.app
 
-* Simplemente apunte su navegador a [aquí](https://zcashblockexplorer.com/vk) ¡y espere los resultados! nota: este resultado está ahora en el nodo zcashblockexplorer y, por lo tanto, está confiando esta información a los propietarios de zcashblockexplorer.com
+* Simplemente apunte su navegador a [aquí](https://mainnet.zcashexplorer.app/vk) ¡y espere los resultados! nota: este resultado está ahora en el nodo zcashblockexplorer y, por lo tanto, está confiando esta información a los propietarios de mainnet.zcashexplorer.app
 
 ### Recursos
 

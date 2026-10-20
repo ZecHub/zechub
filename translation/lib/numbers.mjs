@@ -261,8 +261,10 @@ function foldMyriads(l) {
   return l
     // Korean and Chinese thousands inside a myriad: "4천만" = 4000만
     .replace(/(\d+)\s?[천千]\s?(?=[万萬만])/g, (m, a) => fold(m, Number(a) * 1000))
-    .replace(/(\d+)\s?[億亿억]\s?(\d+)\s?[万萬만](?:\s?(\d[\d,]{0,4})(?![\d万萬만]))?/g,
-      (m, a, b, c) => fold(m, Number(a) * 1e8 + Number(b) * 1e4 + Number((c ?? "0").replace(/,/g, ""))))
+    // The part between 億 and 万 may carry a thousands separator: "3億1,300万"
+    // is 313 000 000 (ja/ko Grayscale ETF page, 2026-10-15).
+    .replace(/(\d+)\s?[億亿억]\s?(\d{1,4}|\d,\d{3})\s?[万萬만](?:\s?(\d[\d,]{0,4})(?![\d万萬만]))?/g,
+      (m, a, b, c) => fold(m, Number(a) * 1e8 + Number(b.replace(/,/g, "")) * 1e4 + Number((c ?? "0").replace(/,/g, ""))))
     .replace(/(\d+)\s?[億亿억]\s?(\d[\d,]{0,8})(?![\d,万萬만億亿억])/g,
       (m, a, c) => fold(m, Number(a) * 1e8 + Number(c.replace(/,/g, ""))))
     .replace(/(\d+)\s?[万萬만]\s?(\d[\d,]{0,4})(?![\d,万萬만億亿억])/g,
@@ -302,8 +304,8 @@ function wordNumbers(line) {
   const flush = () => { if (real) out.push(total + cur); total = cur = 0; seen = real = false; };
   for (const m of line.toLowerCase().matchAll(/[a-z]+/g)) {
     const w = m[0];
-    if (w in UNITS && !(w === "a" && seen)) { if (w !== "a") real = true; cur += UNITS[w]; seen = true; }
-    else if (w in MULT && seen) {
+    if (Object.hasOwn(UNITS, w) && !(w === "a" && seen)) { if (w !== "a") real = true; cur += UNITS[w]; seen = true; }
+    else if (Object.hasOwn(MULT, w) && seen) {
       real = true;
       if (MULT[w] === 100) cur = (cur || 1) * 100;
       else { total += (cur || 1) * MULT[w]; cur = 0; }
@@ -329,7 +331,7 @@ export function allowances(enLines, enRaw = "") {
       if (mi < 0 && /^[A-Z][a-z]{2}$/.test(m[0])) mi = MONTH_ABBR.indexOf(w);
       if (mi < 0 && w === "sept") mi = 8;
       if (mi >= 0) add(mi + 1);
-      if (WORDS[w] !== undefined) add(WORDS[w]);
+      if (Object.hasOwn(WORDS, w)) add(WORDS[w]);
       if (w === "hex" || w === "hexadecimal") add(16);   // Japanese 16進
     }
     for (const v of wordNumbers(l)) if (!WORDS[v]) add(canon(v));

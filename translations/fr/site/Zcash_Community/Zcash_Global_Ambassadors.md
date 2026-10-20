@@ -16,7 +16,7 @@ Le programme des ambassadeurs mondiaux identifie les membres de la communauté q
 
 Les ambassadeurs disposent d’une liberté créative quant aux activités qu’ils planifient, ce qui leur permet d’adapter leur rayonnement à leur contexte local.
 
-## [Site web des ambassadeurs mondiaux](https://zcashambassadors.com)
+## [Site web des ambassadeurs mondiaux](https://web.archive.org/web/20240413194338/https://zcashambassadors.com/)
 
 ## Communautés d’ambassadeurs actives (2026)
 

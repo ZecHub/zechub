@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Sito web: https://leodex.io
-- Descrizione: Swap cross-chain in entrata e in uscita da ZEC, instradati attraverso THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay e Rango. Nessun account, nessun KYC e nessuna connessione del wallet necessaria sulle rotte supportate.
+- Descrizione: Scambi cross-chain in entrata e in uscita da ZEC, instradati attraverso THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay e Rango. Nessun account, nessun KYC e nessuna connessione del portafoglio necessaria sulle rotte supportate.
 
 ___
 

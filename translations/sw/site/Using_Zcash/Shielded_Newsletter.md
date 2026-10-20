@@ -79,4 +79,4 @@ Mkimbiaji aliyerekebishwa anapaswa:
 4. Kura ya maoni `z_getoperationstatus` kwa kitambulisho hicho cha operesheni.
 5. Rekodi txid tu baada ya `success`.
 
-Ukurasa wa mafunzo ya zamani unabaki [Hati za Jarida Lililolindwa](/tutorials/shieldednewsletter/readme). Tumia ukurasa huu kwa utaratibu.
+Ukurasa wa mafunzo ya zamani unabaki [Hati za Jarida Lililolindwa](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Tumia ukurasa huu kwa utaratibu.

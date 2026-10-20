@@ -13,7 +13,7 @@ Il nome **Sovright** è una composizione di **sovereign** e **right**. Riflette 
 
 Il lavoro di Sovright è iniziato con Zcash, una criptovaluta orientata alla tutela della privacy che utilizza la crittografia a conoscenza zero per supportare transazioni schermate. Nel tempo, il focus dell'organizzazione si è ampliato oltre il denaro privato per includere questioni infrastrutturali più ampie, comprese comunicazioni sicure, reti resilienti, calcolo privato e interazioni sicure con l'IA.
 
-## Mining Pool
+## Mining pool
 
 Sovright gestisce una mining pool Zcash su:
 

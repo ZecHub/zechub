@@ -21,9 +21,9 @@ Jika kamu baru di Zcash, gunakan [panduan ini](/start-here/new-user-guide).****
 
 ---
 
-1. Buka repo Github [ZecHub](https://github.com/ZecHub/zechub)
+1. Buka repo GitHub [ZecHub](https://github.com/ZecHub/zechub)
    
-2. Buat akun Github baru atau masuk dengan akun milikmu sendiri
+2. Buat akun GitHub baru atau masuk dengan akun milikmu sendiri
    
 3. Ikuti panduan ini untuk mempelajari cara melakukan pull request:
 
@@ -51,15 +51,15 @@ Demi menjaga tampilan yang seragam pada ZecHub, terdapat sebuah templat yang bis
 3. No inappropriate content.
 ```
 
-Donasi: [di sini](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Donasi: [di sini](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-<a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
+<a href="https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-**PENYANGKALAN: ZecHub adalah inisiatif sumber terbuka yang sepenuhnya independen dan didirikan oleh anggota komunitas Zcash. Tidak ada hal yang terkandung dalam repositori Github ini yang boleh dianggap sebagai nasihat keuangan atau investasi - ini hanya untuk tujuan informasi.**
+**PENYANGKALAN: ZecHub adalah inisiatif sumber terbuka yang sepenuhnya independen dan didirikan oleh anggota komunitas Zcash. Tidak ada hal yang terkandung dalam repositori GitHub ini yang boleh dianggap sebagai nasihat keuangan atau investasi - ini hanya untuk tujuan informasi.**
 
 ---
 

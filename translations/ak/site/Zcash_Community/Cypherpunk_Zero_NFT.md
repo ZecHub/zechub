@@ -7,7 +7,7 @@
 
 # Cypherpunk a ɛyɛ Zero a ɛyɛ Zero
 
-Cypherpunk Zero yɛ abakɔsɛm a ɛtoatoa so a ɛfa Zero, aberante bi a ɔyɛ cypherpunk hacker ne ahofadi ho ɔkofo ho. Mprempren Zero te dystopian dae bɔne mu na ɔde mmara di dwuma de ko tia apon ano ahwɛfo a wɔwɔ mfinimfini a wɔde nkɔnsɔnkɔnsɔn abɔ ɔmanfo no. Zcash ne Halo cryptography na ɛkanyan asɛm no. Adebɔ adwuma no yɛ mmɔdenbɔ a ECC, Stranger World, Might Jaxx ne abɔdeɛ a nkwa wom ho ahokafoɔ a wɔapaw wɔn bom yɛ. Adebɔ adwuma no atwe adwene asi an [NFT nsɛm a ɛtoatoa so](https://opensea.io/collection/cypherpunk-zero) ne [agode a wotumi boaboa ano](https://mightyjaxx.com/products/cypherpunk-zero) wɔayi wɔn nso adi. NFT mpɔtam hɔfo a wɔn mu dodow no ara yɛ nnam wɔ Twitter so no mpo ayɛ a [ahyehyɛde a wɔde ama (DAO) .](https://twitter.com/CypherpunkDAO) sɛ wɔbɛhyehyɛ na wɔawie nnwuma a ɛboa ɔsatuo no, ne Zcash mpɔtam hɔfoɔ a wɔtrɛ no.
+Cypherpunk Zero yɛ abasɛm a ɛtoatoa so a ɛfa Zero, aberante bi a ɔyɛ cypherpunk hacker ne ahofadi ho ɔkofo ho. Mprempren Zero te dystopian dae bɔne mu na ɔde mmara di dwuma de ko tia apon ano ahwɛfo a wɔwɔ mfinimfini a wɔde nkɔnsɔnkɔnsɔn abɔ ɔmanfo no. Zcash ne Halo cryptography na ɛkanyan asɛm no. Adebɔ adwuma no yɛ mmɔdenbɔ a ECC, Stranger World, Might Jaxx ne abɔdeɛ a nkwa wom ho ahokafoɔ a wɔapaw wɔn bom yɛ. Adebɔ adwuma no atwe adwene asi an [NFT nsɛm a ɛtoatoa so](https://opensea.io/collection/cypherpunk-zero) ne [agode a wotumi boaboa ano](https://mightyjaxx.com/products/cypherpunk-zero) wɔayi wɔn nso adi. NFT mpɔtam hɔfo a wɔn mu dodow no ara yɛ nnam wɔ Twitter, no mpo ayɛ a [ahyehyɛde a wɔde ama (DAO)](https://twitter.com/CypherpunkDAO) sɛ wɔbɛhyehyɛ na wɔawie nnwuma a ɛboa ɔsatuo no, ne Zcash mpɔtam hɔfoɔ a wɔtrɛ no.
 
 ## Anti-roadmap Ɔkwankyerɛ
 
@@ -17,9 +17,9 @@ Yɛahu sɛ nnwuma pii ahyɛ bɔ dodo na wɔmfa wɔn NFT akwan ho nhyehyɛe no mm
 
 [Mfonini a wɔatwa no ntɛm](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAO no amanne kwan so portal a ɛwɔ vote.cypherpunkzero.com no akɔ pɛnhyen na ne domain no nsiesie bio; eyi ne Snapshot ahunmu a ɛda so ara wɔ hɔ.
 
-[Guild a wɔde yɛ adwuma](https://guild.xyz/cypherpunkzerodao)
+[Guild](https://guild.xyz/cypherpunkzerodao)
 
-[Amanaman Nkabom Kuw](https://commonwealth.im/cypherpunk-zero)
+[Commonwealth](https://commonwealth.im/cypherpunk-zero)
 
 ## Hena ne Ɔhɔho Ɔkraman?
 
@@ -55,11 +55,11 @@ Yiw mfitiase collection no nyaa hacked, daakye no yɛ nea wɔankyerɛw.
 
 ## Akadeɛ
 
-[Cypherpunk Zero wɔ Twitter so](https://twitter.com/cypherpunkZero)
+[Cypherpunk Zero Twitter](https://twitter.com/cypherpunkZero)
 
 [Cypherpunk Zero OpenSea Nneɛma a Wɔaboaboa Ano](https://opensea.io/collection/cypherpunk-zero)
 
-[Cypherpunk Zero DAO na ɛyɛ adwuma wɔ Twitter so](https://twitter.com/CypherpunkDAO)
+[Cypherpunk Zero DAO na ɛyɛ adwuma Twitter](https://twitter.com/CypherpunkDAO)
 
 [Cypherpunk Zero DAO Discord](https://discord.com/invite/sjfgXys4Jf)
 

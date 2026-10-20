@@ -10,7 +10,7 @@
 - Atualmente, uma wallet tem de tentar desencriptar uma enorme parte da blockchain para descobrir quais os pagamentos que lhe pertencem, e essa é a principal razão pela qual a sincronização blindada parece lenta
 - Tachyon substitui isso por **sincronização oblivious**, para que uma wallet obtenha o que precisa sem analisar tudo e sem indicar a um servidor quais as partes que pretendia
 - Também move os detalhes de pagamento da blockchain para o próprio pedido de pagamento, o que torna o protocolo mais simples, mas transfere a responsabilidade para as wallets
-- É uma proposta, publicada pela primeira vez em abril de 2025 e nomeada como candidata para NU7. **Não foi lançada**, e requer um esforço de engenharia à escala da atualização Sapling
+- É uma proposta, publicada pela primeira vez em abril de 2025. **Não faz parte de NU7** e **não foi lançada**, e requer um esforço de engenharia à escala da atualização Sapling
 
 <br/>
 
@@ -73,7 +73,7 @@ A terceira vertente são os **agregados de transações blindadas**, que altera 
 
 ## Estado do trabalho
 
-Tachyon é uma **proposta, não uma funcionalidade lançada**. Foi publicada em abril de 2025, e uma publicação de seguimento em maio de 2025 analisou as implicações para o consenso. É nomeada como candidata para NU7, a próxima atualização importante após Ironwood, mas o conteúdo de NU7 é decidido por votação dos detentores de moedas e nada sobre Tachyon está decidido.
+Tachyon é uma **proposta, não uma funcionalidade lançada**. Foi publicada em abril de 2025, e uma publicação de seguimento em maio de 2025 analisou as implicações para o consenso. Foi nomeada como candidata para NU7, a próxima atualização após Ironwood, mas o âmbito de NU7 acordado em 17 de setembro de 2026 não a inclui: [ZIP 259](https://zips.z.cash/zip-0259) enumera o que NU7 implementa, e o [anúncio no fórum](https://forum.zcashcommunity.com/t/nu7-timeline/57655) afirma que não surge nele nenhum novo formato de transação. Ainda não foi definida uma data de ativação para Tachyon.
 
 O enquadramento do próprio autor é que se trata de um plano executável, e não de investigação especulativa, mas que requer um esforço de engenharia comparável a Sapling, deixando deliberadamente algumas questões mais difíceis para mais tarde.
 
@@ -87,7 +87,7 @@ O trabalho relacionado já é visível. [Zakura](https://zechub.wiki/zcash-tech/
 - **Tachyon não é o mesmo que Ironwood.** Ironwood foi ativado em julho de 2026 e tratou do conjunto Orchard e da catraca. Tachyon é uma proposta distinta e posterior sobre escalabilidade.
 - **Tachyon não reduz a privacidade.** O objetivo é manter a indistinguibilidade do livro-razão enquanto elimina o custo de escalabilidade, não trocar privacidade por velocidade.
 - **A verificação de zk-SNARK nunca foi o estrangulamento.** A proposta deixa claro que a parte lenta é a forma como as wallets descobrem e coordenam o estado, e não o custo de verificar provas.
-- **"Destinado a NU7" não é um compromisso.** O que entra em NU7 é decidido por votação.
+- **Tachyon não está em NU7.** Foi outrora indicado como candidato, mas o âmbito acordado em setembro de 2026 abrange blocos de 25 segundos, reciclagem de taxas e o fim das transações da versão 4, sem um novo formato de transação ([ZIP 259](https://zips.z.cash/zip-0259)).
 
 <br/>
 

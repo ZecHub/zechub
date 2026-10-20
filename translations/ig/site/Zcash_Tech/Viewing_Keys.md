@@ -74,7 +74,7 @@ Inyefe adreesị Sapling na-eweghachi igodo nlele zuru oke nke akaụntụ ahụ
 
 ### Obere akpa ego ndị na-ebupụ igodo nlele site na interface nke ha
 
-Ihe [Obere akpa](/using-zcash/wallets) Ibe akwụkwọ ahụ na-egosi nkwado igodo nlele na njikere Ironwood maka obere akpa ọ bụla. N'oge a na-ede ihe a, obere akpa nwere ihe nkwado igodo nlele na **Ironwood: Njikere** gụnyere ZODL, Zingo!, Zkool, Achịcha, Zallet, Zecd na Nozy. Lelee ibe ahụ kama nke a tupu ị dabere na obere akpa ọ bụla, n'ihi na njikere na-agbanwe.
+Ihe [Obere akpa](/using-zcash/wallets) Ibe akwụkwọ ahụ na-egosi nkwado igodo nlele na njikere Ironwood maka obere akpa ọ bụla. N'oge a na-ede ihe a, obere akpa nwere ihe nkwado igodo nlele na **Ironwood: Njikere** gụnyere ZODL, Zingo!, Zkool, Achịcha, Zallet, zecd na Nozy. Lelee ibe ahụ kama nke a tupu ị dabere na obere akpa ọ bụla, n'ihi na njikere na-agbanwe.
 
 ## Ibubata igodo nlele dị ka akaụntụ elekere naanị
 

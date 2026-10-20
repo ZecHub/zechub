@@ -26,7 +26,7 @@ Karena terdapat dua jenis, nilai dapat berpindah dalam empat cara: transparan ke
 
 ## Apa yang dapat dilihat oleh explorer
 
-Explorer publik seperti [Blockchair](https://blockchair.com/zcash) dapat membaca dengan jelas:
+Explorer publik seperti [ZecBlock](https://zecblock.com/) dapat membaca dengan jelas:
 
 - Setiap pembayaran yang sepenuhnya transparan (t ke t), dari ujung ke ujung.
 - Uang yang masuk ke dalam pool terlindungi (sisi transparan dan jumlahnya).
@@ -65,7 +65,7 @@ Saat melakukan kueri pada data mentah, field pengirim dan penerima terlindungi a
 - [Zcash: rekomendasi privasi dan keamanan](https://z.cash/support/security/privacy-security-recommendations/)
 - [Ekosistem terlindungi (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Cara kerja teknologi Zcash](https://z.cash/technology/)
-- [Blockchair explorer ](https://blockchair.com/zcash)Zcash
+- [ZecBlock](https://zecblock.com/)
 
 ## Halaman terkait
 

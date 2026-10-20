@@ -79,4 +79,4 @@ Privacy policy डिफ़ॉल्ट रूप से `FullPrivacy` है।
 4. उस operation id के लिए `z_getoperationstatus` को poll करना चाहिए।
 5. केवल `success` के बाद txid रिकॉर्ड करना चाहिए।
 
-पुराना tutorial पृष्ठ [Shielded Newsletter scripts](/tutorials/shieldednewsletter/readme) पर बना हुआ है। प्रक्रिया के लिए इस पृष्ठ का उपयोग करें।
+पुराना tutorial पृष्ठ [Shielded Newsletter scripts](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md) पर बना हुआ है। प्रक्रिया के लिए इस पृष्ठ का उपयोग करें।

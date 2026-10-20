@@ -39,7 +39,7 @@ Baik Tor maupun I2P adalah jaringan peer-to-peer yang terdesentralisasi dan anon
 
 Orbot adalah virtual private network (VPN) tanpa biaya yang dirancang untuk smartphone, yang mengarahkan lalu lintas dari semua aplikasi di perangkat kamu melalui jaringan Tor.
 
-Ikuti instruksi ini untuk mengarahkan dompet Zcash melalui Tor. Perlu diperhatikan bahwa Ywallet, yang digunakan oleh versi panduan sebelumnya, tidak lagi dikelola dan tidak akan mengikuti jaringan setelah Ironwood, jadi pilihlah dompet yang masih dikelola dari halaman [Wallets](/using-zcash/wallets).
+Ikuti instruksi ini untuk mengarahkan dompet Zcash melalui Tor. Perlu diperhatikan bahwa YWallet, yang digunakan oleh versi panduan sebelumnya, tidak lagi dikelola dan tidak akan mengikuti jaringan setelah Ironwood, jadi pilihlah dompet yang masih dikelola dari halaman [Wallets](/using-zcash/wallets).
 
 1. Unduh dan instal *Orbot* dari toko aplikasi.
 
@@ -56,13 +56,13 @@ Ikuti instruksi ini untuk mengarahkan dompet Zcash melalui Tor. Perlu diperhatik
 
 ## Menginstal Tor di PC atau desktop
 
-* Browser Tor dapat diunduh dari situs web resmi, kamu dapat mengakses tautan [di sini](https://www.torproject.org/download/).
+* Browser Tor dapat diunduh dari situs web resmi, kamu dapat mengakses tautan [di sini](https://download.torproject.org/).
 
 Cara paling praktis untuk menginstal Tor adalah melalui Tor Browser Bundle. Jika kamu lebih menyukai instalasi headless, kamu dapat memilih untuk menginstal daemon Tor secara terpisah.
 
 *Catatan: Secara default, paket Tor Browser mengekspos listener SOCKS pada tcp/9150 dan daemon Tor mengekspos listener SOCKS pada tcp/9050.*
 
-* Rujuk ke instruksi [instalasi](https://support.torproject.org/apt/) khusus untuk sistem operasi kamu sebagaimana disediakan oleh Tor Project.
+* Rujuk ke [instruksi instalasi](https://support.torproject.org/little-t-tor/getting-started/installing/) khusus untuk sistem operasi kamu sebagaimana disediakan oleh Tor Project.
 
 ## Menjalankan node melalui Tor
 

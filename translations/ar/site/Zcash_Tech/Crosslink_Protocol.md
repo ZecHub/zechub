@@ -12,6 +12,7 @@
 * يتم تفعيل **وضع الأمان** إذا تأخر السجل النهائي بأكثر من *L* من الكتل: يستمر PoW، لكن تتوقف الأنشطة الاقتصادية إلى أن تُحل المشكلة.
 * مع مرور الوقت، سيحصل مدققو PoS على حصة متزايدة من المكافآت، مما يقلل أرباح معدّني PoW؛ ويُدخل البروتوكول هذه التغييرات تدريجيًا.
 * يجري تطوير البروتوكول بواسطة Shielded Labs، مع خارطة طريق لدمج Crosslink 2* في عميل Zebra الخاص بـ Zcash.
+* لا يكون Crosslink نشطًا على الشبكة الرئيسية لـ Zcash. وهو يعمل على Feature Net التابعة لـ Shielded Labs، وهي شبكة اختبار يمكن لأي شخص الانضمام إليها. انظر «وضع Crosslink» أدناه.
 
 ## الشرح الأساسي
 
@@ -81,7 +82,7 @@
 
 ### التفاصيل التقنية والنشر
 
-يجري تطوير ونشر بروتوكول Crosslink بنشاط بواسطة Shielded Labs بالتعاون مع شركاء رئيسيين في النظام البيئي مثل Zodl. ويتضمن تنفيذ البروتوكول ما يلي:
+يجري تطوير ونشر بروتوكول Crosslink بنشاط بواسطة Shielded Labs بالتعاون مع شركاء رئيسيين في النظام البيئي مثل ZODL. ويتضمن تنفيذ البروتوكول ما يلي:
 
 * إنشاء آليات رهن آمنة للمشاركين في PoS.
 * تعديل هيكل المكافآت لموازنة الحوافز بين المعدّنين والقائمين بالرهن.
@@ -90,7 +91,20 @@
 * منطق التفعيل: يتطلب إدخال Crosslink إجراء تغييرات على قواعد الإجماع في Zcash، بما في ذلك تعريف عملية توزيع الرهن وتحديث قواعد بروتوكول الشبكة لدعم الإجماع الهجين.
 * النشر المرحلي: سيُطرح البروتوكول على مراحل لضمان استقرار الشبكة وتكيّف المجتمع. وتركز المراحل الأولية على التنفيذ التقني، تليها مرحلة دمج الحوكمة لاختيار الموثقين.
 
-يمكنك استكشاف التفاصيل التقنية ومتابعة تقدمه عبر [مستودع zebra-crosslink على GitHub](https://github.com/ShieldedLabs/zebra-crosslink) و[كتاب zebra-crosslink](https://shieldedlabs.github.io/zebra-crosslink/).
+النموذج الأولي السابق ووثائقه موجودان في [مستودع zebra-crosslink على GitHub](https://github.com/ShieldedLabs/zebra-crosslink) و[كتاب zebra-crosslink](https://shieldedlabs.github.io/zebra-crosslink/). ويُوصَف العمل الحالي في القسم التالي.
+
+### مكانة Crosslink
+
+Crosslink لا يزال مقترحًا. تذكر صفحة الأسئلة الشائعة لـ Shielded Labs' [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) أنه «سيتعين أن يمر عبر عملية الحوكمة القياسية لـ Zcash» قبل أن يتمكن من التفعيل على الشبكة الرئيسية.
+
+الموجود اليوم هو **Feature Net**: شبكة اختبار تديرها Shielded Labs، ولها عملتها الاختبارية الخاصة، cTAZ، حيث يمكن لأي شخص التعدين، والمشاركة في التخزين، وتشغيل مُنهٍ. يبدأ [الإصدار 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)، الصادر في 1 أكتوبر 2026، بإثبات عمل عادي ويُفعّل Crosslink على مراحل: التخزين من الكتلة 20,736، وأول قائمة من المُنهين مأخوذة عند الكتلة 34,560، والنهائية BFT من الكتلة 36,288 ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+
+تغيّر أمران في هذه الصفحة منذ كتابتها:
+
+* **يُسمّى الدور المُشار إليه هنا باسم notary باسم finalizer** في برمجيات وملاحظات إصدار Shielded Labs. يفوّض المراهنون العملات إلى finalizer، ويصوّت الـfinalizers الذين يملكون أكبر حصة لاعتماد الكتل نهائيًا.
+* **انتقل الكود.** كان مستودع zebra-crosslink المذكور أعلاه قد حُدِّث آخر مرة في أبريل 2026. تأتي إصدارات Feature Net من [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)، والتصميم موثّق في كتاب [Crosslink](https://shieldedlabs.github.io/crosslink_book/).
+
+لتجربته بنفسك، اتبع دليل [Crosslink Feature Net](/guides/crosslink-feature-net). ولمراقبة الشبكة من دون تشغيل أي شيء، افتح تبويب Crosslink في [ZecHub الأدوات](https://zechub.wiki/tools?tool=crosslink).
 
 ## الآثار العملية
 
@@ -121,16 +135,17 @@
 
 ## صفحات ذات صلة
 
-- [عقدة Zebra الكاملة](/zcash-tech/zebra-full-node) — العميل الذي يُخطط لدمج Crosslink 2* فيه.
-- [العقد الكاملة](/zcash-tech/full-nodes) — كيف تتحقق العقد من قواعد الإجماع اليوم، قبل أي تغيير في الإجماع الهجين.
-- [ترقيات الشبكة](/start-here/network-upgrades) — كيف تصل تغييرات قواعد الإجماع إلى شبكة Zcash.
-- [السياسة النقدية لـ Zcash](/start-here/zcash-monetary-policy) — هيكل مكافآت الكتل الذي سيعيد Crosslink توزيعه.
+- [Crosslink Feature Net](/guides/crosslink-feature-net) — ثبّت تطبيق سطح المكتب Feature Net، وفوّض الحصّة إلى مُنهٍ وتحقّق من مركزك.
+- [Zebra عقدة كاملة](/zcash-tech/zebra-full-node) — من المخطط دمج العميل Crosslink 2* فيه.
+- [العقد الكاملة](/zcash-tech/full-nodes) — كيفية تحقّق العقد من قواعد الإجماع اليوم، قبل أي تغيير في الإجماع الهجين.
+- [ترقيات الشبكة](/start-here/network-upgrades) — كيفية وصول تغييرات قواعد الإجماع إلى شبكة Zcash.
+- [Zcash السياسة النقدية](/start-here/zcash-monetary-policy) — هيكل مكافأة الكتلة الذي سيعيد Crosslink توزيعه.
 
 ## موارد إضافية
 
-- رؤى المجتمع: [منتدى مجتمع Zcash - نقاشات Crosslink](https://forum.zcashcommunity.com)
-- تحديثات رسمية: [مدونة Electric Coin Company](https://electriccoin.co)
-- التركيز على الاستدامة: [لماذا يهم PoS الهجين بالنسبة إلى Zcash](https://forum.zcashcommunity.com)
+- نقاش المجتمع: [Crosslink: Feature Net محفَّز، على منتدى مجتمع Zcash](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
+- التحديثات الرسمية: [Crosslink على Shielded Labs](https://shieldedlabs.net/crosslink/) وإصدارات [Feature Net](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- مرجع التصميم: [كتاب Crosslink](https://shieldedlabs.github.io/crosslink_book/)
 
   المرجع:
 

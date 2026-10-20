@@ -6,6 +6,8 @@
 
 > Zcashは2016年10月28日、Sproutシールドプールとともにローンチされました。
 
+> **警告:** NU7が有効化されると、Sproutプールにまだ残っているZECは使用不能になります（メインネットは2026年11月5日を目標とし、最終決定は2026年10月20日です。詳細は[ZIP 259](https://zips.z.cash/zip-0259)を参照）。Sproutの資金を保有している場合は、[資金の回復](../using-zcash/recovering-funds)を読み、先に移行してください。
+
 ここでわかること: SproutはZcashの出発点であり、プライベートで検証可能なお金が初めて実際のブロックチェーン上で稼働した場所です。
 
 SproutはZcashネットワークの最初のローンチであり、後の[ネットワークアップグレード](../start-here/network-upgrades)ではありません。2016年10月28日のジェネシスブロックで稼働を開始しました。Sproutを定義する番号付きZIPは存在しません。ZIPプロセスは後のOverwinterから始まったため、Sproutは元のZcash Protocol Specificationと、その基盤となったZerocash構造によって説明されます。[Electric Coin Company](../zcash-organizations/electric-coin-company)（当時はZerocoin Electric Coin Company）は、Zooko Wilcoxの主導のもとでこれを構築し、リリースしました。Sproutは、実用的な初のzk-SNARKシールドトランザクションと最初のシールドプールを導入し、ネットワークが残高の整合性を確認し続けながら、送信者、受信者、金額を隠したままZECを送れるようにしました。この名前には、チームが成長を期待していた若く芽吹くチェーンという意味が込められていました。

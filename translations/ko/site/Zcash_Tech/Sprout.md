@@ -6,6 +6,8 @@
 
 > Zcash는 2016년 10월 28일, Sprout 차폐 풀과 함께 출시되었습니다.
 
+> **경고:** NU7가 활성화되면 Sprout 풀에 아직 남아 있는 ZEC는 사용할 수 없게 됩니다(메인넷 목표일은 2026년 11월 5일, 최종 결정일은 2026년 10월 20일이며, [ZIP 259](https://zips.z.cash/zip-0259) 참조). Sprout 자금을 보유하고 있다면 [자금 복구](../using-zcash/recovering-funds)를 읽고 먼저 이전하세요.
+
 이 문서를 통해 알게 될 것: Sprout는 Zcash가 시작된 지점이며, 사적이면서도 검증 가능한 화폐가 실제 블록체인에서 처음으로 작동한 사례입니다.
 
 Sprout는 나중에 나온 [네트워크 업그레이드](../start-here/network-upgrades)가 아니라 Zcash 네트워크의 최초 출시입니다. 2016년 10월 28일 제네시스 블록과 함께 가동되었습니다. Sprout를 정의하는 번호 붙은 ZIP은 없습니다. ZIP 절차는 이후 Overwinter와 함께 시작되었기 때문에, Sprout는 원래의 Zcash 프로토콜 명세와 그것이 기반으로 삼은 Zerocash 구조로 설명됩니다. Zooko Wilcox가 이끈 [Electric Coin Company](../zcash-organizations/electric-coin-company)(당시 이름은 Zerocoin Electric Coin Company)가 이를 개발하고 출시했습니다. Sprout는 최초의 실용적인 zk-SNARK 차폐 트랜잭션과 원래의 차폐 풀을 도입하여, 네트워크가 잔액의 합이 맞는지 계속 확인하면서도 사람들이 송신자, 수신자, 금액이 숨겨진 상태로 ZEC를 보낼 수 있게 했습니다. 이 이름은 팀이 성장할 것으로 기대했던, 이제 막 싹튼 어린 체인을 상징했습니다.

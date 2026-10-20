@@ -26,11 +26,11 @@ Zebra adalah implementasi full node mandiri dan siap produksi dari protokol Zcas
 
 Zebra memvalidasi blok dan transaksi, berpartisipasi dalam jaringan peer-to-peer, dan menyediakan antarmuka RPC untuk aplikasi. Dompet kini menjadi komponen terpisah: [Zallet](https://github.com/zcash/zallet) berjalan terhadap sebuah node Zebra dan menangani kunci serta saldo. Ini menggantikan zcashd, yang menyatukan node dan dompet dalam satu proses tunggal.
 
-Untuk melayani dompet light terlindungi, node berjalan bersama dengan sebuah indexer, baik [lightwalletd](https://github.com/zcash/lightwalletd) yang sudah mapan maupun [Zaino](https://zechub.wiki/zaino) yang lebih baru.
+Untuk melayani dompet ringan terlindungi, node berjalan bersama sebuah indexer, baik [lightwalletd](https://github.com/zcash/lightwalletd) yang sudah mapan maupun [Zaino](https://zechub.wiki/zcash-tech/zaino) yang lebih baru.
 
 Pastikan Anda membaca buku Zebra untuk instruksi pengaturan, dan bergabunglah dengan server Discord R&D untuk mendapatkan dukungan.
 
-[Github](https://github.com/ZcashFoundation/zebra/)
+[GitHub](https://github.com/ZcashFoundation/zebra/)
 
 Buku ](https://zebra.zfnd.org)Zebra dari [
 
@@ -42,17 +42,17 @@ Zakura adalah full node kedua yang kompatibel dengan konsensus, yang merupakan f
 
 ### zcashd (pensiun)
 
-> **Catatan:** zcashd telah dipensiunkan. Electric Coin Company [telah mengumumkan penghentian penggunaan](https://z.cash/support/zcashd-deprecation/), dan penghentian otomatis Akhir-Dukungan (End-of-Support) tercapai pada 18 Juli 2026 pada ketinggian blok 3417100. Setiap zcashd 6.20.0 node yang tidak dimodifikasi berhenti beroperasi pada ketinggian tersebut dan menolak untuk memulai ulang, dan perangkat lunak ini tidak mendukung NU6.3. Gunakan Zebra. Jika Anda memegang zcashd `wallet.dat`, ikuti [Panduan Migrasi: zcashd ke Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **Catatan:** zcashd telah dipensiunkan. Electric Coin Company [telah mengumumkan penghentian penggunaan](https://z.cash/support/zcashd-deprecation/), dan penghentian otomatis Akhir Dukungan tercapai pada 18 Juli 2026 pada ketinggian blok 3417100. Setiap node zcashd 6.20.0 yang tidak dimodifikasi berhenti beroperasi pada ketinggian tersebut dan menolak untuk memulai ulang, dan perangkat lunak ini tidak mendukung NU6.3. Gunakan Zebra. Jika Anda memiliki zcashd `wallet.dat`, ikuti [Panduan Migrasi: zcashd ke zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd adalah implementasi Full Node asli untuk Zcash, yang dikembangkan dan dikelola oleh Electric Coin Company. Instruksi build di bawah ini tetap disertakan sebagai referensi dan bagi operator yang bermigrasi dari zcashd.
 
-Zcashd mengekspos sekumpulan API melalui antarmuka RPC-nya. API ini menyediakan fungsi yang memungkinkan aplikasi eksternal untuk berinteraksi dengan node.
+zcashd mengekspos sekumpulan API melalui antarmuka RPC-nya. API ini menyediakan fungsi yang memungkinkan aplikasi eksternal untuk berinteraksi dengan node.
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) adalah contoh aplikasi yang menggunakan full node untuk memungkinkan developer membangun dan memelihara dompet ringan terlindungi yang ramah seluler tanpa harus berinteraksi secara langsung dengan Zcashd.
+[lightwalletd](https://github.com/zcash/lightwalletd) adalah contoh aplikasi yang menggunakan full node untuk memungkinkan developer membangun dan memelihara dompet ringan terlindungi yang ramah seluler tanpa harus berinteraksi secara langsung dengan zcashd.
 
 Daftar lengkap perintah RPC [ yang didukung](https://zcash.github.io/rpc/)
 
-Buku [Zcashd](https://zcash.github.io/zcash/)
+Buku [zcashd](https://zcash.github.io/zcash/)
 
 #### Menjalankan sebuah Node (Linux)
 
@@ -84,7 +84,7 @@ Untuk menjalankan node, jalankan:
 
 - Kunci Privat disimpan di ~/.zcash/wallet.dat
 
-Panduan untuk Zcashd pada Raspberry Pi [](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Panduan untuk zcashd di Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Implikasi Praktis
 
@@ -100,11 +100,9 @@ DNS seeder menyediakan daftar node andal lainnya melalui server bawaan. Hal ini 
 
 Berikut adalah contoh platform yang memungkinkan akses ke data Jaringan Zcash:
 
-[Zcash Penjelajah Blok](https://zcashblockexplorer.com)
+[Zcash Penjelajah Blok](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Anda juga dapat berkontribusi pada pengembangan jaringan dengan menjalankan pengujian atau mengusulkan peningkatan baru & menyediakan metrik.
 
@@ -112,7 +110,7 @@ Anda juga dapat berkontribusi pada pengembangan jaringan dengan menjalankan peng
 
 Penambang memerlukan full node untuk mengakses semua RPC terkait penambangan seperti `getblocktemplate` & `getmininginfo`.
 
-Zcashd juga memungkinkan penambangan ke coinbase terlindungi. Penambang dan pool penambangan memiliki opsi untuk menambang secara langsung guna mengakumulasi ZEC terlindungi dalam alamat z secara default.
+zcashd juga memungkinkan penambangan ke coinbase terlindungi. Penambang dan pool penambangan memiliki opsi untuk menambang secara langsung guna mengakumulasi ZEC terlindungi dalam alamat z secara default.
 
 Baca [Panduan Penambangan](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) atau kunjungi halaman Forum Komunitas untuk [Zcash Penambang](https://forum.zcashcommunity.com/c/mining/13).
 

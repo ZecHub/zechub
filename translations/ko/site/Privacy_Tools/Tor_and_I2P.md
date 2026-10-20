@@ -39,7 +39,7 @@ Tor와 I2P는 모두 분산형 익명 피어 투 피어 네트워크이지만, I
 
 Orbot은 스마트폰용 무료 가상 사설망(VPN)으로, 기기에 있는 모든 애플리케이션의 트래픽을 Tor 네트워크를 통해 전달합니다.
 
-다음 지침에 따라 Zcash 지갑을 Tor를 통해 라우팅하세요. 이 가이드의 이전 버전에서 사용했던 Ywallet는 이제 더 이상 유지보수되지 않으며 Ironwood 이후 네트워크를 따라가지 못하므로, [지갑](/using-zcash/wallets) 페이지에서 유지보수 중인 지갑을 선택하세요.
+다음 지침에 따라 Zcash 지갑을 Tor를 통해 라우팅하세요. 이 가이드의 이전 버전에서 사용했던 YWallet는 이제 더 이상 유지보수되지 않으며 Ironwood 이후 네트워크를 따라가지 못하므로, [지갑](/using-zcash/wallets) 페이지에서 유지보수 중인 지갑을 선택하세요.
 
 1. 앱 스토어에서 *Orbot*을 다운로드하고 설치합니다.
 
@@ -56,13 +56,13 @@ Orbot은 스마트폰용 무료 가상 사설망(VPN)으로, 기기에 있는 �
 
 ## PC 또는 데스크톱에 Tor 설치하기
 
-* Tor 브라우저는 공식 웹사이트에서 다운로드할 수 있으며, 링크는 [여기](https://www.torproject.org/download/)에서 확인할 수 있습니다.
+* Tor 브라우저는 공식 웹사이트에서 다운로드할 수 있으며, 링크는 [여기](https://download.torproject.org/)에서 확인할 수 있습니다.
 
  Tor를 설치하는 가장 편리한 방법은 Tor Browser Bundle을 사용하는 것입니다. 헤드리스 설치를 선호한다면 Tor 데몬만 별도로 설치할 수도 있습니다. 
 
 *참고: 기본적으로 Tor Browser 번들은 tcp/9150에 SOCKS 리스너를 노출하고, Tor 데몬은 tcp/9050에 SOCKS 리스너를 노출합니다.*
 
-* 운영체제에 맞는 설치 [지침](https://support.torproject.org/apt/)은 Tor Project에서 제공하는 내용을 참고하세요.
+* 운영체제에 맞는 설치 [지침](https://support.torproject.org/little-t-tor/getting-started/installing/)은 Tor Project에서 제공하는 내용을 참고하세요.
 
 ## Tor를 통해 노드 실행하기
 

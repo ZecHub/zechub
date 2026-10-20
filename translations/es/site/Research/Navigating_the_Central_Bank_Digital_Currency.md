@@ -101,7 +101,7 @@ La inclusión financiera, antes un faro de esperanza, enfrenta las sombras de un
 
 Para quienes se aventuran en el territorio desconocido de las CBDC, los recursos se convierten en su brújula.
 1. El Banco de Pagos Internacionales ([BIS](https://www.bis.org/search?keywords=cbdc))
-2. el Fondo Monetario Internacional ([IMF](https://www.imf.org/en/About))
+2. el Fondo Monetario Internacional ([IMF](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Artículos de investigación ([artículo](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Revistas académicas ([revista](https://www.bis.org/publ/work976.pdf))
 5. Artículo de C.E.I  ([Artículo](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

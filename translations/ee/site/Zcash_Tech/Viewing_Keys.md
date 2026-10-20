@@ -74,7 +74,7 @@ Ne ètsɔ Sapling adrɛs aɖe yi la, àtrɔ akɔnta ma ƒe Sapling kekeɖenudɔw
 
 ### Gakotoku siwo tsɔa nukpɔkpɔ ƒe safuiwo ɖoa duta tso woawo ŋutɔ ƒe ŋgɔdonya me
 
-The [Gakotokuwo](/using-zcash/wallets) axaa léa ŋku ɖe viewing-key support kple Ironwood ƒe dzadzraɖo ɖe gakotoku ɖesiaɖe ŋu. Le nyati sia ŋɔŋlɔɣi la, gakotoku siwo me woŋlɔ nukpɔkpɔ-safui ƒe kpekpeɖeŋu kple **Ironwood: Ready** siaa ɖo dometɔ aɖewoe nye ZODL, Zingo!, Zkool, Cake, Zallet, Zecd kple Nozy. Kpɔ axa ma ɖa tsɔ wu be nàɖo ŋu ɖe gakotoku ɖeka ɖesiaɖe ŋu, elabena dzadzraɖo trɔna.
+The [Gakotokuwo](/using-zcash/wallets) axaa léa ŋku ɖe viewing-key support kple Ironwood ƒe dzadzraɖo ɖe gakotoku ɖesiaɖe ŋu. Le nyati sia ŋɔŋlɔɣi la, gakotoku siwo me woŋlɔ nukpɔkpɔ-safui ƒe kpekpeɖeŋu kple **Ironwood: Ready** siaa ɖo dometɔ aɖewoe nye ZODL, Zingo!, Zkool, Cake, Zallet, zecd kple Nozy. Kpɔ axa ma ɖa tsɔ wu be nàɖo ŋu ɖe gakotoku ɖeka ɖesiaɖe ŋu, elabena dzadzraɖo trɔna.
 
 ## Nukpɔkpɔ ƒe safui tsɔtsɔ va eme abe ŋkuléleɖenuŋu ƒe akɔnta ene
 

@@ -4,7 +4,7 @@
 
 # Privacy del mining e dello staking
 
-Il pagamento del tuo miner e il tuo finalizer non sono la stessa cosa. La chain non li collega mai. È utile, ed è facile sprecarlo.
+Il pagamento del tuo miner e il tuo finalizer non sono la stessa cosa. La chain non li collega mai.
 
 <div className="grid gap-3 my-5 sm:grid-cols-3">
   <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-700 dark:bg-emerald-950">
@@ -20,7 +20,7 @@ Il pagamento del tuo miner e il tuo finalizer non sono la stessa cosa. La chain 
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
     <div className="text-xs font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-300">Bond</div>
     <div className="mt-1 text-lg font-semibold text-amber-950 dark:text-amber-50">Stake schermato</div>
-    <p className="mt-1 text-sm text-amber-900 dark:text-amber-100">Si trova nel pool di staking. Indica un finalizer di destinazione.</p>
+    <p className="mt-1 text-sm text-amber-900 dark:text-amber-100">Si trova nella pool di staking. Indica un finalizer di destinazione.</p>
   </div>
 </div>
 
@@ -43,24 +43,26 @@ Il pagamento del tuo miner e il tuo finalizer non sono la stessa cosa. La chain 
 |---|---|---|
 | t-address del miner e cronologia coinbase | Sì | Output trasparenti normali |
 | Chiave del finalizer e zfinv1 | Sì, una volta nel roster | Deve esserlo, per verificare i voti |
-| Potere di voto e banca delle ricompense | Sì | Pubblicati rispetto alla chiave del finalizer |
-| Quale indirizzo trasparente ha finanziato un bond | No, dopo una schermatura | Il bond spende note schermate |
+| Potere di voto e banca delle ricompense | Sì | Pubblicati rispetto alla chiave del finalizer affinché la distribuzione dello stake sia verificabile |
+| Quale indirizzo trasparente ha finanziato un vincolo | No, dopo una schermatura | Il vincolo spende note schermate |
 | Collegamento dal tuo miner al tuo finalizer | Non sulla chain | Nulla nel protocollo lo scrive |
+
+Gli importi in staking vengono rivelati intenzionalmente. Il design richiede che il totale in staking e la distribuzione tra i finalizer siano verificabili pubblicamente. La quantizzazione (potenze di 10) e finestre di staking fisse limitano la quantità di informazioni su tempistiche o schemi individuali divulgata, pur consentendo tale verifica. I saldi Orchard non in staking restano privati; lo staking è la divulgazione intenzionale.
 
 ## Fai stake per te, o per qualcun altro
 
 <div className="grid gap-3 my-4 sm:grid-cols-2">
   <div className="rounded-xl border border-slate-300 bg-white p-4 dark:border-slate-600 dark:bg-slate-800">
-    <div className="font-semibold text-slate-900 dark:text-slate-50">Bond al tuo finalizer</div>
-    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">La soluzione più semplice. Mantieni il ruolo di operatore e il bond. Un osservatore non può comunque dimostrare, solo dai dati della chain, che il t-address e lo zfinv1 appartengano alla stessa persona.</p>
+    <div className="font-semibold text-slate-900 dark:text-slate-50">Crea un vincolo con il tuo finalizer</div>
+    <p className="mt-2 mb-0 text-sm text-slate-700 dark:text-slate-200">È l'opzione più semplice. Mantieni il ruolo di operatore e il vincolo. Un osservatore non può comunque dimostrare, basandosi solo sui dati della chain, che il t-address e lo zfinv1 appartengano alla stessa persona.</p>
   </div>
   <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700 dark:bg-amber-950">
-    <div className="font-semibold text-amber-950 dark:text-amber-50">Bond a un altro membro</div>
-    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Il potere di voto appare sotto la loro chiave. Guadagnano la commissione del 10% del finalizer attivo. Tu mantieni il 90% che matura sul bond. Questo è il modello che smentisce la supposizione più ovvia.</p>
+    <div className="font-semibold text-amber-950 dark:text-amber-50">Crea un vincolo con un altro membro</div>
+    <p className="mt-2 mb-0 text-sm text-amber-900 dark:text-amber-100">Il potere di voto appare sotto la sua chiave. Riceve la commissione del 10% del finalizer attivo. Mantieni il 90% che matura sul vincolo. Questo elimina l'ovvia ipotesi che il miner che riceve il pagamento trasparente sia la stessa persona che gestisce il finalizer.</p>
   </div>
 </div>
 
-Un gruppo può minare su indirizzi di pagamento separati, schermare e creare bond tra i membri. Questo rende molto più difficile affermare che «questo miner è questo finalizer». Non nasconde chi siano i finalizer, né nasconde il mining.
+Un gruppo può fare mining su indirizzi di pagamento separati, schermare e vincolare fra i membri. Ciò rende molto più difficile sostenere dai dati della chain che "questo miner è questo finalizer". Non nasconde chi siano i finalizer, né nasconde il mining.
 
 ## Cosa non fa
 

@@ -78,7 +78,7 @@ DNS seeders huonyesha orodha ya nodi nyingine za kuaminika kupitia seva iliyojen
 
 Hizi ni mifano ya majukwaa ambayo inaruhusu ufikiaji wa data ya Mtandao wa Zcash:
 
-[Zcash Block Explorer](https://zcashblockexplorer.com)
+[Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
 

@@ -32,7 +32,7 @@ Namada Protocol ayrıca Inter-Blockchain Communication (IBC) protokolünü deste
 
 ## Shielded Set Rewards
 
-[Namada Protocol](https://blog.namada.net/what-is-namada/) üzerindeki son güncellemede, shielded varlıkları elinde tutan kullanıcılar ortak shielded set'e aktif olarak katılmaları için teşvik edilmektedir. Bu, artık yenilikçi Convert Circuit'i de içeren güncellenmiş MASP devresinin entegrasyonu sayesinde mümkün olmaktadır. Namada, bu yeni özellikten yararlanarak kullanıcıları shielded varlıklar tutmaya ve ortak shielded set'e katkıda bulunmaya teşvik eder.
+[Namada Protocol](https://namada.net/blog/what-is-namada) üzerindeki son güncellemede, shielded varlıkları elinde tutan kullanıcılar ortak shielded set'e aktif olarak katılmaları için teşvik edilmektedir. Bu, artık yenilikçi Convert Circuit'i de içeren güncellenmiş MASP devresinin entegrasyonu sayesinde mümkün olmaktadır. Namada, bu yeni özellikten yararlanarak kullanıcıları shielded varlıklar tutmaya ve ortak shielded set'e katkıda bulunmaya teşvik eder.
 
 Namada'da shielded set, dışlayıcı olmayan ve rekabet karşıtı bir kamusal fayda olarak kabul edilir. Bu, daha fazla kişinin shielded transferleri kullandıkça her katılımcı için gizlilik güvencelerinin seviyesinin arttığı anlamına gelir. Protokol, tüm kullanıcılar için gizliliği artırmada kolektif benimsemenin ve katılımın önemini kabul eder. Bu nedenle, kullanıcıları shielded varlıklar tutmaya ve ortak shielded set'e katkıda bulunmaya teşvik ederek Namada, daha güçlü ve daha sağlam bir gizlilik ekosistemi oluşturur.
 
@@ -52,7 +52,7 @@ Buna ek olarak, Namada modern BFT uzlaşma algoritmalarından yararlanır; bunla
 
 ## Namada ve Zcash Stratejik İttifakı
 
-Yakın zamanda yayımlanan ve [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/) üzerinde bulunabilecek bir yayına göre, Namada Protocol'ün arkasındaki ekip, Namada ve Zcash varlıkları, zincirleri ve toplulukları arasında stratejik bir ittifak için bir teklif ve request-for-comment (RFC) sunmaktan heyecan duyuyor.
+Yakın zamanda yayımlanan ve [Namada Protocol Blog](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash) üzerinde bulunabilecek bir yayına göre, Namada Protocol'ün arkasındaki ekip, Namada ve Zcash varlıkları, zincirleri ve toplulukları arasında stratejik bir ittifak için bir teklif ve request-for-comment (RFC) sunmaktan heyecan duyuyor.
 
 ![Namada-Zcash Stratejik İttifak Diyagramı](/content-images/image-2-68804c60f3.webp)
 
@@ -62,5 +62,5 @@ Yakın zamanda yayımlanan ve [Namada Protocol Blog](https://blog.namada.net/rfc
 
 - [Namada Protocol Resmi Videosu](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 - [Namada Protocol Resmi Web Sitesi](https://namada.net/)
-- [Namada Blogu](https://blog.namada.net/)
+- [Namada Blogu](https://namada.net/blog)
 - [Namada Dokümantasyonu](https://docs.namada.net/)

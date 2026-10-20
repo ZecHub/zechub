@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Akɔntabubu ƒe ɖoɖowɔwɔ + Livestream ƒe nufiame
+# Free2Z: Akɔntabubu ƒe ɖoɖowɔwɔ + Livestream ƒe nufiame
 
 ## Kpɔkplɔyiɖeme
 
@@ -97,7 +97,7 @@ Alo, tso post aɖe me la, di floating plus ƒe dzesi. Tso afisia la, àte ŋu ad
 
 ## Live Streaming
 
-Free2z ƒe mɔ̃a naa nu dziŋɔ aɖe si woyɔna be Free2z Live. To dɔwɔnu sia dzi la, nuwɔlawo ateŋu adze live streams gɔme na hamevi siwo ŋlɔ ŋkɔ. Free2z Live ƒe akpa vevi aɖewoe nye: 
+Free2Z ƒe mɔ̃a naa nu dziŋɔ aɖe si woyɔna be Free2Z Live. To dɔwɔnu sia dzi la, nuwɔlawo ateŋu adze live streams gɔme na hamevi siwo ŋlɔ ŋkɔ. Free2Z Live ƒe akpa vevi aɖewoe nye: 
 - Odio kple video 
 - Screen dzi mamã 
 - Nuwɔwɔ aduadu ƒe kɔdawo ɖɔɖɔɖo 
@@ -105,9 +105,9 @@ Free2z ƒe mɔ̃a naa nu dziŋɔ aɖe si woyɔna be Free2z Live. To dɔwɔnu sia
 - Whiteboarding ƒe nuŋɔŋlɔ 
 - Eye nu geɖe wu hã!
 
-### Nukae nàte ŋu awɔ kple Free2z Live
+### Nukae nàte ŋu awɔ kple Free2Z Live
 
-Free2z Live nye dɔwɔnu sẽŋu aɖe, si na be nuwɔlawo te ŋu ɖea nyatakaka ƒomevi ɖesiaɖe ɖe go. Nyatakaka ƒomevi siwo nàte ŋu atsɔ Free2z Live awɔe ƒe kpɔɖeŋu ʋɛ aɖewoe nye esi: 
+Free2Z Live nye dɔwɔnu sẽŋu aɖe, si na be nuwɔlawo te ŋu ɖea nyatakaka ƒomevi ɖesiaɖe ɖe go. Nyatakaka ƒomevi siwo nàte ŋu atsɔ Free2Z Live awɔe ƒe kpɔɖeŋu ʋɛ aɖewoe nye esi: 
 - Nufiamewo kple wɔwɔfiawo 
 - Nuwɔnawo kple nudzɔdzɔwo 
 - Dɔ siwo wowɔna le nuwɔwɔ aduadu me 
@@ -116,7 +116,7 @@ Free2z Live nye dɔwɔnu sẽŋu aɖe, si na be nuwɔlawo te ŋu ɖea nyatakaka 
 
 ### Alesi woawɔ ayi live
 
-Ele bɔbɔe ŋutɔ be nàdze live stream gɔme kple Free2z Live. Gake nudidi ʋɛ aɖewo li hafi nàte ŋu adze wò tɔsisia gɔme. 
+Ele bɔbɔe ŋutɔ be nàdze live stream gɔme kple Free2Z Live. Gake nudidi ʋɛ aɖewo li hafi nàte ŋu adze wò tɔsisia gɔme. 
 1. **ele be** na **hameviwo ƒe asi** suetɔ kekeake si nye 2Z 10 nawɔla la. 
 2. **ele be** 2Z 150 ya teti ƒe ga si susɔ nanɔ wɔla la si le woƒe akɔnta me. 
 
@@ -124,7 +124,7 @@ Ne nuwɔla la ɖo nɔnɔme siwo le etame **evea siaa** gbɔ la, dzesi aɖe si ŋ
 
 ![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-Be nàdze live stream gɔme la, zi **Go Live** ƒe dzesi dzi ko, eye Free2z dɔwɔnua abia mɔɖeɖe be yeazã wò nuƒomɔ̃ kple webcam (ne ɖe le asiwò). Ne èna mɔɖeɖe siwo hiã vɔ la, Free2z abia tso asiwò be nàŋlɔ megbeŋkɔ si nèdi be yeazã le live stream la me. Ne ènya tia megbeŋkɔ ko la, zi **Join** dzi be nàdze wò live stream gɔme.
+Be nàdze live stream gɔme la, zi **Go Live** ƒe dzesi dzi ko, eye Free2Z dɔwɔnua abia mɔɖeɖe be yeazã wò nuƒomɔ̃ kple webcam (ne ɖe le asiwò). Ne èna mɔɖeɖe siwo hiã vɔ la, Free2Z abia tso asiwò be nàŋlɔ megbeŋkɔ si nèdi be yeazã le live stream la me. Ne ènya tia megbeŋkɔ ko la, zi **Join** dzi be nàdze wò live stream gɔme.
 
 ![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Eye wòwu enu! Ne èdze live stream gɔme la, wò profile aɖe dzesi aɖe afia s
 
 Ne amewo va ge ɖe television dzi wɔnawo me la, woate ŋu aɖo dze, abia be yewoawɔ ɖeka kple fefewɔƒea, awɔ nu aduadu to akɔdada me le akɔdadawo me, kple bubuwo.
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Free2z Live ƒe ɣeyiɣi ƒe kpɔɖeŋu)_
+_(Free2Z Live ƒe ɣeyiɣi ƒe kpɔɖeŋu)_
 
-Free2z Live nye nusi woate ŋu azã le mɔ vovovowo nu eye ŋusẽ le eŋu. Le akpa si kplɔe ɖo me la, matsɔ eƒe dɔwɔwɔwo kple dɔwɔnuwo ŋuti nyatakaka kpui aɖe ana.
+Free2Z Live nye nusi woate ŋu azã le mɔ vovovowo nu eye ŋusẽ le eŋu. Le akpa si kplɔe ɖo me la, matsɔ eƒe dɔwɔwɔwo kple dɔwɔnuwo ŋuti nyatakaka kpui aɖe ana.
 
-### Free2z Live me dzodzro
+### Free2Z Live me dzodzro
 
-Menye ɖe woɖoe be wiki-doc sia nanye mɔfianu deto na Free2z alo Free2z Live o. Gake eƒe dɔwɔnuwo ŋuti nyatakaka bliboae nye esi.
+Menye ɖe woɖoe be wiki-doc sia nanye mɔfianu deto na Free2Z alo Free2Z Live o. Gake eƒe dɔwɔnuwo ŋuti nyatakaka bliboae nye esi.
 
 Le screen la ƒe miame le ete la, míekpɔa abɔta ʋɛ aɖewo.
 
@@ -177,19 +177,19 @@ Menye wiki-doc sia ƒe taɖodzinue nye be wòaɖe kpeɖeŋutɔawo katã me o, ga
 
 ## Nyanuwuwuw
 
-Le nyataƒoƒo me la, Free2z nye mɔnu si woate ŋu azã le mɔ vovovowo nu na nuwɔlawo be woaɖe woƒe ŋutetewo afia, ama sidzedze eye woakpɔ ga na woƒe dɔwo, eye woawɔ nu kple woƒe kpeɖeŋutɔwo to Free2z Live ƒe dɔwɔnu sẽŋua dzi.
+Le nyataƒoƒo me la, Free2Z nye mɔnu si woate ŋu azã le mɔ vovovowo nu na nuwɔlawo be woaɖe woƒe ŋutetewo afia, ama sidzedze eye woakpɔ ga na woƒe dɔwo, eye woawɔ nu kple woƒe kpeɖeŋutɔwo to Free2Z Live ƒe dɔwɔnu sẽŋua dzi.
 
 ----
 
 ### Nunɔamesiwo
 
-[Free2z](https://free2z.cash/)  
-[Free2z ƒe nuŋlɔɖiwo](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Free2Z ƒe nuŋlɔɖiwo](https://free2z.cash/docs/)  
 [2Z Kpɔɖeŋu](https://free2z.cash/docs/getting-started/tuzis)  
 [Ameŋunyatakaka aɖe wɔwɔ](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Nukae nye Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z na Kpeɖeŋutɔwo](https://free2z.cash/docs/category/for-supporters)
+[Nukae nye Free2Z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z na Kpeɖeŋutɔwo](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_James Katz ye ŋlɔe na Zechub._
+_James Katz ye ŋlɔe na ZecHub._

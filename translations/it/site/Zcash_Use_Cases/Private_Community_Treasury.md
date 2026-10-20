@@ -49,7 +49,7 @@ Zcash permette alle comunità di:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
 
-- Un wallet Zcash (o più wallet per la separazione dei ruoli)
+- Un portafoglio Zcash (o più portafogli per la separazione dei ruoli)
 - Processi interni chiari per la gestione dei fondi
 - Opzionale: documentazione condivisa per il tracciamento
 
@@ -57,13 +57,13 @@ Zcash permette alle comunità di:
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida passo passo
 
-### Passo 1: Crea un indirizzo schermato per la tesoreria
+### Passo 1: crea un indirizzo schermato per la tesoreria
 
 - Genera un **indirizzo-z** per la tesoreria
 - Questo diventa il conto principale di detenzione
 
 
-### Passo 2: Definisci i ruoli
+### Passo 2: definisci i ruoli
 
 Separa le responsabilità:
 - Tesoriere (controlla i fondi)
@@ -74,17 +74,17 @@ Evita di collegare questi ruoli a identità pubbliche.
 
 
 
-### Passo 3: Ricevi fondi in modo privato
+### Passo 3: ricevi fondi in modo privato
 
 - Accetta i contributi tramite l'indirizzo schermato
-- Incoraggia i contributori a inviare da wallet schermati
+- Incoraggia i contributori a inviare da portafogli schermati
 
 
 
-### Passo 4: Traccia le transazioni internamente
+### Passo 4: traccia le transazioni internamente
 
 Usa:
-- Memo dei wallet
+- Memo dei portafogli
 - Registri off-chain (es. documenti condivisi)
 
 Esempio di memo: 
@@ -92,7 +92,7 @@ Esempio di memo:
 
 
 
-### Passo 5: Esegui i pagamenti in modo privato
+### Passo 5: esegui i pagamenti in modo privato
 
 - Invia i fondi tramite transazioni schermate (z → z)
 - Evita di esporre pubblicamente le identità dei destinatari
@@ -102,7 +102,7 @@ Esempio di memo:
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Errori comuni da evitare
 
 - Usare indirizzi transparent per la tesoreria  
-- Pubblicare pubblicamente i saldi dei wallet  
+- Pubblicare pubblicamente i saldi dei portafogli  
 - Non tracciare le transazioni internamente  
 - Collegare l'indirizzo della tesoreria a individui identificabili  
 
@@ -121,7 +121,7 @@ La tua comunità può:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Correlati
 
-- [Privacy - Buone pratiche](/privacy/best-practices)
+- [Privacy - Buone pratiche](/start-here/who-can-see-your-zcash-payment)
 - [Inviare denaro senza collegare l'identità](/zcash-use-cases/send-money-without-linking-identity)
  
 

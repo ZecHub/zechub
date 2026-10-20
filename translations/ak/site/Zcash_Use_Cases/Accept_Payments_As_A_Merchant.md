@@ -121,7 +121,7 @@ Wobɛtumi:
 
 
 - [Sika kotoku](/wallets)
-- [Privacy - Nneyɛe a Ɛyɛ Paara](/privacy/best-practices)
+- [Privacy - Nneyɛe a Ɛyɛ Paara](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

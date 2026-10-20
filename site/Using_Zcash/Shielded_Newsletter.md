@@ -79,4 +79,4 @@ A corrected runner should:
 4. Poll `z_getoperationstatus` for that operation id.
 5. Record the txid only after `success`.
 
-The old tutorial page remains at [Shielded Newsletter scripts](/tutorials/shieldednewsletter/readme). Use this page for the procedure.
+The old tutorial page remains at [Shielded Newsletter scripts](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Use this page for the procedure.

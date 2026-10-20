@@ -137,7 +137,7 @@ ZecMap은 점점 더 많은 소매 매장에서 사용되는 결제 네트워크
 
 ## 관련 페이지
 
-- [ZEC 사용하기](/using-zcash/spend-zcash) — 실제 세계에서 ZEC를 사용하는 다른 방법
+- [ZEC 사용하기](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — 실제 세계에서 ZEC를 사용하는 다른 방법
 - [결제 처리업체](/using-zcash/payment-processors) — 가맹점이 ZEC를 받기 위한 도구
 - [ZEC를 프라이버시 있게 사용하기](/guides/using-zec-privately) — shielded 결제를 위한 모범 사례
 - [지갑](/using-zcash/wallets) — ZEC 가맹점 결제와 호환되는 지갑

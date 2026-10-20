@@ -1,0 +1,61 @@
+{
+  "_about": "Native-language versions of the review instructions, printed above the English ones by review-kit.mjs export. 'machine': true marks a text not yet checked by a native speaker; the kit asks the reviewer to correct it. Languages missing here get the English instructions only.",
+  "languages": {
+    "pt": {
+      "text": "**Como preencher**\n- **Coluna ✅:** escreva `OK` se a tradução indicada estiver correta, `keep English` para manter a palavra em inglês, ou a tradução que usaria. Uma tradução por célula. Deixe vazio se não tiver a certeza. Não altere a coluna ID.\n- **Coluna Notes (importante):** em cada linha que alterar ou marcar `keep English`, escreva uma frase curta, por palavras suas, a explicar porquê, por exemplo «é o termo usado pelas corretoras e carteiras locais» ou «esta palavra significa morada». Use também as Notes quando a palavra certa depender do contexto (verbo ou substantivo, menu ou página), ou quando uma linha não for clara. Alterações sem nota podem não ser aceites.",
+      "machine": false
+    },
+    "es": {
+      "text": "**Cómo rellenar**\n- **Columna ✅:** escribe `OK` si la traducción indicada es correcta, `keep English` para mantener la palabra en inglés, o la traducción que usarías. Una traducción por celda. Déjala vacía si no estás seguro. No modifiques la columna ID.\n- **Columna Notes (importante):** en cada fila que cambies o marques `keep English`, escribe una frase corta, con tus propias palabras, explicando por qué; por ejemplo «es el término que usan los exchanges y monederos locales» o «esta palabra significa dirección postal». Usa también Notes cuando la palabra correcta dependa del contexto (verbo o sustantivo, menú o página) o cuando una fila no esté clara. Los cambios sin nota pueden no aceptarse.",
+      "machine": false
+    },
+    "fr": {
+      "text": "**Comment remplir**\n- **Colonne ✅ :** écrivez `OK` si la traduction proposée est correcte, `keep English` pour garder le mot anglais, ou la traduction que vous utiliseriez. Une seule traduction par cellule. Laissez la cellule vide si vous n'êtes pas sûr. Ne modifiez pas la colonne ID.\n- **Colonne Notes (important) :** pour chaque ligne que vous modifiez ou marquez `keep English`, écrivez une courte phrase, avec vos propres mots, qui explique pourquoi, par exemple « c'est le terme utilisé par les plateformes d'échange et les portefeuilles locaux » ou « ce mot désigne une adresse postale ». Utilisez aussi Notes quand le bon mot dépend du contexte (verbe ou nom, menu ou page) ou quand une ligne n'est pas claire. Une modification sans note risque de ne pas être acceptée.",
+      "machine": false
+    },
+    "de": {
+      "text": "**So füllen Sie die Tabelle aus**\n- **Spalte ✅:** Schreiben Sie `OK`, wenn die angezeigte Übersetzung stimmt, `keep English`, um das englische Wort beizubehalten, oder die Übersetzung, die Sie verwenden würden. Eine Übersetzung pro Zelle. Lassen Sie die Zelle leer, wenn Sie unsicher sind. Ändern Sie die Spalte ID nicht.\n- **Spalte Notes (wichtig):** Schreiben Sie bei jeder Zeile, die Sie ändern oder mit `keep English` markieren, in eigenen Worten einen kurzen Satz dazu, warum, zum Beispiel „so heißt es bei deutschsprachigen Börsen und Wallets“ oder „dieses Wort bedeutet Postanschrift“. Nutzen Sie Notes auch, wenn das richtige Wort vom Kontext abhängt (Verb oder Substantiv, Menü oder Seite) oder wenn eine Zeile unklar ist. Änderungen ohne Notiz werden möglicherweise nicht übernommen.",
+      "machine": false
+    },
+    "ru": {
+      "text": "**Как заполнять**\n- **Столбец ✅:** напишите `OK`, если указанный перевод верен, `keep English`, чтобы оставить английское слово, или ваш вариант перевода. Один вариант в ячейке. Оставьте ячейку пустой, если не уверены. Не изменяйте столбец ID.\n- **Столбец Notes (важно):** для каждой строки, которую вы меняете или помечаете `keep English`, своими словами коротко объясните причину, например «так говорят на местных биржах и в кошельках» или «это слово означает почтовый адрес». Пишите в Notes и тогда, когда правильное слово зависит от контекста (глагол или существительное, меню или страница), или если строка непонятна. Изменения без пояснения могут быть не приняты.",
+      "machine": false
+    },
+    "uk": {
+      "text": "**Як заповнювати**\n- **Стовпець ✅:** напишіть `OK`, якщо вказаний переклад правильний, `keep English`, щоб залишити англійське слово, або ваш варіант перекладу. Один варіант у клітинці. Залиште клітинку порожньою, якщо не впевнені. Не змінюйте стовпець ID.\n- **Стовпець Notes (важливо):** для кожного рядка, який ви змінюєте або позначаєте `keep English`, власними словами коротко поясніть причину, наприклад «так кажуть на місцевих біржах і в гаманцях» або «це слово означає поштову адресу». Пишіть у Notes і тоді, коли правильне слово залежить від контексту (дієслово чи іменник, меню чи сторінка), або якщо рядок незрозумілий. Зміни без пояснення можуть не прийняти.",
+      "machine": false
+    },
+    "tr": {
+      "text": "**Nasıl doldurulur**\n- **✅ sütunu:** Gösterilen çeviri doğruysa `OK`, İngilizce kelimeyi korumak için `keep English` ya da kendi kullanacağınız çeviriyi yazın. Her hücreye tek bir çeviri yazın. Emin değilseniz boş bırakın. ID sütununu değiştirmeyin.\n- **Notes sütunu (önemli):** Değiştirdiğiniz ya da `keep English` olarak işaretlediğiniz her satır için nedenini kendi sözlerinizle kısa bir cümleyle yazın; örneğin \"yerel borsalar ve cüzdanlar bu terimi kullanıyor\" ya da \"bu kelime posta adresi anlamına geliyor\". Doğru kelime bağlama göre değişiyorsa (fiil ya da isim, menü ya da sayfa) veya bir satır anlaşılmıyorsa da Notes sütununu kullanın. Notu olmayan değişiklikler kabul edilmeyebilir.",
+      "machine": false
+    },
+    "ar": {
+      "text": "**طريقة التعبئة**\n- **عمود ✅:** اكتب `OK` إذا كانت الترجمة المعروضة صحيحة، أو `keep English` للإبقاء على الكلمة الإنجليزية، أو الترجمة التي تستخدمها أنت. ترجمة واحدة في كل خانة. اترك الخانة فارغة إذا لم تكن متأكدًا. لا تعدّل عمود ID.\n- **عمود Notes (مهم):** في كل صف تغيّره أو تضع عليه `keep English`، اكتب جملة قصيرة بكلماتك الخاصة توضّح السبب، مثل «هذا هو المصطلح المستخدم في منصات التداول والمحافظ المحلية» أو «هذه الكلمة تعني عنوانًا بريديًا». استخدم Notes أيضًا عندما تعتمد الكلمة الصحيحة على السياق (فعل أو اسم، قائمة أو صفحة)، أو عندما يكون الصف غير واضح. قد لا تُقبل التغييرات التي لا تحمل ملاحظة.",
+      "machine": false
+    },
+    "hi": {
+      "text": "**कैसे भरें**\n- **✅ कॉलम:** अगर दिखाया गया अनुवाद सही है तो `OK` लिखें, अंग्रेज़ी शब्द रखने के लिए `keep English` लिखें, या वह अनुवाद लिखें जो आप इस्तेमाल करेंगे। हर सेल में एक ही अनुवाद। अगर आपको यकीन नहीं है तो सेल खाली छोड़ दें। ID कॉलम में बदलाव न करें।\n- **Notes कॉलम (ज़रूरी):** जिस भी पंक्ति को आप बदलते हैं या `keep English` चिह्नित करते हैं, उसके लिए अपने शब्दों में एक छोटा वाक्य लिखें कि ऐसा क्यों किया, जैसे \"स्थानीय एक्सचेंज और वॉलेट यही शब्द इस्तेमाल करते हैं\" या \"इस शब्द का मतलब डाक का पता है\"। जब सही शब्द संदर्भ पर निर्भर हो (क्रिया या संज्ञा, मेनू या पेज) या कोई पंक्ति स्पष्ट न हो, तब भी Notes का इस्तेमाल करें। बिना नोट वाले बदलाव शायद स्वीकार न किए जाएँ।",
+      "machine": false
+    },
+    "ja": {
+      "text": "**記入方法**\n- **✅ 列：** 表示されている訳が正しければ `OK`、英語のまま残す場合は `keep English`、それ以外はあなたが使う訳語を書いてください。1つのセルに書く訳語は1つだけです。自信がない場合は空欄のままにしてください。ID 列は編集しないでください。\n- **Notes 列（重要）：** 変更した行や `keep English` とした行には、理由を自分の言葉で短く1行書いてください。例：「国内の取引所やウォレットではこの用語が使われている」「この語だと郵便の住所の意味になる」。正しい語が文脈（動詞か名詞か、メニューかページか）によって変わる場合や、行の意味が分かりにくい場合も Notes に書いてください。メモのない変更は採用されないことがあります。",
+      "machine": false
+    },
+    "ko": {
+      "text": "**작성 방법**\n- **✅ 열:** 표시된 번역이 맞으면 `OK`, 영어 단어를 그대로 쓰려면 `keep English`, 아니면 본인이 사용할 번역어를 적어 주세요. 한 칸에는 번역어를 하나만 적습니다. 확실하지 않으면 비워 두세요. ID 열은 수정하지 마세요.\n- **Notes 열(중요):** 변경하거나 `keep English`로 표시한 모든 행에는 그 이유를 본인의 말로 짧게 한 줄 적어 주세요. 예: \"국내 거래소와 지갑에서 쓰는 용어임\", \"이 단어는 우편 주소라는 뜻임\". 올바른 단어가 문맥(동사인지 명사인지, 메뉴인지 페이지인지)에 따라 달라지거나 행의 의미가 불분명할 때도 Notes에 적어 주세요. 메모가 없는 변경은 반영되지 않을 수 있습니다.",
+      "machine": false
+    },
+    "zh": {
+      "text": "**填写方法**\n- **✅ 列：** 如果显示的译法正确，请写 `OK`；如需保留英文，请写 `keep English`；否则请写出您会使用的译法。每个单元格只写一种译法。如不确定，请留空。请勿修改 ID 列。\n- **Notes 列（重要）：** 对于您修改或标为 `keep English` 的每一行，请用自己的话写一句简短的理由，例如\"本地交易所和钱包都用这个词\"或\"这个词指的是邮寄地址\"。如果正确的词取决于上下文（动词还是名词、菜单还是页面），或某一行含义不清，也请写在 Notes 中。没有说明的修改可能不会被采纳。",
+      "machine": false
+    },
+    "sw": {
+      "text": "**Jinsi ya kujaza**\n- **Safu ✅:** andika `OK` ikiwa tafsiri iliyoonyeshwa ni sahihi, `keep English` ili kubaki na neno la Kiingereza, au tafsiri ambayo wewe ungetumia. Tafsiri moja tu kwa kila kisanduku. Acha wazi ikiwa huna uhakika. Usibadilishe safu ya ID.\n- **Safu ya Notes (muhimu):** kwa kila mstari unaoubadilisha au kuuwekea `keep English`, andika sentensi fupi kwa maneno yako mwenyewe ukieleza sababu, kwa mfano \"hili ndilo neno linalotumiwa na masoko ya kubadilisha fedha za kidijitali na pochi za hapa nchini\" au \"neno hili linamaanisha anwani ya posta\". Tumia pia Notes pale ambapo neno sahihi linategemea muktadha (kitenzi au nomino, menyu au ukurasa), au mstari usipoeleweka. Mabadiliko yasiyo na maelezo huenda yasikubaliwe.",
+      "machine": true
+    },
+    "el": {
+      "text": "**Πώς να το συμπληρώσεις**\n- **✅ στήλη:** γράψε `OK` αν η απόδοση που εμφανίζεται είναι σωστή, `keep English` για να μείνει η αγγλική λέξη ή την απόδοση που θα χρησιμοποιούσες. Μία απόδοση ανά κελί. Άφησέ το κενό αν δεν είσαι σίγουρος. Μην επεξεργάζεσαι τη στήλη ID.\n- **Στήλη Notes (σημαντικό):** για κάθε γραμμή που αλλάζεις ή σημειώνεις ως `keep English`, γράψε μία σύντομη γραμμή με δικά σου λόγια που να εξηγεί το γιατί, για παράδειγμα «αυτό χρησιμοποιούν τα τοπικά ανταλλακτήρια και πορτοφόλια» ή «αυτή η λέξη σημαίνει διεύθυνση δρόμου». Χρησιμοποίησε επίσης το Notes όταν η σωστή λέξη εξαρτάται από το πλαίσιο (ρήμα ή ουσιαστικό, μενού ή σελίδα), ή όταν μια γραμμή δεν είναι σαφής. Αλλαγές χωρίς σημείωση μπορεί να μη γίνουν δεκτές.",
+      "machine": true
+    }
+  }
+}

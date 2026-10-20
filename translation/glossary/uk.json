@@ -1,6 +1,6 @@
 {
   "locale": "uk",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Ukrainian",
     "native_name": "Українська",
@@ -11,7 +11,19 @@
     "last_review": null
   },
   "style": {
-    "variety": "natural, fluent Ukrainian (Cyrillic script)"
+    "variety": "natural, fluent Ukrainian (Cyrillic script)",
+    "abbreviations_with_full_stop": [
+      "див",
+      "ін",
+      "млн",
+      "млрд",
+      "напр",
+      "р",
+      "рр",
+      "стор",
+      "т",
+      "тис"
+    ]
   },
   "terms": {
     "node": {
@@ -51,6 +63,13 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_uk.txt: language variety and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-10-14",
+      "terms": [],
+      "phrases": [],
+      "summary": "Gate only (not sent to the model): abbreviations written with a full stop, so the sentence-boundary gate stops reading them as sentence ends (e.g. \"див. …\")."
     }
   ]
 }

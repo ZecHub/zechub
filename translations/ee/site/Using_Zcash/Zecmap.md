@@ -137,7 +137,7 @@ Dɔwɔwɔ ɖe ŋgɔ siwo ŋu wowɔ ɖoɖo ɖo dometɔ aɖewoe nye:
 
 ## Axa Siwo Do Ƒome Kplii
 
-- [Zã ZEC](/using-zcash/spend-zcash) — Mɔ bubu siwo dzi woato azã ZEC le xexe ŋutɔŋutɔ me
+- [Zã ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Mɔ bubu siwo dzi woato azã ZEC le xexe ŋutɔŋutɔ me
 - [Fexexe Ŋuti Dɔwɔlawo](/using-zcash/payment-processors) — Dɔwɔnu siwo ana asitsalawo naxɔ ZEC
 - [ZEC Zazã le Adzame](/guides/using-zec-privately) — Nuwɔna nyuitɔwo kekeake le fexexe si wotsɔ akpoxɔnu wɔe ŋu
 - [Gakotokuwo](/using-zcash/wallets) — Gakotoku siwo sɔ kple ZEC asitsalawo ƒe fexexe

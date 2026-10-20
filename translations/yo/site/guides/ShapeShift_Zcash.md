@@ -167,7 +167,7 @@ Awọn ShapeShift ati Zcash isopọmọ duro fun a significant igbese siwaju fun
 
 [Zodl Wọléètì](https://zodl.com)
 
-[Ìdarí ShapeShift DAO (Àmì FOX)](https://shapeshift.com/fox-token)
+[Ìdarí ShapeShift DAO (Àmì FOX)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Awọn Ifunni Agbegbe Zcash](https://zcashcommunitygrants.org/)
 

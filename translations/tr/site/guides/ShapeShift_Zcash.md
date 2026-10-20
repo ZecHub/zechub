@@ -167,7 +167,7 @@ ShapeShift ve Zcash entegrasyonu, merkeziyetsiz finansta gizlilik açısından a
 
 [Zodl Cüzdanı](https://zodl.com)
 
-[ShapeShift DAO Yönetişimi (FOX Token)](https://shapeshift.com/fox-token)
+[ShapeShift DAO Yönetişimi (FOX Token)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)
 

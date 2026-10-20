@@ -22,15 +22,15 @@ Eléa asitsatsa ɖesiaɖe si dzɔ tso gɔmedzedzea me ƒe nuŋlɔɖi blibo ɖe a
 
 ### Zebra
 
-Zebra nye Zcash ɖoɖowɔɖi ƒe node blibo si le eɖokui si, si le klalo na ewɔwɔ, si Zcash Foundation wɔ eye woŋlɔe ɖe Rust me. Esi zcashd xɔ dzudzɔ le dɔme ta la, Zebra (`zebrad`) nye node blibo si wokafu na dɔwɔwɔ yeyewo.
+Zebra nye Zcash ɖoɖowɔɖi ƒe node blibo si le eɖokui si, si le klalo na ewɔwɔ, si Zcash Foundation wɔ eye woŋlɔe ɖe Rust. Esi zcashd xɔ dzudzɔ le dɔme ta la, Zebra (`zebrad`) nye node blibo si wokafu na dɔwɔwɔ yeyewo.
 
 Zebra ɖoa kpe mɔxenuwo kple asitsatsa dzi, kpɔa gome le hatiwo ƒe kadodo me, eye wòɖea RPC ƒe ŋgɔdonya ɖe go na dɔwɔɖoɖowo. Gakotokua nye akpa aɖe si to vovo fifia: [Zallet](https://github.com/zcash/zallet) ƒua du ɖe Zebra node ŋu eye wòkpɔa safuiwo kple dadasɔwo gbɔ. Esia xɔ ɖe zcashd, si ƒo node kple gakotoku nu ƒu ɖe dɔwɔwɔ ɖeka me.
 
-Be woasubɔ gakotoku siwo me kekeli le siwo ŋu wokpɔ ta na la, node la zɔna ɖe indexer aɖe xa, si nye esi woɖo anyi [lightwalletd](https://github.com/zcash/lightwalletd) alo yeyetɔ kekeake [Zaino](https://zechub.wiki/zaino).
+Be woasubɔ gakotoku siwo me kekeli le siwo ŋu wokpɔ ta na la, node la zɔna ɖe indexer aɖe xa, si nye esi woɖo anyi [lightwalletd](https://github.com/zcash/lightwalletd) alo yeyetɔ kekeake [Zaino](https://zechub.wiki/zcash-tech/zaino).
 
 Kpɔ egbɔ be yexlẽ Zebra agbalẽa hena ɖoɖowɔwɔ ŋuti mɔfiamewo, eye nàwɔ ɖeka kple R&D Discord server hena kpekpeɖeŋu.
 
-[Github ƒe mɔnu](https://github.com/ZcashFoundation/zebra/)
+[GitHub](https://github.com/ZcashFoundation/zebra/)
 
 [Zebra ƒe Agbalẽa](https://zebra.zfnd.org)
 
@@ -38,21 +38,21 @@ Kpɔ [Zebra Node Bliboe](/zcash-tech/zebra-full-node) na install afɔɖeɖewo, �
 
 ### Zakura
 
-Zakura nye node blibo evelia si sɔ kple nukpɔsusu ɖeka, si woɖe tso Zebra me eye Valar Group ye wɔe ɖekae kple Project Tachyon. Ewɔna ɖe ɖoɖowɔɖi ƒe se mawo ke dzi eye wòtsɔa wɔwɔ ɖekae kabakaba, block pruning, kple zcashd RPC compatibility layer kpena ɖe eŋu. Kpɔ [Zakura Node ƒe ŋkɔ](/zcash-tech/zakura-node).
+Zakura nye evelia si sɔ ɖe nukpɔsusu ɖeka nu blibo node, forked tso Zebra eye Valar Group ye to vɛ ɖekae kple Project Tachyon. Ewɔna ɖe ɖoɖowɔɖi ƒe se mawo ke dzi eye wòtsɔa wɔwɔ ɖekae kabakaba, block pruning, kple zcashd RPC compatibility layer kpena ɖe eŋu. Kpɔ [Zakura Node ƒe ŋkɔ](/zcash-tech/zakura-node).
 
 ### zcashd (xɔ dzudzɔ le dɔme)
 
-> **De dzesii:** zcashd xɔ dzudzɔ le dɔme. Electric Coin Company [ɖe gbeƒãe be woɖe asi le eŋu](https://z.cash/support/zcashd-deprecation/)zcashd NU6.3. Zã Zebra. Ne èlé zcashd ɖe asi `wallet.dat`, dze eyome [Ʋuʋu ƒe Mɔfiame: zcashd yi Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+> **De dzesii:** zcashd xɔ dzudzɔ le dɔme. Electric Coin Company [ɖe gbeƒãe be woɖe asi le eŋu](https://z.cash/support/zcashd-deprecation/)zcashd NU6.3. Zã Zebra. Ne èlé zcashd ɖe asi `wallet.dat`, dze eyome [Ʋuʋu ƒe Mɔfiame: zcashd yi zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 zcashd nye Full Node ƒe dɔwɔwɔ gbãtɔ na Zcash, si Electric Coin Company. Wodzra xɔtutu ƒe mɔfiame siwo le ete ɖo hena numekuku kple na dɔwɔla siwo le ʋuʋum tso zcashd.
 
-Zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo naa dɔwɔwɔ siwo ɖea mɔ na gotagome dɔwɔɖoɖowo be woawɔ nu kple node la.
+zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo naa dɔwɔwɔ siwo ɖea mɔ na gotagome dɔwɔɖoɖowo be woawɔ nu kple node la.
 
-[Kekeli ƒe gakotoku](https://github.com/zcash/lightwalletd) nye dɔwɔɖoɖo si zãa node blibo tsɔ naa dɔwɔlawo te ŋu tua gakotoku siwo me kekeli le siwo ŋu wokpɔa akpoxɔnu le siwo sɔ na asitelefon xɔlɔ̃wɔwɔtɔe eye mahiã be woawɔ nu kple Zcashd tẽ o ƒe kpɔɖeŋu.
+[lightwalletd](https://github.com/zcash/lightwalletd) nye dɔwɔwɔ ƒe kpɔɖeŋu si zãa node blibo tsɔ naa dɔwɔlawo te ŋu tua gakotoku siwo me kekeli le siwo ŋu wokpɔa akpoxɔnu le siwo sɔ na asitelefon xɔlɔ̃wɔwɔtɔe eye mahiã be woawɔ nu kple zcashd.
 
 [RPC sedede siwo wodo alɔe ƒe xexlẽdzesi bliboa](https://zcash.github.io/rpc/)
 
-[Zcashd ƒe agbalẽa](https://zcash.github.io/zcash/)
+[zcashd agbalẽa](https://zcash.github.io/zcash/)
 
 #### Dze Node (Linux) aɖe gɔme
 
@@ -84,7 +84,7 @@ Zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo n
 
 - Wodzraa Private Keys ɖo ɖe ~/.zcash/wallet.dat me
 
-[Mɔfiame na Zcashd le Raspberry Pi dzi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Mɔfiame na zcashd le Raspberry Pi dzi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 ## Nusiwo wòfia ŋutɔŋutɔ
 
@@ -100,11 +100,9 @@ DNS seeders ɖea node bubu siwo ŋu kakaɖedzi le ƒe xexlẽdzesi ɖe go to ser
 
 Esiawo nye kpɔɖeŋu mɔnu siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakakawo:
 
-[Zcash Block ƒe Ʋuʋudedi](https://zcashblockexplorer.com)
+[Zcash Block ƒe Ʋuʋudedi](https://mainnet.zcashexplorer.app)
 
 [Gakuwo ƒe xexlẽdzesiwo](https://docs.coinmetrics.io/info/assets/zec)
-
-[Blockchair](https://blockchair.com/zcash)
 
 Àte ŋu akpe asi ɖe network la ƒe ŋgɔyiyi hã ŋu to dodokpɔwo wɔwɔ alo ŋgɔyiyi yeyewo dodo ɖe ŋgɔ & metrics nana me.
 
@@ -112,7 +110,7 @@ Esiawo nye kpɔɖeŋu mɔnu siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakaka
 
 Tomenukulawo hiã node blibowo be woakpɔ RPC siwo katã do ƒome kple tomenukulawo abe getblocktemplate & getmininginfo ene.
 
-Zcashd hã naa tomenukuƒewo te ŋu yia gakudzraɖoƒe si wokpɔ ta na. Tiatia le tomenukulawo kple tomenukuƒewo si be woaku tome tẽ be woaƒo ZEC si wokpɔ ta na nu ƒu ɖe z-adrɛs me le gɔmedzedzea me.
+zcashd hã na be woate ŋu awɔ tomenukudɔ na coinbase si wokpɔ ta na. Tiatia le tomenukulawo kple tomenukuƒewo si be woaku tome tẽ be woaƒo ZEC si wokpɔ ta na nu ƒu ɖe z-adrɛs me le gɔmedzedzea me.
 
 Xlẽ [Tomenukulawo ƒe Mɔfiamegbalẽa](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) alo nàwɔ ɖeka kple Nutoa me Nyamedzroƒe ƒe axaa na [Zcash Tomenukulawo](https://forum.zcashcommunity.com/c/mining/13).
 
@@ -125,7 +123,7 @@ Node blibo zazã ƒoa asa na ameŋunyatakakawo ŋuti afɔku aɖewo siwo dona tso
 Wò ŋutɔ wò node zazã hã ɖea mɔ be nàdo ka kple network la to [Tor](https://zcash.github.io/zcash/user/tor.html).
 Viɖe bubu aɖe le esia ŋu be wòana zãla bubuwo nado ka kple wò node .onion adrɛs le adzame.
 
-## Vodada Siwo Wowɔna Zi geɖe
+## Vodada Siwo Bɔ
 
 - zcashd tutu tso mɔfiame siwo le etame kple mɔkpɔkpɔ na node si le dɔ wɔm. Binaries mawo tɔa te le deprecation ƒe kɔkɔƒe.
 - Node aɖe ƒe duƒuƒu eye nàtsɔe be wò asitelefon dzi gakotokua zãnɛ fifia. Gakotoku si me kɔ la nɔa nu ƒom kple server ɖesiaɖe si wotsɔ ɖoe vaseɖe esime nèfia asi wò ŋutɔ tɔwò. Kpɔ [Lightwallet ƒe Nodes](/zcash-tech/lightwallet-nodes).

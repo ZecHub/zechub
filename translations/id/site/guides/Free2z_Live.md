@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Penyiapan akun + Tutorial livestream
+# Free2Z: Penyiapan akun + Tutorial livestream
 
 ## Pendahuluan
 
@@ -97,7 +97,7 @@ Atau, dari dalam sebuah postingan, cari tombol plus yang melayang. Dari sini, ka
 
 ## Live Streaming
 
-Platform Free2z menawarkan fitur luar biasa bernama Free2z Live. Dengan alat ini, kreator dapat memulai live stream untuk anggota yang berlangganan. Beberapa fitur utama dari Free2z Live meliputi:  
+Platform Free2Z menawarkan fitur luar biasa bernama Free2Z Live. Dengan alat ini, kreator dapat memulai live stream untuk anggota yang berlangganan. Beberapa fitur utama dari Free2Z Live meliputi:  
 - Audio dan video  
 - Berbagi layar  
 - Pengeditan kode kolaboratif  
@@ -105,9 +105,9 @@ Platform Free2z menawarkan fitur luar biasa bernama Free2z Live. Dengan alat ini
 - Whiteboarding  
 - Dan masih banyak lagi!
 
-### Apa yang bisa kamu lakukan dengan Free2z Live
+### Apa yang bisa kamu lakukan dengan Free2Z Live
 
-Free2z Live adalah alat yang hebat, memungkinkan kreator untuk melakukan streaming jenis konten apa pun. Berikut adalah beberapa contoh jenis konten yang dapat kamu stream dengan Free2z Live:  
+Free2Z Live adalah alat yang hebat, memungkinkan kreator untuk melakukan streaming jenis konten apa pun. Berikut adalah beberapa contoh jenis konten yang dapat kamu stream dengan Free2Z Live:  
 - Tutorial dan demonstrasi  
 - Pertunjukan dan acara  
 - Proyek kolaboratif  
@@ -116,7 +116,7 @@ Free2z Live adalah alat yang hebat, memungkinkan kreator untuk melakukan streami
 
 ### Cara untuk mulai menggunakan secara langsung
 
-Sangat mudah untuk memulai live stream dengan Free2z Live. Namun, ada beberapa persyaratan sebelum kamu dapat memulai stream kamu.  
+Sangat mudah untuk memulai live stream dengan Free2Z Live. Namun, ada beberapa persyaratan sebelum kamu dapat memulai stream kamu.  
 1. Kreator **harus** memiliki **harga member** minimum sebesar 10 2Zs.  
 2. Kreator **harus** memiliki saldo setidaknya 150 2Zs di akun mereka.
 
@@ -124,7 +124,7 @@ Jika pembuat memenuhi **kedua** kondisi di atas, sebuah ikon bernama **Go Live**
 
 ![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-Untuk memulai siaran langsung, cukup klik tombol **Go Live**, dan aplikasi Free2z akan meminta izin untuk menggunakan mikrofon dan webcam kamu (jika ada). Setelah kamu memberikan izin yang diperlukan, Free2z akan memintamu memasukkan nama panggilan yang ingin kamu gunakan selama siaran langsung. Setelah kamu memilih nama panggilan, klik **Join** untuk memulai siaran langsungmu.
+Untuk memulai siaran langsung, cukup klik tombol **Go Live**, dan aplikasi Free2Z akan meminta izin untuk menggunakan mikrofon dan webcam kamu (jika ada). Setelah kamu memberikan izin yang diperlukan, Free2Z akan memintamu memasukkan nama panggilan yang ingin kamu gunakan selama siaran langsung. Setelah kamu memilih nama panggilan, klik **Join** untuk memulai siaran langsungmu.
 
 ![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Dan selesai! Saat kamu memulai siaran langsung, profilmu akan menampilkan ikon y
 
 Saat orang-orang bergabung ke siaran langsung, mereka dapat mengobrol, meminta untuk bergabung ke panggung, berinteraksi dengan memberikan suara dalam jajak pendapat, dan banyak lagi.
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Contoh sesi live Free2z)_
+_(Contoh sesi live Free2Z)_
 
-Free2z Live sangat serbaguna dan kuat. Di bagian berikutnya, aku akan memberikan gambaran umum tentang fungsionalitas dan alat-alatnya.
+Free2Z Live sangat serbaguna dan kuat. Di bagian berikutnya, aku akan memberikan gambaran umum tentang fungsionalitas dan alat-alatnya.
 
-### Menjelajahi Free2z Live
+### Menjelajahi Free2Z Live
 
-Dokumen wiki ini tidak dimaksudkan untuk menjadi panduan mendalam tentang Free2z atau Free2z Live. Namun, berikut adalah gambaran umum mengenai alat-alatnya.
+Dokumen wiki ini tidak dimaksudkan untuk menjadi panduan mendalam tentang Free2Z atau Free2Z Live. Namun, berikut adalah gambaran umum mengenai alat-alatnya.
 
 Di bagian kiri bawah layar, kamu dapat melihat beberapa tombol.
 
@@ -177,19 +177,19 @@ Tujuan dari dokumen wiki ini bukanlah untuk menjelaskan semua plugin, tetapi say
 
 ## Kesimpulan
 
-Sebagai kesimpulan, Free2z adalah platform serbaguna bagi para kreator untuk memamerkan kemampuan mereka, berbagi pengetahuan dan mengumpulkan dana untuk proyek mereka, serta berinteraksi dengan pendukung mereka melalui alat yang kuat dari Free2z Live.
+Sebagai kesimpulan, Free2Z adalah platform serbaguna bagi para kreator untuk memamerkan kemampuan mereka, berbagi pengetahuan dan mengumpulkan dana untuk proyek mereka, serta berinteraksi dengan pendukung mereka melalui alat yang kuat dari Free2Z Live.
 
 Please provide the Markdown fragment you would like me to translate. I am ready to begin the localization process following all your specified rules and terminology.
 
 ### Sumber Daya
 
-[Free2z](https://free2z.cash/)  
-[Dokumentasi Free2z](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Dokumentasi Free2Z](https://free2z.cash/docs/)  
 [Ringkasan 2Z](https://free2z.cash/docs/getting-started/tuzis)  
 [Membuat profil](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Apa itu Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z untuk Pendukung](https://free2z.cash/docs/category/for-supporters)
+[Apa itu Free2Z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z untuk Pendukung](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_Ditulis oleh James Katz untuk Zechub._
+_Ditulis oleh James Katz untuk ZecHub._

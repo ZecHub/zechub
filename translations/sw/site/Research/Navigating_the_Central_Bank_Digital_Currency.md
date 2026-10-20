@@ -101,7 +101,7 @@ Ushirikiano wa kifedha, wakati mmoja kivuli cha matumaini, unakabiliwa na vivuli
 
 Kwa wale wanaojitokeza katika eneo lisilojulikana la CBDC, rasilimali huwa dira yako.
 1. Benki ya Malipo ya Kimataifa ([BIS ya](https://www.bis.org/search?keywords=cbdc))
-2. Shirika la Kimataifa la Fedha ([IMF](https://www.imf.org/en/About))
+2. Shirika la Kimataifa la Fedha ([IMF](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Maandishi ya utafiti ([karatasi ya kuandikia](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Majarida ya kitaaluma ([jarida la habari](https://www.bis.org/publ/work976.pdf))
 5. C.E.I Makala ([Makala ya](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))

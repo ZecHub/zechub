@@ -63,7 +63,7 @@ Mises à jour #### ECC et ZF
 
 [Topcrypto sur Free2Z - Idea for Zcash Super-CryptoCurrency](https://free2z.cash/TopCrypto/zpage/super-idea-for-Zcash-super-cryptocurrency-Zcash-is-money-crypto-and-energy-for-everyone)
 
-[ZCASH Designs & thèmes de Lexaleth](https://free2z.cash/PapelesaColor/zpage/y-si-hacemos-un-diseno-hermoso-y-sutil-sin-afan-de-competir-solo-para-divetir)
+[ZCASH Designs & thèmes de Lexaleth](https://web.archive.org/web/20230921105945/https://free2z.cash/PapelesaColor/zpage/y-si-hacemos-un-diseno-hermoso-y-sutil-sin-afan-de-competir-solo-para-divetir)
 
 
 #### Médias

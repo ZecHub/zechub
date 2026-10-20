@@ -6,7 +6,7 @@ Aujourd'hui, des milliards de personnes dans le monde n'ont pas accès à une mo
 
 ## Personnes et équipes
 
-The Electric Coin Company compte près de 30 employés répartis dans le monde entier. Ils travaillent sur diverses choses telles que le développement de protocoles, le développement d'applications, la sécurité des protocoles, le développement commercial et les relations réglementaires. Plus d'[infos](https://electriccoin.co/team/)
+The Electric Coin Company compte près de 30 employés répartis dans le monde entier. Ils travaillent sur diverses choses telles que le développement de protocoles, le développement d'applications, la sécurité des protocoles, le développement commercial et les relations réglementaires. Plus d'[infos](https://web.archive.org/web/20240311110626/https://electriccoin.co/team/)
 
 ## Structure organisationnelle
 

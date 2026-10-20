@@ -162,5 +162,5 @@ In the Zcash Foundation's NU7 sentiment polling (February 2026), quantum recover
 - [zips#1134: Fully post-quantum Zcash](https://github.com/zcash/zips/issues/1134)
 - [Project Tachyon roadmap](https://tachyon.z.cash/roadmap/)
 - [NU7 Polling Results: What We Heard and Where We Go From Here](https://forum.zcashcommunity.com/t/nu7-polling-results-what-we-heard-and-where-we-go-from-here/54775)
-- [Block 3,428,143 on Blockchair](https://blockchair.com/zcash/block/3428143)
+- [Block 3,428,143 on ZecBlock](https://zecblock.com/block/3428143)
 - [Forum request: Is Zcash post-quantum?](https://forum.zcashcommunity.com/t/is-zcash-post-quantum-help-wanted-d-proposal/57154)

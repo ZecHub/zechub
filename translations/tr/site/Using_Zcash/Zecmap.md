@@ -137,7 +137,7 @@ Planlanan iyileştirmeler şunları içerir:
 
 ## İlgili Sayfalar
 
-- [ZEC Harcama](/using-zcash/spend-zcash) — ZEC’i gerçek dünyada kullanmanın diğer yolları
+- [ZEC Harcama](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — ZEC’i gerçek dünyada kullanmanın diğer yolları
 - [Ödeme İşleyicileri](/using-zcash/payment-processors) — Satıcıların ZEC kabul etmesi için araçlar
 - [ZEC’i Özel Olarak Kullanma](/guides/using-zec-privately) — Shielded ödemeler için en iyi uygulamalar
 - [Cüzdanlar](/using-zcash/wallets) — ZEC satıcı ödemeleriyle uyumlu cüzdanlar

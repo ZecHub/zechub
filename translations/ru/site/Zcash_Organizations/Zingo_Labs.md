@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Официальный сайт](https://zingolabs.org/) - [Github](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
+[Официальный сайт](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs — это команда видных людей, посвятивших себя улучшению человеческого опыта. Мы верим, что технологии должны приносить пользу людям и что мы процветаем благодаря согласованным взаимодействиям. Мы выявляем паттерны, которые делают это возможным.
 
@@ -8,22 +8,22 @@ Zingo Lab Cyan функционирует как прозрачный DAO. Мы 
 
 ## Проекты
 
-### Zingo! Wallet ([Github](https://github.com/zingolabs/zingo-mobile))
+### Zingo! Wallet ([GitHub](https://github.com/zingolabs/zingo-mobile))
 Zingo Wallet — это полностью функциональный кошелёк для Zcash, разработанный с учётом удобства пользователя, хотя он также включает некоторые продвинутые функции для более опытных пользователей. Он поддерживает прозрачные, Sapling и Orchard пулы, имеет адресную книгу для повторяющихся платежей и доступен на различных языках. Это был первый кошелёк, поддерживающий Orchard и реализующий форматы NU5.
 
 Одной из главных особенностей Zingo! является возможность использовать поле Memo для предоставления ценных сведений о ваших транзакциях.
 
 Zingo! доступен для мобильных устройств и ПК. Вы найдете все загрузки [здесь](https://zingolabs.org/)
 
-### Zingolib ([Github](https://github.com/zingolabs/zingolib))
-API и тестовое приложение, предоставляющее функциональность Zcash для использования в приложениях. Zingolib предоставляет библиотеку для zingo-mobile, а также встроенное приложение cli для взаимодействия с zcashd через lightwalletd, называемое Zingo-cli, клиент командной строки lightwalletd-proxy.
+### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
+API и тестовое приложение, предоставляющее функциональность Zcash для использования в приложениях. Zingolib предоставляет библиотеку для zingo-mobile, а также встроенное приложение cli для взаимодействия с zcashd через lightwalletd, называемое zingo-cli, клиент командной строки lightwalletd-proxy.
 
-### Zaino Indexer ([Github](https://github.com/zingolabs/zaino))
+### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
 Zaino — это индексатор, разработанный командой Zingo на языке Rust, который предназначен для замены lightwalletd и продвижения проекта по устареванию zcashd.
 
 Zaino предоставляет важные функции как для лёгких клиентов, таких как кошельки и приложения, которые не требуют полной истории блокчейна, так и для полных клиентов или кошельков. Он также поддерживает блок-эксплореры, предоставляя доступ к завершённому блокчейну и незавершённой лучшей цепочке и мемпулу, управляемым полным валидатором Zebra или zcashd.
 
-###  ZLN (zcash-local-net) ([Github](https://github.com/zingolabs/zcash-local-net))
+###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
 Набор утилит для запуска и управления процессами Zcash. Используется для интеграционного тестирования в разработке:
 - лёгких клиентов
 - индексаторов
@@ -31,6 +31,6 @@ Zaino предоставляет важные функции как для лё�
 
 Его цель — предоставить высокоадаптируемую и надежную среду тестирования для ядерных узлов (валидаторов), таких как Zcash и Zebra, индексаторов, например lightwallet и zaino, а также минимум zingo-cli в качестве лёгкого клиентского кошелька.
 
-Этот репозиторий предназначен для сравнения функциональности различных валидаторов (например, Zcashd и Zebrad) и индексаторов (таких как Lightwalletd и Zaino), чтобы облегчить миграцию во время процесса устаревания Zcashd.
+Этот репозиторий предназначен для сравнения функциональности различных валидаторов (например, zcashd и Zebrad) и индексаторов (таких как lightwalletd и Zaino), чтобы облегчить миграцию во время процесса устаревания zcashd.
 
-Кроме того, zcash-local-net предоставляет инструменты для запуска, кэширования и загрузки данных цепочки Zcash (для главной сети, тестовой сети и регрессионного тестирования), а также серию тестов для сравнения возможностей Lightwalletd и Zaino по всем службам RPC Lightwallet. Эти тесты могут быть выполнены напрямую из Zaino (см. [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) для оценки служб RPC Lightwallet, размещенных в Zaino.
+Кроме того, zcash-local-net предоставляет инструменты для запуска, кэширования и загрузки данных цепочки Zcash (для главной сети, тестовой сети и регрессионного тестирования), а также серию тестов для сравнения возможностей lightwalletd и Zaino по всем службам RPC Lightwallet. Эти тесты могут быть выполнены напрямую из Zaino (см. [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) для оценки служб RPC Lightwallet, размещенных в Zaino.

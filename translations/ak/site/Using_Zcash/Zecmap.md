@@ -137,7 +137,7 @@ Nkɔso a wɔayɛ ho nhyehyɛe no bi ne:
 
 ## Nkratafa a Ɛfa Ho
 
-- [Fa ZEC di dwuma](/using-zcash/spend-zcash) — Akwan foforo a wɔfa so de ZEC di dwuma wɔ wiase ankasa mu
+- [Fa ZEC di dwuma](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Akwan foforo a wɔfa so de ZEC di dwuma wɔ wiase ankasa mu
 - [Wɔn a Wɔyɛ Katua Ho Nsiesiei](/using-zcash/payment-processors) — Nnwinnade a aguadifo de gye ZEC tom
 - [ZEC a Wɔde Di Dwuma wɔ Kokoam](/guides/using-zec-privately) — Nneyɛe pa a ɛfa sikatua a wɔabɔ ho ban ho
 - [Sika kotoku](/using-zcash/wallets) — Walets a ɛne ZEC aguadifo sikatua hyia

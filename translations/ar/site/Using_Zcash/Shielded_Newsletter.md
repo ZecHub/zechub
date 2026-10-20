@@ -79,4 +79,4 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
 4. الاستعلام عن `z_getoperationstatus` لمعرّف العملية ذلك.
 5. تسجيل txid فقط بعد `success`.
 
-تبقى صفحة الدليل القديم في [سكربتات النشرة الإخبارية المحمية](/tutorials/shieldednewsletter/readme). استخدم هذه الصفحة للإجراء.
+تبقى صفحة الدليل القديم في [سكربتات النشرة الإخبارية المحمية](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). استخدم هذه الصفحة للإجراء.

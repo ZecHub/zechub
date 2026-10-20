@@ -169,6 +169,8 @@ With `--base` only the translations your change touches are checked, and a findi
 
 ## Adding a new language
 
+Before any of the steps below, a new language needs the maintainers' approval and a native reviewer selected through a Translation Quality bounty: see [Adding a new language to ZecHub](adding-a-language.md) for the roles, costs and review process.
+
 The framework is locale-generic. Adding a locale spans both repositories:
 
 **In the frontend repo (`ZecHub/zechub-wiki`):**

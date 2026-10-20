@@ -1,65 +1,65 @@
-# Community Projects
+# コミュニティプロジェクト
 
-Zcashコミュニティと、より広いゼロ知識エコシステムによって構築されたツール、ウォレット、アプリケーション、ライブラリ、エコシステムの取り組みを見つけましょう。
+Zcashコミュニティおよびより広いゼロ知識エコシステムによって構築されたツール、ウォレット、アプリケーション、ライブラリ、エコシステムの取り組みをご紹介します。
 
 ---
 
 ## 教育、メディア、コミュニティ
 
 ### My First Zcash
-Zcashグローバルコミュニティによって作成された教育用ワークブック。  
+Zcashのグローバルコミュニティによって作成された教育用ワークブック。  
 [訪問](https://github.com/massadoptionorg/My-First-Zcash)
 
 ### ZECPublish
-検閲耐性を備え、Zcashブロックチェーンを活用したソーシャルメディア。Zcashユーザーのディレクトリと匿名メッセージボードを含みます。  
-（2026年9月現在、サイトはオフラインです。）
+検閲耐性を備えた、Zcashブロックチェーンを活用したソーシャルメディア。Zcashユーザーのディレクトリと匿名メッセージボードを含みます。  
+（2026年9月時点でサイトはオフラインです。）
 
 ### ZK Radio
-Zcashコミュニティに情報を届け、教育し、楽しませるためのオンラインラジオ局。Zcash en EspañolとZKAV Clubによって開発されました。  
+Zcashコミュニティに情報提供し、教育し、楽しませるオンラインラジオ局。Zcash en EspañolとZKAV Clubによって開発されました。  
 [訪問](https://zcashesp.com/zk-radio/)
 
 ### ZShieldHer
-家庭内暴力のサバイバーのためのZcash教育サイト。  
+家庭内暴力のサバイバー向けのZcash教育サイト。  
 [訪問](https://zshieldher.com/)
 
 ### ZecForge
-オンボーディング、クリエイター育成、コンテンツ配信に重点を置いた、Zcashエコシステム向けのクリエイターフォージ。  
+オンボーディング、クリエイター育成、コンテンツ配信に重点を置く、Zcashエコシステム向けのクリエイター・フォージ。  
 [訪問](https://x.com/zec_forge)
 
 ### Mastering Zcash Video Series
-Zcashの技術、暗号技術、経済学、ガバナンスを扱う包括的な教育シリーズ。  
+Zcashの技術、暗号学、経済学、ガバナンスを網羅する包括的な教育シリーズ。  
 [訪問](https://www.youtube.com/watch?v=YWUzh_VtrR8)
 
 ### Zcast
-最新のエコシステム情報を扱うスペイン語のZcashポッドキャスト。  
+最新のエコシステム情報を届けるスペイン語のZcashポッドキャスト。  
 [訪問](https://www.youtube.com/@ZcastEsp)
 
 ### Zero-knowledge Audiovisual Club (ZKAV)
-プライバシーを最優先するオーディオビジュアル集団で、オープンソースおよび分散型技術コミュニティのイベント向けに、トレーニング、共同制作、ボランティアのAV支援を提供します。  
+オープンソースおよび分散型テクノロジーのコミュニティイベントに向け、トレーニング、共同制作、ボランティアによるAV支援を提供する、プライバシー第一の視聴覚コレクティブ。  
 [訪問](https://zkav.club/)
 
 ### Zcash Network School
-新しいZcashユーザーと開発者向けの体系的な教育コンテンツ。  
+新しいZcashユーザーおよび開発者向けの体系的な教育コンテンツ。  
 [フォーラム](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
 ### Zectastic
-Zcashをテーマにしたゲームやライブコミュニティイベントを備えたインタラクティブサイト。  
+Zcashをテーマにしたゲームとライブコミュニティイベントを提供するインタラクティブサイト。  
 [訪問](https://zectastic.com/)
 
 ### ZEC App
-ZECのニュース、コミュニティ活動、ネットワーク情報、ウォレット、取引所、エコシステムのリソースを1か所に集約するモバイルアプリケーション。  
+ZECのニュース、コミュニティ活動、ネットワーク情報、ウォレット、取引所、エコシステムのリソースを一か所に集約するモバイルアプリケーション。  
 [フォーラム](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Community
-Pretty Good Policy for Zcash (PGPZ) のコミュニティハブ。プライバシーを保護するデジタルキャッシュ、実用的なコンプライアンス、そして公益におけるZcashの役割に焦点を当てたワシントンD.C.の政策イニシアチブです。  
+プライバシーを保護するデジタルキャッシュ、実務的なコンプライアンス、Zcashの公益上の役割に焦点を当てたワシントンD.C.の政策イニシアチブ、Zcash向けPretty Good Policy（PGPZ）のコミュニティハブ。  
 [訪問](https://community.pgpz.org/)
 
 ### Gleyo
-Zcashコミュニティ、Web3プロジェクト、Web2組織向けに設計されたコミュニティ参加・報酬プラットフォームです。クエスト、チャット、報酬を通じてコミュニティがメンバーをオンボードし、関与を深めるのを支援しつつ、ユーザーはプライベートなシールド済みZECを獲得して引き出すことができます。  
-[アクセス](https://gleyo.app/)
+Zcashコミュニティ、Web3プロジェクト、Web2組織向けに設計されたコミュニティ参加・報酬プラットフォーム。クエスト、チャット、報酬を通じてコミュニティがメンバーをオンボードし、参加を促進できるようにするとともに、ユーザーがプライベートなシールド済みZECを獲得・引き出しできるようにします。  
+[訪問](https://gleyo.app/)
 
-### Zcash 助成金ハブ
-Zcash助成金の発見、追跡、レビューを簡素化するために設計された、コミュニティ重視の助成金ダッシュボードです。Zcash Community Grants GitHubリポジトリからライブデータを取得し、助成金申請、マイルストーン、予算、議論、分析を一か所に集約します。このプラットフォームは、申請者、委員会メンバー、コミュニティレビュアーにとって、より明確で使いやすい体験を提供することを目指しています。  
+### Zcash Grants Hub
+Zcash助成金の発見、追跡、レビューを簡素化するために設計された、コミュニティ重視の助成金ダッシュボード。Zcash Community GrantsのGitHubリポジトリからライブデータを取得し、助成金申請、マイルストーン、予算、議論、分析を一か所にまとめます。このプラットフォームは、申請者、委員会メンバー、コミュニティレビュアーにとって、より明確で使いやすい体験を提供することを目指しています。  
 [訪問](https://staging.zgrantshub.com/)
 
 ---
@@ -67,92 +67,91 @@ Zcash助成金の発見、追跡、レビューを簡素化するために設計
 ## ウォレットと決済ツール
 
 ### CipherPay
-インターネットのためのプライベート決済。ノンカストディアル、KYC不要。加盟店はZECをシールドアドレスで直接受け取れます。  
-[アクセス](https://www.cipherpay.app/en)
+インターネットのためのプライベート決済。カストディ不要、KYC不要。加盟店はZECをシールド済みアドレスへ直接受け取ります。  
+[訪問](https://www.cipherpay.app/en)
 
 ### eZcash
-自動シールドに対応した、使いやすく多機能なマルチプラットフォーム対応のZcashウォレット。  
-[アクセス](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
+自動シールド機能をサポートする、使いやすくフル機能のマルチプラットフォームZcashウォレット。  
+[訪問](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
-Zebradおよびlightwalletd向けに構築された、Orchardを最優先にしたZcashウォレット。完全にシールドされた送受信、安全なローカル鍵管理、Ironwood（NU6.3）ノート、ならびにOrchardからIronwoodへの移行をサポートします。ユーザー向けの支払いフローでは、透明アドレスは拒否されます。
-
+zebradおよびlightwalletd向けに構築された、Orchardを第一に考えるZcashウォレット。完全シールド型の送受信、安全なローカル鍵管理、Ironwood（NU6.3）ノート、およびOrchardからIronwoodへの移行をサポートします。ユーザー向け決済フローでは、トランスペアレントアドレスは拒否されます。  
 [訪問](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
-ユーザーが現実世界の購入にシールドされたZECを使えるようにする決済ゲートウェイ（現在アルファ版）。  
+ユーザーがシールド済みZECを現実世界での購入に使用できる決済ゲートウェイ（現在アルファ版）。  
 [訪問](https://overpay.com)
 
 ### ZcashToCash
-ZcashToCash (zcashto.cash) — ZECを使って、Peer経由でCash App、Chime、Monzo、Revolut、Venmo、またはZelleに送金。ZECはUSDC（NEAR）に変換され、その後、テイカーが法定通貨での支払いを証明すると、Base上のPeer注文がUSDCを解放します。テイカーには決済アプリのユーザー名が表示されます。CEXでも、ZECをエスクローに入れる方式でもありません。  
+ZcashToCash（zcashto.cash）— Peer経由でCash App、Chime、Monzo、Revolut、Venmo、またはZelleへZECを送ります。ZECはUSDC（NEAR）へ変換され、その後Base上のPeer注文が、テイカーによる法定通貨支払いの証明後にUSDCをリリースします。テイカーには決済アプリのユーザー名が表示されます。CEXではなく、ZECをエスクローに預ける仕組みでもありません。  
 [訪問](https://zcashto.cash/)
 
 ### Zafu Wallet
-ZcashとPenumbraのためのオープンソースのプライバシーウォレット。クライアントサイド証明、検証済みライトクライアントアーキテクチャ、コールド署名、FROSTマルチシグ、そしてview keyがデバイス外に出ないブラウザ拡張です。  
+ZcashおよびPenumbra向けのオープンソース・プライバシーウォレット。クライアント側証明、検証済みライトクライアント・アーキテクチャ、コールド署名、FROSTマルチシグを備え、ビューイングキーがデバイス外へ出ることはありません。  
 [訪問](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo
-ベンダーや加盟店がZcash決済を受け入れられるようにするZcash Register。  
+ベンダーや加盟店がZcash決済を受け入れられるようにするZcashレジスター。  
 [訪問](https://zgo.cash)
 
 ### Zimppy
-Zcash向けのMachine Payment Protocol (MPP)。AIエージェントや自動化されたマシン間ワークフロー向けに設計されています。完全にシールドされたOrchard支払いをサポートします。  
+Zcash向けのMachine Payment Protocol（MPP）。AIエージェントおよび自動化されたマシン間ワークフロー向けに設計されています。完全シールド型のOrchard決済をサポートします。  
 [訪問](https://zimppy.xyz/)
 
 ### Dizzy Wallet
-Zcashトランザクションへのシームレスかつ安全なアクセスを提供するDiscordボット。  
-[フォーラム](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
+Zcash取引へのシームレスかつ安全なアクセスを提供するDiscordボット。  
+[訪問](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-ZODL（旧Zashi）のフラッグシップZcashウォレット。iOSとAndroidで利用可能です。シールドされたZECとNU7のコイン保有者投票をサポートします。  
-[訪問](https://zodl.app/)
+ZODL（旧Zashi）による主力Zcashウォレット。iOSおよびAndroidで利用可能。シールド済みZECとNU7コイン保有者投票をサポートします。  
+[訪問](https://zodl.com/)
 
 ### Noir Wallet
 シンプルでプライベートなZEC取引のために設計された、プライバシー重視のZcashウォレット。  
 [フォーラム](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
 
 ### ZecVault
-Zcashのシールドされたトランザクション上に構築された、目標ベースの貯蓄ウォレット。  
+Zcashのシールド済み取引上に構築された、目標ベースの貯蓄ウォレット。  
 [フォーラム](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
 ### Zkool
-Orchardを含む最新のZcashプロトコル機能をサポートする、YWalletの後継。  
+YWalletの後継。現在のシールドプールであるIronwoodをサポートします。  
 [フォーラム](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 
 ### MonteZecret
-Rustで書かれた、Zcash向けの実験的な軽量デスクトップウォレット。  
+Rustで記述された、Zcash向けの実験的な軽量デスクトップウォレット。  
 [フォーラム](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
 ### Gem Wallet
-ZECの送信、受信、スワップをサポートする、マルチチェーンのオープンソース自己管理型ウォレット。  
+ZECの送信、受信、スワップをサポートする、マルチチェーン、オープンソース、セルフカストディ型ウォレット。  
 [訪問](https://gemwallet.com/)
 
 ### TIPZ
-あらゆるチップがシールドされたZECとして届く、ライブのノンカストディアル投げ銭プラットフォーム。NEAR Intents経由のクロスチェーンオンランプをサポートします。  
+すべてのチップがシールド済みZECとして届くライブのノンカストディアル・チッピングプラットフォーム。NEAR Intents経由のクロスチェーン・オンランプをサポートします。  
 [訪問](https://tipz.cash/)
 
 ### CYZE
-複数のチームメンバーがシールドされたZcash資金を共同で管理できる、協働型ウォレットおよび調整プラットフォーム。FROSTしきい値署名を使用し、単一の参加者にウォレットの完全な管理権限を与えることなく、グループがOrchardトランザクションを共同で承認できるようにします。  
+複数のチームメンバーがシールド済みZcash資金を共同で管理できる、コラボレーティブ・ウォレットおよび調整プラットフォーム。FROSTしきい値署名を用いることで、単一の参加者にウォレットの完全な管理権を与えることなく、グループがOrchard取引を共同で承認できます。  
 [訪問](https://github.com/USCMig/Cyze)
 
 ### Pendrake Watch
-支出する権限を持たずにシールドされた資金を監視する必要がある個人や組織向けに設計された、閲覧専用のデスクトップウォレット。取引と残高の監視、OrchardおよびSaplingノート、メモの閲覧、過去の法定通貨評価額、取引通知、ウォレット暗号化、プライバシーを重視した画面共有機能をサポートします。  
+使う能力を持たずにシールド済み資金を監視する必要がある個人および組織向けに設計された、閲覧専用デスクトップウォレット。取引と残高の監視、OrchardおよびSaplingノート、メモの閲覧、過去の法定通貨評価、取引通知、ウォレット暗号化、プライバシー重視の画面共有機能をサポートします。  
 [訪問](https://github.com/auzum197/pendrake-watch)
 
 ---
 
 ## エクスプローラー、データ、ネットワークダッシュボード
 
-### CipherScan
-プライバシー最優先のZcashブロックチェーンエクスプローラー。Next.js 15、TypeScript、Rust/WASMで構築されています。ルックアップでクエリのメタデータが漏洩しません。  
-[訪問](https://cipherscan.app/)
+### ZecBlock
+プライバシー第一のZcashブロックチェーンエクスプローラー（旧CipherScan）。Next.js 15、TypeScript、Rust/WASMで構築されています。検索によってクエリのメタデータが漏洩することはありません。カスタマイズ可能なホームページ、チェーンQ&A（ベータ）、共有可能なチャートなどを備えた再構築済みインターフェース。  
+[訪問](https://zecblock.com/)
 
 ### Exblo
-Zcash Testnet上のトランザクションをテストするために設計されたブロックエクスプローラー。  
-[訪問](https://testnet.exblo.app/)
+Zcash Testnet上の取引テスト向けに設計されたブロックエクスプローラー。  
+[訪問](https://web.archive.org/web/20241206041317/https://testnet.exblo.app/)
 
 ### OpenZcash
-ZCGおよびFPFの助成金会計、Lockbox、ガバナンス、支出を含む、Zcash Dev Fundの公開透明性ダッシュボード。  
+Zcash Dev Fundの公開透明性ダッシュボード。ZCGおよびFPFの助成金会計、Lockbox、ガバナンス、支出を含みます。  
 [訪問](https://openzcash.org/)
 
 ### Zcash Block Explorer
@@ -160,44 +159,44 @@ Nighthawk Appsによる包括的なZcashブロックエクスプローラー。
 [訪問](https://mainnet.zcashexplorer.app/)
 
 ### Zcash.Space
-Unified Addressを検査するための、ブラウザベースのZcash Unified Addressパーサー。  
+Unified Addressを調査するための、ブラウザベースのZcash Unified Addressパーサー。  
 [訪問](https://zcash.space/)
 
 ### ZecMap
-Zcashを受け入れるビジネスや場所のグローバルマップ。  
+Zcashを受け入れる企業と場所のグローバルマップ。  
 [訪問](https://zecmap.com/)
 
 ### ZECping
-Zcash lightwalletd ノードのgRPC応答時間を確認するツール。  
+ZcashのlightwalletdノードのgRPC応答時間を確認するツール。  
 [訪問](https://github.com/emersonian/zecping)
 
 ### ZecStats
-リアルタイムのZcashネットワーク統計とシールド化メトリクスのためのダッシュボード。  
+リアルタイムのZcashネットワーク統計とシールディング指標のためのダッシュボード。  
 [訪問](https://zecstats.com)
 
 ### ZecZcash
-独立したZcashのデータ、ツール、リサーチサイト。エクスプローラー、市場および半減期ツール、ウォレットガイド、エコシステムニュースを提供。ECCおよびZcash Foundationとは提携していません。  
+独立したZcashのデータ、ツール、リサーチサイト。エクスプローラー、市場・半減期ツール、ウォレットガイド、エコシステムニュースを含みます。ECCまたはZcash Foundationとは提携していません。  
 [訪問](https://zeczcash.com/)
 
 ### zecprice
-Zcashの市場価格パフォーマンスを追跡するデータメトリクスツール。  
+Zcashの市場価格パフォーマンスを追跡するデータ指標ツール。  
 [訪問](https://zecprice.com)
 
 ### Zlink
 Zcashエコシステムに関するリンク、ツール、情報を見つけるためのディレクトリ。  
-[訪問](https://zlink.click)
+[訪問](https://web.archive.org/web/20250309010146/https://zlink.click/)
 
 ### Zecmarket
-Zcashエコシステムのプライバシーを最優先するマーケットプレイス。支払いは直接決済され、プラットフォームがお客様の資金を保有することはありません。  
+Zcashエコシステムのプライバシー第一のマーケットプレイス。決済は直接完了し、プラットフォームがあなたの資金を保有することはありません。  
 [訪問](https://zecmarket.org/)
 
 ### Zecsite
-JavaScriptを使用せずに、Zcashのニュース、統計、教育コンテンツを集約するプライバシー重視の静的ウェブサイト。  
+JavaScriptを使用せずにZcashのニュース、統計、教育コンテンツを集約する、プライバシー重視の静的ウェブサイト。  
 [訪問](https://zecsite.org/netscape/en/index.html)  
 [フォーラム](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
 ### ZEC-OS
-さまざまなZcashエコシステムのツールや情報を1つのアプリケーションに統合した、レトロスタイルのデスクトップインターフェース。ブロックチェーンエクスプローラー、mempoolビューア、ネットワーク統計、履歴チャート、shielded pool情報、マイニングツール、Unified Addressデコーダー、計算機、ゲーム、ターミナル、その他のユーティリティを含みます。  
+さまざまなZcashエコシステムのツールと情報を一つのアプリケーションに統合する、レトロスタイルのデスクトップインターフェース。ブロックチェーンエクスプローラー、mempoolビューア、ネットワーク統計、履歴チャート、シールドプール情報、マイニングツール、Unified Addressデコーダー、計算機、ゲーム、ターミナル、その他のユーティリティを含みます。  
 [訪問](https://www.zec-os.com/)
 
 ---
@@ -205,15 +204,15 @@ JavaScriptを使用せずに、Zcashのニュース、統計、教育コンテ�
 ## アイデンティティ、名前、ユーザー体験
 
 ### ZcashNames
-Zcashのシールドされたアドレスのための人間に読みやすい名前（例: `alice.zec` はUnified Addressに解決されます）。  
+Zcashシールド済みアドレス向けの人間が読める名前（例：`alice.zec`はUnified Addressに解決されます）。  
 [訪問](https://www.zcashnames.com/)
 
 ### Zapp / JustZappIt
-ZECチャットを現実世界の支払いにつなぐ、プライバシー最優先のメッセンジャー。  
+ZECチャットを現実世界の決済につなぐ、プライバシー第一のメッセンジャー。  
 [訪問](https://www.justzappit.xyz/)
 
 ### Zentat
-ウェブ閲覧中に法定通貨価格をリアルタイムでZECに変換するブラウザ拡張。  
+ウェブ閲覧中に法定通貨価格をリアルタイムでZECに変換するブラウザ拡張機能。  
 [訪問](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
 ### Shielded Wall
@@ -221,39 +220,44 @@ Zcashのプライバシーによって支えられた匿名告白プラットフ
 [訪問](https://shieldedwall.org/)
 
 ### Ztrash
-シールドされたZECで支払う使い捨てメール受信箱。  
+シールド済みZECで料金を支払う使い捨てメール受信箱。  
 [訪問](https://ztrash.com/)
 
 ### LiveZEC
-ストリーマー向けのプライバシー重視チッププラットフォームで、視聴者はシールドされたZECをストリーマーの自己管理型ウォレットに直接送信できます。  
+視聴者がストリーマーのセルフカストディ型ウォレットへシールド済みZECを直接送れる、ストリーマー向けのプライバシー重視チッピングプラットフォーム。  
 [訪問](https://zec.live/)
 
 ### ZecLedger
-Zcash向けの、プライバシーを保護する財務追跡・会計ツールです。透明性の高いネットワークデータを表示する公開ダッシュボードと、閲覧キーを公開せずに使用するローカルのプライベート会計を組み合わせ、資金の安全性とプライバシーを保ちながら、残高、取引履歴、取得原価、そして将来的には予算管理や税務申告に対応したレポートを追跡できるようにします。  
-[アクセス](https://zecledger-web.vercel.app/)
+Zcash向けのプライバシー保護型財務追跡・会計ツール。透明なネットワークデータの公開ダッシュボードと、ビューイングキーを公開せずに使用するローカルのプライベート会計を組み合わせ、資金の安全性とプライバシーを維持しながら、ユーザーが残高、取引履歴、取得原価を追跡し、最終的には予算管理や税務対応レポートも扱えるようにします。  
+[訪問](https://zecledger-web.vercel.app/)
 
-### ZcashMeによる認証
-シールドされたZcashトランザクションをログインの仕組みとして使用する、プライバシー重視の認証システムです。ユーザーはQRコードをスキャンし、少額の認証トランザクションを送信します。  
-[アクセス](https://github.com/zcashme/zns-login)
+### Authentication with ZcashMe
+シールド済みZcash取引をログイン機構として使用する、プライバシー重視の認証システム。ユーザーはQRコードをスキャンし、少額の認証取引を送信します。  
+[訪問](https://github.com/zcashme/zns-login)
 
 ---
 
-## 開発、テスト、インフラストラクチャ
+## 開発者、テスト、インフラストラクチャ
+
+### Ztreamer
+組み込みZakuraノードをバックエンドとする、高度に最適化されたオープンソースZcashインデクサーおよびlightwalletプロトコル（CompactTxStreamer）実装。ノード＋インデクサー＋ウォレットサーバーを単一プロセス（ztreamerd）で実行し、gRPCおよびZakura v2 P2Pをサポートします。ライトウォレット向けの高速な履歴インデックス作成と低レイテンシのサービス提供を実現します。  
+[訪問](https://github.com/distractedm1nd/ztreamer)  
+[クレート](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 zcashdおよびZebra開発者向けのネットワークテストスイート。Zcashクローラーを含みます。  
 [訪問](https://github.com/runziggurat/zcash)
 
 ### ZecDev
-faucet、Unified Addressフィクスチャ、lightwalletdまたはZainoを備えたZebra regtestネットワークを立ち上げるLinuxファーストのツールキットで、シールド済みエンドツーエンドフロー向けの再利用可能なGitHub Actionsも提供します。  
+ファセット、Unified Addressフィクスチャ、およびlightwalletdまたはZainoを備えたZebra regtestネットワークを立ち上げるLinux第一のツールキット。さらに、シールド済みエンドツーエンドフロー向けに再利用可能なGitHub Actionsを提供します。  
 [訪問](https://github.com/zecdev)
 
-### Zebra カバレッジガイド付きファジング・インフラストラクチャ
-不正な入力に対するZebraのパース、ネットワーク、暗号コンポーネントの体系的なテスト。  
+### Zebra Coverage-Guided Fuzzing Infrastructure
+不正な入力に対するZebraのパース、ネットワーキング、暗号コンポーネントの体系的なテスト。  
 [フォーラム](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
 ### FROST
-Zcashエコシステムでの幅広い採用に向けて進められている、しきい値署名方式（FROST）に関する取り組み。  
+Zcashエコシステムでのより広範な採用に向けて進められている、しきい値署名方式（FROST）の取り組み。  
 [論文](https://eprint.iacr.org/2020/852)
 
 ### MonteZcret Benchmark
@@ -262,30 +266,30 @@ Zcashブロックチェーンデータを同期するさまざまな方法を評
 
 ---
 
-## Zcashを活用するより広いアプリケーション
+## Zcashを活用する幅広いアプリケーション
 
 ### aftok
-Zcash上に構築された、協同的でボトムアップ型の事業組織モデル。  
+Zcash上に構築された協同組合型・ボトムアップ型の事業組織モデル。  
 [訪問](https://aftok.com)
 
 ### ZK Global Credit
-選択的開示、決済準備、越境レピュテーション、シールドされたガバナンスのための、Zcashネイティブな信用・投票インフラストラクチャ。  
+選択的開示、決済準備性、国境を越えたレピュテーション、シールド型ガバナンスのための、Zcashネイティブなクレジットおよび投票インフラストラクチャ。  
 [訪問](https://voting.zkglobalcredit.tech/)
 
 ### Free2Z
-Zcashを活用した、匿名でのコンテンツ作成とプライベートな寄付のためのツール。  
-[訪問する](https://free2z.cash)
+Zcashによって支えられた、匿名コンテンツ作成およびプライベート寄付のためのツール。  
+[訪問](https://free2z.cash)
 
 ### Rhea Finance
 ブラウザウォレットとクロスチェーンDeFiアクセスを提供するZcashゲートウェイ。  
 [フォーラム](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
 ### BazaarSwap
-WalletConnect経由でシールドされたZECをWeb3 DeFiにもたらす、ZcashネイティブなDEX。  
+WalletConnectを通じて、シールド済みZECをWeb3 DeFiにもたらすZcashネイティブDEX。  
 [フォーラム](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
 ### DCRDEX
-Zcashに対応するDecredの分散型取引所です。  
+ZcashをサポートするDecredの分散型取引所。  
 [訪問](https://dex.decred.org)
 
 ### Brave Wallet
@@ -293,21 +297,21 @@ Zcashをサポートするブラウザウォレット。
 [訪問](https://brave.com/wallet/)
 
 ### Nano-GPT
-Zcashを含む暗号資産決済に対応し、複数の主要AIモデルへのアクセスを提供するAIプラットフォーム。  
+Zcashを含む暗号資産決済をサポートしながら、複数の主要AIモデルへのアクセスを提供するAIプラットフォーム。  
 [訪問](https://nano-gpt.com/conversation/new)
 
 ### zk.poker
-エンドツーエンド暗号化、メンタルポーカー、Zcashのプライバシー技術を組み合わせたピアツーピアのポーカープラットフォーム。運営者がプレイヤーのカードを知る必要も、賭け金を直接保有する必要もないように設計されています。  
+エンドツーエンド暗号化、メンタルポーカー、Zcashのプライバシー技術を組み合わせたピアツーピアのポーカープラットフォーム。運営者がプレイヤーのカードを知る必要も、賭け金を直接保有する必要もないよう設計されています。  
 [訪問](https://zkbtc.org/)
 
 ---
 
-## Organizations & Labs
+## 組織とラボ
 
 ### Shielded Labs
-スイスを拠点とする、寄付により資金提供される独立したZcash支援組織。エコシステム内で初めて、Development Fundやブロック報酬による資金提供を一度も受けていない組織です。  
+スイスを拠点とする、独立した寄付資金によるZcash支援組織。Development Fundまたはブロック報酬の資金提供を一度も受けていない、エコシステム初の組織です。  
 [訪問](https://shieldedlabs.net/)
 
 ### Cypherpunk
-プライバシー、自己主権、そしてサイファーパンクの価値観に献身する企業。デジタルライフを守る必要がある個人のためのツールを構築しています。  
+プライバシー、自己主権、サイファーパンクの価値観に献身する企業。デジタルライフを保護する必要がある個人向けのツールを構築しています。  
 [訪問](https://cypherpunk.com/)

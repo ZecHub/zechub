@@ -137,7 +137,7 @@ Geplante Verbesserungen umfassen:
 
 ## Verwandte Seiten
 
-- [ZEC ausgeben](/using-zcash/spend-zcash) — Weitere Möglichkeiten, ZEC in der realen Welt zu nutzen
+- [ZEC ausgeben](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Weitere Möglichkeiten, ZEC in der realen Welt zu nutzen
 - [Zahlungsabwickler](/using-zcash/payment-processors) — Tools für Händler, um ZEC zu akzeptieren
 - [ZEC privat nutzen](/guides/using-zec-privately) — Best Practices für abgeschirmte Zahlungen
 - [Wallets](/using-zcash/wallets) — Wallets, die mit ZEC-Händlerzahlungen kompatibel sind

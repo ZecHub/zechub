@@ -79,4 +79,4 @@ Olùsáré tí a ti ṣe àtúnṣe gbọ́dọ̀:
 4. Máa ṣàyẹ̀wò `z_getoperationstatus` léraléra fún ìdámọ̀ iṣẹ́ náà.
 5. Ṣe igbasilẹ txid nikan lẹhin `success`.
 
-Ojú ìwé ẹ̀kọ́ àtijọ́ náà ṣì wà ní [Àwọn ìwé ìròyìn tí a dáàbò bo](/tutorials/shieldednewsletter/readme). Lo oju-iwe yii fun ilana naa.
+Ojú ìwé ẹ̀kọ́ àtijọ́ náà ṣì wà ní [Àwọn ìwé ìròyìn tí a dáàbò bo](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md). Lo oju-iwe yii fun ilana naa.

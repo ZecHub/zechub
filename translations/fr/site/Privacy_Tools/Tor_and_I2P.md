@@ -39,7 +39,7 @@ Tor et I2P sont tous deux des réseaux pair à pair décentralisés et anonymes,
 
 Orbot est un réseau privé virtuel (VPN) gratuit conçu pour les smartphones, qui fait transiter le trafic de toutes les applications de votre appareil par le réseau Tor.
 
-Suivez ces instructions pour faire passer un wallet Zcash par Tor. Notez que Ywallet, utilisé dans les versions précédentes de ce guide, n’est plus maintenu et ne suivra plus le réseau après Ironwood ; choisissez donc un wallet maintenu sur la page [Wallets](/using-zcash/wallets).
+Suivez ces instructions pour faire passer un wallet Zcash par Tor. Notez que YWallet, utilisé dans les versions précédentes de ce guide, n’est plus maintenu et ne suivra plus le réseau après Ironwood ; choisissez donc un wallet maintenu sur la page [Wallets](/using-zcash/wallets).
 
 1.  Téléchargez et installez *Orbot* depuis la boutique d’applications.
 
@@ -56,13 +56,13 @@ Suivez ces instructions pour faire passer un wallet Zcash par Tor. Notez que Ywa
 
 ## Installer Tor sur PC ou ordinateur de bureau
 
-* Le navigateur Tor peut être téléchargé depuis le site officiel ; vous pouvez accéder au lien [ici](https://www.torproject.org/download/).
+* Le navigateur Tor peut être téléchargé depuis le site officiel ; vous pouvez accéder au lien [ici](https://download.torproject.org/).
 
  Le moyen le plus pratique d’installer Tor est d’utiliser le Tor Browser Bundle. Si vous préférez une installation sans interface graphique, vous pouvez choisir d’installer le démon Tor séparément. 
 
 *Remarque : par défaut, le bundle Tor Browser expose un écouteur SOCKS sur tcp/9150 et le démon Tor expose l’écouteur SOCKS sur tcp/9050.*
 
-* Consultez les [instructions](https://support.torproject.org/apt/) d’installation spécifiques à votre système d’exploitation, fournies par le Tor Project.
+* Consultez les [instructions](https://support.torproject.org/little-t-tor/getting-started/installing/) d’installation spécifiques à votre système d’exploitation, fournies par le Tor Project.
 
 ## Faire fonctionner un nœud sur Tor
 

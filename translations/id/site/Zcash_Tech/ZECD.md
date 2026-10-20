@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZECD — Server Dompet Terlebih Dahulu Terlindungi
+# zecd — Server Dompet Terlebih Dahulu Terlindungi
 
-> 🇧🇷 [Versi dalam Bahasa Portugis](/zechubglobal/zcashbrasil/zcashtech/zecd)
+> 🇧🇷 [Versi dalam Bahasa Portugis](/pt/zcash-tech/zecd)
 
-ZECD adalah server dompet yang mengutamakan fitur terlindungi untuk Zcash, dibangun di atas [librustzcash](https://github.com/zcash/librustzcash) dan diekspos melalui dialek JSON-RPC Bitcoin Core. ZECD memberikan API yang familiar dan kompatibel dengan Bitcoin bagi developer dan integrator pembayaran untuk berinteraksi dengan Zcash — sekaligus menjadikan Orchard (pool paling privat) sebagai default. Dikembangkan oleh [zec.rocks](https://zec.rocks), ZECD dirancang untuk menggantikan fungsionalitas dompet `zcashd` dalam deployment cloud-native modern.
+zecd adalah server dompet yang mengutamakan fitur terlindungi untuk Zcash, dibangun di atas [librustzcash](https://github.com/zcash/librustzcash) dan diekspos melalui dialek JSON-RPC Bitcoin Core. zecd memberikan API yang familiar dan kompatibel dengan Bitcoin bagi developer dan integrator pembayaran untuk berinteraksi dengan Zcash — sekaligus menjadikan Orchard (pool paling privat) sebagai default. Dikembangkan oleh [zec.rocks](https://zec.rocks), zecd dirancang untuk menggantikan fungsionalitas dompet `zcashd` dalam deployment cloud-native modern.
 
 **Versi saat ini:** 0.5.0-rc3 (13 Juli 2026) — dengan dukungan Ironwood (NU6.3). Instal melalui `cargo install zecd` atau gunakan Docker image resmi.
 
@@ -14,7 +14,7 @@ ZECD adalah server dompet yang mengutamakan fitur terlindungi untuk Zcash, diban
 
 ## Ringkasan (TL;DR)
 
-- ZECD adalah sebuah **wallet daemon (server)** — bukan sebuah full node. Ia menangani kunci, pemindaian, pembuktian, dan RPC tanpa menggunakan protokol P2P Zcash.
+- zecd adalah sebuah **wallet daemon (server)** — bukan sebuah full node. Ia menangani kunci, pemindaian, pembuktian, dan RPC tanpa menggunakan protokol P2P Zcash.
 - Ia menggunakan **dialek JSON-RPC Bitcoin Core**: nama metode, bentuk field, autentikasi, dan kode kesalahan yang sama — banyak klien RPC Bitcoin dapat bekerja dengan Zcash secara langsung.
 - **Alamat (terlindungi) Orchard adalah default**; dukungan untuk alamat transparan (t-address) dan Sapling memerlukan persetujuan eksplisit per dompet.
 - Ia terhubung ke **full node [Zebra](Zebra_Full_Node.md) yang dihosting sendiri** melalui JSON-RPC lokal — tidak memerlukan lightwalletd.
@@ -25,11 +25,11 @@ ZECD adalah server dompet yang mengutamakan fitur terlindungi untuk Zcash, diban
 
 ---
 
-## Masalah Apa yang Diselesaikan oleh ZECD?
+## Masalah Apa yang Diselesaikan oleh zecd?
 
 `zcashd` adalah gabungan dari node dan dompet asli Zcash — merupakan fork dari codebase C++ Bitcoin pada tahun 2016. Seiring berjalannya waktu, hal ini menciptakan friksi: kode tersebut sulit untuk dipelihara, dompet terikat erat dengan node, dan alamat transparan disajikan sebagai opsi utama bersama dengan alamat terlindungi.
 
-ZECD memisahkan tanggung jawab dompet dari konsensus. Ini adalah **lapisan dompet khusus** yang berada di antara aplikasi dan Zebra full node, yang menyediakan:
+zecd memisahkan tanggung jawab dompet dari konsensus. Ini adalah **lapisan dompet khusus** yang berada di antara aplikasi dan Zebra full node, yang menyediakan:
 
 - Implementasi Rust yang bersih dan modern yang dibangun di atas librustzcash (library yang sama yang menggerakkan Zodl dan Zingo)
 - Desain privacy-by-default (alamat Orchard kecuali dikonfigurasi lain)
@@ -40,19 +40,19 @@ ZECD memisahkan tanggung jawab dompet dari konsensus. Ini adalah **lapisan dompe
 
 ## Arsitektur
 
-ZECD beroperasi dalam model tiga tingkat:
+zecd beroperasi dalam model tiga tingkat:
 
 ```
 Your app / Bitcoin RPC client
         ↓  JSON-RPC
-       ZECD
+       zecd
    (keys, scanning, proving, RPC)
         ↓  JSON-RPC (local only)
        Zebra
    (full node — consensus, mempool, chain data)
 ```
 
-ZECD berkomunikasi dengan Zebra **secara eksklusif melalui JSON-RPC lokal** — tanpa jaringan peer-to-peer, tanpa indexer pihak ketiga, tanpa lightwalletd. Koneksi Zebra sengaja dibuat hanya untuk lokal: ZECD akan menolak untuk mengirim kredensial ke host yang dapat dirutekan secara global kecuali dikonfigurasi secara eksplisit untuk terowongan aman out-of-band (misalnya WireGuard atau SSH).
+zecd berkomunikasi dengan Zebra **secara eksklusif melalui JSON-RPC lokal** — tanpa jaringan peer-to-peer, tanpa indexer pihak ketiga, tanpa lightwalletd. Koneksi Zebra sengaja dibuat hanya untuk lokal: zecd akan menolak untuk mengirim kredensial ke host yang dapat dirutekan secara global kecuali dikonfigurasi secara eksplisit untuk terowongan aman out-of-band (misalnya WireGuard atau SSH).
 
 ---
 
@@ -60,7 +60,7 @@ ZECD berkomunikasi dengan Zebra **secara eksklusif melalui JSON-RPC lokal** — 
 
 ### Utamakan Terlindungi, Orchard secara Default
 
-ZECD menggunakan Orchard Unified Addresses sebagai tipe alamat default. Pool Sapling dan transparan (t-address) memerlukan konfigurasi eksplisit per dompet. Desain ini mengurangi risiko pengiriman transparan yang tidak disengaja — sebuah celah privasi umum pada alat Zcash versi lama.
+zecd menggunakan Orchard Unified Addresses sebagai tipe alamat default. Pool Sapling dan transparan (t-address) memerlukan konfigurasi eksplisit per dompet. Desain ini mengurangi risiko pengiriman transparan yang tidak disengaja — sebuah celah privasi umum pada alat Zcash versi lama.
 
 Kebijakan privasi dapat dikonfigurasi per panggilan atau secara global di `[spend] privacy_policy`:
 
@@ -73,7 +73,7 @@ Kebijakan privasi dapat dikonfigurasi per panggilan atau secara global di `[spen
 
 ### Kompatibilitas RPC Bitcoin Core
 
-ZECD mengimplementasikan dialek JSON-RPC dari Bitcoin Core dengan kepatuhan pada:
+zecd mengimplementasikan dialek JSON-RPC dari Bitcoin Core dengan kepatuhan pada:
 
 - Nama metode (misalnya `getblockchaininfo`, `getbalance`, `getnewaddress`, `listtransactions`, `sendtoaddress`, `sendmany`)
 - Nama field dan tipe dalam respons
@@ -81,23 +81,23 @@ ZECD mengimplementasikan dialek JSON-RPC dari Bitcoin Core dengan kepatuhan pada
 - Basic auth, entri `rpcauth`, dan autentikasi file cookie
 - Kode error dan pemetaan status HTTP (HTTP 500 dengan body error, semantik 401)
 
-Ini berarti banyak library pembayaran Bitcoin yang sudah ada, integrasi exchange, dan alat pemantauan dapat berinteraksi dengan Zcash melalui ZECD dengan sedikit atau tanpa perubahan kode.
+Ini berarti banyak library pembayaran Bitcoin yang sudah ada, integrasi exchange, dan alat pemantauan dapat berinteraksi dengan Zcash melalui zecd dengan sedikit atau tanpa perubahan kode.
 
 Rangkaian kepatuhan (140+ pemeriksaan) dijalankan pada setiap PR terhadap daemon regtest yang aktif dan juga telah divalidasi terhadap testnet publik.
 
 ### Memo Terlindungi (ZIP-302)
 
-ZECD mengekspos fitur memo terlindungi dari Zcash melalui antarmuka Bitcoin RPC yang sudah dikenal — sesuatu yang tidak tersedia dalam alat Bitcoin standar:
+zecd mengekspos fitur memo terlindungi dari Zcash melalui antarmuka Bitcoin RPC yang sudah dikenal — sesuatu yang tidak tersedia dalam alat Bitcoin standar:
 
 - `sendtoaddress` menerima opsional hex memo sebagai parameter tambahan di akhir (hingga 512 byte; ditolak untuk penerima transparan)
 - Entri riwayat transaksi dari `listtransactions` dan `gettransaction` menyertakan field `memo` (hex) dan `memoStr` (teks terdekode) ketika sebuah output membawanya
 - Pengiriman dengan jumlah nol ke penerima terlindungi didukung untuk use case memo-only (pola `z_sendmany` "memo-only-send")
 
-Hal ini membuat ZECD cocok untuk aplikasi yang membutuhkan pengiriman pesan on-chain secara privat bersamaan dengan pembayaran.
+Hal ini membuat zecd cocok untuk aplikasi yang membutuhkan pengiriman pesan on-chain secara privat bersamaan dengan pembayaran.
 
 ### Tanpa Status secara Desain
 
-ZECD tidak menyimpan **tidak ada status off-chain yang tidak dapat dibangun kembali melalui pemulihan hanya dengan seed**. Database dompet (`data.sqlite`) sepenuhnya dapat diturunkan dari frasa pemulihan — dana terlindungi dipulihkan tanpa syarat; dana transparan dipulihkan hingga batas gap yang dikonfigurasi.
+zecd tidak menyimpan **tidak ada status off-chain yang tidak dapat dibangun kembali melalui pemulihan hanya dengan seed**. Database dompet (`data.sqlite`) sepenuhnya dapat diturunkan dari frasa pemulihan — dana terlindungi dipulihkan tanpa syarat; dana transparan dipulihkan hingga batas gap yang dikonfigurasi.
 
 Untuk memulihkan dompet dari frasa pemulihan:
 
@@ -105,17 +105,17 @@ Untuk memulihkan dompet dari frasa pemulihan:
 zecd init --restore --birthday <block-height>
 ```
 
-Hal ini membuat direktori data bersifat **dapat dibuang**: sebuah kontainer tanpa volume persisten, yang dibangun ulang dari seed pada setiap awal dijalankan, tidak akan kehilangan data kritis apa pun. Operator bertanggung jawab untuk melacak alamat yang mereka berikan — ZECD hanya mengingat alamat setelah alamat tersebut menerima dana secara on-chain.
+Hal ini membuat direktori data bersifat **dapat dibuang**: sebuah kontainer tanpa volume persisten, yang dibangun ulang dari seed pada setiap awal dijalankan, tidak akan kehilangan data kritis apa pun. Operator bertanggung jawab untuk melacak alamat yang mereka berikan — zecd hanya mengingat alamat setelah alamat tersebut menerima dana secara on-chain.
 
-Label sengaja tidak disertakan. Karena label tidak memiliki sumber on-chain dan tidak dapat direkonstruksi dari seed, ZECD secara sederhana tidak mendukungnya. Memanggil metode label akan mengembalikan error `method-not-found` (`-32601`).
+Label sengaja tidak disertakan. Karena label tidak memiliki sumber on-chain dan tidak dapat direkonstruksi dari seed, zecd secara sederhana tidak mendukungnya. Memanggil metode label akan mengembalikan error `method-not-found` (`-32601`).
 
 ### Tanpa Ketergantungan lightwalletd
 
-ZECD memperoleh blok ringkas, status pohon, dan visibilitas mempool secara langsung dari JSON-RPC milik Zebra. Tidak ada lightwalletd yang perlu dioperasikan atau dipelihara — mengurangi kompleksitas operasional untuk deployment yang di-host sendiri.
+zecd memperoleh blok ringkas, status pohon, dan visibilitas mempool secara langsung dari JSON-RPC milik Zebra. Tidak ada lightwalletd yang perlu dioperasikan atau dipelihara — mengurangi kompleksitas operasional untuk deployment yang di-host sendiri.
 
 ### Deployment Cloud-Native dan Terkontainerisasi
 
-Arsitektur stateless ZECD dirancang untuk lingkungan Docker dan Kubernetes:
+Arsitektur stateless zecd dirancang untuk lingkungan Docker dan Kubernetes:
 
 - Stack Docker Compose lengkap (`zebra → zecd`) tersedia di dalam repositori
 - Endpoint kesehatan pada port `9233` dengan probe readiness yang dapat dikonfigurasi (`synced` atau `connected`)
@@ -127,7 +127,7 @@ Arsitektur stateless ZECD dirancang untuk lingkungan Docker dan Kubernetes:
 
 ## Model Kustodial
 
-ZECD mendukung tiga model kustodial kunci, yang sesuai untuk berbagai kebutuhan penerapan dan keamanan:
+zecd mendukung tiga model kustodial kunci, yang sesuai untuk berbagai kebutuhan penerapan dan keamanan:
 
 ### 1. Tidak terenkripsi (Default — Buka Kunci Otomatis)
 
@@ -180,13 +180,13 @@ Dana dapat dipulihkan hanya dari **frasa pemulihan saja**. Segala hal lainnya ha
 | `blocks/` | `<wallet dir>/blocks/` | Cache blok yang ringkas | Tidak — jangan pernah dikirim; dapat tumbuh besar |
 | `.cookie` | `<datadir>/.cookie` | Cookie RPC ephemeral | Tidak — dibuat ulang saat startup |
 
-> **Direktori data harus bersifat host-lokal.** Kunci instansi tunggal ZECD (`<datadir>/.lock`) adalah kunci advisori OS — ini tidak mencakup lintas host. Jangan pernah berbagi direktori data dengan akses baca-tulis di berbagai mesin (NFS, Kubernetes `ReadWriteMany`) — dua instansi ZECD akan merusak DB dompet. Gunakan volume `ReadWriteOnce` di Kubernetes.
+> **Direktori data harus bersifat host-lokal.** Kunci instansi tunggal zecd (`<datadir>/.lock`) adalah kunci advisori OS — ini tidak mencakup lintas host. Jangan pernah berbagi direktori data dengan akses baca-tulis di berbagai mesin (NFS, Kubernetes `ReadWriteMany`) — dua instansi zecd akan merusak DB dompet. Gunakan volume `ReadWriteOnce` di Kubernetes.
 
 ---
 
 ## Safelist Metode RPC
 
-Untuk penerapan di mana kebocoran kredensial akan berakibat katastrofik, ZECD mendukung pembatasan permukaan RPC ke subset metode yang dipilih:
+Untuk penerapan di mana kebocoran kredensial akan berakibat katastrofik, zecd mendukung pembatasan permukaan RPC ke subset metode yang dipilih:
 
 ```toml
 [rpc]
@@ -201,7 +201,7 @@ Metode apa pun yang tidak ada dalam daftar akan mengembalikan `-32601` (HTTP 404
 
 Developer yang bermigrasi dari Bitcoin atau alat zcashd harus menyadari perbedaan yang disengaja ini:
 
-| Perilaku | Bitcoin Core | ZECD |
+| Perilaku | Bitcoin Core | zecd |
 |----------|-------------|------|
 | Format alamat | `1...` / `bc1...` | `u1...` (Orchard Unified Address) — tidak dapat diurai sebagai alamat Bitcoin oleh client string-parsing |
 | Label | Penyimpanan label lengkap | Belum diimplementasikan — `setlabel`, `listlabels`, dll. mengembalikan `-32601` |
@@ -209,7 +209,7 @@ Developer yang bermigrasi dari Bitcoin atau alat zcashd harus menyadari perbedaa
 | Memo | Tidak didukung | `sendtoaddress` menerima memo hex; riwayat memiliki field `memo` + `memoStr` |
 | Konfirmasi untuk membelanjakan | 1 | 3 (kembalian sendiri) / 10 (pihak ketiga) — dapat dikonfigurasi melalui `trusted_confirmations` / `untrusted_confirmations` |
 | `listsinceblock` saat reorg | Berjalan mundur ke fork | Mengembalikan `-5` (Block tidak ditemukan) jika kursor tergeser oleh reorg — baseline ulang dengan panggilan tanpa parameter |
-| Penerima duplikat dalam `sendmany` | Error | JSON parser menggabungkan duplikat (yang terakhir menang) sebelum ZECD melihatnya — jangan mencantumkan alamat yang sama dua kali |
+| Penerima duplikat dalam `sendmany` | Error | JSON parser menggabungkan duplikat (yang terakhir menang) sebelum zecd melihatnya — jangan mencantumkan alamat yang sama dua kali |
 | Saldo selama sinkronisasi awal | Memblokir atau pemanasan | Menyajikan saldo parsial — batasi otomatisasi pada `GET /readyz` (mengembalikan 503 hingga tersinkronisasi penuh dan backlog peningkatan telah dikosongkan) |
 | `minconf 0` dalam `getbalance` | Saldo 0-conf | Disajikan sebagai 1 — sebuah shielded note tidak akan pernah dapat dibelanjakan sebelum ditambang |
 
@@ -274,16 +274,16 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Port Default
 
-| Jaringan | ZECD RPC | Zebra RPC (backend) | Kesehatan |
+| Jaringan | zecd RPC | Zebra RPC (backend) | Kesehatan |
 |---------|----------|---------------------|--------|
 | Mainnet | 8232 | 8234 | 9233 |
 | Testnet | 18232 | 18234 | 9233 |
 
 ---
 
-## ZECD vs. zcashd vs. Zaino
+## zecd vs. zcashd vs. Zaino
 
-| | zcashd | Zaino | ZECD |
+| | zcashd | Zaino | zecd |
 |--|--------|-------|------|
 | Peran | Full node + dompet | Indexer (menggantikan lightwalletd) | Hanya server dompet |
 | Bahasa | C++ | Rust | Rust |
@@ -301,16 +301,16 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ## Halaman Terkait
 
-- [Zebra Full Node](Zebra_Full_Node.md) — full node yang terhubung ke ZECD
+- [Zebra Full Node](Zebra_Full_Node.md) — full node yang terhubung ke zecd
 - [Zaino Indexer](Zaino.md) — pendekatan indexer alternatif (menggantikan lightwalletd)
 - [Zakura Node](Zakura_Node.md) — implementasi full node lainnya (fork dari Zebra)
-- [Viewing Keys](Viewing_Keys.md) — bagaimana ZECD memindai chain menggunakan account viewing keys
+- [Viewing Keys](Viewing_Keys.md) — bagaimana zecd memindai chain menggunakan account viewing keys
 - [Dompet](/using-zcash/wallets) — ringkasan ekosistem dompet
 
 ## Sumber Daya
 
-- [ZECD GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
-- [Runbook Operasi ZECD ](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
+- [zecd GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
+- [Runbook Operasi zecd ](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
 - [zec.rocks](https://zec.rocks)
 - [librustzcash — library kriptografi inti Zcash](https://github.com/zcash/librustzcash)
 - [ZIP-317: Mekanisme Biaya Transfer Proporsional ](https://zips.z.cash/zip-0317)

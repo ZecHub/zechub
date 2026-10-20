@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Eto akọọlẹ + ikẹkọ ṣiṣanwọle laaye
+# Free2Z: Eto akọọlẹ + ikẹkọ ṣiṣanwọle laaye
 
 ## Ifihan
 
@@ -97,7 +97,7 @@ Tàbí, láti inú ìfìwéránṣẹ́ kan, wá bọ́tìnì floating plus. Lá
 
 ## Ṣíṣíṣanwọle Laaye
 
-Pẹpẹ Free2z n pese ẹya iyalẹnu kan ti a pe ni Free2z Live. Pẹlu irinṣẹ yii, awọn olupilẹṣẹ le bẹrẹ ṣiṣanwọle laaye fun awọn ọmọ ẹgbẹ ti a forukọsilẹ. Diẹ ninu awọn ẹya pataki ti Free2z Live pẹlu: 
+Pẹpẹ Free2Z n pese ẹya iyalẹnu kan ti a pe ni Free2Z Live. Pẹlu irinṣẹ yii, awọn olupilẹṣẹ le bẹrẹ ṣiṣanwọle laaye fun awọn ọmọ ẹgbẹ ti a forukọsilẹ. Diẹ ninu awọn ẹya pataki ti Free2Z Live pẹlu: 
 - Ohùn àti fídíò 
 - Pínpín iboju 
 - Ṣíṣe àtúnṣe kódì ìfọwọ́sowọ́pọ̀ 
@@ -105,9 +105,9 @@ Pẹpẹ Free2z n pese ẹya iyalẹnu kan ti a pe ni Free2z Live. Pẹlu irin�
 - Fífi Wúrà Wúrà 
 - Ati pupọ diẹ sii!
 
-### Kini o le ṣe pẹlu Free2z Live
+### Kini o le ṣe pẹlu Free2Z Live
 
-Free2z Live jẹ́ irinṣẹ́ alágbára, tó ń jẹ́ kí àwọn olùdásílẹ̀ lè gbé irú àkóónú èyíkéyìí jáde. Àwọn àpẹẹrẹ díẹ̀ lára irú àkóónú tí o lè gbé jáde pẹ̀lú Free2z Live nìyí: 
+Free2Z Live jẹ́ irinṣẹ́ alágbára, tó ń jẹ́ kí àwọn olùdásílẹ̀ lè gbé irú àkóónú èyíkéyìí jáde. Àwọn àpẹẹrẹ díẹ̀ lára irú àkóónú tí o lè gbé jáde pẹ̀lú Free2Z Live nìyí: 
 - Àwọn ìdánilẹ́kọ̀ọ́ àti àwọn àfihàn 
 - Àwọn ìṣeré àti àwọn ìṣẹ̀lẹ̀ 
 - Àwọn iṣẹ́ àfọwọ́sowọ́pọ̀ 
@@ -116,7 +116,7 @@ Free2z Live jẹ́ irinṣẹ́ alágbára, tó ń jẹ́ kí àwọn olùdásí
 
 ### Bawo ni lati lọ laaye
 
-Ó rọrùn gan-an láti bẹ̀rẹ̀ sí í fi Free2z Live bẹ̀rẹ̀ sí í fi ránṣẹ́. Àmọ́ àwọn nǹkan díẹ̀ ló wà kí o tó lè bẹ̀rẹ̀ sí í fi ránṣẹ́. 
+Ó rọrùn gan-an láti bẹ̀rẹ̀ sí í fi Free2Z Live bẹ̀rẹ̀ sí í fi ránṣẹ́. Àmọ́ àwọn nǹkan díẹ̀ ló wà kí o tó lè bẹ̀rẹ̀ sí í fi ránṣẹ́. 
 1. Olùdá **gbọ́dọ̀** ní iye owó tó kéré jù **ẹgbẹ́** ti 10 2Z. 
 2. Olùdá **gbọ́dọ̀** ní ìwọ́ntúnwọ̀nsí tó kéré tán 150 2Z nínú àkọọ́lẹ̀ wọn. 
 
@@ -124,7 +124,7 @@ Tí ẹlẹ́dàá bá pàdé **méjèjì** àwọn òfin tí a kọ sí òkè y
 
 ![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-Láti bẹ̀rẹ̀ síí gbé ìgbéjáde láyè, tẹ bọ́tìnì **Lọ Láààyè**, àpù Free2z yóò sì béèrè fún àṣẹ láti lo gbohùngbohùn àti kámẹ́rà rẹ (tí o bá ní ọ̀kan). Lẹ́yìn tí o bá fún ọ ní àṣẹ tó yẹ, Free2z yóò béèrè lọ́wọ́ rẹ láti tẹ orúkọ àpèlé kan tí o fẹ́ lò nígbà tí ó bá ń gbéjáde láyè. Nígbà tí o bá ti yan orúkọ àpèlé kan, tẹ **Dara pọ̀** láti bẹ̀rẹ̀ síí gbéjáde láyè rẹ.
+Láti bẹ̀rẹ̀ síí gbé ìgbéjáde láyè, tẹ bọ́tìnì **Lọ Láààyè**, àpù Free2Z yóò sì béèrè fún àṣẹ láti lo gbohùngbohùn àti kámẹ́rà rẹ (tí o bá ní ọ̀kan). Lẹ́yìn tí o bá fún ọ ní àṣẹ tó yẹ, Free2Z yóò béèrè lọ́wọ́ rẹ láti tẹ orúkọ àpèlé kan tí o fẹ́ lò nígbà tí ó bá ń gbéjáde láyè. Nígbà tí o bá ti yan orúkọ àpèlé kan, tẹ **Dara pọ̀** láti bẹ̀rẹ̀ síí gbéjáde láyè rẹ.
 
 ![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Láti bẹ̀rẹ̀ síí gbé ìgbéjáde láyè, tẹ bọ́tìnì **Lọ Láà
 
 Nígbà tí àwọn ènìyàn bá dara pọ̀ mọ́ ìtàkùn ayélujára, wọ́n lè bá ara wọn sọ̀rọ̀, kí wọ́n béèrè láti dara pọ̀ mọ́ orí ìtàkùn, kí wọ́n bá ara wọn sọ̀rọ̀ nípa dídìbò nínú ìdìbò, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ.
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Àpẹẹrẹ ti igba Free2z Live)_
+_(Àpẹẹrẹ ti igba Free2Z Live)_
 
-Free2z Live jẹ́ ohun tó wọ́pọ̀ tí ó sì lágbára. Ní apá tó tẹ̀lé e, màá ṣe àkópọ̀ àwọn iṣẹ́ àti irinṣẹ́ rẹ̀.
+Free2Z Live jẹ́ ohun tó wọ́pọ̀ tí ó sì lágbára. Ní apá tó tẹ̀lé e, màá ṣe àkópọ̀ àwọn iṣẹ́ àti irinṣẹ́ rẹ̀.
 
-### Ṣíṣe àwárí Free2z Live
+### Ṣíṣe àwárí Free2Z Live
 
-A kò ṣe ètò wiki-doc yìí láti jẹ́ ìtọ́sọ́nà tó jinlẹ̀ sí Free2z tàbí Free2z Live. Ṣùgbọ́n àkópọ̀ gbogbogbòò àwọn irinṣẹ́ rẹ̀ nìyí.
+A kò ṣe ètò wiki-doc yìí láti jẹ́ ìtọ́sọ́nà tó jinlẹ̀ sí Free2Z tàbí Free2Z Live. Ṣùgbọ́n àkópọ̀ gbogbogbòò àwọn irinṣẹ́ rẹ̀ nìyí.
 
 Ní ìsàlẹ̀ apá òsì ti ìbòjú náà, a rí àwọn bọ́tìnì díẹ̀.
 
@@ -177,18 +177,18 @@ Kì í ṣe ète wiki-doc yìí láti ṣàlàyé gbogbo àwọn afikún-ọ̀r�
 
 ## Ìparí
 
-Ní ìparí, Free2z jẹ́ pẹpẹ tí ó wúlò fún àwọn olùdásílẹ̀ láti fi agbára wọn hàn, pín ìmọ̀ àti láti kó owó jọ fún àwọn iṣẹ́ àgbékalẹ̀ wọn, àti láti bá àwọn olùrànlọ́wọ́ wọn ṣiṣẹ́ nípasẹ̀ irinṣẹ́ alágbára ti Free2z Live.
+Ní ìparí, Free2Z jẹ́ pẹpẹ tí ó wúlò fún àwọn olùdásílẹ̀ láti fi agbára wọn hàn, pín ìmọ̀ àti láti kó owó jọ fún àwọn iṣẹ́ àgbékalẹ̀ wọn, àti láti bá àwọn olùrànlọ́wọ́ wọn ṣiṣẹ́ nípasẹ̀ irinṣẹ́ alágbára ti Free2Z Live.
 
 ----
 
 ### Àwọn ohun àlùmọ́nì
 
-[Free2z](https://free2z.cash/)  
-[Ìwé ìforúkọsílẹ̀ Free2z](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Ìwé ìforúkọsílẹ̀ Free2Z](https://free2z.cash/docs/)  
 [Àkópọ̀ 2Z](https://free2z.cash/docs/getting-started/tuzis)  
 [Ṣíṣẹ̀dá profaili kan](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Kí ni Free2z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z fún àwọn Olùrànlọ́wọ́](https://free2z.cash/docs/category/for-supporters)
+[Kí ni Free2Z Live?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z fún àwọn Olùrànlọ́wọ́](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 

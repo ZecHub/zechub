@@ -4,7 +4,7 @@
 
 # Njia ya Zakura
 
-> 🇧🇷 [Versão em Kireno](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [Versão em Kireno](/pt/zcash-tech/zakura-node)
 
 Zakura ni utekelezaji wa nodi kamili bila malipo, chanzo huria kwa Zcash, uliojengwa kwa kiwango kikubwa. Imegawanywa kutoka [Zebra](Zebra_Full_Node.md) na kuendelezwa kupitia ushirikiano kati ya **Valar Group** na **Project Tachyon**, Zakura hutoa usawazishaji wa haraka sana, kupogoa vitalu asilia, na safu ya utangamano kwa ajili ya urithi. `zcashd` uundaji wa zana. Toleo la 1.0.0 lilitolewa mnamo Julai 15, 2026.
 

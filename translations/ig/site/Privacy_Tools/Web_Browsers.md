@@ -3,30 +3,30 @@
 </a>
 
 
-# Ihe nchọgharị weebụ
+# Ihe Nchọgharị Weebụ
 
-1. **Brave:** One of the most prominent and safest browsers on the market today. It blocks privacy-invasive ads & trackers. It blocks third-party data storage. 
+1. **Brave:** Otu n'ime ihe nchọgharị kachasị ama na nke kachasị nchebe n'ahịa taa. Ọ na-egbochi mgbasa ozi na ihe nlele nzuzo nke na-awakpo nzuzo. Ọ na-egbochi nchekwa data nke ndị ọzọ. 
 
-2. **Mulvad:** A privacy-focused web browser developed in collaboration between Mullvad VPN and the Tor Project. It's produced to minimize tracking and fingerprinting
+2. **Mulvad:** Ihe nchọgharị weebụ nke lekwasịrị anya na nzuzo mepụtara site na mmekorita n'etiti Mullvad VPN na Tor Project. Emepụtara ya iji belata nsochi na mkpisi aka
 
-3. **Tor:** Ihe nchọgharị a na-egbochi plugins dịka Flash, RealPlayer, QuickTime, na ndị ọzọ: ha nwere ike ịmegharị iji kpughee adreesị IP gị. Anyị anaghị akwado ịwụnye mgbakwunye ma ọ bụ plugins ọzọ na Tor Browser
+3. **Tor:** Ihe nchọgharị a na-egbochi plugins dịka Flash, RealPlayer, QuickTime, na ndị ọzọ: enwere ike iji ha mee ka ha pụta ìhè adreesị IP gị. Anyị anaghị akwado itinye mgbakwunye ma ọ bụ plugins ndị ọzọ na Tor Browser
 
 
-## Olee Ihe Ndị E Kwesịrị Ichebara Echiche Mgbe A Na-ahọrọ Ihe Nchọgharị Ịntanetị?
+## Gịnị bụ ihe ndị a ga-atụle n'ihe gbasara nchekwa mgbe ị na-ahọrọ ihe nchọgharị weebụ?
 
-When selecting a web browser there are a few things to keep in mind: Security vulnerabilities and exploits are usually discovered regularly. Some browsers are traceable in some manner, but, there are browsers that allow users to browse anonymously - [Tor browser](https://www.torproject.org/download/) Dị ka ihe atụ. 
+Mgbe ị na-ahọrọ ihe nchọgharị weebụ, e nwere ihe ole na ole ị ga-eburu n'uche: A na-achọpụtakarị adịghị ike na ihe ọjọọ nchekwa mgbe niile. A na-achọpụta ụfọdụ ihe nchọgharị n'ụzọ ụfọdụ, mana, e nwere ihe nchọgharị ndị na-enye ndị ọrụ ohere ịchọgharị n'amaghị aha ha - [Ihe nchọgharị Tor](https://download.torproject.org/) ọmụmaatụ. 
 
-**Fingerprinting**: If you want to keep things private like, softwares installed on your machine, hardware configuration, and more, consider looking out for web browser that supports fingerprinting resistance feature. 
+**Mkpisiaka**: Ọ bụrụ na ịchọrọ idobe ihe ndị dị ka sọftụwia arụnyere na igwe gị, nhazi ngwaike, na ihe ndị ọzọ, tụlee ile anya na ihe nchọgharị weebụ nke na-akwado atụmatụ iguzogide mkpịsị aka. 
 
-**HTTPS Test**: Another security consideration to look out for when selecting a web browser is the HTTPS Test protocol that helps to encrypt website connection and hides cookies, URLs and other types of sensitive metadata. With HTTPS, connection is encrypted and no third parties on the network can read content being transferred between the server and your browser. 
+**Nnwale HTTPS**: Ihe ọzọ a ga-atụle n'ihe gbasara nchekwa mgbe ị na-ahọrọ ihe nchọgharị weebụ bụ usoro nnwale HTTPS nke na-enyere aka izochi njikọ weebụsaịtị ma zoo kuki, URL na ụdị metadata ndị ọzọ dị mkpa. Site na HTTPS, a na-ezochi njikọ ahụ, ọ dịghịkwa onye ọzọ nọ na netwọk ahụ nwere ike ịgụ ọdịnaya a na-ebufe n'etiti sava na ihe nchọgharị gị. 
 
-**Tracking Cookie Protection**: More so, a large portion of web pages in the world wide web has hidden third-party trackers; these trackers read and write cookies in your browser. These cookies can pose malicious treats because they can be used to track your browsing across websites; to prevent this tracking, select a web browser that blocks unknown browsing cookies.
+**Nchedo Kuki Nledo**: Ihe ọzọ bụ na ọtụtụ ibe weebụ dị na weebụ zuru ụwa ọnụ nwere ndị na-eso ụzọ nke atọ zoro ezo; ndị na-eso ụzọ a na-agụ ma na-ede kuki na ihe nchọgharị gị. Kuki ndị a nwere ike ibute ihe ọjọọ n'ihi na enwere ike iji ha soro nchọgharị gị na weebụsaịtị; iji gbochie nsuso a, họrọ ihe nchọgharị weebụ nke na-egbochi kuki nchọgharị amaghi.
 
-**Navigation Test**: As you navigate from one web page to another, you will come across many links (some are internal links while others are linking to another website). As you click these links, certain browser APIs allow the first site to communicate with the second site. To resolve this, select a web browser that prevents websites from sharing tracking data when you click on a link. When selecting that browser that you feel might suit your need, make sure it provides robust privacy features and essential features such as built-in ad blockers and what not. Additionally, many of these web browsers support extensions plus add-ons and sometimes these extensions may pose security risks, be sure to always install these extensions from a secured ecosystem or trusted sources.
+**Nnwale Njem**: Ka ị na-agagharị site n'otu ibe weebụ gaa na nke ọzọ, ị ga-ahụ ọtụtụ njikọ (ụfọdụ bụ njikọ dị n'ime ebe ndị ọzọ na-ejikọ na weebụsaịtị ọzọ). Ka ị na-pịa njikọ ndị a, ụfọdụ API ihe nchọgharị na-enye saịtị mbụ ohere ịkparịta ụka na saịtị nke abụọ. Iji dozie nke a, họrọ ihe nchọgharị weebụ nke na-egbochi weebụsaịtị ịkekọrịta data nsochi mgbe ịpịrị njikọ. Mgbe ị na-ahọrọ ihe nchọgharị ahụ ị chere na ọ ga-adabara mkpa gị, jide n'aka na ọ na-enye atụmatụ nzuzo siri ike na atụmatụ dị mkpa dịka ihe mgbochi mgbasa ozi arụnyere na ya na ihe ndị ọzọ na-adịghị. Na mgbakwunye, ọtụtụ n'ime ihe nchọgharị weebụ ndị a na-akwado ndọtị yana mgbakwunye na mgbe ụfọdụ ndọtị ndị a nwere ike ibute ihe egwu nchekwa, jide n'aka na ị na-etinye ndọtị ndị a mgbe niile site na gburugburu ebe obibi echekwara ma ọ bụ isi mmalite a tụkwasịrị obi.
  
-## Nchọgharị Brave Zcash Wallet Integration
+## Njikọ obere akpa Zcash nke ihe nchọgharị Brave
 
-Brave browser is paving the way for the web3 ecosystem. How? More than 2 million unstoppable domains can now be leveraged for displaying decentralized websites. With Brave Browsers robust security features, people can explore the internet without being tracked. Brave and Zcash are joining forces to bring new privacy tools to Web3 ecosysem. For greater benefits, Brave would integrate swiftly with Zcash protocol via Brave's built-in crypto wallet to revolutionize crypto transactions - This integration would enable users to safely store, send , and receive ZEC very easily plus other crypto currencies as well. The collaration between Brave web browser and Zcash would truly change the game as users will have greater control over their Web3 activiy. 
+Ihe nchọgharị Brave na-emepe ụzọ maka gburugburu ebe obibi web3. Kedu otu? Enwere ike iji ihe karịrị nde ngalaba abụọ a na-apụghị ịkwụsị ugbu a iji gosipụta weebụsaịtị ndị na-adịghị achịkwa. Site na atụmatụ nchekwa siri ike nke Brave Browers, ndị mmadụ nwere ike inyocha ịntanetị na-enweghị onye ga-eso ha. Brave na Zcash na-ejikọ aka iji weta ngwaọrụ nzuzo ọhụrụ na sistemụ nrụọrụ Web3. Maka uru ka ukwuu, Brave ga-ejikọ ngwa ngwa na usoro Zcash site na obere akpa ego crypto Brave's wuru iji gbanwee azụmahịa crypto - Njikọ a ga-eme ka ndị ọrụ nwee ike ịchekwa, izipu, na ịnata ZEC n'enweghị nsogbu yana ego crypto ndị ọzọ. Njikọ dị n'etiti ihe nchọgharị weebụ Brave na Zcash ga-agbanwe egwuregwu ahụ n'ezie ka ndị ọrụ ga-enwe njikwa ka ukwuu na ọrụ Web3 ha. 
 
-Another intriguing fact about the Brave browser and Zcash integration is the private and decentralized messaging feature; Brave, ECC, and the Filecoin Foundation team are paving a way for privacy-based feature in the Brave browser - this collaboration aims to offer private messages and media transmission via Zcash protocol. Here, Interplanetary File System (IPFS) will play an essential role in offering secure storage capability for the encrypted content.
+Eziokwu ọzọ na-adọrọ mmasị gbasara ihe nchọgharị Brave na njikọta Zcash bụ atụmatụ ozi nkeonwe na nke a na-ekewaghị ekewa; Ndị otu Brave, ECC, na Filecoin Foundation na-emepe ụzọ maka atụmatụ dabere na nzuzo na ihe nchọgharị Brave - mmekorita a na-achọ inye ozi nkeonwe na nnyefe mgbasa ozi site na usoro Zcash. N'ebe a, Sistemụ Njikwa Interplanetary (IPFS) ga-arụ ọrụ dị mkpa n'inye ikike nchekwa nchekwa maka ọdịnaya ezoro ezo.
 

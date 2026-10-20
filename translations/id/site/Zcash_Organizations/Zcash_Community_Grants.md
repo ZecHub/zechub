@@ -30,7 +30,7 @@ Zcash Community Grants adalah organisasi independen dari Electric Coin Company d
 
 ## Pendanaan
 
-Electric Coin Company menerima 8% dari dana pengembangan [Zcash](https://zips.z.cash/zip-1014). Mereka menggunakan dana ini untuk mendukung tim pengembangan pihak ketiga dan juga untuk operasional internal.
+Zcash Community Grants menerima 8% dari subsidi blok, berdasarkan model pendanaan yang ditetapkan pada NU6.1 oleh [ZIP 1016](https://zips.z.cash/zip-1016). Aliran dana tersebut dimulai ketika aliran dana [ZIP 1015](https://zips.z.cash/zip-1015) sebelumnya berakhir, dan berlangsung hingga halving ketiga Zcash pada blok 4.406.400 berdasarkan jarak antarblok saat ini. ZCG menggunakan dana ini untuk mendukung tim independen di seluruh ekosistem Zcash.
 
 ## Sumber Daya
 

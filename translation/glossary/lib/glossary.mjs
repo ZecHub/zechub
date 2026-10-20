@@ -70,7 +70,7 @@ export const EXAMPLE_FIELDS = ["english_in_brackets", "capitalise_kept_english_a
 export const STYLE_FIELDS = [
   "variety", "register", "english_in_brackets", "loanwords", "loanwords_text", "examples",
   "capitalise_kept_english_at_sentence_start", "numerals", "decimal_separator",
-  "quotes", "abbreviations_with_full_stop", "notes",
+  "quotes", "abbreviations_with_full_stop", "writing_rules", "notes",
 ];
 export const GATES_FIELDS = [
   "sentence_boundary_extra_abbrev", "script_regex", "min_script_share",
@@ -508,6 +508,9 @@ export function validateLocale(glossary, { termsEn, preserveVerbatim = [], siteD
       if (style[f] !== undefined && !isStr(style[f])) {
         errors.push({ rule: "structure", where: `${where0} style`, message: `${f} must be a non-empty string` });
       }
+    }
+    if (style.writing_rules !== undefined && !(Array.isArray(style.writing_rules) && style.writing_rules.every(isStr))) {
+      errors.push({ rule: "structure", where: `${where0} style`, message: "writing_rules must be a list of non-empty strings" });
     }
     if (style.examples !== undefined) {
       const ex = style.examples;

@@ -4,8 +4,8 @@ As Arborist Calls são reuniões quinzenais focadas no desenvolvimento do Protoc
 
 Qualquer pessoa que queira contribuir para o desenvolvimento do protocolo Zcash e compartilhar notícias sobre projetos relacionados a Zcash pode se registrar aqui:
 
-- [15:00 UTC] (https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA)
-- [21:00 UTC] (https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
+- [15:00 UTC] (https://web.archive.org/web/20230130034337/https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA)
+- [21:00 UTC] (https://web.archive.org/web/20230323232320/https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
 
 Você pode encontrar as últimas anotações das Arborists [aqui](https://github.com/ZcashCommunityGrants/arboretum-notes).
 

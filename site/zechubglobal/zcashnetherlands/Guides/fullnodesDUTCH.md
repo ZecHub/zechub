@@ -82,7 +82,7 @@ DNS-seeders tonen een lijst met andere betrouwbare knooppunten via een ingebouwd
 
 Dit zijn voorbeelden van platforms die toegang geven tot Zcash Network-gegevens:
 
-[Zcash Block Explorer](https://zcashblockexplorer.com)
+[Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
 

@@ -1,6 +1,6 @@
 [![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2z: Usanidi wa akaunti + Mafunzo ya utiririshaji wa moja kwa moja
+# Free2Z: Usanidi wa akaunti + Mafunzo ya utiririshaji wa moja kwa moja
 
 ## Utangulizi
 
@@ -97,7 +97,7 @@ Au, kutoka ndani ya chapisho, tafuta kitufe cha kuongeza kinachoelea. Kuanzia ha
 
 ## Utiririshaji wa Moja kwa Moja
 
-Jukwaa la Free2z linatoa kipengele kizuri kinachoitwa Free2z Live. Kwa zana hii, waundaji wanaweza kuanzisha mitiririko ya moja kwa moja kwa wanachama waliojisajili. Baadhi ya vipengele muhimu vya Free2z Live ni pamoja na: 
+Jukwaa la Free2Z linatoa kipengele kizuri kinachoitwa Free2Z Live. Kwa zana hii, waundaji wanaweza kuanzisha mitiririko ya moja kwa moja kwa wanachama waliojisajili. Baadhi ya vipengele muhimu vya Free2Z Live ni pamoja na: 
 - Sauti na video 
 - Kushiriki skrini 
 - Uhariri wa msimbo wa ushirikiano 
@@ -105,9 +105,9 @@ Jukwaa la Free2z linatoa kipengele kizuri kinachoitwa Free2z Live. Kwa zana hii,
 - Ubao Mweupe 
 - Na mengi zaidi!
 
-### Unaweza kufanya nini na Free2z Live
+### Unaweza kufanya nini na Free2Z Live
 
-Free2z Live ni zana yenye nguvu, inayowaruhusu waundaji kutiririsha aina yoyote ya maudhui. Hapa kuna mifano michache ya aina ya maudhui unayoweza kutiririsha ukitumia Free2z Live: 
+Free2Z Live ni zana yenye nguvu, inayowaruhusu waundaji kutiririsha aina yoyote ya maudhui. Hapa kuna mifano michache ya aina ya maudhui unayoweza kutiririsha ukitumia Free2Z Live: 
 - Mafunzo na maonyesho 
 - Maonyesho na matukio 
 - Miradi ya ushirikiano 
@@ -116,7 +116,7 @@ Free2z Live ni zana yenye nguvu, inayowaruhusu waundaji kutiririsha aina yoyote 
 
 ### Jinsi ya kuanza moja kwa moja
 
-Ni rahisi sana kuanzisha mtiririko wa moja kwa moja ukitumia Free2z Live. Lakini kuna mahitaji machache kabla ya kuanza mtiririko wako. 
+Ni rahisi sana kuanzisha mtiririko wa moja kwa moja ukitumia Free2Z Live. Lakini kuna mahitaji machache kabla ya kuanza mtiririko wako. 
 1. Muundaji **lazima** awe na **bei ya chini kabisa ya uanachama** ya 10 2Zs. 
 2. Muundaji **lazima** awe na salio la angalau 150 2Zs katika akaunti yake. 
 
@@ -124,7 +124,7 @@ Ikiwa muundaji atatimiza masharti yote mawili yaliyo hapo juu, aikoni inayoitwa 
 
 ![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
-Ili kuanzisha mtiririko wa moja kwa moja, bofya tu kitufe cha **Nenda Moja kwa Moja**, na programu ya Free2z itaomba ruhusa ya kutumia maikrofoni na kamera yako ya wavuti (ikiwa unayo). Baada ya kutoa ruhusa zinazohitajika, Free2z itakuomba uweke jina la utani unalotaka kutumia wakati wa mtiririko wa moja kwa moja. Ukishachagua jina la utani, bofya **Jiunge** ili kuanza mtiririko wako wa moja kwa moja.
+Ili kuanzisha mtiririko wa moja kwa moja, bofya tu kitufe cha **Nenda Moja kwa Moja**, na programu ya Free2Z itaomba ruhusa ya kutumia maikrofoni na kamera yako ya wavuti (ikiwa unayo). Baada ya kutoa ruhusa zinazohitajika, Free2Z itakuomba uweke jina la utani unalotaka kutumia wakati wa mtiririko wa moja kwa moja. Ukishachagua jina la utani, bofya **Jiunge** ili kuanza mtiririko wako wa moja kwa moja.
 
 ![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
@@ -134,15 +134,15 @@ Na imekamilika! Unapoanzisha mtiririko wa moja kwa moja, wasifu wako utaonyesha 
 
 Watu wanapojiunga na mtiririko wa moja kwa moja, wanaweza kupiga gumzo, kuomba kujiunga na jukwaa, kuingiliana kwa kupiga kura katika kura za maoni, na zaidi.
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Mfano wa kipindi cha Free2z Live)_
+_(Mfano wa kipindi cha Free2Z Live)_
 
-Free2z Live ina matumizi mengi na yenye nguvu. Katika sehemu inayofuata, nitatoa muhtasari wa utendaji na zana zake.
+Free2Z Live ina matumizi mengi na yenye nguvu. Katika sehemu inayofuata, nitatoa muhtasari wa utendaji na zana zake.
 
-### Kuchunguza Free2z Moja kwa Moja
+### Kuchunguza Free2Z Moja kwa Moja
 
-Hati hii ya wiki haikusudiwi kuwa mwongozo wa kina wa Free2z au Free2z Live. Lakini hapa kuna muhtasari wa jumla wa zana zake.
+Hati hii ya wiki haikusudiwi kuwa mwongozo wa kina wa Free2Z au Free2Z Live. Lakini hapa kuna muhtasari wa jumla wa zana zake.
 
 Chini kushoto mwa skrini, tunaona vitufe vichache.
 
@@ -177,19 +177,19 @@ Sio kusudi la wiki-doc hii kuelezea programu-jalizi zote, lakini ninakuhimiza sa
 
 ## Hitimisho
 
-Kwa kumalizia, Free2z ni jukwaa linaloweza kutumika kwa waumbaji kuonyesha uwezo wao, kushiriki maarifa na kuchangisha fedha kwa ajili ya miradi yao, na kushirikiana na wafuasi wao kupitia zana yenye nguvu ya Free2z Live.
+Kwa kumalizia, Free2Z ni jukwaa linaloweza kutumika kwa waumbaji kuonyesha uwezo wao, kushiriki maarifa na kuchangisha fedha kwa ajili ya miradi yao, na kushirikiana na wafuasi wao kupitia zana yenye nguvu ya Free2Z Live.
 
 ----
 
 ### Rasilimali
 
-[Free2z](https://free2z.cash/)  
-[Nyaraka za Free2z](https://free2z.cash/docs/)  
+[Free2Z](https://free2z.cash/)  
+[Nyaraka za Free2Z](https://free2z.cash/docs/)  
 [Muhtasari wa 2Z](https://free2z.cash/docs/getting-started/tuzis)  
 [Kuunda wasifu](https://free2z.cash/docs/for-creators/creating-a-profile)  
-[Free2z Live ni nini?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Free2z kwa Wafuasi](https://free2z.cash/docs/category/for-supporters)
+[Free2Z Live ni nini?](https://free2z.cash/docs/for-creators/free2z-live)  
+[Free2Z kwa Wafuasi](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 
-_Imeandikwa na James Katz kwa ajili ya Zechub._
+_Imeandikwa na James Katz kwa ajili ya ZecHub._

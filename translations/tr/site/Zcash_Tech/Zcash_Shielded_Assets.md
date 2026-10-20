@@ -14,7 +14,7 @@ Zcash Shielded Assets (ZSA), **ZEC dışındaki** varlıkların — stablecoin'l
 - **Nedir:** ERC-20 tarzı özel varlıklar, ancak varsayılan olarak shielded.
 - **Kim geliştiriyor:** [QEDIT](https://qed-it.com/), Zcash Foundation hibesi kapsamında, Electric Coin Company ile iş birliği içinde.
 - **Nasıl tanımlanıyor:** [ZIP 226](https://zips.z.cash/zip-0226) (transfer ve burn) ile birlikte [ZIP 227](https://zips.z.cash/zip-0227) (ihraç).
-- **Durum:** mainnet'te aktif değil. ZSA protokolünün Network Upgrade 7 (NU7) içinde devreye alınması planlanıyor.
+- **Durum:** mainnet'te aktif değil ve Network Upgrade 7'nin (NU7) bir parçası değil. [ZIP 259](https://zips.z.cash/zip-0259), NU7'ün devreye aldığı her şeyi listelemesine rağmen ZIP 226 veya ZIP 227'yi içermez ve ZSA için herhangi bir etkinleştirme tarihi belirlenmemiştir.
 - **Ücretler:** taşınan varlık ne olursa olsun her zaman ZEC ile ödenir.
 
 ---
@@ -29,7 +29,7 @@ Zcash Shielded Assets, Zcash blokzinciri üzerinde özel token'ların oluşturul
 
 ZSA'ların başlıca potansiyel kullanım alanlarından biri, Zcash protokolü üzerinde stablecoin ihraç etmektir. Stablecoin'ler, değerini ABD Doları veya Euro gibi itibari para birimlerine sabitleyen kripto paralardır. Günümüzde en yaygın dolaşımdaki stablecoin'lerin bazıları [USDC](https://www.circle.com/en/usdc) ve [Dai](https://docs.makerdao.com/) gibi ERC-20 token'larıdır.
 
-ZSA'ların bir başka potansiyel kullanım alanı ise yönetişim token'larının ihraç edilmesidir. Örneğin, Zechub (bu wiki'nin yayıncısı) bir Decentralized Autonomous Organization (DAO)'dur ve tekliflerle yönetişim kararlarında oylama yapmak üzere üyelerine bir ZSA oluşturup ihraç edebilir.
+ZSA'ların bir başka potansiyel kullanım alanı ise yönetişim token'larının ihraç edilmesidir. Örneğin, ZecHub (bu wiki'nin yayıncısı) bir Decentralized Autonomous Organization (DAO)'dur ve tekliflerle yönetişim kararlarında oylama yapmak üzere üyelerine bir ZSA oluşturup ihraç edebilir.
 
 ZSA'lar, [QEDIT](https://qed-it.com/) tarafından, [Zcash Foundation](/zcash-organizations/zcash-foundation) tarafından sağlanan büyük bir hibe kapsamında, [Electric Coin Company](/zcash-organizations/electric-coin-company) ile iş birliği içinde geliştirilmektedir. Bu proje hâlen aktif olarak geliştirildiği için güncellemeler Zcash forumundaki [bu başlıkta](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) paylaşılmaktadır. QEDIT tarafından yapılan [ZSA hibe başvurusu](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) Zcash Foundation hibe sitesinde mevcuttur.
 
@@ -129,8 +129,8 @@ Bu teklifler teknik olarak [Zcash Improvement Proposal (ZIP)](https://zips.z.cas
 
 | Yaygın inanış | Gerçekte durum nedir |
 | --- | --- |
-| "ZSA'lar bugün Zcash üzerinde aktif." | Hayır. ZSA'nın Network Upgrade 7 (NU7) içinde devreye alınması planlanmaktadır ve hâlâ inceleme ile test aşamasındadır. |
-| "ZSA, Zcash'e akıllı sözleşmeler getiriyor." | ZSA, varlıkların ihraç edilmesini, transfer edilmesini ve burn edilmesini tanımlar. Genel amaçlı, programlanabilir bir sözleşme katmanı değildir. |
+| "ZSA'lar bugün Zcash üzerinde aktif." | Hayır. ZSA, [ZIP 259](https://zips.z.cash/zip-0259) tarafından ZIP 226 veya ZIP 227 olmaksızın tanımlanan Network Upgrade 7'nin (NU7) bir parçası değildir ve hâlâ inceleme ile test aşamasındadır. |
+| "ZSA, Zcash'e akıllı sözleşmeler getiriyor." | ZSA, varlıkların ihraç edilmesini, transfer edilmesini ve yakılmasını tanımlar. Genel amaçlı, programlanabilir bir sözleşme katmanı değildir. |
 | "ZSA ücretlerini ZSA token'ının kendisiyle ödeyebilirsiniz." | Ücretler ZEC ile ödenir. |
 | "Shielded ise token arzı da gizli olmalı." | ZIP 227, her varlığın arzının kamuya açık şekilde takip edilebilmesi için ihracı bilerek şeffaf kılar. Bakiyeler ve transferler gizli kalır; arz gizli kalmaz. |
 | "ZIP 230, güncel sürüm 6 işlem formatıdır." | ZIP 230 geri çekilmiştir. Sürüm 6 artık ZIP 229 tarafından tanımlanmaktadır. |
@@ -140,7 +140,7 @@ Bu teklifler teknik olarak [Zcash Improvement Proposal (ZIP)](https://zips.z.cas
 ## İlgili Sayfalar
 
 - [Halo](/zcash-tech/halo) — ZSA'nın genişlettiği protokol olan Orchard'ın arkasındaki ispat sistemi
-- [Zk-SNARKs](/zcash-tech/zk-snarks) — bir shielded transferin ifşa edilmeden doğrulanmasını sağlayan zero-knowledge ispatları
+- [zk-SNARKs](/zcash-tech/zk-snarks) — korumalı bir transferin ifşa edilmeden doğrulanmasını sağlayan zero-knowledge ispatları
 - [Shielded Pools](/using-zcash/shielded-pools) — ZSA'ların ZEC ile birlikte bulunacağı yer
 - [Transactions](/using-zcash/transactions) — bir Zcash işleminin nasıl oluşturulduğu
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — yukarıdaki ZSA demosunda kullanılan düğüm uygulaması

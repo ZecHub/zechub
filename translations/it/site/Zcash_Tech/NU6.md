@@ -25,10 +25,10 @@ Il resto del sussidio di blocco, più le commissioni di transazione, va ai miner
 
 ## Il lockbox differito
 
-La quota del 12% è la nuova idea introdotta da NU6. Invece di essere pagato a un indirizzo destinatario, quel valore viene depositato direttamente in un pool nel protocollo chiamato Deferred Dev Fund Lockbox, definito in [ZIP 2001](https://zips.z.cash/zip-2001).
+La quota del 12% è la nuova idea introdotta da NU6. Invece di essere pagato a un indirizzo destinatario, quel valore viene depositato direttamente in una pool nel protocollo chiamata Deferred Dev Fund Lockbox, definita in [ZIP 2001](https://zips.z.cash/zip-2001).
 
 1. Il lockbox è un nuovo tipo di funding stream (DEFERRED_POOL), in cui il valore della ricompensa di blocco confluisce nel protocollo stesso, non a una persona o organizzazione.
-2. La rete lo tiene traccia come saldo di un proprio pool di valore della catena, allo stesso modo in cui tiene traccia dei saldi dei pool schermati.
+2. La rete lo tiene traccia come saldo di una propria pool di valori della chain, allo stesso modo in cui tiene traccia dei saldi delle pool schermate.
 3. NU6 ha creato il lockbox intenzionalmente ma ha lasciato aperta la domanda più difficile: chi controlla quei fondi e come vengono rilasciati?
 
 A questa domanda è stata data risposta in seguito da [NU6.1](../zcash-tech/nu6-1), che ha definito la governance: ha continuato il flusso dell’8% del sussidio di blocco verso Zcash Community Grants e ha indirizzato un flusso del 12% in un fondo controllato dai detentori di monete alimentato dal lockbox.

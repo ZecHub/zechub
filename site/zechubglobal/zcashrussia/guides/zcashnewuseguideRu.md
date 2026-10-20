@@ -16,7 +16,7 @@
 
 После того, как вы купите немного ZEC, вы можете переместить их в кошелек Zcash. В этой [статье объясняется](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters), почему важно хранить ZEC в кошельке.
 
-Мы рекомендуем использовать [экранированный кошелек](https://github.com/ZecHub/zechub/blob/main/usingzec/wallets/mobileshieldedwallets.md), поскольку эти кошельки предоставляют [функции конфиденциальности](https://www.gemini.com/prices/zcash), которые делают ZEC уникальным. Вот [видео](https://www.youtube.com/watch?v=AefftLsENaU) о том, как загрузить экранированный кошелек. Вот [блог](https://zechub.substack.com/p/private-vs-transparent), объясняющий различия между различными типами кошельков Zcash.
+Мы рекомендуем использовать [экранированный кошелек](https://zechub.wiki/wallets), поскольку эти кошельки предоставляют [функции конфиденциальности](https://www.gemini.com/prices/zcash), которые делают ZEC уникальным. Вот [видео](https://www.youtube.com/watch?v=AefftLsENaU) о том, как загрузить экранированный кошелек. Вот [блог](https://zechub.substack.com/p/private-vs-transparent), объясняющий различия между различными типами кошельков Zcash.
 
 ---
 

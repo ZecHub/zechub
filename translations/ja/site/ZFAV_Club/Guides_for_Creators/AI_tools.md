@@ -47,7 +47,7 @@ X, Google, Discord, Telegramでログイン可能です。
 
 - [Midjourney Bot](https://discord.com/invite/midjourney) Discord内に存在 - 月額$10から - [開始ガイド](https://docs.midjourney.com/docs/quick-start)
 他者の画像を評価することで約100回の無料生成が可能 [ここ](https://www.midjourney.com/app/rank-pairs/)（上位2000人になる必要がある - 約15分間画像を評価する必要があります）
-- [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2) - $15/115生成 - (月額無料で15回)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2) - $15/115生成 - (月額無料で15回)
 - [DALL-E 3](https://openai.com/dall-e-3/) - ChatGPT-4に含まれています - 月額$20
 - [Nightcafe Creator](https://creator.nightcafe.studio/) (4生成無料、有料は$6/月から)
 
@@ -81,7 +81,7 @@ X, Google, Discord, Telegramでログイン可能です。
 
 ### 音声生成
 
-- [play.ht](https://play.ht/) - 無料 - （サブスクリプションは月額$39から）
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - 無料 - （サブスクリプションは月額$39から）
 - [ElevenLabs](https://elevenlabs.io/) - 無料 - （サブスクリプションは月額$5から）
 - [Murf](https://murf.ai/) - 無料 - （サブスクリプションは月額$29から）
 - [Resemble](https://www.resemble.ai/) - 無料で試用可能（0.006ドル/秒の費用が発生します）

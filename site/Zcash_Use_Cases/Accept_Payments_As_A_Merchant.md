@@ -121,7 +121,7 @@ You can:
 
 
 - [Wallets](/wallets)
-- [Privacy - Best Practices](/privacy/best-practices)
+- [Who can see your Zcash payment](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 

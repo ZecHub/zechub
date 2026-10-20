@@ -26,7 +26,7 @@ Zcash में दो प्रकार के पते होते है�
 
 ## एक explorer क्या देख सकता है
 
-एक सार्वजनिक explorer जैसे [Blockchair](https://blockchair.com/zcash) स्पष्ट रूप से यह पढ़ सकता है:
+एक सार्वजनिक explorer जैसे [ZecBlock](https://zecblock.com/) स्पष्ट रूप से यह पढ़ सकता है:
 
 - कोई भी पूरी तरह transparent (t to t) भुगतान, शुरू से अंत तक।
 - shielded pool में प्रवेश करता हुआ पैसा (transparent पक्ष और राशि)।
@@ -65,7 +65,7 @@ Zcash में दो प्रकार के पते होते है�
 - [Zcash: गोपनीयता और सुरक्षा संबंधी सिफारिशें](https://z.cash/support/security/privacy-security-recommendations/)
 - [एक shielded ecosystem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Zcash technology कैसे काम करती है](https://z.cash/technology/)
-- [Blockchair Zcash explorer](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## संबंधित पृष्ठ
 

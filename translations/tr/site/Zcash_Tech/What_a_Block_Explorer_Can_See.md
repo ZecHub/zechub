@@ -26,7 +26,7 @@ Bir **shielded adres** `z` ile başlar ve sıfır bilgi ispatlarıyla korunur. A
 
 ## Bir gezgin neleri görebilir
 
-[Blockchair](https://blockchair.com/zcash) gibi herkese açık bir gezgin şunları açıkça okuyabilir:
+[ZecBlock](https://zecblock.com/) gibi herkese açık bir gezgin şunları açıkça okuyabilir:
 
 - Baştan sona tamamen şeffaf (t'den t'ye) her ödeme.
 - Shielded pool'a giren para (şeffaf taraf ve miktar).
@@ -65,7 +65,7 @@ Ham veriyi sorguladığınızda, shielded gönderen ve alıcı alanları boş d�
 - [Zcash: gizlilik ve güvenlik önerileri](https://z.cash/support/security/privacy-security-recommendations/)
 - [Korumalı bir ekosistem (Electric Coin Company)](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 - [Zcash teknolojisi nasıl çalışır](https://z.cash/technology/)
-- [Blockchair Zcash gezgini](https://blockchair.com/zcash)
+- [ZecBlock](https://zecblock.com/)
 
 ## İlgili sayfalar
 

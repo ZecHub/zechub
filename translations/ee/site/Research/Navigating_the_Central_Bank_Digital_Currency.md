@@ -101,7 +101,7 @@ Ganyawo ƒe ameƒomeviwɔwɔ, si nye mɔkpɔkpɔ kpɔdzidzɔ tsã la le fu ɖem 
 
 Ne èle asi trɔm le gadzraɖoƒe si me ga mele o ŋu la, àkpɔe be nu siwo nèzãna va se ɖe fifia nye wò mɔfianu.
 1. Dukɔwo Dome Gadzraɖoƒegã ([BIS la](https://www.bis.org/search?keywords=cbdc))
-2. Dukɔwo Dome Gadzraɖoƒe ([IMF ƒe gadzraɖoƒe](https://www.imf.org/en/About))
+2. Dukɔwo Dome Gadzraɖoƒe ([IMF ƒe gadzraɖoƒe](https://web.archive.org/web/20260708111341/https://www.imf.org/en/about))
 3. Numekukuwo ([agbalẽvi](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Agbalẽnyalawo ƒe Nyatakakawo ([agbalẽ me](https://www.bis.org/publ/work976.pdf))
 5. C.E.I Nyatakaka ([Nyati aɖe si le Eŋlisigbe me.](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
